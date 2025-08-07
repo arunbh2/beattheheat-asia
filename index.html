@@ -1,0 +1,1937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeatTheHeat.Asia - Building Extreme Heat Resilience Across South Asia</title>
+    <meta name="description" content="A digital ecosystem accelerating action on extreme heat resilience. Connecting funders, NGOs, policymakers, and communities to protect vulnerable populations from the silent killer of climate change.">
+    
+    <style>
+        /* CSS Variables for Design System */
+        :root {
+            --primary: #FF6B35;
+            --primary-dark: #E85A2C;
+            --secondary: #2C3E50;
+            --accent: #3498DB;
+            --success: #27AE60;
+            --warning: #F39C12;
+            --danger: #E74C3C;
+            --light: #ECF0F1;
+            --dark: #1A1A2E;
+            --white: #FFFFFF;
+            --gradient-heat: linear-gradient(135deg, #FF6B35 0%, #F7931E 100%);
+            --gradient-cool: linear-gradient(135deg, #667EEA 0%, #764BA2 100%);
+            --gradient-dark: linear-gradient(135deg, #1A1A2E 0%, #2C3E50 100%);
+            --shadow-sm: 0 2px 4px rgba(0,0,0,0.1);
+            --shadow-md: 0 4px 8px rgba(0,0,0,0.15);
+            --shadow-lg: 0 10px 25px rgba(0,0,0,0.2);
+            --shadow-xl: 0 20px 40px rgba(0,0,0,0.25);
+            --radius: 8px;
+            --radius-lg: 16px;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            --font-primary: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            --font-mono: 'Courier New', monospace;
+        }
+
+        /* Reset & Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-primary);
+            color: var(--dark);
+            line-height: 1.6;
+            background: var(--white);
+            overflow-x: hidden;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 {
+            line-height: 1.2;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        h1 { font-size: clamp(2rem, 5vw, 3.5rem); }
+        h2 { font-size: clamp(1.75rem, 4vw, 2.5rem); }
+        h3 { font-size: clamp(1.5rem, 3vw, 2rem); }
+        h4 { font-size: clamp(1.25rem, 2.5vw, 1.5rem); }
+
+        p {
+            margin-bottom: 1rem;
+            color: #555;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        a:hover {
+            color: var(--primary-dark);
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header & Navigation */
+        header {
+            background: var(--white);
+            box-shadow: var(--shadow-sm);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            transition: var(--transition);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 900;
+            background: var(--gradient-heat);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logo::before {
+            content: "🔥";
+            font-size: 1.8rem;
+            -webkit-text-fill-color: initial;
+        }
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-link {
+            color: var(--dark);
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: var(--radius);
+            transition: var(--transition);
+        }
+
+        .nav-link:hover {
+            background: var(--light);
+            color: var(--primary);
+        }
+
+        .nav-link.active {
+            background: var(--gradient-heat);
+            color: var(--white);
+        }
+
+        .mobile-menu {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--dark);
+        }
+
+        /* Heat Emergency Ribbon */
+        .heat-ribbon {
+            background: var(--gradient-heat);
+            color: var(--white);
+            padding: 0.75rem;
+            text-align: center;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.9; }
+        }
+
+        .heat-indicator {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(255,255,255,0.2);
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+        }
+
+        .heat-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #FFF;
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
+        }
+
+        /* Hero Section */
+        .hero {
+            background: var(--gradient-dark);
+            color: var(--white);
+            padding: 4rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,107,53,0.1) 0%, transparent 70%);
+            animation: rotate 30s linear infinite;
+        }
+
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .hero-text h1 {
+            margin-bottom: 1.5rem;
+        }
+
+        .hero-text p {
+            font-size: 1.25rem;
+            color: rgba(255,255,255,0.9);
+            margin-bottom: 2rem;
+        }
+
+        .hero-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .stat-card {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            padding: 1rem;
+            border-radius: var(--radius);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 900;
+            color: var(--primary);
+        }
+
+        .stat-label {
+            font-size: 0.875rem;
+            color: rgba(255,255,255,0.8);
+        }
+
+        /* Button Styles */
+        .btn {
+            display: inline-block;
+            padding: 0.75rem 2rem;
+            border-radius: var(--radius);
+            font-weight: 600;
+            text-align: center;
+            transition: var(--transition);
+            cursor: pointer;
+            border: none;
+            font-size: 1rem;
+        }
+
+        .btn-primary {
+            background: var(--gradient-heat);
+            color: var(--white);
+            box-shadow: var(--shadow-md);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .btn-secondary {
+            background: var(--white);
+            color: var(--primary);
+            border: 2px solid var(--primary);
+        }
+
+        .btn-secondary:hover {
+            background: var(--primary);
+            color: var(--white);
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 4rem 0;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .section-header h2 {
+            margin-bottom: 1rem;
+        }
+
+        .section-header p {
+            font-size: 1.125rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Card Components */
+        .card {
+            background: var(--white);
+            border-radius: var(--radius-lg);
+            padding: 1.5rem;
+            box-shadow: var(--shadow-md);
+            transition: var(--transition);
+            height: 100%;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-xl);
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .card-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: var(--radius);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+
+        .card-tag {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            background: var(--light);
+            color: var(--secondary);
+            border-radius: 20px;
+            font-size: 0.875rem;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Fund Hub Section */
+        .fund-hub {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+
+        .fund-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .fund-card {
+            background: var(--white);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+            transition: var(--transition);
+        }
+
+        .fund-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-xl);
+        }
+
+        .fund-header {
+            background: var(--gradient-heat);
+            color: var(--white);
+            padding: 1.5rem;
+        }
+
+        .fund-amount {
+            font-size: 2rem;
+            font-weight: 900;
+        }
+
+        .fund-body {
+            padding: 1.5rem;
+        }
+
+        .fund-stats {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 1.5rem;
+            background: var(--light);
+        }
+
+        /* Knowledge Hub */
+        .knowledge-hub {
+            background: var(--white);
+        }
+
+        .knowledge-categories {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .category-btn {
+            padding: 0.5rem 1.5rem;
+            border: 2px solid var(--light);
+            background: var(--white);
+            border-radius: 25px;
+            cursor: pointer;
+            transition: var(--transition);
+            font-weight: 500;
+        }
+
+        .category-btn:hover,
+        .category-btn.active {
+            background: var(--gradient-heat);
+            color: var(--white);
+            border-color: transparent;
+        }
+
+        .knowledge-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .knowledge-card {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .knowledge-card .card-icon {
+            background: var(--gradient-cool);
+        }
+
+        .knowledge-meta {
+            display: flex;
+            gap: 1rem;
+            color: #666;
+            font-size: 0.875rem;
+            margin-top: 1rem;
+        }
+
+        /* Community Forum */
+        .community-forum {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: var(--white);
+        }
+
+        .forum-container {
+            background: rgba(255,255,255,0.95);
+            border-radius: var(--radius-lg);
+            padding: 2rem;
+            color: var(--dark);
+        }
+
+        .forum-thread {
+            background: var(--white);
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+        }
+
+        .forum-thread:hover {
+            box-shadow: var(--shadow-md);
+        }
+
+        .thread-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 1rem;
+        }
+
+        .thread-author {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .author-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: var(--gradient-heat);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-weight: 700;
+        }
+
+        .thread-stats {
+            display: flex;
+            gap: 1.5rem;
+            margin-top: 1rem;
+            color: #666;
+            font-size: 0.875rem;
+        }
+
+        /* Coalition Network */
+        .coalition {
+            background: var(--light);
+        }
+
+        .coalition-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .partner-card {
+            background: var(--white);
+            border-radius: var(--radius);
+            padding: 2rem;
+            text-align: center;
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+        }
+
+        .partner-card:hover {
+            transform: scale(1.05);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .partner-logo {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 1rem;
+            background: var(--gradient-cool);
+            border-radius: var(--radius);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+        }
+
+        /* Events Hub */
+        .events-hub {
+            background: var(--white);
+        }
+
+        .events-timeline {
+            position: relative;
+            padding-left: 3rem;
+        }
+
+        .events-timeline::before {
+            content: '';
+            position: absolute;
+            left: 1rem;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--gradient-heat);
+        }
+
+        .event-item {
+            position: relative;
+            margin-bottom: 2rem;
+            background: var(--white);
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .event-item::before {
+            content: '';
+            position: absolute;
+            left: -2.5rem;
+            top: 1.5rem;
+            width: 1rem;
+            height: 1rem;
+            border-radius: 50%;
+            background: var(--primary);
+            border: 3px solid var(--white);
+            box-shadow: var(--shadow-md);
+        }
+
+        .event-date {
+            background: var(--gradient-heat);
+            color: var(--white);
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.875rem;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--gradient-dark);
+            color: var(--white);
+            padding: 3rem 0 1rem;
+            margin-top: 4rem;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h4 {
+            margin-bottom: 1rem;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-links a {
+            color: rgba(255,255,255,0.8);
+        }
+
+        .footer-links a:hover {
+            color: var(--white);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            color: rgba(255,255,255,0.6);
+        }
+
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.8);
+            z-index: 2000;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: var(--white);
+            border-radius: var(--radius-lg);
+            max-width: 600px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+            position: relative;
+        }
+
+        .modal-header {
+            background: var(--gradient-heat);
+            color: var(--white);
+            padding: 1.5rem;
+            border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+        }
+
+        .modal-body {
+            padding: 2rem;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: rgba(255,255,255,0.2);
+            border: none;
+            color: var(--white);
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            transition: var(--transition);
+        }
+
+        .modal-close:hover {
+            background: rgba(255,255,255,0.3);
+        }
+
+        /* Form Styles */
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: var(--dark);
+        }
+
+        .form-input,
+        .form-textarea,
+        .form-select {
+            width: 100%;
+            padding: 0.75rem;
+            border: 2px solid var(--light);
+            border-radius: var(--radius);
+            font-size: 1rem;
+            transition: var(--transition);
+        }
+
+        .form-input:focus,
+        .form-textarea:focus,
+        .form-select:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+
+        .form-textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        /* Tabs */
+        .tabs {
+            display: flex;
+            gap: 1rem;
+            border-bottom: 2px solid var(--light);
+            margin-bottom: 2rem;
+        }
+
+        .tab-btn {
+            padding: 0.75rem 1.5rem;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-weight: 600;
+            color: #666;
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .tab-btn:hover {
+            color: var(--primary);
+        }
+
+        .tab-btn.active {
+            color: var(--primary);
+        }
+
+        .tab-btn.active::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: var(--gradient-heat);
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-menu {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--white);
+                flex-direction: column;
+                padding: 1rem;
+                box-shadow: var(--shadow-lg);
+            }
+
+            .nav-menu.active {
+                display: flex;
+            }
+
+            .mobile-menu {
+                display: block;
+            }
+
+            .hero-content {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-stats {
+                grid-template-columns: 1fr;
+            }
+
+            .btn-group {
+                flex-direction: column;
+            }
+
+            .events-timeline {
+                padding-left: 2rem;
+            }
+
+            .events-timeline::before {
+                left: 0.5rem;
+            }
+
+            .event-item::before {
+                left: -1.75rem;
+            }
+        }
+
+        /* Loading Animation */
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255,255,255,0.3);
+            border-radius: 50%;
+            border-top-color: var(--white);
+            animation: spin 1s ease-in-out infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Glassmorphism Cards */
+        .glass-card {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: var(--radius-lg);
+            padding: 2rem;
+            box-shadow: var(--shadow-lg);
+        }
+
+        /* Scroll to Top Button */
+        .scroll-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: var(--gradient-heat);
+            color: var(--white);
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            border: none;
+            cursor: pointer;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+            box-shadow: var(--shadow-lg);
+            transition: var(--transition);
+            z-index: 900;
+        }
+
+        .scroll-top.active {
+            display: flex;
+        }
+
+        .scroll-top:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- Heat Emergency Ribbon -->
+    <div class="heat-ribbon">
+        <div class="heat-indicator">
+            <span class="heat-dot"></span>
+            <span>LIVE HEAT ALERT</span>
+        </div>
+        <span>🌡️ Extreme heat conditions in Delhi, Mumbai, Kolkata today | 156 districts under heatwave warning</span>
+        <a href="#emergency-resources" style="color: white; text-decoration: underline;">Get Emergency Resources →</a>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="logo">BeatTheHeat.Asia</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#fund-hub" class="nav-link">Fund Hub</a></li>
+                <li><a href="#knowledge" class="nav-link">Knowledge</a></li>
+                <li><a href="#community" class="nav-link">Community</a></li>
+                <li><a href="#coalition" class="nav-link">Coalition</a></li>
+                <li><a href="#events" class="nav-link">Events</a></li>
+                <li><a href="#join" class="btn btn-primary">Become a Partner</a></li>
+            </ul>
+            <button class="mobile-menu" onclick="toggleMobileMenu()">☰</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Extreme Heat is a Silent Killer.<br/>Together, We Can Beat It.</h1>
+                    <p>A digital ecosystem accelerating action on extreme heat resilience across South Asia. Connecting funders, NGOs, policymakers, and communities to protect vulnerable populations.</p>
+                    <p style="font-size: 1rem; color: rgba(255,255,255,0.8); margin-top: 1rem;">
+                        <em>Conceptualized by <strong>Practical Action</strong> based on decades of work in Climate Adaptation and Disaster Risk Reduction</em>
+                    </p>
+                    <div class="btn-group">
+                        <a href="#fund-hub" class="btn btn-primary">Explore Funding →</a>
+                        <a href="#knowledge" class="btn btn-secondary">Access Knowledge</a>
+                    </div>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">259B</div>
+                        <div class="stat-label">Work hours lost annually in India</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">90%</div>
+                        <div class="stat-label">Indians vulnerable to heat impacts</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">7x</div>
+                        <div class="stat-label">Increase in urban heatwave days by 2050</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fund Heat Hub Section -->
+    <section class="fund-hub" id="fund-hub">
+        <div class="container">
+            <div class="section-header">
+                <h2>🟡 Fund Heat Hub</h2>
+                <p>Mobilizing capital for proven heat resilience solutions. Connect funding with impact.</p>
+            </div>
+
+            <div class="tabs">
+                <button class="tab-btn active" onclick="switchTab('funding-opportunities')">Funding Opportunities</button>
+                <button class="tab-btn" onclick="switchTab('solution-portfolio')">Solution Portfolio</button>
+                <button class="tab-btn" onclick="switchTab('impact-metrics')">Impact Metrics</button>
+            </div>
+
+            <div class="tab-content active" id="funding-opportunities">
+                <div class="fund-grid">
+                    <div class="fund-card">
+                        <div class="fund-header">
+                            <h3>Adaptation & Resilience Fund</h3>
+                            <div class="fund-amount">$50M</div>
+                        </div>
+                        <div class="fund-body">
+                            <p><strong>ClimateWorks Foundation</strong></p>
+                            <p>Supporting locally-led heat resilience solutions in South Asia, Southeast Asia, and Africa. First wave focusing on extreme heat in urban areas.</p>
+                            <div style="margin: 1rem 0;">
+                                <span class="card-tag">Philanthropic</span>
+                                <span class="card-tag">Multi-year</span>
+                                <span class="card-tag">Heat Focus</span>
+                            </div>
+                            <p><strong>Pillars:</strong></p>
+                            <ul style="margin-left: 1.5rem;">
+                                <li>Building evidence base</li>
+                                <li>Strengthening institutional capacity</li>
+                                <li>Unlocking innovative finance</li>
+                                <li>Coalition building</li>
+                            </ul>
+                        </div>
+                        <div class="fund-stats">
+                            <span>⏱️ Open Now</span>
+                            <a href="#" onclick="openModal('fund-details')">Apply →</a>
+                        </div>
+                    </div>
+
+                    <div class="fund-card">
+                        <div class="fund-header">
+                            <h3>National Disaster Risk Management Fund</h3>
+                            <div class="fund-amount">₹500Cr</div>
+                        </div>
+                        <div class="fund-body">
+                            <p><strong>Government of India</strong></p>
+                            <p>Supporting Heat Action Plans, early warning systems, and community resilience programs across Indian states.</p>
+                            <div style="margin: 1rem 0;">
+                                <span class="card-tag">Government</span>
+                                <span class="card-tag">Annual</span>
+                                <span class="card-tag">Infrastructure</span>
+                            </div>
+                            <p><strong>Eligible:</strong> State governments, ULBs, registered NGOs</p>
+                        </div>
+                        <div class="fund-stats">
+                            <span>📅 Q1 2025</span>
+                            <a href="#" onclick="openModal('fund-details')">Guidelines →</a>
+                        </div>
+                    </div>
+
+                    <div class="fund-card">
+                        <div class="fund-header">
+                            <h3>CSR Climate Resilience Pool</h3>
+                            <div class="fund-amount">₹250Cr</div>
+                        </div>
+                        <div class="fund-body">
+                            <p><strong>India Inc. Consortium</strong></p>
+                            <p>Pooled CSR funding from leading Indian corporates for scalable heat interventions in Tier 2/3 cities.</p>
+                            <div style="margin: 1rem 0;">
+                                <span class="card-tag">Corporate</span>
+                                <span class="card-tag">CSR</span>
+                                <span class="card-tag">Scale-up</span>
+                            </div>
+                            <p><strong>Focus Areas:</strong> Cool roofs, urban greening, worker safety</p>
+                        </div>
+                        <div class="fund-stats">
+                            <span>🎯 12 cities</span>
+                            <a href="#" onclick="openModal('fund-details')">Partner →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="solution-portfolio">
+                <div class="fund-grid">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-icon" style="background: var(--gradient-cool);">🏠</div>
+                            <div>
+                                <h4>Ahmedabad Cool Roofs Initiative</h4>
+                                <p style="color: #666; font-size: 0.875rem;">Mahila Housing Trust + AMC</p>
+                            </div>
+                        </div>
+                        <p>Solar-reflective coating reducing indoor temperatures by 2-5°C. Successfully deployed in 15,000+ slum households.</p>
+                        <div style="margin: 1rem 0;">
+                            <strong>Impact:</strong> 2-5°C temperature reduction | 75,000 beneficiaries
+                        </div>
+                        <div style="margin: 1rem 0;">
+                            <strong>Funding Needed:</strong> ₹5 Cr for 10,000 more homes
+                        </div>
+                        <button class="btn btn-primary" style="width: 100%;">Connect with Project →</button>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-icon" style="background: var(--gradient-heat);">💰</div>
+                            <div>
+                                <h4>Extreme Heat Income Insurance</h4>
+                                <p style="color: #666; font-size: 0.875rem;">SEWA + Arsht-Rock</p>
+                            </div>
+                        </div>
+                        <p>Parametric insurance providing automatic payouts to informal workers when extreme heat conditions occur.</p>
+                        <div style="margin: 1rem 0;">
+                            <strong>Impact:</strong> 50,000 women workers covered | ₹500 average payout
+                        </div>
+                        <div style="margin: 1rem 0;">
+                            <strong>Scale-up:</strong> ₹10 Cr to expand to 5 new cities
+                        </div>
+                        <button class="btn btn-primary" style="width: 100%;">Support Scaling →</button>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-icon" style="background: linear-gradient(135deg, #27AE60, #2ECC71);">🌳</div>
+                            <div>
+                                <h4>Urban Forest Initiative - Pune</h4>
+                                <p style="color: #666; font-size: 0.875rem;">PMC + Terracon Foundation</p>
+                            </div>
+                        </div>
+                        <p>Creating micro-forests using Miyawaki method, reducing local temperatures by 3-4°C and improving air quality.</p>
+                        <div style="margin: 1rem 0;">
+                            <strong>Progress:</strong> 23 forests | 1.2L trees | 45 hectares
+                        </div>
+                        <div style="margin: 1rem 0;">
+                            <strong>Expansion:</strong> ₹3 Cr for 20 new sites
+                        </div>
+                        <button class="btn btn-primary" style="width: 100%;">Fund Greening →</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="impact-metrics">
+                <div style="text-align: center; padding: 2rem;">
+                    <h3>Collective Impact Dashboard</h3>
+                    <div class="hero-stats" style="margin-top: 2rem; justify-content: center;">
+                        <div class="stat-card">
+                            <div class="stat-number">₹847 Cr</div>
+                            <div class="stat-label">Total Funding Mobilized</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">2.3M</div>
+                            <div class="stat-label">Lives Protected</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">156</div>
+                            <div class="stat-label">Projects Funded</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Knowledge Hub Section -->
+    <section class="knowledge-hub" id="knowledge">
+        <div class="container">
+            <div class="section-header">
+                <h2>🔵 Knowledge Hub</h2>
+                <p>Evidence-based solutions and best practices for heat resilience. Learn what works.</p>
+            </div>
+
+            <div class="knowledge-categories">
+                <button class="category-btn active">All Resources</button>
+                <button class="category-btn">Cool Roofs</button>
+                <button class="category-btn">Urban Planning</button>
+                <button class="category-btn">Health Systems</button>
+                <button class="category-btn">Early Warning</button>
+                <button class="category-btn">Nature-Based</button>
+                <button class="category-btn">Policy</button>
+            </div>
+
+            <div class="knowledge-grid">
+                <div class="knowledge-card card">
+                    <div class="card-header">
+                        <div class="card-icon">📋</div>
+                        <div>
+                            <h4>Heat Action Plan Toolkit</h4>
+                        </div>
+                    </div>
+                    <p>Step-by-step guide to developing city-level Heat Action Plans based on Ahmedabad's pioneering model that saved 1,190 lives annually.</p>
+                    <div style="margin: 1rem 0;">
+                        <span class="card-tag">Policy</span>
+                        <span class="card-tag">Toolkit</span>
+                        <span class="card-tag">City Officials</span>
+                    </div>
+                    <div class="knowledge-meta">
+                        <span>📥 2.3k downloads</span>
+                        <span>⏱️ 45 min read</span>
+                        <span>🔄 Updated Jan 2025</span>
+                    </div>
+                    <button class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Download Toolkit →</button>
+                </div>
+
+                <div class="knowledge-card card">
+                    <div class="card-header">
+                        <div class="card-icon">🔬</div>
+                        <div>
+                            <h4>Cool Roof Implementation Guide</h4>
+                        </div>
+                    </div>
+                    <p>Technical specifications, cost-benefit analysis, and community engagement strategies from Telangana's state-wide Cool Roof Policy.</p>
+                    <div style="margin: 1rem 0;">
+                        <span class="card-tag">Infrastructure</span>
+                        <span class="card-tag">Technical</span>
+                        <span class="card-tag">NGOs</span>
+                    </div>
+                    <div class="knowledge-meta">
+                        <span>📥 1.8k downloads</span>
+                        <span>⏱️ 30 min read</span>
+                        <span>✅ Peer reviewed</span>
+                    </div>
+                    <button class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Access Guide →</button>
+                </div>
+
+                <div class="knowledge-card card">
+                    <div class="card-header">
+                        <div class="card-icon">📊</div>
+                        <div>
+                            <h4>Heat Vulnerability Assessment</h4>
+                        </div>
+                    </div>
+                    <p>Methodology for mapping heat-vulnerable populations including informal settlements, gender analysis, and disability considerations.</p>
+                    <div style="margin: 1rem 0;">
+                        <span class="card-tag">Data</span>
+                        <span class="card-tag">Assessment</span>
+                        <span class="card-tag">Equity</span>
+                    </div>
+                    <div class="knowledge-meta">
+                        <span>📥 956 downloads</span>
+                        <span>⏱️ 60 min read</span>
+                        <span>🌍 Used in 23 cities</span>
+                    </div>
+                    <button class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Learn Method →</button>
+                </div>
+
+                <div class="knowledge-card card">
+                    <div class="card-header">
+                        <div class="card-icon">🏥</div>
+                        <div>
+                            <h4>Hospital Heat Preparedness</h4>
+                        </div>
+                    </div>
+                    <p>Protocols for healthcare facilities during heatwaves: surge capacity, staff training, ORS distribution, and patient triage systems.</p>
+                    <div style="margin: 1rem 0;">
+                        <span class="card-tag">Health</span>
+                        <span class="card-tag">Emergency</span>
+                        <span class="card-tag">Protocols</span>
+                    </div>
+                    <div class="knowledge-meta">
+                        <span>📥 678 downloads</span>
+                        <span>⏱️ 25 min read</span>
+                        <span>🏥 WHO endorsed</span>
+                    </div>
+                    <button class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Get Protocols →</button>
+                </div>
+
+                <div class="knowledge-card card">
+                    <div class="card-header">
+                        <div class="card-icon">🌳</div>
+                        <div>
+                            <h4>Urban Greening Playbook</h4>
+                        </div>
+                    </div>
+                    <p>Nature-based solutions for cooling cities: species selection, water management, and leveraging CAMPA funds for implementation.</p>
+                    <div style="margin: 1rem 0;">
+                        <span class="card-tag">Nature-Based</span>
+                        <span class="card-tag">Urban</span>
+                        <span class="card-tag">Funding</span>
+                    </div>
+                    <div class="knowledge-meta">
+                        <span>📥 1.2k downloads</span>
+                        <span>⏱️ 40 min read</span>
+                        <span>🌱 15 case studies</span>
+                    </div>
+                    <button class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Explore Solutions →</button>
+                </div>
+
+                <div class="knowledge-card card">
+                    <div class="card-header">
+                        <div class="card-icon">⚡</div>
+                        <div>
+                            <h4>Cooling Technology Catalog</h4>
+                        </div>
+                    </div>
+                    <p>Directory of innovative cooling solutions: solar cold storage, cooling vests, passive cooling designs, and affordable AC alternatives.</p>
+                    <div style="margin: 1rem 0;">
+                        <span class="card-tag">Innovation</span>
+                        <span class="card-tag">Tech</span>
+                        <span class="card-tag">Startups</span>
+                    </div>
+                    <div class="knowledge-meta">
+                        <span>📥 892 downloads</span>
+                        <span>⏱️ 35 min read</span>
+                        <span>🔧 42 technologies</span>
+                    </div>
+                    <button class="btn btn-primary" style="width: 100%; margin-top: 1rem;">View Catalog →</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Forum Section -->
+    <section class="community-forum" id="community">
+        <div class="container">
+            <div class="section-header" style="color: white;">
+                <h2>🟣 Community Forum</h2>
+                <p style="color: rgba(255,255,255,0.9);">Amplifying grassroots voices and lived experiences of extreme heat.</p>
+            </div>
+
+            <div class="forum-container">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+                    <h3>Active Discussions</h3>
+                    <button class="btn btn-primary">+ Start New Thread</button>
+                </div>
+
+                <div class="forum-thread">
+                    <div class="thread-header">
+                        <div class="thread-author">
+                            <div class="author-avatar">RK</div>
+                            <div>
+                                <strong>Rajesh Kumar</strong>
+                                <div style="color: #666; font-size: 0.875rem;">Construction Worker, Delhi</div>
+                            </div>
+                        </div>
+                        <div style="color: #666; font-size: 0.875rem;">2 hours ago</div>
+                    </div>
+                    <h4>Work site safety during afternoon heat - What are your strategies?</h4>
+                    <p>Our contractor started providing shade tents and water breaks every hour. Has anyone tried cooling vests? Looking for affordable options that actually work in 45°C heat...</p>
+                    <div class="thread-stats">
+                        <span>💬 47 replies</span>
+                        <span>👁️ 1.2k views</span>
+                        <span>🔥 Trending</span>
+                    </div>
+                </div>
+
+                <div class="forum-thread">
+                    <div class="thread-header">
+                        <div class="thread-author">
+                            <div class="author-avatar">PS</div>
+                            <div>
+                                <strong>Priya Sharma</strong>
+                                <div style="color: #666; font-size: 0.875rem;">ASHA Worker, Bhopal</div>
+                            </div>
+                        </div>
+                        <div style="color: #666; font-size: 0.875rem;">5 hours ago</div>
+                    </div>
+                    <h4>Community cooling centers - Lessons from our slum cluster</h4>
+                    <p>We converted an unused community hall into a cooling shelter. Local women's group manages it. Sharing our experience and cost breakdown for others to replicate...</p>
+                    <div class="thread-stats">
+                        <span>💬 23 replies</span>
+                        <span>👁️ 856 views</span>
+                        <span>📌 Pinned by moderator</span>
+                    </div>
+                </div>
+
+                <div class="forum-thread">
+                    <div class="thread-header">
+                        <div class="thread-author">
+                            <div class="author-avatar">AM</div>
+                            <div>
+                                <strong>Dr. Anita Mehta</strong>
+                                <div style="color: #666; font-size: 0.875rem;">Public Health Expert</div>
+                            </div>
+                        </div>
+                        <div style="color: #666; font-size: 0.875rem;">1 day ago</div>
+                    </div>
+                    <h4>📊 Ask Me Anything: Heat-related health impacts and prevention</h4>
+                    <p>I'm conducting a session on recognizing and treating heat illness. Post your questions about symptoms, first aid, vulnerable groups, or prevention strategies...</p>
+                    <div class="thread-stats">
+                        <span>💬 89 replies</span>
+                        <span>👁️ 3.4k views</span>
+                        <span>✅ Expert verified</span>
+                    </div>
+                </div>
+
+                <div style="text-align: center; margin-top: 2rem;">
+                    <button class="btn btn-secondary">Load More Discussions →</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coalition Network Section -->
+    <section class="coalition" id="coalition">
+        <div class="container">
+            <div class="section-header">
+                <h2>🟢 Coalition Network</h2>
+                <p>Building a movement for heat resilience. Join us as we unite organizations across South Asia.</p>
+            </div>
+
+            <div style="background: var(--gradient-heat); color: white; padding: 2rem; border-radius: var(--radius-lg); margin-bottom: 3rem; text-align: center;">
+                <h3>Our Collective Vision</h3>
+                <p style="color: white; font-size: 1.125rem; margin: 1rem 0;">We envision a coalition of organizations committed to safeguarding communities in Asia from extreme heat. Together, we will share knowledge, align resources, and advocate for policies to build heat resilience.</p>
+                <div class="btn-group" style="justify-content: center; margin-top: 1.5rem;">
+                    <button class="btn btn-secondary" onclick="openModal('join')">Become a Founding Partner →</button>
+                    <button class="btn btn-secondary">Download Partnership Framework →</button>
+                </div>
+            </div>
+
+            <!-- Backbone Organization Section -->
+            <div style="margin-bottom: 3rem;">
+                <h3 style="text-align: center; margin-bottom: 2rem;">Backbone Organization</h3>
+                <div style="background: linear-gradient(135deg, #2C3E50, #34495E); color: white; padding: 2rem; border-radius: var(--radius-lg); max-width: 800px; margin: 0 auto;">
+                    <div style="text-align: center;">
+                        <h3 style="color: white; font-size: 2rem; margin-bottom: 1rem;">Practical Action</h3>
+                        <p style="color: rgba(255,255,255,0.95); font-size: 1.125rem; line-height: 1.8;">
+                            With over 50 years of experience in Climate Adaptation and Disaster Risk Reduction, 
+                            Practical Action serves as the backbone organization for BeatTheHeat.Asia. 
+                            Our deep field experience, technical expertise, and community-centered approach 
+                            ensures this platform addresses real needs with practical solutions.
+                        </p>
+                        <div style="margin-top: 1.5rem;">
+                            <span class="card-tag" style="background: rgba(255,255,255,0.2); color: white; margin: 0.25rem;">Climate Adaptation Leader</span>
+                            <span class="card-tag" style="background: rgba(255,255,255,0.2); color: white; margin: 0.25rem;">50+ Years Experience</span>
+                            <span class="card-tag" style="background: rgba(255,255,255,0.2); color: white; margin: 0.25rem;">Community-Centered</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Anchor Donor Section -->
+            <div style="margin-bottom: 3rem;">
+                <h3 style="text-align: center; margin-bottom: 2rem;">Seeking Anchor Donor Partnership</h3>
+                <div style="background: var(--gradient-cool); color: white; padding: 2rem; border-radius: var(--radius-lg); max-width: 800px; margin: 0 auto; text-align: center;">
+                    <h4 style="color: white; margin-bottom: 1rem;">Join Us as the Founding Anchor Donor</h4>
+                    <p style="color: rgba(255,255,255,0.9);">
+                        We are seeking a visionary philanthropic partner to champion this critical initiative. 
+                        As the anchor donor, you will catalyze a movement that protects millions from extreme heat 
+                        while building a sustainable ecosystem for long-term resilience.
+                    </p>
+                    <div style="margin: 2rem 0; padding: 1.5rem; background: rgba(255,255,255,0.1); border-radius: var(--radius);">
+                        <p style="color: white; font-style: italic; margin-bottom: 1rem;">
+                            "We are in active discussions with leading climate philanthropies who share our vision for scalable heat resilience solutions."
+                        </p>
+                        <button class="btn btn-secondary" onclick="openModal('anchor')">Explore Anchor Partnership →</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Future Partners Section -->
+            <h3 style="text-align: center; margin-bottom: 2rem;">Join as a Founding Partner</h3>
+            <p style="text-align: center; max-width: 600px; margin: 0 auto 2rem; color: #666;">
+                We are actively building our coalition. Be among the first to shape the future of heat resilience in South Asia.
+            </p>
+            
+            <div class="coalition-grid">
+                <div class="partner-card" style="border: 2px dashed #ccc; background: #f9f9f9;">
+                    <div class="partner-logo" style="background: #e0e0e0; color: #999;">?</div>
+                    <h4 style="color: #999;">Your Organization</h4>
+                    <p style="font-size: 0.875rem; color: #999;">Funder Partner</p>
+                    <p style="font-size: 0.875rem; color: #666;">Support innovative heat solutions and scale proven interventions</p>
+                    <button class="btn btn-primary" style="width: 100%; margin-top: 1rem;" onclick="openModal('join')">Apply →</button>
+                </div>
+
+                <div class="partner-card" style="border: 2px dashed #ccc; background: #f9f9f9;">
+                    <div class="partner-logo" style="background: #e0e0e0; color: #999;">?</div>
+                    <h4 style="color: #999;">Your Organization</h4>
+                    <p style="font-size: 0.875rem; color: #999;">Implementation Partner</p>
+                    <p style="font-size: 0.875rem; color: #666;">Deploy on-ground solutions and share field insights</p>
+                    <button class="btn btn-primary" style="width: 100%; margin-top: 1rem;" onclick="openModal('join')">Apply →</button>
+                </div>
+
+                <div class="partner-card" style="border: 2px dashed #ccc; background: #f9f9f9;">
+                    <div class="partner-logo" style="background: #e0e0e0; color: #999;">?</div>
+                    <h4 style="color: #999;">Your Organization</h4>
+                    <p style="font-size: 0.875rem; color: #999;">Research Partner</p>
+                    <p style="font-size: 0.875rem; color: #666;">Generate evidence and validate solutions</p>
+                    <button class="btn btn-primary" style="width: 100%; margin-top: 1rem;" onclick="openModal('join')">Apply →</button>
+                </div>
+
+                <div class="partner-card" style="border: 2px dashed #ccc; background: #f9f9f9;">
+                    <div class="partner-logo" style="background: #e0e0e0; color: #999;">?</div>
+                    <h4 style="color: #999;">Your Organization</h4>
+                    <p style="font-size: 0.875rem; color: #999;">Government Partner</p>
+                    <p style="font-size: 0.875rem; color: #666;">Implement policies and scale solutions</p>
+                    <button class="btn btn-primary" style="width: 100%; margin-top: 1rem;" onclick="openModal('join')">Apply →</button>
+                </div>
+
+                <div class="partner-card" style="border: 2px dashed #ccc; background: #f9f9f9;">
+                    <div class="partner-logo" style="background: #e0e0e0; color: #999;">?</div>
+                    <h4 style="color: #999;">Your Organization</h4>
+                    <p style="font-size: 0.875rem; color: #999;">Technology Partner</p>
+                    <p style="font-size: 0.875rem; color: #666;">Innovate cooling solutions and early warning systems</p>
+                    <button class="btn btn-primary" style="width: 100%; margin-top: 1rem;" onclick="openModal('join')">Apply →</button>
+                </div>
+
+                <div class="partner-card" style="border: 2px dashed #ccc; background: #f9f9f9;">
+                    <div class="partner-logo" style="background: #e0e0e0; color: #999;">?</div>
+                    <h4 style="color: #999;">Your Organization</h4>
+                    <p style="font-size: 0.875rem; color: #999;">Community Partner</p>
+                    <p style="font-size: 0.875rem; color: #666;">Amplify grassroots voices and local solutions</p>
+                    <button class="btn btn-primary" style="width: 100%; margin-top: 1rem;" onclick="openModal('join')">Apply →</button>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 3rem;">
+                <h4>Why Join the Coalition?</h4>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 2rem; max-width: 800px; margin: 2rem auto;">
+                    <div>
+                        <div style="font-size: 2rem; margin-bottom: 0.5rem;">🤝</div>
+                        <strong>Collective Impact</strong>
+                        <p style="font-size: 0.875rem; color: #666;">Multiply your impact through coordinated action</p>
+                    </div>
+                    <div>
+                        <div style="font-size: 2rem; margin-bottom: 0.5rem;">📊</div>
+                        <strong>Shared Learning</strong>
+                        <p style="font-size: 0.875rem; color: #666;">Access evidence and best practices from the field</p>
+                    </div>
+                    <div>
+                        <div style="font-size: 2rem; margin-bottom: 0.5rem;">🎯</div>
+                        <strong>Strategic Alignment</strong>
+                        <p style="font-size: 0.875rem; color: #666;">Coordinate funding and avoid duplication</p>
+                    </div>
+                </div>
+                <button class="btn btn-primary" style="margin-top: 2rem;" onclick="openModal('join')">Start Your Partnership Journey →</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Hub Section -->
+    <section class="events-hub" id="events">
+        <div class="container">
+            <div class="section-header">
+                <h2>🔴 Events Hub</h2>
+                <p>Convening minds and hearts to accelerate heat action through knowledge exchange.</p>
+            </div>
+
+            <div class="tabs">
+                <button class="tab-btn active" onclick="switchEventTab('upcoming')">Upcoming Events</button>
+                <button class="tab-btn" onclick="switchEventTab('past')">Past Events</button>
+                <button class="tab-btn" onclick="switchEventTab('resources')">Event Resources</button>
+            </div>
+
+            <div class="tab-content active" id="upcoming-events">
+                <div class="events-timeline">
+                    <div class="event-item">
+                        <span class="event-date">Feb 15, 2025</span>
+                        <h4>🎯 Heat Funders Roundtable (Virtual)</h4>
+                        <p>Exclusive gathering of philanthropies to align grant-making strategies for heat resilience. Co-hosted with India Climate Collaborative.</p>
+                        <div style="margin: 1rem 0;">
+                            <span class="card-tag">Invite Only</span>
+                            <span class="card-tag">Funders</span>
+                            <span class="card-tag">Strategy</span>
+                        </div>
+                        <button class="btn btn-primary">Request Invitation →</button>
+                    </div>
+
+                    <div class="event-item">
+                        <span class="event-date">Mar 3-4, 2025</span>
+                        <h4>🏛️ National Heat Action Plan Workshop</h4>
+                        <p>Two-day intensive for city officials from 20 cities. Learn from Ahmedabad, Surat, and Nagpur's successful HAP implementation.</p>
+                        <div style="margin: 1rem 0;">
+                            <span class="card-tag">In-person</span>
+                            <span class="card-tag">Delhi</span>
+                            <span class="card-tag">City Officials</span>
+                        </div>
+                        <button class="btn btn-primary">Register Now →</button>
+                    </div>
+
+                    <div class="event-item">
+                        <span class="event-date">Mar 20, 2025</span>
+                        <h4>📊 Webinar: Pre-Summer Heat Outlook 2025</h4>
+                        <p>IMD meteorologists and health experts brief on expected heat patterns and preparedness measures for the upcoming summer.</p>
+                        <div style="margin: 1rem 0;">
+                            <span class="card-tag">Virtual</span>
+                            <span class="card-tag">Public</span>
+                            <span class="card-tag">Forecast</span>
+                        </div>
+                        <button class="btn btn-primary">Save Your Spot →</button>
+                    </div>
+
+                    <div class="event-item">
+                        <span class="event-date">Apr 7, 2025</span>
+                        <h4>🌍 World Health Day: Heat & Health Summit</h4>
+                        <p>One-day summit on protecting public health from extreme heat. Features global experts and local practitioners.</p>
+                        <div style="margin: 1rem 0;">
+                            <span class="card-tag">Hybrid</span>
+                            <span class="card-tag">Mumbai</span>
+                            <span class="card-tag">Health Focus</span>
+                        </div>
+                        <button class="btn btn-primary">Learn More →</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="past-events">
+                <div class="knowledge-grid">
+                    <div class="card">
+                        <h4>Global Heat & Cooling Forum 2025</h4>
+                        <p>Key takeaways from New Delhi's major convening on sustainable cooling and heat resilience.</p>
+                        <div class="knowledge-meta">
+                            <span>📅 Jan 15-16, 2025</span>
+                            <span>👥 500+ attendees</span>
+                        </div>
+                        <button class="btn btn-secondary" style="width: 100%; margin-top: 1rem;">View Summary →</button>
+                    </div>
+
+                    <div class="card">
+                        <h4>Community Voices: Heat Stories from the Frontline</h4>
+                        <p>Powerful testimonies from informal workers, slum residents, and farmers on heat impacts.</p>
+                        <div class="knowledge-meta">
+                            <span>📅 Dec 10, 2024</span>
+                            <span>🎥 Recording available</span>
+                        </div>
+                        <button class="btn btn-secondary" style="width: 100%; margin-top: 1rem;">Watch Recording →</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="resources">
+                <div style="text-align: center; padding: 2rem;">
+                    <h3>Event Resources & Archives</h3>
+                    <p>Access presentations, recordings, and summaries from past events.</p>
+                    <button class="btn btn-primary" style="margin-top: 1rem;">Browse Archive →</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section style="background: var(--gradient-heat); color: white; padding: 4rem 0;">
+        <div class="container" style="text-align: center;">
+            <h2 style="color: white; margin-bottom: 1rem;">Ready to Beat the Heat?</h2>
+            <p style="color: white; font-size: 1.25rem; margin-bottom: 2rem;">Join the movement to protect millions from extreme heat</p>
+            <div class="btn-group" style="justify-content: center;">
+                <button class="btn btn-secondary" onclick="openModal('join')">Join the Coalition</button>
+                <button class="btn btn-secondary" onclick="openModal('fund')">Fund Solutions</button>
+                <button class="btn btn-secondary" onclick="openModal('newsletter')">Get Updates</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About BeatTheHeat.Asia</h4>
+                    <p style="color: rgba(255,255,255,0.8);">A digital ecosystem conceptualized by Practical Action to accelerate action on extreme heat resilience across South Asia through knowledge, funding, and coalition building. Built on decades of experience in Climate Adaptation and Disaster Risk Reduction.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#fund-hub">Fund Heat Hub</a></li>
+                        <li><a href="#knowledge">Knowledge Hub</a></li>
+                        <li><a href="#community">Community Forum</a></li>
+                        <li><a href="#coalition">Join Coalition</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Heat Action Plan Toolkit</a></li>
+                        <li><a href="#">Emergency Guidelines</a></li>
+                        <li><a href="#">Research Library</a></li>
+                        <li><a href="#">Media Kit</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">partnerships@practicalaction.org</a></li>
+                        <li><a href="#">Twitter/X</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 BeatTheHeat.Asia | Conceptualized and Developed by <strong>Practical Action</strong> | <a href="#" style="color: rgba(255,255,255,0.6);">Privacy</a> | <a href="#" style="color: rgba(255,255,255,0.6);">Terms</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">×</button>
+            <div class="modal-header">
+                <h3 id="modal-title">Become a Founding Partner</h3>
+            </div>
+            <div class="modal-body" id="modal-body">
+                <form>
+                    <p style="margin-bottom: 1.5rem; color: #666;">Join us as a founding partner in building South Asia's premier heat resilience platform. Shape the future of climate adaptation with Practical Action.</p>
+                    <div class="form-group">
+                        <label class="form-label">Organization Name *</label>
+                        <input type="text" class="form-input" placeholder="Enter your organization name">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Organization Type *</label>
+                        <select class="form-select">
+                            <option>Select type...</option>
+                            <option>NGO/Non-profit</option>
+                            <option>Government Agency</option>
+                            <option>Funder/Foundation</option>
+                            <option>Academic Institution</option>
+                            <option>Private Sector</option>
+                            <option>Media</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Contact Person *</label>
+                        <input type="text" class="form-input" placeholder="Full name">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Email *</label>
+                        <input type="email" class="form-input" placeholder="contact@organization.org">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">How would you like to contribute as a founding partner?</label>
+                        <textarea class="form-textarea" placeholder="Tell us about your interest in heat resilience and how you'd like to help shape this initiative..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Partnership Application</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" onclick="scrollToTop()">↑</button>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile Menu Toggle
+        function toggleMobileMenu() {
+            const menu = document.querySelector('.nav-menu');
+            menu.classList.toggle('active');
+        }
+
+        // Tab Switching
+        function switchTab(tabId) {
+            // Hide all tab contents
+            document.querySelectorAll('.tab-content').forEach(content => {
+                content.classList.remove('active');
+            });
+            
+            // Show selected tab content
+            document.getElementById(tabId).classList.add('active');
+            
+            // Update tab buttons
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+        }
+
+        function switchEventTab(tabId) {
+            // Hide all event tab contents
+            document.querySelectorAll('#events .tab-content').forEach(content => {
+                content.classList.remove('active');
+            });
+            
+            // Show selected tab content
+            document.getElementById(tabId + '-events').classList.add('active');
+            
+            // Update tab buttons
+            document.querySelectorAll('#events .tab-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+        }
+
+        // Modal Functions
+        function openModal(type) {
+            const modal = document.getElementById('modal');
+            const modalTitle = document.getElementById('modal-title');
+            const modalBody = document.getElementById('modal-body');
+            
+            if (type === 'join') {
+                modalTitle.textContent = 'Become a Founding Partner';
+                // Form content already in HTML
+            } else if (type === 'anchor') {
+                modalTitle.textContent = 'Anchor Donor Partnership';
+                modalBody.innerHTML = `
+                    <div style="padding: 1rem;">
+                        <h4>Transform Heat Resilience Across South Asia</h4>
+                        <p>As the anchor donor for BeatTheHeat.Asia, you will:</p>
+                        <ul style="margin-left: 1.5rem; margin-bottom: 1.5rem;">
+                            <li>Catalyze a pan-Asian movement on extreme heat</li>
+                            <li>Enable evidence-based solutions to scale across cities</li>
+                            <li>Build the field through knowledge and coalition building</li>
+                            <li>Protect millions of vulnerable lives from heat impacts</li>
+                        </ul>
+                        <p><strong>Investment Opportunity:</strong> $2-5M over 3 years</p>
+                        <p><strong>Expected Impact:</strong></p>
+                        <ul style="margin-left: 1.5rem; margin-bottom: 1.5rem;">
+                            <li>Platform reaching 100+ cities</li>
+                            <li>Coalition of 50+ organizations</li>
+                            <li>$50M+ in aligned funding mobilized</li>
+                            <li>2M+ lives directly protected</li>
+                        </ul>
+                        <p style="font-style: italic; color: #666;">Contact Practical Action's leadership team to explore this transformative partnership opportunity.</p>
+                        <div style="margin-top: 1.5rem;">
+                            <p><strong>Contact:</strong> partnerships@practicalaction.org</p>
+                            <button class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Schedule Strategic Discussion →</button>
+                        </div>
+                    </div>
+                `;
+            } else if (type === 'fund') {
+                modalTitle.textContent = 'Fund Heat Solutions';
+                modalBody.innerHTML = `
+                    <p>Thank you for your interest in funding heat resilience solutions. Please contact us to discuss partnership opportunities:</p>
+                    <p><strong>Email:</strong> partnerships@beattheheat.asia</p>
+                    <p><strong>Phone:</strong> +91 22 1234 5678</p>
+                    <button class="btn btn-primary" style="width: 100%;">Schedule a Call →</button>
+                `;
+            } else if (type === 'newsletter') {
+                modalTitle.textContent = 'Stay Updated';
+                modalBody.innerHTML = `
+                    <form>
+                        <div class="form-group">
+                            <label class="form-label">Email Address *</label>
+                            <input type="email" class="form-input" placeholder="your@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Interest Areas</label>
+                            <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                                <label><input type="checkbox"> Funding Opportunities</label>
+                                <label><input type="checkbox"> Research & Knowledge</label>
+                                <label><input type="checkbox"> Events & Workshops</label>
+                                <label><input type="checkbox"> Policy Updates</label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Subscribe</button>
+                    </form>
+                `;
+            } else if (type === 'fund-details') {
+                modalTitle.textContent = 'Funding Application';
+                modalBody.innerHTML = `
+                    <p>Complete application guidelines and forms are available for registered users.</p>
+                    <button class="btn btn-primary" style="width: 100%;">Register to Apply →</button>
+                `;
+            }
+            
+            modal.classList.add('active');
+        }
+
+        function closeModal() {
+            document.getElementById('modal').classList.remove('active');
+        }
+
+        // Smooth Scrolling for Navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Active Navigation Highlighting
+        window.addEventListener('scroll', () => {
+            let current = '';
+            const sections = document.querySelectorAll('section');
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (window.pageYOffset >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').slice(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+
+            // Show/hide scroll to top button
+            const scrollBtn = document.querySelector('.scroll-top');
+            if (window.pageYOffset > 300) {
+                scrollBtn.classList.add('active');
+            } else {
+                scrollBtn.classList.remove('active');
+            }
+        });
+
+        // Scroll to Top
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        // Form Submission (Placeholder)
+        document.querySelectorAll('form').forEach(form => {
+            form.addEventListener('submit', (e) => {
+                e.preventDefault();
+                alert('Thank you for your submission! We will contact you soon.');
+                closeModal();
+            });
+        });
+
+        // Category Filter (Knowledge Hub)
+        document.querySelectorAll('.category-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                // In a real implementation, this would filter the knowledge cards
+            });
+        });
+
+        // Animate on Scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all cards
+        document.querySelectorAll('.card, .fund-card, .partner-card, .forum-thread, .event-item').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.5s, transform 0.5s';
+            observer.observe(el);
+        });
+
+        // Heat Alert Animation
+        setInterval(() => {
+            const heatDot = document.querySelector('.heat-dot');
+            if (heatDot) {
+                heatDot.style.background = heatDot.style.background === 'red' ? '#FFF' : 'red';
+            }
+        }, 1000);
+
+        // Simulated Live Data Updates
+        setInterval(() => {
+            const statNumbers = document.querySelectorAll('.stat-number');
+            // This would connect to real APIs in production
+        }, 30000);
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('BeatTheHeat.Asia Platform Initialized');
+            console.log('Conceptualized by Practical Action');
+            console.log('Seeking Founding Partners and Anchor Donor');
+        });
+    </script>
+</body>
+</html>
