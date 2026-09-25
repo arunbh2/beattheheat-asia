@@ -52,7 +52,11 @@
       "name": "Bangkok",
       "address": { "@type": "PostalAddress", "addressLocality": "Bangkok", "addressCountry": "TH" }
     },
-    "image": ["https://beattheheat.asia/images/SOCIAL_SHARE_IMAGE.jpg"]
+    "image": ["https://beattheheat.asia/images/SOCIAL_SHARE_IMAGE.jpg"],
+    "organizer": [
+      { "@type": "Organization", "name": "Practical Action", "url": "https://practicalaction.org/" },
+      { "@type": "Organization", "name": "Council on Energy, Environment and Water (CEEW)", "url": "https://www.ceew.in/" }
+    ]
   }
   </script>
 </head>
@@ -105,6 +109,13 @@
           Join the waitlist<span class="visually-hidden"> (opens in a new tab)</span>
         </a>
         <p class="microcopy">Places are limited.</p>
+
+        <p class="hero__cohosts">
+          Co-hosted by
+          <a href="https://practicalaction.org/" target="_blank" rel="noopener noreferrer">Practical Action</a>
+          <span aria-hidden="true">&amp;</span>
+          <a href="https://www.ceew.in/" target="_blank" rel="noopener noreferrer">CEEW</a>
+        </p>
       </div>
     </section>
 
@@ -204,6 +215,29 @@
 
 
     <!-- ============================================================
+         CO-HOSTS
+         Names are set in type (no logos) so the page keeps one voice.
+         ============================================================ -->
+    <section class="cohosts" aria-labelledby="cohosts-title">
+      <div class="container cohosts__inner">
+        <h2 id="cohosts-title" class="cohosts__label">Co-hosted by</h2>
+
+        <a class="cohost" href="https://practicalaction.org/" target="_blank" rel="noopener noreferrer">
+          <span class="cohost__name">Practical Action</span>
+          <span class="cohost__desc">An international development organisation that puts ingenious ideas to work so people in poverty can change their world.</span>
+          <span class="cohost__url">practicalaction.org<span class="visually-hidden"> (opens in a new tab)</span></span>
+        </a>
+
+        <a class="cohost" href="https://www.ceew.in/" target="_blank" rel="noopener noreferrer">
+          <span class="cohost__name">Council on Energy, Environment and Water</span>
+          <span class="cohost__desc">CEEW — one of Asia’s leading not-for-profit policy research institutions.</span>
+          <span class="cohost__url">ceew.in<span class="visually-hidden"> (opens in a new tab)</span></span>
+        </a>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
          SECTION 5 — FINAL CALL TO ACTION
          IMAGE: images/IMAGE_05_CLOSING.jpg
          Full-width on larger screens with the text on the right;
@@ -237,6 +271,7 @@
        ============================================================ -->
   <footer class="site-footer">
     <p class="site-footer__brand">BeatTheHeat.Asia</p>
+    <p>Co-hosted by Practical Action &amp; CEEW</p>
     <p>Bangkok Climate Action Week 2026</p>
     <p>10 October · Bangkok</p>
   </footer>
