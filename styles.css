@@ -274,6 +274,10 @@ h1, h2, h3, p { margin: 0; }
   letter-spacing: -0.01em;
   text-transform: uppercase;
 }
+@media (min-width: 900px) {
+  /* On short laptop screens, scale the title to the height too */
+  .hero__title { font-size: min(clamp(3rem, 1.2rem + 8.4vw, 8.25rem), 12.5vh); }
+}
 
 .hero__subtitle {
   max-width: 28ch;
@@ -543,6 +547,107 @@ h1, h2, h3, p { margin: 0; }
     font-size: 2.25rem;
   }
   .chain__step p { font-size: 1.125rem; }
+}
+
+/* ---------- Hero co-host credit ---------- */
+.hero__cohosts {
+  margin-top: clamp(24px, 3vw, 36px);
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.75);
+}
+.hero__cohosts a {
+  color: var(--paper);
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 2px solid var(--yellow);
+}
+.hero__cohosts a:hover { color: var(--yellow); }
+.hero__cohosts span { color: var(--yellow); padding-inline: 2px; }
+
+/* ---------- Co-hosts band ---------- */
+.cohosts {
+  background: var(--grey-050);
+  padding-block: clamp(48px, 7vw, 88px);
+}
+
+.cohosts__inner {
+  display: grid;
+  gap: 0;
+}
+
+.cohosts__label {
+  padding-bottom: 16px;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.cohosts__label::before {
+  content: "";
+  width: 32px;
+  height: 4px;
+  background: var(--yellow);
+}
+
+.cohost {
+  display: grid;
+  gap: 10px;
+  padding: 24px 0 28px;
+  border-top: 2px solid var(--ink);
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.cohost__name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(1.9rem, 1.3rem + 2vw, 2.75rem);
+  line-height: 1;
+  text-transform: uppercase;
+  text-wrap: balance;
+}
+
+.cohost__desc {
+  max-width: 30rem;
+  font-size: 1.05rem;
+  color: var(--grey-700);
+}
+
+.cohost__url {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.cohost__url::after {
+  content: " ↗";
+  font-family: var(--font-body);
+}
+
+.cohost:hover .cohost__name,
+.cohost:focus-visible .cohost__name {
+  text-decoration: underline;
+  text-decoration-color: var(--yellow);
+  text-decoration-thickness: 4px;
+  text-underline-offset: 6px;
+}
+
+@media (min-width: 900px) {
+  .cohosts__inner {
+    grid-template-columns: minmax(0, 0.7fr) minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: clamp(32px, 4vw, 64px);
+    align-items: start;
+  }
+  .cohosts__label { padding-top: 26px; border-top: 2px solid var(--ink); }
 }
 
 /* ---------- 5. Closing CTA ---------- */
