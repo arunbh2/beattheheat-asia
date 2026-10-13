@@ -8,9 +8,12 @@
   <meta name="description" content="Extreme heat is a global health emergency. An interactive map of how it ripples through ten systems, the vicious cycles that make it worse, where they can be broken, and who holds the levers.">
   <meta name="theme-color" content="#16202B">
   <link rel="canonical" href="https://beattheheat.asia/">
+  <meta name="author" content="Arunabha Bhattacharya">
+  <link rel="author" href="https://www.linkedin.com/in/arunabhabhattacharya">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="BeatTheHeat.Asia">
+  <meta property="article:author" content="https://www.linkedin.com/in/arunabhabhattacharya">
   <meta property="og:url" content="https://beattheheat.asia/">
   <meta property="og:title" content="Extreme heat is a wicked problem">
   <meta property="og:description" content="A global health emergency, and an urgent and growing threat. Explore the vicious cycles of extreme heat, and where they can be broken.">
@@ -30,6 +33,27 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap">
 
   <link rel="stylesheet" href="styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Extreme heat is a wicked problem",
+    "alternateName": "BeatTheHeat.Asia",
+    "url": "https://beattheheat.asia/",
+    "description": "An interactive systems map of extreme heat: ten systems, the vicious cycles that make heat worse, where they can be broken, and the institutions that hold the levers.",
+    "inLanguage": "en",
+    "creator": { "@id": "#arunabha" },
+    "author": {
+      "@type": "Person",
+      "@id": "#arunabha",
+      "name": "Arunabha Bhattacharya",
+      "jobTitle": "Climate resilience and systems strategist",
+      "url": "https://www.linkedin.com/in/arunabhabhattacharya",
+      "sameAs": ["https://www.linkedin.com/in/arunabhabhattacharya"]
+    }
+  }
+  </script>
   <script src="data.js" defer></script>
   <script src="script.js" defer></script>
 </head>
@@ -62,7 +86,8 @@
           <div class="stat--break"><dt>Places to break them</dt><dd data-stat="levers">25</dd></div>
           <div><dt>Institutions holding levers</dt><dd data-stat="institutions">14</dd></div>
         </dl>
-        <p class="honest">This map is large, but the real web is larger. Every heatwave reveals links that aren’t drawn here yet.</p>
+        <p class="honest">This map is large, but the real web is larger. Every heatwave reveals links that aren’t drawn here yet.
+          <a class="missing-link" href="https://www.linkedin.com/in/arunabhabhattacharya" target="_blank" rel="noopener author">Know a link, a loop or a lever that’s missing? Tell Arunabha Bhattacharya <span aria-hidden="true">→</span><span class="visually-hidden"> (opens LinkedIn in a new tab)</span></a></p>
       </div>
     </section>
 
@@ -140,6 +165,11 @@
               <ul id="multi-levers" class="pp-list"></ul>
             </div>
             <p class="leverage__note">“Well established” loops are widely documented. For loops marked “Evidence emerging”, each link is evidenced, but the full cycle has been studied less.</p>
+            <a class="missing-card" href="https://www.linkedin.com/in/arunabhabhattacharya" target="_blank" rel="noopener author">
+              <span class="missing-card__q">Know a loop or lever that’s missing?</span>
+              <span class="missing-card__a">Tell Arunabha Bhattacharya <span aria-hidden="true">→</span></span>
+              <span class="visually-hidden"> (opens LinkedIn in a new tab)</span>
+            </a>
           </aside>
         </div>
       </div>
@@ -200,6 +230,27 @@
     </section>
 
 
+    <!-- ============ ABOUT THIS MAP ============ -->
+    <section class="about" aria-labelledby="about-title">
+      <div class="container about__inner">
+        <div class="about__mark" aria-hidden="true">AB</div>
+        <div class="about__body">
+          <p class="eyebrow">About this map</p>
+          <h2 id="about-title" class="about__title">Created by Arunabha Bhattacharya</h2>
+          <p class="about__role">Climate resilience and systems strategist</p>
+          <p class="about__text">Built to make the complexity of extreme heat visible, and to show where it can be broken and who can break it. A living map: it grows as people add what’s missing.</p>
+          <p class="about__text about__text--ask">Working on heat, health, cities, finance or livelihoods? Let’s find the loops your institution can break.</p>
+          <div class="about__actions">
+            <a class="btn btn--cta" href="https://www.linkedin.com/in/arunabhabhattacharya" target="_blank" rel="noopener author">Explore working together <span aria-hidden="true">→</span><span class="visually-hidden"> (opens LinkedIn in a new tab)</span></a>
+            <button class="btn btn--ghost" type="button" id="cite-btn">Cite this map</button>
+          </div>
+          <p class="cite" id="cite-text">Bhattacharya, A. (2026). <em>Extreme heat is a wicked problem: an interactive systems map.</em> BeatTheHeat.Asia. https://beattheheat.asia</p>
+          <p class="cite-status" id="cite-status" role="status" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+
     <!-- ============ 7. TEXT VERSION ============ -->
     <section class="text-version" aria-labelledby="list-title">
       <div class="container">
@@ -213,6 +264,7 @@
 
   <footer class="site-footer">
     <p class="site-footer__brand">BeatTheHeat.Asia</p>
+    <p>Mapped by <a href="https://www.linkedin.com/in/arunabhabhattacharya" target="_blank" rel="noopener author">Arunabha Bhattacharya</a>, climate resilience and systems strategist</p>
   </footer>
 </body>
 </html>

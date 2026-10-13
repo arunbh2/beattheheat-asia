@@ -52,6 +52,12 @@ Rules that keep the map working:
 
 ---
 
+## Your name and link on the site
+
+Your name, the line "Climate resilience and systems strategist" and your LinkedIn link appear in `index.html` in five places: the hidden author details at the top (for search engines and AI assistants), the "missing link" invitations, the **About this map** section, the "Cite this map" citation and the footer. To change any of them, open `index.html`, press **Ctrl/Cmd + F** and search for `arunabhabhattacharya` or `Climate resilience`.
+
+---
+
 ## The colours
 
 The site uses a "heat-risk" palette. Each colour has one job:

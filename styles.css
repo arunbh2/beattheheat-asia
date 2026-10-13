@@ -581,3 +581,36 @@ button { font: inherit; color: inherit; }
 .inst__meta strong { color: var(--teal); font-size: 1.05rem; }
 .inst__bar { grid-area: bar; height: 6px; border-radius: 3px; background: #E3EEEC; overflow: hidden; }
 .inst__bar span { display: block; height: 100%; background: var(--teal); border-radius: 3px; }
+
+/* ---------- the person behind the map ---------- */
+.missing-link {
+  display: inline-block; margin-top: 6px; font-style: normal; font-weight: 600; color: var(--ink);
+  text-decoration: underline; text-decoration-color: var(--orange); text-decoration-thickness: 2px; text-underline-offset: 4px;
+}
+.missing-link:hover { color: var(--orange); }
+.missing-card {
+  display: grid; gap: 2px; padding: 16px 18px; border-radius: 8px; background: var(--ink); color: var(--canvas); text-decoration: none;
+  transition: background-color .2s;
+}
+.missing-card:hover { background: #24313F; }
+.missing-card__q { font-size: .9rem; color: rgba(250,247,242,.75); }
+.missing-card__a { font-weight: 700; color: var(--orange); }
+
+.about { padding: clamp(56px, 8vw, 104px) 0; background: var(--white); border-top: 1px solid var(--line); }
+.about__inner { display: grid; gap: 24px; align-items: start; }
+@media (min-width: 760px) { .about__inner { grid-template-columns: 120px minmax(0, 46rem); gap: 40px; } }
+.about__mark {
+  width: 96px; height: 96px; border-radius: 50%; display: grid; place-items: center;
+  background: var(--orange); color: var(--ink); font-family: var(--font-display); font-size: 2.4rem; letter-spacing: .04em;
+  box-shadow: 0 0 0 4px var(--white), 0 0 0 6px var(--ink);
+}
+.about .eyebrow { margin-bottom: 14px; }
+.about__title { font-family: var(--font-display); font-weight: 400; font-size: clamp(2rem, 1.4rem + 2.4vw, 3.4rem); line-height: 1; text-transform: uppercase; }
+.about__role { margin-top: 8px; font-weight: 700; color: var(--teal); letter-spacing: .02em; }
+.about__text { margin-top: 16px; color: var(--grey-700); max-width: 42rem; }
+.about__text--ask { font-weight: 600; color: var(--ink); }
+.about__actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
+.about__actions .btn--cta, .about__actions .btn--ghost { min-height: 54px; }
+.cite { margin-top: 18px; padding: 12px 14px; border-left: 3px solid var(--line); font-size: .88rem; color: var(--grey-500); }
+.cite-status { margin-top: 6px; min-height: 1.2em; font-size: .85rem; font-weight: 600; color: var(--teal); }
+.site-footer a { color: var(--ink); font-weight: 600; text-decoration: underline; text-decoration-color: var(--orange); text-underline-offset: 3px; }
