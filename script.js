@@ -966,22 +966,3 @@
   Promise.race([fontsReady, new Promise(r => setTimeout(r, 1800))]).then(boot);
 })();
 
-/* ---------- "Cite this map" ---------- */
-(function () {
-  const btn = document.getElementById("cite-btn");
-  const text = document.getElementById("cite-text");
-  const status = document.getElementById("cite-status");
-  if (!btn || !text) return;
-  btn.addEventListener("click", async () => {
-    const citation = text.textContent.replace(/\s+/g, " ").trim();
-    let ok = false;
-    try { await navigator.clipboard.writeText(citation); ok = true; } catch (e) {
-      const range = document.createRange(); range.selectNodeContents(text);
-      const sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(range);
-      try { ok = document.execCommand("copy"); } catch (err) { ok = false; }
-    }
-    status.textContent = ok ? "Citation copied." : "Select the citation above and copy it.";
-    btn.textContent = ok ? "Copied ✓" : "Cite this map";
-    setTimeout(() => { btn.textContent = "Cite this map"; status.textContent = ""; }, 2600);
-  });
-})();
