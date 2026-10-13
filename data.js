@@ -1,0 +1,527 @@
+/* ==========================================================
+   THE MAP'S CONTENT
+   Every system, consequence, link, vicious cycle, breaking point
+   and institution on the site comes from this file.
+
+   Editing tips (see README.md for a full guide):
+   - Change only the text inside the quote marks.
+   - Keep every comma and quote mark where it is.
+   - \n inside a label starts a new line.
+   - Use curly quotes (’ “ ”) inside sentences, never straight ".
+   ========================================================== */
+
+/* ---------- 1. SYSTEMS (drawn clockwise from the top) ---------- */
+const SYSTEMS = [
+  { id: "nature",    label: "Nature and\necosystems",     color: "#4E7A57",
+    desc: "Heat dries land, burns forests, melts ice and warms the sea, wearing down the ecosystems that feed, water and shelter us." },
+  { id: "food",      label: "Food and\nagriculture",      color: "#7D8A34",
+    desc: "Crops, animals, fisheries and the people who work them all have heat limits. Cross them and food gets scarcer and dearer." },
+  { id: "water",     label: "Water",                      color: "#5679A8",
+    desc: "Heat raises the demand for water just as it shrinks the supply, and lowers its quality." },
+  { id: "energy",    label: "Energy",                     color: "#B07A26",
+    desc: "Heat drives up demand for cooling while cutting the ability of power plants and grids to supply it." },
+  { id: "cities",    label: "Cities and\ninfrastructure", color: "#5B6573",
+    desc: "Concrete, crowding and ageing infrastructure turn cities into amplifiers of heat." },
+  { id: "health",    label: "Health",                     color: "#9A3B4A",
+    desc: "The human body has limits. Heat strains the heart, kidneys, lungs and mind, and the services built to care for them." },
+  { id: "work",      label: "Work and\neconomy",          color: "#7A5238",
+    desc: "Heat slows hands, closes businesses and squeezes the incomes of those with the least margin." },
+  { id: "education", label: "Education",                  color: "#76609E",
+    desc: "Hot classrooms and closed schools cost children learning that shows up years later as lower skills and earnings." },
+  { id: "society",   label: "Society and\nsecurity",      color: "#A0587A",
+    desc: "Heat frays the social fabric: it isolates, displaces, divides and widens every existing gap." },
+  { id: "gov",       label: "Governance\nand finance",    color: "#33465C",
+    desc: "The institutions that decide who is protected, and who pays, are themselves strained by heat." }
+];
+
+/* ---------- 2. CONSEQUENCES ---------- */
+// sys: which system it belongs to. Each one is linked to its system automatically.
+const CONSEQUENCES = [
+  /* Nature and ecosystems */
+  { id: "droughts", sys: "nature", label: "Droughts",
+    desc: "Higher temperatures speed up evaporation, so the same rain goes less far and dry spells turn into droughts." },
+  { id: "wildfires", sys: "nature", label: "Wildfires",
+    desc: "Hot, dry vegetation ignites more easily and burns longer, sending smoke far beyond the fire itself." },
+  { id: "forest", sys: "nature", label: "Forest\ndieback",
+    desc: "Heat and drought stress trees until they stop growing, then die, turning forests from shade and carbon stores into fuel." },
+  { id: "drysoil", sys: "nature", label: "Drying\nsoils",
+    desc: "Heat pulls moisture from the ground when crops and plants need it most." },
+  { id: "glacier", sys: "nature", label: "Glacier and\nsnow melt",
+    desc: "Mountain glaciers and snowpacks that feed rivers through the dry season are shrinking." },
+  { id: "marine", sys: "nature", label: "Marine heatwaves\nand coral bleaching",
+    desc: "Ocean heatwaves bleach coral and drive fish away from the waters people depend on." },
+  { id: "biodiversity", sys: "nature", label: "Biodiversity\nloss",
+    desc: "Species that can’t move or adapt fast enough decline, weakening pollination, soils and fisheries." },
+
+  /* Food and agriculture */
+  { id: "harvests", sys: "food", label: "Failing\nharvests",
+    desc: "Heat during flowering and grain-filling cuts yields of staple crops, even when there is enough rain." },
+  { id: "livestock", sys: "food", label: "Livestock\nlosses",
+    desc: "Heat-stressed animals eat less, produce less milk and eggs, fall ill and die." },
+  { id: "farmwork", sys: "food", label: "Farmwork\nhours lost",
+    desc: "Farm labourers work in the open sun. In the hottest hours, work becomes dangerous or impossible." },
+  { id: "pests", sys: "food", label: "Pests and crop\ndiseases spread",
+    desc: "Warmer conditions let many pests and plant diseases breed faster and spread to new areas." },
+  { id: "fisheries", sys: "food", label: "Fisheries\ndecline",
+    desc: "As waters warm and reefs die, fish move away or decline, and catches fall." },
+  { id: "spoilage", sys: "food", label: "Food spoils\nfaster",
+    desc: "Without cool storage, more of every harvest rots between field and plate." },
+  { id: "prices", sys: "food", label: "Food price\nspikes",
+    desc: "Smaller harvests and losses push up prices, felt hardest by families who spend most of their income on food." },
+  { id: "hunger", sys: "food", label: "Hunger and\nmalnutrition",
+    desc: "When food costs more and incomes fall, families eat less and less well, and children suffer most." },
+
+  /* Water */
+  { id: "scarcity", sys: "water", label: "Water\nshortages",
+    desc: "Taps run dry and wells fall just as people, crops and animals need more water to cope with the heat." },
+  { id: "quality", sys: "water", label: "Water quality\nfalls",
+    desc: "Warm, low water breeds algae and bacteria and concentrates pollution." },
+  { id: "irrigation", sys: "water", label: "Irrigation\ndemand soars",
+    desc: "Hot, dry fields need far more water to keep crops alive." },
+  { id: "groundwater", sys: "water", label: "Groundwater\nover-pumped",
+    desc: "Farmers and cities pump deeper and harder, draining aquifers faster than rain can refill them." },
+  { id: "competition", sys: "water", label: "Competition\nfor water",
+    desc: "Farms, cities, industry and power plants all compete for a shrinking supply." },
+  { id: "fetching", sys: "water", label: "Longer trips\nto fetch water",
+    desc: "Where taps fail, someone has to walk further, for longer, in the heat, to bring water home." },
+  { id: "sanitation", sys: "water", label: "Sanitation and\nhygiene fail",
+    desc: "Without enough water, toilets, handwashing and cleaning suffer." },
+
+  /* Energy */
+  { id: "demand", sys: "energy", label: "Cooling demand\npeaks",
+    desc: "As temperatures climb, so does the demand for fans and air conditioning, pushing electricity use to new peaks." },
+  { id: "power", sys: "energy", label: "Power cuts and\ngrid stress",
+    desc: "Peak demand and heat-stressed lines and transformers push grids to the edge. Outages switch off cooling when it matters most." },
+  { id: "thermal", sys: "energy", label: "Power plants\ncut output",
+    desc: "Coal, gas and nuclear plants need cool water. When rivers run low or warm, they have to produce less." },
+  { id: "hydro", sys: "energy", label: "Hydropower\nfalls",
+    desc: "Low rivers and reservoirs mean less electricity from dams." },
+  { id: "generators", sys: "energy", label: "Diesel generators\nrun longer",
+    desc: "When the grid fails, homes, shops and hospitals that can afford it switch to diesel." },
+  { id: "emissions", sys: "energy", label: "Emissions from\ncooling rise",
+    desc: "Most cooling still runs on fossil-fuelled power and refrigerants that warm the planet." },
+  { id: "energypoverty", sys: "energy", label: "Can’t afford\nto keep cool",
+    desc: "For the poorest households, fans, cooling and electricity bills are out of reach." },
+  { id: "coldchain", sys: "energy", label: "Cold chains\nbreak",
+    desc: "Without reliable power, fridges for food, medicines and vaccines fail." },
+
+  /* Cities and infrastructure */
+  { id: "uhi", sys: "cities", label: "Urban heat\nislands",
+    desc: "Dense surfaces, little shade and waste heat keep city cores several degrees hotter than their surroundings, especially at night." },
+  { id: "homes", sys: "cities", label: "Homes that\ntrap heat",
+    desc: "Tin roofs, poor ventilation and crowded rooms can make homes hotter inside than out, leaving nowhere safe to rest." },
+  { id: "infrastructure", sys: "cities", label: "Roads, rails and\nrunways strained",
+    desc: "Rails buckle, roads soften and hot, thin air means planes need longer runways or must carry less." },
+  { id: "transport", sys: "cities", label: "Transport\ndisrupted",
+    desc: "Speed limits, cancellations and breakdowns slow the movement of people and goods." },
+  { id: "smog", sys: "cities", label: "Smoke, smog\nand ozone",
+    desc: "Heat speeds up the chemistry that forms ground-level ozone, and still, hot air traps pollution and smoke." },
+  { id: "publicspace", sys: "cities", label: "Streets and parks\nunusable",
+    desc: "Markets, streets and parks become too hot to use in the middle of the day." },
+  { id: "telecom", sys: "cities", label: "Phone and data\nnetworks fail",
+    desc: "Overheating equipment and power cuts take down phone masts, networks and data centres." },
+
+  /* Health */
+  { id: "deaths", sys: "health", label: "Heat deaths",
+    desc: "Extreme heat kills, often quietly, through failing hearts, kidneys and lungs. Europe’s 2003 heatwave alone is estimated to have caused more than 70,000 deaths." },
+  { id: "heatstroke", sys: "health", label: "Heatstroke and\nheat exhaustion",
+    desc: "When the body can no longer cool itself, heat exhaustion can tip into heatstroke: a medical emergency that can kill." },
+  { id: "kidney", sys: "health", label: "Kidney and\nheart strain",
+    desc: "Sweating and dehydration make the heart work harder and can damage the kidneys, especially with repeated exposure." },
+  { id: "respiratory", sys: "health", label: "Breathing\nproblems worsen",
+    desc: "Ozone, smoke and hot air inflame airways and worsen asthma and lung disease." },
+  { id: "pregnancy", sys: "health", label: "Risks in\npregnancy",
+    desc: "Extreme heat is linked to higher risks of preterm birth and other pregnancy complications." },
+  { id: "mental", sys: "health", label: "Mental health\nsuffers",
+    desc: "Heat is linked to more anxiety, distress and suicide, and to worse outcomes for people living with mental illness." },
+  { id: "sleepless", sys: "health", label: "Sleepless\nhot nights",
+    desc: "When nights stay hot, the body never recovers from the day, so the next day starts already depleted." },
+  { id: "infectious", sys: "health", label: "Infectious\ndiseases spread",
+    desc: "Warmth helps mosquitoes that carry dengue thrive, and dirty water and spoiled food spread illness." },
+  { id: "injuries", sys: "health", label: "Injuries and\naccidents rise",
+    desc: "Heat dulls concentration and coordination, so accidents at work, on the road and at home increase." },
+  { id: "hsys", sys: "health", label: "Health systems\noverwhelmed",
+    desc: "Heatwaves bring surges of patients just as staff, power and supplies are under strain." },
+
+  /* Work and economy */
+  { id: "lost", sys: "work", label: "Lost work hours\nand wages",
+    desc: "The International Labour Organization projects that heat stress could cut 2.2% of all working hours worldwide by 2030, the equivalent of 80 million full-time jobs." },
+  { id: "informal", sys: "work", label: "Informal workers\ncan’t stop work",
+    desc: "Without paid leave, contracts or savings, stopping work means losing the day’s income. So people keep working through dangerous heat." },
+  { id: "productivity", sys: "work", label: "Productivity\nfalls",
+    desc: "Above a certain temperature, people work more slowly and make more mistakes, indoors and out." },
+  { id: "debt", sys: "work", label: "Medical costs\nand debt",
+    desc: "Treatment, medicines and lost days are often paid for out of pocket, pushing households into debt." },
+  { id: "business", sys: "work", label: "Small businesses\nclose",
+    desc: "Street vendors, workshops and shops lose customers, stock and power, and many shut for good." },
+  { id: "supply", sys: "work", label: "Supply chains\ndisrupted",
+    desc: "Heat slows factories, ports, roads and warehouses. The delays ripple through prices and jobs far away." },
+  { id: "tourism", sys: "work", label: "Tourism\nshifts away",
+    desc: "Visitors avoid places and seasons that become too hot, taking jobs and income with them." },
+
+  /* Education */
+  { id: "schoolclose", sys: "education", label: "Schools close\nin heatwaves",
+    desc: "When classrooms become dangerous, schools shut, sometimes for weeks." },
+  { id: "learning", sys: "education", label: "Learning suffers\nin hot classrooms",
+    desc: "Studies link hotter school days to measurably lower learning and exam results." },
+  { id: "dropout", sys: "education", label: "Children pulled\nout of school",
+    desc: "When families are squeezed, children, often girls, leave school to work, care or fetch water." },
+  { id: "youth", sys: "education", label: "Lower skills\nand earnings",
+    desc: "Learning lost today becomes lower skills and lower earnings for a lifetime." },
+
+  /* Society and security */
+  { id: "inequality", sys: "society", label: "Deepening\ninequality",
+    desc: "Every impact lands hardest on those with the least protection, widening gaps in health, income and opportunity." },
+  { id: "care", sys: "society", label: "Care burden falls\non women and girls",
+    desc: "When people fall ill, schools close or water runs short, the extra caring and fetching usually falls on women and girls." },
+  { id: "isolation", sys: "society", label: "Older people\nisolated at home",
+    desc: "Older people living alone are among the most likely to die in a heatwave. Many victims of Chicago’s 1995 heatwave died alone at home." },
+  { id: "violence", sys: "society", label: "Violence and\ncrime rise",
+    desc: "Hot days are linked to more aggression, domestic violence and violent crime." },
+  { id: "conflict", sys: "society", label: "Conflict over\nwater and land",
+    desc: "Where water and pasture shrink, disputes between communities can turn violent." },
+  { id: "migration", sys: "society", label: "Forced\nmigration",
+    desc: "When land, work and water fail, families may be forced to move, often into cities that are hotter still." },
+  { id: "gatherings", sys: "society", label: "Mass gatherings\nturn deadly",
+    desc: "Crowds in open sun with little shade or water are deadly. During the 2024 Hajj, more than 1,300 pilgrims died in extreme heat." },
+  { id: "cohesion", sys: "society", label: "Social trust\nfrays",
+    desc: "Violence, unequal suffering and failing services erode trust between neighbours and in institutions." },
+
+  /* Governance and finance */
+  { id: "emergency", sys: "gov", label: "Emergency services\nstretched",
+    desc: "Ambulances, fire crews and emergency rooms are swamped all at once." },
+  { id: "budgets", sys: "gov", label: "Public budgets\nstrained",
+    desc: "Repairs, emergency response, lost tax revenue and relief payments all drain public money." },
+  { id: "insurance", sys: "gov", label: "Insurance losses\nand retreat",
+    desc: "Rising losses push premiums up and insurers out, leaving more people and businesses unprotected." },
+  { id: "underreport", sys: "gov", label: "Heat deaths\nunder-recorded",
+    desc: "Heat is rarely written on death certificates. Most heat deaths are recorded as heart, kidney or lung failure." },
+  { id: "underfund", sys: "gov", label: "Heat protection\nunderfunded",
+    desc: "Warnings, cooling centres, outreach and heat-ready services get a small share of budgets compared with floods or storms." },
+  { id: "credit", sys: "gov", label: "Borrowing\ncosts rise",
+    desc: "Lenders and rating agencies increasingly price climate risk into the cost of public and private borrowing." },
+  { id: "elections", sys: "gov", label: "Elections and public\nservices disrupted",
+    desc: "Heat disrupts voting, courts and public offices. Polling staff died in heatwaves during India’s 2024 general election." }
+];
+
+/* ---------- 3. LINKS BETWEEN CONSEQUENCES ---------- */
+// [from, to, why]  — add "loop" as a 4th item for a link that closes a vicious cycle (drawn red).
+// Links from each system to its own consequences, and from extreme heat to each system, are drawn automatically.
+const LINKS = [
+  /* nature */
+  ["droughts", "wildfires", "Parched land and vegetation burn more easily."],
+  ["droughts", "scarcity", "Rivers, wells and reservoirs fall."],
+  ["droughts", "harvests", "Crops fail without water."],
+  ["droughts", "livestock", "Less water and fodder for animals."],
+  ["drysoil", "harvests", "Moisture vanishes just when crops need it most."],
+  ["forest", "wildfires", "Stressed and dying trees become fuel."],
+  ["forest", "biodiversity", "Habitats disappear with the trees."],
+  ["wildfires", "smog", "Smoke travels hundreds of kilometres from the fire."],
+  ["wildfires", "glacier", "Soot settling on snow and ice darkens it, so it absorbs more sunlight and melts faster."],
+  ["glacier", "scarcity", "Rivers fed by snow and ice run lower in the dry season."],
+  ["glacier", "hydro", "Less meltwater reaches the dams."],
+  ["marine", "fisheries", "Fish move away from warming water, and dying reefs support fewer of them."],
+  ["biodiversity", "harvests", "Fewer pollinators and natural pest-eaters mean lower yields."],
+  ["drysoil", "heat", "Dry soil can’t cool itself by evaporation, so more of the sun’s energy becomes heat.", "loop"],
+  ["glacier", "heat", "Melting snow and ice expose darker ground and water, which absorb more sunlight.", "loop"],
+  ["wildfires", "heat", "Fires release carbon and strip away tree cover that shades and cools the land.", "loop"],
+
+  /* food */
+  ["harvests", "prices", "Smaller harvests push up prices."],
+  ["livestock", "hunger", "Less milk, eggs and meat for families who rely on them."],
+  ["farmwork", "harvests", "Fields go untended in the hottest hours."],
+  ["farmwork", "lost", "Farm labourers lose daily wages."],
+  ["pests", "harvests", "More pests and plant diseases mean more crops lost."],
+  ["fisheries", "hunger", "Coastal families lose a vital source of protein and income."],
+  ["spoilage", "prices", "Losses after harvest push up prices."],
+  ["prices", "hunger", "The poorest spend most of their income on food."],
+  ["prices", "informal", "Higher prices make it even harder to stop working."],
+  ["hunger", "learning", "Hungry children struggle to learn."],
+
+  /* water */
+  ["scarcity", "fetching", "Taps run dry, so someone has to fetch water."],
+  ["scarcity", "sanitation", "Without water, sanitation and hygiene fail."],
+  ["scarcity", "competition", "Farms, cities and power plants compete for what is left."],
+  ["scarcity", "irrigation", "Dry fields need more irrigation."],
+  ["irrigation", "groundwater", "Farmers pump harder and deeper to keep crops alive."],
+  ["groundwater", "scarcity", "Aquifers fall and wells run dry.", "loop"],
+  ["scarcity", "thermal", "Power plants need cool water. When rivers run low or warm, they cut output."],
+  ["quality", "infectious", "Contaminated water spreads disease."],
+  ["sanitation", "infectious", "Poor hygiene spreads diarrhoea and other infections."],
+  ["fetching", "care", "Fetching water falls mostly on women and girls."],
+  ["fetching", "dropout", "Girls miss school to fetch water."],
+  ["competition", "conflict", "Scarce water becomes a source of conflict."],
+
+  /* energy */
+  ["demand", "power", "Peak demand pushes grids to the limit."],
+  ["demand", "emissions", "Most cooling still runs on fossil-fuelled power."],
+  ["emissions", "heat", "Emissions add to the warming that drives demand for cooling.", "loop"],
+  ["demand", "uhi", "Air conditioners pump heat outdoors, warming the streets around them.", "loop"],
+  ["demand", "energypoverty", "Higher bills push poor households into energy poverty."],
+  ["power", "generators", "Outages drive those who can afford it to diesel."],
+  ["generators", "emissions", "Diesel adds still more emissions."],
+  ["generators", "smog", "Generators fill streets with fumes."],
+  ["power", "coldchain", "Without power, fridges for food and vaccines fail."],
+  ["power", "hsys", "Hospitals and clinics lose cooling and equipment when the power fails."],
+  ["power", "scarcity", "Without power, pumps and treatment plants stop.", "loop"],
+  ["thermal", "power", "Plants cut output just when demand peaks.", "loop"],
+  ["hydro", "power", "Low reservoirs mean less electricity."],
+  ["power", "telecom", "Phone masts and networks fail when the power does."],
+  ["power", "business", "Shops and workshops lose power and stock."],
+  ["energypoverty", "heatstroke", "With no way to cool down at home, heat builds up in the body.", "loop"],
+  ["coldchain", "spoilage", "Food rots without refrigeration."],
+  ["coldchain", "infectious", "Spoiled vaccines leave people unprotected."],
+
+  /* cities */
+  ["uhi", "demand", "A hotter city needs even more cooling.", "loop"],
+  ["uhi", "sleepless", "Cities hold their heat overnight."],
+  ["homes", "heatstroke", "With no cool place to recover, heat builds up day after day."],
+  ["homes", "sleepless", "Rooms stay hot all night."],
+  ["infrastructure", "transport", "Buckled rails and softened roads slow everything down."],
+  ["infrastructure", "budgets", "Repairs drain public budgets."],
+  ["transport", "supply", "Goods stop moving."],
+  ["smog", "respiratory", "Ozone and smoke inflame the lungs."],
+  ["publicspace", "business", "Street trade and markets empty out."],
+  ["publicspace", "isolation", "People stay indoors and alone."],
+  ["telecom", "emergency", "Warnings and calls for help don’t get through."],
+
+  /* health */
+  ["heatstroke", "deaths", "Heatstroke kills if it is not treated quickly."],
+  ["kidney", "deaths", "Many heat deaths are heart and kidney failures."],
+  ["respiratory", "deaths", "Breathing problems turn fatal in the heat."],
+  ["pregnancy", "hsys", "Complications add to the load on maternity care."],
+  ["sleepless", "mental", "Poor sleep wears down mood and the ability to cope."],
+  ["mental", "sleepless", "Stress and anxiety make sleep even harder.", "loop"],
+  ["sleepless", "heatstroke", "Without cool nights, the body starts each day already overheated."],
+  ["mental", "violence", "Frayed tempers spill over into violence."],
+  ["infectious", "hsys", "Outbreaks add to the caseload."],
+  ["injuries", "hsys", "More casualties to treat."],
+  ["injuries", "lost", "Injured workers lose income."],
+  ["heatstroke", "hsys", "Heat illness brings sudden surges of patients.", "loop"],
+  ["hsys", "heatstroke", "Overstretched services treat people later, and heat illness turns severe fast.", "loop"],
+  ["heatstroke", "lost", "Illness means days off work, and for daily earners no work means no pay.", "loop"],
+  ["heatstroke", "debt", "Treatment and lost days are paid for out of pocket.", "loop"],
+  ["deaths", "underreport", "Most heat deaths are recorded as heart, kidney or lung failure.", "loop"],
+  ["deaths", "inequality", "Families lose breadwinners and carers."],
+
+  /* work */
+  ["productivity", "lost", "Slower work means lower output and pay."],
+  ["productivity", "budgets", "Lower output means lower tax revenue."],
+  ["informal", "heatstroke", "Working through the hottest hours without shade, water or rest raises the risk of heat illness.", "loop"],
+  ["informal", "injuries", "Fatigue and heat cause accidents."],
+  ["informal", "care", "When workers fall ill, someone has to care for them, usually women."],
+  ["lost", "informal", "Lost income leaves even less margin, so the next heatwave has to be worked through too.", "loop"],
+  ["lost", "inequality", "Lost earnings hurt most where there are no savings to fall back on."],
+  ["lost", "hunger", "Less income means less food."],
+  ["debt", "informal", "Debt repayments remove any option to stop work in the heat.", "loop"],
+  ["debt", "energypoverty", "Debt leaves nothing for electricity or cooling.", "loop"],
+  ["business", "lost", "Closed businesses mean lost jobs."],
+  ["supply", "prices", "Delays and losses push up prices."],
+  ["tourism", "lost", "Fewer visitors, fewer jobs."],
+
+  /* education */
+  ["schoolclose", "learning", "Lost school days mean lost learning."],
+  ["schoolclose", "care", "Children at home need someone to look after them."],
+  ["learning", "youth", "Lost learning becomes lower earnings later."],
+  ["dropout", "youth", "Leaving school early limits a whole life’s options."],
+  ["youth", "inequality", "Gaps in learning become gaps in income."],
+  ["inequality", "dropout", "Poorer households pull children out of school to work, care or fetch water.", "loop"],
+
+  /* society */
+  ["inequality", "migration", "When the gap becomes unbearable, people move."],
+  ["migration", "homes", "People forced to move often end up in crowded, poorly built housing that traps heat.", "loop"],
+  ["care", "inequality", "Unpaid care pulls women and girls out of paid work and school."],
+  ["isolation", "deaths", "Older people alone at home are among the most likely to die."],
+  ["violence", "cohesion", "Violence erodes trust."],
+  ["conflict", "migration", "Conflict forces people from their homes."],
+  ["gatherings", "deaths", "Crowds in the open sun turn deadly."],
+  ["gatherings", "emergency", "Mass casualties overwhelm responders."],
+  ["cohesion", "isolation", "Weaker community ties leave more people alone."],
+
+  /* governance and finance */
+  ["emergency", "deaths", "When responders are stretched, help arrives too late."],
+  ["emergency", "budgets", "Reacting after the fact costs far more than preparing.", "loop"],
+  ["budgets", "underfund", "Stretched budgets leave little for heat protection."],
+  ["underreport", "underfund", "What isn’t counted isn’t funded."],
+  ["underfund", "deaths", "Without warnings, cooling centres and outreach, more people die.", "loop"],
+  ["underfund", "emergency", "Without prevention, emergencies multiply."],
+  ["underfund", "hsys", "Clinics aren’t prepared for heat."],
+  ["underfund", "insurance", "Unmanaged risk drives insurers away.", "loop"],
+  ["insurance", "budgets", "When insurers retreat, governments carry the losses."],
+  ["insurance", "business", "Uninsured losses close small businesses."],
+  ["credit", "budgets", "Higher borrowing costs leave less to spend."],
+  ["elections", "cohesion", "Disrupted elections and services test public trust."]
+];
+
+/* ---------- 4. VICIOUS CYCLES ---------- */
+// path: the steps in order; the last step leads back to the first.
+// evidence: "established" (well established) or "emerging" (each link is evidenced; the full cycle less so).
+const LOOP_GROUPS = [
+  { id: "heat",    name: "Loops that feed the heat itself" },
+  { id: "systems", name: "Loops that break the systems we rely on" },
+  { id: "people",  name: "Loops that trap people" },
+  { id: "inst",    name: "Loops inside institutions" }
+];
+
+const LOOPS = [
+  { id: "global", group: "heat", name: "The global cooling loop", evidence: "established",
+    path: ["heat", "energy", "demand", "emissions"],
+    summary: "Cooling powered by fossil fuels adds to the warming that makes us need more cooling." },
+  { id: "soil", group: "heat", name: "The dry-soil loop", evidence: "established",
+    path: ["heat", "nature", "drysoil"],
+    summary: "Heat dries the soil. Dry soil can’t cool itself, so the land heats up faster." },
+  { id: "ice", group: "heat", name: "The melting-ice loop", evidence: "established",
+    path: ["heat", "nature", "glacier"],
+    summary: "Heat melts ice. Darker ground and water absorb more sunlight, and the melting speeds up." },
+  { id: "fire", group: "heat", name: "The wildfire loop", evidence: "established",
+    path: ["heat", "nature", "wildfires"],
+    summary: "Heat dries forests into fuel. Fires release carbon and strip away the trees that cool the land." },
+
+  { id: "cooling", group: "systems", name: "The cooling trap", evidence: "established",
+    path: ["demand", "uhi"],
+    summary: "Air conditioning heats the street, and a hotter city needs even more air conditioning." },
+  { id: "energywater", group: "systems", name: "The energy–water loop", evidence: "established",
+    path: ["power", "scarcity", "thermal"],
+    summary: "Water systems need power and power plants need water. In a heatwave, each failure deepens the other." },
+  { id: "pumping", group: "systems", name: "The groundwater loop", evidence: "established",
+    path: ["scarcity", "irrigation", "groundwater"],
+    summary: "Dry fields need more water, so farmers pump harder, aquifers fall and the shortage deepens." },
+  { id: "clinic", group: "systems", name: "The overwhelmed-clinic loop", evidence: "emerging",
+    path: ["heatstroke", "hsys"],
+    summary: "Heat illness floods clinics. Overwhelmed clinics treat people later, and more cases become severe." },
+
+  { id: "poverty", group: "people", name: "The poverty–heat trap", evidence: "established",
+    path: ["informal", "heatstroke", "lost"],
+    summary: "People who can’t afford to stop working fall ill. Illness costs income, and lost income makes stopping even less affordable." },
+  { id: "debt", group: "people", name: "The medical-debt trap", evidence: "emerging",
+    path: ["heatstroke", "debt", "informal"],
+    summary: "Treatment costs push families into debt. Debt removes any option to rest, and working through the heat brings more illness." },
+  { id: "energypoverty", group: "people", name: "The energy-poverty trap", evidence: "emerging",
+    path: ["energypoverty", "heatstroke", "debt"],
+    summary: "People who can’t afford to cool fall ill. Illness brings debt, and debt puts cooling even further out of reach." },
+  { id: "displacement", group: "people", name: "The displacement loop", evidence: "emerging",
+    path: ["migration", "homes", "heatstroke", "lost", "inequality"],
+    summary: "People forced to move often land in heat-trapping housing, fall ill, lose income, fall further behind, and are forced to move again." },
+  { id: "school", group: "people", name: "The lost-schooling loop", evidence: "emerging",
+    path: ["dropout", "youth", "inequality"],
+    summary: "Children pulled out of school earn less as adults, and poorer families pull more children out of school." },
+  { id: "sleep", group: "people", name: "The sleepless-nights loop", evidence: "established",
+    path: ["sleepless", "mental"],
+    summary: "Hot nights wreck sleep. Poor sleep frays mental health, and stress makes sleep harder still." },
+
+  { id: "invisible", group: "inst", name: "The invisible-deaths loop", evidence: "emerging",
+    path: ["deaths", "underreport", "underfund"],
+    summary: "Heat deaths go uncounted, so heat protection goes unfunded, so more people die uncounted." },
+  { id: "reactive", group: "inst", name: "The reactive-spending loop", evidence: "emerging",
+    path: ["budgets", "underfund", "emergency"],
+    summary: "Stretched budgets skimp on prevention. Emergencies multiply, and costly emergency response stretches budgets further." },
+  { id: "protection", group: "inst", name: "The protection-gap loop", evidence: "emerging",
+    path: ["insurance", "budgets", "underfund"],
+    summary: "As insurers retreat, public budgets absorb the losses, protection is cut, and the risk drives insurers further away." }
+];
+
+/* ---------- 5. INSTITUTIONS: who holds the levers ---------- */
+const INSTITUTIONS = [
+  { id: "nat",       name: "National governments",                 desc: "Set laws, budgets, labour rules, building codes and social protection." },
+  { id: "city",      name: "City and local governments",           desc: "Run heat action plans, urban design, housing and local services." },
+  { id: "health",    name: "Health authorities",                   desc: "Prepare clinics, track heat illness and deaths, and lead public health warnings." },
+  { id: "met",       name: "Weather and climate services",         desc: "Forecast dangerous heat and trigger warnings and early action." },
+  { id: "employers", name: "Employers and businesses",             desc: "Decide on rest breaks, shade, water, working hours and sick pay." },
+  { id: "workers",   name: "Worker organisations and unions",      desc: "Organise informal and formal workers to win protection and income security." },
+  { id: "utilities", name: "Utilities and energy regulators",      desc: "Keep power flowing, price electricity and shape how cooling is supplied." },
+  { id: "water",     name: "Water authorities",                    desc: "Manage supply, pumping, treatment and how scarce water is shared." },
+  { id: "agri",      name: "Farmers’ organisations and agriculture agencies", desc: "Shape what is grown, how water is used and how soils are managed." },
+  { id: "schools",   name: "Schools and education authorities",    desc: "Decide on classrooms, timetables and support that keeps children learning." },
+  { id: "insurers",  name: "Insurers and financiers",              desc: "Price risk, design insurance and decide where capital flows." },
+  { id: "funders",   name: "Development banks, donors and climate funds", desc: "Finance prevention, protection and the institutions that deliver them." },
+  { id: "community", name: "Community and civil society groups",   desc: "Reach the people institutions miss: checking on neighbours, running cooling spaces, holding power to account." },
+  { id: "intl",      name: "International bodies",                 desc: "Set global standards and agreements on emissions, refrigerants and work." }
+];
+
+/* ---------- 6. BREAKING POINTS ---------- */
+// edge: the link it cuts [from, to]. who: the institutions that can pull this lever.
+// A lever breaks every vicious cycle that runs through its link.
+const LEVERS = [
+  { id: "emissions", edge: ["heat", "nature"], title: "Deep emission cuts", who: ["nat", "intl", "funders"],
+    text: "Every fraction of a degree avoided weakens every loop that runs through land, ice and forests at once." },
+  { id: "cleancool", edge: ["demand", "emissions"], title: "Clean, efficient cooling", who: ["nat", "utilities", "intl"],
+    text: "Efficient appliances, clean power and low-warming refrigerants break the link between keeping cool and heating the planet.",
+    example: "The Kigali Amendment to the Montreal Protocol (2016) commits countries to phase down the most climate-warming refrigerants." },
+  { id: "soilwater", edge: ["drysoil", "heat"], title: "Keep water in the soil", who: ["agri", "community", "funders"],
+    text: "Mulching, agroforestry, water harvesting and restoring degraded land help soils hold moisture and stay cooler." },
+  { id: "blackcarbon", edge: ["glacier", "heat"], title: "Cut black carbon", who: ["nat", "city"],
+    text: "Cleaner stoves and engines and an end to open burning reduce the soot that darkens snow and ice." },
+  { id: "firesmart", edge: ["wildfires", "heat"], title: "Fire-smart landscapes", who: ["nat", "community"],
+    text: "Early detection, community fire crews and land management that reduces fuel keep fires small and forests standing." },
+
+  { id: "coolbydesign", edge: ["demand", "uhi"], title: "Cool by design", who: ["city", "nat"],
+    text: "Shading, ventilation, reflective roofs and efficient cooling cut the need for air conditioning, and the waste heat it dumps outside." },
+  { id: "greencity", edge: ["uhi", "demand"], title: "Green, cool cities", who: ["city", "community"],
+    text: "Trees, water, cool roofs and cool pavements lower city temperatures and flatten peak demand.",
+    example: "Indian cities and states such as Ahmedabad and Telangana have run programmes that paint roofs to reflect sunlight." },
+  { id: "drypower", edge: ["scarcity", "thermal"], title: "Power that doesn’t need water", who: ["utilities", "nat"],
+    text: "Solar and wind use very little water, and dry cooling protects thermal plants when rivers run low or warm." },
+  { id: "pumpbackup", edge: ["power", "scarcity"], title: "Backup power for water", who: ["water", "utilities"],
+    text: "Solar pumps and backup supply keep water flowing when the grid fails." },
+  { id: "irrigate", edge: ["irrigation", "groundwater"], title: "Smart irrigation and groundwater rules", who: ["agri", "water"],
+    text: "Drip irrigation, metering, aquifer recharge and fair pumping rules keep wells from running dry." },
+  { id: "hap", edge: ["heatstroke", "hsys"], title: "Heat action plans", who: ["city", "health", "met"],
+    text: "Early warnings, public cooling spaces and outreach to the people most at risk prevent illness before it reaches hospital.",
+    example: "Ahmedabad launched South Asia’s first city heat action plan in 2013." },
+  { id: "readyclinics", edge: ["hsys", "heatstroke"], title: "Heat-ready health services", who: ["health", "funders"],
+    text: "Cooling, backup power, surge plans and trained frontline workers keep clinics working through heatwaves." },
+
+  { id: "heatrules", edge: ["informal", "heatstroke"], title: "Heat-safe work", who: ["nat", "employers", "workers"],
+    text: "Rest, shade and water during dangerous heat, with paid breaks so that stopping work doesn’t mean losing pay.",
+    example: "Several Gulf states ban outdoor work during the hottest midday hours in summer." },
+  { id: "heatcash", edge: ["heatstroke", "lost"], title: "Income protection in heatwaves", who: ["insurers", "nat", "workers"],
+    text: "Cash that pays out automatically when temperatures cross a danger threshold, so people can afford to stop.",
+    example: "Parametric heat insurance has been piloted with women informal workers in India." },
+  { id: "socialprotection", edge: ["lost", "informal"], title: "Social protection floors", who: ["nat", "funders"],
+    text: "Basic income security that keeps households above the line between one hot season and the next." },
+  { id: "freecare", edge: ["heatstroke", "debt"], title: "Free care for heat illness", who: ["health", "nat"],
+    text: "Covering emergency treatment for heat illness stops one bad day from becoming years of debt." },
+  { id: "affordablecool", edge: ["energypoverty", "heatstroke"], title: "Affordable cooling for the poorest", who: ["utilities", "city", "nat"],
+    text: "Lifeline electricity tariffs, efficient fans and cool roofs put safe cooling within reach of every household." },
+  { id: "coolhousing", edge: ["migration", "homes"], title: "Cool, affordable housing", who: ["city", "funders", "community"],
+    text: "Upgrading informal settlements with ventilation, shade and cool roofs, and planning homes for people who arrive." },
+  { id: "keepinschool", edge: ["inequality", "dropout"], title: "Keep children in school", who: ["schools", "nat"],
+    text: "Cash transfers, school meals and heat-ready classrooms and timetables keep children learning through hot seasons." },
+  { id: "coolnights", edge: ["sleepless", "mental"], title: "Cool nights and support", who: ["city", "health", "community"],
+    text: "Cooling centres open at night, shaded and ventilated homes, and mental-health support during the hot season." },
+
+  { id: "countdeaths", edge: ["deaths", "underreport"], title: "Count every heat death", who: ["health", "met", "nat"],
+    text: "Real-time tracking of excess deaths during heatwaves, and death certificates that record heat, make the toll visible." },
+  { id: "coolingcentres", edge: ["underfund", "deaths"], title: "Cooling centres and check-ins", who: ["city", "community", "health"],
+    text: "Public cooling spaces, water points and check-ins on older people living alone save lives in every heatwave." },
+  { id: "heatbudget", edge: ["budgets", "underfund"], title: "Dedicated heat budgets", who: ["nat", "city", "funders"],
+    text: "Ring-fenced funding for heat action, set aside before the season, so protection doesn’t compete with the emergency." },
+  { id: "anticipatory", edge: ["underfund", "emergency"], title: "Anticipatory action", who: ["met", "funders", "nat"],
+    text: "Release money and act on the forecast, before the heatwave peaks, instead of paying for the emergency afterwards.",
+    example: "Forecast-based financing, pioneered within the Red Cross Red Crescent Movement, releases funds before a disaster strikes." },
+  { id: "riskpools", edge: ["insurance", "budgets"], title: "Shared risk pools", who: ["insurers", "nat", "funders"],
+    text: "Public–private insurance and regional risk pools keep cover available and spread losses beyond any one budget.",
+    example: "Regional risk pools such as the African Risk Capacity and the Caribbean’s CCRIF share disaster risk across countries." }
+];
+
+/* ---------- 7. A GUIDED PATH ACROSS SYSTEMS ---------- */
+const STORIES = {
+  field: {
+    title: "From field to family",
+    kicker: "Across systems",
+    steps: [
+      { edges: [["heat", "nature"]], title: "Heat reaches the land",
+        text: "A hot spell arrives at the worst moment of the growing season." },
+      { edges: [["nature", "drysoil"], ["drysoil", "harvests"]], title: "Soils dry, harvests fail",
+        text: "Moisture is pulled from the ground just when crops need it most." },
+      { edges: [["harvests", "prices"]], title: "The shock travels to the market",
+        text: "Smaller harvests mean higher prices, felt by families far from the field." },
+      { edges: [["prices", "hunger"], ["hunger", "learning"]], title: "Children eat less, and learn less",
+        text: "Hungry children struggle in class, and the loss follows them for life." },
+      { edges: [["prices", "informal"]], title: "Stopping work becomes impossible",
+        text: "With food costing more, there is even less room to rest during the heat." },
+      { edges: [["informal", "heatstroke"], ["heatstroke", "deaths"]], title: "And some don’t survive",
+        text: "Working through the hottest hours, without rest, water or shade, can kill. From a dry field to a death that may never be counted as heat." }
+    ]
+  }
+};
