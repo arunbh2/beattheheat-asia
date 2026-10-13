@@ -52,9 +52,9 @@ Rules that keep the map working:
 
 ---
 
-## Your name and link on the site
+## Your LinkedIn link on the site
 
-Your name, the line "Climate resilience and systems strategist" and your LinkedIn link appear in `index.html` in five places: the hidden author details at the top (for search engines and AI assistants), the "missing link" invitations, the **About this map** section, the "Cite this map" citation and the footer. To change any of them, open `index.html`, press **Ctrl/Cmd + F** and search for `arunabhabhattacharya` or `Climate resilience`.
+Your name and title appear only in the hidden author details at the top of `index.html` (for search engines and AI assistants). Visitors see "Tell us →" links and an "Explore working together →" button in the footer; all of them open your LinkedIn. To change the link, open `index.html`, press **Ctrl/Cmd + F** and search for `arunabhabhattacharya`.
 
 ---
 
