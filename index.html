@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Extreme Heat Is a Wicked Problem | BeatTheHeat.Asia</title>
-  <meta name="description" content="Extreme heat is a global health emergency. An interactive map of how it ripples through nature, health, cities and work, the vicious cycles that make it worse, and where they can be broken.">
+  <meta name="description" content="Extreme heat is a global health emergency. An interactive map of how it ripples through ten systems, the vicious cycles that make it worse, where they can be broken, and who holds the levers.">
   <meta name="theme-color" content="#16202B">
   <link rel="canonical" href="https://beattheheat.asia/">
 
@@ -30,6 +30,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap">
 
   <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
   <script src="script.js" defer></script>
 </head>
 
@@ -41,6 +42,7 @@
     <nav class="header-nav" aria-label="Sections">
       <a href="#explore">The web</a>
       <a href="#loops">Where loops break</a>
+      <a href="#who-holds">Who holds the levers</a>
     </nav>
   </header>
 
@@ -54,11 +56,13 @@
         <p class="intro__lede">An urgent and growing threat. Every link in this web runs through someone’s health, income or home, and many of them loop back to make the heat worse.</p>
 
         <dl class="stats">
-          <div><dt>Systems under strain</dt><dd>4</dd></div>
-          <div><dt>Consequences</dt><dd data-stat="consequences">28</dd></div>
-          <div class="stat--urgent"><dt>Vicious cycles</dt><dd data-stat="loops">12</dd></div>
-          <div class="stat--break"><dt>Places to break them</dt><dd data-stat="levers">19</dd></div>
+          <div><dt>Systems mapped</dt><dd data-stat="systems">10</dd></div>
+          <div><dt>Consequences mapped</dt><dd data-stat="consequences">73</dd></div>
+          <div class="stat--urgent"><dt>Vicious cycles</dt><dd data-stat="loops">17</dd></div>
+          <div class="stat--break"><dt>Places to break them</dt><dd data-stat="levers">25</dd></div>
+          <div><dt>Institutions holding levers</dt><dd data-stat="institutions">14</dd></div>
         </dl>
+        <p class="honest">This map is large, but the real web is larger. Every heatwave reveals links that aren’t drawn here yet.</p>
       </div>
     </section>
 
@@ -69,33 +73,37 @@
         <h2 id="explore-title" class="visually-hidden">The web of extreme heat</h2>
 
         <div class="toolbar">
-          <div class="filters" id="filters" role="group" aria-label="Show one system">
-            <button class="chip" data-filter="all" aria-pressed="true">Whole web</button>
-            <button class="chip" data-filter="nature" aria-pressed="false" style="--c:#3E6B4F"><span class="dot"></span>Nature and land</button>
-            <button class="chip" data-filter="health" aria-pressed="false" style="--c:#8A3340"><span class="dot"></span>Health and wellbeing</button>
-            <button class="chip" data-filter="cities" aria-pressed="false" style="--c:#4B5866"><span class="dot"></span>Cities and systems</button>
-            <button class="chip" data-filter="work" aria-pressed="false" style="--c:#7A4E1E"><span class="dot"></span>Work and economy</button>
+          <div class="filters" id="filters" role="group" aria-label="Show one system"></div>
+
+          <div class="toolbar__row">
+            <label class="who-select">
+              <span class="visually-hidden">Show the levers an institution holds</span>
+              <select id="who"></select>
+            </label>
+            <label class="key key--switch key--break"><input type="checkbox" id="toggle-levers"><span class="switch" aria-hidden="true"></span>Show where loops break</label>
+            <label class="key key--switch key--cross"><input type="checkbox" id="toggle-all"><span class="switch" aria-hidden="true"></span>Show all <span data-stat="cross">60</span> cross-system links</label>
           </div>
 
-          <div class="legend" role="group" aria-label="What the map shows">
-            <label class="key"><input type="checkbox" data-type-toggle="direct" checked><span class="key__line key__line--direct"></span>Direct impact</label>
-            <label class="key"><input type="checkbox" data-type-toggle="knock" checked><span class="key__line key__line--knock"></span>Knock-on effect</label>
-            <label class="key"><input type="checkbox" data-type-toggle="vicious" checked><span class="key__line key__line--vicious"></span>Vicious-cycle link</label>
-            <label class="key key--switch key--break"><input type="checkbox" id="toggle-levers"><span class="switch" aria-hidden="true"></span>Show where loops break</label>
-            <label class="key key--switch key--cross"><input type="checkbox" id="toggle-cross"><span class="switch" aria-hidden="true"></span>Reveal <span data-stat="hidden">7</span> hidden cross-system links</label>
+          <div class="legend" aria-label="How to read the map">
+            <span class="key"><span class="key__line key__line--direct"></span>Direct impact</span>
+            <span class="key"><span class="key__line key__line--knock"></span>Knock-on effect</span>
+            <span class="key"><span class="key__line key__line--vicious"></span>Vicious-cycle link</span>
+            <span class="key"><span class="key__dots" aria-hidden="true"><i></i><i></i><i></i></span>Bigger dot = caught in more vicious cycles</span>
           </div>
         </div>
 
         <div class="explorer__layout">
           <div class="map">
-            <div class="map__viewport" id="map-viewport">
-              <svg id="web" class="web" role="group" aria-label="Interactive map: extreme heat at the centre, connected to four systems and their consequences. Use Tab to move between bubbles and Enter to open one."></svg>
+            <div class="map__stage" id="map-stage">
+              <svg id="web" class="web" role="group" aria-label="Interactive map: extreme heat at the centre, ten systems around it, and their consequences in the outer rings. Use Tab to move between dots and Enter to open one."></svg>
+              <div class="zoom" role="group" aria-label="Zoom">
+                <button id="zoom-in" aria-label="Zoom in">+</button>
+                <button id="zoom-out" aria-label="Zoom out">−</button>
+                <button id="zoom-fit" aria-label="Show the whole web" class="zoom__fit">⤢</button>
+              </div>
+              <p class="wheel-hint" id="wheel-hint" aria-hidden="true">Hold Ctrl (or ⌘) and scroll to zoom</p>
             </div>
-            <div class="zoom" role="group" aria-label="Zoom">
-              <button id="zoom-out" aria-label="Zoom out">−</button>
-              <button id="zoom-in" aria-label="Zoom in">+</button>
-            </div>
-            <p class="map__hint">Drag to explore · <span aria-hidden="true">−</span> to see the whole web</p>
+            <p class="map__hint">Drag to move · pinch or + to zoom · tap any dot</p>
             <noscript><p class="noscript">This map needs JavaScript. You can still read every link in the list further down the page.</p></noscript>
           </div>
 
@@ -115,7 +123,7 @@
     <section class="loops" id="loops" aria-labelledby="loops-title">
       <div class="container">
         <p class="eyebrow eyebrow--break">Where the loops break</p>
-        <h2 id="loops-title" class="h2"><span class="num-urgent" data-stat="loops">12</span> vicious cycles.<br><span class="num-break" data-stat="levers">19</span> ways to break them.</h2>
+        <h2 id="loops-title" class="h2"><span class="num-urgent" data-stat="loops">17</span> vicious cycles.<br><span class="num-break" data-stat="levers">25</span> ways to break them.</h2>
         <p class="loops__intro">Every loop has weak links: points where one well-placed action stops the cycle from feeding itself. The strongest levers break several loops at once, and the pressure points are where many loops meet.</p>
 
         <div class="loops__layout">
@@ -138,7 +146,19 @@
     </section>
 
 
-    <!-- ============ 4. WHY "WICKED"? ============ -->
+    <!-- ============ 4. WHO HOLDS THE LEVERS ============ -->
+    <section class="who-holds" id="who-holds" aria-labelledby="who-title">
+      <div class="container">
+        <p class="eyebrow eyebrow--break">Who holds the levers</p>
+        <h2 id="who-title" class="h2">Every loop runs<br>through an institution.</h2>
+        <p class="loops__intro">Heat becomes deadly where nobody acts. Each breaking point belongs to someone: a ministry, a city, an employer, an insurer, a funder, a community. Choose one to see the loops it can help break.</p>
+        <ul id="inst-list" class="inst-list"></ul>
+        <p class="leverage__note">Bars show how many of the vicious cycles each institution’s levers can help break. No single institution can break them all, which is why the response has to be shared.</p>
+      </div>
+    </section>
+
+
+    <!-- ============ 5. WHY "WICKED"? ============ -->
     <section class="wicked" aria-labelledby="wicked-title">
       <div class="container">
         <p class="eyebrow">Why “wicked”?</p>
@@ -167,11 +187,11 @@
     </section>
 
 
-    <!-- ============ 5. CLOSING ============ -->
+    <!-- ============ 6. CLOSING ============ -->
     <section class="closing">
       <div class="container">
         <p class="closing__line">Pull one thread<br>and the whole web moves.</p>
-        <p class="closing__sub">Cut the right one, and whole loops stop.</p>
+        <p class="closing__sub">Cut the right one, in the right institution, and whole loops stop.</p>
         <div class="closing__actions">
           <button class="btn btn--cta" data-random>Pull a thread at random</button>
           <a class="btn btn--ghost" href="#loops">See where loops break</a>
@@ -180,11 +200,11 @@
     </section>
 
 
-    <!-- ============ 6. TEXT VERSION ============ -->
+    <!-- ============ 7. TEXT VERSION ============ -->
     <section class="text-version" aria-labelledby="list-title">
       <div class="container">
         <h2 id="list-title" class="eyebrow">The web, link by link</h2>
-        <p class="text-version__intro">The same map as a list, one system at a time.</p>
+        <p class="text-version__intro">The same map as a list, one system at a time. Every consequence and what it leads to.</p>
         <div id="web-list" class="web-list"></div>
       </div>
     </section>
