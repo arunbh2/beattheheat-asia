@@ -4,276 +4,160 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Heat, Work and the New Economy | Bangkok 2026</title>
-  <meta name="description" content="Join the waitlist for an in-person Bangkok Climate Action Week conversation on protecting informal workers in a warming Asia. 10 October 2026.">
-  <meta name="theme-color" content="#111111">
+  <title>Extreme Heat Is a Wicked Problem | BeatTheHeat.Asia</title>
+  <meta name="description" content="An interactive map of how extreme heat ripples through nature, health, cities and work. Every link runs through someone’s health, income or home.">
+  <meta name="theme-color" content="#FDBC11">
   <link rel="canonical" href="https://beattheheat.asia/">
 
-  <!-- Social sharing (WhatsApp, LinkedIn, X, Facebook).
-       The share picture is images/SOCIAL_SHARE_IMAGE.jpg (best size: 1200 x 630 pixels). -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="BeatTheHeat.Asia">
   <meta property="og:url" content="https://beattheheat.asia/">
-  <meta property="og:title" content="Heat, Work and the New Economy | Bangkok 2026">
-  <meta property="og:description" content="Join the waitlist for an in-person Bangkok Climate Action Week conversation on protecting informal workers in a warming Asia. 10 October 2026.">
+  <meta property="og:title" content="Extreme heat is a wicked problem">
+  <meta property="og:description" content="Pull one thread and the whole web moves. Explore how extreme heat ripples through nature, health, cities and work.">
   <meta property="og:image" content="https://beattheheat.asia/images/SOCIAL_SHARE_IMAGE.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="A street food vendor at work on a hot, hazy city street.">
+  <meta property="og:image:alt" content="A systems map showing extreme heat at the centre, connected to nature, health, cities and work.">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Heat, Work and the New Economy | Bangkok 2026">
-  <meta name="twitter:description" content="An in-person Bangkok Climate Action Week conversation on protecting informal workers in a warming Asia. 10 October 2026.">
+  <meta name="twitter:title" content="Extreme heat is a wicked problem">
+  <meta name="twitter:description" content="Pull one thread and the whole web moves. Explore how extreme heat ripples through nature, health, cities and work.">
   <meta name="twitter:image" content="https://beattheheat.asia/images/SOCIAL_SHARE_IMAGE.jpg">
 
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23111'/%3E%3Crect x='8' y='8' width='16' height='16' fill='%23FDBC11'/%3E%3C/svg%3E">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23FDBC11'/%3E%3Ccircle cx='16' cy='16' r='15' fill='none' stroke='%23111' stroke-width='2' stroke-dasharray='3 3'/%3E%3C/svg%3E">
 
-  <!-- Fonts: Barlow Condensed (headlines), Source Sans 3 (body), Source Serif 4 (the big question) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:ital,wght@0,400;1,400&display=swap">
-
-  <!-- The hero photograph starts downloading straight away so the first screen appears fast -->
-  <link rel="preload" as="image" href="images/IMAGE_01_HERO.jpg" fetchpriority="high">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap">
 
   <link rel="stylesheet" href="styles.css">
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Event",
-    "name": "Heat, Work and the New Economy: Protecting Informal Workers in a Warming Asia",
-    "description": "An in-person Bangkok Climate Action Week 2026 session on protecting informal workers in a warming Asia.",
-    "startDate": "2026-10-10T10:00:00+07:00",
-    "endDate": "2026-10-10T12:00:00+07:00",
-    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-    "eventStatus": "https://schema.org/EventScheduled",
-    "location": {
-      "@type": "Place",
-      "name": "Bangkok",
-      "address": { "@type": "PostalAddress", "addressLocality": "Bangkok", "addressCountry": "TH" }
-    },
-    "image": ["https://beattheheat.asia/images/SOCIAL_SHARE_IMAGE.jpg"],
-    "organizer": [
-      { "@type": "Organization", "name": "Practical Action", "url": "https://practicalaction.org/" },
-      { "@type": "Organization", "name": "Council on Energy, Environment and Water (CEEW)", "url": "https://www.ceew.in/" }
-    ]
-  }
-  </script>
+  <script src="script.js" defer></script>
 </head>
 
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip-link" href="#explore">Skip to the map</a>
 
-  <!-- ============================================================
-       HEADER
-       ============================================================ -->
   <header class="site-header">
-    <a class="wordmark" href="./" aria-label="Beat the Heat — home">
-      <span class="wordmark__mark" aria-hidden="true"></span>
-      BEAT THE HEAT
-    </a>
-
-    <!-- WAITLIST LINK 1 of 3 — paste your Google Form link over the placeholder on the next line -->
-    <a class="btn btn--small" href="https://forms.gle/aziJRBKWs5aaENBZ8" target="_blank" rel="noopener noreferrer">
-      Join the waitlist<span class="visually-hidden"> (opens in a new tab)</span>
-    </a>
+    <a class="wordmark" href="./"><span class="wordmark__mark" aria-hidden="true"></span>BEAT THE HEAT</a>
+    <a class="header-link" href="#explore">Explore the web</a>
   </header>
 
-  <main id="main">
+  <main>
 
-    <!-- ============================================================
-         SECTION 1 — HERO
-         IMAGE: images/IMAGE_01_HERO.jpg
-         Replace this photo by uploading a new file with exactly the
-         same name into the images folder. Landscape photos work best.
-         ============================================================ -->
-    <section class="hero" aria-labelledby="hero-title">
-      <img class="hero__img"
-           src="images/IMAGE_01_HERO.jpg"
-           alt="A street food vendor cooks at her stall as traders and motorbikes move through a hot, hazy city street."
-           width="1672" height="941"
-           fetchpriority="high" decoding="async">
-
-      <div class="hero__content">
-        <p class="eyebrow">Bangkok Climate Action Week 2026</p>
-        <h1 id="hero-title" class="hero__title">Heat, Work and the New Economy</h1>
-        <p class="hero__subtitle">Protecting Informal Workers in a Warming Asia</p>
-        <p class="hero__meta">
-          <span class="nw"><time datetime="2026-10-10">10 October 2026</time>&nbsp;<span class="dot" aria-hidden="true">·</span></span>
-          <span class="nw"><time datetime="2026-10-10T10:00+07:00">10:00 AM</time>–<time datetime="2026-10-10T12:00+07:00">12:00 PM</time>&nbsp;<span class="dot" aria-hidden="true">·</span></span>
-          <span class="nw">Bangkok</span>
-        </p>
-
-        <!-- WAITLIST LINK 2 of 3 — paste your Google Form link over the placeholder on the next line -->
-        <a class="btn" href="https://forms.gle/aziJRBKWs5aaENBZ8" target="_blank" rel="noopener noreferrer">
-          Join the waitlist<span class="visually-hidden"> (opens in a new tab)</span>
-        </a>
-        <p class="microcopy">Places are limited.</p>
-
-        <p class="hero__cohosts">
-          Co-hosted by
-          <a href="https://practicalaction.org/" target="_blank" rel="noopener noreferrer">Practical Action</a>
-          <span aria-hidden="true">&amp;</span>
-          <a href="https://www.ceew.in/" target="_blank" rel="noopener noreferrer">CEEW</a>
-        </p>
-      </div>
-    </section>
-
-
-    <!-- ============================================================
-         SECTION 2 — THE REALITY
-         IMAGE: images/IMAGE_02_WORK.jpg
-         Shown as a tall picture beside the text (on phones: below it).
-         ============================================================ -->
-    <section class="reality" aria-labelledby="reality-title">
-      <div class="reality__text">
-        <p class="marker"><span>01</span> The reality</p>
-        <h2 id="reality-title" class="h2">Heat does not stop at the thermometer.</h2>
-        <p class="lead">Extreme heat affects income, health, mobility, productivity and the ability to work safely.</p>
-        <p>For millions of informal and outdoor workers, the problem is not simply whether a warning exists. It is whether they can afford to stop working, whether protection is available, and whether institutions respond in time.</p>
-        <p class="pull">Heat becomes economically dangerous not simply when temperatures rise, but when people lack the information, agency, institutions and financial protection required to act.</p>
-      </div>
-
-      <figure class="reality__media">
-        <img src="images/IMAGE_02_WORK.jpg"
-             alt="A construction worker carries a heavy load of wet concrete on his shoulder across a building site in harsh sun."
-             width="1536" height="1024"
-             loading="lazy" decoding="async">
-      </figure>
-    </section>
-
-
-    <!-- ============================================================
-         SECTION 3 — THE QUESTION
-         IMAGE: images/IMAGE_03_WOMEN_WORKERS.jpg
-         Shown as a wide strip under the question.
-         ============================================================ -->
-    <section class="question" aria-labelledby="question-title">
+    <!-- ============ 1. TITLE ============ -->
+    <section class="intro">
       <div class="container">
-        <p class="marker marker--dark"><span>02</span> The question</p>
-        <h2 id="question-title" class="question__text">
-          What would it <em>actually</em> take to protect an informal worker before, during and after a dangerous heat event?
-        </h2>
-        <p class="question__support">A warning only matters if people can act on it.</p>
-      </div>
+        <h1 class="intro__title">Extreme heat is a <span>wicked problem</span></h1>
+        <p class="intro__lede">Every link in this web runs through someone’s health, income or home.</p>
 
-      <figure class="question__media">
-        <img src="images/IMAGE_03_WOMEN_WORKERS.jpg"
-             alt="Women traders sort bundles of leafy greens at a busy open-air market in the morning heat."
-             width="1448" height="1086"
-             loading="lazy" decoding="async">
-      </figure>
+        <dl class="stats">
+          <div><dt>Systems under strain</dt><dd>4</dd></div>
+          <div><dt>Consequences</dt><dd data-stat="consequences">27</dd></div>
+          <div><dt>Links between them</dt><dd data-stat="links">47</dd></div>
+          <div><dt>Vicious cycles</dt><dd>2</dd></div>
+        </dl>
+      </div>
     </section>
 
 
-    <!-- ============================================================
-         SECTION 4 — THE PROTECTION CHAIN
-         IMAGE: images/IMAGE_04_CITY_HEAT.jpg
-         Shown beside the introduction (on phones: below it).
-         ============================================================ -->
-    <section class="chain-section" aria-labelledby="chain-title">
+    <!-- ============ 2. THE INTERACTIVE MAP ============ -->
+    <section class="explorer" id="explore" aria-labelledby="explore-title">
       <div class="container">
-        <div class="chain-intro">
-          <div class="chain-intro__text">
-            <p class="marker"><span>03</span> The protection chain</p>
-            <h2 id="chain-title" class="h2">A heat warning is not protection.</h2>
-            <p class="lead">Protection exists only when information triggers an action that a worker can actually use — and when institutions and finance make that action possible.</p>
+        <h2 id="explore-title" class="visually-hidden">The web of extreme heat</h2>
+
+        <div class="toolbar">
+          <div class="filters" id="filters" role="group" aria-label="Show one system">
+            <button class="chip" data-filter="all" aria-pressed="true">Whole web</button>
+            <button class="chip" data-filter="nature" aria-pressed="false" style="--c:#2E5E34"><span class="dot"></span>Nature and land</button>
+            <button class="chip" data-filter="health" aria-pressed="false" style="--c:#8C1D2E"><span class="dot"></span>Health and wellbeing</button>
+            <button class="chip" data-filter="cities" aria-pressed="false" style="--c:#0F5068"><span class="dot"></span>Cities and systems</button>
+            <button class="chip" data-filter="work" aria-pressed="false" style="--c:#5F1C6E"><span class="dot"></span>Work and economy</button>
           </div>
 
-          <figure class="chain-intro__media">
-            <img src="images/IMAGE_04_CITY_HEAT.jpg"
-                 alt="A dense, sun-bleached city street with market stalls, buses, motorbikes and pedestrians beneath an elevated railway."
-                 width="1672" height="941"
-                 loading="lazy" decoding="async">
-          </figure>
+          <div class="legend" role="group" aria-label="Kinds of link">
+            <label class="key"><input type="checkbox" data-type-toggle="direct" checked><span class="key__line key__line--direct"></span>Direct impact</label>
+            <label class="key"><input type="checkbox" data-type-toggle="knock" checked><span class="key__line key__line--knock"></span>Knock-on effect</label>
+            <label class="key"><input type="checkbox" data-type-toggle="vicious" checked><span class="key__line key__line--vicious"></span>Vicious cycle</label>
+            <label class="key key--switch"><input type="checkbox" id="toggle-cross"><span class="switch" aria-hidden="true"></span>Reveal <span data-stat="hidden">8</span> hidden cross-system links</label>
+          </div>
         </div>
 
-        <ol class="chain" aria-label="Sense, decide, act, sustain">
-          <li class="chain__step">
-            <span class="chain__num">01</span>
-            <h3 class="chain__word">Sense</h3>
-            <p>Know where and when heat risk is rising.</p>
+        <div class="explorer__layout">
+          <div class="map">
+            <div class="map__viewport" id="map-viewport">
+              <svg id="web" class="web" role="group" aria-label="Interactive map: extreme heat at the centre, connected to four systems and their consequences. Use Tab to move between bubbles and Enter to open one."></svg>
+            </div>
+            <div class="zoom" role="group" aria-label="Zoom">
+              <button id="zoom-out" aria-label="Zoom out">−</button>
+              <button id="zoom-in" aria-label="Zoom in">+</button>
+            </div>
+            <p class="map__hint">Drag to explore · <span aria-hidden="true">−</span> to see the whole web</p>
+            <noscript><p class="noscript">This map needs JavaScript. You can still read every link in the list further down the page.</p></noscript>
+          </div>
+
+          <aside class="panel" id="panel" aria-live="polite" aria-label="Details">
+            <button class="panel__close" data-act="close" aria-label="Close">×</button>
+            <div class="panel__body" id="panel-body"></div>
+          </aside>
+        </div>
+
+        <!-- On phones and tablets the guided paths sit here, below the map -->
+        <div class="guide" id="guide"></div>
+      </div>
+    </section>
+
+
+    <!-- ============ 3. WHY "WICKED"? ============ -->
+    <section class="wicked" aria-labelledby="wicked-title">
+      <div class="container">
+        <p class="eyebrow">Why “wicked”?</p>
+        <h2 id="wicked-title" class="h2">No single cause.<br>No single owner.<br>No finish line.</h2>
+        <p class="wicked__note">In 1973 the planners Horst Rittel and Melvin Webber called some problems “wicked”: problems that resist a clean definition and have no final solution. Extreme heat is one of them.</p>
+
+        <ol class="traits">
+          <li>
+            <h3>There is no single cause to fix</h3>
+            <p>Heat arrives through land, bodies, cities and wallets at the same time, and each system pushes on the others.</p>
           </li>
-          <li class="chain__step">
-            <span class="chain__num">02</span>
-            <h3 class="chain__word">Decide</h3>
-            <p>Turn warnings into clear responsibilities and decisions.</p>
+          <li>
+            <h3>Every solution changes the problem</h3>
+            <p>Air conditioning cools a room and heats the street. Shifting work to cooler hours protects one worker and cuts another’s wages.</p>
           </li>
-          <li class="chain__step">
-            <span class="chain__num">03</span>
-            <h3 class="chain__word">Act</h3>
-            <p>Make protection possible — shade, hydration, cooling, work-rest and community response.</p>
+          <li>
+            <h3>There is no finish line</h3>
+            <p>Each hotter season resets the problem. Protection has to be kept up, not achieved once.</p>
           </li>
-          <li class="chain__step">
-            <span class="chain__num">04</span>
-            <h3 class="chain__word">Sustain</h3>
-            <p>Protect income, institutions and the ability to act again next time.</p>
+          <li>
+            <h3>It lands unequally</h3>
+            <p>The same heatwave is an inconvenience for some and a catastrophe for others. The difference is protection, not temperature.</p>
           </li>
         </ol>
       </div>
     </section>
 
 
-    <!-- ============================================================
-         CO-HOSTS
-         Names are set in type (no logos) so the page keeps one voice.
-         ============================================================ -->
-    <section class="cohosts" aria-labelledby="cohosts-title">
-      <div class="container cohosts__inner">
-        <h2 id="cohosts-title" class="cohosts__label">Co-hosted by</h2>
-
-        <a class="cohost" href="https://practicalaction.org/" target="_blank" rel="noopener noreferrer">
-          <span class="cohost__name">Practical Action</span>
-          <span class="cohost__desc">We’re an international organisation taking practical action against poverty and the environmental crises to start the big changes today’s world urgently needs.</span>
-          <span class="cohost__url">practicalaction.org<span class="visually-hidden"> (opens in a new tab)</span></span>
-        </a>
-
-        <a class="cohost" href="https://www.ceew.in/" target="_blank" rel="noopener noreferrer">
-          <span class="cohost__name">Council on Energy, Environment and Water</span>
-          <span class="cohost__desc">CEEW — one of Asia’s leading not-for-profit policy research institutions.</span>
-          <span class="cohost__url">ceew.in<span class="visually-hidden"> (opens in a new tab)</span></span>
-        </a>
+    <!-- ============ 4. CLOSING ============ -->
+    <section class="closing">
+      <div class="container">
+        <p class="closing__line">Pull one thread<br>and the whole web moves.</p>
+        <button class="btn btn--big" data-random>Pull a thread at random</button>
       </div>
     </section>
 
 
-    <!-- ============================================================
-         SECTION 5 — FINAL CALL TO ACTION
-         IMAGE: images/IMAGE_05_CLOSING.jpg
-         Full-width on larger screens with the text on the right;
-         on phones the photo sits above the text.
-         ============================================================ -->
-    <section class="closing" aria-labelledby="closing-title">
-      <figure class="closing__media">
-        <img src="images/IMAGE_05_CLOSING.jpg"
-             alt="In late-afternoon light, a market trader packs away her stall while others wheel carts home along the street."
-             width="1672" height="941"
-             loading="lazy" decoding="async">
-      </figure>
-
-      <div class="closing__content">
-        <p class="eyebrow">Bangkok · <time datetime="2026-10-10">10 October 2026</time></p>
-        <h2 id="closing-title" class="h2 closing__title">Join the conversation.</h2>
-        <p>A small, in-person working session bringing together people working across heat, livelihoods, cities, public health and worker protection.</p>
-
-        <!-- WAITLIST LINK 3 of 3 — paste your Google Form link over the placeholder on the next line -->
-        <a class="btn" href="https://forms.gle/aziJRBKWs5aaENBZ8" target="_blank" rel="noopener noreferrer">
-          Join the waitlist<span class="visually-hidden"> (opens in a new tab)</span>
-        </a>
-        <p class="microcopy">Places are limited. Join the waitlist and we will be in touch if a place becomes available.</p>
+    <!-- ============ 5. TEXT VERSION ============ -->
+    <section class="text-version" aria-labelledby="list-title">
+      <div class="container">
+        <h2 id="list-title" class="eyebrow">The web, link by link</h2>
+        <p class="text-version__intro">The same map as a list, one system at a time.</p>
+        <div id="web-list" class="web-list"></div>
       </div>
     </section>
 
   </main>
 
-  <!-- ============================================================
-       FOOTER
-       ============================================================ -->
   <footer class="site-footer">
     <p class="site-footer__brand">BeatTheHeat.Asia</p>
-    <p>Co-hosted by Practical Action &amp; CEEW</p>
-    <p>Bangkok Climate Action Week 2026</p>
-    <p>10 October · Bangkok</p>
+    <p>Format inspired by Antonio Vizcaya Abdo’s climate systems map.</p>
   </footer>
 </body>
 </html>
