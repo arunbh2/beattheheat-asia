@@ -6,7 +6,9 @@ Visitors can:
 
 - **tap any bubble** to see what it sets in motion and what drives it;
 - **follow the ripple** to watch one consequence spread across the whole web;
-- **take a guided path** through the two vicious cycles (the *poverty–heat trap* and the *cooling trap*) and one cross-system story (*From field to family*);
+- **walk through 12 vicious cycles**, grouped into loops that feed the heat itself, loops that trap people and loops that break the systems we rely on;
+- **see where each loop can be broken**: 19 breaking points, each tied to the link it cuts;
+- **find the pressure points** where several loops meet, and the levers that break more than one loop at once;
 - **reveal hidden cross-system links** that the simplified map leaves out;
 - **filter** the map to one system, or switch link types on and off.
 
@@ -41,11 +43,31 @@ All the map's words are near the top of `script.js`, in the section marked `DATA
    - `label:` is the text inside the bubble. `\n` starts a new line inside the bubble.
    - `desc:` is the description shown when someone taps the bubble.
    - In the `EDGES` list, the sentence after a link explains *why* one thing leads to the other.
-   - In `STORIES`, each step of a guided path has a `title:` and a `text:`.
+   - In `LOOPS`, each vicious cycle has a `name:`, a `summary:` and an `evidence:` level (`"established"` or `"emerging"`).
+   - In `LEVERS`, each breaking point has a `title:`, a `text:` and sometimes an `example:`.
+   - In `STORIES`, each step of the *From field to family* path has a `title:` and a `text:`.
 4. Keep every quote mark `"` and comma `,` exactly where it was. If one goes missing, the map won't appear. You can always undo by restoring the previous version of the file from its **History** on GitHub.
 5. Scroll down and click **Commit changes** (GitHub's word for *save*).
 
 > **Tip:** If you want to type a quote mark inside a sentence, use the curly kind (’ or “ ”), not the straight `"`.
+
+---
+
+## The colours
+
+The site uses a "heat-risk" palette. Each colour has one job, so readers learn what it means:
+
+| Colour | Used for |
+|---|---|
+| Deep charcoal navy `#16202B` | Text and structure |
+| Heat orange `#F26430` | The heat itself, headline highlights and main buttons |
+| Emergency red `#D7263D` | Vicious cycles and urgent numbers only |
+| Resilient teal `#1F7A70` | Where loops can be broken |
+| Cool blue `#2E6F95` | Hidden cross-system links |
+| Amber warning `#F5A623` | "You are here" highlights and keyboard focus |
+| Warm sand `#F6E7D7` and off-white `#FAF7F2` | Calm backgrounds |
+
+The four systems use quiet, muted tones so the meaningful colours stand out. All colours are set at the top of `styles.css` and `script.js`.
 
 ---
 

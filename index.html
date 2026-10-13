@@ -5,25 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Extreme Heat Is a Wicked Problem | BeatTheHeat.Asia</title>
-  <meta name="description" content="An interactive map of how extreme heat ripples through nature, health, cities and work. Every link runs through someone’s health, income or home.">
-  <meta name="theme-color" content="#FDBC11">
+  <meta name="description" content="Extreme heat is a global health emergency. An interactive map of how it ripples through nature, health, cities and work, the vicious cycles that make it worse, and where they can be broken.">
+  <meta name="theme-color" content="#16202B">
   <link rel="canonical" href="https://beattheheat.asia/">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="BeatTheHeat.Asia">
   <meta property="og:url" content="https://beattheheat.asia/">
   <meta property="og:title" content="Extreme heat is a wicked problem">
-  <meta property="og:description" content="Pull one thread and the whole web moves. Explore how extreme heat ripples through nature, health, cities and work.">
+  <meta property="og:description" content="A global health emergency, and an urgent and growing threat. Explore the vicious cycles of extreme heat, and where they can be broken.">
   <meta property="og:image" content="https://beattheheat.asia/images/SOCIAL_SHARE_IMAGE.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="A systems map showing extreme heat at the centre, connected to nature, health, cities and work.">
+  <meta property="og:image:alt" content="A systems map showing extreme heat at the centre, connected to nature, health, cities and work, with vicious cycles in red.">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Extreme heat is a wicked problem">
-  <meta name="twitter:description" content="Pull one thread and the whole web moves. Explore how extreme heat ripples through nature, health, cities and work.">
+  <meta name="twitter:description" content="A global health emergency, and an urgent and growing threat. Explore the vicious cycles of extreme heat, and where they can be broken.">
   <meta name="twitter:image" content="https://beattheheat.asia/images/SOCIAL_SHARE_IMAGE.jpg">
 
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23FDBC11'/%3E%3Ccircle cx='16' cy='16' r='15' fill='none' stroke='%23111' stroke-width='2' stroke-dasharray='3 3'/%3E%3C/svg%3E">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23F26430'/%3E%3Ccircle cx='16' cy='16' r='15' fill='none' stroke='%2316202B' stroke-width='2' stroke-dasharray='3 3'/%3E%3C/svg%3E">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,7 +38,10 @@
 
   <header class="site-header">
     <a class="wordmark" href="./"><span class="wordmark__mark" aria-hidden="true"></span>BEAT THE HEAT</a>
-    <a class="header-link" href="#explore">Explore the web</a>
+    <nav class="header-nav" aria-label="Sections">
+      <a href="#explore">The web</a>
+      <a href="#loops">Where loops break</a>
+    </nav>
   </header>
 
   <main>
@@ -46,14 +49,15 @@
     <!-- ============ 1. TITLE ============ -->
     <section class="intro">
       <div class="container">
+        <p class="intro__flag">A global health emergency</p>
         <h1 class="intro__title">Extreme heat is a <span>wicked problem</span></h1>
-        <p class="intro__lede">Every link in this web runs through someone’s health, income or home.</p>
+        <p class="intro__lede">An urgent and growing threat. Every link in this web runs through someone’s health, income or home, and many of them loop back to make the heat worse.</p>
 
         <dl class="stats">
           <div><dt>Systems under strain</dt><dd>4</dd></div>
-          <div><dt>Consequences</dt><dd data-stat="consequences">27</dd></div>
-          <div><dt>Links between them</dt><dd data-stat="links">47</dd></div>
-          <div><dt>Vicious cycles</dt><dd>2</dd></div>
+          <div><dt>Consequences</dt><dd data-stat="consequences">28</dd></div>
+          <div class="stat--urgent"><dt>Vicious cycles</dt><dd data-stat="loops">12</dd></div>
+          <div class="stat--break"><dt>Places to break them</dt><dd data-stat="levers">19</dd></div>
         </dl>
       </div>
     </section>
@@ -67,17 +71,18 @@
         <div class="toolbar">
           <div class="filters" id="filters" role="group" aria-label="Show one system">
             <button class="chip" data-filter="all" aria-pressed="true">Whole web</button>
-            <button class="chip" data-filter="nature" aria-pressed="false" style="--c:#2E5E34"><span class="dot"></span>Nature and land</button>
-            <button class="chip" data-filter="health" aria-pressed="false" style="--c:#8C1D2E"><span class="dot"></span>Health and wellbeing</button>
-            <button class="chip" data-filter="cities" aria-pressed="false" style="--c:#0F5068"><span class="dot"></span>Cities and systems</button>
-            <button class="chip" data-filter="work" aria-pressed="false" style="--c:#5F1C6E"><span class="dot"></span>Work and economy</button>
+            <button class="chip" data-filter="nature" aria-pressed="false" style="--c:#3E6B4F"><span class="dot"></span>Nature and land</button>
+            <button class="chip" data-filter="health" aria-pressed="false" style="--c:#8A3340"><span class="dot"></span>Health and wellbeing</button>
+            <button class="chip" data-filter="cities" aria-pressed="false" style="--c:#4B5866"><span class="dot"></span>Cities and systems</button>
+            <button class="chip" data-filter="work" aria-pressed="false" style="--c:#7A4E1E"><span class="dot"></span>Work and economy</button>
           </div>
 
-          <div class="legend" role="group" aria-label="Kinds of link">
+          <div class="legend" role="group" aria-label="What the map shows">
             <label class="key"><input type="checkbox" data-type-toggle="direct" checked><span class="key__line key__line--direct"></span>Direct impact</label>
             <label class="key"><input type="checkbox" data-type-toggle="knock" checked><span class="key__line key__line--knock"></span>Knock-on effect</label>
-            <label class="key"><input type="checkbox" data-type-toggle="vicious" checked><span class="key__line key__line--vicious"></span>Vicious cycle</label>
-            <label class="key key--switch"><input type="checkbox" id="toggle-cross"><span class="switch" aria-hidden="true"></span>Reveal <span data-stat="hidden">8</span> hidden cross-system links</label>
+            <label class="key"><input type="checkbox" data-type-toggle="vicious" checked><span class="key__line key__line--vicious"></span>Vicious-cycle link</label>
+            <label class="key key--switch key--break"><input type="checkbox" id="toggle-levers"><span class="switch" aria-hidden="true"></span>Show where loops break</label>
+            <label class="key key--switch key--cross"><input type="checkbox" id="toggle-cross"><span class="switch" aria-hidden="true"></span>Reveal <span data-stat="hidden">7</span> hidden cross-system links</label>
           </div>
         </div>
 
@@ -106,7 +111,34 @@
     </section>
 
 
-    <!-- ============ 3. WHY "WICKED"? ============ -->
+    <!-- ============ 3. WHERE THE LOOPS BREAK ============ -->
+    <section class="loops" id="loops" aria-labelledby="loops-title">
+      <div class="container">
+        <p class="eyebrow eyebrow--break">Where the loops break</p>
+        <h2 id="loops-title" class="h2"><span class="num-urgent" data-stat="loops">12</span> vicious cycles.<br><span class="num-break" data-stat="levers">19</span> ways to break them.</h2>
+        <p class="loops__intro">Every loop has weak links: points where one well-placed action stops the cycle from feeding itself. The strongest levers break several loops at once, and the pressure points are where many loops meet.</p>
+
+        <div class="loops__layout">
+          <div id="loop-groups" class="loop-groups"></div>
+
+          <aside class="leverage">
+            <div class="leverage__block">
+              <h3 class="leverage__h">Pressure points</h3>
+              <p class="leverage__p">Where the most loops meet. Protect people here and several cycles weaken at once.</p>
+              <ul id="pressure-points" class="pp-list"></ul>
+            </div>
+            <div class="leverage__block">
+              <h3 class="leverage__h">Levers that break more than one loop</h3>
+              <ul id="multi-levers" class="pp-list"></ul>
+            </div>
+            <p class="leverage__note">“Well established” loops are widely documented. For loops marked “Evidence emerging”, each link is evidenced, but the full cycle has been studied less.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============ 4. WHY "WICKED"? ============ -->
     <section class="wicked" aria-labelledby="wicked-title">
       <div class="container">
         <p class="eyebrow">Why “wicked”?</p>
@@ -123,8 +155,8 @@
             <p>Air conditioning cools a room and heats the street. Shifting work to cooler hours protects one worker and cuts another’s wages.</p>
           </li>
           <li>
-            <h3>There is no finish line</h3>
-            <p>Each hotter season resets the problem. Protection has to be kept up, not achieved once.</p>
+            <h3>The problem feeds itself</h3>
+            <p>Dry soils, melting ice, burning forests and fossil-powered cooling all loop back to make the heat worse.</p>
           </li>
           <li>
             <h3>It lands unequally</h3>
@@ -135,16 +167,20 @@
     </section>
 
 
-    <!-- ============ 4. CLOSING ============ -->
+    <!-- ============ 5. CLOSING ============ -->
     <section class="closing">
       <div class="container">
         <p class="closing__line">Pull one thread<br>and the whole web moves.</p>
-        <button class="btn btn--big" data-random>Pull a thread at random</button>
+        <p class="closing__sub">Cut the right one, and whole loops stop.</p>
+        <div class="closing__actions">
+          <button class="btn btn--cta" data-random>Pull a thread at random</button>
+          <a class="btn btn--ghost" href="#loops">See where loops break</a>
+        </div>
       </div>
     </section>
 
 
-    <!-- ============ 5. TEXT VERSION ============ -->
+    <!-- ============ 6. TEXT VERSION ============ -->
     <section class="text-version" aria-labelledby="list-title">
       <div class="container">
         <h2 id="list-title" class="eyebrow">The web, link by link</h2>
