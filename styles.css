@@ -526,7 +526,7 @@ button { font: inherit; color: inherit; }
 /* ---------- 5. Closing ---------- */
 .closing { padding: clamp(64px, 10vw, 128px) 0; background: var(--sand); text-align: center; }
 .closing__line { font-family: var(--font-display); font-size: clamp(2.3rem, 1.2rem + 5vw, 5.5rem); line-height: 1; text-transform: uppercase; }
-.closing__sub { margin-top: 16px; font-size: clamp(1.1rem, 1rem + .5vw, 1.4rem); font-weight: 600; color: var(--teal); }
+.closing__sub { margin-top: 16px; font-size: clamp(1.1rem, 1rem + .5vw, 1.4rem); font-weight: 600; color: #17605A; }
 .closing__actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: clamp(28px, 4vw, 40px); }
 .closing .btn--ghost { min-height: 58px; padding-inline: 26px; }
 
@@ -678,7 +678,7 @@ button { font: inherit; color: inherit; }
 .pkg-btn:hover, .pkg-btn[aria-pressed="true"] { border-color: var(--teal); background: #F2F8F7; }
 .pkg-btn small { color: var(--grey-500); font-size: .82rem; }
 .place { margin-top: 12px; font-size: .9rem; color: var(--grey-700); }
-.place span { display: block; margin-bottom: 2px; font-size: .7rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: var(--orange); }
+.place span { display: block; margin-bottom: 2px; font-size: .7rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: #B4441A; }
 .path-steps { margin: 14px 0 0; padding-left: 22px; }
 .path-steps li { padding: 6px 0 8px; border-bottom: 1px solid var(--line); }
 .path-steps li::marker { font-weight: 800; color: var(--orange); }
@@ -717,3 +717,47 @@ button { font: inherit; color: inherit; }
 .hour .btn--ghost:hover { background: var(--canvas); color: var(--ink); }
 
 .web.has-focus.break-mode .lever:not(.on):not(.is-on) { opacity: .2; }
+
+/* ---------- evidence drawers ---------- */
+.evid { margin-top: 12px; max-width: 52rem; font-size: .9rem; }
+.evid summary {
+  display: inline-flex; align-items: center; gap: 8px; padding: 4px 12px; border: 1.5px solid var(--ink); border-radius: 999px;
+  font-size: .82rem; font-weight: 700; cursor: pointer; list-style: none;
+}
+.evid summary::-webkit-details-marker { display: none; }
+.evid summary::before { content: "+"; font-weight: 800; }
+.evid[open] summary::before { content: "−"; }
+.evid summary span { font-weight: 600; color: var(--grey-500); }
+.evid summary:hover { background: var(--ink); color: var(--canvas); }
+.evid summary:hover span { color: inherit; }
+.evid ul { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 10px; }
+.evid li { padding: 10px 12px; border-left: 3px solid var(--ink); background: var(--white); border-radius: 0 6px 6px 0; }
+.evid a { font-weight: 700; color: var(--ink); text-decoration: underline; text-underline-offset: 3px; text-decoration-color: var(--orange); }
+.evid a:hover { color: var(--red); }
+.evid small { display: block; margin-top: 2px; color: var(--grey-500); font-size: .8rem; }
+.evid p { margin-top: 6px; color: var(--grey-700); }
+.panel .evid li { background: var(--canvas); }
+
+/* ---------- how soon a lever works ---------- */
+.when {
+  display: inline-block; margin-top: 4px; padding: 1px 9px; border-radius: 999px;
+  font-size: .72rem; font-weight: 800; letter-spacing: .02em; background: #E8F2F0; color: #17605A;
+}
+.when--season { background: var(--teal); color: var(--white); }
+.when--decade { background: transparent; border: 1px solid #17605A; }
+.lever-btn .when { display: table; }
+.panel__title + .when { margin: 6px 0 2px; align-self: flex-start; justify-self: start; width: max-content; }
+.lever-chip__when { display: block; font-size: .68rem; font-weight: 700; opacity: .85; }
+.pkg-chip--now { border-style: solid; font-weight: 800; }
+
+/* ---------- facts with sources ---------- */
+.fact { margin-top: 12px; padding: 10px 12px; border-left: 3px solid var(--orange); background: var(--sand); font-size: .9rem; color: var(--grey-700); }
+.fact__src, .hour__fact span { display: block; margin-top: 4px; font-size: .8rem; }
+.fact a { color: var(--ink); font-weight: 700; }
+.hour__fact { padding: 8px 10px; border-left: 3px solid var(--orange); background: rgba(250,247,242,.07); color: rgba(250,247,242,.85); font-size: .88rem; }
+.hour__fact a { color: var(--canvas); font-weight: 700; }
+
+/* ---------- the tour ---------- */
+.intro__tour { margin-top: 26px; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 10px 16px; color: var(--grey-500); }
+.btn--tour { margin: 6px 0 4px; background: var(--orange); border-color: var(--orange); color: var(--ink); }
+.btn--tour:hover { background: var(--ink); border-color: var(--ink); color: var(--canvas); }

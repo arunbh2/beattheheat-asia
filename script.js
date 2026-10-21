@@ -87,6 +87,18 @@
 
   const state = { selected: null, story: null, step: 0, filter: "all", inst: null, on: new Set(), pkg: null };
   const pkgById = Object.fromEntries((typeof PACKAGES !== "undefined" ? PACKAGES : []).map(p => [p.id, p]));
+  // an automatic package: every lever that can start working this season
+  pkgById.now = { id: "now", title: "Before this summer", text: "Every lever that can start working this season, before the next heatwave.",
+    levers: LEVERS.filter(v => v.when === "season").map(v => v.id) };
+  const WHEN = { season: "Works this season", years: "1–3 years", decade: "A decade or more" };
+  const whenTag = v => v.when && WHEN[v.when] ? `<span class="when when--${v.when}">${WHEN[v.when]}</span>` : "";
+  const evidenceOf = id => (typeof EVIDENCE !== "undefined" && EVIDENCE[id]) || [];
+  const extLink = (url, text) => `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(text)}<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a>`;
+  function evidenceHTML(l, open) {
+    const ev = evidenceOf(l.id); if (!ev.length) return "";
+    return `<details class="evid"${open ? " open" : ""}><summary>See the evidence <span>${plural(ev.length, "source")}</span></summary>
+      <ul>${ev.map(x => `<li>${extLink(x.url, x.title)}<small>${esc(x.by)}</small><p>${esc(x.finding)}</p></li>`).join("")}</ul></details>`;
+  }
 
   /* ======================= LAYOUT ======================= */
   const measureCtx = document.createElement("canvas").getContext("2d");
@@ -596,7 +608,7 @@
   }
 
   function clearSelection() {
-    state.selected = null; state.story = null; state.inst = null; state.pkg = null;
+    state.selected = null; state.story = null; state.inst = null; state.pkg = null; state.tour = null;
     clearMarks();
     applyBreakState();
     renderIntro();
@@ -683,6 +695,7 @@
       <p class="panel__desc">${esc(step.text)}</p>
       ${step.loopAll && !step.levers && story.loop ? chainHTML(story.loop) : ""}
       ${step.place ? `<p class="place"><span>Where to look</span>${esc(step.place)}</p>` : ""}
+      ${story.loop && state.step === 0 ? evidenceHTML(story.loop, false) : ""}
       ${story.loop && isBroken(story.loop.id) ? `<p class="broken-note">✓ Broken by the levers you’ve switched on</p>` : ""}
       ${step.levers && story.loop.levers.length ? `<ul class="lever-list">${story.loop.levers.map(lid => leverItem(leverById[lid])).join("")}</ul>` : ""}
       <div class="panel__nav">
@@ -702,7 +715,7 @@
     return `<li><button class="lever-btn${state.on.has(v.id) ? " is-on" : ""}" data-lever="${v.id}">
       <span class="lever-icon" aria-hidden="true"></span>
       <span><strong>${esc(v.title)}</strong>
-      <small>Cuts ${esc(plain(byId[v.edge[0]]))} → ${esc(plain(byId[v.edge[1]]))}${v.loops.length > 1 ? ` · breaks ${v.loops.length} loops` : ""}${state.on.has(v.id) ? " · <b>switched on</b>" : ""}</small></span>
+      <small>Cuts ${esc(plain(byId[v.edge[0]]))} → ${esc(plain(byId[v.edge[1]]))}${v.loops.length > 1 ? ` · breaks ${v.loops.length} loops` : ""}${state.on.has(v.id) ? " · <b>switched on</b>" : ""}</small>${whenTag(v)}</span>
     </button></li>`;
   }
 
@@ -745,6 +758,7 @@
     panelBody.innerHTML = `
       <p class="panel__kicker is-break"><span class="lever-icon lever-icon--sm" aria-hidden="true"></span>Where it breaks</p>
       <h2 class="panel__title">${esc(v.title)}</h2>
+      ${whenTag(v)}
       <p class="panel__desc">${esc(v.text)}</p>
       <button class="lever-switch${state.on.has(v.id) ? " is-on" : ""}" data-act="toggle-lever" data-id="${v.id}" aria-pressed="${state.on.has(v.id)}">
         <span class="lever-switch__track" aria-hidden="true"></span>
@@ -788,10 +802,11 @@
     return `
       <p class="panel__kicker">Start anywhere</p>
       <h2 class="panel__title">Pull a thread</h2>
+      <button class="btn btn--full btn--tour" data-act="tour">New here? Take the 60-second tour</button>
       <p class="panel__desc">${mobile ? "Drag and pinch the map, then tap" : "Drag the map, zoom in, and click"} any dot to see what it sets in motion and what drives it. Or walk through one of the <strong>${LOOPS.length} vicious cycles</strong> and see where each one breaks:</p>
       <h3 class="panel__h panel__h--break">Break the loops</h3>
       <p class="panel__note">Switch on a policy package and watch which loops break, and who has to act.</p>
-      <div class="pkg-list">${PACKAGES.map(p => `<button class="pkg-btn" data-pkg="${p.id}"><strong>${esc(p.title)}</strong><small>${esc(p.text)}</small></button>`).join("")}<button class="pkg-btn pkg-btn--all" data-pkg="all"><strong>Everything at once</strong><small>All ${LEVERS.length} levers</small></button></div>
+      <div class="pkg-list">${[pkgById.now, ...PACKAGES].map(p => `<button class="pkg-btn" data-pkg="${p.id}"><strong>${esc(p.title)}</strong><small>${esc(p.text)}</small></button>`).join("")}<button class="pkg-btn pkg-btn--all" data-pkg="all"><strong>Everything at once</strong><small>All ${LEVERS.length} levers</small></button></div>
       ${groups}
       <h3 class="panel__h">Across systems</h3>
       <ul class="loop-list">${Object.entries(STORIES).map(([k, s]) => `<li><button class="loop-btn loop-btn--story" data-story="${k}"><span class="loop-btn__name">${esc(s.title)}</span><span class="ev">${s.steps.length} steps</span></button></li>`).join("")}</ul>`;
@@ -858,6 +873,10 @@
     if (act === "reset-levers") { state.on.clear(); state.pkg = null; applyBreakState(); clearSelection(); fitAll(); return; }
     if (act === "inst-levers") { applyLevers(instById[t.dataset.id].levers, instById[t.dataset.id].name); return; }
     if (act === "brief") { openBrief(t.dataset.id); return; }
+    if (act === "tour") { goToMap(() => tourStep(0)); return; }
+    if (act === "tour-next") { tourStep(state.tour + 1); return; }
+    if (act === "tour-prev") { tourStep(state.tour - 1); return; }
+    if (act === "tour-end") { if (state.on.size) { state.on.clear(); applyBreakState(); } clearSelection(); fitAll(); return; }
     if (act === "brief-copy") { copyBrief(t.dataset.id, t); return; }
     if (act === "swap-path") { const a = document.getElementById("path-from"), b = document.getElementById("path-to"); [a.value, b.value] = [b.value, a.value]; return; }
     if (act === "clear" || act === "done" || act === "close") { clearSelection(); fitAll(); }
@@ -866,7 +885,7 @@
     else if (act === "prev") { state.step--; renderStep(); }
   }
   document.addEventListener("click", ev => {
-    if (ev.target.closest("#panel, #guide, #loops, #web-list, #who-holds, #breakbar, #day, #path-form")) handleAction(ev);
+    if (ev.target.closest("#panel, #guide, #loops, #web-list, #who-holds, #breakbar, #day, #path-form, .intro")) handleAction(ev);
   });
   document.addEventListener("keydown", ev => {
     if (ev.key === "Escape" && (state.selected || state.story || state.inst || state.pkg)) { clearSelection(); fitAll(); }
@@ -1083,9 +1102,9 @@
     L.push("YOUR PROTECTION CHAIN");
     STAGES.forEach(([k, label]) => d.pb[k] && L.push(`${label}: ${d.pb[k]}`));
     L.push("", "YOUR LEVERS");
-    d.levers.forEach(v => { L.push(`- ${v.title}: ${v.text} (Cuts ${plain(byId[v.edge[0]])} → ${plain(byId[v.edge[1]])}; breaks ${v.loops.map(l => loopById[l].name).join(", ") || "no mapped loop"}.)`); if (v.example) L.push(`  Example: ${v.example}`); });
+    d.levers.forEach(v => { L.push(`- ${v.title} [${WHEN[v.when] || ""}]: ${v.text} (Cuts ${plain(byId[v.edge[0]])} → ${plain(byId[v.edge[1]])}; breaks ${v.loops.map(l => loopById[l].name).join(", ") || "no mapped loop"}.)`); if (v.example) L.push(`  Example: ${v.example}`); });
     L.push("", "LOOPS YOU CAN HELP BREAK");
-    d.loops.forEach(l => L.push(`- ${l.name} (${evidenceLabel(l.evidence)}): ${l.summary}`));
+    d.loops.forEach(l => { L.push(`- ${l.name} (${evidenceLabel(l.evidence)}): ${l.summary}`); evidenceOf(l.id).forEach(x => L.push(`  Evidence: ${x.by}, “${x.title}”: ${x.finding} ${x.url}`)); });
     if (d.partners.length) { L.push("", "WHO TO WORK WITH", `These institutions share your levers: ${d.partners.map(p => p.inst.name).join(", ")}.`); }
     L.push("", "This map is large, but the real web is larger. Loops marked “Evidence emerging” have evidence for each link; the full cycle has been studied less.");
     return L.join("\n");
@@ -1098,7 +1117,7 @@
       .k{color:#D7263D;font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:12px}.sub{color:#5E6570}
       h2{font-size:13px;letter-spacing:.12em;text-transform:uppercase;border-top:2px solid #16202B;padding-top:10px;margin-top:28px}
       .chain{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.chain div{border-top:4px solid #1F7A70;padding-top:8px}
-      .chain b{display:block;color:#1F7A70}li{margin:8px 0}.ex{color:#5E6570;font-size:14px}.ev{font-size:12px;color:#5E6570}
+      .chain b{display:block;color:#1F7A70}li{margin:8px 0}.when{display:inline-block;padding:1px 8px;border-radius:999px;background:#E8F2F0;color:#1F7A70;font-size:12px;font-weight:700}a{color:#1F7A70}.ex{color:#5E6570;font-size:14px}.ev{font-size:12px;color:#5E6570}
       .bar{height:8px;background:#E3EEEC;border-radius:4px;margin:8px 0}.bar span{display:block;height:100%;background:#1F7A70;border-radius:4px}
       .print{position:fixed;top:16px;right:16px;padding:10px 18px;border-radius:999px;border:0;background:#F26430;font-weight:700;cursor:pointer}
       @media print{.print{display:none}body{margin:0}} @media(max-width:600px){.chain{grid-template-columns:1fr 1fr}}`;
@@ -1110,8 +1129,8 @@
       <p>Extreme heat is an urgent and growing threat. On this map, ${h(d.inst.name.toLowerCase())} hold <strong>${plural(d.levers.length, "lever")}</strong> that can help break <strong>${d.loops.length} of the ${LOOPS.length}</strong> vicious cycles that make heat worse.</p>
       <div class="bar"><span style="width:${(d.loops.length / LOOPS.length * 100).toFixed(1)}%"></span></div>
       <h2>Your protection chain</h2><div class="chain">${STAGES.map(([k, l]) => `<div><b>${l}</b>${h(d.pb[k] || "")}</div>`).join("")}</div>
-      <h2>Your levers</h2><ul>${d.levers.map(v => `<li><strong>${h(v.title)}.</strong> ${h(v.text)}<br><span class="ex">Cuts ${h(plain(byId[v.edge[0]]))} → ${h(plain(byId[v.edge[1]]))}. Breaks: ${h(v.loops.map(l => loopById[l].name).join(", ") || "no mapped loop")}.${v.example ? " Example: " + h(v.example) : ""}</span></li>`).join("")}</ul>
-      <h2>Loops you can help break</h2><ul>${d.loops.map(l => `<li><strong>${h(l.name)}</strong> <span class="ev">(${evidenceLabel(l.evidence)})</span><br>${h(l.summary)}</li>`).join("")}</ul>
+      <h2>Your levers</h2><ul>${d.levers.map(v => `<li><strong>${h(v.title)}.</strong> <span class="when">${h(WHEN[v.when] || "")}</span> ${h(v.text)}<br><span class="ex">Cuts ${h(plain(byId[v.edge[0]]))} → ${h(plain(byId[v.edge[1]]))}. Breaks: ${h(v.loops.map(l => loopById[l].name).join(", ") || "no mapped loop")}.${v.example ? " Example: " + h(v.example) : ""}</span></li>`).join("")}</ul>
+      <h2>Loops you can help break</h2><ul>${d.loops.map(l => `<li><strong>${h(l.name)}</strong> <span class="ev">(${evidenceLabel(l.evidence)})</span><br>${h(l.summary)}${evidenceOf(l.id).map(x => `<br><span class="ex">Evidence: <a href="${h(x.url)}">${h(x.title)}</a> (${h(x.by)}). ${h(x.finding)}</span>`).join("")}</li>`).join("")}</ul>
       ${d.partners.length ? `<h2>Who to work with</h2><p>These institutions share your levers: ${d.partners.map(p => h(p.inst.name)).join(", ")}. No single institution can break these loops alone.</p>` : ""}
       <p class="ev" style="margin-top:32px">This map is large, but the real web is larger. Loops marked “Evidence emerging” have evidence for each link; the full cycle has been studied less.</p>
       </body></html>`;
@@ -1128,6 +1147,45 @@
     if (status) status.textContent = ok ? "Brief copied. Paste it into an email or document." : "Couldn’t copy. Use “Open a printable brief” instead.";
   }
 
+  /* ======================= THE 60-SECOND TOUR ======================= */
+  const TOUR = [
+    { title: "The web of extreme heat",
+      text: () => `Extreme heat strains ${SYSTEMS.length} systems at once. Each dot is one of ${CONSEQUENCES.length} consequences, and each arrow shows how one thing leads to another.`,
+      go: () => { clearMarks(); fitAll(); } },
+    { title: "It starts with the heat",
+      text: () => "Heat hits health, work, water, food and energy directly. From there, the harm spreads from one system to the next.",
+      go: () => select("heat") },
+    { title: "Some links loop back",
+      text: () => "This is the cooling trap. Air conditioners pump hot air into the street, the city gets hotter, and people need even more cooling. A loop like this feeds itself, year after year.",
+      go: () => { const l = loopById.cooling; mark({ nodes: l.path, loopEdges: new Set(l.edges), flow: new Set(l.edges) }); declutter(); flyTo(l.path, { maxK: 1.2 }); } },
+    { title: "Every loop has a weak link",
+      text: () => "Switch on “Green, cool cities”. Trees, shade and cool roofs cut the link between hot streets and cooling demand. The loop turns teal, and the map cools a little.",
+      go: () => { const l = loopById.cooling; state.on = new Set(["greencity"]); applyBreakState(); mark({ nodes: l.path, edges: new Set(l.edges), levers: ["greencity"] }); declutter(); flyTo(l.path, { maxK: 1.2 }); } },
+    { title: "Now it’s your turn",
+      text: () => `There are ${LOOPS.length} vicious cycles on this map and ${LEVERS.length} places to break them. Tap any dot, switch on a package to see which loops break and who has to act, or ask how one thing leads to another.`,
+      go: () => { state.on.clear(); state.pkg = null; applyBreakState(); clearMarks(); fitAll(); } }
+  ];
+
+  function tourStep(i) {
+    const t = TOUR[i]; if (!t) return;
+    state.story = null; state.inst = null;
+    beforeFocus();
+    t.go();
+    state.selected = "tour"; state.tour = i;
+    setHash("");
+    const last = i === TOUR.length - 1;
+    panelBody.innerHTML = `<p class="panel__kicker">The 60-second tour</p>
+      <h2 class="panel__title">${esc(t.title)}</h2>
+      <div class="progress" aria-hidden="true">${TOUR.map((_, k) => `<span class="${k <= i ? "is-done" : ""}"></span>`).join("")}</div>
+      <p class="panel__step" aria-live="polite"><span>${i + 1} / ${TOUR.length}</span></p>
+      <p class="panel__desc">${esc(t.text())}</p>
+      <div class="panel__nav">
+        <button class="btn btn--ghost" data-act="tour-prev" ${i === 0 ? "disabled" : ""}>← Back</button>
+        <button class="btn" data-act="${last ? "tour-end" : "tour-next"}">${last ? "Start exploring" : "Next →"}</button>
+      </div>
+      ${last ? "" : `<button class="link" data-act="tour-end">Skip the tour</button>`}`;
+  }
+
   /* ======================= A DAY IN A HEATWAVE ======================= */
   const andList = xs => xs.length > 1 ? xs.slice(0, -1).join(", ") + " and " + xs[xs.length - 1] : xs.join("");
   function showHour(i, mode) {
@@ -1142,6 +1200,7 @@
       <h2 class="panel__title">${esc(h.title)}</h2>
       <p class="illustrative">${esc(h.who)} · illustrative</p>
       <p class="panel__desc">${esc(h.text)}</p>
+      ${h.fact ? `<p class="fact">${esc(h.fact)}${h.source ? ` <span class="fact__src">Source: ${extLink(h.source.url, h.source.label)}</span>` : ""}</p>` : ""}
       <h3 class="panel__h">Loops in play</h3><ul class="loop-list">${h.loops.map(l => loopItem(loopById[l])).join("")}</ul>
       <h3 class="panel__h panel__h--break">What would help</h3><ul class="lever-list">${h.levers.map(v => leverItem(leverById[v])).join("")}</ul>
       ${extra.length ? `<p class="panel__note">These levers also break ${andList(extra.map(l => `<button class="link" data-story="${l.id}">${esc(l.name.replace(/^The /, "the "))}</button>`))}.</p>` : ""}
@@ -1159,7 +1218,8 @@
       INSTITUTIONS.map(i => `<option value="${i.id}">${esc(i.name)}</option>`).join("");
 
     const pk = document.getElementById("pkg-chips");
-    if (pk) pk.innerHTML = PACKAGES.map(p => `<button class="pkg-chip" data-pkg="${p.id}" aria-pressed="false">${esc(p.title)}</button>`).join("") +
+    if (pk) pk.innerHTML = `<button class="pkg-chip pkg-chip--now" data-pkg="now" aria-pressed="false">${esc(pkgById.now.title)}</button>` +
+      PACKAGES.map(p => `<button class="pkg-chip" data-pkg="${p.id}" aria-pressed="false">${esc(p.title)}</button>`).join("") +
       `<button class="pkg-chip pkg-chip--all" data-pkg="all" aria-pressed="false">Everything</button>`;
 
     const opts = SYSTEMS.map(s => `<optgroup label="${esc(plain(s))}">${nodes.filter(n => n.sys === s.id && n.kind === "leaf").map(n => `<option value="${n.id}">${esc(plain(n))}</option>`).join("")}</optgroup>`).join("");
@@ -1176,6 +1236,7 @@
         <h3 class="hour__title">${esc(h.title)}</h3>
         <p class="illustrative">${esc(h.who)}</p>
         <p class="hour__text">${esc(h.text)}</p>
+        ${h.fact ? `<p class="hour__fact">${esc(h.fact)}${h.source ? ` <span>Source: ${extLink(h.source.url, h.source.label)}</span>` : ""}</p>` : ""}
         <p class="hour__loops">${h.loops.map(l => `<button class="loop-chip" data-story="${l}">↺ ${esc(loopById[l].name.replace(/^The /, ""))}</button>`).join("")}</p>
         <div class="hour__actions">
           <button class="btn btn--ghost btn--sm" data-hour="${i}">See it on the map</button>
@@ -1199,7 +1260,8 @@
             <p class="lrow__sum">${esc(l.summary)}</p>
             ${chainHTML(l)}
             ${typeof LOOP_PLACES !== "undefined" && LOOP_PLACES[l.id] ? `<p class="place"><span>Where to look</span>${esc(LOOP_PLACES[l.id])}</p>` : ""}
-            ${l.levers.length ? `<p class="lrow__breaks"><span>Break it:</span> ${l.levers.map(lid => `<button class="lever-chip" data-lever="${lid}">${esc(leverById[lid].title)}</button>`).join("")}</p>` : ""}
+            ${evidenceHTML(l, false)}
+            ${l.levers.length ? `<p class="lrow__breaks"><span>Break it:</span> ${l.levers.map(lid => `<button class="lever-chip" data-lever="${lid}">${esc(leverById[lid].title)}<span class="lever-chip__when">${esc(WHEN[leverById[lid].when] || "")}</span></button>`).join("")}</p>` : ""}
           </article>`).join("")}
       </div>`;
     }).join("");

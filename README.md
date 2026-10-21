@@ -9,7 +9,10 @@ This website is an **interactive systems map** of extreme heat. It shows:
 - **26 breaking points**, each tied to the link it cuts;
 - **14 institutions** and the levers each one holds, each with a Sense → Decide → Act → Sustain playbook and a printable brief;
 - **policy packages** that switch on several levers at once and show which loops break, and who has to act;
-- **a path finder** ("How does X lead to Y?") and **a day in a heatwave**.
+- **a path finder** ("How does X lead to Y?") and **a day in a heatwave**;
+- **the evidence behind every vicious cycle**, with links to the original sources;
+- **how soon each lever works** (this season, 1–3 years, or a decade or more), and a "Before this summer" package;
+- **a 60-second tour** for first-time visitors.
 
 Visitors can drag and zoom the map, tap any dot, follow a ripple, walk through any vicious cycle, and choose an institution to see which loops it can help break.
 
@@ -34,19 +37,20 @@ The numbers at the top of the page (systems, consequences, cycles and so on) are
 
 ## How to change or add content (in `data.js`)
 
-Open `data.js` on GitHub and click the **pencil icon** (✏️). The file has eleven numbered parts:
+Open `data.js` on GitHub and click the **pencil icon** (✏️). The file has twelve numbered parts:
 
 1. **SYSTEMS**: the ten slices of the wheel.
 2. **CONSEQUENCES**: every dot. Each one has an `id` (a short name with no spaces, used by the links), a `sys` (which system it belongs to), a `label` (`\n` starts a new line) and a `desc` (the description shown when someone taps it).
 3. **LINKS**: arrows between consequences, written as `["from-id", "to-id", "Why one leads to the other."]`. Add `"loop"` as a fourth item for a link that closes a vicious cycle; it will be drawn in red.
 4. **LOOPS**: the vicious cycles. `path` lists the steps in order, and the last step leads back to the first. Every step-to-step link must exist in LINKS.
 5. **INSTITUTIONS**: who holds the levers.
-6. **LEVERS**: the breaking points. `edge` is the link it cuts, and `who` lists the institutions that can pull it.
+6. **LEVERS**: the breaking points. `edge` is the link it cuts, `who` lists the institutions that can pull it, and `when` says how soon it works: `"season"`, `"years"` or `"decade"`. Every `"season"` lever is switched on by the "Before this summer" package automatically.
 7. **STORIES**: the guided path "From field to family".
 8. **LOOP_PLACES**: for each vicious cycle, places in Asia where it plays out ("Where to look").
 9. **PACKAGES**: the policy packages in the "Break the loops" bar. Each lists the levers it switches on.
 10. **PLAYBOOKS**: each institution's Sense → Decide → Act → Sustain chain, shown on the map and in its printable brief.
-11. **HEATWAVE_DAY**: the six moments of "A day in a heatwave". The people are illustrative composites.
+11. **HEATWAVE_DAY**: the six moments of "A day in a heatwave". The people are illustrative composites. A moment can also have a `fact` and a `source` (a label and a link).
+12. **EVIDENCE**: the sources behind each vicious cycle, shown under "See the evidence". Each source has `by`, `title`, `url` and `finding`. Only add a source you have opened and checked.
 
 **To add a new consequence**, copy an existing line in part 2, give it a new `id`, then add at least one link to or from it in part 3.
 
