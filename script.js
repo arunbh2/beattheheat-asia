@@ -608,6 +608,7 @@
   }
 
   function clearSelection() {
+    if (state.selected === "tour" && state.on.size) state.on.clear();
     state.selected = null; state.story = null; state.inst = null; state.pkg = null; state.tour = null;
     clearMarks();
     applyBreakState();
@@ -876,7 +877,7 @@
     if (act === "tour") { goToMap(() => tourStep(0)); return; }
     if (act === "tour-next") { tourStep(state.tour + 1); return; }
     if (act === "tour-prev") { tourStep(state.tour - 1); return; }
-    if (act === "tour-end") { if (state.on.size) { state.on.clear(); applyBreakState(); } clearSelection(); fitAll(); return; }
+    if (act === "tour-end") { clearSelection(); fitAll(); return; }
     if (act === "brief-copy") { copyBrief(t.dataset.id, t); return; }
     if (act === "swap-path") { const a = document.getElementById("path-from"), b = document.getElementById("path-to"); [a.value, b.value] = [b.value, a.value]; return; }
     if (act === "clear" || act === "done" || act === "close") { clearSelection(); fitAll(); }
@@ -1158,7 +1159,7 @@
     { title: "Some links loop back",
       text: () => "This is the cooling trap. Air conditioners pump hot air into the street, the city gets hotter, and people need even more cooling. A loop like this feeds itself, year after year.",
       go: () => { const l = loopById.cooling; mark({ nodes: l.path, loopEdges: new Set(l.edges), flow: new Set(l.edges) }); declutter(); flyTo(l.path, { maxK: 1.2 }); } },
-    { title: "Every loop has a weak link",
+    { title: "Every loop has a weak link", lever: true,
       text: () => "Switch on “Green, cool cities”. Trees, shade and cool roofs cut the link between hot streets and cooling demand. The loop turns teal, and the map cools a little.",
       go: () => { const l = loopById.cooling; state.on = new Set(["greencity"]); applyBreakState(); mark({ nodes: l.path, edges: new Set(l.edges), levers: ["greencity"] }); declutter(); flyTo(l.path, { maxK: 1.2 }); } },
     { title: "Now it’s your turn",
@@ -1169,6 +1170,8 @@
   function tourStep(i) {
     const t = TOUR[i]; if (!t) return;
     state.story = null; state.inst = null;
+    // only the "weak link" step switches a lever on; going back or forward switches it off again
+    if (!t.lever && state.on.size) { state.on.clear(); state.pkg = null; applyBreakState(); }
     beforeFocus();
     t.go();
     state.selected = "tour"; state.tour = i;
