@@ -818,3 +818,11 @@ button { font: inherit; color: inherit; }
 .network__layout > * { min-width: 0; }
 .org-more { margin-top: 14px; }
 .org-more[hidden] { display: none; }
+.org-search { display: block; margin-bottom: 12px; }
+.org-search input {
+  width: 100%; max-width: 30rem; padding: 10px 14px; border: 1.5px solid var(--ink); border-radius: 999px;
+  background: var(--white); font: inherit; color: var(--ink);
+}
+.org-search input:focus-visible { outline: 3px solid var(--amber); outline-offset: 2px; }
+.org-count { min-height: 1em; margin: -6px 0 10px; font-size: .88rem; color: var(--grey-700); }
+.org-count:empty { display: none; }
