@@ -413,7 +413,7 @@ const LOOPS = [
   { id: "sleep", group: "people", name: "The sleepless-nights loop", evidence: "established",
     path: ["sleepless", "mental"],
     summary: "Hot nights wreck sleep. Poor sleep frays mental health, and stress makes sleep harder still." },
-  { id: "farmdebt", group: "people", name: "The farm-debt loop", evidence: "established",
+  { id: "farmdebt", group: "people", name: "The farm-debt loop", evidence: "emerging",
     path: ["harvests", "farmdebt"],
     summary: "A failed harvest pushes farmers into debt. Debt leaves less for seed, water and fertiliser, so the next harvest fails more easily." },
 
