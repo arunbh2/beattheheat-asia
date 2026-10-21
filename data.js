@@ -771,13 +771,15 @@ const EVIDENCE = {
 
 /* ---------- 13. THE HEAT NETWORK: organisations already acting ---------- */
 // role: one of the ORG_ROLES ids. levers: the breaking points (part 6) their work pulls on.
-// url: a page that shows their heat work. Only add organisations whose heat work you have checked.
+// url: a page that shows their heat work. levers can be empty ([]) for funders who back others' work.
+// Only add organisations whose heat work you have checked.
 const ORG_ROLES = [
-  { id: "global",   name: "Global networks and UN bodies" },
+  { id: "global",   name: "Global networks and organisations" },
   { id: "asia",     name: "Governments and regional bodies in Asia" },
   { id: "research", name: "Research and evidence" },
   { id: "ground",   name: "Working on the ground" },
-  { id: "finance",  name: "Insurance and finance" }
+  { id: "finance",  name: "Insurance and finance" },
+  { id: "funders",  name: "Philanthropy and funders" }
 ];
 
 const ORGANISATIONS = [
@@ -787,6 +789,10 @@ const ORGANISATIONS = [
     does: "Sets out the evidence and standards for protecting workers from heat stress.", levers: ["heatrules"] },
   { id: "unicef", role: "global", name: "UNICEF", url: "https://www.unicef.org/reports/learning-interrupted-global-snapshot-2024",
     does: "Tracks how heatwaves and other climate hazards disrupt children’s schooling.", levers: ["keepinschool"] },
+  { id: "zcra", role: "global", name: "Zurich Climate Resilience Alliance", url: "https://practicalaction.org/news-stories/zurich-climate-resilience-alliance-to-expand-focus-on-destructive-extreme-heat/",
+    does: "An alliance of humanitarian, development and research partners with Zurich Insurance Group. In 2024 it expanded from floods to extreme heat, with work in countries including Bangladesh and Nepal.", levers: ["hap", "anticipatory", "heatbudget"] },
+  { id: "hera", role: "global", name: "Heat Resilience Action (HERA), formerly Climate Resilience for All", url: "https://heranow.org/resources/as-extreme-heat-threats-grow-can-heat-insurance-offer-protection/",
+    does: "Works on extreme heat with a focus on women and low-income communities. With SEWA and Swiss Re, it combined insurance payouts and cash for lost income after India’s 2024 heatwaves.", levers: ["heatcash", "hap"] },
   { id: "coolcoalition", role: "global", name: "UNEP Cool Coalition", url: "https://coolcoalition.org",
     does: "A global network for clean, efficient cooling and cooler cities. It runs its own city initiative, also called Beat the Heat, which is separate from this site.", levers: ["cleancool", "coolbydesign", "greencity"] },
   { id: "climatecentre", role: "global", name: "Red Cross Red Crescent Climate Centre", url: "https://preparecenter.org/resource/heatwave-guide-for-cities",
@@ -814,8 +820,8 @@ const ORGANISATIONS = [
   { id: "lancet", role: "research", name: "Lancet Countdown", url: "https://doi.org/10.1016/S0140-6736(24)01822-1",
     does: "Tracks heat deaths, lost working hours and other health impacts of climate change every year.", levers: ["countdeaths"] },
 
-  { id: "practicalaction", role: "ground", name: "Practical Action", url: "https://practicalaction.org",
-    does: "Works on climate resilience and disaster risk reduction across South Asia. In Nepal, with the Zurich Climate Resilience Alliance, it helped Madhesh Province and five municipalities commit 5% of sectoral budgets to adaptation and disaster risk reduction.", levers: ["heatbudget"] },
+  { id: "practicalaction", role: "ground", name: "Practical Action", url: "https://practicalaction.org/news-stories/zurich-climate-resilience-alliance-to-expand-focus-on-destructive-extreme-heat/",
+    does: "A partner in the Zurich Climate Resilience Alliance, which widened its work from floods to extreme heat in 2024. In Nepal, the Alliance helped Madhesh Province and five municipalities commit 5% of sectoral budgets to adaptation and disaster risk reduction.", levers: ["heatbudget", "hap"] },
   { id: "sewa", role: "ground", name: "Self Employed Women’s Association (SEWA)", url: "https://www.swissre.com/our-business/public-sector-solutions/insights/parametric-structure-for-sewa-in-south-east-asia.html",
     does: "Protects women informal workers’ income in heatwaves. After the May 2024 heatwaves, more than 46,000 members received insurance payouts.", levers: ["heatcash"] },
   { id: "mht", role: "ground", name: "Mahila Housing Trust", url: "https://citizenmatters.in/new-cool-roof-solutions-heat-in-informal-settlements/",
@@ -832,7 +838,22 @@ const ORGANISATIONS = [
   { id: "icicilombard", role: "finance", name: "ICICI Lombard", url: "https://www.icmif.org/news_story/ibisa-launches-a-new-parametric-heat-index-product-in-india-to-protect-women-workers-from-heat-induced-wage-losses/",
     does: "Carries the risk on heat insurance for women workers in India, including IBISA’s heat-index product.", levers: ["heatcash"] },
   { id: "howden", role: "finance", name: "Howden", url: "https://www.howdengroup.com/uk-en/news-insights/article-name/parametric-insurance-for-extreme-heat-protecting-people-in-a-warming-world",
-    does: "Insurance broker working on parametric heat insurance and catastrophe bonds that give local governments and relief organisations money to act during heatwaves.", levers: ["riskpools", "anticipatory"] }
+    does: "Insurance broker working on parametric heat insurance and catastrophe bonds that give local governments and relief organisations money to act during heatwaves.", levers: ["riskpools", "anticipatory"] },
+
+  { id: "prudence", role: "funders", name: "Prudence Foundation", url: "https://www.prudentialplc.com/en/newsroom/company-news/2024/prudential-advances-climate-resilience-efforts-in-asia-and-africa-with-us-million-investment-to-address-impacts-of-climate-change-on-health/",
+    does: "Funds heat-health early warnings for women informal workers in India, sent mainly over WhatsApp and reaching 50,000 women, and research with the Red Cross Red Crescent on heat, humidity and health.", levers: ["hap", "heatcash"] },
+  { id: "paa", role: "funders", name: "Philanthropy Asia Alliance", url: "https://www.eco-business.com/press-releases/philanthropy-asia-alliance-supports-southeast-asia-heat-health-hub-to-scale-coordinated-action-on-extreme-heat/",
+    does: "Backs the Southeast Asia Heat Health Hub, the first regional hub of the Global Heat Health Information Network, and convenes funders on heat resilience.", levers: ["hap"] },
+  { id: "temasektrust", role: "funders", name: "Temasek Trust (through Temasek Foundation)", url: "https://www.temasektrust.org.sg/what-we-do/impact-hub/article-details/the-liveability-challenge-2025-passive-cooling-hydrogen-storage-innovations",
+    does: "Its Liveability Challenge funds cooling innovations for extreme heat, such as passive cooling paints.", levers: ["coolbydesign", "cleancool"] },
+  { id: "rnp", role: "funders", name: "Rohini Nilekani Philanthropies", url: "https://rohininilekaniphilanthropies.org/resources/alliance-magazine-a-heat-justice-compass-for-philanthropic-action/",
+    does: "Funds heat work in India, including Prayas Energy and Health Group’s work with street vendors and construction workers, and CEEW’s district heat risk assessment.", levers: ["heatrules", "hap"] },
+  { id: "htparekh", role: "funders", name: "HT Parekh Foundation", url: "https://indiaclimatecollaborative.org/blog/climate-funder-ht-parekh-foundation-on-heat",
+    does: "Its flagship ReVIVE programme tackles urban heat in India’s smaller cities through research, cooling solutions, demonstration projects and policy advocacy.", levers: ["greencity", "coolbydesign", "hap"] },
+  { id: "rainmatter", role: "funders", name: "Rainmatter Foundation", url: "https://rainmatter.org/blog/tag/heat/",
+    does: "Funds climate and environment work in India. Its partners’ heat work includes heatwave workshops that help journalists and health experts report on extreme heat.", levers: [] },
+  { id: "laudes", role: "funders", name: "Laudes Foundation", url: "https://icccad.net/programmes/just-transition/capacitating-garment-workers/",
+    does: "Funds a three-year project with ICCCAD that builds Bangladeshi garment workers’ capacity on climate change, including heat stress, and on labour rights.", levers: ["heatrules"] }
 ];
 
 /* ---------- 14. PLAIN-LANGUAGE GLOSSARY ---------- */
