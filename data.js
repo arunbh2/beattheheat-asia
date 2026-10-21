@@ -449,67 +449,68 @@ const INSTITUTIONS = [
 /* ---------- 6. BREAKING POINTS ---------- */
 // edge: the link it cuts [from, to]. who: the institutions that can pull this lever.
 // A lever breaks every vicious cycle that runs through its link.
+// when: how soon it can start working. "season" = this season, "years" = 1–3 years, "decade" = a decade or more.
 const LEVERS = [
-  { id: "emissions", edge: ["heat", "nature"], title: "Deep emission cuts", who: ["nat", "intl", "funders"],
+  { id: "emissions", edge: ["heat", "nature"], title: "Deep emission cuts", who: ["nat", "intl", "funders"], when: "decade",
     text: "Every fraction of a degree avoided weakens every loop that runs through land, ice and forests at once." },
-  { id: "cleancool", edge: ["demand", "emissions"], title: "Clean, efficient cooling", who: ["nat", "utilities", "intl"],
+  { id: "cleancool", edge: ["demand", "emissions"], title: "Clean, efficient cooling", who: ["nat", "utilities", "intl"], when: "years",
     text: "Efficient appliances, clean power and low-warming refrigerants break the link between keeping cool and heating the planet.",
     example: "The Kigali Amendment to the Montreal Protocol (2016) commits countries to phase down the most climate-warming refrigerants." },
-  { id: "soilwater", edge: ["drysoil", "heat"], title: "Keep water in the soil", who: ["agri", "community", "funders"],
+  { id: "soilwater", edge: ["drysoil", "heat"], title: "Keep water in the soil", who: ["agri", "community", "funders"], when: "years",
     text: "Mulching, agroforestry, water harvesting and restoring degraded land help soils hold moisture and stay cooler." },
-  { id: "blackcarbon", edge: ["glacier", "heat"], title: "Cut black carbon", who: ["nat", "city"],
+  { id: "blackcarbon", edge: ["glacier", "heat"], title: "Cut black carbon", who: ["nat", "city"], when: "years",
     text: "Cleaner stoves and engines and an end to open burning reduce the soot that darkens snow and ice." },
-  { id: "firesmart", edge: ["wildfires", "heat"], title: "Fire-smart landscapes", who: ["nat", "community"],
+  { id: "firesmart", edge: ["wildfires", "heat"], title: "Fire-smart landscapes", who: ["nat", "community"], when: "years",
     text: "Early detection, community fire crews and land management that reduces fuel keep fires small and forests standing." },
 
-  { id: "coolbydesign", edge: ["demand", "uhi"], title: "Cool by design", who: ["city", "nat"],
+  { id: "coolbydesign", edge: ["demand", "uhi"], title: "Cool by design", who: ["city", "nat"], when: "decade",
     text: "Shading, ventilation, reflective roofs and efficient cooling cut the need for air conditioning, and the waste heat it dumps outside." },
-  { id: "greencity", edge: ["uhi", "demand"], title: "Green, cool cities", who: ["city", "community"],
+  { id: "greencity", edge: ["uhi", "demand"], title: "Green, cool cities", who: ["city", "community"], when: "years",
     text: "Trees, water, cool roofs and cool pavements lower city temperatures and flatten peak demand.",
     example: "Indian cities and states such as Ahmedabad and Telangana have run programmes that paint roofs to reflect sunlight." },
-  { id: "drypower", edge: ["scarcity", "thermal"], title: "Power that doesn’t need water", who: ["utilities", "nat"],
+  { id: "drypower", edge: ["scarcity", "thermal"], title: "Power that doesn’t need water", who: ["utilities", "nat"], when: "decade",
     text: "Solar and wind use very little water, and dry cooling protects thermal plants when rivers run low or warm." },
-  { id: "pumpbackup", edge: ["power", "scarcity"], title: "Backup power for water", who: ["water", "utilities"],
+  { id: "pumpbackup", edge: ["power", "scarcity"], title: "Backup power for water", who: ["water", "utilities"], when: "years",
     text: "Solar pumps and backup supply keep water flowing when the grid fails." },
-  { id: "irrigate", edge: ["irrigation", "groundwater"], title: "Smart irrigation and groundwater rules", who: ["agri", "water"],
+  { id: "irrigate", edge: ["irrigation", "groundwater"], title: "Smart irrigation and groundwater rules", who: ["agri", "water"], when: "years",
     text: "Drip irrigation, metering, aquifer recharge and fair pumping rules keep wells from running dry." },
-  { id: "farmcredit", edge: ["harvests", "farmdebt"], title: "Crop insurance and fair credit", who: ["insurers", "agri", "funders"],
+  { id: "farmcredit", edge: ["harvests", "farmdebt"], title: "Crop insurance and fair credit", who: ["insurers", "agri", "funders"], when: "years",
     text: "Crop insurance that pays out after a heat-hit season, affordable credit and heat-tolerant seed stop one bad harvest becoming a debt trap." },
-  { id: "hap", edge: ["heatstroke", "hsys"], title: "Heat action plans", who: ["city", "health", "met"],
+  { id: "hap", edge: ["heatstroke", "hsys"], title: "Heat action plans", who: ["city", "health", "met"], when: "season",
     text: "Early warnings, public cooling spaces and outreach to the people most at risk prevent illness before it reaches hospital.",
     example: "Ahmedabad launched South Asia’s first city heat action plan in 2013." },
-  { id: "readyclinics", edge: ["hsys", "heatstroke"], title: "Heat-ready health services", who: ["health", "funders"],
+  { id: "readyclinics", edge: ["hsys", "heatstroke"], title: "Heat-ready health services", who: ["health", "funders"], when: "season",
     text: "Cooling, backup power, surge plans and trained frontline workers keep clinics working through heatwaves." },
 
-  { id: "heatrules", edge: ["informal", "heatstroke"], title: "Heat-safe work", who: ["nat", "employers", "workers"],
+  { id: "heatrules", edge: ["informal", "heatstroke"], title: "Heat-safe work", who: ["nat", "employers", "workers"], when: "season",
     text: "Rest, shade and water during dangerous heat, with paid breaks so that stopping work doesn’t mean losing pay.",
     example: "Several Gulf states ban outdoor work during the hottest midday hours in summer." },
-  { id: "heatcash", edge: ["heatstroke", "lost"], title: "Income protection in heatwaves", who: ["insurers", "nat", "workers"],
+  { id: "heatcash", edge: ["heatstroke", "lost"], title: "Income protection in heatwaves", who: ["insurers", "nat", "workers"], when: "years",
     text: "Cash that pays out automatically when temperatures cross a danger threshold, so people can afford to stop.",
     example: "Parametric heat insurance has been piloted with women informal workers in India." },
-  { id: "socialprotection", edge: ["lost", "informal"], title: "Social protection floors", who: ["nat", "funders"],
+  { id: "socialprotection", edge: ["lost", "informal"], title: "Social protection floors", who: ["nat", "funders"], when: "years",
     text: "Basic income security that keeps households above the line between one hot season and the next." },
-  { id: "freecare", edge: ["heatstroke", "debt"], title: "Free care for heat illness", who: ["health", "nat"],
+  { id: "freecare", edge: ["heatstroke", "debt"], title: "Free care for heat illness", who: ["health", "nat"], when: "season",
     text: "Covering emergency treatment for heat illness stops one bad day from becoming years of debt." },
-  { id: "affordablecool", edge: ["energypoverty", "heatstroke"], title: "Affordable cooling for the poorest", who: ["utilities", "city", "nat"],
+  { id: "affordablecool", edge: ["energypoverty", "heatstroke"], title: "Affordable cooling for the poorest", who: ["utilities", "city", "nat"], when: "years",
     text: "Lifeline electricity tariffs, efficient fans and cool roofs put safe cooling within reach of every household." },
-  { id: "coolhousing", edge: ["migration", "homes"], title: "Cool, affordable housing", who: ["city", "funders", "community"],
+  { id: "coolhousing", edge: ["migration", "homes"], title: "Cool, affordable housing", who: ["city", "funders", "community"], when: "decade",
     text: "Upgrading informal settlements with ventilation, shade and cool roofs, and planning homes for people who arrive." },
-  { id: "keepinschool", edge: ["inequality", "dropout"], title: "Keep children in school", who: ["schools", "nat"],
+  { id: "keepinschool", edge: ["inequality", "dropout"], title: "Keep children in school", who: ["schools", "nat"], when: "season",
     text: "Cash transfers, school meals and heat-ready classrooms and timetables keep children learning through hot seasons." },
-  { id: "coolnights", edge: ["sleepless", "mental"], title: "Cool nights and support", who: ["city", "health", "community"],
+  { id: "coolnights", edge: ["sleepless", "mental"], title: "Cool nights and support", who: ["city", "health", "community"], when: "season",
     text: "Cooling centres open at night, shaded and ventilated homes, and mental-health support during the hot season." },
 
-  { id: "countdeaths", edge: ["deaths", "underreport"], title: "Count every heat death", who: ["health", "met", "nat"],
+  { id: "countdeaths", edge: ["deaths", "underreport"], title: "Count every heat death", who: ["health", "met", "nat"], when: "years",
     text: "Real-time tracking of excess deaths during heatwaves, and death certificates that record heat, make the toll visible." },
-  { id: "coolingcentres", edge: ["underfund", "deaths"], title: "Cooling centres and check-ins", who: ["city", "community", "health"],
+  { id: "coolingcentres", edge: ["underfund", "deaths"], title: "Cooling centres and check-ins", who: ["city", "community", "health"], when: "season",
     text: "Public cooling spaces, water points and check-ins on older people living alone save lives in every heatwave." },
-  { id: "heatbudget", edge: ["budgets", "underfund"], title: "Dedicated heat budgets", who: ["nat", "city", "funders"],
+  { id: "heatbudget", edge: ["budgets", "underfund"], title: "Dedicated heat budgets", who: ["nat", "city", "funders"], when: "years",
     text: "Ring-fenced funding for heat action, set aside before the season, so protection doesn’t compete with the emergency." },
-  { id: "anticipatory", edge: ["underfund", "emergency"], title: "Anticipatory action", who: ["met", "funders", "nat"],
+  { id: "anticipatory", edge: ["underfund", "emergency"], title: "Anticipatory action", who: ["met", "funders", "nat"], when: "years",
     text: "Release money and act on the forecast, before the heatwave peaks, instead of paying for the emergency afterwards.",
     example: "Forecast-based financing, pioneered within the Red Cross Red Crescent Movement, releases funds before a disaster strikes." },
-  { id: "riskpools", edge: ["insurance", "budgets"], title: "Shared risk pools", who: ["insurers", "nat", "funders"],
+  { id: "riskpools", edge: ["insurance", "budgets"], title: "Shared risk pools", who: ["insurers", "nat", "funders"], when: "years",
     text: "Public–private insurance and regional risk pools keep cover available and spread losses beyond any one budget.",
     example: "Regional risk pools such as the African Risk Capacity and the Caribbean’s CCRIF share disaster risk across countries." }
 ];
@@ -646,9 +647,11 @@ const PLAYBOOKS = {
 // The people here are illustrative composites, not real individuals.
 // loops: the vicious cycles in play (ids from part 4). levers: what would help (ids from part 6).
 const HEATWAVE_DAY = [
-  { time: "05:00", title: "A night that never cooled",
+  { time: "02:00", title: "The night that never cools",
     who: "A garment worker in Dhaka",
-    text: "She wakes under a tin roof after a night that never cooled down. Her body hasn’t recovered from yesterday, and the shift starts in two hours.",
+    text: "It is two in the morning and her tin-roofed room is still holding the day’s heat. She has barely slept, her body hasn’t recovered from yesterday, and the shift starts at seven.",
+    fact: "Hot nights are dangerous because the body never gets the chance to recover from the day. Sleep-tracker data from 68 countries shows people sleep about 14 minutes less on nights above 30 °C, with bigger losses for older people and in lower-income countries.",
+    source: { label: "Minor et al., One Earth, 2022", url: "https://orbit.dtu.dk/en/publications/rising-temperatures-erode-human-sleep-globally/" },
     loops: ["sleep", "energypoverty"], levers: ["coolnights", "affordablecool", "coolhousing"] },
   { time: "09:00", title: "Stop, or get paid",
     who: "A construction worker in Delhi",
@@ -671,3 +674,97 @@ const HEATWAVE_DAY = [
     text: "He dies at home in a room that stayed hot all day. His death certificate will say heart failure, so it never shows up as a heat death.",
     loops: ["invisible"], levers: ["coolingcentres", "countdeaths"] }
 ];
+
+/* ---------- 12. EVIDENCE BEHIND EACH VICIOUS CYCLE ---------- */
+// For each loop: sources that support it. by: who published it and when. title: the source. url: the link. finding: what it shows.
+// Only add sources you have opened and checked.
+const EVIDENCE = {
+  global: [
+    { by: "International Energy Agency, 2018", title: "The Future of Cooling", url: "https://www.iea.org/reports/the-future-of-cooling",
+      finding: "The world’s stock of air conditioners is set to grow from 1.6 billion to 5.6 billion by 2050, and the energy they use to triple, unless efficiency improves." }
+  ],
+  soil: [
+    { by: "Seneviratne et al., Earth-Science Reviews, 2010", title: "Investigating soil moisture–climate interactions in a changing climate: a review", url: "https://doi.org/10.1016/j.earscirev.2010.02.004",
+      finding: "Reviews the evidence that dry soils amplify hot temperatures: with less water to evaporate, more of the sun’s energy goes into heating the air." }
+  ],
+  ice: [
+    { by: "ICIMOD, 2023", title: "Water, ice, society, and ecosystems in the Hindu Kush Himalaya: an outlook", url: "https://lib.icimod.org/record/36322",
+      finding: "Glaciers lost ice 65% faster in the 2010s than in the decade before. At 1.5–2 °C of warming, glaciers across the region lose 30–50% of their volume by 2100." }
+  ],
+  fire: [
+    { by: "UNEP and GRID-Arendal, 2022", title: "Spreading like Wildfire: The Rising Threat of Extraordinary Landscape Fires", url: "https://www.unep.org/resources/report/spreading-wildfire-rising-threat-extraordinary-landscape-fires",
+      finding: "Climate change and land-use change are making wildfires worse. Extreme fires are projected to rise by up to 14% by 2030 and 50% by the end of the century." }
+  ],
+  cooling: [
+    { by: "Salamanca et al., Journal of Geophysical Research, 2014 (summary by Arizona State University)", title: "Excess heat from air conditioners causes higher nighttime temperatures", url: "https://news.asu.edu/content/excess-heat-air-conditioners-causes-higher-nighttime-temperatures",
+      finding: "In a Phoenix heatwave, waste heat from air conditioners raised night-time air temperatures by more than 1 °C in parts of the city." },
+    { by: "International Energy Agency, 2018", title: "The Future of Cooling", url: "https://www.iea.org/reports/the-future-of-cooling",
+      finding: "China, India and Indonesia are expected to account for half of the world’s air conditioners by 2050." }
+  ],
+  energywater: [
+    { by: "World Resources Institute, 2018", title: "40% of India’s thermal power plants are in water-scarce areas, threatening shutdowns", url: "https://www.wri.org/insights/40-indias-thermal-power-plants-are-water-scarce-areas-threatening-shutdowns",
+      finding: "14 of India’s 20 largest thermal utilities shut down at least once for lack of water between 2013 and 2016. Water shortages cost 14 TWh of power in 2016." }
+  ],
+  pumping: [
+    { by: "Rodell, Velicogna and Famiglietti, Nature, 2009", title: "Satellite-based estimates of groundwater depletion in India", url: "https://www.nature.com/articles/nature08238",
+      finding: "Satellites show Rajasthan, Punjab and Haryana lost 109 km³ of groundwater between 2002 and 2008, mainly to irrigation, while rainfall stayed close to normal." }
+  ],
+  clinic: [
+    { by: "Lancet Countdown, The Lancet, 2024", title: "The 2024 report of the Lancet Countdown on health and climate change", url: "https://doi.org/10.1016/S0140-6736(24)01822-1",
+      finding: "Heat-related deaths among people over 65 reached a record 167% above the 1990s level in 2023." },
+    { by: "Hess et al., Journal of Environmental and Public Health, 2018", title: "Pilot evaluation of the impact of India’s first heat action plan on all-cause mortality", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6236972/",
+      finding: "After Ahmedabad’s heat action plan prepared hospitals and warned the public, an estimated 1,190 deaths a year were avoided." }
+  ],
+  poverty: [
+    { by: "International Labour Organization, 2019", title: "Working on a warmer planet", url: "https://www.ilo.org/resource/news/increase-heat-stress-predicted-bring-productivity-loss-equivalent-80",
+      finding: "Heat stress is projected to cost 2.2% of all working hours by 2030, equal to 80 million full-time jobs. South Asia is among the worst hit, losing about 5% of working hours." },
+    { by: "Lancet Countdown, The Lancet, 2024", title: "The 2024 report of the Lancet Countdown on health and climate change", url: "https://doi.org/10.1016/S0140-6736(24)01822-1",
+      finding: "Heat exposure put a record 512 billion potential labour hours at risk in 2023, with potential income losses of US$835 billion." }
+  ],
+  debt: [
+    { by: "Selvaraj, Farooqui and Karan, BMJ Open, 2018", title: "Quantifying the financial burden of households’ out-of-pocket payments on medicines in India", url: "https://bmjopen.bmj.com/content/8/5/e018020",
+      finding: "Medicine costs alone were catastrophic for 11.2% of Indian households in 2011–12, about 29 million households." }
+  ],
+  energypoverty: [
+    { by: "Sustainable Energy for All, 2023", title: "Chilling Prospects: Global Access to Cooling Gaps 2023", url: "https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-global-access-to-cooling-gaps-2023",
+      finding: "1.12 billion of the rural and urban poor are at high risk because they lack access to cooling." }
+  ],
+  displacement: [
+    { by: "World Bank, 2021", title: "Groundswell Part 2: Acting on Internal Climate Migration", url: "https://openknowledge.worldbank.org/handle/10986/36248",
+      finding: "Without action, climate change could force up to 216 million people to move within their own countries by 2050, including about 40 million in South Asia." }
+  ],
+  school: [
+    { by: "Park, Goodman, Hurwitz and Smith, American Economic Journal: Economic Policy, 2020", title: "Heat and Learning", url: "https://www.aeaweb.org/doi/10.1257/pol.20180612",
+      finding: "Without air conditioning, each 1 °F hotter school year cuts that year’s learning by about 1%, and the losses fall hardest on disadvantaged students." },
+    { by: "UNICEF, 2025", title: "Learning interrupted: global snapshot of climate-related school disruptions in 2024", url: "https://www.unicef.org/reports/learning-interrupted-global-snapshot-2024",
+      finding: "Heatwaves disrupted schooling for an estimated 171 million students in 2024. South Asia was the most affected region." }
+  ],
+  sleep: [
+    { by: "Minor et al., One Earth, 2022", title: "Rising temperatures erode human sleep globally", url: "https://orbit.dtu.dk/en/publications/rising-temperatures-erode-human-sleep-globally/",
+      finding: "Data from 47,628 people in 68 countries shows hot nights shorten sleep, with bigger losses for older people and in lower-income countries." },
+    { by: "Thompson et al., The Lancet Planetary Health, 2023 (summary by Imperial College London)", title: "Ambient temperature and mental health: a systematic review and meta-analysis", url: "https://www.imperial.ac.uk/news/246058/rising-temperatures-associated-with-poorer-mental/",
+      finding: "A review of 114 studies links higher temperatures with poorer mental health, including higher suicide rates." }
+  ],
+  farmdebt: [
+    { by: "Carleton, PNAS, 2017", title: "Crop-damaging temperatures increase suicide rates in India", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5565417/",
+      finding: "Heat raises suicide rates in India only during the growing season, when it also cuts crop yields, pointing to farm income losses. The findings have been debated." },
+    { by: "Lobell, Sibley and Ortiz-Monasterio, Nature Climate Change, 2012", title: "Extreme heat effects on wheat senescence in India", url: "https://fsi.stanford.edu/node/26622",
+      finding: "Days above 34 °C make wheat in northern India age early, and crop models may underestimate yield losses at +2 °C by as much as 50%." }
+  ],
+  invisible: [
+    { by: "Associated Press via PBS NewsHour, 2024", title: "India likely undercounts heat-related deaths, tempering its response, officials say", url: "https://www.pbs.org/newshour/world/india-likely-undercounts-heat-related-deaths-tempering-its-response-officials-say",
+      finding: "In 2020, India’s crime records bureau recorded 530 heatstroke deaths while the disaster agency recorded four. Experts say the low counts weaken preparation." },
+    { by: "Down To Earth, 2024", title: "Lost in the heat: the critical miscalculation in India’s heatwave mortality data", url: "https://www.downtoearth.org.in/climate-change/lost-in-the-heat-the-critical-miscalculation-in-indias-heatwave-mortality-data",
+      finding: "Death certificates usually record only the immediate cause, such as heart failure, so heat as the trigger goes unrecorded." }
+  ],
+  reactive: [
+    { by: "Global Commission on Adaptation, 2019", title: "Adapt Now: A Global Call for Leadership on Climate Resilience", url: "https://openknowledge.worldbank.org/entities/publication/7713887e-5c0c-5fce-9dd0-c18a8875736c",
+      finding: "US$800 million spent on early warning systems in developing countries could avoid US$3–16 billion in losses every year." },
+    { by: "UNEP and GRID-Arendal, 2022", title: "Spreading like Wildfire", url: "https://www.unep.org/resources/report/spreading-wildfire-rising-threat-extraordinary-landscape-fires",
+      finding: "Direct response typically gets over half of wildfire spending, while planning and prevention get less than 1%." }
+  ],
+  protection: [
+    { by: "Swiss Re Institute sigma, reported by Global Reinsurance", title: "Protection gap laid bare as Asian cat losses hit $65bn", url: "https://www.globalreinsurance.com/home/swiss-re-sigma-protection-gap-laid-bare-as-asian-cat-losses-hit-65bn/1458440.article",
+      finding: "Only about 8% of Asia’s US$65 billion in natural catastrophe losses in 2025 was insured. The rest fell on households, businesses and governments." }
+  ]
+};

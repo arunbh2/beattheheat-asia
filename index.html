@@ -60,6 +60,7 @@
 
 <body>
   <a class="skip-link" href="#explore">Skip to the map</a>
+  <a class="skip-link" href="#list-title">Skip to the map as a list</a>
 
   <header class="site-header">
     <a class="wordmark" href="./"><span class="wordmark__mark" aria-hidden="true"></span>BEAT THE HEAT</a>
@@ -87,6 +88,7 @@
           <div class="stat--break"><dt>Places to break them</dt><dd data-stat="levers">26</dd></div>
           <div><dt>Institutions holding levers</dt><dd data-stat="institutions">14</dd></div>
         </dl>
+        <p class="intro__tour"><button class="btn btn--cta" data-act="tour">Take the 60-second tour <span aria-hidden="true">→</span></button> <span>or scroll down and explore on your own.</span></p>
         <p class="honest">This map is large, but the real web is larger. Every heatwave reveals links that aren’t drawn here yet.
           <a class="missing-link" href="https://www.linkedin.com/in/arunabhabhattacharya" target="_blank" rel="noopener author">Know a link, a loop or a lever that’s missing? Tell us <span aria-hidden="true">→</span><span class="visually-hidden"> (opens LinkedIn in a new tab)</span></a></p>
       </div>
@@ -263,9 +265,9 @@
 
 
     <!-- ============ 7. TEXT VERSION ============ -->
-    <section class="text-version" aria-labelledby="list-title">
+    <section class="text-version" id="text-version" aria-labelledby="list-title">
       <div class="container">
-        <h2 id="list-title" class="eyebrow">The web, link by link</h2>
+        <h2 id="list-title" class="eyebrow" tabindex="-1">The web, link by link</h2>
         <p class="text-version__intro">The same map as a list, one system at a time. Every consequence and what it leads to.</p>
         <div id="web-list" class="web-list"></div>
       </div>
