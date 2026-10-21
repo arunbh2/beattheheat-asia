@@ -70,6 +70,8 @@ const CONSEQUENCES = [
     desc: "Smaller harvests and losses push up prices, felt hardest by families who spend most of their income on food." },
   { id: "hunger", sys: "food", label: "Hunger and\nmalnutrition",
     desc: "When food costs more and incomes fall, families eat less and less well, and children suffer most." },
+  { id: "farmdebt", sys: "food", label: "Farmers fall\ninto debt",
+    desc: "After a failed season, farmers borrow at high interest or sell livestock, land and seed to get by." },
 
   /* Water */
   { id: "scarcity", sys: "water", label: "Water\nshortages",
@@ -228,6 +230,9 @@ const LINKS = [
 
   /* food */
   ["harvests", "prices", "Smaller harvests push up prices."],
+  ["harvests", "farmdebt", "A failed season leaves farmers borrowing to eat and to replant."],
+  ["farmdebt", "harvests", "Indebted farmers cut back on seed, water and fertiliser, so the next harvest fails more easily.", "loop"],
+  ["farmdebt", "migration", "When debts can’t be repaid, families leave the land to look for work."],
   ["livestock", "hunger", "Less milk, eggs and meat for families who rely on them."],
   ["farmwork", "harvests", "Fields go untended in the hottest hours."],
   ["farmwork", "lost", "Farm labourers lose daily wages."],
@@ -408,6 +413,9 @@ const LOOPS = [
   { id: "sleep", group: "people", name: "The sleepless-nights loop", evidence: "established",
     path: ["sleepless", "mental"],
     summary: "Hot nights wreck sleep. Poor sleep frays mental health, and stress makes sleep harder still." },
+  { id: "farmdebt", group: "people", name: "The farm-debt loop", evidence: "established",
+    path: ["harvests", "farmdebt"],
+    summary: "A failed harvest pushes farmers into debt. Debt leaves less for seed, water and fertiliser, so the next harvest fails more easily." },
 
   { id: "invisible", group: "inst", name: "The invisible-deaths loop", evidence: "emerging",
     path: ["deaths", "underreport", "underfund"],
@@ -465,6 +473,8 @@ const LEVERS = [
     text: "Solar pumps and backup supply keep water flowing when the grid fails." },
   { id: "irrigate", edge: ["irrigation", "groundwater"], title: "Smart irrigation and groundwater rules", who: ["agri", "water"],
     text: "Drip irrigation, metering, aquifer recharge and fair pumping rules keep wells from running dry." },
+  { id: "farmcredit", edge: ["harvests", "farmdebt"], title: "Crop insurance and fair credit", who: ["insurers", "agri", "funders"],
+    text: "Crop insurance that pays out after a heat-hit season, affordable credit and heat-tolerant seed stop one bad harvest becoming a debt trap." },
   { id: "hap", edge: ["heatstroke", "hsys"], title: "Heat action plans", who: ["city", "health", "met"],
     text: "Early warnings, public cooling spaces and outreach to the people most at risk prevent illness before it reaches hospital.",
     example: "Ahmedabad launched South Asia’s first city heat action plan in 2013." },
@@ -545,7 +555,8 @@ const LOOP_PLACES = {
   sleep:         "Tropical cities whose nights stay hot, such as Bangkok, Chennai and Ho Chi Minh City.",
   invisible:     "Much of Asia, where death certificates rarely record heat as a cause.",
   reactive:      "Disaster budgets designed for floods and cyclones rather than heat.",
-  protection:    "Fast-growing Asian economies where few households or small businesses carry insurance."
+  protection:    "Fast-growing Asian economies where few households or small businesses carry insurance.",
+  farmdebt:      "Rain-fed farming districts of India, Pakistan and Bangladesh, where a failed season often means borrowing from moneylenders."
 };
 
 /* ---------- 9. POLICY PACKAGES ---------- */
@@ -562,7 +573,10 @@ const PACKAGES = [
     levers: ["hap", "readyclinics", "freecare", "coolingcentres", "countdeaths"] },
   { id: "money", title: "Fix the money",
     text: "Fund prevention before the season, not the emergency after it.",
-    levers: ["heatbudget", "anticipatory", "riskpools", "countdeaths"] },
+    levers: ["heatbudget", "anticipatory", "riskpools", "countdeaths", "farmcredit"] },
+  { id: "families", title: "Protect children and families",
+    text: "Keep children learning, households afloat and nights bearable.",
+    levers: ["keepinschool", "socialprotection", "affordablecool", "coolnights"] },
   { id: "land", title: "Land, water and energy",
     text: "Stop nature and infrastructure from feeding the heat.",
     levers: ["emissions", "cleancool", "soilwater", "blackcarbon", "firesmart", "irrigate", "drypower", "pumpbackup"] }

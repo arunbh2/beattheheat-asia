@@ -3,10 +3,10 @@
 This website is an **interactive systems map** of extreme heat. It shows:
 
 - **10 systems** under strain: nature and ecosystems, food and agriculture, water, energy, cities and infrastructure, health, work and economy, education, society and security, and governance and finance;
-- **73 consequences**, from heat deaths to under-recorded deaths, from failing harvests to insurers pulling out;
+- **74 consequences**, from heat deaths to under-recorded deaths, from failing harvests to insurers pulling out;
 - **the links between them**, including cross-system links that visitors can switch on;
-- **17 vicious cycles**, in four groups: loops that feed the heat itself, loops that break the systems we rely on, loops that trap people, and loops inside institutions;
-- **25 breaking points**, each tied to the link it cuts;
+- **18 vicious cycles**, in four groups: loops that feed the heat itself, loops that break the systems we rely on, loops that trap people, and loops inside institutions;
+- **26 breaking points**, each tied to the link it cuts;
 - **14 institutions** and the levers each one holds, each with a Sense → Decide → Act → Sustain playbook and a printable brief;
 - **policy packages** that switch on several levers at once and show which loops break, and who has to act;
 - **a path finder** ("How does X lead to Y?") and **a day in a heatwave**.
@@ -34,7 +34,7 @@ The numbers at the top of the page (systems, consequences, cycles and so on) are
 
 ## How to change or add content (in `data.js`)
 
-Open `data.js` on GitHub and click the **pencil icon** (✏️). The file has seven numbered parts:
+Open `data.js` on GitHub and click the **pencil icon** (✏️). The file has eleven numbered parts:
 
 1. **SYSTEMS**: the ten slices of the wheel.
 2. **CONSEQUENCES**: every dot. Each one has an `id` (a short name with no spaces, used by the links), a `sys` (which system it belongs to), a `label` (`\n` starts a new line) and a `desc` (the description shown when someone taps it).

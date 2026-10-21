@@ -82,9 +82,9 @@
 
         <dl class="stats">
           <div><dt>Systems mapped</dt><dd data-stat="systems">10</dd></div>
-          <div><dt>Consequences mapped</dt><dd data-stat="consequences">73</dd></div>
-          <div class="stat--urgent"><dt>Vicious cycles</dt><dd data-stat="loops">17</dd></div>
-          <div class="stat--break"><dt>Places to break them</dt><dd data-stat="levers">25</dd></div>
+          <div><dt>Consequences mapped</dt><dd data-stat="consequences">74</dd></div>
+          <div class="stat--urgent"><dt>Vicious cycles</dt><dd data-stat="loops">18</dd></div>
+          <div class="stat--break"><dt>Places to break them</dt><dd data-stat="levers">26</dd></div>
           <div><dt>Institutions holding levers</dt><dd data-stat="institutions">14</dd></div>
         </dl>
         <p class="honest">This map is large, but the real web is larger. Every heatwave reveals links that aren’t drawn here yet.
@@ -107,13 +107,13 @@
               <select id="who"></select>
             </label>
             <label class="key key--switch key--break"><input type="checkbox" id="toggle-levers"><span class="switch" aria-hidden="true"></span>Show where loops break</label>
-            <label class="key key--switch key--cross"><input type="checkbox" id="toggle-all"><span class="switch" aria-hidden="true"></span>Show all <span data-stat="cross">60</span> cross-system links</label>
+            <label class="key key--switch key--cross"><input type="checkbox" id="toggle-all"><span class="switch" aria-hidden="true"></span>Show all <span data-stat="cross">61</span> cross-system links</label>
           </div>
 
           <div class="breakbar" id="breakbar">
             <div class="breakbar__head">
               <span class="breakbar__label"><span class="lever-icon lever-icon--sm" aria-hidden="true"></span>Break the loops</span>
-              <span class="breakbar__count"><b data-break-count>0</b> of <span data-stat="loops">17</span> vicious cycles broken</span>
+              <span class="breakbar__count"><b data-break-count>0</b> of <span data-stat="loops">18</span> vicious cycles broken</span>
               <span class="breakbar__meter" aria-hidden="true"><span id="break-meter"></span></span>
               <button id="break-reset" class="link" data-act="reset-levers" hidden>Switch everything off</button>
             </div>
@@ -169,7 +169,7 @@
     <section class="loops" id="loops" aria-labelledby="loops-title">
       <div class="container">
         <p class="eyebrow eyebrow--break">Where the loops break</p>
-        <h2 id="loops-title" class="h2"><span class="num-urgent" data-stat="loops">17</span> vicious cycles.<br><span class="num-break" data-stat="levers">25</span> ways to break them.</h2>
+        <h2 id="loops-title" class="h2"><span class="num-urgent" data-stat="loops">18</span> vicious cycles.<br><span class="num-break" data-stat="levers">26</span> ways to break them.</h2>
         <p class="loops__intro">Every loop has weak links: points where one well-placed action stops the cycle from feeding itself. The strongest levers break several loops at once, and the pressure points are where many loops meet.</p>
 
         <div class="loops__layout">

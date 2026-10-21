@@ -1129,6 +1129,7 @@
   }
 
   /* ======================= A DAY IN A HEATWAVE ======================= */
+  const andList = xs => xs.length > 1 ? xs.slice(0, -1).join(", ") + " and " + xs[xs.length - 1] : xs.join("");
   function showHour(i, mode) {
     const h = HEATWAVE_DAY[i]; if (!h) return;
     if (mode === "fix") { applyLevers(h.levers, `${h.time} · ${h.title}`, `What would have helped: ${h.who.toLowerCase()}.`); return; }
@@ -1136,12 +1137,14 @@
     const ns = new Set(), loopEdges = new Set();
     h.loops.forEach(lid => loopById[lid].edges.forEach(eid => { loopEdges.add(eid); const e = edgeById[eid]; ns.add(e.from); ns.add(e.to); }));
     mark({ nodes: ns, loopEdges, flow: loopEdges, levers: h.levers });
+    const extra = LOOPS.filter(l => !h.loops.includes(l.id) && l.levers.some(v => h.levers.includes(v)));
     panelBody.innerHTML = `<p class="panel__kicker is-loop">A day in a heatwave · ${esc(h.time)}</p>
       <h2 class="panel__title">${esc(h.title)}</h2>
       <p class="illustrative">${esc(h.who)} · illustrative</p>
       <p class="panel__desc">${esc(h.text)}</p>
       <h3 class="panel__h">Loops in play</h3><ul class="loop-list">${h.loops.map(l => loopItem(loopById[l])).join("")}</ul>
       <h3 class="panel__h panel__h--break">What would help</h3><ul class="lever-list">${h.levers.map(v => leverItem(leverById[v])).join("")}</ul>
+      ${extra.length ? `<p class="panel__note">These levers also break ${andList(extra.map(l => `<button class="link" data-story="${l.id}">${esc(l.name.replace(/^The /, "the "))}</button>`))}.</p>` : ""}
       <button class="btn btn--full" data-hour="${i}" data-mode="fix">Switch these levers on</button>
       <button class="link" data-act="clear">← Back to the whole web</button>`;
     beforeFocus();
