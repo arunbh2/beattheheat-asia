@@ -131,7 +131,7 @@ button { font: inherit; color: inherit; }
 .header-nav { display: flex; gap: 18px; }
 .header-nav a { color: var(--ink); font-weight: 700; font-size: 0.92rem; text-decoration: none; border-bottom: 3px solid transparent; white-space: nowrap; }
 .header-nav a:hover { border-bottom-color: var(--orange); }
-@media (max-width: 860px) { .header-nav a:not(:nth-child(2)) { display: none; } }
+@media (max-width: 960px) { .header-nav a:not(:nth-child(2)) { display: none; } }
 @media (max-width: 420px) { .site-header { gap: 10px; } .wordmark { font-size: 1.1rem; letter-spacing: .05em; gap: 8px; } .header-nav a { font-size: .82rem; } }
 @media (max-width: 359px) { .header-nav { display: none; } }
 
@@ -763,3 +763,56 @@ button { font: inherit; color: inherit; }
 .intro__tour { margin-top: 26px; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 10px 16px; color: var(--grey-500); }
 .btn--tour { margin: 6px 0 4px; background: var(--orange); border-color: var(--orange); color: var(--ink); }
 .btn--tour:hover { background: var(--ink); border-color: var(--ink); color: var(--canvas); }
+
+/* ---------- the heat network ---------- */
+.network { padding: clamp(64px, 9vw, 128px) 0; background: var(--white); border-top: 1px solid var(--line); }
+.network .eyebrow { margin-bottom: 20px; }
+.network__layout { display: grid; gap: 40px; margin-top: clamp(28px, 4vw, 44px); }
+@media (min-width: 1000px) { .network__layout { grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr); align-items: start; } .gaps { position: sticky; top: calc(var(--header-h) + 20px); } }
+.org-roles { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+.org-roles .chip span { margin-left: 4px; color: var(--grey-500); font-weight: 600; }
+.org-roles .chip[aria-pressed="true"] span { color: inherit; }
+.org-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+@media (min-width: 700px) { .org-list { grid-template-columns: 1fr 1fr; } }
+.org { display: flex; flex-direction: column; gap: 6px; padding: 16px; border: 1px solid var(--line); border-top: 3px solid var(--teal); border-radius: 8px; background: var(--canvas); }
+.org[hidden] { display: none; }
+.org__role { font-size: .7rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: #17605A; }
+.org__name { font-size: 1.02rem; line-height: 1.3; }
+.org__name a, .org-mini a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--orange); text-underline-offset: 3px; }
+.org__name a:hover, .org-mini a:hover { color: var(--red); }
+.org__does { font-size: .92rem; color: var(--grey-700); }
+.org__levers { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; padding-top: 6px; }
+.org__levers .lever-chip { font-size: .78rem; padding: 3px 10px; }
+.gaps .leverage__note { margin: 6px 0 12px; }
+.gap-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.gap {
+  display: grid; grid-template-columns: 1fr auto; grid-template-areas: "name n" "bar bar"; gap: 4px 10px; align-items: baseline;
+  width: 100%; padding: 8px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--canvas); text-align: left; cursor: pointer;
+}
+.gap:hover { border-color: var(--red); }
+.gap__name { grid-area: name; font-weight: 700; font-size: .9rem; }
+.gap__n { grid-area: n; font-size: .78rem; color: var(--grey-500); white-space: nowrap; }
+.gap--none .gap__n { color: #9E1A2C; font-weight: 800; }
+.gap__bar { grid-area: bar; height: 5px; border-radius: 3px; background: #FBE3E6; overflow: hidden; }
+.gap__bar span { display: block; height: 100%; background: var(--teal); }
+.org-mini { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 8px; }
+.org-mini li { padding: 8px 10px; border-left: 3px solid var(--teal); background: var(--canvas); border-radius: 0 6px 6px 0; }
+.org-mini a { font-weight: 700; }
+.org-mini p { margin-top: 4px; font-size: .86rem; color: var(--grey-700); }
+.site-footer__note { font-size: .82rem; color: var(--grey-500); }
+
+/* ---------- glossary ---------- */
+.term {
+  display: inline; padding: 0; border: 0; background: none; font: inherit; color: inherit; cursor: help;
+  text-decoration: underline dotted; text-decoration-color: var(--teal); text-decoration-thickness: 2px; text-underline-offset: 3px;
+}
+.term:hover, .term[aria-expanded="true"] { background: #E8F2F0; }
+.day .term, .hour .term { text-decoration-color: var(--amber); }
+.day .term:hover, .day .term[aria-expanded="true"] { background: rgba(245,166,35,.2); }
+.term-pop {
+  position: fixed; z-index: 200; max-width: min(320px, calc(100vw - 16px)); padding: 12px 14px; border-radius: 8px;
+  background: var(--ink); color: var(--canvas); font-size: .88rem; line-height: 1.5; box-shadow: 0 10px 30px rgba(22,32,43,.25);
+}
+.term-pop strong { display: block; margin-bottom: 2px; color: var(--amber); text-transform: capitalize; }
+.org-roles .chip { white-space: normal; text-align: left; max-width: 100%; }
+.network__layout > * { min-width: 0; }

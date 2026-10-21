@@ -12,7 +12,9 @@ This website is an **interactive systems map** of extreme heat. It shows:
 - **a path finder** ("How does X lead to Y?") and **a day in a heatwave**;
 - **the evidence behind every vicious cycle**, with links to the original sources;
 - **how soon each lever works** (this season, 1–3 years, or a decade or more), and a "Before this summer" package;
-- **a 60-second tour** for first-time visitors.
+- **a 60-second tour** for first-time visitors;
+- **the heat network**: organisations already working on heat, the levers they pull, and where the gaps may be;
+- **a plain-language glossary**: technical terms are underlined with dots, and tapping one explains it.
 
 Visitors can drag and zoom the map, tap any dot, follow a ripple, walk through any vicious cycle, and choose an institution to see which loops it can help break.
 
@@ -37,7 +39,7 @@ The numbers at the top of the page (systems, consequences, cycles and so on) are
 
 ## How to change or add content (in `data.js`)
 
-Open `data.js` on GitHub and click the **pencil icon** (✏️). The file has twelve numbered parts:
+Open `data.js` on GitHub and click the **pencil icon** (✏️). The file has fourteen numbered parts:
 
 1. **SYSTEMS**: the ten slices of the wheel.
 2. **CONSEQUENCES**: every dot. Each one has an `id` (a short name with no spaces, used by the links), a `sys` (which system it belongs to), a `label` (`\n` starts a new line) and a `desc` (the description shown when someone taps it).
@@ -51,6 +53,8 @@ Open `data.js` on GitHub and click the **pencil icon** (✏️). The file has tw
 10. **PLAYBOOKS**: each institution's Sense → Decide → Act → Sustain chain, shown on the map and in its printable brief.
 11. **HEATWAVE_DAY**: the six moments of "A day in a heatwave". The people are illustrative composites. A moment can also have a `fact` and a `source` (a label and a link).
 12. **EVIDENCE**: the sources behind each vicious cycle, shown under "See the evidence". Each source has `by`, `title`, `url` and `finding`. Only add a source you have opened and checked.
+13. **ORGANISATIONS**: the heat network. Each organisation has a `role` (one of `ORG_ROLES`), a `name`, a `url` showing its heat work, a one-line `does`, and the `levers` its work pulls on. It then appears in the network section and in those levers' panels, and the "Where the gaps may be" list updates itself.
+14. **GLOSSARY**: plain-language explanations. `match` is the word or phrase to look for; the first time it appears in a piece of text, it becomes tappable.
 
 **To add a new consequence**, copy an existing line in part 2, give it a new `id`, then add at least one link to or from it in part 3.
 
@@ -64,7 +68,7 @@ Rules that keep the map working:
 
 ## Your LinkedIn link on the site
 
-Your name and title appear only in the hidden author details at the top of `index.html` (for search engines and AI assistants). Visitors see "Tell us →" links and an "Explore working together →" button in the footer; all of them open your LinkedIn. To change the link, open `index.html`, press **Ctrl/Cmd + F** and search for `arunabhabhattacharya`.
+Your name and title appear only in the hidden author details at the top of `index.html` (for search engines and AI assistants). The footer says the site is independent of UNEP's Beat the Heat initiative. Visitors see "Tell us →" links and an "Explore working together →" button in the footer; all of them open your LinkedIn. To change the link, open `index.html`, press **Ctrl/Cmd + F** and search for `arunabhabhattacharya`.
 
 ---
 

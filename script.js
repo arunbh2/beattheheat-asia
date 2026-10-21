@@ -94,10 +94,24 @@
   const whenTag = v => v.when && WHEN[v.when] ? `<span class="when when--${v.when}">${WHEN[v.when]}</span>` : "";
   const evidenceOf = id => (typeof EVIDENCE !== "undefined" && EVIDENCE[id]) || [];
   const extLink = (url, text) => `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(text)}<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a>`;
+  // the heat network: organisations already working on each lever
+  const ORGS = typeof ORGANISATIONS !== "undefined" ? ORGANISATIONS : [];
+  const orgsForLever = id => ORGS.filter(o => o.levers.includes(id));
+  const orgsForLoop = l => ORGS.filter(o => o.levers.some(v => l.levers.includes(v)));
+  const tellUs = `<a class="missing-link" href="https://www.linkedin.com/in/arunabhabhattacharya" target="_blank" rel="noopener author">Tell us<span class="visually-hidden"> (opens LinkedIn in a new tab)</span> <span aria-hidden="true">→</span></a>`;
+
+  // plain-language glossary: explain technical terms where they appear
+  const GLOSS = (typeof GLOSSARY !== "undefined" ? GLOSSARY : []).map((g, i) => Object.assign({ i, re: new RegExp("\\b(" + g.match.replace(/[-]/g, "\\$&") + ")(s|es)?\\b", "i") }, g));
+  function gloss(text) {
+    let out = esc(text);
+    GLOSS.forEach(g => { out = out.replace(g.re, m => `<button type="button" class="term" data-term="${g.i}" aria-expanded="false">${m}</button>`); });
+    return out;
+  }
+
   function evidenceHTML(l, open) {
     const ev = evidenceOf(l.id); if (!ev.length) return "";
     return `<details class="evid"${open ? " open" : ""}><summary>See the evidence <span>${plural(ev.length, "source")}</span></summary>
-      <ul>${ev.map(x => `<li>${extLink(x.url, x.title)}<small>${esc(x.by)}</small><p>${esc(x.finding)}</p></li>`).join("")}</ul></details>`;
+      <ul>${ev.map(x => `<li>${extLink(x.url, x.title)}<small>${esc(x.by)}</small><p>${gloss(x.finding)}</p></li>`).join("")}</ul></details>`;
   }
 
   /* ======================= LAYOUT ======================= */
@@ -693,7 +707,7 @@
       <h2 class="panel__title">${esc(story.title)}</h2>
       <div class="progress" aria-hidden="true">${story.steps.map((_, i) => `<span class="${i <= state.step ? "is-done" : ""}"></span>`).join("")}</div>
       <p class="panel__step ${step.levers ? "is-break" : ""}" aria-live="polite"><span>${state.step + 1} / ${story.steps.length}</span> ${esc(step.title)}</p>
-      <p class="panel__desc">${esc(step.text)}</p>
+      <p class="panel__desc">${gloss(step.text)}</p>
       ${step.loopAll && !step.levers && story.loop ? chainHTML(story.loop) : ""}
       ${step.place ? `<p class="place"><span>Where to look</span>${esc(step.place)}</p>` : ""}
       ${story.loop && state.step === 0 ? evidenceHTML(story.loop, false) : ""}
@@ -732,7 +746,7 @@
         <span class="conn__sys">${other.kind === "leaf" && other.sys !== byId[dir === "out" ? e.from : e.to].sys ? esc(plain(sysById[other.sys])) : ""}</span>
         <span class="visually-hidden">(${typeName})</span>
       </button>
-      ${e.why ? `<p class="conn__why">${esc(e.why)}</p>` : ""}
+      ${e.why ? `<p class="conn__why">${gloss(e.why)}</p>` : ""}
     </li>`;
   }
 
@@ -744,7 +758,7 @@
     panelBody.innerHTML = `
       <p class="panel__kicker" style="--c:${n.color}"><span class="dot"></span>${esc(kicker)}</p>
       <h2 class="panel__title">${esc(plain(n))}</h2>
-      <p class="panel__desc">${esc(n.desc)}</p>
+      <p class="panel__desc">${gloss(n.desc)}</p>
       ${loops.length ? `<div class="loop-box"><p class="loop-box__h">Caught in ${plural(loops.length, "vicious cycle")}</p><ul class="loop-list">${loops.map(loopItem).join("")}</ul></div>` : ""}
       ${n.out.length ? `<button class="btn btn--full" data-act="ripple" data-id="${id}">Follow the ripple</button><p class="ripple-result" data-ripple-result hidden></p>` : ""}
       ${levers.length ? `<h3 class="panel__h panel__h--break">Breaking points here</h3><ul class="lever-list">${levers.map(leverItem).join("")}</ul>` : ""}
@@ -760,14 +774,17 @@
       <p class="panel__kicker is-break"><span class="lever-icon lever-icon--sm" aria-hidden="true"></span>Where it breaks</p>
       <h2 class="panel__title">${esc(v.title)}</h2>
       ${whenTag(v)}
-      <p class="panel__desc">${esc(v.text)}</p>
+      <p class="panel__desc">${gloss(v.text)}</p>
       <button class="lever-switch${state.on.has(v.id) ? " is-on" : ""}" data-act="toggle-lever" data-id="${v.id}" aria-pressed="${state.on.has(v.id)}">
         <span class="lever-switch__track" aria-hidden="true"></span>
         <span>${state.on.has(v.id) ? "Switched on: breaking " + plural(v.loops.length, "loop") : "Switch on this lever"}</span>
       </button>
-      ${v.example ? `<p class="example">${esc(v.example)}</p>` : ""}
+      ${v.example ? `<p class="example">${gloss(v.example)}</p>` : ""}
       <h3 class="panel__h">Who can pull this lever</h3>
       <div class="who-chips">${whoChips(v)}</div>
+      <h3 class="panel__h">Already working on it</h3>
+      ${orgsForLever(v.id).length ? `<ul class="org-mini">${orgsForLever(v.id).map(o => `<li>${extLink(o.url, o.name)}<p>${gloss(o.does)}</p></li>`).join("")}</ul>`
+        : `<p class="panel__note">No organisation on our list is working on this lever yet. Know one? ${tellUs}</p>`}
       <h3 class="panel__h">Cuts the link</h3>
       <p class="cut"><button class="link" data-go="${a.id}">${esc(plain(a))}</button> <span aria-hidden="true">→</span> <button class="link" data-go="${b.id}">${esc(plain(b))}</button></p>
       <h3 class="panel__h">Breaks ${plural(v.loops.length, "vicious cycle")}</h3>
@@ -886,7 +903,7 @@
     else if (act === "prev") { state.step--; renderStep(); }
   }
   document.addEventListener("click", ev => {
-    if (ev.target.closest("#panel, #guide, #loops, #web-list, #who-holds, #breakbar, #day, #path-form, .intro")) handleAction(ev);
+    if (ev.target.closest("#panel, #guide, #loops, #web-list, #who-holds, #network, #breakbar, #day, #path-form, .intro")) handleAction(ev);
   });
   document.addEventListener("keydown", ev => {
     if (ev.key === "Escape" && (state.selected || state.story || state.inst || state.pkg)) { clearSelection(); fitAll(); }
@@ -1202,7 +1219,7 @@
     panelBody.innerHTML = `<p class="panel__kicker is-loop">A day in a heatwave · ${esc(h.time)}</p>
       <h2 class="panel__title">${esc(h.title)}</h2>
       <p class="illustrative">${esc(h.who)} · illustrative</p>
-      <p class="panel__desc">${esc(h.text)}</p>
+      <p class="panel__desc">${gloss(h.text)}</p>
       ${h.fact ? `<p class="fact">${esc(h.fact)}${h.source ? ` <span class="fact__src">Source: ${extLink(h.source.url, h.source.label)}</span>` : ""}</p>` : ""}
       <h3 class="panel__h">Loops in play</h3><ul class="loop-list">${h.loops.map(l => loopItem(loopById[l])).join("")}</ul>
       <h3 class="panel__h panel__h--break">What would help</h3><ul class="lever-list">${h.levers.map(v => leverItem(leverById[v])).join("")}</ul>
@@ -1260,7 +1277,7 @@
               <span class="ev ev--${l.evidence}">${evidenceLabel(l.evidence)}</span>
               <span class="ev ev--broken">✓ Broken</span>
             </div>
-            <p class="lrow__sum">${esc(l.summary)}</p>
+            <p class="lrow__sum">${gloss(l.summary)}</p>
             ${chainHTML(l)}
             ${typeof LOOP_PLACES !== "undefined" && LOOP_PLACES[l.id] ? `<p class="place"><span>Where to look</span>${esc(LOOP_PLACES[l.id])}</p>` : ""}
             ${evidenceHTML(l, false)}
@@ -1285,6 +1302,59 @@
         <span class="inst__meta"><strong>${i.loops.size}</strong> loop${i.loops.size === 1 ? "" : "s"} · ${i.levers.length} lever${i.levers.length === 1 ? "" : "s"}</span>
       </button></li>`).join("");
   }
+
+  function renderNetwork() {
+    const roles = document.getElementById("org-roles"), list = document.getElementById("org-list"), gaps = document.getElementById("gap-list");
+    if (!list || !ORGS.length) return;
+    const R = typeof ORG_ROLES !== "undefined" ? ORG_ROLES : [];
+    roles.innerHTML = `<button class="chip" data-role="all" aria-pressed="true">All <span>${ORGS.length}</span></button>` +
+      R.map(r => `<button class="chip" data-role="${r.id}" aria-pressed="false">${esc(r.name)} <span>${ORGS.filter(o => o.role === r.id).length}</span></button>`).join("");
+    list.innerHTML = ORGS.map(o => `
+      <li class="org" data-role="${o.role}">
+        <p class="org__role">${esc((R.find(r => r.id === o.role) || {}).name || "")}</p>
+        <h3 class="org__name">${extLink(o.url, o.name)}</h3>
+        <p class="org__does">${gloss(o.does)}</p>
+        <p class="org__levers">${o.levers.map(v => leverById[v] ? `<button class="lever-chip" data-lever="${v}">${esc(leverById[v].title)}</button>` : "").join("")}</p>
+      </li>`).join("");
+    roles.addEventListener("click", ev => {
+      const b = ev.target.closest("[data-role]"); if (!b) return;
+      roles.querySelectorAll("[data-role]").forEach(x => x.setAttribute("aria-pressed", x === b ? "true" : "false"));
+      list.querySelectorAll(".org").forEach(li => { li.hidden = b.dataset.role !== "all" && li.dataset.role !== b.dataset.role; });
+    });
+    const ranked = LOOPS.map(l => ({ l, n: orgsForLoop(l).length })).sort((a, b) => a.n - b.n);
+    const max = Math.max(...ranked.map(x => x.n), 1);
+    gaps.innerHTML = ranked.map(({ l, n }) => `
+      <li><button class="gap${n === 0 ? " gap--none" : ""}" data-story="${l.id}">
+        <span class="gap__name">${esc(l.name)}</span>
+        <span class="gap__n">${n === 0 ? "No one on this list" : plural(n, "organisation")}</span>
+        <span class="gap__bar" aria-hidden="true"><span style="width:${(n / max * 100).toFixed(1)}%"></span></span>
+      </button></li>`).join("");
+  }
+
+  /* ---- glossary popover ---- */
+  const termPop = document.createElement("div");
+  termPop.className = "term-pop"; termPop.id = "term-pop"; termPop.setAttribute("role", "tooltip"); termPop.hidden = true;
+  document.body.appendChild(termPop);
+  let termBtn = null;
+  function closeTerm() { if (termBtn) { termBtn.setAttribute("aria-expanded", "false"); termBtn.removeAttribute("aria-describedby"); } termBtn = null; termPop.hidden = true; }
+  function openTerm(btn) {
+    const g = GLOSS[+btn.dataset.term]; if (!g) return;
+    closeTerm(); termBtn = btn;
+    termPop.innerHTML = `<strong>${esc(btn.textContent)}</strong> ${esc(g.text)}`;
+    termPop.hidden = false;
+    btn.setAttribute("aria-expanded", "true"); btn.setAttribute("aria-describedby", "term-pop");
+    const r = btn.getBoundingClientRect(), w = termPop.offsetWidth, h = termPop.offsetHeight;
+    const left = Math.max(8, Math.min(r.left, window.innerWidth - w - 8));
+    const top = r.bottom + 8 + h > window.innerHeight ? r.top - h - 8 : r.bottom + 8;
+    termPop.style.left = left + "px"; termPop.style.top = Math.max(8, top) + "px";
+  }
+  window.addEventListener("click", ev => {
+    const b = ev.target.closest && ev.target.closest(".term");
+    if (b) { ev.preventDefault(); if (termBtn === b) closeTerm(); else openTerm(b); return; }
+    if (!termPop.hidden && !termPop.contains(ev.target)) closeTerm();
+  }, true);
+  window.addEventListener("keydown", ev => { if (ev.key === "Escape" && !termPop.hidden) { ev.stopImmediatePropagation(); const b = termBtn; closeTerm(); if (b) b.focus(); } }, true);
+  window.addEventListener("scroll", () => { if (!termPop.hidden) closeTerm(); }, { passive: true, capture: true });
 
   function renderList() {
     document.getElementById("web-list").innerHTML = SYSTEMS.map(s => {
@@ -1324,6 +1394,7 @@
     guide.innerHTML = introHTML(true);
     renderLoopsSection();
     renderInstitutions();
+    renderNetwork();
     renderList();
     renderStats();
     applyBreakState();
