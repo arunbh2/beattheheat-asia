@@ -525,3 +525,135 @@ const STORIES = {
     ]
   }
 };
+
+/* ---------- 8. WHERE TO LOOK: places in Asia where each loop plays out ---------- */
+// Shown with each vicious cycle. These are places to look, not measurements.
+const LOOP_PLACES = {
+  global:        "Fast-growing cities across South and Southeast Asia, where air-conditioner ownership is rising quickly.",
+  soil:          "Rain-fed farmland on the Indian subcontinent and in mainland Southeast Asia during the hot, dry pre-monsoon months.",
+  ice:           "The Hindu Kush Himalaya, whose snow and ice feed rivers such as the Indus, Ganges and Brahmaputra.",
+  fire:          "The dry-season burning belt of northern Thailand, Myanmar and Laos, and Indonesia’s peatlands.",
+  cooling:       "Dense, high-rise city cores such as Hong Kong, Bangkok and Metro Manila.",
+  energywater:   "Coal-fired power plants along water-stressed rivers in India.",
+  pumping:       "Punjab and Haryana in northwest India, where groundwater tables have been falling for decades.",
+  clinic:        "District and city hospitals during South Asia’s pre-monsoon heatwaves.",
+  poverty:       "Construction sites, brick kilns, farms and street markets across South and Southeast Asia.",
+  debt:          "Households without health insurance, where most medical costs are paid out of pocket.",
+  energypoverty: "Tin-roofed informal settlements in cities such as Dhaka, Karachi and Mumbai.",
+  displacement:  "Migrant settlements on the edges of fast-growing cities such as Dhaka.",
+  school:        "School systems that closed classrooms during the 2024 heatwaves, including in the Philippines and Bangladesh.",
+  sleep:         "Tropical cities whose nights stay hot, such as Bangkok, Chennai and Ho Chi Minh City.",
+  invisible:     "Much of Asia, where death certificates rarely record heat as a cause.",
+  reactive:      "Disaster budgets designed for floods and cyclones rather than heat.",
+  protection:    "Fast-growing Asian economies where few households or small businesses carry insurance."
+};
+
+/* ---------- 9. POLICY PACKAGES ---------- */
+// Each package switches on a set of levers (ids from part 6) to show which loops break together.
+const PACKAGES = [
+  { id: "workers", title: "Protect workers",
+    text: "Make it safe and affordable to stop working in dangerous heat.",
+    levers: ["heatrules", "heatcash", "socialprotection", "freecare"] },
+  { id: "cities", title: "Cool cities and homes",
+    text: "Take heat out of streets, homes and nights.",
+    levers: ["coolbydesign", "greencity", "affordablecool", "coolhousing", "coolnights"] },
+  { id: "health", title: "Health first",
+    text: "Warn early, prepare clinics and count every death.",
+    levers: ["hap", "readyclinics", "freecare", "coolingcentres", "countdeaths"] },
+  { id: "money", title: "Fix the money",
+    text: "Fund prevention before the season, not the emergency after it.",
+    levers: ["heatbudget", "anticipatory", "riskpools", "countdeaths"] },
+  { id: "land", title: "Land, water and energy",
+    text: "Stop nature and infrastructure from feeding the heat.",
+    levers: ["emissions", "cleancool", "soilwater", "blackcarbon", "firesmart", "irrigate", "drypower", "pumpbackup"] }
+];
+
+/* ---------- 10. INSTITUTION PLAYBOOKS: Sense → Decide → Act → Sustain ---------- */
+const PLAYBOOKS = {
+  nat:       { sense: "Set national heat thresholds and link weather alerts to health and death data.",
+               decide: "Recognise extreme heat as a disaster, with a budget set aside before each season.",
+               act: "Enforce heat-safe work rules, cooling standards and free care for heat illness.",
+               sustain: "Cut emissions, build social protection and keep heat in every national plan." },
+  city:      { sense: "Map the hottest streets, homes and people, and who is most at risk.",
+               decide: "Adopt and fund a city heat action plan with clear owners.",
+               act: "Open cooling centres, shade streets, cool roofs and check on people living alone.",
+               sustain: "Build heat into planning, building codes and housing upgrades." },
+  health:    { sense: "Track heat illness and excess deaths in real time during heatwaves.",
+               decide: "Trigger surge plans and outreach when forecasts cross danger levels.",
+               act: "Prepare clinics with cooling, backup power and trained staff.",
+               sustain: "Record heat on death certificates and train every frontline worker." },
+  met:       { sense: "Forecast dangerous heat, including hot nights and humid heat.",
+               decide: "Agree danger thresholds with health, labour and disaster agencies.",
+               act: "Issue early, local warnings that trigger action, not just information.",
+               sustain: "Keep improving forecasts and share data openly." },
+  employers: { sense: "Measure heat at the workplace, not just the city forecast.",
+               decide: "Set heat rules for rest, water, shade and hours before summer begins.",
+               act: "Give paid breaks and move heavy work to cooler hours.",
+               sustain: "Build heat into contracts, supply chains and workplace design." },
+  workers:   { sense: "Collect members’ experiences of heat at work and at home.",
+               decide: "Put heat protection on the bargaining table.",
+               act: "Win paid rest, water, shade and income protection.",
+               sustain: "Make heat rights part of every agreement and law." },
+  utilities: { sense: "Forecast peak cooling demand and the points where the grid will fail.",
+               decide: "Protect supply to clinics, water pumps and cooling centres first.",
+               act: "Offer lifeline tariffs and demand response, and support efficient cooling.",
+               sustain: "Shift to clean power that doesn’t depend on scarce water." },
+  water:     { sense: "Monitor reservoirs, aquifers and pumping during hot spells.",
+               decide: "Agree fair sharing of scarce water between homes, farms and power.",
+               act: "Keep water flowing with backup power and emergency supply.",
+               sustain: "Recharge aquifers and set fair pumping rules." },
+  agri:      { sense: "Watch soil moisture and crop heat stress through the season.",
+               decide: "Advise farmers when to plant, irrigate and protect animals.",
+               act: "Spread mulching, agroforestry, efficient irrigation and heat-tolerant varieties.",
+               sustain: "Restore soils and watersheds so land stays cooler." },
+  schools:   { sense: "Monitor classroom temperatures and attendance in hot months.",
+               decide: "Adjust timetables and calendars before heat closes schools.",
+               act: "Cool classrooms and keep school meals going.",
+               sustain: "Build cooler schools and support that keeps children enrolled." },
+  insurers:  { sense: "Price heat risk with local data.",
+               decide: "Design cover that pays out quickly when heat crosses a threshold.",
+               act: "Offer parametric heat insurance to workers and small businesses.",
+               sustain: "Share risk through public–private pools so cover stays available." },
+  funders:   { sense: "Fund heat data and the tracking of deaths.",
+               decide: "Prioritise prevention over emergency response.",
+               act: "Finance cooling centres, clinics, cool housing and income protection.",
+               sustain: "Back the institutions that deliver protection year after year." },
+  community: { sense: "Know who lives alone, who works outside and who has no cooling.",
+               decide: "Agree a neighbourhood plan for heatwaves.",
+               act: "Check on neighbours, run cooling spaces and share warnings.",
+               sustain: "Hold institutions to account and keep local knowledge alive." },
+  intl:      { sense: "Track global warming and heat impacts across countries.",
+               decide: "Agree standards on emissions, refrigerants and work in heat.",
+               act: "Support countries to adopt and enforce those standards.",
+               sustain: "Keep finance and technology flowing to the places most at risk." }
+};
+
+/* ---------- 11. A DAY IN A HEATWAVE (illustrative) ---------- */
+// The people here are illustrative composites, not real individuals.
+// loops: the vicious cycles in play (ids from part 4). levers: what would help (ids from part 6).
+const HEATWAVE_DAY = [
+  { time: "05:00", title: "A night that never cooled",
+    who: "A garment worker in Dhaka",
+    text: "She wakes under a tin roof after a night that never cooled down. Her body hasn’t recovered from yesterday, and the shift starts in two hours.",
+    loops: ["sleep", "energypoverty"], levers: ["coolnights", "affordablecool", "coolhousing"] },
+  { time: "09:00", title: "Stop, or get paid",
+    who: "A construction worker in Delhi",
+    text: "By mid-morning the site is dangerously hot. Resting in the shade means losing part of the day’s wage, so he keeps carrying.",
+    loops: ["poverty"], levers: ["heatrules", "heatcash"] },
+  { time: "12:00", title: "School closes",
+    who: "A girl in rural Bangladesh",
+    text: "Her school shuts for the heat. She spends the afternoon fetching water and looking after her younger brothers instead.",
+    loops: ["school"], levers: ["keepinschool"] },
+  { time: "15:00", title: "The grid gives way",
+    who: "A city at its peak",
+    text: "Every air conditioner is running. The grid fails, water pumps stop and the district clinic loses its cooling just as heat cases arrive.",
+    loops: ["cooling", "energywater", "clinic"], levers: ["coolbydesign", "greencity", "pumpbackup", "readyclinics", "hap"] },
+  { time: "18:00", title: "The bill arrives",
+    who: "A street food vendor in Bangkok",
+    text: "Her stock spoiled in the heat, and her husband’s treatment for heat exhaustion last week was paid with a loan. Tomorrow she has to work longer.",
+    loops: ["debt", "poverty"], levers: ["freecare", "socialprotection", "heatcash"] },
+  { time: "22:00", title: "A death no one counts",
+    who: "An older man living alone in Chennai",
+    text: "He dies at home in a room that stayed hot all day. His death certificate will say heart failure, so it never shows up as a heat death.",
+    loops: ["invisible"], levers: ["coolingcentres", "countdeaths"] }
+];

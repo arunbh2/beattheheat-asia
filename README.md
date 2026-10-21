@@ -7,7 +7,9 @@ This website is an **interactive systems map** of extreme heat. It shows:
 - **the links between them**, including cross-system links that visitors can switch on;
 - **17 vicious cycles**, in four groups: loops that feed the heat itself, loops that break the systems we rely on, loops that trap people, and loops inside institutions;
 - **25 breaking points**, each tied to the link it cuts;
-- **14 institutions** and the levers each one holds.
+- **14 institutions** and the levers each one holds, each with a Sense → Decide → Act → Sustain playbook and a printable brief;
+- **policy packages** that switch on several levers at once and show which loops break, and who has to act;
+- **a path finder** ("How does X lead to Y?") and **a day in a heatwave**.
 
 Visitors can drag and zoom the map, tap any dot, follow a ripple, walk through any vicious cycle, and choose an institution to see which loops it can help break.
 
@@ -41,6 +43,10 @@ Open `data.js` on GitHub and click the **pencil icon** (✏️). The file has se
 5. **INSTITUTIONS**: who holds the levers.
 6. **LEVERS**: the breaking points. `edge` is the link it cuts, and `who` lists the institutions that can pull it.
 7. **STORIES**: the guided path "From field to family".
+8. **LOOP_PLACES**: for each vicious cycle, places in Asia where it plays out ("Where to look").
+9. **PACKAGES**: the policy packages in the "Break the loops" bar. Each lists the levers it switches on.
+10. **PLAYBOOKS**: each institution's Sense → Decide → Act → Sustain chain, shown on the map and in its printable brief.
+11. **HEATWAVE_DAY**: the six moments of "A day in a heatwave". The people are illustrative composites.
 
 **To add a new consequence**, copy an existing line in part 2, give it a new `id`, then add at least one link to or from it in part 3.
 
