@@ -69,6 +69,7 @@
       <a href="#loops">Where loops break</a>
       <a href="#day">A day in a heatwave</a>
       <a href="#who-holds">Who holds the levers</a>
+      <a href="#plan">Plan a response</a>
       <a href="#network">The heat network</a>
     </nav>
   </header>
@@ -116,12 +117,12 @@
           <div class="breakbar" id="breakbar">
             <div class="breakbar__head">
               <span class="breakbar__label"><span class="lever-icon lever-icon--sm" aria-hidden="true"></span>Break the loops</span>
-              <span class="breakbar__count"><b data-break-count>0</b> of <span data-stat="loops">18</span> vicious cycles broken</span>
+              <span class="breakbar__count"><b data-break-count>0</b> of <span data-stat="loops">18</span> vicious cycles these actions could help interrupt</span>
               <span class="breakbar__meter" aria-hidden="true"><span id="break-meter"></span></span>
               <button id="break-reset" class="link" data-act="reset-levers" hidden>Switch everything off</button>
             </div>
             <div class="pkg-chips" id="pkg-chips" role="group" aria-label="Policy packages"></div>
-            <p class="breakbar__hint">Choose a package, or turn on “Show where loops break”, click any teal marker on the map and switch it on.</p>
+            <p class="breakbar__hint">Choose a package, or turn on “Show where loops break”, click any teal marker on the map and switch it on. This is an illustrative systems map: real effect depends on reach, quality and how long an action lasts. <a href="#method">How this map works</a></p>
           </div>
 
           <form class="pathfinder" id="path-form">
@@ -223,12 +224,51 @@
     </section>
 
 
+    <!-- ============ PLAN A RESPONSE ============ -->
+    <section class="plan" id="plan" aria-labelledby="plan-title">
+      <div class="container">
+        <p class="eyebrow eyebrow--break">Plan a response</p>
+        <h2 id="plan-title" class="h2">Turn the map<br>into a plan.</h2>
+        <p class="loops__intro">For a workshop or a team meeting. Choose a place and who you are protecting, pick the actions, then agree who leads, who pays and how you will know it is working. What you type stays in this browser.</p>
+
+        <div class="plan__example">
+          <p><strong>See it done.</strong> Ahmedabad turned a deadly heatwave into South Asia’s first heat action plan.</p>
+          <button type="button" class="btn btn--sm btn--teal" data-plan-example="ahmedabad">Load the Ahmedabad example</button>
+        </div>
+        <div id="plan-story" class="plan-story" hidden></div>
+
+        <div class="plan__layout">
+          <div class="plan__steps">
+            <fieldset class="plan-step">
+              <legend><span>1</span> Where, and who are you protecting?</legend>
+              <div class="plan-step__row">
+                <label>Place <input type="text" id="plan-place" placeholder="e.g. a ward, a city or a district" autocomplete="off"></label>
+                <label>People at risk <select id="plan-group"></select></label>
+              </div>
+            </fieldset>
+            <fieldset class="plan-step">
+              <legend><span>2</span> Choose the actions</legend>
+              <p class="plan-step__hint">Actions suggested for the people you chose are marked. Add or remove any.</p>
+              <div id="plan-actions" class="plan-actions"></div>
+            </fieldset>
+            <fieldset class="plan-step">
+              <legend><span>3</span> Agree who leads, who pays and how you will know</legend>
+              <div id="plan-rows" class="plan-rows"></div>
+            </fieldset>
+          </div>
+          <aside class="plan-summary" id="plan-summary" aria-live="polite"></aside>
+        </div>
+      </div>
+    </section>
+
+
     <!-- ============ THE HEAT NETWORK ============ -->
     <section class="network" id="network" aria-labelledby="network-title">
       <div class="container">
         <p class="eyebrow eyebrow--break">The heat network</p>
         <h2 id="network-title" class="h2">Who is already<br>pulling the levers.</h2>
         <p class="loops__intro">Organisations across Asia and the world already working on parts of this web. Choose a group, or open any lever on the map to see who is working on it.</p>
+        <p class="network__note">Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.</p>
         <div class="network__layout">
           <div>
             <label class="org-search"><span class="visually-hidden">Search organisations</span><input type="search" id="org-search" placeholder="Search organisations, places or topics" autocomplete="off"></label>
@@ -238,7 +278,7 @@
           </div>
           <aside class="gaps" aria-labelledby="gaps-title">
             <h3 id="gaps-title" class="leverage__h">Where the gaps may be</h3>
-            <p class="leverage__note">How many organisations on this list work on a lever that breaks each loop. A low number may mean a real gap, or work we haven’t listed yet.</p>
+            <p class="leverage__note">How many organisations on this list work on a lever that acts on each loop. A low number shows a gap in this directory’s coverage, not proof that nobody is working on it.</p>
             <ol id="gap-list" class="gap-list"></ol>
           </aside>
         </div>
@@ -285,6 +325,37 @@
         <div class="closing__actions">
           <button class="btn btn--cta" data-random>Pull a thread at random</button>
           <a class="btn btn--ghost" href="#loops">See where loops break</a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============ HOW THIS MAP WORKS ============ -->
+    <section class="method" id="method" aria-labelledby="method-title">
+      <div class="container">
+        <p class="eyebrow">How this map works</p>
+        <h2 id="method-title" class="h2">What the map shows,<br>and what it doesn’t.</h2>
+        <div class="method__grid">
+          <div>
+            <h3>An illustrative systems map</h3>
+            <p>The links come from published evidence and expert judgment. Switching an action on shows which cycles it could help interrupt, not what it will achieve. Real effect depends on how many people it reaches, how well it is delivered and how long it lasts.</p>
+          </div>
+          <div>
+            <h3>Three kinds of evidence</h3>
+            <p>Evidence that one thing leads to another. Evidence that an action works. Evidence that a whole cycle runs as drawn. <strong>Well established</strong> means the whole cycle has been studied; <strong>Evidence emerging</strong> means each link has evidence but the full cycle has been studied less. The sources under “See the evidence” mostly show that links exist.</p>
+          </div>
+          <div>
+            <h3>What works, and at what cost</h3>
+            <p>This map focuses on how problems, institutions and actions connect. For ratings of how well interventions work, what they cost and how soon they help, see <a href="https://wmo.int/node/39067" target="_blank" rel="noopener">What Works Against Heat<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a>, launched at the 2026 Global Heat Forum by the Global Heat Health Information Network and the University of Sydney.</p>
+          </div>
+          <div>
+            <h3>Timing and the heat network</h3>
+            <p>“How soon it works” tags are editorial judgments. Organisations are listed for relevant published work: inclusion does not imply partnership, affiliation or endorsement, and a low count shows a gap in this directory’s coverage, not proof that nobody is working on it.</p>
+          </div>
+          <div>
+            <h3>Checked and updated</h3>
+            <p>Last reviewed: 21 October 2026. Links and descriptions can go out of date as organisations and evidence move on. <a class="missing-link" href="https://www.linkedin.com/in/arunabhabhattacharya" target="_blank" rel="noopener author">Spotted something wrong or missing? Tell us <span aria-hidden="true">→</span><span class="visually-hidden"> (opens LinkedIn in a new tab)</span></a></p>
+          </div>
         </div>
       </div>
     </section>
