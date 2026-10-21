@@ -783,7 +783,8 @@
       <h3 class="panel__h">Who can pull this lever</h3>
       <div class="who-chips">${whoChips(v)}</div>
       <h3 class="panel__h">Already working on it</h3>
-      ${orgsForLever(v.id).length ? `<ul class="org-mini">${orgsForLever(v.id).map(o => `<li>${extLink(o.url, o.name)}<p>${gloss(o.does)}</p></li>`).join("")}</ul>`
+      ${orgsForLever(v.id).length ? `<ul class="org-mini">${orgsForLever(v.id).slice(0, 5).map(o => `<li>${extLink(o.url, o.name)}<p>${gloss(o.does)}</p></li>`).join("")}</ul>
+        ${orgsForLever(v.id).length > 5 ? `<button class="link" data-act="orgs-lever" data-id="${v.id}">See all ${orgsForLever(v.id).length} in the heat network →</button>` : ""}`
         : `<p class="panel__note">No organisation on our list is working on this lever yet. Know one? ${tellUs}</p>`}
       <h3 class="panel__h">Cuts the link</h3>
       <p class="cut"><button class="link" data-go="${a.id}">${esc(plain(a))}</button> <span aria-hidden="true">→</span> <button class="link" data-go="${b.id}">${esc(plain(b))}</button></p>
@@ -891,6 +892,13 @@
     if (act === "reset-levers") { state.on.clear(); state.pkg = null; applyBreakState(); clearSelection(); fitAll(); return; }
     if (act === "inst-levers") { applyLevers(instById[t.dataset.id].levers, instById[t.dataset.id].name); return; }
     if (act === "brief") { openBrief(t.dataset.id); return; }
+    if (act === "orgs-lever") {
+      const q = document.getElementById("org-search"), all = document.querySelector('#org-roles [data-role="all"]');
+      if (all) all.click();
+      if (q) { q.value = leverById[t.dataset.id].title; q.dispatchEvent(new Event("input")); }
+      document.getElementById("network").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" });
+      return;
+    }
     if (act === "tour") { goToMap(() => tourStep(0)); return; }
     if (act === "tour-next") { tourStep(state.tour + 1); return; }
     if (act === "tour-prev") { tourStep(state.tour - 1); return; }
@@ -1318,12 +1326,15 @@
       </li>`).join("");
     // show a dozen at a time so the list never overwhelms
     const FIRST = 12;
-    let role = "all", expanded = false;
+    let role = "all", expanded = false, query = "";
+    const search = document.getElementById("org-search"), count = document.getElementById("org-count");
     const more = document.createElement("button");
     more.type = "button"; more.className = "btn btn--ghost btn--sm org-more";
     list.after(more);
     function showOrgs() {
-      const match = [...list.querySelectorAll(".org")].filter(li => role === "all" || li.dataset.role === role);
+      const q = query.trim().toLowerCase();
+      const match = [...list.querySelectorAll(".org")].filter(li => (role === "all" || li.dataset.role === role) && (!q || li.textContent.toLowerCase().includes(q)));
+      if (count) count.textContent = q ? (match.length ? `${plural(match.length, "organisation")} match “${query.trim()}”` : `No organisation on this list matches “${query.trim()}”.`) : "";
       list.querySelectorAll(".org").forEach(li => { li.hidden = true; });
       match.forEach((li, i) => { li.hidden = !expanded && i >= FIRST; });
       more.hidden = match.length <= FIRST;
@@ -1331,6 +1342,7 @@
       more.setAttribute("aria-expanded", expanded ? "true" : "false");
     }
     more.addEventListener("click", () => { expanded = !expanded; showOrgs(); if (!expanded) roles.scrollIntoView({ block: "nearest" }); });
+    if (search) search.addEventListener("input", () => { query = search.value; expanded = false; showOrgs(); });
     roles.addEventListener("click", ev => {
       const b = ev.target.closest("[data-role]"); if (!b) return;
       roles.querySelectorAll("[data-role]").forEach(x => x.setAttribute("aria-pressed", x === b ? "true" : "false"));
