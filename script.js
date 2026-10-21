@@ -101,11 +101,16 @@
   const tellUs = `<a class="missing-link" href="https://www.linkedin.com/in/arunabhabhattacharya" target="_blank" rel="noopener author">Tell us<span class="visually-hidden"> (opens LinkedIn in a new tab)</span> <span aria-hidden="true">→</span></a>`;
 
   // plain-language glossary: explain technical terms where they appear
-  const GLOSS = (typeof GLOSSARY !== "undefined" ? GLOSSARY : []).map((g, i) => Object.assign({ i, re: new RegExp("\\b(" + g.match.replace(/[-]/g, "\\$&") + ")(s|es)?\\b", "i") }, g));
+  const GLOSS = (typeof GLOSSARY !== "undefined" ? GLOSSARY : []).map(g => Object.assign({ re: new RegExp("\\b(" + g.match.replace(/[-]/g, "\\$&") + ")(s|es)?\\b", "i") }, g));
+  const glossById = Object.fromEntries(GLOSS.map(g => [g.id, g]));
+  // longer phrases first, so "wet-bulb globe temperature" wins over "wet-bulb temperature"
+  const GLOSS_AUTO = GLOSS.filter(g => g.auto !== false).sort((a, b) => b.match.length - a.match.length);
   function gloss(text) {
+    const found = [];
+    // swap matches for placeholders first, so one term is never wrapped inside another
     let out = esc(text);
-    GLOSS.forEach(g => { out = out.replace(g.re, m => `<button type="button" class="term" data-term="${g.i}" aria-expanded="false">${m}</button>`); });
-    return out;
+    GLOSS_AUTO.forEach(g => { out = out.replace(g.re, m => { found.push([g.id, m]); return `\u0000${found.length - 1}\u0001`; }); });
+    return out.replace(/\u0000(\d+)\u0001/g, (_, k) => `<button type="button" class="term" data-term="${found[k][0]}" aria-expanded="false">${found[k][1]}</button>`);
   }
 
   function evidenceHTML(l, open) {
@@ -1228,7 +1233,7 @@
       <h2 class="panel__title">${esc(h.title)}</h2>
       <p class="illustrative">${esc(h.who)} · illustrative</p>
       <p class="panel__desc">${gloss(h.text)}</p>
-      ${h.fact ? `<p class="fact">${esc(h.fact)}${h.source ? ` <span class="fact__src">Source: ${extLink(h.source.url, h.source.label)}</span>` : ""}</p>` : ""}
+      ${h.fact ? `<p class="fact">${gloss(h.fact)}${h.source ? ` <span class="fact__src">Source: ${extLink(h.source.url, h.source.label)}</span>` : ""}</p>` : ""}
       <h3 class="panel__h">Loops in play</h3><ul class="loop-list">${h.loops.map(l => loopItem(loopById[l])).join("")}</ul>
       <h3 class="panel__h panel__h--break">What would help</h3><ul class="lever-list">${h.levers.map(v => leverItem(leverById[v])).join("")}</ul>
       ${extra.length ? `<p class="panel__note">These levers also break ${andList(extra.map(l => `<button class="link" data-story="${l.id}">${esc(l.name.replace(/^The /, "the "))}</button>`))}.</p>` : ""}
@@ -1264,7 +1269,7 @@
         <h3 class="hour__title">${esc(h.title)}</h3>
         <p class="illustrative">${esc(h.who)}</p>
         <p class="hour__text">${esc(h.text)}</p>
-        ${h.fact ? `<p class="hour__fact">${esc(h.fact)}${h.source ? ` <span>Source: ${extLink(h.source.url, h.source.label)}</span>` : ""}</p>` : ""}
+        ${h.fact ? `<p class="hour__fact">${gloss(h.fact)}${h.source ? ` <span>Source: ${extLink(h.source.url, h.source.label)}</span>` : ""}</p>` : ""}
         <p class="hour__loops">${h.loops.map(l => `<button class="loop-chip" data-story="${l}">↺ ${esc(loopById[l].name.replace(/^The /, ""))}</button>`).join("")}</p>
         <div class="hour__actions">
           <button class="btn btn--ghost btn--sm" data-hour="${i}">See it on the map</button>
@@ -1366,9 +1371,9 @@
   let termBtn = null;
   function closeTerm() { if (termBtn) { termBtn.setAttribute("aria-expanded", "false"); termBtn.removeAttribute("aria-describedby"); } termBtn = null; termPop.hidden = true; }
   function openTerm(btn) {
-    const g = GLOSS[+btn.dataset.term]; if (!g) return;
+    const g = glossById[btn.dataset.term]; if (!g) return;
     closeTerm(); termBtn = btn;
-    termPop.innerHTML = `<strong>${esc(btn.textContent)}</strong> ${esc(g.text)}`;
+    termPop.innerHTML = `<strong>${esc(g.term)}</strong> ${esc(g.text)}`;
     termPop.hidden = false;
     btn.setAttribute("aria-expanded", "true"); btn.setAttribute("aria-describedby", "term-pop");
     const r = btn.getBoundingClientRect(), w = termPop.offsetWidth, h = termPop.offsetHeight;
@@ -1383,6 +1388,20 @@
   }, true);
   window.addEventListener("keydown", ev => { if (ev.key === "Escape" && !termPop.hidden) { ev.stopImmediatePropagation(); const b = termBtn; closeTerm(); if (b) b.focus(); } }, true);
   window.addEventListener("scroll", () => { if (!termPop.hidden) closeTerm(); }, { passive: true, capture: true });
+
+  function renderGlossary() {
+    const box = document.getElementById("glossary-list"); if (!box || !GLOSS.length) return;
+    const groups = typeof GLOSSARY_GROUPS !== "undefined" ? GLOSSARY_GROUPS : [];
+    const listed = GLOSS.filter(g => groups.some(x => x.id === g.group));
+    document.querySelectorAll("[data-glossary-count]").forEach(x => { x.textContent = listed.length; });
+    box.innerHTML = groups.map((grp, i) => {
+      const terms = listed.filter(g => g.group === grp.id);
+      return `<details class="gloss-group"${i === 1 ? " open" : ""}>
+        <summary>${esc(grp.name)} <span>${terms.length}</span></summary>
+        <dl>${terms.map(g => `<div id="term-${g.id}"><dt>${esc(g.term)}</dt><dd>${esc(g.text)}</dd></div>`).join("")}</dl>
+      </details>`;
+    }).join("");
+  }
 
   function renderList() {
     document.getElementById("web-list").innerHTML = SYSTEMS.map(s => {
@@ -1423,6 +1442,7 @@
     renderLoopsSection();
     renderInstitutions();
     renderNetwork();
+    renderGlossary();
     renderList();
     renderStats();
     applyBreakState();

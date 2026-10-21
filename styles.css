@@ -826,3 +826,20 @@ button { font: inherit; color: inherit; }
 .org-search input:focus-visible { outline: 3px solid var(--amber); outline-offset: 2px; }
 .org-count { min-height: 1em; margin: -6px 0 10px; font-size: .88rem; color: var(--grey-700); }
 .org-count:empty { display: none; }
+
+/* ---------- plain-language glossary list ---------- */
+.glossary { padding: clamp(56px, 8vw, 112px) 0; background: var(--canvas); border-top: 1px solid var(--line); }
+.glossary .eyebrow { margin-bottom: 20px; }
+.glossary-list { display: grid; gap: 10px; margin-top: clamp(24px, 3vw, 36px); max-width: 60rem; }
+.gloss-group { border: 1px solid var(--line); border-radius: 8px; background: var(--white); }
+.gloss-group summary { display: flex; align-items: center; gap: 10px; padding: 14px 16px; font-weight: 800; cursor: pointer; list-style: none; }
+.gloss-group summary::-webkit-details-marker { display: none; }
+.gloss-group summary::before { content: "+"; width: 1em; font-weight: 800; color: #17605A; }
+.gloss-group[open] summary::before { content: "−"; }
+.gloss-group summary span { margin-left: auto; padding: 0 8px; border-radius: 999px; background: var(--canvas); color: var(--grey-500); font-size: .85rem; }
+.gloss-group dl { margin: 0; padding: 0 16px 14px; display: grid; gap: 12px; }
+@media (min-width: 760px) { .gloss-group dl { grid-template-columns: 1fr 1fr; column-gap: 28px; } }
+.gloss-group dt { font-weight: 800; }
+.gloss-group dd { margin: 2px 0 0; color: var(--grey-700); font-size: .94rem; }
+.wicked .term { text-decoration-color: var(--amber); }
+.wicked .term:hover, .wicked .term[aria-expanded="true"] { background: rgba(245,166,35,.2); }
