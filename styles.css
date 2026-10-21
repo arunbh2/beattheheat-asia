@@ -816,3 +816,5 @@ button { font: inherit; color: inherit; }
 .term-pop strong { display: block; margin-bottom: 2px; color: var(--amber); text-transform: capitalize; }
 .org-roles .chip { white-space: normal; text-align: left; max-width: 100%; }
 .network__layout > * { min-width: 0; }
+.org-more { margin-top: 14px; }
+.org-more[hidden] { display: none; }
