@@ -37,6 +37,19 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": "Extreme heat is a wicked problem",
+    "description": "A 1 minute 41 second narrated film: the web of extreme heat, its vicious cycles, a day in a heatwave, who holds the levers and why heat is a wicked problem.",
+    "thumbnailUrl": "https://beattheheat.asia/media/extreme-heat-wicked-problem-poster.jpg",
+    "contentUrl": "https://beattheheat.asia/media/extreme-heat-wicked-problem.mp4",
+    "uploadDate": "2026-10-21",
+    "duration": "PT1M41S",
+    "inLanguage": "en"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Extreme heat is a wicked problem",
     "alternateName": "BeatTheHeat.Asia",
@@ -90,7 +103,11 @@
           <div class="stat--break"><dt>Places to break them</dt><dd data-stat="levers">26</dd></div>
           <div><dt>Institutions holding levers</dt><dd data-stat="institutions">14</dd></div>
         </dl>
-        <p class="intro__tour"><button class="btn btn--cta" data-act="tour">Take the 60-second tour <span aria-hidden="true">→</span></button> <span>or scroll down and explore on your own.</span></p>
+        <div class="intro__tour">
+          <button type="button" class="btn btn--film" data-act="film" aria-haspopup="dialog"><span class="play-icon" aria-hidden="true"></span>Watch the film <span class="btn__meta">(1:41)</span></button>
+          <button type="button" class="btn btn--cta" data-act="tour">Take the 60-second tour <span aria-hidden="true">→</span></button>
+          <span class="intro__tour-or">or scroll down and explore on your own.</span>
+        </div>
         <p class="honest">This map is large, but the real web is larger. Every heatwave reveals links that aren’t drawn here yet.
           <a class="missing-link" href="https://www.linkedin.com/in/arunabhabhattacharya" target="_blank" rel="noopener author">Know a link, a loop or a lever that’s missing? Tell us <span aria-hidden="true">→</span><span class="visually-hidden"> (opens LinkedIn in a new tab)</span></a></p>
       </div>
@@ -391,5 +408,31 @@
       <a class="btn btn--cta btn--small-cta" href="https://www.linkedin.com/in/arunabhabhattacharya" target="_blank" rel="noopener author">Explore working together <span aria-hidden="true">→</span><span class="visually-hidden"> (opens LinkedIn in a new tab)</span></a>
     </div>
   </footer>
+  <!-- The film: opened from the hero, never autoplays. Captions come from media/…en.vtt -->
+  <dialog class="film" id="film" aria-labelledby="film-title">
+    <div class="film__inner">
+      <div class="film__head">
+        <h2 id="film-title" class="film__title">Extreme heat is a wicked problem <span>· the film, 1:41</span></h2>
+        <button type="button" class="film__close" data-film="close" aria-label="Close the film">×</button>
+      </div>
+      <div class="film__frame">
+        <video id="film-video" controls playsinline preload="none" poster="media/extreme-heat-wicked-problem-poster.jpg">
+          <source src="media/extreme-heat-wicked-problem.mp4" type="video/mp4">
+          <track kind="captions" src="media/extreme-heat-wicked-problem.en.vtt" srclang="en" label="English" default>
+          Your browser can’t play this film. <a href="media/extreme-heat-wicked-problem.mp4">Download it (MP4, 9.5 MB)</a>.
+        </video>
+        <div class="film__end" id="film-end" hidden>
+          <p class="film__end-k">Now see it for yourself</p>
+          <p class="film__end-h">The map is live.<br>Pull a thread.</p>
+          <div class="film__end-actions">
+            <button type="button" class="btn btn--cta" data-film="tour">Take the 60-second tour <span aria-hidden="true">→</span></button>
+            <button type="button" class="btn btn--film-ghost" data-film="explore">Explore the map</button>
+            <button type="button" class="link" data-film="replay">Watch again</button>
+          </div>
+        </div>
+      </div>
+      <p class="film__note">Captions are on; use the CC button to turn them off. The film was recorded in October 2026, so some figures, such as how many organisations are listed, have since grown on the live map.</p>
+    </div>
+  </dialog>
 </body>
 </html>
