@@ -85,7 +85,8 @@
     });
   });
 
-  const state = { selected: null, story: null, step: 0, filter: "all", inst: null };
+  const state = { selected: null, story: null, step: 0, filter: "all", inst: null, on: new Set(), pkg: null };
+  const pkgById = Object.fromEntries((typeof PACKAGES !== "undefined" ? PACKAGES : []).map(p => [p.id, p]));
 
   /* ======================= LAYOUT ======================= */
   const measureCtx = document.createElement("canvas").getContext("2d");
@@ -176,7 +177,7 @@
 
   /* ======================= DRAW ======================= */
   const defs = el("defs", {}, svg);
-  const markerColors = { hub: COLORS.ink, knock: "#4A5560", cross: "#2E6F95", vicious: COLORS.red };
+  const markerColors = { hub: COLORS.ink, knock: "#4A5560", cross: "#2E6F95", vicious: COLORS.red, healed: "#1F7A70" };
   SYSTEMS.forEach(s => { markerColors[s.id] = s.color; });
   for (const key in markerColors) {
     const m = el("marker", { id: "arr-" + key, viewBox: "0 0 10 10", refX: "9", refY: "5", markerWidth: "4.2", markerHeight: "4.2", orient: "auto-start-reverse" }, defs);
@@ -271,7 +272,7 @@
                   : `M${s.x.toFixed(1)},${s.y.toFixed(1)} L${t.x.toFixed(1)},${t.y.toFixed(1)}`;
       e.mid = c ? { x: 0.25 * s.x + 0.5 * c.x + 0.25 * t.x, y: 0.25 * s.y + 0.5 * c.y + 0.25 * t.y } : { x: (s.x + t.x) / 2, y: (s.y + t.y) / 2 };
       const key = e.type === "direct" ? a.sys : e.type;
-      e.marker = `url(#arr-${key})`;
+      e.marker = e.marker0 = `url(#arr-${key})`;
       const p = el("path", { d, class: `edge edge--${e.type}`, "data-id": e.id, "marker-end": e.marker,
         style: `--c:${e.type === "direct" ? a.color : "#4A5560"}` }, gEdges);
       if (e.why) el("title", {}, p).textContent = `${plain(a)} → ${plain(b)}: ${e.why}`;
@@ -592,7 +593,7 @@
   }
 
   function clearSelection() {
-    state.selected = null; state.story = null; state.inst = null;
+    state.selected = null; state.story = null; state.inst = null; state.pkg = null;
     clearMarks();
     renderIntro();
     closePanel();
@@ -624,7 +625,7 @@
 
   /* ---- guided paths ---- */
   function loopStory(l) {
-    const steps = [{ edges: [], loopAll: true, title: "The loop", text: l.summary }];
+    const steps = [{ edges: [], loopAll: true, title: "The loop", text: l.summary, place: (typeof LOOP_PLACES !== "undefined" && LOOP_PLACES[l.id]) || "" }];
     l.edges.forEach(eid => {
       const e = edgeById[eid]; if (!e) return;
       steps.push({ edges: [[e.from, e.to]], title: `${plain(byId[e.from])} → ${plain(byId[e.to])}`, text: e.why || byId[e.to].desc });
@@ -677,6 +678,8 @@
       <p class="panel__step ${step.levers ? "is-break" : ""}" aria-live="polite"><span>${state.step + 1} / ${story.steps.length}</span> ${esc(step.title)}</p>
       <p class="panel__desc">${esc(step.text)}</p>
       ${step.loopAll && !step.levers && story.loop ? chainHTML(story.loop) : ""}
+      ${step.place ? `<p class="place"><span>Where to look</span>${esc(step.place)}</p>` : ""}
+      ${story.loop && isBroken(story.loop.id) ? `<p class="broken-note">✓ Broken by the levers you’ve switched on</p>` : ""}
       ${step.levers && story.loop.levers.length ? `<ul class="lever-list">${story.loop.levers.map(lid => leverItem(leverById[lid])).join("")}</ul>` : ""}
       <div class="panel__nav">
         <button class="btn btn--ghost" data-act="prev" ${state.step === 0 ? "disabled" : ""}>← Back</button>
@@ -692,10 +695,10 @@
   const whoChips = v => (v.who || []).map(w => instById[w] ? `<button class="who-chip" data-inst="${w}">${esc(instById[w].name)}</button>` : "").join("");
 
   function leverItem(v) {
-    return `<li><button class="lever-btn" data-lever="${v.id}">
+    return `<li><button class="lever-btn${state.on.has(v.id) ? " is-on" : ""}" data-lever="${v.id}">
       <span class="lever-icon" aria-hidden="true"></span>
       <span><strong>${esc(v.title)}</strong>
-      <small>Cuts ${esc(plain(byId[v.edge[0]]))} → ${esc(plain(byId[v.edge[1]]))}${v.loops.length > 1 ? ` · breaks ${v.loops.length} loops` : ""}</small></span>
+      <small>Cuts ${esc(plain(byId[v.edge[0]]))} → ${esc(plain(byId[v.edge[1]]))}${v.loops.length > 1 ? ` · breaks ${v.loops.length} loops` : ""}${state.on.has(v.id) ? " · <b>switched on</b>" : ""}</small></span>
     </button></li>`;
   }
 
@@ -739,6 +742,10 @@
       <p class="panel__kicker is-break"><span class="lever-icon lever-icon--sm" aria-hidden="true"></span>Where it breaks</p>
       <h2 class="panel__title">${esc(v.title)}</h2>
       <p class="panel__desc">${esc(v.text)}</p>
+      <button class="lever-switch${state.on.has(v.id) ? " is-on" : ""}" data-act="toggle-lever" data-id="${v.id}" aria-pressed="${state.on.has(v.id)}">
+        <span class="lever-switch__track" aria-hidden="true"></span>
+        <span>${state.on.has(v.id) ? "Switched on: breaking " + plural(v.loops.length, "loop") : "Switch on this lever"}</span>
+      </button>
       ${v.example ? `<p class="example">${esc(v.example)}</p>` : ""}
       <h3 class="panel__h">Who can pull this lever</h3>
       <div class="who-chips">${whoChips(v)}</div>
@@ -756,6 +763,13 @@
       <h2 class="panel__title">${esc(inst.name)}</h2>
       <p class="panel__desc">${esc(inst.desc)}</p>
       <p class="inst-score"><strong>${inst.levers.length}</strong> lever${inst.levers.length === 1 ? "" : "s"} that can help break <strong>${inst.loops.size}</strong> of ${LOOPS.length} vicious cycles.</p>
+      ${playbookHTML(id)}
+      <div class="inst-actions">
+        <button class="btn btn--full" data-act="inst-levers" data-id="${id}">Switch on all their levers</button>
+        <button class="btn btn--ghost" data-act="brief" data-id="${id}">Open a printable brief</button>
+        <button class="btn btn--ghost" data-act="brief-copy" data-id="${id}">Copy the brief</button>
+      </div>
+      <p class="cite-status" data-brief-status role="status" aria-live="polite"></p>
       <h3 class="panel__h panel__h--break">Their levers</h3>
       <ul class="lever-list">${inst.levers.map(lid => leverItem(leverById[lid])).join("")}</ul>
       <h3 class="panel__h">Loops they can help break</h3>
@@ -771,6 +785,9 @@
       <p class="panel__kicker">Start anywhere</p>
       <h2 class="panel__title">Pull a thread</h2>
       <p class="panel__desc">${mobile ? "Drag and pinch the map, then tap" : "Drag the map, zoom in, and click"} any dot to see what it sets in motion and what drives it. Or walk through one of the <strong>${LOOPS.length} vicious cycles</strong> and see where each one breaks:</p>
+      <h3 class="panel__h panel__h--break">Break the loops</h3>
+      <p class="panel__note">Switch on a policy package and watch which loops break, and who has to act.</p>
+      <div class="pkg-list">${PACKAGES.map(p => `<button class="pkg-btn" data-pkg="${p.id}"><strong>${esc(p.title)}</strong><small>${esc(p.text)}</small></button>`).join("")}<button class="pkg-btn pkg-btn--all" data-pkg="all"><strong>Everything at once</strong><small>All ${LEVERS.length} levers</small></button></div>
       ${groups}
       <h3 class="panel__h">Across systems</h3>
       <ul class="loop-list">${Object.entries(STORIES).map(([k, s]) => `<li><button class="loop-btn loop-btn--story" data-story="${k}"><span class="loop-btn__name">${esc(s.title)}</span><span class="ev">${s.steps.length} steps</span></button></li>`).join("")}</ul>`;
@@ -829,17 +846,26 @@
     if (t.dataset.story) return run(() => startStory(t.dataset.story));
     if (t.dataset.lever) return run(() => selectLever(t.dataset.lever));
     if (t.dataset.inst) return run(() => selectInstitution(t.dataset.inst));
+    if (t.dataset.pkg) return run(() => applyPackage(t.dataset.pkg));
+    if (t.dataset.hour !== undefined) return run(() => showHour(+t.dataset.hour, t.dataset.mode));
     const act = t.dataset.act;
+    if (act === "toggle-lever") { toggleLever(t.dataset.id); return; }
+    if (act === "untoggle") { toggleLever(t.dataset.id, false); return; }
+    if (act === "reset-levers") { state.on.clear(); state.pkg = null; applyBreakState(); clearSelection(); fitAll(); return; }
+    if (act === "inst-levers") { applyLevers(instById[t.dataset.id].levers, instById[t.dataset.id].name); return; }
+    if (act === "brief") { openBrief(t.dataset.id); return; }
+    if (act === "brief-copy") { copyBrief(t.dataset.id, t); return; }
+    if (act === "swap-path") { const a = document.getElementById("path-from"), b = document.getElementById("path-to"); [a.value, b.value] = [b.value, a.value]; return; }
     if (act === "clear" || act === "done" || act === "close") { clearSelection(); fitAll(); }
     else if (act === "ripple") showRipple(t.dataset.id);
     else if (act === "next") { state.step++; renderStep(); }
     else if (act === "prev") { state.step--; renderStep(); }
   }
   document.addEventListener("click", ev => {
-    if (ev.target.closest("#panel, #guide, #loops, #web-list, #who-holds")) handleAction(ev);
+    if (ev.target.closest("#panel, #guide, #loops, #web-list, #who-holds, #breakbar, #day, #path-form")) handleAction(ev);
   });
   document.addEventListener("keydown", ev => {
-    if (ev.key === "Escape" && (state.selected || state.story || state.inst)) { clearSelection(); fitAll(); }
+    if (ev.key === "Escape" && (state.selected || state.story || state.inst || state.pkg)) { clearSelection(); fitAll(); }
   });
 
   document.getElementById("filters").addEventListener("click", ev => {
@@ -850,6 +876,11 @@
   });
   document.getElementById("toggle-all").addEventListener("change", ev => svg.classList.toggle("show-all", ev.target.checked));
   document.getElementById("toggle-levers").addEventListener("change", ev => svg.classList.toggle("show-levers", ev.target.checked));
+  const pathForm = document.getElementById("path-form");
+  if (pathForm) pathForm.addEventListener("submit", ev => {
+    ev.preventDefault();
+    tracePath(document.getElementById("path-from").value, document.getElementById("path-to").value);
+  });
   document.getElementById("who").addEventListener("change", ev => { if (ev.target.value) selectInstitution(ev.target.value); else { clearSelection(); fitAll(); } });
 
   document.querySelectorAll("[data-random]").forEach(b => b.addEventListener("click", () => {
@@ -868,12 +899,265 @@
     }, 150);
   });
 
+  /* ======================= BREAK THE LOOPS ======================= */
+  const isBroken = lid => loopById[lid] && loopById[lid].levers.some(v => state.on.has(v));
+  const brokenLoops = () => LOOPS.filter(l => isBroken(l.id));
+
+  // paint the whole map to show which levers are on and which loops are broken
+  function applyBreakState() {
+    const broken = new Set(brokenLoops().map(l => l.id));
+    LEVERS.forEach(v => v.g && v.g.classList.toggle("is-on", state.on.has(v.id)));
+    edges.forEach(e => {
+      if (!e.path) return;
+      const cut = e.levers.some(v => state.on.has(v));
+      const healed = e.loops.length > 0 && e.loops.every(l => broken.has(l));
+      e.path.classList.toggle("is-cut", cut);
+      e.path.classList.toggle("is-healed", healed && !cut);
+      e.marker = healed || cut ? "url(#arr-healed)" : e.marker0;
+      if (!e.path.classList.contains("in-loop")) e.path.setAttribute("marker-end", e.marker);
+    });
+    nodes.forEach(n => n.g && n.loops.length && n.g.classList.toggle("loops-broken", n.loops.every(l => broken.has(l))));
+    svg.classList.toggle("break-mode", state.on.size > 0);
+    document.querySelectorAll("[data-break-count]").forEach(x => { x.textContent = broken.size; });
+    document.querySelectorAll("[data-lever-count]").forEach(x => { x.textContent = state.on.size; });
+    const meter = document.getElementById("break-meter");
+    if (meter) meter.style.width = (broken.size / LOOPS.length * 100).toFixed(1) + "%";
+    const reset = document.getElementById("break-reset");
+    if (reset) reset.hidden = state.on.size === 0;
+    document.querySelectorAll("[data-pkg]").forEach(b => {
+      const ids = b.dataset.pkg === "all" ? LEVERS.map(v => v.id) : (pkgById[b.dataset.pkg] || { levers: [] }).levers;
+      b.setAttribute("aria-pressed", state.pkg === b.dataset.pkg && ids.every(v => state.on.has(v)) ? "true" : "false");
+    });
+    document.querySelectorAll(".lrow[data-loop]").forEach(r => r.classList.toggle("is-broken", broken.has(r.dataset.loop)));
+  }
+
+  function toggleLever(id, force) {
+    const on = force === undefined ? !state.on.has(id) : force;
+    if (on) state.on.add(id); else state.on.delete(id);
+    state.pkg = null;
+    applyBreakState();
+    if (state.selected === "lever:" + id) renderLever(id);
+    else if (state.selected === "break") renderBreakSummary(state.breakTitle, state.breakText);
+  }
+
+  function applyLevers(ids, title, text) {
+    state.on = new Set(ids);
+    applyBreakState();
+    showBreak(title, text);
+  }
+
+  function applyPackage(pid) {
+    const ids = pid === "all" ? LEVERS.map(v => v.id) : (pkgById[pid] || {}).levers;
+    if (!ids) return;
+    const p = pkgById[pid];
+    applyLevers(ids, p ? p.title : "Everything at once", p ? p.text : "Every lever on the map, switched on together.");
+    state.pkg = pid;
+    applyBreakState();
+    setHash("package-" + pid);
+  }
+
+  function showBreak(title, text) {
+    state.story = null; state.inst = null; state.selected = "break";
+    state.breakTitle = title; state.breakText = text;
+    const loops = brokenLoops(), ns = new Set(), es = new Set();
+    loops.forEach(l => l.edges.forEach(eid => { es.add(eid); const e = edgeById[eid]; ns.add(e.from); ns.add(e.to); }));
+    state.on.forEach(v => { const e = edgeById[leverById[v].edgeId]; if (e) { es.add(e.id); ns.add(e.from); ns.add(e.to); } });
+    mark({ nodes: ns, edges: es, levers: [...state.on] });
+    renderBreakSummary(title, text);
+    beforeFocus();
+    if (ns.size) flyTo([...ns], { maxK: 1.1 }); else fitAll();
+  }
+
+  function renderBreakSummary(title, text) {
+    const broken = brokenLoops(), running = LOOPS.filter(l => !isBroken(l.id));
+    const who = new Map();
+    state.on.forEach(v => (leverById[v].who || []).forEach(w => who.set(w, (who.get(w) || 0) + 1)));
+    const whoSorted = [...who.entries()].sort((a, b) => b[1] - a[1]);
+    panelBody.innerHTML = `
+      <p class="panel__kicker is-break">Break the loops</p>
+      <h2 class="panel__title">${esc(title || "Your levers")}</h2>
+      ${text ? `<p class="panel__desc">${esc(text)}</p>` : ""}
+      <div class="break-score">
+        <p><strong>${broken.length}</strong> of ${LOOPS.length} vicious cycles broken</p>
+        <div class="break-score__bar"><span style="width:${(broken.length / LOOPS.length * 100).toFixed(1)}%"></span></div>
+        <small>${plural(state.on.size, "lever")} switched on</small>
+      </div>
+      ${whoSorted.length ? `<h3 class="panel__h panel__h--break">Who has to act</h3>
+        <p class="panel__note">No single institution can deliver this. It needs <strong>${whoSorted.length} of ${INSTITUTIONS.length}</strong> institutions acting together.</p>
+        <div class="who-chips">${whoSorted.map(([w, n]) => `<button class="who-chip" data-inst="${w}">${esc(instById[w].name)} <b>${n}</b></button>`).join("")}</div>` : ""}
+      ${broken.length ? `<h3 class="panel__h panel__h--break">Broken</h3><ul class="loop-list loop-list--broken">${broken.map(loopItem).join("")}</ul>` : ""}
+      ${running.length ? `<h3 class="panel__h">Still running</h3><ul class="loop-list">${running.map(loopItem).join("")}</ul>` : `<p class="broken-note">Every loop on the map is broken. The real web is larger, but this is what coordinated action looks like.</p>`}
+      ${state.on.size ? `<h3 class="panel__h">Levers switched on</h3><ul class="on-list">${[...state.on].map(v => `<li><button class="link" data-lever="${v}">${esc(leverById[v].title)}</button><button class="on-list__x" data-act="untoggle" data-id="${v}" aria-label="Switch off ${esc(leverById[v].title)}">×</button></li>`).join("")}</ul>` : ""}
+      <button class="link" data-act="reset-levers">Switch everything off</button>`;
+  }
+
+  /* ======================= HOW DOES X LEAD TO Y? ======================= */
+  function findPath(from, to) {
+    const prev = new Map([[from, null]]), queue = [from];
+    while (queue.length) {
+      const cur = queue.shift();
+      if (cur === to) break;
+      // follow consequence-to-consequence links only, so paths don't shortcut through "extreme heat" or a system hub
+      byId[cur].out.forEach(e => { if (byId[e.to].kind === "leaf" && !prev.has(e.to)) { prev.set(e.to, e); queue.push(e.to); } });
+    }
+    if (!prev.has(to)) return null;
+    const path = [];
+    for (let e = prev.get(to); e; e = prev.get(e.from)) path.unshift(e);
+    return path;
+  }
+
+  function tracePath(from, to) {
+    if (!byId[from] || !byId[to] || from === to) return;
+    const path = findPath(from, to);
+    state.story = null; state.inst = null; state.selected = "path";
+    const a = byId[from], b = byId[to];
+    if (!path) {
+      mark({ nodes: [from, to] });
+      panelBody.innerHTML = `<p class="panel__kicker">How does one thing lead to another?</p>
+        <h2 class="panel__title">No path on this map</h2>
+        <p class="panel__desc">Nothing on the map leads from <strong>${esc(plain(a))}</strong> to <strong>${esc(plain(b))}</strong>. Try it the other way round, or tell us the link that’s missing.</p>
+        <button class="link" data-act="clear">← Back to the whole web</button>`;
+    } else {
+      const ns = new Set([from]), es = new Set();
+      path.forEach(e => { ns.add(e.to); es.add(e.id); });
+      mark({ nodes: ns, edges: es, flow: es });
+      byId[to].g.classList.add("current"); byId[from].g.classList.add("current");
+      declutter();
+      const systems = new Set([...ns].filter(id => byId[id].kind === "leaf").map(id => byId[id].sys));
+      panelBody.innerHTML = `<p class="panel__kicker">How does one thing lead to another?</p>
+        <h2 class="panel__title">${esc(plain(a))} → ${esc(plain(b))}</h2>
+        <p class="panel__desc">The shortest chain on the map: <strong>${plural(path.length, "step")}</strong> across <strong>${plural(systems.size, "system")}</strong>.</p>
+        <ol class="path-steps">${path.map(e => `<li><button class="link" data-go="${e.to}">${esc(plain(byId[e.to]))}</button>${e.why ? `<p>${esc(e.why)}</p>` : `<p>${esc(plain(byId[e.from]))} affects ${esc(plain(byId[e.to]).toLowerCase())}.</p>`}</li>`).join("")}</ol>
+        <button class="link" data-act="clear">← Back to the whole web</button>`;
+    }
+    beforeFocus();
+    flyTo(path ? [from, ...path.map(e => e.to)] : [from, to], { maxK: 1.2 });
+  }
+
+  /* ======================= PLAYBOOKS AND BRIEFS ======================= */
+  const STAGES = [["sense", "Sense"], ["decide", "Decide"], ["act", "Act"], ["sustain", "Sustain"]];
+  function playbookHTML(id) {
+    const pb = typeof PLAYBOOKS !== "undefined" && PLAYBOOKS[id]; if (!pb) return "";
+    return `<h3 class="panel__h">Their protection chain</h3>
+      <ol class="chain4">${STAGES.map(([k, label], i) => `<li><span class="chain4__n">${i + 1}</span><div><strong>${label}</strong><p>${esc(pb[k])}</p></div></li>`).join("")}</ol>`;
+  }
+
+  function partnersOf(id) {
+    const m = new Map();
+    instById[id].levers.forEach(v => (leverById[v].who || []).forEach(w => { if (w !== id) m.set(w, (m.get(w) || 0) + 1); }));
+    return [...m.entries()].sort((a, b) => b[1] - a[1]).map(([w, n]) => ({ inst: instById[w], n }));
+  }
+
+  function briefData(id) {
+    const inst = instById[id], pb = (typeof PLAYBOOKS !== "undefined" && PLAYBOOKS[id]) || {};
+    return { inst, pb, levers: inst.levers.map(v => leverById[v]), loops: [...inst.loops].map(l => loopById[l]), partners: partnersOf(id),
+      url: location.origin + location.pathname + "#who-" + id };
+  }
+
+  function briefText(id) {
+    const d = briefData(id);
+    const L = [];
+    L.push(`BREAKING THE LOOPS OF EXTREME HEAT`, `A brief for: ${d.inst.name}`, `From the BeatTheHeat.Asia systems map: ${d.url}`, "");
+    L.push(`Extreme heat is a global health emergency and an urgent and growing threat. On this map, ${d.inst.name.toLowerCase()} hold ${plural(d.levers.length, "lever")} that can help break ${d.loops.length} of the ${LOOPS.length} vicious cycles that make heat worse.`, "");
+    L.push("YOUR PROTECTION CHAIN");
+    STAGES.forEach(([k, label]) => d.pb[k] && L.push(`${label}: ${d.pb[k]}`));
+    L.push("", "YOUR LEVERS");
+    d.levers.forEach(v => { L.push(`- ${v.title}: ${v.text} (Cuts ${plain(byId[v.edge[0]])} → ${plain(byId[v.edge[1]])}; breaks ${v.loops.map(l => loopById[l].name).join(", ") || "no mapped loop"}.)`); if (v.example) L.push(`  Example: ${v.example}`); });
+    L.push("", "LOOPS YOU CAN HELP BREAK");
+    d.loops.forEach(l => L.push(`- ${l.name} (${evidenceLabel(l.evidence)}): ${l.summary}`));
+    if (d.partners.length) { L.push("", "WHO TO WORK WITH", `These institutions share your levers: ${d.partners.map(p => p.inst.name).join(", ")}.`); }
+    L.push("", "This map is large, but the real web is larger. Loops marked “Evidence emerging” have evidence for each link; the full cycle has been studied less.");
+    return L.join("\n");
+  }
+
+  function openBrief(id) {
+    const d = briefData(id);
+    const css = `body{font-family:Inter,Segoe UI,Arial,sans-serif;color:#16202B;max-width:760px;margin:40px auto;padding:0 24px;line-height:1.55}
+      h1{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;font-size:40px;line-height:1;margin:6px 0 4px}
+      .k{color:#D7263D;font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:12px}.sub{color:#5E6570}
+      h2{font-size:13px;letter-spacing:.12em;text-transform:uppercase;border-top:2px solid #16202B;padding-top:10px;margin-top:28px}
+      .chain{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.chain div{border-top:4px solid #1F7A70;padding-top:8px}
+      .chain b{display:block;color:#1F7A70}li{margin:8px 0}.ex{color:#5E6570;font-size:14px}.ev{font-size:12px;color:#5E6570}
+      .bar{height:8px;background:#E3EEEC;border-radius:4px;margin:8px 0}.bar span{display:block;height:100%;background:#1F7A70;border-radius:4px}
+      .print{position:fixed;top:16px;right:16px;padding:10px 18px;border-radius:999px;border:0;background:#F26430;font-weight:700;cursor:pointer}
+      @media print{.print{display:none}body{margin:0}} @media(max-width:600px){.chain{grid-template-columns:1fr 1fr}}`;
+    const h = s => esc(s);
+    const html = `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Heat brief: ${h(d.inst.name)}</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;700&display=swap"><style>${css}</style></head><body>
+      <button class="print" onclick="window.print()">Print or save as PDF</button>
+      <p class="k">A global health emergency</p><h1>Breaking the loops of extreme heat</h1>
+      <p class="sub">A brief for <strong>${h(d.inst.name)}</strong> · from the BeatTheHeat.Asia systems map · <a href="${h(d.url)}">${h(d.url)}</a></p>
+      <p>Extreme heat is an urgent and growing threat. On this map, ${h(d.inst.name.toLowerCase())} hold <strong>${plural(d.levers.length, "lever")}</strong> that can help break <strong>${d.loops.length} of the ${LOOPS.length}</strong> vicious cycles that make heat worse.</p>
+      <div class="bar"><span style="width:${(d.loops.length / LOOPS.length * 100).toFixed(1)}%"></span></div>
+      <h2>Your protection chain</h2><div class="chain">${STAGES.map(([k, l]) => `<div><b>${l}</b>${h(d.pb[k] || "")}</div>`).join("")}</div>
+      <h2>Your levers</h2><ul>${d.levers.map(v => `<li><strong>${h(v.title)}.</strong> ${h(v.text)}<br><span class="ex">Cuts ${h(plain(byId[v.edge[0]]))} → ${h(plain(byId[v.edge[1]]))}. Breaks: ${h(v.loops.map(l => loopById[l].name).join(", ") || "no mapped loop")}.${v.example ? " Example: " + h(v.example) : ""}</span></li>`).join("")}</ul>
+      <h2>Loops you can help break</h2><ul>${d.loops.map(l => `<li><strong>${h(l.name)}</strong> <span class="ev">(${evidenceLabel(l.evidence)})</span><br>${h(l.summary)}</li>`).join("")}</ul>
+      ${d.partners.length ? `<h2>Who to work with</h2><p>These institutions share your levers: ${d.partners.map(p => h(p.inst.name)).join(", ")}. No single institution can break these loops alone.</p>` : ""}
+      <p class="ev" style="margin-top:32px">This map is large, but the real web is larger. Loops marked “Evidence emerging” have evidence for each link; the full cycle has been studied less.</p>
+      </body></html>`;
+    const url = URL.createObjectURL(new Blob([html], { type: "text/html" }));
+    const w = window.open(url, "_blank");
+    if (!w) { const a = document.createElement("a"); a.href = url; a.download = `heat-brief-${id}.html`; document.body.appendChild(a); a.click(); a.remove(); }
+    setTimeout(() => URL.revokeObjectURL(url), 60000);
+  }
+
+  async function copyBrief(id, btn) {
+    const status = panelBody.querySelector("[data-brief-status]");
+    let ok = false;
+    try { await navigator.clipboard.writeText(briefText(id)); ok = true; } catch (e) { ok = false; }
+    if (status) status.textContent = ok ? "Brief copied. Paste it into an email or document." : "Couldn’t copy. Use “Open a printable brief” instead.";
+  }
+
+  /* ======================= A DAY IN A HEATWAVE ======================= */
+  function showHour(i, mode) {
+    const h = HEATWAVE_DAY[i]; if (!h) return;
+    if (mode === "fix") { applyLevers(h.levers, `${h.time} · ${h.title}`, `What would have helped: ${h.who.toLowerCase()}.`); return; }
+    state.story = null; state.inst = null; state.selected = "hour";
+    const ns = new Set(), loopEdges = new Set();
+    h.loops.forEach(lid => loopById[lid].edges.forEach(eid => { loopEdges.add(eid); const e = edgeById[eid]; ns.add(e.from); ns.add(e.to); }));
+    mark({ nodes: ns, loopEdges, flow: loopEdges, levers: h.levers });
+    panelBody.innerHTML = `<p class="panel__kicker is-loop">A day in a heatwave · ${esc(h.time)}</p>
+      <h2 class="panel__title">${esc(h.title)}</h2>
+      <p class="illustrative">${esc(h.who)} · illustrative</p>
+      <p class="panel__desc">${esc(h.text)}</p>
+      <h3 class="panel__h">Loops in play</h3><ul class="loop-list">${h.loops.map(l => loopItem(loopById[l])).join("")}</ul>
+      <h3 class="panel__h panel__h--break">What would help</h3><ul class="lever-list">${h.levers.map(v => leverItem(leverById[v])).join("")}</ul>
+      <button class="btn btn--full" data-hour="${i}" data-mode="fix">Switch these levers on</button>
+      <button class="link" data-act="clear">← Back to the whole web</button>`;
+    beforeFocus();
+    flyTo([...ns], { maxK: 1.2 });
+  }
+
   /* ======================= PAGE SECTIONS ======================= */
   function renderControls() {
     document.getElementById("filters").innerHTML = `<button class="chip" data-filter="all" aria-pressed="true">Whole web</button>` +
       SYSTEMS.map(s => `<button class="chip" data-filter="${s.id}" aria-pressed="false" style="--c:${s.color}"><span class="dot"></span>${esc(plain(s))}</button>`).join("");
     document.getElementById("who").innerHTML = `<option value="">Who holds the levers?</option>` +
       INSTITUTIONS.map(i => `<option value="${i.id}">${esc(i.name)}</option>`).join("");
+
+    const pk = document.getElementById("pkg-chips");
+    if (pk) pk.innerHTML = PACKAGES.map(p => `<button class="pkg-chip" data-pkg="${p.id}" aria-pressed="false">${esc(p.title)}</button>`).join("") +
+      `<button class="pkg-chip pkg-chip--all" data-pkg="all" aria-pressed="false">Everything</button>`;
+
+    const opts = SYSTEMS.map(s => `<optgroup label="${esc(plain(s))}">${nodes.filter(n => n.sys === s.id && n.kind === "leaf").map(n => `<option value="${n.id}">${esc(plain(n))}</option>`).join("")}</optgroup>`).join("");
+    const from = document.getElementById("path-from"), to = document.getElementById("path-to");
+    if (from && to) {
+      from.innerHTML = opts; to.innerHTML = opts;
+      from.value = "drysoil"; to.value = "dropout";
+    }
+
+    const day = document.getElementById("day-list");
+    if (day) day.innerHTML = HEATWAVE_DAY.map((h, i) => `
+      <li class="hour">
+        <p class="hour__time">${esc(h.time)}</p>
+        <h3 class="hour__title">${esc(h.title)}</h3>
+        <p class="illustrative">${esc(h.who)}</p>
+        <p class="hour__text">${esc(h.text)}</p>
+        <p class="hour__loops">${h.loops.map(l => `<button class="loop-chip" data-story="${l}">↺ ${esc(loopById[l].name.replace(/^The /, ""))}</button>`).join("")}</p>
+        <div class="hour__actions">
+          <button class="btn btn--ghost btn--sm" data-hour="${i}">See it on the map</button>
+          <button class="btn btn--sm btn--teal" data-hour="${i}" data-mode="fix">What would help?</button>
+        </div>
+      </li>`).join("");
   }
 
   function renderLoopsSection() {
@@ -882,13 +1166,15 @@
       return `<div class="lgroup">
         <h3 class="lgroup__h">${esc(g.name)} <span>${ls.length}</span></h3>
         ${ls.map(l => `
-          <article class="lrow">
+          <article class="lrow" data-loop="${l.id}">
             <div class="lrow__head">
               <h4><button class="lrow__name" data-story="${l.id}">${esc(l.name)}</button></h4>
               <span class="ev ev--${l.evidence}">${evidenceLabel(l.evidence)}</span>
+              <span class="ev ev--broken">✓ Broken</span>
             </div>
             <p class="lrow__sum">${esc(l.summary)}</p>
             ${chainHTML(l)}
+            ${typeof LOOP_PLACES !== "undefined" && LOOP_PLACES[l.id] ? `<p class="place"><span>Where to look</span>${esc(LOOP_PLACES[l.id])}</p>` : ""}
             ${l.levers.length ? `<p class="lrow__breaks"><span>Break it:</span> ${l.levers.map(lid => `<button class="lever-chip" data-lever="${lid}">${esc(leverById[lid].title)}</button>`).join("")}</p>` : ""}
           </article>`).join("")}
       </div>`;
@@ -951,6 +1237,7 @@
     renderInstitutions();
     renderList();
     renderStats();
+    applyBreakState();
     fitAll(true, true);
     svg.classList.add("is-ready");
     const hash = decodeURIComponent(location.hash.slice(1));
@@ -958,6 +1245,7 @@
     else if (hash.startsWith("loop-") && loopById[hash.slice(5)]) startStory(hash.slice(5));
     else if (hash.startsWith("break-") && leverById[hash.slice(6)]) selectLever(hash.slice(6));
     else if (hash.startsWith("who-") && instById[hash.slice(4)]) selectInstitution(hash.slice(4));
+    else if (hash.startsWith("package-") && (pkgById[hash.slice(8)] || hash.slice(8) === "all")) applyPackage(hash.slice(8));
   }
 
   const fontsReady = document.fonts && document.fonts.load

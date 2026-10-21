@@ -66,6 +66,7 @@
     <nav class="header-nav" aria-label="Sections">
       <a href="#explore">The web</a>
       <a href="#loops">Where loops break</a>
+      <a href="#day">A day in a heatwave</a>
       <a href="#who-holds">Who holds the levers</a>
     </nav>
   </header>
@@ -108,6 +109,26 @@
             <label class="key key--switch key--break"><input type="checkbox" id="toggle-levers"><span class="switch" aria-hidden="true"></span>Show where loops break</label>
             <label class="key key--switch key--cross"><input type="checkbox" id="toggle-all"><span class="switch" aria-hidden="true"></span>Show all <span data-stat="cross">60</span> cross-system links</label>
           </div>
+
+          <div class="breakbar" id="breakbar">
+            <div class="breakbar__head">
+              <span class="breakbar__label"><span class="lever-icon lever-icon--sm" aria-hidden="true"></span>Break the loops</span>
+              <span class="breakbar__count"><b data-break-count>0</b> of <span data-stat="loops">17</span> vicious cycles broken</span>
+              <span class="breakbar__meter" aria-hidden="true"><span id="break-meter"></span></span>
+              <button id="break-reset" class="link" data-act="reset-levers" hidden>Switch everything off</button>
+            </div>
+            <div class="pkg-chips" id="pkg-chips" role="group" aria-label="Policy packages"></div>
+            <p class="breakbar__hint">Choose a package, or click any teal marker on the map and switch it on.</p>
+          </div>
+
+          <form class="pathfinder" id="path-form">
+            <label for="path-from">How does</label>
+            <select id="path-from"></select>
+            <button type="button" class="pathfinder__swap" data-act="swap-path" aria-label="Swap">⇄</button>
+            <label for="path-to">lead to</label>
+            <select id="path-to"></select>
+            <button class="btn btn--sm" type="submit">Show the path</button>
+          </form>
 
           <div class="legend" aria-label="How to read the map">
             <span class="key"><span class="key__line key__line--direct"></span>Direct impact</span>
@@ -172,6 +193,17 @@
             </a>
           </aside>
         </div>
+      </div>
+    </section>
+
+
+    <!-- ============ A DAY IN A HEATWAVE ============ -->
+    <section class="day" id="day" aria-labelledby="day-title">
+      <div class="container">
+        <p class="eyebrow">A day in a heatwave</p>
+        <h2 id="day-title" class="h2">One day.<br>Every loop turning.</h2>
+        <p class="loops__intro">How the loops collide over a single day across Asia. The people here are illustrative composites, not real individuals; the loops they are caught in are on the map.</p>
+        <ol class="day-list" id="day-list"></ol>
       </div>
     </section>
 
