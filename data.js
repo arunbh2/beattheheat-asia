@@ -849,7 +849,7 @@ const ORGANISATIONS = [
     does: "Researching heat, health and gender in India’s and Bangladesh’s garment sector, 2025–2027.", levers: ["heatrules"] },
 
   { id: "practicalaction", role: "global", name: "Practical Action", url: "https://practicalaction.org/news-stories/zurich-climate-resilience-alliance-to-expand-focus-on-destructive-extreme-heat/",
-    does: "A partner in the Zurich Climate Resilience Alliance, which widened its work from floods to extreme heat in 2024. In Nepal, the Alliance helped Madhesh Province and five municipalities commit 5% of sectoral budgets to adaptation and disaster risk reduction.", levers: ["heatbudget", "hap"] },
+    does: "Connects heat risk intelligence, local action, practical technology, institutions and finance, following a Sense → Decide → Act → Sustain logic. In Nepal, Dhangadhi’s heat action plan links temperature, humidity and health data, hotspot mapping and community views to thresholds and set municipal responses. In Bangladesh, heat is being built into early warning and livelihood work. A partner in the Zurich Climate Resilience Alliance.", levers: ["hap", "heatbudget", "coolbydesign", "greencity"] },
   { id: "pci", role: "global", name: "People’s Courage International", url: "https://www.weforum.org/organizations/peoples-courage-international/",
     does: "Works on safe migration and labour protection for migrant workers in South and Southeast Asia. Its Migrants Resilience Collaborative supports more than seven million households.", levers: ["socialprotection"] },
   { id: "worldbank", role: "global", name: "World Bank", url: "https://www.worldbank.org/en/region/sar/publication/a-livable-future-protecting-jobs-and-growth-from-extreme-heat-in-south-asia-s-cities",
