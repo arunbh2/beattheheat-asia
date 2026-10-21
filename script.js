@@ -194,8 +194,11 @@
     SYSTEMS.forEach(s => {
       const a0 = s.a0, a1 = s.a1, mid = (a0 + a1) / 2;
       const p = (r, a) => `${(Math.cos(a) * r).toFixed(1)},${(Math.sin(a) * r).toFixed(1)}`;
-      el("path", { class: "slice", "data-sys": s.id, style: `--c:${s.color}`,
-        d: `M${p(r0, a0)} L${p(r1, a0)} A${r1},${r1} 0 ${a1 - a0 > Math.PI ? 1 : 0} 1 ${p(r1, a1)} L${p(r0, a1)} A${r0},${r0} 0 ${a1 - a0 > Math.PI ? 1 : 0} 0 ${p(r0, a0)} Z` }, gBg);
+      const sliceD = `M${p(r0, a0)} L${p(r1, a0)} A${r1},${r1} 0 ${a1 - a0 > Math.PI ? 1 : 0} 1 ${p(r1, a1)} L${p(r0, a1)} A${r0},${r0} 0 ${a1 - a0 > Math.PI ? 1 : 0} 0 ${p(r0, a0)} Z`;
+      el("path", { class: "slice", "data-sys": s.id, style: `--c:${s.color}`, d: sliceD }, gBg);
+      // earned cooling: each slice starts warm and cools only as its own loops are broken
+      s.warm = el("path", { class: "wash wash--warm", d: sliceD }, gBg);
+      s.cool = el("path", { class: "wash wash--cool", d: sliceD }, gBg);
       const lx = Math.cos(mid) * (r1 + 34), ly = Math.sin(mid) * (r1 + 34);
       const anchor = Math.cos(mid) > 0.25 ? "start" : Math.cos(mid) < -0.25 ? "end" : "middle";
       const lines = s.label.split("\n");
@@ -900,6 +903,20 @@
   });
 
   /* ======================= BREAK THE LOOPS ======================= */
+  // which vicious cycles run through each system
+  SYSTEMS.forEach(s => { s.loopIds = LOOPS.filter(l => l.path.some(id => byId[id] && byId[id].sys === s.id)).map(l => l.id); });
+
+  // earned cooling: warmth fades in proportion to the loops actually broken, never on its own
+  function applyCooling(broken) {
+    const overall = broken.size / LOOPS.length;
+    SYSTEMS.forEach(s => {
+      const share = s.loopIds.length ? s.loopIds.filter(l => broken.has(l)).length / s.loopIds.length : overall;
+      if (s.warm) s.warm.style.setProperty("--heat", (1 - share).toFixed(3));
+      if (s.cool) s.cool.style.setProperty("--cool", share.toFixed(3));
+    });
+    stage.style.setProperty("--cool", overall.toFixed(3));
+  }
+
   const isBroken = lid => loopById[lid] && loopById[lid].levers.some(v => state.on.has(v));
   const brokenLoops = () => LOOPS.filter(l => isBroken(l.id));
 
@@ -918,6 +935,7 @@
     });
     nodes.forEach(n => n.g && n.loops.length && n.g.classList.toggle("loops-broken", n.loops.every(l => broken.has(l))));
     svg.classList.toggle("break-mode", state.on.size > 0);
+    applyCooling(broken);
     document.querySelectorAll("[data-break-count]").forEach(x => { x.textContent = broken.size; });
     document.querySelectorAll("[data-lever-count]").forEach(x => { x.textContent = state.on.size; });
     const meter = document.getElementById("break-meter");
