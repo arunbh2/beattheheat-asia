@@ -1316,11 +1316,27 @@
         <p class="org__does">${gloss(o.does)}</p>
         <p class="org__levers">${o.levers.map(v => leverById[v] ? `<button class="lever-chip" data-lever="${v}">${esc(leverById[v].title)}</button>` : "").join("")}</p>
       </li>`).join("");
+    // show a dozen at a time so the list never overwhelms
+    const FIRST = 12;
+    let role = "all", expanded = false;
+    const more = document.createElement("button");
+    more.type = "button"; more.className = "btn btn--ghost btn--sm org-more";
+    list.after(more);
+    function showOrgs() {
+      const match = [...list.querySelectorAll(".org")].filter(li => role === "all" || li.dataset.role === role);
+      list.querySelectorAll(".org").forEach(li => { li.hidden = true; });
+      match.forEach((li, i) => { li.hidden = !expanded && i >= FIRST; });
+      more.hidden = match.length <= FIRST;
+      more.textContent = expanded ? "Show fewer" : `Show all ${match.length} organisations`;
+      more.setAttribute("aria-expanded", expanded ? "true" : "false");
+    }
+    more.addEventListener("click", () => { expanded = !expanded; showOrgs(); if (!expanded) roles.scrollIntoView({ block: "nearest" }); });
     roles.addEventListener("click", ev => {
       const b = ev.target.closest("[data-role]"); if (!b) return;
       roles.querySelectorAll("[data-role]").forEach(x => x.setAttribute("aria-pressed", x === b ? "true" : "false"));
-      list.querySelectorAll(".org").forEach(li => { li.hidden = b.dataset.role !== "all" && li.dataset.role !== b.dataset.role; });
+      role = b.dataset.role; expanded = false; showOrgs();
     });
+    showOrgs();
     const ranked = LOOPS.map(l => ({ l, n: orgsForLoop(l).length })).sort((a, b) => a.n - b.n);
     const max = Math.max(...ranked.map(x => x.n), 1);
     gaps.innerHTML = ranked.map(({ l, n }) => `
