@@ -906,6 +906,7 @@
       document.getElementById("network").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" });
       return;
     }
+    if (act === "film") { openFilm(t); return; }
     if (act === "tour") { goToMap(() => tourStep(0)); return; }
     if (act === "tour-next") { tourStep(state.tour + 1); return; }
     if (act === "tour-prev") { tourStep(state.tour - 1); return; }
@@ -1347,6 +1348,39 @@
       else if (act === "clear") { plan = { place: "", group: "", levers: [], rows: {}, example: null }; savePlan(); renderPlan(); }
     });
   })();
+
+  /* ======================= THE FILM ======================= */
+  // Opens on request only: it has sound, so it never autoplays and never loads until asked for.
+  const film = document.getElementById("film"), filmVideo = document.getElementById("film-video"), filmEnd = document.getElementById("film-end");
+  let filmOpener = null;
+  function openFilm(opener) {
+    if (!film || !filmVideo) return;
+    filmOpener = opener || document.activeElement;
+    filmEnd.hidden = true;
+    if (typeof film.showModal === "function") film.showModal(); else film.setAttribute("open", "");
+    document.body.classList.add("film-open");
+    const play = filmVideo.play(); if (play && play.catch) play.catch(() => {});
+  }
+  function closeFilm() {
+    if (!film) return;
+    filmVideo.pause();
+    if (film.open && typeof film.close === "function") film.close(); else film.removeAttribute("open");
+  }
+  if (film) {
+    film.addEventListener("close", () => { filmVideo.pause(); document.body.classList.remove("film-open"); if (filmOpener && filmOpener.focus) filmOpener.focus(); });
+    // a click on the dark backdrop (outside the inner box) closes it
+    film.addEventListener("click", ev => {
+      if (ev.target === film) { closeFilm(); return; }
+      const b = ev.target.closest("[data-film]"); if (!b) return;
+      const what = b.dataset.film;
+      if (what === "close") closeFilm();
+      else if (what === "replay") { filmEnd.hidden = true; filmVideo.currentTime = 0; filmVideo.play(); }
+      else if (what === "tour") { filmOpener = null; closeFilm(); goToMap(() => tourStep(0)); }
+      else if (what === "explore") { filmOpener = null; closeFilm(); document.getElementById("explore").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" }); }
+    });
+    filmVideo.addEventListener("ended", () => { filmEnd.hidden = false; const first = filmEnd.querySelector("button"); if (first) first.focus(); });
+    filmVideo.addEventListener("play", () => { filmEnd.hidden = true; });
+  }
 
   /* ======================= THE 60-SECOND TOUR ======================= */
   const TOUR = [

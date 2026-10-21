@@ -31,6 +31,7 @@ It is a plain website. There is nothing to install and nothing to "build". GitHu
 | `index.html` | The page around the map: the title, the section headings, "Why wicked?" | Only to change those words |
 | `script.js` | The code that draws the map and makes it interactive | No |
 | `styles.css` | Colours, fonts and layout | No |
+| `media/` | The film (MP4), its captions (`.en.vtt`) and its poster image, shown from the “Watch the film” button | Only to replace the film: upload new files with the same names |
 | `images/SOCIAL_SHARE_IMAGE.jpg` | The preview picture shown when the link is shared | Only if you want a new preview |
 | `CNAME` | Connects the site to the address beattheheat.asia | **No. Never delete this file.** |
 
