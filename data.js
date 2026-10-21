@@ -642,7 +642,7 @@ const HEATWAVE_DAY = [
     loops: ["poverty"], levers: ["heatrules", "heatcash"] },
   { time: "12:00", title: "School closes",
     who: "A girl in rural Bangladesh",
-    text: "Her school shuts for the heat. She spends the afternoon fetching water and looking after her younger brothers instead.",
+    text: "Her school shuts for the heat again. At home she fetches water and looks after her younger brothers, and after weeks like this her family starts to wonder whether she should go back at all.",
     loops: ["school"], levers: ["keepinschool"] },
   { time: "15:00", title: "The grid gives way",
     who: "A city at its peak",

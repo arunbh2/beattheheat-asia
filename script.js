@@ -598,6 +598,7 @@
   function clearSelection() {
     state.selected = null; state.story = null; state.inst = null; state.pkg = null;
     clearMarks();
+    applyBreakState();
     renderIntro();
     closePanel();
     document.getElementById("who").value = "";
@@ -955,7 +956,7 @@
     state.pkg = null;
     applyBreakState();
     if (state.selected === "lever:" + id) renderLever(id);
-    else if (state.selected === "break") renderBreakSummary(state.breakTitle, state.breakText);
+    else if (state.selected === "break") showBreak(state.breakTitle, state.breakText, true);
   }
 
   function applyLevers(ids, title, text) {
@@ -974,7 +975,7 @@
     setHash("package-" + pid);
   }
 
-  function showBreak(title, text) {
+  function showBreak(title, text, stay) {
     state.story = null; state.inst = null; state.selected = "break";
     state.breakTitle = title; state.breakText = text;
     const loops = brokenLoops(), ns = new Set(), es = new Set();
@@ -982,6 +983,7 @@
     state.on.forEach(v => { const e = edgeById[leverById[v].edgeId]; if (e) { es.add(e.id); ns.add(e.from); ns.add(e.to); } });
     mark({ nodes: ns, edges: es, levers: [...state.on] });
     renderBreakSummary(title, text);
+    if (stay) return;
     beforeFocus();
     if (ns.size) flyTo([...ns], { maxK: 1.1 }); else fitAll();
   }
@@ -1025,7 +1027,8 @@
   }
 
   function tracePath(from, to) {
-    if (!byId[from] || !byId[to] || from === to) return;
+    if (!byId[from] || !byId[to]) return;
+    if (from === to) { select(from); return; }
     const path = findPath(from, to);
     state.story = null; state.inst = null; state.selected = "path";
     const a = byId[from], b = byId[to];
@@ -1198,7 +1201,7 @@
       </div>`;
     }).join("");
 
-    const ranked = nodes.filter(n => n.loops.length > 1).sort((a, b) => b.loops.length - a.loops.length).slice(0, 6);
+    const ranked = nodes.filter(n => n.kind !== "domain" && n.loops.length > 1).sort((a, b) => b.loops.length - a.loops.length).slice(0, 6);
     document.getElementById("pressure-points").innerHTML = ranked.map(n => `<li><button class="pp" data-go="${n.id}"><span class="pp__n">${n.loops.length}</span><span class="pp__name">${esc(plain(n))}</span><span class="pp__meta">loops run through it</span></button></li>`).join("");
     const multi = LEVERS.filter(v => v.loops.length > 1).sort((a, b) => b.loops.length - a.loops.length);
     document.getElementById("multi-levers").innerHTML = multi.map(v => `<li><button class="pp pp--lever" data-lever="${v.id}"><span class="pp__n">${v.loops.length}</span><span class="pp__name">${esc(v.title)}</span><span class="pp__meta">loops broken at once</span></button></li>`).join("");
