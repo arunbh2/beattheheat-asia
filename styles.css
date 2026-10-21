@@ -843,3 +843,18 @@ button { font: inherit; color: inherit; }
 .gloss-group dd { margin: 2px 0 0; color: var(--grey-700); font-size: .94rem; }
 .wicked .term { text-decoration-color: var(--amber); }
 .wicked .term:hover, .wicked .term[aria-expanded="true"] { background: rgba(245,166,35,.2); }
+
+/* ---------- how this map works ---------- */
+.method { padding: clamp(56px, 8vw, 112px) 0; background: var(--white); border-top: 1px solid var(--line); }
+.method .eyebrow { margin-bottom: 20px; }
+.method__grid { display: grid; gap: 22px 32px; margin-top: clamp(24px, 3vw, 40px); }
+@media (min-width: 760px) { .method__grid { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 1100px) { .method__grid { grid-template-columns: repeat(3, 1fr); } }
+.method__grid > div { padding-top: 12px; border-top: 3px solid var(--ink); }
+.method__grid h3 { font-size: 1.02rem; margin-bottom: 6px; }
+.method__grid p { color: var(--grey-700); font-size: .94rem; }
+.method__grid a { color: var(--ink); font-weight: 700; }
+.network__note { margin-top: 10px; font-size: .9rem; color: var(--grey-500); }
+.evid__how { margin-top: 8px; font-size: .82rem; }
+.evid__how a { color: #17605A; font-weight: 700; }
+.breakbar__hint a { color: #17605A; font-weight: 700; }

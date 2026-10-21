@@ -1123,7 +1123,7 @@ const GLOSSARY = [
   { id: "blackcarbon", group: "cooling", term: "Black carbon", match: "black carbon",
     text: "Soot from diesel, wood, coal and brick kilns. It warms the air, and when it settles on snow and ice it darkens them so they melt faster." },
   { id: "viciouscycle", group: "cooling", term: "Vicious cycle", match: "vicious cycle", auto: false,
-    text: "A harm that feeds itself: each turn of the loop makes the next one worse. This map shows where those loops can be broken." },
+    text: "A harm that feeds itself: each turn of the loop makes the next one worse. This map shows where those loops could be interrupted." },
   { id: "maladaptation", group: "cooling", term: "Maladaptation", match: "maladaptation",
     text: "A response to heat that makes things worse elsewhere or later, such as air conditioners that cool a room but heat the street." },
   { id: "aquifer", group: "extra", term: "Aquifer", match: "aquifer",

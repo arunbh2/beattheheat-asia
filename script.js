@@ -116,7 +116,8 @@
   function evidenceHTML(l, open) {
     const ev = evidenceOf(l.id); if (!ev.length) return "";
     return `<details class="evid"${open ? " open" : ""}><summary>See the evidence <span>${plural(ev.length, "source")}</span></summary>
-      <ul>${ev.map(x => `<li>${extLink(x.url, x.title)}<small>${esc(x.by)}</small><p>${gloss(x.finding)}</p></li>`).join("")}</ul></details>`;
+      <ul>${ev.map(x => `<li>${extLink(x.url, x.title)}<small>${esc(x.by)}</small><p>${gloss(x.finding)}</p></li>`).join("")}</ul>
+      <p class="evid__how"><a href="#method">How we judge evidence</a></p></details>`;
   }
 
   /* ======================= LAYOUT ======================= */
@@ -716,7 +717,7 @@
       ${step.loopAll && !step.levers && story.loop ? chainHTML(story.loop) : ""}
       ${step.place ? `<p class="place"><span>Where to look</span>${esc(step.place)}</p>` : ""}
       ${story.loop && state.step === 0 ? evidenceHTML(story.loop, false) : ""}
-      ${story.loop && isBroken(story.loop.id) ? `<p class="broken-note">✓ Broken by the levers you’ve switched on</p>` : ""}
+      ${story.loop && isBroken(story.loop.id) ? `<p class="broken-note">✓ The actions you’ve switched on could help interrupt this cycle</p>` : ""}
       ${step.levers && story.loop.levers.length ? `<ul class="lever-list">${story.loop.levers.map(lid => leverItem(leverById[lid])).join("")}</ul>` : ""}
       <div class="panel__nav">
         <button class="btn btn--ghost" data-act="prev" ${state.step === 0 ? "disabled" : ""}>← Back</button>
@@ -735,7 +736,7 @@
     return `<li><button class="lever-btn${state.on.has(v.id) ? " is-on" : ""}" data-lever="${v.id}">
       <span class="lever-icon" aria-hidden="true"></span>
       <span><strong>${esc(v.title)}</strong>
-      <small>Cuts ${esc(plain(byId[v.edge[0]]))} → ${esc(plain(byId[v.edge[1]]))}${v.loops.length > 1 ? ` · breaks ${v.loops.length} loops` : ""}${state.on.has(v.id) ? " · <b>switched on</b>" : ""}</small>${whenTag(v)}</span>
+      <small>Cuts ${esc(plain(byId[v.edge[0]]))} → ${esc(plain(byId[v.edge[1]]))}${v.loops.length > 1 ? ` · acts on ${v.loops.length} loops` : ""}${state.on.has(v.id) ? " · <b>switched on</b>" : ""}</small>${whenTag(v)}</span>
     </button></li>`;
   }
 
@@ -782,7 +783,7 @@
       <p class="panel__desc">${gloss(v.text)}</p>
       <button class="lever-switch${state.on.has(v.id) ? " is-on" : ""}" data-act="toggle-lever" data-id="${v.id}" aria-pressed="${state.on.has(v.id)}">
         <span class="lever-switch__track" aria-hidden="true"></span>
-        <span>${state.on.has(v.id) ? "Switched on: breaking " + plural(v.loops.length, "loop") : "Switch on this lever"}</span>
+        <span>${state.on.has(v.id) ? "Switched on: acting on " + plural(v.loops.length, "loop") : "Switch on this lever"}</span>
       </button>
       ${v.example ? `<p class="example">${gloss(v.example)}</p>` : ""}
       <h3 class="panel__h">Who can pull this lever</h3>
@@ -791,9 +792,10 @@
       ${orgsForLever(v.id).length ? `<ul class="org-mini">${orgsForLever(v.id).slice(0, 5).map(o => `<li>${extLink(o.url, o.name)}<p>${gloss(o.does)}</p></li>`).join("")}</ul>
         ${orgsForLever(v.id).length > 5 ? `<button class="link" data-act="orgs-lever" data-id="${v.id}">See all ${orgsForLever(v.id).length} in the heat network →</button>` : ""}`
         : `<p class="panel__note">No organisation on our list is working on this lever yet. Know one? ${tellUs}</p>`}
+      <p class="panel__note">How well does this kind of action work, and at what cost? See ${extLink("https://wmo.int/node/39067", "What Works Against Heat")}.</p>
       <h3 class="panel__h">Cuts the link</h3>
       <p class="cut"><button class="link" data-go="${a.id}">${esc(plain(a))}</button> <span aria-hidden="true">→</span> <button class="link" data-go="${b.id}">${esc(plain(b))}</button></p>
-      <h3 class="panel__h">Breaks ${plural(v.loops.length, "vicious cycle")}</h3>
+      <h3 class="panel__h">Could help interrupt ${plural(v.loops.length, "vicious cycle")}</h3>
       <ul class="loop-list">${v.loops.map(lid => loopItem(loopById[lid])).join("")}</ul>
       <button class="link" data-act="clear">← Back to the whole web</button>`;
   }
@@ -1048,15 +1050,15 @@
       <h2 class="panel__title">${esc(title || "Your levers")}</h2>
       ${text ? `<p class="panel__desc">${esc(text)}</p>` : ""}
       <div class="break-score">
-        <p><strong>${broken.length}</strong> of ${LOOPS.length} vicious cycles broken</p>
+        <p><strong>${broken.length}</strong> of ${LOOPS.length} vicious cycles these actions could help interrupt</p>
         <div class="break-score__bar"><span style="width:${(broken.length / LOOPS.length * 100).toFixed(1)}%"></span></div>
-        <small>${plural(state.on.size, "lever")} switched on</small>
+        <small>${plural(state.on.size, "lever")} switched on · illustrative: real effect depends on reach, quality and duration</small>
       </div>
       ${whoSorted.length ? `<h3 class="panel__h panel__h--break">Who has to act</h3>
         <p class="panel__note">No single institution can deliver this. It needs <strong>${whoSorted.length} of ${INSTITUTIONS.length}</strong> institutions acting together.</p>
         <div class="who-chips">${whoSorted.map(([w, n]) => `<button class="who-chip" data-inst="${w}">${esc(instById[w].name)} <b>${n}</b></button>`).join("")}</div>` : ""}
-      ${broken.length ? `<h3 class="panel__h panel__h--break">Broken</h3><ul class="loop-list loop-list--broken">${broken.map(loopItem).join("")}</ul>` : ""}
-      ${running.length ? `<h3 class="panel__h">Still running</h3><ul class="loop-list">${running.map(loopItem).join("")}</ul>` : `<p class="broken-note">Every loop on the map is broken. The real web is larger, but this is what coordinated action looks like.</p>`}
+      ${broken.length ? `<h3 class="panel__h panel__h--break">Could help interrupt</h3><ul class="loop-list loop-list--broken">${broken.map(loopItem).join("")}</ul>` : ""}
+      ${running.length ? `<h3 class="panel__h">Not yet addressed</h3><ul class="loop-list">${running.map(loopItem).join("")}</ul>` : `<p class="broken-note">Every cycle on the map now has at least one action against it. This is illustrative: real effect depends on how many people an action reaches, how well it is delivered and how long it lasts.</p>`}
       ${state.on.size ? `<h3 class="panel__h">Levers switched on</h3><ul class="on-list">${[...state.on].map(v => `<li><button class="link" data-lever="${v}">${esc(leverById[v].title)}</button><button class="on-list__x" data-act="untoggle" data-id="${v}" aria-label="Switch off ${esc(leverById[v].title)}">×</button></li>`).join("")}</ul>` : ""}
       <button class="link" data-act="reset-levers">Switch everything off</button>`;
   }
@@ -1133,8 +1135,8 @@
     L.push("YOUR PROTECTION CHAIN");
     STAGES.forEach(([k, label]) => d.pb[k] && L.push(`${label}: ${d.pb[k]}`));
     L.push("", "YOUR LEVERS");
-    d.levers.forEach(v => { L.push(`- ${v.title} [${WHEN[v.when] || ""}]: ${v.text} (Cuts ${plain(byId[v.edge[0]])} → ${plain(byId[v.edge[1]])}; breaks ${v.loops.map(l => loopById[l].name).join(", ") || "no mapped loop"}.)`); if (v.example) L.push(`  Example: ${v.example}`); });
-    L.push("", "LOOPS YOU CAN HELP BREAK");
+    d.levers.forEach(v => { L.push(`- ${v.title} [${WHEN[v.when] || ""}]: ${v.text} (Cuts ${plain(byId[v.edge[0]])} → ${plain(byId[v.edge[1]])}; could help interrupt ${v.loops.map(l => loopById[l].name).join(", ") || "no mapped loop"}.)`); if (v.example) L.push(`  Example: ${v.example}`); });
+    L.push("", "LOOPS YOU CAN HELP INTERRUPT");
     d.loops.forEach(l => { L.push(`- ${l.name} (${evidenceLabel(l.evidence)}): ${l.summary}`); evidenceOf(l.id).forEach(x => L.push(`  Evidence: ${x.by}, “${x.title}”: ${x.finding} ${x.url}`)); });
     if (d.partners.length) { L.push("", "WHO TO WORK WITH", `These institutions share your levers: ${d.partners.map(p => p.inst.name).join(", ")}.`); }
     L.push("", "This map is large, but the real web is larger. Loops marked “Evidence emerging” have evidence for each link; the full cycle has been studied less.");
@@ -1160,7 +1162,7 @@
       <p>Extreme heat is an urgent and growing threat. On this map, ${h(d.inst.name.toLowerCase())} hold <strong>${plural(d.levers.length, "lever")}</strong> that can help break <strong>${d.loops.length} of the ${LOOPS.length}</strong> vicious cycles that make heat worse.</p>
       <div class="bar"><span style="width:${(d.loops.length / LOOPS.length * 100).toFixed(1)}%"></span></div>
       <h2>Your protection chain</h2><div class="chain">${STAGES.map(([k, l]) => `<div><b>${l}</b>${h(d.pb[k] || "")}</div>`).join("")}</div>
-      <h2>Your levers</h2><ul>${d.levers.map(v => `<li><strong>${h(v.title)}.</strong> <span class="when">${h(WHEN[v.when] || "")}</span> ${h(v.text)}<br><span class="ex">Cuts ${h(plain(byId[v.edge[0]]))} → ${h(plain(byId[v.edge[1]]))}. Breaks: ${h(v.loops.map(l => loopById[l].name).join(", ") || "no mapped loop")}.${v.example ? " Example: " + h(v.example) : ""}</span></li>`).join("")}</ul>
+      <h2>Your levers</h2><ul>${d.levers.map(v => `<li><strong>${h(v.title)}.</strong> <span class="when">${h(WHEN[v.when] || "")}</span> ${h(v.text)}<br><span class="ex">Cuts ${h(plain(byId[v.edge[0]]))} → ${h(plain(byId[v.edge[1]]))}. Could help interrupt: ${h(v.loops.map(l => loopById[l].name).join(", ") || "no mapped loop")}.${v.example ? " Example: " + h(v.example) : ""}</span></li>`).join("")}</ul>
       <h2>Loops you can help break</h2><ul>${d.loops.map(l => `<li><strong>${h(l.name)}</strong> <span class="ev">(${evidenceLabel(l.evidence)})</span><br>${h(l.summary)}${evidenceOf(l.id).map(x => `<br><span class="ex">Evidence: <a href="${h(x.url)}">${h(x.title)}</a> (${h(x.by)}). ${h(x.finding)}</span>`).join("")}</li>`).join("")}</ul>
       ${d.partners.length ? `<h2>Who to work with</h2><p>These institutions share your levers: ${d.partners.map(p => h(p.inst.name)).join(", ")}. No single institution can break these loops alone.</p>` : ""}
       <p class="ev" style="margin-top:32px">This map is large, but the real web is larger. Loops marked “Evidence emerging” have evidence for each link; the full cycle has been studied less.</p>
@@ -1236,7 +1238,7 @@
       ${h.fact ? `<p class="fact">${gloss(h.fact)}${h.source ? ` <span class="fact__src">Source: ${extLink(h.source.url, h.source.label)}</span>` : ""}</p>` : ""}
       <h3 class="panel__h">Loops in play</h3><ul class="loop-list">${h.loops.map(l => loopItem(loopById[l])).join("")}</ul>
       <h3 class="panel__h panel__h--break">What would help</h3><ul class="lever-list">${h.levers.map(v => leverItem(leverById[v])).join("")}</ul>
-      ${extra.length ? `<p class="panel__note">These levers also break ${andList(extra.map(l => `<button class="link" data-story="${l.id}">${esc(l.name.replace(/^The /, "the "))}</button>`))}.</p>` : ""}
+      ${extra.length ? `<p class="panel__note">These levers also act on ${andList(extra.map(l => `<button class="link" data-story="${l.id}">${esc(l.name.replace(/^The /, "the "))}</button>`))}.</p>` : ""}
       <button class="btn btn--full" data-hour="${i}" data-mode="fix">Switch these levers on</button>
       <button class="link" data-act="clear">← Back to the whole web</button>`;
     beforeFocus();
@@ -1288,7 +1290,7 @@
             <div class="lrow__head">
               <h4><button class="lrow__name" data-story="${l.id}">${esc(l.name)}</button></h4>
               <span class="ev ev--${l.evidence}">${evidenceLabel(l.evidence)}</span>
-              <span class="ev ev--broken">✓ Broken</span>
+              <span class="ev ev--broken">✓ Action switched on</span>
             </div>
             <p class="lrow__sum">${gloss(l.summary)}</p>
             ${chainHTML(l)}
@@ -1302,7 +1304,7 @@
     const ranked = nodes.filter(n => n.kind !== "domain" && n.loops.length > 1).sort((a, b) => b.loops.length - a.loops.length).slice(0, 6);
     document.getElementById("pressure-points").innerHTML = ranked.map(n => `<li><button class="pp" data-go="${n.id}"><span class="pp__n">${n.loops.length}</span><span class="pp__name">${esc(plain(n))}</span><span class="pp__meta">loops run through it</span></button></li>`).join("");
     const multi = LEVERS.filter(v => v.loops.length > 1).sort((a, b) => b.loops.length - a.loops.length);
-    document.getElementById("multi-levers").innerHTML = multi.map(v => `<li><button class="pp pp--lever" data-lever="${v.id}"><span class="pp__n">${v.loops.length}</span><span class="pp__name">${esc(v.title)}</span><span class="pp__meta">loops broken at once</span></button></li>`).join("");
+    document.getElementById("multi-levers").innerHTML = multi.map(v => `<li><button class="pp pp--lever" data-lever="${v.id}"><span class="pp__n">${v.loops.length}</span><span class="pp__name">${esc(v.title)}</span><span class="pp__meta">loops it acts on</span></button></li>`).join("");
   }
 
   function renderInstitutions() {
