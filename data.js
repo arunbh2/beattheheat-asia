@@ -449,68 +449,69 @@ const INSTITUTIONS = [
 /* ---------- 6. BREAKING POINTS ---------- */
 // edge: the link it cuts [from, to]. who: the institutions that can pull this lever.
 // A lever breaks every vicious cycle that runs through its link.
+// measure: a suggested way to track progress (editorial, shown as a hint in "Plan a response").
 // when: how soon it can start working. "season" = this season, "years" = 1–3 years, "decade" = a decade or more.
 const LEVERS = [
-  { id: "emissions", edge: ["heat", "nature"], title: "Deep emission cuts", who: ["nat", "intl", "funders"], when: "decade",
+  { id: "emissions", edge: ["heat", "nature"], title: "Deep emission cuts", who: ["nat", "intl", "funders"], when: "decade", measure: "Emissions cut against the national target",
     text: "Every fraction of a degree avoided weakens every loop that runs through land, ice and forests at once." },
-  { id: "cleancool", edge: ["demand", "emissions"], title: "Clean, efficient cooling", who: ["nat", "utilities", "intl"], when: "years",
+  { id: "cleancool", edge: ["demand", "emissions"], title: "Clean, efficient cooling", who: ["nat", "utilities", "intl"], when: "years", measure: "Share of new air conditioners meeting efficiency standards",
     text: "Efficient appliances, clean power and low-warming refrigerants break the link between keeping cool and heating the planet.",
     example: "The Kigali Amendment to the Montreal Protocol (2016) commits countries to phase down the most climate-warming refrigerants." },
-  { id: "soilwater", edge: ["drysoil", "heat"], title: "Keep water in the soil", who: ["agri", "community", "funders"], when: "years",
+  { id: "soilwater", edge: ["drysoil", "heat"], title: "Keep water in the soil", who: ["agri", "community", "funders"], when: "years", measure: "Hectares under soil-moisture practices",
     text: "Mulching, agroforestry, water harvesting and restoring degraded land help soils hold moisture and stay cooler." },
-  { id: "blackcarbon", edge: ["glacier", "heat"], title: "Cut black carbon", who: ["nat", "city"], when: "years",
+  { id: "blackcarbon", edge: ["glacier", "heat"], title: "Cut black carbon", who: ["nat", "city"], when: "years", measure: "Brick kilns and engines switched to cleaner technology",
     text: "Cleaner stoves, engines and brick kilns and an end to open burning cut black carbon, the soot that darkens snow and ice." },
-  { id: "firesmart", edge: ["wildfires", "heat"], title: "Fire-smart landscapes", who: ["nat", "community"], when: "years",
+  { id: "firesmart", edge: ["wildfires", "heat"], title: "Fire-smart landscapes", who: ["nat", "community"], when: "years", measure: "Area burned each fire season",
     text: "Early detection, community fire crews and land management that reduces fuel keep fires small and forests standing." },
 
-  { id: "coolbydesign", edge: ["demand", "uhi"], title: "Cool by design", who: ["city", "nat"], when: "decade",
+  { id: "coolbydesign", edge: ["demand", "uhi"], title: "Cool by design", who: ["city", "nat"], when: "decade", measure: "New buildings meeting cooling standards",
     text: "Shading, ventilation, reflective roofs and efficient cooling cut the need for air conditioning, and the waste heat it dumps outside." },
-  { id: "greencity", edge: ["uhi", "demand"], title: "Green, cool cities", who: ["city", "community"], when: "years",
+  { id: "greencity", edge: ["uhi", "demand"], title: "Green, cool cities", who: ["city", "community"], when: "years", measure: "Tree canopy and shaded street length in hotspot wards",
     text: "Trees, water, cool roofs and cool pavements lower city temperatures and flatten peak demand.",
     example: "Indian cities and states such as Ahmedabad and Telangana have run programmes that paint roofs to reflect sunlight." },
-  { id: "drypower", edge: ["scarcity", "thermal"], title: "Power that doesn’t need water", who: ["utilities", "nat"], when: "decade",
+  { id: "drypower", edge: ["scarcity", "thermal"], title: "Power that doesn’t need water", who: ["utilities", "nat"], when: "decade", measure: "Power capacity added that needs little or no water",
     text: "Solar and wind use very little water, and dry cooling protects thermal plants when rivers run low or warm." },
-  { id: "pumpbackup", edge: ["power", "scarcity"], title: "Backup power for water", who: ["water", "utilities"], when: "years",
+  { id: "pumpbackup", edge: ["power", "scarcity"], title: "Backup power for water", who: ["water", "utilities"], when: "years", measure: "Water pumping stations with backup power",
     text: "Solar pumps and backup supply keep water flowing when the grid fails." },
-  { id: "irrigate", edge: ["irrigation", "groundwater"], title: "Smart irrigation and groundwater rules", who: ["agri", "water"], when: "years",
+  { id: "irrigate", edge: ["irrigation", "groundwater"], title: "Smart irrigation and groundwater rules", who: ["agri", "water"], when: "years", measure: "Groundwater levels over time",
     text: "Drip irrigation, metering, aquifer recharge and fair pumping rules keep wells from running dry." },
-  { id: "farmcredit", edge: ["harvests", "farmdebt"], title: "Crop insurance and fair credit", who: ["insurers", "agri", "funders"], when: "years",
+  { id: "farmcredit", edge: ["harvests", "farmdebt"], title: "Crop insurance and fair credit", who: ["insurers", "agri", "funders"], when: "years", measure: "Farmers covered by crop insurance or fair credit",
     text: "Crop insurance that pays out after a heat-hit season, affordable credit and heat-tolerant seed stop one bad harvest becoming a debt trap." },
-  { id: "hap", edge: ["heatstroke", "hsys"], title: "Heat action plans", who: ["city", "health", "met"], when: "season",
+  { id: "hap", edge: ["heatstroke", "hsys"], title: "Heat action plans", who: ["city", "health", "met"], when: "season", measure: "Hours from heat alert to a coordinated response",
     text: "Early warnings, public cooling spaces and outreach to the people most at risk prevent illness before it reaches hospital.",
     example: "Ahmedabad launched South Asia’s first city heat action plan in 2013." },
-  { id: "readyclinics", edge: ["hsys", "heatstroke"], title: "Heat-ready health services", who: ["health", "funders"], when: "season",
+  { id: "readyclinics", edge: ["hsys", "heatstroke"], title: "Heat-ready health services", who: ["health", "funders"], when: "season", measure: "Health facilities with heat protocols, trained staff and cooling",
     text: "Cooling, backup power, surge plans and trained frontline workers keep clinics working through heatwaves." },
 
-  { id: "heatrules", edge: ["informal", "heatstroke"], title: "Heat-safe work", who: ["nat", "employers", "workers"], when: "season",
+  { id: "heatrules", edge: ["informal", "heatstroke"], title: "Heat-safe work", who: ["nat", "employers", "workers"], when: "season", measure: "Worksites inspected and keeping rest-break rules",
     text: "Rest, shade and water during dangerous heat, with paid breaks so that stopping work doesn’t mean losing pay.",
     example: "Several Gulf states ban outdoor work during the hottest midday hours in summer." },
-  { id: "heatcash", edge: ["heatstroke", "lost"], title: "Income protection in heatwaves", who: ["insurers", "nat", "workers"], when: "years",
+  { id: "heatcash", edge: ["heatstroke", "lost"], title: "Income protection in heatwaves", who: ["insurers", "nat", "workers"], when: "years", measure: "Workers covered, and days from trigger to payout",
     text: "Cash that pays out automatically when temperatures cross a danger threshold, so people can afford to stop. Triggers need careful design to limit basis risk: heat that hurts people without triggering a payout.",
     example: "Parametric heat insurance has been piloted with women informal workers in India." },
-  { id: "socialprotection", edge: ["lost", "informal"], title: "Social protection floors", who: ["nat", "funders"], when: "years",
+  { id: "socialprotection", edge: ["lost", "informal"], title: "Social protection floors", who: ["nat", "funders"], when: "years", measure: "Households reached by heat-season support",
     text: "Basic income security that keeps households above the line between one hot season and the next." },
-  { id: "freecare", edge: ["heatstroke", "debt"], title: "Free care for heat illness", who: ["health", "nat"], when: "season",
+  { id: "freecare", edge: ["heatstroke", "debt"], title: "Free care for heat illness", who: ["health", "nat"], when: "season", measure: "Heat illness cases treated free of charge",
     text: "Covering emergency treatment for heat illness stops one bad day from becoming years of debt." },
-  { id: "affordablecool", edge: ["energypoverty", "heatstroke"], title: "Affordable cooling for the poorest", who: ["utilities", "city", "nat"], when: "years",
+  { id: "affordablecool", edge: ["energypoverty", "heatstroke"], title: "Affordable cooling for the poorest", who: ["utilities", "city", "nat"], when: "years", measure: "Low-income homes with affordable cooling",
     text: "Lifeline electricity tariffs, efficient fans and cool roofs put safe cooling within reach of every household." },
-  { id: "coolhousing", edge: ["migration", "homes"], title: "Cool, affordable housing", who: ["city", "funders", "community"], when: "decade",
+  { id: "coolhousing", edge: ["migration", "homes"], title: "Cool, affordable housing", who: ["city", "funders", "community"], when: "decade", measure: "Homes fitted with cool roofs or insulation",
     text: "Upgrading informal settlements with ventilation, shade and cool roofs, and planning homes for people who arrive." },
-  { id: "keepinschool", edge: ["inequality", "dropout"], title: "Keep children in school", who: ["schools", "nat"], when: "season",
+  { id: "keepinschool", edge: ["inequality", "dropout"], title: "Keep children in school", who: ["schools", "nat"], when: "season", measure: "Attendance and drop-outs during the heat season",
     text: "Cash transfers, school meals and heat-ready classrooms and timetables keep children learning through hot seasons." },
-  { id: "coolnights", edge: ["sleepless", "mental"], title: "Cool nights and support", who: ["city", "health", "community"], when: "season",
+  { id: "coolnights", edge: ["sleepless", "mental"], title: "Cool nights and support", who: ["city", "health", "community"], when: "season", measure: "Night-time indoor temperatures in target homes",
     text: "Cooling centres open at night, shaded and ventilated homes, and mental-health support during the hot season." },
 
-  { id: "countdeaths", edge: ["deaths", "underreport"], title: "Count every heat death", who: ["health", "met", "nat"], when: "years",
+  { id: "countdeaths", edge: ["deaths", "underreport"], title: "Count every heat death", who: ["health", "met", "nat"], when: "years", measure: "Recorded heat deaths compared with excess deaths",
     text: "Real-time tracking of excess deaths during heatwaves, and death certificates that record heat, make the toll visible." },
-  { id: "coolingcentres", edge: ["underfund", "deaths"], title: "Cooling centres and check-ins", who: ["city", "community", "health"], when: "season",
+  { id: "coolingcentres", edge: ["underfund", "deaths"], title: "Cooling centres and check-ins", who: ["city", "community", "health"], when: "season", measure: "Cooling centre visits, and check-ins on people living alone",
     text: "Public cooling spaces, water points and check-ins on older people living alone save lives in every heatwave." },
-  { id: "heatbudget", edge: ["budgets", "underfund"], title: "Dedicated heat budgets", who: ["nat", "city", "funders"], when: "years",
+  { id: "heatbudget", edge: ["budgets", "underfund"], title: "Dedicated heat budgets", who: ["nat", "city", "funders"], when: "years", measure: "Heat budget set aside before the season starts",
     text: "Ring-fenced funding for heat action, set aside before the season, so protection doesn’t compete with the emergency." },
-  { id: "anticipatory", edge: ["underfund", "emergency"], title: "Anticipatory action", who: ["met", "funders", "nat"], when: "years",
+  { id: "anticipatory", edge: ["underfund", "emergency"], title: "Anticipatory action", who: ["met", "funders", "nat"], when: "years", measure: "Money released before the heatwave peaks",
     text: "Release money and act on the forecast, before the heatwave peaks, instead of paying for the emergency afterwards.",
     example: "Forecast-based financing, pioneered within the Red Cross Red Crescent Movement, releases funds before a disaster strikes." },
-  { id: "riskpools", edge: ["insurance", "budgets"], title: "Shared risk pools", who: ["insurers", "nat", "funders"], when: "years",
+  { id: "riskpools", edge: ["insurance", "budgets"], title: "Shared risk pools", who: ["insurers", "nat", "funders"], when: "years", measure: "Share of heat losses covered by pooled risk",
     text: "Public–private insurance and regional risk pools keep cover available and spread losses beyond any one budget.",
     example: "Regional risk pools such as the African Risk Capacity and the Caribbean’s CCRIF share disaster risk across countries." }
 ];
@@ -1130,4 +1131,37 @@ const GLOSSARY = [
     text: "Underground layers of rock or sand that hold groundwater, the water that wells and pumps draw from." },
   { id: "agroforestry", group: "extra", term: "Agroforestry", match: "agroforestry",
     text: "Growing trees alongside crops or livestock. The trees shade the soil, help it hold moisture and give farmers another source of income." }
+];
+
+/* ---------- 15. PLAN A RESPONSE ---------- */
+// Who the plan protects, and the actions suggested for each group (lever ids from part 6).
+const PLAN_GROUPS = [
+  { id: "workers",    name: "Outdoor and informal workers",       levers: ["hap", "heatrules", "heatcash", "socialprotection", "freecare", "coolingcentres"] },
+  { id: "women",      name: "Women in informal work",             levers: ["hap", "heatcash", "heatrules", "socialprotection", "coolhousing"] },
+  { id: "older",      name: "Older people living alone",          levers: ["hap", "coolingcentres", "readyclinics", "affordablecool", "countdeaths"] },
+  { id: "children",   name: "Children and schools",               levers: ["hap", "keepinschool", "coolbydesign"] },
+  { id: "settlements",name: "People in informal settlements",     levers: ["coolhousing", "affordablecool", "greencity", "coolingcentres", "coolnights"] },
+  { id: "farmers",    name: "Farmers and farm workers",           levers: ["farmcredit", "soilwater", "irrigate", "heatrules"] },
+  { id: "city",       name: "A whole city",                       levers: ["hap", "readyclinics", "greencity", "coolbydesign", "heatbudget", "anticipatory", "countdeaths"] }
+];
+// Who pays for each action. "Not decided yet" is always allowed: a plan can show where money is still missing.
+const PLAN_PAYERS = ["Not decided yet", "Public budget", "Employers", "Philanthropy", "Insurance or a risk pool", "Development finance", "Households and communities", "Not documented"];
+
+// Worked examples: real places, documented actions and results. Only use published sources.
+const WORKED_EXAMPLES = [
+  { id: "ahmedabad", place: "Ahmedabad, India", group: "city", year: "2013 onwards",
+    title: "Ahmedabad’s heat action plan",
+    trigger: "In May 2010 a heatwave peaking at 46.8 °C caused an estimated 1,344 excess deaths in the city, 43% more than in the same weeks of 2009 and 2011.",
+    decision: "In 2013 the Ahmedabad Municipal Corporation, with the Indian Institute of Public Health Gandhinagar and NRDC, launched South Asia’s first heat action plan: forecasts from the India Meteorological Department feed colour-coded alerts, departments act together, the public is warned, and health staff are trained. From 2017 the plan added cool roofs.",
+    result: "An evaluation estimated about 1,190 deaths a year were avoided after the plan began, compared with before it. The model has since spread to many other Indian cities and states.",
+    actions: [
+      { lever: "hap", lead: "city", payer: "Not documented", measure: "Colour-coded alerts issued from IMD forecasts, with inter-agency response" },
+      { lever: "readyclinics", lead: "health", payer: "Not documented", measure: "Health staff trained to recognise and treat heat illness" },
+      { lever: "coolhousing", lead: "city", payer: "Not documented", measure: "Cool roofs on homes in informal settlements and on public buildings" }
+    ],
+    sources: [
+      { label: "Azhar et al., PLoS ONE, 2014: the 2010 heatwave", url: "https://doi.org/10.1371/journal.pone.0091831" },
+      { label: "NRDC: the plan’s components and cool roofs", url: "https://www.nrdc.org/press-releases/ahmedabads-pioneering-plan-now-shielding-millions-killer-heat" },
+      { label: "Hess et al., 2018: deaths avoided", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6236972/" }
+    ] }
 ];

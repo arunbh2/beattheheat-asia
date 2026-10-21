@@ -1180,6 +1180,174 @@
     if (status) status.textContent = ok ? "Brief copied. Paste it into an email or document." : "Couldn’t copy. Use “Open a printable brief” instead.";
   }
 
+  /* ======================= PLAN A RESPONSE ======================= */
+  const PG = typeof PLAN_GROUPS !== "undefined" ? PLAN_GROUPS : [];
+  const PAYERS = typeof PLAN_PAYERS !== "undefined" ? PLAN_PAYERS : ["Not decided yet"];
+  const EXAMPLES = typeof WORKED_EXAMPLES !== "undefined" ? WORKED_EXAMPLES : [];
+  const PLAN_KEY = "bth-plan-v1";
+  let plan = { place: "", group: "", levers: [], rows: {}, example: null };
+  try { const saved = JSON.parse(localStorage.getItem(PLAN_KEY) || "null"); if (saved && Array.isArray(saved.levers)) plan = Object.assign(plan, saved); } catch (e) {}
+  const savePlan = () => { try { localStorage.setItem(PLAN_KEY, JSON.stringify(plan)); } catch (e) {} };
+  const planRow = id => plan.rows[id] || (plan.rows[id] = { lead: (leverById[id].who || [])[0] || "", payer: PAYERS[0], measure: "" });
+  const planLoops = () => LOOPS.filter(l => l.levers.some(v => plan.levers.includes(v)));
+  const suggested = () => ((PG.find(g => g.id === plan.group) || {}).levers || []);
+
+  function renderPlanActions() {
+    const box = document.getElementById("plan-actions"); if (!box) return;
+    const sugg = suggested();
+    box.innerHTML = Object.entries(WHEN).map(([w, label]) => {
+      const vs = LEVERS.filter(v => v.when === w).sort((a, b) => sugg.includes(b.id) - sugg.includes(a.id));
+      return `<div class="plan-actions__group"><p class="plan-actions__h">${esc(label)}</p>
+        ${vs.map(v => `<label class="plan-check${sugg.includes(v.id) ? " is-suggested" : ""}"><input type="checkbox" data-pl-lever="${v.id}"${plan.levers.includes(v.id) ? " checked" : ""}>
+          <span>${esc(v.title)}${sugg.includes(v.id) ? ' <em>Suggested</em>' : ""}</span></label>`).join("")}</div>`;
+    }).join("");
+  }
+
+  function renderPlanRows() {
+    const box = document.getElementById("plan-rows"); if (!box) return;
+    if (!plan.levers.length) { box.innerHTML = `<p class="plan-step__hint">Choose at least one action above.</p>`; return; }
+    box.innerHTML = plan.levers.map(id => {
+      const v = leverById[id], r = planRow(id);
+      const leads = [...new Set([...(v.who || []), ...INSTITUTIONS.map(i => i.id)])];
+      return `<div class="plan-row" data-pl-row="${id}">
+        <p class="plan-row__title">${esc(v.title)} ${whenTag(v)}</p>
+        <label>Who leads <select data-pl-field="lead">${leads.map(i => `<option value="${i}"${r.lead === i ? " selected" : ""}>${esc(instById[i].name)}${(v.who || []).includes(i) ? "" : " (not usual)"}</option>`).join("")}</select></label>
+        <label>Who pays <select data-pl-field="payer">${PAYERS.map(p => `<option${r.payer === p ? " selected" : ""}>${esc(p)}</option>`).join("")}</select></label>
+        <label class="plan-row__wide">How you will know it is working <input type="text" data-pl-field="measure" value="${esc(r.measure)}" placeholder="e.g. ${esc(v.measure || "")}"></label>
+      </div>`;
+    }).join("");
+  }
+
+  function renderPlanSummary() {
+    const box = document.getElementById("plan-summary"); if (!box) return;
+    const loops = planLoops(), rows = plan.levers.map(id => planRow(id));
+    const leads = new Set(rows.map(r => r.lead).filter(Boolean));
+    const payers = {}; rows.forEach(r => { payers[r.payer] = (payers[r.payer] || 0) + 1; });
+    const unpaid = payers["Not decided yet"] || 0;
+    const timing = Object.keys(WHEN).map(w => [WHEN[w], plan.levers.filter(id => leverById[id].when === w).length]).filter(x => x[1]);
+    const group = PG.find(g => g.id === plan.group);
+    box.innerHTML = `<p class="plan-summary__k">Your plan</p>
+      <h3>${esc(plan.place || "Your place")}${group ? ` · ${esc(group.name.toLowerCase())}` : ""}</h3>
+      <div class="plan-summary__stats">
+        <p><strong>${plan.levers.length}</strong> action${plan.levers.length === 1 ? "" : "s"}</p>
+        <p><strong>${loops.length}</strong> of ${LOOPS.length} cycles they could help interrupt</p>
+        <p><strong>${leads.size}</strong> institution${leads.size === 1 ? "" : "s"} leading</p>
+      </div>
+      ${timing.length ? `<p class="plan-summary__line"><b>When it works:</b> ${timing.map(([l, n]) => `${esc(l)} (${n})`).join(", ")}</p>` : ""}
+      ${rows.length ? `<p class="plan-summary__line"><b>Who pays:</b> ${Object.entries(payers).map(([p, n]) => `${esc(p)} (${n})`).join(", ")}</p>` : ""}
+      ${unpaid ? `<p class="plan-summary__gap">${plural(unpaid, "action")} with nobody paying yet. That is the conversation to have next.</p>` : ""}
+      ${loops.length ? `<p class="plan-summary__line"><b>Cycles in play:</b> ${loops.map(l => esc(l.name.replace(/^The /, ""))).join(", ")}</p>` : ""}
+      <p class="plan-summary__note">Illustrative: real effect depends on reach, quality and how long each action lasts.</p>
+      <div class="plan-summary__actions">
+        <button type="button" class="btn btn--sm" data-pl-act="map"${plan.levers.length ? "" : " disabled"}>Show on the map</button>
+        <button type="button" class="btn btn--sm btn--ghost" data-pl-act="print"${plan.levers.length ? "" : " disabled"}>Open a printable plan</button>
+        <button type="button" class="btn btn--sm btn--ghost" data-pl-act="copy"${plan.levers.length ? "" : " disabled"}>Copy as text</button>
+        <button type="button" class="link" data-pl-act="clear">Start again</button>
+      </div>
+      <p class="plan-summary__status" data-pl-status role="status"></p>`;
+  }
+
+  function renderPlanStory() {
+    const box = document.getElementById("plan-story"); if (!box) return;
+    const ex = EXAMPLES.find(x => x.id === plan.example);
+    box.hidden = !ex;
+    if (!ex) { box.innerHTML = ""; return; }
+    box.innerHTML = `<p class="plan-story__k">Worked example · ${esc(ex.place)} · ${esc(ex.year)}</p>
+      <h3>${esc(ex.title)}</h3>
+      <ol class="plan-story__steps">
+        <li><b>What happened</b>${gloss(ex.trigger)}</li>
+        <li><b>What they decided</b>${gloss(ex.decision)}</li>
+        <li><b>What changed</b>${gloss(ex.result)}</li>
+      </ol>
+      <p class="plan-story__src">Sources: ${ex.sources.map(x => extLink(x.url, x.label)).join(" · ")}</p>
+      <p class="plan-story__note">The plan below is filled in with Ahmedabad’s documented actions. Who paid is not set out in these sources, so it is marked “Not documented”. Change anything to make it your own.</p>`;
+  }
+
+  function renderPlan() {
+    const place = document.getElementById("plan-place"), grp = document.getElementById("plan-group");
+    if (!place || !grp) return;
+    grp.innerHTML = `<option value="">Choose a group…</option>` + PG.map(g => `<option value="${g.id}"${plan.group === g.id ? " selected" : ""}>${esc(g.name)}</option>`).join("");
+    place.value = plan.place;
+    renderPlanStory(); renderPlanActions(); renderPlanRows(); renderPlanSummary();
+  }
+
+  function planText() {
+    const g = PG.find(x => x.id === plan.group), L = [];
+    L.push("HEAT RESPONSE PLAN", `Place: ${plan.place || "(not set)"}`, `People at risk: ${g ? g.name : "(not set)"}`, `Made with the BeatTheHeat.Asia systems map: ${location.origin + location.pathname}`, "");
+    plan.levers.forEach((id, i) => { const v = leverById[id], r = planRow(id);
+      L.push(`${i + 1}. ${v.title} [${WHEN[v.when] || ""}]`, `   Leads: ${instById[r.lead] ? instById[r.lead].name : "-"}`, `   Pays: ${r.payer}`, `   How we will know: ${r.measure || v.measure || "-"}`); });
+    L.push("", `Cycles these actions could help interrupt: ${planLoops().map(l => l.name).join(", ") || "none"}`, "", "Illustrative: real effect depends on reach, quality and how long each action lasts.");
+    return L.join("\n");
+  }
+
+  function openPlan() {
+    const g = PG.find(x => x.id === plan.group), ex = EXAMPLES.find(x => x.id === plan.example), h = esc;
+    const css = `body{font-family:Inter,Segoe UI,Arial,sans-serif;color:#16202B;max-width:860px;margin:40px auto;padding:0 24px;line-height:1.5}
+      h1{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;font-size:38px;line-height:1;margin:6px 0}
+      .k{color:#1F7A70;font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:12px}.sub{color:#5E6570}
+      table{width:100%;border-collapse:collapse;margin-top:18px;font-size:14px}th,td{text-align:left;vertical-align:top;padding:8px;border-bottom:1px solid #E6DFD4}
+      th{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#5E6570}.gap{color:#9E1A2C;font-weight:700}
+      h2{font-size:13px;letter-spacing:.12em;text-transform:uppercase;border-top:2px solid #16202B;padding-top:10px;margin-top:26px}
+      .note{color:#5E6570;font-size:13px}.print{position:fixed;top:16px;right:16px;padding:10px 18px;border-radius:999px;border:0;background:#F26430;font-weight:700;cursor:pointer}
+      @media print{.print{display:none}body{margin:0}}`;
+    const rows = plan.levers.map(id => { const v = leverById[id], r = planRow(id);
+      return `<tr><td><strong>${h(v.title)}</strong><br><span class="note">${h(WHEN[v.when] || "")}</span></td><td>${h(instById[r.lead] ? instById[r.lead].name : "")}</td><td class="${r.payer === "Not decided yet" ? "gap" : ""}">${h(r.payer)}</td><td>${h(r.measure || v.measure || "")}</td></tr>`; }).join("");
+    const html = `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Heat response plan: ${h(plan.place || "draft")}</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;700&display=swap"><style>${css}</style></head><body>
+      <button class="print" onclick="window.print()">Print or save as PDF</button>
+      <p class="k">Heat response plan · draft</p><h1>${h(plan.place || "Our place")}</h1>
+      <p class="sub">Protecting: <strong>${h(g ? g.name : "not set")}</strong> · made with the BeatTheHeat.Asia systems map</p>
+      ${ex ? `<p class="note">Based on the worked example: ${h(ex.title)}.</p>` : ""}
+      <table><thead><tr><th>Action</th><th>Who leads</th><th>Who pays</th><th>How we will know</th></tr></thead><tbody>${rows}</tbody></table>
+      <h2>Cycles these actions could help interrupt</h2><p>${h(planLoops().map(l => l.name).join(", ") || "None yet")}</p>
+      <p class="note" style="margin-top:28px">Illustrative systems map: real effect depends on how many people each action reaches, how well it is delivered and how long it lasts. For evidence on what works and what it costs, see What Works Against Heat.</p>
+      </body></html>`;
+    const url = URL.createObjectURL(new Blob([html], { type: "text/html" }));
+    const w = window.open(url, "_blank");
+    if (!w) { const a = document.createElement("a"); a.href = url; a.download = "heat-response-plan.html"; document.body.appendChild(a); a.click(); a.remove(); }
+    setTimeout(() => URL.revokeObjectURL(url), 60000);
+  }
+
+  function loadExample(id) {
+    const ex = EXAMPLES.find(x => x.id === id); if (!ex) return;
+    plan = { place: ex.place, group: ex.group, levers: ex.actions.map(a => a.lever), rows: {}, example: ex.id };
+    ex.actions.forEach(a => { plan.rows[a.lever] = { lead: a.lead, payer: a.payer, measure: a.measure }; });
+    savePlan(); renderPlan();
+    document.getElementById("plan-story").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" });
+  }
+
+  (function wirePlan() {
+    const sec = document.getElementById("plan"); if (!sec) return;
+    const changed = (rows = true) => { savePlan(); if (rows) renderPlanRows(); renderPlanSummary(); };
+    sec.addEventListener("input", ev => {
+      const t = ev.target;
+      if (t.id === "plan-place") { plan.place = t.value; changed(false); }
+      else if (t.dataset.plField === "measure") { planRow(t.closest("[data-pl-row]").dataset.plRow).measure = t.value; savePlan(); }
+    });
+    sec.addEventListener("change", ev => {
+      const t = ev.target;
+      if (t.id === "plan-group") {
+        plan.group = t.value;
+        if (!plan.levers.length) plan.levers = suggested().slice();
+        renderPlanActions(); changed();
+      } else if (t.dataset.plLever) {
+        const id = t.dataset.plLever;
+        plan.levers = t.checked ? [...plan.levers.filter(x => x !== id), id] : plan.levers.filter(x => x !== id);
+        changed();
+      } else if (t.dataset.plField === "lead" || t.dataset.plField === "payer") {
+        planRow(t.closest("[data-pl-row]").dataset.plRow)[t.dataset.plField] = t.value; changed(false);
+      }
+    });
+    sec.addEventListener("click", ev => {
+      const ex = ev.target.closest("[data-plan-example]"); if (ex) { loadExample(ex.dataset.planExample); return; }
+      const b = ev.target.closest("[data-pl-act]"); if (!b) return;
+      const act = b.dataset.plAct, status = sec.querySelector("[data-pl-status]");
+      if (act === "map") goToMap(() => applyLevers(plan.levers, plan.place || "Your plan", "The actions in your plan, switched on together."));
+      else if (act === "print") openPlan();
+      else if (act === "copy") navigator.clipboard.writeText(planText()).then(() => { if (status) status.textContent = "Plan copied. Paste it into an email or document."; }, () => { if (status) status.textContent = "Couldn’t copy. Use “Open a printable plan” instead."; });
+      else if (act === "clear") { plan = { place: "", group: "", levers: [], rows: {}, example: null }; savePlan(); renderPlan(); }
+    });
+  })();
+
   /* ======================= THE 60-SECOND TOUR ======================= */
   const TOUR = [
     { title: "The web of extreme heat",
@@ -1444,6 +1612,7 @@
     renderLoopsSection();
     renderInstitutions();
     renderNetwork();
+    renderPlan();
     renderGlossary();
     renderList();
     renderStats();
