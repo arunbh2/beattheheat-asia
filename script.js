@@ -598,6 +598,7 @@
   function clearSelection() {
     state.selected = null; state.story = null; state.inst = null; state.pkg = null;
     clearMarks();
+    applyBreakState();
     renderIntro();
     closePanel();
     document.getElementById("who").value = "";
@@ -955,7 +956,7 @@
     state.pkg = null;
     applyBreakState();
     if (state.selected === "lever:" + id) renderLever(id);
-    else if (state.selected === "break") renderBreakSummary(state.breakTitle, state.breakText);
+    else if (state.selected === "break") showBreak(state.breakTitle, state.breakText, true);
   }
 
   function applyLevers(ids, title, text) {
@@ -974,7 +975,7 @@
     setHash("package-" + pid);
   }
 
-  function showBreak(title, text) {
+  function showBreak(title, text, stay) {
     state.story = null; state.inst = null; state.selected = "break";
     state.breakTitle = title; state.breakText = text;
     const loops = brokenLoops(), ns = new Set(), es = new Set();
@@ -982,6 +983,7 @@
     state.on.forEach(v => { const e = edgeById[leverById[v].edgeId]; if (e) { es.add(e.id); ns.add(e.from); ns.add(e.to); } });
     mark({ nodes: ns, edges: es, levers: [...state.on] });
     renderBreakSummary(title, text);
+    if (stay) return;
     beforeFocus();
     if (ns.size) flyTo([...ns], { maxK: 1.1 }); else fitAll();
   }
@@ -1025,7 +1027,8 @@
   }
 
   function tracePath(from, to) {
-    if (!byId[from] || !byId[to] || from === to) return;
+    if (!byId[from] || !byId[to]) return;
+    if (from === to) { select(from); return; }
     const path = findPath(from, to);
     state.story = null; state.inst = null; state.selected = "path";
     const a = byId[from], b = byId[to];
@@ -1126,6 +1129,7 @@
   }
 
   /* ======================= A DAY IN A HEATWAVE ======================= */
+  const andList = xs => xs.length > 1 ? xs.slice(0, -1).join(", ") + " and " + xs[xs.length - 1] : xs.join("");
   function showHour(i, mode) {
     const h = HEATWAVE_DAY[i]; if (!h) return;
     if (mode === "fix") { applyLevers(h.levers, `${h.time} · ${h.title}`, `What would have helped: ${h.who.toLowerCase()}.`); return; }
@@ -1133,12 +1137,14 @@
     const ns = new Set(), loopEdges = new Set();
     h.loops.forEach(lid => loopById[lid].edges.forEach(eid => { loopEdges.add(eid); const e = edgeById[eid]; ns.add(e.from); ns.add(e.to); }));
     mark({ nodes: ns, loopEdges, flow: loopEdges, levers: h.levers });
+    const extra = LOOPS.filter(l => !h.loops.includes(l.id) && l.levers.some(v => h.levers.includes(v)));
     panelBody.innerHTML = `<p class="panel__kicker is-loop">A day in a heatwave · ${esc(h.time)}</p>
       <h2 class="panel__title">${esc(h.title)}</h2>
       <p class="illustrative">${esc(h.who)} · illustrative</p>
       <p class="panel__desc">${esc(h.text)}</p>
       <h3 class="panel__h">Loops in play</h3><ul class="loop-list">${h.loops.map(l => loopItem(loopById[l])).join("")}</ul>
       <h3 class="panel__h panel__h--break">What would help</h3><ul class="lever-list">${h.levers.map(v => leverItem(leverById[v])).join("")}</ul>
+      ${extra.length ? `<p class="panel__note">These levers also break ${andList(extra.map(l => `<button class="link" data-story="${l.id}">${esc(l.name.replace(/^The /, "the "))}</button>`))}.</p>` : ""}
       <button class="btn btn--full" data-hour="${i}" data-mode="fix">Switch these levers on</button>
       <button class="link" data-act="clear">← Back to the whole web</button>`;
     beforeFocus();
@@ -1198,7 +1204,7 @@
       </div>`;
     }).join("");
 
-    const ranked = nodes.filter(n => n.loops.length > 1).sort((a, b) => b.loops.length - a.loops.length).slice(0, 6);
+    const ranked = nodes.filter(n => n.kind !== "domain" && n.loops.length > 1).sort((a, b) => b.loops.length - a.loops.length).slice(0, 6);
     document.getElementById("pressure-points").innerHTML = ranked.map(n => `<li><button class="pp" data-go="${n.id}"><span class="pp__n">${n.loops.length}</span><span class="pp__name">${esc(plain(n))}</span><span class="pp__meta">loops run through it</span></button></li>`).join("");
     const multi = LEVERS.filter(v => v.loops.length > 1).sort((a, b) => b.loops.length - a.loops.length);
     document.getElementById("multi-levers").innerHTML = multi.map(v => `<li><button class="pp pp--lever" data-lever="${v.id}"><span class="pp__n">${v.loops.length}</span><span class="pp__name">${esc(v.title)}</span><span class="pp__meta">loops broken at once</span></button></li>`).join("");
