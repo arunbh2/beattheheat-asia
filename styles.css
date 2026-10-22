@@ -634,7 +634,7 @@ button { font: inherit; color: inherit; }
 .atrisk { padding: clamp(64px, 9vw, 128px) 0; background: var(--white); border-top: 1px solid var(--line); }
 .atrisk__barriers { list-style: none; padding: 0; margin-top: clamp(32px, 5vw, 56px); display: grid; gap: 0 28px; counter-reset: b; }
 @media (min-width: 720px) { .atrisk__barriers { grid-template-columns: repeat(2, 1fr); } }
-@media (min-width: 1100px) { .atrisk__barriers { grid-template-columns: repeat(4, 1fr); } }
+@media (min-width: 1100px) { .atrisk__barriers { grid-template-columns: repeat(5, 1fr); gap: 0 22px; } }
 .atrisk__barriers li { counter-increment: b; padding: 18px 0 20px; border-top: 2px solid var(--ink); }
 .atrisk__barriers li::before { content: "0" counter(b); display: block; margin-bottom: 8px; font-weight: 700; font-size: .8rem; letter-spacing: .1em; color: var(--orange); }
 .atrisk__barriers h3 { font-family: var(--font-display); font-weight: 400; font-size: clamp(1.35rem, 1.15rem + .6vw, 1.7rem); line-height: 1.05; text-transform: uppercase; }

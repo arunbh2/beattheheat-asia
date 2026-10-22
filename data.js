@@ -162,6 +162,8 @@ const CONSEQUENCES = [
     desc: "Street vendors, workshops and shops lose customers, stock and power, and many shut for good." },
   { id: "supply", sys: "work", label: "Supply chains\ndisrupted",
     desc: "Heat slows factories, ports, roads and warehouses. The delays ripple through prices and jobs far away." },
+  { id: "customers", sys: "work", label: "Customers\nstay home",
+    desc: "Heat empties markets and high streets in the hottest hours. Spending shifts to cooled malls and cooling products, while street vendors and small shops lose sales." },
   { id: "tourism", sys: "work", label: "Tourism\nshifts away",
     desc: "Visitors avoid places and seasons that become too hot, taking jobs and income with them." },
 
@@ -208,8 +210,10 @@ const CONSEQUENCES = [
     desc: "Warnings, cooling centres, outreach and heat-ready services get a small share of budgets compared with floods or storms." },
   { id: "remote", sys: "gov", label: "Help can’t reach\nremote places",
     desc: "In remote villages, islands, hills and river settlements, the nearest clinic, cool shelter or reliable power can be hours away, and heat warnings often never arrive." },
+  { id: "repayments", sys: "gov", label: "Loan repayments\nslip",
+    desc: "When heat cuts sales, harvests or wages, small firms and households fall behind on loans, and lenders collect less." },
   { id: "credit", sys: "gov", label: "Borrowing\ncosts rise",
-    desc: "Lenders and rating agencies increasingly price climate risk into the cost of public and private borrowing." },
+    desc: "Lenders and rating agencies increasingly price climate risk into borrowing. After heat shocks, banks have charged small firms more, asked for more collateral and lent less." },
   { id: "elections", sys: "gov", label: "Elections and public\nservices disrupted",
     desc: "Heat disrupts voting, courts and public offices. Polling staff died in heatwaves during India’s 2024 general election." }
 ];
@@ -241,6 +245,7 @@ const LINKS = [
   ["harvests", "farmdebt", "A failed season leaves farmers borrowing to eat and to replant."],
   ["farmdebt", "harvests", "Indebted farmers cut back on seed, water and fertiliser, so the next harvest fails more easily.", "loop"],
   ["farmdebt", "migration", "When debts can’t be repaid, families leave the land to look for work."],
+  ["farmdebt", "repayments", "Failed harvests leave farm loans unpaid."],
   ["livestock", "hunger", "Less milk, eggs and meat for families who rely on them."],
   ["farmwork", "harvests", "Fields go untended in the hottest hours."],
   ["farmwork", "lost", "Farm labourers lose daily wages."],
@@ -299,6 +304,7 @@ const LINKS = [
   ["smog", "respiratory", "Ozone and smoke inflame the lungs."],
   ["publicspace", "business", "Street trade and markets empty out."],
   ["publicspace", "isolation", "People stay indoors and alone."],
+  ["publicspace", "customers", "When streets are too hot to walk, shoppers stay away."],
   ["telecom", "emergency", "Warnings and calls for help don’t get through."],
   ["telecom", "remote", "Without a phone signal, heat warnings never reach the last village."],
 
@@ -336,6 +342,9 @@ const LINKS = [
   ["debt", "informal", "Debt repayments remove any option to stop work in the heat.", "loop"],
   ["debt", "energypoverty", "Debt leaves nothing for electricity or cooling.", "loop"],
   ["business", "lost", "Closed businesses mean lost jobs."],
+  ["customers", "business", "Fewer customers mean lost sales and spoiled stock."],
+  ["business", "repayments", "Lost sales leave small firms short of cash to repay their loans.", "loop"],
+  ["lost", "repayments", "Lost wages make household and microfinance repayments harder."],
   ["supply", "prices", "Delays and losses push up prices."],
   ["tourism", "lost", "Fewer visitors, fewer jobs."],
 
@@ -375,6 +384,8 @@ const LINKS = [
   ["remote", "deaths", "When help is hours away, treatable heat illness turns fatal."],
   ["remote", "underreport", "Deaths far from clinics are rarely recorded as heat deaths."],
   ["credit", "budgets", "Higher borrowing costs leave less to spend."],
+  ["repayments", "credit", "Lenders respond to missed repayments by charging more, asking for more collateral and lending less.", "loop"],
+  ["credit", "business", "Dearer, scarcer credit leaves small firms unable to restock, cool their premises or ride out the next heatwave.", "loop"],
   ["elections", "cohesion", "Disrupted elections and services test public trust."]
 ];
 
@@ -434,6 +445,9 @@ const LOOPS = [
   { id: "sleep", group: "people", name: "The sleepless-nights loop", evidence: "established", video: "media/loops/sleep.mp4", length: "0:45",
     path: ["sleepless", "mental"],
     summary: "Hot nights wreck sleep. Poor sleep frays mental health, and stress makes sleep harder still." },
+  { id: "squeeze", group: "people", name: "The heat credit squeeze", evidence: "emerging",
+    path: ["business", "repayments", "credit"],
+    summary: "Heat empties shops and small firms miss repayments. Banks tighten credit, so firms can’t afford to adapt, and the next heatwave hits harder." },
   { id: "farmdebt", group: "people", name: "The farm-debt loop", evidence: "emerging", video: "media/loops/farmdebt.mp4", length: "0:47",
     path: ["harvests", "farmdebt"],
     summary: "A failed harvest pushes farmers into debt. Debt leaves less for seed, water and fertiliser, so the next harvest fails more easily." },
@@ -461,7 +475,7 @@ const INSTITUTIONS = [
   { id: "water",     name: "Water authorities",                    desc: "Manage supply, pumping, treatment and how scarce water is shared." },
   { id: "agri",      name: "Farmers’ organisations and agriculture agencies", desc: "Shape what is grown, how water is used and how soils are managed." },
   { id: "schools",   name: "Schools and education authorities",    desc: "Decide on classrooms, timetables and support that keeps children learning." },
-  { id: "insurers",  name: "Insurers and financiers",              desc: "Price risk, design insurance and decide where capital flows." },
+  { id: "insurers",  name: "Banks, insurers and financial regulators", desc: "Price risk, design insurance and lending, set prudential rules and decide where capital flows." },
   { id: "funders",   name: "Development banks, donors and climate funds", desc: "Finance prevention, protection and the institutions that deliver them." },
   { id: "community", name: "Community and civil society groups",   desc: "Reach the people institutions miss: checking on neighbours, running cooling spaces, holding power to account." },
   { id: "intl",      name: "International bodies",                 desc: "Set global standards and agreements on emissions, refrigerants and work." }
@@ -596,6 +610,12 @@ const LEVERS = [
       { by: "IFRC, Practical Action and the Red Cross Red Crescent Climate Centre, for the Zurich Climate Resilience Alliance, 2026", title: "Understanding the global landscape of heat early warning systems (with case studies from Bangladesh, Nepal, Pakistan, the Philippines and Vietnam)", url: "https://www.preventionweb.net/publication/documents-and-publications/understanding-global-landscape-heat-early-warning-systems" },
       { by: "Zurich Climate Resilience Alliance", title: "Early warning systems: resources", url: "https://zcralliance.org/resources-ews/" },
       { by: "Council on Energy, Environment and Water (CEEW), 2026", title: "Thriving in a Warming World: climate intelligence for extreme heat", url: "https://www.ceew.in/sites/default/files/ceew-thriving-warming-world-climate-intelligence-extreme-heat.pdf" } ] },
+  { id: "heatlending", edge: ["repayments", "credit"], title: "Heat-smart lending", who: ["insurers", "nat", "funders"], when: "years", measure: "Borrowers given repayment holidays or extra credit during heatwaves, and loan arrears after the season",
+    text: "Lenders and regulators keep credit flowing through a heatwave: repayment holidays triggered by heat alerts, credit lines kept open, and loans for shade, cooling and cold storage, so a hot season does not become a debt spiral.",
+    example: "India’s banks can already reschedule loans and pause repayments in areas hit by notified natural calamities, under a 2018 Reserve Bank of India direction. India added heatwaves to its notified calamities in 2026; whether that relief now reaches heat-hit borrowers is worth asking your bank.",
+    guides: [
+      { by: "Reserve Bank of India, 2018", title: "Master Direction: Relief measures by banks in areas affected by natural calamities", url: "https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10478" },
+      { by: "Shonchoy and others, IDE-JETRO", title: "Seasonal flexible microcredit in Bangladesh: repayment adjusted to the lean season did not raise default", url: "https://www.ide.go.jp/English/Publish/Reports/Dp/460.html" } ] },
   { id: "riskpools", edge: ["insurance", "budgets"], title: "Shared risk pools", who: ["insurers", "nat", "funders"], when: "years", measure: "Share of heat losses covered by pooled risk",
     text: "Public–private insurance and regional risk pools keep cover available and spread losses beyond any one budget.",
     example: "Regional risk pools such as the African Risk Capacity and the Caribbean’s CCRIF share disaster risk across countries.",
@@ -645,6 +665,7 @@ const LOOP_PLACES = {
   invisible:     "Much of Asia, where death certificates rarely record heat as a cause.",
   reactive:      "Disaster budgets designed for floods and cyclones rather than heat.",
   protection:    "Fast-growing Asian economies where few households or small businesses carry insurance.",
+  squeeze:       "Market towns and city high streets in heat-exposed districts, and lenders whose loans are collected door to door, as in microfinance across northern and central India.",
   farmdebt:      "Rain-fed farming districts of India, Pakistan and Bangladesh, where a failed season often means borrowing from moneylenders."
 };
 
@@ -715,7 +736,7 @@ const PLAYBOOKS = {
                sustain: "Build cooler schools and support that keeps children enrolled." },
   insurers:  { sense: "Price heat risk with local data.",
                decide: "Design cover that pays out quickly when heat crosses a threshold.",
-               act: "Offer parametric heat insurance to workers and small businesses.",
+               act: "Offer parametric heat insurance to workers and small businesses, and repayment relief when heat strikes.",
                sustain: "Share risk through public–private pools so cover stays available." },
   funders:   { sense: "Fund heat data and the tracking of deaths.",
                decide: "Prioritise prevention over emergency response.",
@@ -841,6 +862,16 @@ const EVIDENCE = {
       finding: "A review of 114 studies links higher temperatures with poorer mental health, including higher suicide rates." },
     { by: "Council on Energy, Environment and Water (CEEW), 2025", title: "How Extreme Heat is Impacting India: Assessing District-level Heat Risk", url: "https://www.ceew.in/sites/default/files/ceew-how-extreme-heat-is-impacting-india-final-web-file.pdf",
       finding: "Over the last decade, nearly 70% of India’s districts gained five or more very warm nights each summer, while only about 28% saw a similar rise in very hot days. Mumbai gained 15 very warm nights a summer, and Bengaluru 11." }
+  ],
+  squeeze: [
+    { by: "Aguilar-Gomez et al., summarised in VoxEU, 2024", title: "Heatwaves ripple into the financial system", url: "https://cepr.org/voxeu/columns/heatwaves-ripple-financial-system",
+      finding: "Loan-level bank data from Mexico show that ten extra days of extreme heat in a quarter raise small-business loan delinquency by about 4%, mainly among firms that depend on local customers. Banks then raise rates, ask for more collateral and lend less for two to three quarters." },
+    { by: "Sa-Dhan, reported by Business Standard, 2024", title: "Micro-loan asset quality deteriorates in April–June quarter", url: "https://www.business-standard.com/finance/news/micro-loan-asset-quality-deteriorates-in-april-june-quarter-sa-dhan-124082700721_1.html",
+      finding: "India’s microfinance industry body said loan quality worsened in April–June 2024, partly because heatwaves cut borrowers’ incomes and lenders’ collections." },
+    { by: "Greenpeace India and National Hawkers Federation, 2024", title: "Heatwave Havoc: the toll on Delhi’s street vendors", url: "https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/",
+      finding: "Of 721 Delhi street vendors surveyed in April and May 2024, 80% saw fewer customers during heatwaves and 49% lost income." },
+    { by: "Federation of Automobile Dealers Associations, reported by Orissa Post, 2024", title: "Passenger vehicle retail sales dip 7% in June as heatwave curtails showroom visits", url: "https://www.orissapost.com/passenger-vehicle-retail-sales-dip-7-in-june-as-heatwave-curtails-showroom-visits/amp/",
+      finding: "Car dealers said heat cut showroom footfall by about 15% in June 2024, leaving them with 62–67 days of unsold stock against a recommended three weeks. A sign of where to look; the link to their loans is not yet measured." }
   ],
   farmdebt: [
     { by: "Carleton, PNAS, 2017", title: "Crop-damaging temperatures increase suicide rates in India", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5565417/",
@@ -1438,11 +1469,13 @@ const SECTION_FILMS = [
 /* ---------- 17. WHO HEAT HITS HARDEST ---------- */
 // Exposure tells you where heat lands; barriers tell you who can act on it. Both shape who needs which route to safety.
 // nodes: consequences on the map (part 2). levers: what helps (part 6). fact and source (optional): only use published sources you have opened.
+// more (optional): further facts, each with its own source.
 const AT_RISK_BARRIERS = [
   { q: "Who receives the warning", a: "Alerts by app, radio or loudspeaker miss people without phones, signal, literacy or the right language." },
   { q: "Who can move to safety", a: "Age, disability, care duties and distance decide who can reach shade, water or a cooling centre." },
   { q: "Who can keep earning", a: "Without land, credit, contracts or savings, resting in the heat means losing the day’s income." },
-  { q: "Who has a say", a: "Women, migrants and people of marginalised identities are often missing from the rooms where heat plans are made." }
+  { q: "Who has a say", a: "Women, migrants and people of marginalised identities are often missing from the rooms where heat plans are made." },
+  { q: "Who can reach care in time", a: "A clinic that is far away, has no way to cool patients, or is open only while people are at work turns treatable heat illness into a death." }
 ];
 const AT_RISK = [
   { id: "farmers", name: "Smallholder and rainfed farming households",
@@ -1457,33 +1490,49 @@ const AT_RISK = [
     exposure: "Far from clinics, cool shelter, reliable power and phone signal, often at the end of the line for water and electricity.",
     barriers: "Warnings, ambulances and relief arrive late or not at all, and deaths here are the least likely to be counted.",
     nodes: ["remote", "telecom", "deaths", "underreport"], levers: ["anticipatory", "readyclinics", "countdeaths", "hap"] },
-  { id: "workers", name: "Informal urban workers",
-    exposure: "Street vendors, builders, waste pickers, rickshaw and delivery workers in the hottest parts of the city, then hot, crowded homes at night.",
-    barriers: "No paid leave, contract or savings: stopping work in dangerous heat means losing the day’s income.",
+  { id: "settlements", name: "People in informal settlements",
+    exposure: "Dense rows of homes with tin, asbestos or plastic roofs, little green space, and no way to cool down at night.",
+    barriers: "Insecure tenure means families can’t invest in cooler homes and landlords won’t, and settlements are often missing from city plans and services.",
+    fact: "In a survey of 860 households in Ahmedabad, people in informal settlements faced temperatures up to 7.6\u00a0°C higher than people in formal housing.",
+    source: { label: "Mahadevia et al., 2020, reported in Frontiers in Built Environment, 2022", url: "https://www.frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2022.874751/full" },
+    nodes: ["homes", "uhi", "sleepless", "energypoverty"], levers: ["coolhousing", "coolnights", "coolingcentres", "affordablecool"] },
+  { id: "workers", name: "Workers in heat-exposed jobs",
+    exposure: "Street vendors, builders, waste pickers, rickshaw and delivery workers, traffic police and sanitation staff in the hottest parts of the city; factory workers beside furnaces in unventilated sheds; then hot, crowded homes at night.",
+    barriers: "No paid leave, contract or savings: stopping work in dangerous heat means losing the day’s income. Fixed shifts leave little room to avoid the hottest hours.",
+    fact: "Doctors at two Indian hospitals with heatstroke units said more than 90% of the patients they treated for heat illness in 2024 were outdoor workers: security guards, migrant labourers and street vendors.",
+    source: { label: "Context (Thomson Reuters Foundation), 2024", url: "https://www.context.news/climate-risks/ice-baths-and-ventilators-indias-hospitals-adapt-to-killer-heat" },
+    more: [{ fact: "In a survey of 721 Delhi street vendors in 2024, 80% saw fewer customers during heatwaves and 49% lost income.",
+      source: { label: "Greenpeace India and National Hawkers Federation, 2024", url: "https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/" } }],
     nodes: ["informal", "lost", "uhi", "heatstroke"], levers: ["heatrules", "heatcash", "socialprotection", "freecare"] },
   { id: "women", name: "Women whose livelihoods are held back by unequal access",
     exposure: "Field, home-based and informal work, fetching water, and cooking in homes that trap heat.",
-    barriers: "Less say over land, credit, technology and household decisions, and most of the unpaid care that grows in a heatwave. Violence at home rises with the heat.",
+    barriers: "Less say over land, credit, technology and household decisions, and most of the unpaid care that grows in a heatwave. Without toilets at work or on transport, many drink less water. Violence at home rises with the heat.",
     fact: "Rural households headed by women lose about 8% more of their income to heat stress than those headed by men.",
     source: { label: "FAO, The Unjust Climate, 2024", url: "https://www.fao.org/newsroom/detail/fao-report--heatwaves-and-floods-affect-rural-women-and-men-differently--widen-income-gap" },
+    more: [{ fact: "In a study of Indian women workers, 87% of those with poor or no toilets at work reported genitourinary problems, and about 1 in 10 showed heat strain and moderate dehydration.",
+      source: { label: "Venugopal et al., Global Health Action, 2016", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5025522/" } }],
     nodes: ["care", "fetching", "gbv", "inequality"], levers: ["heatcash", "socialprotection", "hap", "coolhousing"] },
   { id: "mothers", name: "Pregnant women, babies and young children",
     exposure: "Pregnancy strains the body’s cooling, and babies overheat and dehydrate faster than adults.",
     barriers: "Many women keep working and fetching water late into pregnancy, and maternity and child services are rarely ready for heat.",
     fact: "Each 1 °C rise raises the odds of preterm birth by about 5%, and a heatwave by about 16%.",
     source: { label: "Chersich et al., BMJ, 2020", url: "https://pubmed.ncbi.nlm.nih.gov/33148618/" },
+    more: [{ fact: "In 2014–2023, each infant in India faced an average of 7.7 heatwave days a year, 47% more than in the 1990s.",
+      source: { label: "Lancet Countdown, India data sheet, 2024", url: "https://lancetcountdown.org/wp-content/uploads/2024/10/Lancet-Countdown-2024_INDIA.pdf" } }],
     nodes: ["pregnancy", "newborns", "hunger", "sanitation"], levers: ["readyclinics", "hap", "freecare", "socialprotection"] },
   { id: "older", name: "Older people",
     exposure: "Bodies that sense and shed heat less well, often with heart, kidney or lung conditions.",
     barriers: "Living alone, limited mobility, and warnings and help that rely on phones, apps or someone knocking on the door.",
+    fact: "Older people in a Kolkata slum were 4.3 times more likely than older people in a nearby village to face dangerous heat, with a heat index of 45\u00a0°C or more, because their homes stayed hotter than the outdoors, especially at night.",
+    source: { label: "Weitz, Mukhopadhyay and Das, International Journal of Biometeorology, 2022", url: "https://pubmed.ncbi.nlm.nih.gov/35359160/" },
     nodes: ["isolation", "kidney", "deaths"], levers: ["coolingcentres", "hap", "affordablecool", "countdeaths"] },
-  { id: "disability", name: "People with disabilities",
-    exposure: "Some conditions and medicines interfere with the body’s cooling, and heat worsens many mental health conditions.",
+  { id: "disability", name: "People with disabilities or long-term illness",
+    exposure: "Some conditions and common medicines, such as diuretics, interfere with the body’s cooling. Heart, kidney and lung disease and diabetes raise the danger, and heat worsens many mental health conditions.",
     barriers: "Warnings in formats they can’t use, cooling centres they can’t reach, and heat plans that rarely name their needs.",
-    nodes: ["mental", "heatstroke", "isolation"], levers: ["hap", "coolingcentres", "readyclinics", "freecare"] },
+    nodes: ["mental", "heatstroke", "kidney", "isolation"], levers: ["hap", "coolingcentres", "readyclinics", "freecare"] },
   { id: "excluded", name: "Migrants and other excluded groups",
     exposure: "Hot, crowded rented rooms and the hardest outdoor jobs, often in a place where they have few connections.",
-    barriers: "No local ID, address or language can mean no warnings, clinics, rations or relief. Caste and social identity can decide who is reached first.",
+    barriers: "No local ID, address or language can mean no warnings, clinics, rations or relief. Many migrant workers are not registered under welfare laws, such as construction workers’ boards, so they miss health and safety benefits meant for them. Caste and social identity can decide who is reached first.",
     nodes: ["migration", "homes", "informal", "gbv"], levers: ["coolhousing", "socialprotection", "freecare", "heatrules"] }
 ];
 
