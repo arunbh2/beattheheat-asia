@@ -83,7 +83,7 @@ Rules that keep the map working:
 
 ## Your LinkedIn link on the site
 
-Your name and title appear only in the hidden author details at the top of `index.html` (for search engines and AI assistants). Visitors see "Tell us →" links and an "Explore working together →" button in the footer; all of them open your LinkedIn. To change the link, open `index.html`, press **Ctrl/Cmd + F** and search for `arunabhabhattacharya`.
+Your name and LinkedIn appear only in the hidden author details at the top of `index.html` (for search engines and AI assistants). There are no visible links to LinkedIn on the page. To change or remove the hidden ones, open `index.html`, press **Ctrl/Cmd + F** and search for `arunabhabhattacharya`.
 
 ---
 
