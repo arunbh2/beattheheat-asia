@@ -1173,5 +1173,8 @@ const WORKED_EXAMPLES = [
 const SECTION_FILMS = [
   { id: "gaps", title: "Where the gaps may be", label: "the heat network", video: "media/films/heat-network-gaps.mp4", length: "0:47",
     text: "When this film was made, 136 organisations on our list worked on heat, crowding onto worker protection and health, and five loops had nobody listed. A low count shows a gap in this directory’s coverage, not proof that nobody is working on it.",
-    back: { label: "Back to the heat network", act: "network" } }
+    back: { label: "Back to the heat network", act: "network" } },
+  { id: "method", title: "How this map works", label: "about this map", video: "media/films/how-this-map-works.mp4", length: "0:52",
+    text: "An illustrative systems map: switching an action on shows which cycles it could help interrupt, not what it will achieve. Three kinds of evidence, what the badges mean, and where to find ratings of what works and what it costs.",
+    back: { label: "Read how this map works", act: "method" } }
 ];
