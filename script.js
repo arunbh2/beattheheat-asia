@@ -843,6 +843,7 @@
       <p class="panel__kicker" style="--c:${n.color}"><span class="dot"></span>${esc(kicker)}</p>
       <h2 class="panel__title">${esc(plain(n))}</h2>
       <p class="panel__desc">${gloss(n.desc)}</p>
+      ${n.sources ? `<p class="panel__src">Evidence: ${n.sources.map(x => extLink(x.url, x.label)).join(" · ")}</p>` : ""}
       ${loops.length ? `<div class="loop-box"><p class="loop-box__h">Caught in ${plural(loops.length, "vicious cycle")}</p><ul class="loop-list">${loops.map(loopItem).join("")}</ul></div>` : ""}
       ${n.out.length ? `<button class="btn btn--full" data-act="ripple" data-id="${id}">Follow the ripple</button><p class="ripple-result" data-ripple-result hidden></p>` : ""}
       ${levers.length ? `<h3 class="panel__h panel__h--break">Breaking points here</h3><ul class="lever-list">${levers.map(leverItem).join("")}</ul>` : ""}
@@ -864,7 +865,7 @@
         <span class="lever-switch__track" aria-hidden="true"></span>
         <span>${state.on.has(v.id) ? "Switched on: acting on " + plural(v.loops.length, "loop") : "Switch on this lever"}</span>
       </button>
-      ${v.example ? `<p class="example">${gloss(v.example)}</p>` : ""}
+      ${v.example ? `<p class="example">${gloss(v.example)}${v.exampleSources ? `<span class="example__src">Sources: ${v.exampleSources.map(x => extLink(x.url, x.label)).join(" · ")}</span>` : ""}</p>` : ""}
       <h3 class="panel__h">Who can pull this lever</h3>
       <div class="who-chips">${whoChips(v)}</div>
       <h3 class="panel__h">Already working on it</h3>
@@ -1216,7 +1217,7 @@
     L.push("YOUR PROTECTION CHAIN");
     STAGES.forEach(([k, label]) => d.pb[k] && L.push(`${label}: ${d.pb[k]}`));
     L.push("", "YOUR LEVERS");
-    d.levers.forEach(v => { L.push(`- ${v.title} [${WHEN[v.when] || ""}]: ${v.text} (Cuts ${plain(byId[v.edge[0]])} → ${plain(byId[v.edge[1]])}; could help interrupt ${v.loops.map(l => loopById[l].name).join(", ") || "no mapped loop"}.)`); if (v.example) L.push(`  Example: ${v.example}`); (v.guides || []).forEach(g => L.push(`  Guide: ${g.title} (${g.by}): ${g.url}`)); });
+    d.levers.forEach(v => { L.push(`- ${v.title} [${WHEN[v.when] || ""}]: ${v.text} (Cuts ${plain(byId[v.edge[0]])} → ${plain(byId[v.edge[1]])}; could help interrupt ${v.loops.map(l => loopById[l].name).join(", ") || "no mapped loop"}.)`); if (v.example) L.push(`  Example: ${v.example}`); (v.exampleSources || []).forEach(x => L.push(`  Source: ${x.label}: ${x.url}`)); (v.guides || []).forEach(g => L.push(`  Guide: ${g.title} (${g.by}): ${g.url}`)); });
     L.push("", "LOOPS YOU CAN HELP INTERRUPT");
     d.loops.forEach(l => { L.push(`- ${l.name} (${evidenceLabel(l.evidence)}): ${l.summary}`); evidenceOf(l.id).forEach(x => L.push(`  Evidence: ${x.by}, “${x.title}”: ${x.finding} ${x.url}`)); });
     if (d.partners.length) { L.push("", "WHO TO WORK WITH", `These institutions share your levers: ${d.partners.map(p => p.inst.name).join(", ")}.`); }
@@ -1243,7 +1244,7 @@
       <p>Extreme heat is an urgent and growing threat. On this map, ${h(d.inst.name.toLowerCase())} hold <strong>${plural(d.levers.length, "lever")}</strong> that can help break <strong>${d.loops.length} of the ${LOOPS.length}</strong> vicious cycles that make heat worse.</p>
       <div class="bar"><span style="width:${(d.loops.length / LOOPS.length * 100).toFixed(1)}%"></span></div>
       <h2>Your protection chain</h2><div class="chain">${STAGES.map(([k, l]) => `<div><b>${l}</b>${h(d.pb[k] || "")}</div>`).join("")}</div>
-      <h2>Your levers</h2><ul>${d.levers.map(v => `<li><strong>${h(v.title)}.</strong> <span class="when">${h(WHEN[v.when] || "")}</span> ${h(v.text)}<br><span class="ex">Cuts ${h(plain(byId[v.edge[0]]))} → ${h(plain(byId[v.edge[1]]))}. Could help interrupt: ${h(v.loops.map(l => loopById[l].name).join(", ") || "no mapped loop")}.${v.example ? " Example: " + h(v.example) : ""}${(v.guides || []).map(g => `<br>Guide: ${h(g.title)} (${h(g.by)}), ${h(g.url)}`).join("")}</span></li>`).join("")}</ul>
+      <h2>Your levers</h2><ul>${d.levers.map(v => `<li><strong>${h(v.title)}.</strong> <span class="when">${h(WHEN[v.when] || "")}</span> ${h(v.text)}<br><span class="ex">Cuts ${h(plain(byId[v.edge[0]]))} → ${h(plain(byId[v.edge[1]]))}. Could help interrupt: ${h(v.loops.map(l => loopById[l].name).join(", ") || "no mapped loop")}.${v.example ? " Example: " + h(v.example) : ""}${(v.exampleSources || []).map(x => `<br>Source: ${h(x.label)}, ${h(x.url)}`).join("")}${(v.guides || []).map(g => `<br>Guide: ${h(g.title)} (${h(g.by)}), ${h(g.url)}`).join("")}</span></li>`).join("")}</ul>
       <h2>Loops you can help break</h2><ul>${d.loops.map(l => `<li><strong>${h(l.name)}</strong> <span class="ev">(${evidenceLabel(l.evidence)})</span><br>${h(l.summary)}${evidenceOf(l.id).map(x => `<br><span class="ex">Evidence: <a href="${h(x.url)}">${h(x.title)}</a> (${h(x.by)}). ${h(x.finding)}</span>`).join("")}</li>`).join("")}</ul>
       ${d.partners.length ? `<h2>Who to work with</h2><p>These institutions share your levers: ${d.partners.map(p => h(p.inst.name)).join(", ")}. No single institution can break these loops alone.</p>` : ""}
       <p class="ev" style="margin-top:32px">This map is large, but the real web is larger. Loops marked “Evidence emerging” have evidence for each link; the full cycle has been studied less.</p>
@@ -1882,6 +1883,7 @@
           return `<li>
             <button class="list-node" data-go="${n.id}">${esc(plain(n))}</button>
             <p>${esc(n.desc)}</p>
+            ${n.sources ? `<p class="list-src">Evidence: ${n.sources.map(x => extLink(x.url, x.label)).join(" · ")}</p>` : ""}
             ${outs.length ? `<p class="list-leads">Leads to: ${outs.map(e => esc(plain(byId[e.to]))).join(" · ")}</p>` : ""}
           </li>`;
         }).join("")}</ul>

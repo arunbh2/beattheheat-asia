@@ -408,6 +408,9 @@ button { font: inherit; color: inherit; }
 .network__deeper ul { margin: 8px 0 0; padding-left: 18px; display: grid; gap: 4px; }
 .network__deeper a { color: var(--ink); text-decoration-color: var(--orange); text-underline-offset: 3px; }
 .example { margin-top: 14px; padding: 12px 14px; border-left: 4px solid var(--teal); background: #E8F2F0; font-size: 0.93rem; }
+.example__src { display: block; margin-top: 6px; font-size: .8rem; }
+.panel__src, .list-src { margin-top: 8px; font-size: .8rem; }
+.panel__src a, .list-src a, .example__src a { color: inherit; }
 .cut { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 6px; align-items: baseline; font-weight: 600; }
 
 .loop-box { margin-top: 16px; padding: 12px 14px 4px; border-left: 4px solid var(--red); background: #FDF0F1; }
