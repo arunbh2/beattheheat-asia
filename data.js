@@ -498,8 +498,6 @@ const INSTITUTIONS = [
 // edge: the link it cuts [from, to]. who: the institutions that can pull this lever.
 // A lever breaks every vicious cycle that runs through its link.
 // measure: a suggested way to track progress (editorial, shown as a hint in "Plan a response").
-// spread (optional): how far this kind of action has spread in Indian cities, from a 2025 review of urban heat solutions:
-//   "early" = pilots in a few places, "spreading" = piloted across several states. No kind has yet reached widespread use.
 // when: how soon it can start working. "season" = this season, "years" = 1–3 years, "decade" = a decade or more.
 const LEVERS = [
   { id: "emissions", edge: ["heat", "nature"], title: "Deep emission cuts", who: ["nat", "intl", "funders"], when: "decade", measure: "Emissions cut against the national target",
@@ -508,7 +506,7 @@ const LEVERS = [
     guides: [
       { by: "Intergovernmental Panel on Climate Change, 2023", title: "AR6 Synthesis Report: Climate Change 2023", url: "https://www.ipcc.ch/report/ar6/syr/" },
       { by: "OECD Economics Department, 2024", title: "The heat is on: Heat stress, productivity and adaptation among firms", url: "https://doi.org/10.1787/19d94638-en" } ] },
-  { id: "cleancool", spread: "spreading", edge: ["demand", "emissions"], title: "Clean, efficient cooling", who: ["nat", "utilities", "intl"], when: "years", measure: "Share of new air conditioners meeting efficiency standards",
+  { id: "cleancool", edge: ["demand", "emissions"], title: "Clean, efficient cooling", who: ["nat", "utilities", "intl"], when: "years", measure: "Share of new air conditioners meeting efficiency standards",
     text: "Efficient appliances, clean power and low-warming refrigerants break the link between keeping cool and heating the planet.",
     example: "The Kigali Amendment to the Montreal Protocol (2016) commits countries to phase down the most climate-warming refrigerants.",
     guides: [
@@ -524,14 +522,15 @@ const LEVERS = [
     guides: [
       { by: "UNEP and GRID-Arendal, 2022", title: "Spreading like Wildfire: The Rising Threat of Extraordinary Landscape Fires", url: "https://www.unep.org/resources/report/spreading-wildfire-rising-threat-extraordinary-landscape-fires" } ] },
 
-  { id: "coolbydesign", spread: "early", edge: ["demand", "uhi"], title: "Cool by design", who: ["city", "nat"], when: "decade", measure: "New buildings meeting cooling standards",
+  { id: "coolbydesign", edge: ["demand", "uhi"], title: "Cool by design", who: ["city", "nat"], when: "decade", measure: "New buildings meeting cooling standards",
     text: "Shading, ventilation, reflective roofs and efficient cooling cut the need for air conditioning, and the waste heat it dumps outside.",
     guides: [
       { by: "Global Heat Health Information Network (GHHIN)", title: "Heat in the city: guidance and resources for urban heat", url: "https://heathealth.info/in-the-city/" } ] },
-  { id: "greencity", spread: "spreading", edge: ["uhi", "demand"], title: "Green, cool cities", who: ["city", "community"], when: "years", measure: "Tree canopy and shaded street length in hotspot wards",
+  { id: "greencity", edge: ["uhi", "demand"], title: "Green, cool cities", who: ["city", "community"], when: "years", measure: "Tree canopy and shaded street length in hotspot wards",
     text: "Trees, water, cool roofs and cool pavements lower city temperatures and flatten peak demand.",
-    example: "Indian cities and states such as Ahmedabad and Telangana have run programmes that paint roofs to reflect sunlight. The Green Tamil Nadu Mission aims to raise the state’s forest and tree cover from 23.8% to 33% of its land by 2030–31.",
+    example: "Cooling Singapore, a research programme across agencies, models where heat builds up street by street to test which mix of greenery, materials and layout cools each district best. Indian cities and states such as Ahmedabad and Telangana have run programmes that paint roofs to reflect sunlight. The Green Tamil Nadu Mission aims to raise the state’s forest and tree cover from 23.8% to 33% of its land by 2030–31.",
     exampleSources: [
+      { label: "Cooling Singapore: digital urban climate twin", url: "https://www.thegpsc.org/sites/gpsc/files/cooling_singapore_-_digital_urban_climate_twin.pdf" },
       { label: "Tamil Nadu Pollution Control Board, G.O. 215, 2023: the Green Tamil Nadu Mission target", url: "https://tnpcb.gov.in/PDF/About_Us/Announcementgos/GoNo_215_101123.pdf" } ],
     guides: [
       { by: "Zurich Climate Resilience Alliance", title: "Urban heat: resources and partner networks", url: "https://zcralliance.org/resources-urban-heat/" },
@@ -550,15 +549,18 @@ const LEVERS = [
     text: "Crop insurance that pays out after a heat-hit season, affordable credit and heat-tolerant seed stop one bad harvest becoming a debt trap.",
     guides: [
       { by: "Ministry of Agriculture and Farmers Welfare, India", title: "Pradhan Mantri Fasal Bima Yojana, India’s national crop insurance scheme", url: "https://pmfby.gov.in/" } ] },
-  { id: "hap", spread: "spreading", edge: ["heatstroke", "hsys"], title: "Heat action plans", who: ["city", "health", "met"], when: "season", measure: "Hours from heat alert to a coordinated response",
+  { id: "hap", edge: ["heatstroke", "hsys"], title: "Heat action plans", who: ["city", "health", "met"], when: "season", measure: "Hours from heat alert to a coordinated response",
     text: "Early warnings, public cooling spaces and outreach to the people most at risk prevent illness before it reaches hospital.",
-    example: "Ahmedabad launched South Asia’s first city heat action plan in 2013. By June 2026, India had more than 250.",
+    example: "Ahmedabad launched South Asia’s first city heat action plan in 2013; by June 2026, India had more than 250. In Nepal, Dhangadhi, which passes 40\u00a0°C every year, published a heat action plan in 2025 with the Nepal Red Cross Society. In Bangladesh, Practical Action is working with communities and local authorities in Khulna to build a heat early warning system that responds to them, where none existed before.",
+    exampleSources: [
+      { label: "Red Cross Red Crescent Climate Centre: Dhangadhi Heat Action Plan 2025", url: "https://www.climatecentre.org/publications/16234/dhangadhi-heat-action-plan-2025/" },
+      { label: "Practical Action: Living in a Hotter World", url: "https://practicalaction.org/news-stories/living-in-a-hotter-world-a-mission-to-find-hidden-urban-hotspots/" } ],
     guides: [
       { by: "Global Heat Health Information Network (GHHIN)", title: "Heat action plans and case studies, including Indian cities", url: "https://heathealth.info/heat-action-plans-and-case-studies/" },
       { by: "WHO and WMO, 2015, in the GHHIN resource library", title: "Heatwaves and health: guidance on warning-system development", url: "https://heathealth.info/resources/heatwaves-and-health-guidance-on-warning-system-development/" },
       { by: "Council on Energy, Environment and Water (CEEW), 2025", title: "How Extreme Heat is Impacting India: district-level heat risk for all 734 districts, to target plans", url: "https://www.ceew.in/sites/default/files/ceew-how-extreme-heat-is-impacting-india-final-web-file.pdf" },
       { by: "Council on Energy, Environment and Water (CEEW)", title: "How can heat action plans make Thane a heat-resilient city?", url: "https://www.ceew.in/publications/how-can-thane-city-tackle-heatwaves-risks-with-heat-action-plan" } ] },
-  { id: "readyclinics", spread: "early", edge: ["hsys", "heatstroke"], title: "Heat-ready health services", who: ["health", "funders"], when: "season", measure: "Health facilities with heat protocols, trained staff and cooling",
+  { id: "readyclinics", edge: ["hsys", "heatstroke"], title: "Heat-ready health services", who: ["health", "funders"], when: "season", measure: "Health facilities with heat protocols, trained staff and cooling",
     text: "Cooling, backup power, surge plans and trained frontline workers keep clinics working through heatwaves.",
     guides: [
       { by: "National Centre for Disease Control, Ministry of Health and Family Welfare, India, 2021", title: "National Action Plan on Heat-Related Illness", url: "https://ncdc.mohfw.gov.in/uploads/pdf/heat12.pdf" },
@@ -571,19 +573,21 @@ const LEVERS = [
 
   { id: "heatrules", edge: ["informal", "heatstroke"], title: "Heat-safe work", who: ["nat", "employers", "workers"], when: "season", measure: "Worksites inspected and keeping rest-break rules",
     text: "Rest, shade and water during dangerous heat, with paid breaks so that stopping work doesn’t mean losing pay.",
-    example: "Several Gulf states ban outdoor work during the hottest midday hours in summer. Since 2023, Spain has required employers to cut or move working hours when the weather agency issues an orange or red heat alert and other measures can’t keep workers safe. Tamil Nadu’s heat strategy proposes building heat protection into the state’s existing occupational safety rules, rather than waiting for a new law.",
+    example: "Singapore requires hourly wet-bulb globe temperature checks on outdoor worksites and at least 10 minutes’ shaded rest each hour for heavy work at 32\u00a0°C or above; in 2024 it inspected 250 workplaces and acted against 78. Several Gulf states ban outdoor work during the hottest midday hours in summer. Since 2023, Spain has required employers to cut or move working hours when the weather agency issues an orange or red heat alert and other measures can’t keep workers safe. Tamil Nadu’s heat strategy proposes building heat protection into the state’s existing occupational safety rules, rather than waiting for a new law.",
     exampleSources: [
+      { label: "Singapore Ministry of Manpower, 2023", url: "https://www.mom.gov.sg/newsroom/press-releases/2023/1024-enhanced-measures-to-reduce-heat-stress-for-outdoor-workers" },
+      { label: "HRD Asia: 78 worksites found non-compliant", url: "https://www.hcamag.com/asia/specialisation/employment-law/more-than-75-worksites-found-non-compliant-with-singapores-enhanced-heat-stress-measures-report/499570" },
       { label: "Garrigues on Spain’s 2023 decree", url: "https://www.garrigues.com/en_GB/new/spain-high-temperatures-will-mean-employers-must-adopt-preventive-measures-order-protect" },
       { label: "Tamil Nadu State Planning Commission, Beating the Heat: Tamil Nadu Heat Mitigation Strategy, 2024", url: "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf" } ],
     guides: [
       { by: "WHO and WMO, in the GHHIN resource library", title: "Heat at work: the first joint global guidance on workplace heat stress", url: "https://heathealth.info/at-work/" } ] },
-  { id: "heatcash", spread: "early", edge: ["heatstroke", "lost"], title: "Income protection in heatwaves", who: ["insurers", "nat", "workers"], when: "years", measure: "Workers covered, and days from trigger to payout",
+  { id: "heatcash", edge: ["heatstroke", "lost"], title: "Income protection in heatwaves", who: ["insurers", "nat", "workers"], when: "years", measure: "Workers covered, and days from trigger to payout",
     text: "Cash that pays out automatically when temperatures cross a danger threshold, so people can afford to stop. Triggers need careful design to limit basis risk: heat that hurts people without triggering a payout.",
     example: "Parametric heat insurance has been piloted with women informal workers in India.",
     guides: [
       { by: "VimoSEWA, 2025", title: "Parametric heat and rainfall insurance for informal women workers", url: "https://www.sewainsurance.org/wp-content/uploads/2025/12/Parametric-Heat-and-Rainfall-Insurance-for-Informal-Women-Workers.pdf" },
       { by: "CGAP", title: "Confronting the climate and health nexus: lessons from the Self-Employed Women’s Association (SEWA)", url: "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association" } ] },
-  { id: "socialprotection", spread: "early", edge: ["lost", "informal"], title: "Social protection floors", who: ["nat", "funders"], when: "years", measure: "Households reached by heat-season support",
+  { id: "socialprotection", edge: ["lost", "informal"], title: "Social protection floors", who: ["nat", "funders"], when: "years", measure: "Households reached by heat-season support",
     text: "Basic income security that keeps households above the line between one hot season and the next.",
     guides: [
       { by: "International Labour Organization", title: "Addressing the impacts of extreme heat through social protection", url: "https://www.ilo.org/resource/article/addressing-impacts-extreme-heat-through-social-protection" } ] },
@@ -592,12 +596,12 @@ const LEVERS = [
     guides: [
       { by: "National Centre for Disease Control, India", title: "Climate change and health: heat-illness guidelines, emergency cooling guidance and heat stroke units", url: "https://ncdc.mohfw.gov.in/includes/About/CentresAndDivision/CEOH.php" },
       { by: "National Centre for Disease Control, Ministry of Health and Family Welfare, India, 2021", title: "National Action Plan on Heat-Related Illness", url: "https://ncdc.mohfw.gov.in/uploads/pdf/heat12.pdf" } ] },
-  { id: "affordablecool", spread: "spreading", edge: ["energypoverty", "heatstroke"], title: "Affordable cooling for the poorest", who: ["utilities", "city", "nat"], when: "years", measure: "Low-income homes with affordable cooling",
+  { id: "affordablecool", edge: ["energypoverty", "heatstroke"], title: "Affordable cooling for the poorest", who: ["utilities", "city", "nat"], when: "years", measure: "Low-income homes with affordable cooling",
     text: "Lifeline electricity tariffs, efficient fans and cool roofs put safe cooling within reach of every household.",
     guides: [
       { by: "Sustainable Energy for All, 2023", title: "Chilling Prospects: Global Access to Cooling Gaps 2023", url: "https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-global-access-to-cooling-gaps-2023" },
       { by: "Sustainable Energy for All", title: "Chilling Prospects Special: Gender and Access to Cooling", url: "https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-special-gender" } ] },
-  { id: "coolhousing", spread: "early", edge: ["migration", "homes"], title: "Cool, affordable housing", who: ["city", "funders", "community"], when: "decade", measure: "Homes fitted with cool roofs or insulation",
+  { id: "coolhousing", edge: ["migration", "homes"], title: "Cool, affordable housing", who: ["city", "funders", "community"], when: "decade", measure: "Homes fitted with cool roofs or insulation",
     text: "Upgrading informal settlements with ventilation, shade and cool roofs, and planning homes for people who arrive.",
     example: "Telangana’s Cool Roof Policy 2023–2028, India’s first, makes cool roofs mandatory for many kinds of building and aims to cover about 300 km² of roofs. Tamil Nadu’s heat strategy proposes making a measure of how much heat walls and roofs let in, the residential envelope transmittance value (ReTV) from India’s residential energy code, a condition in tenders for slum redevelopment.",
     exampleSources: [
@@ -608,10 +612,11 @@ const LEVERS = [
       { by: "Wellcome", title: "£17.5m for research testing heat adaptations, including a trial of reflective roof coatings with a site in India", url: "https://wellcome.org/insights/articles/wellcome-awards-ps175m-support-global-research-drive" } ] },
   { id: "keepinschool", edge: ["inequality", "dropout"], title: "Keep children in school", who: ["schools", "nat"], when: "season", measure: "Attendance and drop-outs during the heat season",
     text: "Cash transfers, school meals and heat-ready classrooms and timetables keep children learning through hot seasons.",
-    example: "When heat closes schools, children lose more than lessons: consultations for Tamil Nadu’s heat strategy found that long breaks cost children in schools serving marginalised groups their midday meals. India’s school meal scheme can keep serving meals through the summer holidays in areas declared drought-hit, as Odisha did in 27 districts in a year when a forecast heatwave also extended school closures.",
+    example: "When heat closes schools, children lose more than lessons: consultations for Tamil Nadu’s heat strategy found that long breaks cost children in schools serving marginalised groups their midday meals. India’s school meal scheme can keep serving meals through the summer holidays in areas declared drought-hit, as Odisha did in 27 districts in a year when a forecast heatwave also extended school closures. In the Philippines, heat helped drive the return to a June school start, keeping classes out of the hottest months, April and May.",
     exampleSources: [
       { label: "Tamil Nadu State Planning Commission, Beating the Heat: Tamil Nadu Heat Mitigation Strategy, 2024", url: "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf" },
-      { label: "The Quint: Odisha extends school holidays and keeps midday meals going", url: "https://www.thequint.com/news/hot-news/met-dept-predicts-severe-heatwave-odisha-extends-school-holidays" } ],
+      { label: "The Quint: Odisha extends school holidays and keeps midday meals going", url: "https://www.thequint.com/news/hot-news/met-dept-predicts-severe-heatwave-odisha-extends-school-holidays" },
+      { label: "Inquirer: DepEd all set for June school opening in 2025", url: "https://newsinfo.inquirer.net/1940232/deped-all-set-for-june-school-opening-in-25" } ],
     guides: [
       { by: "UNICEF, 2026", title: "Learning Interrupted: global snapshot of climate-related school disruptions", url: "https://www.unicef.org/reports/learning-interrupted" } ] },
   { id: "coolnights", edge: ["sleepless", "mental"], title: "Cool nights and support", who: ["city", "health", "community"], when: "season", measure: "Night-time indoor temperatures in target homes",
@@ -625,19 +630,23 @@ const LEVERS = [
     guides: [
       { by: "National Centre for Disease Control, India, in the GHHIN resource library", title: "Autopsy findings in heat-related deaths: guidance for recording heat as a cause", url: "https://heathealth.info/resources/autopsy-findings-in-heat-related-deaths/" },
       { by: "National Centre for Disease Control, Ministry of Health and Family Welfare, India, 2021", title: "National Action Plan on Heat-Related Illness", url: "https://ncdc.mohfw.gov.in/uploads/pdf/heat12.pdf" } ] },
-  { id: "coolingcentres", spread: "spreading", edge: ["underfund", "deaths"], title: "Cooling centres and check-ins", who: ["city", "community", "health"], when: "season", measure: "Cooling centre visits, and check-ins on people living alone",
+  { id: "coolingcentres", edge: ["underfund", "deaths"], title: "Cooling centres and check-ins", who: ["city", "community", "health"], when: "season", measure: "Cooling centre visits, and check-ins on people living alone",
     text: "Public cooling spaces, water points and check-ins on older people living alone save lives in every heatwave.",
     guides: [
       { by: "US Centers for Disease Control and Prevention, in the GHHIN resource library", title: "The use of cooling centers to prevent heat-related illness: evidence and strategies for implementation", url: "https://heathealth.info/wp-content/uploads/cdc_47657_DS1-compressed-1.pdf" } ] },
   { id: "heatbudget", edge: ["budgets", "underfund"], title: "Dedicated heat budgets", who: ["nat", "city", "funders"], when: "years", measure: "Heat budget set aside before the season starts",
     text: "Ring-fenced funding for heat action, set aside before the season, so protection doesn’t compete with the emergency.",
-    example: "Since August 2026, India’s disaster response funds can pay for heatwave relief. Preparing for heat is still paid for separately, from disaster mitigation funds.",
+    example: "Since August 2026, India’s disaster response funds can pay for heatwave relief; preparing for heat is still paid for separately. In Nepal, Madhesh Province and five municipalities committed 5% of sectoral budgets to adaptation and disaster risk reduction, with support from Practical Action and Mercy Corps.",
+    exampleSources: [
+      { label: "CEEW, Nepal in a Warming World, 2025", url: "https://www.ceew.in/publications/nepal-heat-health-action" } ],
     guides: [
       { by: "Centre for Policy Research, India", title: "Finding the Finance: a guide to identifying centrally sponsored schemes to fund heat resilience", url: "https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/" },
       { by: "Centre for Policy Research, India, 2023", title: "How is India adapting to heatwaves? An assessment of 37 heat action plans", url: "https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/" } ] },
   { id: "anticipatory", edge: ["underfund", "emergency"], title: "Anticipatory action", who: ["met", "funders", "nat"], when: "years", measure: "Money released before the heatwave peaks",
     text: "Release money and act on the forecast, before the heatwave peaks, instead of paying for the emergency afterwards.",
-    example: "Forecast-based financing, pioneered within the Red Cross Red Crescent Movement, releases funds before a disaster strikes. WHO and WMO estimate that bringing heat-health warning systems to the countries that lack them could prevent nearly 100,000 deaths a year.",
+    example: "On 21 April 2024, with forecasts above 38\u00a0°C, the Bangladesh Red Crescent Society activated its heatwave early action protocol for Dhaka: warnings, drinking water, cooling stations and cash grants, with about CHF 500,000 from the IFRC to reach some 124,000 people. WHO and WMO estimate that bringing heat-health warning systems to the countries that lack them could prevent nearly 100,000 deaths a year.",
+    exampleSources: [
+      { label: "Red Cross Red Crescent Climate Centre, 2024", url: "https://www.climatecentre.org/13733/red-crescent-activates-early-action-protocol-for-heatwaves-in-dhaka/" } ],
     guides: [
       { by: "IFRC, Practical Action and the Red Cross Red Crescent Climate Centre, for the Zurich Climate Resilience Alliance, 2026", title: "Understanding the global landscape of heat early warning systems (with case studies from Bangladesh, Nepal, Pakistan, the Philippines and Vietnam)", url: "https://www.preventionweb.net/publication/documents-and-publications/understanding-global-landscape-heat-early-warning-systems" },
       { by: "Zurich Climate Resilience Alliance", title: "Early warning systems: resources", url: "https://zcralliance.org/resources-ews/" },
@@ -845,7 +854,9 @@ const EVIDENCE = {
     { by: "International Energy Agency, 2018", title: "The Future of Cooling", url: "https://www.iea.org/reports/the-future-of-cooling",
       finding: "China, India and Indonesia are expected to account for half of the world’s air conditioners by 2050." },
     { by: "Tamil Nadu State Planning Commission, 2024", title: "Beating the Heat: Tamil Nadu Heat Mitigation Strategy", url: "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf",
-      finding: "Chennai’s built-up area more than doubled between 2000 and 2020, and night-time land surface temperatures in its urban areas run about 2 °C higher than on its peri-urban edges." }
+      finding: "Chennai’s built-up area more than doubled between 2000 and 2020, and night-time land surface temperatures in its urban areas run about 2 °C higher than on its peri-urban edges." },
+    { by: "Cooling Singapore, citing Chow and Roth, 2006", title: "Cooling Singapore: digital urban climate twin", url: "https://www.thegpsc.org/sites/gpsc/files/cooling_singapore_-_digital_urban_climate_twin.pdf",
+      finding: "Singapore’s commercial centre has measured up to about 7\u00a0°C warmer than its outskirts on calm, clear nights." }
   ],
   energywater: [
     { by: "World Resources Institute, 2018", title: "40% of India’s thermal power plants are in water-scarce areas, threatening shutdowns", url: "https://www.wri.org/insights/40-indias-thermal-power-plants-are-water-scarce-areas-threatening-shutdowns",
@@ -869,7 +880,9 @@ const EVIDENCE = {
     { by: "International Labour Organization, 2019", title: "Working on a warmer planet", url: "https://www.ilo.org/resource/news/increase-heat-stress-predicted-bring-productivity-loss-equivalent-80",
       finding: "Heat stress is projected to cost 2.2% of all working hours by 2030, equal to 80 million full-time jobs. South Asia is among the worst hit, losing about 5% of working hours." },
     { by: "Lancet Countdown, The Lancet, 2024", title: "The 2024 report of the Lancet Countdown on health and climate change", url: "https://doi.org/10.1016/S0140-6736(24)01822-1",
-      finding: "Heat exposure put a record 512 billion potential labour hours at risk in 2023, with potential income losses of US$835 billion." }
+      finding: "Heat exposure put a record 512 billion potential labour hours at risk in 2023, with potential income losses of US$835 billion." },
+    { by: "World Bank, 2025", title: "An Unsustainable Life: the impact of heat on health and the economy of Bangladesh", url: "https://www.worldbank.org/en/news/press-release/2025/09/16/bangladesh-faces-health-and-economic-risks-from-rising-temperature-world-bank",
+      finding: "Heat-related illness cost Bangladesh 250 million workdays in 2024, worth up to US$1.78 billion, about 0.4% of GDP. Since 1980 the ‘feels-like’ temperature has risen by 4.5\u00a0°C." }
   ],
   debt: [
     { by: "Selvaraj, Farooqui and Karan, BMJ Open, 2018", title: "Quantifying the financial burden of households’ out-of-pocket payments on medicines in India", url: "https://bmjopen.bmj.com/content/8/5/e018020",
@@ -889,7 +902,11 @@ const EVIDENCE = {
     { by: "Park, Goodman, Hurwitz and Smith, American Economic Journal: Economic Policy, 2020", title: "Heat and Learning", url: "https://www.aeaweb.org/doi/10.1257/pol.20180612",
       finding: "Without air conditioning, each 1 °F hotter school year cuts that year’s learning by about 1%, and the losses fall hardest on disadvantaged students." },
     { by: "UNICEF, 2025", title: "Learning interrupted: global snapshot of climate-related school disruptions in 2024", url: "https://www.unicef.org/reports/learning-interrupted-global-snapshot-2024",
-      finding: "Heatwaves disrupted schooling for an estimated 171 million students in 2024. South Asia was the most affected region." }
+      finding: "Heatwaves disrupted schooling for an estimated 171 million students in 2024. South Asia was the most affected region." },
+    { by: "AFP via Malay Mail, April 2024", title: "Thousands of Philippine schools suspend in-person classes due to heat", url: "https://www.malaymail.com/news/world/2024/04/05/thousands-of-philippine-schools-suspend-in-person-classes-due-to-heat-says-education-dept/127511",
+      finding: "In early April 2024, 5,288 schools across the Philippines switched to remote learning as the heat index reached danger levels, affecting more than 3.6 million students." },
+    { by: "NBC News, 2024", title: "Extreme heat forces school closures across Asia, affecting millions of students", url: "https://www.nbcnews.com/news/world/schools-close-extreme-heat-philippines-bangladesh-asia-rcna149485",
+      finding: "Bangladesh closed schools for about 33 million children in its April 2024 heatwave, and Cambodia cut the school day by two hours." }
   ],
   sleep: [
     { by: "Minor et al., One Earth, 2022", title: "Rising temperatures erode human sleep globally", url: "https://orbit.dtu.dk/en/publications/rising-temperatures-erode-human-sleep-globally/",
@@ -917,7 +934,9 @@ const EVIDENCE = {
     { by: "Carleton, PNAS, 2017", title: "Crop-damaging temperatures increase suicide rates in India", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5565417/",
       finding: "Heat raises suicide rates in India only during the growing season, when it also cuts crop yields, pointing to farm income losses. The findings have been debated." },
     { by: "Lobell, Sibley and Ortiz-Monasterio, Nature Climate Change, 2012", title: "Extreme heat effects on wheat senescence in India", url: "https://fsi.stanford.edu/node/26622",
-      finding: "Days above 34 °C make wheat in northern India age early, and crop models may underestimate yield losses at +2 °C by as much as 50%." }
+      finding: "Days above 34 °C make wheat in northern India age early, and crop models may underestimate yield losses at +2 °C by as much as 50%." },
+    { by: "Peng et al., PNAS, 2004", title: "Rice yields decline with higher night temperature from global warming", url: "https://doi.org/10.1073/pnas.0403720101",
+      finding: "At the International Rice Research Institute’s farm in the Philippines, rice yields fell by about 10% for each 1\u00a0°C rise in growing-season night temperature, while daytime highs had little effect." }
   ],
   invisible: [
     { by: "Ministry of Health and Family Welfare, reply in India’s Rajya Sabha, 6 August 2024", title: "Heat-related illness surveillance, 2021 to July 2024 (Unstarred Question 1693)", url: "https://rsdebate.nic.in/bitstream/123456789/750681/1/PQ_265_06082024_U1693_p358_p362.pdf",
@@ -927,7 +946,9 @@ const EVIDENCE = {
     { by: "Down To Earth, 2024", title: "Lost in the heat: the critical miscalculation in India’s heatwave mortality data", url: "https://www.downtoearth.org.in/climate-change/lost-in-the-heat-the-critical-miscalculation-in-indias-heatwave-mortality-data",
       finding: "Death certificates usually record only the immediate cause, such as heart failure, so heat as the trigger goes unrecorded." },
     { by: "Ministry of Home Affairs, reply in India’s Lok Sabha, reported by Down To Earth, 2026", title: "India updates disaster list to include heatwaves and lightning after Finance Commission push", url: "https://www.downtoearth.org.in/climate-change/india-updates-disaster-list-to-include-heatwaves-and-lightning-after-finance-commission-push",
-      finding: "Between 1 March and 26 July 2026, India’s heat surveillance, covering more than 51,000 reporting units, logged 4,853 heatstroke cases but only 20 heatstroke deaths." }
+      finding: "Between 1 March and 26 July 2026, India’s heat surveillance, covering more than 51,000 reporting units, logged 4,853 heatstroke cases but only 20 heatstroke deaths." },
+    { by: "NUS Project HeatSafe, 2024", title: "Heat stress reduces productivity among workers in Singapore", url: "https://medicine.nus.edu.sg/wp-content/uploads/2024/03/PRESS-RELEASE_Project-HeatSafe-18MAR2024-FOR-IMMEDIATE-RELEASE.pdf",
+      finding: "Monitors at 24 indoor and outdoor workplaces in Singapore found workers could face more heat stress than nearby national weather stations reported." }
   ],
   reactive: [
     { by: "Global Commission on Adaptation, 2019", title: "Adapt Now: A Global Call for Leadership on Climate Resilience", url: "https://openknowledge.worldbank.org/entities/publication/7713887e-5c0c-5fce-9dd0-c18a8875736c",
@@ -987,6 +1008,10 @@ const ORGANISATIONS = [
     does: "Launched South Asia’s first heat action plan in 2013: early warnings, public outreach and training for medical staff.", levers: ["hap", "readyclinics"] },
   { id: "dncc", role: "asia", name: "Dhaka North City Corporation", url: "https://www.dhakatribune.com/bangladesh/310693/arsht-rock-bangladesh%E2%80%99s-first-chief-heat-officer",
     does: "Appointed Asia’s first Chief Heat Officer in 2023, focused on cooling the poorest neighbourhoods.", levers: ["greencity"] },
+  { id: "nrcs", role: "asia", name: "Nepal Red Cross Society", url: "https://www.climatecentre.org/publications/16234/dhangadhi-heat-action-plan-2025/",
+    does: "Published the Dhangadhi Heat Action Plan in 2025 with the Climate Centre, setting out when and where to act before and during heatwave days in a city that passes 40\u00a0°C every year.", levers: ["hap", "anticipatory"] },
+  { id: "deped", role: "asia", name: "Department of Education, Philippines", url: "https://newsinfo.inquirer.net/1940232/deped-all-set-for-june-school-opening-in-25",
+    does: "Lets school heads suspend in-person classes when the heat index is dangerous, and moved the school year back to a June start to keep classes out of the hottest months.", levers: ["keepinschool"] },
   { id: "bdrcs", role: "asia", name: "Bangladesh Red Crescent Society", url: "https://www.atachcommunity.com/our-impact/case-studies/bangladesh-early-action-protocol-for-heat-events/",
     does: "Runs an early action protocol for heat, first activated in April 2024 during Dhaka’s longest recorded heatwave.", levers: ["anticipatory", "coolingcentres"] },
   { id: "icimod", role: "asia", name: "ICIMOD", url: "https://www.downtoearth.org.in/climate-change/existing-solutions-could-slash-soot-emissions-by-80-by-2030-icimod",
@@ -1016,6 +1041,10 @@ const ORGANISATIONS = [
     does: "Tracks heat deaths, lost working hours and other health impacts of climate change every year.", levers: ["countdeaths"] },
   { id: "nushrpc", role: "research", name: "NUS Heat Resilience & Performance Centre", url: "https://medicine.nus.edu.sg/newsletters/issue54/dossier/nus-centre-designated-southeast-asia-hub-for-global-heat-health-info-exchange",
     does: "Hosts the Southeast Asia Hub of the Global Heat Health Information Network, bringing governments and partners together on heat and health.", levers: ["hap", "heatrules"] },
+  { id: "cornellgli", role: "research", name: "Cornell Global Labor Institute", url: "https://www.ilr.cornell.edu/global-labor-institute/higher-ground-fashions-climate-breakdown",
+    does: "With Schroders, mapped heat and flood risk in garment hubs including Dhaka, Hanoi, Ho Chi Minh City and Phnom Penh, and found few fashion brands require heat protection in their supplier codes.", levers: ["heatrules"] },
+  { id: "irri", role: "research", name: "International Rice Research Institute (IRRI)", url: "https://doi.org/10.1073/pnas.0403720101",
+    does: "Showed from its Philippine farm that warmer nights cut rice yields, and breeds rice that copes better with heat.", levers: ["farmcredit"] },
   { id: "icddrb", role: "research", name: "icddr,b", url: "https://www.rockefellerfoundation.org/perspective/who-owns-the-response-to-heat-in-bangladesh-everyone-does/",
     does: "Works with Bangladesh’s Department of Agricultural Extension and others on HeatShield, which helps farmers cope with extreme heat.", levers: ["heatrules"] },
   { id: "brac", role: "research", name: "BRAC James P Grant School of Public Health", url: "https://www.ceew.in/sites/default/files/ceew-sfc-nrdc-unescap-brac-jpgsph-ghhin-countries-synthesis-press-release.pdf",
@@ -1238,8 +1267,6 @@ const ORGANISATIONS = [
   { id: "ccc", role: "funders", name: "Clean Cooling Collaborative (ClimateWorks Foundation)", url: "https://www.cleancoolingcollaborative.org/",
     does: "Mobilises philanthropy for efficient, climate-friendly cooling, including access to cooling and passive design.", levers: ["cleancool", "affordablecool"] },
   /* Beyond the city: rainfed farming, coasts and rivers, older people and disability */
-  { id: "sattva", role: "research", name: "Sattva Consulting", url: "https://www.sattva.co.in/publication/navigating-indias-urban-heat-landscape-from-challenges-to-driving-action/",
-    does: "Mapped India’s urban heat landscape in 2025 with 42 experts: who funds and runs heat action, how far each kind of solution has spread, and what strong city plans include, with a focus on smaller cities.", levers: ["hap", "heatbudget"] },
   { id: "cimmyt", role: "research", name: "CIMMYT (International Maize and Wheat Improvement Center)", url: "https://www.cimmyt.org/projects/heat-stress-tolerant-maize-for-asia/",
     does: "Breeds heat-tolerant maize for rainfed smallholder farms with national research institutes and seed companies. Hybrids are now grown in Bangladesh, Bhutan, India, Nepal and Pakistan.", levers: ["soilwater"] },
   { id: "icrisat", role: "research", name: "ICRISAT", url: "https://www.icrisat.org/key-impacts/climate-action",
@@ -1462,20 +1489,19 @@ const WORKED_EXAMPLES = [
   { id: "thane", place: "Thane, India", group: "city", year: "2024 onwards",
     title: "Thane’s ward-by-ward heat action plan",
     trigger: "In Thane, a fast-growing coastal city next to Mumbai, humidity and warm nights make heat more dangerous than the thermometer suggests, and the risk differs sharply from one ward to the next.",
-    decision: "In March 2024 the Thane Municipal Corporation and CEEW published a heat action plan built on a ward-level risk index of felt heat, warm nights and social vulnerability, including gender, age and disability. A Heatwave Task Force across departments, chaired by an Additional Municipal Commissioner, runs it with emergency procedures. Measures include early warnings, cool roofs and pavements, water stations, shade, and heat preparedness in schools and hospitals, and the plan sets out dedicated municipal funds for carrying it out.",
-    result: "Its effect on illness and deaths has not yet been publicly evaluated. What it shows is a plan that names who acts, where the risk is highest and where the money comes from, before the season starts.",
+    decision: "In March 2024 the Thane Municipal Corporation and CEEW published a heat action plan built on a ward-level risk index of felt heat, warm nights and social vulnerability. A Heatwave Task Force across departments, chaired by an Additional Municipal Commissioner, runs it with emergency procedures. Measures include early warnings, cool roofs and pavements, water stations, shade, and heat preparedness in schools and hospitals.",
+    result: "Its effect on illness and deaths has not yet been publicly evaluated. What it shows is a plan that names who acts and where the risk is highest, before the season starts.",
     actions: [
-      { lever: "hap", lead: "city", payer: "Public budget", measure: "Ward-level risk index updated each season, with task-force actions logged against it" },
+      { lever: "hap", lead: "city", payer: "Not documented", measure: "Ward-level risk index updated each season, with task-force actions logged against it" },
       { lever: "coolingcentres", lead: "city", payer: "Not documented", measure: "Water stations and shaded areas in the highest-risk wards" },
       { lever: "coolhousing", lead: "city", payer: "Not documented", measure: "Cool roofs and cool pavements installed in high-risk wards" },
       { lever: "readyclinics", lead: "health", payer: "Not documented", measure: "Hospitals and schools with heat preparedness procedures" }
     ],
     sources: [
       { label: "CEEW: How can Thane city tackle heatwave risks with a heat action plan", url: "https://www.ceew.in/publications/how-can-thane-city-tackle-heatwaves-risks-with-heat-action-plan" },
-      { label: "Global Heat Health Information Network: Heat Action Plan for Thane City 2024", url: "https://heathealth.info/resources/heat-action-plan-for-thane-city-2024/" },
-      { label: "Sattva Consulting, 2025: dedicated funds and vulnerability by gender, age and disability", url: "https://www.sattva.co.in/publication/navigating-indias-urban-heat-landscape-from-challenges-to-driving-action/" }
+      { label: "Global Heat Health Information Network: Heat Action Plan for Thane City 2024", url: "https://heathealth.info/resources/heat-action-plan-for-thane-city-2024/" }
     ],
-    note: "The plan below is filled in with Thane’s documented measures. Only the heat action plan’s own funding is documented; the rest is marked “Not documented”." },
+    note: "The plan below is filled in with Thane’s documented measures. Who paid is not set out in these sources, so it is marked “Not documented”." },
   { id: "tamilnadu", place: "Tamil Nadu, India", group: "city", year: "2024 onwards",
     title: "Tamil Nadu’s state-wide heat network",
     trigger: "About 68% of Tamil Nadu’s people face 8–9 hours a day of strong heat stress from March to June, and 56% live where summer nights are warmer than the 1981–2011 average. The state’s 2019 heatwave action plan dealt mainly with short-term emergency response.",
@@ -1492,25 +1518,67 @@ const WORKED_EXAMPLES = [
       { label: "WRI India: mapping the path to heat resilience in Tamil Nadu", url: "https://wri-india.org/perspectives/mapping-path-heat-resilience-tamil-nadu" },
       { label: "Tamil Nadu Pollution Control Board, G.O. 215, 2023: the tree cover target", url: "https://tnpcb.gov.in/PDF/About_Us/Announcementgos/GoNo_215_101123.pdf" }
     ],
-    note: "The plan below is filled in with Tamil Nadu’s strategy. Two actions are proposals, not yet in place, and are marked so. Who pays is documented only for the Green Tamil Nadu Mission." }
+    note: "The plan below is filled in with Tamil Nadu’s strategy. Two actions are proposals, not yet in place, and are marked so. Who pays is documented only for the Green Tamil Nadu Mission." },
+  { id: "singapore", place: "Singapore", group: "workers", year: "2023 onwards",
+    title: "Singapore’s heat rules for outdoor work",
+    trigger: "In one of the world’s densest, most humid cities, the commercial centre has measured up to about 7\u00a0°C warmer than the outskirts, and builders, shipyard and landscape workers labour outdoors through it. A study of 355 workers found each hot day cost a median S$21 in lost income.",
+    decision: "In 2023 the National Environment Agency launched a national heat stress advisory based on wet-bulb globe temperature (WBGT), which counts humidity, sun and wind, with low, moderate and high levels. The Ministry of Manpower made employers check WBGT hourly at outdoor work, give at least 10 minutes’ shaded rest each hour for heavy work at 32\u00a0°C or above, help new workers acclimatise, and enforced it.",
+    result: "In March and June 2024 the ministry inspected 250 workplaces and acted against 78, mainly for missing shaded rest breaks and acclimatisation. The rules have since been revised and strengthened. Their effect on heat illness has not yet been publicly evaluated.",
+    actions: [
+      { lever: "heatrules", lead: "nat", payer: "Employers", measure: "Outdoor worksites checking WBGT hourly and giving shaded rest breaks; workplaces inspected" },
+      { lever: "hap", lead: "met", payer: "Not documented", measure: "Heat stress advisory with three WBGT risk levels, shown by location" },
+      { lever: "greencity", lead: "city", payer: "Not documented", measure: "Districts modelled for cooling through Cooling Singapore" }
+    ],
+    sources: [
+      { label: "Ministry of Sustainability and the Environment: Heat Stress Advisory, 2023", url: "https://www.mse.gov.sg/latest-news/press-release-heat-stress-advisory/" },
+      { label: "Ministry of Manpower: enhanced heat stress measures, 2023", url: "https://www.mom.gov.sg/newsroom/press-releases/2023/1024-enhanced-measures-to-reduce-heat-stress-for-outdoor-workers" },
+      { label: "HRD Asia: 78 of 250 worksites non-compliant, 2024", url: "https://www.hcamag.com/asia/specialisation/employment-law/more-than-75-worksites-found-non-compliant-with-singapores-enhanced-heat-stress-measures-report/499570" },
+      { label: "NUS Project HeatSafe, 2024", url: "https://medicine.nus.edu.sg/wp-content/uploads/2024/03/PRESS-RELEASE_Project-HeatSafe-18MAR2024-FOR-IMMEDIATE-RELEASE.pdf" },
+      { label: "Cooling Singapore", url: "https://www.thegpsc.org/sites/gpsc/files/cooling_singapore_-_digital_urban_climate_twin.pdf" }
+    ],
+    note: "The plan below is filled in with Singapore’s documented measures. The rules oblige employers to provide rest and shade; who pays for the advisory and for Cooling Singapore is not set out in these sources." },
+  { id: "dhaka", place: "Dhaka, Bangladesh", group: "city", year: "2023 onwards",
+    title: "Dhaka acts before the heat peaks",
+    trigger: "Bangladesh’s ‘feels-like’ temperature has risen by about 4.5\u00a0°C since 1980, and parts of Dhaka run more than 10\u00a0°C hotter than the countryside. In April 2024 a long heatwave closed schools for about 33 million children.",
+    decision: "In 2023 Dhaka North City Corporation appointed Asia’s first Chief Heat Officer, a post paid for by the Arsht-Rock foundation rather than the city, to bring heat planning together. The same year the Bangladesh Red Crescent Society’s heatwave early action protocol was approved: when forecasts pass 38\u00a0°C, warnings, drinking water, cooling stations and cash grants go out before the peak.",
+    result: "On 21 April 2024 the protocol was activated for Dhaka, with about CHF 500,000 from the IFRC’s emergency fund to reach some 124,000 people. Its effect on illness and deaths has not been publicly evaluated. What it shows is money and a plan agreed before the heat, released by a forecast.",
+    actions: [
+      { lever: "anticipatory", lead: "community", payer: "Not documented", measure: "Days from a 38\u00a0°C forecast to cash, water and warnings reaching people" },
+      { lever: "coolingcentres", lead: "community", payer: "Not documented", measure: "Cooling stations open at three locations during the heatwave" },
+      { lever: "hap", lead: "city", payer: "Philanthropy", measure: "A Chief Heat Officer bringing the city’s heat planning together" }
+    ],
+    sources: [
+      { label: "Red Cross Red Crescent Climate Centre, 2024", url: "https://www.climatecentre.org/13733/red-crescent-activates-early-action-protocol-for-heatwaves-in-dhaka/" },
+      { label: "Arsht-Rock: Dhaka North’s Chief Heat Officer, 2023", url: "https://onebillionresilient.org/2023/05/03/bushra-afreen-dhaka-chief-heat-officer/" },
+      { label: "World Bank, 2025", url: "https://www.worldbank.org/en/news/press-release/2025/09/16/bangladesh-faces-health-and-economic-risks-from-rising-temperature-world-bank" },
+      { label: "NBC News: school closures, 2024", url: "https://www.nbcnews.com/news/world/schools-close-extreme-heat-philippines-bangladesh-asia-rcna149485" }
+    ],
+    note: "The plan below is filled in with Dhaka’s documented actions. The Chief Heat Officer is funded by philanthropy; the early action protocol drew on the IFRC’s emergency fund, which is not one of this tool’s payer options, so it is marked “Not documented”." }
 ];
 
 // What strong city heat plans include, with documented Indian examples. Shown beside step 1 of “Plan a response”.
 const PLAN_CHECKLIST = [
-  { item: "Know who is at risk, ward by ward", eg: "Thane built a ward-level risk index that counts gender, age and disability as well as heat and humidity." },
-  { item: "Set heat thresholds locally", eg: "Uttar Pradesh set heat thresholds for each of its 75 districts. In a 2023 review, only about 10 of 37 Indian heat plans appeared to do so." },
-  { item: "Map the hottest places", eg: "Bhubaneswar and Surat used satellite data to find their hotspots." },
-  { item: "Count lost work and wages, not only illness", eg: "Surat analysed indoor and outdoor workers separately, and Bhubaneswar estimated wage losses." },
-  { item: "Protect people where they work", eg: "Bhubaneswar built shade at busy traffic junctions, cooling kiosks for traffic staff and other outdoor workers, and solar-powered water kiosks." },
-  { item: "Give every department a role for each season", eg: "Thane’s task force is chaired by an Additional Municipal Commissioner; Bhubaneswar and Surat set out roles season by season." },
-  { item: "Ring-fence the money", eg: "Thane’s plan sets out dedicated municipal funds for carrying it out." },
-  { item: "Tie work rules to heat alerts", eg: "Beyond India: since 2023, Spain has required employers to cut or move working hours when the weather agency issues an orange or red heat alert and other measures can’t keep workers safe." }
+  { item: "Know who is at risk, ward by ward", eg: "Thane, India, built a ward-level risk index that combines felt heat, warm nights and social vulnerability." },
+  { item: "Set heat thresholds locally", eg: "Singapore’s national heat stress advisory uses wet-bulb globe temperature, which counts humidity, sun and wind, with three risk levels. In a 2023 review, only about 10 of 37 Indian heat plans appeared to set local thresholds." },
+  { item: "Map the hottest places", eg: "Dhaka North found hotspots more than 10\u00a0°C hotter than the surrounding countryside; Cooling Singapore models where heat builds up, street by street." },
+  { item: "Count lost work and wages, not only illness", eg: "The World Bank estimates heat cost Bangladesh 250 million workdays in 2024, worth up to US$1.78 billion." },
+  { item: "Protect people where they work", eg: "Singapore requires hourly heat checks on outdoor worksites and at least 10 minutes’ shaded rest each hour for heavy work when wet-bulb globe temperature reaches 32\u00a0°C, and inspects for it." },
+  { item: "Give every department a role for each season", eg: "Thane’s heatwave task force is chaired by an Additional Municipal Commissioner; Tamil Nadu convened a Heat Action Network of state departments." },
+  { item: "Ring-fence the money", eg: "Nepal’s Madhesh Province and five of its municipalities committed 5% of sectoral budgets to adaptation and disaster risk reduction, with support from Practical Action and Mercy Corps." },
+  { item: "Release help on the forecast", eg: "In April 2024 the Bangladesh Red Crescent Society activated its heatwave early action protocol for Dhaka before the peak: warnings, drinking water, cooling stations and cash." },
+  { item: "Tie work rules to heat alerts", eg: "Since 2023, Spain has required employers to cut or move working hours when the weather agency issues an orange or red heat alert and other measures can’t keep workers safe." }
 ];
 const PLAN_CHECKLIST_SOURCES = [
-  { label: "Sattva Consulting, 2025", url: "https://www.sattva.co.in/publication/navigating-indias-urban-heat-landscape-from-challenges-to-driving-action/" },
-  { label: "Centre for Policy Research, 2023", url: "https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/" },
   { label: "CEEW on Thane", url: "https://www.ceew.in/publications/how-can-thane-city-tackle-heatwaves-risks-with-heat-action-plan" },
-  { label: "The Statesman on Bhubaneswar", url: "https://www.thestatesman.com/india/bmc-rolls-out-measures-to-shield-citizens-from-heat-wave-1503598967.html" },
+  { label: "Singapore’s Heat Stress Advisory", url: "https://www.mse.gov.sg/latest-news/press-release-heat-stress-advisory/" },
+  { label: "Centre for Policy Research, 2023", url: "https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/" },
+  { label: "Arsht-Rock on Dhaka North", url: "https://onebillionresilient.org/2023/05/03/bushra-afreen-dhaka-chief-heat-officer/" },
+  { label: "Cooling Singapore", url: "https://www.thegpsc.org/sites/gpsc/files/cooling_singapore_-_digital_urban_climate_twin.pdf" },
+  { label: "World Bank, 2025, on Bangladesh", url: "https://www.worldbank.org/en/news/press-release/2025/09/16/bangladesh-faces-health-and-economic-risks-from-rising-temperature-world-bank" },
+  { label: "Singapore Ministry of Manpower", url: "https://www.mom.gov.sg/newsroom/press-releases/2023/1024-enhanced-measures-to-reduce-heat-stress-for-outdoor-workers" },
+  { label: "Tamil Nadu Heat Mitigation Strategy", url: "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf" },
+  { label: "CEEW, Nepal in a Warming World", url: "https://www.ceew.in/publications/nepal-heat-health-action" },
+  { label: "Red Cross Red Crescent Climate Centre on Dhaka", url: "https://www.climatecentre.org/13733/red-crescent-activates-early-action-protocol-for-heatwaves-in-dhaka/" },
   { label: "Garrigues on Spain’s 2023 decree", url: "https://www.garrigues.com/en_GB/new/spain-high-temperatures-will-mean-employers-must-adopt-preventive-measures-order-protect" }
 ];
 
@@ -1543,12 +1611,16 @@ const AT_RISK = [
   { id: "farmers", name: "Smallholder and rainfed farming households",
     exposure: "Work in open fields through the hottest hours, with crops and animals that depend on rain heat makes less reliable.",
     barriers: "Little irrigation, credit, insurance or savings, so one bad season can mean debt, sold animals and lost seed.",
+    fact: "At the International Rice Research Institute’s farm in the Philippines, rice yields fell by about 10% for each 1\u00a0°C rise in growing-season night temperature.",
+    source: { label: "Peng et al., PNAS, 2004", url: "https://doi.org/10.1073/pnas.0403720101" },
     nodes: ["harvests", "farmwork", "livestock", "farmdebt"], levers: ["farmcredit", "soilwater", "irrigate", "socialprotection"] },
   { id: "coastal", name: "Coastal and riverine communities",
     exposure: "Humid heat that stops sweat from cooling the body, warming seas that drive fish away, and warm, low water that spoils drinking supplies.",
     barriers: "Livelihoods tied to one place and one resource, homes on fragile land with insecure tenure, and islands and river banks far from services.",
     fact: "Humidity makes heat far more costly: across 2.7 million firms, ten extra days above 35\u00a0°C cut productivity by 0.75% in very humid places, more than double the average, and barely at all in dry ones.",
     source: { label: "OECD Economics Department, 2024", url: "https://doi.org/10.1787/19d94638-en" },
+    more: [{ fact: "In Viet Nam’s Mekong Delta, a long heatwave in February 2024 lowered canals and let sea water push inland; farmers who pumped the salty water onto their rice lost up to half their crop.",
+      source: { label: "Viet Nam News, 2024", url: "https://vietnamnews.vn/environment/1656592/mekong-delta-faces-severe-drought-salinity-concerns.html" } }],
     nodes: ["marine", "fisheries", "quality", "heatstroke"], levers: ["hap", "socialprotection", "anticipatory", "readyclinics"] },
   { id: "remote", name: "People in remote or poorly served settlements",
     exposure: "Far from clinics, cool shelter, reliable power and phone signal, often at the end of the line for water and electricity.",
@@ -1559,6 +1631,8 @@ const AT_RISK = [
     barriers: "Insecure tenure means families can’t invest in cooler homes and landlords won’t, and settlements are often missing from city plans and services.",
     fact: "In a survey of 860 households in Ahmedabad, people in informal settlements faced temperatures up to 7.6\u00a0°C higher than people in formal housing.",
     source: { label: "Mahadevia et al., 2020, reported in Frontiers in Built Environment, 2022", url: "https://www.frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2022.874751/full" },
+    more: [{ fact: "In Jakarta, dense low-income neighbourhoods act as heat islands; informal workers rarely have fans or air conditioning and cool off on terraces or in parks, while green space is concentrated in wealthier areas.",
+      source: { label: "Ufaira and others, Frontiers in Human Dynamics, 2023", url: "https://www.frontiersin.org/journals/human-dynamics/articles/10.3389/fhumd.2023.1237515/full" } }],
     nodes: ["homes", "uhi", "sleepless", "energypoverty"], levers: ["coolhousing", "coolnights", "coolingcentres", "affordablecool"] },
   { id: "workers", name: "Workers in heat-exposed jobs",
     exposure: "Street vendors, builders, salt-pan workers, waste pickers, rickshaw and delivery workers, traffic police and sanitation staff in the hottest parts of the city; factory workers beside furnaces in unventilated sheds; then hot, crowded homes at night.",
@@ -1567,6 +1641,10 @@ const AT_RISK = [
     source: { label: "Context (Thomson Reuters Foundation), 2024", url: "https://www.context.news/climate-risks/ice-baths-and-ventilators-indias-hospitals-adapt-to-killer-heat" },
     more: [{ fact: "In a survey of 721 Delhi street vendors in 2024, 80% saw fewer customers during heatwaves and 49% lost income.",
       source: { label: "Greenpeace India and National Hawkers Federation, 2024", url: "https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/" } },
+      { fact: "In Singapore, a study of 355 workers found each hot day cost a median S$21 in lost income, about 24% of a day’s median pay, and heat at workplaces was often higher than nearby weather stations showed.",
+      source: { label: "NUS Project HeatSafe, 2024", url: "https://medicine.nus.edu.sg/wp-content/uploads/2024/03/PRESS-RELEASE_Project-HeatSafe-18MAR2024-FOR-IMMEDIATE-RELEASE.pdf" } },
+      { fact: "In Dhaka, Hanoi, Ho Chi Minh City, Phnom Penh and Karachi, garment hubs where factories trap heat, days with wet-bulb temperatures above 30.5\u00a0°C rose by 42% in 2020–24 compared with 2005–09.",
+      source: { label: "Cornell Global Labor Institute and Schroders, Higher Ground?", url: "https://www.ilr.cornell.edu/global-labor-institute/higher-ground-fashions-climate-breakdown" } },
       { fact: "In Tamil Nadu, 68% of people face 8–9 hours a day of strong heat stress from March to June, measured by an index that counts humidity, wind and sun as well as temperature.",
       source: { label: "Tamil Nadu Heat Mitigation Strategy, 2024", url: "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf" } }],
     nodes: ["informal", "lost", "uhi", "heatstroke"], levers: ["heatrules", "heatcash", "socialprotection", "freecare"] },
@@ -1576,7 +1654,9 @@ const AT_RISK = [
     fact: "Rural households headed by women lose about 8% more of their income to heat stress than those headed by men.",
     source: { label: "FAO, The Unjust Climate, 2024", url: "https://www.fao.org/newsroom/detail/fao-report--heatwaves-and-floods-affect-rural-women-and-men-differently--widen-income-gap" },
     more: [{ fact: "In a study of Indian women workers, 87% of those with poor or no toilets at work reported genitourinary problems, and about 1 in 10 showed heat strain and moderate dehydration.",
-      source: { label: "Venugopal et al., Global Health Action, 2016", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5025522/" } }],
+      source: { label: "Venugopal et al., Global Health Action, 2016", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5025522/" } },
+      { fact: "In Nepal’s Madhesh Province, women cooking in hot, smoky kitchens carry a daily ‘thermal labour’ that falls hardest on Dalit women in single-room homes with little access to clean energy or credit.",
+      source: { label: "Ghimire and others, Frontiers in Public Health, 2025", url: "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1657267/full" } }],
     nodes: ["care", "fetching", "gbv", "inequality"], levers: ["heatcash", "socialprotection", "hap", "coolhousing"] },
   { id: "mothers", name: "Pregnant women, babies and young children",
     exposure: "Pregnancy strains the body’s cooling, and babies overheat and dehydrate faster than adults.",
@@ -1624,8 +1704,8 @@ const STALLS = [
     moves: ["Set aside a heat budget before the season starts", "Write heat targets into schemes that already have money, such as urban infrastructure, housing and street-vendor support", "Agree forecast triggers that release money before the peak", "Report progress publicly every year, so prevention becomes visible"],
     fact: "Of the 37 plans, 11 discussed funding, and 8 of those simply asked departments to find their own money.",
     source: { label: "Centre for Policy Research, 2023", url: "https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/" },
-    more: [{ fact: "About 38% of India’s state disaster response funds were still unspent in 2024–25, and national schemes for urban infrastructure and street vendors carry no explicit heat targets.",
-      source: { label: "Sattva Consulting, 2025", url: "https://www.sattva.co.in/publication/navigating-indias-urban-heat-landscape-from-challenges-to-driving-action/" } }],
+    more: [{ fact: "In Nepal’s Madhesh Province, where the southern plains passed 40\u00a0°C on 50 days in 2024, the province and five municipalities committed 5% of sectoral budgets to adaptation and disaster risk reduction, after resilience assessments in 57 communities supported by Practical Action and Mercy Corps through the Zurich Climate Resilience Alliance.",
+      source: { label: "CEEW, Nepal in a Warming World, 2025", url: "https://www.ceew.in/publications/nepal-heat-health-action" } }],
     levers: ["heatbudget", "anticipatory"], loops: ["reactive"] },
   { id: "invisible", name: "Heat stays invisible",
     sign: "Deaths are recorded as heart or kidney failure, local risk is not mapped, and heat feels like normal weather rather than an emergency.",
@@ -1652,7 +1732,7 @@ const STALLS = [
   { id: "scale", name: "Good solutions stay small",
     sign: "Cool roofs, efficient cooling and heat insurance work in pilots, but prices stay high, standards are missing and finance does not follow.",
     moves: ["Pool purchases across cities and agencies to bring prices down", "Set performance standards and labels so buyers can trust products", "Blend public and private money so pilots can grow"],
-    fact: "A review of India’s urban heat solutions found none had yet reached widespread use. Cool roofs and other built fixes mostly remain pilots, and health and social protection against heat are among the least developed.",
-    source: { label: "Sattva Consulting, 2025", url: "https://www.sattva.co.in/publication/navigating-indias-urban-heat-landscape-from-challenges-to-driving-action/" },
+    fact: "Heat early warnings are among the best-proven protections, yet roughly half of all countries still have no heat early warning system.",
+    source: { label: "IFRC, Practical Action and the Climate Centre, 2026", url: "https://www.preventionweb.net/publication/documents-and-publications/understanding-global-landscape-heat-early-warning-systems" },
     levers: ["coolhousing", "cleancool", "riskpools"], loops: ["protection"] }
 ];

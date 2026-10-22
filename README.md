@@ -14,7 +14,7 @@ This website is an **interactive systems map** of extreme heat. It shows:
 - **how soon each lever works** (this season, 1–3 years, or a decade or more), and a "Before this summer" package;
 - **a 60-second tour** for first-time visitors;
 - **the heat network**: organisations already working on heat, the levers they pull, and where the gaps may be;
-- **Plan a response**: a workshop tool that turns the map into a one-page plan (who leads, who pays, how you will know it works), with Ahmedabad, Thane and Tamil Nadu as worked examples;
+- **Plan a response**: a workshop tool that turns the map into a one-page plan (who leads, who pays, how you will know it works), with Ahmedabad, Thane, Tamil Nadu, Singapore and Dhaka as worked examples;
 - **a plain-language glossary**: 25 terms in five groups near the bottom of the page; across the site, these words are underlined with dots and tapping one explains it.
 
 Visitors can drag and zoom the map, tap any dot, follow a ripple, walk through any vicious cycle, and choose an institution to see which loops it can help break.
@@ -57,7 +57,7 @@ Open `data.js` on GitHub and click the **pencil icon** (✏️). The file has ei
 3. **LINKS**: arrows between consequences, written as `["from-id", "to-id", "Why one leads to the other."]`. Add `"loop"` as a fourth item for a link that closes a vicious cycle; it will be drawn in red.
 4. **LOOPS**: the vicious cycles. `path` lists the steps in order, and the last step leads back to the first. Every step-to-step link must exist in LINKS.
 5. **INSTITUTIONS**: who holds the levers.
-6. **LEVERS**: the breaking points. `edge` is the link it cuts, `who` lists the institutions that can pull it, and `when` says how soon it works: `"season"`, `"years"` or `"decade"`. Every `"season"` lever is switched on by the "Before this summer" package automatically. An optional `spread` (`"early"` or `"spreading"`) shows how far that kind of action has spread in Indian cities, from a 2025 review; leave it out where there is no such evidence.
+6. **LEVERS**: the breaking points. `edge` is the link it cuts, `who` lists the institutions that can pull it, and `when` says how soon it works: `"season"`, `"years"` or `"decade"`. Every `"season"` lever is switched on by the "Before this summer" package automatically.
 7. **STORIES**: the guided path "From field to family".
 8. **LOOP_PLACES**: for each vicious cycle, places in Asia where it plays out ("Where to look").
 9. **PACKAGES**: the policy packages in the "Break the loops" bar. Each lists the levers it switches on.

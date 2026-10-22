@@ -673,8 +673,6 @@
   }
 
   // how far this kind of action has spread in Indian cities (data.js, part 6, "spread")
-  const SPREAD = { early: "Early pilots in a few places", spreading: "Piloted across several states" };
-  const spreadNote = v => v.spread && SPREAD[v.spread] ? `<p class="spread spread--${v.spread}"><b>In Indian cities:</b> ${SPREAD[v.spread]}. No kind of heat solution has yet reached widespread use. <span>${extLink("https://www.sattva.co.in/publication/navigating-indias-urban-heat-landscape-from-challenges-to-driving-action/", "Sattva Consulting, 2025")}</span></p>` : "";
 
   function selectLever(id) {
     const v = leverById[id]; if (!v) return;
@@ -859,7 +857,6 @@
       <p class="panel__kicker is-break"><span class="lever-icon lever-icon--sm" aria-hidden="true"></span>Where it breaks</p>
       <h2 class="panel__title">${esc(v.title)}</h2>
       ${whenTag(v)}
-      ${spreadNote(v)}
       <p class="panel__desc">${gloss(v.text)}</p>
       <button class="lever-switch${state.on.has(v.id) ? " is-on" : ""}" data-act="toggle-lever" data-id="${v.id}" aria-pressed="${state.on.has(v.id)}">
         <span class="lever-switch__track" aria-hidden="true"></span>
