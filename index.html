@@ -32,7 +32,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap">
 
-  <link rel="stylesheet" href="styles.css?v=39">
+  <link rel="stylesheet" href="styles.css?v=40">
 
   <script type="application/ld+json">
   {
@@ -67,8 +67,8 @@
     }
   }
   </script>
-  <script src="data.js?v=39" defer></script>
-  <script src="script.js?v=39" defer></script>
+  <script src="data.js?v=40" defer></script>
+  <script src="script.js?v=40" defer></script>
 </head>
 
 <body>
@@ -93,7 +93,7 @@
     <section class="intro">
       <!-- Background loop: decorative, muted, no sound. Started by script.js only when motion is welcome. -->
       <div class="intro__bg" aria-hidden="true">
-        <video class="intro__video" id="intro-video" muted loop playsinline preload="none" poster="media/hero/web.jpg" tabindex="-1">
+        <video class="intro__video" id="intro-video" autoplay muted loop playsinline preload="none" poster="media/hero/web.jpg" tabindex="-1">
           <source src="media/hero/web.mp4" type="video/mp4">
           <source src="media/hero/web.webm" type="video/webm">
         </video>
@@ -196,6 +196,15 @@
 
     <!-- ============ 3. WHERE THE LOOPS BREAK ============ -->
     <section class="loops" id="loops" aria-labelledby="loops-title">
+      <!-- Hope behind the heading: rooftops being painted white. AI-generated, illustrative, muted. Started by script.js. -->
+      <div class="loops__scene" aria-hidden="true">
+        <video class="loops__video" id="roofs-video" muted loop playsinline preload="none" poster="media/loops-break/roofs.jpg" tabindex="-1">
+          <source src="media/loops-break/roofs.mp4" type="video/mp4">
+          <source src="media/loops-break/roofs.webm" type="video/webm">
+        </video>
+      </div>
+      <button type="button" class="scene-pause" id="roofs-pause" aria-pressed="false" hidden><span class="intro__pause-icon" aria-hidden="true"></span><span class="visually-hidden">Pause background footage</span></button>
+      <p class="scene-note">AI-generated footage, illustrative: cool roofs being painted</p>
       <div class="container">
         <p class="eyebrow eyebrow--break">Where the loops break</p>
         <h2 id="loops-title" class="h2"><span class="num-urgent" data-stat="loops">18</span> vicious cycles.<br><span class="num-break" data-stat="levers">26</span> ways to break them.</h2>

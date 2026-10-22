@@ -20,35 +20,48 @@
 
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  // Background loops (title web, heatwave rooftops). Play by default; start paused for reduced motion or data saver,
-  // and whenever the browser refuses to autoplay. The play/pause button is always there, and a visitor's choice is remembered.
+  // Background loops (title web, heatwave rooftops, cool roofs). They always play and loop; only the visitor's own
+  // pause stops them, and that choice is remembered. Off screen or in a hidden tab they rest and resume by themselves.
+  // If a browser refuses to autoplay (e.g. phone low power mode), they start at the visitor's first tap or key press.
+  const ambient = [];
   function ambientLoop(videoId, btnId, key, noun) {
     const v = document.getElementById(videoId), btn = document.getElementById(btnId);
     if (!v || !btn) return;
-    const saveData = navigator.connection && navigator.connection.saveData;
     let stored = null; try { stored = localStorage.getItem(key); } catch (e) {}
-    let paused = stored === "1" || (stored !== "0" && (reduceMotion || saveData)), onScreen = false;
+    let paused = stored === "1", blocked = false, onScreen = false;
     v.muted = true; v.defaultMuted = true;
     const label = () => {
-      btn.setAttribute("aria-pressed", String(paused));
-      btn.querySelector(".visually-hidden").textContent = (paused ? "Play " : "Pause ") + noun;
+      const still = paused || blocked;
+      btn.setAttribute("aria-pressed", String(still));
+      btn.querySelector(".visually-hidden").textContent = (still ? "Play " : "Pause ") + noun;
     };
     const sync = () => {
-      label();
-      if (!paused && onScreen) {
+      if (!paused && onScreen && !document.hidden) {
         if (v.preload !== "auto") v.preload = "auto";
         const p = v.play();
-        if (p && p.catch) p.catch(() => { paused = true; label(); }); // autoplay blocked (e.g. low power mode): offer play
+        if (p && p.then) p.then(() => { blocked = false; label(); }, () => { blocked = true; label(); });
       } else v.pause();
+      label();
     };
     btn.hidden = false;
-    btn.addEventListener("click", () => { paused = !paused; try { localStorage.setItem(key, paused ? "1" : "0"); } catch (e) {} sync(); });
+    btn.addEventListener("click", () => {
+      if (blocked) { blocked = false; paused = false; } else paused = !paused;
+      try { localStorage.setItem(key, paused ? "1" : "0"); } catch (e) {}
+      sync();
+    });
+    v.addEventListener("playing", () => { blocked = false; label(); }); // the button always reflects what is really happening
+    // if something other than the visitor pauses it, start it again
+    v.addEventListener("pause", () => setTimeout(() => { if (v.paused && !paused && onScreen && !document.hidden) sync(); }, 400));
     if ("IntersectionObserver" in window) new IntersectionObserver(es => { onScreen = es[0].isIntersecting; sync(); }, { rootMargin: "200px 0px" }).observe(v);
-    else onScreen = true;
-    label(); if (onScreen) sync();
+    else { onScreen = true; sync(); }
+    label();
+    ambient.push(() => { if (!paused && onScreen && v.paused) sync(); });
   }
+  ["pointerdown", "keydown", "touchend"].forEach(t => document.addEventListener(t, () => ambient.forEach(f => f()), { passive: true }));
+  document.addEventListener("visibilitychange", () => { if (!document.hidden) ambient.forEach(f => f()); });
   ambientLoop("intro-video", "intro-pause", "bth-hero-paused", "background animation");
   ambientLoop("day-video", "day-pause", "bth-day-paused", "background footage");
+  ambientLoop("roofs-video", "roofs-pause", "bth-roofs-paused", "background footage");
   const isDesktop = () => window.matchMedia("(min-width: 1100px)").matches;
   const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const plain = n => n.label.replace(/\n/g, " ");
@@ -1394,7 +1407,7 @@
   function endWebOn(on) {
     if (!endWeb) return;
     let stored = null; try { stored = localStorage.getItem("bth-hero-paused"); } catch (e) {}
-    const still = stored === "1" || (stored !== "0" && (reduceMotion || (navigator.connection && navigator.connection.saveData)));
+    const still = stored === "1"; // like the title's loop, it moves unless the visitor paused it
     if (on && !still) { endWeb.muted = true; endWeb.preload = "auto"; const p = endWeb.play(); if (p && p.catch) p.catch(() => {}); } else endWeb.pause();
   }
 

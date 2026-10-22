@@ -489,6 +489,16 @@ button { font: inherit; color: inherit; }
 
 /* ---------- 3. Where the loops break ---------- */
 .loops { padding: clamp(64px, 9vw, 128px) 0; background: var(--white); border-top: 1px solid var(--line); }
+/* Cool roofs behind the heading: strongest white wash over the text on the left, roofs showing on the right, fading to white */
+.loops { position: relative; isolation: isolate; overflow: hidden; }
+.loops__scene { position: absolute; left: 0; right: 0; top: 0; height: clamp(400px, 40vw, 580px); z-index: -1; pointer-events: none; }
+.loops__video { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 60% 50%; }
+.loops__scene::after { content: ""; position: absolute; inset: 0;
+  background: linear-gradient(to right, rgba(255,255,255,.95) 0%, rgba(255,255,255,.92) 52%, rgba(255,255,255,.45) 80%, rgba(255,255,255,.3) 100%),
+              linear-gradient(to bottom, rgba(255,255,255,0) 60%, var(--white) 100%); }
+@media (max-width: 720px) { .loops__scene::after { background: linear-gradient(to bottom, rgba(255,255,255,.91) 0%, rgba(255,255,255,.92) 70%, var(--white) 100%); } }
+.scene-note { position: absolute; right: clamp(56px, 6vw, 72px); top: clamp(16px, 2.4vw, 26px); z-index: 1; margin: 0; padding: 3px 9px; border-radius: 999px; background: rgba(255,255,255,.85); font-size: .75rem; color: var(--grey-700); }
+@media (max-width: 560px) { .scene-note, .day__scene-note { max-width: calc(100% - 120px); text-align: right; } }
 .loops .eyebrow { margin-bottom: 20px; }
 .num-urgent { color: var(--red); }
 .num-break { color: var(--teal); }
