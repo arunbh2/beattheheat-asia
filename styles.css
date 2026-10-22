@@ -137,6 +137,27 @@ button { font: inherit; color: inherit; }
 
 /* ---------- 1. Intro ---------- */
 .intro { padding: clamp(36px, 6vw, 88px) 0 clamp(28px, 4vw, 48px); text-align: center; }
+/* Hero background loop: a quiet web of lines at the edges. The wash keeps the centre calm so text stays crisp. */
+.intro { position: relative; isolation: isolate; overflow: hidden; }
+.intro__bg { position: absolute; inset: 0; z-index: -1; pointer-events: none; }
+.intro__video { display: block; width: 100%; height: 100%; object-fit: cover; }
+.intro__bg::after {
+  content: ""; position: absolute; inset: 0;
+  background:
+    linear-gradient(to right, rgba(250,247,242,.2) 0%, rgba(250,247,242,.96) 11%, rgba(250,247,242,.96) 89%, rgba(250,247,242,.2) 100%),
+    linear-gradient(to bottom, rgba(250,247,242,0) 72%, var(--canvas) 100%);
+}
+@media (max-width: 720px) { .intro__bg::after { background: rgba(250,247,242,.93); } }
+.intro__flag { position: relative; padding: 4px 12px; border-radius: 999px; background: var(--canvas); }
+.intro__pause {
+  position: absolute; right: clamp(10px, 2vw, 22px); bottom: clamp(10px, 2vw, 18px); z-index: 1;
+  width: 36px; height: 36px; display: grid; place-items: center; padding: 0;
+  border: 2px solid var(--ink); border-radius: 50%; background: var(--canvas); color: var(--ink); cursor: pointer;
+}
+.intro__pause:hover { background: var(--ink); color: var(--canvas); }
+.intro__pause:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
+.intro__pause-icon { width: 10px; height: 12px; border-left: 3px solid currentColor; border-right: 3px solid currentColor; }
+.intro__pause[aria-pressed="true"] .intro__pause-icon { width: 0; height: 0; border: 0; border-left: 11px solid currentColor; border-top: 7px solid transparent; border-bottom: 7px solid transparent; margin-left: 3px; }
 .intro__flag {
   display: inline-flex; align-items: center; gap: 10px;
   margin-bottom: clamp(14px, 2vw, 22px);

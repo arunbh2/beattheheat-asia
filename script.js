@@ -19,6 +19,25 @@
   if (!svg || typeof SYSTEMS === "undefined") return;
 
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  // Hero background loop: plays only when motion is welcome, pauses off screen, and can be paused (remembered per viewer).
+  (function heroLoop() {
+    const v = document.getElementById("intro-video"), btn = document.getElementById("intro-pause");
+    if (!v || !btn) return;
+    const saveData = navigator.connection && navigator.connection.saveData;
+    if (reduceMotion || saveData) return; // the still poster stays
+    let paused = false, onScreen = true;
+    try { paused = localStorage.getItem("bth-hero-paused") === "1"; } catch (e) {}
+    const sync = () => {
+      btn.setAttribute("aria-pressed", String(paused));
+      btn.querySelector(".visually-hidden").textContent = paused ? "Play background animation" : "Pause background animation";
+      if (!paused && onScreen) { const p = v.play(); if (p && p.catch) p.catch(() => {}); } else v.pause();
+    };
+    v.preload = "auto"; btn.hidden = false;
+    btn.addEventListener("click", () => { paused = !paused; try { localStorage.setItem("bth-hero-paused", paused ? "1" : "0"); } catch (e) {} sync(); });
+    if ("IntersectionObserver" in window) new IntersectionObserver(es => { onScreen = es[0].isIntersecting; sync(); }).observe(v);
+    sync();
+  })();
   const isDesktop = () => window.matchMedia("(min-width: 1100px)").matches;
   const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const plain = n => n.label.replace(/\n/g, " ");
