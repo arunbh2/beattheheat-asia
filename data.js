@@ -11,14 +11,15 @@
    ========================================================== */
 
 /* ---------- 1. SYSTEMS (drawn clockwise from the top) ---------- */
+// rings: 3 and space (optional) give a system with many long labels a third ring and a wider slice of the wheel.
 const SYSTEMS = [
   { id: "nature",    label: "Nature and\necosystems",     color: "#4E7A57",
     desc: "Heat dries land, burns forests, melts ice and warms the sea, wearing down the ecosystems that feed, water and shelter us." },
   { id: "food",      label: "Food and\nagriculture",      color: "#7D8A34",
     desc: "Crops, animals, fisheries and the people who work them all have heat limits. Cross them and food gets scarcer and dearer." },
-  { id: "water",     label: "Water",                      color: "#5679A8",
+  { id: "water",     label: "Water",                      color: "#5679A8", space: 2,
     desc: "Heat raises the demand for water just as it shrinks the supply, and lowers its quality." },
-  { id: "energy",    label: "Energy",                     color: "#B07A26",
+  { id: "energy",    label: "Energy",                     color: "#B07A26", rings: 3, space: 2,
     desc: "Heat drives up demand for cooling while cutting the ability of power plants and grids to supply it." },
   { id: "cities",    label: "Cities and\ninfrastructure", color: "#5B6573",
     desc: "Concrete, crowding and ageing infrastructure turn cities into amplifiers of heat." },
@@ -75,7 +76,7 @@ const CONSEQUENCES = [
     desc: "After a failed season, farmers borrow at high interest or sell livestock, land and seed to get by." },
 
   /* Water */
-  { id: "scarcity", sys: "water", label: "Water\nshortages", labelAt: "above",
+  { id: "scarcity", sys: "water", label: "Water\nshortages",
     desc: "Taps run dry and wells fall just as people, crops and animals need more water to cope with the heat." },
   { id: "quality", sys: "water", label: "Water quality\nfalls",
     desc: "Warm, low water breeds algae and bacteria and concentrates pollution." },

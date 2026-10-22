@@ -320,7 +320,10 @@ button { font: inherit; color: inherit; }
 
 .node--leaf.lbl-off .node__label { opacity: 0; }
 .node--leaf.lbl-off:hover .node__label,
-.node--leaf.lbl-off:focus-visible .node__label { opacity: 1; }
+.node--leaf.lbl-off:focus-visible .node__label,
+.node--leaf.lbl-off[data-hover] .node__label,
+.node--leaf.lbl-off[data-kbd] .node__label { opacity: 1; }
+.labels, .node--label-only { pointer-events: none; cursor: default; }
 
 .hub__halo { fill: var(--orange); opacity: 0; pointer-events: none; }
 .hub__ring { fill: none; stroke: var(--ink); stroke-width: 4; stroke-dasharray: 12 12; transform-box: fill-box; transform-origin: center; animation: spin 120s linear infinite; }
@@ -552,6 +555,14 @@ button { font: inherit; color: inherit; }
 
 /* ---------- 4. Wicked ---------- */
 .wicked { padding: clamp(64px, 10vw, 140px) 0; background: var(--ink); color: var(--canvas); }
+/* Dusk behind the heading: darkest over the text on the left, the towers showing on the right, fading into the section */
+.wicked { position: relative; isolation: isolate; overflow: hidden; overflow: clip; }
+.wicked__scene { position: absolute; left: 0; right: 0; top: 0; height: clamp(460px, 50vw, 700px); z-index: -1; pointer-events: none; }
+.wicked__video { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 55% 55%; }
+.wicked__scene::after { content: ""; position: absolute; inset: 0;
+  background: linear-gradient(to right, rgba(22,32,43,.7) 0%, rgba(22,32,43,.55) 50%, rgba(22,32,43,.18) 85%, rgba(22,32,43,.1) 100%),
+              linear-gradient(to bottom, rgba(22,32,43,0) 55%, var(--ink) 100%); }
+@media (max-width: 720px) { .wicked__scene::after { background: linear-gradient(to bottom, rgba(22,32,43,.6) 0%, rgba(22,32,43,.7) 70%, var(--ink) 100%); } }
 .wicked .eyebrow { margin-bottom: 20px; }
 .wicked__note { max-width: 40rem; margin-top: 24px; color: rgba(250,247,242,.75); }
 .traits { list-style: none; padding: 0; margin-top: clamp(40px, 6vw, 72px); display: grid; counter-reset: t; }
