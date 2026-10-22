@@ -716,6 +716,7 @@
       <p class="panel__desc">${gloss(step.text)}</p>
       ${step.loopAll && !step.levers && story.loop ? chainHTML(story.loop) : ""}
       ${step.place ? `<p class="place"><span>Where to look</span>${esc(step.place)}</p>` : ""}
+      ${story.loop && state.step === 0 ? watchButton("loop:" + story.loop.id, "Watch this loop") : ""}
       ${story.loop && state.step === 0 ? evidenceHTML(story.loop, false) : ""}
       ${story.loop && isBroken(story.loop.id) ? `<p class="broken-note">✓ The actions you’ve switched on could help interrupt this cycle</p>` : ""}
       ${step.levers && story.loop.levers.length ? `<ul class="lever-list">${story.loop.levers.map(lid => leverItem(leverById[lid])).join("")}</ul>` : ""}
@@ -1379,23 +1380,53 @@
     filmTitle.innerHTML = filmTitleHTML;
     showDialog(opener);
   }
-  function openExplainer(id, opener, autoplay = true) {
-    const g = glossById[id]; if (!film || !g || !g.video) return;
-    setMode("term"); termNow = g;
-    filmTitle.innerHTML = `${esc(g.term)} <span>· plain-language glossary, ${esc(g.length || "0:30")}</span>`;
-    termVideo.poster = g.video.replace(/\.mp4$/, ".jpg");
-    termVideo.src = g.video;
-    termVideo.setAttribute("aria-label", `${g.term}: a 30-second explainer`);
-    document.getElementById("term-note").innerHTML = `<strong>${esc(g.term)}.</strong> ${esc(g.text)} <span class="film__note-meta">Captions are part of the picture.</span>`;
-    const k = VIDEO_TERMS.indexOf(g), next = VIDEO_TERMS[k + 1];
+  // every short film the player can show: glossary terms, vicious cycles and section films
+  const VIDEO_LOOPS = LOOPS.filter(l => l.video);
+  const SFILMS = typeof SECTION_FILMS !== "undefined" ? SECTION_FILMS : [];
+  const filmFor = id => SFILMS.find(f => f.id === id);
+  function clipFor(key) {
+    const [kind, id] = key.includes(":") ? key.split(":") : ["term", key];
+    const note = (title, text) => `<strong>${esc(title)}.</strong> ${esc(text)} <span class="film__note-meta">Captions are part of the picture.</span>`;
+    if (kind === "term") {
+      const g = glossById[id]; if (!g || !g.video) return null;
+      const next = VIDEO_TERMS[VIDEO_TERMS.indexOf(g) + 1];
+      return { key: "term:" + id, title: g.term, label: "plain-language glossary", video: g.video, length: g.length, note: note(g.term, g.text),
+        next: next && { key: "term:" + next.id, title: next.term }, hash: "watch-" + id, endK: "Plain-language glossary", back: { label: "See all the terms", act: "glossary" } };
+    }
+    if (kind === "loop") {
+      const l = loopById[id]; if (!l || !l.video) return null;
+      const next = VIDEO_LOOPS[VIDEO_LOOPS.indexOf(l) + 1];
+      return { key: "loop:" + id, title: l.name, label: "vicious cycle", video: l.video, length: l.length, note: note(l.name, l.summary),
+        next: next && { key: "loop:" + next.id, title: next.name }, hash: "watch-loop-" + id, endK: "Vicious cycles", back: { label: "Walk through it on the map", act: "loop", id } };
+    }
+    if (kind === "film") {
+      const f = filmFor(id); if (!f || !f.video) return null;
+      return { key: "film:" + id, title: f.title, label: f.label, video: f.video, length: f.length, note: note(f.title, f.text),
+        next: null, hash: "watch-" + id, endK: f.label, back: f.back };
+    }
+    return null;
+  }
+  function openExplainer(key, opener, autoplay = true) {
+    const c = clipFor(key); if (!film || !c) return;
+    setMode("term"); termNow = c;
+    filmTitle.innerHTML = `${esc(c.title)} <span>· ${esc(c.label)}, ${esc(c.length || "0:30")}</span>`;
+    termVideo.poster = c.video.replace(/\.mp4$/, ".jpg");
+    termVideo.src = c.video;
+    termVideo.setAttribute("aria-label", `${c.title}: a short film`);
+    document.getElementById("term-note").innerHTML = c.note;
     const nextBtn = document.getElementById("term-next");
-    nextBtn.hidden = !next;
-    if (next) { nextBtn.dataset.id = next.id; nextBtn.innerHTML = `Next: ${esc(next.term)} <span aria-hidden="true">→</span>`; }
-    document.getElementById("term-end-h").textContent = next ? "Keep going?" : "That’s all for now";
-    setHash("watch-" + g.id);
+    nextBtn.hidden = !c.next;
+    if (c.next) { nextBtn.dataset.id = c.next.key; nextBtn.innerHTML = `Next: ${esc(c.next.title)} <span aria-hidden="true">→</span>`; }
+    const backBtn = document.getElementById("term-back");
+    backBtn.hidden = !c.back;
+    if (c.back) { backBtn.textContent = c.back.label; backBtn.dataset.back = c.back.act; backBtn.dataset.id = c.back.id || ""; }
+    document.getElementById("term-end-k").textContent = c.endK;
+    document.getElementById("term-end-h").textContent = c.next ? "Keep going?" : "That’s all for now";
+    setHash(c.hash);
     if (autoplay) showDialog(opener);
     else { filmOpener = opener || null; if (typeof film.showModal === "function") film.showModal(); else film.setAttribute("open", ""); document.body.classList.add("film-open"); }
   }
+  const watchButton = (key, label, cls = "watch-btn") => { const c = clipFor(key); return c ? `<button type="button" class="${cls}" data-watch="${key}"><span class="play-icon" aria-hidden="true"></span>${esc(label)} <span class="watch-btn__len">${esc(c.length || "")}</span></button>` : ""; };
   function closeFilm() {
     if (!film) return;
     filmVideo.pause(); termVideo.pause();
@@ -1415,7 +1446,12 @@
       if (what === "close") closeFilm();
       else if (what === "replay") { filmEnd.hidden = true; termEnd.hidden = true; const v = activeVideo(); v.currentTime = 0; v.play(); }
       else if (what === "next") openExplainer(b.dataset.id, filmOpener);
-      else if (what === "glossary") { filmOpener = null; closeFilm(); const el = document.getElementById("glossary"); if (el) el.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" }); }
+      else if (what === "back") {
+        filmOpener = null; closeFilm();
+        const act = b.dataset.back;
+        if (act === "loop") goToMap(() => startStory(b.dataset.id));
+        else { const el = document.getElementById(act); if (el) el.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" }); }
+      }
       else if (what === "tour") { filmOpener = null; closeFilm(); goToMap(() => tourStep(0)); }
       else if (what === "explore") { filmOpener = null; closeFilm(); document.getElementById("explore").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" }); }
     });
@@ -1432,9 +1468,12 @@
       openExplainer(b.dataset.watch, opener);
     });
     // tell search engines about the explainers
-    if (VIDEO_TERMS.length) {
+    if (VIDEO_TERMS.length || VIDEO_LOOPS.length) {
       const ld = document.createElement("script"); ld.type = "application/ld+json";
-      ld.textContent = JSON.stringify(VIDEO_TERMS.map(g => ({ "@context": "https://schema.org", "@type": "VideoObject", name: `${g.term}: plain-language glossary`, description: g.text,
+      const allClips = [...VIDEO_TERMS.map(g => ({ term: `${g.term}: plain-language glossary`, text: g.text, video: g.video, length: g.length })),
+        ...VIDEO_LOOPS.map(l => ({ term: `${l.name}: a vicious cycle of extreme heat`, text: l.summary, video: l.video, length: l.length })),
+        ...SFILMS.filter(f => f.video).map(f => ({ term: f.title, text: f.text, video: f.video, length: f.length }))];
+      ld.textContent = JSON.stringify(allClips.map(g => ({ "@context": "https://schema.org", "@type": "VideoObject", name: g.term, description: g.text,
         thumbnailUrl: location.origin + location.pathname.replace(/[^/]*$/, "") + g.video.replace(/\.mp4$/, ".jpg"), contentUrl: location.origin + location.pathname.replace(/[^/]*$/, "") + g.video,
         uploadDate: "2026-10-22", duration: "PT" + (g.length || "0:30").split(":").reduce((m, x, i) => i === 0 ? +x : `${m}M${+x}S`, 0), inLanguage: "en" })));
       document.head.appendChild(ld);
@@ -1554,6 +1593,7 @@
               <span class="ev ev--broken">✓ Action switched on</span>
             </div>
             <p class="lrow__sum">${gloss(l.summary)}</p>
+            ${watchButton("loop:" + l.id, "Watch this loop")}
             ${chainHTML(l)}
             ${typeof LOOP_PLACES !== "undefined" && LOOP_PLACES[l.id] ? `<p class="place"><span>Where to look</span>${esc(LOOP_PLACES[l.id])}</p>` : ""}
             ${evidenceHTML(l, false)}
@@ -1617,6 +1657,7 @@
       role = b.dataset.role; expanded = false; showOrgs();
     });
     showOrgs();
+    const gf = document.getElementById("gaps-film"); if (gf) gf.innerHTML = watchButton("film:gaps", "Watch: where the gaps may be");
     const ranked = LOOPS.map(l => ({ l, n: orgsForLoop(l).length })).sort((a, b) => a.n - b.n);
     const max = Math.max(...ranked.map(x => x.n), 1);
     gaps.innerHTML = ranked.map(({ l, n }) => `
@@ -1720,6 +1761,8 @@
     else if (hash.startsWith("who-") && instById[hash.slice(4)]) selectInstitution(hash.slice(4));
     else if (hash.startsWith("package-") && (pkgById[hash.slice(8)] || hash.slice(8) === "all")) applyPackage(hash.slice(8));
     // a shared glossary link opens the explainer ready to play; it never starts with sound by itself
+    else if (hash.startsWith("watch-loop-") && loopById[hash.slice(11)]) openExplainer("loop:" + hash.slice(11), null, false);
+    else if (hash.startsWith("watch-") && filmFor(hash.slice(6))) openExplainer("film:" + hash.slice(6), null, false);
     else if (hash.startsWith("watch-") && glossById[hash.slice(6)]) openExplainer(hash.slice(6), null, false);
   }
 

@@ -368,6 +368,7 @@ const LOOP_GROUPS = [
   { id: "inst",    name: "Loops inside institutions" }
 ];
 
+// video and length (optional): a short film about the loop in media/loops/, with a .jpg cover of the same name.
 const LOOPS = [
   { id: "global", group: "heat", name: "The global cooling loop", evidence: "established",
     path: ["heat", "energy", "demand", "emissions"],
@@ -423,7 +424,7 @@ const LOOPS = [
   { id: "reactive", group: "inst", name: "The reactive-spending loop", evidence: "emerging",
     path: ["budgets", "underfund", "emergency"],
     summary: "Stretched budgets skimp on prevention. Emergencies multiply, and costly emergency response stretches budgets further." },
-  { id: "protection", group: "inst", name: "The protection-gap loop", evidence: "emerging",
+  { id: "protection", group: "inst", name: "The protection-gap loop", evidence: "emerging", video: "media/loops/protection.mp4", length: "0:52",
     path: ["insurance", "budgets", "underfund"],
     summary: "As insurers retreat, public budgets absorb the losses, protection is cut, and the risk drives insurers further away." }
 ];
@@ -1110,11 +1111,11 @@ const GLOSSARY = [
     text: "A public place, such as a library, school or community hall, kept cool during heatwaves for people with no cool space at home." },
   { id: "parametric", group: "money", term: "Parametric insurance", match: "parametric", video: "media/glossary/parametric.mp4", length: "0:36",
     text: "Insurance that pays out automatically when a measured trigger, such as a temperature threshold, is crossed. There is no claim form and no damage assessment." },
-  { id: "basisrisk", group: "money", term: "Basis risk", match: "basis risk",
+  { id: "basisrisk", group: "money", term: "Basis risk", match: "basis risk", video: "media/glossary/basisrisk.mp4", length: "0:36",
     text: "When the trigger and the real loss don’t match: people suffer from the heat, but the threshold isn’t crossed and no payout comes." },
-  { id: "riskpool", group: "money", term: "Risk pool", match: "risk pool",
+  { id: "riskpool", group: "money", term: "Risk pool", match: "risk pool", video: "media/glossary/riskpool.mp4", length: "0:35",
     text: "A group of countries, cities or insurers that share the cost of disasters, so no single member carries a catastrophe alone." },
-  { id: "socialprotection", group: "money", term: "Social protection", match: "social protection",
+  { id: "socialprotection", group: "money", term: "Social protection", match: "social protection", video: "media/glossary/socialprotection.mp4", length: "0:35",
     text: "Public support such as pensions, cash transfers and unemployment benefits that keeps households out of poverty when income stops." },
   { id: "passivecooling", group: "cooling", term: "Passive cooling", match: "passive cooling", video: "media/glossary/passivecooling.mp4", length: "0:33",
     text: "Cooling a building without using power: shade, airflow, insulation, orientation and reflective surfaces." },
@@ -1165,4 +1166,12 @@ const WORKED_EXAMPLES = [
       { label: "NRDC: the plan’s components and cool roofs", url: "https://www.nrdc.org/press-releases/ahmedabads-pioneering-plan-now-shielding-millions-killer-heat" },
       { label: "Hess et al., 2018: deaths avoided", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6236972/" }
     ] }
+];
+
+/* ---------- 16. SECTION FILMS ---------- */
+// Short films that open a section of the page. video: the file in media/films/ (with a .jpg cover of the same name).
+const SECTION_FILMS = [
+  { id: "gaps", title: "Where the gaps may be", label: "the heat network", video: "media/films/heat-network-gaps.mp4", length: "0:47",
+    text: "When this film was made, 136 organisations on our list worked on heat, crowding onto worker protection and health, and five loops had nobody listed. A low count shows a gap in this directory’s coverage, not proof that nobody is working on it.",
+    back: { label: "Back to the heat network", act: "network" } }
 ];
