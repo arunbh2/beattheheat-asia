@@ -421,6 +421,7 @@
           <track kind="captions" src="media/extreme-heat-wicked-problem.en.vtt" srclang="en" label="English" default>
           Your browser can’t play this film. <a href="media/extreme-heat-wicked-problem.mp4">Download it (MP4, 9.7 MB)</a>.
         </video>
+        <video id="term-video" controls playsinline preload="none" hidden></video>
         <div class="film__end" id="film-end" hidden>
           <p class="film__end-k">Now see it for yourself</p>
           <p class="film__end-h">The map is live.<br>Pull a thread.</p>
@@ -430,8 +431,18 @@
             <button type="button" class="link" data-film="replay">Watch again</button>
           </div>
         </div>
+        <div class="film__end" id="term-end" hidden>
+          <p class="film__end-k">Plain-language glossary</p>
+          <p class="film__end-h" id="term-end-h">Up next</p>
+          <div class="film__end-actions">
+            <button type="button" class="btn btn--cta" data-film="next" id="term-next">Next term <span aria-hidden="true">→</span></button>
+            <button type="button" class="btn btn--film-ghost" data-film="glossary">See all the terms</button>
+            <button type="button" class="link" data-film="replay">Watch again</button>
+          </div>
+        </div>
       </div>
-      <p class="film__note">Captions are on; use the CC button to turn them off. The film was recorded in October 2026, so some figures, such as how many organisations are listed, have since grown on the live map.</p>
+      <p class="film__note" id="term-note" hidden></p>
+      <p class="film__note" id="film-note">Captions are on; use the CC button to turn them off. The film was recorded in October 2026, so some figures, such as how many organisations are listed, have since grown on the live map.</p>
     </div>
   </dialog>
 </body>

@@ -1352,34 +1352,93 @@
   /* ======================= THE FILM ======================= */
   // Opens on request only: it has sound, so it never autoplays and never loads until asked for.
   const film = document.getElementById("film"), filmVideo = document.getElementById("film-video"), filmEnd = document.getElementById("film-end");
-  let filmOpener = null;
+  const termVideo = document.getElementById("term-video"), termEnd = document.getElementById("term-end");
+  const filmTitle = document.getElementById("film-title"), filmTitleHTML = filmTitle ? filmTitle.innerHTML : "";
+  // glossary explainers, in glossary order, for "Next term"
+  const VIDEO_TERMS = GLOSS.filter(g => g.video && (typeof GLOSSARY_GROUPS === "undefined" || GLOSSARY_GROUPS.some(x => x.id === g.group)));
+  let filmOpener = null, filmMode = "film", termNow = null;
+  const activeVideo = () => filmMode === "term" ? termVideo : filmVideo;
+
+  function showDialog(opener) {
+    filmOpener = opener || document.activeElement;
+    if (!film.open) { if (typeof film.showModal === "function") film.showModal(); else film.setAttribute("open", ""); }
+    document.body.classList.add("film-open");
+    const play = activeVideo().play(); if (play && play.catch) play.catch(() => {});
+  }
+  function setMode(mode) {
+    filmMode = mode;
+    const film_ = mode === "film";
+    filmVideo.hidden = !film_; termVideo.hidden = film_;
+    document.getElementById("film-note").hidden = !film_; document.getElementById("term-note").hidden = film_;
+    filmEnd.hidden = true; termEnd.hidden = true;
+    (film_ ? termVideo : filmVideo).pause();
+  }
   function openFilm(opener) {
     if (!film || !filmVideo) return;
-    filmOpener = opener || document.activeElement;
-    filmEnd.hidden = true;
-    if (typeof film.showModal === "function") film.showModal(); else film.setAttribute("open", "");
-    document.body.classList.add("film-open");
-    const play = filmVideo.play(); if (play && play.catch) play.catch(() => {});
+    setMode("film");
+    filmTitle.innerHTML = filmTitleHTML;
+    showDialog(opener);
+  }
+  function openExplainer(id, opener, autoplay = true) {
+    const g = glossById[id]; if (!film || !g || !g.video) return;
+    setMode("term"); termNow = g;
+    filmTitle.innerHTML = `${esc(g.term)} <span>· plain-language glossary, ${esc(g.length || "0:30")}</span>`;
+    termVideo.poster = g.video.replace(/\.mp4$/, ".jpg");
+    termVideo.src = g.video;
+    termVideo.setAttribute("aria-label", `${g.term}: a 30-second explainer`);
+    document.getElementById("term-note").innerHTML = `<strong>${esc(g.term)}.</strong> ${esc(g.text)} <span class="film__note-meta">Captions are part of the picture.</span>`;
+    const k = VIDEO_TERMS.indexOf(g), next = VIDEO_TERMS[k + 1];
+    const nextBtn = document.getElementById("term-next");
+    nextBtn.hidden = !next;
+    if (next) { nextBtn.dataset.id = next.id; nextBtn.innerHTML = `Next: ${esc(next.term)} <span aria-hidden="true">→</span>`; }
+    document.getElementById("term-end-h").textContent = next ? "Keep going?" : "That’s all for now";
+    setHash("watch-" + g.id);
+    if (autoplay) showDialog(opener);
+    else { filmOpener = opener || null; if (typeof film.showModal === "function") film.showModal(); else film.setAttribute("open", ""); document.body.classList.add("film-open"); }
   }
   function closeFilm() {
     if (!film) return;
-    filmVideo.pause();
+    filmVideo.pause(); termVideo.pause();
     if (film.open && typeof film.close === "function") film.close(); else film.removeAttribute("open");
   }
   if (film) {
-    film.addEventListener("close", () => { filmVideo.pause(); document.body.classList.remove("film-open"); if (filmOpener && filmOpener.focus) filmOpener.focus(); });
+    film.addEventListener("close", () => {
+      filmVideo.pause(); termVideo.pause(); document.body.classList.remove("film-open");
+      if (filmMode === "term" && location.hash.startsWith("#watch-")) setHash("");
+      if (filmOpener && filmOpener.focus && document.contains(filmOpener)) filmOpener.focus();
+    });
     // a click on the dark backdrop (outside the inner box) closes it
     film.addEventListener("click", ev => {
       if (ev.target === film) { closeFilm(); return; }
       const b = ev.target.closest("[data-film]"); if (!b) return;
       const what = b.dataset.film;
       if (what === "close") closeFilm();
-      else if (what === "replay") { filmEnd.hidden = true; filmVideo.currentTime = 0; filmVideo.play(); }
+      else if (what === "replay") { filmEnd.hidden = true; termEnd.hidden = true; const v = activeVideo(); v.currentTime = 0; v.play(); }
+      else if (what === "next") openExplainer(b.dataset.id, filmOpener);
+      else if (what === "glossary") { filmOpener = null; closeFilm(); const el = document.getElementById("glossary"); if (el) el.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" }); }
       else if (what === "tour") { filmOpener = null; closeFilm(); goToMap(() => tourStep(0)); }
       else if (what === "explore") { filmOpener = null; closeFilm(); document.getElementById("explore").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" }); }
     });
     filmVideo.addEventListener("ended", () => { filmEnd.hidden = false; const first = filmEnd.querySelector("button"); if (first) first.focus(); });
     filmVideo.addEventListener("play", () => { filmEnd.hidden = true; });
+    termVideo.addEventListener("ended", () => { termEnd.hidden = false; const first = termEnd.querySelector("button:not([hidden])"); if (first) first.focus(); });
+    termVideo.addEventListener("play", () => { termEnd.hidden = true; });
+    // play buttons anywhere on the page: the glossary list and the tap-to-define notes
+    document.addEventListener("click", ev => {
+      const b = ev.target.closest && ev.target.closest("[data-watch]"); if (!b) return;
+      ev.preventDefault();
+      const opener = b.closest("#term-pop") ? termBtn : b;
+      closeTerm();
+      openExplainer(b.dataset.watch, opener);
+    });
+    // tell search engines about the explainers
+    if (VIDEO_TERMS.length) {
+      const ld = document.createElement("script"); ld.type = "application/ld+json";
+      ld.textContent = JSON.stringify(VIDEO_TERMS.map(g => ({ "@context": "https://schema.org", "@type": "VideoObject", name: `${g.term}: plain-language glossary`, description: g.text,
+        thumbnailUrl: location.origin + location.pathname.replace(/[^/]*$/, "") + g.video.replace(/\.mp4$/, ".jpg"), contentUrl: location.origin + location.pathname.replace(/[^/]*$/, "") + g.video,
+        uploadDate: "2026-10-22", duration: "PT" + (g.length || "0:30").split(":").reduce((m, x, i) => i === 0 ? +x : `${m}M${+x}S`, 0), inLanguage: "en" })));
+      document.head.appendChild(ld);
+    }
   }
 
   /* ======================= THE 60-SECOND TOUR ======================= */
@@ -1570,15 +1629,16 @@
 
   /* ---- glossary popover ---- */
   const termPop = document.createElement("div");
-  termPop.className = "term-pop"; termPop.id = "term-pop"; termPop.setAttribute("role", "tooltip"); termPop.hidden = true;
+  termPop.className = "term-pop"; termPop.id = "term-pop"; termPop.setAttribute("role", "dialog"); termPop.hidden = true;
   document.body.appendChild(termPop);
   let termBtn = null;
   function closeTerm() { if (termBtn) { termBtn.setAttribute("aria-expanded", "false"); termBtn.removeAttribute("aria-describedby"); } termBtn = null; termPop.hidden = true; }
   function openTerm(btn) {
     const g = glossById[btn.dataset.term]; if (!g) return;
     closeTerm(); termBtn = btn;
-    termPop.innerHTML = `<strong>${esc(g.term)}</strong> ${esc(g.text)}`;
+    termPop.innerHTML = `<strong>${esc(g.term)}</strong> ${esc(g.text)}${g.video ? `<button type="button" class="term-pop__watch" data-watch="${g.id}"><span class="play-icon" aria-hidden="true"></span>Watch the explainer <span>(${esc(g.length || "0:30")})</span></button>` : ""}`;
     termPop.hidden = false;
+    termPop.setAttribute("aria-label", g.term);
     btn.setAttribute("aria-expanded", "true"); btn.setAttribute("aria-describedby", "term-pop");
     const r = btn.getBoundingClientRect(), w = termPop.offsetWidth, h = termPop.offsetHeight;
     const left = Math.max(8, Math.min(r.left, window.innerWidth - w - 8));
@@ -1602,7 +1662,7 @@
       const terms = listed.filter(g => g.group === grp.id);
       return `<details class="gloss-group"${i === 1 ? " open" : ""}>
         <summary>${esc(grp.name)} <span>${terms.length}</span></summary>
-        <dl>${terms.map(g => `<div id="term-${g.id}"><dt>${esc(g.term)}</dt><dd>${esc(g.text)}</dd></div>`).join("")}</dl>
+        <dl>${terms.map(g => `<div id="term-${g.id}"><dt>${esc(g.term)}${g.video ? ` <button type="button" class="gloss-watch" data-watch="${g.id}" aria-label="Watch the ${esc(g.term.toLowerCase())} explainer (${esc(g.length || "0:30")})"><span class="play-icon" aria-hidden="true"></span>${esc(g.length || "0:30")}</button>` : ""}</dt><dd>${esc(g.text)}</dd></div>`).join("")}</dl>
       </details>`;
     }).join("");
   }
@@ -1659,6 +1719,8 @@
     else if (hash.startsWith("break-") && leverById[hash.slice(6)]) selectLever(hash.slice(6));
     else if (hash.startsWith("who-") && instById[hash.slice(4)]) selectInstitution(hash.slice(4));
     else if (hash.startsWith("package-") && (pkgById[hash.slice(8)] || hash.slice(8) === "all")) applyPackage(hash.slice(8));
+    // a shared glossary link opens the explainer ready to play; it never starts with sound by itself
+    else if (hash.startsWith("watch-") && glossById[hash.slice(6)]) openExplainer(hash.slice(6), null, false);
   }
 
   const fontsReady = document.fonts && document.fonts.load
