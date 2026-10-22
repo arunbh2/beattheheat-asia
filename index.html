@@ -432,7 +432,14 @@
           Your browser can’t play this film. <a href="media/extreme-heat-wicked-problem.mp4">Download it (MP4, 9.7 MB)</a>.
         </video>
         <video id="term-video" controls playsinline preload="none" hidden></video>
-        <div class="film__end" id="film-end" hidden>
+        <div class="film__end film__end--web" id="film-end" hidden>
+          <!-- The film's last line is "the whole web moves": the end card fades into the same web as the title. -->
+          <div class="film__end-web" aria-hidden="true">
+            <video id="film-end-web" muted loop playsinline preload="none" tabindex="-1" poster="media/hero/web.jpg">
+              <source src="media/hero/web.webm" type="video/webm">
+              <source src="media/hero/web.mp4" type="video/mp4">
+            </video>
+          </div>
           <p class="film__end-k">Now see it for yourself</p>
           <p class="film__end-h">The map is live.<br>Pull a thread.</p>
           <div class="film__end-actions">

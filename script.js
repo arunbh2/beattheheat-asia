@@ -1378,6 +1378,14 @@
   const VIDEO_TERMS = GLOSS.filter(g => g.video && (typeof GLOSSARY_GROUPS === "undefined" || GLOSSARY_GROUPS.some(x => x.id === g.group)));
   let filmOpener = null, filmMode = "film", termNow = null;
   const activeVideo = () => filmMode === "term" ? termVideo : filmVideo;
+  // the web behind the film's end card moves only when motion is welcome, and not if the visitor paused the title's loop
+  const endWeb = document.getElementById("film-end-web");
+  function endWebOn(on) {
+    if (!endWeb) return;
+    let heroPaused = false; try { heroPaused = localStorage.getItem("bth-hero-paused") === "1"; } catch (e) {}
+    const still = reduceMotion || heroPaused || (navigator.connection && navigator.connection.saveData);
+    if (on && !still) { endWeb.preload = "auto"; const p = endWeb.play(); if (p && p.catch) p.catch(() => {}); } else endWeb.pause();
+  }
 
   function showDialog(opener) {
     filmOpener = opener || document.activeElement;
@@ -1390,7 +1398,7 @@
     const film_ = mode === "film";
     filmVideo.hidden = !film_; termVideo.hidden = film_;
     document.getElementById("film-note").hidden = !film_; document.getElementById("term-note").hidden = film_;
-    filmEnd.hidden = true; termEnd.hidden = true;
+    filmEnd.hidden = true; termEnd.hidden = true; endWebOn(false);
     (film_ ? termVideo : filmVideo).pause();
   }
   function openFilm(opener) {
@@ -1462,7 +1470,7 @@
   }
   if (film) {
     film.addEventListener("close", () => {
-      filmVideo.pause(); termVideo.pause(); document.body.classList.remove("film-open");
+      filmVideo.pause(); termVideo.pause(); endWebOn(false); document.body.classList.remove("film-open");
       if (filmMode === "term" && location.hash.startsWith("#watch-")) setHash("");
       if (filmOpener && filmOpener.focus && document.contains(filmOpener)) filmOpener.focus();
     });
@@ -1472,7 +1480,7 @@
       const b = ev.target.closest("[data-film]"); if (!b) return;
       const what = b.dataset.film;
       if (what === "close") closeFilm();
-      else if (what === "replay") { filmEnd.hidden = true; termEnd.hidden = true; const v = activeVideo(); v.currentTime = 0; v.play(); }
+      else if (what === "replay") { filmEnd.hidden = true; termEnd.hidden = true; endWebOn(false); const v = activeVideo(); v.currentTime = 0; v.play(); }
       else if (what === "next") openExplainer(b.dataset.id, filmOpener);
       else if (what === "back") {
         filmOpener = null; closeFilm();
@@ -1484,8 +1492,8 @@
       else if (what === "tour") { filmOpener = null; closeFilm(); goToMap(() => tourStep(0)); }
       else if (what === "explore") { filmOpener = null; closeFilm(); document.getElementById("explore").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" }); }
     });
-    filmVideo.addEventListener("ended", () => { filmEnd.hidden = false; const first = filmEnd.querySelector("button"); if (first) first.focus(); });
-    filmVideo.addEventListener("play", () => { filmEnd.hidden = true; });
+    filmVideo.addEventListener("ended", () => { filmEnd.hidden = false; endWebOn(true); const first = filmEnd.querySelector("button"); if (first) first.focus(); });
+    filmVideo.addEventListener("play", () => { filmEnd.hidden = true; endWebOn(false); });
     termVideo.addEventListener("ended", () => { termEnd.hidden = false; const first = termEnd.querySelector("button:not([hidden])"); if (first) first.focus(); });
     termVideo.addEventListener("play", () => { termEnd.hidden = true; });
     // play buttons anywhere on the page: the glossary list and the tap-to-define notes
