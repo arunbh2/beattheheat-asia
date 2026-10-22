@@ -52,8 +52,10 @@
     v.addEventListener("playing", () => { blocked = false; label(); }); // the button always reflects what is really happening
     // if something other than the visitor pauses it, start it again
     v.addEventListener("pause", () => setTimeout(() => { if (v.paused && !paused && onScreen && !document.hidden) sync(); }, 400));
-    if ("IntersectionObserver" in window) new IntersectionObserver(es => { onScreen = es[0].isIntersecting; sync(); }, { rootMargin: "200px 0px" }).observe(v);
-    else { onScreen = true; sync(); }
+    // covers further down the page load only as the visitor approaches
+    const cover = () => { if (v.dataset.poster && !v.poster) v.poster = v.dataset.poster; };
+    if ("IntersectionObserver" in window) new IntersectionObserver(es => { onScreen = es[0].isIntersecting; if (onScreen) cover(); sync(); }, { rootMargin: "200px 0px" }).observe(v);
+    else { onScreen = true; cover(); sync(); }
     label();
     ambient.push(() => { if (!paused && onScreen && v.paused) sync(); });
   }
@@ -317,8 +319,10 @@
           el("tspan", { x: lx, dy }, t).textContent = line.toUpperCase();
         });
       } else {
-        const t = el("text", { class: "node__label", "text-anchor": "middle", y: n.r + 3 }, g);
-        n.lines.forEach((line, i) => { el("tspan", { x: 0, dy: i === 0 ? "1em" : "1.15em" }, t).textContent = line; });
+        // labels sit under the dot, or above it where a neighbouring dot would cut through them (labelAt: "above")
+        const above = n.labelAt === "above", L = n.lines.length;
+        const t = el("text", { class: "node__label", "text-anchor": "middle", y: above ? -(n.r + 6) : n.r + 3 }, g);
+        n.lines.forEach((line, i) => { el("tspan", { x: 0, dy: i === 0 ? (above ? `${-(L - 1) * 1.15}em` : "1em") : "1.15em" }, t).textContent = line; });
       }
       el("title", {}, g).textContent = plain(n);
     });
@@ -873,7 +877,7 @@
     return `
       <p class="panel__kicker">Start anywhere</p>
       <h2 class="panel__title">Pull a thread</h2>
-      <button class="btn btn--full btn--tour" data-act="tour">New here? Take the 60-second tour</button>
+      <button type="button" class="btn btn--full btn--tour" data-act="tour">New here? 60-second tour <span aria-hidden="true">→</span></button>
       <p class="panel__desc">${mobile ? "Drag and pinch the map, then tap" : "Drag the map, zoom in, and click"} any dot to see what it sets in motion and what drives it. Or walk through one of the <strong>${LOOPS.length} vicious cycles</strong> and see where each one breaks:</p>
       <h3 class="panel__h panel__h--break">Break the loops</h3>
       <p class="panel__note">Switch on a policy package and watch which loops break, and who has to act.</p>
@@ -1663,7 +1667,7 @@
     document.getElementById("loop-groups").innerHTML = LOOP_GROUPS.map(g => {
       const ls = LOOPS.filter(l => l.group === g.id);
       return `<div class="lgroup">
-        <h3 class="lgroup__h">${esc(g.name)} <span>${ls.length}</span></h3>
+        <h3 class="lgroup__h">${esc(g.name)} <span>${plural(ls.length, "loop")}</span></h3>
         ${ls.map(l => `
           <article class="lrow" data-loop="${l.id}">
             <div class="lrow__head">

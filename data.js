@@ -36,6 +36,7 @@ const SYSTEMS = [
 
 /* ---------- 2. CONSEQUENCES ---------- */
 // sys: which system it belongs to. Each one is linked to its system automatically.
+// labelAt: "above" (optional) puts a label above its dot where a neighbouring dot would cut through it.
 const CONSEQUENCES = [
   /* Nature and ecosystems */
   { id: "droughts", sys: "nature", label: "Droughts",
@@ -74,7 +75,7 @@ const CONSEQUENCES = [
     desc: "After a failed season, farmers borrow at high interest or sell livestock, land and seed to get by." },
 
   /* Water */
-  { id: "scarcity", sys: "water", label: "Water\nshortages",
+  { id: "scarcity", sys: "water", label: "Water\nshortages", labelAt: "above",
     desc: "Taps run dry and wells fall just as people, crops and animals need more water to cope with the heat." },
   { id: "quality", sys: "water", label: "Water quality\nfalls",
     desc: "Warm, low water breeds algae and bacteria and concentrates pollution." },
@@ -90,7 +91,7 @@ const CONSEQUENCES = [
     desc: "Without enough water, toilets, handwashing and cleaning suffer." },
 
   /* Energy */
-  { id: "demand", sys: "energy", label: "Cooling demand\npeaks",
+  { id: "demand", sys: "energy", label: "Cooling demand\npeaks", labelAt: "above",
     desc: "As temperatures climb, so does the demand for fans and air conditioning, pushing electricity use to new peaks." },
   { id: "power", sys: "energy", label: "Power cuts and\ngrid stress",
     desc: "Peak demand and heat-stressed lines and transformers push grids to the edge. Outages switch off cooling when it matters most." },
@@ -717,7 +718,7 @@ const HEATWAVE_DAY = [
   { time: "02:00", video: "media/day/0200.mp4", length: "0:31", title: "The night that never cools",
     who: "A garment worker in Dhaka",
     text: "It is two in the morning and her tin-roofed room is still holding the day’s heat. She has barely slept, her body hasn’t recovered from yesterday, and the shift starts at seven.",
-    fact: "Hot nights are dangerous because the body never gets the chance to recover from the day. Sleep-tracker data from 68 countries shows people sleep about 14 minutes less on nights above 30 °C, with bigger losses for older people and in lower-income countries.",
+    fact: "Hot nights are dangerous because the body never gets the chance to recover from the day. Sleep-tracker data from 68 countries shows people sleep about 14 minutes less on nights above 30 °C, with bigger losses for older people and in lower-income countries.",
     source: { label: "Minor et al., One Earth, 2022", url: "https://orbit.dtu.dk/en/publications/rising-temperatures-erode-human-sleep-globally/" },
     loops: ["sleep", "energypoverty"], levers: ["coolnights", "affordablecool", "coolhousing"] },
   { time: "09:00", video: "media/day/0900.mp4", length: "0:28", title: "Stop, or get paid",
@@ -756,7 +757,7 @@ const EVIDENCE = {
   ],
   ice: [
     { by: "ICIMOD, 2023", title: "Water, ice, society, and ecosystems in the Hindu Kush Himalaya: an outlook", url: "https://lib.icimod.org/record/36322",
-      finding: "Glaciers lost ice 65% faster in the 2010s than in the decade before. At 1.5–2 °C of warming, glaciers across the region lose 30–50% of their volume by 2100." }
+      finding: "Glaciers lost ice 65% faster in the 2010s than in the decade before. At 1.5–2 °C of warming, glaciers across the region lose 30–50% of their volume by 2100." }
   ],
   fire: [
     { by: "UNEP and GRID-Arendal, 2022", title: "Spreading like Wildfire: The Rising Threat of Extraordinary Landscape Fires", url: "https://www.unep.org/resources/report/spreading-wildfire-rising-threat-extraordinary-landscape-fires",
@@ -764,7 +765,7 @@ const EVIDENCE = {
   ],
   cooling: [
     { by: "Salamanca et al., Journal of Geophysical Research, 2014 (summary by Arizona State University)", title: "Excess heat from air conditioners causes higher nighttime temperatures", url: "https://news.asu.edu/content/excess-heat-air-conditioners-causes-higher-nighttime-temperatures",
-      finding: "In a Phoenix heatwave, waste heat from air conditioners raised night-time air temperatures by more than 1 °C in parts of the city." },
+      finding: "In a Phoenix heatwave, waste heat from air conditioners raised night-time air temperatures by more than 1 °C in parts of the city." },
     { by: "International Energy Agency, 2018", title: "The Future of Cooling", url: "https://www.iea.org/reports/the-future-of-cooling",
       finding: "China, India and Indonesia are expected to account for half of the world’s air conditioners by 2050." }
   ],
@@ -804,7 +805,7 @@ const EVIDENCE = {
   ],
   school: [
     { by: "Park, Goodman, Hurwitz and Smith, American Economic Journal: Economic Policy, 2020", title: "Heat and Learning", url: "https://www.aeaweb.org/doi/10.1257/pol.20180612",
-      finding: "Without air conditioning, each 1 °F hotter school year cuts that year’s learning by about 1%, and the losses fall hardest on disadvantaged students." },
+      finding: "Without air conditioning, each 1 °F hotter school year cuts that year’s learning by about 1%, and the losses fall hardest on disadvantaged students." },
     { by: "UNICEF, 2025", title: "Learning interrupted: global snapshot of climate-related school disruptions in 2024", url: "https://www.unicef.org/reports/learning-interrupted-global-snapshot-2024",
       finding: "Heatwaves disrupted schooling for an estimated 171 million students in 2024. South Asia was the most affected region." }
   ],
@@ -820,7 +821,7 @@ const EVIDENCE = {
     { by: "Carleton, PNAS, 2017", title: "Crop-damaging temperatures increase suicide rates in India", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5565417/",
       finding: "Heat raises suicide rates in India only during the growing season, when it also cuts crop yields, pointing to farm income losses. The findings have been debated." },
     { by: "Lobell, Sibley and Ortiz-Monasterio, Nature Climate Change, 2012", title: "Extreme heat effects on wheat senescence in India", url: "https://fsi.stanford.edu/node/26622",
-      finding: "Days above 34 °C make wheat in northern India age early, and crop models may underestimate yield losses at +2 °C by as much as 50%." }
+      finding: "Days above 34 °C make wheat in northern India age early, and crop models may underestimate yield losses at +2 °C by as much as 50%." }
   ],
   invisible: [
     { by: "Associated Press via PBS NewsHour, 2024", title: "India likely undercounts heat-related deaths, tempering its response, officials say", url: "https://www.pbs.org/newshour/world/india-likely-undercounts-heat-related-deaths-tempering-its-response-officials-say",
@@ -977,7 +978,7 @@ const ORGANISATIONS = [
   { id: "startnetwork", role: "global", name: "Start Network", url: "https://startnetwork.org/news-and-blogs/getting-ahead-deadly-heat",
     does: "Its members run heatwave anticipatory action in Pakistan, releasing funds automatically when forecasts cross agreed triggers.", levers: ["anticipatory"] },
   { id: "mercycorps", role: "global", name: "Mercy Corps", url: "https://europe.mercycorps.org/sites/default/files/2025-09/too-hot-to-ignore.pdf",
-    does: "A Zurich Climate Resilience Alliance partner leading work on extreme heat in Nepal, where the southern plains passed 40 °C on 50 days in 2024.", levers: ["hap", "anticipatory"] },
+    does: "A Zurich Climate Resilience Alliance partner leading work on extreme heat in Nepal, where the southern plains passed 40 °C on 50 days in 2024.", levers: ["hap", "anticipatory"] },
   { id: "undp", role: "global", name: "United Nations Development Programme (UNDP)", url: "https://www.undp.org/thailand/publications/bangkok-financing-strategy-tackling-urban-heat",
     does: "Helps governments connect heat resilience with health systems, urban planning and finance. Its work includes a financing strategy for tackling urban heat in Bangkok.", levers: ["heatbudget"] },
   { id: "unhabitat", role: "global", name: "UN-Habitat", url: "https://unhabitat.org/handbook-on-urban-heat-management-in-the-global-south",
@@ -1155,7 +1156,7 @@ const GLOSSARY_GROUPS = [
 
 const GLOSSARY = [
   { id: "heatstroke", group: "body", term: "Heatstroke", match: "heatstroke", video: "media/glossary/heatstroke.mp4", length: "0:32",
-    text: "A medical emergency. The body’s core temperature rises above about 40 °C and its cooling system fails. Without fast cooling it can kill or cause lasting organ damage." },
+    text: "A medical emergency. The body’s core temperature rises above about 40 °C and its cooling system fails. Without fast cooling it can kill or cause lasting organ damage." },
   { id: "heatexhaustion", group: "body", term: "Heat exhaustion", match: "heat exhaustion", video: "media/glossary/heatexhaustion.mp4", length: "0:33",
     text: "The warning stage before heatstroke: heavy sweating, weakness, dizziness and nausea. Rest, water and cooling usually bring recovery." },
   { id: "heatstress", group: "body", term: "Heat stress", match: "heat stress", video: "media/glossary/heatstress.mp4", length: "0:35",
@@ -1165,11 +1166,11 @@ const GLOSSARY = [
   { id: "excessdeaths", group: "body", term: "Excess deaths", match: "excess death", video: "media/glossary/excessdeaths.mp4", length: "0:34",
     text: "Deaths above the normal number for that place and time of year. Because death certificates rarely say “heat”, this is how the real toll of a heatwave is counted." },
   { id: "wetbulb", group: "measure", term: "Wet-bulb temperature", match: "wet-bulb temperature", video: "media/glossary/wetbulb.mp4", length: "0:35",
-    text: "Heat and humidity combined into one number, read from a thermometer wrapped in a wet cloth. It shows whether sweat can still cool you. A wet-bulb temperature of 35 °C is often quoted as the limit of human survival; recent studies suggest the real limit is lower." },
+    text: "Heat and humidity combined into one number, read from a thermometer wrapped in a wet cloth. It shows whether sweat can still cool you. A wet-bulb temperature of 35 °C is often quoted as the limit of human survival; recent studies suggest the real limit is lower." },
   { id: "wbgt", group: "measure", term: "WBGT (wet-bulb globe temperature)", match: "wet-bulb globe temperature|WBGT", video: "media/glossary/wbgt.mp4", length: "0:36",
     text: "The workplace measure of heat. It adds sun and wind to heat and humidity, and is used to set rest breaks and stop work." },
   { id: "heatindex", group: "measure", term: "Heat index", match: "heat index",
-    text: "The “feels-like” temperature in the shade, combining air temperature and humidity. In the Philippines, a heat index of 42 °C or more is officially a danger level." },
+    text: "The “feels-like” temperature in the shade, combining air temperature and humidity. In the Philippines, a heat index of 42 °C or more is officially a danger level." },
   { id: "heatwave", group: "measure", term: "Heatwave", match: "heatwave", video: "media/glossary/heatwave.mp4", length: "0:36", auto: false,
     text: "A spell of unusually hot weather for that place. There is no single global definition: each country sets its own thresholds." },
   { id: "hotnights", group: "measure", term: "Hot nights", match: "hot night|warm night", video: "media/glossary/hotnights.mp4", length: "0:35",
@@ -1228,7 +1229,7 @@ const PLAN_PAYERS = ["Not decided yet", "Public budget", "Employers", "Philanthr
 const WORKED_EXAMPLES = [
   { id: "ahmedabad", place: "Ahmedabad, India", group: "city", year: "2013 onwards",
     title: "Ahmedabad’s heat action plan",
-    trigger: "In May 2010 a heatwave peaking at 46.8 °C caused an estimated 1,344 excess deaths in the city, 43% more than in the same weeks of 2009 and 2011.",
+    trigger: "In May 2010 a heatwave peaking at 46.8 °C caused an estimated 1,344 excess deaths in the city, 43% more than in the same weeks of 2009 and 2011.",
     decision: "In 2013 the Ahmedabad Municipal Corporation, with the Indian Institute of Public Health Gandhinagar and NRDC, launched South Asia’s first heat action plan: forecasts from the India Meteorological Department feed colour-coded alerts, departments act together, the public is warned, and health staff are trained. From 2017 the plan added cool roofs.",
     result: "An evaluation estimated about 1,190 deaths a year were avoided after the plan began, compared with before it. The model has since spread to many other Indian cities and states.",
     actions: [

@@ -39,7 +39,7 @@ It is a plain website. There is nothing to install and nothing to "build". GitHu
 | `media/loops-break/roofs.*` | AI-generated footage of rooftops being painted white, behind the “Where the loops break” heading, labelled as illustrative | All three background videos (title, this one, and the heatwave rooftops) always loop; only a visitor’s own pause stops them, and that choice is remembered |
 | `media/hero/` | The quiet background loop behind the title (`web.webm`, `web.mp4` and a `web.jpg` still), with no sound. It plays only for visitors who haven't asked for reduced motion or data saving, pauses when scrolled away, and has a pause button | To replace the loop: keep it under about 1 MB, the same off-white background (#FAF7F2), and the busy parts at the edges |
 | `media/day/` | Films for "A day in a heatwave", named after the hour without the colon (e.g. `0200.mp4`), each with a `.jpg` cover. Add `video` and `length` to that hour in part 11 of `data.js` | To add or replace an hour’s film |
-| `images/SOCIAL_SHARE_IMAGE.jpg` | The preview picture shown when the link is shared | Only if you want a new preview |
+| `images/social-share.jpg` | The preview picture shown when the link is shared (1200 × 630). It quotes the counts of systems, vicious cycles and levers | When those counts change. Give the new file a new name and update the two image lines in `index.html`, so LinkedIn and WhatsApp fetch it again |
 | `CNAME` | Connects the site to the address beattheheat.asia | **No. Never delete this file.** |
 
 The numbers at the top of the page (systems, consequences, cycles and so on) are counted automatically from `data.js`, so they stay correct when you add things.

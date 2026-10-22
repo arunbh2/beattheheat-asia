@@ -17,14 +17,14 @@
   <meta property="og:url" content="https://beattheheat.asia/">
   <meta property="og:title" content="Extreme heat is a wicked problem">
   <meta property="og:description" content="A global health emergency, and an urgent and growing threat. Explore the vicious cycles of extreme heat, and where they can be broken.">
-  <meta property="og:image" content="https://beattheheat.asia/images/SOCIAL_SHARE_IMAGE.jpg">
+  <meta property="og:image" content="https://beattheheat.asia/images/social-share.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="A systems map showing extreme heat at the centre, connected to nature, health, cities and work, with vicious cycles in red.">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Extreme heat is a wicked problem">
   <meta name="twitter:description" content="A global health emergency, and an urgent and growing threat. Explore the vicious cycles of extreme heat, and where they can be broken.">
-  <meta name="twitter:image" content="https://beattheheat.asia/images/SOCIAL_SHARE_IMAGE.jpg">
+  <meta name="twitter:image" content="https://beattheheat.asia/images/social-share.jpg">
 
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23F26430'/%3E%3Ccircle cx='16' cy='16' r='15' fill='none' stroke='%2316202B' stroke-width='2' stroke-dasharray='3 3'/%3E%3C/svg%3E">
 
@@ -32,7 +32,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap">
 
-  <link rel="stylesheet" href="styles.css?v=43">
+  <link rel="stylesheet" href="styles.css?v=45">
 
   <script type="application/ld+json">
   {
@@ -67,8 +67,8 @@
     }
   }
   </script>
-  <script src="data.js?v=43" defer></script>
-  <script src="script.js?v=43" defer></script>
+  <script src="data.js?v=45" defer></script>
+  <script src="script.js?v=45" defer></script>
 </head>
 
 <body>
@@ -144,7 +144,7 @@
               <span class="breakbar__label"><span class="lever-icon lever-icon--sm" aria-hidden="true"></span>Break the loops</span>
               <span class="breakbar__count"><b data-break-count>0</b> of <span data-stat="loops">18</span> vicious cycles these actions could help interrupt</span>
               <span class="breakbar__meter" aria-hidden="true"><span id="break-meter"></span></span>
-              <button id="break-reset" class="link" data-act="reset-levers" hidden>Switch everything off</button>
+              <button type="button" id="break-reset" class="link" data-act="reset-levers" hidden>Switch everything off</button>
             </div>
             <div class="pkg-chips" id="pkg-chips" role="group" aria-label="Policy packages"></div>
             <p class="breakbar__hint">Choose a package, or turn on “Show where loops break”, click any teal marker on the map and switch it on. This is an illustrative systems map: real effect depends on reach, quality and how long an action lasts. <a href="#method">How this map works</a></p>
@@ -159,7 +159,7 @@
             <button class="btn btn--sm" type="submit">Show the path</button>
           </form>
 
-          <div class="legend" aria-label="How to read the map">
+          <div class="legend" role="group" aria-label="How to read the map">
             <span class="key"><span class="key__line key__line--direct"></span>Direct impact</span>
             <span class="key"><span class="key__line key__line--knock"></span>Knock-on effect</span>
             <span class="key"><span class="key__line key__line--vicious"></span>Vicious-cycle link</span>
@@ -172,9 +172,9 @@
             <div class="map__stage" id="map-stage">
               <svg id="web" class="web" role="group" aria-label="Interactive map: extreme heat at the centre, ten systems around it, and their consequences in the outer rings. Use Tab to move between dots and Enter to open one."></svg>
               <div class="zoom" role="group" aria-label="Zoom">
-                <button id="zoom-in" aria-label="Zoom in">+</button>
-                <button id="zoom-out" aria-label="Zoom out">−</button>
-                <button id="zoom-fit" aria-label="Show the whole web" class="zoom__fit">⤢</button>
+                <button type="button" id="zoom-in" aria-label="Zoom in">+</button>
+                <button type="button" id="zoom-out" aria-label="Zoom out">−</button>
+                <button type="button" id="zoom-fit" aria-label="Show the whole web" class="zoom__fit">⤢</button>
               </div>
               <p class="wheel-hint" id="wheel-hint" aria-hidden="true">Hold Ctrl (or ⌘) and scroll to zoom</p>
             </div>
@@ -182,10 +182,10 @@
             <noscript><p class="noscript">This map needs JavaScript. You can still read every link in the list further down the page.</p></noscript>
           </div>
 
-          <aside class="panel" id="panel" aria-live="polite" aria-label="Details">
-            <button class="panel__close" data-act="close" aria-label="Close">×</button>
+          <div class="panel" id="panel" role="region" aria-live="polite" aria-label="Details">
+            <button type="button" class="panel__close" data-act="close" aria-label="Close">×</button>
             <div class="panel__body" id="panel-body"></div>
-          </aside>
+          </div>
         </div>
 
         <!-- On phones and tablets the guided paths sit here, below the map -->
@@ -198,7 +198,7 @@
     <section class="loops" id="loops" aria-labelledby="loops-title">
       <!-- Hope behind the heading: rooftops being painted white. AI-generated, illustrative, muted. Started by script.js. -->
       <div class="loops__scene" aria-hidden="true">
-        <video class="loops__video" id="roofs-video" muted loop playsinline preload="none" poster="media/loops-break/roofs.jpg" tabindex="-1">
+        <video class="loops__video" id="roofs-video" muted loop playsinline preload="none" data-poster="media/loops-break/roofs.jpg" tabindex="-1">
           <source src="media/loops-break/roofs.mp4" type="video/mp4">
           <source src="media/loops-break/roofs.webm" type="video/webm">
         </video>
@@ -213,7 +213,7 @@
         <div class="loops__layout">
           <div id="loop-groups" class="loop-groups"></div>
 
-          <aside class="leverage">
+          <div class="leverage">
             <div class="leverage__block">
               <h3 class="leverage__h">Pressure points</h3>
               <p class="leverage__p">Where the most loops meet. Protect people here and several cycles weaken at once.</p>
@@ -229,7 +229,7 @@
               <span class="missing-card__a">Tell us <span aria-hidden="true">→</span></span>
               <span class="visually-hidden"> (opens LinkedIn in a new tab)</span>
             </a>
-          </aside>
+          </div>
         </div>
       </div>
     </section>
@@ -239,7 +239,7 @@
     <section class="day" id="day" aria-labelledby="day-title">
       <!-- Scene-setting loop behind the heading: AI-generated, illustrative, muted. Started by script.js only when motion is welcome. -->
       <div class="day__scene" aria-hidden="true">
-        <video class="day__video" id="day-video" muted loop playsinline preload="none" poster="media/day/scene.jpg" tabindex="-1">
+        <video class="day__video" id="day-video" muted loop playsinline preload="none" data-poster="media/day/scene.jpg" tabindex="-1">
           <source src="media/day/scene.mp4" type="video/mp4">
           <source src="media/day/scene.webm" type="video/webm">
         </video>
@@ -299,7 +299,7 @@
               <div id="plan-rows" class="plan-rows"></div>
             </fieldset>
           </div>
-          <aside class="plan-summary" id="plan-summary" aria-live="polite"></aside>
+          <div class="plan-summary" id="plan-summary" aria-live="polite"></div>
         </div>
       </div>
     </section>
@@ -312,12 +312,16 @@
         <h2 id="network-title" class="h2">Who is already<br>pulling the levers.</h2>
         <p class="loops__intro">Organisations across Asia and the world already working on parts of this web. Choose a group, or open any lever on the map to see who is working on it.</p>
         <p class="network__note">Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.</p>
-        <p class="network__deeper"><strong>Go deeper.</strong> Two libraries worth bookmarking: the
-          <a href="https://heathealth.info/resource-library/" target="_blank" rel="noopener">Global Heat Health Information Network’s resource library<span class="visually-hidden"> (opens in a new tab)</span></a>, for guidance on heat warnings, heat action plans and heat at work, and the
-          <a href="https://zcralliance.org/resources/?q=heat" target="_blank" rel="noopener">Zurich Climate Resilience Alliance’s resources on heat<span class="visually-hidden"> (opens in a new tab)</span></a>, for studies and tools from programmes in Asia and beyond. For South Asia, see
-          <a href="https://www.ceew.in/publications?field_focus_area_tid=All&amp;field_pub_type_tid=All&amp;field_authors_target_id_selective=All&amp;title=heat" target="_blank" rel="noopener">CEEW’s heat research<span class="visually-hidden"> (opens in a new tab)</span></a>, including district heat risk for all of India and heat-health reports for India, Nepal, Bangladesh and Bhutan; for the research frontier, see
-          <a href="https://wellcome.org/our-priorities/climate-and-health/extreme-heat" target="_blank" rel="noopener">Wellcome’s work on extreme heat<span class="visually-hidden"> (opens in a new tab)</span></a>. For the case that heat needs a whole-system response, see
-          <a href="https://zcralliance.org/blogs/why-extreme-heat-demands-a-systems-response/" target="_blank" rel="noopener">Beyond individual risk<span class="visually-hidden"> (opens in a new tab)</span></a>. Almost every lever on the map links to practical guides.</p>
+        <div class="network__deeper">
+          <p><strong>Go deeper.</strong> Libraries worth bookmarking. Almost every lever on the map also links to practical guides.</p>
+          <ul>
+            <li><a href="https://heathealth.info/resource-library/" target="_blank" rel="noopener">Global Heat Health Information Network<span class="visually-hidden"> (opens in a new tab)</span></a>: guidance on heat warnings, heat action plans and heat at work</li>
+            <li><a href="https://zcralliance.org/resources/?q=heat" target="_blank" rel="noopener">Zurich Climate Resilience Alliance<span class="visually-hidden"> (opens in a new tab)</span></a>: studies and tools from programmes in Asia and beyond</li>
+            <li><a href="https://www.ceew.in/publications?field_focus_area_tid=All&amp;field_pub_type_tid=All&amp;field_authors_target_id_selective=All&amp;title=heat" target="_blank" rel="noopener">CEEW<span class="visually-hidden"> (opens in a new tab)</span></a>: district heat risk for all of India, and heat-health reports for India, Nepal, Bangladesh and Bhutan</li>
+            <li><a href="https://wellcome.org/our-priorities/climate-and-health/extreme-heat" target="_blank" rel="noopener">Wellcome<span class="visually-hidden"> (opens in a new tab)</span></a>: the research frontier on heat and health</li>
+            <li><a href="https://zcralliance.org/blogs/why-extreme-heat-demands-a-systems-response/" target="_blank" rel="noopener">Beyond individual risk<span class="visually-hidden"> (opens in a new tab)</span></a>: why extreme heat demands a whole-system response</li>
+          </ul>
+        </div>
         <div class="network__layout">
           <div>
             <label class="org-search"><span class="visually-hidden">Search organisations</span><input type="search" id="org-search" placeholder="Search organisations, places or topics" autocomplete="off"></label>
@@ -325,12 +329,12 @@
             <p class="org-count" id="org-count" aria-live="polite"></p>
             <ul class="org-list" id="org-list"></ul>
           </div>
-          <aside class="gaps" aria-labelledby="gaps-title">
+          <div class="gaps" role="region" aria-labelledby="gaps-title">
             <h3 id="gaps-title" class="leverage__h">Where the gaps may be</h3>
             <div id="gaps-film" class="gaps__film"></div>
             <p class="leverage__note">How many organisations on this list work on a lever that acts on each loop. A low number shows a gap in this directory’s coverage, not proof that nobody is working on it.</p>
             <ol id="gap-list" class="gap-list"></ol>
-          </aside>
+          </div>
         </div>
         <p class="honest">This list is a starting point, not a directory of everyone working on heat.
           <a class="missing-link" href="https://www.linkedin.com/in/arunabhabhattacharya" target="_blank" rel="noopener author">Know an organisation that should be here? Tell us <span aria-hidden="true">→</span><span class="visually-hidden"> (opens LinkedIn in a new tab)</span></a></p>
@@ -373,7 +377,7 @@
         <p class="closing__line">Pull one thread<br>and the whole web moves.</p>
         <p class="closing__sub">Cut the right one, in the right institution, and whole loops stop.</p>
         <div class="closing__actions">
-          <button class="btn btn--cta" data-random>Pull a thread at random</button>
+          <button type="button" class="btn btn--cta" data-random>Pull a thread at random</button>
           <a class="btn btn--ghost" href="#loops">See where loops break</a>
         </div>
       </div>
@@ -405,7 +409,7 @@
           </div>
           <div>
             <h3>Checked and updated</h3>
-            <p>Last reviewed: 21 October 2026. Links and descriptions can go out of date as organisations and evidence move on. <a class="missing-link" href="https://www.linkedin.com/in/arunabhabhattacharya" target="_blank" rel="noopener author">Spotted something wrong or missing? Tell us <span aria-hidden="true">→</span><span class="visually-hidden"> (opens LinkedIn in a new tab)</span></a></p>
+            <p>Last reviewed: 22 October 2026. Links and descriptions can go out of date as organisations and evidence move on. <a class="missing-link" href="https://www.linkedin.com/in/arunabhabhattacharya" target="_blank" rel="noopener author">Spotted something wrong or missing? Tell us <span aria-hidden="true">→</span><span class="visually-hidden"> (opens LinkedIn in a new tab)</span></a></p>
           </div>
         </div>
       </div>
