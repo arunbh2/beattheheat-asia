@@ -480,7 +480,7 @@ const LEVERS = [
     text: "Crop insurance that pays out after a heat-hit season, affordable credit and heat-tolerant seed stop one bad harvest becoming a debt trap." },
   { id: "hap", edge: ["heatstroke", "hsys"], title: "Heat action plans", who: ["city", "health", "met"], when: "season", measure: "Hours from heat alert to a coordinated response",
     text: "Early warnings, public cooling spaces and outreach to the people most at risk prevent illness before it reaches hospital.",
-    example: "Ahmedabad launched South Asia’s first city heat action plan in 2013." },
+    example: "Ahmedabad launched South Asia’s first city heat action plan in 2013. By June 2026, India had more than 250." },
   { id: "readyclinics", edge: ["hsys", "heatstroke"], title: "Heat-ready health services", who: ["health", "funders"], when: "season", measure: "Health facilities with heat protocols, trained staff and cooling",
     text: "Cooling, backup power, surge plans and trained frontline workers keep clinics working through heatwaves." },
 
@@ -508,7 +508,8 @@ const LEVERS = [
   { id: "coolingcentres", edge: ["underfund", "deaths"], title: "Cooling centres and check-ins", who: ["city", "community", "health"], when: "season", measure: "Cooling centre visits, and check-ins on people living alone",
     text: "Public cooling spaces, water points and check-ins on older people living alone save lives in every heatwave." },
   { id: "heatbudget", edge: ["budgets", "underfund"], title: "Dedicated heat budgets", who: ["nat", "city", "funders"], when: "years", measure: "Heat budget set aside before the season starts",
-    text: "Ring-fenced funding for heat action, set aside before the season, so protection doesn’t compete with the emergency." },
+    text: "Ring-fenced funding for heat action, set aside before the season, so protection doesn’t compete with the emergency.",
+    example: "Since August 2026, India’s disaster response funds can pay for heatwave relief. Preparing for heat is still paid for separately, from disaster mitigation funds." },
   { id: "anticipatory", edge: ["underfund", "emergency"], title: "Anticipatory action", who: ["met", "funders", "nat"], when: "years", measure: "Money released before the heatwave peaks",
     text: "Release money and act on the forecast, before the heatwave peaks, instead of paying for the emergency afterwards.",
     example: "Forecast-based financing, pioneered within the Red Cross Red Crescent Movement, releases funds before a disaster strikes." },
@@ -758,13 +759,19 @@ const EVIDENCE = {
     { by: "Associated Press via PBS NewsHour, 2024", title: "India likely undercounts heat-related deaths, tempering its response, officials say", url: "https://www.pbs.org/newshour/world/india-likely-undercounts-heat-related-deaths-tempering-its-response-officials-say",
       finding: "In 2020, India’s crime records bureau recorded 530 heatstroke deaths while the disaster agency recorded four. Experts say the low counts weaken preparation." },
     { by: "Down To Earth, 2024", title: "Lost in the heat: the critical miscalculation in India’s heatwave mortality data", url: "https://www.downtoearth.org.in/climate-change/lost-in-the-heat-the-critical-miscalculation-in-indias-heatwave-mortality-data",
-      finding: "Death certificates usually record only the immediate cause, such as heart failure, so heat as the trigger goes unrecorded." }
+      finding: "Death certificates usually record only the immediate cause, such as heart failure, so heat as the trigger goes unrecorded." },
+    { by: "Ministry of Home Affairs, reply in India’s Lok Sabha, reported by Down To Earth, 2026", title: "India updates disaster list to include heatwaves and lightning after Finance Commission push", url: "https://www.downtoearth.org.in/climate-change/india-updates-disaster-list-to-include-heatwaves-and-lightning-after-finance-commission-push",
+      finding: "Between 1 March and 26 July 2026, India’s heat surveillance, covering more than 51,000 reporting units, logged 4,853 heatstroke cases but only 20 heatstroke deaths." }
   ],
   reactive: [
     { by: "Global Commission on Adaptation, 2019", title: "Adapt Now: A Global Call for Leadership on Climate Resilience", url: "https://openknowledge.worldbank.org/entities/publication/7713887e-5c0c-5fce-9dd0-c18a8875736c",
       finding: "US$800 million spent on early warning systems in developing countries could avoid US$3–16 billion in losses every year." },
     { by: "UNEP and GRID-Arendal, 2022", title: "Spreading like Wildfire", url: "https://www.unep.org/resources/report/spreading-wildfire-rising-threat-extraordinary-landscape-fires",
-      finding: "Direct response typically gets over half of wildfire spending, while planning and prevention get less than 1%." }
+      finding: "Direct response typically gets over half of wildfire spending, while planning and prevention get less than 1%." },
+    { by: "Centre for Policy Research, 2023 (reported by Carbon Brief)", title: "Guest post: The gaps in India’s ‘heat action plans’", url: "https://www.carbonbrief.org/guest-post-the-gaps-in-indias-heat-action-plans/",
+      finding: "Of 37 heat action plans reviewed, only three identified funding for at least some of their measures, and only two included a vulnerability assessment." },
+    { by: "Ministry of Home Affairs, reply in India’s Lok Sabha, reported by Down To Earth, 2026", title: "India updates disaster list to include heatwaves and lightning after Finance Commission push", url: "https://www.downtoearth.org.in/climate-change/india-updates-disaster-list-to-include-heatwaves-and-lightning-after-finance-commission-push",
+      finding: "In August 2026 India added heatwaves to its notified natural calamities, so national and state disaster response funds can pay for heatwave relief. Before, states could spend only up to 10% of their response fund on locally declared disasters such as heat. Heat mitigation projects are funded separately, from disaster mitigation funds." }
   ],
   protection: [
     { by: "Swiss Re Institute sigma, reported by Global Reinsurance", title: "Protection gap laid bare as Asian cat losses hit $65bn", url: "https://www.globalreinsurance.com/home/swiss-re-sigma-protection-gap-laid-bare-as-asian-cat-losses-hit-65bn/1458440.article",
@@ -932,8 +939,8 @@ const ORGANISATIONS = [
     does: "Ran an anticipatory heatwave response in 2025 with national and district authorities.", levers: ["anticipatory"] },
   { id: "homenet", role: "ground", name: "HomeNet Thailand", url: "https://www.wiego.org/research-library-publications/climate-change-and-heat-stress-impacts-bangkok-thailand/",
     does: "With WIEGO, surveyed more than 1,000 informal workers in Bangkok on heat: nearly 80% had cut their hours. A trusted link between workers and authorities.", levers: ["heatrules", "socialprotection"] },
-  { id: "aidmi", role: "ground", name: "All India Disaster Mitigation Institute (AIDMI)", url: "https://microinsurancenetwork.org/events/all-india-disaster-mitigation-institute-and-microinsurance-network-virtual-roundtable-on-small-heat-resilience-measures-big-impact-in-small-towns-and-on-small-businesses-in-india",
-    does: "Works on heat resilience for small towns and small businesses in India, with the Microinsurance Network.", levers: [] },
+  { id: "aidmi", role: "ground", name: "All India Disaster Mitigation Institute (AIDMI)", url: "https://aidmi.org/key-resources-on-extreme-heat-cooling/",
+    does: "An Ahmedabad-based institute that helps Indian states, districts and cities turn heat warnings into local action. It supports local heat action planning, surveyed 121 street vendors, auto drivers and construction and domestic workers in Lucknow on how heat hits their work, offers Afat Vimo disaster microinsurance to low-income families, and runs a regular southasiadisasters.net series on extreme heat.", levers: ["hap", "heatbudget"] },
   { id: "seeds", role: "ground", name: "SEEDS", url: "https://www.seedsindia.org/portfolio/partnering-to-strengthen-climate-resilience/",
     does: "Combines building-level heat risk mapping, community preparedness and affordable cool roofs for vulnerable urban settlements in India.", levers: ["coolhousing", "hap"] },
   { id: "selco", role: "ground", name: "SELCO Foundation", url: "https://selcofoundation.org/built-environments/",
