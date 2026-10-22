@@ -33,6 +33,7 @@ It is a plain website. There is nothing to install and nothing to "build". GitHu
 | `styles.css` | Colours, fonts and layout | No |
 | `media/` | The film (MP4), its captions (`.en.vtt`) and its poster image, shown from the “Watch the film” button | Only to replace the film: upload new files with the same names |
 | `media/glossary/` | The 30-second glossary explainers: `<term id>.mp4` plus a `.jpg` cover with the same name. Add `video` and `length` to that term in part 14 of `data.js` and a play button appears | To add the next explainers |
+| `media/loops/` and `media/films/` | Short films about a vicious cycle (named after the loop's id, e.g. `protection.mp4`) or a section (e.g. `heat-network-gaps.mp4`), each with a `.jpg` cover. Add `video` and `length` to the loop in part 4 of `data.js`, or an entry in part 16 (`SECTION_FILMS`) | To add more films |
 | `images/SOCIAL_SHARE_IMAGE.jpg` | The preview picture shown when the link is shared | Only if you want a new preview |
 | `CNAME` | Connects the site to the address beattheheat.asia | **No. Never delete this file.** |
 
@@ -42,7 +43,7 @@ The numbers at the top of the page (systems, consequences, cycles and so on) are
 
 ## How to change or add content (in `data.js`)
 
-Open `data.js` on GitHub and click the **pencil icon** (✏️). The file has fifteen numbered parts:
+Open `data.js` on GitHub and click the **pencil icon** (✏️). The file has sixteen numbered parts:
 
 1. **SYSTEMS**: the ten slices of the wheel.
 2. **CONSEQUENCES**: every dot. Each one has an `id` (a short name with no spaces, used by the links), a `sys` (which system it belongs to), a `label` (`\n` starts a new line) and a `desc` (the description shown when someone taps it).

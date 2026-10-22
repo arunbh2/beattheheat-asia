@@ -964,3 +964,17 @@ body.film-open { overflow: hidden; }
 .term-pop__watch:hover { background: var(--amber); }
 .film__note-meta { opacity: .7; }
 .film__frame video[hidden] { display: none; }
+
+/* ---------- loop and section films ---------- */
+.watch-btn {
+  display: inline-flex; align-items: center; gap: 8px; margin-top: 10px; padding: 4px 14px 4px 4px;
+  border: 1.5px solid var(--ink); border-radius: 999px; background: var(--white); color: var(--ink);
+  font: inherit; font-size: .85rem; font-weight: 800; cursor: pointer;
+}
+.watch-btn:hover { background: var(--ink); color: var(--canvas); }
+.watch-btn .play-icon { width: 24px; height: 24px; }
+.watch-btn .play-icon::before { border-width: 5px 0 5px 9px; margin-left: 2px; }
+.watch-btn__len { font-weight: 500; opacity: .7; }
+.panel .watch-btn { margin: 4px 0 10px; }
+.gaps__film:empty { display: none; }
+.gaps__film .watch-btn { margin: 4px 0 8px; }
