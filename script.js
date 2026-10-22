@@ -20,20 +20,28 @@
 
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  // Hero background loop: plays only when motion is welcome, pauses off screen, and can be paused (remembered per viewer).
+  // Hero background loop. Plays by default; starts paused for reduced motion or data saver, and whenever the browser
+  // refuses to autoplay. The play/pause button is always there, and a visitor's own choice is remembered.
   (function heroLoop() {
     const v = document.getElementById("intro-video"), btn = document.getElementById("intro-pause");
     if (!v || !btn) return;
     const saveData = navigator.connection && navigator.connection.saveData;
-    if (reduceMotion || saveData) return; // the still poster stays
-    let paused = false, onScreen = true;
-    try { paused = localStorage.getItem("bth-hero-paused") === "1"; } catch (e) {}
-    const sync = () => {
+    let stored = null; try { stored = localStorage.getItem("bth-hero-paused"); } catch (e) {}
+    let paused = stored === "1" || (stored !== "0" && (reduceMotion || saveData)), onScreen = true;
+    v.muted = true; v.defaultMuted = true;
+    const label = () => {
       btn.setAttribute("aria-pressed", String(paused));
       btn.querySelector(".visually-hidden").textContent = paused ? "Play background animation" : "Pause background animation";
-      if (!paused && onScreen) { const p = v.play(); if (p && p.catch) p.catch(() => {}); } else v.pause();
     };
-    v.preload = "auto"; btn.hidden = false;
+    const sync = () => {
+      label();
+      if (!paused && onScreen) {
+        if (v.preload !== "auto") v.preload = "auto";
+        const p = v.play();
+        if (p && p.catch) p.catch(() => { paused = true; label(); }); // autoplay blocked (e.g. low power mode): offer play
+      } else v.pause();
+    };
+    btn.hidden = false;
     btn.addEventListener("click", () => { paused = !paused; try { localStorage.setItem("bth-hero-paused", paused ? "1" : "0"); } catch (e) {} sync(); });
     if ("IntersectionObserver" in window) new IntersectionObserver(es => { onScreen = es[0].isIntersecting; sync(); }).observe(v);
     sync();
@@ -1382,9 +1390,9 @@
   const endWeb = document.getElementById("film-end-web");
   function endWebOn(on) {
     if (!endWeb) return;
-    let heroPaused = false; try { heroPaused = localStorage.getItem("bth-hero-paused") === "1"; } catch (e) {}
-    const still = reduceMotion || heroPaused || (navigator.connection && navigator.connection.saveData);
-    if (on && !still) { endWeb.preload = "auto"; const p = endWeb.play(); if (p && p.catch) p.catch(() => {}); } else endWeb.pause();
+    let stored = null; try { stored = localStorage.getItem("bth-hero-paused"); } catch (e) {}
+    const still = stored === "1" || (stored !== "0" && (reduceMotion || (navigator.connection && navigator.connection.saveData)));
+    if (on && !still) { endWeb.muted = true; endWeb.preload = "auto"; const p = endWeb.play(); if (p && p.catch) p.catch(() => {}); } else endWeb.pause();
   }
 
   function showDialog(opener) {

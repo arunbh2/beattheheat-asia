@@ -32,7 +32,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap">
 
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=38">
 
   <script type="application/ld+json">
   {
@@ -67,8 +67,8 @@
     }
   }
   </script>
-  <script src="data.js" defer></script>
-  <script src="script.js" defer></script>
+  <script src="data.js?v=38" defer></script>
+  <script src="script.js?v=38" defer></script>
 </head>
 
 <body>
@@ -94,8 +94,8 @@
       <!-- Background loop: decorative, muted, no sound. Started by script.js only when motion is welcome. -->
       <div class="intro__bg" aria-hidden="true">
         <video class="intro__video" id="intro-video" muted loop playsinline preload="none" poster="media/hero/web.jpg" tabindex="-1">
-          <source src="media/hero/web.webm" type="video/webm">
           <source src="media/hero/web.mp4" type="video/mp4">
+          <source src="media/hero/web.webm" type="video/webm">
         </video>
       </div>
       <button type="button" class="intro__pause" id="intro-pause" aria-pressed="false" hidden><span class="intro__pause-icon" aria-hidden="true"></span><span class="visually-hidden">Pause background animation</span></button>
@@ -436,8 +436,8 @@
           <!-- The film's last line is "the whole web moves": the end card fades into the same web as the title. -->
           <div class="film__end-web" aria-hidden="true">
             <video id="film-end-web" muted loop playsinline preload="none" tabindex="-1" poster="media/hero/web.jpg">
-              <source src="media/hero/web.webm" type="video/webm">
               <source src="media/hero/web.mp4" type="video/mp4">
+              <source src="media/hero/web.webm" type="video/webm">
             </video>
           </div>
           <p class="film__end-k">Now see it for yourself</p>
