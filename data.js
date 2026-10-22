@@ -454,16 +454,24 @@ const INSTITUTIONS = [
 // when: how soon it can start working. "season" = this season, "years" = 1–3 years, "decade" = a decade or more.
 const LEVERS = [
   { id: "emissions", edge: ["heat", "nature"], title: "Deep emission cuts", who: ["nat", "intl", "funders"], when: "decade", measure: "Emissions cut against the national target",
-    text: "Every fraction of a degree avoided weakens every loop that runs through land, ice and forests at once." },
+    text: "Every fraction of a degree avoided weakens every loop that runs through land, ice and forests at once.",
+    guides: [
+      { by: "Intergovernmental Panel on Climate Change, 2023", title: "AR6 Synthesis Report: Climate Change 2023", url: "https://www.ipcc.ch/report/ar6/syr/" } ] },
   { id: "cleancool", edge: ["demand", "emissions"], title: "Clean, efficient cooling", who: ["nat", "utilities", "intl"], when: "years", measure: "Share of new air conditioners meeting efficiency standards",
     text: "Efficient appliances, clean power and low-warming refrigerants break the link between keeping cool and heating the planet.",
-    example: "The Kigali Amendment to the Montreal Protocol (2016) commits countries to phase down the most climate-warming refrigerants." },
+    example: "The Kigali Amendment to the Montreal Protocol (2016) commits countries to phase down the most climate-warming refrigerants.",
+    guides: [
+      { by: "Ministry of Environment, Forest and Climate Change, India, 2019", title: "India Cooling Action Plan", url: "https://ozonecell.nic.in/home-page/resource-informations/reports-publications/india-cooling-action-plan/" } ] },
   { id: "soilwater", edge: ["drysoil", "heat"], title: "Keep water in the soil", who: ["agri", "community", "funders"], when: "years", measure: "Hectares under soil-moisture practices",
     text: "Mulching, agroforestry, water harvesting and restoring degraded land help soils hold moisture and stay cooler." },
   { id: "blackcarbon", edge: ["glacier", "heat"], title: "Cut black carbon", who: ["nat", "city"], when: "years", measure: "Brick kilns and engines switched to cleaner technology",
-    text: "Cleaner stoves, engines and brick kilns and an end to open burning cut black carbon, the soot that darkens snow and ice." },
+    text: "Cleaner stoves, engines and brick kilns and an end to open burning cut black carbon, the soot that darkens snow and ice.",
+    guides: [
+      { by: "Climate and Clean Air Coalition", title: "Cleaner brick production: a natural-draught zig-zag kiln case study", url: "https://www.ccacoalition.org/resources/cleaner-brick-production-case-study-2-production-bricks-through-natural-draft-zigzag-kiln" } ] },
   { id: "firesmart", edge: ["wildfires", "heat"], title: "Fire-smart landscapes", who: ["nat", "community"], when: "years", measure: "Area burned each fire season",
-    text: "Early detection, community fire crews and land management that reduces fuel keep fires small and forests standing." },
+    text: "Early detection, community fire crews and land management that reduces fuel keep fires small and forests standing.",
+    guides: [
+      { by: "UNEP and GRID-Arendal, 2022", title: "Spreading like Wildfire: The Rising Threat of Extraordinary Landscape Fires", url: "https://www.unep.org/resources/report/spreading-wildfire-rising-threat-extraordinary-landscape-fires" } ] },
 
   { id: "coolbydesign", edge: ["demand", "uhi"], title: "Cool by design", who: ["city", "nat"], when: "decade", measure: "New buildings meeting cooling standards",
     text: "Shading, ventilation, reflective roofs and efficient cooling cut the need for air conditioning, and the waste heat it dumps outside.",
@@ -478,19 +486,31 @@ const LEVERS = [
   { id: "drypower", edge: ["scarcity", "thermal"], title: "Power that doesn’t need water", who: ["utilities", "nat"], when: "decade", measure: "Power capacity added that needs little or no water",
     text: "Solar and wind use very little water, and dry cooling protects thermal plants when rivers run low or warm." },
   { id: "pumpbackup", edge: ["power", "scarcity"], title: "Backup power for water", who: ["water", "utilities"], when: "years", measure: "Water pumping stations with backup power",
-    text: "Solar pumps and backup supply keep water flowing when the grid fails." },
+    text: "Solar pumps and backup supply keep water flowing when the grid fails.",
+    guides: [
+      { by: "World Health Organization, 2017", title: "Climate-resilient water safety plans: managing health risks associated with climate variability and change", url: "https://www.who.int/publications/i/item/9789241512794" } ] },
   { id: "irrigate", edge: ["irrigation", "groundwater"], title: "Smart irrigation and groundwater rules", who: ["agri", "water"], when: "years", measure: "Groundwater levels over time",
-    text: "Drip irrigation, metering, aquifer recharge and fair pumping rules keep wells from running dry." },
+    text: "Drip irrigation, metering, aquifer recharge and fair pumping rules keep wells from running dry.",
+    guides: [
+      { by: "Council on Energy, Environment and Water (CEEW)", title: "Atal Bhujal Yojana: India’s scheme for community-led groundwater management", url: "https://www.ceew.in/publications/atal-bhujal-yojana-scheme-for-sustainable-participatory-groundwater-resources-management" } ] },
   { id: "farmcredit", edge: ["harvests", "farmdebt"], title: "Crop insurance and fair credit", who: ["insurers", "agri", "funders"], when: "years", measure: "Farmers covered by crop insurance or fair credit",
-    text: "Crop insurance that pays out after a heat-hit season, affordable credit and heat-tolerant seed stop one bad harvest becoming a debt trap." },
+    text: "Crop insurance that pays out after a heat-hit season, affordable credit and heat-tolerant seed stop one bad harvest becoming a debt trap.",
+    guides: [
+      { by: "Ministry of Agriculture and Farmers Welfare, India", title: "Pradhan Mantri Fasal Bima Yojana, India’s national crop insurance scheme", url: "https://pmfby.gov.in/" } ] },
   { id: "hap", edge: ["heatstroke", "hsys"], title: "Heat action plans", who: ["city", "health", "met"], when: "season", measure: "Hours from heat alert to a coordinated response",
     text: "Early warnings, public cooling spaces and outreach to the people most at risk prevent illness before it reaches hospital.",
     example: "Ahmedabad launched South Asia’s first city heat action plan in 2013. By June 2026, India had more than 250.",
     guides: [
       { by: "Global Heat Health Information Network (GHHIN)", title: "Heat action plans and case studies, including Indian cities", url: "https://heathealth.info/heat-action-plans-and-case-studies/" },
-      { by: "WHO and WMO, 2015, in the GHHIN resource library", title: "Heatwaves and health: guidance on warning-system development", url: "https://heathealth.info/resources/heatwaves-and-health-guidance-on-warning-system-development/" } ] },
+      { by: "WHO and WMO, 2015, in the GHHIN resource library", title: "Heatwaves and health: guidance on warning-system development", url: "https://heathealth.info/resources/heatwaves-and-health-guidance-on-warning-system-development/" },
+      { by: "Council on Energy, Environment and Water (CEEW), 2025", title: "How Extreme Heat is Impacting India: district-level heat risk for all 734 districts, to target plans", url: "https://www.ceew.in/sites/default/files/ceew-how-extreme-heat-is-impacting-india-final-web-file.pdf" },
+      { by: "Council on Energy, Environment and Water (CEEW)", title: "How can heat action plans make Thane a heat-resilient city?", url: "https://www.ceew.in/publications/how-can-thane-city-tackle-heatwaves-risks-with-heat-action-plan" } ] },
   { id: "readyclinics", edge: ["hsys", "heatstroke"], title: "Heat-ready health services", who: ["health", "funders"], when: "season", measure: "Health facilities with heat protocols, trained staff and cooling",
-    text: "Cooling, backup power, surge plans and trained frontline workers keep clinics working through heatwaves." },
+    text: "Cooling, backup power, surge plans and trained frontline workers keep clinics working through heatwaves.",
+    guides: [
+      { by: "National Centre for Disease Control, Ministry of Health and Family Welfare, India, 2021", title: "National Action Plan on Heat-Related Illness", url: "https://ncdc.mohfw.gov.in/uploads/pdf/heat12.pdf" },
+      { by: "National Centre for Disease Control, India", title: "Climate change and health: heat-illness guidelines, emergency cooling guidance and heat stroke units", url: "https://ncdc.mohfw.gov.in/includes/About/CentresAndDivision/CEOH.php" },
+      { by: "Council on Energy, Environment and Water (CEEW), for the GHHIN South Asia hub, 2026", title: "India in a Warming World: Strengthening Heat-Health Action", url: "https://www.ceew.in/publications/india-heat-health-action" } ] },
 
   { id: "heatrules", edge: ["informal", "heatstroke"], title: "Heat-safe work", who: ["nat", "employers", "workers"], when: "season", measure: "Worksites inspected and keeping rest-break rules",
     text: "Rest, shade and water during dangerous heat, with paid breaks so that stopping work doesn’t mean losing pay.",
@@ -499,38 +519,66 @@ const LEVERS = [
       { by: "WHO and WMO, in the GHHIN resource library", title: "Heat at work: the first joint global guidance on workplace heat stress", url: "https://heathealth.info/at-work/" } ] },
   { id: "heatcash", edge: ["heatstroke", "lost"], title: "Income protection in heatwaves", who: ["insurers", "nat", "workers"], when: "years", measure: "Workers covered, and days from trigger to payout",
     text: "Cash that pays out automatically when temperatures cross a danger threshold, so people can afford to stop. Triggers need careful design to limit basis risk: heat that hurts people without triggering a payout.",
-    example: "Parametric heat insurance has been piloted with women informal workers in India." },
+    example: "Parametric heat insurance has been piloted with women informal workers in India.",
+    guides: [
+      { by: "VimoSEWA, 2025", title: "Parametric heat and rainfall insurance for informal women workers", url: "https://www.sewainsurance.org/wp-content/uploads/2025/12/Parametric-Heat-and-Rainfall-Insurance-for-Informal-Women-Workers.pdf" },
+      { by: "CGAP", title: "Confronting the climate and health nexus: lessons from the Self-Employed Women’s Association (SEWA)", url: "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association" } ] },
   { id: "socialprotection", edge: ["lost", "informal"], title: "Social protection floors", who: ["nat", "funders"], when: "years", measure: "Households reached by heat-season support",
-    text: "Basic income security that keeps households above the line between one hot season and the next." },
+    text: "Basic income security that keeps households above the line between one hot season and the next.",
+    guides: [
+      { by: "International Labour Organization", title: "Addressing the impacts of extreme heat through social protection", url: "https://www.ilo.org/resource/article/addressing-impacts-extreme-heat-through-social-protection" } ] },
   { id: "freecare", edge: ["heatstroke", "debt"], title: "Free care for heat illness", who: ["health", "nat"], when: "season", measure: "Heat illness cases treated free of charge",
-    text: "Covering emergency treatment for heat illness stops one bad day from becoming years of debt." },
+    text: "Covering emergency treatment for heat illness stops one bad day from becoming years of debt.",
+    guides: [
+      { by: "National Centre for Disease Control, India", title: "Climate change and health: heat-illness guidelines, emergency cooling guidance and heat stroke units", url: "https://ncdc.mohfw.gov.in/includes/About/CentresAndDivision/CEOH.php" },
+      { by: "National Centre for Disease Control, Ministry of Health and Family Welfare, India, 2021", title: "National Action Plan on Heat-Related Illness", url: "https://ncdc.mohfw.gov.in/uploads/pdf/heat12.pdf" } ] },
   { id: "affordablecool", edge: ["energypoverty", "heatstroke"], title: "Affordable cooling for the poorest", who: ["utilities", "city", "nat"], when: "years", measure: "Low-income homes with affordable cooling",
-    text: "Lifeline electricity tariffs, efficient fans and cool roofs put safe cooling within reach of every household." },
+    text: "Lifeline electricity tariffs, efficient fans and cool roofs put safe cooling within reach of every household.",
+    guides: [
+      { by: "Sustainable Energy for All, 2023", title: "Chilling Prospects: Global Access to Cooling Gaps 2023", url: "https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-global-access-to-cooling-gaps-2023" },
+      { by: "Sustainable Energy for All", title: "Chilling Prospects Special: Gender and Access to Cooling", url: "https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-special-gender" } ] },
   { id: "coolhousing", edge: ["migration", "homes"], title: "Cool, affordable housing", who: ["city", "funders", "community"], when: "decade", measure: "Homes fitted with cool roofs or insulation",
-    text: "Upgrading informal settlements with ventilation, shade and cool roofs, and planning homes for people who arrive." },
+    text: "Upgrading informal settlements with ventilation, shade and cool roofs, and planning homes for people who arrive.",
+    guides: [
+      { by: "The Climate Group", title: "Telangana’s cool roof policy: from pilot demonstration to policy", url: "https://www.theclimategroup.org/our-work/publications/telanganas-cool-roof-policy-pilot-demonstration-policy-implementation" },
+      { by: "Wellcome", title: "£17.5m for research testing heat adaptations, including a trial of reflective roof coatings with a site in India", url: "https://wellcome.org/insights/articles/wellcome-awards-ps175m-support-global-research-drive" } ] },
   { id: "keepinschool", edge: ["inequality", "dropout"], title: "Keep children in school", who: ["schools", "nat"], when: "season", measure: "Attendance and drop-outs during the heat season",
-    text: "Cash transfers, school meals and heat-ready classrooms and timetables keep children learning through hot seasons." },
+    text: "Cash transfers, school meals and heat-ready classrooms and timetables keep children learning through hot seasons.",
+    guides: [
+      { by: "UNICEF, 2026", title: "Learning Interrupted: global snapshot of climate-related school disruptions", url: "https://www.unicef.org/reports/learning-interrupted" } ] },
   { id: "coolnights", edge: ["sleepless", "mental"], title: "Cool nights and support", who: ["city", "health", "community"], when: "season", measure: "Night-time indoor temperatures in target homes",
-    text: "Cooling centres open at night, shaded and ventilated homes, and mental-health support during the hot season." },
+    text: "Cooling centres open at night, shaded and ventilated homes, and mental-health support during the hot season.",
+    guides: [
+      { by: "WHO Regional Office for Europe, 2025", title: "How summer heat affects health, and how to keep cool, including cooling homes at night", url: "https://www.who.int/europe/news/item/23-06-2025-how-summer-heat-impacts-health-and-how-to--keepcool" },
+      { by: "Wellcome", title: "Climate and mental health: uncovering how heat affects anxiety, depression and psychosis", url: "https://wellcome.org/research-funding/schemes/climate-and-mental-health-award-uncovering-mechanisms-between-heat-and" } ] },
 
   { id: "countdeaths", edge: ["deaths", "underreport"], title: "Count every heat death", who: ["health", "met", "nat"], when: "years", measure: "Recorded heat deaths compared with excess deaths",
-    text: "Real-time tracking of excess deaths during heatwaves, and death certificates that record heat, make the toll visible." },
+    text: "Real-time tracking of excess deaths during heatwaves, and death certificates that record heat, make the toll visible.",
+    guides: [
+      { by: "National Centre for Disease Control, India, in the GHHIN resource library", title: "Autopsy findings in heat-related deaths: guidance for recording heat as a cause", url: "https://heathealth.info/resources/autopsy-findings-in-heat-related-deaths/" },
+      { by: "National Centre for Disease Control, Ministry of Health and Family Welfare, India, 2021", title: "National Action Plan on Heat-Related Illness", url: "https://ncdc.mohfw.gov.in/uploads/pdf/heat12.pdf" } ] },
   { id: "coolingcentres", edge: ["underfund", "deaths"], title: "Cooling centres and check-ins", who: ["city", "community", "health"], when: "season", measure: "Cooling centre visits, and check-ins on people living alone",
     text: "Public cooling spaces, water points and check-ins on older people living alone save lives in every heatwave.",
     guides: [
       { by: "US Centers for Disease Control and Prevention, in the GHHIN resource library", title: "The use of cooling centers to prevent heat-related illness: evidence and strategies for implementation", url: "https://heathealth.info/wp-content/uploads/cdc_47657_DS1-compressed-1.pdf" } ] },
   { id: "heatbudget", edge: ["budgets", "underfund"], title: "Dedicated heat budgets", who: ["nat", "city", "funders"], when: "years", measure: "Heat budget set aside before the season starts",
     text: "Ring-fenced funding for heat action, set aside before the season, so protection doesn’t compete with the emergency.",
-    example: "Since August 2026, India’s disaster response funds can pay for heatwave relief. Preparing for heat is still paid for separately, from disaster mitigation funds." },
+    example: "Since August 2026, India’s disaster response funds can pay for heatwave relief. Preparing for heat is still paid for separately, from disaster mitigation funds.",
+    guides: [
+      { by: "Centre for Policy Research, India", title: "Finding the Finance: a guide to identifying centrally sponsored schemes to fund heat resilience", url: "https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/" },
+      { by: "Centre for Policy Research, India, 2023", title: "How is India adapting to heatwaves? An assessment of 37 heat action plans", url: "https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/" } ] },
   { id: "anticipatory", edge: ["underfund", "emergency"], title: "Anticipatory action", who: ["met", "funders", "nat"], when: "years", measure: "Money released before the heatwave peaks",
     text: "Release money and act on the forecast, before the heatwave peaks, instead of paying for the emergency afterwards.",
     example: "Forecast-based financing, pioneered within the Red Cross Red Crescent Movement, releases funds before a disaster strikes. WHO and WMO estimate that bringing heat-health warning systems to the countries that lack them could prevent nearly 100,000 deaths a year.",
     guides: [
       { by: "IFRC, Practical Action and the Red Cross Red Crescent Climate Centre, for the Zurich Climate Resilience Alliance, 2026", title: "Understanding the global landscape of heat early warning systems (with case studies from Bangladesh, Nepal, Pakistan, the Philippines and Vietnam)", url: "https://www.preventionweb.net/publication/documents-and-publications/understanding-global-landscape-heat-early-warning-systems" },
-      { by: "Zurich Climate Resilience Alliance", title: "Early warning systems: resources", url: "https://zcralliance.org/resources-ews/" } ] },
+      { by: "Zurich Climate Resilience Alliance", title: "Early warning systems: resources", url: "https://zcralliance.org/resources-ews/" },
+      { by: "Council on Energy, Environment and Water (CEEW), 2026", title: "Thriving in a Warming World: climate intelligence for extreme heat", url: "https://www.ceew.in/sites/default/files/ceew-thriving-warming-world-climate-intelligence-extreme-heat.pdf" } ] },
   { id: "riskpools", edge: ["insurance", "budgets"], title: "Shared risk pools", who: ["insurers", "nat", "funders"], when: "years", measure: "Share of heat losses covered by pooled risk",
     text: "Public–private insurance and regional risk pools keep cover available and spread losses beyond any one budget.",
-    example: "Regional risk pools such as the African Risk Capacity and the Caribbean’s CCRIF share disaster risk across countries." }
+    example: "Regional risk pools such as the African Risk Capacity and the Caribbean’s CCRIF share disaster risk across countries.",
+    guides: [
+      { by: "UNDP", title: "Global Shield against Climate Risks in Pakistan: pre-arranged finance for climate shocks", url: "https://www.undp.org/pakistan/projects/global-shield-against-climate-risks" } ] }
 ];
 
 /* ---------- 7. A GUIDED PATH ACROSS SYSTEMS ---------- */
@@ -764,7 +812,9 @@ const EVIDENCE = {
     { by: "Minor et al., One Earth, 2022", title: "Rising temperatures erode human sleep globally", url: "https://orbit.dtu.dk/en/publications/rising-temperatures-erode-human-sleep-globally/",
       finding: "Data from 47,628 people in 68 countries shows hot nights shorten sleep, with bigger losses for older people and in lower-income countries." },
     { by: "Thompson et al., The Lancet Planetary Health, 2023 (summary by Imperial College London)", title: "Ambient temperature and mental health: a systematic review and meta-analysis", url: "https://www.imperial.ac.uk/news/246058/rising-temperatures-associated-with-poorer-mental/",
-      finding: "A review of 114 studies links higher temperatures with poorer mental health, including higher suicide rates." }
+      finding: "A review of 114 studies links higher temperatures with poorer mental health, including higher suicide rates." },
+    { by: "Council on Energy, Environment and Water (CEEW), 2025", title: "How Extreme Heat is Impacting India: Assessing District-level Heat Risk", url: "https://www.ceew.in/sites/default/files/ceew-how-extreme-heat-is-impacting-india-final-web-file.pdf",
+      finding: "Over the last decade, nearly 70% of India’s districts gained five or more very warm nights each summer, while only about 28% saw a similar rise in very hot days. Mumbai gained 15 very warm nights a summer, and Bengaluru 11." }
   ],
   farmdebt: [
     { by: "Carleton, PNAS, 2017", title: "Crop-damaging temperatures increase suicide rates in India", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5565417/",
@@ -785,8 +835,8 @@ const EVIDENCE = {
       finding: "US$800 million spent on early warning systems in developing countries could avoid US$3–16 billion in losses every year." },
     { by: "UNEP and GRID-Arendal, 2022", title: "Spreading like Wildfire", url: "https://www.unep.org/resources/report/spreading-wildfire-rising-threat-extraordinary-landscape-fires",
       finding: "Direct response typically gets over half of wildfire spending, while planning and prevention get less than 1%." },
-    { by: "Centre for Policy Research, 2023 (reported by Carbon Brief)", title: "Guest post: The gaps in India’s ‘heat action plans’", url: "https://www.carbonbrief.org/guest-post-the-gaps-in-indias-heat-action-plans/",
-      finding: "Of 37 heat action plans reviewed, only three identified funding for at least some of their measures, and only two included a vulnerability assessment." },
+    { by: "Centre for Policy Research, 2023", title: "How is India adapting to heatwaves? An assessment of heat action plans", url: "https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/",
+      finding: "Of 37 heat action plans reviewed, 11 discussed funding, and 8 of those simply asked departments to find their own money. Only two included a vulnerability assessment." },
     { by: "Ministry of Home Affairs, reply in India’s Lok Sabha, reported by Down To Earth, 2026", title: "India updates disaster list to include heatwaves and lightning after Finance Commission push", url: "https://www.downtoearth.org.in/climate-change/india-updates-disaster-list-to-include-heatwaves-and-lightning-after-finance-commission-push",
       finding: "In August 2026 India added heatwaves to its notified natural calamities, so national and state disaster response funds can pay for heatwave relief. Before, states could spend only up to 10% of their response fund on locally declared disasters such as heat. Heat mitigation projects are funded separately, from disaster mitigation funds." }
   ],
@@ -861,8 +911,8 @@ const ORGANISATIONS = [
   { id: "tmd", role: "asia", name: "Thai Meteorological Department", url: "https://hpc.tmd.go.th/NCEP2/",
     does: "Publishes heat index forecasts and works with health authorities to help people respond to dangerous heat and humidity.", levers: ["hap"] },
 
-  { id: "ceew", role: "research", name: "Council on Energy, Environment and Water (CEEW)", url: "https://www.ceew.in/press-release/mapping-climate-risks-and-impacts-of-extreme-heatwave-disaster-in-indian-districts",
-    does: "Assessed heat risk in all 734 districts of India in 2025, and has studied heat-health action in Nepal, to help plans target the places at most risk.", levers: ["hap"] },
+  { id: "ceew", role: "research", name: "Council on Energy, Environment and Water (CEEW)", url: "https://www.ceew.in/publications?field_focus_area_tid=All&field_pub_type_tid=All&field_authors_target_id_selective=All&title=heat",
+    does: "Assessed heat risk in all 734 districts of India in 2025, finding 57% of districts, home to three in four Indians, at high or very high risk. Its 2026 heat-health reports for the GHHIN South Asia hub cover India, Nepal, Bangladesh and Bhutan, and it helped Thane build its heat action plan.", levers: ["hap", "readyclinics", "anticipatory", "irrigate"] },
   { id: "lancet", role: "research", name: "Lancet Countdown", url: "https://doi.org/10.1016/S0140-6736(24)01822-1",
     does: "Tracks heat deaths, lost working hours and other health impacts of climate change every year.", levers: ["countdeaths"] },
   { id: "nushrpc", role: "research", name: "NUS Heat Resilience & Performance Centre", url: "https://medicine.nus.edu.sg/newsletters/issue54/dossier/nus-centre-designated-southeast-asia-hub-for-global-heat-health-info-exchange",
@@ -1072,8 +1122,8 @@ const ORGANISATIONS = [
     does: "Its Adaptation & Resilience Fund made extreme heat its first focus, awarding US$9.3 million for parametric insurance, adaptive social protection, heat action plans and early warnings.", levers: ["heatcash", "socialprotection", "hap"] },
   { id: "rockefeller", role: "funders", name: "The Rockefeller Foundation", url: "https://wmo.int/node/38332",
     does: "Funds the South Asia Climate–Health Desk with Wellcome and a heat research consortium at IISER Pune, and supported C40’s Cool Cities Accelerator.", levers: ["hap"] },
-  { id: "wellcome", role: "funders", name: "Wellcome", url: "https://wellcome.org/insights/articles/ps17m-global-research-climate-change-and-maternal-and-child-health",
-    does: "Funds research on heat and health, including £17 million across nine projects on how extreme heat affects pregnant women and children.", levers: [] },
+  { id: "wellcome", role: "funders", name: "Wellcome", url: "https://wellcome.org/our-priorities/climate-and-health/extreme-heat",
+    does: "Funds research on extreme heat and health: £17.5 million to test heat adaptations such as cool roofs, with a trial site in India; £17 million across nine projects on heat in pregnancy and early childhood; and work on heat and mental health. With The Rockefeller Foundation it committed US$11.5 million to the WHO–WMO Climate and Health Joint Programme.", levers: ["coolhousing", "coolnights", "readyclinics"] },
   { id: "laudes", role: "funders", name: "Laudes Foundation", url: "https://icccad.net/programmes/just-transition/capacitating-garment-workers/",
     does: "Funds a three-year project with ICCCAD that builds Bangladeshi garment workers’ capacity on climate change, including heat stress, and on labour rights.", levers: ["heatrules"] },
   { id: "idrc", role: "funders", name: "International Development Research Centre (IDRC)", url: "https://idrc-crdi.ca/en/what-we-do/projects-we-support/project/climate-adaptive-action-plans-manage-heat-stress-indian",
