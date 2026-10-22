@@ -57,7 +57,7 @@ const CONSEQUENCES = [
 
   /* Food and agriculture */
   { id: "harvests", sys: "food", label: "Failing\nharvests",
-    desc: "Heat during flowering and grain-filling cuts yields of staple crops, even when there is enough rain." },
+    desc: "Heat during flowering and grain-filling cuts yields of staple crops, even when there is enough rain. Smallholders farming on rain alone, with no irrigation or savings to fall back on, are hit first." },
   { id: "livestock", sys: "food", label: "Livestock\nlosses",
     desc: "Heat-stressed animals eat less, produce less milk and eggs, fall ill and die." },
   { id: "farmwork", sys: "food", label: "Farmwork\nhours lost",
@@ -65,7 +65,7 @@ const CONSEQUENCES = [
   { id: "pests", sys: "food", label: "Pests and crop\ndiseases spread",
     desc: "Warmer conditions let many pests and plant diseases breed faster and spread to new areas." },
   { id: "fisheries", sys: "food", label: "Fisheries\ndecline",
-    desc: "As waters warm and reefs die, fish move away or decline, and catches fall." },
+    desc: "As waters warm and reefs die, fish move away or decline, and catches fall. Coastal and riverside families who live from fishing lose food and income together." },
   { id: "spoilage", sys: "food", label: "Food spoils\nfaster",
     desc: "Without cool storage, more of every harvest rots between field and plate." },
   { id: "prices", sys: "food", label: "Food price\nspikes",
@@ -135,7 +135,9 @@ const CONSEQUENCES = [
   { id: "respiratory", sys: "health", label: "Breathing\nproblems worsen",
     desc: "Ozone, smoke and hot air inflame airways and worsen asthma and lung disease." },
   { id: "pregnancy", sys: "health", label: "Risks in\npregnancy",
-    desc: "Extreme heat is linked to higher risks of preterm birth and other pregnancy complications." },
+    desc: "Each 1\u00a0°C rise in temperature raises the odds of preterm birth by about 5%, and a heatwave by about 16%. Stillbirths rise too. Women who keep working outdoors or fetching water while pregnant carry the most risk." },
+  { id: "newborns", sys: "health", label: "Babies and young\nchildren at risk",
+    desc: "Babies and small children overheat and dehydrate faster than adults, and can’t say when they are struggling. Heat brings more diarrhoea, malnutrition and hospital visits for the youngest." },
   { id: "mental", sys: "health", label: "Mental health\nsuffers",
     desc: "Heat is linked to more anxiety, distress and suicide, and to worse outcomes for people living with mental illness." },
   { id: "sleepless", sys: "health", label: "Sleepless\nhot nights",
@@ -182,6 +184,8 @@ const CONSEQUENCES = [
     desc: "Older people living alone are among the most likely to die in a heatwave. Many victims of Chicago’s 1995 heatwave died alone at home." },
   { id: "violence", sys: "society", label: "Violence and\ncrime rise",
     desc: "Hot days are linked to more aggression, domestic violence and violent crime." },
+  { id: "gbv", sys: "society", label: "Violence against\nwomen rises",
+    desc: "Across India, Nepal and Pakistan, each 1\u00a0°C rise in yearly temperature was linked to about 4.5% more violence by husbands and partners. Lost income, stress and crowded hot homes all play a part." },
   { id: "conflict", sys: "society", label: "Conflict over\nwater and land",
     desc: "Where water and pasture shrink, disputes between communities can turn violent." },
   { id: "migration", sys: "society", label: "Forced\nmigration",
@@ -202,6 +206,8 @@ const CONSEQUENCES = [
     desc: "Heat is rarely written on death certificates. Most heat deaths are recorded as heart, kidney or lung failure." },
   { id: "underfund", sys: "gov", label: "Heat protection\nunderfunded",
     desc: "Warnings, cooling centres, outreach and heat-ready services get a small share of budgets compared with floods or storms." },
+  { id: "remote", sys: "gov", label: "Help can’t reach\nremote places",
+    desc: "In remote villages, islands, hills and river settlements, the nearest clinic, cool shelter or reliable power can be hours away, and heat warnings often never arrive." },
   { id: "credit", sys: "gov", label: "Borrowing\ncosts rise",
     desc: "Lenders and rating agencies increasingly price climate risk into the cost of public and private borrowing." },
   { id: "elections", sys: "gov", label: "Elections and public\nservices disrupted",
@@ -244,6 +250,7 @@ const LINKS = [
   ["prices", "hunger", "The poorest spend most of their income on food."],
   ["prices", "informal", "Higher prices make it even harder to stop working."],
   ["hunger", "learning", "Hungry children struggle to learn."],
+  ["hunger", "newborns", "Underfed babies and children have less reserve to survive heat and illness."],
 
   /* water */
   ["scarcity", "fetching", "Taps run dry, so someone has to fetch water."],
@@ -255,8 +262,10 @@ const LINKS = [
   ["scarcity", "thermal", "Power plants need cool water. When rivers run low or warm, they cut output."],
   ["quality", "infectious", "Contaminated water spreads disease."],
   ["sanitation", "infectious", "Poor hygiene spreads diarrhoea and other infections."],
+  ["sanitation", "newborns", "Diarrhoea from unsafe water is most dangerous for the youngest children."],
   ["fetching", "care", "Fetching water falls mostly on women and girls."],
   ["fetching", "dropout", "Girls miss school to fetch water."],
+  ["fetching", "gbv", "Longer trips for water, often alone, expose women and girls to harassment and assault."],
   ["competition", "conflict", "Scarce water becomes a source of conflict."],
 
   /* energy */
@@ -291,12 +300,15 @@ const LINKS = [
   ["publicspace", "business", "Street trade and markets empty out."],
   ["publicspace", "isolation", "People stay indoors and alone."],
   ["telecom", "emergency", "Warnings and calls for help don’t get through."],
+  ["telecom", "remote", "Without a phone signal, heat warnings never reach the last village."],
 
   /* health */
   ["heatstroke", "deaths", "Heatstroke kills if it is not treated quickly."],
   ["kidney", "deaths", "Many heat deaths are heart and kidney failures."],
   ["respiratory", "deaths", "Breathing problems turn fatal in the heat."],
   ["pregnancy", "hsys", "Complications add to the load on maternity care."],
+  ["pregnancy", "newborns", "Babies born early or small are more fragile in the heat."],
+  ["newborns", "care", "Sick babies and children need someone at home to look after them, usually their mother."],
   ["sleepless", "mental", "Poor sleep wears down mood and the ability to cope."],
   ["mental", "sleepless", "Stress and anxiety make sleep even harder.", "loop"],
   ["sleepless", "heatstroke", "Without cool nights, the body starts each day already overheated."],
@@ -320,6 +332,7 @@ const LINKS = [
   ["lost", "informal", "Lost income leaves even less margin, so the next heatwave has to be worked through too.", "loop"],
   ["lost", "inequality", "Lost earnings hurt most where there are no savings to fall back on."],
   ["lost", "hunger", "Less income means less food."],
+  ["lost", "gbv", "Lost income and stress at home raise the risk of violence against women."],
   ["debt", "informal", "Debt repayments remove any option to stop work in the heat.", "loop"],
   ["debt", "energypoverty", "Debt leaves nothing for electricity or cooling.", "loop"],
   ["business", "lost", "Closed businesses mean lost jobs."],
@@ -341,6 +354,9 @@ const LINKS = [
   ["isolation", "deaths", "Older people alone at home are among the most likely to die."],
   ["violence", "cohesion", "Violence erodes trust."],
   ["conflict", "migration", "Conflict forces people from their homes."],
+  ["migration", "gbv", "Displaced women and girls face higher risks of violence and exploitation."],
+  ["gbv", "mental", "Violence leaves lasting harm to mental health."],
+  ["gbv", "inequality", "Violence keeps women out of work, decisions and public life."],
   ["gatherings", "deaths", "Crowds in the open sun turn deadly."],
   ["gatherings", "emergency", "Mass casualties overwhelm responders."],
   ["cohesion", "isolation", "Weaker community ties leave more people alone."],
@@ -356,6 +372,8 @@ const LINKS = [
   ["underfund", "insurance", "Unmanaged risk drives insurers away.", "loop"],
   ["insurance", "budgets", "When insurers retreat, governments carry the losses."],
   ["insurance", "business", "Uninsured losses close small businesses."],
+  ["remote", "deaths", "When help is hours away, treatable heat illness turns fatal."],
+  ["remote", "underreport", "Deaths far from clinics are rarely recorded as heat deaths."],
   ["credit", "budgets", "Higher borrowing costs leave less to spend."],
   ["elections", "cohesion", "Disrupted elections and services test public trust."]
 ];
@@ -1216,11 +1234,16 @@ const GLOSSARY = [
 // Who the plan protects, and the actions suggested for each group (lever ids from part 6).
 const PLAN_GROUPS = [
   { id: "workers",    name: "Outdoor and informal workers",       levers: ["hap", "heatrules", "heatcash", "socialprotection", "freecare", "coolingcentres"] },
-  { id: "women",      name: "Women in informal work",             levers: ["hap", "heatcash", "heatrules", "socialprotection", "coolhousing"] },
+  { id: "women",      name: "Women in informal and farm work",             levers: ["hap", "heatcash", "heatrules", "socialprotection", "coolhousing"] },
   { id: "older",      name: "Older people living alone",          levers: ["hap", "coolingcentres", "readyclinics", "affordablecool", "countdeaths"] },
   { id: "children",   name: "Children and schools",               levers: ["hap", "keepinschool", "coolbydesign"] },
   { id: "settlements",name: "People in informal settlements",     levers: ["coolhousing", "affordablecool", "greencity", "coolingcentres", "coolnights"] },
-  { id: "farmers",    name: "Farmers and farm workers",           levers: ["farmcredit", "soilwater", "irrigate", "heatrules"] },
+  { id: "farmers",    name: "Smallholder and rainfed farming households", levers: ["farmcredit", "soilwater", "irrigate", "heatrules", "socialprotection"] },
+  { id: "coastal",    name: "Coastal and riverine communities",   levers: ["hap", "socialprotection", "anticipatory", "readyclinics"] },
+  { id: "remote",     name: "People in remote or poorly served settlements", levers: ["anticipatory", "readyclinics", "countdeaths", "hap"] },
+  { id: "mothers",    name: "Pregnant women, babies and young children", levers: ["readyclinics", "hap", "freecare", "socialprotection"] },
+  { id: "disability", name: "People with disabilities",           levers: ["hap", "coolingcentres", "readyclinics", "freecare"] },
+  { id: "migrants",   name: "Migrants and other excluded groups", levers: ["coolhousing", "socialprotection", "freecare", "heatrules"] },
   { id: "city",       name: "A whole city",                       levers: ["hap", "readyclinics", "greencity", "coolbydesign", "heatbudget", "anticipatory", "countdeaths"] }
 ];
 // Who pays for each action. "Not decided yet" is always allowed: a plan can show where money is still missing.
@@ -1254,4 +1277,56 @@ const SECTION_FILMS = [
   { id: "method", title: "How this map works", label: "about this map", video: "media/films/how-this-map-works.mp4", length: "0:52",
     text: "An illustrative systems map: switching an action on shows which cycles it could help interrupt, not what it will achieve. Three kinds of evidence, what the badges mean, and where to find ratings of what works and what it costs.",
     back: { label: "Read how this map works", act: "method" } }
+];
+
+/* ---------- 17. WHO HEAT HITS HARDEST ---------- */
+// Exposure tells you where heat lands; barriers tell you who can act on it. Both shape who needs which route to safety.
+// nodes: consequences on the map (part 2). levers: what helps (part 6). fact and source (optional): only use published sources you have opened.
+const AT_RISK_BARRIERS = [
+  { q: "Who receives the warning", a: "Alerts by app, radio or loudspeaker miss people without phones, signal, literacy or the right language." },
+  { q: "Who can move to safety", a: "Age, disability, care duties and distance decide who can reach shade, water or a cooling centre." },
+  { q: "Who can keep earning", a: "Without land, credit, contracts or savings, resting in the heat means losing the day’s income." },
+  { q: "Who has a say", a: "Women, migrants and people of marginalised identities are often missing from the rooms where heat plans are made." }
+];
+const AT_RISK = [
+  { id: "farmers", name: "Smallholder and rainfed farming households",
+    exposure: "Work in open fields through the hottest hours, with crops and animals that depend on rain heat makes less reliable.",
+    barriers: "Little irrigation, credit, insurance or savings, so one bad season can mean debt, sold animals and lost seed.",
+    nodes: ["harvests", "farmwork", "livestock", "farmdebt"], levers: ["farmcredit", "soilwater", "irrigate", "socialprotection"] },
+  { id: "coastal", name: "Coastal and riverine communities",
+    exposure: "Humid heat that stops sweat from cooling the body, warming seas that drive fish away, and warm, low water that spoils drinking supplies.",
+    barriers: "Livelihoods tied to one place and one resource, homes on fragile land with insecure tenure, and islands and river banks far from services.",
+    nodes: ["marine", "fisheries", "quality", "heatstroke"], levers: ["hap", "socialprotection", "anticipatory", "readyclinics"] },
+  { id: "remote", name: "People in remote or poorly served settlements",
+    exposure: "Far from clinics, cool shelter, reliable power and phone signal, often at the end of the line for water and electricity.",
+    barriers: "Warnings, ambulances and relief arrive late or not at all, and deaths here are the least likely to be counted.",
+    nodes: ["remote", "telecom", "deaths", "underreport"], levers: ["anticipatory", "readyclinics", "countdeaths", "hap"] },
+  { id: "workers", name: "Informal urban workers",
+    exposure: "Street vendors, builders, waste pickers, rickshaw and delivery workers in the hottest parts of the city, then hot, crowded homes at night.",
+    barriers: "No paid leave, contract or savings: stopping work in dangerous heat means losing the day’s income.",
+    nodes: ["informal", "lost", "uhi", "heatstroke"], levers: ["heatrules", "heatcash", "socialprotection", "freecare"] },
+  { id: "women", name: "Women whose livelihoods are held back by unequal access",
+    exposure: "Field, home-based and informal work, fetching water, and cooking in homes that trap heat.",
+    barriers: "Less say over land, credit, technology and household decisions, and most of the unpaid care that grows in a heatwave. Violence at home rises with the heat.",
+    fact: "Rural households headed by women lose about 8% more of their income to heat stress than those headed by men.",
+    source: { label: "FAO, The Unjust Climate, 2024", url: "https://www.fao.org/newsroom/detail/fao-report--heatwaves-and-floods-affect-rural-women-and-men-differently--widen-income-gap" },
+    nodes: ["care", "fetching", "gbv", "inequality"], levers: ["heatcash", "socialprotection", "hap", "coolhousing"] },
+  { id: "mothers", name: "Pregnant women, babies and young children",
+    exposure: "Pregnancy strains the body’s cooling, and babies overheat and dehydrate faster than adults.",
+    barriers: "Many women keep working and fetching water late into pregnancy, and maternity and child services are rarely ready for heat.",
+    fact: "Each 1 °C rise raises the odds of preterm birth by about 5%, and a heatwave by about 16%.",
+    source: { label: "Chersich et al., BMJ, 2020", url: "https://pubmed.ncbi.nlm.nih.gov/33148618/" },
+    nodes: ["pregnancy", "newborns", "hunger", "sanitation"], levers: ["readyclinics", "hap", "freecare", "socialprotection"] },
+  { id: "older", name: "Older people",
+    exposure: "Bodies that sense and shed heat less well, often with heart, kidney or lung conditions.",
+    barriers: "Living alone, limited mobility, and warnings and help that rely on phones, apps or someone knocking on the door.",
+    nodes: ["isolation", "kidney", "deaths"], levers: ["coolingcentres", "hap", "affordablecool", "countdeaths"] },
+  { id: "disability", name: "People with disabilities",
+    exposure: "Some conditions and medicines interfere with the body’s cooling, and heat worsens many mental health conditions.",
+    barriers: "Warnings in formats they can’t use, cooling centres they can’t reach, and heat plans that rarely name their needs.",
+    nodes: ["mental", "heatstroke", "isolation"], levers: ["hap", "coolingcentres", "readyclinics", "freecare"] },
+  { id: "excluded", name: "Migrants and other excluded groups",
+    exposure: "Hot, crowded rented rooms and the hardest outdoor jobs, often in a place where they have few connections.",
+    barriers: "No local ID, address or language can mean no warnings, clinics, rations or relief. Caste and social identity can decide who is reached first.",
+    nodes: ["migration", "homes", "informal", "gbv"], levers: ["coolhousing", "socialprotection", "freecare", "heatrules"] }
 ];

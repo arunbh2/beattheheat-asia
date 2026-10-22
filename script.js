@@ -991,7 +991,7 @@
     else if (act === "prev") { state.step--; renderStep(); }
   }
   document.addEventListener("click", ev => {
-    if (ev.target.closest("#panel, #guide, #loops, #web-list, #who-holds, #network, #breakbar, #day, #path-form, .intro")) handleAction(ev);
+    if (ev.target.closest("#panel, #guide, #loops, #web-list, #who-holds, #at-risk, #network, #breakbar, #day, #path-form, .intro")) handleAction(ev);
   });
   document.addEventListener("keydown", ev => {
     if (ev.key === "Escape" && (state.selected || state.story || state.inst || state.pkg)) { clearSelection(); fitAll(); }
@@ -1815,6 +1815,20 @@
     }).join("");
   }
 
+  // Who heat hits hardest: exposure plus barriers, each group linked to its consequences and levers.
+  function renderAtRisk() {
+    const box = document.getElementById("atrisk-list"), bar = document.getElementById("atrisk-barriers");
+    if (!box || typeof AT_RISK === "undefined") return;
+    if (bar) bar.innerHTML = AT_RISK_BARRIERS.map(b => `<li><h3>${esc(b.q)}</h3><p>${esc(b.a)}</p></li>`).join("");
+    box.innerHTML = AT_RISK.map(g => `<article class="risk" id="risk-${g.id}">
+        <h3 class="risk__name">${esc(g.name)}</h3>
+        <dl class="risk__dl"><dt>Exposed to</dt><dd>${esc(g.exposure)}</dd><dt>Held back by</dt><dd>${esc(g.barriers)}</dd></dl>
+        ${g.fact ? `<p class="risk__fact">${esc(g.fact)} <a href="${esc(g.source.url)}" target="_blank" rel="noopener">${esc(g.source.label)}<span class="visually-hidden"> (opens in a new tab)</span></a></p>` : ""}
+        <p class="risk__row"><span>On the map:</span> ${g.nodes.filter(id => byId[id]).map(id => `<button type="button" class="node-chip" data-go="${id}" style="--c:${byId[id].color}">${esc(plain(byId[id]))}</button>`).join("")}</p>
+        <p class="risk__row risk__row--break"><span>What helps:</span> ${g.levers.filter(id => leverById[id]).map(id => `<button type="button" class="lever-chip" data-lever="${id}">${esc(leverById[id].title)}</button>`).join("")}</p>
+      </article>`).join("");
+  }
+
   function renderList() {
     document.getElementById("web-list").innerHTML = SYSTEMS.map(s => {
       const items = nodes.filter(n => n.sys === s.id && n.kind === "leaf");
@@ -1856,6 +1870,7 @@
     renderNetwork();
     renderPlan();
     renderGlossary();
+    renderAtRisk();
     renderList();
     renderStats();
     applyBreakState();

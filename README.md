@@ -49,7 +49,7 @@ The numbers at the top of the page (systems, consequences, cycles and so on) are
 
 ## How to change or add content (in `data.js`)
 
-Open `data.js` on GitHub and click the **pencil icon** (✏️). The file has sixteen numbered parts:
+Open `data.js` on GitHub and click the **pencil icon** (✏️). The file has seventeen numbered parts:
 
 1. **SYSTEMS**: the ten slices of the wheel.
 2. **CONSEQUENCES**: every dot. Each one has an `id` (a short name with no spaces, used by the links), a `sys` (which system it belongs to), a `label` (`\n` starts a new line) and a `desc` (the description shown when someone taps it).
@@ -66,6 +66,8 @@ Open `data.js` on GitHub and click the **pencil icon** (✏️). The file has si
 13. **ORGANISATIONS**: the heat network. Each organisation has a `role` (one of `ORG_ROLES`), a `name`, a `url` showing its heat work, a one-line `does`, and the `levers` its work pulls on. It then appears in the network section (which has a search box and shows 12 at a time) and in those levers' panels, and the "Where the gaps may be" list updates itself. Write "not confirmed" in `does` when an organisation's heat work has not been documented.
 14. **GLOSSARY**: the plain-language glossary. Each term has a `group` (one of `GLOSSARY_GROUPS`), the `term` as shown, a `match` (the words to look for in the map's text; use `|` between alternatives) and a short `text`. The first time a match appears in a piece of text, it becomes tappable. Add `auto: false` to keep a term in the glossary list only. Terms in the group `"extra"` are tappable but not listed.
 15. **PLAN A RESPONSE**: `PLAN_GROUPS` (who a plan protects, and the actions suggested for each), `PLAN_PAYERS` (the “who pays” choices) and `WORKED_EXAMPLES` (real places, with documented actions, results and sources). Each lever in part 6 also has a `measure`, shown as a hint for “how you will know it is working”.
+16. **SECTION_FILMS**: short films that open a section of the page.
+17. **AT_RISK**: the “Who heat hits hardest” section. `AT_RISK_BARRIERS` holds the four questions (who receives the warning, who can move, who can earn, who has a say). Each group in `AT_RISK` has a `name`, what it is `exposure`d to, the `barriers` holding it back, the map dots in `nodes` (ids from part 2), the `levers` that help (ids from part 6), and optionally a `fact` with a `source`.
 
 **To add a new consequence**, copy an existing line in part 2, give it a new `id`, then add at least one link to or from it in part 3.
 

@@ -630,6 +630,38 @@ button { font: inherit; color: inherit; }
 .inst-score { margin-top: 14px; padding: 12px 14px; background: #E8F2F0; border-radius: 6px; }
 .inst-score strong { font-family: var(--font-display); font-weight: 400; font-size: 1.5em; color: var(--teal); }
 
+/* Who heat hits hardest */
+.atrisk { padding: clamp(64px, 9vw, 128px) 0; background: var(--white); border-top: 1px solid var(--line); }
+.atrisk__barriers { list-style: none; padding: 0; margin-top: clamp(32px, 5vw, 56px); display: grid; gap: 0 28px; counter-reset: b; }
+@media (min-width: 720px) { .atrisk__barriers { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1100px) { .atrisk__barriers { grid-template-columns: repeat(4, 1fr); } }
+.atrisk__barriers li { counter-increment: b; padding: 18px 0 20px; border-top: 2px solid var(--ink); }
+.atrisk__barriers li::before { content: "0" counter(b); display: block; margin-bottom: 8px; font-weight: 700; font-size: .8rem; letter-spacing: .1em; color: var(--orange); }
+.atrisk__barriers h3 { font-family: var(--font-display); font-weight: 400; font-size: clamp(1.35rem, 1.15rem + .6vw, 1.7rem); line-height: 1.05; text-transform: uppercase; }
+.atrisk__barriers p { margin-top: 8px; font-size: .95rem; color: var(--grey-700); }
+.atrisk__list { margin-top: clamp(32px, 5vw, 56px); display: grid; gap: 20px; }
+@media (min-width: 760px) { .atrisk__list { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1180px) { .atrisk__list { grid-template-columns: repeat(3, 1fr); } }
+.risk { display: flex; flex-direction: column; gap: 12px; padding: 20px 22px 22px; background: var(--canvas); border-radius: 8px; border-top: 4px solid var(--orange); }
+.risk__name { font-size: 1.15rem; line-height: 1.25; }
+.risk__dl { display: grid; gap: 4px; font-size: .95rem; }
+.risk__dl dt { margin-top: 6px; font-size: .75rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--grey-500); }
+.risk__dl dt:first-child { margin-top: 0; }
+.risk__dl dd { margin: 0; color: var(--grey-700); }
+.risk__fact { padding: 10px 12px; border-left: 3px solid var(--orange); background: var(--white); font-size: .9rem; font-weight: 600; }
+.risk__fact a { display: block; margin-top: 4px; font-weight: 400; font-size: .8rem; color: var(--grey-700); }
+.risk__row { margin-top: auto; display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: .8rem; font-weight: 700; color: var(--grey-700); }
+.risk__row + .risk__row { margin-top: 0; }
+.risk__row--break { color: var(--teal); }
+.risk__row .lever-chip { padding: 4px 10px; font-size: .8rem; }
+.node-chip { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border: 1.5px solid var(--line); border-radius: 999px; background: var(--white);
+  color: var(--ink); font-size: .8rem; font-weight: 600; cursor: pointer; transition: border-color .2s; }
+.node-chip::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--c); flex: none; }
+.node-chip:hover { border-color: var(--c); }
+.atrisk__close { margin-top: clamp(32px, 5vw, 48px); max-width: 46rem; font-size: clamp(1.15rem, 1.05rem + .4vw, 1.4rem); }
+.atrisk__sources { margin-top: 14px; max-width: 52rem; font-size: .85rem; color: var(--grey-500); }
+.atrisk__sources a { color: var(--grey-700); }
+
 .who-holds { padding: clamp(64px, 9vw, 128px) 0; background: var(--canvas); border-top: 1px solid var(--line); }
 .who-holds .eyebrow { margin-bottom: 20px; }
 .inst-list { list-style: none; padding: 0; margin: clamp(32px, 4vw, 48px) 0 20px; display: grid; gap: 8px; }
@@ -1058,3 +1090,4 @@ body.film-open { overflow: hidden; }
 .section-film .watch-btn { margin-top: 18px; }
 .watch-btn--dark { align-self: flex-start; margin-top: 2px; background: transparent; color: var(--canvas); border-color: rgba(250,247,242,.6); }
 .watch-btn--dark:hover { background: var(--canvas); color: var(--ink); }
+.traits a { color: inherit; text-decoration-color: var(--amber); text-decoration-thickness: 2px; text-underline-offset: 3px; font-weight: 700; }
