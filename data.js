@@ -155,7 +155,7 @@ const CONSEQUENCES = [
   { id: "informal", sys: "work", label: "Informal workers\ncan’t stop work",
     desc: "Without paid leave, contracts or savings, stopping work means losing the day’s income. So people keep working through dangerous heat. About three in four Indian workers, some 380 million people, depend on heat-exposed work." },
   { id: "productivity", sys: "work", label: "Productivity\nfalls",
-    desc: "Above a certain temperature, people work more slowly and make more mistakes, indoors and out." },
+    desc: "Above a certain temperature, people work more slowly and make more mistakes, indoors and out. Across 2.7 million firms in 23 advanced economies, ten extra days above 35\u00a0°C cut a year’s labour productivity by 0.3%, and days above 40\u00a0°C did five times the damage. In humid, still air the loss roughly doubles." },
   { id: "debt", sys: "work", label: "Medical costs\nand debt",
     desc: "Treatment, medicines and lost days are often paid for out of pocket, pushing households into debt." },
   { id: "business", sys: "work", label: "Small businesses\nclose",
@@ -163,7 +163,7 @@ const CONSEQUENCES = [
   { id: "supply", sys: "work", label: "Supply chains\ndisrupted",
     desc: "Heat slows factories, ports, roads and warehouses. The delays ripple through prices and jobs far away." },
   { id: "customers", sys: "work", label: "Customers\nstay home",
-    desc: "Heat empties markets and high streets in the hottest hours. Spending shifts to cooled malls and cooling products, while street vendors and small shops lose sales." },
+    desc: "Heat empties markets and high streets in the hottest hours. Spending shifts to cooled malls and cooling products, while street vendors, small shops, restaurants and hotels lose sales." },
   { id: "tourism", sys: "work", label: "Tourism\nshifts away",
     desc: "Visitors avoid places and seasons that become too hot, taking jobs and income with them." },
 
@@ -343,6 +343,7 @@ const LINKS = [
   ["debt", "energypoverty", "Debt leaves nothing for electricity or cooling.", "loop"],
   ["business", "lost", "Closed businesses mean lost jobs."],
   ["customers", "business", "Fewer customers mean lost sales and spoiled stock."],
+  ["business", "inequality", "Small firms lose the most in hot years while the largest firms gain, so heat widens the gap between them."],
   ["business", "repayments", "Lost sales leave small firms short of cash to repay their loans.", "loop"],
   ["lost", "repayments", "Lost wages make household and microfinance repayments harder."],
   ["supply", "prices", "Delays and losses push up prices."],
@@ -550,7 +551,7 @@ const LEVERS = [
 
   { id: "heatrules", edge: ["informal", "heatstroke"], title: "Heat-safe work", who: ["nat", "employers", "workers"], when: "season", measure: "Worksites inspected and keeping rest-break rules",
     text: "Rest, shade and water during dangerous heat, with paid breaks so that stopping work doesn’t mean losing pay.",
-    example: "Several Gulf states ban outdoor work during the hottest midday hours in summer.",
+    example: "Several Gulf states ban outdoor work during the hottest midday hours in summer. Since 2023, Spain has required employers to cut or move working hours when the weather agency issues an orange or red heat alert and other measures can’t keep workers safe.",
     guides: [
       { by: "WHO and WMO, in the GHHIN resource library", title: "Heat at work: the first joint global guidance on workplace heat stress", url: "https://heathealth.info/at-work/" } ] },
   { id: "heatcash", spread: "early", edge: ["heatstroke", "lost"], title: "Income protection in heatwaves", who: ["insurers", "nat", "workers"], when: "years", measure: "Workers covered, and days from trigger to payout",
@@ -828,6 +829,8 @@ const EVIDENCE = {
       finding: "After Ahmedabad’s heat action plan prepared hospitals and warned the public, an estimated 1,190 deaths a year were avoided." }
   ],
   poverty: [
+    { by: "OECD Economics Department, Working Paper No. 1828, 2024", title: "The heat is on: Heat stress, productivity and adaptation among firms", url: "https://doi.org/10.1787/19d94638-en",
+      finding: "Across 2.7 million firms in 23 advanced economies, including Japan and Korea, ten extra days above 35 °C cut yearly labour productivity by 0.3%, and over 1.5% above 40 °C. Very humid places lost 0.75%, more than double the average. Korea has already lost about 0.15% of productivity to added heat since the early 2000s." },
     { by: "World Bank, 2022, reported by Down To Earth", title: "Climate Investment Opportunities in India’s Cooling Sector", url: "https://www.downtoearth.org.in/climate-change/heatwaves-in-india-could-soon-break-human-survivability-limit-says-world-bank-analysis-86431",
       finding: "Up to three-quarters of India’s workforce, about 380 million people, depend on heat-exposed labour, work that produces nearly half of the country’s GDP." },
     { by: "International Labour Organization, 2019", title: "Working on a warmer planet", url: "https://www.ilo.org/resource/news/increase-heat-stress-predicted-bring-productivity-loss-equivalent-80",
@@ -864,6 +867,8 @@ const EVIDENCE = {
       finding: "Over the last decade, nearly 70% of India’s districts gained five or more very warm nights each summer, while only about 28% saw a similar rise in very hot days. Mumbai gained 15 very warm nights a summer, and Bengaluru 11." }
   ],
   squeeze: [
+    { by: "OECD Economics Department, Working Paper No. 1828, 2024", title: "The heat is on: Heat stress, productivity and adaptation among firms", url: "https://doi.org/10.1787/19d94638-en",
+      finding: "Across 2.7 million firms in 23 advanced economies, heat cut the productivity of small firms while medium and large firms showed no loss, and the largest grew revenue about 0.6 points faster than small firms after hot years. Losses lasted up to two years. Restaurants and hotels were hit hard, partly through lower demand." },
     { by: "Aguilar-Gomez et al., summarised in VoxEU, 2024", title: "Heatwaves ripple into the financial system", url: "https://cepr.org/voxeu/columns/heatwaves-ripple-financial-system",
       finding: "Loan-level bank data from Mexico show that ten extra days of extreme heat in a quarter raise small-business loan delinquency by about 4%, mainly among firms that depend on local customers. Banks then raise rates, ask for more collateral and lend less for two to three quarters." },
     { by: "Sa-Dhan, reported by Business Standard, 2024", title: "Micro-loan asset quality deteriorates in April–June quarter", url: "https://www.business-standard.com/finance/news/micro-loan-asset-quality-deteriorates-in-april-june-quarter-sa-dhan-124082700721_1.html",
@@ -1330,6 +1335,8 @@ const GLOSSARY = [
     text: "The warning stage before heatstroke: heavy sweating, weakness, dizziness and nausea. Rest, water and cooling usually bring recovery." },
   { id: "heatstress", group: "body", term: "Heat stress", match: "heat stress", video: "media/glossary/heatstress.mp4", length: "0:35",
     text: "When the body takes in or makes more heat than it can shed, from hot air, humidity, sun and physical work." },
+  { id: "adaptlimits", group: "act", term: "Limits to adaptation", match: "limits to adaptation|adaptation has limits",
+    text: "The point beyond which adjusting no longer prevents harm. Places used to heat cope better with days of 30–35\u00a0°C, but a study of 2.7 million firms found no adaptation to days above 40\u00a0°C. Cutting emissions keeps more places below that limit." },
   { id: "acclimatisation", group: "body", term: "Acclimatisation", match: "acclimati[sz]ation|acclimati[sz]e", video: "media/glossary/acclimatisation.mp4", length: "0:33",
     text: "The body slowly adjusting to heat over one to two weeks. New and returning workers are most at risk until it has." },
   { id: "excessdeaths", group: "body", term: "Excess deaths", match: "excess death", video: "media/glossary/excessdeaths.mp4", length: "0:34",
@@ -1444,12 +1451,14 @@ const PLAN_CHECKLIST = [
   { item: "Count lost work and wages, not only illness", eg: "Surat analysed indoor and outdoor workers separately, and Bhubaneswar estimated wage losses." },
   { item: "Protect people where they work", eg: "Bhubaneswar built shade at busy traffic junctions, cooling kiosks for traffic staff and other outdoor workers, and solar-powered water kiosks." },
   { item: "Give every department a role for each season", eg: "Thane’s task force is chaired by an Additional Municipal Commissioner; Bhubaneswar and Surat set out roles season by season." },
-  { item: "Ring-fence the money", eg: "Thane’s plan sets out dedicated municipal funds for carrying it out." }
+  { item: "Ring-fence the money", eg: "Thane’s plan sets out dedicated municipal funds for carrying it out." },
+  { item: "Tie work rules to heat alerts", eg: "Beyond India: since 2023, Spain has required employers to cut or move working hours when the weather agency issues an orange or red heat alert and other measures can’t keep workers safe." }
 ];
 const PLAN_CHECKLIST_SOURCES = [
   { label: "Sattva Consulting, 2025", url: "https://www.sattva.co.in/publication/navigating-indias-urban-heat-landscape-from-challenges-to-driving-action/" },
   { label: "CEEW on Thane", url: "https://www.ceew.in/publications/how-can-thane-city-tackle-heatwaves-risks-with-heat-action-plan" },
-  { label: "The Statesman on Bhubaneswar", url: "https://www.thestatesman.com/india/bmc-rolls-out-measures-to-shield-citizens-from-heat-wave-1503598967.html" }
+  { label: "The Statesman on Bhubaneswar", url: "https://www.thestatesman.com/india/bmc-rolls-out-measures-to-shield-citizens-from-heat-wave-1503598967.html" },
+  { label: "Garrigues on Spain’s 2023 decree", url: "https://www.garrigues.com/en_GB/new/spain-high-temperatures-will-mean-employers-must-adopt-preventive-measures-order-protect" }
 ];
 
 /* ---------- 16. SECTION FILMS ---------- */
@@ -1485,6 +1494,8 @@ const AT_RISK = [
   { id: "coastal", name: "Coastal and riverine communities",
     exposure: "Humid heat that stops sweat from cooling the body, warming seas that drive fish away, and warm, low water that spoils drinking supplies.",
     barriers: "Livelihoods tied to one place and one resource, homes on fragile land with insecure tenure, and islands and river banks far from services.",
+    fact: "Humidity makes heat far more costly: across 2.7 million firms, ten extra days above 35\u00a0°C cut productivity by 0.75% in very humid places, more than double the average, and barely at all in dry ones.",
+    source: { label: "OECD Economics Department, 2024", url: "https://doi.org/10.1787/19d94638-en" },
     nodes: ["marine", "fisheries", "quality", "heatstroke"], levers: ["hap", "socialprotection", "anticipatory", "readyclinics"] },
   { id: "remote", name: "People in remote or poorly served settlements",
     exposure: "Far from clinics, cool shelter, reliable power and phone signal, often at the end of the line for water and electricity.",
@@ -1544,6 +1555,8 @@ const STALLS = [
   { id: "owner", name: "Nobody owns it",
     sign: "Heat sits between health, disaster, labour and urban departments, so no one holds the mandate, the budget line or the blame.",
     moves: ["Name one lead agency with a legal mandate and a named heat officer", "Run a standing heat committee across departments that meets before the season, not during it", "Tie the heat plan to disaster law so its instructions carry weight"],
+    more: [{ fact: "Plans pay off: across 23 advanced economies, firms lost less productivity to heat after their country adopted a national adaptation plan or strategy.",
+      source: { label: "OECD Economics Department, 2024", url: "https://doi.org/10.1787/19d94638-en" } }],
     fact: "Most of 37 Indian heat action plans reviewed cite no legal source for their authority, which weakens accountability.",
     source: { label: "Centre for Policy Research, 2023", url: "https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/" },
     levers: ["hap", "heatbudget"], loops: [] },

@@ -571,7 +571,7 @@ button { font: inherit; color: inherit; }
 .traits h3 { font-family: var(--font-display); font-weight: 400; font-size: clamp(1.5rem, 1.2rem + 1vw, 2rem); line-height: 1.05; text-transform: uppercase; }
 .traits p { margin-top: 10px; color: rgba(250,247,242,.78); max-width: 32rem; }
 @media (min-width: 900px) {
-  .traits { grid-template-columns: repeat(4, minmax(0, 1fr)); column-gap: 32px; }
+  .traits { grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: 28px; }
   .traits h3 { min-height: 2.1em; }
   .traits li { border-top: 2px solid var(--orange); }
 }
@@ -1153,3 +1153,5 @@ body.film-open { overflow: hidden; }
 .spread b { color: var(--ink); }
 .spread span { display: block; margin-top: 2px; font-size: .78rem; }
 .spread span a { color: var(--grey-700); }
+
+@media (min-width: 1200px) { .traits { grid-template-columns: repeat(5, minmax(0, 1fr)); } }
