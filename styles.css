@@ -946,3 +946,21 @@ button { font: inherit; color: inherit; }
 .film__note { margin-top: 10px; font-size: .8rem; color: rgba(250,247,242,.72); }
 body.film-open { overflow: hidden; }
 @media (max-width: 560px) { .film__end-h { font-size: 1.4rem; } .film__end .btn { min-height: 46px; padding: 10px 16px; font-size: .95rem; } }
+
+/* ---------- glossary explainers ---------- */
+.gloss-watch {
+  display: inline-flex; align-items: center; gap: 6px; margin-left: 8px; padding: 2px 10px 2px 3px; vertical-align: middle;
+  border: 1.5px solid var(--ink); border-radius: 999px; background: var(--white); color: var(--ink);
+  font: inherit; font-size: .78rem; font-weight: 700; cursor: pointer;
+}
+.gloss-watch:hover { background: var(--ink); color: var(--canvas); }
+.gloss-watch .play-icon, .term-pop__watch .play-icon { width: 20px; height: 20px; }
+.gloss-watch .play-icon::before, .term-pop__watch .play-icon::before { border-width: 5px 0 5px 8px; margin-left: 2px; }
+.term-pop__watch {
+  display: flex; align-items: center; gap: 8px; margin-top: 10px; padding: 6px 12px 6px 6px;
+  border: 0; border-radius: 999px; background: var(--canvas); color: var(--ink); font: inherit; font-size: .85rem; font-weight: 800; cursor: pointer;
+}
+.term-pop__watch span:last-child { font-weight: 500; opacity: .7; }
+.term-pop__watch:hover { background: var(--amber); }
+.film__note-meta { opacity: .7; }
+.film__frame video[hidden] { display: none; }

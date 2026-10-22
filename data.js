@@ -1068,6 +1068,7 @@ const ORGANISATIONS = [
 // group: one of GLOSSARY_GROUPS ("extra" terms are explained where they appear but not listed).
 // match: the words to look for in the map's text (use | for alternatives); the first one in each piece of text becomes tappable.
 // auto: false means the term is only in the glossary list, not underlined in the text.
+// video and length (optional): a 30-second explainer in media/glossary/, with a .jpg cover of the same name. Terms without one show no play button.
 const GLOSSARY_GROUPS = [
   { id: "body",    name: "What heat does to the body" },
   { id: "measure", name: "How heat is measured" },
@@ -1077,15 +1078,15 @@ const GLOSSARY_GROUPS = [
 ];
 
 const GLOSSARY = [
-  { id: "heatstroke", group: "body", term: "Heatstroke", match: "heatstroke",
+  { id: "heatstroke", group: "body", term: "Heatstroke", match: "heatstroke", video: "media/glossary/heatstroke.mp4", length: "0:32",
     text: "A medical emergency. The body’s core temperature rises above about 40 °C and its cooling system fails. Without fast cooling it can kill or cause lasting organ damage." },
-  { id: "heatexhaustion", group: "body", term: "Heat exhaustion", match: "heat exhaustion",
+  { id: "heatexhaustion", group: "body", term: "Heat exhaustion", match: "heat exhaustion", video: "media/glossary/heatexhaustion.mp4", length: "0:33",
     text: "The warning stage before heatstroke: heavy sweating, weakness, dizziness and nausea. Rest, water and cooling usually bring recovery." },
-  { id: "heatstress", group: "body", term: "Heat stress", match: "heat stress",
+  { id: "heatstress", group: "body", term: "Heat stress", match: "heat stress", video: "media/glossary/heatstress.mp4", length: "0:35",
     text: "When the body takes in or makes more heat than it can shed, from hot air, humidity, sun and physical work." },
-  { id: "acclimatisation", group: "body", term: "Acclimatisation", match: "acclimati[sz]ation|acclimati[sz]e",
+  { id: "acclimatisation", group: "body", term: "Acclimatisation", match: "acclimati[sz]ation|acclimati[sz]e", video: "media/glossary/acclimatisation.mp4", length: "0:33",
     text: "The body slowly adjusting to heat over one to two weeks. New and returning workers are most at risk until it has." },
-  { id: "excessdeaths", group: "body", term: "Excess deaths", match: "excess death",
+  { id: "excessdeaths", group: "body", term: "Excess deaths", match: "excess death", video: "media/glossary/excessdeaths.mp4", length: "0:34",
     text: "Deaths above the normal number for that place and time of year. Because death certificates rarely say “heat”, this is how the real toll of a heatwave is counted." },
   { id: "wetbulb", group: "measure", term: "Wet-bulb temperature", match: "wet-bulb temperature",
     text: "Heat and humidity combined into one number, read from a thermometer wrapped in a wet cloth. It shows whether sweat can still cool you. A wet-bulb temperature of 35 °C is often quoted as the limit of human survival; recent studies suggest the real limit is lower." },
