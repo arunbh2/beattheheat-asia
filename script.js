@@ -1317,12 +1317,23 @@
     renderPlanStory(); renderPlanActions(); renderPlanRows(); renderPlanSummary();
   }
 
+  // the practical guides for the chosen actions, each listed once, under the first action that needs it
+  function planReading() {
+    const seen = new Set();
+    return plan.levers.map(id => { const v = leverById[id];
+      return { v, guides: (v.guides || []).filter(g => !seen.has(g.url) && seen.add(g.url)) }; }).filter(x => x.guides.length);
+  }
+
   function planText() {
     const g = PG.find(x => x.id === plan.group), L = [];
     L.push("HEAT RESPONSE PLAN", `Place: ${plan.place || "(not set)"}`, `People at risk: ${g ? g.name : "(not set)"}`, `Made with the BeatTheHeat.Asia systems map: ${location.origin + location.pathname}`, "");
     plan.levers.forEach((id, i) => { const v = leverById[id], r = planRow(id);
       L.push(`${i + 1}. ${v.title} [${WHEN[v.when] || ""}]`, `   Leads: ${instById[r.lead] ? instById[r.lead].name : "-"}`, `   Pays: ${r.payer}`, `   How we will know: ${r.measure || v.measure || "-"}`); });
-    L.push("", `Cycles these actions could help interrupt: ${planLoops().map(l => l.name).join(", ") || "none"}`, "", "Illustrative: real effect depends on reach, quality and how long each action lasts.");
+    L.push("", `Cycles these actions could help interrupt: ${planLoops().map(l => l.name).join(", ") || "none"}`);
+    const reading = planReading();
+    if (reading.length) { L.push("", "READING LIST FOR THIS PLAN");
+      reading.forEach(({ v, guides }) => { L.push(`${v.title}:`); guides.forEach(g => L.push(`   - ${g.title} (${g.by}): ${g.url}`)); }); }
+    L.push("", "Illustrative: real effect depends on reach, quality and how long each action lasts.");
     return L.join("\n");
   }
 
@@ -1334,8 +1345,10 @@
       table{width:100%;border-collapse:collapse;margin-top:18px;font-size:14px}th,td{text-align:left;vertical-align:top;padding:8px;border-bottom:1px solid #E6DFD4}
       th{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#5E6570}.gap{color:#9E1A2C;font-weight:700}
       h2{font-size:13px;letter-spacing:.12em;text-transform:uppercase;border-top:2px solid #16202B;padding-top:10px;margin-top:26px}
-      .note{color:#5E6570;font-size:13px}.print{position:fixed;top:16px;right:16px;padding:10px 18px;border-radius:999px;border:0;background:#F26430;font-weight:700;cursor:pointer}
-      @media print{.print{display:none}body{margin:0}}`;
+      .note{color:#5E6570;font-size:13px}.read h3{font-size:15px;margin:16px 0 4px}.read ul{margin:0;padding-left:18px}.read li{margin:4px 0;font-size:14px}
+      .read a{color:#16202B;text-decoration-color:#F26430;text-underline-offset:3px}.read .by{color:#5E6570;font-size:12.5px}.read .u{display:none}
+      .print{position:fixed;top:16px;right:16px;padding:10px 18px;border-radius:999px;border:0;background:#F26430;font-weight:700;cursor:pointer}
+      @media print{.print{display:none}body{margin:0}.read .u{display:block;color:#5E6570;font-size:11px;word-break:break-all}h2{break-after:avoid}.read h3{break-after:avoid}}`;
     const rows = plan.levers.map(id => { const v = leverById[id], r = planRow(id);
       return `<tr><td><strong>${h(v.title)}</strong><br><span class="note">${h(WHEN[v.when] || "")}</span></td><td>${h(instById[r.lead] ? instById[r.lead].name : "")}</td><td class="${r.payer === "Not decided yet" ? "gap" : ""}">${h(r.payer)}</td><td>${h(r.measure || v.measure || "")}</td></tr>`; }).join("");
     const html = `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Heat response plan: ${h(plan.place || "draft")}</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;700&display=swap"><style>${css}</style></head><body>
@@ -1345,6 +1358,7 @@
       ${ex ? `<p class="note">Based on the worked example: ${h(ex.title)}.</p>` : ""}
       <table><thead><tr><th>Action</th><th>Who leads</th><th>Who pays</th><th>How we will know</th></tr></thead><tbody>${rows}</tbody></table>
       <h2>Cycles these actions could help interrupt</h2><p>${h(planLoops().map(l => l.name).join(", ") || "None yet")}</p>
+      ${(() => { const r = planReading(); return r.length ? `<h2>Reading list for this plan</h2><p class="note">Practical guides for each action, from the BeatTheHeat.Asia map.</p><div class="read">${r.map(({ v, guides }) => `<h3>${h(v.title)}</h3><ul>${guides.map(g => `<li><a href="${h(g.url)}" target="_blank" rel="noopener">${h(g.title)}</a> <span class="by">· ${h(g.by)}</span><span class="u">${h(g.url)}</span></li>`).join("")}</ul>`).join("")}</div>` : ""; })()}
       <p class="note" style="margin-top:28px">Illustrative systems map: real effect depends on how many people each action reaches, how well it is delivered and how long it lasts. For evidence on what works and what it costs, see What Works Against Heat.</p>
       </body></html>`;
     const url = URL.createObjectURL(new Blob([html], { type: "text/html" }));
