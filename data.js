@@ -1444,3 +1444,46 @@ const AT_RISK = [
     barriers: "No local ID, address or language can mean no warnings, clinics, rations or relief. Caste and social identity can decide who is reached first.",
     nodes: ["migration", "homes", "informal", "gbv"], levers: ["coolhousing", "socialprotection", "freecare", "heatrules"] }
 ];
+
+/* ---------- 18. WHY ACTION STALLS ---------- */
+// The conditions that keep places from acting on heat even when the risk is known.
+// sign: how you can tell it is happening. moves: what has shifted it elsewhere. levers and loops: ids from parts 6 and 4.
+// fact and source (optional): only use published sources you have opened.
+const STALLS = [
+  { id: "owner", name: "Nobody owns it",
+    sign: "Heat sits between health, disaster, labour and urban departments, so no one holds the mandate, the budget line or the blame.",
+    moves: ["Name one lead agency with a legal mandate and a named heat officer", "Run a standing heat committee across departments that meets before the season, not during it", "Tie the heat plan to disaster law so its instructions carry weight"],
+    fact: "Most of 37 Indian heat action plans reviewed cite no legal source for their authority, which weakens accountability.",
+    source: { label: "Centre for Policy Research, 2023", url: "https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/" },
+    levers: ["hap", "heatbudget"], loops: [] },
+  { id: "money", name: "Money arrives after the emergency",
+    sign: "Budgets are drawn up for relief, not prevention, and short political cycles reward a visible response over quiet risk reduction.",
+    moves: ["Set aside a heat budget before the season starts", "Agree forecast triggers that release money before the peak", "Report progress publicly every year, so prevention becomes visible"],
+    fact: "Of the 37 plans, 11 discussed funding, and 8 of those simply asked departments to find their own money.",
+    source: { label: "Centre for Policy Research, 2023", url: "https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/" },
+    levers: ["heatbudget", "anticipatory"], loops: ["reactive"] },
+  { id: "invisible", name: "Heat stays invisible",
+    sign: "Deaths are recorded as heart or kidney failure, local risk is not mapped, and heat feels like normal weather rather than an emergency.",
+    moves: ["Count excess deaths, not only certified heatstroke", "Map who is exposed, ward by ward, and publish it", "Put the cost in terms decision-makers feel: lost wages, output and school days"],
+    fact: "Between March and July 2026, India’s heat surveillance logged 4,853 heatstroke cases but only 20 heatstroke deaths.",
+    source: { label: "Ministry of Home Affairs, reported by Down To Earth, 2026", url: "https://www.downtoearth.org.in/climate-change/india-updates-disaster-list-to-include-heatwaves-and-lightning-after-finance-commission-push" },
+    levers: ["countdeaths"], loops: ["invisible"] },
+  { id: "skills", name: "Too few people know how",
+    sign: "Plans are written by outside experts and left with district staff who have no training, no time and, after the next transfer, no successor.",
+    moves: ["Train district and municipal staff every spring, before the first alert", "Pair cities so newer ones learn from those with tested plans", "Write heat roles into job descriptions so the skills survive staff transfers"],
+    levers: ["hap", "readyclinics"], loops: ["clinic"] },
+  { id: "rules", name: "Rules without teeth",
+    sign: "Advice exists, but rest breaks, building codes and cooling standards are voluntary or never inspected.",
+    moves: ["Make heat-safe work rules binding, with inspections in the hot months", "Write cooling into building codes and public purchasing", "Publish what was inspected and what was found"],
+    levers: ["heatrules", "coolbydesign"], loops: ["poverty"] },
+  { id: "room", name: "The people at risk aren’t in the room",
+    sign: "Plans are made without women, outdoor workers, older people, people with disabilities or migrants, so warnings and shelters miss them.",
+    moves: ["Bring workers’ unions, women’s groups and disability organisations into planning", "Test every warning and shelter with the people it is meant for", "Give communities a simple way to report what failed"],
+    fact: "Only 2 of the 37 plans included an assessment of who is most vulnerable.",
+    source: { label: "Centre for Policy Research, 2023", url: "https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/" },
+    levers: ["hap", "coolingcentres"], loops: [] },
+  { id: "scale", name: "Good solutions stay small",
+    sign: "Cool roofs, efficient cooling and heat insurance work in pilots, but prices stay high, standards are missing and finance does not follow.",
+    moves: ["Pool purchases across cities and agencies to bring prices down", "Set performance standards and labels so buyers can trust products", "Blend public and private money so pilots can grow"],
+    levers: ["coolhousing", "cleancool", "riskpools"], loops: ["protection"] }
+];

@@ -32,7 +32,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap">
 
-  <link rel="stylesheet" href="styles.css?v=52">
+  <link rel="stylesheet" href="styles.css?v=53">
 
   <script type="application/ld+json">
   {
@@ -67,8 +67,8 @@
     }
   }
   </script>
-  <script src="data.js?v=52" defer></script>
-  <script src="script.js?v=52" defer></script>
+  <script src="data.js?v=53" defer></script>
+  <script src="script.js?v=53" defer></script>
 </head>
 
 <body>
@@ -292,12 +292,24 @@
     </section>
 
 
+    <!-- ============ WHY ACTION STALLS (from part 18 of data.js) ============ -->
+    <section class="stalls" id="stalls" aria-labelledby="stalls-title">
+      <div class="container">
+        <p class="eyebrow">Why action stalls</p>
+        <h2 id="stalls-title" class="h2">Knowing is not<br>the same as acting.</h2>
+        <p class="loops__intro">Most places already know heat is dangerous. What holds them back is rarely a missing fact. It is usually one of these seven conditions. Each one shows how you can tell it is happening, and what has moved it elsewhere.</p>
+        <ol id="stall-list" class="stall-list"></ol>
+        <p class="stalls__note">Check your own plan against them in step 4 of <a href="#plan">Plan a response</a>.</p>
+      </div>
+    </section>
+
+
     <!-- ============ PLAN A RESPONSE ============ -->
     <section class="plan" id="plan" aria-labelledby="plan-title">
       <div class="container">
         <p class="eyebrow eyebrow--break">Plan a response</p>
         <h2 id="plan-title" class="h2">Turn the map<br>into a plan.</h2>
-        <p class="loops__intro">For a workshop or a team meeting. Choose a place and who you are protecting, pick the actions, then agree who leads, who pays and how you will know it is working. What you type stays in this browser.</p>
+        <p class="loops__intro">For a workshop or a team meeting. Choose a place and who you are protecting, pick the actions, agree who leads, who pays and how you will know it is working, then name what could stop it. What you type stays in this browser.</p>
 
         <div class="plan__example">
           <p><strong>See it done.</strong> Ahmedabad turned a deadly heatwave into South Asia’s first heat action plan.</p>
@@ -322,6 +334,11 @@
             <fieldset class="plan-step">
               <legend><span>3</span> Agree who leads, who pays and how you will know</legend>
               <div id="plan-rows" class="plan-rows"></div>
+            </fieldset>
+            <fieldset class="plan-step">
+              <legend><span>4</span> What could stop it?</legend>
+              <p class="plan-step__hint">Tick what you expect to get in the way. Each one adds what has moved it elsewhere to your plan.</p>
+              <div id="plan-stalls" class="plan-stalls"></div>
             </fieldset>
           </div>
           <div class="plan-summary" id="plan-summary" aria-live="polite"></div>

@@ -50,7 +50,7 @@ The numbers at the top of the page (systems, consequences, cycles and so on) are
 
 ## How to change or add content (in `data.js`)
 
-Open `data.js` on GitHub and click the **pencil icon** (✏️). The file has seventeen numbered parts:
+Open `data.js` on GitHub and click the **pencil icon** (✏️). The file has eighteen numbered parts:
 
 1. **SYSTEMS**: the ten slices of the wheel.
 2. **CONSEQUENCES**: every dot. Each one has an `id` (a short name with no spaces, used by the links), a `sys` (which system it belongs to), a `label` (`\n` starts a new line) and a `desc` (the description shown when someone taps it).
@@ -69,6 +69,7 @@ Open `data.js` on GitHub and click the **pencil icon** (✏️). The file has se
 15. **PLAN A RESPONSE**: `PLAN_GROUPS` (who a plan protects, and the actions suggested for each), `PLAN_PAYERS` (the “who pays” choices) and `WORKED_EXAMPLES` (real places, with documented actions, results and sources). Each lever in part 6 also has a `measure`, shown as a hint for “how you will know it is working”.
 16. **SECTION_FILMS**: short films that open a section of the page.
 17. **AT_RISK**: the “Who heat hits hardest” section. `AT_RISK_BARRIERS` holds the four questions (who receives the warning, who can move, who can earn, who has a say). Each group in `AT_RISK` has a `name`, what it is `exposure`d to, the `barriers` holding it back, the map dots in `nodes` (ids from part 2), the `levers` that help (ids from part 6), and optionally a `fact` with a `source`.
+18. **STALLS**: the “Why action stalls” section and step 4 of “Plan a response”. Each condition has a `name`, a `sign` (how you can tell it is happening), three `moves` (what has shifted it elsewhere), the `levers` and `loops` it connects to, and optionally a `fact` with a `source`. Conditions ticked in a plan appear, with their moves, in the printable plan and the copied text.
 
 **To add a new consequence**, copy an existing line in part 2, give it a new `id`, then add at least one link to or from it in part 3.
 
