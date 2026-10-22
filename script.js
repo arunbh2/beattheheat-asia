@@ -1382,6 +1382,7 @@
   }
   // every short film the player can show: glossary terms, vicious cycles and section films
   const VIDEO_LOOPS = LOOPS.filter(l => l.video);
+  const VIDEO_HOURS = HEATWAVE_DAY.map((h, i) => Object.assign({ i, id: h.time.replace(":", "") }, h)).filter(h => h.video);
   const SFILMS = typeof SECTION_FILMS !== "undefined" ? SECTION_FILMS : [];
   const filmFor = id => SFILMS.find(f => f.id === id);
   function clipFor(key) {
@@ -1398,6 +1399,14 @@
       const next = VIDEO_LOOPS[VIDEO_LOOPS.indexOf(l) + 1];
       return { key: "loop:" + id, title: l.name, label: "vicious cycle", video: l.video, length: l.length, note: note(l.name, l.summary),
         next: next && { key: "loop:" + next.id, title: next.name }, hash: "watch-loop-" + id, endK: "Vicious cycles", back: { label: "Walk through it on the map", act: "loop", id } };
+    }
+    if (kind === "day") {
+      const h = VIDEO_HOURS.find(x => x.id === id); if (!h) return null;
+      const next = VIDEO_HOURS[VIDEO_HOURS.indexOf(h) + 1];
+      return { key: "day:" + id, title: `${h.time} · ${h.title}`, label: "a day in a heatwave", video: h.video, length: h.length,
+        note: `<strong>${esc(h.time)} · ${esc(h.title)}.</strong> ${esc(h.text)} <span class="film__note-meta">${esc(h.who)}: an illustrative composite, not a real person. Captions are part of the picture.</span>`,
+        next: next && { key: "day:" + next.id, title: `${next.time} · ${next.title}` }, hash: "watch-day-" + id, endK: "A day in a heatwave",
+        back: { label: "See it on the map", act: "hour", id: String(h.i) } };
     }
     if (kind === "film") {
       const f = filmFor(id); if (!f || !f.video) return null;
@@ -1450,6 +1459,7 @@
         filmOpener = null; closeFilm();
         const act = b.dataset.back;
         if (act === "loop") goToMap(() => startStory(b.dataset.id));
+        else if (act === "hour") goToMap(() => showHour(+b.dataset.id));
         else { const el = document.getElementById(act); if (el) el.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" }); }
       }
       else if (what === "tour") { filmOpener = null; closeFilm(); goToMap(() => tourStep(0)); }
@@ -1468,10 +1478,11 @@
       openExplainer(b.dataset.watch, opener);
     });
     // tell search engines about the explainers
-    if (VIDEO_TERMS.length || VIDEO_LOOPS.length) {
+    if (VIDEO_TERMS.length || VIDEO_LOOPS.length || VIDEO_HOURS.length) {
       const ld = document.createElement("script"); ld.type = "application/ld+json";
       const allClips = [...VIDEO_TERMS.map(g => ({ term: `${g.term}: plain-language glossary`, text: g.text, video: g.video, length: g.length })),
         ...VIDEO_LOOPS.map(l => ({ term: `${l.name}: a vicious cycle of extreme heat`, text: l.summary, video: l.video, length: l.length })),
+        ...VIDEO_HOURS.map(h => ({ term: `A day in a heatwave, ${h.time}: ${h.title}`, text: h.text, video: h.video, length: h.length })),
         ...SFILMS.filter(f => f.video).map(f => ({ term: f.title, text: f.text, video: f.video, length: f.length }))];
       ld.textContent = JSON.stringify(allClips.map(g => ({ "@context": "https://schema.org", "@type": "VideoObject", name: g.term, description: g.text,
         thumbnailUrl: location.origin + location.pathname.replace(/[^/]*$/, "") + g.video.replace(/\.mp4$/, ".jpg"), contentUrl: location.origin + location.pathname.replace(/[^/]*$/, "") + g.video,
@@ -1535,6 +1546,7 @@
       <h2 class="panel__title">${esc(h.title)}</h2>
       <p class="illustrative">${esc(h.who)} · illustrative</p>
       <p class="panel__desc">${gloss(h.text)}</p>
+      ${h.video ? watchButton("day:" + h.time.replace(":", ""), "Watch this moment") : ""}
       ${h.fact ? `<p class="fact">${gloss(h.fact)}${h.source ? ` <span class="fact__src">Source: ${extLink(h.source.url, h.source.label)}</span>` : ""}</p>` : ""}
       <h3 class="panel__h">Loops in play</h3><ul class="loop-list">${h.loops.map(l => loopItem(loopById[l])).join("")}</ul>
       <h3 class="panel__h panel__h--break">What would help</h3><ul class="lever-list">${h.levers.map(v => leverItem(leverById[v])).join("")}</ul>
@@ -1573,6 +1585,7 @@
         <p class="hour__text">${esc(h.text)}</p>
         ${h.fact ? `<p class="hour__fact">${gloss(h.fact)}${h.source ? ` <span>Source: ${extLink(h.source.url, h.source.label)}</span>` : ""}</p>` : ""}
         <p class="hour__loops">${h.loops.map(l => `<button class="loop-chip" data-story="${l}">↺ ${esc(loopById[l].name.replace(/^The /, ""))}</button>`).join("")}</p>
+        ${h.video ? watchButton("day:" + h.time.replace(":", ""), "Watch this moment", "watch-btn watch-btn--dark") : ""}
         <div class="hour__actions">
           <button class="btn btn--ghost btn--sm" data-hour="${i}">See it on the map</button>
           <button class="btn btn--sm btn--teal" data-hour="${i}" data-mode="fix">What would help?</button>
@@ -1763,6 +1776,7 @@
     else if (hash.startsWith("package-") && (pkgById[hash.slice(8)] || hash.slice(8) === "all")) applyPackage(hash.slice(8));
     // a shared glossary link opens the explainer ready to play; it never starts with sound by itself
     else if (hash.startsWith("watch-loop-") && loopById[hash.slice(11)]) openExplainer("loop:" + hash.slice(11), null, false);
+    else if (hash.startsWith("watch-day-")) openExplainer("day:" + hash.slice(10), null, false);
     else if (hash.startsWith("watch-") && filmFor(hash.slice(6))) openExplainer("film:" + hash.slice(6), null, false);
     else if (hash.startsWith("watch-") && glossById[hash.slice(6)]) openExplainer(hash.slice(6), null, false);
   }

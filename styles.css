@@ -980,3 +980,5 @@ body.film-open { overflow: hidden; }
 .gaps__film .watch-btn { margin: 4px 0 8px; }
 .section-film:empty { display: none; }
 .section-film .watch-btn { margin-top: 18px; }
+.watch-btn--dark { align-self: flex-start; margin-top: 2px; background: transparent; color: var(--canvas); border-color: rgba(250,247,242,.6); }
+.watch-btn--dark:hover { background: var(--canvas); color: var(--ink); }

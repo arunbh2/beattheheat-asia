@@ -648,26 +648,27 @@ const PLAYBOOKS = {
 /* ---------- 11. A DAY IN A HEATWAVE (illustrative) ---------- */
 // The people here are illustrative composites, not real individuals.
 // loops: the vicious cycles in play (ids from part 4). levers: what would help (ids from part 6).
+// video and length (optional): a short film of the moment in media/day/, with a .jpg cover of the same name.
 const HEATWAVE_DAY = [
-  { time: "02:00", title: "The night that never cools",
+  { time: "02:00", video: "media/day/0200.mp4", length: "0:31", title: "The night that never cools",
     who: "A garment worker in Dhaka",
     text: "It is two in the morning and her tin-roofed room is still holding the day’s heat. She has barely slept, her body hasn’t recovered from yesterday, and the shift starts at seven.",
     fact: "Hot nights are dangerous because the body never gets the chance to recover from the day. Sleep-tracker data from 68 countries shows people sleep about 14 minutes less on nights above 30 °C, with bigger losses for older people and in lower-income countries.",
     source: { label: "Minor et al., One Earth, 2022", url: "https://orbit.dtu.dk/en/publications/rising-temperatures-erode-human-sleep-globally/" },
     loops: ["sleep", "energypoverty"], levers: ["coolnights", "affordablecool", "coolhousing"] },
-  { time: "09:00", title: "Stop, or get paid",
+  { time: "09:00", video: "media/day/0900.mp4", length: "0:28", title: "Stop, or get paid",
     who: "A construction worker in Delhi",
     text: "By mid-morning the site is dangerously hot. Resting in the shade means losing part of the day’s wage, so he keeps carrying.",
     loops: ["poverty"], levers: ["heatrules", "heatcash"] },
-  { time: "12:00", title: "School closes",
+  { time: "12:00", video: "media/day/1200.mp4", length: "0:27", title: "School closes",
     who: "A girl in rural Bangladesh",
     text: "Her school shuts for the heat again. At home she fetches water and looks after her younger brothers, and after weeks like this her family starts to wonder whether she should go back at all.",
     loops: ["school"], levers: ["keepinschool"] },
-  { time: "15:00", title: "The grid gives way",
+  { time: "15:00", video: "media/day/1500.mp4", length: "0:30", title: "The grid gives way",
     who: "A city at its peak",
     text: "Every air conditioner is running. The grid fails, water pumps stop and the district clinic loses its cooling just as heat cases arrive.",
     loops: ["cooling", "energywater", "clinic"], levers: ["coolbydesign", "greencity", "pumpbackup", "readyclinics", "hap"] },
-  { time: "18:00", title: "The bill arrives",
+  { time: "18:00", video: "media/day/1800.mp4", length: "0:28", title: "The bill arrives",
     who: "A street food vendor in Bangkok",
     text: "Her stock spoiled in the heat, and her husband’s treatment for heat exhaustion last week was paid with a loan. Tomorrow she has to work longer.",
     loops: ["debt", "poverty"], levers: ["freecare", "socialprotection", "heatcash"] },
