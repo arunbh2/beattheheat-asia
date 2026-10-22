@@ -994,7 +994,7 @@
     else if (act === "prev") { state.step--; renderStep(); }
   }
   document.addEventListener("click", ev => {
-    if (ev.target.closest("#panel, #guide, #loops, #web-list, #who-holds, #at-risk, #network, #breakbar, #day, #path-form, .intro")) handleAction(ev);
+    if (ev.target.closest("#panel, #guide, #loops, #web-list, #who-holds, #at-risk, #stalls, #network, #breakbar, #day, #path-form, .intro")) handleAction(ev);
   });
   document.addEventListener("keydown", ev => {
     if (ev.key === "Escape" && (state.selected || state.story || state.inst || state.pkg)) { clearSelection(); fitAll(); }
@@ -1260,9 +1260,10 @@
   const PG = typeof PLAN_GROUPS !== "undefined" ? PLAN_GROUPS : [];
   const PAYERS = typeof PLAN_PAYERS !== "undefined" ? PLAN_PAYERS : ["Not decided yet"];
   const EXAMPLES = typeof WORKED_EXAMPLES !== "undefined" ? WORKED_EXAMPLES : [];
+  const STALL_LIST = typeof STALLS !== "undefined" ? STALLS : [];
   const PLAN_KEY = "bth-plan-v1";
-  let plan = { place: "", group: "", levers: [], rows: {}, example: null };
-  try { const saved = JSON.parse(localStorage.getItem(PLAN_KEY) || "null"); if (saved && Array.isArray(saved.levers)) plan = Object.assign(plan, saved); } catch (e) {}
+  let plan = { place: "", group: "", levers: [], rows: {}, example: null, stalls: [] };
+  try { const saved = JSON.parse(localStorage.getItem(PLAN_KEY) || "null"); if (saved && Array.isArray(saved.levers)) plan = Object.assign(plan, saved); if (!Array.isArray(plan.stalls)) plan.stalls = []; } catch (e) {}
   const savePlan = () => { try { localStorage.setItem(PLAN_KEY, JSON.stringify(plan)); } catch (e) {} };
   const planRow = id => plan.rows[id] || (plan.rows[id] = { lead: (leverById[id].who || [])[0] || "", payer: PAYERS[0], measure: "" });
   const planLoops = () => LOOPS.filter(l => l.levers.some(v => plan.levers.includes(v)));
@@ -1294,6 +1295,12 @@
     }).join("");
   }
 
+  const planStalls = () => STALL_LIST.filter(x => plan.stalls.includes(x.id));
+  function renderPlanStalls() {
+    const box = document.getElementById("plan-stalls"); if (!box) return;
+    box.innerHTML = STALL_LIST.map(x => `<label class="plan-check"><input type="checkbox" data-pl-stall="${x.id}"${plan.stalls.includes(x.id) ? " checked" : ""}><span>${esc(x.name)}</span></label>`).join("");
+  }
+
   function renderPlanSummary() {
     const box = document.getElementById("plan-summary"); if (!box) return;
     const loops = planLoops(), rows = plan.levers.map(id => planRow(id));
@@ -1313,6 +1320,7 @@
       ${rows.length ? `<p class="plan-summary__line"><b>Who pays:</b> ${Object.entries(payers).map(([p, n]) => `${esc(p)} (${n})`).join(", ")}</p>` : ""}
       ${unpaid ? `<p class="plan-summary__gap">${plural(unpaid, "action")} with nobody paying yet. That is the conversation to have next.</p>` : ""}
       ${loops.length ? `<p class="plan-summary__line"><b>Cycles in play:</b> ${loops.map(l => esc(l.name.replace(/^The /, ""))).join(", ")}</p>` : ""}
+      ${planStalls().length ? `<p class="plan-summary__line"><b>Watch for:</b> ${planStalls().map(x => esc(x.name.toLowerCase())).join(", ")}</p>` : ""}
       <p class="plan-summary__note">Illustrative: real effect depends on reach, quality and how long each action lasts.</p>
       <div class="plan-summary__actions">
         <button type="button" class="btn btn--sm" data-pl-act="map"${plan.levers.length ? "" : " disabled"}>Show on the map</button>
@@ -1344,7 +1352,7 @@
     if (!place || !grp) return;
     grp.innerHTML = `<option value="">Choose a group…</option>` + PG.map(g => `<option value="${g.id}"${plan.group === g.id ? " selected" : ""}>${esc(g.name)}</option>`).join("");
     place.value = plan.place;
-    renderPlanStory(); renderPlanActions(); renderPlanRows(); renderPlanSummary();
+    renderPlanStory(); renderPlanActions(); renderPlanRows(); renderPlanStalls(); renderPlanSummary();
   }
 
   // the practical guides for the chosen actions, each listed once, under the first action that needs it
@@ -1360,6 +1368,8 @@
     plan.levers.forEach((id, i) => { const v = leverById[id], r = planRow(id);
       L.push(`${i + 1}. ${v.title} [${WHEN[v.when] || ""}]`, `   Leads: ${instById[r.lead] ? instById[r.lead].name : "-"}`, `   Pays: ${r.payer}`, `   How we will know: ${r.measure || v.measure || "-"}`); });
     L.push("", `Cycles these actions could help interrupt: ${planLoops().map(l => l.name).join(", ") || "none"}`);
+    if (planStalls().length) { L.push("", "WHAT COULD STOP THIS PLAN, AND WHAT HAS MOVED IT ELSEWHERE");
+      planStalls().forEach(x => { L.push(`${x.name}:`); x.moves.forEach(m => L.push(`   - ${m}`)); }); }
     const reading = planReading();
     if (reading.length) { L.push("", "READING LIST FOR THIS PLAN");
       reading.forEach(({ v, guides }) => { L.push(`${v.title}:`); guides.forEach(g => L.push(`   - ${g.title} (${g.by}): ${g.url}`)); }); }
@@ -1388,6 +1398,7 @@
       ${ex ? `<p class="note">Based on the worked example: ${h(ex.title)}.</p>` : ""}
       <table><thead><tr><th>Action</th><th>Who leads</th><th>Who pays</th><th>How we will know</th></tr></thead><tbody>${rows}</tbody></table>
       <h2>Cycles these actions could help interrupt</h2><p>${h(planLoops().map(l => l.name).join(", ") || "None yet")}</p>
+      ${planStalls().length ? `<h2>What could stop this plan</h2><p class="note">And what has moved each one elsewhere.</p><div class="read">${planStalls().map(x => `<h3>${h(x.name)}</h3><ul>${x.moves.map(m => `<li>${h(m)}</li>`).join("")}</ul>`).join("")}</div>` : ""}
       ${(() => { const r = planReading(); return r.length ? `<h2>Reading list for this plan</h2><p class="note">Practical guides for each action, from the BeatTheHeat.Asia map.</p><div class="read">${r.map(({ v, guides }) => `<h3>${h(v.title)}</h3><ul>${guides.map(g => `<li><a href="${h(g.url)}" target="_blank" rel="noopener">${h(g.title)}</a> <span class="by">· ${h(g.by)}</span><span class="u">${h(g.url)}</span></li>`).join("")}</ul>`).join("")}</div>` : ""; })()}
       <p class="note" style="margin-top:28px">Illustrative systems map: real effect depends on how many people each action reaches, how well it is delivered and how long it lasts. For evidence on what works and what it costs, see What Works Against Heat.</p>
       </body></html>`;
@@ -1399,7 +1410,7 @@
 
   function loadExample(id) {
     const ex = EXAMPLES.find(x => x.id === id); if (!ex) return;
-    plan = { place: ex.place, group: ex.group, levers: ex.actions.map(a => a.lever), rows: {}, example: ex.id };
+    plan = { place: ex.place, group: ex.group, levers: ex.actions.map(a => a.lever), rows: {}, example: ex.id, stalls: [] };
     ex.actions.forEach(a => { plan.rows[a.lever] = { lead: a.lead, payer: a.payer, measure: a.measure }; });
     savePlan(); renderPlan();
     document.getElementById("plan-story").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" });
@@ -1423,6 +1434,10 @@
         const id = t.dataset.plLever;
         plan.levers = t.checked ? [...plan.levers.filter(x => x !== id), id] : plan.levers.filter(x => x !== id);
         changed();
+      } else if (t.dataset.plStall) {
+        const id = t.dataset.plStall;
+        plan.stalls = t.checked ? [...plan.stalls.filter(x => x !== id), id] : plan.stalls.filter(x => x !== id);
+        changed(false);
       } else if (t.dataset.plField === "lead" || t.dataset.plField === "payer") {
         planRow(t.closest("[data-pl-row]").dataset.plRow)[t.dataset.plField] = t.value; changed(false);
       }
@@ -1434,7 +1449,7 @@
       if (act === "map") goToMap(() => applyLevers(plan.levers, plan.place || "Your plan", "The actions in your plan, switched on together."));
       else if (act === "print") openPlan();
       else if (act === "copy") navigator.clipboard.writeText(planText()).then(() => { if (status) status.textContent = "Plan copied. Paste it into an email or document."; }, () => { if (status) status.textContent = "Couldn’t copy. Use “Open a printable plan” instead."; });
-      else if (act === "clear") { plan = { place: "", group: "", levers: [], rows: {}, example: null }; savePlan(); renderPlan(); }
+      else if (act === "clear") { plan = { place: "", group: "", levers: [], rows: {}, example: null, stalls: [] }; savePlan(); renderPlan(); }
     });
   })();
 
@@ -1833,6 +1848,18 @@
       </article>`).join("");
   }
 
+  // Why action stalls: how to tell, what moves it, and where it shows on the map
+  function renderStalls() {
+    const box = document.getElementById("stall-list"); if (!box || !STALL_LIST.length) return;
+    box.innerHTML = STALL_LIST.map(x => `<li class="stall" id="stall-${x.id}">
+        <h3 class="stall__name">${esc(x.name)}</h3>
+        <p class="stall__k">You can tell when</p><p class="stall__sign">${esc(x.sign)}</p>
+        <p class="stall__k">What moves it</p><ul class="stall__moves">${x.moves.map(m => `<li>${esc(m)}</li>`).join("")}</ul>
+        ${x.fact ? `<p class="stall__fact">${esc(x.fact)} ${extLink(x.source.url, x.source.label)}</p>` : ""}
+        <p class="risk__row risk__row--break"><span>On the map:</span> ${x.levers.filter(id => leverById[id]).map(id => `<button type="button" class="lever-chip" data-lever="${id}">${esc(leverById[id].title)}</button>`).join("")}${x.loops.filter(id => loopById[id]).map(id => `<button type="button" class="loop-chip" data-story="${id}">↺ ${esc(loopById[id].name.replace(/^The /, ""))}</button>`).join("")}</p>
+      </li>`).join("");
+  }
+
   function renderList() {
     document.getElementById("web-list").innerHTML = SYSTEMS.map(s => {
       const items = nodes.filter(n => n.sys === s.id && n.kind === "leaf");
@@ -1875,6 +1902,7 @@
     renderPlan();
     renderGlossary();
     renderAtRisk();
+    renderStalls();
     renderList();
     renderStats();
     applyBreakState();

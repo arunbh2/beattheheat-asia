@@ -1107,3 +1107,25 @@ body.film-open { overflow: hidden; }
   .sec-scene--field::after, .sec-scene--water::after { background: linear-gradient(to bottom, rgba(255,255,255,.91) 0%, rgba(255,255,255,.92) 70%, var(--white) 100%); }
   .sec-scene--sand::after { background: rgba(246,231,215,.88); }
 }
+
+/* Why action stalls */
+.stalls { padding: clamp(64px, 9vw, 128px) 0; background: var(--white); border-top: 1px solid var(--line); }
+.stall-list { list-style: none; padding: 0; margin-top: clamp(32px, 5vw, 56px); display: grid; gap: 20px; counter-reset: s; }
+@media (min-width: 760px) { .stall-list { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1180px) { .stall-list { grid-template-columns: repeat(3, 1fr); } }
+.stall { counter-increment: s; display: flex; flex-direction: column; gap: 6px; padding: 20px 22px 22px; background: var(--canvas); border-radius: 8px; border-top: 4px solid var(--ink); }
+.stall::before { content: "0" counter(s); font-weight: 700; font-size: .8rem; letter-spacing: .1em; color: var(--orange); }
+.stall__name { font-family: var(--font-display); font-weight: 400; font-size: clamp(1.4rem, 1.2rem + .6vw, 1.8rem); line-height: 1.05; text-transform: uppercase; margin-bottom: 6px; }
+.stall__k { margin-top: 6px; font-size: .75rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--grey-500); }
+.stall__sign { font-size: .95rem; color: var(--grey-700); }
+.stall__moves { margin: 0; padding-left: 18px; font-size: .95rem; }
+.stall__moves li + li { margin-top: 4px; }
+.stall__fact { margin-top: 8px; padding: 10px 12px; border-left: 3px solid var(--orange); background: var(--white); font-size: .88rem; font-weight: 600; }
+.stall__fact a { display: block; margin-top: 4px; font-weight: 400; font-size: .8rem; color: var(--grey-700); }
+.stall .risk__row { margin-top: auto; padding-top: 10px; }
+.stall .loop-chip { border-color: var(--red); background: var(--white); color: #A61B2E; }
+.stall .loop-chip:hover { background: var(--red); color: var(--white); }
+.stalls__note a { color: var(--ink); font-weight: 600; text-decoration-color: var(--orange); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+.stalls__note { margin-top: 28px; color: var(--grey-700); }
+.plan-stalls { display: grid; gap: 6px; }
+@media (min-width: 720px) { .plan-stalls { grid-template-columns: repeat(2, 1fr); } }
