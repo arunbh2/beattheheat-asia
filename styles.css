@@ -151,15 +151,15 @@ button { font: inherit; color: inherit; }
 @media (max-width: 720px) { .intro__video { object-position: 12% 50%; } }
 @media (max-width: 720px) { .intro__bg::after { background: linear-gradient(to right, rgba(250,247,242,.45) 0%, rgba(250,247,242,.94) 9%, rgba(250,247,242,.94) 91%, rgba(250,247,242,.45) 100%), linear-gradient(to bottom, rgba(250,247,242,0) 80%, var(--canvas) 100%); } }
 .intro__flag { position: relative; padding: 4px 12px; border-radius: 999px; background: var(--canvas); }
-.intro__pause {
+.intro__pause, .scene-pause {
   position: absolute; right: clamp(10px, 2vw, 22px); top: clamp(10px, 2vw, 18px); z-index: 1;
   width: 36px; height: 36px; display: grid; place-items: center; padding: 0;
   border: 2px solid var(--ink); border-radius: 50%; background: var(--canvas); color: var(--ink); cursor: pointer;
 }
 .intro__pause:hover { background: var(--ink); color: var(--canvas); }
-.intro__pause:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
+.intro__pause:focus-visible, .scene-pause:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
 .intro__pause-icon { width: 10px; height: 12px; border-left: 3px solid currentColor; border-right: 3px solid currentColor; }
-.intro__pause[aria-pressed="true"] .intro__pause-icon { width: 0; height: 0; border: 0; border-left: 11px solid currentColor; border-top: 7px solid transparent; border-bottom: 7px solid transparent; margin-left: 3px; }
+.intro__pause[aria-pressed="true"] .intro__pause-icon, .scene-pause[aria-pressed="true"] .intro__pause-icon { width: 0; height: 0; border: 0; border-left: 11px solid currentColor; border-top: 7px solid transparent; border-bottom: 7px solid transparent; margin-left: 3px; }
 .intro__flag {
   display: inline-flex; align-items: center; gap: 10px;
   margin-bottom: clamp(14px, 2vw, 22px);
@@ -724,6 +724,14 @@ button { font: inherit; color: inherit; }
 
 /* ---------- a day in a heatwave ---------- */
 .day { padding: clamp(64px, 9vw, 120px) 0; background: var(--ink); color: var(--canvas); }
+/* Rooftops behind the heading: darkened so the text stays crisp, fading into the section where the hours begin */
+.day { position: relative; isolation: isolate; overflow: hidden; }
+.day__scene { position: absolute; left: 0; right: 0; top: 0; height: clamp(440px, 52vw, 720px); z-index: -1; pointer-events: none; }
+.day__video { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 70%; }
+.day__scene::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(22,32,43,.62) 0%, rgba(22,32,43,.72) 55%, var(--ink) 100%); }
+.day__scene-note { position: absolute; right: clamp(56px, 6vw, 72px); top: clamp(16px, 2.4vw, 26px); z-index: 1; margin: 0; padding: 3px 9px; border-radius: 999px; background: rgba(22,32,43,.6); font-size: .75rem; color: var(--canvas); }
+.scene-pause--dark { border-color: rgba(250,247,242,.7); background: rgba(22,32,43,.6); color: var(--canvas); }
+.scene-pause--dark:hover { background: var(--canvas); color: var(--ink); }
 .day .eyebrow { margin-bottom: 20px; }
 .day .loops__intro { color: rgba(250,247,242,.75); }
 .day-list { list-style: none; padding: 0; margin-top: clamp(32px, 5vw, 56px); display: grid; gap: 14px; counter-reset: none; }
