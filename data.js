@@ -370,20 +370,20 @@ const LOOP_GROUPS = [
 
 // video and length (optional): a short film about the loop in media/loops/, with a .jpg cover of the same name.
 const LOOPS = [
-  { id: "global", group: "heat", name: "The global cooling loop", evidence: "established",
+  { id: "global", group: "heat", name: "The global cooling loop", evidence: "established", video: "media/loops/global.mp4", length: "0:45",
     path: ["heat", "energy", "demand", "emissions"],
     summary: "Cooling powered by fossil fuels adds to the warming that makes us need more cooling." },
-  { id: "soil", group: "heat", name: "The dry-soil loop", evidence: "established",
+  { id: "soil", group: "heat", name: "The dry-soil loop", evidence: "established", video: "media/loops/soil.mp4", length: "0:46",
     path: ["heat", "nature", "drysoil"],
     summary: "Heat dries the soil. Dry soil can’t cool itself, so the land heats up faster." },
-  { id: "ice", group: "heat", name: "The melting-ice loop", evidence: "established",
+  { id: "ice", group: "heat", name: "The melting-ice loop", evidence: "established", video: "media/loops/ice.mp4", length: "0:48",
     path: ["heat", "nature", "glacier"],
     summary: "Heat melts ice. Darker ground and water absorb more sunlight, and the melting speeds up." },
-  { id: "fire", group: "heat", name: "The wildfire loop", evidence: "established",
+  { id: "fire", group: "heat", name: "The wildfire loop", evidence: "established", video: "media/loops/fire.mp4", length: "0:47",
     path: ["heat", "nature", "wildfires"],
     summary: "Heat dries forests into fuel. Fires release carbon and strip away the trees that cool the land." },
 
-  { id: "cooling", group: "systems", name: "The cooling trap", evidence: "established",
+  { id: "cooling", group: "systems", name: "The cooling trap", evidence: "established", video: "media/loops/cooling.mp4", length: "0:41",
     path: ["demand", "uhi"],
     summary: "Air conditioning heats the street, and a hotter city needs even more air conditioning." },
   { id: "energywater", group: "systems", name: "The energy–water loop", evidence: "established",
