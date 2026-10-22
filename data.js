@@ -672,7 +672,7 @@ const HEATWAVE_DAY = [
     who: "A street food vendor in Bangkok",
     text: "Her stock spoiled in the heat, and her husband’s treatment for heat exhaustion last week was paid with a loan. Tomorrow she has to work longer.",
     loops: ["debt", "poverty"], levers: ["freecare", "socialprotection", "heatcash"] },
-  { time: "22:00", title: "A death no one counts",
+  { time: "22:00", video: "media/day/2200.mp4", length: "0:27", title: "A death no one counts",
     who: "An older man living alone in Chennai",
     text: "He dies at home in a room that stayed hot all day. His death certificate will say heart failure, so it never shows up as a heat death.",
     loops: ["invisible"], levers: ["coolingcentres", "countdeaths"] }
