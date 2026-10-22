@@ -466,10 +466,15 @@ const LEVERS = [
     text: "Early detection, community fire crews and land management that reduces fuel keep fires small and forests standing." },
 
   { id: "coolbydesign", edge: ["demand", "uhi"], title: "Cool by design", who: ["city", "nat"], when: "decade", measure: "New buildings meeting cooling standards",
-    text: "Shading, ventilation, reflective roofs and efficient cooling cut the need for air conditioning, and the waste heat it dumps outside." },
+    text: "Shading, ventilation, reflective roofs and efficient cooling cut the need for air conditioning, and the waste heat it dumps outside.",
+    guides: [
+      { by: "Global Heat Health Information Network (GHHIN)", title: "Heat in the city: guidance and resources for urban heat", url: "https://heathealth.info/in-the-city/" } ] },
   { id: "greencity", edge: ["uhi", "demand"], title: "Green, cool cities", who: ["city", "community"], when: "years", measure: "Tree canopy and shaded street length in hotspot wards",
     text: "Trees, water, cool roofs and cool pavements lower city temperatures and flatten peak demand.",
-    example: "Indian cities and states such as Ahmedabad and Telangana have run programmes that paint roofs to reflect sunlight." },
+    example: "Indian cities and states such as Ahmedabad and Telangana have run programmes that paint roofs to reflect sunlight.",
+    guides: [
+      { by: "Zurich Climate Resilience Alliance", title: "Urban heat: resources and partner networks", url: "https://zcralliance.org/resources-urban-heat/" },
+      { by: "Global Heat Health Information Network (GHHIN)", title: "Heat in the city: guidance and resources for urban heat", url: "https://heathealth.info/in-the-city/" } ] },
   { id: "drypower", edge: ["scarcity", "thermal"], title: "Power that doesn’t need water", who: ["utilities", "nat"], when: "decade", measure: "Power capacity added that needs little or no water",
     text: "Solar and wind use very little water, and dry cooling protects thermal plants when rivers run low or warm." },
   { id: "pumpbackup", edge: ["power", "scarcity"], title: "Backup power for water", who: ["water", "utilities"], when: "years", measure: "Water pumping stations with backup power",
@@ -480,13 +485,18 @@ const LEVERS = [
     text: "Crop insurance that pays out after a heat-hit season, affordable credit and heat-tolerant seed stop one bad harvest becoming a debt trap." },
   { id: "hap", edge: ["heatstroke", "hsys"], title: "Heat action plans", who: ["city", "health", "met"], when: "season", measure: "Hours from heat alert to a coordinated response",
     text: "Early warnings, public cooling spaces and outreach to the people most at risk prevent illness before it reaches hospital.",
-    example: "Ahmedabad launched South Asia’s first city heat action plan in 2013. By June 2026, India had more than 250." },
+    example: "Ahmedabad launched South Asia’s first city heat action plan in 2013. By June 2026, India had more than 250.",
+    guides: [
+      { by: "Global Heat Health Information Network (GHHIN)", title: "Heat action plans and case studies, including Indian cities", url: "https://heathealth.info/heat-action-plans-and-case-studies/" },
+      { by: "WHO and WMO, 2015, in the GHHIN resource library", title: "Heatwaves and health: guidance on warning-system development", url: "https://heathealth.info/resources/heatwaves-and-health-guidance-on-warning-system-development/" } ] },
   { id: "readyclinics", edge: ["hsys", "heatstroke"], title: "Heat-ready health services", who: ["health", "funders"], when: "season", measure: "Health facilities with heat protocols, trained staff and cooling",
     text: "Cooling, backup power, surge plans and trained frontline workers keep clinics working through heatwaves." },
 
   { id: "heatrules", edge: ["informal", "heatstroke"], title: "Heat-safe work", who: ["nat", "employers", "workers"], when: "season", measure: "Worksites inspected and keeping rest-break rules",
     text: "Rest, shade and water during dangerous heat, with paid breaks so that stopping work doesn’t mean losing pay.",
-    example: "Several Gulf states ban outdoor work during the hottest midday hours in summer." },
+    example: "Several Gulf states ban outdoor work during the hottest midday hours in summer.",
+    guides: [
+      { by: "WHO and WMO, in the GHHIN resource library", title: "Heat at work: the first joint global guidance on workplace heat stress", url: "https://heathealth.info/at-work/" } ] },
   { id: "heatcash", edge: ["heatstroke", "lost"], title: "Income protection in heatwaves", who: ["insurers", "nat", "workers"], when: "years", measure: "Workers covered, and days from trigger to payout",
     text: "Cash that pays out automatically when temperatures cross a danger threshold, so people can afford to stop. Triggers need careful design to limit basis risk: heat that hurts people without triggering a payout.",
     example: "Parametric heat insurance has been piloted with women informal workers in India." },
@@ -506,13 +516,18 @@ const LEVERS = [
   { id: "countdeaths", edge: ["deaths", "underreport"], title: "Count every heat death", who: ["health", "met", "nat"], when: "years", measure: "Recorded heat deaths compared with excess deaths",
     text: "Real-time tracking of excess deaths during heatwaves, and death certificates that record heat, make the toll visible." },
   { id: "coolingcentres", edge: ["underfund", "deaths"], title: "Cooling centres and check-ins", who: ["city", "community", "health"], when: "season", measure: "Cooling centre visits, and check-ins on people living alone",
-    text: "Public cooling spaces, water points and check-ins on older people living alone save lives in every heatwave." },
+    text: "Public cooling spaces, water points and check-ins on older people living alone save lives in every heatwave.",
+    guides: [
+      { by: "US Centers for Disease Control and Prevention, in the GHHIN resource library", title: "The use of cooling centers to prevent heat-related illness: evidence and strategies for implementation", url: "https://heathealth.info/wp-content/uploads/cdc_47657_DS1-compressed-1.pdf" } ] },
   { id: "heatbudget", edge: ["budgets", "underfund"], title: "Dedicated heat budgets", who: ["nat", "city", "funders"], when: "years", measure: "Heat budget set aside before the season starts",
     text: "Ring-fenced funding for heat action, set aside before the season, so protection doesn’t compete with the emergency.",
     example: "Since August 2026, India’s disaster response funds can pay for heatwave relief. Preparing for heat is still paid for separately, from disaster mitigation funds." },
   { id: "anticipatory", edge: ["underfund", "emergency"], title: "Anticipatory action", who: ["met", "funders", "nat"], when: "years", measure: "Money released before the heatwave peaks",
     text: "Release money and act on the forecast, before the heatwave peaks, instead of paying for the emergency afterwards.",
-    example: "Forecast-based financing, pioneered within the Red Cross Red Crescent Movement, releases funds before a disaster strikes." },
+    example: "Forecast-based financing, pioneered within the Red Cross Red Crescent Movement, releases funds before a disaster strikes. WHO and WMO estimate that bringing heat-health warning systems to the countries that lack them could prevent nearly 100,000 deaths a year.",
+    guides: [
+      { by: "IFRC, Practical Action and the Red Cross Red Crescent Climate Centre, for the Zurich Climate Resilience Alliance, 2026", title: "Understanding the global landscape of heat early warning systems (with case studies from Bangladesh, Nepal, Pakistan, the Philippines and Vietnam)", url: "https://www.preventionweb.net/publication/documents-and-publications/understanding-global-landscape-heat-early-warning-systems" },
+      { by: "Zurich Climate Resilience Alliance", title: "Early warning systems: resources", url: "https://zcralliance.org/resources-ews/" } ] },
   { id: "riskpools", edge: ["insurance", "budgets"], title: "Shared risk pools", who: ["insurers", "nat", "funders"], when: "years", measure: "Share of heat losses covered by pooled risk",
     text: "Public–private insurance and regional risk pools keep cover available and spread losses beyond any one budget.",
     example: "Regional risk pools such as the African Risk Capacity and the Caribbean’s CCRIF share disaster risk across countries." }
@@ -727,7 +742,9 @@ const EVIDENCE = {
   ],
   debt: [
     { by: "Selvaraj, Farooqui and Karan, BMJ Open, 2018", title: "Quantifying the financial burden of households’ out-of-pocket payments on medicines in India", url: "https://bmjopen.bmj.com/content/8/5/e018020",
-      finding: "Medicine costs alone were catastrophic for 11.2% of Indian households in 2011–12, about 29 million households." }
+      finding: "Medicine costs alone were catastrophic for 11.2% of Indian households in 2011–12, about 29 million households." },
+    { by: "American Red Cross, Red Cross Red Crescent Climate Centre, Nepal Red Cross Society and Bangladesh Red Crescent Society, 2026", title: "The lived experiences of vulnerable populations in the context of extreme heat: five cities in Nepal and Bangladesh", url: "https://www.climatecentre.org/publications/17312/the-lived-experiences-of-vulnerable-populations-in-the-context-of-extreme-heat-a-comprehensive-narrative-report-based-on-survey-data-from-five-cities-in-nepal-and-bangladesh/",
+      finding: "In a survey of more than 2,000 residents of five cities, heat harmed health, cut incomes and working hours, and pushed some households towards high-interest loans. Women and people with disabilities faced the hardest trade-offs between health, work and care." }
   ],
   energypoverty: [
     { by: "Sustainable Energy for All, 2023", title: "Chilling Prospects: Global Access to Cooling Gaps 2023", url: "https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-global-access-to-cooling-gaps-2023",
@@ -794,14 +811,14 @@ const ORG_ROLES = [
 ];
 
 const ORGANISATIONS = [
-  { id: "ghhin", role: "global", name: "Global Heat Health Information Network (WHO, WMO and NOAA)", url: "https://ghhin.org",
-    does: "A member-driven forum of scientists, practitioners and policymakers that shares guidance and heat-health action plans.", levers: ["hap", "readyclinics"] },
+  { id: "ghhin", role: "global", name: "Global Heat Health Information Network (WHO, WMO and NOAA)", url: "https://heathealth.info/resource-library/",
+    does: "A member-driven forum of scientists, practitioners and policymakers. Its resource library gathers guidance on heat warnings, heat action plans and case studies, heat at work and heat in cities.", levers: ["hap", "readyclinics", "anticipatory", "heatrules", "coolingcentres"] },
   { id: "ilo", role: "global", name: "International Labour Organization", url: "https://www.ilo.org/resource/news/increase-heat-stress-predicted-bring-productivity-loss-equivalent-80",
     does: "Sets out the evidence and standards for protecting workers from heat stress.", levers: ["heatrules"] },
   { id: "unicef", role: "global", name: "UNICEF", url: "https://www.unicef.org/reports/learning-interrupted-global-snapshot-2024",
     does: "Tracks how heatwaves and other climate hazards disrupt children’s schooling.", levers: ["keepinschool"] },
-  { id: "zcra", role: "global", name: "Zurich Climate Resilience Alliance", url: "https://practicalaction.org/news-stories/zurich-climate-resilience-alliance-to-expand-focus-on-destructive-extreme-heat/",
-    does: "An alliance of humanitarian, development and research partners with Zurich Insurance Group. In 2024 it expanded from floods to extreme heat, with work in countries including Bangladesh and Nepal.", levers: ["hap", "anticipatory", "heatbudget"] },
+  { id: "zcra", role: "global", name: "Zurich Climate Resilience Alliance", url: "https://zcralliance.org/resources/?q=heat",
+    does: "An alliance of humanitarian, development and research partners with Zurich Insurance Group. In 2024 it expanded from floods to extreme heat, with work in countries including Bangladesh and Nepal. Its 2026 study of heat early warning systems covered eight countries, among them Bangladesh, Nepal, Pakistan, the Philippines and Vietnam.", levers: ["hap", "anticipatory", "heatbudget"] },
   { id: "hera", role: "global", name: "Heat Resilience Action (HERA), formerly Climate Resilience for All", url: "https://heranow.org/resources/as-extreme-heat-threats-grow-can-heat-insurance-offer-protection/",
     does: "Works on extreme heat with a focus on women and low-income communities. With SEWA and Swiss Re, it combined insurance payouts and cash for lost income after India’s 2024 heatwaves.", levers: ["heatcash", "hap"] },
   { id: "coolcoalition", role: "global", name: "UNEP Cool Coalition", url: "https://coolcoalition.org",
