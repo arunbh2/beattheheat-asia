@@ -1129,3 +1129,9 @@ body.film-open { overflow: hidden; }
 .stalls__note { margin-top: 28px; color: var(--grey-700); }
 .plan-stalls { display: grid; gap: 6px; }
 @media (min-width: 720px) { .plan-stalls { grid-template-columns: repeat(2, 1fr); } }
+
+/* Beta notice in the footer */
+.beta-tag { display: inline-block; margin-left: 8px; padding: 2px 9px; border: 1.5px solid var(--orange); border-radius: 999px; font-family: var(--font-body); font-size: .7rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #A8401A; vertical-align: middle; }
+.site-footer__disclaimer { margin-top: 6px; padding: 14px 16px; border-left: 3px solid var(--orange); background: var(--white); display: grid; gap: 8px; }
+.site-footer__disclaimer p { font-size: .85rem; color: var(--grey-700); }
+.site-footer__disclaimer strong { color: var(--ink); }
