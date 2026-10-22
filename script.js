@@ -20,18 +20,18 @@
 
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  // Hero background loop. Plays by default; starts paused for reduced motion or data saver, and whenever the browser
-  // refuses to autoplay. The play/pause button is always there, and a visitor's own choice is remembered.
-  (function heroLoop() {
-    const v = document.getElementById("intro-video"), btn = document.getElementById("intro-pause");
+  // Background loops (title web, heatwave rooftops). Play by default; start paused for reduced motion or data saver,
+  // and whenever the browser refuses to autoplay. The play/pause button is always there, and a visitor's choice is remembered.
+  function ambientLoop(videoId, btnId, key, noun) {
+    const v = document.getElementById(videoId), btn = document.getElementById(btnId);
     if (!v || !btn) return;
     const saveData = navigator.connection && navigator.connection.saveData;
-    let stored = null; try { stored = localStorage.getItem("bth-hero-paused"); } catch (e) {}
-    let paused = stored === "1" || (stored !== "0" && (reduceMotion || saveData)), onScreen = true;
+    let stored = null; try { stored = localStorage.getItem(key); } catch (e) {}
+    let paused = stored === "1" || (stored !== "0" && (reduceMotion || saveData)), onScreen = false;
     v.muted = true; v.defaultMuted = true;
     const label = () => {
       btn.setAttribute("aria-pressed", String(paused));
-      btn.querySelector(".visually-hidden").textContent = paused ? "Play background animation" : "Pause background animation";
+      btn.querySelector(".visually-hidden").textContent = (paused ? "Play " : "Pause ") + noun;
     };
     const sync = () => {
       label();
@@ -42,10 +42,13 @@
       } else v.pause();
     };
     btn.hidden = false;
-    btn.addEventListener("click", () => { paused = !paused; try { localStorage.setItem("bth-hero-paused", paused ? "1" : "0"); } catch (e) {} sync(); });
-    if ("IntersectionObserver" in window) new IntersectionObserver(es => { onScreen = es[0].isIntersecting; sync(); }).observe(v);
-    sync();
-  })();
+    btn.addEventListener("click", () => { paused = !paused; try { localStorage.setItem(key, paused ? "1" : "0"); } catch (e) {} sync(); });
+    if ("IntersectionObserver" in window) new IntersectionObserver(es => { onScreen = es[0].isIntersecting; sync(); }, { rootMargin: "200px 0px" }).observe(v);
+    else onScreen = true;
+    label(); if (onScreen) sync();
+  }
+  ambientLoop("intro-video", "intro-pause", "bth-hero-paused", "background animation");
+  ambientLoop("day-video", "day-pause", "bth-day-paused", "background footage");
   const isDesktop = () => window.matchMedia("(min-width: 1100px)").matches;
   const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const plain = n => n.label.replace(/\n/g, " ");
