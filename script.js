@@ -801,7 +801,8 @@
         <button class="btn" data-act="${last ? "done" : "next"}">${last ? "Explore freely" : "Next →"}</button>
       </div>
       <button class="link" data-act="clear">Leave the guided path</button>`;
-    flyTo(focus, { maxK: 1.35, minK: 0.95, center: step.edges.length ? step.edges[step.edges.length - 1][1] : null });
+    // a loop's overview may span the wheel, so it may zoom out further to keep every step in view
+    flyTo(focus, { maxK: 1.35, minK: step.loopAll ? 0.5 : 0.95, center: step.edges.length ? step.edges[step.edges.length - 1][1] : null });
   }
 
   /* ======================= PANEL CONTENT ======================= */
@@ -1853,7 +1854,7 @@
     box.innerHTML = AT_RISK.map(g => `<article class="risk" id="risk-${g.id}">
         <h3 class="risk__name">${esc(g.name)}</h3>
         <dl class="risk__dl"><dt>Exposed to</dt><dd>${esc(g.exposure)}</dd><dt>Held back by</dt><dd>${esc(g.barriers)}</dd></dl>
-        ${g.fact ? `<p class="risk__fact">${esc(g.fact)} <a href="${esc(g.source.url)}" target="_blank" rel="noopener">${esc(g.source.label)}<span class="visually-hidden"> (opens in a new tab)</span></a></p>` : ""}
+        ${[g.fact ? g : null, ...(g.more || [])].filter(Boolean).map(f => `<p class="risk__fact">${esc(f.fact)} <a href="${esc(f.source.url)}" target="_blank" rel="noopener">${esc(f.source.label)}<span class="visually-hidden"> (opens in a new tab)</span></a></p>`).join("")}
         <p class="risk__row"><span>On the map:</span> ${g.nodes.filter(id => byId[id]).map(id => `<button type="button" class="node-chip" data-go="${id}" style="--c:${byId[id].color}">${esc(plain(byId[id]))}</button>`).join("")}</p>
         <p class="risk__row risk__row--break"><span>What helps:</span> ${g.levers.filter(id => leverById[id]).map(id => `<button type="button" class="lever-chip" data-lever="${id}">${esc(leverById[id].title)}</button>`).join("")}</p>
       </article>`).join("");
