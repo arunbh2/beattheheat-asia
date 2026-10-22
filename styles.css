@@ -1135,3 +1135,21 @@ body.film-open { overflow: hidden; }
 .site-footer__disclaimer { margin-top: 6px; padding: 14px 16px; border-left: 3px solid var(--orange); background: var(--white); display: grid; gap: 8px; }
 .site-footer__disclaimer p { font-size: .85rem; color: var(--grey-700); }
 .site-footer__disclaimer strong { color: var(--ink); }
+
+/* Plan: a second worked example and the checklist of what strong plans include */
+.plan__example-btns { display: flex; flex-wrap: wrap; gap: 10px; }
+.plan-checklist { margin-top: 14px; padding: 14px 18px; border-radius: 10px; background: var(--white); border: 1px solid var(--line); }
+.plan-checklist summary { cursor: pointer; font-weight: 700; }
+.plan-checklist summary span { margin-left: 8px; font-weight: 500; font-size: .85rem; color: var(--grey-500); }
+.plan-checklist ol { margin: 14px 0 0; padding-left: 22px; display: grid; gap: 10px; }
+@media (min-width: 900px) { .plan-checklist ol { grid-template-columns: repeat(2, 1fr); column-gap: 32px; } }
+.plan-checklist li strong { display: block; }
+.plan-checklist li span { display: block; font-size: .9rem; color: var(--grey-700); }
+.plan-checklist__src { margin-top: 12px; font-size: .8rem; color: var(--grey-500); }
+.plan-checklist__src a { color: var(--grey-700); }
+
+/* Lever panel: how far it has spread */
+.spread { margin: 10px 0 4px; padding: 8px 12px; border-radius: 8px; background: var(--canvas); font-size: .85rem; color: var(--grey-700); }
+.spread b { color: var(--ink); }
+.spread span { display: block; margin-top: 2px; font-size: .78rem; }
+.spread span a { color: var(--grey-700); }

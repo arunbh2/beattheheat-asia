@@ -672,6 +672,10 @@
     setHash(id);
   }
 
+  // how far this kind of action has spread in Indian cities (data.js, part 6, "spread")
+  const SPREAD = { early: "Early pilots in a few places", spreading: "Piloted across several states" };
+  const spreadNote = v => v.spread && SPREAD[v.spread] ? `<p class="spread spread--${v.spread}"><b>In Indian cities:</b> ${SPREAD[v.spread]}. No kind of heat solution has yet reached widespread use. <span>${extLink("https://www.sattva.co.in/publication/navigating-indias-urban-heat-landscape-from-challenges-to-driving-action/", "Sattva Consulting, 2025")}</span></p>` : "";
+
   function selectLever(id) {
     const v = leverById[id]; if (!v) return;
     state.story = null; state.inst = null; state.selected = "lever:" + id;
@@ -853,6 +857,7 @@
       <p class="panel__kicker is-break"><span class="lever-icon lever-icon--sm" aria-hidden="true"></span>Where it breaks</p>
       <h2 class="panel__title">${esc(v.title)}</h2>
       ${whenTag(v)}
+      ${spreadNote(v)}
       <p class="panel__desc">${gloss(v.text)}</p>
       <button class="lever-switch${state.on.has(v.id) ? " is-on" : ""}" data-act="toggle-lever" data-id="${v.id}" aria-pressed="${state.on.has(v.id)}">
         <span class="lever-switch__track" aria-hidden="true"></span>
@@ -1343,7 +1348,14 @@
         <li><b>What changed</b>${gloss(ex.result)}</li>
       </ol>
       <p class="plan-story__src">Sources: ${ex.sources.map(x => extLink(x.url, x.label)).join(" · ")}</p>
-      <p class="plan-story__note">The plan below is filled in with Ahmedabad’s documented actions. Who paid is not set out in these sources, so it is marked “Not documented”. Change anything to make it your own.</p>`;
+      <p class="plan-story__note">${esc(ex.note || "")} Change anything to make it your own.</p>`;
+  }
+
+  function renderPlanChecklist() {
+    const list = document.getElementById("plan-checklist-list"), src = document.getElementById("plan-checklist-src");
+    if (!list || typeof PLAN_CHECKLIST === "undefined") return;
+    list.innerHTML = PLAN_CHECKLIST.map(c => `<li><strong>${esc(c.item)}</strong><span>${esc(c.eg)}</span></li>`).join("");
+    if (src) src.innerHTML = "Sources: " + PLAN_CHECKLIST_SOURCES.map(x => extLink(x.url, x.label)).join(" · ");
   }
 
   function renderPlan() {
@@ -1351,7 +1363,7 @@
     if (!place || !grp) return;
     grp.innerHTML = `<option value="">Choose a group…</option>` + PG.map(g => `<option value="${g.id}"${plan.group === g.id ? " selected" : ""}>${esc(g.name)}</option>`).join("");
     place.value = plan.place;
-    renderPlanStory(); renderPlanActions(); renderPlanRows(); renderPlanStalls(); renderPlanSummary();
+    renderPlanStory(); renderPlanChecklist(); renderPlanActions(); renderPlanRows(); renderPlanStalls(); renderPlanSummary();
   }
 
   // the practical guides for the chosen actions, each listed once, under the first action that needs it
@@ -1854,7 +1866,7 @@
         <h3 class="stall__name">${esc(x.name)}</h3>
         <p class="stall__k">You can tell when</p><p class="stall__sign">${esc(x.sign)}</p>
         <p class="stall__k">What moves it</p><ul class="stall__moves">${x.moves.map(m => `<li>${esc(m)}</li>`).join("")}</ul>
-        ${x.fact ? `<p class="stall__fact">${esc(x.fact)} ${extLink(x.source.url, x.source.label)}</p>` : ""}
+        ${[x.fact ? x : null, ...(x.more || [])].filter(Boolean).map(f => `<p class="stall__fact">${esc(f.fact)} ${extLink(f.source.url, f.source.label)}</p>`).join("")}
         <p class="risk__row risk__row--break"><span>On the map:</span> ${x.levers.filter(id => leverById[id]).map(id => `<button type="button" class="lever-chip" data-lever="${id}">${esc(leverById[id].title)}</button>`).join("")}${x.loops.filter(id => loopById[id]).map(id => `<button type="button" class="loop-chip" data-story="${id}">↺ ${esc(loopById[id].name.replace(/^The /, ""))}</button>`).join("")}</p>
       </li>`).join("");
   }
