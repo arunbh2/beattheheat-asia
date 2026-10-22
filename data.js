@@ -1273,6 +1273,9 @@ const WORKED_EXAMPLES = [
 /* ---------- 16. SECTION FILMS ---------- */
 // Short films that open a section of the page. video: the file in media/films/ (with a .jpg cover of the same name).
 const SECTION_FILMS = [
+  { id: "barriers", title: "Same heatwave, different barriers", label: "who heat hits hardest", video: "media/films/same-heatwave-different-barriers.mp4", length: "0:48",
+    text: "Two neighbours in a farming village face the same heatwave: a woman farming rainfed land and an older man who uses a wheelchair. Four questions show where their routes to safety split, and what each needs to reach the same outcome: livelihood security and dignity. The people are illustrative composites.",
+    back: { label: "See who heat hits hardest", act: "at-risk" } },
   { id: "gaps", title: "Where the gaps may be", label: "the heat network", video: "media/films/heat-network-gaps.mp4", length: "0:47",
     text: "When this film was made, 136 organisations on our list worked on heat, crowding onto worker protection and health, and five loops had nobody listed. A low count shows a gap in this directory’s coverage, not proof that nobody is working on it.",
     back: { label: "Back to the heat network", act: "network" } },
