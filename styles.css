@@ -958,6 +958,17 @@ button { font: inherit; color: inherit; }
 .film__frame video { display: block; width: 100%; height: 100%; background: #000; }
 .film__end { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 10px; padding: 20px; background: rgba(22,32,43,.94); text-align: center; }
 .film__end[hidden] { display: none; }
+/* The film's end card: fades up from the last frame into the title's breathing web */
+.film__end--web { background: var(--canvas); color: var(--ink); animation: film-end-in 1.4s ease-out both; }
+@keyframes film-end-in { from { opacity: 0; } to { opacity: 1; } }
+.film__end--web > :not(.film__end-web) { position: relative; z-index: 1; }
+.film__end-web { position: absolute; inset: 0; z-index: 0; pointer-events: none; }
+.film__frame .film__end-web video { width: 100%; height: 100%; object-fit: cover; background: var(--canvas); }
+.film__end-web::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to right, rgba(250,247,242,.15) 0%, rgba(250,247,242,.94) 18%, rgba(250,247,242,.94) 82%, rgba(250,247,242,.15) 100%); }
+.film__end--web .film__end-k { color: #B81F33; }
+.film__end--web .btn--film-ghost { border-color: var(--ink); color: var(--ink); }
+.film__end--web .btn--film-ghost:hover { background: var(--ink); color: var(--canvas); }
+.film__end.film__end--web .link { color: var(--ink); }
 .film__end-k { font-size: .75rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: var(--amber); }
 .film__end-h { font-family: var(--font-display); font-size: clamp(1.6rem, 4vw, 2.8rem); line-height: 1.05; text-transform: uppercase; }
 .film__end-actions { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 10px 14px; margin-top: 8px; }
@@ -966,7 +977,14 @@ button { font: inherit; color: inherit; }
 .btn--film-ghost:hover { background: var(--canvas); color: var(--ink); }
 .film__note { margin-top: 10px; font-size: .8rem; color: rgba(250,247,242,.72); }
 body.film-open { overflow: hidden; }
-@media (max-width: 560px) { .film__end-h { font-size: 1.4rem; } .film__end .btn { min-height: 46px; padding: 10px 16px; font-size: .95rem; } }
+@media (max-width: 560px) {
+  /* the 16:9 frame is short on a phone: keep the end card's headline and actions inside it */
+  .film__end { gap: 6px; padding: 10px; }
+  .film__end-k { display: none; }
+  .film__end-h { font-size: 1.15rem; }
+  .film__end-actions { gap: 6px 10px; margin-top: 2px; }
+  .film__end .btn { min-height: 40px; padding: 8px 14px; font-size: .9rem; }
+}
 
 /* ---------- glossary explainers ---------- */
 .gloss-watch {
