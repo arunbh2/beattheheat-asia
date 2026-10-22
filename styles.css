@@ -585,7 +585,6 @@ button { font: inherit; color: inherit; }
 
 /* ---------- 6. Text version ---------- */
 .text-version { padding: clamp(56px, 8vw, 96px) 0; }
-.text-version__intro { margin-top: 10px; color: var(--grey-700); }
 .web-list { margin-top: 28px; border-top: 2px solid var(--ink); }
 .sys { border-bottom: 1px solid var(--line); }
 .sys summary {
