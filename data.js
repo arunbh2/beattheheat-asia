@@ -54,6 +54,12 @@ const CONSEQUENCES = [
     desc: "Ocean heatwaves bleach coral and drive fish away from the waters people depend on." },
   { id: "biodiversity", sys: "nature", label: "Biodiversity\nloss",
     desc: "Species that can’t move or adapt fast enough decline, weakening pollination, soils and fisheries." },
+  { id: "wildlife", sys: "nature", label: "Wildlife moves into\nfarms and villages",
+    desc: "As water and forage dry up, animals leave forests for farms and villages. Crops are raided, people and animals are hurt, hunting for food rises, and closer contact raises the risk of diseases passing from animals to people. In Assam, villagers have grown paddy just for wild elephants, so the herds leave the main harvest alone.",
+    sources: [
+      { label: "Abrahms et al., Nature Climate Change, 2023: climate change amplifies human–wildlife conflict", url: "https://doi.org/10.1038/s41558-023-01608-5" },
+      { label: "Mongabay India, 2023: Assam farmers grow paddy for wild elephants", url: "https://india.mongabay.com/2023/09/video-farmers-grow-paddy-for-wild-elephants-in-assam-to-reduce-conflicts/" },
+      { label: "Tamil Nadu State Planning Commission, Beating the Heat: Tamil Nadu Heat Mitigation Strategy, 2024", url: "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf" } ] },
 
   /* Food and agriculture */
   { id: "harvests", sys: "food", label: "Failing\nharvests",
@@ -236,6 +242,11 @@ const LINKS = [
   ["glacier", "hydro", "Less meltwater reaches the dams."],
   ["marine", "fisheries", "Fish move away from warming water, and dying reefs support fewer of them."],
   ["biodiversity", "harvests", "Fewer pollinators and natural pest-eaters mean lower yields."],
+  ["droughts", "wildlife", "Animals leave parched forests in search of water and food."],
+  ["forest", "wildlife", "Dying forests offer less food and shelter, pushing animals out."],
+  ["wildlife", "harvests", "Elephants, wild boar and other animals raid crops."],
+  ["wildlife", "infectious", "Closer contact between people, livestock and wild animals raises the risk of diseases crossing over."],
+  ["wildlife", "injuries", "Encounters injure and kill people and animals."],
   ["drysoil", "heat", "Dry soil can’t cool itself by evaporation, so more of the sun’s energy becomes heat.", "loop"],
   ["glacier", "heat", "Melting snow and ice expose darker ground and water, which absorb more sunlight.", "loop"],
   ["wildfires", "heat", "Fires release carbon and strip away tree cover that shades and cools the land.", "loop"],
@@ -352,6 +363,7 @@ const LINKS = [
   /* education */
   ["schoolclose", "learning", "Lost school days mean lost learning."],
   ["schoolclose", "care", "Children at home need someone to look after them."],
+  ["schoolclose", "hunger", "Children who rely on school meals go without them when schools shut."],
   ["learning", "youth", "Lost learning becomes lower earnings later."],
   ["dropout", "youth", "Leaving school early limits a whole life’s options."],
   ["youth", "inequality", "Gaps in learning become gaps in income."],
@@ -518,7 +530,9 @@ const LEVERS = [
       { by: "Global Heat Health Information Network (GHHIN)", title: "Heat in the city: guidance and resources for urban heat", url: "https://heathealth.info/in-the-city/" } ] },
   { id: "greencity", spread: "spreading", edge: ["uhi", "demand"], title: "Green, cool cities", who: ["city", "community"], when: "years", measure: "Tree canopy and shaded street length in hotspot wards",
     text: "Trees, water, cool roofs and cool pavements lower city temperatures and flatten peak demand.",
-    example: "Indian cities and states such as Ahmedabad and Telangana have run programmes that paint roofs to reflect sunlight.",
+    example: "Indian cities and states such as Ahmedabad and Telangana have run programmes that paint roofs to reflect sunlight. The Green Tamil Nadu Mission aims to raise the state’s forest and tree cover from 23.8% to 33% of its land by 2030–31.",
+    exampleSources: [
+      { label: "Tamil Nadu Pollution Control Board, G.O. 215, 2023: the Green Tamil Nadu Mission target", url: "https://tnpcb.gov.in/PDF/About_Us/Announcementgos/GoNo_215_101123.pdf" } ],
     guides: [
       { by: "Zurich Climate Resilience Alliance", title: "Urban heat: resources and partner networks", url: "https://zcralliance.org/resources-urban-heat/" },
       { by: "Global Heat Health Information Network (GHHIN)", title: "Heat in the city: guidance and resources for urban heat", url: "https://heathealth.info/in-the-city/" } ] },
@@ -549,11 +563,18 @@ const LEVERS = [
     guides: [
       { by: "National Centre for Disease Control, Ministry of Health and Family Welfare, India, 2021", title: "National Action Plan on Heat-Related Illness", url: "https://ncdc.mohfw.gov.in/uploads/pdf/heat12.pdf" },
       { by: "National Centre for Disease Control, India", title: "Climate change and health: heat-illness guidelines, emergency cooling guidance and heat stroke units", url: "https://ncdc.mohfw.gov.in/includes/About/CentresAndDivision/CEOH.php" },
-      { by: "Council on Energy, Environment and Water (CEEW), for the GHHIN South Asia hub, 2026", title: "India in a Warming World: Strengthening Heat-Health Action", url: "https://www.ceew.in/publications/india-heat-health-action" } ] },
+      { by: "Council on Energy, Environment and Water (CEEW), for the GHHIN South Asia hub, 2026", title: "India in a Warming World: Strengthening Heat-Health Action", url: "https://www.ceew.in/publications/india-heat-health-action" } ],
+    example: "On Assam’s Brahmaputra river islands, boat clinics run by C-NES with the National Health Mission switched from diesel to solar power, so lights, fans and vaccine fridges keep working and emergencies can be seen after dark. Tamil Nadu’s heat strategy proposes a simple step for mothers: screen for heat risk in the check-ups of the state’s pregnancy scheme, which has run in various forms since 1987.",
+    exampleSources: [
+      { label: "Thomson Reuters Foundation, via Eco-Business: Brahmaputra boat clinic goes solar", url: "https://www.eco-business.com/news/brahmaputra-boat-clinic-goes-solar-powering-up-rural-healthcare/" },
+      { label: "Tamil Nadu State Planning Commission, Beating the Heat: Tamil Nadu Heat Mitigation Strategy, 2024", url: "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf" } ] },
 
   { id: "heatrules", edge: ["informal", "heatstroke"], title: "Heat-safe work", who: ["nat", "employers", "workers"], when: "season", measure: "Worksites inspected and keeping rest-break rules",
     text: "Rest, shade and water during dangerous heat, with paid breaks so that stopping work doesn’t mean losing pay.",
-    example: "Several Gulf states ban outdoor work during the hottest midday hours in summer. Since 2023, Spain has required employers to cut or move working hours when the weather agency issues an orange or red heat alert and other measures can’t keep workers safe.",
+    example: "Several Gulf states ban outdoor work during the hottest midday hours in summer. Since 2023, Spain has required employers to cut or move working hours when the weather agency issues an orange or red heat alert and other measures can’t keep workers safe. Tamil Nadu’s heat strategy proposes building heat protection into the state’s existing occupational safety rules, rather than waiting for a new law.",
+    exampleSources: [
+      { label: "Garrigues on Spain’s 2023 decree", url: "https://www.garrigues.com/en_GB/new/spain-high-temperatures-will-mean-employers-must-adopt-preventive-measures-order-protect" },
+      { label: "Tamil Nadu State Planning Commission, Beating the Heat: Tamil Nadu Heat Mitigation Strategy, 2024", url: "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf" } ],
     guides: [
       { by: "WHO and WMO, in the GHHIN resource library", title: "Heat at work: the first joint global guidance on workplace heat stress", url: "https://heathealth.info/at-work/" } ] },
   { id: "heatcash", spread: "early", edge: ["heatstroke", "lost"], title: "Income protection in heatwaves", who: ["insurers", "nat", "workers"], when: "years", measure: "Workers covered, and days from trigger to payout",
@@ -578,11 +599,19 @@ const LEVERS = [
       { by: "Sustainable Energy for All", title: "Chilling Prospects Special: Gender and Access to Cooling", url: "https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-special-gender" } ] },
   { id: "coolhousing", spread: "early", edge: ["migration", "homes"], title: "Cool, affordable housing", who: ["city", "funders", "community"], when: "decade", measure: "Homes fitted with cool roofs or insulation",
     text: "Upgrading informal settlements with ventilation, shade and cool roofs, and planning homes for people who arrive.",
+    example: "Telangana’s Cool Roof Policy 2023–2028, India’s first, makes cool roofs mandatory for many kinds of building and aims to cover about 300 km² of roofs. Tamil Nadu’s heat strategy proposes making a measure of how much heat walls and roofs let in, the residential envelope transmittance value (ReTV) from India’s residential energy code, a condition in tenders for slum redevelopment.",
+    exampleSources: [
+      { label: "NRDC: Telangana announces a groundbreaking cool roof policy", url: "https://www.nrdc.org/bio/prima-madan/telangana-announces-groundbreaking-cool-roof-policy" },
+      { label: "Tamil Nadu State Planning Commission, Beating the Heat: Tamil Nadu Heat Mitigation Strategy, 2024", url: "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf" } ],
     guides: [
       { by: "The Climate Group", title: "Telangana’s cool roof policy: from pilot demonstration to policy", url: "https://www.theclimategroup.org/our-work/publications/telanganas-cool-roof-policy-pilot-demonstration-policy-implementation" },
       { by: "Wellcome", title: "£17.5m for research testing heat adaptations, including a trial of reflective roof coatings with a site in India", url: "https://wellcome.org/insights/articles/wellcome-awards-ps175m-support-global-research-drive" } ] },
   { id: "keepinschool", edge: ["inequality", "dropout"], title: "Keep children in school", who: ["schools", "nat"], when: "season", measure: "Attendance and drop-outs during the heat season",
     text: "Cash transfers, school meals and heat-ready classrooms and timetables keep children learning through hot seasons.",
+    example: "When heat closes schools, children lose more than lessons: consultations for Tamil Nadu’s heat strategy found that long breaks cost children in schools serving marginalised groups their midday meals. India’s school meal scheme can keep serving meals through the summer holidays in areas declared drought-hit, as Odisha did in 27 districts in a year when a forecast heatwave also extended school closures.",
+    exampleSources: [
+      { label: "Tamil Nadu State Planning Commission, Beating the Heat: Tamil Nadu Heat Mitigation Strategy, 2024", url: "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf" },
+      { label: "The Quint: Odisha extends school holidays and keeps midday meals going", url: "https://www.thequint.com/news/hot-news/met-dept-predicts-severe-heatwave-odisha-extends-school-holidays" } ],
     guides: [
       { by: "UNICEF, 2026", title: "Learning Interrupted: global snapshot of climate-related school disruptions", url: "https://www.unicef.org/reports/learning-interrupted" } ] },
   { id: "coolnights", edge: ["sleepless", "mental"], title: "Cool nights and support", who: ["city", "health", "community"], when: "season", measure: "Night-time indoor temperatures in target homes",
@@ -814,7 +843,9 @@ const EVIDENCE = {
     { by: "Salamanca et al., Journal of Geophysical Research, 2014 (summary by Arizona State University)", title: "Excess heat from air conditioners causes higher nighttime temperatures", url: "https://news.asu.edu/content/excess-heat-air-conditioners-causes-higher-nighttime-temperatures",
       finding: "In a Phoenix heatwave, waste heat from air conditioners raised night-time air temperatures by more than 1 °C in parts of the city." },
     { by: "International Energy Agency, 2018", title: "The Future of Cooling", url: "https://www.iea.org/reports/the-future-of-cooling",
-      finding: "China, India and Indonesia are expected to account for half of the world’s air conditioners by 2050." }
+      finding: "China, India and Indonesia are expected to account for half of the world’s air conditioners by 2050." },
+    { by: "Tamil Nadu State Planning Commission, 2024", title: "Beating the Heat: Tamil Nadu Heat Mitigation Strategy", url: "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf",
+      finding: "Chennai’s built-up area more than doubled between 2000 and 2020, and night-time land surface temperatures in its urban areas run about 2 °C higher than on its peri-urban edges." }
   ],
   energywater: [
     { by: "World Resources Institute, 2018", title: "40% of India’s thermal power plants are in water-scarce areas, threatening shutdowns", url: "https://www.wri.org/insights/40-indias-thermal-power-plants-are-water-scarce-areas-threatening-shutdowns",
@@ -866,7 +897,9 @@ const EVIDENCE = {
     { by: "Thompson et al., The Lancet Planetary Health, 2023 (summary by Imperial College London)", title: "Ambient temperature and mental health: a systematic review and meta-analysis", url: "https://www.imperial.ac.uk/news/246058/rising-temperatures-associated-with-poorer-mental/",
       finding: "A review of 114 studies links higher temperatures with poorer mental health, including higher suicide rates." },
     { by: "Council on Energy, Environment and Water (CEEW), 2025", title: "How Extreme Heat is Impacting India: Assessing District-level Heat Risk", url: "https://www.ceew.in/sites/default/files/ceew-how-extreme-heat-is-impacting-india-final-web-file.pdf",
-      finding: "Over the last decade, nearly 70% of India’s districts gained five or more very warm nights each summer, while only about 28% saw a similar rise in very hot days. Mumbai gained 15 very warm nights a summer, and Bengaluru 11." }
+      finding: "Over the last decade, nearly 70% of India’s districts gained five or more very warm nights each summer, while only about 28% saw a similar rise in very hot days. Mumbai gained 15 very warm nights a summer, and Bengaluru 11." },
+    { by: "Tamil Nadu State Planning Commission, 2024", title: "Beating the Heat: Tamil Nadu Heat Mitigation Strategy", url: "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf",
+      finding: "Tamil Nadu’s summer minimum temperatures have risen by about 0.75 °C since the 1980s, and about 56% of its people now live where summer nights are warmer than the 1981–2011 average." }
   ],
   squeeze: [
     { by: "OECD Economics Department, Working Paper No. 1828, 2024", title: "The heat is on: Heat stress, productivity and adaptation among firms", url: "https://doi.org/10.1787/19d94638-en",
@@ -1403,7 +1436,7 @@ const PLAN_GROUPS = [
   { id: "mothers",    name: "Pregnant women, babies and young children", levers: ["readyclinics", "hap", "freecare", "socialprotection"] },
   { id: "disability", name: "People with disabilities",           levers: ["hap", "coolingcentres", "readyclinics", "freecare"] },
   { id: "migrants",   name: "Migrants and other excluded groups", levers: ["coolhousing", "socialprotection", "freecare", "heatrules"] },
-  { id: "city",       name: "A whole city",                       levers: ["hap", "readyclinics", "greencity", "coolbydesign", "heatbudget", "anticipatory", "countdeaths"] }
+  { id: "city",       name: "A whole city or state",              levers: ["hap", "readyclinics", "greencity", "coolbydesign", "heatbudget", "anticipatory", "countdeaths"] }
 ];
 // Who pays for each action. "Not decided yet" is always allowed: a plan can show where money is still missing.
 const PLAN_PAYERS = ["Not decided yet", "Public budget", "Employers", "Philanthropy", "Insurance or a risk pool", "Development finance", "Households and communities", "Not documented"];
@@ -1442,13 +1475,30 @@ const WORKED_EXAMPLES = [
       { label: "Global Heat Health Information Network: Heat Action Plan for Thane City 2024", url: "https://heathealth.info/resources/heat-action-plan-for-thane-city-2024/" },
       { label: "Sattva Consulting, 2025: dedicated funds and vulnerability by gender, age and disability", url: "https://www.sattva.co.in/publication/navigating-indias-urban-heat-landscape-from-challenges-to-driving-action/" }
     ],
-    note: "The plan below is filled in with Thane’s documented measures. Only the heat action plan’s own funding is documented; the rest is marked “Not documented”." }
+    note: "The plan below is filled in with Thane’s documented measures. Only the heat action plan’s own funding is documented; the rest is marked “Not documented”." },
+  { id: "tamilnadu", place: "Tamil Nadu, India", group: "city", year: "2024 onwards",
+    title: "Tamil Nadu’s state-wide heat network",
+    trigger: "About 68% of Tamil Nadu’s people face 8–9 hours a day of strong heat stress from March to June, and 56% live where summer nights are warmer than the 1981–2011 average. The state’s 2019 heatwave action plan dealt mainly with short-term emergency response.",
+    decision: "In 2024 the State Planning Commission, with WRI India as knowledge partner and support from the British High Commission, convened a Heat Action Network of line departments, including disaster management, health, education, agriculture, environment and forests, and water. Together they wrote India’s first state-wide heat strategy, covering people, animals and ecosystems along three pathways: health and well-being, sustained resources and productivity, and cooling. It builds heat into schemes that already exist rather than starting new ones.",
+    result: "It is a strategy, not yet an evaluated programme. Departments are to take its recommendations to detailed project reports, with progress reviewed every 6–8 months. What it shows is a whole state, not one city, giving heat an owner across departments.",
+    actions: [
+      { lever: "hap", lead: "nat", payer: "Not documented", measure: "Departments in the Heat Action Network reporting progress every 6–8 months" },
+      { lever: "readyclinics", lead: "health", payer: "Not documented", measure: "Pregnancy-scheme check-ups that screen for heat risk (proposed)" },
+      { lever: "coolhousing", lead: "city", payer: "Not documented", measure: "Slum redevelopment tenders that set a limit on heat gain through walls and roofs (proposed)" },
+      { lever: "greencity", lead: "nat", payer: "Public budget", measure: "Forest and tree cover rising from 23.8% towards 33% by 2030–31" }
+    ],
+    sources: [
+      { label: "Tamil Nadu State Planning Commission, 2024: Beating the Heat", url: "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf" },
+      { label: "WRI India: mapping the path to heat resilience in Tamil Nadu", url: "https://wri-india.org/perspectives/mapping-path-heat-resilience-tamil-nadu" },
+      { label: "Tamil Nadu Pollution Control Board, G.O. 215, 2023: the tree cover target", url: "https://tnpcb.gov.in/PDF/About_Us/Announcementgos/GoNo_215_101123.pdf" }
+    ],
+    note: "The plan below is filled in with Tamil Nadu’s strategy. Two actions are proposals, not yet in place, and are marked so. Who pays is documented only for the Green Tamil Nadu Mission." }
 ];
 
 // What strong city heat plans include, with documented Indian examples. Shown beside step 1 of “Plan a response”.
 const PLAN_CHECKLIST = [
   { item: "Know who is at risk, ward by ward", eg: "Thane built a ward-level risk index that counts gender, age and disability as well as heat and humidity." },
-  { item: "Set heat thresholds locally", eg: "Uttar Pradesh set heat thresholds for each of its 75 districts." },
+  { item: "Set heat thresholds locally", eg: "Uttar Pradesh set heat thresholds for each of its 75 districts. In a 2023 review, only about 10 of 37 Indian heat plans appeared to do so." },
   { item: "Map the hottest places", eg: "Bhubaneswar and Surat used satellite data to find their hotspots." },
   { item: "Count lost work and wages, not only illness", eg: "Surat analysed indoor and outdoor workers separately, and Bhubaneswar estimated wage losses." },
   { item: "Protect people where they work", eg: "Bhubaneswar built shade at busy traffic junctions, cooling kiosks for traffic staff and other outdoor workers, and solar-powered water kiosks." },
@@ -1458,6 +1508,7 @@ const PLAN_CHECKLIST = [
 ];
 const PLAN_CHECKLIST_SOURCES = [
   { label: "Sattva Consulting, 2025", url: "https://www.sattva.co.in/publication/navigating-indias-urban-heat-landscape-from-challenges-to-driving-action/" },
+  { label: "Centre for Policy Research, 2023", url: "https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/" },
   { label: "CEEW on Thane", url: "https://www.ceew.in/publications/how-can-thane-city-tackle-heatwaves-risks-with-heat-action-plan" },
   { label: "The Statesman on Bhubaneswar", url: "https://www.thestatesman.com/india/bmc-rolls-out-measures-to-shield-citizens-from-heat-wave-1503598967.html" },
   { label: "Garrigues on Spain’s 2023 decree", url: "https://www.garrigues.com/en_GB/new/spain-high-temperatures-will-mean-employers-must-adopt-preventive-measures-order-protect" }
@@ -1510,12 +1561,14 @@ const AT_RISK = [
     source: { label: "Mahadevia et al., 2020, reported in Frontiers in Built Environment, 2022", url: "https://www.frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2022.874751/full" },
     nodes: ["homes", "uhi", "sleepless", "energypoverty"], levers: ["coolhousing", "coolnights", "coolingcentres", "affordablecool"] },
   { id: "workers", name: "Workers in heat-exposed jobs",
-    exposure: "Street vendors, builders, waste pickers, rickshaw and delivery workers, traffic police and sanitation staff in the hottest parts of the city; factory workers beside furnaces in unventilated sheds; then hot, crowded homes at night.",
+    exposure: "Street vendors, builders, salt-pan workers, waste pickers, rickshaw and delivery workers, traffic police and sanitation staff in the hottest parts of the city; factory workers beside furnaces in unventilated sheds; then hot, crowded homes at night.",
     barriers: "No paid leave, contract or savings: stopping work in dangerous heat means losing the day’s income. Fixed shifts leave little room to avoid the hottest hours.",
     fact: "Doctors at two Indian hospitals with heatstroke units said more than 90% of the patients they treated for heat illness in 2024 were outdoor workers: security guards, migrant labourers and street vendors.",
     source: { label: "Context (Thomson Reuters Foundation), 2024", url: "https://www.context.news/climate-risks/ice-baths-and-ventilators-indias-hospitals-adapt-to-killer-heat" },
     more: [{ fact: "In a survey of 721 Delhi street vendors in 2024, 80% saw fewer customers during heatwaves and 49% lost income.",
-      source: { label: "Greenpeace India and National Hawkers Federation, 2024", url: "https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/" } }],
+      source: { label: "Greenpeace India and National Hawkers Federation, 2024", url: "https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/" } },
+      { fact: "In Tamil Nadu, 68% of people face 8–9 hours a day of strong heat stress from March to June, measured by an index that counts humidity, wind and sun as well as temperature.",
+      source: { label: "Tamil Nadu Heat Mitigation Strategy, 2024", url: "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf" } }],
     nodes: ["informal", "lost", "uhi", "heatstroke"], levers: ["heatrules", "heatcash", "socialprotection", "freecare"] },
   { id: "women", name: "Women whose livelihoods are held back by unequal access",
     exposure: "Field, home-based and informal work, fetching water, and cooking in homes that trap heat.",
@@ -1543,8 +1596,10 @@ const AT_RISK = [
     exposure: "Some conditions and common medicines, such as diuretics, interfere with the body’s cooling. Heart, kidney and lung disease and diabetes raise the danger, and heat worsens many mental health conditions.",
     barriers: "Warnings in formats they can’t use, cooling centres they can’t reach, and heat plans that rarely name their needs.",
     nodes: ["mental", "heatstroke", "kidney", "isolation"], levers: ["hap", "coolingcentres", "readyclinics", "freecare"] },
-  { id: "excluded", name: "Migrants and other excluded groups",
-    exposure: "Hot, crowded rented rooms and the hardest outdoor jobs, often in a place where they have few connections.",
+  { id: "excluded", name: "Migrants, prisoners and other excluded groups",
+    exposure: "Hot, crowded rented rooms, cells and the hardest outdoor jobs, often in a place where they have few connections.",
+    fact: "Tamil Nadu’s heat strategy names prisoners, held in concrete buildings with little green space, among the groups heat plans must reach, and proposes cool roofs and trees for its jails.",
+    source: { label: "Tamil Nadu Heat Mitigation Strategy, 2024", url: "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf" },
     barriers: "No local ID, address or language can mean no warnings, clinics, rations or relief. Many migrant workers are not registered under welfare laws, such as construction workers’ boards, so they miss health and safety benefits meant for them. Caste and social identity can decide who is reached first.",
     nodes: ["migration", "homes", "informal", "gbv"], levers: ["coolhousing", "socialprotection", "freecare", "heatrules"] }
 ];
@@ -1556,8 +1611,10 @@ const AT_RISK = [
 const STALLS = [
   { id: "owner", name: "Nobody owns it",
     sign: "Heat sits between health, disaster, labour and urban departments, so no one holds the mandate, the budget line or the blame.",
-    moves: ["Name one lead agency with a legal mandate and a named heat officer", "Run a standing heat committee across departments that meets before the season, not during it", "Tie the heat plan to disaster law so its instructions carry weight"],
-    more: [{ fact: "Plans pay off: across 23 advanced economies, firms lost less productivity to heat after their country adopted a national adaptation plan or strategy.",
+    moves: ["Name one lead agency with a legal mandate and a named heat officer", "Run a standing heat committee across departments that meets before the season, not during it", "Convene a standing network of departments, anchored by the planning and disaster agencies, that reviews progress every six to eight months", "Tie the heat plan to disaster law so its instructions carry weight"],
+    more: [{ fact: "In 2024 Tamil Nadu’s State Planning Commission convened a Heat Action Network of line departments to write a state-wide heat strategy, with progress reviews every 6–8 months.",
+      source: { label: "Tamil Nadu Heat Mitigation Strategy, 2024", url: "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf" } },
+      { fact: "Plans pay off: across 23 advanced economies, firms lost less productivity to heat after their country adopted a national adaptation plan or strategy.",
       source: { label: "OECD Economics Department, 2024", url: "https://doi.org/10.1787/19d94638-en" } }],
     fact: "Most of 37 Indian heat action plans reviewed cite no legal source for their authority, which weakens accountability.",
     source: { label: "Centre for Policy Research, 2023", url: "https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/" },
@@ -1582,7 +1639,9 @@ const STALLS = [
     levers: ["hap", "readyclinics"], loops: ["clinic"] },
   { id: "rules", name: "Rules without teeth",
     sign: "Advice exists, but rest breaks, building codes and cooling standards are voluntary or never inspected.",
-    moves: ["Make heat-safe work rules binding, with inspections in the hot months", "Write cooling into building codes and public purchasing", "Publish what was inspected and what was found"],
+    moves: ["Make heat-safe work rules binding, with inspections in the hot months", "Build heat into rules that already exist, such as state occupational safety rules, instead of waiting for a new law", "Write cooling into building codes and public purchasing", "Publish what was inspected and what was found"],
+    fact: "In a study of 352 workers at seven salt pans in Tamil Nadu, close to 9 in 10 worked above recommended heat limits and none of the salt pans gave regular rest breaks. Workers above the limit had nearly three times the odds of reduced kidney function.",
+    source: { label: "Venugopal et al., Kidney International Reports, 2023", url: "https://doi.org/10.1016/j.ekir.2023.04.011" },
     levers: ["heatrules", "coolbydesign"], loops: ["poverty"] },
   { id: "room", name: "The people at risk aren’t in the room",
     sign: "Plans are made without women, outdoor workers, older people, people with disabilities or migrants, so warnings and shelters miss them.",

@@ -14,7 +14,7 @@ This website is an **interactive systems map** of extreme heat. It shows:
 - **how soon each lever works** (this season, 1–3 years, or a decade or more), and a "Before this summer" package;
 - **a 60-second tour** for first-time visitors;
 - **the heat network**: organisations already working on heat, the levers they pull, and where the gaps may be;
-- **Plan a response**: a workshop tool that turns the map into a one-page plan (who leads, who pays, how you will know it works), with Ahmedabad’s heat action plan as a worked example;
+- **Plan a response**: a workshop tool that turns the map into a one-page plan (who leads, who pays, how you will know it works), with Ahmedabad, Thane and Tamil Nadu as worked examples;
 - **a plain-language glossary**: 25 terms in five groups near the bottom of the page; across the site, these words are underlined with dots and tapping one explains it.
 
 Visitors can drag and zoom the map, tap any dot, follow a ripple, walk through any vicious cycle, and choose an institution to see which loops it can help break.
@@ -102,6 +102,8 @@ The site uses a "heat-risk" palette. Each colour has one job:
 | Warm sand `#F6E7D7` and off-white `#FAF7F2` | Calm backgrounds |
 
 The ten systems use quiet, muted tones (set in part 1 of `data.js`), so the meaningful colours stand out. A crowded system can get more room: `space: 2` widens its slice of the wheel, `rings: 3` spreads its consequences over three rings, and `labelAt: "above"` on a consequence (part 2) puts its name above the dot instead of below.
+
+Evidence links: a consequence (part 2) can carry `sources: [{ label, url }]`, shown as “Evidence” under its description, and a lever (part 6) with an `example` can carry `exampleSources: [{ label, url }]`, shown under the example. Only add sources you have opened and checked.
 
 ---
 
