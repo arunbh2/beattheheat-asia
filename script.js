@@ -147,7 +147,6 @@
   const ORGS = typeof ORGANISATIONS !== "undefined" ? ORGANISATIONS : [];
   const orgsForLever = id => ORGS.filter(o => o.levers.includes(id));
   const orgsForLoop = l => ORGS.filter(o => o.levers.some(v => l.levers.includes(v)));
-  const tellUs = `<a class="missing-link" href="https://www.linkedin.com/in/arunabhabhattacharya" target="_blank" rel="noopener author">Tell us<span class="visually-hidden"> (opens LinkedIn in a new tab)</span> <span aria-hidden="true">→</span></a>`;
 
   // plain-language glossary: explain technical terms where they appear
   const GLOSS = (typeof GLOSSARY !== "undefined" ? GLOSSARY : []).map(g => Object.assign({ re: new RegExp("\\b(" + g.match.replace(/[-]/g, "\\$&") + ")(s|es)?\\b", "i") }, g));
@@ -865,7 +864,7 @@
       <h3 class="panel__h">Already working on it</h3>
       ${orgsForLever(v.id).length ? `<ul class="org-mini">${orgsForLever(v.id).slice(0, 5).map(o => `<li>${extLink(o.url, o.name)}<p>${gloss(o.does)}</p></li>`).join("")}</ul>
         ${orgsForLever(v.id).length > 5 ? `<button class="link" data-act="orgs-lever" data-id="${v.id}">See all ${orgsForLever(v.id).length} in the heat network →</button>` : ""}`
-        : `<p class="panel__note">No organisation on our list is working on this lever yet. Know one? ${tellUs}</p>`}
+        : `<p class="panel__note">No organisation on our list is working on this lever yet.</p>`}
       ${v.guides ? `<h3 class="panel__h">Practical guides</h3><ul class="org-mini">${v.guides.map(g => `<li>${extLink(g.url, g.title)}<p>${esc(g.by)}</p></li>`).join("")}</ul>` : ""}
       <p class="panel__note">How well does this kind of action work, and at what cost? See ${extLink("https://wmo.int/node/39067", "What Works Against Heat")}.</p>
       <h3 class="panel__h">Cuts the link</h3>
