@@ -445,7 +445,7 @@ const LOOPS = [
   { id: "sleep", group: "people", name: "The sleepless-nights loop", evidence: "established", video: "media/loops/sleep.mp4", length: "0:45",
     path: ["sleepless", "mental"],
     summary: "Hot nights wreck sleep. Poor sleep frays mental health, and stress makes sleep harder still." },
-  { id: "squeeze", group: "people", name: "The heat credit squeeze", evidence: "emerging",
+  { id: "squeeze", group: "people", name: "The heat credit squeeze", evidence: "emerging", video: "media/loops/squeeze.mp4", length: "0:53",
     path: ["business", "repayments", "credit"],
     summary: "Heat empties shops and small firms miss repayments. Banks tighten credit, so firms can’t afford to adapt, and the next heatwave hits harder." },
   { id: "farmdebt", group: "people", name: "The farm-debt loop", evidence: "emerging", video: "media/loops/farmdebt.mp4", length: "0:47",
