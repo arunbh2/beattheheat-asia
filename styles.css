@@ -978,3 +978,5 @@ body.film-open { overflow: hidden; }
 .panel .watch-btn { margin: 4px 0 10px; }
 .gaps__film:empty { display: none; }
 .gaps__film .watch-btn { margin: 4px 0 8px; }
+.section-film:empty { display: none; }
+.section-film .watch-btn { margin-top: 18px; }

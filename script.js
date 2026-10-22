@@ -1658,6 +1658,7 @@
     });
     showOrgs();
     const gf = document.getElementById("gaps-film"); if (gf) gf.innerHTML = watchButton("film:gaps", "Watch: where the gaps may be");
+    const mf = document.getElementById("method-film"); if (mf) mf.innerHTML = watchButton("film:method", "Watch: how this map works");
     const ranked = LOOPS.map(l => ({ l, n: orgsForLoop(l).length })).sort((a, b) => a.n - b.n);
     const max = Math.max(...ranked.map(x => x.n), 1);
     gaps.innerHTML = ranked.map(({ l, n }) => `
