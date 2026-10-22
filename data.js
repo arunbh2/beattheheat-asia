@@ -491,9 +491,11 @@ const INSTITUTIONS = [
 // when: how soon it can start working. "season" = this season, "years" = 1–3 years, "decade" = a decade or more.
 const LEVERS = [
   { id: "emissions", edge: ["heat", "nature"], title: "Deep emission cuts", who: ["nat", "intl", "funders"], when: "decade", measure: "Emissions cut against the national target",
-    text: "Every fraction of a degree avoided weakens every loop that runs through land, ice and forests at once.",
+    text: "Every fraction of a degree avoided weakens every loop that runs through land, ice and forests at once. It also keeps more places within the limits to adaptation, where protecting people still works.",
+    example: "Across 2.7 million firms in 23 advanced economies, places used to heat coped better with days of 30–35\u00a0°C, but none had adapted to days above 40\u00a0°C. Each degree avoided keeps more days below that line.",
     guides: [
-      { by: "Intergovernmental Panel on Climate Change, 2023", title: "AR6 Synthesis Report: Climate Change 2023", url: "https://www.ipcc.ch/report/ar6/syr/" } ] },
+      { by: "Intergovernmental Panel on Climate Change, 2023", title: "AR6 Synthesis Report: Climate Change 2023", url: "https://www.ipcc.ch/report/ar6/syr/" },
+      { by: "OECD Economics Department, 2024", title: "The heat is on: Heat stress, productivity and adaptation among firms", url: "https://doi.org/10.1787/19d94638-en" } ] },
   { id: "cleancool", spread: "spreading", edge: ["demand", "emissions"], title: "Clean, efficient cooling", who: ["nat", "utilities", "intl"], when: "years", measure: "Share of new air conditioners meeting efficiency standards",
     text: "Efficient appliances, clean power and low-warming refrigerants break the link between keeping cool and heating the planet.",
     example: "The Kigali Amendment to the Montreal Protocol (2016) commits countries to phase down the most climate-warming refrigerants.",
