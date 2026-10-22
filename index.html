@@ -32,7 +32,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap">
 
-  <link rel="stylesheet" href="styles.css?v=48">
+  <link rel="stylesheet" href="styles.css?v=51">
 
   <script type="application/ld+json">
   {
@@ -67,8 +67,8 @@
     }
   }
   </script>
-  <script src="data.js?v=48" defer></script>
-  <script src="script.js?v=48" defer></script>
+  <script src="data.js?v=51" defer></script>
+  <script src="script.js?v=51" defer></script>
 </head>
 
 <body>
@@ -257,10 +257,21 @@
 
     <!-- ============ WHO HEAT HITS HARDEST (groups come from part 17 of data.js) ============ -->
     <section class="atrisk" id="at-risk" aria-labelledby="atrisk-title">
+      <!-- A woman carrying water across rainfed fields. AI-generated, illustrative. Started by script.js. -->
+      <div class="sec-scene sec-scene--field" aria-hidden="true">
+        <video class="sec-scene__video" id="field-video" muted loop playsinline preload="none" data-poster="media/atrisk/field.jpg" tabindex="-1">
+          <source src="media/atrisk/field.mp4" type="video/mp4">
+          <source src="media/atrisk/field.webm" type="video/webm">
+        </video>
+      </div>
+      <button type="button" class="scene-pause" id="field-pause" aria-pressed="false" hidden><span class="intro__pause-icon" aria-hidden="true"></span><span class="visually-hidden">Pause background footage</span></button>
+      <p class="scene-note">AI-generated footage, illustrative: a rainfed field before the monsoon</p>
+
       <div class="container">
         <p class="eyebrow">Who heat hits hardest</p>
         <h2 id="atrisk-title" class="h2">Same heatwave.<br>Different barriers.</h2>
         <p class="loops__intro">Heat is not only a city problem. It reaches farms that depend on rain, coasts and riverbanks, and villages far from any clinic. Who is harmed depends on two things together: how exposed people are, and what stands between them and safety. Age, gender, disability, social identity, insecure tenure and unpaid care shape four questions.</p>
+        <div id="barriers-film" class="section-film"></div>
         <ol id="atrisk-barriers" class="atrisk__barriers"></ol>
         <div id="atrisk-list" class="atrisk__list"></div>
         <p class="atrisk__close">People in the same community may need different routes to the same outcome: <strong>livelihood security and dignity.</strong></p>
@@ -321,6 +332,16 @@
 
     <!-- ============ THE HEAT NETWORK ============ -->
     <section class="network" id="network" aria-labelledby="network-title">
+      <!-- A public drinking-water point in a market. AI-generated, illustrative. Started by script.js. -->
+      <div class="sec-scene sec-scene--water" aria-hidden="true">
+        <video class="sec-scene__video" id="water-video" muted loop playsinline preload="none" data-poster="media/network/water.jpg" tabindex="-1">
+          <source src="media/network/water.mp4" type="video/mp4">
+          <source src="media/network/water.webm" type="video/webm">
+        </video>
+      </div>
+      <button type="button" class="scene-pause" id="water-pause" aria-pressed="false" hidden><span class="intro__pause-icon" aria-hidden="true"></span><span class="visually-hidden">Pause background footage</span></button>
+      <p class="scene-note">AI-generated footage, illustrative: a public drinking-water point</p>
+
       <div class="container">
         <p class="eyebrow eyebrow--break">The heat network</p>
         <h2 id="network-title" class="h2">Who is already<br>pulling the levers.</h2>
@@ -396,6 +417,16 @@
 
     <!-- ============ 6. CLOSING ============ -->
     <section class="closing">
+      <!-- Neem leaves and rooftops in warm morning light. AI-generated, illustrative. Started by script.js. -->
+      <div class="sec-scene sec-scene--sand" aria-hidden="true">
+        <video class="sec-scene__video" id="closing-video" muted loop playsinline preload="none" data-poster="media/closing/rooftops.jpg" tabindex="-1">
+          <source src="media/closing/rooftops.mp4" type="video/mp4">
+          <source src="media/closing/rooftops.webm" type="video/webm">
+        </video>
+      </div>
+      <button type="button" class="scene-pause" id="closing-pause" aria-pressed="false" hidden><span class="intro__pause-icon" aria-hidden="true"></span><span class="visually-hidden">Pause background footage</span></button>
+      <p class="scene-note">AI-generated footage, illustrative: morning over the rooftops</p>
+
       <div class="container">
         <p class="closing__line">Pull one thread<br>and the whole web moves.</p>
         <p class="closing__sub">Cut the right one, in the right institution, and whole loops stop.</p>

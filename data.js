@@ -740,10 +740,12 @@ const HEATWAVE_DAY = [
     fact: "Hot nights are dangerous because the body never gets the chance to recover from the day. Sleep-tracker data from 68 countries shows people sleep about 14 minutes less on nights above 30 °C, with bigger losses for older people and in lower-income countries.",
     source: { label: "Minor et al., One Earth, 2022", url: "https://orbit.dtu.dk/en/publications/rising-temperatures-erode-human-sleep-globally/" },
     loops: ["sleep", "energypoverty"], levers: ["coolnights", "affordablecool", "coolhousing"] },
-  { time: "09:00", video: "media/day/0900.mp4", length: "0:28", title: "Stop, or get paid",
-    who: "A construction worker in Delhi",
-    text: "By mid-morning the site is dangerously hot. Resting in the shade means losing part of the day’s wage, so he keeps carrying.",
-    loops: ["poverty"], levers: ["heatrules", "heatcash"] },
+  { time: "09:00", video: "media/day/0900.mp4", length: "0:26", title: "The field can’t wait",
+    who: "A woman farming rainfed land in Marathwada",
+    text: "The monsoon is late, and by mid-morning her seedlings are wilting. The seed was bought on credit, so if this crop fails the debt grows. She keeps working the field through the heat.",
+    fact: "Heat does not land equally even within farming villages. Rural households headed by women lose about 8% more of their income to heat stress than households headed by men.",
+    source: { label: "FAO, The Unjust Climate, 2024", url: "https://www.fao.org/newsroom/detail/fao-report--heatwaves-and-floods-affect-rural-women-and-men-differently--widen-income-gap" },
+    loops: ["farmdebt", "soil"], levers: ["farmcredit", "soilwater", "socialprotection"] },
   { time: "12:00", video: "media/day/1200.mp4", length: "0:27", title: "School closes",
     who: "A girl in rural Bangladesh",
     text: "Her school shuts for the heat again. At home she fetches water and looks after her younger brothers, and after weeks like this her family starts to wonder whether she should go back at all.",
@@ -1271,6 +1273,9 @@ const WORKED_EXAMPLES = [
 /* ---------- 16. SECTION FILMS ---------- */
 // Short films that open a section of the page. video: the file in media/films/ (with a .jpg cover of the same name).
 const SECTION_FILMS = [
+  { id: "barriers", title: "Same heatwave, different barriers", label: "who heat hits hardest", video: "media/films/same-heatwave-different-barriers.mp4", length: "0:48",
+    text: "Two neighbours in a farming village face the same heatwave: a woman farming rainfed land and an older man who uses a wheelchair. Four questions show where their routes to safety split, and what each needs to reach the same outcome: livelihood security and dignity. The people are illustrative composites.",
+    back: { label: "See who heat hits hardest", act: "at-risk" } },
   { id: "gaps", title: "Where the gaps may be", label: "the heat network", video: "media/films/heat-network-gaps.mp4", length: "0:47",
     text: "When this film was made, 136 organisations on our list worked on heat, crowding onto worker protection and health, and five loops had nobody listed. A low count shows a gap in this directory’s coverage, not proof that nobody is working on it.",
     back: { label: "Back to the heat network", act: "network" } },

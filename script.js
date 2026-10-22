@@ -65,6 +65,9 @@
   ambientLoop("day-video", "day-pause", "bth-day-paused", "background footage");
   ambientLoop("roofs-video", "roofs-pause", "bth-roofs-paused", "background footage");
   ambientLoop("dusk-video", "dusk-pause", "bth-dusk-paused", "background footage");
+  ambientLoop("field-video", "field-pause", "bth-field-paused", "background footage");
+  ambientLoop("water-video", "water-pause", "bth-water-paused", "background footage");
+  ambientLoop("closing-video", "closing-pause", "bth-closing-paused", "background footage");
   const isDesktop = () => window.matchMedia("(min-width: 1100px)").matches;
   const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const plain = n => n.label.replace(/\n/g, " ");
@@ -1765,6 +1768,7 @@
     showOrgs();
     const gf = document.getElementById("gaps-film"); if (gf) gf.innerHTML = watchButton("film:gaps", "Watch: where the gaps may be");
     const mf = document.getElementById("method-film"); if (mf) mf.innerHTML = watchButton("film:method", "Watch: how this map works");
+    const bf = document.getElementById("barriers-film"); if (bf) bf.innerHTML = watchButton("film:barriers", "Watch: same heatwave, different barriers");
     const ranked = LOOPS.map(l => ({ l, n: orgsForLoop(l).length })).sort((a, b) => a.n - b.n);
     const max = Math.max(...ranked.map(x => x.n), 1);
     gaps.innerHTML = ranked.map(({ l, n }) => `
