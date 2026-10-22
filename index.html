@@ -32,7 +32,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap">
 
-  <link rel="stylesheet" href="styles.css?v=45">
+  <link rel="stylesheet" href="styles.css?v=46">
 
   <script type="application/ld+json">
   {
@@ -67,8 +67,8 @@
     }
   }
   </script>
-  <script src="data.js?v=45" defer></script>
-  <script src="script.js?v=45" defer></script>
+  <script src="data.js?v=46" defer></script>
+  <script src="script.js?v=46" defer></script>
 </head>
 
 <body>
@@ -344,6 +344,15 @@
 
     <!-- ============ 5. WHY "WICKED"? ============ -->
     <section class="wicked" aria-labelledby="wicked-title">
+      <!-- Dusk behind the heading: towers with air conditioners beside low homes. AI-generated, illustrative, muted. Started by script.js. -->
+      <div class="wicked__scene" aria-hidden="true">
+        <video class="wicked__video" id="dusk-video" muted loop playsinline preload="none" data-poster="media/wicked/dusk.jpg" tabindex="-1">
+          <source src="media/wicked/dusk.mp4" type="video/mp4">
+          <source src="media/wicked/dusk.webm" type="video/webm">
+        </video>
+      </div>
+      <button type="button" class="scene-pause scene-pause--dark" id="dusk-pause" aria-pressed="false" hidden><span class="intro__pause-icon" aria-hidden="true"></span><span class="visually-hidden">Pause background footage</span></button>
+      <p class="day__scene-note">AI-generated footage, illustrative: it lands unequally</p>
       <div class="container">
         <p class="eyebrow">Why “wicked”?</p>
         <h2 id="wicked-title" class="h2">No single cause.<br>No single owner.<br>No finish line.</h2>

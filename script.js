@@ -64,6 +64,7 @@
   ambientLoop("intro-video", "intro-pause", "bth-hero-paused", "background animation");
   ambientLoop("day-video", "day-pause", "bth-day-paused", "background footage");
   ambientLoop("roofs-video", "roofs-pause", "bth-roofs-paused", "background footage");
+  ambientLoop("dusk-video", "dusk-pause", "bth-dusk-paused", "background footage");
   const isDesktop = () => window.matchMedia("(min-width: 1100px)").matches;
   const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const plain = n => n.label.replace(/\n/g, " ");
@@ -182,12 +183,15 @@
         n.r = 11 + 3.2 * Math.min(n.loops.length, 5);
         const w = Math.max(...lines.map(l => textWidth(l, "600 13px Inter, Arial"))) + 8;
         n.lw = w; n.lh = lines.length * 15.5 + 4;
-        n.box = { l: -Math.max(w / 2, n.r), r: Math.max(w / 2, n.r), t: -n.r, b: n.r + 4 + lines.length * 15.5 };
+        n.box = n.labelAt === "above"
+          ? { l: -Math.max(w / 2, n.r), r: Math.max(w / 2, n.r), t: -(n.r + 6 + lines.length * 15.5), b: n.r }
+          : { l: -Math.max(w / 2, n.r), r: Math.max(w / 2, n.r), t: -n.r, b: n.r + 4 + lines.length * 15.5 };
       }
     });
 
     // each system gets a slice of the wheel sized by how many consequences it holds
-    const weights = SYSTEMS.map(s => nodes.filter(n => n.kind === "leaf" && n.sys === s.id).length + 3);
+    // (space: optional extra slice for a system with long labels; rings: 3 spreads its dots over three rings)
+    const weights = SYSTEMS.map(s => nodes.filter(n => n.kind === "leaf" && n.sys === s.id).length + 3 + (s.space || 0));
     const total = weights.reduce((a, b) => a + b, 0);
     let acc = -Math.PI / 2 - Math.PI * weights[0] / total;
     SYSTEMS.forEach((s, i) => {
@@ -199,7 +203,7 @@
       d.x = d.ax = Math.cos(theta) * DOMAIN_RING;
       d.y = d.ay = Math.sin(theta) * DOMAIN_RING;
       const leaves = nodes.filter(n => n.kind === "leaf" && n.sys === s.id);
-      const radii = leaves.length > 8 ? [740, 960, 1180] : leaves.length > 4 ? [780, 1060] : [820, 1080];
+      const radii = leaves.length > 8 || s.rings === 3 ? [740, 960, 1180] : leaves.length > 4 ? [780, 1060] : [820, 1080];
       const spread = span * 0.84;
       const rings = radii.map(() => []);
       leaves.forEach((n, j) => rings[j % radii.length].push(n));
@@ -263,6 +267,8 @@
   const gBg = el("g", { class: "bg" }, svg);
   const gEdges = el("g", { class: "edges" }, svg);
   const gNodes = el("g", { class: "nodes" }, svg);
+  // consequence labels live in their own layer above every dot, so no neighbouring dot can cut through a label
+  const gLabels = el("g", { class: "labels", "aria-hidden": "true" }, svg);
   const gLevers = el("g", { class: "levers" }, svg);
 
   function drawBackground() {
@@ -290,7 +296,7 @@
   }
 
   function drawNodes() {
-    gNodes.textContent = "";
+    gNodes.textContent = ""; gLabels.textContent = "";
     nodes.forEach(n => {
       const g = el("g", { class: `node node--${n.kind}`, "data-id": n.id, tabindex: "0", role: "button",
         transform: `translate(${n.x.toFixed(1)} ${n.y.toFixed(1)})`, style: `--c:${n.color}` }, gNodes);
@@ -325,6 +331,22 @@
         n.lines.forEach((line, i) => { el("tspan", { x: 0, dy: i === 0 ? (above ? `${-(L - 1) * 1.15}em` : "1em") : "1.15em" }, t).textContent = line; });
       }
       el("title", {}, g).textContent = plain(n);
+    });
+    // move each consequence label into the label layer, in a group that mirrors its node's classes and style,
+    // so every existing rule (hidden at a distance, dimmed outside a focus, shown on hover or keyboard focus) still applies
+    nodes.forEach(n => {
+      if (n.kind !== "leaf") return;
+      const t = n.g.querySelector(".node__label"); if (!t) return;
+      const lg = el("g", {}, gLabels);
+      const sync = () => { lg.setAttribute("class", n.g.getAttribute("class") + " node--label-only");
+        lg.setAttribute("transform", n.g.getAttribute("transform")); lg.setAttribute("style", n.g.getAttribute("style") || ""); };
+      sync(); lg.appendChild(t);
+      new MutationObserver(sync).observe(n.g, { attributes: true, attributeFilter: ["class", "transform", "style"] });
+      n.g.addEventListener("pointerenter", () => lg.setAttribute("data-hover", ""));
+      n.g.addEventListener("pointerleave", () => lg.removeAttribute("data-hover"));
+      n.g.addEventListener("focus", () => { if (n.g.matches(":focus-visible")) lg.setAttribute("data-kbd", ""); });
+      n.g.addEventListener("blur", () => lg.removeAttribute("data-kbd"));
+      n.lg = lg;
     });
   }
 
@@ -416,7 +438,8 @@
       let show = pr > 0;
       if (show) {
         const hw = n.lw / 2 / k;
-        const box = { l: n.x - hw, r: n.x + hw, t: n.y + n.r, b: n.y + n.r + n.lh / k };
+        const box = n.labelAt === "above" ? { l: n.x - hw, r: n.x + hw, t: n.y - n.r - n.lh / k, b: n.y - n.r }
+          : { l: n.x - hw, r: n.x + hw, t: n.y + n.r, b: n.y + n.r + n.lh / k };
         const pad = 2 / k;
         if (pr < 3 && placed.some(p => box.l < p.r + pad && box.r > p.l - pad && box.t < p.b + pad && box.b > p.t - pad)) show = false;
         if (show) placed.push(box);
