@@ -138,7 +138,8 @@ button { font: inherit; color: inherit; }
 /* ---------- 1. Intro ---------- */
 .intro { padding: clamp(36px, 6vw, 88px) 0 clamp(28px, 4vw, 48px); text-align: center; }
 /* Hero background loop: a quiet web of lines at the edges. The wash keeps the centre calm so text stays crisp. */
-.intro { position: relative; isolation: isolate; overflow: hidden; }
+.intro { position: relative; isolation: isolate; overflow: hidden; overflow: clip; }
+@media (max-width: 560px) { .intro { padding-top: 60px; } } /* room for the pause button above the red label */
 .intro__bg { position: absolute; inset: 0; z-index: -1; pointer-events: none; }
 .intro__video { display: block; width: 100%; height: 100%; object-fit: cover; }
 .intro__bg::after {
@@ -400,7 +401,8 @@ button { font: inherit; color: inherit; }
 .chain span { padding: 2px 10px; border: 1.5px solid var(--red); border-radius: 999px; background: var(--white); }
 .chain i { font-style: normal; color: var(--red); font-weight: 700; }
 
-.network__deeper { max-width: 46rem; margin-top: 14px; font-size: .95rem; color: var(--grey-700); }
+.network__deeper { max-width: 46rem; margin-top: 16px; padding: 14px 18px; border-left: 4px solid var(--teal); background: rgba(31,122,112,.06); border-radius: 0 8px 8px 0; font-size: .95rem; color: var(--grey-700); }
+.network__deeper ul { margin: 8px 0 0; padding-left: 18px; display: grid; gap: 4px; }
 .network__deeper a { color: var(--ink); text-decoration-color: var(--orange); text-underline-offset: 3px; }
 .example { margin-top: 14px; padding: 12px 14px; border-left: 4px solid var(--teal); background: #E8F2F0; font-size: 0.93rem; }
 .cut { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 6px; align-items: baseline; font-weight: 600; }
@@ -492,7 +494,7 @@ button { font: inherit; color: inherit; }
 /* ---------- 3. Where the loops break ---------- */
 .loops { padding: clamp(64px, 9vw, 128px) 0; background: var(--white); border-top: 1px solid var(--line); }
 /* Cool roofs behind the heading: strongest white wash over the text on the left, roofs showing on the right, fading to white */
-.loops { position: relative; isolation: isolate; overflow: hidden; }
+.loops { position: relative; isolation: isolate; overflow: hidden; overflow: clip; }
 .loops__scene { position: absolute; left: 0; right: 0; top: 0; height: clamp(400px, 40vw, 580px); z-index: -1; pointer-events: none; }
 .loops__video { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 60% 50%; }
 .loops__scene::after { content: ""; position: absolute; inset: 0;
@@ -514,6 +516,8 @@ button { font: inherit; color: inherit; }
   padding-bottom: 10px; border-bottom: 2px solid var(--ink);
   font-family: var(--font-display); font-weight: 400; font-size: clamp(1.4rem, 1.1rem + 1vw, 1.9rem); text-transform: uppercase;
 }
+.lgroup__h span { display: inline-block; margin-left: 8px; padding: 3px 10px; border-radius: 999px; background: var(--canvas); vertical-align: middle;
+  font-family: var(--font-body); font-size: .78rem; font-weight: 700; letter-spacing: .04em; text-transform: none; color: var(--grey-500); }
 .lrow { padding: 18px 0 20px; border-bottom: 1px solid var(--line); }
 .lrow__head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; }
 .lrow h4 { font-size: 1.15rem; }
@@ -557,6 +561,7 @@ button { font: inherit; color: inherit; }
 .traits p { margin-top: 10px; color: rgba(250,247,242,.78); max-width: 32rem; }
 @media (min-width: 900px) {
   .traits { grid-template-columns: repeat(4, minmax(0, 1fr)); column-gap: 32px; }
+  .traits h3 { min-height: 2.1em; }
   .traits li { border-top: 2px solid var(--orange); }
 }
 
@@ -737,7 +742,7 @@ button { font: inherit; color: inherit; }
 /* ---------- a day in a heatwave ---------- */
 .day { padding: clamp(64px, 9vw, 120px) 0; background: var(--ink); color: var(--canvas); }
 /* Rooftops behind the heading: darkened so the text stays crisp, fading into the section where the hours begin */
-.day { position: relative; isolation: isolate; overflow: hidden; }
+.day { position: relative; isolation: isolate; overflow: hidden; overflow: clip; }
 .day__scene { position: absolute; left: 0; right: 0; top: 0; height: clamp(440px, 52vw, 720px); z-index: -1; pointer-events: none; }
 .day__video { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 70%; }
 .day__scene::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(22,32,43,.62) 0%, rgba(22,32,43,.72) 55%, var(--ink) 100%); }
