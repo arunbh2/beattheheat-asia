@@ -20,6 +20,35 @@
 
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+  // Site menu: "All sections" opens every section in three chapters; Escape, a click outside or choosing a section closes it.
+  // Links in the bar and the menu mark the section on screen with aria-current.
+  (function siteMenu() {
+    const btn = document.getElementById("menu-btn"), panel = document.getElementById("site-menu");
+    if (!btn || !panel) return;
+    const setOpen = (open, refocus) => {
+      panel.hidden = !open; btn.setAttribute("aria-expanded", String(open));
+      if (open) { const cur = panel.querySelector("a[aria-current]") || panel.querySelector("a"); if (cur) cur.focus({ preventScroll: true }); }
+      else if (refocus) btn.focus({ preventScroll: true });
+    };
+    btn.addEventListener("click", () => setOpen(panel.hidden, false));
+    panel.addEventListener("click", ev => { if (ev.target.closest("a")) setOpen(false, false); });
+    document.addEventListener("keydown", ev => { if (ev.key === "Escape" && !panel.hidden) { ev.stopImmediatePropagation(); setOpen(false, true); } }, true);
+    document.addEventListener("click", ev => { if (!panel.hidden && !panel.contains(ev.target) && !btn.contains(ev.target)) setOpen(false, false); });
+    panel.addEventListener("focusout", ev => { if (!panel.hidden && ev.relatedTarget && !panel.contains(ev.relatedTarget) && ev.relatedTarget !== btn) setOpen(false, false); });
+    // the section whose top has passed 40% of the screen is "here"; above the first one, nothing is
+    const links = [...document.querySelectorAll('.header-nav a[href^="#"], .site-menu a[href^="#"]')];
+    const secs = [...new Set(links.map(a => a.getAttribute("href").slice(1)))].map(id => document.getElementById(id)).filter(Boolean);
+    let current = null, queued = false;
+    const update = () => {
+      queued = false; const line = innerHeight * 0.4; let id = "";
+      secs.forEach(el => { if (el.getBoundingClientRect().top <= line) id = el.id; });
+      if (id === current) return; current = id;
+      links.forEach(a => { if (id && a.getAttribute("href") === "#" + id) a.setAttribute("aria-current", "location"); else a.removeAttribute("aria-current"); });
+    };
+    addEventListener("scroll", () => { if (!queued) { queued = true; requestAnimationFrame(update); } }, { passive: true });
+    addEventListener("resize", update); update();
+  })();
+
   // Background loops (title web, heatwave rooftops, cool roofs). They always play and loop; only the visitor's own
   // pause stops them, and that choice is remembered. Off screen or in a hidden tab they rest and resume by themselves.
   // If a browser refuses to autoplay (e.g. phone low power mode), they start at the visitor's first tap or key press.
