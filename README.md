@@ -91,6 +91,16 @@ Rules that keep the map working:
 - `WHO_ELEMENTS`: WHO/Europe’s eight core elements of a heat-health action plan (2026). The check in step 6 tests the plan against each one; `add` lists actions that fill a gap and `step` points to the step that does.
 - `PLAN_REVIEW` (questions for the after-season review) and `PLAN_WORKSHOP` (who to invite and a 90-minute agenda).
 
+## Cooling options by place (part 20 of `data.js`)
+
+The “Cooling options” section, just before “Plan a response”, shows what to build or change in eight places (homes, outdoor work, schools, markets, waiting areas, heat with waterlogging, greening where water is short, and making it last).
+- `COOL_PLACES`: each place has what it protects, a key caution, a suggested measure, the actions on the map it relates to (`levers`), its options and sourced facts. Each option says what it does, what keeps it working, what to avoid and a rough cost.
+- **Costs** are planning ranges in Indian rupees, taken from a practitioner’s selection workbook and checked against public figures where they exist (`src`). Ranges rated `"low"` confidence are never shown: the card says “get local quotes” instead. Don’t add a cost without a confidence rating.
+- `COOL_TRAPS`, `COOL_EVIDENCE` and `COOL_VALUE`: five traps that waste cooling money, four findings that change the result, and the Guangzhou wetland valuation.
+- `COOL_ASSET_LEVERS`: actions that build or run cooling assets. For these, step 3 of the plan asks who keeps it working after year one, and the summary flags any with no one named.
+- Findings from *Nature-Based Solutions for Cities* (Edward Elgar, 2023, open access, CC BY-NC-ND) are cited, never adapted: quote a fact with its chapter, and don’t copy its tables or figures.
+- “Add these actions to my plan” copies the place’s actions into the plan, with its measure when none has been typed. A link to `#cool-<id>` (for example `#cool-flood`) opens that place.
+
 ## The menu at the top
 
 The bar at the top has a few quick links and an **All sections** button. The button opens every section of the page in three chapters (See the system, Act on it, Go deeper), numbered in page order. Both live in the `<header class="site-header">` at the top of `index.html`. If you add a new section, give it an `id` and add a line for it in the `site-menu` list, in page order. The bar and the menu mark the section on screen as “You are here” by themselves.
