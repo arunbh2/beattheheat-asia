@@ -68,7 +68,7 @@ Open `data.js` on GitHub and click the **pencil icon** (✏️). The file has ei
 12. **EVIDENCE**: the sources behind each vicious cycle, shown under "See the evidence". Each source has `by`, `title`, `url` and `finding`. Only add a source you have opened and checked.
 13. **ORGANISATIONS**: the heat network. Each organisation has a `role` (one of `ORG_ROLES`), a `name`, a `url` showing its heat work, a one-line `does`, and the `levers` its work pulls on. It then appears in the network section (which has a search box and shows 12 at a time) and in those levers' panels, and the "Where the gaps may be" list updates itself. Write "not confirmed" in `does` when an organisation's heat work has not been documented.
 14. **GLOSSARY**: the plain-language glossary. Each term has a `group` (one of `GLOSSARY_GROUPS`), the `term` as shown, a `match` (the words to look for in the map's text; use `|` between alternatives) and a short `text`. The first time a match appears in a piece of text, it becomes tappable. Add `auto: false` to keep a term in the glossary list only. Terms in the group `"extra"` are tappable but not listed.
-15. **PLAN A RESPONSE**: `PLAN_GROUPS` (who a plan protects, and the actions suggested for each), `PLAN_PAYERS` (the “who pays” choices) and `WORKED_EXAMPLES` (real places, with documented actions, results, sources and a `note` on what is and isn’t documented; each needs a “Load the … example” button in `index.html`), and `PLAN_CHECKLIST` (what strong city heat plans include, each with a documented Indian example). Each lever in part 6 also has a `measure`, shown as a hint for “how you will know it is working”.
+15. **PLAN A RESPONSE**: `PLAN_GROUPS` (who a plan protects, and the actions suggested for each), `PLAN_PAYERS` (the “who pays” choices) and `WORKED_EXAMPLES` (real places, with documented actions, results, sources and a `note` on what is and isn’t documented; each needs a “Load the … example” button in `index.html`), and `PLAN_CHECKLIST` (what strong heat plans include, each with a documented example). Each lever in part 6 also has a `measure`, shown as a hint for “how you will know it is working”.
 16. **SECTION_FILMS**: short films that open a section of the page.
 17. **AT_RISK**: the “Who heat hits hardest” section. `AT_RISK_BARRIERS` holds the four questions (who receives the warning, who can move, who can earn, who has a say). Each group in `AT_RISK` has a `name`, what it is `exposure`d to, the `barriers` holding it back, the map dots in `nodes` (ids from part 2), the `levers` that help (ids from part 6), and optionally a `fact` with a `source`.
 18. **STALLS**: the “Why action stalls” section and step 4 of “Plan a response”. Each condition has a `name`, a `sign` (how you can tell it is happening), three `moves` (what has shifted it elsewhere), the `levers` and `loops` it connects to, and optionally a `fact` with a `source` (add more under `more`). Conditions ticked in a plan appear, with their moves, in the printable plan and the copied text.
@@ -82,6 +82,14 @@ Rules that keep the map working:
 - If the map stops appearing after an edit, a comma or quote mark has probably gone missing. Open the file's **History** on GitHub to restore the last working version.
 
 ---
+
+## The planning toolkit (part 19 of `data.js`)
+
+“Plan a response” runs in six steps. Part 19 holds what steps 3, 4 and 6 use:
+- `PLAN_PHASES` and `PLAN_PHASE_DEFAULT`: when each action happens (before the season, from a yellow, orange or red alert, after the season, or all year), with a starting point for every action.
+- `PLAN_TRIGGER_BASES`, `PLAN_LEVELS` and `PLAN_CHANNELS`: what alerts can be based on (each with documented examples and sources), the three alert levels, and the ways warnings reach people (`offline: true` marks those that need no phone).
+- `WHO_ELEMENTS`: WHO/Europe’s eight core elements of a heat-health action plan (2026). The check in step 6 tests the plan against each one; `add` lists actions that fill a gap and `step` points to the step that does.
+- `PLAN_REVIEW` (questions for the after-season review) and `PLAN_WORKSHOP` (who to invite and a 90-minute agenda).
 
 ## The menu at the top
 
