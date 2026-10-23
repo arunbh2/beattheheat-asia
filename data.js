@@ -128,6 +128,16 @@ const CONSEQUENCES = [
     desc: "Heat speeds up the chemistry that forms ground-level ozone, and still, hot air traps pollution and smoke." },
   { id: "publicspace", sys: "cities", label: "Streets and parks\nunusable",
     desc: "Markets, streets and parks become too hot to use in the middle of the day." },
+  { id: "treeloss", sys: "cities", label: "City trees\nand parks die",
+    desc: "Heat, drought and missing upkeep kill street trees and parks just when their shade is needed. Across 164 cities, 56% of urban tree and shrub species already face temperatures beyond those in their natural range, and in hot cities such as New Delhi and Singapore every species studied is at risk.",
+    sources: [
+      { label: "Esperon-Rodriguez et al., Nature Climate Change, 2022: climate change increases global risk to urban forests", url: "https://www.vibrantcitieslab.com/wordpress/wp-content/uploads/2023/08/climate-change-increases-global-risk-to-urban-forests.pdf" },
+      { label: "Hansen et al., chapter 10 in Nature-Based Solutions for Cities, 2023: more than 500 of 870 new trees died in a Berlin park", url: "https://doi.org/10.4337/9781800376762" } ] },
+  { id: "greengap", sys: "cities", label: "Green space\nfollows wealth",
+    desc: "Trees and parks cluster in better-off neighbourhoods, which can pay for them and for the upkeep that keeps them alive, so poorer districts stay hotter.",
+    sources: [
+      { label: "Wolch, Byrne and Newell, Landscape and Urban Planning, 2014: making cities “just green enough”", url: "https://urbansustainability.seas.umich.edu/wp-content/uploads/2014/06/Making-cities-just-green-enough.pdf" },
+      { label: "Hansen et al., chapter 10 in Nature-Based Solutions for Cities, 2023: tree survival tracks municipal budgets in Santiago", url: "https://doi.org/10.4337/9781800376762" } ] },
   { id: "telecom", sys: "cities", label: "Phone and data\nnetworks fail",
     desc: "Overheating equipment and power cuts take down phone masts, networks and data centres." },
 
@@ -196,6 +206,11 @@ const CONSEQUENCES = [
     desc: "Across India, Nepal and Pakistan, each 1\u00a0°C rise in yearly temperature was linked to about 4.5% more violence by husbands and partners. Lost income, stress and crowded hot homes all play a part." },
   { id: "conflict", sys: "society", label: "Conflict over\nwater and land",
     desc: "Where water and pasture shrink, disputes between communities can turn violent." },
+  { id: "greengent", sys: "society", label: "Greening pushes\npeople out",
+    desc: "New parks and greening can raise rents and land prices until the poorer residents they were meant to cool are pushed out, often into hotter, more crowded housing. This is green gentrification. Across 28 North American and European cities, greening in the 1990s and 2000s was followed by gentrification in 17.",
+    sources: [
+      { label: "Anguelovski et al., Nature Communications, 2022: green gentrification in European and North American cities", url: "https://doi.org/10.1038/s41467-022-31572-1" },
+      { label: "Bangkok: a master’s thesis on Pathumwananurak Park, built where the Rong Poon community lived", url: "https://www.researchgate.net/publication/369538102_Green_Gentrification_and_The_Value_of_Urban_Nature_Case_Study_of_Pathumwananurak_Park_Bangkok" } ] },
   { id: "migration", sys: "society", label: "Forced\nmigration",
     desc: "When land, work and water fail, families may be forced to move, often into cities that are hotter still." },
   { id: "gatherings", sys: "society", label: "Mass gatherings\nturn deadly",
@@ -308,6 +323,15 @@ const LINKS = [
   ["uhi", "demand", "A hotter city needs even more cooling.", "loop"],
   ["uhi", "sleepless", "Cities hold their heat overnight."],
   ["homes", "heatstroke", "With no cool place to recover, heat builds up day after day."],
+  ["homes", "inequality", "Hot homes cost sleep, health and earnings, so the gap widens.", "loop"],
+  ["droughts", "treeloss", "Trees with no water or root space die in long dry spells."],
+  ["scarcity", "treeloss", "When water runs short, watering trees and parks is cut first."],
+  ["treeloss", "uhi", "Fewer trees means less shade and less evaporative cooling, so streets heat up.", "loop"],
+  ["uhi", "treeloss", "Hotter streets stress trees further; many city species are already past their heat limits.", "loop"],
+  ["inequality", "greengap", "Better-off districts can pay for trees and parks, and for the upkeep that keeps them alive.", "loop"],
+  ["greengap", "uhi", "Neighbourhoods with little green run hotter."],
+  ["greengap", "greengent", "When greening finally reaches the least green, cheapest districts as a property upgrade, without protection for tenants, rents rise.", "loop"],
+  ["greengent", "homes", "People pushed out often land in hotter, more crowded housing.", "loop"],
   ["homes", "sleepless", "Rooms stay hot all night."],
   ["infrastructure", "transport", "Buckled rails and softened roads slow everything down."],
   ["infrastructure", "budgets", "Repairs drain public budgets."],
@@ -436,6 +460,9 @@ const LOOPS = [
   { id: "pumping", group: "systems", name: "The groundwater loop", evidence: "established", video: "media/loops/pumping.mp4", length: "0:49",
     path: ["scarcity", "irrigation", "groundwater"],
     summary: "Dry fields need more water, so farmers pump harder, aquifers fall and the shortage deepens." },
+  { id: "deadgreen", group: "systems", name: "The dying-green loop", evidence: "emerging",
+    path: ["treeloss", "uhi"],
+    summary: "Heat and drought kill city trees. Without their shade the streets get hotter, and hotter streets kill more trees." },
   { id: "clinic", group: "systems", name: "The overwhelmed-clinic loop", evidence: "emerging", video: "media/loops/clinic.mp4", length: "0:45",
     path: ["heatstroke", "hsys"],
     summary: "Heat illness floods clinics. Overwhelmed clinics treat people later, and more cases become severe." },
@@ -458,6 +485,9 @@ const LOOPS = [
   { id: "sleep", group: "people", name: "The sleepless-nights loop", evidence: "established", video: "media/loops/sleep.mp4", length: "0:45",
     path: ["sleepless", "mental"],
     summary: "Hot nights wreck sleep. Poor sleep frays mental health, and stress makes sleep harder still." },
+  { id: "greendisplace", group: "people", name: "The green-displacement loop", evidence: "emerging",
+    path: ["inequality", "greengap", "greengent", "homes"],
+    summary: "Green space follows wealth. When greening reaches poorer districts without protection, rents rise, residents are pushed into hotter housing, and the gap grows." },
   { id: "squeeze", group: "people", name: "The heat credit squeeze", evidence: "emerging", video: "media/loops/squeeze.mp4", length: "0:53",
     path: ["business", "repayments", "credit"],
     summary: "Heat empties shops and small firms miss repayments. Banks tighten credit, so firms can’t afford to adapt, and the next heatwave hits harder." },
@@ -536,6 +566,21 @@ const LEVERS = [
       { by: "Zurich Climate Resilience Alliance", title: "Urban heat: resources and partner networks", url: "https://zcralliance.org/resources-urban-heat/" },
       { by: "Kabisch, Korn, Stadler and Bonn (eds), Springer, 2017, open access", title: "Nature-Based Solutions to Climate Change Adaptation in Urban Areas", url: "https://doi.org/10.1007/978-3-319-56091-5" },
       { by: "Global Heat Health Information Network (GHHIN)", title: "Heat in the city: guidance and resources for urban heat", url: "https://heathealth.info/in-the-city/" } ] },
+  { id: "keepgreen", edge: ["uhi", "treeloss"], title: "Keep city trees alive", who: ["city", "water", "community"], when: "years", measure: "Trees alive and growing three years after planting, against trees planted",
+    text: "Water, healthy soil, room for roots, heat-hardy species and a running budget for upkeep keep trees alive through hotter, drier summers, so their shade lasts. Looking after existing trees comes before planting new ones.",
+    example: "Berlin wrote a shared “good care” manual for its 12 districts, setting maintenance standards for street trees and green spaces, with drought-resistant species for replanting and a calendar of care. It followed losses such as a park where more than 500 of 870 new trees died within ten years despite watering.",
+    exampleSources: [
+      { label: "Hansen et al., chapter 10 in Nature-Based Solutions for Cities, 2023", url: "https://doi.org/10.4337/9781800376762" } ],
+    guides: [
+      { by: "Esperon-Rodriguez et al., Nature Climate Change, 2022", title: "Climate change increases global risk to urban forests: which city tree species are at risk", url: "https://www.vibrantcitieslab.com/wordpress/wp-content/uploads/2023/08/climate-change-increases-global-risk-to-urban-forests.pdf" } ] },
+  { id: "fairgreen", edge: ["greengap", "greengent"], title: "Green without pushing people out", who: ["city", "nat", "community"], when: "years", measure: "Original residents still living in a greened neighbourhood five years on",
+    text: "Secure tenure, rent safeguards and designing with residents let poorer neighbourhoods gain shade and parks without losing their homes. Small, local greening that is “just green enough” protects people better than flagship projects.",
+    example: "In Bangkok, the Baan Mankong programme of the Community Organizations Development Institute gives canal-side communities subsidies and cheap loans to secure land and rebuild their homes. Along Khlong Lat Phrao, where flood works needed the canal banks, communities planned their own moves and rebuilding instead of being evicted.",
+    exampleSources: [
+      { label: "Christian Science Monitor, 2019: when a city of canals floods, what happens to waterway shantytowns?", url: "https://proof.csmonitor.com/Environment/2019/0703/When-a-city-of-canals-floods-what-happens-to-waterway-shantytowns" } ],
+    guides: [
+      { by: "Wolch, Byrne and Newell, Landscape and Urban Planning, 2014", title: "Urban green space, public health and environmental justice: the challenge of making cities “just green enough”", url: "https://urbansustainability.seas.umich.edu/wp-content/uploads/2014/06/Making-cities-just-green-enough.pdf" },
+      { by: "Urban Waters Learning Network", title: "Greening without gentrification: anti-displacement strategies for parks", url: "https://urbanwaterslearningnetwork.org/wp-content/uploads/2019/09/Parks-Related-Anti-Displacement-Strategies-report-with-appendix.pdf" } ] },
   { id: "drypower", edge: ["scarcity", "thermal"], title: "Power that doesn’t need water", who: ["utilities", "nat"], when: "decade", measure: "Power capacity added that needs little or no water",
     text: "Solar and wind use very little water, and dry cooling protects thermal plants when rivers run low or warm." },
   { id: "pumpbackup", edge: ["power", "scarcity"], title: "Backup power for water", who: ["water", "utilities"], when: "years", measure: "Water pumping stations with backup power",
@@ -702,6 +747,8 @@ const LOOP_PLACES = {
   ice:           "The Hindu Kush Himalaya, whose snow and ice feed rivers such as the Indus, Ganges and Brahmaputra.",
   fire:          "The dry-season burning belt of northern Thailand, Myanmar and Laos, and Indonesia’s peatlands.",
   cooling:       "Dense, high-rise city cores such as Hong Kong, Bangkok and Metro Manila.",
+  deadgreen:     "Hot, fast-growing cities such as New Delhi and Singapore, where every urban tree species studied is at risk from rising heat.",
+  greendisplace: "Riverbanks, canals and old inner-city sites turned into parks, as studied in Bangkok and Seoul.",
   energywater:   "Coal-fired power plants along water-stressed rivers in India.",
   pumping:       "Punjab and Haryana in northwest India, where groundwater tables have been falling for decades.",
   clinic:        "District and city hospitals during South Asia’s pre-monsoon heatwaves.",
@@ -937,6 +984,24 @@ const EVIDENCE = {
       finding: "Over the last decade, nearly 70% of India’s districts gained five or more very warm nights each summer, while only about 28% saw a similar rise in very hot days. Mumbai gained 15 very warm nights a summer, and Bengaluru 11." },
     { by: "Tamil Nadu State Planning Commission, 2024", title: "Beating the Heat: Tamil Nadu Heat Mitigation Strategy", url: "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf",
       finding: "Tamil Nadu’s summer minimum temperatures have risen by about 0.75 °C since the 1980s, and about 56% of its people now live where summer nights are warmer than the 1981–2011 average." }
+  ],
+  deadgreen: [
+    { by: "Esperon-Rodriguez et al., Nature Climate Change, 2022", title: "Climate change increases global risk to urban forests", url: "https://www.vibrantcitieslab.com/wordpress/wp-content/uploads/2023/08/climate-change-increases-global-risk-to-urban-forests.pdf",
+      finding: "Of 3,129 tree and shrub species in 164 cities, 56% already face temperatures beyond those in their natural range, rising to about 76% by 2050 under a mid-range warming scenario. Risk is highest in low-latitude cities such as New Delhi and Singapore." },
+    { by: "Hansen et al., chapter 10 in Nature-Based Solutions for Cities, 2023", title: "Planning and maintaining nature-based solutions: Berlin, Jakarta, Melbourne and Santiago", url: "https://doi.org/10.4337/9781800376762",
+      finding: "Drought stops urban trees from cooling through transpiration. In one Berlin park more than 500 of 870 new trees died within ten years despite watering, and Berlin cut about 44,000 street trees between 2012 and 2019 while planting about 18,000." },
+    { by: "Middel et al., Bulletin of the American Meteorological Society", title: "50 Grades of Shade", url: "https://par.nsf.gov/biblio/10230332-grades-shade",
+      finding: "Tree shade sharply lowers the radiant heat people feel by day, which is the cooling lost when trees die." }
+  ],
+  greendisplace: [
+    { by: "Anguelovski et al., Nature Communications, 2022", title: "Green gentrification in European and North American cities", url: "https://doi.org/10.1038/s41467-022-31572-1",
+      finding: "Across 28 cities in 9 countries, greening in the 1990s and 2000s was strongly linked to gentrification between 2000 and 2016 in 17 of them." },
+    { by: "Wolch, Byrne and Newell, Landscape and Urban Planning, 2014", title: "Urban green space, public health and environmental justice: making cities “just green enough”", url: "https://urbansustainability.seas.umich.edu/wp-content/uploads/2014/06/Making-cities-just-green-enough.pdf",
+      finding: "Green space tends to favour wealthier neighbourhoods, and new parks meant to fix that can raise housing costs and displace the residents they were meant to help. Small, local projects are more likely to reach those who need them." },
+    { by: "Endo, The Developing Economies, 2026", title: "Gentrification, urban informality and displacement in Bangkok", url: "https://onlinelibrary.wiley.com/doi/10.1111/deve.70013",
+      finding: "Fieldwork on how recent gentrification in Bangkok, including green urban renewal, affects the city’s lower-income residents." },
+    { by: "Chapter 3 in Nature-Based Solutions for Cities, 2023", title: "Towards just nature-based solutions for cities", url: "https://doi.org/10.4337/9781800376762",
+      finding: "Nature-based solutions can deepen injustice when benefits flow to some and costs, including displacement, fall on others; procedural, distributional and recognition justice all need attention." }
   ],
   squeeze: [
     { by: "OECD Economics Department, Working Paper No. 1828, 2024", title: "The heat is on: Heat stress, productivity and adaptation among firms", url: "https://doi.org/10.1787/19d94638-en",
@@ -1832,7 +1897,7 @@ const PLAN_PHASES = [
 ];
 // A sensible starting point for each action; planners can change it.
 const PLAN_PHASE_DEFAULT = {
-  emissions: "year", cleancool: "year", soilwater: "year", blackcarbon: "year", firesmart: "before", coolbydesign: "year", greencity: "year",
+  emissions: "year", cleancool: "year", soilwater: "year", blackcarbon: "year", firesmart: "before", coolbydesign: "year", greencity: "year", keepgreen: "year", fairgreen: "year",
   drypower: "year", pumpbackup: "before", irrigate: "year", farmcredit: "before", hap: "yellow", readyclinics: "before", heatrules: "orange",
   heatcash: "red", socialprotection: "before", freecare: "yellow", affordablecool: "before", coolhousing: "year", keepinschool: "orange",
   coolnights: "orange", countdeaths: "after", coolingcentres: "orange", heatbudget: "before", anticipatory: "orange", heatlending: "orange", riskpools: "before"
@@ -1969,7 +2034,7 @@ const COOL_PLACES = [
   { id: "markets", name: "Markets and street vending", protects: "Vendors’ income and stock, customers, and the porters who load and unload in the heat.",
     caution: "Design it with the vendors and protect their place, or the upgrade becomes an eviction.",
     measure: "Vendors with shade and water at their stall, and vendors still trading there a year later",
-    levers: ["heatrules", "greencity", "socialprotection"],
+    levers: ["heatrules", "greencity", "fairgreen", "socialprotection"],
     options: [
       { name: "Shade over stalls and aisles", does: "Nets, fabric or a light frame with climbing plants over the places vendors sit.", keeps: "Storm-proof fixing and someone to replace worn cloth.", avoid: "Shade that blocks fire access or loading.", cost: { low: 300, high: 900, unit: "m² for shade nets", conf: "low-medium" } },
       { name: "Water and rehydration points", does: "Safe drinking water for vendors and customers.", keeps: "A refill and cleaning roster agreed with the market association.", avoid: "Points nobody is responsible for.", cost: { low: 10000, high: 50000, unit: "site", conf: "medium" } },
@@ -1997,7 +2062,7 @@ const COOL_PLACES = [
   { id: "flood", name: "Heat and waterlogging", protects: "Neighbourhoods that bake in summer and flood in the monsoon, and the groundwater both depend on.",
     caution: "Stop sewage and rubbish flowing in, and fund the desilting, before calling it blue-green.",
     measure: "Waterlogging hours after heavy rain, and summer temperature near the site, before and after",
-    levers: ["greencity", "heatbudget"],
+    levers: ["greencity", "fairgreen", "heatbudget"],
     options: [
       { name: "Sponge parks", does: "Small parks shaped to hold, soak up and slowly release stormwater, with plants that cool the area around them.", keeps: "An overflow, mosquito control and desilting before each monsoon.", avoid: "Standing water.", cost: { low: 800000, high: 1700000, unit: "park", conf: "medium", src: { label: "Chennai: 57 sponge parks commissioned for ₹7.67 crore, about ₹13.5 lakh each by our arithmetic", url: "https://swarajyamag.com/amp/story/infrastructure%2Fchennais-transformation-into-sponge-city-gcc-to-set-up-57-sponge-parks-for-flood-prevention" } } },
       { name: "Restored ponds and lakes", does: "Desilted, protected water bodies with planted edges that store floodwater, recharge groundwater and cool their surroundings.", keeps: "Sewage diverted away, and rubbish kept out.", avoid: "Calling a polluted pond a cooling asset.", cost: { low: 3600000, high: 30000000, unit: "pond", conf: "medium", src: { label: "Chennai: one pond restored for ₹36 lakh", url: "https://www.dtnext.in/news/chennai/after-50-years-siva-vishnu-pond-rejuvenated-for-rs-36-lakh-by-chennai-corporation-796892" } } },
@@ -2018,7 +2083,7 @@ const COOL_PLACES = [
   { id: "dry", name: "Greening where water is short", protects: "Trees, soil moisture and groundwater, and the long-term shade they give.",
     caution: "Planting without water, soil care and a survival budget is not adaptation.",
     measure: "Trees alive and growing after three years, against trees planted",
-    levers: ["greencity", "soilwater"],
+    levers: ["keepgreen", "greencity", "soilwater"],
     options: [
       { name: "Care for the trees you have", does: "Better tree pits, mulch, compost and looser soil so existing trees take up water and survive.", keeps: "A yearly care round.", avoid: "Replanting instead of fixing why trees die.", cost: { conf: "low" } },
       { name: "Rainwater for trees", does: "Store runoff from roofs and streets to water trees and gardens through dry spells.", keeps: "Clean tanks and a plan for the dry months.", avoid: "Planting with no water source at all.", cost: { low: 20000, high: 200000, unit: "site", conf: "low-medium" } },
@@ -2113,6 +2178,6 @@ const COOL_READING = [
 ];
 
 // Actions in the plan that build or run physical cooling assets: step 3 asks who keeps them working.
-const COOL_ASSET_LEVERS = ["coolbydesign", "greencity", "coolhousing", "coolingcentres", "soilwater"];
+const COOL_ASSET_LEVERS = ["coolbydesign", "greencity", "coolhousing", "coolingcentres", "soilwater", "keepgreen"];
 
 const COOL_COST_NOTE = "Costs are rough planning ranges in Indian rupees, for early budgeting only. They come from a practitioner’s planning workbook and are not quotes; where a public figure exists, it is linked. Where no range is solid enough to share, the card says so: get local quotes.";
