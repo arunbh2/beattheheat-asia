@@ -2219,3 +2219,26 @@ const LIVE_NOTE = "Live model data, refreshed every 30 minutes. It is not an off
 // Sign up free at https://www.goatcounter.com/signup, choose a code (e.g. "beattheheat" for beattheheat.goatcounter.com)
 // and type it between the quote marks below. Only lowercase letters, numbers and hyphens.
 const SITE_ANALYTICS = { goatcounter: "beattheheat" };
+
+/* ---------- 23. START HERE: what people want to do, an optional role, and the first five minutes ---------- */
+// Roles are the institutions in part 5, so no extra content is needed for each one.
+const START_INTENTS = [
+  { id: "understand", name: "Understand heat as a system", hint: "See how one harm leads to the next, and where the loops form" },
+  { id: "risk", name: "See who’s at risk", hint: "Same heatwave, different barriers" },
+  { id: "plan", name: "Plan a response", hint: "Actions with owners, money and triggers, ready to print" },
+  { id: "partners", name: "Find partners or funding", hint: "Organisations, funders and lenders already at work" }
+];
+// The guided first five minutes: one loop, one group at risk, one place it breaks, then into the plan.
+// go: { loop }, { risk } (an id from part 17), { lever } or { plan } (a group id from part 15).
+const FIRST_FIVE = [
+  { title: "One loop", text: "The poverty–heat trap: people who can’t afford to stop working fall ill, lose income, and can afford to stop even less.", go: { loop: "poverty" } },
+  { title: "One group at risk", text: "Workers in heat-exposed jobs: what they face, what holds them back, and what helps.", go: { risk: "workers" } },
+  { title: "One place it breaks", text: "Heat-safe work: rest, water, shade and working hours that let people stop before they fall ill.", go: { lever: "heatrules" } },
+  { title: "Into the plan", text: "A plan for workers, with the suggested actions ticked. Next: name who leads and who pays.", go: { plan: "workers" } }
+];
+// On phones, each of these sections opens as a short summary with one button. The text is the button's label.
+const SECTION_SUMMARIES = {
+  "loops": "See the cycles and where they break", "day": "Walk through the day", "at-risk": "Meet the groups most at risk",
+  "who-holds": "See who holds the levers", "stalls": "See the seven conditions", "cooling": "Explore cooling options",
+  "network": "Browse the organisations", "wicked": "Read why heat is wicked", "method": "Read how the map works", "glossary": "Open the glossary"
+};

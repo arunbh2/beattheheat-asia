@@ -116,6 +116,12 @@ The “Cooling options” section, just before “Plan a response”, shows what
 
 Visits are counted with [GoatCounter](https://www.goatcounter.com/), which uses no cookies and collects no personal data. `SITE_ANALYTICS.goatcounter` holds the counter’s code; leave it empty (`""`) to switch counting off, and nothing is loaded. As well as page views, `track()` in `script.js` records a few anonymous events, each named for what it counts: films and explainers watched (`watch-…`), plan buttons (`plan-print`, `plan-copy`, `plan-map`), worked examples loaded, forecast checks by city, cooling options added to a plan, and briefs opened. The privacy note in “How this map works” describes this.
 
+## Start here, the first five minutes, and phones (part 23 of `data.js`)
+
+- **Start here** sits just below the title. It asks “What do you want to do?” (`START_INTENTS`), with an optional “Looking at it as” role taken from the institutions in part 5, and shows a three-step path through the site. With a role chosen, the path shows that institution’s actions and cycles, and “Start the plan” adds its actions to “Plan a response” with that institution as the lead. Choices are remembered in the visitor’s browser.
+- **The first five minutes** (`FIRST_FIVE`) is a slim guide bar under the header with four stops: one loop, one group at risk, one place it breaks, then the plan. Each stop’s `go` names a loop, an at-risk group, a lever or a plan group.
+- **Phones only** (760 px wide or less): each section in `SECTION_SUMMARIES` opens as its heading and introduction with one button, whose label is the text given there. Long lists show the first few with a “Show all” button, and “Heat right now” shows the three cities that feel hottest first. Desktop always shows everything. Any link, guide stop or map action that points inside a collapsed section opens it first.
+
 ## Banks, regulators and microfinance
 
 The heat network has a filter for **Banks, regulators and microfinance**: central banks and financial regulators in South and Southeast Asia (Singapore, Thailand, Indonesia, the Philippines, Vietnam, Bangladesh, Nepal and India), the regulators’ network SBFN, and lenders piloting climate-adaptation loans. Each entry says what the rule or programme does today and, where true, that heat is not yet among its triggers. The “Heat-smart lending” lever (part 6) holds the regional examples of disaster-triggered loan relief.
