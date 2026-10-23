@@ -1503,6 +1503,7 @@
   }
   // every short film the player can show: glossary terms, vicious cycles and section films
   const VIDEO_LOOPS = LOOPS.filter(l => l.video);
+  const VIDEO_STALLS = STALL_LIST.filter(x => x.video);
   const VIDEO_HOURS = HEATWAVE_DAY.map((h, i) => Object.assign({ i, id: h.time.replace(":", "") }, h)).filter(h => h.video);
   const SFILMS = typeof SECTION_FILMS !== "undefined" ? SECTION_FILMS : [];
   const filmFor = id => SFILMS.find(f => f.id === id);
@@ -1528,6 +1529,14 @@
         note: `<strong>${esc(h.time)} · ${esc(h.title)}.</strong> ${esc(h.text)} <span class="film__note-meta">${esc(h.who)}: an illustrative composite, not a real person. Captions are part of the picture.</span>`,
         next: next && { key: "day:" + next.id, title: `${next.time} · ${next.title}` }, hash: "watch-day-" + id, endK: "A day in a heatwave",
         back: { label: "See it on the map", act: "hour", id: String(h.i) } };
+    }
+    if (kind === "stall") {
+      const x = VIDEO_STALLS.find(v => v.id === id); if (!x) return null;
+      const next = VIDEO_STALLS[VIDEO_STALLS.indexOf(x) + 1], n = String(STALL_LIST.indexOf(x) + 1).padStart(2, "0");
+      return { key: "stall:" + id, title: x.name, label: "why action stalls", video: x.video, length: x.length,
+        note: `<strong>${n} · ${esc(x.name)}.</strong> ${esc(x.sign)} <span class="film__note-meta">Illustrative. Captions are part of the picture.</span>`,
+        next: next && { key: "stall:" + next.id, title: next.name }, hash: "watch-stall-" + id, endK: "Why action stalls",
+        back: { label: "Back to this card", act: "stall-" + id } };
     }
     if (kind === "film") {
       const f = filmFor(id); if (!f || !f.video) return null;
@@ -1863,6 +1872,7 @@
     const box = document.getElementById("stall-list"); if (!box || !STALL_LIST.length) return;
     box.innerHTML = STALL_LIST.map(x => `<li class="stall" id="stall-${x.id}">
         <h3 class="stall__name">${esc(x.name)}</h3>
+        ${x.video ? watchButton("stall:" + x.id, "Watch") : ""}
         <p class="stall__k">You can tell when</p><p class="stall__sign">${esc(x.sign)}</p>
         <p class="stall__k">What moves it</p><ul class="stall__moves">${x.moves.map(m => `<li>${esc(m)}</li>`).join("")}</ul>
         ${[x.fact ? x : null, ...(x.more || [])].filter(Boolean).map(f => `<p class="stall__fact">${esc(f.fact)} ${extLink(f.source.url, f.source.label)}</p>`).join("")}
@@ -1928,6 +1938,7 @@
     // a shared glossary link opens the explainer ready to play; it never starts with sound by itself
     else if (hash.startsWith("watch-loop-") && loopById[hash.slice(11)]) openExplainer("loop:" + hash.slice(11), null, false);
     else if (hash.startsWith("watch-day-")) openExplainer("day:" + hash.slice(10), null, false);
+    else if (hash.startsWith("watch-stall-")) openExplainer("stall:" + hash.slice(12), null, false);
     else if (hash.startsWith("watch-") && filmFor(hash.slice(6))) openExplainer("film:" + hash.slice(6), null, false);
     else if (hash.startsWith("watch-") && glossById[hash.slice(6)]) openExplainer(hash.slice(6), null, false);
   }
