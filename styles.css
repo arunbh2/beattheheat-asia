@@ -1291,3 +1291,13 @@ body.film-open { overflow: hidden; }
 .cool-value .cool-ev__src { margin-top: 16px; }
 .cool-value a { color: var(--canvas); }
 .cool-opt__src a, .cool-ev__src a, .cool-panel__facts a, .cool-trap .stall__fact a { display: inline-block; padding: 3px 0; }
+.gloss-src { display: block; margin-top: 4px; font-size: .8rem; color: var(--grey-500); }
+.gloss-src a { display: inline-block; padding: 3px 0; color: var(--grey-700); }
+.cool-reading { list-style: none; padding: 0; margin: 14px 0 0; display: grid; gap: 0 28px; }
+@media (min-width: 760px) { .cool-reading { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.cool-reading li { padding: 14px 0 16px; border-top: 1px solid var(--line); }
+.cool-reading li > p:last-child { margin-top: 6px; font-size: .92rem; color: var(--grey-700); }
+.cool-read__t { font-weight: 700; }
+.cool-read__t a { display: inline-block; padding: 3px 0; color: var(--ink); text-decoration-color: var(--orange); text-underline-offset: 3px; }
+.cool-read__by { font-size: .82rem; color: var(--grey-500); }
+.cooling .term { padding-top: 2px; padding-bottom: 2px; }

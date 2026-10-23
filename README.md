@@ -15,7 +15,7 @@ This website is an **interactive systems map** of extreme heat. It shows:
 - **a 60-second tour** for first-time visitors;
 - **the heat network**: organisations already working on heat, the levers they pull, and where the gaps may be;
 - **Plan a response**: a workshop tool that turns the map into a one-page plan (who leads, who pays, how you will know it works), with Ahmedabad, Thane, Tamil Nadu, Singapore and Dhaka as worked examples;
-- **a plain-language glossary**: 25 terms in five groups near the bottom of the page; across the site, these words are underlined with dots and tapping one explains it.
+- **a plain-language glossary**: 39 terms in six groups near the bottom of the page; across the site, these words are underlined with dots and tapping one explains it.
 
 Visitors can drag and zoom the map, tap any dot, follow a ripple, walk through any vicious cycle, and choose an institution to see which loops it can help break.
 
@@ -67,7 +67,7 @@ Open `data.js` on GitHub and click the **pencil icon** (✏️). The file has ei
 11. **HEATWAVE_DAY**: the six moments of "A day in a heatwave". The people are illustrative composites. A moment can also have a `fact` and a `source` (a label and a link).
 12. **EVIDENCE**: the sources behind each vicious cycle, shown under "See the evidence". Each source has `by`, `title`, `url` and `finding`. Only add a source you have opened and checked.
 13. **ORGANISATIONS**: the heat network. Each organisation has a `role` (one of `ORG_ROLES`), a `name`, a `url` showing its heat work, a one-line `does`, and the `levers` its work pulls on. It then appears in the network section (which has a search box and shows 12 at a time) and in those levers' panels, and the "Where the gaps may be" list updates itself. Write "not confirmed" in `does` when an organisation's heat work has not been documented.
-14. **GLOSSARY**: the plain-language glossary. Each term has a `group` (one of `GLOSSARY_GROUPS`), the `term` as shown, a `match` (the words to look for in the map's text; use `|` between alternatives) and a short `text`. The first time a match appears in a piece of text, it becomes tappable. Add `auto: false` to keep a term in the glossary list only. Terms in the group `"extra"` are tappable but not listed.
+14. **GLOSSARY**: the plain-language glossary. Each term has a `group` (one of `GLOSSARY_GROUPS`), the `term` as shown, a `match` (the words to look for in the map's text; use `|` between alternatives) and a short `text`. The first time a match appears in a piece of text, it becomes tappable. Add `auto: false` to keep a term in the glossary list only. Terms in the group `"extra"` are tappable but not listed. A term can also carry a `source` (`{ label, url }`), shown under its explanation; the “Nature in the city” terms cite *Nature-Based Solutions for Cities*.
 15. **PLAN A RESPONSE**: `PLAN_GROUPS` (who a plan protects, and the actions suggested for each), `PLAN_PAYERS` (the “who pays” choices) and `WORKED_EXAMPLES` (real places, with documented actions, results, sources and a `note` on what is and isn’t documented; each needs a “Load the … example” button in `index.html`), and `PLAN_CHECKLIST` (what strong heat plans include, each with a documented example). Each lever in part 6 also has a `measure`, shown as a hint for “how you will know it is working”.
 16. **SECTION_FILMS**: short films that open a section of the page.
 17. **AT_RISK**: the “Who heat hits hardest” section. `AT_RISK_BARRIERS` holds the four questions (who receives the warning, who can move, who can earn, who has a say). Each group in `AT_RISK` has a `name`, what it is `exposure`d to, the `barriers` holding it back, the map dots in `nodes` (ids from part 2), the `levers` that help (ids from part 6), and optionally a `fact` with a `source`.
@@ -99,7 +99,12 @@ The “Cooling options” section, just before “Plan a response”, shows what
 - `COOL_TRAPS`, `COOL_EVIDENCE` and `COOL_VALUE`: five traps that waste cooling money, four findings that change the result, and the Guangzhou wetland valuation.
 - `COOL_ASSET_LEVERS`: actions that build or run cooling assets. For these, step 3 of the plan asks who keeps it working after year one, and the summary flags any with no one named.
 - Findings from *Nature-Based Solutions for Cities* (Edward Elgar, 2023, open access, CC BY-NC-ND) are cited, never adapted: quote a fact with its chapter, and don’t copy its tables or figures.
+- `COOL_READING`: free books and guides found in the book’s reference lists, each checked as open access, shown at the end of the section.
 - “Add these actions to my plan” copies the place’s actions into the plan, with its measure when none has been typed. A link to `#cool-<id>` (for example `#cool-flood`) opens that place.
+
+## Banks, regulators and microfinance
+
+The heat network has a filter for **Banks, regulators and microfinance**: central banks and financial regulators in South and Southeast Asia (Singapore, Thailand, Indonesia, the Philippines, Vietnam, Bangladesh, Nepal and India), the regulators’ network SBFN, and lenders piloting climate-adaptation loans. Each entry says what the rule or programme does today and, where true, that heat is not yet among its triggers. The “Heat-smart lending” lever (part 6) holds the regional examples of disaster-triggered loan relief.
 
 ## The menu at the top
 
