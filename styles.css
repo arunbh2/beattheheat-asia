@@ -1095,11 +1095,11 @@ body.film-open { overflow: hidden; }
 .watch-btn--dark:hover { background: var(--canvas); color: var(--ink); }
 .traits a { color: inherit; text-decoration-color: var(--amber); text-decoration-thickness: 2px; text-underline-offset: 3px; font-weight: 700; }
 
-/* Background footage behind a heading on a light section: atrisk (field), network (water point), closing (rooftops) */
-.atrisk, .network, .closing { position: relative; isolation: isolate; overflow: hidden; overflow: clip; }
+/* Background footage behind a heading on a light section: atrisk (field), network (water point), stalls (office), closing (rooftops) */
+.atrisk, .network, .closing, .stalls { position: relative; isolation: isolate; overflow: hidden; overflow: clip; }
 .sec-scene { position: absolute; left: 0; right: 0; top: 0; height: clamp(400px, 40vw, 580px); z-index: -1; pointer-events: none; }
 .sec-scene__video { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 70% 50%; }
-.sec-scene--field::after, .sec-scene--water::after { content: ""; position: absolute; inset: 0;
+.sec-scene--field::after, .sec-scene--water::after, .sec-scene--office::after { content: ""; position: absolute; inset: 0;
   background: linear-gradient(to right, rgba(255,255,255,.95) 0%, rgba(255,255,255,.92) 52%, rgba(255,255,255,.45) 80%, rgba(255,255,255,.3) 100%),
               linear-gradient(to bottom, rgba(255,255,255,0) 60%, var(--white) 100%); }
 .sec-scene--sand { height: 100%; }
@@ -1107,7 +1107,7 @@ body.film-open { overflow: hidden; }
 .sec-scene--sand::after { content: ""; position: absolute; inset: 0;
   background: radial-gradient(ellipse at 50% 50%, rgba(246,231,215,.9) 0%, rgba(246,231,215,.84) 55%, rgba(246,231,215,.6) 100%); }
 @media (max-width: 720px) {
-  .sec-scene--field::after, .sec-scene--water::after { background: linear-gradient(to bottom, rgba(255,255,255,.91) 0%, rgba(255,255,255,.92) 70%, var(--white) 100%); }
+  .sec-scene--field::after, .sec-scene--water::after, .sec-scene--office::after { background: linear-gradient(to bottom, rgba(255,255,255,.91) 0%, rgba(255,255,255,.92) 70%, var(--white) 100%); }
   .sec-scene--sand::after { background: rgba(246,231,215,.88); }
 }
 

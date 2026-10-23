@@ -32,7 +32,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap">
 
-  <link rel="stylesheet" href="styles.css?v=65">
+  <link rel="stylesheet" href="styles.css?v=66">
 
   <script type="application/ld+json">
   {
@@ -67,8 +67,8 @@
     }
   }
   </script>
-  <script src="data.js?v=65" defer></script>
-  <script src="script.js?v=65" defer></script>
+  <script src="data.js?v=66" defer></script>
+  <script src="script.js?v=66" defer></script>
 </head>
 
 <body>
@@ -288,6 +288,16 @@
 
     <!-- ============ WHY ACTION STALLS (from part 18 of data.js) ============ -->
     <section class="stalls" id="stalls" aria-labelledby="stalls-title">
+      <!-- An empty office: files stacked on a desk, a ceiling fan turning. AI-generated, illustrative, no people. Started by script.js. -->
+      <div class="sec-scene sec-scene--office" aria-hidden="true">
+        <video class="sec-scene__video" id="office-video" muted loop playsinline preload="none" data-poster="media/stalls/office.jpg" tabindex="-1">
+          <source src="media/stalls/office.mp4" type="video/mp4">
+          <source src="media/stalls/office.webm" type="video/webm">
+        </video>
+      </div>
+      <button type="button" class="scene-pause" id="office-pause" aria-pressed="false" hidden><span class="intro__pause-icon" aria-hidden="true"></span><span class="visually-hidden">Pause background footage</span></button>
+      <p class="scene-note">AI-generated footage, illustrative: an empty office with files waiting</p>
+
       <div class="container">
         <p class="eyebrow">Why action stalls</p>
         <h2 id="stalls-title" class="h2">Knowing is not<br>the same as acting.</h2>
