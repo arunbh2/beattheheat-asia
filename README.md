@@ -102,6 +102,16 @@ The “Cooling options” section, just before “Plan a response”, shows what
 - `COOL_READING`: free books and guides found in the book’s reference lists, each checked as open access, shown at the end of the section.
 - “Add these actions to my plan” copies the place’s actions into the plan, with its measure when none has been typed. A link to `#cool-<id>` (for example `#cool-flood`) opens that place.
 
+## Heat right now (part 21 of `data.js`)
+
+“Heat right now” shows live readings for ten cities: Singapore, Bangkok, Hanoi, Manila, Jakarta, Delhi, Dhaka, Kathmandu, Mumbai and Ahmedabad. It shows the current temperature, the feels-like temperature, today’s high and humidity, plus Singapore’s measured wet-bulb globe temperature.
+- **Where the data comes from:** the visitor’s browser fetches it directly from [Open-Meteo](https://open-meteo.com/) (model data, free for non-commercial use, CC BY 4.0, credit shown on the page) and from NEA on data.gov.sg. There is no server and no key.
+- **Caching:** results are kept in the browser for 30 minutes, so the site stays well within Open-Meteo’s fair-use limit of 10,000 requests a day.
+- **When it fails:** if a source can’t be reached, or a reading is more than three hours old, the card says so rather than showing an old number. After a failure the page waits two minutes before trying again.
+- **Never an official warning:** every city links to its national weather service (`warn`). Change a city or its warning link in `LIVE_CITIES`.
+- **The plan check:** step 4 of “Plan a response” can test the alert levels you typed against a city’s seven-day forecast, and lists what each day would switch on. WBGT levels are not tested, because the feed has no WBGT forecast.
+- **If Open-Meteo’s terms change,** or the site becomes commercial, the request in `liveFetch()` in `script.js` is the one place to update.
+
 ## Banks, regulators and microfinance
 
 The heat network has a filter for **Banks, regulators and microfinance**: central banks and financial regulators in South and Southeast Asia (Singapore, Thailand, Indonesia, the Philippines, Vietnam, Bangladesh, Nepal and India), the regulators’ network SBFN, and lenders piloting climate-adaptation loans. Each entry says what the rule or programme does today and, where true, that heat is not yet among its triggers. The “Heat-smart lending” lever (part 6) holds the regional examples of disaster-triggered loan relief.
