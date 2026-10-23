@@ -10,6 +10,26 @@
   const GC = typeof SITE_ANALYTICS !== "undefined" && /^[a-z0-9-]+$/.test(SITE_ANALYTICS.goatcounter || "") ? SITE_ANALYTICS.goatcounter : "";
   if (GC) { const sc = document.createElement("script"); sc.async = true; sc.src = "https://gc.zgo.at/count.js"; sc.dataset.goatcounter = `https://${GC}.goatcounter.com/count`; document.head.appendChild(sc); }
   // a few anonymous events show which tools get used: films watched, plans printed, cities checked
+  // progressive disclosure on phones: whatever scrolls to, or links into, a collapsed section or list opens it first
+  function reveal(el) {
+    for (let n = el; n && n.classList; n = n.parentElement) {
+      if (n.classList.contains("pd-more")) { const l = n.closest(".pd-list"); if (l) showAll(l); }
+      if (n.classList.contains("pd-body")) openSection(n.closest("section"));
+    }
+  }
+  const nativeScroll = Element.prototype.scrollIntoView;
+  Element.prototype.scrollIntoView = function (...args) { reveal(this); return nativeScroll.apply(this, args); };
+  document.addEventListener("click", ev => { const a = ev.target.closest && ev.target.closest('a[href^="#"]'); if (!a) return;
+    const t = document.getElementById(decodeURIComponent(a.hash.slice(1))); if (t) reveal(t); }, true);
+  function openSection(sec) {
+    if (!sec || sec.classList.contains("pd-is-open")) return;
+    sec.classList.add("pd-is-open");
+    const b = sec.querySelector(".pd-open"); if (b) { b.setAttribute("aria-expanded", "true"); b.textContent = "Hide this section"; }
+  }
+  function showAll(list) {
+    list.classList.add("is-all");
+    const b = list.nextElementSibling; if (b && b.classList.contains("pd-all")) b.hidden = true;
+  }
   const track = name => { try { if (GC && window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: name, title: name, event: true }); } catch (e) {} };
 
   const SVGNS = "http://www.w3.org/2000/svg";
@@ -1017,6 +1037,7 @@
       const q = document.getElementById("org-search"), all = document.querySelector('#org-roles [data-role="all"]');
       if (all) all.click();
       if (q) { q.value = leverById[t.dataset.id].title; q.dispatchEvent(new Event("input")); }
+      reveal(document.getElementById("org-list"));
       document.getElementById("network").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" });
       return;
     }
@@ -1033,7 +1054,7 @@
     else if (act === "prev") { state.step--; renderStep(); }
   }
   document.addEventListener("click", ev => {
-    if (ev.target.closest("#panel, #guide, #loops, #web-list, #who-holds, #at-risk, #stalls, #cooling, #network, #breakbar, #day, #path-form, .intro")) handleAction(ev);
+    if (ev.target.closest("#panel, #guide, #loops, #web-list, #start, #who-holds, #at-risk, #stalls, #cooling, #network, #breakbar, #day, #path-form, .intro")) handleAction(ev);
   });
   document.addEventListener("keydown", ev => {
     if (ev.key === "Escape" && (state.selected || state.story || state.inst || state.pkg)) { clearSelection(); fitAll(); }
@@ -2208,7 +2229,10 @@
     const load = () => liveFetch().then(data => {
       const ok = LIVE.filter(c => data.cities[c.id] && liveAge(data.cities[c.id]) < LIVE_STALE);
       const hot = ok.length ? ok.reduce((a, b) => data.cities[b.id].feels > data.cities[a.id].feels ? b : a).id : null;
-      list.innerHTML = LIVE.map(c => card(c, data.cities[c.id], data.wbgt, c.id === hot)).join("");
+      const phone = window.matchMedia("(max-width: 760px)").matches;
+      const order = phone ? LIVE.slice().sort((a, b) => ((data.cities[b.id] || {}).feels ?? -99) - ((data.cities[a.id] || {}).feels ?? -99)) : LIVE;
+      list.innerHTML = order.map(c => card(c, data.cities[c.id], data.wbgt, c.id === hot)).join("");
+      limitList(list, 3, "cities");
       if (status) status.textContent = `Updated ${new Date(data.at).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })} your time.`;
     }, () => { list.innerHTML = LIVE.map(c => card(c, null, null, false)).join(""); if (status) status.textContent = "Live data could not be loaded just now. The official warning links still work."; });
     // fetch only when the section comes near the screen
@@ -2217,6 +2241,141 @@
     else load();
   }
   const clamp01 = x => Math.max(0, Math.min(1, x));
+
+  /* ======================= START HERE ======================= */
+  // what people want to do, an optional role (an institution from part 5), and a short path through the site
+  const INTENTS = typeof START_INTENTS !== "undefined" ? START_INTENTS : [];
+  const START_KEY = "bth-start-v1";
+  let start = { intent: "", role: "" };
+  try { Object.assign(start, JSON.parse(localStorage.getItem(START_KEY) || "{}")); } catch (e) {}
+  const saveStart = () => { try { localStorage.setItem(START_KEY, JSON.stringify(start)); } catch (e) {} };
+  const sLink = (href, text) => `<a class="btn btn--sm btn--ghost" href="${href}">${esc(text)}</a>`;
+  const sBtn = (attrs, text) => `<button type="button" class="btn btn--sm btn--ghost" ${attrs}>${esc(text)}</button>`;
+
+  function startSteps(intent, inst) {
+    const n = inst ? inst.name.toLowerCase() : "";
+    if (intent === "understand") return [
+      ["See the whole web", "Ten systems, every consequence, and how one leads to the next.", sBtn('data-act="tour"', "Take the 60-second tour")],
+      inst ? ["Your part of it", `The cycles that ${n} can help break.`, sBtn(`data-inst="${inst.id}"`, "Show them on the map")]
+           : ["Watch one loop turn", "The poverty–heat trap, step by step.", sBtn('data-story="poverty"', "Follow the loop")],
+      ["Feel a whole day", "Eight hours of one heatwave across Asia.", sLink("#day", "A day in a heatwave")] ];
+    if (intent === "risk") return [
+      ["Meet the people", "Who heat hits hardest, and the barriers that hold them back.", sLink("#at-risk", "Who heat hits hardest")],
+      ["Check today’s heat", "Live readings for ten Asian cities.", sLink("#heat-now", "Heat right now")],
+      inst ? ["What you can do for them", `The actions ${n} can take, and the cycles they cut.`, sBtn(`data-inst="${inst.id}"`, "Show them on the map")]
+           : ["Find what breaks their loops", "Every vicious cycle, and where it can be cut.", sLink("#loops", "Where loops break")] ];
+    if (intent === "plan") return [
+      inst ? ["Start your plan", `${plural(inst.levers.length, "action")} that ${n} can lead, added to your plan in one tap, with ${n} as the lead.`, sBtn(`data-start-plan="${inst.id}"`, "Start the plan")]
+           : ["Start from a real plan", "Load Ahmedabad, Thane, Tamil Nadu, Singapore or Dhaka, then make it your own.", sLink("#plan", "Plan a response")],
+      ["Choose what to build", "Cooling options by place, with what keeps each one working.", sLink("#cooling", "Cooling options")],
+      ["Know what could stop it", "Seven conditions that stall action, and what has moved them.", sLink("#stalls", "Why action stalls")] ];
+    if (intent === "partners") {
+      const orgs = inst ? ORGS.filter(o => o.levers.some(v => inst.levers.includes(v))) : [];
+      return [
+        inst ? ["Already working on your levers", orgs.length ? `${plural(orgs.length, "organisation")}, including ${orgs.slice(0, 3).map(o => o.name).join(", ")}.` : "No organisation on our list yet: a gap worth filling.", sLink("#network", "The heat network")]
+             : ["Browse the heat network", `${ORGS.length} organisations, searchable by lever and type.`, sLink("#network", "The heat network")],
+        ["Funders", "Philanthropy, development banks and climate funds.", sBtn('data-start-net="funders"', "Show funders")],
+        ["Banks, regulators and microfinance", "Disaster loan relief and climate-risk rules across South and Southeast Asia.", sBtn('data-start-net="lending"', "Show lenders and regulators")] ];
+    }
+    return [];
+  }
+
+  function renderStart() {
+    const box = document.getElementById("start-intents"), sel = document.getElementById("start-role"), path = document.getElementById("start-path");
+    if (!box || !INTENTS.length) return;
+    box.innerHTML = INTENTS.map(x => `<button type="button" class="start-i" data-start-intent="${x.id}" aria-pressed="${start.intent === x.id}"><b>${esc(x.name)}</b><span>${esc(x.hint)}</span></button>`).join("");
+    sel.innerHTML = `<option value="">Anyone</option>` + INSTITUTIONS.map(i => `<option value="${i.id}"${start.role === i.id ? " selected" : ""}>${esc(i.name)}</option>`).join("");
+    const inst = instById[start.role];
+    document.querySelectorAll("#inst-list .inst").forEach(b => b.classList.toggle("is-mine", b.dataset.inst === start.role));
+    if (!start.intent) { path.innerHTML = inst ? roleCard(inst) + `<p class="start__hint">Now pick what you want to do.</p>` : `<p class="start__hint">Pick one for a short path through the site. Add a role to tailor it.</p>`; return; }
+    const steps = startSteps(start.intent, inst);
+    path.innerHTML = (inst ? roleCard(inst) : "") + `<ol class="start__steps">${steps.map(([t, d, act]) => `<li><b>${esc(t)}</b><span>${esc(d)}</span>${act}</li>`).join("")}</ol><p class="start__status" data-start-status role="status"></p>`;
+  }
+  function roleCard(inst) {
+    const pb = typeof PLAYBOOKS !== "undefined" && PLAYBOOKS[inst.id];
+    return `<p class="start__rolecard"><b>As ${esc(inst.name.toLowerCase())}:</b> ${plural(inst.levers.length, "action")} that could help break ${inst.loops.size} of ${LOOPS.length} vicious cycles.${pb ? ` ${esc(pb.act)}` : ""}</p>`;
+  }
+  // add an institution's actions to the plan, with that institution as the lead for the ones it adds
+  function startPlanAs(id) {
+    const inst = instById[id]; if (!inst) return 0;
+    let added = 0;
+    inst.levers.forEach(v => { if (!plan.levers.includes(v)) { plan.levers.push(v); planRow(v).lead = id; added++; } });
+    savePlan(); renderPlan(); return added;
+  }
+  (function wireStart() {
+    const sec = document.getElementById("start"); if (!sec) return;
+    sec.addEventListener("click", ev => {
+      const i = ev.target.closest("[data-start-intent]");
+      if (i) { start.intent = start.intent === i.dataset.startIntent ? "" : i.dataset.startIntent; saveStart(); renderStart(); if (start.intent) track("start-" + start.intent); return; }
+      const p = ev.target.closest("[data-start-plan]");
+      if (p) { const n = startPlanAs(p.dataset.startPlan), st = sec.querySelector("[data-start-status]");
+        if (st) st.textContent = n ? `Added ${plural(n, "action")} to your plan.` : "Those actions are already in your plan.";
+        track("start-plan-" + p.dataset.startPlan);
+        document.getElementById("plan-step-3").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" }); return; }
+      const nr = ev.target.closest("[data-start-net]");
+      if (nr) { const chip = document.querySelector(`#org-roles [data-role="${nr.dataset.startNet}"]`); if (chip) chip.click();
+        reveal(document.getElementById("org-list")); document.getElementById("network").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" }); return; }
+      if (ev.target.closest('[data-five="start"]')) { fiveGo(0); return; }
+    });
+    document.getElementById("start-role").addEventListener("change", ev => { start.role = ev.target.value; saveStart(); renderStart(); if (start.role) track("start-role-" + start.role); });
+  })();
+
+  /* ---- the first five minutes: a slim guide bar that walks through four stops ---- */
+  const FIVE = typeof FIRST_FIVE !== "undefined" ? FIRST_FIVE : [];
+  let five = -1;
+  function fiveBar() {
+    let bar = document.getElementById("fivemin");
+    if (!bar) { bar = document.createElement("div"); bar.id = "fivemin"; bar.className = "fivemin"; bar.setAttribute("role", "region"); bar.setAttribute("aria-label", "The first five minutes"); bar.hidden = true; document.body.appendChild(bar);
+      bar.addEventListener("click", ev => { const b = ev.target.closest("[data-five]"); if (!b) return; const k = b.dataset.five;
+        if (k === "next") fiveGo(five + 1); else if (k === "back") fiveGo(five - 1); else if (k === "close") fiveClose(); }); }
+    return bar;
+  }
+  function fiveClose() { const bar = fiveBar(); bar.hidden = true; five = -1; document.body.classList.remove("five-on"); const s = document.querySelector('[data-five="start"]'); if (s) s.focus(); }
+  function fiveGo(i) {
+    const st = FIVE[i]; if (!st) { fiveClose(); return; }
+    five = i; track("five-" + (i + 1));
+    const bar = fiveBar(), last = i === FIVE.length - 1;
+    bar.innerHTML = `<div class="fivemin__in"><p class="fivemin__k">The first five minutes · ${i + 1} of ${FIVE.length}</p>
+      <p class="fivemin__t"><b>${esc(st.title)}.</b> ${esc(st.text)}</p>
+      <div class="fivemin__b">${i ? `<button type="button" class="btn btn--sm btn--ghost" data-five="back">← Back</button>` : ""}
+        <button type="button" class="btn btn--sm btn--cta" data-five="${last ? "close" : "next"}">${last ? "Done" : "Next →"}</button>
+        <button type="button" class="fivemin__x" data-five="close" aria-label="Close the guide">×</button></div></div>`;
+    bar.hidden = false; document.body.classList.add("five-on");
+    const g = st.go, smooth = { behavior: reduceMotion ? "auto" : "smooth", block: "start" };
+    if (g.loop) goToMap(() => startStory(g.loop));
+    else if (g.lever) goToMap(() => selectLever(g.lever));
+    if ((g.risk || g.plan) && (state.selected || state.story)) clearSelection(); // close the map's panel before leaving the map
+    if (g.risk) { const el = document.getElementById("risk-" + g.risk); if (el) { el.scrollIntoView(smooth); el.classList.remove("is-flash"); void el.offsetWidth; el.classList.add("is-flash"); } }
+    else if (g.plan) { if (!plan.levers.length) { plan.group = g.plan; plan.levers = suggested().slice(); savePlan(); renderPlan(); } document.getElementById("plan-step-1").scrollIntoView(smooth); }
+    const nb = bar.querySelector(`[data-five="${last ? "close" : "next"}"]`); if (nb && i === 0) nb.focus();
+  }
+
+  /* ---- phones: sections open as a summary with one button; long lists show the first few ---- */
+  function initDisclosure() {
+    const S = typeof SECTION_SUMMARIES !== "undefined" ? SECTION_SUMMARIES : {};
+    Object.entries(S).forEach(([id, label]) => {
+      const sec = document.getElementById(id), c = sec && sec.querySelector(":scope > .container"); if (!c || c.querySelector(".pd-body")) return;
+      const kids = [...c.children], h = kids.findIndex(k => /^H2$/.test(k.tagName)); if (h < 0) return;
+      const intro = kids[h + 1] && kids[h + 1].tagName === "P" ? h + 1 : h;
+      const rest = kids.slice(intro + 1); if (!rest.length) return;
+      const body = document.createElement("div"); body.className = "pd-body"; body.id = "pd-" + id;
+      rest.forEach(k => body.appendChild(k));
+      const btn = document.createElement("button"); btn.type = "button"; btn.className = "btn btn--sm btn--cta pd-open"; btn.textContent = label;
+      btn.setAttribute("aria-expanded", "false"); btn.setAttribute("aria-controls", body.id);
+      btn.addEventListener("click", () => { if (sec.classList.contains("pd-is-open")) { sec.classList.remove("pd-is-open"); btn.setAttribute("aria-expanded", "false"); btn.textContent = label; sec.scrollIntoView({ block: "start" }); } else { openSection(sec); track("open-" + id); } });
+      c.appendChild(btn); c.appendChild(body);
+    });
+    [["atrisk-list", 3, "groups"], ["stall-list", 3, "conditions"], ["inst-list", 5, "institutions"], ["cool-traps", 3, "traps"], ["cool-reading", 3, "books and guides"], ["day-list", 3, "hours"]]
+      .forEach(([id, n, noun]) => { const l = document.getElementById(id); if (l) limitList(l, n, noun); });
+    const h = decodeURIComponent(location.hash.slice(1)), t = h && document.getElementById(h); if (t) reveal(t);
+  }
+  function limitList(list, n, noun) {
+    const items = [...list.children]; list.classList.add("pd-list");
+    items.forEach((el, k) => el.classList.toggle("pd-more", k >= n));
+    let b = list.nextElementSibling;
+    if (!b || !b.classList.contains("pd-all")) { b = document.createElement("button"); b.type = "button"; b.className = "btn btn--sm btn--ghost pd-all"; list.after(b); b.addEventListener("click", () => showAll(list)); }
+    b.textContent = `Show all ${items.length} ${noun}`; b.hidden = items.length <= n || list.classList.contains("is-all");
+  }
 
   function renderList() {
     document.getElementById("web-list").innerHTML = SYSTEMS.map(s => {
@@ -2264,8 +2423,10 @@
     renderStalls();
     renderCooling();
     renderNow();
+    renderStart();
     renderList();
     renderStats();
+    initDisclosure();
     applyBreakState();
     fitAll(true, true);
     svg.classList.add("is-ready");
