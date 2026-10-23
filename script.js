@@ -6,6 +6,12 @@
 (function () {
   "use strict";
 
+  // visit counting (part 22 of data.js): GoatCounter, no cookies; nothing loads until a code is set
+  const GC = typeof SITE_ANALYTICS !== "undefined" && /^[a-z0-9-]+$/.test(SITE_ANALYTICS.goatcounter || "") ? SITE_ANALYTICS.goatcounter : "";
+  if (GC) { const sc = document.createElement("script"); sc.async = true; sc.src = "https://gc.zgo.at/count.js"; sc.dataset.goatcounter = `https://${GC}.goatcounter.com/count`; document.head.appendChild(sc); }
+  // a few anonymous events show which tools get used: films watched, plans printed, cities checked
+  const track = name => { try { if (GC && window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: name, title: name, event: true }); } catch (e) {} };
+
   const SVGNS = "http://www.w3.org/2000/svg";
   const HUB_R = 150, DOMAIN_RING = 470, DOMAIN_R = 40, RIM = 1330;
   const LABEL_K = 0.9;               // zoom level at which every label is shown
@@ -1253,6 +1259,7 @@
   }
 
   function openBrief(id) {
+    track("brief-" + id);
     const d = briefData(id);
     const css = `body{font-family:Inter,Segoe UI,Arial,sans-serif;color:#16202B;max-width:760px;margin:40px auto;padding:0 24px;line-height:1.55}
       h1{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;font-size:40px;line-height:1;margin:6px 0 4px}
@@ -1583,6 +1590,7 @@
 
   function loadExample(id) {
     const ex = EXAMPLES.find(x => x.id === id); if (!ex) return;
+    track("plan-example-" + id);
     plan = { place: ex.place, group: ex.group, levers: ex.actions.map(a => a.lever), rows: {}, example: ex.id, stalls: [], triggers: Object.assign({}, ex.triggers || {}), review: "" };
     ex.actions.forEach(a => { plan.rows[a.lever] = { lead: a.lead, payer: a.payer, measure: a.measure, phase: a.phase || PHASE_DEF[a.lever] || "year" }; });
     savePlan(); renderPlan();
@@ -1619,7 +1627,7 @@
       } else if (t.dataset.plTrig && t.tagName === "SELECT") {
         trig()[t.dataset.plTrig] = t.value; changed(false);
       } else if (t.dataset.plLive !== undefined) {
-        plan.liveCity = t.value; savePlan(); renderPlanLive();
+        plan.liveCity = t.value; savePlan(); renderPlanLive(); if (t.value) track("plan-forecast-" + t.value);
       } else if (t.dataset.plChan) {
         const id = t.dataset.plChan, c = trig().channels || [];
         trig().channels = t.checked ? [...c.filter(x => x !== id), id] : c.filter(x => x !== id); light();
@@ -1634,6 +1642,7 @@
       if (jump) { const el = document.getElementById("plan-step-" + jump.dataset.plStep); if (el) { el.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" }); const f = el.querySelector("input, select"); if (f) f.focus({ preventScroll: true }); } return; }
       const b = ev.target.closest("[data-pl-act]"); if (!b) return;
       const act = b.dataset.plAct, status = sec.querySelector("[data-pl-status]");
+      track("plan-" + act);
       if (act === "map") goToMap(() => applyLevers(plan.levers, plan.place || "Your plan", "The actions in your plan, switched on together."));
       else if (act === "print") openPlan();
       else if (act === "copy") navigator.clipboard.writeText(planText()).then(() => { if (status) status.textContent = "Plan copied. Paste it into an email or document."; }, () => { if (status) status.textContent = "Couldn’t copy. Use “Open a printable plan” instead."; });
@@ -1675,6 +1684,7 @@
   }
   function openFilm(opener) {
     if (!film || !filmVideo) return;
+    track("watch-main-film");
     setMode("film");
     filmTitle.innerHTML = filmTitleHTML;
     showDialog(opener);
@@ -1725,6 +1735,7 @@
   }
   function openExplainer(key, opener, autoplay = true) {
     const c = clipFor(key); if (!film || !c) return;
+    track("watch-" + key.replace(":", "-"));
     setMode("term"); termNow = c;
     filmTitle.innerHTML = `${esc(c.title)} <span>· ${esc(c.label)}, ${esc(c.length || "0:30")}</span>`;
     termVideo.poster = c.video.replace(/\.mp4$/, ".jpg");
@@ -2120,6 +2131,7 @@
     if (rd && typeof COOL_READING !== "undefined") rd.innerHTML = COOL_READING.map(x => `<li><p class="cool-read__t">${extLink(x.url, x.title)}</p><p class="cool-read__by">${esc(x.by)}</p><p>${gloss(x.adds)}</p></li>`).join("");
     document.getElementById("cooling").addEventListener("click", ev => {
       const b = ev.target.closest("[data-cool-add]"); if (!b) return;
+      track("cooling-add-" + b.dataset.coolAdd);
       const p = COOL.find(x => x.id === b.dataset.coolAdd), status = document.getElementById("cool-status");
       const added = p.levers.filter(id => leverById[id] && !plan.levers.includes(id));
       p.levers.filter(id => leverById[id]).forEach(id => { if (!plan.levers.includes(id)) plan.levers.push(id); const r = planRow(id); if (!(r.measure || "").trim()) r.measure = p.measure; });

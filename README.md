@@ -112,6 +112,10 @@ The “Cooling options” section, just before “Plan a response”, shows what
 - **The plan check:** step 4 of “Plan a response” can test the alert levels you typed against a city’s seven-day forecast, and lists what each day would switch on. WBGT levels are not tested, because the feed has no WBGT forecast.
 - **If Open-Meteo’s terms change,** or the site becomes commercial, the request in `liveFetch()` in `script.js` is the one place to update.
 
+## Visit counting (part 22 of `data.js`)
+
+Visits are counted with [GoatCounter](https://www.goatcounter.com/), which uses no cookies and collects no personal data. `SITE_ANALYTICS.goatcounter` holds the counter’s code; leave it empty (`""`) to switch counting off, and nothing is loaded. As well as page views, `track()` in `script.js` records a few anonymous events, each named for what it counts: films and explainers watched (`watch-…`), plan buttons (`plan-print`, `plan-copy`, `plan-map`), worked examples loaded, forecast checks by city, cooling options added to a plan, and briefs opened. The privacy note in “How this map works” describes this.
+
 ## Banks, regulators and microfinance
 
 The heat network has a filter for **Banks, regulators and microfinance**: central banks and financial regulators in South and Southeast Asia (Singapore, Thailand, Indonesia, the Philippines, Vietnam, Bangladesh, Nepal and India), the regulators’ network SBFN, and lenders piloting climate-adaptation loans. Each entry says what the rule or programme does today and, where true, that heat is not yet among its triggers. The “Heat-smart lending” lever (part 6) holds the regional examples of disaster-triggered loan relief.
