@@ -40,11 +40,12 @@ const PAGES = [
   { slug: "glossary", title: "Plain-language glossary of extreme heat", short: "Glossary" },
   { slug: "heat-network", title: "Organisations working on extreme heat", short: "Heat network" }
 ];
+const LICENCE = "Text, data, films and illustrations © BeatTheHeat.Asia contributors, shared under Creative Commons Attribution 4.0 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/): you may copy, adapt and translate them, with credit and a link to beattheheat.asia. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’ and are not covered.";
 const DISCLAIMER = "This is a beta version. BeatTheHeat.Asia is being built by a group of organisations working on extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement. Every claim links to its source; where the evidence is still emerging, the map says so.";
 
 function page(p, intro, body, extraLd) {
   const url = `${SITE}/${p.slug}/`;
-  const ld = [{ "@context": "https://schema.org", "@type": "WebPage", name: p.title, url, inLanguage: "en", isPartOf: { "@type": "WebSite", name: "BeatTheHeat.Asia", url: SITE + "/" }, dateModified: TODAY, description: intro },
+  const ld = [{ "@context": "https://schema.org", "@type": "WebPage", name: p.title, url, inLanguage: "en", isPartOf: { "@type": "WebSite", name: "BeatTheHeat.Asia", url: SITE + "/" }, dateModified: TODAY, description: intro, license: "https://creativecommons.org/licenses/by/4.0/", copyrightNotice: "© BeatTheHeat.Asia contributors" },
     { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "BeatTheHeat.Asia", item: SITE + "/" }, { "@type": "ListItem", position: 2, name: p.short, item: url }] }]
     .concat(extraLd || []);
   return `<!DOCTYPE html>
@@ -55,6 +56,7 @@ function page(p, intro, body, extraLd) {
   <title>${esc(p.title)} | BeatTheHeat.Asia</title>
   <meta name="description" content="${esc(intro)}">
   <link rel="canonical" href="${url}">
+  <link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="BeatTheHeat.Asia">
   <meta property="og:url" content="${url}">
@@ -91,7 +93,7 @@ ${ld.map(x => `  <script type="application/ld+json">${JSON.stringify(x)}</script
     <a class="cta" href="/">Open the interactive map</a>
 ${body}
   </main>
-  <footer><p>${esc(DISCLAIMER)}</p><p>Generated from the map’s data on ${TODAY}. The whole map as plain text: <a href="/llms-full.txt">llms-full.txt</a>.</p></footer>
+  <footer><p>${esc(DISCLAIMER)}</p><p>Text, data, films and illustrations © BeatTheHeat.Asia contributors, shared under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>: copy, adapt and translate them, with credit and a link to beattheheat.asia. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’.</p><p>Generated from the map’s data on ${TODAY}. The whole map as plain text: <a href="/llms-full.txt">llms-full.txt</a>.</p></footer>
 </body>
 </html>
 `;
@@ -233,6 +235,8 @@ ${about}
 
 ${DISCLAIMER}
 
+${LICENCE}
+
 The interactive map is at ${SITE}/ and needs JavaScript. The pages below carry the same content as plain HTML.
 
 ## The map as text
@@ -243,7 +247,7 @@ ${PAGES.map(p => `- [${p.short}](${SITE}/${p.slug}/): ${p.title}`).join("\n")}
 
 - [The whole map in one file](${SITE}/llms-full.txt): every page above as plain text, for reading in one go
 `);
-fs.writeFileSync(path.join(ROOT, "llms-full.txt"), `# BeatTheHeat.Asia: the whole map as text\n\n${about}\n\n${DISCLAIMER}\n\nInteractive map: ${SITE}/ · Generated ${TODAY}\n\n${md.join("\n\n")}\n`);
+fs.writeFileSync(path.join(ROOT, "llms-full.txt"), `# BeatTheHeat.Asia: the whole map as text\n\n${about}\n\n${DISCLAIMER}\n\n${LICENCE}\n\nInteractive map: ${SITE}/ · Generated ${TODAY}\n\n${md.join("\n\n")}\n`);
 
 // ---- sitemap.xml and robots.txt ----
 fs.writeFileSync(path.join(ROOT, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>

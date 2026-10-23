@@ -1391,3 +1391,4 @@ body.film-open { overflow: hidden; }
 }
 .site-footer__text { max-width: 40rem; font-size: .85rem; color: var(--grey-700); }
 .site-footer__text a { display: inline-block; padding: 4px 0; color: var(--ink); }
+.site-footer__licence a { display: inline; padding: 6px 0; line-height: 1.9; }
