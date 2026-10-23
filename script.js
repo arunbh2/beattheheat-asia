@@ -1362,7 +1362,41 @@
           <p class="plan-ladder__acts">${acts.length ? "Switches on: " + acts.map(id => esc(leverById[id].title)).join(", ") : "No actions start at this level yet. Set “When it happens” in step 3."}</p>
         </div>`; }).join("")}</div>
       <p class="plan-ladder__k">How warnings reach people <span>The ones marked ✱ reach people without a phone or signal.</span></p>
-      <div class="plan-channels">${CHANNELS.map(c => `<label class="plan-check"><input type="checkbox" data-pl-chan="${c.id}"${ch.includes(c.id) ? " checked" : ""}><span>${esc(c.name)}${c.offline ? " ✱" : ""}</span></label>`).join("")}</div>`;
+      <div class="plan-channels">${CHANNELS.map(c => `<label class="plan-check"><input type="checkbox" data-pl-chan="${c.id}"${ch.includes(c.id) ? " checked" : ""}><span>${esc(c.name)}${c.offline ? " ✱" : ""}</span></label>`).join("")}</div>
+      ${LIVE.length ? `<div class="plan-live"><p class="plan-ladder__k">Test your alert levels against this week’s forecast</p>
+        <label>City <select data-pl-live><option value="">Choose a city…</option>${LIVE.map(c => `<option value="${c.id}"${plan.liveCity === c.id ? " selected" : ""}>${esc(c.name)}, ${esc(c.country)}</option>`).join("")}</select></label>
+        <div id="plan-live-out" aria-live="polite"></div></div>` : ""}`;
+    renderPlanLive();
+  }
+
+  // the next seven days for one city, against the plan's alert levels, and what each day would switch on
+  function renderPlanLive() {
+    const box = document.getElementById("plan-live-out"); if (!box) return;
+    const city = LIVE.find(c => c.id === plan.liveCity);
+    if (!city) { box.innerHTML = `<p class="plan-step__hint">Pick one of the ten cities in “Heat right now” to see which days this week would reach your alert levels.</p>`; return; }
+    const t = trig(), num = v => { const m = String(v || "").replace(",", ".").match(/-?\d+(\.\d+)?/); return m ? parseFloat(m[0]) : NaN; };
+    const lv = LEVELS.map(l => ({ l, thr: num(t[l.id]) })).filter(x => isFinite(x.thr)).sort((a, b) => a.thr - b.thr);
+    const feels = t.basis === "index" || t.basis === "wbgt";
+    const metric = feels ? "feels-like maximum" : "forecast daily maximum";
+    const wb = t.basis === "wbgt";
+    const note = wb ? "Your levels are in WBGT, which runs well below feels-like temperatures, and this feed has no WBGT forecast, so the days are shown without alerts. Ask your weather service for a WBGT forecast to test them."
+      : t.basis === "index" ? "Feels-like (apparent temperature) is close to, but not the same as, a heat index." : !t.basis ? "Choose what your alerts are based on above. Until then, the check uses the forecast daily maximum." : "";
+    box.innerHTML = `<p class="plan-step__hint">Loading the forecast for ${esc(city.name)}…</p>`;
+    liveFetch().then(data => {
+      const d = data.cities[city.id];
+      if (!d || !d.days.length) throw new Error("none");
+      if (!lv.length && !wb) { box.innerHTML = `<p class="plan-step__hint">Type a temperature in at least one alert level above, for example “40 °C”, to test it against ${esc(city.name)}’s forecast.</p>`; return; }
+      const rows = d.days.map(x => { const v = feels ? x.feelsMax : x.max, hit = wb ? null : lv.filter(y => v >= y.thr).pop();
+        const acts = hit ? plan.levers.filter(id => planRow(id).phase === hit.l.id).map(id => leverById[id].title) : [];
+        return { x, v, hit, acts }; });
+      const reached = rows.filter(r => r.hit).length;
+      box.innerHTML = `<p class="plan-live__sum">${wb ? `This week’s feels-like maximum in ${esc(city.name)}. <b>WBGT alert levels can’t be tested against this feed.</b>` : `<b>${reached ? `${plural(reached, "day")} of ${rows.length}` : "No day"}</b> this week ${reached === 1 ? "reaches" : "reach"} one of your alert levels in ${esc(city.name)}, on the ${metric}.`}</p>
+        <table class="plan-live__t"><thead><tr><th>Day</th><th>${feels ? "Feels like" : "Max"}</th><th>Alert</th><th>Switches on</th></tr></thead><tbody>
+        ${rows.map(r => `<tr><td>${esc(new Date(r.x.date + "T12:00:00").toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short" }))}</td><td>${deg(r.v)}</td>
+          <td>${r.hit ? `<span class="lv lv--${r.hit.l.id}"></span>${esc(r.hit.l.name)}` : `<span class="plan-live__no">${wb ? "Not tested" : "Below"}</span>`}</td>
+          <td>${r.hit ? (r.acts.length ? esc(r.acts.join(", ")) : "Nothing yet: set “When it happens” in step 3") : ""}</td></tr>`).join("")}</tbody></table>
+        <p class="plan-checklist__src">${note ? esc(note) + " " : ""}Model forecast, not an official warning: follow ${extLink(city.warn.url, city.warn.label)}. ${liveCredit()}.</p>`;
+    }).catch(() => { box.innerHTML = `<p class="plan-step__hint">The forecast could not be loaded just now. Try again later, or check ${extLink(city.warn.url, city.warn.label)}.</p>`; });
   }
 
   // step 6: WHO/Europe's eight core elements, checked against what the plan contains
@@ -1558,7 +1592,7 @@
   (function wirePlan() {
     const sec = document.getElementById("plan"); if (!sec) return;
     const changed = (rows = true) => { savePlan(); if (rows) renderPlanRows(); renderPlanTriggers(); renderPlanCheck(); renderPlanSummary(); };
-    const light = () => { savePlan(); renderPlanCheck(); renderPlanSummary(); };
+    const light = () => { savePlan(); renderPlanCheck(); renderPlanSummary(); renderPlanLive(); };
     sec.addEventListener("input", ev => {
       const t = ev.target;
       if (t.id === "plan-place") { plan.place = t.value; changed(false); }
@@ -1584,6 +1618,8 @@
         planRow(t.closest("[data-pl-row]").dataset.plRow)[t.dataset.plField] = t.value; changed(false);
       } else if (t.dataset.plTrig && t.tagName === "SELECT") {
         trig()[t.dataset.plTrig] = t.value; changed(false);
+      } else if (t.dataset.plLive !== undefined) {
+        plan.liveCity = t.value; savePlan(); renderPlanLive();
       } else if (t.dataset.plChan) {
         const id = t.dataset.plChan, c = trig().channels || [];
         trig().channels = t.checked ? [...c.filter(x => x !== id), id] : c.filter(x => x !== id); light();
@@ -2093,6 +2129,83 @@
     });
   }
 
+  /* ---- live heat data (part 21): one cached fetch, shared by "Heat right now" and the plan's forecast check ---- */
+  const LIVE = typeof LIVE_CITIES !== "undefined" ? LIVE_CITIES : [];
+  const LIVE_KEY = "bth-live-v1", LIVE_TTL = 30 * 60 * 1000, LIVE_STALE = 3 * 3600 * 1000;
+  let livePromise = null;
+  const deg = v => `${Math.round(v)} °C`;
+  // a reading's time is local to the city; turn it into a moment in time to judge how old it is
+  const liveAge = c => Date.now() - (Date.parse(c.time + ":00Z") - (c.offset || 0) * 1000);
+  function findAll(o, test, out = []) {
+    if (Array.isArray(o)) o.forEach(x => findAll(x, test, out));
+    else if (o && typeof o === "object") { if (test(o)) out.push(o); else Object.values(o).forEach(v => findAll(v, test, out)); }
+    return out;
+  }
+  // NEA's measured wet-bulb globe temperature: read defensively, and drop it if it is missing or old
+  function parseWbgt(j) {
+    const rs = findAll(j, o => "wbgt" in o).map(o => ({ v: parseFloat(o.wbgt), level: String(o.heatStress || o.heat_stress || "") })).filter(r => isFinite(r.v));
+    if (!rs.length) return null;
+    const ts = findAll(j, o => typeof o.datetime === "string" || typeof o.timestamp === "string").map(o => Date.parse(o.datetime || o.timestamp)).filter(isFinite);
+    const at = ts.length ? Math.max(...ts) : NaN;
+    if (!isFinite(at) || Date.now() - at > 2 * 3600 * 1000) return null;
+    const rank = l => ({ low: 1, moderate: 2, high: 3 }[l.toLowerCase()] || 0);
+    const top = rs.reduce((a, b) => (rank(b.level) > rank(a.level) || (rank(b.level) === rank(a.level) && b.v > a.v)) ? b : a);
+    return { max: Math.max(...rs.map(r => r.v)), level: rank(top.level) ? top.level : "", n: rs.length, at };
+  }
+  function liveFetch() {
+    if (livePromise) return livePromise;
+    try { const c = JSON.parse(localStorage.getItem(LIVE_KEY) || "null"); if (c && Date.now() - c.at < LIVE_TTL && c.cities) return (livePromise = Promise.resolve(c)); } catch (e) {}
+    const q = "https://api.open-meteo.com/v1/forecast?latitude=" + LIVE.map(c => c.lat).join(",") + "&longitude=" + LIVE.map(c => c.lon).join(",") +
+      "&current=temperature_2m,apparent_temperature,relative_humidity_2m&daily=temperature_2m_max,apparent_temperature_max&timezone=auto&forecast_days=7";
+    const model = fetch(q).then(r => { if (!r.ok) throw new Error("model " + r.status); return r.json(); }).then(j => Array.isArray(j) ? j : [j]);
+    const wbgt = LIVE.some(c => c.wbgt) ? fetch("https://api-open.data.gov.sg/v2/real-time/api/weather?api=wbgt").then(r => r.ok ? r.json() : null).then(j => j && parseWbgt(j)).catch(() => null) : Promise.resolve(null);
+    livePromise = Promise.all([model, wbgt]).then(([m, w]) => {
+      const out = { at: Date.now(), cities: {}, wbgt: w };
+      LIVE.forEach((c, i) => { const d = m[i]; if (!d || !d.current || !d.daily) return;
+        out.cities[c.id] = { time: d.current.time, offset: d.utc_offset_seconds, t: d.current.temperature_2m, feels: d.current.apparent_temperature, rh: d.current.relative_humidity_2m,
+          days: (d.daily.time || []).map((dt, k) => ({ date: dt, max: d.daily.temperature_2m_max[k], feelsMax: d.daily.apparent_temperature_max[k] })) }; });
+      if (!Object.keys(out.cities).length) throw new Error("no data");
+      try { localStorage.setItem(LIVE_KEY, JSON.stringify(out)); } catch (e) {}
+      return out;
+    }).catch(e => { setTimeout(() => { livePromise = null; }, 120000); throw e; }); // wait two minutes before trying again
+    return livePromise;
+  }
+  const liveCredit = () => typeof LIVE_SOURCES === "undefined" ? "" : `${extLink(LIVE_SOURCES.model.url, LIVE_SOURCES.model.label)} (${esc(LIVE_SOURCES.model.licence)})`;
+
+  function renderNow() {
+    const list = document.getElementById("now-list"); if (!list || !LIVE.length) return;
+    const intro = document.getElementById("now-intro"); if (intro && typeof LIVE_NOTE !== "undefined") intro.textContent = LIVE_NOTE;
+    const foot = document.getElementById("now-foot");
+    if (foot) foot.innerHTML = `Sources: ${liveCredit()}${typeof LIVE_SOURCES !== "undefined" ? " · " + extLink(LIVE_SOURCES.wbgt.url, LIVE_SOURCES.wbgt.label) : ""}. Feels-like is the apparent temperature, from heat, humidity and wind.`;
+    const card = (c, d, w, hottest) => {
+      const ok = d && liveAge(d) < LIVE_STALE, pct = ok ? clamp01((d.feels - 20) / 35) * 100 : 0, today = ok && d.days[0];
+      return `<li class="now-c${hottest ? " is-hottest" : ""}">
+        <h3 class="now-c__city">${esc(c.name)}<span>${esc(c.country)}</span></h3>
+        ${hottest ? `<p class="now-c__flag">Feels hottest right now</p>` : ""}
+        ${ok ? `<p class="now-c__t">${Math.round(d.t)}<span> °C</span></p>
+          <p class="now-c__f">Feels like <b>${deg(d.feels)}</b></p>
+          <div class="now-c__bar" aria-hidden="true"><span style="width:${(100 - pct).toFixed(0)}%"></span></div>
+          ${today ? `<p class="now-c__d">Today’s high ${deg(today.max)}, feeling like ${deg(today.feelsMax)}</p>` : ""}
+          <p class="now-c__h">Humidity ${Math.round(d.rh)}% · ${esc(d.time.slice(11, 16))} local time</p>`
+          : `<p class="now-c__none">${d ? "Reading out of date" : "Live data unavailable"}</p>`}
+        ${c.wbgt && w ? `<p class="now-c__wbgt"><b>Measured WBGT ${w.max.toFixed(1)} °C</b>${w.level ? ` · ${esc(w.level)} heat stress at the highest of ${w.n} stations` : ` across ${w.n} stations`}</p>` : ""}
+        <p class="now-c__warn">Official warnings: ${extLink(c.warn.url, c.warn.label)}</p>
+      </li>`; };
+    const status = document.getElementById("now-status");
+    list.innerHTML = LIVE.map(c => card(c, null, null, false).replace("Live data unavailable", "Loading…")).join("");
+    const load = () => liveFetch().then(data => {
+      const ok = LIVE.filter(c => data.cities[c.id] && liveAge(data.cities[c.id]) < LIVE_STALE);
+      const hot = ok.length ? ok.reduce((a, b) => data.cities[b.id].feels > data.cities[a.id].feels ? b : a).id : null;
+      list.innerHTML = LIVE.map(c => card(c, data.cities[c.id], data.wbgt, c.id === hot)).join("");
+      if (status) status.textContent = `Updated ${new Date(data.at).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })} your time.`;
+    }, () => { list.innerHTML = LIVE.map(c => card(c, null, null, false)).join(""); if (status) status.textContent = "Live data could not be loaded just now. The official warning links still work."; });
+    // fetch only when the section comes near the screen
+    const sec = document.getElementById("heat-now");
+    if ("IntersectionObserver" in window) { const io = new IntersectionObserver(es => { if (es.some(e => e.isIntersecting)) { io.disconnect(); load(); } }, { rootMargin: "800px 0px" }); io.observe(sec); }
+    else load();
+  }
+  const clamp01 = x => Math.max(0, Math.min(1, x));
+
   function renderList() {
     document.getElementById("web-list").innerHTML = SYSTEMS.map(s => {
       const items = nodes.filter(n => n.sys === s.id && n.kind === "leaf");
@@ -2138,6 +2251,7 @@
     renderAtRisk();
     renderStalls();
     renderCooling();
+    renderNow();
     renderList();
     renderStats();
     applyBreakState();

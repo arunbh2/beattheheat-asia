@@ -2181,3 +2181,35 @@ const COOL_READING = [
 const COOL_ASSET_LEVERS = ["coolbydesign", "greencity", "coolhousing", "coolingcentres", "soilwater", "keepgreen"];
 
 const COOL_COST_NOTE = "Costs are rough planning ranges in Indian rupees, for early budgeting only. They come from a practitioner’s planning workbook and are not quotes; where a public figure exists, it is linked. Where no range is solid enough to share, the card says so: get local quotes.";
+
+/* ---------- 21. HEAT RIGHT NOW (live data) ---------- */
+// Live readings are fetched in the visitor's browser from Open-Meteo (model data, CC BY 4.0) and, for Singapore,
+// NEA's measured wet-bulb globe temperature on data.gov.sg. They are never official warnings: each city links to
+// its national weather service. lat/lon: city centre. warn: where official heat warnings are issued.
+const LIVE_CITIES = [
+  { id: "singapore", name: "Singapore", country: "Singapore", lat: 1.35, lon: 103.82, wbgt: true,
+    warn: { label: "Meteorological Service Singapore", url: "https://www.weather.gov.sg/" } },
+  { id: "bangkok", name: "Bangkok", country: "Thailand", lat: 13.75, lon: 100.50,
+    warn: { label: "Thai Meteorological Department", url: "https://www.tmd.go.th/" } },
+  { id: "hanoi", name: "Hanoi", country: "Vietnam", lat: 21.03, lon: 105.85,
+    warn: { label: "National Centre for Hydro-Meteorological Forecasting", url: "https://nchmf.gov.vn/" } },
+  { id: "manila", name: "Manila", country: "Philippines", lat: 14.60, lon: 120.98,
+    warn: { label: "PAGASA heat index", url: "https://www.pagasa.dost.gov.ph/weather/heat-index" } },
+  { id: "jakarta", name: "Jakarta", country: "Indonesia", lat: -6.21, lon: 106.85,
+    warn: { label: "BMKG", url: "https://www.bmkg.go.id/" } },
+  { id: "delhi", name: "Delhi", country: "India", lat: 28.61, lon: 77.21,
+    warn: { label: "India Meteorological Department", url: "https://mausam.imd.gov.in/" } },
+  { id: "dhaka", name: "Dhaka", country: "Bangladesh", lat: 23.81, lon: 90.41,
+    warn: { label: "Bangladesh Meteorological Department", url: "https://www.bmd.gov.bd/" } },
+  { id: "kathmandu", name: "Kathmandu", country: "Nepal", lat: 27.72, lon: 85.32,
+    warn: { label: "Department of Hydrology and Meteorology", url: "https://www.mfd.gov.np/" } },
+  { id: "mumbai", name: "Mumbai", country: "India", lat: 19.08, lon: 72.88,
+    warn: { label: "India Meteorological Department", url: "https://mausam.imd.gov.in/" } },
+  { id: "ahmedabad", name: "Ahmedabad", country: "India", lat: 23.02, lon: 72.57,
+    warn: { label: "India Meteorological Department", url: "https://mausam.imd.gov.in/" } }
+];
+const LIVE_SOURCES = {
+  model: { label: "Weather data by Open-Meteo.com", url: "https://open-meteo.com/", licence: "CC BY 4.0" },
+  wbgt: { label: "Wet-bulb globe temperature: National Environment Agency, Singapore, via data.gov.sg", url: "https://data.gov.sg/datasets/d_87884af1f85d702d4f74c6af13b4853d/view" }
+};
+const LIVE_NOTE = "Live model data, refreshed every 30 minutes. It is not an official warning: for alerts, follow the national weather service linked on each city.";
