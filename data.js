@@ -2218,4 +2218,4 @@ const LIVE_NOTE = "Live model data, refreshed every 30 minutes. It is not an off
 // Privacy-friendly visit counts with GoatCounter (no cookies, no personal data). Off while the code is empty.
 // Sign up free at https://www.goatcounter.com/signup, choose a code (e.g. "beattheheat" for beattheheat.goatcounter.com)
 // and type it between the quote marks below. Only lowercase letters, numbers and hyphens.
-const SITE_ANALYTICS = { goatcounter: "arunabha" };
+const SITE_ANALYTICS = { goatcounter: "beattheheat" };
