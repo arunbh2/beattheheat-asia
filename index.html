@@ -32,7 +32,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap">
 
-  <link rel="stylesheet" href="styles.css?v=68">
+  <link rel="stylesheet" href="styles.css?v=69">
 
   <script type="application/ld+json">
   {
@@ -67,8 +67,8 @@
     }
   }
   </script>
-  <script src="data.js?v=68" defer></script>
-  <script src="script.js?v=68" defer></script>
+  <script src="data.js?v=69" defer></script>
+  <script src="script.js?v=69" defer></script>
 </head>
 
 <body>
@@ -105,17 +105,18 @@
           <ul aria-labelledby="menu-g2">
             <li><a href="#who-holds"><span class="site-menu__n" aria-hidden="true">05</span><span class="site-menu__t">Who holds the levers<small>The institutions that can act, and how</small></span></a></li>
             <li><a href="#stalls"><span class="site-menu__n" aria-hidden="true">06</span><span class="site-menu__t">Why action stalls<small>Seven conditions, and what moves them</small></span></a></li>
-            <li><a href="#plan"><span class="site-menu__n" aria-hidden="true">07</span><span class="site-menu__t">Plan a response<small>Turn the map into a one-page plan</small></span></a></li>
-            <li><a href="#network"><span class="site-menu__n" aria-hidden="true">08</span><span class="site-menu__t">The heat network<small>Organisations already at work</small></span></a></li>
+            <li><a href="#cooling"><span class="site-menu__n" aria-hidden="true">07</span><span class="site-menu__t">Cooling options<small>What to build where people are, and how to keep it working</small></span></a></li>
+            <li><a href="#plan"><span class="site-menu__n" aria-hidden="true">08</span><span class="site-menu__t">Plan a response<small>Turn the map into a one-page plan</small></span></a></li>
+            <li><a href="#network"><span class="site-menu__n" aria-hidden="true">09</span><span class="site-menu__t">The heat network<small>Organisations already at work</small></span></a></li>
           </ul>
         </div>
         <div class="site-menu__group">
           <h2 class="site-menu__h" id="menu-g3">Go deeper</h2>
           <ul aria-labelledby="menu-g3">
-            <li><a href="#wicked"><span class="site-menu__n" aria-hidden="true">09</span><span class="site-menu__t">Why heat is a wicked problem<small>No single cause, owner or finish line</small></span></a></li>
-            <li><a href="#method"><span class="site-menu__n" aria-hidden="true">10</span><span class="site-menu__t">How this map works<small>What it shows, and what it doesn’t</small></span></a></li>
-            <li><a href="#glossary"><span class="site-menu__n" aria-hidden="true">11</span><span class="site-menu__t">Glossary<small>Heat terms in plain language</small></span></a></li>
-            <li><a href="#text-version"><span class="site-menu__n" aria-hidden="true">12</span><span class="site-menu__t">Every link, as text<small>The whole map in a readable list</small></span></a></li>
+            <li><a href="#wicked"><span class="site-menu__n" aria-hidden="true">10</span><span class="site-menu__t">Why heat is a wicked problem<small>No single cause, owner or finish line</small></span></a></li>
+            <li><a href="#method"><span class="site-menu__n" aria-hidden="true">11</span><span class="site-menu__t">How this map works<small>What it shows, and what it doesn’t</small></span></a></li>
+            <li><a href="#glossary"><span class="site-menu__n" aria-hidden="true">12</span><span class="site-menu__t">Glossary<small>Heat terms in plain language</small></span></a></li>
+            <li><a href="#text-version"><span class="site-menu__n" aria-hidden="true">13</span><span class="site-menu__t">Every link, as text<small>The whole map in a readable list</small></span></a></li>
           </ul>
         </div>
       </nav>
@@ -343,6 +344,28 @@
     </section>
 
 
+    <!-- ============ COOLING OPTIONS (from part 20 of data.js) ============ -->
+    <section class="cooling" id="cooling" aria-labelledby="cooling-title">
+      <div class="container">
+        <p class="eyebrow eyebrow--break">Cooling options</p>
+        <h2 id="cooling-title" class="h2">Cool the places<br>where people are.</h2>
+        <p class="loops__intro">Choose a place. Each shows what to build or change, what keeps it working, a rough cost and the trap to avoid. Every claim links to its source, and where the evidence is thin, the card says so.</p>
+        <div class="cool-tabs" id="cool-tabs" role="tablist" aria-label="Places to cool"></div>
+        <div class="cool-panel" id="cool-panel" role="tabpanel" tabindex="0"></div>
+        <p class="cool__status" id="cool-status" role="status"></p>
+        <p class="cool__costnote" id="cool-costnote"></p>
+
+        <h3 class="cool__h">Five traps that waste cooling money</h3>
+        <ol class="cool-traps" id="cool-traps"></ol>
+
+        <h3 class="cool__h">What changes the result</h3>
+        <div class="cool-evidence" id="cool-evidence"></div>
+
+        <div class="cool-value" id="cool-value"></div>
+      </div>
+    </section>
+
+
     <!-- ============ PLAN A RESPONSE ============ -->
     <section class="plan" id="plan" aria-labelledby="plan-title">
       <div class="container">
@@ -382,7 +405,7 @@
             </fieldset>
             <fieldset class="plan-step">
               <legend><span>2</span> Choose the actions</legend>
-              <p class="plan-step__hint">Actions suggested for the people you chose are marked. Add or remove any.</p>
+              <p class="plan-step__hint">Actions suggested for the people you chose are marked. Add or remove any. Not sure what to build? See <a href="#cooling">cooling options by place</a>.</p>
               <div id="plan-actions" class="plan-actions"></div>
             </fieldset>
             <fieldset class="plan-step" id="plan-step-3">

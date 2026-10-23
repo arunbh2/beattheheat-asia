@@ -1027,7 +1027,7 @@
     else if (act === "prev") { state.step--; renderStep(); }
   }
   document.addEventListener("click", ev => {
-    if (ev.target.closest("#panel, #guide, #loops, #web-list, #who-holds, #at-risk, #stalls, #network, #breakbar, #day, #path-form, .intro")) handleAction(ev);
+    if (ev.target.closest("#panel, #guide, #loops, #web-list, #who-holds, #at-risk, #stalls, #cooling, #network, #breakbar, #day, #path-form, .intro")) handleAction(ev);
   });
   document.addEventListener("keydown", ev => {
     if (ev.key === "Escape" && (state.selected || state.story || state.inst || state.pkg)) { clearSelection(); fitAll(); }
@@ -1305,6 +1305,10 @@
   const planRow = id => { const r = plan.rows[id] || (plan.rows[id] = { lead: (leverById[id].who || [])[0] || "", payer: PAYERS[0], measure: "" });
     if (!r.phase) r.phase = PHASE_DEF[id] || "year"; return r; };
   const trig = () => plan.triggers || (plan.triggers = {});
+  // cooling assets (part 20) need someone to keep them working after year one
+  const ASSETS = typeof COOL_ASSET_LEVERS !== "undefined" ? COOL_ASSET_LEVERS : [];
+  const isAsset = id => ASSETS.includes(id);
+  const noUpkeep = () => plan.levers.filter(id => isAsset(id) && !(planRow(id).upkeep || "").trim());
   const planLoops = () => LOOPS.filter(l => l.levers.some(v => plan.levers.includes(v)));
   const suggested = () => ((PG.find(g => g.id === plan.group) || {}).levers || []);
 
@@ -1331,6 +1335,7 @@
         <label>Who pays <select data-pl-field="payer">${PAYERS.map(p => `<option${r.payer === p ? " selected" : ""}>${esc(p)}</option>`).join("")}</select></label>
         ${PHASES.length ? `<label>When it happens <select data-pl-field="phase">${PHASES.map(x => `<option value="${x.id}"${r.phase === x.id ? " selected" : ""}>${esc(x.name)}</option>`).join("")}</select></label>` : ""}
         <label class="plan-row__wide">How you will know it is working <input type="text" data-pl-field="measure" value="${esc(r.measure)}" placeholder="e.g. ${esc(v.measure || "")}"></label>
+        ${isAsset(id) ? `<label class="plan-row__wide">Who keeps it working after year one, and from which budget? <input type="text" data-pl-field="upkeep" value="${esc(r.upkeep || "")}" placeholder="e.g. the ward office, from the parks maintenance budget"></label>` : ""}
       </div>`;
     }).join("");
   }
@@ -1429,6 +1434,7 @@
       ${timing.length ? `<p class="plan-summary__line"><b>When it works:</b> ${timing.map(([l, n]) => `${esc(l)} (${n})`).join(", ")}</p>` : ""}
       ${rows.length ? `<p class="plan-summary__line"><b>Who pays:</b> ${Object.entries(payers).map(([p, n]) => `${esc(p)} (${n})`).join(", ")}</p>` : ""}
       ${unpaid ? `<p class="plan-summary__gap">${plural(unpaid, "action")} with nobody paying yet. That is the conversation to have next.</p>` : ""}
+      ${noUpkeep().length ? `<p class="plan-summary__gap">${plural(noUpkeep().length, "cooling action")} with nobody named to keep it working after year one. <button type="button" class="link" data-pl-step="3">Add it in step 3</button></p>` : ""}
       ${loops.length ? `<p class="plan-summary__line"><b>Cycles in play:</b> ${loops.map(l => esc(l.name.replace(/^The /, ""))).join(", ")}</p>` : ""}
       ${planStalls().length ? `<p class="plan-summary__line"><b>Watch for:</b> ${planStalls().map(x => esc(x.name.toLowerCase())).join(", ")}</p>` : ""}
       <p class="plan-summary__note">Illustrative: real effect depends on reach, quality and how long each action lasts.</p>
@@ -1485,7 +1491,8 @@
     const g = PG.find(x => x.id === plan.group), L = [];
     L.push("HEAT RESPONSE PLAN", `Place: ${plan.place || "(not set)"}`, `People at risk: ${g ? g.name : "(not set)"}`, `Made with the BeatTheHeat.Asia systems map: ${location.origin + location.pathname}`, "");
     plan.levers.forEach((id, i) => { const v = leverById[id], r = planRow(id);
-      L.push(`${i + 1}. ${v.title} [${WHEN[v.when] || ""}]`, `   Leads: ${instById[r.lead] ? instById[r.lead].name : "-"}`, `   Pays: ${r.payer}`, `   When: ${phaseById[r.phase] ? phaseById[r.phase].name : "-"}`, `   How we will know: ${r.measure || v.measure || "-"}`); });
+      L.push(`${i + 1}. ${v.title} [${WHEN[v.when] || ""}]`, `   Leads: ${instById[r.lead] ? instById[r.lead].name : "-"}`, `   Pays: ${r.payer}`, `   When: ${phaseById[r.phase] ? phaseById[r.phase].name : "-"}`, `   How we will know: ${r.measure || v.measure || "-"}`);
+      if (isAsset(id)) L.push(`   Kept working by: ${r.upkeep || "(not set)"}`); });
     const t = trig(), base = BASES.find(b => b.id === t.basis);
     L.push("", "TRIGGERS AND WARNINGS", `Alerts based on: ${base ? base.name : "(not set)"}`, `Issued by: ${instById[t.issuer || "met"] ? instById[t.issuer || "met"].name : "-"}`);
     LEVELS.forEach(l => L.push(`${l.name} (${l.meaning}): ${t[l.id] || "(not set)"}. Switches on: ${plan.levers.filter(id => planRow(id).phase === l.id).map(id => leverById[id].title).join(", ") || "nothing yet"}`));
@@ -1515,7 +1522,7 @@
       .print{position:fixed;top:16px;right:16px;padding:10px 18px;border-radius:999px;border:0;background:#F26430;font-weight:700;cursor:pointer}
       @media print{.print{display:none}body{margin:0}.read .u{display:block;color:#5E6570;font-size:11px;word-break:break-all}h2{break-after:avoid}.read h3{break-after:avoid}}`;
     const rows = plan.levers.map(id => { const v = leverById[id], r = planRow(id);
-      return `<tr><td><strong>${h(v.title)}</strong><br><span class="note">${h(WHEN[v.when] || "")}</span></td><td>${h(phaseById[r.phase] ? phaseById[r.phase].name : "")}</td><td>${h(instById[r.lead] ? instById[r.lead].name : "")}</td><td class="${r.payer === "Not decided yet" ? "gap" : ""}">${h(r.payer)}</td><td>${h(r.measure || v.measure || "")}</td></tr>`; }).join("");
+      return `<tr><td><strong>${h(v.title)}</strong><br><span class="note">${h(WHEN[v.when] || "")}</span>${isAsset(id) ? `<br><span class="${(r.upkeep || "").trim() ? "note" : "gap"}">Kept working by: ${h(r.upkeep || "not set")}</span>` : ""}</td><td>${h(phaseById[r.phase] ? phaseById[r.phase].name : "")}</td><td>${h(instById[r.lead] ? instById[r.lead].name : "")}</td><td class="${r.payer === "Not decided yet" ? "gap" : ""}">${h(r.payer)}</td><td>${h(r.measure || v.measure || "")}</td></tr>`; }).join("");
     const html = `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Heat response plan: ${h(plan.place || "draft")}</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;700&display=swap"><style>${css}</style></head><body>
       <button class="print" onclick="window.print()">Print or save as PDF</button>
       <p class="k">Heat response plan · draft</p><h1>${h(plan.place || "Our place")}</h1>
@@ -1555,7 +1562,7 @@
     sec.addEventListener("input", ev => {
       const t = ev.target;
       if (t.id === "plan-place") { plan.place = t.value; changed(false); }
-      else if (t.dataset.plField === "measure") { planRow(t.closest("[data-pl-row]").dataset.plRow).measure = t.value; light(); }
+      else if (t.dataset.plField === "measure" || t.dataset.plField === "upkeep") { planRow(t.closest("[data-pl-row]").dataset.plRow)[t.dataset.plField] = t.value; light(); }
       else if (t.id === "plan-review") { plan.review = t.value; light(); }
       else if (t.dataset.plTrig && t.tagName === "INPUT") { trig()[t.dataset.plTrig] = t.value; light(); }
     });
@@ -2015,6 +2022,75 @@
       </li>`).join("");
   }
 
+  // Cooling options by place: tabs for each place, the traps, what changes the result, and the value of cooling
+  const COOL = typeof COOL_PLACES !== "undefined" ? COOL_PLACES : [];
+  const rupees = n => n >= 10000000 ? `₹${+(n / 10000000).toFixed(2)} crore` : n >= 100000 ? `₹${+(n / 100000).toFixed(1)} lakh` : `₹${n.toLocaleString("en-IN")}`;
+  function coolCost(c) {
+    if (!c || c.conf === "low" || !c.high) return `<span class="cool-opt__noquote">No range solid enough to share. Get local quotes.</span>`;
+    return `${rupees(c.low)}–${rupees(c.high)} per ${esc(c.unit)} <span class="cool-opt__conf">${c.conf === "medium" ? "medium confidence" : "low to medium confidence"}</span>${c.src ? `<span class="cool-opt__src">${extLink(c.src.url, c.src.label)}</span>` : ""}`;
+  }
+  function showCoolPlace(id, focus) {
+    const p = COOL.find(x => x.id === id) || COOL[0], panelEl = document.getElementById("cool-panel");
+    if (!p || !panelEl) return;
+    document.querySelectorAll("#cool-tabs [role=tab]").forEach(b => { const on = b.dataset.cool === p.id;
+      b.setAttribute("aria-selected", on ? "true" : "false"); b.tabIndex = on ? 0 : -1; if (on && focus) b.focus(); });
+    panelEl.setAttribute("aria-labelledby", "cool-tab-" + p.id);
+    panelEl.innerHTML = `<div class="cool-panel__head">
+        <p class="cool-panel__protects"><b>Protects</b>${esc(p.protects)}</p>
+        <p class="cool-panel__caution"><b>Key caution</b>${esc(p.caution)}</p>
+      </div>
+      <ul class="cool-opts">${p.options.map(o => `<li class="cool-opt">
+        <h3 class="cool-opt__name">${esc(o.name)}</h3>
+        <p class="cool-opt__does">${esc(o.does)}</p>
+        <dl class="cool-opt__dl"><dt>Keeps working with</dt><dd>${esc(o.keeps)}</dd><dt>Avoid</dt><dd>${esc(o.avoid)}</dd><dt>Rough cost</dt><dd>${coolCost(o.cost)}</dd></dl>
+      </li>`).join("")}</ul>
+      ${(p.facts || []).length ? `<div class="cool-panel__facts">${p.facts.map(f => `<p class="stall__fact">${esc(f.fact)} ${extLink(f.source.url, f.source.label)}</p>`).join("")}</div>` : ""}
+      <p class="cool-panel__measure"><b>How you will know</b>${esc(p.measure)}</p>
+      <p class="risk__row risk__row--break"><span>On the map:</span> ${p.levers.filter(id => leverById[id]).map(id => `<button type="button" class="lever-chip" data-lever="${id}">${esc(leverById[id].title)}</button>`).join("")}</p>
+      <p class="cool-panel__add"><button type="button" class="btn btn--sm btn--teal" data-cool-add="${p.id}">Add these actions to my plan</button></p>`;
+  }
+  function renderCooling() {
+    const tabs = document.getElementById("cool-tabs"); if (!tabs || !COOL.length) return;
+    tabs.innerHTML = COOL.map((p, i) => `<button type="button" role="tab" class="cool-tab" id="cool-tab-${p.id}" data-cool="${p.id}" aria-controls="cool-panel" aria-selected="${i ? "false" : "true"}" tabindex="${i ? -1 : 0}">${esc(p.name)}</button>`).join("");
+    const hash = decodeURIComponent(location.hash.slice(1));
+    showCoolPlace(hash.startsWith("cool-") ? hash.slice(5) : COOL[0].id);
+    tabs.addEventListener("click", ev => { const b = ev.target.closest("[data-cool]"); if (b) showCoolPlace(b.dataset.cool); });
+    tabs.addEventListener("keydown", ev => {
+      const keys = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 }, all = [...tabs.querySelectorAll("[role=tab]")];
+      const i = all.indexOf(document.activeElement); if (i < 0) return;
+      let j = null;
+      if (ev.key in keys) j = (i + keys[ev.key] + all.length) % all.length; else if (ev.key === "Home") j = 0; else if (ev.key === "End") j = all.length - 1;
+      if (j === null) return;
+      ev.preventDefault(); showCoolPlace(all[j].dataset.cool, true);
+    });
+    const note = document.getElementById("cool-costnote"); if (note && typeof COOL_COST_NOTE !== "undefined") note.textContent = COOL_COST_NOTE;
+    const traps = document.getElementById("cool-traps");
+    if (traps && typeof COOL_TRAPS !== "undefined") traps.innerHTML = COOL_TRAPS.map(x => `<li class="cool-trap">
+        <h4>${esc(x.name)}</h4><p>${esc(x.what)}</p>
+        <p class="cool-trap__fix"><b>Instead</b>${esc(x.fix)}${x.step ? ` <a href="#plan-step-${x.step}">Step ${x.step} of the plan</a>` : ""}</p>
+        ${x.fact ? `<p class="stall__fact">${esc(x.fact)} ${extLink(x.source.url, x.source.label)}</p>` : ""}
+      </li>`).join("");
+    const evb = document.getElementById("cool-evidence");
+    if (evb && typeof COOL_EVIDENCE !== "undefined") evb.innerHTML = COOL_EVIDENCE.map(x => `<article class="cool-ev"><h4>${esc(x.name)}</h4><p>${esc(x.text)}</p><p class="cool-ev__src">${extLink(x.source.url, x.source.label)}</p></article>`).join("");
+    const val = document.getElementById("cool-value");
+    if (val && typeof COOL_VALUE !== "undefined") val.innerHTML = `<p class="cool-value__k">Putting a value on cooling</p>
+      <h3 class="cool-value__h">Make the case in lives, work and bills</h3>
+      <p>${esc(COOL_VALUE.text)}</p>
+      <p class="cool-value__lesson">${esc(COOL_VALUE.lesson)}</p>
+      <p class="cool-value__k2">Count the value of cooling in</p>
+      <ul class="cool-value__how">${COOL_VALUE.how.map(h => `<li>${esc(h)}</li>`).join("")}</ul>
+      <p class="cool-ev__src">Sources: ${COOL_VALUE.sources.map(x => extLink(x.url, x.label)).join(" · ")}</p>`;
+    document.getElementById("cooling").addEventListener("click", ev => {
+      const b = ev.target.closest("[data-cool-add]"); if (!b) return;
+      const p = COOL.find(x => x.id === b.dataset.coolAdd), status = document.getElementById("cool-status");
+      const added = p.levers.filter(id => leverById[id] && !plan.levers.includes(id));
+      p.levers.filter(id => leverById[id]).forEach(id => { if (!plan.levers.includes(id)) plan.levers.push(id); const r = planRow(id); if (!(r.measure || "").trim()) r.measure = p.measure; });
+      savePlan(); renderPlan();
+      if (status) status.innerHTML = added.length ? `Added ${plural(added.length, "action")} for ${esc(p.name.toLowerCase())} to your plan. <a href="#plan-step-3">Set who leads, pays and keeps them working</a>.`
+        : `Those actions are already in your plan. <a href="#plan-step-3">Go to step 3</a>.`;
+    });
+  }
+
   function renderList() {
     document.getElementById("web-list").innerHTML = SYSTEMS.map(s => {
       const items = nodes.filter(n => n.sys === s.id && n.kind === "leaf");
@@ -2059,6 +2135,7 @@
     renderGlossary();
     renderAtRisk();
     renderStalls();
+    renderCooling();
     renderList();
     renderStats();
     applyBreakState();

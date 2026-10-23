@@ -1228,3 +1228,66 @@ body.film-open { overflow: hidden; }
 .plan-workshop__agenda li { display: grid; grid-template-columns: 70px 1fr; gap: 12px; padding-top: 8px; border-top: 1px solid var(--line); font-size: .9rem; color: var(--grey-700); }
 .plan-workshop__agenda li span { font-weight: 800; color: #17605A; }
 .plan-workshop__agenda strong { display: block; color: var(--ink); }
+/* ---------- Cooling options by place (part 20 of data.js) ---------- */
+.cooling { padding: clamp(64px, 9vw, 128px) 0; background: var(--canvas); border-top: 1px solid var(--line); }
+.cool-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-top: clamp(28px, 4vw, 44px); }
+.cool-tab { padding: 9px 16px; border: 2px solid var(--ink); border-radius: 999px; background: var(--white); color: var(--ink); font: inherit; font-size: .9rem; font-weight: 700; cursor: pointer; }
+.cool-tab:hover { background: #E8F2F0; }
+.cool-tab[aria-selected="true"] { background: var(--ink); color: var(--canvas); }
+.cool-tab:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
+.cool-panel { margin-top: 18px; padding: clamp(18px, 3vw, 28px); background: var(--white); border-radius: 10px; border-top: 4px solid var(--teal); }
+.cool-panel:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
+.cool-panel__head { display: grid; gap: 12px; }
+@media (min-width: 760px) { .cool-panel__head { grid-template-columns: 1fr 1fr; gap: 24px; } }
+.cool-panel__head p, .cool-panel__measure { font-size: .95rem; color: var(--grey-700); }
+.cool-panel__head b, .cool-panel__measure b, .cool-trap__fix b { display: block; margin-bottom: 4px; font-size: .72rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--grey-500); }
+.cool-panel__caution { padding: 10px 12px; border-left: 4px solid var(--orange); background: #FDF0E8; color: var(--ink) !important; font-weight: 600; }
+.cool-panel__caution b { color: #9A3A0F !important; }
+.cool-opts { list-style: none; padding: 0; margin: 22px 0 0; display: grid; gap: 14px; }
+@media (min-width: 760px) { .cool-opts { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1180px) { .cool-opts { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.cool-opt { display: flex; flex-direction: column; gap: 6px; padding: 16px 18px 18px; background: var(--canvas); border-radius: 8px; }
+.cool-opt__name { font-size: 1.05rem; line-height: 1.25; }
+.cool-opt__does { font-size: .92rem; color: var(--grey-700); }
+.cool-opt__dl { display: grid; gap: 2px; margin: 4px 0 0; font-size: .88rem; }
+.cool-opt__dl dt { margin-top: 8px; font-size: .7rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--grey-500); }
+.cool-opt__dl dd { margin: 0; color: var(--ink); overflow-wrap: anywhere; }
+.cool-opt__conf { display: inline-block; margin-left: 4px; padding: 1px 7px; border-radius: 999px; background: #E8F2F0; color: #17605A; font-size: .7rem; font-weight: 800; }
+.cool-opt__noquote { color: var(--grey-500); font-style: italic; }
+.cool-opt__src { display: block; margin-top: 4px; font-size: .8rem; }
+.cool-opt__src a, .cool-ev__src a, .cool-trap a, .cool__status a { color: var(--grey-700); }
+.cool-panel__facts { margin-top: 18px; display: grid; gap: 10px; }
+@media (min-width: 900px) { .cool-panel__facts { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.cool-panel__facts .stall__fact { margin-top: 0; background: var(--canvas); }
+.cool-panel__measure { margin-top: 18px; }
+.cool-panel .risk__row { margin-top: 14px; }
+.cool-panel__add { margin-top: 14px; }
+.cool__status { min-height: 1.4em; margin-top: 10px; font-size: .92rem; font-weight: 600; color: #17605A; }
+.cool__costnote { max-width: 52rem; font-size: .84rem; color: var(--grey-500); }
+.cool__h { margin-top: clamp(40px, 6vw, 64px); font-family: var(--font-display); font-weight: 400; font-size: clamp(1.5rem, 1.25rem + .8vw, 2rem); line-height: 1.05; text-transform: uppercase; }
+.cool-traps { list-style: none; padding: 0; margin: 18px 0 0; display: grid; gap: 0 28px; counter-reset: t; }
+@media (min-width: 760px) { .cool-traps { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1180px) { .cool-traps { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.cool-trap { counter-increment: t; padding: 16px 0 20px; border-top: 2px solid var(--ink); }
+.cool-trap::before { content: "0" counter(t); display: block; margin-bottom: 6px; font-weight: 700; font-size: .8rem; letter-spacing: .1em; color: #B8460E; }
+.cool-trap h4 { font-size: 1.05rem; }
+.cool-trap > p { margin-top: 6px; font-size: .92rem; color: var(--grey-700); }
+.cool-trap .cool-trap__fix { color: var(--ink); }
+.cool-trap .stall__fact { background: var(--white); }
+.cool-evidence { margin-top: 18px; display: grid; gap: 14px; }
+@media (min-width: 760px) { .cool-evidence { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.cool-ev { padding: 16px 18px; background: var(--white); border-radius: 8px; border-left: 4px solid var(--teal); }
+.cool-ev h4 { font-size: 1.02rem; }
+.cool-ev p { margin-top: 6px; font-size: .92rem; color: var(--grey-700); }
+.cool-ev__src { font-size: .8rem !important; }
+.cool-value { margin-top: clamp(40px, 6vw, 64px); padding: clamp(20px, 3.5vw, 36px); border-radius: 10px; background: var(--ink); color: var(--canvas); }
+.cool-value__k, .cool-value__k2 { font-size: .72rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: #8FD3C8; }
+.cool-value__k2 { margin-top: 18px; }
+.cool-value__h { margin: 6px 0 12px; font-family: var(--font-display); font-weight: 400; font-size: clamp(1.5rem, 1.25rem + .8vw, 2rem); line-height: 1.05; text-transform: uppercase; }
+.cool-value p { max-width: 54rem; font-size: .96rem; }
+.cool-value__lesson { margin-top: 12px; padding-left: 12px; border-left: 4px solid var(--amber); font-weight: 600; }
+.cool-value__how { margin: 8px 0 0; padding-left: 18px; font-size: .94rem; }
+.cool-value__how li + li { margin-top: 3px; }
+.cool-value .cool-ev__src { margin-top: 16px; }
+.cool-value a { color: var(--canvas); }
+.cool-opt__src a, .cool-ev__src a, .cool-panel__facts a, .cool-trap .stall__fact a { display: inline-block; padding: 3px 0; }

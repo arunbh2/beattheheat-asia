@@ -1844,3 +1844,191 @@ const PLAN_WORKSHOP = {
     { time: "15 min", what: "Close", how: "Print the plan, name who does what in the next 30 days, and put the after-season review in the diary." }
   ]
 };
+
+/* ---------- 20. COOLING OPTIONS BY PLACE ---------- */
+// What to build or change where people are, what keeps it working, and the trap to avoid.
+// levers: ids from part 6. measure: a suggested "how you will know", copied into the plan when the place is added.
+// options[].cost (optional): { low, high, unit, conf: "medium" or "low", src (optional) }. Ranges are rough planning
+// figures in Indian rupees. "medium" and "low-medium" ranges are shown with their confidence; "low" ones say "get local quotes" instead.
+// facts: only use published sources you have opened. Book chapters are cited, not adapted (CC BY-NC-ND).
+const NBS_BOOK = "https://doi.org/10.4337/9781800376762";
+const COOL_PLACES = [
+  { id: "homes", name: "Homes", protects: "Sleep, care work, and the older people, young children and sick people who spend the hottest hours indoors.",
+    caution: "Check the roof type, fire safety, tenure and ventilation before any retrofit.",
+    measure: "Indoor temperature at 3 p.m. in treated and untreated homes, logged through the season",
+    levers: ["coolhousing", "coolbydesign", "affordablecool"],
+    options: [
+      { name: "Reflective roof coating", does: "A white, solar-reflective coat on the roof, so less of the sun’s heat passes into the room below.", keeps: "Repainting every few years, and a thermometer to check it works.", avoid: "Promising a fixed number of degrees before you have measured.",
+        cost: { low: 250, high: 350, unit: "m²", conf: "medium", src: { label: "Telangana Cool Roof Policy coverage, 2023: about ₹300 per m²", url: "https://www.ap7am.com/en/63616/telangana-launches-cool-roof-policy-to-reduce-heat-stress" } } },
+      { name: "Lime whitewash", does: "A cheap seasonal white coat that households can apply themselves when a commercial coating is out of reach.", keeps: "Recoating every season, by a named group.", avoid: "Treating it as a lasting retrofit.", cost: { conf: "low" } },
+      { name: "Better roof panels", does: "Replace or cover thin tin or asbestos sheets with an insulated roof panel.", keeps: "A structural check, and secure enough tenure to make the investment safe.", avoid: "Scaling up before checking structure and tenure.", cost: { conf: "low" } },
+      { name: "Insulation under the roof", does: "A fire-safe layer or false ceiling that slows heat coming through the roof.", keeps: "A fire-safety review of the material.", avoid: "Flammable sheets near kitchens or wiring.", cost: { conf: "low" } },
+      { name: "Shade on walls and windows", does: "Bamboo blinds, jute screens or awnings on the sunny side stop sunlight before it reaches the room.", keeps: "Fixing and replacing screens each season.", avoid: "Blocking airflow or all daylight.", cost: { conf: "low" } },
+      { name: "Let the air through", does: "Higher vents and openings that let hot air out at night.", keeps: "Security, rain protection and mosquito screens.", avoid: "Openings that let in dust, rain or intruders.", cost: { conf: "low" } }
+    ],
+    facts: [
+      { fact: "In 16 Ahmedabad slum homes measured in September 2017, rooms under a modular roof averaged about 33.8\u00a0°C against 36.8\u00a0°C under asbestos sheets. White paint on tin did not beat asbestos or concrete in the same comparison: measure before you promise.",
+        source: { label: "Vellingiri et al., Indian Journal of Occupational and Environmental Medicine, 2020", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7227734" } },
+      { fact: "In a two-year trial in Burkina Faso, cool roofs lowered indoor temperatures by 1.2\u00a0°C in tin-and-mud homes and 1.7\u00a0°C in tin-roofed homes, and residents’ heart rates fell. The same team began a year-long trial in about 400 Ahmedabad homes in 2025.",
+        source: { label: "Reuters, via South China Morning Post, 2025", url: "https://www.scmp.com/news/asia/south-asia/article/3301810/indian-slums-get-cool-roofs-beat-summer-heat" } }
+    ] },
+  { id: "work", name: "Outdoor work", protects: "People whose income depends on being outdoors in the hottest hours: vendors, loaders, builders, sanitation workers, traffic police.",
+    caution: "A shelter without water, paid rest or a change of hours is not worker protection.",
+    measure: "Workers within a few minutes’ walk of shade and water, and rest breaks actually taken",
+    levers: ["heatrules", "coolingcentres", "greencity"],
+    options: [
+      { name: "Rest shelters on work routes", does: "Shade, seating and water where workers can recover during a shift.", keeps: "Paid rest time, and someone who cleans and refills it.", avoid: "Treating the shelter as a substitute for work rules.", cost: { low: 150000, high: 500000, unit: "site", conf: "low-medium" } },
+      { name: "Drinking water and rehydration salts", does: "Refill points with safe water and oral rehydration salts at markets, sites and junctions.", keeps: "A daily refill and cleaning roster, often ₹500–2,000 a day.", avoid: "Counting it as cooling: it protects bodies, not temperatures.", cost: { low: 10000, high: 50000, unit: "site", conf: "medium" } },
+      { name: "Shade nets", does: "Quick shade over junctions, queues and work yards.", keeps: "Poles set firmly into the ground, and nets up before the heat starts.", avoid: "Bamboo frames that fall in the first storm.", cost: { low: 300, high: 900, unit: "m²", conf: "low-medium" } },
+      { name: "Shade trees on work routes", does: "Canopy along the streets where people work and wait.", keeps: "Water, root space and three years of care.", avoid: "Counting saplings planted instead of canopy that survives.", cost: { low: 2000, high: 8000, unit: "tree, with 2–3 years’ care", conf: "medium" } },
+      { name: "Misting at hotspots", does: "Fine water spray at a few crowded, dry spots.", keeps: "Safe water, drainage, filters and a technician.", avoid: "Humid places and water-short cities: in humid heat the benefit roughly halves.", cost: { low: 40000, high: 200000, unit: "site", conf: "medium" } }
+    ],
+    facts: [
+      { fact: "Nagpur strung green shade nets over 10–12 busy junctions in May 2026. Several tore or collapsed in strong winds, and residents pointed out the heat had begun at the end of March. A net had also fallen at Tukdoji Square in 2025 because its bamboo was not set firmly into the road.",
+        source: { label: "The Hitavada, 11 May 2026", url: "https://www.thehitavada.com//Encyc/2026/5/11/green-nets-at-city-squares-relief-measure-or-another-half-planned-half-planned-civic-experiment.html" } },
+      { fact: "Comparing Phoenix with humid Houston, misters still cut heat stress in the humid city, but with about half the benefit, and only when there was some wind.",
+        source: { label: "US National Science Foundation public access repository", url: "https://par.nsf.gov/biblio/10642926" } }
+    ] },
+  { id: "schools", name: "Schools and childcare", protects: "Learning, play, attendance and drinking water for children and the staff who look after them.",
+    caution: "Count shade and surviving trees, not saplings planted.",
+    measure: "Classroom temperature at 2 p.m. before and after, and school days lost to heat",
+    levers: ["keepinschool", "coolbydesign", "greencity"],
+    options: [
+      { name: "Cool classroom roofs", does: "A reflective coat or a ventilated second roof over the hottest classrooms.", keeps: "A line in the school’s maintenance budget.", avoid: "Roof canopies that are not anchored for monsoon winds.", cost: { low: 250, high: 350, unit: "m² for a coating", conf: "medium" } },
+      { name: "Shaded play space", does: "Trees, shade structures and less hard paving where children play.", keeps: "Watering through the holidays, when nobody is at school.", avoid: "Planting that dies in the first summer break.", cost: { low: 200000, high: 4000000, unit: "school, from basic greening to a full package", conf: "low-medium" } },
+      { name: "Shade on classroom windows", does: "Screens or awnings on the sunny side of classrooms.", keeps: "Fixing them back after each monsoon.", avoid: "Making rooms so dark that lights and fans run all day.", cost: { conf: "low" } },
+      { name: "Drinking water at school", does: "Enough safe, cool water for every child, with time in the timetable to drink it.", keeps: "Filter changes and cleaning.", avoid: "One tap for hundreds of children.", cost: { low: 10000, high: 50000, unit: "point", conf: "medium" } }
+    ],
+    facts: [
+      { fact: "Researchers who studied how age groups use green spaces found that older people asked for benches, shelter during extreme weather and safe paths, while children wanted trees for shade and places to play. Ask both before you design.",
+        source: { label: "Frantzeskaki et al., chapter 11 in Nature-Based Solutions for Cities, 2023", url: NBS_BOOK } }
+    ] },
+  { id: "markets", name: "Markets and street vending", protects: "Vendors’ income and stock, customers, and the porters who load and unload in the heat.",
+    caution: "Design it with the vendors and protect their place, or the upgrade becomes an eviction.",
+    measure: "Vendors with shade and water at their stall, and vendors still trading there a year later",
+    levers: ["heatrules", "greencity", "socialprotection"],
+    options: [
+      { name: "Shade over stalls and aisles", does: "Nets, fabric or a light frame with climbing plants over the places vendors sit.", keeps: "Storm-proof fixing and someone to replace worn cloth.", avoid: "Shade that blocks fire access or loading.", cost: { low: 300, high: 900, unit: "m² for shade nets", conf: "low-medium" } },
+      { name: "Water and rehydration points", does: "Safe drinking water for vendors and customers.", keeps: "A refill and cleaning roster agreed with the market association.", avoid: "Points nobody is responsible for.", cost: { low: 10000, high: 50000, unit: "site", conf: "medium" } },
+      { name: "Planted drains and rain gardens", does: "Planted channels and hollows that soak up runoff so the market does not flood after a storm.", keeps: "Rubbish collection, or they clog.", avoid: "Building them where waste is dumped.", cost: { low: 500, high: 3000, unit: "m²", conf: "low-medium" } },
+      { name: "A whole-market package", does: "Shade, water, cool roofs, drainage, trees and waste collection together, run with the vendors.", keeps: "A vendor committee with a say over the design and the upkeep.", avoid: "Beautification that pushes informal vendors out.", cost: { low: 1000000, high: 5000000, unit: "market cluster", conf: "low-medium" } }
+    ],
+    facts: [
+      { fact: "India’s Street Vendors Act (2014) gives vendors 40% of the seats on each town vending committee and says no vendor may be evicted or relocated until a survey of existing vendors is complete: a hook for designing market cooling with vendors, not around them.",
+        source: { label: "Street Vendors (Protection of Livelihood and Regulation of Street Vending) Act, 2014, on FAOLEX", url: "https://faolex.fao.org/docs/pdf/ind194977.pdf" } }
+    ] },
+  { id: "waiting", name: "Bus stops and queues", protects: "Commuters, patients queuing at clinics, people waiting for rations or wages, and visitors.",
+    caution: "Put the shade where people actually stand, at the hours they wait.",
+    measure: "People waiting in shade at the busiest hour, counted at each stop",
+    levers: ["coolingcentres", "greencity"],
+    options: [
+      { name: "Cool waiting points", does: "Shade, a bench, drinking water and a board showing the heat alert, at bus stops, clinics and ration shops.", keeps: "Access for older and disabled people, and someone who refills the water.", avoid: "Counting shelters built instead of people protected.", cost: { low: 50000, high: 600000, unit: "site", conf: "medium" } },
+      { name: "Planted bus stops", does: "Climbers on a frame that shade the stop more each year.", keeps: "Watering and pruning.", avoid: "Living shade with no water plan.", cost: { conf: "low" } },
+      { name: "Trees where queues form", does: "Canopy over the places people wait every day.", keeps: "Root space, water and three years of care.", avoid: "Planting where the queue isn’t.", cost: { low: 2000, high: 8000, unit: "tree, with 2–3 years’ care", conf: "medium" } },
+      { name: "Shorter waits", does: "Appointment slots, token systems and timed services so fewer people stand in the sun at midday.", keeps: "Agreement from the clinic, office or transport operator.", avoid: "Assuming shade is the only answer.", cost: { conf: "low" } }
+    ],
+    facts: [
+      { fact: "Measuring how hot people actually feel on summer days in Tempe, Arizona, researchers found shade from buildings cooled most by day, then trees, then light structures such as sails. Air temperature barely differed between them, and every kind of shade held heat after sunset.",
+        source: { label: "Middel et al., 50 Grades of Shade, Bulletin of the American Meteorological Society", url: "https://par.nsf.gov/biblio/10230332-grades-shade" } }
+    ] },
+  { id: "flood", name: "Heat and waterlogging", protects: "Neighbourhoods that bake in summer and flood in the monsoon, and the groundwater both depend on.",
+    caution: "Stop sewage and rubbish flowing in, and fund the desilting, before calling it blue-green.",
+    measure: "Waterlogging hours after heavy rain, and summer temperature near the site, before and after",
+    levers: ["greencity", "heatbudget"],
+    options: [
+      { name: "Sponge parks", does: "Small parks shaped to hold, soak up and slowly release stormwater, with plants that cool the area around them.", keeps: "An overflow, mosquito control and desilting before each monsoon.", avoid: "Standing water.", cost: { low: 800000, high: 1700000, unit: "park", conf: "medium", src: { label: "Chennai: 57 sponge parks commissioned for ₹7.67 crore, about ₹13.5 lakh each by our arithmetic", url: "https://swarajyamag.com/amp/story/infrastructure%2Fchennais-transformation-into-sponge-city-gcc-to-set-up-57-sponge-parks-for-flood-prevention" } } },
+      { name: "Restored ponds and lakes", does: "Desilted, protected water bodies with planted edges that store floodwater, recharge groundwater and cool their surroundings.", keeps: "Sewage diverted away, and rubbish kept out.", avoid: "Calling a polluted pond a cooling asset.", cost: { low: 3600000, high: 30000000, unit: "pond", conf: "medium", src: { label: "Chennai: one pond restored for ₹36 lakh", url: "https://www.dtnext.in/news/chennai/after-50-years-siva-vishnu-pond-rejuvenated-for-rs-36-lakh-by-chennai-corporation-796892" } } },
+      { name: "Planted drains and rain gardens", does: "Channels and hollows that slow, clean and soak up runoff from roofs and lanes.", keeps: "Rubbish collection and an overflow.", avoid: "Places where they will become open garbage drains.", cost: { low: 500, high: 3000, unit: "m²", conf: "low-medium" } },
+      { name: "Permeable paving", does: "Paving that lets rain soak in instead of running off.", keeps: "Regular cleaning so it does not clog.", avoid: "Claiming it cools unless there is shade and moist soil too.", cost: { low: 900, high: 2500, unit: "m²", conf: "low-medium" } },
+      { name: "Recharge pits", does: "Small pits that send roof and courtyard runoff into the ground.", keeps: "A filter, so polluted water does not reach shallow wells.", avoid: "Recharging dirty runoff.", cost: { low: 5000, high: 30000, unit: "pit", conf: "low-medium" } }
+    ],
+    facts: [
+      { fact: "Over four years, Greater Chennai Corporation restored 70 ponds for ₹144.34 crore and built 88 rainwater-harvesting parks for ₹14.74 crore.",
+        source: { label: "The News Minute", url: "https://www.thenewsminute.com/tamil-nadu/chennai-civic-body-ramps-up-pond-restoration-rainwater-harvesting-parks-ahead-of-monsoon" } },
+      { fact: "Bangkok’s Benjakitti Forest Park, a former tobacco factory turned wetland, is designed to hold 87 million litres of water.",
+        source: { label: "Mongabay, 2024", url: "https://news.mongabay.com/2024/09/bangkok-turns-to-urban-forests-to-beat-worsening-floods/" } },
+      { fact: "China’s sponge-city pilots in 30 cities (2014–2019) often built projects one at a time instead of as a city-wide system, struggled to get engineers and designers working together, and left cities worried about paying for more once pilot money ended.",
+        source: { label: "McPhillips et al., chapter 7 in Nature-Based Solutions for Cities, 2023", url: NBS_BOOK } },
+      { fact: "Jakarta’s green space was about 5.2–5.6% of the city in 2024–25, sources differ, against a legal target of 30%, now pushed back to 2045.",
+        source: { label: "Metro TV News", url: "https://www.metrotvnews.com/read/KXyCWwmW-target-30-ruang-terbuka-hijau-jakarta-dikejar-hingga-2045" } }
+    ] },
+  { id: "dry", name: "Greening where water is short", protects: "Trees, soil moisture and groundwater, and the long-term shade they give.",
+    caution: "Planting without water, soil care and a survival budget is not adaptation.",
+    measure: "Trees alive and growing after three years, against trees planted",
+    levers: ["greencity", "soilwater"],
+    options: [
+      { name: "Care for the trees you have", does: "Better tree pits, mulch, compost and looser soil so existing trees take up water and survive.", keeps: "A yearly care round.", avoid: "Replanting instead of fixing why trees die.", cost: { conf: "low" } },
+      { name: "Rainwater for trees", does: "Store runoff from roofs and streets to water trees and gardens through dry spells.", keeps: "Clean tanks and a plan for the dry months.", avoid: "Planting with no water source at all.", cost: { low: 20000, high: 200000, unit: "site", conf: "low-medium" } },
+      { name: "Treated wastewater for parks", does: "Use treated water from a treatment plant for parks and tree corridors, so greenery does not compete with drinking water.", keeps: "Treatment that is checked.", avoid: "Untreated sewage on public land.", cost: { conf: "low" } },
+      { name: "Street trees with three years’ care", does: "Hardy, shade-giving species, chosen for the heat and drought ahead.", keeps: "Species choice, root space, water and a named owner.", avoid: "Counting planted trees.", cost: { low: 2000, high: 8000, unit: "tree, with 2–3 years’ care", conf: "medium" } },
+      { name: "Dense mini-forests", does: "Small, densely planted native woods on spare public land.", keeps: "Water through the first years.", avoid: "Assuming they beat ordinary shade trees on value.", cost: { conf: "low" } }
+    ],
+    facts: [
+      { fact: "In Berlin’s Johannisthal park, more than 500 of 870 newly planted native trees died within ten years despite watering, so the shade and cooling never arrived. Across the city, about 44,000 street trees were cut between 2012 and 2019 and about 18,000 planted.",
+        source: { label: "Hansen et al., chapter 10 in Nature-Based Solutions for Cities, 2023", url: NBS_BOOK } },
+      { fact: "In Santiago de Chile, how well a municipality manages its trees was the strongest predictor of whether they survive, and wealthier municipalities spend far more on it.",
+        source: { label: "Hansen et al., chapter 10 in Nature-Based Solutions for Cities, 2023", url: NBS_BOOK } }
+    ] },
+  { id: "system", name: "Making it last", protects: "Every asset above: who targets it, who opens it on an alert, who pays for upkeep, and who hears complaints.",
+    caution: "Often the most useful layer, and the easiest to leave unfunded.",
+    measure: "Cooling assets still working after three years, each with a named owner and an upkeep budget",
+    levers: ["hap", "heatbudget"],
+    options: [
+      { name: "Link the heat plan to the assets", does: "A ward or settlement plan that says which shelters, water points and cool spaces open at each alert level, and who opens them.", keeps: "A yearly review with the people who use them.", avoid: "A plan with no budget or named owners.", cost: { low: 500000, high: 2500000, unit: "plan", conf: "medium" } },
+      { name: "An upkeep agreement", does: "A written deal between the council, community groups, schools or vendors on who repaints, waters, prunes, refills and repairs.", keeps: "Money from the running budget, not only the building budget.", avoid: "Paying to build without paying to maintain.", cost: { low: 200000, high: 1000000, unit: "year, for a cluster of assets", conf: "low-medium" } },
+      { name: "Map risk with the people exposed", does: "Walk the area with workers, women, older and disabled people, migrants and renters to see who is exposed, why warnings fail, and where assets should go.", keeps: "Repeating it as people and places change.", avoid: "Relying on satellite heat maps alone.", cost: { low: 500000, high: 2000000, unit: "baseline", conf: "medium" } },
+      { name: "A way to complain and be heard", does: "An accessible route for complaints and feedback, set up before work starts.", keeps: "Someone who answers within a set time.", avoid: "Starting work where affected people have no voice or remedy.", cost: { low: 100000, high: 500000, unit: "set-up", conf: "medium" } },
+      { name: "Find the hooks in existing plans", does: "Search city, disaster, water and climate plans and budgets for mandates and money that cooling can use.", keeps: "Checking what you find with the officials concerned.", avoid: "Assuming nothing exists because nobody uses the words “nature-based solutions”.", cost: { low: 100000, high: 500000, unit: "review", conf: "medium" } }
+    ],
+    facts: [
+      { fact: "In Melbourne, officials found money for new green infrastructure was usually available, but running budgets were under pressure and rarely increased, even as the area to maintain grew.",
+        source: { label: "Hansen et al., chapter 10 in Nature-Based Solutions for Cities, 2023", url: NBS_BOOK } },
+      { fact: "In Santiago, without long-term financing, only better-off municipalities could take part in green-space programmes, because only they could afford the extra upkeep.",
+        source: { label: "Hansen et al., chapter 10 in Nature-Based Solutions for Cities, 2023", url: NBS_BOOK } },
+      { fact: "The IUCN Global Standard for Nature-based Solutions makes inclusive governance and equity one of its eight criteria.",
+        source: { label: "IUCN Global Standard: the eight criteria", url: "https://inbs.iucn.org/understand/8-criteria/" } }
+    ] }
+];
+
+// The traps that turn cooling money into assets that stop working. fix: what to do instead. step (optional): the plan step that helps.
+const COOL_TRAPS = [
+  { name: "Buying before diagnosing", what: "The asset is chosen before anyone has mapped who is exposed, where and why, so the shade ends up where nobody waits.",
+    fix: "Start with the people and places at risk, then choose.", step: 1 },
+  { name: "Built, with no one to keep it", what: "It looks good for one season, then fades because no running budget or owner was set aside.",
+    fix: "Name who keeps each asset working after year one, and from which budget.", step: 3,
+    fact: "The authors of a four-city study warn that without upkeep, green investments become “high-profile ribbon-cutting events but no long-term benefit”.",
+    source: { label: "Hansen et al., chapter 10 in Nature-Based Solutions for Cities, 2023", url: NBS_BOOK } },
+  { name: "Green without water", what: "Trees, parks and green roofs go in with no water source, soil care or survival budget.",
+    fix: "Secure the water and three years of care before planting, and count trees that survive." },
+  { name: "Promising degrees you haven’t measured", what: "A fixed temperature drop is promised from another place’s study.",
+    fix: "Log temperatures in treated and untreated places, and report what you measured.", step: 3 },
+  { name: "A list of activities, not a model", what: "A proposal lists many activities, but none says who it protects, what it costs per unit, who owns it and what changes.",
+    fix: "For each option, name the users, the unit cost, the owner and the outcome." }
+];
+
+// What changes the result: evidence that cuts against common assumptions.
+const COOL_EVIDENCE = [
+  { name: "Shade beats air temperature", text: "In hot, sunny places, how hot people feel outdoors depends more on radiant heat from the sun and surfaces than on air temperature. Shade from buildings cooled most by day in a Tempe study, then trees, then light structures.",
+    source: { label: "Middel et al., 50 Grades of Shade", url: "https://par.nsf.gov/biblio/10230332-grades-shade" } },
+  { name: "Reflective paving can make walking hotter", text: "In Los Angeles, coated roads were up to 6\u00a0°C cooler on the surface, but pedestrians above them received about 4\u00a0°C more radiant heat. Pair reflective surfaces with shade.",
+    source: { label: "Arizona State University, 2020", url: "https://news.asu.edu/20200505-discoveries-street-smarts-required-heat-mitigation" } },
+  { name: "Misting depends on humidity and air movement", text: "In Singapore, a misting fan cut air temperature by about 1.5\u00a0°C and made people feel cooler. An overhead misting line without fans made no significant difference.",
+    source: { label: "Review in Clean Technologies, MDPI, 2021", url: "https://www.mdpi.com/2571-8797/3/1/11" } },
+  { name: "Trees cool people more than thermometers show", text: "WRI’s Cool Cities Lab puts the improvement trees make to thermal comfort at roughly 2–8\u00a0°C. That measures how hot people feel, which is not the same as air temperature.",
+    source: { label: "World Resources Institute: Urban trees, an underused tool for keeping people cool", url: "https://www.wri.org/insights/urban-trees-cooling-potential" } }
+];
+
+// Putting a value on cooling: the Haizhu wetland in Guangzhou, modelled against housing in its place.
+const COOL_VALUE = {
+  text: "Modelled against housing built in its place, Guangzhou’s Haizhu wetland keeps the area within 600\u00a0m about 0.25\u00a0°C cooler on a typical summer day, and over 1\u00a0°C cooler on the site itself. Without it, productivity in nearby heavy outdoor work would fall by 2.5% in May and 16.1% in October, monthly risk of death would rise by 1.23–1.27% from June to September, and cooling bills would rise by about US$1.9 million over 30 years.",
+  lesson: "Most of the wetland’s US$146.8 million value comes from carbon and mental health, not cooling. So make the heat case in lives, heavy outdoor work and bills, not money alone. And the same cooling is worth most to people without air conditioning.",
+  how: ["Heavy outdoor work: hours and output kept in the heat", "Health: change in heat deaths and illness", "Bills: energy for cooling avoided", "Who gains: households without air conditioning first"],
+  sources: [
+    { label: "Guerry et al., chapter 12 in Nature-Based Solutions for Cities, 2023", url: NBS_BOOK },
+    { label: "World Bank and GPSC: the Haizhu wetland assessment, 2022", url: "https://www.thegpsc.org/sites/gpsc/files/haizhu_wetland_report_fin.pdf" } ]
+};
+
+// Actions in the plan that build or run physical cooling assets: step 3 asks who keeps them working.
+const COOL_ASSET_LEVERS = ["coolbydesign", "greencity", "coolhousing", "coolingcentres", "soilwater"];
+
+const COOL_COST_NOTE = "Costs are rough planning ranges in Indian rupees, for early budgeting only. They come from a practitioner’s planning workbook and are not quotes; where a public figure exists, it is linked. Where no range is solid enough to share, the card says so: get local quotes.";
