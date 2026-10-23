@@ -32,7 +32,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap">
 
-  <link rel="stylesheet" href="styles.css?v=67">
+  <link rel="stylesheet" href="styles.css?v=68">
 
   <script type="application/ld+json">
   {
@@ -67,8 +67,8 @@
     }
   }
   </script>
-  <script src="data.js?v=67" defer></script>
-  <script src="script.js?v=67" defer></script>
+  <script src="data.js?v=68" defer></script>
+  <script src="script.js?v=68" defer></script>
 </head>
 
 <body>
@@ -348,7 +348,7 @@
       <div class="container">
         <p class="eyebrow eyebrow--break">Plan a response</p>
         <h2 id="plan-title" class="h2">Turn the map<br>into a plan.</h2>
-        <p class="loops__intro">For a workshop or a team meeting. Choose a place and who you are protecting, pick the actions, agree who leads, who pays and how you will know it is working, then name what could stop it. What you type stays in this browser.</p>
+        <p class="loops__intro">For a workshop or a team meeting. Six steps take you from who you are protecting to a plan you can run: actions with owners and money, the alert levels that switch them on, how warnings reach people, what could stop it, and a check against WHO’s eight core elements of a heat-health action plan. What you type stays in this browser.</p>
 
         <div class="plan__example">
           <p><strong>See it done.</strong> Ahmedabad turned a deadly heatwave into South Asia’s first heat action plan. Thane built its plan ward by ward. Tamil Nadu gave heat an owner across a whole state. Singapore wrote heat into the rules for outdoor work, and Dhaka releases help on the forecast, before the peak.</p>
@@ -361,15 +361,19 @@
           </div>
         </div>
         <details class="plan-checklist" id="plan-checklist">
-          <summary>What strong city heat plans include <span>8 things, with real examples</span></summary>
+          <summary>What strong heat plans include <span id="plan-checklist-count">with real examples</span></summary>
           <ol id="plan-checklist-list"></ol>
           <p class="plan-checklist__src" id="plan-checklist-src"></p>
+        </details>
+        <details class="plan-checklist plan-workshop" id="plan-workshop">
+          <summary>Run it as a 90-minute workshop <span>who to invite, and an agenda</span></summary>
+          <div id="plan-workshop-body"></div>
         </details>
         <div id="plan-story" class="plan-story" hidden></div>
 
         <div class="plan__layout">
           <div class="plan__steps">
-            <fieldset class="plan-step">
+            <fieldset class="plan-step" id="plan-step-1">
               <legend><span>1</span> Where, and who are you protecting?</legend>
               <div class="plan-step__row">
                 <label>Place <input type="text" id="plan-place" placeholder="e.g. a ward, a city or a district" autocomplete="off"></label>
@@ -381,14 +385,25 @@
               <p class="plan-step__hint">Actions suggested for the people you chose are marked. Add or remove any.</p>
               <div id="plan-actions" class="plan-actions"></div>
             </fieldset>
-            <fieldset class="plan-step">
-              <legend><span>3</span> Agree who leads, who pays and how you will know</legend>
+            <fieldset class="plan-step" id="plan-step-3">
+              <legend><span>3</span> Agree who leads, who pays, when it happens and how you will know</legend>
               <div id="plan-rows" class="plan-rows"></div>
+              <label class="plan-review">When will you review the plan after the season? <input type="text" id="plan-review" placeholder="e.g. first week of October, with every lead department" autocomplete="off"></label>
+            </fieldset>
+            <fieldset class="plan-step" id="plan-step-4">
+              <legend><span>4</span> Set the triggers and the warnings</legend>
+              <p class="plan-step__hint">A warning only protects people if it switches on action. Agree what each alert level means, who issues it and how it reaches people, including those without a phone.</p>
+              <div id="plan-triggers" class="plan-triggers"></div>
             </fieldset>
             <fieldset class="plan-step">
-              <legend><span>4</span> What could stop it?</legend>
+              <legend><span>5</span> What could stop it?</legend>
               <p class="plan-step__hint">Tick what you expect to get in the way. Each one adds what has moved it elsewhere to your plan.</p>
               <div id="plan-stalls" class="plan-stalls"></div>
+            </fieldset>
+            <fieldset class="plan-step" id="plan-step-6">
+              <legend><span>6</span> Check it against WHO’s eight core elements</legend>
+              <p class="plan-step__hint">WHO/Europe’s 2026 guidance sets out eight elements that working heat-health action plans share. This check updates as you fill in the steps above.</p>
+              <div id="plan-check" class="plan-check-list" aria-live="polite"></div>
             </fieldset>
           </div>
           <div class="plan-summary" id="plan-summary" aria-live="polite"></div>

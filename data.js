@@ -1481,6 +1481,7 @@ const PLAN_GROUPS = [
 const PLAN_PAYERS = ["Not decided yet", "Public budget", "Employers", "Philanthropy", "Insurance or a risk pool", "Development finance", "Households and communities", "Not documented"];
 
 // Worked examples: real places, documented actions and results. Only use published sources.
+// actions[].phase (optional): when the action happens, from part 19; triggers (optional): the documented alert basis and levels.
 const WORKED_EXAMPLES = [
   { id: "ahmedabad", place: "Ahmedabad, India", group: "city", year: "2013 onwards",
     title: "Ahmedabad’s heat action plan",
@@ -1497,6 +1498,7 @@ const WORKED_EXAMPLES = [
       { label: "NRDC: the plan’s components and cool roofs", url: "https://www.nrdc.org/press-releases/ahmedabads-pioneering-plan-now-shielding-millions-killer-heat" },
       { label: "Hess et al., 2018: deaths avoided", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6236972/" }
     ],
+    triggers: { basis: "local", yellow: "Colour-coded alerts from IMD forecasts, at thresholds set from the city’s own death records", issuer: "city", channels: [] },
     note: "The plan below is filled in with Ahmedabad’s documented actions. Who paid is not set out in these sources, so it is marked “Not documented”." },
   { id: "thane", place: "Thane, India", group: "city", year: "2024 onwards",
     title: "Thane’s ward-by-ward heat action plan",
@@ -1537,8 +1539,8 @@ const WORKED_EXAMPLES = [
     decision: "In 2023 the National Environment Agency launched a national heat stress advisory based on wet-bulb globe temperature (WBGT), which counts humidity, sun and wind, with low, moderate and high levels. The Ministry of Manpower made employers check WBGT hourly at outdoor work, give at least 10 minutes’ shaded rest each hour for heavy work at 32\u00a0°C or above, help new workers acclimatise, and enforced it.",
     result: "In March and June 2024 the ministry inspected 250 workplaces and acted against 78, mainly for missing shaded rest breaks and acclimatisation. The rules have since been revised and strengthened. Their effect on heat illness has not yet been publicly evaluated.",
     actions: [
-      { lever: "heatrules", lead: "nat", payer: "Employers", measure: "Outdoor worksites checking WBGT hourly and giving shaded rest breaks; workplaces inspected" },
-      { lever: "hap", lead: "met", payer: "Not documented", measure: "Heat stress advisory with three WBGT risk levels, shown by location" },
+      { lever: "heatrules", phase: "orange", lead: "nat", payer: "Employers", measure: "Outdoor worksites checking WBGT hourly and giving shaded rest breaks; workplaces inspected" },
+      { lever: "hap", phase: "red", lead: "met", payer: "Not documented", measure: "Heat stress advisory with three WBGT risk levels, shown by location" },
       { lever: "greencity", lead: "city", payer: "Not documented", measure: "Districts modelled for cooling through Cooling Singapore" }
     ],
     sources: [
@@ -1548,6 +1550,7 @@ const WORKED_EXAMPLES = [
       { label: "NUS Project HeatSafe, 2024", url: "https://medicine.nus.edu.sg/wp-content/uploads/2024/03/PRESS-RELEASE_Project-HeatSafe-18MAR2024-FOR-IMMEDIATE-RELEASE.pdf" },
       { label: "Cooling Singapore", url: "https://www.thegpsc.org/sites/gpsc/files/cooling_singapore_-_digital_urban_climate_twin.pdf" }
     ],
+    triggers: { basis: "wbgt", orange: "32\u00a0°C: shaded rest every hour for heavy outdoor work", red: "33\u00a0°C: high heat stress advisory", issuer: "met", channels: ["apps", "work"] },
     note: "The plan below is filled in with Singapore’s documented measures. The rules oblige employers to provide rest and shade; who pays for the advisory and for Cooling Singapore is not set out in these sources." },
   { id: "dhaka", place: "Dhaka, Bangladesh", group: "city", year: "2023 onwards",
     title: "Dhaka acts before the heat peaks",
@@ -1555,9 +1558,9 @@ const WORKED_EXAMPLES = [
     decision: "In 2023 Dhaka North City Corporation appointed Asia’s first Chief Heat Officer, a post paid for by the Arsht-Rock foundation rather than the city, to bring heat planning together. The same year the Bangladesh Red Crescent Society’s heatwave early action protocol was approved: when forecasts pass 38\u00a0°C, warnings, drinking water, cooling stations and cash grants go out before the peak.",
     result: "On 21 April 2024 the protocol was activated for Dhaka, with about CHF 500,000 from the IFRC’s emergency fund to reach some 124,000 people. Its effect on illness and deaths has not been publicly evaluated. What it shows is money and a plan agreed before the heat, released by a forecast.",
     actions: [
-      { lever: "anticipatory", lead: "community", payer: "Not documented", measure: "Days from a 38\u00a0°C forecast to cash, water and warnings reaching people" },
-      { lever: "coolingcentres", lead: "community", payer: "Not documented", measure: "Cooling stations open at three locations during the heatwave" },
-      { lever: "hap", lead: "city", payer: "Philanthropy", measure: "A Chief Heat Officer bringing the city’s heat planning together" }
+      { lever: "anticipatory", phase: "red", lead: "community", payer: "Not documented", measure: "Days from a 38\u00a0°C forecast to cash, water and warnings reaching people" },
+      { lever: "coolingcentres", phase: "red", lead: "community", payer: "Not documented", measure: "Cooling stations open at three locations during the heatwave" },
+      { lever: "hap", phase: "before", lead: "city", payer: "Philanthropy", measure: "A Chief Heat Officer bringing the city’s heat planning together" }
     ],
     sources: [
       { label: "Red Cross Red Crescent Climate Centre, 2024", url: "https://www.climatecentre.org/13733/red-crescent-activates-early-action-protocol-for-heatwaves-in-dhaka/" },
@@ -1565,6 +1568,7 @@ const WORKED_EXAMPLES = [
       { label: "World Bank, 2025", url: "https://www.worldbank.org/en/news/press-release/2025/09/16/bangladesh-faces-health-and-economic-risks-from-rising-temperature-world-bank" },
       { label: "NBC News: school closures, 2024", url: "https://www.nbcnews.com/news/world/schools-close-extreme-heat-philippines-bangladesh-asia-rcna149485" }
     ],
+    triggers: { basis: "temp", red: "Forecast above 38\u00a0°C: early action protocol activated", issuer: "met", channels: [] },
     note: "The plan below is filled in with Dhaka’s documented actions. The Chief Heat Officer is funded by philanthropy; the early action protocol drew on the IFRC’s emergency fund, which is not one of this tool’s payer options, so it is marked “Not documented”." }
 ];
 
@@ -1749,3 +1753,94 @@ const STALLS = [
     source: { label: "IFRC, Practical Action and the Climate Centre, 2026", url: "https://www.preventionweb.net/publication/documents-and-publications/understanding-global-landscape-heat-early-warning-systems" },
     levers: ["coolhousing", "cleancool", "riskpools"], loops: ["protection"] }
 ];
+
+/* ---------- 19. PLAN TOOLKIT: timing, triggers, warnings and a readiness check ---------- */
+// Used by "Plan a response". Only use published sources you have opened.
+
+// When each action happens in the year. Heat plans run in three phases: before the season, on alert days, after it (with long-term work alongside).
+const PLAN_PHASES = [
+  { id: "before", name: "Before the hot season", hint: "Train staff, set budgets, map risk, prepare clinics and shelters" },
+  { id: "yellow", name: "From a yellow alert", hint: "Watch: warn the public and check on people at risk" },
+  { id: "orange", name: "From an orange alert", hint: "Be prepared: open cooling spaces, shift work hours, ready hospitals" },
+  { id: "red", name: "At a red alert", hint: "Take action: every department at full response" },
+  { id: "after", name: "After the season", hint: "Count the toll, review what worked, fix it before next year" },
+  { id: "year", name: "All year, long term", hint: "Cooler buildings, greener streets, cleaner cooling" }
+];
+// A sensible starting point for each action; planners can change it.
+const PLAN_PHASE_DEFAULT = {
+  emissions: "year", cleancool: "year", soilwater: "year", blackcarbon: "year", firesmart: "before", coolbydesign: "year", greencity: "year",
+  drypower: "year", pumpbackup: "before", irrigate: "year", farmcredit: "before", hap: "yellow", readyclinics: "before", heatrules: "orange",
+  heatcash: "red", socialprotection: "before", freecare: "yellow", affordablecool: "before", coolhousing: "year", keepinschool: "orange",
+  coolnights: "orange", countdeaths: "after", coolingcentres: "orange", heatbudget: "before", anticipatory: "orange", heatlending: "orange", riskpools: "before"
+};
+const PLAN_PHASE_SOURCE = { label: "National Centre for Disease Control, India: training manual for heat-health action plans (before, during and after the heat season)", url: "https://ncdc.mohfw.gov.in/wp-content/uploads/2024/05/4-Training-Manual-for-State-And-District-Nodal-Officers-For-Implementation-of-Heat-Health-Action-Plan.pdf" };
+
+// What alerts can be based on, with documented examples from Asia.
+const PLAN_TRIGGER_BASES = [
+  { id: "temp", name: "Forecast daily maximum temperature",
+    eg: "India’s weather service declares a heatwave in the plains when the maximum reaches 40 °C and is 4.5 °C or more above normal, or reaches 45 °C. The Bangladesh Red Crescent acts on forecasts above 38 °C in Dhaka.",
+    sources: [{ label: "India Meteorological Department: heatwave definitions", url: "https://mausam.imd.gov.in/pdfs/heatcolduser/Definition.pdf" },
+      { label: "Red Cross Red Crescent Climate Centre on Dhaka, 2024", url: "https://www.climatecentre.org/13733/red-crescent-activates-early-action-protocol-for-heatwaves-in-dhaka/" }] },
+  { id: "index", name: "Heat index (‘feels like’: temperature and humidity)",
+    eg: "The Philippines warns at four levels: caution at 27–32 °C, extreme caution at 33–41 °C, danger at 42–51 °C, and extreme danger at 52 °C or more. Schools can suspend classes at danger levels.",
+    sources: [{ label: "GMA News on PAGASA’s heat index levels", url: "https://www.gmanetwork.com/regionaltv/news/113664/authorities-underscore-protection-as-heat-from-sun-gets-more-intense/story/" }] },
+  { id: "wbgt", name: "Wet-bulb globe temperature (heat, humidity, sun and wind)",
+    eg: "Singapore’s advisory marks high heat stress at 33 °C, and employers must give shaded rest every hour for heavy outdoor work from 32 °C.",
+    sources: [{ label: "Singapore: Heat Stress Advisory, 2023", url: "https://www.mse.gov.sg/latest-news/press-release-heat-stress-advisory/" },
+      { label: "Singapore Ministry of Manpower, 2023", url: "https://www.mom.gov.sg/newsroom/press-releases/2023/1024-enhanced-measures-to-reduce-heat-stress-for-outdoor-workers" }] },
+  { id: "local", name: "A local threshold from your own health records",
+    eg: "Ahmedabad set its alert temperatures from the link between daily maximum temperature and deaths in the city, which is why thresholds should differ from place to place. In 2023 only about 10 of 37 Indian heat plans appeared to set local thresholds.",
+    sources: [{ label: "CEEW: scientific heat action plans for Indian cities", url: "https://www.ceew.in/blogs/scientific-heat-action-plans-indian-cities" },
+      { label: "Centre for Policy Research, 2023", url: "https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/" }] }
+];
+const PLAN_LEVELS = [
+  { id: "yellow", name: "Yellow", meaning: "Watch", placeholder: "e.g. 40 °C forecast" },
+  { id: "orange", name: "Orange", meaning: "Be prepared", placeholder: "e.g. 43 °C, or two hot nights in a row" },
+  { id: "red", name: "Red", meaning: "Take action", placeholder: "e.g. 45 °C, or heat index 42 °C" }
+];
+// How warnings reach people. offline: reaches people without a phone or signal.
+const PLAN_CHANNELS = [
+  { id: "sms", name: "SMS and phone calls" }, { id: "apps", name: "Messaging apps and social media" },
+  { id: "radio", name: "Radio and TV", offline: true }, { id: "loud", name: "Loudspeakers and public announcements", offline: true },
+  { id: "door", name: "Health workers and volunteers, door to door", offline: true }, { id: "work", name: "Employers, unions and market associations", offline: true },
+  { id: "school", name: "Schools and childcare", offline: true }, { id: "access", name: "Sign language, large print and local languages", offline: true }
+];
+
+// WHO/Europe's eight core elements of a heat-health action plan (second edition, June 2026). add: actions that fill the gap.
+const WHO_ELEMENTS = [
+  { id: "governance", name: "Governance", why: "One body leads, every action has an owner, and money is set aside.", add: ["hap", "heatbudget"] },
+  { id: "warning", name: "Heat–health warning system", why: "Alerts are set at levels that harm health locally, and each level switches on named actions.", add: ["anticipatory"], step: 4 },
+  { id: "risk", name: "Populations at increased risk", why: "The plan names who is most at risk and reaches them directly.", add: ["coolingcentres", "socialprotection"], step: 1 },
+  { id: "comms", name: "Communication", why: "Warnings reach people without phones, in their language and format. In the Netherlands, messages asking people to help others prompted more action.", step: 4 },
+  { id: "health", name: "Health system resilience", why: "Clinics and hospitals have trained staff, cooling, backup power and surge plans.", add: ["readyclinics", "freecare"] },
+  { id: "exposure", name: "Reducing heat exposure", why: "Cooler homes, workplaces and streets this season and for the long term, not only warnings.", add: ["heatrules", "coolhousing"] },
+  { id: "surveillance", name: "Heat–health surveillance", why: "Heat illness and excess deaths are tracked during the season, not only certified heatstroke.", add: ["countdeaths"] },
+  { id: "mel", name: "Monitoring, evaluation and learning", why: "Every action has a measure, and a review after each season changes the plan. Very few cities track this.", step: 3 }
+];
+const WHO_ELEMENTS_SOURCES = [
+  { label: "WHO/Europe: Heat–health action plans, guidance, second edition, 2026", url: "https://www.who.int/europe/publications/i/item/9789289062930" },
+  { label: "HAPIE: tracking heat action plan implementation, 2026", url: "https://preparecenter.org/wp-content/uploads/2026/08/HAPIE.pdf" },
+  { label: "European Climate Adaptation Platform: evaluating the Dutch heatwave plan", url: "https://climate-adapt.eea.europa.eu/en/metadata/case-studies/evaluating-the-effectiveness-of-the-dutch-national-heatwave-plan" }
+];
+
+// Questions for the review after each season.
+const PLAN_REVIEW = [
+  "Were alerts issued on time, and did each department act at its level?",
+  "Who did the warnings, cooling spaces and care not reach, and why?",
+  "How many heat illnesses and excess deaths were there, compared with past seasons?",
+  "What did each action cost, who paid, and what was still unpaid?",
+  "What will change before next season, who will do it, and by when?"
+];
+
+// A 90-minute workshop to fill in the plan together. Who to invite comes first.
+const PLAN_WORKSHOP = {
+  invite: "Health, disaster management, the city or district, the weather service, labour, education, water and power utilities, and the people at risk: worker unions, women’s groups, disability and older people’s organisations, and community groups.",
+  steps: [
+    { time: "10 min", what: "Set the scene", how: "Watch the 1 minute 41 second film, or walk through one vicious cycle on the map." },
+    { time: "15 min", what: "Step 1: where and who", how: "Agree the place and the people most at risk. Use “Who heat hits hardest” to check who is missing." },
+    { time: "20 min", what: "Steps 2–3: actions, owners and money", how: "Pick the actions, name a lead for each, and mark “Not decided yet” honestly where no one pays." },
+    { time: "15 min", what: "Step 4: triggers and warnings", how: "With the weather service, agree what each alert level means and how it reaches people without phones." },
+    { time: "15 min", what: "Steps 5–6: what could stop it, and the WHO check", how: "Tick the risks, then close the gaps the check shows." },
+    { time: "15 min", what: "Close", how: "Print the plan, name who does what in the next 30 days, and put the after-season review in the diary." }
+  ]
+};

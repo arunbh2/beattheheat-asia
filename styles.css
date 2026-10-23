@@ -1195,3 +1195,36 @@ body.film-open { overflow: hidden; }
 .spread span a { color: var(--grey-700); }
 
 @media (min-width: 1200px) { .traits { grid-template-columns: repeat(5, minmax(0, 1fr)); } }
+
+/* Plan a response: review date, triggers and warnings (step 4), WHO check (step 6), workshop guide */
+.plan-review { margin-top: 12px; }
+.plan-eg { margin: 4px 0 12px; padding: 10px 12px; border-left: 4px solid var(--teal); background: #E8F2F0; font-size: .88rem; color: var(--ink); }
+.plan-eg__src { display: block; margin-top: 4px; font-size: .78rem; }
+.who-check__fix .link { font-size: .9rem; }
+.plan-eg a { color: inherit; }
+.plan-ladder { display: grid; gap: 8px; margin: 6px 0 14px; }
+.plan-ladder__lv { padding: 10px 12px 10px 14px; border-radius: 8px; background: var(--canvas); border-left: 6px solid; }
+.plan-ladder__lv--yellow { border-left-color: #F5C518; } .plan-ladder__lv--orange { border-left-color: var(--orange); } .plan-ladder__lv--red { border-left-color: #C8102E; }
+.plan-ladder__name { color: var(--ink); font-weight: 800; }
+.plan-ladder__acts { margin-top: 6px; font-size: .84rem; color: var(--grey-700); }
+.plan-ladder__k { margin: 4px 0 4px; font-size: .85rem; font-weight: 700; color: var(--grey-700); }
+.plan-ladder__k span { display: block; font-weight: 400; color: var(--grey-500); font-size: .8rem; }
+.plan-channels { display: grid; gap: 0 16px; }
+@media (min-width: 640px) { .plan-channels { grid-template-columns: 1fr 1fr; } }
+.who-check { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.who-check__i { padding: 10px 12px; border-radius: 8px; background: var(--canvas); border-left: 5px solid #C9C2B6; }
+.who-check__i--yes { border-left-color: var(--teal); } .who-check__i--part { border-left-color: var(--amber); } .who-check__i--no { border-left-color: #C8102E; }
+.who-check__top { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.who-check__st { padding: 1px 8px; border-radius: 999px; font-size: .7rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; background: #F2DADD; color: #8E1022; }
+.who-check__i--yes .who-check__st { background: #E8F2F0; color: #17605A; } .who-check__i--part .who-check__st { background: #FBEBD0; color: #7A4B00; }
+.who-check__why { margin-top: 4px; font-size: .84rem; color: var(--grey-500); }
+.who-check__note { margin-top: 2px; font-size: .88rem; color: var(--ink); }
+.who-check__fix { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 8px; }
+.plan-summary__ready { margin: 2px 0 8px; padding: 8px 10px; border-radius: 6px; background: rgba(250,247,242,.08); font-size: .88rem; }
+.plan-summary__ready b { color: var(--amber); }
+.plan-workshop__invite { margin-top: 12px; font-size: .9rem; color: var(--grey-700); }
+.plan-workshop__invite b { color: var(--ink); }
+.plan-workshop__agenda { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 8px; }
+.plan-workshop__agenda li { display: grid; grid-template-columns: 70px 1fr; gap: 12px; padding-top: 8px; border-top: 1px solid var(--line); font-size: .9rem; color: var(--grey-700); }
+.plan-workshop__agenda li span { font-weight: 800; color: #17605A; }
+.plan-workshop__agenda strong { display: block; color: var(--ink); }

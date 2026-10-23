@@ -1295,10 +1295,16 @@
   const EXAMPLES = typeof WORKED_EXAMPLES !== "undefined" ? WORKED_EXAMPLES : [];
   const STALL_LIST = typeof STALLS !== "undefined" ? STALLS : [];
   const PLAN_KEY = "bth-plan-v1";
-  let plan = { place: "", group: "", levers: [], rows: {}, example: null, stalls: [] };
-  try { const saved = JSON.parse(localStorage.getItem(PLAN_KEY) || "null"); if (saved && Array.isArray(saved.levers)) plan = Object.assign(plan, saved); if (!Array.isArray(plan.stalls)) plan.stalls = []; } catch (e) {}
+  let plan = { place: "", group: "", levers: [], rows: {}, example: null, stalls: [], triggers: {}, review: "" };
+  try { const saved = JSON.parse(localStorage.getItem(PLAN_KEY) || "null"); if (saved && Array.isArray(saved.levers)) plan = Object.assign(plan, saved); if (!Array.isArray(plan.stalls)) plan.stalls = []; if (!plan.triggers || typeof plan.triggers !== "object") plan.triggers = {}; } catch (e) {}
   const savePlan = () => { try { localStorage.setItem(PLAN_KEY, JSON.stringify(plan)); } catch (e) {} };
-  const planRow = id => plan.rows[id] || (plan.rows[id] = { lead: (leverById[id].who || [])[0] || "", payer: PAYERS[0], measure: "" });
+  const PHASES = typeof PLAN_PHASES !== "undefined" ? PLAN_PHASES : [], PHASE_DEF = typeof PLAN_PHASE_DEFAULT !== "undefined" ? PLAN_PHASE_DEFAULT : {};
+  const phaseById = Object.fromEntries(PHASES.map(x => [x.id, x]));
+  const BASES = typeof PLAN_TRIGGER_BASES !== "undefined" ? PLAN_TRIGGER_BASES : [], LEVELS = typeof PLAN_LEVELS !== "undefined" ? PLAN_LEVELS : [];
+  const CHANNELS = typeof PLAN_CHANNELS !== "undefined" ? PLAN_CHANNELS : [], WHOEL = typeof WHO_ELEMENTS !== "undefined" ? WHO_ELEMENTS : [];
+  const planRow = id => { const r = plan.rows[id] || (plan.rows[id] = { lead: (leverById[id].who || [])[0] || "", payer: PAYERS[0], measure: "" });
+    if (!r.phase) r.phase = PHASE_DEF[id] || "year"; return r; };
+  const trig = () => plan.triggers || (plan.triggers = {});
   const planLoops = () => LOOPS.filter(l => l.levers.some(v => plan.levers.includes(v)));
   const suggested = () => ((PG.find(g => g.id === plan.group) || {}).levers || []);
 
@@ -1323,6 +1329,7 @@
         <p class="plan-row__title">${esc(v.title)} ${whenTag(v)}</p>
         <label>Who leads <select data-pl-field="lead">${leads.map(i => `<option value="${i}"${r.lead === i ? " selected" : ""}>${esc(instById[i].name)}${(v.who || []).includes(i) ? "" : " (not usual)"}</option>`).join("")}</select></label>
         <label>Who pays <select data-pl-field="payer">${PAYERS.map(p => `<option${r.payer === p ? " selected" : ""}>${esc(p)}</option>`).join("")}</select></label>
+        ${PHASES.length ? `<label>When it happens <select data-pl-field="phase">${PHASES.map(x => `<option value="${x.id}"${r.phase === x.id ? " selected" : ""}>${esc(x.name)}</option>`).join("")}</select></label>` : ""}
         <label class="plan-row__wide">How you will know it is working <input type="text" data-pl-field="measure" value="${esc(r.measure)}" placeholder="e.g. ${esc(v.measure || "")}"></label>
       </div>`;
     }).join("");
@@ -1334,6 +1341,72 @@
     box.innerHTML = STALL_LIST.map(x => `<label class="plan-check"><input type="checkbox" data-pl-stall="${x.id}"${plan.stalls.includes(x.id) ? " checked" : ""}><span>${esc(x.name)}</span></label>`).join("");
   }
 
+  // step 4: what alerts are based on, the three levels and the actions each switches on, who issues them and how they reach people
+  function renderPlanTriggers() {
+    const box = document.getElementById("plan-triggers"); if (!box || !BASES.length) return;
+    const t = trig(), base = BASES.find(b => b.id === t.basis), ch = t.channels || [];
+    const leads = INSTITUTIONS.map(i => `<option value="${i.id}"${(t.issuer || "met") === i.id ? " selected" : ""}>${esc(i.name)}</option>`).join("");
+    box.innerHTML = `<div class="plan-step__row">
+        <label>Alerts are based on <select data-pl-trig="basis"><option value="">Choose…</option>${BASES.map(b => `<option value="${b.id}"${t.basis === b.id ? " selected" : ""}>${esc(b.name)}</option>`).join("")}</select></label>
+        <label>Who issues the alert <select data-pl-trig="issuer">${leads}</select></label>
+      </div>
+      ${base ? `<p class="plan-eg">${gloss(base.eg)} <span class="plan-eg__src">${base.sources.map(x => extLink(x.url, x.label)).join(" · ")}</span></p>` : `<p class="plan-step__hint">Pick one to see how places in Asia set theirs.</p>`}
+      <div class="plan-ladder">${LEVELS.map(l => { const acts = plan.levers.filter(id => planRow(id).phase === l.id);
+        return `<div class="plan-ladder__lv plan-ladder__lv--${l.id}">
+          <label><span class="plan-ladder__name">${esc(l.name)} · ${esc(l.meaning)}</span><input type="text" data-pl-trig="${l.id}" value="${esc(t[l.id] || "")}" placeholder="${esc(l.placeholder)}"></label>
+          <p class="plan-ladder__acts">${acts.length ? "Switches on: " + acts.map(id => esc(leverById[id].title)).join(", ") : "No actions start at this level yet. Set “When it happens” in step 3."}</p>
+        </div>`; }).join("")}</div>
+      <p class="plan-ladder__k">How warnings reach people <span>The ones marked ✱ reach people without a phone or signal.</span></p>
+      <div class="plan-channels">${CHANNELS.map(c => `<label class="plan-check"><input type="checkbox" data-pl-chan="${c.id}"${ch.includes(c.id) ? " checked" : ""}><span>${esc(c.name)}${c.offline ? " ✱" : ""}</span></label>`).join("")}</div>`;
+  }
+
+  // step 6: WHO/Europe's eight core elements, checked against what the plan contains
+  const pick = ids => ids.filter(id => plan.levers.includes(id));
+  function whoCheck() {
+    const rows = plan.levers.map(id => planRow(id)), t = trig(), ch = t.channels || [];
+    const unpaid = rows.filter(r => r.payer === "Not decided yet").length, undoc = rows.filter(r => r.payer === "Not documented").length, allLead = rows.length && rows.every(r => r.lead);
+    const levels = LEVELS.filter(l => (t[l.id] || "").trim()).length, onAlert = plan.levers.filter(id => ["yellow", "orange", "red"].includes(planRow(id).phase)).length;
+    const typed = rows.filter(r => (r.measure || "").trim()).length, review = (plan.review || "").trim();
+    const offline = CHANNELS.some(c => c.offline && ch.includes(c.id));
+    const R = {
+      governance: () => { const hap = plan.levers.includes("hap"), miss = [];
+        if (!hap) miss.push("no coordinating heat action plan"); if (!allLead) miss.push("not every action has a lead"); if (unpaid) miss.push(plural(unpaid, "action") + " with nobody paying yet"); if (undoc) miss.push(plural(undoc, "action") + " where who pays is not documented");
+        return [!rows.length ? "no" : miss.length ? (hap || allLead ? "part" : "no") : "yes", miss.length ? "Missing: " + miss.join("; ") + "." : "A coordinating plan, an owner for every action, and money agreed."]; },
+      warning: () => { const miss = [];
+        if (!t.basis) miss.push("what alerts are based on"); if (!levels) miss.push("the alert levels"); if (!onAlert) miss.push("actions that start at an alert");
+        return [miss.length === 3 ? "no" : miss.length ? "part" : "yes", miss.length ? "Missing: " + miss.join("; ") + "." : `${plural(levels, "alert level")} set, switching on ${plural(onAlert, "action")}.`]; },
+      risk: () => { const g = PG.find(x => x.id === plan.group), r = pick(["coolingcentres", "socialprotection", "heatcash", "freecare", "keepinschool", "coolnights", "heatrules", "coolhousing", "affordablecool", "anticipatory"]);
+        return [g && r.length ? "yes" : g || r.length ? "part" : "no", g && r.length ? `Protecting ${g.name.toLowerCase()}, with ${plural(r.length, "targeted action")}.` : g ? "Add an action that reaches them directly." : "Choose who you are protecting in step 1."]; },
+      comms: () => [ch.length >= 2 && offline ? "yes" : ch.length ? "part" : "no", ch.length >= 2 && offline ? `${plural(ch.length, "channel")}, including at least one that needs no phone.` : ch.length ? "Add a channel that reaches people without a phone or signal." : "Choose how warnings reach people in step 4."],
+      health: () => plan.levers.includes("readyclinics") ? ["yes", "Health services prepared for heat."] : plan.levers.includes("freecare") ? ["part", "Free care is in; clinics also need staff, cooling and surge plans."] : ["no", "No action prepares clinics and hospitals."],
+      exposure: () => { const now = pick(["heatrules", "coolingcentres", "coolnights", "affordablecool"]), later = pick(["coolhousing", "coolbydesign", "greencity"]);
+        return [now.length && later.length ? "yes" : now.length || later.length ? "part" : "no", now.length && later.length ? "Relief this season and cooler places for the long term." : now.length ? "Add a long-term action: cooler housing, buildings or streets." : later.length ? "Add relief for this season: work rules, cooling spaces or cool nights." : "No action reduces how much heat people are exposed to."]; },
+      surveillance: () => plan.levers.includes("countdeaths") ? ["yes", "Heat illness and excess deaths will be counted."] : ["no", "Nothing tracks heat illness and excess deaths during the season."],
+      mel: () => [rows.length && typed === rows.length && review ? "yes" : typed || review ? "part" : "no", rows.length && typed === rows.length && review ? `A measure for every action, and a review set for ${review}.` : `${typed} of ${rows.length} actions have a measure you typed${review ? "" : "; no review date set"}.`]
+    };
+    return WHOEL.map(e => { const [st, note] = (R[e.id] || (() => ["no", ""]))(); return { e, st, note }; });
+  }
+  const ST = { yes: "In place", part: "Partly", no: "Missing" };
+  function renderPlanCheck() {
+    const box = document.getElementById("plan-check"); if (!box || !WHOEL.length) return;
+    const res = whoCheck();
+    box.innerHTML = `<ol class="who-check">${res.map(({ e, st, note }) => { const adds = (e.add || []).filter(id => !plan.levers.includes(id) && leverById[id]);
+      return `<li class="who-check__i who-check__i--${st}">
+        <p class="who-check__top"><span class="who-check__st">${ST[st]}</span><strong>${esc(e.name)}</strong></p>
+        <p class="who-check__why">${esc(e.why)}</p>
+        <p class="who-check__note">${esc(note)}</p>
+        ${st !== "yes" ? `<p class="who-check__fix">${adds.map(id => `<button type="button" class="btn btn--sm btn--ghost" data-pl-add="${id}">Add: ${esc(leverById[id].title)}</button>`).join("")}${e.step ? `<button type="button" class="link" data-pl-step="${e.step}">Go to step ${e.step}</button>` : ""}</p>` : ""}
+      </li>`; }).join("")}</ol>
+      ${plan.example ? `<p class="plan-step__hint">For the worked example, this check shows only what its sources document, not everything the place may do.</p>` : ""}
+      <p class="plan-checklist__src">Sources: ${WHO_ELEMENTS_SOURCES.map(x => extLink(x.url, x.label)).join(" · ")}</p>`;
+  }
+
+  function renderPlanWorkshop() {
+    const box = document.getElementById("plan-workshop-body"); if (!box || typeof PLAN_WORKSHOP === "undefined") return;
+    box.innerHTML = `<p class="plan-workshop__invite"><b>Who to invite.</b> ${esc(PLAN_WORKSHOP.invite)}</p>
+      <ol class="plan-workshop__agenda">${PLAN_WORKSHOP.steps.map(x => `<li><span>${esc(x.time)}</span><div><strong>${esc(x.what)}</strong>${esc(x.how)}</div></li>`).join("")}</ol>`;
+  }
+
   function renderPlanSummary() {
     const box = document.getElementById("plan-summary"); if (!box) return;
     const loops = planLoops(), rows = plan.levers.map(id => planRow(id));
@@ -1341,6 +1414,8 @@
     const payers = {}; rows.forEach(r => { payers[r.payer] = (payers[r.payer] || 0) + 1; });
     const unpaid = payers["Not decided yet"] || 0;
     const timing = Object.keys(WHEN).map(w => [WHEN[w], plan.levers.filter(id => leverById[id].when === w).length]).filter(x => x[1]);
+    const check = whoCheck(), ready = check.filter(x => x.st === "yes").length, part = check.filter(x => x.st === "part").length;
+    const phases = PHASES.map(x => [x, plan.levers.filter(id => planRow(id).phase === x.id).length]).filter(x => x[1]);
     const group = PG.find(g => g.id === plan.group);
     box.innerHTML = `<p class="plan-summary__k">Your plan</p>
       <h3>${esc(plan.place || "Your place")}${group ? ` · ${esc(group.name.toLowerCase())}` : ""}</h3>
@@ -1349,6 +1424,8 @@
         <p><strong>${loops.length}</strong> of ${LOOPS.length} cycles they could help interrupt</p>
         <p><strong>${leads.size}</strong> institution${leads.size === 1 ? "" : "s"} leading</p>
       </div>
+      ${WHOEL.length ? `<p class="plan-summary__ready"><b>${ready} of ${WHOEL.length}</b> WHO core elements in place${part ? `, ${part} partly` : ""}. <button type="button" class="link" data-pl-step="6">See the check</button></p>` : ""}
+      ${phases.length ? `<p class="plan-summary__line"><b>When it happens:</b> ${phases.map(([x, n]) => `${esc(x.name.toLowerCase())} (${n})`).join(", ")}</p>` : ""}
       ${timing.length ? `<p class="plan-summary__line"><b>When it works:</b> ${timing.map(([l, n]) => `${esc(l)} (${n})`).join(", ")}</p>` : ""}
       ${rows.length ? `<p class="plan-summary__line"><b>Who pays:</b> ${Object.entries(payers).map(([p, n]) => `${esc(p)} (${n})`).join(", ")}</p>` : ""}
       ${unpaid ? `<p class="plan-summary__gap">${plural(unpaid, "action")} with nobody paying yet. That is the conversation to have next.</p>` : ""}
@@ -1384,6 +1461,7 @@
     const list = document.getElementById("plan-checklist-list"), src = document.getElementById("plan-checklist-src");
     if (!list || typeof PLAN_CHECKLIST === "undefined") return;
     list.innerHTML = PLAN_CHECKLIST.map(c => `<li><strong>${esc(c.item)}</strong><span>${esc(c.eg)}</span></li>`).join("");
+    const cnt = document.getElementById("plan-checklist-count"); if (cnt) cnt.textContent = `${PLAN_CHECKLIST.length} things, with real examples`;
     if (src) src.innerHTML = "Sources: " + PLAN_CHECKLIST_SOURCES.map(x => extLink(x.url, x.label)).join(" · ");
   }
 
@@ -1392,7 +1470,8 @@
     if (!place || !grp) return;
     grp.innerHTML = `<option value="">Choose a group…</option>` + PG.map(g => `<option value="${g.id}"${plan.group === g.id ? " selected" : ""}>${esc(g.name)}</option>`).join("");
     place.value = plan.place;
-    renderPlanStory(); renderPlanChecklist(); renderPlanActions(); renderPlanRows(); renderPlanStalls(); renderPlanSummary();
+    const rv = document.getElementById("plan-review"); if (rv) rv.value = plan.review || "";
+    renderPlanStory(); renderPlanChecklist(); renderPlanWorkshop(); renderPlanActions(); renderPlanRows(); renderPlanTriggers(); renderPlanStalls(); renderPlanCheck(); renderPlanSummary();
   }
 
   // the practical guides for the chosen actions, each listed once, under the first action that needs it
@@ -1406,7 +1485,13 @@
     const g = PG.find(x => x.id === plan.group), L = [];
     L.push("HEAT RESPONSE PLAN", `Place: ${plan.place || "(not set)"}`, `People at risk: ${g ? g.name : "(not set)"}`, `Made with the BeatTheHeat.Asia systems map: ${location.origin + location.pathname}`, "");
     plan.levers.forEach((id, i) => { const v = leverById[id], r = planRow(id);
-      L.push(`${i + 1}. ${v.title} [${WHEN[v.when] || ""}]`, `   Leads: ${instById[r.lead] ? instById[r.lead].name : "-"}`, `   Pays: ${r.payer}`, `   How we will know: ${r.measure || v.measure || "-"}`); });
+      L.push(`${i + 1}. ${v.title} [${WHEN[v.when] || ""}]`, `   Leads: ${instById[r.lead] ? instById[r.lead].name : "-"}`, `   Pays: ${r.payer}`, `   When: ${phaseById[r.phase] ? phaseById[r.phase].name : "-"}`, `   How we will know: ${r.measure || v.measure || "-"}`); });
+    const t = trig(), base = BASES.find(b => b.id === t.basis);
+    L.push("", "TRIGGERS AND WARNINGS", `Alerts based on: ${base ? base.name : "(not set)"}`, `Issued by: ${instById[t.issuer || "met"] ? instById[t.issuer || "met"].name : "-"}`);
+    LEVELS.forEach(l => L.push(`${l.name} (${l.meaning}): ${t[l.id] || "(not set)"}. Switches on: ${plan.levers.filter(id => planRow(id).phase === l.id).map(id => leverById[id].title).join(", ") || "nothing yet"}`));
+    L.push(`Warnings reach people by: ${(t.channels || []).map(c => (CHANNELS.find(x => x.id === c) || {}).name).filter(Boolean).join(", ") || "(not set)"}`);
+    L.push("", "WHO CORE ELEMENTS CHECK"); whoCheck().forEach(({ e, st, note }) => L.push(`[${ST[st]}] ${e.name}: ${note}`));
+    if (typeof PLAN_REVIEW !== "undefined") { L.push("", `AFTER-SEASON REVIEW${plan.review ? ": " + plan.review : ""}`); PLAN_REVIEW.forEach(q => L.push(`   - ${q}`)); }
     L.push("", `Cycles these actions could help interrupt: ${planLoops().map(l => l.name).join(", ") || "none"}`);
     if (planStalls().length) { L.push("", "WHAT COULD STOP THIS PLAN, AND WHAT HAS MOVED IT ELSEWHERE");
       planStalls().forEach(x => { L.push(`${x.name}:`); x.moves.forEach(m => L.push(`   - ${m}`)); }); }
@@ -1425,18 +1510,25 @@
       table{width:100%;border-collapse:collapse;margin-top:18px;font-size:14px}th,td{text-align:left;vertical-align:top;padding:8px;border-bottom:1px solid #E6DFD4}
       th{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#5E6570}.gap{color:#9E1A2C;font-weight:700}
       h2{font-size:13px;letter-spacing:.12em;text-transform:uppercase;border-top:2px solid #16202B;padding-top:10px;margin-top:26px}
-      .note{color:#5E6570;font-size:13px}.read h3{font-size:15px;margin:16px 0 4px}.read ul{margin:0;padding-left:18px}.read li{margin:4px 0;font-size:14px}
+      .note{color:#5E6570;font-size:13px}.lv{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px}.lv--yellow{background:#F5C518}.lv--orange{background:#F26430}.lv--red{background:#C8102E}.read h3{font-size:15px;margin:16px 0 4px}.read ul{margin:0;padding-left:18px}.read li{margin:4px 0;font-size:14px}
       .read a{color:#16202B;text-decoration-color:#F26430;text-underline-offset:3px}.read .by{color:#5E6570;font-size:12.5px}.read .u{display:none}
       .print{position:fixed;top:16px;right:16px;padding:10px 18px;border-radius:999px;border:0;background:#F26430;font-weight:700;cursor:pointer}
       @media print{.print{display:none}body{margin:0}.read .u{display:block;color:#5E6570;font-size:11px;word-break:break-all}h2{break-after:avoid}.read h3{break-after:avoid}}`;
     const rows = plan.levers.map(id => { const v = leverById[id], r = planRow(id);
-      return `<tr><td><strong>${h(v.title)}</strong><br><span class="note">${h(WHEN[v.when] || "")}</span></td><td>${h(instById[r.lead] ? instById[r.lead].name : "")}</td><td class="${r.payer === "Not decided yet" ? "gap" : ""}">${h(r.payer)}</td><td>${h(r.measure || v.measure || "")}</td></tr>`; }).join("");
+      return `<tr><td><strong>${h(v.title)}</strong><br><span class="note">${h(WHEN[v.when] || "")}</span></td><td>${h(phaseById[r.phase] ? phaseById[r.phase].name : "")}</td><td>${h(instById[r.lead] ? instById[r.lead].name : "")}</td><td class="${r.payer === "Not decided yet" ? "gap" : ""}">${h(r.payer)}</td><td>${h(r.measure || v.measure || "")}</td></tr>`; }).join("");
     const html = `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Heat response plan: ${h(plan.place || "draft")}</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;700&display=swap"><style>${css}</style></head><body>
       <button class="print" onclick="window.print()">Print or save as PDF</button>
       <p class="k">Heat response plan · draft</p><h1>${h(plan.place || "Our place")}</h1>
       <p class="sub">Protecting: <strong>${h(g ? g.name : "not set")}</strong> · made with the BeatTheHeat.Asia systems map</p>
       ${ex ? `<p class="note">Based on the worked example: ${h(ex.title)}.</p>` : ""}
-      <table><thead><tr><th>Action</th><th>Who leads</th><th>Who pays</th><th>How we will know</th></tr></thead><tbody>${rows}</tbody></table>
+      <table><thead><tr><th>Action</th><th>When</th><th>Who leads</th><th>Who pays</th><th>How we will know</th></tr></thead><tbody>${rows}</tbody></table>
+      ${(() => { const t = trig(), base = BASES.find(b => b.id === t.basis), chs = (t.channels || []).map(c => (CHANNELS.find(x => x.id === c) || {}).name).filter(Boolean);
+        return `<h2>Triggers and warnings</h2><p>Alerts based on <strong>${h(base ? base.name : "not set yet")}</strong>, issued by <strong>${h(instById[t.issuer || "met"] ? instById[t.issuer || "met"].name : "")}</strong>.</p>
+        <table><thead><tr><th>Level</th><th>Trigger</th><th>Switches on</th></tr></thead><tbody>${LEVELS.map(l => `<tr><td><span class="lv lv--${l.id}"></span><strong>${h(l.name)}</strong><br><span class="note">${h(l.meaning)}</span></td><td class="${t[l.id] ? "" : "gap"}">${h(t[l.id] || "Not set")}</td><td>${h(plan.levers.filter(id => planRow(id).phase === l.id).map(id => leverById[id].title).join(", ") || "-")}</td></tr>`).join("")}</tbody></table>
+        <p><strong>Warnings reach people by:</strong> ${h(chs.join(", ") || "not set yet")}</p>`; })()}
+      ${(() => { const c = whoCheck(); return c.length ? `<h2>Check against WHO’s eight core elements</h2><p class="note">${c.filter(x => x.st === "yes").length} of ${c.length} in place. From WHO/Europe, Heat–health action plans: guidance, second edition (2026).</p>
+        <table><tbody>${c.map(({ e, st, note }) => `<tr><td><strong>${h(e.name)}</strong></td><td class="${st === "yes" ? "" : "gap"}">${h(ST[st])}</td><td>${h(note)}</td></tr>`).join("")}</tbody></table>` : ""; })()}
+      ${typeof PLAN_REVIEW !== "undefined" ? `<h2>After the season: review${plan.review ? " · " + h(plan.review) : ""}</h2><ul>${PLAN_REVIEW.map(q => `<li>${h(q)}</li>`).join("")}</ul>` : ""}
       <h2>Cycles these actions could help interrupt</h2><p>${h(planLoops().map(l => l.name).join(", ") || "None yet")}</p>
       ${planStalls().length ? `<h2>What could stop this plan</h2><p class="note">And what has moved each one elsewhere.</p><div class="read">${planStalls().map(x => `<h3>${h(x.name)}</h3><ul>${x.moves.map(m => `<li>${h(m)}</li>`).join("")}</ul>`).join("")}</div>` : ""}
       ${(() => { const r = planReading(); return r.length ? `<h2>Reading list for this plan</h2><p class="note">Practical guides for each action, from the BeatTheHeat.Asia map.</p><div class="read">${r.map(({ v, guides }) => `<h3>${h(v.title)}</h3><ul>${guides.map(g => `<li><a href="${h(g.url)}" target="_blank" rel="noopener">${h(g.title)}</a> <span class="by">· ${h(g.by)}</span><span class="u">${h(g.url)}</span></li>`).join("")}</ul>`).join("")}</div>` : ""; })()}
@@ -1450,19 +1542,22 @@
 
   function loadExample(id) {
     const ex = EXAMPLES.find(x => x.id === id); if (!ex) return;
-    plan = { place: ex.place, group: ex.group, levers: ex.actions.map(a => a.lever), rows: {}, example: ex.id, stalls: [] };
-    ex.actions.forEach(a => { plan.rows[a.lever] = { lead: a.lead, payer: a.payer, measure: a.measure }; });
+    plan = { place: ex.place, group: ex.group, levers: ex.actions.map(a => a.lever), rows: {}, example: ex.id, stalls: [], triggers: Object.assign({}, ex.triggers || {}), review: "" };
+    ex.actions.forEach(a => { plan.rows[a.lever] = { lead: a.lead, payer: a.payer, measure: a.measure, phase: a.phase || PHASE_DEF[a.lever] || "year" }; });
     savePlan(); renderPlan();
     document.getElementById("plan-story").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" });
   }
 
   (function wirePlan() {
     const sec = document.getElementById("plan"); if (!sec) return;
-    const changed = (rows = true) => { savePlan(); if (rows) renderPlanRows(); renderPlanSummary(); };
+    const changed = (rows = true) => { savePlan(); if (rows) renderPlanRows(); renderPlanTriggers(); renderPlanCheck(); renderPlanSummary(); };
+    const light = () => { savePlan(); renderPlanCheck(); renderPlanSummary(); };
     sec.addEventListener("input", ev => {
       const t = ev.target;
       if (t.id === "plan-place") { plan.place = t.value; changed(false); }
-      else if (t.dataset.plField === "measure") { planRow(t.closest("[data-pl-row]").dataset.plRow).measure = t.value; savePlan(); }
+      else if (t.dataset.plField === "measure") { planRow(t.closest("[data-pl-row]").dataset.plRow).measure = t.value; light(); }
+      else if (t.id === "plan-review") { plan.review = t.value; light(); }
+      else if (t.dataset.plTrig && t.tagName === "INPUT") { trig()[t.dataset.plTrig] = t.value; light(); }
     });
     sec.addEventListener("change", ev => {
       const t = ev.target;
@@ -1478,18 +1573,28 @@
         const id = t.dataset.plStall;
         plan.stalls = t.checked ? [...plan.stalls.filter(x => x !== id), id] : plan.stalls.filter(x => x !== id);
         changed(false);
-      } else if (t.dataset.plField === "lead" || t.dataset.plField === "payer") {
+      } else if (t.dataset.plField === "lead" || t.dataset.plField === "payer" || t.dataset.plField === "phase") {
         planRow(t.closest("[data-pl-row]").dataset.plRow)[t.dataset.plField] = t.value; changed(false);
+      } else if (t.dataset.plTrig && t.tagName === "SELECT") {
+        trig()[t.dataset.plTrig] = t.value; changed(false);
+      } else if (t.dataset.plChan) {
+        const id = t.dataset.plChan, c = trig().channels || [];
+        trig().channels = t.checked ? [...c.filter(x => x !== id), id] : c.filter(x => x !== id); light();
       }
     });
     sec.addEventListener("click", ev => {
       const ex = ev.target.closest("[data-plan-example]"); if (ex) { loadExample(ex.dataset.planExample); return; }
+      const add = ev.target.closest("[data-pl-add]");
+      if (add) { const id = add.dataset.plAdd; if (!plan.levers.includes(id)) plan.levers.push(id); renderPlanActions(); changed();
+        const st = sec.querySelector("[data-pl-status]"); if (st) st.textContent = `Added “${leverById[id].title}”. Set who leads and pays in step 3.`; return; }
+      const jump = ev.target.closest("[data-pl-step]");
+      if (jump) { const el = document.getElementById("plan-step-" + jump.dataset.plStep); if (el) { el.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" }); const f = el.querySelector("input, select"); if (f) f.focus({ preventScroll: true }); } return; }
       const b = ev.target.closest("[data-pl-act]"); if (!b) return;
       const act = b.dataset.plAct, status = sec.querySelector("[data-pl-status]");
       if (act === "map") goToMap(() => applyLevers(plan.levers, plan.place || "Your plan", "The actions in your plan, switched on together."));
       else if (act === "print") openPlan();
       else if (act === "copy") navigator.clipboard.writeText(planText()).then(() => { if (status) status.textContent = "Plan copied. Paste it into an email or document."; }, () => { if (status) status.textContent = "Couldn’t copy. Use “Open a printable plan” instead."; });
-      else if (act === "clear") { plan = { place: "", group: "", levers: [], rows: {}, example: null, stalls: [] }; savePlan(); renderPlan(); }
+      else if (act === "clear") { plan = { place: "", group: "", levers: [], rows: {}, example: null, stalls: [], triggers: {}, review: "" }; savePlan(); renderPlan(); }
     });
   })();
 
