@@ -126,6 +126,16 @@ Visits are counted with [GoatCounter](https://www.goatcounter.com/), which uses 
 
 The heat network has a filter for **Banks, regulators and microfinance**: central banks and financial regulators in South and Southeast Asia (Singapore, Thailand, Indonesia, the Philippines, Vietnam, Bangladesh, Nepal and India), the regulators’ network SBFN, and lenders piloting climate-adaptation loans. Each entry says what the rule or programme does today and, where true, that heat is not yet among its triggers. The “Heat-smart lending” lever (part 6) holds the regional examples of disaster-triggered loan relief.
 
+## Search engines and AI systems
+
+The map is drawn with JavaScript, which most AI crawlers (and some search engines) do not run. So the same content is also published as plain pages that anyone, or any crawler, can read:
+
+- `/the-web/`, `/loops/`, `/actions/`, `/who-is-at-risk/`, `/cooling-options/`, `/worked-plans/`, `/glossary/` and `/heat-network/`, linked from the footer;
+- `llms.txt` (a short guide for AI systems) and `llms-full.txt` (the whole map as text);
+- `sitemap.xml`, and `robots.txt`, which welcomes search engines and AI crawlers (GPTBot, ClaudeBot, PerplexityBot, Google-Extended and others).
+
+**These files are generated. After you edit `data.js`, run `node tools/build-static.js`** and upload the changed files with it. Never edit the generated pages by hand.
+
 ## The menu at the top
 
 The bar at the top has a few quick links and an **All sections** button. The button opens every section of the page in three chapters (See the system, Act on it, Go deeper), numbered in page order. Both live in the `<header class="site-header">` at the top of `index.html`. If you add a new section, give it an `id` and add a line for it in the `site-menu` list, in page order. The bar and the menu mark the section on screen as “You are here” by themselves.

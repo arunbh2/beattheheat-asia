@@ -32,7 +32,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap">
 
-  <link rel="stylesheet" href="styles.css?v=76">
+  <link rel="stylesheet" href="styles.css?v=77">
 
   <script type="application/ld+json">
   {
@@ -67,8 +67,48 @@
     }
   }
   </script>
-  <script src="data.js?v=76" defer></script>
-  <script src="script.js?v=76" defer></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "BeatTheHeat.Asia: a systems map of extreme heat in Asia",
+    "description": "A sourced, open systems map of extreme heat in South and Southeast Asia: 10 systems, 83 consequences and the links between them, 21 vicious cycles, 29 actions that could break them, the institutions that hold each lever, at-risk groups, cooling options, worked heat action plans and a directory of organisations working on heat. Every claim links to its published source.",
+    "url": "https://beattheheat.asia/",
+    "keywords": ["extreme heat", "heatwave", "heat action plan", "climate adaptation", "systems map", "urban heat", "heat health", "South Asia", "Southeast Asia"],
+    "spatialCoverage": { "@type": "Place", "name": "South and Southeast Asia" },
+    "isAccessibleForFree": true,
+    "inLanguage": "en",
+    "creator": { "@type": "Organization", "name": "BeatTheHeat.Asia", "url": "https://beattheheat.asia/" },
+    "distribution": [
+      { "@type": "DataDownload", "encodingFormat": "text/plain", "contentUrl": "https://beattheheat.asia/llms-full.txt" },
+      { "@type": "DataDownload", "encodingFormat": "application/javascript", "contentUrl": "https://beattheheat.asia/data.js" }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LearningResource",
+    "name": "Extreme heat is a wicked problem: an interactive systems map",
+    "url": "https://beattheheat.asia/",
+    "learningResourceType": ["interactive resource", "glossary", "guide"],
+    "educationalUse": ["self-study", "planning"],
+    "audience": { "@type": "Audience", "audienceType": "City officials, health workers, employers, funders, researchers and community organisations" },
+    "teaches": ["How extreme heat spreads across systems", "Vicious cycles of heat and where to break them", "How to build a heat action plan"],
+    "isAccessibleForFree": true,
+    "inLanguage": "en"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "BeatTheHeat.Asia", "item": "https://beattheheat.asia/" }]
+  }
+  </script>
+  <link rel="alternate" type="text/plain" href="/llms-full.txt" title="The whole map as plain text">
+  <script src="data.js?v=77" defer></script>
+  <script src="script.js?v=77" defer></script>
 </head>
 
 <body>
@@ -651,6 +691,9 @@
         <p>All background footage and short films are AI-generated or animated illustrations. They do not show real people, real places, real communities or any organisation’s projects. People described in stories are illustrative composites, not real individuals. Facts and figures link to their published sources.</p>
       </div>
     </div>
+    <nav class="site-footer__text" aria-label="The map as plain text">
+      <p>The map as plain text, for reading, printing or search: <a href="/the-web/">The web</a> · <a href="/loops/">Vicious cycles</a> · <a href="/actions/">Actions</a> · <a href="/who-is-at-risk/">Who is at risk</a> · <a href="/cooling-options/">Cooling options</a> · <a href="/worked-plans/">Worked plans</a> · <a href="/glossary/">Glossary</a> · <a href="/heat-network/">Heat network</a></p>
+    </nav>
   </footer>
   <!-- The film: opened from the hero, never autoplays. Captions come from media/…en.vtt -->
   <dialog class="film" id="film" aria-labelledby="film-title">
