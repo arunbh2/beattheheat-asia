@@ -136,6 +136,10 @@ The map is drawn with JavaScript, which most AI crawlers (and some search engine
 
 **These files are generated. After you edit `data.js`, run `node tools/build-static.js`** and upload the changed files with it. Never edit the generated pages by hand.
 
+## Licence
+
+Text, data, films and illustrations: **CC BY 4.0** (see `LICENSE`). Code: **MIT** (see `LICENSE-CODE`). Both name "BeatTheHeat.Asia contributors" as the rights holder. Linked sources, quotations and organisations' names and logos are not covered. The notice appears in the footer, in the home page's structured data, on the text pages and in `llms.txt`.
+
 ## The menu at the top
 
 The bar at the top has a few quick links and an **All sections** button. The button opens every section of the page in three chapters (See the system, Act on it, Go deeper), numbered in page order. Both live in the `<header class="site-header">` at the top of `index.html`. If you add a new section, give it an `id` and add a line for it in the `site-menu` list, in page order. The bar and the menu mark the section on screen as “You are here” by themselves.
