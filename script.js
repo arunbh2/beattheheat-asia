@@ -67,6 +67,7 @@
   ambientLoop("dusk-video", "dusk-pause", "bth-dusk-paused", "background footage");
   ambientLoop("field-video", "field-pause", "bth-field-paused", "background footage");
   ambientLoop("water-video", "water-pause", "bth-water-paused", "background footage");
+  ambientLoop("office-video", "office-pause", "bth-office-paused", "background footage");
   ambientLoop("closing-video", "closing-pause", "bth-closing-paused", "background footage");
   const isDesktop = () => window.matchMedia("(min-width: 1100px)").matches;
   const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
