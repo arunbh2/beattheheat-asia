@@ -1990,7 +1990,7 @@
       const terms = listed.filter(g => g.group === grp.id);
       return `<details class="gloss-group"${i === 1 ? " open" : ""}>
         <summary>${esc(grp.name)} <span>${terms.length}</span></summary>
-        <dl>${terms.map(g => `<div id="term-${g.id}"><dt>${esc(g.term)}${g.video ? ` <button type="button" class="gloss-watch" data-watch="${g.id}" aria-label="Watch the ${esc(g.term.toLowerCase())} explainer (${esc(g.length || "0:30")})"><span class="play-icon" aria-hidden="true"></span>${esc(g.length || "0:30")}</button>` : ""}</dt><dd>${esc(g.text)}</dd></div>`).join("")}</dl>
+        <dl>${terms.map(g => `<div id="term-${g.id}"><dt>${esc(g.term)}${g.video ? ` <button type="button" class="gloss-watch" data-watch="${g.id}" aria-label="Watch the ${esc(g.term.toLowerCase())} explainer (${esc(g.length || "0:30")})"><span class="play-icon" aria-hidden="true"></span>${esc(g.length || "0:30")}</button>` : ""}</dt><dd>${esc(g.text)}${g.source ? `<span class="gloss-src">Source: ${extLink(g.source.url, g.source.label)}</span>` : ""}</dd></div>`).join("")}</dl>
       </details>`;
     }).join("");
   }
@@ -2037,14 +2037,14 @@
     panelEl.setAttribute("aria-labelledby", "cool-tab-" + p.id);
     panelEl.innerHTML = `<div class="cool-panel__head">
         <p class="cool-panel__protects"><b>Protects</b>${esc(p.protects)}</p>
-        <p class="cool-panel__caution"><b>Key caution</b>${esc(p.caution)}</p>
+        <p class="cool-panel__caution"><b>Key caution</b>${gloss(p.caution)}</p>
       </div>
       <ul class="cool-opts">${p.options.map(o => `<li class="cool-opt">
         <h3 class="cool-opt__name">${esc(o.name)}</h3>
-        <p class="cool-opt__does">${esc(o.does)}</p>
+        <p class="cool-opt__does">${gloss(o.does)}</p>
         <dl class="cool-opt__dl"><dt>Keeps working with</dt><dd>${esc(o.keeps)}</dd><dt>Avoid</dt><dd>${esc(o.avoid)}</dd><dt>Rough cost</dt><dd>${coolCost(o.cost)}</dd></dl>
       </li>`).join("")}</ul>
-      ${(p.facts || []).length ? `<div class="cool-panel__facts">${p.facts.map(f => `<p class="stall__fact">${esc(f.fact)} ${extLink(f.source.url, f.source.label)}</p>`).join("")}</div>` : ""}
+      ${(p.facts || []).length ? `<div class="cool-panel__facts">${p.facts.map(f => `<p class="stall__fact">${gloss(f.fact)} ${extLink(f.source.url, f.source.label)}</p>`).join("")}</div>` : ""}
       <p class="cool-panel__measure"><b>How you will know</b>${esc(p.measure)}</p>
       <p class="risk__row risk__row--break"><span>On the map:</span> ${p.levers.filter(id => leverById[id]).map(id => `<button type="button" class="lever-chip" data-lever="${id}">${esc(leverById[id].title)}</button>`).join("")}</p>
       <p class="cool-panel__add"><button type="button" class="btn btn--sm btn--teal" data-cool-add="${p.id}">Add these actions to my plan</button></p>`;
@@ -2066,20 +2066,22 @@
     const note = document.getElementById("cool-costnote"); if (note && typeof COOL_COST_NOTE !== "undefined") note.textContent = COOL_COST_NOTE;
     const traps = document.getElementById("cool-traps");
     if (traps && typeof COOL_TRAPS !== "undefined") traps.innerHTML = COOL_TRAPS.map(x => `<li class="cool-trap">
-        <h4>${esc(x.name)}</h4><p>${esc(x.what)}</p>
+        <h4>${esc(x.name)}</h4><p>${gloss(x.what)}</p>
         <p class="cool-trap__fix"><b>Instead</b>${esc(x.fix)}${x.step ? ` <a href="#plan-step-${x.step}">Step ${x.step} of the plan</a>` : ""}</p>
         ${x.fact ? `<p class="stall__fact">${esc(x.fact)} ${extLink(x.source.url, x.source.label)}</p>` : ""}
       </li>`).join("");
     const evb = document.getElementById("cool-evidence");
-    if (evb && typeof COOL_EVIDENCE !== "undefined") evb.innerHTML = COOL_EVIDENCE.map(x => `<article class="cool-ev"><h4>${esc(x.name)}</h4><p>${esc(x.text)}</p><p class="cool-ev__src">${extLink(x.source.url, x.source.label)}</p></article>`).join("");
+    if (evb && typeof COOL_EVIDENCE !== "undefined") evb.innerHTML = COOL_EVIDENCE.map(x => `<article class="cool-ev"><h4>${esc(x.name)}</h4><p>${gloss(x.text)}</p><p class="cool-ev__src">${extLink(x.source.url, x.source.label)}</p></article>`).join("");
     const val = document.getElementById("cool-value");
     if (val && typeof COOL_VALUE !== "undefined") val.innerHTML = `<p class="cool-value__k">Putting a value on cooling</p>
       <h3 class="cool-value__h">Make the case in lives, work and bills</h3>
-      <p>${esc(COOL_VALUE.text)}</p>
+      <p>${gloss(COOL_VALUE.text)}</p>
       <p class="cool-value__lesson">${esc(COOL_VALUE.lesson)}</p>
       <p class="cool-value__k2">Count the value of cooling in</p>
       <ul class="cool-value__how">${COOL_VALUE.how.map(h => `<li>${esc(h)}</li>`).join("")}</ul>
       <p class="cool-ev__src">Sources: ${COOL_VALUE.sources.map(x => extLink(x.url, x.label)).join(" · ")}</p>`;
+    const rd = document.getElementById("cool-reading");
+    if (rd && typeof COOL_READING !== "undefined") rd.innerHTML = COOL_READING.map(x => `<li><p class="cool-read__t">${extLink(x.url, x.title)}</p><p class="cool-read__by">${esc(x.by)}</p><p>${gloss(x.adds)}</p></li>`).join("");
     document.getElementById("cooling").addEventListener("click", ev => {
       const b = ev.target.closest("[data-cool-add]"); if (!b) return;
       const p = COOL.find(x => x.id === b.dataset.coolAdd), status = document.getElementById("cool-status");

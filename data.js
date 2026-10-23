@@ -488,7 +488,7 @@ const INSTITUTIONS = [
   { id: "water",     name: "Water authorities",                    desc: "Manage supply, pumping, treatment and how scarce water is shared." },
   { id: "agri",      name: "Farmers’ organisations and agriculture agencies", desc: "Shape what is grown, how water is used and how soils are managed." },
   { id: "schools",   name: "Schools and education authorities",    desc: "Decide on classrooms, timetables and support that keeps children learning." },
-  { id: "insurers",  name: "Banks, insurers and financial regulators", desc: "Price risk, design insurance and lending, set prudential rules and decide where capital flows." },
+  { id: "insurers",  name: "Banks, insurers and financial regulators", desc: "Price risk, design insurance and lending, set prudential rules and decide where capital flows. They include central banks, commercial and farm banks, and microfinance lenders." },
   { id: "funders",   name: "Development banks, donors and climate funds", desc: "Finance prevention, protection and the institutions that deliver them." },
   { id: "community", name: "Community and civil society groups",   desc: "Reach the people institutions miss: checking on neighbours, running cooling spaces, holding power to account." },
   { id: "intl",      name: "International bodies",                 desc: "Set global standards and agreements on emissions, refrigerants and work." }
@@ -534,6 +534,7 @@ const LEVERS = [
       { label: "Tamil Nadu Pollution Control Board, G.O. 215, 2023: the Green Tamil Nadu Mission target", url: "https://tnpcb.gov.in/PDF/About_Us/Announcementgos/GoNo_215_101123.pdf" } ],
     guides: [
       { by: "Zurich Climate Resilience Alliance", title: "Urban heat: resources and partner networks", url: "https://zcralliance.org/resources-urban-heat/" },
+      { by: "Kabisch, Korn, Stadler and Bonn (eds), Springer, 2017, open access", title: "Nature-Based Solutions to Climate Change Adaptation in Urban Areas", url: "https://doi.org/10.1007/978-3-319-56091-5" },
       { by: "Global Heat Health Information Network (GHHIN)", title: "Heat in the city: guidance and resources for urban heat", url: "https://heathealth.info/in-the-city/" } ] },
   { id: "drypower", edge: ["scarcity", "thermal"], title: "Power that doesn’t need water", who: ["utilities", "nat"], when: "decade", measure: "Power capacity added that needs little or no water",
     text: "Solar and wind use very little water, and dry cooling protects thermal plants when rivers run low or warm." },
@@ -557,6 +558,7 @@ const LEVERS = [
       { label: "Practical Action: Living in a Hotter World", url: "https://practicalaction.org/news-stories/living-in-a-hotter-world-a-mission-to-find-hidden-urban-hotspots/" } ],
     guides: [
       { by: "Global Heat Health Information Network (GHHIN)", title: "Heat action plans and case studies, including Indian cities", url: "https://heathealth.info/heat-action-plans-and-case-studies/" },
+      { by: "The Nature Conservancy and partners, 2019", title: "Heat Action Planning Guide for Neighborhoods of Greater Phoenix: planning heat action with residents", url: "https://globalfutures.asu.edu/sustainable-cities/wp-content/uploads/sites/17/2023/09/Phoenix-Arizona-Heat-Action-Plan.pdf" },
       { by: "WHO and WMO, 2015, in the GHHIN resource library", title: "Heatwaves and health: guidance on warning-system development", url: "https://heathealth.info/resources/heatwaves-and-health-guidance-on-warning-system-development/" },
       { by: "Council on Energy, Environment and Water (CEEW), 2025", title: "How Extreme Heat is Impacting India: district-level heat risk for all 734 districts, to target plans", url: "https://www.ceew.in/sites/default/files/ceew-how-extreme-heat-is-impacting-india-final-web-file.pdf" },
       { by: "Council on Energy, Environment and Water (CEEW)", title: "How can heat action plans make Thane a heat-resilient city?", url: "https://www.ceew.in/publications/how-can-thane-city-tackle-heatwaves-risks-with-heat-action-plan" } ] },
@@ -653,10 +655,16 @@ const LEVERS = [
       { by: "Council on Energy, Environment and Water (CEEW), 2026", title: "Thriving in a Warming World: climate intelligence for extreme heat", url: "https://www.ceew.in/sites/default/files/ceew-thriving-warming-world-climate-intelligence-extreme-heat.pdf" } ] },
   { id: "heatlending", edge: ["repayments", "credit"], title: "Heat-smart lending", who: ["insurers", "nat", "funders"], when: "years", measure: "Borrowers given repayment holidays or extra credit during heatwaves, and loan arrears after the season",
     text: "Lenders and regulators keep credit flowing through a heatwave: repayment holidays triggered by heat alerts, credit lines kept open, and loans for shade, cooling and cold storage, so a hot season does not become a debt spiral.",
-    example: "India’s banks can already reschedule loans and pause repayments in areas hit by notified natural calamities, under a 2018 Reserve Bank of India direction. India added heatwaves to its notified calamities in 2026; whether that relief now reaches heat-hit borrowers is worth asking your bank.",
+    example: "India’s banks can already reschedule loans and pause repayments in areas hit by notified natural calamities, under a 2018 Reserve Bank of India direction. India added heatwaves to its notified calamities in 2026; whether that relief now reaches heat-hit borrowers is worth asking your bank. Southeast Asia has the same machinery for floods and storms. In the Philippines, banks in areas under a state of calamity can give borrowers up to six months’ grace with no penalties. Indonesia’s regulator let banks restructure Rp12.58 trillion of loans for 237,083 borrowers after the 2025 Sumatra floods, and Vietnam let lenders reschedule debts hit by Typhoon Yagi until 2027. None of these rules yet names heat as a trigger.",
+    exampleSources: [
+      { label: "Philstar: BSP expands calamity relief for banks and borrowers, 2025", url: "https://www.philstar.com/business/2025/10/27/2482726/bsp-expands-calamity-relief-banks-borrowers" },
+      { label: "Bisnis.com: OJK loan restructuring for Sumatra disaster victims reaches Rp12.58 trillion, 2026", url: "https://finansial.bisnis.com/read/20260127/90/1947681/ojk-nilai-restrukturisasi-kredit-bagi-korban-bencana-sumatra-capai-rp1258-triliun" },
+      { label: "Viet Nam News: banks allowed to extend debt repayment for Typhoon Yagi-affected customers to 2027", url: "https://vietnamnews.vn/economy/1688781/banks-allowed-to-extend-debt-repayment-for-typhoon-yagi-affected-customers-to-2027.html" } ],
     guides: [
       { by: "Reserve Bank of India, 2018", title: "Master Direction: Relief measures by banks in areas affected by natural calamities", url: "https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10478" },
-      { by: "Shonchoy and others, IDE-JETRO", title: "Seasonal flexible microcredit in Bangladesh: repayment adjusted to the lean season did not raise default", url: "https://www.ide.go.jp/English/Publish/Reports/Dp/460.html" } ] },
+      { by: "Shonchoy and others, IDE-JETRO", title: "Seasonal flexible microcredit in Bangladesh: repayment adjusted to the lean season did not raise default", url: "https://www.ide.go.jp/English/Publish/Reports/Dp/460.html" },
+      { by: "Sustainable Banking and Finance Network (regulators and banking associations from emerging markets)", title: "Policy library: environmental, social and climate risk rules for banks, country by country", url: "https://www.sbfnetwork.org/" },
+      { by: "Center for Financial Inclusion, 2023", title: "Inclusive finance and extreme heat: how small loans and parametric insurance can help people through deadly heatwaves", url: "https://centerforfinancialinclusion.org/inclusive-finance-and-extreme-heat-how-small-loans-and-parametric-insurance-can-help-vulnerable-populations-manage-through-deadly-heat-waves" } ] },
   { id: "riskpools", edge: ["insurance", "budgets"], title: "Shared risk pools", who: ["insurers", "nat", "funders"], when: "years", measure: "Share of heat losses covered by pooled risk",
     text: "Public–private insurance and regional risk pools keep cover available and spread losses beyond any one budget.",
     example: "Regional risk pools such as the African Risk Capacity and the Caribbean’s CCRIF share disaster risk across countries.",
@@ -775,8 +783,8 @@ const PLAYBOOKS = {
                decide: "Adjust timetables and calendars before heat closes schools.",
                act: "Cool classrooms and keep school meals going.",
                sustain: "Build cooler schools and support that keeps children enrolled." },
-  insurers:  { sense: "Price heat risk with local data.",
-               decide: "Design cover that pays out quickly when heat crosses a threshold.",
+  insurers:  { sense: "Price heat risk with local data, and watch arrears in heat-exposed districts after each hot season.",
+               decide: "Design cover that pays out quickly when heat crosses a threshold, and add heatwaves to the calamities that switch on loan relief.",
                act: "Offer parametric heat insurance to workers and small businesses, and repayment relief when heat strikes.",
                sustain: "Share risk through public–private pools so cover stays available." },
   funders:   { sense: "Fund heat data and the tracking of deaths.",
@@ -937,6 +945,8 @@ const EVIDENCE = {
       finding: "Loan-level bank data from Mexico show that ten extra days of extreme heat in a quarter raise small-business loan delinquency by about 4%, mainly among firms that depend on local customers. Banks then raise rates, ask for more collateral and lend less for two to three quarters." },
     { by: "Sa-Dhan, reported by Business Standard, 2024", title: "Micro-loan asset quality deteriorates in April–June quarter", url: "https://www.business-standard.com/finance/news/micro-loan-asset-quality-deteriorates-in-april-june-quarter-sa-dhan-124082700721_1.html",
       finding: "India’s microfinance industry body said loan quality worsened in April–June 2024, partly because heatwaves cut borrowers’ incomes and lenders’ collections." },
+    { by: "King’s College London, 2023", title: "New study finds that microfinance is exacerbating climate precarity and harm in Cambodia", url: "https://www.kcl.ac.uk/news/new-study-finds-that-microfinance-is-exacerbating-climate-precarity-and-harm-in-cambodia",
+      finding: "A caution for lenders: in Cambodia, researchers found that borrowing to get through climate shocks often delayed the harm rather than removing it, leaving households more indebted for the next shock." },
     { by: "Greenpeace India and National Hawkers Federation, 2024", title: "Heatwave Havoc: the toll on Delhi’s street vendors", url: "https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/",
       finding: "Of 721 Delhi street vendors surveyed in April and May 2024, 80% saw fewer customers during heatwaves and 49% lost income." },
     { by: "Federation of Automobile Dealers Associations, reported by Orissa Post, 2024", title: "Passenger vehicle retail sales dip 7% in June as heatwave curtails showroom visits", url: "https://www.orissapost.com/passenger-vehicle-retail-sales-dip-7-in-june-as-heatwave-curtails-showroom-visits/amp/",
@@ -989,6 +999,7 @@ const ORG_ROLES = [
   { id: "ground",   name: "Working on the ground" },
   { id: "cooling",  name: "Cooling solutions" },
   { id: "finance",  name: "Insurance and finance" },
+  { id: "lending",  name: "Banks, regulators and microfinance" },
   { id: "funders",  name: "Philanthropy and funders" }
 ];
 
@@ -1029,7 +1040,7 @@ const ORGANISATIONS = [
   { id: "icimod", role: "asia", name: "ICIMOD", url: "https://www.downtoearth.org.in/climate-change/existing-solutions-could-slash-soot-emissions-by-80-by-2030-icimod",
     does: "Monitors the Himalaya’s snow and ice, and helps brick kilns switch to cleaner technology that cuts the soot darkening the glaciers.", levers: ["blackcarbon"] },
   { id: "adb", role: "asia", name: "Asian Development Bank", url: "https://www.preventionweb.net/publication/beating-heat-investing-pro-poor-solutions-urban-resilience",
-    does: "Supports heat resilience in Asian cities, including technical assistance on heat stress among women and girls in Bangladesh, Cambodia, Pakistan, Sri Lanka and Tajikistan.", levers: ["greencity", "heatbudget"] },
+    does: "Supports heat resilience in Asian cities, including technical assistance on heat stress among women and girls in Bangladesh, Cambodia, Pakistan, Sri Lanka and Tajikistan. Its 2026 report on the heat crisis in Thailand and Southeast Asia calls for mobilising public and private finance, and proposes a heat action plan for Thailand.", levers: ["greencity", "heatbudget", "hap"] },
   { id: "escap", role: "asia", name: "UN ESCAP", url: "https://unescap.org/our-work/environment-development/cities-for-a-sustainable-future/addressing-urban-extreme-heat",
     does: "Helps fast-growing cities in South and Southeast Asia plan for extreme urban heat, working with Iloilo City and Cox’s Bazar.", levers: ["hap"] },
   { id: "imd", role: "asia", name: "India Meteorological Department and IITM Pune", url: "https://wmo.int/node/38332",
@@ -1387,6 +1398,29 @@ const ORGANISATIONS = [
     does: "Funds Urban Futures, linking young people’s wellbeing and climate-resilient food systems in intermediary cities, including in Indonesia. Heat-specific funding is not confirmed.", levers: [] },
   { id: "opecfund", role: "funders", name: "OPEC Fund for International Development", url: "https://www.adb.org/who-we-are/partners/ofid/overview",
     does: "Lends and gives technical assistance for water security and services in Asia, including US$100 million for water security in Sri Lanka in 2025. Heat-specific funding is not confirmed.", levers: [] },
+  // Banks, regulators and microfinance in South and Southeast Asia
+  { id: "mas", role: "lending", name: "Monetary Authority of Singapore", url: "https://www.mas.gov.sg/news/media-releases/2023/mas-launches-worlds-first-multi-sector-transition-taxonomy",
+    does: "Its 2020 environmental risk guidelines expect banks to assess physical climate risk, including through scenario analysis and stress tests. Its Singapore-Asia Taxonomy (2023) covers emission cuts only, so there are no criteria yet for finance that helps people adapt to heat.", levers: ["heatlending"] },
+  { id: "bot", role: "lending", name: "Bank of Thailand", url: "https://www.bot.or.th/en/financial-innovation/sustainable-finance/green/FIPCS-internalizing_environmental_and_climate_change.html",
+    does: "A 2023 policy statement asks banks to build environmental and climate risk into governance, strategy, risk management and disclosure. It has worked with the World Bank on assessing physical climate risk in Thai banks’ loan books.", levers: ["heatlending"] },
+  { id: "ojk", role: "lending", name: "Otoritas Jasa Keuangan (Financial Services Authority), Indonesia", url: "https://ojk.go.id/en/Publikasi/Roadmap-dan-Pedoman/Perbankan/Pages/The-2026-Banking-Climate-Risk-Management-and-Scenario-Analysis-CRMS-Guideline.aspx",
+    does: "Its climate risk guideline for banks (2024, refined in 2026) includes data on Indonesia’s physical climate hazards. A 2022 rule lets banks restructure loans for borrowers in areas it designates as disaster-hit: after the 2025 Sumatra floods, Rp12.58 trillion for 237,083 borrowers. Heat has not yet been designated.", levers: ["heatlending", "anticipatory"] },
+  { id: "bsp", role: "lending", name: "Bangko Sentral ng Pilipinas", url: "https://www.philstar.com/business/2025/10/27/2482726/bsp-expands-calamity-relief-banks-borrowers",
+    does: "Since 2021, banks must check whether a borrower’s collateral or income is exposed to climate hazards. In areas under a state of calamity, banks can give borrowers up to six months’ grace with no interest on interest or penalties, longer for farm loans. It also eased rules for lenders in drought-hit areas during the 2015–16 El Niño.", levers: ["heatlending"] },
+  { id: "sbv", role: "lending", name: "State Bank of Vietnam", url: "https://vietnamnews.vn/economy/1688781/banks-allowed-to-extend-debt-repayment-for-typhoon-yagi-affected-customers-to-2027.html",
+    does: "Requires banks to assess environmental risk before lending to projects (since 2023). After Typhoon Yagi in 2024, it let lenders reschedule repayments for affected borrowers across 26 provinces, with final repayment allowed until the end of 2027.", levers: ["heatlending"] },
+  { id: "bangladeshbank", role: "lending", name: "Bangladesh Bank", url: "https://www.bssnews.net/news/391823",
+    does: "Steers credit to farmers after climate shocks through its refinancing schemes. In June 2026 it told banks to prioritise farmers hit by heavy rain. Heat is not yet among the shocks that trigger this support.", levers: ["heatlending", "farmcredit"] },
+  { id: "nrb", role: "lending", name: "Nepal Rastra Bank", url: "https://www.sbfnetwork.org/wp-content/assets/policy-library/1440_Nepal_Guideline_on_ESRM_for_Banks_and_FIs_2018_NRB.pdf",
+    does: "Sets environmental and social risk rules for banks (2018), and since October 2024 a green finance taxonomy that sorts lending into green, amber and red.", levers: ["heatlending"] },
+  { id: "rbi", role: "lending", name: "Reserve Bank of India", url: "https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10478",
+    does: "Its 2018 directions let banks reschedule loans and pause repayments in areas hit by notified calamities, which in India now include heatwaves. A 2024 draft framework would require banks to disclose their climate-related financial risks.", levers: ["heatlending"] },
+  { id: "sbfn", role: "lending", name: "Sustainable Banking and Finance Network", url: "https://www.sbfnetwork.org/",
+    does: "A network of financial regulators and banking associations from emerging markets, supported by IFC. Its policy library holds the climate and environmental risk rules of central banks across South and Southeast Asia.", levers: ["heatlending"] },
+  { id: "komida", role: "lending", name: "KOMIDA, with Build Change (Indonesia)", url: "https://www.globalinnovation.fund/investments/build-change-2",
+    does: "One of Indonesia’s largest microfinance institutions, piloting small home-improvement loans for climate adaptation with Build Change, aimed at women earning under US$5 a day and paired with digital advice.", levers: ["heatlending", "coolhousing"] },
+  { id: "cfi", role: "lending", name: "Center for Financial Inclusion", url: "https://centerforfinancialinclusion.org/inclusive-finance-and-extreme-heat-how-small-loans-and-parametric-insurance-can-help-vulnerable-populations-manage-through-deadly-heat-waves",
+    does: "Researches how small loans and parametric insurance can help low-income people get through heatwaves.", levers: ["heatlending", "heatcash"] }
 ];
 
 /* ---------- 14. PLAIN-LANGUAGE GLOSSARY ---------- */
@@ -1394,12 +1428,16 @@ const ORGANISATIONS = [
 // match: the words to look for in the map's text (use | for alternatives); the first one in each piece of text becomes tappable.
 // auto: false means the term is only in the glossary list, not underlined in the text.
 // video and length (optional): a 30-second explainer in media/glossary/, with a .jpg cover of the same name. Terms without one show no play button.
+// Nature-Based Solutions for Cities (McPhearson, Kabisch and Frantzeskaki, eds, Edward Elgar, 2023), open access under CC BY-NC-ND.
+// Cited in the glossary and in part 20: quote its findings with credit, never adapt its tables or figures.
+const NBS_BOOK = "https://doi.org/10.4337/9781800376762";
 const GLOSSARY_GROUPS = [
   { id: "body",    name: "What heat does to the body" },
   { id: "measure", name: "How heat is measured" },
   { id: "act",     name: "Acting before harm" },
   { id: "money",   name: "Money and protection" },
-  { id: "cooling", name: "Cooling, land and systems" }
+  { id: "cooling", name: "Cooling, land and systems" },
+  { id: "nature",  name: "Nature in the city" }
 ];
 
 const GLOSSARY = [
@@ -1455,6 +1493,32 @@ const GLOSSARY = [
     text: "A harm that feeds itself: each turn of the loop makes the next one worse. This map shows where those loops could be interrupted." },
   { id: "maladaptation", group: "cooling", term: "Maladaptation", match: "maladaptation",
     text: "A response to heat that makes things worse elsewhere or later, such as air conditioners that cool a room but heat the street." },
+  { id: "mrt", group: "measure", term: "Mean radiant temperature", match: "mean radiant temperature|radiant heat",
+    text: "The heat your body takes in from the sun and from hot surfaces around it: roads, walls and roofs. In strong sun it shapes how hot you feel more than air temperature does, which is why shade matters so much.", source: { label: "Nature-Based Solutions for Cities (Edward Elgar, 2023, open access)", url: NBS_BOOK } },
+  { id: "thermalcomfort", group: "measure", term: "Thermal comfort", match: "thermal comfort",
+    text: "How hot or cold a person feels. It depends on air temperature, humidity, wind, sun, clothing and activity, not on air temperature alone." },
+  { id: "albedo", group: "cooling", term: "Albedo", match: "albedo",
+    text: "How much sunlight a surface reflects. A white roof has a high albedo and stays cooler; dark asphalt has a low albedo and stores heat." },
+  { id: "evapotranspiration", group: "nature", term: "Evapotranspiration", match: "evapotranspiration",
+    text: "Water evaporating from soil and leaves. It draws heat out of the air, so well-watered plants cool their surroundings. Plants short of water stop cooling.", source: { label: "Nature-Based Solutions for Cities (Edward Elgar, 2023, open access)", url: NBS_BOOK } },
+  { id: "nbs", group: "nature", term: "Nature-based solutions", match: "nature-based solution",
+    text: "Using living systems such as trees, wetlands, soils and water to tackle problems like heat and flooding while also benefiting people and nature. A park only works as one if it is planned for those benefits and kept alive.", source: { label: "Nature-Based Solutions for Cities (Edward Elgar, 2023, open access)", url: NBS_BOOK } },
+  { id: "ecosystemservices", group: "nature", term: "Ecosystem services", match: "ecosystem service",
+    text: "The benefits people get from nature: shade and cooling, cleaner air and water, rain soaking into the ground, food and places to rest. The same service is worth most to those with the fewest alternatives, such as cooling for people without air conditioning.", source: { label: "Nature-Based Solutions for Cities (Edward Elgar, 2023, open access)", url: NBS_BOOK } },
+  { id: "bluegreen", group: "nature", term: "Blue-green infrastructure", match: "blue-green infrastructure|blue-green",
+    text: "A network of water (blue) and plants and soil (green), such as rivers, ponds, wetlands, parks and planted drains, designed to manage rain and heat together.", source: { label: "Nature-Based Solutions for Cities (Edward Elgar, 2023, open access)", url: NBS_BOOK } },
+  { id: "greyinfra", group: "nature", term: "Grey infrastructure", match: "grey infrastructure|gray infrastructure",
+    text: "Engineered, mostly concrete systems such as pipes, drains, embankments and pumps. Many good solutions mix grey and green.", source: { label: "Nature-Based Solutions for Cities (Edward Elgar, 2023, open access)", url: NBS_BOOK } },
+  { id: "spongecity", group: "nature", term: "Sponge city", match: "sponge city|sponge cities|sponge park",
+    text: "A city designed to soak up, store, clean and slowly release rainwater through parks, wetlands, permeable ground and planted drains, not only pipes. China piloted it in 30 cities from 2014 to 2019; Chennai and Bangkok are building sponge parks.", source: { label: "Nature-Based Solutions for Cities (Edward Elgar, 2023, open access)", url: NBS_BOOK } },
+  { id: "cobenefits", group: "nature", term: "Co-benefits", match: "co-benefit",
+    text: "The extra gains a measure brings beyond its main aim, such as a park built to hold floodwater that also cools the street and gives children somewhere to play.", source: { label: "Nature-Based Solutions for Cities (Edward Elgar, 2023, open access)", url: NBS_BOOK } },
+  { id: "eba", group: "nature", term: "Ecosystem-based adaptation", match: "ecosystem-based adaptation",
+    text: "Using nature to help people adapt to climate change, such as mangroves against storm surges or trees for shade. A kind of nature-based solution." },
+  { id: "greengentrification", group: "nature", term: "Green gentrification", match: "green gentrification",
+    text: "When a new park or greening raises rents and land prices so much that the poorer residents it was meant to help are pushed out.", source: { label: "Nature-Based Solutions for Cities (Edward Elgar, 2023, open access)", url: NBS_BOOK } },
+  { id: "envjustice", group: "nature", term: "Environmental justice", match: "environmental justice",
+    text: "A fair share of environmental benefits and harms, and a fair say in decisions about them. Poorer neighbourhoods are often hotter and less green.", source: { label: "Nature-Based Solutions for Cities (Edward Elgar, 2023, open access)", url: NBS_BOOK } },
   { id: "aquifer", group: "extra", term: "Aquifer", match: "aquifer",
     text: "Underground layers of rock or sand that hold groundwater, the water that wells and pumps draw from." },
   { id: "agroforestry", group: "extra", term: "Agroforestry", match: "agroforestry",
@@ -1851,7 +1915,6 @@ const PLAN_WORKSHOP = {
 // options[].cost (optional): { low, high, unit, conf: "medium" or "low", src (optional) }. Ranges are rough planning
 // figures in Indian rupees. "medium" and "low-medium" ranges are shown with their confidence; "low" ones say "get local quotes" instead.
 // facts: only use published sources you have opened. Book chapters are cited, not adapted (CC BY-NC-ND).
-const NBS_BOOK = "https://doi.org/10.4337/9781800376762";
 const COOL_PLACES = [
   { id: "homes", name: "Homes", protects: "Sleep, care work, and the older people, young children and sick people who spend the hottest hours indoors.",
     caution: "Check the roof type, fire safety, tenure and ventilation before any retrofit.",
@@ -1985,6 +2048,8 @@ const COOL_PLACES = [
         source: { label: "Hansen et al., chapter 10 in Nature-Based Solutions for Cities, 2023", url: NBS_BOOK } },
       { fact: "In Santiago, without long-term financing, only better-off municipalities could take part in green-space programmes, because only they could afford the extra upkeep.",
         source: { label: "Hansen et al., chapter 10 in Nature-Based Solutions for Cities, 2023", url: NBS_BOOK } },
+      { fact: "Less than 10% of the climate finance that reaches cities goes to adaptation and resilience.",
+        source: { label: "Cities Climate Finance Leadership Alliance, The State of Cities Climate Finance, 2021", url: "https://www.climatepolicyinitiative.org/publication/the-state-of-cities-climate-finance/" } },
       { fact: "The IUCN Global Standard for Nature-based Solutions makes inclusive governance and equity one of its eight criteria.",
         source: { label: "IUCN Global Standard: the eight criteria", url: "https://inbs.iucn.org/understand/8-criteria/" } }
     ] }
@@ -2027,6 +2092,25 @@ const COOL_VALUE = {
     { label: "Guerry et al., chapter 12 in Nature-Based Solutions for Cities, 2023", url: NBS_BOOK },
     { label: "World Bank and GPSC: the Haizhu wetland assessment, 2022", url: "https://www.thegpsc.org/sites/gpsc/files/haizhu_wetland_report_fin.pdf" } ]
 };
+
+// Free books and guides found in the reference lists of Nature-Based Solutions for Cities, each checked as open access.
+// adds: what it offers someone working on heat, in our words.
+const COOL_READING = [
+  { title: "Nature-Based Solutions for Cities", by: "McPhearson, Kabisch and Frantzeskaki (eds), Edward Elgar, 2023", url: NBS_BOOK,
+    adds: "The source for much of this section: cooling and air quality, planning and upkeep in Jakarta, Berlin, Melbourne and Santiago, governance, and how to value nature’s benefits." },
+  { title: "Nature-Based Solutions to Climate Change Adaptation in Urban Areas", by: "Kabisch, Korn, Stadler and Bonn (eds), Springer, 2017", url: "https://doi.org/10.1007/978-3-319-56091-5",
+    adds: "Evidence on cooling cities with green and blue infrastructure, then chapters on putting it into practice, social and environmental justice, governance and economics. Licensed CC BY 4.0." },
+  { title: "Heat Action Planning Guide for Neighborhoods of Greater Phoenix", by: "The Nature Conservancy and partners, 2019", url: "https://globalfutures.asu.edu/sustainable-cities/wp-content/uploads/sites/17/2023/09/Phoenix-Arizona-Heat-Action-Plan.pdf",
+    adds: "A step-by-step method for planning heat action with residents of three neighbourhoods: engage, co-design in workshops, then put it in place." },
+  { title: "Urbanization, Biodiversity and Ecosystem Services: Challenges and Opportunities", by: "Elmqvist et al. (eds), Springer, 2013", url: "https://library.oapen.org/handle/20.500.12657/50063",
+    adds: "The first global assessment of how cities affect nature. It found urban land growing faster than urban populations, with half of the world’s expected new urban land in Asia." },
+  { title: "Urban Planet: Knowledge towards Sustainable Cities", by: "Elmqvist et al. (eds), Cambridge University Press, 2018", url: "https://doi.org/10.1017/9781316647554",
+    adds: "Ways of knowing cities from sociology and political science to ecology and engineering, with contributions from architects, journalists, artists and activists." },
+  { title: "Resilient Urban Futures", by: "Hamstead, Iwaniec, McPhearson et al. (eds), Springer, 2021", url: "https://doi.org/10.1007/978-3-030-63131-4",
+    adds: "How nine cities in Latin America and the United States used participatory visioning with residents to imagine resilient futures." },
+  { title: "The State of Cities Climate Finance", by: "Cities Climate Finance Leadership Alliance, Climate Policy Initiative and World Bank, 2021", url: "https://www.climatepolicyinitiative.org/publication/the-state-of-cities-climate-finance/",
+    adds: "Maps the money: less than 10% of climate finance reaching cities goes to adaptation and resilience, and too little climate investment reaches cities in developing countries, singling out fast-urbanising South and Southeast Asia and Sub-Saharan Africa." }
+];
 
 // Actions in the plan that build or run physical cooling assets: step 3 asks who keeps them working.
 const COOL_ASSET_LEVERS = ["coolbydesign", "greencity", "coolhousing", "coolingcentres", "soilwater"];
