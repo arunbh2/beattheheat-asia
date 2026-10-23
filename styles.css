@@ -1389,3 +1389,5 @@ body.film-open { overflow: hidden; }
   .pd-all[hidden] { display: none; }
   .now .pd-all { color: var(--canvas); border-color: var(--canvas); }
 }
+.site-footer__text { max-width: 40rem; font-size: .85rem; color: var(--grey-700); }
+.site-footer__text a { display: inline-block; padding: 4px 0; color: var(--ink); }

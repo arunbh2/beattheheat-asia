@@ -1,0 +1,2223 @@
+# BeatTheHeat.Asia: the whole map as text
+
+> An interactive systems map of extreme heat in Asia: how heat ripples through 10 systems and 83 consequences, the 21 vicious cycles that make it worse, the 29 actions that could break them, and the 14 kinds of institution that hold those levers. Every claim links to its source.
+
+This is a beta version. BeatTheHeat.Asia is being built by a group of organisations working on extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement. Every claim links to its source; where the evidence is still emerging, the map says so.
+
+Interactive map: https://beattheheat.asia/ · Generated 2026-10-23
+
+## The web of extreme heat: every consequence, system by system
+
+How extreme heat ripples through 10 systems: 83 consequences and the links between them, each with its evidence.
+
+### Nature and ecosystems
+
+Heat dries land, burns forests, melts ice and warms the sea, wearing down the ecosystems that feed, water and shelter us.
+
+#### Droughts
+
+Higher temperatures speed up evaporation, so the same rain goes less far and dry spells turn into droughts.
+
+Leads to: Wildfires (Parched land and vegetation burn more easily.); Water shortages (Rivers, wells and reservoirs fall.); Failing harvests (Crops fail without water.); Livestock losses (Less water and fodder for animals.); Wildlife moves into farms and villages (Animals leave parched forests in search of water and food.); City trees and parks die (Trees with no water or root space die in long dry spells.)
+
+#### Wildfires
+
+Hot, dry vegetation ignites more easily and burns longer, sending smoke far beyond the fire itself.
+
+Leads to: Smoke, smog and ozone (Smoke travels hundreds of kilometres from the fire.); Glacier and snow melt (Soot settling on snow and ice darkens it, so it absorbs more sunlight and melts faster.); Extreme heat (Fires release carbon and strip away tree cover that shades and cools the land.)
+
+#### Forest dieback
+
+Heat and drought stress trees until they stop growing, then die, turning forests from shade and carbon stores into fuel.
+
+Leads to: Wildfires (Stressed and dying trees become fuel.); Biodiversity loss (Habitats disappear with the trees.); Wildlife moves into farms and villages (Dying forests offer less food and shelter, pushing animals out.)
+
+#### Drying soils
+
+Heat pulls moisture from the ground when crops and plants need it most.
+
+Leads to: Failing harvests (Moisture vanishes just when crops need it most.); Extreme heat (Dry soil can’t cool itself by evaporation, so more of the sun’s energy becomes heat.)
+
+#### Glacier and snow melt
+
+Mountain glaciers and snowpacks that feed rivers through the dry season are shrinking.
+
+Leads to: Water shortages (Rivers fed by snow and ice run lower in the dry season.); Hydropower falls (Less meltwater reaches the dams.); Extreme heat (Melting snow and ice expose darker ground and water, which absorb more sunlight.)
+
+#### Marine heatwaves and coral bleaching
+
+Ocean heatwaves bleach coral and drive fish away from the waters people depend on.
+
+Leads to: Fisheries decline (Fish move away from warming water, and dying reefs support fewer of them.)
+
+#### Biodiversity loss
+
+Species that can’t move or adapt fast enough decline, weakening pollination, soils and fisheries.
+
+Leads to: Failing harvests (Fewer pollinators and natural pest-eaters mean lower yields.)
+
+#### Wildlife moves into farms and villages
+
+As water and forage dry up, animals leave forests for farms and villages. Crops are raided, people and animals are hurt, hunting for food rises, and closer contact raises the risk of diseases passing from animals to people. In Assam, villagers have grown paddy just for wild elephants, so the herds leave the main harvest alone.
+
+Leads to: Failing harvests (Elephants, wild boar and other animals raid crops.); Infectious diseases spread (Closer contact between people, livestock and wild animals raises the risk of diseases crossing over.); Injuries and accidents rise (Encounters injure and kill people and animals.)
+
+Source: Abrahms et al., Nature Climate Change, 2023: climate change amplifies human–wildlife conflict https://doi.org/10.1038/s41558-023-01608-5
+
+Source: Mongabay India, 2023: Assam farmers grow paddy for wild elephants https://india.mongabay.com/2023/09/video-farmers-grow-paddy-for-wild-elephants-in-assam-to-reduce-conflicts/
+
+Source: Tamil Nadu State Planning Commission, Beating the Heat: Tamil Nadu Heat Mitigation Strategy, 2024 https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf
+
+### Food and agriculture
+
+Crops, animals, fisheries and the people who work them all have heat limits. Cross them and food gets scarcer and dearer.
+
+#### Failing harvests
+
+Heat during flowering and grain-filling cuts yields of staple crops, even when there is enough rain. Smallholders farming on rain alone, with no irrigation or savings to fall back on, are hit first.
+
+Leads to: Food price spikes (Smaller harvests push up prices.); Farmers fall into debt (A failed season leaves farmers borrowing to eat and to replant.)
+
+#### Livestock losses
+
+Heat-stressed animals eat less, produce less milk and eggs, fall ill and die.
+
+Leads to: Hunger and malnutrition (Less milk, eggs and meat for families who rely on them.)
+
+#### Farmwork hours lost
+
+Farm labourers work in the open sun. In the hottest hours, work becomes dangerous or impossible.
+
+Leads to: Failing harvests (Fields go untended in the hottest hours.); Lost work hours and wages (Farm labourers lose daily wages.)
+
+#### Pests and crop diseases spread
+
+Warmer conditions let many pests and plant diseases breed faster and spread to new areas.
+
+Leads to: Failing harvests (More pests and plant diseases mean more crops lost.)
+
+#### Fisheries decline
+
+As waters warm and reefs die, fish move away or decline, and catches fall. Coastal and riverside families who live from fishing lose food and income together.
+
+Leads to: Hunger and malnutrition (Coastal families lose a vital source of protein and income.)
+
+#### Food spoils faster
+
+Without cool storage, more of every harvest rots between field and plate.
+
+Leads to: Food price spikes (Losses after harvest push up prices.)
+
+#### Food price spikes
+
+Smaller harvests and losses push up prices, felt hardest by families who spend most of their income on food.
+
+Leads to: Hunger and malnutrition (The poorest spend most of their income on food.); Informal workers can’t stop work (Higher prices make it even harder to stop working.)
+
+#### Hunger and malnutrition
+
+When food costs more and incomes fall, families eat less and less well, and children suffer most.
+
+Leads to: Learning suffers in hot classrooms (Hungry children struggle to learn.); Babies and young children at risk (Underfed babies and children have less reserve to survive heat and illness.)
+
+#### Farmers fall into debt
+
+After a failed season, farmers borrow at high interest or sell livestock, land and seed to get by.
+
+Leads to: Failing harvests (Indebted farmers cut back on seed, water and fertiliser, so the next harvest fails more easily.); Forced migration (When debts can’t be repaid, families leave the land to look for work.); Loan repayments slip (Failed harvests leave farm loans unpaid.)
+
+### Water
+
+Heat raises the demand for water just as it shrinks the supply, and lowers its quality.
+
+#### Water shortages
+
+Taps run dry and wells fall just as people, crops and animals need more water to cope with the heat.
+
+Leads to: Longer trips to fetch water (Taps run dry, so someone has to fetch water.); Sanitation and hygiene fail (Without water, sanitation and hygiene fail.); Competition for water (Farms, cities and power plants compete for what is left.); Irrigation demand soars (Dry fields need more irrigation.); Power plants cut output (Power plants need cool water. When rivers run low or warm, they cut output.); City trees and parks die (When water runs short, watering trees and parks is cut first.)
+
+#### Water quality falls
+
+Warm, low water breeds algae and bacteria and concentrates pollution.
+
+Leads to: Infectious diseases spread (Contaminated water spreads disease.)
+
+#### Irrigation demand soars
+
+Hot, dry fields need far more water to keep crops alive.
+
+Leads to: Groundwater over-pumped (Farmers pump harder and deeper to keep crops alive.)
+
+#### Groundwater over-pumped
+
+Farmers and cities pump deeper and harder, draining aquifers faster than rain can refill them.
+
+Leads to: Water shortages (Aquifers fall and wells run dry.)
+
+#### Competition for water
+
+Farms, cities, industry and power plants all compete for a shrinking supply.
+
+Leads to: Conflict over water and land (Scarce water becomes a source of conflict.)
+
+#### Longer trips to fetch water
+
+Where taps fail, someone has to walk further, for longer, in the heat, to bring water home.
+
+Leads to: Care burden falls on women and girls (Fetching water falls mostly on women and girls.); Children pulled out of school (Girls miss school to fetch water.); Violence against women rises (Longer trips for water, often alone, expose women and girls to harassment and assault.)
+
+#### Sanitation and hygiene fail
+
+Without enough water, toilets, handwashing and cleaning suffer.
+
+Leads to: Infectious diseases spread (Poor hygiene spreads diarrhoea and other infections.); Babies and young children at risk (Diarrhoea from unsafe water is most dangerous for the youngest children.)
+
+### Energy
+
+Heat drives up demand for cooling while cutting the ability of power plants and grids to supply it.
+
+#### Cooling demand peaks
+
+As temperatures climb, so does the demand for fans and air conditioning, pushing electricity use to new peaks.
+
+Leads to: Power cuts and grid stress (Peak demand pushes grids to the limit.); Emissions from cooling rise (Most cooling still runs on fossil-fuelled power.); Urban heat islands (Air conditioners pump heat outdoors, warming the streets around them.); Can’t afford to keep cool (Higher bills push poor households into energy poverty.)
+
+#### Power cuts and grid stress
+
+Peak demand and heat-stressed lines and transformers push grids to the edge. Outages switch off cooling when it matters most.
+
+Leads to: Diesel generators run longer (Outages drive those who can afford it to diesel.); Cold chains break (Without power, fridges for food and vaccines fail.); Health systems overwhelmed (Hospitals and clinics lose cooling and equipment when the power fails.); Water shortages (Without power, pumps and treatment plants stop.); Phone and data networks fail (Phone masts and networks fail when the power does.); Small businesses close (Shops and workshops lose power and stock.)
+
+#### Power plants cut output
+
+Coal, gas and nuclear plants need cool water. When rivers run low or warm, they have to produce less.
+
+Leads to: Power cuts and grid stress (Plants cut output just when demand peaks.)
+
+#### Hydropower falls
+
+Low rivers and reservoirs mean less electricity from dams.
+
+Leads to: Power cuts and grid stress (Low reservoirs mean less electricity.)
+
+#### Diesel generators run longer
+
+When the grid fails, homes, shops and hospitals that can afford it switch to diesel.
+
+Leads to: Emissions from cooling rise (Diesel adds still more emissions.); Smoke, smog and ozone (Generators fill streets with fumes.)
+
+#### Emissions from cooling rise
+
+Most cooling still runs on fossil-fuelled power and refrigerants that warm the planet.
+
+Leads to: Extreme heat (Emissions add to the warming that drives demand for cooling.)
+
+#### Can’t afford to keep cool
+
+For the poorest households, fans, cooling and electricity bills are out of reach.
+
+Leads to: Heatstroke and heat exhaustion (With no way to cool down at home, heat builds up in the body.)
+
+#### Cold chains break
+
+Without reliable power, fridges for food, medicines and vaccines fail.
+
+Leads to: Food spoils faster (Food rots without refrigeration.); Infectious diseases spread (Spoiled vaccines leave people unprotected.)
+
+### Cities and infrastructure
+
+Concrete, crowding and ageing infrastructure turn cities into amplifiers of heat.
+
+#### Urban heat islands
+
+Dense surfaces, little shade and waste heat keep city cores several degrees hotter than their surroundings, especially at night. This is the urban heat island effect.
+
+Leads to: Cooling demand peaks (A hotter city needs even more cooling.); Sleepless hot nights (Cities hold their heat overnight.); City trees and parks die (Hotter streets stress trees further; many city species are already past their heat limits.)
+
+#### Homes that trap heat
+
+Tin roofs, poor ventilation and crowded rooms can make homes hotter inside than out, leaving nowhere safe to rest.
+
+Leads to: Heatstroke and heat exhaustion (With no cool place to recover, heat builds up day after day.); Deepening inequality (Hot homes cost sleep, health and earnings, so the gap widens.); Sleepless hot nights (Rooms stay hot all night.)
+
+#### Roads, rails and runways strained
+
+Rails buckle, roads soften and hot, thin air means planes need longer runways or must carry less.
+
+Leads to: Transport disrupted (Buckled rails and softened roads slow everything down.); Public budgets strained (Repairs drain public budgets.)
+
+#### Transport disrupted
+
+Speed limits, cancellations and breakdowns slow the movement of people and goods.
+
+Leads to: Supply chains disrupted (Goods stop moving.)
+
+#### Smoke, smog and ozone
+
+Heat speeds up the chemistry that forms ground-level ozone, and still, hot air traps pollution and smoke.
+
+Leads to: Breathing problems worsen (Ozone and smoke inflame the lungs.)
+
+#### Streets and parks unusable
+
+Markets, streets and parks become too hot to use in the middle of the day.
+
+Leads to: Small businesses close (Street trade and markets empty out.); Older people isolated at home (People stay indoors and alone.); Customers stay home (When streets are too hot to walk, shoppers stay away.)
+
+#### City trees and parks die
+
+Heat, drought and missing upkeep kill street trees and parks just when their shade is needed. Across 164 cities, 56% of urban tree and shrub species already face temperatures beyond those in their natural range, and in hot cities such as New Delhi and Singapore every species studied is at risk.
+
+Leads to: Urban heat islands (Fewer trees means less shade and less evaporative cooling, so streets heat up.)
+
+Source: Esperon-Rodriguez et al., Nature Climate Change, 2022: climate change increases global risk to urban forests https://www.vibrantcitieslab.com/wordpress/wp-content/uploads/2023/08/climate-change-increases-global-risk-to-urban-forests.pdf
+
+Source: Hansen et al., chapter 10 in Nature-Based Solutions for Cities, 2023: more than 500 of 870 new trees died in a Berlin park https://doi.org/10.4337/9781800376762
+
+#### Green space follows wealth
+
+Trees and parks cluster in better-off neighbourhoods, which can pay for them and for the upkeep that keeps them alive, so poorer districts stay hotter.
+
+Leads to: Urban heat islands (Neighbourhoods with little green run hotter.); Greening pushes people out (When greening finally reaches the least green, cheapest districts as a property upgrade, without protection for tenants, rents rise.)
+
+Source: Wolch, Byrne and Newell, Landscape and Urban Planning, 2014: making cities “just green enough” https://urbansustainability.seas.umich.edu/wp-content/uploads/2014/06/Making-cities-just-green-enough.pdf
+
+Source: Hansen et al., chapter 10 in Nature-Based Solutions for Cities, 2023: tree survival tracks municipal budgets in Santiago https://doi.org/10.4337/9781800376762
+
+#### Phone and data networks fail
+
+Overheating equipment and power cuts take down phone masts, networks and data centres.
+
+Leads to: Emergency services stretched (Warnings and calls for help don’t get through.); Help can’t reach remote places (Without a phone signal, heat warnings never reach the last village.)
+
+### Health
+
+The human body has limits. Heat strains the heart, kidneys, lungs and mind, and the services built to care for them.
+
+#### Heat deaths
+
+Extreme heat kills, often quietly, through failing hearts, kidneys and lungs. Europe’s 2003 heatwave alone is estimated to have caused more than 70,000 deaths.
+
+Leads to: Heat deaths under-recorded (Most heat deaths are recorded as heart, kidney or lung failure.); Deepening inequality (Families lose breadwinners and carers.)
+
+#### Heatstroke and heat exhaustion
+
+When the body can no longer cool itself, heat exhaustion can tip into heatstroke: a medical emergency that can kill. India’s suspected heatstroke cases rose more than tenfold in two summers, from 4,481 in 2022 to over 48,000 in 2024. Humid heat is the most dangerous: when the wet-bulb temperature is high, sweat stops cooling the body.
+
+Leads to: Heat deaths (Heatstroke kills if it is not treated quickly.); Health systems overwhelmed (Heat illness brings sudden surges of patients.); Lost work hours and wages (Illness means days off work, and for daily earners no work means no pay.); Medical costs and debt (Treatment and lost days are paid for out of pocket.)
+
+#### Kidney and heart strain
+
+Sweating and dehydration make the heart work harder and can damage the kidneys, especially with repeated exposure.
+
+Leads to: Heat deaths (Many heat deaths are heart and kidney failures.)
+
+#### Breathing problems worsen
+
+Ozone, smoke and hot air inflame airways and worsen asthma and lung disease.
+
+Leads to: Heat deaths (Breathing problems turn fatal in the heat.)
+
+#### Risks in pregnancy
+
+Each 1 °C rise in temperature raises the odds of preterm birth by about 5%, and a heatwave by about 16%. Stillbirths rise too. Women who keep working outdoors or fetching water while pregnant carry the most risk.
+
+Leads to: Health systems overwhelmed (Complications add to the load on maternity care.); Babies and young children at risk (Babies born early or small are more fragile in the heat.)
+
+#### Babies and young children at risk
+
+Babies and small children overheat and dehydrate faster than adults, and can’t say when they are struggling. Heat brings more diarrhoea, malnutrition and hospital visits for the youngest.
+
+Leads to: Care burden falls on women and girls (Sick babies and children need someone at home to look after them, usually their mother.)
+
+#### Mental health suffers
+
+Heat is linked to more anxiety, distress and suicide, and to worse outcomes for people living with mental illness.
+
+Leads to: Sleepless hot nights (Stress and anxiety make sleep even harder.); Violence and crime rise (Frayed tempers spill over into violence.)
+
+#### Sleepless hot nights
+
+When nights stay hot, the body never recovers from the day, so the next day starts already depleted.
+
+Leads to: Mental health suffers (Poor sleep wears down mood and the ability to cope.); Heatstroke and heat exhaustion (Without cool nights, the body starts each day already overheated.)
+
+#### Infectious diseases spread
+
+Warmth helps mosquitoes that carry dengue thrive, and dirty water and spoiled food spread illness.
+
+Leads to: Health systems overwhelmed (Outbreaks add to the caseload.)
+
+#### Injuries and accidents rise
+
+Heat dulls concentration and coordination, so accidents at work, on the road and at home increase.
+
+Leads to: Health systems overwhelmed (More casualties to treat.); Lost work hours and wages (Injured workers lose income.)
+
+#### Health systems overwhelmed
+
+Heatwaves bring surges of patients just as staff, power and supplies are under strain.
+
+Leads to: Heatstroke and heat exhaustion (Overstretched services treat people later, and heat illness turns severe fast.)
+
+### Work and economy
+
+Heat slows hands, closes businesses and squeezes the incomes of those with the least margin.
+
+#### Lost work hours and wages
+
+The International Labour Organization projects that heat stress could cut 2.2% of all working hours worldwide by 2030, the equivalent of 80 million full-time jobs.
+
+Leads to: Informal workers can’t stop work (Lost income leaves even less margin, so the next heatwave has to be worked through too.); Deepening inequality (Lost earnings hurt most where there are no savings to fall back on.); Hunger and malnutrition (Less income means less food.); Violence against women rises (Lost income and stress at home raise the risk of violence against women.); Loan repayments slip (Lost wages make household and microfinance repayments harder.)
+
+#### Informal workers can’t stop work
+
+Without paid leave, contracts or savings, stopping work means losing the day’s income. So people keep working through dangerous heat. About three in four Indian workers, some 380 million people, depend on heat-exposed work.
+
+Leads to: Heatstroke and heat exhaustion (Working through the hottest hours without shade, water or rest raises the risk of heat illness.); Injuries and accidents rise (Fatigue and heat cause accidents.); Care burden falls on women and girls (When workers fall ill, someone has to care for them, usually women.)
+
+#### Productivity falls
+
+Above a certain temperature, people work more slowly and make more mistakes, indoors and out. Across 2.7 million firms in 23 advanced economies, ten extra days above 35 °C cut a year’s labour productivity by 0.3%, and days above 40 °C did five times the damage. In humid, still air the loss roughly doubles.
+
+Leads to: Lost work hours and wages (Slower work means lower output and pay.); Public budgets strained (Lower output means lower tax revenue.)
+
+#### Medical costs and debt
+
+Treatment, medicines and lost days are often paid for out of pocket, pushing households into debt.
+
+Leads to: Informal workers can’t stop work (Debt repayments remove any option to stop work in the heat.); Can’t afford to keep cool (Debt leaves nothing for electricity or cooling.)
+
+#### Small businesses close
+
+Street vendors, workshops and shops lose customers, stock and power, and many shut for good.
+
+Leads to: Lost work hours and wages (Closed businesses mean lost jobs.); Deepening inequality (Small firms lose the most in hot years while the largest firms gain, so heat widens the gap between them.); Loan repayments slip (Lost sales leave small firms short of cash to repay their loans.)
+
+#### Supply chains disrupted
+
+Heat slows factories, ports, roads and warehouses. The delays ripple through prices and jobs far away.
+
+Leads to: Food price spikes (Delays and losses push up prices.)
+
+#### Customers stay home
+
+Heat empties markets and high streets in the hottest hours. Spending shifts to cooled malls and cooling products, while street vendors, small shops, restaurants and hotels lose sales.
+
+Leads to: Small businesses close (Fewer customers mean lost sales and spoiled stock.)
+
+#### Tourism shifts away
+
+Visitors avoid places and seasons that become too hot, taking jobs and income with them.
+
+Leads to: Lost work hours and wages (Fewer visitors, fewer jobs.)
+
+### Education
+
+Hot classrooms and closed schools cost children learning that shows up years later as lower skills and earnings.
+
+#### Schools close in heatwaves
+
+When classrooms become dangerous, schools shut, sometimes for weeks.
+
+Leads to: Learning suffers in hot classrooms (Lost school days mean lost learning.); Care burden falls on women and girls (Children at home need someone to look after them.); Hunger and malnutrition (Children who rely on school meals go without them when schools shut.)
+
+#### Learning suffers in hot classrooms
+
+Studies link hotter school days to measurably lower learning and exam results.
+
+Leads to: Lower skills and earnings (Lost learning becomes lower earnings later.)
+
+#### Children pulled out of school
+
+When families are squeezed, children, often girls, leave school to work, care or fetch water.
+
+Leads to: Lower skills and earnings (Leaving school early limits a whole life’s options.)
+
+#### Lower skills and earnings
+
+Learning lost today becomes lower skills and lower earnings for a lifetime.
+
+Leads to: Deepening inequality (Gaps in learning become gaps in income.)
+
+### Society and security
+
+Heat frays the social fabric: it isolates, displaces, divides and widens every existing gap.
+
+#### Deepening inequality
+
+Every impact lands hardest on those with the least protection, widening gaps in health, income and opportunity.
+
+Leads to: Green space follows wealth (Better-off districts can pay for trees and parks, and for the upkeep that keeps them alive.); Children pulled out of school (Poorer households pull children out of school to work, care or fetch water.); Forced migration (When the gap becomes unbearable, people move.)
+
+#### Care burden falls on women and girls
+
+When people fall ill, schools close or water runs short, the extra caring and fetching usually falls on women and girls. In India, women already lose about 19% of their paid working hours to heat.
+
+Leads to: Deepening inequality (Unpaid care pulls women and girls out of paid work and school.)
+
+#### Older people isolated at home
+
+Older people living alone are among the most likely to die in a heatwave. Many victims of Chicago’s 1995 heatwave died alone at home.
+
+Leads to: Heat deaths (Older people alone at home are among the most likely to die.)
+
+#### Violence and crime rise
+
+Hot days are linked to more aggression, domestic violence and violent crime.
+
+Leads to: Social trust frays (Violence erodes trust.)
+
+#### Violence against women rises
+
+Across India, Nepal and Pakistan, each 1 °C rise in yearly temperature was linked to about 4.5% more violence by husbands and partners. Lost income, stress and crowded hot homes all play a part.
+
+Leads to: Mental health suffers (Violence leaves lasting harm to mental health.); Deepening inequality (Violence keeps women out of work, decisions and public life.)
+
+#### Conflict over water and land
+
+Where water and pasture shrink, disputes between communities can turn violent.
+
+Leads to: Forced migration (Conflict forces people from their homes.)
+
+#### Greening pushes people out
+
+New parks and greening can raise rents and land prices until the poorer residents they were meant to cool are pushed out, often into hotter, more crowded housing. This is green gentrification. Across 28 North American and European cities, greening in the 1990s and 2000s was followed by gentrification in 17.
+
+Leads to: Homes that trap heat (People pushed out often land in hotter, more crowded housing.)
+
+Source: Anguelovski et al., Nature Communications, 2022: green gentrification in European and North American cities https://doi.org/10.1038/s41467-022-31572-1
+
+Source: Bangkok: a master’s thesis on Pathumwananurak Park, built where the Rong Poon community lived https://www.researchgate.net/publication/369538102_Green_Gentrification_and_The_Value_of_Urban_Nature_Case_Study_of_Pathumwananurak_Park_Bangkok
+
+#### Forced migration
+
+When land, work and water fail, families may be forced to move, often into cities that are hotter still.
+
+Leads to: Homes that trap heat (People forced to move often end up in crowded, poorly built housing that traps heat.); Violence against women rises (Displaced women and girls face higher risks of violence and exploitation.)
+
+#### Mass gatherings turn deadly
+
+Crowds in open sun with little shade or water are deadly. During the 2024 Hajj, more than 1,300 pilgrims died in extreme heat.
+
+Leads to: Heat deaths (Crowds in the open sun turn deadly.); Emergency services stretched (Mass casualties overwhelm responders.)
+
+#### Social trust frays
+
+Violence, unequal suffering and failing services erode trust between neighbours and in institutions.
+
+Leads to: Older people isolated at home (Weaker community ties leave more people alone.)
+
+### Governance and finance
+
+The institutions that decide who is protected, and who pays, are themselves strained by heat.
+
+#### Emergency services stretched
+
+Ambulances, fire crews and emergency rooms are swamped all at once.
+
+Leads to: Heat deaths (When responders are stretched, help arrives too late.); Public budgets strained (Reacting after the fact costs far more than preparing.)
+
+#### Public budgets strained
+
+Repairs, emergency response, lost tax revenue and relief payments all drain public money.
+
+Leads to: Heat protection underfunded (Stretched budgets leave little for heat protection.)
+
+#### Insurance losses and retreat
+
+Rising losses push premiums up and insurers out, leaving more people and businesses unprotected.
+
+Leads to: Public budgets strained (When insurers retreat, governments carry the losses.); Small businesses close (Uninsured losses close small businesses.)
+
+#### Heat deaths under-recorded
+
+Heat is rarely written on death certificates. Most heat deaths are recorded as heart, kidney or lung failure.
+
+Leads to: Heat protection underfunded (What isn’t counted isn’t funded.)
+
+#### Heat protection underfunded
+
+Warnings, cooling centres, outreach and heat-ready services get a small share of budgets compared with floods or storms.
+
+Leads to: Heat deaths (Without warnings, cooling centres and outreach, more people die.); Emergency services stretched (Without prevention, emergencies multiply.); Health systems overwhelmed (Clinics aren’t prepared for heat.); Insurance losses and retreat (Unmanaged risk drives insurers away.)
+
+#### Help can’t reach remote places
+
+In remote villages, islands, hills and river settlements, the nearest clinic, cool shelter or reliable power can be hours away, and heat warnings often never arrive.
+
+Leads to: Heat deaths (When help is hours away, treatable heat illness turns fatal.); Heat deaths under-recorded (Deaths far from clinics are rarely recorded as heat deaths.)
+
+#### Loan repayments slip
+
+When heat cuts sales, harvests or wages, small firms and households fall behind on loans, and lenders collect less.
+
+Leads to: Borrowing costs rise (Lenders respond to missed repayments by charging more, asking for more collateral and lending less.)
+
+#### Borrowing costs rise
+
+Lenders and rating agencies increasingly price climate risk into borrowing. After heat shocks, banks have charged small firms more, asked for more collateral and lent less.
+
+Leads to: Public budgets strained (Higher borrowing costs leave less to spend.); Small businesses close (Dearer, scarcer credit leaves small firms unable to restock, cool their premises or ride out the next heatwave.)
+
+#### Elections and public services disrupted
+
+Heat disrupts voting, courts and public offices. Polling staff died in heatwaves during India’s 2024 general election.
+
+Leads to: Social trust frays (Disrupted elections and services test public trust.)
+
+## Vicious cycles of extreme heat, and where they can be broken
+
+21 vicious cycles in which extreme heat feeds itself, traps people or overwhelms institutions, with where each one plays out in Asia, the evidence, and the actions that could break it.
+
+### Loops that feed the heat itself
+
+#### The global cooling loop
+
+Cooling powered by fossil fuels adds to the warming that makes us need more cooling.
+
+The cycle: Extreme heat → Energy → Cooling demand peaks → Emissions from cooling rise → back to the start.
+
+Where it plays out: Fast-growing cities across South and Southeast Asia, where air-conditioner ownership is rising quickly.
+
+Where it breaks: Clean, efficient cooling
+
+- The world’s stock of air conditioners is set to grow from 1.6 billion to 5.6 billion by 2050, and the energy they use to triple, unless efficiency improves. (International Energy Agency, 2018, https://www.iea.org/reports/the-future-of-cooling)
+
+#### The dry-soil loop
+
+Heat dries the soil. Dry soil can’t cool itself, so the land heats up faster.
+
+The cycle: Extreme heat → Nature and ecosystems → Drying soils → back to the start.
+
+Where it plays out: Rain-fed farmland on the Indian subcontinent and in mainland Southeast Asia during the hot, dry pre-monsoon months.
+
+Where it breaks: Deep emission cuts, Keep water in the soil
+
+- Reviews the evidence that dry soils amplify hot temperatures: with less water to evaporate, more of the sun’s energy goes into heating the air. (Seneviratne et al., Earth-Science Reviews, 2010, https://doi.org/10.1016/j.earscirev.2010.02.004)
+
+#### The melting-ice loop
+
+Heat melts ice. Darker ground and water absorb more sunlight, and the melting speeds up.
+
+The cycle: Extreme heat → Nature and ecosystems → Glacier and snow melt → back to the start.
+
+Where it plays out: The Hindu Kush Himalaya, whose snow and ice feed rivers such as the Indus, Ganges and Brahmaputra.
+
+Where it breaks: Deep emission cuts, Cut black carbon
+
+- Glaciers lost ice 65% faster in the 2010s than in the decade before. At 1.5–2 °C of warming, glaciers across the region lose 30–50% of their volume by 2100. (ICIMOD, 2023, https://lib.icimod.org/record/36322)
+
+#### The wildfire loop
+
+Heat dries forests into fuel. Fires release carbon and strip away the trees that cool the land.
+
+The cycle: Extreme heat → Nature and ecosystems → Wildfires → back to the start.
+
+Where it plays out: The dry-season burning belt of northern Thailand, Myanmar and Laos, and Indonesia’s peatlands.
+
+Where it breaks: Deep emission cuts, Fire-smart landscapes
+
+- Climate change and land-use change are making wildfires worse. Extreme fires are projected to rise by up to 14% by 2030 and 50% by the end of the century. (UNEP and GRID-Arendal, 2022, https://www.unep.org/resources/report/spreading-wildfire-rising-threat-extraordinary-landscape-fires)
+
+### Loops that break the systems we rely on
+
+#### The cooling trap
+
+Air conditioning heats the street, and a hotter city needs even more air conditioning.
+
+The cycle: Cooling demand peaks → Urban heat islands → back to the start.
+
+Where it plays out: Dense, high-rise city cores such as Hong Kong, Bangkok and Metro Manila.
+
+Where it breaks: Cool by design, Green, cool cities
+
+- In a Phoenix heatwave, waste heat from air conditioners raised night-time air temperatures by more than 1 °C in parts of the city. (Salamanca et al., Journal of Geophysical Research, 2014 (summary by Arizona State University), https://news.asu.edu/content/excess-heat-air-conditioners-causes-higher-nighttime-temperatures)
+
+- China, India and Indonesia are expected to account for half of the world’s air conditioners by 2050. (International Energy Agency, 2018, https://www.iea.org/reports/the-future-of-cooling)
+
+- Chennai’s built-up area more than doubled between 2000 and 2020, and night-time land surface temperatures in its urban areas run about 2 °C higher than on its peri-urban edges. (Tamil Nadu State Planning Commission, 2024, https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf)
+
+- Singapore’s commercial centre has measured up to about 7 °C warmer than its outskirts on calm, clear nights. (Cooling Singapore, citing Chow and Roth, 2006, https://www.thegpsc.org/sites/gpsc/files/cooling_singapore_-_digital_urban_climate_twin.pdf)
+
+#### The energy–water loop
+
+Water systems need power and power plants need water. In a heatwave, each failure deepens the other.
+
+The cycle: Power cuts and grid stress → Water shortages → Power plants cut output → back to the start.
+
+Where it plays out: Coal-fired power plants along water-stressed rivers in India.
+
+Where it breaks: Power that doesn’t need water, Backup power for water
+
+- 14 of India’s 20 largest thermal utilities shut down at least once for lack of water between 2013 and 2016. Water shortages cost 14 TWh of power in 2016. (World Resources Institute, 2018, https://www.wri.org/insights/40-indias-thermal-power-plants-are-water-scarce-areas-threatening-shutdowns)
+
+#### The groundwater loop
+
+Dry fields need more water, so farmers pump harder, aquifers fall and the shortage deepens.
+
+The cycle: Water shortages → Irrigation demand soars → Groundwater over-pumped → back to the start.
+
+Where it plays out: Punjab and Haryana in northwest India, where groundwater tables have been falling for decades.
+
+Where it breaks: Smart irrigation and groundwater rules
+
+- Satellites show Rajasthan, Punjab and Haryana lost 109 km³ of groundwater between 2002 and 2008, mainly to irrigation, while rainfall stayed close to normal. (Rodell, Velicogna and Famiglietti, Nature, 2009, https://www.nature.com/articles/nature08238)
+
+#### The dying-green loop
+
+Heat and drought kill city trees. Without their shade the streets get hotter, and hotter streets kill more trees.
+
+The cycle: City trees and parks die → Urban heat islands → back to the start.
+
+Where it plays out: Hot, fast-growing cities such as New Delhi and Singapore, where every urban tree species studied is at risk from rising heat.
+
+Where it breaks: Keep city trees alive
+
+- Of 3,129 tree and shrub species in 164 cities, 56% already face temperatures beyond those in their natural range, rising to about 76% by 2050 under a mid-range warming scenario. Risk is highest in low-latitude cities such as New Delhi and Singapore. (Esperon-Rodriguez et al., Nature Climate Change, 2022, https://www.vibrantcitieslab.com/wordpress/wp-content/uploads/2023/08/climate-change-increases-global-risk-to-urban-forests.pdf)
+
+- Drought stops urban trees from cooling through transpiration. In one Berlin park more than 500 of 870 new trees died within ten years despite watering, and Berlin cut about 44,000 street trees between 2012 and 2019 while planting about 18,000. (Hansen et al., chapter 10 in Nature-Based Solutions for Cities, 2023, https://doi.org/10.4337/9781800376762)
+
+- Tree shade sharply lowers the radiant heat people feel by day, which is the cooling lost when trees die. (Middel et al., Bulletin of the American Meteorological Society, https://par.nsf.gov/biblio/10230332-grades-shade)
+
+#### The overwhelmed-clinic loop
+
+Heat illness floods clinics. Overwhelmed clinics treat people later, and more cases become severe.
+
+The cycle: Heatstroke and heat exhaustion → Health systems overwhelmed → back to the start.
+
+Where it plays out: District and city hospitals during South Asia’s pre-monsoon heatwaves.
+
+Where it breaks: Heat action plans, Heat-ready health services
+
+- Heat-related deaths among people over 65 reached a record 167% above the 1990s level in 2023. (Lancet Countdown, The Lancet, 2024, https://doi.org/10.1016/S0140-6736(24)01822-1)
+
+- After Ahmedabad’s heat action plan prepared hospitals and warned the public, an estimated 1,190 deaths a year were avoided. (Hess et al., Journal of Environmental and Public Health, 2018, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6236972/)
+
+### Loops that trap people
+
+#### The poverty–heat trap
+
+People who can’t afford to stop working fall ill. Illness costs income, and lost income makes stopping even less affordable.
+
+The cycle: Informal workers can’t stop work → Heatstroke and heat exhaustion → Lost work hours and wages → back to the start.
+
+Where it plays out: Construction sites, brick kilns, farms and street markets across South and Southeast Asia.
+
+Where it breaks: Heat-safe work, Income protection in heatwaves, Social protection floors
+
+- Across 2.7 million firms in 23 advanced economies, including Japan and Korea, ten extra days above 35 °C cut yearly labour productivity by 0.3%, and over 1.5% above 40 °C. Very humid places lost 0.75%, more than double the average. Korea has already lost about 0.15% of productivity to added heat since the early 2000s. (OECD Economics Department, Working Paper No. 1828, 2024, https://doi.org/10.1787/19d94638-en)
+
+- Up to three-quarters of India’s workforce, about 380 million people, depend on heat-exposed labour, work that produces nearly half of the country’s GDP. (World Bank, 2022, reported by Down To Earth, https://www.downtoearth.org.in/climate-change/heatwaves-in-india-could-soon-break-human-survivability-limit-says-world-bank-analysis-86431)
+
+- Heat stress is projected to cost 2.2% of all working hours by 2030, equal to 80 million full-time jobs. South Asia is among the worst hit, losing about 5% of working hours. (International Labour Organization, 2019, https://www.ilo.org/resource/news/increase-heat-stress-predicted-bring-productivity-loss-equivalent-80)
+
+- Heat exposure put a record 512 billion potential labour hours at risk in 2023, with potential income losses of US$835 billion. (Lancet Countdown, The Lancet, 2024, https://doi.org/10.1016/S0140-6736(24)01822-1)
+
+- Heat-related illness cost Bangladesh 250 million workdays in 2024, worth up to US$1.78 billion, about 0.4% of GDP. Since 1980 the ‘feels-like’ temperature has risen by 4.5 °C. (World Bank, 2025, https://www.worldbank.org/en/news/press-release/2025/09/16/bangladesh-faces-health-and-economic-risks-from-rising-temperature-world-bank)
+
+#### The medical-debt trap
+
+Treatment costs push families into debt. Debt removes any option to rest, and working through the heat brings more illness.
+
+The cycle: Heatstroke and heat exhaustion → Medical costs and debt → Informal workers can’t stop work → back to the start.
+
+Where it plays out: Households without health insurance, where most medical costs are paid out of pocket.
+
+Where it breaks: Heat-safe work, Free care for heat illness
+
+- Medicine costs alone were catastrophic for 11.2% of Indian households in 2011–12, about 29 million households. (Selvaraj, Farooqui and Karan, BMJ Open, 2018, https://bmjopen.bmj.com/content/8/5/e018020)
+
+- In a survey of more than 2,000 residents of five cities, heat harmed health, cut incomes and working hours, and pushed some households towards high-interest loans. Women and people with disabilities faced the hardest trade-offs between health, work and care. (American Red Cross, Red Cross Red Crescent Climate Centre, Nepal Red Cross Society and Bangladesh Red Crescent Society, 2026, https://www.climatecentre.org/publications/17312/the-lived-experiences-of-vulnerable-populations-in-the-context-of-extreme-heat-a-comprehensive-narrative-report-based-on-survey-data-from-five-cities-in-nepal-and-bangladesh/)
+
+#### The energy-poverty trap
+
+People who can’t afford to cool fall ill. Illness brings debt, and debt puts cooling even further out of reach.
+
+The cycle: Can’t afford to keep cool → Heatstroke and heat exhaustion → Medical costs and debt → back to the start.
+
+Where it plays out: Tin-roofed informal settlements in cities such as Dhaka, Karachi and Mumbai.
+
+Where it breaks: Free care for heat illness, Affordable cooling for the poorest
+
+- 1.12 billion of the rural and urban poor are at high risk because they lack access to cooling. (Sustainable Energy for All, 2023, https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-global-access-to-cooling-gaps-2023)
+
+#### The displacement loop
+
+People forced to move often land in heat-trapping housing, fall ill, lose income, fall further behind, and are forced to move again.
+
+The cycle: Forced migration → Homes that trap heat → Heatstroke and heat exhaustion → Lost work hours and wages → Deepening inequality → back to the start.
+
+Where it plays out: Migrant settlements on the edges of fast-growing cities such as Dhaka.
+
+Where it breaks: Income protection in heatwaves, Cool, affordable housing
+
+- Without action, climate change could force up to 216 million people to move within their own countries by 2050, including about 40 million in South Asia. (World Bank, 2021, https://openknowledge.worldbank.org/handle/10986/36248)
+
+#### The lost-schooling loop
+
+Children pulled out of school earn less as adults, and poorer families pull more children out of school.
+
+The cycle: Children pulled out of school → Lower skills and earnings → Deepening inequality → back to the start.
+
+Where it plays out: School systems that closed classrooms during the 2024 heatwaves, including in the Philippines and Bangladesh.
+
+Where it breaks: Keep children in school
+
+- Without air conditioning, each 1 °F hotter school year cuts that year’s learning by about 1%, and the losses fall hardest on disadvantaged students. (Park, Goodman, Hurwitz and Smith, American Economic Journal: Economic Policy, 2020, https://www.aeaweb.org/doi/10.1257/pol.20180612)
+
+- Heatwaves disrupted schooling for an estimated 171 million students in 2024. South Asia was the most affected region. (UNICEF, 2025, https://www.unicef.org/reports/learning-interrupted-global-snapshot-2024)
+
+- In early April 2024, 5,288 schools across the Philippines switched to remote learning as the heat index reached danger levels, affecting more than 3.6 million students. (AFP via Malay Mail, April 2024, https://www.malaymail.com/news/world/2024/04/05/thousands-of-philippine-schools-suspend-in-person-classes-due-to-heat-says-education-dept/127511)
+
+- Bangladesh closed schools for about 33 million children in its April 2024 heatwave, and Cambodia cut the school day by two hours. (NBC News, 2024, https://www.nbcnews.com/news/world/schools-close-extreme-heat-philippines-bangladesh-asia-rcna149485)
+
+#### The sleepless-nights loop
+
+Hot nights wreck sleep. Poor sleep frays mental health, and stress makes sleep harder still.
+
+The cycle: Sleepless hot nights → Mental health suffers → back to the start.
+
+Where it plays out: Tropical cities whose nights stay hot, such as Bangkok, Chennai and Ho Chi Minh City.
+
+Where it breaks: Cool nights and support
+
+- Data from 47,628 people in 68 countries shows hot nights shorten sleep, with bigger losses for older people and in lower-income countries. (Minor et al., One Earth, 2022, https://orbit.dtu.dk/en/publications/rising-temperatures-erode-human-sleep-globally/)
+
+- A review of 114 studies links higher temperatures with poorer mental health, including higher suicide rates. (Thompson et al., The Lancet Planetary Health, 2023 (summary by Imperial College London), https://www.imperial.ac.uk/news/246058/rising-temperatures-associated-with-poorer-mental/)
+
+- Over the last decade, nearly 70% of India’s districts gained five or more very warm nights each summer, while only about 28% saw a similar rise in very hot days. Mumbai gained 15 very warm nights a summer, and Bengaluru 11. (Council on Energy, Environment and Water (CEEW), 2025, https://www.ceew.in/sites/default/files/ceew-how-extreme-heat-is-impacting-india-final-web-file.pdf)
+
+- Tamil Nadu’s summer minimum temperatures have risen by about 0.75 °C since the 1980s, and about 56% of its people now live where summer nights are warmer than the 1981–2011 average. (Tamil Nadu State Planning Commission, 2024, https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf)
+
+#### The green-displacement loop
+
+Green space follows wealth. When greening reaches poorer districts without protection, rents rise, residents are pushed into hotter housing, and the gap grows.
+
+The cycle: Deepening inequality → Green space follows wealth → Greening pushes people out → Homes that trap heat → back to the start.
+
+Where it plays out: Riverbanks, canals and old inner-city sites turned into parks, as studied in Bangkok and Seoul.
+
+Where it breaks: Green without pushing people out
+
+- Across 28 cities in 9 countries, greening in the 1990s and 2000s was strongly linked to gentrification between 2000 and 2016 in 17 of them. (Anguelovski et al., Nature Communications, 2022, https://doi.org/10.1038/s41467-022-31572-1)
+
+- Green space tends to favour wealthier neighbourhoods, and new parks meant to fix that can raise housing costs and displace the residents they were meant to help. Small, local projects are more likely to reach those who need them. (Wolch, Byrne and Newell, Landscape and Urban Planning, 2014, https://urbansustainability.seas.umich.edu/wp-content/uploads/2014/06/Making-cities-just-green-enough.pdf)
+
+- Fieldwork on how recent gentrification in Bangkok, including green urban renewal, affects the city’s lower-income residents. (Endo, The Developing Economies, 2026, https://onlinelibrary.wiley.com/doi/10.1111/deve.70013)
+
+- Nature-based solutions can deepen injustice when benefits flow to some and costs, including displacement, fall on others; procedural, distributional and recognition justice all need attention. (Chapter 3 in Nature-Based Solutions for Cities, 2023, https://doi.org/10.4337/9781800376762)
+
+#### The heat credit squeeze
+
+Heat empties shops and small firms miss repayments. Banks tighten credit, so firms can’t afford to adapt, and the next heatwave hits harder.
+
+The cycle: Small businesses close → Loan repayments slip → Borrowing costs rise → back to the start.
+
+Where it plays out: Market towns and city high streets in heat-exposed districts, and lenders whose loans are collected door to door, as in microfinance across northern and central India.
+
+Where it breaks: Heat-smart lending
+
+- Across 2.7 million firms in 23 advanced economies, heat cut the productivity of small firms while medium and large firms showed no loss, and the largest grew revenue about 0.6 points faster than small firms after hot years. Losses lasted up to two years. Restaurants and hotels were hit hard, partly through lower demand. (OECD Economics Department, Working Paper No. 1828, 2024, https://doi.org/10.1787/19d94638-en)
+
+- Loan-level bank data from Mexico show that ten extra days of extreme heat in a quarter raise small-business loan delinquency by about 4%, mainly among firms that depend on local customers. Banks then raise rates, ask for more collateral and lend less for two to three quarters. (Aguilar-Gomez et al., summarised in VoxEU, 2024, https://cepr.org/voxeu/columns/heatwaves-ripple-financial-system)
+
+- India’s microfinance industry body said loan quality worsened in April–June 2024, partly because heatwaves cut borrowers’ incomes and lenders’ collections. (Sa-Dhan, reported by Business Standard, 2024, https://www.business-standard.com/finance/news/micro-loan-asset-quality-deteriorates-in-april-june-quarter-sa-dhan-124082700721_1.html)
+
+- A caution for lenders: in Cambodia, researchers found that borrowing to get through climate shocks often delayed the harm rather than removing it, leaving households more indebted for the next shock. (King’s College London, 2023, https://www.kcl.ac.uk/news/new-study-finds-that-microfinance-is-exacerbating-climate-precarity-and-harm-in-cambodia)
+
+- Of 721 Delhi street vendors surveyed in April and May 2024, 80% saw fewer customers during heatwaves and 49% lost income. (Greenpeace India and National Hawkers Federation, 2024, https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/)
+
+- Car dealers said heat cut showroom footfall by about 15% in June 2024, leaving them with 62–67 days of unsold stock against a recommended three weeks. A sign of where to look; the link to their loans is not yet measured. (Federation of Automobile Dealers Associations, reported by Orissa Post, 2024, https://www.orissapost.com/passenger-vehicle-retail-sales-dip-7-in-june-as-heatwave-curtails-showroom-visits/amp/)
+
+#### The farm-debt loop
+
+A failed harvest pushes farmers into debt. Debt leaves less for seed, water and fertiliser, so the next harvest fails more easily.
+
+The cycle: Failing harvests → Farmers fall into debt → back to the start.
+
+Where it plays out: Rain-fed farming districts of India, Pakistan and Bangladesh, where a failed season often means borrowing from moneylenders.
+
+Where it breaks: Crop insurance and fair credit
+
+- Heat raises suicide rates in India only during the growing season, when it also cuts crop yields, pointing to farm income losses. The findings have been debated. (Carleton, PNAS, 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5565417/)
+
+- Days above 34 °C make wheat in northern India age early, and crop models may underestimate yield losses at +2 °C by as much as 50%. (Lobell, Sibley and Ortiz-Monasterio, Nature Climate Change, 2012, https://fsi.stanford.edu/node/26622)
+
+- At the International Rice Research Institute’s farm in the Philippines, rice yields fell by about 10% for each 1 °C rise in growing-season night temperature, while daytime highs had little effect. (Peng et al., PNAS, 2004, https://doi.org/10.1073/pnas.0403720101)
+
+### Loops inside institutions
+
+#### The invisible-deaths loop
+
+Heat deaths go uncounted, so heat protection goes unfunded, so more people die uncounted.
+
+The cycle: Heat deaths → Heat deaths under-recorded → Heat protection underfunded → back to the start.
+
+Where it plays out: Much of Asia, where death certificates rarely record heat as a cause.
+
+Where it breaks: Count every heat death, Cooling centres and check-ins
+
+- Suspected heatstroke cases rose from 4,481 in 2022 to 48,385 by 28 July 2024, while confirmed heatstroke deaths rose only from 33 to 185. (Ministry of Health and Family Welfare, reply in India’s Rajya Sabha, 6 August 2024, https://rsdebate.nic.in/bitstream/123456789/750681/1/PQ_265_06082024_U1693_p358_p362.pdf)
+
+- In 2020, India’s crime records bureau recorded 530 heatstroke deaths while the disaster agency recorded four. Experts say the low counts weaken preparation. (Associated Press via PBS NewsHour, 2024, https://www.pbs.org/newshour/world/india-likely-undercounts-heat-related-deaths-tempering-its-response-officials-say)
+
+- Death certificates usually record only the immediate cause, such as heart failure, so heat as the trigger goes unrecorded. (Down To Earth, 2024, https://www.downtoearth.org.in/climate-change/lost-in-the-heat-the-critical-miscalculation-in-indias-heatwave-mortality-data)
+
+- Between 1 March and 26 July 2026, India’s heat surveillance, covering more than 51,000 reporting units, logged 4,853 heatstroke cases but only 20 heatstroke deaths. (Ministry of Home Affairs, reply in India’s Lok Sabha, reported by Down To Earth, 2026, https://www.downtoearth.org.in/climate-change/india-updates-disaster-list-to-include-heatwaves-and-lightning-after-finance-commission-push)
+
+- Monitors at 24 indoor and outdoor workplaces in Singapore found workers could face more heat stress than nearby national weather stations reported. (NUS Project HeatSafe, 2024, https://medicine.nus.edu.sg/wp-content/uploads/2024/03/PRESS-RELEASE_Project-HeatSafe-18MAR2024-FOR-IMMEDIATE-RELEASE.pdf)
+
+#### The reactive-spending loop
+
+Stretched budgets skimp on prevention. Emergencies multiply, and costly emergency response stretches budgets further.
+
+The cycle: Public budgets strained → Heat protection underfunded → Emergency services stretched → back to the start.
+
+Where it plays out: Disaster budgets designed for floods and cyclones rather than heat.
+
+Where it breaks: Dedicated heat budgets, Anticipatory action
+
+- US$800 million spent on early warning systems in developing countries could avoid US$3–16 billion in losses every year. (Global Commission on Adaptation, 2019, https://openknowledge.worldbank.org/entities/publication/7713887e-5c0c-5fce-9dd0-c18a8875736c)
+
+- Direct response typically gets over half of wildfire spending, while planning and prevention get less than 1%. (UNEP and GRID-Arendal, 2022, https://www.unep.org/resources/report/spreading-wildfire-rising-threat-extraordinary-landscape-fires)
+
+- Of 37 heat action plans reviewed, 11 discussed funding, and 8 of those simply asked departments to find their own money. Only two included a vulnerability assessment. (Centre for Policy Research, 2023, https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/)
+
+- In August 2026 India added heatwaves to its notified natural calamities, so national and state disaster response funds can pay for heatwave relief. Before, states could spend only up to 10% of their response fund on locally declared disasters such as heat. Heat mitigation projects are funded separately, from disaster mitigation funds. (Ministry of Home Affairs, reply in India’s Lok Sabha, reported by Down To Earth, 2026, https://www.downtoearth.org.in/climate-change/india-updates-disaster-list-to-include-heatwaves-and-lightning-after-finance-commission-push)
+
+#### The protection-gap loop
+
+As insurers retreat, public budgets absorb the losses, protection is cut, and the risk drives insurers further away.
+
+The cycle: Insurance losses and retreat → Public budgets strained → Heat protection underfunded → back to the start.
+
+Where it plays out: Fast-growing Asian economies where few households or small businesses carry insurance.
+
+Where it breaks: Dedicated heat budgets, Shared risk pools
+
+- Only about 8% of Asia’s US$65 billion in natural catastrophe losses in 2025 was insured. The rest fell on households, businesses and governments. (Swiss Re Institute sigma, reported by Global Reinsurance, https://www.globalreinsurance.com/home/swiss-re-sigma-protection-gap-laid-bare-as-asian-cat-losses-hit-65bn/1458440.article)
+
+## Actions that break the vicious cycles of extreme heat
+
+29 actions that cut a link in one or more vicious cycles of extreme heat: who can take each one, how soon it works, examples from Asia and practical guides.
+
+### Deep emission cuts
+
+Every fraction of a degree avoided weakens every loop that runs through land, ice and forests at once. It also keeps more places within the limits to adaptation, where protecting people still works.
+
+Cuts the link: Extreme heat → Nature and ecosystems. Who can act: National governments, International bodies, Development banks, donors and climate funds.
+
+Could help interrupt: The dry-soil loop, The melting-ice loop, The wildfire loop
+
+In practice: Across 2.7 million firms in 23 advanced economies, places used to heat coped better with days of 30–35 °C, but none had adapted to days above 40 °C. Each degree avoided keeps more days below that line.
+
+- Guide: AR6 Synthesis Report: Climate Change 2023 (Intergovernmental Panel on Climate Change, 2023) https://www.ipcc.ch/report/ar6/syr/
+
+- Guide: The heat is on: Heat stress, productivity and adaptation among firms (OECD Economics Department, 2024) https://doi.org/10.1787/19d94638-en
+
+### Clean, efficient cooling
+
+Efficient appliances, clean power and low-warming refrigerants break the link between keeping cool and heating the planet.
+
+Cuts the link: Cooling demand peaks → Emissions from cooling rise. Who can act: National governments, Utilities and energy regulators, International bodies.
+
+Could help interrupt: The global cooling loop
+
+In practice: The Kigali Amendment to the Montreal Protocol (2016) commits countries to phase down the most climate-warming refrigerants.
+
+- Guide: India Cooling Action Plan (Ministry of Environment, Forest and Climate Change, India, 2019) https://ozonecell.nic.in/home-page/resource-informations/reports-publications/india-cooling-action-plan/
+
+### Keep water in the soil
+
+Mulching, agroforestry, water harvesting and restoring degraded land help soils hold moisture and stay cooler.
+
+Cuts the link: Drying soils → Extreme heat. Who can act: Farmers’ organisations and agriculture agencies, Community and civil society groups, Development banks, donors and climate funds.
+
+Could help interrupt: The dry-soil loop
+
+### Cut black carbon
+
+Cleaner stoves, engines and brick kilns and an end to open burning cut black carbon, the soot that darkens snow and ice.
+
+Cuts the link: Glacier and snow melt → Extreme heat. Who can act: National governments, City and local governments.
+
+Could help interrupt: The melting-ice loop
+
+- Guide: Cleaner brick production: a natural-draught zig-zag kiln case study (Climate and Clean Air Coalition) https://www.ccacoalition.org/resources/cleaner-brick-production-case-study-2-production-bricks-through-natural-draft-zigzag-kiln
+
+### Fire-smart landscapes
+
+Early detection, community fire crews and land management that reduces fuel keep fires small and forests standing.
+
+Cuts the link: Wildfires → Extreme heat. Who can act: National governments, Community and civil society groups.
+
+Could help interrupt: The wildfire loop
+
+- Guide: Spreading like Wildfire: The Rising Threat of Extraordinary Landscape Fires (UNEP and GRID-Arendal, 2022) https://www.unep.org/resources/report/spreading-wildfire-rising-threat-extraordinary-landscape-fires
+
+### Cool by design
+
+Shading, ventilation, reflective roofs and efficient cooling cut the need for air conditioning, and the waste heat it dumps outside.
+
+Cuts the link: Cooling demand peaks → Urban heat islands. Who can act: City and local governments, National governments.
+
+Could help interrupt: The cooling trap
+
+- Guide: Heat in the city: guidance and resources for urban heat (Global Heat Health Information Network (GHHIN)) https://heathealth.info/in-the-city/
+
+### Green, cool cities
+
+Trees, water, cool roofs and cool pavements lower city temperatures and flatten peak demand.
+
+Cuts the link: Urban heat islands → Cooling demand peaks. Who can act: City and local governments, Community and civil society groups.
+
+Could help interrupt: The cooling trap
+
+In practice: Cooling Singapore, a research programme across agencies, models where heat builds up street by street to test which mix of greenery, materials and layout cools each district best. Indian cities and states such as Ahmedabad and Telangana have run programmes that paint roofs to reflect sunlight. The Green Tamil Nadu Mission aims to raise the state’s forest and tree cover from 23.8% to 33% of its land by 2030–31.
+
+- Guide: Urban heat: resources and partner networks (Zurich Climate Resilience Alliance) https://zcralliance.org/resources-urban-heat/
+
+- Guide: Nature-Based Solutions to Climate Change Adaptation in Urban Areas (Kabisch, Korn, Stadler and Bonn (eds), Springer, 2017, open access) https://doi.org/10.1007/978-3-319-56091-5
+
+- Guide: Heat in the city: guidance and resources for urban heat (Global Heat Health Information Network (GHHIN)) https://heathealth.info/in-the-city/
+
+### Keep city trees alive
+
+Water, healthy soil, room for roots, heat-hardy species and a running budget for upkeep keep trees alive through hotter, drier summers, so their shade lasts. Looking after existing trees comes before planting new ones.
+
+Cuts the link: Urban heat islands → City trees and parks die. Who can act: City and local governments, Water authorities, Community and civil society groups.
+
+Could help interrupt: The dying-green loop
+
+In practice: Berlin wrote a shared “good care” manual for its 12 districts, setting maintenance standards for street trees and green spaces, with drought-resistant species for replanting and a calendar of care. It followed losses such as a park where more than 500 of 870 new trees died within ten years despite watering.
+
+- Guide: Climate change increases global risk to urban forests: which city tree species are at risk (Esperon-Rodriguez et al., Nature Climate Change, 2022) https://www.vibrantcitieslab.com/wordpress/wp-content/uploads/2023/08/climate-change-increases-global-risk-to-urban-forests.pdf
+
+### Green without pushing people out
+
+Secure tenure, rent safeguards and designing with residents let poorer neighbourhoods gain shade and parks without losing their homes. Small, local greening that is “just green enough” protects people better than flagship projects.
+
+Cuts the link: Green space follows wealth → Greening pushes people out. Who can act: City and local governments, National governments, Community and civil society groups.
+
+Could help interrupt: The green-displacement loop
+
+In practice: In Bangkok, the Baan Mankong programme of the Community Organizations Development Institute gives canal-side communities subsidies and cheap loans to secure land and rebuild their homes. Along Khlong Lat Phrao, where flood works needed the canal banks, communities planned their own moves and rebuilding instead of being evicted.
+
+- Guide: Urban green space, public health and environmental justice: the challenge of making cities “just green enough” (Wolch, Byrne and Newell, Landscape and Urban Planning, 2014) https://urbansustainability.seas.umich.edu/wp-content/uploads/2014/06/Making-cities-just-green-enough.pdf
+
+- Guide: Greening without gentrification: anti-displacement strategies for parks (Urban Waters Learning Network) https://urbanwaterslearningnetwork.org/wp-content/uploads/2019/09/Parks-Related-Anti-Displacement-Strategies-report-with-appendix.pdf
+
+### Power that doesn’t need water
+
+Solar and wind use very little water, and dry cooling protects thermal plants when rivers run low or warm.
+
+Cuts the link: Water shortages → Power plants cut output. Who can act: Utilities and energy regulators, National governments.
+
+Could help interrupt: The energy–water loop
+
+### Backup power for water
+
+Solar pumps and backup supply keep water flowing when the grid fails.
+
+Cuts the link: Power cuts and grid stress → Water shortages. Who can act: Water authorities, Utilities and energy regulators.
+
+Could help interrupt: The energy–water loop
+
+- Guide: Climate-resilient water safety plans: managing health risks associated with climate variability and change (World Health Organization, 2017) https://www.who.int/publications/i/item/9789241512794
+
+### Smart irrigation and groundwater rules
+
+Drip irrigation, metering, aquifer recharge and fair pumping rules keep wells from running dry.
+
+Cuts the link: Irrigation demand soars → Groundwater over-pumped. Who can act: Farmers’ organisations and agriculture agencies, Water authorities.
+
+Could help interrupt: The groundwater loop
+
+- Guide: Atal Bhujal Yojana: India’s scheme for community-led groundwater management (Council on Energy, Environment and Water (CEEW)) https://www.ceew.in/publications/atal-bhujal-yojana-scheme-for-sustainable-participatory-groundwater-resources-management
+
+### Crop insurance and fair credit
+
+Crop insurance that pays out after a heat-hit season, affordable credit and heat-tolerant seed stop one bad harvest becoming a debt trap.
+
+Cuts the link: Failing harvests → Farmers fall into debt. Who can act: Banks, insurers and financial regulators, Farmers’ organisations and agriculture agencies, Development banks, donors and climate funds.
+
+Could help interrupt: The farm-debt loop
+
+- Guide: Pradhan Mantri Fasal Bima Yojana, India’s national crop insurance scheme (Ministry of Agriculture and Farmers Welfare, India) https://pmfby.gov.in/
+
+### Heat action plans
+
+Early warnings, public cooling spaces and outreach to the people most at risk prevent illness before it reaches hospital.
+
+Cuts the link: Heatstroke and heat exhaustion → Health systems overwhelmed. Who can act: City and local governments, Health authorities, Weather and climate services.
+
+Could help interrupt: The overwhelmed-clinic loop
+
+In practice: Ahmedabad launched South Asia’s first city heat action plan in 2013; by June 2026, India had more than 250. In Nepal, Dhangadhi, which passes 40 °C every year, published a heat action plan in 2025 with the Nepal Red Cross Society. In Bangladesh, Practical Action is working with communities and local authorities in Khulna to build a heat early warning system that responds to them, where none existed before.
+
+- Guide: Heat action plans and case studies, including Indian cities (Global Heat Health Information Network (GHHIN)) https://heathealth.info/heat-action-plans-and-case-studies/
+
+- Guide: Heat Action Planning Guide for Neighborhoods of Greater Phoenix: planning heat action with residents (The Nature Conservancy and partners, 2019) https://globalfutures.asu.edu/sustainable-cities/wp-content/uploads/sites/17/2023/09/Phoenix-Arizona-Heat-Action-Plan.pdf
+
+- Guide: Heatwaves and health: guidance on warning-system development (WHO and WMO, 2015, in the GHHIN resource library) https://heathealth.info/resources/heatwaves-and-health-guidance-on-warning-system-development/
+
+- Guide: How Extreme Heat is Impacting India: district-level heat risk for all 734 districts, to target plans (Council on Energy, Environment and Water (CEEW), 2025) https://www.ceew.in/sites/default/files/ceew-how-extreme-heat-is-impacting-india-final-web-file.pdf
+
+- Guide: How can heat action plans make Thane a heat-resilient city? (Council on Energy, Environment and Water (CEEW)) https://www.ceew.in/publications/how-can-thane-city-tackle-heatwaves-risks-with-heat-action-plan
+
+### Heat-ready health services
+
+Cooling, backup power, surge plans and trained frontline workers keep clinics working through heatwaves.
+
+Cuts the link: Health systems overwhelmed → Heatstroke and heat exhaustion. Who can act: Health authorities, Development banks, donors and climate funds.
+
+Could help interrupt: The overwhelmed-clinic loop
+
+In practice: On Assam’s Brahmaputra river islands, boat clinics run by C-NES with the National Health Mission switched from diesel to solar power, so lights, fans and vaccine fridges keep working and emergencies can be seen after dark. Tamil Nadu’s heat strategy proposes a simple step for mothers: screen for heat risk in the check-ups of the state’s pregnancy scheme, which has run in various forms since 1987.
+
+- Guide: National Action Plan on Heat-Related Illness (National Centre for Disease Control, Ministry of Health and Family Welfare, India, 2021) https://ncdc.mohfw.gov.in/uploads/pdf/heat12.pdf
+
+- Guide: Climate change and health: heat-illness guidelines, emergency cooling guidance and heat stroke units (National Centre for Disease Control, India) https://ncdc.mohfw.gov.in/includes/About/CentresAndDivision/CEOH.php
+
+- Guide: India in a Warming World: Strengthening Heat-Health Action (Council on Energy, Environment and Water (CEEW), for the GHHIN South Asia hub, 2026) https://www.ceew.in/publications/india-heat-health-action
+
+### Heat-safe work
+
+Rest, shade and water during dangerous heat, with paid breaks so that stopping work doesn’t mean losing pay.
+
+Cuts the link: Informal workers can’t stop work → Heatstroke and heat exhaustion. Who can act: National governments, Employers and businesses, Worker organisations and unions.
+
+Could help interrupt: The poverty–heat trap, The medical-debt trap
+
+In practice: Singapore requires hourly wet-bulb globe temperature checks on outdoor worksites and at least 10 minutes’ shaded rest each hour for heavy work at 32 °C or above; in 2024 it inspected 250 workplaces and acted against 78. Several Gulf states ban outdoor work during the hottest midday hours in summer. Since 2023, Spain has required employers to cut or move working hours when the weather agency issues an orange or red heat alert and other measures can’t keep workers safe. Tamil Nadu’s heat strategy proposes building heat protection into the state’s existing occupational safety rules, rather than waiting for a new law.
+
+- Guide: Heat at work: the first joint global guidance on workplace heat stress (WHO and WMO, in the GHHIN resource library) https://heathealth.info/at-work/
+
+### Income protection in heatwaves
+
+Cash that pays out automatically when temperatures cross a danger threshold, so people can afford to stop. Triggers need careful design to limit basis risk: heat that hurts people without triggering a payout.
+
+Cuts the link: Heatstroke and heat exhaustion → Lost work hours and wages. Who can act: Banks, insurers and financial regulators, National governments, Worker organisations and unions.
+
+Could help interrupt: The poverty–heat trap, The displacement loop
+
+In practice: Parametric heat insurance has been piloted with women informal workers in India.
+
+- Guide: Parametric heat and rainfall insurance for informal women workers (VimoSEWA, 2025) https://www.sewainsurance.org/wp-content/uploads/2025/12/Parametric-Heat-and-Rainfall-Insurance-for-Informal-Women-Workers.pdf
+
+- Guide: Confronting the climate and health nexus: lessons from the Self-Employed Women’s Association (SEWA) (CGAP) https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association
+
+### Social protection floors
+
+Basic income security that keeps households above the line between one hot season and the next.
+
+Cuts the link: Lost work hours and wages → Informal workers can’t stop work. Who can act: National governments, Development banks, donors and climate funds.
+
+Could help interrupt: The poverty–heat trap
+
+- Guide: Addressing the impacts of extreme heat through social protection (International Labour Organization) https://www.ilo.org/resource/article/addressing-impacts-extreme-heat-through-social-protection
+
+### Free care for heat illness
+
+Covering emergency treatment for heat illness stops one bad day from becoming years of debt.
+
+Cuts the link: Heatstroke and heat exhaustion → Medical costs and debt. Who can act: Health authorities, National governments.
+
+Could help interrupt: The medical-debt trap, The energy-poverty trap
+
+- Guide: Climate change and health: heat-illness guidelines, emergency cooling guidance and heat stroke units (National Centre for Disease Control, India) https://ncdc.mohfw.gov.in/includes/About/CentresAndDivision/CEOH.php
+
+- Guide: National Action Plan on Heat-Related Illness (National Centre for Disease Control, Ministry of Health and Family Welfare, India, 2021) https://ncdc.mohfw.gov.in/uploads/pdf/heat12.pdf
+
+### Affordable cooling for the poorest
+
+Lifeline electricity tariffs, efficient fans and cool roofs put safe cooling within reach of every household.
+
+Cuts the link: Can’t afford to keep cool → Heatstroke and heat exhaustion. Who can act: Utilities and energy regulators, City and local governments, National governments.
+
+Could help interrupt: The energy-poverty trap
+
+- Guide: Chilling Prospects: Global Access to Cooling Gaps 2023 (Sustainable Energy for All, 2023) https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-global-access-to-cooling-gaps-2023
+
+- Guide: Chilling Prospects Special: Gender and Access to Cooling (Sustainable Energy for All) https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-special-gender
+
+### Cool, affordable housing
+
+Upgrading informal settlements with ventilation, shade and cool roofs, and planning homes for people who arrive.
+
+Cuts the link: Forced migration → Homes that trap heat. Who can act: City and local governments, Development banks, donors and climate funds, Community and civil society groups.
+
+Could help interrupt: The displacement loop
+
+In practice: Telangana’s Cool Roof Policy 2023–2028, India’s first, makes cool roofs mandatory for many kinds of building and aims to cover about 300 km² of roofs. Tamil Nadu’s heat strategy proposes making a measure of how much heat walls and roofs let in, the residential envelope transmittance value (ReTV) from India’s residential energy code, a condition in tenders for slum redevelopment.
+
+- Guide: Telangana’s cool roof policy: from pilot demonstration to policy (The Climate Group) https://www.theclimategroup.org/our-work/publications/telanganas-cool-roof-policy-pilot-demonstration-policy-implementation
+
+- Guide: £17.5m for research testing heat adaptations, including a trial of reflective roof coatings with a site in India (Wellcome) https://wellcome.org/insights/articles/wellcome-awards-ps175m-support-global-research-drive
+
+### Keep children in school
+
+Cash transfers, school meals and heat-ready classrooms and timetables keep children learning through hot seasons.
+
+Cuts the link: Deepening inequality → Children pulled out of school. Who can act: Schools and education authorities, National governments.
+
+Could help interrupt: The lost-schooling loop
+
+In practice: When heat closes schools, children lose more than lessons: consultations for Tamil Nadu’s heat strategy found that long breaks cost children in schools serving marginalised groups their midday meals. India’s school meal scheme can keep serving meals through the summer holidays in areas declared drought-hit, as Odisha did in 27 districts in a year when a forecast heatwave also extended school closures. In the Philippines, heat helped drive the return to a June school start, keeping classes out of the hottest months, April and May.
+
+- Guide: Learning Interrupted: global snapshot of climate-related school disruptions (UNICEF, 2026) https://www.unicef.org/reports/learning-interrupted
+
+### Cool nights and support
+
+Cooling centres open at night, shaded and ventilated homes, and mental-health support during the hot season.
+
+Cuts the link: Sleepless hot nights → Mental health suffers. Who can act: City and local governments, Health authorities, Community and civil society groups.
+
+Could help interrupt: The sleepless-nights loop
+
+- Guide: How summer heat affects health, and how to keep cool, including cooling homes at night (WHO Regional Office for Europe, 2025) https://www.who.int/europe/news/item/23-06-2025-how-summer-heat-impacts-health-and-how-to--keepcool
+
+- Guide: Climate and mental health: uncovering how heat affects anxiety, depression and psychosis (Wellcome) https://wellcome.org/research-funding/schemes/climate-and-mental-health-award-uncovering-mechanisms-between-heat-and
+
+### Count every heat death
+
+Real-time tracking of excess deaths during heatwaves, and death certificates that record heat, make the toll visible.
+
+Cuts the link: Heat deaths → Heat deaths under-recorded. Who can act: Health authorities, Weather and climate services, National governments.
+
+Could help interrupt: The invisible-deaths loop
+
+- Guide: Autopsy findings in heat-related deaths: guidance for recording heat as a cause (National Centre for Disease Control, India, in the GHHIN resource library) https://heathealth.info/resources/autopsy-findings-in-heat-related-deaths/
+
+- Guide: National Action Plan on Heat-Related Illness (National Centre for Disease Control, Ministry of Health and Family Welfare, India, 2021) https://ncdc.mohfw.gov.in/uploads/pdf/heat12.pdf
+
+### Cooling centres and check-ins
+
+Public cooling spaces, water points and check-ins on older people living alone save lives in every heatwave.
+
+Cuts the link: Heat protection underfunded → Heat deaths. Who can act: City and local governments, Community and civil society groups, Health authorities.
+
+Could help interrupt: The invisible-deaths loop
+
+- Guide: The use of cooling centers to prevent heat-related illness: evidence and strategies for implementation (US Centers for Disease Control and Prevention, in the GHHIN resource library) https://heathealth.info/wp-content/uploads/cdc_47657_DS1-compressed-1.pdf
+
+### Dedicated heat budgets
+
+Ring-fenced funding for heat action, set aside before the season, so protection doesn’t compete with the emergency.
+
+Cuts the link: Public budgets strained → Heat protection underfunded. Who can act: National governments, City and local governments, Development banks, donors and climate funds.
+
+Could help interrupt: The reactive-spending loop, The protection-gap loop
+
+In practice: Since August 2026, India’s disaster response funds can pay for heatwave relief; preparing for heat is still paid for separately. In Nepal, Madhesh Province and five municipalities committed 5% of sectoral budgets to adaptation and disaster risk reduction, with support from Practical Action and Mercy Corps.
+
+- Guide: Finding the Finance: a guide to identifying centrally sponsored schemes to fund heat resilience (Centre for Policy Research, India) https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/
+
+- Guide: How is India adapting to heatwaves? An assessment of 37 heat action plans (Centre for Policy Research, India, 2023) https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/
+
+### Anticipatory action
+
+Release money and act on the forecast, before the heatwave peaks, instead of paying for the emergency afterwards.
+
+Cuts the link: Heat protection underfunded → Emergency services stretched. Who can act: Weather and climate services, Development banks, donors and climate funds, National governments.
+
+Could help interrupt: The reactive-spending loop
+
+In practice: On 21 April 2024, with forecasts above 38 °C, the Bangladesh Red Crescent Society activated its heatwave early action protocol for Dhaka: warnings, drinking water, cooling stations and cash grants, with about CHF 500,000 from the IFRC to reach some 124,000 people. WHO and WMO estimate that bringing heat-health warning systems to the countries that lack them could prevent nearly 100,000 deaths a year.
+
+- Guide: Understanding the global landscape of heat early warning systems (with case studies from Bangladesh, Nepal, Pakistan, the Philippines and Vietnam) (IFRC, Practical Action and the Red Cross Red Crescent Climate Centre, for the Zurich Climate Resilience Alliance, 2026) https://www.preventionweb.net/publication/documents-and-publications/understanding-global-landscape-heat-early-warning-systems
+
+- Guide: Early warning systems: resources (Zurich Climate Resilience Alliance) https://zcralliance.org/resources-ews/
+
+- Guide: Thriving in a Warming World: climate intelligence for extreme heat (Council on Energy, Environment and Water (CEEW), 2026) https://www.ceew.in/sites/default/files/ceew-thriving-warming-world-climate-intelligence-extreme-heat.pdf
+
+### Heat-smart lending
+
+Lenders and regulators keep credit flowing through a heatwave: repayment holidays triggered by heat alerts, credit lines kept open, and loans for shade, cooling and cold storage, so a hot season does not become a debt spiral.
+
+Cuts the link: Loan repayments slip → Borrowing costs rise. Who can act: Banks, insurers and financial regulators, National governments, Development banks, donors and climate funds.
+
+Could help interrupt: The heat credit squeeze
+
+In practice: India’s banks can already reschedule loans and pause repayments in areas hit by notified natural calamities, under a 2018 Reserve Bank of India direction. India added heatwaves to its notified calamities in 2026; whether that relief now reaches heat-hit borrowers is worth asking your bank. Southeast Asia has the same machinery for floods and storms. In the Philippines, banks in areas under a state of calamity can give borrowers up to six months’ grace with no penalties. Indonesia’s regulator let banks restructure Rp12.58 trillion of loans for 237,083 borrowers after the 2025 Sumatra floods, and Vietnam let lenders reschedule debts hit by Typhoon Yagi until 2027. None of these rules yet names heat as a trigger.
+
+- Guide: Master Direction: Relief measures by banks in areas affected by natural calamities (Reserve Bank of India, 2018) https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10478
+
+- Guide: Seasonal flexible microcredit in Bangladesh: repayment adjusted to the lean season did not raise default (Shonchoy and others, IDE-JETRO) https://www.ide.go.jp/English/Publish/Reports/Dp/460.html
+
+- Guide: Policy library: environmental, social and climate risk rules for banks, country by country (Sustainable Banking and Finance Network (regulators and banking associations from emerging markets)) https://www.sbfnetwork.org/
+
+- Guide: Inclusive finance and extreme heat: how small loans and parametric insurance can help people through deadly heatwaves (Center for Financial Inclusion, 2023) https://centerforfinancialinclusion.org/inclusive-finance-and-extreme-heat-how-small-loans-and-parametric-insurance-can-help-vulnerable-populations-manage-through-deadly-heat-waves
+
+### Shared risk pools
+
+Public–private insurance and regional risk pools keep cover available and spread losses beyond any one budget.
+
+Cuts the link: Insurance losses and retreat → Public budgets strained. Who can act: Banks, insurers and financial regulators, National governments, Development banks, donors and climate funds.
+
+Could help interrupt: The protection-gap loop
+
+In practice: Regional risk pools such as the African Risk Capacity and the Caribbean’s CCRIF share disaster risk across countries.
+
+- Guide: Global Shield against Climate Risks in Pakistan: pre-arranged finance for climate shocks (UNDP) https://www.undp.org/pakistan/projects/global-shield-against-climate-risks
+
+## Who extreme heat hits hardest
+
+The same heatwave lands differently. Who is harmed depends on how exposed people are and what stands between them and safety.
+
+- Who receives the warning Alerts by app, radio or loudspeaker miss people without phones, signal, literacy or the right language.
+
+- Who can move to safety Age, disability, care duties and distance decide who can reach shade, water or a cooling centre.
+
+- Who can keep earning Without land, credit, contracts or savings, resting in the heat means losing the day’s income.
+
+- Who has a say Women, migrants and people of marginalised identities are often missing from the rooms where heat plans are made.
+
+- Who can reach care in time A clinic that is far away, has no way to cool patients, or is open only while people are at work turns treatable heat illness into a death.
+
+### Smallholder and rainfed farming households
+
+Exposed to: Work in open fields through the hottest hours, with crops and animals that depend on rain heat makes less reliable.
+
+Held back by: Little irrigation, credit, insurance or savings, so one bad season can mean debt, sold animals and lost seed.
+
+At the International Rice Research Institute’s farm in the Philippines, rice yields fell by about 10% for each 1 °C rise in growing-season night temperature. (Peng et al., PNAS, 2004, https://doi.org/10.1073/pnas.0403720101)
+
+What helps: Crop insurance and fair credit, Keep water in the soil, Smart irrigation and groundwater rules, Social protection floors
+
+### Coastal and riverine communities
+
+Exposed to: Humid heat that stops sweat from cooling the body, warming seas that drive fish away, and warm, low water that spoils drinking supplies.
+
+Held back by: Livelihoods tied to one place and one resource, homes on fragile land with insecure tenure, and islands and river banks far from services.
+
+Humidity makes heat far more costly: across 2.7 million firms, ten extra days above 35 °C cut productivity by 0.75% in very humid places, more than double the average, and barely at all in dry ones. (OECD Economics Department, 2024, https://doi.org/10.1787/19d94638-en)
+
+In Viet Nam’s Mekong Delta, a long heatwave in February 2024 lowered canals and let sea water push inland; farmers who pumped the salty water onto their rice lost up to half their crop. (Viet Nam News, 2024, https://vietnamnews.vn/environment/1656592/mekong-delta-faces-severe-drought-salinity-concerns.html)
+
+What helps: Heat action plans, Social protection floors, Anticipatory action, Heat-ready health services
+
+### People in remote or poorly served settlements
+
+Exposed to: Far from clinics, cool shelter, reliable power and phone signal, often at the end of the line for water and electricity.
+
+Held back by: Warnings, ambulances and relief arrive late or not at all, and deaths here are the least likely to be counted.
+
+What helps: Anticipatory action, Heat-ready health services, Count every heat death, Heat action plans
+
+### People in informal settlements
+
+Exposed to: Dense rows of homes with tin, asbestos or plastic roofs, little green space, and no way to cool down at night.
+
+Held back by: Insecure tenure means families can’t invest in cooler homes and landlords won’t, and settlements are often missing from city plans and services.
+
+In a survey of 860 households in Ahmedabad, people in informal settlements faced temperatures up to 7.6 °C higher than people in formal housing. (Mahadevia et al., 2020, reported in Frontiers in Built Environment, 2022, https://www.frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2022.874751/full)
+
+In Jakarta, dense low-income neighbourhoods act as heat islands; informal workers rarely have fans or air conditioning and cool off on terraces or in parks, while green space is concentrated in wealthier areas. (Ufaira and others, Frontiers in Human Dynamics, 2023, https://www.frontiersin.org/journals/human-dynamics/articles/10.3389/fhumd.2023.1237515/full)
+
+What helps: Cool, affordable housing, Cool nights and support, Cooling centres and check-ins, Affordable cooling for the poorest
+
+### Workers in heat-exposed jobs
+
+Exposed to: Street vendors, builders, salt-pan workers, waste pickers, rickshaw and delivery workers, traffic police and sanitation staff in the hottest parts of the city; factory workers beside furnaces in unventilated sheds; then hot, crowded homes at night.
+
+Held back by: No paid leave, contract or savings: stopping work in dangerous heat means losing the day’s income. Fixed shifts leave little room to avoid the hottest hours.
+
+Doctors at two Indian hospitals with heatstroke units said more than 90% of the patients they treated for heat illness in 2024 were outdoor workers: security guards, migrant labourers and street vendors. (Context (Thomson Reuters Foundation), 2024, https://www.context.news/climate-risks/ice-baths-and-ventilators-indias-hospitals-adapt-to-killer-heat)
+
+In a survey of 721 Delhi street vendors in 2024, 80% saw fewer customers during heatwaves and 49% lost income. (Greenpeace India and National Hawkers Federation, 2024, https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/)
+
+In Singapore, a study of 355 workers found each hot day cost a median S$21 in lost income, about 24% of a day’s median pay, and heat at workplaces was often higher than nearby weather stations showed. (NUS Project HeatSafe, 2024, https://medicine.nus.edu.sg/wp-content/uploads/2024/03/PRESS-RELEASE_Project-HeatSafe-18MAR2024-FOR-IMMEDIATE-RELEASE.pdf)
+
+In Dhaka, Hanoi, Ho Chi Minh City, Phnom Penh and Karachi, garment hubs where factories trap heat, days with wet-bulb temperatures above 30.5 °C rose by 42% in 2020–24 compared with 2005–09. (Cornell Global Labor Institute and Schroders, Higher Ground?, https://www.ilr.cornell.edu/global-labor-institute/higher-ground-fashions-climate-breakdown)
+
+In Tamil Nadu, 68% of people face 8–9 hours a day of strong heat stress from March to June, measured by an index that counts humidity, wind and sun as well as temperature. (Tamil Nadu Heat Mitigation Strategy, 2024, https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf)
+
+What helps: Heat-safe work, Income protection in heatwaves, Social protection floors, Free care for heat illness
+
+### Women whose livelihoods are held back by unequal access
+
+Exposed to: Field, home-based and informal work, fetching water, and cooking in homes that trap heat.
+
+Held back by: Less say over land, credit, technology and household decisions, and most of the unpaid care that grows in a heatwave. Without toilets at work or on transport, many drink less water. Violence at home rises with the heat.
+
+Rural households headed by women lose about 8% more of their income to heat stress than those headed by men. (FAO, The Unjust Climate, 2024, https://www.fao.org/newsroom/detail/fao-report--heatwaves-and-floods-affect-rural-women-and-men-differently--widen-income-gap)
+
+In a study of Indian women workers, 87% of those with poor or no toilets at work reported genitourinary problems, and about 1 in 10 showed heat strain and moderate dehydration. (Venugopal et al., Global Health Action, 2016, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5025522/)
+
+In Nepal’s Madhesh Province, women cooking in hot, smoky kitchens carry a daily ‘thermal labour’ that falls hardest on Dalit women in single-room homes with little access to clean energy or credit. (Ghimire and others, Frontiers in Public Health, 2025, https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1657267/full)
+
+What helps: Income protection in heatwaves, Social protection floors, Heat action plans, Cool, affordable housing
+
+### Pregnant women, babies and young children
+
+Exposed to: Pregnancy strains the body’s cooling, and babies overheat and dehydrate faster than adults.
+
+Held back by: Many women keep working and fetching water late into pregnancy, and maternity and child services are rarely ready for heat.
+
+Each 1 °C rise raises the odds of preterm birth by about 5%, and a heatwave by about 16%. (Chersich et al., BMJ, 2020, https://pubmed.ncbi.nlm.nih.gov/33148618/)
+
+In 2014–2023, each infant in India faced an average of 7.7 heatwave days a year, 47% more than in the 1990s. (Lancet Countdown, India data sheet, 2024, https://lancetcountdown.org/wp-content/uploads/2024/10/Lancet-Countdown-2024_INDIA.pdf)
+
+What helps: Heat-ready health services, Heat action plans, Free care for heat illness, Social protection floors
+
+### Older people
+
+Exposed to: Bodies that sense and shed heat less well, often with heart, kidney or lung conditions.
+
+Held back by: Living alone, limited mobility, and warnings and help that rely on phones, apps or someone knocking on the door.
+
+Older people in a Kolkata slum were 4.3 times more likely than older people in a nearby village to face dangerous heat, with a heat index of 45 °C or more, because their homes stayed hotter than the outdoors, especially at night. (Weitz, Mukhopadhyay and Das, International Journal of Biometeorology, 2022, https://pubmed.ncbi.nlm.nih.gov/35359160/)
+
+What helps: Cooling centres and check-ins, Heat action plans, Affordable cooling for the poorest, Count every heat death
+
+### People with disabilities or long-term illness
+
+Exposed to: Some conditions and common medicines, such as diuretics, interfere with the body’s cooling. Heart, kidney and lung disease and diabetes raise the danger, and heat worsens many mental health conditions.
+
+Held back by: Warnings in formats they can’t use, cooling centres they can’t reach, and heat plans that rarely name their needs.
+
+What helps: Heat action plans, Cooling centres and check-ins, Heat-ready health services, Free care for heat illness
+
+### Migrants, prisoners and other excluded groups
+
+Exposed to: Hot, crowded rented rooms, cells and the hardest outdoor jobs, often in a place where they have few connections.
+
+Held back by: No local ID, address or language can mean no warnings, clinics, rations or relief. Many migrant workers are not registered under welfare laws, such as construction workers’ boards, so they miss health and safety benefits meant for them. Caste and social identity can decide who is reached first.
+
+Tamil Nadu’s heat strategy names prisoners, held in concrete buildings with little green space, among the groups heat plans must reach, and proposes cool roofs and trees for its jails. (Tamil Nadu Heat Mitigation Strategy, 2024, https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf)
+
+What helps: Cool, affordable housing, Social protection floors, Free care for heat illness, Heat-safe work
+
+## Cooling options by place, and what keeps them working
+
+What to build or change where people are: homes, outdoor work, schools, markets, waiting areas, heat with waterlogging and greening where water is short. With what keeps each option working, rough costs and the traps to avoid.
+
+Costs are rough planning ranges in Indian rupees, for early budgeting only. They come from a practitioner’s planning workbook and are not quotes; where a public figure exists, it is linked. Where no range is solid enough to share, the card says so: get local quotes.
+
+### Homes
+
+Protects: Sleep, care work, and the older people, young children and sick people who spend the hottest hours indoors.
+
+Key caution: Check the roof type, fire safety, tenure and ventilation before any retrofit.
+
+- Reflective roof coating: A white, solar-reflective coat on the roof, so less of the sun’s heat passes into the room below. Keeps working with: Repainting every few years, and a thermometer to check it works. Avoid: Promising a fixed number of degrees before you have measured. Rough cost: ₹250–₹350 per m² (planning estimate, medium confidence); Telangana Cool Roof Policy coverage, 2023: about ₹300 per m²
+
+- Lime whitewash: A cheap seasonal white coat that households can apply themselves when a commercial coating is out of reach. Keeps working with: Recoating every season, by a named group. Avoid: Treating it as a lasting retrofit. Rough cost: No range solid enough to share: get local quotes.
+
+- Better roof panels: Replace or cover thin tin or asbestos sheets with an insulated roof panel. Keeps working with: A structural check, and secure enough tenure to make the investment safe. Avoid: Scaling up before checking structure and tenure. Rough cost: No range solid enough to share: get local quotes.
+
+- Insulation under the roof: A fire-safe layer or false ceiling that slows heat coming through the roof. Keeps working with: A fire-safety review of the material. Avoid: Flammable sheets near kitchens or wiring. Rough cost: No range solid enough to share: get local quotes.
+
+- Shade on walls and windows: Bamboo blinds, jute screens or awnings on the sunny side stop sunlight before it reaches the room. Keeps working with: Fixing and replacing screens each season. Avoid: Blocking airflow or all daylight. Rough cost: No range solid enough to share: get local quotes.
+
+- Let the air through: Higher vents and openings that let hot air out at night. Keeps working with: Security, rain protection and mosquito screens. Avoid: Openings that let in dust, rain or intruders. Rough cost: No range solid enough to share: get local quotes.
+
+In 16 Ahmedabad slum homes measured in September 2017, rooms under a modular roof averaged about 33.8 °C against 36.8 °C under asbestos sheets. White paint on tin did not beat asbestos or concrete in the same comparison: measure before you promise. (Vellingiri et al., Indian Journal of Occupational and Environmental Medicine, 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7227734)
+
+In a two-year trial in Burkina Faso, cool roofs lowered indoor temperatures by 1.2 °C in tin-and-mud homes and 1.7 °C in tin-roofed homes, and residents’ heart rates fell. The same team began a year-long trial in about 400 Ahmedabad homes in 2025. (Reuters, via South China Morning Post, 2025, https://www.scmp.com/news/asia/south-asia/article/3301810/indian-slums-get-cool-roofs-beat-summer-heat)
+
+### Outdoor work
+
+Protects: People whose income depends on being outdoors in the hottest hours: vendors, loaders, builders, sanitation workers, traffic police.
+
+Key caution: A shelter without water, paid rest or a change of hours is not worker protection.
+
+- Rest shelters on work routes: Shade, seating and water where workers can recover during a shift. Keeps working with: Paid rest time, and someone who cleans and refills it. Avoid: Treating the shelter as a substitute for work rules. Rough cost: ₹1,50,000–₹5,00,000 per site (planning estimate, low to medium confidence)
+
+- Drinking water and rehydration salts: Refill points with safe water and oral rehydration salts at markets, sites and junctions. Keeps working with: A daily refill and cleaning roster, often ₹500–2,000 a day. Avoid: Counting it as cooling: it protects bodies, not temperatures. Rough cost: ₹10,000–₹50,000 per site (planning estimate, medium confidence)
+
+- Shade nets: Quick shade over junctions, queues and work yards. Keeps working with: Poles set firmly into the ground, and nets up before the heat starts. Avoid: Bamboo frames that fall in the first storm. Rough cost: ₹300–₹900 per m² (planning estimate, low to medium confidence)
+
+- Shade trees on work routes: Canopy along the streets where people work and wait. Keeps working with: Water, root space and three years of care. Avoid: Counting saplings planted instead of canopy that survives. Rough cost: ₹2,000–₹8,000 per tree, with 2–3 years’ care (planning estimate, medium confidence)
+
+- Misting at hotspots: Fine water spray at a few crowded, dry spots. Keeps working with: Safe water, drainage, filters and a technician. Avoid: Humid places and water-short cities: in humid heat the benefit roughly halves. Rough cost: ₹40,000–₹2,00,000 per site (planning estimate, medium confidence)
+
+Nagpur strung green shade nets over 10–12 busy junctions in May 2026. Several tore or collapsed in strong winds, and residents pointed out the heat had begun at the end of March. A net had also fallen at Tukdoji Square in 2025 because its bamboo was not set firmly into the road. (The Hitavada, 11 May 2026, https://www.thehitavada.com//Encyc/2026/5/11/green-nets-at-city-squares-relief-measure-or-another-half-planned-half-planned-civic-experiment.html)
+
+Comparing Phoenix with humid Houston, misters still cut heat stress in the humid city, but with about half the benefit, and only when there was some wind. (US National Science Foundation public access repository, https://par.nsf.gov/biblio/10642926)
+
+### Schools and childcare
+
+Protects: Learning, play, attendance and drinking water for children and the staff who look after them.
+
+Key caution: Count shade and surviving trees, not saplings planted.
+
+- Cool classroom roofs: A reflective coat or a ventilated second roof over the hottest classrooms. Keeps working with: A line in the school’s maintenance budget. Avoid: Roof canopies that are not anchored for monsoon winds. Rough cost: ₹250–₹350 per m² for a coating (planning estimate, medium confidence)
+
+- Shaded play space: Trees, shade structures and less hard paving where children play. Keeps working with: Watering through the holidays, when nobody is at school. Avoid: Planting that dies in the first summer break. Rough cost: ₹2,00,000–₹40,00,000 per school, from basic greening to a full package (planning estimate, low to medium confidence)
+
+- Shade on classroom windows: Screens or awnings on the sunny side of classrooms. Keeps working with: Fixing them back after each monsoon. Avoid: Making rooms so dark that lights and fans run all day. Rough cost: No range solid enough to share: get local quotes.
+
+- Drinking water at school: Enough safe, cool water for every child, with time in the timetable to drink it. Keeps working with: Filter changes and cleaning. Avoid: One tap for hundreds of children. Rough cost: ₹10,000–₹50,000 per point (planning estimate, medium confidence)
+
+Researchers who studied how age groups use green spaces found that older people asked for benches, shelter during extreme weather and safe paths, while children wanted trees for shade and places to play. Ask both before you design. (Frantzeskaki et al., chapter 11 in Nature-Based Solutions for Cities, 2023, https://doi.org/10.4337/9781800376762)
+
+### Markets and street vending
+
+Protects: Vendors’ income and stock, customers, and the porters who load and unload in the heat.
+
+Key caution: Design it with the vendors and protect their place, or the upgrade becomes an eviction.
+
+- Shade over stalls and aisles: Nets, fabric or a light frame with climbing plants over the places vendors sit. Keeps working with: Storm-proof fixing and someone to replace worn cloth. Avoid: Shade that blocks fire access or loading. Rough cost: ₹300–₹900 per m² for shade nets (planning estimate, low to medium confidence)
+
+- Water and rehydration points: Safe drinking water for vendors and customers. Keeps working with: A refill and cleaning roster agreed with the market association. Avoid: Points nobody is responsible for. Rough cost: ₹10,000–₹50,000 per site (planning estimate, medium confidence)
+
+- Planted drains and rain gardens: Planted channels and hollows that soak up runoff so the market does not flood after a storm. Keeps working with: Rubbish collection, or they clog. Avoid: Building them where waste is dumped. Rough cost: ₹500–₹3,000 per m² (planning estimate, low to medium confidence)
+
+- A whole-market package: Shade, water, cool roofs, drainage, trees and waste collection together, run with the vendors. Keeps working with: A vendor committee with a say over the design and the upkeep. Avoid: Beautification that pushes informal vendors out. Rough cost: ₹10,00,000–₹50,00,000 per market cluster (planning estimate, low to medium confidence)
+
+India’s Street Vendors Act (2014) gives vendors 40% of the seats on each town vending committee and says no vendor may be evicted or relocated until a survey of existing vendors is complete: a hook for designing market cooling with vendors, not around them. (Street Vendors (Protection of Livelihood and Regulation of Street Vending) Act, 2014, on FAOLEX, https://faolex.fao.org/docs/pdf/ind194977.pdf)
+
+### Bus stops and queues
+
+Protects: Commuters, patients queuing at clinics, people waiting for rations or wages, and visitors.
+
+Key caution: Put the shade where people actually stand, at the hours they wait.
+
+- Cool waiting points: Shade, a bench, drinking water and a board showing the heat alert, at bus stops, clinics and ration shops. Keeps working with: Access for older and disabled people, and someone who refills the water. Avoid: Counting shelters built instead of people protected. Rough cost: ₹50,000–₹6,00,000 per site (planning estimate, medium confidence)
+
+- Planted bus stops: Climbers on a frame that shade the stop more each year. Keeps working with: Watering and pruning. Avoid: Living shade with no water plan. Rough cost: No range solid enough to share: get local quotes.
+
+- Trees where queues form: Canopy over the places people wait every day. Keeps working with: Root space, water and three years of care. Avoid: Planting where the queue isn’t. Rough cost: ₹2,000–₹8,000 per tree, with 2–3 years’ care (planning estimate, medium confidence)
+
+- Shorter waits: Appointment slots, token systems and timed services so fewer people stand in the sun at midday. Keeps working with: Agreement from the clinic, office or transport operator. Avoid: Assuming shade is the only answer. Rough cost: No range solid enough to share: get local quotes.
+
+Measuring how hot people actually feel on summer days in Tempe, Arizona, researchers found shade from buildings cooled most by day, then trees, then light structures such as sails. Air temperature barely differed between them, and every kind of shade held heat after sunset. (Middel et al., 50 Grades of Shade, Bulletin of the American Meteorological Society, https://par.nsf.gov/biblio/10230332-grades-shade)
+
+### Heat and waterlogging
+
+Protects: Neighbourhoods that bake in summer and flood in the monsoon, and the groundwater both depend on.
+
+Key caution: Stop sewage and rubbish flowing in, and fund the desilting, before calling it blue-green.
+
+- Sponge parks: Small parks shaped to hold, soak up and slowly release stormwater, with plants that cool the area around them. Keeps working with: An overflow, mosquito control and desilting before each monsoon. Avoid: Standing water. Rough cost: ₹8,00,000–₹17,00,000 per park (planning estimate, medium confidence); Chennai: 57 sponge parks commissioned for ₹7.67 crore, about ₹13.5 lakh each by our arithmetic
+
+- Restored ponds and lakes: Desilted, protected water bodies with planted edges that store floodwater, recharge groundwater and cool their surroundings. Keeps working with: Sewage diverted away, and rubbish kept out. Avoid: Calling a polluted pond a cooling asset. Rough cost: ₹36,00,000–₹3,00,00,000 per pond (planning estimate, medium confidence); Chennai: one pond restored for ₹36 lakh
+
+- Planted drains and rain gardens: Channels and hollows that slow, clean and soak up runoff from roofs and lanes. Keeps working with: Rubbish collection and an overflow. Avoid: Places where they will become open garbage drains. Rough cost: ₹500–₹3,000 per m² (planning estimate, low to medium confidence)
+
+- Permeable paving: Paving that lets rain soak in instead of running off. Keeps working with: Regular cleaning so it does not clog. Avoid: Claiming it cools unless there is shade and moist soil too. Rough cost: ₹900–₹2,500 per m² (planning estimate, low to medium confidence)
+
+- Recharge pits: Small pits that send roof and courtyard runoff into the ground. Keeps working with: A filter, so polluted water does not reach shallow wells. Avoid: Recharging dirty runoff. Rough cost: ₹5,000–₹30,000 per pit (planning estimate, low to medium confidence)
+
+Over four years, Greater Chennai Corporation restored 70 ponds for ₹144.34 crore and built 88 rainwater-harvesting parks for ₹14.74 crore. (The News Minute, https://www.thenewsminute.com/tamil-nadu/chennai-civic-body-ramps-up-pond-restoration-rainwater-harvesting-parks-ahead-of-monsoon)
+
+Bangkok’s Benjakitti Forest Park, a former tobacco factory turned wetland, is designed to hold 87 million litres of water. (Mongabay, 2024, https://news.mongabay.com/2024/09/bangkok-turns-to-urban-forests-to-beat-worsening-floods/)
+
+China’s sponge-city pilots in 30 cities (2014–2019) often built projects one at a time instead of as a city-wide system, struggled to get engineers and designers working together, and left cities worried about paying for more once pilot money ended. (McPhillips et al., chapter 7 in Nature-Based Solutions for Cities, 2023, https://doi.org/10.4337/9781800376762)
+
+Jakarta’s green space was about 5.2–5.6% of the city in 2024–25, sources differ, against a legal target of 30%, now pushed back to 2045. (Metro TV News, https://www.metrotvnews.com/read/KXyCWwmW-target-30-ruang-terbuka-hijau-jakarta-dikejar-hingga-2045)
+
+### Greening where water is short
+
+Protects: Trees, soil moisture and groundwater, and the long-term shade they give.
+
+Key caution: Planting without water, soil care and a survival budget is not adaptation.
+
+- Care for the trees you have: Better tree pits, mulch, compost and looser soil so existing trees take up water and survive. Keeps working with: A yearly care round. Avoid: Replanting instead of fixing why trees die. Rough cost: No range solid enough to share: get local quotes.
+
+- Rainwater for trees: Store runoff from roofs and streets to water trees and gardens through dry spells. Keeps working with: Clean tanks and a plan for the dry months. Avoid: Planting with no water source at all. Rough cost: ₹20,000–₹2,00,000 per site (planning estimate, low to medium confidence)
+
+- Treated wastewater for parks: Use treated water from a treatment plant for parks and tree corridors, so greenery does not compete with drinking water. Keeps working with: Treatment that is checked. Avoid: Untreated sewage on public land. Rough cost: No range solid enough to share: get local quotes.
+
+- Street trees with three years’ care: Hardy, shade-giving species, chosen for the heat and drought ahead. Keeps working with: Species choice, root space, water and a named owner. Avoid: Counting planted trees. Rough cost: ₹2,000–₹8,000 per tree, with 2–3 years’ care (planning estimate, medium confidence)
+
+- Dense mini-forests: Small, densely planted native woods on spare public land. Keeps working with: Water through the first years. Avoid: Assuming they beat ordinary shade trees on value. Rough cost: No range solid enough to share: get local quotes.
+
+In Berlin’s Johannisthal park, more than 500 of 870 newly planted native trees died within ten years despite watering, so the shade and cooling never arrived. Across the city, about 44,000 street trees were cut between 2012 and 2019 and about 18,000 planted. (Hansen et al., chapter 10 in Nature-Based Solutions for Cities, 2023, https://doi.org/10.4337/9781800376762)
+
+In Santiago de Chile, how well a municipality manages its trees was the strongest predictor of whether they survive, and wealthier municipalities spend far more on it. (Hansen et al., chapter 10 in Nature-Based Solutions for Cities, 2023, https://doi.org/10.4337/9781800376762)
+
+### Making it last
+
+Protects: Every asset above: who targets it, who opens it on an alert, who pays for upkeep, and who hears complaints.
+
+Key caution: Often the most useful layer, and the easiest to leave unfunded.
+
+- Link the heat plan to the assets: A ward or settlement plan that says which shelters, water points and cool spaces open at each alert level, and who opens them. Keeps working with: A yearly review with the people who use them. Avoid: A plan with no budget or named owners. Rough cost: ₹5,00,000–₹25,00,000 per plan (planning estimate, medium confidence)
+
+- An upkeep agreement: A written deal between the council, community groups, schools or vendors on who repaints, waters, prunes, refills and repairs. Keeps working with: Money from the running budget, not only the building budget. Avoid: Paying to build without paying to maintain. Rough cost: ₹2,00,000–₹10,00,000 per year, for a cluster of assets (planning estimate, low to medium confidence)
+
+- Map risk with the people exposed: Walk the area with workers, women, older and disabled people, migrants and renters to see who is exposed, why warnings fail, and where assets should go. Keeps working with: Repeating it as people and places change. Avoid: Relying on satellite heat maps alone. Rough cost: ₹5,00,000–₹20,00,000 per baseline (planning estimate, medium confidence)
+
+- A way to complain and be heard: An accessible route for complaints and feedback, set up before work starts. Keeps working with: Someone who answers within a set time. Avoid: Starting work where affected people have no voice or remedy. Rough cost: ₹1,00,000–₹5,00,000 per set-up (planning estimate, medium confidence)
+
+- Find the hooks in existing plans: Search city, disaster, water and climate plans and budgets for mandates and money that cooling can use. Keeps working with: Checking what you find with the officials concerned. Avoid: Assuming nothing exists because nobody uses the words “nature-based solutions”. Rough cost: ₹1,00,000–₹5,00,000 per review (planning estimate, medium confidence)
+
+In Melbourne, officials found money for new green infrastructure was usually available, but running budgets were under pressure and rarely increased, even as the area to maintain grew. (Hansen et al., chapter 10 in Nature-Based Solutions for Cities, 2023, https://doi.org/10.4337/9781800376762)
+
+In Santiago, without long-term financing, only better-off municipalities could take part in green-space programmes, because only they could afford the extra upkeep. (Hansen et al., chapter 10 in Nature-Based Solutions for Cities, 2023, https://doi.org/10.4337/9781800376762)
+
+Less than 10% of the climate finance that reaches cities goes to adaptation and resilience. (Cities Climate Finance Leadership Alliance, The State of Cities Climate Finance, 2021, https://www.climatepolicyinitiative.org/publication/the-state-of-cities-climate-finance/)
+
+The IUCN Global Standard for Nature-based Solutions makes inclusive governance and equity one of its eight criteria. (IUCN Global Standard: the eight criteria, https://inbs.iucn.org/understand/8-criteria/)
+
+### Five traps that waste cooling money
+
+- Buying before diagnosing: The asset is chosen before anyone has mapped who is exposed, where and why, so the shade ends up where nobody waits. Instead: Start with the people and places at risk, then choose.
+
+- Built, with no one to keep it: It looks good for one season, then fades because no running budget or owner was set aside. Instead: Name who keeps each asset working after year one, and from which budget.
+
+- Green without water: Trees, parks and green roofs go in with no water source, soil care or survival budget. Instead: Secure the water and three years of care before planting, and count trees that survive.
+
+- Promising degrees you haven’t measured: A fixed temperature drop is promised from another place’s study. Instead: Log temperatures in treated and untreated places, and report what you measured.
+
+- A list of activities, not a model: A proposal lists many activities, but none says who it protects, what it costs per unit, who owns it and what changes. Instead: For each option, name the users, the unit cost, the owner and the outcome.
+
+### What changes the result
+
+- Shade beats air temperature: In hot, sunny places, how hot people feel outdoors depends more on radiant heat from the sun and surfaces than on air temperature. Shade from buildings cooled most by day in a Tempe study, then trees, then light structures. (https://par.nsf.gov/biblio/10230332-grades-shade)
+
+- Reflective paving can make walking hotter: In Los Angeles, coated roads were up to 6 °C cooler on the surface, but pedestrians above them received about 4 °C more radiant heat. Pair reflective surfaces with shade. (https://news.asu.edu/20200505-discoveries-street-smarts-required-heat-mitigation)
+
+- Misting depends on humidity and air movement: In Singapore, a misting fan cut air temperature by about 1.5 °C and made people feel cooler. An overhead misting line without fans made no significant difference. (https://www.mdpi.com/2571-8797/3/1/11)
+
+- Trees cool people more than thermometers show: WRI’s Cool Cities Lab puts the improvement trees make to thermal comfort at roughly 2–8 °C. That measures how hot people feel, which is not the same as air temperature. (https://www.wri.org/insights/urban-trees-cooling-potential)
+
+### Putting a value on cooling
+
+Modelled against housing built in its place, Guangzhou’s Haizhu wetland keeps the area within 600 m about 0.25 °C cooler on a typical summer day, and over 1 °C cooler on the site itself. Without it, productivity in nearby heavy outdoor work would fall by 2.5% in May and 16.1% in October, monthly risk of death would rise by 1.23–1.27% from June to September, and cooling bills would rise by about US$1.9 million over 30 years.
+
+Most of the wetland’s US$146.8 million value comes from carbon and mental health, not cooling. So make the heat case in lives, heavy outdoor work and bills, not money alone. And the same cooling is worth most to people without air conditioning.
+
+## Worked heat action plans from Asia
+
+How places in Asia have turned heat risk into a plan: what happened, what they decided, what changed, and who leads each action.
+
+### Ahmedabad’s heat action plan (Ahmedabad, India, 2013 onwards)
+
+What happened: In May 2010 a heatwave peaking at 46.8 °C caused an estimated 1,344 excess deaths in the city, 43% more than in the same weeks of 2009 and 2011.
+
+What they decided: In 2013 the Ahmedabad Municipal Corporation, with the Indian Institute of Public Health Gandhinagar and NRDC, launched South Asia’s first heat action plan: forecasts from the India Meteorological Department feed colour-coded alerts, departments act together, the public is warned, and health staff are trained. From 2017 the plan added cool roofs.
+
+What changed: An evaluation estimated about 1,190 deaths a year were avoided after the plan began, compared with before it. The model has since spread to many other Indian cities and states.
+
+- Heat action plans: led by City and local governments; paid by Not documented; Colour-coded alerts issued from IMD forecasts, with inter-agency response
+
+- Heat-ready health services: led by Health authorities; paid by Not documented; Health staff trained to recognise and treat heat illness
+
+- Cool, affordable housing: led by City and local governments; paid by Not documented; Cool roofs on homes in informal settlements and on public buildings
+
+Source: Azhar et al., PLoS ONE, 2014: the 2010 heatwave https://doi.org/10.1371/journal.pone.0091831
+
+Source: NRDC: the plan’s components and cool roofs https://www.nrdc.org/press-releases/ahmedabads-pioneering-plan-now-shielding-millions-killer-heat
+
+Source: Hess et al., 2018: deaths avoided https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6236972/
+
+### Thane’s ward-by-ward heat action plan (Thane, India, 2024 onwards)
+
+What happened: In Thane, a fast-growing coastal city next to Mumbai, humidity and warm nights make heat more dangerous than the thermometer suggests, and the risk differs sharply from one ward to the next.
+
+What they decided: In March 2024 the Thane Municipal Corporation and CEEW published a heat action plan built on a ward-level risk index of felt heat, warm nights and social vulnerability. A Heatwave Task Force across departments, chaired by an Additional Municipal Commissioner, runs it with emergency procedures. Measures include early warnings, cool roofs and pavements, water stations, shade, and heat preparedness in schools and hospitals.
+
+What changed: Its effect on illness and deaths has not yet been publicly evaluated. What it shows is a plan that names who acts and where the risk is highest, before the season starts.
+
+- Heat action plans: led by City and local governments; paid by Not documented; Ward-level risk index updated each season, with task-force actions logged against it
+
+- Cooling centres and check-ins: led by City and local governments; paid by Not documented; Water stations and shaded areas in the highest-risk wards
+
+- Cool, affordable housing: led by City and local governments; paid by Not documented; Cool roofs and cool pavements installed in high-risk wards
+
+- Heat-ready health services: led by Health authorities; paid by Not documented; Hospitals and schools with heat preparedness procedures
+
+Source: CEEW: How can Thane city tackle heatwave risks with a heat action plan https://www.ceew.in/publications/how-can-thane-city-tackle-heatwaves-risks-with-heat-action-plan
+
+Source: Global Heat Health Information Network: Heat Action Plan for Thane City 2024 https://heathealth.info/resources/heat-action-plan-for-thane-city-2024/
+
+### Tamil Nadu’s state-wide heat network (Tamil Nadu, India, 2024 onwards)
+
+What happened: About 68% of Tamil Nadu’s people face 8–9 hours a day of strong heat stress from March to June, and 56% live where summer nights are warmer than the 1981–2011 average. The state’s 2019 heatwave action plan dealt mainly with short-term emergency response.
+
+What they decided: In 2024 the State Planning Commission, with WRI India as knowledge partner and support from the British High Commission, convened a Heat Action Network of line departments, including disaster management, health, education, agriculture, environment and forests, and water. Together they wrote India’s first state-wide heat strategy, covering people, animals and ecosystems along three pathways: health and well-being, sustained resources and productivity, and cooling. It builds heat into schemes that already exist rather than starting new ones.
+
+What changed: It is a strategy, not yet an evaluated programme. Departments are to take its recommendations to detailed project reports, with progress reviewed every 6–8 months. What it shows is a whole state, not one city, giving heat an owner across departments.
+
+- Heat action plans: led by National governments; paid by Not documented; Departments in the Heat Action Network reporting progress every 6–8 months
+
+- Heat-ready health services: led by Health authorities; paid by Not documented; Pregnancy-scheme check-ups that screen for heat risk (proposed)
+
+- Cool, affordable housing: led by City and local governments; paid by Not documented; Slum redevelopment tenders that set a limit on heat gain through walls and roofs (proposed)
+
+- Green, cool cities: led by National governments; paid by Public budget; Forest and tree cover rising from 23.8% towards 33% by 2030–31
+
+Source: Tamil Nadu State Planning Commission, 2024: Beating the Heat https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf
+
+Source: WRI India: mapping the path to heat resilience in Tamil Nadu https://wri-india.org/perspectives/mapping-path-heat-resilience-tamil-nadu
+
+Source: Tamil Nadu Pollution Control Board, G.O. 215, 2023: the tree cover target https://tnpcb.gov.in/PDF/About_Us/Announcementgos/GoNo_215_101123.pdf
+
+### Singapore’s heat rules for outdoor work (Singapore, 2023 onwards)
+
+What happened: In one of the world’s densest, most humid cities, the commercial centre has measured up to about 7 °C warmer than the outskirts, and builders, shipyard and landscape workers labour outdoors through it. A study of 355 workers found each hot day cost a median S$21 in lost income.
+
+What they decided: In 2023 the National Environment Agency launched a national heat stress advisory based on wet-bulb globe temperature (WBGT), which counts humidity, sun and wind, with low, moderate and high levels. The Ministry of Manpower made employers check WBGT hourly at outdoor work, give at least 10 minutes’ shaded rest each hour for heavy work at 32 °C or above, help new workers acclimatise, and enforced it.
+
+What changed: In March and June 2024 the ministry inspected 250 workplaces and acted against 78, mainly for missing shaded rest breaks and acclimatisation. The rules have since been revised and strengthened. Their effect on heat illness has not yet been publicly evaluated.
+
+- Heat-safe work: led by National governments; paid by Employers; Outdoor worksites checking WBGT hourly and giving shaded rest breaks; workplaces inspected
+
+- Heat action plans: led by Weather and climate services; paid by Not documented; Heat stress advisory with three WBGT risk levels, shown by location
+
+- Green, cool cities: led by City and local governments; paid by Not documented; Districts modelled for cooling through Cooling Singapore
+
+Source: Ministry of Sustainability and the Environment: Heat Stress Advisory, 2023 https://www.mse.gov.sg/latest-news/press-release-heat-stress-advisory/
+
+Source: Ministry of Manpower: enhanced heat stress measures, 2023 https://www.mom.gov.sg/newsroom/press-releases/2023/1024-enhanced-measures-to-reduce-heat-stress-for-outdoor-workers
+
+Source: HRD Asia: 78 of 250 worksites non-compliant, 2024 https://www.hcamag.com/asia/specialisation/employment-law/more-than-75-worksites-found-non-compliant-with-singapores-enhanced-heat-stress-measures-report/499570
+
+Source: NUS Project HeatSafe, 2024 https://medicine.nus.edu.sg/wp-content/uploads/2024/03/PRESS-RELEASE_Project-HeatSafe-18MAR2024-FOR-IMMEDIATE-RELEASE.pdf
+
+Source: Cooling Singapore https://www.thegpsc.org/sites/gpsc/files/cooling_singapore_-_digital_urban_climate_twin.pdf
+
+### Dhaka acts before the heat peaks (Dhaka, Bangladesh, 2023 onwards)
+
+What happened: Bangladesh’s ‘feels-like’ temperature has risen by about 4.5 °C since 1980, and parts of Dhaka run more than 10 °C hotter than the countryside. In April 2024 a long heatwave closed schools for about 33 million children.
+
+What they decided: In 2023 Dhaka North City Corporation appointed Asia’s first Chief Heat Officer, a post paid for by the Arsht-Rock foundation rather than the city, to bring heat planning together. The same year the Bangladesh Red Crescent Society’s heatwave early action protocol was approved: when forecasts pass 38 °C, warnings, drinking water, cooling stations and cash grants go out before the peak.
+
+What changed: On 21 April 2024 the protocol was activated for Dhaka, with about CHF 500,000 from the IFRC’s emergency fund to reach some 124,000 people. Its effect on illness and deaths has not been publicly evaluated. What it shows is money and a plan agreed before the heat, released by a forecast.
+
+- Anticipatory action: led by Community and civil society groups; paid by Not documented; Days from a 38 °C forecast to cash, water and warnings reaching people
+
+- Cooling centres and check-ins: led by Community and civil society groups; paid by Not documented; Cooling stations open at three locations during the heatwave
+
+- Heat action plans: led by City and local governments; paid by Philanthropy; A Chief Heat Officer bringing the city’s heat planning together
+
+Source: Red Cross Red Crescent Climate Centre, 2024 https://www.climatecentre.org/13733/red-crescent-activates-early-action-protocol-for-heatwaves-in-dhaka/
+
+Source: Arsht-Rock: Dhaka North’s Chief Heat Officer, 2023 https://onebillionresilient.org/2023/05/03/bushra-afreen-dhaka-chief-heat-officer/
+
+Source: World Bank, 2025 https://www.worldbank.org/en/news/press-release/2025/09/16/bangladesh-faces-health-and-economic-risks-from-rising-temperature-world-bank
+
+Source: NBC News: school closures, 2024 https://www.nbcnews.com/news/world/schools-close-extreme-heat-philippines-bangladesh-asia-rcna149485
+
+## Plain-language glossary of extreme heat
+
+41 terms that come up again and again in extreme heat, explained in a sentence or two.
+
+### What heat does to the body
+
+- **Heatstroke**: A medical emergency. The body’s core temperature rises above about 40 °C and its cooling system fails. Without fast cooling it can kill or cause lasting organ damage.
+
+- **Heat exhaustion**: The warning stage before heatstroke: heavy sweating, weakness, dizziness and nausea. Rest, water and cooling usually bring recovery.
+
+- **Heat stress**: When the body takes in or makes more heat than it can shed, from hot air, humidity, sun and physical work.
+
+- **Acclimatisation**: The body slowly adjusting to heat over one to two weeks. New and returning workers are most at risk until it has.
+
+- **Excess deaths**: Deaths above the normal number for that place and time of year. Because death certificates rarely say “heat”, this is how the real toll of a heatwave is counted.
+
+### How heat is measured
+
+- **Wet-bulb temperature**: Heat and humidity combined into one number, read from a thermometer wrapped in a wet cloth. It shows whether sweat can still cool you. A wet-bulb temperature of 35 °C is often quoted as the limit of human survival; recent studies suggest the real limit is lower.
+
+- **WBGT (wet-bulb globe temperature)**: The workplace measure of heat. It adds sun and wind to heat and humidity, and is used to set rest breaks and stop work.
+
+- **Heat index**: The “feels-like” temperature in the shade, combining air temperature and humidity. In the Philippines, a heat index of 42 °C or more is officially a danger level.
+
+- **Heatwave**: A spell of unusually hot weather for that place. There is no single global definition: each country sets its own thresholds.
+
+- **Hot nights**: Nights that stay too hot for the body to recover from the day. They are often more dangerous than hot days, and they are rising faster.
+
+- **Urban heat island**: Cities running several degrees hotter than the countryside around them, especially at night, because of concrete, traffic, waste heat and few trees.
+
+- **Mean radiant temperature**: The heat your body takes in from the sun and from hot surfaces around it: roads, walls and roofs. In strong sun it shapes how hot you feel more than air temperature does, which is why shade matters so much.
+
+- **Thermal comfort**: How hot or cold a person feels. It depends on air temperature, humidity, wind, sun, clothing and activity, not on air temperature alone.
+
+### Acting before harm
+
+- **Limits to adaptation**: The point beyond which adjusting no longer prevents harm. Places used to heat cope better with days of 30–35 °C, but a study of 2.7 million firms found no adaptation to days above 40 °C. Cutting emissions keeps more places below that limit.
+
+- **Heat action plan**: A city’s or country’s plan for the heat season: who issues warnings, at what temperature, and what hospitals, employers and services do next.
+
+- **Early warning system**: A forecast that reaches people in time, in a form they understand, with clear advice on what to do.
+
+- **Anticipatory action**: Acting on a forecast, before a disaster peaks, by releasing pre-agreed money and help when a trigger is reached.
+
+- **Cooling centre**: A public place, such as a library, school or community hall, kept cool during heatwaves for people with no cool space at home.
+
+### Money and protection
+
+- **Parametric insurance**: Insurance that pays out automatically when a measured trigger, such as a temperature threshold, is crossed. There is no claim form and no damage assessment.
+
+- **Basis risk**: When the trigger and the real loss don’t match: people suffer from the heat, but the threshold isn’t crossed and no payout comes.
+
+- **Risk pool**: A group of countries, cities or insurers that share the cost of disasters, so no single member carries a catastrophe alone.
+
+- **Social protection**: Public support such as pensions, cash transfers and unemployment benefits that keeps households out of poverty when income stops.
+
+### Cooling, land and systems
+
+- **Passive cooling**: Cooling a building without using power: shade, airflow, insulation, orientation and reflective surfaces.
+
+- **Cool roof**: A roof painted or built to reflect sunlight, so less heat reaches the room below.
+
+- **Refrigerant**: The fluid inside air conditioners and fridges that carries heat away. Many common ones are powerful greenhouse gases if they leak.
+
+- **Black carbon**: Soot from diesel, wood, coal and brick kilns. It warms the air, and when it settles on snow and ice it darkens them so they melt faster.
+
+- **Vicious cycle**: A harm that feeds itself: each turn of the loop makes the next one worse. This map shows where those loops could be interrupted.
+
+- **Maladaptation**: A response to heat that makes things worse elsewhere or later, such as air conditioners that cool a room but heat the street.
+
+- **Albedo**: How much sunlight a surface reflects. A white roof has a high albedo and stays cooler; dark asphalt has a low albedo and stores heat.
+
+### Nature in the city
+
+- **Evapotranspiration**: Water evaporating from soil and leaves. It draws heat out of the air, so well-watered plants cool their surroundings. Plants short of water stop cooling.
+
+- **Nature-based solutions**: Using living systems such as trees, wetlands, soils and water to tackle problems like heat and flooding while also benefiting people and nature. A park only works as one if it is planned for those benefits and kept alive.
+
+- **Ecosystem services**: The benefits people get from nature: shade and cooling, cleaner air and water, rain soaking into the ground, food and places to rest. The same service is worth most to those with the fewest alternatives, such as cooling for people without air conditioning.
+
+- **Blue-green infrastructure**: A network of water (blue) and plants and soil (green), such as rivers, ponds, wetlands, parks and planted drains, designed to manage rain and heat together.
+
+- **Grey infrastructure**: Engineered, mostly concrete systems such as pipes, drains, embankments and pumps. Many good solutions mix grey and green.
+
+- **Sponge city**: A city designed to soak up, store, clean and slowly release rainwater through parks, wetlands, permeable ground and planted drains, not only pipes. China piloted it in 30 cities from 2014 to 2019; Chennai and Bangkok are building sponge parks.
+
+- **Co-benefits**: The extra gains a measure brings beyond its main aim, such as a park built to hold floodwater that also cools the street and gives children somewhere to play.
+
+- **Ecosystem-based adaptation**: Using nature to help people adapt to climate change, such as mangroves against storm surges or trees for shade. A kind of nature-based solution.
+
+- **Green gentrification**: When a new park or greening raises rents and land prices so much that the poorer residents it was meant to help are pushed out.
+
+- **Environmental justice**: A fair share of environmental benefits and harms, and a fair say in decisions about them. Poorer neighbourhoods are often hotter and less green.
+
+### Also explained on the map
+
+- **Aquifer**: Underground layers of rock or sand that hold groundwater, the water that wells and pumps draw from.
+
+- **Agroforestry**: Growing trees alongside crops or livestock. The trees shade the soil, help it hold moisture and give farmers another source of income.
+
+## Organisations working on extreme heat
+
+204 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
+
+### Global networks and organisations
+
+- Global Heat Health Information Network (WHO, WMO and NOAA): A member-driven forum of scientists, practitioners and policymakers. Its resource library gathers guidance on heat warnings, heat action plans and case studies, heat at work and heat in cities. (https://heathealth.info/resource-library/)
+
+- International Labour Organization: Sets out the evidence and standards for protecting workers from heat stress. (https://www.ilo.org/resource/news/increase-heat-stress-predicted-bring-productivity-loss-equivalent-80)
+
+- UNICEF: Tracks how heatwaves and other climate hazards disrupt children’s schooling. (https://www.unicef.org/reports/learning-interrupted-global-snapshot-2024)
+
+- Zurich Climate Resilience Alliance: An alliance of humanitarian, development and research partners with Zurich Insurance Group. In 2024 it expanded from floods to extreme heat, with work in countries including Bangladesh and Nepal. Its 2026 study of heat early warning systems covered eight countries, among them Bangladesh, Nepal, Pakistan, the Philippines and Vietnam. (https://zcralliance.org/resources/?q=heat)
+
+- Heat Resilience Action (HERA), formerly Climate Resilience for All: Works on extreme heat with a focus on women and low-income communities. With SEWA and Swiss Re, it combined insurance payouts and cash for lost income after India’s 2024 heatwaves. (https://heranow.org/resources/as-extreme-heat-threats-grow-can-heat-insurance-offer-protection/)
+
+- UNEP Cool Coalition: A global network for clean, efficient cooling and cooler cities. It runs its own city initiative, also called Beat the Heat, which is separate from this site. (https://coolcoalition.org)
+
+- Red Cross Red Crescent Climate Centre: Wrote the Heatwave Guide for Cities with more than 25 partners, covering how cities prepare for, respond to and learn from heatwaves. (https://preparecenter.org/resource/heatwave-guide-for-cities)
+
+- Sustainable Energy for All: Measures who lacks access to cooling through its Chilling Prospects series. (https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-global-access-to-cooling-gaps-2023)
+
+- International Energy Agency: Analyses cooling demand and how efficiency standards can cut it. (https://www.iea.org/reports/the-future-of-cooling)
+
+- Practical Action: Connects heat risk intelligence, local action, practical technology, institutions and finance, following a Sense → Decide → Act → Sustain logic. In Nepal, Dhangadhi’s heat action plan links temperature, humidity and health data, hotspot mapping and community views to thresholds and set municipal responses. In Bangladesh, heat is being built into early warning and livelihood work. A partner in the Zurich Climate Resilience Alliance. (https://practicalaction.org/news-stories/zurich-climate-resilience-alliance-to-expand-focus-on-destructive-extreme-heat/)
+
+- People’s Courage International: Works on safe migration and labour protection for migrant workers in South and Southeast Asia. Its Migrants Resilience Collaborative supports more than seven million households. (https://www.weforum.org/organizations/peoples-courage-international/)
+
+- World Bank: Its 2026 report A Livable Future finds extreme heat already costs South Asia the equivalent of about 31 million full-time jobs a year, and sets out how cities can protect jobs and growth. (https://www.worldbank.org/en/region/sar/publication/a-livable-future-protecting-jobs-and-growth-from-extreme-heat-in-south-asia-s-cities)
+
+- World Meteorological Organization: With WHO, runs the South Asia Climate–Health Desk with India’s meteorological agencies, turning weather and climate information into health protection. (https://wmo.int/node/38332)
+
+- C40 Cities: Its Cool Cities Accelerator brings together cities including Ahmedabad, Bengaluru, Mumbai and Singapore on early warnings, building standards and tree cover. (https://www.deccanherald.com/india/karnataka/bengaluru/bengaluru-joins-global-coalition-to-beat-extreme-heat-3786724)
+
+- Vital Strategies: Through the Partnership for Healthy Cities, supports Bangkok to pilot heat-health action in high-risk districts: outdoor worker protection, cooling spaces and drinking water. (https://www.nationthailand.com/pr-news/40071201)
+
+- Global Buildings Performance Network: Works on residential building codes in India and Southeast Asia, where demand for cooling homes is rising fastest. (https://gbpn.org/news-gbpn-sharpens-its-focus-decarbonising-housing-india-and-south-east-asia)
+
+- Start Network: Its members run heatwave anticipatory action in Pakistan, releasing funds automatically when forecasts cross agreed triggers. (https://startnetwork.org/news-and-blogs/getting-ahead-deadly-heat)
+
+- Mercy Corps: A Zurich Climate Resilience Alliance partner leading work on extreme heat in Nepal, where the southern plains passed 40 °C on 50 days in 2024. (https://europe.mercycorps.org/sites/default/files/2025-09/too-hot-to-ignore.pdf)
+
+- United Nations Development Programme (UNDP): Helps governments connect heat resilience with health systems, urban planning and finance. Its work includes a financing strategy for tackling urban heat in Bangkok. (https://www.undp.org/thailand/publications/bangkok-financing-strategy-tackling-urban-heat)
+
+- UN-Habitat: Develops guidance on urban heat management, helping cities combine planning, building design, green infrastructure and cooling to protect vulnerable residents. (https://unhabitat.org/handbook-on-urban-heat-management-in-the-global-south)
+
+- UN Office for Disaster Risk Reduction (UNDRR): Helps governments strengthen heat risk governance through practical assessment tools, coordinated planning and investment across sectors and levels of government. (https://www.undrr.org/our-work/extreme-heat-resilience)
+
+- Resilient Cities Network: Works with cities and communities on heat resilience, including indoor heat monitoring and locally designed cooling in Southeast Asian cities. (https://resilientcitiesnetwork.org/heat-stays-in-peoples-homes/)
+
+- ICLEI South Asia: Supports cities with heat risk assessments, heat action plans, urban greening and preparedness tools in India, Nepal and Bangladesh. (https://southasia.iclei.org/news/extreme-heat-new-knowledge-products-highlight-need-to-build-resilience-adaptation/)
+
+- United Cities and Local Governments Asia-Pacific (UCLG ASPAC): Provides technical assistance for urban heat resilience, including work with Iloilo City in the Philippines and Cox’s Bazar in Bangladesh. (https://uclg-aspac.org/turning-the-heat-into-action-how-iloilo-city-and-coxs-bazar-respond-to-urban-heat/)
+
+- Women in Informal Employment: Globalizing and Organizing (WIEGO): Documents how heat affects informal workers’ health and earnings, and develops worker education, policy recommendations and protection guidance with local organisations. (https://www.wiego.org/research-library-publications/working-heat-street-vendors-delhi-india/)
+
+- International Federation of Red Cross and Red Crescent Societies (IFRC): Mobilises national societies and communities to prepare for heatwaves and reach people at risk, including through its global Heat Action Day campaign. (https://www.ifrc.org/get-involved/campaign-us/heat-action-day)
+
+- Climate and Development Knowledge Network (CDKN): Supports locally relevant climate knowledge and partnerships, including heat early warning, urban health resilience and preparedness planning in India. (https://cdkn.org/project/urban-health-and-climate-resilience-in-india)
+
+- United for Efficiency (UNEP-led): Helps countries strengthen appliance efficiency policies and standards, including work across Southeast Asia on efficient, climate-friendly air conditioning. (https://united4efficiency.org/project/asean/)
+
+- Humanity & Inclusion (HI): Sets out disability-inclusive approaches to climate action, including accessible early warnings, which people with disabilities often lack. A heat-specific programme in Asia is not confirmed. (https://www.hi-canada.org/sn_uploads/Disability-Inclusive-approaches-to-climate-action_1.pdf)
+
+- Human Rights Watch: Documents how extreme heat endangers older people and people with disabilities, and how heat and climate plans leave them out. (https://www.hrw.org/news/2023/06/30/extreme-heat-signals-need-inclusive-climate-action)
+
+### Governments and regional bodies in Asia
+
+- National Disaster Management Authority, India: Issues national guidance for state and city heat action plans. (https://ndma.gov.in)
+
+- National Disaster Risk Reduction and Management Authority, Nepal: Issued Nepal’s first federal heat plan in 2024. (https://english.onlinekhabar.com/reassessing-nepals-heat-wave-response-lessons-from-2024-and-the-way-forward.html)
+
+- Ahmedabad Municipal Corporation, with IIPH Gandhinagar and NRDC: Launched South Asia’s first heat action plan in 2013: early warnings, public outreach and training for medical staff. (https://www.nrdc.org/press-releases/new-evidence-shows-pioneering-heat-action-plan-helps-millions-avoid-killer-heat)
+
+- Dhaka North City Corporation: Appointed Asia’s first Chief Heat Officer in 2023, focused on cooling the poorest neighbourhoods. (https://www.dhakatribune.com/bangladesh/310693/arsht-rock-bangladesh%E2%80%99s-first-chief-heat-officer)
+
+- Nepal Red Cross Society: Published the Dhangadhi Heat Action Plan in 2025 with the Climate Centre, setting out when and where to act before and during heatwave days in a city that passes 40 °C every year. (https://www.climatecentre.org/publications/16234/dhangadhi-heat-action-plan-2025/)
+
+- Department of Education, Philippines: Lets school heads suspend in-person classes when the heat index is dangerous, and moved the school year back to a June start to keep classes out of the hottest months. (https://newsinfo.inquirer.net/1940232/deped-all-set-for-june-school-opening-in-25)
+
+- Bangladesh Red Crescent Society: Runs an early action protocol for heat, first activated in April 2024 during Dhaka’s longest recorded heatwave. (https://www.atachcommunity.com/our-impact/case-studies/bangladesh-early-action-protocol-for-heat-events/)
+
+- ICIMOD: Monitors the Himalaya’s snow and ice, and helps brick kilns switch to cleaner technology that cuts the soot darkening the glaciers. (https://www.downtoearth.org.in/climate-change/existing-solutions-could-slash-soot-emissions-by-80-by-2030-icimod)
+
+- Asian Development Bank: Supports heat resilience in Asian cities, including technical assistance on heat stress among women and girls in Bangladesh, Cambodia, Pakistan, Sri Lanka and Tajikistan. Its 2026 report on the heat crisis in Thailand and Southeast Asia calls for mobilising public and private finance, and proposes a heat action plan for Thailand. (https://www.preventionweb.net/publication/beating-heat-investing-pro-poor-solutions-urban-resilience)
+
+- UN ESCAP: Helps fast-growing cities in South and Southeast Asia plan for extreme urban heat, working with Iloilo City and Cox’s Bazar. (https://unescap.org/our-work/environment-development/cities-for-a-sustainable-future/addressing-urban-extreme-heat)
+
+- India Meteorological Department and IITM Pune: Issue India’s heatwave forecasts and work with WHO and WMO on the South Asia Climate–Health Desk. (https://wmo.int/node/38332)
+
+- PAGASA, Philippines: Issues heat index warnings with danger levels that local governments use to decide when to suspend classes. (https://www.gmanetwork.com/regionaltv/news/115185/pagasa-urges-public-to-brace-for-more-intense-heat/story/)
+
+- Ministry of Manpower, Singapore: Requires hourly wet-bulb globe temperature (WBGT) checks on outdoor worksites, shaded rest breaks when heat stress is high, and time for new workers to acclimatise, and enforces the rules. (https://www.mom.gov.sg/newsroom/press-releases/2023/1024-enhanced-measures-to-reduce-heat-stress-for-outdoor-workers)
+
+- National Centre for Disease Control, India: Leads heat-health guidance, training and surveillance through India’s National Programme on Climate Change and Human Health. (https://ncdc.mohfw.gov.in/includes/About/CentresAndDivision/CEOH.php)
+
+- National Environment Agency, Singapore: Issues public heat stress advisories through myENV and weather services, so people can adjust outdoor activity as heat rises. (https://www.nea.gov.sg/media/news/news/index/new-heat-stress-advisory-launched-to-guide-public-on-minimising-risk-of-heat-related-illnesses)
+
+- Hong Kong Observatory: Issues very hot weather warnings with protective advice, including for people more vulnerable to heat. (https://www.hko.gov.hk/en/wservice/warning/coldhot.htm)
+
+- Thai Meteorological Department: Publishes heat index forecasts and works with health authorities to help people respond to dangerous heat and humidity. (https://hpc.tmd.go.th/NCEP2/)
+
+- Provincial Disaster Management Authority, Sindh (Pakistan): Coordinated the 2024 heatwave response across rural Sindh: by late June, 40 humanitarian partners ran 294 heat stabilisation camps, with awareness sessions and transport to heatstroke centres. (https://reliefweb.int/report/pakistan/pdma-sindh-situation-report-heatwave-2024-28-june-2024)
+
+### Research and evidence
+
+- Council on Energy, Environment and Water (CEEW): Assessed heat risk in all 734 districts of India in 2025, finding 57% of districts, home to three in four Indians, at high or very high risk. Its 2026 heat-health reports for the GHHIN South Asia hub cover India, Nepal, Bangladesh and Bhutan, and it helped Thane build its heat action plan. (https://www.ceew.in/publications?field_focus_area_tid=All&field_pub_type_tid=All&field_authors_target_id_selective=All&title=heat)
+
+- Lancet Countdown: Tracks heat deaths, lost working hours and other health impacts of climate change every year. (https://doi.org/10.1016/S0140-6736(24)01822-1)
+
+- NUS Heat Resilience & Performance Centre: Hosts the Southeast Asia Hub of the Global Heat Health Information Network, bringing governments and partners together on heat and health. (https://medicine.nus.edu.sg/newsletters/issue54/dossier/nus-centre-designated-southeast-asia-hub-for-global-heat-health-info-exchange)
+
+- Cornell Global Labor Institute: With Schroders, mapped heat and flood risk in garment hubs including Dhaka, Hanoi, Ho Chi Minh City and Phnom Penh, and found few fashion brands require heat protection in their supplier codes. (https://www.ilr.cornell.edu/global-labor-institute/higher-ground-fashions-climate-breakdown)
+
+- International Rice Research Institute (IRRI): Showed from its Philippine farm that warmer nights cut rice yields, and breeds rice that copes better with heat. (https://doi.org/10.1073/pnas.0403720101)
+
+- icddr,b: Works with Bangladesh’s Department of Agricultural Extension and others on HeatShield, which helps farmers cope with extreme heat. (https://www.rockefellerfoundation.org/perspective/who-owns-the-response-to-heat-in-bangladesh-everyone-does/)
+
+- BRAC James P Grant School of Public Health: Part of a South Asian partnership with CEEW, NRDC, UN ESCAP and the Global Heat Health Information Network assessing heat-health action across countries. (https://www.ceew.in/sites/default/files/ceew-sfc-nrdc-unescap-brac-jpgsph-ghhin-countries-synthesis-press-release.pdf)
+
+- IISER Pune: Leads the South Asia Scientific Research Consortium on how heat affects different populations, with Rockefeller Foundation support. (https://wmo.int/node/38332)
+
+- International Institute for Environment and Development (IIED): Has researched the health and economic toll of heat stress on informal workers in urban Bangladesh. (https://www.iied.org/node/83215)
+
+- Heat and Health Research Centre, University of Sydney: Tested low-cost cooling for Bangladeshi garment workers: fans, drinking water and reflective roofs recovered much of the 12–15% output lost to heat. (https://www.sydney.edu.au/news-opinion/news/2025/10/21/garment-factories-are-sweltering--these-simple-fixes-could-keep-.html)
+
+- Salata Institute, Harvard University: Published Critical Perspectives on Extreme Heat in India in 2026, covering heat action plans, insurance and informal work. (https://salatainstitute.harvard.edu/wp-content/uploads/2026/04/April-2026-Critical-Perspectives-on-Extreme-Heat-in-India_web.pdf)
+
+- WRI India: Works on heat mitigation planning with Indian cities, including greening and cooling pilots in Kochi and Mumbai and the Bengaluru Heat Collective. (https://india.mongabay.com/2025/04/safeguarding-indian-cities-from-heat-in-conversation-with-sudeshna-chatterjee-interview/)
+
+- Good Business Lab: Researching heat, health and gender in India’s and Bangladesh’s garment sector, 2025–2027. (https://lirneasia.net/futureworksasia/projects/heat-health-and-gender/)
+
+- Integrated Research and Action for Development (IRADe): Develops heat hotspot assessments and gender-sensitive heat action plans in India, Bangladesh and Sri Lanka. (https://irade.org/website/ongoing-projects-2/)
+
+- Indian Institute for Human Settlements (IIHS): Researches urban heat and tests passive and low-energy cooling shelters that give outdoor workers safe places to rest and recover. (https://iihs.co.in/publication/evaluating-indoor-thermal-resilience-of-passive-and-low-power-cooling-shelters-for-outdoor-workers-in-india/)
+
+- Center for Study of Science, Technology and Policy (CSTEP): Builds heat intelligence and decision-support tools for Indian cities, including the BHRIGU National Heat Insights Explorer. (https://cstep.in/projects/building-heat-resilience-in-indias-growing-urbanscapes-bhrigu/)
+
+- The Energy and Resources Institute (TERI): Researches thermal comfort, efficient buildings and sustainable cooling, combining passive design with better cooling equipment. (https://www.teriin.org/project/sheetal-alliance-sustainable-habitat-energy-efficiency-and-thermal-comfort-all-cooling)
+
+- Sustainable Futures Collaborative: Studies heat action plans and their implementation gaps, and how policy, finance and social protection can make heat resilience last. (https://www.sustainablefutures.org/blog/beyond-heat-action-plans-inclusive-heat-policy-needs-grounded-research-and-collaborative-action/)
+
+- Karachi Urban Lab: Researches how low-income residents and informal workers in Karachi live with heat, including access to shade, cooling, water and reliable infrastructure. (https://www.karachiurbanlab.com/projects/cool-infrastructures-life-with-heat-in-the-off-grid-city.html)
+
+- Singapore Management University, Urban Institute: Studies urban heat vulnerability and cooling through the Cooling Singapore collaboration, linking neighbourhood conditions to climate-sensitive planning. (https://cityperspectives.smu.edu.sg/wcs-2026/pages/research/cooling-singapore-solutions-for-a-heat-resilient-city.html)
+
+- Hong Kong University of Science and Technology (HKUST): Researches urban heat, ventilation, tree canopy and building cooling in dense cities. (https://researchportal.hkust.edu.hk/en/publications/evaluating-energy-and-microclimate-impacts-of-passive-and-high-ef/)
+
+- London School of Hygiene & Tropical Medicine: Researches heat-related health risks and adaptation, including ways to protect pregnant women and newborns, with partners in Africa and Pakistan. (https://www.lshtm.ac.uk/newsevents/news/2024/tackling-premature-births-face-climate-change)
+
+- Sri Ramachandra Institute of Higher Education and Research: Studies occupational heat exposure among workers in India, including physiological strain, dehydration, kidney health and productivity. (https://iqac.sriramachandra.edu.in/iqacreq/sdg13/environmental-education-measures-1332evd2.pdf)
+
+- CEPT University, Centre for Advanced Research in Building Science and Energy: Tests building and cooling performance, including work with RMI on air conditioners that cool efficiently in real heat and humidity. (https://rmi.org/resources/bringing-super-efficient-air-conditioners-to-the-market/)
+
+- Heat Island Group, Lawrence Berkeley National Laboratory: Researches reflective roofs and pavements, urban trees and other measures that cool buildings and cities while cutting energy use. (https://heatisland.lbl.gov/index.php/cool-science)
+
+- Heat Policy Innovation Hub, Duke University: Brings researchers, governments and communities together on heat policy, including adaptable heat action planning tools. (https://climate.duke.edu/annual-report/items/heat-policy-innovation-hub/)
+
+- CIMMYT (International Maize and Wheat Improvement Center): Breeds heat-tolerant maize for rainfed smallholder farms with national research institutes and seed companies. Hybrids are now grown in Bangladesh, Bhutan, India, Nepal and Pakistan. (https://www.cimmyt.org/projects/heat-stress-tolerant-maize-for-asia/)
+
+- ICRISAT: Improves the heat and drought tolerance of dryland crops such as pearl millet, sorghum and chickpea, which feed rainfed farming households across South Asia. (https://www.icrisat.org/key-impacts/climate-action)
+
+- Nature Conservation Foundation: Has monitored Lakshadweep’s reefs since 1998 and links their decline to repeated marine heatwaves, with consequences for island fishing communities. (https://www.ceab.csic.es/en/?p=17541)
+
+### Working on the ground
+
+- Self Employed Women’s Association (SEWA): Protects women informal workers’ income in heatwaves. After the May 2024 heatwaves, more than 46,000 members received insurance payouts. (https://www.swissre.com/our-business/public-sector-solutions/insights/parametric-structure-for-sewa-in-south-east-asia.html)
+
+- Mahila Housing Trust: Cools homes in informal settlements with reflective and modular roofs, and runs heat income insurance for women workers. (https://citizenmatters.in/new-cool-roof-solutions-heat-in-informal-settlements/)
+
+- ADRA India: Ran an anticipatory heatwave response in 2025 with national and district authorities. (https://adraindia.org/anticipatory-heatwave-response-in-2025/)
+
+- HomeNet Thailand: With WIEGO, surveyed more than 1,000 informal workers in Bangkok on heat: nearly 80% had cut their hours. A trusted link between workers and authorities. (https://www.wiego.org/research-library-publications/climate-change-and-heat-stress-impacts-bangkok-thailand/)
+
+- All India Disaster Mitigation Institute (AIDMI): An Ahmedabad-based institute that helps Indian states, districts and cities turn heat warnings into local action. It supports local heat action planning, surveyed 121 street vendors, auto drivers and construction and domestic workers in Lucknow on how heat hits their work, offers Afat Vimo disaster microinsurance to low-income families, and runs a regular southasiadisasters.net series on extreme heat. (https://aidmi.org/key-resources-on-extreme-heat-cooling/)
+
+- SEEDS: Combines building-level heat risk mapping, community preparedness and affordable cool roofs for vulnerable urban settlements in India. (https://www.seedsindia.org/portfolio/partnering-to-strengthen-climate-resilience/)
+
+- SELCO Foundation: Develops sustainable energy and cooling for underserved communities, including thermally comfortable buildings, cool roofs and decentralised cold storage. (https://selcofoundation.org/built-environments/)
+
+- HeatWatch India: Focuses on heat and worker protection through research, heat exposure mapping, practical education and a public directory of cooling centres. (https://cooling-centres.heatwatch.in/about)
+
+- Chintan Environmental Research and Action Group: Works with waste picker communities on heat awareness, hotspot mapping and practical ways to cut heat exposure at home and at work. (https://www.chintan-india.org/wp-content/uploads/2025/05/HEAT-SOLUTIONS-FOR-WEB-final.pdf)
+
+- Hasiru Dala: Works with waste workers in Bengaluru to document heat-related health and income losses and press for water, shade, safer housing and workplace protection. (https://hasirudala.in/wp-content/uploads/2025/08/HW-HD-report_final.pdf)
+
+- Janpahal: Works with informal worker organisations and WIEGO on heat protection, worker education and policy dialogue for street vendors. (https://www.wiego.org/advocacy-worker-education-resources/working-under-heat-delhi/)
+
+- Jan Sahas: Works with migrant and informal workers on community-led heat resilience, and funds premiums for a temperature-triggered heat cover with Go Digit and K.M. Dastur. (https://indiaclimatecollaborative.org/blog/centering-workers-in-heat-resilience-from-lived-experience-to-systemic-action)
+
+- Save the Children International: Addresses heat risks to children through awareness, drinking water and advocacy on education and health, including heat-related school closures in Bangladesh. (https://www.savethechildren.net/news/heat-stricken-bangladesh-extends-school-closures)
+
+- Watershed Organisation Trust (WOTR): Sends heat-health advisories by SMS to farmers, farm labourers and rural job-scheme workers in drought-prone Marathwada, built with the India Meteorological Department, alongside its watershed work. (https://cdkn.org/story/heat-health-advisories-rural-india-learning-during-pandemic-era)
+
+- BRAC: In Bangladesh’s April 2024 heat emergency, mobilised 50,000 community health workers to raise awareness, with a focus on families with pregnant women, and is piloting heat-reduction ideas in urban slums. (https://bracusa.org/bangladesh_heat_emergency/)
+
+- HelpAge International: Works with older people’s associations in Bangladesh and Pakistan on disaster risk, including heatwaves and early warning, and speaks up for older farm labourers and street vendors exposed to heat. (https://helpage.org/tags/bangladesh)
+
+- Centre for Disability in Development (CDD), with CBM: Runs disability-inclusive disaster risk and climate adaptation in Bangladesh, including coastal sub-districts, where heatwaves are among the hazards. A heat-specific programme is not confirmed. (https://cbm.org/news/news-initiatives/news-hua/persons-with-disabilities-in-the-context-of-climate-change-adaptation-in-bangladesh)
+
+### Cooling solutions
+
+- CLASP: Helps governments and manufacturers make cooling appliances more efficient and affordable, including efficient fans in India. (https://www.clasp.ngo/about/insights/making-efficient-affordable-fans-the-standard-in-india/)
+
+- RMI: Advances efficient air conditioning, passive cooling and reflective roofs through research, field demonstrations and innovation support. (https://rmi.org/resources/reshaping-the-future-of-heating-and-cooling/)
+
+- Cool Roof Rating Council: Provides technical guidance on reflective roofs, walls and pavements that reduce building heat. (https://coolroofs.org/news/new-cool-surfaces-toolkit-site-provides-public-with-resources-and-knowledge-base)
+
+- Ecozen: Makes solar-powered cold rooms that help farmers keep produce from spoiling where power is unreliable. (https://www.ecozensolutions.com/ecofrost)
+
+- Tarutium Global Consulting (formerly TARU Leading Edge): Provides climate risk and resilience planning, including urban heat assessment and heatwave management guidance. (https://tarutium.com/hydro-meteorological-resilient-action-plans/)
+
+### Insurance and finance
+
+- Atlantic Council Climate Resilience Center (formerly Arsht-Rock): Places Chief Heat Officers in cities, and with SEWA tested the world’s first parametric insurance for extreme heat in 2023. (https://onebillionresilient.org/project/extreme-heat-protection-initiative/)
+
+- Swiss Re: Designed heat insurance for SEWA members with payout triggers set for each of 23 locations’ own climate. (https://www.swissre.com/our-business/public-sector-solutions/insights/parametric-structure-for-sewa-in-south-east-asia.html)
+
+- IBISA: Launched a parametric heat-index product in Ahmedabad in 2024 that pays women workers when heat cuts their working hours, and Ushma Kavach, which protects dairy farmers against heat-stress losses. (https://www.icmif.org/news_story/ibisa-launches-a-new-parametric-heat-index-product-in-india-to-protect-women-workers-from-heat-induced-wage-losses/)
+
+- ICICI Lombard: Carries the risk on heat insurance for women workers in India, including IBISA’s heat-index product. (https://www.icmif.org/news_story/ibisa-launches-a-new-parametric-heat-index-product-in-india-to-protect-women-workers-from-heat-induced-wage-losses/)
+
+- Howden: Insurance broker working on parametric heat insurance and catastrophe bonds that give local governments and relief organisations money to act during heatwaves. (https://www.howdengroup.com/uk-en/news-insights/article-name/parametric-insurance-for-extreme-heat-protecting-people-in-a-warming-world)
+
+- Climate Policy Initiative: Analyses how heat resilience in India is financed, and where money is missing. (https://www.climatepolicyinitiative.org/financing-indias-heat-resilience/)
+
+- International Finance Corporation (IFC): Supports private investment in sustainable cooling, including district cooling, cooling-as-a-service and temperature-controlled food supply chains. (https://www.ifc.org/en/what-we-do/programs-projects/sustainable-cooling)
+
+- Basel Agency for Sustainable Energy (BASE): Develops financing models for sustainable cooling, such as cooling-as-a-service, where customers pay for cooling and providers own and maintain the equipment. (https://energy-base.org/wp-content/uploads/2020/03/10.CaaS_Instrument-Analysis-Paper_FINAL_09.17.19.pdf)
+
+- Blue Marble: Designs insurance for underserved communities, including the extreme heat income insurance pilot developed with SEWA and Arsht-Rock in India. (https://www.transre.com/what-we-do/blue-marble-microinsurance/)
+
+- CelsiusPro Group, including Global Parametrics: Develops parametric protection; Global Parametrics manages Natural Disaster Fund risk capacity used for heat insurance for women informal workers in India. (https://www.celsiuspro.com/news-1/livestream-replay-uninsurable-how-the-natural-disaster-fund-contributes-to-close-the-protection-gap)
+
+- K.M. Dastur Insurance and Reinsurance Brokers: Indian broker and partner, with Go Digit and Jan Sahas, in a temperature-triggered heat cover that pays migrant workers automatically. (https://www.linkedin.com/posts/godigit_digitinsurance-heatinsurance-parametricinsurance-activity-7341758644490764288-StEd)
+
+- Go Digit General Insurance: Indian insurer offering temperature-triggered heat cover for workers, with Jan Sahas and K.M. Dastur, and heat protection with Mahila Housing Trust. (https://www.linkedin.com/posts/godigit_digitinsurance-heatinsurance-parametricinsurance-activity-7341758644490764288-StEd)
+
+- WTW (Willis): Structures parametric programmes in Asia-Pacific that pay on defined triggers. Heat is a stated application; no specific Asian heat programme is documented yet. (https://www.wtwco.com/en-hk/solutions/services/parametric-solutions)
+
+- Aon: Advises on parametric risk transfer, including temperature-triggered cover for heat delays and losses. Its published heat example is outside Asia. (https://www.aon.com/en/insights/articles/parametric-can-help-mitigate-extreme-heat-risks-for-contractors-in-emea)
+
+- Marsh: Structures parametric cover in Asia using temperature, rainfall and water triggers, for example for data-centre disruption. (https://www.marsh.com/th/en/services/risk-consulting/insights/el-nino-climate-data-centre-business-interruption-asia.html)
+
+- Munich Re: Reinsurer offering parametric and weather-risk solutions, including for heat and water stress affecting industry. (https://www.munichre.com/en/solutions/for-industry-clients/parametric-solutions.html)
+
+- Hannover Re: Reinsurer that supports the Natural Disaster Fund and reports developing flood and heatwave covers. (https://www.hannover-re.com/1979241/sustainability-report-2022.pdf)
+
+- SCOR: Reinsurer that helped develop Heat Stress Protect for dairy income; that heat case is outside Asia. (https://www.scor.com/en/news/launch-heat-stress-protect-insurance-protect-dairy-income-climate-change)
+
+- General Insurance Corporation of India (GIC Re): India’s state reinsurer, backing crop and weather-based insurance schemes. A heat-income product is not confirmed. (https://www.gicre.in/en/business)
+
+- HDFC ERGO General Insurance: Indian insurer with weather-index cover that uses rainfall and temperature indices. A worker heat-income product is not confirmed. (https://www.hdfcergo.com/commercial-insurance/weather-insurance)
+
+- AXA Climate: Combines parametric insurance with climate science and adaptation advice, with teams in New Delhi, Hong Kong and Shanghai. A worker heat programme is not confirmed. (https://www.axa.com/commitments/axa-climate)
+
+- MSIG (Mitsui Sumitomo Insurance): Offers parametric drought cover for farmers in Vietnam, powered by Hillridge, and has weather-index cover that includes heat stress in Australia. (https://www.msig-asia.com/sustainability)
+
+- Tokio Marine Group: Japanese insurer supporting disaster risk schemes and parametric payouts. A heat-specific product is not confirmed. (https://www.tokiomarinehd.com/en/news_insights/ni42.html)
+
+- Generali Global Corporate & Commercial: Provides underwriting capacity for parametric climate cover with Descartes. A specific Asian heat offering is not established. (https://www.generaliglobalcorporate.com/media/press-releases/all/2026/Descartes-and-Generali-Global-Corporate-Commercial-renew-long-term-strategic-partnership-to-reinforce-their-global-leadership-in-parametric-insurance.html)
+
+- Descartes Underwriting: Parametric underwriter with explicit extreme-temperature cover for companies and public bodies. (https://descartesunderwriting.com/solutions/extreme-temperatures)
+
+- Arbol: Builds parametric temperature and dairy heat-stress products; its high-temperature cover is US-focused. (https://www.arbol.io/products/temperature-risk-solutions)
+
+- Weather Risk Management Services (WRMS): India-based climate risk specialist whose platform designs and runs parametric products with temperature triggers. A worker heat programme is not confirmed. (https://wrmsglobal.com/securisk/)
+
+- Hillridge Technology: Connects farmers with weather-index underwriters, including high-temperature cover; powers MSIG’s drought cover in Vietnam. (https://www.hillridge.com.au/faqs)
+
+- Raincoat: Climate insurance platform for event-based protection. A heat product is not confirmed. (https://www.raincoat.com/climate-insurance-101)
+
+- Pula: Agricultural insurance specialist working across Africa and Asia, including index-based products. A standalone heat product is not confirmed. (https://www.pula-advisors.com/productsandservices)
+
+- OKO: Crop insurance technology using satellite weather data and mobile channels, mainly in Africa. A heat product is not confirmed. (https://oko.finance/products/)
+
+- ACRE Africa: Develops index microinsurance and climate information for smallholder farmers in Africa. A heat product is not confirmed. (https://www.acreafrica.com/downloads/acre-africa-profile.pdf)
+
+- FloodFlash: Parametric flood specialist using property-level sensors. No heat product identified; listed as a model of sensor-triggered cover. (https://floodflash.co/parametric-underwriting-at-floodflash/)
+
+### Banks, regulators and microfinance
+
+- Monetary Authority of Singapore: Its 2020 environmental risk guidelines expect banks to assess physical climate risk, including through scenario analysis and stress tests. Its Singapore-Asia Taxonomy (2023) covers emission cuts only, so there are no criteria yet for finance that helps people adapt to heat. (https://www.mas.gov.sg/news/media-releases/2023/mas-launches-worlds-first-multi-sector-transition-taxonomy)
+
+- Bank of Thailand: A 2023 policy statement asks banks to build environmental and climate risk into governance, strategy, risk management and disclosure. It has worked with the World Bank on assessing physical climate risk in Thai banks’ loan books. (https://www.bot.or.th/en/financial-innovation/sustainable-finance/green/FIPCS-internalizing_environmental_and_climate_change.html)
+
+- Otoritas Jasa Keuangan (Financial Services Authority), Indonesia: Its climate risk guideline for banks (2024, refined in 2026) includes data on Indonesia’s physical climate hazards. A 2022 rule lets banks restructure loans for borrowers in areas it designates as disaster-hit: after the 2025 Sumatra floods, Rp12.58 trillion for 237,083 borrowers. Heat has not yet been designated. (https://ojk.go.id/en/Publikasi/Roadmap-dan-Pedoman/Perbankan/Pages/The-2026-Banking-Climate-Risk-Management-and-Scenario-Analysis-CRMS-Guideline.aspx)
+
+- Bangko Sentral ng Pilipinas: Since 2021, banks must check whether a borrower’s collateral or income is exposed to climate hazards. In areas under a state of calamity, banks can give borrowers up to six months’ grace with no interest on interest or penalties, longer for farm loans. It also eased rules for lenders in drought-hit areas during the 2015–16 El Niño. (https://www.philstar.com/business/2025/10/27/2482726/bsp-expands-calamity-relief-banks-borrowers)
+
+- State Bank of Vietnam: Requires banks to assess environmental risk before lending to projects (since 2023). After Typhoon Yagi in 2024, it let lenders reschedule repayments for affected borrowers across 26 provinces, with final repayment allowed until the end of 2027. (https://vietnamnews.vn/economy/1688781/banks-allowed-to-extend-debt-repayment-for-typhoon-yagi-affected-customers-to-2027.html)
+
+- Bangladesh Bank: Steers credit to farmers after climate shocks through its refinancing schemes. In June 2026 it told banks to prioritise farmers hit by heavy rain. Heat is not yet among the shocks that trigger this support. (https://www.bssnews.net/news/391823)
+
+- Nepal Rastra Bank: Sets environmental and social risk rules for banks (2018), and since October 2024 a green finance taxonomy that sorts lending into green, amber and red. (https://www.sbfnetwork.org/wp-content/assets/policy-library/1440_Nepal_Guideline_on_ESRM_for_Banks_and_FIs_2018_NRB.pdf)
+
+- Reserve Bank of India: Its 2018 directions let banks reschedule loans and pause repayments in areas hit by notified calamities, which in India now include heatwaves. A 2024 draft framework would require banks to disclose their climate-related financial risks. (https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10478)
+
+- Sustainable Banking and Finance Network: A network of financial regulators and banking associations from emerging markets, supported by IFC. Its policy library holds the climate and environmental risk rules of central banks across South and Southeast Asia. (https://www.sbfnetwork.org/)
+
+- KOMIDA, with Build Change (Indonesia): One of Indonesia’s largest microfinance institutions, piloting small home-improvement loans for climate adaptation with Build Change, aimed at women earning under US$5 a day and paired with digital advice. (https://www.globalinnovation.fund/investments/build-change-2)
+
+- Center for Financial Inclusion: Researches how small loans and parametric insurance can help low-income people get through heatwaves. (https://centerforfinancialinclusion.org/inclusive-finance-and-extreme-heat-how-small-loans-and-parametric-insurance-can-help-vulnerable-populations-manage-through-deadly-heat-waves)
+
+### Philanthropy and funders
+
+- Prudence Foundation: Funds heat-health early warnings for women informal workers in India, sent mainly over WhatsApp and reaching 50,000 women, and research with the Red Cross Red Crescent on heat, humidity and health. (https://www.prudentialplc.com/en/newsroom/company-news/2024/prudential-advances-climate-resilience-efforts-in-asia-and-africa-with-us-million-investment-to-address-impacts-of-climate-change-on-health/)
+
+- Philanthropy Asia Alliance: Backs the Southeast Asia Heat Health Hub, the first regional hub of the Global Heat Health Information Network, and convenes funders on heat resilience. (https://www.eco-business.com/press-releases/philanthropy-asia-alliance-supports-southeast-asia-heat-health-hub-to-scale-coordinated-action-on-extreme-heat/)
+
+- Temasek Trust (through Temasek Foundation): Its Liveability Challenge funds cooling innovations for extreme heat, such as passive cooling paints. (https://www.temasektrust.org.sg/what-we-do/impact-hub/article-details/the-liveability-challenge-2025-passive-cooling-hydrogen-storage-innovations)
+
+- Rohini Nilekani Philanthropies: Funds heat work in India, including Prayas Energy and Health Group’s work with street vendors and construction workers, and CEEW’s district heat risk assessment. (https://rohininilekaniphilanthropies.org/resources/alliance-magazine-a-heat-justice-compass-for-philanthropic-action/)
+
+- HT Parekh Foundation: Its flagship ReVIVE programme tackles urban heat in India’s smaller cities through research, cooling solutions, demonstration projects and policy advocacy. (https://indiaclimatecollaborative.org/blog/climate-funder-ht-parekh-foundation-on-heat)
+
+- Rainmatter Foundation: Funds climate and environment work in India. Its partners’ heat work includes heatwave workshops that help journalists and health experts report on extreme heat. (https://rainmatter.org/blog/tag/heat/)
+
+- Climate & Health Funders Coalition: Launched at COP30 with US$300 million in initial funding. Extreme heat is a core priority. Members include CIFF, the Gates Foundation, Philanthropy Asia Alliance, the Rockefeller Foundation and Wellcome. (https://wellcome.org/engagement-and-advocacy/advocacy-and-partnerships/climate-health-funders-coalition)
+
+- Children’s Investment Fund Foundation: A member of the Climate & Health Funders Coalition, focused on the growing danger extreme heat poses to pregnant mothers, infants and children. (https://climateworks.org/press-release/statement-on-the-united-nations-secretary-generals-call-to-action-for-extreme-heat/)
+
+- ClimateWorks Foundation: Its Adaptation & Resilience Fund made extreme heat its first focus, awarding US$9.3 million for parametric insurance, adaptive social protection, heat action plans and early warnings. (https://www.climateworks.org/blog/meet-the-grantees-from-our-global-call-for-extreme-heat-solutions/)
+
+- The Rockefeller Foundation: Funds the South Asia Climate–Health Desk with Wellcome and a heat research consortium at IISER Pune, and supported C40’s Cool Cities Accelerator. (https://wmo.int/node/38332)
+
+- Wellcome: Funds research on extreme heat and health: £17.5 million to test heat adaptations such as cool roofs, with a trial site in India; £17 million across nine projects on heat in pregnancy and early childhood; and work on heat and mental health. With The Rockefeller Foundation it committed US$11.5 million to the WHO–WMO Climate and Health Joint Programme. (https://wellcome.org/our-priorities/climate-and-health/extreme-heat)
+
+- Laudes Foundation: Funds a three-year project with ICCCAD that builds Bangladeshi garment workers’ capacity on climate change, including heat stress, and on labour rights. (https://icccad.net/programmes/just-transition/capacitating-garment-workers/)
+
+- International Development Research Centre (IDRC): Funds applied heat research, including gender-sensitive heat action planning in India and studies of heat’s impact on informal workers. (https://idrc-crdi.ca/en/what-we-do/projects-we-support/project/climate-adaptive-action-plans-manage-heat-stress-indian)
+
+- IKEA Foundation: Supports solar-powered cooling that helps farmers preserve food and reduce waste as extreme heat becomes more common. (https://www.ikeafoundation.org/campaign-26)
+
+- Swiss Capacity Building Facility (SCBF): Supports inclusive financial services, including income protection against extreme heat and rainfall for women in India’s informal sector. (https://www.scbf.ch/projects?665a6c47_page=2)
+
+- Howden Foundation: Funds HERA’s work in India combining early warnings, direct cash and parametric insurance for women exposed to extreme heat. (https://www.howdenfoundation.com/news/frontline-voices-her-resilience-india)
+
+- India Climate Collaborative: Connects philanthropy, researchers and practitioners on heat resilience, sharing evidence on implementation gaps, worker protection and financing. (https://indiaclimatecollaborative.org/blog/mumbai-climate-week-through-conversations-on-urban-resilience)
+
+- Clean Cooling Collaborative (ClimateWorks Foundation): Mobilises philanthropy for efficient, climate-friendly cooling, including access to cooling and passive design. (https://www.cleancoolingcollaborative.org/)
+
+- Novo Nordisk Foundation: Its Nexa Lighthouse call funds protection from heat for people with heart and metabolic diseases in South Asia (open until 17 November 2026), and a 2027 challenge programme on heat and hypertension. (https://novonordiskfonden.dk/en/grant/nexa-lighthouse-call-protecting-people-with-cardiometabolic-diseases-from-the-impacts-of-heat-in-south-asia/)
+
+- EarthON Foundation: Its Greenovation challenge gives awards to Indian ventures for cool roofs, passive and community cooling, and heat-safe livelihoods. (https://earthonfoundation.org/greenovation-urban-climate-resilience-challenge/)
+
+- Ramboll Foundation: Funds urban heat tools and research, including a DKK 1.18 million grant for an urban heat and flooding tool and radiant-cooling research. Funding for Asian applicants is not confirmed. (https://www.ramboll.com/news/unep-cop30-presidency-and-ramboll-partner-to-tackle-the-threat-of-urban-heating)
+
+- National Research Foundation, Singapore: Funds Project HeatSafe, which studies heat, health and productivity among workers in Singapore and partner countries including Vietnam and Cambodia, and Cooling Singapore. (https://medicine.nus.edu.sg/wp-content/uploads/2024/03/PRESS-RELEASE_Project-HeatSafe-18MAR2024-FOR-IMMEDIATE-RELEASE.pdf)
+
+- Research Grants Council, Hong Kong: Has funded community heat-risk planning and, in 2025, real-time heat-health warnings for older adults in Hong Kong. (https://www.cuhk.edu.hk/research/SED/Projects/Research_b2_health%20risk.html)
+
+- Research Council of Norway: Co-funds COPE, a research project building early warnings for combined heat and air pollution in Delhi and Kolkata. (https://www.cicero.oslo.no/en/articles/will-develop-advanced-early-warning-and-decision-support-systems-for-heat-and-air-pollution-delhi-and-kolkata)
+
+- U.S. National Science Foundation: A named co-funder of COPE, the four-year heat and air-pollution early warning research project in Delhi and Kolkata. (https://www.cicero.oslo.no/en/articles/will-develop-advanced-early-warning-and-decision-support-systems-for-heat-and-air-pollution-delhi-and-kolkata)
+
+- Asia-Pacific Network for Global Change Research (APN): Funds regional research and capacity building, including a US$40,000 grant for gender-sensitive heat action policies in South Asia and newer work on urban heat in Southeast Asian cities. (https://www.apn-gcr.org/wp-content/uploads/2025/11/CBA2021-07SY-Magotra-Final-Report-_APN.docx-1.pdf)
+
+- National Institute for Health and Care Research (NIHR): Funds HEAT-PROTECT in Andhra Pradesh (2023–2027), building heat adaptation into primary healthcare for vulnerable groups. (https://ghrcentre-ncdec.nihr.ac.uk/project/heat-exposure-adaptation-tools-protecting-vulnerable-g/)
+
+- Indian Council of Medical Research (ICMR): Funds medical research including a 2025 study of heat-health risk communication among construction workers, manual labourers and street vendors. (https://smcw.edu.in/assets/pdf/2025/Extramural%20Funded%20Research%20Projects.pdf)
+
+- Swiss National Science Foundation (SNSF): Runs a joint 2026 call with India’s Ministry of Earth Sciences on mountain hazards that explicitly covers heatwaves and their links to forests and horticulture. (https://www.snf.ch/media/en/sMJbvJyKnKsYuNTK/call_doc_SNSF-MoES_2026.pdf)
+
+- Ministry of Earth Sciences, Government of India: Funds the Indian side of the 2026 Indo-Swiss mountain-hazards research call, which includes how heatwaves are changing. (https://www.snf.ch/media/en/sMJbvJyKnKsYuNTK/call_doc_SNSF-MoES_2026.pdf)
+
+- Department of Science and Technology, Government of India: Funds research on low-energy cooling and better building envelopes, and backed the Global Cooling Prize, whose winners were announced in 2021. (https://dst.gov.in/building-energy-efficiency-research-initiative-beri)
+
+- Higher Education Commission, Pakistan: Funded heat-resistant soybean breeding at the University of Agriculture Faisalabad (2022–2025), with a demonstration running to 2027. (https://web.uaf.edu.pk/UploadFiles/UAFAnualReport/4381f032-04fb-4a85-9f2d-8e0adc426a54.pdf)
+
+- The Lemelson Foundation: Supported the Global Cooling Prize, which in 2021 rewarded room air conditioners with far lower climate impact, aimed first at India. (https://www.lemelson.org/winners-of-the-global-cooling-prize-announced/)
+
+- The Hong Kong Jockey Club Charities Trust: Funds the three-year Jockey Club Beat the Heat project (from 2024), which assesses risk and gives personal protection and community support to vulnerable older people in Hong Kong. (https://www.cpr.cuhk.edu.hk/en/press/jockey-club-beat-the-heat-project-helps-elderly-stay-safe-and-healthy-during-extreme-heat/)
+
+- Poul Due Jensen Foundation (Grundfos Foundation): Funds water access, including €120,000 for urban poor communities in the Philippines. Heat-specific funding is not confirmed. (https://www.pdjf.dk/en/article/new-community-engagement-grants-march-2025/)
+
+- Robert Bosch Stiftung: Supports quick, community-led adaptation grants through the Climate Communities Adaptation Facility, and work on climate and migration. Heat-specific funding in Asia is not confirmed. (https://bosch-stiftung.de/en/story/climate-mobility-times-global-upheaval)
+
+- A.T.E. Chandra Foundation: Funds the revival of village waterbodies with communities, NGOs and government, starting in drought-hit Marathwada and now in 11 Indian states. Heat-specific funding is not confirmed. (https://www.atecf.org/water-and-agriculture)
+
+- DCM Shriram Foundation: Funds watershed work in Rajasthan with Tarun Bharat Sangh and an AgWater challenge on farm water use and farmer resilience. Heat-specific funding is not confirmed. (https://www.dcmshriramfoundation.org/programs/khushali-paryavaran)
+
+- Cipla Foundation: Funds watershed partnerships with MYRADA and BAIF in five Indian states, with water-user groups that maintain the structures. Heat-specific funding is not confirmed. (https://www.cipla.com/csr/cipla-foundation/environmental-sustainability.html)
+
+- Dharampal Satyapal Limited (DS Group) CSR: Funds Water Economic Zones in Rajasthan and Madhya Pradesh through local partners. Heat-specific funding is not confirmed. (https://www.dsgroup.com/front/img/disclosures/List-of-Projects/List%20of%20Projects%202025-26.pdf)
+
+- HDFC Life (Swabhimaan CSR): Funds city forests and waterbody revival in Sikkim, Maharashtra and Gujarat alongside livelihoods and health work. Heat-specific funding is not confirmed. (https://www.hdfclife.com/hdfc-careers/csr.html)
+
+- CIMB Foundation: Gives grants to registered organisations working with Malaysian communities, including a gravity-fed water programme in Sabah; applications are accepted October to December. Heat-specific funding is not confirmed. (https://www.cimbfoundation.com/collaborate-with-us/grant-application-form.html)
+
+- Yayasan PETRONAS: Funds community-based disaster risk management in Malaysia through implementing partners. Heat-specific funding is not confirmed. (https://www.yayasanpetronas.com.my/request-for-proposal-community-based-disaster-risk-management-cbdrm/)
+
+- Nusantara Fund (Dana Nusantara): Funds Indigenous peoples and local communities in Indonesia directly, such as protecting water sources in Central Sulawesi. Heat-specific funding is not confirmed. (https://nusantarafund.org/en/program/mosintuwu-community/)
+
+- Women’s Fund Asia: Gives flexible and core grants to women-led and feminist groups in 22 Asian countries and territories, covering labour rights, environmental justice and women-led climate adaptation. Heat-specific funding is not confirmed. (https://www.womensfundasia.org/strengthening-feminist-movements/)
+
+- Tewa, Nepal Women’s Fund: Makes small grants to grassroots women’s groups in Nepal; one won municipal funding for irrigation after training on climate budgets. Heat-specific funding is not confirmed. (https://annualreport.bothends.org/nepalese-women-lead-local-advocacy-on-climate-change/)
+
+- Mama Cash: A participatory funder of feminist movements and a member of GAGGA, which gives core, multi-year funding to women-led community groups, including in Nepal, India and Indonesia. Heat-specific funding is not confirmed. (https://www.mamacash.org/resources/our-agenda-at-cop30-scaling-up-funding-for-feminist-locally-led-adaptation/)
+
+- Both ENDS: Supports environmental-justice partners, including grants for local climate governance and gender budgeting in Nepal. Heat-specific funding is not confirmed. (https://prc.org.np/publications/)
+
+- Global Fund for Community Foundations: Funds community philanthropy and local funds in India, Nepal, Indonesia, the Philippines and Cambodia, including climate resilience. Heat-specific funding is not confirmed. (https://globalfundcommunityfoundations.org/what-we-do/grants/grants-awarded/)
+
+- DOEN Foundation: Co-funded the 2022 Global LEAP Off-Grid Cold Chain Challenge, which included Indian finalists keeping produce cool off the grid. (https://efficiencyforaccess.org/updates/global-leap-awards-announces-winners-and-finalists-of-the-2022-off-grid-cold-chain-challenge/)
+
+- Good Energies Foundation: Co-funded the 2022 Global LEAP Off-Grid Cold Chain Challenge, which included Indian finalists keeping produce cool off the grid. (https://efficiencyforaccess.org/updates/global-leap-awards-announces-winners-and-finalists-of-the-2022-off-grid-cold-chain-challenge/)
+
+- Henry Luce Foundation: Gave US$945,000 in 2022 for research on vulnerable deltas in Southeast Asia: climate, water pollution and social change. Heat-specific funding is not confirmed. (https://hluce.org/new-lucesea-grants-address-growing-impact-climate-change-and-importance-community-histories/)
+
+- MetLife Foundation: Gave US$120,000 to WWF Nepal’s JEEWAN project in Bardiya, combining new livelihoods with nature-based flood protection. Heat-specific funding is not confirmed. (https://www.metlife.com.np/content/dam/metlifecom/np/homepage/en/about-metlife/media-downloads/pres-release/press-articles/MetLife_Foundation_Supports_WWF_JEEWAN_Project.pdf)
+
+- Stone Family Foundation: Finances household water services in Cambodia, with grants, loans and technical support for water operators. Heat-specific funding is not confirmed. (https://www.stonefamilyfoundation.org.uk/water-to-the-home/who-we-work-with/)
+
+- The Waterloo Foundation: Funds reliable safe water in Nepal’s schools and the upkeep of water services. Heat-specific funding is not confirmed. (https://waterloofoundation.org.uk/world-development-water-and-sanitation-small-projects-supported/)
+
+- Fondation SUEZ: Funds access to water, sanitation and hygiene, with India, Bangladesh and the Philippines among eligible countries. Heat-specific funding is not confirmed. (https://56q2bbylxfnk.optimytool.com/fr)
+
+- Halton Foundation: Gives research grants of up to US$30,000 a year on indoor environments, explicitly including thermal comfort, with no geographic limits. The next round opens 1 July 2027. (https://foundation.halton.com/)
+
+- Takeda (Global CSR Program): Funds climate-resilient health systems, including about US$7.1 million with UNOPS in Bangladesh and US$8.4 million with Vitamin Angels in Indonesia. Heat-specific funding is not confirmed. (https://www.takeda.com/newsroom/newsreleases/2025/takeda-employees-vote-csr-collaborations/)
+
+- Danone Communities: Invests patiently in affordable drinking-water enterprises such as Naandi Community Water Services in India. Heat-specific funding is not confirmed. (https://www.danonecommunities.com/naandi-community-water-services/)
+
+- Fondation Botnar: Funds Urban Futures, linking young people’s wellbeing and climate-resilient food systems in intermediary cities, including in Indonesia. Heat-specific funding is not confirmed. (https://www.fondationbotnar.org/project/urban-futures/)
+
+- OPEC Fund for International Development: Lends and gives technical assistance for water security and services in Asia, including US$100 million for water security in Sri Lanka in 2025. Heat-specific funding is not confirmed. (https://www.adb.org/who-we-are/partners/ofid/overview)

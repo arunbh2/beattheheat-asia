@@ -1,0 +1,22 @@
+# BeatTheHeat.Asia
+
+> An interactive systems map of extreme heat in Asia: how heat ripples through 10 systems and 83 consequences, the 21 vicious cycles that make it worse, the 29 actions that could break them, and the 14 kinds of institution that hold those levers. Every claim links to its source.
+
+This is a beta version. BeatTheHeat.Asia is being built by a group of organisations working on extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement. Every claim links to its source; where the evidence is still emerging, the map says so.
+
+The interactive map is at https://beattheheat.asia/ and needs JavaScript. The pages below carry the same content as plain HTML.
+
+## The map as text
+
+- [The web](https://beattheheat.asia/the-web/): The web of extreme heat: every consequence, system by system
+- [Vicious cycles](https://beattheheat.asia/loops/): Vicious cycles of extreme heat, and where they can be broken
+- [Actions](https://beattheheat.asia/actions/): Actions that break the vicious cycles of extreme heat
+- [Who is at risk](https://beattheheat.asia/who-is-at-risk/): Who extreme heat hits hardest
+- [Cooling options](https://beattheheat.asia/cooling-options/): Cooling options by place, and what keeps them working
+- [Worked plans](https://beattheheat.asia/worked-plans/): Worked heat action plans from Asia
+- [Glossary](https://beattheheat.asia/glossary/): Plain-language glossary of extreme heat
+- [Heat network](https://beattheheat.asia/heat-network/): Organisations working on extreme heat
+
+## Optional
+
+- [The whole map in one file](https://beattheheat.asia/llms-full.txt): every page above as plain text, for reading in one go
