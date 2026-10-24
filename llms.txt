@@ -19,6 +19,7 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The pa
 - [Glossary](https://beattheheat.asia/glossary/): Plain-language glossary of extreme heat
 - [Heat network](https://beattheheat.asia/heat-network/): Organisations working on extreme heat
 - [Cities](https://beattheheat.asia/cities/): Extreme heat in ten Asian cities
+- [Heatwaves](https://beattheheat.asia/heatwaves/): Heatwaves that shaped South and Southeast Asia, 1998 to 2026
 
 ## Cities
 

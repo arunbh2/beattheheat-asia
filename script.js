@@ -1077,7 +1077,7 @@
     else if (act === "prev") { state.step--; renderStep(); }
   }
   document.addEventListener("click", ev => {
-    if (ev.target.closest("#panel, #guide, #loops, #web-list, #start, #who-holds, #at-risk, #stalls, #cooling, #city, #network, #breakbar, #day, #path-form, .intro")) handleAction(ev);
+    if (ev.target.closest("#panel, #guide, #loops, #web-list, #start, #who-holds, #at-risk, #stalls, #cooling, #city, #heatwaves, #network, #breakbar, #day, #path-form, .intro")) handleAction(ev);
   });
   document.addEventListener("keydown", ev => {
     if (ev.key === "Escape" && (state.selected || state.story || state.inst || state.pkg)) { clearSelection(); fitAll(); }
@@ -2417,6 +2417,39 @@
     else load();
   }
 
+  /* ======================= HEATWAVES THAT SHAPED ASIA ======================= */
+  // a timeline of major heatwaves: dots sized by recorded deaths (a floor, not a total), hollow where no solid count exists
+  function renderHeatwaves() {
+    const chart = document.getElementById("hw-chart"), list = document.getElementById("hw-list");
+    if (!chart || !list || typeof HEATWAVES === "undefined") return;
+    const note = document.getElementById("hw-note"); if (note) note.textContent = HEATWAVES_NOTE;
+    // events are evenly spaced (not to scale in time) so every one stays readable
+    const n = HEATWAVES.length, W = 1000, H = 220, base = 150, step = (W - 130) / Math.max(1, n - 1), maxD = Math.max(...HEATWAVES.map(h => h.deaths || 0));
+    const r = d => d ? 8 + Math.sqrt(d / maxD) * (step / 2 - 10) : 9;
+    const dots = HEATWAVES.map((h, i) => {
+      const cx = 65 + i * step, rr = r(h.deaths);
+      return `<a href="#hw-${h.id}" class="hw-dot${h.deaths ? "" : " hw-dot--none"}" aria-label="${esc(h.when)}, ${esc(h.place)}: ${esc(h.toll)}">
+        <line x1="${cx}" y1="${base}" x2="${cx}" y2="${base - rr}" class="hw-stem"/>
+        <circle cx="${cx}" cy="${base - rr}" r="${rr}"/>
+        ${h.deaths ? `<text x="${cx}" y="${base - rr + 4}" class="hw-n">${h.deaths.toLocaleString("en-US")}${h.atLeast ? "+" : ""}</text>` : ""}
+        <text x="${cx}" y="${base + 22}" class="hw-y">${h.year}</text></a>`; }).join("");
+    const ticks = HEATWAVES.map((h, i) => `<line x1="${65 + i * step}" y1="${base}" x2="${65 + i * step}" y2="${base + 6}" class="hw-tick"/>`).join("");
+    chart.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="group" aria-label="Timeline of major heatwaves in South and Southeast Asia, 1998 to 2026">
+      <line x1="20" y1="${base}" x2="${W - 20}" y2="${base}" class="hw-axis"/>${ticks}${dots}</svg>
+      <p class="hw-legend"><span class="hw-key"></span> Recorded deaths (bigger circle, more deaths) <span class="hw-key hw-key--none"></span> No solid death count <span class="hw-scale">Events are evenly spaced, not to scale in time.</span></p>`;
+    list.innerHTML = HEATWAVES.map(h => `<li class="hw-card" id="hw-${h.id}">
+      <p class="hw-card__when">${esc(h.when)} · ${esc(h.place)}</p>
+      <h3 class="hw-card__t">${esc(h.title)}</h3>
+      <dl class="hw-card__facts"><div><dt>Peak</dt><dd>${esc(h.peak)}</dd></div><div><dt>Toll</dt><dd>${esc(h.toll)}</dd></div></dl>
+      <p>${gloss(h.what)}</p>
+      <p class="hw-card__changed"><b>What changed</b> ${esc(h.changed)}</p>
+      <p class="hw-card__nodes">On the map: ${h.nodes.map(n => byId[n] ? `<button class="link" data-go="${n}">${esc(plain(byId[n]))}</button>` : "").join(" · ")}</p>
+      <p class="hw-card__src">Sources: ${h.sources.map(s => extLink(s.url, s.label)).join(" · ")}</p></li>`).join("");
+    chart.addEventListener("click", ev => { const a = ev.target.closest("a.hw-dot"); if (!a) return;
+      const el = document.getElementById(a.getAttribute("href").slice(1)); if (!el) return; ev.preventDefault();
+      el.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "center" }); el.classList.remove("is-flash"); void el.offsetWidth; el.classList.add("is-flash"); });
+  }
+
   /* ======================= START HERE ======================= */
   // what people want to do, an optional role (an institution from part 5), and a short path through the site
   const INTENTS = typeof START_INTENTS !== "undefined" ? START_INTENTS : [];
@@ -2599,6 +2632,7 @@
     renderCooling();
     renderNow();
     renderCity();
+    renderHeatwaves();
     renderStart();
     renderList();
     renderStats();

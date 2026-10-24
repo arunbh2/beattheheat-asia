@@ -1525,3 +1525,42 @@ body.film-open { overflow: hidden; }
 .cool-value__ret { margin-top: 12px; }
 .cool-value__ret b { display: block; font-size: .78rem; letter-spacing: .1em; text-transform: uppercase; }
 .cool-region__fx a, .cool-region__why a { color: inherit; }
+
+/* ---------- Heatwaves that shaped Asia (part 26) ---------- */
+.hw { padding: clamp(64px, 9vw, 120px) 0; background: var(--canvas); border-top: 1px solid #E6DFD4; }
+.hw-chart { margin-top: 24px; overflow-x: auto; }
+.hw-chart svg { min-width: 640px; width: 100%; height: auto; display: block; }
+.hw-axis { stroke: var(--ink); stroke-width: 2; }
+.hw-tick { stroke: var(--ink); stroke-width: 1.5; }
+.hw-stem { stroke: #D7263D; stroke-width: 1.5; stroke-dasharray: 2 3; }
+.hw-dot circle { fill: rgba(215, 38, 61, .82); stroke: #9E1A2C; stroke-width: 1.5; transition: fill .2s; }
+.hw-dot:hover circle, .hw-dot:focus circle { fill: #F26430; }
+.hw-dot:focus { outline: none; }
+.hw-dot:focus-visible circle { stroke: var(--ink); stroke-width: 3; }
+.hw-dot--none circle { fill: var(--canvas); stroke: #D7263D; stroke-width: 2.5; }
+.hw-n { fill: #fff; font-size: 13px; font-weight: 800; text-anchor: middle; pointer-events: none; }
+.hw-y { fill: var(--ink); font-size: 13px; font-weight: 700; text-anchor: middle; }
+.hw-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; margin-top: 8px; font-size: .82rem; color: var(--grey-700); }
+.hw-key { display: inline-block; width: 12px; height: 12px; border-radius: 50%; background: rgba(215, 38, 61, .82); }
+.hw-key--none { background: none; border: 2px solid #D7263D; margin-left: 10px; }
+.hw-note { margin-top: 6px; font-size: .85rem; color: var(--grey-700); max-width: 48rem; }
+.hw-list { list-style: none; padding: 0; margin: 26px 0 0; display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); }
+.hw-card { padding: 18px 20px; border-radius: 12px; background: var(--white, #fff); border: 1px solid #E6DFD4; border-top: 4px solid #D7263D; display: flex; flex-direction: column; gap: 8px; scroll-margin-top: 90px; }
+.hw-card.is-flash { animation: hwflash 1.6s ease-out; }
+@keyframes hwflash { 0% { box-shadow: 0 0 0 4px #F26430; } 100% { box-shadow: 0 0 0 0 transparent; } }
+.hw-card__when { font-size: .72rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: #9E1A2C; }
+.hw-card__t { font-size: 1.1rem; line-height: 1.25; }
+.hw-card__facts { display: grid; gap: 4px; margin: 0; font-size: .88rem; }
+.hw-card__facts div { display: grid; grid-template-columns: 3.6em 1fr; gap: 8px; }
+.hw-card__facts dt { font-weight: 800; color: var(--grey-700); }
+.hw-card__facts dd { margin: 0; }
+.hw-card__changed { padding: 8px 10px; background: #EAF6F4; border-left: 3px solid #2A9D8F; font-size: .9rem; }
+.hw-card__changed b { display: block; font-size: .7rem; letter-spacing: .1em; text-transform: uppercase; color: #1D6E64; }
+.hw-card__nodes { font-size: .84rem; }
+.hw-card__nodes .link { padding: 4px 0; }
+.hw-card__src { font-size: .78rem; color: var(--grey-700); margin-top: auto; }
+.hw-card__src a { color: inherit; display: inline-block; padding: 2px 0; }
+@media (max-width: 760px) { .hw-chart svg { min-width: 560px; } }
+.hw-card__nodes .link { display: inline-block; min-height: 24px; padding: 3px 0; }
+.hw-card__src a { min-height: 24px; padding: 3px 0; }
+.hw-scale { margin-left: 10px; font-style: italic; }

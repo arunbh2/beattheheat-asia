@@ -15,7 +15,7 @@ const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + `
 ;Object.assign(this, { SYSTEMS, CONSEQUENCES, LINKS, LOOP_GROUPS, LOOPS, INSTITUTIONS, LEVERS, LOOP_PLACES, EVIDENCE, ORG_ROLES,
   ORGANISATIONS, GLOSSARY_GROUPS, GLOSSARY, WORKED_EXAMPLES, AT_RISK, AT_RISK_BARRIERS, STALLS, COOL_PLACES, COOL_TRAPS,
-  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, COOL_FX, COOL_REGION, PLAN_GROUPS, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL, LIVE_CITIES, CITY_PROFILES, CITY_HAP });`, ctx);
+  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, COOL_FX, COOL_REGION, PLAN_GROUPS, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL, LIVE_CITIES, CITY_PROFILES, CITY_HAP, HEATWAVES, HEATWAVES_NOTE });`, ctx);
 const D = ctx, TODAY = new Date().toISOString().slice(0, 10);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const plain = s => String(s || "").replace(/\n/g, " ");
@@ -39,7 +39,8 @@ const PAGES = [
   { slug: "worked-plans", title: "Worked heat action plans from Asia", short: "Worked plans" },
   { slug: "glossary", title: "Plain-language glossary of extreme heat", short: "Glossary" },
   { slug: "heat-network", title: "Organisations working on extreme heat", short: "Heat network" },
-  { slug: "cities", title: "Extreme heat in ten Asian cities", short: "Cities" }
+  { slug: "cities", title: "Extreme heat in ten Asian cities", short: "Cities" },
+  { slug: "heatwaves", title: "Heatwaves that shaped South and Southeast Asia, 1998 to 2026", short: "Heatwaves" }
 ];
 const LICENCE = "Text, data, films and illustrations © BeatTheHeat.Asia contributors, shared under Creative Commons Attribution 4.0 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/): you may copy, adapt and translate them, with credit and a link to beattheheat.asia. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’ and are not covered.";
 const DISCLAIMER = "This is a beta version. BeatTheHeat.Asia is being built by a group of organisations working on extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement. Every claim links to its source; where the evidence is still emerging, the map says so.";
@@ -266,6 +267,21 @@ const CITY_PAGES = [];
       ...loops.map(x => `- ${x.l.name}: ${x.why}`), `Who heat hits hardest: ${risks.map(g => g.name).join("; ")}`, `Already at work: ${orgs.map(o => o.name).join("; ")}`, `Page: ${url}`);
   });
   out[p.slug] = page(p, intro, h); md.push(m.join("\n\n"));
+}
+
+// heatwaves timeline
+{
+  const p = PAGES[9], intro = `${D.HEATWAVES.length} major heatwaves across South and Southeast Asia, from Odisha in 1998 to 2026: what happened, what it cost and what changed afterwards. ${D.HEATWAVES_NOTE}`;
+  let h = "", m = [`## ${p.title}`, intro];
+  D.HEATWAVES.forEach(x => {
+    h += `<h2 id="${x.id}">${esc(x.when)}, ${esc(x.place)}: ${esc(x.title)}</h2><p><strong>Peak:</strong> ${esc(x.peak)}. <strong>Toll:</strong> ${esc(x.toll)}.</p><p>${esc(x.what)}</p><p><strong>What changed:</strong> ${esc(x.changed)}</p>
+      <p class="meta">On the map: ${x.nodes.map(n => `<a href="/#${n}">${esc(name(n))}</a>`).join(" · ")}</p>${srcs(x.sources)}`;
+    m.push(`### ${x.when}, ${x.place}: ${x.title}`, `Peak: ${x.peak}. Toll: ${x.toll}.`, x.what, `What changed: ${x.changed}`, ...x.sources.map(s => `Source: ${s.label} ${s.url}`));
+  });
+  out[p.slug] = page(p, intro, h, [{ "@context": "https://schema.org", "@type": "ItemList", name: p.title, numberOfItems: D.HEATWAVES.length,
+    itemListElement: D.HEATWAVES.map((x, i) => ({ "@type": "ListItem", position: i + 1, item: { "@type": "Event", name: `${x.title} (${x.place}, ${x.when})`, description: x.what,
+      startDate: String(x.year), location: { "@type": "Place", name: x.place }, url: `${SITE}/heatwaves/#${x.id}` } })) }]);
+  md.push(m.join("\n\n"));
 }
 
 // ---- write the pages ----
