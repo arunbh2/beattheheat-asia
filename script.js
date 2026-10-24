@@ -2337,7 +2337,7 @@
           ${ok ? `<p class="cp__t" style="--heat:${heatColor(d.feels)}">${Math.round(d.t)}<span> °C</span></p>
             <p class="cp__f">Feels like <b>${deg(d.feels)}</b> · humidity ${Math.round(d.rh)}%</p>${cityForecast(d)}`
             : `<p class="cp__none">${cityLive ? "Live reading unavailable just now." : "Loading live readings…"}</p>`}
-          ${p.heat ? `<p class="cp__heat"><b>Heat type</b> ${gloss(p.heat)}</p>` : ""}
+          ${p.heat ? `<p class="cp__heat"><b>Heat type</b> ${gloss(p.heat)}</p>${watchButton("dryhumid", "Dry heat and humid heat, explained", "watch-btn cp__watch")}` : ""}
           <p class="cp__links">Official warnings: ${extLink(c.warn.url, c.warn.label)}${FP ? ` · ${extLink(FP.map.url, FP.cardLink)}` : ""}</p>
         </div>
         <div class="cp__card cp__hap cp__hap--${p.hap.status}">

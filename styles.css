@@ -1564,3 +1564,4 @@ body.film-open { overflow: hidden; }
 .hw-card__nodes .link { display: inline-block; min-height: 24px; padding: 3px 0; }
 .hw-card__src a { min-height: 24px; padding: 3px 0; }
 .hw-scale { margin-left: 10px; font-style: italic; }
+.cp__watch { align-self: flex-start; margin-top: 4px; }

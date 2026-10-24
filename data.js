@@ -1753,7 +1753,7 @@ const GLOSSARY = [
   { id: "wetbulb", group: "measure", term: "Wet-bulb temperature", match: "wet-bulb temperature", video: "media/glossary/wetbulb.mp4", length: "0:35",
     text: "Heat and humidity combined into one number, read from a thermometer wrapped in a wet cloth. It shows whether sweat can still cool you. A wet-bulb temperature of 35 °C is often quoted as the limit of human survival; recent studies suggest the real limit is lower.",
     source: { label: "Vecellio et al., Journal of Applied Physiology, 2022, summarised by Penn State", url: "https://psu.edu/news/research/story/humans-cant-endure-temperatures-and-humidities-high-previously-thought" } },
-  { id: "dryhumid", group: "measure", term: "Dry heat and humid heat", match: "dry heat|humid heat",
+  { id: "dryhumid", group: "measure", term: "Dry heat and humid heat", match: "dry heat|humid heat", video: "media/glossary/dryhumid.mp4", length: "2:03",
     text: "Dry heat is high temperature with low humidity: sweat still evaporates, but the body soaks up heat fast. It peaks in South Asia’s pre-monsoon months. Humid heat is warm, wet air in which sweat can’t evaporate, so the body can’t cool itself even at lower temperatures. It dominates Southeast Asia and builds through South Asia’s monsoon, and it is rising faster than dry heat. The two need different warnings and different cooling.",
     source: { label: "Ivanovich et al., Geophysical Research Letters, 2024", url: "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023GL107382" } },
   { id: "wbgt", group: "measure", term: "WBGT (wet-bulb globe temperature)", match: "wet-bulb globe temperature|WBGT", video: "media/glossary/wbgt.mp4", length: "0:36",
