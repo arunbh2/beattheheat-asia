@@ -2759,13 +2759,7 @@ const SITE_ANALYTICS = { goatcounter: "beattheheat" };
 
 /* ---------- 23. START HERE: what people want to do, an optional role, and the first five minutes ---------- */
 // Roles are the institutions in part 5, so no extra content is needed for each one.
-const START_INTENTS = [
-  { id: "act", name: "Find practical actions", hint: "What to do in workplaces, homes, schools, clinics and neighbourhoods" },
-  { id: "plan", name: "Plan a response", hint: "Actions with owners, money and triggers, ready to print" },
-  { id: "risk", name: "See who’s at risk", hint: "Same heatwave, different barriers" },
-  { id: "partners", name: "Find partners or funding", hint: "Organisations, funders and lenders already at work" },
-  { id: "understand", name: "Understand heat as a system", hint: "See how one harm leads to the next, and where the loops form" }
-];
+// START_INTENTS was replaced by GUIDE (part 35).
 // The guided first five minutes: one loop, one group at risk, one place it breaks, then into the plan.
 // go: { loop }, { risk } (an id from part 17), { lever } or { plan } (a group id from part 15).
 const FIRST_FIVE = [
@@ -4175,3 +4169,68 @@ const PLAN_MECHANISMS = [
     check: "Starting from little is common. What is the first decision, and the first piece of data, that would let the next step happen?", pages: "pp. 41–45" }
 ];
 const PLAN_MECH_NOTE = "From interviews with city officials in October and November 2024 and published material, as described in the report. These are examples of institutional practice, not evaluations of impact, and details may have changed since. Adapt the mechanism to your own powers, budgets and infrastructure; do not copy the city.";
+
+/* ---------- 35. FIND YOUR WAY IN: THE GUIDE ---------- */
+// One guide replaces the separate starts (the Start here intents, the first-five-minutes tour and the film tour fold
+// into it). Two questions, why you came and how long you have, give a short path of stops. guide.js draws it on the
+// home page (#start) and on /guide/; build-print.js makes the workshop one-pager from it.
+// stop.go: "film" | "tour" | "five" | "story" runs an action on the map; href opens a section or, with tab, a page.
+const GUIDE = {
+  reasons: [
+    { id: "understand", name: "Understand heat", hint: "How heat harms health, income and homes, and why the harm loops back." },
+    { id: "help", name: "Help people this season", hint: "Practical protection to put in place before and during the hot weeks." },
+    { id: "plan", name: "Build a plan with others", hint: "Owners, money, triggers and the agreements that make protection work." },
+    { id: "fund", name: "Fund or support this work", hint: "Where money and partnership make the difference, and who is already at work." }
+  ],
+  times: [
+    { id: "5", name: "5 minutes" },
+    { id: "30", name: "Half an hour" },
+    { id: "workshop", name: "A workshop", hint: "about 90 minutes, with others" }
+  ],
+  stops: {
+    film: { title: "Watch the film", does: "The web of extreme heat, its vicious cycles and who holds the levers, in one narrated film.", time: "2 min", take: "the big picture, fast", go: "film" },
+    tour: { title: "Take the 60-second tour of the map", does: "The map, one system at a time.", time: "1 min", take: "how to read the web", go: "tour" },
+    five: { title: "Walk the first five minutes", does: "One vicious cycle, one group at risk, one place it breaks, and into a plan.", time: "5 min", take: "the site’s logic in four stops", go: "five" },
+    loop: { title: "Follow one vicious cycle", does: "The poverty–heat trap, step by step, on the map.", time: "3 min", take: "why heat harm feeds on itself", go: "story", story: "poverty" },
+    now: { title: "See today’s heat", does: "Live readings for twelve Asian cities, with national warning levels.", time: "1 min", take: "what heat looks like today", href: "#heat-now" },
+    day: { title: "Live a day in a heatwave", does: "Eight hours, seven places across Asia.", time: "5 min", take: "what a heatwave does, hour by hour", href: "#day" },
+    atrisk: { title: "Meet the people heat hits hardest", does: "Who is most at risk, and the barriers that hold them back.", time: "5 min", take: "who to protect first, and why", href: "#at-risk" },
+    city: { title: "Look up a city", does: "Heat, plans and cycles in twelve Asian cities.", time: "3 min", take: "where one city stands", href: "#city" },
+    week: { title: "Spend a week in the heat with one worker", does: "Follow a worker’s money through a heatwave, build protection, then try to break it.", time: "15 min", take: "where the money runs out, and what reaches people", href: "/a-week-in-the-heat/", tab: true, tool: 1 },
+    practical: { title: "Find practical actions", does: "What to do in workplaces, homes, schools, clinics and neighbourhoods.", time: "10 min", take: "actions you can start this season", href: "#practical", tool: 2 },
+    cooling: { title: "Compare cooling options", does: "What to build where people are, and what keeps it working.", time: "10 min", take: "options, costs and running needs", href: "#cooling", tool: 2 },
+    finance: { title: "See how protection is paid for", does: "Who pays, how money arrives in time, and whether it lasts.", time: "10 min", take: "where money makes the difference", href: "#finance" },
+    plan: { title: "Plan a response", does: "Six steps from who you protect to a plan you can run, with owners, money and triggers.", time: "30 min", take: "a printable plan", href: "/plan/", tab: true, tool: 3 },
+    planex: { title: "Open a worked plan", does: "Ahmedabad’s heat action plan, loaded into the planner to explore.", time: "5 min", take: "what a working plan contains", href: "/plan/?example=ahmedabad", tab: true, tool: 3 },
+    stress: { title: "Stress-test essential services", does: "A heatwave arrives with a power cut: what keeps running, and what does it depend on?", time: "15 min", take: "the dependencies to resolve first", href: "/plan/#plan-step-5", tab: true, tool: 3 },
+    together: { title: "Make it work together", does: "A coordinator’s simulation: who has to say yes before protection reaches people.", time: "30 min", take: "a place protection plan", href: "/together/", tab: true, tool: 4 },
+    mech: { title: "See how five cities organise for heat", does: "Amadora, Incheon, Cape Town, Quito and Nairobi, side by side.", time: "5 min", take: "mechanisms to adapt, not copy", href: "/plan/#plan-mech", tab: true, tool: 5 },
+    levers: { title: "Find who holds the levers", does: "The institutions that can act, and the cycles each can help break.", time: "5 min", take: "who to talk to", href: "#who-holds" },
+    stalls: { title: "See why action stalls", does: "Seven conditions that stall action, and what has moved them.", time: "5 min", take: "the obstacles to expect", href: "#stalls" },
+    network: { title: "Browse the heat network", does: "Organisations, funders and lenders already at work.", time: "5 min", take: "partners and gaps", href: "#network" },
+    workshop: { title: "Print the workshop guide", does: "A one-page plan for a 90-minute session: which tool when, and for whom.", time: "1 min", take: "a running order for the room", href: "/print/workshop-guide/", tab: true }
+  },
+  paths: {
+    "understand:5": ["film", "loop"], "understand:30": ["tour", "loop", "day", "atrisk", "city"], "understand:workshop": ["workshop", "film", "day", "week", "stalls"],
+    "help:5": ["now", "practical"], "help:30": ["atrisk", "practical", "cooling", "week"], "help:workshop": ["workshop", "week", "practical", "plan", "stress"],
+    "plan:5": ["five", "mech"], "plan:30": ["planex", "plan", "stress"], "plan:workshop": ["workshop", "week", "plan", "together", "mech"],
+    "fund:5": ["film", "finance"], "fund:30": ["week", "finance", "levers", "network"], "fund:workshop": ["workshop", "week", "together", "finance", "network"]
+  },
+  toolkit: [
+    { n: 1, verb: "Feel it", name: "A week in the heat", href: "/a-week-in-the-heat/", tab: true, who: "Funders, officials, NGOs", time: "15 min", take: "Where a worker’s money runs out, and which protection actually reaches them.", icon: "feel" },
+    { n: 2, verb: "Find what works", name: "Practical actions and cooling options", href: "/#practical", who: "Anyone who can act this season", time: "10–20 min", take: "Actions by setting, with who does them, what they cost and what keeps them working.", icon: "find" },
+    { n: 3, verb: "Plan it", name: "Plan a response", href: "/plan/", tab: true, who: "City, health and disaster teams; NGOs", time: "30–60 min", take: "A plan with owners, money, triggers and a stress test of essential services.", icon: "plan" },
+    { n: 4, verb: "Make it work together", name: "The coordinator’s simulation", href: "/together/", tab: true, who: "NGOs and volunteer groups convening a place", time: "30 min", take: "Who has to say yes, what breaks if they don’t, and a place protection plan.", icon: "together" },
+    { n: 5, verb: "Learn from others", name: "How five cities organise for heat", href: "/plan/#plan-mech", tab: true, who: "Anyone designing a response", time: "5 min", take: "Mechanisms to adapt, and what to check before you do.", icon: "learn" }
+  ],
+  // the running order for a 90-minute workshop (print/workshop-guide)
+  workshop: [
+    { time: "0–10", what: "Open with the film, then today’s heat in your city", why: "A shared picture before any discussion." },
+    { time: "10–35", what: "A week in the heat, in small groups, one worker each", why: "People feel where protection fails, before they debate it." },
+    { time: "35–45", what: "Groups report: what reached their worker, and what broke", why: "Turns individual stories into a shared list of gaps." },
+    { time: "45–75", what: "Plan a response together, on one screen", why: "Owners, money and triggers for the gaps the groups found. Run the stress test if time allows." },
+    { time: "75–90", what: "Agree the next three decisions, and who takes each", why: "Leave with commitments, recorded on the plan’s status ladder." }
+  ],
+  workshopTips: ["One person drives the screen; everyone else talks.", "Use a real place the room knows, but keep the worker composite.", "Record what is agreed, and what is only discussed. The plan’s status ladder does this.", "Close by printing the plan, or copying it into the meeting notes."],
+  welcome: "New here? This site is large. Answer two questions and it will suggest where to start."
+};
