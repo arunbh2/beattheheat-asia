@@ -1085,7 +1085,7 @@
     else if (act === "prev") { state.step--; renderStep(); }
   }
   document.addEventListener("click", ev => {
-    if (ev.target.closest("#panel, #guide, #loops, #web-list, #start, #who-holds, #at-risk, #stalls, #cooling, #city, #heatwaves, #network, #breakbar, #day, #path-form, .intro")) handleAction(ev);
+    if (ev.target.closest("#panel, #guide, #loops, #web-list, #practical, #start, #who-holds, #at-risk, #stalls, #cooling, #city, #heatwaves, #network, #breakbar, #day, #path-form, .intro")) handleAction(ev);
   });
   document.addEventListener("keydown", ev => {
     if (ev.key === "Escape" && (state.selected || state.story || state.inst || state.pkg)) { clearSelection(); fitAll(); }
@@ -2193,6 +2193,77 @@
     paint();
   }
 
+  // Find practical actions: settings as tabs, eight-line action cards, and questions people arrive with
+  const PA = typeof ACTION_SETTINGS !== "undefined" ? ACTION_SETTINGS : [], PA_LINES = typeof ACTION_LINES !== "undefined" ? ACTION_LINES : [];
+  const PA_Q = typeof ACTION_JOURNEYS !== "undefined" ? ACTION_JOURNEYS : [];
+  let paSel = "";
+  function paCost(ref) {
+    const pl = ref && COOL.find(x => x.id === ref[0]), o = pl && pl.options.find(x => x.name === ref[1]);
+    return o ? `<span class="pa-cost">Rough cost: ${coolCost(o.cost)} <a href="#cool-${pl.id}">See cooling options</a></span>` : "";
+  }
+  function paLine(c, key) {
+    if (key === "who") return esc(c.who.map(id => instById[id] ? instById[id].name : id).join(", "));
+    if (key === "running") return `${esc(c.running)}${paCost(c.cost)}`;
+    if (key === "evidence") return `${esc(c.evidence.text)} <span class="cool-ev__src">${extLink(c.evidence.source.url, c.evidence.source.label)}</span>`;
+    if (key === "worksIf") return `<ul>${c.worksIf.map(x => `<li>${esc(x)}</li>`).join("")}</ul>`;
+    return esc(c[key]);
+  }
+  const paCard = c => `<article class="pa-card" id="pa-${c.id}">
+      <h3 class="pa-card__t">${esc(c.title)}</h3>
+      <dl class="pa-card__dl">${PA_LINES.map(([k, label]) => `<div class="pa-l pa-l--${k}"><dt>${esc(label)}</dt><dd>${paLine(c, k)}</dd></div>`).join("")}</dl>
+      <p class="pa-card__go"><button type="button" class="btn btn--sm btn--teal" data-pa-add="${c.lever}">Add to my plan</button>
+        ${leverById[c.lever] ? `<button type="button" class="lever-chip" data-lever="${c.lever}">Why it matters: see it on the map</button>` : ""}
+        ${c.plan ? `<a href="#plan-step-${c.plan}">Step ${c.plan} of the plan</a>` : ""}</p>
+    </article>`;
+  function paStalls() {
+    return `<p class="pa-intro">Most heat interventions that fail do so for a handful of reasons that have nothing to do with the technology. Find yours, then what has moved it elsewhere.</p>
+      <ul class="pa-stalls">${STALL_LIST.map(x => `<li><h3>${esc(x.name)}</h3><p><b>You can tell when</b> ${esc(x.sign)}</p><p><b>What moves it</b> ${esc(x.moves[0])}</p><a href="#stall-${x.id}">More on this</a></li>`).join("")}</ul>
+      <p class="pa-more"><a href="#stalls">All seven, with evidence</a> · <a href="#cool-traps">Five traps that waste cooling money</a> · <a href="#plan-step-5">Add them to a plan</a></p>`;
+  }
+  function showPractical(id, focus) {
+    const panelEl = document.getElementById("pa-panel"); if (!panelEl) return;
+    paSel = id;
+    document.querySelectorAll("#pa-tabs [role=tab]").forEach(b => { const on = b.dataset.pa === id;
+      b.setAttribute("aria-selected", on ? "true" : "false"); b.tabIndex = on ? 0 : -1; if (on && focus) b.focus(); });
+    document.querySelectorAll("#pa-journeys [data-pa-go]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.paGo === id)));
+    if (id === "stalls") { panelEl.removeAttribute("aria-labelledby"); panelEl.setAttribute("aria-label", "Why interventions fail"); panelEl.innerHTML = paStalls(); return; }
+    const st = PA.find(x => x.id === id) || PA[0];
+    panelEl.removeAttribute("aria-label"); panelEl.setAttribute("aria-labelledby", "pa-tab-" + st.id);
+    const q = PA_Q.find(x => x.go === st.id && x.also), also = q && PA.find(x => x.id === q.also);
+    panelEl.innerHTML = `<div class="pa-head"><p class="pa-intro">${esc(st.intro)}</p>
+        <p class="pa-head__go">${printLink("actions-" + st.id, `Print the ${st.short.toLowerCase()} cards`)}${also ? ` · <button type="button" class="link" data-pa-tab="${also.id}">Also: ${esc(also.name.toLowerCase())}</button>` : ""}</p></div>
+      <div class="pa-cards">${st.cards.map(paCard).join("")}</div>`;
+  }
+  function renderPractical() {
+    const tabs = document.getElementById("pa-tabs"), jr = document.getElementById("pa-journeys"); if (!tabs || !PA.length) return;
+    jr.innerHTML = `<p class="pa-journeys__k">Start from a question</p>` + PA_Q.map(x => `<button type="button" class="pa-q" data-pa-go="${x.go}" aria-pressed="false">${esc(x.q)}</button>`).join("");
+    tabs.innerHTML = PA.map(x => `<button type="button" role="tab" class="cool-tab" id="pa-tab-${x.id}" data-pa="${x.id}" aria-controls="pa-panel" aria-selected="false" tabindex="-1">${esc(x.name)}</button>`).join("");
+    const hash = decodeURIComponent(location.hash.slice(1));
+    showPractical(hash.startsWith("practical-") && (PA.some(x => x.id === hash.slice(10)) || hash.slice(10) === "stalls") ? hash.slice(10) : PA[0].id);
+    const sec = document.getElementById("practical");
+    // links such as #practical-clinics open that setting
+    window.addEventListener("hashchange", () => { const h = decodeURIComponent(location.hash.slice(1)); if (!h.startsWith("practical-")) return;
+      const id = h.slice(10); if (PA.some(x => x.id === id) || id === "stalls") { showPractical(id); sec.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" }); } });
+    sec.addEventListener("click", ev => {
+      const t = ev.target.closest("[data-pa]") || ev.target.closest("[data-pa-tab]"); if (t) { showPractical(t.dataset.pa || t.dataset.paTab); track("practical-" + (t.dataset.pa || t.dataset.paTab)); return; }
+      const g = ev.target.closest("[data-pa-go]");
+      if (g) { showPractical(g.dataset.paGo); track("practical-q-" + g.dataset.paGo); document.getElementById("pa-panel").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" }); return; }
+      const a = ev.target.closest("[data-pa-add]");
+      if (a) { const id = a.dataset.paAdd, st = document.getElementById("pa-status"), had = plan.levers.includes(id);
+        if (!had) { plan.levers.push(id); savePlan(); renderPlan(); }
+        if (st) st.innerHTML = had ? `“${esc(leverById[id].title)}” is already in your plan. <a href="#plan-step-3">Open the plan</a>` : `Added “${esc(leverById[id].title)}” to your plan. <a href="#plan-step-3">Set who leads and pays</a>`;
+        track("practical-add-" + id); }
+    });
+    tabs.addEventListener("keydown", ev => {
+      const keys = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 }, all = [...tabs.querySelectorAll("[role=tab]")];
+      const i = all.indexOf(document.activeElement); if (i < 0) return;
+      let j = null;
+      if (ev.key in keys) j = (i + keys[ev.key] + all.length) % all.length; else if (ev.key === "Home") j = 0; else if (ev.key === "End") j = all.length - 1;
+      if (j === null) return;
+      ev.preventDefault(); showPractical(all[j].dataset.pa, true);
+    });
+  }
+
   // Why action stalls: how to tell, what moves it, and where it shows on the map
   function renderStalls() {
     const box = document.getElementById("stall-list"); if (!box || !STALL_LIST.length) return;
@@ -2249,6 +2320,9 @@
     tabs.innerHTML = COOL.map((p, i) => `<button type="button" role="tab" class="cool-tab" id="cool-tab-${p.id}" data-cool="${p.id}" aria-controls="cool-panel" aria-selected="${i ? "false" : "true"}" tabindex="${i ? -1 : 0}">${esc(p.name)}</button>`).join("");
     const hash = decodeURIComponent(location.hash.slice(1));
     showCoolPlace(hash.startsWith("cool-") ? hash.slice(5) : COOL[0].id);
+    // links such as #cool-homes, from the action cards, open that place
+    window.addEventListener("hashchange", () => { const h = decodeURIComponent(location.hash.slice(1));
+      if (h.startsWith("cool-") && COOL.some(x => x.id === h.slice(5))) { showCoolPlace(h.slice(5)); document.getElementById("cool-tabs").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" }); } });
     tabs.addEventListener("click", ev => { const b = ev.target.closest("[data-cool]"); if (b) showCoolPlace(b.dataset.cool); });
     tabs.addEventListener("keydown", ev => {
       const keys = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 }, all = [...tabs.querySelectorAll("[role=tab]")];
@@ -2622,6 +2696,11 @@
 
   function startSteps(intent, inst) {
     const n = inst ? inst.name.toLowerCase() : "";
+    if (intent === "act") return [
+      ["Pick a setting", "Workplaces, homes, schools, clinics, neighbourhoods, or what to do before summer.", sLink("#practical", "Find practical actions")],
+      ["Check what it takes to run", "Each card names who must act, the running costs and what it only works with.", sLink("#cooling", "Cooling options and costs")],
+      inst ? ["Put it in a plan", `${plural(inst.levers.length, "action")} that ${n} can lead, added in one tap.`, sBtn(`data-start-plan="${inst.id}"`, "Start the plan")]
+           : ["Put it in a plan", "Owners, money, triggers and a printable plan.", sLink("#plan", "Plan a response")] ];
     if (intent === "understand") return [
       ["See the whole web", "Ten systems, every consequence, and how one leads to the next.", sBtn('data-act="tour"', "Take the 60-second tour")],
       inst ? ["Your part of it", `The cycles that ${n} can help break.`, sBtn(`data-inst="${inst.id}"`, "Show them on the map")]
@@ -2790,6 +2869,7 @@
     renderAtRisk();
     renderStrain();
     renderStalls();
+    renderPractical();
     renderCooling();
     renderHomeHeats();
     renderNow();
