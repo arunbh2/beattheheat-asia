@@ -15,7 +15,7 @@ const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + `
 ;Object.assign(this, { SYSTEMS, CONSEQUENCES, LINKS, LOOP_GROUPS, LOOPS, INSTITUTIONS, LEVERS, LOOP_PLACES, EVIDENCE, ORG_ROLES,
   ORGANISATIONS, GLOSSARY_GROUPS, GLOSSARY, WORKED_EXAMPLES, AT_RISK, AT_RISK_BARRIERS, STALLS, COOL_PLACES, COOL_TRAPS,
-  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, COOL_FX, COOL_REGION, HOME_HEATS, PLAN_GROUPS, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL, LIVE_CITIES, CITY_PROFILES, CITY_HAP, HEATWAVES, HEATWAVES_NOTE });`, ctx);
+  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, COOL_FX, COOL_REGION, HOME_HEATS, STRAIN, COOL_ASK, PLAN_GROUPS, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL, LIVE_CITIES, CITY_PROFILES, CITY_HAP, HEATWAVES, HEATWAVES_NOTE });`, ctx);
 const D = ctx, TODAY = new Date().toISOString().slice(0, 10);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const plain = s => String(s || "").replace(/\n/g, " ");
@@ -137,12 +137,12 @@ const out = {};
         ${(x => x ? `<p><strong>${esc(D.STAKES_LABEL[x.kind])} (${esc(x.where)}):</strong> ${esc(x.n)}. ${esc(x.text)} ${ext(x.url, x.by)}</p>${x.sea ? `<p><strong>In Southeast Asia (${esc(x.sea.where)}):</strong> ${esc(x.sea.n)}. ${esc(x.sea.text)} ${ext(x.sea.url, x.sea.by)}</p>` : ""}` : `<p class="meta">${esc(D.STAKES_LABEL.none)}.</p>`)(D.LOOP_STAKES[l.id])}
         ${D.LOOP_PLACES[l.id] ? `<p><strong>Where it plays out:</strong> ${esc(D.LOOP_PLACES[l.id])}</p>` : ""}
         ${lv.length ? `<p><strong>Where it breaks:</strong> ${lv.map(v => `<a href="/actions/#${v.id}">${esc(v.title)}</a>`).join(", ")}</p>` : ""}
-        ${ev.length ? `<ul>${ev.map(e => `<li>${esc(e.finding)} ${ext(e.url, e.by)}</li>`).join("")}</ul>` : ""}
+        ${ev.length ? `<ul>${ev.map(e => `<li>${esc(e.finding)} ${ext(e.url, e.by)}${e.type ? `<br><span class="meta">${esc(e.type)} · ${esc(e.where)} · ${esc(e.scale)}. Limit: ${esc(e.limit)}</span>${e.reading ? `<br><span class="meta"><strong>Our reading:</strong> ${esc(e.reading)}</span>` : ""}` : ""}</li>`).join("")}</ul>` : ""}
         <p class="meta"><a href="/#loop-${l.id}">Follow it on the map</a>${l.video ? ` · <a href="/${l.video}">Watch the film (${esc(l.length)})</a>` : ""}</p>`;
       m.push(`#### ${l.name}`, l.summary, `The cycle: ${l.path.map(name).join(" → ")} → back to the start.`,
         D.LOOP_STAKES[l.id] ? `${D.STAKES_LABEL[D.LOOP_STAKES[l.id].kind]} (${D.LOOP_STAKES[l.id].where}): ${D.LOOP_STAKES[l.id].n}. ${D.LOOP_STAKES[l.id].text} (${D.LOOP_STAKES[l.id].by}, ${D.LOOP_STAKES[l.id].url})` : `${D.STAKES_LABEL.none}.`,
         D.LOOP_STAKES[l.id] && D.LOOP_STAKES[l.id].sea ? `In Southeast Asia (${D.LOOP_STAKES[l.id].sea.where}): ${D.LOOP_STAKES[l.id].sea.n}. ${D.LOOP_STAKES[l.id].sea.text} (${D.LOOP_STAKES[l.id].sea.by}, ${D.LOOP_STAKES[l.id].sea.url})` : "", D.LOOP_PLACES[l.id] ? `Where it plays out: ${D.LOOP_PLACES[l.id]}` : "",
-        lv.length ? `Where it breaks: ${lv.map(v => v.title).join(", ")}` : "", ...ev.map(e => `- ${e.finding} (${e.by}, ${e.url})`));
+        lv.length ? `Where it breaks: ${lv.map(v => v.title).join(", ")}` : "", ...ev.map(e => `- ${e.finding} (${e.by}, ${e.url})${e.type ? ` Type: ${e.type}. Where: ${e.where}. Scale: ${e.scale}. Limit: ${e.limit}${e.reading ? ` Our reading: ${e.reading}` : ""}` : ""}`));
     });
   });
   out[p.slug] = page(p, intro, h, [{ "@context": "https://schema.org", "@type": "ItemList", name: "Vicious cycles of extreme heat", numberOfItems: D.LOOPS.length,
@@ -179,6 +179,14 @@ const out = {};
       <p><strong>What helps:</strong> ${g.levers.map(id => lever[id] ? `<a href="/actions/#${id}">${esc(lever[id].title)}</a>` : "").filter(Boolean).join(", ")}</p>`;
     m.push(`### ${g.name}`, `Exposed to: ${g.exposure}`, `Held back by: ${g.barriers}`, ...facts.map(f => `${f.fact} (${f.source.label}, ${f.source.url})`), `What helps: ${g.levers.map(id => (lever[id] || {}).title).filter(Boolean).join(", ")}`);
   });
+  const S = D.STRAIN, src = f => `${ext(f.source.url, f.source.label)}${f.also ? ` ${ext(f.also.url, f.also.label)}` : ""}`;
+  h += `<h2 id="strain">Weather, work and the person</h2><p>${esc(S.intro)}</p>
+    ${S.parts.map(x => `<h3>${esc(x.name)}</h3><p>${esc(x.text)}</p><ul>${x.facts.map(f => `<li>${esc(f.text)} ${src(f)}</li>`).join("")}</ul>`).join("")}
+    <p>${esc(S.close)}</p><h3>Three groups heat plans often miss</h3>
+    ${S.groups.map(g => `<p><strong>${esc(g.name)}.</strong> ${esc(g.text)} ${esc(g.caution)} ${ext(g.source.url, g.source.label)}</p>`).join("")}
+    <p><strong>For heat plans:</strong> ${esc(S.plans)} <a href="/print/weather-work-person/">Print the one-pager</a> · <a href="/media/films/weather-work-and-the-person.mp4">Watch the film (1:30)</a></p>`;
+  m.push("### Weather, work and the person", S.intro, ...S.parts.flatMap(x => [`#### ${x.name}`, x.text, ...x.facts.map(f => `- ${f.text} (${f.source.label}, ${f.source.url}${f.also ? `; ${f.also.label}, ${f.also.url}` : ""})`)]),
+    S.close, "#### Three groups heat plans often miss", ...S.groups.map(g => `- ${g.name}: ${g.text} ${g.caution} (${g.source.label}, ${g.source.url})`), `For heat plans: ${S.plans}`);
   out[p.slug] = page(p, intro, h); md.push(m.join("\n\n"));
 }
 // cooling options
@@ -191,9 +199,15 @@ const out = {};
     h += `<h2 id="${pl.id}">${esc(pl.name)}</h2><p><strong>Protects:</strong> ${esc(pl.protects)}</p><p><strong>Key caution:</strong> ${esc(pl.caution)}</p>
       <ul>${pl.options.map(o => `<li><strong>${esc(o.name)}.</strong> ${esc(o.does)} Keeps working with: ${esc(o.keeps)} Avoid: ${esc(o.avoid)} <span class="meta">Rough cost: ${esc(cost(o.cost))}</span></li>`).join("")}</ul>
       ${(pl.facts || []).map(f => `<p>${esc(f.fact)} ${ext(f.source.url, f.source.label)}</p>`).join("")}
+      ${pl.kitchen ? `<h3>${esc(pl.kitchen.title)}</h3><p>${esc(pl.kitchen.text)} ${ext(pl.kitchen.source.url, pl.kitchen.source.label)}</p><ul>${pl.kitchen.questions.map(q => `<li>${esc(q)}</li>`).join("")}</ul>` : ""}
       <p class="meta">How you will know: ${esc(pl.measure)}</p>`;
+    if (pl.kitchen) m.push(`#### ${pl.kitchen.title}`, `${pl.kitchen.text} (${pl.kitchen.source.label}, ${pl.kitchen.source.url})`, ...pl.kitchen.questions.map(q => `- ${q}`));
     m.push(`### ${pl.name}`, `Protects: ${pl.protects}`, `Key caution: ${pl.caution}`, ...pl.options.map(o => `- ${o.name}: ${o.does} Keeps working with: ${o.keeps} Avoid: ${o.avoid} Rough cost: ${cost(o.cost)}`), ...(pl.facts || []).map(f => `${f.fact} (${f.source.label}, ${f.source.url})`));
   });
+  const A = D.COOL_ASK;
+  h += `<h2>Questions before you choose</h2><p>${A.frame.map(f => `<strong>${esc(f.name)}:</strong> ${esc(f.text)}`).join(" ")} ${ext(A.frameSource.url, A.frameSource.label)}</p>
+    <ul>${A.questions.map(q => `<li>${esc(q)}</li>`).join("")}</ul><p><strong>Keep the outcomes apart.</strong> ${esc(A.outcomes)}</p>`;
+  m.push("### Questions before you choose", ...A.frame.map(f => `- ${f.name}: ${f.text}`), `(${A.frameSource.label}, ${A.frameSource.url})`, ...A.questions.map(q => `- ${q}`), `Keep the outcomes apart. ${A.outcomes}`);
   h += `<h2>Five traps that waste cooling money</h2><ul>${D.COOL_TRAPS.map(t => `<li><strong>${esc(t.name)}.</strong> ${esc(t.what)} Instead: ${esc(t.fix)}</li>`).join("")}</ul>
     <h2>What changes the result</h2>${D.COOL_EVIDENCE.map(e => `<h3>${esc(e.name)}</h3><p>${esc(e.text)} ${ext(e.source.url, e.source.label)}</p>`).join("")}
     <h2 id="four-heats">Four heats in a home</h2><p>${esc(D.HOME_HEATS.intro)}</p>

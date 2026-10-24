@@ -13,7 +13,7 @@ let QR = null; try { QR = require("qrcode"); } catch (e) { /* optional */ }
 const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + `
 ;Object.assign(this, { HOME_HEATS, GLOSSARY, LIVE_CITIES, CITY_PROFILES, CITY_HAP, LOOPS, LEVERS, ORGANISATIONS, WORKED_EXAMPLES, AT_RISK,
-  HEATWAVES, HEATWAVES_NOTE, COOL_PLACES, COOL_TRAPS, COOL_COST_NOTE, COOL_FX, STALLS, LIVE_FINGERPRINT, LOOP_STAKES });`, ctx);
+  HEATWAVES, HEATWAVES_NOTE, COOL_PLACES, COOL_TRAPS, COOL_COST_NOTE, COOL_FX, STALLS, LIVE_FINGERPRINT, LOOP_STAKES, STRAIN, COOL_ASK });`, ctx);
 const D = ctx, TODAY = new Date().toISOString().slice(0, 10);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const short = u => String(u).replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "");
@@ -155,6 +155,33 @@ async function build() {
         sources: [...H.heats.filter(h => h.source).map(h => h.source), nights, ...H.facts.map(f => f.source), H.nuance.source, cpr].filter(Boolean) }));
   }
 
+  // 1b. Weather, work and the person
+  {
+    const S = D.STRAIN, col = { weather: "#F6A27C", work: "#F2C14E", person: "#8CC5BC" }, pos = { weather: [150, 92], work: [230, 92], person: [190, 158] };
+    const venn = `<svg viewBox="0 0 380 250" role="img" aria-label="Three overlapping circles: weather, work and the person. Heat strain is where they meet." style="width:100%;height:auto;display:block">
+      ${S.parts.map(x => `<circle cx="${pos[x.id][0]}" cy="${pos[x.id][1]}" r="74" fill="${col[x.id]}" fill-opacity=".7" stroke="#16202B" stroke-width="2.5"/>`).join("")}
+      <text x="122" y="70" font-size="14" font-weight="800" text-anchor="middle">WEATHER</text><text x="258" y="70" font-size="14" font-weight="800" text-anchor="middle">WORK</text><text x="190" y="200" font-size="14" font-weight="800" text-anchor="middle">PERSON</text>
+      <circle cx="190" cy="115" r="24" fill="#D7263D" stroke="#fff" stroke-width="2.5"/><text x="190" y="112" font-size="9.5" font-weight="800" fill="#fff" text-anchor="middle">Heat</text><text x="190" y="124" font-size="9.5" font-weight="800" fill="#fff" text-anchor="middle">strain</text></svg>`;
+    const body = `<div class="cols" style="margin-top:6px;grid-template-columns:2fr 3fr"><div>${venn}<p style="font-size:8.6pt;color:#39424D">${esc(S.close)}</p></div>
+        <div>${S.parts.map(x => `<div class="box" style="margin-bottom:4px;border-left:4px solid ${col[x.id]}"><b>${x.n}. ${esc(x.name)}.</b> ${esc(x.text)}<p style="margin-top:3px;font-size:8.2pt;color:#5E6570">Evidence: ${esc(x.facts[0].text)}</p></div>`).join("")}</div></div>
+      <h2>Three groups heat plans often miss</h2>
+      <div class="cols3">${S.groups.map(g => `<div class="box good" style="font-size:8.6pt"><b>${esc(g.name)}.</b> ${esc(g.brief)}</div>`).join("")}</div>
+      <h2>Six questions for your heat action plan</h2>
+      <ul class="check cols">
+        <li>Which groups work indoors in hot sheds, kitchens or factories, and does the plan measure heat where they work?</li>
+        <li>Who does heavy work, or works in sun or near hot surfaces, through the hottest hours?</li>
+        <li>Who wears protective clothing that holds heat in, including health workers?</li>
+        <li>Can people rest, drink and reach shade without losing pay?</li>
+        <li>Who is older, ill, pregnant or on long-term medicines, and who checks on them?</li>
+        <li>Do people get a cool night to recover, and does the warning count hot nights?</li>
+      </ul>`;
+    const meta = { kind: "One-pager · For heat officers, employers and health departments", title: "Weather, work and the person", for: "Heat officers, employers and health departments" };
+    add("weather-work-person", meta,
+      await sheet({ slug: "weather-work-person", kind: meta.kind, title: meta.title,
+        lede: "The same thermometer reading can be safe for one person and dangerous for another. Heat strain is where the weather, the work and the person meet.", body, live: "/#strain",
+        sources: [...S.parts.flatMap(x => [x.facts[0].source, x.facts[0].also]), ...S.groups.map(g => g.source)].filter(Boolean).filter((v, i, a) => a.findIndex(w => w.url === v.url) === i) }));
+  }
+
   // 2. Dry heat and humid heat
   {
     const g = D.GLOSSARY.find(x => x.id === "dryhumid"), wb = D.GLOSSARY.find(x => x.id === "wetbulb"), wbgt = D.GLOSSARY.find(x => x.id === "wbgt"), hi = D.GLOSSARY.find(x => x.id === "heatindex");
@@ -241,11 +268,13 @@ async function build() {
       ${(pl.facts || []).length ? `<h2>What the evidence says</h2><ul class="tight">${pl.facts.map(f => `<li>${esc(f.fact)}</li>`).join("")}</ul>` : ""}
       <div class="cols" style="margin-top:4px"><div class="box good"><b>How you will know it works.</b> ${esc(pl.measure)}</div>
         <div class="box"><b>Five traps that waste cooling money:</b> ${D.COOL_TRAPS.map(t => esc(t.name)).join(" · ")}.</div></div>
+      ${pl.kitchen ? `<div class="box hot" style="margin-top:5px"><b>${esc(pl.kitchen.title)}.</b> ${esc(pl.kitchen.brief)}<p style="margin-top:3px;font-size:8.2pt"><b>Ask:</b> ${pl.kitchen.questions.map(esc).join(" · ")}</p></div>` : ""}
+      ${pl.id !== "system" ? `<div class="box good" style="margin-top:5px;font-size:8.4pt"><b>Before you choose, ask:</b> ${D.COOL_ASK.questions.map(esc).join(" · ")} <b>Keep the outcomes apart:</b> ${esc(D.COOL_ASK.outcomesShort)}</div>` : ""}
       <p style="margin-top:5px;font-size:7.6pt;color:#5E6570">${esc(D.COOL_COST_NOTE)}</p>`;
     add(`cooling-${pl.id}`, { kind: `Cooling options · ${pl.name}`, title: `Cooling options: ${pl.name}`, for: "City engineers, planners and programme teams", group: "cooling" },
       await sheet({ slug: `cooling-${pl.id}`, kind: "Cooling options · For city engineers, planners and programme teams", title: `Cooling options: ${pl.name}`,
         lede: "What to build or change, what keeps it working, the traps to avoid and rough costs.", body, live: `/#cool-${pl.id}`,
-        sources: [...(pl.facts || []).map(f => f.source), ...pl.options.filter(o => o.cost && o.cost.src).map(o => o.cost.src), D.COOL_FX.source].filter(Boolean).filter((s, i, a) => a.findIndex(z => z.url === s.url) === i) }));
+        sources: [...(pl.facts || []).map(f => f.source), pl.kitchen && pl.kitchen.source, ...pl.options.filter(o => o.cost && o.cost.src).map(o => o.cost.src), D.COOL_FX.source].filter(Boolean).filter((s, i, a) => a.findIndex(z => z.url === s.url) === i) }));
   }
 
   // write the sheets and an index

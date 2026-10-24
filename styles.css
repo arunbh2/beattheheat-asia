@@ -1625,3 +1625,69 @@ body.film-open { overflow: hidden; }
 .cool-panel__add .print-link { margin-left: 12px; }
 .hw-print { margin-top: 18px; }
 .cp__foot .print-link { color: var(--canvas); }
+
+/* evidence cards: type, where, scale, limit */
+.evid__card { margin-top: 8px !important; font-size: .78rem; color: var(--grey-500) !important; }
+.evid__card b { color: var(--grey-700); font-weight: 700; }
+.evid__limit { margin-top: 4px !important; font-size: .8rem; }
+.evid__reading { font-size: .82rem; padding: 6px 8px; background: #FFF6E5; border-radius: 4px; }
+.panel .evid__reading { background: var(--white); }
+
+/* Weather, work and the person */
+.atrisk__h { margin-top: clamp(40px, 6vw, 72px); font-family: var(--font-display); font-weight: 400; font-size: clamp(1.6rem, 1.3rem + 1vw, 2.2rem); line-height: 1.05; text-transform: uppercase; }
+.strain { margin-top: 10px; }
+.strain-stage { background: #FBF8F3; }
+.strain-svg { display: block; width: 100%; height: auto; }
+.strain-c { stroke: var(--ink); stroke-width: 3; fill-opacity: .55; transition: fill-opacity .3s, stroke-width .3s; }
+.strain-c--weather { fill: #F6A27C; } .strain-c--work { fill: #F2C14E; } .strain-c--person { fill: #8CC5BC; }
+.strain-c.is-on { fill-opacity: .9; stroke-width: 5; }
+.strain-t { font-size: 17px; font-weight: 800; text-anchor: middle; fill: var(--ink); text-transform: uppercase; letter-spacing: .04em; }
+.strain-core { fill: #D7263D; stroke: #fff; stroke-width: 3; }
+.strain-ct { font-size: 12px; font-weight: 800; text-anchor: middle; fill: #fff; }
+.strain-picks { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.strain-picks span { display: flex; flex-direction: column; line-height: 1.2; }
+.strain-picks small { font-weight: 500; font-size: .75rem; color: var(--grey-700); }
+.strain-facts { list-style: none; padding: 0; margin: 10px 0 0; display: grid; gap: 8px; font-size: .88rem; }
+.strain-facts li { padding: 8px 10px; border-left: 3px solid #E6DFD4; background: #FBF8F3; }
+.strain-facts a, .strain-g a { color: inherit; display: inline-block; padding: 3px 0; }
+.strain-gh { margin-top: 22px; font-size: .8rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: #9A3A12; }
+.strain-groups { margin-top: 10px; display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); }
+.strain-g { display: flex; flex-direction: column; gap: 8px; padding: 16px 18px; border-radius: 10px; background: var(--canvas); border-top: 4px solid #2A9D8F; font-size: .92rem; }
+.strain-g h5 { margin: 0; font-size: 1.05rem; line-height: 1.25; }
+.strain-g p { margin: 0; }
+.strain-g p { color: var(--grey-700); }
+.strain-g__do { padding: 8px 10px; background: #EAF6F4; border-radius: 6px; color: #134B45 !important; font-weight: 600; }
+@media (max-width: 760px) { .strain-picks { grid-template-columns: minmax(0, 1fr); } .strain-picks button { border-right: 0; border-bottom: 1px solid #E6DFD4; justify-content: flex-start; } .strain-picks button:nth-child(2) { border-right: 0; } }
+
+/* Plan a response: exposure questions and the warning-to-action table */
+.plan-exposure, .plan-w2a { margin-top: 14px; border: 1px solid var(--line); border-radius: 8px; background: var(--white); }
+.plan-exposure summary, .plan-w2a summary { padding: 10px 14px; cursor: pointer; font-weight: 700; }
+.plan-exposure summary span, .plan-w2a summary span { font-weight: 400; color: var(--grey-500); font-size: .85rem; margin-left: 6px; }
+.plan-exposure > div, .plan-w2a > :not(summary) { padding: 0 14px; }
+.plan-w2a { padding-bottom: 10px; }
+.plan-exposure__qs { display: grid; gap: 0 16px; }
+@media (min-width: 900px) { .plan-exposure__qs { grid-template-columns: 1fr 1fr; } }
+.plan-exposure__prompts { margin: 4px 0 8px; padding-left: 20px; font-size: .9rem; display: grid; gap: 4px; }
+.plan-exposure__note { margin: 6px 0 12px; font-size: .82rem; color: var(--grey-500); }
+.plan-w2a__lv { margin: 10px 0 0; padding: 10px 12px 12px; border: 1px solid var(--line); border-left-width: 6px; border-radius: 6px; display: grid; gap: 8px; }
+@media (min-width: 760px) { .plan-w2a__lv { grid-template-columns: 1fr 1fr; } }
+.plan-w2a__lv legend { padding: 0 4px; font-weight: 800; font-size: .85rem; }
+.plan-w2a__lv label { display: grid; gap: 3px; font-size: .8rem; font-weight: 700; color: var(--grey-700); }
+.plan-w2a__lv input, .plan-w2a__lv select { min-height: 40px; }
+.plan-w2a__lv.plan-ladder__lv--yellow { border-left-color: #F5C518; } .plan-w2a__lv.plan-ladder__lv--orange { border-left-color: var(--orange); } .plan-w2a__lv.plan-ladder__lv--red { border-left-color: #C8102E; }
+
+/* cooling cards: questions before you choose, and kitchen heat */
+.cool-kitchen { margin-top: 18px; padding: 16px 18px; border-radius: 10px; background: #FFF6E5; border-left: 4px solid var(--orange); }
+.cool-kitchen h3 { font-size: 1.1rem; margin-bottom: 6px; }
+.cool-kitchen a, .cool-ask a { color: inherit; display: inline-block; padding: 3px 0; }
+.cool-ask { margin-top: 16px; border: 1px solid var(--line); border-radius: 10px; background: var(--white); }
+.cool-ask summary { padding: 12px 16px; cursor: pointer; font-weight: 700; }
+.cool-ask summary span { font-weight: 400; color: var(--grey-500); font-size: .85rem; margin-left: 6px; }
+.cool-ask > :not(summary) { margin-left: 16px; margin-right: 16px; }
+.cool-ask__frame { list-style: none; padding: 0; display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); }
+.cool-ask__frame li { padding: 10px 12px; border-radius: 8px; background: #EAF6F4; font-size: .9rem; }
+.cool-ask__frame b { display: block; color: #1D6E64; text-transform: uppercase; letter-spacing: .08em; font-size: .75rem; }
+.cool-ask__k { margin-top: 10px; font-size: .75rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: #9A3A12; }
+.cool-ask__qs { margin: 4px 0 0; padding-left: 20px; display: grid; gap: 4px; font-size: .92rem; }
+.cool-ask__out { margin-top: 12px; margin-bottom: 14px; padding: 10px 12px; border-left: 3px solid var(--ink); background: var(--canvas); font-size: .9rem; }
+.cool-ask__out b { display: block; font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; }

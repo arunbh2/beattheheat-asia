@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap">
 
-  <link rel="stylesheet" href="styles.css?v=94">
+  <link rel="stylesheet" href="styles.css?v=95">
 
   <script type="application/ld+json">
   {
@@ -111,8 +111,8 @@
   }
   </script>
   <link rel="alternate" type="text/plain" href="/llms-full.txt" title="The whole map as plain text">
-  <script src="data.js?v=94" defer></script>
-  <script src="script.js?v=94" defer></script>
+  <script src="data.js?v=95" defer></script>
+  <script src="script.js?v=95" defer></script>
 </head>
 
 <body>
@@ -416,6 +416,8 @@
         <div id="barriers-film" class="section-film"></div>
         <ol id="atrisk-barriers" class="atrisk__barriers"></ol>
         <div id="atrisk-list" class="atrisk__list"></div>
+        <h3 class="atrisk__h" id="strain">Weather, work and the person</h3>
+        <div class="strain" id="strain-box"></div>
         <p class="atrisk__close">People in the same community may need different routes to the same outcome: <strong>livelihood security and dignity.</strong></p>
         <p class="atrisk__sources">Also on the map: violence by husbands and partners rose about 4.5% with each 1 °C of yearly warmth across India, Nepal and Pakistan (<a href="https://bell-lab.yale.edu/publications/association-ambient-temperature-prevalence-intimate-partner-violence-among-partnered" target="_blank" rel="noopener">Zhu et al., JAMA Psychiatry, 2023<span class="visually-hidden"> (opens in a new tab)</span></a>), and 466 million children now live where extremely hot days are at least twice as common as in the 1960s (<a href="https://www.unicef.org/press-releases/almost-half-billion-children-live-areas-experiencing-least-twice-many-extremely-hot" target="_blank" rel="noopener">UNICEF, 2024<span class="visually-hidden"> (opens in a new tab)</span></a>).</p>
       </div>
@@ -524,6 +526,10 @@
                 <label>Place <input type="text" id="plan-place" placeholder="e.g. a ward, a city or a district" autocomplete="off"></label>
                 <label>People at risk <select id="plan-group"></select></label>
               </div>
+              <details class="plan-exposure" id="plan-exposure">
+                <summary>Exposure questions <span>prompts to discuss, not a risk score</span></summary>
+                <div id="plan-exposure-list"></div>
+              </details>
             </fieldset>
             <fieldset class="plan-step">
               <legend><span>2</span> Choose the actions</legend>
@@ -681,7 +687,7 @@
           </div>
           <div>
             <h3>Three kinds of evidence</h3>
-            <p>Evidence that one thing leads to another. Evidence that an action works. Evidence that a whole cycle runs as drawn. <strong>Well established</strong> means the whole cycle has been studied; <strong>Evidence emerging</strong> means each link has evidence but the full cycle has been studied less. The sources under “See the evidence” mostly show that links exist.</p>
+            <p>Evidence that one thing leads to another. Evidence that an action works. Evidence that a whole cycle runs as drawn. <strong>Well established</strong> means the whole cycle has been studied; <strong>Evidence emerging</strong> means each link has evidence but the full cycle has been studied less. The sources under “See the evidence” mostly show that links exist. Each one says what kind of source it is, where and how big it was, and what it cannot tell us. Where we draw a lesson the source does not state, it is marked <strong>Our reading</strong>, so you can tell our interpretation from the finding. Effects of heat depend on exposure, task and the person, so we avoid claims that hold everywhere.</p>
           </div>
           <div>
             <h3>What works, and at what cost</h3>
@@ -697,7 +703,7 @@
           </div>
           <div>
             <h3>Checked and updated</h3>
-            <p>Last reviewed: 22 October 2026. Links and descriptions can go out of date as organisations and evidence move on.</p>
+            <p>Last reviewed: 24 October 2026. Links and descriptions can go out of date as organisations and evidence move on.</p>
           </div>
         </div>
       </div>

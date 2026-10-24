@@ -267,7 +267,7 @@ const CONSEQUENCES = [
     sources: [
       { label: "Thompson et al., The Lancet Planetary Health, 2023, summarised by Imperial College London", url: "https://www.imperial.ac.uk/news/246058/rising-temperatures-associated-with-poorer-mental/" } ] },
   { id: "sleepless", sys: "health", label: "Sleepless\nhot nights",
-    desc: "When nights stay hot, the body never recovers from the day, so the next day starts already depleted.",
+    desc: "When nights stay hot, the body has less chance to recover from the day, so the next day can start already depleted.",
     sources: [
       { label: "Minor et al., One Earth, 2022: rising temperatures erode human sleep", url: "https://orbit.dtu.dk/en/publications/rising-temperatures-erode-human-sleep-globally/" } ] },
   { id: "infectious", sys: "health", label: "Infectious\ndiseases spread",
@@ -276,9 +276,12 @@ const CONSEQUENCES = [
       { label: "WHO Bangladesh, Dengue Situation Report 10, 30 October 2023", url: "https://www.who.int/bangladesh/about-us/publications/m/item/dengue-situation-report-10-30-october-2023" },
       { label: "WHO Disease Outbreak News: dengue in Bangladesh, August 2023", url: "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON481" } ] },
   { id: "injuries", sys: "health", label: "Injuries and\naccidents rise",
-    desc: "Heat dulls concentration and coordination, so accidents at work, on the road and at home increase.",
+    desc: "Heat strain can unsteady balance and slow reactions, especially in heavy work in humid heat, so the risk of accidents at work, on the road and at home rises. How much depends on how hot the body gets, the task and the person: at milder strain, some studies find no loss in thinking at all.",
     sources: [
-      { label: "APN: high temperatures and work-related injuries in Guangzhou, China", url: "https://www.apn-gcr.org/publication/does-hot-weather-affect-work-related-injury-a-case-crossover-study-in-guangzhou-china/" } ] },
+      { label: "APN: high temperatures and work-related injuries in Guangzhou, China", url: "https://www.apn-gcr.org/publication/does-hot-weather-affect-work-related-injury-a-case-crossover-study-in-guangzhou-china/" },
+      { label: "Tan et al., Medicine & Science in Sports & Exercise, 2025: humid heat and balance in simulated construction work at height", url: "https://ghhin.org/wp-content/uploads/msse-57-1579-1.pdf" },
+      { label: "Tan et al., Journal of Sport and Health Science, 2024: severe heat, brain temperature and executive function", url: "https://doi.org/10.1016/j.jshs.2023.09.001" },
+      { label: "A counterpoint: no loss of executive function or risk-taking at modest heat strain (≤38.5 °C), 28 adults, PubMed Central", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12804366/" } ] },
   { id: "hsys", sys: "health", label: "Health systems\noverwhelmed",
     desc: "Heatwaves bring surges of patients just as staff, power and supplies are under strain.",
     sources: [
@@ -417,7 +420,7 @@ const CONSEQUENCES = [
     sources: [
       { label: "Centre for Policy Research, 2023: assessment of 37 heat action plans", url: "https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/" } ] },
   { id: "remote", sys: "gov", label: "Help can’t reach\nremote places",
-    desc: "In remote villages, islands, hills and river settlements, the nearest clinic, cool shelter or reliable power can be hours away, and heat warnings often never arrive.",
+    desc: "In remote villages, islands, hills and river settlements, the nearest clinic, cool shelter or reliable power can be hours away, and heat warnings often do not arrive.",
     sources: [
       { label: "Mercy Corps, 2025: extreme heat in Nepal, policy brief", url: "https://europe.mercycorps.org/sites/default/files/2025-09/extreme-heat-nepal-policy-brief.pdf" } ] },
   { id: "repayments", sys: "gov", label: "Loan repayments\nslip",
@@ -538,7 +541,7 @@ const LINKS = [
   ["publicspace", "isolation", "People stay indoors and alone."],
   ["publicspace", "customers", "When streets are too hot to walk, shoppers stay away."],
   ["telecom", "emergency", "Warnings and calls for help don’t get through."],
-  ["telecom", "remote", "Without a phone signal, heat warnings never reach the last village."],
+  ["telecom", "remote", "Without a phone signal, heat warnings may not reach the last village."],
 
   /* health */
   ["heatstroke", "deaths", "Heatstroke kills if it is not treated quickly."],
@@ -1067,7 +1070,7 @@ const HEATWAVE_DAY = [
   { time: "02:00", video: "media/day/0200.mp4", length: "0:31", title: "The night that never cools",
     who: "A garment worker in Dhaka",
     text: "It is two in the morning and her tin-roofed room is still holding the day’s heat. She has barely slept, her body hasn’t recovered from yesterday, and the shift starts at seven.",
-    fact: "Hot nights are dangerous because the body never gets the chance to recover from the day. Sleep-tracker data from 68 countries shows people sleep about 14 minutes less on nights above 30 °C, with bigger losses for older people and in lower-income countries.",
+    fact: "Hot nights are dangerous because the body gets less chance to recover from the day. Sleep-tracker data from 68 countries shows people sleep about 14 minutes less on nights above 30 °C, with bigger losses for older people and in lower-income countries.",
     source: { label: "Minor et al., One Earth, 2022", url: "https://orbit.dtu.dk/en/publications/rising-temperatures-erode-human-sleep-globally/" },
     loops: ["sleep", "energypoverty"], levers: ["coolnights", "affordablecool", "coolhousing"] },
   { time: "06:00", video: "media/day/0600.mp4", length: "0:29", title: "Salt in the canal",
@@ -1112,174 +1115,312 @@ const HEATWAVE_DAY = [
 const EVIDENCE = {
   global: [
     { by: "International Energy Agency, 2019", title: "The Future of Cooling in Southeast Asia", url: "https://www.iea.org/reports/the-future-of-cooling-in-southeast-asia",
+      type: "Agency report, with projections", where: "Southeast Asia", scale: "Region-wide energy model",
+      limit: "A projection to 2040 under stated policies, not a forecast; it changes with efficiency rules.",
       finding: "Southeast Asia’s air conditioners could rise from 40 million in 2017 to 300 million in 2040, half of them in Indonesia. Without more efficient units, cooling could drive as much as 30% of the region’s peak electricity demand." },
     { by: "International Energy Agency, 2018", title: "The Future of Cooling", url: "https://www.iea.org/reports/the-future-of-cooling",
+      type: "Agency report, with projections", where: "Global", scale: "Global energy model",
+      limit: "A projection to 2050 that assumes current trends; better efficiency changes it.",
       finding: "The world’s stock of air conditioners is set to grow from 1.6 billion to 5.6 billion by 2050, and the energy they use to triple, unless efficiency improves." }
   ],
   soil: [
     { by: "Seneviratne et al., Earth-Science Reviews, 2010", title: "Investigating soil moisture–climate interactions in a changing climate: a review", url: "https://doi.org/10.1016/j.earscirev.2010.02.004",
+      type: "Peer-reviewed review", where: "Global", scale: "Review of many studies",
+      limit: "Explains a general mechanism; how strong it is varies by region and season.",
       finding: "Reviews the evidence that dry soils amplify hot temperatures: with less water to evaporate, more of the sun’s energy goes into heating the air." }
   ],
   ice: [
     { by: "Ibel, Mölg and Sommer, The Cryosphere, 2025", title: "Tropical glaciers on Puncak Jaya close to extinction", url: "https://tc.copernicus.org/articles/19/6629/2025/",
+      type: "Peer-reviewed study", where: "Puncak Jaya, Indonesia", scale: "One glacier field, satellite and field data",
+      limit: "One site; the 2030 date is the authors’ estimate.",
       finding: "Puncak Jaya’s glaciers, the last in Southeast Asia, have lost more than 99% of their area since 1850 and about 65% since 2018. About 0.165 km² remained in 2024, and they will very likely be gone around 2030." },
     { by: "ICIMOD, 2023", title: "Water, ice, society, and ecosystems in the Hindu Kush Himalaya: an outlook", url: "https://lib.icimod.org/record/36322",
+      type: "Agency assessment", where: "Hindu Kush Himalaya", scale: "Region-wide synthesis",
+      limit: "Volume losses are projections that depend on how much warming happens.",
       finding: "Glaciers lost ice 65% faster in the 2010s than in the decade before. At 1.5–2 °C of warming, glaciers across the region lose 30–50% of their volume by 2100." }
   ],
   fire: [
     { by: "World Bank, 2016", title: "The Cost of Fire: An Economic Analysis of Indonesia’s 2015 Fire Crisis", url: "https://documents1.worldbank.org/curated/pt/776101467990969768/pdf/103668-BRI-Cost-of-Fires-Knowledge-Note-PUBLIC-ADD-NEW-SERIES-Indonesia-Sustainable-Landscapes-Knowledge-Note.pdf",
+      type: "Agency report, economic estimate", where: "Indonesia", scale: "National, one fire season (2015)",
+      limit: "One exceptional year, in an El Niño; costs in other years differ.",
       finding: "Indonesia’s forest and peatland fires of June to October 2015 cost the country an estimated US$16.1 billion." },
     { by: "UNEP and GRID-Arendal, 2022", title: "Spreading like Wildfire: The Rising Threat of Extraordinary Landscape Fires", url: "https://www.unep.org/resources/report/spreading-wildfire-rising-threat-extraordinary-landscape-fires",
+      type: "Agency report, with projections", where: "Global", scale: "Global assessment",
+      limit: "Global projections; not broken down for Asian countries.",
       finding: "Climate change and land-use change are making wildfires worse. Extreme fires are projected to rise by up to 14% by 2030 and 50% by the end of the century." }
   ],
   cooling: [
     { by: "Salamanca et al., Journal of Geophysical Research, 2014 (summary by Arizona State University)", title: "Excess heat from air conditioners causes higher nighttime temperatures", url: "https://news.asu.edu/content/excess-heat-air-conditioners-causes-higher-nighttime-temperatures",
+      type: "Peer-reviewed modelling study", where: "Phoenix, United States", scale: "One city, simulated heatwave",
+      limit: "A desert city outside Asia; the size of the effect in humid Asian cities is not measured here.",
+      reading: "We use it for the mechanism, not the number: waste heat from cooling warms the street outside.",
       finding: "In a Phoenix heatwave, waste heat from air conditioners raised night-time air temperatures by more than 1 °C in parts of the city." },
     { by: "International Energy Agency, 2018", title: "The Future of Cooling", url: "https://www.iea.org/reports/the-future-of-cooling",
+      type: "Agency report, with projections", where: "Global", scale: "Global energy model",
+      limit: "A projection to 2050 that assumes current trends.",
       finding: "China, India and Indonesia are expected to account for half of the world’s air conditioners by 2050." },
     { by: "Tamil Nadu State Planning Commission, 2024", title: "Beating the Heat: Tamil Nadu Heat Mitigation Strategy", url: "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf",
+      type: "Government strategy", where: "Chennai and Tamil Nadu, India", scale: "State-wide, satellite land surface temperature",
+      limit: "Land surface temperature, not the air temperature people breathe; the two differ.",
       finding: "Chennai’s built-up area more than doubled between 2000 and 2020, and night-time land surface temperatures in its urban areas run about 2 °C higher than on its peri-urban edges." },
     { by: "Cooling Singapore, citing Chow and Roth, 2006", title: "Cooling Singapore: digital urban climate twin", url: "https://www.thegpsc.org/sites/gpsc/files/cooling_singapore_-_digital_urban_climate_twin.pdf",
+      type: "Research programme summary of a peer-reviewed study", where: "Singapore", scale: "City-wide measurements",
+      limit: "The 7 °C is a maximum on calm, clear nights, not a typical night.",
       finding: "Singapore’s commercial centre has measured up to about 7\u00a0°C warmer than its outskirts on calm, clear nights." }
   ],
   energywater: [
     { by: "World Bank estimate, reported by AFP via The Manila Times, 2023", title: "Power crisis cost Vietnam $1.4B", url: "https://manilatimes.net/2023/08/12/business/foreign-business/power-crisis-cost-vietnam-14b-wb/1904920/amp",
+      type: "News report of a World Bank early estimate", where: "Northern Vietnam", scale: "National, one season (2023)",
+      limit: "An early estimate reported in the press; drought and demand both played a part.",
       finding: "Heatwaves in May and June 2023 pushed up demand while hydropower reservoirs ran low, and rolling blackouts hit northern Vietnam. The World Bank’s early estimate put the cost at about US$1.4 billion, roughly 0.3% of GDP." },
     { by: "World Resources Institute, 2018", title: "40% of India’s thermal power plants are in water-scarce areas, threatening shutdowns", url: "https://www.wri.org/insights/40-indias-thermal-power-plants-are-water-scarce-areas-threatening-shutdowns",
+      type: "Research institute analysis", where: "India", scale: "20 largest thermal utilities, 2013–2016",
+      limit: "Data from before 2017; plants and water rules have changed since.",
       finding: "14 of India’s 20 largest thermal utilities shut down at least once for lack of water between 2013 and 2016. Water shortages cost 14 TWh of power in 2016." }
   ],
   pumping: [
     { by: "Minderhoud et al., Environmental Research Communications, 2020", title: "Groundwater extraction may drown mega-delta", url: "https://iopscience.iop.org/article/10.1088/2515-7620/ab5e21",
+      type: "Peer-reviewed modelling study", where: "Mekong delta, Vietnam", scale: "Delta-wide model",
+      limit: "Sinking rates vary across the delta; the top rate is not everywhere.",
       finding: "Groundwater pumping has sped up the sinking of the Mekong delta, to more than 2.5 cm a year in some areas." },
     { by: "Rodell, Velicogna and Famiglietti, Nature, 2009", title: "Satellite-based estimates of groundwater depletion in India", url: "https://www.nature.com/articles/nature08238",
+      type: "Peer-reviewed study, satellite data", where: "Rajasthan, Punjab and Haryana, India", scale: "Three states, 2002–2008",
+      limit: "An older period; it measures water lost, not the heat link itself.",
+      reading: "The heat link is ours: hotter, drier seasons raise the pull on groundwater that this study measures.",
       finding: "Satellites show Rajasthan, Punjab and Haryana lost 109 km³ of groundwater between 2002 and 2008, mainly to irrigation, while rainfall stayed close to normal." }
   ],
   clinic: [
     { by: "Lancet Countdown, The Lancet, 2024", title: "The 2024 report of the Lancet Countdown on health and climate change", url: "https://doi.org/10.1016/S0140-6736(24)01822-1",
+      type: "Peer-reviewed global assessment", where: "Global", scale: "Global indicators",
+      limit: "A global figure; it does not give Asia’s share.",
       finding: "Heat-related deaths among people over 65 reached a record 167% above the 1990s level in 2023." },
     { by: "Hess et al., Journal of Environmental and Public Health, 2018", title: "Pilot evaluation of the impact of India’s first heat action plan on all-cause mortality", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6236972/",
+      type: "Peer-reviewed evaluation", where: "Ahmedabad, India", scale: "One city, before and after the plan",
+      limit: "A pilot evaluation; other changes over the same years could explain part of the drop.",
       finding: "After Ahmedabad’s heat action plan prepared hospitals and warned the public, an estimated 1,190 deaths a year were avoided." }
   ],
   poverty: [
     { by: "WIEGO and HomeNet Thailand, 2025", title: "Climate change and heat stress: impacts on home-based workers and street vendors in Bangkok", url: "https://www.wiego.org/wp-content/uploads/2025/10/WIEGO-Policy-Brief-33-Climate-Change-and-Heat-Stress.pdf",
+      type: "Survey", where: "Bangkok, Thailand", scale: "Informal workers in one city",
+      limit: "Self-reported, from workers in one city.",
       finding: "In a survey of informal workers in Bangkok, nearly 80% had cut their hours because of heat, and 75% of home-based workers lost at least one day of work a month to their own or a family member’s heat illness." },
     { by: "OECD Economics Department, Working Paper No. 1828, 2024", title: "The heat is on: Heat stress, productivity and adaptation among firms", url: "https://doi.org/10.1787/19d94638-en",
+      type: "Working paper", where: "23 advanced economies, including Japan and Korea", scale: "2.7 million firms",
+      limit: "Rich economies with formal firms; informal work in South and Southeast Asia is not covered.",
+      reading: "If formal firms in rich economies lose this much, the losses where work is outdoors and informal are likely larger, but that is not measured here.",
       finding: "Across 2.7 million firms in 23 advanced economies, including Japan and Korea, ten extra days above 35 °C cut yearly labour productivity by 0.3%, and over 1.5% above 40 °C. Very humid places lost 0.75%, more than double the average. Korea has already lost about 0.15% of productivity to added heat since the early 2000s." },
     { by: "World Bank, 2022, reported by Down To Earth", title: "Climate Investment Opportunities in India’s Cooling Sector", url: "https://www.downtoearth.org.in/climate-change/heatwaves-in-india-could-soon-break-human-survivability-limit-says-world-bank-analysis-86431",
+      type: "Agency report, reported by the press", where: "India", scale: "National estimate",
+      limit: "A broad estimate of heat-exposed work, not a count of workers harmed.",
       finding: "Up to three-quarters of India’s workforce, about 380 million people, depend on heat-exposed labour, work that produces nearly half of the country’s GDP." },
     { by: "International Labour Organization, 2019", title: "Working on a warmer planet", url: "https://www.ilo.org/resource/news/increase-heat-stress-predicted-bring-productivity-loss-equivalent-80",
+      type: "Agency report, with projections", where: "Global, with regional figures", scale: "Global model",
+      limit: "A projection to 2030 at about 1.5 °C of warming.",
       finding: "Heat stress is projected to cost 2.2% of all working hours by 2030, equal to 80 million full-time jobs. South Asia is among the worst hit, losing about 5% of working hours." },
     { by: "Lancet Countdown, The Lancet, 2024", title: "The 2024 report of the Lancet Countdown on health and climate change", url: "https://doi.org/10.1016/S0140-6736(24)01822-1",
+      type: "Peer-reviewed global assessment", where: "Global", scale: "Global indicators",
+      limit: "Potential hours and income at risk, not hours actually lost.",
       finding: "Heat exposure put a record 512 billion potential labour hours at risk in 2023, with potential income losses of US$835 billion." },
     { by: "World Bank, 2025", title: "An Unsustainable Life: the impact of heat on health and the economy of Bangladesh", url: "https://www.worldbank.org/en/news/press-release/2025/09/16/bangladesh-faces-health-and-economic-risks-from-rising-temperature-world-bank",
+      type: "Agency report", where: "Bangladesh", scale: "National survey and model",
+      limit: "Combines survey and modelling; the money value is an upper estimate.",
       finding: "Heat-related illness cost Bangladesh 250 million workdays in 2024, worth up to US$1.78 billion, about 0.4% of GDP. Since 1980 the ‘feels-like’ temperature has risen by 4.5\u00a0°C." }
   ],
   debt: [
     { by: "Human Rights Watch, 2025", title: "Debt Traps: Predatory microfinance loans in Cambodia", url: "https://www.hrw.org/report/2025/09/24/debt-traps/predatory-microfinance-loans-and-exploitation-of-cambodias-indigenous",
+      type: "Human rights investigation", where: "Cambodia", scale: "National loan data with interviews",
+      limit: "Shows how heavy debt is; it does not measure the part heat plays.",
       finding: "Cambodia’s average microloan was over US$5,800 in 2024, more than four times the country’s median annual income per person." },
     { by: "Selvaraj, Farooqui and Karan, BMJ Open, 2018", title: "Quantifying the financial burden of households’ out-of-pocket payments on medicines in India", url: "https://bmjopen.bmj.com/content/8/5/e018020",
+      type: "Peer-reviewed study", where: "India", scale: "National household survey, 2011–12",
+      limit: "Older data on all medicine costs, not heat illness alone.",
+      reading: "We read it as the hole a heat illness can fall into; the study does not single out heat.",
       finding: "Medicine costs alone were catastrophic for 11.2% of Indian households in 2011–12, about 29 million households." },
     { by: "American Red Cross, Red Cross Red Crescent Climate Centre, Nepal Red Cross Society and Bangladesh Red Crescent Society, 2026", title: "The lived experiences of vulnerable populations in the context of extreme heat: five cities in Nepal and Bangladesh", url: "https://www.climatecentre.org/publications/17312/the-lived-experiences-of-vulnerable-populations-in-the-context-of-extreme-heat-a-comprehensive-narrative-report-based-on-survey-data-from-five-cities-in-nepal-and-bangladesh/",
+      type: "Survey", where: "Five cities in Nepal and Bangladesh", scale: "More than 2,000 residents",
+      limit: "Reported experiences; it does not measure how often loans followed heat.",
       finding: "In a survey of more than 2,000 residents of five cities, heat harmed health, cut incomes and working hours, and pushed some households towards high-interest loans. Women and people with disabilities faced the hardest trade-offs between health, work and care." }
   ],
   energypoverty: [
     { by: "Sustainable Energy for All, 2023", title: "Chilling Prospects: Global Access to Cooling Gaps 2023", url: "https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-global-access-to-cooling-gaps-2023",
+      type: "Agency report", where: "Global, with country estimates", scale: "Global model",
+      limit: "Risk of lacking cooling, estimated from income, power and heat data, not a direct survey.",
       finding: "1.12 billion of the rural and urban poor are at high risk because they lack access to cooling." }
   ],
   displacement: [
     { by: "World Bank, 2021", title: "Groundswell Part II", url: "https://www.worldbank.org/en/news/press-release/2021/09/13/climate-change-could-force-216-million-people-to-migrate-within-their-own-countries-by-2050",
+      type: "Agency report, with projections", where: "East Asia and the Pacific", scale: "Regional model",
+      limit: "A worst-case scenario to 2050; covers all climate drivers, not heat alone.",
       finding: "Without action, as many as 49 million people in East Asia and the Pacific could become internal climate migrants by 2050." },
     { by: "World Bank, 2021", title: "Groundswell Part 2: Acting on Internal Climate Migration", url: "https://openknowledge.worldbank.org/handle/10986/36248",
+      type: "Agency report, with projections", where: "Six world regions", scale: "Global model",
+      limit: "A worst-case scenario to 2050; covers all climate drivers, not heat alone.",
       finding: "Without action, climate change could force up to 216 million people to move within their own countries by 2050, including about 40 million in South Asia." }
   ],
   school: [
     { by: "Park, Goodman, Hurwitz and Smith, American Economic Journal: Economic Policy, 2020", title: "Heat and Learning", url: "https://www.aeaweb.org/doi/10.1257/pol.20180612",
+      type: "Peer-reviewed study", where: "United States", scale: "10 million students",
+      limit: "US schools and tests; the size of the effect in Asian classrooms is not known.",
+      reading: "We use it for direction: hotter school years mean less learning, and the poorest lose most.",
       finding: "Without air conditioning, each 1 °F hotter school year cuts that year’s learning by about 1%, and the losses fall hardest on disadvantaged students." },
     { by: "UNICEF, 2025", title: "Learning interrupted: global snapshot of climate-related school disruptions in 2024", url: "https://www.unicef.org/reports/learning-interrupted-global-snapshot-2024",
+      type: "Agency report", where: "Global, by region", scale: "Global count from news and official reports",
+      limit: "Counts students affected by closures or shorter days, not learning lost.",
       finding: "Heatwaves disrupted schooling for an estimated 171 million students in 2024. South Asia was the most affected region." },
     { by: "AFP via Malay Mail, April 2024", title: "Thousands of Philippine schools suspend in-person classes due to heat", url: "https://www.malaymail.com/news/world/2024/04/05/thousands-of-philippine-schools-suspend-in-person-classes-due-to-heat-says-education-dept/127511",
+      type: "News report", where: "Philippines", scale: "5,288 schools, April 2024",
+      limit: "A snapshot of one week, from official figures quoted in the press.",
       finding: "In early April 2024, 5,288 schools across the Philippines switched to remote learning as the heat index reached danger levels, affecting more than 3.6 million students." },
     { by: "NBC News, 2024", title: "Extreme heat forces school closures across Asia, affecting millions of students", url: "https://www.nbcnews.com/news/world/schools-close-extreme-heat-philippines-bangladesh-asia-rcna149485",
+      type: "News report", where: "Bangladesh and Cambodia", scale: "National, April 2024",
+      limit: "News figures from official announcements.",
       finding: "Bangladesh closed schools for about 33 million children in its April 2024 heatwave, and Cambodia cut the school day by two hours." }
   ],
   sleep: [
     { by: "National Environment Agency, Singapore, 2024", title: "Singapore’s Third National Climate Change Study (V3)", url: "https://www.nea.gov.sg/media/news/news/index/latest-climate-projections-for-singapore-show-intensifying-urban-heat-and-more-wet-dry-extremes",
+      type: "Government climate study", where: "Singapore", scale: "National, with projections",
+      limit: "End-of-century figures depend on the emissions scenario.",
       finding: "Singapore averaged 76 warm nights a year (above 26.3 °C) over the last 40 years; by the end of the century such nights could occur on most nights of the year." },
     { by: "Minor et al., One Earth, 2022", title: "Rising temperatures erode human sleep globally", url: "https://orbit.dtu.dk/en/publications/rising-temperatures-erode-human-sleep-globally/",
+      type: "Peer-reviewed study", where: "68 countries", scale: "47,628 people, sleep wristbands",
+      limit: "Most wearers live in higher-income countries; the poorest, who sleep hottest, are under-represented.",
       finding: "Data from 47,628 people in 68 countries shows hot nights shorten sleep, with bigger losses for older people and in lower-income countries." },
     { by: "Thompson et al., The Lancet Planetary Health, 2023 (summary by Imperial College London)", title: "Ambient temperature and mental health: a systematic review and meta-analysis", url: "https://www.imperial.ac.uk/news/246058/rising-temperatures-associated-with-poorer-mental/",
+      type: "Peer-reviewed review and meta-analysis", where: "Global", scale: "114 studies",
+      limit: "Shows an association, not proof of cause.",
       finding: "A review of 114 studies links higher temperatures with poorer mental health, including higher suicide rates." },
     { by: "Council on Energy, Environment and Water (CEEW), 2025", title: "How Extreme Heat is Impacting India: Assessing District-level Heat Risk", url: "https://www.ceew.in/sites/default/files/ceew-how-extreme-heat-is-impacting-india-final-web-file.pdf",
+      type: "Research institute analysis", where: "India, by district", scale: "All districts, 1982–2022",
+      limit: "Based on reanalysis data, which can miss very local differences.",
       finding: "Over the last decade, nearly 70% of India’s districts gained five or more very warm nights each summer, while only about 28% saw a similar rise in very hot days. Mumbai gained 15 very warm nights a summer, and Bengaluru 11." },
     { by: "Tamil Nadu State Planning Commission, 2024", title: "Beating the Heat: Tamil Nadu Heat Mitigation Strategy", url: "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf",
+      type: "Government strategy", where: "Tamil Nadu, India", scale: "State-wide",
+      limit: "State-level averages; neighbourhoods differ.",
       finding: "Tamil Nadu’s summer minimum temperatures have risen by about 0.75 °C since the 1980s, and about 56% of its people now live where summer nights are warmer than the 1981–2011 average." }
   ],
   deadgreen: [
     { by: "Esperon-Rodriguez et al., Nature Climate Change, 2022", title: "Climate change increases global risk to urban forests", url: "https://www.vibrantcitieslab.com/wordpress/wp-content/uploads/2023/08/climate-change-increases-global-risk-to-urban-forests.pdf",
+      type: "Peer-reviewed study", where: "164 cities in 78 countries", scale: "3,129 species",
+      limit: "Compares climate to each species’ natural range; trees can survive outside it with care.",
       finding: "Of 3,129 tree and shrub species in 164 cities, 56% already face temperatures beyond those in their natural range, rising to about 76% by 2050 under a mid-range warming scenario. Risk is highest in low-latitude cities such as New Delhi and Singapore." },
     { by: "Hansen et al., chapter 10 in Nature-Based Solutions for Cities, 2023", title: "Planning and maintaining nature-based solutions: Berlin, Jakarta, Melbourne and Santiago", url: "https://doi.org/10.4337/9781800376762",
+      type: "Book chapter, peer-reviewed", where: "Berlin, Jakarta, Melbourne and Santiago", scale: "Four city cases",
+      limit: "The tree figures are from Berlin; Asian evidence on tree loss in heat is thinner.",
+      reading: "We take the lesson that new trees need years of water and care, wherever they are planted.",
       finding: "Drought stops urban trees from cooling through transpiration. In one Berlin park more than 500 of 870 new trees died within ten years despite watering, and Berlin cut about 44,000 street trees between 2012 and 2019 while planting about 18,000." },
     { by: "Middel et al., Bulletin of the American Meteorological Society", title: "50 Grades of Shade", url: "https://par.nsf.gov/biblio/10230332-grades-shade",
+      type: "Peer-reviewed study", where: "Tempe, United States", scale: "Street-level measurements",
+      limit: "A desert city; humid cities gain less from shade alone, though shade still cuts radiant heat.",
       finding: "Tree shade sharply lowers the radiant heat people feel by day, which is the cooling lost when trees die." }
   ],
   greendisplace: [
     { by: "Anguelovski et al., Nature Communications, 2022", title: "Green gentrification in European and North American cities", url: "https://doi.org/10.1038/s41467-022-31572-1",
+      type: "Peer-reviewed study", where: "28 cities in Europe and North America", scale: "28 cities, 2000–2016",
+      limit: "No Asian cities in the sample.",
+      reading: "We treat it as a warning for Asia’s greening plans, not proof it happens the same way there.",
       finding: "Across 28 cities in 9 countries, greening in the 1990s and 2000s was strongly linked to gentrification between 2000 and 2016 in 17 of them." },
     { by: "Wolch, Byrne and Newell, Landscape and Urban Planning, 2014", title: "Urban green space, public health and environmental justice: making cities “just green enough”", url: "https://urbansustainability.seas.umich.edu/wp-content/uploads/2014/06/Making-cities-just-green-enough.pdf",
+      type: "Peer-reviewed review", where: "Mostly the United States", scale: "Literature review",
+      limit: "Mostly US evidence.",
       finding: "Green space tends to favour wealthier neighbourhoods, and new parks meant to fix that can raise housing costs and displace the residents they were meant to help. Small, local projects are more likely to reach those who need them." },
     { by: "Endo, The Developing Economies, 2026", title: "Gentrification, urban informality and displacement in Bangkok", url: "https://onlinelibrary.wiley.com/doi/10.1111/deve.70013",
+      type: "Peer-reviewed field study", where: "Bangkok, Thailand", scale: "One city, fieldwork",
+      limit: "Qualitative; it does not measure how many people moved.",
       finding: "Fieldwork on how recent gentrification in Bangkok, including green urban renewal, affects the city’s lower-income residents." },
     { by: "Chapter 3 in Nature-Based Solutions for Cities, 2023", title: "Towards just nature-based solutions for cities", url: "https://doi.org/10.4337/9781800376762",
+      type: "Book chapter, peer-reviewed", where: "Global", scale: "Review",
+      limit: "A framework for justice, not a measure of harm.",
       finding: "Nature-based solutions can deepen injustice when benefits flow to some and costs, including displacement, fall on others; procedural, distributional and recognition justice all need attention." }
   ],
   squeeze: [
     { by: "OECD Economics Department, Working Paper No. 1828, 2024", title: "The heat is on: Heat stress, productivity and adaptation among firms", url: "https://doi.org/10.1787/19d94638-en",
+      type: "Working paper", where: "23 advanced economies", scale: "2.7 million firms",
+      limit: "Rich economies; small informal firms in Asia are not covered.",
       finding: "Across 2.7 million firms in 23 advanced economies, heat cut the productivity of small firms while medium and large firms showed no loss, and the largest grew revenue about 0.6 points faster than small firms after hot years. Losses lasted up to two years. Restaurants and hotels were hit hard, partly through lower demand." },
     { by: "Aguilar-Gomez et al., summarised in VoxEU, 2024", title: "Heatwaves ripple into the financial system", url: "https://cepr.org/voxeu/columns/heatwaves-ripple-financial-system",
+      type: "Research summary of a peer-reviewed study", where: "Mexico", scale: "National bank loan data",
+      limit: "Outside Asia; how Asian banks respond is not yet measured.",
+      reading: "We read it as a likely pattern for Asian lenders, to be checked against their own loan books.",
       finding: "Loan-level bank data from Mexico show that ten extra days of extreme heat in a quarter raise small-business loan delinquency by about 4%, mainly among firms that depend on local customers. Banks then raise rates, ask for more collateral and lend less for two to three quarters." },
     { by: "Sa-Dhan, reported by Business Standard, 2024", title: "Micro-loan asset quality deteriorates in April–June quarter", url: "https://www.business-standard.com/finance/news/micro-loan-asset-quality-deteriorates-in-april-june-quarter-sa-dhan-124082700721_1.html",
+      type: "News report of an industry statement", where: "India", scale: "National microfinance sector, one quarter",
+      limit: "Heat is one named cause among several, not measured on its own.",
       finding: "India’s microfinance industry body said loan quality worsened in April–June 2024, partly because heatwaves cut borrowers’ incomes and lenders’ collections." },
     { by: "King’s College London, 2023", title: "New study finds that microfinance is exacerbating climate precarity and harm in Cambodia", url: "https://www.kcl.ac.uk/news/new-study-finds-that-microfinance-is-exacerbating-climate-precarity-and-harm-in-cambodia",
+      type: "Research summary", where: "Cambodia", scale: "Fieldwork with borrowers",
+      limit: "About climate shocks in general, not heat alone.",
       finding: "A caution for lenders: in Cambodia, researchers found that borrowing to get through climate shocks often delayed the harm rather than removing it, leaving households more indebted for the next shock." },
     { by: "Greenpeace India and National Hawkers Federation, 2024", title: "Heatwave Havoc: the toll on Delhi’s street vendors", url: "https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/",
+      type: "Survey", where: "Delhi, India", scale: "721 street vendors",
+      limit: "Self-reported, from one city in one season.",
       finding: "Of 721 Delhi street vendors surveyed in April and May 2024, 80% saw fewer customers during heatwaves and 49% lost income." },
     { by: "Federation of Automobile Dealers Associations, reported by Orissa Post, 2024", title: "Passenger vehicle retail sales dip 7% in June as heatwave curtails showroom visits", url: "https://www.orissapost.com/passenger-vehicle-retail-sales-dip-7-in-june-as-heatwave-curtails-showroom-visits/amp/",
+      type: "News report of industry data", where: "India", scale: "National car retail, one month",
+      limit: "Dealers’ own account; the link to their loans is not measured.",
       finding: "Car dealers said heat cut showroom footfall by about 15% in June 2024, leaving them with 62–67 days of unsold stock against a recommended three weeks. A sign of where to look; the link to their loans is not yet measured." }
   ],
   farmdebt: [
     { by: "Carleton, PNAS, 2017", title: "Crop-damaging temperatures increase suicide rates in India", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5565417/",
+      type: "Peer-reviewed study", where: "India", scale: "National, 1967–2013",
+      limit: "An association that has been debated; it does not prove debt is the cause.",
       finding: "Heat raises suicide rates in India only during the growing season, when it also cuts crop yields, pointing to farm income losses. The findings have been debated." },
     { by: "Lobell, Sibley and Ortiz-Monasterio, Nature Climate Change, 2012", title: "Extreme heat effects on wheat senescence in India", url: "https://fsi.stanford.edu/node/26622",
+      type: "Peer-reviewed study, satellite data", where: "Northern India", scale: "Wheat region, satellite records",
+      limit: "About wheat only; it shows how models can miss losses.",
       finding: "Days above 34 °C make wheat in northern India age early, and crop models may underestimate yield losses at +2 °C by as much as 50%." },
     { by: "Peng et al., PNAS, 2004", title: "Rice yields decline with higher night temperature from global warming", url: "https://doi.org/10.1073/pnas.0403720101",
+      type: "Peer-reviewed field study", where: "Los Baños, Philippines", scale: "One research farm, 1992–2003",
+      limit: "One site; later studies find varied effects across regions.",
       finding: "At the International Rice Research Institute’s farm in the Philippines, rice yields fell by about 10% for each 1\u00a0°C rise in growing-season night temperature, while daytime highs had little effect." }
   ],
   invisible: [
     { by: "Ministry of Health and Family Welfare, reply in India’s Rajya Sabha, 6 August 2024", title: "Heat-related illness surveillance, 2021 to July 2024 (Unstarred Question 1693)", url: "https://rsdebate.nic.in/bitstream/123456789/750681/1/PQ_265_06082024_U1693_p358_p362.pdf",
+      type: "Government data", where: "India", scale: "National surveillance",
+      limit: "Counts what gets reported; reporting improves over time, so part of the rise is better counting.",
       finding: "Suspected heatstroke cases rose from 4,481 in 2022 to 48,385 by 28 July 2024, while confirmed heatstroke deaths rose only from 33 to 185." },
     { by: "Associated Press via PBS NewsHour, 2024", title: "India likely undercounts heat-related deaths, tempering its response, officials say", url: "https://www.pbs.org/newshour/world/india-likely-undercounts-heat-related-deaths-tempering-its-response-officials-say",
+      type: "News report", where: "India", scale: "National, two agencies’ records",
+      limit: "Compares two official counts in one year.",
       finding: "In 2020, India’s crime records bureau recorded 530 heatstroke deaths while the disaster agency recorded four. Experts say the low counts weaken preparation." },
     { by: "Down To Earth, 2024", title: "Lost in the heat: the critical miscalculation in India’s heatwave mortality data", url: "https://www.downtoearth.org.in/climate-change/lost-in-the-heat-the-critical-miscalculation-in-indias-heatwave-mortality-data",
+      type: "News analysis", where: "India", scale: "National",
+      limit: "Describes how deaths are recorded; it does not estimate the missing number.",
       finding: "Death certificates usually record only the immediate cause, such as heart failure, so heat as the trigger goes unrecorded." },
     { by: "Ministry of Home Affairs, reply in India’s Lok Sabha, reported by Down To Earth, 2026", title: "India updates disaster list to include heatwaves and lightning after Finance Commission push", url: "https://www.downtoearth.org.in/climate-change/india-updates-disaster-list-to-include-heatwaves-and-lightning-after-finance-commission-push",
+      type: "Government data, reported by the press", where: "India", scale: "More than 51,000 reporting units",
+      limit: "A part-season count; it shows the gap, not the true toll.",
       finding: "Between 1 March and 26 July 2026, India’s heat surveillance, covering more than 51,000 reporting units, logged 4,853 heatstroke cases but only 20 heatstroke deaths." },
     { by: "NUS Project HeatSafe, 2024", title: "Heat stress reduces productivity among workers in Singapore", url: "https://medicine.nus.edu.sg/wp-content/uploads/2024/03/PRESS-RELEASE_Project-HeatSafe-18MAR2024-FOR-IMMEDIATE-RELEASE.pdf",
+      type: "University research release", where: "Singapore", scale: "24 workplaces",
+      limit: "One city; site conditions vary.",
       finding: "Monitors at 24 indoor and outdoor workplaces in Singapore found workers could face more heat stress than nearby national weather stations reported." }
   ],
   reactive: [
     { by: "Park and Rubinyi, World Bank working paper, 2026", title: "Urban heat, mortality, and economic costs: evidence from Bangkok, Thailand", url: "https://openknowledge.worldbank.org/entities/publication/d8ba6f53-d778-47d2-b4a6-37dff7db2466/full",
+      type: "Working paper", where: "Bangkok, Thailand", scale: "One city, 2016–2018",
+      limit: "An estimate from a statistical model; the value depends on how a life is priced.",
       finding: "About 593 deaths a year in Bangkok in 2016–18 were attributable to heat. Valued at 0.1–0.7% of the city’s economy, the upper estimate exceeds the city’s 2020 public health budget." },
     { by: "Global Commission on Adaptation, 2019", title: "Adapt Now: A Global Call for Leadership on Climate Resilience", url: "https://openknowledge.worldbank.org/entities/publication/7713887e-5c0c-5fce-9dd0-c18a8875736c",
+      type: "Commission report", where: "Developing countries", scale: "Global estimate",
+      limit: "A broad benefit estimate covering many hazards, not heat alone.",
       finding: "US$800 million spent on early warning systems in developing countries could avoid US$3–16 billion in losses every year." },
     { by: "UNEP and GRID-Arendal, 2022", title: "Spreading like Wildfire", url: "https://www.unep.org/resources/report/spreading-wildfire-rising-threat-extraordinary-landscape-fires",
+      type: "Agency report", where: "Global", scale: "Global assessment",
+      limit: "About wildfire budgets; we use it as a pattern for heat.",
       finding: "Direct response typically gets over half of wildfire spending, while planning and prevention get less than 1%." },
     { by: "Centre for Policy Research, 2023", title: "How is India adapting to heatwaves? An assessment of heat action plans", url: "https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/",
+      type: "Research institute review", where: "India", scale: "37 heat action plans",
+      limit: "Plans as of 2023; several have been updated since.",
       finding: "Of 37 heat action plans reviewed, 11 discussed funding, and 8 of those simply asked departments to find their own money. Only two included a vulnerability assessment." },
     { by: "Ministry of Home Affairs, reply in India’s Lok Sabha, reported by Down To Earth, 2026", title: "India updates disaster list to include heatwaves and lightning after Finance Commission push", url: "https://www.downtoearth.org.in/climate-change/india-updates-disaster-list-to-include-heatwaves-and-lightning-after-finance-commission-push",
+      type: "Government statement, reported by the press", where: "India", scale: "National",
+      limit: "A rule change; how money flows in practice is still to be seen.",
       finding: "In August 2026 India added heatwaves to its notified natural calamities, so national and state disaster response funds can pay for heatwave relief. Before, states could spend only up to 10% of their response fund on locally declared disasters such as heat. Heat mitigation projects are funded separately, from disaster mitigation funds." }
   ],
   protection: [
     { by: "Swiss Re Institute sigma, reported by Global Reinsurance", title: "Protection gap laid bare as Asian cat losses hit $65bn", url: "https://www.globalreinsurance.com/home/swiss-re-sigma-protection-gap-laid-bare-as-asian-cat-losses-hit-65bn/1458440.article",
+      type: "Industry research, reported by the press", where: "Asia", scale: "Region-wide, 2025",
+      limit: "Covers all natural catastrophes, not heat alone; heat losses are rarely insured at all.",
       finding: "Only about 8% of Asia’s US$65 billion in natural catastrophe losses in 2025 was insured. The rest fell on households, businesses and governments." }
   ]
 };
@@ -1979,7 +2120,10 @@ const SECTION_FILMS = [
     back: { label: "Read how this map works", act: "method" } },
   { id: "fourheats", title: "Four heats in a home", label: "cooling options", video: "media/films/four-heats-in-a-home.mp4", length: "1:25",
     text: "Outdoor air, the roof, radiant heat from the ceiling and the air inside: why a tin-roofed home can stay hot long after the street cools, why informal settlements are hit harder, and what reflective roofs can do.",
-    back: { label: "See the four heats", act: "four-heats" } }
+    back: { label: "See the four heats", act: "four-heats" } },
+  { id: "strain", title: "Weather, work and the person", label: "who heat hits hardest", video: "media/films/weather-work-and-the-person.mp4", length: "1:30",
+    text: "Two people stand in the same heat. Heat strain is where the weather, the work and the person meet: humidity and hot nights, heavy effort and protective clothing, age, illness and some medicines. Who heat plans miss, and three questions to ask for every group. Not medical advice.",
+    back: { label: "See weather, work and the person", act: "strain" } }
 ];
 
 /* ---------- 17. WHO HEAT HITS HARDEST ---------- */
@@ -2168,6 +2312,26 @@ const PLAN_LEVELS = [
   { id: "orange", name: "Orange", meaning: "Be prepared", placeholder: "e.g. 43 °C, or two hot nights in a row" },
   { id: "red", name: "Red", meaning: "Take action", placeholder: "e.g. 45 °C, or heat index 42 °C" }
 ];
+// Exposure questions in step 1 of Plan a response. Each one ticked adds a prompt to discuss. Never a risk score.
+const PLAN_EXPOSURE = [
+  { id: "indoor", q: "Do they spend the hot hours indoors, in homes, sheds, kitchens or factories?", prompt: "Measure heat where they are, not only at the weather station, and count hot nights indoors." },
+  { id: "heavy", q: "Do they do heavy physical work in the heat?", prompt: "Agree rest breaks and earlier shifts that switch on with each alert level." },
+  { id: "radiant", q: "Do they work or live near sun-baked surfaces, metal roofs, furnaces, stoves or open fires?", prompt: "Shade, insulate or move the work: radiant heat adds to the air temperature." },
+  { id: "clothing", q: "Do they wear protective clothing, uniforms or gear that holds heat in?", prompt: "Plan shorter rotations in full gear, cool rest areas, water, and cooling for the work space." },
+  { id: "rest", q: "Would resting cost them pay, or is there no shade or water close by?", prompt: "Pair the alert with income protection, water points and shade within reach." },
+  { id: "night", q: "Do they sleep in rooms that stay hot at night?", prompt: "Warn for hot nights, keep cooling spaces open in the evening, and check on people who are alone." },
+  { id: "person", q: "Are many of them older, ill, pregnant or on long-term medicines?", prompt: "Plan check-in calls and clinic advice. Never advise changing medicines: ask a doctor, nurse or pharmacist what to watch for." }
+];
+// The warning-to-action table in step 4: for each alert level, who decides, who acts, who pays, by when, the fallback and how you confirm it happened.
+const PLAN_W2A = [
+  { id: "decide", name: "Who decides to act" },
+  { id: "act", name: "Who acts, and what they do", placeholder: "e.g. ward teams open cooling spaces and send water tankers" },
+  { id: "pay", name: "Who pays" },
+  { id: "deadline", name: "By when", placeholder: "e.g. within 6 hours of the alert" },
+  { id: "fallback", name: "If that fails", placeholder: "e.g. loudspeaker vans if text messages don’t reach a ward" },
+  { id: "confirm", name: "How you confirm it happened", placeholder: "e.g. each ward reports spaces opened by 2 pm" }
+];
+
 // How warnings reach people. offline: reaches people without a phone or signal.
 const PLAN_CHANNELS = [
   { id: "sms", name: "SMS and phone calls" }, { id: "apps", name: "Messaging apps and social media" },
@@ -2223,6 +2387,10 @@ const PLAN_WORKSHOP = {
 // facts: only use published sources you have opened. Book chapters are cited, not adapted (CC BY-NC-ND).
 const COOL_PLACES = [
   { id: "homes", name: "Homes", protects: "Sleep, care work, and the older people, young children and sick people who spend the hottest hours indoors.",
+    kitchen: { title: "Kitchen heat", brief: "Cooking adds heat on top of the weather, often in the smallest room and usually for women; in Nepal’s Madhesh Province it falls hardest on Dalit women in single-room homes.",
+      text: "Cooking adds heat on top of the weather, often in the smallest, least ventilated room, and usually for women. In Nepal’s Madhesh Province, women cooking in hot, smoky kitchens carry a daily ‘thermal labour’ that falls hardest on Dalit women in single-room homes with little access to clean energy or credit.",
+      questions: ["How much heat does the stove give off, and does anyone sit beside it for long?", "Can hot air and smoke get out: a window, a vent, a gap under the roof?", "Is there smoke from wood, dung or kerosene adding to the strain?", "How long is cooking each day, and can some of it move to cooler hours?", "Can the household afford cleaner fuel through the season, not only once?", "Is the electricity reliable enough for a fan or an electric cooker when it is hottest?"],
+      source: { label: "Ghimire and others, Frontiers in Public Health, 2025", url: "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1657267/full" } },
     caution: "Check the roof type, fire safety, tenure and ventilation before any retrofit.",
     measure: "Indoor temperature at 3 p.m. in treated and untreated homes, logged through the season",
     levers: ["coolhousing", "coolbydesign", "affordablecool"],
@@ -2362,6 +2530,27 @@ const COOL_PLACES = [
 ];
 
 // The traps that turn cooling money into assets that stop working. fix: what to do instead. step (optional): the plan step that helps.
+// Questions on every cooling place panel: three goals, the running needs of an option, and which outcome you are after.
+// frame follows the Clean Cooling Collaborative's three goals; questions apply to every option; outcomes stay separate.
+const COOL_ASK = {
+  frame: [
+    { id: "avoid", name: "Avoid", text: "Cut the need for cooling first: shade, cooler roofs, air flow and trees." },
+    { id: "improve", name: "Improve", text: "Where machines are needed, choose efficient ones that run on the power and water you really have." },
+    { id: "access", name: "Expand access", text: "Make sure the people most exposed can reach cooling and afford to keep it running." }
+  ],
+  frameSource: { label: "Clean Cooling Collaborative’s three goals, summarised by Philanthropy Asia Alliance", url: "https://philanthropyasiaalliance.org/our-impact/climate---nature/calls-to-action/clean-cooling-collaborative" },
+  questions: [
+    "Does it need electricity, and is the supply reliable in the hottest weeks?",
+    "What happens in a power cut: does it stop, or keep cooling without power?",
+    "Does it need water, and where will that water come from in a dry spell?",
+    "Who services or repairs it, and how fast?",
+    "Who owns the running cost each year, and from which budget?",
+    "Who can use it: renters, women, older people, people with disabilities?"
+  ],
+  outcomesShort: "a cooler room, comfort, less heat strain, better health and kept income are different outcomes; measure the one you mean.",
+  outcomes: "Name the outcome you want: a cooler room, people feeling comfortable, less heat strain on the body, fewer illnesses, or income kept. They are different. A cooler room does not prove better health, and comfort does not prove less strain, so measure the one you mean."
+};
+
 const COOL_TRAPS = [
   { name: "Buying before diagnosing", what: "The asset is chosen before anyone has mapped who is exposed, where and why, so the shade ends up where nobody waits.",
     fix: "Start with the people and places at risk, then choose.", step: 1 },
@@ -2732,7 +2921,7 @@ const HEATWAVES = [
     nodes: ["demand", "droughts"], sources: [{ label: "World Weather Attribution, 2026", url: "https://www.worldweatherattribution.org/climate-change-exposes-hundreds-of-millions-to-longer-and-deadlier-pre-monsoon-heat-in-south-asia/" },
       { label: "Mongabay, 2026", url: "https://news.mongabay.com/short-article/2026/05/climate-change-triples-chance-of-deadly-2026-south-asia-pre-monsoon-heatwave-report/" }] }
 ];
-const HEATWAVES_NOTE = "Recorded deaths are a floor, not a total: most heat deaths are never counted as heat deaths. Where no solid count exists, the timeline says so.";
+const HEATWAVES_NOTE = "Recorded deaths are a floor, not a total: many heat deaths are never counted as heat deaths. Where no solid count exists, the timeline says so.";
 
 /* ---------- 27. FOUR HEATS IN A HOME ---------- */
 // Shown in Cooling options, linked from Heat right now and the "Homes that trap heat" node. Each heat is one hotspot on the
@@ -2753,7 +2942,56 @@ const HOME_HEATS = {
     { n: "Up to 9 °C", text: "hotter indoors than outside, in pilot measurements in informal settlements in Kenya, Tanzania and Zimbabwe.", source: { label: "IIED, 2026", url: "https://www.iied.org/sites/default/files/pdfs/2026-02/22697iied.pdf" } },
     { n: "2–5 °C", text: "cooler indoors under reflective roof paint than under ordinary roofs, in Ahmedabad’s informal settlements.", source: { label: "NRDC: community-led cool roofs in four Indian cities", url: "https://www.nrdc.org/bio/anjali-jaiswal/cool-roofs-community-led-initiatives-four-indian-cities" } }
   ],
-  nuance: { text: "Indoors is not always hotter at midday: in an experiment in The Gambia, metal-roofed houses were about 1.4 °C cooler than the outdoor shade by day, but warmer at night. The danger is nights that never cool.",
+  nuance: { text: "Indoors is not always hotter at midday: in an experiment in The Gambia, metal-roofed houses were about 1.4 °C cooler than the outdoor shade by day, but warmer at night. The danger is nights that do not cool.",
     source: { label: "Malaria Journal, 2021: roof colour and indoor temperature in rural Gambia", url: "https://malariajournal.biomedcentral.com/articles/10.1186/s12936-021-03951-4" } },
   plans: "Heat warnings measure the street. Heat plans should protect the room: count indoor and night-time heat, warn for hot nights, and pay for cooler roofs where people sleep."
+};
+
+/* ---------- 28. WEATHER, WORK AND THE PERSON ---------- */
+// Heat strain is what the body carries, not what the thermometer says: three things add up. Shown in Who heat hits hardest.
+// parts: the three panels; each fact needs a published source you have opened. groups: three groups plans often miss (brief: the one-pager version).
+// Never a risk score, and never medical advice: medicines are explained as a mechanism, and people are told to ask a clinician.
+const STRAIN = {
+  intro: "The same reading on a thermometer can be safe for one person and dangerous for another. How much heat the body has to carry depends on three things together: the weather, the work, and the person. Change any one and the danger changes.",
+  parts: [
+    { id: "weather", n: "1", name: "The weather", short: "Heat, humidity, sun, wind, night",
+      text: "Air temperature is only the start. Humidity stops sweat from cooling the body, sun and hot surfaces add radiant heat, still air removes less of it, and a hot night leaves no time to recover. Conditions at a workplace or under a roof can be worse than the nearest weather station shows.",
+      facts: [
+        { text: "Monitors at 24 indoor and outdoor workplaces in Singapore found workers could face more heat stress than nearby national weather stations reported.", source: { label: "NUS Project HeatSafe, 2024", url: "https://medicine.nus.edu.sg/wp-content/uploads/2024/03/PRESS-RELEASE_Project-HeatSafe-18MAR2024-FOR-IMMEDIATE-RELEASE.pdf" } },
+        { text: "Ten extra days above 35 °C cut firms’ productivity by 0.75% in very humid places, more than double the average.", source: { label: "OECD Economics Department, 2024", url: "https://doi.org/10.1787/19d94638-en" } } ] },
+    { id: "work", n: "2", name: "The work", short: "Effort, clothing, hours, rest",
+      text: "Heavy work makes heat inside the body. Protective clothing, gowns and masks hold it in. Long shifts, fixed hours and no shade or water break let it build. The same weather is a different risk for a desk worker, a builder and a nurse in protective gear.",
+      facts: [
+        { text: "In a laboratory trial of 18 men doing treadmill work and virtual-reality welding and plank-walking at height, humid heat raised core temperature and unsteadied balance, though task speed and accuracy held up.", source: { label: "Tan et al., Medicine & Science in Sports & Exercise, 2025", url: "https://heathealth.info/resources/physical-work-in-humid-heat-impairs-postural-balance-during-simulated-construction-tasks-at-height/" } },
+        { text: "Across 3,082 health workers in India, Indonesia, Singapore, Taiwan, Thailand and Vietnam, poor practices with protective equipment were linked to heat-related symptoms.", source: { label: "Yang et al., BMC Nursing, 2024", url: "https://doi.org/10.1186/s12912-024-01770-x" } } ] },
+    { id: "person", n: "3", name: "The person", short: "Age, illness, medicines, sleep",
+      text: "Older bodies sweat less and feel thirst later. Heart, kidney and lung disease, diabetes and pregnancy add strain, and some medicines reduce the body’s ability to lose heat. A body that did not cool down overnight starts the next day already behind.",
+      facts: [
+        { text: "Thinking held up at modest heat strain: 28 adults whose core temperature reached about 38.5 °C showed no loss of executive function or risk-taking. At 39.5 °C, in a separate study of 11 adults, executive function did fall.", source: { label: "Modest strain study of 28 adults, PubMed Central", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12804366/" },
+          also: { label: "Tan et al., Journal of Sport and Health Science, 2024", url: "https://doi.org/10.1016/j.jshs.2023.09.001" } },
+        { text: "Hot nights shorten sleep, with bigger losses for older people and in lower-income countries, across 47,628 people in 68 countries.", source: { label: "Minor et al., One Earth, 2022", url: "https://orbit.dtu.dk/en/publications/rising-temperatures-erode-human-sleep-globally" } } ] }
+  ],
+  centre: "Heat strain",
+  close: "Effects depend on exposure, task and the person. That is why a single heat alert cannot protect everyone in the same way, and why plans need to ask who is doing what, in what, and after what kind of night.",
+  groups: [
+    { id: "medicines", name: "People on long-term medicines",
+      brief: "Some medicines for long-term conditions can reduce sweating or blood flow to the skin. Never stop or change a medicine because of the heat: ask a doctor, nurse or pharmacist, and plan water, shade and check-in calls.",
+      text: "Some medicines used for long-term conditions, including some for blood pressure, heart disease, Parkinson’s and Alzheimer’s disease, blood thinners and some cancer drugs, can reduce sweating or the blood flow to the skin that carries heat away. Ageing and illness can add to the effect.",
+      caution: "Never stop or change a medicine because of the heat. Ask a doctor, nurse or pharmacist what to watch for, and plan water, shade and check-in calls for people on these medicines.",
+      source: { label: "Wee and Lee, Pharmacological Reviews (summary by NUS Medicine, 2023)", url: "https://medicine.nus.edu.sg/news/medications-for-chronic-diseases-affect-the-bodys-ability-to-regulate-body-temperature-keep-cool" },
+      nodes: ["heatstroke", "kidney", "respiratory"], levers: ["readyclinics", "coolingcentres"] },
+    { id: "healthworkers", name: "Health workers in protective gear",
+      brief: "Staff in gowns, gloves and masks carry heat they cannot shed. Plan cool rest rooms, water, shorter rotations in full gear, and cooling for the clinic itself.",
+      text: "Clinics and wards fill up in a heatwave, and staff in gowns, gloves and masks carry heat they cannot shed. A survey of 3,082 health workers across six Asian places linked poor practices with protective equipment to heat-related symptoms. Its symptom scale proved unreliable, so the authors still advise staff to check their own symptoms early.",
+      caution: "Plan cool rest rooms, water, shorter rotations in full protective gear, and cooling for the clinic itself, so the people treating heat illness are not its next patients.",
+      source: { label: "Yang et al., BMC Nursing, 2024", url: "https://doi.org/10.1186/s12912-024-01770-x" },
+      nodes: ["hsys"], levers: ["readyclinics", "heatrules"] },
+    { id: "indoor", name: "Workers in hot factories and sheds",
+      brief: "At three garment factories in Phnom Penh, workers reporting heat symptoms rose from 68% to 88% in the hot months, by their own reports. Measure heat where people work, cool roofs and walls, and add air flow, water and breaks.",
+      text: "Heat is not only an outdoor problem. In a survey of 753 women at three garment factories in Phnom Penh, the share reporting heat symptoms rose from 68% in the cooler months to 88% in the hot months, as the factory heat index rose from about 25 °C to 29 °C. More said heat slowed their work and cut their motivation.",
+      caution: "These are workers’ own reports, not measured output. Plans should count indoor workplaces: measure heat where people work, cool the roof and walls, add air flow, water and breaks.",
+      source: { label: "Chea et al., BMC Public Health, 2025", url: "https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-025-22787-0" },
+      nodes: ["informal", "lost"], levers: ["heatrules", "coolhousing"] }
+  ],
+  plans: "Ask three questions for every group in a heat plan: how hot is it where they are, what are they doing and wearing, and what do they bring to it, such as age, illness, medicines and a night without sleep."
 };

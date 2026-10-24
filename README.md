@@ -130,6 +130,22 @@ The “Cooling options” section, just before “Plan a response”, shows what
 
 `HOME_HEATS` drives the interactive drawing in Cooling options: outdoor air, the roof, radiant heat and indoor air, a night view, sourced facts, the daytime nuance and a line for heat plans. Heat right now links to it with a note that warnings track the street, not the room. The film `media/films/four-heats-in-a-home.mp4` is registered in `SECTION_FILMS`.
 
+## Weather, work and the person (part 28 of `data.js`)
+
+`STRAIN` drives a three-circle explainer in Who heat hits hardest: heat strain is where the weather, the work and the person meet. Each part carries sourced facts, including a counterpoint where the evidence finds no harm at modest strain. Three groups heat plans often miss follow: people on long-term medicines (explained as a mechanism, with a reminder never to change a medicine without a clinician), health workers in protective gear, and workers in hot factories. It has a one-pager (`/print/weather-work-person/`) and a film (`media/films/weather-work-and-the-person.mp4`, registered in `SECTION_FILMS`). It is never a risk score.
+
+## Evidence cards
+
+Each `EVIDENCE` entry can carry `type`, `where`, `scale` and `limit`, shown under its finding in the evidence drawer, the loops text page and the exports. An optional `reading` holds an interpretation the source does not state, and is labelled “Our reading” so it is never mistaken for the finding.
+
+## Plan a response: exposure and warning-to-action
+
+`PLAN_EXPOSURE` adds questions to step 1; each one ticked adds a prompt to discuss, never a score. `PLAN_W2A` adds a warning-to-action table to step 4: for each alert level, who decides, who acts, who pays, by when, the fallback and how you confirm it happened. Both are saved with the plan and appear in the copied and printable plan.
+
+## Cooling cards: questions before you choose
+
+`COOL_ASK` adds questions to every cooling place panel and sheet: the three goals of avoid, improve and expand access, the running needs of each option (power, power cuts, water, servicing, who pays each year, who can use it), and a reminder to keep outcomes apart. The Homes place carries a `kitchen` prompt on kitchen heat.
+
 ## Printable one-pagers (`/print/`)
 
 `tools/build-print.js` makes single-page A4 sheets from `data.js`: Four heats in a home, Dry heat and humid heat, a brief for each city, Lessons from Asia’s heatwaves, and a cooling-options sheet for each place, plus an index at `/print/`. Each carries the brand, the beta disclaimer, the CC BY 4.0 licence, its sources and a QR code to the live page, and shrinks itself to fit one page when printed. They are rebuilt with everything else by `node tools/build-static.js`. For QR codes, run `npm install` once (it installs the `qrcode` package); without it, sheets print the web address instead. The site links to them from Cooling options, Four heats in a home, Your city, Heatwaves and the footer.
