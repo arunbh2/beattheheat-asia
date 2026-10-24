@@ -46,6 +46,24 @@
     if (qp && W.people.some(x => x.id === qp)) S.p = qp;
     else if (qc && W.countries.some(c => c.id === qc)) { const cur = W.people.find(x => x.id === S.p); if (!cur || cur.country !== qc) S.p = W.people.find(x => x.country === qc).id; } } catch (e) {}
   const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} };
+
+  // sharing: a link to a worker, optionally carrying the package and tests (base64url JSON in ?k=)
+  let shareOpen = false, shareWith = false, sharedIn = "";
+  const b64 = { to: o => btoa(unescape(encodeURIComponent(JSON.stringify(o)))).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, ""),
+    from: t => JSON.parse(decodeURIComponent(escape(atob(t.replace(/-/g, "+").replace(/_/g, "/"))))) };
+  const num = v => Math.max(0, +v || 0), str = v => String(v ?? "").slice(0, 120);
+  function readShared(raw, P) {
+    const o = b64.from(raw), x = { earn: num(o.earn), workCost: num(o.workCost), home: num(o.home), cash: num(o.cash), hours: Math.min(5, num(o.hours)),
+      heat: W.days.map((d, i) => (Array.isArray(o.heat) && o.heat[i]) ? 1 : 0), sel: {}, tests: {}, review: str(o.review) };
+    Object.entries(o.sel || {}).forEach(([id, v]) => { if (!M[id] || !P.measures.includes(id) || !v) return;
+      const m = { conds: {} }; Object.entries(v.conds || {}).forEach(([c, on]) => { if (M[id].conds.some(k => k.id === c)) m.conds[c] = !!on; });
+      if (W.payers.includes(v.payer)) m.payer = v.payer; if (W.statuses.includes(v.status)) m.status = v.status; if (v.keeper) m.keeper = str(v.keeper);
+      if (v.amount !== undefined) m.amount = num(v.amount); if (v.arrive !== undefined) m.arrive = Math.min(7, num(v.arrive)); x.sel[id] = m; });
+    W.tests.forEach(t => { if (o.tests && o.tests[t.id]) x.tests[t.id] = true; });
+    return x;
+  }
+  try { const q = new URLSearchParams(location.search), k = q.get("k"), P0 = W.people.find(x => x.id === S.p);
+    if (k && P0) { S.per[P0.id] = readShared(k, P0); sharedIn = P0.id; history.replaceState(null, "", "?p=" + P0.id); } } catch (e) {}
   const person = () => W.people.find(x => x.id === S.p) || W.people[0];
   const country = () => W.countries.find(c => c.id === person().country) || W.countries[0];
   const fresh = P => ({ earn: P.earn, workCost: P.workCost, home: P.home, cash: P.cash, hours: 3, heat: [0, 1, 1, 1, 1, 1, 0], sel: Object.fromEntries((P.defaults || []).map(id => [id, { conds: {}, status: "Confirmed" }])), tests: {}, review: "" });
@@ -196,18 +214,40 @@
     box.querySelector(".wk-chartbox").innerHTML = chart(base, pkg, has);
     box.querySelector(".wk-storybox").innerHTML = days(has ? pkg : base);
     const un = unresolved(); box.querySelector(".wk-unres").innerHTML = un.length ? `<h3>Still unresolved</h3><ul>${un.join("")}</ul>` : has ? `<h3>Nothing unresolved in this test</h3><p class="wk-small">Now try the tests: the real world rarely holds every condition.</p>` : "";
+    shareFresh();
   }
   const P = person;
+
+  function shareUrl() {
+    const P = person(), base = `${location.origin}${PAGE}?p=${P.id}`;
+    if (!shareWith) return base;
+    const s = st(); return `${base}&k=${b64.to({ earn: s.earn, workCost: s.workCost, home: s.home, cash: s.cash, hours: s.hours, heat: s.heat, sel: s.sel, tests: s.tests, review: s.review })}`;
+  }
+  function mailto() {
+    const P = person(), c = country(), subject = `Can ${P.name} stay safe and still eat? A week in the heat`;
+    const body = `${P.name} is a composite ${P.role.toLowerCase()} in ${c.name}. Follow ${P.poss} money through a heatwave week, build a package of protection, then try to break it.${shareWith ? " The link opens the package I built." : ""}\n\n${shareUrl()}\n\nFrom BeatTheHeat.Asia`;
+    return `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  }
+  const shareFresh = () => { const u = box.querySelector("[data-hw-share-url]"), m = box.querySelector("[data-hw-share-mail]"); if (u) u.value = shareUrl(); if (m) m.href = mailto(); };
 
   function render() {
     const s = st(), p = P(), cn = country(), sym = cn.cur.sym.trim(), sm = cn.cur.dp ? 0.1 : 10;
     box.innerHTML = `
+      ${sharedIn === p.id ? `<p class="wk-shared" role="status">You are looking at ${esc(p.name)}’s week as a colleague set it up. It is saved in this browser; change anything to make it yours, or start ${esc(p.name)} again at the bottom of the page.</p>` : ""}
       <div class="wk-countries" role="group" aria-label="Choose a country">${W.countries.map(c => `<button type="button" data-hw-k="${c.id}" aria-pressed="${c.id === p.country}">${esc(c.name)}</button>`).join("")}</div>
       <div class="wk-people" role="group" aria-label="Choose a worker">${W.people.filter(x => x.country === p.country).map(x => `<button type="button" class="wk-person" data-hw-p="${x.id}" aria-pressed="${x.id === p.id}">${scene(x.id)}<b>${esc(x.name)}</b><span>${esc(x.role)}</span></button>`).join("")}</div>
       <div class="wk-grid">
         <div class="wk-side">
           <p class="wk-intro">${esc(p.intro)}</p>
           ${citiesOf(cn).length ? `<p class="wk-cities">Heat right now in ${citiesOf(cn).map(x => `<a href="/#city-${x.id}" target="_blank" rel="noopener">${esc(x.name)}<span class="visually-hidden"> (opens the city on the map, in a new tab)</span></a>`).join(", ")}</p>` : ""}
+          <details class="wk-share"${shareOpen ? " open" : ""}><summary>Send ${esc(p.name)} to a colleague</summary>
+            <label class="wk-share__opt"><input type="checkbox" data-hw-share-with${shareWith ? " checked" : ""}> Include my numbers, package and tests</label>
+            <label class="wk-share__url">Link <input type="text" readonly data-hw-share-url value="${esc(shareUrl())}"></label>
+            <p class="wk-share__go"><button type="button" class="btn btn--sm btn--teal" data-hw-act="copy">Copy the link</button>
+              <a class="btn btn--sm btn--ghost" data-hw-share-mail href="${esc(mailto())}">Email it</a>
+              ${navigator.share ? `<button type="button" class="btn btn--sm btn--ghost" data-hw-act="share">Share…</button>` : ""}</p>
+            <p class="wk-small" data-hw-share-note role="status"></p>
+          </details>
           <details class="wk-ctx"><summary>${esc(cn.name)}: what is known</summary><ul>${cn.context.map(x => `<li>${esc(x.text)} <span class="cool-ev__src">${extLink(x.source.url, x.source.label)}</span></li>`).join("")}</ul></details>
           <h2 class="wk-h">${esc(p.name)}’s ordinary day</h2>
           <div class="wk-inputs">
@@ -281,7 +321,12 @@
     if (b("t")) { const id = b("t").dataset.hwT; s.tests[id] = !s.tests[id]; if (s.tests[id]) track("heatweek-test-" + id); refresh(); return; }
     const a = b("act"); if (!a) return; const act = a.dataset.hwAct, status = box.querySelector(".wk-status");
     if (act === "print") { track("heatweek-print"); openWorkerPlan(); }
-    if (act === "reset") { S.per[S.p] = fresh(P()); refresh(); }
+    if (act === "reset") { S.per[S.p] = fresh(P()); sharedIn = ""; refresh(); }
+    if (act === "copy" || act === "share") { const url = shareUrl(), note = box.querySelector("[data-hw-share-note]"), say = t => { if (note) note.textContent = t; };
+      track("heatweek-share-" + act);
+      if (act === "share") { navigator.share({ title: `A week in the heat: ${P().name}`, text: `Can ${P().name} stay safe and still eat?`, url }).catch(() => {}); return; }
+      const fallback = () => { const u = box.querySelector("[data-hw-share-url]"); if (u) { u.focus(); u.select(); } say("Select the link above and copy it."); };
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(url).then(() => say("Link copied. Paste it into an email or message."), fallback); else fallback(); }
     if (act === "plan") { const known = new Set(typeof LEVERS !== "undefined" ? LEVERS.map(v => v.id) : []), lv = [...new Set(Object.keys(s.sel).filter(id => M[id] && P().measures.includes(id)).map(id => M[id].lever))].filter(id => known.has(id));
       // the map's plan lives in this browser; add to it, and the map shows the actions next time it opens
       let plan = {}, n = 0; try { plan = JSON.parse(localStorage.getItem("bth-plan-v1") || "null") || {}; } catch (e) {}
@@ -294,11 +339,13 @@
     const t = ev.target, s = st();
     if (t.dataset.hwN) { s[t.dataset.hwN] = Math.max(0, +t.value || 0); if (t.dataset.hwN === "hours") box.querySelector("[data-hw-hout]").textContent = s.hours; save(); results(); return; }
     if (t.dataset.hwAmt) { s.sel[t.dataset.hwAmt].amount = Math.max(0, +t.value || 0); save(); results(); return; }
-    if (t.dataset.hwF && t.tagName === "INPUT") { const [id, f] = t.dataset.hwF.split(":"); s.sel[id][f] = t.value; save(); return; }
-    if (t.dataset.hwReview !== undefined) { s.review = t.value; save(); }
+    if (t.dataset.hwF && t.tagName === "INPUT") { const [id, f] = t.dataset.hwF.split(":"); s.sel[id][f] = t.value; save(); shareFresh(); return; }
+    if (t.dataset.hwReview !== undefined) { s.review = t.value; save(); shareFresh(); }
   });
+  box.addEventListener("toggle", ev => { if (ev.target.classList && ev.target.classList.contains("wk-share")) shareOpen = ev.target.open; }, true);
   box.addEventListener("change", ev => {
     const t = ev.target, s = st();
+    if (t.dataset.hwShareWith !== undefined) { shareWith = t.checked; shareFresh(); return; }
     if (t.dataset.hwC) { const [id, c] = t.dataset.hwC.split(":"); s.sel[id].conds[c] = t.checked; refresh(); return; }
     if (t.dataset.hwArr) { s.sel[t.dataset.hwArr].arrive = +t.value; refresh(); return; }
     if (t.dataset.hwF && t.tagName === "SELECT") { const [id, f] = t.dataset.hwF.split(":"); s.sel[id][f] = t.value; refresh(); }

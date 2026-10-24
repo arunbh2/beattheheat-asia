@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap">
 
-  <link rel="stylesheet" href="styles.css?v=103">
+  <link rel="stylesheet" href="styles.css?v=105">
 
   <script type="application/ld+json">
   {
@@ -111,15 +111,21 @@
   }
   </script>
   <link rel="alternate" type="text/plain" href="/llms-full.txt" title="The whole map as plain text">
-  <script src="data.js?v=103" defer></script>
-  <script src="script.js?v=103" defer></script>
-  <script src="heatweek.js?v=103" defer></script>
+  <script src="data.js?v=105" defer></script>
+  <script src="script.js?v=105" defer></script>
+  <script src="heatweek.js?v=105" defer></script>
 </head>
 
 <body>
   <a class="skip-link" href="#explore">Skip to the map</a>
   <a class="skip-link" href="#list-title">Skip to the map as a list</a>
 
+  <!-- live temperature ticker (filled by script.js from the same cached reading as "Heat right now") -->
+  <div class="ticker" id="ticker" role="region" aria-label="Live temperatures in Asian cities" hidden>
+    <a class="ticker__k" href="#heat-now"><span class="ticker__dot" aria-hidden="true"></span>Live</a>
+    <div class="ticker__view"><div class="ticker__track" id="ticker-track"></div></div>
+    <button type="button" class="ticker__pause" id="ticker-pause" aria-pressed="false">Pause</button>
+  </div>
   <header class="site-header">
     <a class="wordmark" href="./"><span class="wordmark__mark" aria-hidden="true"></span>BEAT THE HEAT</a>
     <nav class="header-nav" aria-label="Main sections">
