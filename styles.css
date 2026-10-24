@@ -2009,3 +2009,29 @@ body.film-open { overflow: hidden; }
   .ticker__view { overflow-x: auto; -webkit-mask-image: none; mask-image: none; }
   .ticker__set[aria-hidden="true"], .ticker__pause { display: none; }
 }
+.ticker__lv { margin-left: 6px; padding: 1px 7px; border-radius: 999px; font-size: .66rem; font-weight: 800; letter-spacing: .04em; background: #F2C14E; color: #16202B; }
+.ticker__lv--1 { background: #F26430; color: #16202B; }
+.ticker__lv--2 { background: #D7263D; color: #fff; }
+.now-c__lv { margin-top: 8px; padding: 8px 10px; border-radius: 8px; background: rgba(242,193,78,.12); border-left: 4px solid #F2C14E; font-size: .78rem; line-height: 1.45; color: #D9DEE4; }
+.now-c__lv b { display: block; color: #F7D27A; }
+.now-c__lv a { color: inherit; }
+.now-c__lv--1 { background: rgba(242,100,48,.14); border-left-color: #F26430; }
+.now-c__lv--1 b { color: #F9A47E; }
+.now-c__lv--2 { background: rgba(215,38,61,.18); border-left-color: #E5485C; }
+.now-c__lv--2 b { color: #F59AA6; }
+
+/* heat in the news, and new research (inside Heat right now) */
+.feeds { margin-top: 40px; padding-top: 28px; border-top: 1px solid #2E3B49; }
+.feeds__title { font-family: var(--font-display); font-weight: 400; text-transform: uppercase; font-size: clamp(1.4rem, 1.1rem + 1.2vw, 2rem); line-height: 1.05; }
+.feeds__cols { margin-top: 18px; display: grid; gap: 28px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (max-width: 760px) { .feeds__cols { grid-template-columns: 1fr; } }
+.feed__h { font-size: .74rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: #F6A27C; }
+.feed__list { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 4px; }
+.feed__list li { padding: 10px 0; border-bottom: 1px solid #2E3B49; display: grid; gap: 3px; }
+.feed__list a { color: var(--canvas); font-weight: 600; line-height: 1.35; text-decoration: none; }
+.feed__list a:hover, .feed__list a:focus-visible { text-decoration: underline; text-decoration-color: var(--orange); text-underline-offset: 3px; }
+.feed__src { font-size: .76rem; color: #A9B0BA; }
+.feed__wait { color: #A9B0BA; font-size: .85rem; }
+.feed__more { margin-top: 10px; color: #F6A27C; }
+.feed__meta, .feeds__note { margin-top: 10px; font-size: .76rem; color: #A9B0BA; }
+.feed__meta a { color: inherit; }

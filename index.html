@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap">
 
-  <link rel="stylesheet" href="styles.css?v=105">
+  <link rel="stylesheet" href="styles.css?v=106">
 
   <script type="application/ld+json">
   {
@@ -111,9 +111,9 @@
   }
   </script>
   <link rel="alternate" type="text/plain" href="/llms-full.txt" title="The whole map as plain text">
-  <script src="data.js?v=105" defer></script>
-  <script src="script.js?v=105" defer></script>
-  <script src="heatweek.js?v=105" defer></script>
+  <script src="data.js?v=106" defer></script>
+  <script src="script.js?v=106" defer></script>
+  <script src="heatweek.js?v=106" defer></script>
 </head>
 
 <body>
@@ -376,6 +376,14 @@
         <p class="now__room" id="now-room"></p>
         <p class="now__foot" id="now-foot"></p>
         <p class="now__plan">Want to see what this week’s forecast would switch on? Set your alert levels in step 4 of <a href="#plan-step-4">Plan a response</a> and pick a city.</p>
+        <div class="feeds" id="feeds">
+          <h3 class="feeds__title" id="feeds-title">Heat in the news, and new research</h3>
+          <div class="feeds__cols">
+            <section class="feed" aria-labelledby="feed-news-h"><h4 class="feed__h" id="feed-news-h">In the news</h4><ol class="feed__list" id="feed-news"><li class="feed__wait">Loading…</li></ol><p class="feed__meta" id="feed-news-meta"></p></section>
+            <section class="feed" aria-labelledby="feed-research-h"><h4 class="feed__h" id="feed-research-h">New research</h4><ol class="feed__list" id="feed-research"><li class="feed__wait">Loading…</li></ol><p class="feed__meta" id="feed-research-meta"></p></section>
+          </div>
+          <p class="feeds__note" id="feeds-note"></p>
+        </div>
       </div>
     </section>
 
