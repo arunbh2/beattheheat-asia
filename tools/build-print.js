@@ -13,7 +13,7 @@ let QR = null; try { QR = require("qrcode"); } catch (e) { /* optional */ }
 const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + `
 ;Object.assign(this, { HOME_HEATS, GLOSSARY, LIVE_CITIES, CITY_PROFILES, CITY_HAP, LOOPS, LEVERS, ORGANISATIONS, WORKED_EXAMPLES, AT_RISK,
-  HEATWAVES, HEATWAVES_NOTE, COOL_PLACES, COOL_TRAPS, COOL_COST_NOTE, COOL_FX, STALLS, LIVE_FINGERPRINT, LOOP_STAKES, STRAIN, COOL_ASK, ACTION_SETTINGS, ACTION_LINES, INSTITUTIONS });`, ctx);
+  HEATWAVES, HEATWAVES_NOTE, COOL_PLACES, COOL_TRAPS, COOL_COST_NOTE, COOL_FX, STALLS, LIVE_FINGERPRINT, LOOP_STAKES, STRAIN, COOL_ASK, ACTION_SETTINGS, ACTION_LINES, INSTITUTIONS, FINANCE });`, ctx);
 const D = ctx, TODAY = new Date().toISOString().slice(0, 10);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const short = u => String(u).replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "");
@@ -256,6 +256,27 @@ async function build() {
       await sheet({ slug: "heatwaves", kind: "One-pager · For journalists, officials and funders", title: "Lessons from Asia’s heatwaves, 1998–2026",
         lede: "Ten heatwaves across South and Southeast Asia: what they cost, what changed afterwards, and what they teach.", body, live: "/#heatwaves",
         sources: D.HEATWAVES.flatMap(h => h.sources.slice(0, 1)) }));
+  }
+
+  // 4c. Paying for heat protection
+  {
+    const F = D.FINANCE;
+    const body = `<h2>What needs paying for, and when must the money arrive?</h2>
+      <table><tr><th style="width:27%">Need</th><th style="width:31%">Route to look into</th><th>The question to answer</th></tr>${F.needs.map(n => `<tr><td><b>${esc(n.need)}</b></td><td>${esc(n.route)}</td><td>${esc(n.ask)}</td></tr>`).join("")}</table>
+      <p style="font-size:7.8pt;color:#5E6570;margin-top:2px">${esc(F.needsNote)}</p>
+      <div class="cols" style="margin-top:4px">
+        <div><h2>Three triggers, not one</h2>${F.triggers.map(t => `<p style="margin-top:2px"><b>${esc(t.name)}.</b> ${esc(t.does)}</p>`).join("")}<div class="box hot" style="margin-top:4px"><b>${esc(F.triggersNote)}</b></div></div>
+        <div><h2>${esc(F.basis.q)}</h2>${F.basis.kinds.map(k => `<p style="margin-top:2px"><b>${esc(k.name)}.</b> ${esc(k.text)}</p>`).join("")}<div class="box good" style="margin-top:4px"><b>${esc(F.basis.ask)}</b></div></div></div>
+      <h2>From trigger to protection</h2><p>${F.pathway.steps.map((x, i) => `<b>${i + 1}.</b> ${esc(x)}`).join(" &nbsp;→&nbsp; ")}</p><p style="font-size:8.6pt;margin-top:2px">${esc(F.pathway.note)}</p>
+      <div class="cols" style="margin-top:2px"><div><h2>Write down, for any money that passes through someone else</h2><ul class="check">${F.fields.map(x => `<li>${esc(x.name)}</li>`).join("")}</ul></div>
+        <div><h2>Will it survive the next season?</h2><ul class="check">${F.survive.map(q => `<li>${esc(q)}</li>`).join("")}</ul></div></div>
+      <p style="margin-top:5px;font-size:8.6pt"><b>What has been tried:</b> ${F.cases.map(c => `${esc(c.name.toLowerCase())} (${esc(c.where)})`).join("; ")}. Who paid, who received it and what each left out are on the live page.</p>
+      <p style="margin-top:5px;font-size:7.8pt;color:#5E6570">${esc(F.boundary)}</p>`;
+    const meta = { kind: "One-pager · For heat officers, finance departments and funders", title: "Paying for heat protection", for: "Heat officers, finance departments and funders" };
+    add("paying-for-protection", meta,
+      await sheet({ slug: "paying-for-protection", kind: meta.kind, title: meta.title,
+        lede: "Protection only works if someone pays for it, the money arrives in time, and it is still there next season.", body, live: "/#finance",
+        sources: [F.basis.source, ...F.cases.map(c => c.sources[c.sources.length - 1])].filter((v, i, a) => a.findIndex(w => w.url === v.url) === i) }));
   }
 
   // 4b. Practical action cards, one sheet per setting

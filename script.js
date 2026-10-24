@@ -1085,7 +1085,7 @@
     else if (act === "prev") { state.step--; renderStep(); }
   }
   document.addEventListener("click", ev => {
-    if (ev.target.closest("#panel, #guide, #loops, #web-list, #practical, #start, #who-holds, #at-risk, #stalls, #cooling, #city, #heatwaves, #network, #breakbar, #day, #path-form, .intro")) handleAction(ev);
+    if (ev.target.closest("#panel, #guide, #loops, #web-list, #practical, #finance, #start, #who-holds, #at-risk, #stalls, #cooling, #city, #heatwaves, #network, #breakbar, #day, #path-form, .intro")) handleAction(ev);
   });
   document.addEventListener("keydown", ev => {
     if (ev.key === "Escape" && (state.selected || state.story || state.inst || state.pkg)) { clearSelection(); fitAll(); }
@@ -1354,8 +1354,8 @@
   const EXAMPLES = typeof WORKED_EXAMPLES !== "undefined" ? WORKED_EXAMPLES : [];
   const STALL_LIST = typeof STALLS !== "undefined" ? STALLS : [];
   const PLAN_KEY = "bth-plan-v1";
-  let plan = { place: "", group: "", levers: [], rows: {}, example: null, stalls: [], triggers: {}, review: "", exposure: [] };
-  try { const saved = JSON.parse(localStorage.getItem(PLAN_KEY) || "null"); if (saved && Array.isArray(saved.levers)) plan = Object.assign(plan, saved); if (!Array.isArray(plan.stalls)) plan.stalls = []; if (!plan.triggers || typeof plan.triggers !== "object") plan.triggers = {}; if (!Array.isArray(plan.exposure)) plan.exposure = []; } catch (e) {}
+  let plan = { place: "", group: "", levers: [], rows: {}, example: null, stalls: [], triggers: {}, review: "", exposure: [], finance: {} };
+  try { const saved = JSON.parse(localStorage.getItem(PLAN_KEY) || "null"); if (saved && Array.isArray(saved.levers)) plan = Object.assign(plan, saved); if (!Array.isArray(plan.stalls)) plan.stalls = []; if (!plan.triggers || typeof plan.triggers !== "object") plan.triggers = {}; if (!Array.isArray(plan.exposure)) plan.exposure = []; if (!plan.finance || typeof plan.finance !== "object") plan.finance = {}; } catch (e) {}
   const savePlan = () => { try { localStorage.setItem(PLAN_KEY, JSON.stringify(plan)); } catch (e) {} };
   const PHASES = typeof PLAN_PHASES !== "undefined" ? PLAN_PHASES : [], PHASE_DEF = typeof PLAN_PHASE_DEFAULT !== "undefined" ? PLAN_PHASE_DEFAULT : {};
   const phaseById = Object.fromEntries(PHASES.map(x => [x.id, x]));
@@ -1370,6 +1370,25 @@
   // a level counts as covered once someone is named to act on it
   const w2aDone = () => LEVELS.filter(l => ((trig().w2a || {})[l.id] || {}).act).length;
   const expoOn = () => EXPO.filter(x => plan.exposure.includes(x.id));
+  // paying for protection (part 30): a route and an arrival date for each need, and the path money takes to people
+  const FIN = typeof FINANCE !== "undefined" ? FINANCE : null;
+  const fin = () => plan.finance || (plan.finance = {});
+  const finNeed = id => { const n = fin().needs || (fin().needs = {}); return n[id] || (n[id] = {}); };
+  const finPath = () => fin().path || (fin().path = {});
+  const finDone = () => FIN ? FIN.needs.filter(n => ((fin().needs || {})[n.id] || {}).route).length : 0;
+  function finHTML() {
+    if (!FIN) return "";
+    return `<details class="plan-w2a plan-fin"${finDone() ? " open" : ""}><summary>Paying for protection <span>${finDone()} of ${FIN.needs.length} needs with a route</span></summary>
+      <p class="plan-step__hint">${esc(FIN.intro)} <a href="#finance">How the routes compare</a></p>
+      ${FIN.needs.map(n => { const v = finNeed(n.id); return `<fieldset class="plan-w2a__lv plan-fin__need"><legend>${esc(n.need)}</legend>
+        <label>Route, and who holds the money <input type="text" data-pl-fin="need:${n.id}:route" value="${esc(v.route || "")}" placeholder="e.g. ${esc(n.route.toLowerCase())}"></label>
+        <label>Money must arrive by <input type="text" data-pl-fin="need:${n.id}:by" value="${esc(v.by || "")}" placeholder="${esc(n.ask)}"></label></fieldset>`; }).join("")}
+      <fieldset class="plan-w2a__lv plan-fin__path"><legend>If money passes through someone else first</legend>
+        ${FIN.fields.map(f => `<label>${esc(f.name)} <input type="text" data-pl-fin="path:${f.id}" value="${esc(finPath()[f.id] || "")}" placeholder="${esc(f.placeholder)}"></label>`).join("")}
+      </fieldset>
+      <p class="plan-ladder__k">Will it survive the next season?</p><ul class="plan-exposure__prompts">${FIN.survive.map(q => `<li>${esc(q)}</li>`).join("")}</ul></details>`;
+  }
+  function renderPlanFin() { const box = document.getElementById("plan-fin"); if (box) box.innerHTML = finHTML(); }
 
   // step 1: exposure questions; each one ticked adds something to discuss, never a score
   function renderPlanExposure() {
@@ -1443,6 +1462,9 @@
             : f.id === "pay" ? `<label>${esc(f.name)} <select data-pl-w2a="${l.id}:pay">${PAYERS.map(p => `<option${(w.pay || PAYERS[0]) === p ? " selected" : ""}>${esc(p)}</option>`).join("")}</select></label>`
             : `<label>${esc(f.name)} <input type="text" data-pl-w2a="${l.id}:${f.id}" value="${esc(w[f.id] || "")}" placeholder="${esc(f.placeholder || "")}"></label>`).join("")}
         </fieldset>`; }).join("")}</details>` : ""}
+      ${FIN ? `<div class="plan-paytrig"><p class="plan-ladder__k">Insurance or cash triggers, if any <span>${esc(FIN.triggersNote)}</span></p>
+        <label>Payout trigger and its data source <input type="text" data-pl-fin="payout" value="${esc(fin().payout || "")}" placeholder="e.g. district maximum above a set threshold, from the weather service"></label>
+        <label>${esc(FIN.basis.ask)} <input type="text" data-pl-fin="nopay" value="${esc(fin().nopay || "")}" placeholder="e.g. the city’s heat relief fund for workers outside the trigger area"></label></div>` : ""}
       <p class="plan-ladder__k">How warnings reach people <span>The ones marked ✱ reach people without a phone or signal.</span></p>
       <div class="plan-channels">${CHANNELS.map(c => `<label class="plan-check"><input type="checkbox" data-pl-chan="${c.id}"${ch.includes(c.id) ? " checked" : ""}><span>${esc(c.name)}${c.offline ? " ✱" : ""}</span></label>`).join("")}</div>
       ${LIVE.length ? `<div class="plan-live"><p class="plan-ladder__k">Test your alert levels against this week’s forecast</p>
@@ -1595,7 +1617,7 @@
     grp.innerHTML = `<option value="">Choose a group…</option>` + PG.map(g => `<option value="${g.id}"${plan.group === g.id ? " selected" : ""}>${esc(g.name)}</option>`).join("");
     place.value = plan.place;
     const rv = document.getElementById("plan-review"); if (rv) rv.value = plan.review || "";
-    renderPlanStory(); renderPlanChecklist(); renderPlanWorkshop(); renderPlanExposure(); renderPlanActions(); renderPlanRows(); renderPlanTriggers(); renderPlanStalls(); renderPlanCheck(); renderPlanSummary();
+    renderPlanStory(); renderPlanChecklist(); renderPlanWorkshop(); renderPlanExposure(); renderPlanFin(); renderPlanActions(); renderPlanRows(); renderPlanTriggers(); renderPlanStalls(); renderPlanCheck(); renderPlanSummary();
   }
 
   // the practical guides for the chosen actions, each listed once, under the first action that needs it
@@ -1618,6 +1640,10 @@
     if (W2A.length) { L.push("", "WARNING-TO-ACTION TABLE");
       LEVELS.forEach(l => { const w = (t.w2a || {})[l.id] || {}; L.push(`${l.name} (${l.meaning}):`);
         W2A.forEach(f => L.push(`   ${f.name}: ${(f.id === "decide" ? instName(w.decide) : f.id === "pay" ? (w.pay || PAYERS[0]) : w[f.id]) || "(not set)"}`)); }); }
+    if (FIN) { const f = fin(); L.push("", "PAYING FOR PROTECTION");
+      FIN.needs.forEach(n => { const v = (f.needs || {})[n.id] || {}; L.push(`${n.need}: ${v.route || "(no route yet)"}${v.by ? `. Must arrive by: ${v.by}` : ""}`); });
+      FIN.fields.forEach(x => L.push(`   ${x.name}: ${(f.path || {})[x.id] || "(not set)"}`));
+      L.push(`Payout trigger: ${f.payout || "(none)"}`, `If it does not pay: ${f.nopay || "(not set)"}`, "Will it survive the next season?", ...FIN.survive.map(q => `   - ${q}`)); }
     if (expoOn().length) { L.push("", "EXPOSURE: TO DISCUSS (prompts, not a risk score)"); expoOn().forEach(x => L.push(`   - ${x.q} ${x.prompt}`)); }
     L.push("", "WHO CORE ELEMENTS CHECK"); whoCheck().forEach(({ e, st, note }) => L.push(`[${ST[st]}] ${e.name}: ${note}`));
     if (typeof PLAN_REVIEW !== "undefined") { L.push("", `AFTER-SEASON REVIEW${plan.review ? ": " + plan.review : ""}`); PLAN_REVIEW.forEach(q => L.push(`   - ${q}`)); }
@@ -1658,6 +1684,11 @@
         ${W2A.length ? `<h2>Warning-to-action table</h2><table><thead><tr><th>Level</th>${W2A.map(f => `<th>${h(f.name)}</th>`).join("")}</tr></thead><tbody>${LEVELS.map(l => { const w = (t.w2a || {})[l.id] || {};
           return `<tr><td><span class="lv lv--${l.id}"></span><strong>${h(l.name)}</strong></td>${W2A.map(f => { const v = f.id === "decide" ? instName(w.decide) : f.id === "pay" ? (w.pay || PAYERS[0]) : w[f.id];
             return `<td class="${v && v !== "Not decided yet" ? "" : "gap"}">${h(v || "Not set")}</td>`; }).join("")}</tr>`; }).join("")}</tbody></table>` : ""}`; })()}
+      ${FIN ? (f => `<h2>Paying for protection</h2><table><thead><tr><th>Need</th><th>Route, and who holds the money</th><th>Must arrive by</th></tr></thead><tbody>${FIN.needs.map(n => { const v = (f.needs || {})[n.id] || {};
+        return `<tr><td><strong>${h(n.need)}</strong></td><td class="${v.route ? "" : "gap"}">${h(v.route || "No route yet")}</td><td>${h(v.by || "")}</td></tr>`; }).join("")}</tbody></table>
+        <table><tbody>${FIN.fields.map(x => `<tr><td><strong>${h(x.name)}</strong></td><td class="${(f.path || {})[x.id] ? "" : "gap"}">${h((f.path || {})[x.id] || "Not set")}</td></tr>`).join("")}
+        <tr><td><strong>Payout trigger</strong></td><td>${h(f.payout || "None")}</td></tr><tr><td><strong>If it does not pay</strong></td><td class="${f.nopay || !f.payout ? "" : "gap"}">${h(f.nopay || "Not set")}</td></tr></tbody></table>
+        <p class="note">Will it survive the next season? ${h(FIN.survive.join(" "))}</p>`)(fin()) : ""}
       ${expoOn().length ? `<h2>Exposure: to discuss</h2><p class="note">Prompts from the exposure questions, not a risk score.</p><ul>${expoOn().map(x => `<li><strong>${h(x.q)}</strong> ${h(x.prompt)}</li>`).join("")}</ul>` : ""}
       ${(() => { const c = whoCheck(); return c.length ? `<h2>Check against WHO’s eight core elements</h2><p class="note">${c.filter(x => x.st === "yes").length} of ${c.length} in place. From WHO/Europe, Heat–health action plans: guidance, second edition (2026).</p>
         <table><tbody>${c.map(({ e, st, note }) => `<tr><td><strong>${h(e.name)}</strong></td><td class="${st === "yes" ? "" : "gap"}">${h(ST[st])}</td><td>${h(note)}</td></tr>`).join("")}</tbody></table>` : ""; })()}
@@ -1676,7 +1707,7 @@
   function loadExample(id) {
     const ex = EXAMPLES.find(x => x.id === id); if (!ex) return;
     track("plan-example-" + id);
-    plan = { place: ex.place, group: ex.group, levers: ex.actions.map(a => a.lever), rows: {}, example: ex.id, stalls: [], triggers: Object.assign({}, ex.triggers || {}), review: "", exposure: [] };
+    plan = { place: ex.place, group: ex.group, levers: ex.actions.map(a => a.lever), rows: {}, example: ex.id, stalls: [], triggers: Object.assign({}, ex.triggers || {}), review: "", exposure: [], finance: {} };
     ex.actions.forEach(a => { plan.rows[a.lever] = { lead: a.lead, payer: a.payer, measure: a.measure, phase: a.phase || PHASE_DEF[a.lever] || "year" }; });
     savePlan(); renderPlan();
     document.getElementById("plan-story").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" });
@@ -1694,6 +1725,9 @@
       else if (t.dataset.plField === "measure" || t.dataset.plField === "upkeep") { planRow(t.closest("[data-pl-row]").dataset.plRow)[t.dataset.plField] = t.value; light(); }
       else if (t.id === "plan-review") { plan.review = t.value; light(); }
       else if (t.dataset.plTrig && t.tagName === "INPUT") { trig()[t.dataset.plTrig] = t.value; light(); }
+      else if (t.dataset.plFin) { const k = t.dataset.plFin.split(":");
+        if (k[0] === "need") finNeed(k[1])[k[2]] = t.value; else if (k[0] === "path") finPath()[k[1]] = t.value; else fin()[k[0]] = t.value;
+        light(); const sm = sec.querySelector(".plan-fin summary span"); if (sm) sm.textContent = `${finDone()} of ${FIN.needs.length} needs with a route`; }
       else if (t.dataset.plW2a && t.tagName === "INPUT") { const [lv, f] = t.dataset.plW2a.split(":"); w2a(lv)[f] = t.value; light(); updW2a(); }
     });
     sec.addEventListener("change", ev => {
@@ -1741,7 +1775,7 @@
       if (act === "map") goToMap(() => applyLevers(plan.levers, plan.place || "Your plan", "The actions in your plan, switched on together."));
       else if (act === "print") openPlan();
       else if (act === "copy") navigator.clipboard.writeText(planText()).then(() => { if (status) status.textContent = "Plan copied. Paste it into an email or document."; }, () => { if (status) status.textContent = "Couldn’t copy. Use “Open a printable plan” instead."; });
-      else if (act === "clear") { plan = { place: "", group: "", levers: [], rows: {}, example: null, stalls: [], triggers: {}, review: "", exposure: [] }; savePlan(); renderPlan(); }
+      else if (act === "clear") { plan = { place: "", group: "", levers: [], rows: {}, example: null, stalls: [], triggers: {}, review: "", exposure: [], finance: {} }; savePlan(); renderPlan(); }
     });
   })();
 
@@ -2247,6 +2281,7 @@
     sec.addEventListener("click", ev => {
       const t = ev.target.closest("[data-pa]") || ev.target.closest("[data-pa-tab]"); if (t) { showPractical(t.dataset.pa || t.dataset.paTab); track("practical-" + (t.dataset.pa || t.dataset.paTab)); return; }
       const g = ev.target.closest("[data-pa-go]");
+      if (g && g.dataset.paGo === "finance") { track("practical-q-finance"); document.getElementById("finance").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" }); return; }
       if (g) { showPractical(g.dataset.paGo); track("practical-q-" + g.dataset.paGo); document.getElementById("pa-panel").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" }); return; }
       const a = ev.target.closest("[data-pa-add]");
       if (a) { const id = a.dataset.paAdd, st = document.getElementById("pa-status"), had = plan.levers.includes(id);
@@ -2262,6 +2297,40 @@
       if (j === null) return;
       ev.preventDefault(); showPractical(all[j].dataset.pa, true);
     });
+  }
+
+  // Paying for protection: what needs paying for, three kinds of trigger, basis risk, the payment path, lasting, and cases
+  function renderFinance() {
+    const box = document.getElementById("finance-body"); if (!box || typeof FINANCE === "undefined") return;
+    const F = FINANCE, src = x => `<span class="cool-ev__src">${extLink(x.url, x.label)}</span>`;
+    box.innerHTML = `<p class="loops__intro">${esc(F.intro)}</p>
+      <h3 class="fin-h">What needs paying for, and when must the money arrive?</h3>
+      <div class="fin-table" role="table" aria-label="Needs and funding routes">
+        <div class="fin-row fin-row--h" role="row"><span role="columnheader">Need</span><span role="columnheader">Route to look into</span><span role="columnheader">The question to answer</span></div>
+        ${F.needs.map(n => `<div class="fin-row" role="row"><span role="cell"><b>${esc(n.need)}</b></span><span role="cell">${esc(n.route)}</span><span role="cell">${esc(n.ask)}</span></div>`).join("")}
+      </div>
+      <p class="fin-note">${esc(F.needsNote)}</p>
+      <div class="fin-grid">
+        <div class="fin-card"><h3 class="fin-h">Three triggers, not one</h3>
+          <dl class="fin-trig">${F.triggers.map(t => `<div><dt>${esc(t.name)}</dt><dd>${esc(t.does)} <span>${esc(t.who)}.</span></dd></div>`).join("")}</dl>
+          <p class="fin-warn">${esc(F.triggersNote)}</p></div>
+        <div class="fin-card"><h3 class="fin-h">${esc(F.basis.q)}</h3>
+          <ul class="fin-basis">${F.basis.kinds.map(k => `<li><b>${esc(k.name)}.</b> ${esc(k.text)}</li>`).join("")}</ul>
+          <p class="fin-ask">${esc(F.basis.ask)}</p><p class="fin-note">${gloss(F.basis.note)} ${src(F.basis.source)}</p></div>
+      </div>
+      <h3 class="fin-h">From trigger to protection</h3>
+      <ol class="fin-path">${F.pathway.steps.map(x => `<li>${esc(x)}</li>`).join("")}</ol>
+      <p class="fin-note">${esc(F.pathway.note)} ${src(F.pathway.source)}</p>
+      <h3 class="fin-h">Will it survive the next season?</h3>
+      <ul class="fin-survive">${F.survive.map(q => `<li>${esc(q)}</li>`).join("")}</ul>
+      <p class="fin-note">Many index-insurance pilots in Asia work technically but stall at renewal. ${src(F.surviveSource)}</p>
+      <h3 class="fin-h">What has been tried</h3>
+      <div class="fin-cases">${F.cases.map(c => `<article class="fin-case" id="fin-${c.id}"><h4>${esc(c.name)}</h4><p class="fin-case__where">${esc(c.where)} · <span>${esc(c.hazard)}</span></p>
+        <dl>${[["Who paid", c.paid], ["Who received it", c.received], ["What it made possible", c.enabled], ["What it left out", c.uncovered], ["Did it continue?", c.continued]].map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>
+        <p class="fin-case__lesson"><b>Lesson</b>${esc(c.lesson)}</p><p class="fin-case__src">${c.sources.map(x => extLink(x.url, x.label)).join(" · ")}</p></article>`).join("")}</div>
+      <p class="fin-boundary"><b>What this evidence can and can’t tell you.</b> ${esc(F.boundary)} ${src(F.boundarySource)}</p>
+      <p class="fin-go"><a class="btn btn--sm btn--teal" href="#plan-step-3">Add who pays to your plan</a> ${printLink("paying-for-protection", "Print the one-pager")}</p>
+      <p class="risk__row risk__row--break"><span>Related actions:</span> ${["heatcash", "anticipatory", "heatbudget", "socialprotection", "riskpools"].filter(id => leverById[id]).map(id => `<button type="button" class="lever-chip" data-lever="${id}">${esc(leverById[id].title)}</button>`).join("")}</p>`;
   }
 
   // Why action stalls: how to tell, what moves it, and where it shows on the map
@@ -2870,6 +2939,7 @@
     renderStrain();
     renderStalls();
     renderPractical();
+    renderFinance();
     renderCooling();
     renderHomeHeats();
     renderNow();
