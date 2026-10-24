@@ -198,6 +198,8 @@
   const WHEN = { season: "Works this season", years: "1–3 years", decade: "A decade or more" };
   const whenTag = v => v.when && WHEN[v.when] ? `<span class="when when--${v.when}">${WHEN[v.when]}</span>` : "";
   const evidenceOf = id => (typeof EVIDENCE !== "undefined" && EVIDENCE[id]) || [];
+  // a link to a printable one-pager in /print/ (opens in a new tab)
+  const printLink = (slug, text) => `<a class="print-link" href="/print/${slug}/" target="_blank" rel="noopener"><span class="print-ico" aria-hidden="true"></span>${esc(text)}<span class="visually-hidden"> (printable page, opens in a new tab)</span></a>`;
   const extLink = (url, text) => `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(text)}<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a>`;
   // the heat network: organisations already working on each lever
   const ORGS = typeof ORGANISATIONS !== "undefined" ? ORGANISATIONS : [];
@@ -2143,7 +2145,7 @@
       ${(p.facts || []).length ? `<div class="cool-panel__facts">${p.facts.map(f => `<p class="stall__fact">${gloss(f.fact)} ${extLink(f.source.url, f.source.label)}</p>`).join("")}</div>` : ""}
       <p class="cool-panel__measure"><b>How you will know</b>${esc(p.measure)}</p>
       <p class="risk__row risk__row--break"><span>On the map:</span> ${p.levers.filter(id => leverById[id]).map(id => `<button type="button" class="lever-chip" data-lever="${id}">${esc(leverById[id].title)}</button>`).join("")}</p>
-      <p class="cool-panel__add"><button type="button" class="btn btn--sm btn--teal" data-cool-add="${p.id}">Add these actions to my plan</button></p>`;
+      <p class="cool-panel__add"><button type="button" class="btn btn--sm btn--teal" data-cool-add="${p.id}">Add these actions to my plan</button> ${printLink(`cooling-${p.id}`, `Print the ${p.name.toLowerCase()} sheet`)}</p>`;
   }
   function renderCooling() {
     const tabs = document.getElementById("cool-tabs"); if (!tabs || !COOL.length) return;
@@ -2370,7 +2372,7 @@
           <p class="cp__note">Listing does not imply partnership, affiliation or endorsement.</p>
         </div>
       </div>
-      <p class="cp__foot">Share this city: <a href="#city-${p.id}">beattheheat.asia/#city-${p.id}</a> · <a href="/cities/${p.id}/">Read it as a page</a></p>`;
+      <p class="cp__foot">Share this city: <a href="#city-${p.id}">beattheheat.asia/#city-${p.id}</a> · <a href="/cities/${p.id}/">Read it as a page</a> · ${printLink(`city-${p.id}`, `Print a one-page brief for ${c.name}`)} · ${printLink("dry-and-humid-heat", "Print: dry and humid heat")}</p>`;
   }
 
   function cityDots() {
@@ -2496,6 +2498,7 @@
         <div class="hh-side">
           <div class="hh-detail" aria-live="polite"></div>
           ${watchButton("film:fourheats", "Watch: four heats in a home")}
+          <p>${printLink("four-heats", "Print the one-pager, with a checklist for heat plans")}</p>
         </div>
       </div>
       <ul class="hh-facts">${H.facts.map(f => `<li><b>${esc(f.n)}</b> ${esc(f.text)} <span class="cool-ev__src">${extLink(f.source.url, f.source.label)}</span></li>`).join("")}</ul>

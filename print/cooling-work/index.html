@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cooling options: Outdoor work | BeatTheHeat.Asia one-pager</title>
+<meta name="description" content="What to build or change, what keeps it working, the traps to avoid and rough costs.">
+<link rel="canonical" href="https://beattheheat.asia/print/cooling-work/"><link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23F26430'/%3E%3C/svg%3E">
+<style>
+@page { size: A4; margin: 11mm 12mm 12mm; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif; color: #16202B; background: #E9E4DC; font-size: 9.6pt; line-height: 1.42; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.sheet { width: 210mm; min-height: 297mm; margin: 14px auto; background: #FAF7F2; padding: 11mm 12mm 10mm; box-shadow: 0 2px 18px rgba(0,0,0,.15); }
+.fit { display: flex; flex-direction: column; min-height: 273mm; }
+.bar { display: flex; justify-content: space-between; align-items: center; border-bottom: 2.5px solid #16202B; padding-bottom: 6px; }
+.brand { display: flex; align-items: center; gap: 7px; font-family: Anton, Impact, sans-serif; font-size: 15pt; letter-spacing: .02em; }
+.brand i { width: 13px; height: 13px; border-radius: 50%; background: #F26430; border: 2.5px solid #16202B; }
+.kind { font-size: 8pt; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #9A3A12; text-align: right; }
+h1 { font-family: Anton, Impact, sans-serif; font-weight: 400; font-size: 25pt; line-height: 1.02; text-transform: uppercase; margin: 9px 0 4px; }
+.lede { font-size: 10.5pt; color: #39424D; max-width: 165mm; }
+h2 { font-size: 10.5pt; text-transform: uppercase; letter-spacing: .06em; margin: 9px 0 4px; color: #16202B; border-top: 1.5px solid #16202B; padding-top: 5px; }
+.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0 7mm; }
+.cols3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4mm; }
+.box { padding: 6px 8px; border-radius: 6px; background: #fff; border: 1px solid #E2DACE; }
+.box b.big { display: block; font-family: Anton, Impact, sans-serif; font-weight: 400; font-size: 17pt; line-height: 1.05; color: #D7263D; }
+.hot { border-left: 4px solid #D7263D; } .cool { border-left: 4px solid #2C6E9E; } .good { border-left: 4px solid #2A9D8F; background: #EAF6F4; }
+ul.tight, ol.tight { padding-left: 15px; } ul.tight li, ol.tight li { margin: 2px 0; }
+.check li { list-style: none; position: relative; padding-left: 17px; margin: 3px 0; }
+.check li::before { content: ""; position: absolute; left: 0; top: 2px; width: 10px; height: 10px; border: 1.5px solid #16202B; border-radius: 2px; background: #fff; }
+.tag { display: inline-block; padding: 1px 6px; border-radius: 9px; font-size: 7.5pt; font-weight: 800; color: #fff; }
+.t-plan { background: #1D6E64; } .t-building { background: #9A5B00; } .t-none { background: #D7263D; }
+table { width: 100%; border-collapse: collapse; font-size: 8.4pt; }
+th { text-align: left; font-size: 7.5pt; text-transform: uppercase; letter-spacing: .05em; border-bottom: 1.5px solid #16202B; padding: 3px 4px; }
+td { border-bottom: 1px solid #E2DACE; padding: 3px 4px; vertical-align: top; }
+.srcs { padding-left: 14px; font-size: 7.2pt; color: #5E6570; } .srcs li { margin: 1px 0; } .srcs a { color: #5E6570; text-decoration: none; }
+.grow { flex: 1; }
+footer { margin-top: 7px; border-top: 2.5px solid #16202B; padding-top: 6px; display: grid; grid-template-columns: 1fr 22mm; gap: 6mm; font-size: 7pt; color: #39424D; }
+footer p + p { margin-top: 2px; } footer b { color: #16202B; }
+.qr { width: 22mm; text-align: center; font-size: 6.5pt; } .qr svg { width: 22mm; height: 22mm; display: block; }
+.tools { width: 210mm; margin: 14px auto 0; display: flex; gap: 10px; align-items: center; font-size: 10pt; }
+.tools button, .tools a { padding: 8px 16px; border-radius: 999px; border: 2px solid #16202B; background: #F26430; color: #16202B; font: inherit; font-weight: 800; cursor: pointer; text-decoration: none; }
+.tools a { background: #fff; }
+@media print { body { background: none; } .sheet { margin: 0; box-shadow: none; width: auto; min-height: 0; height: 273mm; padding: 0; overflow: hidden; } .tools { display: none; } a { color: inherit; } }
+@media screen and (max-width: 820px) { .sheet { width: auto; margin: 8px; min-height: 0; } .fit { zoom: 1 !important; min-height: 0 !important; } .tools { width: auto; margin: 8px; flex-wrap: wrap; } .cols, .cols3 { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<nav class="tools" aria-label="Page tools"><button type="button" onclick="window.print()">Print or save as PDF</button><a href="/#cool-work">Open the live page</a><a href="/print/">All one-pagers</a></nav>
+<main class="sheet"><div class="fit">
+  <div class="bar"><div class="brand"><i></i>BEAT THE HEAT</div><div class="kind">Cooling options · For city engineers, planners and programme teams</div></div>
+  <h1>Cooling options: Outdoor work</h1>
+  <p class="lede">What to build or change, what keeps it working, the traps to avoid and rough costs.</p>
+  <div class="cols" style="margin-top:8px"><div class="box"><b>Protects.</b> People whose income depends on being outdoors in the hottest hours: vendors, loaders, builders, sanitation workers, traffic police.</div><div class="box hot"><b>Key caution.</b> A shelter without water, paid rest or a change of hours is not worker protection.</div></div>
+      <h2>Options, and what keeps each working</h2>
+      <table><tr><th style="width:17%">Option</th><th>What it does</th><th>Keeps working with</th><th>Avoid</th><th style="width:20%">Rough cost</th></tr>
+        <tr><td><b>Rest shelters on work routes</b></td><td>Shade, seating and water where workers can recover during a shift.</td><td>Paid rest time, and someone who cleans and refills it.</td><td>Treating the shelter as a substitute for work rules.</td><td>About US$1,600–US$5,300 per site (₹1.5 lakh–₹5 lakh at Indian prices)</td></tr><tr><td><b>Drinking water and rehydration salts</b></td><td>Refill points with safe water and oral rehydration salts at markets, sites and junctions.</td><td>A daily refill and cleaning roster, often ₹500–2,000 a day.</td><td>Counting it as cooling: it protects bodies, not temperatures.</td><td>About US$110–US$530 per site (₹10,000–₹50,000 at Indian prices)</td></tr><tr><td><b>Shade nets</b></td><td>Quick shade over junctions, queues and work yards.</td><td>Poles set firmly into the ground, and nets up before the heat starts.</td><td>Bamboo frames that fall in the first storm.</td><td>About US$3.2–US$9.5 per m² (₹300–₹900 at Indian prices)</td></tr><tr><td><b>Shade trees on work routes</b></td><td>Canopy along the streets where people work and wait.</td><td>Water, root space and three years of care.</td><td>Counting saplings planted instead of canopy that survives.</td><td>About US$21–US$84 per tree, with 2–3 years’ care (₹2,000–₹8,000 at Indian prices)</td></tr><tr><td><b>Misting at hotspots</b></td><td>Fine water spray at a few crowded, dry spots.</td><td>Safe water, drainage, filters and a technician.</td><td>Humid places and water-short cities: in humid heat the benefit roughly halves.</td><td>About US$420–US$2,100 per site (₹40,000–₹2 lakh at Indian prices)</td></tr></table>
+      <h2>What the evidence says</h2><ul class="tight"><li>Nagpur strung green shade nets over 10–12 busy junctions in May 2026. Several tore or collapsed in strong winds, and residents pointed out the heat had begun at the end of March. A net had also fallen at Tukdoji Square in 2025 because its bamboo was not set firmly into the road.</li><li>Comparing Phoenix with humid Houston, misters still cut heat stress in the humid city, but with about half the benefit, and only when there was some wind.</li></ul>
+      <div class="cols" style="margin-top:4px"><div class="box good"><b>How you will know it works.</b> Workers within a few minutes’ walk of shade and water, and rest breaks actually taken</div>
+        <div class="box"><b>Five traps that waste cooling money:</b> Buying before diagnosing · Built, with no one to keep it · Green without water · Promising degrees you haven’t measured · A list of activities, not a model.</div></div>
+      <p style="margin-top:5px;font-size:7.6pt;color:#5E6570">Costs are rough planning ranges for early budgeting, not quotes. They are Indian prices, from a practitioner’s planning workbook, shown in US dollars at about ₹95 to US$1 (mid-2026) with the rupee range alongside. India has some of the lowest building prices in Asia, so expect most Southeast Asian cities to pay more: see the regional prices below. Where a public figure exists, it is linked. Where no range is solid enough to share, the card says so: get local quotes.</p>
+  <div class="grow"></div>
+  <h2>Sources</h2><ol class="srcs"><li>The Hitavada, 11 May 2026. <a href="https://www.thehitavada.com//Encyc/2026/5/11/green-nets-at-city-squares-relief-measure-or-another-half-planned-half-planned-civic-experiment.html">thehitavada.com//Encyc/2026/5/11/green-nets-at-city-squares-relief-measure-or-another-half-planned-half-planned-civic-experiment.html</a></li><li>US National Science Foundation public access repository. <a href="https://par.nsf.gov/biblio/10642926">par.nsf.gov/biblio/10642926</a></li><li>U.S. dollar–Indian rupee rates, 2026 (Pound Sterling Live). <a href="https://www.poundsterlinglive.com/history/USD-INR-2026">poundsterlinglive.com/history/USD-INR-2026</a></li></ol>
+  <footer>
+    <div>
+      <p><b>BeatTheHeat.Asia</b> · A living map of extreme heat in South and Southeast Asia, updated as the evidence grows. Live page: beattheheat.asia/#cool-work</p>
+      <p>This is a beta version. BeatTheHeat.Asia is being built by a group of organisations working on extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement.</p>
+      <p><b>Licence:</b> © BeatTheHeat.Asia contributors. Shared under Creative Commons Attribution 4.0 (CC BY 4.0, creativecommons.org/licenses/by/4.0): you may copy, adapt, translate and share this sheet, with credit to BeatTheHeat.Asia and a link to beattheheat.asia. Sources cited remain their owners’. Printed from the map’s data on 2026-10-24; check the live page for updates.</p>
+    </div>
+    <div class="qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29" shape-rendering="crispEdges"><path fill="#FAF7F2" d="M0 0h29v29H0z"/><path stroke="#16202B" d="M0 0.5h7m1 0h1m1 0h3m2 0h6m1 0h7M0 1.5h1m5 0h1m1 0h1m1 0h1m1 0h1m1 0h2m1 0h1m4 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m3 0h1m2 0h3m2 0h1m3 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m8 0h1m2 0h1m1 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m2 0h2m2 0h1m3 0h1m1 0h1m2 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m3 0h2m2 0h1m4 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h1m1 0h2m1 0h3m1 0h2m1 0h1M0 8.5h1m1 0h2m1 0h3m1 0h2m1 0h6m1 0h1m2 0h1m2 0h1m1 0h2M0 9.5h1m1 0h2m5 0h3m4 0h5m1 0h3m3 0h1M0 10.5h3m2 0h2m1 0h1m2 0h1m2 0h1m3 0h1m1 0h2m1 0h1m2 0h2M0 11.5h1m1 0h1m1 0h1m3 0h1m2 0h6m1 0h1m1 0h1m1 0h2m4 0h1M2 12.5h1m1 0h4m2 0h3m2 0h5m3 0h1m1 0h2M2 13.5h2m6 0h1m2 0h1m1 0h3m1 0h2m1 0h1m3 0h3M0 14.5h1m1 0h3m1 0h1m1 0h5m1 0h1m2 0h1m1 0h1m3 0h1m2 0h3M0 15.5h2m2 0h2m2 0h2m3 0h1m2 0h1m3 0h2m2 0h1m2 0h1M1 16.5h1m3 0h3m1 0h1m1 0h2m2 0h1m2 0h1m2 0h1m1 0h3m1 0h1M1 17.5h3m1 0h1m2 0h1m3 0h2m1 0h1m4 0h1m2 0h1m1 0h3M0 18.5h1m2 0h1m2 0h2m2 0h1m4 0h4m1 0h1m2 0h2m1 0h1M3 19.5h1m3 0h1m1 0h3m3 0h4m1 0h2m4 0h1M1 20.5h2m1 0h3m1 0h4m1 0h1m3 0h10M8 21.5h3m1 0h3m1 0h3m1 0h1m3 0h5M0 22.5h7m1 0h4m1 0h1m2 0h1m1 0h3m1 0h1m1 0h2m1 0h1M0 23.5h1m5 0h1m1 0h1m1 0h2m6 0h1m1 0h1m3 0h2m1 0h1M0 24.5h1m1 0h3m1 0h1m2 0h1m2 0h1m1 0h1m2 0h1m2 0h5m1 0h2M0 25.5h1m1 0h3m1 0h1m1 0h3m3 0h2m3 0h3m1 0h3m2 0h1M0 26.5h1m1 0h3m1 0h1m1 0h3m1 0h1m1 0h1m1 0h3m4 0h1m2 0h1m1 0h1M0 27.5h1m5 0h1m3 0h1m1 0h1m1 0h3m3 0h3m2 0h1m1 0h1M0 28.5h7m1 0h2m2 0h1m1 0h2m2 0h3m2 0h1m3 0h1"/></svg>
+<p>Scan for the live page</p></div>
+  </footer>
+</div></main>
+<script>
+// fit the sheet to one A4 page: shrink the content just enough, then keep the footer at the bottom
+(function () { var f = document.querySelector(".fit"), max = 273 * 96 / 25.4;
+  function fit() { f.style.zoom = 1; f.style.minHeight = "0"; var h = f.scrollHeight, z = h > max ? max / h : 1;
+    f.style.zoom = z.toFixed(3); f.style.minHeight = (max / z) + "px"; document.documentElement.dataset.fit = z.toFixed(3); }
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit); fit(); window.addEventListener("beforeprint", fit); })();
+</script>
+</body>
+</html>

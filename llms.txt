@@ -37,3 +37,28 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The pa
 ## Optional
 
 - [The whole map in one file](https://beattheheat.asia/llms-full.txt): every page above as plain text, for reading in one go
+
+## Printable one-pagers
+
+- [All one-pagers](https://beattheheat.asia/print/): single A4 briefs for officials, planners and journalists
+- [Four heats in a home](https://beattheheat.asia/print/four-heats/)
+- [Dry heat and humid heat](https://beattheheat.asia/print/dry-and-humid-heat/)
+- [Extreme heat in Singapore](https://beattheheat.asia/print/city-singapore/)
+- [Extreme heat in Bangkok](https://beattheheat.asia/print/city-bangkok/)
+- [Extreme heat in Hanoi](https://beattheheat.asia/print/city-hanoi/)
+- [Extreme heat in Manila](https://beattheheat.asia/print/city-manila/)
+- [Extreme heat in Jakarta](https://beattheheat.asia/print/city-jakarta/)
+- [Extreme heat in Delhi](https://beattheheat.asia/print/city-delhi/)
+- [Extreme heat in Dhaka](https://beattheheat.asia/print/city-dhaka/)
+- [Extreme heat in Kathmandu](https://beattheheat.asia/print/city-kathmandu/)
+- [Extreme heat in Mumbai](https://beattheheat.asia/print/city-mumbai/)
+- [Extreme heat in Ahmedabad](https://beattheheat.asia/print/city-ahmedabad/)
+- [Lessons from Asia’s heatwaves, 1998–2026](https://beattheheat.asia/print/heatwaves/)
+- [Cooling options: Homes](https://beattheheat.asia/print/cooling-homes/)
+- [Cooling options: Outdoor work](https://beattheheat.asia/print/cooling-work/)
+- [Cooling options: Schools and childcare](https://beattheheat.asia/print/cooling-schools/)
+- [Cooling options: Markets and street vending](https://beattheheat.asia/print/cooling-markets/)
+- [Cooling options: Bus stops and queues](https://beattheheat.asia/print/cooling-waiting/)
+- [Cooling options: Heat and waterlogging](https://beattheheat.asia/print/cooling-flood/)
+- [Cooling options: Greening where water is short](https://beattheheat.asia/print/cooling-dry/)
+- [Cooling options: Making it last](https://beattheheat.asia/print/cooling-system/)

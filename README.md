@@ -130,6 +130,10 @@ The “Cooling options” section, just before “Plan a response”, shows what
 
 `HOME_HEATS` drives the interactive drawing in Cooling options: outdoor air, the roof, radiant heat and indoor air, a night view, sourced facts, the daytime nuance and a line for heat plans. Heat right now links to it with a note that warnings track the street, not the room. The film `media/films/four-heats-in-a-home.mp4` is registered in `SECTION_FILMS`.
 
+## Printable one-pagers (`/print/`)
+
+`tools/build-print.js` makes single-page A4 sheets from `data.js`: Four heats in a home, Dry heat and humid heat, a brief for each city, Lessons from Asia’s heatwaves, and a cooling-options sheet for each place, plus an index at `/print/`. Each carries the brand, the beta disclaimer, the CC BY 4.0 licence, its sources and a QR code to the live page, and shrinks itself to fit one page when printed. They are rebuilt with everything else by `node tools/build-static.js`. For QR codes, run `npm install` once (it installs the `qrcode` package); without it, sheets print the web address instead. The site links to them from Cooling options, Four heats in a home, Your city, Heatwaves and the footer.
+
 ## Visit counting (part 22 of `data.js`)
 
 Visits are counted with [GoatCounter](https://www.goatcounter.com/), which uses no cookies and collects no personal data. `SITE_ANALYTICS.goatcounter` holds the counter’s code; leave it empty (`""`) to switch counting off, and nothing is loaded. As well as page views, `track()` in `script.js` records a few anonymous events, each named for what it counts: films and explainers watched (`watch-…`), plan buttons (`plan-print`, `plan-copy`, `plan-map`), worked examples loaded, forecast checks by city, cooling options added to a plan, and briefs opened. The privacy note in “How this map works” describes this.

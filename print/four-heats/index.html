@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Four heats in a home | BeatTheHeat.Asia one-pager</title>
+<meta name="description" content="A heat warning gives one number. A family under a tin roof lives with four, and the worst of it often comes after dark.">
+<link rel="canonical" href="https://beattheheat.asia/print/four-heats/"><link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23F26430'/%3E%3C/svg%3E">
+<style>
+@page { size: A4; margin: 11mm 12mm 12mm; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif; color: #16202B; background: #E9E4DC; font-size: 9.6pt; line-height: 1.42; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.sheet { width: 210mm; min-height: 297mm; margin: 14px auto; background: #FAF7F2; padding: 11mm 12mm 10mm; box-shadow: 0 2px 18px rgba(0,0,0,.15); }
+.fit { display: flex; flex-direction: column; min-height: 273mm; }
+.bar { display: flex; justify-content: space-between; align-items: center; border-bottom: 2.5px solid #16202B; padding-bottom: 6px; }
+.brand { display: flex; align-items: center; gap: 7px; font-family: Anton, Impact, sans-serif; font-size: 15pt; letter-spacing: .02em; }
+.brand i { width: 13px; height: 13px; border-radius: 50%; background: #F26430; border: 2.5px solid #16202B; }
+.kind { font-size: 8pt; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #9A3A12; text-align: right; }
+h1 { font-family: Anton, Impact, sans-serif; font-weight: 400; font-size: 25pt; line-height: 1.02; text-transform: uppercase; margin: 9px 0 4px; }
+.lede { font-size: 10.5pt; color: #39424D; max-width: 165mm; }
+h2 { font-size: 10.5pt; text-transform: uppercase; letter-spacing: .06em; margin: 9px 0 4px; color: #16202B; border-top: 1.5px solid #16202B; padding-top: 5px; }
+.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0 7mm; }
+.cols3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4mm; }
+.box { padding: 6px 8px; border-radius: 6px; background: #fff; border: 1px solid #E2DACE; }
+.box b.big { display: block; font-family: Anton, Impact, sans-serif; font-weight: 400; font-size: 17pt; line-height: 1.05; color: #D7263D; }
+.hot { border-left: 4px solid #D7263D; } .cool { border-left: 4px solid #2C6E9E; } .good { border-left: 4px solid #2A9D8F; background: #EAF6F4; }
+ul.tight, ol.tight { padding-left: 15px; } ul.tight li, ol.tight li { margin: 2px 0; }
+.check li { list-style: none; position: relative; padding-left: 17px; margin: 3px 0; }
+.check li::before { content: ""; position: absolute; left: 0; top: 2px; width: 10px; height: 10px; border: 1.5px solid #16202B; border-radius: 2px; background: #fff; }
+.tag { display: inline-block; padding: 1px 6px; border-radius: 9px; font-size: 7.5pt; font-weight: 800; color: #fff; }
+.t-plan { background: #1D6E64; } .t-building { background: #9A5B00; } .t-none { background: #D7263D; }
+table { width: 100%; border-collapse: collapse; font-size: 8.4pt; }
+th { text-align: left; font-size: 7.5pt; text-transform: uppercase; letter-spacing: .05em; border-bottom: 1.5px solid #16202B; padding: 3px 4px; }
+td { border-bottom: 1px solid #E2DACE; padding: 3px 4px; vertical-align: top; }
+.srcs { padding-left: 14px; font-size: 7.2pt; color: #5E6570; } .srcs li { margin: 1px 0; } .srcs a { color: #5E6570; text-decoration: none; }
+.grow { flex: 1; }
+footer { margin-top: 7px; border-top: 2.5px solid #16202B; padding-top: 6px; display: grid; grid-template-columns: 1fr 22mm; gap: 6mm; font-size: 7pt; color: #39424D; }
+footer p + p { margin-top: 2px; } footer b { color: #16202B; }
+.qr { width: 22mm; text-align: center; font-size: 6.5pt; } .qr svg { width: 22mm; height: 22mm; display: block; }
+.tools { width: 210mm; margin: 14px auto 0; display: flex; gap: 10px; align-items: center; font-size: 10pt; }
+.tools button, .tools a { padding: 8px 16px; border-radius: 999px; border: 2px solid #16202B; background: #F26430; color: #16202B; font: inherit; font-weight: 800; cursor: pointer; text-decoration: none; }
+.tools a { background: #fff; }
+@media print { body { background: none; } .sheet { margin: 0; box-shadow: none; width: auto; min-height: 0; height: 273mm; padding: 0; overflow: hidden; } .tools { display: none; } a { color: inherit; } }
+@media screen and (max-width: 820px) { .sheet { width: auto; margin: 8px; min-height: 0; } .fit { zoom: 1 !important; min-height: 0 !important; } .tools { width: auto; margin: 8px; flex-wrap: wrap; } .cols, .cols3 { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<nav class="tools" aria-label="Page tools"><button type="button" onclick="window.print()">Print or save as PDF</button><a href="/#four-heats">Open the live page</a><a href="/print/">All one-pagers</a></nav>
+<main class="sheet"><div class="fit">
+  <div class="bar"><div class="brand"><i></i>BEAT THE HEAT</div><div class="kind">One-pager · For municipal heat officers and housing departments</div></div>
+  <h1>Four heats in a home</h1>
+  <p class="lede">A heat warning gives one number. A family under a tin roof lives with four, and the worst of it often comes after dark.</p>
+  <div class="cols" style="margin-top:8px"><div><svg viewBox="0 0 720 320" role="img" aria-label="A tin-roofed home with four heats: outdoor air, the roof, radiant heat and indoor air" style="width:100%;height:auto;display:block;border-radius:6px">
+    <rect width="720" height="320" fill="#F8D9B8"/><circle cx="650" cy="55" r="26" fill="#F26430"/><rect y="290" width="720" height="30" fill="#D8B585"/>
+    <rect x="76" y="210" width="6" height="80" fill="#6B5444"/><rect x="52" y="176" width="54" height="38" rx="4" fill="#F4F2EE" stroke="#16202B" stroke-width="3"/>
+    <rect x="245" y="132" width="420" height="158" fill="#F6C5B0" stroke="#16202B" stroke-width="5"/><rect x="610" y="185" width="30" height="40" fill="#BFD4E6" stroke="#16202B" stroke-width="3"/>
+    <g fill="none" stroke="#16202B" stroke-width="5" stroke-linecap="round"><circle cx="360" cy="206" r="11"/><path d="M360 217 V252 M342 234 L360 226 L378 234 M360 252 L348 280 M360 252 L372 280"/><circle cx="470" cy="206" r="11"/><path d="M470 217 V252 M452 234 L470 226 L488 234 M470 252 L458 280 M470 252 L482 280"/></g>
+    <path d="M270 160 q 7 9 0 18 q -7 9 0 18" fill="none" stroke="#D7263D" stroke-width="4" stroke-linecap="round"/><path d="M263 192 L270 203 L277 192" fill="none" stroke="#D7263D" stroke-width="4" stroke-linecap="round"/><path d="M350 160 q 7 9 0 18 q -7 9 0 18" fill="none" stroke="#D7263D" stroke-width="4" stroke-linecap="round"/><path d="M343 192 L350 203 L357 192" fill="none" stroke="#D7263D" stroke-width="4" stroke-linecap="round"/><path d="M430 160 q 7 9 0 18 q -7 9 0 18" fill="none" stroke="#D7263D" stroke-width="4" stroke-linecap="round"/><path d="M423 192 L430 203 L437 192" fill="none" stroke="#D7263D" stroke-width="4" stroke-linecap="round"/><path d="M510 160 q 7 9 0 18 q -7 9 0 18" fill="none" stroke="#D7263D" stroke-width="4" stroke-linecap="round"/><path d="M503 192 L510 203 L517 192" fill="none" stroke="#D7263D" stroke-width="4" stroke-linecap="round"/><path d="M590 160 q 7 9 0 18 q -7 9 0 18" fill="none" stroke="#D7263D" stroke-width="4" stroke-linecap="round"/><path d="M583 192 L590 203 L597 192" fill="none" stroke="#D7263D" stroke-width="4" stroke-linecap="round"/><polygon points="230,140 230,118 260,132 290,118 320,132 350,118 380,132 410,118 440,132 470,118 500,132 530,118 560,132 590,118 620,132 650,118 680,140" fill="#E0442B" stroke="#16202B" stroke-width="4" stroke-linejoin="round"/>
+    <circle cx="79" cy="160" r="15" fill="#16202B" stroke="#fff" stroke-width="3"/><text x="79" y="165" fill="#fff" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter,Arial">1</text><circle cx="455" cy="96" r="15" fill="#F26430" stroke="#fff" stroke-width="3"/><text x="455" y="101" fill="#fff" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter,Arial">2</text><circle cx="300" cy="185" r="15" fill="#16202B" stroke="#fff" stroke-width="3"/><text x="300" y="190" fill="#fff" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter,Arial">3</text><circle cx="590" cy="265" r="15" fill="#16202B" stroke="#fff" stroke-width="3"/><text x="590" y="270" fill="#fff" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter,Arial">4</text></svg>
+        <ol class="tight" style="margin-top:6px"><li><b>Outdoor air.</b> The temperature a weather station measures, in the shade. It is the number in almost every heat warning, but not what people feel inside a tin-roofed room.</li><li><b>The roof.</b> Sun-baked sheet metal gets far hotter than the air. Roofs of informal homes in Mumbai and Pune measured above 50 °C when the air was about 30 °C.</li><li><b>Radiant heat.</b> A hot ceiling gives off heat onto the people below, like standing near a stove, so a room can feel hotter than its air. This is what mean radiant temperature measures.</li><li><b>Indoor air.</b> The air inside, held in by thin walls, few windows and crowded rooms.</li></ol></div>
+      <div><div class="box cool"><b>At night.</b> After sunset the street starts to cool, but thin-roofed homes cool slowly. In low-income homes measured in Dhaka, Delhi, Faisalabad and rural Maharashtra, temperatures in tin-roofed houses swung 3–4 °C more over the month than the outdoor air, and stayed warmer indoors because they cooled so slowly at night.</div>
+        <div class="cols3" style="grid-template-columns:1fr;gap:5px;margin-top:6px"><div class="box"><b class="big">7.6 °C</b>hotter, at most, for people in Ahmedabad’s informal settlements than for people in formal housing, in a survey of 860 households.</div><div class="box"><b class="big">Up to 9 °C</b>hotter indoors than outside, in pilot measurements in informal settlements in Kenya, Tanzania and Zimbabwe.</div><div class="box"><b class="big">2–5 °C</b>cooler indoors under reflective roof paint than under ordinary roofs, in Ahmedabad’s informal settlements.</div></div>
+        <p style="margin-top:6px;font-size:8.6pt;color:#5E6570">Indoors is not always hotter at midday: in an experiment in The Gambia, metal-roofed houses were about 1.4 °C cooler than the outdoor shade by day, but warmer at night. The danger is nights that never cool.</p></div></div>
+      <h2>Eight questions for your heat action plan</h2>
+      <ul class="check cols">
+        <li>Does your heat warning count hot nights, not only daytime highs?</li>
+        <li>Do you know which neighbourhoods live under metal, asbestos or plastic roofs?</li>
+        <li>Have you measured indoor and night-time temperatures in a sample of those homes? Low-cost loggers can do it.</li>
+        <li>Is there a cool-roof programme for informal settlements, and does it reach renters?</li>
+        <li>Are cooling spaces open in the evening and at night, near where people sleep?</li>
+        <li>Do outreach teams check on people who are alone, older or ill, including after dark?</li>
+        <li>Do housing upgrades protect tenants from rent rises and eviction?</li>
+        <li>Is the plan funded, with a named owner? In a review of 37 Indian heat action plans, 11 discussed funding.</li>
+      </ul>
+      <div class="box good" style="margin-top:6px"><b>For heat plans.</b> Heat warnings measure the street. Heat plans should protect the room: count indoor and night-time heat, warn for hot nights, and pay for cooler roofs where people sleep.</div>
+  <div class="grow"></div>
+  <h2>Sources</h2><ol class="srcs"><li>Urban Solutions: how informal settlements stay cool (informal measurements). <a href="https://urbansolutionsjournal.substack.com/p/how-are-informal-settlements-staying">urbansolutionsjournal.substack.com/p/how-are-informal-settlements-staying</a></li><li>Tasgaonkar et al., Scientific Data, 2022: indoor heat in low-income homes in South Asia. <a href="https://www.nature.com/articles/s41597-022-01314-5">nature.com/articles/s41597-022-01314-5</a></li><li>Frontiers in Built Environment, 2022. <a href="https://www.frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2022.874751/full">frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2022.874751/full</a></li><li>IIED, 2026. <a href="https://www.iied.org/sites/default/files/pdfs/2026-02/22697iied.pdf">iied.org/sites/default/files/pdfs/2026-02/22697iied.pdf</a></li><li>NRDC: community-led cool roofs in four Indian cities. <a href="https://www.nrdc.org/bio/anjali-jaiswal/cool-roofs-community-led-initiatives-four-indian-cities">nrdc.org/bio/anjali-jaiswal/cool-roofs-community-led-initiatives-four-indian-cities</a></li><li>Malaria Journal, 2021: roof colour and indoor temperature in rural Gambia. <a href="https://malariajournal.biomedcentral.com/articles/10.1186/s12936-021-03951-4">malariajournal.biomedcentral.com/articles/10.1186/s12936-021-03951-4</a></li><li>Centre for Policy Research, 2023. <a href="https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/">cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action</a></li></ol>
+  <footer>
+    <div>
+      <p><b>BeatTheHeat.Asia</b> · A living map of extreme heat in South and Southeast Asia, updated as the evidence grows. Live page: beattheheat.asia/#four-heats</p>
+      <p>This is a beta version. BeatTheHeat.Asia is being built by a group of organisations working on extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement.</p>
+      <p><b>Licence:</b> © BeatTheHeat.Asia contributors. Shared under Creative Commons Attribution 4.0 (CC BY 4.0, creativecommons.org/licenses/by/4.0): you may copy, adapt, translate and share this sheet, with credit to BeatTheHeat.Asia and a link to beattheheat.asia. Sources cited remain their owners’. Printed from the map’s data on 2026-10-24; check the live page for updates.</p>
+    </div>
+    <div class="qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29" shape-rendering="crispEdges"><path fill="#FAF7F2" d="M0 0h29v29H0z"/><path stroke="#16202B" d="M0 0.5h7m1 0h1m1 0h4m1 0h1m1 0h4m1 0h7M0 1.5h1m5 0h1m1 0h3m1 0h2m2 0h2m4 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m3 0h1m4 0h2m1 0h1m3 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m5 0h4m2 0h1m1 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m2 0h3m2 0h4m1 0h1m2 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m4 0h3m2 0h1m2 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h1m3 0h1m3 0h3m1 0h1M0 8.5h1m1 0h2m1 0h3m1 0h3m1 0h1m3 0h1m1 0h1m2 0h1m2 0h1m1 0h2M0 9.5h1m1 0h1m2 0h1m1 0h2m1 0h5m1 0h5m1 0h3m3 0h1M1 10.5h4m1 0h2m1 0h5m2 0h1m1 0h1m1 0h2m1 0h1m2 0h2M5 11.5h1m2 0h2m6 0h1m1 0h1m1 0h1m1 0h2m4 0h1M0 12.5h3m3 0h1m1 0h1m3 0h1m1 0h2m1 0h3m3 0h1m1 0h2M2 13.5h1m2 0h1m5 0h2m1 0h4m1 0h2m1 0h1m3 0h3M3 14.5h4m3 0h1m1 0h2m3 0h1m1 0h1m3 0h1m2 0h3M3 15.5h1m3 0h1m2 0h3m1 0h3m3 0h2m2 0h1m2 0h1M2 16.5h1m1 0h4m2 0h2m2 0h1m3 0h1m2 0h1m1 0h3m1 0h1M2 17.5h1m1 0h1m3 0h3m1 0h1m1 0h2m4 0h1m2 0h1m1 0h3M0 18.5h1m1 0h3m1 0h3m2 0h1m1 0h3m1 0h1m2 0h1m2 0h2m1 0h1M2 19.5h2m3 0h2m3 0h3m2 0h1m2 0h2m4 0h1M1 20.5h1m3 0h4m2 0h1m1 0h14M8 21.5h1m1 0h1m1 0h1m3 0h3m1 0h1m3 0h5M0 22.5h7m1 0h2m1 0h2m1 0h1m1 0h1m1 0h3m1 0h1m1 0h2m1 0h1M0 23.5h1m5 0h1m1 0h7m3 0h1m1 0h1m3 0h2m2 0h1M0 24.5h1m1 0h3m1 0h1m3 0h3m4 0h1m2 0h5m1 0h1M0 25.5h1m1 0h3m1 0h1m1 0h2m2 0h2m1 0h1m1 0h5m1 0h3m2 0h1M0 26.5h1m1 0h3m1 0h1m1 0h1m2 0h1m1 0h2m1 0h1m1 0h1m4 0h1m2 0h1m1 0h1M0 27.5h1m5 0h1m2 0h3m2 0h1m5 0h3m2 0h1m1 0h1M0 28.5h7m1 0h2m2 0h3m1 0h1m1 0h3m2 0h1m3 0h1"/></svg>
+<p>Scan for the live page</p></div>
+  </footer>
+</div></main>
+<script>
+// fit the sheet to one A4 page: shrink the content just enough, then keep the footer at the bottom
+(function () { var f = document.querySelector(".fit"), max = 273 * 96 / 25.4;
+  function fit() { f.style.zoom = 1; f.style.minHeight = "0"; var h = f.scrollHeight, z = h > max ? max / h : 1;
+    f.style.zoom = z.toFixed(3); f.style.minHeight = (max / z) + "px"; document.documentElement.dataset.fit = z.toFixed(3); }
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit); fit(); window.addEventListener("beforeprint", fit); })();
+</script>
+</body>
+</html>

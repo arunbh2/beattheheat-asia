@@ -341,4 +341,12 @@ ${BOTS.map(b => `User-agent: ${b}\nAllow: /`).join("\n\n")}
 
 Sitemap: ${SITE}/sitemap.xml
 `);
+// ---- printable one-pagers ----
+require("./build-print")().then(list => {
+  const sm = fs.readFileSync(path.join(ROOT, "sitemap.xml"), "utf8").replace("</urlset>", [`  <url><loc>${SITE}/print/</loc><lastmod>${TODAY}</lastmod><priority>0.6</priority></url>`,
+    ...list.map(x => `  <url><loc>${SITE}/print/${x.slug}/</loc><lastmod>${TODAY}</lastmod><priority>0.5</priority></url>`)].join("\n") + "\n</urlset>");
+  fs.writeFileSync(path.join(ROOT, "sitemap.xml"), sm);
+  fs.appendFileSync(path.join(ROOT, "llms.txt"), `\n## Printable one-pagers\n\n- [All one-pagers](${SITE}/print/): single A4 briefs for officials, planners and journalists\n${list.map(x => `- [${x.title}](${SITE}/print/${x.slug}/)`).join("\n")}\n`);
+  console.log("Wrote", list.length, "printable one-pagers");
+});
 console.log("Wrote", PAGES.length + CITY_PAGES.length, "pages, llms.txt, llms-full.txt, sitemap.xml and robots.txt");

@@ -1619,3 +1619,9 @@ body.film-open { overflow: hidden; }
 .now__room b { color: var(--canvas); }
 .now__room a { color: #F6A27C; display: inline-block; padding: 3px 0; }
 .now__room .watch-btn { margin-left: 6px; }
+/* links to printable one-pagers */
+.print-link { display: inline-flex; align-items: center; gap: 6px; padding: 4px 0; font-weight: 700; }
+.print-ico { width: 14px; height: 14px; flex: none; background: currentColor; -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 2h12v6H6zM4 9h16a2 2 0 0 1 2 2v6h-4v5H6v-5H2v-6a2 2 0 0 1 2-2zm4 8v3h8v-3z'/%3E%3C/svg%3E") center/contain no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 2h12v6H6zM4 9h16a2 2 0 0 1 2 2v6h-4v5H6v-5H2v-6a2 2 0 0 1 2-2zm4 8v3h8v-3z'/%3E%3C/svg%3E") center/contain no-repeat; }
+.cool-panel__add .print-link { margin-left: 12px; }
+.hw-print { margin-top: 18px; }
+.cp__foot .print-link { color: var(--canvas); }
