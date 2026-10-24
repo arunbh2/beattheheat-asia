@@ -19,10 +19,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap">
-  <link rel="stylesheet" href="/styles.css?v=109">
+  <link rel="stylesheet" href="/styles.css?v=111">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Plan a response to extreme heat","url":"https://beattheheat.asia/plan/","isPartOf":{"@type":"WebSite","name":"BeatTheHeat.Asia","url":"https://beattheheat.asia/"},"license":"https://creativecommons.org/licenses/by/4.0/"}</script>
-  <script src="/data.js?v=109" defer></script>
-  <script src="/script.js?v=109" defer></script>
+  <script src="/data.js?v=111" defer></script>
+  <script src="/script.js?v=111" defer></script>
 </head>
 <body data-page="plan">
   <a class="skip-link" href="#plan-title">Skip to the plan</a>
@@ -49,6 +49,7 @@
             <button type="button" class="btn btn--sm btn--ghost" data-plan-example="dhaka">Load the Dhaka example</button>
           </div>
         </div>
+        <section class="pm" id="plan-mech" aria-labelledby="pm-title"></section>
         <details class="plan-checklist" id="plan-checklist">
           <summary>What strong heat plans include <span id="plan-checklist-count">with real examples</span></summary>
           <ol id="plan-checklist-list"></ol>
@@ -72,6 +73,7 @@
                 <summary>Exposure questions <span>prompts to discuss, not a risk score</span></summary>
                 <div id="plan-exposure-list"></div>
               </details>
+              <div id="plan-points"></div>
             </fieldset>
             <fieldset class="plan-step">
               <legend><span>2</span> Choose the actions</legend>
@@ -80,7 +82,9 @@
             </fieldset>
             <fieldset class="plan-step" id="plan-step-3">
               <legend><span>3</span> Agree who leads, who pays, when it happens and how you will know</legend>
+              <div id="plan-standing" aria-live="polite"></div>
               <div id="plan-rows" class="plan-rows"></div>
+              <div id="plan-capacity"></div>
               <div id="plan-fin"></div>
               <label class="plan-review">When will you review the plan after the season? <input type="text" id="plan-review" placeholder="e.g. first week of October, with every lead department" autocomplete="off"></label>
               <div id="plan-reviewlog"></div>
@@ -89,11 +93,13 @@
               <legend><span>4</span> Set the triggers and the warnings</legend>
               <p class="plan-step__hint">A warning only protects people if it switches on action. Agree what each alert level means, who issues it and how it reaches people, including those without a phone.</p>
               <div id="plan-triggers" class="plan-triggers"></div>
+              <div id="plan-coupling"></div>
             </fieldset>
             <fieldset class="plan-step" id="plan-step-5">
               <legend><span>5</span> What could stop it?</legend>
               <p class="plan-step__hint">Tick what you expect to get in the way. Each one adds what has moved it elsewhere to your plan.</p>
               <div id="plan-stalls" class="plan-stalls"></div>
+              <div id="plan-continuity"></div>
             </fieldset>
             <fieldset class="plan-step" id="plan-step-6">
               <legend><span>6</span> Check it against WHO’s eight core elements</legend>

@@ -15,7 +15,7 @@ const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + `
 ;Object.assign(this, { SYSTEMS, CONSEQUENCES, LINKS, LOOP_GROUPS, LOOPS, INSTITUTIONS, LEVERS, LOOP_PLACES, EVIDENCE, ORG_ROLES,
   ORGANISATIONS, GLOSSARY_GROUPS, GLOSSARY, WORKED_EXAMPLES, AT_RISK, AT_RISK_BARRIERS, STALLS, COOL_PLACES, COOL_TRAPS,
-  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, COOL_FX, COOL_REGION, HOME_HEATS, STRAIN, COOL_ASK, PLAN_GROUPS, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL, LIVE_CITIES, CITY_PROFILES, CITY_HAP, HEATWAVES, HEATWAVES_NOTE, ACTION_SETTINGS, ACTION_LINES, ACTION_JOURNEYS, FINANCE, EVIDENCE_STATUS, ACTION_HORIZONS, HEAT_WEEK });`, ctx);
+  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, COOL_FX, COOL_REGION, HOME_HEATS, STRAIN, COOL_ASK, PLAN_GROUPS, PLAN_MECHANISMS, PLAN_MECH_NOTE, MCR2030, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL, LIVE_CITIES, CITY_PROFILES, CITY_HAP, HEATWAVES, HEATWAVES_NOTE, ACTION_SETTINGS, ACTION_LINES, ACTION_JOURNEYS, FINANCE, EVIDENCE_STATUS, ACTION_HORIZONS, HEAT_WEEK });`, ctx);
 const D = ctx, TODAY = new Date().toISOString().slice(0, 10);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const plain = s => String(s || "").replace(/\n/g, " ");
@@ -239,6 +239,12 @@ const out = {};
       <ul>${x.actions.map(a => `<li><a href="/actions/#${a.lever}">${esc((lever[a.lever] || {}).title || a.lever)}</a>: led by ${esc((inst[a.lead] || {}).name || a.lead)}; paid by ${esc(a.payer)}; ${esc(a.measure)}</li>`).join("")}</ul>${srcs(x.sources)}`;
     m.push(`### ${x.title} (${x.place}, ${x.year})`, `What happened: ${x.trigger}`, `What they decided: ${x.decision}`, `What changed: ${x.result}`, ...x.actions.map(a => `- ${(lever[a.lever] || {}).title}: led by ${(inst[a.lead] || {}).name}; paid by ${a.payer}; ${a.measure}`), ...x.sources.map(s => `Source: ${s.label} ${s.url}`));
   });
+  if (D.PLAN_MECHANISMS) {
+    const F = [["problem", "The problem"], ["mechanism", "How they work together"], ["resources", "Authority and money"], ["delivery", "What reaches people"], ["unresolved", "Still unresolved"], ["check", "Before adapting it, check"]];
+    h += `<h2 id="mechanisms">Adapt the mechanism, not the city: how five cities organise for heat</h2><p class="meta">${esc(D.PLAN_MECH_NOTE)} ${ext(D.MCR2030.url, D.MCR2030.label)}</p>`
+      + D.PLAN_MECHANISMS.map(x => `<h3 id="${x.id}">${esc(x.city)}</h3><p class="meta">${esc(x.size)} · ${esc(x.pages)}</p><ul>${F.map(([k, l]) => `<li><strong>${l}:</strong> ${esc(x[k])}</li>`).join("")}</ul>`).join("");
+    m.push("### Adapt the mechanism, not the city: how five cities organise for heat", `${D.PLAN_MECH_NOTE} (${D.MCR2030.label}, ${D.MCR2030.url})`, ...D.PLAN_MECHANISMS.flatMap(x => [`#### ${x.city} (${x.pages})`, ...F.map(([k, l]) => `- ${l}: ${x[k]}`)]));
+  }
   out[p.slug] = page(p, intro, h); md.push(m.join("\n\n"));
 }
 // glossary

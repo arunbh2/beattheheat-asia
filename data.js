@@ -4078,3 +4078,100 @@ const PLACE_SIM = {
       ] }
   ]
 };
+
+/* ---------- 34. PLAN: WHERE IT STANDS, WHERE PEOPLE CAN GO, ADVICE AND PROVISION, WHEN THE POWER GOES, MECHANISMS ---------- */
+// Additions to Plan a response, several adapted from the MCR2030 Urban Heat Risk Management Resource Package (2025),
+// which draws on a review of 30+ cases and interviews with officials in five cities in late 2024: evidence of
+// institutional practice, not an impact evaluation. Written in our own words; page numbers are the report's printed pages.
+const MCR2030 = { label: "MCR2030, Urban Heat Risk Management Resource Package, 2025", url: "https://mcr2030.undrr.org/publication/urban-heat-risk-management-resource-package" };
+// step 3: each action's status uses the same ladder as Make it work together (PLACE_SIM.statuses)
+const PLAN_CAPACITY = [
+  { id: "have", name: "What existing capability or budget can support this plan?", placeholder: "e.g. the health department’s summer outreach staff; the parks maintenance budget",
+    note: "Count what a budget line contributes to heat, not the whole programme." },
+  { id: "ask", name: "What support must be requested, from whom, and for which decision?", placeholder: "e.g. technical help from the state to cost priority cooling sites, before the council approves the programme" }
+];
+// step 1: places people can go. A point on a list is not a working service.
+const PLAN_POINTS = {
+  kinds: ["Cooling space", "Shaded rest point", "Drinking water point", "Health post or clinic"],
+  fields: [
+    { id: "users", name: "Meant for", placeholder: "e.g. older people, outdoor workers" },
+    { id: "hours", name: "Open", placeholder: "e.g. 11 am to 6 pm on alert days" },
+    { id: "access", name: "Access", placeholder: "e.g. step-free; women’s area; no ID asked" },
+    { id: "operator", name: "Run by", placeholder: "e.g. ward office" },
+    { id: "supplies", name: "Needs to keep working", placeholder: "e.g. water, fans, power, one staff member" },
+    { id: "checked", name: "Last checked", placeholder: "e.g. 2 May, by visit" }
+  ],
+  statuses: [["listed", "Listed"], ["confirmed", "Operation confirmed"], ["unknown", "Status unknown"]],
+  reach: ["Older people who live alone", "Outdoor workers who cannot leave work", "People with disabilities", "People who need help at night", "People without a phone"],
+  note: "A point on a list is not a working service. Mark it confirmed only once someone has checked it is open, staffed and supplied.",
+  source: { label: "MCR2030, 2025, p. 26 (Incheon’s shelters and priority areas)", url: MCR2030.url }
+};
+// step 4: advice paired with what makes it possible
+const PLAN_COUPLING = {
+  rows: [
+    { id: "cool", advice: "Spend the hottest hours somewhere cool", ask: "Which place is open, accessible and staffed?", placeholder: "e.g. the community hall on Station Road, open 11 am to 6 pm" },
+    { id: "water", advice: "Drink water often", ask: "Where is safe water reliably available?", placeholder: "e.g. free water at the market gate and both bus stands" },
+    { id: "rest", advice: "Rest in the shade during the hottest hours", ask: "Which work arrangements make a break possible without losing pay?", placeholder: "e.g. the market committee has moved loading to 6–11 am" },
+    { id: "help", advice: "Ask for help if you or someone near you feels unwell", ask: "Which number or contact is answered, and by whom?", placeholder: "e.g. ward health helpline 1800-000-000, staffed 8 am to 10 pm" }
+  ],
+  note: "Advice should acknowledge what people need in order to follow it. Only confirmed provisions go into the message.",
+  source: { label: "MCR2030, 2025, p. 38 (Cape Town’s ‘message coupling’, learned in its 2017 drought and planned for heat)", url: MCR2030.url }
+};
+// step 5: will essential services continue? Prompts for planning, not prescribed protocols, and no readiness score.
+const PLAN_CONTINUITY = {
+  disruptions: [
+    { id: "power", name: "Power cut", dep: "Power", icon: "⚡" },
+    { id: "water", name: "Low water supply", dep: "Water", icon: "💧" },
+    { id: "staff", name: "Staff unwell or absent", dep: "Staff", icon: "👤" },
+    { id: "phones", name: "Phones and internet down", dep: "Phones and internet", icon: "📶" },
+    { id: "roads", name: "Transport disrupted", dep: "Transport", icon: "🚌" }
+  ],
+  functions: [
+    { id: "cooling", name: "Cooling spaces", deps: ["power", "water", "staff"], prompt: "Alternative operation, or a nearby accessible replacement" },
+    { id: "clinic", name: "Clinic or health post", deps: ["power", "water", "staff", "roads"], prompt: "Backup power for cold storage and fans; staff cover; referral transport" },
+    { id: "watersupply", name: "Public drinking water", deps: ["power", "water", "roads"], prompt: "Tanker supply, stored water, or another source, with quality checks" },
+    { id: "outreach", name: "Outreach to people at risk", deps: ["phones", "staff", "roads"], prompt: "An offline contact list, door-to-door visits, volunteers on foot" }
+  ],
+  states: [["", "Not arranged"], ["arranged", "Arranged"], ["tested", "Tested in a drill"]],
+  note: "A heatwave can arrive with a power cut and falling water pressure. These prompts help you find what must keep running and what it depends on. They are planning questions, not an emergency protocol, and give no readiness score.",
+  source: { label: "MCR2030, 2025, p. 26 (Incheon’s functional continuity plan: 61 core functions, alternative workspaces, resources and staff, with scenario-based training)", url: MCR2030.url }
+};
+// "See it done": adapt the mechanism, not the city
+const PLAN_MECHANISMS = [
+  { id: "amadora", city: "Amadora, Portugal", size: "A dense municipality of about 200,000 in the Lisbon Metropolitan Area",
+    problem: "Rising heat in a dense city with little room for green space, and older and low-income residents at most risk.",
+    mechanism: "Civil Protection is the single focal point: it coordinates the departments, consolidates their information and runs the heatwave response, with the mayor’s support keeping heat a shared priority.",
+    resources: "About €1 million a year for heat activities within Civil Protection’s budget, which the city itself describes as not enough for comprehensive risk management.",
+    delivery: "SMS alerts built with a private partner; the Red Cross, fire service and police help spread warnings; health and social teams visit 3,000–4,000 residents twice a week in summer; prepared cooled shelters.",
+    unresolved: "Space for greenery in dense streets, and building codes still to be updated.",
+    check: "Is there one office that can convene the others and hold a heat budget? Who can do home visits at scale?", pages: "pp. 15–20" },
+  { id: "incheon", city: "Incheon, Republic of Korea", size: "A metropolitan city of over 3 million",
+    problem: "More heatwave days and tropical nights, with elderly and low-income neighbourhoods most exposed; a sharp rise in heat illness in 2018.",
+    mechanism: "National law treats heatwaves as a disaster, so heat sits inside the city’s disaster structure, led by a Natural Disaster Division, with district headquarters and field units.",
+    resources: "A local heat ordinance (2019) and national grants covering part of project costs; some protection is funded through welfare programmes rather than a heat budget.",
+    delivery: "1,340 heat shelters (2023), shelter locations shared in safety apps, nearly 7,000 volunteer ‘heatwave helpers’, and data analysis to find 52 priority areas for cooling facilities.",
+    unresolved: "Competing land uses for urban forests, and long-term funding to scale up.",
+    check: "Does national law give local authorities a mandate and money for heat? Is there data on where older people live alone?", pages: "pp. 21–27" },
+  { id: "capetown", city: "Cape Town, South Africa", size: "A city of over 4.7 million with a Heat Wave Action Plan",
+    problem: "Heat that falls hardest on low-income neighbourhoods and informal settlements, where most residents have little greenery and no air conditioning, pool or easy way to the beach.",
+    mechanism: "A coordinating department convenes rather than implements, alongside existing structures: a business continuity committee, the disaster risk management centre and a climate forum.",
+    resources: "No dedicated national heat funding; the city relies on general grants, property taxes and tariffs.",
+    delivery: "Outreach in the hottest areas, six spray parks in lower-income neighbourhoods, and cooling centres and real-time heat monitoring in planning.",
+    unresolved: "Upkeep of green infrastructure, and resources to scale up public communication, including ‘message coupling’, which it plans to bring from its drought response to heat.",
+    check: "Is there a body that can convene without taking over others’ mandates? Who keeps essential services running in a heatwave?", pages: "pp. 34–40" },
+  { id: "quito", city: "Quito, Ecuador", size: "A capital city with its own metropolitan powers",
+    problem: "A city centre up to 3 °C warmer than its surroundings, while a drought threatens water and hydropower.",
+    mechanism: "Heat is managed inside the city’s long-term climate action plan, with an environment secretariat in the lead and the risk management secretariat alongside it.",
+    resources: "Funding from national, municipal, corporate and international sources; an ordinance on green and blue infrastructure.",
+    delivery: "Nature-based solutions and planning rules, with community and international partners.",
+    unresolved: "Heat is a lower national priority, and national weather data is incomplete.",
+    check: "Does your plan sit inside a wider climate plan with its own budget lines? Are the weather data you rely on maintained?", pages: "pp. 28–33" },
+  { id: "nairobi", city: "Nairobi, Kenya", size: "A fast-growing capital, starting out on heat",
+    problem: "Rapid development outpacing climate-sensitive planning, and the loss of green space.",
+    mechanism: "Urban heat was made a priority for the first time; work sits with a small climate change department.",
+    resources: "Eight staff for all the department’s activities, no dedicated heat strategy yet, and limited funds.",
+    delivery: "Forecasts from the national weather service reach the public through mainstream media; no dedicated heat warning yet.",
+    unresolved: "Fragmented, siloed efforts across sectors; no local heat data; low public awareness.",
+    check: "Starting from little is common. What is the first decision, and the first piece of data, that would let the next step happen?", pages: "pp. 41–45" }
+];
+const PLAN_MECH_NOTE = "From interviews with city officials in October and November 2024 and published material, as described in the report. These are examples of institutional practice, not evaluations of impact, and details may have changed since. Adapt the mechanism to your own powers, budgets and infrastructure; do not copy the city.";

@@ -1437,10 +1437,13 @@
       const v = leverById[id], r = planRow(id);
       const leads = [...new Set([...(v.who || []), ...INSTITUTIONS.map(i => i.id)])];
       return `<div class="plan-row" data-pl-row="${id}">
-        <p class="plan-row__title">${esc(v.title)} ${whenTag(v)}</p>
+        <p class="plan-row__title">${esc(v.title)} ${whenTag(v)}${LADDER.length ? ladderDots(rowCounts(r)) : ""}</p>
         <label>Who leads <select data-pl-field="lead">${leads.map(i => `<option value="${i}"${r.lead === i ? " selected" : ""}>${esc(instById[i].name)}${(v.who || []).includes(i) ? "" : " (not usual)"}</option>`).join("")}</select></label>
         <label>Who pays <select data-pl-field="payer">${PAYERS.map(p => `<option${r.payer === p ? " selected" : ""}>${esc(p)}</option>`).join("")}</select></label>
         ${PHASES.length ? `<label>When it happens <select data-pl-field="phase">${PHASES.map(x => `<option value="${x.id}"${r.phase === x.id ? " selected" : ""}>${esc(x.name)}</option>`).join("")}</select></label>` : ""}
+        ${LADDER.length ? (() => { const c = rowCounts(r); return `<label>Where it stands <select data-pl-field="status">${LADDER.map(x => `<option value="${x.id}"${(r.status || "proposed") === x.id ? " selected" : ""}>${esc(x.name)}</option>`).join("")}</select></label>
+        ${lRank(r.status) >= lRank("agreed") ? `<label class="plan-row__wide">What shows this? <input type="text" data-pl-field="ev" value="${esc(r.ev || "")}" placeholder="e.g. signed minutes of 3 March; a budget line; a photo of it working"></label>` : ""}
+        ${c !== (r.status || "proposed") ? `<p class="plan-row__warn plan-row__wide">Counts as discussed until there is evidence.</p>` : ""}`; })() : ""}
         <label class="plan-row__wide">How you will know it is working <input type="text" data-pl-field="measure" value="${esc(r.measure)}" placeholder="e.g. ${esc(v.measure || "")}"></label>
         ${isAsset(id) ? `<label class="plan-row__wide">Who keeps it working after year one, and from which budget? <input type="text" data-pl-field="upkeep" value="${esc(r.upkeep || "")}" placeholder="e.g. the ward office, from the parks maintenance budget"></label>` : ""}
         ${DELIVER.length ? `<details class="plan-row__deliver plan-row__wide"${deliverDone(id) ? " open" : ""}><summary>Can we deliver this? <span>${deliverDone(id)} of ${DELIVER.length} answered</span></summary>
@@ -1629,12 +1632,103 @@
     if (src) src.innerHTML = "Sources: " + PLAN_CHECKLIST_SOURCES.map(x => extLink(x.url, x.label)).join(" · ");
   }
 
+  /* ---- plan additions: where each action stands, capacity, where people can go, advice and provision, continuity, mechanisms ---- */
+  const LADDER = typeof PLACE_SIM !== "undefined" ? PLACE_SIM.statuses : [];
+  const openUI = {}; // which panels are open, kept across re-renders
+  const lRank = id => LADDER.findIndex(x => x.id === (id || "proposed"));
+  // a status at "agreed" or beyond counts only with evidence of it
+  const rowCounts = r => lRank(r.status) >= lRank("agreed") && !String(r.ev || "").trim() ? "discussed" : (r.status || "proposed");
+  const ladderDots = st => { const k = lRank(st); return `<span class="pl-dots" role="img" aria-label="Where it stands: ${esc(LADDER[k].name)}">${LADDER.map((x, i) => `<i class="${i <= k ? "on" : ""}"></i>`).join("")}<b>${esc(LADDER[k].name)}</b></span>`; };
+  function renderPlanStanding() {
+    const box = document.getElementById("plan-standing"); if (!box || !LADDER.length) return;
+    const ids = plan.levers.filter(id => leverById[id]); if (!ids.length) { box.innerHTML = ""; return; }
+    const n = LADDER.map(x => ids.filter(id => rowCounts(planRow(id)) === x.id).length);
+    box.innerHTML = `<div class="pl-standing"><p class="pl-standing__k">Where the plan stands</p>
+      <div class="pl-standing__bar" role="img" aria-label="${LADDER.map((x, i) => `${n[i]} ${x.name.toLowerCase()}`).join(", ")}">${LADDER.map((x, i) => n[i] ? `<span class="pl-st--${x.id}" style="flex:${n[i]}"><b>${n[i]}</b> ${esc(x.name)}</span>` : "").join("")}</div>
+      <p class="plan-step__hint">Naming who leads is not their agreement. Move each action up the ladder as it happens; from Agreed on, note what shows it.</p></div>`;
+  }
+  function renderPlanCapacity() {
+    const box = document.getElementById("plan-capacity"); if (!box || typeof PLAN_CAPACITY === "undefined") return;
+    const c = plan.capacity || {};
+    box.innerHTML = `<div class="pl-cap">${PLAN_CAPACITY.map(f => `<label>${esc(f.name)} <textarea rows="2" data-pl-cap="${f.id}" placeholder="${esc(f.placeholder)}">${esc(c[f.id] || "")}</textarea>${f.note ? `<span class="plan-step__hint">${esc(f.note)}</span>` : ""}</label>`).join("")}</div>`;
+  }
+  // step 1: places people can go
+  const points = () => (plan.points = Array.isArray(plan.points) ? plan.points : []);
+  function renderPlanPoints() {
+    const box = document.getElementById("plan-points"); if (!box || typeof PLAN_POINTS === "undefined") return;
+    const P = PLAN_POINTS, ps = points(), n = k => ps.filter(x => (x.status || "listed") === k).length, reach = plan.reach || [];
+    box.innerHTML = `<details class="pl-points" data-pl-open="points"${openUI.points ?? ps.length ? " open" : ""}><summary>Where can people go when it is hot? <span>${ps.length ? `${n("confirmed")} confirmed · ${n("listed")} listed · ${n("unknown")} unknown` : "places, and whether they are really open"}</span></summary>
+      <p class="plan-step__hint">${esc(P.note)}</p>
+      <div class="pl-points__list">${ps.map((x, i) => `<div class="pl-point pl-point--${x.status || "listed"}" data-pl-pt="${i}">
+        <div class="pl-point__h"><input type="text" aria-label="Name of the place" data-pl-ptf="name" value="${esc(x.name || "")}" placeholder="Name of the place">
+          <select aria-label="Kind of place" data-pl-ptf="kind">${P.kinds.map(k => `<option${x.kind === k ? " selected" : ""}>${esc(k)}</option>`).join("")}</select>
+          <button type="button" class="link" data-pl-ptdel="${i}" aria-label="Remove ${esc(x.name || "this place")}">Remove</button></div>
+        <div class="pl-point__f">${P.fields.map(f => `<label>${esc(f.name)} <input type="text" data-pl-ptf="${f.id}" value="${esc(x[f.id] || "")}" placeholder="${esc(f.placeholder)}"></label>`).join("")}</div>
+        <div class="pl-point__st" role="radiogroup" aria-label="Is it really open?">${P.statuses.map(([k, l]) => `<label><input type="radio" name="pl-pt-${i}" data-pl-ptst="${k}"${(x.status || "listed") === k ? " checked" : ""}> ${esc(l)}</label>`).join("")}</div></div>`).join("")}</div>
+      <p><button type="button" class="btn btn--sm btn--ghost" data-pl-ptadd>+ Add a place</button></p>
+      <fieldset class="pl-reach"><legend>Who may not be able to reach them?</legend>${P.reach.map((r, i) => `<label class="plan-check"><input type="checkbox" data-pl-reach="${i}"${reach.includes(i) ? " checked" : ""}><span>${esc(r)}</span></label>`).join("")}</fieldset>
+      <p class="plan-step__src">${extLink(P.source.url, P.source.label)}</p></details>`;
+  }
+  // step 4: advice paired with what makes it possible, and the message that results
+  function renderPlanCoupling() {
+    const box = document.getElementById("plan-coupling"); if (!box || typeof PLAN_COUPLING === "undefined") return;
+    const C = PLAN_COUPLING, cp = plan.coupling || {}, ok = C.rows.filter(r => (cp[r.id] || {}).ok && (cp[r.id] || {}).text);
+    const conf = points().filter(x => x.status === "confirmed" && x.name);
+    box.innerHTML = `<details class="pl-cp" data-pl-open="cp"${openUI.cp ?? ok.length ? " open" : ""}><summary>Pair every piece of advice with what makes it possible <span>${ok.length} of ${C.rows.length} confirmed</span></summary>
+      <p class="plan-step__hint">${esc(C.note)}</p>
+      <div class="pl-cp__grid"><div class="pl-cp__rows">${C.rows.map(r => { const v = cp[r.id] || {};
+        return `<div class="pl-cp__row${v.ok && v.text ? " is-ok" : ""}"><p class="pl-cp__adv">“${esc(r.advice)}”</p><p class="pl-cp__ask">${esc(r.ask)}</p>
+          <input type="text" aria-label="${esc(r.ask)}" data-pl-cp="${r.id}" value="${esc(v.text || (r.id === "cool" && conf.length ? "" : ""))}" placeholder="${esc(r.id === "cool" && conf.length ? `e.g. ${conf.map(x => x.name).join(", ")}` : r.placeholder)}">
+          <label class="pl-cp__ok"><input type="checkbox" data-pl-cpok="${r.id}"${v.ok ? " checked" : ""}> Confirmed by the body that runs it</label></div>`; }).join("")}</div>
+      <div class="pl-sms" aria-live="polite"><p class="pl-sms__k">The alert message, as it stands</p><div class="pl-sms__phone"><p class="pl-sms__b">${esc(smsText())}</p></div>
+        <p class="plan-step__hint">${C.rows.length - ok.length ? `${C.rows.length - ok.length} piece${C.rows.length - ok.length === 1 ? " of advice has" : "s of advice have"} no confirmed provision yet, so the message gives the advice alone.` : "Every piece of advice is paired with a confirmed provision."}</p></div></div>
+      <p class="plan-step__src">${extLink(C.source.url, C.source.label)}</p></details>`;
+  }
+  function smsText() {
+    const C = PLAN_COUPLING, cp = plan.coupling || {};
+    return `Heat alert${plan.place ? " for " + plan.place : ""}. ` + C.rows.map(r => { const v = cp[r.id] || {}; return v.ok && v.text ? `${r.advice}: ${v.text}.` : `${r.advice}.`; }).join(" ");
+  }
+  // step 5: will essential services continue?
+  const cont = () => (plan.cont = plan.cont && typeof plan.cont === "object" ? plan.cont : { on: [], fb: {} });
+  const covered = (fid, dep) => { const f = cont().fb[`${fid}:${dep}`] || {}; return !!(f.st && (f.fallback || "").trim()); };
+  function contGaps() { const c = cont(); if (typeof PLAN_CONTINUITY === "undefined") return [];
+    return PLAN_CONTINUITY.functions.flatMap(f => f.deps.filter(d => c.on.includes(d) && !covered(f.id, d)).map(d => ({ f, d: PLAN_CONTINUITY.disruptions.find(x => x.id === d) }))); }
+  function renderPlanContinuity() {
+    const box = document.getElementById("plan-continuity"); if (!box || typeof PLAN_CONTINUITY === "undefined") return;
+    const K = PLAN_CONTINUITY, c = cont(), gaps = contGaps();
+    box.innerHTML = `<section class="pl-ct" aria-labelledby="pl-ct-h"><p class="pl-ct__k">Stress test</p><h3 id="pl-ct-h">When the power goes</h3>
+      <p class="plan-step__hint">${esc(K.note)}</p>
+      <div class="pl-ct__hits" role="group" aria-label="What goes wrong during the heatwave">${K.disruptions.map(d => `<button type="button" class="pl-ct__hit" data-pl-ct="${d.id}" aria-pressed="${c.on.includes(d.id)}"><span aria-hidden="true">${d.icon}</span> ${esc(d.name)}</button>`).join("")}</div>
+      <div class="pl-ct__fns">${K.functions.map(f => { const hit = f.deps.filter(d => c.on.includes(d)), open = hit.filter(d => !covered(f.id, d)), dark = open.length > 0;
+        return `<div class="pl-fn${dark ? " is-dark" : hit.length ? " is-held" : ""}"><p class="pl-fn__n"><span class="pl-fn__lamp" aria-hidden="true"></span>${esc(f.name)}<em>${!hit.length ? "Running" : dark ? `At risk: ${plural(open.length, "dependency", "dependencies")} not covered` : "Kept going by the fallbacks below"}</em></p>
+          <p class="pl-fn__deps">Depends on: ${f.deps.map(d => { const x = K.disruptions.find(z => z.id === d); return `<span class="${c.on.includes(d) ? (covered(f.id, d) ? "ok" : "hit") : ""}"><span aria-hidden="true">${x.icon}</span> ${esc(x.dep)}</span>`; }).join("")}</p>
+          ${hit.map(d => { const x = K.disruptions.find(z => z.id === d), fb = c.fb[`${f.id}:${d}`] || {};
+            return `<div class="pl-fb"><p><b>${x.icon} ${esc(x.name)}:</b> what keeps ${esc(f.name.toLowerCase())} going?</p>
+              <input type="text" aria-label="Fallback for ${esc(f.name)} during ${esc(x.name.toLowerCase())}" data-pl-fb="${f.id}:${d}:fallback" value="${esc(fb.fallback || "")}" placeholder="${esc(f.prompt)}">
+              <div class="pl-fb__r"><input type="text" aria-label="Who arranges it" data-pl-fb="${f.id}:${d}:who" value="${esc(fb.who || "")}" placeholder="Who arranges it">
+              <select aria-label="Is it arranged?" data-pl-fb="${f.id}:${d}:st">${K.states.map(([v, l]) => `<option value="${v}"${(fb.st || "") === v ? " selected" : ""}>${esc(l)}</option>`).join("")}</select></div></div>`; }).join("")}</div>`; }).join("")}</div>
+      ${c.on.length ? `<div class="pl-ct__out"><p class="pl-ct__k">${gaps.length ? `${plural(gaps.length, "dependency", "dependencies")} still to resolve` : "Every dependency hit in this scenario has a fallback"}</p>${gaps.length ? `<ul>${gaps.map(g => `<li><b>${esc(g.f.name)}</b> without a plan for: ${esc(g.d.name.toLowerCase())}</li>`).join("")}</ul>` : ""}</div>` : `<p class="plan-step__hint">Choose what goes wrong above to start.</p>`}
+      <p class="plan-step__src">${extLink(K.source.url, K.source.label)}</p></section>`;
+  }
+  // "See it done": adapt the mechanism, not the city
+  let mechOn = 0;
+  function renderPlanMech() {
+    const box = document.getElementById("plan-mech"); if (!box || typeof PLAN_MECHANISMS === "undefined") return;
+    const M = PLAN_MECHANISMS, m = M[mechOn], F = [["problem", "The problem"], ["mechanism", "How they work together"], ["resources", "Authority and money"], ["delivery", "What reaches people"], ["unresolved", "Still unresolved"], ["check", "Before adapting it, check"]];
+    box.innerHTML = `<p class="pm__k">Adapt the mechanism, not the city</p><h2 class="pm__h" id="pm-title">How five cities organise for heat</h2>
+      <div class="pm__tabs" role="tablist" aria-label="Cities">${M.map((x, i) => `<button type="button" role="tab" id="pm-tab-${x.id}" aria-controls="pm-panel" aria-selected="${i === mechOn}" tabindex="${i === mechOn ? 0 : -1}" data-pm="${i}">${esc(x.city.split(",")[0])}</button>`).join("")}</div>
+      <div class="pm__card" id="pm-panel" role="tabpanel" aria-labelledby="pm-tab-${m.id}"><p class="pm__city"><b>${esc(m.city)}</b> ${esc(m.size)}</p>
+        <dl class="pm__grid">${F.map(([k, l]) => `<div class="pm__f pm__f--${k}"><dt>${esc(l)}</dt><dd>${esc(m[k])}</dd></div>`).join("")}</dl>
+        <p class="pm__src">${esc(PLAN_MECH_NOTE)} ${extLink(MCR2030.url, `${MCR2030.label}, ${m.pages}`)}</p></div>`;
+  }
+
   function renderPlan() {
     const place = document.getElementById("plan-place"), grp = document.getElementById("plan-group");
     if (!place || !grp) return;
     grp.innerHTML = `<option value="">Choose a group…</option>` + PG.map(g => `<option value="${g.id}"${plan.group === g.id ? " selected" : ""}>${esc(g.name)}</option>`).join("");
     place.value = plan.place;
     const rv = document.getElementById("plan-review"); if (rv) rv.value = plan.review || "";
+    renderPlanMech(); renderPlanPoints(); renderPlanStanding(); renderPlanCapacity(); renderPlanCoupling(); renderPlanContinuity();
     renderPlanStory(); renderPlanChecklist(); renderPlanWorkshop(); renderPlanExposure(); renderPlanFin(); renderPlanReviewLog(); renderPlanActions(); renderPlanRows(); renderPlanTriggers(); renderPlanStalls(); renderPlanCheck(); renderPlanSummary();
   }
 
@@ -1650,8 +1744,12 @@
     L.push("HEAT RESPONSE PLAN", `Place: ${plan.place || "(not set)"}`, `People at risk: ${g ? g.name : "(not set)"}`, `Made with the BeatTheHeat.Asia systems map: ${location.origin + location.pathname}`, "");
     plan.levers.forEach((id, i) => { const v = leverById[id], r = planRow(id);
       L.push(`${i + 1}. ${v.title} [${WHEN[v.when] || ""}]`, `   Leads: ${instById[r.lead] ? instById[r.lead].name : "-"}`, `   Pays: ${r.payer}`, `   When: ${phaseById[r.phase] ? phaseById[r.phase].name : "-"}`, `   How we will know: ${r.measure || v.measure || "-"}`);
+      if (LADDER.length) L.push(`   Where it stands: ${LADDER[lRank(rowCounts(r))].name}${r.ev ? ` (shown by: ${r.ev})` : ""}`);
       if (isAsset(id)) L.push(`   Kept working by: ${r.upkeep || "(not set)"}`);
       DELIVER.forEach(f => L.push(`   ${f.name}: ${(r.deliver || {})[f.id] || "(not set)"}`)); });
+    if (typeof PLAN_CAPACITY !== "undefined" && plan.capacity) PLAN_CAPACITY.forEach(f => { if ((plan.capacity[f.id] || "").trim()) L.push("", f.name, `   ${plan.capacity[f.id]}`); });
+    if (points().length) { L.push("", "WHERE PEOPLE CAN GO"); points().forEach(x => L.push(`- ${x.name || "(unnamed)"} (${x.kind || ""}): ${(PLAN_POINTS.statuses.find(z => z[0] === (x.status || "listed")) || [])[1]}`, ...PLAN_POINTS.fields.filter(f => x[f.id]).map(f => `   ${f.name}: ${x[f.id]}`)));
+      if ((plan.reach || []).length) L.push(`May not be able to reach them: ${plan.reach.map(i => PLAN_POINTS.reach[i]).join(", ")}`); }
     const t = trig(), base = BASES.find(b => b.id === t.basis);
     L.push("", "TRIGGERS AND WARNINGS", `Alerts based on: ${base ? base.name : "(not set)"}`, `Issued by: ${instById[t.issuer || "met"] ? instById[t.issuer || "met"].name : "-"}`);
     LEVELS.forEach(l => L.push(`${l.name} (${l.meaning}): ${t[l.id] || "(not set)"}. Switches on: ${plan.levers.filter(id => planRow(id).phase === l.id).map(id => leverById[id].title).join(", ") || "nothing yet"}`));
@@ -1659,6 +1757,9 @@
     if (W2A.length) { L.push("", "WARNING-TO-ACTION TABLE");
       LEVELS.forEach(l => { const w = (t.w2a || {})[l.id] || {}; L.push(`${l.name} (${l.meaning}):`);
         W2A.forEach(f => L.push(`   ${f.name}: ${(f.id === "decide" ? instName(w.decide) : f.id === "pay" ? (w.pay || PAYERS[0]) : w[f.id]) || "(not set)"}`)); }); }
+    if (typeof PLAN_COUPLING !== "undefined") L.push("", "THE ALERT MESSAGE (advice with confirmed provision only)", smsText());
+    if (typeof PLAN_CONTINUITY !== "undefined" && cont().on.length) { L.push("", `STRESS TEST: ${cont().on.map(id => PLAN_CONTINUITY.disruptions.find(x => x.id === id).name).join(", ")}`);
+      PLAN_CONTINUITY.functions.forEach(f => f.deps.filter(d => cont().on.includes(d)).forEach(d => { const fb = cont().fb[`${f.id}:${d}`] || {}; L.push(`   ${f.name} / ${PLAN_CONTINUITY.disruptions.find(x => x.id === d).name}: ${fb.fallback || "(no fallback)"}${fb.who ? `, by ${fb.who}` : ""} [${(PLAN_CONTINUITY.states.find(z => z[0] === (fb.st || "")) || [])[1]}]`); })); }
     if (TWOWAY.length) { L.push("", "WARNINGS THAT WORK BOTH WAYS"); TWOWAY.forEach(f => L.push(`   ${f.name}: ${(t.twoway || {})[f.id] || "(not set)"}`)); }
     if (FIN) { const f = fin(); L.push("", "PAYING FOR PROTECTION");
       FIN.needs.forEach(n => { const v = (f.needs || {})[n.id] || {}; L.push(`${n.need}: ${v.route || "(no route yet)"}${v.by ? `. Must arrive by: ${v.by}` : ""}`); });
@@ -1691,7 +1792,7 @@
       .print{position:fixed;top:16px;right:16px;padding:10px 18px;border-radius:999px;border:0;background:#F26430;font-weight:700;cursor:pointer}
       @media print{.print{display:none}body{margin:0}.read .u{display:block;color:#5E6570;font-size:11px;word-break:break-all}h2{break-after:avoid}.read h3{break-after:avoid}}`;
     const rows = plan.levers.map(id => { const v = leverById[id], r = planRow(id);
-      return `<tr><td><strong>${h(v.title)}</strong><br><span class="note">${h(WHEN[v.when] || "")}</span>${isAsset(id) ? `<br><span class="${(r.upkeep || "").trim() ? "note" : "gap"}">Kept working by: ${h(r.upkeep || "not set")}</span>` : ""}${DELIVER.filter(f => (r.deliver || {})[f.id]).map(f => `<br><span class="note">${h(f.name)}: ${h(r.deliver[f.id])}</span>`).join("")}</td><td>${h(phaseById[r.phase] ? phaseById[r.phase].name : "")}</td><td>${h(instById[r.lead] ? instById[r.lead].name : "")}</td><td class="${r.payer === "Not decided yet" ? "gap" : ""}">${h(r.payer)}</td><td>${h(r.measure || v.measure || "")}</td></tr>`; }).join("");
+      return `<tr><td><strong>${h(v.title)}</strong><br><span class="note">${h(WHEN[v.when] || "")}</span>${isAsset(id) ? `<br><span class="${(r.upkeep || "").trim() ? "note" : "gap"}">Kept working by: ${h(r.upkeep || "not set")}</span>` : ""}${DELIVER.filter(f => (r.deliver || {})[f.id]).map(f => `<br><span class="note">${h(f.name)}: ${h(r.deliver[f.id])}</span>`).join("")}${LADDER.length ? `<br><span class="${lRank(rowCounts(r)) >= lRank("agreed") ? "note" : "gap"}">Where it stands: ${h(LADDER[lRank(rowCounts(r))].name)}${r.ev ? ` (${h(r.ev)})` : ""}</span>` : ""}</td><td>${h(phaseById[r.phase] ? phaseById[r.phase].name : "")}</td><td>${h(instById[r.lead] ? instById[r.lead].name : "")}</td><td class="${r.payer === "Not decided yet" ? "gap" : ""}">${h(r.payer)}</td><td>${h(r.measure || v.measure || "")}</td></tr>`; }).join("");
     const html = `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Heat response plan: ${h(plan.place || "draft")}</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;700&display=swap"><style>${css}</style></head><body>
       <button class="print" onclick="window.print()">Print or save as PDF</button>
       <p class="k">Heat response plan · draft</p><h1>${h(plan.place || "Our place")}</h1>
@@ -1711,6 +1812,10 @@
         <table><tbody>${FIN.fields.map(x => `<tr><td><strong>${h(x.name)}</strong></td><td class="${(f.path || {})[x.id] ? "" : "gap"}">${h((f.path || {})[x.id] || "Not set")}</td></tr>`).join("")}
         <tr><td><strong>Payout trigger</strong></td><td>${h(f.payout || "None")}</td></tr><tr><td><strong>If it does not pay</strong></td><td class="${f.nopay || !f.payout ? "" : "gap"}">${h(f.nopay || "Not set")}</td></tr></tbody></table>
         <p class="note">Will it survive the next season? ${h(FIN.survive.join(" "))}</p>`)(fin()) : ""}
+      ${points().length ? `<h2>Where people can go</h2><table><thead><tr><th>Place</th><th>Status</th><th>Details</th></tr></thead><tbody>${points().map(x => `<tr><td><strong>${h(x.name || "Unnamed")}</strong><br><span class="note">${h(x.kind || "")}</span></td><td class="${x.status === "confirmed" ? "" : "gap"}">${h((PLAN_POINTS.statuses.find(z => z[0] === (x.status || "listed")) || [])[1])}</td><td>${PLAN_POINTS.fields.filter(f => x[f.id]).map(f => `${h(f.name)}: ${h(x[f.id])}`).join("<br>")}</td></tr>`).join("")}</tbody></table>${(plan.reach || []).length ? `<p class="note">May not be able to reach them: ${h(plan.reach.map(i => PLAN_POINTS.reach[i]).join(", "))}.</p>` : ""}` : ""}
+      ${typeof PLAN_COUPLING !== "undefined" ? `<h2>The alert message</h2><p>${h(smsText())}</p><p class="note">Advice is paired only with provisions confirmed by the body that runs them.</p>` : ""}
+      ${typeof PLAN_CONTINUITY !== "undefined" && cont().on.length ? `<h2>Stress test: ${h(cont().on.map(id => PLAN_CONTINUITY.disruptions.find(x => x.id === id).name.toLowerCase()).join(", "))}</h2><table><thead><tr><th>Service</th><th>If this fails</th><th>Fallback</th><th>Who</th><th>Status</th></tr></thead><tbody>${PLAN_CONTINUITY.functions.flatMap(f => f.deps.filter(d => cont().on.includes(d)).map(d => { const fb = cont().fb[`${f.id}:${d}`] || {}; return `<tr><td>${h(f.name)}</td><td>${h(PLAN_CONTINUITY.disruptions.find(x => x.id === d).name)}</td><td class="${(fb.fallback || "").trim() ? "" : "gap"}">${h(fb.fallback || "None yet")}</td><td>${h(fb.who || "")}</td><td class="${fb.st ? "" : "gap"}">${h((PLAN_CONTINUITY.states.find(z => z[0] === (fb.st || "")) || [])[1])}</td></tr>`; })).join("")}</tbody></table>` : ""}
+      ${plan.capacity && PLAN_CAPACITY.some(f => (plan.capacity[f.id] || "").trim()) ? `<h2>Capability and support</h2>${PLAN_CAPACITY.map(f => `<p><strong>${h(f.name)}</strong><br>${h(plan.capacity[f.id] || "Not set")}</p>`).join("")}` : ""}
       ${expoOn().length ? `<h2>Exposure: to discuss</h2><p class="note">Prompts from the exposure questions, not a risk score.</p><ul>${expoOn().map(x => `<li><strong>${h(x.q)}</strong> ${h(x.prompt)}</li>`).join("")}</ul>` : ""}
       ${(() => { const c = whoCheck(); return c.length ? `<h2>Check against WHO’s eight core elements</h2><p class="note">${c.filter(x => x.st === "yes").length} of ${c.length} in place. From WHO/Europe, Heat–health action plans: guidance, second edition (2026).</p>
         <table><tbody>${c.map(({ e, st, note }) => `<tr><td><strong>${h(e.name)}</strong></td><td class="${st === "yes" ? "" : "gap"}">${h(ST[st])}</td><td>${h(note)}</td></tr>`).join("")}</tbody></table>` : ""; })()}
@@ -1736,6 +1841,50 @@
     savePlan(); renderPlan();
     document.getElementById("plan-story").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" });
   }
+
+  // the plan additions: their own listeners, on the plan page only
+  (function wirePlanExtras() {
+    const sec = document.getElementById("plan"); if (!sec || !PLAN_PAGE) return;
+    const after = (...fns) => { savePlan(); fns.forEach(f => f()); renderPlanCheck(); renderPlanSummary(); };
+    // a text field's change fires as it loses focus, sometimes while another render is replacing it: re-render a tick later
+    const later = fn => setTimeout(() => keep(fn), 0);
+    const keep = (fn, sel) => { const f = document.activeElement, ds = f && f.dataset ? Object.entries(f.dataset)[0] : null; fn();
+      if (ds) { const el = sec.querySelector(`[data-${ds[0].replace(/[A-Z]/g, c => "-" + c.toLowerCase())}="${ds[1]}"]`); if (el) el.focus({ preventScroll: true }); } };
+    sec.addEventListener("input", ev => {
+      const t = ev.target, d = t.dataset;
+      if (d.plField === "ev") { planRow(t.closest("[data-pl-row]").dataset.plRow).ev = t.value; savePlan(); return; }
+      if (d.plCap) { (plan.capacity = plan.capacity || {})[d.plCap] = t.value; savePlan(); return; }
+      if (d.plPtf && t.tagName === "INPUT") { points()[+t.closest("[data-pl-pt]").dataset.plPt][d.plPtf] = t.value; savePlan(); return; }
+      if (d.plCp) { const cp = plan.coupling = plan.coupling || {}; (cp[d.plCp] = cp[d.plCp] || {}).text = t.value; savePlan(); const b = sec.querySelector(".pl-sms__b"); if (b) b.textContent = smsText(); return; }
+      if (d.plFb && t.tagName === "INPUT") { const [f, dep, k] = d.plFb.split(":"), fb = cont().fb; (fb[`${f}:${dep}`] = fb[`${f}:${dep}`] || {})[k] = t.value; savePlan(); return; }
+    });
+    sec.addEventListener("change", ev => {
+      const t = ev.target, d = t.dataset;
+      if (d.plField === "status") { planRow(t.closest("[data-pl-row]").dataset.plRow).status = t.value; keep(() => after(renderPlanRows, renderPlanStanding)); return; }
+      if (d.plField === "ev") { later(() => after(renderPlanRows, renderPlanStanding)); return; }
+      if (d.plPtf && t.tagName === "SELECT") { points()[+t.closest("[data-pl-pt]").dataset.plPt].kind = t.value; savePlan(); return; }
+      if (d.plPtf) { later(() => after(renderPlanPoints, renderPlanCoupling)); return; }
+      if (d.plPtst) { points()[+t.closest("[data-pl-pt]").dataset.plPt].status = d.plPtst; keep(() => after(renderPlanPoints, renderPlanCoupling)); return; }
+      if (d.plReach !== undefined) { const i = +d.plReach, r = plan.reach = Array.isArray(plan.reach) ? plan.reach : []; plan.reach = t.checked ? [...new Set([...r, i])] : r.filter(x => x !== i); after(); return; }
+      if (d.plCpok) { const cp = plan.coupling = plan.coupling || {}; (cp[d.plCpok] = cp[d.plCpok] || {}).ok = t.checked; keep(() => after(renderPlanCoupling)); return; }
+      if (d.plCp) { later(() => after(renderPlanCoupling)); return; }
+      if (d.plFb) { const [f, dep, k] = d.plFb.split(":"), fb = cont().fb; (fb[`${f}:${dep}`] = fb[`${f}:${dep}`] || {})[k] = t.value; (t.tagName === "SELECT" ? keep : later)(() => after(renderPlanContinuity)); return; }
+    });
+    sec.addEventListener("click", ev => {
+      const t = ev.target, b = k => t.closest(`[data-${k}]`);
+      if (b("pl-ptadd")) { points().push({ name: "", kind: PLAN_POINTS.kinds[0], status: "listed" }); after(renderPlanPoints); const ins = sec.querySelectorAll('.pl-point [data-pl-ptf="name"]'); if (ins.length) ins[ins.length - 1].focus(); track("plan-point-add"); return; }
+      if (b("pl-ptdel")) { points().splice(+b("pl-ptdel").dataset.plPtdel, 1); after(renderPlanPoints, renderPlanCoupling); return; }
+      if (b("pl-ct")) { const id = b("pl-ct").dataset.plCt, c = cont(); c.on = c.on.includes(id) ? c.on.filter(x => x !== id) : [...c.on, id]; track("plan-continuity-" + id); keep(() => after(renderPlanContinuity)); return; }
+      if (b("pm")) { mechOn = +b("pm").dataset.pm; renderPlanMech(); const tb = sec.querySelector(`[data-pm="${mechOn}"]`); if (tb) tb.focus(); track("plan-mech-" + PLAN_MECHANISMS[mechOn].id); return; }
+    });
+    sec.addEventListener("toggle", ev => { const k = ev.target.dataset && ev.target.dataset.plOpen; if (k) openUI[k] = ev.target.open; }, true);
+    sec.addEventListener("keydown", ev => {
+      const tb = ev.target.closest && ev.target.closest("[data-pm]"); if (!tb || !["ArrowLeft", "ArrowRight", "Home", "End"].includes(ev.key)) return;
+      ev.preventDefault(); const n = PLAN_MECHANISMS.length;
+      mechOn = ev.key === "Home" ? 0 : ev.key === "End" ? n - 1 : (mechOn + (ev.key === "ArrowRight" ? 1 : n - 1)) % n;
+      renderPlanMech(); sec.querySelector(`[data-pm="${mechOn}"]`).focus();
+    });
+  })();
 
   (function wirePlan() {
     const sec = document.getElementById("plan"); if (!sec) return;
