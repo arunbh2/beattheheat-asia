@@ -1077,7 +1077,7 @@
     else if (act === "prev") { state.step--; renderStep(); }
   }
   document.addEventListener("click", ev => {
-    if (ev.target.closest("#panel, #guide, #loops, #web-list, #start, #who-holds, #at-risk, #stalls, #cooling, #city, #network, #breakbar, #day, #path-form, .intro")) handleAction(ev);
+    if (ev.target.closest("#panel, #guide, #loops, #web-list, #start, #who-holds, #at-risk, #stalls, #cooling, #city, #heatwaves, #network, #breakbar, #day, #path-form, .intro")) handleAction(ev);
   });
   document.addEventListener("keydown", ev => {
     if (ev.key === "Escape" && (state.selected || state.story || state.inst || state.pkg)) { clearSelection(); fitAll(); }
@@ -2117,9 +2117,13 @@
   // Cooling options by place: tabs for each place, the traps, what changes the result, and the value of cooling
   const COOL = typeof COOL_PLACES !== "undefined" ? COOL_PLACES : [];
   const rupees = n => n >= 10000000 ? `₹${+(n / 10000000).toFixed(2)} crore` : n >= 100000 ? `₹${+(n / 100000).toFixed(1)} lakh` : `₹${n.toLocaleString("en-IN")}`;
+  // Indian rupee ranges shown in US dollars first, rounded to two significant figures
+  const FX = typeof COOL_FX !== "undefined" ? COOL_FX.inrPerUsd : 0;
+  const usd = n => { const v = n / FX, r = v >= 10 ? Math.round(v / 10 ** (Math.floor(Math.log10(v)) - 1)) * 10 ** (Math.floor(Math.log10(v)) - 1) : Math.round(v * 10) / 10;
+    return "US$" + r.toLocaleString("en-US", { maximumFractionDigits: v >= 10 ? 0 : 2, minimumFractionDigits: v >= 10 || r % 1 === 0 ? 0 : 2 }); };
   function coolCost(c) {
     if (!c || c.conf === "low" || !c.high) return `<span class="cool-opt__noquote">No range solid enough to share. Get local quotes.</span>`;
-    return `${rupees(c.low)}–${rupees(c.high)} per ${esc(c.unit)} <span class="cool-opt__conf">${c.conf === "medium" ? "medium confidence" : "low to medium confidence"}</span>${c.src ? `<span class="cool-opt__src">${extLink(c.src.url, c.src.label)}</span>` : ""}`;
+    return `${FX ? `<b class="cool-opt__usd">About ${usd(c.low)}–${usd(c.high)}</b> per ${esc(c.unit)} <span class="cool-opt__inr">(${rupees(c.low)}–${rupees(c.high)} at Indian prices)</span>` : `${rupees(c.low)}–${rupees(c.high)} per ${esc(c.unit)}`} <span class="cool-opt__conf">${c.conf === "medium" ? "medium confidence" : "low to medium confidence"}</span>${c.src ? `<span class="cool-opt__src">${extLink(c.src.url, c.src.label)}</span>` : ""}`;
   }
   function showCoolPlace(id, focus) {
     const p = COOL.find(x => x.id === id) || COOL[0], panelEl = document.getElementById("cool-panel");
@@ -2164,6 +2168,12 @@
       </li>`).join("");
     const evb = document.getElementById("cool-evidence");
     if (evb && typeof COOL_EVIDENCE !== "undefined") evb.innerHTML = COOL_EVIDENCE.map(x => `<article class="cool-ev"><h4>${esc(x.name)}</h4><p>${gloss(x.text)}</p><p class="cool-ev__src">${extLink(x.source.url, x.source.label)}</p></article>`).join("");
+    const reg = document.getElementById("cool-region");
+    if (reg && typeof COOL_REGION !== "undefined") reg.innerHTML = `<p class="cool-region__why">${esc(COOL_REGION.why.text)} <span class="cool-ev__src">${extLink(COOL_REGION.why.source.url, COOL_REGION.why.source.label)}</span></p>
+      <ul class="cool-region__list">${COOL_REGION.prices.map(x => `<li><p class="cool-region__place">${esc(x.place)}</p><p class="cool-region__what">${esc(x.what)}</p>
+        <p class="cool-region__fig">${esc(x.figure)}</p>${x.result ? `<p class="cool-region__res">${esc(x.result)}</p>` : ""}
+        <p class="cool-ev__src">${x.sources.map(z => extLink(z.url, z.label)).join(" · ")}</p></li>`).join("")}</ul>
+      <p class="cool-region__fx">Dollar figures use about ₹${FX} to US$1 (${esc(COOL_FX.asOf)}): ${extLink(COOL_FX.source.url, COOL_FX.source.label)}. Other conversions are rough and for comparison only.</p>`;
     const val = document.getElementById("cool-value");
     if (val && typeof COOL_VALUE !== "undefined") val.innerHTML = `<p class="cool-value__k">Putting a value on cooling</p>
       <h3 class="cool-value__h">Make the case in lives, work and bills</h3>
@@ -2171,7 +2181,8 @@
       <p class="cool-value__lesson">${esc(COOL_VALUE.lesson)}</p>
       <p class="cool-value__k2">Count the value of cooling in</p>
       <ul class="cool-value__how">${COOL_VALUE.how.map(h => `<li>${esc(h)}</li>`).join("")}</ul>
-      <p class="cool-ev__src">Sources: ${COOL_VALUE.sources.map(x => extLink(x.url, x.label)).join(" · ")}</p>`;
+      <p class="cool-ev__src">Sources: ${COOL_VALUE.sources.map(x => extLink(x.url, x.label)).join(" · ")}</p>
+      ${typeof COOL_REGION !== "undefined" ? `<p class="cool-value__ret"><b>What it returns in India</b> ${esc(COOL_REGION.returns.text)} <span class="cool-ev__src">${extLink(COOL_REGION.returns.source.url, COOL_REGION.returns.source.label)}</span></p>` : ""}`;
     const rd = document.getElementById("cool-reading");
     if (rd && typeof COOL_READING !== "undefined") rd.innerHTML = COOL_READING.map(x => `<li><p class="cool-read__t">${extLink(x.url, x.title)}</p><p class="cool-read__by">${esc(x.by)}</p><p>${gloss(x.adds)}</p></li>`).join("");
     document.getElementById("cooling").addEventListener("click", ev => {
@@ -2279,7 +2290,7 @@
   const CITIES = typeof CITY_PROFILES !== "undefined" ? CITY_PROFILES : [];
   const cityById = Object.fromEntries(CITIES.map(p => [p.id, p]));
   const MAPBOX = { lon0: 64, lon1: 129, lat0: -12, lat1: 34 };   // matches images/asia-map.svg (1000 × 721)
-  const LABEL_LEFT = new Set(["ahmedabad", "mumbai", "manila", "delhi"]);
+  const LABEL_LEFT = new Set(["manila", "delhi"]);
   const HEAT_STOPS = [[0, [61, 191, 174]], [0.45, [245, 166, 35]], [0.7, [242, 100, 48]], [1, [215, 38, 61]]];
   function heatColor(v) {
     const t = clamp01((v - 20) / 35);
@@ -2326,7 +2337,7 @@
           ${ok ? `<p class="cp__t" style="--heat:${heatColor(d.feels)}">${Math.round(d.t)}<span> °C</span></p>
             <p class="cp__f">Feels like <b>${deg(d.feels)}</b> · humidity ${Math.round(d.rh)}%</p>${cityForecast(d)}`
             : `<p class="cp__none">${cityLive ? "Live reading unavailable just now." : "Loading live readings…"}</p>`}
-          ${p.heat ? `<p class="cp__heat"><b>Heat type</b> ${gloss(p.heat)}</p>` : ""}
+          ${p.heat ? `<p class="cp__heat"><b>Heat type</b> ${gloss(p.heat)}</p>${watchButton("dryhumid", "Dry heat and humid heat, explained", "watch-btn cp__watch")}` : ""}
           <p class="cp__links">Official warnings: ${extLink(c.warn.url, c.warn.label)}${FP ? ` · ${extLink(FP.map.url, FP.cardLink)}` : ""}</p>
         </div>
         <div class="cp__card cp__hap cp__hap--${p.hap.status}">
@@ -2404,6 +2415,39 @@
     const load = () => liveFetch().then(data => { cityLive = data; renderCityPanel(cityNow); cityDots(); }, () => { cityLive = { cities: {} }; renderCityPanel(cityNow); cityDots(); });
     if ("IntersectionObserver" in window) { const io = new IntersectionObserver(es => { if (es.some(e => e.isIntersecting)) { io.disconnect(); load(); } }, { rootMargin: "800px 0px" }); io.observe(sec); }
     else load();
+  }
+
+  /* ======================= HEATWAVES THAT SHAPED ASIA ======================= */
+  // a timeline of major heatwaves: dots sized by recorded deaths (a floor, not a total), hollow where no solid count exists
+  function renderHeatwaves() {
+    const chart = document.getElementById("hw-chart"), list = document.getElementById("hw-list");
+    if (!chart || !list || typeof HEATWAVES === "undefined") return;
+    const note = document.getElementById("hw-note"); if (note) note.textContent = HEATWAVES_NOTE;
+    // events are evenly spaced (not to scale in time) so every one stays readable
+    const n = HEATWAVES.length, W = 1000, H = 220, base = 150, step = (W - 130) / Math.max(1, n - 1), maxD = Math.max(...HEATWAVES.map(h => h.deaths || 0));
+    const r = d => d ? 8 + Math.sqrt(d / maxD) * (step / 2 - 10) : 9;
+    const dots = HEATWAVES.map((h, i) => {
+      const cx = 65 + i * step, rr = r(h.deaths);
+      return `<a href="#hw-${h.id}" class="hw-dot${h.deaths ? "" : " hw-dot--none"}" aria-label="${esc(h.when)}, ${esc(h.place)}: ${esc(h.toll)}">
+        <line x1="${cx}" y1="${base}" x2="${cx}" y2="${base - rr}" class="hw-stem"/>
+        <circle cx="${cx}" cy="${base - rr}" r="${rr}"/>
+        ${h.deaths ? `<text x="${cx}" y="${base - rr + 4}" class="hw-n">${h.deaths.toLocaleString("en-US")}${h.atLeast ? "+" : ""}</text>` : ""}
+        <text x="${cx}" y="${base + 22}" class="hw-y">${h.year}</text></a>`; }).join("");
+    const ticks = HEATWAVES.map((h, i) => `<line x1="${65 + i * step}" y1="${base}" x2="${65 + i * step}" y2="${base + 6}" class="hw-tick"/>`).join("");
+    chart.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="group" aria-label="Timeline of major heatwaves in South and Southeast Asia, 1998 to 2026">
+      <line x1="20" y1="${base}" x2="${W - 20}" y2="${base}" class="hw-axis"/>${ticks}${dots}</svg>
+      <p class="hw-legend"><span class="hw-key"></span> Recorded deaths (bigger circle, more deaths) <span class="hw-key hw-key--none"></span> No solid death count <span class="hw-scale">Events are evenly spaced, not to scale in time.</span></p>`;
+    list.innerHTML = HEATWAVES.map(h => `<li class="hw-card" id="hw-${h.id}">
+      <p class="hw-card__when">${esc(h.when)} · ${esc(h.place)}</p>
+      <h3 class="hw-card__t">${esc(h.title)}</h3>
+      <dl class="hw-card__facts"><div><dt>Peak</dt><dd>${esc(h.peak)}</dd></div><div><dt>Toll</dt><dd>${esc(h.toll)}</dd></div></dl>
+      <p>${gloss(h.what)}</p>
+      <p class="hw-card__changed"><b>What changed</b> ${esc(h.changed)}</p>
+      <p class="hw-card__nodes">On the map: ${h.nodes.map(n => byId[n] ? `<button class="link" data-go="${n}">${esc(plain(byId[n]))}</button>` : "").join(" · ")}</p>
+      <p class="hw-card__src">Sources: ${h.sources.map(s => extLink(s.url, s.label)).join(" · ")}</p></li>`).join("");
+    chart.addEventListener("click", ev => { const a = ev.target.closest("a.hw-dot"); if (!a) return;
+      const el = document.getElementById(a.getAttribute("href").slice(1)); if (!el) return; ev.preventDefault();
+      el.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "center" }); el.classList.remove("is-flash"); void el.offsetWidth; el.classList.add("is-flash"); });
   }
 
   /* ======================= START HERE ======================= */
@@ -2588,6 +2632,7 @@
     renderCooling();
     renderNow();
     renderCity();
+    renderHeatwaves();
     renderStart();
     renderList();
     renderStats();

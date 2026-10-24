@@ -120,7 +120,11 @@ The “Cooling options” section, just before “Plan a response”, shows what
 
 ## Your city (part 25 of `data.js`)
 
-`CITY_PROFILES` gives each of the ten live cities a view of its own: a line about the city, whether it has a heat action plan (`hap.status`: `plan`, `building` or `none`, with sources), the vicious cycles the evidence ties to it (each with a one-line reason drawn from evidence already on the site), the groups hit hardest, worked plans and organisations already at work. The section draws a map of the cities on `images/asia-map.svg` (Natural Earth outlines, public domain) with each dot coloured by today’s feels-like temperature. Links like `beattheheat.asia/#city-dhaka` open a city directly, and `/cities/` has a text page for each one. To add a city, add it to `LIVE_CITIES` and `CITY_PROFILES`, then run `node tools/build-static.js`.
+`CITY_PROFILES` gives each of the ten live cities a view of its own: a line about the city, whether it has a heat action plan (`hap.status`: `plan`, `building` or `none`, with sources), the vicious cycles the evidence ties to it (each with a one-line reason drawn from evidence already on the site), the groups hit hardest, worked plans and organisations already at work. The section draws a map of the cities on `images/asia-map.svg`: land in one colour with no national boundaries (Natural Earth land, public domain), so the map takes no position on any border with each dot coloured by today’s feels-like temperature. Links like `beattheheat.asia/#city-dhaka` open a city directly, and `/cities/` has a text page for each one. To add a city, add it to `LIVE_CITIES` and `CITY_PROFILES`, then run `node tools/build-static.js`.
+
+## Heatwaves that shaped Asia (part 26 of `data.js`)
+
+`HEATWAVES` lists major heatwaves in South and Southeast Asia, oldest first: when and where, the peak, the recorded toll, what happened, what changed afterwards, the map nodes involved and sources. `deaths` sizes each circle on the timeline and is the recorded toll only (a floor, never a total); leave it `null` where no solid count exists. Add an event, then run `node tools/build-static.js` to update `/heatwaves/`.
 
 ## Visit counting (part 22 of `data.js`)
 
