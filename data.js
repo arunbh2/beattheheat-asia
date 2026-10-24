@@ -3864,3 +3864,217 @@ const HEAT_WEEK = {
     "Compare packages across groups: who carries the cost, and what is still unresolved?"
   ]
 };
+
+/* ---------- 33. MAKE IT WORK TOGETHER: PROTECTION IN A PLACE ---------- */
+// A coordinator's simulation, on its own page (/together/, together.js). Three hypothetical places, each with
+// composite workers, the bodies whose agreement protection depends on, and measures broken into the requirements
+// that must all hold. A requirement counts only at the status it needs, and "agreed" or beyond counts only with
+// evidence. Work is measured in hours of dangerous heat and days' pay, never as a score or a prediction of illness.
+// expo = hours a hot day keeps someone in dangerous heat; loss = share of a day's pay heat costs them.
+// measure.helps: hours and pay a working measure gives back each hot day; once = paid once, on day 1, if it works.
+// req.need = the status it must reach; req.from = the day of the hot week from which an unmet requirement breaks it.
+const PLACE_SIM = {
+  statuses: [
+    { id: "proposed", name: "Proposed", hint: "Someone has suggested it." },
+    { id: "discussed", name: "Discussed", hint: "The people concerned have talked it through." },
+    { id: "agreed", name: "Agreed", hint: "Those who must act have said yes.", evidence: true },
+    { id: "funded", name: "Funded", hint: "The money is committed, for as long as it is needed.", evidence: true },
+    { id: "operating", name: "Operating", hint: "It is working on the ground.", evidence: true },
+    { id: "reviewed", name: "Reviewed", hint: "Checked with the people it serves, and improved.", evidence: true }
+  ],
+  needNames: { agreed: "agreed", funded: "funded", operating: "operating" },
+  roles: { decides: "Decides or permits", provides: "Provides a service", funds: "Pays", operates: "Runs it day to day", represents: "Speaks for people affected", informs: "Warns or advises", coordinates: "Convenes and follows up" },
+  days: ["Mon", "Tue", "Wed", "Thu", "Fri"], dayNames: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+  principles: [
+    { name: "Work through those who hold the mandate", text: "Protection is delivered by the bodies already responsible for it. The coordinator helps them agree; it does not take their place." },
+    { name: "Invite, never instruct", text: "Every commitment is voluntary until it is agreed, and recorded as such." },
+    { name: "Describe gaps as shared problems", text: "A missing piece is a task to solve together, never a fault to assign." },
+    { name: "Include the people affected, with consent", text: "Workers and their representatives shape the plan. Personal details are kept private and used only with permission." },
+    { name: "Use official channels", text: "Alerts, complaints and disagreements go through the channels set up for them. When views differ, pause, record and refer to the body with the mandate." },
+    { name: "Be open about the coordinator’s role", text: "Say who funds the coordination, what the coordinator does itself, and what it does not decide." }
+  ],
+  capabilities: [
+    { step: 1, name: "Understand local risk", does: "Combine heat evidence with work, housing, health and service conditions.", output: "A shared local picture" },
+    { step: 2, name: "Understand who decides what", does: "Find who holds authority, who pays, who carries the cost and who is missing.", output: "A map of mandates and open decisions" },
+    { step: 3, name: "Help agreements form", does: "Work out responsibilities, contributions and what happens when something fails.", output: "An agreed protection plan" },
+    { step: 4, name: "Prepare delivery and money", does: "Cost what must be built and what must keep running; find suitable funding.", output: "A costed package" },
+    { step: 5, name: "Support the season", does: "Check readiness, notice failures and connect the people who can fix them.", output: "A simple coordination routine" },
+    { step: 6, name: "Learn and make it last", does: "Test what reached people, and carry improvements into budgets and procedures.", output: "Changes that outlast the project" }
+  ],
+  missing: ["Women who trade or work at night", "Migrant or seasonal workers", "Older workers and people with health conditions", "People with disabilities", "Children who come to work with a parent"],
+  feedback: [["", "Choose how people can raise a problem"], ["rep", "Through their association or union representative"], ["helpline", "A local helpline with a named person who answers"], ["box", "A suggestion box and a weekly visit"], ["meeting", "A short meeting at the start of each hot week"]],
+  survive: [["budget", "The running cost is in an annual budget"], ["procedure", "It is written into a procedure, rule or contract"], ["owner", "A named post, not a person, is responsible"], ["review", "A review date after each hot season is fixed"]],
+  checks: [
+    ["Water-service responsibilities agreed", "Was safe water reliably there when it was needed?"],
+    ["Running budget committed", "Did the service keep working through the whole season?"],
+    ["Work arrangements adopted", "Could workers actually stop and rest when it was hottest?"],
+    ["Payment route set up", "Did help with money arrive before the hardest days?"],
+    ["Review findings accepted", "Did anything change the next season because of them?"]
+  ],
+  note: "Every place, person and organisation here is hypothetical, a composite drawn from common situations. Amounts are illustrative. The simulation adds up hours and pay; it does not predict illness.",
+  evidence: [
+    { text: "UNDRR’s work on extreme heat links resilience to coordination across sectors, financing and sustained action over different time horizons.", source: { label: "UNDRR: extreme heat resilience", url: "https://www.undrr.org/our-work/extreme-heat-resilience" } },
+    { text: "In Bangladesh, heat response depends on many agencies at once: health, labour, city authorities, utilities and humanitarian partners.", source: { label: "Rockefeller Foundation: who owns the response to heat in Bangladesh?", url: "https://www.rockefellerfoundation.org/perspective/who-owns-the-response-to-heat-in-bangladesh-everyone-does/" } },
+    { text: "Ahmedabad’s heat action plan brought city departments, hospitals and community groups together around shared alerts and actions.", source: { label: "NRDC on Ahmedabad’s heat action plan", url: "https://www.nrdc.org/press-releases/ahmedabads-pioneering-plan-now-shielding-millions-killer-heat" } },
+    { text: "Social protection can cushion the income workers lose to extreme heat, if it is designed to arrive in time.", source: { label: "ILO: addressing the impacts of extreme heat through social protection", url: "https://www.ilo.org/resource/article/addressing-impacts-extreme-heat-through-social-protection" } },
+    { text: "WHO’s guidance on heat–health action plans sets out the elements a plan needs, from early warning to evaluation.", source: { label: "WHO: heat–health action plans", url: "https://www.who.int/publications/i/item/9789241512794" } }
+  ],
+  scenarios: [
+    { id: "market", name: "The wholesale market", where: "A wholesale vegetable market in a mid-sized city in South Asia",
+      boundary: "The market yard, its lanes and its loading bays, from the 4 am arrivals to the afternoon clean-up.",
+      task: "Help vendors, loaders and sanitation workers reach water, rest and help with money during dangerous heat, while the market keeps working.",
+      outside: ["Electricity supply to the market", "Labour rules for daily-wage work", "Heat warnings from the national weather service", "State and national social protection schemes"],
+      people: [
+        { id: "meena", name: "Meena", role: "Vegetable vendor", scene: "vendor", day: "Arrives at 4 am to buy from wholesalers and sells from a stall under a tarpaulin until her stock is gone.", heat: "By noon the tarpaulin traps the heat. Buyers stop coming and leafy greens wilt.", expo: 6, loss: 0.4 },
+        { id: "raju", name: "Raju", role: "Head-load worker", scene: "loader", day: "Paid by the load, carrying sacks from the trucks to the stalls. The busiest hours are 5 to 11 am.", heat: "Late trucks mean carrying 40 kg sacks in the worst heat, and stopping means losing loads to others.", expo: 7, loss: 0.5 },
+        { id: "lakshmi", name: "Lakshmi", role: "Sanitation worker", scene: "sweeper", day: "Employed by a contractor to sweep the yard and clear waste after trading ends, from 1 pm.", heat: "Her shift starts as the heat peaks, and she cannot leave the yard to find water.", expo: 6, loss: 0, lossNote: "Her pay is fixed; heat costs her health, not wages." }
+      ],
+      actors: [
+        { id: "committee", name: "Market committee", roles: ["decides", "operates"], general: "Runs the market: its hours, its layout and who trades where." },
+        { id: "city", name: "Municipal corporation", roles: ["decides", "funds", "operates"], general: "Water connections, toilets, lighting, sanitation contracts and public health." },
+        { id: "water", name: "Water utility or tanker operator", roles: ["provides"], general: "Supplies and tests drinking water." },
+        { id: "traders", name: "Traders’ association", roles: ["represents", "funds"], general: "Speaks for stall holders and wholesalers, and arranges with transporters." },
+        { id: "loaders", name: "Loaders’ association", roles: ["represents"], general: "Speaks for head-load workers and agrees rates with traders." },
+        { id: "contractor", name: "Sanitation contractor", roles: ["operates"], general: "Employs the cleaning staff and sets their shifts." },
+        { id: "clinic", name: "Nearby primary health centre", roles: ["provides"], general: "First aid and treatment for heat illness." },
+        { id: "dm", name: "District disaster management office", roles: ["informs", "decides"], general: "Issues local heat alerts and coordinates the official response." },
+        { id: "fund", name: "A state scheme or donor", roles: ["funds"], general: "Can hold money for payments released on a forecast." },
+        { id: "ngo", name: "Coordinating organisation (you)", roles: ["coordinates"], general: "Convenes the others, keeps the record and follows up. Holds no authority of its own." }
+      ],
+      measures: [
+        { id: "rest", name: "A shaded rest point with water", does: "A shaded corner of the yard with benches, drinking water and oral rehydration salts.", cost: { build: 1500, run: 60 },
+          helps: { meena: { expo: 1 }, raju: { expo: 2, loss: 0.1 }, lakshmi: { expo: 2 } }, line: "rests in the shade and drinks clean water",
+          reqs: [
+            { id: "site", text: "A site in the yard, where workers actually pass", owner: "committee", need: "agreed", from: 1, fail: "There is no agreed site, so the rest point never opens." },
+            { id: "keeper", text: "A named person opens it early, cleans it and restocks the salts", owner: "committee", need: "operating", from: 2, fail: "Nobody opens the rest point before 10 am, after the worst loading hours." },
+            { id: "water", text: "Safe water, tested and refilled every day", owner: "water", need: "operating", from: 3, fail: "Nobody agreed who refills the water; by now the cans are empty." },
+            { id: "budget", text: "Running costs paid for the whole hot season", owner: "city", need: "funded", from: 4, fail: "The money covered the opening, not the season; the salts have run out." } ] },
+        { id: "hours", name: "Earlier market hours on alert days", does: "On an official heat alert, trading and loading start an hour earlier, and the heaviest unloading ends by 11 am.",
+          helps: { meena: { expo: 2, loss: 0.15 }, raju: { expo: 3, loss: 0.2 } }, line: "works the cooler early hours",
+          reqs: [
+            { id: "rule", text: "The market committee changes the hours on alert days", owner: "committee", need: "agreed", from: 1, fail: "The hours never changed: nobody was able to decide on the day." },
+            { id: "trucks", text: "Wholesalers ask transporters to arrive earlier", owner: "traders", need: "agreed", from: 1, fail: "Trucks still arrive at noon, so loading stays in the hottest hours." },
+            { id: "alert", text: "The alert reaches the market by the evening before", owner: "dm", need: "operating", from: 1, fail: "The alert arrived at 9 am, after the market had opened as usual." } ] },
+        { id: "breaks", name: "Breaks that keep a loader’s place", does: "Traders and loaders agree that a break in the hottest hours does not lose a worker his place in the queue.",
+          helps: { raju: { expo: 1, loss: 0.15 } }, line: "takes a break without losing his place",
+          reqs: [
+            { id: "deal", text: "A written understanding between traders and loaders", owner: "traders", need: "agreed", from: 1, fail: "Without an understanding, a loader who rests loses his turn, so nobody rests." },
+            { id: "voice", text: "Loaders’ representatives helped shape it", owner: "loaders", need: "agreed", from: 1, fail: "The arrangement was made without the loaders, and few rely on it." } ] },
+        { id: "shift", name: "Cleaning moved to the cooler evening", does: "On alert days, cleaning starts at 5 pm instead of 1 pm, with the same pay.",
+          helps: { lakshmi: { expo: 4 } }, line: "cleans in the cooler evening, for the same pay",
+          reqs: [
+            { id: "contract", text: "The city allows the contractor to change shift times", owner: "city", need: "agreed", from: 1, fail: "The contract fixes the shift at 1 pm, so it cannot move." },
+            { id: "roster", text: "The contractor changes the roster and keeps pay the same", owner: "contractor", need: "operating", from: 1, fail: "The roster was never changed." },
+            { id: "light", text: "Lights in the yard for evening work", owner: "city", need: "operating", from: 1, fail: "Without lights, evening cleaning is not safe, so the shift stays at 1 pm." } ] },
+        { id: "cash", name: "Cash before the heatwave", does: "A small payment released on the heat forecast to registered vendors and loaders, before the hottest days.", cost: { build: 0, run: 0, per: 15 },
+          helps: { meena: { loss: 0.6, once: true }, raju: { loss: 1, once: true } }, line: "has cash in hand before the hottest days",
+          reqs: [
+            { id: "list", text: "A list of who is eligible, made with the associations and with consent", owner: "loaders", need: "agreed", from: 1, fail: "There was no agreed list, so payment waited." },
+            { id: "money", text: "Money set aside before the season", owner: "fund", need: "funded", from: 1, fail: "The money was not set aside in advance, so nothing could be released." },
+            { id: "trigger", text: "An agreed forecast trigger that releases it", owner: "dm", need: "agreed", from: 1, fail: "Without an agreed trigger, the payment moved only after the heatwave." } ] },
+        { id: "aid", name: "First-aiders and a clinic link", does: "Two trained first-aiders in the market and a direct line to the health centre.", cost: { build: 300, run: 20 },
+          helps: { meena: {}, raju: {}, lakshmi: {} }, care: true, line: "knows a first-aider is minutes away",
+          reqs: [
+            { id: "trained", text: "Two market workers trained in heat first aid", owner: "clinic", need: "operating", from: 1, fail: "Nobody in the market has been trained." },
+            { id: "line", text: "The health centre agrees to take calls and send help", owner: "clinic", need: "agreed", from: 1, fail: "There is no agreed line to the health centre." } ] }
+      ] },
+    { id: "workshops", name: "The garment workshops", where: "A cluster of small garment workshops on the edge of a city in Southeast Asia",
+      boundary: "Twelve workshops along two lanes, the shared water point and the road where the trucks load.",
+      task: "Keep the workshops cool enough to work safely, and let workers rest in the worst heat without losing pay.",
+      outside: ["The electricity grid and tariffs", "National labour law and inspection", "Orders and deadlines set by buying companies", "National health insurance"],
+      people: [
+        { id: "dara", name: "Dara", role: "Sewing machine operator", scene: "sewer", day: "Sews collars, paid by the piece, under a metal roof with one fan for six machines.", heat: "After lunch the room passes 38 °C. Her hands slow, and so does her pay.", expo: 6, loss: 0.3 },
+        { id: "sokha", name: "Sokha", role: "Ironing and finishing worker", scene: "ironer", day: "Presses finished garments beside steam irons all day.", heat: "The irons add their own heat to the hot season. Dizziness is common by mid-afternoon.", expo: 7, loss: 0.25 },
+        { id: "vuthy", name: "Vuthy", role: "Loader and delivery rider", scene: "rider", day: "Carries bundles to the trucks and rides deliveries across the city.", heat: "Loading happens in the open yard at noon, when the trucks come.", expo: 6, loss: 0.35 }
+      ],
+      actors: [
+        { id: "owners", name: "Workshop owners’ group", roles: ["decides", "funds", "operates"], general: "Set hours, breaks and conditions inside the workshops." },
+        { id: "authority", name: "Local authority", roles: ["decides", "operates"], general: "Shared water point, roads, building permissions and local public health." },
+        { id: "labour", name: "Labour inspection office", roles: ["informs", "decides"], general: "Advises on and inspects workplace conditions." },
+        { id: "power", name: "Electricity utility", roles: ["provides"], general: "Supply and reliability for fans and cooling." },
+        { id: "workers", name: "Workers’ representatives", roles: ["represents"], general: "Speak for workers in each workshop." },
+        { id: "clinic", name: "Health centre", roles: ["provides"], general: "Treatment for heat illness." },
+        { id: "buyers", name: "Companies placing orders", roles: ["funds", "decides"], general: "Set order volumes and deadlines; some support workplace improvements." },
+        { id: "ngo", name: "Coordinating organisation (you)", roles: ["coordinates"], general: "Convenes the others, keeps the record and follows up. Holds no authority of its own." }
+      ],
+      measures: [
+        { id: "roof", name: "Cool roofs and better airflow", does: "A reflective coating on the metal roofs, roof vents and enough working fans.", cost: { build: 4000, run: 50 },
+          helps: { dara: { expo: 2, loss: 0.1 }, sokha: { expo: 2, loss: 0.05 } }, line: "works under a cooler roof",
+          reqs: [
+            { id: "permit", text: "Building owners allow the coating and vents", owner: "owners", need: "agreed", from: 1, fail: "The building owners never agreed, so the roofs stayed bare." },
+            { id: "money", text: "The cost is shared and paid", owner: "buyers", need: "funded", from: 1, fail: "Nobody agreed to pay, so the work never started." },
+            { id: "power", text: "Power is reliable enough to run the fans", owner: "power", need: "operating", from: 2, fail: "Afternoon power cuts stop the fans just when they matter." } ] },
+        { id: "breaks", name: "Paid heat breaks", does: "Ten-minute breaks every hour when the workshop passes an agreed temperature, without losing piece pay.",
+          helps: { dara: { expo: 1, loss: 0.15 }, sokha: { expo: 2, loss: 0.1 } }, line: "takes paid breaks in the hottest hours",
+          reqs: [
+            { id: "rule", text: "Owners agree the break rule and how piece pay is protected", owner: "owners", need: "agreed", from: 1, fail: "Breaks cost piece pay, so almost nobody takes them." },
+            { id: "voice", text: "Workers’ representatives helped set the temperature and the rule", owner: "workers", need: "agreed", from: 1, fail: "The rule was set without the workers, and few rely on it." },
+            { id: "thermo", text: "A thermometer in each workshop, read by a named person", owner: "owners", need: "operating", from: 1, fail: "Nobody reads the thermometer, so the break rule never starts." },
+            { id: "orders", text: "Order deadlines leave room for breaks in the hot season", owner: "buyers", need: "agreed", from: 3, fail: "A rush order arrives; breaks are dropped to meet the deadline." } ] },
+        { id: "water", name: "Cool drinking water on every floor", does: "Filtered water dispensers on each floor, refilled daily.", cost: { build: 600, run: 30 },
+          helps: { dara: { expo: 1 }, sokha: { expo: 1 }, vuthy: { expo: 1 } }, line: "drinks cool water without leaving the floor",
+          reqs: [
+            { id: "supply", text: "The shared water point supplies enough clean water", owner: "authority", need: "operating", from: 1, fail: "The shared water point runs dry in the afternoons." },
+            { id: "refill", text: "A named person refills and cleans the dispensers", owner: "owners", need: "operating", from: 2, fail: "Nobody refills the dispensers after the first day." } ] },
+        { id: "loading", name: "Loading moved out of midday", does: "Trucks load before 10 am or after 4 pm on hot days.",
+          helps: { vuthy: { expo: 3, loss: 0.1 } }, line: "loads in the cooler hours",
+          reqs: [
+            { id: "schedule", text: "Owners and transporters agree the loading times", owner: "owners", need: "agreed", from: 1, fail: "The trucks still arrive at noon." },
+            { id: "road", text: "The local authority allows early and late loading on the lane", owner: "authority", need: "agreed", from: 1, fail: "Loading outside daytime hours is not allowed on the lane." } ] },
+        { id: "care", name: "A clinic link and first aid", does: "A first-aid kit and a trained person in each workshop, and a direct line to the health centre.", cost: { build: 200, run: 10 },
+          helps: { dara: {}, sokha: {}, vuthy: {} }, care: true, line: "knows a first-aider is close by",
+          reqs: [
+            { id: "trained", text: "One trained first-aider in each workshop", owner: "clinic", need: "operating", from: 1, fail: "Nobody has been trained." },
+            { id: "line", text: "The health centre agrees a direct line", owner: "clinic", need: "agreed", from: 1, fail: "There is no agreed line to the health centre." } ] }
+      ] },
+    { id: "village", name: "The village at harvest", where: "A farming village in a river delta in South Asia, at harvest time",
+      boundary: "The village, its fields and its two water points, during the three weeks of harvest.",
+      task: "Help farm workers and households get through harvest heat with water, rest and money, without losing the crop.",
+      outside: ["District health services and ambulances", "The national weather service", "Crop prices and credit", "National social protection and insurance schemes"],
+      people: [
+        { id: "rina", name: "Rina", role: "Farm labourer", scene: "labourer", day: "Cuts and bundles rice for a daily wage, from 7 am until the landowner says stop.", heat: "The fields have no shade. Working into the afternoon is the price of a full day’s wage.", expo: 7, loss: 0.4 },
+        { id: "kalam", name: "Kalam", role: "Smallholder farmer", scene: "farmer", day: "Farms his own small plot and hires two labourers at harvest.", heat: "If the harvest slows in the heat, the crop is at risk from early rain; he works through the worst hours.", expo: 6, loss: 0.3 },
+        { id: "shila", name: "Shila", role: "Fetches water and cares for the family", scene: "carrier", day: "Walks to the water point twice a day and cares for her children and her mother-in-law.", heat: "The nearer handpump is broken, so the walk is long, and it falls in the hottest part of the day.", expo: 4, loss: 0.1, lossNote: "Her work is unpaid; heat costs her health and time." }
+      ],
+      actors: [
+        { id: "council", name: "Village council", roles: ["decides", "funds"], general: "Local decisions, small works and a link to district schemes." },
+        { id: "farmers", name: "Farmers’ group", roles: ["represents", "decides"], general: "Landowners and smallholders who hire labour and set working hours." },
+        { id: "labourers", name: "Labourers’ group", roles: ["represents"], general: "Speaks for daily-wage farm workers." },
+        { id: "watercom", name: "Water committee", roles: ["operates"], general: "Looks after the handpumps and water points." },
+        { id: "chw", name: "Community health worker", roles: ["provides", "informs"], general: "Home visits, first aid and referral to the health post." },
+        { id: "district", name: "District office", roles: ["informs", "funds"], general: "Passes on heat alerts and can release scheme funds." },
+        { id: "fund", name: "A state scheme or donor", roles: ["funds"], general: "Can hold money for payments released on a forecast." },
+        { id: "ngo", name: "Coordinating organisation (you)", roles: ["coordinates"], general: "Convenes the others, keeps the record and follows up. Holds no authority of its own." }
+      ],
+      measures: [
+        { id: "hours", name: "Harvest in the cool hours", does: "On alert days, harvesting runs from 5 to 10 am and again from 4 pm, for a full day’s wage.",
+          helps: { rina: { expo: 3, loss: 0.2 }, kalam: { expo: 2 } }, line: "harvests in the cooler hours for a full wage",
+          reqs: [
+            { id: "deal", text: "Farmers agree the hours and the full day’s wage", owner: "farmers", need: "agreed", from: 1, fail: "Farmers kept the usual hours; a shorter day would cost a day’s wage." },
+            { id: "voice", text: "The labourers’ group helped set the arrangement", owner: "labourers", need: "agreed", from: 1, fail: "The labourers were not part of it, and few took it up." },
+            { id: "alert", text: "The alert reaches the village the evening before", owner: "district", need: "operating", from: 1, fail: "The alert arrived after work had started." } ] },
+        { id: "pump", name: "The near handpump repaired", does: "The broken handpump fixed, with a shaded waiting place.", cost: { build: 250, run: 10 },
+          helps: { shila: { expo: 2, loss: 0.05 }, rina: { expo: 1 } }, line: "fetches water from the near pump, in the shade",
+          reqs: [
+            { id: "repair", text: "The water committee repairs the pump", owner: "watercom", need: "operating", from: 1, fail: "The pump is still broken." },
+            { id: "parts", text: "Money for parts and upkeep", owner: "council", need: "funded", from: 1, fail: "No money for parts, so the repair waits." },
+            { id: "test", text: "The water is tested as safe to drink", owner: "district", need: "operating", from: 3, fail: "The water was never tested, and families stop trusting it." } ] },
+        { id: "shade", name: "Shade and water at the field edge", does: "A movable shade cloth and water cans where people work.", cost: { build: 150, run: 15 },
+          helps: { rina: { expo: 1 }, kalam: { expo: 1 } }, line: "rests in the shade at the field edge",
+          reqs: [
+            { id: "provide", text: "Farmers provide shade and water at the field", owner: "farmers", need: "operating", from: 1, fail: "There is still no shade at the field." },
+            { id: "refill", text: "Someone refills the cans at midday", owner: "farmers", need: "operating", from: 2, fail: "The cans are empty by noon." } ] },
+        { id: "rounds", name: "Health worker heat rounds", does: "Daily visits to older people and families with infants on alert days, with salts and advice.",
+          helps: { shila: { expo: 1 } }, care: true, line: "is visited by the health worker",
+          reqs: [
+            { id: "list", text: "A list of households to visit, made with consent", owner: "chw", need: "agreed", from: 1, fail: "There was no list, so the visits did not reach the right homes." },
+            { id: "time", text: "The health worker’s time is freed for rounds", owner: "district", need: "agreed", from: 1, fail: "The health worker’s other duties left no time for rounds." } ] },
+        { id: "cash", name: "Cash before the hottest days", does: "A small payment on the heat forecast to labourer households.", cost: { build: 0, run: 0, per: 10 },
+          helps: { rina: { loss: 1, once: true }, shila: { loss: 0.3, once: true } }, line: "has cash in hand before the hottest days",
+          reqs: [
+            { id: "list", text: "A list of eligible households, made with consent", owner: "labourers", need: "agreed", from: 1, fail: "There was no agreed list, so payment waited." },
+            { id: "money", text: "Money set aside before harvest", owner: "fund", need: "funded", from: 1, fail: "The money was not set aside in advance." },
+            { id: "trigger", text: "An agreed forecast trigger that releases it", owner: "district", need: "agreed", from: 1, fail: "Without an agreed trigger, the payment arrived after harvest." } ] }
+      ] }
+  ]
+};

@@ -1599,6 +1599,7 @@
         <button type="button" class="btn btn--sm" data-pl-act="map"${plan.levers.length ? "" : " disabled"}>Show on the map</button>
         <button type="button" class="btn btn--sm btn--ghost" data-pl-act="print"${plan.levers.length ? "" : " disabled"}>Open a printable plan</button>
         <button type="button" class="btn btn--sm btn--ghost" data-pl-act="copy"${plan.levers.length ? "" : " disabled"}>Copy as text</button>
+        <button type="button" class="btn btn--sm btn--ghost" data-pl-act="link"${plan.levers.length || plan.place ? "" : " disabled"}>Copy a link to start this plan</button>
         <button type="button" class="link" data-pl-act="clear">Start again</button>
       </div>
       <p class="plan-summary__status" data-pl-status role="status"></p>`;
@@ -1801,6 +1802,8 @@
       track("plan-" + act);
       if (act === "map") goToMap(() => applyLevers(plan.levers, plan.place || "Your plan", "The actions in your plan, switched on together."));
       else if (act === "print") openPlan();
+      else if (act === "link") { const u = planStartLink(); track("plan-link");
+        navigator.clipboard.writeText(u).then(() => { if (status) status.textContent = "Link copied. Whoever opens it starts a plan with this place, group and actions (not your notes, owners or money)."; }, () => { if (status) status.textContent = u; }); }
       else if (act === "copy") navigator.clipboard.writeText(planText()).then(() => { if (status) status.textContent = "Plan copied. Paste it into an email or document."; }, () => { if (status) status.textContent = "Couldn’t copy. Use “Open a printable plan” instead."; });
       else if (act === "clear") { plan = { place: "", group: "", levers: [], rows: {}, example: null, stalls: [], triggers: {}, review: "", exposure: [], finance: {}, reviewLog: {} }; savePlan(); renderPlan(); }
     });
@@ -2663,7 +2666,7 @@
           <p class="cp__status"><span class="cp__dot" aria-hidden="true"></span>${esc(CITY_HAP[p.hap.status])}</p>
           <p class="cp__text">${esc(p.hap.text)}</p>
           <p class="cp__src">Sources: ${p.hap.sources.map(s => extLink(s.url, s.label)).join(" · ")}</p>
-          <p class="cp__links"><a href="#plan">Draft a plan for ${esc(c.name)}</a></p>
+          <p class="cp__links"><a href="#plan" data-plan-place="${esc(c.name)}, ${esc(c.country)}">Draft a plan for ${esc(c.name)}</a></p>
         </div>
       </div>
       <h4 class="cp__h">Vicious cycles the evidence ties to ${esc(c.name)} <span>${p.loops.length}</span></h4>
@@ -3076,6 +3079,13 @@
       plan = Object.assign({ place: "", group: "", levers: [], rows: {}, example: null, stalls: [], triggers: {}, review: "", exposure: [], finance: {}, reviewLog: {} }, saved);
       if (!Array.isArray(plan.stalls)) plan.stalls = []; if (!plan.triggers || typeof plan.triggers !== "object") plan.triggers = {}; return true; } catch (e) { return false; }
   }
+  // a link that starts a plan with this place, group and actions; never carries notes, owners or money
+  function planStartLink(place = plan.place, group = plan.group, levers = plan.levers) {
+    const q = new URLSearchParams(); if (place) q.set("place", place); if (group) q.set("group", group);
+    const acts = levers.filter(id => leverById[id]); if (acts.length) q.set("actions", acts.join(","));
+    return `${location.origin}${PLAN_URL}?${q.toString()}`;
+  }
+  const suggestedFor = g => ((PG.find(x => x.id === g) || {}).levers || []).slice();
   // the launcher on the map: one line saying what the plan holds so far
   function renderPlanLaunch() {
     const box = document.getElementById("plan-launch-sum"); if (!box) return;
@@ -3102,13 +3112,27 @@
     const h = a.getAttribute("href");
     if (h === "#plan" && a.closest(".site-header, .site-menu, .plan--launch, .intro")) return;
     if (a.hasAttribute("data-open-plan") && !h.startsWith("#")) return;
-    ev.preventDefault(); goToPlan(h.length > 5 ? h.slice(1) : "");
+    ev.preventDefault();
+    if (a.dataset.planPlace) goToPlan("plan-step-1", "?place=" + encodeURIComponent(a.dataset.planPlace));
+    else goToPlan(h.length > 5 ? h.slice(1) : "");
   }, true);
 
   /* ======================= BOOT ======================= */
   function bootPlanPage() {
     renderPlan();
     const q = new URLSearchParams(location.search), ex = q.get("example");
+    // a prefilled link starts a plan: ?place=Dhaka, Bangladesh&group=workers&actions=heatrules,coolingcentres
+    const qPlace = (q.get("place") || "").slice(0, 80).trim(), qGroup = PG.some(g => g.id === q.get("group")) ? q.get("group") : "";
+    const qActs = (q.get("actions") || "").split(",").filter(id => leverById[id]).slice(0, 20);
+    if (qPlace || qGroup || qActs.length) {
+      const same = plan.place === qPlace && plan.group === qGroup && qActs.every(id => plan.levers.includes(id));
+      const has = plan.levers.length || plan.place;
+      if (!same && (!has || window.confirm(`Start a new plan${qPlace ? " for " + qPlace : ""}? The plan you have started will be replaced.`))) {
+        plan = { place: qPlace, group: qGroup, levers: qActs.length ? qActs : (qGroup ? suggestedFor(qGroup) : []), rows: {}, example: null, stalls: [], triggers: {}, review: "", exposure: [], finance: {}, reviewLog: {} };
+        savePlan(); renderPlan(); track("plan-prefill");
+      }
+      try { history.replaceState(null, "", location.pathname + location.hash); } catch (e) {}
+    }
     if (ex && EXAMPLES.some(x => x.id === ex)) {
       const has = plan.levers.length || plan.place;
       if (!has || plan.example === ex || window.confirm("Replace the plan you have started with this worked example?")) loadExample(ex);
