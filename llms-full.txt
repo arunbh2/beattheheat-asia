@@ -1,6 +1,6 @@
 # BeatTheHeat.Asia: the whole map as text
 
-> An interactive systems map of extreme heat in Asia: how heat ripples through 10 systems and 83 consequences, the 21 vicious cycles that make it worse, the 29 actions that could break them, and the 14 kinds of institution that hold those levers. Every claim links to its source.
+> An interactive systems map of extreme heat in Asia: how heat ripples through 10 systems and 87 consequences, the 21 vicious cycles that make it worse, the 29 actions that could break them, and the 14 kinds of institution that hold those levers. Every claim links to its source.
 
 This is a beta version. BeatTheHeat.Asia is being built by a group of organisations working on extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement. Every claim links to its source; where the evidence is still emerging, the map says so.
 
@@ -10,7 +10,7 @@ Interactive map: https://beattheheat.asia/ · Generated 2026-10-24
 
 ## The web of extreme heat: every consequence, system by system
 
-How extreme heat ripples through 10 systems: 83 consequences and the links between them, each with its evidence.
+How extreme heat ripples through 10 systems: 87 consequences and the links between them, each with its evidence.
 
 ### Extreme heat: where every cycle starts
 
@@ -58,13 +58,27 @@ Leads to: Failing harvests (Moisture vanishes just when crops need it most.); Ex
 
 Mountain glaciers and snowpacks that feed rivers through the dry season are shrinking.
 
-Leads to: Water shortages (Rivers fed by snow and ice run lower in the dry season.); Hydropower falls (Less meltwater reaches the dams.); Extreme heat (Melting snow and ice expose darker ground and water, which absorb more sunlight.)
+Leads to: Water shortages (Rivers fed by snow and ice run lower in the dry season.); Hydropower falls (Less meltwater reaches the dams.); Extreme heat (Melting snow and ice expose darker ground and water, which absorb more sunlight.); Glacial lake outburst floods (Meltwater pools behind unstable moraines.)
+
+#### Glacial lake outburst floods
+
+As glaciers retreat, meltwater pools behind loose rock and ice. When a bank gives way the lake can empty in hours. In October 2023 Sikkim’s South Lhonak lake burst after a frozen moraine collapsed into it; the flood breached the Teesta III dam, set off 45 landslides and cut the national highway. Climate change played a key role, and the lake can burst again.
+
+Leads to: Roads, rails and runways strained (A burst lake sweeps away bridges and highways.); Hydropower falls (Floods breach dams and wreck power stations downstream.); Heat deaths (Floodwater arrives with little warning.)
+
+Source: ICIMOD, 2025: climate change played key role in the 2023 Sikkim lake outburst https://www.icimod.org/press-release/new-scientific-study-confirms-climate-change-played-key-role-in-deadly-2023-lake-outburst-in-sikkim/
+
+Source: Sattar et al., Science, 2025: the Sikkim flood of October 2023 https://www.science.org/doi/10.1126/science.ads2659
 
 #### Marine heatwaves and coral bleaching
 
-Ocean heatwaves bleach coral and drive fish away from the waters people depend on.
+Ocean heatwaves bleach coral and drive fish away from the waters people depend on. The 2023–2025 global bleaching event, the worst on record, reached 84% of the world’s reefs in 82 countries and territories. In Malaysia more than half of all corals bleached in 2024.
 
 Leads to: Fisheries decline (Fish move away from warming water, and dying reefs support fewer of them.)
+
+Source: NOAA and International Coral Reef Initiative, reported by Scientific American, 2025 https://www.scientificamerican.com/article/worst-coral-mass-bleaching-on-record-caused-by-warming-oceans
+
+Source: Earth Observatory of Singapore: field data from Asia’s coral reefs https://earthobservatory.sg/news/blog/heat-stress-and-hope-how-field-data-from-asia-s-coral-reefs-can-help-us-improve-climate-resilience
 
 #### Biodiversity loss
 
@@ -126,9 +140,13 @@ Leads to: Food price spikes (Losses after harvest push up prices.)
 
 #### Food price spikes
 
-Smaller harvests and losses push up prices, felt hardest by families who spend most of their income on food.
+Smaller harvests and losses push up prices, felt hardest by families who spend most of their income on food. A study with the European Central Bank found that hot extremes keep food inflation higher for about a year afterwards, and a 2025 study traced 16 food price shocks since 2022 to extreme weather.
 
 Leads to: Hunger and malnutrition (The poorest spend most of their income on food.); Informal workers can’t stop work (Higher prices make it even harder to stop working.)
+
+Source: Carbon Brief, 2025: 16 times extreme weather drove higher food prices (on Kotz et al., Environmental Research Letters) https://www.carbonbrief.org/mapped-16-times-extreme-weather-drove-higher-food-prices-since-2022/
+
+Source: Inside Climate News, 2025: weather extremes are driving up food prices https://insideclimatenews.org/news/21072025/weather-extremes-driving-up-food-prices/
 
 #### Hunger and malnutrition
 
@@ -150,7 +168,17 @@ Heat raises the demand for water just as it shrinks the supply, and lowers its q
 
 Taps run dry and wells fall just as people, crops and animals need more water to cope with the heat.
 
-Leads to: Longer trips to fetch water (Taps run dry, so someone has to fetch water.); Sanitation and hygiene fail (Without water, sanitation and hygiene fail.); Competition for water (Farms, cities and power plants compete for what is left.); Irrigation demand soars (Dry fields need more irrigation.); Power plants cut output (Power plants need cool water. When rivers run low or warm, they cut output.); City trees and parks die (When water runs short, watering trees and parks is cut first.)
+Leads to: Longer trips to fetch water (Taps run dry, so someone has to fetch water.); Sanitation and hygiene fail (Without water, sanitation and hygiene fail.); Competition for water (Farms, cities and power plants compete for what is left.); Irrigation demand soars (Dry fields need more irrigation.); Power plants cut output (Power plants need cool water. When rivers run low or warm, they cut output.); City trees and parks die (When water runs short, watering trees and parks is cut first.); Buying water from tankers (When taps run dry, people buy water by the tanker.)
+
+#### Buying water from tankers
+
+When the taps run dry, households buy water from private tankers, and prices jump as wells fail. Those beyond the pipes, often the poorest, pay the most or go without. In one Bengaluru informal settlement a family earning about Rs 6,000 a month paid around Rs 1,300 for water. When Chennai’s reservoirs ran dry in 2019, tankers could not reach most of its slums.
+
+Leads to: Deepening inequality (The poorest pay the most for each litre, or go without.); Sanitation and hygiene fail (Costly water means less for washing and toilets.)
+
+Source: Citizen Matters: water access a daily struggle for Bengaluru’s slum dwellers https://citizenmatters.in/water-shortage-in-slums-low-income-households-80074
+
+Source: World Resources Institute: responding to Day Zero equitably, Cape Town and Chennai https://www.wri.org/insights/responding-day-zero-equitably-water-crisis-lessons-cape-town-and-chennai
 
 #### Water quality falls
 
@@ -360,9 +388,13 @@ Leads to: Mental health suffers (Poor sleep wears down mood and the ability to c
 
 #### Infectious diseases spread
 
-Warmth helps mosquitoes that carry dengue thrive, and dirty water and spoiled food spread illness.
+Warmth helps the mosquitoes that carry dengue breed and bite, and dirty water and spoiled food spread illness. Bangladesh had its worst dengue year on record in 2023: by 30 October, WHO counted 267,680 cases and 1,333 deaths, with the surge starting unusually early.
 
 Leads to: Health systems overwhelmed (Outbreaks add to the caseload.)
+
+Source: WHO Bangladesh, Dengue Situation Report 10, 30 October 2023 https://www.who.int/bangladesh/about-us/publications/m/item/dengue-situation-report-10-30-october-2023
+
+Source: WHO Disease Outbreak News: dengue in Bangladesh, August 2023 https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON481
 
 #### Injuries and accidents rise
 
@@ -391,6 +423,16 @@ Leads to: Informal workers can’t stop work (Lost income leaves even less margi
 Without paid leave, contracts or savings, stopping work means losing the day’s income. So people keep working through dangerous heat. About three in four Indian workers, some 380 million people, depend on heat-exposed work.
 
 Leads to: Heatstroke and heat exhaustion (Working through the hottest hours without shade, water or rest raises the risk of heat illness.); Injuries and accidents rise (Fatigue and heat cause accidents.); Care burden falls on women and girls (When workers fall ill, someone has to care for them, usually women.)
+
+#### Migrant workers abroad
+
+Millions from Nepal, Bangladesh and the Philippines build and serve in some of the world’s hottest places, and the money they send home holds families and economies together: about a quarter of Nepal’s GDP. Among Nepali workers in Qatar, cardiovascular deaths rose with the summer heat, and as many as 200 of 571 such deaths in 2009–2017 could have been prevented with heat protection.
+
+Leads to: Heat deaths (Heat strain kills workers far from home.); Lost work hours and wages (When a worker falls ill or dies, the money home stops.)
+
+Source: Pradhan et al., Cardiology, 2019, summarised by ClimateCHIP: heat stress and cardiac deaths of Nepali workers in Qatar https://www.climatechip.org/node/192
+
+Source: World Bank: personal remittances received, % of GDP (Nepal) https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS?locations=NP
 
 #### Productivity falls
 
@@ -494,7 +536,7 @@ Leads to: Mental health suffers (Violence leaves lasting harm to mental health.)
 
 Where water and pasture shrink, disputes between communities can turn violent.
 
-Leads to: Forced migration (Conflict forces people from their homes.)
+Leads to: Forced migration (Conflict forces people from their homes.); Refugee camps under tarpaulin (Conflict drives people into crowded camps.)
 
 #### Greening pushes people out
 
@@ -510,7 +552,19 @@ Source: Bangkok: a master’s thesis on Pathumwananurak Park, built where the Ro
 
 When land, work and water fail, families may be forced to move, often into cities that are hotter still.
 
-Leads to: Homes that trap heat (People forced to move often end up in crowded, poorly built housing that traps heat.); Violence against women rises (Displaced women and girls face higher risks of violence and exploitation.)
+Leads to: Homes that trap heat (People forced to move often end up in crowded, poorly built housing that traps heat.); Violence against women rises (Displaced women and girls face higher risks of violence and exploitation.); Migrant workers abroad (Some leave the country to work in hotter places.)
+
+#### Refugee camps under tarpaulin
+
+About a million Rohingya refugees live in the camps of Cox’s Bazar in shelters of bamboo and tarpaulin, which offer little protection from heat. When the April 2024 heatwave pushed temperatures past 40 °C, learning centres across the camps closed for several days.
+
+Leads to: Homes that trap heat (Tarpaulin shelters trap heat, with no way to cool.); Schools close in heatwaves (Learning centres close when the heat peaks.)
+
+Source: UNICEF Bangladesh: rebuilding education for climate resilience in Cox’s Bazar https://www.unicef.org/bangladesh/en/stories/rebuilding-education-climate-and-disaster-resilience-coxs-bazar
+
+Source: Amnesty International Australia: conditions in Cox’s Bazar https://www.amnesty.org.au/the-inhumane-conditions-in-coxs-bazar-and-what-must-be-done-to-support-refugees-looking-for-a-dignified-hopeful-future/
+
+Source: UNFPA: Cox’s Bazar https://www.unfpa.org/coxs-bazar-bangladesh
 
 #### Mass gatherings turn deadly
 
@@ -578,9 +632,13 @@ Leads to: Public budgets strained (Higher borrowing costs leave less to spend.);
 
 #### Elections and public services disrupted
 
-Heat disrupts voting, courts and public offices. Polling staff died in heatwaves during India’s 2024 general election.
+Heat disrupts voting, courts and public offices. On the last day of India’s 2024 general election, Uttar Pradesh’s chief electoral officer said 33 polling staff had died of heat, and more died in Bihar and Odisha.
 
 Leads to: Social trust frays (Disrupted elections and services test public trust.)
+
+Source: AFP via Malay Mail, 2 June 2024 https://www.malaymail.com/amp/news/world/2024/06/02/heatstroke-killed-33-indian-polling-staff-on-last-voting-day-says-state-election-chief/137732
+
+Source: Arab News, 2024: heatwave and election workers’ deaths https://www.arabnews.com/node/2521366/amp
 
 ## Vicious cycles of extreme heat, and where they can be broken
 
@@ -1796,7 +1854,7 @@ Source: NBC News: school closures, 2024 https://www.nbcnews.com/news/world/schoo
 
 ## Plain-language glossary of extreme heat
 
-41 terms that come up again and again in extreme heat, explained in a sentence or two.
+42 terms that come up again and again in extreme heat, explained in a sentence or two.
 
 ### What heat does to the body
 
@@ -1813,6 +1871,8 @@ Source: NBC News: school closures, 2024 https://www.nbcnews.com/news/world/schoo
 ### How heat is measured
 
 - **Wet-bulb temperature**: Heat and humidity combined into one number, read from a thermometer wrapped in a wet cloth. It shows whether sweat can still cool you. A wet-bulb temperature of 35 °C is often quoted as the limit of human survival; recent studies suggest the real limit is lower.
+
+- **Dry heat and humid heat**: Dry heat is high temperature with low humidity: sweat still evaporates, but the body soaks up heat fast. It peaks in South Asia’s pre-monsoon months. Humid heat is warm, wet air in which sweat can’t evaporate, so the body can’t cool itself even at lower temperatures. It dominates Southeast Asia and builds through South Asia’s monsoon, and it is rising faster than dry heat. The two need different warnings and different cooling.
 
 - **WBGT (wet-bulb globe temperature)**: The workplace measure of heat. It adds sun and wind to heat and humidity, and is used to set rest breaks and stop work.
 

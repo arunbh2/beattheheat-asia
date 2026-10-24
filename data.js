@@ -50,8 +50,16 @@ const CONSEQUENCES = [
     desc: "Heat pulls moisture from the ground when crops and plants need it most." },
   { id: "glacier", sys: "nature", label: "Glacier and\nsnow melt",
     desc: "Mountain glaciers and snowpacks that feed rivers through the dry season are shrinking." },
+  { id: "glof", sys: "nature", label: "Glacial lake\noutburst floods",
+    desc: "As glaciers retreat, meltwater pools behind loose rock and ice. When a bank gives way the lake can empty in hours. In October 2023 Sikkim’s South Lhonak lake burst after a frozen moraine collapsed into it; the flood breached the Teesta III dam, set off 45 landslides and cut the national highway. Climate change played a key role, and the lake can burst again.",
+    sources: [
+      { label: "ICIMOD, 2025: climate change played key role in the 2023 Sikkim lake outburst", url: "https://www.icimod.org/press-release/new-scientific-study-confirms-climate-change-played-key-role-in-deadly-2023-lake-outburst-in-sikkim/" },
+      { label: "Sattar et al., Science, 2025: the Sikkim flood of October 2023", url: "https://www.science.org/doi/10.1126/science.ads2659" } ] },
   { id: "marine", sys: "nature", label: "Marine heatwaves\nand coral bleaching",
-    desc: "Ocean heatwaves bleach coral and drive fish away from the waters people depend on." },
+    desc: "Ocean heatwaves bleach coral and drive fish away from the waters people depend on. The 2023–2025 global bleaching event, the worst on record, reached 84% of the world’s reefs in 82 countries and territories. In Malaysia more than half of all corals bleached in 2024.",
+    sources: [
+      { label: "NOAA and International Coral Reef Initiative, reported by Scientific American, 2025", url: "https://www.scientificamerican.com/article/worst-coral-mass-bleaching-on-record-caused-by-warming-oceans" },
+      { label: "Earth Observatory of Singapore: field data from Asia’s coral reefs", url: "https://earthobservatory.sg/news/blog/heat-stress-and-hope-how-field-data-from-asia-s-coral-reefs-can-help-us-improve-climate-resilience" } ] },
   { id: "biodiversity", sys: "nature", label: "Biodiversity\nloss",
     desc: "Species that can’t move or adapt fast enough decline, weakening pollination, soils and fisheries." },
   { id: "wildlife", sys: "nature", label: "Wildlife moves into\nfarms and villages",
@@ -75,7 +83,10 @@ const CONSEQUENCES = [
   { id: "spoilage", sys: "food", label: "Food spoils\nfaster",
     desc: "Without cool storage, more of every harvest rots between field and plate." },
   { id: "prices", sys: "food", label: "Food price\nspikes",
-    desc: "Smaller harvests and losses push up prices, felt hardest by families who spend most of their income on food." },
+    desc: "Smaller harvests and losses push up prices, felt hardest by families who spend most of their income on food. A study with the European Central Bank found that hot extremes keep food inflation higher for about a year afterwards, and a 2025 study traced 16 food price shocks since 2022 to extreme weather.",
+    sources: [
+      { label: "Carbon Brief, 2025: 16 times extreme weather drove higher food prices (on Kotz et al., Environmental Research Letters)", url: "https://www.carbonbrief.org/mapped-16-times-extreme-weather-drove-higher-food-prices-since-2022/" },
+      { label: "Inside Climate News, 2025: weather extremes are driving up food prices", url: "https://insideclimatenews.org/news/21072025/weather-extremes-driving-up-food-prices/" } ] },
   { id: "hunger", sys: "food", label: "Hunger and\nmalnutrition",
     desc: "When food costs more and incomes fall, families eat less and less well, and children suffer most." },
   { id: "farmdebt", sys: "food", label: "Farmers fall\ninto debt",
@@ -84,6 +95,11 @@ const CONSEQUENCES = [
   /* Water */
   { id: "scarcity", sys: "water", label: "Water\nshortages",
     desc: "Taps run dry and wells fall just as people, crops and animals need more water to cope with the heat." },
+  { id: "tankers", sys: "water", label: "Buying water\nfrom tankers",
+    desc: "When the taps run dry, households buy water from private tankers, and prices jump as wells fail. Those beyond the pipes, often the poorest, pay the most or go without. In one Bengaluru informal settlement a family earning about Rs 6,000 a month paid around Rs 1,300 for water. When Chennai’s reservoirs ran dry in 2019, tankers could not reach most of its slums.",
+    sources: [
+      { label: "Citizen Matters: water access a daily struggle for Bengaluru’s slum dwellers", url: "https://citizenmatters.in/water-shortage-in-slums-low-income-households-80074" },
+      { label: "World Resources Institute: responding to Day Zero equitably, Cape Town and Chennai", url: "https://www.wri.org/insights/responding-day-zero-equitably-water-crisis-lessons-cape-town-and-chennai" } ] },
   { id: "quality", sys: "water", label: "Water quality\nfalls",
     desc: "Warm, low water breeds algae and bacteria and concentrates pollution." },
   { id: "irrigation", sys: "water", label: "Irrigation\ndemand soars",
@@ -159,7 +175,10 @@ const CONSEQUENCES = [
   { id: "sleepless", sys: "health", label: "Sleepless\nhot nights",
     desc: "When nights stay hot, the body never recovers from the day, so the next day starts already depleted." },
   { id: "infectious", sys: "health", label: "Infectious\ndiseases spread",
-    desc: "Warmth helps mosquitoes that carry dengue thrive, and dirty water and spoiled food spread illness." },
+    desc: "Warmth helps the mosquitoes that carry dengue breed and bite, and dirty water and spoiled food spread illness. Bangladesh had its worst dengue year on record in 2023: by 30 October, WHO counted 267,680 cases and 1,333 deaths, with the surge starting unusually early.",
+    sources: [
+      { label: "WHO Bangladesh, Dengue Situation Report 10, 30 October 2023", url: "https://www.who.int/bangladesh/about-us/publications/m/item/dengue-situation-report-10-30-october-2023" },
+      { label: "WHO Disease Outbreak News: dengue in Bangladesh, August 2023", url: "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON481" } ] },
   { id: "injuries", sys: "health", label: "Injuries and\naccidents rise",
     desc: "Heat dulls concentration and coordination, so accidents at work, on the road and at home increase." },
   { id: "hsys", sys: "health", label: "Health systems\noverwhelmed",
@@ -170,6 +189,11 @@ const CONSEQUENCES = [
     desc: "The International Labour Organization projects that heat stress could cut 2.2% of all working hours worldwide by 2030, the equivalent of 80 million full-time jobs." },
   { id: "informal", sys: "work", label: "Informal workers\ncan’t stop work",
     desc: "Without paid leave, contracts or savings, stopping work means losing the day’s income. So people keep working through dangerous heat. About three in four Indian workers, some 380 million people, depend on heat-exposed work." },
+  { id: "abroad", sys: "work", label: "Migrant workers\nabroad",
+    desc: "Millions from Nepal, Bangladesh and the Philippines build and serve in some of the world’s hottest places, and the money they send home holds families and economies together: about a quarter of Nepal’s GDP. Among Nepali workers in Qatar, cardiovascular deaths rose with the summer heat, and as many as 200 of 571 such deaths in 2009–2017 could have been prevented with heat protection.",
+    sources: [
+      { label: "Pradhan et al., Cardiology, 2019, summarised by ClimateCHIP: heat stress and cardiac deaths of Nepali workers in Qatar", url: "https://www.climatechip.org/node/192" },
+      { label: "World Bank: personal remittances received, % of GDP (Nepal)", url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS?locations=NP" } ] },
   { id: "productivity", sys: "work", label: "Productivity\nfalls",
     desc: "Above a certain temperature, people work more slowly and make more mistakes, indoors and out. Across 2.7 million firms in 23 advanced economies, ten extra days above 35\u00a0°C cut a year’s labour productivity by 0.3%, and days above 40\u00a0°C did five times the damage. In humid, still air the loss roughly doubles." },
   { id: "debt", sys: "work", label: "Medical costs\nand debt",
@@ -213,6 +237,12 @@ const CONSEQUENCES = [
       { label: "Bangkok: a master’s thesis on Pathumwananurak Park, built where the Rong Poon community lived", url: "https://www.researchgate.net/publication/369538102_Green_Gentrification_and_The_Value_of_Urban_Nature_Case_Study_of_Pathumwananurak_Park_Bangkok" } ] },
   { id: "migration", sys: "society", label: "Forced\nmigration",
     desc: "When land, work and water fail, families may be forced to move, often into cities that are hotter still." },
+  { id: "camps", sys: "society", label: "Refugee camps\nunder tarpaulin",
+    desc: "About a million Rohingya refugees live in the camps of Cox’s Bazar in shelters of bamboo and tarpaulin, which offer little protection from heat. When the April 2024 heatwave pushed temperatures past 40 °C, learning centres across the camps closed for several days.",
+    sources: [
+      { label: "UNICEF Bangladesh: rebuilding education for climate resilience in Cox’s Bazar", url: "https://www.unicef.org/bangladesh/en/stories/rebuilding-education-climate-and-disaster-resilience-coxs-bazar" },
+      { label: "Amnesty International Australia: conditions in Cox’s Bazar", url: "https://www.amnesty.org.au/the-inhumane-conditions-in-coxs-bazar-and-what-must-be-done-to-support-refugees-looking-for-a-dignified-hopeful-future/" },
+      { label: "UNFPA: Cox’s Bazar", url: "https://www.unfpa.org/coxs-bazar-bangladesh" } ] },
   { id: "gatherings", sys: "society", label: "Mass gatherings\nturn deadly",
     desc: "Crowds in open sun with little shade or water are deadly. During the 2024 Hajj, more than 1,300 pilgrims died in extreme heat." },
   { id: "cohesion", sys: "society", label: "Social trust\nfrays",
@@ -236,7 +266,10 @@ const CONSEQUENCES = [
   { id: "credit", sys: "gov", label: "Borrowing\ncosts rise",
     desc: "Lenders and rating agencies increasingly price climate risk into borrowing. After heat shocks, banks have charged small firms more, asked for more collateral and lent less." },
   { id: "elections", sys: "gov", label: "Elections and public\nservices disrupted",
-    desc: "Heat disrupts voting, courts and public offices. Polling staff died in heatwaves during India’s 2024 general election." }
+    desc: "Heat disrupts voting, courts and public offices. On the last day of India’s 2024 general election, Uttar Pradesh’s chief electoral officer said 33 polling staff had died of heat, and more died in Bihar and Odisha.",
+    sources: [
+      { label: "AFP via Malay Mail, 2 June 2024", url: "https://www.malaymail.com/amp/news/world/2024/06/02/heatstroke-killed-33-indian-polling-staff-on-last-voting-day-says-state-election-chief/137732" },
+      { label: "Arab News, 2024: heatwave and election workers’ deaths", url: "https://www.arabnews.com/node/2521366/amp" } ] }
 ];
 
 /* ---------- 3. LINKS BETWEEN CONSEQUENCES ---------- */
@@ -423,7 +456,21 @@ const LINKS = [
   ["credit", "budgets", "Higher borrowing costs leave less to spend."],
   ["repayments", "credit", "Lenders respond to missed repayments by charging more, asking for more collateral and lending less.", "loop"],
   ["credit", "business", "Dearer, scarcer credit leaves small firms unable to restock, cool their premises or ride out the next heatwave.", "loop"],
-  ["elections", "cohesion", "Disrupted elections and services test public trust."]
+  ["elections", "cohesion", "Disrupted elections and services test public trust."],
+  /* added: glacial lakes, tankers, migrant work abroad, camps */
+  ["glacier", "glof", "Meltwater pools behind unstable moraines."],
+  ["glof", "infrastructure", "A burst lake sweeps away bridges and highways."],
+  ["glof", "hydro", "Floods breach dams and wreck power stations downstream."],
+  ["glof", "deaths", "Floodwater arrives with little warning."],
+  ["scarcity", "tankers", "When taps run dry, people buy water by the tanker."],
+  ["tankers", "inequality", "The poorest pay the most for each litre, or go without."],
+  ["tankers", "sanitation", "Costly water means less for washing and toilets."],
+  ["migration", "abroad", "Some leave the country to work in hotter places."],
+  ["abroad", "deaths", "Heat strain kills workers far from home."],
+  ["abroad", "lost", "When a worker falls ill or dies, the money home stops."],
+  ["conflict", "camps", "Conflict drives people into crowded camps."],
+  ["camps", "homes", "Tarpaulin shelters trap heat, with no way to cool."],
+  ["camps", "schoolclose", "Learning centres close when the heat peaks."]
 ];
 
 /* ---------- 4. VICIOUS CYCLES ---------- */
@@ -1540,6 +1587,9 @@ const GLOSSARY = [
     text: "Deaths above the normal number for that place and time of year. Because death certificates rarely say “heat”, this is how the real toll of a heatwave is counted." },
   { id: "wetbulb", group: "measure", term: "Wet-bulb temperature", match: "wet-bulb temperature", video: "media/glossary/wetbulb.mp4", length: "0:35",
     text: "Heat and humidity combined into one number, read from a thermometer wrapped in a wet cloth. It shows whether sweat can still cool you. A wet-bulb temperature of 35 °C is often quoted as the limit of human survival; recent studies suggest the real limit is lower." },
+  { id: "dryhumid", group: "measure", term: "Dry heat and humid heat", match: "dry heat|humid heat",
+    text: "Dry heat is high temperature with low humidity: sweat still evaporates, but the body soaks up heat fast. It peaks in South Asia’s pre-monsoon months. Humid heat is warm, wet air in which sweat can’t evaporate, so the body can’t cool itself even at lower temperatures. It dominates Southeast Asia and builds through South Asia’s monsoon, and it is rising faster than dry heat. The two need different warnings and different cooling.",
+    source: { label: "Ivanovich et al., Geophysical Research Letters, 2024", url: "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023GL107382" } },
   { id: "wbgt", group: "measure", term: "WBGT (wet-bulb globe temperature)", match: "wet-bulb globe temperature|WBGT", video: "media/glossary/wbgt.mp4", length: "0:36",
     text: "The workplace measure of heat. It adds sun and wind to heat and humidity, and is used to set rest breaks and stop work." },
   { id: "heatindex", group: "measure", term: "Heat index", match: "heat index",
@@ -2327,9 +2377,11 @@ const STAKES_LABEL = { cost: "What this cycle costs", saves: "What breaking it s
 // One profile for each live city (ids match LIVE_CITIES). hap.status: "plan" (a city plan in force), "building" (parts in
 // place, no full plan found), "none" (no city plan found). loops: the cycles the site's evidence ties to this city or
 // country, with why in a sentence; orgs, examples and risk point to ids elsewhere in this file.
+// heat: the kind of heat the city mostly faces (see the glossary entry "Dry heat and humid heat").
 const CITY_HAP = { plan: "Heat plan in force", building: "Parts in place, no full plan found", none: "No city heat plan found" };
 const CITY_PROFILES = [
   { id: "singapore", tagline: "A city-state with hot nights, dense towers and an early national heat stress advisory.",
+    heat: "Humid heat, all year round.",
     hap: { status: "plan", text: "Singapore launched a national Heat Stress Advisory in July 2023. It rates heat stress as low, moderate or high from the wet-bulb globe temperature, and tells people what to do at each level.",
       sources: [{ label: "Ministry of Sustainability and the Environment, 2023", url: "https://mse.gov.sg/latest-news/press-release-heat-stress-advisory" }] },
     loops: [
@@ -2339,6 +2391,7 @@ const CITY_PROFILES = [
       { id: "invisible", why: "Workplace monitors found more heat stress than nearby weather stations reported." } ],
     orgs: ["nea", "mom", "smu", "nrfsg", "mas", "c40"], examples: ["singapore"], risk: ["workers", "older"] },
   { id: "bangkok", tagline: "A tropical megacity where heat costs lives, livelihoods and a share of the city’s economy.",
+    heat: "Mostly humid heat.",
     hap: { status: "plan", text: "For the 2026 hot season Bangkok opened 304 cooling centres in schools, health centres and district offices, under a heat management plan developed with the World Bank.",
       sources: [{ label: "Government of Thailand, 2026", url: "https://thailand.go.th/issue-focus-detail/bangkok-launches-304-cooling-centers-to-combat-extreme-heat" },
         { label: "World Bank, Shaping a Cooler Bangkok, 2025", url: "https://www.worldbank.org/en/country/thailand/publication/shaping-a-cooler-bangkok-tackling-urban-heat-for-a-more-livable-city" }] },
@@ -2349,6 +2402,7 @@ const CITY_PROFILES = [
       { id: "greendisplace", why: "Fieldwork is tracing how green urban renewal affects the city’s lower-income residents." } ],
     orgs: ["homenet", "bot", "undp", "adb"], examples: [], risk: ["workers", "settlements"] },
   { id: "hanoi", tagline: "A fast-growing northern capital whose power and water strain together in the heat.",
+    heat: "Mostly humid heat, in a hot, wet summer.",
     hap: { status: "none", text: "No city heat action plan found. From 2018 to 2021 the Viet Nam Red Cross ran an early-action plan for heatwaves in 15 of Hanoi’s wards, triggered by a heat-index forecast.",
       sources: [{ label: "Anticipation Hub", url: "https://www.anticipation-hub.org/experience/anticipatory-action-in-the-world/vietnam/fbf-ready-reducing-heat-waves-impacts-on-the-vulnerable-populations-of-hanoi" }] },
     loops: [
@@ -2356,6 +2410,7 @@ const CITY_PROFILES = [
       { id: "global", why: "Southeast Asia’s air conditioners could rise from 40 million to 300 million by 2040." } ],
     orgs: ["sbv"], examples: [], risk: ["workers"] },
   { id: "manila", tagline: "A dense, humid metropolis where heat closes schools and pushes the heat index into danger.",
+    heat: "Mostly humid heat.",
     hap: { status: "building", text: "In Metro Manila, Quezon City has set up a city Heat Action Team, named chief heat action officers and opened 32 libraries as cooling centres. Its full heat action plan is still being developed.",
       sources: [{ label: "Quezon City Government", url: "https://quezoncity.gov.ph/qc-beefs-up-action-vs-extreme-heat-designates-chief-heat-action-officers/" }] },
     loops: [
@@ -2364,6 +2419,7 @@ const CITY_PROFILES = [
       { id: "farmdebt", why: "Rice yields in the Philippines fell about 10% for each 1 °C rise in growing-season night temperature." } ],
     orgs: ["pagasa", "deped"], examples: [], risk: ["workers", "settlements"] },
   { id: "jakarta", tagline: "A sinking, sprawling capital in the country where half of Southeast Asia’s air conditioners could be.",
+    heat: "Humid heat, all year round.",
     hap: { status: "building", text: "No standalone heat action plan found. Jakarta’s Climate Action Plan 2021–2050 aims to reduce its vulnerability to extreme heat, and in October 2025 the governor told health facilities to prepare for heat illness.",
       sources: [{ label: "C40 Cities, 2025", url: "https://www.c40.org/wp-content/uploads/2025/09/RfP_RF_Jakarta.pdf" },
         { label: "Antara, 2025", url: "https://www.antaranews.com/berita/5178905/pramono-instruksikan-mitigasi-dampak-cuaca-panas-ekstrem-di-jakarta" }] },
@@ -2373,6 +2429,7 @@ const CITY_PROFILES = [
       { id: "deadgreen", why: "Among the hot, fast-growing cities where urban trees are at risk." } ],
     orgs: ["ojk", "komida", "nusantarafund"], examples: [], risk: ["settlements", "workers"] },
   { id: "delhi", tagline: "A capital of extreme pre-monsoon heat, street trade and falling groundwater.",
+    heat: "Dry heat before the monsoon, then humid heat during it.",
     hap: { status: "plan", text: "Delhi launched its 2025 Heat Action Plan in April 2025, with graded heat alerts, cooling shelters, 3,000 water points and heatstroke units in hospitals. Critics say it lacks legal backing and dedicated funds.",
       sources: [{ label: "Business Today, 2025", url: "https://www.businesstoday.in/amp/india/story/imd-predicts-heatwave-conditions-in-april-delhi-govt-launches-action-plan-472890-2025-04-21" },
         { label: "Citizen Matters", url: "https://citizenmatters.in/city-buzz-five-things-you-must-know-about-the-delhi-heat-action-plan" }] },
@@ -2383,6 +2440,7 @@ const CITY_PROFILES = [
       { id: "invisible", why: "India confirmed 185 heatstroke deaths against 48,385 suspected cases in 2024, up to 28 July." } ],
     orgs: ["ndma", "imd", "ncdc", "ceew", "seeds", "heatwatch"], examples: ["ahmedabad"], risk: ["workers", "settlements"] },
   { id: "dhaka", tagline: "One of the world’s densest cities, where heat costs workdays and fills tin-roofed homes.",
+    heat: "Mostly humid heat.",
     hap: { status: "building", text: "Dhaka North City Corporation appointed Asia’s first Chief Heat Officer in 2023. No city heat action plan found yet.",
       sources: [{ label: "Arsht-Rock Resilience Center, 2023", url: "https://onebillionresilient.org/2023/05/03/bushra-afreen-dhaka-chief-heat-officer/" }] },
     loops: [
@@ -2392,6 +2450,7 @@ const CITY_PROFILES = [
       { id: "school", why: "Bangladesh closed schools for about 33 million children in its April 2024 heatwave." } ],
     orgs: ["dncc", "bdrcs", "icddrb", "bracngo", "practicalaction", "bangladeshbank"], examples: ["dhaka"], risk: ["workers", "settlements"] },
   { id: "kathmandu", tagline: "A valley city warming fast, below the Himalayan ice that feeds South Asia’s rivers.",
+    heat: "Milder heat at altitude, hottest before the monsoon.",
     hap: { status: "none", text: "No city heat action plan found. Nepal adopted a national plan of action on heat waves in 2024, and Nepalgunj, in the plains, wrote the country’s first local heat action plan in 2023.",
       sources: [{ label: "Onlinekhabar, 2025", url: "https://english.onlinekhabar.com/reassessing-nepals-heat-wave-response-lessons-from-2024-and-the-way-forward.html" },
         { label: "Nepalgunj Heat Action Plan, 2023", url: "https://preparecenter.org/wp-content/uploads/2023/07/Nepalgunj-Heat-Action-Plan-2023.pdf" }] },
@@ -2400,6 +2459,7 @@ const CITY_PROFILES = [
       { id: "debt", why: "In five cities in Nepal and Bangladesh, heat cut incomes and pushed some households towards high-interest loans." } ],
     orgs: ["ndrrma", "nrcs", "tewa", "nrb", "practicalaction"], examples: [], risk: ["women", "older"] },
   { id: "mumbai", tagline: "A coastal megacity where the nights are heating faster than the days.",
+    heat: "Mostly humid coastal heat.",
     hap: { status: "building", text: "Mumbai’s 2022 Climate Action Plan names urban heat as a priority, and the city is working with C40 on heat-health protocols for its hospitals. No standalone city heat action plan found.",
       sources: [{ label: "Citizen Matters", url: "https://citizenmatters.in/mcap-climate-change-heat-mumbai/" },
         { label: "C40 Cities, 2026", url: "https://www.c40.org/wp-content/uploads/2026/07/RfP-Heat-Health-protocols-for-Mumbai.pdf" }] },
@@ -2409,6 +2469,7 @@ const CITY_PROFILES = [
       { id: "invisible", why: "Death certificates usually record the immediate cause, so heat as the trigger goes unrecorded." } ],
     orgs: ["wriindia", "c40", "hdfclife", "iclei"], examples: ["thane"], risk: ["settlements", "workers"] },
   { id: "ahmedabad", tagline: "Where South Asia’s first heat action plan began, and where its results were measured.",
+    heat: "Dry heat before the monsoon, then humid heat during it.",
     hap: { status: "plan", text: "Ahmedabad launched South Asia’s first heat action plan in 2013, after a 2010 heatwave caused an estimated 1,344 excess deaths. An estimated 1,190 deaths a year were later avoided.",
       sources: [{ label: "Hess et al., Journal of Environmental and Public Health, 2018", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6236972/" }] },
     loops: [

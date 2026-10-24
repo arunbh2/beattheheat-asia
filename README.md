@@ -15,7 +15,7 @@ This website is an **interactive systems map** of extreme heat. It shows:
 - **a 60-second tour** for first-time visitors;
 - **the heat network**: organisations already working on heat, the levers they pull, and where the gaps may be;
 - **Plan a response**: a workshop tool that turns the map into a one-page plan (who leads, who pays, how you will know it works), with Ahmedabad, Thane, Tamil Nadu, Singapore and Dhaka as worked examples;
-- **a plain-language glossary**: 39 terms in six groups near the bottom of the page; across the site, these words are underlined with dots and tapping one explains it.
+- **a plain-language glossary**: 40 terms in six groups near the bottom of the page; across the site, these words are underlined with dots and tapping one explains it.
 
 Visitors can drag and zoom the map, tap any dot, follow a ripple, walk through any vicious cycle, and choose an institution to see which loops it can help break.
 
