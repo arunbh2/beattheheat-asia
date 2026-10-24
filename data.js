@@ -2999,6 +2999,7 @@ const STRAIN = {
 
 /* ---------- 29. FIND PRACTICAL ACTIONS ---------- */
 // The second front door: pick a setting, get short action cards. Every card answers eight questions.
+// cool (optional): the matching place in Cooling options (part 20), linked from the setting.
 // who: institution ids (part 5). lever: the action on the map (part 6). cost (optional): [cooling place id, option name] from part 20.
 // evidence: one published source you have opened; reuse sources already on the site where you can. worksIf: the conditions without which it fails.
 const ACTION_LINES = [
@@ -3006,7 +3007,7 @@ const ACTION_LINES = [
   ["running", "Running and upkeep"], ["evidence", "Evidence"], ["stops", "What could stop it"], ["worksIf", "Works only if"]
 ];
 const ACTION_SETTINGS = [
-  { id: "work", name: "Outdoor and hot workplaces", short: "Workplaces",
+  { id: "work", cool: "work", name: "Outdoor and hot workplaces", short: "Workplaces",
     intro: "People who cannot stop working when it is hot: builders, vendors, riders, farm, factory and sanitation workers.",
     cards: [
       { id: "breaks", title: "Paid rest breaks that switch on with the alert",
@@ -3061,7 +3062,7 @@ const ACTION_SETTINGS = [
         worksIf: ["Heat is measured where people stand", "Workers can report symptoms without risk", "Fans have power when it is hottest"],
         lever: "heatrules" }
     ] },
-  { id: "homes", name: "Homes", short: "Homes",
+  { id: "homes", cool: "homes", name: "Homes", short: "Homes",
     intro: "Where people sleep, cook and care for others, often under thin roofs that stay hot after dark.",
     cards: [
       { id: "roofs", title: "Cool roofs",
@@ -3116,7 +3117,7 @@ const ACTION_SETTINGS = [
         worksIf: ["Someone keeps the list", "Calls continue after dark", "Callers know when to send help"],
         lever: "coolnights" }
     ] },
-  { id: "schools", name: "Schools and childcare", short: "Schools",
+  { id: "schools", cool: "schools", name: "Schools and childcare", short: "Schools",
     intro: "Children in hot classrooms learn less and fall ill more easily. Most fixes are small and seasonal.",
     cards: [
       { id: "classroofs", title: "Cool the hottest classrooms first",
@@ -3218,7 +3219,7 @@ const ACTION_SETTINGS = [
         worksIf: ["It is where people actually wait", "Someone refills the water"],
         lever: "coolingcentres" }
     ] },
-  { id: "neighbourhoods", name: "Markets and neighbourhoods", short: "Neighbourhoods",
+  { id: "neighbourhoods", cool: "markets", name: "Markets and neighbourhoods", short: "Neighbourhoods",
     intro: "The streets, markets, stops and public spaces where people spend the hottest hours.",
     cards: [
       { id: "markets", title: "Shade and water in markets, designed with vendors",

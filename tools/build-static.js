@@ -316,7 +316,7 @@ const CITY_PAGES = [];
   const val = (c, k) => k === "who" ? c.who.map(inst).join(", ") : k === "evidence" ? c.evidence.text : k === "worksIf" ? c.worksIf.join("; ") + "." : c[k];
   let h = `<p><strong>Start from a question:</strong> ${D.ACTION_JOURNEYS.map(j => j.go === "stalls" ? `<a href="/#stalls">${esc(j.q)}</a>` : `<a href="#${j.go}">${esc(j.q)}</a>`).join(" · ")}</p>`, m = [`## ${p.title}`, intro];
   D.ACTION_SETTINGS.forEach(st => {
-    h += `<h2 id="${st.id}">${esc(st.name)}</h2><p>${esc(st.intro)} <a href="/print/actions-${st.id}/">Print these cards</a> · <a href="/#practical-${st.id}">Open them on the map</a></p>`;
+    h += `<h2 id="${st.id}">${esc(st.name)}</h2><p>${esc(st.intro)} <a href="/print/actions-${st.id}/">Print these cards</a> · <a href="/#practical-${st.id}">Open them on the map</a>${st.cool ? ` · <a href="/cooling-options/#${st.cool}">Options, costs and traps</a>` : ""}</p>`;
     m.push(`### ${st.name}`, st.intro);
     st.cards.forEach(c => {
       h += `<h3 id="${st.id}-${c.id}">${esc(c.title)}</h3><ul>${D.ACTION_LINES.map(([k, label]) => `<li><strong>${esc(label)}:</strong> ${esc(val(c, k))}${k === "evidence" ? ` ${ext(c.evidence.source.url, c.evidence.source.label)}` : ""}</li>`).join("")}</ul>`;

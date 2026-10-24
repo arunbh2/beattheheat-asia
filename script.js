@@ -2231,7 +2231,7 @@
     panelEl.removeAttribute("aria-label"); panelEl.setAttribute("aria-labelledby", "pa-tab-" + st.id);
     const q = PA_Q.find(x => x.go === st.id && x.also), also = q && PA.find(x => x.id === q.also);
     panelEl.innerHTML = `<div class="pa-head"><p class="pa-intro">${esc(st.intro)}</p>
-        <p class="pa-head__go">${printLink("actions-" + st.id, `Print the ${st.short.toLowerCase()} cards`)}${also ? ` · <button type="button" class="link" data-pa-tab="${also.id}">Also: ${esc(also.name.toLowerCase())}</button>` : ""}</p></div>
+        <p class="pa-head__go">${(cp => cp ? `<a class="pa-join" href="#cool-${cp.id}">Options, costs and traps for ${esc(cp.name.toLowerCase())} <span aria-hidden="true">→</span></a> · ` : "")(st.cool && COOL.find(x => x.id === st.cool))}${printLink("actions-" + st.id, `Print the ${st.short.toLowerCase()} cards`)}${also ? ` · <button type="button" class="link" data-pa-tab="${also.id}">Also: ${esc(also.name.toLowerCase())}</button>` : ""}</p></div>
       <div class="pa-cards">${st.cards.map(paCard).join("")}</div>`;
   }
   function renderPractical() {

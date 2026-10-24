@@ -1740,3 +1740,6 @@ body.film-open { overflow: hidden; }
 .pa-stalls a, .pa-more a { font-weight: 700; color: #1D6E64; padding: 4px 0; display: inline-block; }
 .pa-more { margin-top: 14px; }
 .pa-head__go a, .pa-head__go .print-link { color: #1D6E64; }
+.pa-join { font-weight: 800; color: #1D6E64; }
+.cool__join { margin-top: 10px; max-width: 46rem; padding: 10px 14px; border-left: 4px solid #2A9D8F; background: #EAF6F4; border-radius: 0 8px 8px 0; font-size: .95rem; }
+.cool__join a { font-weight: 800; color: #1D6E64; }
