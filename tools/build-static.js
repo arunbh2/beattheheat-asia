@@ -15,7 +15,7 @@ const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + `
 ;Object.assign(this, { SYSTEMS, CONSEQUENCES, LINKS, LOOP_GROUPS, LOOPS, INSTITUTIONS, LEVERS, LOOP_PLACES, EVIDENCE, ORG_ROLES,
   ORGANISATIONS, GLOSSARY_GROUPS, GLOSSARY, WORKED_EXAMPLES, AT_RISK, AT_RISK_BARRIERS, STALLS, COOL_PLACES, COOL_TRAPS,
-  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, COOL_FX, COOL_REGION, HOME_HEATS, STRAIN, COOL_ASK, PLAN_GROUPS, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL, LIVE_CITIES, CITY_PROFILES, CITY_HAP, HEATWAVES, HEATWAVES_NOTE, ACTION_SETTINGS, ACTION_LINES, ACTION_JOURNEYS });`, ctx);
+  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, COOL_FX, COOL_REGION, HOME_HEATS, STRAIN, COOL_ASK, PLAN_GROUPS, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL, LIVE_CITIES, CITY_PROFILES, CITY_HAP, HEATWAVES, HEATWAVES_NOTE, ACTION_SETTINGS, ACTION_LINES, ACTION_JOURNEYS, FINANCE });`, ctx);
 const D = ctx, TODAY = new Date().toISOString().slice(0, 10);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const plain = s => String(s || "").replace(/\n/g, " ");
@@ -41,7 +41,8 @@ const PAGES = [
   { slug: "heat-network", title: "Organisations working on extreme heat", short: "Heat network" },
   { slug: "cities", title: "Extreme heat in ten Asian cities", short: "Cities" },
   { slug: "heatwaves", title: "Heatwaves that shaped South and Southeast Asia, 1998 to 2026", short: "Heatwaves" },
-  { slug: "practical-actions", title: "Practical actions against extreme heat, by setting", short: "Practical actions" }
+  { slug: "practical-actions", title: "Practical actions against extreme heat, by setting", short: "Practical actions" },
+  { slug: "paying-for-protection", title: "Paying for heat protection: who pays, how money arrives, and whether it lasts", short: "Paying for protection" }
 ];
 const LICENCE = "Text, data, films and illustrations © BeatTheHeat.Asia contributors, shared under Creative Commons Attribution 4.0 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/): you may copy, adapt and translate them, with credit and a link to beattheheat.asia. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’ and are not covered.";
 const DISCLAIMER = "This is a beta version. BeatTheHeat.Asia is being built by a group of organisations working on extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement. Every claim links to its source; where the evidence is still emerging, the map says so.";
@@ -314,7 +315,7 @@ const CITY_PAGES = [];
   const intro = `${n} practical actions against extreme heat in workplaces, homes, schools, health facilities, markets and neighbourhoods, and what municipalities can do before summer. Each answers eight questions: what to do, who it protects, where it suits, who must act, what it takes to run, the evidence, what could stop it, and what it only works with.`;
   const inst = id => (D.INSTITUTIONS.find(i => i.id === id) || {}).name || id;
   const val = (c, k) => k === "who" ? c.who.map(inst).join(", ") : k === "evidence" ? c.evidence.text : k === "worksIf" ? c.worksIf.join("; ") + "." : c[k];
-  let h = `<p><strong>Start from a question:</strong> ${D.ACTION_JOURNEYS.map(j => j.go === "stalls" ? `<a href="/#stalls">${esc(j.q)}</a>` : `<a href="#${j.go}">${esc(j.q)}</a>`).join(" · ")}</p>`, m = [`## ${p.title}`, intro];
+  let h = `<p><strong>Start from a question:</strong> ${D.ACTION_JOURNEYS.map(j => j.go === "stalls" ? `<a href="/#stalls">${esc(j.q)}</a>` : j.go === "finance" ? `<a href="/paying-for-protection/">${esc(j.q)}</a>` : `<a href="#${j.go}">${esc(j.q)}</a>`).join(" · ")}</p>`, m = [`## ${p.title}`, intro];
   D.ACTION_SETTINGS.forEach(st => {
     h += `<h2 id="${st.id}">${esc(st.name)}</h2><p>${esc(st.intro)} <a href="/print/actions-${st.id}/">Print these cards</a> · <a href="/#practical-${st.id}">Open them on the map</a>${st.cool ? ` · <a href="/cooling-options/#${st.cool}">Options, costs and traps</a>` : ""}</p>`;
     m.push(`### ${st.name}`, st.intro);
@@ -326,6 +327,28 @@ const CITY_PAGES = [];
   out[p.slug] = page(p, intro, h, [{ "@context": "https://schema.org", "@type": "ItemList", name: p.title, numberOfItems: n,
     itemListElement: D.ACTION_SETTINGS.flatMap(st => st.cards.map(c => ({ st, c }))).map(({ st, c }, i) => ({ "@type": "ListItem", position: i + 1, name: c.title, description: c.what, url: `${SITE}/practical-actions/#${st.id}-${c.id}` })) }]);
   md.push(m.join("\n\n"));
+}
+
+// ---- paying for protection ----
+{
+  const p = PAGES[11], F = D.FINANCE, intro = F.intro;
+  const src = x => ext(x.url, x.label);
+  let h = `<h2>What needs paying for, and when must the money arrive?</h2><table><thead><tr><th>Need</th><th>Route to look into</th><th>The question to answer</th></tr></thead><tbody>${F.needs.map(n => `<tr><td>${esc(n.need)}</td><td>${esc(n.route)}</td><td>${esc(n.ask)}</td></tr>`).join("")}</tbody></table><p class="meta">${esc(F.needsNote)}</p>
+    <h2>Three triggers, not one</h2><ul>${F.triggers.map(t => `<li><strong>${esc(t.name)}:</strong> ${esc(t.does)} ${esc(t.who)}.</li>`).join("")}</ul><p>${esc(F.triggersNote)}</p>
+    <h2>${esc(F.basis.q)}</h2><ul>${F.basis.kinds.map(k => `<li><strong>${esc(k.name)}.</strong> ${esc(k.text)}</li>`).join("")}</ul><p><strong>${esc(F.basis.ask)}</strong> ${esc(F.basis.note)} ${src(F.basis.source)}</p>
+    <h2>From trigger to protection</h2><ol>${F.pathway.steps.map(x => `<li>${esc(x)}</li>`).join("")}</ol><p>${esc(F.pathway.note)} ${src(F.pathway.source)}</p>
+    <h2>Will it survive the next season?</h2><ul>${F.survive.map(q => `<li>${esc(q)}</li>`).join("")}</ul><p class="meta">${src(F.surviveSource)}</p>
+    <h2>What has been tried</h2>${F.cases.map(c => `<h3 id="${c.id}">${esc(c.name)}</h3><p class="meta">${esc(c.where)} · ${esc(c.hazard)}</p><ul><li><strong>Who paid:</strong> ${esc(c.paid)}</li><li><strong>Who received it:</strong> ${esc(c.received)}</li><li><strong>What it made possible:</strong> ${esc(c.enabled)}</li><li><strong>What it left out:</strong> ${esc(c.uncovered)}</li><li><strong>Did it continue?</strong> ${esc(c.continued)}</li><li><strong>Lesson:</strong> ${esc(c.lesson)}</li></ul><p class="meta">Sources: ${c.sources.map(src).join(" · ")}</p>`).join("")}
+    <h2>What this evidence can and can’t tell you</h2><p>${esc(F.boundary)} ${src(F.boundarySource)}</p>
+    <p><a href="/print/paying-for-protection/">Print the one-pager</a> · <a href="/#plan-step-3">Add who pays to a plan</a></p>`;
+  const m = [`## ${p.title}`, intro, "### What needs paying for, and when must the money arrive?", ...F.needs.map(n => `- ${n.need}: ${n.route}. ${n.ask}`), F.needsNote,
+    "### Three triggers, not one", ...F.triggers.map(t => `- ${t.name}: ${t.does} ${t.who}.`), F.triggersNote,
+    `### ${F.basis.q}`, ...F.basis.kinds.map(k => `- ${k.name}: ${k.text}`), `${F.basis.ask} ${F.basis.note} (${F.basis.source.label}, ${F.basis.source.url})`,
+    "### From trigger to protection", F.pathway.steps.join(" → "), `${F.pathway.note} (${F.pathway.source.label}, ${F.pathway.source.url})`,
+    "### Will it survive the next season?", ...F.survive.map(q => `- ${q}`),
+    "### What has been tried", ...F.cases.flatMap(c => [`#### ${c.name} (${c.where}; ${c.hazard})`, `Who paid: ${c.paid}`, `Who received it: ${c.received}`, `What it made possible: ${c.enabled}`, `What it left out: ${c.uncovered}`, `Did it continue? ${c.continued}`, `Lesson: ${c.lesson}`, ...c.sources.map(x => `Source: ${x.label} ${x.url}`)]),
+    "### What this evidence can and can’t tell you", `${F.boundary} (${F.boundarySource.label}, ${F.boundarySource.url})`];
+  out[p.slug] = page(p, intro, h); md.push(m.join("\n\n"));
 }
 
 // ---- write the pages ----

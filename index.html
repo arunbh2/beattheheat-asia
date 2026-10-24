@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap">
 
-  <link rel="stylesheet" href="styles.css?v=97">
+  <link rel="stylesheet" href="styles.css?v=98">
 
   <script type="application/ld+json">
   {
@@ -111,8 +111,8 @@
   }
   </script>
   <link rel="alternate" type="text/plain" href="/llms-full.txt" title="The whole map as plain text">
-  <script src="data.js?v=97" defer></script>
-  <script src="script.js?v=97" defer></script>
+  <script src="data.js?v=98" defer></script>
+  <script src="script.js?v=98" defer></script>
 </head>
 
 <body>
@@ -155,17 +155,18 @@
             <li><a href="#stalls"><span class="site-menu__n" aria-hidden="true">10</span><span class="site-menu__t">Why action stalls<small>Seven conditions, and what moves them</small></span></a></li>
             <li><a href="#practical"><span class="site-menu__n" aria-hidden="true">11</span><span class="site-menu__t">Find practical actions<small>What to do, by setting, and what keeps it working</small></span></a></li>
             <li><a href="#cooling"><span class="site-menu__n" aria-hidden="true">12</span><span class="site-menu__t">Cooling options<small>What to build where people are, and how to keep it working</small></span></a></li>
-            <li><a href="#plan"><span class="site-menu__n" aria-hidden="true">13</span><span class="site-menu__t">Plan a response<small>Turn the map into a one-page plan</small></span></a></li>
-            <li><a href="#network"><span class="site-menu__n" aria-hidden="true">14</span><span class="site-menu__t">The heat network<small>Organisations already at work</small></span></a></li>
+            <li><a href="#finance"><span class="site-menu__n" aria-hidden="true">13</span><span class="site-menu__t">Paying for protection<small>Who pays, how money arrives, and whether it lasts</small></span></a></li>
+            <li><a href="#plan"><span class="site-menu__n" aria-hidden="true">14</span><span class="site-menu__t">Plan a response<small>Turn the map into a one-page plan</small></span></a></li>
+            <li><a href="#network"><span class="site-menu__n" aria-hidden="true">15</span><span class="site-menu__t">The heat network<small>Organisations already at work</small></span></a></li>
           </ul>
         </div>
         <div class="site-menu__group">
           <h2 class="site-menu__h" id="menu-g3">Go deeper</h2>
           <ul aria-labelledby="menu-g3">
-            <li><a href="#wicked"><span class="site-menu__n" aria-hidden="true">15</span><span class="site-menu__t">Why heat is a wicked problem<small>No single cause, owner or finish line</small></span></a></li>
-            <li><a href="#method"><span class="site-menu__n" aria-hidden="true">16</span><span class="site-menu__t">How this map works<small>What it shows, and what it doesn’t</small></span></a></li>
-            <li><a href="#glossary"><span class="site-menu__n" aria-hidden="true">17</span><span class="site-menu__t">Glossary<small>Heat terms in plain language</small></span></a></li>
-            <li><a href="#text-version"><span class="site-menu__n" aria-hidden="true">18</span><span class="site-menu__t">Every link, as text<small>The whole map in a readable list</small></span></a></li>
+            <li><a href="#wicked"><span class="site-menu__n" aria-hidden="true">16</span><span class="site-menu__t">Why heat is a wicked problem<small>No single cause, owner or finish line</small></span></a></li>
+            <li><a href="#method"><span class="site-menu__n" aria-hidden="true">17</span><span class="site-menu__t">How this map works<small>What it shows, and what it doesn’t</small></span></a></li>
+            <li><a href="#glossary"><span class="site-menu__n" aria-hidden="true">18</span><span class="site-menu__t">Glossary<small>Heat terms in plain language</small></span></a></li>
+            <li><a href="#text-version"><span class="site-menu__n" aria-hidden="true">19</span><span class="site-menu__t">Every link, as text<small>The whole map in a readable list</small></span></a></li>
           </ul>
         </div>
       </nav>
@@ -509,6 +510,15 @@
     </section>
 
 
+    <!-- ============ PAYING FOR HEAT PROTECTION (part 30 of data.js) ============ -->
+    <section class="finance" id="finance" aria-labelledby="finance-title">
+      <div class="container">
+        <p class="eyebrow eyebrow--break">Paying for protection</p>
+        <h2 id="finance-title" class="h2">Who pays, how it arrives,<br>and whether it lasts.</h2>
+        <div id="finance-body"></div>
+      </div>
+    </section>
+
     <!-- ============ PLAN A RESPONSE ============ -->
     <section class="plan" id="plan" aria-labelledby="plan-title">
       <div class="container">
@@ -558,6 +568,7 @@
             <fieldset class="plan-step" id="plan-step-3">
               <legend><span>3</span> Agree who leads, who pays, when it happens and how you will know</legend>
               <div id="plan-rows" class="plan-rows"></div>
+              <div id="plan-fin"></div>
               <label class="plan-review">When will you review the plan after the season? <input type="text" id="plan-review" placeholder="e.g. first week of October, with every lead department" autocomplete="off"></label>
             </fieldset>
             <fieldset class="plan-step" id="plan-step-4">
@@ -764,7 +775,7 @@
     </div>
     <p class="site-footer__text site-footer__licence">Text, data, films and illustrations © BeatTheHeat.Asia contributors, shared under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 (CC BY 4.0)</a>: you may copy, adapt and translate them, with credit and a link to beattheheat.asia. Code is under the <a href="https://github.com/arunbh2/beattheheat-asia/blob/main/LICENSE-CODE">MIT licence</a>. Linked sources, quotations, and organisations’ names and logos remain their owners’ and are not covered.</p>
     <nav class="site-footer__text" aria-label="The map as plain text">
-      <p>The map as plain text, for reading, printing or search: <a href="/practical-actions/">Practical actions</a> · <a href="/the-web/">The web</a> · <a href="/loops/">Vicious cycles</a> · <a href="/actions/">Actions</a> · <a href="/who-is-at-risk/">Who is at risk</a> · <a href="/cooling-options/">Cooling options</a> · <a href="/worked-plans/">Worked plans</a> · <a href="/glossary/">Glossary</a> · <a href="/heat-network/">Heat network</a> · <a href="/cities/">Cities</a> · <a href="/heatwaves/">Heatwaves</a> · <a href="/print/">Printable one-pagers</a></p>
+      <p>The map as plain text, for reading, printing or search: <a href="/practical-actions/">Practical actions</a> · <a href="/the-web/">The web</a> · <a href="/loops/">Vicious cycles</a> · <a href="/actions/">Actions</a> · <a href="/who-is-at-risk/">Who is at risk</a> · <a href="/cooling-options/">Cooling options</a> · <a href="/paying-for-protection/">Paying for protection</a> · <a href="/worked-plans/">Worked plans</a> · <a href="/glossary/">Glossary</a> · <a href="/heat-network/">Heat network</a> · <a href="/cities/">Cities</a> · <a href="/heatwaves/">Heatwaves</a> · <a href="/print/">Printable one-pagers</a></p>
     </nav>
   </footer>
   <!-- The film: opened from the hero, never autoplays. Captions come from media/…en.vtt -->

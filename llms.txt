@@ -21,6 +21,7 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The pa
 - [Cities](https://beattheheat.asia/cities/): Extreme heat in ten Asian cities
 - [Heatwaves](https://beattheheat.asia/heatwaves/): Heatwaves that shaped South and Southeast Asia, 1998 to 2026
 - [Practical actions](https://beattheheat.asia/practical-actions/): Practical actions against extreme heat, by setting
+- [Paying for protection](https://beattheheat.asia/paying-for-protection/): Paying for heat protection: who pays, how money arrives, and whether it lasts
 
 ## Cities
 
@@ -56,6 +57,7 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The pa
 - [Extreme heat in Mumbai](https://beattheheat.asia/print/city-mumbai/)
 - [Extreme heat in Ahmedabad](https://beattheheat.asia/print/city-ahmedabad/)
 - [Lessons from Asia’s heatwaves, 1998–2026](https://beattheheat.asia/print/heatwaves/)
+- [Paying for heat protection](https://beattheheat.asia/print/paying-for-protection/)
 - [Practical actions: Outdoor and hot workplaces](https://beattheheat.asia/print/actions-work/)
 - [Practical actions: Homes](https://beattheheat.asia/print/actions-homes/)
 - [Practical actions: Schools and childcare](https://beattheheat.asia/print/actions-schools/)

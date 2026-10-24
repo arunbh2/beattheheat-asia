@@ -846,6 +846,7 @@ const LEVERS = [
     text: "Cash that pays out automatically when temperatures cross a danger threshold, so people can afford to stop. Triggers need careful design to limit basis risk: heat that hurts people without triggering a payout.",
     example: "Parametric heat insurance has been piloted with women informal workers in India.", exampleSources: [{ label: "ICMIF, 2024: IBISA launches a parametric heat-index product for women workers in India", url: "https://www.icmif.org/news_story/ibisa-launches-a-new-parametric-heat-index-product-in-india-to-protect-women-workers-from-heat-induced-wage-losses/" }],
     guides: [
+      { by: "Global Asia Insurance Partnership, 2026", title: "Scaling Parametric Insurance in Asia: regulation, design, basis risk and why pilots stall", url: "https://www.gaip.global/publications/scaling-parametric-insurance-in-asia/" },
       { by: "VimoSEWA, 2025", title: "Parametric heat and rainfall insurance for informal women workers", url: "https://www.sewainsurance.org/wp-content/uploads/2025/12/Parametric-Heat-and-Rainfall-Insurance-for-Informal-Women-Workers.pdf" },
       { by: "CGAP", title: "Confronting the climate and health nexus: lessons from the Self-Employed Women’s Association (SEWA)", url: "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association" } ] },
   { id: "socialprotection", edge: ["lost", "informal"], title: "Social protection floors", who: ["nat", "funders"], when: "years", measure: "Households reached by heat-season support",
@@ -928,6 +929,7 @@ const LEVERS = [
     text: "Public–private insurance and regional risk pools keep cover available and spread losses beyond any one budget.",
     example: "Regional risk pools such as the African Risk Capacity and the Caribbean’s CCRIF share disaster risk across countries.", exampleSources: [{ label: "World Bank: sovereign catastrophe risk pools, 15 years on", url: "https://blogs.worldbank.org/en/psd/sovereign-catastrophe-risk-pools-15-years-and-still-more-come" }],
     guides: [
+      { by: "Global Asia Insurance Partnership, 2026", title: "Scaling Parametric Insurance in Asia: regulation, design, basis risk and why pilots stall", url: "https://www.gaip.global/publications/scaling-parametric-insurance-in-asia/" },
       { by: "UNDP", title: "Global Shield against Climate Risks in Pakistan: pre-arranged finance for climate shocks", url: "https://www.undp.org/pakistan/projects/global-shield-against-climate-risks" } ] }
 ];
 
@@ -1421,7 +1423,12 @@ const EVIDENCE = {
     { by: "Swiss Re Institute sigma, reported by Global Reinsurance", title: "Protection gap laid bare as Asian cat losses hit $65bn", url: "https://www.globalreinsurance.com/home/swiss-re-sigma-protection-gap-laid-bare-as-asian-cat-losses-hit-65bn/1458440.article",
       type: "Industry research, reported by the press", where: "Asia", scale: "Region-wide, 2025",
       limit: "Covers all natural catastrophes, not heat alone; heat losses are rarely insured at all.",
-      finding: "Only about 8% of Asia’s US$65 billion in natural catastrophe losses in 2025 was insured. The rest fell on households, businesses and governments." }
+      finding: "Only about 8% of Asia’s US$65 billion in natural catastrophe losses in 2025 was insured. The rest fell on households, businesses and governments." },
+    { by: "Global Asia Insurance Partnership, 2026", title: "Climate Change & Insurance: Physical risks on the insurance industry", url: "https://www.gaip.global/publications/physical-risks-on-the-insurance-industry/",
+      type: "Industry research report", where: "Asia", scale: "Region-wide review",
+      limit: "A qualitative assessment; it does not measure the whole cycle in any one place.",
+      reading: "We read it as the cycle on the map: repeated heat losses squeeze incomes, cover becomes harder to afford, and more of the loss falls on households and public budgets.",
+      finding: "In developing markets with low insurance cover, the protection gap is driven by unaffordable premiums, limited awareness and weak distribution, and heat’s drag on growth and household incomes could shrink the customer base further." }
   ]
 };
 
@@ -3331,10 +3338,107 @@ const ACTION_SETTINGS = [
         lever: "anticipatory" }
     ] }
 ];
-// Questions visitors arrive with. go: a setting id, or "stalls" for why interventions fail.
+// Questions visitors arrive with. go: a setting id, "stalls" for why interventions fail, or "finance" for Paying for protection.
 const ACTION_JOURNEYS = [
   { q: "How do I protect outdoor workers?", go: "work" },
   { q: "How do I cool homes or classrooms?", go: "homes", also: "schools" },
   { q: "What should our municipality do before summer?", go: "summer" },
-  { q: "Why are our interventions failing?", go: "stalls" }
+  { q: "Why are our interventions failing?", go: "stalls" },
+  { q: "How do we pay for protection?", go: "finance" }
 ];
+
+/* ---------- 30. PAYING FOR HEAT PROTECTION ---------- */
+// How protection is paid for, delivered and kept going. Shown in Act on it, and in steps 3 and 4 of Plan a response.
+// Draws on two Global Asia Insurance Partnership reports (2026), checked page by page. The parametric report did not evaluate
+// consumer outcomes, contracts, pricing or trigger performance: use it for design questions, not as proof that a heat product works.
+// cases: say who paid, who received, what it made possible, what it left out and whether it continued. Where sources disagree, say so.
+const FINANCE = {
+  intro: "Protection only works if someone pays for it, the money arrives in time, and it is still there next season. Start from what needs paying for, not from a product.",
+  needs: [
+    { id: "build", need: "Shade, cooler buildings and water points", route: "Public investment, grants or infrastructure finance", ask: "Who pays to build it, and who pays to run it afterwards?" },
+    { id: "run", need: "Upkeep, staff and outreach", route: "Recurring public, employer or programme budgets", ask: "Is the money there every season, not just the first?" },
+    { id: "before", need: "Action before forecast heat", route: "Pre-arranged anticipatory finance", ask: "Can money be released before people are harmed?" },
+    { id: "income", need: "Lost income or disrupted services", route: "Cash assistance, contingency reserves or suitable insurance", ask: "Will money arrive before people borrow or go back to unsafe work?" },
+    { id: "ongoing", need: "Households that stay vulnerable", route: "Social protection and affordable essential services", ask: "What keeps supporting them between heatwaves?" }
+  ],
+  needsNote: "A way to compare routes, not a claim that every route exists in every country.",
+  triggers: [
+    { id: "warn", name: "Warning trigger", does: "Prompts an official heat advisory or warning.", who: "Usually the weather service, often with health authorities" },
+    { id: "act", name: "Action trigger", does: "Switches on agreed measures: outreach, rest breaks, cooling spaces open.", who: "The heat plan’s lead office and each department" },
+    { id: "pay", name: "Payout trigger", does: "Decides whether a specific insurance contract pays.", who: "Set in the contract; the insurer or a calculation agent confirms it" }
+  ],
+  triggersNote: "The three need not match. Protective action should never wait for an insurance payout.",
+  basis: {
+    q: "Why can someone lose income to heat and get no payout?",
+    kinds: [
+      { name: "Wrong place", text: "The contract measures heat at a weather station or grid point, but the workplace or home is hotter." },
+      { name: "Wrong measure", text: "The index counts temperature, but humidity, heavy work or hot nights caused the harm." },
+      { name: "Wrong amount", text: "It pays, but a fixed amount that covers only part of what was lost." }
+    ],
+    ask: "If the contract does not pay, what support is still there?",
+    note: "Clear explanation prevents disappointment when a contract works as designed. It cannot fix a contract that leaves real losses uncovered.",
+    source: { label: "Global Asia Insurance Partnership, Scaling Parametric Insurance in Asia, 2026, pp. 48–51", url: "https://www.gaip.global/publications/scaling-parametric-insurance-in-asia/" }
+  },
+  pathway: {
+    steps: ["Trigger confirmed", "Fund holder paid", "People receive support they can use", "Protective action becomes possible"],
+    note: "When money goes first to a government, cooperative or microfinance institution, someone still has to decide who gets it. Count the date at every step, not only the day the insurer pays.",
+    source: { label: "Global Asia Insurance Partnership, Scaling Parametric Insurance in Asia, 2026, pp. 52–53", url: "https://www.gaip.global/publications/scaling-parametric-insurance-in-asia/" }
+  },
+  // fields saved with the plan, in step 3
+  fields: [
+    { id: "holder", name: "Who receives the money first", placeholder: "e.g. the city disaster fund, a workers’ cooperative" },
+    { id: "who", name: "Who it is meant to reach", placeholder: "e.g. registered street vendors in three wards" },
+    { id: "rule", name: "How it is shared out", placeholder: "e.g. a fixed amount per registered member" },
+    { id: "by", name: "When it must arrive", placeholder: "e.g. within 3 days of a red alert" },
+    { id: "channel", name: "How it is paid, and the fallback", placeholder: "e.g. mobile wallet; cash at the ward office" },
+    { id: "complain", name: "Where people can complain", placeholder: "e.g. a helpline run by the workers’ union" },
+    { id: "gap", name: "What is still not covered", placeholder: "e.g. workers outside the scheme; losses above the payout" }
+  ],
+  survive: [
+    "Who pays next year’s premium and running costs?",
+    "What happens when donor money ends?",
+    "Who keeps the knowledge when staff change?",
+    "How will you review seasons with a payout, and without one?",
+    "What evidence would make you change it, or stop it?"
+  ],
+  surviveSource: { label: "Global Asia Insurance Partnership, Scaling Parametric Insurance in Asia, 2026, pp. 58–59", url: "https://www.gaip.global/publications/scaling-parametric-insurance-in-asia/" },
+  boundary: "These reports describe how insurance is regulated, designed and delivered in Asia. The parametric report did not assess consumer outcomes, pricing, contracts or how triggers performed, so it supports design questions, not proof that a heat product works.",
+  boundarySource: { label: "Global Asia Insurance Partnership, Scaling Parametric Insurance in Asia, 2026, pp. 14–15", url: "https://www.gaip.global/publications/scaling-parametric-insurance-in-asia/" },
+  cases: [
+    { id: "wcsi", name: "Heat income cover for women informal workers", where: "Gujarat and north-western India", hazard: "Extreme heat",
+      paid: "Premiums were paid largely by Climate Resilience for All, with members contributing; reported amounts differ by source and year.",
+      received: "Members of the Self Employed Women’s Association (SEWA). Swiss Re reported more than 46,000 women paid after the May 2024 heatwaves.",
+      enabled: "Cash for lost working days, alongside early warnings and low-cost protection such as shade tarps and cooling boxes.",
+      uncovered: "The 2023 pilot’s threshold was set too high, so women got nothing on very hot days until it was lowered. In 2025 most payments were reported to take six to eight weeks.",
+      continued: "Grew from about 21,000 women in the 2023 pilot to 50,000 by 2025. No independent evaluation found.",
+      lesson: "Insurance worked as one part of a package. The threshold and the payment speed decide whether money helps when it is needed.",
+      sources: [
+        { label: "Global Asia Insurance Partnership, Physical risks on the insurance industry, 2026, p. 13", url: "https://www.gaip.global/publications/physical-risks-on-the-insurance-industry/" },
+        { label: "Swiss Re: the structure behind a parametric solution for SEWA", url: "https://www.swissre.com/our-business/public-sector-solutions/insights/parametric-structure-for-sewa-in-south-east-asia.html" },
+        { label: "NPR, 16 July 2025: on super hot days, this insurance plan pays out cash for lost wages", url: "https://www.npr.org/sections/goats-and-soda/2025/07/16/g-s1-76948/hot-temperatures-insurance-gig-workers-india" } ] },
+    { id: "laos", name: "Government cover that switched to its own disaster data", where: "Lao PDR", hazard: "Floods and other disasters, not heat",
+      paid: "The Government of Lao PDR, through the Southeast Asia Disaster Risk Insurance Facility (SEADRIF).",
+      received: "The government, for emergency response and budget planning.",
+      enabled: "The first policy paid on a modelled count of people affected, which kept disagreeing with the government’s own figures. The renewed 2025–2027 policy pays on the national disaster office’s reported impact data, up to US$8 million a year. A US$2 million payout was made in September 2025, six days after the figures were finalised.",
+      uncovered: "The report does not describe how the money then reached affected families.",
+      continued: "Renewed for 2025–2027 after the redesign.",
+      lesson: "Trust grows when the trigger uses data the government already relies on to run its response. A lesson about data, not heat evidence.",
+      sources: [
+        { label: "Global Asia Insurance Partnership, Scaling Parametric Insurance in Asia, 2026, p. 51", url: "https://www.gaip.global/publications/scaling-parametric-insurance-in-asia/" },
+        { label: "SEADRIF, 2025: lessons from Laos", url: "https://seadrif.org/wp-content/uploads/2025/11/IDF_Case_Study_SEADRIF_Laos_2025.pdf" } ] },
+    { id: "fishers", name: "Pay for days too dangerous to work", where: "Philippines, 24 coastal municipalities", hazard: "Wind, waves and rain, not heat",
+      paid: "The Bureau of Fisheries and Aquatic Resources pays the premiums from its budget, as the policyholder.",
+      received: "About 14,200 registered small-scale fishers, up to US$100 per policy cycle.",
+      enabled: "Income when weather makes fishing unsafe: it insures lost working days, not damaged boats.",
+      uncovered: "Thresholds are not public, and results have not yet been reported; it launched in November 2025.",
+      continued: "A government-supported pilot.",
+      lesson: "The same logic heat income cover needs: pay for days too dangerous to work, with a public agency as policyholder so people who would never buy cover are reached.",
+      sources: [
+        { label: "Global Asia Insurance Partnership, Scaling Parametric Insurance in Asia, 2026, p. 50", url: "https://www.gaip.global/publications/scaling-parametric-insurance-in-asia/" },
+        { label: "WTW, November 2025: Willis and Rare launch insurance for fishers in the Philippines", url: "https://www.wtwco.com/en-my/news/2025/11/willis-and-rare-partners-to-launch-innovative-insurance-solution-for-fishers-in-the-philippines" } ] }
+  ],
+  reading: [
+    { label: "Global Asia Insurance Partnership, 2026: Scaling Parametric Insurance in Asia", url: "https://www.gaip.global/publications/scaling-parametric-insurance-in-asia/" },
+    { label: "Global Asia Insurance Partnership, 2026: Climate Change & Insurance: Physical risks on the insurance industry", url: "https://www.gaip.global/publications/physical-risks-on-the-insurance-industry/" }
+  ]
+};
