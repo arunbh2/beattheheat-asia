@@ -42,6 +42,7 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The pa
 
 - [All one-pagers](https://beattheheat.asia/print/): single A4 briefs for officials, planners and journalists
 - [Four heats in a home](https://beattheheat.asia/print/four-heats/)
+- [Weather, work and the person](https://beattheheat.asia/print/weather-work-person/)
 - [Dry heat and humid heat](https://beattheheat.asia/print/dry-and-humid-heat/)
 - [Extreme heat in Singapore](https://beattheheat.asia/print/city-singapore/)
 - [Extreme heat in Bangkok](https://beattheheat.asia/print/city-bangkok/)

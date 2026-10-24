@@ -219,10 +219,16 @@
     return out.replace(/\u0000(\d+)\u0001/g, (_, k) => `<button type="button" class="term" data-term="${found[k][0]}" aria-expanded="false">${found[k][1]}</button>`);
   }
 
+  // what kind of source it is, where, how big, and what it cannot tell us; "our reading" is interpretation, kept apart
+  function evidenceCard(x) {
+    if (!x.type) return "";
+    return `<p class="evid__card"><span class="visually-hidden">Type: </span><b>${esc(x.type)}</b> · <span class="visually-hidden">Where: </span>${esc(x.where)} · <span class="visually-hidden">Scale: </span>${esc(x.scale)}</p><p class="evid__limit"><strong>Limit:</strong> ${esc(x.limit)}</p>${x.reading ? `<p class="evid__reading"><strong>Our reading:</strong> ${esc(x.reading)}</p>` : ""}`;
+  }
+
   function evidenceHTML(l, open) {
     const ev = evidenceOf(l.id); if (!ev.length) return "";
     return `<details class="evid"${open ? " open" : ""}><summary>See the evidence <span>${plural(ev.length, "source")}</span></summary>
-      <ul>${ev.map(x => `<li>${extLink(x.url, x.title)}<small>${esc(x.by)}</small><p>${gloss(x.finding)}</p></li>`).join("")}</ul>
+      <ul>${ev.map(x => `<li>${extLink(x.url, x.title)}<small>${esc(x.by)}</small><p>${gloss(x.finding)}</p>${evidenceCard(x)}</li>`).join("")}</ul>
       <p class="evid__how"><a href="#method">How we judge evidence</a></p></details>`;
   }
 
@@ -1298,7 +1304,7 @@
     L.push("", "YOUR LEVERS");
     d.levers.forEach(v => { L.push(`- ${v.title} [${WHEN[v.when] || ""}]: ${v.text} (Cuts ${plain(byId[v.edge[0]])} → ${plain(byId[v.edge[1]])}; could help interrupt ${v.loops.map(l => loopById[l].name).join(", ") || "no mapped loop"}.)`); if (v.example) L.push(`  Example: ${v.example}`); (v.exampleSources || []).forEach(x => L.push(`  Source: ${x.label}: ${x.url}`)); (v.guides || []).forEach(g => L.push(`  Guide: ${g.title} (${g.by}): ${g.url}`)); });
     L.push("", "LOOPS YOU CAN HELP INTERRUPT");
-    d.loops.forEach(l => { L.push(`- ${l.name} (${evidenceLabel(l.evidence)}): ${l.summary}`); evidenceOf(l.id).forEach(x => L.push(`  Evidence: ${x.by}, “${x.title}”: ${x.finding} ${x.url}`)); });
+    d.loops.forEach(l => { L.push(`- ${l.name} (${evidenceLabel(l.evidence)}): ${l.summary}`); evidenceOf(l.id).forEach(x => L.push(`  Evidence: ${x.by}, “${x.title}”: ${x.finding} ${x.url}${x.limit ? ` (${x.type}; ${x.where}. Limit: ${x.limit})` : ""}`)); });
     if (d.partners.length) { L.push("", "WHO TO WORK WITH", `These institutions share your levers: ${d.partners.map(p => p.inst.name).join(", ")}.`); }
     L.push("", "This map is large, but the real web is larger. Loops marked “Evidence emerging” have evidence for each link; the full cycle has been studied less.");
     return L.join("\n");
@@ -1325,7 +1331,7 @@
       <div class="bar"><span style="width:${(d.loops.length / LOOPS.length * 100).toFixed(1)}%"></span></div>
       <h2>Your protection chain</h2><div class="chain">${STAGES.map(([k, l]) => `<div><b>${l}</b>${h(d.pb[k] || "")}</div>`).join("")}</div>
       <h2>Your levers</h2><ul>${d.levers.map(v => `<li><strong>${h(v.title)}.</strong> <span class="when">${h(WHEN[v.when] || "")}</span> ${h(v.text)}<br><span class="ex">Cuts ${h(plain(byId[v.edge[0]]))} → ${h(plain(byId[v.edge[1]]))}. Could help interrupt: ${h(v.loops.map(l => loopById[l].name).join(", ") || "no mapped loop")}.${v.example ? " Example: " + h(v.example) : ""}${(v.exampleSources || []).map(x => `<br>Source: ${h(x.label)}, ${h(x.url)}`).join("")}${(v.guides || []).map(g => `<br>Guide: ${h(g.title)} (${h(g.by)}), ${h(g.url)}`).join("")}</span></li>`).join("")}</ul>
-      <h2>Loops you can help break</h2><ul>${d.loops.map(l => `<li><strong>${h(l.name)}</strong> <span class="ev">(${evidenceLabel(l.evidence)})</span><br>${h(l.summary)}${evidenceOf(l.id).map(x => `<br><span class="ex">Evidence: <a href="${h(x.url)}">${h(x.title)}</a> (${h(x.by)}). ${h(x.finding)}</span>`).join("")}</li>`).join("")}</ul>
+      <h2>Loops you can help break</h2><ul>${d.loops.map(l => `<li><strong>${h(l.name)}</strong> <span class="ev">(${evidenceLabel(l.evidence)})</span><br>${h(l.summary)}${evidenceOf(l.id).map(x => `<br><span class="ex">Evidence: <a href="${h(x.url)}">${h(x.title)}</a> (${h(x.by)}). ${h(x.finding)}${x.limit ? ` <em>${h(x.type)}, ${h(x.where)}. Limit: ${h(x.limit)}</em>` : ""}</span>`).join("")}</li>`).join("")}</ul>
       ${d.partners.length ? `<h2>Who to work with</h2><p>These institutions share your levers: ${d.partners.map(p => h(p.inst.name)).join(", ")}. No single institution can break these loops alone.</p>` : ""}
       <p class="ev" style="margin-top:32px">This map is large, but the real web is larger. Loops marked “Evidence emerging” have evidence for each link; the full cycle has been studied less.</p>
       </body></html>`;
@@ -1348,8 +1354,8 @@
   const EXAMPLES = typeof WORKED_EXAMPLES !== "undefined" ? WORKED_EXAMPLES : [];
   const STALL_LIST = typeof STALLS !== "undefined" ? STALLS : [];
   const PLAN_KEY = "bth-plan-v1";
-  let plan = { place: "", group: "", levers: [], rows: {}, example: null, stalls: [], triggers: {}, review: "" };
-  try { const saved = JSON.parse(localStorage.getItem(PLAN_KEY) || "null"); if (saved && Array.isArray(saved.levers)) plan = Object.assign(plan, saved); if (!Array.isArray(plan.stalls)) plan.stalls = []; if (!plan.triggers || typeof plan.triggers !== "object") plan.triggers = {}; } catch (e) {}
+  let plan = { place: "", group: "", levers: [], rows: {}, example: null, stalls: [], triggers: {}, review: "", exposure: [] };
+  try { const saved = JSON.parse(localStorage.getItem(PLAN_KEY) || "null"); if (saved && Array.isArray(saved.levers)) plan = Object.assign(plan, saved); if (!Array.isArray(plan.stalls)) plan.stalls = []; if (!plan.triggers || typeof plan.triggers !== "object") plan.triggers = {}; if (!Array.isArray(plan.exposure)) plan.exposure = []; } catch (e) {}
   const savePlan = () => { try { localStorage.setItem(PLAN_KEY, JSON.stringify(plan)); } catch (e) {} };
   const PHASES = typeof PLAN_PHASES !== "undefined" ? PLAN_PHASES : [], PHASE_DEF = typeof PLAN_PHASE_DEFAULT !== "undefined" ? PLAN_PHASE_DEFAULT : {};
   const phaseById = Object.fromEntries(PHASES.map(x => [x.id, x]));
@@ -1358,6 +1364,22 @@
   const planRow = id => { const r = plan.rows[id] || (plan.rows[id] = { lead: (leverById[id].who || [])[0] || "", payer: PAYERS[0], measure: "" });
     if (!r.phase) r.phase = PHASE_DEF[id] || "year"; return r; };
   const trig = () => plan.triggers || (plan.triggers = {});
+  const EXPO = typeof PLAN_EXPOSURE !== "undefined" ? PLAN_EXPOSURE : [], W2A = typeof PLAN_W2A !== "undefined" ? PLAN_W2A : [];
+  const w2a = lv => { const t = trig(), w = t.w2a || (t.w2a = {}); return w[lv] || (w[lv] = {}); };
+  const instName = id => instById[id] ? instById[id].name : "";
+  // a level counts as covered once someone is named to act on it
+  const w2aDone = () => LEVELS.filter(l => ((trig().w2a || {})[l.id] || {}).act).length;
+  const expoOn = () => EXPO.filter(x => plan.exposure.includes(x.id));
+
+  // step 1: exposure questions; each one ticked adds something to discuss, never a score
+  function renderPlanExposure() {
+    const box = document.getElementById("plan-exposure-list"); if (!box || !EXPO.length) return;
+    const on = expoOn();
+    box.innerHTML = `<p class="plan-step__hint">Tick what applies to the people you are protecting. Each one adds something to discuss to your plan.</p>
+      <div class="plan-exposure__qs">${EXPO.map(x => `<label class="plan-check"><input type="checkbox" data-pl-expo="${x.id}"${plan.exposure.includes(x.id) ? " checked" : ""}><span>${esc(x.q)}</span></label>`).join("")}</div>
+      ${on.length ? `<p class="plan-ladder__k">To discuss</p><ul class="plan-exposure__prompts">${on.map(x => `<li>${esc(x.prompt)}</li>`).join("")}</ul>` : ""}
+      <p class="plan-exposure__note">Heat strain depends on the weather, the work and the person together. <a href="#strain">See weather, work and the person</a>.</p>`;
+  }
   // cooling assets (part 20) need someone to keep them working after year one
   const ASSETS = typeof COOL_ASSET_LEVERS !== "undefined" ? COOL_ASSET_LEVERS : [];
   const isAsset = id => ASSETS.includes(id);
@@ -1414,6 +1436,13 @@
           <label><span class="plan-ladder__name">${esc(l.name)} · ${esc(l.meaning)}</span><input type="text" data-pl-trig="${l.id}" value="${esc(t[l.id] || "")}" placeholder="${esc(l.placeholder)}"></label>
           <p class="plan-ladder__acts">${acts.length ? "Switches on: " + acts.map(id => esc(leverById[id].title)).join(", ") : "No actions start at this level yet. Set “When it happens” in step 3."}</p>
         </div>`; }).join("")}</div>
+      ${W2A.length ? `<details class="plan-w2a"${w2aDone() ? " open" : ""}><summary>Warning-to-action table <span>${w2aDone()} of ${LEVELS.length} levels with someone named to act</span></summary>
+        <p class="plan-step__hint">A warning works when everyone knows who moves, who pays, by when, and what happens if the first plan fails.</p>
+        ${LEVELS.map(l => { const w = w2a(l.id); return `<fieldset class="plan-w2a__lv plan-ladder__lv--${l.id}"><legend>${esc(l.name)} · ${esc(l.meaning)}</legend>
+          ${W2A.map(f => f.id === "decide" ? `<label>${esc(f.name)} <select data-pl-w2a="${l.id}:decide"><option value="">Choose…</option>${INSTITUTIONS.map(i => `<option value="${i.id}"${w.decide === i.id ? " selected" : ""}>${esc(i.name)}</option>`).join("")}</select></label>`
+            : f.id === "pay" ? `<label>${esc(f.name)} <select data-pl-w2a="${l.id}:pay">${PAYERS.map(p => `<option${(w.pay || PAYERS[0]) === p ? " selected" : ""}>${esc(p)}</option>`).join("")}</select></label>`
+            : `<label>${esc(f.name)} <input type="text" data-pl-w2a="${l.id}:${f.id}" value="${esc(w[f.id] || "")}" placeholder="${esc(f.placeholder || "")}"></label>`).join("")}
+        </fieldset>`; }).join("")}</details>` : ""}
       <p class="plan-ladder__k">How warnings reach people <span>The ones marked ✱ reach people without a phone or signal.</span></p>
       <div class="plan-channels">${CHANNELS.map(c => `<label class="plan-check"><input type="checkbox" data-pl-chan="${c.id}"${ch.includes(c.id) ? " checked" : ""}><span>${esc(c.name)}${c.offline ? " ✱" : ""}</span></label>`).join("")}</div>
       ${LIVE.length ? `<div class="plan-live"><p class="plan-ladder__k">Test your alert levels against this week’s forecast</p>
@@ -1520,6 +1549,8 @@
       ${phases.length ? `<p class="plan-summary__line"><b>When it happens:</b> ${phases.map(([x, n]) => `${esc(x.name.toLowerCase())} (${n})`).join(", ")}</p>` : ""}
       ${timing.length ? `<p class="plan-summary__line"><b>When it works:</b> ${timing.map(([l, n]) => `${esc(l)} (${n})`).join(", ")}</p>` : ""}
       ${rows.length ? `<p class="plan-summary__line"><b>Who pays:</b> ${Object.entries(payers).map(([p, n]) => `${esc(p)} (${n})`).join(", ")}</p>` : ""}
+      ${W2A.length && plan.levers.length && w2aDone() < LEVELS.length ? `<p class="plan-summary__gap">${plural(LEVELS.length - w2aDone(), "alert level")} with nobody named to act. <button type="button" class="link" data-pl-step="4">Fill the warning-to-action table</button></p>` : ""}
+      ${expoOn().length ? `<p class="plan-summary__line"><b>Exposure to discuss:</b> ${plural(expoOn().length, "prompt")}</p>` : ""}
       ${unpaid ? `<p class="plan-summary__gap">${plural(unpaid, "action")} with nobody paying yet. That is the conversation to have next.</p>` : ""}
       ${noUpkeep().length ? `<p class="plan-summary__gap">${plural(noUpkeep().length, "cooling action")} with nobody named to keep it working after year one. <button type="button" class="link" data-pl-step="3">Add it in step 3</button></p>` : ""}
       ${loops.length ? `<p class="plan-summary__line"><b>Cycles in play:</b> ${loops.map(l => esc(l.name.replace(/^The /, ""))).join(", ")}</p>` : ""}
@@ -1564,7 +1595,7 @@
     grp.innerHTML = `<option value="">Choose a group…</option>` + PG.map(g => `<option value="${g.id}"${plan.group === g.id ? " selected" : ""}>${esc(g.name)}</option>`).join("");
     place.value = plan.place;
     const rv = document.getElementById("plan-review"); if (rv) rv.value = plan.review || "";
-    renderPlanStory(); renderPlanChecklist(); renderPlanWorkshop(); renderPlanActions(); renderPlanRows(); renderPlanTriggers(); renderPlanStalls(); renderPlanCheck(); renderPlanSummary();
+    renderPlanStory(); renderPlanChecklist(); renderPlanWorkshop(); renderPlanExposure(); renderPlanActions(); renderPlanRows(); renderPlanTriggers(); renderPlanStalls(); renderPlanCheck(); renderPlanSummary();
   }
 
   // the practical guides for the chosen actions, each listed once, under the first action that needs it
@@ -1584,6 +1615,10 @@
     L.push("", "TRIGGERS AND WARNINGS", `Alerts based on: ${base ? base.name : "(not set)"}`, `Issued by: ${instById[t.issuer || "met"] ? instById[t.issuer || "met"].name : "-"}`);
     LEVELS.forEach(l => L.push(`${l.name} (${l.meaning}): ${t[l.id] || "(not set)"}. Switches on: ${plan.levers.filter(id => planRow(id).phase === l.id).map(id => leverById[id].title).join(", ") || "nothing yet"}`));
     L.push(`Warnings reach people by: ${(t.channels || []).map(c => (CHANNELS.find(x => x.id === c) || {}).name).filter(Boolean).join(", ") || "(not set)"}`);
+    if (W2A.length) { L.push("", "WARNING-TO-ACTION TABLE");
+      LEVELS.forEach(l => { const w = (t.w2a || {})[l.id] || {}; L.push(`${l.name} (${l.meaning}):`);
+        W2A.forEach(f => L.push(`   ${f.name}: ${(f.id === "decide" ? instName(w.decide) : f.id === "pay" ? (w.pay || PAYERS[0]) : w[f.id]) || "(not set)"}`)); }); }
+    if (expoOn().length) { L.push("", "EXPOSURE: TO DISCUSS (prompts, not a risk score)"); expoOn().forEach(x => L.push(`   - ${x.q} ${x.prompt}`)); }
     L.push("", "WHO CORE ELEMENTS CHECK"); whoCheck().forEach(({ e, st, note }) => L.push(`[${ST[st]}] ${e.name}: ${note}`));
     if (typeof PLAN_REVIEW !== "undefined") { L.push("", `AFTER-SEASON REVIEW${plan.review ? ": " + plan.review : ""}`); PLAN_REVIEW.forEach(q => L.push(`   - ${q}`)); }
     L.push("", `Cycles these actions could help interrupt: ${planLoops().map(l => l.name).join(", ") || "none"}`);
@@ -1619,7 +1654,11 @@
       ${(() => { const t = trig(), base = BASES.find(b => b.id === t.basis), chs = (t.channels || []).map(c => (CHANNELS.find(x => x.id === c) || {}).name).filter(Boolean);
         return `<h2>Triggers and warnings</h2><p>Alerts based on <strong>${h(base ? base.name : "not set yet")}</strong>, issued by <strong>${h(instById[t.issuer || "met"] ? instById[t.issuer || "met"].name : "")}</strong>.</p>
         <table><thead><tr><th>Level</th><th>Trigger</th><th>Switches on</th></tr></thead><tbody>${LEVELS.map(l => `<tr><td><span class="lv lv--${l.id}"></span><strong>${h(l.name)}</strong><br><span class="note">${h(l.meaning)}</span></td><td class="${t[l.id] ? "" : "gap"}">${h(t[l.id] || "Not set")}</td><td>${h(plan.levers.filter(id => planRow(id).phase === l.id).map(id => leverById[id].title).join(", ") || "-")}</td></tr>`).join("")}</tbody></table>
-        <p><strong>Warnings reach people by:</strong> ${h(chs.join(", ") || "not set yet")}</p>`; })()}
+        <p><strong>Warnings reach people by:</strong> ${h(chs.join(", ") || "not set yet")}</p>
+        ${W2A.length ? `<h2>Warning-to-action table</h2><table><thead><tr><th>Level</th>${W2A.map(f => `<th>${h(f.name)}</th>`).join("")}</tr></thead><tbody>${LEVELS.map(l => { const w = (t.w2a || {})[l.id] || {};
+          return `<tr><td><span class="lv lv--${l.id}"></span><strong>${h(l.name)}</strong></td>${W2A.map(f => { const v = f.id === "decide" ? instName(w.decide) : f.id === "pay" ? (w.pay || PAYERS[0]) : w[f.id];
+            return `<td class="${v && v !== "Not decided yet" ? "" : "gap"}">${h(v || "Not set")}</td>`; }).join("")}</tr>`; }).join("")}</tbody></table>` : ""}`; })()}
+      ${expoOn().length ? `<h2>Exposure: to discuss</h2><p class="note">Prompts from the exposure questions, not a risk score.</p><ul>${expoOn().map(x => `<li><strong>${h(x.q)}</strong> ${h(x.prompt)}</li>`).join("")}</ul>` : ""}
       ${(() => { const c = whoCheck(); return c.length ? `<h2>Check against WHO’s eight core elements</h2><p class="note">${c.filter(x => x.st === "yes").length} of ${c.length} in place. From WHO/Europe, Heat–health action plans: guidance, second edition (2026).</p>
         <table><tbody>${c.map(({ e, st, note }) => `<tr><td><strong>${h(e.name)}</strong></td><td class="${st === "yes" ? "" : "gap"}">${h(ST[st])}</td><td>${h(note)}</td></tr>`).join("")}</tbody></table>` : ""; })()}
       ${typeof PLAN_REVIEW !== "undefined" ? `<h2>After the season: review${plan.review ? " · " + h(plan.review) : ""}</h2><ul>${PLAN_REVIEW.map(q => `<li>${h(q)}</li>`).join("")}</ul>` : ""}
@@ -1637,7 +1676,7 @@
   function loadExample(id) {
     const ex = EXAMPLES.find(x => x.id === id); if (!ex) return;
     track("plan-example-" + id);
-    plan = { place: ex.place, group: ex.group, levers: ex.actions.map(a => a.lever), rows: {}, example: ex.id, stalls: [], triggers: Object.assign({}, ex.triggers || {}), review: "" };
+    plan = { place: ex.place, group: ex.group, levers: ex.actions.map(a => a.lever), rows: {}, example: ex.id, stalls: [], triggers: Object.assign({}, ex.triggers || {}), review: "", exposure: [] };
     ex.actions.forEach(a => { plan.rows[a.lever] = { lead: a.lead, payer: a.payer, measure: a.measure, phase: a.phase || PHASE_DEF[a.lever] || "year" }; });
     savePlan(); renderPlan();
     document.getElementById("plan-story").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" });
@@ -1647,12 +1686,15 @@
     const sec = document.getElementById("plan"); if (!sec) return;
     const changed = (rows = true) => { savePlan(); if (rows) renderPlanRows(); renderPlanTriggers(); renderPlanCheck(); renderPlanSummary(); };
     const light = () => { savePlan(); renderPlanCheck(); renderPlanSummary(); renderPlanLive(); };
+    // keep the table's count current without re-rendering the field being typed in
+    const updW2a = () => { const s = sec.querySelector(".plan-w2a summary span"); if (s) s.textContent = `${w2aDone()} of ${LEVELS.length} levels with someone named to act`; };
     sec.addEventListener("input", ev => {
       const t = ev.target;
       if (t.id === "plan-place") { plan.place = t.value; changed(false); }
       else if (t.dataset.plField === "measure" || t.dataset.plField === "upkeep") { planRow(t.closest("[data-pl-row]").dataset.plRow)[t.dataset.plField] = t.value; light(); }
       else if (t.id === "plan-review") { plan.review = t.value; light(); }
       else if (t.dataset.plTrig && t.tagName === "INPUT") { trig()[t.dataset.plTrig] = t.value; light(); }
+      else if (t.dataset.plW2a && t.tagName === "INPUT") { const [lv, f] = t.dataset.plW2a.split(":"); w2a(lv)[f] = t.value; light(); updW2a(); }
     });
     sec.addEventListener("change", ev => {
       const t = ev.target;
@@ -1674,6 +1716,13 @@
         trig()[t.dataset.plTrig] = t.value; changed(false);
       } else if (t.dataset.plLive !== undefined) {
         plan.liveCity = t.value; savePlan(); renderPlanLive(); if (t.value) track("plan-forecast-" + t.value);
+      } else if (t.dataset.plW2a && t.tagName === "SELECT") {
+        const [lv, f] = t.dataset.plW2a.split(":"); w2a(lv)[f] = t.value; light();
+      } else if (t.dataset.plExpo) {
+        const id = t.dataset.plExpo;
+        plan.exposure = t.checked ? [...plan.exposure.filter(x => x !== id), id] : plan.exposure.filter(x => x !== id);
+        savePlan(); renderPlanExposure(); renderPlanSummary();
+        const el = document.querySelector(`[data-pl-expo="${id}"]`); if (el) el.focus();
       } else if (t.dataset.plChan) {
         const id = t.dataset.plChan, c = trig().channels || [];
         trig().channels = t.checked ? [...c.filter(x => x !== id), id] : c.filter(x => x !== id); light();
@@ -1692,7 +1741,7 @@
       if (act === "map") goToMap(() => applyLevers(plan.levers, plan.place || "Your plan", "The actions in your plan, switched on together."));
       else if (act === "print") openPlan();
       else if (act === "copy") navigator.clipboard.writeText(planText()).then(() => { if (status) status.textContent = "Plan copied. Paste it into an email or document."; }, () => { if (status) status.textContent = "Couldn’t copy. Use “Open a printable plan” instead."; });
-      else if (act === "clear") { plan = { place: "", group: "", levers: [], rows: {}, example: null, stalls: [], triggers: {}, review: "" }; savePlan(); renderPlan(); }
+      else if (act === "clear") { plan = { place: "", group: "", levers: [], rows: {}, example: null, stalls: [], triggers: {}, review: "", exposure: [] }; savePlan(); renderPlan(); }
     });
   })();
 
@@ -2103,6 +2152,47 @@
       </article>`).join("");
   }
 
+  // Weather, work and the person: three overlapping circles; heat strain is where they meet. Never a score.
+  function renderStrain() {
+    const box = document.getElementById("strain-box"); if (!box || typeof STRAIN === "undefined") return;
+    const S = STRAIN; let sel = "weather";
+    const pos = { weather: [190, 128], work: [290, 128], person: [240, 214] };
+    const src = f => `${extLink(f.source.url, f.source.label)}${f.also ? `; ${extLink(f.also.url, f.also.label)}` : ""}`;
+    const art = () => `<svg viewBox="0 0 480 330" class="strain-svg" aria-hidden="true">
+        ${S.parts.map(p => `<circle cx="${pos[p.id][0]}" cy="${pos[p.id][1]}" r="96" class="strain-c strain-c--${p.id}${sel === p.id ? " is-on" : ""}"/>`).join("")}
+        ${S.parts.map(p => { const [x, y] = pos[p.id], dx = { weather: -36, work: 36, person: 0 }[p.id], dy = p.id === "person" ? 52 : -36;
+          return `<text x="${x + dx}" y="${y + dy}" class="strain-t">${esc(p.name.replace(/^The /, ""))}</text>`; }).join("")}
+        <circle cx="240" cy="158" r="30" class="strain-core"/><text x="240" y="154" class="strain-ct">Heat</text><text x="240" y="170" class="strain-ct">strain</text>
+      </svg>`;
+    const detail = () => { const p = S.parts.find(x => x.id === sel);
+      return `<p class="hh-k">${p.n} · ${esc(p.name)}</p><p>${gloss(p.text)}</p><ul class="strain-facts">${p.facts.map(f => `<li>${esc(f.text)} <span class="cool-ev__src">${src(f)}</span></li>`).join("")}</ul>`; };
+    const paint = () => {
+      box.querySelector(".strain-art").innerHTML = art();
+      box.querySelector(".strain-detail").innerHTML = detail();
+      box.querySelectorAll("[data-strain]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.strain === sel)));
+    };
+    const chips = (ids, map, attr, cls) => ids.filter(id => map[id]).map(id => `<button type="button" class="${cls}" ${attr}="${id}"${cls === "node-chip" ? ` style="--c:${map[id].color}"` : ""}>${esc(cls === "node-chip" ? plain(map[id]) : map[id].title)}</button>`).join("");
+    box.innerHTML = `<p class="hh-intro">${esc(S.intro)}</p>
+      <div class="hh-grid">
+        <div class="hh-stage strain-stage">
+          <div class="strain-art"></div>
+          <div class="hh-picks strain-picks" role="group" aria-label="Choose one of the three">${S.parts.map(p => `<button type="button" data-strain="${p.id}"><b>${p.n}</b><span>${esc(p.name)}<small>${esc(p.short)}</small></span></button>`).join("")}</div>
+        </div>
+        <div class="hh-side">
+          <div class="hh-detail strain-detail" aria-live="polite"></div>
+          ${watchButton("film:strain", "Watch: weather, work and the person")}
+          <p>${printLink("weather-work-person", "Print the one-pager, with questions for heat plans")}</p>
+        </div>
+      </div>
+      <p class="hh-nuance">${esc(S.close)}</p>
+      <h4 class="strain-gh">Three groups heat plans often miss</h4>
+      <div class="strain-groups">${S.groups.map(g => `<article class="strain-g" id="strain-${g.id}"><h5>${esc(g.name)}</h5><p>${esc(g.text)}</p><p class="strain-g__do">${esc(g.caution)}</p><p class="cool-ev__src">${extLink(g.source.url, g.source.label)}</p>
+          <p class="risk__row"><span>On the map:</span> ${chips(g.nodes, byId, "data-go", "node-chip")}</p><p class="risk__row risk__row--break"><span>What helps:</span> ${chips(g.levers, leverById, "data-lever", "lever-chip")}</p></article>`).join("")}</div>
+      <p class="hh-plans"><b>For heat plans</b> ${esc(S.plans)}</p>`;
+    box.addEventListener("click", ev => { const b = ev.target.closest("[data-strain]"); if (b) { sel = b.dataset.strain; paint(); track("strain-" + sel); } });
+    paint();
+  }
+
   // Why action stalls: how to tell, what moves it, and where it shows on the map
   function renderStalls() {
     const box = document.getElementById("stall-list"); if (!box || !STALL_LIST.length) return;
@@ -2143,6 +2233,13 @@
         <dl class="cool-opt__dl"><dt>Keeps working with</dt><dd>${esc(o.keeps)}</dd><dt>Avoid</dt><dd>${esc(o.avoid)}</dd><dt>Rough cost</dt><dd>${coolCost(o.cost)}</dd></dl>
       </li>`).join("")}</ul>
       ${(p.facts || []).length ? `<div class="cool-panel__facts">${p.facts.map(f => `<p class="stall__fact">${gloss(f.fact)} ${extLink(f.source.url, f.source.label)}</p>`).join("")}</div>` : ""}
+      ${p.kitchen ? `<div class="cool-kitchen" id="kitchen-heat"><h3>${esc(p.kitchen.title)}</h3><p>${gloss(p.kitchen.text)} <span class="cool-ev__src">${extLink(p.kitchen.source.url, p.kitchen.source.label)}</span></p>
+        <p class="cool-ask__k">Ask about the kitchen</p><ul class="cool-ask__qs">${p.kitchen.questions.map(q => `<li>${esc(q)}</li>`).join("")}</ul></div>` : ""}
+      ${typeof COOL_ASK !== "undefined" && p.id !== "system" ? `<details class="cool-ask"><summary>Questions before you choose <span>power, water, upkeep and who pays</span></summary>
+        <ol class="cool-ask__frame">${COOL_ASK.frame.map(f => `<li><b>${esc(f.name)}</b>${esc(f.text)}</li>`).join("")}</ol>
+        <p class="cool-ev__src">${extLink(COOL_ASK.frameSource.url, COOL_ASK.frameSource.label)}</p>
+        <p class="cool-ask__k">For each option, ask</p><ul class="cool-ask__qs">${COOL_ASK.questions.map(q => `<li>${esc(q)}</li>`).join("")}</ul>
+        <p class="cool-ask__out"><b>Keep the outcomes apart</b>${esc(COOL_ASK.outcomes)}</p></details>` : ""}
       <p class="cool-panel__measure"><b>How you will know</b>${esc(p.measure)}</p>
       <p class="risk__row risk__row--break"><span>On the map:</span> ${p.levers.filter(id => leverById[id]).map(id => `<button type="button" class="lever-chip" data-lever="${id}">${esc(leverById[id].title)}</button>`).join("")}</p>
       <p class="cool-panel__add"><button type="button" class="btn btn--sm btn--teal" data-cool-add="${p.id}">Add these actions to my plan</button> ${printLink(`cooling-${p.id}`, `Print the ${p.name.toLowerCase()} sheet`)}</p>`;
@@ -2691,6 +2788,7 @@
     renderPlan();
     renderGlossary();
     renderAtRisk();
+    renderStrain();
     renderStalls();
     renderCooling();
     renderHomeHeats();
