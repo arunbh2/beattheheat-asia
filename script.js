@@ -2521,6 +2521,28 @@
   const liveCredit = () => typeof LIVE_SOURCES === "undefined" ? "" : `${extLink(LIVE_SOURCES.model.url, LIVE_SOURCES.model.label)} (${esc(LIVE_SOURCES.model.licence)})`;
 
   const FP = typeof LIVE_FINGERPRINT !== "undefined" ? LIVE_FINGERPRINT : null;
+  // heat index from temperature and humidity: the US National Weather Service formula, in °C
+  function heatIndex(tc, rh) {
+    const T = tc * 9 / 5 + 32; let hi = 0.5 * (T + 61 + (T - 68) * 1.2 + rh * 0.094);
+    if ((hi + T) / 2 >= 80) {
+      hi = -42.379 + 2.04901523 * T + 10.14333127 * rh - .22475541 * T * rh - .00683783 * T * T - .05481717 * rh * rh + .00122874 * T * T * rh + .00085282 * T * rh * rh - .00000199 * T * T * rh * rh;
+      if (rh < 13 && T >= 80 && T <= 112) hi -= ((13 - rh) / 4) * Math.sqrt((17 - Math.abs(T - 95)) / 17);
+      else if (rh > 85 && T >= 80 && T <= 87) hi += ((rh - 85) / 10) * ((87 - T) / 5);
+    }
+    return (hi - 32) * 5 / 9;
+  }
+  // which national warning band today's heat falls in, if any: our estimate, never an official warning
+  function warnLevel(c, d, w) {
+    const L = typeof LIVE_LEVELS !== "undefined" ? LIVE_LEVELS[c.country] : null; if (!L || !d || (L.only && !L.only.includes(c.id))) return null;
+    let v = null, what = "";
+    if (L.basis === "hi") { v = heatIndex(d.t, d.rh); what = `estimated heat index ${deg(v)}`; }
+    else if (L.basis === "tmax" && d.days && d.days[0]) { v = d.days[0].max; what = `today’s forecast high ${deg(v)}`; }
+    else if (L.basis === "wbgt" && c.wbgt && w) { v = w.max; what = `measured WBGT ${w.max.toFixed(1)} °C`; }
+    if (v === null) return null;
+    let i = -1; L.levels.forEach(([min], k) => { if (v >= min) i = k; });
+    if (i < L.flag) return null;
+    return { name: L.levels[i][1], agency: L.short || L.agency, full: L.agency, what, rank: i - L.flag, top: i === L.levels.length - 1, source: L.source, note: L.note };
+  }
   // each city links to the "A week in the heat" workers of its country, which open on their own page
   const weekLink = c => {
     if (typeof HEAT_WEEK === "undefined") return "";
@@ -2534,7 +2556,7 @@
     const list = document.getElementById("now-list"); if (!list || !LIVE.length) return;
     const intro = document.getElementById("now-intro"); if (intro && typeof LIVE_NOTE !== "undefined") intro.textContent = LIVE_NOTE;
     const foot = document.getElementById("now-foot");
-    if (foot) foot.innerHTML = `Sources: ${liveCredit()}${typeof LIVE_SOURCES !== "undefined" ? " · " + extLink(LIVE_SOURCES.wbgt.url, LIVE_SOURCES.wbgt.label) : ""}. Feels-like is the apparent temperature, from heat, humidity and wind.`;
+    if (foot) foot.innerHTML = `Sources: ${liveCredit()}${typeof LIVE_SOURCES !== "undefined" ? " · " + extLink(LIVE_SOURCES.wbgt.url, LIVE_SOURCES.wbgt.label) : ""}. Feels-like is the apparent temperature, from heat, humidity and wind.${typeof LIVE_LEVELS_NOTE !== "undefined" ? " " + esc(LIVE_LEVELS_NOTE) : ""}`;
     const card = (c, d, w, hottest) => {
       const ok = d && liveAge(d) < LIVE_STALE, pct = ok ? clamp01((d.feels - 20) / 35) * 100 : 0, today = ok && d.days[0];
       return `<li class="now-c${hottest ? " is-hottest" : ""}">
@@ -2548,6 +2570,7 @@
           : `<p class="now-c__none">${d ? "Reading out of date" : "Live data unavailable"}</p>`}
         ${c.wbgt && w ? `<p class="now-c__wbgt"><b>Measured WBGT ${w.max.toFixed(1)} °C</b>${w.level ? ` · ${esc(w.level)} heat stress at the highest of ${w.n} stations` : ` across ${w.n} stations`}</p>` : ""}
         ${FP ? `<p class="now-c__csi"><a href="${esc(FP.map.url)}" target="_blank" rel="noopener">${esc(FP.cardLink)}<span class="visually-hidden"> in ${esc(c.name)}, on Climate Central’s Climate Shift Index map (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p>` : ""}
+        ${ok && warnLevel(c, d, w) ? (lv => `<p class="now-c__lv now-c__lv--${Math.min(lv.rank, 2)}"><b>${esc(lv.agency)}: ${esc(lv.name)}</b> <span>Our estimate from the ${esc(lv.what)}, using ${/^[A-Z]+$/.test(lv.full) ? "" : "the "}${esc(lv.full)}’s bands. Not an official warning. ${extLink(lv.source.url, "The bands")}</span></p>`)(warnLevel(c, d, w)) : ""}
         <p class="now-c__warn">Official warnings: ${extLink(c.warn.url, c.warn.label)}</p>
         ${weekLink(c) ? `<p class="now-c__wk">${weekLink(c)}</p>` : ""}
       </li>`; };
@@ -2683,6 +2706,52 @@
       if (window.matchMedia("(max-width: 900px)").matches) document.getElementById("city-panel").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" }); } }
   }
 
+  /* ---- heat in the news (a feed the site's GitHub Action refreshes) and new research (Europe PMC, searched live) ---- */
+  function renderFeeds() {
+    const box = document.getElementById("feeds"); if (!box || typeof HEAT_FEEDS === "undefined") return;
+    const F = HEAT_FEEDS, note = document.getElementById("feeds-note"); if (note) note.textContent = F.note;
+    const ago = t => { const h = (Date.now() - t) / 3600000; return h < 1 ? "within the hour" : h < 24 ? `${Math.floor(h)} hour${h < 2 ? "" : "s"} ago` : new Date(t).toLocaleDateString([], { day: "numeric", month: "short", year: "numeric" }); };
+    const strip = t => String(t || "").replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+    const show = (list, items, n) => { list.innerHTML = items.join(""); const extra = items.length - n;
+      [...list.children].forEach((li, k) => { li.hidden = k >= n; });
+      let b = list.parentElement.querySelector(".feed__more");
+      if (extra > 0 && !b) { b = document.createElement("button"); b.type = "button"; b.className = "link feed__more"; list.after(b);
+        b.addEventListener("click", () => { [...list.children].forEach(li => { li.hidden = false; }); b.remove(); }); }
+      if (b) b.textContent = `Show ${extra} more`; };
+    const news = () => {
+      const list = document.getElementById("feed-news"), meta = document.getElementById("feed-news-meta");
+      const get = u => fetch(u, { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); });
+      get(F.news.url).catch(() => get(F.news.local)).then(j => {
+        const items = (j.items || []).filter(x => x && x.title && /^https?:\/\//.test(x.url)).slice(0, 24); if (!items.length) throw new Error("empty");
+        show(list, items.map(x => `<li><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(strip(x.title))}<span class="visually-hidden"> (opens in a new tab)</span></a>
+          <span class="feed__src">${esc(x.domain || "")}${x.place ? ` · ${esc(x.place)}` : ""}${x.date ? ` · ${esc(ago(Date.parse(x.date)))}` : ""}</span></li>`), 6);
+        if (meta) meta.innerHTML = `Updated ${esc(ago(Date.parse(j.updated)))}. Headlines found by the ${extLink(F.news.credit.url, F.news.credit.label)}.`;
+      }).catch(() => { list.innerHTML = `<li class="feed__wait">The news feed is not available just now.</li>`; });
+    };
+    const research = () => {
+      const list = document.getElementById("feed-research"), meta = document.getElementById("feed-research-meta"), KEY = "bth-research-v1";
+      const draw = j => {
+        const items = ((j.resultList || {}).result || []).filter(x => x.title).slice(0, 24); if (!items.length) throw new Error("empty");
+        show(list, items.map(x => { const url = x.doi ? `https://doi.org/${x.doi}` : `https://europepmc.org/article/${x.source}/${x.id}`;
+          const where = x.journalTitle || (x.source === "PPR" ? "Preprint" : x.bookOrReportDetails && x.bookOrReportDetails.publisher) || "";
+          return `<li><a href="${esc(url)}" target="_blank" rel="noopener">${esc(strip(x.title))}<span class="visually-hidden"> (opens in a new tab)</span></a>
+            <span class="feed__src">${esc(where)}${x.firstPublicationDate ? ` · ${esc(new Date(x.firstPublicationDate).toLocaleDateString([], { day: "numeric", month: "short", year: "numeric" }))}` : ""}</span></li>`; }), 6);
+        if (meta) meta.innerHTML = `Papers and preprints from the last ${F.research.days} days with heat in the title and an Asian setting, newest first, from ${extLink(F.research.credit.url, F.research.credit.label)}.`;
+      };
+      try { const c = JSON.parse(localStorage.getItem(KEY) || "null"); if (c && Date.now() - c.at < 6 * 3600000) { draw(c.j); return; } } catch (e) {}
+      const from = new Date(Date.now() - F.research.days * 86400000).toISOString().slice(0, 10);
+      const q = `${F.research.title} AND ${F.research.place} AND FIRST_PDATE:[${from} TO 3000-01-01]`;
+      fetch("https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&resultType=lite&pageSize=24&sort=" + encodeURIComponent("FIRST_PDATE_D desc") + "&query=" + encodeURIComponent(q))
+        .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .then(j => { draw(j); try { localStorage.setItem(KEY, JSON.stringify({ at: Date.now(), j })); } catch (e) {} })
+        .catch(() => { list.innerHTML = `<li class="feed__wait">New research could not be loaded just now.</li>`; });
+    };
+    // fetch only when the section comes near the screen
+    const go = () => { news(); research(); };
+    if ("IntersectionObserver" in window) { const io = new IntersectionObserver(es => { if (es.some(e => e.isIntersecting)) { io.disconnect(); go(); } }, { rootMargin: "600px 0px" }); io.observe(box); }
+    else go();
+  }
+
   /* ---- live temperature ticker: one line above the header, from the shared live reading ---- */
   function renderTicker() {
     const bar = document.getElementById("ticker"), rail = document.getElementById("ticker-track"), pause = document.getElementById("ticker-pause");
@@ -2691,7 +2760,7 @@
       const ok = LIVE.filter(c => data.cities[c.id] && liveAge(data.cities[c.id]) < LIVE_STALE); if (!ok.length) return;
       const hot = ok.reduce((a, b) => data.cities[b.id].feels > data.cities[a.id].feels ? b : a).id;
       const set = copy => `<ul class="ticker__set"${copy ? ' aria-hidden="true"' : ""}>${ok.map(c => { const d = data.cities[c.id];
-        return `<li${c.id === hot ? ' class="is-hot"' : ""}><a href="#city-${c.id}" data-ticker-city="${c.id}"${copy ? ' tabindex="-1"' : ""}><span class="ticker__pin" style="background:${heatColor(d.feels)}" aria-hidden="true"></span><b>${esc(c.name)}</b><span>${deg(d.t)}<span class="ticker__f">, feels like ${deg(d.feels)}</span></span>${c.id === hot ? '<span class="ticker__hot">Hottest now</span>' : ""}</a></li>`; }).join("")}
+        return `<li${c.id === hot ? ' class="is-hot"' : ""}><a href="#city-${c.id}" data-ticker-city="${c.id}"${copy ? ' tabindex="-1"' : ""}><span class="ticker__pin" style="background:${heatColor(d.feels)}" aria-hidden="true"></span><b>${esc(c.name)}</b><span>${deg(d.t)}<span class="ticker__f">, feels like ${deg(d.feels)}</span></span>${c.id === hot ? '<span class="ticker__hot">Hottest now</span>' : ""}${(lv => lv ? `<span class="ticker__lv ticker__lv--${Math.min(lv.rank, 2)}">${esc(lv.agency)}: ${esc(lv.name)}<span class="visually-hidden"> (our estimate from ${esc(lv.what)}, not an official warning)</span></span>` : "")(warnLevel(c, d, data.wbgt))}</a></li>`; }).join("")}
         <li class="ticker__more"><a href="#heat-now"${copy ? ' tabindex="-1"' : ""}>All ${ok.length} cities and the week ahead</a></li></ul>`;
       // two identical sets make the loop seamless; the second is hidden from screen readers and the keyboard
       rail.innerHTML = set(false) + set(true);
@@ -3018,6 +3087,7 @@
     renderNow();
     renderCity();
     renderTicker();
+    renderFeeds();
     renderHeatwaves();
     renderStart();
     renderList();

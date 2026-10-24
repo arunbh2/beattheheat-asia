@@ -2715,6 +2715,40 @@ const LIVE_FINGERPRINT = {
   defn: "A risky heat day is hotter than 90% of the days recorded in that place from 1991 to 2020.",
   source: { label: "Climate Central, Risky heat added by climate change: June to August 2026", url: "https://www.climatecentral.org/climate-matters/risky-summer-heat" }
 };
+// National warning levels, so the ticker and city cards can say when today's heat matters, not only how hot it is.
+// basis: "hi" = heat index estimated from the current temperature and humidity; "tmax" = today's forecast high;
+// "wbgt" = Singapore's measured wet-bulb globe temperature. flag = the first level shown. Our estimate, never an official warning.
+const LIVE_LEVELS = {
+  "Philippines": { agency: "PAGASA", basis: "hi", flag: 2, levels: [[27, "Caution"], [33, "Extreme caution"], [42, "Danger"], [52, "Extreme danger"]],
+    source: { label: "PAGASA heat index categories, as reported by GMA News", url: "https://gmanetwork.com/news/scitech/weather/939320/pagasa-3-areas-under-danger-level-heat-index-on-march-15-2025/story" } },
+  "Thailand": { agency: "Thai Meteorological Department", short: "TMD", basis: "hi", flag: 2, levels: [[27, "Watch"], [33, "Caution"], [42, "Danger"], [52, "Extreme danger"]],
+    source: { label: "Heat index levels, as reported by Malay Mail, 2026", url: "https://www.malaymail.com/news/world/2026/06/25/bangkok-bakes-under-dangerous-519c-heat-index-govt-opens-cooling-shelters/225135" } },
+  "Sri Lanka": { agency: "Department of Meteorology, Sri Lanka", short: "Met. Dept", basis: "hi", flag: 0, levels: [[39, "Caution"], [46, "Extreme caution"], [53, "Danger"]],
+    source: { label: "Heat index levels, as reported by Ada Derana", url: "https://www.adaderana.lk/news/120359/heat-index-at-caution-level-across-multiple-provinces-today-met-dept" } },
+  "Bangladesh": { agency: "Bangladesh Meteorological Department", short: "BMD", basis: "tmax", flag: 0, levels: [[36, "Mild heatwave"], [38, "Moderate heatwave"], [40, "Severe heatwave"], [42, "Very severe heatwave"]],
+    source: { label: "BMD heatwave bands, as reported by Prothom Alo", url: "https://en.prothomalo.com/environment/lsjp2c74gu" } },
+  "Vietnam": { agency: "National Centre for Hydro-Meteorological Forecasting", short: "NCHMF", basis: "tmax", flag: 0, levels: [[35, "Hot spell"], [37, "Severe hot spell"], [39, "Extreme hot spell"]],
+    source: { label: "National heat bulletin, 2026", url: "https://kttv.gov.vn//upload/thoitiet/2026/4/13/dbqg_nong_20260413_1400.pdf" } },
+  "India": { agency: "India Meteorological Department", short: "IMD", basis: "tmax", flag: 0, levels: [[45, "Heatwave"], [47, "Severe heatwave"]], only: ["delhi", "ahmedabad"],
+    note: "IMD's rule for the plains when the temperature itself reaches 45 °C; its other rules compare with normal temperatures, which this estimate does not use.",
+    source: { label: "IMD heat bulletin", url: "https://mausam.imd.gov.in/pdfs/heatcolduser/morning_heat_bulletin.pdf" } },
+  "Singapore": { agency: "National Environment Agency", short: "NEA", basis: "wbgt", flag: 0, levels: [[33, "High heat stress"]],
+    source: { label: "Heat Stress Advisory, Ministry of Sustainability and the Environment", url: "https://mse.gov.sg/latest-news/press-release-heat-stress-advisory" } }
+};
+const LIVE_LEVELS_NOTE = "Warning levels are our estimate from model data, using each agency’s published bands. They are not official warnings; follow the national weather service.";
+
+// Heat in the news, and new research. News comes from a feed the site's GitHub Action refreshes every six hours
+// (tools/fetch-news.js, GDELT); research is searched live in Europe PMC. Headlines are outside sources, not reviewed by us.
+const HEAT_FEEDS = {
+  news: { url: "https://raw.githubusercontent.com/arunbh2/beattheheat-asia/main/feeds/news.json", local: "feeds/news.json",
+    credit: { label: "GDELT Project", url: "https://www.gdeltproject.org/" } },
+  research: { days: 120,
+    title: '(TITLE:"heatwave" OR TITLE:"heatwaves" OR TITLE:"heat wave" OR TITLE:"heat waves" OR TITLE:"extreme heat" OR TITLE:"heat stress" OR TITLE:"heat-related" OR TITLE:"heat exposure" OR TITLE:"heat illness" OR TITLE:"heatstroke" OR TITLE:"heat stroke" OR TITLE:"ambient temperature")',
+    place: '(India OR Bangladesh OR Nepal OR "Sri Lanka" OR Pakistan OR Cambodia OR Indonesia OR Philippines OR Singapore OR Thailand OR Vietnam OR Malaysia OR Myanmar OR "South Asia" OR "Southeast Asia")',
+    credit: { label: "Europe PMC", url: "https://europepmc.org/" } },
+  note: "Headlines and papers come from outside sources and are not reviewed by us. They are listed to help you follow the conversation, not as endorsements."
+};
+
 const LIVE_NOTE = "Live model data, refreshed every 30 minutes. It is not an official warning: for alerts, follow the national weather service linked on each city.";
 
 /* ---------- 22. VISIT COUNTING ---------- */
