@@ -3770,6 +3770,44 @@ Follow one worker’s money through a heatwave week, build protection, then test
 
 - Standards for new dormitories, announced in 2021, cap rooms at 12 residents and require enough fans for air circulation; existing dormitories are to be upgraded over time. (Ministry of Manpower, 2021, https://www.mom.gov.sg/newsroom/press-releases/2021/0917-improved-standards-for-new-migrant-worker-dormitories)
 
+#### Nepal
+
+- Kamala, Brick-kiln worker: Kamala moulds bricks in the open from first light, paid by the thousand. She took a pay advance from the labour contractor before the season; part of each day’s pay goes against it.
+
+- A national survey found 176,373 manual workers in Nepal’s brick kilns, which operate seasonally from October to June. Over three-quarters (75.7%) received a pay advance from a labour contractor. (Central Bureau of Statistics, ILO and UNICEF, 2020, https://www.unicef.org/nepal/press-releases/ending-forced-and-child-labour-nepals-brick-industry-need-holistic-approach)
+
+- In late May 2026, temperatures in Dhangadhi and Nepalgunj in the western Terai reached around 38 °C before noon, and heatstroke patients were arriving at Bheri Hospital every day. (Kantipur, 2026, https://ekantipur.com/news/2026/05/24/en/temperatures-exceed-40-degrees-celsius-in-western-tarai-normal-life-affected-by-heatwave-38-16.html)
+
+- Nepal recorded 89 days above the historical 90th-percentile temperature between May 2024 and May 2025. (The Kathmandu Post, 2026, https://kathmandupost.com/money/2026/07/30/extreme-heat-threatens-nepal-s-economy-as-warming-accelerates)
+
+- Under the national health insurance programme, a family of up to five pays Rs 3,500 a year for treatment worth up to Rs 100,000. (The Himalayan Times, https://thehimalayantimes.com/health/health-insurance-board-clarifies-opd-limit-total-coverage-unchanged)
+
+- Researchers in Nepal have proposed heat stress limits for different workloads, drawing on measurements in sectors including brick kilns. (Heat Standard Across Different Workloads in Nepal, 2024, https://nepjol.info/index.php/gswow/article/view/72747)
+
+#### Indonesia
+
+- Budi, App-based motorbike rider: Budi carries passengers and food orders through an app. He pays for his own fuel, phone data and motorbike, and the day’s incentive depends on how many trips he completes.
+
+- A 2023 survey of 225 app-based motorbike riders around Jakarta found an average daily income of Rp171,600, with monthly earnings below the city’s minimum wage. (IDEAS, via Databoks, 2025, https://databoks.katadata.co.id/en/employment/statistics/682bff44af745/how-much-do-online-motorcycle-taxi-drivers-earn-daily-in-jabodetabek)
+
+- Riders pay their own running costs; a transport ministry survey put them at Rp50,000–100,000 a day. (detikOto, https://oto.detik.com/berita/d-7965233/umr-jakarta-lewat-segini-upah-ojol-yang-narik-6-jam-hari)
+
+- In hot spells, Jakarta’s health office has advised drinking more water, covering up and limiting strenuous outdoor activity between 11 am and 3 pm. (Indonesian National Police news, 2026, https://inp.polri.go.id/artikel/jakarta-governor-urges-vigilance-as-extreme-heat-grips-capital)
+
+- The government has halved work-accident and death insurance contributions for app-based riders and other transport workers, to Rp8,400 a month, from January 2026 to March 2027. (Bisnis.com, 2026, https://ekonomi.bisnis.com/read/20260113/12/1943873/diskon-50-iuran-bpjs-jkk-jkm-buat-ojol-cs-diperpanjang-hingga-2027)
+
+#### Vietnam
+
+- Lan, Rice farmer: Lan farms her family’s rice field and works on neighbours’ farms for a daily wage. In the dry season, salt water creeps up the canals; drinking water has to be stored or bought.
+
+- In early 2024 a long heatwave and drought brought salt water far inland in the Mekong Delta; about 73,900 households had limited access to fresh water. (Save the Children, 2024, https://www.savethechildren.net/news/vietnam-s-el-ni-o-induced-drought-leaves-about-73900-households-mekong-river-delta-limited)
+
+- In an earlier salinity crisis in Ben Tre, households bought fresh water for daily use at about ₫150,000–200,000 a cubic metre. (Tuoi Tre News, 2020, https://tuoitrenews.vn/news/society/20200229/water-scarcity-hits-vietnams-mekong-delta-due-to-serious-salt-intrusion/53219.html)
+
+- A national study estimated nearly US$3 billion a year in crop losses from saltwater intrusion. (Malay Mail (AFP), 2024, https://www.malaymail.com/news/money/2024/03/17/vietnam-faces-us3b-annual-crop-losses-from-rising-saltwater-levels/124009)
+
+- Health insurance covers about 93% of Vietnam’s population, and the state pays for cards for poor households. (Vietnam News, https://vietnamnews.vn/society/1178063/localities-asked-to-raise-health-insurance-coverage-to-over-95-per-cent-by-2025.html)
+
 Every worker here is a composite, not a real person. The numbers are examples in local currency a day; change them to match the people you work with. The tool adds up cash. It does not predict illness, productivity or payouts.
 
 - In Singapore, a study of 355 workers found each hot day cost a median S$21, about 24% of a day’s pay. (NUS Project HeatSafe, 2024, https://medicine.nus.edu.sg/wp-content/uploads/2024/03/PRESS-RELEASE_Project-HeatSafe-18MAR2024-FOR-IMMEDIATE-RELEASE.pdf)
