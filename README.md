@@ -114,6 +114,10 @@ The “Cooling options” section, just before “Plan a response”, shows what
 
 `LIVE_FINGERPRINT` adds "Is this climate change?" under the city cards: three figures from Climate Central's summer analysis, and a link on each card to its Climate Shift Index map. When Climate Central publishes a new seasonal analysis, update `season`, `facts` and `source`.
 
+## What each cycle costs (part 24 of `data.js`)
+
+`LOOP_STAKES` gives each vicious cycle one headline figure: what it costs while it keeps turning (`kind: "cost"`), or what breaking it has been shown to save (`kind: "saves"`). It appears in the loop's first step on the map, in the Vicious cycles section and on `/loops/`. Each figure must come from a source already listed for that loop in `EVIDENCE`. A loop with no solid figure is left out, and the site says its cost is not yet measured.
+
 ## Visit counting (part 22 of `data.js`)
 
 Visits are counted with [GoatCounter](https://www.goatcounter.com/), which uses no cookies and collects no personal data. `SITE_ANALYTICS.goatcounter` holds the counter’s code; leave it empty (`""`) to switch counting off, and nothing is loaded. As well as page views, `track()` in `script.js` records a few anonymous events, each named for what it counts: films and explainers watched (`watch-…`), plan buttons (`plan-print`, `plan-copy`, `plan-map`), worked examples loaded, forecast checks by city, cooling options added to a plan, and briefs opened. The privacy note in “How this map works” describes this.
