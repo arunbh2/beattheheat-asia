@@ -41,15 +41,25 @@ const SYSTEMS = [
 const CONSEQUENCES = [
   /* Nature and ecosystems */
   { id: "droughts", sys: "nature", label: "Droughts",
-    desc: "Higher temperatures speed up evaporation, so the same rain goes less far and dry spells turn into droughts." },
+    desc: "Higher temperatures speed up evaporation, so the same rain goes less far and dry spells turn into droughts.",
+    sources: [
+      { label: "IPCC, AR6 Working Group I, Summary for Policymakers, 2021", url: "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM.pdf" } ] },
   { id: "wildfires", sys: "nature", label: "Wildfires",
-    desc: "Hot, dry vegetation ignites more easily and burns longer, sending smoke far beyond the fire itself." },
+    desc: "Hot, dry vegetation ignites more easily and burns longer, sending smoke far beyond the fire itself.",
+    sources: [
+      { label: "UNEP and GRID-Arendal, 2022: Spreading like wildfire", url: "https://www.unep.org/resources/report/spreading-wildfire-rising-threat-extraordinary-landscape-fires" } ] },
   { id: "forest", sys: "nature", label: "Forest\ndieback",
-    desc: "Heat and drought stress trees until they stop growing, then die, turning forests from shade and carbon stores into fuel." },
+    desc: "Heat and drought stress trees until they stop growing, then die, turning forests from shade and carbon stores into fuel.",
+    sources: [
+      { label: "Hammond et al., Nature Communications, 2022: a hotter-drought fingerprint for tree die-off", url: "https://doi.org/10.1038/s41467-022-29289-2" } ] },
   { id: "drysoil", sys: "nature", label: "Drying\nsoils",
-    desc: "Heat pulls moisture from the ground when crops and plants need it most." },
+    desc: "Heat pulls moisture from the ground when crops and plants need it most.",
+    sources: [
+      { label: "Seneviratne et al., Earth-Science Reviews, 2010", url: "https://doi.org/10.1016/j.earscirev.2010.02.004" } ] },
   { id: "glacier", sys: "nature", label: "Glacier and\nsnow melt",
-    desc: "Mountain glaciers and snowpacks that feed rivers through the dry season are shrinking." },
+    desc: "Mountain glaciers and snowpacks that feed rivers through the dry season are shrinking.",
+    sources: [
+      { label: "ICIMOD, 2023: glacier loss in the Hindu Kush Himalaya", url: "https://lib.icimod.org/record/36322" } ] },
   { id: "glof", sys: "nature", label: "Glacial lake\noutburst floods",
     desc: "As glaciers retreat, meltwater pools behind loose rock and ice. When a bank gives way the lake can empty in hours. In October 2023 Sikkim’s South Lhonak lake burst after a frozen moraine collapsed into it; the flood breached the Teesta III dam, set off 45 landslides and cut the national highway. Climate change played a key role, and the lake can burst again.",
     sources: [
@@ -61,7 +71,9 @@ const CONSEQUENCES = [
       { label: "NOAA and International Coral Reef Initiative, reported by Scientific American, 2025", url: "https://www.scientificamerican.com/article/worst-coral-mass-bleaching-on-record-caused-by-warming-oceans" },
       { label: "Earth Observatory of Singapore: field data from Asia’s coral reefs", url: "https://earthobservatory.sg/news/blog/heat-stress-and-hope-how-field-data-from-asia-s-coral-reefs-can-help-us-improve-climate-resilience" } ] },
   { id: "biodiversity", sys: "nature", label: "Biodiversity\nloss",
-    desc: "Species that can’t move or adapt fast enough decline, weakening pollination, soils and fisheries." },
+    desc: "Species that can’t move or adapt fast enough decline, weakening pollination, soils and fisheries.",
+    sources: [
+      { label: "IPCC, AR6 Working Group II fact sheet: biodiversity, 2022", url: "https://www.ipcc.ch/report/ar6/wg2/downloads/outreach/IPCC_AR6_WGII_FactSheet_Biodiversity.pdf" } ] },
   { id: "wildlife", sys: "nature", label: "Wildlife moves into\nfarms and villages",
     desc: "As water and forage dry up, animals leave forests for farms and villages. Crops are raided, people and animals are hurt, hunting for food rises, and closer contact raises the risk of diseases passing from animals to people. In Assam, villagers have grown paddy just for wild elephants, so the herds leave the main harvest alone.",
     sources: [
@@ -71,79 +83,144 @@ const CONSEQUENCES = [
 
   /* Food and agriculture */
   { id: "harvests", sys: "food", label: "Failing\nharvests",
-    desc: "Heat during flowering and grain-filling cuts yields of staple crops, even when there is enough rain. Smallholders farming on rain alone, with no irrigation or savings to fall back on, are hit first." },
+    desc: "Heat during flowering and grain-filling cuts yields of staple crops, even when there is enough rain. Smallholders farming on rain alone, with no irrigation or savings to fall back on, are hit first.",
+    sources: [
+      { label: "Lobell, Sibley and Ortiz-Monasterio, Nature Climate Change, 2012 (wheat in India)", url: "https://fsi.stanford.edu/node/26622" },
+      { label: "Peng et al., PNAS, 2004 (rice in the Philippines)", url: "https://doi.org/10.1073/pnas.0403720101" } ] },
   { id: "livestock", sys: "food", label: "Livestock\nlosses",
-    desc: "Heat-stressed animals eat less, produce less milk and eggs, fall ill and die." },
+    desc: "Heat-stressed animals eat less, produce less milk and eggs, fall ill and die.",
+    sources: [
+      { label: "Eco-Business: climate stress is trampling productivity in India’s livestock sector", url: "https://eco-business.com/news/climate-stress-is-trampling-productivity-in-indias-vulnerable-livestock-sector" } ] },
   { id: "farmwork", sys: "food", label: "Farmwork\nhours lost",
-    desc: "Farm labourers work in the open sun. In the hottest hours, work becomes dangerous or impossible." },
+    desc: "Farm labourers work in the open sun. In the hottest hours, work becomes dangerous or impossible.",
+    sources: [
+      { label: "International Labour Organization, 2019: agriculture bears 60% of working hours lost to heat", url: "https://www.ilo.org/resource/news/increase-heat-stress-predicted-bring-productivity-loss-equivalent-80" } ] },
   { id: "pests", sys: "food", label: "Pests and crop\ndiseases spread",
-    desc: "Warmer conditions let many pests and plant diseases breed faster and spread to new areas." },
+    desc: "Warmer conditions let many pests and plant diseases breed faster and spread to new areas.",
+    sources: [
+      { label: "Deutsch et al., Science, 2018, summarised by the University of Washington: crop losses to insect pests rise 10–25% per degree", url: "https://www.washington.edu/news/2018/08/30/climate-change-insects-crops/" } ] },
   { id: "fisheries", sys: "food", label: "Fisheries\ndecline",
-    desc: "As waters warm and reefs die, fish move away or decline, and catches fall. Coastal and riverside families who live from fishing lose food and income together." },
+    desc: "As waters warm and reefs die, fish move away or decline, and catches fall. Coastal and riverside families who live from fishing lose food and income together.",
+    sources: [
+      { label: "Free et al., Science, 2019: warming has already cut fisheries productivity, by 15–35% in five regions including East Asian seas", url: "https://www.climatechangepost.com/news/ocean-warming-already-decreased-global-marine-fisheries-production/" } ] },
   { id: "spoilage", sys: "food", label: "Food spoils\nfaster",
-    desc: "Without cool storage, more of every harvest rots between field and plate." },
+    desc: "Without cool storage, more of every harvest rots between field and plate.",
+    sources: [
+      { label: "UNEP and FAO, 2022: Sustainable Food Cold Chains (526 million tonnes of food lost for lack of refrigeration)", url: "https://www.unep.org/resources/report/sustainable-food-cold-chains-opportunities-challenges-and-way-forward" } ] },
   { id: "prices", sys: "food", label: "Food price\nspikes",
     desc: "Smaller harvests and losses push up prices, felt hardest by families who spend most of their income on food. A study with the European Central Bank found that hot extremes keep food inflation higher for about a year afterwards, and a 2025 study traced 16 food price shocks since 2022 to extreme weather.",
     sources: [
       { label: "Carbon Brief, 2025: 16 times extreme weather drove higher food prices (on Kotz et al., Environmental Research Letters)", url: "https://www.carbonbrief.org/mapped-16-times-extreme-weather-drove-higher-food-prices-since-2022/" },
       { label: "Inside Climate News, 2025: weather extremes are driving up food prices", url: "https://insideclimatenews.org/news/21072025/weather-extremes-driving-up-food-prices/" } ] },
   { id: "hunger", sys: "food", label: "Hunger and\nmalnutrition",
-    desc: "When food costs more and incomes fall, families eat less and less well, and children suffer most." },
+    desc: "When food costs more and incomes fall, families eat less and less well, and children suffer most.",
+    sources: [
+      { label: "Lancet Countdown 2024, summarised by Wellcome: heatwaves and droughts linked to 151 million more people facing food insecurity", url: "https://wellcome.org/insights/articles/wellcome-responds-2024-report-lancet-countdown-health-and-climate-change" } ] },
   { id: "farmdebt", sys: "food", label: "Farmers fall\ninto debt",
-    desc: "After a failed season, farmers borrow at high interest or sell livestock, land and seed to get by." },
+    desc: "After a failed season, farmers borrow at high interest or sell livestock, land and seed to get by.",
+    sources: [
+      { label: "Carleton, PNAS, 2017", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5565417/" },
+      { label: "King’s College London, 2023: microfinance and climate shocks in Cambodia", url: "https://www.kcl.ac.uk/news/new-study-finds-that-microfinance-is-exacerbating-climate-precarity-and-harm-in-cambodia" } ] },
 
   /* Water */
   { id: "scarcity", sys: "water", label: "Water\nshortages",
-    desc: "Taps run dry and wells fall just as people, crops and animals need more water to cope with the heat." },
+    desc: "Taps run dry and wells fall just as people, crops and animals need more water to cope with the heat.",
+    sources: [
+      { label: "World Resources Institute: Day Zero lessons from Cape Town and Chennai", url: "https://www.wri.org/insights/responding-day-zero-equitably-water-crisis-lessons-cape-town-and-chennai" } ] },
   { id: "tankers", sys: "water", label: "Buying water\nfrom tankers",
     desc: "When the taps run dry, households buy water from private tankers, and prices jump as wells fail. Those beyond the pipes, often the poorest, pay the most or go without. In one Bengaluru informal settlement a family earning about Rs 6,000 a month paid around Rs 1,300 for water. When Chennai’s reservoirs ran dry in 2019, tankers could not reach most of its slums.",
     sources: [
       { label: "Citizen Matters: water access a daily struggle for Bengaluru’s slum dwellers", url: "https://citizenmatters.in/water-shortage-in-slums-low-income-households-80074" },
       { label: "World Resources Institute: responding to Day Zero equitably, Cape Town and Chennai", url: "https://www.wri.org/insights/responding-day-zero-equitably-water-crisis-lessons-cape-town-and-chennai" } ] },
   { id: "quality", sys: "water", label: "Water quality\nfalls",
-    desc: "Warm, low water breeds algae and bacteria and concentrates pollution." },
+    desc: "Warm, low water breeds algae and bacteria and concentrates pollution.",
+    sources: [
+      { label: "Review in International Journal of Environmental Research and Public Health, 2022: cyanobacteria gain the advantage above 20 °C", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9223187/" } ] },
   { id: "irrigation", sys: "water", label: "Irrigation\ndemand soars",
-    desc: "Hot, dry fields need far more water to keep crops alive." },
+    desc: "Hot, dry fields need far more water to keep crops alive.",
+    sources: [
+      { label: "Rodell, Velicogna and Famiglietti, Nature, 2009", url: "https://www.nature.com/articles/nature08238" } ] },
   { id: "groundwater", sys: "water", label: "Groundwater\nover-pumped",
-    desc: "Farmers and cities pump deeper and harder, draining aquifers faster than rain can refill them." },
+    desc: "Farmers and cities pump deeper and harder, draining aquifers faster than rain can refill them.",
+    sources: [
+      { label: "Rodell, Velicogna and Famiglietti, Nature, 2009", url: "https://www.nature.com/articles/nature08238" } ] },
   { id: "competition", sys: "water", label: "Competition\nfor water",
-    desc: "Farms, cities, industry and power plants all compete for a shrinking supply." },
+    desc: "Farms, cities, industry and power plants all compete for a shrinking supply.",
+    sources: [
+      { label: "World Resources Institute, 2018: 40% of India’s thermal power plants are in water-scarce areas", url: "https://www.wri.org/insights/40-indias-thermal-power-plants-are-water-scarce-areas-threatening-shutdowns" } ] },
   { id: "fetching", sys: "water", label: "Longer trips\nto fetch water",
-    desc: "Where taps fail, someone has to walk further, for longer, in the heat, to bring water home." },
+    desc: "Where taps fail, someone has to walk further, for longer, in the heat, to bring water home.",
+    sources: [
+      { label: "UNICEF, 2016: women and girls spend 200 million hours a day collecting water", url: "https://www.unicef.org/press-releases/unicef-collecting-water-often-colossal-waste-time-women-and-girls" } ] },
   { id: "sanitation", sys: "water", label: "Sanitation and\nhygiene fail",
-    desc: "Without enough water, toilets, handwashing and cleaning suffer." },
+    desc: "Without enough water, toilets, handwashing and cleaning suffer.",
+    sources: [
+      { label: "ACAPS, 2017: Sindh heatwave briefing (more use of unprotected water sources)", url: "https://www.acaps.org/sites/acaps/files/products/files/170424_acaps_start_anticipatory_briefing_note_pakistan_heatwave.pdf" } ] },
 
   /* Energy */
   { id: "demand", sys: "energy", label: "Cooling demand\npeaks", labelAt: "above",
-    desc: "As temperatures climb, so does the demand for fans and air conditioning, pushing electricity use to new peaks." },
+    desc: "As temperatures climb, so does the demand for fans and air conditioning, pushing electricity use to new peaks.",
+    sources: [
+      { label: "International Energy Agency, 2018: The Future of Cooling", url: "https://www.iea.org/reports/the-future-of-cooling" },
+      { label: "International Energy Agency: The Future of Cooling in Southeast Asia", url: "https://www.iea.org/reports/the-future-of-cooling-in-southeast-asia" } ] },
   { id: "power", sys: "energy", label: "Power cuts and\ngrid stress",
-    desc: "Peak demand and heat-stressed lines and transformers push grids to the edge. Outages switch off cooling when it matters most." },
+    desc: "Peak demand and heat-stressed lines and transformers push grids to the edge. Outages switch off cooling when it matters most.",
+    sources: [
+      { label: "World Bank estimate, reported by AFP via The Manila Times, 2023: Vietnam’s heat-driven power crisis", url: "https://manilatimes.net/2023/08/12/business/foreign-business/power-crisis-cost-vietnam-14b-wb/1904920/amp" } ] },
   { id: "thermal", sys: "energy", label: "Power plants\ncut output",
-    desc: "Coal, gas and nuclear plants need cool water. When rivers run low or warm, they have to produce less." },
+    desc: "Coal, gas and nuclear plants need cool water. When rivers run low or warm, they have to produce less.",
+    sources: [
+      { label: "World Resources Institute, 2018", url: "https://www.wri.org/insights/40-indias-thermal-power-plants-are-water-scarce-areas-threatening-shutdowns" } ] },
   { id: "hydro", sys: "energy", label: "Hydropower\nfalls",
-    desc: "Low rivers and reservoirs mean less electricity from dams." },
+    desc: "Low rivers and reservoirs mean less electricity from dams.",
+    sources: [
+      { label: "World Bank estimate, reported by AFP via The Manila Times, 2023: Vietnam’s reservoirs ran low", url: "https://manilatimes.net/2023/08/12/business/foreign-business/power-crisis-cost-vietnam-14b-wb/1904920/amp" } ] },
   { id: "generators", sys: "energy", label: "Diesel generators\nrun longer",
-    desc: "When the grid fails, homes, shops and hospitals that can afford it switch to diesel." },
+    desc: "When the grid fails, homes, shops and hospitals that can afford it switch to diesel.",
+    sources: [
+      { label: "IFC, 2019: The Dirty Footprint of the Broken Grid (20–30 million back-up generator sites)", url: "https://www.ifc.org/en/pressroom/2019/new-ifc-study-details-environmental-economic-health-costs-of-fossil-fuel-generators" } ] },
   { id: "emissions", sys: "energy", label: "Emissions from\ncooling rise",
-    desc: "Most cooling still runs on fossil-fuelled power and refrigerants that warm the planet." },
+    desc: "Most cooling still runs on fossil-fuelled power and refrigerants that warm the planet.",
+    sources: [
+      { label: "International Energy Agency, 2018: The Future of Cooling", url: "https://www.iea.org/reports/the-future-of-cooling" } ] },
   { id: "energypoverty", sys: "energy", label: "Can’t afford\nto keep cool",
-    desc: "For the poorest households, fans, cooling and electricity bills are out of reach." },
+    desc: "For the poorest households, fans, cooling and electricity bills are out of reach.",
+    sources: [
+      { label: "Sustainable Energy for All, 2023: Chilling Prospects", url: "https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-global-access-to-cooling-gaps-2023" } ] },
   { id: "coldchain", sys: "energy", label: "Cold chains\nbreak",
-    desc: "Without reliable power, fridges for food, medicines and vaccines fail." },
+    desc: "Without reliable power, fridges for food, medicines and vaccines fail.",
+    sources: [
+      { label: "UNEP and FAO, 2022: Sustainable Food Cold Chains", url: "https://www.unep.org/resources/report/sustainable-food-cold-chains-opportunities-challenges-and-way-forward" } ] },
 
   /* Cities and infrastructure */
   { id: "uhi", sys: "cities", label: "Urban heat\nislands",
-    desc: "Dense surfaces, little shade and waste heat keep city cores several degrees hotter than their surroundings, especially at night. This is the urban heat island effect." },
+    desc: "Dense surfaces, little shade and waste heat keep city cores several degrees hotter than their surroundings, especially at night. This is the urban heat island effect.",
+    sources: [
+      { label: "Cooling Singapore, citing Chow and Roth, 2006", url: "https://www.thegpsc.org/sites/gpsc/files/cooling_singapore_-_digital_urban_climate_twin.pdf" },
+      { label: "Tamil Nadu State Planning Commission, 2024", url: "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf" } ] },
   { id: "homes", sys: "cities", label: "Homes that\ntrap heat",
-    desc: "Tin roofs, poor ventilation and crowded rooms can make homes hotter inside than out, leaving nowhere safe to rest." },
+    desc: "Tin roofs, poor ventilation and crowded rooms can make homes hotter inside than out, leaving nowhere safe to rest.",
+    sources: [
+      { label: "Frontiers in Built Environment, 2022: Ahmedabad informal settlements up to 7.6 °C hotter", url: "https://www.frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2022.874751/full" } ] },
   { id: "infrastructure", sys: "cities", label: "Roads, rails and\nrunways strained",
-    desc: "Rails buckle, roads soften and hot, thin air means planes need longer runways or must carry less." },
+    desc: "Rails buckle, roads soften and hot, thin air means planes need longer runways or must carry less.",
+    sources: [
+      { label: "Coffel, Thompson and Horton, Climatic Change, 2017, via NASA: rising temperatures and aircraft take-off", url: "https://ntrs.nasa.gov/citations/20170007349" },
+      { label: "Network Rail: buckled rails in summer heat", url: "https://www.networkrail.co.uk/running-the-railway/looking-after-the-railway/delays-explained/buckled-rail-and-summer-heat" } ] },
   { id: "transport", sys: "cities", label: "Transport\ndisrupted",
-    desc: "Speed limits, cancellations and breakdowns slow the movement of people and goods." },
+    desc: "Speed limits, cancellations and breakdowns slow the movement of people and goods.",
+    sources: [
+      { label: "Network Rail: heat speed restrictions", url: "https://www.networkrail.co.uk/running-the-railway/looking-after-the-railway/delays-explained/buckled-rail-and-summer-heat" },
+      { label: "World Bank estimate, reported by AFP via The Manila Times, 2023", url: "https://manilatimes.net/2023/08/12/business/foreign-business/power-crisis-cost-vietnam-14b-wb/1904920/amp" } ] },
   { id: "smog", sys: "cities", label: "Smoke, smog\nand ozone",
-    desc: "Heat speeds up the chemistry that forms ground-level ozone, and still, hot air traps pollution and smoke." },
+    desc: "Heat speeds up the chemistry that forms ground-level ozone, and still, hot air traps pollution and smoke.",
+    sources: [
+      { label: "Air Quality News, 2026: heatwaves drive dangerous ozone pollution across India (npj Clean Air study)", url: "https://airqualitynews.com/news/health-news/heatwaves-drive-dangerous-ozone-pollution-across-india/" } ] },
   { id: "publicspace", sys: "cities", label: "Streets and parks\nunusable",
-    desc: "Markets, streets and parks become too hot to use in the middle of the day." },
+    desc: "Markets, streets and parks become too hot to use in the middle of the day.",
+    sources: [
+      { label: "Greenpeace India and National Hawkers Federation, 2024", url: "https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/" },
+      { label: "WIEGO and HomeNet Thailand, 2025", url: "https://www.wiego.org/wp-content/uploads/2025/10/WIEGO-Policy-Brief-33-Climate-Change-and-Heat-Stress.pdf" } ] },
   { id: "treeloss", sys: "cities", label: "City trees\nand parks die",
     desc: "Heat, drought and missing upkeep kill street trees and parks just when their shade is needed. Across 164 cities, 56% of urban tree and shrub species already face temperatures beyond those in their natural range, and in hot cities such as New Delhi and Singapore every species studied is at risk.",
     sources: [
@@ -155,7 +232,9 @@ const CONSEQUENCES = [
       { label: "Wolch, Byrne and Newell, Landscape and Urban Planning, 2014: making cities “just green enough”", url: "https://urbansustainability.seas.umich.edu/wp-content/uploads/2014/06/Making-cities-just-green-enough.pdf" },
       { label: "Hansen et al., chapter 10 in Nature-Based Solutions for Cities, 2023: tree survival tracks municipal budgets in Santiago", url: "https://doi.org/10.4337/9781800376762" } ] },
   { id: "telecom", sys: "cities", label: "Phone and data\nnetworks fail",
-    desc: "Overheating equipment and power cuts take down phone masts, networks and data centres." },
+    desc: "Overheating equipment and power cuts take down phone masts, networks and data centres.",
+    sources: [
+      { label: "Asia News Network, 2026: Bangladesh’s mobile signals weaken as blackouts spread", url: "https://asianews.network/?p=269961" } ] },
 
   /* Health */
   { id: "deaths", sys: "health", label: "Heat deaths",
@@ -167,28 +246,42 @@ const CONSEQUENCES = [
     sources: [
       { label: "Ministry of Health and Family Welfare, reply in India’s Rajya Sabha, 6 August 2024", url: "https://rsdebate.nic.in/bitstream/123456789/750681/1/PQ_265_06082024_U1693_p358_p362.pdf" } ] },
   { id: "kidney", sys: "health", label: "Kidney and\nheart strain",
-    desc: "Sweating and dehydration make the heart work harder and can damage the kidneys, especially with repeated exposure." },
+    desc: "Sweating and dehydration make the heart work harder and can damage the kidneys, especially with repeated exposure.",
+    sources: [
+      { label: "Kidney International Reports, 2023: heat stress and kidney health in Tamil Nadu salt-pan workers", url: "https://doi.org/10.1016/j.ekir.2023.04.011" } ] },
   { id: "respiratory", sys: "health", label: "Breathing\nproblems worsen",
-    desc: "Ozone, smoke and hot air inflame airways and worsen asthma and lung disease." },
+    desc: "Ozone, smoke and hot air inflame airways and worsen asthma and lung disease.",
+    sources: [
+      { label: "Air Quality News, 2026: heat-driven ozone and health in India", url: "https://airqualitynews.com/news/health-news/heatwaves-drive-dangerous-ozone-pollution-across-india/" } ] },
   { id: "pregnancy", sys: "health", label: "Risks in\npregnancy",
     desc: "Each 1\u00a0°C rise in temperature raises the odds of preterm birth by about 5%, and a heatwave by about 16%. Stillbirths rise too. Women who keep working outdoors or fetching water while pregnant carry the most risk.",
     sources: [
       { label: "Chersich et al., BMJ, 2020: high temperatures in pregnancy and preterm birth, low birth weight and stillbirth", url: "https://heathealth.info/resources/associations-between-high-temperatures-in-pregnancy-and-risk-of-preterm-birth-low-birth-weight-and-stillbirths-systematic-review-and-meta-analysis/" } ] },
   { id: "newborns", sys: "health", label: "Babies and young\nchildren at risk",
-    desc: "Babies and small children overheat and dehydrate faster than adults, and can’t say when they are struggling. Heat brings more diarrhoea, malnutrition and hospital visits for the youngest." },
+    desc: "Babies and small children overheat and dehydrate faster than adults, and can’t say when they are struggling. Heat brings more diarrhoea, malnutrition and hospital visits for the youngest.",
+    sources: [
+      { label: "Lancet Countdown 2024, India data sheet: infants faced 7.7 heatwave days a year", url: "https://lancetcountdown.org/wp-content/uploads/2024/10/Lancet-Countdown-2024_INDIA.pdf" } ] },
   { id: "mental", sys: "health", label: "Mental health\nsuffers",
-    desc: "Heat is linked to more anxiety, distress and suicide, and to worse outcomes for people living with mental illness." },
+    desc: "Heat is linked to more anxiety, distress and suicide, and to worse outcomes for people living with mental illness.",
+    sources: [
+      { label: "Thompson et al., The Lancet Planetary Health, 2023, summarised by Imperial College London", url: "https://www.imperial.ac.uk/news/246058/rising-temperatures-associated-with-poorer-mental/" } ] },
   { id: "sleepless", sys: "health", label: "Sleepless\nhot nights",
-    desc: "When nights stay hot, the body never recovers from the day, so the next day starts already depleted." },
+    desc: "When nights stay hot, the body never recovers from the day, so the next day starts already depleted.",
+    sources: [
+      { label: "Minor et al., One Earth, 2022: rising temperatures erode human sleep", url: "https://orbit.dtu.dk/en/publications/rising-temperatures-erode-human-sleep-globally/" } ] },
   { id: "infectious", sys: "health", label: "Infectious\ndiseases spread",
     desc: "Warmth helps the mosquitoes that carry dengue breed and bite, and dirty water and spoiled food spread illness. Bangladesh had its worst dengue year on record in 2023: by 30 October, WHO counted 267,680 cases and 1,333 deaths, with the surge starting unusually early.",
     sources: [
       { label: "WHO Bangladesh, Dengue Situation Report 10, 30 October 2023", url: "https://www.who.int/bangladesh/about-us/publications/m/item/dengue-situation-report-10-30-october-2023" },
       { label: "WHO Disease Outbreak News: dengue in Bangladesh, August 2023", url: "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON481" } ] },
   { id: "injuries", sys: "health", label: "Injuries and\naccidents rise",
-    desc: "Heat dulls concentration and coordination, so accidents at work, on the road and at home increase." },
+    desc: "Heat dulls concentration and coordination, so accidents at work, on the road and at home increase.",
+    sources: [
+      { label: "APN: high temperatures and work-related injuries in Guangzhou, China", url: "https://www.apn-gcr.org/publication/does-hot-weather-affect-work-related-injury-a-case-crossover-study-in-guangzhou-china/" } ] },
   { id: "hsys", sys: "health", label: "Health systems\noverwhelmed",
-    desc: "Heatwaves bring surges of patients just as staff, power and supplies are under strain." },
+    desc: "Heatwaves bring surges of patients just as staff, power and supplies are under strain.",
+    sources: [
+      { label: "Context, 2024: India’s hospitals adapt to killer heat", url: "https://www.context.news/climate-risks/ice-baths-and-ventilators-indias-hospitals-adapt-to-killer-heat" } ] },
 
   /* Work and economy */
   { id: "lost", sys: "work", label: "Lost work hours\nand wages",
@@ -209,29 +302,53 @@ const CONSEQUENCES = [
     sources: [
       { label: "OECD Economics Department, Working Paper No. 1828, 2024", url: "https://doi.org/10.1787/19d94638-en" } ] },
   { id: "debt", sys: "work", label: "Medical costs\nand debt",
-    desc: "Treatment, medicines and lost days are often paid for out of pocket, pushing households into debt." },
+    desc: "Treatment, medicines and lost days are often paid for out of pocket, pushing households into debt.",
+    sources: [
+      { label: "Selvaraj, Farooqui and Karan, BMJ Open, 2018", url: "https://bmjopen.bmj.com/content/8/5/e018020" } ] },
   { id: "business", sys: "work", label: "Small businesses\nclose",
-    desc: "Street vendors, workshops and shops lose customers, stock and power, and many shut for good." },
+    desc: "Street vendors, workshops and shops lose customers, stock and power, and many shut for good.",
+    sources: [
+      { label: "OECD Economics Department, Working Paper No. 1828, 2024", url: "https://doi.org/10.1787/19d94638-en" },
+      { label: "Greenpeace India and National Hawkers Federation, 2024", url: "https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/" } ] },
   { id: "supply", sys: "work", label: "Supply chains\ndisrupted",
-    desc: "Heat slows factories, ports, roads and warehouses. The delays ripple through prices and jobs far away." },
+    desc: "Heat slows factories, ports, roads and warehouses. The delays ripple through prices and jobs far away.",
+    sources: [
+      { label: "World Bank estimate, reported by AFP via The Manila Times, 2023: factories hit by Vietnam’s power cuts", url: "https://manilatimes.net/2023/08/12/business/foreign-business/power-crisis-cost-vietnam-14b-wb/1904920/amp" } ] },
   { id: "customers", sys: "work", label: "Customers\nstay home",
-    desc: "Heat empties markets and high streets in the hottest hours. Spending shifts to cooled malls and cooling products, while street vendors, small shops, restaurants and hotels lose sales." },
+    desc: "Heat empties markets and high streets in the hottest hours. Spending shifts to cooled malls and cooling products, while street vendors, small shops, restaurants and hotels lose sales.",
+    sources: [
+      { label: "Greenpeace India and National Hawkers Federation, 2024", url: "https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/" },
+      { label: "Orissa Post, 2024: heat cut showroom footfall", url: "https://www.orissapost.com/passenger-vehicle-retail-sales-dip-7-in-june-as-heatwave-curtails-showroom-visits/amp/" } ] },
   { id: "tourism", sys: "work", label: "Tourism\nshifts away",
-    desc: "Visitors avoid places and seasons that become too hot, taking jobs and income with them." },
+    desc: "Visitors avoid places and seasons that become too hot, taking jobs and income with them.",
+    sources: [
+      { label: "Eco-Business, 2026: extreme heat reshapes travel in Asia (Booking.com survey)", url: "https://www.eco-business.com/id/news/extreme-heat-reshapes-travel-in-asia-nearly-half-of-travellers-changing-plans-survey/" },
+      { label: "Hong Kong Polytechnic University: climate change and tourism demand risks from extreme heat", url: "https://research.polyu.edu.hk/en/publications/climate-change-and-tourism-demand-risks-for-extreme-heat/" } ] },
 
   /* Education */
   { id: "schoolclose", sys: "education", label: "Schools close\nin heatwaves",
-    desc: "When classrooms become dangerous, schools shut, sometimes for weeks." },
+    desc: "When classrooms become dangerous, schools shut, sometimes for weeks.",
+    sources: [
+      { label: "UNICEF, 2025: Learning interrupted", url: "https://www.unicef.org/reports/learning-interrupted-global-snapshot-2024" } ] },
   { id: "learning", sys: "education", label: "Learning suffers\nin hot classrooms",
-    desc: "Studies link hotter school days to measurably lower learning and exam results." },
+    desc: "Studies link hotter school days to measurably lower learning and exam results.",
+    sources: [
+      { label: "Park, Goodman, Hurwitz and Smith, American Economic Journal: Economic Policy, 2020", url: "https://www.aeaweb.org/doi/10.1257/pol.20180612" } ] },
   { id: "dropout", sys: "education", label: "Children pulled\nout of school",
-    desc: "When families are squeezed, children, often girls, leave school to work, care or fetch water." },
+    desc: "When families are squeezed, children, often girls, leave school to work, care or fetch water.",
+    sources: [
+      { label: "Bakhtiar and Karim, IFPRI, 2025: extreme heat, schooling and child labour in rural Bangladesh", url: "https://hdl.handle.net/10568/180558" } ] },
   { id: "youth", sys: "education", label: "Lower skills\nand earnings",
-    desc: "Learning lost today becomes lower skills and lower earnings for a lifetime." },
+    desc: "Learning lost today becomes lower skills and lower earnings for a lifetime.",
+    sources: [
+      { label: "Garg, Jagnani and Taraz, 2020, summarised by Ideas for India: temperature and human capital in India", url: "https://www.ideasforindia.in/topics/environment/temperature-and-human-capital-in-india" } ] },
 
   /* Society and security */
   { id: "inequality", sys: "society", label: "Deepening\ninequality",
-    desc: "Every impact lands hardest on those with the least protection, widening gaps in health, income and opportunity." },
+    desc: "Every impact lands hardest on those with the least protection, widening gaps in health, income and opportunity.",
+    sources: [
+      { label: "FAO, 2024: heat stress widens the income gap between rural women and men", url: "https://www.fao.org/newsroom/detail/fao-report--heatwaves-and-floods-affect-rural-women-and-men-differently--widen-income-gap" },
+      { label: "Frontiers in Built Environment, 2022: Ahmedabad", url: "https://www.frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2022.874751/full" } ] },
   { id: "care", sys: "society", label: "Care burden falls\non women and girls",
     desc: "When people fall ill, schools close or water runs short, the extra caring and fetching usually falls on women and girls. In India, women already lose about 19% of their paid working hours to heat.",
     sources: [
@@ -241,20 +358,27 @@ const CONSEQUENCES = [
     sources: [
       { label: "Semenza et al., New England Journal of Medicine, 1996: heat-related deaths in the July 1995 Chicago heatwave", url: "https://pubmed.ncbi.nlm.nih.gov/8649494/" } ] },
   { id: "violence", sys: "society", label: "Violence and\ncrime rise",
-    desc: "Hot days are linked to more aggression, domestic violence and violent crime." },
+    desc: "Hot days are linked to more aggression, domestic violence and violent crime.",
+    sources: [
+      { label: "Burke, Hsiang and Miguel, Annual Review of Economics, 2015 (NBER working paper)", url: "https://www.nber.org/papers/w20598" },
+      { label: "Zhu et al., JAMA Psychiatry, 2023", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10308303/" } ] },
   { id: "gbv", sys: "society", label: "Violence against\nwomen rises",
     desc: "Across India, Nepal and Pakistan, each 1\u00a0°C rise in yearly temperature was linked to about 4.5% more violence by husbands and partners. Lost income, stress and crowded hot homes all play a part.",
     sources: [
       { label: "Zhu et al., JAMA Psychiatry, 2023: ambient temperature and intimate partner violence in India, Nepal and Pakistan", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10308303/" } ] },
   { id: "conflict", sys: "society", label: "Conflict over\nwater and land",
-    desc: "Where water and pasture shrink, disputes between communities can turn violent." },
+    desc: "Where water and pasture shrink, disputes between communities can turn violent.",
+    sources: [
+      { label: "Mach et al., Nature, 2019, summarised by Stanford University", url: "https://news.stanford.edu/stories/2019/06/climate-change-cause-armed-conflict" } ] },
   { id: "greengent", sys: "society", label: "Greening pushes\npeople out",
     desc: "New parks and greening can raise rents and land prices until the poorer residents they were meant to cool are pushed out, often into hotter, more crowded housing. This is green gentrification. Across 28 North American and European cities, greening in the 1990s and 2000s was followed by gentrification in 17.",
     sources: [
       { label: "Anguelovski et al., Nature Communications, 2022: green gentrification in European and North American cities", url: "https://doi.org/10.1038/s41467-022-31572-1" },
       { label: "Bangkok: a master’s thesis on Pathumwananurak Park, built where the Rong Poon community lived", url: "https://www.researchgate.net/publication/369538102_Green_Gentrification_and_The_Value_of_Urban_Nature_Case_Study_of_Pathumwananurak_Park_Bangkok" } ] },
   { id: "migration", sys: "society", label: "Forced\nmigration",
-    desc: "When land, work and water fail, families may be forced to move, often into cities that are hotter still." },
+    desc: "When land, work and water fail, families may be forced to move, often into cities that are hotter still.",
+    sources: [
+      { label: "World Bank, 2021: Groundswell Part II", url: "https://www.worldbank.org/en/news/press-release/2021/09/13/climate-change-could-force-216-million-people-to-migrate-within-their-own-countries-by-2050" } ] },
   { id: "camps", sys: "society", label: "Refugee camps\nunder tarpaulin",
     desc: "About a million Rohingya refugees live in the camps of Cox’s Bazar in shelters of bamboo and tarpaulin, which offer little protection from heat. When the April 2024 heatwave pushed temperatures past 40 °C, learning centres across the camps closed for several days.",
     sources: [
@@ -266,25 +390,44 @@ const CONSEQUENCES = [
     sources: [
       { label: "Saudi Ministry of Health figures, reported by Gulf News, 2024: 1,301 deaths during Hajj", url: "https://gulfnews.com/world/gulf/saudi/hajj-2024-saudi-arabia-says-1301-deaths-mostly-unregistered-pilgrims-1.1719169731102" } ] },
   { id: "cohesion", sys: "society", label: "Social trust\nfrays",
-    desc: "Violence, unequal suffering and failing services erode trust between neighbours and in institutions." },
+    desc: "Hot spells are linked to more conflict between groups, and unequal suffering and failing services can erode trust between neighbours and in institutions.",
+    sources: [
+      { label: "Burke, Hsiang and Miguel, Annual Review of Economics, 2015: heat raises conflict between groups", url: "https://www.nber.org/papers/w20598" } ] },
 
   /* Governance and finance */
   { id: "emergency", sys: "gov", label: "Emergency services\nstretched",
-    desc: "Ambulances, fire crews and emergency rooms are swamped all at once." },
+    desc: "Ambulances, fire crews and emergency rooms are swamped all at once.",
+    sources: [
+      { label: "Times of India via India Environment Portal, 2018: 10,000 heat emergencies in 15 days in Ahmedabad", url: "https://indiaenvironmentportal.org.in/news-clippings/10000-heat-emergencies-in-15-days" } ] },
   { id: "budgets", sys: "gov", label: "Public budgets\nstrained",
-    desc: "Repairs, emergency response, lost tax revenue and relief payments all drain public money." },
+    desc: "Repairs, emergency response, lost tax revenue and relief payments all drain public money.",
+    sources: [
+      { label: "Park and Rubinyi, World Bank, 2026: heat deaths in Bangkok cost more than its public health budget", url: "https://openknowledge.worldbank.org/entities/publication/d8ba6f53-d778-47d2-b4a6-37dff7db2466/full" } ] },
   { id: "insurance", sys: "gov", label: "Insurance losses\nand retreat",
-    desc: "Rising losses push premiums up and insurers out, leaving more people and businesses unprotected." },
+    desc: "Rising losses push premiums up and insurers out, leaving more people and businesses unprotected.",
+    sources: [
+      { label: "Swiss Re Institute sigma, reported by Global Reinsurance", url: "https://www.globalreinsurance.com/home/swiss-re-sigma-protection-gap-laid-bare-as-asian-cat-losses-hit-65bn/1458440.article" } ] },
   { id: "underreport", sys: "gov", label: "Heat deaths\nunder-recorded",
-    desc: "Heat is rarely written on death certificates. Most heat deaths are recorded as heart, kidney or lung failure." },
+    desc: "Heat is rarely written on death certificates. Most heat deaths are recorded as heart, kidney or lung failure.",
+    sources: [
+      { label: "Down To Earth, 2024: the miscalculation in India’s heatwave mortality data", url: "https://www.downtoearth.org.in/climate-change/lost-in-the-heat-the-critical-miscalculation-in-indias-heatwave-mortality-data" } ] },
   { id: "underfund", sys: "gov", label: "Heat protection\nunderfunded",
-    desc: "Warnings, cooling centres, outreach and heat-ready services get a small share of budgets compared with floods or storms." },
+    desc: "Warnings, cooling centres, outreach and heat-ready services get a small share of budgets compared with floods or storms.",
+    sources: [
+      { label: "Centre for Policy Research, 2023: assessment of 37 heat action plans", url: "https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/" } ] },
   { id: "remote", sys: "gov", label: "Help can’t reach\nremote places",
-    desc: "In remote villages, islands, hills and river settlements, the nearest clinic, cool shelter or reliable power can be hours away, and heat warnings often never arrive." },
+    desc: "In remote villages, islands, hills and river settlements, the nearest clinic, cool shelter or reliable power can be hours away, and heat warnings often never arrive.",
+    sources: [
+      { label: "Mercy Corps, 2025: extreme heat in Nepal, policy brief", url: "https://europe.mercycorps.org/sites/default/files/2025-09/extreme-heat-nepal-policy-brief.pdf" } ] },
   { id: "repayments", sys: "gov", label: "Loan repayments\nslip",
-    desc: "When heat cuts sales, harvests or wages, small firms and households fall behind on loans, and lenders collect less." },
+    desc: "When heat cuts sales, harvests or wages, small firms and households fall behind on loans, and lenders collect less.",
+    sources: [
+      { label: "Aguilar-Gomez et al., summarised in VoxEU, 2024", url: "https://cepr.org/voxeu/columns/heatwaves-ripple-financial-system" },
+      { label: "Sa-Dhan, reported by Business Standard, 2024", url: "https://www.business-standard.com/finance/news/micro-loan-asset-quality-deteriorates-in-april-june-quarter-sa-dhan-124082700721_1.html" } ] },
   { id: "credit", sys: "gov", label: "Borrowing\ncosts rise",
-    desc: "Lenders and rating agencies increasingly price climate risk into borrowing. After heat shocks, banks have charged small firms more, asked for more collateral and lent less." },
+    desc: "Lenders and rating agencies increasingly price climate risk into borrowing. After heat shocks, banks have charged small firms more, asked for more collateral and lent less.",
+    sources: [
+      { label: "Aguilar-Gomez et al., summarised in VoxEU, 2024", url: "https://cepr.org/voxeu/columns/heatwaves-ripple-financial-system" } ] },
   { id: "elections", sys: "gov", label: "Elections and public\nservices disrupted",
     desc: "Heat disrupts voting, courts and public offices. On the last day of India’s 2024 general election, Uttar Pradesh’s chief electoral officer said 33 polling staff had died of heat, and more died in Bihar and Odisha.",
     sources: [
