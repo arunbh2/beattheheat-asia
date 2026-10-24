@@ -344,11 +344,15 @@ Extreme heat kills, often quietly, through failing hearts, kidneys and lungs. Eu
 
 Leads to: Heat deaths under-recorded (Most heat deaths are recorded as heart, kidney or lung failure.); Deepening inequality (Families lose breadwinners and carers.)
 
+Source: Robine et al., Comptes Rendus Biologies, 2008: death toll exceeded 70,000 in Europe in summer 2003 https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2007.12.001/
+
 #### Heatstroke and heat exhaustion
 
 When the body can no longer cool itself, heat exhaustion can tip into heatstroke: a medical emergency that can kill. India’s suspected heatstroke cases rose more than tenfold in two summers, from 4,481 in 2022 to over 48,000 in 2024. Humid heat is the most dangerous: when the wet-bulb temperature is high, sweat stops cooling the body.
 
 Leads to: Heat deaths (Heatstroke kills if it is not treated quickly.); Health systems overwhelmed (Heat illness brings sudden surges of patients.); Lost work hours and wages (Illness means days off work, and for daily earners no work means no pay.); Medical costs and debt (Treatment and lost days are paid for out of pocket.)
+
+Source: Ministry of Health and Family Welfare, reply in India’s Rajya Sabha, 6 August 2024 https://rsdebate.nic.in/bitstream/123456789/750681/1/PQ_265_06082024_U1693_p358_p362.pdf
 
 #### Kidney and heart strain
 
@@ -367,6 +371,8 @@ Leads to: Heat deaths (Breathing problems turn fatal in the heat.)
 Each 1 °C rise in temperature raises the odds of preterm birth by about 5%, and a heatwave by about 16%. Stillbirths rise too. Women who keep working outdoors or fetching water while pregnant carry the most risk.
 
 Leads to: Health systems overwhelmed (Complications add to the load on maternity care.); Babies and young children at risk (Babies born early or small are more fragile in the heat.)
+
+Source: Chersich et al., BMJ, 2020: high temperatures in pregnancy and preterm birth, low birth weight and stillbirth https://heathealth.info/resources/associations-between-high-temperatures-in-pregnancy-and-risk-of-preterm-birth-low-birth-weight-and-stillbirths-systematic-review-and-meta-analysis/
 
 #### Babies and young children at risk
 
@@ -418,11 +424,15 @@ The International Labour Organization projects that heat stress could cut 2.2% o
 
 Leads to: Informal workers can’t stop work (Lost income leaves even less margin, so the next heatwave has to be worked through too.); Deepening inequality (Lost earnings hurt most where there are no savings to fall back on.); Hunger and malnutrition (Less income means less food.); Violence against women rises (Lost income and stress at home raise the risk of violence against women.); Loan repayments slip (Lost wages make household and microfinance repayments harder.)
 
+Source: International Labour Organization, 2019: heat stress predicted to cost the equivalent of 80 million jobs https://www.ilo.org/resource/news/increase-heat-stress-predicted-bring-productivity-loss-equivalent-80
+
 #### Informal workers can’t stop work
 
 Without paid leave, contracts or savings, stopping work means losing the day’s income. So people keep working through dangerous heat. About three in four Indian workers, some 380 million people, depend on heat-exposed work.
 
 Leads to: Heatstroke and heat exhaustion (Working through the hottest hours without shade, water or rest raises the risk of heat illness.); Injuries and accidents rise (Fatigue and heat cause accidents.); Care burden falls on women and girls (When workers fall ill, someone has to care for them, usually women.)
+
+Source: World Bank, 2022, reported by Down To Earth https://www.downtoearth.org.in/climate-change/heatwaves-in-india-could-soon-break-human-survivability-limit-says-world-bank-analysis-86431
 
 #### Migrant workers abroad
 
@@ -439,6 +449,8 @@ Source: World Bank: personal remittances received, % of GDP (Nepal) https://data
 Above a certain temperature, people work more slowly and make more mistakes, indoors and out. Across 2.7 million firms in 23 advanced economies, ten extra days above 35 °C cut a year’s labour productivity by 0.3%, and days above 40 °C did five times the damage. In humid, still air the loss roughly doubles.
 
 Leads to: Lost work hours and wages (Slower work means lower output and pay.); Public budgets strained (Lower output means lower tax revenue.)
+
+Source: OECD Economics Department, Working Paper No. 1828, 2024 https://doi.org/10.1787/19d94638-en
 
 #### Medical costs and debt
 
@@ -514,11 +526,15 @@ When people fall ill, schools close or water runs short, the extra caring and fe
 
 Leads to: Deepening inequality (Unpaid care pulls women and girls out of paid work and school.)
 
+Source: Climate Resilience for All, 2023, reported by Scientific American: women bear greater burdens from extreme heat https://www.scientificamerican.com/article/women-experience-greater-burdens-from-extreme-heat
+
 #### Older people isolated at home
 
 Older people living alone are among the most likely to die in a heatwave. Many victims of Chicago’s 1995 heatwave died alone at home.
 
 Leads to: Heat deaths (Older people alone at home are among the most likely to die.)
+
+Source: Semenza et al., New England Journal of Medicine, 1996: heat-related deaths in the July 1995 Chicago heatwave https://pubmed.ncbi.nlm.nih.gov/8649494/
 
 #### Violence and crime rise
 
@@ -531,6 +547,8 @@ Leads to: Social trust frays (Violence erodes trust.)
 Across India, Nepal and Pakistan, each 1 °C rise in yearly temperature was linked to about 4.5% more violence by husbands and partners. Lost income, stress and crowded hot homes all play a part.
 
 Leads to: Mental health suffers (Violence leaves lasting harm to mental health.); Deepening inequality (Violence keeps women out of work, decisions and public life.)
+
+Source: Zhu et al., JAMA Psychiatry, 2023: ambient temperature and intimate partner violence in India, Nepal and Pakistan https://pmc.ncbi.nlm.nih.gov/articles/PMC10308303/
 
 #### Conflict over water and land
 
@@ -571,6 +589,8 @@ Source: UNFPA: Cox’s Bazar https://www.unfpa.org/coxs-bazar-bangladesh
 Crowds in open sun with little shade or water are deadly. During the 2024 Hajj, more than 1,300 pilgrims died in extreme heat.
 
 Leads to: Heat deaths (Crowds in the open sun turn deadly.); Emergency services stretched (Mass casualties overwhelm responders.)
+
+Source: Saudi Ministry of Health figures, reported by Gulf News, 2024: 1,301 deaths during Hajj https://gulfnews.com/world/gulf/saudi/hajj-2024-saudi-arabia-says-1301-deaths-mostly-unregistered-pilgrims-1.1719169731102
 
 #### Social trust frays
 

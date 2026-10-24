@@ -159,15 +159,21 @@ const CONSEQUENCES = [
 
   /* Health */
   { id: "deaths", sys: "health", label: "Heat deaths",
-    desc: "Extreme heat kills, often quietly, through failing hearts, kidneys and lungs. Europe’s 2003 heatwave alone is estimated to have caused more than 70,000 deaths." },
+    desc: "Extreme heat kills, often quietly, through failing hearts, kidneys and lungs. Europe’s 2003 heatwave alone is estimated to have caused more than 70,000 deaths.",
+    sources: [
+      { label: "Robine et al., Comptes Rendus Biologies, 2008: death toll exceeded 70,000 in Europe in summer 2003", url: "https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2007.12.001/" } ] },
   { id: "heatstroke", sys: "health", label: "Heatstroke and\nheat exhaustion",
-    desc: "When the body can no longer cool itself, heat exhaustion can tip into heatstroke: a medical emergency that can kill. India’s suspected heatstroke cases rose more than tenfold in two summers, from 4,481 in 2022 to over 48,000 in 2024. Humid heat is the most dangerous: when the wet-bulb temperature is high, sweat stops cooling the body." },
+    desc: "When the body can no longer cool itself, heat exhaustion can tip into heatstroke: a medical emergency that can kill. India’s suspected heatstroke cases rose more than tenfold in two summers, from 4,481 in 2022 to over 48,000 in 2024. Humid heat is the most dangerous: when the wet-bulb temperature is high, sweat stops cooling the body.",
+    sources: [
+      { label: "Ministry of Health and Family Welfare, reply in India’s Rajya Sabha, 6 August 2024", url: "https://rsdebate.nic.in/bitstream/123456789/750681/1/PQ_265_06082024_U1693_p358_p362.pdf" } ] },
   { id: "kidney", sys: "health", label: "Kidney and\nheart strain",
     desc: "Sweating and dehydration make the heart work harder and can damage the kidneys, especially with repeated exposure." },
   { id: "respiratory", sys: "health", label: "Breathing\nproblems worsen",
     desc: "Ozone, smoke and hot air inflame airways and worsen asthma and lung disease." },
   { id: "pregnancy", sys: "health", label: "Risks in\npregnancy",
-    desc: "Each 1\u00a0°C rise in temperature raises the odds of preterm birth by about 5%, and a heatwave by about 16%. Stillbirths rise too. Women who keep working outdoors or fetching water while pregnant carry the most risk." },
+    desc: "Each 1\u00a0°C rise in temperature raises the odds of preterm birth by about 5%, and a heatwave by about 16%. Stillbirths rise too. Women who keep working outdoors or fetching water while pregnant carry the most risk.",
+    sources: [
+      { label: "Chersich et al., BMJ, 2020: high temperatures in pregnancy and preterm birth, low birth weight and stillbirth", url: "https://heathealth.info/resources/associations-between-high-temperatures-in-pregnancy-and-risk-of-preterm-birth-low-birth-weight-and-stillbirths-systematic-review-and-meta-analysis/" } ] },
   { id: "newborns", sys: "health", label: "Babies and young\nchildren at risk",
     desc: "Babies and small children overheat and dehydrate faster than adults, and can’t say when they are struggling. Heat brings more diarrhoea, malnutrition and hospital visits for the youngest." },
   { id: "mental", sys: "health", label: "Mental health\nsuffers",
@@ -186,16 +192,22 @@ const CONSEQUENCES = [
 
   /* Work and economy */
   { id: "lost", sys: "work", label: "Lost work hours\nand wages",
-    desc: "The International Labour Organization projects that heat stress could cut 2.2% of all working hours worldwide by 2030, the equivalent of 80 million full-time jobs." },
+    desc: "The International Labour Organization projects that heat stress could cut 2.2% of all working hours worldwide by 2030, the equivalent of 80 million full-time jobs.",
+    sources: [
+      { label: "International Labour Organization, 2019: heat stress predicted to cost the equivalent of 80 million jobs", url: "https://www.ilo.org/resource/news/increase-heat-stress-predicted-bring-productivity-loss-equivalent-80" } ] },
   { id: "informal", sys: "work", label: "Informal workers\ncan’t stop work",
-    desc: "Without paid leave, contracts or savings, stopping work means losing the day’s income. So people keep working through dangerous heat. About three in four Indian workers, some 380 million people, depend on heat-exposed work." },
+    desc: "Without paid leave, contracts or savings, stopping work means losing the day’s income. So people keep working through dangerous heat. About three in four Indian workers, some 380 million people, depend on heat-exposed work.",
+    sources: [
+      { label: "World Bank, 2022, reported by Down To Earth", url: "https://www.downtoearth.org.in/climate-change/heatwaves-in-india-could-soon-break-human-survivability-limit-says-world-bank-analysis-86431" } ] },
   { id: "abroad", sys: "work", label: "Migrant workers\nabroad",
     desc: "Millions from Nepal, Bangladesh and the Philippines build and serve in some of the world’s hottest places, and the money they send home holds families and economies together: about a quarter of Nepal’s GDP. Among Nepali workers in Qatar, cardiovascular deaths rose with the summer heat, and as many as 200 of 571 such deaths in 2009–2017 could have been prevented with heat protection.",
     sources: [
       { label: "Pradhan et al., Cardiology, 2019, summarised by ClimateCHIP: heat stress and cardiac deaths of Nepali workers in Qatar", url: "https://www.climatechip.org/node/192" },
       { label: "World Bank: personal remittances received, % of GDP (Nepal)", url: "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS?locations=NP" } ] },
   { id: "productivity", sys: "work", label: "Productivity\nfalls",
-    desc: "Above a certain temperature, people work more slowly and make more mistakes, indoors and out. Across 2.7 million firms in 23 advanced economies, ten extra days above 35\u00a0°C cut a year’s labour productivity by 0.3%, and days above 40\u00a0°C did five times the damage. In humid, still air the loss roughly doubles." },
+    desc: "Above a certain temperature, people work more slowly and make more mistakes, indoors and out. Across 2.7 million firms in 23 advanced economies, ten extra days above 35\u00a0°C cut a year’s labour productivity by 0.3%, and days above 40\u00a0°C did five times the damage. In humid, still air the loss roughly doubles.",
+    sources: [
+      { label: "OECD Economics Department, Working Paper No. 1828, 2024", url: "https://doi.org/10.1787/19d94638-en" } ] },
   { id: "debt", sys: "work", label: "Medical costs\nand debt",
     desc: "Treatment, medicines and lost days are often paid for out of pocket, pushing households into debt." },
   { id: "business", sys: "work", label: "Small businesses\nclose",
@@ -221,13 +233,19 @@ const CONSEQUENCES = [
   { id: "inequality", sys: "society", label: "Deepening\ninequality",
     desc: "Every impact lands hardest on those with the least protection, widening gaps in health, income and opportunity." },
   { id: "care", sys: "society", label: "Care burden falls\non women and girls",
-    desc: "When people fall ill, schools close or water runs short, the extra caring and fetching usually falls on women and girls. In India, women already lose about 19% of their paid working hours to heat." },
+    desc: "When people fall ill, schools close or water runs short, the extra caring and fetching usually falls on women and girls. In India, women already lose about 19% of their paid working hours to heat.",
+    sources: [
+      { label: "Climate Resilience for All, 2023, reported by Scientific American: women bear greater burdens from extreme heat", url: "https://www.scientificamerican.com/article/women-experience-greater-burdens-from-extreme-heat" } ] },
   { id: "isolation", sys: "society", label: "Older people\nisolated at home",
-    desc: "Older people living alone are among the most likely to die in a heatwave. Many victims of Chicago’s 1995 heatwave died alone at home." },
+    desc: "Older people living alone are among the most likely to die in a heatwave. Many victims of Chicago’s 1995 heatwave died alone at home.",
+    sources: [
+      { label: "Semenza et al., New England Journal of Medicine, 1996: heat-related deaths in the July 1995 Chicago heatwave", url: "https://pubmed.ncbi.nlm.nih.gov/8649494/" } ] },
   { id: "violence", sys: "society", label: "Violence and\ncrime rise",
     desc: "Hot days are linked to more aggression, domestic violence and violent crime." },
   { id: "gbv", sys: "society", label: "Violence against\nwomen rises",
-    desc: "Across India, Nepal and Pakistan, each 1\u00a0°C rise in yearly temperature was linked to about 4.5% more violence by husbands and partners. Lost income, stress and crowded hot homes all play a part." },
+    desc: "Across India, Nepal and Pakistan, each 1\u00a0°C rise in yearly temperature was linked to about 4.5% more violence by husbands and partners. Lost income, stress and crowded hot homes all play a part.",
+    sources: [
+      { label: "Zhu et al., JAMA Psychiatry, 2023: ambient temperature and intimate partner violence in India, Nepal and Pakistan", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10308303/" } ] },
   { id: "conflict", sys: "society", label: "Conflict over\nwater and land",
     desc: "Where water and pasture shrink, disputes between communities can turn violent." },
   { id: "greengent", sys: "society", label: "Greening pushes\npeople out",
@@ -244,7 +262,9 @@ const CONSEQUENCES = [
       { label: "Amnesty International Australia: conditions in Cox’s Bazar", url: "https://www.amnesty.org.au/the-inhumane-conditions-in-coxs-bazar-and-what-must-be-done-to-support-refugees-looking-for-a-dignified-hopeful-future/" },
       { label: "UNFPA: Cox’s Bazar", url: "https://www.unfpa.org/coxs-bazar-bangladesh" } ] },
   { id: "gatherings", sys: "society", label: "Mass gatherings\nturn deadly",
-    desc: "Crowds in open sun with little shade or water are deadly. During the 2024 Hajj, more than 1,300 pilgrims died in extreme heat." },
+    desc: "Crowds in open sun with little shade or water are deadly. During the 2024 Hajj, more than 1,300 pilgrims died in extreme heat.",
+    sources: [
+      { label: "Saudi Ministry of Health figures, reported by Gulf News, 2024: 1,301 deaths during Hajj", url: "https://gulfnews.com/world/gulf/saudi/hajj-2024-saudi-arabia-says-1301-deaths-mostly-unregistered-pilgrims-1.1719169731102" } ] },
   { id: "cohesion", sys: "society", label: "Social trust\nfrays",
     desc: "Violence, unequal suffering and failing services erode trust between neighbours and in institutions." },
 
@@ -579,13 +599,13 @@ const INSTITUTIONS = [
 const LEVERS = [
   { id: "emissions", edge: ["heat", "nature"], title: "Deep emission cuts", who: ["nat", "intl", "funders"], when: "decade", measure: "Emissions cut against the national target",
     text: "Every fraction of a degree avoided weakens every loop that runs through land, ice and forests at once. It also keeps more places within the limits to adaptation, where protecting people still works.",
-    example: "Across 2.7 million firms in 23 advanced economies, places used to heat coped better with days of 30–35\u00a0°C, but none had adapted to days above 40\u00a0°C. Each degree avoided keeps more days below that line.",
+    example: "Across 2.7 million firms in 23 advanced economies, places used to heat coped better with days of 30–35\u00a0°C, but none had adapted to days above 40\u00a0°C. Each degree avoided keeps more days below that line.", exampleSources: [{ label: "OECD Economics Department, Working Paper No. 1828, 2024", url: "https://doi.org/10.1787/19d94638-en" }],
     guides: [
       { by: "Intergovernmental Panel on Climate Change, 2023", title: "AR6 Synthesis Report: Climate Change 2023", url: "https://www.ipcc.ch/report/ar6/syr/" },
       { by: "OECD Economics Department, 2024", title: "The heat is on: Heat stress, productivity and adaptation among firms", url: "https://doi.org/10.1787/19d94638-en" } ] },
   { id: "cleancool", edge: ["demand", "emissions"], title: "Clean, efficient cooling", who: ["nat", "utilities", "intl"], when: "years", measure: "Share of new air conditioners meeting efficiency standards",
     text: "Efficient appliances, clean power and low-warming refrigerants break the link between keeping cool and heating the planet.",
-    example: "The Kigali Amendment to the Montreal Protocol (2016) commits countries to phase down the most climate-warming refrigerants.",
+    example: "The Kigali Amendment to the Montreal Protocol (2016) commits countries to phase down the most climate-warming refrigerants.", exampleSources: [{ label: "UNEP, reported by IISD: Kigali Amendment enters into force", url: "https://sdg.iisd.org/news/kigali-amendment-enters-into-force-bringing-promise-of-reduced-global-warming/" }],
     guides: [
       { by: "Ministry of Environment, Forest and Climate Change, India, 2019", title: "India Cooling Action Plan", url: "https://ozonecell.nic.in/home-page/resource-informations/reports-publications/india-cooling-action-plan/" } ] },
   { id: "soilwater", edge: ["drysoil", "heat"], title: "Keep water in the soil", who: ["agri", "community", "funders"], when: "years", measure: "Hectares under soil-moisture practices",
@@ -677,7 +697,7 @@ const LEVERS = [
       { by: "WHO and WMO, in the GHHIN resource library", title: "Heat at work: the first joint global guidance on workplace heat stress", url: "https://heathealth.info/at-work/" } ] },
   { id: "heatcash", edge: ["heatstroke", "lost"], title: "Income protection in heatwaves", who: ["insurers", "nat", "workers"], when: "years", measure: "Workers covered, and days from trigger to payout",
     text: "Cash that pays out automatically when temperatures cross a danger threshold, so people can afford to stop. Triggers need careful design to limit basis risk: heat that hurts people without triggering a payout.",
-    example: "Parametric heat insurance has been piloted with women informal workers in India.",
+    example: "Parametric heat insurance has been piloted with women informal workers in India.", exampleSources: [{ label: "ICMIF, 2024: IBISA launches a parametric heat-index product for women workers in India", url: "https://www.icmif.org/news_story/ibisa-launches-a-new-parametric-heat-index-product-in-india-to-protect-women-workers-from-heat-induced-wage-losses/" }],
     guides: [
       { by: "VimoSEWA, 2025", title: "Parametric heat and rainfall insurance for informal women workers", url: "https://www.sewainsurance.org/wp-content/uploads/2025/12/Parametric-Heat-and-Rainfall-Insurance-for-Informal-Women-Workers.pdf" },
       { by: "CGAP", title: "Confronting the climate and health nexus: lessons from the Self-Employed Women’s Association (SEWA)", url: "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association" } ] },
@@ -759,7 +779,7 @@ const LEVERS = [
       { by: "Center for Financial Inclusion, 2023", title: "Inclusive finance and extreme heat: how small loans and parametric insurance can help people through deadly heatwaves", url: "https://centerforfinancialinclusion.org/inclusive-finance-and-extreme-heat-how-small-loans-and-parametric-insurance-can-help-vulnerable-populations-manage-through-deadly-heat-waves" } ] },
   { id: "riskpools", edge: ["insurance", "budgets"], title: "Shared risk pools", who: ["insurers", "nat", "funders"], when: "years", measure: "Share of heat losses covered by pooled risk",
     text: "Public–private insurance and regional risk pools keep cover available and spread losses beyond any one budget.",
-    example: "Regional risk pools such as the African Risk Capacity and the Caribbean’s CCRIF share disaster risk across countries.",
+    example: "Regional risk pools such as the African Risk Capacity and the Caribbean’s CCRIF share disaster risk across countries.", exampleSources: [{ label: "World Bank: sovereign catastrophe risk pools, 15 years on", url: "https://blogs.worldbank.org/en/psd/sovereign-catastrophe-risk-pools-15-years-and-still-more-come" }],
     guides: [
       { by: "UNDP", title: "Global Shield against Climate Risks in Pakistan: pre-arranged finance for climate shocks", url: "https://www.undp.org/pakistan/projects/global-shield-against-climate-risks" } ] }
 ];
@@ -1574,26 +1594,30 @@ const GLOSSARY_GROUPS = [
 
 const GLOSSARY = [
   { id: "heatstroke", group: "body", term: "Heatstroke", match: "heatstroke", video: "media/glossary/heatstroke.mp4", length: "0:32",
-    text: "A medical emergency. The body’s core temperature rises above about 40 °C and its cooling system fails. Without fast cooling it can kill or cause lasting organ damage." },
+    text: "A medical emergency. The body’s core temperature rises above about 40 °C and its cooling system fails. Without fast cooling it can kill or cause lasting organ damage.",
+    source: { label: "National Centre for Disease Control, India: heat-related illnesses", url: "https://ncdc.mohfw.gov.in/uploads/pdf/6.%20Health%20Impact%20of%20Heat_Heat%20Related%20Illnesses.pdf" } },
   { id: "heatexhaustion", group: "body", term: "Heat exhaustion", match: "heat exhaustion", video: "media/glossary/heatexhaustion.mp4", length: "0:33",
     text: "The warning stage before heatstroke: heavy sweating, weakness, dizziness and nausea. Rest, water and cooling usually bring recovery." },
   { id: "heatstress", group: "body", term: "Heat stress", match: "heat stress", video: "media/glossary/heatstress.mp4", length: "0:35",
     text: "When the body takes in or makes more heat than it can shed, from hot air, humidity, sun and physical work." },
   { id: "adaptlimits", group: "act", term: "Limits to adaptation", match: "limits to adaptation|adaptation has limits",
-    text: "The point beyond which adjusting no longer prevents harm. Places used to heat cope better with days of 30–35\u00a0°C, but a study of 2.7 million firms found no adaptation to days above 40\u00a0°C. Cutting emissions keeps more places below that limit." },
+    text: "The point beyond which adjusting no longer prevents harm. Places used to heat cope better with days of 30–35\u00a0°C, but a study of 2.7 million firms found no adaptation to days above 40\u00a0°C. Cutting emissions keeps more places below that limit.",
+    source: { label: "OECD Economics Department, Working Paper No. 1828, 2024", url: "https://doi.org/10.1787/19d94638-en" } },
   { id: "acclimatisation", group: "body", term: "Acclimatisation", match: "acclimati[sz]ation|acclimati[sz]e", video: "media/glossary/acclimatisation.mp4", length: "0:33",
     text: "The body slowly adjusting to heat over one to two weeks. New and returning workers are most at risk until it has." },
   { id: "excessdeaths", group: "body", term: "Excess deaths", match: "excess death", video: "media/glossary/excessdeaths.mp4", length: "0:34",
     text: "Deaths above the normal number for that place and time of year. Because death certificates rarely say “heat”, this is how the real toll of a heatwave is counted." },
   { id: "wetbulb", group: "measure", term: "Wet-bulb temperature", match: "wet-bulb temperature", video: "media/glossary/wetbulb.mp4", length: "0:35",
-    text: "Heat and humidity combined into one number, read from a thermometer wrapped in a wet cloth. It shows whether sweat can still cool you. A wet-bulb temperature of 35 °C is often quoted as the limit of human survival; recent studies suggest the real limit is lower." },
+    text: "Heat and humidity combined into one number, read from a thermometer wrapped in a wet cloth. It shows whether sweat can still cool you. A wet-bulb temperature of 35 °C is often quoted as the limit of human survival; recent studies suggest the real limit is lower.",
+    source: { label: "Vecellio et al., Journal of Applied Physiology, 2022, summarised by Penn State", url: "https://psu.edu/news/research/story/humans-cant-endure-temperatures-and-humidities-high-previously-thought" } },
   { id: "dryhumid", group: "measure", term: "Dry heat and humid heat", match: "dry heat|humid heat",
     text: "Dry heat is high temperature with low humidity: sweat still evaporates, but the body soaks up heat fast. It peaks in South Asia’s pre-monsoon months. Humid heat is warm, wet air in which sweat can’t evaporate, so the body can’t cool itself even at lower temperatures. It dominates Southeast Asia and builds through South Asia’s monsoon, and it is rising faster than dry heat. The two need different warnings and different cooling.",
     source: { label: "Ivanovich et al., Geophysical Research Letters, 2024", url: "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023GL107382" } },
   { id: "wbgt", group: "measure", term: "WBGT (wet-bulb globe temperature)", match: "wet-bulb globe temperature|WBGT", video: "media/glossary/wbgt.mp4", length: "0:36",
     text: "The workplace measure of heat. It adds sun and wind to heat and humidity, and is used to set rest breaks and stop work." },
   { id: "heatindex", group: "measure", term: "Heat index", match: "heat index",
-    text: "The “feels-like” temperature in the shade, combining air temperature and humidity. In the Philippines, a heat index of 42 °C or more is officially a danger level." },
+    text: "The “feels-like” temperature in the shade, combining air temperature and humidity. In the Philippines, a heat index of 42 °C or more is officially a danger level.",
+    source: { label: "PAGASA: heat index", url: "https://www.pagasa.dost.gov.ph/weather/heat-index" } },
   { id: "heatwave", group: "measure", term: "Heatwave", match: "heatwave", video: "media/glossary/heatwave.mp4", length: "0:36", auto: false,
     text: "A spell of unusually hot weather for that place. There is no single global definition: each country sets its own thresholds." },
   { id: "hotnights", group: "measure", term: "Hot nights", match: "hot night|warm night", video: "media/glossary/hotnights.mp4", length: "0:35",
