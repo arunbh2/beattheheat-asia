@@ -2450,6 +2450,66 @@
       el.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "center" }); el.classList.remove("is-flash"); void el.offsetWidth; el.classList.add("is-flash"); });
   }
 
+  /* ======================= FOUR HEATS IN A HOME ======================= */
+  // a cross-section of a tin-roofed home: pick a heat to light it up, or switch to night to see the room stay hot
+  function renderHomeHeats() {
+    const box = document.getElementById("home-heats"); if (!box || typeof HOME_HEATS === "undefined") return;
+    const H = HOME_HEATS; let sel = "roof", night = false;
+    const zig = [...Array(15)].map((_, i) => `${230 + i * 30},${i % 2 ? 132 : 118}`).join(" ");
+    const draw = () => {
+      const n = night, hot = !n && (sel === "roof"), rad = sel === "radiant", ind = sel === "indoor" || n;
+      const arrows = [0, 1, 2, 3, 4].map(i => `<g class="hh-arrow" style="animation-delay:${i * .35}s"><path d="M${270 + i * 80} 165 q 8 10 0 20 q -8 10 0 20" /><path d="M${262 + i * 80} 200 L${270 + i * 80} 212 L${278 + i * 80} 200" /></g>`).join("");
+      const mark = (id, x, y) => { const h = H.heats.find(z => z.id === id); return `<g class="hh-mark${sel === id && !n ? " is-on" : ""}"><circle cx="${x}" cy="${y}" r="17"/><text x="${x}" y="${y + 6}">${h.n}</text></g>`; };
+      return `<svg viewBox="0 0 720 360" class="hh-svg${n ? " is-night" : ""}" aria-hidden="true">
+        <rect width="720" height="360" class="hh-sky"/>
+        ${n ? `<circle cx="640" cy="60" r="24" fill="#F3EBD2"/><circle cx="652" cy="52" r="22" class="hh-skyfill"/>` : `<circle cx="640" cy="60" r="28" fill="#F26430"/>`}
+        <rect y="290" width="720" height="70" class="hh-ground"/>
+        <g class="hh-station${sel === "air" && !n ? " is-on" : ""}"><rect x="76" y="210" width="6" height="80"/><rect x="52" y="176" width="54" height="38" rx="4"/></g>
+        <rect x="245" y="132" width="420" height="158" class="hh-room${ind ? " is-hot" : ""}"/>
+        <rect x="610" y="185" width="30" height="40" class="hh-win"/>
+        <g class="hh-people">${n ? `<g transform="translate(340,262)"><circle cx="-34" cy="0" r="10"/><path d="M-24 0 H34"/></g><g transform="translate(470,262)"><circle cx="-34" cy="0" r="10"/><path d="M-24 0 H34"/></g>`
+          : `<g transform="translate(360,240)"><circle cx="0" cy="-34" r="11"/><path d="M0 -23 V12 M-18 -6 L0 -14 L18 -6 M0 12 L-12 40 M0 12 L12 40"/></g><g transform="translate(470,240)"><circle cx="0" cy="-34" r="11"/><path d="M0 -23 V12 M-18 -6 L0 -14 L18 -6 M0 12 L-12 40 M0 12 L12 40"/></g>`}</g>
+        ${rad && !n ? `<g class="hh-arrows">${arrows}</g>` : ""}
+        <polygon points="230,140 ${zig} 680,140" class="hh-roof${hot ? " is-hot" : ""}"/>
+        ${n ? "" : mark("air", 79, 160) + mark("roof", 455, 96) + mark("radiant", 300, 185) + mark("indoor", 590, 265)}
+        ${n ? `<g class="hh-tag"><rect x="22" y="128" width="120" height="30" rx="6" class="cool"/><text x="82" y="148">Street: cooling</text></g><g class="hh-tag"><rect x="390" y="150" width="140" height="30" rx="6" class="hot"/><text x="460" y="170">Room: still hot</text></g>` : ""}
+      </svg>`;
+    };
+    const detail = () => {
+      if (night) return `<p class="hh-k">At night</p><p>${esc(H.night.text)}</p><p class="cool-ev__src">${extLink(H.night.source.url, H.night.source.label)}</p>`;
+      const h = H.heats.find(z => z.id === sel);
+      return `<p class="hh-k">${h.n} · ${esc(h.name)}</p><p>${gloss(h.text)}</p>${h.source ? `<p class="cool-ev__src">${extLink(h.source.url, h.source.label)}</p>` : ""}`;
+    };
+    const paint = () => {
+      box.querySelector(".hh-art").innerHTML = draw();
+      box.querySelector(".hh-detail").innerHTML = detail();
+      box.querySelectorAll("[data-hh]").forEach(b => b.setAttribute("aria-pressed", String(!night && b.dataset.hh === sel)));
+      box.querySelectorAll("[data-hh-time]").forEach(b => b.setAttribute("aria-pressed", String((b.dataset.hhTime === "night") === night)));
+    };
+    box.innerHTML = `<p class="hh-intro">${esc(H.intro)}</p>
+      <div class="hh-grid">
+        <div class="hh-stage">
+          <div class="hh-time" role="group" aria-label="Time of day"><button type="button" data-hh-time="day">Day</button><button type="button" data-hh-time="night">Night</button></div>
+          <div class="hh-art"></div>
+          <div class="hh-picks" role="group" aria-label="Choose a heat">${H.heats.map(h => `<button type="button" data-hh="${h.id}"><b>${h.n}</b>${esc(h.name)}</button>`).join("")}</div>
+        </div>
+        <div class="hh-side">
+          <div class="hh-detail" aria-live="polite"></div>
+          ${watchButton("film:fourheats", "Watch: four heats in a home")}
+        </div>
+      </div>
+      <ul class="hh-facts">${H.facts.map(f => `<li><b>${esc(f.n)}</b> ${esc(f.text)} <span class="cool-ev__src">${extLink(f.source.url, f.source.label)}</span></li>`).join("")}</ul>
+      <p class="hh-nuance">${esc(H.nuance.text)} <span class="cool-ev__src">${extLink(H.nuance.source.url, H.nuance.source.label)}</span></p>
+      <p class="hh-plans"><b>For heat plans</b> ${esc(H.plans)}</p>`;
+    box.addEventListener("click", ev => {
+      const b = ev.target.closest("[data-hh]"); if (b) { sel = b.dataset.hh; night = false; paint(); track("homeheat-" + sel); return; }
+      const t = ev.target.closest("[data-hh-time]"); if (t) { night = t.dataset.hhTime === "night"; paint(); track("homeheat-" + t.dataset.hhTime); }
+    });
+    paint();
+    const room = document.getElementById("now-room");
+    if (room) room.innerHTML = `<b>Warnings track the street, not the room.</b> These readings are outdoor air in the shade. Under a tin roof it can be hotter, and it stays hot at night. <a href="#four-heats">See the four heats in a home</a> ${watchButton("film:fourheats", "Watch the film")}`;
+  }
+
   /* ======================= START HERE ======================= */
   // what people want to do, an optional role (an institution from part 5), and a short path through the site
   const INTENTS = typeof START_INTENTS !== "undefined" ? START_INTENTS : [];
@@ -2630,6 +2690,7 @@
     renderAtRisk();
     renderStalls();
     renderCooling();
+    renderHomeHeats();
     renderNow();
     renderCity();
     renderHeatwaves();

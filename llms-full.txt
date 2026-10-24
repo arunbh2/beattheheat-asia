@@ -348,11 +348,13 @@ Source: Tamil Nadu State Planning Commission, 2024 https://spc.tn.gov.in/wp-cont
 
 #### Homes that trap heat
 
-Tin roofs, poor ventilation and crowded rooms can make homes hotter inside than out, leaving nowhere safe to rest.
+Tin roofs, poor ventilation and crowded rooms can make homes hotter inside than out, leaving nowhere safe to rest. Thin roofs cool slowly, so the worst comes at night: in low-income homes measured across South Asia, tin-roofed houses stayed warmer indoors than the outdoor air.
 
 Leads to: Heatstroke and heat exhaustion (With no cool place to recover, heat builds up day after day.); Deepening inequality (Hot homes cost sleep, health and earnings, so the gap widens.); Sleepless hot nights (Rooms stay hot all night.)
 
 Source: Frontiers in Built Environment, 2022: Ahmedabad informal settlements up to 7.6 °C hotter https://www.frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2022.874751/full
+
+Source: Tasgaonkar et al., Scientific Data, 2022: indoor heat in low-income homes in South Asia https://www.nature.com/articles/s41597-022-01314-5
 
 #### Roads, rails and runways strained
 
@@ -1915,6 +1917,30 @@ The IUCN Global Standard for Nature-based Solutions makes inclusive governance a
 Modelled against housing built in its place, Guangzhou’s Haizhu wetland keeps the area within 600 m about 0.25 °C cooler on a typical summer day, and over 1 °C cooler on the site itself. Without it, productivity in nearby heavy outdoor work would fall by 2.5% in May and 16.1% in October, monthly risk of death would rise by 1.23–1.27% from June to September, and cooling bills would rise by about US$1.9 million over 30 years.
 
 Most of the wetland’s US$146.8 million value comes from carbon and mental health, not cooling. So make the heat case in lives, heavy outdoor work and bills, not money alone. And the same cooling is worth most to people without air conditioning.
+
+### Four heats in a home
+
+A heat warning gives one number: the air temperature in the shade. A family under a tin roof lives with four heats at once, and the worst of it often comes after dark.
+
+- Outdoor air: The temperature a weather station measures, in the shade. It is the number in almost every heat warning, but not what people feel inside a tin-roofed room.
+
+- The roof: Sun-baked sheet metal gets far hotter than the air. Roofs of informal homes in Mumbai and Pune measured above 50 °C when the air was about 30 °C. (Urban Solutions: how informal settlements stay cool (informal measurements), https://urbansolutionsjournal.substack.com/p/how-are-informal-settlements-staying)
+
+- Radiant heat: A hot ceiling gives off heat onto the people below, like standing near a stove, so a room can feel hotter than its air. This is what mean radiant temperature measures.
+
+- Indoor air: The air inside, held in by thin walls, few windows and crowded rooms.
+
+At night: After sunset the street starts to cool, but thin-roofed homes cool slowly. In low-income homes measured in Dhaka, Delhi, Faisalabad and rural Maharashtra, temperatures in tin-roofed houses swung 3–4 °C more over the month than the outdoor air, and stayed warmer indoors because they cooled so slowly at night. (Tasgaonkar et al., Scientific Data, 2022: indoor heat in low-income homes in South Asia, https://www.nature.com/articles/s41597-022-01314-5)
+
+- 7.6 °C hotter, at most, for people in Ahmedabad’s informal settlements than for people in formal housing, in a survey of 860 households. (https://www.frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2022.874751/full)
+
+- Up to 9 °C hotter indoors than outside, in pilot measurements in informal settlements in Kenya, Tanzania and Zimbabwe. (https://www.iied.org/sites/default/files/pdfs/2026-02/22697iied.pdf)
+
+- 2–5 °C cooler indoors under reflective roof paint than under ordinary roofs, in Ahmedabad’s informal settlements. (https://www.nrdc.org/bio/anjali-jaiswal/cool-roofs-community-led-initiatives-four-indian-cities)
+
+Indoors is not always hotter at midday: in an experiment in The Gambia, metal-roofed houses were about 1.4 °C cooler than the outdoor shade by day, but warmer at night. The danger is nights that never cool.
+
+For heat plans: Heat warnings measure the street. Heat plans should protect the room: count indoor and night-time heat, warn for hot nights, and pay for cooler roofs where people sleep.
 
 ## Worked heat action plans from Asia
 

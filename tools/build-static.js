@@ -15,7 +15,7 @@ const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + `
 ;Object.assign(this, { SYSTEMS, CONSEQUENCES, LINKS, LOOP_GROUPS, LOOPS, INSTITUTIONS, LEVERS, LOOP_PLACES, EVIDENCE, ORG_ROLES,
   ORGANISATIONS, GLOSSARY_GROUPS, GLOSSARY, WORKED_EXAMPLES, AT_RISK, AT_RISK_BARRIERS, STALLS, COOL_PLACES, COOL_TRAPS,
-  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, COOL_FX, COOL_REGION, PLAN_GROUPS, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL, LIVE_CITIES, CITY_PROFILES, CITY_HAP, HEATWAVES, HEATWAVES_NOTE });`, ctx);
+  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, COOL_FX, COOL_REGION, HOME_HEATS, PLAN_GROUPS, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL, LIVE_CITIES, CITY_PROFILES, CITY_HAP, HEATWAVES, HEATWAVES_NOTE });`, ctx);
 const D = ctx, TODAY = new Date().toISOString().slice(0, 10);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const plain = s => String(s || "").replace(/\n/g, " ");
@@ -196,12 +196,21 @@ const out = {};
   });
   h += `<h2>Five traps that waste cooling money</h2><ul>${D.COOL_TRAPS.map(t => `<li><strong>${esc(t.name)}.</strong> ${esc(t.what)} Instead: ${esc(t.fix)}</li>`).join("")}</ul>
     <h2>What changes the result</h2>${D.COOL_EVIDENCE.map(e => `<h3>${esc(e.name)}</h3><p>${esc(e.text)} ${ext(e.source.url, e.source.label)}</p>`).join("")}
+    <h2 id="four-heats">Four heats in a home</h2><p>${esc(D.HOME_HEATS.intro)}</p>
+    <ol>${D.HOME_HEATS.heats.map(h => `<li><strong>${esc(h.name)}.</strong> ${esc(h.text)}${h.source ? ` ${ext(h.source.url, h.source.label)}` : ""}</li>`).join("")}</ol>
+    <p><strong>At night.</strong> ${esc(D.HOME_HEATS.night.text)} ${ext(D.HOME_HEATS.night.source.url, D.HOME_HEATS.night.source.label)}</p>
+    <ul>${D.HOME_HEATS.facts.map(f => `<li><strong>${esc(f.n)}</strong> ${esc(f.text)} ${ext(f.source.url, f.source.label)}</li>`).join("")}</ul>
+    <p>${esc(D.HOME_HEATS.nuance.text)} ${ext(D.HOME_HEATS.nuance.source.url, D.HOME_HEATS.nuance.source.label)}</p>
+    <p><strong>For heat plans:</strong> ${esc(D.HOME_HEATS.plans)} <a href="/media/films/four-heats-in-a-home.mp4">Watch the film (1:25)</a></p>
     <h2>What cooling costs elsewhere in the region</h2><p>${esc(D.COOL_REGION.why.text)} ${ext(D.COOL_REGION.why.source.url, D.COOL_REGION.why.source.label)}</p>
     <ul>${D.COOL_REGION.prices.map(x => `<li><strong>${esc(x.place)}: ${esc(x.what)}.</strong> ${esc(x.figure)}. ${esc(x.result)} ${x.sources.map(z => ext(z.url, z.label)).join(" · ")}</li>`).join("")}</ul>
     <p>${esc(D.COOL_REGION.returns.text)} ${ext(D.COOL_REGION.returns.source.url, D.COOL_REGION.returns.source.label)}</p>
     <h2>Putting a value on cooling</h2><p>${esc(D.COOL_VALUE.text)}</p><p>${esc(D.COOL_VALUE.lesson)}</p>${srcs(D.COOL_VALUE.sources)}
     <h2>Free books and guides</h2><ul>${D.COOL_READING.map(r => `<li>${ext(r.url, r.title)} <span class="meta">${esc(r.by)}</span> ${esc(r.adds)}</li>`).join("")}</ul>`;
-  m.push("### Five traps that waste cooling money", ...D.COOL_TRAPS.map(t => `- ${t.name}: ${t.what} Instead: ${t.fix}`), "### What changes the result", ...D.COOL_EVIDENCE.map(e => `- ${e.name}: ${e.text} (${e.source.url})`), "### Putting a value on cooling", D.COOL_VALUE.text, D.COOL_VALUE.lesson);
+  m.push("### Five traps that waste cooling money", ...D.COOL_TRAPS.map(t => `- ${t.name}: ${t.what} Instead: ${t.fix}`), "### What changes the result", ...D.COOL_EVIDENCE.map(e => `- ${e.name}: ${e.text} (${e.source.url})`), "### Putting a value on cooling", D.COOL_VALUE.text, D.COOL_VALUE.lesson,
+    "### Four heats in a home", D.HOME_HEATS.intro, ...D.HOME_HEATS.heats.map(h => `- ${h.name}: ${h.text}${h.source ? ` (${h.source.label}, ${h.source.url})` : ""}`),
+    `At night: ${D.HOME_HEATS.night.text} (${D.HOME_HEATS.night.source.label}, ${D.HOME_HEATS.night.source.url})`, ...D.HOME_HEATS.facts.map(f => `- ${f.n} ${f.text} (${f.source.url})`),
+    D.HOME_HEATS.nuance.text, `For heat plans: ${D.HOME_HEATS.plans}`);
   out[p.slug] = page(p, intro, h); md.push(m.join("\n\n"));
 }
 // worked plans

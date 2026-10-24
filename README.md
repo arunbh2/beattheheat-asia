@@ -126,6 +126,10 @@ The “Cooling options” section, just before “Plan a response”, shows what
 
 `HEATWAVES` lists major heatwaves in South and Southeast Asia, oldest first: when and where, the peak, the recorded toll, what happened, what changed afterwards, the map nodes involved and sources. `deaths` sizes each circle on the timeline and is the recorded toll only (a floor, never a total); leave it `null` where no solid count exists. Add an event, then run `node tools/build-static.js` to update `/heatwaves/`.
 
+## Four heats in a home (part 27 of `data.js`)
+
+`HOME_HEATS` drives the interactive drawing in Cooling options: outdoor air, the roof, radiant heat and indoor air, a night view, sourced facts, the daytime nuance and a line for heat plans. Heat right now links to it with a note that warnings track the street, not the room. The film `media/films/four-heats-in-a-home.mp4` is registered in `SECTION_FILMS`.
+
 ## Visit counting (part 22 of `data.js`)
 
 Visits are counted with [GoatCounter](https://www.goatcounter.com/), which uses no cookies and collects no personal data. `SITE_ANALYTICS.goatcounter` holds the counter’s code; leave it empty (`""`) to switch counting off, and nothing is loaded. As well as page views, `track()` in `script.js` records a few anonymous events, each named for what it counts: films and explainers watched (`watch-…`), plan buttons (`plan-print`, `plan-copy`, `plan-map`), worked examples loaded, forecast checks by city, cooling options added to a plan, and briefs opened. The privacy note in “How this map works” describes this.

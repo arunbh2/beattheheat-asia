@@ -1565,3 +1565,57 @@ body.film-open { overflow: hidden; }
 .hw-card__src a { min-height: 24px; padding: 3px 0; }
 .hw-scale { margin-left: 10px; font-style: italic; }
 .cp__watch { align-self: flex-start; margin-top: 4px; }
+
+/* ---------- Four heats in a home (part 27) ---------- */
+.home-heats { margin-top: 10px; }
+.hh-intro { max-width: 48rem; color: var(--grey-700); }
+.hh-grid { margin-top: 16px; display: grid; gap: 20px; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); align-items: start; }
+.hh-stage { position: relative; border-radius: 14px; overflow: hidden; border: 1px solid #E6DFD4; background: #fff; }
+.hh-svg { display: block; width: 100%; height: auto; }
+.hh-sky { fill: #F8D9B8; transition: fill .4s; }
+.hh-skyfill { fill: #13233A; }
+.hh-svg.is-night .hh-sky { fill: #13233A; }
+.hh-ground { fill: #D8B585; }
+.hh-svg.is-night .hh-ground { fill: #3A302A; }
+.hh-station rect { fill: #F4F2EE; stroke: var(--ink); stroke-width: 3; }
+.hh-station rect:first-child { fill: #6B5444; stroke: none; }
+.hh-station.is-on rect:last-child { stroke: var(--orange); stroke-width: 5; }
+.hh-room { fill: #FCE7D6; stroke: var(--ink); stroke-width: 5; transition: fill .4s; }
+.hh-room.is-hot { fill: #F2A48C; }
+.hh-win { fill: #BFD4E6; stroke: var(--ink); stroke-width: 3; }
+.hh-svg.is-night .hh-win { fill: #1D2C3E; }
+.hh-people { fill: none; stroke: var(--ink); stroke-width: 5; stroke-linecap: round; }
+.hh-roof { fill: #8C96A3; stroke: var(--ink); stroke-width: 4; stroke-linejoin: round; transition: fill .4s; }
+.hh-roof.is-hot { fill: #E0442B; }
+.hh-arrows { fill: none; stroke: #D7263D; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+.hh-arrow { animation: hhfall 1.8s linear infinite; }
+@keyframes hhfall { 0% { transform: translateY(0); opacity: 1; } 100% { transform: translateY(46px); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .hh-arrow { animation: none; } }
+.hh-mark circle { fill: var(--ink); stroke: #fff; stroke-width: 3; }
+.hh-mark text { fill: #fff; font-size: 16px; font-weight: 800; text-anchor: middle; }
+.hh-mark.is-on circle { fill: var(--orange); }
+.hh-tag text { fill: #fff; font-size: 14px; font-weight: 800; text-anchor: middle; }
+.hh-tag .cool { fill: #2C6E9E; } .hh-tag .hot { fill: #D7263D; }
+.hh-time { position: absolute; top: 10px; left: 10px; display: flex; gap: 4px; padding: 4px; border-radius: 999px; background: rgba(255,255,255,.9); }
+.hh-time button { min-height: 32px; padding: 4px 14px; border-radius: 999px; border: 0; background: none; font: inherit; font-size: .85rem; font-weight: 800; cursor: pointer; color: var(--ink); }
+.hh-time button[aria-pressed="true"] { background: var(--ink); color: #fff; }
+.hh-picks { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: 1px solid #E6DFD4; }
+.hh-picks button { min-height: 52px; padding: 8px 6px; border: 0; border-right: 1px solid #E6DFD4; background: #fff; font: inherit; font-size: .85rem; font-weight: 700; cursor: pointer; color: var(--ink); display: flex; align-items: center; justify-content: center; gap: 6px; text-align: left; }
+.hh-picks button:last-child { border-right: 0; }
+.hh-picks b { display: inline-flex; width: 22px; height: 22px; border-radius: 50%; background: var(--ink); color: #fff; align-items: center; justify-content: center; font-size: .75rem; flex: none; }
+.hh-picks button[aria-pressed="true"] { background: #FDF1EA; }
+.hh-picks button[aria-pressed="true"] b { background: var(--orange); }
+.hh-detail { padding: 16px 18px; border-radius: 12px; background: #fff; border: 1px solid #E6DFD4; border-left: 4px solid var(--orange); min-height: 150px; }
+.hh-k { font-size: .75rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: #9A3A12; margin-bottom: 4px; }
+.hh-facts { list-style: none; padding: 0; margin: 18px 0 0; display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); }
+.hh-facts li { padding: 12px 14px; border-radius: 10px; background: #fff; border: 1px solid #E6DFD4; font-size: .9rem; }
+.hh-facts b { display: block; font-family: var(--font-display); font-weight: 400; font-size: 1.8rem; line-height: 1.05; color: #D7263D; }
+.hh-nuance { margin-top: 14px; font-size: .9rem; color: var(--grey-700); max-width: 52rem; }
+.hh-plans { margin-top: 10px; padding: 12px 14px; border-radius: 10px; background: #EAF6F4; border-left: 4px solid #2A9D8F; max-width: 52rem; }
+.hh-plans b { display: block; font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; color: #1D6E64; }
+.hh-facts a, .hh-nuance a, .hh-detail .cool-ev__src a { color: inherit; display: inline-block; padding: 3px 0; }
+@media (max-width: 760px) { .hh-grid { grid-template-columns: minmax(0, 1fr); } .hh-picks { grid-template-columns: repeat(2, minmax(0, 1fr)); } .hh-picks button:nth-child(2) { border-right: 0; } .hh-picks button:nth-child(-n+2) { border-bottom: 1px solid #E6DFD4; } }
+.now__room { margin-top: 18px; max-width: 60rem; padding: 12px 16px; border-radius: 10px; background: #1E2A37; border: 1px solid #2E3B49; color: #C9CED6; font-size: .92rem; }
+.now__room b { color: var(--canvas); }
+.now__room a { color: #F6A27C; display: inline-block; padding: 3px 0; }
+.now__room .watch-btn { margin-left: 6px; }

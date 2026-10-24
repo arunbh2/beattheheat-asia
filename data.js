@@ -199,9 +199,10 @@ const CONSEQUENCES = [
       { label: "Cooling Singapore, citing Chow and Roth, 2006", url: "https://www.thegpsc.org/sites/gpsc/files/cooling_singapore_-_digital_urban_climate_twin.pdf" },
       { label: "Tamil Nadu State Planning Commission, 2024", url: "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf" } ] },
   { id: "homes", sys: "cities", label: "Homes that\ntrap heat",
-    desc: "Tin roofs, poor ventilation and crowded rooms can make homes hotter inside than out, leaving nowhere safe to rest.",
+    desc: "Tin roofs, poor ventilation and crowded rooms can make homes hotter inside than out, leaving nowhere safe to rest. Thin roofs cool slowly, so the worst comes at night: in low-income homes measured across South Asia, tin-roofed houses stayed warmer indoors than the outdoor air.",
     sources: [
-      { label: "Frontiers in Built Environment, 2022: Ahmedabad informal settlements up to 7.6 °C hotter", url: "https://www.frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2022.874751/full" } ] },
+      { label: "Frontiers in Built Environment, 2022: Ahmedabad informal settlements up to 7.6 °C hotter", url: "https://www.frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2022.874751/full" },
+      { label: "Tasgaonkar et al., Scientific Data, 2022: indoor heat in low-income homes in South Asia", url: "https://www.nature.com/articles/s41597-022-01314-5" } ] },
   { id: "infrastructure", sys: "cities", label: "Roads, rails and\nrunways strained",
     desc: "Rails buckle, roads soften and hot, thin air means planes need longer runways or must carry less.",
     sources: [
@@ -1975,7 +1976,10 @@ const SECTION_FILMS = [
     back: { label: "Back to the heat network", act: "network" } },
   { id: "method", title: "How this map works", label: "about this map", video: "media/films/how-this-map-works.mp4", length: "0:52",
     text: "An illustrative systems map: switching an action on shows which cycles it could help interrupt, not what it will achieve. Three kinds of evidence, what the badges mean, and where to find ratings of what works and what it costs.",
-    back: { label: "Read how this map works", act: "method" } }
+    back: { label: "Read how this map works", act: "method" } },
+  { id: "fourheats", title: "Four heats in a home", label: "cooling options", video: "media/films/four-heats-in-a-home.mp4", length: "1:25",
+    text: "Outdoor air, the roof, radiant heat from the ceiling and the air inside: why a tin-roofed home can stay hot long after the street cools, why informal settlements are hit harder, and what reflective roofs can do.",
+    back: { label: "See the four heats", act: "four-heats" } }
 ];
 
 /* ---------- 17. WHO HEAT HITS HARDEST ---------- */
@@ -2729,3 +2733,27 @@ const HEATWAVES = [
       { label: "Mongabay, 2026", url: "https://news.mongabay.com/short-article/2026/05/climate-change-triples-chance-of-deadly-2026-south-asia-pre-monsoon-heatwave-report/" }] }
 ];
 const HEATWAVES_NOTE = "Recorded deaths are a floor, not a total: most heat deaths are never counted as heat deaths. Where no solid count exists, the timeline says so.";
+
+/* ---------- 27. FOUR HEATS IN A HOME ---------- */
+// Shown in Cooling options, linked from Heat right now and the "Homes that trap heat" node. Each heat is one hotspot on the
+// drawing of a tin-roofed home; night: what changes after sunset. Every figure has its source.
+const HOME_HEATS = {
+  intro: "A heat warning gives one number: the air temperature in the shade. A family under a tin roof lives with four heats at once, and the worst of it often comes after dark.",
+  heats: [
+    { id: "air", n: 1, name: "Outdoor air", text: "The temperature a weather station measures, in the shade. It is the number in almost every heat warning, but not what people feel inside a tin-roofed room." },
+    { id: "roof", n: 2, name: "The roof", text: "Sun-baked sheet metal gets far hotter than the air. Roofs of informal homes in Mumbai and Pune measured above 50 °C when the air was about 30 °C.",
+      source: { label: "Urban Solutions: how informal settlements stay cool (informal measurements)", url: "https://urbansolutionsjournal.substack.com/p/how-are-informal-settlements-staying" } },
+    { id: "radiant", n: 3, name: "Radiant heat", text: "A hot ceiling gives off heat onto the people below, like standing near a stove, so a room can feel hotter than its air. This is what mean radiant temperature measures." },
+    { id: "indoor", n: 4, name: "Indoor air", text: "The air inside, held in by thin walls, few windows and crowded rooms." }
+  ],
+  night: { text: "After sunset the street starts to cool, but thin-roofed homes cool slowly. In low-income homes measured in Dhaka, Delhi, Faisalabad and rural Maharashtra, temperatures in tin-roofed houses swung 3–4 °C more over the month than the outdoor air, and stayed warmer indoors because they cooled so slowly at night.",
+    source: { label: "Tasgaonkar et al., Scientific Data, 2022: indoor heat in low-income homes in South Asia", url: "https://www.nature.com/articles/s41597-022-01314-5" } },
+  facts: [
+    { n: "7.6 °C", text: "hotter, at most, for people in Ahmedabad’s informal settlements than for people in formal housing, in a survey of 860 households.", source: { label: "Frontiers in Built Environment, 2022", url: "https://www.frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2022.874751/full" } },
+    { n: "Up to 9 °C", text: "hotter indoors than outside, in pilot measurements in informal settlements in Kenya, Tanzania and Zimbabwe.", source: { label: "IIED, 2026", url: "https://www.iied.org/sites/default/files/pdfs/2026-02/22697iied.pdf" } },
+    { n: "2–5 °C", text: "cooler indoors under reflective roof paint than under ordinary roofs, in Ahmedabad’s informal settlements.", source: { label: "NRDC: community-led cool roofs in four Indian cities", url: "https://www.nrdc.org/bio/anjali-jaiswal/cool-roofs-community-led-initiatives-four-indian-cities" } }
+  ],
+  nuance: { text: "Indoors is not always hotter at midday: in an experiment in The Gambia, metal-roofed houses were about 1.4 °C cooler than the outdoor shade by day, but warmer at night. The danger is nights that never cool.",
+    source: { label: "Malaria Journal, 2021: roof colour and indoor temperature in rural Gambia", url: "https://malariajournal.biomedcentral.com/articles/10.1186/s12936-021-03951-4" } },
+  plans: "Heat warnings measure the street. Heat plans should protect the room: count indoor and night-time heat, warn for hot nights, and pay for cooler roofs where people sleep."
+};
