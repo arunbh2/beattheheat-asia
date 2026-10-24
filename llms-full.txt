@@ -684,7 +684,7 @@ Source: Zhu et al., JAMA Psychiatry, 2023 https://pmc.ncbi.nlm.nih.gov/articles/
 
 #### Violence against women rises
 
-Across India, Nepal and Pakistan, each 1 °C rise in yearly temperature was linked to about 4.5% more violence by husbands and partners. Lost income, stress and crowded hot homes all play a part.
+Across India, Nepal and Pakistan, each 1 °C rise in yearly temperature was linked to about 4.5% more intimate partner violence. Lost income, stress and crowded hot homes all play a part.
 
 Leads to: Mental health suffers (Violence leaves lasting harm to mental health.); Deepening inequality (Violence keeps women out of work, decisions and public life.)
 
@@ -1194,7 +1194,7 @@ Where it breaks: Count every heat death, Cooling centres and check-ins
 
 - Suspected heatstroke cases rose from 4,481 in 2022 to 48,385 by 28 July 2024, while confirmed heatstroke deaths rose only from 33 to 185. (Ministry of Health and Family Welfare, reply in India’s Rajya Sabha, 6 August 2024, https://rsdebate.nic.in/bitstream/123456789/750681/1/PQ_265_06082024_U1693_p358_p362.pdf) Type: Government data. Where: India. Scale: National surveillance. Limit: Counts what gets reported; reporting improves over time, so part of the rise is better counting.
 
-- In 2020, India’s crime records bureau recorded 530 heatstroke deaths while the disaster agency recorded four. Experts say the low counts weaken preparation. (Associated Press via PBS NewsHour, 2024, https://www.pbs.org/newshour/world/india-likely-undercounts-heat-related-deaths-tempering-its-response-officials-say) Type: News report. Where: India. Scale: National, two agencies’ records. Limit: Compares two official counts in one year.
+- In 2020, India’s crime records bureau recorded 530 heatstroke deaths while the disaster agency recorded four. Different systems count differently, which makes the full toll hard to see. (Associated Press via PBS NewsHour, 2024, https://www.pbs.org/newshour/world/india-likely-undercounts-heat-related-deaths-tempering-its-response-officials-say) Type: News report. Where: India. Scale: National, two agencies’ records. Limit: Compares two official counts in one year.
 
 - Death certificates usually record only the immediate cause, such as heart failure, so heat as the trigger goes unrecorded. (Down To Earth, 2024, https://www.downtoearth.org.in/climate-change/lost-in-the-heat-the-critical-miscalculation-in-indias-heatwave-mortality-data) Type: News analysis. Where: India. Scale: National. Limit: Describes how deaths are recorded; it does not estimate the missing number.
 
@@ -1622,7 +1622,7 @@ The same heatwave lands differently. Who is harmed depends on how exposed people
 
 - Who can keep earning Without land, credit, contracts or savings, resting in the heat means losing the day’s income.
 
-- Who has a say Women, migrants and people of marginalised identities are often missing from the rooms where heat plans are made.
+- Who has a say Women, migrants and people from excluded communities are often missing from the rooms where heat plans are made.
 
 - Who can reach care in time A clinic that is far away, has no way to cool patients, or is open only while people are at work turns treatable heat illness into a death.
 
@@ -1696,7 +1696,7 @@ Rural households headed by women lose about 8% more of their income to heat stre
 
 In a study of Indian women workers, 87% of those with poor or no toilets at work reported genitourinary problems, and about 1 in 10 showed heat strain and moderate dehydration. (Venugopal et al., Global Health Action, 2016, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5025522/)
 
-In Nepal’s Madhesh Province, women cooking in hot, smoky kitchens carry a daily ‘thermal labour’ that falls hardest on Dalit women in single-room homes with little access to clean energy or credit. (Ghimire and others, Frontiers in Public Health, 2025, https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1657267/full)
+In Nepal’s Madhesh Province, women cooking in hot, smoky kitchens carry a daily ‘thermal labour’ that falls hardest on women in the poorest single-room homes with little access to clean energy or credit. (Ghimire and others, Frontiers in Public Health, 2025, https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1657267/full)
 
 What helps: Income protection in heatwaves, Social protection floors, Heat action plans, Cool, affordable housing
 
@@ -1734,7 +1734,7 @@ What helps: Heat action plans, Cooling centres and check-ins, Heat-ready health 
 
 Exposed to: Hot, crowded rented rooms, cells and the hardest outdoor jobs, often in a place where they have few connections.
 
-Held back by: No local ID, address or language can mean no warnings, clinics, rations or relief. Many migrant workers are not registered under welfare laws, such as construction workers’ boards, so they miss health and safety benefits meant for them. Caste and social identity can decide who is reached first.
+Held back by: No local ID, address or language can mean no warnings, clinics, rations or relief. Many migrant workers are not registered under welfare laws, such as construction workers’ boards, so they miss health and safety benefits meant for them. Who is registered, and who is known to local officials, can decide who is reached first.
 
 Tamil Nadu’s heat strategy names prisoners, held in concrete buildings with little green space, among the groups heat plans must reach, and proposes cool roofs and trees for its jails. (Tamil Nadu Heat Mitigation Strategy, 2024, https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf)
 
@@ -1788,7 +1788,7 @@ Costs are rough planning ranges for early budgeting, not quotes. They are Indian
 
 #### Kitchen heat
 
-Cooking adds heat on top of the weather, often in the smallest, least ventilated room, and usually for women. In Nepal’s Madhesh Province, women cooking in hot, smoky kitchens carry a daily ‘thermal labour’ that falls hardest on Dalit women in single-room homes with little access to clean energy or credit. (Ghimire and others, Frontiers in Public Health, 2025, https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1657267/full)
+Cooking adds heat on top of the weather, often in the smallest, least ventilated room, and usually for women. In Nepal’s Madhesh Province, women cooking in hot, smoky kitchens carry a daily ‘thermal labour’ that falls hardest on women in the poorest single-room homes with little access to clean energy or credit. (Ghimire and others, Frontiers in Public Health, 2025, https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1657267/full)
 
 - How much heat does the stove give off, and does anyone sit beside it for long?
 
@@ -2726,7 +2726,7 @@ Page: https://beattheheat.asia/cities/bangkok/
 
 A fast-growing northern capital whose power and water strain together in the heat.
 
-Heat action plan (No city heat plan found): No city heat action plan found. From 2018 to 2021 the Viet Nam Red Cross ran an early-action plan for heatwaves in 15 of Hanoi’s wards, triggered by a heat-index forecast. Sources: Anticipation Hub https://www.anticipation-hub.org/experience/anticipatory-action-in-the-world/vietnam/fbf-ready-reducing-heat-waves-impacts-on-the-vulnerable-populations-of-hanoi
+Heat action plan (No published city heat plan found): No city heat action plan found. From 2018 to 2021 the Viet Nam Red Cross ran an early-action plan for heatwaves in 15 of Hanoi’s wards, triggered by a heat-index forecast. Sources: Anticipation Hub https://www.anticipation-hub.org/experience/anticipatory-action-in-the-world/vietnam/fbf-ready-reducing-heat-waves-impacts-on-the-vulnerable-populations-of-hanoi
 
 - The energy–water loop: In May and June 2023 heat drove demand up as hydropower reservoirs ran low; blackouts in the north cost about US$1.4 billion.
 
@@ -2778,7 +2778,7 @@ Page: https://beattheheat.asia/cities/jakarta/
 
 A capital of extreme pre-monsoon heat, street trade and falling groundwater.
 
-Heat action plan (Heat plan in force): Delhi launched its 2025 Heat Action Plan in April 2025, with graded heat alerts, cooling shelters, 3,000 water points and heatstroke units in hospitals. Critics say it lacks legal backing and dedicated funds. Sources: Business Today, 2025 https://www.businesstoday.in/amp/india/story/imd-predicts-heatwave-conditions-in-april-delhi-govt-launches-action-plan-472890-2025-04-21; Citizen Matters https://citizenmatters.in/city-buzz-five-things-you-must-know-about-the-delhi-heat-action-plan
+Heat action plan (Heat plan in force): Delhi launched its 2025 Heat Action Plan in April 2025, with graded heat alerts, cooling shelters, 3,000 water points and heatstroke units in hospitals. Experts have recommended legal backing and dedicated funds to strengthen it. Sources: Business Today, 2025 https://www.businesstoday.in/amp/india/story/imd-predicts-heatwave-conditions-in-april-delhi-govt-launches-action-plan-472890-2025-04-21; Citizen Matters https://citizenmatters.in/city-buzz-five-things-you-must-know-about-the-delhi-heat-action-plan
 
 - The heat credit squeeze: Of 721 Delhi street vendors surveyed in 2024, 80% saw fewer customers in heatwaves and 49% lost income.
 
@@ -2818,7 +2818,7 @@ Page: https://beattheheat.asia/cities/dhaka/
 
 A valley city warming fast, below the Himalayan ice that feeds South Asia’s rivers.
 
-Heat action plan (No city heat plan found): No city heat action plan found. Nepal adopted a national plan of action on heat waves in 2024, and Nepalgunj, in the plains, wrote the country’s first local heat action plan in 2023. Sources: Onlinekhabar, 2025 https://english.onlinekhabar.com/reassessing-nepals-heat-wave-response-lessons-from-2024-and-the-way-forward.html; Nepalgunj Heat Action Plan, 2023 https://preparecenter.org/wp-content/uploads/2023/07/Nepalgunj-Heat-Action-Plan-2023.pdf
+Heat action plan (No published city heat plan found): No city heat action plan found. Nepal adopted a national plan of action on heat waves in 2024, and Nepalgunj, in the plains, wrote the country’s first local heat action plan in 2023. Sources: Onlinekhabar, 2025 https://english.onlinekhabar.com/reassessing-nepals-heat-wave-response-lessons-from-2024-and-the-way-forward.html; Nepalgunj Heat Action Plan, 2023 https://preparecenter.org/wp-content/uploads/2023/07/Nepalgunj-Heat-Action-Plan-2023.pdf
 
 - The melting-ice loop: The Hindu Kush Himalaya’s glaciers lost ice 65% faster in the 2010s, and could lose 30–50% of their volume by 2100.
 
@@ -2858,7 +2858,7 @@ Heat action plan (Heat plan in force): Ahmedabad launched South Asia’s first h
 
 - The poverty–heat trap: Up to three-quarters of India’s workforce depends on heat-exposed work.
 
-- The invisible-deaths loop: India’s heat deaths are undercounted, which weakens the case for prevention.
+- The invisible-deaths loop: As in most countries, heat deaths are hard to count, which makes the case for prevention harder to see.
 
 Who heat hits hardest: Workers in heat-exposed jobs; People in informal settlements
 
@@ -2906,7 +2906,7 @@ Peak: 40–45 °C for weeks in Andhra Pradesh and Telangana. Toll: More than 2,5
 
 Heat swept India’s south-east in May, then struck Karachi in June.
 
-What changed: In the years after, Indian states and cities wrote dozens of heat action plans, though a 2023 review of 37 found few with funding or a vulnerability assessment.
+What changed: In the years after, Indian states and cities wrote dozens of heat action plans, and a 2023 review of 37 found that most had yet to secure funding or a vulnerability assessment.
 
 Source: Encyclopaedia Britannica: India–Pakistan heat wave of 2015 https://www.britannica.com/print/article/2028529
 
@@ -3128,7 +3128,7 @@ Evidence: Measured in a study · During the heat
 
 - Evidence: In Singapore, monitors at 24 workplaces found workers could face more heat stress than nearby weather stations reported, so set breaks by heat measured on site. (NUS Project HeatSafe, 2024, https://medicine.nus.edu.sg/wp-content/uploads/2024/03/PRESS-RELEASE_Project-HeatSafe-18MAR2024-FOR-IMMEDIATE-RELEASE.pdf)
 
-- What could stop it: Piece-rate pay and fixed deadlines that make stopping cost money, and nobody to inspect.
+- What could stop it: Piece-rate pay and fixed deadlines that make stopping cost money, and no inspection.
 
 - Works only if: Breaks are paid, or paired with income protection; Heat is measured where people work; Shade and water are a few minutes away; Inspectors or unions can check.
 
@@ -3294,7 +3294,7 @@ Evidence: Measured in a study · Over years
 
 - Running and upkeep: Fuel costs every month, and upkeep of vents and chimneys.
 
-- Evidence: In Nepal’s Madhesh Province, women cooking in hot, smoky kitchens carry a daily ‘thermal labour’ that falls hardest on Dalit women in single-room homes with little access to clean energy or credit. (Ghimire and others, Frontiers in Public Health, 2025, https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1657267/full)
+- Evidence: In Nepal’s Madhesh Province, women cooking in hot, smoky kitchens carry a daily ‘thermal labour’ that falls hardest on women in the poorest single-room homes with little access to clean energy or credit. (Ghimire and others, Frontiers in Public Health, 2025, https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1657267/full)
 
 - What could stop it: Clean fuel bought once but not refilled, and kitchens with no way for air to escape.
 
