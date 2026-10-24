@@ -247,7 +247,7 @@ const CITY_PAGES = [];
     const risks = cp.risk.map(id => D.AT_RISK.find(g => g.id === id)).filter(Boolean);
     const status = D.CITY_HAP[cp.hap.status];
     h += `<h2 id="${cp.id}"><a href="/cities/${cp.id}/">${esc(c.name)}, ${esc(c.country)}</a></h2><p>${esc(cp.tagline)}</p><p class="meta">Heat plan: ${esc(status)}. Cycles tied to it: ${esc(loops.map(x => x.l.name).join(", "))}.</p>`;
-    const body = `<h2>Heat action plan: ${esc(status)}</h2><p>${esc(cp.hap.text)}</p><p class="src">Sources: ${cp.hap.sources.map(s => ext(s.url, s.label)).join(" · ")}</p>
+    const body = `${cp.heat ? `<p><strong>Heat type:</strong> ${esc(cp.heat)} <a href="/glossary/#dryhumid">Dry heat and humid heat, explained</a>.</p>` : ""}<h2>Heat action plan: ${esc(status)}</h2><p>${esc(cp.hap.text)}</p><p class="src">Sources: ${cp.hap.sources.map(s => ext(s.url, s.label)).join(" · ")}</p>
       <h2>Heat today</h2><p>Live readings and the week’s forecast are on <a href="/#city-${cp.id}">the interactive map</a>. Official warnings: ${ext(c.warn.url, c.warn.label)}. ${D.LIVE_FINGERPRINT ? `How much climate change shaped today’s heat: ${ext(D.LIVE_FINGERPRINT.map.url, D.LIVE_FINGERPRINT.map.label)}.` : ""}</p>
       <h2>Vicious cycles the evidence ties to ${esc(c.name)}</h2>${loops.map(x => `<h3><a href="/loops/#${x.l.id}">${esc(x.l.name)}</a></h3><p>${esc(x.why)}</p><p class="meta">${esc(x.l.summary)} <a href="/#loop-${x.l.id}">Follow it on the map</a>.</p>`).join("")}
       <h2>Who heat hits hardest here</h2><ul>${risks.map(g => `<li><a href="/who-is-at-risk/#${g.id}">${esc(g.name)}</a></li>`).join("")}</ul>
