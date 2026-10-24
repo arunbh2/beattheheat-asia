@@ -15,7 +15,7 @@ const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + `
 ;Object.assign(this, { SYSTEMS, CONSEQUENCES, LINKS, LOOP_GROUPS, LOOPS, INSTITUTIONS, LEVERS, LOOP_PLACES, EVIDENCE, ORG_ROLES,
   ORGANISATIONS, GLOSSARY_GROUPS, GLOSSARY, WORKED_EXAMPLES, AT_RISK, AT_RISK_BARRIERS, STALLS, COOL_PLACES, COOL_TRAPS,
-  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, PLAN_GROUPS });`, ctx);
+  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, PLAN_GROUPS, LIVE_FINGERPRINT });`, ctx);
 const D = ctx, TODAY = new Date().toISOString().slice(0, 10);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const plain = s => String(s || "").replace(/\n/g, " ");
@@ -106,7 +106,11 @@ const out = {};
 // the web
 {
   const p = PAGES[0], intro = `How extreme heat ripples through ${D.SYSTEMS.length} systems: ${D.CONSEQUENCES.length} consequences and the links between them, each with its evidence.`;
-  let h = "", m = [`## ${p.title}`, intro];
+  const F = D.LIVE_FINGERPRINT;
+  let h = `<h2 id="heat">Extreme heat: where every cycle starts</h2><p>${esc(F.mapText)}</p><p class="meta">${esc(F.season)}</p>
+    <ul>${F.facts.map(f => `<li><strong>${esc(f.n)}</strong> ${esc(f.text)}</li>`).join("")}</ul>
+    <p class="src">${esc(F.defn)} Source: ${ext(F.source.url, F.source.label)}. Today’s scores: ${ext(F.map.url, F.map.label)}.</p>`;
+  let m = [`## ${p.title}`, intro, "### Extreme heat: where every cycle starts", F.mapText, `${F.season}:`, ...F.facts.map(f => `- ${f.n} ${f.text}`), `${F.defn} Source: ${F.source.label}, ${F.source.url}`];
   D.SYSTEMS.forEach(s => {
     h += `<h2 id="${s.id}">${esc(plain(s.label))}</h2><p>${esc(s.desc)}</p>`; m.push(`### ${plain(s.label)}`, s.desc);
     D.CONSEQUENCES.filter(c => c.sys === s.id).forEach(c => {

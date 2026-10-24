@@ -888,6 +888,17 @@
     </li>`;
   }
 
+  // the centre of the web carries the evidence that climate change is already adding heat
+  function fingerprintBox() {
+    const F = typeof LIVE_FINGERPRINT !== "undefined" ? LIVE_FINGERPRINT : null; if (!F) return "";
+    return `<div class="fp-box"><p class="fp-box__h">${esc(F.mapTitle)}</p>
+      <p>${esc(F.mapText)}</p>
+      <p class="fp-box__season">${esc(F.season)}</p>
+      <ul class="fp-box__facts">${F.facts.map(f => `<li><b>${esc(f.n)}</b> ${esc(f.text)}</li>`).join("")}</ul>
+      <p class="panel__src">${esc(F.defn)} Source: ${extLink(F.source.url, F.source.label)}</p>
+      <p class="fp-box__go"><a href="#heat-now">See today’s heat in ten cities</a> · ${extLink(F.map.url, "Today’s Climate Shift Index")}</p></div>`;
+  }
+
   function renderNode(id) {
     const n = byId[id];
     const loops = n.loops.map(lid => loopById[lid]);
@@ -897,6 +908,7 @@
       <p class="panel__kicker" style="--c:${n.color}"><span class="dot"></span>${esc(kicker)}</p>
       <h2 class="panel__title">${esc(plain(n))}</h2>
       <p class="panel__desc">${gloss(n.desc)}</p>
+      ${n.kind === "hub" ? fingerprintBox() : ""}
       ${n.sources ? `<p class="panel__src">Evidence: ${n.sources.map(x => extLink(x.url, x.label)).join(" · ")}</p>` : ""}
       ${loops.length ? `<div class="loop-box"><p class="loop-box__h">Caught in ${plural(loops.length, "vicious cycle")}</p><ul class="loop-list">${loops.map(loopItem).join("")}</ul></div>` : ""}
       ${n.out.length ? `<button class="btn btn--full" data-act="ripple" data-id="${id}">Follow the ripple</button><p class="ripple-result" data-ripple-result hidden></p>` : ""}
