@@ -2683,6 +2683,30 @@
       if (window.matchMedia("(max-width: 900px)").matches) document.getElementById("city-panel").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" }); } }
   }
 
+  /* ---- live temperature ticker: one line above the header, from the shared live reading ---- */
+  function renderTicker() {
+    const bar = document.getElementById("ticker"), rail = document.getElementById("ticker-track"), pause = document.getElementById("ticker-pause");
+    if (!bar || !rail || !LIVE.length) return;
+    liveFetch().then(data => {
+      const ok = LIVE.filter(c => data.cities[c.id] && liveAge(data.cities[c.id]) < LIVE_STALE); if (!ok.length) return;
+      const hot = ok.reduce((a, b) => data.cities[b.id].feels > data.cities[a.id].feels ? b : a).id;
+      const set = copy => `<ul class="ticker__set"${copy ? ' aria-hidden="true"' : ""}>${ok.map(c => { const d = data.cities[c.id];
+        return `<li${c.id === hot ? ' class="is-hot"' : ""}><a href="#city-${c.id}" data-ticker-city="${c.id}"${copy ? ' tabindex="-1"' : ""}><span class="ticker__pin" style="background:${heatColor(d.feels)}" aria-hidden="true"></span><b>${esc(c.name)}</b><span>${deg(d.t)}<span class="ticker__f">, feels like ${deg(d.feels)}</span></span>${c.id === hot ? '<span class="ticker__hot">Hottest now</span>' : ""}</a></li>`; }).join("")}
+        <li class="ticker__more"><a href="#heat-now"${copy ? ' tabindex="-1"' : ""}>All ${ok.length} cities and the week ahead</a></li></ul>`;
+      // two identical sets make the loop seamless; the second is hidden from screen readers and the keyboard
+      rail.innerHTML = set(false) + set(true);
+      bar.hidden = false;
+      rail.style.setProperty("--ticker-dur", `${Math.max(30, Math.round(rail.scrollWidth / 2 / 45))}s`);
+    }, () => {});
+    bar.addEventListener("click", ev => {
+      const a = ev.target.closest("[data-ticker-city]"); if (!a) return;
+      ev.preventDefault(); showCity(a.dataset.tickerCity); setHash("city-" + a.dataset.tickerCity); track("ticker-" + a.dataset.tickerCity);
+      document.getElementById("city").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" });
+    });
+    pause.addEventListener("click", () => { const on = pause.getAttribute("aria-pressed") !== "true";
+      pause.setAttribute("aria-pressed", String(on)); pause.textContent = on ? "Play" : "Pause"; bar.classList.toggle("is-paused", on); });
+  }
+
   function renderCity() {
     const sec = document.getElementById("city"), map = document.getElementById("city-map"), picks = document.getElementById("city-picks");
     if (!sec || !map || !CITIES.length) return;
@@ -2993,6 +3017,7 @@
     renderHomeHeats();
     renderNow();
     renderCity();
+    renderTicker();
     renderHeatwaves();
     renderStart();
     renderList();
