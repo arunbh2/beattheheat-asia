@@ -367,7 +367,7 @@ const CONSEQUENCES = [
       { label: "Burke, Hsiang and Miguel, Annual Review of Economics, 2015 (NBER working paper)", url: "https://www.nber.org/papers/w20598" },
       { label: "Zhu et al., JAMA Psychiatry, 2023", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10308303/" } ] },
   { id: "gbv", sys: "society", label: "Violence against\nwomen rises",
-    desc: "Across India, Nepal and Pakistan, each 1\u00a0°C rise in yearly temperature was linked to about 4.5% more violence by husbands and partners. Lost income, stress and crowded hot homes all play a part.",
+    desc: "Across India, Nepal and Pakistan, each 1\u00a0°C rise in yearly temperature was linked to about 4.5% more intimate partner violence. Lost income, stress and crowded hot homes all play a part.",
     sources: [
       { label: "Zhu et al., JAMA Psychiatry, 2023: ambient temperature and intimate partner violence in India, Nepal and Pakistan", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10308303/" } ] },
   { id: "conflict", sys: "society", label: "Conflict over\nwater and land",
@@ -734,7 +734,7 @@ const INSTITUTIONS = [
   { id: "schools",   name: "Schools and education authorities",    desc: "Decide on classrooms, timetables and support that keeps children learning." },
   { id: "insurers",  name: "Banks, insurers and financial regulators", desc: "Price risk, design insurance and lending, set prudential rules and decide where capital flows. They include central banks, commercial and farm banks, and microfinance lenders." },
   { id: "funders",   name: "Development banks, donors and climate funds", desc: "Finance prevention, protection and the institutions that deliver them." },
-  { id: "community", name: "Community and civil society groups",   desc: "Reach the people institutions miss: checking on neighbours, running cooling spaces, holding power to account." },
+  { id: "community", name: "Community and civil society groups",   desc: "Reach the people institutions miss: checking on neighbours, running cooling spaces, and giving people a voice in decisions." },
   { id: "intl",      name: "International bodies",                 desc: "Set global standards and agreements on emissions, refrigerants and work." }
 ];
 
@@ -1230,7 +1230,7 @@ const EVIDENCE = {
       finding: "Heat-related illness cost Bangladesh 250 million workdays in 2024, worth up to US$1.78 billion, about 0.4% of GDP. Since 1980 the ‘feels-like’ temperature has risen by 4.5\u00a0°C." }
   ],
   debt: [
-    { by: "Human Rights Watch, 2025", title: "Debt Traps: Predatory microfinance loans in Cambodia", url: "https://www.hrw.org/report/2025/09/24/debt-traps/predatory-microfinance-loans-and-exploitation-of-cambodias-indigenous",
+    { by: "Human Rights Watch, 2025", title: "Microfinance debt in Cambodia", url: "https://www.hrw.org/report/2025/09/24/debt-traps/predatory-microfinance-loans-and-exploitation-of-cambodias-indigenous",
       type: "Human rights investigation", where: "Cambodia", scale: "National loan data with interviews",
       limit: "Shows how heavy debt is; it does not measure the part heat plays.",
       finding: "Cambodia’s average microloan was over US$5,800 in 2024, more than four times the country’s median annual income per person." },
@@ -1384,7 +1384,7 @@ const EVIDENCE = {
     { by: "Associated Press via PBS NewsHour, 2024", title: "India likely undercounts heat-related deaths, tempering its response, officials say", url: "https://www.pbs.org/newshour/world/india-likely-undercounts-heat-related-deaths-tempering-its-response-officials-say",
       type: "News report", where: "India", scale: "National, two agencies’ records",
       limit: "Compares two official counts in one year.",
-      finding: "In 2020, India’s crime records bureau recorded 530 heatstroke deaths while the disaster agency recorded four. Experts say the low counts weaken preparation." },
+      finding: "In 2020, India’s crime records bureau recorded 530 heatstroke deaths while the disaster agency recorded four. Different systems count differently, which makes the full toll hard to see." },
     { by: "Down To Earth, 2024", title: "Lost in the heat: the critical miscalculation in India’s heatwave mortality data", url: "https://www.downtoearth.org.in/climate-change/lost-in-the-heat-the-critical-miscalculation-in-indias-heatwave-mortality-data",
       type: "News analysis", where: "India", scale: "National",
       limit: "Describes how deaths are recorded; it does not estimate the missing number.",
@@ -2142,7 +2142,7 @@ const AT_RISK_BARRIERS = [
   { q: "Who receives the warning", a: "Alerts by app, radio or loudspeaker miss people without phones, signal, literacy or the right language." },
   { q: "Who can move to safety", a: "Age, disability, care duties and distance decide who can reach shade, water or a cooling centre." },
   { q: "Who can keep earning", a: "Without land, credit, contracts or savings, resting in the heat means losing the day’s income." },
-  { q: "Who has a say", a: "Women, migrants and people of marginalised identities are often missing from the rooms where heat plans are made." },
+  { q: "Who has a say", a: "Women, migrants and people from excluded communities are often missing from the rooms where heat plans are made." },
   { q: "Who can reach care in time", a: "A clinic that is far away, has no way to cool patients, or is open only while people are at work turns treatable heat illness into a death." }
 ];
 const AT_RISK = [
@@ -2193,7 +2193,7 @@ const AT_RISK = [
     source: { label: "FAO, The Unjust Climate, 2024", url: "https://www.fao.org/newsroom/detail/fao-report--heatwaves-and-floods-affect-rural-women-and-men-differently--widen-income-gap" },
     more: [{ fact: "In a study of Indian women workers, 87% of those with poor or no toilets at work reported genitourinary problems, and about 1 in 10 showed heat strain and moderate dehydration.",
       source: { label: "Venugopal et al., Global Health Action, 2016", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5025522/" } },
-      { fact: "In Nepal’s Madhesh Province, women cooking in hot, smoky kitchens carry a daily ‘thermal labour’ that falls hardest on Dalit women in single-room homes with little access to clean energy or credit.",
+      { fact: "In Nepal’s Madhesh Province, women cooking in hot, smoky kitchens carry a daily ‘thermal labour’ that falls hardest on women in the poorest single-room homes with little access to clean energy or credit.",
       source: { label: "Ghimire and others, Frontiers in Public Health, 2025", url: "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1657267/full" } }],
     nodes: ["care", "fetching", "gbv", "inequality"], levers: ["heatcash", "socialprotection", "hap", "coolhousing"] },
   { id: "mothers", name: "Pregnant women, babies and young children",
@@ -2218,7 +2218,7 @@ const AT_RISK = [
     exposure: "Hot, crowded rented rooms, cells and the hardest outdoor jobs, often in a place where they have few connections.",
     fact: "Tamil Nadu’s heat strategy names prisoners, held in concrete buildings with little green space, among the groups heat plans must reach, and proposes cool roofs and trees for its jails.",
     source: { label: "Tamil Nadu Heat Mitigation Strategy, 2024", url: "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf" },
-    barriers: "No local ID, address or language can mean no warnings, clinics, rations or relief. Many migrant workers are not registered under welfare laws, such as construction workers’ boards, so they miss health and safety benefits meant for them. Caste and social identity can decide who is reached first.",
+    barriers: "No local ID, address or language can mean no warnings, clinics, rations or relief. Many migrant workers are not registered under welfare laws, such as construction workers’ boards, so they miss health and safety benefits meant for them. Who is registered, and who is known to local officials, can decide who is reached first.",
     nodes: ["migration", "homes", "informal", "gbv"], levers: ["coolhousing", "socialprotection", "freecare", "heatrules"] }
 ];
 
@@ -2228,8 +2228,8 @@ const AT_RISK = [
 // sign: how you can tell it is happening. moves: what has shifted it elsewhere. levers and loops: ids from parts 6 and 4.
 // fact and source (optional): only use published sources you have opened. more (optional): further facts, each with its own source.
 const STALLS = [
-  { id: "owner", video: "media/stalls/owner.mp4", length: "0:22", name: "Nobody owns it",
-    sign: "Heat sits between health, disaster, labour and urban departments, so no one holds the mandate, the budget line or the blame.",
+  { id: "owner", video: "media/stalls/owner.mp4", length: "0:23", name: "Heat has no single owner",
+    sign: "Heat sits between health, disaster, labour and urban departments, so no single department holds the mandate or the budget line.",
     moves: ["Name one lead agency with a legal mandate and a named heat officer", "Run a standing heat committee across departments that meets before the season, not during it", "Convene a standing network of departments, anchored by the planning and disaster agencies, that reviews progress every six to eight months", "Tie the heat plan to disaster law so its instructions carry weight"],
     more: [{ fact: "In 2024 Tamil Nadu’s State Planning Commission convened a Heat Action Network of line departments to write a state-wide heat strategy, with progress reviews every 6–8 months.",
       source: { label: "Tamil Nadu Heat Mitigation Strategy, 2024", url: "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf" } },
@@ -2252,19 +2252,19 @@ const STALLS = [
     fact: "Between March and July 2026, India’s heat surveillance logged 4,853 heatstroke cases but only 20 heatstroke deaths.",
     source: { label: "Ministry of Home Affairs, reported by Down To Earth, 2026", url: "https://www.downtoearth.org.in/climate-change/india-updates-disaster-list-to-include-heatwaves-and-lightning-after-finance-commission-push" },
     levers: ["countdeaths"], loops: ["invisible"] },
-  { id: "skills", video: "media/stalls/skills.mp4", length: "0:22", name: "Too few people know how",
-    sign: "Plans are written by outside experts and left with district staff who have no training, no time and, after the next transfer, no successor.",
+  { id: "skills", video: "media/stalls/skills.mp4", length: "0:20", name: "Too few people know how",
+    sign: "Plans are often prepared with outside experts, and district teams may not get the training, time or handover they need when staff move on.",
     moves: ["Train district and municipal staff every spring, before the first alert", "Pair cities so newer ones learn from those with tested plans", "Write heat roles into job descriptions so the skills survive staff transfers"],
     levers: ["hap", "readyclinics"], loops: ["clinic"] },
-  { id: "rules", video: "media/stalls/rules.mp4", length: "0:19", name: "Rules without teeth",
-    sign: "Advice exists, but rest breaks, building codes and cooling standards are voluntary or never inspected.",
+  { id: "rules", video: "media/stalls/rules.mp4", length: "0:20", name: "Guidance not yet binding",
+    sign: "Advice exists, but rest breaks, building codes and cooling standards are often voluntary or rarely inspected.",
     moves: ["Make heat-safe work rules binding, with inspections in the hot months", "Build heat into rules that already exist, such as state occupational safety rules, instead of waiting for a new law", "Write cooling into building codes and public purchasing", "Publish what was inspected and what was found"],
     fact: "In a study of 352 workers at seven salt pans in Tamil Nadu, close to 9 in 10 worked above recommended heat limits and none of the salt pans gave regular rest breaks. Workers above the limit had nearly three times the odds of reduced kidney function.",
     source: { label: "Venugopal et al., Kidney International Reports, 2023", url: "https://doi.org/10.1016/j.ekir.2023.04.011" },
     levers: ["heatrules", "coolbydesign"], loops: ["poverty"] },
-  { id: "room", video: "media/stalls/room.mp4", length: "0:22", name: "The people at risk aren’t in the room",
-    sign: "Plans are made without women, outdoor workers, older people, people with disabilities or migrants, so warnings and shelters miss them.",
-    moves: ["Bring workers’ unions, women’s groups and disability organisations into planning", "Test every warning and shelter with the people it is meant for", "Give communities a simple way to report what failed"],
+  { id: "room", video: "media/stalls/room.mp4", length: "0:24", name: "The people at risk aren’t in the room",
+    sign: "Plans are often made without hearing from women, outdoor workers, older people, people with disabilities or migrants, so warnings and shelters miss them.",
+    moves: ["Bring workers’ unions, women’s groups and disability organisations into planning", "Test every warning and shelter with the people it is meant for", "Give communities a simple way to report what is not reaching them"],
     fact: "Only 2 of the 37 plans included an assessment of who is most vulnerable.",
     source: { label: "Centre for Policy Research, 2023", url: "https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/" },
     levers: ["hap", "coolingcentres"], loops: [] },
@@ -2417,8 +2417,8 @@ const PLAN_WORKSHOP = {
 // facts: only use published sources you have opened. Book chapters are cited, not adapted (CC BY-NC-ND).
 const COOL_PLACES = [
   { id: "homes", name: "Homes", protects: "Sleep, care work, and the older people, young children and sick people who spend the hottest hours indoors.",
-    kitchen: { title: "Kitchen heat", brief: "Cooking adds heat on top of the weather, often in the smallest room and usually for women; in Nepal’s Madhesh Province it falls hardest on Dalit women in single-room homes.",
-      text: "Cooking adds heat on top of the weather, often in the smallest, least ventilated room, and usually for women. In Nepal’s Madhesh Province, women cooking in hot, smoky kitchens carry a daily ‘thermal labour’ that falls hardest on Dalit women in single-room homes with little access to clean energy or credit.",
+    kitchen: { title: "Kitchen heat", brief: "Cooking adds heat on top of the weather, often in the smallest room and usually for women; in Nepal’s Madhesh Province it falls hardest on women in the poorest single-room homes.",
+      text: "Cooking adds heat on top of the weather, often in the smallest, least ventilated room, and usually for women. In Nepal’s Madhesh Province, women cooking in hot, smoky kitchens carry a daily ‘thermal labour’ that falls hardest on women in the poorest single-room homes with little access to clean energy or credit.",
       questions: ["How much heat does the stove give off, and does anyone sit beside it for long?", "Can hot air and smoke get out: a window, a vent, a gap under the roof?", "Is there smoke from wood, dung or kerosene adding to the strain?", "How long is cooking each day, and can some of it move to cooler hours?", "Can the household afford cleaner fuel through the season, not only once?", "Is the electricity reliable enough for a fan or an electric cooker when it is hottest?"],
       source: { label: "Ghimire and others, Frontiers in Public Health, 2025", url: "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1657267/full" } },
     caution: "Check the roof type, fire safety, tenure and ventilation before any retrofit.",
@@ -2788,7 +2788,7 @@ const STAKES_LABEL = { cost: "What this cycle costs", saves: "What breaking it s
 // place, no full plan found), "none" (no city plan found). loops: the cycles the site's evidence ties to this city or
 // country, with why in a sentence; orgs, examples and risk point to ids elsewhere in this file.
 // heat: the kind of heat the city mostly faces (see the glossary entry "Dry heat and humid heat").
-const CITY_HAP = { plan: "Heat plan in force", building: "Parts in place, no full plan found", none: "No city heat plan found" };
+const CITY_HAP = { plan: "Heat plan in force", building: "Parts in place, no full plan found", none: "No published city heat plan found" };
 const CITY_PROFILES = [
   { id: "singapore", tagline: "A city-state with hot nights, dense towers and an early national heat stress advisory.",
     heat: "Humid heat, all year round.",
@@ -2840,7 +2840,7 @@ const CITY_PROFILES = [
     orgs: ["ojk", "komida", "nusantarafund"], examples: [], risk: ["settlements", "workers"] },
   { id: "delhi", tagline: "A capital of extreme pre-monsoon heat, street trade and falling groundwater.",
     heat: "Dry heat before the monsoon, then humid heat during it.",
-    hap: { status: "plan", text: "Delhi launched its 2025 Heat Action Plan in April 2025, with graded heat alerts, cooling shelters, 3,000 water points and heatstroke units in hospitals. Critics say it lacks legal backing and dedicated funds.",
+    hap: { status: "plan", text: "Delhi launched its 2025 Heat Action Plan in April 2025, with graded heat alerts, cooling shelters, 3,000 water points and heatstroke units in hospitals. Experts have recommended legal backing and dedicated funds to strengthen it.",
       sources: [{ label: "Business Today, 2025", url: "https://www.businesstoday.in/amp/india/story/imd-predicts-heatwave-conditions-in-april-delhi-govt-launches-action-plan-472890-2025-04-21" },
         { label: "Citizen Matters", url: "https://citizenmatters.in/city-buzz-five-things-you-must-know-about-the-delhi-heat-action-plan" }] },
     loops: [
@@ -2885,7 +2885,7 @@ const CITY_PROFILES = [
     loops: [
       { id: "clinic", why: "The plan prepared hospitals and warned the public before heat peaked." },
       { id: "poverty", why: "Up to three-quarters of India’s workforce depends on heat-exposed work." },
-      { id: "invisible", why: "India’s heat deaths are undercounted, which weakens the case for prevention." } ],
+      { id: "invisible", why: "As in most countries, heat deaths are hard to count, which makes the case for prevention harder to see." } ],
     orgs: ["ahmedabad", "aidmi", "ibisa", "c40", "hera"], examples: ["ahmedabad"], risk: ["workers", "settlements"] }
 ];
 
@@ -2911,7 +2911,7 @@ const HEATWAVES = [
   { id: "southasia2015", year: 2015, when: "May–June 2015", place: "India and Pakistan", title: "South Asia’s deadliest recent heatwave",
     peak: "40–45 °C for weeks in Andhra Pradesh and Telangana", atLeast: true, deaths: 3600, toll: "More than 2,500 deaths in India, mostly in Andhra Pradesh and Telangana, and more than 1,100 in Pakistan, centred on Karachi",
     what: "Heat swept India’s south-east in May, then struck Karachi in June.",
-    changed: "In the years after, Indian states and cities wrote dozens of heat action plans, though a 2023 review of 37 found few with funding or a vulnerability assessment.",
+    changed: "In the years after, Indian states and cities wrote dozens of heat action plans, and a 2023 review of 37 found that most had yet to secure funding or a vulnerability assessment.",
     nodes: ["deaths", "underfund"], sources: [{ label: "Encyclopaedia Britannica: India–Pakistan heat wave of 2015", url: "https://www.britannica.com/print/article/2028529" },
       { label: "Centre for Policy Research, 2023: how is India adapting to heatwaves?", url: "https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/" }] },
   { id: "sea2016", year: 2016, when: "April 2016", place: "Thailand and mainland Southeast Asia", title: "El Niño and warming break Southeast Asia’s records",
@@ -3124,7 +3124,7 @@ const ACTION_SETTINGS = [
         who: ["employers", "workers", "nat", "city"],
         running: "Little equipment; the cost is paid time. Someone has to check the rule is kept.",
         evidence: { text: "In Singapore, monitors at 24 workplaces found workers could face more heat stress than nearby weather stations reported, so set breaks by heat measured on site.", source: { label: "NUS Project HeatSafe, 2024", url: "https://medicine.nus.edu.sg/wp-content/uploads/2024/03/PRESS-RELEASE_Project-HeatSafe-18MAR2024-FOR-IMMEDIATE-RELEASE.pdf" } },
-        stops: "Piece-rate pay and fixed deadlines that make stopping cost money, and nobody to inspect.",
+        stops: "Piece-rate pay and fixed deadlines that make stopping cost money, and no inspection.",
         worksIf: ["Breaks are paid, or paired with income protection", "Heat is measured where people work", "Shade and water are a few minutes away", "Inspectors or unions can check"],
         lever: "heatrules" },
       { id: "routes", status: "reported", horizon: "before", title: "Shade and water on work routes",
@@ -3210,7 +3210,7 @@ const ACTION_SETTINGS = [
         suits: "Homes cooking indoors on wood, dung, kerosene or gas.",
         who: ["community", "utilities", "nat"],
         running: "Fuel costs every month, and upkeep of vents and chimneys.",
-        evidence: { text: "In Nepal’s Madhesh Province, women cooking in hot, smoky kitchens carry a daily ‘thermal labour’ that falls hardest on Dalit women in single-room homes with little access to clean energy or credit.", source: { label: "Ghimire and others, Frontiers in Public Health, 2025", url: "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1657267/full" } },
+        evidence: { text: "In Nepal’s Madhesh Province, women cooking in hot, smoky kitchens carry a daily ‘thermal labour’ that falls hardest on women in the poorest single-room homes with little access to clean energy or credit.", source: { label: "Ghimire and others, Frontiers in Public Health, 2025", url: "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1657267/full" } },
         stops: "Clean fuel bought once but not refilled, and kitchens with no way for air to escape.",
         worksIf: ["Refills stay affordable all season", "There is an opening for heat and smoke", "Women decide how it is designed"],
         lever: "affordablecool" },
