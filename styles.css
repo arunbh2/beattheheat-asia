@@ -997,7 +997,7 @@ button { font: inherit; color: inherit; }
 .plan-story { margin-top: 16px; padding: 18px 20px; border-radius: 10px; background: var(--white); max-width: 60rem; }
 .plan-story[hidden] { display: none; }
 .plan-story__k { font-size: .72rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: #17605A; }
-.plan-story h3 { margin: 4px 0 10px; font-size: 1.25rem; }
+.plan-story h3, .plan-story h2 { margin: 4px 0 10px; font-size: 1.25rem; }
 .plan-story__steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
 @media (min-width: 900px) { .plan-story__steps { grid-template-columns: repeat(3, 1fr); gap: 18px; } }
 .plan-story__steps li { padding-top: 8px; border-top: 3px solid var(--teal); color: var(--grey-700); font-size: .93rem; }
@@ -1031,7 +1031,7 @@ button { font: inherit; color: inherit; }
 .plan-row__title .when { margin-left: 6px; vertical-align: middle; }
 .plan-summary { padding: 18px 20px; border-radius: 10px; background: var(--ink); color: var(--canvas); }
 .plan-summary__k { font-size: .72rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: var(--amber); }
-.plan-summary h3 { margin: 4px 0 12px; font-size: 1.15rem; }
+.plan-summary h3, .plan-summary h2 { margin: 4px 0 12px; font-size: 1.15rem; }
 .plan-summary__stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 12px; }
 .plan-summary__stats p { font-size: .78rem; color: rgba(250,247,242,.8); }
 .plan-summary__stats strong { display: block; font-family: var(--font-display); font-weight: 400; font-size: 2rem; line-height: 1; color: var(--canvas); }
@@ -2035,3 +2035,16 @@ body.film-open { overflow: hidden; }
 .feed__more { margin-top: 10px; color: #F6A27C; }
 .feed__meta, .feeds__note { margin-top: 10px; font-size: .76rem; color: #A9B0BA; }
 .feed__meta a { color: inherit; }
+
+/* Plan a response: launcher on the map, and its own page */
+.plan-launch__steps { margin: 22px 0 0; padding: 0; list-style: none; counter-reset: pl; display: grid; gap: 8px; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); max-width: 64rem; }
+.plan-launch__steps li { counter-increment: pl; display: flex; gap: 10px; align-items: baseline; padding: 12px 14px; border-radius: 12px; background: var(--white); border: 1px solid var(--line); font-size: .9rem; }
+.plan-launch__steps li::before { content: counter(pl); flex: none; font-family: var(--font-display); font-size: 1.4rem; line-height: 1; color: var(--orange); }
+.plan-launch__sum { margin-top: 18px; font-size: .95rem; }
+.plan-launch__go { margin-top: 16px; display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; }
+.plan-launch__ex { font-size: .86rem; color: var(--grey-700); }
+.plan--page { padding-top: clamp(36px, 6vw, 72px); }
+.plan--page h1.h2 { margin-top: 0; }
+/* on the map, links into the plan open its own page */
+body:not([data-page="plan"]) a[href^="#plan-"]::after, body:not([data-page="plan"]) .cp__links a[href="#plan"]::after { content: "\00a0↗"; }
+.plan-launch__ex a { color: var(--ink); text-decoration-color: var(--orange); text-underline-offset: 3px; font-weight: 600; }
