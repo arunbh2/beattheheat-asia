@@ -1829,7 +1829,14 @@ body.film-open { overflow: hidden; }
 /* A week in the heat */
 .door-more { grid-column: 1 / -1; justify-self: center; font-weight: 800; color: var(--ink); text-decoration: underline; text-decoration-color: var(--orange); text-underline-offset: 4px; padding: 6px 0; }
 .wk { padding: clamp(56px, 8vw, 104px) 0; background: linear-gradient(180deg, #FFF3E4 0%, #FDF8F1 40%, var(--canvas) 100%); border-top: 1px solid var(--line); }
-.wk-people { margin-top: 24px; display: grid; gap: 14px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.wk-countries { margin-top: 24px; display: flex; flex-wrap: wrap; gap: 8px; }
+.wk-countries button { min-height: 40px; padding: 6px 16px; border-radius: 999px; border: 1.5px solid var(--ink); background: var(--white); font: inherit; font-size: .88rem; font-weight: 800; color: var(--ink); cursor: pointer; }
+.wk-countries button[aria-pressed="true"] { background: var(--ink); color: var(--white); }
+.wk-countries button:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
+.wk-ctx { margin: 12px 0 4px; padding: 10px 14px; border-radius: 12px; background: var(--white); border: 1px solid var(--line); font-size: .86rem; }
+.wk-ctx summary { cursor: pointer; font-weight: 800; }
+.wk-ctx ul { margin: 8px 0 0; padding-left: 18px; display: grid; gap: 6px; }
+.wk-people { margin-top: 16px; display: grid; gap: 14px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .wk-person { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; padding: 10px 10px 14px; border-radius: 16px; border: 2px solid transparent; background: var(--white); cursor: pointer; text-align: left; font: inherit; color: var(--ink); box-shadow: 0 1px 3px rgba(22,32,43,.08); transition: transform .15s, border-color .15s; }
 .wk-person:hover { transform: translateY(-2px); }
 .wk-person[aria-pressed="true"] { border-color: #E0442B; box-shadow: 0 6px 18px rgba(224,68,43,.18); }

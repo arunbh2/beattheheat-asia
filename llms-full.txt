@@ -3722,13 +3722,55 @@ Where it has been tried (Simulation or test): In Dhaka, the Red Cross and Red Cr
 
 Follow one worker’s money through a heatwave week, build protection, then test it. A measure counts only when the person can actually use it.
 
+#### India
+
 - Rekha, Vegetable vendor: Rekha buys vegetables at dawn and sells from a cart until dark. What does not sell by evening, she loses.
 
 - Sunil, Daily-wage construction worker: Sunil waits at the naka from 7 a.m. If a contractor picks him, he works the day. If he is not there, someone else is picked.
 
 - Farida, Home-based garment worker: Farida stitches garments at home, paid by the piece. The tin roof turns the room into an oven by noon, and it stays hot at night.
 
-Rekha, Sunil and Farida are composites, not real people. The numbers are examples in Indian rupees a day; change them to match the people you work with. The tool adds up cash. It does not predict illness, productivity or payouts.
+- In a survey of 721 Delhi street vendors in 2024, 80% saw fewer customers during heatwaves and 49% lost income. (Greenpeace India and National Hawkers Federation, 2024, https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/)
+
+- Doctors at two Indian hospitals said more than 90% of their heat-illness patients in 2024 were outdoor workers. (Context (Thomson Reuters Foundation), 2024, https://www.context.news/climate-risks/ice-baths-and-ventilators-indias-hospitals-adapt-to-killer-heat)
+
+#### Bangladesh
+
+- Rahim, Rickshaw puller: Rahim rents a rickshaw from a garage owner every morning. Whatever he earns, the day’s rent is owed when he returns it.
+
+- Rickshaw pullers in Dhaka have described their earnings falling from about Tk 1,200 to Tk 700–800 a day in extreme heat, with fewer passengers and shorter hours. (The Business Standard, https://www.tbsnews.net/bangladesh/environment/beneath-burning-sky-everyone-feels-heat-informal-workers-pay-highest-price)
+
+- In a 2024 heatwave, one puller returned his rickshaw after a few hours and still owed the day’s Tk 150 rent. (The Daily Star, 2024, https://www.thedailystar.net/business/news/small-businesses-daily-earners-scorched-heatwave-3594581)
+
+- In April 2024 the Bangladesh Red Crescent acted on the heat forecast in Dhaka: cash grants of at least Tk 5,000 to 4,000 households, three cooling stations with more than 15,000 visits, and caps for 3,500 rickshaw and van pullers. (Rockefeller Foundation case study, 2024, https://www.rockefellerfoundation.org/wp-content/uploads/2024/09/Heatwaves-in-Dhaka-Case-Study.pdf)
+
+- Dhaka North appointed a chief heat officer in 2023, and the city has given rickshaw pullers umbrellas, water and saline, and planned shaded cooling zones. (The Daily Observer, October 2024, https://observerbd.com/news/470908)
+
+#### Cambodia
+
+- Sreymom, Garment worker: Sreymom sews on a factory line under a metal roof. Her monthly wage is protected; the overtime that pays for her family’s extras is not, and missing a day loses the month’s attendance bonus.
+
+- The 2026 minimum wage for garment, footwear and travel goods workers is US$210 a month, plus a US$7 transport or housing allowance and a US$10 monthly attendance bonus. (DFDL, on Prakas 214/25, 2025, https://www.dfdl.com/insights/legal-and-tax-updates/cambodia-increase-in-minimum-wage-for-2026-for-the-garments-textiles-footwear/)
+
+- In April 2024 the Ministry of Labour asked factories to spray water on roofs, install enough fans, open windows, provide more clean drinking water and assign staff to watch workplace thermometers. (CamboJA News, 2024, https://cambojanews.com/garment-workers-request-for-water-mist-fans-as-rising-temperatures-affect-health-and-productivity)
+
+- At three garment factories in Phnom Penh, workers reporting heat symptoms rose from 68% in the cooler months to 88% in the hot months, by their own reports. (Chea et al., BMC Public Health, 2025, https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-025-22787-0)
+
+- The National Social Security Fund’s health care scheme covers private-sector workers at contracted public and private facilities. (UN Global Marketplace notice, 2024, https://www.ungm.org/Public/Notice/246332)
+
+#### Singapore
+
+- Kumar, Migrant construction worker: Kumar works on a building site and sleeps in a dormitory room. His basic pay is monthly; overtime is what he sends home. The law already gives him rest breaks and medical care.
+
+- Singapore’s heat stress framework for outdoor work requires rest under shade, regular drinking water and at least a week of acclimatisation, with hourly rest breaks of at least 15 minutes for heavy work in the highest heat stress. More measures become legal requirements from 1 December 2026. (Ministry of Manpower: heat stress measures for outdoor work, https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work)
+
+- The Ministry of Manpower has taken enforcement action against workplaces found not meeting the heat measures, including for inadequate shaded rest breaks. (HRD Asia, https://www.hcamag.com/asia/specialisation/employment-law/more-than-75-worksites-found-non-compliant-with-singapores-enhanced-heat-stress-measures-report/499570)
+
+- Employers must pay for medical treatment of their Work Permit holders and hold at least S$60,000 of medical insurance a year for each. (Ministry of Manpower, written answer, 2025, https://www.mom.gov.sg/newsroom/parliament-questions-and-replies/2025/1106-written-answer-to-pq-on-unpaid-medical-bills-incurred-by-work-permit-and-s-pass-holders)
+
+- Standards for new dormitories, announced in 2021, cap rooms at 12 residents and require enough fans for air circulation; existing dormitories are to be upgraded over time. (Ministry of Manpower, 2021, https://www.mom.gov.sg/newsroom/press-releases/2021/0917-improved-standards-for-new-migrant-worker-dormitories)
+
+Every worker here is a composite, not a real person. The numbers are examples in local currency a day; change them to match the people you work with. The tool adds up cash. It does not predict illness, productivity or payouts.
 
 - In Singapore, a study of 355 workers found each hot day cost a median S$21, about 24% of a day’s pay. (NUS Project HeatSafe, 2024, https://medicine.nus.edu.sg/wp-content/uploads/2024/03/PRESS-RELEASE_Project-HeatSafe-18MAR2024-FOR-IMMEDIATE-RELEASE.pdf)
 
