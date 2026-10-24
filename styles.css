@@ -1412,3 +1412,13 @@ body.film-open { overflow: hidden; }
 .fp-box__facts b { display: block; font-family: var(--font-display); font-weight: 400; font-size: 1.6rem; line-height: 1.05; color: var(--ink); }
 .fp-box__go { margin-top: 8px; font-size: .85rem; }
 .fp-box__go a { display: inline-block; padding: 4px 0; color: var(--ink); }
+/* what each cycle costs (LOOP_STAKES) */
+.stakes { margin: 12px 0 4px; padding: 10px 14px; border-left: 4px solid var(--red); background: #FDF0F1; }
+.stakes--saves { border-left-color: #2A9D8F; background: #EAF6F4; }
+.stakes__h { font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: #9E1A2C; }
+.stakes--saves .stakes__h { color: #1D6E64; }
+.stakes__n { font-family: var(--font-display); font-size: 1.9rem; line-height: 1.05; color: var(--ink); margin-top: 2px; }
+.stakes__t { font-size: .9rem; margin-top: 2px; }
+.stakes__src { font-size: .8rem; color: var(--grey-700); }
+.stakes__src a { color: inherit; display: inline-block; padding: 2px 0; }
+.stakes--none { font-size: .8rem; font-style: italic; color: var(--grey-700); background: none; border-left-color: var(--grey-300, #CFCAC2); padding: 4px 12px; }

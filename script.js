@@ -845,6 +845,7 @@
       <p class="panel__step ${step.levers ? "is-break" : ""}" aria-live="polite"><span>${state.step + 1} / ${story.steps.length}</span> ${esc(step.title)}</p>
       <p class="panel__desc">${gloss(step.text)}</p>
       ${step.loopAll && !step.levers && story.loop ? chainHTML(story.loop) : ""}
+      ${story.loop && state.step === 0 ? stakesHTML(story.loop) : ""}
       ${step.place ? `<p class="place"><span>Where to look</span>${esc(step.place)}</p>` : ""}
       ${story.loop && state.step === 0 ? watchButton("loop:" + story.loop.id, "Watch this loop") : ""}
       ${story.loop && state.step === 0 ? evidenceHTML(story.loop, false) : ""}
@@ -860,6 +861,14 @@
   }
 
   /* ======================= PANEL CONTENT ======================= */
+  // what each cycle costs while it keeps turning (or what breaking it saves), from LOOP_STAKES
+  const stakesHTML = l => {
+    if (typeof LOOP_STAKES === "undefined") return "";
+    const x = LOOP_STAKES[l.id];
+    if (!x) return `<p class="stakes stakes--none">${esc(STAKES_LABEL.none)}</p>`;
+    return `<div class="stakes stakes--${x.kind}"><p class="stakes__h">${esc(STAKES_LABEL[x.kind])}</p>
+      <p class="stakes__n">${esc(x.n)}</p><p class="stakes__t">${esc(x.text)} <span class="stakes__src">${extLink(x.url, x.by)}</span></p></div>`;
+  };
   const chainHTML = l => `<p class="chain">${l.path.map(id => `<span>${esc(plain(byId[id]))}</span>`).join('<i aria-hidden="true">→</i>')}<i aria-hidden="true">↺</i></p>`;
 
   const whoChips = v => (v.who || []).map(w => instById[w] ? `<button class="who-chip" data-inst="${w}">${esc(instById[w].name)}</button>` : "").join("");
@@ -1958,6 +1967,7 @@
               <span class="ev ev--broken">✓ Action switched on</span>
             </div>
             <p class="lrow__sum">${gloss(l.summary)}</p>
+            ${stakesHTML(l)}
             ${watchButton("loop:" + l.id, "Watch this loop")}
             ${chainHTML(l)}
             ${typeof LOOP_PLACES !== "undefined" && LOOP_PLACES[l.id] ? `<p class="place"><span>Where to look</span>${esc(LOOP_PLACES[l.id])}</p>` : ""}
