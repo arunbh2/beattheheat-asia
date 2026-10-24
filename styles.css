@@ -1392,3 +1392,15 @@ body.film-open { overflow: hidden; }
 .site-footer__text { max-width: 40rem; font-size: .85rem; color: var(--grey-700); }
 .site-footer__text a { display: inline-block; padding: 4px 0; color: var(--ink); }
 .site-footer__licence a { display: inline; padding: 6px 0; line-height: 1.9; }
+/* Heat right now: climate change's fingerprint (Climate Shift Index) */
+.now-c__csi { font-size: .8rem; }
+.now-c__csi a { display: inline-block; padding: 3px 0; color: #F6A27C; }
+.now-fp { margin-top: 28px; padding: 22px 22px 18px; border-radius: 12px; background: #1E2A37; border: 1px solid #2E3B49; border-left: 4px solid var(--orange); max-width: 60rem; }
+.now-fp__title { font-size: 1.25rem; color: var(--canvas); }
+.now-fp__text { margin-top: 8px; color: #C9CED6; max-width: 46rem; }
+.now-fp__text a, .now-fp__src a { display: inline-block; padding: 3px 0; }
+.now-fp__season { margin-top: 16px; font-size: .75rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: #F6A27C; }
+.now-fp__facts { list-style: none; padding: 0; margin: 8px 0 0; display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); }
+.now-fp__facts li { color: #C9CED6; font-size: .9rem; }
+.now-fp__facts b { display: block; font-family: var(--font-display); font-size: 2.2rem; line-height: 1.05; font-weight: 400; color: var(--canvas); }
+.now-fp__src { margin-top: 14px; font-size: .78rem; color: #A9B0BA; }

@@ -112,6 +112,8 @@ The “Cooling options” section, just before “Plan a response”, shows what
 - **The plan check:** step 4 of “Plan a response” can test the alert levels you typed against a city’s seven-day forecast, and lists what each day would switch on. WBGT levels are not tested, because the feed has no WBGT forecast.
 - **If Open-Meteo’s terms change,** or the site becomes commercial, the request in `liveFetch()` in `script.js` is the one place to update.
 
+`LIVE_FINGERPRINT` adds "Is this climate change?" under the city cards: three figures from Climate Central's summer analysis, and a link on each card to its Climate Shift Index map. When Climate Central publishes a new seasonal analysis, update `season`, `facts` and `source`.
+
 ## Visit counting (part 22 of `data.js`)
 
 Visits are counted with [GoatCounter](https://www.goatcounter.com/), which uses no cookies and collects no personal data. `SITE_ANALYTICS.goatcounter` holds the counter’s code; leave it empty (`""`) to switch counting off, and nothing is loaded. As well as page views, `track()` in `script.js` records a few anonymous events, each named for what it counts: films and explainers watched (`watch-…`), plan buttons (`plan-print`, `plan-copy`, `plan-map`), worked examples loaded, forecast checks by city, cooling options added to a plan, and briefs opened. The privacy note in “How this map works” describes this.

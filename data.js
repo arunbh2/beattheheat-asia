@@ -2212,6 +2212,23 @@ const LIVE_SOURCES = {
   model: { label: "Weather data by Open-Meteo.com", url: "https://open-meteo.com/", licence: "CC BY 4.0" },
   wbgt: { label: "Wet-bulb globe temperature: National Environment Agency, Singapore, via data.gov.sg", url: "https://data.gov.sg/datasets/d_87884af1f85d702d4f74c6af13b4853d/view" }
 };
+// Climate change's fingerprint: Climate Central's Climate Shift Index (CSI) and its June–August 2026 analysis.
+// Climate Central allows use of its data for educational and non-commercial purposes with credit; we link to its
+// map rather than copy it, and restate its published figures in our own words.
+const LIVE_FINGERPRINT = {
+  title: "Is this climate change?",
+  text: "Some of today’s heat is weather. Some of it is climate change. Climate Central’s Climate Shift Index scores each day’s temperature in more than 900 cities, from −5 to +5, by how much climate change made it more likely. A score of 3 means climate change made that day’s heat at least three times more likely.",
+  map: { label: "Climate Shift Index map, Climate Central", url: "https://csi.climatecentral.org/" },
+  cardLink: "Climate change’s fingerprint today",
+  season: "Summer 2026, June to August",
+  facts: [
+    { n: "1.5 billion+", text: "people worldwide had at least 30 days of risky heat added by climate change." },
+    { n: "117 million", text: "of them were in India, the most of any country, followed by China (94 million) and Indonesia (83 million)." },
+    { n: "2.8 billion", text: "people in Asia, 58% of its population, lived through at least 30 days of risky heat." }
+  ],
+  defn: "A risky heat day is hotter than 90% of the days recorded in that place from 1991 to 2020.",
+  source: { label: "Climate Central, Risky heat added by climate change: June to August 2026", url: "https://www.climatecentral.org/climate-matters/risky-summer-heat" }
+};
 const LIVE_NOTE = "Live model data, refreshed every 30 minutes. It is not an official warning: for alerts, follow the national weather service linked on each city.";
 
 /* ---------- 22. VISIT COUNTING ---------- */
