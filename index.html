@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap">
 
-  <link rel="stylesheet" href="styles.css?v=111">
+  <link rel="stylesheet" href="styles.css?v=112">
 
   <script type="application/ld+json">
   {
@@ -111,9 +111,10 @@
   }
   </script>
   <link rel="alternate" type="text/plain" href="/llms-full.txt" title="The whole map as plain text">
-  <script src="data.js?v=111" defer></script>
-  <script src="script.js?v=111" defer></script>
-  <script src="heatweek.js?v=111" defer></script>
+  <script src="data.js?v=112" defer></script>
+  <script src="script.js?v=112" defer></script>
+  <script src="heatweek.js?v=112" defer></script>
+  <script src="guide.js?v=112" defer></script>
 </head>
 
 <body>
@@ -139,42 +140,50 @@
     <button type="button" class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="site-menu">
       <span class="menu-btn__icon" aria-hidden="true"><i></i><i></i><i></i></span><span class="menu-btn__label">All sections</span>
     </button>
-    <!-- Every section, grouped in page order. Opened by the button above (script.js). -->
+    <!-- Every section, in four groups. Opened by the button above (script.js). -->
     <div class="site-menu" id="site-menu" hidden>
       <nav class="site-menu__inner" aria-label="All sections">
+        <p class="site-menu__start"><a href="#start"><b>New here?</b> Find your way in <span aria-hidden="true">→</span></a></p>
         <div class="site-menu__group">
-          <h2 class="site-menu__h" id="menu-g1">See the system</h2>
+          <h2 class="site-menu__h" id="menu-g1">Understand</h2>
           <ul aria-labelledby="menu-g1">
-            <li><a href="#start"><span class="site-menu__n" aria-hidden="true">01</span><span class="site-menu__t">Start here<small>What you want to do, and a path through the site</small></span></a></li>
-            <li><a href="#explore"><span class="site-menu__n" aria-hidden="true">02</span><span class="site-menu__t">The web<small>Every consequence of heat, and how each leads to the next</small></span></a></li>
-            <li><a href="#loops"><span class="site-menu__n" aria-hidden="true">03</span><span class="site-menu__t">Where loops break<small>The vicious cycles, and where they can be cut</small></span></a></li>
-            <li><a href="#day"><span class="site-menu__n" aria-hidden="true">04</span><span class="site-menu__t">A day in a heatwave<small>Eight hours, seven places across Asia</small></span></a></li>
-            <li><a href="#heat-now"><span class="site-menu__n" aria-hidden="true">05</span><span class="site-menu__t">Heat right now<small>Live readings for twelve Asian cities</small></span></a></li>
-            <li><a href="#city"><span class="site-menu__n" aria-hidden="true">06</span><span class="site-menu__t">Your city<small>Heat, plans and cycles in twelve cities</small></span></a></li>
-            <li><a href="#heatwaves"><span class="site-menu__n" aria-hidden="true">07</span><span class="site-menu__t">Heatwaves that shaped Asia<small>Ten heatwaves, 1998 to 2026</small></span></a></li>
-            <li><a href="#at-risk"><span class="site-menu__n" aria-hidden="true">08</span><span class="site-menu__t">Who heat hits hardest<small>Same heatwave, different barriers</small></span></a></li>
+            <li><a href="#explore"><span class="site-menu__t">The web<small>Every consequence of heat, and how each leads to the next</small></span></a></li>
+            <li><a href="#loops"><span class="site-menu__t">Where loops break<small>The vicious cycles, and where they can be cut</small></span></a></li>
+            <li><a href="#day"><span class="site-menu__t">A day in a heatwave<small>Eight hours, seven places across Asia</small></span></a></li>
+            <li><a href="#heat-now"><span class="site-menu__t">Heat right now<small>Live readings for twelve Asian cities</small></span></a></li>
+            <li><a href="#city"><span class="site-menu__t">Your city<small>Heat, plans and cycles in twelve cities</small></span></a></li>
+            <li><a href="#heatwaves"><span class="site-menu__t">Heatwaves that shaped Asia<small>Ten heatwaves, 1998 to 2026</small></span></a></li>
+            <li><a href="#at-risk"><span class="site-menu__t">Who heat hits hardest<small>Same heatwave, different barriers</small></span></a></li>
+            <li><a href="#wicked"><span class="site-menu__t">Why heat is a wicked problem<small>No single cause, owner or finish line</small></span></a></li>
           </ul>
         </div>
         <div class="site-menu__group">
-          <h2 class="site-menu__h" id="menu-g2">Act on it</h2>
+          <h2 class="site-menu__h" id="menu-g2">Act</h2>
           <ul aria-labelledby="menu-g2">
-            <li><a href="#heatweek"><span class="site-menu__n" aria-hidden="true">09</span><span class="site-menu__t">A week in the heat<small>Follow one worker’s money, build protection, test it</small></span></a></li>
-            <li><a href="#who-holds"><span class="site-menu__n" aria-hidden="true">10</span><span class="site-menu__t">Who holds the levers<small>The institutions that can act, and how</small></span></a></li>
-            <li><a href="#stalls"><span class="site-menu__n" aria-hidden="true">11</span><span class="site-menu__t">Why action stalls<small>Seven conditions, and what moves them</small></span></a></li>
-            <li><a href="#practical"><span class="site-menu__n" aria-hidden="true">12</span><span class="site-menu__t">Find practical actions<small>What to do, by setting, and what keeps it working</small></span></a></li>
-            <li><a href="#cooling"><span class="site-menu__n" aria-hidden="true">13</span><span class="site-menu__t">Cooling options<small>What to build where people are, and how to keep it working</small></span></a></li>
-            <li><a href="#finance"><span class="site-menu__n" aria-hidden="true">14</span><span class="site-menu__t">Paying for protection<small>Who pays, how money arrives, and whether it lasts</small></span></a></li>
-            <li><a href="#plan"><span class="site-menu__n" aria-hidden="true">15</span><span class="site-menu__t">Plan a response<small>Turn the map into a one-page plan</small></span></a></li>
-            <li><a href="#network"><span class="site-menu__n" aria-hidden="true">16</span><span class="site-menu__t">The heat network<small>Organisations already at work</small></span></a></li>
+            <li><a href="#practical"><span class="site-menu__t">Find practical actions<small>What to do, by setting, and what keeps it working</small></span></a></li>
+            <li><a href="#cooling"><span class="site-menu__t">Cooling options<small>What to build where people are, and how to keep it working</small></span></a></li>
+            <li><a href="#finance"><span class="site-menu__t">Paying for protection<small>Who pays, how money arrives, and whether it lasts</small></span></a></li>
+            <li><a href="#who-holds"><span class="site-menu__t">Who holds the levers<small>The institutions that can act, and how</small></span></a></li>
+            <li><a href="#stalls"><span class="site-menu__t">Why action stalls<small>Seven conditions, and what moves them</small></span></a></li>
+            <li><a href="#network"><span class="site-menu__t">The heat network<small>Organisations already at work</small></span></a></li>
           </ul>
         </div>
         <div class="site-menu__group">
-          <h2 class="site-menu__h" id="menu-g3">Go deeper</h2>
+          <h2 class="site-menu__h" id="menu-g3">Tools</h2>
           <ul aria-labelledby="menu-g3">
-            <li><a href="#wicked"><span class="site-menu__n" aria-hidden="true">17</span><span class="site-menu__t">Why heat is a wicked problem<small>No single cause, owner or finish line</small></span></a></li>
-            <li><a href="#method"><span class="site-menu__n" aria-hidden="true">18</span><span class="site-menu__t">How this map works<small>What it shows, and what it doesn’t</small></span></a></li>
-            <li><a href="#glossary"><span class="site-menu__n" aria-hidden="true">19</span><span class="site-menu__t">Glossary<small>Heat terms in plain language</small></span></a></li>
-            <li><a href="#text-version"><span class="site-menu__n" aria-hidden="true">20</span><span class="site-menu__t">Every link, as text<small>The whole map in a readable list</small></span></a></li>
+            <li><a href="#heatweek"><span class="site-menu__t">A week in the heat<small>Follow one worker’s money, build protection, test it</small></span></a></li>
+            <li><a href="#plan"><span class="site-menu__t">Plan a response<small>Turn the map into a one-page plan</small></span></a></li>
+            <li><a href="/together/" target="_blank" rel="noopener"><span class="site-menu__t"><span>Make it work together<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></span><small>A coordinator’s simulation for one place</small></span></a></li>
+            <li><a href="/guide/" target="_blank" rel="noopener"><span class="site-menu__t"><span>How to use this site<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></span><small>Paths, the toolkit and a workshop guide</small></span></a></li>
+          </ul>
+        </div>
+        <div class="site-menu__group">
+          <h2 class="site-menu__h" id="menu-g4">Reference</h2>
+          <ul aria-labelledby="menu-g4">
+            <li><a href="#method"><span class="site-menu__t">How this map works<small>What it shows, and what it doesn’t</small></span></a></li>
+            <li><a href="#glossary"><span class="site-menu__t">Glossary<small>Heat terms in plain language</small></span></a></li>
+            <li><a href="#text-version"><span class="site-menu__t">Every link, as text<small>The whole map in a readable list</small></span></a></li>
+            <li><a href="/print/" target="_blank" rel="noopener"><span class="site-menu__t"><span>Printable one-pagers<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></span><small>Briefs for officials, partners and funders</small></span></a></li>
           </ul>
         </div>
       </nav>
@@ -201,7 +210,7 @@
         <div class="intro__doors">
           <a class="door door--act" href="#practical"><b>Find practical actions&nbsp;<span aria-hidden="true">→</span></b><span>What to do in workplaces, homes, schools, clinics and neighbourhoods: who does it, what it takes to run, and what makes it work.</span></a>
           <a class="door door--sys" href="#explore"><b>Explore the system&nbsp;<span aria-hidden="true">→</span></b><span>How heat ripples from one harm to the next, the vicious cycles, and where they can be cut.</span></a>
-                  <a class="door-more" href="#heatweek">Or spend a week in the heat with one worker <span aria-hidden="true">→</span></a>
+          <a class="door-new" href="#start"><span class="door-new__k">New here?</span> Find your way in: two questions, a short path <span aria-hidden="true">→</span></a>
         </div>
         <dl class="stats">
           <div><dt>Systems mapped</dt><dd data-stat="systems">10</dd></div>
@@ -212,8 +221,6 @@
         </dl>
         <div class="intro__tour">
           <button type="button" class="btn btn--film" data-act="film" aria-haspopup="dialog"><span class="play-icon" aria-hidden="true"></span>Watch the film <span class="btn__meta">(1:41)</span></button>
-          <button type="button" class="btn btn--cta" data-act="tour">Take the 60-second tour <span aria-hidden="true">→</span></button>
-          <span class="intro__tour-or">or scroll down and explore on your own.</span>
         </div>
         <p class="honest">This map is large, but the real web is larger. Every heatwave reveals links that aren’t drawn here yet.</p>
       </div>
@@ -224,14 +231,11 @@
     <section class="start" id="start" aria-labelledby="start-title">
       <div class="container">
         <p class="eyebrow">Start here</p>
-        <h2 id="start-title" class="start__h">What do you want to do?</h2>
-        <div class="start__intents" id="start-intents" role="group" aria-label="What do you want to do?"></div>
-        <div class="start__role">
-          <label for="start-role">Looking at it as <span>(optional)</span></label>
-          <select id="start-role"></select>
-        </div>
-        <div class="start__path" id="start-path" aria-live="polite"></div>
-        <p class="start__five">Not sure where to begin? <button type="button" class="btn btn--sm btn--cta" data-five="start">Take the first five minutes <span aria-hidden="true">→</span></button></p>
+        <h2 id="start-title" class="start__h">Find your way in</h2>
+        <p class="loops__intro">This site is large. Answer two questions and it will suggest a short path, with how long each stop takes and what you will leave with.</p>
+        <div id="wayin" class="wayin"></div>
+        <div id="toolkit" class="toolkit"></div>
+        <p class="wayin__more"><a href="/guide/" target="_blank" rel="noopener">How to use this site<span class="visually-hidden"> (opens in a new tab)</span> ↗</a> · <a href="/print/workshop-guide/" target="_blank" rel="noopener">Print the workshop guide<span class="visually-hidden"> (opens in a new tab)</span> ↗</a></p>
       </div>
     </section>
 

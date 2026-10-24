@@ -12,7 +12,7 @@ const ROOT = path.join(__dirname, ".."), SITE = "https://beattheheat.asia";
 let QR = null; try { QR = require("qrcode"); } catch (e) { /* optional */ }
 const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + `
-;Object.assign(this, { HOME_HEATS, GLOSSARY, LIVE_CITIES, CITY_PROFILES, CITY_HAP, LOOPS, LEVERS, ORGANISATIONS, WORKED_EXAMPLES, AT_RISK,
+;Object.assign(this, { HOME_HEATS, GLOSSARY, GUIDE, LIVE_CITIES, CITY_PROFILES, CITY_HAP, LOOPS, LEVERS, ORGANISATIONS, WORKED_EXAMPLES, AT_RISK,
   HEATWAVES, HEATWAVES_NOTE, COOL_PLACES, COOL_TRAPS, COOL_COST_NOTE, COOL_FX, STALLS, LIVE_FINGERPRINT, LOOP_STAKES, STRAIN, COOL_ASK, ACTION_SETTINGS, ACTION_LINES, INSTITUTIONS, FINANCE, EVIDENCE_STATUS });`, ctx);
 const D = ctx, TODAY = new Date().toISOString().slice(0, 10);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -129,6 +129,22 @@ async function build() {
   const out = {}, list = [];
   const add = (slug, meta, html) => { out[slug] = html; list.push(Object.assign({ slug }, meta)); };
   const H = D.HOME_HEATS, cpr = stall("money") && stall("money").source, nights = H.night.source;
+
+  // 0. The workshop guide: a running order for a 90-minute session (part 35)
+  if (D.GUIDE) {
+    const G = D.GUIDE;
+    const body = `<h2>Running order</h2><table><tr><th style="width:14%">Minutes</th><th style="width:44%">What happens</th><th>Why</th></tr>
+        ${G.workshop.map(w => `<tr><td><b>${esc(w.time)}</b></td><td><b>${esc(w.what)}</b></td><td>${esc(w.why)}</td></tr>`).join("")}</table>
+      <h2>The five tools, in the order they build on each other</h2><table><tr><th style="width:26%">Tool</th><th>What you leave with</th><th style="width:16%">Time</th></tr>
+        ${G.toolkit.map(t => `<tr><td><b>${t.n}. ${esc(t.verb)}</b><br>${esc(t.name)}</td><td>${esc(t.take)}</td><td>${esc(t.time)}</td></tr>`).join("")}</table>
+      <div class="cols" style="margin-top:4px"><div><h2>Tips for the facilitator</h2><ul class="tight">${G.workshopTips.map(t => `<li>${esc(t)}</li>`).join("")}</ul></div>
+        <div><h2>Before the session</h2><ul class="check">${["Choose the place the room knows best.", "Open the map, the worker exercise and the plan in three tabs.", "Check the projector shows small text clearly.", "Decide who records what is agreed."].map(t => `<li>${esc(t)}</li>`).join("")}</ul></div></div>
+      <p style="margin-top:6px"><b>Start here:</b> beattheheat.asia/guide/ · <b>The tools:</b> beattheheat.asia/a-week-in-the-heat/ · /plan/ · /together/</p>`;
+    add("workshop-guide", { kind: "Facilitator’s guide · For anyone running a session with officials, funders or NGOs", title: "Using BeatTheHeat.Asia in a 90-minute workshop", for: "Facilitators" },
+      await sheet({ slug: "workshop-guide", kind: "Facilitator’s guide · For anyone running a session with officials, funders or NGOs", title: "Using BeatTheHeat.Asia in a 90-minute workshop",
+        lede: "A shared picture first, then the felt experience of one worker’s week, then a plan with owners, money and triggers, and decisions recorded before people leave.", body, live: "/guide/",
+        sources: [{ label: "BeatTheHeat.Asia: how to use this site", url: "https://beattheheat.asia/guide/" }] }));
+  }
 
   // 1. Four heats in a home
   {

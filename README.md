@@ -174,9 +174,16 @@ Each `EVIDENCE` entry can carry `type`, `where`, `scale` and `limit`, shown unde
 
 Visits are counted with [GoatCounter](https://www.goatcounter.com/), which uses no cookies and collects no personal data. `SITE_ANALYTICS.goatcounter` holds the counter’s code; leave it empty (`""`) to switch counting off, and nothing is loaded. As well as page views, `track()` in `script.js` records a few anonymous events, each named for what it counts: films and explainers watched (`watch-…`), plan buttons (`plan-print`, `plan-copy`, `plan-map`), worked examples loaded, forecast checks by city, cooling options added to a plan, and briefs opened. The privacy note in “How this map works” describes this.
 
-## Start here, the first five minutes, and phones (part 23 of `data.js`)
+## Find your way in (part 35 of `data.js`, `guide.js`)
 
-- **Start here** sits just below the title. It asks “What do you want to do?” (`START_INTENTS`), with an optional “Looking at it as” role taken from the institutions in part 5, and shows a three-step path through the site. With a role chosen, the path shows that institution’s actions and cycles, and “Start the plan” adds its actions to “Plan a response” with that institution as the lead. Choices are remembered in the visitor’s browser.
+The site is large, so first-time visitors get one guide instead of several competing entry points. `GUIDE` in part 35 holds it all; `guide.js` draws it.
+
+- **Find your way in** sits just below the title (`#start`, drawn into `#wayin`). Two questions: *What brings you here?* (Understand heat · Help people this season · Build a plan with others · Fund or support this work) and *How much time do you have?* (5 minutes · half an hour · a workshop). Each of the twelve answers maps to a short path in `GUIDE.paths`: an ordered list of stops from `GUIDE.stops`, each with what it does, how long it takes, which tool it is, what you leave with, and one button. Stops tick off as they are used; the answers are remembered in this browser (`bth-guide-v1`). The film, the guided tour and the first five minutes are now stops on these paths rather than separate buttons.
+- **Your toolkit** (`GUIDE.toolkit`, drawn into `#toolkit`) shows the five tools in the order they build on each other: Feel it (A week in the heat), Find what works (Practical actions and Cooling options), Plan it (`/plan/`), Make it work together (`/together/`), Learn from others (the five city mechanisms). Each tool's own page carries a slim **signpost** bar (`#signpost`, step N of 5, and what comes next) and a box saying who it is for, how long it takes and what you leave with (`#signpost-box`).
+- **`/guide/`** is the same guide on its own page, with the site in four parts, a 90-minute workshop running order (`GUIDE.workshop`, `GUIDE.workshopTips`) and a few things good to know. Its stops reach the map through `/?go=film|tour|five`, which `goFromQuery()` in `script.js` reads and then removes from the address.
+- **A printable facilitator's guide**, `/print/workshop-guide/`, has the running order, the five tools, tips and a pre-session checklist.
+- **A welcome card** appears once, bottom left, on a first visit to the home page (not when arriving on a link to a section). It goes away when closed, when the visitor answers a question, or when they scroll to the guide.
+
 - **The first five minutes** (`FIRST_FIVE`) is a slim guide bar under the header with four stops: one loop, one group at risk, one place it breaks, then the plan. Each stop’s `go` names a loop, an at-risk group, a lever or a plan group.
 - **Phones only** (760 px wide or less): each section in `SECTION_SUMMARIES` opens as its heading and introduction with one button, whose label is the text given there. Long lists show the first few with a “Show all” button, and “Heat right now” shows the three cities that feel hottest first. Desktop always shows everything. Any link, guide stop or map action that points inside a collapsed section opens it first.
 
@@ -200,7 +207,7 @@ Text, data, films and illustrations: **CC BY 4.0** (see `LICENSE`). Code: **MIT*
 
 ## The menu at the top
 
-The bar at the top has a few quick links and an **All sections** button. The button opens every section of the page in three chapters (See the system, Act on it, Go deeper), numbered in page order. Both live in the `<header class="site-header">` at the top of `index.html`. If you add a new section, give it an `id` and add a line for it in the `site-menu` list, in page order. The bar and the menu mark the section on screen as “You are here” by themselves.
+The bar at the top has a few quick links and an **All sections** button. The button opens with “New here? Find your way in”, then every section in four groups: **Understand**, **Act**, **Tools** (the exercise, the plan, the coordinator's simulation and the guide; pages that open in a new tab are marked ↗) and **Reference**. Both live in the `<header class="site-header">` at the top of `index.html`. If you add a new section, give it an `id` and add a line for it in the `site-menu` list, in page order. The bar and the menu mark the section on screen as “You are here” by themselves.
 
 ## Your LinkedIn link on the site
 

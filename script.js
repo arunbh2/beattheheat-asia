@@ -3052,87 +3052,17 @@
   }
 
   /* ======================= START HERE ======================= */
-  // what people want to do, an optional role (an institution from part 5), and a short path through the site
-  const INTENTS = typeof START_INTENTS !== "undefined" ? START_INTENTS : [];
-  const START_KEY = "bth-start-v1";
-  let start = { intent: "", role: "" };
-  try { Object.assign(start, JSON.parse(localStorage.getItem(START_KEY) || "{}")); } catch (e) {}
-  const saveStart = () => { try { localStorage.setItem(START_KEY, JSON.stringify(start)); } catch (e) {} };
-  const sLink = (href, text) => `<a class="btn btn--sm btn--ghost" href="${href}">${esc(text)}</a>`;
-  const sBtn = (attrs, text) => `<button type="button" class="btn btn--sm btn--ghost" ${attrs}>${esc(text)}</button>`;
-
-  function startSteps(intent, inst) {
-    const n = inst ? inst.name.toLowerCase() : "";
-    if (intent === "act") return [
-      ["Pick a setting", "Workplaces, homes, schools, clinics, neighbourhoods, or what to do before summer.", sLink("#practical", "Find practical actions")],
-      ["Check what it takes to run", "Each card names who must act, the running costs and what it only works with.", sLink("#cooling", "Cooling options and costs")],
-      inst ? ["Put it in a plan", `${plural(inst.levers.length, "action")} that ${n} can lead, added in one tap.`, sBtn(`data-start-plan="${inst.id}"`, "Start the plan")]
-           : ["Put it in a plan", "Owners, money, triggers and a printable plan.", sLink("#plan", "Plan a response")] ];
-    if (intent === "understand") return [
-      ["See the whole web", "Ten systems, every consequence, and how one leads to the next.", sBtn('data-act="tour"', "Take the 60-second tour")],
-      inst ? ["Your part of it", `The cycles that ${n} can help break.`, sBtn(`data-inst="${inst.id}"`, "Show them on the map")]
-           : ["Watch one loop turn", "The poverty–heat trap, step by step.", sBtn('data-story="poverty"', "Follow the loop")],
-      ["Feel a whole day", "Eight hours of one heatwave across Asia.", sLink("#day", "A day in a heatwave")] ];
-    if (intent === "risk") return [
-      ["Meet the people", "Who heat hits hardest, and the barriers that hold them back.", sLink("#at-risk", "Who heat hits hardest")],
-      ["Check today’s heat", "Live readings for twelve Asian cities.", sLink("#heat-now", "Heat right now")],
-      inst ? ["What you can do for them", `The actions ${n} can take, and the cycles they cut.`, sBtn(`data-inst="${inst.id}"`, "Show them on the map")]
-           : ["Find what breaks their loops", "Every vicious cycle, and where it can be cut.", sLink("#loops", "Where loops break")] ];
-    if (intent === "plan") return [
-      inst ? ["Start your plan", `${plural(inst.levers.length, "action")} that ${n} can lead, added to your plan in one tap, with ${n} as the lead.`, sBtn(`data-start-plan="${inst.id}"`, "Start the plan")]
-           : ["Start from a real plan", "Load Ahmedabad, Thane, Tamil Nadu, Singapore or Dhaka, then make it your own.", sLink("#plan", "Plan a response")],
-      ["Choose what to build", "Cooling options by place, with what keeps each one working.", sLink("#cooling", "Cooling options")],
-      ["Know what could stop it", "Seven conditions that stall action, and what has moved them.", sLink("#stalls", "Why action stalls")] ];
-    if (intent === "partners") {
-      const orgs = inst ? ORGS.filter(o => o.levers.some(v => inst.levers.includes(v))) : [];
-      return [
-        inst ? ["Already working on your levers", orgs.length ? `${plural(orgs.length, "organisation")}, including ${orgs.slice(0, 3).map(o => o.name).join(", ")}.` : "No organisation on our list yet: a gap worth filling.", sLink("#network", "The heat network")]
-             : ["Browse the heat network", `${ORGS.length} organisations, searchable by lever and type.`, sLink("#network", "The heat network")],
-        ["Funders", "Philanthropy, development banks and climate funds.", sBtn('data-start-net="funders"', "Show funders")],
-        ["Banks, regulators and microfinance", "Disaster loan relief and climate-risk rules across South and Southeast Asia.", sBtn('data-start-net="lending"', "Show lenders and regulators")] ];
-    }
-    return [];
+  // "Find your way in" (part 35, drawn by guide.js) replaced the intents and roles that were here. The map's own
+  // actions it offers (the film, the tour, a loop) are handled by handleAction; the first five minutes here.
+  document.addEventListener("click", ev => { if (ev.target.closest && ev.target.closest('#start [data-five="start"]')) fiveGo(0); });
+  // a link from /guide/ can run one of the map's actions when the page opens: /?go=film | tour | five
+  function goFromQuery() {
+    let go = ""; try { go = new URLSearchParams(location.search).get("go") || ""; } catch (e) {}
+    if (!["film", "tour", "five"].includes(go)) return;
+    try { history.replaceState(null, "", location.pathname + location.hash); } catch (e) {}
+    if (go === "five") { fiveGo(0); return; }
+    const b = document.createElement("button"); b.dataset.act = go; handleAction({ target: b });
   }
-
-  function renderStart() {
-    const box = document.getElementById("start-intents"), sel = document.getElementById("start-role"), path = document.getElementById("start-path");
-    if (!box || !INTENTS.length) return;
-    box.innerHTML = INTENTS.map(x => `<button type="button" class="start-i" data-start-intent="${x.id}" aria-pressed="${start.intent === x.id}"><b>${esc(x.name)}</b><span>${esc(x.hint)}</span></button>`).join("");
-    sel.innerHTML = `<option value="">Anyone</option>` + INSTITUTIONS.map(i => `<option value="${i.id}"${start.role === i.id ? " selected" : ""}>${esc(i.name)}</option>`).join("");
-    const inst = instById[start.role];
-    document.querySelectorAll("#inst-list .inst").forEach(b => b.classList.toggle("is-mine", b.dataset.inst === start.role));
-    if (!start.intent) { path.innerHTML = inst ? roleCard(inst) + `<p class="start__hint">Now pick what you want to do.</p>` : `<p class="start__hint">Pick one for a short path through the site. Add a role to tailor it.</p>`; return; }
-    const steps = startSteps(start.intent, inst);
-    path.innerHTML = (inst ? roleCard(inst) : "") + `<ol class="start__steps">${steps.map(([t, d, act]) => `<li><b>${esc(t)}</b><span>${esc(d)}</span>${act}</li>`).join("")}</ol><p class="start__status" data-start-status role="status"></p>`;
-  }
-  function roleCard(inst) {
-    const pb = typeof PLAYBOOKS !== "undefined" && PLAYBOOKS[inst.id];
-    return `<p class="start__rolecard"><b>As ${esc(inst.name.toLowerCase())}:</b> ${plural(inst.levers.length, "action")} that could help break ${inst.loops.size} of ${LOOPS.length} vicious cycles.${pb ? ` ${esc(pb.act)}` : ""}</p>`;
-  }
-  // add an institution's actions to the plan, with that institution as the lead for the ones it adds
-  function startPlanAs(id) {
-    const inst = instById[id]; if (!inst) return 0;
-    let added = 0;
-    inst.levers.forEach(v => { if (!plan.levers.includes(v)) { plan.levers.push(v); planRow(v).lead = id; added++; } });
-    savePlan(); renderPlan(); return added;
-  }
-  (function wireStart() {
-    const sec = document.getElementById("start"); if (!sec) return;
-    sec.addEventListener("click", ev => {
-      const i = ev.target.closest("[data-start-intent]");
-      if (i) { start.intent = start.intent === i.dataset.startIntent ? "" : i.dataset.startIntent; saveStart(); renderStart(); if (start.intent) track("start-" + start.intent); return; }
-      const p = ev.target.closest("[data-start-plan]");
-      if (p) { const n = startPlanAs(p.dataset.startPlan), st = sec.querySelector("[data-start-status]");
-        if (st) st.textContent = n ? `Added ${plural(n, "action")} to your plan.` : "Those actions are already in your plan.";
-        track("start-plan-" + p.dataset.startPlan);
-        goToPlan("plan-step-3"); return; }
-      const nr = ev.target.closest("[data-start-net]");
-      if (nr) { const chip = document.querySelector(`#org-roles [data-role="${nr.dataset.startNet}"]`); if (chip) chip.click();
-        reveal(document.getElementById("org-list")); document.getElementById("network").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" }); return; }
-      if (ev.target.closest('[data-five="start"]')) { fiveGo(0); return; }
-    });
-    document.getElementById("start-role").addEventListener("change", ev => { start.role = ev.target.value; saveStart(); renderStart(); if (start.role) track("start-role-" + start.role); });
-  })();
 
   /* ---- the first five minutes: a slim guide bar that walks through four stops ---- */
   const FIVE = typeof FIRST_FIVE !== "undefined" ? FIRST_FIVE : [];
@@ -3319,7 +3249,6 @@
     renderTicker();
     renderFeeds();
     renderHeatwaves();
-    renderStart();
     renderList();
     renderStats();
     initDisclosure();
@@ -3327,6 +3256,7 @@
     fitAll(true, true);
     svg.classList.add("is-ready");
     routeHash();
+    goFromQuery();
     // the plan page opens map links in this tab; follow them when only the hash changes. Links clicked here are
     // handled where they are clicked, so only a change arriving while the tab is in the background is routed.
     window.addEventListener("hashchange", () => { if (document.hidden || !document.hasFocus()) routeHash(); });
