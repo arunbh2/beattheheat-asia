@@ -866,8 +866,10 @@
     if (typeof LOOP_STAKES === "undefined") return "";
     const x = LOOP_STAKES[l.id];
     if (!x) return `<p class="stakes stakes--none">${esc(STAKES_LABEL.none)}</p>`;
-    return `<div class="stakes stakes--${x.kind}"><p class="stakes__h">${esc(STAKES_LABEL[x.kind])}</p>
-      <p class="stakes__n">${esc(x.n)}</p><p class="stakes__t">${esc(x.text)} <span class="stakes__src">${extLink(x.url, x.by)}</span></p></div>`;
+    const fig = (f, cls) => `<p class="stakes__n${cls}">${esc(f.n)}${f.where ? `<span class="stakes__where">${esc(f.where)}</span>` : ""}</p>
+      <p class="stakes__t">${esc(f.text)} <span class="stakes__src">${extLink(f.url, f.by)}</span></p>`;
+    return `<div class="stakes stakes--${x.kind}"><p class="stakes__h">${esc(STAKES_LABEL[x.kind])}</p>${fig(x, "")}
+      ${x.sea ? `<div class="stakes__sea"><p class="stakes__h stakes__h--sea">In Southeast Asia</p>${fig(x.sea, " stakes__n--sea")}</div>` : ""}</div>`;
   };
   const chainHTML = l => `<p class="chain">${l.path.map(id => `<span>${esc(plain(byId[id]))}</span>`).join('<i aria-hidden="true">→</i>')}<i aria-hidden="true">↺</i></p>`;
 
