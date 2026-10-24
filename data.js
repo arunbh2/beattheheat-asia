@@ -2772,7 +2772,7 @@ const FIRST_FIVE = [
   { title: "One loop", text: "The poverty–heat trap: people who can’t afford to stop working fall ill, lose income, and can afford to stop even less.", go: { loop: "poverty" } },
   { title: "One group at risk", text: "Workers in heat-exposed jobs: what they face, what holds them back, and what helps.", go: { risk: "workers" } },
   { title: "One place it breaks", text: "Heat-safe work: rest, water, shade and working hours that let people stop before they fall ill.", go: { lever: "heatrules" } },
-  { title: "Into the plan", text: "A plan for workers, with the suggested actions ticked. Next: name who leads and who pays.", go: { plan: "workers" } }
+  { title: "Into the plan", text: "A plan for workers, with the suggested actions added. Open your plan in its own tab to name who leads and who pays.", go: { plan: "workers" } }
 ];
 // On phones, each of these sections opens as a short summary with one button. The text is the button's label.
 const SECTION_SUMMARIES = {

@@ -37,11 +37,14 @@
   const LABEL_K = 0.9;               // zoom level at which every label is shown
   const COLORS = { hub: "#F26430", red: "#D7263D", ink: "#16202B" };
 
-  const svg = document.getElementById("web");
-  const stage = document.getElementById("map-stage");
-  const panel = document.getElementById("panel");
-  const panelBody = document.getElementById("panel-body");
-  const guide = document.getElementById("guide");
+  // the plan has a page of its own (/plan/); there the map's parts are absent, so stand-ins keep the shared code running
+  const PLAN_PAGE = document.body.dataset.page === "plan";
+  const need = (id, tag) => document.getElementById(id) || (PLAN_PAGE ? (tag === "svg" ? document.createElementNS("http://www.w3.org/2000/svg", "svg") : document.createElement(tag || "div")) : null);
+  const svg = need("web", "svg");
+  const stage = need("map-stage");
+  const panel = need("panel");
+  const panelBody = need("panel-body");
+  const guide = need("guide");
   if (!svg || typeof SYSTEMS === "undefined") return;
 
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -468,8 +471,8 @@
   const cam = { x: 0, y: 0, k: 0.4 };
   let kMin = 0.2, anim = null;
   const kMax = 3.2;
-  const zoomInBtn = document.getElementById("zoom-in");
-  const zoomOutBtn = document.getElementById("zoom-out");
+  const zoomInBtn = need("zoom-in");
+  const zoomOutBtn = need("zoom-out");
 
   const size = () => ({ W: svg.clientWidth || 800, H: svg.clientHeight || 600 });
 
@@ -581,7 +584,7 @@
 
   zoomInBtn.addEventListener("click", () => animateTo(zoomAt(1.6), 350));
   zoomOutBtn.addEventListener("click", () => animateTo(zoomAt(1 / 1.6), 350));
-  document.getElementById("zoom-fit").addEventListener("click", () => fitAll());
+  need("zoom-fit").addEventListener("click", () => fitAll());
 
   // drag to pan, pinch to zoom, tap to select
   const pointers = new Map();
@@ -1091,20 +1094,20 @@
     if (ev.key === "Escape" && (state.selected || state.story || state.inst || state.pkg)) { clearSelection(); fitAll(); }
   });
 
-  document.getElementById("filters").addEventListener("click", ev => {
+  need("filters").addEventListener("click", ev => {
     const b = ev.target.closest("[data-filter]"); if (!b) return;
     state.filter = b.dataset.filter;
     document.querySelectorAll("[data-filter]").forEach(x => x.setAttribute("aria-pressed", x === b ? "true" : "false"));
     applyFilter();
   });
-  document.getElementById("toggle-all").addEventListener("change", ev => svg.classList.toggle("show-all", ev.target.checked));
-  document.getElementById("toggle-levers").addEventListener("change", ev => svg.classList.toggle("show-levers", ev.target.checked));
-  const pathForm = document.getElementById("path-form");
+  need("toggle-all").addEventListener("change", ev => svg.classList.toggle("show-all", ev.target.checked));
+  need("toggle-levers").addEventListener("change", ev => svg.classList.toggle("show-levers", ev.target.checked));
+  const pathForm = need("path-form", "form");
   if (pathForm) pathForm.addEventListener("submit", ev => {
     ev.preventDefault();
     tracePath(document.getElementById("path-from").value, document.getElementById("path-to").value);
   });
-  document.getElementById("who").addEventListener("change", ev => { if (ev.target.value) selectInstitution(ev.target.value); else { clearSelection(); fitAll(); } });
+  need("who", "select").addEventListener("change", ev => { if (ev.target.value) selectInstitution(ev.target.value); else { clearSelection(); fitAll(); } });
 
   document.querySelectorAll("[data-random]").forEach(b => b.addEventListener("click", () => {
     const leaves = nodes.filter(n => n.kind === "leaf");
@@ -1356,7 +1359,7 @@
   const PLAN_KEY = "bth-plan-v1";
   let plan = { place: "", group: "", levers: [], rows: {}, example: null, stalls: [], triggers: {}, review: "", exposure: [], finance: {}, reviewLog: {} };
   try { const saved = JSON.parse(localStorage.getItem(PLAN_KEY) || "null"); if (saved && Array.isArray(saved.levers)) plan = Object.assign(plan, saved); if (!Array.isArray(plan.stalls)) plan.stalls = []; if (!plan.triggers || typeof plan.triggers !== "object") plan.triggers = {}; if (!Array.isArray(plan.exposure)) plan.exposure = []; if (!plan.finance || typeof plan.finance !== "object") plan.finance = {}; } catch (e) {}
-  const savePlan = () => { try { localStorage.setItem(PLAN_KEY, JSON.stringify(plan)); } catch (e) {} };
+  const savePlan = () => { try { localStorage.setItem(PLAN_KEY, JSON.stringify(plan)); } catch (e) {} if (!PLAN_PAGE) renderPlanLaunch(); };
   const PHASES = typeof PLAN_PHASES !== "undefined" ? PLAN_PHASES : [], PHASE_DEF = typeof PLAN_PHASE_DEFAULT !== "undefined" ? PLAN_PHASE_DEFAULT : {};
   const phaseById = Object.fromEntries(PHASES.map(x => [x.id, x]));
   const BASES = typeof PLAN_TRIGGER_BASES !== "undefined" ? PLAN_TRIGGER_BASES : [], LEVELS = typeof PLAN_LEVELS !== "undefined" ? PLAN_LEVELS : [];
@@ -1575,7 +1578,7 @@
     const phases = PHASES.map(x => [x, plan.levers.filter(id => planRow(id).phase === x.id).length]).filter(x => x[1]);
     const group = PG.find(g => g.id === plan.group);
     box.innerHTML = `<p class="plan-summary__k">Your plan</p>
-      <h3>${esc(plan.place || "Your place")}${group ? ` · ${esc(group.name.toLowerCase())}` : ""}</h3>
+      <h2 class="plan-h">${esc(plan.place || "Your place")}${group ? ` · ${esc(group.name.toLowerCase())}` : ""}</h2>
       <div class="plan-summary__stats">
         <p><strong>${plan.levers.length}</strong> action${plan.levers.length === 1 ? "" : "s"}</p>
         <p><strong>${loops.length}</strong> of ${LOOPS.length} cycles they could help interrupt</p>
@@ -1607,7 +1610,7 @@
     box.hidden = !ex;
     if (!ex) { box.innerHTML = ""; return; }
     box.innerHTML = `<p class="plan-story__k">Worked example · ${esc(ex.place)} · ${esc(ex.year)}</p>
-      <h3>${esc(ex.title)}</h3>
+      <h2 class="plan-h">${esc(ex.title)}</h2>
       <ol class="plan-story__steps">
         <li><b>What happened</b>${gloss(ex.trigger)}</li>
         <li><b>What they decided</b>${gloss(ex.decision)}</li>
@@ -1725,6 +1728,7 @@
 
   function loadExample(id) {
     const ex = EXAMPLES.find(x => x.id === id); if (!ex) return;
+    if (!PLAN_PAGE) { goToPlan("plan-story", "?example=" + id); return; }
     track("plan-example-" + id);
     plan = { place: ex.place, group: ex.group, levers: ex.actions.map(a => a.lever), rows: {}, example: ex.id, stalls: [], triggers: Object.assign({}, ex.triggers || {}), review: "", exposure: [], finance: {}, reviewLog: {} };
     ex.actions.forEach(a => { plan.rows[a.lever] = { lead: a.lead, payer: a.payer, measure: a.measure, phase: a.phase || PHASE_DEF[a.lever] || "year" }; });
@@ -1737,7 +1741,7 @@
     const changed = (rows = true) => { savePlan(); if (rows) renderPlanRows(); renderPlanTriggers(); renderPlanCheck(); renderPlanSummary(); };
     const light = () => { savePlan(); renderPlanCheck(); renderPlanSummary(); renderPlanLive(); };
     // keep the table's count current without re-rendering the field being typed in
-    const updW2a = () => { const s = sec.querySelector(".plan-w2a summary span"); if (s) s.textContent = `${w2aDone()} of ${LEVELS.length} levels with someone named to act`; };
+    const updW2a = () => { const s = sec.querySelector("#plan-triggers .plan-w2a summary span"); if (s) s.textContent = `${w2aDone()} of ${LEVELS.length} levels with someone named to act`; };
     sec.addEventListener("input", ev => {
       const t = ev.target;
       if (t.id === "plan-place") { plan.place = t.value; changed(false); }
@@ -2791,7 +2795,7 @@
     sec.addEventListener("click", ev => {
       const b = ev.target.closest("[data-city]"); if (b) { showCity(b.dataset.city, b.closest("#city-picks") !== null); setHash("city-" + b.dataset.city); return; }
       const ex = ev.target.closest("[data-city-example]");
-      if (ex) { loadExample(ex.dataset.cityExample); const pl = document.getElementById("plan"); if (pl) pl.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" }); }
+      if (ex) { loadExample(ex.dataset.cityExample); }
     });
     const hash = decodeURIComponent(location.hash.slice(1));
     showCity(hash.startsWith("city-") && cityById[hash.slice(5)] ? hash.slice(5) : CITIES[0].id);
@@ -2969,7 +2973,7 @@
       if (p) { const n = startPlanAs(p.dataset.startPlan), st = sec.querySelector("[data-start-status]");
         if (st) st.textContent = n ? `Added ${plural(n, "action")} to your plan.` : "Those actions are already in your plan.";
         track("start-plan-" + p.dataset.startPlan);
-        document.getElementById("plan-step-3").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" }); return; }
+        goToPlan("plan-step-3"); return; }
       const nr = ev.target.closest("[data-start-net]");
       if (nr) { const chip = document.querySelector(`#org-roles [data-role="${nr.dataset.startNet}"]`); if (chip) chip.click();
         reveal(document.getElementById("org-list")); document.getElementById("network").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" }); return; }
@@ -3004,7 +3008,7 @@
     else if (g.lever) goToMap(() => selectLever(g.lever));
     if ((g.risk || g.plan) && (state.selected || state.story)) clearSelection(); // close the map's panel before leaving the map
     if (g.risk) { const el = document.getElementById("risk-" + g.risk); if (el) { el.scrollIntoView(smooth); el.classList.remove("is-flash"); void el.offsetWidth; el.classList.add("is-flash"); } }
-    else if (g.plan) { if (!plan.levers.length) { plan.group = g.plan; plan.levers = suggested().slice(); savePlan(); renderPlan(); } document.getElementById("plan-step-1").scrollIntoView(smooth); }
+    else if (g.plan) { if (!plan.levers.length) { plan.group = g.plan; plan.levers = suggested().slice(); savePlan(); renderPlan(); } document.getElementById("plan").scrollIntoView(smooth); }
     const nb = bar.querySelector(`[data-five="${last ? "close" : "next"}"]`); if (nb && i === 0) nb.focus();
   }
 
@@ -3062,8 +3066,61 @@
     document.querySelectorAll("[data-stat]").forEach(x => { if (values[x.dataset.stat] !== undefined) x.textContent = values[x.dataset.stat]; });
   }
 
+  /* ======================= THE PLAN, ON ITS OWN PAGE ======================= */
+  // The plan lives at /plan/, opened in one named tab ("bth-plan") so repeated clicks reuse it. Both pages keep the
+  // plan in this browser; a "storage" event tells each page when the other has changed it.
+  const PLAN_URL = "/plan/", PLAN_TAB = "bth-plan";
+  const goToPlan = (hash, query) => { track("plan-open"); const w = window.open(PLAN_URL + (query || "") + (hash ? "#" + hash : ""), PLAN_TAB); if (w) try { w.focus(); } catch (e) {} };
+  function readPlan(raw) {
+    try { const saved = JSON.parse(raw || "null"); if (!saved || !Array.isArray(saved.levers)) return false;
+      plan = Object.assign({ place: "", group: "", levers: [], rows: {}, example: null, stalls: [], triggers: {}, review: "", exposure: [], finance: {}, reviewLog: {} }, saved);
+      if (!Array.isArray(plan.stalls)) plan.stalls = []; if (!plan.triggers || typeof plan.triggers !== "object") plan.triggers = {}; return true; } catch (e) { return false; }
+  }
+  // the launcher on the map: one line saying what the plan holds so far
+  function renderPlanLaunch() {
+    const box = document.getElementById("plan-launch-sum"); if (!box) return;
+    const g = PG.find(x => x.id === plan.group), n = plan.levers.filter(id => leverById[id]).length;
+    const noLead = plan.levers.filter(id => leverById[id] && !(plan.rows[id] && plan.rows[id].lead)).length;
+    box.innerHTML = n || plan.place || g
+      ? `<b>Your plan so far:</b> ${[plan.place && esc(plan.place), g && esc(g.name.toLowerCase()), n ? plural(n, "action") : "no actions yet", n && noLead ? `${noLead} without a lead` : ""].filter(Boolean).join(" · ")}`
+      : "Your plan is empty. Add actions anywhere on the map, then open your plan to set who leads and pays.";
+  }
+  // the map's tab is named, so links from the plan page back to the map reuse it rather than opening another
+  if (!PLAN_PAGE && !window.name) window.name = "bth-map";
+  if (PLAN_PAGE) document.addEventListener("click", ev => {
+    const a = ev.target.closest && ev.target.closest('a[href^="#"]'); if (!a) return;
+    const id = decodeURIComponent(a.getAttribute("href").slice(1)); if (!id || document.getElementById(id)) return;
+    ev.preventDefault(); const w = window.open("/#" + id, "bth-map"); if (w) try { w.focus(); } catch (e) {}
+  }, true);
+  window.addEventListener("storage", ev => {
+    if (ev.key !== PLAN_KEY || !readPlan(ev.newValue)) return;
+    if (PLAN_PAGE) renderPlan(); else renderPlanLaunch();
+  });
+  if (!PLAN_PAGE) document.addEventListener("click", ev => {
+    // on the map, links into the plan open its page in the plan tab; the menu and the launcher's heading link stay on the map
+    const a = ev.target.closest && ev.target.closest('a[href^="#plan"], a[data-open-plan]'); if (!a || ev.defaultPrevented) return;
+    const h = a.getAttribute("href");
+    if (h === "#plan" && a.closest(".site-header, .site-menu, .plan--launch, .intro")) return;
+    if (a.hasAttribute("data-open-plan") && !h.startsWith("#")) return;
+    ev.preventDefault(); goToPlan(h.length > 5 ? h.slice(1) : "");
+  }, true);
+
   /* ======================= BOOT ======================= */
+  function bootPlanPage() {
+    renderPlan();
+    const q = new URLSearchParams(location.search), ex = q.get("example");
+    if (ex && EXAMPLES.some(x => x.id === ex)) {
+      const has = plan.levers.length || plan.place;
+      if (!has || plan.example === ex || window.confirm("Replace the plan you have started with this worked example?")) loadExample(ex);
+      try { history.replaceState(null, "", location.pathname + location.hash); } catch (e) {}
+    }
+    const h = decodeURIComponent(location.hash.slice(1)), t = h && document.getElementById(h); if (t) t.scrollIntoView({ block: "start" });
+  }
   function boot() {
+    if (PLAN_PAGE) { bootPlanPage(); return; }
+    // links shared before the plan had its own page
+    const old = decodeURIComponent(location.hash.slice(1)); if (/^plan-(step-\d|story)/.test(old)) { location.replace(PLAN_URL + "#" + old); return; }
+    renderPlanLaunch();
     layout();
     drawBackground();
     drawNodes();
@@ -3096,6 +3153,12 @@
     applyBreakState();
     fitAll(true, true);
     svg.classList.add("is-ready");
+    routeHash();
+    // the plan page opens map links in this tab; follow them when only the hash changes. Links clicked here are
+    // handled where they are clicked, so only a change arriving while the tab is in the background is routed.
+    window.addEventListener("hashchange", () => { if (document.hidden || !document.hasFocus()) routeHash(); });
+  }
+  function routeHash() {
     const hash = decodeURIComponent(location.hash.slice(1));
     if (byId[hash]) select(hash);
     else if (hash.startsWith("loop-") && loopById[hash.slice(5)]) startStory(hash.slice(5));

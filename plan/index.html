@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plan a response to extreme heat | BeatTheHeat.Asia</title>
+  <meta name="description" content="A six-step workbook for a workshop or a team meeting: who you are protecting, the actions, who leads and pays, the alert levels that switch them on, what could stop it, and a check against WHO’s eight core elements of a heat-health action plan.">
+  <meta name="theme-color" content="#16202B">
+  <link rel="canonical" href="https://beattheheat.asia/plan/">
+  <link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="BeatTheHeat.Asia">
+  <meta property="og:url" content="https://beattheheat.asia/plan/">
+  <meta property="og:title" content="Plan a response to extreme heat">
+  <meta property="og:description" content="Turn the map of extreme heat into a plan you can run, in six steps.">
+  <meta property="og:image" content="https://beattheheat.asia/images/social-share-2.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23F26430'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="/styles.css?v=107">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Plan a response to extreme heat","url":"https://beattheheat.asia/plan/","isPartOf":{"@type":"WebSite","name":"BeatTheHeat.Asia","url":"https://beattheheat.asia/"},"license":"https://creativecommons.org/licenses/by/4.0/"}</script>
+  <script src="/data.js?v=107" defer></script>
+  <script src="/script.js?v=107" defer></script>
+</head>
+<body data-page="plan">
+  <a class="skip-link" href="#plan-title">Skip to the plan</a>
+  <header class="wkp-top">
+    <div class="container wkp-top__in">
+      <a class="wkp-home" href="/">BEAT THE HEAT<span class="visually-hidden">: back to the map</span></a>
+      <nav aria-label="Elsewhere on the site"><a href="/#explore">The map</a><a href="/#heat-now">Heat right now</a><a href="/#practical">Practical actions</a><a href="/a-week-in-the-heat/">A week in the heat</a></nav>
+    </div>
+  </header>
+  <main>
+    <section class="plan plan--page" id="plan" aria-labelledby="plan-title">
+      <div class="container">
+        <p class="eyebrow eyebrow--break">Plan a response</p>
+        <h1 id="plan-title" class="h2">Turn the map<br>into a plan.</h1>
+        <p class="loops__intro">For a workshop or a team meeting. Six steps take you from who you are protecting to a plan you can run: actions with owners and money, the alert levels that switch them on, how warnings reach people, what could stop it, and a check against WHO’s eight core elements of a heat-health action plan. What you type stays in this browser.</p>
+
+        <div class="plan__example">
+          <p><strong>See it done.</strong> Ahmedabad turned a deadly heatwave into South Asia’s first heat action plan. Thane built its plan ward by ward. Tamil Nadu gave heat an owner across a whole state. Singapore wrote heat into the rules for outdoor work, and Dhaka releases help on the forecast, before the peak.</p>
+          <div class="plan__example-btns">
+            <button type="button" class="btn btn--sm btn--teal" data-plan-example="ahmedabad">Load the Ahmedabad example</button>
+            <button type="button" class="btn btn--sm btn--ghost" data-plan-example="thane">Load the Thane example</button>
+            <button type="button" class="btn btn--sm btn--ghost" data-plan-example="tamilnadu">Load the Tamil Nadu example</button>
+            <button type="button" class="btn btn--sm btn--ghost" data-plan-example="singapore">Load the Singapore example</button>
+            <button type="button" class="btn btn--sm btn--ghost" data-plan-example="dhaka">Load the Dhaka example</button>
+          </div>
+        </div>
+        <details class="plan-checklist" id="plan-checklist">
+          <summary>What strong heat plans include <span id="plan-checklist-count">with real examples</span></summary>
+          <ol id="plan-checklist-list"></ol>
+          <p class="plan-checklist__src" id="plan-checklist-src"></p>
+        </details>
+        <details class="plan-checklist plan-workshop" id="plan-workshop">
+          <summary>Run it as a 90-minute workshop <span>who to invite, and an agenda</span></summary>
+          <div id="plan-workshop-body"></div>
+        </details>
+        <div id="plan-story" class="plan-story" hidden></div>
+
+        <div class="plan__layout">
+          <div class="plan__steps">
+            <fieldset class="plan-step" id="plan-step-1">
+              <legend><span>1</span> Where, and who are you protecting?</legend>
+              <div class="plan-step__row">
+                <label>Place <input type="text" id="plan-place" placeholder="e.g. a ward, a city or a district" autocomplete="off"></label>
+                <label>People at risk <select id="plan-group"></select></label>
+              </div>
+              <details class="plan-exposure" id="plan-exposure">
+                <summary>Exposure questions <span>prompts to discuss, not a risk score</span></summary>
+                <div id="plan-exposure-list"></div>
+              </details>
+            </fieldset>
+            <fieldset class="plan-step">
+              <legend><span>2</span> Choose the actions</legend>
+              <p class="plan-step__hint">Actions suggested for the people you chose are marked. Add or remove any. Not sure what to do? See <a href="#practical">practical actions by setting</a> and <a href="#cooling">cooling options by place</a>.</p>
+              <div id="plan-actions" class="plan-actions"></div>
+            </fieldset>
+            <fieldset class="plan-step" id="plan-step-3">
+              <legend><span>3</span> Agree who leads, who pays, when it happens and how you will know</legend>
+              <div id="plan-rows" class="plan-rows"></div>
+              <div id="plan-fin"></div>
+              <label class="plan-review">When will you review the plan after the season? <input type="text" id="plan-review" placeholder="e.g. first week of October, with every lead department" autocomplete="off"></label>
+              <div id="plan-reviewlog"></div>
+            </fieldset>
+            <fieldset class="plan-step" id="plan-step-4">
+              <legend><span>4</span> Set the triggers and the warnings</legend>
+              <p class="plan-step__hint">A warning only protects people if it switches on action. Agree what each alert level means, who issues it and how it reaches people, including those without a phone.</p>
+              <div id="plan-triggers" class="plan-triggers"></div>
+            </fieldset>
+            <fieldset class="plan-step" id="plan-step-5">
+              <legend><span>5</span> What could stop it?</legend>
+              <p class="plan-step__hint">Tick what you expect to get in the way. Each one adds what has moved it elsewhere to your plan.</p>
+              <div id="plan-stalls" class="plan-stalls"></div>
+            </fieldset>
+            <fieldset class="plan-step" id="plan-step-6">
+              <legend><span>6</span> Check it against WHO’s eight core elements</legend>
+              <p class="plan-step__hint">WHO/Europe’s 2026 guidance sets out eight elements that working heat-health action plans share. This check updates as you fill in the steps above. To assess how ready your institutions are to deliver, run the self-assessment in the <a href="https://heathealth.info/resources/heat-gov-framework/" target="_blank" rel="noopener">Extreme Heat Risk Governance Framework and Toolkit<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> (GHHIN, UNDRR and WMO, 2025) as a facilitated workshop; it is a first edition, written mainly for national governments.</p>
+              <div id="plan-check" class="plan-check-list" aria-live="polite"></div>
+            </fieldset>
+          </div>
+          <div class="plan-summary" id="plan-summary" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="wkp-foot">
+    <div class="container">
+      <p>What you type stays in this browser, and the map adds to the same plan. Text and data: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0<span class="visually-hidden"> (opens in a new tab)</span></a>. <a href="/">Back to the map of extreme heat</a></p>
+    </div>
+  </footer>
+</body>
+</html>

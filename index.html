@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap">
 
-  <link rel="stylesheet" href="styles.css?v=106">
+  <link rel="stylesheet" href="styles.css?v=107">
 
   <script type="application/ld+json">
   {
@@ -111,9 +111,9 @@
   }
   </script>
   <link rel="alternate" type="text/plain" href="/llms-full.txt" title="The whole map as plain text">
-  <script src="data.js?v=106" defer></script>
-  <script src="script.js?v=106" defer></script>
-  <script src="heatweek.js?v=106" defer></script>
+  <script src="data.js?v=107" defer></script>
+  <script src="script.js?v=107" defer></script>
+  <script src="heatweek.js?v=107" defer></script>
 </head>
 
 <body>
@@ -487,7 +487,7 @@
         <h2 id="stalls-title" class="h2">Knowing is not<br>the same as acting.</h2>
         <p class="loops__intro">Most places already know heat is dangerous. What holds them back is rarely a missing fact. It is usually one of these seven conditions. Each one shows how you can tell it is happening, and what has moved it elsewhere.</p>
         <ol id="stall-list" class="stall-list"></ol>
-        <p class="stalls__note">Check your own plan against them in step 4 of <a href="#plan">Plan a response</a>.</p>
+        <p class="stalls__note">Check your own plan against them in step 4 of <a href="#plan-step-4">Plan a response</a>.</p>
       </div>
     </section>
 
@@ -548,76 +548,22 @@
     </section>
 
     <!-- ============ PLAN A RESPONSE ============ -->
-    <section class="plan" id="plan" aria-labelledby="plan-title">
+    <section class="plan plan--launch" id="plan" aria-labelledby="plan-title">
       <div class="container">
         <p class="eyebrow eyebrow--break">Plan a response</p>
         <h2 id="plan-title" class="h2">Turn the map<br>into a plan.</h2>
-        <p class="loops__intro">For a workshop or a team meeting. Six steps take you from who you are protecting to a plan you can run: actions with owners and money, the alert levels that switch them on, how warnings reach people, what could stop it, and a check against WHO’s eight core elements of a heat-health action plan. What you type stays in this browser.</p>
-
-        <div class="plan__example">
-          <p><strong>See it done.</strong> Ahmedabad turned a deadly heatwave into South Asia’s first heat action plan. Thane built its plan ward by ward. Tamil Nadu gave heat an owner across a whole state. Singapore wrote heat into the rules for outdoor work, and Dhaka releases help on the forecast, before the peak.</p>
-          <div class="plan__example-btns">
-            <button type="button" class="btn btn--sm btn--teal" data-plan-example="ahmedabad">Load the Ahmedabad example</button>
-            <button type="button" class="btn btn--sm btn--ghost" data-plan-example="thane">Load the Thane example</button>
-            <button type="button" class="btn btn--sm btn--ghost" data-plan-example="tamilnadu">Load the Tamil Nadu example</button>
-            <button type="button" class="btn btn--sm btn--ghost" data-plan-example="singapore">Load the Singapore example</button>
-            <button type="button" class="btn btn--sm btn--ghost" data-plan-example="dhaka">Load the Dhaka example</button>
-          </div>
-        </div>
-        <details class="plan-checklist" id="plan-checklist">
-          <summary>What strong heat plans include <span id="plan-checklist-count">with real examples</span></summary>
-          <ol id="plan-checklist-list"></ol>
-          <p class="plan-checklist__src" id="plan-checklist-src"></p>
-        </details>
-        <details class="plan-checklist plan-workshop" id="plan-workshop">
-          <summary>Run it as a 90-minute workshop <span>who to invite, and an agenda</span></summary>
-          <div id="plan-workshop-body"></div>
-        </details>
-        <div id="plan-story" class="plan-story" hidden></div>
-
-        <div class="plan__layout">
-          <div class="plan__steps">
-            <fieldset class="plan-step" id="plan-step-1">
-              <legend><span>1</span> Where, and who are you protecting?</legend>
-              <div class="plan-step__row">
-                <label>Place <input type="text" id="plan-place" placeholder="e.g. a ward, a city or a district" autocomplete="off"></label>
-                <label>People at risk <select id="plan-group"></select></label>
-              </div>
-              <details class="plan-exposure" id="plan-exposure">
-                <summary>Exposure questions <span>prompts to discuss, not a risk score</span></summary>
-                <div id="plan-exposure-list"></div>
-              </details>
-            </fieldset>
-            <fieldset class="plan-step">
-              <legend><span>2</span> Choose the actions</legend>
-              <p class="plan-step__hint">Actions suggested for the people you chose are marked. Add or remove any. Not sure what to do? See <a href="#practical">practical actions by setting</a> and <a href="#cooling">cooling options by place</a>.</p>
-              <div id="plan-actions" class="plan-actions"></div>
-            </fieldset>
-            <fieldset class="plan-step" id="plan-step-3">
-              <legend><span>3</span> Agree who leads, who pays, when it happens and how you will know</legend>
-              <div id="plan-rows" class="plan-rows"></div>
-              <div id="plan-fin"></div>
-              <label class="plan-review">When will you review the plan after the season? <input type="text" id="plan-review" placeholder="e.g. first week of October, with every lead department" autocomplete="off"></label>
-              <div id="plan-reviewlog"></div>
-            </fieldset>
-            <fieldset class="plan-step" id="plan-step-4">
-              <legend><span>4</span> Set the triggers and the warnings</legend>
-              <p class="plan-step__hint">A warning only protects people if it switches on action. Agree what each alert level means, who issues it and how it reaches people, including those without a phone.</p>
-              <div id="plan-triggers" class="plan-triggers"></div>
-            </fieldset>
-            <fieldset class="plan-step" id="plan-step-5">
-              <legend><span>5</span> What could stop it?</legend>
-              <p class="plan-step__hint">Tick what you expect to get in the way. Each one adds what has moved it elsewhere to your plan.</p>
-              <div id="plan-stalls" class="plan-stalls"></div>
-            </fieldset>
-            <fieldset class="plan-step" id="plan-step-6">
-              <legend><span>6</span> Check it against WHO’s eight core elements</legend>
-              <p class="plan-step__hint">WHO/Europe’s 2026 guidance sets out eight elements that working heat-health action plans share. This check updates as you fill in the steps above. To assess how ready your institutions are to deliver, run the self-assessment in the <a href="https://heathealth.info/resources/heat-gov-framework/" target="_blank" rel="noopener">Extreme Heat Risk Governance Framework and Toolkit<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> (GHHIN, UNDRR and WMO, 2025) as a facilitated workshop; it is a first edition, written mainly for national governments.</p>
-              <div id="plan-check" class="plan-check-list" aria-live="polite"></div>
-            </fieldset>
-          </div>
-          <div class="plan-summary" id="plan-summary" aria-live="polite"></div>
-        </div>
+        <p class="loops__intro">For a workshop or a team meeting. Six steps take you from who you are protecting to a plan you can run. The plan has a page of its own, so the map stays where you left it; anything you add here goes into the same plan.</p>
+        <ol class="plan-launch__steps">
+          <li><b>Where, and who are you protecting?</b></li>
+          <li><b>Choose the actions</b></li>
+          <li><b>Agree who leads, who pays, when it happens and how you will know</b></li>
+          <li><b>Set the triggers and the warnings</b></li>
+          <li><b>What could stop it?</b></li>
+          <li><b>Check it against WHO’s eight core elements</b></li>
+        </ol>
+        <p class="plan-launch__sum" id="plan-launch-sum" aria-live="polite"></p>
+        <p class="plan-launch__go"><a class="btn btn--teal" href="/plan/" target="bth-plan" data-open-plan="">Open your plan<span class="visually-hidden"> (opens in a new tab)</span> <span aria-hidden="true">↗</span></a>
+          <span class="plan-launch__ex">Or start from a worked example: <a href="/plan/?example=ahmedabad" target="bth-plan">Ahmedabad</a>, <a href="/plan/?example=thane" target="bth-plan">Thane</a>, <a href="/plan/?example=tamilnadu" target="bth-plan">Tamil Nadu</a>, <a href="/plan/?example=singapore" target="bth-plan">Singapore</a>, <a href="/plan/?example=dhaka" target="bth-plan">Dhaka</a><span class="visually-hidden"> (each opens in a new tab)</span>.</span></p>
       </div>
     </section>
 

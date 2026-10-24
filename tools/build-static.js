@@ -351,7 +351,7 @@ const CITY_PAGES = [];
     <h2>Will it survive the next season?</h2><ul>${F.survive.map(q => `<li>${esc(q)}</li>`).join("")}</ul><p class="meta">${src(F.surviveSource)}</p>
     <h2>What has been tried</h2>${F.cases.map(c => `<h3 id="${c.id}">${esc(c.name)}</h3><p class="meta">${esc(c.where)} · ${esc(c.hazard)}</p><ul><li><strong>Who paid:</strong> ${esc(c.paid)}</li><li><strong>Who received it:</strong> ${esc(c.received)}</li><li><strong>What it made possible:</strong> ${esc(c.enabled)}</li><li><strong>What it left out:</strong> ${esc(c.uncovered)}</li><li><strong>Did it continue?</strong> ${esc(c.continued)}</li><li><strong>Lesson:</strong> ${esc(c.lesson)}</li></ul><p class="meta">Sources: ${c.sources.map(src).join(" · ")}</p>`).join("")}
     <h2>What this evidence can and can’t tell you</h2><p>${esc(F.boundary)} ${src(F.boundarySource)}</p>
-    <p><a href="/print/paying-for-protection/">Print the one-pager</a> · <a href="/#plan-step-3">Add who pays to a plan</a></p>`;
+    <p><a href="/print/paying-for-protection/">Print the one-pager</a> · <a href="/plan/#plan-step-3">Add who pays to a plan</a></p>`;
   const m = [`## ${p.title}`, intro, "### What needs paying for, and when must the money arrive?", ...F.needs.map(n => `- ${n.need}: ${n.route}. ${n.ask}`), F.needsNote,
     "### Three triggers, not one", ...F.triggers.map(t => `- ${t.name}: ${t.does} ${t.who}.`), F.triggersNote,
     `### ${F.basis.q}`, ...F.basis.kinds.map(k => `- ${k.name}: ${k.text}`), `${F.basis.ask} ${F.basis.note} (${F.basis.source.label}, ${F.basis.source.url})`,
@@ -396,6 +396,7 @@ fs.writeFileSync(path.join(ROOT, "sitemap.xml"), `<?xml version="1.0" encoding="
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>${SITE}/</loc><lastmod>${TODAY}</lastmod><priority>1.0</priority></url>
   <url><loc>${SITE}/a-week-in-the-heat/</loc><lastmod>${TODAY}</lastmod><priority>0.9</priority></url>
+  <url><loc>${SITE}/plan/</loc><lastmod>${TODAY}</lastmod><priority>0.9</priority></url>
 ${[...PAGES, ...CITY_PAGES].map(p => `  <url><loc>${SITE}/${p.slug}/</loc><lastmod>${TODAY}</lastmod><priority>0.8</priority></url>`).join("\n")}
 </urlset>
 `);
