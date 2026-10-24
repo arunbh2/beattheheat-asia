@@ -2205,6 +2205,7 @@
   }
   const liveCredit = () => typeof LIVE_SOURCES === "undefined" ? "" : `${extLink(LIVE_SOURCES.model.url, LIVE_SOURCES.model.label)} (${esc(LIVE_SOURCES.model.licence)})`;
 
+  const FP = typeof LIVE_FINGERPRINT !== "undefined" ? LIVE_FINGERPRINT : null;
   function renderNow() {
     const list = document.getElementById("now-list"); if (!list || !LIVE.length) return;
     const intro = document.getElementById("now-intro"); if (intro && typeof LIVE_NOTE !== "undefined") intro.textContent = LIVE_NOTE;
@@ -2222,8 +2223,15 @@
           <p class="now-c__h">Humidity ${Math.round(d.rh)}% · ${esc(d.time.slice(11, 16))} local time</p>`
           : `<p class="now-c__none">${d ? "Reading out of date" : "Live data unavailable"}</p>`}
         ${c.wbgt && w ? `<p class="now-c__wbgt"><b>Measured WBGT ${w.max.toFixed(1)} °C</b>${w.level ? ` · ${esc(w.level)} heat stress at the highest of ${w.n} stations` : ` across ${w.n} stations`}</p>` : ""}
+        ${FP ? `<p class="now-c__csi"><a href="${esc(FP.map.url)}" target="_blank" rel="noopener">${esc(FP.cardLink)}<span class="visually-hidden"> in ${esc(c.name)}, on Climate Central’s Climate Shift Index map (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p>` : ""}
         <p class="now-c__warn">Official warnings: ${extLink(c.warn.url, c.warn.label)}</p>
       </li>`; };
+    const fpBox = document.getElementById("now-fp");
+    if (fpBox && FP) fpBox.innerHTML = `<h3 class="now-fp__title" id="now-fp-title">${esc(FP.title)}</h3>
+      <p class="now-fp__text">${esc(FP.text)} ${extLink(FP.map.url, "See today’s scores")}</p>
+      <p class="now-fp__season">${esc(FP.season)}</p>
+      <ul class="now-fp__facts">${FP.facts.map(f => `<li><b>${esc(f.n)}</b> ${esc(f.text)}</li>`).join("")}</ul>
+      <p class="now-fp__src">${esc(FP.defn)} Source: ${extLink(FP.source.url, FP.source.label)}.</p>`;
     const status = document.getElementById("now-status");
     list.innerHTML = LIVE.map(c => card(c, null, null, false).replace("Live data unavailable", "Loading…")).join("");
     const load = () => liveFetch().then(data => {
