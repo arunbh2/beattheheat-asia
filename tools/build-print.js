@@ -13,7 +13,7 @@ let QR = null; try { QR = require("qrcode"); } catch (e) { /* optional */ }
 const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + `
 ;Object.assign(this, { HOME_HEATS, GLOSSARY, LIVE_CITIES, CITY_PROFILES, CITY_HAP, LOOPS, LEVERS, ORGANISATIONS, WORKED_EXAMPLES, AT_RISK,
-  HEATWAVES, HEATWAVES_NOTE, COOL_PLACES, COOL_TRAPS, COOL_COST_NOTE, COOL_FX, STALLS, LIVE_FINGERPRINT, LOOP_STAKES, STRAIN, COOL_ASK, ACTION_SETTINGS, ACTION_LINES, INSTITUTIONS, FINANCE });`, ctx);
+  HEATWAVES, HEATWAVES_NOTE, COOL_PLACES, COOL_TRAPS, COOL_COST_NOTE, COOL_FX, STALLS, LIVE_FINGERPRINT, LOOP_STAKES, STRAIN, COOL_ASK, ACTION_SETTINGS, ACTION_LINES, INSTITUTIONS, FINANCE, EVIDENCE_STATUS });`, ctx);
 const D = ctx, TODAY = new Date().toISOString().slice(0, 10);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const short = u => String(u).replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "");
@@ -280,23 +280,28 @@ async function build() {
   }
 
   // 4b. Practical action cards, one sheet per setting
-  for (const st of D.ACTION_SETTINGS) {
+  // a setting with many cards prints as several sheets of five, so the type stays readable
+  const actionSheets = D.ACTION_SETTINGS.flatMap(x => { const n = Math.ceil(x.cards.length / 5); if (x.cards.length <= 6) return [{ st: x, part: 0, parts: 1, cards: x.cards }];
+    return [...Array(n)].map((_, i) => ({ st: x, part: i, parts: n, cards: x.cards.slice(i * 5, i * 5 + 5) })); });
+  for (const sh of actionSheets) {
+    const st = sh.st, slug = `actions-${st.id}${sh.part ? "-" + (sh.part + 1) : ""}`, of = sh.parts > 1 ? ` (${sh.part + 1} of ${sh.parts})` : "";
     const inst = id => (D.INSTITUTIONS.find(i => i.id === id) || {}).name || id;
     const costOf = ref => { const pl = ref && D.COOL_PLACES.find(x => x.id === ref[0]), o = pl && pl.options.find(x => x.name === ref[1]);
       return o && o.cost && o.cost.conf !== "low" && o.cost.high ? ` Rough cost: about ${usd(o.cost.low)}–${usd(o.cost.high)} per ${esc(o.cost.unit)} (${inr(o.cost.low)}–${inr(o.cost.high)} at Indian prices).` : ""; };
     const line = (c, k) => k === "who" ? esc(c.who.map(inst).join(", ")) : k === "running" ? esc(c.running) + costOf(c.cost)
       : k === "evidence" ? esc(c.evidence.text) : k === "worksIf" ? esc(c.worksIf.join("; ")) + "." : esc(c[k]);
-    const srcs = st.cards.map(c => c.evidence.source).filter((v, i, a) => a.findIndex(w => w.url === v.url) === i);
-    const keep = ["what", "protects", "who", "running", "stops", "worksIf"];
-    const body = `<p style="margin-top:3px;font-size:9.5pt;color:#39424D">${esc(st.intro)} The full cards, with where each suits and its evidence, are on the live page.</p>
-      <div class="cols" style="margin-top:6px;gap:3.5mm 5mm">${st.cards.map(c => `<div class="box" style="font-size:8.6pt;border-top:3px solid #2A9D8F;break-inside:avoid">
-        <b style="font-size:10.2pt">${esc(c.title)}</b>
+    const srcs = sh.cards.map(c => c.evidence.source).filter((v, i, a) => a.findIndex(w => w.url === v.url) === i);
+    const keep = ["what", "who", "running", "stops", "worksIf"];
+    const body = `<p style="margin-top:3px;font-size:9.5pt;color:#39424D">${esc(st.intro)} The full cards, with who each protects, where it suits and its evidence, are on the live page.</p>
+      <div class="cols" style="margin-top:6px;gap:3.5mm 5mm">${sh.cards.map(c => `<div class="box" style="font-size:8.6pt;border-top:3px solid #2A9D8F;break-inside:avoid">
+        <b style="font-size:10.2pt">${esc(c.title)}</b> <span style="font-size:7pt;font-weight:800;color:#5E6570;border:1px solid #B9B2A6;border-radius:8px;padding:0 5px">${esc((D.EVIDENCE_STATUS[c.status] || {}).name || "")}</span>
         ${D.ACTION_LINES.filter(([k]) => keep.includes(k)).map(([k, label]) => `<p style="margin-top:2px${k === "worksIf" ? ";background:#FFF6E5;padding:2px 4px;border-radius:3px" : k === "stops" ? ";color:#8A1C2B" : ""}"><b style="font-size:7.2pt;letter-spacing:.06em;text-transform:uppercase;color:#5E6570">${esc(label)}:</b> ${line(c, k)}</p>`).join("")}
         <p style="margin-top:2px;font-size:7.6pt;color:#5E6570">Evidence: source ${srcs.findIndex(v => v.url === c.evidence.source.url) + 1} below.</p></div>`).join("")}</div>
-      <p style="margin-top:5px;font-size:7.6pt;color:#5E6570">Costs, where shown, are rough Indian planning ranges from the site’s cooling options, not quotes. Every action also needs a named owner and a running budget.</p>`;
-    const meta = { kind: `Practical actions · ${st.name}`, title: `Practical actions: ${st.name}`, for: "Anyone who has to act", group: "actions" };
-    add(`actions-${st.id}`, meta,
-      await sheet({ slug: `actions-${st.id}`, kind: "Practical actions · Eight questions for every action", title: `Practical actions: ${st.name}`,
+      ${sh.parts > 1 ? `<p style="margin-top:5px;font-size:8.6pt"><b>${sh.part + 1 < sh.parts ? "More cards on the next sheet" : "Earlier cards on the previous sheet"}:</b> <a href="/print/actions-${st.id}${sh.part + 1 < sh.parts ? "-" + (sh.part + 2) : (sh.part > 1 ? "-" + sh.part : "")}/">${SITE.replace("https://", "")}/print/actions-${st.id}${sh.part + 1 < sh.parts ? "-" + (sh.part + 2) : (sh.part > 1 ? "-" + sh.part : "")}/</a></p>` : ""}
+      <p style="margin-top:5px;font-size:7.6pt;color:#5E6570">Costs, where shown, are rough Indian planning ranges from the site’s cooling options, not quotes. Every action also needs a named owner and a running budget. Labels next to each title say what kind of evidence the card cites.</p>`;
+    const meta = { kind: `Practical actions · ${st.name}`, title: `Practical actions: ${st.name}${of}`, for: "Anyone who has to act", group: "actions" };
+    add(slug, meta,
+      await sheet({ slug, kind: "Practical actions · Eight questions for every action", title: `Practical actions: ${st.name}${of}`,
         lede: "What to do, who must act, what it takes to run, what could stop it, and what it only works with.", body, live: `/#practical-${st.id}`,
         sources: srcs }));
   }

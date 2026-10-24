@@ -1400,6 +1400,8 @@ Could help interrupt: The overwhelmed-clinic loop
 
 In practice: Ahmedabad launched South Asia’s first city heat action plan in 2013; by June 2026, India had more than 250. In Nepal, Dhangadhi, which passes 40 °C every year, published a heat action plan in 2025 with the Nepal Red Cross Society. In Bangladesh, Practical Action is working with communities and local authorities in Khulna to build a heat early warning system that responds to them, where none existed before.
 
+- Guide: Extreme Heat Risk Governance Framework and Toolkit: a self-assessment of how ready institutions are, and how to plan, act and learn (GHHIN, UNDRR and WMO, 2025 (first edition)) https://heathealth.info/resources/heat-gov-framework/
+
 - Guide: Heat action plans and case studies, including Indian cities (Global Heat Health Information Network (GHHIN)) https://heathealth.info/heat-action-plans-and-case-studies/
 
 - Guide: Heat Action Planning Guide for Neighborhoods of Greater Phoenix: planning heat action with residents (The Nature Conservancy and partners, 2019) https://globalfutures.asu.edu/sustainable-cities/wp-content/uploads/sites/17/2023/09/Phoenix-Arizona-Heat-Action-Plan.pdf
@@ -2986,13 +2988,133 @@ Source: Mongabay, 2026 https://news.mongabay.com/short-article/2026/05/climate-c
 
 ## Practical actions against extreme heat, by setting
 
-29 practical actions against extreme heat in workplaces, homes, schools, health facilities, markets and neighbourhoods, and what municipalities can do before summer. Each answers eight questions: what to do, who it protects, where it suits, who must act, what it takes to run, the evidence, what could stop it, and what it only works with.
+34 practical actions against extreme heat in workplaces, homes, schools, health facilities, markets and neighbourhoods, and what municipalities can do before summer. Each answers eight questions: what to do, who it protects, where it suits, who must act, what it takes to run, the evidence, what could stop it, and what it only works with.
 
 ### Outdoor and hot workplaces
 
 People who cannot stop working when it is hot: builders, vendors, riders, farm, factory and sanitation workers.
 
+What workers told researchers: Stopping work means losing income; There is nowhere to recover; Safe drinking water costs too much; Home stays hot after the shift; Warnings don’t reach us in a useful way; No one local to install or fix it (People’s Courage International: Hot Cities Make Hard Work Harder, a study with workers in Delhi, Kathmandu, Dhaka, Jakarta and Quezon City, https://www.ccacoalition.org/events/hot-cities-make-hard-work-harder-strengthening-health-and-livelihood-resilience-informal-workers-south-and-southeast-asian-cities)
+
+#### Worker cooling stations
+
+Evidence: Reported, not evaluated · Before the season
+
+- What to do: Rest points where workers already are, with shade or cooling, seating, drinking water, rehydration salts, a first-aid kit and a way to reach a clinic.
+
+- Who it protects: Construction workers, vendors, drivers, porters and loaders between jobs or on breaks.
+
+- Where it suits: Construction sites, markets, bus and taxi stands, labour chowks and community spaces with heavy foot traffic.
+
+- Who must act: City and local governments, Employers and businesses, Community and civil society groups
+
+- Running and upkeep: Water, ice and salts every day; cleaning; power for fans; someone on site; repairs before each season.
+
+- Evidence: The Migrants Resilience Collaborative reported that more than 27,000 workers used its cooling stations in India, Nepal and Bangladesh in one summer. These are the programme’s own figures; health and income effects have not been independently measured. (People’s Courage International, 2025: emergency response to the heatwave crisis in South and Southeast Asia, https://www.peoplescourageinternational.org/pdfs/Emergency%20response%20to%20heat%20wave%20crisis%20in%20South%20and%20Southeast%20Asia.pdf)
+
+- What could stop it: A station nobody can leave work to use, or one that closes when the day is hottest.
+
+- Works only if: Employers let workers use it without losing pay; It is open when people work; Someone refills and repairs it every day.
+
+- Delivery, where: On the routes workers really use, not where land happens to be free
+
+- Delivery, opening hours: Matched to working hours, including early mornings and evenings
+
+- Delivery, services: Shade or cooling, safe water, seating, first aid, referral to a clinic
+
+- Delivery, run by: A named person who checks, cleans, refills and repairs it
+
+- Delivery, access barriers: Lost wages, permission to leave work, disability access, who feels welcome
+
+- Delivery, how you will know: Visits, days open, user views, and health or income outcomes measured properly
+
+Where it has been tried (Reported, not evaluated): At a Bengaluru construction site, a station cooled with water-soaked khus panels drew about 100–120 workers a day in April, falling to 70–80 after the monsoon began. (The Migration Story, https://themigrationstory.com/?p=19496)
+
+#### Warnings that reach workers
+
+Evidence: Reported, not evaluated · During the heat
+
+- What to do: Route official alerts through trusted worker messengers, voice notes and picture boards at stalls and labour chowks, with one clear action in each message and a way to report back.
+
+- Who it protects: Vendors, labourers and anyone without a smartphone, signal or the time to read.
+
+- Where it suits: Markets, labour chowks and worker unions or associations with leaders people trust.
+
+- Who must act: Weather and climate services, Worker organisations and unions, Community and civil society groups
+
+- Running and upkeep: A messenger’s time every alert day, printed boards, and someone who answers when workers report a problem.
+
+- Evidence: In Delhi in 2025, the India Meteorological Department, worker organisations and Greenpeace India set up colour-coded heat boards at vending carts and sent bilingual audio and text alerts on WhatsApp to more than 20 worker leaders, who passed them on. (Greenpeace India: inside India’s first community-led early warning system for informal workers, https://www.greenpeace.org/india/en/story/18953/beyond-the-forecast-inside-indias-first-community-led-early-warning-system-for-extreme-weather-for-informal-workers/)
+
+- What could stop it: Alerts that tell people to stay indoors when they cannot, and no one listening when they report back.
+
+- Works only if: Each message comes with an action people can take; A named messenger passes it on; Workers can report missing water, shade or help, and someone responds.
+
+Where it has been tried (Reported, not evaluated): Vendors call themselves ‘climate messengers’; workers who cannot read ask them what the board means. (Mongabay India, July 2025, https://india.mongabay.com/2025/07/how-informal-workers-made-weather-warnings-more-effective-this-summer/)
+
+#### Safe water people do not have to buy
+
+Evidence: Reported, not evaluated · Over years
+
+- What to do: Free or cheap drinking water close to where people live and work: piped connections, community water points or refill stations.
+
+- Who it protects: Workers and families who now buy water and drink less than they need when it costs too much.
+
+- Where it suits: Informal settlements and work areas where water has to be bought.
+
+- Who must act: Water authorities, City and local governments, Community and civil society groups
+
+- Running and upkeep: Upkeep of pipes and points, water quality testing, and a fair way to bill or share costs.
+
+- Evidence: In Dhaka, the city water utility worked with local NGOs to bring 3,000 water connections into informal settlements through mini-networks joined to the city system. (Agence Française de Développement: improving access to drinking water in Dhaka’s informal settlements, https://www.afd.fr/en/projects/improve-access-drinking-water-dhakas-informal-settlements)
+
+- What could stop it: Rules that tie a connection to land title, so people in informal settlements cannot get one.
+
+- Works only if: Connections do not require land title; Water is tested and safe; Someone local can fix a broken point fast.
+
+#### Local jobs to install and keep it working
+
+Evidence: Reported, not evaluated · Over years
+
+- What to do: Train and pay local people to install, run and repair cool roofs, water points, shade and green spaces.
+
+- Who it protects: Everyone who depends on the equipment working, and the workers who gain a skill and income.
+
+- Where it suits: Any programme that builds things that need upkeep.
+
+- Who must act: City and local governments, Community and civil society groups, Development banks, donors and climate funds
+
+- Running and upkeep: Wages and training, built into the running budget from the start.
+
+- Evidence: Community-run drinking water plants in Delhi’s low-income settlements created local jobs in running the plants and distributing water. (Kumar, 2024: water security through the Tata Power DDL RO water plants, https://www.researchgate.net/publication/384892155_WATER_SECURITY_THROUGH_CORPORATE_SOCIAL_RESPONSIBILITY_A_CASE_STUDY_OF_RO_WATER_PLANTS_BY_TATA_POWER_DDL)
+
+- What could stop it: Projects that train people once and then stop paying them.
+
+- Works only if: Upkeep jobs are paid for every year; Training leads to real work.
+
+#### Portable shade where there is no wall or tree
+
+Evidence: Design concept · Before the season
+
+- What to do: A light shelter with a bench and shade that can be moved between work sites or fixed to a wall.
+
+- Who it protects: Outdoor workers at sites with no shade at all.
+
+- Where it suits: Short-term sites, roadsides and markets.
+
+- Who must act: Employers and businesses, City and local governments, Community and civil society groups
+
+- Running and upkeep: Moving and fixing it, and repairs; someone must own it.
+
+- Evidence: Bengaluru’s Neralu shelter won a 2024 design contest: about 15 kg, seats four, costs about US$175, and can be carried on an auto-rickshaw. It had not yet been tried by workers when it was shown in May 2025. (AP News, June 2025, via KSAT, https://www.ksat.com/health/2025/06/07/how-an-innovative-portable-shelter-could-help-indias-outdoor-workers-beat-the-heat/)
+
+- What could stop it: Nobody owning it once the pilot ends.
+
+- Works only if: Workers test the design first; Someone owns, moves and repairs it.
+
 #### Paid rest breaks that switch on with the alert
+
+Evidence: Measured in a study · During the heat
 
 - What to do: Agree rest, shade and water breaks that start automatically at each alert level, with earlier or split shifts on the hottest days.
 
@@ -3012,6 +3134,8 @@ People who cannot stop working when it is hot: builders, vendors, riders, farm, 
 
 #### Shade and water on work routes
 
+Evidence: Reported, not evaluated · Before the season
+
 - What to do: Rest shelters with seating, drinking water and rehydration salts along the streets and yards where people work.
 
 - Who it protects: Street vendors, delivery riders, traffic police, sanitation and construction workers.
@@ -3029,6 +3153,8 @@ People who cannot stop working when it is hot: builders, vendors, riders, farm, 
 - Works only if: It is in place before the hot season; A named team refills and repairs it; Workers are allowed to stop and use it; Frames are fixed firmly for storms.
 
 #### Income protection when it is too hot to work
+
+Evidence: Measured in a study · Before the season
 
 - What to do: Cash that pays out automatically when heat crosses a set threshold, so workers can afford to stop.
 
@@ -3048,6 +3174,8 @@ People who cannot stop working when it is hot: builders, vendors, riders, farm, 
 
 #### Heat-illness first aid on every shift
 
+Evidence: Reported, not evaluated · During the heat
+
 - What to do: Train supervisors and co-workers to spot heat illness, cool a person fast and get help, with water, shade and ice at hand.
 
 - Who it protects: Everyone on the site, especially new and older workers.
@@ -3065,6 +3193,8 @@ People who cannot stop working when it is hot: builders, vendors, riders, farm, 
 - Works only if: Someone trained is on every shift; Everyone knows the emergency number; Treatment is free at the clinic.
 
 #### Measure and cool hot sheds and factories
+
+Evidence: Measured in a study · Over years
 
 - What to do: Measure heat at the workstations, then cool the roof and walls, add air flow, water and breaks.
 
@@ -3088,6 +3218,8 @@ Where people sleep, cook and care for others, often under thin roofs that stay h
 
 #### Cool roofs
 
+Evidence: Measured in a study · Before the season
+
 - What to do: A white, solar-reflective coating on tin, asbestos or concrete roofs, so less heat reaches the room below.
 
 - Who it protects: Families in informal and low-income homes, older people, young children and the sick.
@@ -3104,7 +3236,13 @@ Where people sleep, cook and care for others, often under thin roofs that stay h
 
 - Works only if: Rooms are measured before and after; Tenants are protected from rent rises; Someone pays to recoat.
 
+Where it has been tried (Reported, not evaluated): In Dhaka’s Kerail settlement, reflective paint went on 105 buildings, including a day care centre, a school and two garment factories. Indoor air at peak heat fell by 7.72 °C in one building and by 3.5 °C on average; one roof’s surface fell by 12.3 °C. Thin corrugated roofs made it hard to apply, and some local paints were not reflective enough. (Sustainable Energy for All and the Kigali Cooling Efficiency Program, via PreventionWeb, 2021, https://www.preventionweb.net/news/cool-roofs-help-reduce-heatwave-impacts-bangladesh-and-indonesia)
+
+Where it has been tried (Reported, not evaluated): In an industrial building in Indonesia, a 5,200 m² cool roof brought indoor air at noon down from 40.8 °C to 30.4 °C for about 500 shift workers. These are indoor air readings; roof-surface drops are always larger. (Sustainable Energy for All and the Kigali Cooling Efficiency Program, via PreventionWeb, 2021, https://www.preventionweb.net/news/cool-roofs-help-reduce-heatwave-impacts-bangladesh-and-indonesia)
+
 #### Shade the walls and let the air through
+
+Evidence: Measured in a study · Before the season
 
 - What to do: Bamboo blinds, jute screens or awnings on the sunny side, and higher vents that let hot air out at night.
 
@@ -3124,6 +3262,8 @@ Where people sleep, cook and care for others, often under thin roofs that stay h
 
 #### Fans and power people can afford
 
+Evidence: Measured in a study · Over years
+
 - What to do: Efficient fans, lifeline electricity tariffs and reliable supply in the hottest weeks.
 
 - Who it protects: Low-income households without any way to cool down.
@@ -3142,6 +3282,8 @@ Where people sleep, cook and care for others, often under thin roofs that stay h
 
 #### Cooler, cleaner kitchens
 
+Evidence: Measured in a study · Over years
+
 - What to do: Let heat and smoke out of the kitchen, move cooking to cooler hours, and make cleaner fuel affordable through the season.
 
 - Who it protects: Women and girls who cook, and children near the stove.
@@ -3159,6 +3301,8 @@ Where people sleep, cook and care for others, often under thin roofs that stay h
 - Works only if: Refills stay affordable all season; There is an opening for heat and smoke; Women decide how it is designed.
 
 #### Check on people alone through hot nights
+
+Evidence: Measured in a study · During the heat
 
 - What to do: Neighbours, health workers or volunteers call or visit older, ill and disabled people who live alone, day and night, during alerts.
 
@@ -3182,6 +3326,8 @@ Children in hot classrooms learn less and fall ill more easily. Most fixes are s
 
 #### Cool the hottest classrooms first
 
+Evidence: Measured in a study · Before the season
+
 - What to do: A reflective coating or a ventilated second roof over the classrooms that get hottest.
 
 - Who it protects: Pupils and teachers.
@@ -3199,6 +3345,8 @@ Children in hot classrooms learn less and fall ill more easily. Most fixes are s
 - Works only if: Classroom heat is logged before and after; There is money to maintain it.
 
 #### Water, and time to drink it
+
+Evidence: Official guidance or data · Before the season
 
 - What to do: Enough safe, cool drinking water for every child, with breaks in the timetable to use it.
 
@@ -3218,6 +3366,8 @@ Children in hot classrooms learn less and fall ill more easily. Most fixes are s
 
 #### Heat-ready timetables
 
+Evidence: Reported, not evaluated · During the heat
+
 - What to do: Start earlier, shorten the hottest afternoons, move exams and sports, and keep learning going if schools must close.
 
 - Who it protects: Pupils, teachers and parents who travel in the heat.
@@ -3235,6 +3385,8 @@ Children in hot classrooms learn less and fall ill more easily. Most fixes are s
 - Works only if: Triggers are agreed before the season; There is a plan to make up lost learning.
 
 #### Shaded play space
+
+Evidence: Measured in a study · Over years
 
 - What to do: Trees, shade structures and less hard paving where children play and queue.
 
@@ -3258,6 +3410,8 @@ Clinics and hospitals fill up in a heatwave just as power, water and staff come 
 
 #### Ready to cool heatstroke patients fast
 
+Evidence: Official guidance or data · During the heat
+
 - What to do: Rapid assessment and active cooling of suspected heatstroke, with ice packs, IV fluids, rehydration salts and trained staff.
 
 - Who it protects: Anyone with heat illness, above all outdoor workers and older people.
@@ -3275,6 +3429,8 @@ Clinics and hospitals fill up in a heatwave just as power, water and staff come 
 - Works only if: Staff train before the season; Ice and fluids are stocked early; Care for heat illness is free.
 
 #### Keep the power on and the building cool
+
+Evidence: Official guidance or data · Over years
 
 - What to do: Backup or solar power, cooling in waiting and treatment areas, and cool roofs, shading and rainwater harvesting.
 
@@ -3294,6 +3450,8 @@ Clinics and hospitals fill up in a heatwave just as power, water and staff come 
 
 #### Protect the staff
 
+Evidence: Measured in a study · During the heat
+
 - What to do: Cool rest rooms, drinking water, and shorter rotations for staff in full protective gear.
 
 - Who it protects: Nurses, doctors, community health workers and cleaners.
@@ -3312,6 +3470,8 @@ Clinics and hospitals fill up in a heatwave just as power, water and staff come 
 
 #### A surge plan linked to the warning
 
+Evidence: Independently evaluated · During the heat
+
 - What to do: Extra beds, staff and supplies that switch on with each alert level, agreed with the weather service and the city.
 
 - Who it protects: Everyone who falls ill in a heatwave.
@@ -3329,6 +3489,8 @@ Clinics and hospitals fill up in a heatwave just as power, water and staff come 
 - Works only if: Hospitals receive the alert directly; Each level names what the hospital does.
 
 #### Shade and water for people waiting outside
+
+Evidence: Official guidance or data · Before the season
 
 - What to do: Shade, seating and drinking water where patients queue, and appointment slots so fewer wait at midday.
 
@@ -3352,6 +3514,8 @@ The streets, markets, stops and public spaces where people spend the hottest hou
 
 #### Shade and water in markets, designed with vendors
 
+Evidence: Measured in a study · Before the season
+
 - What to do: Shade over stalls and aisles, and drinking water points, planned and run with the vendors’ association.
 
 - Who it protects: Street vendors and their customers.
@@ -3369,6 +3533,8 @@ The streets, markets, stops and public spaces where people spend the hottest hou
 - Works only if: Vendors have a say in design and upkeep; Nobody is evicted to make room.
 
 #### Cool waiting points
+
+Evidence: Measured in a study · Before the season
 
 - What to do: Shade, a bench, drinking water and the heat alert on a board, at bus stops, ration shops and other queues.
 
@@ -3388,6 +3554,8 @@ The streets, markets, stops and public spaces where people spend the hottest hou
 
 #### Cooling centres people can actually use
 
+Evidence: Official guidance or data · During the heat
+
 - What to do: Cool public spaces, such as libraries, community halls or places of worship, opened during alerts, with water and somewhere to sit.
 
 - Who it protects: People with no cool place at home, and outdoor workers on breaks.
@@ -3405,6 +3573,8 @@ The streets, markets, stops and public spaces where people spend the hottest hou
 - Works only if: People can reach it, including those who can’t walk far; It opens at the right hours, evenings too; Power and water are secure; Someone staffs and funds it; Workers are free to leave work to use it.
 
 #### Trees that survive
+
+Evidence: Measured in a study · Over years
 
 - What to do: Look after existing trees first; plant heat-hardy species where people walk and wait, with water and three years of care.
 
@@ -3428,6 +3598,8 @@ The decisions a city or district makes before the first heatwave decide what hap
 
 #### Name an owner and set aside the money
 
+Evidence: Measured in a study · Before the season
+
 - What to do: Give heat a named lead office, and ring-fence a heat budget before the season starts.
 
 - Who it protects: Everyone the plan covers, by making sure it can be paid for.
@@ -3445,6 +3617,8 @@ The decisions a city or district makes before the first heatwave decide what hap
 - Works only if: The money is set aside before the heat; One office answers for the plan.
 
 #### Set local alert levels, and who acts at each
+
+Evidence: Measured in a study · Before the season
 
 - What to do: Set thresholds from local health records, and agree who decides, who acts, who pays and by when at each level.
 
@@ -3464,6 +3638,8 @@ The decisions a city or district makes before the first heatwave decide what hap
 
 #### Map who is most exposed, with them
 
+Evidence: Measured in a study · Before the season
+
 - What to do: Find the neighbourhoods, workers and households most at risk, by walking the area with residents and their organisations.
 
 - Who it protects: The people a plan usually misses.
@@ -3481,6 +3657,8 @@ The decisions a city or district makes before the first heatwave decide what hap
 - Works only if: Residents and workers take part; The map changes what gets built.
 
 #### Get the assets ready before the heat
+
+Evidence: Reported, not evaluated · Before the season
 
 - What to do: Shade, water points, cooling spaces and roof coatings installed and tested by the end of winter.
 
@@ -3500,6 +3678,8 @@ The decisions a city or district makes before the first heatwave decide what hap
 
 #### Prepare clinics, and count heat illness
 
+Evidence: Official guidance or data · During the heat
+
 - What to do: Check clinics are ready, and record heat illness and deaths every day of the season so the plan can respond.
 
 - Who it protects: Everyone who falls ill, and future plans that need the numbers.
@@ -3518,6 +3698,8 @@ The decisions a city or district makes before the first heatwave decide what hap
 
 #### Release money on the forecast
 
+Evidence: Measured in a study · Before the season
+
 - What to do: Agree in advance what money is released, and for what, when the forecast crosses a threshold, before the heat peaks.
 
 - Who it protects: People who would otherwise get help only after the damage.
@@ -3533,6 +3715,8 @@ The decisions a city or district makes before the first heatwave decide what hap
 - What could stop it: Money that needs a declared disaster before it can move.
 
 - Works only if: Release rules are agreed in advance; Money reaches people within days.
+
+Where it has been tried (Simulation or test): In Dhaka, the Red Cross and Red Crescent tested heatwave triggers in a 2021 simulation and gave cash grants of BDT 4,500; most recipients spent it on food, and many on medical costs. In April 2024 the Bangladesh Red Crescent activated its heatwave early action protocol for real. (Anticipation Hub: the story of heatwave anticipatory action in Dhaka, https://www.anticipation-hub.org/news/the-story-of-heatwave-anticipatory-action-in-dhaka-bangladesh)
 
 ## Paying for heat protection: who pays, how money arrives, and whether it lasts
 

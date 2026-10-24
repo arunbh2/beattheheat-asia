@@ -1354,7 +1354,7 @@
   const EXAMPLES = typeof WORKED_EXAMPLES !== "undefined" ? WORKED_EXAMPLES : [];
   const STALL_LIST = typeof STALLS !== "undefined" ? STALLS : [];
   const PLAN_KEY = "bth-plan-v1";
-  let plan = { place: "", group: "", levers: [], rows: {}, example: null, stalls: [], triggers: {}, review: "", exposure: [], finance: {} };
+  let plan = { place: "", group: "", levers: [], rows: {}, example: null, stalls: [], triggers: {}, review: "", exposure: [], finance: {}, reviewLog: {} };
   try { const saved = JSON.parse(localStorage.getItem(PLAN_KEY) || "null"); if (saved && Array.isArray(saved.levers)) plan = Object.assign(plan, saved); if (!Array.isArray(plan.stalls)) plan.stalls = []; if (!plan.triggers || typeof plan.triggers !== "object") plan.triggers = {}; if (!Array.isArray(plan.exposure)) plan.exposure = []; if (!plan.finance || typeof plan.finance !== "object") plan.finance = {}; } catch (e) {}
   const savePlan = () => { try { localStorage.setItem(PLAN_KEY, JSON.stringify(plan)); } catch (e) {} };
   const PHASES = typeof PLAN_PHASES !== "undefined" ? PLAN_PHASES : [], PHASE_DEF = typeof PLAN_PHASE_DEFAULT !== "undefined" ? PLAN_PHASE_DEFAULT : {};
@@ -1370,6 +1370,16 @@
   // a level counts as covered once someone is named to act on it
   const w2aDone = () => LEVELS.filter(l => ((trig().w2a || {})[l.id] || {}).act).length;
   const expoOn = () => EXPO.filter(x => plan.exposure.includes(x.id));
+  const DELIVER = typeof PLAN_DELIVER !== "undefined" ? PLAN_DELIVER : [], TWOWAY = typeof PLAN_TWOWAY !== "undefined" ? PLAN_TWOWAY : [], RLOG = typeof PLAN_REVIEWLOG !== "undefined" ? PLAN_REVIEWLOG : [];
+  const deliverOf = id => { const r = planRow(id); return r.deliver || (r.deliver = {}); };
+  const deliverDone = id => DELIVER.filter(f => (planRow(id).deliver || {})[f.id]).length;
+  const twoway = () => trig().twoway || (trig().twoway = {});
+  const rlog = () => plan.reviewLog || (plan.reviewLog = {});
+  function renderPlanReviewLog() {
+    const box = document.getElementById("plan-reviewlog"); if (!box || !RLOG.length) return;
+    box.innerHTML = `<details class="plan-w2a plan-rlog"${RLOG.some(f => rlog()[f.id]) ? " open" : ""}><summary>After the season: what changed <span>record it, then change the plan</span></summary>
+      <fieldset class="plan-w2a__lv plan-fin__path"><legend>Review</legend>${RLOG.map(f => `<label>${esc(f.name)} <input type="text" data-pl-rlog="${f.id}" value="${esc(rlog()[f.id] || "")}" placeholder="${esc(f.placeholder)}"></label>`).join("")}</fieldset></details>`;
+  }
   // paying for protection (part 30): a route and an arrival date for each need, and the path money takes to people
   const FIN = typeof FINANCE !== "undefined" ? FINANCE : null;
   const fin = () => plan.finance || (plan.finance = {});
@@ -1430,6 +1440,8 @@
         ${PHASES.length ? `<label>When it happens <select data-pl-field="phase">${PHASES.map(x => `<option value="${x.id}"${r.phase === x.id ? " selected" : ""}>${esc(x.name)}</option>`).join("")}</select></label>` : ""}
         <label class="plan-row__wide">How you will know it is working <input type="text" data-pl-field="measure" value="${esc(r.measure)}" placeholder="e.g. ${esc(v.measure || "")}"></label>
         ${isAsset(id) ? `<label class="plan-row__wide">Who keeps it working after year one, and from which budget? <input type="text" data-pl-field="upkeep" value="${esc(r.upkeep || "")}" placeholder="e.g. the ward office, from the parks maintenance budget"></label>` : ""}
+        ${DELIVER.length ? `<details class="plan-row__deliver plan-row__wide"${deliverDone(id) ? " open" : ""}><summary>Can we deliver this? <span>${deliverDone(id)} of ${DELIVER.length} answered</span></summary>
+          <div class="plan-row__deliver-f">${DELIVER.map(f => `<label>${esc(f.name)} <input type="text" data-pl-del="${f.id}" value="${esc(deliverOf(id)[f.id] || "")}" placeholder="${esc(f.placeholder)}"></label>`).join("")}</div></details>` : ""}
       </div>`;
     }).join("");
   }
@@ -1462,6 +1474,8 @@
             : f.id === "pay" ? `<label>${esc(f.name)} <select data-pl-w2a="${l.id}:pay">${PAYERS.map(p => `<option${(w.pay || PAYERS[0]) === p ? " selected" : ""}>${esc(p)}</option>`).join("")}</select></label>`
             : `<label>${esc(f.name)} <input type="text" data-pl-w2a="${l.id}:${f.id}" value="${esc(w[f.id] || "")}" placeholder="${esc(f.placeholder || "")}"></label>`).join("")}
         </fieldset>`; }).join("")}</details>` : ""}
+      ${TWOWAY.length ? `<div class="plan-paytrig"><p class="plan-ladder__k">Warnings that work both ways <span>A warning is the start of a conversation: people need an action with it and a way to say what is missing.</span></p>
+        ${TWOWAY.map(f => `<label>${esc(f.name)} <input type="text" data-pl-two="${f.id}" value="${esc(twoway()[f.id] || "")}" placeholder="${esc(f.placeholder)}"></label>`).join("")}</div>` : ""}
       ${FIN ? `<div class="plan-paytrig"><p class="plan-ladder__k">Insurance or cash triggers, if any <span>${esc(FIN.triggersNote)}</span></p>
         <label>Payout trigger and its data source <input type="text" data-pl-fin="payout" value="${esc(fin().payout || "")}" placeholder="e.g. district maximum above a set threshold, from the weather service"></label>
         <label>${esc(FIN.basis.ask)} <input type="text" data-pl-fin="nopay" value="${esc(fin().nopay || "")}" placeholder="e.g. the city’s heat relief fund for workers outside the trigger area"></label></div>` : ""}
@@ -1617,7 +1631,7 @@
     grp.innerHTML = `<option value="">Choose a group…</option>` + PG.map(g => `<option value="${g.id}"${plan.group === g.id ? " selected" : ""}>${esc(g.name)}</option>`).join("");
     place.value = plan.place;
     const rv = document.getElementById("plan-review"); if (rv) rv.value = plan.review || "";
-    renderPlanStory(); renderPlanChecklist(); renderPlanWorkshop(); renderPlanExposure(); renderPlanFin(); renderPlanActions(); renderPlanRows(); renderPlanTriggers(); renderPlanStalls(); renderPlanCheck(); renderPlanSummary();
+    renderPlanStory(); renderPlanChecklist(); renderPlanWorkshop(); renderPlanExposure(); renderPlanFin(); renderPlanReviewLog(); renderPlanActions(); renderPlanRows(); renderPlanTriggers(); renderPlanStalls(); renderPlanCheck(); renderPlanSummary();
   }
 
   // the practical guides for the chosen actions, each listed once, under the first action that needs it
@@ -1632,7 +1646,8 @@
     L.push("HEAT RESPONSE PLAN", `Place: ${plan.place || "(not set)"}`, `People at risk: ${g ? g.name : "(not set)"}`, `Made with the BeatTheHeat.Asia systems map: ${location.origin + location.pathname}`, "");
     plan.levers.forEach((id, i) => { const v = leverById[id], r = planRow(id);
       L.push(`${i + 1}. ${v.title} [${WHEN[v.when] || ""}]`, `   Leads: ${instById[r.lead] ? instById[r.lead].name : "-"}`, `   Pays: ${r.payer}`, `   When: ${phaseById[r.phase] ? phaseById[r.phase].name : "-"}`, `   How we will know: ${r.measure || v.measure || "-"}`);
-      if (isAsset(id)) L.push(`   Kept working by: ${r.upkeep || "(not set)"}`); });
+      if (isAsset(id)) L.push(`   Kept working by: ${r.upkeep || "(not set)"}`);
+      DELIVER.forEach(f => L.push(`   ${f.name}: ${(r.deliver || {})[f.id] || "(not set)"}`)); });
     const t = trig(), base = BASES.find(b => b.id === t.basis);
     L.push("", "TRIGGERS AND WARNINGS", `Alerts based on: ${base ? base.name : "(not set)"}`, `Issued by: ${instById[t.issuer || "met"] ? instById[t.issuer || "met"].name : "-"}`);
     LEVELS.forEach(l => L.push(`${l.name} (${l.meaning}): ${t[l.id] || "(not set)"}. Switches on: ${plan.levers.filter(id => planRow(id).phase === l.id).map(id => leverById[id].title).join(", ") || "nothing yet"}`));
@@ -1640,6 +1655,7 @@
     if (W2A.length) { L.push("", "WARNING-TO-ACTION TABLE");
       LEVELS.forEach(l => { const w = (t.w2a || {})[l.id] || {}; L.push(`${l.name} (${l.meaning}):`);
         W2A.forEach(f => L.push(`   ${f.name}: ${(f.id === "decide" ? instName(w.decide) : f.id === "pay" ? (w.pay || PAYERS[0]) : w[f.id]) || "(not set)"}`)); }); }
+    if (TWOWAY.length) { L.push("", "WARNINGS THAT WORK BOTH WAYS"); TWOWAY.forEach(f => L.push(`   ${f.name}: ${(t.twoway || {})[f.id] || "(not set)"}`)); }
     if (FIN) { const f = fin(); L.push("", "PAYING FOR PROTECTION");
       FIN.needs.forEach(n => { const v = (f.needs || {})[n.id] || {}; L.push(`${n.need}: ${v.route || "(no route yet)"}${v.by ? `. Must arrive by: ${v.by}` : ""}`); });
       FIN.fields.forEach(x => L.push(`   ${x.name}: ${(f.path || {})[x.id] || "(not set)"}`));
@@ -1647,6 +1663,7 @@
     if (expoOn().length) { L.push("", "EXPOSURE: TO DISCUSS (prompts, not a risk score)"); expoOn().forEach(x => L.push(`   - ${x.q} ${x.prompt}`)); }
     L.push("", "WHO CORE ELEMENTS CHECK"); whoCheck().forEach(({ e, st, note }) => L.push(`[${ST[st]}] ${e.name}: ${note}`));
     if (typeof PLAN_REVIEW !== "undefined") { L.push("", `AFTER-SEASON REVIEW${plan.review ? ": " + plan.review : ""}`); PLAN_REVIEW.forEach(q => L.push(`   - ${q}`)); }
+    if (RLOG.some(f => rlog()[f.id])) { L.push("", "WHAT CHANGED AFTER THE SEASON"); RLOG.forEach(f => L.push(`   ${f.name}: ${rlog()[f.id] || "(not set)"}`)); }
     L.push("", `Cycles these actions could help interrupt: ${planLoops().map(l => l.name).join(", ") || "none"}`);
     if (planStalls().length) { L.push("", "WHAT COULD STOP THIS PLAN, AND WHAT HAS MOVED IT ELSEWHERE");
       planStalls().forEach(x => { L.push(`${x.name}:`); x.moves.forEach(m => L.push(`   - ${m}`)); }); }
@@ -1670,7 +1687,7 @@
       .print{position:fixed;top:16px;right:16px;padding:10px 18px;border-radius:999px;border:0;background:#F26430;font-weight:700;cursor:pointer}
       @media print{.print{display:none}body{margin:0}.read .u{display:block;color:#5E6570;font-size:11px;word-break:break-all}h2{break-after:avoid}.read h3{break-after:avoid}}`;
     const rows = plan.levers.map(id => { const v = leverById[id], r = planRow(id);
-      return `<tr><td><strong>${h(v.title)}</strong><br><span class="note">${h(WHEN[v.when] || "")}</span>${isAsset(id) ? `<br><span class="${(r.upkeep || "").trim() ? "note" : "gap"}">Kept working by: ${h(r.upkeep || "not set")}</span>` : ""}</td><td>${h(phaseById[r.phase] ? phaseById[r.phase].name : "")}</td><td>${h(instById[r.lead] ? instById[r.lead].name : "")}</td><td class="${r.payer === "Not decided yet" ? "gap" : ""}">${h(r.payer)}</td><td>${h(r.measure || v.measure || "")}</td></tr>`; }).join("");
+      return `<tr><td><strong>${h(v.title)}</strong><br><span class="note">${h(WHEN[v.when] || "")}</span>${isAsset(id) ? `<br><span class="${(r.upkeep || "").trim() ? "note" : "gap"}">Kept working by: ${h(r.upkeep || "not set")}</span>` : ""}${DELIVER.filter(f => (r.deliver || {})[f.id]).map(f => `<br><span class="note">${h(f.name)}: ${h(r.deliver[f.id])}</span>`).join("")}</td><td>${h(phaseById[r.phase] ? phaseById[r.phase].name : "")}</td><td>${h(instById[r.lead] ? instById[r.lead].name : "")}</td><td class="${r.payer === "Not decided yet" ? "gap" : ""}">${h(r.payer)}</td><td>${h(r.measure || v.measure || "")}</td></tr>`; }).join("");
     const html = `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Heat response plan: ${h(plan.place || "draft")}</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;700&display=swap"><style>${css}</style></head><body>
       <button class="print" onclick="window.print()">Print or save as PDF</button>
       <p class="k">Heat response plan · draft</p><h1>${h(plan.place || "Our place")}</h1>
@@ -1681,6 +1698,7 @@
         return `<h2>Triggers and warnings</h2><p>Alerts based on <strong>${h(base ? base.name : "not set yet")}</strong>, issued by <strong>${h(instById[t.issuer || "met"] ? instById[t.issuer || "met"].name : "")}</strong>.</p>
         <table><thead><tr><th>Level</th><th>Trigger</th><th>Switches on</th></tr></thead><tbody>${LEVELS.map(l => `<tr><td><span class="lv lv--${l.id}"></span><strong>${h(l.name)}</strong><br><span class="note">${h(l.meaning)}</span></td><td class="${t[l.id] ? "" : "gap"}">${h(t[l.id] || "Not set")}</td><td>${h(plan.levers.filter(id => planRow(id).phase === l.id).map(id => leverById[id].title).join(", ") || "-")}</td></tr>`).join("")}</tbody></table>
         <p><strong>Warnings reach people by:</strong> ${h(chs.join(", ") || "not set yet")}</p>
+        ${TWOWAY.length ? `<h2>Warnings that work both ways</h2><table><tbody>${TWOWAY.map(f => `<tr><td><strong>${h(f.name)}</strong></td><td class="${(t.twoway || {})[f.id] ? "" : "gap"}">${h((t.twoway || {})[f.id] || "Not set")}</td></tr>`).join("")}</tbody></table>` : ""}
         ${W2A.length ? `<h2>Warning-to-action table</h2><table><thead><tr><th>Level</th>${W2A.map(f => `<th>${h(f.name)}</th>`).join("")}</tr></thead><tbody>${LEVELS.map(l => { const w = (t.w2a || {})[l.id] || {};
           return `<tr><td><span class="lv lv--${l.id}"></span><strong>${h(l.name)}</strong></td>${W2A.map(f => { const v = f.id === "decide" ? instName(w.decide) : f.id === "pay" ? (w.pay || PAYERS[0]) : w[f.id];
             return `<td class="${v && v !== "Not decided yet" ? "" : "gap"}">${h(v || "Not set")}</td>`; }).join("")}</tr>`; }).join("")}</tbody></table>` : ""}`; })()}
@@ -1693,6 +1711,7 @@
       ${(() => { const c = whoCheck(); return c.length ? `<h2>Check against WHO’s eight core elements</h2><p class="note">${c.filter(x => x.st === "yes").length} of ${c.length} in place. From WHO/Europe, Heat–health action plans: guidance, second edition (2026).</p>
         <table><tbody>${c.map(({ e, st, note }) => `<tr><td><strong>${h(e.name)}</strong></td><td class="${st === "yes" ? "" : "gap"}">${h(ST[st])}</td><td>${h(note)}</td></tr>`).join("")}</tbody></table>` : ""; })()}
       ${typeof PLAN_REVIEW !== "undefined" ? `<h2>After the season: review${plan.review ? " · " + h(plan.review) : ""}</h2><ul>${PLAN_REVIEW.map(q => `<li>${h(q)}</li>`).join("")}</ul>` : ""}
+      ${RLOG.some(f => rlog()[f.id]) ? `<h2>What changed after the season</h2><table><tbody>${RLOG.map(f => `<tr><td><strong>${h(f.name)}</strong></td><td>${h(rlog()[f.id] || "")}</td></tr>`).join("")}</tbody></table>` : ""}
       <h2>Cycles these actions could help interrupt</h2><p>${h(planLoops().map(l => l.name).join(", ") || "None yet")}</p>
       ${planStalls().length ? `<h2>What could stop this plan</h2><p class="note">And what has moved each one elsewhere.</p><div class="read">${planStalls().map(x => `<h3>${h(x.name)}</h3><ul>${x.moves.map(m => `<li>${h(m)}</li>`).join("")}</ul>`).join("")}</div>` : ""}
       ${(() => { const r = planReading(); return r.length ? `<h2>Reading list for this plan</h2><p class="note">Practical guides for each action, from the BeatTheHeat.Asia map.</p><div class="read">${r.map(({ v, guides }) => `<h3>${h(v.title)}</h3><ul>${guides.map(g => `<li><a href="${h(g.url)}" target="_blank" rel="noopener">${h(g.title)}</a> <span class="by">· ${h(g.by)}</span><span class="u">${h(g.url)}</span></li>`).join("")}</ul>`).join("")}</div>` : ""; })()}
@@ -1707,7 +1726,7 @@
   function loadExample(id) {
     const ex = EXAMPLES.find(x => x.id === id); if (!ex) return;
     track("plan-example-" + id);
-    plan = { place: ex.place, group: ex.group, levers: ex.actions.map(a => a.lever), rows: {}, example: ex.id, stalls: [], triggers: Object.assign({}, ex.triggers || {}), review: "", exposure: [], finance: {} };
+    plan = { place: ex.place, group: ex.group, levers: ex.actions.map(a => a.lever), rows: {}, example: ex.id, stalls: [], triggers: Object.assign({}, ex.triggers || {}), review: "", exposure: [], finance: {}, reviewLog: {} };
     ex.actions.forEach(a => { plan.rows[a.lever] = { lead: a.lead, payer: a.payer, measure: a.measure, phase: a.phase || PHASE_DEF[a.lever] || "year" }; });
     savePlan(); renderPlan();
     document.getElementById("plan-story").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" });
@@ -1725,6 +1744,10 @@
       else if (t.dataset.plField === "measure" || t.dataset.plField === "upkeep") { planRow(t.closest("[data-pl-row]").dataset.plRow)[t.dataset.plField] = t.value; light(); }
       else if (t.id === "plan-review") { plan.review = t.value; light(); }
       else if (t.dataset.plTrig && t.tagName === "INPUT") { trig()[t.dataset.plTrig] = t.value; light(); }
+      else if (t.dataset.plDel) { const id = t.closest("[data-pl-row]").dataset.plRow; deliverOf(id)[t.dataset.plDel] = t.value; light();
+        const sm = t.closest(".plan-row__deliver").querySelector("summary span"); if (sm) sm.textContent = `${deliverDone(id)} of ${DELIVER.length} answered`; }
+      else if (t.dataset.plTwo) { twoway()[t.dataset.plTwo] = t.value; light(); }
+      else if (t.dataset.plRlog) { rlog()[t.dataset.plRlog] = t.value; light(); }
       else if (t.dataset.plFin) { const k = t.dataset.plFin.split(":");
         if (k[0] === "need") finNeed(k[1])[k[2]] = t.value; else if (k[0] === "path") finPath()[k[1]] = t.value; else fin()[k[0]] = t.value;
         light(); const sm = sec.querySelector(".plan-fin summary span"); if (sm) sm.textContent = `${finDone()} of ${FIN.needs.length} needs with a route`; }
@@ -1775,7 +1798,7 @@
       if (act === "map") goToMap(() => applyLevers(plan.levers, plan.place || "Your plan", "The actions in your plan, switched on together."));
       else if (act === "print") openPlan();
       else if (act === "copy") navigator.clipboard.writeText(planText()).then(() => { if (status) status.textContent = "Plan copied. Paste it into an email or document."; }, () => { if (status) status.textContent = "Couldn’t copy. Use “Open a printable plan” instead."; });
-      else if (act === "clear") { plan = { place: "", group: "", levers: [], rows: {}, example: null, stalls: [], triggers: {}, review: "", exposure: [], finance: {} }; savePlan(); renderPlan(); }
+      else if (act === "clear") { plan = { place: "", group: "", levers: [], rows: {}, example: null, stalls: [], triggers: {}, review: "", exposure: [], finance: {}, reviewLog: {} }; savePlan(); renderPlan(); }
     });
   })();
 
@@ -2230,7 +2253,10 @@
   // Find practical actions: settings as tabs, eight-line action cards, and questions people arrive with
   const PA = typeof ACTION_SETTINGS !== "undefined" ? ACTION_SETTINGS : [], PA_LINES = typeof ACTION_LINES !== "undefined" ? ACTION_LINES : [];
   const PA_Q = typeof ACTION_JOURNEYS !== "undefined" ? ACTION_JOURNEYS : [];
-  let paSel = "";
+  const EV_ST = typeof EVIDENCE_STATUS !== "undefined" ? EVIDENCE_STATUS : {}, HZ = typeof ACTION_HORIZONS !== "undefined" ? ACTION_HORIZONS : [];
+  // a small label for the kind of evidence, with its meaning on hover and for screen readers
+  const evTag = st => EV_ST[st] ? `<span class="ev-tag ev-tag--${st}" title="${esc(EV_ST[st].text)}">${esc(EV_ST[st].name)}<span class="visually-hidden">: ${esc(EV_ST[st].text)}</span></span>` : "";
+  let paSel = "", paHz = "";
   function paCost(ref) {
     const pl = ref && COOL.find(x => x.id === ref[0]), o = pl && pl.options.find(x => x.name === ref[1]);
     return o ? `<span class="pa-cost">Rough cost: ${coolCost(o.cost)} <a href="#cool-${pl.id}">See cooling options</a></span>` : "";
@@ -2242,9 +2268,12 @@
     if (key === "worksIf") return `<ul>${c.worksIf.map(x => `<li>${esc(x)}</li>`).join("")}</ul>`;
     return esc(c[key]);
   }
-  const paCard = c => `<article class="pa-card" id="pa-${c.id}">
+  const paCard = c => `<article class="pa-card" id="pa-${c.id}" data-hz="${c.horizon || ""}">
+      <p class="pa-card__tags">${evTag(c.status)}${(h => h ? `<span class="hz-tag">${esc(h.name)}</span>` : "")(HZ.find(x => x.id === c.horizon))}</p>
       <h3 class="pa-card__t">${esc(c.title)}</h3>
       <dl class="pa-card__dl">${PA_LINES.map(([k, label]) => `<div class="pa-l pa-l--${k}"><dt>${esc(label)}</dt><dd>${paLine(c, k)}</dd></div>`).join("")}</dl>
+      ${c.delivery ? `<details class="pa-deliver"><summary>Delivery details</summary><dl>${c.delivery.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl></details>` : ""}
+      ${(c.examples || []).length ? `<div class="pa-ex"><p class="pa-ex__k">Where it has been tried</p>${c.examples.map(x => `<p>${evTag(x.status)} ${esc(x.text)} <span class="cool-ev__src">${extLink(x.source.url, x.source.label)}</span></p>`).join("")}</div>` : ""}
       <p class="pa-card__go"><button type="button" class="btn btn--sm btn--teal" data-pa-add="${c.lever}">Add to my plan</button>
         ${leverById[c.lever] ? `<button type="button" class="lever-chip" data-lever="${c.lever}">Why it matters: see it on the map</button>` : ""}
         ${c.plan ? `<a href="#plan-step-${c.plan}">Step ${c.plan} of the plan</a>` : ""}</p>
@@ -2266,9 +2295,15 @@
     const q = PA_Q.find(x => x.go === st.id && x.also), also = q && PA.find(x => x.id === q.also);
     panelEl.innerHTML = `<div class="pa-head"><p class="pa-intro">${esc(st.intro)}</p>
         <p class="pa-head__go">${(cp => cp ? `<a class="pa-join" href="#cool-${cp.id}">Options, costs and traps for ${esc(cp.name.toLowerCase())} <span aria-hidden="true">→</span></a> · ` : "")(st.cool && COOL.find(x => x.id === st.cool))}${printLink("actions-" + st.id, `Print the ${st.short.toLowerCase()} cards`)}${also ? ` · <button type="button" class="link" data-pa-tab="${also.id}">Also: ${esc(also.name.toLowerCase())}</button>` : ""}</p></div>
-      <div class="pa-cards">${st.cards.map(paCard).join("")}</div>`;
+      ${st.problems ? `<div class="pa-problems"><p class="pa-problems__k">What workers told researchers</p><div class="pa-problems__list">${st.problems.map(x => x.setting ? `<button type="button" class="pa-prob" data-pa-tab="${x.setting}">${esc(x.q)} <span aria-hidden="true">→</span></button>` : `<a class="pa-prob" href="#pa-${x.cards[0]}">${esc(x.q)} <span aria-hidden="true">↓</span></a>`).join("")}</div>
+        <p class="cool-ev__src">${extLink(st.problemsSource.url, st.problemsSource.label)}</p></div>` : ""}
+      <div class="pa-hz" role="group" aria-label="Show actions by when they protect people"><button type="button" data-pa-hz="" aria-pressed="${!paHz}">All</button>${HZ.map(h => `<button type="button" data-pa-hz="${h.id}" aria-pressed="${paHz === h.id}">${esc(h.name)}</button>`).join("")}</div>
+      <div class="pa-cards">${st.cards.filter(c => !paHz || c.horizon === paHz).map(paCard).join("") || `<p class="pa-intro">No ${esc(st.short.toLowerCase())} actions for this time frame. <button type="button" class="link" data-pa-hz="">Show all</button></p>`}</div>
+      <p class="pa-key">Evidence labels say what kind of evidence a card cites, not how good the action is. <a href="#evidence-labels">What each label means</a></p>`;
   }
+  function renderEvKey() { const k = document.getElementById("ev-key"); if (k) k.innerHTML = Object.entries(EV_ST).map(([id, x]) => `<div><dt>${evTag(id)}</dt><dd>${esc(x.text)}</dd></div>`).join(""); }
   function renderPractical() {
+    renderEvKey();
     const tabs = document.getElementById("pa-tabs"), jr = document.getElementById("pa-journeys"); if (!tabs || !PA.length) return;
     jr.innerHTML = `<p class="pa-journeys__k">Start from a question</p>` + PA_Q.map(x => `<button type="button" class="pa-q" data-pa-go="${x.go}" aria-pressed="false">${esc(x.q)}</button>`).join("");
     tabs.innerHTML = PA.map(x => `<button type="button" role="tab" class="cool-tab" id="pa-tab-${x.id}" data-pa="${x.id}" aria-controls="pa-panel" aria-selected="false" tabindex="-1">${esc(x.name)}</button>`).join("");
@@ -2283,6 +2318,8 @@
       const g = ev.target.closest("[data-pa-go]");
       if (g && g.dataset.paGo === "finance") { track("practical-q-finance"); document.getElementById("finance").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" }); return; }
       if (g) { showPractical(g.dataset.paGo); track("practical-q-" + g.dataset.paGo); document.getElementById("pa-panel").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" }); return; }
+      const hz = ev.target.closest("[data-pa-hz]");
+      if (hz) { paHz = hz.dataset.paHz; showPractical(paSel); track("practical-hz-" + (paHz || "all")); const f = document.querySelector(`#pa-panel [data-pa-hz="${paHz}"]`); if (f) f.focus(); return; }
       const a = ev.target.closest("[data-pa-add]");
       if (a) { const id = a.dataset.paAdd, st = document.getElementById("pa-status"), had = plan.levers.includes(id);
         if (!had) { plan.levers.push(id); savePlan(); renderPlan(); }
@@ -2325,7 +2362,7 @@
       <ul class="fin-survive">${F.survive.map(q => `<li>${esc(q)}</li>`).join("")}</ul>
       <p class="fin-note">Many index-insurance pilots in Asia work technically but stall at renewal. ${src(F.surviveSource)}</p>
       <h3 class="fin-h">What has been tried</h3>
-      <div class="fin-cases">${F.cases.map(c => `<article class="fin-case" id="fin-${c.id}"><h4>${esc(c.name)}</h4><p class="fin-case__where">${esc(c.where)} · <span>${esc(c.hazard)}</span></p>
+      <div class="fin-cases">${F.cases.map(c => `<article class="fin-case" id="fin-${c.id}"><p class="pa-card__tags">${evTag(c.status)}</p><h4>${esc(c.name)}</h4><p class="fin-case__where">${esc(c.where)} · <span>${esc(c.hazard)}</span></p>
         <dl>${[["Who paid", c.paid], ["Who received it", c.received], ["What it made possible", c.enabled], ["What it left out", c.uncovered], ["Did it continue?", c.continued]].map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>
         <p class="fin-case__lesson"><b>Lesson</b>${esc(c.lesson)}</p><p class="fin-case__src">${c.sources.map(x => extLink(x.url, x.label)).join(" · ")}</p></article>`).join("")}</div>
       <p class="fin-boundary"><b>What this evidence can and can’t tell you.</b> ${esc(F.boundary)} ${src(F.boundarySource)}</p>
