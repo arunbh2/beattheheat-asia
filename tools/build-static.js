@@ -397,6 +397,7 @@ fs.writeFileSync(path.join(ROOT, "sitemap.xml"), `<?xml version="1.0" encoding="
   <url><loc>${SITE}/</loc><lastmod>${TODAY}</lastmod><priority>1.0</priority></url>
   <url><loc>${SITE}/a-week-in-the-heat/</loc><lastmod>${TODAY}</lastmod><priority>0.9</priority></url>
   <url><loc>${SITE}/plan/</loc><lastmod>${TODAY}</lastmod><priority>0.9</priority></url>
+  <url><loc>${SITE}/together/</loc><lastmod>${TODAY}</lastmod><priority>0.9</priority></url>
 ${[...PAGES, ...CITY_PAGES].map(p => `  <url><loc>${SITE}/${p.slug}/</loc><lastmod>${TODAY}</lastmod><priority>0.8</priority></url>`).join("\n")}
 </urlset>
 `);
