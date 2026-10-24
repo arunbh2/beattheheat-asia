@@ -1821,7 +1821,8 @@
       return (n < 0 && v ? "−" : "") + c.sym + v.toLocaleString(c.loc, { minimumFractionDigits: v % 1 ? c.dp : 0, maximumFractionDigits: c.dp }); };
     const cap = t => t[0].toUpperCase() + t.slice(1);
     const fill = (t, P, h) => t.replace(/\{pr\}/g, P.pron).replace(/\{Pr\}/g, cap(P.pron)).replace(/\{obj\}/g, P.pron === "he" ? "him" : "her").replace(/\{poss\}/g, P.poss).replace(/\{h\} hours/g, plural(h, "hour")).replace(/\{h\}/g, h)
-      .replace(/\{doctor\}/g, rs(P.doctor ?? country().doctor)).replace(/\{hosp\}/g, rs(country().hosp)).replace(/\{power\}/g, rs(country().power));
+      .replace(/\{doctor\}/g, rs(P.doctor ?? country().doctor)).replace(/\{hosp\}/g, rs(country().hosp)).replace(/\{power\}/g, rs(country().power))
+      .replace(/\{sick\}/g, rs(W.measures.reduce((a, m) => a + (m.effect.sickpay || 0), 0)));
 
     // a measure counts only when it is chosen, every hard condition holds and no test has knocked it out
     function condMet(s, m, c) {
@@ -1834,7 +1835,7 @@
       const P = person();
       m.conds.forEach(c => { if (!c.soft && !condMet(s, m, c)) need.push(fill(c.auto ? `${c.text} (add ${M[c.auto].name.toLowerCase()})` : c.text, P, 0)); });
       if (T.water && ["shade", "station", "fan", "factorycool", "dorm", "riderpoint", "freshwater"].includes(id)) why.push("The water or power failed, and nobody restored it");
-      if (T.noid && ["cash", "insurance", "hospital", "nssf", "nhi", "jkn", "hicard"].includes(id)) why.push(`${cap(P.pron)} has no ID or account the scheme accepts`);
+      if (T.noid && ["cash", "insurance", "hospital", "nssf", "nhi", "jkn", "hicard", "sec40", "uchealth"].includes(id)) why.push(`${cap(P.pron)} has no ID or account the scheme accepts`);
       if (T.donor && (x.payer || m.payer) === "Donor or philanthropy") why.push("It was paid for by a donor, and the money ended");
       if (T.notrigger && id === "insurance") why.push("The official reading stayed below the threshold");
       return { ok: !why.length && !need.length, why, need, text: [need.length ? `Still to make true: ${need.join("; ")}` : "", ...why].filter(Boolean).join(". ") };
@@ -1858,10 +1859,11 @@
         const cost = works && !ill && !(heat && any("rentfree")) ? +s.workCost : 0;
         const water = heat && works && !ill && !any("water") ? P.water : 0, power = heat && ok("fan") && !tariff ? C.power : 0;
         const health = ill ? (any("freecare") ? 0 : P.doctor ?? C.doctor) : 0, bonus = ill && P.bonus && !any("keepbonus") ? P.bonus : 0;
-        let inflow = 0; money.forEach(id => { if (arrival(s, id) === d) inflow += amountOf(s, id); });
+        const sick = ill ? has(s, "sickpay").filter(ok).reduce((a, id) => a + M[id].effect.sickpay, 0) : 0;
+        let inflow = sick; money.forEach(id => { if (arrival(s, id) === d) inflow += amountOf(s, id); });
         bal += earn - cost - water - power - +s.home - health - bonus + inflow; min = Math.min(min, bal);
         if (bal < 0 && firstNeg < 0) firstNeg = d;
-        rows.push({ d, heat, works, ill, lost, paidLost, earn, cost, water, power, health, bonus, inflow, bal });
+        rows.push({ d, heat, works, ill, lost, paidLost, earn, cost, water, power, health, bonus, sick, inflow, bal });
       }
       const normal = P.works.reduce((a, w) => a + (w ? +s.earn : 0), 0), earned = rows.reduce((a, r) => a + r.earn, 0);
       return { rows, later, firstNeg, min, end: bal, lost: normal - earned, health: rows.reduce((a, r) => a + r.health + r.bonus, 0), illDay };
@@ -1877,6 +1879,9 @@
       : id === "kamala" ? `<rect x="168" y="20" width="22" height="92" fill="#9AA3AD" stroke="#16202B" stroke-width="4"/><path d="M174 16 Q182 10 178 4 M186 16 Q194 10 190 4" stroke="#9AA3AD" stroke-width="5" fill="none" opacity=".8"/>${[0, 1, 2].map(r => [0, 1, 2].map(c => `<rect x="${24 + c * 26 + (r % 2) * 13}" y="${98 - r * 13}" width="24" height="12" fill="#C8553D" stroke="#16202B" stroke-width="2"/>`).join("")).join("")}<rect x="116" y="102" width="34" height="9" fill="#C8553D" stroke="#16202B" stroke-width="3"/><g transform="translate(140,104) scale(.8)" stroke="#16202B" stroke-width="5" stroke-linecap="round" fill="none"><circle cx="0" cy="-46" r="11"/><path d="M0 -35 V-5 M0 -22 L-14 -2 M0 -22 L14 -2 M0 -5 L-14 8 M0 -5 L14 8"/></g>`
       : id === "budi" ? `<rect x="20" y="96" width="200" height="4" fill="#fff" opacity=".7"/><circle cx="76" cy="100" r="15" fill="none" stroke="#16202B" stroke-width="4"/><circle cx="156" cy="100" r="15" fill="none" stroke="#16202B" stroke-width="4"/><path d="M76 100 L100 78 H138 L156 100 M138 78 L146 62" stroke="#16202B" stroke-width="4" fill="none" stroke-linejoin="round"/><rect x="72" y="62" width="30" height="24" rx="3" fill="#2A9D8F" stroke="#16202B" stroke-width="3"/><g transform="translate(118,78) scale(.7)" stroke="#16202B" stroke-width="5" stroke-linecap="round" fill="none"><circle cx="0" cy="-46" r="12" fill="#F2C14E"/><path d="M0 -34 V0 M0 -24 L36 -22 M0 0 L22 8 L26 30"/></g>`
       : id === "lan" ? `<rect y="84" width="240" height="56" fill="#8CC5BC"/><path d="M0 92 H240 M0 104 H240" stroke="#fff" stroke-width="2" opacity=".6"/>${[...Array(9)].map((_, i) => `<path d="M${18 + i * 24} 100 v-16 m0 6 l-6 -8 m6 8 l6 -8" stroke="#3E8E41" stroke-width="3" fill="none" stroke-linecap="round"/>`).join("")}<rect x="196" y="62" width="30" height="40" rx="6" fill="#9AA3AD" stroke="#16202B" stroke-width="3"/><path d="M116 43 L130 34 L144 43 Z" fill="#F2C14E" stroke="#16202B" stroke-width="3" stroke-linejoin="round"/><g transform="translate(130,84) scale(.75)" stroke="#16202B" stroke-width="5" stroke-linecap="round" fill="none"><circle cx="0" cy="-46" r="11"/><path d="M0 -35 V-2 M0 -24 L-16 -6 M0 -24 L18 -8 M0 -2 L-10 22 M0 -2 L10 22"/></g>`
+      : id === "nimal" ? `<rect y="112" width="240" height="28" fill="#8CC5BC"/><circle cx="70" cy="100" r="14" fill="none" stroke="#16202B" stroke-width="4"/><circle cx="150" cy="100" r="14" fill="none" stroke="#16202B" stroke-width="4"/><path d="M70 100 L96 80 H132 L150 100 M96 80 L92 64" stroke="#16202B" stroke-width="4" fill="none" stroke-linejoin="round"/><rect x="118" y="58" width="44" height="22" rx="3" fill="#fff" stroke="#16202B" stroke-width="3"/><path d="M128 69 q8 -7 16 0 q-8 7 -16 0 Z M144 69 l6 -5 v10 Z" fill="#2A9D8F"/>${fig(196, 92, .8)}`
+      : id === "joy" ? `<path d="M52 44 Q96 22 140 44 Z" fill="#2A9D8F" stroke="#16202B" stroke-width="4"/><path d="M96 44 V78" stroke="#16202B" stroke-width="4"/><rect x="52" y="76" width="88" height="24" rx="3" fill="#F2C14E" stroke="#16202B" stroke-width="4"/><circle cx="70" cy="106" r="7" fill="#fff" stroke="#16202B" stroke-width="4"/><circle cx="124" cy="106" r="7" fill="#fff" stroke="#16202B" stroke-width="4"/>${fig(166, 84, .9)}${fig(196, 98, .55)}${fig(212, 98, .5)}`
+      : id === "malee" ? `<rect x="30" y="52" width="180" height="60" fill="#FCE7D6" stroke="#16202B" stroke-width="4"/><path d="M22 56 L120 30 L218 56 Z" fill="#9AA3AD" stroke="#16202B" stroke-width="4" stroke-linejoin="round"/><rect x="104" y="84" width="56" height="8" fill="#16202B"/><path d="M114 84 V70 H148 V84 M140 70 V78" stroke="#16202B" stroke-width="4" fill="none"/><circle cx="186" cy="74" r="10" fill="none" stroke="#16202B" stroke-width="3"/><path d="M186 84 V104 M178 104 H194" stroke="#16202B" stroke-width="3"/><g transform="translate(86,106) scale(.75)" stroke="#16202B" stroke-width="5" stroke-linecap="round" fill="none"><circle cx="0" cy="-46" r="11"/><path d="M0 -35 V-5 M0 -22 L26 -22 M0 -5 L20 -5 L20 12"/></g>`
       : id === "sunil" ? `<rect x="20" y="40" width="70" height="72" fill="#C9C2B6" stroke="#16202B" stroke-width="4"/><path d="M28 52 H82 M28 66 H82 M28 80 H82" stroke="#16202B" stroke-width="2" opacity=".4"/>${fig(120, 82)}${fig(150, 84, .95)}${fig(180, 82)}<rect x="196" y="58" width="34" height="18" rx="3" fill="#fff" stroke="#16202B" stroke-width="3"/><text x="213" y="71" font-size="9" font-weight="800" text-anchor="middle" fill="#16202B">NAKA</text>`
       : `<rect x="40" y="58" width="150" height="54" fill="#FCE7D6" stroke="#16202B" stroke-width="4"/><polygon points="30,62 ${[...Array(9)].map((_, i) => `${40 + i * 18},${i % 2 ? 50 : 42}`).join(" ")} 200,62" fill="#E0442B" stroke="#16202B" stroke-width="4" stroke-linejoin="round"/><rect x="118" y="88" width="40" height="10" fill="#16202B"/><path d="M126 88 V78 H150 V88" stroke="#16202B" stroke-width="4" fill="none"/><g transform="translate(96,104) scale(.8)" stroke="#16202B" stroke-width="5" stroke-linecap="round" fill="none"><circle cx="0" cy="-46" r="11"/><path d="M0 -35 V-5 M0 -22 L22 -18 M0 -5 L18 -5 L18 12"/></g>`}</svg>`;
 
@@ -1917,10 +1922,10 @@
     function days(pkg) {
       const P = person();
       return `<ol class="wk-days">${pkg.rows.map(r => {
-        let t = !r.works ? "No work today." : r.ill ? `${P.name} is dizzy and sick. A doctor and medicines: ${r.health ? rs(r.health) : "free"}. ${r.earn ? `No work; ${P.poss} basic pay continues on medical leave.` : "No work, no pay."}${r.bonus ? ` The day off also costs the month’s attendance bonus: ${rs(r.bonus)}.` : ""}`
+        let t = !r.works ? "No work today." : r.ill ? `${P.name} is dizzy and sick. A doctor and medicines: ${r.health ? rs(r.health) : "free"}. ${r.earn ? `No work; ${P.poss} basic pay continues on medical leave.` : "No work, no pay."}${r.bonus ? ` The day off also costs the month’s attendance bonus: ${rs(r.bonus)}.` : ""}${r.sick ? ` Social security pays ${rs(r.sick)} towards the day.` : ""}`
           : r.heat ? (r.lost ? fill(!r.cost && P.heatLineFree ? P.heatLineFree : P.heatLine, P, r.lost) : `Hot, but shade and rest let ${P.pron} work the full day.`) : "An ordinary day.";
         if (r.heat && r.paidLost < r.lost && !r.ill) t += ` Paid rest covers ${r.lost - r.paidLost} of those hours.`;
-        if (r.inflow) t += ` <b class="pos">${rs(r.inflow)} arrives.</b>`;
+        if (r.inflow - r.sick) t += ` <b class="pos">${rs(r.inflow - r.sick)} arrives.</b>`;
         if (r.d === pkg.firstNeg) t += ` <b class="neg">Money runs out.</b>`;
         return `<li class="wk-dayc${r.heat ? " is-hot" : ""}${r.bal < 0 ? " is-neg" : ""}"><p class="wk-dayc__h"><b>${W.days[r.d]}</b>${r.heat ? `<span>${country().temps[r.d]} °C</span>` : ""}</p><p class="wk-dayc__t">${t}</p><p class="wk-dayc__bal">${rs(r.bal)}</p></li>`;
       }).join("")}</ol><p class="wk-small">The story is illustrative: it follows the numbers you set, not a real person.</p>`;
