@@ -15,7 +15,7 @@ const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + `
 ;Object.assign(this, { SYSTEMS, CONSEQUENCES, LINKS, LOOP_GROUPS, LOOPS, INSTITUTIONS, LEVERS, LOOP_PLACES, EVIDENCE, ORG_ROLES,
   ORGANISATIONS, GLOSSARY_GROUPS, GLOSSARY, WORKED_EXAMPLES, AT_RISK, AT_RISK_BARRIERS, STALLS, COOL_PLACES, COOL_TRAPS,
-  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, COOL_FX, COOL_REGION, HOME_HEATS, STRAIN, COOL_ASK, PLAN_GROUPS, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL, LIVE_CITIES, CITY_PROFILES, CITY_HAP, HEATWAVES, HEATWAVES_NOTE });`, ctx);
+  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, COOL_FX, COOL_REGION, HOME_HEATS, STRAIN, COOL_ASK, PLAN_GROUPS, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL, LIVE_CITIES, CITY_PROFILES, CITY_HAP, HEATWAVES, HEATWAVES_NOTE, ACTION_SETTINGS, ACTION_LINES, ACTION_JOURNEYS });`, ctx);
 const D = ctx, TODAY = new Date().toISOString().slice(0, 10);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const plain = s => String(s || "").replace(/\n/g, " ");
@@ -40,7 +40,8 @@ const PAGES = [
   { slug: "glossary", title: "Plain-language glossary of extreme heat", short: "Glossary" },
   { slug: "heat-network", title: "Organisations working on extreme heat", short: "Heat network" },
   { slug: "cities", title: "Extreme heat in ten Asian cities", short: "Cities" },
-  { slug: "heatwaves", title: "Heatwaves that shaped South and Southeast Asia, 1998 to 2026", short: "Heatwaves" }
+  { slug: "heatwaves", title: "Heatwaves that shaped South and Southeast Asia, 1998 to 2026", short: "Heatwaves" },
+  { slug: "practical-actions", title: "Practical actions against extreme heat, by setting", short: "Practical actions" }
 ];
 const LICENCE = "Text, data, films and illustrations © BeatTheHeat.Asia contributors, shared under Creative Commons Attribution 4.0 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/): you may copy, adapt and translate them, with credit and a link to beattheheat.asia. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’ and are not covered.";
 const DISCLAIMER = "This is a beta version. BeatTheHeat.Asia is being built by a group of organisations working on extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement. Every claim links to its source; where the evidence is still emerging, the map says so.";
@@ -304,6 +305,26 @@ const CITY_PAGES = [];
   out[p.slug] = page(p, intro, h, [{ "@context": "https://schema.org", "@type": "ItemList", name: p.title, numberOfItems: D.HEATWAVES.length,
     itemListElement: D.HEATWAVES.map((x, i) => ({ "@type": "ListItem", position: i + 1, item: { "@type": "Event", name: `${x.title} (${x.place}, ${x.when})`, description: x.what,
       startDate: String(x.year), location: { "@type": "Place", name: x.place }, url: `${SITE}/heatwaves/#${x.id}` } })) }]);
+  md.push(m.join("\n\n"));
+}
+
+// ---- practical actions ----
+{
+  const p = PAGES[10], n = D.ACTION_SETTINGS.reduce((t, x) => t + x.cards.length, 0);
+  const intro = `${n} practical actions against extreme heat in workplaces, homes, schools, health facilities, markets and neighbourhoods, and what municipalities can do before summer. Each answers eight questions: what to do, who it protects, where it suits, who must act, what it takes to run, the evidence, what could stop it, and what it only works with.`;
+  const inst = id => (D.INSTITUTIONS.find(i => i.id === id) || {}).name || id;
+  const val = (c, k) => k === "who" ? c.who.map(inst).join(", ") : k === "evidence" ? c.evidence.text : k === "worksIf" ? c.worksIf.join("; ") + "." : c[k];
+  let h = `<p><strong>Start from a question:</strong> ${D.ACTION_JOURNEYS.map(j => j.go === "stalls" ? `<a href="/#stalls">${esc(j.q)}</a>` : `<a href="#${j.go}">${esc(j.q)}</a>`).join(" · ")}</p>`, m = [`## ${p.title}`, intro];
+  D.ACTION_SETTINGS.forEach(st => {
+    h += `<h2 id="${st.id}">${esc(st.name)}</h2><p>${esc(st.intro)} <a href="/print/actions-${st.id}/">Print these cards</a> · <a href="/#practical-${st.id}">Open them on the map</a></p>`;
+    m.push(`### ${st.name}`, st.intro);
+    st.cards.forEach(c => {
+      h += `<h3 id="${st.id}-${c.id}">${esc(c.title)}</h3><ul>${D.ACTION_LINES.map(([k, label]) => `<li><strong>${esc(label)}:</strong> ${esc(val(c, k))}${k === "evidence" ? ` ${ext(c.evidence.source.url, c.evidence.source.label)}` : ""}</li>`).join("")}</ul>`;
+      m.push(`#### ${c.title}`, ...D.ACTION_LINES.map(([k, label]) => `- ${label}: ${val(c, k)}${k === "evidence" ? ` (${c.evidence.source.label}, ${c.evidence.source.url})` : ""}`));
+    });
+  });
+  out[p.slug] = page(p, intro, h, [{ "@context": "https://schema.org", "@type": "ItemList", name: p.title, numberOfItems: n,
+    itemListElement: D.ACTION_SETTINGS.flatMap(st => st.cards.map(c => ({ st, c }))).map(({ st, c }, i) => ({ "@type": "ListItem", position: i + 1, name: c.title, description: c.what, url: `${SITE}/practical-actions/#${st.id}-${c.id}` })) }]);
   md.push(m.join("\n\n"));
 }
 

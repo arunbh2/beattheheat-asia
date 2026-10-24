@@ -13,7 +13,7 @@ let QR = null; try { QR = require("qrcode"); } catch (e) { /* optional */ }
 const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + `
 ;Object.assign(this, { HOME_HEATS, GLOSSARY, LIVE_CITIES, CITY_PROFILES, CITY_HAP, LOOPS, LEVERS, ORGANISATIONS, WORKED_EXAMPLES, AT_RISK,
-  HEATWAVES, HEATWAVES_NOTE, COOL_PLACES, COOL_TRAPS, COOL_COST_NOTE, COOL_FX, STALLS, LIVE_FINGERPRINT, LOOP_STAKES, STRAIN, COOL_ASK });`, ctx);
+  HEATWAVES, HEATWAVES_NOTE, COOL_PLACES, COOL_TRAPS, COOL_COST_NOTE, COOL_FX, STALLS, LIVE_FINGERPRINT, LOOP_STAKES, STRAIN, COOL_ASK, ACTION_SETTINGS, ACTION_LINES, INSTITUTIONS });`, ctx);
 const D = ctx, TODAY = new Date().toISOString().slice(0, 10);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const short = u => String(u).replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "");
@@ -258,6 +258,28 @@ async function build() {
         sources: D.HEATWAVES.flatMap(h => h.sources.slice(0, 1)) }));
   }
 
+  // 4b. Practical action cards, one sheet per setting
+  for (const st of D.ACTION_SETTINGS) {
+    const inst = id => (D.INSTITUTIONS.find(i => i.id === id) || {}).name || id;
+    const costOf = ref => { const pl = ref && D.COOL_PLACES.find(x => x.id === ref[0]), o = pl && pl.options.find(x => x.name === ref[1]);
+      return o && o.cost && o.cost.conf !== "low" && o.cost.high ? ` Rough cost: about ${usd(o.cost.low)}–${usd(o.cost.high)} per ${esc(o.cost.unit)} (${inr(o.cost.low)}–${inr(o.cost.high)} at Indian prices).` : ""; };
+    const line = (c, k) => k === "who" ? esc(c.who.map(inst).join(", ")) : k === "running" ? esc(c.running) + costOf(c.cost)
+      : k === "evidence" ? esc(c.evidence.text) : k === "worksIf" ? esc(c.worksIf.join("; ")) + "." : esc(c[k]);
+    const srcs = st.cards.map(c => c.evidence.source).filter((v, i, a) => a.findIndex(w => w.url === v.url) === i);
+    const keep = ["what", "protects", "who", "running", "stops", "worksIf"];
+    const body = `<p style="margin-top:3px;font-size:9.5pt;color:#39424D">${esc(st.intro)} The full cards, with where each suits and its evidence, are on the live page.</p>
+      <div class="cols" style="margin-top:6px;gap:3.5mm 5mm">${st.cards.map(c => `<div class="box" style="font-size:8.6pt;border-top:3px solid #2A9D8F;break-inside:avoid">
+        <b style="font-size:10.2pt">${esc(c.title)}</b>
+        ${D.ACTION_LINES.filter(([k]) => keep.includes(k)).map(([k, label]) => `<p style="margin-top:2px${k === "worksIf" ? ";background:#FFF6E5;padding:2px 4px;border-radius:3px" : k === "stops" ? ";color:#8A1C2B" : ""}"><b style="font-size:7.2pt;letter-spacing:.06em;text-transform:uppercase;color:#5E6570">${esc(label)}:</b> ${line(c, k)}</p>`).join("")}
+        <p style="margin-top:2px;font-size:7.6pt;color:#5E6570">Evidence: source ${srcs.findIndex(v => v.url === c.evidence.source.url) + 1} below.</p></div>`).join("")}</div>
+      <p style="margin-top:5px;font-size:7.6pt;color:#5E6570">Costs, where shown, are rough Indian planning ranges from the site’s cooling options, not quotes. Every action also needs a named owner and a running budget.</p>`;
+    const meta = { kind: `Practical actions · ${st.name}`, title: `Practical actions: ${st.name}`, for: "Anyone who has to act", group: "actions" };
+    add(`actions-${st.id}`, meta,
+      await sheet({ slug: `actions-${st.id}`, kind: "Practical actions · Eight questions for every action", title: `Practical actions: ${st.name}`,
+        lede: "What to do, who must act, what it takes to run, what could stop it, and what it only works with.", body, live: `/#practical-${st.id}`,
+        sources: srcs }));
+  }
+
   // 5. Cooling options, one sheet per place
   for (const pl of D.COOL_PLACES) {
     const cost = c => !c || c.conf === "low" || !c.high ? "No solid range: get local quotes" : `About ${usd(c.low)}–${usd(c.high)} per ${esc(c.unit)} (${inr(c.low)}–${inr(c.high)} at Indian prices)`;
@@ -293,7 +315,7 @@ h1{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;
 footer{margin-top:40px;font-size:.85rem;color:#5E6570;border-top:1px solid #E6DFD4;padding-top:12px}</style></head>
 <body><main><a class="brand" href="/"><i></i>BEAT THE HEAT</a>
 <h1>Printable one-pagers</h1><p>Single A4 pages from the map, for meetings, briefings and noticeboards. Each one is generated from the same sourced data as the site, lists its sources, and links back to the live page with a QR code. Open one and choose <b>Print or save as PDF</b>.</p>
-${group("", "Briefs")}${group("city", "City briefs")}${group("cooling", "Cooling options, by place")}
+${group("actions", "Practical actions, by setting")}${group("", "Briefs")}${group("city", "City briefs")}${group("cooling", "Cooling options, by place")}
 <footer><p>This is a beta version. BeatTheHeat.Asia is being built by a group of organisations working on extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement.</p>
 <p>© BeatTheHeat.Asia contributors. Shared under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>: copy, adapt, translate and share, with credit and a link to beattheheat.asia. Sources cited remain their owners’. Generated ${TODAY}.</p></footer></main></body></html>
 `);
