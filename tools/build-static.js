@@ -15,7 +15,7 @@ const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + `
 ;Object.assign(this, { SYSTEMS, CONSEQUENCES, LINKS, LOOP_GROUPS, LOOPS, INSTITUTIONS, LEVERS, LOOP_PLACES, EVIDENCE, ORG_ROLES,
   ORGANISATIONS, GLOSSARY_GROUPS, GLOSSARY, WORKED_EXAMPLES, AT_RISK, AT_RISK_BARRIERS, STALLS, COOL_PLACES, COOL_TRAPS,
-  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, PLAN_GROUPS, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL, LIVE_CITIES, CITY_PROFILES, CITY_HAP });`, ctx);
+  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, COOL_FX, COOL_REGION, PLAN_GROUPS, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL, LIVE_CITIES, CITY_PROFILES, CITY_HAP });`, ctx);
 const D = ctx, TODAY = new Date().toISOString().slice(0, 10);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const plain = s => String(s || "").replace(/\n/g, " ");
@@ -183,7 +183,8 @@ const out = {};
 // cooling options
 {
   const p = PAGES[4], intro = "What to build or change where people are: homes, outdoor work, schools, markets, waiting areas, heat with waterlogging and greening where water is short. With what keeps each option working, rough costs and the traps to avoid.";
-  const cost = c => !c || c.conf === "low" || !c.high ? "No range solid enough to share: get local quotes." : `₹${c.low.toLocaleString("en-IN")}–₹${c.high.toLocaleString("en-IN")} per ${c.unit} (planning estimate, ${c.conf === "medium" ? "medium" : "low to medium"} confidence)${c.src ? `; ${c.src.label}` : ""}`;
+  const FXr = D.COOL_FX.inrPerUsd, usd = n => { const v = n / FXr, e = 10 ** (Math.floor(Math.log10(v)) - 1); return "US$" + (v >= 10 ? (Math.round(v / e) * e).toLocaleString("en-US") : String(Math.round(v * 10) / 10)); };
+  const cost = c => !c || c.conf === "low" || !c.high ? "No range solid enough to share: get local quotes." : `about ${usd(c.low)}–${usd(c.high)} per ${c.unit} (₹${c.low.toLocaleString("en-IN")}–₹${c.high.toLocaleString("en-IN")} at Indian prices; planning estimate, ${c.conf === "medium" ? "medium" : "low to medium"} confidence)${c.src ? `; ${c.src.label}` : ""}`;
   let h = `<p class="meta">${esc(D.COOL_COST_NOTE)}</p>`, m = [`## ${p.title}`, intro, D.COOL_COST_NOTE];
   D.COOL_PLACES.forEach(pl => {
     h += `<h2 id="${pl.id}">${esc(pl.name)}</h2><p><strong>Protects:</strong> ${esc(pl.protects)}</p><p><strong>Key caution:</strong> ${esc(pl.caution)}</p>
@@ -194,6 +195,9 @@ const out = {};
   });
   h += `<h2>Five traps that waste cooling money</h2><ul>${D.COOL_TRAPS.map(t => `<li><strong>${esc(t.name)}.</strong> ${esc(t.what)} Instead: ${esc(t.fix)}</li>`).join("")}</ul>
     <h2>What changes the result</h2>${D.COOL_EVIDENCE.map(e => `<h3>${esc(e.name)}</h3><p>${esc(e.text)} ${ext(e.source.url, e.source.label)}</p>`).join("")}
+    <h2>What cooling costs elsewhere in the region</h2><p>${esc(D.COOL_REGION.why.text)} ${ext(D.COOL_REGION.why.source.url, D.COOL_REGION.why.source.label)}</p>
+    <ul>${D.COOL_REGION.prices.map(x => `<li><strong>${esc(x.place)}: ${esc(x.what)}.</strong> ${esc(x.figure)}. ${esc(x.result)} ${x.sources.map(z => ext(z.url, z.label)).join(" · ")}</li>`).join("")}</ul>
+    <p>${esc(D.COOL_REGION.returns.text)} ${ext(D.COOL_REGION.returns.source.url, D.COOL_REGION.returns.source.label)}</p>
     <h2>Putting a value on cooling</h2><p>${esc(D.COOL_VALUE.text)}</p><p>${esc(D.COOL_VALUE.lesson)}</p>${srcs(D.COOL_VALUE.sources)}
     <h2>Free books and guides</h2><ul>${D.COOL_READING.map(r => `<li>${ext(r.url, r.title)} <span class="meta">${esc(r.by)}</span> ${esc(r.adds)}</li>`).join("")}</ul>`;
   m.push("### Five traps that waste cooling money", ...D.COOL_TRAPS.map(t => `- ${t.name}: ${t.what} Instead: ${t.fix}`), "### What changes the result", ...D.COOL_EVIDENCE.map(e => `- ${e.name}: ${e.text} (${e.source.url})`), "### Putting a value on cooling", D.COOL_VALUE.text, D.COOL_VALUE.lesson);

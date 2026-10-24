@@ -1511,3 +1511,17 @@ body.film-open { overflow: hidden; }
 }
 .cp__heat { font-size: .85rem; color: #C9CED6; }
 .cp__heat b { display: inline-block; margin-right: 6px; font-size: .7rem; letter-spacing: .1em; text-transform: uppercase; color: #F6A27C; }
+/* cooling costs: US dollars first, Indian prices beside; regional prices */
+.cool-opt__usd { color: var(--ink); }
+.cool-opt__inr { color: var(--grey-700); font-size: .9em; }
+.cool-region__why { max-width: 48rem; color: var(--grey-700); }
+.cool-region__list { list-style: none; padding: 0; margin: 14px 0 0; display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); }
+.cool-region__list li { padding: 14px 16px; border-radius: 10px; background: var(--white, #fff); border: 1px solid #E6DFD4; display: flex; flex-direction: column; gap: 4px; }
+.cool-region__place { font-size: .72rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: #9A3A12; }
+.cool-region__what { font-weight: 700; }
+.cool-region__fig { font-size: .92rem; }
+.cool-region__res { font-size: .88rem; color: #1D6E64; }
+.cool-region__fx { margin-top: 10px; font-size: .8rem; color: var(--grey-700); }
+.cool-value__ret { margin-top: 12px; }
+.cool-value__ret b { display: block; font-size: .78rem; letter-spacing: .1em; text-transform: uppercase; }
+.cool-region__fx a, .cool-region__why a { color: inherit; }

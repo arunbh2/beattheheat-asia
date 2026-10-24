@@ -2117,9 +2117,13 @@
   // Cooling options by place: tabs for each place, the traps, what changes the result, and the value of cooling
   const COOL = typeof COOL_PLACES !== "undefined" ? COOL_PLACES : [];
   const rupees = n => n >= 10000000 ? `₹${+(n / 10000000).toFixed(2)} crore` : n >= 100000 ? `₹${+(n / 100000).toFixed(1)} lakh` : `₹${n.toLocaleString("en-IN")}`;
+  // Indian rupee ranges shown in US dollars first, rounded to two significant figures
+  const FX = typeof COOL_FX !== "undefined" ? COOL_FX.inrPerUsd : 0;
+  const usd = n => { const v = n / FX, r = v >= 10 ? Math.round(v / 10 ** (Math.floor(Math.log10(v)) - 1)) * 10 ** (Math.floor(Math.log10(v)) - 1) : Math.round(v * 10) / 10;
+    return "US$" + r.toLocaleString("en-US", { maximumFractionDigits: v >= 10 ? 0 : 2, minimumFractionDigits: v >= 10 || r % 1 === 0 ? 0 : 2 }); };
   function coolCost(c) {
     if (!c || c.conf === "low" || !c.high) return `<span class="cool-opt__noquote">No range solid enough to share. Get local quotes.</span>`;
-    return `${rupees(c.low)}–${rupees(c.high)} per ${esc(c.unit)} <span class="cool-opt__conf">${c.conf === "medium" ? "medium confidence" : "low to medium confidence"}</span>${c.src ? `<span class="cool-opt__src">${extLink(c.src.url, c.src.label)}</span>` : ""}`;
+    return `${FX ? `<b class="cool-opt__usd">About ${usd(c.low)}–${usd(c.high)}</b> per ${esc(c.unit)} <span class="cool-opt__inr">(${rupees(c.low)}–${rupees(c.high)} at Indian prices)</span>` : `${rupees(c.low)}–${rupees(c.high)} per ${esc(c.unit)}`} <span class="cool-opt__conf">${c.conf === "medium" ? "medium confidence" : "low to medium confidence"}</span>${c.src ? `<span class="cool-opt__src">${extLink(c.src.url, c.src.label)}</span>` : ""}`;
   }
   function showCoolPlace(id, focus) {
     const p = COOL.find(x => x.id === id) || COOL[0], panelEl = document.getElementById("cool-panel");
@@ -2164,6 +2168,12 @@
       </li>`).join("");
     const evb = document.getElementById("cool-evidence");
     if (evb && typeof COOL_EVIDENCE !== "undefined") evb.innerHTML = COOL_EVIDENCE.map(x => `<article class="cool-ev"><h4>${esc(x.name)}</h4><p>${gloss(x.text)}</p><p class="cool-ev__src">${extLink(x.source.url, x.source.label)}</p></article>`).join("");
+    const reg = document.getElementById("cool-region");
+    if (reg && typeof COOL_REGION !== "undefined") reg.innerHTML = `<p class="cool-region__why">${esc(COOL_REGION.why.text)} <span class="cool-ev__src">${extLink(COOL_REGION.why.source.url, COOL_REGION.why.source.label)}</span></p>
+      <ul class="cool-region__list">${COOL_REGION.prices.map(x => `<li><p class="cool-region__place">${esc(x.place)}</p><p class="cool-region__what">${esc(x.what)}</p>
+        <p class="cool-region__fig">${esc(x.figure)}</p>${x.result ? `<p class="cool-region__res">${esc(x.result)}</p>` : ""}
+        <p class="cool-ev__src">${x.sources.map(z => extLink(z.url, z.label)).join(" · ")}</p></li>`).join("")}</ul>
+      <p class="cool-region__fx">Dollar figures use about ₹${FX} to US$1 (${esc(COOL_FX.asOf)}): ${extLink(COOL_FX.source.url, COOL_FX.source.label)}. Other conversions are rough and for comparison only.</p>`;
     const val = document.getElementById("cool-value");
     if (val && typeof COOL_VALUE !== "undefined") val.innerHTML = `<p class="cool-value__k">Putting a value on cooling</p>
       <h3 class="cool-value__h">Make the case in lives, work and bills</h3>
@@ -2171,7 +2181,8 @@
       <p class="cool-value__lesson">${esc(COOL_VALUE.lesson)}</p>
       <p class="cool-value__k2">Count the value of cooling in</p>
       <ul class="cool-value__how">${COOL_VALUE.how.map(h => `<li>${esc(h)}</li>`).join("")}</ul>
-      <p class="cool-ev__src">Sources: ${COOL_VALUE.sources.map(x => extLink(x.url, x.label)).join(" · ")}</p>`;
+      <p class="cool-ev__src">Sources: ${COOL_VALUE.sources.map(x => extLink(x.url, x.label)).join(" · ")}</p>
+      ${typeof COOL_REGION !== "undefined" ? `<p class="cool-value__ret"><b>What it returns in India</b> ${esc(COOL_REGION.returns.text)} <span class="cool-ev__src">${extLink(COOL_REGION.returns.source.url, COOL_REGION.returns.source.label)}</span></p>` : ""}`;
     const rd = document.getElementById("cool-reading");
     if (rd && typeof COOL_READING !== "undefined") rd.innerHTML = COOL_READING.map(x => `<li><p class="cool-read__t">${extLink(x.url, x.title)}</p><p class="cool-read__by">${esc(x.by)}</p><p>${gloss(x.adds)}</p></li>`).join("");
     document.getElementById("cooling").addEventListener("click", ev => {

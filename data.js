@@ -2274,7 +2274,26 @@ const COOL_READING = [
 // Actions in the plan that build or run physical cooling assets: step 3 asks who keeps them working.
 const COOL_ASSET_LEVERS = ["coolbydesign", "greencity", "coolhousing", "coolingcentres", "soilwater", "keepgreen"];
 
-const COOL_COST_NOTE = "Costs are rough planning ranges in Indian rupees, for early budgeting only. They come from a practitioner’s planning workbook and are not quotes; where a public figure exists, it is linked. Where no range is solid enough to share, the card says so: get local quotes.";
+const COOL_COST_NOTE = "Costs are rough planning ranges for early budgeting, not quotes. They are Indian prices, from a practitioner’s planning workbook, shown in US dollars at about ₹95 to US$1 (mid-2026) with the rupee range alongside. India has some of the lowest building prices in Asia, so expect most Southeast Asian cities to pay more: see the regional prices below. Where a public figure exists, it is linked. Where no range is solid enough to share, the card says so: get local quotes.";
+// The exchange rate used to show Indian rupee costs in US dollars. Update it, with its source, when it moves.
+const COOL_FX = { inrPerUsd: 95, asOf: "mid-2026", source: { label: "U.S. dollar–Indian rupee rates, 2026 (Pound Sterling Live)", url: "https://www.poundsterlinglive.com/history/USD-INR-2026" } };
+// Prices and results from elsewhere in the region, so the Indian ranges can be read in context.
+const COOL_REGION = {
+  why: { text: "In the 2021 International Comparison Program, India had the lowest price level among 21 Asia-Pacific economies for investment goods, which include construction. The same work usually costs more in Southeast Asia.",
+    source: { label: "Asian Development Bank, ICP 2021 results for India", url: "https://icp.adb.org/economies/results/2021ICP_Economy%20results_IND.pdf" } },
+  prices: [
+    { place: "Ahmedabad, India", what: "Solar-reflective roof paint, and a modular cool roof for a one-room home", figure: "About ₹25 per sq ft (≈US$2.80 per m²) for paint; about ₹27,000 (≈US$280) for a 9 m² modular roof lasting 25 years", result: "Reflective paint kept homes 2–5 °C cooler indoors than ordinary roofs.",
+      sources: [{ label: "Mahila Housing Trust, 2021", url: "https://events.development.asia/sites/default/files/materials/2021/11/202111-mahila-housing-trust.pdf" }, { label: "NRDC: community-led cool roofs in four Indian cities", url: "https://www.nrdc.org/bio/anjali-jaiswal/cool-roofs-community-led-initiatives-four-indian-cities" }] },
+    { place: "Tangerang, Indonesia", what: "Cool roof coating", figure: "A 40 kg set sold for Rp 2.73 million covers 120–160 m²: roughly Rp 17,000–23,000 per m² (≈US$1–1.50) by our arithmetic. Given free to schools and places of worship.", result: "",
+      sources: [{ label: "The Thaiger: Indonesia adopts cool roofs", url: "https://thethaiger.com/news/world/indonesia-adopts-cool-roofs-to-combat-heatwaves-and-reduce-energy-costs" }] },
+    { place: "Philippines", what: "Installed cool roofs", figure: "About ₱500–1,200 per m² (≈US$9–21), an industry estimate that its authors call a barrier for households earning about ₱25,000 a month", result: "",
+      sources: [{ label: "Ken Research: Philippines cool roof market", url: "https://www.kenresearch.com/philippines-cool-roof-market" }] },
+    { place: "Singapore", what: "Cool paint on public housing blocks", figure: "Being rolled out to every HDB estate by 2030, at an extra cost of about S$60 million", result: "Trials aimed to lower the air temperature around blocks by up to 2 °C.",
+      sources: [{ label: "HDB: cool paint pilot in Tampines, 2021", url: "https://www.hdb.gov.sg/about-us/news-and-publications/press-releases/07082021-JOINT-HDB-TC-Cool-Paint-Pilot-Project" }, { label: "Northumbria University: cool coatings for all HDB estates by 2030", url: "https://researchportal.northumbria.ac.uk/en/impacts/feb-2025-cool-roof-coating-to-be-applied-to-all-hdb-estates-of-si/" }] }
+  ],
+  returns: { text: "A World Bank cost-benefit study of Lucknow, Chennai and Surat found that heat-health early warning systems return more than 50 times their cost, and urban greening about three times, counting health and work alone.",
+    source: { label: "Jones et al., World Bank Policy Research Working Paper 10960, 2024", url: "https://ideas.repec.org/p/wbk/wbrwps/10960.html" } }
+};
 
 /* ---------- 21. HEAT RIGHT NOW (live data) ---------- */
 // Live readings are fetched in the visitor's browser from Open-Meteo (model data, CC BY 4.0) and, for Singapore,

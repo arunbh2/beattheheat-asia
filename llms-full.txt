@@ -1572,7 +1572,7 @@ What helps: Cool, affordable housing, Social protection floors, Free care for he
 
 What to build or change where people are: homes, outdoor work, schools, markets, waiting areas, heat with waterlogging and greening where water is short. With what keeps each option working, rough costs and the traps to avoid.
 
-Costs are rough planning ranges in Indian rupees, for early budgeting only. They come from a practitioner’s planning workbook and are not quotes; where a public figure exists, it is linked. Where no range is solid enough to share, the card says so: get local quotes.
+Costs are rough planning ranges for early budgeting, not quotes. They are Indian prices, from a practitioner’s planning workbook, shown in US dollars at about ₹95 to US$1 (mid-2026) with the rupee range alongside. India has some of the lowest building prices in Asia, so expect most Southeast Asian cities to pay more: see the regional prices below. Where a public figure exists, it is linked. Where no range is solid enough to share, the card says so: get local quotes.
 
 ### Homes
 
@@ -1580,7 +1580,7 @@ Protects: Sleep, care work, and the older people, young children and sick people
 
 Key caution: Check the roof type, fire safety, tenure and ventilation before any retrofit.
 
-- Reflective roof coating: A white, solar-reflective coat on the roof, so less of the sun’s heat passes into the room below. Keeps working with: Repainting every few years, and a thermometer to check it works. Avoid: Promising a fixed number of degrees before you have measured. Rough cost: ₹250–₹350 per m² (planning estimate, medium confidence); Telangana Cool Roof Policy coverage, 2023: about ₹300 per m²
+- Reflective roof coating: A white, solar-reflective coat on the roof, so less of the sun’s heat passes into the room below. Keeps working with: Repainting every few years, and a thermometer to check it works. Avoid: Promising a fixed number of degrees before you have measured. Rough cost: about US$2.6–US$3.7 per m² (₹250–₹350 at Indian prices; planning estimate, medium confidence); Telangana Cool Roof Policy coverage, 2023: about ₹300 per m²
 
 - Lime whitewash: A cheap seasonal white coat that households can apply themselves when a commercial coating is out of reach. Keeps working with: Recoating every season, by a named group. Avoid: Treating it as a lasting retrofit. Rough cost: No range solid enough to share: get local quotes.
 
@@ -1602,15 +1602,15 @@ Protects: People whose income depends on being outdoors in the hottest hours: ve
 
 Key caution: A shelter without water, paid rest or a change of hours is not worker protection.
 
-- Rest shelters on work routes: Shade, seating and water where workers can recover during a shift. Keeps working with: Paid rest time, and someone who cleans and refills it. Avoid: Treating the shelter as a substitute for work rules. Rough cost: ₹1,50,000–₹5,00,000 per site (planning estimate, low to medium confidence)
+- Rest shelters on work routes: Shade, seating and water where workers can recover during a shift. Keeps working with: Paid rest time, and someone who cleans and refills it. Avoid: Treating the shelter as a substitute for work rules. Rough cost: about US$1,600–US$5,300 per site (₹1,50,000–₹5,00,000 at Indian prices; planning estimate, low to medium confidence)
 
-- Drinking water and rehydration salts: Refill points with safe water and oral rehydration salts at markets, sites and junctions. Keeps working with: A daily refill and cleaning roster, often ₹500–2,000 a day. Avoid: Counting it as cooling: it protects bodies, not temperatures. Rough cost: ₹10,000–₹50,000 per site (planning estimate, medium confidence)
+- Drinking water and rehydration salts: Refill points with safe water and oral rehydration salts at markets, sites and junctions. Keeps working with: A daily refill and cleaning roster, often ₹500–2,000 a day. Avoid: Counting it as cooling: it protects bodies, not temperatures. Rough cost: about US$110–US$530 per site (₹10,000–₹50,000 at Indian prices; planning estimate, medium confidence)
 
-- Shade nets: Quick shade over junctions, queues and work yards. Keeps working with: Poles set firmly into the ground, and nets up before the heat starts. Avoid: Bamboo frames that fall in the first storm. Rough cost: ₹300–₹900 per m² (planning estimate, low to medium confidence)
+- Shade nets: Quick shade over junctions, queues and work yards. Keeps working with: Poles set firmly into the ground, and nets up before the heat starts. Avoid: Bamboo frames that fall in the first storm. Rough cost: about US$3.2–US$9.5 per m² (₹300–₹900 at Indian prices; planning estimate, low to medium confidence)
 
-- Shade trees on work routes: Canopy along the streets where people work and wait. Keeps working with: Water, root space and three years of care. Avoid: Counting saplings planted instead of canopy that survives. Rough cost: ₹2,000–₹8,000 per tree, with 2–3 years’ care (planning estimate, medium confidence)
+- Shade trees on work routes: Canopy along the streets where people work and wait. Keeps working with: Water, root space and three years of care. Avoid: Counting saplings planted instead of canopy that survives. Rough cost: about US$21–US$84 per tree, with 2–3 years’ care (₹2,000–₹8,000 at Indian prices; planning estimate, medium confidence)
 
-- Misting at hotspots: Fine water spray at a few crowded, dry spots. Keeps working with: Safe water, drainage, filters and a technician. Avoid: Humid places and water-short cities: in humid heat the benefit roughly halves. Rough cost: ₹40,000–₹2,00,000 per site (planning estimate, medium confidence)
+- Misting at hotspots: Fine water spray at a few crowded, dry spots. Keeps working with: Safe water, drainage, filters and a technician. Avoid: Humid places and water-short cities: in humid heat the benefit roughly halves. Rough cost: about US$420–US$2,100 per site (₹40,000–₹2,00,000 at Indian prices; planning estimate, medium confidence)
 
 Nagpur strung green shade nets over 10–12 busy junctions in May 2026. Several tore or collapsed in strong winds, and residents pointed out the heat had begun at the end of March. A net had also fallen at Tukdoji Square in 2025 because its bamboo was not set firmly into the road. (The Hitavada, 11 May 2026, https://www.thehitavada.com//Encyc/2026/5/11/green-nets-at-city-squares-relief-measure-or-another-half-planned-half-planned-civic-experiment.html)
 
@@ -1622,13 +1622,13 @@ Protects: Learning, play, attendance and drinking water for children and the sta
 
 Key caution: Count shade and surviving trees, not saplings planted.
 
-- Cool classroom roofs: A reflective coat or a ventilated second roof over the hottest classrooms. Keeps working with: A line in the school’s maintenance budget. Avoid: Roof canopies that are not anchored for monsoon winds. Rough cost: ₹250–₹350 per m² for a coating (planning estimate, medium confidence)
+- Cool classroom roofs: A reflective coat or a ventilated second roof over the hottest classrooms. Keeps working with: A line in the school’s maintenance budget. Avoid: Roof canopies that are not anchored for monsoon winds. Rough cost: about US$2.6–US$3.7 per m² for a coating (₹250–₹350 at Indian prices; planning estimate, medium confidence)
 
-- Shaded play space: Trees, shade structures and less hard paving where children play. Keeps working with: Watering through the holidays, when nobody is at school. Avoid: Planting that dies in the first summer break. Rough cost: ₹2,00,000–₹40,00,000 per school, from basic greening to a full package (planning estimate, low to medium confidence)
+- Shaded play space: Trees, shade structures and less hard paving where children play. Keeps working with: Watering through the holidays, when nobody is at school. Avoid: Planting that dies in the first summer break. Rough cost: about US$2,100–US$42,000 per school, from basic greening to a full package (₹2,00,000–₹40,00,000 at Indian prices; planning estimate, low to medium confidence)
 
 - Shade on classroom windows: Screens or awnings on the sunny side of classrooms. Keeps working with: Fixing them back after each monsoon. Avoid: Making rooms so dark that lights and fans run all day. Rough cost: No range solid enough to share: get local quotes.
 
-- Drinking water at school: Enough safe, cool water for every child, with time in the timetable to drink it. Keeps working with: Filter changes and cleaning. Avoid: One tap for hundreds of children. Rough cost: ₹10,000–₹50,000 per point (planning estimate, medium confidence)
+- Drinking water at school: Enough safe, cool water for every child, with time in the timetable to drink it. Keeps working with: Filter changes and cleaning. Avoid: One tap for hundreds of children. Rough cost: about US$110–US$530 per point (₹10,000–₹50,000 at Indian prices; planning estimate, medium confidence)
 
 Researchers who studied how age groups use green spaces found that older people asked for benches, shelter during extreme weather and safe paths, while children wanted trees for shade and places to play. Ask both before you design. (Frantzeskaki et al., chapter 11 in Nature-Based Solutions for Cities, 2023, https://doi.org/10.4337/9781800376762)
 
@@ -1638,13 +1638,13 @@ Protects: Vendors’ income and stock, customers, and the porters who load and u
 
 Key caution: Design it with the vendors and protect their place, or the upgrade becomes an eviction.
 
-- Shade over stalls and aisles: Nets, fabric or a light frame with climbing plants over the places vendors sit. Keeps working with: Storm-proof fixing and someone to replace worn cloth. Avoid: Shade that blocks fire access or loading. Rough cost: ₹300–₹900 per m² for shade nets (planning estimate, low to medium confidence)
+- Shade over stalls and aisles: Nets, fabric or a light frame with climbing plants over the places vendors sit. Keeps working with: Storm-proof fixing and someone to replace worn cloth. Avoid: Shade that blocks fire access or loading. Rough cost: about US$3.2–US$9.5 per m² for shade nets (₹300–₹900 at Indian prices; planning estimate, low to medium confidence)
 
-- Water and rehydration points: Safe drinking water for vendors and customers. Keeps working with: A refill and cleaning roster agreed with the market association. Avoid: Points nobody is responsible for. Rough cost: ₹10,000–₹50,000 per site (planning estimate, medium confidence)
+- Water and rehydration points: Safe drinking water for vendors and customers. Keeps working with: A refill and cleaning roster agreed with the market association. Avoid: Points nobody is responsible for. Rough cost: about US$110–US$530 per site (₹10,000–₹50,000 at Indian prices; planning estimate, medium confidence)
 
-- Planted drains and rain gardens: Planted channels and hollows that soak up runoff so the market does not flood after a storm. Keeps working with: Rubbish collection, or they clog. Avoid: Building them where waste is dumped. Rough cost: ₹500–₹3,000 per m² (planning estimate, low to medium confidence)
+- Planted drains and rain gardens: Planted channels and hollows that soak up runoff so the market does not flood after a storm. Keeps working with: Rubbish collection, or they clog. Avoid: Building them where waste is dumped. Rough cost: about US$5.3–US$32 per m² (₹500–₹3,000 at Indian prices; planning estimate, low to medium confidence)
 
-- A whole-market package: Shade, water, cool roofs, drainage, trees and waste collection together, run with the vendors. Keeps working with: A vendor committee with a say over the design and the upkeep. Avoid: Beautification that pushes informal vendors out. Rough cost: ₹10,00,000–₹50,00,000 per market cluster (planning estimate, low to medium confidence)
+- A whole-market package: Shade, water, cool roofs, drainage, trees and waste collection together, run with the vendors. Keeps working with: A vendor committee with a say over the design and the upkeep. Avoid: Beautification that pushes informal vendors out. Rough cost: about US$11,000–US$53,000 per market cluster (₹10,00,000–₹50,00,000 at Indian prices; planning estimate, low to medium confidence)
 
 India’s Street Vendors Act (2014) gives vendors 40% of the seats on each town vending committee and says no vendor may be evicted or relocated until a survey of existing vendors is complete: a hook for designing market cooling with vendors, not around them. (Street Vendors (Protection of Livelihood and Regulation of Street Vending) Act, 2014, on FAOLEX, https://faolex.fao.org/docs/pdf/ind194977.pdf)
 
@@ -1654,11 +1654,11 @@ Protects: Commuters, patients queuing at clinics, people waiting for rations or 
 
 Key caution: Put the shade where people actually stand, at the hours they wait.
 
-- Cool waiting points: Shade, a bench, drinking water and a board showing the heat alert, at bus stops, clinics and ration shops. Keeps working with: Access for older and disabled people, and someone who refills the water. Avoid: Counting shelters built instead of people protected. Rough cost: ₹50,000–₹6,00,000 per site (planning estimate, medium confidence)
+- Cool waiting points: Shade, a bench, drinking water and a board showing the heat alert, at bus stops, clinics and ration shops. Keeps working with: Access for older and disabled people, and someone who refills the water. Avoid: Counting shelters built instead of people protected. Rough cost: about US$530–US$6,300 per site (₹50,000–₹6,00,000 at Indian prices; planning estimate, medium confidence)
 
 - Planted bus stops: Climbers on a frame that shade the stop more each year. Keeps working with: Watering and pruning. Avoid: Living shade with no water plan. Rough cost: No range solid enough to share: get local quotes.
 
-- Trees where queues form: Canopy over the places people wait every day. Keeps working with: Root space, water and three years of care. Avoid: Planting where the queue isn’t. Rough cost: ₹2,000–₹8,000 per tree, with 2–3 years’ care (planning estimate, medium confidence)
+- Trees where queues form: Canopy over the places people wait every day. Keeps working with: Root space, water and three years of care. Avoid: Planting where the queue isn’t. Rough cost: about US$21–US$84 per tree, with 2–3 years’ care (₹2,000–₹8,000 at Indian prices; planning estimate, medium confidence)
 
 - Shorter waits: Appointment slots, token systems and timed services so fewer people stand in the sun at midday. Keeps working with: Agreement from the clinic, office or transport operator. Avoid: Assuming shade is the only answer. Rough cost: No range solid enough to share: get local quotes.
 
@@ -1670,15 +1670,15 @@ Protects: Neighbourhoods that bake in summer and flood in the monsoon, and the g
 
 Key caution: Stop sewage and rubbish flowing in, and fund the desilting, before calling it blue-green.
 
-- Sponge parks: Small parks shaped to hold, soak up and slowly release stormwater, with plants that cool the area around them. Keeps working with: An overflow, mosquito control and desilting before each monsoon. Avoid: Standing water. Rough cost: ₹8,00,000–₹17,00,000 per park (planning estimate, medium confidence); Chennai: 57 sponge parks commissioned for ₹7.67 crore, about ₹13.5 lakh each by our arithmetic
+- Sponge parks: Small parks shaped to hold, soak up and slowly release stormwater, with plants that cool the area around them. Keeps working with: An overflow, mosquito control and desilting before each monsoon. Avoid: Standing water. Rough cost: about US$8,400–US$18,000 per park (₹8,00,000–₹17,00,000 at Indian prices; planning estimate, medium confidence); Chennai: 57 sponge parks commissioned for ₹7.67 crore, about ₹13.5 lakh each by our arithmetic
 
-- Restored ponds and lakes: Desilted, protected water bodies with planted edges that store floodwater, recharge groundwater and cool their surroundings. Keeps working with: Sewage diverted away, and rubbish kept out. Avoid: Calling a polluted pond a cooling asset. Rough cost: ₹36,00,000–₹3,00,00,000 per pond (planning estimate, medium confidence); Chennai: one pond restored for ₹36 lakh
+- Restored ponds and lakes: Desilted, protected water bodies with planted edges that store floodwater, recharge groundwater and cool their surroundings. Keeps working with: Sewage diverted away, and rubbish kept out. Avoid: Calling a polluted pond a cooling asset. Rough cost: about US$38,000–US$320,000 per pond (₹36,00,000–₹3,00,00,000 at Indian prices; planning estimate, medium confidence); Chennai: one pond restored for ₹36 lakh
 
-- Planted drains and rain gardens: Channels and hollows that slow, clean and soak up runoff from roofs and lanes. Keeps working with: Rubbish collection and an overflow. Avoid: Places where they will become open garbage drains. Rough cost: ₹500–₹3,000 per m² (planning estimate, low to medium confidence)
+- Planted drains and rain gardens: Channels and hollows that slow, clean and soak up runoff from roofs and lanes. Keeps working with: Rubbish collection and an overflow. Avoid: Places where they will become open garbage drains. Rough cost: about US$5.3–US$32 per m² (₹500–₹3,000 at Indian prices; planning estimate, low to medium confidence)
 
-- Permeable paving: Paving that lets rain soak in instead of running off. Keeps working with: Regular cleaning so it does not clog. Avoid: Claiming it cools unless there is shade and moist soil too. Rough cost: ₹900–₹2,500 per m² (planning estimate, low to medium confidence)
+- Permeable paving: Paving that lets rain soak in instead of running off. Keeps working with: Regular cleaning so it does not clog. Avoid: Claiming it cools unless there is shade and moist soil too. Rough cost: about US$9.5–US$26 per m² (₹900–₹2,500 at Indian prices; planning estimate, low to medium confidence)
 
-- Recharge pits: Small pits that send roof and courtyard runoff into the ground. Keeps working with: A filter, so polluted water does not reach shallow wells. Avoid: Recharging dirty runoff. Rough cost: ₹5,000–₹30,000 per pit (planning estimate, low to medium confidence)
+- Recharge pits: Small pits that send roof and courtyard runoff into the ground. Keeps working with: A filter, so polluted water does not reach shallow wells. Avoid: Recharging dirty runoff. Rough cost: about US$53–US$320 per pit (₹5,000–₹30,000 at Indian prices; planning estimate, low to medium confidence)
 
 Over four years, Greater Chennai Corporation restored 70 ponds for ₹144.34 crore and built 88 rainwater-harvesting parks for ₹14.74 crore. (The News Minute, https://www.thenewsminute.com/tamil-nadu/chennai-civic-body-ramps-up-pond-restoration-rainwater-harvesting-parks-ahead-of-monsoon)
 
@@ -1696,11 +1696,11 @@ Key caution: Planting without water, soil care and a survival budget is not adap
 
 - Care for the trees you have: Better tree pits, mulch, compost and looser soil so existing trees take up water and survive. Keeps working with: A yearly care round. Avoid: Replanting instead of fixing why trees die. Rough cost: No range solid enough to share: get local quotes.
 
-- Rainwater for trees: Store runoff from roofs and streets to water trees and gardens through dry spells. Keeps working with: Clean tanks and a plan for the dry months. Avoid: Planting with no water source at all. Rough cost: ₹20,000–₹2,00,000 per site (planning estimate, low to medium confidence)
+- Rainwater for trees: Store runoff from roofs and streets to water trees and gardens through dry spells. Keeps working with: Clean tanks and a plan for the dry months. Avoid: Planting with no water source at all. Rough cost: about US$210–US$2,100 per site (₹20,000–₹2,00,000 at Indian prices; planning estimate, low to medium confidence)
 
 - Treated wastewater for parks: Use treated water from a treatment plant for parks and tree corridors, so greenery does not compete with drinking water. Keeps working with: Treatment that is checked. Avoid: Untreated sewage on public land. Rough cost: No range solid enough to share: get local quotes.
 
-- Street trees with three years’ care: Hardy, shade-giving species, chosen for the heat and drought ahead. Keeps working with: Species choice, root space, water and a named owner. Avoid: Counting planted trees. Rough cost: ₹2,000–₹8,000 per tree, with 2–3 years’ care (planning estimate, medium confidence)
+- Street trees with three years’ care: Hardy, shade-giving species, chosen for the heat and drought ahead. Keeps working with: Species choice, root space, water and a named owner. Avoid: Counting planted trees. Rough cost: about US$21–US$84 per tree, with 2–3 years’ care (₹2,000–₹8,000 at Indian prices; planning estimate, medium confidence)
 
 - Dense mini-forests: Small, densely planted native woods on spare public land. Keeps working with: Water through the first years. Avoid: Assuming they beat ordinary shade trees on value. Rough cost: No range solid enough to share: get local quotes.
 
@@ -1714,15 +1714,15 @@ Protects: Every asset above: who targets it, who opens it on an alert, who pays 
 
 Key caution: Often the most useful layer, and the easiest to leave unfunded.
 
-- Link the heat plan to the assets: A ward or settlement plan that says which shelters, water points and cool spaces open at each alert level, and who opens them. Keeps working with: A yearly review with the people who use them. Avoid: A plan with no budget or named owners. Rough cost: ₹5,00,000–₹25,00,000 per plan (planning estimate, medium confidence)
+- Link the heat plan to the assets: A ward or settlement plan that says which shelters, water points and cool spaces open at each alert level, and who opens them. Keeps working with: A yearly review with the people who use them. Avoid: A plan with no budget or named owners. Rough cost: about US$5,300–US$26,000 per plan (₹5,00,000–₹25,00,000 at Indian prices; planning estimate, medium confidence)
 
-- An upkeep agreement: A written deal between the council, community groups, schools or vendors on who repaints, waters, prunes, refills and repairs. Keeps working with: Money from the running budget, not only the building budget. Avoid: Paying to build without paying to maintain. Rough cost: ₹2,00,000–₹10,00,000 per year, for a cluster of assets (planning estimate, low to medium confidence)
+- An upkeep agreement: A written deal between the council, community groups, schools or vendors on who repaints, waters, prunes, refills and repairs. Keeps working with: Money from the running budget, not only the building budget. Avoid: Paying to build without paying to maintain. Rough cost: about US$2,100–US$11,000 per year, for a cluster of assets (₹2,00,000–₹10,00,000 at Indian prices; planning estimate, low to medium confidence)
 
-- Map risk with the people exposed: Walk the area with workers, women, older and disabled people, migrants and renters to see who is exposed, why warnings fail, and where assets should go. Keeps working with: Repeating it as people and places change. Avoid: Relying on satellite heat maps alone. Rough cost: ₹5,00,000–₹20,00,000 per baseline (planning estimate, medium confidence)
+- Map risk with the people exposed: Walk the area with workers, women, older and disabled people, migrants and renters to see who is exposed, why warnings fail, and where assets should go. Keeps working with: Repeating it as people and places change. Avoid: Relying on satellite heat maps alone. Rough cost: about US$5,300–US$21,000 per baseline (₹5,00,000–₹20,00,000 at Indian prices; planning estimate, medium confidence)
 
-- A way to complain and be heard: An accessible route for complaints and feedback, set up before work starts. Keeps working with: Someone who answers within a set time. Avoid: Starting work where affected people have no voice or remedy. Rough cost: ₹1,00,000–₹5,00,000 per set-up (planning estimate, medium confidence)
+- A way to complain and be heard: An accessible route for complaints and feedback, set up before work starts. Keeps working with: Someone who answers within a set time. Avoid: Starting work where affected people have no voice or remedy. Rough cost: about US$1,100–US$5,300 per set-up (₹1,00,000–₹5,00,000 at Indian prices; planning estimate, medium confidence)
 
-- Find the hooks in existing plans: Search city, disaster, water and climate plans and budgets for mandates and money that cooling can use. Keeps working with: Checking what you find with the officials concerned. Avoid: Assuming nothing exists because nobody uses the words “nature-based solutions”. Rough cost: ₹1,00,000–₹5,00,000 per review (planning estimate, medium confidence)
+- Find the hooks in existing plans: Search city, disaster, water and climate plans and budgets for mandates and money that cooling can use. Keeps working with: Checking what you find with the officials concerned. Avoid: Assuming nothing exists because nobody uses the words “nature-based solutions”. Rough cost: about US$1,100–US$5,300 per review (₹1,00,000–₹5,00,000 at Indian prices; planning estimate, medium confidence)
 
 In Melbourne, officials found money for new green infrastructure was usually available, but running budgets were under pressure and rarely increased, even as the area to maintain grew. (Hansen et al., chapter 10 in Nature-Based Solutions for Cities, 2023, https://doi.org/10.4337/9781800376762)
 
