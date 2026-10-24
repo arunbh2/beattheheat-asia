@@ -2148,6 +2148,80 @@ Source: World Bank, 2025 https://www.worldbank.org/en/news/press-release/2025/09
 
 Source: NBC News: school closures, 2024 https://www.nbcnews.com/news/world/schools-close-extreme-heat-philippines-bangladesh-asia-rcna149485
 
+### Adapt the mechanism, not the city: how five cities organise for heat
+
+From interviews with city officials in October and November 2024 and published material, as described in the report. These are examples of institutional practice, not evaluations of impact, and details may have changed since. Adapt the mechanism to your own powers, budgets and infrastructure; do not copy the city. (MCR2030, Urban Heat Risk Management Resource Package, 2025, https://mcr2030.undrr.org/publication/urban-heat-risk-management-resource-package)
+
+#### Amadora, Portugal (pp. 15–20)
+
+- The problem: Rising heat in a dense city with little room for green space, and older and low-income residents at most risk.
+
+- How they work together: Civil Protection is the single focal point: it coordinates the departments, consolidates their information and runs the heatwave response, with the mayor’s support keeping heat a shared priority.
+
+- Authority and money: About €1 million a year for heat activities within Civil Protection’s budget, which the city itself describes as not enough for comprehensive risk management.
+
+- What reaches people: SMS alerts built with a private partner; the Red Cross, fire service and police help spread warnings; health and social teams visit 3,000–4,000 residents twice a week in summer; prepared cooled shelters.
+
+- Still unresolved: Space for greenery in dense streets, and building codes still to be updated.
+
+- Before adapting it, check: Is there one office that can convene the others and hold a heat budget? Who can do home visits at scale?
+
+#### Incheon, Republic of Korea (pp. 21–27)
+
+- The problem: More heatwave days and tropical nights, with elderly and low-income neighbourhoods most exposed; a sharp rise in heat illness in 2018.
+
+- How they work together: National law treats heatwaves as a disaster, so heat sits inside the city’s disaster structure, led by a Natural Disaster Division, with district headquarters and field units.
+
+- Authority and money: A local heat ordinance (2019) and national grants covering part of project costs; some protection is funded through welfare programmes rather than a heat budget.
+
+- What reaches people: 1,340 heat shelters (2023), shelter locations shared in safety apps, nearly 7,000 volunteer ‘heatwave helpers’, and data analysis to find 52 priority areas for cooling facilities.
+
+- Still unresolved: Competing land uses for urban forests, and long-term funding to scale up.
+
+- Before adapting it, check: Does national law give local authorities a mandate and money for heat? Is there data on where older people live alone?
+
+#### Cape Town, South Africa (pp. 34–40)
+
+- The problem: Heat that falls hardest on low-income neighbourhoods and informal settlements, where most residents have little greenery and no air conditioning, pool or easy way to the beach.
+
+- How they work together: A coordinating department convenes rather than implements, alongside existing structures: a business continuity committee, the disaster risk management centre and a climate forum.
+
+- Authority and money: No dedicated national heat funding; the city relies on general grants, property taxes and tariffs.
+
+- What reaches people: Outreach in the hottest areas, six spray parks in lower-income neighbourhoods, and cooling centres and real-time heat monitoring in planning.
+
+- Still unresolved: Upkeep of green infrastructure, and resources to scale up public communication, including ‘message coupling’, which it plans to bring from its drought response to heat.
+
+- Before adapting it, check: Is there a body that can convene without taking over others’ mandates? Who keeps essential services running in a heatwave?
+
+#### Quito, Ecuador (pp. 28–33)
+
+- The problem: A city centre up to 3 °C warmer than its surroundings, while a drought threatens water and hydropower.
+
+- How they work together: Heat is managed inside the city’s long-term climate action plan, with an environment secretariat in the lead and the risk management secretariat alongside it.
+
+- Authority and money: Funding from national, municipal, corporate and international sources; an ordinance on green and blue infrastructure.
+
+- What reaches people: Nature-based solutions and planning rules, with community and international partners.
+
+- Still unresolved: Heat is a lower national priority, and national weather data is incomplete.
+
+- Before adapting it, check: Does your plan sit inside a wider climate plan with its own budget lines? Are the weather data you rely on maintained?
+
+#### Nairobi, Kenya (pp. 41–45)
+
+- The problem: Rapid development outpacing climate-sensitive planning, and the loss of green space.
+
+- How they work together: Urban heat was made a priority for the first time; work sits with a small climate change department.
+
+- Authority and money: Eight staff for all the department’s activities, no dedicated heat strategy yet, and limited funds.
+
+- What reaches people: Forecasts from the national weather service reach the public through mainstream media; no dedicated heat warning yet.
+
+- Still unresolved: Fragmented, siloed efforts across sectors; no local heat data; low public awareness.
+
+- Before adapting it, check: Starting from little is common. What is the first decision, and the first piece of data, that would let the next step happen?
+
 ## Plain-language glossary of extreme heat
 
 42 terms that come up again and again in extreme heat, explained in a sentence or two.
