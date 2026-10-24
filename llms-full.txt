@@ -3718,6 +3718,30 @@ Evidence: Measured in a study · Before the season
 
 Where it has been tried (Simulation or test): In Dhaka, the Red Cross and Red Crescent tested heatwave triggers in a 2021 simulation and gave cash grants of BDT 4,500; most recipients spent it on food, and many on medical costs. In April 2024 the Bangladesh Red Crescent activated its heatwave early action protocol for real. (Anticipation Hub: the story of heatwave anticipatory action in Dhaka, https://www.anticipation-hub.org/news/the-story-of-heatwave-anticipatory-action-in-dhaka-bangladesh)
 
+### A week in the heat: an exercise
+
+Follow one worker’s money through a heatwave week, build protection, then test it. A measure counts only when the person can actually use it.
+
+- Rekha, Vegetable vendor: Rekha buys vegetables at dawn and sells from a cart until dark. What does not sell by evening, she loses.
+
+- Sunil, Daily-wage construction worker: Sunil waits at the naka from 7 a.m. If a contractor picks him, he works the day. If he is not there, someone else is picked.
+
+- Farida, Home-based garment worker: Farida stitches garments at home, paid by the piece. The tin roof turns the room into an oven by noon, and it stays hot at night.
+
+Rekha, Sunil and Farida are composites, not real people. The numbers are examples in Indian rupees a day; change them to match the people you work with. The tool adds up cash. It does not predict illness, productivity or payouts.
+
+- In Singapore, a study of 355 workers found each hot day cost a median S$21, about 24% of a day’s pay. (NUS Project HeatSafe, 2024, https://medicine.nus.edu.sg/wp-content/uploads/2024/03/PRESS-RELEASE_Project-HeatSafe-18MAR2024-FOR-IMMEDIATE-RELEASE.pdf)
+
+- Of 721 Delhi street vendors surveyed in 2024, 80% saw fewer customers during heatwaves and 49% lost income. (Greenpeace India and National Hawkers Federation, 2024, https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/)
+
+- In Bangkok, nearly 80% of informal workers surveyed had cut their hours because of heat. (WIEGO and HomeNet Thailand, 2025, https://www.wiego.org/wp-content/uploads/2025/10/WIEGO-Policy-Brief-33-Climate-Change-and-Heat-Stress.pdf)
+
+- Doctors at two Indian hospitals said more than 90% of their heat-illness patients in 2024 were outdoor workers. (Context (Thomson Reuters Foundation), 2024, https://www.context.news/climate-risks/ice-baths-and-ventilators-indias-hospitals-adapt-to-killer-heat)
+
+- Heat income insurance payments for women workers in India were reported in 2025 to take six to eight weeks. (NPR, July 2025, https://www.npr.org/sections/goats-and-soda/2025/07/16/g-s1-76948/hot-temperatures-insurance-gig-workers-india)
+
+- A heat insurance pilot for construction workers paid hospital cash only after a minimum stay of 48 hours. (People’s Courage International, 2025, https://www.peoplescourageinternational.org/pdfs/Emergency%20response%20to%20heat%20wave%20crisis%20in%20South%20and%20Southeast%20Asia.pdf)
+
 ## Paying for heat protection: who pays, how money arrives, and whether it lasts
 
 Protection only works if someone pays for it, the money arrives in time, and it is still there next season. Start from what needs paying for, not from a product.

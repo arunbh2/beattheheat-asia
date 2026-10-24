@@ -3446,6 +3446,7 @@ const ACTION_JOURNEYS = [
   { q: "How do I cool homes or classrooms?", go: "homes", also: "schools" },
   { q: "What should our municipality do before summer?", go: "summer" },
   { q: "Why are our interventions failing?", go: "stalls" },
+  { q: "What would this mean for one worker?", go: "heatweek" },
   { q: "How do we pay for protection?", go: "finance" }
 ];
 
@@ -3542,5 +3543,102 @@ const FINANCE = {
   reading: [
     { label: "Global Asia Insurance Partnership, 2026: Scaling Parametric Insurance in Asia", url: "https://www.gaip.global/publications/scaling-parametric-insurance-in-asia/" },
     { label: "Global Asia Insurance Partnership, 2026: Climate Change & Insurance: Physical risks on the insurance industry", url: "https://www.gaip.global/publications/physical-risks-on-the-insurance-industry/" }
+  ]
+};
+
+/* ---------- 32. A WEEK IN THE HEAT ---------- */
+// An exercise for funders, officials and NGOs: follow one worker’s money through a heatwave week, build protection, then test it.
+// The people are composites, not real individuals. Numbers are illustrative Indian rupees a day, and every one can be changed.
+// The tool only adds up cash. It never predicts illness, productivity or payouts, and never gives a score.
+// effect: hours = working hours recovered on hot days (an assumption, shown on the card); water = no need to buy water at work;
+// rest = paid hours protected; freecare = no doctor fee; money = a payment (amount, arrival day); hospital = pays only if admitted.
+// conds: what has to be true for the person to actually use it. A measure counts only when every condition holds,
+// except a soft condition, which changes the cost but not whether it can be used. start: false means it starts unmet; auto: met by another measure.
+const HEAT_WEEK = {
+  days: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+  dayNames: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+  temps: [39, 43, 45, 46, 45, 44, 40],
+  people: [
+    { id: "rekha", name: "Rekha", role: "Vegetable vendor", where: "A cart on a market road", pron: "she", poss: "her",
+      intro: "Rekha buys vegetables at dawn and sells from a cart until dark. What does not sell by evening, she loses.",
+      earn: 750, workCost: 250, home: 400, cash: 500, water: 40, works: [1, 1, 1, 1, 1, 1, 1],
+      costLabel: "Stock, cart fee and transport", heatLine: "Customers stay indoors; {pr} packs up {h} hours early and some stock goes soft.",
+      measures: ["shade", "station", "cash", "insurance", "hospital", "freecare", "messenger"] },
+    { id: "sunil", name: "Sunil", role: "Daily-wage construction worker", where: "A labour naka, waiting to be hired", pron: "he", poss: "his",
+      intro: "Sunil waits at the naka from 7 a.m. If a contractor picks him, he works the day. If he is not there, someone else is picked.",
+      earn: 700, workCost: 60, home: 380, cash: 300, water: 40, works: [1, 1, 1, 1, 1, 1, 0],
+      costLabel: "Bus fare to the naka and site", heatLine: "Work is cut by {h} hours in the afternoon heat, and {pr} is paid only for the hours worked.",
+      measures: ["shade", "rest", "station", "cash", "insurance", "hospital", "freecare", "messenger"] },
+    { id: "farida", name: "Farida", role: "Home-based garment worker", where: "A one-room home under a tin roof", pron: "she", poss: "her",
+      intro: "Farida stitches garments at home, paid by the piece. The tin roof turns the room into an oven by noon, and it stays hot at night.",
+      earn: 350, workCost: 30, home: 300, cash: 400, water: 0, works: [1, 1, 1, 1, 1, 1, 0],
+      costLabel: "Thread, needles and light", heatLine: "The room is too hot to work for {h} hours; {pr} finishes fewer pieces after a sleepless night.",
+      measures: ["roof", "fan", "cash", "insurance", "hospital", "freecare", "messenger"] }
+  ],
+  layers: [
+    { id: "exposure", name: "Cut the heat they face" },
+    { id: "action", name: "Make it possible to stop" },
+    { id: "money", name: "Protect what they spend" },
+    { id: "delivery", name: "Make it reach them" }
+  ],
+  measures: [
+    { id: "shade", layer: "exposure", name: "Shade and water where they work", does: "Shade and a refill point at the spot where they work or wait.", assume: "Assumed: recovers 1 working hour on hot days, and no water to buy.",
+      effect: { hours: 1, water: true }, lever: "coolingcentres", payer: "City government",
+      conds: [{ id: "spot", text: "It is at the spot where {pr} actually works or waits" }, { id: "kept", text: "Someone refills and repairs it every day" }] },
+    { id: "rest", layer: "action", name: "Paid rest breaks on site", does: "Breaks in the hottest hours that are paid, so stopping does not mean losing pay.", assume: "Protects pay for up to 2 lost hours on hot days.",
+      effect: { rest: 2 }, lever: "heatrules", payer: "Employer",
+      conds: [{ id: "agree", text: "The contractor agrees, in writing" }, { id: "checked", text: "Someone checks that breaks are really given" }] },
+    { id: "station", layer: "action", name: "A cooling station", does: "A shaded or cooled rest point with water, salts and first aid.", assume: "Assumed: recovers 1 working hour on hot days.",
+      effect: { hours: 1 }, lever: "coolingcentres", payer: "City government",
+      conds: [{ id: "near", text: "It is where {pr} works or waits, not across town", start: false }, { id: "open", text: "It is open during working hours" }, { id: "leave", text: "{Pr} can step in without losing the day’s work", start: false }, { id: "staff", text: "Water and a caretaker are paid for" }] },
+    { id: "roof", layer: "exposure", name: "A cool roof", does: "A reflective coating on the tin roof over the room where she works and sleeps.", assume: "Assumed: recovers 1 working hour on hot days. One-off cost, not paid by her.",
+      effect: { hours: 1 }, lever: "coolhousing", payer: "City government",
+      conds: [{ id: "tenure", text: "The landlord agrees, and the rent does not rise" }, { id: "recoat", text: "Someone pays to recoat it in a few years" }] },
+    { id: "fan", layer: "exposure", name: "An efficient fan and lifeline power", does: "A fan, and an electricity tariff she can afford in the hottest weeks.", assume: "Assumed: recovers 1 working hour on hot days; costs ₹20 a day in power unless the tariff is protected.",
+      effect: { hours: 1, power: 20 }, lever: "affordablecool", payer: "State or national scheme",
+      conds: [{ id: "supply", text: "Power stays on in the afternoon peak" }, { id: "tariff", text: "A lifeline tariff covers the extra units", soft: true }] },
+    { id: "cash", layer: "money", name: "Cash before the heat", does: "A payment released on the heat forecast, before the worst days.", assume: "You set the amount and the day it arrives.",
+      effect: { money: true }, amount: 1500, arrive: 0, lever: "anticipatory", payer: "State or national scheme",
+      conds: [{ id: "enrol", text: "{Pr} is registered, with an ID and a way to receive money" }, { id: "knows", text: "Someone {pr} trusts told {obj} about it", auto: "messenger" }] },
+    { id: "insurance", layer: "money", name: "Heat income insurance", does: "Pays a fixed amount when an official heat reading crosses a threshold.", assume: "You set the payout. Reported payments have taken six to eight weeks.",
+      effect: { money: true, insurance: true }, amount: 1000, arrive: 7, lever: "heatcash", payer: "Donor or philanthropy",
+      conds: [{ id: "enrol", text: "{Pr} is enrolled and the premium is paid" }, { id: "knows", text: "Someone {pr} trusts explained how it pays", auto: "messenger" }, { id: "local", text: "The trigger is measured near where {pr} works" }] },
+    { id: "hospital", layer: "money", name: "Hospital cash", does: "Pays a daily amount if admitted to hospital, often only after a minimum stay.", assume: "Pays ₹500 a day, only if admitted for 48 hours or more.",
+      effect: { hospital: 500 }, lever: "freecare", payer: "Insurer",
+      conds: [{ id: "enrol", text: "{Pr} is enrolled" }] },
+    { id: "freecare", layer: "money", name: "Free care for heat illness", does: "No fee for seeing a doctor or for medicines for heat illness.", assume: "Removes the doctor’s fee and medicines (₹300 in this example).",
+      effect: { freecare: true }, lever: "freecare", payer: "State or national scheme",
+      conds: [{ id: "open", text: "A clinic is open when {pr} can get there" }] },
+    { id: "messenger", layer: "delivery", name: "A trusted messenger", does: "A worker leader, union or community volunteer who passes on alerts and explains the help on offer.", assume: "Makes sure {pr} knows about the cash and the insurance.",
+      effect: {}, lever: "hap", payer: "Donor or philanthropy",
+      conds: [{ id: "paid", text: "The messenger’s time is paid for" }] }
+  ],
+  tests: [
+    { id: "ill", name: "Falls ill, but is not admitted", text: "Heat exhaustion on the third hot day: a doctor, medicines, and a day without work. No hospital stay." },
+    { id: "late", name: "Money arrives late", text: "Every payment lands after the week is over." },
+    { id: "notrigger", name: "Insurance does not trigger", text: "The official reading stays just below the threshold, though it is hotter where they work." },
+    { id: "water", name: "Water or power fails", text: "The refill point runs dry and the power cuts out in the afternoon." },
+    { id: "noid", name: "No ID or account", text: "The documents or bank account the scheme needs are missing." },
+    { id: "donor", name: "Donor money ends", text: "Anything paid for by a donor stops next season." }
+  ],
+  payers: ["Not decided", "Employer", "City government", "State or national scheme", "Donor or philanthropy", "Insurer", "Worker or family"],
+  statuses: ["Assumed", "Being explored", "Confirmed"],
+  doctor: 300,
+  evidence: [
+    { text: "In Singapore, a study of 355 workers found each hot day cost a median S$21, about 24% of a day’s pay.", source: { label: "NUS Project HeatSafe, 2024", url: "https://medicine.nus.edu.sg/wp-content/uploads/2024/03/PRESS-RELEASE_Project-HeatSafe-18MAR2024-FOR-IMMEDIATE-RELEASE.pdf" } },
+    { text: "Of 721 Delhi street vendors surveyed in 2024, 80% saw fewer customers during heatwaves and 49% lost income.", source: { label: "Greenpeace India and National Hawkers Federation, 2024", url: "https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/" } },
+    { text: "In Bangkok, nearly 80% of informal workers surveyed had cut their hours because of heat.", source: { label: "WIEGO and HomeNet Thailand, 2025", url: "https://www.wiego.org/wp-content/uploads/2025/10/WIEGO-Policy-Brief-33-Climate-Change-and-Heat-Stress.pdf" } },
+    { text: "Doctors at two Indian hospitals said more than 90% of their heat-illness patients in 2024 were outdoor workers.", source: { label: "Context (Thomson Reuters Foundation), 2024", url: "https://www.context.news/climate-risks/ice-baths-and-ventilators-indias-hospitals-adapt-to-killer-heat" } },
+    { text: "Heat income insurance payments for women workers in India were reported in 2025 to take six to eight weeks.", source: { label: "NPR, July 2025", url: "https://www.npr.org/sections/goats-and-soda/2025/07/16/g-s1-76948/hot-temperatures-insurance-gig-workers-india" } },
+    { text: "A heat insurance pilot for construction workers paid hospital cash only after a minimum stay of 48 hours.", source: { label: "People’s Courage International, 2025", url: "https://www.peoplescourageinternational.org/pdfs/Emergency%20response%20to%20heat%20wave%20crisis%20in%20South%20and%20Southeast%20Asia.pdf" } }
+  ],
+  note: "Rekha, Sunil and Farida are composites, not real people. The numbers are examples in Indian rupees a day; change them to match the people you work with. The tool adds up cash. It does not predict illness, productivity or payouts.",
+  workshop: [
+    "Split into groups, one person each. Give each group 25 minutes.",
+    "Set the week to match people you know. Agree the hot days.",
+    "Build a package. A measure counts only when every condition holds.",
+    "Run every test. Note what breaks, and who would have to fix it.",
+    "Fill in who pays and who keeps it running. Mark what is only assumed.",
+    "Compare packages across groups: who carries the cost, and what is still unresolved?"
   ]
 };

@@ -15,7 +15,7 @@ const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + `
 ;Object.assign(this, { SYSTEMS, CONSEQUENCES, LINKS, LOOP_GROUPS, LOOPS, INSTITUTIONS, LEVERS, LOOP_PLACES, EVIDENCE, ORG_ROLES,
   ORGANISATIONS, GLOSSARY_GROUPS, GLOSSARY, WORKED_EXAMPLES, AT_RISK, AT_RISK_BARRIERS, STALLS, COOL_PLACES, COOL_TRAPS,
-  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, COOL_FX, COOL_REGION, HOME_HEATS, STRAIN, COOL_ASK, PLAN_GROUPS, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL, LIVE_CITIES, CITY_PROFILES, CITY_HAP, HEATWAVES, HEATWAVES_NOTE, ACTION_SETTINGS, ACTION_LINES, ACTION_JOURNEYS, FINANCE, EVIDENCE_STATUS, ACTION_HORIZONS });`, ctx);
+  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, COOL_FX, COOL_REGION, HOME_HEATS, STRAIN, COOL_ASK, PLAN_GROUPS, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL, LIVE_CITIES, CITY_PROFILES, CITY_HAP, HEATWAVES, HEATWAVES_NOTE, ACTION_SETTINGS, ACTION_LINES, ACTION_JOURNEYS, FINANCE, EVIDENCE_STATUS, ACTION_HORIZONS, HEAT_WEEK });`, ctx);
 const D = ctx, TODAY = new Date().toISOString().slice(0, 10);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const plain = s => String(s || "").replace(/\n/g, " ");
@@ -329,6 +329,11 @@ const CITY_PAGES = [];
         ...(c.delivery || []).map(([k, v]) => `- Delivery, ${k.toLowerCase()}: ${v}`), ...(c.examples || []).map(x => `Where it has been tried (${D.EVIDENCE_STATUS[x.status].name}): ${x.text} (${x.source.label}, ${x.source.url})`));
     });
   });
+  const HW = D.HEAT_WEEK;
+  h += `<h2 id="heatweek">A week in the heat: an exercise</h2><p>On the live map, follow one worker’s money through a heatwave week, build a package of protection, then test it: money arriving late, insurance that does not trigger, falling ill without being admitted, water or power failing, missing ID, donor money ending. A measure counts only when the person can actually use it. <a href="/#heatweek">Open the exercise</a></p>
+    <ul>${HW.people.map(x => `<li><strong>${esc(x.name)}, ${esc(x.role.toLowerCase())}.</strong> ${esc(x.intro)}</li>`).join("")}</ul><p class="meta">${esc(HW.note)}</p>
+    <ul>${HW.evidence.map(x => `<li>${esc(x.text)} ${ext(x.source.url, x.source.label)}</li>`).join("")}</ul>`;
+  m.push("### A week in the heat: an exercise", "Follow one worker’s money through a heatwave week, build protection, then test it. A measure counts only when the person can actually use it.", ...HW.people.map(x => `- ${x.name}, ${x.role}: ${x.intro}`), HW.note, ...HW.evidence.map(x => `- ${x.text} (${x.source.label}, ${x.source.url})`));
   out[p.slug] = page(p, intro, h, [{ "@context": "https://schema.org", "@type": "ItemList", name: p.title, numberOfItems: n,
     itemListElement: D.ACTION_SETTINGS.flatMap(st => st.cards.map(c => ({ st, c }))).map(({ st, c }, i) => ({ "@type": "ListItem", position: i + 1, name: c.title, description: c.what, url: `${SITE}/practical-actions/#${st.id}-${c.id}` })) }]);
   md.push(m.join("\n\n"));
