@@ -2279,7 +2279,7 @@
   const CITIES = typeof CITY_PROFILES !== "undefined" ? CITY_PROFILES : [];
   const cityById = Object.fromEntries(CITIES.map(p => [p.id, p]));
   const MAPBOX = { lon0: 64, lon1: 129, lat0: -12, lat1: 34 };   // matches images/asia-map.svg (1000 × 721)
-  const LABEL_LEFT = new Set(["ahmedabad", "mumbai", "manila", "delhi"]);
+  const LABEL_LEFT = new Set(["manila", "delhi"]);
   const HEAT_STOPS = [[0, [61, 191, 174]], [0.45, [245, 166, 35]], [0.7, [242, 100, 48]], [1, [215, 38, 61]]];
   function heatColor(v) {
     const t = clamp01((v - 20) / 35);
