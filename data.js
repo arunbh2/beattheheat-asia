@@ -2685,7 +2685,11 @@ const LIVE_CITIES = [
   { id: "mumbai", name: "Mumbai", country: "India", lat: 19.08, lon: 72.88,
     warn: { label: "India Meteorological Department", url: "https://mausam.imd.gov.in/" } },
   { id: "ahmedabad", name: "Ahmedabad", country: "India", lat: 23.02, lon: 72.57,
-    warn: { label: "India Meteorological Department", url: "https://mausam.imd.gov.in/" } }
+    warn: { label: "India Meteorological Department", url: "https://mausam.imd.gov.in/" } },
+  { id: "colombo", name: "Colombo", country: "Sri Lanka", lat: 6.93, lon: 79.86,
+    warn: { label: "Department of Meteorology, Sri Lanka", url: "https://www.meteo.gov.lk/" } },
+  { id: "phnompenh", name: "Phnom Penh", country: "Cambodia", lat: 11.56, lon: 104.92,
+    warn: { label: "Ministry of Water Resources and Meteorology", url: "https://www.mowram.gov.kh/" } }
 ];
 const LIVE_SOURCES = {
   model: { label: "Weather data by Open-Meteo.com", url: "https://open-meteo.com/", licence: "CC BY 4.0" },
@@ -2886,7 +2890,25 @@ const CITY_PROFILES = [
       { id: "clinic", why: "The plan prepared hospitals and warned the public before heat peaked." },
       { id: "poverty", why: "Up to three-quarters of India’s workforce depends on heat-exposed work." },
       { id: "invisible", why: "As in most countries, heat deaths are hard to count, which makes the case for prevention harder to see." } ],
-    orgs: ["ahmedabad", "aidmi", "ibisa", "c40", "hera"], examples: ["ahmedabad"], risk: ["workers", "settlements"] }
+    orgs: ["ahmedabad", "aidmi", "ibisa", "c40", "hera"], examples: ["ahmedabad"], risk: ["workers", "settlements"] },
+  { id: "colombo", tagline: "A coastal capital where humid heat meets crowded markets, harbours and fish landing sites.",
+    heat: "Humid heat, all year round.",
+    hap: { status: "building", text: "Colombo Municipal Council, with the Department of Meteorology and SLYCAN Trust, has worked on guidelines for a gender-sensitive heat action plan. The Department of Meteorology issues heat index advisories. No adopted city heat plan found yet.",
+      sources: [{ label: "APN and SLYCAN Trust, 2022", url: "https://www.apn-gcr.org/publication/colombo-municipal-council-sri-lanka-integrating-heat-stress-management-into-climate-policies-and-guidelines-for-gender-sensitive-heat-action-plans-in-sri-lanka/" },
+        { label: "News 1st, 2024", url: "https://english.newsfirst.lk/2024/03/04/heat-advisory-issued-by-sri-lanka-s-met-dept" }] },
+    loops: [
+      { id: "cooling", why: "A University of Colombo study found a pronounced urban heat island, as green space gives way to concrete and asphalt." },
+      { id: "poverty", why: "Heat advisories ask people to work in the shade; market and fish workers who sell in the open often cannot." } ],
+    orgs: ["apn", "wmo", "escap"], examples: [], risk: ["workers", "coastal"] },
+  { id: "phnompenh", tagline: "A fast-growing capital of garment factories and metal roofs, where the hot season peaks before the rains.",
+    heat: "Humid heat, hottest from March to May.",
+    hap: { status: "none", text: "A proposal with the Ministry of Water Resources and Meteorology and Phnom Penh Capital Hall would develop a heat action plan for the city, with thresholds and response protocols. No adopted city heat plan found yet.",
+      sources: [{ label: "National Committee for Sub-National Democratic Development", url: "https://library.ncdd.gov.kh/detail/17224/download" }] },
+    loops: [
+      { id: "cooling", why: "UN ESCAP projects that the urban heat island could add 2 °C to 7 °C on top of global warming in Phnom Penh." },
+      { id: "poverty", why: "At three garment factories, workers reporting heat symptoms rose from 68% in the cooler months to 88% in the hot months." },
+      { id: "school", why: "In the April 2024 heatwave, Cambodia shortened public school days by two hours." } ],
+    orgs: ["escap", "adb", "worldbank"], examples: [], risk: ["workers", "settlements"] }
 ];
 
 /* ---------- 26. HEATWAVES THAT SHAPED ASIA ---------- */

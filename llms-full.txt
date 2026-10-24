@@ -2678,9 +2678,9 @@ Source: NBC News: school closures, 2024 https://www.nbcnews.com/news/world/schoo
 
 - OPEC Fund for International Development: Lends and gives technical assistance for water security and services in Asia, including US$100 million for water security in Sri Lanka in 2025. Heat-specific funding is not confirmed. (https://www.adb.org/who-we-are/partners/ofid/overview)
 
-## Extreme heat in ten Asian cities
+## Extreme heat in twelve Asian cities
 
-What extreme heat is doing in 10 Asian cities: whether each has a heat plan, the vicious cycles the evidence ties to it, who is hit hardest and who is already at work.
+What extreme heat is doing in 12 Asian cities: whether each has a heat plan, the vicious cycles the evidence ties to it, who is hit hardest and who is already at work.
 
 ### Singapore, Singapore
 
@@ -2865,6 +2865,40 @@ Who heat hits hardest: Workers in heat-exposed jobs; People in informal settleme
 Already at work: Ahmedabad Municipal Corporation, with IIPH Gandhinagar and NRDC; All India Disaster Mitigation Institute (AIDMI); IBISA; C40 Cities; Heat Resilience Action (HERA), formerly Climate Resilience for All
 
 Page: https://beattheheat.asia/cities/ahmedabad/
+
+### Colombo, Sri Lanka
+
+A coastal capital where humid heat meets crowded markets, harbours and fish landing sites.
+
+Heat action plan (Parts in place, no full plan found): Colombo Municipal Council, with the Department of Meteorology and SLYCAN Trust, has worked on guidelines for a gender-sensitive heat action plan. The Department of Meteorology issues heat index advisories. No adopted city heat plan found yet. Sources: APN and SLYCAN Trust, 2022 https://www.apn-gcr.org/publication/colombo-municipal-council-sri-lanka-integrating-heat-stress-management-into-climate-policies-and-guidelines-for-gender-sensitive-heat-action-plans-in-sri-lanka/; News 1st, 2024 https://english.newsfirst.lk/2024/03/04/heat-advisory-issued-by-sri-lanka-s-met-dept
+
+- The cooling trap: A University of Colombo study found a pronounced urban heat island, as green space gives way to concrete and asphalt.
+
+- The poverty–heat trap: Heat advisories ask people to work in the shade; market and fish workers who sell in the open often cannot.
+
+Who heat hits hardest: Workers in heat-exposed jobs; Coastal and riverine communities
+
+Already at work: Asia-Pacific Network for Global Change Research (APN); World Meteorological Organization; UN ESCAP
+
+Page: https://beattheheat.asia/cities/colombo/
+
+### Phnom Penh, Cambodia
+
+A fast-growing capital of garment factories and metal roofs, where the hot season peaks before the rains.
+
+Heat action plan (No published city heat plan found): A proposal with the Ministry of Water Resources and Meteorology and Phnom Penh Capital Hall would develop a heat action plan for the city, with thresholds and response protocols. No adopted city heat plan found yet. Sources: National Committee for Sub-National Democratic Development https://library.ncdd.gov.kh/detail/17224/download
+
+- The cooling trap: UN ESCAP projects that the urban heat island could add 2 °C to 7 °C on top of global warming in Phnom Penh.
+
+- The poverty–heat trap: At three garment factories, workers reporting heat symptoms rose from 68% in the cooler months to 88% in the hot months.
+
+- The lost-schooling loop: In the April 2024 heatwave, Cambodia shortened public school days by two hours.
+
+Who heat hits hardest: Workers in heat-exposed jobs; People in informal settlements
+
+Already at work: UN ESCAP; Asian Development Bank; World Bank
+
+Page: https://beattheheat.asia/cities/phnompenh/
 
 ## Heatwaves that shaped South and Southeast Asia, 1998 to 2026
 

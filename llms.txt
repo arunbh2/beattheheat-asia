@@ -18,7 +18,7 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The pa
 - [Worked plans](https://beattheheat.asia/worked-plans/): Worked heat action plans from Asia
 - [Glossary](https://beattheheat.asia/glossary/): Plain-language glossary of extreme heat
 - [Heat network](https://beattheheat.asia/heat-network/): Organisations working on extreme heat
-- [Cities](https://beattheheat.asia/cities/): Extreme heat in ten Asian cities
+- [Cities](https://beattheheat.asia/cities/): Extreme heat in twelve Asian cities
 - [Heatwaves](https://beattheheat.asia/heatwaves/): Heatwaves that shaped South and Southeast Asia, 1998 to 2026
 - [Practical actions](https://beattheheat.asia/practical-actions/): Practical actions against extreme heat, by setting
 - [Paying for protection](https://beattheheat.asia/paying-for-protection/): Paying for heat protection: who pays, how money arrives, and whether it lasts
@@ -35,6 +35,8 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The pa
 - [Kathmandu](https://beattheheat.asia/cities/kathmandu/): Extreme heat in Kathmandu: plans, cycles and who is at work
 - [Mumbai](https://beattheheat.asia/cities/mumbai/): Extreme heat in Mumbai: plans, cycles and who is at work
 - [Ahmedabad](https://beattheheat.asia/cities/ahmedabad/): Extreme heat in Ahmedabad: plans, cycles and who is at work
+- [Colombo](https://beattheheat.asia/cities/colombo/): Extreme heat in Colombo: plans, cycles and who is at work
+- [Phnom Penh](https://beattheheat.asia/cities/phnompenh/): Extreme heat in Phnom Penh: plans, cycles and who is at work
 
 ## Optional
 
@@ -56,6 +58,8 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The pa
 - [Extreme heat in Kathmandu](https://beattheheat.asia/print/city-kathmandu/)
 - [Extreme heat in Mumbai](https://beattheheat.asia/print/city-mumbai/)
 - [Extreme heat in Ahmedabad](https://beattheheat.asia/print/city-ahmedabad/)
+- [Extreme heat in Colombo](https://beattheheat.asia/print/city-colombo/)
+- [Extreme heat in Phnom Penh](https://beattheheat.asia/print/city-phnompenh/)
 - [Lessons from Asia’s heatwaves, 1998–2026](https://beattheheat.asia/print/heatwaves/)
 - [Paying for heat protection](https://beattheheat.asia/print/paying-for-protection/)
 - [Practical actions: Outdoor and hot workplaces (1 of 2)](https://beattheheat.asia/print/actions-work/)
