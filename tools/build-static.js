@@ -15,7 +15,7 @@ const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + `
 ;Object.assign(this, { SYSTEMS, CONSEQUENCES, LINKS, LOOP_GROUPS, LOOPS, INSTITUTIONS, LEVERS, LOOP_PLACES, EVIDENCE, ORG_ROLES,
   ORGANISATIONS, GLOSSARY_GROUPS, GLOSSARY, WORKED_EXAMPLES, AT_RISK, AT_RISK_BARRIERS, STALLS, COOL_PLACES, COOL_TRAPS,
-  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, COOL_FX, COOL_REGION, HOME_HEATS, STRAIN, COOL_ASK, PLAN_GROUPS, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL, LIVE_CITIES, CITY_PROFILES, CITY_HAP, HEATWAVES, HEATWAVES_NOTE, ACTION_SETTINGS, ACTION_LINES, ACTION_JOURNEYS, FINANCE });`, ctx);
+  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, COOL_FX, COOL_REGION, HOME_HEATS, STRAIN, COOL_ASK, PLAN_GROUPS, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL, LIVE_CITIES, CITY_PROFILES, CITY_HAP, HEATWAVES, HEATWAVES_NOTE, ACTION_SETTINGS, ACTION_LINES, ACTION_JOURNEYS, FINANCE, EVIDENCE_STATUS, ACTION_HORIZONS });`, ctx);
 const D = ctx, TODAY = new Date().toISOString().slice(0, 10);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const plain = s => String(s || "").replace(/\n/g, " ");
@@ -315,13 +315,18 @@ const CITY_PAGES = [];
   const intro = `${n} practical actions against extreme heat in workplaces, homes, schools, health facilities, markets and neighbourhoods, and what municipalities can do before summer. Each answers eight questions: what to do, who it protects, where it suits, who must act, what it takes to run, the evidence, what could stop it, and what it only works with.`;
   const inst = id => (D.INSTITUTIONS.find(i => i.id === id) || {}).name || id;
   const val = (c, k) => k === "who" ? c.who.map(inst).join(", ") : k === "evidence" ? c.evidence.text : k === "worksIf" ? c.worksIf.join("; ") + "." : c[k];
-  let h = `<p><strong>Start from a question:</strong> ${D.ACTION_JOURNEYS.map(j => j.go === "stalls" ? `<a href="/#stalls">${esc(j.q)}</a>` : j.go === "finance" ? `<a href="/paying-for-protection/">${esc(j.q)}</a>` : `<a href="#${j.go}">${esc(j.q)}</a>`).join(" · ")}</p>`, m = [`## ${p.title}`, intro];
+  let h = `<p class="meta">Evidence labels: ${Object.values(D.EVIDENCE_STATUS).map(x => `<strong>${esc(x.name)}</strong>: ${esc(x.text)}`).join(" ")}</p><p><strong>Start from a question:</strong> ${D.ACTION_JOURNEYS.map(j => j.go === "stalls" ? `<a href="/#stalls">${esc(j.q)}</a>` : j.go === "finance" ? `<a href="/paying-for-protection/">${esc(j.q)}</a>` : `<a href="#${j.go}">${esc(j.q)}</a>`).join(" · ")}</p>`, m = [`## ${p.title}`, intro];
   D.ACTION_SETTINGS.forEach(st => {
     h += `<h2 id="${st.id}">${esc(st.name)}</h2><p>${esc(st.intro)} <a href="/print/actions-${st.id}/">Print these cards</a> · <a href="/#practical-${st.id}">Open them on the map</a>${st.cool ? ` · <a href="/cooling-options/#${st.cool}">Options, costs and traps</a>` : ""}</p>`;
     m.push(`### ${st.name}`, st.intro);
+    if (st.problems) { h += `<p><strong>What workers told researchers:</strong> ${st.problems.map(x => esc(x.q)).join(" · ")}. ${ext(st.problemsSource.url, st.problemsSource.label)}</p>`; m.push(`What workers told researchers: ${st.problems.map(x => x.q).join("; ")} (${st.problemsSource.label}, ${st.problemsSource.url})`); }
     st.cards.forEach(c => {
-      h += `<h3 id="${st.id}-${c.id}">${esc(c.title)}</h3><ul>${D.ACTION_LINES.map(([k, label]) => `<li><strong>${esc(label)}:</strong> ${esc(val(c, k))}${k === "evidence" ? ` ${ext(c.evidence.source.url, c.evidence.source.label)}` : ""}</li>`).join("")}</ul>`;
-      m.push(`#### ${c.title}`, ...D.ACTION_LINES.map(([k, label]) => `- ${label}: ${val(c, k)}${k === "evidence" ? ` (${c.evidence.source.label}, ${c.evidence.source.url})` : ""}`));
+      const tag = `${(D.EVIDENCE_STATUS[c.status] || {}).name || ""}${c.horizon ? ` · ${(D.ACTION_HORIZONS.find(x => x.id === c.horizon) || {}).name}` : ""}`;
+      h += `<h3 id="${st.id}-${c.id}">${esc(c.title)}</h3><p class="meta">Evidence: ${esc(tag)}</p><ul>${D.ACTION_LINES.map(([k, label]) => `<li><strong>${esc(label)}:</strong> ${esc(val(c, k))}${k === "evidence" ? ` ${ext(c.evidence.source.url, c.evidence.source.label)}` : ""}</li>`).join("")}</ul>
+        ${c.delivery ? `<p><strong>Delivery details:</strong></p><ul>${c.delivery.map(([k, v]) => `<li><strong>${esc(k)}:</strong> ${esc(v)}</li>`).join("")}</ul>` : ""}
+        ${(c.examples || []).map(x => `<p><strong>Where it has been tried</strong> (${esc(D.EVIDENCE_STATUS[x.status].name)}): ${esc(x.text)} ${ext(x.source.url, x.source.label)}</p>`).join("")}`;
+      m.push(`#### ${c.title}`, `Evidence: ${tag}`, ...D.ACTION_LINES.map(([k, label]) => `- ${label}: ${val(c, k)}${k === "evidence" ? ` (${c.evidence.source.label}, ${c.evidence.source.url})` : ""}`),
+        ...(c.delivery || []).map(([k, v]) => `- Delivery, ${k.toLowerCase()}: ${v}`), ...(c.examples || []).map(x => `Where it has been tried (${D.EVIDENCE_STATUS[x.status].name}): ${x.text} (${x.source.label}, ${x.source.url})`));
     });
   });
   out[p.slug] = page(p, intro, h, [{ "@context": "https://schema.org", "@type": "ItemList", name: p.title, numberOfItems: n,

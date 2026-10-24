@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap">
 
-  <link rel="stylesheet" href="styles.css?v=98">
+  <link rel="stylesheet" href="styles.css?v=99">
 
   <script type="application/ld+json">
   {
@@ -111,8 +111,8 @@
   }
   </script>
   <link rel="alternate" type="text/plain" href="/llms-full.txt" title="The whole map as plain text">
-  <script src="data.js?v=98" defer></script>
-  <script src="script.js?v=98" defer></script>
+  <script src="data.js?v=99" defer></script>
+  <script src="script.js?v=99" defer></script>
 </head>
 
 <body>
@@ -570,6 +570,7 @@
               <div id="plan-rows" class="plan-rows"></div>
               <div id="plan-fin"></div>
               <label class="plan-review">When will you review the plan after the season? <input type="text" id="plan-review" placeholder="e.g. first week of October, with every lead department" autocomplete="off"></label>
+              <div id="plan-reviewlog"></div>
             </fieldset>
             <fieldset class="plan-step" id="plan-step-4">
               <legend><span>4</span> Set the triggers and the warnings</legend>
@@ -583,7 +584,7 @@
             </fieldset>
             <fieldset class="plan-step" id="plan-step-6">
               <legend><span>6</span> Check it against WHO’s eight core elements</legend>
-              <p class="plan-step__hint">WHO/Europe’s 2026 guidance sets out eight elements that working heat-health action plans share. This check updates as you fill in the steps above.</p>
+              <p class="plan-step__hint">WHO/Europe’s 2026 guidance sets out eight elements that working heat-health action plans share. This check updates as you fill in the steps above. To assess how ready your institutions are to deliver, run the self-assessment in the <a href="https://heathealth.info/resources/heat-gov-framework/" target="_blank" rel="noopener">Extreme Heat Risk Governance Framework and Toolkit<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> (GHHIN, UNDRR and WMO, 2025) as a facilitated workshop; it is a first edition, written mainly for national governments.</p>
               <div id="plan-check" class="plan-check-list" aria-live="polite"></div>
             </fieldset>
           </div>
@@ -718,6 +719,11 @@
           <div>
             <h3>Three kinds of evidence</h3>
             <p>Evidence that one thing leads to another. Evidence that an action works. Evidence that a whole cycle runs as drawn. <strong>Well established</strong> means the whole cycle has been studied; <strong>Evidence emerging</strong> means each link has evidence but the full cycle has been studied less. The sources under “See the evidence” mostly show that links exist. Each one says what kind of source it is, where and how big it was, and what it cannot tell us. Where we draw a lesson the source does not state, it is marked <strong>Our reading</strong>, so you can tell our interpretation from the finding. Effects of heat depend on exposure, task and the person, so we avoid claims that hold everywhere.</p>
+          </div>
+          <div id="evidence-labels">
+            <h3>Evidence labels</h3>
+            <p>Practical action cards and cases carry a label saying what kind of evidence they cite. It describes the evidence, not how good the action is.</p>
+            <dl class="ev-key" id="ev-key"></dl>
           </div>
           <div>
             <h3>What works, and at what cost</h3>
