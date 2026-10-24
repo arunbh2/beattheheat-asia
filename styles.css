@@ -1974,3 +1974,11 @@ body.film-open { overflow: hidden; }
 .wkp-foot { padding: 28px 0 44px; font-size: .85rem; color: var(--grey-700); border-top: 1px solid var(--line); }
 .now-c__wk { margin: 6px 0 0; font-size: .82rem; font-weight: 700; }
 .wkp-foot a { color: var(--ink); text-decoration-color: var(--orange); text-underline-offset: 3px; }
+.wk-share { margin: 12px 0 4px; padding: 10px 14px; border-radius: 12px; background: #E8F3F1; border: 1px solid #BFDCD7; font-size: .86rem; }
+.wk-share summary { cursor: pointer; font-weight: 800; color: #1D6E64; }
+.wk-share__opt { display: flex; gap: 8px; align-items: flex-start; margin-top: 10px; font-weight: 600; }
+.wk-share__url { display: grid; gap: 3px; margin-top: 8px; font-weight: 700; font-size: .78rem; }
+.wk-share__url input { width: 100%; min-height: 36px; padding: 6px 8px; border: 1.5px solid var(--line); border-radius: 8px; font: inherit; font-size: .8rem; background: var(--white); color: var(--ink); }
+.wk-share__go { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.wk-shared { margin: 18px 0 0; padding: 10px 14px; border-left: 4px solid #1D6E64; background: #E8F3F1; border-radius: 0 10px 10px 0; font-size: .9rem; font-weight: 600; }
+.wk-cities a { color: var(--ink); text-decoration-color: var(--orange); text-underline-offset: 3px; }
