@@ -2678,9 +2678,9 @@ Source: NBC News: school closures, 2024 https://www.nbcnews.com/news/world/schoo
 
 - OPEC Fund for International Development: Lends and gives technical assistance for water security and services in Asia, including US$100 million for water security in Sri Lanka in 2025. Heat-specific funding is not confirmed. (https://www.adb.org/who-we-are/partners/ofid/overview)
 
-## Extreme heat in ten Asian cities
+## Extreme heat in twelve Asian cities
 
-What extreme heat is doing in 10 Asian cities: whether each has a heat plan, the vicious cycles the evidence ties to it, who is hit hardest and who is already at work.
+What extreme heat is doing in 12 Asian cities: whether each has a heat plan, the vicious cycles the evidence ties to it, who is hit hardest and who is already at work.
 
 ### Singapore, Singapore
 
@@ -2865,6 +2865,40 @@ Who heat hits hardest: Workers in heat-exposed jobs; People in informal settleme
 Already at work: Ahmedabad Municipal Corporation, with IIPH Gandhinagar and NRDC; All India Disaster Mitigation Institute (AIDMI); IBISA; C40 Cities; Heat Resilience Action (HERA), formerly Climate Resilience for All
 
 Page: https://beattheheat.asia/cities/ahmedabad/
+
+### Colombo, Sri Lanka
+
+A coastal capital where humid heat meets crowded markets, harbours and fish landing sites.
+
+Heat action plan (Parts in place, no full plan found): Colombo Municipal Council, with the Department of Meteorology and SLYCAN Trust, has worked on guidelines for a gender-sensitive heat action plan. The Department of Meteorology issues heat index advisories. No adopted city heat plan found yet. Sources: APN and SLYCAN Trust, 2022 https://www.apn-gcr.org/publication/colombo-municipal-council-sri-lanka-integrating-heat-stress-management-into-climate-policies-and-guidelines-for-gender-sensitive-heat-action-plans-in-sri-lanka/; News 1st, 2024 https://english.newsfirst.lk/2024/03/04/heat-advisory-issued-by-sri-lanka-s-met-dept
+
+- The cooling trap: A University of Colombo study found a pronounced urban heat island, as green space gives way to concrete and asphalt.
+
+- The poverty–heat trap: Heat advisories ask people to work in the shade; market and fish workers who sell in the open often cannot.
+
+Who heat hits hardest: Workers in heat-exposed jobs; Coastal and riverine communities
+
+Already at work: Asia-Pacific Network for Global Change Research (APN); World Meteorological Organization; UN ESCAP
+
+Page: https://beattheheat.asia/cities/colombo/
+
+### Phnom Penh, Cambodia
+
+A fast-growing capital of garment factories and metal roofs, where the hot season peaks before the rains.
+
+Heat action plan (No published city heat plan found): A proposal with the Ministry of Water Resources and Meteorology and Phnom Penh Capital Hall would develop a heat action plan for the city, with thresholds and response protocols. No adopted city heat plan found yet. Sources: National Committee for Sub-National Democratic Development https://library.ncdd.gov.kh/detail/17224/download
+
+- The cooling trap: UN ESCAP projects that the urban heat island could add 2 °C to 7 °C on top of global warming in Phnom Penh.
+
+- The poverty–heat trap: At three garment factories, workers reporting heat symptoms rose from 68% in the cooler months to 88% in the hot months.
+
+- The lost-schooling loop: In the April 2024 heatwave, Cambodia shortened public school days by two hours.
+
+Who heat hits hardest: Workers in heat-exposed jobs; People in informal settlements
+
+Already at work: UN ESCAP; Asian Development Bank; World Bank
+
+Page: https://beattheheat.asia/cities/phnompenh/
 
 ## Heatwaves that shaped South and Southeast Asia, 1998 to 2026
 
@@ -3722,13 +3756,129 @@ Where it has been tried (Simulation or test): In Dhaka, the Red Cross and Red Cr
 
 Follow one worker’s money through a heatwave week, build protection, then test it. A measure counts only when the person can actually use it.
 
+#### India
+
 - Rekha, Vegetable vendor: Rekha buys vegetables at dawn and sells from a cart until dark. What does not sell by evening, she loses.
 
 - Sunil, Daily-wage construction worker: Sunil waits at the naka from 7 a.m. If a contractor picks him, he works the day. If he is not there, someone else is picked.
 
 - Farida, Home-based garment worker: Farida stitches garments at home, paid by the piece. The tin roof turns the room into an oven by noon, and it stays hot at night.
 
-Rekha, Sunil and Farida are composites, not real people. The numbers are examples in Indian rupees a day; change them to match the people you work with. The tool adds up cash. It does not predict illness, productivity or payouts.
+- In a survey of 721 Delhi street vendors in 2024, 80% saw fewer customers during heatwaves and 49% lost income. (Greenpeace India and National Hawkers Federation, 2024, https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/)
+
+- Doctors at two Indian hospitals said more than 90% of their heat-illness patients in 2024 were outdoor workers. (Context (Thomson Reuters Foundation), 2024, https://www.context.news/climate-risks/ice-baths-and-ventilators-indias-hospitals-adapt-to-killer-heat)
+
+#### Bangladesh
+
+- Rahim, Rickshaw puller: Rahim rents a rickshaw from a garage owner every morning. Whatever he earns, the day’s rent is owed when he returns it.
+
+- Rickshaw pullers in Dhaka have described their earnings falling from about Tk 1,200 to Tk 700–800 a day in extreme heat, with fewer passengers and shorter hours. (The Business Standard, https://www.tbsnews.net/bangladesh/environment/beneath-burning-sky-everyone-feels-heat-informal-workers-pay-highest-price)
+
+- In a 2024 heatwave, one puller returned his rickshaw after a few hours and still owed the day’s Tk 150 rent. (The Daily Star, 2024, https://www.thedailystar.net/business/news/small-businesses-daily-earners-scorched-heatwave-3594581)
+
+- In April 2024 the Bangladesh Red Crescent acted on the heat forecast in Dhaka: cash grants of at least Tk 5,000 to 4,000 households, three cooling stations with more than 15,000 visits, and caps for 3,500 rickshaw and van pullers. (Rockefeller Foundation case study, 2024, https://www.rockefellerfoundation.org/wp-content/uploads/2024/09/Heatwaves-in-Dhaka-Case-Study.pdf)
+
+- Dhaka North appointed a chief heat officer in 2023, and the city has given rickshaw pullers umbrellas, water and saline, and planned shaded cooling zones. (The Daily Observer, October 2024, https://observerbd.com/news/470908)
+
+#### Nepal
+
+- Kamala, Brick-kiln worker: Kamala moulds bricks in the open from first light, paid by the thousand. She took a pay advance from the labour contractor before the season; part of each day’s pay goes against it.
+
+- A national survey found 176,373 manual workers, including family members, in Nepal’s brick kilns, which operate seasonally from October to June. Over three-quarters (75.7%) received a pay advance from a labour contractor. (Central Bureau of Statistics, ILO and UNICEF, 2020, https://www.unicef.org/nepal/press-releases/ending-forced-and-child-labour-nepals-brick-industry-need-holistic-approach)
+
+- In late May 2026, temperatures in Dhangadhi and Nepalgunj in the western Terai reached around 38 °C before noon, and heatstroke patients were arriving at Bheri Hospital every day. (Kantipur, 2026, https://ekantipur.com/news/2026/05/24/en/temperatures-exceed-40-degrees-celsius-in-western-tarai-normal-life-affected-by-heatwave-38-16.html)
+
+- Nepal recorded 89 days above the historical 90th-percentile temperature between May 2024 and May 2025. (The Kathmandu Post, 2026, https://kathmandupost.com/money/2026/07/30/extreme-heat-threatens-nepal-s-economy-as-warming-accelerates)
+
+- Under the national health insurance programme, a family of up to five pays Rs 3,500 a year for treatment worth up to Rs 100,000. (The Himalayan Times, https://thehimalayantimes.com/health/health-insurance-board-clarifies-opd-limit-total-coverage-unchanged)
+
+- Researchers in Nepal have proposed heat stress limits for different workloads, drawing on measurements in sectors including brick kilns. (Heat Standard Across Different Workloads in Nepal, 2024, https://nepjol.info/index.php/gswow/article/view/72747)
+
+#### Sri Lanka
+
+- Nimal, Fish seller: Nimal buys fish at the landing site at dawn and sells it from an iced box on his bicycle. In the heat, fish spoils faster: he needs more ice, and what does not sell by midday loses its value.
+
+- In March 2024 the Department of Meteorology issued heat advisories for the Western Province and others, urging people to stay hydrated and work in the shade. (News 1st, 2024, https://english.newsfirst.lk/2024/03/04/heat-advisory-issued-by-sri-lanka-s-met-dept)
+
+- In 2023, when fish traders at Peliyagoda raised concerns about the price of ice, the Ministry of Fisheries brought traders and ice suppliers together and agreed a lower price: Rs 650 for 50 kg instead of Rs 850. (Ministry of Fisheries, 2023, https://www.fisheries.gov.lk/web/index.php/en/information/news/878-2023-06-07-06-56-03)
+
+- A national strategy on fish loss names the high cost of energy for fishing, ice and transport as a weakness, and aims to cut quality loss in the multi-day fishery by 30% by 2033. (FAO: food loss and waste in fish value chains, Sri Lanka, https://www.fao.org/flw-in-fish-value-chains/projects/sri-lanka/multidimensional-solutions-strategy/en)
+
+- Sri Lanka has provided free public health care to its whole population since 1951. (ILO social protection brief, https://un.social-protection.org/gimi/Media.action?id=18733)
+
+#### Cambodia
+
+- Sreymom, Garment worker: Sreymom sews on a factory line under a metal roof. Her monthly wage is protected; the overtime that pays for her family’s extras is not, and missing a day loses the month’s attendance bonus.
+
+- The 2026 minimum wage for garment, footwear and travel goods workers is US$210 a month, plus a US$7 transport or housing allowance and a US$10 monthly attendance bonus. (DFDL, on Prakas 214/25, 2025, https://www.dfdl.com/insights/legal-and-tax-updates/cambodia-increase-in-minimum-wage-for-2026-for-the-garments-textiles-footwear/)
+
+- In April 2024 the Ministry of Labour asked factories to spray water on roofs, install enough fans, open windows, provide more clean drinking water and assign staff to watch workplace thermometers. (CamboJA News, 2024, https://cambojanews.com/garment-workers-request-for-water-mist-fans-as-rising-temperatures-affect-health-and-productivity)
+
+- At three garment factories in Phnom Penh, workers reporting heat symptoms rose from 68% in the cooler months to 88% in the hot months, by their own reports. (Chea et al., BMC Public Health, 2025, https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-025-22787-0)
+
+- The National Social Security Fund’s health care scheme covers private-sector workers at contracted public and private facilities. (UN Global Marketplace notice, 2024, https://www.ungm.org/Public/Notice/246332)
+
+#### Indonesia
+
+- Budi, App-based motorbike rider: Budi carries passengers and food orders through an app. He pays for his own fuel, phone data and motorbike, and the day’s incentive depends on how many trips he completes.
+
+- A 2023 survey of 225 app-based motorbike riders around Jakarta found an average daily income of Rp171,600. (IDEAS, via Databoks, 2025, https://databoks.katadata.co.id/en/employment/statistics/682bff44af745/how-much-do-online-motorcycle-taxi-drivers-earn-daily-in-jabodetabek)
+
+- Riders pay their own running costs; a transport ministry survey put them at Rp50,000–100,000 a day. (detikOto, https://oto.detik.com/berita/d-7965233/umr-jakarta-lewat-segini-upah-ojol-yang-narik-6-jam-hari)
+
+- In hot spells, Jakarta’s health office has advised drinking more water, covering up and limiting strenuous outdoor activity between 11 am and 3 pm. (Indonesian National Police news, 2026, https://inp.polri.go.id/artikel/jakarta-governor-urges-vigilance-as-extreme-heat-grips-capital)
+
+- The government has halved work-accident and death insurance contributions for app-based riders and other transport workers, to Rp8,400 a month, from January 2026 to March 2027. (Bisnis.com, 2026, https://ekonomi.bisnis.com/read/20260113/12/1943873/diskon-50-iuran-bpjs-jkk-jkm-buat-ojol-cs-diperpanjang-hingga-2027)
+
+#### Philippines
+
+- Joy, Street food vendor: Joy sells snacks and cold drinks from a cart. When heat suspends in-person classes, her children are at home, and looking after them falls to her.
+
+- On 5 April 2024, 5,288 schools switched from in-person classes to remote learning because of the heat, affecting more than 3.6 million students. (Malay Mail (AFP), 2024, https://www.malaymail.com/news/world/2024/04/05/thousands-of-philippine-schools-suspend-in-person-classes-due-to-heat-says-education-dept/127511)
+
+- School heads can suspend in-person classes when the heat index is high, under a 2022 Department of Education order. (Manila Bulletin, 2024, https://mb.com.ph/2024/3/31/dep-ed-confirms-suspension-of-classes-in-several-areas-due-to-severe-heat)
+
+- PAGASA recorded a heat index of 46 °C at NAIA in Pasay City on 24 April 2024, the highest in Metro Manila that year. (PAGASA heat index summary, https://pubfiles.pagasa.dost.gov.ph/tamss/weather/heat_index_summary.pdf)
+
+- The Department of Labor and Employment has reminded employers to adjust rest breaks, provide free drinking water and ventilate workplaces in the hot season. Self-employed vendors work outside these workplace measures. (The Manila Times, 2024, https://manilatimes.net/2024/03/24/news/national/dole-protect-workers-from-heat-stress/1938252)
+
+#### Singapore
+
+- Kumar, Migrant construction worker: Kumar works on a building site and sleeps in a dormitory room. His basic pay is monthly; overtime is what he sends home. The law already gives him rest breaks and medical care.
+
+- Singapore’s heat stress framework for outdoor work requires rest under shade, regular drinking water and at least a week of acclimatisation, with hourly rest breaks of at least 15 minutes for heavy work in the highest heat stress. More measures become legal requirements from 1 December 2026. (Ministry of Manpower: heat stress measures for outdoor work, https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work)
+
+- The Ministry of Manpower has taken enforcement action against workplaces found not meeting the heat measures, including for inadequate shaded rest breaks. (HRD Asia, https://www.hcamag.com/asia/specialisation/employment-law/more-than-75-worksites-found-non-compliant-with-singapores-enhanced-heat-stress-measures-report/499570)
+
+- Employers must pay for medical treatment of their Work Permit holders and hold at least S$60,000 of medical insurance a year for each. (Ministry of Manpower, written answer, 2025, https://www.mom.gov.sg/newsroom/parliament-questions-and-replies/2025/1106-written-answer-to-pq-on-unpaid-medical-bills-incurred-by-work-permit-and-s-pass-holders)
+
+- Standards for new dormitories, announced in 2021, cap rooms at 12 residents and require enough fans for air circulation; existing dormitories are to be upgraded over time. (Ministry of Manpower, 2021, https://www.mom.gov.sg/newsroom/press-releases/2021/0917-improved-standards-for-new-migrant-worker-dormitories)
+
+#### Thailand
+
+- Malee, Home-based garment worker: Malee sews garments at home, paid by the piece. Her room is also where she cooks and sleeps; in the afternoon heat, the work slows and the fan runs all day.
+
+- In a 2025 survey of more than 1,000 informal workers in Bangkok, nearly 80% cut their working hours because of heat, and three-quarters of home-based workers lost at least one working day a month to heat-related illness, their own or a family member’s. (WIEGO and HomeNet Thailand, 2025, https://www.wiego.org/wp-content/uploads/2025/11/Too-Hot-to-Work-Heat-Impacts-on-Home-Based-Workers-and-Street-Vendors-in-Bangkok.pdf)
+
+- Thailand’s health ministry counted 61 heatstroke deaths between January and early May 2024, more than in the whole of 2023. (WAM, 2024, https://www.wam.ae/en/article/b32zjgo-killed-heatstroke-far-this-year-thailand)
+
+- In April 2024 Bangkok warned that the heat index could rise above 52 °C, the ‘extremely dangerous’ level. (Mothership, 2024, https://mothership.sg/2024/04/bangkok-feels-like-52-c/)
+
+- Since October 2025, informal workers in the voluntary social security scheme (Section 40) receive 200 baht for an outpatient visit when a doctor orders at least a day of rest, for up to three visits a year. (Pattaya Mail, 2025, https://www.pattayamail.com/news/thai-government-expands-social-security-section-40-benefits-for-over-500000-informal-workers-533510)
+
+#### Vietnam
+
+- Lan, Rice farmer: Lan farms her family’s rice field and works on neighbours’ farms for a daily wage. In the dry season, salt water creeps up the canals; drinking water has to be stored or bought.
+
+- In early 2024 a long heatwave and drought brought salt water far inland in the Mekong Delta; about 73,900 households had limited access to fresh water. (Save the Children, 2024, https://www.savethechildren.net/news/vietnam-s-el-ni-o-induced-drought-leaves-about-73900-households-mekong-river-delta-limited)
+
+- In an earlier salinity crisis in Ben Tre, households bought fresh water for daily use at about ₫150,000–200,000 a cubic metre. (Tuoi Tre News, 2020, https://tuoitrenews.vn/news/society/20200229/water-scarcity-hits-vietnams-mekong-delta-due-to-serious-salt-intrusion/53219.html)
+
+- A national study estimated nearly US$3 billion a year in crop losses from saltwater intrusion. (Malay Mail (AFP), 2024, https://www.malaymail.com/news/money/2024/03/17/vietnam-faces-us3b-annual-crop-losses-from-rising-saltwater-levels/124009)
+
+- Health insurance covers about 93% of Vietnam’s population, and the state pays for cards for poor households. (Vietnam News, https://vietnamnews.vn/society/1178063/localities-asked-to-raise-health-insurance-coverage-to-over-95-per-cent-by-2025.html)
+
+Every worker here is a composite, not a real person. The numbers are examples in local currency a day; change them to match the people you work with. The tool adds up cash. It does not predict illness, productivity or payouts.
 
 - In Singapore, a study of 355 workers found each hot day cost a median S$21, about 24% of a day’s pay. (NUS Project HeatSafe, 2024, https://medicine.nus.edu.sg/wp-content/uploads/2024/03/PRESS-RELEASE_Project-HeatSafe-18MAR2024-FOR-IMMEDIATE-RELEASE.pdf)
 

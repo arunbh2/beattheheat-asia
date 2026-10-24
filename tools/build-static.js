@@ -39,7 +39,7 @@ const PAGES = [
   { slug: "worked-plans", title: "Worked heat action plans from Asia", short: "Worked plans" },
   { slug: "glossary", title: "Plain-language glossary of extreme heat", short: "Glossary" },
   { slug: "heat-network", title: "Organisations working on extreme heat", short: "Heat network" },
-  { slug: "cities", title: "Extreme heat in ten Asian cities", short: "Cities" },
+  { slug: "cities", title: "Extreme heat in twelve Asian cities", short: "Cities" },
   { slug: "heatwaves", title: "Heatwaves that shaped South and Southeast Asia, 1998 to 2026", short: "Heatwaves" },
   { slug: "practical-actions", title: "Practical actions against extreme heat, by setting", short: "Practical actions" },
   { slug: "paying-for-protection", title: "Paying for heat protection: who pays, how money arrives, and whether it lasts", short: "Paying for protection" }
@@ -330,10 +330,11 @@ const CITY_PAGES = [];
     });
   });
   const HW = D.HEAT_WEEK;
-  h += `<h2 id="heatweek">A week in the heat: an exercise</h2><p>On the live map, follow one worker’s money through a heatwave week, build a package of protection, then test it: money arriving late, insurance that does not trigger, falling ill without being admitted, water or power failing, missing ID, donor money ending. A measure counts only when the person can actually use it. <a href="/#heatweek">Open the exercise</a></p>
-    <ul>${HW.people.map(x => `<li><strong>${esc(x.name)}, ${esc(x.role.toLowerCase())}.</strong> ${esc(x.intro)}</li>`).join("")}</ul><p class="meta">${esc(HW.note)}</p>
+  h += `<h2 id="heatweek">A week in the heat: an exercise</h2><p>On its own page, follow one worker’s money through a heatwave week, build a package of protection, then test it: money arriving late, insurance that does not trigger, falling ill without being admitted, water or power failing, missing ID, donor money ending. A measure counts only when the person can actually use it. <a href="/a-week-in-the-heat/">Open the exercise</a></p>
+    ${HW.countries.map(c => `<h3 id="heatweek-${c.id}">${esc(c.name)}</h3><ul>${HW.people.filter(x => x.country === c.id).map(x => `<li><strong>${esc(x.name)}, ${esc(x.role.toLowerCase())}.</strong> ${esc(x.intro)}</li>`).join("")}</ul>
+      <p class="meta">What is known:</p><ul>${c.context.map(x => `<li>${esc(x.text)} ${ext(x.source.url, x.source.label)}</li>`).join("")}</ul>`).join("")}<p class="meta">${esc(HW.note)}</p>
     <ul>${HW.evidence.map(x => `<li>${esc(x.text)} ${ext(x.source.url, x.source.label)}</li>`).join("")}</ul>`;
-  m.push("### A week in the heat: an exercise", "Follow one worker’s money through a heatwave week, build protection, then test it. A measure counts only when the person can actually use it.", ...HW.people.map(x => `- ${x.name}, ${x.role}: ${x.intro}`), HW.note, ...HW.evidence.map(x => `- ${x.text} (${x.source.label}, ${x.source.url})`));
+  m.push("### A week in the heat: an exercise", "Follow one worker’s money through a heatwave week, build protection, then test it. A measure counts only when the person can actually use it.", ...HW.countries.flatMap(c => [`#### ${c.name}`, ...HW.people.filter(x => x.country === c.id).map(x => `- ${x.name}, ${x.role}: ${x.intro}`), ...c.context.map(x => `- ${x.text} (${x.source.label}, ${x.source.url})`)]), HW.note, ...HW.evidence.map(x => `- ${x.text} (${x.source.label}, ${x.source.url})`));
   out[p.slug] = page(p, intro, h, [{ "@context": "https://schema.org", "@type": "ItemList", name: p.title, numberOfItems: n,
     itemListElement: D.ACTION_SETTINGS.flatMap(st => st.cards.map(c => ({ st, c }))).map(({ st, c }, i) => ({ "@type": "ListItem", position: i + 1, name: c.title, description: c.what, url: `${SITE}/practical-actions/#${st.id}-${c.id}` })) }]);
   md.push(m.join("\n\n"));
@@ -394,6 +395,7 @@ fs.writeFileSync(path.join(ROOT, "llms-full.txt"), `# BeatTheHeat.Asia: the whol
 fs.writeFileSync(path.join(ROOT, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>${SITE}/</loc><lastmod>${TODAY}</lastmod><priority>1.0</priority></url>
+  <url><loc>${SITE}/a-week-in-the-heat/</loc><lastmod>${TODAY}</lastmod><priority>0.9</priority></url>
 ${[...PAGES, ...CITY_PAGES].map(p => `  <url><loc>${SITE}/${p.slug}/</loc><lastmod>${TODAY}</lastmod><priority>0.8</priority></url>`).join("\n")}
 </urlset>
 `);

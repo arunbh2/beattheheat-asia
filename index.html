@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap">
 
-  <link rel="stylesheet" href="styles.css?v=101">
+  <link rel="stylesheet" href="styles.css?v=103">
 
   <script type="application/ld+json">
   {
@@ -111,8 +111,9 @@
   }
   </script>
   <link rel="alternate" type="text/plain" href="/llms-full.txt" title="The whole map as plain text">
-  <script src="data.js?v=101" defer></script>
-  <script src="script.js?v=101" defer></script>
+  <script src="data.js?v=103" defer></script>
+  <script src="script.js?v=103" defer></script>
+  <script src="heatweek.js?v=103" defer></script>
 </head>
 
 <body>
@@ -142,8 +143,8 @@
             <li><a href="#explore"><span class="site-menu__n" aria-hidden="true">02</span><span class="site-menu__t">The web<small>Every consequence of heat, and how each leads to the next</small></span></a></li>
             <li><a href="#loops"><span class="site-menu__n" aria-hidden="true">03</span><span class="site-menu__t">Where loops break<small>The vicious cycles, and where they can be cut</small></span></a></li>
             <li><a href="#day"><span class="site-menu__n" aria-hidden="true">04</span><span class="site-menu__t">A day in a heatwave<small>Eight hours, seven places across Asia</small></span></a></li>
-            <li><a href="#heat-now"><span class="site-menu__n" aria-hidden="true">05</span><span class="site-menu__t">Heat right now<small>Live readings for ten Asian cities</small></span></a></li>
-            <li><a href="#city"><span class="site-menu__n" aria-hidden="true">06</span><span class="site-menu__t">Your city<small>Heat, plans and cycles in ten cities</small></span></a></li>
+            <li><a href="#heat-now"><span class="site-menu__n" aria-hidden="true">05</span><span class="site-menu__t">Heat right now<small>Live readings for twelve Asian cities</small></span></a></li>
+            <li><a href="#city"><span class="site-menu__n" aria-hidden="true">06</span><span class="site-menu__t">Your city<small>Heat, plans and cycles in twelve cities</small></span></a></li>
             <li><a href="#heatwaves"><span class="site-menu__n" aria-hidden="true">07</span><span class="site-menu__t">Heatwaves that shaped Asia<small>Ten heatwaves, 1998 to 2026</small></span></a></li>
             <li><a href="#at-risk"><span class="site-menu__n" aria-hidden="true">08</span><span class="site-menu__t">Who heat hits hardest<small>Same heatwave, different barriers</small></span></a></li>
           </ul>
@@ -361,7 +362,7 @@
     <section class="now" id="heat-now" aria-labelledby="now-title">
       <div class="container">
         <p class="eyebrow">Heat right now</p>
-        <h2 id="now-title" class="h2">Today, across<br>ten Asian cities.</h2>
+        <h2 id="now-title" class="h2">Today, across<br>twelve Asian cities.</h2>
         <p class="loops__intro" id="now-intro"></p>
         <p class="now__status" id="now-status" role="status"></p>
         <ol class="now-list" id="now-list"></ol>
@@ -380,7 +381,7 @@
       <div class="container">
         <p class="eyebrow">Your city</p>
         <h2 id="city-title" class="h2">Pick a city.<br>See what heat is doing there.</h2>
-        <p class="loops__intro">Ten cities, one view each: today’s heat and the week ahead, whether the city has a heat plan, the vicious cycles the evidence ties to it, who is hit hardest, and who is already at work. Every claim links to its source.</p>
+        <p class="loops__intro">Twelve cities, one view each: today’s heat and the week ahead, whether the city has a heat plan, the vicious cycles the evidence ties to it, who is hit hardest, and who is already at work. Every claim links to its source.</p>
         <div class="city__layout">
           <div class="city__side">
             <div class="cm" id="city-map"></div>
@@ -437,8 +438,9 @@
       <div class="container">
         <p class="eyebrow eyebrow--break">A week in the heat</p>
         <h2 id="wk-title" class="h2">Can they stay safe<br>and still eat?</h2>
-        <p class="loops__intro">Follow one worker’s money through a heatwave. Build them a package of protection, then try to break it. Protection only counts when the person can actually use it.</p>
-        <div id="wk"></div>
+        <p class="loops__intro">Twelve workers in ten countries. Follow one worker’s money through a heatwave, build them a package of protection, then try to break it. Protection only counts when the person can actually use it. Each one opens in a new tab, so the map stays where you left it.</p>
+        <ul class="wk-launch" id="wk-launch" aria-label="Choose a worker"></ul>
+        <p class="wk-launch__go"><a class="btn btn--teal" href="/a-week-in-the-heat/" target="_blank" rel="noopener">Open the exercise<span class="visually-hidden"> (opens in a new tab)</span> <span aria-hidden="true">↗</span></a></p>
       </div>
     </section>
 
