@@ -131,13 +131,14 @@ const out = {};
       const lv = loopLevers(l), ev = (D.EVIDENCE[l.id] || []);
       h += `<h3 id="${l.id}">${esc(l.name)}</h3><p>${esc(l.summary)}</p>
         <p class="meta">The cycle: ${esc(l.path.map(name).join(" → "))} → back to the start. Evidence: ${l.evidence === "established" ? "well established" : "emerging (each link is evidenced; the full cycle less so)"}.</p>
-        ${(x => x ? `<p><strong>${esc(D.STAKES_LABEL[x.kind])}:</strong> ${esc(x.n)}. ${esc(x.text)} ${ext(x.url, x.by)}</p>` : `<p class="meta">${esc(D.STAKES_LABEL.none)}.</p>`)(D.LOOP_STAKES[l.id])}
+        ${(x => x ? `<p><strong>${esc(D.STAKES_LABEL[x.kind])} (${esc(x.where)}):</strong> ${esc(x.n)}. ${esc(x.text)} ${ext(x.url, x.by)}</p>${x.sea ? `<p><strong>In Southeast Asia (${esc(x.sea.where)}):</strong> ${esc(x.sea.n)}. ${esc(x.sea.text)} ${ext(x.sea.url, x.sea.by)}</p>` : ""}` : `<p class="meta">${esc(D.STAKES_LABEL.none)}.</p>`)(D.LOOP_STAKES[l.id])}
         ${D.LOOP_PLACES[l.id] ? `<p><strong>Where it plays out:</strong> ${esc(D.LOOP_PLACES[l.id])}</p>` : ""}
         ${lv.length ? `<p><strong>Where it breaks:</strong> ${lv.map(v => `<a href="/actions/#${v.id}">${esc(v.title)}</a>`).join(", ")}</p>` : ""}
         ${ev.length ? `<ul>${ev.map(e => `<li>${esc(e.finding)} ${ext(e.url, e.by)}</li>`).join("")}</ul>` : ""}
         <p class="meta"><a href="/#loop-${l.id}">Follow it on the map</a>${l.video ? ` · <a href="/${l.video}">Watch the film (${esc(l.length)})</a>` : ""}</p>`;
       m.push(`#### ${l.name}`, l.summary, `The cycle: ${l.path.map(name).join(" → ")} → back to the start.`,
-        D.LOOP_STAKES[l.id] ? `${D.STAKES_LABEL[D.LOOP_STAKES[l.id].kind]}: ${D.LOOP_STAKES[l.id].n}. ${D.LOOP_STAKES[l.id].text} (${D.LOOP_STAKES[l.id].by}, ${D.LOOP_STAKES[l.id].url})` : `${D.STAKES_LABEL.none}.`, D.LOOP_PLACES[l.id] ? `Where it plays out: ${D.LOOP_PLACES[l.id]}` : "",
+        D.LOOP_STAKES[l.id] ? `${D.STAKES_LABEL[D.LOOP_STAKES[l.id].kind]} (${D.LOOP_STAKES[l.id].where}): ${D.LOOP_STAKES[l.id].n}. ${D.LOOP_STAKES[l.id].text} (${D.LOOP_STAKES[l.id].by}, ${D.LOOP_STAKES[l.id].url})` : `${D.STAKES_LABEL.none}.`,
+        D.LOOP_STAKES[l.id] && D.LOOP_STAKES[l.id].sea ? `In Southeast Asia (${D.LOOP_STAKES[l.id].sea.where}): ${D.LOOP_STAKES[l.id].sea.n}. ${D.LOOP_STAKES[l.id].sea.text} (${D.LOOP_STAKES[l.id].sea.by}, ${D.LOOP_STAKES[l.id].sea.url})` : "", D.LOOP_PLACES[l.id] ? `Where it plays out: ${D.LOOP_PLACES[l.id]}` : "",
         lv.length ? `Where it breaks: ${lv.map(v => v.title).join(", ")}` : "", ...ev.map(e => `- ${e.finding} (${e.by}, ${e.url})`));
     });
   });

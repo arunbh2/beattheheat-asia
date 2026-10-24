@@ -594,11 +594,15 @@ Cooling powered by fossil fuels adds to the warming that makes us need more cool
 
 The cycle: Extreme heat → Energy → Cooling demand peaks → Emissions from cooling rise → back to the start.
 
-What this cycle costs: 3×. The energy used for cooling could triple by 2050 as air conditioners grow from 1.6 billion to 5.6 billion, unless they become more efficient. (International Energy Agency, 2018, https://www.iea.org/reports/the-future-of-cooling)
+What this cycle costs (World): 3×. The energy used for cooling could triple by 2050 as air conditioners grow from 1.6 billion to 5.6 billion, unless they become more efficient. (International Energy Agency, 2018, https://www.iea.org/reports/the-future-of-cooling)
+
+In Southeast Asia (Southeast Asia): 40m → 300m. air conditioners in Southeast Asia between 2017 and 2040, half of them in Indonesia, unless efficiency improves. Cooling could then make up as much as 30% of the region’s peak electricity demand. (International Energy Agency, 2019, https://www.iea.org/reports/the-future-of-cooling-in-southeast-asia)
 
 Where it plays out: Fast-growing cities across South and Southeast Asia, where air-conditioner ownership is rising quickly.
 
 Where it breaks: Clean, efficient cooling
+
+- Southeast Asia’s air conditioners could rise from 40 million in 2017 to 300 million in 2040, half of them in Indonesia. Without more efficient units, cooling could drive as much as 30% of the region’s peak electricity demand. (International Energy Agency, 2019, https://www.iea.org/reports/the-future-of-cooling-in-southeast-asia)
 
 - The world’s stock of air conditioners is set to grow from 1.6 billion to 5.6 billion by 2050, and the energy they use to triple, unless efficiency improves. (International Energy Agency, 2018, https://www.iea.org/reports/the-future-of-cooling)
 
@@ -622,11 +626,15 @@ Heat melts ice. Darker ground and water absorb more sunlight, and the melting sp
 
 The cycle: Extreme heat → Nature and ecosystems → Glacier and snow melt → back to the start.
 
-What this cycle costs: 30–50%. of the region’s glacier ice could be gone by 2100 at 1.5–2 °C of warming, after melting 65% faster in the 2010s than the decade before. (ICIMOD, 2023, https://lib.icimod.org/record/36322)
+What this cycle costs (Hindu Kush Himalaya): 30–50%. of the region’s glacier ice could be gone by 2100 at 1.5–2 °C of warming, after melting 65% faster in the 2010s than the decade before. (ICIMOD, 2023, https://lib.icimod.org/record/36322)
+
+In Southeast Asia (Papua, Indonesia): 99%. of the glacier area on Puncak Jaya, Southeast Asia’s last tropical ice, has gone since 1850. Only about 0.17 km² was left in 2024, and it will very likely disappear around 2030. (Ibel, Mölg and Sommer, The Cryosphere, 2025, https://tc.copernicus.org/articles/19/6629/2025/)
 
 Where it plays out: The Hindu Kush Himalaya, whose snow and ice feed rivers such as the Indus, Ganges and Brahmaputra.
 
 Where it breaks: Deep emission cuts, Cut black carbon
+
+- Puncak Jaya’s glaciers, the last in Southeast Asia, have lost more than 99% of their area since 1850 and about 65% since 2018. About 0.165 km² remained in 2024, and they will very likely be gone around 2030. (Ibel, Mölg and Sommer, The Cryosphere, 2025, https://tc.copernicus.org/articles/19/6629/2025/)
 
 - Glaciers lost ice 65% faster in the 2010s than in the decade before. At 1.5–2 °C of warming, glaciers across the region lose 30–50% of their volume by 2100. (ICIMOD, 2023, https://lib.icimod.org/record/36322)
 
@@ -636,11 +644,15 @@ Heat dries forests into fuel. Fires release carbon and strip away the trees that
 
 The cycle: Extreme heat → Nature and ecosystems → Wildfires → back to the start.
 
-What this cycle costs: +50%. more extreme wildfires are projected by the end of the century, and up to 14% more by 2030. (UNEP and GRID-Arendal, 2022, https://www.unep.org/resources/report/spreading-wildfire-rising-threat-extraordinary-landscape-fires)
+What this cycle costs (World): +50%. more extreme wildfires are projected by the end of the century, and up to 14% more by 2030. (UNEP and GRID-Arendal, 2022, https://www.unep.org/resources/report/spreading-wildfire-rising-threat-extraordinary-landscape-fires)
+
+In Southeast Asia (Indonesia): US$16.1 billion. was the cost to Indonesia of the forest and peatland fires of June to October 2015. (World Bank, 2016, https://documents1.worldbank.org/curated/pt/776101467990969768/pdf/103668-BRI-Cost-of-Fires-Knowledge-Note-PUBLIC-ADD-NEW-SERIES-Indonesia-Sustainable-Landscapes-Knowledge-Note.pdf)
 
 Where it plays out: The dry-season burning belt of northern Thailand, Myanmar and Laos, and Indonesia’s peatlands.
 
 Where it breaks: Deep emission cuts, Fire-smart landscapes
+
+- Indonesia’s forest and peatland fires of June to October 2015 cost the country an estimated US$16.1 billion. (World Bank, 2016, https://documents1.worldbank.org/curated/pt/776101467990969768/pdf/103668-BRI-Cost-of-Fires-Knowledge-Note-PUBLIC-ADD-NEW-SERIES-Indonesia-Sustainable-Landscapes-Knowledge-Note.pdf)
 
 - Climate change and land-use change are making wildfires worse. Extreme fires are projected to rise by up to 14% by 2030 and 50% by the end of the century. (UNEP and GRID-Arendal, 2022, https://www.unep.org/resources/report/spreading-wildfire-rising-threat-extraordinary-landscape-fires)
 
@@ -652,7 +664,7 @@ Air conditioning heats the street, and a hotter city needs even more air conditi
 
 The cycle: Cooling demand peaks → Urban heat islands → back to the start.
 
-What this cycle costs: Up to 7 °C. warmer: how much hotter Singapore’s commercial centre has measured than its outskirts on calm, clear nights. (Cooling Singapore, citing Chow and Roth, 2006, https://www.thegpsc.org/sites/gpsc/files/cooling_singapore_-_digital_urban_climate_twin.pdf)
+What this cycle costs (Singapore): Up to 7 °C. warmer: how much hotter Singapore’s commercial centre has measured than its outskirts on calm, clear nights. (Cooling Singapore, citing Chow and Roth, 2006, https://www.thegpsc.org/sites/gpsc/files/cooling_singapore_-_digital_urban_climate_twin.pdf)
 
 Where it plays out: Dense, high-rise city cores such as Hong Kong, Bangkok and Metro Manila.
 
@@ -672,11 +684,15 @@ Water systems need power and power plants need water. In a heatwave, each failur
 
 The cycle: Power cuts and grid stress → Water shortages → Power plants cut output → back to the start.
 
-What this cycle costs: 14 TWh. of electricity lost in India in 2016 because thermal power plants ran short of water. (World Resources Institute, 2018, https://www.wri.org/insights/40-indias-thermal-power-plants-are-water-scarce-areas-threatening-shutdowns)
+What this cycle costs (India): 14 TWh. of electricity lost in India in 2016 because thermal power plants ran short of water. (World Resources Institute, 2018, https://www.wri.org/insights/40-indias-thermal-power-plants-are-water-scarce-areas-threatening-shutdowns)
+
+In Southeast Asia (Vietnam): US$1.4 billion. was the World Bank’s early estimate of what northern Vietnam’s power cuts cost in May and June 2023, about 0.3% of GDP, after heatwaves pushed up demand and dried hydropower reservoirs. (World Bank estimate, reported by AFP via The Manila Times, 2023, https://manilatimes.net/2023/08/12/business/foreign-business/power-crisis-cost-vietnam-14b-wb/1904920/amp)
 
 Where it plays out: Coal-fired power plants along water-stressed rivers in India.
 
 Where it breaks: Power that doesn’t need water, Backup power for water
+
+- Heatwaves in May and June 2023 pushed up demand while hydropower reservoirs ran low, and rolling blackouts hit northern Vietnam. The World Bank’s early estimate put the cost at about US$1.4 billion, roughly 0.3% of GDP. (World Bank estimate, reported by AFP via The Manila Times, 2023, https://manilatimes.net/2023/08/12/business/foreign-business/power-crisis-cost-vietnam-14b-wb/1904920/amp)
 
 - 14 of India’s 20 largest thermal utilities shut down at least once for lack of water between 2013 and 2016. Water shortages cost 14 TWh of power in 2016. (World Resources Institute, 2018, https://www.wri.org/insights/40-indias-thermal-power-plants-are-water-scarce-areas-threatening-shutdowns)
 
@@ -686,11 +702,15 @@ Dry fields need more water, so farmers pump harder, aquifers fall and the shorta
 
 The cycle: Water shortages → Irrigation demand soars → Groundwater over-pumped → back to the start.
 
-What this cycle costs: 109 km³. of groundwater lost from Rajasthan, Punjab and Haryana in six years (2002–2008), mainly to irrigation, while rainfall stayed close to normal. (Rodell, Velicogna and Famiglietti, Nature, 2009, https://www.nature.com/articles/nature08238)
+What this cycle costs (India): 109 km³. of groundwater lost from Rajasthan, Punjab and Haryana in six years (2002–2008), mainly to irrigation, while rainfall stayed close to normal. (Rodell, Velicogna and Famiglietti, Nature, 2009, https://www.nature.com/articles/nature08238)
+
+In Southeast Asia (Mekong delta, Vietnam): 2.5 cm+. a year: how fast parts of the Mekong delta are sinking as its aquifers are pumped down. (Minderhoud et al., Environmental Research Communications, 2020, https://iopscience.iop.org/article/10.1088/2515-7620/ab5e21)
 
 Where it plays out: Punjab and Haryana in northwest India, where groundwater tables have been falling for decades.
 
 Where it breaks: Smart irrigation and groundwater rules
+
+- Groundwater pumping has sped up the sinking of the Mekong delta, to more than 2.5 cm a year in some areas. (Minderhoud et al., Environmental Research Communications, 2020, https://iopscience.iop.org/article/10.1088/2515-7620/ab5e21)
 
 - Satellites show Rajasthan, Punjab and Haryana lost 109 km³ of groundwater between 2002 and 2008, mainly to irrigation, while rainfall stayed close to normal. (Rodell, Velicogna and Famiglietti, Nature, 2009, https://www.nature.com/articles/nature08238)
 
@@ -700,7 +720,7 @@ Heat and drought kill city trees. Without their shade the streets get hotter, an
 
 The cycle: City trees and parks die → Urban heat islands → back to the start.
 
-What this cycle costs: 76%. of urban tree and shrub species in 164 cities could face temperatures beyond their natural range by 2050, up from 56% today. Risk is highest in cities such as New Delhi and Singapore. (Esperon-Rodriguez et al., Nature Climate Change, 2022, https://www.vibrantcitieslab.com/wordpress/wp-content/uploads/2023/08/climate-change-increases-global-risk-to-urban-forests.pdf)
+What this cycle costs (164 cities worldwide): 76%. of urban tree and shrub species in 164 cities could face temperatures beyond their natural range by 2050, up from 56% today. Risk is highest in cities such as New Delhi and Singapore. (Esperon-Rodriguez et al., Nature Climate Change, 2022, https://www.vibrantcitieslab.com/wordpress/wp-content/uploads/2023/08/climate-change-increases-global-risk-to-urban-forests.pdf)
 
 Where it plays out: Hot, fast-growing cities such as New Delhi and Singapore, where every urban tree species studied is at risk from rising heat.
 
@@ -718,7 +738,7 @@ Heat illness floods clinics. Overwhelmed clinics treat people later, and more ca
 
 The cycle: Heatstroke and heat exhaustion → Health systems overwhelmed → back to the start.
 
-What breaking it saves: 1,190. deaths a year were estimated to be avoided after Ahmedabad’s heat action plan prepared hospitals and warned the public. (Hess et al., Journal of Environmental and Public Health, 2018, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6236972/)
+What breaking it saves (Ahmedabad, India): 1,190. deaths a year were estimated to be avoided after Ahmedabad’s heat action plan prepared hospitals and warned the public. (Hess et al., Journal of Environmental and Public Health, 2018, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6236972/)
 
 Where it plays out: District and city hospitals during South Asia’s pre-monsoon heatwaves.
 
@@ -736,11 +756,15 @@ People who can’t afford to stop working fall ill. Illness costs income, and lo
 
 The cycle: Informal workers can’t stop work → Heatstroke and heat exhaustion → Lost work hours and wages → back to the start.
 
-What this cycle costs: US$1.78 billion. Heat-related illness cost Bangladesh 250 million workdays in 2024, about 0.4% of its GDP. (World Bank, 2025, https://www.worldbank.org/en/news/press-release/2025/09/16/bangladesh-faces-health-and-economic-risks-from-rising-temperature-world-bank)
+What this cycle costs (Bangladesh): US$1.78 billion. Heat-related illness cost Bangladesh 250 million workdays in 2024, about 0.4% of its GDP. (World Bank, 2025, https://www.worldbank.org/en/news/press-release/2025/09/16/bangladesh-faces-health-and-economic-risks-from-rising-temperature-world-bank)
+
+In Southeast Asia (Bangkok, Thailand): 75%. of home-based workers in Bangkok lost at least a day’s work a month to their own or a family member’s heat illness. Nearly 80% of informal workers surveyed cut their hours because of heat. (WIEGO and HomeNet Thailand, 2025, https://www.wiego.org/wp-content/uploads/2025/10/WIEGO-Policy-Brief-33-Climate-Change-and-Heat-Stress.pdf)
 
 Where it plays out: Construction sites, brick kilns, farms and street markets across South and Southeast Asia.
 
 Where it breaks: Heat-safe work, Income protection in heatwaves, Social protection floors
+
+- In a survey of informal workers in Bangkok, nearly 80% had cut their hours because of heat, and 75% of home-based workers lost at least one day of work a month to their own or a family member’s heat illness. (WIEGO and HomeNet Thailand, 2025, https://www.wiego.org/wp-content/uploads/2025/10/WIEGO-Policy-Brief-33-Climate-Change-and-Heat-Stress.pdf)
 
 - Across 2.7 million firms in 23 advanced economies, including Japan and Korea, ten extra days above 35 °C cut yearly labour productivity by 0.3%, and over 1.5% above 40 °C. Very humid places lost 0.75%, more than double the average. Korea has already lost about 0.15% of productivity to added heat since the early 2000s. (OECD Economics Department, Working Paper No. 1828, 2024, https://doi.org/10.1787/19d94638-en)
 
@@ -758,11 +782,15 @@ Treatment costs push families into debt. Debt removes any option to rest, and wo
 
 The cycle: Heatstroke and heat exhaustion → Medical costs and debt → Informal workers can’t stop work → back to the start.
 
-What this cycle costs: 29 million. Indian households faced catastrophic spending on medicines alone in 2011–12. This is the scale of the trap from all illness, not heat alone. (Selvaraj, Farooqui and Karan, BMJ Open, 2018, https://bmjopen.bmj.com/content/8/5/e018020)
+What this cycle costs (India): 29 million. Indian households faced catastrophic spending on medicines alone in 2011–12. This is the scale of the trap from all illness, not heat alone. (Selvaraj, Farooqui and Karan, BMJ Open, 2018, https://bmjopen.bmj.com/content/8/5/e018020)
+
+In Southeast Asia (Cambodia): US$5,800+. was the average microloan in Cambodia in 2024, over four times the median income per person. This is all borrowing, not heat alone, but it is the debt families draw on when illness or a lost harvest strikes. (Human Rights Watch, 2025, https://www.hrw.org/report/2025/09/24/debt-traps/predatory-microfinance-loans-and-exploitation-of-cambodias-indigenous)
 
 Where it plays out: Households without health insurance, where most medical costs are paid out of pocket.
 
 Where it breaks: Heat-safe work, Free care for heat illness
+
+- Cambodia’s average microloan was over US$5,800 in 2024, more than four times the country’s median annual income per person. (Human Rights Watch, 2025, https://www.hrw.org/report/2025/09/24/debt-traps/predatory-microfinance-loans-and-exploitation-of-cambodias-indigenous)
 
 - Medicine costs alone were catastrophic for 11.2% of Indian households in 2011–12, about 29 million households. (Selvaraj, Farooqui and Karan, BMJ Open, 2018, https://bmjopen.bmj.com/content/8/5/e018020)
 
@@ -774,7 +802,7 @@ People who can’t afford to cool fall ill. Illness brings debt, and debt puts c
 
 The cycle: Can’t afford to keep cool → Heatstroke and heat exhaustion → Medical costs and debt → back to the start.
 
-What this cycle costs: 1.12 billion. of the world’s rural and urban poor are at high risk because they lack access to cooling. (Sustainable Energy for All, 2023, https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-global-access-to-cooling-gaps-2023)
+What this cycle costs (World): 1.12 billion. of the world’s rural and urban poor are at high risk because they lack access to cooling. (Sustainable Energy for All, 2023, https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-global-access-to-cooling-gaps-2023)
 
 Where it plays out: Tin-roofed informal settlements in cities such as Dhaka, Karachi and Mumbai.
 
@@ -788,11 +816,15 @@ People forced to move often land in heat-trapping housing, fall ill, lose income
 
 The cycle: Forced migration → Homes that trap heat → Heatstroke and heat exhaustion → Lost work hours and wages → Deepening inequality → back to the start.
 
-What this cycle costs: 40 million. people in South Asia could be forced to move within their own countries by 2050 without action, of up to 216 million worldwide. (World Bank, 2021, https://openknowledge.worldbank.org/handle/10986/36248)
+What this cycle costs (South Asia): 40 million. people in South Asia could be forced to move within their own countries by 2050 without action, of up to 216 million worldwide. (World Bank, 2021, https://openknowledge.worldbank.org/handle/10986/36248)
+
+In Southeast Asia (East Asia and the Pacific): 49 million. people in East Asia and the Pacific could be forced to move within their own countries by 2050 without action. (World Bank, 2021, https://www.worldbank.org/en/news/press-release/2021/09/13/climate-change-could-force-216-million-people-to-migrate-within-their-own-countries-by-2050)
 
 Where it plays out: Migrant settlements on the edges of fast-growing cities such as Dhaka.
 
 Where it breaks: Income protection in heatwaves, Cool, affordable housing
+
+- Without action, as many as 49 million people in East Asia and the Pacific could become internal climate migrants by 2050. (World Bank, 2021, https://www.worldbank.org/en/news/press-release/2021/09/13/climate-change-could-force-216-million-people-to-migrate-within-their-own-countries-by-2050)
 
 - Without action, climate change could force up to 216 million people to move within their own countries by 2050, including about 40 million in South Asia. (World Bank, 2021, https://openknowledge.worldbank.org/handle/10986/36248)
 
@@ -802,7 +834,9 @@ Children pulled out of school earn less as adults, and poorer families pull more
 
 The cycle: Children pulled out of school → Lower skills and earnings → Deepening inequality → back to the start.
 
-What this cycle costs: 171 million. students had their schooling disrupted by heatwaves in 2024. South Asia was the most affected region. (UNICEF, 2025, https://www.unicef.org/reports/learning-interrupted-global-snapshot-2024)
+What this cycle costs (World): 171 million. students had their schooling disrupted by heatwaves in 2024. South Asia was the most affected region. (UNICEF, 2025, https://www.unicef.org/reports/learning-interrupted-global-snapshot-2024)
+
+In Southeast Asia (Philippines): 3.6 million. students in the Philippines lost classroom learning in early April 2024, when 5,288 schools switched to remote learning as the heat index reached danger levels. (AFP via Malay Mail, April 2024, https://www.malaymail.com/news/world/2024/04/05/thousands-of-philippine-schools-suspend-in-person-classes-due-to-heat-says-education-dept/127511)
 
 Where it plays out: School systems that closed classrooms during the 2024 heatwaves, including in the Philippines and Bangladesh.
 
@@ -822,11 +856,15 @@ Hot nights wreck sleep. Poor sleep frays mental health, and stress makes sleep h
 
 The cycle: Sleepless hot nights → Mental health suffers → back to the start.
 
-What this cycle costs: 70%. of India’s districts gained five or more very warm nights each summer over the last decade. Mumbai gained 15. (Council on Energy, Environment and Water (CEEW), 2025, https://www.ceew.in/sites/default/files/ceew-how-extreme-heat-is-impacting-india-final-web-file.pdf)
+What this cycle costs (India): 70%. of India’s districts gained five or more very warm nights each summer over the last decade. Mumbai gained 15. (Council on Energy, Environment and Water (CEEW), 2025, https://www.ceew.in/sites/default/files/ceew-how-extreme-heat-is-impacting-india-final-web-file.pdf)
+
+In Southeast Asia (Singapore): 76 → most nights. Singapore has averaged 76 warm nights a year, above 26.3 °C, over the last 40 years. By the end of the century such nights could come on most nights of the year. (National Environment Agency, Singapore, 2024, https://www.nea.gov.sg/media/news/news/index/latest-climate-projections-for-singapore-show-intensifying-urban-heat-and-more-wet-dry-extremes)
 
 Where it plays out: Tropical cities whose nights stay hot, such as Bangkok, Chennai and Ho Chi Minh City.
 
 Where it breaks: Cool nights and support
+
+- Singapore averaged 76 warm nights a year (above 26.3 °C) over the last 40 years; by the end of the century such nights could occur on most nights of the year. (National Environment Agency, Singapore, 2024, https://www.nea.gov.sg/media/news/news/index/latest-climate-projections-for-singapore-show-intensifying-urban-heat-and-more-wet-dry-extremes)
 
 - Data from 47,628 people in 68 countries shows hot nights shorten sleep, with bigger losses for older people and in lower-income countries. (Minor et al., One Earth, 2022, https://orbit.dtu.dk/en/publications/rising-temperatures-erode-human-sleep-globally/)
 
@@ -842,7 +880,7 @@ Green space follows wealth. When greening reaches poorer districts without prote
 
 The cycle: Deepening inequality → Green space follows wealth → Greening pushes people out → Homes that trap heat → back to the start.
 
-What this cycle costs: 17 of 28. cities studied saw greening in the 1990s and 2000s strongly linked to gentrification between 2000 and 2016. (Anguelovski et al., Nature Communications, 2022, https://doi.org/10.1038/s41467-022-31572-1)
+What this cycle costs (28 cities in North America and Europe): 17 of 28. cities studied saw greening in the 1990s and 2000s strongly linked to gentrification between 2000 and 2016. (Anguelovski et al., Nature Communications, 2022, https://doi.org/10.1038/s41467-022-31572-1)
 
 Where it plays out: Riverbanks, canals and old inner-city sites turned into parks, as studied in Bangkok and Seoul.
 
@@ -862,7 +900,7 @@ Heat empties shops and small firms miss repayments. Banks tighten credit, so fir
 
 The cycle: Small businesses close → Loan repayments slip → Borrowing costs rise → back to the start.
 
-What this cycle costs: 49%. of 721 Delhi street vendors surveyed lost income in the 2024 heatwaves, and 80% saw fewer customers. (Greenpeace India and National Hawkers Federation, 2024, https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/)
+What this cycle costs (Delhi, India): 49%. of 721 Delhi street vendors surveyed lost income in the 2024 heatwaves, and 80% saw fewer customers. (Greenpeace India and National Hawkers Federation, 2024, https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/)
 
 Where it plays out: Market towns and city high streets in heat-exposed districts, and lenders whose loans are collected door to door, as in microfinance across northern and central India.
 
@@ -886,7 +924,7 @@ A failed harvest pushes farmers into debt. Debt leaves less for seed, water and 
 
 The cycle: Failing harvests → Farmers fall into debt → back to the start.
 
-What this cycle costs: −10%. rice yield for each 1 °C rise in growing-season night temperature, at the International Rice Research Institute’s farm in the Philippines. (Peng et al., PNAS, 2004, https://doi.org/10.1073/pnas.0403720101)
+What this cycle costs (Philippines): −10%. rice yield for each 1 °C rise in growing-season night temperature, at the International Rice Research Institute’s farm in the Philippines. (Peng et al., PNAS, 2004, https://doi.org/10.1073/pnas.0403720101)
 
 Where it plays out: Rain-fed farming districts of India, Pakistan and Bangladesh, where a failed season often means borrowing from moneylenders.
 
@@ -906,7 +944,7 @@ Heat deaths go uncounted, so heat protection goes unfunded, so more people die u
 
 The cycle: Heat deaths → Heat deaths under-recorded → Heat protection underfunded → back to the start.
 
-What this cycle costs: 48,385 vs 185. suspected heatstroke cases against confirmed heatstroke deaths in India in 2024, up to 28 July: most of the toll goes uncounted. (Ministry of Health and Family Welfare, reply in India’s Rajya Sabha, 2024, https://rsdebate.nic.in/bitstream/123456789/750681/1/PQ_265_06082024_U1693_p358_p362.pdf)
+What this cycle costs (India): 48,385 vs 185. suspected heatstroke cases against confirmed heatstroke deaths in India in 2024, up to 28 July: most of the toll goes uncounted. (Ministry of Health and Family Welfare, reply in India’s Rajya Sabha, 2024, https://rsdebate.nic.in/bitstream/123456789/750681/1/PQ_265_06082024_U1693_p358_p362.pdf)
 
 Where it plays out: Much of Asia, where death certificates rarely record heat as a cause.
 
@@ -928,11 +966,15 @@ Stretched budgets skimp on prevention. Emergencies multiply, and costly emergenc
 
 The cycle: Public budgets strained → Heat protection underfunded → Emergency services stretched → back to the start.
 
-What breaking it saves: US$3–16 billion. in losses could be avoided every year by spending US$800 million on early warning systems in developing countries. (Global Commission on Adaptation, 2019, https://openknowledge.worldbank.org/entities/publication/7713887e-5c0c-5fce-9dd0-c18a8875736c)
+What breaking it saves (Developing countries): US$3–16 billion. in losses could be avoided every year by spending US$800 million on early warning systems in developing countries. (Global Commission on Adaptation, 2019, https://openknowledge.worldbank.org/entities/publication/7713887e-5c0c-5fce-9dd0-c18a8875736c)
+
+In Southeast Asia (Bangkok, Thailand): Up to 0.7%. of Bangkok’s economy is what heat deaths cost, an estimated 593 a year in 2016–18. The upper estimate is more than the city’s whole public health budget for 2020. (Park and Rubinyi, World Bank working paper, 2026, https://openknowledge.worldbank.org/entities/publication/d8ba6f53-d778-47d2-b4a6-37dff7db2466/full)
 
 Where it plays out: Disaster budgets designed for floods and cyclones rather than heat.
 
 Where it breaks: Dedicated heat budgets, Anticipatory action
+
+- About 593 deaths a year in Bangkok in 2016–18 were attributable to heat. Valued at 0.1–0.7% of the city’s economy, the upper estimate exceeds the city’s 2020 public health budget. (Park and Rubinyi, World Bank working paper, 2026, https://openknowledge.worldbank.org/entities/publication/d8ba6f53-d778-47d2-b4a6-37dff7db2466/full)
 
 - US$800 million spent on early warning systems in developing countries could avoid US$3–16 billion in losses every year. (Global Commission on Adaptation, 2019, https://openknowledge.worldbank.org/entities/publication/7713887e-5c0c-5fce-9dd0-c18a8875736c)
 
@@ -948,7 +990,7 @@ As insurers retreat, public budgets absorb the losses, protection is cut, and th
 
 The cycle: Insurance losses and retreat → Public budgets strained → Heat protection underfunded → back to the start.
 
-What this cycle costs: 92%. of Asia’s US$65 billion in natural catastrophe losses in 2025 was uninsured, falling on households, businesses and governments. (Swiss Re Institute sigma, reported by Global Reinsurance, https://www.globalreinsurance.com/home/swiss-re-sigma-protection-gap-laid-bare-as-asian-cat-losses-hit-65bn/1458440.article)
+What this cycle costs (Asia): 92%. of Asia’s US$65 billion in natural catastrophe losses in 2025 was uninsured, falling on households, businesses and governments. (Swiss Re Institute sigma, reported by Global Reinsurance, https://www.globalreinsurance.com/home/swiss-re-sigma-protection-gap-laid-bare-as-asian-cat-losses-hit-65bn/1458440.article)
 
 Where it plays out: Fast-growing Asian economies where few households or small businesses carry insurance.
 

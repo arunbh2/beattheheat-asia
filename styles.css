@@ -1422,3 +1422,7 @@ body.film-open { overflow: hidden; }
 .stakes__src { font-size: .8rem; color: var(--grey-700); }
 .stakes__src a { color: inherit; display: inline-block; padding: 2px 0; }
 .stakes--none { font-size: .8rem; font-style: italic; color: var(--grey-700); background: none; border-left-color: var(--grey-300, #CFCAC2); padding: 4px 12px; }
+.stakes__where { display: inline-block; vertical-align: middle; margin-left: 10px; padding: 2px 8px; border-radius: 999px; background: rgba(22,32,43,.08); font-family: var(--font-body, inherit); font-size: .72rem; font-weight: 700; letter-spacing: .02em; color: var(--grey-700); }
+.stakes__sea { margin-top: 10px; padding-top: 10px; border-top: 1px dashed rgba(158,26,44,.3); }
+.stakes--saves .stakes__sea { border-top-color: rgba(29,110,100,.3); }
+.stakes__n--sea { font-size: 1.5rem; }

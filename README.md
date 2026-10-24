@@ -116,7 +116,7 @@ The “Cooling options” section, just before “Plan a response”, shows what
 
 ## What each cycle costs (part 24 of `data.js`)
 
-`LOOP_STAKES` gives each vicious cycle one headline figure: what it costs while it keeps turning (`kind: "cost"`), or what breaking it has been shown to save (`kind: "saves"`). It appears in the loop's first step on the map, in the Vicious cycles section and on `/loops/`. Each figure must come from a source already listed for that loop in `EVIDENCE`. A loop with no solid figure is left out, and the site says its cost is not yet measured.
+`LOOP_STAKES` gives each vicious cycle one headline figure: what it costs while it keeps turning (`kind: "cost"`), or what breaking it has been shown to save (`kind: "saves"`). It appears in the loop's first step on the map, in the Vicious cycles section and on `/loops/`. Each figure must come from a source already listed for that loop in `EVIDENCE`. A loop with no solid figure is left out, and the site says its cost is not yet measured. `where` names the place a figure comes from, and `sea` adds a second figure from Southeast Asia where the first comes from elsewhere. Add any new figure to `EVIDENCE` too.
 
 ## Visit counting (part 22 of `data.js`)
 
