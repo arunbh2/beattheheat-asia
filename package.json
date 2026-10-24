@@ -1,0 +1,12 @@
+{
+  "name": "beattheheat-asia",
+  "private": true,
+  "description": "Builds the plain-text pages, AI files and printable one-pagers for BeatTheHeat.Asia from data.js.",
+  "scripts": {
+    "build": "node tools/build-static.js"
+  },
+  "devDependencies": {
+    "qrcode": "1.5.4"
+  },
+  "license": "MIT"
+}
