@@ -118,6 +118,10 @@ The “Cooling options” section, just before “Plan a response”, shows what
 
 `LOOP_STAKES` gives each vicious cycle one headline figure: what it costs while it keeps turning (`kind: "cost"`), or what breaking it has been shown to save (`kind: "saves"`). It appears in the loop's first step on the map, in the Vicious cycles section and on `/loops/`. Each figure must come from a source already listed for that loop in `EVIDENCE`. A loop with no solid figure is left out, and the site says its cost is not yet measured. `where` names the place a figure comes from, and `sea` adds a second figure from Southeast Asia where the first comes from elsewhere. Add any new figure to `EVIDENCE` too.
 
+## Your city (part 25 of `data.js`)
+
+`CITY_PROFILES` gives each of the ten live cities a view of its own: a line about the city, whether it has a heat action plan (`hap.status`: `plan`, `building` or `none`, with sources), the vicious cycles the evidence ties to it (each with a one-line reason drawn from evidence already on the site), the groups hit hardest, worked plans and organisations already at work. The section draws a map of the cities on `images/asia-map.svg` (Natural Earth outlines, public domain) with each dot coloured by today’s feels-like temperature. Links like `beattheheat.asia/#city-dhaka` open a city directly, and `/cities/` has a text page for each one. To add a city, add it to `LIVE_CITIES` and `CITY_PROFILES`, then run `node tools/build-static.js`.
+
 ## Visit counting (part 22 of `data.js`)
 
 Visits are counted with [GoatCounter](https://www.goatcounter.com/), which uses no cookies and collects no personal data. `SITE_ANALYTICS.goatcounter` holds the counter’s code; leave it empty (`""`) to switch counting off, and nothing is loaded. As well as page views, `track()` in `script.js` records a few anonymous events, each named for what it counts: films and explainers watched (`watch-…`), plan buttons (`plan-print`, `plan-copy`, `plan-map`), worked examples loaded, forecast checks by city, cooling options added to a plan, and briefs opened. The privacy note in “How this map works” describes this.
@@ -136,7 +140,7 @@ The heat network has a filter for **Banks, regulators and microfinance**: centra
 
 The map is drawn with JavaScript, which most AI crawlers (and some search engines) do not run. So the same content is also published as plain pages that anyone, or any crawler, can read:
 
-- `/the-web/`, `/loops/`, `/actions/`, `/who-is-at-risk/`, `/cooling-options/`, `/worked-plans/`, `/glossary/` and `/heat-network/`, linked from the footer;
+- `/the-web/`, `/loops/`, `/actions/`, `/who-is-at-risk/`, `/cooling-options/`, `/worked-plans/`, `/glossary/`, `/heat-network/` and `/cities/` (with a page per city), linked from the footer;
 - `llms.txt` (a short guide for AI systems) and `llms-full.txt` (the whole map as text);
 - `sitemap.xml`, and `robots.txt`, which welcomes search engines and AI crawlers (GPTBot, ClaudeBot, PerplexityBot, Google-Extended and others).
 

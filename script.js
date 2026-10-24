@@ -1077,7 +1077,7 @@
     else if (act === "prev") { state.step--; renderStep(); }
   }
   document.addEventListener("click", ev => {
-    if (ev.target.closest("#panel, #guide, #loops, #web-list, #start, #who-holds, #at-risk, #stalls, #cooling, #network, #breakbar, #day, #path-form, .intro")) handleAction(ev);
+    if (ev.target.closest("#panel, #guide, #loops, #web-list, #start, #who-holds, #at-risk, #stalls, #cooling, #city, #network, #breakbar, #day, #path-form, .intro")) handleAction(ev);
   });
   document.addEventListener("keydown", ev => {
     if (ev.key === "Escape" && (state.selected || state.story || state.inst || state.pkg)) { clearSelection(); fitAll(); }
@@ -2274,6 +2274,137 @@
   }
   const clamp01 = x => Math.max(0, Math.min(1, x));
 
+  /* ======================= YOUR CITY ======================= */
+  // a map of the ten live cities and, for the one picked, its heat now, its plan, the cycles turning there and who is at work
+  const CITIES = typeof CITY_PROFILES !== "undefined" ? CITY_PROFILES : [];
+  const cityById = Object.fromEntries(CITIES.map(p => [p.id, p]));
+  const MAPBOX = { lon0: 64, lon1: 129, lat0: -12, lat1: 34 };   // matches images/asia-map.svg (1000 × 721)
+  const LABEL_LEFT = new Set(["ahmedabad", "mumbai", "manila", "delhi"]);
+  const HEAT_STOPS = [[0, [61, 191, 174]], [0.45, [245, 166, 35]], [0.7, [242, 100, 48]], [1, [215, 38, 61]]];
+  function heatColor(v) {
+    const t = clamp01((v - 20) / 35);
+    for (let i = 1; i < HEAT_STOPS.length; i++) if (t <= HEAT_STOPS[i][0]) {
+      const [a, ca] = HEAT_STOPS[i - 1], [b, cb] = HEAT_STOPS[i], k = (t - a) / (b - a);
+      return `rgb(${ca.map((c, j) => Math.round(c + (cb[j] - c) * k)).join(",")})`;
+    }
+    return "rgb(215,38,61)";
+  }
+  let cityLive = null, cityNow = null;
+
+  function cityForecast(d) {
+    if (!d || !d.days || !d.days.length) return "";
+    const days = d.days.slice(0, 7), max = Math.max(...days.map(x => x.feelsMax)), min = Math.min(...days.map(x => x.feelsMax));
+    const lo = Math.min(25, Math.floor(min - 2)), hi = Math.max(lo + 10, Math.ceil(max + 1));
+    const W = 320, H = 120, bw = W / days.length;
+    const bars = days.map((x, i) => {
+      const h = Math.max(4, (x.feelsMax - lo) / (hi - lo) * (H - 34)), y = H - 18 - h, day = new Date(x.date + "T12:00:00Z").toLocaleDateString("en-GB", { weekday: "short", timeZone: "UTC" });
+      return `<rect x="${(i * bw + 6).toFixed(1)}" y="${y.toFixed(1)}" width="${(bw - 12).toFixed(1)}" height="${h.toFixed(1)}" rx="3" fill="${heatColor(x.feelsMax)}"/>
+        <text x="${(i * bw + bw / 2).toFixed(1)}" y="${(y - 4).toFixed(1)}" class="cf__v">${Math.round(x.feelsMax)}°</text>
+        <text x="${(i * bw + bw / 2).toFixed(1)}" y="${H - 4}" class="cf__d">${esc(day)}</text>`;
+    }).join("");
+    const label = "Feels-like maximum for the next 7 days: " + days.map(x => `${x.date.slice(5)} ${Math.round(x.feelsMax)} °C`).join(", ");
+    return `<figure class="cf"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(label)}">${bars}</svg>
+      <figcaption>Feels-like maximum, next 7 days (°C)</figcaption></figure>`;
+  }
+
+  function renderCityPanel(id) {
+    const p = cityById[id], c = LIVE.find(x => x.id === id), box = document.getElementById("city-panel");
+    if (!p || !c || !box) return;
+    const d = cityLive && cityLive.cities[id], ok = d && liveAge(d) < LIVE_STALE;
+    const orgs = p.orgs.map(o => ORGS.find(x => x.id === o)).filter(Boolean);
+    const exs = p.examples.map(e => EXAMPLES.find(x => x.id === e)).filter(Boolean);
+    const risks = p.risk.map(r => AT_RISK.find(x => x.id === r)).filter(Boolean);
+    const stake = l => typeof LOOP_STAKES !== "undefined" && LOOP_STAKES[l] ? LOOP_STAKES[l] : null;
+    box.innerHTML = `
+      <div class="cp__head">
+        <h3 class="cp__name">${esc(c.name)}<span>${esc(c.country)}</span></h3>
+        <p class="cp__tag">${esc(p.tagline)}</p>
+      </div>
+      <div class="cp__grid">
+        <div class="cp__card cp__now">
+          <p class="cp__k">Right now</p>
+          ${ok ? `<p class="cp__t" style="--heat:${heatColor(d.feels)}">${Math.round(d.t)}<span> °C</span></p>
+            <p class="cp__f">Feels like <b>${deg(d.feels)}</b> · humidity ${Math.round(d.rh)}%</p>${cityForecast(d)}`
+            : `<p class="cp__none">${cityLive ? "Live reading unavailable just now." : "Loading live readings…"}</p>`}
+          <p class="cp__links">Official warnings: ${extLink(c.warn.url, c.warn.label)}${FP ? ` · ${extLink(FP.map.url, FP.cardLink)}` : ""}</p>
+        </div>
+        <div class="cp__card cp__hap cp__hap--${p.hap.status}">
+          <p class="cp__k">Heat action plan</p>
+          <p class="cp__status"><span class="cp__dot" aria-hidden="true"></span>${esc(CITY_HAP[p.hap.status])}</p>
+          <p class="cp__text">${esc(p.hap.text)}</p>
+          <p class="cp__src">Sources: ${p.hap.sources.map(s => extLink(s.url, s.label)).join(" · ")}</p>
+          <p class="cp__links"><a href="#plan">Draft a plan for ${esc(c.name)}</a></p>
+        </div>
+      </div>
+      <h4 class="cp__h">Vicious cycles the evidence ties to ${esc(c.name)} <span>${p.loops.length}</span></h4>
+      <ul class="cp__loops">${p.loops.map(x => { const l = loopById[x.id], s = stake(x.id); if (!l) return "";
+        return `<li><button class="cp__loop" data-story="${l.id}">
+          <span class="cp__ring" aria-hidden="true"></span>
+          <span class="cp__ln">${esc(l.name)}</span>
+          <span class="cp__why">${esc(x.why)}</span>
+          ${l.levers.length ? `<span class="cp__break">Break it: ${esc(leverById[l.levers[0]].title)}${l.levers.length > 1 ? ` and ${l.levers.length - 1} more` : ""}</span>` : ""}
+          <span class="cp__go">Follow it on the map →</span></button></li>`; }).join("")}</ul>
+      <div class="cp__grid">
+        <div class="cp__card">
+          <p class="cp__k">Who heat hits hardest here</p>
+          <ul class="cp__chips">${risks.map(r => `<li><a href="#risk-${r.id}">${esc(r.name)}</a></li>`).join("")}</ul>
+          ${exs.length ? `<p class="cp__k cp__k--gap">A worked plan to learn from</p>
+            ${exs.map(x => `<button class="cp__ex" data-city-example="${x.id}"><b>${esc(x.title)}</b><span>${esc(x.place)} · ${esc(x.year)} · open it in Plan a response</span></button>`).join("")}`
+            : `<p class="cp__note">No worked plan from ${esc(c.name)} on the map yet. If you know one, tell us.</p>`}
+        </div>
+        <div class="cp__card">
+          <p class="cp__k">Already at work here <span>${orgs.length}</span></p>
+          <ul class="cp__orgs">${orgs.map(o => `<li>${extLink(o.url, o.name)}<p>${esc(o.does)}</p></li>`).join("")}</ul>
+          <p class="cp__note">Listing does not imply partnership, affiliation or endorsement.</p>
+        </div>
+      </div>
+      <p class="cp__foot">Share this city: <a href="#city-${p.id}">beattheheat.asia/#city-${p.id}</a> · <a href="/cities/${p.id}/">Read it as a page</a></p>`;
+  }
+
+  function cityDots() {
+    const map = document.getElementById("city-map"); if (!map) return;
+    map.querySelectorAll(".cm__dot").forEach(b => {
+      const id = b.dataset.city, d = cityLive && cityLive.cities[id], ok = d && liveAge(d) < LIVE_STALE;
+      b.style.setProperty("--heat", ok ? heatColor(d.feels) : "#A9B0BA");
+      b.querySelector(".cm__v").textContent = ok ? Math.round(d.feels) + "°" : "";
+      b.classList.toggle("is-on", id === cityNow);
+    });
+    document.querySelectorAll("#city-picks [data-city]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.city === cityNow)));
+  }
+
+  function showCity(id, focus) {
+    if (!cityById[id]) return;
+    cityNow = id; renderCityPanel(id); cityDots(); track("city-" + id);
+    if (focus) { const h = document.querySelector("#city-panel .cp__name"); if (h) { h.tabIndex = -1; h.focus({ preventScroll: true });
+      // on narrow screens the dashboard sits under the map, so bring it into view
+      if (window.matchMedia("(max-width: 900px)").matches) document.getElementById("city-panel").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" }); } }
+  }
+
+  function renderCity() {
+    const sec = document.getElementById("city"), map = document.getElementById("city-map"), picks = document.getElementById("city-picks");
+    if (!sec || !map || !CITIES.length) return;
+    const pos = c => ({ x: (c.lon - MAPBOX.lon0) / (MAPBOX.lon1 - MAPBOX.lon0) * 100, y: (MAPBOX.lat1 - c.lat) / (MAPBOX.lat1 - MAPBOX.lat0) * 100 });
+    map.innerHTML = `<img src="images/asia-map.svg" alt="" class="cm__base" width="1000" height="721">` + CITIES.map(p => {
+      const c = LIVE.find(x => x.id === p.id); if (!c) return ""; const q = pos(c);
+      return `<button type="button" class="cm__dot${LABEL_LEFT.has(p.id) ? " cm__dot--left" : ""}" data-city="${p.id}" tabindex="-1" aria-hidden="true" style="left:${q.x.toFixed(2)}%;top:${q.y.toFixed(2)}%">
+        <span class="cm__pin"></span><span class="cm__lab">${esc(c.name)}<span class="cm__v"></span></span></button>`;
+    }).join("");
+    picks.innerHTML = CITIES.map(p => { const c = LIVE.find(x => x.id === p.id); return c ? `<li><button type="button" data-city="${p.id}" aria-pressed="false">${esc(c.name)}<span class="cp__pill cp__pill--${p.hap.status}" title="${esc(CITY_HAP[p.hap.status])}"></span></button></li>` : ""; }).join("");
+    const legend = document.getElementById("city-legend");
+    if (legend) legend.innerHTML = Object.entries(CITY_HAP).map(([k, v]) => `<li><span class="cp__pill cp__pill--${k}" aria-hidden="true"></span>${esc(v)}</li>`).join("");
+    sec.addEventListener("click", ev => {
+      const b = ev.target.closest("[data-city]"); if (b) { showCity(b.dataset.city, b.closest("#city-picks") !== null); setHash("city-" + b.dataset.city); return; }
+      const ex = ev.target.closest("[data-city-example]");
+      if (ex) { loadExample(ex.dataset.cityExample); const pl = document.getElementById("plan"); if (pl) pl.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" }); }
+    });
+    const hash = decodeURIComponent(location.hash.slice(1));
+    showCity(hash.startsWith("city-") && cityById[hash.slice(5)] ? hash.slice(5) : CITIES[0].id);
+    if (hash.startsWith("city-") && cityById[hash.slice(5)]) setTimeout(() => sec.scrollIntoView({ block: "start" }), 50);
+    const load = () => liveFetch().then(data => { cityLive = data; renderCityPanel(cityNow); cityDots(); }, () => { cityLive = { cities: {} }; renderCityPanel(cityNow); cityDots(); });
+    if ("IntersectionObserver" in window) { const io = new IntersectionObserver(es => { if (es.some(e => e.isIntersecting)) { io.disconnect(); load(); } }, { rootMargin: "800px 0px" }); io.observe(sec); }
+    else load();
+  }
+
   /* ======================= START HERE ======================= */
   // what people want to do, an optional role (an institution from part 5), and a short path through the site
   const INTENTS = typeof START_INTENTS !== "undefined" ? START_INTENTS : [];
@@ -2455,6 +2586,7 @@
     renderStalls();
     renderCooling();
     renderNow();
+    renderCity();
     renderStart();
     renderList();
     renderStats();

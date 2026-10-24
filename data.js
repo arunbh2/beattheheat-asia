@@ -2322,3 +2322,98 @@ const LOOP_STAKES = {
   protection: { kind: "cost", n: "92%", text: "of Asia’s US$65 billion in natural catastrophe losses in 2025 was uninsured, falling on households, businesses and governments.", by: "Swiss Re Institute sigma, reported by Global Reinsurance", url: "https://www.globalreinsurance.com/home/swiss-re-sigma-protection-gap-laid-bare-as-asian-cat-losses-hit-65bn/1458440.article", where: "Asia" }
 };
 const STAKES_LABEL = { cost: "What this cycle costs", saves: "What breaking it saves", none: "What this cycle costs is not yet measured" };
+
+/* ---------- 25. YOUR CITY ---------- */
+// One profile for each live city (ids match LIVE_CITIES). hap.status: "plan" (a city plan in force), "building" (parts in
+// place, no full plan found), "none" (no city plan found). loops: the cycles the site's evidence ties to this city or
+// country, with why in a sentence; orgs, examples and risk point to ids elsewhere in this file.
+const CITY_HAP = { plan: "Heat plan in force", building: "Parts in place, no full plan found", none: "No city heat plan found" };
+const CITY_PROFILES = [
+  { id: "singapore", tagline: "A city-state with hot nights, dense towers and an early national heat stress advisory.",
+    hap: { status: "plan", text: "Singapore launched a national Heat Stress Advisory in July 2023. It rates heat stress as low, moderate or high from the wet-bulb globe temperature, and tells people what to do at each level.",
+      sources: [{ label: "Ministry of Sustainability and the Environment, 2023", url: "https://mse.gov.sg/latest-news/press-release-heat-stress-advisory" }] },
+    loops: [
+      { id: "sleep", why: "Singapore has averaged 76 warm nights a year over four decades; by 2100 they could come on most nights." },
+      { id: "cooling", why: "The commercial centre has measured up to about 7 °C warmer than the outskirts on calm, clear nights." },
+      { id: "deadgreen", why: "Among the cities where the most urban tree species already face temperatures beyond their range." },
+      { id: "invisible", why: "Workplace monitors found more heat stress than nearby weather stations reported." } ],
+    orgs: ["nea", "mom", "smu", "nrfsg", "mas", "c40"], examples: ["singapore"], risk: ["workers", "older"] },
+  { id: "bangkok", tagline: "A tropical megacity where heat costs lives, livelihoods and a share of the city’s economy.",
+    hap: { status: "plan", text: "For the 2026 hot season Bangkok opened 304 cooling centres in schools, health centres and district offices, under a heat management plan developed with the World Bank.",
+      sources: [{ label: "Government of Thailand, 2026", url: "https://thailand.go.th/issue-focus-detail/bangkok-launches-304-cooling-centers-to-combat-extreme-heat" },
+        { label: "World Bank, Shaping a Cooler Bangkok, 2025", url: "https://www.worldbank.org/en/country/thailand/publication/shaping-a-cooler-bangkok-tackling-urban-heat-for-a-more-livable-city" }] },
+    loops: [
+      { id: "poverty", why: "Nearly 80% of informal workers surveyed cut their hours in the heat; 75% of home-based workers lost a day’s work a month to heat illness." },
+      { id: "reactive", why: "Heat deaths, about 593 a year, cost up to 0.7% of the city’s economy: more than its 2020 public health budget." },
+      { id: "sleep", why: "One of the tropical cities whose nights stay hot." },
+      { id: "greendisplace", why: "Fieldwork is tracing how green urban renewal affects the city’s lower-income residents." } ],
+    orgs: ["homenet", "bot", "undp", "adb"], examples: [], risk: ["workers", "settlements"] },
+  { id: "hanoi", tagline: "A fast-growing northern capital whose power and water strain together in the heat.",
+    hap: { status: "none", text: "No city heat action plan found. From 2018 to 2021 the Viet Nam Red Cross ran an early-action plan for heatwaves in 15 of Hanoi’s wards, triggered by a heat-index forecast.",
+      sources: [{ label: "Anticipation Hub", url: "https://www.anticipation-hub.org/experience/anticipatory-action-in-the-world/vietnam/fbf-ready-reducing-heat-waves-impacts-on-the-vulnerable-populations-of-hanoi" }] },
+    loops: [
+      { id: "energywater", why: "In May and June 2023 heat drove demand up as hydropower reservoirs ran low; blackouts in the north cost about US$1.4 billion." },
+      { id: "global", why: "Southeast Asia’s air conditioners could rise from 40 million to 300 million by 2040." } ],
+    orgs: ["sbv"], examples: [], risk: ["workers"] },
+  { id: "manila", tagline: "A dense, humid metropolis where heat closes schools and pushes the heat index into danger.",
+    hap: { status: "building", text: "In Metro Manila, Quezon City has set up a city Heat Action Team, named chief heat action officers and opened 32 libraries as cooling centres. Its full heat action plan is still being developed.",
+      sources: [{ label: "Quezon City Government", url: "https://quezoncity.gov.ph/qc-beefs-up-action-vs-extreme-heat-designates-chief-heat-action-officers/" }] },
+    loops: [
+      { id: "school", why: "In April 2024, 5,288 schools in the Philippines moved to remote learning, affecting more than 3.6 million students." },
+      { id: "cooling", why: "One of the dense, high-rise city cores where air-conditioner waste heat adds to the night." },
+      { id: "farmdebt", why: "Rice yields in the Philippines fell about 10% for each 1 °C rise in growing-season night temperature." } ],
+    orgs: ["pagasa", "deped"], examples: [], risk: ["workers", "settlements"] },
+  { id: "jakarta", tagline: "A sinking, sprawling capital in the country where half of Southeast Asia’s air conditioners could be.",
+    hap: { status: "building", text: "No standalone heat action plan found. Jakarta’s Climate Action Plan 2021–2050 aims to reduce its vulnerability to extreme heat, and in October 2025 the governor told health facilities to prepare for heat illness.",
+      sources: [{ label: "C40 Cities, 2025", url: "https://www.c40.org/wp-content/uploads/2025/09/RfP_RF_Jakarta.pdf" },
+        { label: "Antara, 2025", url: "https://www.antaranews.com/berita/5178905/pramono-instruksikan-mitigasi-dampak-cuaca-panas-ekstrem-di-jakarta" }] },
+    loops: [
+      { id: "global", why: "Half of Southeast Asia’s projected 300 million air conditioners in 2040 could be in Indonesia." },
+      { id: "fire", why: "Indonesia’s 2015 forest and peat fires cost an estimated US$16.1 billion." },
+      { id: "deadgreen", why: "Among the hot, fast-growing cities where urban trees are at risk." } ],
+    orgs: ["ojk", "komida", "nusantarafund"], examples: [], risk: ["settlements", "workers"] },
+  { id: "delhi", tagline: "A capital of extreme pre-monsoon heat, street trade and falling groundwater.",
+    hap: { status: "plan", text: "Delhi launched its 2025 Heat Action Plan in April 2025, with graded heat alerts, cooling shelters, 3,000 water points and heatstroke units in hospitals. Critics say it lacks legal backing and dedicated funds.",
+      sources: [{ label: "Business Today, 2025", url: "https://www.businesstoday.in/amp/india/story/imd-predicts-heatwave-conditions-in-april-delhi-govt-launches-action-plan-472890-2025-04-21" },
+        { label: "Citizen Matters", url: "https://citizenmatters.in/city-buzz-five-things-you-must-know-about-the-delhi-heat-action-plan" }] },
+    loops: [
+      { id: "squeeze", why: "Of 721 Delhi street vendors surveyed in 2024, 80% saw fewer customers in heatwaves and 49% lost income." },
+      { id: "deadgreen", why: "New Delhi is among the cities where every urban tree species studied is at risk from rising heat." },
+      { id: "pumping", why: "North-west India (Rajasthan, Punjab and Haryana) lost 109 km³ of groundwater in six years, mainly to irrigation." },
+      { id: "invisible", why: "India confirmed 185 heatstroke deaths against 48,385 suspected cases in 2024, up to 28 July." } ],
+    orgs: ["ndma", "imd", "ncdc", "ceew", "seeds", "heatwatch"], examples: ["ahmedabad"], risk: ["workers", "settlements"] },
+  { id: "dhaka", tagline: "One of the world’s densest cities, where heat costs workdays and fills tin-roofed homes.",
+    hap: { status: "building", text: "Dhaka North City Corporation appointed Asia’s first Chief Heat Officer in 2023. No city heat action plan found yet.",
+      sources: [{ label: "Arsht-Rock Resilience Center, 2023", url: "https://onebillionresilient.org/2023/05/03/bushra-afreen-dhaka-chief-heat-officer/" }] },
+    loops: [
+      { id: "poverty", why: "Heat-related illness cost Bangladesh 250 million workdays in 2024, worth up to US$1.78 billion." },
+      { id: "energypoverty", why: "Tin-roofed informal settlements trap heat for people who can’t afford to cool." },
+      { id: "displacement", why: "Migrants land in settlements on the edges of the city, often in heat-trapping housing." },
+      { id: "school", why: "Bangladesh closed schools for about 33 million children in its April 2024 heatwave." } ],
+    orgs: ["dncc", "bdrcs", "icddrb", "bracngo", "practicalaction", "bangladeshbank"], examples: ["dhaka"], risk: ["workers", "settlements"] },
+  { id: "kathmandu", tagline: "A valley city warming fast, below the Himalayan ice that feeds South Asia’s rivers.",
+    hap: { status: "none", text: "No city heat action plan found. Nepal adopted a national plan of action on heat waves in 2024, and Nepalgunj, in the plains, wrote the country’s first local heat action plan in 2023.",
+      sources: [{ label: "Onlinekhabar, 2025", url: "https://english.onlinekhabar.com/reassessing-nepals-heat-wave-response-lessons-from-2024-and-the-way-forward.html" },
+        { label: "Nepalgunj Heat Action Plan, 2023", url: "https://preparecenter.org/wp-content/uploads/2023/07/Nepalgunj-Heat-Action-Plan-2023.pdf" }] },
+    loops: [
+      { id: "ice", why: "The Hindu Kush Himalaya’s glaciers lost ice 65% faster in the 2010s, and could lose 30–50% of their volume by 2100." },
+      { id: "debt", why: "In five cities in Nepal and Bangladesh, heat cut incomes and pushed some households towards high-interest loans." } ],
+    orgs: ["ndrrma", "nrcs", "tewa", "nrb", "practicalaction"], examples: [], risk: ["women", "older"] },
+  { id: "mumbai", tagline: "A coastal megacity where the nights are heating faster than the days.",
+    hap: { status: "building", text: "Mumbai’s 2022 Climate Action Plan names urban heat as a priority, and the city is working with C40 on heat-health protocols for its hospitals. No standalone city heat action plan found.",
+      sources: [{ label: "Citizen Matters", url: "https://citizenmatters.in/mcap-climate-change-heat-mumbai/" },
+        { label: "C40 Cities, 2026", url: "https://www.c40.org/wp-content/uploads/2026/07/RfP-Heat-Health-protocols-for-Mumbai.pdf" }] },
+    loops: [
+      { id: "sleep", why: "Mumbai gained 15 very warm nights a summer over the last decade." },
+      { id: "energypoverty", why: "Tin-roofed informal settlements trap heat for people who can’t afford to cool." },
+      { id: "invisible", why: "Death certificates usually record the immediate cause, so heat as the trigger goes unrecorded." } ],
+    orgs: ["wriindia", "c40", "hdfclife", "iclei"], examples: ["thane"], risk: ["settlements", "workers"] },
+  { id: "ahmedabad", tagline: "Where South Asia’s first heat action plan began, and where its results were measured.",
+    hap: { status: "plan", text: "Ahmedabad launched South Asia’s first heat action plan in 2013, after a 2010 heatwave caused an estimated 1,344 excess deaths. An estimated 1,190 deaths a year were later avoided.",
+      sources: [{ label: "Hess et al., Journal of Environmental and Public Health, 2018", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6236972/" }] },
+    loops: [
+      { id: "clinic", why: "The plan prepared hospitals and warned the public before heat peaked." },
+      { id: "poverty", why: "Up to three-quarters of India’s workforce depends on heat-exposed work." },
+      { id: "invisible", why: "India’s heat deaths are undercounted, which weakens the case for prevention." } ],
+    orgs: ["ahmedabad", "aidmi", "ibisa", "c40", "hera"], examples: ["ahmedabad"], risk: ["workers", "settlements"] }
+];

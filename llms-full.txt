@@ -2321,3 +2321,191 @@ Source: NBC News: school closures, 2024 https://www.nbcnews.com/news/world/schoo
 - Fondation Botnar: Funds Urban Futures, linking young people’s wellbeing and climate-resilient food systems in intermediary cities, including in Indonesia. Heat-specific funding is not confirmed. (https://www.fondationbotnar.org/project/urban-futures/)
 
 - OPEC Fund for International Development: Lends and gives technical assistance for water security and services in Asia, including US$100 million for water security in Sri Lanka in 2025. Heat-specific funding is not confirmed. (https://www.adb.org/who-we-are/partners/ofid/overview)
+
+## Extreme heat in ten Asian cities
+
+What extreme heat is doing in 10 Asian cities: whether each has a heat plan, the vicious cycles the evidence ties to it, who is hit hardest and who is already at work.
+
+### Singapore, Singapore
+
+A city-state with hot nights, dense towers and an early national heat stress advisory.
+
+Heat action plan (Heat plan in force): Singapore launched a national Heat Stress Advisory in July 2023. It rates heat stress as low, moderate or high from the wet-bulb globe temperature, and tells people what to do at each level. Sources: Ministry of Sustainability and the Environment, 2023 https://mse.gov.sg/latest-news/press-release-heat-stress-advisory
+
+- The sleepless-nights loop: Singapore has averaged 76 warm nights a year over four decades; by 2100 they could come on most nights.
+
+- The cooling trap: The commercial centre has measured up to about 7 °C warmer than the outskirts on calm, clear nights.
+
+- The dying-green loop: Among the cities where the most urban tree species already face temperatures beyond their range.
+
+- The invisible-deaths loop: Workplace monitors found more heat stress than nearby weather stations reported.
+
+Who heat hits hardest: Workers in heat-exposed jobs; Older people
+
+Already at work: National Environment Agency, Singapore; Ministry of Manpower, Singapore; Singapore Management University, Urban Institute; National Research Foundation, Singapore; Monetary Authority of Singapore; C40 Cities
+
+Page: https://beattheheat.asia/cities/singapore/
+
+### Bangkok, Thailand
+
+A tropical megacity where heat costs lives, livelihoods and a share of the city’s economy.
+
+Heat action plan (Heat plan in force): For the 2026 hot season Bangkok opened 304 cooling centres in schools, health centres and district offices, under a heat management plan developed with the World Bank. Sources: Government of Thailand, 2026 https://thailand.go.th/issue-focus-detail/bangkok-launches-304-cooling-centers-to-combat-extreme-heat; World Bank, Shaping a Cooler Bangkok, 2025 https://www.worldbank.org/en/country/thailand/publication/shaping-a-cooler-bangkok-tackling-urban-heat-for-a-more-livable-city
+
+- The poverty–heat trap: Nearly 80% of informal workers surveyed cut their hours in the heat; 75% of home-based workers lost a day’s work a month to heat illness.
+
+- The reactive-spending loop: Heat deaths, about 593 a year, cost up to 0.7% of the city’s economy: more than its 2020 public health budget.
+
+- The sleepless-nights loop: One of the tropical cities whose nights stay hot.
+
+- The green-displacement loop: Fieldwork is tracing how green urban renewal affects the city’s lower-income residents.
+
+Who heat hits hardest: Workers in heat-exposed jobs; People in informal settlements
+
+Already at work: HomeNet Thailand; Bank of Thailand; United Nations Development Programme (UNDP); Asian Development Bank
+
+Page: https://beattheheat.asia/cities/bangkok/
+
+### Hanoi, Vietnam
+
+A fast-growing northern capital whose power and water strain together in the heat.
+
+Heat action plan (No city heat plan found): No city heat action plan found. From 2018 to 2021 the Viet Nam Red Cross ran an early-action plan for heatwaves in 15 of Hanoi’s wards, triggered by a heat-index forecast. Sources: Anticipation Hub https://www.anticipation-hub.org/experience/anticipatory-action-in-the-world/vietnam/fbf-ready-reducing-heat-waves-impacts-on-the-vulnerable-populations-of-hanoi
+
+- The energy–water loop: In May and June 2023 heat drove demand up as hydropower reservoirs ran low; blackouts in the north cost about US$1.4 billion.
+
+- The global cooling loop: Southeast Asia’s air conditioners could rise from 40 million to 300 million by 2040.
+
+Who heat hits hardest: Workers in heat-exposed jobs
+
+Already at work: State Bank of Vietnam
+
+Page: https://beattheheat.asia/cities/hanoi/
+
+### Manila, Philippines
+
+A dense, humid metropolis where heat closes schools and pushes the heat index into danger.
+
+Heat action plan (Parts in place, no full plan found): In Metro Manila, Quezon City has set up a city Heat Action Team, named chief heat action officers and opened 32 libraries as cooling centres. Its full heat action plan is still being developed. Sources: Quezon City Government https://quezoncity.gov.ph/qc-beefs-up-action-vs-extreme-heat-designates-chief-heat-action-officers/
+
+- The lost-schooling loop: In April 2024, 5,288 schools in the Philippines moved to remote learning, affecting more than 3.6 million students.
+
+- The cooling trap: One of the dense, high-rise city cores where air-conditioner waste heat adds to the night.
+
+- The farm-debt loop: Rice yields in the Philippines fell about 10% for each 1 °C rise in growing-season night temperature.
+
+Who heat hits hardest: Workers in heat-exposed jobs; People in informal settlements
+
+Already at work: PAGASA, Philippines; Department of Education, Philippines
+
+Page: https://beattheheat.asia/cities/manila/
+
+### Jakarta, Indonesia
+
+A sinking, sprawling capital in the country where half of Southeast Asia’s air conditioners could be.
+
+Heat action plan (Parts in place, no full plan found): No standalone heat action plan found. Jakarta’s Climate Action Plan 2021–2050 aims to reduce its vulnerability to extreme heat, and in October 2025 the governor told health facilities to prepare for heat illness. Sources: C40 Cities, 2025 https://www.c40.org/wp-content/uploads/2025/09/RfP_RF_Jakarta.pdf; Antara, 2025 https://www.antaranews.com/berita/5178905/pramono-instruksikan-mitigasi-dampak-cuaca-panas-ekstrem-di-jakarta
+
+- The global cooling loop: Half of Southeast Asia’s projected 300 million air conditioners in 2040 could be in Indonesia.
+
+- The wildfire loop: Indonesia’s 2015 forest and peat fires cost an estimated US$16.1 billion.
+
+- The dying-green loop: Among the hot, fast-growing cities where urban trees are at risk.
+
+Who heat hits hardest: People in informal settlements; Workers in heat-exposed jobs
+
+Already at work: Otoritas Jasa Keuangan (Financial Services Authority), Indonesia; KOMIDA, with Build Change (Indonesia); Nusantara Fund (Dana Nusantara)
+
+Page: https://beattheheat.asia/cities/jakarta/
+
+### Delhi, India
+
+A capital of extreme pre-monsoon heat, street trade and falling groundwater.
+
+Heat action plan (Heat plan in force): Delhi launched its 2025 Heat Action Plan in April 2025, with graded heat alerts, cooling shelters, 3,000 water points and heatstroke units in hospitals. Critics say it lacks legal backing and dedicated funds. Sources: Business Today, 2025 https://www.businesstoday.in/amp/india/story/imd-predicts-heatwave-conditions-in-april-delhi-govt-launches-action-plan-472890-2025-04-21; Citizen Matters https://citizenmatters.in/city-buzz-five-things-you-must-know-about-the-delhi-heat-action-plan
+
+- The heat credit squeeze: Of 721 Delhi street vendors surveyed in 2024, 80% saw fewer customers in heatwaves and 49% lost income.
+
+- The dying-green loop: New Delhi is among the cities where every urban tree species studied is at risk from rising heat.
+
+- The groundwater loop: North-west India (Rajasthan, Punjab and Haryana) lost 109 km³ of groundwater in six years, mainly to irrigation.
+
+- The invisible-deaths loop: India confirmed 185 heatstroke deaths against 48,385 suspected cases in 2024, up to 28 July.
+
+Who heat hits hardest: Workers in heat-exposed jobs; People in informal settlements
+
+Already at work: National Disaster Management Authority, India; India Meteorological Department and IITM Pune; National Centre for Disease Control, India; Council on Energy, Environment and Water (CEEW); SEEDS; HeatWatch India
+
+Page: https://beattheheat.asia/cities/delhi/
+
+### Dhaka, Bangladesh
+
+One of the world’s densest cities, where heat costs workdays and fills tin-roofed homes.
+
+Heat action plan (Parts in place, no full plan found): Dhaka North City Corporation appointed Asia’s first Chief Heat Officer in 2023. No city heat action plan found yet. Sources: Arsht-Rock Resilience Center, 2023 https://onebillionresilient.org/2023/05/03/bushra-afreen-dhaka-chief-heat-officer/
+
+- The poverty–heat trap: Heat-related illness cost Bangladesh 250 million workdays in 2024, worth up to US$1.78 billion.
+
+- The energy-poverty trap: Tin-roofed informal settlements trap heat for people who can’t afford to cool.
+
+- The displacement loop: Migrants land in settlements on the edges of the city, often in heat-trapping housing.
+
+- The lost-schooling loop: Bangladesh closed schools for about 33 million children in its April 2024 heatwave.
+
+Who heat hits hardest: Workers in heat-exposed jobs; People in informal settlements
+
+Already at work: Dhaka North City Corporation; Bangladesh Red Crescent Society; icddr,b; BRAC; Practical Action; Bangladesh Bank
+
+Page: https://beattheheat.asia/cities/dhaka/
+
+### Kathmandu, Nepal
+
+A valley city warming fast, below the Himalayan ice that feeds South Asia’s rivers.
+
+Heat action plan (No city heat plan found): No city heat action plan found. Nepal adopted a national plan of action on heat waves in 2024, and Nepalgunj, in the plains, wrote the country’s first local heat action plan in 2023. Sources: Onlinekhabar, 2025 https://english.onlinekhabar.com/reassessing-nepals-heat-wave-response-lessons-from-2024-and-the-way-forward.html; Nepalgunj Heat Action Plan, 2023 https://preparecenter.org/wp-content/uploads/2023/07/Nepalgunj-Heat-Action-Plan-2023.pdf
+
+- The melting-ice loop: The Hindu Kush Himalaya’s glaciers lost ice 65% faster in the 2010s, and could lose 30–50% of their volume by 2100.
+
+- The medical-debt trap: In five cities in Nepal and Bangladesh, heat cut incomes and pushed some households towards high-interest loans.
+
+Who heat hits hardest: Women whose livelihoods are held back by unequal access; Older people
+
+Already at work: National Disaster Risk Reduction and Management Authority, Nepal; Nepal Red Cross Society; Tewa, Nepal Women’s Fund; Nepal Rastra Bank; Practical Action
+
+Page: https://beattheheat.asia/cities/kathmandu/
+
+### Mumbai, India
+
+A coastal megacity where the nights are heating faster than the days.
+
+Heat action plan (Parts in place, no full plan found): Mumbai’s 2022 Climate Action Plan names urban heat as a priority, and the city is working with C40 on heat-health protocols for its hospitals. No standalone city heat action plan found. Sources: Citizen Matters https://citizenmatters.in/mcap-climate-change-heat-mumbai/; C40 Cities, 2026 https://www.c40.org/wp-content/uploads/2026/07/RfP-Heat-Health-protocols-for-Mumbai.pdf
+
+- The sleepless-nights loop: Mumbai gained 15 very warm nights a summer over the last decade.
+
+- The energy-poverty trap: Tin-roofed informal settlements trap heat for people who can’t afford to cool.
+
+- The invisible-deaths loop: Death certificates usually record the immediate cause, so heat as the trigger goes unrecorded.
+
+Who heat hits hardest: People in informal settlements; Workers in heat-exposed jobs
+
+Already at work: WRI India; C40 Cities; HDFC Life (Swabhimaan CSR); ICLEI South Asia
+
+Page: https://beattheheat.asia/cities/mumbai/
+
+### Ahmedabad, India
+
+Where South Asia’s first heat action plan began, and where its results were measured.
+
+Heat action plan (Heat plan in force): Ahmedabad launched South Asia’s first heat action plan in 2013, after a 2010 heatwave caused an estimated 1,344 excess deaths. An estimated 1,190 deaths a year were later avoided. Sources: Hess et al., Journal of Environmental and Public Health, 2018 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6236972/
+
+- The overwhelmed-clinic loop: The plan prepared hospitals and warned the public before heat peaked.
+
+- The poverty–heat trap: Up to three-quarters of India’s workforce depends on heat-exposed work.
+
+- The invisible-deaths loop: India’s heat deaths are undercounted, which weakens the case for prevention.
+
+Who heat hits hardest: Workers in heat-exposed jobs; People in informal settlements
+
+Already at work: Ahmedabad Municipal Corporation, with IIPH Gandhinagar and NRDC; All India Disaster Mitigation Institute (AIDMI); IBISA; C40 Cities; Heat Resilience Action (HERA), formerly Climate Resilience for All
+
+Page: https://beattheheat.asia/cities/ahmedabad/

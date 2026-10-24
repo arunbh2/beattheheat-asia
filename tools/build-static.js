@@ -15,7 +15,7 @@ const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + `
 ;Object.assign(this, { SYSTEMS, CONSEQUENCES, LINKS, LOOP_GROUPS, LOOPS, INSTITUTIONS, LEVERS, LOOP_PLACES, EVIDENCE, ORG_ROLES,
   ORGANISATIONS, GLOSSARY_GROUPS, GLOSSARY, WORKED_EXAMPLES, AT_RISK, AT_RISK_BARRIERS, STALLS, COOL_PLACES, COOL_TRAPS,
-  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, PLAN_GROUPS, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL });`, ctx);
+  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, PLAN_GROUPS, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL, LIVE_CITIES, CITY_PROFILES, CITY_HAP });`, ctx);
 const D = ctx, TODAY = new Date().toISOString().slice(0, 10);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const plain = s => String(s || "").replace(/\n/g, " ");
@@ -38,7 +38,8 @@ const PAGES = [
   { slug: "cooling-options", title: "Cooling options by place, and what keeps them working", short: "Cooling options" },
   { slug: "worked-plans", title: "Worked heat action plans from Asia", short: "Worked plans" },
   { slug: "glossary", title: "Plain-language glossary of extreme heat", short: "Glossary" },
-  { slug: "heat-network", title: "Organisations working on extreme heat", short: "Heat network" }
+  { slug: "heat-network", title: "Organisations working on extreme heat", short: "Heat network" },
+  { slug: "cities", title: "Extreme heat in ten Asian cities", short: "Cities" }
 ];
 const LICENCE = "Text, data, films and illustrations © BeatTheHeat.Asia contributors, shared under Creative Commons Attribution 4.0 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/): you may copy, adapt and translate them, with credit and a link to beattheheat.asia. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’ and are not covered.";
 const DISCLAIMER = "This is a beta version. BeatTheHeat.Asia is being built by a group of organisations working on extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement. Every claim links to its source; where the evidence is still emerging, the map says so.";
@@ -46,7 +47,8 @@ const DISCLAIMER = "This is a beta version. BeatTheHeat.Asia is being built by a
 function page(p, intro, body, extraLd) {
   const url = `${SITE}/${p.slug}/`;
   const ld = [{ "@context": "https://schema.org", "@type": "WebPage", name: p.title, url, inLanguage: "en", isPartOf: { "@type": "WebSite", name: "BeatTheHeat.Asia", url: SITE + "/" }, dateModified: TODAY, description: intro, license: "https://creativecommons.org/licenses/by/4.0/", copyrightNotice: "© BeatTheHeat.Asia contributors" },
-    { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "BeatTheHeat.Asia", item: SITE + "/" }, { "@type": "ListItem", position: 2, name: p.short, item: url }] }]
+    { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "BeatTheHeat.Asia", item: SITE + "/" }, ...(p.parent ? [{ "@type": "ListItem", position: 2, name: p.parent.short, item: `${SITE}/${p.parent.slug}/` }] : []),
+      { "@type": "ListItem", position: p.parent ? 3 : 2, name: p.short, item: url }] }]
     .concat(extraLd || []);
   return `<!DOCTYPE html>
 <html lang="en">
@@ -231,8 +233,39 @@ const out = {};
   out[p.slug] = page(p, intro, h); md.push(m.join("\n\n"));
 }
 
+// cities: an index page and one page per city
+const CITY_PAGES = [];
+{
+  const p = PAGES[8], live = Object.fromEntries(D.LIVE_CITIES.map(c => [c.id, c]));
+  const intro = `What extreme heat is doing in ${D.CITY_PROFILES.length} Asian cities: whether each has a heat plan, the vicious cycles the evidence ties to it, who is hit hardest and who is already at work.`;
+  let h = "", m = [`## ${p.title}`, intro];
+  D.CITY_PROFILES.forEach(cp => {
+    const c = live[cp.id], url = `${SITE}/cities/${cp.id}/`;
+    const loops = cp.loops.map(x => ({ l: D.LOOPS.find(l => l.id === x.id), why: x.why })).filter(x => x.l);
+    const orgs = cp.orgs.map(id => D.ORGANISATIONS.find(o => o.id === id)).filter(Boolean);
+    const exs = cp.examples.map(id => D.WORKED_EXAMPLES.find(x => x.id === id)).filter(Boolean);
+    const risks = cp.risk.map(id => D.AT_RISK.find(g => g.id === id)).filter(Boolean);
+    const status = D.CITY_HAP[cp.hap.status];
+    h += `<h2 id="${cp.id}"><a href="/cities/${cp.id}/">${esc(c.name)}, ${esc(c.country)}</a></h2><p>${esc(cp.tagline)}</p><p class="meta">Heat plan: ${esc(status)}. Cycles tied to it: ${esc(loops.map(x => x.l.name).join(", "))}.</p>`;
+    const body = `<h2>Heat action plan: ${esc(status)}</h2><p>${esc(cp.hap.text)}</p><p class="src">Sources: ${cp.hap.sources.map(s => ext(s.url, s.label)).join(" · ")}</p>
+      <h2>Heat today</h2><p>Live readings and the week’s forecast are on <a href="/#city-${cp.id}">the interactive map</a>. Official warnings: ${ext(c.warn.url, c.warn.label)}. ${D.LIVE_FINGERPRINT ? `How much climate change shaped today’s heat: ${ext(D.LIVE_FINGERPRINT.map.url, D.LIVE_FINGERPRINT.map.label)}.` : ""}</p>
+      <h2>Vicious cycles the evidence ties to ${esc(c.name)}</h2>${loops.map(x => `<h3><a href="/loops/#${x.l.id}">${esc(x.l.name)}</a></h3><p>${esc(x.why)}</p><p class="meta">${esc(x.l.summary)} <a href="/#loop-${x.l.id}">Follow it on the map</a>.</p>`).join("")}
+      <h2>Who heat hits hardest here</h2><ul>${risks.map(g => `<li><a href="/who-is-at-risk/#${g.id}">${esc(g.name)}</a></li>`).join("")}</ul>
+      ${exs.length ? `<h2>A worked plan to learn from</h2>${exs.map(x => `<p><a href="/worked-plans/#${x.id}">${esc(x.title)}</a> (${esc(x.place)}, ${esc(x.year)})</p>`).join("")}` : ""}
+      <h2>Already at work here</h2><ul>${orgs.map(o => `<li>${ext(o.url, o.name)}: ${esc(o.does)}</li>`).join("")}</ul><p class="meta">Listing does not imply partnership, affiliation or endorsement.</p>`;
+    const cpPage = { slug: `cities/${cp.id}`, title: `Extreme heat in ${c.name}: plans, cycles and who is at work`, short: c.name, parent: p };
+    const cIntro = `${cp.tagline} Heat plan: ${status.toLowerCase()}.`;
+    CITY_PAGES.push(cpPage);
+    out[cpPage.slug] = page(cpPage, cIntro, body, [{ "@context": "https://schema.org", "@type": "City", name: c.name, containedInPlace: { "@type": "Country", name: c.country },
+      geo: { "@type": "GeoCoordinates", latitude: c.lat, longitude: c.lon }, url }]);
+    m.push(`### ${c.name}, ${c.country}`, cp.tagline, `Heat action plan (${status}): ${cp.hap.text} Sources: ${cp.hap.sources.map(s => `${s.label} ${s.url}`).join("; ")}`,
+      ...loops.map(x => `- ${x.l.name}: ${x.why}`), `Who heat hits hardest: ${risks.map(g => g.name).join("; ")}`, `Already at work: ${orgs.map(o => o.name).join("; ")}`, `Page: ${url}`);
+  });
+  out[p.slug] = page(p, intro, h); md.push(m.join("\n\n"));
+}
+
 // ---- write the pages ----
-PAGES.forEach(p => { const dir = path.join(ROOT, p.slug); fs.mkdirSync(dir, { recursive: true }); fs.writeFileSync(path.join(dir, "index.html"), out[p.slug]); });
+[...PAGES, ...CITY_PAGES].forEach(p => { const dir = path.join(ROOT, p.slug); fs.mkdirSync(dir, { recursive: true }); fs.writeFileSync(path.join(dir, "index.html"), out[p.slug]); });
 
 // ---- llms.txt: a short guide for AI systems; llms-full.txt: the whole map as text ----
 const about = `> An interactive systems map of extreme heat in Asia: how heat ripples through ${D.SYSTEMS.length} systems and ${D.CONSEQUENCES.length} consequences, the ${D.LOOPS.length} vicious cycles that make it worse, the ${D.LEVERS.length} actions that could break them, and the ${D.INSTITUTIONS.length} kinds of institution that hold those levers. Every claim links to its source.`;
@@ -250,6 +283,10 @@ The interactive map is at ${SITE}/ and needs JavaScript. The pages below carry t
 
 ${PAGES.map(p => `- [${p.short}](${SITE}/${p.slug}/): ${p.title}`).join("\n")}
 
+## Cities
+
+${CITY_PAGES.map(p => `- [${p.short}](${SITE}/${p.slug}/): ${p.title}`).join("\n")}
+
 ## Optional
 
 - [The whole map in one file](${SITE}/llms-full.txt): every page above as plain text, for reading in one go
@@ -260,7 +297,7 @@ fs.writeFileSync(path.join(ROOT, "llms-full.txt"), `# BeatTheHeat.Asia: the whol
 fs.writeFileSync(path.join(ROOT, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>${SITE}/</loc><lastmod>${TODAY}</lastmod><priority>1.0</priority></url>
-${PAGES.map(p => `  <url><loc>${SITE}/${p.slug}/</loc><lastmod>${TODAY}</lastmod><priority>0.8</priority></url>`).join("\n")}
+${[...PAGES, ...CITY_PAGES].map(p => `  <url><loc>${SITE}/${p.slug}/</loc><lastmod>${TODAY}</lastmod><priority>0.8</priority></url>`).join("\n")}
 </urlset>
 `);
 const BOTS = ["Googlebot", "Bingbot", "Google-Extended", "GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot", "Claude-User", "PerplexityBot", "Perplexity-User", "Applebot", "Applebot-Extended", "CCBot", "DuckDuckBot", "Meta-ExternalAgent"];
@@ -275,4 +312,4 @@ ${BOTS.map(b => `User-agent: ${b}\nAllow: /`).join("\n\n")}
 
 Sitemap: ${SITE}/sitemap.xml
 `);
-console.log("Wrote", PAGES.length, "pages, llms.txt, llms-full.txt, sitemap.xml and robots.txt");
+console.log("Wrote", PAGES.length + CITY_PAGES.length, "pages, llms.txt, llms-full.txt, sitemap.xml and robots.txt");
