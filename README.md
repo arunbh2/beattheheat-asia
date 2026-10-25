@@ -210,6 +210,8 @@ It follows the landing-page pattern, in this order:
 
 **Campaign versions.** Add `?for=city`, `?for=ngo`, `?for=funder` or `?for=community` to change the tag, headline and subheadline. The button then opens the guide with the matching first answer already chosen (`/?way=plan#start`); `guide.js` reads `?way=` and removes it from the address. An unknown value shows the default.
 
+**Campaigns with their own address.** Link previews on social media and messaging apps read only the HTML, not the JavaScript, so a campaign that will be shared gets a page of its own. `tools/build-static.js` generates it from `start/index.html` and gives it its own title, description, preview image and button link. The first is **`/start/community/`**, for community groups and workers’ organisations. Its preview image is `images/social-start-community.jpg`, made from `tools/social/start-community.html` (open it in a browser at 1200×630 and save a screenshot). The campaign style is used only on these pages; the rest of the site keeps its own design.
+
 **Counting.** GoatCounter counts a view per version (`start-view-<version>`) and each click (`start-<version>-<place>`). Add `?utm_source=` or `?ref=` to a campaign link, and GoatCounter records it as the referrer.
 
 **Not indexed.** The page is `noindex` and left out of the sitemap, so it never competes with the home page in search. `tools/build-static.js` keeps its counts (consequences and cycles) in step with the data.

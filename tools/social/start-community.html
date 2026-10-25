@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<style>
+  :root { --walnut: #100904; --bark: #382416; --cork: #40372e; --driftwood: #6c5f51; --cream: #ffedd7; --ember: #dc5000; --ember-text: #ff7a33; }
+  * { box-sizing: border-box; margin: 0; }
+  body { width: 1200px; height: 630px; overflow: hidden; background: var(--walnut); color: var(--cream); font-family: Inter, sans-serif; }
+  .card { position: relative; display: grid; grid-template-columns: 1fr 400px; gap: 44px; height: 630px; padding: 56px 60px 52px; }
+  .left { display: flex; flex-direction: column; }
+  .tag { display: flex; align-items: center; gap: 10px; color: var(--ember-text); font-size: 15px; font-weight: 500; letter-spacing: .06em; white-space: nowrap; text-transform: uppercase; }
+  .tag::before { content: ""; width: 9px; height: 9px; border-radius: 50%; background: var(--ember); }
+  h1 { margin-top: 26px; font-size: 60px; line-height: .92; font-weight: 500; text-transform: uppercase; letter-spacing: -.005em; }
+  p.sub { margin-top: 24px; max-width: 600px; color: rgba(255, 237, 215, .78); font-size: 24px; line-height: 1.3; }
+  .foot { margin-top: auto; display: flex; align-items: center; gap: 18px; padding-top: 22px; border-top: 1px dashed var(--cork); font-size: 18px; font-weight: 500; letter-spacing: .04em; text-transform: uppercase; }
+  .foot i { width: 12px; height: 12px; border-radius: 50%; background: var(--ember); }
+  .foot span { color: rgba(255, 237, 215, .7); }
+  .art { align-self: stretch; border: 1px dashed var(--cork); border-radius: 36px; overflow: hidden; }
+  .art svg { width: 100%; height: 100%; display: block; }
+</style></head>
+<body>
+<div class="card">
+  <div class="left">
+    <p class="tag">For community groups and workers’ organisations</p>
+    <h1>Protect your<br>community and<br>workplace<br>from heat.</h1>
+    <p class="sub">Practical steps for homes, workplaces, markets and streets. Free, sourced, no sign up.</p>
+    <p class="foot"><i></i>beattheheat.asia/start/community</p>
+  </div>
+  <div class="art">
+    <!-- drawn, faceless figures: shade, water and rest beside a stall -->
+    <svg viewBox="0 0 470 522" fill="none" stroke="#ffedd7" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+      <!-- the sun, the one ember shape -->
+      <circle cx="384" cy="92" r="40" fill="#dc5000" stroke="none"/>
+      <g stroke="#dc5000" stroke-width="4" opacity=".55"><path d="M384 26v-12M384 170v-12M318 92h-12M462 92h-12M337 45l-8-8M439 147l-8-8M337 139l-8 8M439 37l-8 8"/></g>
+      <!-- ground -->
+      <path d="M24 452h422" stroke="#6c5f51" stroke-width="3"/>
+      <!-- the shade canopy on two poles -->
+      <path d="M48 196 L248 176 L262 206 L34 228 Z" fill="#382416"/>
+      <path d="M58 226v226M238 208v244"/>
+      <path d="M48 196 L248 176" stroke="#dc5000" stroke-width="4"/>
+      <!-- shaded ground under the canopy -->
+      <path d="M50 452h200" stroke="#40372e" stroke-width="10"/>
+      <!-- figure one: sitting on a bench, resting -->
+      <path d="M86 392h96" /><path d="M94 392v58M174 392v58"/>
+      <circle cx="114" cy="300" r="17"/>
+      <path d="M114 317v50M114 330l-22 26M114 330l18 22M114 367h26v58M114 367l-6 58"/>
+      <!-- figure two: sitting, holding a cup of water -->
+      <circle cx="160" cy="304" r="17"/>
+      <path d="M160 321v46M160 334l-16 28M160 334l26 10M160 367h-20v58M160 367l10 58"/>
+      <path d="M186 336h12l-3 18h-7z" stroke-width="4"/>
+      <!-- the water point: a tank on a stand, a tap and a falling drop -->
+      <path d="M300 300h76v62h-76z" fill="#382416"/>
+      <path d="M300 300h76v62h-76zM312 362v90M364 362v90M312 410h52"/>
+      <path d="M338 300v-14h18"/>
+      <path d="M376 330h22v14"/>
+      <path d="M398 356c-5 8-7 12-7 15a7 7 0 0 0 14 0c0-3-2-7-7-15z" stroke-width="4"/>
+      <!-- figure three: standing at the tap, filling a bottle -->
+      <circle cx="422" cy="300" r="17"/>
+      <path d="M422 317v66M422 336l-18 26M422 336l14 28M422 383l-14 66M422 383l14 66"/>
+      <!-- a market stall at the back, under its own awning -->
+      <path d="M262 452v-58h34v58"/>
+      <path d="M254 394h50" stroke="#dc5000" stroke-width="4"/>
+      <path d="M266 382h26" stroke="#6c5f51" stroke-width="10"/>
+    </svg>
+  </div>
+</div>
+</body></html>

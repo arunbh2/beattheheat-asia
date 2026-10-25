@@ -424,6 +424,29 @@ Sitemap: ${SITE}/sitemap.xml
 { const f = path.join(ROOT, "start", "index.html");
   if (fs.existsSync(f)) fs.writeFileSync(f, fs.readFileSync(f, "utf8")
     .replace(/(data-count="consequences">)\d+/g, `$1${D.CONSEQUENCES.length}`).replace(/(data-count="loops">)\d+/g, `$1${D.LOOPS.length}`)); }
+// ---- campaign versions with their own address, so link previews match the version (/start/community/) ----
+{ const f = path.join(ROOT, "start", "index.html");
+  const CAMPAIGNS = { community: {
+    tag: "For community groups and workers’ organisations", title: "Protect your community and workplace from heat.",
+    sub: "Practical steps for homes, workplaces, markets and streets, and a 90 minute meeting guide to agree what you will do together.",
+    share: "Practical steps for homes, workplaces, markets and streets, and a meeting guide to agree what you will do together. Free, sourced, no sign up.",
+    image: "social-start-community.jpg", alt: "Drawn figures resting in the shade by a water point beside a market stall, under the words: Protect your community and workplace from heat." } };
+  if (fs.existsSync(f)) for (const [id, c] of Object.entries(CAMPAIGNS)) {
+    const url = `${SITE}/start/${id}/`, t = c.title.replace(/\.$/, "");
+    let h = fs.readFileSync(f, "utf8")
+      .replace("<body>", `<body data-campaign="${id}">`)
+      .replace(/<title>[^<]*<\/title>/, `<title>${t} | BeatTheHeat.Asia</title>`)
+      .replace(/(<meta name="description" content=")[^"]*/, `$1${c.share}`)
+      .replace(/(property="og:title" content=")[^"]*/, `$1${t}`).replace(/(name="twitter:title" content=")[^"]*/, `$1${t}`)
+      .replace(/(property="og:description" content=")[^"]*/, `$1${c.share}`).replace(/(name="twitter:description" content=")[^"]*/, `$1${c.share}`)
+      .replace(/(property="og:url" content=")[^"]*/, `$1${url}`)
+      .replace(/(property="og:image" content=")[^"]*/, `$1${SITE}/images/${c.image}`).replace(/(name="twitter:image" content=")[^"]*/, `$1${SITE}/images/${c.image}`)
+      .replace(/(property="og:image:alt" content=")[^"]*/, `$1${c.alt}`)
+      .replace(/(data-v="tag">)[^<]*/, `$1${c.tag}`).replace(/(data-v="title">)[^<]*/, `$1${c.title}`).replace(/(data-v="sub">)[^<]*/, `$1${c.sub}`)
+      .replace(/href="\/#start" data-go=/g, `href="/?way=${id}#start" data-go=`);
+    fs.mkdirSync(path.join(ROOT, "start", id), { recursive: true });
+    fs.writeFileSync(path.join(ROOT, "start", id, "index.html"), h);
+  } }
 // ---- printable one-pagers ----
 require("./build-print")().then(list => {
   const sm = fs.readFileSync(path.join(ROOT, "sitemap.xml"), "utf8").replace("</urlset>", [`  <url><loc>${SITE}/print/</loc><lastmod>${TODAY}</lastmod><priority>0.6</priority></url>`,

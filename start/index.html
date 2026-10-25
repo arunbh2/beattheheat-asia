@@ -327,7 +327,7 @@
       funder: { tag: "For funders and partners", title: "See where money protects people from heat.", sub: "Follow one worker’s money through a heatwave, see which protection actually reaches them, and find who is already at work across the region.", way: "fund", cta: "Find your way in" },
       community: { tag: "For community groups and workers’ organisations", title: "Protect your community and workplace from heat.", sub: "Practical steps for homes, workplaces, markets and streets, and a 90 minute meeting guide to agree what you will do together.", way: "community", cta: "Find your way in" }
     };
-    const q = new URLSearchParams(location.search), key = q.get("for"), v = V[key];
+    const q = new URLSearchParams(location.search), key = q.get("for") || document.body.dataset.campaign, v = V[key];
     const track = name => { try { if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: name, title: name, event: true }); } catch (e) {} };
     if (v) {
       document.querySelectorAll("[data-v]").forEach(el => { if (v[el.dataset.v]) el.textContent = v[el.dataset.v]; });
