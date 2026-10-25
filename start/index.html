@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Get ready for extreme heat, together | BeatTheHeat.Asia</title>
+  <meta name="description" content="A free, sourced map of extreme heat in South and Southeast Asia and five practical tools to protect health, income and homes. For city teams, NGOs, funders, communities and workers’ organisations.">
+  <!-- a campaign page: kept out of search results so it never competes with the home page -->
+  <meta name="robots" content="noindex, follow">
+  <meta name="theme-color" content="#100904">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="BeatTheHeat.Asia">
+  <meta property="og:title" content="Get ready for extreme heat, together">
+  <meta property="og:description" content="A free, sourced map and five practical tools to protect health, income and homes from extreme heat across South and Southeast Asia.">
+  <meta property="og:url" content="https://beattheheat.asia/start/">
+  <meta property="og:image" content="https://beattheheat.asia/images/social-share-2.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="A systems map showing extreme heat at the centre, connected to nature, health, cities and work, with vicious cycles in red.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Get ready for extreme heat, together">
+  <meta name="twitter:description" content="A free, sourced map and five practical tools to protect health, income and homes from extreme heat across South and Southeast Asia.">
+  <meta name="twitter:image" content="https://beattheheat.asia/images/social-share-2.jpg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23100904'/%3E%3Ccircle cx='16' cy='16' r='7' fill='%23dc5000'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap">
+  <style>
+    /* A campaign landing page with its own visual system: a warm walnut canvas, cream type,
+       uppercase display lines at one confident weight, dashed hairlines, and a single ember
+       accent kept to short phrases, tags and the drawing of the web. Flat surfaces, quiet motion. */
+    :root {
+      --walnut: #100904; --bark: #382416; --cork: #40372e; --driftwood: #6c5f51;
+      --cream: #ffedd7; --ember: #dc5000; --black: #000000;
+      --ember-text: #ff7a33; /* ember lifted for small text on walnut, so it stays readable */
+      --muted: rgba(255, 237, 215, .72);
+      --sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+      --ease: cubic-bezier(.4, 0, .6, 1); --ease-quick: cubic-bezier(.25, .1, .3, 1);
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--walnut); color: var(--cream); font-family: var(--sans); font-weight: 400; font-size: 18px; line-height: 1.4; -webkit-font-smoothing: antialiased; }
+    h1, h2, h3, p, ul, ol, dl, dd { margin: 0; }
+    h1, h2, h3 { font-weight: 500; }
+    b, strong { font-weight: 500; }
+    a { color: inherit; }
+    img, svg { display: block; max-width: 100%; }
+    .wrap { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    @media (min-width: 768px) { .wrap { padding: 0 41px; } }
+    .mono { font-size: 12px; line-height: 1.1; font-weight: 500; letter-spacing: .06em; text-transform: uppercase; }
+    .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+    .skip { position: absolute; left: 16px; top: -60px; z-index: 10; padding: 10px 18px; border-radius: 36px; background: var(--cream); color: var(--walnut); font-weight: 500; }
+    .skip:focus { top: 16px; }
+    :focus-visible { outline: 3px solid var(--ember-text); outline-offset: 3px; border-radius: 6px; }
+
+    /* nav */
+    .nav { display: flex; align-items: center; justify-content: space-between; gap: 18px; padding: 24px 0; }
+    .logo { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; font-size: 14px; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; }
+    .logo i { width: 12px; height: 12px; border-radius: 50%; background: var(--ember); }
+    .pill { display: inline-flex; align-items: center; min-height: 44px; padding: 10px 18px; border: 1px solid var(--cream); border-radius: 22.5px; text-decoration: none; transition: background-color 240ms var(--ease-quick), color 240ms var(--ease-quick); }
+    .pill:hover { background: var(--cream); color: var(--walnut); }
+
+    /* tags: ember text accent with a small ember mark */
+    .tag { display: inline-flex; align-items: center; gap: 8px; color: var(--ember-text); }
+    .tag::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--ember); flex: none; }
+    .counter { display: inline-flex; align-items: center; padding: 6px 12px; border: 1px solid var(--cork); border-radius: 9999px; color: var(--muted); }
+
+    /* hero */
+    .hero { padding: 41px 0 68px; }
+    .hero__grid { display: grid; gap: 45px; align-items: center; }
+    @media (min-width: 1024px) { .hero__grid { grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); } }
+    .hero h1 { margin-top: 24px; font-size: 41px; line-height: .92; text-transform: uppercase; text-wrap: balance; }
+    @media (min-width: 640px) { .hero h1 { font-size: 51px; line-height: .9; } }
+    @media (min-width: 1100px) { .hero h1 { font-size: 64px; line-height: .9; } }
+    .hero__sub { max-width: 620px; margin-top: 31px; color: var(--muted); font-size: 20px; line-height: 1.3; text-wrap: pretty; }
+    @media (min-width: 768px) { .hero__sub { font-size: 24px; line-height: 1.26; } }
+    .proof { margin-top: 24px; color: var(--muted); }
+    .proof b { color: var(--cream); }
+    .cta { margin-top: 41px; display: flex; flex-wrap: wrap; align-items: center; gap: 18px 24px; }
+    .trust { max-width: 360px; color: var(--muted); font-size: 15px; line-height: 1.4; }
+
+    /* the one solid button: bark fill, cream type, pill corners */
+    .go { display: inline-flex; align-items: center; gap: 12px; min-height: 52px; padding: 10px 14px 10px 24px; border-radius: 36px; background: var(--bark); color: var(--cream); text-decoration: none; font-size: 15px; font-weight: 500; letter-spacing: .06em; text-transform: uppercase; border: 1px solid var(--bark); transition: background-color 240ms var(--ease-quick), border-color 240ms var(--ease-quick); }
+    .go:hover { background: #4a311f; border-color: var(--ember); }
+    .go:active { transform: translateY(1px); }
+    .go__label { display: inline; }
+    .go__arrow { display: inline-grid; place-items: center; width: 32px; height: 32px; border-radius: 50%; background: var(--ember); color: var(--cream); font-size: 16px; letter-spacing: 0; transition: transform 320ms var(--ease); }
+    .go:hover .go__arrow { transform: translateX(3px); }
+    .arrow { display: inline-grid; place-items: center; width: 36px; height: 36px; flex: none; border: 1px solid var(--cork); border-radius: 50%; color: var(--ember-text); transition: transform 320ms var(--ease), border-color 240ms var(--ease-quick); }
+
+    /* the web: a warm systems drawing, the only picture on the page */
+    .web { position: relative; aspect-ratio: 1; width: 100%; max-width: 440px; margin: 0 auto; border: 1px dashed var(--cork); border-radius: 36px; overflow: hidden; }
+    .web svg { width: 100%; height: 100%; }
+    .web__cap { position: absolute; left: 24px; bottom: 18px; }
+    @media (max-width: 1023px) { .web { max-width: 360px; } }
+    @media (prefers-reduced-motion: no-preference) { .web .pulse { animation: pulse 3.2s var(--ease) infinite; } }
+    @keyframes pulse { 0%, 100% { opacity: .4; } 50% { opacity: 1; } }
+
+    /* sections: one canvas throughout, divided by dashed hairlines */
+    .band { padding: 68px 0; }
+    @media (min-width: 1024px) { .band { padding: 112px 0; } }
+    .band + .band, .band--rule { border-top: 1px dashed var(--cork); }
+    .light { background: var(--walnut); color: var(--cream); }
+    .sec-head { display: grid; gap: 24px; margin-bottom: 45px; }
+    @media (min-width: 1024px) { .sec-head { grid-template-columns: 1fr 1fr; align-items: end; } }
+    .sec-head h2 { font-size: 31px; line-height: .95; text-transform: uppercase; text-wrap: balance; }
+    @media (min-width: 768px) { .sec-head h2 { font-size: 41px; line-height: .9; } }
+    .sec-head p { color: var(--muted); font-size: 18px; line-height: 1.4; max-width: 520px; text-wrap: pretty; }
+
+    /* the statement: the system's mixed case body voice, lit word by word */
+    .reveal { max-width: 980px; font-size: 24px; line-height: 1.26; text-wrap: pretty; }
+    @media (min-width: 768px) { .reveal { font-size: 29px; } }
+    @media (min-width: 1024px) { .reveal { font-size: 41px; line-height: 1.12; } }
+    .reveal .w { color: rgba(255, 237, 215, .26); transition: color 320ms var(--ease); }
+    .reveal .w.on { color: var(--cream); }
+    .reveal .w--lime.on { color: var(--ember-text); }
+    .reveal-note { margin-top: 41px; color: var(--muted); max-width: 560px; line-height: 1.45; }
+
+    /* five tools */
+    .tools { list-style: none; padding: 0; border-top: 1px dashed var(--cork); }
+    .tools li { border-bottom: 1px dashed var(--cork); }
+    .tool { display: grid; grid-template-columns: auto 1fr auto; gap: 12px 24px; align-items: center; padding: 31px 0; text-decoration: none; }
+    @media (min-width: 900px) { .tool { grid-template-columns: 68px minmax(0, 1.1fr) minmax(0, 1fr) 120px 36px; } }
+    .tool__n { color: var(--muted); }
+    .tool__name { font-size: 24px; line-height: 1.09; font-weight: 500; text-transform: uppercase; transition: color 240ms var(--ease-quick); }
+    .tool__name small { display: block; margin-bottom: 10px; color: var(--ember-text); }
+    @media (min-width: 768px) { .tool__name { font-size: 29px; line-height: 1; } }
+    .tool__take { color: var(--muted); line-height: 1.4; grid-column: 2 / 3; }
+    .tool__time { color: var(--muted); grid-column: 2 / 3; }
+    @media (min-width: 900px) { .tool__take, .tool__time { grid-column: auto; } }
+    .tool .arrow { grid-row: 1; grid-column: 3; }
+    @media (min-width: 900px) { .tool .arrow { grid-row: auto; grid-column: auto; } }
+    .tool:hover .arrow, .card:hover .arrow { transform: translateX(3px); border-color: var(--ember); }
+    .tool:hover .tool__name { color: var(--ember-text); }
+
+    /* evidence and audiences: outlined cards, 12px corners, no fills, no shadows */
+    .cards { display: grid; gap: 18px; }
+    @media (min-width: 768px) { .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    .card { display: flex; flex-direction: column; gap: 14px; padding: 24px; border: 1px solid var(--cork); border-radius: 12px; background: transparent; color: var(--cream); text-decoration: none; transition: border-color 240ms var(--ease-quick); }
+    @media (min-width: 768px) { .cards .card { padding: 31px; } }
+    .card:hover { border-color: var(--driftwood); }
+    .card h3 { font-size: 24px; line-height: 1.09; text-transform: uppercase; text-wrap: balance; }
+    .card p { color: var(--muted); line-height: 1.4; text-wrap: pretty; }
+    .card p.tag { color: var(--ember-text); }
+    .card__foot { margin-top: auto; padding-top: 14px; display: flex; align-items: center; justify-content: space-between; gap: 14px; border-top: 1px dashed var(--cork); color: var(--cream); }
+    .card--tissue { background: var(--bark); border-color: var(--bark); }
+    .who { display: grid; gap: 18px; margin-top: 18px; }
+    @media (min-width: 768px) { .who { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (min-width: 1100px) { .who { grid-template-columns: repeat(5, minmax(0, 1fr)); } }
+
+    /* questions */
+    .faq { border-top: 1px dashed var(--cork); }
+    .faq details { border-bottom: 1px dashed var(--cork); }
+    .faq summary { display: flex; justify-content: space-between; gap: 24px; padding: 24px 0; cursor: pointer; list-style: none; font-size: 20px; line-height: 1.26; font-weight: 500; }
+    @media (min-width: 768px) { .faq summary { font-size: 24px; } }
+    .faq summary::-webkit-details-marker { display: none; }
+    .faq summary::after { content: "+"; color: var(--ember-text); transition: transform 320ms var(--ease); }
+    .faq details[open] summary::after { transform: rotate(45deg); }
+    .faq details p { max-width: 760px; padding: 0 0 24px; color: var(--muted); line-height: 1.5; }
+    .faq a { text-underline-offset: 3px; text-decoration-color: var(--ember); }
+
+    /* closing call */
+    .final h2 { font-size: 41px; line-height: .92; text-transform: uppercase; max-width: 900px; text-wrap: balance; }
+    @media (min-width: 768px) { .final h2 { font-size: 64px; line-height: .9; } }
+    .final .cta { margin-top: 45px; }
+
+    /* footer */
+    .foot { border-top: 1px dashed var(--cork); padding: 45px 0 41px; }
+    .foot__links { display: flex; flex-wrap: wrap; gap: 12px 24px; list-style: none; padding: 0; }
+    .foot__links a { color: var(--cream); text-decoration: none; }
+    .foot__links a:hover { color: var(--ember-text); }
+    .foot p { margin-top: 24px; max-width: 760px; color: var(--muted); font-size: 14px; line-height: 1.5; }
+
+    /* quiet arrival for blocks below the first screen (only when scripting is on) */
+    .js .rise { opacity: 0; transform: translateY(18px); transition: opacity 320ms var(--ease), transform 320ms var(--ease); }
+    .js .rise.in { opacity: 1; transform: none; }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .js .rise { opacity: 1; transform: none; transition: none; }
+      .reveal .w { color: var(--cream); transition: none; }
+      .reveal .w--lime { color: var(--ember-text); }
+    }
+  </style>
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="wrap nav">
+    <a class="logo" href="/"><i aria-hidden="true"></i>BeatTheHeat.Asia</a>
+    <a class="pill mono" href="/">Open the map</a>
+  </header>
+
+  <main id="main">
+    <!-- 1. Hero: one promise, one action -->
+    <section class="hero" aria-labelledby="h-title">
+      <div class="wrap hero__grid">
+        <div>
+          <p class="tag mono" data-v="tag">Extreme heat · South and Southeast Asia</p>
+          <h1 id="h-title" data-v="title">Get ready for extreme heat, together.</h1>
+          <p class="hero__sub" data-v="sub">A free, sourced map and five practical tools to protect health, income and homes from extreme heat. For city teams, NGOs, funders, communities and workers’ organisations.</p>
+          <p class="proof mono"><b data-count="consequences">87</b> consequences · <b data-count="loops">21</b> vicious cycles · every consequence sourced</p>
+          <div class="cta">
+            <a class="go" href="/#start" data-go="hero"><span class="go__label" data-v="cta">Find your way in</span><span class="go__arrow" aria-hidden="true">→</span></a>
+            <p class="trust">Two questions, a short path. Free, no sign up, and what you type stays in your browser.</p>
+          </div>
+        </div>
+        <figure class="web" aria-hidden="true">
+          <svg id="web" viewBox="0 0 440 440"></svg>
+          <figcaption class="web__cap tag mono">The web of extreme heat</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 2. The problem, as one statement that lights up word by word -->
+    <section class="band band--rule" aria-labelledby="r-title">
+      <div class="wrap">
+        <p class="counter mono">01 / 05</p>
+        <h2 id="r-title" class="visually-hidden">Why heat needs a shared response</h2>
+        <p class="reveal" style="margin-top:40px">Heat is a wicked problem. Every link runs through someone’s health, income or home, and many loop back to make things worse. <span class="lime">The way out is shared.</span></p>
+        <p class="reveal-note">No single owner, no single cause and no finish line. That is why protection works only when the people who hold each piece agree how it will work, before the hot weeks arrive.</p>
+      </div>
+    </section>
+
+    <!-- 3. How it works: the five tools in the order they build on each other -->
+    <section class="band band--rule" aria-labelledby="t-title">
+      <div class="wrap">
+        <div class="sec-head rise">
+          <div><p class="counter mono">02 / 05</p><h2 id="t-title" style="margin-top:24px">Five tools, in the order they build on each other.</h2></div>
+          <p>Start where you are. Each tool stands on its own, takes minutes rather than days, and leaves you with something to use.</p>
+        </div>
+        <ol class="tools rise">
+          <li><a class="tool" href="/a-week-in-the-heat/" data-go="tool-feel"><span class="tool__n mono">01</span><span class="tool__name"><small class="mono">Feel it</small>A week in the heat</span><span class="tool__take">Follow one worker’s money through a heatwave, build protection, then try to break it.</span><span class="tool__time mono">15 min</span><span class="arrow" aria-hidden="true">→</span></a></li>
+          <li><a class="tool" href="/#practical" data-go="tool-find"><span class="tool__n mono">02</span><span class="tool__name"><small class="mono">Find what works</small>Practical actions</span><span class="tool__take">What to do in workplaces, homes, schools, clinics and neighbourhoods, and what keeps it working.</span><span class="tool__time mono">10 to 20 min</span><span class="arrow" aria-hidden="true">→</span></a></li>
+          <li><a class="tool" href="/plan/" data-go="tool-plan"><span class="tool__n mono">03</span><span class="tool__name"><small class="mono">Plan it</small>Plan a response</span><span class="tool__take">A plan with owners, money and triggers, and a stress test of essential services.</span><span class="tool__time mono">30 to 60 min</span><span class="arrow" aria-hidden="true">→</span></a></li>
+          <li><a class="tool" href="/together/" data-go="tool-together"><span class="tool__n mono">04</span><span class="tool__name"><small class="mono">Make it work together</small>Who has to say yes?</span><span class="tool__take">A coordinator’s simulation for one place, ending in a place protection plan.</span><span class="tool__time mono">30 min</span><span class="arrow" aria-hidden="true">→</span></a></li>
+          <li><a class="tool" href="/plan/#plan-mech" data-go="tool-learn"><span class="tool__n mono">05</span><span class="tool__name"><small class="mono">Learn from others</small>How five cities organise</span><span class="tool__take">Mechanisms to adapt, not copy, and what to check before you do.</span><span class="tool__time mono">5 min</span><span class="arrow" aria-hidden="true">→</span></a></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 4. Proof beside the claim: published evidence the tools are built on -->
+    <section class="band light" aria-labelledby="e-title">
+      <div class="wrap">
+        <div class="sec-head rise">
+          <div><p class="counter mono">03 / 05</p><h2 id="e-title" style="margin-top:24px">Built on published evidence, not opinion.</h2></div>
+          <p>Every consequence on the map links to its source, and where the evidence is still emerging, the map says so.</p>
+        </div>
+        <div class="cards rise">
+          <a class="card" href="https://wmo.int/media/news/un-secretary-general-issues-call-action-extreme-heat-0" target="_blank" rel="noopener"><p class="tag mono">United Nations · July 2024</p><h3>The Secretary-General’s Call to Action on Extreme Heat</h3><p>The first joint product of ten UN entities, including WHO, WMO and the ILO, calling for urgent action to protect vulnerable people and workers.</p><span class="card__foot mono">Read the call<span class="visually-hidden"> (opens in a new tab)</span><span class="arrow" aria-hidden="true">↗</span></span></a>
+          <a class="card" href="https://www.who.int/europe/publications/i/item/9789289062930" target="_blank" rel="noopener"><p class="tag mono">WHO/Europe · 2026</p><h3>Eight core elements of a heat–health action plan</h3><p>Every plan made with the planner is checked against them, element by element, as it is filled in.</p><span class="card__foot mono">Read the guidance<span class="visually-hidden"> (opens in a new tab)</span><span class="arrow" aria-hidden="true">↗</span></span></a>
+          <a class="card" href="https://mcr2030.undrr.org/publication/urban-heat-risk-management-resource-package" target="_blank" rel="noopener"><p class="tag mono">MCR2030 · 2025</p><h3>How five cities organise for heat</h3><p>Examples of institutional practice from Amadora, Incheon, Cape Town, Quito and Nairobi, to adapt rather than copy.</p><span class="card__foot mono">Read the package<span class="visually-hidden"> (opens in a new tab)</span><span class="arrow" aria-hidden="true">↗</span></span></a>
+          <a class="card card--tissue" href="/the-web/"><p class="tag mono">The map · open data</p><h3><span data-count="consequences">87</span> consequences, each with its source</h3><p>Read every link of the web as plain text, with the studies and reports behind it.</p><span class="card__foot mono">See the evidence<span class="arrow" aria-hidden="true">→</span></span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Who it is for: each audience goes straight to its own path -->
+    <section class="band light" aria-labelledby="w-title" style="padding-top:0">
+      <div class="wrap">
+        <div class="sec-head rise">
+          <div><p class="counter mono">04 / 05</p><h2 id="w-title" style="margin-top:24px">Made for everyone who has a piece of the answer.</h2></div>
+          <p>Choose who you are and the guide opens with a path for you, with how long each stop takes and what you leave with.</p>
+        </div>
+        <div class="who rise">
+          <a class="card" href="/?way=plan#start" data-go="who-city"><p class="tag mono">City teams</p><p>Build a heat plan with owners, money and triggers.</p><span class="card__foot mono">Your path<span class="arrow" aria-hidden="true">→</span></span></a>
+          <a class="card" href="/?way=help#start" data-go="who-ngo"><p class="tag mono">NGOs</p><p>Put practical protection in place before the hot weeks.</p><span class="card__foot mono">Your path<span class="arrow" aria-hidden="true">→</span></span></a>
+          <a class="card" href="/?way=fund#start" data-go="who-funder"><p class="tag mono">Funders</p><p>See where money makes the difference, and who is at work.</p><span class="card__foot mono">Your path<span class="arrow" aria-hidden="true">→</span></span></a>
+          <a class="card" href="/?way=community#start" data-go="who-community"><p class="tag mono">Communities</p><p>Protection where people live, trade and wait.</p><span class="card__foot mono">Your path<span class="arrow" aria-hidden="true">→</span></span></a>
+          <a class="card" href="/?way=community#start" data-go="who-workers"><p class="tag mono">Workers’ organisations</p><p>Measures workers and employers can agree together.</p><span class="card__foot mono">Your path<span class="arrow" aria-hidden="true">→</span></span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Objections, answered plainly -->
+    <section class="band light band--faq" aria-labelledby="q-title" style="padding-top:0">
+      <div class="wrap">
+        <div class="sec-head rise">
+          <div><p class="counter mono">05 / 05</p><h2 id="q-title" style="margin-top:24px">Questions people ask first.</h2></div>
+        </div>
+        <div class="faq rise">
+          <details><summary>Is it free?</summary><p>Yes. Everything is free to use, with no sign up. Text and data are shared under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0<span class="visually-hidden"> (opens in a new tab)</span></a>, so you can copy, adapt and translate them with credit.</p></details>
+          <details><summary>What happens to what I type?</summary><p>It stays in your own browser. Plans, simulations and exercises are saved on your device, not sent to us. Visits are counted with GoatCounter, which uses no cookies and collects no personal data.</p></details>
+          <details><summary>Where does the evidence come from?</summary><p>From published studies, official guidance and reports, each linked where it is used. Where evidence is still emerging, the map says so. The method is explained on <a href="/#method">how this map works</a>.</p></details>
+          <details><summary>Who is behind it?</summary><p>BeatTheHeat.Asia is being built by a group of organisations working on extreme heat. It is an independent work in progress, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement.</p></details>
+          <details><summary>Is this for campaigning?</summary><p>No. It is a tool for cooperation: it helps the people and bodies who already hold responsibility agree how protection will work. It does not assign blame, and it never scores places or predicts illness.</p></details>
+          <details><summary>Can I use it in a workshop or a community meeting?</summary><p>Yes. There is a <a href="/print/workshop-guide/">workshop guide</a> for a 90 minute session for officials, funders and NGOs, and a <a href="/print/community-workshop-guide/">community version</a> for community groups and workers’ organisations.</p></details>
+          <details><summary>Does it cover my city?</summary><p>The map covers South and Southeast Asia, with pages for twelve cities, worker exercises for ten countries, and a planner that works for any ward, city or district you name.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. The same action as the top, once more -->
+    <section class="band final" aria-labelledby="f-title">
+      <div class="wrap">
+        <h2 id="f-title" class="rise">Start with two questions. Leave with a path.</h2>
+        <div class="cta rise">
+          <a class="go" href="/#start" data-go="final"><span class="go__label" data-v="cta">Find your way in</span><span class="go__arrow" aria-hidden="true">→</span></a>
+          <p class="trust">Free, no sign up, and what you type stays in your browser.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap">
+      <ul class="foot__links mono">
+        <li><a href="/">The map</a></li>
+        <li><a href="/guide/">How to use this site</a></li>
+        <li><a href="/the-web/">Every link, as text</a></li>
+        <li><a href="/print/">Printable one-pagers</a></li>
+        <li><a href="/#method">How this map works</a></li>
+      </ul>
+      <p>This is a beta version. BeatTheHeat.Asia is being built by a group of organisations working on extreme heat. It is an independent work in progress, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement.</p>
+      <p>Text and data © BeatTheHeat.Asia contributors, shared under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0<span class="visually-hidden"> (opens in a new tab)</span></a>. Code under the MIT licence.</p>
+    </div>
+  </footer>
+
+  <script>
+  (function () {
+    "use strict";
+    // One page, several campaigns: ?for=city|ngo|funder|community changes the promise and
+    // opens the guide with the matching first answer. Unknown values fall back to the default.
+    const V = {
+      city: { tag: "For city, health and disaster teams", title: "A heat plan your city can run.", sub: "Turn the evidence into a plan with owners, money and triggers, then stress test the services people rely on in a heatwave. Free, sourced, and ready for your next team meeting.", way: "plan", cta: "Find your way in" },
+      ngo: { tag: "For NGOs and volunteer groups", title: "Help one place get ready for heat.", sub: "Find who has to say yes, build what must happen together, and run a hot week before it arrives. A free simulation and a printable place protection plan.", way: "help", cta: "Find your way in" },
+      funder: { tag: "For funders and partners", title: "See where money protects people from heat.", sub: "Follow one worker’s money through a heatwave, see which protection actually reaches them, and find who is already at work across the region.", way: "fund", cta: "Find your way in" },
+      community: { tag: "For community groups and workers’ organisations", title: "Protect your community and workplace from heat.", sub: "Practical steps for homes, workplaces, markets and streets, and a 90 minute meeting guide to agree what you will do together.", way: "community", cta: "Find your way in" }
+    };
+    const q = new URLSearchParams(location.search), key = q.get("for"), v = V[key];
+    const track = name => { try { if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: name, title: name, event: true }); } catch (e) {} };
+    if (v) {
+      document.querySelectorAll("[data-v]").forEach(el => { if (v[el.dataset.v]) el.textContent = v[el.dataset.v]; });
+      document.querySelectorAll('.go[href="/#start"]').forEach(a => { a.href = `/?way=${v.way}#start`; });
+      document.title = v.title.replace(/\.$/, "") + " | BeatTheHeat.Asia";
+    }
+    const tag = v ? key : "default";
+    document.addEventListener("click", ev => { const a = ev.target.closest && ev.target.closest("[data-go]"); if (a) track(`start-${tag}-${a.dataset.go}`); });
+    window.addEventListener("load", () => setTimeout(() => track(`start-view-${tag}`), 600));
+
+    // the web: ten systems around extreme heat, a few cross links, and three loops that glow
+    const svg = document.getElementById("web");
+    if (svg) {
+      let seed = 7; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+      const C = 220, n = 10, nodes = [], ns = "http://www.w3.org/2000/svg", out = [];
+      for (let i = 0; i < n; i++) { const a = (i / n) * Math.PI * 2 - Math.PI / 2, r = 150 + rnd() * 26; nodes.push([C + Math.cos(a) * r, C + Math.sin(a) * r]);
+        for (let k = 0; k < 3; k++) { const b = a + (rnd() - .5) * .9, rr = r + 18 + rnd() * 34; nodes.push([C + Math.cos(b) * rr * .92, C + Math.sin(b) * rr * .92]); } }
+      const line = (x1, y1, x2, y2, c, w, cls) => out.push(`<line x1="${x1.toFixed(1)}" y1="${y1.toFixed(1)}" x2="${x2.toFixed(1)}" y2="${y2.toFixed(1)}" stroke="${c}" stroke-width="${w}"${cls ? ` class="${cls}"` : ""}/>`);
+      for (let i = 0; i < n; i++) { const h = nodes[i * 4]; line(C, C, h[0], h[1], "#40372e", 1);
+        for (let k = 1; k < 4; k++) line(h[0], h[1], nodes[i * 4 + k][0], nodes[i * 4 + k][1], "#40372e", .8);
+        const j = (i + 3 + Math.floor(rnd() * 3)) % n, o = nodes[j * 4]; out.push(`<path d="M${h[0].toFixed(1)} ${h[1].toFixed(1)} Q${C} ${C} ${o[0].toFixed(1)} ${o[1].toFixed(1)}" fill="none" stroke="#2a2018" stroke-width=".8"/>`); }
+      [[0, 4], [2, 7], [5, 9]].forEach(([a, b], i) => { const p = nodes[a * 4], o = nodes[b * 4];
+        out.push(`<path d="M${p[0].toFixed(1)} ${p[1].toFixed(1)} Q${(C + (p[0] + o[0]) / 2) / 2} ${(C + (p[1] + o[1]) / 2) / 2} ${o[0].toFixed(1)} ${o[1].toFixed(1)}" fill="none" stroke="#dc5000" stroke-width="1.4" class="pulse" style="animation-delay:${i * .9}s"/>`); });
+      nodes.forEach((p, i) => out.push(`<circle cx="${p[0].toFixed(1)}" cy="${p[1].toFixed(1)}" r="${i % 4 ? 2.2 : 4}" fill="${i % 4 ? "#6c5f51" : "#ffedd7"}"/>`));
+      out.push(`<circle cx="${C}" cy="${C}" r="22" fill="none" stroke="#dc5000" stroke-width="1.2"/><circle cx="${C}" cy="${C}" r="9" fill="#dc5000" class="pulse"/>`);
+      svg.innerHTML = out.join("");
+    }
+
+    // the statement lights up word by word, in reading order, as it crosses a line two thirds down the screen
+    const rv = document.querySelector(".reveal");
+    if (rv) {
+      const wrapWords = (node, lime) => [...node.childNodes].forEach(c => {
+        if (c.nodeType === 3) { const f = document.createDocumentFragment(); c.data.split(/(\s+)/).forEach(t => { if (!t) return; if (/^\s+$/.test(t)) { f.appendChild(document.createTextNode(t)); return; } const s = document.createElement("span"); s.className = "w" + (lime ? " w--lime" : ""); s.textContent = t; f.appendChild(s); }); c.replaceWith(f); }
+        else if (c.nodeType === 1) wrapWords(c, lime || c.classList.contains("lime"));
+      });
+      wrapWords(rv, false);
+      const words = [...rv.querySelectorAll(".w")];
+      let ticking = false;
+      const paint = () => { ticking = false; const line = innerHeight * 0.66; words.forEach(w => w.classList.toggle("on", w.getBoundingClientRect().top < line)); };
+      const onScroll = () => { if (!ticking) { ticking = true; requestAnimationFrame(paint); } };
+      if (matchMedia("(prefers-reduced-motion: reduce)").matches) words.forEach(w => w.classList.add("on"));
+      else { addEventListener("scroll", onScroll, { passive: true }); addEventListener("resize", onScroll); paint(); }
+    }
+
+    // blocks below the first screen arrive with a slow rise
+    const rise = document.querySelectorAll(".rise");
+    if ("IntersectionObserver" in window) { const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } }), { rootMargin: "0px 0px -10% 0px" }); rise.forEach(el => io.observe(el)); }
+    else rise.forEach(el => el.classList.add("in"));
+  })();
+  </script>
+  <script async src="https://gc.zgo.at/count.js" data-goatcounter="https://beattheheat.goatcounter.com/count"></script>
+</body>
+</html>
