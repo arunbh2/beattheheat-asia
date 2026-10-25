@@ -229,6 +229,8 @@ button { font: inherit; color: inherit; }
 .intro__flag a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .intro__flag a:focus-visible { outline: 3px solid var(--orange); outline-offset: 4px; border-radius: 4px; }
 .intro__proof { margin: 16px auto 0; font-size: .875rem; line-height: 1.25rem; color: var(--grey-700); text-wrap: balance; }
+.intro__for { display: block; margin-top: 8px; text-wrap: balance; }
+@media (max-width: 359px) { .intro__for { font-size: 1rem; line-height: 1.5rem; } }
 .intro__proof b { color: var(--ink); }
 .intro__proof > span { white-space: nowrap; }
 .intro__cta { margin: 32px auto 0; display: flex; flex-direction: column; align-items: center; gap: 12px; }
