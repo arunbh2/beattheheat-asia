@@ -132,7 +132,7 @@ The “Cooling options” section, just before “Plan a response”, shows what
 
 ## Find practical actions (part 29 of `data.js`)
 
-The title has two doors: **Find practical actions** and **Explore the system**. `ACTION_SETTINGS` drives the action finder: six settings (outdoor and hot workplaces, homes, schools and childcare, health facilities, markets and neighbourhoods, and before summer for municipalities), each with short cards. Every card answers the eight questions in `ACTION_LINES`: what to do, who it protects, where it suits, who must act, running and upkeep, evidence, what could stop it, and what it only works with. A card links to its action on the map (`lever`), can be added to the plan in one tap, and pulls a rough cost from Cooling options when it names one (`cost`). `ACTION_JOURNEYS` lists the questions people arrive with; “Why are our interventions failing?” opens the seven reasons action stalls. Links such as `/#practical-clinics` open a setting. Each setting has a printable card sheet (`/print/actions-<id>/`) and all cards are on the text page `/practical-actions/`. Start here now puts “Find practical actions” first. The section sits under **Act on it**, directly before Cooling options, and the two link to each other: a setting with a matching place (`cool`) links to its options, costs and traps, and Cooling options points back to the practical actions.
+The title has one front door, **Find your way in** (to the guide below it), and two quieter side doors: **Find practical actions** and **Explore the system**. `ACTION_SETTINGS` drives the action finder: six settings (outdoor and hot workplaces, homes, schools and childcare, health facilities, markets and neighbourhoods, and before summer for municipalities), each with short cards. Every card answers the eight questions in `ACTION_LINES`: what to do, who it protects, where it suits, who must act, running and upkeep, evidence, what could stop it, and what it only works with. A card links to its action on the map (`lever`), can be added to the plan in one tap, and pulls a rough cost from Cooling options when it names one (`cost`). `ACTION_JOURNEYS` lists the questions people arrive with; “Why are our interventions failing?” opens the seven reasons action stalls. Links such as `/#practical-clinics` open a setting. Each setting has a printable card sheet (`/print/actions-<id>/`) and all cards are on the text page `/practical-actions/`. Start here now puts “Find practical actions” first. The section sits under **Act on it**, directly before Cooling options, and the two link to each other: a setting with a matching place (`cool`) links to its options, costs and traps, and Cooling options points back to the practical actions.
 
 ## Evidence labels, time horizons and delivery
 
@@ -173,6 +173,18 @@ Each `EVIDENCE` entry can carry `type`, `where`, `scale` and `limit`, shown unde
 ## Visit counting (part 22 of `data.js`)
 
 Visits are counted with [GoatCounter](https://www.goatcounter.com/), which uses no cookies and collects no personal data. `SITE_ANALYTICS.goatcounter` holds the counter’s code; leave it empty (`""`) to switch counting off, and nothing is loaded. As well as page views, `track()` in `script.js` records a few anonymous events, each named for what it counts: films and explainers watched (`watch-…`), plan buttons (`plan-print`, `plan-copy`, `plan-map`), worked examples loaded, forecast checks by city, cooling options added to a plan, and briefs opened. The privacy note in “How this map works” describes this.
+
+## The title (hero)
+
+The hero has one job: get a first-time visitor to the right place. In order, it shows:
+- An eyebrow linking to the UN Secretary-General's Call to Action on Extreme Heat (July 2024), so the opening claim carries its source.
+- The headline. "Wicked problem" never breaks across lines.
+- A subheadline that says what the site is, where and for whom.
+- A proof line: consequences and cycles counted from the data (`data-stat`), every consequence sourced.
+- One primary button, **Find your way in**, with a trust line: free, no sign up, what you type stays in the browser.
+- Two quieter side doors for visitors who already know what they want.
+
+Sizes and spacing follow a fixed scale: 12, 14, 16, 18, 20, 24, 36, 48, 72 and 96px type; 4 to 64px spacing.
 
 ## Find your way in (part 35 of `data.js`, `guide.js`)
 

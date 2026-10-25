@@ -1301,7 +1301,7 @@
     const d = briefData(id);
     const L = [];
     L.push(`BREAKING THE LOOPS OF EXTREME HEAT`, `A brief for: ${d.inst.name}`, `From the BeatTheHeat.Asia systems map: ${d.url}`, "");
-    L.push(`Extreme heat is a global health emergency and an urgent and growing threat. On this map, ${d.inst.name.toLowerCase()} hold ${plural(d.levers.length, "lever")} that can help break ${d.loops.length} of the ${LOOPS.length} vicious cycles that make heat worse.`, "");
+    L.push(`The UN has called for urgent action on extreme heat. On this map, ${d.inst.name.toLowerCase()} hold ${plural(d.levers.length, "lever")} that can help break ${d.loops.length} of the ${LOOPS.length} vicious cycles that make heat worse.`, "");
     L.push("YOUR PROTECTION CHAIN");
     STAGES.forEach(([k, label]) => d.pb[k] && L.push(`${label}: ${d.pb[k]}`));
     L.push("", "YOUR LEVERS");
@@ -1328,7 +1328,7 @@
     const h = s => esc(s);
     const html = `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Heat brief: ${h(d.inst.name)}</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;700&display=swap"><style>${css}</style></head><body>
       <button class="print" onclick="window.print()">Print or save as PDF</button>
-      <p class="k">A global health emergency</p><h1>Breaking the loops of extreme heat</h1>
+      <p class="k">The UN calls for urgent action on extreme heat</p><h1>Breaking the loops of extreme heat</h1>
       <p class="sub">A brief for <strong>${h(d.inst.name)}</strong> · from the BeatTheHeat.Asia systems map · <a href="${h(d.url)}">${h(d.url)}</a></p>
       <p>Extreme heat is an urgent and growing threat. On this map, ${h(d.inst.name.toLowerCase())} hold <strong>${plural(d.levers.length, "lever")}</strong> that can help break <strong>${d.loops.length} of the ${LOOPS.length}</strong> vicious cycles that make heat worse.</p>
       <div class="bar"><span style="width:${(d.loops.length / LOOPS.length * 100).toFixed(1)}%"></span></div>

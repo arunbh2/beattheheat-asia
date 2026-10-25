@@ -6,7 +6,7 @@ This is a beta version. BeatTheHeat.Asia is being built by a group of organisati
 
 Text, data, films and illustrations © BeatTheHeat.Asia contributors, shared under Creative Commons Attribution 4.0 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/): you may copy, adapt and translate them, with credit and a link to beattheheat.asia. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’ and are not covered.
 
-Interactive map: https://beattheheat.asia/ · Generated 2026-10-24
+Interactive map: https://beattheheat.asia/ · Generated 2026-10-25
 
 ## The web of extreme heat: every consequence, system by system
 
