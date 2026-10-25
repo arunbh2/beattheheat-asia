@@ -46,6 +46,7 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The pa
 
 - [All one-pagers](https://beattheheat.asia/print/): single A4 briefs for officials, planners and journalists
 - [Using BeatTheHeat.Asia in a 90-minute workshop](https://beattheheat.asia/print/workshop-guide/)
+- [A 90-minute heat meeting for your community or workplace](https://beattheheat.asia/print/community-workshop-guide/)
 - [Four heats in a home](https://beattheheat.asia/print/four-heats/)
 - [Weather, work and the person](https://beattheheat.asia/print/weather-work-person/)
 - [Dry heat and humid heat](https://beattheheat.asia/print/dry-and-humid-heat/)
