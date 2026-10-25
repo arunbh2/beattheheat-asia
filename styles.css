@@ -2335,3 +2335,15 @@ body:not([data-page="plan"]) a[href^="#plan-"]::after, body:not([data-page="plan
 .guide-parts b { display: block; font-size: 1rem; margin-bottom: 4px; }
 .guide-know { margin-top: 12px; padding-left: 20px; display: grid; gap: 6px; }
 .guide-alt { margin-top: 16px; padding: 16px 24px; border: 1px solid var(--line); border-radius: 12px; background: var(--white); font-size: 1rem; line-height: 1.5rem; }
+
+/* ---------- Tool pages: one clear first step (together, a week in the heat, plan) ---------- */
+.h2.tool-h1 { font-size: 2.25rem; line-height: 1; }
+@media (min-width: 640px) { .h2.tool-h1 { font-size: 3.75rem; } }
+@media (min-width: 1024px) { .h2.tool-h1 { font-size: 4.5rem; } }
+.loops__intro.tool-lede { max-width: 680px; font-size: 1.125rem; line-height: 1.75rem; text-wrap: pretty; }
+@media (min-width: 640px) { .loops__intro.tool-lede { font-size: 1.25rem; line-height: 1.75rem; } }
+.tool-cta { margin: 24px 0; display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; }
+.tool-cta__trust { flex: 1 1 280px; max-width: 480px; font-size: .875rem; line-height: 1.25rem; color: var(--grey-500); text-wrap: pretty; }
+@media (max-width: 520px) { .tool-cta .btn--hero { width: 100%; } }
+.wk-start { margin: 24px 0 12px; font-size: 1rem; line-height: 1.5rem; }
+.pm { margin-top: 32px; }
