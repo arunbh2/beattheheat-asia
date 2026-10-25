@@ -4213,6 +4213,7 @@ const GUIDE = {
     levers: { title: "Find who holds the levers", does: "The institutions that can act, and the cycles each can help break.", time: "5 min", take: "who to talk to", href: "#who-holds" },
     stalls: { title: "See why action stalls", does: "Seven conditions that stall action, and what has moved them.", time: "5 min", take: "the obstacles to expect", href: "#stalls" },
     network: { title: "Browse the heat network", does: "Organisations, funders and lenders already at work.", time: "5 min", take: "partners and gaps", href: "#network" },
+    cworkshop: { title: "Print the community workshop guide", does: "A one-page plan for a 90-minute meeting of a community group or workers’ organisation, in plain language.", time: "1 min", take: "a running order, and a sheet for what you will do and ask", href: "/print/community-workshop-guide/", tab: true },
     workshop: { title: "Print the workshop guide", does: "A one-page plan for a 90-minute session: which tool when, and for whom.", time: "1 min", take: "a running order for the room", href: "/print/workshop-guide/", tab: true }
   },
   paths: {
@@ -4220,7 +4221,7 @@ const GUIDE = {
     "help:5": ["now", "practical"], "help:30": ["atrisk", "practical", "cooling", "week"], "help:workshop": ["workshop", "week", "practical", "plan", "stress"],
     "plan:5": ["five", "mech"], "plan:30": ["planex", "plan", "stress"], "plan:workshop": ["workshop", "week", "plan", "together", "mech"],
     "fund:5": ["film", "finance"], "fund:30": ["week", "finance", "levers", "network"], "fund:workshop": ["workshop", "week", "together", "finance", "network"],
-    "community:5": ["pawork", "pahome"], "community:30": ["week", "pawork", "pahome", "fourheats"], "community:workshop": ["workshop", "week", "pawork", "paneighbour", "together"]
+    "community:5": ["pawork", "pahome"], "community:30": ["week", "pawork", "pahome", "fourheats"], "community:workshop": ["cworkshop", "week", "pawork", "paneighbour", "together"]
   },
   toolkit: [
     { n: 1, verb: "Feel it", name: "A week in the heat", href: "/a-week-in-the-heat/", tab: true, who: "Funders, officials, NGOs, workers’ organisations", time: "15 min", take: "Where a worker’s money runs out, and which protection actually reaches them.", icon: "feel" },
@@ -4238,5 +4239,15 @@ const GUIDE = {
     { time: "75–90", what: "Agree the next three decisions, and who takes each", why: "Leave with commitments, recorded on the plan’s status ladder." }
   ],
   workshopTips: ["One person drives the screen; everyone else talks.", "Use a real place the room knows, but keep the worker composite.", "Record what is agreed, and what is only discussed. The plan’s status ladder does this.", "Close by printing the plan, or copying it into the meeting notes."],
+  // the same 90 minutes for a community group or workers’ organisation (print/community-workshop-guide)
+  workshopCommunity: [
+    { time: "0–10", what: "Share what the hot weeks were like here last year", why: "Start from what people know. Talk about places and conditions, not about who is to blame." },
+    { time: "10–30", what: "Follow one worker’s week in the heat, together on one screen", why: "A shared story makes it easier to talk about our own. The worker is made up, so no one has to share theirs." },
+    { time: "30–50", what: "Find actions for the places we live and work", why: "Workplaces, homes, markets and streets: pick what we can start ourselves this season." },
+    { time: "50–75", what: "See who needs to say yes, and what each would need", why: "Some protection needs partners: an employer, a landlord, a market committee, a clinic or the local council." },
+    { time: "75–90", what: "Agree what we will do, and what we will ask of whom", why: "A name next to each action, and each request written as an invitation to work together." }
+  ],
+  workshopCommunityTips: ["Use the languages people speak, and read the screen aloud.", "Keep the worker made up. Never share someone’s own story without their permission.", "Talk about conditions and solutions, not blame.", "Note what the group can do on its own, and what needs a partner.", "If anyone feels unwell from the heat, stop and look after them first.", "Close by reading the list back, then print or photograph it."],
+  workshopCommunityBefore: ["Choose a cool, shaded place, with drinking water for everyone.", "Pick a time that does not cost people a day’s work.", "Open the worker exercise, practical actions and the coordinator’s simulation in three tabs. No screen? Print the action cards.", "Ask who will write down what is agreed."],
   welcome: "New here? This site is large. Answer two questions and it will suggest where to start."
 };

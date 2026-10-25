@@ -146,6 +146,24 @@ async function build() {
         sources: [{ label: "BeatTheHeat.Asia: how to use this site", url: "https://beattheheat.asia/guide/" }] }));
   }
 
+  // 0b. The same 90 minutes for a community group or workers' organisation
+  if (D.GUIDE && D.GUIDE.workshopCommunity) {
+    const G = D.GUIDE, blank = n => Array.from({ length: n }, () => "<tr><td style=\"height:34px\">&nbsp;</td><td></td><td></td><td></td><td></td></tr>").join("");
+    const body = `<h2>Running order</h2><table><tr><th style="width:14%">Minutes</th><th style="width:44%">What happens</th><th>Why</th></tr>
+        ${G.workshopCommunity.map(w => `<tr><td><b>${esc(w.time)}</b></td><td><b>${esc(w.what)}</b></td><td>${esc(w.why)}</td></tr>`).join("")}</table>
+      <h2>Our heat plan: what we will do, and what we will ask</h2>
+      <table><tr><th style="width:28%">What we will do ourselves, or ask for</th><th style="width:20%">Who we will ask</th><th style="width:16%">Who carries it</th><th style="width:14%">By when</th><th>What happened</th></tr>${blank(5)}</table>
+      <p style="font-size:.85em;margin-top:4px">Write each request as an invitation to work together: what would help, why it matters to people here, and what the group can offer in return.</p>
+      <div class="cols" style="margin-top:4px"><div><h2>Tips for the person leading</h2><ul class="tight">${G.workshopCommunityTips.map(t => `<li>${esc(t)}</li>`).join("")}</ul></div>
+        <div><h2>Before the meeting</h2><ul class="check">${G.workshopCommunityBefore.map(t => `<li>${esc(t)}</li>`).join("")}</ul></div></div>
+      <p style="margin-top:6px"><b>The tools:</b> <span style="white-space:nowrap">beattheheat.asia/a-week-in-the-heat/</span> · <span style="white-space:nowrap">/#practical</span> · <span style="white-space:nowrap">/together/</span> · <b>Action cards to print:</b> <span style="white-space:nowrap">/print/actions-work/</span> · <span style="white-space:nowrap">/print/actions-homes/</span> · <span style="white-space:nowrap">/print/actions-neighbourhoods/</span></p>`;
+    const kind = "Facilitator’s guide · For community groups and workers’ organisations", title = "A 90-minute heat meeting for your community or workplace";
+    add("community-workshop-guide", { kind, title, for: "Community groups" },
+      await sheet({ slug: "community-workshop-guide", kind, title,
+        lede: "Start from what people know, follow one worker’s week, find what you can do yourselves, and agree what to ask of partners, written as invitations to work together.", body, live: "/guide/",
+        sources: [{ label: "BeatTheHeat.Asia: how to use this site", url: "https://beattheheat.asia/guide/" }] }));
+  }
+
   // 1. Four heats in a home
   {
     const body = `<div class="cols" style="margin-top:8px"><div>${houseSVG()}
