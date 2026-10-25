@@ -191,31 +191,6 @@ The three tool pages follow the same pattern (`.tool-h1`, `.tool-lede`, `.tool-c
 - **A week in the heat:** "Start the exercise", which lands on a "Start here: choose a country, then a worker" prompt.
 - **Plan a response:** "Start your plan", which lands on step 1. The worked examples sit underneath as quieter choices ("Or start from a worked example"). The five-cities mechanisms (`#plan-mech`) now follow the plan, as the toolkit's "learn from others" step.
 
-## The campaign landing page (`/start/`)
-
-`start/index.html` is a self-contained landing page for campaigns. It has its own visual system, with all styles inline:
-- **Colours:** a warm walnut canvas (`#100904`), cream type (`#ffedd7`), dashed hairlines (`#40372e`) and one ember accent (`#dc5000`). The ember is kept to tags, short phrases and the drawing of the web.
-- **Type:** uppercase display lines in Inter 500, with Inter 400 for body text.
-- **One solid button:** bark (`#382416`) with pill corners.
-- **Depth and motion:** flat surfaces with no shadows, and quiet motion of 240–320ms that respects reduced motion.
-
-It follows the landing-page pattern, in this order:
-1. One promise, one button (**Find your way in**) and a trust line.
-2. A statement that lights up word by word.
-3. The five tools.
-4. Published evidence.
-5. A card for each audience.
-6. Seven common questions.
-7. The same button again at the end.
-
-**Campaign versions.** Add `?for=city`, `?for=ngo`, `?for=funder` or `?for=community` to change the tag, headline and subheadline. The button then opens the guide with the matching first answer already chosen (`/?way=plan#start`); `guide.js` reads `?way=` and removes it from the address. An unknown value shows the default.
-
-**Campaigns with their own address.** Link previews on social media and messaging apps read only the HTML, not the JavaScript, so a campaign that will be shared gets a page of its own. `tools/build-static.js` generates it from `start/index.html` and gives it its own title, description, preview image and button link. The first is **`/start/community/`**, for community groups and workers’ organisations. Its preview image is `images/social-start-community.jpg`, made from `tools/social/start-community.html` (open it in a browser at 1200×630 and save a screenshot). The campaign style is used only on these pages; the rest of the site keeps its own design.
-
-**Counting.** GoatCounter counts a view per version (`start-view-<version>`) and each click (`start-<version>-<place>`). Add `?utm_source=` or `?ref=` to a campaign link, and GoatCounter records it as the referrer.
-
-**Not indexed.** The page is `noindex` and left out of the sitemap, so it never competes with the home page in search. `tools/build-static.js` keeps its counts (consequences and cycles) in step with the data.
-
 ## Find your way in (part 35 of `data.js`, `guide.js`)
 
 The site is large, so first-time visitors get one guide instead of several competing entry points. `GUIDE` in part 35 holds it all; `guide.js` draws it.
