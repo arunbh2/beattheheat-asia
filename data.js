@@ -4180,7 +4180,8 @@ const GUIDE = {
     { id: "understand", name: "Understand heat", hint: "How heat harms health, income and homes, and why the harm loops back." },
     { id: "help", name: "Help people this season", hint: "Practical protection to put in place before and during the hot weeks." },
     { id: "plan", name: "Build a plan with others", hint: "Owners, money, triggers and the agreements that make protection work." },
-    { id: "fund", name: "Fund or support this work", hint: "Where money and partnership make the difference, and who is already at work." }
+    { id: "fund", name: "Fund or support this work", hint: "Where money and partnership make the difference, and who is already at work." },
+    { id: "community", name: "Protect my community or workplace", hint: "For community groups and workers’ organisations: protection where people live and work." }
   ],
   times: [
     { id: "5", name: "5 minutes" },
@@ -4198,6 +4199,10 @@ const GUIDE = {
     city: { title: "Look up a city", does: "Heat, plans and cycles in twelve Asian cities.", time: "3 min", take: "where one city stands", href: "#city" },
     week: { title: "Spend a week in the heat with one worker", does: "Follow a worker’s money through a heatwave, build protection, then try to break it.", time: "15 min", take: "where the money runs out, and what reaches people", href: "/a-week-in-the-heat/", tab: true, tool: 1 },
     practical: { title: "Find practical actions", does: "What to do in workplaces, homes, schools, clinics and neighbourhoods.", time: "10 min", take: "actions you can start this season", href: "#practical", tool: 2 },
+    pawork: { title: "Find actions for workplaces", does: "Water, rest, shade and work hours that shift with the heat, and what keeps them working.", time: "5 min", take: "measures workers and employers can agree together", href: "#practical-work", tool: 2 },
+    pahome: { title: "Find actions for homes", does: "Cooler rooms by day and night, at low cost, and who can help.", time: "5 min", take: "steps a household or a street can take this season", href: "#practical-homes", tool: 2 },
+    paneighbour: { title: "Find actions for markets and neighbourhoods", does: "Shade, water points and cool places where people gather, trade and wait.", time: "5 min", take: "shared protection a neighbourhood can organise", href: "#practical-neighbourhoods", tool: 2 },
+    fourheats: { title: "See the four heats in a home", does: "Outdoor air, the roof, radiant heat and indoor air, by day and by night.", time: "3 min", take: "why a room can be hotter than the forecast", href: "#four-heats" },
     cooling: { title: "Compare cooling options", does: "What to build where people are, and what keeps it working.", time: "10 min", take: "options, costs and running needs", href: "#cooling", tool: 2 },
     finance: { title: "See how protection is paid for", does: "Who pays, how money arrives in time, and whether it lasts.", time: "10 min", take: "where money makes the difference", href: "#finance" },
     plan: { title: "Plan a response", does: "Six steps from who you protect to a plan you can run, with owners, money and triggers.", time: "30 min", take: "a printable plan", href: "/plan/", tab: true, tool: 3 },
@@ -4214,13 +4219,14 @@ const GUIDE = {
     "understand:5": ["film", "loop"], "understand:30": ["tour", "loop", "day", "atrisk", "city"], "understand:workshop": ["workshop", "film", "day", "week", "stalls"],
     "help:5": ["now", "practical"], "help:30": ["atrisk", "practical", "cooling", "week"], "help:workshop": ["workshop", "week", "practical", "plan", "stress"],
     "plan:5": ["five", "mech"], "plan:30": ["planex", "plan", "stress"], "plan:workshop": ["workshop", "week", "plan", "together", "mech"],
-    "fund:5": ["film", "finance"], "fund:30": ["week", "finance", "levers", "network"], "fund:workshop": ["workshop", "week", "together", "finance", "network"]
+    "fund:5": ["film", "finance"], "fund:30": ["week", "finance", "levers", "network"], "fund:workshop": ["workshop", "week", "together", "finance", "network"],
+    "community:5": ["pawork", "pahome"], "community:30": ["week", "pawork", "pahome", "fourheats"], "community:workshop": ["workshop", "week", "pawork", "paneighbour", "together"]
   },
   toolkit: [
-    { n: 1, verb: "Feel it", name: "A week in the heat", href: "/a-week-in-the-heat/", tab: true, who: "Funders, officials, NGOs", time: "15 min", take: "Where a worker’s money runs out, and which protection actually reaches them.", icon: "feel" },
+    { n: 1, verb: "Feel it", name: "A week in the heat", href: "/a-week-in-the-heat/", tab: true, who: "Funders, officials, NGOs, workers’ organisations", time: "15 min", take: "Where a worker’s money runs out, and which protection actually reaches them.", icon: "feel" },
     { n: 2, verb: "Find what works", name: "Practical actions and cooling options", href: "/#practical", who: "Anyone who can act this season", time: "10–20 min", take: "Actions by setting, with who does them, what they cost and what keeps them working.", icon: "find" },
     { n: 3, verb: "Plan it", name: "Plan a response", href: "/plan/", tab: true, who: "City, health and disaster teams; NGOs", time: "30–60 min", take: "A plan with owners, money, triggers and a stress test of essential services.", icon: "plan" },
-    { n: 4, verb: "Make it work together", name: "The coordinator’s simulation", href: "/together/", tab: true, who: "NGOs and volunteer groups convening a place", time: "30 min", take: "Who has to say yes, what breaks if they don’t, and a place protection plan.", icon: "together" },
+    { n: 4, verb: "Make it work together", name: "The coordinator’s simulation", href: "/together/", tab: true, who: "NGOs, community and volunteer groups convening a place", time: "30 min", take: "Who has to say yes, what breaks if they don’t, and a place protection plan.", icon: "together" },
     { n: 5, verb: "Learn from others", name: "How five cities organise for heat", href: "/plan/#plan-mech", tab: true, who: "Anyone designing a response", time: "5 min", take: "Mechanisms to adapt, and what to check before you do.", icon: "learn" }
   ],
   // the running order for a 90-minute workshop (print/workshop-guide)

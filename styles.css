@@ -2267,9 +2267,9 @@ body:not([data-page="plan"]) a[href^="#plan-"]::after, body:not([data-page="plan
 .wayin__k { display: flex; align-items: center; gap: 10px; font-size: .78rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: var(--grey-700); }
 .wayin__k span { display: inline-grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--ink); color: var(--canvas); font-size: .82rem; letter-spacing: 0; }
 .wayin__opts { margin-top: 10px; display: grid; gap: 10px; }
-.wayin__opts--reason { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.wayin__opts--reason { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .wayin__opts--time { grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: 46rem; }
-@media (max-width: 900px) { .wayin__opts--reason { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 1100px) { .wayin__opts--reason { grid-template-columns: 1fr 1fr; } .wayin__opts--reason > :last-child:nth-child(odd) { grid-column: 1 / -1; } }
 @media (max-width: 520px) { .wayin__opts--reason, .wayin__opts--time { grid-template-columns: 1fr; } }
 .wayin__opt { display: grid; gap: 4px; align-content: start; padding: 14px 16px; border-radius: 14px; border: 2px solid var(--line); background: var(--white); text-align: left; font: inherit; color: var(--ink); cursor: pointer; transition: border-color .15s, transform .15s; }
 .wayin__opt:hover { transform: translateY(-2px); border-color: var(--ink); }
