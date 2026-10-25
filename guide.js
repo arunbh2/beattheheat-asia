@@ -11,10 +11,6 @@
   let S = { reason: "", time: "", done: {}, seen: false };
   try { S = Object.assign(S, JSON.parse(localStorage.getItem(KEY) || "{}")); } catch (e) {}
   const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} };
-  // a campaign link such as /?way=community#start arrives with the first answer already chosen
-  try { const q = new URLSearchParams(location.search), w = q.get("way");
-    if (w && G.reasons.some(r => r.id === w)) { S.reason = w; S.seen = true; save(); }
-    if (q.has("way")) { q.delete("way"); history.replaceState(null, "", location.pathname + (q.toString() ? "?" + q : "") + location.hash); } } catch (e) {}
   const mins = t => { const m = /(\d+)(?:–(\d+))?\s*min/.exec(t); return m ? +(m[2] || m[1]) : 0; };
   const NEW_TAB = '<span class="visually-hidden"> (opens in a new tab)</span>';
 

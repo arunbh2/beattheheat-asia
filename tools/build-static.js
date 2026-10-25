@@ -420,10 +420,6 @@ ${BOTS.map(b => `User-agent: ${b}\nAllow: /`).join("\n\n")}
 
 Sitemap: ${SITE}/sitemap.xml
 `);
-// ---- the campaign landing page (/start/) carries the map's counts, kept current here ----
-{ const f = path.join(ROOT, "start", "index.html");
-  if (fs.existsSync(f)) fs.writeFileSync(f, fs.readFileSync(f, "utf8")
-    .replace(/(data-count="consequences">)\d+/g, `$1${D.CONSEQUENCES.length}`).replace(/(data-count="loops">)\d+/g, `$1${D.LOOPS.length}`)); }
 // ---- printable one-pagers ----
 require("./build-print")().then(list => {
   const sm = fs.readFileSync(path.join(ROOT, "sitemap.xml"), "utf8").replace("</urlset>", [`  <url><loc>${SITE}/print/</loc><lastmod>${TODAY}</lastmod><priority>0.6</priority></url>`,

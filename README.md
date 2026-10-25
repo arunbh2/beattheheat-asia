@@ -191,28 +191,6 @@ The three tool pages follow the same pattern (`.tool-h1`, `.tool-lede`, `.tool-c
 - **A week in the heat:** "Start the exercise", which lands on a "Start here: choose a country, then a worker" prompt.
 - **Plan a response:** "Start your plan", which lands on step 1. The worked examples sit underneath as quieter choices ("Or start from a worked example"). The five-cities mechanisms (`#plan-mech`) now follow the plan, as the toolkit's "learn from others" step.
 
-## The campaign landing page (`/start/`)
-
-`start/index.html` is a self-contained landing page for campaigns. It has its own visual system, with all styles inline:
-- **Colours:** a dark ink canvas (`#222f30`) with bone-white light sections, and one lime signal (`#cef79e`) kept to small marks: tag dots, arrow squares and the glowing loops in the drawing of the web.
-- **Type:** one weight of Inter Tight, with Roboto Mono for labels.
-- **Depth:** no shadows and no gradients.
-
-It follows the landing-page pattern, in this order:
-1. One promise, one button (**Find your way in**) and a trust line.
-2. A statement that lights up word by word.
-3. The five tools.
-4. Published evidence.
-5. A card for each audience.
-6. Seven common questions.
-7. The same button again at the end.
-
-**Campaign versions.** Add `?for=city`, `?for=ngo`, `?for=funder` or `?for=community` to change the tag, headline and subheadline. The button then opens the guide with the matching first answer already chosen (`/?way=plan#start`); `guide.js` reads `?way=` and removes it from the address. An unknown value shows the default.
-
-**Counting.** GoatCounter counts a view per version (`start-view-<version>`) and each click (`start-<version>-<place>`). Add `?utm_source=` or `?ref=` to a campaign link, and GoatCounter records it as the referrer.
-
-**Not indexed.** The page is `noindex` and left out of the sitemap, so it never competes with the home page in search. `tools/build-static.js` keeps its counts (consequences and cycles) in step with the data.
-
 ## Find your way in (part 35 of `data.js`, `guide.js`)
 
 The site is large, so first-time visitors get one guide instead of several competing entry points. `GUIDE` in part 35 holds it all; `guide.js` draws it.
