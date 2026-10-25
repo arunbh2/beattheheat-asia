@@ -234,6 +234,7 @@
     const s = st(), p = P(), cn = country(), sym = cn.cur.sym.trim(), sm = cn.cur.dp ? 0.1 : 10;
     box.innerHTML = `
       ${sharedIn === p.id ? `<p class="wk-shared" role="status">You are looking at ${esc(p.name)}’s week as a colleague set it up. It is saved in this browser; change anything to make it yours, or start ${esc(p.name)} again at the bottom of the page.</p>` : ""}
+      <p class="wk-start"><b>Start here:</b> choose a country, then a worker.</p>
       <div class="wk-countries" role="group" aria-label="Choose a country">${W.countries.map(c => `<button type="button" data-hw-k="${c.id}" aria-pressed="${c.id === p.country}">${esc(c.name)}</button>`).join("")}</div>
       <div class="wk-people" role="group" aria-label="Choose a worker">${W.people.filter(x => x.country === p.country).map(x => `<button type="button" class="wk-person" data-hw-p="${x.id}" aria-pressed="${x.id === p.id}">${scene(x.id)}<b>${esc(x.name)}</b><span>${esc(x.role)}</span></button>`).join("")}</div>
       <div class="wk-grid">

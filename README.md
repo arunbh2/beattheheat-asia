@@ -186,6 +186,11 @@ The hero has one job: get a first-time visitor to the right place. In order, it 
 
 Sizes and spacing follow a fixed scale: 12, 14, 16, 18, 20, 24, 36, 48, 72 and 96px type; 4 to 64px spacing.
 
+The three tool pages follow the same pattern (`.tool-h1`, `.tool-lede`, `.tool-cta`). Each shows a short introduction, one primary button that scrolls to the first step, and a trust line next to it:
+- **Make it work together:** "Start with a place".
+- **A week in the heat:** "Start the exercise", which lands on a "Start here: choose a country, then a worker" prompt.
+- **Plan a response:** "Start your plan", which lands on step 1. The worked examples sit underneath as quieter choices ("Or start from a worked example"). The five-cities mechanisms (`#plan-mech`) now follow the plan, as the toolkit's "learn from others" step.
+
 ## Find your way in (part 35 of `data.js`, `guide.js`)
 
 The site is large, so first-time visitors get one guide instead of several competing entry points. `GUIDE` in part 35 holds it all; `guide.js` draws it.
