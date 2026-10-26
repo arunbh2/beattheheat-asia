@@ -3138,6 +3138,8 @@ Evidence: Reported, not evaluated · Before the season
 
 Where it has been tried (Reported, not evaluated): At a Bengaluru construction site, a station cooled with water-soaked khus panels drew about 100–120 workers a day in April, falling to 70–80 after the monsoon began. (The Migration Story, https://themigrationstory.com/?p=19496)
 
+Where it has been tried (Reported, not evaluated): In 2026, People’s Courage International ran 20 cooling centres in big cities, placed near construction sites, road junctions and the labour nakas where day-wage workers look for jobs, with water, rehydration salts and phone charging. It reported more than 88,000 visits, and up to 1,841 in a day at one centre. These are the programme’s own figures. (World Economic Forum and BCG, Workforce Heat Resilience: An Actionable Framework to Close the Execution Gap, 2026, https://www.weforum.org/publications/workforce-heat-resilience-an-actionable-framework-to-close-the-execution-gap/)
+
 #### Warnings that reach workers
 
 Evidence: Reported, not evaluated · During the heat
@@ -3220,6 +3222,8 @@ Evidence: Design concept · Before the season
 
 - Works only if: Workers test the design first; Someone owns, moves and repairs it.
 
+Where it has been tried (Reported, not evaluated): In Rewa, Madhya Pradesh, a ₹5,000 grant from the All India Disaster Mitigation Institute let a fruit and vegetable seller buy a large umbrella covering him and his produce, and a way to keep drinking water on his cart, so he no longer had to leave to find water. In Kolkata, a movable plastic sheet gave shade to a utensil seller with no fixed pitch. (AIDMI, southasiadisasters.net Issue 228: Small Heat Resilience Measures, Big Impact in Small Towns and on Small Businesses in India, 2026, https://www.preventionweb.net/publication/documents-and-publications/small-heat-resilience-measures-big-impact-small-towns-and)
+
 #### Paid rest breaks that switch on with the alert
 
 Evidence: Measured in a study · During the heat
@@ -3239,6 +3243,10 @@ Evidence: Measured in a study · During the heat
 - What could stop it: Piece-rate pay and fixed deadlines that make stopping cost money, and no inspection.
 
 - Works only if: Breaks are paid, or paired with income protection; Heat is measured where people work; Shade and water are a few minutes away; Inspectors or unions can check.
+
+Where it has been tried (Measured in a study): Outside Asia, at a sugar producer in Nicaragua, a rest, shade and water programme with La Isla Network raised cane-cutters’ productivity by 19% over five harvests despite shorter days, and cut hospital-treated acute kidney injury by 94%. Pay was changed so workers did not lose money by resting. (Hansson et al., Annals of Work Exposures and Health, 2024, https://doi.org/10.1093/annweh/wxae007)
+
+Where it has been tried (Reported, not evaluated): The same programme was estimated to return about $1.60 for every $1 invested by its third year. (World Economic Forum and BCG, Workforce Heat Resilience: An Actionable Framework to Close the Execution Gap, 2026, https://www.weforum.org/publications/workforce-heat-resilience-an-actionable-framework-to-close-the-execution-gap/)
 
 #### Shade and water on work routes
 
@@ -3280,6 +3288,8 @@ Evidence: Measured in a study · Before the season
 
 - Works only if: The trigger counts humidity, not only temperature; Money arrives within days; Workers know they are covered.
 
+Where it has been tried (Reported, not evaluated): In 2026, about 17,000 informal workers in South Asia were covered by parametric heat insurance arranged through People’s Courage International and a local partner, most with premiums paid by companies. Each payout was set at about ₹1,000–3,000, enough for 5–6 days of basic needs, with up to ₹9,000 over a year. These are the programme’s own figures. (World Economic Forum and BCG, Workforce Heat Resilience: An Actionable Framework to Close the Execution Gap, 2026, https://www.weforum.org/publications/workforce-heat-resilience-an-actionable-framework-to-close-the-execution-gap/)
+
 #### Heat-illness first aid on every shift
 
 Evidence: Reported, not evaluated · During the heat
@@ -3300,6 +3310,8 @@ Evidence: Reported, not evaluated · During the heat
 
 - Works only if: Someone trained is on every shift; Everyone knows the emergency number; Treatment is free at the clinic.
 
+Where it has been tried (Reported, not evaluated): Most worker heat illness strikes early: about 80% happens in the first four days on the job. Guidance is to build up new and returning workers’ hours in the heat over 7–14 days, with stricter limits during heatwaves. (World Economic Forum and BCG, Workforce Heat Resilience: An Actionable Framework to Close the Execution Gap, 2026, https://www.weforum.org/publications/workforce-heat-resilience-an-actionable-framework-to-close-the-execution-gap/)
+
 #### Measure and cool hot sheds and factories
 
 Evidence: Measured in a study · Over years
@@ -3319,6 +3331,8 @@ Evidence: Measured in a study · Over years
 - What could stop it: Nobody measuring heat indoors, and factory owners who rent the building.
 
 - Works only if: Heat is measured where people stand; Workers can report symptoms without risk; Fans have power when it is hottest.
+
+Where it has been tried (Reported, not evaluated): Studies summarised for apparel buyers find output falls about 2.6% for each degree of heat stress above 24 °C WBGT. Where toilets are unsafe or missing, women workers often drink less water and suffer worse heat illness, so toilets belong in the plan. (FSG, Managing Heat: From Worker Welfare to Business Resilience, 2026, https://www.fsg.org/wp-content/uploads/2026/04/Managing-Heat-From-Worker-Welfare-to-Business-Resilience_FINAL-4-2-26.pdf)
 
 ### Homes
 
@@ -3639,6 +3653,8 @@ Evidence: Measured in a study · Before the season
 - What could stop it: Beautification that pushes informal vendors out, and shade that blocks fire access.
 
 - Works only if: Vendors have a say in design and upkeep; Nobody is evicted to make room.
+
+Where it has been tried (Reported, not evaluated): Young women vendors in Ahmedabad, who already sell 8 to 12 and 4 to 8 to avoid the midday heat, asked for shared shade sails covering about ten sellers each, and a licensed, fixed place to sell. (AIDMI, southasiadisasters.net Issue 228: Small Heat Resilience Measures, Big Impact in Small Towns and on Small Businesses in India, 2026, https://www.preventionweb.net/publication/documents-and-publications/small-heat-resilience-measures-big-impact-small-towns-and)
 
 #### Cool waiting points
 
