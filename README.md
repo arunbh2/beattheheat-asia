@@ -223,6 +223,21 @@ The map is drawn with JavaScript, which most AI crawlers (and some search engine
 
 Text, data, films and illustrations: **CC BY 4.0** (see `LICENSE`). Code: **MIT** (see `LICENSE-CODE`). Both name "BeatTheHeat.Asia contributors" as the rights holder. Linked sources, quotations and organisations' names and logos are not covered. The notice appears in the footer, in the home page's structured data, on the text pages and in `llms.txt`.
 
+## The 20-second social reel (`tools/reel/`)
+
+`media/social/beattheheat-reel-20s.mp4` is a 20-second motion piece for LinkedIn: 1080×1350 (4:5), 60 fps, H.264 with an AAC soundtrack at −16 LUFS. `beattheheat-reel-20s-cover.jpg` is its thumbnail.
+
+It is drawn frame by frame in `tools/reel/reel.html` from the map's own data: the ten systems, the consequences, the vicious cycles, the actions, the poverty–heat trap and the five tools. It runs in seven scenes:
+1. Extreme heat.
+2. A wicked problem.
+3. The web of consequences.
+4. A vicious cycle, and where it breaks.
+5. Protection that reaches people.
+6. The five tools.
+7. The closing lockup.
+
+**Watching and re-rendering.** Open `reel.html` in a browser to watch it play. Run `node tools/reel/render.js` to render it again; this needs Playwright with Chromium, ffmpeg and python3. `tools/reel/sound.py` synthesises the soundtrack and times it to the cuts. The fonts are kept in `tools/reel/fonts/` under the SIL Open Font License. If the data changes, render it again and the numbers follow.
+
 ## The menu at the top
 
 The bar at the top has a few quick links and an **All sections** button. The button opens with “New here? Find your way in”, then every section in four groups: **Understand**, **Act**, **Tools** (the exercise, the plan, the coordinator's simulation and the guide; pages that open in a new tab are marked ↗) and **Reference**. Both live in the `<header class="site-header">` at the top of `index.html`. If you add a new section, give it an `id` and add a line for it in the `site-menu` list, in page order. The bar and the menu mark the section on screen as “You are here” by themselves.
