@@ -238,6 +238,13 @@ It is drawn frame by frame in `tools/reel/reel.html` from the map's own data: th
 
 **Watching and re-rendering.** Open `reel.html` in a browser to watch it play. Run `node tools/reel/render.js` to render it again; this needs Playwright with Chromium, ffmpeg and python3. `tools/reel/sound.py` synthesises the soundtrack and times it to the cuts. The fonts are kept in `tools/reel/fonts/` under the SIL Open Font License. If the data changes, render it again and the numbers follow.
 
+## The Living Heat Planet (`apps/living-heat-planet/`, served at `/living-heat-planet/`)
+
+A separate application: a particle Earth of 207 capitals, lit by their modelled current air temperature from Open-Meteo, with city dossiers (now and the next 72 hours). Later layers (patterns, people, preparedness, solutions, investment) have typed contracts and show honest "not integrated" states.
+- **Source and documentation:** `apps/living-heat-planet/`, with its own README, `docs/` and tests.
+- **Built copy:** `living-heat-planet/` is the copy the site serves. Rebuild it with `npx vite build --mode static` from the app folder. On GitHub Pages it calls Open-Meteo from the visitor's browser, with a 20-minute cache on the device.
+- **Test page:** `hero-planet-test.html` is the home page with the planet embedded in the hero. It is noindex, outside the sitemap and linked from nowhere. Regenerate it with `python3 tools/build-hero-planet-test.py` after changing the home page.
+
 ## The menu at the top
 
 The bar at the top has a few quick links and an **All sections** button. The button opens with “New here? Find your way in”, then every section in four groups: **Understand**, **Act**, **Tools** (the exercise, the plan, the coordinator's simulation and the guide; pages that open in a new tab are marked ↗) and **Reference**. Both live in the `<header class="site-header">` at the top of `index.html`. If you add a new section, give it an `id` and add a line for it in the `site-menu` list, in page order. The bar and the menu mark the section on screen as “You are here” by themselves.
