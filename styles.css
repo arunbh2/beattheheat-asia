@@ -902,7 +902,7 @@ button { font: inherit; color: inherit; }
 .when--decade { background: transparent; border: 1px solid #17605A; }
 .lever-btn .when { display: table; }
 .panel__title + .when { margin: 6px 0 2px; align-self: flex-start; justify-self: start; width: max-content; }
-.lever-chip__when { display: block; font-size: .68rem; font-weight: 700; opacity: .85; }
+.lever-chip__when { display: block; font-size: .68rem; font-weight: 700; }
 .pkg-chip--now { border-style: solid; font-weight: 800; }
 
 /* ---------- facts with sources ---------- */
@@ -2347,3 +2347,21 @@ body:not([data-page="plan"]) a[href^="#plan-"]::after, body:not([data-page="plan
 @media (max-width: 520px) { .tool-cta .btn--hero { width: 100%; } }
 .wk-start { margin: 24px 0 12px; font-size: 1rem; line-height: 1.5rem; }
 .pm { margin-top: 32px; }
+
+/* ---------- Heat in the news, and new research (/news/) ---------- */
+.news-page { background: var(--ink); color: var(--canvas); padding: clamp(36px, 6vw, 72px) 0 clamp(48px, 7vw, 96px); }
+.news-page .eyebrow { color: #F6A27C; }
+.news-page__h { margin-top: 0; color: var(--canvas); }
+.news-page__intro { max-width: 680px; margin: 16px 0 0; font-size: 1.125rem; line-height: 1.75rem; color: #C9CED6; }
+.news-page .feeds { margin-top: 32px; }
+.feed__filter { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.feed__filter .chip { min-height: 36px; padding: 0 14px; border: 1px solid #44525F; border-radius: 999px; background: transparent; color: var(--canvas); font: inherit; font-size: .85rem; font-weight: 600; cursor: pointer; }
+.feed__filter .chip[aria-pressed="true"] { background: var(--canvas); color: var(--ink); border-color: var(--canvas); }
+.feed__filter .chip:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
+/* the card on the home page that opens /news/ in a new tab */
+.feeds-link { margin-top: 40px; padding-top: 28px; border-top: 1px solid #2E3B49; }
+.feeds-link a { display: grid; gap: 6px; max-width: 760px; padding: 20px 22px; border: 1px solid #44525F; border-radius: 16px; color: var(--canvas); text-decoration: none; transition: border-color .2s; }
+.feeds-link a:hover { border-color: var(--orange); }
+.feeds-link a:focus-visible { outline: 3px solid var(--orange); outline-offset: 3px; }
+.feeds-link b { font-family: var(--font-display); font-weight: 400; text-transform: uppercase; font-size: clamp(1.4rem, 1.1rem + 1.2vw, 2rem); line-height: 1.05; }
+.feeds-link span { color: #C9CED6; }

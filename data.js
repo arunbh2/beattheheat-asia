@@ -2739,15 +2739,7 @@ const LIVE_LEVELS_NOTE = "Warning levels are our estimate from model data, using
 
 // Heat in the news, and new research. News comes from a feed the site's GitHub Action refreshes every six hours
 // (tools/fetch-news.js, GDELT); research is searched live in Europe PMC. Headlines are outside sources, not reviewed by us.
-const HEAT_FEEDS = {
-  news: { url: "https://raw.githubusercontent.com/arunbh2/beattheheat-asia/main/feeds/news.json", local: "feeds/news.json",
-    credit: { label: "GDELT Project", url: "https://www.gdeltproject.org/" } },
-  research: { days: 120,
-    title: '(TITLE:"heatwave" OR TITLE:"heatwaves" OR TITLE:"heat wave" OR TITLE:"heat waves" OR TITLE:"extreme heat" OR TITLE:"heat stress" OR TITLE:"heat-related" OR TITLE:"heat exposure" OR TITLE:"heat illness" OR TITLE:"heatstroke" OR TITLE:"heat stroke" OR TITLE:"ambient temperature")',
-    place: '(India OR Bangladesh OR Nepal OR "Sri Lanka" OR Pakistan OR Cambodia OR Indonesia OR Philippines OR Singapore OR Thailand OR Vietnam OR Malaysia OR Myanmar OR "South Asia" OR "Southeast Asia")',
-    credit: { label: "Europe PMC", url: "https://europepmc.org/" } },
-  note: "Headlines and papers come from outside sources and are not reviewed by us. They are listed to help you follow the conversation, not as endorsements."
-};
+// Heat in the news, and new research now has its own page (/news/); its settings live in news.js.
 
 const LIVE_NOTE = "Live model data, refreshed every 30 minutes. It is not an official warning: for alerts, follow the national weather service linked on each city.";
 

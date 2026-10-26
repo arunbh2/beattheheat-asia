@@ -1,5 +1,28 @@
 {
- "updated": "2026-10-24T00:00:00Z",
- "source": "GDELT Project DOC 2.0 API",
- "items": []
+ "updated": "2026-10-26T07:17:11.859Z",
+ "keepDays": 14,
+ "sources": [
+  {
+   "name": "regional news outlets",
+   "ok": true,
+   "found": 486
+  },
+  {
+   "name": "GDELT Project",
+   "ok": false,
+   "found": 0,
+   "error": "HTTP 429: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic us"
+  }
+ ],
+ "query": "(heatwave OR \"heat wave\" OR \"extreme heat\" OR \"heat stress\" OR heatstroke OR \"heat index\") (India OR Bangladesh OR Nepal OR \"Sri Lanka\" OR Pakistan OR Bhutan OR Maldives OR Cambodia OR Indonesia OR Philippines OR Singapore OR Thailand OR Vietnam OR Malaysia OR Myanmar OR Laos) sourcelang:english",
+ "items": [
+  {
+   "title": "Rising heat takes toll on Bangladesh’s garment workers",
+   "url": "https://www.eco-business.com/news/rising-heat-takes-toll-on-bangladeshs-garment-workers/",
+   "domain": "eco-business.com",
+   "date": "2026-10-25T13:02:00Z",
+   "place": "Bangladesh",
+   "via": "Eco-Business"
+  }
+ ]
 }
