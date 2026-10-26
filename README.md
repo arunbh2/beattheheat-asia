@@ -278,3 +278,9 @@ Evidence links: a consequence (part 2) can carry `sources: [{ label, url }]`, sh
 6. Open https://beattheheat.asia in a **private or incognito window** so you don't see an old saved copy.
 
 **Do not delete the `CNAME` file.**
+
+## Join the collaborative
+
+`/join/` invites people and organisations to help shape the collaborative behind the site: seven entry points, what we could do together, and a short registration form. The form is a Microsoft Form shown inside the page. To switch it on, open `join.js` and fill in `JOIN.formUrl` (in Microsoft Forms: Collect responses, then the `</>` Embed button, then copy the `src` link), plus `JOIN.steward` (who reads and manages the answers) and `JOIN.contact` (where people can ask to see or delete them). Both appear in the page's privacy note. Until `formUrl` is set, the page says the form opens shortly and no invitation is shown anywhere.
+
+Once the form is set, every other page can show one small invitation card with three choices: "Join the collaborative", "Keep me updated" and "Not now". On desktop it appears when the pointer moves towards the tab bar; on any device it appears after 45 seconds once a third of the page has been read. Browsers do not let a page show its own message as the tab closes. The card shows at most once per visit, and not again for 30 days after "Not now" (180 days after either choice). It never blocks the page and closes with Escape. The page is linked from the menu (Act) and the home page footer.
