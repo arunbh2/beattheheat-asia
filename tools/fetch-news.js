@@ -101,6 +101,9 @@ async function feeds() {
 
 /** Merges new headlines with the last file: filtered, de-duplicated, newest first, last two weeks only. */
 function build(found, prev, sources, now = Date.now()) {
+  // the log names near misses, so a filter that is too strict shows up in the Actions run
+  found.filter(x => /heat|hot\b|temperatures?|scorch|swelter/i.test(x.title || "") && !(HEAT.test(x.title) && !AVOID.test(x.title) && x.place))
+    .slice(0, 15).forEach(x => console.log(`  not kept (${!HEAT.test(x.title) ? "not about heat" : AVOID.test(x.title) ? "politics or conflict" : "no place in the region"}): ${x.title} [${x.via}]`));
   const fresh = found.filter(x => x.title && /^https?:\/\//.test(x.url || "") && x.date && HEAT.test(x.title) && !AVOID.test(x.title) && x.place)
     .map(({ regional, ...x }) => x);
   const seen = new Set(), out = [];
