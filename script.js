@@ -2866,8 +2866,8 @@
   function renderTicker() {
     const bar = document.getElementById("ticker"), rail = document.getElementById("ticker-track"), pause = document.getElementById("ticker-pause");
     if (!bar || !rail || !LIVE.length) return;
-    liveFetch().then(data => {
-      const ok = LIVE.filter(c => data.cities[c.id] && liveAge(data.cities[c.id]) < LIVE_STALE); if (!ok.length) return;
+    const draw = () => liveFetch().then(data => {
+      const ok = LIVE.filter(c => data.cities[c.id] && liveAge(data.cities[c.id]) < LIVE_STALE); if (!ok.length) { bar.hidden = true; return; }
       const hot = ok.reduce((a, b) => data.cities[b.id].feels > data.cities[a.id].feels ? b : a).id;
       const set = copy => `<ul class="ticker__set"${copy ? ' aria-hidden="true"' : ""}>${ok.map(c => { const d = data.cities[c.id];
         return `<li${c.id === hot ? ' class="is-hot"' : ""}><a href="#city-${c.id}" data-ticker-city="${c.id}"${copy ? ' tabindex="-1"' : ""}><span class="ticker__pin" style="background:${heatColor(d.feels)}" aria-hidden="true"></span><b>${esc(c.name)}</b><span>${deg(d.t)}<span class="ticker__f">, feels like ${deg(d.feels)}</span></span>${c.id === hot ? '<span class="ticker__hot">Hottest now</span>' : ""}${(lv => lv ? `<span class="ticker__lv ticker__lv--${Math.min(lv.rank, 2)}">${esc(lv.agency)}: ${esc(lv.name)}<span class="visually-hidden"> (our estimate from ${esc(lv.what)}, not an official warning)</span></span>` : "")(warnLevel(c, d, data.wbgt))}</a></li>`; }).join("")}
@@ -2877,6 +2877,9 @@
       bar.hidden = false;
       rail.style.setProperty("--ticker-dur", `${Math.max(30, Math.round(rail.scrollWidth / 2 / 45))}s`);
     }, () => {});
+    draw();
+    // a page left open keeps its readings fresh: fetch again once the 30-minute cache has run out
+    setInterval(() => { if (document.hidden) return; livePromise = null; draw(); }, LIVE_TTL + 60000);
     bar.addEventListener("click", ev => {
       const a = ev.target.closest("[data-ticker-city]"); if (!a) return;
       ev.preventDefault(); showCity(a.dataset.tickerCity); setHash("city-" + a.dataset.tickerCity); track("ticker-" + a.dataset.tickerCity);
