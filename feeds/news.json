@@ -1,17 +1,17 @@
 {
- "updated": "2026-10-26T13:20:00.094Z",
+ "updated": "2026-10-26T22:47:16.351Z",
  "keepDays": 14,
  "sources": [
   {
    "name": "regional news outlets",
    "ok": true,
-   "found": 492
+   "found": 493
   },
   {
    "name": "GDELT Project",
    "ok": false,
    "found": 0,
-   "error": "fetch failed: UND_ERR_CONNECT_TIMEOUT"
+   "error": "GDELT replied: Your query was too short or too long. "
   }
  ],
  "query": "(heatwave OR \"heat wave\" OR \"extreme heat\" OR \"heat stress\" OR heatstroke OR \"heat index\") (India OR Bangladesh OR Nepal OR \"Sri Lanka\" OR Pakistan OR Bhutan OR Maldives OR Cambodia OR Indonesia OR Philippines OR Singapore OR Thailand OR Vietnam OR Malaysia OR Myanmar OR Laos) sourcelang:english",
