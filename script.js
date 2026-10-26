@@ -2862,52 +2862,6 @@
       if (window.matchMedia("(max-width: 900px)").matches) document.getElementById("city-panel").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" }); } }
   }
 
-  /* ---- heat in the news (a feed the site's GitHub Action refreshes) and new research (Europe PMC, searched live) ---- */
-  function renderFeeds() {
-    const box = document.getElementById("feeds"); if (!box || typeof HEAT_FEEDS === "undefined") return;
-    const F = HEAT_FEEDS, note = document.getElementById("feeds-note"); if (note) note.textContent = F.note;
-    const ago = t => { const h = (Date.now() - t) / 3600000; return h < 1 ? "within the hour" : h < 24 ? `${Math.floor(h)} hour${h < 2 ? "" : "s"} ago` : new Date(t).toLocaleDateString([], { day: "numeric", month: "short", year: "numeric" }); };
-    const strip = t => String(t || "").replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
-    const show = (list, items, n) => { list.innerHTML = items.join(""); const extra = items.length - n;
-      [...list.children].forEach((li, k) => { li.hidden = k >= n; });
-      let b = list.parentElement.querySelector(".feed__more");
-      if (extra > 0 && !b) { b = document.createElement("button"); b.type = "button"; b.className = "link feed__more"; list.after(b);
-        b.addEventListener("click", () => { [...list.children].forEach(li => { li.hidden = false; }); b.remove(); }); }
-      if (b) b.textContent = `Show ${extra} more`; };
-    const news = () => {
-      const list = document.getElementById("feed-news"), meta = document.getElementById("feed-news-meta");
-      const get = u => fetch(u, { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); });
-      get(F.news.url).catch(() => get(F.news.local)).then(j => {
-        const items = (j.items || []).filter(x => x && x.title && /^https?:\/\//.test(x.url)).slice(0, 24); if (!items.length) throw new Error("empty");
-        show(list, items.map(x => `<li><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(strip(x.title))}<span class="visually-hidden"> (opens in a new tab)</span></a>
-          <span class="feed__src">${esc(x.domain || "")}${x.place ? ` · ${esc(x.place)}` : ""}${x.date ? ` · ${esc(ago(Date.parse(x.date)))}` : ""}</span></li>`), 6);
-        if (meta) meta.innerHTML = `Updated ${esc(ago(Date.parse(j.updated)))}. Headlines found by the ${extLink(F.news.credit.url, F.news.credit.label)}.`;
-      }).catch(() => { list.innerHTML = `<li class="feed__wait">The news feed is not available just now.</li>`; });
-    };
-    const research = () => {
-      const list = document.getElementById("feed-research"), meta = document.getElementById("feed-research-meta"), KEY = "bth-research-v1";
-      const draw = j => {
-        const items = ((j.resultList || {}).result || []).filter(x => x.title).slice(0, 24); if (!items.length) throw new Error("empty");
-        show(list, items.map(x => { const url = x.doi ? `https://doi.org/${x.doi}` : `https://europepmc.org/article/${x.source}/${x.id}`;
-          const where = x.journalTitle || (x.source === "PPR" ? "Preprint" : x.bookOrReportDetails && x.bookOrReportDetails.publisher) || "";
-          return `<li><a href="${esc(url)}" target="_blank" rel="noopener">${esc(strip(x.title))}<span class="visually-hidden"> (opens in a new tab)</span></a>
-            <span class="feed__src">${esc(where)}${x.firstPublicationDate ? ` · ${esc(new Date(x.firstPublicationDate).toLocaleDateString([], { day: "numeric", month: "short", year: "numeric" }))}` : ""}</span></li>`; }), 6);
-        if (meta) meta.innerHTML = `Papers and preprints from the last ${F.research.days} days with heat in the title and an Asian setting, newest first, from ${extLink(F.research.credit.url, F.research.credit.label)}.`;
-      };
-      try { const c = JSON.parse(localStorage.getItem(KEY) || "null"); if (c && Date.now() - c.at < 6 * 3600000) { draw(c.j); return; } } catch (e) {}
-      const from = new Date(Date.now() - F.research.days * 86400000).toISOString().slice(0, 10);
-      const q = `${F.research.title} AND ${F.research.place} AND FIRST_PDATE:[${from} TO 3000-01-01]`;
-      fetch("https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&resultType=lite&pageSize=24&sort=" + encodeURIComponent("FIRST_PDATE_D desc") + "&query=" + encodeURIComponent(q))
-        .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
-        .then(j => { draw(j); try { localStorage.setItem(KEY, JSON.stringify({ at: Date.now(), j })); } catch (e) {} })
-        .catch(() => { list.innerHTML = `<li class="feed__wait">New research could not be loaded just now.</li>`; });
-    };
-    // fetch only when the section comes near the screen
-    const go = () => { news(); research(); };
-    if ("IntersectionObserver" in window) { const io = new IntersectionObserver(es => { if (es.some(e => e.isIntersecting)) { io.disconnect(); go(); } }, { rootMargin: "600px 0px" }); io.observe(box); }
-    else go();
-  }
-
   /* ---- live temperature ticker: one line above the header, from the shared live reading ---- */
   function renderTicker() {
     const bar = document.getElementById("ticker"), rail = document.getElementById("ticker-track"), pause = document.getElementById("ticker-pause");
@@ -3247,7 +3201,6 @@
     renderNow();
     renderCity();
     renderTicker();
-    renderFeeds();
     renderHeatwaves();
     renderList();
     renderStats();

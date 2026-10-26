@@ -1,4 +1,4 @@
-# Refreshes feeds/news.json (heat headlines from Asia, via the GDELT Project) every six hours.
+# Refreshes feeds/news.json (heat headlines from South and Southeast Asia, via the GDELT Project and Google News) every six hours.
 # The site reads the file from raw.githubusercontent.com, so a new headline shows without a site rebuild.
 name: Heat news feed
 on:
@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
       - run: node tools/fetch-news.js
       - name: Commit the feed if it changed
         run: |
