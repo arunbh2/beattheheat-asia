@@ -242,7 +242,8 @@ button { font: inherit; color: inherit; }
 .intro__trust { max-width: 680px; font-size: .875rem; line-height: 1.25rem; color: var(--grey-500); text-wrap: balance; }
 
 .stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 1080px; margin: 48px auto 0; border-top: 2px solid var(--ink); }
-.stats div { padding: 12px 8px 0; display: flex; flex-direction: column-reverse; gap: 2px; }
+.stats div { padding: 12px 8px 0; display: flex; flex-direction: column; justify-content: flex-start; gap: 2px; }
+.stats dd { order: -1; margin: 0; }   /* numbers first, so they line up even when a label wraps */
 .stats dd { font-family: var(--font-display); font-size: 2.25rem; line-height: 1; }
 @media (min-width: 900px) { .stats dd { font-size: 3rem; } }
 .stats dt { font-size: 0.75rem; line-height: 1rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--grey-500); }
@@ -252,8 +253,8 @@ button { font: inherit; color: inherit; }
   .stats { grid-template-columns: repeat(5, minmax(0, 1fr)); }
   .stats div + div { border-left: 1px solid var(--line); }
 }
-.stats div:last-child:nth-child(odd) { grid-column: 1 / -1; }
-@media (min-width: 900px) { .stats div:last-child:nth-child(odd) { grid-column: auto; } }
+/* phones: three numbers, then two, rather than a lone fifth on its own row */
+@media (max-width: 899px) { .stats { grid-template-columns: repeat(6, minmax(0, 1fr)); } .stats div { grid-column: span 2; } .stats div:nth-child(n+4) { grid-column: span 3; } }
 .honest { max-width: 40rem; margin: 16px auto 0; font-size: .875rem; line-height: 1.25rem; color: var(--grey-500); text-wrap: pretty; }
 
 /* ---------- 2. Explorer ---------- */
@@ -2030,10 +2031,11 @@ body.film-open { overflow: hidden; }
 .ticker__pause:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; }
 @keyframes ticker { to { transform: translateX(-50%); } }
 @media (max-width: 640px) { .ticker__f { display: none; } .ticker__k { letter-spacing: .1em; } }
+/* with reduced motion the line still moves, at half speed (script.js), and its Pause button stops it. The site-wide
+   reduced-motion rule switches every animation off with !important, so the ticker needs its own, more specific exception */
 @media (prefers-reduced-motion: reduce) {
-  .ticker__track { animation: none; }
-  .ticker__view { overflow-x: auto; -webkit-mask-image: none; mask-image: none; }
-  .ticker__set[aria-hidden="true"] { display: none; }
+  .ticker .ticker__track { animation: ticker var(--ticker-dur, 60s) linear infinite !important; }
+  .ticker.is-paused .ticker__track, .ticker:has(:focus-visible) .ticker__track { animation-play-state: paused !important; }
 }
 .ticker__lv { margin-left: 6px; padding: 1px 7px; border-radius: 999px; font-size: .66rem; font-weight: 800; letter-spacing: .04em; background: #F2C14E; color: #16202B; }
 .ticker__lv--1 { background: #F26430; color: #16202B; }
@@ -2311,12 +2313,7 @@ body:not([data-page="plan"]) a[href^="#plan-"]::after, body:not([data-page="plan
 .toolkit__card b { font-size: 1.02rem; line-height: 1.25; }
 .toolkit__take { font-size: .84rem; color: #D9DEE4; }
 .toolkit__meta { margin-top: auto; padding-top: 6px; font-size: .74rem; color: #B9C2CC; }
-.welcome { position: fixed; left: 16px; bottom: 16px; z-index: 60; max-width: 340px; padding: 14px 16px; border-radius: 16px; background: var(--ink); color: var(--canvas); box-shadow: 0 12px 30px rgba(0,0,0,.3); font-size: .9rem; animation: welcome-in .4s ease-out; }
-.welcome__b { margin-top: 10px; display: flex; align-items: center; justify-content: space-between; gap: 10px; }
-.welcome__x { width: 36px; height: 36px; border-radius: 50%; border: 1px solid #3A4A5A; background: none; color: var(--canvas); font-size: 1.2rem; cursor: pointer; }
-.welcome__x:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
 @keyframes welcome-in { from { opacity: 0; transform: translateY(12px); } }
-@media (prefers-reduced-motion: reduce) { .welcome { animation: none; } }
 .signpost { background: #1E2A37; color: var(--canvas); font-size: .84rem; }
 .signpost__in { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; min-height: 40px; }
 .signpost a { color: #F6A27C; font-weight: 700; text-underline-offset: 3px; }
@@ -2511,3 +2508,37 @@ body:not([data-page="plan"]) a[href^="#plan-"]::after, body:not([data-page="plan
   .stats dd { font-size: clamp(1.75rem, 4.6vh, 3rem); }
   .intro__trust { font-size: .8rem; line-height: 1.1rem; }
 }
+
+/* ---------- One header on every page (design council): the home page's light bar and canopy mark ---------- */
+.wkp-top { background: rgba(250, 247, 242, 0.96); color: var(--ink); border-bottom: 1px solid var(--line); }
+.wkp-top__in { min-height: var(--header-h); flex-wrap: nowrap; }
+.wkp-home { display: inline-flex; align-items: center; gap: 10px; color: var(--ink); font-size: 1.35rem; letter-spacing: .08em; white-space: nowrap; }
+.wkp-top nav { flex-wrap: nowrap; gap: 4px 20px; font-size: .9rem; }
+.wkp-top nav a { color: var(--ink); text-decoration: none; white-space: nowrap; padding: 6px 0; border-bottom: 2px solid transparent; }
+.wkp-top nav a:hover { border-bottom-color: var(--orange); }
+.wkp-top nav a[aria-current="page"] { border-bottom-color: var(--orange); }
+@media (max-width: 900px) { .wkp-top nav a:not(:first-child) { display: none; } }
+@media (max-width: 420px) { .wkp-home { font-size: 1.1rem; letter-spacing: .05em; gap: 8px; } }
+.site-footer__brand { display: flex; align-items: center; gap: 10px; letter-spacing: .08em; }
+.feed[hidden] { display: none; }
+.feeds__cols--one { grid-template-columns: minmax(0, 1fr) !important; }
+/* headlines break evenly; on phones the hand-placed breaks give way, so no word is left alone on a line */
+.h2 { text-wrap: balance; }
+@media (max-width: 640px) { .h2 br { display: none; } }
+/* map filters: all visible on desktop; on phones the row scrolls, and a fade at the right edge says there is more */
+@media (min-width: 900px) { .filters { flex-wrap: wrap; overflow: visible; } }
+@media (max-width: 899px) { .filters { padding-right: 40px; -webkit-mask-image: linear-gradient(90deg, #000 calc(100% - 44px), transparent); mask-image: linear-gradient(90deg, #000 calc(100% - 44px), transparent); } }
+/* the toolkit's "who it is for / how long / you leave with": one compact strip, not three tall cards */
+.signpost__box { display: flex; flex-wrap: wrap; gap: 0; padding: 4px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.signpost__box div { flex: 1 1 200px; padding: 8px 22px 8px 0; border: 0; border-radius: 0; background: none; }
+.signpost__box div + div { padding-left: 22px; border-left: 1px solid var(--line); }
+@media (max-width: 640px) { .signpost__box div + div { padding-left: 0; border-left: 0; border-top: 1px solid var(--line); } }
+/* footer (design council): two deliberate columns on desktop. Left: who we are and where to go; right: what this is */
+@media (min-width: 900px) {
+  .site-footer { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr); grid-auto-flow: row dense; column-gap: clamp(32px, 5vw, 72px); row-gap: 8px; align-items: start; }
+  .site-footer > * { grid-column: 1; }
+  .site-footer__about { grid-column: 2; grid-row: 1 / span 4; max-width: none; }
+  .site-footer__licence { grid-column: 2; max-width: none; }
+  .site-footer__join { margin: 14px 0 4px; }
+}
+.site-footer__tagline { font-size: 1.05rem; }

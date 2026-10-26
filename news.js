@@ -67,7 +67,8 @@
     fetch("https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&resultType=lite&pageSize=40&sort=" + encodeURIComponent("FIRST_PDATE_D desc") + "&query=" + encodeURIComponent(q))
       .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
       .then(j => { draw(j); try { localStorage.setItem(KEY, JSON.stringify({ at: Date.now(), j })); } catch (e) {} })
-      .catch(() => { list.innerHTML = `<li class="feed__wait">New research could not be loaded just now.</li>`; });
+      // if the research service does not answer, step aside and let the headlines use the full width
+      .catch(() => { const col = list.closest(".feed"), cols = col && col.closest(".feeds__cols"); if (col) col.hidden = true; if (cols) cols.classList.add("feeds__cols--one"); });
   }
 
   const note = document.getElementById("feeds-note"); if (note) note.textContent = FEEDS.note;

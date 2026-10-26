@@ -1,7 +1,7 @@
 /* Common Shade: Find your way in (part 35 of data.js).
    Draws the guide on the home page (#start) and on /guide/: two questions (why you came, how long you have) give a
-   short path of stops, ticked off as you go; the toolkit shows how the hands-on tools follow one another; a small
-   welcome, on a first visit to the home page only, points to the guide. Everything stays in this browser. */
+   short path of stops, ticked off as you go; the toolkit shows how the hands-on tools follow one another.
+   Everything stays in this browser. */
 (function () {
   "use strict";
   if (typeof GUIDE === "undefined") return;
@@ -64,27 +64,16 @@
           <span class="toolkit__meta">${esc(t.time)} · ${esc(t.who)}${t.tab ? ` · opens in a new tab <span aria-hidden="true">↗</span>` : ""}</span></a></li>`; }).join("")}</ol>`;
   }
 
-  // a small welcome on a first visit to the home page; never on a shared deep link, never blocking the page
-  function welcome() {
-    if (!HOME || S.seen || location.hash || /[?&]go=/.test(location.search)) return;
-    const w = document.createElement("div"); w.className = "welcome"; w.setAttribute("role", "region"); w.setAttribute("aria-label", "Welcome");
-    w.innerHTML = `<p>${esc(G.welcome)}</p><p class="welcome__b"><a class="btn btn--sm btn--cta" href="#start" data-welcome="go">Find your way in <span aria-hidden="true">→</span></a><button type="button" class="welcome__x" data-welcome="close" aria-label="Close">×</button></p>`;
-    document.body.appendChild(w);
-    w.addEventListener("click", ev => { const b = ev.target.closest("[data-welcome]"); if (!b) return; S.seen = true; save(); w.remove(); track("welcome-" + b.dataset.welcome); });
-    // it has done its job once the visitor reaches the guide itself
-    const st = document.getElementById("start");
-    if (st && "IntersectionObserver" in window) new IntersectionObserver((es, o) => { if (es.some(e => e.isIntersecting)) { S.seen = true; save(); w.remove(); o.disconnect(); } }).observe(st);
-  }
+
 
   document.addEventListener("click", ev => {
     const t = ev.target, b = k => t.closest && t.closest(`[data-way-${k}]`);
-    if (b("reason")) { S.reason = b("reason").dataset.wayReason; S.seen = true; save(); dropWelcome(); renderWay(); track("way-" + S.reason); focusPath(); return; }
+    if (b("reason")) { S.reason = b("reason").dataset.wayReason; S.seen = true; save(); renderWay(); track("way-" + S.reason); focusPath(); return; }
     if (b("time")) { S.time = b("time").dataset.wayTime; S.seen = true; save(); renderWay(); track("way-time-" + S.time); focusPath(); return; }
     if (b("reset")) { S.reason = ""; S.time = ""; S.done = {}; save(); renderWay(); const f = document.querySelector("[data-way-reason]"); if (f) f.focus(); return; }
     if (b("stop")) { const id = b("stop").dataset.wayStop; S.done[id] = true; save(); track("way-stop-" + id); setTimeout(renderWay, 400); return; }
     if (b("tool")) { track("way-tool-" + b("tool").dataset.wayTool); }
   });
-  function dropWelcome() { const w = document.querySelector(".welcome"); if (w) w.remove(); }
   // once both answers are in, bring the path into view
   function focusPath() { if (!(S.reason && S.time)) return; const p = document.querySelector(".wayin__stops"); if (p) p.scrollIntoView({ block: "nearest", behavior: "smooth" }); }
 
@@ -104,5 +93,5 @@
       <ul class="gw__tips">${G.workshopTips.map(t => `<li>${esc(t)}</li>`).join("")}</ul>`;
   }
 
-  renderWay(); renderToolkit(); renderSignpost(); renderWorkshop(); welcome();
+  renderWay(); renderToolkit(); renderSignpost(); renderWorkshop();
 })();
