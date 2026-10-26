@@ -5,7 +5,7 @@
 
   var JOIN = {
     // Microsoft Forms: Collect responses, then the </> Embed button; paste the src link (or the plain share link) here.
-    formUrl: "",
+    formUrl: "https://forms.cloud.microsoft/e/SNfMp0esFh",
     // Who reads and manages the answers, and where people can ask to see or delete them. Shown in the privacy note.
     steward: "",
     contact: ""
@@ -34,7 +34,7 @@
     f.src = embedUrl(JOIN.formUrl); f.title = "Register my interest: the collaborative’s form, on Microsoft Forms";
     f.loading = "lazy"; f.setAttribute("allowfullscreen", ""); f.className = "join-form__frame";
     var p = document.createElement("p"); p.className = "join-form__alt";
-    p.innerHTML = 'Form not showing, or easier on a full screen? <a href="' + JOIN.formUrl.replace(/"/g, "&quot;") + '" target="_blank" rel="noopener">Open the form in a new tab<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a>';
+    p.innerHTML = 'Form not showing, or easier on a full screen? <a href="' + JOIN.formUrl.replace(/[?&]embed=true/, "").replace(/"/g, "&quot;") + '" target="_blank" rel="noopener">Open the form in a new tab<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a>';
     box.appendChild(f); box.appendChild(p);
   }
 
