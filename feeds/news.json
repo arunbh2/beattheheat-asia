@@ -1,5 +1,19 @@
 {
- "updated": "2026-10-24T00:00:00Z",
- "source": "GDELT Project DOC 2.0 API",
+ "updated": "2026-10-26T07:12:12.332Z",
+ "keepDays": 14,
+ "sources": [
+  {
+   "name": "News outlets' feeds",
+   "ok": true,
+   "found": 485
+  },
+  {
+   "name": "GDELT Project",
+   "ok": false,
+   "found": 0,
+   "error": "Unexpected token 'Y', \"Your query\"... is not valid JSON"
+  }
+ ],
+ "query": "(heatwave OR \"heat wave\" OR \"extreme heat\" OR \"heat stress\" OR heatstroke OR \"heat index\") (India OR Bangladesh OR Nepal OR \"Sri Lanka\" OR Pakistan OR Bhutan OR Maldives OR Cambodia OR Indonesia OR Philippines OR Singapore OR Thailand OR Vietnam OR Malaysia OR Myanmar OR Laos OR \"Timor-Leste\") sourcelang:english",
  "items": []
 }
