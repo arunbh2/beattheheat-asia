@@ -1,4 +1,4 @@
-/* BeatTheHeat.Asia: Make it work together (part 33 of data.js), on its own page (/together/).
+/* Common Shade: Make it work together (part 33 of data.js), on its own page (/together/).
    A coordinator's simulation for any NGO or volunteer group: choose a hypothetical place, see what heat means for the
    people who work there, find who has to say yes, build the delivery chain for each measure, run a hot week and see
    what reached people. A requirement counts only at the status it needs, and "agreed" or beyond only with evidence.
@@ -223,7 +223,7 @@
       <h2>Money</h2><table><tr><th>Measure</th><th>Who pays to set up</th><th>Who pays to run</th></tr>${chosen().map(m => { const p = x.pay[m.id] || {}; return `<tr><td>${h(m.name)}</td><td class="${p.build || !(m.cost && m.cost.build) ? "" : "gap"}">${m.cost && m.cost.build ? h(p.build ? actorName(p.build) : "Not decided") : "–"}</td><td class="${p.run ? "" : "gap"}">${h(p.run ? actorName(p.run) : "Not decided")}</td></tr>`; }).join("")}</table>
       <h2>The routine</h2><p>Readiness check: ${h(x.routine.check || "not set")}. If something fails: ${h(x.routine.escalate || "not set")}. Raising a problem: ${h((T.feedback.find(f => f[0] === x.routine.feedback) || ["", "not set"])[1])}.</p>
       <h2>After the season</h2><table>${T.checks.map(([a, b], i) => `<tr><td>${h(a)}</td><td>${h(b)}</td><td>${h({ yes: "Yes", partly: "Partly", no: "No" }[x.checks[i]] || "Not yet known")}</td></tr>`).join("")}</table>
-      <p class="note">${h(T.note)} A plan made with BeatTheHeat.Asia, for discussion between the bodies named. It records voluntary commitments and assigns no blame.</p></body></html>`;
+      <p class="note">${h(T.note)} A plan made with Common Shade, for discussion between the bodies named. It records voluntary commitments and assigns no blame.</p></body></html>`;
     const url = URL.createObjectURL(new Blob([html], { type: "text/html" })), w = window.open(url, "_blank");
     if (!w) { const a = document.createElement("a"); a.href = url; a.download = `place-protection-plan-${s.id}.html`; document.body.appendChild(a); a.click(); a.remove(); }
     setTimeout(() => URL.revokeObjectURL(url), 60000);

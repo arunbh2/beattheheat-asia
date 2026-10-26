@@ -1,4 +1,4 @@
-# BeatTheHeat.Asia: Extreme heat is a wicked problem
+# Common Shade: Extreme heat is a wicked problem
 
 This website is an **interactive systems map** of extreme heat. It shows:
 
@@ -23,6 +23,21 @@ It is a plain website. There is nothing to install and nothing to "build". GitHu
 
 ---
 
+## The name: Common Shade (first published as BeatTheHeat.Asia)
+
+The site was renamed Common Shade in October 2026, so it cannot be mistaken for the Beat the Heat initiative that UNEP's Cool Coalition runs with the COP30 Presidency. Common Shade is both the platform and the emerging collaborative behind it; buttons invite people to "Help build Common Shade". The last version under the old name is kept as the GitHub release `beattheheat-asia-final`.
+
+For now the site is served at **beattheheat.asia** (canonical links, the sitemap, social previews and printed addresses all use it). It is moving to **commonshade.asia**; commonshade.org will forward there.
+
+On the day commonshade.asia goes live:
+1. Replace every `beattheheat.asia` in the site's files with `commonshade.asia` (the build scripts in `tools/` included), rebuild with `node tools/build-static.js` and `node tools/build-print.js`, re-render the reel (`node tools/reel/render.js`), and change `CNAME` to `commonshade.asia`. Keep the line in `tools/build-static.js` that says the site was first published as BeatTheHeat.Asia.
+2. At the registrar for commonshade.asia, add four A records for the bare domain (185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153) and a CNAME record for `www` pointing to `arunbh2.github.io`.
+3. In GitHub, Settings → Pages: the custom domain then reads commonshade.asia; tick **Enforce HTTPS** once offered. Add the domain under your account's Settings → Pages → **Verified domains**.
+4. At the registrars for beattheheat.asia and commonshade.org, set a permanent (301) forward to https://commonshade.asia, keeping the path if the registrar allows. Keep beattheheat.asia registered for at least a year.
+5. In Google Search Console, add commonshade.asia and use **Change of address** on the beattheheat.asia property.
+
+The analytics code (`SITE_ANALYTICS` in `data.js`) keeps its old account name on purpose, so visitor numbers stay continuous; the repository keeps its name too.
+
 ## What is in this folder
 
 | File | What it does | Do you need to edit it? |
@@ -43,8 +58,8 @@ It is a plain website. There is nothing to install and nothing to "build". GitHu
 | `media/day/` | Films for "A day in a heatwave", named after the hour without the colon (e.g. `0200.mp4`), each with a `.jpg` cover. Add `video` and `length` to that hour in part 11 of `data.js` | To add or replace an hour’s film |
 | `media/stalls/` | One short film per card in “Why action stalls”, named after the stall’s `id` (e.g. `owner.mp4`), each with a `.jpg` cover. Add `video` and `length` to that stall in part 18 of `data.js` |
 | `media/stalls/office.*` | The AI-generated empty-office footage behind the “Why action stalls” heading (`office.mp4`, `office.webm`, `office.jpg` still), trimmed past a paper that blows off the desk and crossfaded into a seamless 6-second loop |
-| `images/social-share-2.jpg` | The preview picture shown when the link is shared (1200 × 630). It quotes the counts of systems, vicious cycles and levers | When those counts change. Give the new file a new name and update the two image lines in `index.html`, so LinkedIn and WhatsApp fetch it again |
-| `CNAME` | Connects the site to the address beattheheat.asia | **No. Never delete this file.** |
+| `images/social-share-cs.jpg` | The preview picture shown when the link is shared (1200 × 630). It quotes the counts of systems, vicious cycles and levers | When those counts change. Give the new file a new name and update the two image lines in `index.html`, so LinkedIn and WhatsApp fetch it again |
+| `CNAME` | Connects the site to the address commonshade.org | **No. Never delete this file.** |
 
 The numbers at the top of the page (systems, consequences, cycles and so on) are counted automatically from `data.js`, so they stay correct when you add things.
 
@@ -120,7 +135,7 @@ The “Cooling options” section, just before “Plan a response”, shows what
 
 ## Your city (part 25 of `data.js`)
 
-`CITY_PROFILES` gives each of the twelve live cities a view of its own: a line about the city, whether it has a heat action plan (`hap.status`: `plan`, `building` or `none`, with sources), the vicious cycles the evidence ties to it (each with a one-line reason drawn from evidence already on the site), the groups hit hardest, worked plans and organisations already at work. The section draws a map of the cities on `images/asia-map.svg`: land in one colour with no national boundaries (Natural Earth land, public domain), so the map takes no position on any border with each dot coloured by today’s feels-like temperature. Links like `beattheheat.asia/#city-dhaka` open a city directly, and `/cities/` has a text page for each one. To add a city, add it to `LIVE_CITIES` and `CITY_PROFILES`, then run `node tools/build-static.js`.
+`CITY_PROFILES` gives each of the twelve live cities a view of its own: a line about the city, whether it has a heat action plan (`hap.status`: `plan`, `building` or `none`, with sources), the vicious cycles the evidence ties to it (each with a one-line reason drawn from evidence already on the site), the groups hit hardest, worked plans and organisations already at work. The section draws a map of the cities on `images/asia-map.svg`: land in one colour with no national boundaries (Natural Earth land, public domain), so the map takes no position on any border with each dot coloured by today’s feels-like temperature. Links like `commonshade.org/#city-dhaka` open a city directly, and `/cities/` has a text page for each one. To add a city, add it to `LIVE_CITIES` and `CITY_PROFILES`, then run `node tools/build-static.js`.
 
 ## Heatwaves that shaped Asia (part 26 of `data.js`)
 
@@ -221,11 +236,11 @@ The map is drawn with JavaScript, which most AI crawlers (and some search engine
 
 ## Licence
 
-Text, data, films and illustrations: **CC BY 4.0** (see `LICENSE`). Code: **MIT** (see `LICENSE-CODE`). Both name "BeatTheHeat.Asia contributors" as the rights holder. Linked sources, quotations and organisations' names and logos are not covered. The notice appears in the footer, in the home page's structured data, on the text pages and in `llms.txt`.
+Text, data, films and illustrations: **CC BY 4.0** (see `LICENSE`). Code: **MIT** (see `LICENSE-CODE`). Both name "Common Shade contributors" as the rights holder. Linked sources, quotations and organisations' names and logos are not covered. The notice appears in the footer, in the home page's structured data, on the text pages and in `llms.txt`.
 
 ## The 20-second social reel (`tools/reel/`)
 
-`media/social/beattheheat-reel-20s.mp4` is a 20-second motion piece for LinkedIn: 1080×1350 (4:5), 60 fps, H.264 with an AAC soundtrack at −16 LUFS. `beattheheat-reel-20s-cover.jpg` is its thumbnail.
+`media/social/commonshade-reel-20s.mp4` is a 20-second motion piece for LinkedIn: 1080×1350 (4:5), 60 fps, H.264 with an AAC soundtrack at −16 LUFS. `commonshade-reel-20s-cover.jpg` is its thumbnail.
 
 It is drawn frame by frame in `tools/reel/reel.html` from the map's own data: the ten systems, the consequences, the vicious cycles, the actions, the poverty–heat trap and the five tools. It runs in seven scenes:
 1. Extreme heat.
@@ -270,12 +285,12 @@ Evidence links: a consequence (part 2) can carry `sources: [{ label, url }]`, sh
 
 ## How to upload files to GitHub
 
-1. Go to github.com, sign in, and open the repository for beattheheat.asia.
+1. Go to github.com, sign in, and open the repository for commonshade.org.
 2. Click **Add file → Upload files**, then drag in the files you changed. For the preview image, open the `images` folder first.
 3. Files with the same name are replaced, which is what you want.
 4. Click the green **Commit changes** button.
 5. Wait 1–3 minutes. The **Actions** tab shows a green tick when the site has updated.
-6. Open https://beattheheat.asia in a **private or incognito window** so you don't see an old saved copy.
+6. Open https://commonshade.org in a **private or incognito window** so you don't see an old saved copy.
 
 **Do not delete the `CNAME` file.**
 

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>BeatTheHeat.Asia: 20-second social reel</title>
+<title>Common Shade: 20-second social reel</title>
 <style>
   /* the site's typefaces, kept beside the reel (SIL Open Font License) so every render matches */
   @font-face { font-family: "Anton"; src: url("fonts/Anton-Regular.ttf"); font-weight: 400; }
@@ -299,9 +299,14 @@ function render(t) {
   else {
     bg(C.canvas);
     const dk = spring(p(t, 17.75, 18.25));
-    circle(540, 470, 70 * (1 + .04 * Math.sin(t * 5)), C.orange);
-    x.save(); x.translate(540, 470); x.rotate(t * .8); x.setLineDash([10, 10]); circle(0, 0, 90 * dk, null, C.ink, 4); x.restore();
-    letters("BEAT THE HEAT", 540, 730, 150, ANTON(150), C.ink, t, 17.85, .045, .5, "center");
+    // the Common Shade mark: a shade held up on two posts; the canopy draws itself, then the posts rise
+    const pk = eo(p(t, 17.95, 18.45)), bob = 3 * Math.sin(t * 3);
+    x.save(); x.translate(0, bob); x.lineCap = "round";
+    x.strokeStyle = C.ink; x.lineWidth = 18; x.beginPath();
+    x.moveTo(445, 452); x.lineTo(445, 452 + 95 * pk); x.moveTo(635, 452); x.lineTo(635, 452 + 95 * pk); if (pk > 0) x.stroke();
+    x.strokeStyle = C.orange; x.lineWidth = 34; x.setLineDash([520 * dk, 1000]); x.beginPath();
+    x.moveTo(392, 470); x.quadraticCurveTo(540, 330, 688, 470); x.stroke(); x.setLineDash([]); x.restore();
+    letters("COMMON SHADE", 540, 730, 150, ANTON(150), C.ink, t, 17.85, .045, .5, "center");
     const url = "beattheheat.asia", n = Math.floor(url.length * p(t, 18.35, 18.85)), shown = url.slice(0, n), uw = width(url, INTER(600, 50));
     text(shown, 540 - uw / 2, 820, INTER(600, 50), C.ink); if (t > 18.3 && t < 19.3 && Math.floor(t * 4) % 2 === 0) { x.fillStyle = C.orange; x.fillRect(540 - uw / 2 + width(shown, INTER(600, 50)) + 6, 780, 5, 50); }
     const ck = p(t, 18.75, 19.15); if (ck > 0) { const lab = "Find your way in", f = INTER(700, 40), w = width(lab, f) + 140, s = spring(ck);

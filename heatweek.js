@@ -1,4 +1,4 @@
-/* BeatTheHeat.Asia: A week in the heat (part 32 of data.js).
+/* Common Shade: A week in the heat (part 32 of data.js).
    Runs the exercise on its own page (#wk), and draws the launcher of workers on the home page (#wk-launch).
    Follow one worker's cash through a heatwave, build protection that only counts when usable, then test it. Adds up cash; never scores. */
 (function () {
@@ -225,7 +225,7 @@
   }
   function mailto() {
     const P = person(), c = country(), subject = `Can ${P.name} stay safe and still eat? A week in the heat`;
-    const body = `${P.name} is a composite ${P.role.toLowerCase()} in ${c.name}. Follow ${P.poss} money through a heatwave week, build a package of protection, then try to break it.${shareWith ? " The link opens the package I built." : ""}\n\n${shareUrl()}\n\nFrom BeatTheHeat.Asia`;
+    const body = `${P.name} is a composite ${P.role.toLowerCase()} in ${c.name}. Follow ${P.poss} money through a heatwave week, build a package of protection, then try to break it.${shareWith ? " The link opens the package I built." : ""}\n\n${shareUrl()}\n\nFrom Common Shade`;
     return `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   }
   const shareFresh = () => { const u = box.querySelector("[data-hw-share-url]"), m = box.querySelector("[data-hw-share-mail]"); if (u) u.value = shareUrl(); if (m) m.href = mailto(); };
@@ -307,7 +307,7 @@
       <h2>Tests run</h2><p>${h(W.tests.filter(t => s.tests[t.id]).map(t => t.name).join(", ") || "None yet")}</p>
       <h2>Still unresolved</h2><ul>${unresolved().join("") || "<li>Nothing in the tests run. Try the others.</li>"}</ul>
       <h2>Review</h2><p>${h(s.review || "No review date set")}</p>
-      <p class="note">${h(W.note)} Only “Confirmed” commitments are secured. Made with BeatTheHeat.Asia.</p></body></html>`;
+      <p class="note">${h(W.note)} Only “Confirmed” commitments are secured. Made with Common Shade.</p></body></html>`;
     const url = URL.createObjectURL(new Blob([html], { type: "text/html" })), w = window.open(url, "_blank");
     if (!w) { const a = document.createElement("a"); a.href = url; a.download = `heat-protection-plan-${p.id}.html`; document.body.appendChild(a); a.click(); a.remove(); }
     setTimeout(() => URL.revokeObjectURL(url), 60000);

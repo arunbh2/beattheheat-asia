@@ -1,10 +1,10 @@
-# BeatTheHeat.Asia: the whole map as text
+# Common Shade: the whole map as text
 
 > An interactive systems map of extreme heat in Asia: how heat ripples through 10 systems and 87 consequences, the 21 vicious cycles that make it worse, the 29 actions that could break them, and the 14 kinds of institution that hold those levers. Every claim links to its source.
 
-This is a beta version. BeatTheHeat.Asia is being built by a group of organisations working on extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement. Every claim links to its source; where the evidence is still emerging, the map says so.
+Common Shade is in beta, currently at beattheheat.asia. A group of organisations is helping shape it as a shared endeavour for protection from extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement. Every claim links to its source; where the evidence is still emerging, the map says so.
 
-Text, data, films and illustrations © BeatTheHeat.Asia contributors, shared under Creative Commons Attribution 4.0 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/): you may copy, adapt and translate them, with credit and a link to beattheheat.asia. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’ and are not covered.
+Text, data, films and illustrations © Common Shade contributors, shared under Creative Commons Attribution 4.0 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/): you may copy, adapt and translate them, with credit and a link to beattheheat.asia. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’ and are not covered.
 
 Interactive map: https://beattheheat.asia/ · Generated 2026-10-26
 
@@ -2340,7 +2340,7 @@ From interviews with city officials in October and November 2024 and published m
 
 - Heat Resilience Action (HERA), formerly Climate Resilience for All: Works on extreme heat with a focus on women and low-income communities. With SEWA and Swiss Re, it combined insurance payouts and cash for lost income after India’s 2024 heatwaves. (https://heranow.org/resources/as-extreme-heat-threats-grow-can-heat-insurance-offer-protection/)
 
-- UNEP Cool Coalition: A global network for clean, efficient cooling and cooler cities. It runs its own city initiative, also called Beat the Heat, which is separate from this site. (https://coolcoalition.org)
+- UNEP Cool Coalition: A global network for clean, efficient cooling and cooler cities. With the COP30 Presidency, it runs Beat the Heat, an initiative supporting cities in the Global South with heat assessments and cooling action. (https://coolcoalition.org)
 
 - Red Cross Red Crescent Climate Centre: Wrote the Heatwave Guide for Cities with more than 25 partners, covering how cities prepare for, respond to and learn from heatwaves. (https://preparecenter.org/resource/heatwave-guide-for-cities)
 

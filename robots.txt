@@ -1,4 +1,4 @@
-# BeatTheHeat.Asia welcomes search engines and AI systems, for search, answers and training.
+# Common Shade welcomes search engines and AI systems, for search, answers and training.
 # The pages under /the-web/, /loops/, /actions/ and the others carry the map's content as plain HTML;
 # /llms.txt and /llms-full.txt describe the site for AI systems.
 
