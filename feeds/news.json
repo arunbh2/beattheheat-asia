@@ -3,7 +3,7 @@
  "keepDays": 14,
  "sources": [
   {
-   "name": "News outlets' feeds",
+   "name": "regional news outlets",
    "ok": true,
    "found": 486
   },

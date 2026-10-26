@@ -127,7 +127,7 @@ async function attempt(name, fn, tries, waitMs) {
 async function main() {
   let prev = null; try { prev = JSON.parse(fs.readFileSync(OUT, "utf8")); } catch (e) {}
   // publisher feeds once; GDELT twice at most, at least 6 seconds apart, as its terms ask
-  const results = await Promise.all([attempt("News outlets' feeds", feeds, 1, 0), attempt("GDELT Project", gdelt, 2, 6000)]);
+  const results = await Promise.all([attempt("regional news outlets", feeds, 1, 0), attempt("GDELT Project", gdelt, 2, 6000)]);
   const sources = results.map(({ name, ok, found, error }) => ({ name, ok, found, ...(error ? { error } : {}) }));
   if (!results.some(r => r.ok)) {
     console.log(`::warning title=Heat news feed::No news source could be reached (${sources.map(s => `${s.name}: ${s.error}`).join("; ")}). feeds/news.json left as it was.`);
