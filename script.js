@@ -2880,7 +2880,8 @@
       // two identical sets make the loop seamless; the second is hidden from screen readers and the keyboard
       rail.innerHTML = set(false) + set(true);
       bar.hidden = false;
-      rail.style.setProperty("--ticker-dur", `${Math.max(30, Math.round(rail.scrollWidth / 2 / 45))}s`);
+      // about 45 pixels a second; half that for people who prefer reduced motion, who can also pause it
+      rail.style.setProperty("--ticker-dur", `${Math.max(30, Math.round(rail.scrollWidth / 2 / (reduceMotion ? 22 : 45)))}s`);
     }, () => {});
     draw();
     // a page left open keeps its readings fresh: fetch again once the 30-minute cache has run out
@@ -2890,13 +2891,6 @@
       ev.preventDefault(); showCity(a.dataset.tickerCity); setHash("city-" + a.dataset.tickerCity); track("ticker-" + a.dataset.tickerCity);
       document.getElementById("city").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" });
     });
-    // for people who prefer reduced motion the line does not slide: it steps to the next city every six seconds
-    if (reduceMotion) setInterval(() => {
-      const view = bar.querySelector(".ticker__view"); if (!view || bar.hidden || document.hidden || pause.getAttribute("aria-pressed") === "true" || bar.matches(":focus-within")) return;
-      const items = [...rail.querySelectorAll(".ticker__set:not([aria-hidden]) > li")]; if (!items.length) return;
-      const next = items.find(li => li.offsetLeft > view.scrollLeft + 4);
-      view.scrollLeft = next && view.scrollLeft + view.clientWidth < view.scrollWidth - 2 ? next.offsetLeft : 0;
-    }, 6000);
     pause.addEventListener("click", () => { const on = pause.getAttribute("aria-pressed") !== "true";
       pause.setAttribute("aria-pressed", String(on)); pause.textContent = on ? "Play" : "Pause"; bar.classList.toggle("is-paused", on); });
   }

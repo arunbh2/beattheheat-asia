@@ -109,14 +109,14 @@ const html = `<!DOCTYPE html>
   <a class="skip-link" href="#refs-search">Skip to the search</a>
   <header class="wkp-top">
     <div class="container wkp-top__in">
-      <a class="wkp-home" href="/">COMMON SHADE<span class="visually-hidden">: back to the map</span></a>
-      <nav aria-label="Elsewhere on the site"><a href="/#explore">The map</a><a href="/print/">Printable one-pagers</a><a href="/heat-network/">The heat network</a></nav>
+      <a class="wkp-home" href="/"><span class="wordmark__mark" aria-hidden="true"></span>COMMON SHADE<span class="visually-hidden">: back to the map</span></a>
+      <nav aria-label="Elsewhere on the site"><a href="/#explore">The map</a><a href="/practical/">Practical actions</a><a href="/plan/">Plan a response</a><a href="/news/">Heat in the news</a><a href="/join/">Help build Common Shade</a></nav>
     </div>
   </header>
   <main class="refs">
     <div class="container">
       <p class="eyebrow">Sources and references</p>
-      <h1 class="h2 refs__h">Everything we cite,<br>in one place.</h1>
+      <h1 class="h2 refs__h">Everything we cite, <br>in one place.</h1>
       <p class="refs__intro">Every claim on Common Shade links to its source. Here are all ${total} of them: ${counts.ref} papers, reports, guidance and datasets; ${counts.org} organisations; and ${counts.data} live services. Each shows where on the site it is used. Search by title, publisher or topic.</p>
       <div class="refs__bar">
         <label for="refs-search">Search the sources</label>

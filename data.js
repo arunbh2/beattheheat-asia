@@ -4241,5 +4241,5 @@ const GUIDE = {
   ],
   workshopCommunityTips: ["Use the languages people speak, and read the screen aloud.", "Keep the worker made up. Never share someone’s own story without their permission.", "Talk about conditions and solutions, not blame.", "Note what the group can do on its own, and what needs a partner.", "If anyone feels unwell from the heat, stop and look after them first.", "Close by reading the list back, then print or photograph it."],
   workshopCommunityBefore: ["Choose a cool, shaded place, with drinking water for everyone.", "Pick a time that does not cost people a day’s work.", "Open the worker exercise, practical actions and the coordinator’s simulation in three tabs. No screen? Print the action cards.", "Ask who will write down what is agreed."],
-  welcome: "New here? This site is large. Answer two questions and it will suggest where to start."
+
 };
