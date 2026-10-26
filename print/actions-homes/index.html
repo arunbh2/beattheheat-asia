@@ -42,12 +42,15 @@ footer p + p { margin-top: 2px; } footer b { color: #16202B; }
 .tools { width: 210mm; margin: 14px auto 0; display: flex; gap: 10px; align-items: center; font-size: 10pt; }
 .tools button, .tools a { padding: 8px 16px; border-radius: 999px; border: 2px solid #16202B; background: #F26430; color: #16202B; font: inherit; font-weight: 800; cursor: pointer; text-decoration: none; }
 .tools a { background: #fff; }
+/* on a phone screen: long source addresses wrap, and wide tables scroll inside the sheet instead of widening the page */
+.srcs a, .sheet a { overflow-wrap: anywhere; }
+@media screen and (max-width: 640px) { .sheet table { display: block; overflow-x: auto; max-width: 100%; } .sheet footer, .qr { min-width: 0; } .qr p, .sheet footer p { overflow-wrap: anywhere; } }
 @media print { body { background: none; } .sheet { margin: 0; box-shadow: none; width: auto; min-height: 0; height: 273mm; padding: 0; overflow: hidden; } .tools { display: none; } a { color: inherit; } }
 @media screen and (max-width: 820px) { .sheet { width: auto; margin: 8px; min-height: 0; } .fit { zoom: 1 !important; min-height: 0 !important; } .tools { width: auto; margin: 8px; flex-wrap: wrap; } .cols, .cols3 { grid-template-columns: 1fr; } }
 </style>
 </head>
 <body>
-<nav class="tools" aria-label="Page tools"><button type="button" onclick="window.print()">Print or save as PDF</button><a href="/#practical-homes">Open the live page</a><a href="/print/">All one-pagers</a></nav>
+<nav class="tools" aria-label="Page tools"><button type="button" onclick="window.print()">Print or save as PDF</button><a href="/practical/#practical-homes">Open the live page</a><a href="/print/">All one-pagers</a></nav>
 <main class="sheet"><div class="fit">
   <div class="bar"><div class="brand"><i></i>COMMON SHADE</div><div class="kind">Practical actions · Eight questions for every action</div></div>
   <h1>Practical actions: Homes</h1>
@@ -75,11 +78,11 @@ footer p + p { margin-top: 2px; } footer b { color: #16202B; }
   <h2>Sources</h2><ol class="srcs"><li>Reuters, via South China Morning Post, 2025. <a href="https://www.scmp.com/news/asia/south-asia/article/3301810/indian-slums-get-cool-roofs-beat-summer-heat">scmp.com/news/asia/south-asia/article/3301810/indian-slums-get-cool-roofs-beat-summer-heat</a></li><li>Tasgaonkar et al., Scientific Data, 2022. <a href="https://www.nature.com/articles/s41597-022-01314-5">nature.com/articles/s41597-022-01314-5</a></li><li>Sustainable Energy for All, 2023. <a href="https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-global-access-to-cooling-gaps-2023">seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-global-access-to-cooling-gaps-2023</a></li><li>Ghimire and others, Frontiers in Public Health, 2025. <a href="https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1657267/full">frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1657267/full</a></li><li>Minor et al., One Earth, 2022. <a href="https://orbit.dtu.dk/en/publications/rising-temperatures-erode-human-sleep-globally">orbit.dtu.dk/en/publications/rising-temperatures-erode-human-sleep-globally</a></li></ol>
   <footer>
     <div>
-      <p><b>Common Shade</b> · A living map of extreme heat in South and Southeast Asia, updated as the evidence grows. Live page: beattheheat.asia/#practical-homes</p>
+      <p><b>Common Shade</b> · A living map of extreme heat in South and Southeast Asia, updated as the evidence grows. Live page: beattheheat.asia/practical/#practical-homes</p>
       <p>Common Shade is in beta, currently at beattheheat.asia. A group of organisations is helping shape it as a shared endeavour for protection from extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement.</p>
       <p><b>Licence:</b> © Common Shade contributors. Shared under Creative Commons Attribution 4.0 (CC BY 4.0, creativecommons.org/licenses/by/4.0): you may copy, adapt, translate and share this sheet, with credit to Common Shade and a link to beattheheat.asia. Sources cited remain their owners’. Printed from the map’s data on 2026-10-26; check the live page for updates.</p>
     </div>
-    <div class="qr"><p>beattheheat.asia/#practical-homes</p></div>
+    <div class="qr"><p>beattheheat.asia/practical/#practical-homes</p></div>
   </footer>
 </div></main>
 <script>

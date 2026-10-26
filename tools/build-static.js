@@ -323,7 +323,7 @@ const CITY_PAGES = [];
   const val = (c, k) => k === "who" ? c.who.map(inst).join(", ") : k === "evidence" ? c.evidence.text : k === "worksIf" ? c.worksIf.join("; ") + "." : c[k];
   let h = `<p class="meta">Evidence labels: ${Object.values(D.EVIDENCE_STATUS).map(x => `<strong>${esc(x.name)}</strong>: ${esc(x.text)}`).join(" ")}</p><p><strong>Start from a question:</strong> ${D.ACTION_JOURNEYS.map(j => j.go === "stalls" ? `<a href="/#stalls">${esc(j.q)}</a>` : j.go === "finance" ? `<a href="/paying-for-protection/">${esc(j.q)}</a>` : `<a href="#${j.go}">${esc(j.q)}</a>`).join(" · ")}</p>`, m = [`## ${p.title}`, intro];
   D.ACTION_SETTINGS.forEach(st => {
-    h += `<h2 id="${st.id}">${esc(st.name)}</h2><p>${esc(st.intro)} <a href="/print/actions-${st.id}/">Print these cards</a> · <a href="/#practical-${st.id}">Open them on the map</a>${st.cool ? ` · <a href="/cooling-options/#${st.cool}">Options, costs and traps</a>` : ""}</p>`;
+    h += `<h2 id="${st.id}">${esc(st.name)}</h2><p>${esc(st.intro)} <a href="/print/actions-${st.id}/">Print these cards</a> · <a href="/practical/#practical-${st.id}">Open them in the interactive version</a>${st.cool ? ` · <a href="/cooling-options/#${st.cool}">Options, costs and traps</a>` : ""}</p>`;
     m.push(`### ${st.name}`, st.intro);
     if (st.problems) { h += `<p><strong>What workers told researchers:</strong> ${st.problems.map(x => esc(x.q)).join(" · ")}. ${ext(st.problemsSource.url, st.problemsSource.label)}</p>`; m.push(`What workers told researchers: ${st.problems.map(x => x.q).join("; ")} (${st.problemsSource.label}, ${st.problemsSource.url})`); }
     st.cards.forEach(c => {
@@ -407,6 +407,9 @@ fs.writeFileSync(path.join(ROOT, "sitemap.xml"), `<?xml version="1.0" encoding="
   <url><loc>${SITE}/plan/</loc><lastmod>${TODAY}</lastmod><priority>0.9</priority></url>
   <url><loc>${SITE}/together/</loc><lastmod>${TODAY}</lastmod><priority>0.9</priority></url>
   <url><loc>${SITE}/guide/</loc><lastmod>${TODAY}</lastmod><priority>0.9</priority></url>
+  <url><loc>${SITE}/practical/</loc><lastmod>${TODAY}</lastmod><priority>0.9</priority></url>
+  <url><loc>${SITE}/finance/</loc><lastmod>${TODAY}</lastmod><priority>0.8</priority></url>
+  <url><loc>${SITE}/sources/</loc><lastmod>${TODAY}</lastmod><priority>0.6</priority></url>
   <url><loc>${SITE}/join/</loc><lastmod>${TODAY}</lastmod><priority>0.7</priority></url>
   <url><loc>${SITE}/news/</loc><lastmod>${TODAY}</lastmod><priority>0.7</priority></url>
 ${[...PAGES, ...CITY_PAGES].map(p => `  <url><loc>${SITE}/${p.slug}/</loc><lastmod>${TODAY}</lastmod><priority>0.8</priority></url>`).join("\n")}
@@ -433,3 +436,6 @@ require("./build-print")().then(list => {
   console.log("Wrote", list.length, "printable one-pagers");
 });
 console.log("Wrote", PAGES.length + CITY_PAGES.length, "pages, llms.txt, llms-full.txt, sitemap.xml and robots.txt");
+
+// ---- /sources/: every source the site cites ----
+require("./build-sources.js");

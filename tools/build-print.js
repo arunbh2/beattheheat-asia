@@ -60,6 +60,9 @@ footer p + p { margin-top: 2px; } footer b { color: #16202B; }
 .tools { width: 210mm; margin: 14px auto 0; display: flex; gap: 10px; align-items: center; font-size: 10pt; }
 .tools button, .tools a { padding: 8px 16px; border-radius: 999px; border: 2px solid #16202B; background: #F26430; color: #16202B; font: inherit; font-weight: 800; cursor: pointer; text-decoration: none; }
 .tools a { background: #fff; }
+/* on a phone screen: long source addresses wrap, and wide tables scroll inside the sheet instead of widening the page */
+.srcs a, .sheet a { overflow-wrap: anywhere; }
+@media screen and (max-width: 640px) { .sheet table { display: block; overflow-x: auto; max-width: 100%; } .sheet footer, .qr { min-width: 0; } .qr p, .sheet footer p { overflow-wrap: anywhere; } }
 @media print { body { background: none; } .sheet { margin: 0; box-shadow: none; width: auto; min-height: 0; height: 273mm; padding: 0; overflow: hidden; } .tools { display: none; } a { color: inherit; } }
 @media screen and (max-width: 820px) { .sheet { width: auto; margin: 8px; min-height: 0; } .fit { zoom: 1 !important; min-height: 0 !important; } .tools { width: auto; margin: 8px; flex-wrap: wrap; } .cols, .cols3 { grid-template-columns: 1fr; } }
 `;
@@ -156,7 +159,7 @@ async function build() {
       <p style="font-size:.85em;margin-top:4px">Write each request as an invitation to work together: what would help, why it matters to people here, and what the group can offer in return.</p>
       <div class="cols" style="margin-top:4px"><div><h2>Tips for the person leading</h2><ul class="tight">${G.workshopCommunityTips.map(t => `<li>${esc(t)}</li>`).join("")}</ul></div>
         <div><h2>Before the meeting</h2><ul class="check">${G.workshopCommunityBefore.map(t => `<li>${esc(t)}</li>`).join("")}</ul></div></div>
-      <p style="margin-top:6px"><b>The tools:</b> <span style="white-space:nowrap">beattheheat.asia/a-week-in-the-heat/</span> · <span style="white-space:nowrap">/#practical</span> · <span style="white-space:nowrap">/together/</span> · <b>Action cards to print:</b> <span style="white-space:nowrap">/print/actions-work/</span> · <span style="white-space:nowrap">/print/actions-homes/</span> · <span style="white-space:nowrap">/print/actions-neighbourhoods/</span></p>`;
+      <p style="margin-top:6px"><b>The tools:</b> <span style="white-space:nowrap">beattheheat.asia/a-week-in-the-heat/</span> · <span style="white-space:nowrap">/practical/</span> · <span style="white-space:nowrap">/together/</span> · <b>Action cards to print:</b> <span style="white-space:nowrap">/print/actions-work/</span> · <span style="white-space:nowrap">/print/actions-homes/</span> · <span style="white-space:nowrap">/print/actions-neighbourhoods/</span></p>`;
     const kind = "Facilitator’s guide · For community groups and workers’ organisations", title = "A 90-minute heat meeting for your community or workplace";
     add("community-workshop-guide", { kind, title, for: "Community groups" },
       await sheet({ slug: "community-workshop-guide", kind, title,
@@ -309,7 +312,7 @@ async function build() {
     const meta = { kind: "One-pager · For heat officers, finance departments and funders", title: "Paying for heat protection", for: "Heat officers, finance departments and funders" };
     add("paying-for-protection", meta,
       await sheet({ slug: "paying-for-protection", kind: meta.kind, title: meta.title,
-        lede: "Protection only works if someone pays for it, the money arrives in time, and it is still there next season.", body, live: "/#finance",
+        lede: "Protection only works if someone pays for it, the money arrives in time, and it is still there next season.", body, live: "/finance/",
         sources: [F.basis.source, ...F.cases.map(c => c.sources[c.sources.length - 1])].filter((v, i, a) => a.findIndex(w => w.url === v.url) === i) }));
   }
 
@@ -336,7 +339,7 @@ async function build() {
     const meta = { kind: `Practical actions · ${st.name}`, title: `Practical actions: ${st.name}${of}`, for: "Anyone who has to act", group: "actions" };
     add(slug, meta,
       await sheet({ slug, kind: "Practical actions · Eight questions for every action", title: `Practical actions: ${st.name}${of}`,
-        lede: "What to do, who must act, what it takes to run, what could stop it, and what it only works with.", body, live: `/#practical-${st.id}`,
+        lede: "What to do, who must act, what it takes to run, what could stop it, and what it only works with.", body, live: `/practical/#practical-${st.id}`,
         sources: srcs }));
   }
 

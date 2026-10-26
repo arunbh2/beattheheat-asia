@@ -39,7 +39,9 @@
 
   // the plan has a page of its own (/plan/); there the map's parts are absent, so stand-ins keep the shared code running
   const PLAN_PAGE = document.body.dataset.page === "plan";
-  const need = (id, tag) => document.getElementById(id) || (PLAN_PAGE ? (tag === "svg" ? document.createElementNS("http://www.w3.org/2000/svg", "svg") : document.createElement(tag || "div")) : null);
+  // practical actions and paying for protection also have pages of their own (/practical/, /finance/), built the same way
+  const SUB_PAGE = ["plan", "practical", "finance"].includes(document.body.dataset.page);
+  const need = (id, tag) => document.getElementById(id) || (SUB_PAGE ? (tag === "svg" ? document.createElementNS("http://www.w3.org/2000/svg", "svg") : document.createElement(tag || "div")) : null);
   const svg = need("web", "svg");
   const stage = need("map-stage");
   const panel = need("panel");
@@ -1054,6 +1056,9 @@
   function handleAction(ev) {
     const t = ev.target.closest("button, [data-story], [data-lever], [data-inst]");
     if (!t) return;
+    // on a page of its own there is no map: open the map in its tab, at that item
+    if (SUB_PAGE && !PLAN_PAGE) { const d = t.dataset, h = d.go ? d.go : d.story ? "loop-" + d.story : d.lever ? "break-" + d.lever : d.inst ? "who-" + d.inst : d.pkg ? "package-" + d.pkg : "";
+      if (h) { ev.preventDefault(); const w = window.open("/#" + h, "bth-map"); if (w) try { w.focus(); } catch (e) {} return; } }
     const run = fn => panel.contains(t) ? fn() : goToMap(fn);
     if (t.dataset.go) return run(() => select(t.dataset.go));
     if (t.dataset.story) return run(() => startStory(t.dataset.story));
@@ -1392,7 +1397,7 @@
   function finHTML() {
     if (!FIN) return "";
     return `<details class="plan-w2a plan-fin"${finDone() ? " open" : ""}><summary>Paying for protection <span>${finDone()} of ${FIN.needs.length} needs with a route</span></summary>
-      <p class="plan-step__hint">${esc(FIN.intro)} <a href="#finance">How the routes compare</a></p>
+      <p class="plan-step__hint">${esc(FIN.intro)} <a href="/finance/" target="_blank" rel="noopener">How the routes compare<span class="visually-hidden"> (opens in a new tab)</span></a></p>
       ${FIN.needs.map(n => { const v = finNeed(n.id); return `<fieldset class="plan-w2a__lv plan-fin__need"><legend>${esc(n.need)}</legend>
         <label>Route, and who holds the money <input type="text" data-pl-fin="need:${n.id}:route" value="${esc(v.route || "")}" placeholder="e.g. ${esc(n.route.toLowerCase())}"></label>
         <label>Money must arrive by <input type="text" data-pl-fin="need:${n.id}:by" value="${esc(v.by || "")}" placeholder="${esc(n.ask)}"></label></fieldset>`; }).join("")}
@@ -2472,8 +2477,8 @@
     sec.addEventListener("click", ev => {
       const t = ev.target.closest("[data-pa]") || ev.target.closest("[data-pa-tab]"); if (t) { showPractical(t.dataset.pa || t.dataset.paTab); track("practical-" + (t.dataset.pa || t.dataset.paTab)); return; }
       const g = ev.target.closest("[data-pa-go]");
-      if (g && g.dataset.paGo === "heatweek") { track("practical-q-heatweek"); document.getElementById("heatweek").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" }); return; }
-      if (g && g.dataset.paGo === "finance") { track("practical-q-finance"); document.getElementById("finance").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" }); return; }
+      if (g && g.dataset.paGo === "heatweek") { track("practical-q-heatweek"); window.open("/a-week-in-the-heat/", "_blank", "noopener"); return; }
+      if (g && g.dataset.paGo === "finance") { track("practical-q-finance"); window.open(FINANCE_URL, "_blank", "noopener"); return; }
       if (g) { showPractical(g.dataset.paGo); track("practical-q-" + g.dataset.paGo); document.getElementById("pa-panel").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" }); return; }
       const hz = ev.target.closest("[data-pa-hz]");
       if (hz) { paHz = hz.dataset.paHz; showPractical(paSel); track("practical-hz-" + (paHz || "all")); const f = document.querySelector(`#pa-panel [data-pa-hz="${paHz}"]`); if (f) f.focus(); return; }
@@ -2885,6 +2890,13 @@
       ev.preventDefault(); showCity(a.dataset.tickerCity); setHash("city-" + a.dataset.tickerCity); track("ticker-" + a.dataset.tickerCity);
       document.getElementById("city").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" });
     });
+    // for people who prefer reduced motion the line does not slide: it steps to the next city every six seconds
+    if (reduceMotion) setInterval(() => {
+      const view = bar.querySelector(".ticker__view"); if (!view || bar.hidden || document.hidden || pause.getAttribute("aria-pressed") === "true" || bar.matches(":focus-within")) return;
+      const items = [...rail.querySelectorAll(".ticker__set:not([aria-hidden]) > li")]; if (!items.length) return;
+      const next = items.find(li => li.offsetLeft > view.scrollLeft + 4);
+      view.scrollLeft = next && view.scrollLeft + view.clientWidth < view.scrollWidth - 2 ? next.offsetLeft : 0;
+    }, 6000);
     pause.addEventListener("click", () => { const on = pause.getAttribute("aria-pressed") !== "true";
       pause.setAttribute("aria-pressed", String(on)); pause.textContent = on ? "Play" : "Pause"; bar.classList.toggle("is-paused", on); });
   }
@@ -3108,7 +3120,7 @@
   /* ======================= THE PLAN, ON ITS OWN PAGE ======================= */
   // The plan lives at /plan/, opened in one named tab ("bth-plan") so repeated clicks reuse it. Both pages keep the
   // plan in this browser; a "storage" event tells each page when the other has changed it.
-  const PLAN_URL = "/plan/", PLAN_TAB = "bth-plan";
+  const PLAN_URL = "/plan/", PLAN_TAB = "bth-plan", PRACTICAL_URL = "/practical/", FINANCE_URL = "/finance/";
   const goToPlan = (hash, query) => { track("plan-open"); const w = window.open(PLAN_URL + (query || "") + (hash ? "#" + hash : ""), PLAN_TAB); if (w) try { w.focus(); } catch (e) {} };
   function readPlan(raw) {
     try { const saved = JSON.parse(raw || "null"); if (!saved || !Array.isArray(saved.levers)) return false;
@@ -3132,10 +3144,14 @@
       : "Your plan is empty. Add actions anywhere on the map, then open your plan to set who leads and pays.";
   }
   // the map's tab is named, so links from the plan page back to the map reuse it rather than opening another
-  if (!PLAN_PAGE && !window.name) window.name = "bth-map";
-  if (PLAN_PAGE) document.addEventListener("click", ev => {
+  if (!SUB_PAGE && !window.name) window.name = "bth-map";
+  if (SUB_PAGE) document.addEventListener("click", ev => {
     const a = ev.target.closest && ev.target.closest('a[href^="#"]'); if (!a) return;
     const id = decodeURIComponent(a.getAttribute("href").slice(1)); if (!id || document.getElementById(id)) return;
+    if (!PLAN_PAGE && /^plan(-|$)/.test(id)) return;   // links into the plan open the plan page (below)
+    if (/^practical(-|$)/.test(id) || /^(fin-|finance$)/.test(id)) { ev.preventDefault();
+      const url = /^(fin-|finance$)/.test(id) ? FINANCE_URL : PRACTICAL_URL, here = location.pathname === url;
+      if (here) location.hash = id; else window.open(url + (/-/.test(id) ? "#" + id : ""), "_blank", "noopener"); return; }
     ev.preventDefault(); const w = window.open("/#" + id, "bth-map"); if (w) try { w.focus(); } catch (e) {}
   }, true);
   window.addEventListener("storage", ev => {
@@ -3151,6 +3167,12 @@
     ev.preventDefault();
     if (a.dataset.planPlace) goToPlan("plan-step-1", "?place=" + encodeURIComponent(a.dataset.planPlace));
     else goToPlan(h.length > 5 ? h.slice(1) : "");
+  }, true);
+  // on the map, links into a practical-action setting or a payment case open that page in a new tab
+  if (!SUB_PAGE) document.addEventListener("click", ev => {
+    const a = ev.target.closest && ev.target.closest('a[href^="#practical-"], a[href^="#fin-"]'); if (!a || ev.defaultPrevented) return;
+    const h = a.getAttribute("href"); ev.preventDefault();
+    window.open((h.startsWith("#fin-") ? FINANCE_URL : PRACTICAL_URL) + h, "_blank", "noopener");
   }, true);
 
   /* ======================= BOOT ======================= */
@@ -3176,10 +3198,20 @@
     }
     const h = decodeURIComponent(location.hash.slice(1)), t = h && document.getElementById(h); if (t) t.scrollIntoView({ block: "start" });
   }
+  // the pages of their own for practical actions and for paying for protection
+  function bootSectionPage() {
+    renderEvKey();
+    if (document.body.dataset.page === "practical") renderPractical(); else renderFinance();
+    initDisclosure();
+    const h = decodeURIComponent(location.hash.slice(1)), t = h && document.getElementById(h); if (t && !h.startsWith("practical-")) t.scrollIntoView({ block: "start" });
+  }
   function boot() {
     if (PLAN_PAGE) { bootPlanPage(); return; }
-    // links shared before the plan had its own page
+    if (SUB_PAGE) { bootSectionPage(); return; }
+    // links shared before the plan, practical actions and paying for protection had their own pages
     const old = decodeURIComponent(location.hash.slice(1)); if (/^plan-(step-\d|story)/.test(old)) { location.replace(PLAN_URL + "#" + old); return; }
+    if (/^practical-/.test(old)) { location.replace(PRACTICAL_URL + "#" + old); return; }
+    if (/^fin-/.test(old)) { location.replace(FINANCE_URL + "#" + old); return; }
     renderPlanLaunch();
     layout();
     drawBackground();
