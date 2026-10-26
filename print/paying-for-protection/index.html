@@ -42,12 +42,15 @@ footer p + p { margin-top: 2px; } footer b { color: #16202B; }
 .tools { width: 210mm; margin: 14px auto 0; display: flex; gap: 10px; align-items: center; font-size: 10pt; }
 .tools button, .tools a { padding: 8px 16px; border-radius: 999px; border: 2px solid #16202B; background: #F26430; color: #16202B; font: inherit; font-weight: 800; cursor: pointer; text-decoration: none; }
 .tools a { background: #fff; }
+/* on a phone screen: long source addresses wrap, and wide tables scroll inside the sheet instead of widening the page */
+.srcs a, .sheet a { overflow-wrap: anywhere; }
+@media screen and (max-width: 640px) { .sheet table { display: block; overflow-x: auto; max-width: 100%; } .sheet footer, .qr { min-width: 0; } .qr p, .sheet footer p { overflow-wrap: anywhere; } }
 @media print { body { background: none; } .sheet { margin: 0; box-shadow: none; width: auto; min-height: 0; height: 273mm; padding: 0; overflow: hidden; } .tools { display: none; } a { color: inherit; } }
 @media screen and (max-width: 820px) { .sheet { width: auto; margin: 8px; min-height: 0; } .fit { zoom: 1 !important; min-height: 0 !important; } .tools { width: auto; margin: 8px; flex-wrap: wrap; } .cols, .cols3 { grid-template-columns: 1fr; } }
 </style>
 </head>
 <body>
-<nav class="tools" aria-label="Page tools"><button type="button" onclick="window.print()">Print or save as PDF</button><a href="/#finance">Open the live page</a><a href="/print/">All one-pagers</a></nav>
+<nav class="tools" aria-label="Page tools"><button type="button" onclick="window.print()">Print or save as PDF</button><a href="/finance/">Open the live page</a><a href="/print/">All one-pagers</a></nav>
 <main class="sheet"><div class="fit">
   <div class="bar"><div class="brand"><i></i>COMMON SHADE</div><div class="kind">One-pager · For heat officers, finance departments and funders</div></div>
   <h1>Paying for heat protection</h1>
@@ -67,11 +70,11 @@ footer p + p { margin-top: 2px; } footer b { color: #16202B; }
   <h2>Sources</h2><ol class="srcs"><li>Global Asia Insurance Partnership, Scaling Parametric Insurance in Asia, 2026, pp. 48–51. <a href="https://www.gaip.global/publications/scaling-parametric-insurance-in-asia/">gaip.global/publications/scaling-parametric-insurance-in-asia</a></li><li>NPR, 16 July 2025: on super hot days, this insurance plan pays out cash for lost wages. <a href="https://www.npr.org/sections/goats-and-soda/2025/07/16/g-s1-76948/hot-temperatures-insurance-gig-workers-india">npr.org/sections/goats-and-soda/2025/07/16/g-s1-76948/hot-temperatures-insurance-gig-workers-india</a></li><li>SEADRIF, 2025: lessons from Laos. <a href="https://seadrif.org/wp-content/uploads/2025/11/IDF_Case_Study_SEADRIF_Laos_2025.pdf">seadrif.org/wp-content/uploads/2025/11/IDF_Case_Study_SEADRIF_Laos_2025.pdf</a></li><li>WTW, November 2025: Willis and Rare launch insurance for fishers in the Philippines. <a href="https://www.wtwco.com/en-my/news/2025/11/willis-and-rare-partners-to-launch-innovative-insurance-solution-for-fishers-in-the-philippines">wtwco.com/en-my/news/2025/11/willis-and-rare-partners-to-launch-innovative-insurance-solution-for-fishers-in-the-philippines</a></li></ol>
   <footer>
     <div>
-      <p><b>Common Shade</b> · A living map of extreme heat in South and Southeast Asia, updated as the evidence grows. Live page: beattheheat.asia/#finance</p>
+      <p><b>Common Shade</b> · A living map of extreme heat in South and Southeast Asia, updated as the evidence grows. Live page: beattheheat.asia/finance</p>
       <p>Common Shade is in beta, currently at beattheheat.asia. A group of organisations is helping shape it as a shared endeavour for protection from extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement.</p>
       <p><b>Licence:</b> © Common Shade contributors. Shared under Creative Commons Attribution 4.0 (CC BY 4.0, creativecommons.org/licenses/by/4.0): you may copy, adapt, translate and share this sheet, with credit to Common Shade and a link to beattheheat.asia. Sources cited remain their owners’. Printed from the map’s data on 2026-10-26; check the live page for updates.</p>
     </div>
-    <div class="qr"><p>beattheheat.asia/#finance</p></div>
+    <div class="qr"><p>beattheheat.asia/finance</p></div>
   </footer>
 </div></main>
 <script>
