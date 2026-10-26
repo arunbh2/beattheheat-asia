@@ -1,4 +1,4 @@
-# Refreshes feeds/news.json (heat headlines from South and Southeast Asia, via the GDELT Project and Google News) every six hours.
+# Refreshes feeds/news.json (heat headlines from South and Southeast Asia, via regional news outlets' RSS feeds and the GDELT Project) every six hours.
 # The site reads the file from raw.githubusercontent.com, so a new headline shows without a site rebuild.
 name: Heat news feed
 on:

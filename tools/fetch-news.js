@@ -1,8 +1,11 @@
 #!/usr/bin/env node
 /* BeatTheHeat.Asia: refresh feeds/news.json with recent heat headlines from South and Southeast Asia.
-   Two independent, keyless sources are merged, so one outage cannot empty the feed:
-     1. the GDELT Project's DOC 2.0 API (open data), and
-     2. Google News RSS search (one query for South Asia, one for Southeast Asia).
+   Sources, merged so no single outage can empty the feed:
+     1. RSS feeds published for syndication by regional news outlets and humanitarian services (FEEDS below),
+        filtered to headlines about heat. These are built to be read by machines, including from data centres.
+     2. The GDELT Project's DOC 2.0 API (open data), asked once, politely (it allows one request every 5 seconds
+        and often throttles the shared addresses GitHub's runners use).
+   Google News is not used: it refuses requests from data-centre addresses (HTTP 503).
    Run by .github/workflows/heat-news.yml every six hours, or by hand with `node tools/fetch-news.js`.
    Keeps only headlines about heat, leaves out ones framed around politics or conflict, and merges with the
    last run so the feed holds about two weeks. Each source's outcome is written into the file. If every
@@ -23,6 +26,26 @@ const QUERY = `(${HEAT_TERMS.join(" OR ")}) (${orList(PLACES)}) sourcelang:engli
 const HEAT = /heat ?waves?|extreme heat|heat ?stroke|heat stress|heat index|heat illness|heat-related|scorching|sweltering|searing heat|hot weather|high temperatures?|record temperatures?/i;
 // the site builds awareness and solutions; headlines framed around politics or conflict are left out
 const AVOID = /\b(election|elections|campaign|slams?|slammed|blames?|blamed|opposition|protests?|riots?|war|terror\w*|scandal|corrupt\w*|attacks?)\b/i;
+/* Feeds published for syndication. `country` is used when a headline does not name a place; null means the
+   feed is international, so a headline must name a South or Southeast Asian place to be kept. */
+const FEEDS = [
+  { name: "The Hindu", url: "https://www.thehindu.com/news/national/feeder/default.rss", country: "India" },
+  { name: "Hindustan Times", url: "https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml", country: "India" },
+  { name: "Down To Earth", url: "https://www.downtoearth.org.in/rss/climate-change", country: null },
+  { name: "Dhaka Tribune", url: "https://www.dhakatribune.com/feed", country: "Bangladesh" },
+  { name: "The Daily Star", url: "https://www.thedailystar.net/frontpage/rss.xml", country: "Bangladesh" },
+  { name: "The Kathmandu Post", url: "https://kathmandupost.com/rss", country: "Nepal" },
+  { name: "Bangkok Post", url: "https://www.bangkokpost.com/rss/data/topstories.xml", country: "Thailand" },
+  { name: "The Straits Times", url: "https://www.straitstimes.com/news/asia/rss.xml", country: null },
+  { name: "CNA", url: "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=6511", country: null },
+  { name: "Inquirer", url: "https://newsinfo.inquirer.net/feed", country: "Philippines" },
+  { name: "VnExpress International", url: "https://e.vnexpress.net/rss/news.rss", country: "Vietnam" },
+  { name: "Mongabay", url: "https://news.mongabay.com/feed/", country: null },
+  { name: "Eco-Business", url: "https://www.eco-business.com/feeds/news/", country: null },
+  { name: "UN News, Asia Pacific", url: "https://news.un.org/feed/subscribe/en/news/region/asia-pacific/feed/rss.xml", country: null },
+  { name: "UN News, climate", url: "https://news.un.org/feed/subscribe/en/news/topic/climate-change/feed/rss.xml", country: null },
+  { name: "ReliefWeb", url: "https://reliefweb.int/updates/rss.xml?search=heat%20wave", country: null },
+];
 const KEEP_DAYS = 14, MAX = 60, UA = "Mozilla/5.0 (compatible; BeatTheHeat.Asia news feed; +https://beattheheat.asia/)";
 
 const key = t => t.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim().slice(0, 70);
@@ -43,34 +66,42 @@ async function gdelt() {
   return fromGdelt(JSON.parse(text).articles);
 }
 
-/* ---- source 2: Google News RSS search ---- */
-function fromRss(xml) {
-  const items = [];
-  for (const m of String(xml).matchAll(/<item>([\s\S]*?)<\/item>/g)) {
-    const it = m[1], tag = n => { const x = new RegExp(`<${n}[^>]*>([\\s\\S]*?)</${n}>`).exec(it); return x ? entities(x[1]).trim() : ""; };
-    const src = /<source url="([^"]*)"[^>]*>([\s\S]*?)<\/source>/.exec(it), outlet = src ? entities(src[2]).trim() : "";
-    let title = clean(tag("title")); if (outlet && title.endsWith(` - ${outlet}`)) title = title.slice(0, -(outlet.length + 3)).trim();
-    const when = Date.parse(tag("pubDate"));
-    let domain = ""; try { domain = src ? new URL(src[1]).hostname.replace(/^www\./, "") : ""; } catch (e) {}
-    items.push({ title, url: tag("link"), domain: domain || outlet, date: Number.isFinite(when) ? new Date(when).toISOString().replace(/\.\d{3}Z$/, "Z") : null, place: placeOf(title), via: "Google News" });
+/* ---- source 2: publishers' RSS and Atom feeds ---- */
+function fromFeed(xml, feed) {
+  const items = [], text = String(xml);
+  const blocks = [...text.matchAll(/<item\b[\s\S]*?<\/item>/g), ...text.matchAll(/<entry\b[\s\S]*?<\/entry>/g)].map(m => m[0]);
+  for (const it of blocks) {
+    const tag = n => { const x = new RegExp(`<${n}\\b[^>]*>([\\s\\S]*?)</${n}>`).exec(it); return x ? entities(x[1]).replace(/<[^>]+>/g, "").trim() : ""; };
+    let link = tag("link"); if (!/^https?:/.test(link)) { const h = /<link\b[^>]*href="([^"]+)"/.exec(it); link = h ? entities(h[1]) : ""; }
+    const when = Date.parse(tag("pubDate") || tag("dc:date") || tag("published") || tag("updated"));
+    const title = clean(tag("title"));
+    let domain = ""; try { domain = new URL(link).hostname.replace(/^www\./, ""); } catch (e) {}
+    const place = placeOf(title) || feed.country || "";
+    items.push({ title, url: link, domain: domain || feed.name, date: Number.isFinite(when) ? new Date(when).toISOString().replace(/\.\d{3}Z$/, "Z") : null, place, via: feed.name, regional: !!feed.country });
   }
   return items;
 }
-async function googleNews() {
-  const run = async (places, region) => {
-    const q = `(${HEAT_TERMS.join(" OR ")}) (${orList(places)}) when:7d`;
-    const url = "https://news.google.com/rss/search?" + new URLSearchParams({ q, hl: `en-${region}`, gl: region, ceid: `${region}:en` });
-    const r = await fetch(url, { headers: { "user-agent": UA, accept: "application/rss+xml, application/xml" }, signal: AbortSignal.timeout(25000) });
-    const text = await r.text(); if (!r.ok) throw new Error(`HTTP ${r.status}: ${text.slice(0, 120)}`);
-    return fromRss(text);
-  };
-  const [a, b] = await Promise.all([run(SOUTH, "IN"), run(SOUTHEAST, "SG")]);
-  return [...a, ...b];
+async function feeds() {
+  const results = await Promise.all(FEEDS.map(async f => {
+    try {
+      const r = await fetch(f.url, { headers: { "user-agent": UA, accept: "application/rss+xml, application/atom+xml, application/xml, text/xml" }, signal: AbortSignal.timeout(20000) });
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      const items = fromFeed(await r.text(), f); if (!items.length) throw new Error("no items in the feed");
+      return { name: f.name, ok: true, items };
+    } catch (e) { return { name: f.name, ok: false, error: why(e), items: [] }; }
+  }));
+  results.forEach(r => console.log(`  ${r.ok ? "ok  " : "FAIL"} ${r.name}${r.ok ? `: ${r.items.length} items` : `: ${r.error}`}`));
+  const ok = results.filter(r => r.ok);
+  if (!ok.length) throw new Error("no publisher feed could be read");
+  const items = ok.flatMap(r => r.items);
+  items.feedsRead = ok.length; items.feedsTotal = FEEDS.length;
+  return items;
 }
 
 /** Merges new headlines with the last file: filtered, de-duplicated, newest first, last two weeks only. */
 function build(found, prev, sources, now = Date.now()) {
-  const fresh = found.filter(x => x.title && /^https?:\/\//.test(x.url || "") && x.date && HEAT.test(x.title) && !AVOID.test(x.title));
+  const fresh = found.filter(x => x.title && /^https?:\/\//.test(x.url || "") && x.date && HEAT.test(x.title) && !AVOID.test(x.title) && x.place)
+    .map(({ regional, ...x }) => x);
   const seen = new Set(), out = [];
   [...fresh, ...((prev && prev.items) || [])].sort((a, b) => Date.parse(b.date) - Date.parse(a.date)).forEach(x => {
     const k = key(x.title);
@@ -80,18 +111,19 @@ function build(found, prev, sources, now = Date.now()) {
   return { updated: new Date(now).toISOString(), keepDays: KEEP_DAYS, sources, query: QUERY, items: out.slice(0, MAX) };
 }
 
-async function attempt(name, fn) {
+async function attempt(name, fn, tries, waitMs) {
   let last;
-  for (let n = 1; n <= 3; n++) {
-    try { const items = await fn(); console.log(`${name}: ${items.length} articles found`); return { name, ok: true, found: items.length, items }; }
-    catch (e) { last = why(e); console.error(`${name}, attempt ${n}: ${last}`); if (n < 3) await new Promise(res => setTimeout(res, 5000 * n)); }
+  for (let n = 1; n <= tries; n++) {
+    try { const items = await fn(); console.log(`${name}: ${items.length} articles found${items.feedsRead ? ` in ${items.feedsRead} of ${items.feedsTotal} feeds` : ""}`); return { name, ok: true, found: items.length, items }; }
+    catch (e) { last = why(e); console.error(`${name}, attempt ${n}: ${last}`); if (n < tries) await new Promise(res => setTimeout(res, waitMs)); }
   }
   return { name, ok: false, found: 0, error: last, items: [] };
 }
 
 async function main() {
   let prev = null; try { prev = JSON.parse(fs.readFileSync(OUT, "utf8")); } catch (e) {}
-  const results = await Promise.all([attempt("GDELT Project", gdelt), attempt("Google News", googleNews)]);
+  // publisher feeds once; GDELT twice at most, at least 6 seconds apart, as its terms ask
+  const results = await Promise.all([attempt("News outlets' feeds", feeds, 1, 0), attempt("GDELT Project", gdelt, 2, 6000)]);
   const sources = results.map(({ name, ok, found, error }) => ({ name, ok, found, ...(error ? { error } : {}) }));
   if (!results.some(r => r.ok)) {
     console.log(`::warning title=Heat news feed::No news source could be reached (${sources.map(s => `${s.name}: ${s.error}`).join("; ")}). feeds/news.json left as it was.`);
@@ -104,4 +136,4 @@ async function main() {
 }
 
 if (require.main === module) main();
-module.exports = { build, fromGdelt, fromRss, QUERY };
+module.exports = { build, fromGdelt, fromFeed, FEEDS, QUERY };

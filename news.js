@@ -1,6 +1,6 @@
 /* BeatTheHeat.Asia: the "Heat in the news, and new research" page (/news/).
    News: feeds/news.json, refreshed every six hours by .github/workflows/heat-news.yml from the GDELT Project and
-   Google News, read from GitHub so a new headline shows without a site rebuild. Research: Europe PMC, searched live. */
+   regional news outlets' RSS feeds, read from GitHub so a new headline shows without a site rebuild. Research: Europe PMC, searched live. */
 (function () {
   "use strict";
   const FEEDS = {
@@ -9,7 +9,7 @@
       title: '(TITLE:"heatwave" OR TITLE:"heatwaves" OR TITLE:"heat wave" OR TITLE:"heat waves" OR TITLE:"extreme heat" OR TITLE:"heat stress" OR TITLE:"heat-related" OR TITLE:"heat exposure" OR TITLE:"heat illness" OR TITLE:"heatstroke" OR TITLE:"heat stroke" OR TITLE:"ambient temperature")',
       place: '(India OR Bangladesh OR Nepal OR "Sri Lanka" OR Pakistan OR Cambodia OR Indonesia OR Philippines OR Singapore OR Thailand OR Vietnam OR Malaysia OR Myanmar OR "South Asia" OR "Southeast Asia")',
       credit: { label: "Europe PMC", url: "https://europepmc.org/" } },
-    credits: { "GDELT Project": "https://www.gdeltproject.org/", "Google News": "https://news.google.com/" },
+    credits: { "GDELT Project": "https://www.gdeltproject.org/" },
     note: "Headlines and papers come from outside sources and are not reviewed by us. They are listed to help you follow the conversation, not as endorsements."
   };
   const SOUTH = ["India", "Bangladesh", "Nepal", "Sri Lanka", "Pakistan", "Bhutan", "Maldives"];
