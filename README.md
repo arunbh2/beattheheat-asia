@@ -43,7 +43,7 @@ It is a plain website. There is nothing to install and nothing to "build". GitHu
 | `media/day/` | Films for "A day in a heatwave", named after the hour without the colon (e.g. `0200.mp4`), each with a `.jpg` cover. Add `video` and `length` to that hour in part 11 of `data.js` | To add or replace an hour’s film |
 | `media/stalls/` | One short film per card in “Why action stalls”, named after the stall’s `id` (e.g. `owner.mp4`), each with a `.jpg` cover. Add `video` and `length` to that stall in part 18 of `data.js` |
 | `media/stalls/office.*` | The AI-generated empty-office footage behind the “Why action stalls” heading (`office.mp4`, `office.webm`, `office.jpg` still), trimmed past a paper that blows off the desk and crossfaded into a seamless 6-second loop |
-| `images/social-share-2.jpg` | The preview picture shown when the link is shared (1200 × 630). It quotes the counts of systems, vicious cycles and levers | When those counts change. Give the new file a new name and update the two image lines in `index.html`, so LinkedIn and WhatsApp fetch it again |
+| `images/social-share-cs.jpg` | The preview picture shown when the link is shared (1200 × 630). It quotes the counts of systems, vicious cycles and levers | When those counts change. Give the new file a new name and update the two image lines in `index.html`, so LinkedIn and WhatsApp fetch it again |
 | `CNAME` | Connects the site to the address commonshade.org | **No. Never delete this file.** |
 
 The numbers at the top of the page (systems, consequences, cycles and so on) are counted automatically from `data.js`, so they stay correct when you add things.

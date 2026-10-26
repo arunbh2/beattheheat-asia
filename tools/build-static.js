@@ -67,7 +67,7 @@ function page(p, intro, body, extraLd) {
   <meta property="og:url" content="${url}">
   <meta property="og:title" content="${esc(p.title)}">
   <meta property="og:description" content="${esc(intro)}">
-  <meta property="og:image" content="${SITE}/images/social-share-2.jpg">
+  <meta property="og:image" content="${SITE}/images/social-share-cs.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2316202B'/%3E%3Cpath d='M5 14 Q16 4 27 14' fill='none' stroke='%23F26430' stroke-width='4.5' stroke-linecap='round'/%3E%3Cpath d='M9 13 V27 M23 13 V27' stroke='%23F6E7D7' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E">
   <link rel="alternate" type="text/plain" href="${SITE}/llms-full.txt" title="The whole map as plain text">
