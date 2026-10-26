@@ -45,7 +45,7 @@ const FEEDS = [
   { name: "UN News, climate", url: "https://news.un.org/feed/subscribe/en/news/topic/climate-change/feed/rss.xml", country: null },
   { name: "ReliefWeb", url: "https://reliefweb.int/updates/rss.xml?search=heat%20wave", country: null },
 ];
-const KEEP_DAYS = 14, MAX = 60, UA = "Mozilla/5.0 (compatible; Common Shade news feed; +https://commonshade.org/)";
+const KEEP_DAYS = 14, MAX = 60, UA = "Mozilla/5.0 (compatible; Common Shade news feed; +https://beattheheat.asia/)";
 
 const key = t => t.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim().slice(0, 70);
 const clean = t => String(t || "").replace(/\s+/g, " ").trim();

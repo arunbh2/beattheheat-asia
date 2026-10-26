@@ -2,11 +2,11 @@
 
 > An interactive systems map of extreme heat in Asia: how heat ripples through 10 systems and 87 consequences, the 21 vicious cycles that make it worse, the 29 actions that could break them, and the 14 kinds of institution that hold those levers. Every claim links to its source.
 
-This is a beta version. Common Shade is being built by a group of organisations working on extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement. Every claim links to its source; where the evidence is still emerging, the map says so.
+Common Shade is in beta, currently at beattheheat.asia. A group of organisations is helping shape it as a shared endeavour for protection from extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement. Every claim links to its source; where the evidence is still emerging, the map says so.
 
-Text, data, films and illustrations © Common Shade contributors, shared under Creative Commons Attribution 4.0 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/): you may copy, adapt and translate them, with credit and a link to commonshade.org. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’ and are not covered.
+Text, data, films and illustrations © Common Shade contributors, shared under Creative Commons Attribution 4.0 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/): you may copy, adapt and translate them, with credit and a link to beattheheat.asia. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’ and are not covered.
 
-Interactive map: https://commonshade.org/ · Generated 2026-10-26
+Interactive map: https://beattheheat.asia/ · Generated 2026-10-26
 
 ## The web of extreme heat: every consequence, system by system
 
@@ -2774,7 +2774,7 @@ Who heat hits hardest: Workers in heat-exposed jobs; Older people
 
 Already at work: National Environment Agency, Singapore; Ministry of Manpower, Singapore; Singapore Management University, Urban Institute; National Research Foundation, Singapore; Monetary Authority of Singapore; C40 Cities
 
-Page: https://commonshade.org/cities/singapore/
+Page: https://beattheheat.asia/cities/singapore/
 
 ### Bangkok, Thailand
 
@@ -2794,7 +2794,7 @@ Who heat hits hardest: Workers in heat-exposed jobs; People in informal settleme
 
 Already at work: HomeNet Thailand; Bank of Thailand; United Nations Development Programme (UNDP); Asian Development Bank
 
-Page: https://commonshade.org/cities/bangkok/
+Page: https://beattheheat.asia/cities/bangkok/
 
 ### Hanoi, Vietnam
 
@@ -2810,7 +2810,7 @@ Who heat hits hardest: Workers in heat-exposed jobs
 
 Already at work: State Bank of Vietnam
 
-Page: https://commonshade.org/cities/hanoi/
+Page: https://beattheheat.asia/cities/hanoi/
 
 ### Manila, Philippines
 
@@ -2828,7 +2828,7 @@ Who heat hits hardest: Workers in heat-exposed jobs; People in informal settleme
 
 Already at work: PAGASA, Philippines; Department of Education, Philippines
 
-Page: https://commonshade.org/cities/manila/
+Page: https://beattheheat.asia/cities/manila/
 
 ### Jakarta, Indonesia
 
@@ -2846,7 +2846,7 @@ Who heat hits hardest: People in informal settlements; Workers in heat-exposed j
 
 Already at work: Otoritas Jasa Keuangan (Financial Services Authority), Indonesia; KOMIDA, with Build Change (Indonesia); Nusantara Fund (Dana Nusantara)
 
-Page: https://commonshade.org/cities/jakarta/
+Page: https://beattheheat.asia/cities/jakarta/
 
 ### Delhi, India
 
@@ -2866,7 +2866,7 @@ Who heat hits hardest: Workers in heat-exposed jobs; People in informal settleme
 
 Already at work: National Disaster Management Authority, India; India Meteorological Department and IITM Pune; National Centre for Disease Control, India; Council on Energy, Environment and Water (CEEW); SEEDS; HeatWatch India
 
-Page: https://commonshade.org/cities/delhi/
+Page: https://beattheheat.asia/cities/delhi/
 
 ### Dhaka, Bangladesh
 
@@ -2886,7 +2886,7 @@ Who heat hits hardest: Workers in heat-exposed jobs; People in informal settleme
 
 Already at work: Dhaka North City Corporation; Bangladesh Red Crescent Society; icddr,b; BRAC; Practical Action; Bangladesh Bank
 
-Page: https://commonshade.org/cities/dhaka/
+Page: https://beattheheat.asia/cities/dhaka/
 
 ### Kathmandu, Nepal
 
@@ -2902,7 +2902,7 @@ Who heat hits hardest: Women whose livelihoods are held back by unequal access; 
 
 Already at work: National Disaster Risk Reduction and Management Authority, Nepal; Nepal Red Cross Society; Tewa, Nepal Women’s Fund; Nepal Rastra Bank; Practical Action
 
-Page: https://commonshade.org/cities/kathmandu/
+Page: https://beattheheat.asia/cities/kathmandu/
 
 ### Mumbai, India
 
@@ -2920,7 +2920,7 @@ Who heat hits hardest: People in informal settlements; Workers in heat-exposed j
 
 Already at work: WRI India; C40 Cities; HDFC Life (Swabhimaan CSR); ICLEI South Asia
 
-Page: https://commonshade.org/cities/mumbai/
+Page: https://beattheheat.asia/cities/mumbai/
 
 ### Ahmedabad, India
 
@@ -2938,7 +2938,7 @@ Who heat hits hardest: Workers in heat-exposed jobs; People in informal settleme
 
 Already at work: Ahmedabad Municipal Corporation, with IIPH Gandhinagar and NRDC; All India Disaster Mitigation Institute (AIDMI); IBISA; C40 Cities; Heat Resilience Action (HERA), formerly Climate Resilience for All
 
-Page: https://commonshade.org/cities/ahmedabad/
+Page: https://beattheheat.asia/cities/ahmedabad/
 
 ### Colombo, Sri Lanka
 
@@ -2954,7 +2954,7 @@ Who heat hits hardest: Workers in heat-exposed jobs; Coastal and riverine commun
 
 Already at work: Asia-Pacific Network for Global Change Research (APN); World Meteorological Organization; UN ESCAP
 
-Page: https://commonshade.org/cities/colombo/
+Page: https://beattheheat.asia/cities/colombo/
 
 ### Phnom Penh, Cambodia
 
@@ -2972,7 +2972,7 @@ Who heat hits hardest: Workers in heat-exposed jobs; People in informal settleme
 
 Already at work: UN ESCAP; Asian Development Bank; World Bank
 
-Page: https://commonshade.org/cities/phnompenh/
+Page: https://beattheheat.asia/cities/phnompenh/
 
 ## Heatwaves that shaped South and Southeast Asia, 1998 to 2026
 

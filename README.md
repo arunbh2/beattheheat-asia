@@ -23,18 +23,20 @@ It is a plain website. There is nothing to install and nothing to "build". GitHu
 
 ---
 
-## The name: Common Shade (formerly BeatTheHeat.Asia)
+## The name: Common Shade (first published as BeatTheHeat.Asia)
 
-The site was renamed in October 2026 so it cannot be mistaken for the Beat the Heat initiative that UNEP's Cool Coalition runs with the COP30 Presidency. The main address is **commonshade.org**; commonshade.asia and beattheheat.asia should forward to it. The last version under the old name is kept as the GitHub release `beattheheat-asia-final`.
+The site was renamed Common Shade in October 2026, so it cannot be mistaken for the Beat the Heat initiative that UNEP's Cool Coalition runs with the COP30 Presidency. Common Shade is both the platform and the emerging collaborative behind it; buttons invite people to "Help build Common Shade". The last version under the old name is kept as the GitHub release `beattheheat-asia-final`.
 
-On the day the new address goes live:
-1. Change `CNAME` to `commonshade.org` (one line, nothing else).
-2. At the domain registrar for commonshade.org, add four A records for the bare domain (185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153) and a CNAME record for `www` pointing to `arunbh2.github.io`.
-3. In GitHub, Settings → Pages: the custom domain then reads commonshade.org; tick **Enforce HTTPS** once it is offered. Add the domain under your account's Settings → Pages → **Verified domains** so nobody else can claim it.
-4. At the registrars for commonshade.asia and beattheheat.asia, set up a permanent (301) forward to https://commonshade.org, keeping the path if the registrar allows it. Keep beattheheat.asia registered for at least a year.
-5. In Google Search Console, add commonshade.org and use **Change of address** on the old property.
+For now the site is served at **beattheheat.asia** (canonical links, the sitemap, social previews and printed addresses all use it). It is moving to **commonshade.asia**; commonshade.org will forward there.
 
-The analytics code (`SITE_ANALYTICS` in `data.js`) keeps its old account name on purpose, so visitor numbers stay continuous; the GitHub repository can keep its name too.
+On the day commonshade.asia goes live:
+1. Replace every `beattheheat.asia` in the site's files with `commonshade.asia` (the build scripts in `tools/` included), rebuild with `node tools/build-static.js` and `node tools/build-print.js`, re-render the reel (`node tools/reel/render.js`), and change `CNAME` to `commonshade.asia`. Keep the line in `tools/build-static.js` that says the site was first published as BeatTheHeat.Asia.
+2. At the registrar for commonshade.asia, add four A records for the bare domain (185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153) and a CNAME record for `www` pointing to `arunbh2.github.io`.
+3. In GitHub, Settings → Pages: the custom domain then reads commonshade.asia; tick **Enforce HTTPS** once offered. Add the domain under your account's Settings → Pages → **Verified domains**.
+4. At the registrars for beattheheat.asia and commonshade.org, set a permanent (301) forward to https://commonshade.asia, keeping the path if the registrar allows. Keep beattheheat.asia registered for at least a year.
+5. In Google Search Console, add commonshade.asia and use **Change of address** on the beattheheat.asia property.
+
+The analytics code (`SITE_ANALYTICS` in `data.js`) keeps its old account name on purpose, so visitor numbers stay continuous; the repository keeps its name too.
 
 ## What is in this folder
 

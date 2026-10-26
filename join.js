@@ -1,4 +1,4 @@
-/* Common Shade: the "Join the collaborative" form on /join/, and a quiet invitation card elsewhere on the site.
+/* Common Shade: the "Help build Common Shade" form on /join/, and a quiet invitation card elsewhere on the site.
    Both stay off until JOIN.formUrl holds a Microsoft Form link, so nobody is invited to a form that does not exist. */
 (function () {
   "use strict";
@@ -59,9 +59,9 @@
         '<button type="button" class="invite__x" aria-label="Not now, close">×</button>' +
         '<p class="invite__eyebrow">Common Shade</p>' +
         '<h2 class="invite__h" id="invite-h">' + (leaving ? "Before you go" : "Working on heat?") + '</h2>' +
-        '<p class="invite__p">People and organisations across South and Southeast Asia are shaping a collaborative on protection from extreme heat. Would you like to join, or just hear what changes?</p>' +
+        '<p class="invite__p">People and organisations across South and Southeast Asia are building Common Shade, a collaborative for protection from extreme heat. Would you like to help build it, or just hear what changes?</p>' +
         '<div class="invite__acts">' +
-          '<a class="invite__btn invite__btn--main" href="/join/" target="_blank" rel="noopener" data-act="join">Join the collaborative<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a>' +
+          '<a class="invite__btn invite__btn--main" href="/join/" target="_blank" rel="noopener" data-act="join">Help build Common Shade<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a>' +
           '<a class="invite__btn" href="/join/#updates" target="_blank" rel="noopener" data-act="updates">Keep me updated<span class="visually-hidden"> (opens in a new tab)</span></a>' +
         '</div>' +
         '<button type="button" class="invite__later">Not now</button>';

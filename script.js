@@ -2840,7 +2840,7 @@
           <p class="cp__note">Listing does not imply partnership, affiliation or endorsement.</p>
         </div>
       </div>
-      <p class="cp__foot">Share this city: <a href="#city-${p.id}">commonshade.org/#city-${p.id}</a> · <a href="/cities/${p.id}/">Read it as a page</a> · ${printLink(`city-${p.id}`, `Print a one-page brief for ${c.name}`)} · ${printLink("dry-and-humid-heat", "Print: dry and humid heat")}</p>`;
+      <p class="cp__foot">Share this city: <a href="#city-${p.id}">beattheheat.asia/#city-${p.id}</a> · <a href="/cities/${p.id}/">Read it as a page</a> · ${printLink(`city-${p.id}`, `Print a one-page brief for ${c.name}`)} · ${printLink("dry-and-humid-heat", "Print: dry and humid heat")}</p>`;
   }
 
   function cityDots() {

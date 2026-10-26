@@ -307,7 +307,7 @@ function render(t) {
     x.strokeStyle = C.orange; x.lineWidth = 34; x.setLineDash([520 * dk, 1000]); x.beginPath();
     x.moveTo(392, 470); x.quadraticCurveTo(540, 330, 688, 470); x.stroke(); x.setLineDash([]); x.restore();
     letters("COMMON SHADE", 540, 730, 150, ANTON(150), C.ink, t, 17.85, .045, .5, "center");
-    const url = "commonshade.org", n = Math.floor(url.length * p(t, 18.35, 18.85)), shown = url.slice(0, n), uw = width(url, INTER(600, 50));
+    const url = "beattheheat.asia", n = Math.floor(url.length * p(t, 18.35, 18.85)), shown = url.slice(0, n), uw = width(url, INTER(600, 50));
     text(shown, 540 - uw / 2, 820, INTER(600, 50), C.ink); if (t > 18.3 && t < 19.3 && Math.floor(t * 4) % 2 === 0) { x.fillStyle = C.orange; x.fillRect(540 - uw / 2 + width(shown, INTER(600, 50)) + 6, 780, 5, 50); }
     const ck = p(t, 18.75, 19.15); if (ck > 0) { const lab = "Find your way in", f = INTER(700, 40), w = width(lab, f) + 140, s = spring(ck);
       x.save(); x.translate(540, 940); x.scale(s, s); x.beginPath(); x.roundRect(-w / 2, -46, w, 92, 46); x.fillStyle = C.orange; x.fill();
