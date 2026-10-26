@@ -24,7 +24,7 @@ const HEAT_TERMS = ['heatwave', '"heat wave"', '"extreme heat"', '"heat stress"'
 const orList = list => list.map(p => (p.includes(" ") || p.includes("-") ? `"${p}"` : p)).join(" OR ");
 // GDELT reads a hyphen as an operator, so hyphenated names stay out of its query (headlines still match them)
 const QUERY = `(${HEAT_TERMS.join(" OR ")}) (${orList(PLACES.filter(p => !p.includes("-")))}) sourcelang:english`;
-const HEAT = /heat ?waves?|extreme heat|heat ?stroke|heat stress|heat index|heat illness|heat-related|scorching|sweltering|searing heat|hot weather|high temperatures?|record temperatures?/i;
+const HEAT = /heat ?waves?|extreme heat|heat ?stroke|heat stress|heat index|heat illness|heat-related|heat action plan|\b(rising|intense|severe|deadly|killer|brutal|oppressive|searing|soaring|record|blistering|relentless) heat\b|\bheat (risk|risks|toll|exposure|deaths?|health|threat|warning|alert|advisory|resilience|hits|grips|spell|season)\b|\bhot (spell|season|days)\b|scorching|sweltering|hot weather|high temperatures?|record temperatures?|temperatures? (soar|soars|rise|rises|climb|climbs|top|tops|hit|hits)\b/i;
 // the site builds awareness and solutions; headlines framed around politics or conflict are left out
 const AVOID = /\b(election|elections|campaign|slams?|slammed|blames?|blamed|opposition|protests?|riots?|war|terror\w*|scandal|corrupt\w*|attacks?)\b/i;
 /* Feeds published for syndication. `country` is used when a headline does not name a place; null means the
