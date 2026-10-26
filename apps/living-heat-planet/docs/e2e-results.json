@@ -1,0 +1,213 @@
+{
+ "ranAt": "2026-10-26T04:00:36.090Z",
+ "base": "http://localhost:8765/living-heat-planet/",
+ "passed": 41,
+ "failed": 0,
+ "results": [
+  {
+   "name": "land particles render from Natural Earth data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "capitals fetched in batches of at most 25",
+   "ok": true,
+   "detail": "9 requests"
+  },
+  {
+   "name": "status chip reports live capitals",
+   "ok": true,
+   "detail": "Live · 207/207 capitals · just nowOpen-Meteo"
+  },
+  {
+   "name": "globe spins slowly when idle",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "search focuses Kathmandu and opens its dossier",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "the globe turns Kathmandu to face the viewer",
+   "ok": true,
+   "detail": "projected 450,450; globe offset -0.58"
+  },
+  {
+   "name": "spin pauses while a dossier is open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Now shows the exact upstream value and its source",
+   "ok": true,
+   "detail": "15°C"
+  },
+  {
+   "name": "no invented official warning",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "72-hour forecast plots 72 hourly points",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "patterns tab shows its evidence state without fake metrics",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "people tab shows its evidence state without fake metrics",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "preparedness tab shows its evidence state without fake metrics",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "solutions tab shows its evidence state without fake metrics",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "investment tab shows its evidence state without fake metrics",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "°F changes the numbers shown",
+   "ok": true,
+   "detail": "58°F"
+  },
+  {
+   "name": "compare shows four capitals, explicitly not a risk ranking",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "methods panel lists sources and the licence note",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "explainer is substantive",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Escape closes the dossier",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "no page errors on the desktop journey",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "a far-side capital is reported hidden",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "clicking where a far-side capital projects does not select it",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "tapping a visible capital selects it",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "a 3 px jitter counts as a tap, not a drag",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "a fling keeps spinning, slows, and comes to rest",
+   "ok": true,
+   "detail": "4.50 → 1.25 → rest: true"
+  },
+  {
+   "name": "reduced motion: no idle spin",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "reduced motion: controls say motion is paused",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "mobile-390: no horizontal overflow and controls do not overlap",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "mobile: dossier opens as a bottom drawer within the screen",
+   "ok": true,
+   "detail": "{\"top\":303.84375,\"bottom\":844,\"h\":844}"
+  },
+  {
+   "name": "tablet-768: no horizontal overflow and controls do not overlap",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "desktop-1440b: no horizontal overflow and controls do not overlap",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "upstream down: globe still renders and says Current data unavailable",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "upstream down: dossier shows no temperature",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "upstream down: forecast says unavailable, not guessed",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "no page errors when upstream is down",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "a 429 is retried with backoff and the data arrives",
+   "ok": true,
+   "detail": "Live · 207/207 capitals · just nowOpen-Meteo"
+  },
+  {
+   "name": "one failed batch leaves 25 capitals unavailable and the rest live",
+   "ok": true,
+   "detail": "Live · 182/207 capitals · just nowOpen-Meteo"
+  },
+  {
+   "name": "without WebGL: 2D map and full capital table",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "embed mode hides the page title and links to the full planet",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "skip link moves keyboard focus to the controls",
+   "ok": true,
+   "detail": ""
+  }
+ ]
+}

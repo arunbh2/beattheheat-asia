@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>BeatTheHeat.Asia: 20-second social reel</title>
+<style>
+  /* the site's typefaces, kept beside the reel (SIL Open Font License) so every render matches */
+  @font-face { font-family: "Anton"; src: url("fonts/Anton-Regular.ttf"); font-weight: 400; }
+  @font-face { font-family: "Inter"; src: url("fonts/Inter-Medium.ttf"); font-weight: 500; }
+  @font-face { font-family: "Inter"; src: url("fonts/Inter-SemiBold.ttf"); font-weight: 600; }
+  @font-face { font-family: "Inter"; src: url("fonts/Inter-Bold.ttf"); font-weight: 700; }
+  html, body { margin: 0; background: #0b1016; }
+  canvas { display: block; width: 540px; height: 675px; }
+</style>
+</head>
+<body>
+<canvas id="c" width="1080" height="1350"></canvas>
+<!-- every number and label comes from the map's own data -->
+<script src="../../data.js"></script>
+<script>
+"use strict";
+// A 20-second motion piece for LinkedIn, drawn frame by frame so every render is identical.
+// render(t) paints the frame at t seconds; tools/reel/render.js steps through it at 60 fps.
+const W = 1080, H = 1350, DUR = 20;
+const cv = document.getElementById("c"), x = cv.getContext("2d");
+const C = { ink: "#16202B", canvas: "#FAF7F2", orange: "#F26430", red: "#D7263D", amber: "#F5A623", teal: "#1F7A70", blue: "#2E6F95", sand: "#F6E7D7", grey: "#39424D" };
+const ANTON = s => `400 ${s}px Anton`, INTER = (w, s) => `${w} ${s}px Inter`;
+
+// ---------- the map's data ----------
+const SYS = SYSTEMS.map(s => ({ id: s.id, name: s.label.split(/\s|\n/)[0], color: s.color }));
+const PER = SYS.map(s => CONSEQUENCES.filter(c => c.sys === s.id).length);
+const N_CONS = CONSEQUENCES.length, N_LOOPS = LOOPS.length, N_LEVERS = LEVERS.length;
+const LOOP = LOOPS.find(l => l.id === "poverty");
+const LABEL = Object.fromEntries(CONSEQUENCES.map(c => [c.id, c.label.replace(/\n/g, " ")]));
+const LOOP_STEPS = LOOP.path.map(id => LABEL[id]);
+const TOOLS = GUIDE.toolkit.map(t => ({ n: String(t.n).padStart(2, "0"), verb: t.verb, name: t.name.replace("Practical actions and cooling options", "Practical actions") }));
+
+// ---------- easing and timing ----------
+const clamp = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v));
+const p = (t, a, b) => clamp((t - a) / (b - a));
+const lerp = (a, b, k) => a + (b - a) * k;
+const eo = k => 1 - Math.pow(1 - k, 3);
+const eo5 = k => 1 - Math.pow(1 - k, 5);
+const ei = k => k * k * k;
+const eio = k => k < .5 ? 4 * k * k * k : 1 - Math.pow(-2 * k + 2, 3) / 2;
+const expo = k => k >= 1 ? 1 : 1 - Math.pow(2, -10 * k);
+const spring = k => k <= 0 ? 0 : k >= 1 ? 1 : 1 - Math.exp(-6.5 * k) * Math.cos(11 * k);
+let seed = 1; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+
+// ---------- drawing helpers ----------
+function bg(c) { x.fillStyle = c; x.fillRect(0, 0, W, H); }
+function circle(cx, cy, r, fill, stroke, lw) { if (r <= 0) return; x.beginPath(); x.arc(cx, cy, r, 0, Math.PI * 2); if (fill) { x.fillStyle = fill; x.fill(); } if (stroke) { x.strokeStyle = stroke; x.lineWidth = lw || 2; x.stroke(); } }
+function text(s, tx, ty, font, color, align = "left", track = 0) { x.font = font; x.fillStyle = color; x.textAlign = align; x.textBaseline = "alphabetic"; x.letterSpacing = track + "px"; x.fillText(s, tx, ty); x.letterSpacing = "0px"; }
+function width(s, font, track = 0) { x.font = font; x.letterSpacing = track + "px"; const w = x.measureText(s).width; x.letterSpacing = "0px"; return w; }
+// a line of type that rises out of its own baseline mask
+function rise(s, tx, ty, size, font, color, k, align = "left", track = 0) {
+  if (k <= 0) return; const w = width(s, font, track), left = align === "center" ? tx - w / 2 : align === "right" ? tx - w : tx;
+  x.save(); x.beginPath(); x.rect(left - 20, ty - size * 1.05, w + 40, size * 1.32); x.clip();
+  text(s, tx, ty + (1 - eo5(k)) * size * 1.15, font, color, align, track); x.restore();
+}
+// letters that spring up one by one
+function letters(s, tx, ty, size, font, color, t, t0, stagger, dur, align = "left") {
+  const w = width(s, font), start = align === "center" ? tx - w / 2 : tx; let cx = start;
+  x.font = font;
+  for (let i = 0; i < s.length; i++) {
+    const ch = s[i], cw = x.measureText(ch).width, k = p(t, t0 + i * stagger, t0 + i * stagger + dur);
+    if (k > 0) { x.save(); x.translate(cx + cw / 2, ty); x.rotate((1 - spring(k)) * -.25); x.globalAlpha = clamp(k * 3);
+      text(ch, 0, (1 - spring(k)) * size * .55, font, color, "center"); x.restore(); }
+    cx += cw;
+  }
+  return w;
+}
+function pill(cx, cy, label, font, fg, bgc, k, padX = 26, h = 56) {
+  if (k <= 0) return; const w = width(label, font) + padX * 2, s = spring(k);
+  x.save(); x.translate(cx, cy); x.scale(s, s); x.globalAlpha = clamp(k * 4);
+  x.beginPath(); x.roundRect(-w / 2, -h / 2, w, h, h / 2); x.fillStyle = bgc; x.fill();
+  text(label, 0, h * .18, font, fg, "center"); x.restore();
+}
+function partialLine(x1, y1, x2, y2, k, color, lw, alpha = 1) {
+  if (k <= 0) return; x.save(); x.globalAlpha = alpha; x.strokeStyle = color; x.lineWidth = lw; x.lineCap = "round";
+  x.beginPath(); x.moveTo(x1, y1); x.lineTo(lerp(x1, x2, k), lerp(y1, y2, k)); x.stroke(); x.restore();
+}
+// heat haze: wavy lines drifting upwards
+function haze(t, color, alpha, x0 = 0, x1 = W, yTop = 0, yBot = H) {
+  x.save(); x.strokeStyle = color; x.lineWidth = 3; x.globalAlpha = alpha;
+  for (let i = 0; i < 9; i++) { const yy = yBot - ((t * 120 + i * (yBot - yTop) / 9) % (yBot - yTop));
+    x.beginPath(); for (let xx = x0; xx <= x1; xx += 12) { const yv = yy + Math.sin(xx / 70 + t * 4 + i) * 10; xx === x0 ? x.moveTo(xx, yv) : x.lineTo(xx, yv); } x.stroke(); }
+  x.restore();
+}
+
+// ---------- the figure: drawn, faceless, one stroke weight ----------
+// pose: 0 = standing tired, 1 = sitting; walk = stride phase
+function figure(fx, fy, pose, walk, scale = 1, color = C.ink) {
+  x.save(); x.translate(fx, fy); x.scale(scale, scale); x.strokeStyle = color; x.lineWidth = 10; x.lineCap = "round"; x.lineJoin = "round";
+  const s = Math.sin(walk), droop = (1 - pose) * 6;
+  const hip = [0, lerp(-170, -120, pose)], neck = [lerp(6, 0, pose), lerp(-300, -255, pose) + droop];
+  const head = [neck[0] + lerp(10, 0, pose), neck[1] - 46];
+  circle(head[0], head[1], 34, null, color, 10);
+  const L = (a, b) => { x.beginPath(); x.moveTo(a[0], a[1]); x.lineTo(b[0], b[1]); x.stroke(); };
+  L(neck, hip);
+  // arms: hanging and swinging when walking, resting on knees when sitting
+  const sh = [neck[0], neck[1] + 22];
+  const handA = [lerp(-40 * s - 6, 46, pose), lerp(-150, -125, pose)], handB = [lerp(40 * s + 10, 70, pose), lerp(-150, -122, pose)];
+  L(sh, [lerp(sh[0] - 22 * s, 30, pose), lerp(sh[1] + 62, -170, pose)]); L([lerp(sh[0] - 22 * s, 30, pose), lerp(sh[1] + 62, -170, pose)], handA);
+  L(sh, [lerp(sh[0] + 22 * s, 44, pose), lerp(sh[1] + 62, -168, pose)]); L([lerp(sh[0] + 22 * s, 44, pose), lerp(sh[1] + 62, -168, pose)], handB);
+  // legs: striding, or bent at the knee on a bench
+  const kneeA = [lerp(26 * s, 70, pose), lerp(-85, -120, pose)], footA = [lerp(46 * s, 74, pose), 0];
+  const kneeB = [lerp(-26 * s, 84, pose), lerp(-85, -116, pose)], footB = [lerp(-46 * s, 92, pose), 0];
+  L(hip, kneeA); L(kneeA, footA); L(hip, kneeB); L(kneeB, footB);
+  x.restore();
+  return head;
+}
+
+// ---------- noise for a little film grain ----------
+const GRAIN = [0, 1, 2, 3].map(i => { const g = document.createElement("canvas"); g.width = 270; g.height = 338; const gx = g.getContext("2d"), d = gx.createImageData(270, 338);
+  seed = 99 + i; for (let j = 0; j < d.data.length; j += 4) { const v = rnd() * 255; d.data[j] = d.data[j + 1] = d.data[j + 2] = v; d.data[j + 3] = 255; } gx.putImageData(d, 0, 0); return g; });
+
+// ---------- the web layout, fixed once ----------
+const WEB = (() => { seed = 7; const cons = [], arcs = [];
+  SYS.forEach((s, i) => { for (let k = 0; k < PER[i]; k++) { const spread = (rnd() - .5) * (Math.PI * 2 / 10) * .82, rr = 330 + 38 + rnd() * 120; cons.push({ sys: i, da: spread, r: rr, order: 0 }); } });
+  cons.forEach((c, i) => c.order = i); cons.sort(() => rnd() - .5).forEach((c, i) => c.order = i);
+  for (let i = 0; i < 28; i++) { const a = Math.floor(rnd() * cons.length), b = Math.floor(rnd() * cons.length); if (cons[a].sys !== cons[b].sys) arcs.push([a, b, rnd()]); }
+  return { cons, arcs }; })();
+
+// =====================================================================
+function render(t) {
+  x.setTransform(1, 0, 0, 1, 0, 0); x.globalAlpha = 1;
+
+  // ----- 1. IGNITE (0 – 2.4) -----
+  if (t < 2.4) {
+    bg(C.ink);
+    const cx = 540, cy = 500;
+    haze(t, C.amber, .07 * p(t, .2, 1));
+    for (let k = 0; k < 6; k++) { const ph = (t * .85 + k / 6) % 1; x.globalAlpha = (1 - ph) * .4 * p(t, .15, .6); circle(cx, cy, 60 + ph * 820, null, C.orange, 3); }
+    x.globalAlpha = 1;
+    const grow = ei(p(t, 1.95, 2.4)), r = 70 * spring(p(t, 0, .8)) * (1 + .05 * Math.sin(t * 7)) + grow * 1700;
+    circle(cx, cy, r + 26 * (1 - grow), null, "rgba(242,100,48,.35)", 2);
+    circle(cx, cy, r, C.orange);
+    x.globalAlpha = 1 - grow;
+    const kL = p(t, .35, .9); text("SOUTH AND SOUTHEAST ASIA", 540, 170, INTER(600, 26), "rgba(250,247,242,.7)", "center", lerp(26, 9, eo(kL)) * kL + 0.0001);
+    letters("EXTREME", 540, 940, 200, ANTON(200), C.canvas, t, .7, .045, .55, "center");
+    letters("HEAT", 540, 1250, 360, ANTON(360), C.orange, t, 1.05, .07, .6, "center");
+    x.globalAlpha = 1;
+  }
+
+  // ----- 2. WICKED (2.4 – 4.8) -----
+  else if (t < 4.8) {
+    bg(C.orange);
+    const slide = eio(p(t, 2.38, 2.78));
+    x.fillStyle = C.canvas; x.fillRect(0, H * (1 - slide), W, H);
+    x.save(); x.translate(0, H * (1 - slide));
+    const sc = 1 - .04 * eio(p(t, 4.45, 4.8)); x.translate(540, 675); x.scale(sc, sc); x.translate(-540, -675);
+    rise("IS A", 90, 420, 120, ANTON(120), C.ink, p(t, 2.7, 3.1));
+    rise("WICKED", 84, 680, 262, ANTON(262), C.ink, p(t, 2.84, 3.3));
+    rise("PROBLEM.", 84, 930, 262, ANTON(262), C.ink, p(t, 3.0, 3.45));
+    const uw = width("PROBLEM.", ANTON(262)) * eo5(p(t, 3.3, 3.75)); x.fillStyle = C.orange; x.fillRect(84, 952, uw, 34);
+    ["No single cause.", "No single owner.", "No finish line."].forEach((s, i) => { const k = eo(p(t, 3.75 + i * .22, 4.15 + i * .22)); x.globalAlpha = k;
+      text(s, 90 - 40 * (1 - k), 1090 + i * 64, INTER(600, 48), i === 2 ? C.orange : C.ink); });
+    x.globalAlpha = 1; x.restore();
+  }
+
+  // ----- 3. THE WEB (4.8 – 8.75) -----
+  else if (t < 8.75) {
+    bg(C.ink);
+    const cx = 540, cy = 610, rot = (t - 4.8) * .11 - .2;
+    const zoom = 1 + 3.2 * ei(p(t, 8.2, 8.75)), fade = 1 - p(t, 8.35, 8.72);
+    x.save(); x.translate(cx, cy); x.scale(zoom, zoom); x.globalAlpha = fade;
+    const sysPos = SYS.map((s, i) => { const k = spring(p(t, 5.0 + i * .05, 5.75 + i * .05)), a = i / 10 * Math.PI * 2 - Math.PI / 2 + rot; return { a, k, x: Math.cos(a) * 330 * k, y: Math.sin(a) * 330 * k }; });
+    // cross links between consequences in different systems
+    WEB.arcs.forEach(([a, b, d], i) => { const k = eo(p(t, 6.5 + i * .03, 7.3 + i * .03)); if (k <= 0) return; const A = WEB.cons[a], B = WEB.cons[b];
+      const pa = sysPos[A.sys], pb = sysPos[B.sys], aa = pa.a + A.da, ab = pb.a + B.da, ax = Math.cos(aa) * A.r, ay = Math.sin(aa) * A.r, bx = Math.cos(ab) * B.r, by = Math.sin(ab) * B.r;
+      x.save(); x.globalAlpha = .18 * fade; x.strokeStyle = C.canvas; x.lineWidth = 1.5; x.setLineDash([2000]); x.lineDashOffset = 2000 * (1 - k);
+      x.beginPath(); x.moveTo(ax, ay); x.quadraticCurveTo(0, 0, bx, by); x.stroke(); x.restore(); });
+    // spokes and systems
+    sysPos.forEach((s, i) => { partialLine(0, 0, s.x, s.y, 1, SYS[i].color, 3, .55 * fade); });
+    WEB.cons.forEach(c => { const k = spring(p(t, 5.9 + c.order * .016, 6.35 + c.order * .016)); if (k <= 0) return; const s = sysPos[c.sys], a = s.a + c.da, px = Math.cos(a) * c.r, py = Math.sin(a) * c.r;
+      partialLine(s.x, s.y, px, py, clamp(k), SYS[c.sys].color, 1.6, .5 * fade); circle(px, py, 6.5 * k, SYS[c.sys].color); });
+    sysPos.forEach((s, i) => { circle(s.x, s.y, 22 * s.k, SYS[i].color); circle(s.x, s.y, 30 * s.k, null, "rgba(250,247,242,.35)", 2);
+      const lk = p(t, 5.45 + i * .05, 5.85 + i * .05); if (lk > 0) { x.globalAlpha = lk * fade; const lx = Math.cos(s.a) * 250, ly = Math.sin(s.a) * 250 + (Math.abs(Math.cos(s.a)) < .3 ? (Math.sin(s.a) < 0 ? -26 : 34) : 0);
+        text(SYS[i].name.toUpperCase(), lx, ly + 8, INTER(700, 21), C.canvas, Math.abs(Math.cos(s.a)) < .3 ? "center" : Math.cos(s.a) > 0 ? "right" : "left", 1.5); x.globalAlpha = fade; } });
+    const hk = spring(p(t, 4.85, 5.4)); circle(0, 0, 58 * hk + 6 * Math.sin(t * 6) * hk, C.orange);
+    if (hk > .5) { text("EXTREME", 0, -4, ANTON(30), C.ink, "center"); text("HEAT", 0, 28, ANTON(30), C.ink, "center"); }
+    x.restore(); x.globalAlpha = fade;
+    rise("THE WEB OF EXTREME HEAT", 540, 120, 30, INTER(700, 30), C.amber, p(t, 5.0, 5.4), "center", 6);
+    const n = Math.round(N_CONS * eo(p(t, 5.95, 7.4)));
+    rise(String(n), 70, 1250, 230, ANTON(230), C.canvas, p(t, 5.85, 6.25));
+    const nw = width(String(N_CONS), ANTON(230));
+    rise("CONSEQUENCES", 100 + nw, 1150, 40, INTER(700, 40), C.orange, p(t, 6.0, 6.4), "left", 3);
+    rise(`ACROSS ${SYS.length} SYSTEMS,`, 100 + nw, 1200, 32, INTER(600, 32), "rgba(250,247,242,.8)", p(t, 6.15, 6.55), "left", 2);
+    rise("EACH WITH ITS SOURCE", 100 + nw, 1244, 32, INTER(600, 32), "rgba(250,247,242,.8)", p(t, 6.3, 6.7), "left", 2);
+    x.globalAlpha = 1;
+    // stripes of the ten system colours, sweeping in over the previous scene
+  }
+
+  // ----- 4. THE CYCLE (8.75 – 11.85) -----
+  else if (t < 11.85) {
+    bg(C.ink);
+    const cx = 540, cy = 730, R = 300, open = p(t, 8.75, 9.35);
+    const cutT = 10.62, cut = t >= cutT, gap = cut ? 24 * spring(p(t, cutT, cutT + .6)) * Math.PI / 180 : 0, cutA = (210) * Math.PI / 180;
+    const shake = cut ? Math.exp(-(t - cutT) * 9) * 10 * Math.sin((t - cutT) * 90) : 0;
+    x.save(); x.translate(shake, 0);
+    // the ring, drawn on and later cut
+    const start = -Math.PI / 2, endDraw = start + Math.PI * 2 * eio(open);
+    x.lineCap = "round"; x.strokeStyle = cut ? "rgba(215,38,61,.85)" : C.red; x.lineWidth = 12;
+    if (!cut) { x.beginPath(); x.arc(cx, cy, R, start, endDraw); x.stroke(); }
+    else { const drift = 14 * spring(p(t, cutT, cutT + .6)); x.beginPath(); x.arc(cx + Math.cos(cutA + .9) * drift, cy + Math.sin(cutA + .9) * drift, R, cutA + gap, cutA + Math.PI * 2 - gap); x.stroke(); }
+    // arrowheads around the ring
+    for (let k = 0; k < 3; k++) { const a = -Math.PI / 2 + Math.PI * 2 * (k + .5) / 3, ak = p(t, 9.1 + k * .1, 9.4 + k * .1); if (ak <= 0) continue;
+      x.save(); x.translate(cx + Math.cos(a) * R, cy + Math.sin(a) * R); x.rotate(a + Math.PI / 2); x.globalAlpha = ak; x.fillStyle = C.red;
+      x.beginPath(); x.moveTo(18, 0); x.lineTo(-14, -18); x.lineTo(-14, 18); x.closePath(); x.fill(); x.restore(); }
+    // the pulse: racing faster and faster around the trap
+    const tau = Math.max(0, t - 9.25), theta = -Math.PI / 2 + Math.PI * 2 * (.5 * tau + .32 * tau * tau);
+    const pulseLife = cut ? 1 - p(t, cutT, cutT + .25) : p(t, 9.25, 9.45);
+    for (let k = 0; k < 18 && pulseLife > 0; k++) { const a = theta - k * .05; x.globalAlpha = pulseLife * (1 - k / 18) * .9; circle(cx + Math.cos(a) * R, cy + Math.sin(a) * R, 16 - k * .6, k ? C.orange : C.canvas); }
+    x.globalAlpha = 1;
+    // the three steps of the trap
+    const nodeA = [-90, 30, 150].map(d => d * Math.PI / 180);
+    const labs = [[LOOP_STEPS[0], 540, 352, "center"], [LOOP_STEPS[1], 840, 960, "center"], [LOOP_STEPS[2], 240, 960, "center"]];
+    nodeA.forEach((a, i) => { const k = spring(p(t, 9.0 + i * .14, 9.5 + i * .14)), nx = cx + Math.cos(a) * R, ny = cy + Math.sin(a) * R;
+      const hit = Math.max(0, Math.cos(theta - a)); const glow = pulseLife > .5 ? Math.pow(hit, 40) : 0;
+      circle(nx, ny, (22 + glow * 16) * k, glow > .3 ? C.orange : C.canvas);
+      const [s, lx, ly, al] = labs[i], words = s.split(" "), mid = Math.ceil(words.length / 2), lk = p(t, 9.1 + i * .14, 9.5 + i * .14);
+      rise(words.slice(0, mid).join(" "), lx, ly, 34, INTER(700, 34), C.canvas, lk, al); rise(words.slice(mid).join(" "), lx, ly + 42, 34, INTER(700, 34), C.canvas, lk, al); });
+    // the count, at the heart of the ring
+    const ck = spring(p(t, 9.45, 9.95)); if (ck > 0) { x.save(); x.translate(cx, cy); x.scale(ck, ck); text(String(N_LOOPS), 0, 40, ANTON(170), cut ? C.canvas : "rgba(250,247,242,.9)", "center"); text("VICIOUS CYCLES", 0, 92, INTER(700, 24), C.red, "center", 4); x.restore(); }
+    // the cut: a teal blade
+    const bk = eo5(p(t, 10.42, 10.68)); if (bk > 0) { const bx = cx + Math.cos(cutA) * R, by = cy + Math.sin(cutA) * R;
+      x.save(); x.translate(bx, by); x.rotate(cutA); x.globalAlpha = 1 - p(t, 11.0, 11.4); x.fillStyle = C.teal; x.fillRect(-170, -14, 340 * bk, 28); x.restore(); }
+    if (cut) { const fk = 1 - p(t, cutT, cutT + .3); x.globalAlpha = fk * .5; bg(C.teal); x.globalAlpha = 1; }
+    x.restore();
+    rise("A VICIOUS CYCLE", 540, 140, 28, INTER(700, 28), C.red, p(t, 8.85, 9.2), "center", 6);
+    rise(LOOP.name.toUpperCase(), 540, 238, 84, ANTON(84), C.canvas, p(t, 8.95, 9.4), "center");
+    rise("WHERE IT BREAKS.", 540, 1190, 118, ANTON(118), C.canvas, p(t, 10.7, 11.1), "center");
+    { const bw = width("WHERE IT BREAKS.", ANTON(118)) * eo5(p(t, 10.95, 11.3)); x.fillStyle = C.teal; x.fillRect(540 - width("WHERE IT BREAKS.", ANTON(118)) / 2, 1206, bw, 16); }
+    rise(`${N_LEVERS} ACTIONS THAT COULD HELP BREAK THE CYCLES`, 540, 1268, 28, INTER(700, 28), "rgba(250,247,242,.8)", p(t, 10.9, 11.3), "center", 3);
+  }
+
+  // ----- 5. PEOPLE (11.85 – 15.05) -----
+  else if (t < 15.05) {
+    bg(C.canvas);
+    const ground = 1030, shadeK = spring(p(t, 12.85, 13.45)), sitK = eio(p(t, 13.5, 14.05));
+    // the sun and its heat
+    const sx = 870, sy = 520, sunK = spring(p(t, 11.9, 12.5));
+    x.save(); x.translate(sx, sy); x.rotate(t * .35); x.strokeStyle = C.orange; x.lineWidth = 8; x.lineCap = "round"; x.globalAlpha = .55 * sunK;
+    for (let k = 0; k < 12; k++) { const a = k / 12 * Math.PI * 2; x.beginPath(); x.moveTo(Math.cos(a) * 112, Math.sin(a) * 112); x.lineTo(Math.cos(a) * 140, Math.sin(a) * 140); x.stroke(); } x.restore();
+    circle(sx, sy, 88 * sunK, C.orange);
+    haze(t, C.orange, .09 * (1 - .6 * shadeK), 0, W, 560, ground - 20);
+    // ground and the shade it casts
+    x.fillStyle = C.sand; x.fillRect(0, ground, W, H - ground);
+    x.fillStyle = C.ink; x.fillRect(0, ground - 4, W, 8);
+    if (shadeK > 0) { x.globalAlpha = .18 * clamp(shadeK); x.fillStyle = C.ink; x.beginPath(); x.ellipse(430, ground + 26, 240 * clamp(shadeK), 26, 0, 0, Math.PI * 2); x.fill(); x.globalAlpha = 1; }
+    // the bench, the water point and the canopy arrive
+    const benchK = spring(p(t, 13.35, 13.75)); if (benchK > 0) { x.save(); x.translate(470, ground); x.scale(1, benchK); x.strokeStyle = C.ink; x.lineWidth = 10; x.lineCap = "round";
+      x.beginPath(); x.moveTo(-90, -120); x.lineTo(130, -120); x.moveTo(-70, -120); x.lineTo(-70, 0); x.moveTo(110, -120); x.lineTo(110, 0); x.stroke(); x.restore(); }
+    const tapK = spring(p(t, 13.15, 13.6)); if (tapK > 0) { x.save(); x.translate(800, ground); x.scale(tapK, tapK);
+      x.fillStyle = C.blue; x.beginPath(); x.roundRect(-70, -330, 140, 150, 14); x.fill(); x.strokeStyle = C.ink; x.lineWidth = 10; x.lineCap = "round";
+      x.beginPath(); x.moveTo(-50, -180); x.lineTo(-50, 0); x.moveTo(50, -180); x.lineTo(50, 0); x.moveTo(-50, -90); x.lineTo(50, -90); x.moveTo(70, -250); x.lineTo(110, -250); x.lineTo(110, -225); x.stroke();
+      const dk = ((t - 13.6) * 1.6) % 1; if (t > 13.6) { x.fillStyle = C.blue; x.globalAlpha = 1 - dk; x.beginPath(); const dy = -205 + dk * 170; x.moveTo(110, dy - 18); x.quadraticCurveTo(124, dy, 110, dy + 10); x.quadraticCurveTo(96, dy, 110, dy - 18); x.fill(); }
+      x.restore(); }
+    // the worker walks in, slows, and sits down to rest
+    const walkK = eo(p(t, 11.9, 12.75)), fxPos = lerp(-120, 420, walkK) + sitK * 30, stride = (1 - p(t, 12.6, 12.85)) * t * 9;
+    figure(fxPos, ground - 4, sitK, stride);
+    if (shadeK > 0) { x.save(); x.translate(430, lerp(-300, 560, clamp(shadeK)) + (shadeK - clamp(shadeK)) * 60);
+      x.fillStyle = C.teal; x.beginPath(); x.moveTo(-260, 0); x.lineTo(250, -40); x.lineTo(276, 22); x.lineTo(-282, 64); x.closePath(); x.fill();
+      x.strokeStyle = C.ink; x.lineWidth = 10; x.lineCap = "round"; x.beginPath(); x.moveTo(-240, 58); x.lineTo(-240, ground - 560); x.moveTo(236, 20); x.lineTo(236, ground - 560); x.stroke(); x.restore(); }
+    pill(430, 690, "SHADE", INTER(700, 26), C.canvas, C.teal, p(t, 13.2, 13.6));
+    pill(800, 600, "WATER", INTER(700, 26), C.canvas, C.blue, p(t, 13.55, 13.95));
+    pill(560, 830, "REST", INTER(700, 26), C.ink, C.orange, p(t, 13.95, 14.35));
+    rise("PROTECTION ONLY COUNTS", 70, 200, 96, ANTON(96), C.ink, p(t, 11.95, 12.35));
+    rise("WHEN IT REACHES PEOPLE.", 70, 300, 96, ANTON(96), C.ink, p(t, 12.1, 12.5));
+    const uw = width("WHEN IT REACHES PEOPLE.", ANTON(96)) * eo5(p(t, 12.45, 12.85)); x.fillStyle = C.orange; x.fillRect(70, 314, uw, 14);
+    // iris close into the next scene, from the worker's head
+    const iris = ei(p(t, 14.62, 15.05)); if (iris > 0) circle(fxPos, ground - 260, iris * 1700, C.ink);
+  }
+
+  // ----- 6. FIVE TOOLS (15.05 – 17.75) -----
+  else if (t < 17.75) {
+    bg(C.ink);
+    const collapse = eio(p(t, 17.0, 17.45));
+    rise("FIVE TOOLS", 70, 150, 30, INTER(700, 30), C.orange, p(t, 15.1, 15.45), "left", 6);
+    x.globalAlpha = 1 - collapse;
+    rise("IN THE ORDER THEY", 70, 260, 98, ANTON(98), C.canvas, p(t, 15.15, 15.55));
+    rise("BUILD ON EACH OTHER.", 70, 360, 98, ANTON(98), C.canvas, p(t, 15.28, 15.68));
+    x.globalAlpha = 1;
+    TOOLS.forEach((tl, i) => { const k = p(t, 15.45 + i * .14, 15.95 + i * .14); if (k <= 0) return; const s = spring(k);
+      const y0 = 440 + i * 158, cy = lerp(y0 + 66, 470, collapse), cxp = lerp(540 + (1 - eo5(k)) * 700, 540, collapse);
+      x.save(); x.translate(cxp, cy); x.scale(lerp(1, .02, collapse), lerp(Math.min(1, s), .1, collapse)); x.globalAlpha = clamp(k * 3);
+      x.beginPath(); x.roundRect(-470, -66, 940, 132, 20); x.fillStyle = "rgba(250,247,242,.07)"; x.fill(); x.strokeStyle = "rgba(250,247,242,.16)"; x.lineWidth = 2; x.stroke();
+      text(tl.n, -430, 24, ANTON(72), C.orange);
+      text(tl.verb.toUpperCase(), -310, -14, INTER(700, 24), C.amber, "left", 3);
+      text(tl.name.toUpperCase(), -310, 38, ANTON(52), C.canvas);
+      const bar = eo(p(t, 15.9 + i * .14, 16.5 + i * .14)); x.fillStyle = C.orange; x.fillRect(-470, 62, 940 * bar, 4);
+      x.restore(); });
+    const dot = spring(p(t, 17.3, 17.7)); if (collapse > .6) circle(540, 470, 70 * dot, C.orange);
+    const iris = ei(p(t, 17.4, 17.75)); if (iris > 0) circle(540, 470, iris * 1500, C.canvas);
+  }
+
+  // ----- 7. LOCKUP (17.75 – 20) -----
+  else {
+    bg(C.canvas);
+    const dk = spring(p(t, 17.75, 18.25));
+    circle(540, 470, 70 * (1 + .04 * Math.sin(t * 5)), C.orange);
+    x.save(); x.translate(540, 470); x.rotate(t * .8); x.setLineDash([10, 10]); circle(0, 0, 90 * dk, null, C.ink, 4); x.restore();
+    letters("BEAT THE HEAT", 540, 730, 150, ANTON(150), C.ink, t, 17.85, .045, .5, "center");
+    const url = "beattheheat.asia", n = Math.floor(url.length * p(t, 18.35, 18.85)), shown = url.slice(0, n), uw = width(url, INTER(600, 50));
+    text(shown, 540 - uw / 2, 820, INTER(600, 50), C.ink); if (t > 18.3 && t < 19.3 && Math.floor(t * 4) % 2 === 0) { x.fillStyle = C.orange; x.fillRect(540 - uw / 2 + width(shown, INTER(600, 50)) + 6, 780, 5, 50); }
+    const ck = p(t, 18.75, 19.15); if (ck > 0) { const lab = "Find your way in", f = INTER(700, 40), w = width(lab, f) + 140, s = spring(ck);
+      x.save(); x.translate(540, 940); x.scale(s, s); x.beginPath(); x.roundRect(-w / 2, -46, w, 92, 46); x.fillStyle = C.orange; x.fill();
+      text(lab, -w / 2 + 52, 14, f, C.ink); const nudge = 8 * Math.max(0, Math.sin((t - 19.1) * 6)); text("→", w / 2 - 70 + nudge, 15, INTER(700, 44), C.ink); x.restore(); }
+    x.globalAlpha = eo(p(t, 19.05, 19.5));
+    text("Free, sourced, and made to be shared.", 540, 1100, INTER(600, 34), C.grey, "center");
+    text("For city teams, NGOs, funders, communities", 540, 1160, INTER(500, 28), C.grey, "center");
+    text("and workers’ organisations.", 540, 1200, INTER(500, 28), C.grey, "center");
+    x.globalAlpha = 1;
+  }
+
+  // ----- transitions that sit over two scenes -----
+  // ten system-colour stripes, from the wicked problem into the web
+  if (t > 4.38 && t < 5.25) SYS.forEach((s, i) => { const a = eio(p(t, 4.4 + i * .016, 4.64 + i * .016)), b = eio(p(t, 4.84 + i * .016, 5.08 + i * .016));
+    const top = b * H, bot = a * H; if (bot > top) { x.fillStyle = s.color; x.fillRect(i * 108, top, 109, bot - top); } });
+  // a teal band sweeps out of the cut and into the people
+  if (t > 11.45 && t < 12.15) { const k = eio(p(t, 11.45, 12.15)); x.save(); x.translate(lerp(-1500, 1500, k), 0); x.rotate(-.18); x.fillStyle = C.teal; x.fillRect(-700, -400, 1400, 2200); x.restore(); }
+
+  // ----- finish: grain, a vignette on dark scenes, and a progress line -----
+  x.globalAlpha = .045; x.drawImage(GRAIN[Math.floor(t * 24) % 4], 0, 0, W, H); x.globalAlpha = 1;
+  const vg = x.createRadialGradient(540, 675, 400, 540, 675, 980); vg.addColorStop(0, "rgba(0,0,0,0)"); vg.addColorStop(1, "rgba(0,0,0,.22)");
+  if ((t > 4.8 && t < 11.85) || t < 2.2 || (t > 15.05 && t < 17.5)) { x.fillStyle = vg; x.fillRect(0, 0, W, H); }
+  x.fillStyle = C.orange; x.fillRect(0, H - 8, W * clamp(t / DUR), 8);
+}
+window.render = render; window.DUR = DUR;
+window.ready = document.fonts.load(ANTON(100)).then(() => { if (!document.fonts.check(ANTON(100))) throw new Error("Anton did not load"); }).then(() => Promise.all([document.fonts.load(INTER(500, 30)), document.fonts.load(INTER(600, 30)), document.fonts.load(INTER(700, 30))])).then(() => { render(0); return true; });
+// preview in a browser: play in real time
+if (!/render=1/.test(location.search)) { const t0 = performance.now(); (function loop() { render(((performance.now() - t0) / 1000) % DUR); requestAnimationFrame(loop); })(); }
+</script>
+</body>
+</html>

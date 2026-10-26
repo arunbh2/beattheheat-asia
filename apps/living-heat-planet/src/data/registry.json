@@ -1,0 +1,6 @@
+{
+  "_about": "Curated, human-reviewed records. Starts empty. Only records with status 'verified', a source and a reviewedAt date are shown. See docs/EDITORIAL_WORKFLOW.md and data/templates/*.csv.",
+  "claims": [],
+  "actions": [],
+  "opportunities": []
+}
