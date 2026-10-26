@@ -34,7 +34,7 @@
       const ok = (j.sources || []).filter(s => s.ok).map(s => FEEDS.credits[s.name] ? ext(FEEDS.credits[s.name], s.name) : esc(s.name));
       if (meta) meta.innerHTML = `${stale ? "Last refreshed" : "Updated"} ${esc(Number.isFinite(updated) ? ago(updated) : "unknown")}${ok.length ? `. Headlines found by ${ok.join(" and ")}` : ""}. Refreshed every six hours.`;
       if (!items.length) {
-        list.innerHTML = `<li class="feed__wait">${stale ? "The news feed has not refreshed recently, so no headlines are shown." : `No new heat headlines from South and Southeast Asia in the last ${esc(j.keepDays || 14)} days.`}</li>`; return;
+        list.innerHTML = `<li class="feed__wait">${stale ? "The news feed has not refreshed recently, so no headlines are shown." : `No new heat headlines from South and Southeast Asia in the last ${esc(j.keepDays || 14)} days. Across most of the region heat is reported mainly in the hot season, roughly March to June, so the list is often quiet outside it. The feed is checked every six hours.`}</li>`; return;
       }
       const row = x => `<li data-region="${x.place ? (SOUTH.includes(x.place) ? "south" : "southeast") : "other"}"><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(strip(x.title))}<span class="visually-hidden"> (opens in a new tab)</span></a>
         <span class="feed__src">${esc(x.domain || "")}${x.place ? ` · ${esc(x.place)}` : ""}${x.date ? ` · ${esc(ago(Date.parse(x.date)))}` : ""}</span></li>`;

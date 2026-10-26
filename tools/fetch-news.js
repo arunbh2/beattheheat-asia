@@ -22,7 +22,8 @@ const CITIES = { Delhi: "India", Mumbai: "India", Ahmedabad: "India", Kolkata: "
 const placeOf = t => PLACES.find(p => new RegExp(`\\b${p}\\b`, "i").test(t)) || CITIES[Object.keys(CITIES).find(c => new RegExp(`\\b${c}\\b`, "i").test(t))] || "";
 const HEAT_TERMS = ['heatwave', '"heat wave"', '"extreme heat"', '"heat stress"', 'heatstroke', '"heat index"'];
 const orList = list => list.map(p => (p.includes(" ") || p.includes("-") ? `"${p}"` : p)).join(" OR ");
-const QUERY = `(${HEAT_TERMS.join(" OR ")}) (${orList(PLACES)}) sourcelang:english`;
+// GDELT reads a hyphen as an operator, so hyphenated names stay out of its query (headlines still match them)
+const QUERY = `(${HEAT_TERMS.join(" OR ")}) (${orList(PLACES.filter(p => !p.includes("-")))}) sourcelang:english`;
 const HEAT = /heat ?waves?|extreme heat|heat ?stroke|heat stress|heat index|heat illness|heat-related|scorching|sweltering|searing heat|hot weather|high temperatures?|record temperatures?/i;
 // the site builds awareness and solutions; headlines framed around politics or conflict are left out
 const AVOID = /\b(election|elections|campaign|slams?|slammed|blames?|blamed|opposition|protests?|riots?|war|terror\w*|scandal|corrupt\w*|attacks?)\b/i;
@@ -31,8 +32,6 @@ const AVOID = /\b(election|elections|campaign|slams?|slammed|blames?|blamed|oppo
 const FEEDS = [
   { name: "The Hindu", url: "https://www.thehindu.com/news/national/feeder/default.rss", country: "India" },
   { name: "Hindustan Times", url: "https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml", country: "India" },
-  { name: "Down To Earth", url: "https://www.downtoearth.org.in/rss/climate-change", country: null },
-  { name: "Dhaka Tribune", url: "https://www.dhakatribune.com/feed", country: "Bangladesh" },
   { name: "The Daily Star", url: "https://www.thedailystar.net/frontpage/rss.xml", country: "Bangladesh" },
   { name: "The Kathmandu Post", url: "https://kathmandupost.com/rss", country: "Nepal" },
   { name: "Bangkok Post", url: "https://www.bangkokpost.com/rss/data/topstories.xml", country: "Thailand" },
@@ -63,7 +62,8 @@ async function gdelt() {
   const url = "https://api.gdeltproject.org/api/v2/doc/doc?" + new URLSearchParams({ query: QUERY, mode: "ArtList", maxrecords: "150", timespan: "7d", format: "json", sort: "DateDesc" });
   const r = await fetch(url, { headers: { "user-agent": UA }, signal: AbortSignal.timeout(25000) });
   const text = await r.text(); if (!r.ok) throw new Error(`HTTP ${r.status}: ${text.slice(0, 120)}`);
-  return fromGdelt(JSON.parse(text).articles);
+  let j; try { j = JSON.parse(text); } catch (e) { throw new Error(`GDELT replied: ${text.slice(0, 200).replace(/\s+/g, " ")}`); }
+  return fromGdelt(j.articles);
 }
 
 /* ---- source 2: publishers' RSS and Atom feeds ---- */
@@ -84,7 +84,8 @@ function fromFeed(xml, feed) {
 async function feeds() {
   const results = await Promise.all(FEEDS.map(async f => {
     try {
-      const r = await fetch(f.url, { headers: { "user-agent": UA, accept: "application/rss+xml, application/atom+xml, application/xml, text/xml" }, signal: AbortSignal.timeout(20000) });
+      let r = await fetch(f.url, { headers: { "user-agent": UA, accept: "application/rss+xml, application/atom+xml, application/xml, text/xml" }, signal: AbortSignal.timeout(20000) });
+      if (r.status === 406) r = await fetch(f.url, { headers: { "user-agent": UA, accept: "*/*" }, signal: AbortSignal.timeout(20000) });
       if (!r.ok) throw new Error(`HTTP ${r.status}`);
       const items = fromFeed(await r.text(), f); if (!items.length) throw new Error("no items in the feed");
       return { name: f.name, ok: true, items };
