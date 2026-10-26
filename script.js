@@ -1300,7 +1300,7 @@
   function briefText(id) {
     const d = briefData(id);
     const L = [];
-    L.push(`BREAKING THE LOOPS OF EXTREME HEAT`, `A brief for: ${d.inst.name}`, `From the BeatTheHeat.Asia systems map: ${d.url}`, "");
+    L.push(`BREAKING THE LOOPS OF EXTREME HEAT`, `A brief for: ${d.inst.name}`, `From the Common Shade systems map: ${d.url}`, "");
     L.push(`The UN has called for urgent action on extreme heat. On this map, ${d.inst.name.toLowerCase()} hold ${plural(d.levers.length, "lever")} that can help break ${d.loops.length} of the ${LOOPS.length} vicious cycles that make heat worse.`, "");
     L.push("YOUR PROTECTION CHAIN");
     STAGES.forEach(([k, label]) => d.pb[k] && L.push(`${label}: ${d.pb[k]}`));
@@ -1329,7 +1329,7 @@
     const html = `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Heat brief: ${h(d.inst.name)}</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;700&display=swap"><style>${css}</style></head><body>
       <button class="print" onclick="window.print()">Print or save as PDF</button>
       <p class="k">The UN calls for urgent action on extreme heat</p><h1>Breaking the loops of extreme heat</h1>
-      <p class="sub">A brief for <strong>${h(d.inst.name)}</strong> · from the BeatTheHeat.Asia systems map · <a href="${h(d.url)}">${h(d.url)}</a></p>
+      <p class="sub">A brief for <strong>${h(d.inst.name)}</strong> · from the Common Shade systems map · <a href="${h(d.url)}">${h(d.url)}</a></p>
       <p>Extreme heat is an urgent and growing threat. On this map, ${h(d.inst.name.toLowerCase())} hold <strong>${plural(d.levers.length, "lever")}</strong> that can help break <strong>${d.loops.length} of the ${LOOPS.length}</strong> vicious cycles that make heat worse.</p>
       <div class="bar"><span style="width:${(d.loops.length / LOOPS.length * 100).toFixed(1)}%"></span></div>
       <h2>Your protection chain</h2><div class="chain">${STAGES.map(([k, l]) => `<div><b>${l}</b>${h(d.pb[k] || "")}</div>`).join("")}</div>
@@ -1741,7 +1741,7 @@
 
   function planText() {
     const g = PG.find(x => x.id === plan.group), L = [];
-    L.push("HEAT RESPONSE PLAN", `Place: ${plan.place || "(not set)"}`, `People at risk: ${g ? g.name : "(not set)"}`, `Made with the BeatTheHeat.Asia systems map: ${location.origin + location.pathname}`, "");
+    L.push("HEAT RESPONSE PLAN", `Place: ${plan.place || "(not set)"}`, `People at risk: ${g ? g.name : "(not set)"}`, `Made with the Common Shade systems map: ${location.origin + location.pathname}`, "");
     plan.levers.forEach((id, i) => { const v = leverById[id], r = planRow(id);
       L.push(`${i + 1}. ${v.title} [${WHEN[v.when] || ""}]`, `   Leads: ${instById[r.lead] ? instById[r.lead].name : "-"}`, `   Pays: ${r.payer}`, `   When: ${phaseById[r.phase] ? phaseById[r.phase].name : "-"}`, `   How we will know: ${r.measure || v.measure || "-"}`);
       if (LADDER.length) L.push(`   Where it stands: ${LADDER[lRank(rowCounts(r))].name}${r.ev ? ` (shown by: ${r.ev})` : ""}`);
@@ -1796,7 +1796,7 @@
     const html = `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Heat response plan: ${h(plan.place || "draft")}</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;700&display=swap"><style>${css}</style></head><body>
       <button class="print" onclick="window.print()">Print or save as PDF</button>
       <p class="k">Heat response plan · draft</p><h1>${h(plan.place || "Our place")}</h1>
-      <p class="sub">Protecting: <strong>${h(g ? g.name : "not set")}</strong> · made with the BeatTheHeat.Asia systems map</p>
+      <p class="sub">Protecting: <strong>${h(g ? g.name : "not set")}</strong> · made with the Common Shade systems map</p>
       ${ex ? `<p class="note">Based on the worked example: ${h(ex.title)}.</p>` : ""}
       <table><thead><tr><th>Action</th><th>When</th><th>Who leads</th><th>Who pays</th><th>How we will know</th></tr></thead><tbody>${rows}</tbody></table>
       ${(() => { const t = trig(), base = BASES.find(b => b.id === t.basis), chs = (t.channels || []).map(c => (CHANNELS.find(x => x.id === c) || {}).name).filter(Boolean);
@@ -1823,7 +1823,7 @@
       ${RLOG.some(f => rlog()[f.id]) ? `<h2>What changed after the season</h2><table><tbody>${RLOG.map(f => `<tr><td><strong>${h(f.name)}</strong></td><td>${h(rlog()[f.id] || "")}</td></tr>`).join("")}</tbody></table>` : ""}
       <h2>Cycles these actions could help interrupt</h2><p>${h(planLoops().map(l => l.name).join(", ") || "None yet")}</p>
       ${planStalls().length ? `<h2>What could stop this plan</h2><p class="note">And what has moved each one elsewhere.</p><div class="read">${planStalls().map(x => `<h3>${h(x.name)}</h3><ul>${x.moves.map(m => `<li>${h(m)}</li>`).join("")}</ul>`).join("")}</div>` : ""}
-      ${(() => { const r = planReading(); return r.length ? `<h2>Reading list for this plan</h2><p class="note">Practical guides for each action, from the BeatTheHeat.Asia map.</p><div class="read">${r.map(({ v, guides }) => `<h3>${h(v.title)}</h3><ul>${guides.map(g => `<li><a href="${h(g.url)}" target="_blank" rel="noopener">${h(g.title)}</a> <span class="by">· ${h(g.by)}</span><span class="u">${h(g.url)}</span></li>`).join("")}</ul>`).join("")}</div>` : ""; })()}
+      ${(() => { const r = planReading(); return r.length ? `<h2>Reading list for this plan</h2><p class="note">Practical guides for each action, from the Common Shade map.</p><div class="read">${r.map(({ v, guides }) => `<h3>${h(v.title)}</h3><ul>${guides.map(g => `<li><a href="${h(g.url)}" target="_blank" rel="noopener">${h(g.title)}</a> <span class="by">· ${h(g.by)}</span><span class="u">${h(g.url)}</span></li>`).join("")}</ul>`).join("")}</div>` : ""; })()}
       <p class="note" style="margin-top:28px">Illustrative systems map: real effect depends on how many people each action reaches, how well it is delivered and how long it lasts. For evidence on what works and what it costs, see What Works Against Heat.</p>
       </body></html>`;
     const url = URL.createObjectURL(new Blob([html], { type: "text/html" }));
@@ -2840,7 +2840,7 @@
           <p class="cp__note">Listing does not imply partnership, affiliation or endorsement.</p>
         </div>
       </div>
-      <p class="cp__foot">Share this city: <a href="#city-${p.id}">beattheheat.asia/#city-${p.id}</a> · <a href="/cities/${p.id}/">Read it as a page</a> · ${printLink(`city-${p.id}`, `Print a one-page brief for ${c.name}`)} · ${printLink("dry-and-humid-heat", "Print: dry and humid heat")}</p>`;
+      <p class="cp__foot">Share this city: <a href="#city-${p.id}">commonshade.org/#city-${p.id}</a> · <a href="/cities/${p.id}/">Read it as a page</a> · ${printLink(`city-${p.id}`, `Print a one-page brief for ${c.name}`)} · ${printLink("dry-and-humid-heat", "Print: dry and humid heat")}</p>`;
   }
 
   function cityDots() {

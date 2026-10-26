@@ -1,4 +1,4 @@
-/* BeatTheHeat.Asia: the "Join the collaborative" form on /join/, and a quiet invitation card elsewhere on the site.
+/* Common Shade: the "Join the collaborative" form on /join/, and a quiet invitation card elsewhere on the site.
    Both stay off until JOIN.formUrl holds a Microsoft Form link, so nobody is invited to a form that does not exist. */
 (function () {
   "use strict";
@@ -57,7 +57,7 @@
       el.className = "invite"; el.setAttribute("role", "dialog"); el.setAttribute("aria-modal", "false"); el.setAttribute("aria-labelledby", "invite-h");
       el.innerHTML =
         '<button type="button" class="invite__x" aria-label="Not now, close">×</button>' +
-        '<p class="invite__eyebrow">BeatTheHeat.Asia</p>' +
+        '<p class="invite__eyebrow">Common Shade</p>' +
         '<h2 class="invite__h" id="invite-h">' + (leaving ? "Before you go" : "Working on heat?") + '</h2>' +
         '<p class="invite__p">People and organisations across South and Southeast Asia are shaping a collaborative on protection from extreme heat. Would you like to join, or just hear what changes?</p>' +
         '<div class="invite__acts">' +

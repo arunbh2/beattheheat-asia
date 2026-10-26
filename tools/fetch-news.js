@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/* BeatTheHeat.Asia: refresh feeds/news.json with recent heat headlines from South and Southeast Asia.
+/* Common Shade: refresh feeds/news.json with recent heat headlines from South and Southeast Asia.
    Sources, merged so no single outage can empty the feed:
      1. RSS feeds published for syndication by regional news outlets and humanitarian services (FEEDS below),
         filtered to headlines about heat. These are built to be read by machines, including from data centres.
@@ -45,7 +45,7 @@ const FEEDS = [
   { name: "UN News, climate", url: "https://news.un.org/feed/subscribe/en/news/topic/climate-change/feed/rss.xml", country: null },
   { name: "ReliefWeb", url: "https://reliefweb.int/updates/rss.xml?search=heat%20wave", country: null },
 ];
-const KEEP_DAYS = 14, MAX = 60, UA = "Mozilla/5.0 (compatible; BeatTheHeat.Asia news feed; +https://beattheheat.asia/)";
+const KEEP_DAYS = 14, MAX = 60, UA = "Mozilla/5.0 (compatible; Common Shade news feed; +https://commonshade.org/)";
 
 const key = t => t.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim().slice(0, 70);
 const clean = t => String(t || "").replace(/\s+/g, " ").trim();

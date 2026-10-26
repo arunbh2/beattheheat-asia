@@ -127,7 +127,7 @@ button { font: inherit; color: inherit; }
   color: var(--ink); text-decoration: none;
   font-family: var(--font-display); font-size: 1.35rem; letter-spacing: 0.08em; white-space: nowrap;
 }
-.wordmark__mark { width: 18px; height: 18px; border-radius: 50%; background: var(--orange); box-shadow: 0 0 0 2px var(--canvas), 0 0 0 3.5px var(--ink); }
+.wordmark__mark { width: 26px; height: 20px; flex: none; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26 20'%3E%3Cpath d='M2.5 8 Q13 -1 23.5 8' fill='none' stroke='%23F26430' stroke-width='4' stroke-linecap='round'/%3E%3Cpath d='M6.5 7 V18.5 M19.5 7 V18.5' stroke='%2316202B' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E") center / contain no-repeat; }
 .wordmark { margin-right: auto; }
 .header-nav { display: flex; gap: 18px; }
 .header-nav a { color: var(--ink); font-weight: 700; font-size: 0.92rem; text-decoration: none; border-bottom: 3px solid transparent; white-space: nowrap; padding: 4px 0 2px; }
@@ -2437,3 +2437,7 @@ body:not([data-page="plan"]) a[href^="#plan-"]::after, body:not([data-page="plan
 .site-footer__join a { margin-right: 6px; color: var(--ink); text-decoration-color: var(--orange); text-underline-offset: 3px; }
 .join-entry .eyebrow--break { color: #17605A; }
 .join-entry .eyebrow--break::before { background: #17605A; }
+
+/* Common Shade: tagline under the footer wordmark, with the former name for continuity */
+.site-footer__tagline { margin: 4px 0 0; font-weight: 600; color: var(--ink); }
+.site-footer__tagline span { font-weight: 400; color: var(--grey-700); }

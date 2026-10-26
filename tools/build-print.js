@@ -2,13 +2,13 @@
    Builds the printable one-pagers in /print/ from data.js.
    Run by tools/build-static.js (or on its own: node tools/build-print.js).
 
-   Each sheet is a single A4 page with the BeatTheHeat.Asia brand,
+   Each sheet is a single A4 page with the Common Shade brand,
    the beta disclaimer, the CC BY 4.0 licence and a QR code back to
    the live page. QR codes need the "qrcode" package (npm install);
    without it the sheet prints the web address instead.
    ========================================================== */
 const fs = require("fs"), path = require("path"), vm = require("vm");
-const ROOT = path.join(__dirname, ".."), SITE = "https://beattheheat.asia";
+const ROOT = path.join(__dirname, ".."), SITE = "https://commonshade.org";
 let QR = null; try { QR = require("qrcode"); } catch (e) { /* optional */ }
 const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + `
@@ -75,18 +75,18 @@ async function sheet({ slug, kind, title, lede, body, live, sources }) {
 <html lang="en">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${esc(title)} | BeatTheHeat.Asia one-pager</title>
+<title>${esc(title)} | Common Shade one-pager</title>
 <meta name="description" content="${esc(lede)}">
 <link rel="canonical" href="${url}"><link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&display=swap">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23F26430'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2316202B'/%3E%3Cpath d='M5 14 Q16 4 27 14' fill='none' stroke='%23F26430' stroke-width='4.5' stroke-linecap='round'/%3E%3Cpath d='M9 13 V27 M23 13 V27' stroke='%23F6E7D7' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E">
 <style>${CSS}</style>
 </head>
 <body>
 <nav class="tools" aria-label="Page tools"><button type="button" onclick="window.print()">Print or save as PDF</button><a href="${esc(live)}">Open the live page</a><a href="/print/">All one-pagers</a></nav>
 <main class="sheet"><div class="fit">
-  <div class="bar"><div class="brand"><i></i>BEAT THE HEAT</div><div class="kind">${esc(kind)}</div></div>
+  <div class="bar"><div class="brand"><i></i>COMMON SHADE</div><div class="kind">${esc(kind)}</div></div>
   <h1>${esc(title)}</h1>
   <p class="lede">${esc(lede)}</p>
   ${body}
@@ -94,9 +94,9 @@ async function sheet({ slug, kind, title, lede, body, live, sources }) {
   ${sources && sources.length ? `<h2>Sources</h2>${srcList(sources)}` : ""}
   <footer>
     <div>
-      <p><b>BeatTheHeat.Asia</b> · A living map of extreme heat in South and Southeast Asia, updated as the evidence grows. Live page: ${esc(short(live.startsWith("http") ? live : SITE + live))}</p>
-      <p>This is a beta version. BeatTheHeat.Asia is being built by a group of organisations working on extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement.</p>
-      <p><b>Licence:</b> © BeatTheHeat.Asia contributors. Shared under Creative Commons Attribution 4.0 (CC BY 4.0, creativecommons.org/licenses/by/4.0): you may copy, adapt, translate and share this sheet, with credit to BeatTheHeat.Asia and a link to beattheheat.asia. Sources cited remain their owners’. Printed from the map’s data on ${TODAY}; check the live page for updates.</p>
+      <p><b>Common Shade</b> · A living map of extreme heat in South and Southeast Asia, updated as the evidence grows. Live page: ${esc(short(live.startsWith("http") ? live : SITE + live))}</p>
+      <p>This is a beta version. Common Shade is being built by a group of organisations working on extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement.</p>
+      <p><b>Licence:</b> © Common Shade contributors. Shared under Creative Commons Attribution 4.0 (CC BY 4.0, creativecommons.org/licenses/by/4.0): you may copy, adapt, translate and share this sheet, with credit to Common Shade and a link to commonshade.org. Sources cited remain their owners’. Printed from the map’s data on ${TODAY}; check the live page for updates.</p>
     </div>
     <div class="qr">${await qr(live.startsWith("http") ? live : SITE + live)}</div>
   </footer>
@@ -139,11 +139,11 @@ async function build() {
         ${G.toolkit.map(t => `<tr><td><b>${t.n}. ${esc(t.verb)}</b><br>${esc(t.name)}</td><td>${esc(t.take)}</td><td>${esc(t.time)}</td></tr>`).join("")}</table>
       <div class="cols" style="margin-top:4px"><div><h2>Tips for the facilitator</h2><ul class="tight">${G.workshopTips.map(t => `<li>${esc(t)}</li>`).join("")}</ul></div>
         <div><h2>Before the session</h2><ul class="check">${["Choose the place the room knows best.", "Open the map, the worker exercise and the plan in three tabs.", "Check the projector shows small text clearly.", "Decide who records what is agreed."].map(t => `<li>${esc(t)}</li>`).join("")}</ul></div></div>
-      <p style="margin-top:6px"><b>Start here:</b> beattheheat.asia/guide/ · <b>The tools:</b> beattheheat.asia/a-week-in-the-heat/ · /plan/ · /together/</p>`;
-    add("workshop-guide", { kind: "Facilitator’s guide · For anyone running a session with officials, funders or NGOs", title: "Using BeatTheHeat.Asia in a 90-minute workshop", for: "Facilitators" },
-      await sheet({ slug: "workshop-guide", kind: "Facilitator’s guide · For anyone running a session with officials, funders or NGOs", title: "Using BeatTheHeat.Asia in a 90-minute workshop",
+      <p style="margin-top:6px"><b>Start here:</b> commonshade.org/guide/ · <b>The tools:</b> commonshade.org/a-week-in-the-heat/ · /plan/ · /together/</p>`;
+    add("workshop-guide", { kind: "Facilitator’s guide · For anyone running a session with officials, funders or NGOs", title: "Using Common Shade in a 90-minute workshop", for: "Facilitators" },
+      await sheet({ slug: "workshop-guide", kind: "Facilitator’s guide · For anyone running a session with officials, funders or NGOs", title: "Using Common Shade in a 90-minute workshop",
         lede: "A shared picture first, then the felt experience of one worker’s week, then a plan with owners, money and triggers, and decisions recorded before people leave.", body, live: "/guide/",
-        sources: [{ label: "BeatTheHeat.Asia: how to use this site", url: "https://beattheheat.asia/guide/" }] }));
+        sources: [{ label: "Common Shade: how to use this site", url: "https://commonshade.org/guide/" }] }));
   }
 
   // 0b. The same 90 minutes for a community group or workers' organisation
@@ -156,12 +156,12 @@ async function build() {
       <p style="font-size:.85em;margin-top:4px">Write each request as an invitation to work together: what would help, why it matters to people here, and what the group can offer in return.</p>
       <div class="cols" style="margin-top:4px"><div><h2>Tips for the person leading</h2><ul class="tight">${G.workshopCommunityTips.map(t => `<li>${esc(t)}</li>`).join("")}</ul></div>
         <div><h2>Before the meeting</h2><ul class="check">${G.workshopCommunityBefore.map(t => `<li>${esc(t)}</li>`).join("")}</ul></div></div>
-      <p style="margin-top:6px"><b>The tools:</b> <span style="white-space:nowrap">beattheheat.asia/a-week-in-the-heat/</span> · <span style="white-space:nowrap">/#practical</span> · <span style="white-space:nowrap">/together/</span> · <b>Action cards to print:</b> <span style="white-space:nowrap">/print/actions-work/</span> · <span style="white-space:nowrap">/print/actions-homes/</span> · <span style="white-space:nowrap">/print/actions-neighbourhoods/</span></p>`;
+      <p style="margin-top:6px"><b>The tools:</b> <span style="white-space:nowrap">commonshade.org/a-week-in-the-heat/</span> · <span style="white-space:nowrap">/#practical</span> · <span style="white-space:nowrap">/together/</span> · <b>Action cards to print:</b> <span style="white-space:nowrap">/print/actions-work/</span> · <span style="white-space:nowrap">/print/actions-homes/</span> · <span style="white-space:nowrap">/print/actions-neighbourhoods/</span></p>`;
     const kind = "Facilitator’s guide · For community groups and workers’ organisations", title = "A 90-minute heat meeting for your community or workplace";
     add("community-workshop-guide", { kind, title, for: "Community groups" },
       await sheet({ slug: "community-workshop-guide", kind, title,
         lede: "Start from what people know, follow one worker’s week, find what you can do yourselves, and agree what to ask of partners, written as invitations to work together.", body, live: "/guide/",
-        sources: [{ label: "BeatTheHeat.Asia: how to use this site", url: "https://beattheheat.asia/guide/" }] }));
+        sources: [{ label: "Common Shade: how to use this site", url: "https://commonshade.org/guide/" }] }));
   }
 
   // 1. Four heats in a home
@@ -242,7 +242,7 @@ async function build() {
         <li>Are misting and evaporative coolers used only where the air is dry enough for them to work?</li>
         <li>Are work–rest rules set by WBGT or the heat index, not air temperature alone?</li>
         <li>Do warnings include hot nights, when bodies should recover?</li></ul>
-      <p style="margin-top:6px"><b>Watch the 2-minute explainer:</b> beattheheat.asia/#watch-dryhumid</p>`;
+      <p style="margin-top:6px"><b>Watch the 2-minute explainer:</b> commonshade.org/#watch-dryhumid</p>`;
     add("dry-and-humid-heat", { kind: "One-pager · For health, labour and disaster management officials", title: "Dry heat and humid heat", for: "Health, labour and disaster management officials" },
       await sheet({ slug: "dry-and-humid-heat", kind: "One-pager · For health, labour and disaster management officials", title: "Dry heat and humid heat",
         lede: g ? g.text : "", body, live: "/#watch-dryhumid",
@@ -267,7 +267,7 @@ async function build() {
         <div><h2>Already at work here</h2><ul class="tight">${orgs.map(o => `<li>${esc(o.name)}</li>`).join("")}</ul><p style="font-size:7.5pt;color:#5E6570">Listing does not imply partnership, affiliation or endorsement.</p></div></div>
       <h2>Four questions for ${esc(c.name)}’s heat plan</h2>
       <ul class="check cols"><li>Is it funded, with a named owner?</li><li>Does it assess who is most vulnerable, and where they live?</li><li>Does it have legal backing, so departments must act?</li><li>Does it count indoor and night-time heat, not only daytime highs?</li></ul>
-      <p style="margin-top:6px"><b>Official warnings:</b> ${esc(c.warn.label)} · <b>Today’s heat and the week ahead:</b> beattheheat.asia/#city-${cp.id}</p>`;
+      <p style="margin-top:6px"><b>Official warnings:</b> ${esc(c.warn.label)} · <b>Today’s heat and the week ahead:</b> commonshade.org/#city-${cp.id}</p>`;
     const srcs = [...cp.hap.sources, ...loops.flatMap(x => { const ev = (D.LOOP_STAKES && D.LOOP_STAKES[x.l.id]) || null; return ev ? [{ label: ev.by, url: ev.url }] : []; }), cpr].filter(Boolean)
       .filter((s, i, a) => a.findIndex(z => z.url === s.url) === i).slice(0, 8);
     add(`city-${cp.id}`, { kind: `City brief · ${c.name}`, title: `Extreme heat in ${c.name}`, for: "City officials, partners and funders", group: "city" },
@@ -364,20 +364,20 @@ async function build() {
   const group = (g, t) => `<h2>${t}</h2><ul class="pl">${list.filter(x => (x.group || "") === g).map(x => `<li><a href="/print/${x.slug}/"><b>${esc(x.title)}</b></a><span>${esc(x.for)}</span></li>`).join("")}</ul>`;
   fs.writeFileSync(path.join(ROOT, "print", "index.html"), `<!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Printable one-pagers | BeatTheHeat.Asia</title><meta name="description" content="Printable, one-page briefs from BeatTheHeat.Asia for officials, planners, partners and journalists. Free to share under CC BY 4.0.">
+<title>Printable one-pagers | Common Shade</title><meta name="description" content="Printable, one-page briefs from Common Shade for officials, planners, partners and journalists. Free to share under CC BY 4.0.">
 <link rel="canonical" href="${SITE}/print/"><link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;800&display=swap">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23F26430'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2316202B'/%3E%3Cpath d='M5 14 Q16 4 27 14' fill='none' stroke='%23F26430' stroke-width='4.5' stroke-linecap='round'/%3E%3Cpath d='M9 13 V27 M23 13 V27' stroke='%23F6E7D7' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E">
 <style>body{margin:0;font-family:Inter,Arial,sans-serif;color:#16202B;background:#FAF7F2;line-height:1.5}main{max-width:900px;margin:0 auto;padding:24px 20px 48px}
 .brand{display:flex;align-items:center;gap:8px;font-family:Anton,Impact,sans-serif;font-size:1.3rem;text-decoration:none;color:#16202B}.brand i{width:16px;height:16px;border-radius:50%;background:#F26430;border:3px solid #16202B}
 h1{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;font-size:clamp(2rem,1.5rem + 3vw,3rem);line-height:1.02;margin:22px 0 8px}h2{font-size:1.1rem;margin:28px 0 6px;border-top:2px solid #16202B;padding-top:12px}
 .pl{list-style:none;padding:0;display:grid;gap:8px;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr))}.pl li{background:#fff;border:1px solid #E6DFD4;border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:2px}.pl a{color:#16202B;text-decoration-color:#F26430;text-underline-offset:3px}.pl span{font-size:.85rem;color:#5E6570}
 footer{margin-top:40px;font-size:.85rem;color:#5E6570;border-top:1px solid #E6DFD4;padding-top:12px}</style></head>
-<body><main><a class="brand" href="/"><i></i>BEAT THE HEAT</a>
+<body><main><a class="brand" href="/"><i></i>COMMON SHADE</a>
 <h1>Printable one-pagers</h1><p>Single A4 pages from the map, for meetings, briefings and noticeboards. Each one is generated from the same sourced data as the site, lists its sources, and links back to the live page with a QR code. Open one and choose <b>Print or save as PDF</b>.</p>
 ${group("actions", "Practical actions, by setting")}${group("", "Briefs")}${group("city", "City briefs")}${group("cooling", "Cooling options, by place")}
-<footer><p>This is a beta version. BeatTheHeat.Asia is being built by a group of organisations working on extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement.</p>
-<p>© BeatTheHeat.Asia contributors. Shared under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>: copy, adapt, translate and share, with credit and a link to beattheheat.asia. Sources cited remain their owners’. Generated ${TODAY}.</p></footer></main></body></html>
+<footer><p>This is a beta version. Common Shade is being built by a group of organisations working on extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement.</p>
+<p>© Common Shade contributors. Shared under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>: copy, adapt, translate and share, with credit and a link to commonshade.org. Sources cited remain their owners’. Generated ${TODAY}.</p></footer></main></body></html>
 `);
   return list;
 }

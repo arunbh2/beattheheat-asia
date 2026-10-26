@@ -1,81 +1,81 @@
-# BeatTheHeat.Asia
+# Common Shade
 
 > An interactive systems map of extreme heat in Asia: how heat ripples through 10 systems and 87 consequences, the 21 vicious cycles that make it worse, the 29 actions that could break them, and the 14 kinds of institution that hold those levers. Every claim links to its source.
 
-This is a beta version. BeatTheHeat.Asia is being built by a group of organisations working on extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement. Every claim links to its source; where the evidence is still emerging, the map says so.
+This is a beta version. Common Shade is being built by a group of organisations working on extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement. Every claim links to its source; where the evidence is still emerging, the map says so.
 
-Text, data, films and illustrations © BeatTheHeat.Asia contributors, shared under Creative Commons Attribution 4.0 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/): you may copy, adapt and translate them, with credit and a link to beattheheat.asia. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’ and are not covered.
+Text, data, films and illustrations © Common Shade contributors, shared under Creative Commons Attribution 4.0 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/): you may copy, adapt and translate them, with credit and a link to commonshade.org. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’ and are not covered.
 
-The interactive map is at https://beattheheat.asia/ and needs JavaScript. The pages below carry the same content as plain HTML.
+The interactive map is at https://commonshade.org/ and needs JavaScript. The pages below carry the same content as plain HTML.
 
 ## The map as text
 
-- [The web](https://beattheheat.asia/the-web/): The web of extreme heat: every consequence, system by system
-- [Vicious cycles](https://beattheheat.asia/loops/): Vicious cycles of extreme heat, and where they can be broken
-- [Actions](https://beattheheat.asia/actions/): Actions that break the vicious cycles of extreme heat
-- [Who is at risk](https://beattheheat.asia/who-is-at-risk/): Who extreme heat hits hardest
-- [Cooling options](https://beattheheat.asia/cooling-options/): Cooling options by place, and what keeps them working
-- [Worked plans](https://beattheheat.asia/worked-plans/): Worked heat action plans from Asia
-- [Glossary](https://beattheheat.asia/glossary/): Plain-language glossary of extreme heat
-- [Heat network](https://beattheheat.asia/heat-network/): Organisations working on extreme heat
-- [Cities](https://beattheheat.asia/cities/): Extreme heat in twelve Asian cities
-- [Heatwaves](https://beattheheat.asia/heatwaves/): Heatwaves that shaped South and Southeast Asia, 1998 to 2026
-- [Practical actions](https://beattheheat.asia/practical-actions/): Practical actions against extreme heat, by setting
-- [Paying for protection](https://beattheheat.asia/paying-for-protection/): Paying for heat protection: who pays, how money arrives, and whether it lasts
+- [The web](https://commonshade.org/the-web/): The web of extreme heat: every consequence, system by system
+- [Vicious cycles](https://commonshade.org/loops/): Vicious cycles of extreme heat, and where they can be broken
+- [Actions](https://commonshade.org/actions/): Actions that break the vicious cycles of extreme heat
+- [Who is at risk](https://commonshade.org/who-is-at-risk/): Who extreme heat hits hardest
+- [Cooling options](https://commonshade.org/cooling-options/): Cooling options by place, and what keeps them working
+- [Worked plans](https://commonshade.org/worked-plans/): Worked heat action plans from Asia
+- [Glossary](https://commonshade.org/glossary/): Plain-language glossary of extreme heat
+- [Heat network](https://commonshade.org/heat-network/): Organisations working on extreme heat
+- [Cities](https://commonshade.org/cities/): Extreme heat in twelve Asian cities
+- [Heatwaves](https://commonshade.org/heatwaves/): Heatwaves that shaped South and Southeast Asia, 1998 to 2026
+- [Practical actions](https://commonshade.org/practical-actions/): Practical actions against extreme heat, by setting
+- [Paying for protection](https://commonshade.org/paying-for-protection/): Paying for heat protection: who pays, how money arrives, and whether it lasts
 
 ## Cities
 
-- [Singapore](https://beattheheat.asia/cities/singapore/): Extreme heat in Singapore: plans, cycles and who is at work
-- [Bangkok](https://beattheheat.asia/cities/bangkok/): Extreme heat in Bangkok: plans, cycles and who is at work
-- [Hanoi](https://beattheheat.asia/cities/hanoi/): Extreme heat in Hanoi: plans, cycles and who is at work
-- [Manila](https://beattheheat.asia/cities/manila/): Extreme heat in Manila: plans, cycles and who is at work
-- [Jakarta](https://beattheheat.asia/cities/jakarta/): Extreme heat in Jakarta: plans, cycles and who is at work
-- [Delhi](https://beattheheat.asia/cities/delhi/): Extreme heat in Delhi: plans, cycles and who is at work
-- [Dhaka](https://beattheheat.asia/cities/dhaka/): Extreme heat in Dhaka: plans, cycles and who is at work
-- [Kathmandu](https://beattheheat.asia/cities/kathmandu/): Extreme heat in Kathmandu: plans, cycles and who is at work
-- [Mumbai](https://beattheheat.asia/cities/mumbai/): Extreme heat in Mumbai: plans, cycles and who is at work
-- [Ahmedabad](https://beattheheat.asia/cities/ahmedabad/): Extreme heat in Ahmedabad: plans, cycles and who is at work
-- [Colombo](https://beattheheat.asia/cities/colombo/): Extreme heat in Colombo: plans, cycles and who is at work
-- [Phnom Penh](https://beattheheat.asia/cities/phnompenh/): Extreme heat in Phnom Penh: plans, cycles and who is at work
+- [Singapore](https://commonshade.org/cities/singapore/): Extreme heat in Singapore: plans, cycles and who is at work
+- [Bangkok](https://commonshade.org/cities/bangkok/): Extreme heat in Bangkok: plans, cycles and who is at work
+- [Hanoi](https://commonshade.org/cities/hanoi/): Extreme heat in Hanoi: plans, cycles and who is at work
+- [Manila](https://commonshade.org/cities/manila/): Extreme heat in Manila: plans, cycles and who is at work
+- [Jakarta](https://commonshade.org/cities/jakarta/): Extreme heat in Jakarta: plans, cycles and who is at work
+- [Delhi](https://commonshade.org/cities/delhi/): Extreme heat in Delhi: plans, cycles and who is at work
+- [Dhaka](https://commonshade.org/cities/dhaka/): Extreme heat in Dhaka: plans, cycles and who is at work
+- [Kathmandu](https://commonshade.org/cities/kathmandu/): Extreme heat in Kathmandu: plans, cycles and who is at work
+- [Mumbai](https://commonshade.org/cities/mumbai/): Extreme heat in Mumbai: plans, cycles and who is at work
+- [Ahmedabad](https://commonshade.org/cities/ahmedabad/): Extreme heat in Ahmedabad: plans, cycles and who is at work
+- [Colombo](https://commonshade.org/cities/colombo/): Extreme heat in Colombo: plans, cycles and who is at work
+- [Phnom Penh](https://commonshade.org/cities/phnompenh/): Extreme heat in Phnom Penh: plans, cycles and who is at work
 
 ## Optional
 
-- [The whole map in one file](https://beattheheat.asia/llms-full.txt): every page above as plain text, for reading in one go
+- [The whole map in one file](https://commonshade.org/llms-full.txt): every page above as plain text, for reading in one go
 
 ## Printable one-pagers
 
-- [All one-pagers](https://beattheheat.asia/print/): single A4 briefs for officials, planners and journalists
-- [Using BeatTheHeat.Asia in a 90-minute workshop](https://beattheheat.asia/print/workshop-guide/)
-- [A 90-minute heat meeting for your community or workplace](https://beattheheat.asia/print/community-workshop-guide/)
-- [Four heats in a home](https://beattheheat.asia/print/four-heats/)
-- [Weather, work and the person](https://beattheheat.asia/print/weather-work-person/)
-- [Dry heat and humid heat](https://beattheheat.asia/print/dry-and-humid-heat/)
-- [Extreme heat in Singapore](https://beattheheat.asia/print/city-singapore/)
-- [Extreme heat in Bangkok](https://beattheheat.asia/print/city-bangkok/)
-- [Extreme heat in Hanoi](https://beattheheat.asia/print/city-hanoi/)
-- [Extreme heat in Manila](https://beattheheat.asia/print/city-manila/)
-- [Extreme heat in Jakarta](https://beattheheat.asia/print/city-jakarta/)
-- [Extreme heat in Delhi](https://beattheheat.asia/print/city-delhi/)
-- [Extreme heat in Dhaka](https://beattheheat.asia/print/city-dhaka/)
-- [Extreme heat in Kathmandu](https://beattheheat.asia/print/city-kathmandu/)
-- [Extreme heat in Mumbai](https://beattheheat.asia/print/city-mumbai/)
-- [Extreme heat in Ahmedabad](https://beattheheat.asia/print/city-ahmedabad/)
-- [Extreme heat in Colombo](https://beattheheat.asia/print/city-colombo/)
-- [Extreme heat in Phnom Penh](https://beattheheat.asia/print/city-phnompenh/)
-- [Lessons from Asia’s heatwaves, 1998–2026](https://beattheheat.asia/print/heatwaves/)
-- [Paying for heat protection](https://beattheheat.asia/print/paying-for-protection/)
-- [Practical actions: Outdoor and hot workplaces (1 of 2)](https://beattheheat.asia/print/actions-work/)
-- [Practical actions: Outdoor and hot workplaces (2 of 2)](https://beattheheat.asia/print/actions-work-2/)
-- [Practical actions: Homes](https://beattheheat.asia/print/actions-homes/)
-- [Practical actions: Schools and childcare](https://beattheheat.asia/print/actions-schools/)
-- [Practical actions: Health facilities](https://beattheheat.asia/print/actions-clinics/)
-- [Practical actions: Markets and neighbourhoods](https://beattheheat.asia/print/actions-neighbourhoods/)
-- [Practical actions: Before summer: for municipalities](https://beattheheat.asia/print/actions-summer/)
-- [Cooling options: Homes](https://beattheheat.asia/print/cooling-homes/)
-- [Cooling options: Outdoor work](https://beattheheat.asia/print/cooling-work/)
-- [Cooling options: Schools and childcare](https://beattheheat.asia/print/cooling-schools/)
-- [Cooling options: Markets and street vending](https://beattheheat.asia/print/cooling-markets/)
-- [Cooling options: Bus stops and queues](https://beattheheat.asia/print/cooling-waiting/)
-- [Cooling options: Heat and waterlogging](https://beattheheat.asia/print/cooling-flood/)
-- [Cooling options: Greening where water is short](https://beattheheat.asia/print/cooling-dry/)
-- [Cooling options: Making it last](https://beattheheat.asia/print/cooling-system/)
+- [All one-pagers](https://commonshade.org/print/): single A4 briefs for officials, planners and journalists
+- [Using Common Shade in a 90-minute workshop](https://commonshade.org/print/workshop-guide/)
+- [A 90-minute heat meeting for your community or workplace](https://commonshade.org/print/community-workshop-guide/)
+- [Four heats in a home](https://commonshade.org/print/four-heats/)
+- [Weather, work and the person](https://commonshade.org/print/weather-work-person/)
+- [Dry heat and humid heat](https://commonshade.org/print/dry-and-humid-heat/)
+- [Extreme heat in Singapore](https://commonshade.org/print/city-singapore/)
+- [Extreme heat in Bangkok](https://commonshade.org/print/city-bangkok/)
+- [Extreme heat in Hanoi](https://commonshade.org/print/city-hanoi/)
+- [Extreme heat in Manila](https://commonshade.org/print/city-manila/)
+- [Extreme heat in Jakarta](https://commonshade.org/print/city-jakarta/)
+- [Extreme heat in Delhi](https://commonshade.org/print/city-delhi/)
+- [Extreme heat in Dhaka](https://commonshade.org/print/city-dhaka/)
+- [Extreme heat in Kathmandu](https://commonshade.org/print/city-kathmandu/)
+- [Extreme heat in Mumbai](https://commonshade.org/print/city-mumbai/)
+- [Extreme heat in Ahmedabad](https://commonshade.org/print/city-ahmedabad/)
+- [Extreme heat in Colombo](https://commonshade.org/print/city-colombo/)
+- [Extreme heat in Phnom Penh](https://commonshade.org/print/city-phnompenh/)
+- [Lessons from Asia’s heatwaves, 1998–2026](https://commonshade.org/print/heatwaves/)
+- [Paying for heat protection](https://commonshade.org/print/paying-for-protection/)
+- [Practical actions: Outdoor and hot workplaces (1 of 2)](https://commonshade.org/print/actions-work/)
+- [Practical actions: Outdoor and hot workplaces (2 of 2)](https://commonshade.org/print/actions-work-2/)
+- [Practical actions: Homes](https://commonshade.org/print/actions-homes/)
+- [Practical actions: Schools and childcare](https://commonshade.org/print/actions-schools/)
+- [Practical actions: Health facilities](https://commonshade.org/print/actions-clinics/)
+- [Practical actions: Markets and neighbourhoods](https://commonshade.org/print/actions-neighbourhoods/)
+- [Practical actions: Before summer: for municipalities](https://commonshade.org/print/actions-summer/)
+- [Cooling options: Homes](https://commonshade.org/print/cooling-homes/)
+- [Cooling options: Outdoor work](https://commonshade.org/print/cooling-work/)
+- [Cooling options: Schools and childcare](https://commonshade.org/print/cooling-schools/)
+- [Cooling options: Markets and street vending](https://commonshade.org/print/cooling-markets/)
+- [Cooling options: Bus stops and queues](https://commonshade.org/print/cooling-waiting/)
+- [Cooling options: Heat and waterlogging](https://commonshade.org/print/cooling-flood/)
+- [Cooling options: Greening where water is short](https://commonshade.org/print/cooling-dry/)
+- [Cooling options: Making it last](https://commonshade.org/print/cooling-system/)

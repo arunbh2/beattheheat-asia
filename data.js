@@ -1460,7 +1460,7 @@ const ORGANISATIONS = [
   { id: "hera", role: "global", name: "Heat Resilience Action (HERA), formerly Climate Resilience for All", url: "https://heranow.org/resources/as-extreme-heat-threats-grow-can-heat-insurance-offer-protection/",
     does: "Works on extreme heat with a focus on women and low-income communities. With SEWA and Swiss Re, it combined insurance payouts and cash for lost income after India’s 2024 heatwaves.", levers: ["heatcash", "hap"] },
   { id: "coolcoalition", role: "global", name: "UNEP Cool Coalition", url: "https://coolcoalition.org",
-    does: "A global network for clean, efficient cooling and cooler cities. It runs its own city initiative, also called Beat the Heat, which is separate from this site.", levers: ["cleancool", "coolbydesign", "greencity"] },
+    does: "A global network for clean, efficient cooling and cooler cities. With the COP30 Presidency, it runs Beat the Heat, an initiative supporting cities in the Global South with heat assessments and cooling action.", levers: ["cleancool", "coolbydesign", "greencity"] },
   { id: "climatecentre", role: "global", name: "Red Cross Red Crescent Climate Centre", url: "https://preparecenter.org/resource/heatwave-guide-for-cities",
     does: "Wrote the Heatwave Guide for Cities with more than 25 partners, covering how cities prepare for, respond to and learn from heatwaves.", levers: ["hap", "coolingcentres"] },
   { id: "seforall", role: "global", name: "Sustainable Energy for All", url: "https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-global-access-to-cooling-gaps-2023",

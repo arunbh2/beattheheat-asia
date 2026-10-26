@@ -1,4 +1,4 @@
-/* BeatTheHeat.Asia: Find your way in (part 35 of data.js).
+/* Common Shade: Find your way in (part 35 of data.js).
    Draws the guide on the home page (#start) and on /guide/: two questions (why you came, how long you have) give a
    short path of stops, ticked off as you go; the toolkit shows how the hands-on tools follow one another; a small
    welcome, on a first visit to the home page only, points to the guide. Everything stays in this browser. */

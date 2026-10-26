@@ -10,7 +10,7 @@
    and cited. They are generated: edit data.js, not the pages.
    ========================================================== */
 const fs = require("fs"), path = require("path"), vm = require("vm");
-const ROOT = path.join(__dirname, ".."), SITE = "https://beattheheat.asia";
+const ROOT = path.join(__dirname, ".."), SITE = "https://commonshade.org";
 const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + `
 ;Object.assign(this, { SYSTEMS, CONSEQUENCES, LINKS, LOOP_GROUPS, LOOPS, INSTITUTIONS, LEVERS, LOOP_PLACES, EVIDENCE, ORG_ROLES,
@@ -44,13 +44,13 @@ const PAGES = [
   { slug: "practical-actions", title: "Practical actions against extreme heat, by setting", short: "Practical actions" },
   { slug: "paying-for-protection", title: "Paying for heat protection: who pays, how money arrives, and whether it lasts", short: "Paying for protection" }
 ];
-const LICENCE = "Text, data, films and illustrations © BeatTheHeat.Asia contributors, shared under Creative Commons Attribution 4.0 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/): you may copy, adapt and translate them, with credit and a link to beattheheat.asia. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’ and are not covered.";
-const DISCLAIMER = "This is a beta version. BeatTheHeat.Asia is being built by a group of organisations working on extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement. Every claim links to its source; where the evidence is still emerging, the map says so.";
+const LICENCE = "Text, data, films and illustrations © Common Shade contributors, shared under Creative Commons Attribution 4.0 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/): you may copy, adapt and translate them, with credit and a link to commonshade.org. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’ and are not covered.";
+const DISCLAIMER = "This is a beta version. Common Shade is being built by a group of organisations working on extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement. Every claim links to its source; where the evidence is still emerging, the map says so.";
 
 function page(p, intro, body, extraLd) {
   const url = `${SITE}/${p.slug}/`;
-  const ld = [{ "@context": "https://schema.org", "@type": "WebPage", name: p.title, url, inLanguage: "en", isPartOf: { "@type": "WebSite", name: "BeatTheHeat.Asia", url: SITE + "/" }, dateModified: TODAY, description: intro, license: "https://creativecommons.org/licenses/by/4.0/", copyrightNotice: "© BeatTheHeat.Asia contributors" },
-    { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "BeatTheHeat.Asia", item: SITE + "/" }, ...(p.parent ? [{ "@type": "ListItem", position: 2, name: p.parent.short, item: `${SITE}/${p.parent.slug}/` }] : []),
+  const ld = [{ "@context": "https://schema.org", "@type": "WebPage", name: p.title, url, inLanguage: "en", isPartOf: { "@type": "WebSite", name: "Common Shade", url: SITE + "/" }, dateModified: TODAY, description: intro, license: "https://creativecommons.org/licenses/by/4.0/", copyrightNotice: "© Common Shade contributors" },
+    { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Common Shade", item: SITE + "/" }, ...(p.parent ? [{ "@type": "ListItem", position: 2, name: p.parent.short, item: `${SITE}/${p.parent.slug}/` }] : []),
       { "@type": "ListItem", position: p.parent ? 3 : 2, name: p.short, item: url }] }]
     .concat(extraLd || []);
   return `<!DOCTYPE html>
@@ -58,18 +58,18 @@ function page(p, intro, body, extraLd) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>${esc(p.title)} | BeatTheHeat.Asia</title>
+  <title>${esc(p.title)} | Common Shade</title>
   <meta name="description" content="${esc(intro)}">
   <link rel="canonical" href="${url}">
   <link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
   <meta property="og:type" content="article">
-  <meta property="og:site_name" content="BeatTheHeat.Asia">
+  <meta property="og:site_name" content="Common Shade">
   <meta property="og:url" content="${url}">
   <meta property="og:title" content="${esc(p.title)}">
   <meta property="og:description" content="${esc(intro)}">
   <meta property="og:image" content="${SITE}/images/social-share-2.jpg">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23F26430'/%3E%3C/svg%3E">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2316202B'/%3E%3Cpath d='M5 14 Q16 4 27 14' fill='none' stroke='%23F26430' stroke-width='4.5' stroke-linecap='round'/%3E%3Cpath d='M9 13 V27 M23 13 V27' stroke='%23F6E7D7' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E">
   <link rel="alternate" type="text/plain" href="${SITE}/llms-full.txt" title="The whole map as plain text">
   <style>
     body{margin:0;font-family:Inter,"Segoe UI",Roboto,Arial,sans-serif;color:#16202B;background:#FAF7F2;line-height:1.55}
@@ -90,7 +90,7 @@ function page(p, intro, body, extraLd) {
 ${ld.map(x => `  <script type="application/ld+json">${JSON.stringify(x)}</script>`).join("\n")}
 </head>
 <body>
-  <header><a class="home" href="/">BEAT THE HEAT</a>
+  <header><a class="home" href="/">COMMON SHADE</a>
     <nav aria-label="Map as text">${PAGES.map(q => `<a href="/${q.slug}/"${q.slug === p.slug ? ' aria-current="page"' : ""}>${esc(q.short)}</a>`).join("")}</nav></header>
   <main>
     <h1>${esc(p.title)}</h1>
@@ -98,7 +98,7 @@ ${ld.map(x => `  <script type="application/ld+json">${JSON.stringify(x)}</script
     <a class="cta" href="/">Open the interactive map</a>
 ${body}
   </main>
-  <footer><p>${esc(DISCLAIMER)}</p><p>Text, data, films and illustrations © BeatTheHeat.Asia contributors, shared under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>: copy, adapt and translate them, with credit and a link to beattheheat.asia. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’.</p><p>Generated from the map’s data on ${TODAY}. The whole map as plain text: <a href="/llms-full.txt">llms-full.txt</a>.</p></footer>
+  <footer><p>${esc(DISCLAIMER)}</p><p>Text, data, films and illustrations © Common Shade contributors, shared under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>: copy, adapt and translate them, with credit and a link to commonshade.org. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’.</p><p>Generated from the map’s data on ${TODAY}. The whole map as plain text: <a href="/llms-full.txt">llms-full.txt</a>.</p></footer>
 </body>
 </html>
 `;
@@ -373,7 +373,7 @@ const CITY_PAGES = [];
 
 // ---- llms.txt: a short guide for AI systems; llms-full.txt: the whole map as text ----
 const about = `> An interactive systems map of extreme heat in Asia: how heat ripples through ${D.SYSTEMS.length} systems and ${D.CONSEQUENCES.length} consequences, the ${D.LOOPS.length} vicious cycles that make it worse, the ${D.LEVERS.length} actions that could break them, and the ${D.INSTITUTIONS.length} kinds of institution that hold those levers. Every claim links to its source.`;
-fs.writeFileSync(path.join(ROOT, "llms.txt"), `# BeatTheHeat.Asia
+fs.writeFileSync(path.join(ROOT, "llms.txt"), `# Common Shade
 
 ${about}
 
@@ -395,7 +395,7 @@ ${CITY_PAGES.map(p => `- [${p.short}](${SITE}/${p.slug}/): ${p.title}`).join("\n
 
 - [The whole map in one file](${SITE}/llms-full.txt): every page above as plain text, for reading in one go
 `);
-fs.writeFileSync(path.join(ROOT, "llms-full.txt"), `# BeatTheHeat.Asia: the whole map as text\n\n${about}\n\n${DISCLAIMER}\n\n${LICENCE}\n\nInteractive map: ${SITE}/ · Generated ${TODAY}\n\n${md.join("\n\n")}\n`);
+fs.writeFileSync(path.join(ROOT, "llms-full.txt"), `# Common Shade: the whole map as text\n\n${about}\n\n${DISCLAIMER}\n\n${LICENCE}\n\nInteractive map: ${SITE}/ · Generated ${TODAY}\n\n${md.join("\n\n")}\n`);
 
 // ---- sitemap.xml and robots.txt ----
 fs.writeFileSync(path.join(ROOT, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>
@@ -411,7 +411,7 @@ ${[...PAGES, ...CITY_PAGES].map(p => `  <url><loc>${SITE}/${p.slug}/</loc><lastm
 </urlset>
 `);
 const BOTS = ["Googlebot", "Bingbot", "Google-Extended", "GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot", "Claude-User", "PerplexityBot", "Perplexity-User", "Applebot", "Applebot-Extended", "CCBot", "DuckDuckBot", "Meta-ExternalAgent"];
-fs.writeFileSync(path.join(ROOT, "robots.txt"), `# BeatTheHeat.Asia welcomes search engines and AI systems, for search, answers and training.
+fs.writeFileSync(path.join(ROOT, "robots.txt"), `# Common Shade welcomes search engines and AI systems, for search, answers and training.
 # The pages under /the-web/, /loops/, /actions/ and the others carry the map's content as plain HTML;
 # /llms.txt and /llms-full.txt describe the site for AI systems.
 

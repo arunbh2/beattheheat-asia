@@ -1,4 +1,4 @@
-/* BeatTheHeat.Asia: the "Heat in the news, and new research" page (/news/).
+/* Common Shade: the "Heat in the news, and new research" page (/news/).
    News: feeds/news.json, refreshed every six hours by .github/workflows/heat-news.yml from the GDELT Project and
    regional news outlets' RSS feeds, read from GitHub so a new headline shows without a site rebuild. Research: Europe PMC, searched live. */
 (function () {
