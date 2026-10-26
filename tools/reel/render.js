@@ -7,7 +7,7 @@ const path = require("path"), fs = require("fs");
 const FPS = 60, here = __dirname;
 (async () => {
   const args = process.argv.slice(2), si = args.indexOf("--stills");
-  const out = path.resolve(args[0] && !args[0].startsWith("--") ? args[0] : path.join(here, "../../media/social/beattheheat-reel-20s.mp4"));
+  const out = path.resolve(args[0] && !args[0].startsWith("--") ? args[0] : path.join(here, "../../media/social/commonshade-reel-20s.mp4"));
   const b = await chromium.launch(), pg = await b.newPage({ viewport: { width: 1080, height: 1350 }, deviceScaleFactor: 1 });
   await pg.goto("file://" + path.join(here, "reel.html") + "?render=1"); await pg.evaluate(() => window.ready);
   const frame = async t => Buffer.from((await pg.evaluate(tt => { render(tt); return document.getElementById("c").toDataURL("image/png"); }, t)).split(",")[1], "base64");

@@ -23,6 +23,19 @@ It is a plain website. There is nothing to install and nothing to "build". GitHu
 
 ---
 
+## The name: Common Shade (formerly BeatTheHeat.Asia)
+
+The site was renamed in October 2026 so it cannot be mistaken for the Beat the Heat initiative that UNEP's Cool Coalition runs with the COP30 Presidency. The main address is **commonshade.org**; commonshade.asia and beattheheat.asia should forward to it. The last version under the old name is kept as the GitHub release `beattheheat-asia-final`.
+
+On the day the new address goes live:
+1. Change `CNAME` to `commonshade.org` (one line, nothing else).
+2. At the domain registrar for commonshade.org, add four A records for the bare domain (185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153) and a CNAME record for `www` pointing to `arunbh2.github.io`.
+3. In GitHub, Settings → Pages: the custom domain then reads commonshade.org; tick **Enforce HTTPS** once it is offered. Add the domain under your account's Settings → Pages → **Verified domains** so nobody else can claim it.
+4. At the registrars for commonshade.asia and beattheheat.asia, set up a permanent (301) forward to https://commonshade.org, keeping the path if the registrar allows it. Keep beattheheat.asia registered for at least a year.
+5. In Google Search Console, add commonshade.org and use **Change of address** on the old property.
+
+The analytics code (`SITE_ANALYTICS` in `data.js`) keeps its old account name on purpose, so visitor numbers stay continuous; the GitHub repository can keep its name too.
+
 ## What is in this folder
 
 | File | What it does | Do you need to edit it? |
@@ -225,7 +238,7 @@ Text, data, films and illustrations: **CC BY 4.0** (see `LICENSE`). Code: **MIT*
 
 ## The 20-second social reel (`tools/reel/`)
 
-`media/social/beattheheat-reel-20s.mp4` is a 20-second motion piece for LinkedIn: 1080×1350 (4:5), 60 fps, H.264 with an AAC soundtrack at −16 LUFS. `beattheheat-reel-20s-cover.jpg` is its thumbnail.
+`media/social/commonshade-reel-20s.mp4` is a 20-second motion piece for LinkedIn: 1080×1350 (4:5), 60 fps, H.264 with an AAC soundtrack at −16 LUFS. `commonshade-reel-20s-cover.jpg` is its thumbnail.
 
 It is drawn frame by frame in `tools/reel/reel.html` from the map's own data: the ten systems, the consequences, the vicious cycles, the actions, the poverty–heat trap and the five tools. It runs in seven scenes:
 1. Extreme heat.

@@ -299,8 +299,13 @@ function render(t) {
   else {
     bg(C.canvas);
     const dk = spring(p(t, 17.75, 18.25));
-    circle(540, 470, 70 * (1 + .04 * Math.sin(t * 5)), C.orange);
-    x.save(); x.translate(540, 470); x.rotate(t * .8); x.setLineDash([10, 10]); circle(0, 0, 90 * dk, null, C.ink, 4); x.restore();
+    // the Common Shade mark: a shade held up on two posts; the canopy draws itself, then the posts rise
+    const pk = eo(p(t, 17.95, 18.45)), bob = 3 * Math.sin(t * 3);
+    x.save(); x.translate(0, bob); x.lineCap = "round";
+    x.strokeStyle = C.ink; x.lineWidth = 18; x.beginPath();
+    x.moveTo(445, 452); x.lineTo(445, 452 + 95 * pk); x.moveTo(635, 452); x.lineTo(635, 452 + 95 * pk); if (pk > 0) x.stroke();
+    x.strokeStyle = C.orange; x.lineWidth = 34; x.setLineDash([520 * dk, 1000]); x.beginPath();
+    x.moveTo(392, 470); x.quadraticCurveTo(540, 330, 688, 470); x.stroke(); x.setLineDash([]); x.restore();
     letters("COMMON SHADE", 540, 730, 150, ANTON(150), C.ink, t, 17.85, .045, .5, "center");
     const url = "commonshade.org", n = Math.floor(url.length * p(t, 18.35, 18.85)), shown = url.slice(0, n), uw = width(url, INTER(600, 50));
     text(shown, 540 - uw / 2, 820, INTER(600, 50), C.ink); if (t > 18.3 && t < 19.3 && Math.floor(t * 4) % 2 === 0) { x.fillStyle = C.orange; x.fillRect(540 - uw / 2 + width(shown, INTER(600, 50)) + 6, 780, 5, 50); }

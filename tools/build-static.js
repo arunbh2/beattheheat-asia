@@ -377,6 +377,8 @@ fs.writeFileSync(path.join(ROOT, "llms.txt"), `# Common Shade
 
 ${about}
 
+Common Shade was called BeatTheHeat.Asia (beattheheat.asia) until 2026. It is independent of the Beat the Heat initiative that UNEP's Cool Coalition runs with the COP30 Presidency.
+
 ${DISCLAIMER}
 
 ${LICENCE}
