@@ -460,11 +460,13 @@ Source: Air Quality News, 2026: heat-driven ozone and health in India https://ai
 
 #### Risks in pregnancy
 
-Each 1 °C rise in temperature raises the odds of preterm birth by about 5%, and a heatwave by about 16%. Stillbirths rise too. Women who keep working outdoors or fetching water while pregnant carry the most risk.
+Each 1 °C rise in temperature raises the odds of preterm birth by about 5%, and a heatwave by about 16%. Stillbirths rise too. Women who keep working outdoors or fetching water while pregnant carry the most risk. In Bangladesh, the extreme-heat days a pregnancy passes through rose from about 4 for births in 2018 to about 30 for births in 2024.
 
 Leads to: Health systems overwhelmed (Complications add to the load on maternity care.); Babies and young children at risk (Babies born early or small are more fragile in the heat.)
 
 Source: Chersich et al., BMJ, 2020: high temperatures in pregnancy and preterm birth, low birth weight and stillbirth https://heathealth.info/resources/associations-between-high-temperatures-in-pregnancy-and-risk-of-preterm-birth-low-birth-weight-and-stillbirths-systematic-review-and-meta-analysis/
+
+Source: Preprint, not yet peer reviewed: prenatal extreme heat and newborn deaths in Bangladesh, 2015–2025 (medRxiv, 2026) https://doi.org/10.64898/2026.10.23.26366352
 
 #### Babies and young children at risk
 
@@ -3248,6 +3250,10 @@ Where it has been tried (Measured in a study): Outside Asia, at a sugar producer
 
 Where it has been tried (Reported, not evaluated): The same programme was estimated to return about $1.60 for every $1 invested by its third year. (World Economic Forum and BCG, Workforce Heat Resilience: An Actionable Framework to Close the Execution Gap, 2026, https://www.weforum.org/publications/workforce-heat-resilience-an-actionable-framework-to-close-the-execution-gap/)
 
+Where it has been tried (Reported, not evaluated): In October 2026, the Philippines’ Department of Labor and Employment said it was preparing heat safety measures for delivery riders with platform operators, using heat-index levels to guide breaks and when work stops. Its 2023 labour advisory already asks employers for adjusted rest breaks, free drinking water and ventilation. (Philippine Daily Inquirer, October 2026, https://newsinfo.inquirer.net/2331096/dole-orders-safety-measures-for-riders-amid-extreme-heat)
+
+Where it has been tried (Measured in a study): Among 287 sugarcane cutters in Nakhon Sawan, Thailand, each 1 °C rise in heat stress (WBGT, measured in the fields over a whole shift) cut output by about 9 stalks an hour, from an average of 387. (Scandinavian Journal of Work, Environment & Health, 2026, https://doi.org/10.5271/sjweh.4336)
+
 #### Shade and water on work routes
 
 Evidence: Reported, not evaluated · Before the season
@@ -3716,6 +3722,8 @@ Evidence: Measured in a study · Over years
 
 - Works only if: Water is secured before planting; Someone is paid to care for them; Greening doesn’t push residents out.
 
+Where it has been tried (Simulation or test): Keep wetlands as well as trees: a model of the 2023 heatwave in Cambodia’s lower Mekong delta found wetlands cooled the air by about 2–3 °C over wet areas and beyond, so draining them adds to heat. (Frontiers in Climate, 2026 (model study), https://doi.org/10.3389/fclim.2026.1843008)
+
 ### Before summer: for municipalities
 
 The decisions a city or district makes before the first heatwave decide what happens during it.
@@ -3779,6 +3787,8 @@ Evidence: Measured in a study · Before the season
 - What could stop it: Mapping from an office, without the people at risk.
 
 - Works only if: Residents and workers take part; The map changes what gets built.
+
+Where it has been tried (Measured in a study): Mapping matters because heat stress is not rising evenly: in Bangladesh the heat index rose fastest, about 0.67 °C a decade over 1981–2023, in 14 north-western districts of Rajshahi and Rangpur, where humidity rose too. (Discover Hazards, 2026, https://doi.org/10.1007/s44475-026-00075-8)
 
 #### Get the assets ready before the heat
 

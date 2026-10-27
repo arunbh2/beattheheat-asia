@@ -29,11 +29,12 @@ async function europePMC(from) {
     url: x.doi ? "https://doi.org/" + x.doi : `https://europepmc.org/article/${x.source}/${x.id}`,
     firstAuthor: (x.authorString || "").split(",")[0].trim(), abstract: clean(x.abstractText) }));
 }
-// 2. OpenAlex, an open index of research, when Europe PMC does not answer
+// 2. OpenAlex, an open index of research, when Europe PMC does not answer (life-sciences papers on crops,
+//    livestock and marine heat are left out, as the page is about people)
 async function openAlex(from) {
   const titles = ["heatwave", "heat wave", "extreme heat", "heat stress", "heat-related", "heat exposure", "heat illness", "heatstroke", "heat stroke"];
   const places = ["India", "Bangladesh", "Nepal", "Sri Lanka", "Pakistan", "Cambodia", "Indonesia", "Philippines", "Singapore", "Thailand", "Vietnam", "Malaysia", "Myanmar", "South Asia", "Southeast Asia"];
-  const url = "https://api.openalex.org/works?per-page=60&sort=publication_date:desc&filter=" + encodeURIComponent(`from_publication_date:${from},title.search:${titles.map(t => t.includes(" ") ? `"${t}"` : t).join("|")}`) +
+  const url = "https://api.openalex.org/works?per-page=60&sort=publication_date:desc&filter=" + encodeURIComponent(`from_publication_date:${from},primary_topic.domain.id:!1,title.search:${titles.map(t => t.includes(" ") ? `"${t}"` : t).join("|")}`) +
     "&search=" + encodeURIComponent(places.map(p => p.includes(" ") ? `"${p}"` : p).join(" OR ")) + "&mailto=hello@beattheheat.asia";
   const j = await getJSON(url);
   const abs = inv => { if (!inv) return ""; const w = []; for (const [k, ps] of Object.entries(inv)) ps.forEach(p => { w[p] = k; }); return w.join(" "); };
