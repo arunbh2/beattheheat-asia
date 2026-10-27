@@ -3842,6 +3842,88 @@ Evidence: Measured in a study · Before the season
 
 Where it has been tried (Simulation or test): In Dhaka, the Red Cross and Red Crescent tested heatwave triggers in a 2021 simulation and gave cash grants of BDT 4,500; most recipients spent it on food, and many on medical costs. In April 2024 the Bangladesh Red Crescent activated its heatwave early action protocol for real. (Anticipation Hub: the story of heatwave anticipatory action in Dhaka, https://www.anticipation-hub.org/news/the-story-of-heatwave-anticipatory-action-in-dhaka-bangladesh)
 
+### What could a heat-resilient market look like?
+
+Illustrative setting, not a survey of a specific place. These are possibilities to explore, not a guarantee of protection. What works depends on local conditions and the people using the space.
+
+#### Stall canopy: Shade where people trade and wait
+
+- What could help: Coverings over stalls, and over the walkways between them, can keep direct sun off vendors and shoppers. The right kind depends on the space: fixed or movable, one stall or shared along a row, and how air moves underneath.
+
+- What makes it work: Agree where it can go, and keep walkways and fire access clear. Vendors should help design it, nobody should lose their pitch to make room, and someone must repair, replace and storm-proof it.
+
+- People to involve (suggested roles): Vendors and their association; The market manager or municipal authority; Whoever installs and maintains it
+
+- Evidence (Measured in a study): Of 721 Delhi street vendors surveyed in April and May 2024, 80% saw fewer customers during heatwaves and 49% lost income. (Greenpeace India and National Hawkers Federation, 2024, https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/)
+
+- Evidence (Reported, not evaluated): Young women vendors in Ahmedabad asked for shared shade sails covering about ten sellers each, and a licensed, fixed place to sell. (AIDMI, southasiadisasters.net Issue 228, 2026, https://www.preventionweb.net/publication/documents-and-publications/small-heat-resilience-measures-big-impact-small-towns-and)
+
+- Limits: The survey describes the problem shade responds to in one city; it does not measure what a canopy changes.
+
+#### Drinking-water point: Water people can reach and use
+
+- What could help: A drinking-water point close to where people trade means vendors need not leave their stall, or spend their earnings, to drink. A tap stand, a refill point or a cooler topped up through the day can all play this role.
+
+- What makes it work: Someone has to keep it supplied, clean and tested, and fix it quickly when it breaks. It should be free or cheap, reachable by people using wheelchairs, and open during trading hours.
+
+- People to involve (suggested roles): The water utility or municipality; The market committee; A named caretaker; Vendors, who know where it is needed
+
+- Evidence (Reported, not evaluated): In Dhaka, the city water utility worked with local NGOs to bring 3,000 water connections into informal settlements through mini-networks joined to the city system. (Agence Française de Développement: improving access to drinking water in Dhaka’s informal settlements, https://www.afd.fr/en/projects/improve-access-drinking-water-dhakas-informal-settlements)
+
+- Limits: These are household connections in informal settlements, not a market water point; they show a utility and local groups extending supply, not use or health effects.
+
+#### Resting place: A place to pause and recover
+
+- What could help: A shaded bench or rest point, with water nearby, gives people somewhere to cool down in the hottest hours. In a market it can serve vendors, porters and shoppers, including older people and people out with children.
+
+- What makes it work: A rest place only helps if people can afford to use it. Vendors may need someone to mind the stall, and porters paid by the load lose money when they stop: breaks and income protection matter as much as the bench.
+
+- People to involve (suggested roles): Market management; Vendor and worker associations; Employers of porters and loaders; Local health services
+
+- Evidence (Reported, not evaluated): The Migrants Resilience Collaborative reported that more than 27,000 workers used its cooling stations in India, Nepal and Bangladesh in one summer. These are the programme’s own figures. (People’s Courage International, 2025, https://www.peoplescourageinternational.org/pdfs/Emergency%20response%20to%20heat%20wave%20crisis%20in%20South%20and%20Southeast%20Asia.pdf)
+
+- Evidence (Measured in a study): In a survey of informal workers in Bangkok, nearly 80% had cut their hours because of heat. (WIEGO and HomeNet Thailand, 2025, https://www.wiego.org/wp-content/uploads/2025/10/WIEGO-Policy-Brief-33-Climate-Change-and-Heat-Stress.pdf)
+
+- Limits: These are worker cooling stations and a survey of working hours, not market benches; health and income effects of the stations have not been independently measured.
+
+#### Nearby building roof: A cooler roof next door
+
+- What could help: Vendors often store goods, eat or live in the buildings around a market. A reflective roof coating, or shade above the roof, can reduce how much heat passes into the rooms below.
+
+- What makes it work: Check the roof type, fire safety, ventilation and who owns the building first. Tenants should not face higher rent for the improvement, someone has to pay to recoat it, and heat also comes in through walls and windows.
+
+- People to involve (suggested roles): Building owners and tenants; The municipality; Community groups or contractors who apply and maintain coatings; Funders
+
+- Evidence (Measured in a study): In a two-year trial in Burkina Faso, cool roofs lowered indoor temperatures by 1.2–1.7 °C and residents’ heart rates fell; a trial in about 400 Ahmedabad homes began in 2025. (Reuters, via South China Morning Post, 2025, https://www.scmp.com/news/asia/south-asia/article/3301810/indian-slums-get-cool-roofs-beat-summer-heat)
+
+- Limits: These are homes, not shops or storerooms, and results may not transfer; roof type and local conditions decide what is possible.
+
+#### Tree: Shade that grows
+
+- What could help: Trees can shade a market’s edges and resting places for decades. A young tree gives little shade at first, so planting now is part of a longer plan, alongside shade people can use this season.
+
+- What makes it work: Secure water and growing space before planting, and pay someone to care for the trees. Plan who benefits: greening should not push vendors or residents out of the place it improves.
+
+- People to involve (suggested roles): The municipality’s parks or horticulture team; The water department; Market users; Local groups who can care for trees
+
+- Evidence (Measured in a study): In one Berlin park more than 500 of 870 new trees died within ten years despite watering: count trees that survive, not saplings planted. (Hansen et al., chapter 10 in Nature-Based Solutions for Cities, 2023, https://doi.org/10.4337/9781800376762)
+
+- Limits: A European park, not an Asian market: it shows why water and care decide survival, not how much shade a tree gives.
+
+#### Vendor: Protection that fits a working day
+
+- What could help: Vendors already adapt: many trade early and late and rest at midday. Support can build on that, with trading hours that allow it, a small grant for shade or water storage, and cash that arrives when heat makes trading impossible.
+
+- What makes it work: Ask vendors first. Their hours, earnings, transport and care for children shape what they can use. Support works when money arrives quickly and vendors have a say through their associations.
+
+- People to involve (suggested roles): Vendors and their associations; The municipality and market management; Microfinance groups or insurers; Social protection agencies
+
+- Evidence (Reported, not evaluated): In Rewa, Madhya Pradesh, a ₹5,000 grant let a fruit and vegetable seller buy a large umbrella for himself and his produce, and a way to keep drinking water on his cart. (AIDMI, southasiadisasters.net Issue 228, 2026, https://www.preventionweb.net/publication/documents-and-publications/small-heat-resilience-measures-big-impact-small-towns-and)
+
+- Evidence (Reported, not evaluated): Young women vendors in Ahmedabad already sell from 8 to 12 and from 4 to 8, resting through the hottest hours. (AIDMI, southasiadisasters.net Issue 228, 2026, https://www.preventionweb.net/publication/documents-and-publications/small-heat-resilience-measures-big-impact-small-towns-and)
+
+- Limits: Individual accounts gathered by one organisation in Indian towns and cities: reported experience, not an evaluation.
+
 ### A week in the heat: an exercise
 
 Follow one worker’s money through a heatwave week, build protection, then test it. A measure counts only when the person can actually use it.

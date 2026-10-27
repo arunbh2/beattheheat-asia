@@ -50,14 +50,11 @@ The analytics code (`SITE_ANALYTICS` in `data.js`) keeps its old account name on
 | `media/glossary/` | The 30-second glossary explainers: `<term id>.mp4` plus a `.jpg` cover with the same name. Add `video` and `length` to that term in part 14 of `data.js` and a play button appears | To add the next explainers |
 | `media/loops/` and `media/films/` | Short films about a vicious cycle (named after the loop's id, e.g. `protection.mp4`) or a section (e.g. `heat-network-gaps.mp4`), each with a `.jpg` cover. Add `video` and `length` to the loop in part 4 of `data.js`, or an entry in part 16 (`SECTION_FILMS`, e.g. `same-heatwave-different-barriers.mp4`) | To add more films |
 | `?v=` on `styles.css`, `data.js` and `script.js` in `index.html` | A version number that makes browsers fetch fresh copies instead of old cached ones | Raise the number whenever you change any of those three files |
-| `media/day/scene.*` | The AI-generated rooftop footage behind the “A day in a heatwave” heading (`scene.mp4`, `scene.webm`, `scene.jpg` still), with a 1-second crossfade so it loops smoothly. It loads only as visitors approach the section, carries an “AI-generated footage, illustrative” note, and has its own pause button | Keep that note if you replace it with any AI-generated or stock footage |
-| `media/loops-break/roofs.*` | AI-generated footage of rooftops being painted white, behind the “Where the loops break” heading, labelled as illustrative | All seven background videos (title, heatwave rooftops, white roofs, dusk street, rainfed field, drinking-water point and closing rooftops) always loop; only a visitor’s own pause stops them, and that choice is remembered |
-| `media/wicked/dusk.*` | AI-generated dusk footage behind “Why wicked?” (“it lands unequally”), under a dark gradient so the white text stays readable, labelled as illustrative | Keep the gradient if you swap the footage |
-| `media/atrisk/field.*`, `media/network/water.*`, `media/closing/rooftops.*` | AI-generated footage behind “Same heatwave. Different barriers.” (a woman carrying water across a rainfed field), “Who is already pulling the levers” (a public drinking-water point, mirrored so the pot sits away from the text) and the closing line (neem leaves over rooftops), each under a light wash so the text stays readable and labelled as illustrative | Keep the wash and the note if you swap the footage |
+| Drawn scenes behind section headings | Inline drawings in `index.html` (faceless stick figures), in place of the earlier AI-generated loops. The old footage files (`media/day/scene.*`, `media/loops-break/`, `media/wicked/`, `media/atrisk/`, `media/network/`, `media/closing/`, `media/stalls/office.*`) are no longer shown | Only to change a drawing |
 | `media/hero/` | The quiet background loop behind the title (`web.webm`, `web.mp4` and a `web.jpg` still), with no sound. It pauses only while scrolled out of view or when a visitor presses its pause button | To replace the loop: keep it under about 1 MB, the same off-white background (#FAF7F2), and the busy parts at the edges |
 | `media/day/` | Films for "A day in a heatwave", named after the hour without the colon (e.g. `0200.mp4`), each with a `.jpg` cover. Add `video` and `length` to that hour in part 11 of `data.js` | To add or replace an hour’s film |
 | `media/stalls/` | One short film per card in “Why action stalls”, named after the stall’s `id` (e.g. `owner.mp4`), each with a `.jpg` cover. Add `video` and `length` to that stall in part 18 of `data.js` |
-| `media/stalls/office.*` | The AI-generated empty-office footage behind the “Why action stalls” heading (`office.mp4`, `office.webm`, `office.jpg` still), trimmed past a paper that blows off the desk and crossfaded into a seamless 6-second loop |
+| `market.js`, `media/market/market.svg` | “Explore a market” on the practical page: the behaviour, and the drawing (built by `tools/build-market-scene.py`) | Only to change the drawing or behaviour; its words are in `data.js` |
 | `images/social-share-cs.jpg` | The preview picture shown when the link is shared (1200 × 630). It quotes the counts of systems, vicious cycles and levers | When those counts change. Give the new file a new name and update the two image lines in `index.html`, so LinkedIn and WhatsApp fetch it again |
 | `CNAME` | Connects the site to the address commonshade.org | **No. Never delete this file.** |
 
@@ -144,6 +141,10 @@ The “Cooling options” section, just before “Plan a response”, shows what
 ## Four heats in a home (part 27 of `data.js`)
 
 `HOME_HEATS` drives the interactive drawing in Cooling options: outdoor air, the roof, radiant heat and indoor air, a night view, sourced facts, the daytime nuance and a line for heat plans. Heat right now links to it with a note that warnings track the street, not the room. The film `media/films/four-heats-in-a-home.mp4` is registered in `SECTION_FILMS`.
+
+## Explore a market (part 29b of `data.js`)
+
+An illustrative market on `/practical/` with six features to explore, a guided tour and a text version at `/practical-actions/#market`. Words and sources are in `MARKET_EXPLORER`; the drawing is built by `tools/build-market-scene.py` into `media/market/market.svg`; the behaviour is `market.js`. See [`docs/market-explorer.md`](docs/market-explorer.md) for how to edit a panel, a source or the drawing, and for the open editorial items.
 
 ## Find practical actions (part 29 of `data.js`)
 

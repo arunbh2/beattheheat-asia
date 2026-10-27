@@ -19,12 +19,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
-  <link rel="stylesheet" href="/styles.css?v=127">
+  <link rel="stylesheet" href="/styles.css?v=128">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Find practical actions against extreme heat","url":"https://beattheheat.asia/practical/","isPartOf":{"@type":"WebSite","name":"Common Shade","url":"https://beattheheat.asia/"},"license":"https://creativecommons.org/licenses/by/4.0/"}</script>
-  <script src="/data.js?v=127" defer></script>
-  <script src="/script.js?v=127" defer></script>
-  <script src="/guide.js?v=127" defer></script>
-  <script src="/join.js?v=127" defer></script>
+  <script src="/data.js?v=128" defer></script>
+  <script src="/script.js?v=128" defer></script>
+  <script src="/market.js?v=128" defer></script>
+  <script src="/guide.js?v=128" defer></script>
+  <script src="/join.js?v=128" defer></script>
 </head>
 <body data-page="practical">
   <a class="skip-link" href="#practical-title">Skip to the content</a>
@@ -43,6 +44,21 @@
         <h1 id="practical-title" class="h2 tool-h1">What works, who does it, <br>and what keeps it working.</h1>
         <p class="loops__intro tool-lede">Pick a setting, or start from a question. Each card answers eight things: what to do, who it protects, where it suits, who must act, what it takes to run, the evidence, what could stop it, and what it only works with.</p>
         <div class="signpost__box" id="signpost-box" data-step="2"></div>
+        <!-- Explore a market: an illustrative place to start from. Opens on request (market.js); without JavaScript the text version carries the same notes. -->
+        <section class="mx" id="market" aria-labelledby="mx-title">
+          <div class="mx-invite">
+            <div class="mx-invite__text">
+              <p class="mx-invite__k">Prefer to start with a place?</p>
+              <h2 id="mx-title" class="mx-h">What could a heat-resilient market look like?</h2>
+              <p class="mx-invite__p">Look around an illustrative market: shade over the stalls, a water point, a place to rest, a cooler roof, a tree, and a vendor’s working day. Each one shows what could help, and what it depends on.</p>
+              <p class="mx-invite__go"><button type="button" class="btn btn--hero mx-open" hidden>Explore a market&nbsp;<span aria-hidden="true">→</span></button>
+                <a class="mx-skip" href="#pa-journeys">Go straight to the action cards</a></p>
+              <p class="mx-invite__alt">Prefer reading? <a href="/practical-actions/#market">The market, as text</a></p>
+            </div>
+            <img class="mx-invite__img" src="/media/market/market.svg?v=2" alt="" width="1000" height="640" loading="lazy" decoding="async">
+          </div>
+          <div class="mx-app" id="mx-app" hidden></div>
+        </section>
         <div class="pa-journeys" id="pa-journeys" role="group" aria-label="Start from a question"></div>
         <div class="pa-tabs" id="pa-tabs" role="tablist" aria-label="Settings"></div>
         <div class="pa-panel" id="pa-panel" role="tabpanel" tabindex="0"></div>
