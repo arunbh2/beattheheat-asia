@@ -67,7 +67,10 @@
     fetch("https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&resultType=lite&pageSize=40&sort=" + encodeURIComponent("FIRST_PDATE_D desc") + "&query=" + encodeURIComponent(q))
       .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
       .then(j => { draw(j); try { localStorage.setItem(KEY, JSON.stringify({ at: Date.now(), j })); } catch (e) {} })
-      // if the research service does not answer, step aside and let the headlines use the full width
+      // if the research service does not answer, use the snapshot saved every six hours (tools/fetch-research.js);
+      // if that fails too, step aside and let the headlines use the full width
+      .catch(() => fetch("/feeds/research.json", { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .then(s => draw({ resultList: { result: (s.items || []).map(x => ({ title: x.title, doi: x.doi, source: x.preprint ? "PPR" : "MED", id: x.pmid, journalTitle: x.journal, firstPublicationDate: x.date })) } })))
       .catch(() => { const col = list.closest(".feed"), cols = col && col.closest(".feeds__cols"); if (col) col.hidden = true; if (cols) cols.classList.add("feeds__cols--one"); });
   }
 
