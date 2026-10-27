@@ -252,7 +252,7 @@
         n.box = { l: -n.r - 30, r: n.r + 30, t: -n.r - 30, b: n.r + 30 };
       } else {
         n.r = 11 + 3.2 * Math.min(n.loops.length, 5);
-        const w = Math.max(...lines.map(l => textWidth(l, "600 13px Inter, Arial"))) + 8;
+        const w = Math.max(...lines.map(l => textWidth(l, "600 13px 'Hanken Grotesk', Arial"))) + 8;
         n.lw = w; n.lh = lines.length * 15.5 + 4;
         n.box = n.labelAt === "above"
           ? { l: -Math.max(w / 2, n.r), r: Math.max(w / 2, n.r), t: -(n.r + 6 + lines.length * 15.5), b: n.r }
@@ -1321,7 +1321,7 @@
   function openBrief(id) {
     track("brief-" + id);
     const d = briefData(id);
-    const css = `body{font-family:Inter,Segoe UI,Arial,sans-serif;color:#16202B;max-width:760px;margin:40px auto;padding:0 24px;line-height:1.55}
+    const css = `body{font-family:"Hanken Grotesk",Segoe UI,Arial,sans-serif;color:#16202B;max-width:760px;margin:40px auto;padding:0 24px;line-height:1.55}
       h1{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;font-size:40px;line-height:1;margin:6px 0 4px}
       .k{color:#D7263D;font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:12px}.sub{color:#5E6570}
       h2{font-size:13px;letter-spacing:.12em;text-transform:uppercase;border-top:2px solid #16202B;padding-top:10px;margin-top:28px}
@@ -1331,7 +1331,7 @@
       .print{position:fixed;top:16px;right:16px;padding:10px 18px;border-radius:999px;border:0;background:#F26430;font-weight:700;cursor:pointer}
       @media print{.print{display:none}body{margin:0}} @media(max-width:600px){.chain{grid-template-columns:1fr 1fr}}`;
     const h = s => esc(s);
-    const html = `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Heat brief: ${h(d.inst.name)}</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;700&display=swap"><style>${css}</style></head><body>
+    const html = `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Heat brief: ${h(d.inst.name)}</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap"><style>${css}</style></head><body>
       <button class="print" onclick="window.print()">Print or save as PDF</button>
       <p class="k">The UN calls for urgent action on extreme heat</p><h1>Breaking the loops of extreme heat</h1>
       <p class="sub">A brief for <strong>${h(d.inst.name)}</strong> · from the Common Shade systems map · <a href="${h(d.url)}">${h(d.url)}</a></p>
@@ -1786,7 +1786,7 @@
 
   function openPlan() {
     const g = PG.find(x => x.id === plan.group), ex = EXAMPLES.find(x => x.id === plan.example), h = esc;
-    const css = `body{font-family:Inter,Segoe UI,Arial,sans-serif;color:#16202B;max-width:860px;margin:40px auto;padding:0 24px;line-height:1.5}
+    const css = `body{font-family:"Hanken Grotesk",Segoe UI,Arial,sans-serif;color:#16202B;max-width:860px;margin:40px auto;padding:0 24px;line-height:1.5}
       h1{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;font-size:38px;line-height:1;margin:6px 0}
       .k{color:#1F7A70;font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:12px}.sub{color:#5E6570}
       table{width:100%;border-collapse:collapse;margin-top:18px;font-size:14px}th,td{text-align:left;vertical-align:top;padding:8px;border-bottom:1px solid #E6DFD4}
@@ -1798,7 +1798,7 @@
       @media print{.print{display:none}body{margin:0}.read .u{display:block;color:#5E6570;font-size:11px;word-break:break-all}h2{break-after:avoid}.read h3{break-after:avoid}}`;
     const rows = plan.levers.map(id => { const v = leverById[id], r = planRow(id);
       return `<tr><td><strong>${h(v.title)}</strong><br><span class="note">${h(WHEN[v.when] || "")}</span>${isAsset(id) ? `<br><span class="${(r.upkeep || "").trim() ? "note" : "gap"}">Kept working by: ${h(r.upkeep || "not set")}</span>` : ""}${DELIVER.filter(f => (r.deliver || {})[f.id]).map(f => `<br><span class="note">${h(f.name)}: ${h(r.deliver[f.id])}</span>`).join("")}${LADDER.length ? `<br><span class="${lRank(rowCounts(r)) >= lRank("agreed") ? "note" : "gap"}">Where it stands: ${h(LADDER[lRank(rowCounts(r))].name)}${r.ev ? ` (${h(r.ev)})` : ""}</span>` : ""}</td><td>${h(phaseById[r.phase] ? phaseById[r.phase].name : "")}</td><td>${h(instById[r.lead] ? instById[r.lead].name : "")}</td><td class="${r.payer === "Not decided yet" ? "gap" : ""}">${h(r.payer)}</td><td>${h(r.measure || v.measure || "")}</td></tr>`; }).join("");
-    const html = `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Heat response plan: ${h(plan.place || "draft")}</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;700&display=swap"><style>${css}</style></head><body>
+    const html = `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Heat response plan: ${h(plan.place || "draft")}</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap"><style>${css}</style></head><body>
       <button class="print" onclick="window.print()">Print or save as PDF</button>
       <p class="k">Heat response plan · draft</p><h1>${h(plan.place || "Our place")}</h1>
       <p class="sub">Protecting: <strong>${h(g ? g.name : "not set")}</strong> · made with the Common Shade systems map</p>
@@ -3259,7 +3259,7 @@
   }
 
   const fontsReady = document.fonts && document.fonts.load
-    ? Promise.all([document.fonts.load("600 13px Inter"), document.fonts.load("700 14px Inter")]).catch(() => {})
+    ? Promise.all([document.fonts.load("600 13px Hanken Grotesk"), document.fonts.load("700 14px Hanken Grotesk")]).catch(() => {})
     : Promise.resolve();
   Promise.race([fontsReady, new Promise(r => setTimeout(r, 1800))]).then(boot);
 })();

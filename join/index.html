@@ -18,10 +18,10 @@
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2316202B'/%3E%3Cpath d='M5 14 Q16 4 27 14' fill='none' stroke='%23F26430' stroke-width='4.5' stroke-linecap='round'/%3E%3Cpath d='M9 13 V27 M23 13 V27' stroke='%23F6E7D7' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap">
-  <link rel="stylesheet" href="/styles.css?v=124">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
+  <link rel="stylesheet" href="/styles.css?v=125">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Help build Common Shade","url":"https://beattheheat.asia/join/","isPartOf":{"@type":"WebSite","name":"Common Shade","url":"https://beattheheat.asia/"},"license":"https://creativecommons.org/licenses/by/4.0/"}</script>
-  <script src="/join.js?v=124" defer></script>
+  <script src="/join.js?v=125" defer></script>
 </head>
 <body data-page="join">
   <a class="skip-link" href="#register">Skip to the form</a>
@@ -32,11 +32,12 @@
     </div>
   </header>
   <main>
-    <section class="join-hero" aria-labelledby="join-title">
+    <section class="join-hero scene-sky" aria-labelledby="join-title">
       <div class="container join-hero__in">
         <div>
           <p class="eyebrow">Help build Common Shade</p>
           <h1 id="join-title" class="h2 join-hero__h">Different entry points. <br>A shared commitment <br>to heat resilience.</h1>
+          <p class="join-hero__tagline">Shade is something we hold up together.</p>
           <p class="join-hero__lede">Common Shade is an emerging collaborative for protection from extreme heat in South and Southeast Asia. Both the platform and the collaboration will evolve.</p>
           <div class="join-hero__cta">
             <a class="btn btn--hero" href="#register">Express your interest&nbsp;<span aria-hidden="true">↓</span></a>
@@ -45,16 +46,19 @@
         </div>
         <!-- Drawn, faceless figures holding up one shade together. Decorative. -->
         <svg class="join-hero__art" viewBox="0 0 520 260" aria-hidden="true" focusable="false">
-          <path d="M20 70 Q260 18 500 70 L500 84 Q260 34 20 84 Z" fill="#F26430"/>
+          <defs>
+            <radialGradient id="js-sun"><stop offset="0" stop-color="#F5A623" stop-opacity=".9"/><stop offset=".3" stop-color="#F26430" stop-opacity=".4"/><stop offset="1" stop-color="#F26430" stop-opacity="0"/></radialGradient>
+            <radialGradient id="js-ground"><stop offset="0" stop-color="#F26430" stop-opacity=".5"/><stop offset="1" stop-color="#F26430" stop-opacity="0"/></radialGradient>
+          </defs>
+          <circle class="hs-sun" cx="492" cy="-8" r="120" fill="url(#js-sun)"/>
+          <circle class="hs-sun" cx="492" cy="-8" r="20" fill="#F6E7D7"/>
+          <ellipse class="hs-ground" cx="260" cy="242" rx="270" ry="30" fill="url(#js-ground)"/>
+          <ellipse class="hs-shade" cx="260" cy="241" rx="210" ry="9" fill="#0A0F15"/>
+          <path class="hs-canopy" style="transform-origin: 260px 50px" d="M20 70 Q260 18 500 70 L500 84 Q260 34 20 84 Z" fill="#F26430"/>
           <g fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
-            <g transform="translate(60 0)"><line x1="0" y1="80" x2="0" y2="232"/><circle cx="-26" cy="150" r="13"/><path d="M-26 163 V205 M-26 205 L-38 238 M-26 205 L-14 238 M-26 176 L-2 150"/></g>
-            <g transform="translate(140 0)"><line x1="0" y1="64" x2="0" y2="232"/><circle cx="24" cy="146" r="13"/><path d="M24 159 V203 M24 203 L12 238 M24 203 L36 238 M24 172 L2 140 M24 176 L44 192"/></g>
-            <g transform="translate(220 0)"><line x1="0" y1="54" x2="0" y2="232"/><circle cx="-24" cy="140" r="13"/><path d="M-24 153 V200 M-24 200 L-36 238 M-24 200 L-12 238 M-24 166 L-2 128 M-24 170 L-44 188"/></g>
-            <g transform="translate(300 0)"><line x1="0" y1="54" x2="0" y2="232"/><circle cx="24" cy="150" r="11"/><path d="M24 161 V200 M24 200 L14 236 M24 200 L34 236 M24 172 L2 140"/></g>
-            <g transform="translate(380 0)"><line x1="0" y1="64" x2="0" y2="232"/><circle cx="-24" cy="144" r="13"/><path d="M-24 157 V202 M-24 202 L-36 238 M-24 202 L-12 238 M-24 170 L-2 134 M-24 174 L-46 160"/></g>
-            <g transform="translate(460 0)"><line x1="0" y1="80" x2="0" y2="232"/><circle cx="24" cy="150" r="13"/><path d="M24 163 V205 M24 205 L12 238 M24 205 L36 238 M24 176 L2 150"/></g>
+            <g class="hs-fig" style="--i:0"><g transform="translate(60 0)"><line x1="0" y1="80" x2="0" y2="232"/><circle cx="-26" cy="150" r="13"/><path d="M-26 163 V205 M-26 205 L-38 238 M-26 205 L-14 238 M-26 176 L-2 150"/></g></g><g class="hs-fig" style="--i:1"><g transform="translate(140 0)"><line x1="0" y1="64" x2="0" y2="232"/><circle cx="24" cy="146" r="13"/><path d="M24 159 V203 M24 203 L12 238 M24 203 L36 238 M24 172 L2 140 M24 176 L44 192"/></g></g><g class="hs-fig" style="--i:2"><g transform="translate(220 0)"><line x1="0" y1="54" x2="0" y2="232"/><circle cx="-24" cy="140" r="13"/><path d="M-24 153 V200 M-24 200 L-36 238 M-24 200 L-12 238 M-24 166 L-2 128 M-24 170 L-44 188"/></g></g><g class="hs-fig" style="--i:3"><g transform="translate(300 0)"><line x1="0" y1="54" x2="0" y2="232"/><circle cx="24" cy="150" r="11"/><path d="M24 161 V200 M24 200 L14 236 M24 200 L34 236 M24 172 L2 140"/></g></g><g class="hs-fig" style="--i:4"><g transform="translate(380 0)"><line x1="0" y1="64" x2="0" y2="232"/><circle cx="-24" cy="144" r="13"/><path d="M-24 157 V202 M-24 202 L-36 238 M-24 202 L-12 238 M-24 170 L-2 134 M-24 174 L-46 160"/></g></g><g class="hs-fig" style="--i:5"><g transform="translate(460 0)"><line x1="0" y1="80" x2="0" y2="232"/><circle cx="24" cy="150" r="13"/><path d="M24 163 V205 M24 205 L12 238 M24 205 L36 238 M24 176 L2 150"/></g></g>
           </g>
-          <line x1="8" y1="240" x2="512" y2="240" stroke="currentColor" stroke-width="3" stroke-linecap="round" opacity=".35"/>
+          <line x1="8" y1="240" x2="512" y2="240" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity=".3"/>
         </svg>
       </div>
     </section>
