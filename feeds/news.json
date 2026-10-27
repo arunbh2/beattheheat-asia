@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T12:27:56.685Z",
+ "updated": "2026-10-27T17:26:42.747Z",
  "keepDays": 14,
  "sources": [
   {
@@ -11,11 +11,19 @@
    "name": "GDELT Project",
    "ok": false,
    "found": 0,
-   "error": "HTTP 429: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic us"
+   "error": "GDELT replied: Your query was too short or too long. "
   }
  ],
  "query": "(heatwave OR \"heat wave\" OR \"extreme heat\" OR \"heat stress\" OR heatstroke OR \"heat index\") (India OR Bangladesh OR Nepal OR \"Sri Lanka\" OR Pakistan OR Bhutan OR Maldives OR Cambodia OR Indonesia OR Philippines OR Singapore OR Thailand OR Vietnam OR Malaysia OR Myanmar OR Laos) sourcelang:english",
  "items": [
+  {
+   "title": "Dole orders safety measures for riders amid extreme heat",
+   "url": "https://newsinfo.inquirer.net/2331096/dole-orders-safety-measures-for-riders-amid-extreme-heat",
+   "domain": "newsinfo.inquirer.net",
+   "date": "2026-10-27T18:10:38Z",
+   "place": "Philippines",
+   "via": "Inquirer"
+  },
   {
    "title": "Rising heat takes toll on Bangladesh’s garment workers",
    "url": "https://www.eco-business.com/news/rising-heat-takes-toll-on-bangladeshs-garment-workers/",
