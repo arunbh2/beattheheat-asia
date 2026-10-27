@@ -2555,7 +2555,7 @@
         <div class="fin-lend__grid">
           <figure class="fin-lend__film"><video controls playsinline preload="none" poster="/${esc(F.lenders.video.poster)}" aria-label="${esc(F.lenders.title)}: a ${esc(F.lenders.video.length)} drawn film">
             <source src="/${esc(F.lenders.video.src)}" type="video/mp4"><track kind="captions" srclang="en" label="English" src="/${esc(F.lenders.video.captions)}" default></video>
-            <figcaption>A drawn film, ${esc(F.lenders.video.length)}, no sound; the words are on screen and in captions. Based on ${extLink(F.lenders.source.url, F.lenders.source.label)}</figcaption></figure>
+            <figcaption>A drawn film, ${esc(F.lenders.video.length)}, narrated by a synthetic voice (Piper, trained on LibriTTS, CC BY 4.0), with captions. Based on ${extLink(F.lenders.source.url, F.lenders.source.label)}</figcaption></figure>
           <div><p class="fin-lend__k">What the commentary sets out</p><ul class="fin-lend__facts">${F.lenders.facts.map(f => `<li>${esc(f)}</li>`).join("")}</ul></div>
         </div>
         <p class="fin-lend__k">What could help, in combination</p>

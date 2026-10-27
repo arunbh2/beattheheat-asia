@@ -1,0 +1,13 @@
+{
+  "voice": { "model": "en-us-libritts-high", "speaker": 599, "length_scale": 1.0, "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high" },
+  "scenes": [
+    "When heat reaches the bank. How a heatwave travels from a day's wages to a lender's books.",
+    "It starts with a hotter day, and a smaller wage. Heat cuts working hours, and incomes fall first for vendors, farmers and daily-wage workers.",
+    "Then the instalment waits. Repayments slow, and field visits stop in the heat. In twenty twenty-five, heatwaves cut what lenders collected in the June quarter.",
+    "The strain moves up. Lenders face a cash crunch, and costlier funding. About sixty per cent of India's three point eight one trillion rupee microfinance portfolio is in farming and allied work.",
+    "Regulators are moving. The Reserve Bank of India now treats heatwaves as a prudential risk. But disclosing heat exposure is still voluntary for some.",
+    "What could help? Three ways to pay for protection, used together. | Parametric insurance, which pays out automatically when heat crosses a set line. | Blended finance, where patient capital takes the early risk. | And green and resilience bonds, for long-lasting public infrastructure.",
+    "And what makes them work? | Shared heat-risk data. | Lending tied to measurable heat outcomes. | And city platforms that pool many small projects.",
+    "From financing vulnerability, to financing resilience. Based on a commentary by Namita Vikas, in Mongabay India."
+  ]
+}
