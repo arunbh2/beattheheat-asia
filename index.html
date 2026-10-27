@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
 
-  <link rel="stylesheet" href="styles.css?v=125">
+  <link rel="stylesheet" href="styles.css?v=126">
 
   <script type="application/ld+json">
   {
@@ -111,11 +111,11 @@
   }
   </script>
   <link rel="alternate" type="text/plain" href="/llms-full.txt" title="The whole map as plain text">
-  <script src="data.js?v=125" defer></script>
-  <script src="script.js?v=125" defer></script>
-  <script src="heatweek.js?v=125" defer></script>
-  <script src="guide.js?v=125" defer></script>
-  <script src="/join.js?v=125" defer></script>
+  <script src="data.js?v=126" defer></script>
+  <script src="script.js?v=126" defer></script>
+  <script src="heatweek.js?v=126" defer></script>
+  <script src="guide.js?v=126" defer></script>
+  <script src="/join.js?v=126" defer></script>
 </head>
 
 <body>
@@ -374,15 +374,10 @@
 
     <!-- ============ A DAY IN A HEATWAVE ============ -->
     <section class="day" id="day" aria-labelledby="day-title">
-      <!-- Scene-setting loop behind the heading: AI-generated, illustrative, muted. Started by script.js only when motion is welcome. -->
-      <div class="day__scene" aria-hidden="true">
-        <video class="day__video" id="day-video" muted loop playsinline preload="none" data-poster="media/day/scene.jpg" tabindex="-1">
-          <source src="media/day/scene.mp4" type="video/mp4">
-          <source src="media/day/scene.webm" type="video/webm">
-        </video>
+      <!-- Drawn scene behind the heading: one street through a hot day. The sun crosses as you scroll. -->
+      <div class="day__scene scene--drawn" aria-hidden="true">
+        <svg class="drawn drawn--day" viewBox="0 0 1200 420" aria-hidden="true" focusable="false"><g fill="none" stroke="#F6E7D7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><g class="ds-city" opacity=".22"><path d="M210 380 V260 H320 V380"/><path d="M330 380 V200 H410 V380"/><path d="M700 380 V220 H790 V380"/><path d="M800 380 V150 H920 V380"/><path d="M930 380 V240 H1010 V380"/><path d="M1020 380 V190 H1130 V380"/><path d="M1140 380 V260 H1200 V380"/></g><path class="ds-arc" d="M240 268 A440 440 0 0 1 960 268" stroke-dasharray="2 12" opacity=".35"/><g class="ds-sun"><circle cx="600" cy="80" r="26" fill="#F26430" stroke="none"/><circle cx="600" cy="80" r="40" stroke="#F26430" opacity=".45"/></g><g class="ds-people"><circle cx="170" cy="298" r="10"/><path d="M170 308 V342 M170 342 L159 380 M170 342 L181 380 M170 316.0 L194 334.0 M170 316.0 L158 342.0"/><path d="M196 340 H286 V366 H196 Z M206 340 V320 M276 340 V320 M241 340 V260 M196 268 Q241 234 286 268"/><circle cx="212" cy="374" r="7"/><circle cx="270" cy="374" r="7"/><circle cx="430" cy="298" r="10"/><path d="M430 308 V342 M430 342 L419 380 M430 342 L441 380 M430 316.0 L416 292.0 M430 316.0 L444 292.0"/><path d="M406 280 Q430 268 454 280 Z"/><circle cx="600" cy="298" r="10"/><path d="M600 308 V342 M600 342 L589 380 M600 342 L611 380 M600 316.0 L622 346.0 M600 316.0 L586 344.0"/><circle cx="634" cy="329" r="6"/><path d="M634 335 V356 M634 356 L627 380 M634 356 L641 380 M634 340.32 L622 348.32 M634 340.32 L644 356.32"/><circle cx="800" cy="358" r="22"/><circle cx="880" cy="358" r="22"/><path d="M800 358 L832 322 L880 358 M832 322 L866 322 M820 318 H844 M850 276 H890 V310 H850 Z"/><circle cx="836" cy="262" r="10"/><path d="M836 272 L832 318 M836 284 L866 318 M832 318 L844 344"/><path d="M1040 380 V230 M1040 230 q-60 -10 -54 -54 q10 -46 54 -40 q44 -6 54 40 q6 44 -54 54"/><path d="M980 346 H1068 M988 346 V380 M1060 346 V380"/><circle cx="1004" cy="288" r="10"/><path d="M1004 298 V342 M1004 342 H1030 V380 M1004 310 L1024 296 M1000 322 L990 350"/><path d="M1024 296 l10 -14 a14 14 0 0 1 12 18 Z" fill="#F26430" stroke="#F26430"/></g><line x1="200" y1="380" x2="1200" y2="380" opacity=".4"/></g></svg>
       </div>
-      <button type="button" class="scene-pause scene-pause--dark" id="day-pause" aria-pressed="false" hidden><span class="intro__pause-icon" aria-hidden="true"></span><span class="visually-hidden">Pause background footage</span></button>
-      <p class="day__scene-note">AI-generated footage, illustrative</p>
       <div class="container">
         <p class="eyebrow">A day in a heatwave</p>
         <h2 id="day-title" class="h2">One day. <br>Every loop turning.</h2>
@@ -495,15 +490,10 @@
 
     <!-- ============ WHY ACTION STALLS (from part 18 of data.js) ============ -->
     <section class="stalls" id="stalls" aria-labelledby="stalls-title">
-      <!-- An empty office: files stacked on a desk, a ceiling fan turning. AI-generated, illustrative, no people. Started by script.js. -->
-      <div class="sec-scene sec-scene--office" aria-hidden="true">
-        <video class="sec-scene__video" id="office-video" muted loop playsinline preload="none" data-poster="media/stalls/office.jpg" tabindex="-1">
-          <source src="media/stalls/office.mp4" type="video/mp4">
-          <source src="media/stalls/office.webm" type="video/webm">
-        </video>
+      <!-- Drawn scene: an empty office, files waiting on the desk, a fan turning as you scroll. -->
+      <div class="sec-scene sec-scene--office scene--drawn" aria-hidden="true">
+        <svg class="drawn drawn--office" viewBox="0 0 600 420" aria-hidden="true" focusable="false"><g fill="none" stroke="#16202B" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 24 H590" opacity=".4"/><path d="M10 392 H590" opacity=".5"/><path d="M360 24 V58"/><g class="os-fan"><circle cx="360" cy="64" r="8"/><path d="M360 64 Q330 54 288 62 Q330 74 360 64 M360 64 Q392 54 432 62 Q392 74 360 64"/></g><rect x="452" y="96" width="120" height="132" rx="4"/><path d="M512 96 V228 M452 162 H572" opacity=".5"/><circle cx="540" cy="128" r="16" fill="#F26430" stroke="#F26430"/><circle cx="112" cy="118" r="30"/><path class="os-hand" d="M112 118 V96"/><path d="M112 118 L128 126"/><path d="M150 276 H430 M168 276 V392 M412 276 V392 M330 276 V340 H412"/><path d="M184 276 V236 H264 V276 M180 236 L188 214 H260 L268 236 M186 214 V196 H262 V214 M190 196 L194 180 H254 L258 196"/><path d="M286 276 V256 H346 V276 M292 256 L296 240 H336 L342 256"/><rect x="316" y="226" width="22" height="16" fill="#F26430" stroke="#F26430" transform="rotate(-8 327 234)"/><path d="M232 392 V330 H292 V392 M232 330 V286 H292 V330" opacity=".55"/><rect x="62" y="182" width="86" height="64" rx="3" opacity=".7"/><path d="M62 202 H148 M84 182 V172 M126 182 V172" opacity=".7"/></g></svg>
       </div>
-      <button type="button" class="scene-pause" id="office-pause" aria-pressed="false" hidden><span class="intro__pause-icon" aria-hidden="true"></span><span class="visually-hidden">Pause background footage</span></button>
-      <p class="scene-note">AI-generated footage, illustrative: an empty office with files waiting</p>
 
       <div class="container">
         <p class="eyebrow">Why action stalls</p>
@@ -683,15 +673,10 @@
 
     <!-- ============ 6. CLOSING ============ -->
     <section class="closing">
-      <!-- Neem leaves and rooftops in warm morning light. AI-generated, illustrative. Started by script.js. -->
-      <div class="sec-scene sec-scene--sand" aria-hidden="true">
-        <video class="sec-scene__video" id="closing-video" muted loop playsinline preload="none" data-poster="media/closing/rooftops.jpg" tabindex="-1">
-          <source src="media/closing/rooftops.mp4" type="video/mp4">
-          <source src="media/closing/rooftops.webm" type="video/webm">
-        </video>
+      <!-- Drawn scene: rooftops in the morning, with neighbours holding up a canopy on one roof. -->
+      <div class="sec-scene sec-scene--sand scene--drawn" aria-hidden="true">
+        <svg class="drawn drawn--closing" viewBox="0 0 1200 300" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false"><g fill="none" stroke="#16202B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><circle class="cs-sun" cx="930" cy="150" r="34" fill="#F26430" stroke="none" opacity=".85"/><path d="M0 300 V190 H120 V300"/><path d="M120 300 V150 H210 V300"/><path d="M210 300 V204 H350 V300"/><path d="M350 300 V130 H450 V300"/><path d="M450 300 V180 H580 V300"/><path d="M580 300 V110 H690 V300"/><path d="M690 300 V196 H840 V300"/><path d="M840 300 V140 H960 V300"/><path d="M960 300 V176 H1060 V300"/><path d="M1060 300 V124 H1200 V300"/><path d="M10 184 H110" opacity=".6"/><path d="M130 144 H200" opacity=".6"/><path d="M220 198 H340" opacity=".6"/><path d="M360 124 H440" opacity=".6"/><path d="M460 174 H570" opacity=".6"/><path d="M590 104 H680" opacity=".6"/><path d="M700 190 H830" opacity=".6"/><path d="M850 134 H950" opacity=".6"/><path d="M970 170 H1050" opacity=".6"/><path d="M1070 118 H1190" opacity=".6"/><path d="M140 150 V116 H174 V150 M140 116 Q157 106 174 116"/><path d="M600 110 V76 H634 V110 M600 76 Q617 66 634 76"/><path d="M1090 124 V90 H1124 V124 M1090 90 Q1107 80 1124 90"/><path d="M138 176 h18 v22 h-18 Z" opacity=".55"/><path d="M174 176 h18 v22 h-18 Z" opacity=".55"/><path d="M368 156 h18 v22 h-18 Z" opacity=".55"/><path d="M404 156 h18 v22 h-18 Z" opacity=".55"/><path d="M598 136 h18 v22 h-18 Z" opacity=".55"/><path d="M634 136 h18 v22 h-18 Z" opacity=".55"/><path d="M858 166 h18 v22 h-18 Z" opacity=".55"/><path d="M894 166 h18 v22 h-18 Z" opacity=".55"/><path d="M300 300 V170 M300 170 q-70 -6 -64 -60 q6 -50 64 -44 q60 -8 66 44 q4 54 -66 60"/><path d="M700 72 Q765 48 830 72 L830 80 Q765 58 700 80 Z" fill="#F26430" stroke="#F26430"/><path d="M706 80 V130 M824 80 V130"/><circle cx="726" cy="79" r="6"/><path d="M726 85 V106 M726 106 L719 130 M726 106 L733 130 M726 90.32 L706 78.32"/><circle cx="804" cy="79" r="6"/><path d="M804 85 V106 M804 106 L797 130 M804 106 L811 130 M804 90.32 L824 78.32"/><circle cx="765" cy="89" r="5"/><path d="M765 94 V111 M765 111 L760 130 M765 111 L770 130 M765 98 L757 111 M765 98 L773 111"/><path d="M470 180 Q510 192 560 180" opacity=".5"/><path d="M486 186 v10 M512 190 v12 M538 187 v10" opacity=".5"/></g></svg>
       </div>
-      <button type="button" class="scene-pause" id="closing-pause" aria-pressed="false" hidden><span class="intro__pause-icon" aria-hidden="true"></span><span class="visually-hidden">Pause background footage</span></button>
-      <p class="scene-note">AI-generated footage, illustrative: morning over the rooftops</p>
 
       <div class="container">
         <p class="closing__line">Pull one thread<br>and the whole web moves.</p>
@@ -768,6 +753,13 @@
 
   </main>
 
+  <aside class="foot-close" aria-label="Common Shade">
+    <div class="container">
+      <svg class="foot-close__art" viewBox="0 0 132 72" aria-hidden="true" focusable="false"><path d="M8 22 Q66 0 124 22 L124 28 Q66 8 8 28 Z" fill="#F26430"/><g fill="none" stroke="#16202B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M14 27 V70 M118 27 V70 M66 13 V70"/><circle cx="28" cy="40" r="5"/><path d="M28 45 V58 L22 70 M28 58 L34 70 M28 49 L14 42"/><circle cx="104" cy="40" r="5"/><path d="M104 45 V58 L98 70 M104 58 L110 70 M104 49 L118 42"/><circle cx="80" cy="46" r="4"/><path d="M80 50 V60 L76 70 M80 60 L84 70 M80 53 L66 48"/><path d="M4 70 H128" opacity=".35"/></g></svg>
+      <p class="foot-close__line">Shade is something we hold up together.</p>
+      <a class="foot-close__go" href="/join/">Help build Common Shade&nbsp;<span aria-hidden="true">→</span></a>
+    </div>
+  </aside>
   <footer class="site-footer">
     <p class="site-footer__brand"><span class="wordmark__mark" aria-hidden="true"></span>COMMON SHADE <span class="beta-tag">Beta</span></p>
     <p class="site-footer__tagline">Protection from extreme heat, built together.</p>
@@ -776,7 +768,7 @@
       <div class="site-footer__disclaimer" role="note" aria-label="About this beta version">
         <p><strong>Common Shade is in beta,</strong> currently at beattheheat.asia. A group of organisations is helping shape it as a shared endeavour for protection from extreme heat. Content and features will continue to evolve. More on the collaboration soon.</p>
         <p>It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement.</p>
-        <p>All background footage and short films are AI-generated or animated illustrations. They do not show real people, real places, real communities or any organisation’s projects. People described in stories are illustrative composites, not real individuals. Facts and figures link to their published sources.</p>
+        <p>Some background footage and the short films are AI-generated; other scenes are drawn illustrations. None of them show real people, real places, real communities or any organisation’s projects. People described in stories are illustrative composites, not real individuals. Facts and figures link to their published sources.</p>
       </div>
     </div>
     <p class="site-footer__join"><a href="/join/" target="_blank" rel="noopener"><b>Help build Common Shade</b> <span aria-hidden="true">↗</span><span class="visually-hidden"> (opens in a new tab)</span></a> Different entry points, one shared commitment to heat resilience in South and Southeast Asia.</p>

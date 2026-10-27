@@ -35,7 +35,7 @@
   const SVGNS = "http://www.w3.org/2000/svg";
   const HUB_R = 150, DOMAIN_RING = 470, DOMAIN_R = 40, RIM = 1330;
   const LABEL_K = 0.9;               // zoom level at which every label is shown
-  const COLORS = { hub: "#F26430", red: "#D7263D", ink: "#16202B" };
+  const COLORS = { hub: "#F26430", red: "#B8401A", ink: "#16202B" };
 
   // the plan has a page of its own (/plan/); there the map's parts are absent, so stand-ins keep the shared code running
   const PLAN_PAGE = document.body.dataset.page === "plan";
@@ -1323,7 +1323,7 @@
     const d = briefData(id);
     const css = `body{font-family:"Hanken Grotesk",Segoe UI,Arial,sans-serif;color:#16202B;max-width:760px;margin:40px auto;padding:0 24px;line-height:1.55}
       h1{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;font-size:40px;line-height:1;margin:6px 0 4px}
-      .k{color:#D7263D;font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:12px}.sub{color:#5E6570}
+      .k{color:#B8401A;font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:12px}.sub{color:#5E6570}
       h2{font-size:13px;letter-spacing:.12em;text-transform:uppercase;border-top:2px solid #16202B;padding-top:10px;margin-top:28px}
       .chain{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.chain div{border-top:4px solid #1F7A70;padding-top:8px}
       .chain b{display:block;color:#1F7A70}li{margin:8px 0}.when{display:inline-block;padding:1px 8px;border-radius:999px;background:#E8F2F0;color:#1F7A70;font-size:12px;font-weight:700}a{color:#1F7A70}.ex{color:#5E6570;font-size:14px}.ev{font-size:12px;color:#5E6570}
@@ -2417,6 +2417,16 @@
   const EV_ST = typeof EVIDENCE_STATUS !== "undefined" ? EVIDENCE_STATUS : {}, HZ = typeof ACTION_HORIZONS !== "undefined" ? ACTION_HORIZONS : [];
   // a small label for the kind of evidence, with its meaning on hover and for screen readers
   const evTag = st => EV_ST[st] ? `<span class="ev-tag ev-tag--${st}" title="${esc(EV_ST[st].text)}">${esc(EV_ST[st].name)}<span class="visually-hidden">: ${esc(EV_ST[st].text)}</span></span>` : "";
+  // Drawn line icons for each setting, in the same stroke as the figures. Decorative: the name beside each carries the meaning.
+  const SETTING_ICON = {
+    work: '<path d="M5 18 a9 9 0 0 1 18 0 Z M3 18 H25 M14 9 V6"/><path d="M9 22 H19" class="ic-a"/>',
+    homes: '<path d="M4 14 L14 5 L24 14 M7 12 V24 H21 V12"/><path d="M12 24 V18 H16 V24" class="ic-a"/>',
+    schools: '<path d="M14 8 C10 5 6 5 3 6 V22 C6 21 10 21 14 24 C18 21 22 21 25 22 V6 C22 5 18 5 14 8 Z M14 8 V24"/>',
+    clinics: '<rect x="4" y="5" width="20" height="19" rx="3"/><path d="M14 10 V19 M9.5 14.5 H18.5" class="ic-a"/>',
+    neighbourhoods: '<path d="M3 11 L6 5 H22 L25 11 Q22 14 19.5 11 Q17 14 14 11 Q11 14 8.5 11 Q6 14 3 11 Z" class="ic-a"/><path d="M5 12 V24 H23 V12 M5 18 H23"/>',
+    summer: '<rect x="4" y="7" width="20" height="17" rx="2"/><path d="M4 12 H24 M9 4 V9 M19 4 V9"/><circle cx="14" cy="18" r="2.6" class="ic-a"/>'
+  };
+  const settingIcon = id => SETTING_ICON[id] ? `<svg class="set-ic" viewBox="0 0 28 28" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${SETTING_ICON[id]}</g></svg>` : "";
   let paSel = "", paHz = "";
   function paCost(ref) {
     const pl = ref && COOL.find(x => x.id === ref[0]), o = pl && pl.options.find(x => x.name === ref[1]);
@@ -2467,7 +2477,7 @@
     renderEvKey();
     const tabs = document.getElementById("pa-tabs"), jr = document.getElementById("pa-journeys"); if (!tabs || !PA.length) return;
     jr.innerHTML = `<p class="pa-journeys__k">Start from a question</p>` + PA_Q.map(x => `<button type="button" class="pa-q" data-pa-go="${x.go}" aria-pressed="false">${esc(x.q)}</button>`).join("");
-    tabs.innerHTML = PA.map(x => `<button type="button" role="tab" class="cool-tab" id="pa-tab-${x.id}" data-pa="${x.id}" aria-controls="pa-panel" aria-selected="false" tabindex="-1">${esc(x.name)}</button>`).join("");
+    tabs.innerHTML = PA.map(x => `<button type="button" role="tab" class="cool-tab" id="pa-tab-${x.id}" data-pa="${x.id}" aria-controls="pa-panel" aria-selected="false" tabindex="-1">${settingIcon(x.id)}${esc(x.name)}</button>`).join("");
     const hash = decodeURIComponent(location.hash.slice(1));
     showPractical(hash.startsWith("practical-") && (PA.some(x => x.id === hash.slice(10)) || hash.slice(10) === "stalls") ? hash.slice(10) : PA[0].id);
     const sec = document.getElementById("practical");
@@ -2499,6 +2509,22 @@
   }
 
   // Paying for protection: what needs paying for, three kinds of trigger, basis risk, the payment path, lasting, and cases
+  // "From trigger to protection", drawn: a heat trigger, a fund holder, a person receiving support, and a family resting in shade,
+  // with the support handed along beneath one canopy. Decorative; the numbered list under it carries the meaning.
+  const finFlowArt = `<svg class="fin-flow__art" viewBox="0 0 800 210" aria-hidden="true" focusable="false">
+    <path class="ff-canopy" d="M30 64 Q400 0 770 64 L770 76 Q400 14 30 76 Z" fill="#F26430"/>
+    <g fill="none" stroke="#16202B" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M30 76 V200 M770 76 V200" opacity=".5"/>
+      <path d="M58 200 V112 M58 112 a8 8 0 0 1 16 0 V178"/><circle cx="66" cy="186" r="11" fill="#F26430" stroke="#F26430"/><path d="M66 176 V140" stroke="#F26430"/>
+      <circle cx="112" cy="112" r="11"/><path d="M112 123 V164 L101 200 M112 164 L123 200 M112 133 L88 112 M112 133 L144 146"/>
+      <path d="M256 200 V158 H344 V200 M250 158 H350"/><circle cx="300" cy="104" r="11"/><path d="M300 115 V150 M300 126 L268 140 M300 126 L334 140"/>
+      <circle cx="500" cy="112" r="11"/><path d="M500 123 V164 L489 200 M500 164 L511 200 M500 133 L466 146 M500 133 L522 156"/>
+      <path d="M640 166 H730 M648 166 V200 M722 166 V200"/><circle cx="666" cy="126" r="11"/><path d="M666 137 V164 H690 V200 M666 146 L684 156"/>
+      <circle cx="712" cy="148" r="8"/><path d="M712 156 V178 L706 200 M712 178 L718 200 M712 164 L696 168"/>
+      <path d="M10 200 H790" opacity=".3"/>
+    </g>
+    <g class="ff-parcels" fill="#F26430"><rect class="ff-p ff-p1" x="148" y="136" width="20" height="16" rx="3"/><rect class="ff-p ff-p2" x="338" y="134" width="20" height="16" rx="3"/><rect class="ff-p ff-p3" x="526" y="150" width="20" height="16" rx="3"/></g>
+  </svg>`;
   function renderFinance() {
     const box = document.getElementById("finance-body"); if (!box || typeof FINANCE === "undefined") return;
     const F = FINANCE, src = x => `<span class="cool-ev__src">${extLink(x.url, x.label)}</span>`;
@@ -2518,7 +2544,7 @@
           <p class="fin-ask">${esc(F.basis.ask)}</p><p class="fin-note">${gloss(F.basis.note)} ${src(F.basis.source)}</p></div>
       </div>
       <h3 class="fin-h">From trigger to protection</h3>
-      <ol class="fin-path">${F.pathway.steps.map(x => `<li>${esc(x)}</li>`).join("")}</ol>
+      <figure class="fin-flow">${finFlowArt}<ol class="fin-path fin-path--drawn">${F.pathway.steps.map(x => `<li>${esc(x)}</li>`).join("")}</ol></figure>
       <p class="fin-note">${esc(F.pathway.note)} ${src(F.pathway.source)}</p>
       <h3 class="fin-h">Will it survive the next season?</h3>
       <ul class="fin-survive">${F.survive.map(q => `<li>${esc(q)}</li>`).join("")}</ul>

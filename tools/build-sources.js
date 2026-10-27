@@ -134,6 +134,13 @@ ${all.filter(x => x.kind === g.kind).map(x => "          " + li(x)).join("\n")}
       <p class="refs__none" id="refs-none" hidden>No source matches that search.</p>
     </div>
   </main>
+  <aside class="foot-close" aria-label="Common Shade">
+    <div class="container">
+      <svg class="foot-close__art" viewBox="0 0 132 72" aria-hidden="true" focusable="false"><path d="M8 22 Q66 0 124 22 L124 28 Q66 8 8 28 Z" fill="#F26430"/><g fill="none" stroke="#16202B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M14 27 V70 M118 27 V70 M66 13 V70"/><circle cx="28" cy="40" r="5"/><path d="M28 45 V58 L22 70 M28 58 L34 70 M28 49 L14 42"/><circle cx="104" cy="40" r="5"/><path d="M104 45 V58 L98 70 M104 58 L110 70 M104 49 L118 42"/><circle cx="80" cy="46" r="4"/><path d="M80 50 V60 L76 70 M80 60 L84 70 M80 53 L66 48"/><path d="M4 70 H128" opacity=".35"/></g></svg>
+      <p class="foot-close__line">Shade is something we hold up together.</p>
+      <a class="foot-close__go" href="/join/">Help build Common Shade&nbsp;<span aria-hidden="true">→</span></a>
+    </div>
+  </aside>
   <footer class="wkp-foot">
     <div class="container">
       <p>Links go to the original publishers, which hold their own rights. Found a broken link or a better source? Tell us through <a href="/join/">Help build Common Shade</a>. <a href="/">Back to the map of extreme heat</a></p>
