@@ -101,7 +101,7 @@ const html = `<!DOCTYPE html>
   <link rel="icon" href="${ICON}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
   <link rel="stylesheet" href="/styles.css?v=${V}">
   <script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@type": "WebPage", name: "Sources and references", url: `${SITE}/sources/`, isPartOf: { "@type": "WebSite", name: "Common Shade", url: SITE + "/" }, license: "https://creativecommons.org/licenses/by/4.0/" })}</script>
 </head>

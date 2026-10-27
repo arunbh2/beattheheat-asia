@@ -72,7 +72,7 @@ function page(p, intro, body, extraLd) {
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2316202B'/%3E%3Cpath d='M5 14 Q16 4 27 14' fill='none' stroke='%23F26430' stroke-width='4.5' stroke-linecap='round'/%3E%3Cpath d='M9 13 V27 M23 13 V27' stroke='%23F6E7D7' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E">
   <link rel="alternate" type="text/plain" href="${SITE}/llms-full.txt" title="The whole map as plain text">
   <style>
-    body{margin:0;font-family:Inter,"Segoe UI",Roboto,Arial,sans-serif;color:#16202B;background:#FAF7F2;line-height:1.55}
+    body{margin:0;font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;color:#16202B;background:#FAF7F2;line-height:1.55}
     a{color:#16202B;text-decoration-color:#F26430;text-underline-offset:3px}
     header,main,footer{max-width:900px;margin:0 auto;padding:0 20px}
     header{padding-top:22px;display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;font-size:.9rem}

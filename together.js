@@ -206,7 +206,7 @@
   function printPlan() {
     const s = sc(), x = st(), h = esc, fl = failures(), base = week(false), pkg = week(true);
     const byOwner = {}; fl.forEach(f => { (byOwner[f.x.owner] = byOwner[f.x.owner] || []).push(f); });
-    const css = `body{font-family:Inter,Segoe UI,Arial,sans-serif;color:#16202B;max-width:880px;margin:36px auto;padding:0 24px;line-height:1.5}h1{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;font-size:34px;margin:6px 0}
+    const css = `body{font-family:"Hanken Grotesk",Segoe UI,Arial,sans-serif;color:#16202B;max-width:880px;margin:36px auto;padding:0 24px;line-height:1.5}h1{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;font-size:34px;margin:6px 0}
       .k{color:#1F7A70;font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:12px}h2{font-size:13px;letter-spacing:.12em;text-transform:uppercase;border-top:2px solid #16202B;padding-top:10px;margin-top:24px}
       table{width:100%;border-collapse:collapse;font-size:13px;margin-top:8px}th,td{text-align:left;vertical-align:top;padding:6px;border-bottom:1px solid #E6DFD4}th{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#5E6570}
       .gap{color:#9E1A2C;font-weight:700}.note{color:#5E6570;font-size:12px}.print{position:fixed;top:16px;right:16px;padding:10px 18px;border-radius:999px;border:0;background:#F26430;font-weight:700;cursor:pointer}@media print{.print{display:none}body{margin:0}}`;

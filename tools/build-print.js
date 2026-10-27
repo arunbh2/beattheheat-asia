@@ -29,7 +29,7 @@ const stall = id => (D.STALLS || []).find(s => s.id === id);
 const CSS = `
 @page { size: A4; margin: 11mm 12mm 12mm; }
 * { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif; color: #16202B; background: #E9E4DC; font-size: 9.6pt; line-height: 1.42; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { font-family: "Hanken Grotesk", "Segoe UI", Roboto, Arial, sans-serif; color: #16202B; background: #E9E4DC; font-size: 9.6pt; line-height: 1.42; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 .sheet { width: 210mm; min-height: 297mm; margin: 14px auto; background: #FAF7F2; padding: 11mm 12mm 10mm; box-shadow: 0 2px 18px rgba(0,0,0,.15); }
 .fit { display: flex; flex-direction: column; min-height: 273mm; }
 .bar { display: flex; justify-content: space-between; align-items: center; border-bottom: 2.5px solid #16202B; padding-bottom: 6px; }
@@ -82,7 +82,7 @@ async function sheet({ slug, kind, title, lede, body, live, sources }) {
 <meta name="description" content="${esc(lede)}">
 <link rel="canonical" href="${url}"><link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2316202B'/%3E%3Cpath d='M5 14 Q16 4 27 14' fill='none' stroke='%23F26430' stroke-width='4.5' stroke-linecap='round'/%3E%3Cpath d='M9 13 V27 M23 13 V27' stroke='%23F6E7D7' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E">
 <style>${CSS}</style>
 </head>
@@ -118,7 +118,7 @@ async function sheet({ slug, kind, title, lede, body, live, sources }) {
 
 // a static drawing of a tin-roofed home with the four heats numbered
 const houseSVG = () => { const zig = [...Array(15)].map((_, i) => `${230 + i * 30},${i % 2 ? 132 : 118}`).join(" ");
-  const num = (n, x, y, hot) => `<circle cx="${x}" cy="${y}" r="15" fill="${hot ? "#F26430" : "#16202B"}" stroke="#fff" stroke-width="3"/><text x="${x}" y="${y + 5}" fill="#fff" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter,Arial">${n}</text>`;
+  const num = (n, x, y, hot) => `<circle cx="${x}" cy="${y}" r="15" fill="${hot ? "#F26430" : "#16202B"}" stroke="#fff" stroke-width="3"/><text x="${x}" y="${y + 5}" fill="#fff" font-size="15" font-weight="800" text-anchor="middle" font-family="'Hanken Grotesk',Arial">${n}</text>`;
   const arrows = [0, 1, 2, 3, 4].map(i => `<path d="M${270 + i * 80} 160 q 7 9 0 18 q -7 9 0 18" fill="none" stroke="#D7263D" stroke-width="4" stroke-linecap="round"/><path d="M${263 + i * 80} 192 L${270 + i * 80} 203 L${277 + i * 80} 192" fill="none" stroke="#D7263D" stroke-width="4" stroke-linecap="round"/>`).join("");
   return `<svg viewBox="0 0 720 320" role="img" aria-label="A tin-roofed home with four heats: outdoor air, the roof, radiant heat and indoor air" style="width:100%;height:auto;display:block;border-radius:6px">
     <rect width="720" height="320" fill="#F8D9B8"/><circle cx="650" cy="55" r="26" fill="#F26430"/><rect y="290" width="720" height="30" fill="#D8B585"/>
@@ -369,9 +369,9 @@ async function build() {
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Printable one-pagers | Common Shade</title><meta name="description" content="Printable, one-page briefs from Common Shade for officials, planners, partners and journalists. Free to share under CC BY 4.0.">
 <link rel="canonical" href="${SITE}/print/"><link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2316202B'/%3E%3Cpath d='M5 14 Q16 4 27 14' fill='none' stroke='%23F26430' stroke-width='4.5' stroke-linecap='round'/%3E%3Cpath d='M9 13 V27 M23 13 V27' stroke='%23F6E7D7' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E">
-<style>body{margin:0;font-family:Inter,Arial,sans-serif;color:#16202B;background:#FAF7F2;line-height:1.5}main{max-width:900px;margin:0 auto;padding:24px 20px 48px}
+<style>body{margin:0;font-family:"Hanken Grotesk",Arial,sans-serif;color:#16202B;background:#FAF7F2;line-height:1.5}main{max-width:900px;margin:0 auto;padding:24px 20px 48px}
 .brand{display:flex;align-items:center;gap:8px;font-family:Anton,Impact,sans-serif;font-size:1.3rem;text-decoration:none;color:#16202B}.brand i{width:16px;height:16px;border-radius:50%;background:#F26430;border:3px solid #16202B}
 h1{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;font-size:clamp(2rem,1.5rem + 3vw,3rem);line-height:1.02;margin:22px 0 8px}h2{font-size:1.1rem;margin:28px 0 6px;border-top:2px solid #16202B;padding-top:12px}
 .pl{list-style:none;padding:0;display:grid;gap:8px;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr))}.pl li{background:#fff;border:1px solid #E6DFD4;border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:2px}.pl a{color:#16202B;text-decoration-color:#F26430;text-underline-offset:3px}.pl span{font-size:.85rem;color:#5E6570}
