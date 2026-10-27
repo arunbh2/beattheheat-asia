@@ -31,9 +31,9 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@1,6..72,400&display=swap">
 
-  <link rel="stylesheet" href="styles.css?v=123">
+  <link rel="stylesheet" href="styles.css?v=124">
 
   <script type="application/ld+json">
   {
@@ -111,11 +111,11 @@
   }
   </script>
   <link rel="alternate" type="text/plain" href="/llms-full.txt" title="The whole map as plain text">
-  <script src="data.js?v=123" defer></script>
-  <script src="script.js?v=123" defer></script>
-  <script src="heatweek.js?v=123" defer></script>
-  <script src="guide.js?v=123" defer></script>
-  <script src="/join.js?v=123" defer></script>
+  <script src="data.js?v=124" defer></script>
+  <script src="script.js?v=124" defer></script>
+  <script src="heatweek.js?v=124" defer></script>
+  <script src="guide.js?v=124" defer></script>
+  <script src="/join.js?v=124" defer></script>
 </head>
 
 <body>
@@ -196,30 +196,44 @@
   <main>
 
     <!-- ============ 1. TITLE ============ -->
-    <section class="intro">
-      <!-- Background loop: decorative, muted, no sound. Started by script.js only when motion is welcome. -->
-      <div class="intro__bg" aria-hidden="true">
-        <video class="intro__video" id="intro-video" autoplay muted loop playsinline preload="none" poster="media/hero/web.jpg" tabindex="-1">
-          <source src="media/hero/web.mp4" type="video/mp4">
-          <source src="media/hero/web.webm" type="video/webm">
-        </video>
-      </div>
-      <button type="button" class="intro__pause" id="intro-pause" aria-pressed="false" hidden><span class="intro__pause-icon" aria-hidden="true"></span><span class="visually-hidden">Pause background animation</span></button>
-      <div class="container">
-        <p class="intro__flag"><a href="https://wmo.int/media/news/un-secretary-general-issues-call-action-extreme-heat-0" target="_blank" rel="noopener">The UN calls for urgent action on extreme heat<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p>
-        <h1 class="intro__title">Extreme heat is a <br class="intro__br"><span>wicked problem</span></h1>
-        <p class="intro__lede">A free, sourced map of how heat harms health, income and homes across South and Southeast Asia, and the practical actions that break the cycle. <span class="intro__for">For city teams, NGOs, funders, communities and workers’ organisations.</span></p>
-        <p class="intro__proof">Every consequence is sourced, and where the evidence is thin, the map says so.</p>
-
-        <div class="intro__cta">
-          <a class="btn btn--hero" href="#start">Find your way in&nbsp;<span aria-hidden="true">→</span></a>
-          <p class="intro__trust">Two questions, a short path. Free, no sign&nbsp;up, and what you type stays in your browser.</p>
+    <section class="intro intro--canopy">
+      <!-- The opening scene: drawn, faceless figures holding up one shade together. Decorative; the text carries the meaning. -->
+      <div class="container intro__grid">
+        <div class="intro__copy">
+          <p class="intro__flag"><a href="https://wmo.int/media/news/un-secretary-general-issues-call-action-extreme-heat-0" target="_blank" rel="noopener">The UN calls for urgent action on extreme heat<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p>
+          <h1 class="intro__title">Extreme heat is a <br class="intro__br"><span>wicked problem</span></h1>
+          <p class="intro__tagline">Shade is something we hold up together.</p>
+          <p class="intro__lede">A free, sourced map of how heat harms health, income and homes across South and Southeast Asia, and the practical actions that break the cycle. <span class="intro__for">For city teams, NGOs, funders, communities and workers’ organisations.</span></p>
+          <p class="intro__proof">Every consequence is sourced, and where the evidence is thin, the map says so.</p>
+          <div class="intro__cta">
+            <a class="btn btn--hero" href="#start">Find your way in&nbsp;<span aria-hidden="true">→</span></a>
+            <p class="intro__trust">Two questions, a short path. Free, no sign&nbsp;up, and what you type stays in your browser.</p>
+          </div>
+          <nav class="intro__side" aria-label="Or go straight to">
+            <span class="intro__side-k">Or go straight to</span>
+            <a class="door door--act" href="/practical/" target="_blank" rel="noopener"><b>Find practical actions&nbsp;<span aria-hidden="true">↗</span><span class="visually-hidden"> (opens in a new tab)</span></b><span>What to do, who does it, what it takes to run.</span></a>
+            <a class="door door--sys" href="#explore"><b>Explore the system&nbsp;<span aria-hidden="true">→</span></b><span>How heat ripples from one harm to the next.</span></a>
+          </nav>
         </div>
-        <nav class="intro__side" aria-label="Or go straight to">
-          <span class="intro__side-k">Or go straight to</span>
-          <a class="door door--act" href="/practical/" target="_blank" rel="noopener"><b>Find practical actions&nbsp;<span aria-hidden="true">↗</span><span class="visually-hidden"> (opens in a new tab)</span></b><span>What to do, who does it, what it takes to run.</span></a>
-          <a class="door door--sys" href="#explore"><b>Explore the system&nbsp;<span aria-hidden="true">→</span></b><span>How heat ripples from one harm to the next.</span></a>
-        </nav>
+        <div class="intro__art">
+        <svg class="hero-scene" viewBox="0 0 640 440" aria-hidden="true" focusable="false">
+          <defs>
+            <radialGradient id="hs-sun"><stop offset="0" stop-color="#F5A623" stop-opacity=".9"/><stop offset=".3" stop-color="#F26430" stop-opacity=".4"/><stop offset="1" stop-color="#F26430" stop-opacity="0"/></radialGradient>
+            <radialGradient id="hs-ground"><stop offset="0" stop-color="#F26430" stop-opacity=".5"/><stop offset="1" stop-color="#F26430" stop-opacity="0"/></radialGradient>
+          </defs>
+          <circle class="hs-sun" cx="566" cy="44" r="160" fill="url(#hs-sun)"/>
+          <circle class="hs-sun" cx="566" cy="44" r="26" fill="#F6E7D7"/>
+          <g class="hs-haze" fill="none" stroke="#F6E7D7" stroke-width="2" stroke-linecap="round" opacity=".2"><path d="M8 214 q18 -8 36 0 t36 0"/><path d="M572 236 q18 -8 36 0 t36 0"/><path d="M0 262 q14 -6 28 0 t28 0"/></g>
+          <ellipse class="hs-ground" cx="320" cy="404" rx="330" ry="44" fill="url(#hs-ground)"/>
+          <ellipse class="hs-shade" cx="320" cy="403" rx="232" ry="13" fill="#0A0F15"/>
+          <path class="hs-canopy" d="M40 150 Q320 70 600 150 L600 170 Q320 92 40 170 Z" fill="#F26430"/>
+          <path class="hs-canopy" d="M40 170 Q320 92 600 170" fill="none" stroke="#B9431B" stroke-width="3"/>
+          <g class="hs-figs" fill="none" stroke="#F6E7D7" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+            <g class="hs-fig" style="--i:0"><line x1="92" y1="167" x2="92" y2="400"/><circle cx="122" cy="250" r="15"/><path d="M122 265 V328 M122 328 L107 400 M122 328 L137 400 M122 282 L92 264 M122 292 L92 288"/></g><g class="hs-fig" style="--i:1"><line x1="196" y1="149" x2="196" y2="400"/><circle cx="226" cy="250" r="15"/><path d="M226 265 V328 M226 328 L211 400 M226 328 L241 400 M226 282 L196 264 M226 292 L196 288"/></g><g class="hs-fig" style="--i:2"><line x1="444" y1="149" x2="444" y2="400"/><circle cx="414" cy="250" r="15"/><path d="M414 265 V328 M414 328 L399 400 M414 328 L429 400 M414 282 L444 264 M414 292 L444 288"/></g><g class="hs-fig" style="--i:3"><line x1="548" y1="167" x2="548" y2="400"/><circle cx="518" cy="250" r="15"/><path d="M518 265 V328 M518 328 L503 400 M518 328 L533 400 M518 282 L548 264 M518 292 L548 288"/></g><g class="hs-fig" style="--i:4"><path d="M262 352 H360 M272 352 V400 M350 352 V400"/><circle cx="292" cy="292" r="15"/><path d="M292 307 V350 M292 350 L322 350 L322 400 M292 318 L314 334 L326 296 M326 296 V400"/></g><g class="hs-fig" style="--i:5"><circle cx="352" cy="318" r="11"/><path d="M352 329 V364 M352 364 L344 400 M352 364 L360 400 M352 340 L330 344 M352 340 L368 356"/></g>
+          </g>
+          <line x1="24" y1="400" x2="616" y2="400" stroke="#F6E7D7" stroke-width="2" stroke-linecap="round" opacity=".3"/>
+        </svg>
+        </div>
         <dl class="stats">
           <div><dt>Systems mapped</dt><dd data-stat="systems">10</dd></div>
           <div><dt>Consequences mapped</dt><dd data-stat="consequences">74</dd></div>
@@ -227,10 +241,12 @@
           <div class="stat--break"><dt>Places to break them</dt><dd data-stat="levers">26</dd></div>
           <div><dt>Institutions holding levers</dt><dd data-stat="institutions">14</dd></div>
         </dl>
-        <div class="intro__tour">
-          <button type="button" class="btn btn--film" data-act="film" aria-haspopup="dialog"><span class="play-icon" aria-hidden="true"></span>Watch the film <span class="btn__meta">(1:41)</span></button>
+        <div class="intro__foot">
+          <div class="intro__tour">
+            <button type="button" class="btn btn--film" data-act="film" aria-haspopup="dialog"><span class="play-icon" aria-hidden="true"></span>Watch the film <span class="btn__meta">(1:41)</span></button>
+          </div>
+          <p class="honest">This map is large, but the real web is larger. Every heatwave reveals links that aren’t drawn here yet.</p>
         </div>
-        <p class="honest">This map is large, but the real web is larger. Every heatwave reveals links that aren’t drawn here yet.</p>
       </div>
     </section>
 
