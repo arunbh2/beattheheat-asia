@@ -17,7 +17,7 @@ vm.runInContext(src + `\n;Object.assign(this, { ${names.join(", ")} });`, ctx);
 // where on the site each part of data.js appears
 const WHERE = [
   [/^(SYSTEMS|CONSEQUENCES|LINKS)$/, "The web"], [/^(LOOP|STORIES)/, "Vicious cycles"], [/^(LEVERS|PLAYBOOKS|PACKAGES|EVIDENCE$)/, "Actions"],
-  [/^INSTITUTIONS$/, "Who holds the levers"], [/^ORG/, "The heat network"], [/^(GLOSS|NBS_BOOK)/, "Glossary"],
+  [/^INSTITUTIONS$/, "Who can act"], [/^ORG/, "The heat network"], [/^(GLOSS|NBS_BOOK)/, "Glossary"],
   [/^(PLAN_|WORKED_|WHO_ELEMENTS|MCR2030)/, "Plan a response"], [/^AT_RISK/, "Who heat hits hardest"], [/^STALLS$/, "Why action stalls"],
   [/^(COOL_|HOME_HEATS)/, "Cooling options"], [/^LIVE_/, "Heat right now"], [/^HEATWAVE_DAY$/, "A day in a heatwave"], [/^HEATWAVES/, "Heatwaves that shaped Asia"],
   [/^CITY_/, "Your city"], [/^(ACTION_|EVIDENCE_STATUS)/, "Find practical actions"], [/^FINANCE$/, "Paying for protection"],
@@ -114,7 +114,8 @@ const html = `<!DOCTYPE html>
     </div>
   </header>
   <main class="refs">
-    <div class="container">
+    <div class="container has-spot">
+      <svg class="spot spot--method" viewBox="0 0 260 160" aria-hidden="true" focusable="false"><g fill="none" stroke="#16202B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M10 150 H250" opacity=".4"/><circle cx="40" cy="60" r="7"/><circle cx="96" cy="40" r="7"/><circle cx="90" cy="100" r="7"/><circle cx="150" cy="70" r="7"/><path d="M46 57 L89 43 M45 66 L84 96 M97 47 L92 93 M103 43 L143 66 M96 98 L144 74" opacity=".6"/><circle cx="160" cy="80" r="26" stroke="#F26430"/><path d="M178 99 L200 122" stroke="#F26430" stroke-width="5"/><circle cx="226" cy="88" r="8"/><path d="M226 96 V122 M226 122 L218 150 M226 122 L234 150 M226 102.0 L208 94.0"/></g></svg>
       <p class="eyebrow">Sources and references</p>
       <h1 class="h2 refs__h">Everything we cite, <br>in one place.</h1>
       <p class="refs__intro">Every claim on Common Shade links to its source. Here are all ${total} of them: ${counts.ref} papers, reports, guidance and datasets; ${counts.org} organisations; and ${counts.data} live services. Each shows where on the site it is used. Search by title, publisher or topic.</p>
