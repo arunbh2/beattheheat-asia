@@ -3642,6 +3642,31 @@ const FINANCE = {
   surviveSource: { label: "Global Asia Insurance Partnership, Scaling Parametric Insurance in Asia, 2026, pp. 58–59", url: "https://www.gaip.global/publications/scaling-parametric-insurance-in-asia/" },
   boundary: "These reports describe how insurance is regulated, designed and delivered in Asia. The parametric report did not assess consumer outcomes, pricing, contracts or how triggers performed, so it supports design questions, not proof that a heat product works.",
   boundarySource: { label: "Global Asia Insurance Partnership, Scaling Parametric Insurance in Asia, 2026, pp. 14–15", url: "https://www.gaip.global/publications/scaling-parametric-insurance-in-asia/" },
+  // When heat reaches lenders: insights from a 2026 commentary, summarised in our words and attributed. Opinion, not a study.
+  lenders: {
+    title: "When heat reaches lenders",
+    intro: "Heat does not stop at the household. When people earn less in a heatwave, loan repayments slow, and the strain travels up to microfinance institutions and banks. A 2026 commentary sets out how, and what could help.",
+    video: { src: "media/films/heat-and-lenders.mp4", poster: "media/films/heat-and-lenders.jpg", captions: "media/films/heat-and-lenders.en.vtt", length: "0:58" },
+    facts: [
+      "Heatwaves in 2025 reduced how much lenders collected in the June quarter across loan books that depend on field visits, with a similar squeeze projected for 2026 in northern and central India.",
+      "About 60% of India’s ₹3.81 trillion microfinance portfolio is in agriculture and allied activities, and eastern India, among the most climate-vulnerable regions, holds roughly a third of it.",
+      "The borrowers most exposed (microfinance clients, farming households, gold-loan borrowers and self-employed informal workers) are also the most financially vulnerable, because their income depends on outdoor work and moving around.",
+      "When collections slow, lenders face a cash crunch of their own and turn to costlier short-term funding; branch closures and fewer field visits in hot zones add to the strain.",
+      "The Reserve Bank of India now treats heatwaves as a prudential risk, and draft climate-risk disclosure directions ask banks to map and stress-test heat exposure, though compliance remains voluntary for some.",
+      "At least one large public-sector bank now counts heat among 13 key climate hazards and is building sector-by-sector vulnerability tools."
+    ],
+    helps: [
+      { name: "Parametric insurance", text: "Payouts that arrive automatically when heat crosses a set threshold, so informal workers and smallholders have a buffer against lost income. SEWA’s heat cover for women informal workers is the leading Indian example." },
+      { name: "Blended finance", text: "Concessional or patient capital that takes early risk so commercial money can follow, for example into near-farm storage that cuts heat spoilage and lets farmers avoid distress sales." },
+      { name: "Green and resilience bonds", text: "Large, long-term capital for resilient public buildings, water and urban infrastructure; Indonesia’s sovereign Green Sukuk has raised over US$10 billion since 2018 for climate-resilient projects." },
+      { name: "Shared heat-risk data", text: "Standard, location-specific heat-risk information, such as the RBI’s Climate Risk Information System, so lenders can assess exposure without each building their own." },
+      { name: "Lending tied to heat outcomes", text: "Loan terms linked to measurable results such as lower indoor temperatures, lower peak power demand or more cool-roof coverage, rather than broad ESG scores." },
+      { name: "City-level financing platforms", text: "Pooling many small projects, such as cool roofs and efficient cooling for public buildings, into portfolios that banks and investors can finance, as municipal rooftop-solar bonds have done in Surat and New Delhi." }
+    ],
+    shift: "The commentary’s central point: the financial system needs to move from financing vulnerability to financing resilience.",
+    source: { label: "Namita Vikas, commentary, Mongabay India, 29 June 2026", url: "https://india.mongabay.com/2026/06/indias-banks-are-sitting-on-a-heat-risk-they-have-barely-begun-to-price-commentary/" },
+    note: "A commentary: the views are the author’s. Figures are as reported there, with links to the original sources in the article."
+  },
   cases: [
     { id: "wcsi", status: "reported", name: "Heat income cover for women informal workers", where: "Gujarat and north-western India", hazard: "Extreme heat",
       paid: "Premiums were paid largely by Climate Resilience for All, with members contributing; reported amounts differ by source and year.",
