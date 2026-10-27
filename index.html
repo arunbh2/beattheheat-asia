@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
 
-  <link rel="stylesheet" href="styles.css?v=126">
+  <link rel="stylesheet" href="styles.css?v=127">
 
   <script type="application/ld+json">
   {
@@ -111,11 +111,11 @@
   }
   </script>
   <link rel="alternate" type="text/plain" href="/llms-full.txt" title="The whole map as plain text">
-  <script src="data.js?v=126" defer></script>
-  <script src="script.js?v=126" defer></script>
-  <script src="heatweek.js?v=126" defer></script>
-  <script src="guide.js?v=126" defer></script>
-  <script src="/join.js?v=126" defer></script>
+  <script src="data.js?v=127" defer></script>
+  <script src="script.js?v=127" defer></script>
+  <script src="heatweek.js?v=127" defer></script>
+  <script src="guide.js?v=127" defer></script>
+  <script src="/join.js?v=127" defer></script>
 </head>
 
 <body>
@@ -131,10 +131,10 @@
   <header class="site-header">
     <a class="wordmark" href="./"><span class="wordmark__mark" aria-hidden="true"></span>COMMON SHADE</a>
     <nav class="header-nav" aria-label="Main sections">
-      <a href="#explore">The web</a>
-      <a href="#loops">Where loops break</a>
+      <a href="#explore">The map</a>
+      <a href="#loops">Breaking the cycles</a>
       <a href="#day">A day in a heatwave</a>
-      <a href="#who-holds">Who holds the levers</a>
+      <a href="#who-holds">Who can act</a>
       <a href="#plan">Plan a response</a>
       <a href="#network">The heat network</a>
     </nav>
@@ -148,8 +148,8 @@
         <div class="site-menu__group">
           <h2 class="site-menu__h" id="menu-g1">Understand</h2>
           <ul aria-labelledby="menu-g1">
-            <li><a href="#explore"><span class="site-menu__t">The web<small>Every consequence of heat, and how each leads to the next</small></span></a></li>
-            <li><a href="#loops"><span class="site-menu__t">Where loops break<small>The vicious cycles, and where they can be cut</small></span></a></li>
+            <li><a href="#explore"><span class="site-menu__t">The map<small>Every consequence of heat, and how each leads to the next</small></span></a></li>
+            <li><a href="#loops"><span class="site-menu__t">Breaking the cycles<small>The vicious cycles, and where they can be cut</small></span></a></li>
             <li><a href="#day"><span class="site-menu__t">A day in a heatwave<small>Eight hours, seven places across Asia</small></span></a></li>
             <li><a href="#heat-now"><span class="site-menu__t">Heat right now<small>Live readings for twelve Asian cities</small></span></a></li>
             <li><a href="/news/" target="_blank" rel="noopener"><span class="site-menu__t"><span>Heat in the news<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></span><small>Headlines and new research, refreshed automatically</small></span></a></li>
@@ -165,7 +165,7 @@
             <li><a href="/practical/" target="_blank" rel="noopener"><span class="site-menu__t"><span>Find practical actions<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></span><small>What to do, by setting, and what keeps it working</small></span></a></li>
             <li><a href="#cooling"><span class="site-menu__t">Cooling options<small>What to build where people are, and how to keep it working</small></span></a></li>
             <li><a href="/finance/" target="_blank" rel="noopener"><span class="site-menu__t"><span>Paying for protection<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></span><small>Who pays, how money arrives, and whether it lasts</small></span></a></li>
-            <li><a href="#who-holds"><span class="site-menu__t">Who holds the levers<small>The institutions that can act, and how</small></span></a></li>
+            <li><a href="#who-holds"><span class="site-menu__t">Who can act<small>The institutions that can act, and how</small></span></a></li>
             <li><a href="#stalls"><span class="site-menu__t">Why action stalls<small>Seven conditions, and what moves them</small></span></a></li>
             <li><a href="#network"><span class="site-menu__t">The heat network<small>Organisations already at work</small></span></a></li>
             <li><a href="/join/" target="_blank" rel="noopener"><span class="site-menu__t"><span>Help build Common Shade<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></span><small>Help shape what comes next</small></span></a></li>
@@ -253,7 +253,8 @@
 
     <!-- ============ START HERE (part 23 of data.js) ============ -->
     <section class="start" id="start" aria-labelledby="start-title">
-      <div class="container">
+      <div class="container has-spot">
+        <svg class="spot spot--start" viewBox="0 0 260 160" aria-hidden="true" focusable="false"><g fill="none" stroke="#16202B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M10 150 H250" opacity=".4"/><path d="M130 150 V40"/><path d="M130 50 H196 L210 62 L196 74 H130" stroke="#F26430"/><path d="M130 84 H70 L56 96 L70 108 H130"/><path d="M130 116 H180 L192 126 L180 136 H130" opacity=".6"/><circle cx="206" cy="84" r="8"/><path d="M206 92 V120 M206 120 L197 150 M206 120 L215 150 M206 98.8 L184 82.8 M206 98.8 L214 118.8"/></g></svg>
         <p class="eyebrow">Start here</p>
         <h2 id="start-title" class="start__h">Find your way in</h2>
         <p class="loops__intro">Answer two questions and the site will suggest a short path, with how long each stop takes and what you will leave with.</p>
@@ -289,7 +290,7 @@
               <button type="button" id="break-reset" class="link" data-act="reset-levers" hidden>Switch everything off</button>
             </div>
             <div class="pkg-chips" id="pkg-chips" role="group" aria-label="Policy packages"></div>
-            <p class="breakbar__hint">Choose a package, or turn on “Show where loops break”, click any teal marker on the map and switch it on. This is an illustrative systems map: real effect depends on reach, quality and how long an action lasts. <a href="#method">How this map works</a></p>
+            <p class="breakbar__hint">Choose a package, or turn on “Show where loops break”, click any break marker on the map and switch it on. This is an illustrative systems map: real effect depends on reach, quality and how long an action lasts. <a href="#method">How this map works</a></p>
           </div>
 
           <form class="pathfinder" id="path-form">
@@ -338,17 +339,12 @@
 
     <!-- ============ 3. WHERE THE LOOPS BREAK ============ -->
     <section class="loops" id="loops" aria-labelledby="loops-title">
-      <!-- Hope behind the heading: rooftops being painted white. AI-generated, illustrative, muted. Started by script.js. -->
-      <div class="loops__scene" aria-hidden="true">
-        <video class="loops__video" id="roofs-video" muted loop playsinline preload="none" data-poster="media/loops-break/roofs.jpg" tabindex="-1">
-          <source src="media/loops-break/roofs.mp4" type="video/mp4">
-          <source src="media/loops-break/roofs.webm" type="video/webm">
-        </video>
+      <!-- Drawn scene: neighbours painting a roof white and planting a tree. The white spreads as you scroll. -->
+      <div class="loops__scene scene--drawn" aria-hidden="true">
+        <svg class="drawn drawn--side drawn--loops" viewBox="0 0 600 420" aria-hidden="true" focusable="false"><g fill="none" stroke="#16202B" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 392 H590" opacity=".5"/><path d="M40 392 V250 H330 V392 M70 392 V320 H110 V392 M150 290 h40 v34 h-40 Z M230 290 h40 v34 h-40 Z"/><rect class="lb-paint" x="40" y="238" width="290" height="12" fill="#FFFFFF" stroke="#F26430" stroke-width="2"/><path d="M40 250 H330" /><circle cx="120" cy="156" r="10"/><path d="M120 166 V200 M120 200 L109 238 M120 200 L131 238 M120 174.0 L150 204.0 M120 174.0 L142 208.0"/><path d="M150 268 L176 238 M168 236 h20" stroke="#F26430"/><circle cx="250" cy="164" r="9"/><path d="M250 173 V204 M250 204 L240 238 M250 204 L260 238 M250 180.39999999999998 L226 210.39999999999998 M250 180.39999999999998 L264 204.39999999999998"/><path d="M226 266 L214 238 M206 236 h18" stroke="#F26430"/><path d="M352 392 L392 240 M376 392 L416 240 M360 362 h22 M366 336 h22 M372 310 h22 M380 284 h22 M386 260 h22" opacity=".8"/><path d="M480 392 V330 M480 330 q-34 -4 -30 -34 q4 -28 30 -24 q28 -4 32 24 q4 30 -32 34"/><circle cx="540" cy="310" r="10"/><path d="M540 320 V354 M540 354 L529 392 M540 354 L551 392 M540 328.0 L514 350.0 M540 328.0 L526 358.0"/><path d="M500 364 l-10 -8 h-10 v10 h10 Z" stroke="#F26430"/><path d="M486 372 q-4 8 0 14 M480 374 q-4 8 0 12" stroke="#F26430" opacity=".7"/><circle cx="520" cy="80" r="26" fill="#F26430" stroke="#F26430"/></g></svg>
       </div>
-      <button type="button" class="scene-pause" id="roofs-pause" aria-pressed="false" hidden><span class="intro__pause-icon" aria-hidden="true"></span><span class="visually-hidden">Pause background footage</span></button>
-      <p class="scene-note">AI-generated footage, illustrative: cool roofs being painted</p>
       <div class="container">
-        <p class="eyebrow eyebrow--break">Where the loops break</p>
+        <p class="eyebrow eyebrow--break">Breaking the cycles</p>
         <h2 id="loops-title" class="h2"><span class="num-urgent" data-stat="loops">18</span> vicious cycles. <br><span class="num-break" data-stat="levers">26</span> ways to break them.</h2>
         <p class="loops__intro">Each <button type="button" class="term" data-term="viciouscycle" aria-expanded="false">vicious cycle</button> feeds itself, but every loop has weak links: points where one well-placed action stops the cycle from feeding itself. The strongest levers break several loops at once, and the pressure points are where many loops meet.</p>
 
@@ -440,15 +436,10 @@
 
 
     <section class="atrisk" id="at-risk" aria-labelledby="atrisk-title">
-      <!-- A woman carrying water across rainfed fields. AI-generated, illustrative. Started by script.js. -->
-      <div class="sec-scene sec-scene--field" aria-hidden="true">
-        <video class="sec-scene__video" id="field-video" muted loop playsinline preload="none" data-poster="media/atrisk/field.jpg" tabindex="-1">
-          <source src="media/atrisk/field.mp4" type="video/mp4">
-          <source src="media/atrisk/field.webm" type="video/webm">
-        </video>
+      <!-- Drawn scene: one sun, five people, five different barriers. -->
+      <div class="sec-scene sec-scene--field scene--drawn" aria-hidden="true">
+        <svg class="drawn drawn--side drawn--atrisk" viewBox="0 0 600 420" aria-hidden="true" focusable="false"><g fill="none" stroke="#16202B" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><g class="ar-sun"><circle cx="300" cy="70" r="30" fill="#F26430" stroke="#F26430"/><path d="M300 20 v-14 M300 120 v14 M250 70 h-14 M350 70 h14 M265 35 l-10 -10 M335 35 l10 -10 M265 105 l-10 10 M335 105 l10 10" stroke="#F26430"/></g><path d="M10 380 H590" opacity=".5"/><path d="M20 394 H180 M40 406 H200" opacity=".3"/><circle cx="70" cy="298" r="10"/><path d="M70 308 V342 M70 342 L59 380 M70 342 L81 380 M70 316.0 L94 336.0 M70 316.0 L88 346.0"/><path d="M100 318 L82 380 M92 380 h-18"/><circle cx="180" cy="298" r="10"/><path d="M180 308 V342 M180 342 L169 380 M180 342 L191 380 M180 316.0 L168 290.0 M180 316.0 L192 290.0"/><path d="M164 272 q16 -18 32 0 q-4 14 -16 14 q-12 0 -16 -14 Z" stroke="#F26430"/><circle cx="290" cy="298" r="10"/><path d="M290 308 V342 M290 342 L284 380 M290 342 L298 380 M290 316.0 L308 338.0 M290 316.0 L280 340.0"/><path d="M308 324 V380"/><circle cx="390" cy="362" r="18"/><circle cx="420" cy="372" r="8"/><path d="M380 322 V350 H414 M380 350 L376 362 M414 350 L420 372 M380 304 L380 322 M380 318 L404 336"/><circle cx="380" cy="292" r="10"/><circle cx="500" cy="329" r="6"/><path d="M500 335 V356 M500 356 L493 380 M500 356 L507 380 M500 340 L490 356 M500 340 L510 356"/><path d="M520 340 h18 v20 h-18 Z" opacity=".7"/></g></svg>
       </div>
-      <button type="button" class="scene-pause" id="field-pause" aria-pressed="false" hidden><span class="intro__pause-icon" aria-hidden="true"></span><span class="visually-hidden">Pause background footage</span></button>
-      <p class="scene-note">AI-generated footage, illustrative: a rainfed field before the monsoon</p>
 
       <div class="container">
         <p class="eyebrow">Who heat hits hardest</p>
@@ -467,7 +458,8 @@
 
     <!-- ============ A WEEK IN THE HEAT (part 32 of data.js; built by script.js) ============ -->
     <section class="wk" id="heatweek" aria-labelledby="wk-title">
-      <div class="container">
+      <div class="container has-spot">
+        <svg class="spot spot--week" viewBox="0 0 260 160" aria-hidden="true" focusable="false"><g fill="none" stroke="#16202B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M10 150 H250" opacity=".4"/><rect x="24" y="40" width="150" height="74" rx="4"/><path d="M24 58 H174"/><rect x="30" y="68" width="14" height="14" /><rect x="50" y="68" width="14" height="14" /><rect x="70" y="68" width="14" height="14" /><rect x="90" y="68" width="14" height="14" fill="#F26430" stroke="#F26430"/><rect x="110" y="68" width="14" height="14" fill="#F26430" stroke="#F26430"/><rect x="130" y="68" width="14" height="14" /><rect x="150" y="68" width="14" height="14" /><circle cx="214" cy="80" r="8"/><path d="M214 89 V118 M214 118 L205 150 M214 118 L223 150 M214 95.6 L196 113.6 M214 95.6 L228 119.6"/><circle cx="192" cy="104" r="7" stroke="#F26430"/></g></svg>
         <p class="eyebrow eyebrow--break">A week in the heat</p>
         <h2 id="wk-title" class="h2">Can they stay safe <br>and still eat?</h2>
         <p class="loops__intro">Twelve workers in ten countries. Follow one worker’s money through a heatwave, build them a package of protection, then try to break it. Protection only counts when the person can actually use it. Each one opens in a new tab, so the map stays where you left it.</p>
@@ -478,8 +470,9 @@
 
     <!-- ============ 4. WHO HOLDS THE LEVERS ============ -->
     <section class="who-holds" id="who-holds" aria-labelledby="who-title">
-      <div class="container">
-        <p class="eyebrow eyebrow--break">Who holds the levers</p>
+      <div class="container has-spot">
+        <svg class="spot spot--whoholds" viewBox="0 0 260 160" aria-hidden="true" focusable="false"><g fill="none" stroke="#16202B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M10 150 H250" opacity=".4"/><path d="M20 150 V96 H70 V150 M20 96 L45 80 L70 96 M45 80 V66 M45 66 h12 l-4 5 l4 5 h-12" /><path d="M86 150 V100 H130 V150 M100 116 h16 M108 108 v16" /><path d="M146 150 V92 H190 V150 M146 92 L168 76 L190 92 M160 150 V126 H176 V150"/><path d="M212 150 L226 70 M240 150 L226 70 M218 120 h16 M222 100 h10"/><path d="M110 150 V128" stroke="#F26430"/><circle cx="110" cy="124" r="5" fill="#F26430" stroke="#F26430"/><circle cx="96" cy="105" r="6"/><path d="M96 110 V129 M96 129 L90 150 M96 129 L102 150 M96 114.80000000000001 L110 110.80000000000001"/></g></svg>
+        <p class="eyebrow eyebrow--break">Who can act</p>
         <h2 id="who-title" class="h2">Every loop runs <br>through an institution.</h2>
         <p class="loops__intro">Heat becomes deadly where nobody acts. Each breaking point belongs to someone: a ministry, a city, an employer, an insurer, a funder, a community. Choose one to see the loops it can help break.</p>
         <ul id="inst-list" class="inst-list"></ul>
@@ -507,7 +500,8 @@
 
     <!-- ============ FIND PRACTICAL ACTIONS (part 29 of data.js) ============ -->
     <section class="practical practical--link" id="practical" aria-labelledby="practical-title">
-      <div class="container">
+      <div class="container has-spot">
+        <svg class="spot spot--practical" viewBox="0 0 260 160" aria-hidden="true" focusable="false"><g fill="none" stroke="#16202B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M10 150 H250" opacity=".4"/><path d="M40 150 V40 M220 150 V40"/><path d="M40 44 L220 64 L120 90 Z" fill="#F26430" stroke="#F26430" opacity=".9"/><circle cx="80" cy="84" r="8"/><path d="M80 92 V120 M80 120 L71 150 M80 120 L89 150 M80 98.8 L52 68.8 M80 98.8 L96 118.8"/><circle cx="170" cy="84" r="8"/><path d="M170 92 V120 M170 120 L161 150 M170 120 L179 150 M170 98.8 L186 116.8 M170 98.8 L158 120.8"/><path d="M184 110 q10 -26 20 0 Z"/></g></svg>
         <p class="eyebrow eyebrow--break">Find practical actions</p>
         <h2 id="practical-title" class="h2">What works, who does it, <br>and what keeps it working.</h2>
         <div class="section-link"><a href="/practical/" target="_blank" rel="noopener"><b>Open practical actions <span aria-hidden="true">↗</span></b><span>Pick a setting or start from a question: workplaces, homes, schools, clinics, markets and the decisions a city makes before summer. Each card answers what to do, who it protects, who must act, what it takes to run, the evidence and what could stop it.<span class="visually-hidden"> (opens in a new tab)</span></span></a></div>
@@ -516,7 +510,8 @@
 
     <!-- ============ COOLING OPTIONS (from part 20 of data.js) ============ -->
     <section class="cooling" id="cooling" aria-labelledby="cooling-title">
-      <div class="container">
+      <div class="container has-spot">
+        <svg class="spot spot--cooling" viewBox="0 0 260 160" aria-hidden="true" focusable="false"><g fill="none" stroke="#16202B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M10 150 H250" opacity=".4"/><path d="M40 150 V80 H170 V150"/><path d="M34 80 H176" stroke="#FFFFFF" stroke-width="8"/><path d="M34 76 H176 M34 86 H176" stroke="#F26430" stroke-width="2"/><rect x="70" y="100" width="44" height="30"/><path d="M92 115 m-8 0 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0 M92 107 v16 M84 115 h16" opacity=".7"/><path d="M210 150 V96 M210 96 q-36 -4 -32 -36 q4 -30 32 -26 q30 -4 34 26 q4 32 -34 36"/></g></svg>
         <p class="eyebrow eyebrow--break">Cooling options</p>
         <h2 id="cooling-title" class="h2">Cool the places <br>where people are.</h2>
         <p class="loops__intro">Choose a place. Each shows what to build or change, what keeps it working, a rough cost and the trap to avoid. Every claim links to its source, and where the evidence is thin, the card says so.</p>
@@ -549,7 +544,8 @@
 
     <!-- ============ PAYING FOR HEAT PROTECTION (part 30 of data.js) ============ -->
     <section class="finance finance--link" id="finance" aria-labelledby="finance-title">
-      <div class="container">
+      <div class="container has-spot">
+        <svg class="spot spot--finance" viewBox="0 0 260 160" aria-hidden="true" focusable="false"><g fill="none" stroke="#16202B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M10 150 H250" opacity=".4"/><path d="M30 70 Q130 34 230 70 L230 78 Q130 44 30 78 Z" fill="#F26430" stroke="#F26430"/><circle cx="80" cy="84" r="8"/><path d="M80 92 V120 M80 120 L71 150 M80 120 L89 150 M80 98.8 L110 108.8 M80 98.8 L70 120.8"/><circle cx="180" cy="84" r="8"/><path d="M180 92 V120 M180 120 L171 150 M180 120 L189 150 M180 98.8 L150 108.8 M180 98.8 L190 120.8"/><rect x="120" y="86" width="20" height="16" rx="3" fill="#F26430" stroke="#F26430"/></g></svg>
         <p class="eyebrow eyebrow--break">Paying for protection</p>
         <h2 id="finance-title" class="h2">Who pays, how it arrives, <br>and whether it lasts.</h2>
         <div class="section-link"><a href="/finance/" target="_blank" rel="noopener"><b>Open paying for protection <span aria-hidden="true">↗</span></b><span>What needs paying for and when the money must arrive, three kinds of trigger, basis risk, the path from trigger to protection, whether it survives the next season, and what has been tried across Asia.<span class="visually-hidden"> (opens in a new tab)</span></span></a></div>
@@ -558,7 +554,8 @@
 
     <!-- ============ PLAN A RESPONSE ============ -->
     <section class="plan plan--launch" id="plan" aria-labelledby="plan-title">
-      <div class="container">
+      <div class="container has-spot">
+        <svg class="spot spot--plan" viewBox="0 0 260 160" aria-hidden="true" focusable="false"><g fill="none" stroke="#16202B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M10 150 H250" opacity=".4"/><path d="M50 108 H210 M64 108 V150 M196 108 V150"/><path d="M90 108 L100 92 H160 L170 108" /><circle cx="140" cy="98" r="4" fill="#F26430" stroke="#F26430"/><path d="M110 100 l12 -4 l10 6" opacity=".6"/><circle cx="40" cy="88" r="8"/><path d="M40 96 V122 M40 122 L32 150 M40 122 L48 150 M40 102.0 L70 120.0"/><circle cx="222" cy="88" r="8"/><path d="M222 96 V122 M222 122 L214 150 M222 122 L230 150 M222 102.0 L192 120.0"/><circle cx="130" cy="51" r="6"/><path d="M130 56 V75 M130 60.8 L144 70.8"/></g></svg>
         <p class="eyebrow eyebrow--break">Plan a response</p>
         <h2 id="plan-title" class="h2">Turn the map <br>into a plan.</h2>
         <p class="loops__intro">For a workshop or a team meeting. Six steps take you from who you are protecting to a plan you can run. The plan has a page of its own, so the map stays where you left it; anything you add here goes into the same plan.</p>
@@ -585,15 +582,10 @@
 
     <!-- ============ THE HEAT NETWORK ============ -->
     <section class="network" id="network" aria-labelledby="network-title">
-      <!-- A public drinking-water point in a market. AI-generated, illustrative. Started by script.js. -->
-      <div class="sec-scene sec-scene--water" aria-hidden="true">
-        <video class="sec-scene__video" id="water-video" muted loop playsinline preload="none" data-poster="media/network/water.jpg" tabindex="-1">
-          <source src="media/network/water.mp4" type="video/mp4">
-          <source src="media/network/water.webm" type="video/webm">
-        </video>
+      <!-- Drawn scene: a shaded public water point, people filling and sharing. -->
+      <div class="sec-scene sec-scene--water scene--drawn" aria-hidden="true">
+        <svg class="drawn drawn--side drawn--network" viewBox="0 0 600 420" aria-hidden="true" focusable="false"><g fill="none" stroke="#16202B" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 380 H590" opacity=".5"/><path d="M150 150 Q300 110 450 150 L450 162 Q300 124 150 162 Z" fill="#F26430" stroke="#F26430"/><path d="M160 160 V380 M440 160 V380"/><path d="M286 380 V250 H314 V380 M314 262 H346 V276"/><circle class="nw-drop" cx="346" cy="292" r="4" fill="#16202B"/><path d="M332 380 q14 -40 28 0 Z" stroke="#F26430"/><circle cx="390" cy="298" r="10"/><path d="M390 308 V342 M390 342 L379 380 M390 342 L401 380 M390 316.0 L366 346.0 M390 316.0 L372 356.0"/><circle cx="220" cy="298" r="10"/><path d="M220 308 V342 M220 342 L209 380 M220 342 L231 380 M220 316.0 L248 334.0 M220 316.0 L206 342.0"/><path d="M248 322 h12 v14 h-12 Z" stroke="#F26430"/><circle cx="270" cy="326" r="7"/><path d="M270 332 V355 M270 355 L263 380 M270 355 L277 380 M270 337.76 L256 331.76 M270 337.76 L280 353.76"/><circle cx="510" cy="298" r="10"/><path d="M510 308 V342 M510 342 L499 380 M510 342 L521 380 M510 316.0 L498 292.0 M510 316.0 L522 292.0"/><path d="M494 272 q16 -16 32 0 q-4 14 -16 14 q-12 0 -16 -14 Z"/><circle cx="80" cy="298" r="10"/><path d="M80 308 V342 M80 342 L69 380 M80 342 L91 380 M80 316.0 L100 340.0 M80 316.0 L70 342.0"/><path d="M100 346 h16 v22 h-16 Z" opacity=".7"/></g></svg>
       </div>
-      <button type="button" class="scene-pause" id="water-pause" aria-pressed="false" hidden><span class="intro__pause-icon" aria-hidden="true"></span><span class="visually-hidden">Pause background footage</span></button>
-      <p class="scene-note">AI-generated footage, illustrative: a public drinking-water point</p>
 
       <div class="container">
         <p class="eyebrow eyebrow--break">The heat network</p>
@@ -631,15 +623,10 @@
 
     <!-- ============ 5. WHY "WICKED"? ============ -->
     <section class="wicked" id="wicked" aria-labelledby="wicked-title">
-      <!-- Dusk behind the heading: towers with air conditioners beside low homes. AI-generated, illustrative, muted. Started by script.js. -->
-      <div class="wicked__scene" aria-hidden="true">
-        <video class="wicked__video" id="dusk-video" muted loop playsinline preload="none" data-poster="media/wicked/dusk.jpg" tabindex="-1">
-          <source src="media/wicked/dusk.mp4" type="video/mp4">
-          <source src="media/wicked/dusk.webm" type="video/webm">
-        </video>
+      <!-- Drawn scene: a tower cooling itself, its hot air landing on the low homes beside it. -->
+      <div class="wicked__scene scene--drawn" aria-hidden="true">
+        <svg class="drawn drawn--side drawn--wicked" viewBox="0 0 600 420" aria-hidden="true" focusable="false"><g fill="none" stroke="#F6E7D7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 400 H590" opacity=".5"/><path d="M60 400 V60 H200 V400"/><rect x="206" y="90" width="26" height="18"/><path d="M210 99 h18" opacity=".6"/><rect x="206" y="138" width="26" height="18"/><path d="M210 147 h18" opacity=".6"/><rect x="206" y="186" width="26" height="18"/><path d="M210 195 h18" opacity=".6"/><rect x="206" y="234" width="26" height="18"/><path d="M210 243 h18" opacity=".6"/><rect x="206" y="282" width="26" height="18"/><path d="M210 291 h18" opacity=".6"/><rect x="206" y="330" width="26" height="18"/><path d="M210 339 h18" opacity=".6"/><rect x="206" y="378" width="26" height="18"/><path d="M210 387 h18" opacity=".6"/><path d="M84 84 h20 v22 h-20 Z M128 84 h20 v22 h-20 Z M160 84 h20 v22 h-20 Z" opacity=".55"/><path d="M84 132 h20 v22 h-20 Z M128 132 h20 v22 h-20 Z M160 132 h20 v22 h-20 Z" opacity=".55"/><path d="M84 180 h20 v22 h-20 Z M128 180 h20 v22 h-20 Z M160 180 h20 v22 h-20 Z" opacity=".55"/><path d="M84 228 h20 v22 h-20 Z M128 228 h20 v22 h-20 Z M160 228 h20 v22 h-20 Z" opacity=".55"/><path d="M84 276 h20 v22 h-20 Z M128 276 h20 v22 h-20 Z M160 276 h20 v22 h-20 Z" opacity=".55"/><path d="M84 324 h20 v22 h-20 Z M128 324 h20 v22 h-20 Z M160 324 h20 v22 h-20 Z" opacity=".55"/><g class="wk-heat" stroke="#F26430"><path d="M240 110 q14 -8 28 0 t28 0 t28 0"/><path d="M240 206 q14 -8 28 0 t28 0 t28 0"/><path d="M240 302 q14 -8 28 0 t28 0 t28 0"/></g><path d="M330 400 V300 L380 270 L430 300 V400 M450 400 V320 H560 V400 M370 400 V350 H392 V400 M480 340 h26 v22 h-26 Z"/><path d="M450 320 l55 -24 l55 24" opacity=".6"/><circle cx="500" cy="239" r="7"/><path d="M500 246 V269 M500 269 L492 296 M500 269 L508 296 M500 251.2 L518 241.2 M500 251.2 L488 265.2"/><path d="M518 268 l10 -8 a10 10 0 0 1 8 12 Z" fill="#F26430" stroke="#F26430"/><circle cx="540" cy="70" r="22" fill="#F26430" stroke="#F26430" opacity=".85"/></g></svg>
       </div>
-      <button type="button" class="scene-pause scene-pause--dark" id="dusk-pause" aria-pressed="false" hidden><span class="intro__pause-icon" aria-hidden="true"></span><span class="visually-hidden">Pause background footage</span></button>
-      <p class="day__scene-note">AI-generated footage, illustrative: it lands unequally</p>
       <div class="container">
         <p class="eyebrow">Why “wicked”?</p>
         <h2 id="wicked-title" class="h2">No single cause. <br>No single owner. <br>No finish line.</h2>
@@ -683,7 +670,7 @@
         <p class="closing__sub">Cut the right one, in the right institution, and whole loops stop.</p>
         <div class="closing__actions">
           <button type="button" class="btn btn--cta" data-random>Pull a thread at random</button>
-          <a class="btn btn--ghost" href="#loops">See where loops break</a>
+          <a class="btn btn--ghost" href="#loops">See how cycles break</a>
         </div>
       </div>
     </section>
@@ -691,7 +678,8 @@
 
     <!-- ============ HOW THIS MAP WORKS ============ -->
     <section class="method" id="method" aria-labelledby="method-title">
-      <div class="container">
+      <div class="container has-spot">
+        <svg class="spot spot--method" viewBox="0 0 260 160" aria-hidden="true" focusable="false"><g fill="none" stroke="#16202B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M10 150 H250" opacity=".4"/><circle cx="40" cy="60" r="7"/><circle cx="96" cy="40" r="7"/><circle cx="90" cy="100" r="7"/><circle cx="150" cy="70" r="7"/><path d="M46 57 L89 43 M45 66 L84 96 M97 47 L92 93 M103 43 L143 66 M96 98 L144 74" opacity=".6"/><circle cx="160" cy="80" r="26" stroke="#F26430"/><path d="M178 99 L200 122" stroke="#F26430" stroke-width="5"/><circle cx="226" cy="88" r="8"/><path d="M226 96 V122 M226 122 L218 150 M226 122 L234 150 M226 102.0 L208 94.0"/></g></svg>
         <p class="eyebrow">How this map works</p>
         <h2 id="method-title" class="h2">What the map shows, <br>and what it doesn’t.</h2>
         <div id="method-film" class="section-film"></div>
@@ -732,7 +720,8 @@
 
     <!-- ============ PLAIN-LANGUAGE GLOSSARY ============ -->
     <section class="glossary" id="glossary" aria-labelledby="glossary-title">
-      <div class="container">
+      <div class="container has-spot">
+        <svg class="spot spot--glossary" viewBox="0 0 260 160" aria-hidden="true" focusable="false"><g fill="none" stroke="#16202B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M10 150 H250" opacity=".4"/><path d="M130 70 C110 58 80 58 60 62 V130 C80 126 110 126 130 136 C150 126 180 126 200 130 V62 C180 58 150 58 130 70 Z M130 70 V136"/><path d="M150 18 h70 a10 10 0 0 1 10 10 v26 a10 10 0 0 1 -10 10 h-46 l-14 12 v-12 h-10 a10 10 0 0 1 -10 -10 v-26 a10 10 0 0 1 10 -10 Z" stroke="#F26430"/><path d="M180 30 q8 -6 14 2 q2 8 -8 10 v6 M186 54 v1" stroke="#F26430"/></g></svg>
         <p class="eyebrow">Plain-language glossary</p>
         <h2 id="glossary-title" class="h2">What does <br>wet-bulb mean?</h2>
         <p class="loops__intro"><span data-glossary-count>39</span> terms that come up again and again in heat, explained in a sentence or two. Words underlined with dots across the site open the same explanations.</p>

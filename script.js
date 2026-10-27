@@ -973,7 +973,7 @@
   function renderInstitution(id) {
     const inst = instById[id];
     panelBody.innerHTML = `
-      <p class="panel__kicker is-break">Who holds the levers</p>
+      <p class="panel__kicker is-break">Who can act</p>
       <h2 class="panel__title">${esc(inst.name)}</h2>
       <p class="panel__desc">${esc(inst.desc)}</p>
       <p class="inst-score"><strong>${inst.levers.length}</strong> lever${inst.levers.length === 1 ? "" : "s"} that can help break <strong>${inst.loops.size}</strong> of ${LOOPS.length} vicious cycles.</p>
@@ -2135,7 +2135,7 @@
       text: () => "This is the cooling trap. Air conditioners pump hot air into the street, the city gets hotter, and people need even more cooling. A loop like this feeds itself, year after year.",
       go: () => { const l = loopById.cooling; mark({ nodes: l.path, loopEdges: new Set(l.edges), flow: new Set(l.edges) }); declutter(); flyTo(l.path, { maxK: 1.2 }); } },
     { title: "Every loop has a weak link", lever: true,
-      text: () => "Switch on “Green, cool cities”. Trees, shade and cool roofs cut the link between hot streets and cooling demand. The loop turns teal, and the map cools a little.",
+      text: () => "Switch on “Green, cool cities”. Trees, shade and cool roofs cut the link between hot streets and cooling demand. The loop is broken, and the map cools a little.",
       go: () => { const l = loopById.cooling; state.on = new Set(["greencity"]); applyBreakState(); mark({ nodes: l.path, edges: new Set(l.edges), levers: ["greencity"] }); declutter(); flyTo(l.path, { maxK: 1.2 }); } },
     { title: "Now it’s your turn",
       text: () => `There are ${LOOPS.length} vicious cycles on this map and ${LEVERS.length} places to break them. Tap any dot, switch on a package to see which loops break and who has to act, or ask how one thing leads to another.`,
@@ -2193,7 +2193,7 @@
   function renderControls() {
     document.getElementById("filters").innerHTML = `<button class="chip" data-filter="all" aria-pressed="true">Whole web</button>` +
       SYSTEMS.map(s => `<button class="chip" data-filter="${s.id}" aria-pressed="false" style="--c:${s.color}"><span class="dot"></span>${esc(plain(s))}</button>`).join("");
-    document.getElementById("who").innerHTML = `<option value="">Who holds the levers?</option>` +
+    document.getElementById("who").innerHTML = `<option value="">Who can act?</option>` +
       INSTITUTIONS.map(i => `<option value="${i.id}">${esc(i.name)}</option>`).join("");
 
     const pk = document.getElementById("pkg-chips");

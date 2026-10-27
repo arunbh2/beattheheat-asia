@@ -2767,7 +2767,7 @@ const FIRST_FIVE = [
 // On phones, each of these sections opens as a short summary with one button. The text is the button's label.
 const SECTION_SUMMARIES = {
   "loops": "See the cycles and where they break", "day": "Walk through the day", "at-risk": "Meet the groups most at risk",
-  "who-holds": "See who holds the levers", "stalls": "See the seven conditions", "cooling": "Explore cooling options",
+  "who-holds": "See who can act", "stalls": "See the seven conditions", "cooling": "Explore cooling options",
   "network": "Browse the organisations", "wicked": "Read why heat is wicked", "method": "Read how the map works", "glossary": "Open the glossary"
 };
 
