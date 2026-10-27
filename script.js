@@ -2549,6 +2549,20 @@
       <h3 class="fin-h">Will it survive the next season?</h3>
       <ul class="fin-survive">${F.survive.map(q => `<li>${esc(q)}</li>`).join("")}</ul>
       <p class="fin-note">Many index-insurance pilots in Asia work technically but stall at renewal. ${src(F.surviveSource)}</p>
+      ${F.lenders ? `<section class="fin-lend" id="fin-lenders" aria-labelledby="fin-lenders-h">
+        <h3 class="fin-h" id="fin-lenders-h">${esc(F.lenders.title)}</h3>
+        <p class="fin-lend__intro">${esc(F.lenders.intro)}</p>
+        <div class="fin-lend__grid">
+          <figure class="fin-lend__film"><video controls playsinline preload="none" poster="/${esc(F.lenders.video.poster)}" aria-label="${esc(F.lenders.title)}: a ${esc(F.lenders.video.length)} drawn film">
+            <source src="/${esc(F.lenders.video.src)}" type="video/mp4"><track kind="captions" srclang="en" label="English" src="/${esc(F.lenders.video.captions)}" default></video>
+            <figcaption>A drawn film, ${esc(F.lenders.video.length)}, no sound; the words are on screen and in captions. Based on ${extLink(F.lenders.source.url, F.lenders.source.label)}</figcaption></figure>
+          <div><p class="fin-lend__k">What the commentary sets out</p><ul class="fin-lend__facts">${F.lenders.facts.map(f => `<li>${esc(f)}</li>`).join("")}</ul></div>
+        </div>
+        <p class="fin-lend__k">What could help, in combination</p>
+        <ul class="fin-lend__helps">${F.lenders.helps.map(h => `<li><b>${esc(h.name)}</b>${esc(h.text)}</li>`).join("")}</ul>
+        <p class="fin-lend__shift">${esc(F.lenders.shift)}</p>
+        <p class="fin-note">${esc(F.lenders.note)} ${extLink(F.lenders.source.url, F.lenders.source.label)}</p>
+      </section>` : ""}
       <h3 class="fin-h">What has been tried</h3>
       <div class="fin-cases">${F.cases.map(c => `<article class="fin-case" id="fin-${c.id}"><p class="pa-card__tags">${evTag(c.status)}</p><h4>${esc(c.name)}</h4><p class="fin-case__where">${esc(c.where)} · <span>${esc(c.hazard)}</span></p>
         <dl>${[["Who paid", c.paid], ["Who received it", c.received], ["What it made possible", c.enabled], ["What it left out", c.uncovered], ["Did it continue?", c.continued]].map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>

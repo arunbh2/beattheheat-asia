@@ -4120,6 +4120,40 @@ When money goes first to a government, cooperative or microfinance institution, 
 
 - What evidence would make you change it, or stop it?
 
+### When heat reaches lenders
+
+Heat does not stop at the household. When people earn less in a heatwave, loan repayments slow, and the strain travels up to microfinance institutions and banks. A 2026 commentary sets out how, and what could help.
+
+- Heatwaves in 2025 reduced how much lenders collected in the June quarter across loan books that depend on field visits, with a similar squeeze projected for 2026 in northern and central India.
+
+- About 60% of India’s ₹3.81 trillion microfinance portfolio is in agriculture and allied activities, and eastern India, among the most climate-vulnerable regions, holds roughly a third of it.
+
+- The borrowers most exposed (microfinance clients, farming households, gold-loan borrowers and self-employed informal workers) are also the most financially vulnerable, because their income depends on outdoor work and moving around.
+
+- When collections slow, lenders face a cash crunch of their own and turn to costlier short-term funding; branch closures and fewer field visits in hot zones add to the strain.
+
+- The Reserve Bank of India now treats heatwaves as a prudential risk, and draft climate-risk disclosure directions ask banks to map and stress-test heat exposure, though compliance remains voluntary for some.
+
+- At least one large public-sector bank now counts heat among 13 key climate hazards and is building sector-by-sector vulnerability tools.
+
+What could help, in combination:
+
+- Parametric insurance: Payouts that arrive automatically when heat crosses a set threshold, so informal workers and smallholders have a buffer against lost income. SEWA’s heat cover for women informal workers is the leading Indian example.
+
+- Blended finance: Concessional or patient capital that takes early risk so commercial money can follow, for example into near-farm storage that cuts heat spoilage and lets farmers avoid distress sales.
+
+- Green and resilience bonds: Large, long-term capital for resilient public buildings, water and urban infrastructure; Indonesia’s sovereign Green Sukuk has raised over US$10 billion since 2018 for climate-resilient projects.
+
+- Shared heat-risk data: Standard, location-specific heat-risk information, such as the RBI’s Climate Risk Information System, so lenders can assess exposure without each building their own.
+
+- Lending tied to heat outcomes: Loan terms linked to measurable results such as lower indoor temperatures, lower peak power demand or more cool-roof coverage, rather than broad ESG scores.
+
+- City-level financing platforms: Pooling many small projects, such as cool roofs and efficient cooling for public buildings, into portfolios that banks and investors can finance, as municipal rooftop-solar bonds have done in Surat and New Delhi.
+
+The commentary’s central point: the financial system needs to move from financing vulnerability to financing resilience.
+
+Source: Namita Vikas, commentary, Mongabay India, 29 June 2026 https://india.mongabay.com/2026/06/indias-banks-are-sitting-on-a-heat-risk-they-have-barely-begun-to-price-commentary/
+
 ### What has been tried
 
 #### Heat income cover for women informal workers (Gujarat and north-western India; Extreme heat)
