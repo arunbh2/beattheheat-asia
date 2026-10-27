@@ -3646,7 +3646,7 @@ const FINANCE = {
   lenders: {
     title: "When heat reaches lenders",
     intro: "Heat does not stop at the household. When people earn less in a heatwave, loan repayments slow, and the strain travels up to microfinance institutions and banks. A 2026 commentary sets out how, and what could help.",
-    video: { src: "media/films/heat-and-lenders.mp4", poster: "media/films/heat-and-lenders.jpg", captions: "media/films/heat-and-lenders.en.vtt", length: "0:58" },
+    video: { src: "media/films/heat-and-lenders.mp4", poster: "media/films/heat-and-lenders.jpg", captions: "media/films/heat-and-lenders.en.vtt", length: "1:34" },
     facts: [
       "Heatwaves in 2025 reduced how much lenders collected in the June quarter across loan books that depend on field visits, with a similar squeeze projected for 2026 in northern and central India.",
       "About 60% of India’s ₹3.81 trillion microfinance portfolio is in agriculture and allied activities, and eastern India, among the most climate-vulnerable regions, holds roughly a third of it.",

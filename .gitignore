@@ -1,1 +1,4 @@
 node_modules/
+
+# narration tracks are rebuilt by tools/films/narrate.py
+media/films/*.voice.wav
