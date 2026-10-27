@@ -15,7 +15,7 @@ const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + `
 ;Object.assign(this, { SYSTEMS, CONSEQUENCES, LINKS, LOOP_GROUPS, LOOPS, INSTITUTIONS, LEVERS, LOOP_PLACES, EVIDENCE, ORG_ROLES,
   ORGANISATIONS, GLOSSARY_GROUPS, GLOSSARY, WORKED_EXAMPLES, AT_RISK, AT_RISK_BARRIERS, STALLS, COOL_PLACES, COOL_TRAPS,
-  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, COOL_FX, COOL_REGION, HOME_HEATS, STRAIN, COOL_ASK, PLAN_GROUPS, PLAN_MECHANISMS, PLAN_MECH_NOTE, MCR2030, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL, LIVE_CITIES, CITY_PROFILES, CITY_HAP, HEATWAVES, HEATWAVES_NOTE, ACTION_SETTINGS, ACTION_LINES, ACTION_JOURNEYS, FINANCE, EVIDENCE_STATUS, ACTION_HORIZONS, HEAT_WEEK });`, ctx);
+  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, COOL_FX, COOL_REGION, HOME_HEATS, STRAIN, COOL_ASK, PLAN_GROUPS, PLAN_MECHANISMS, PLAN_MECH_NOTE, MCR2030, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL, LIVE_CITIES, CITY_PROFILES, CITY_HAP, HEATWAVES, HEATWAVES_NOTE, ACTION_SETTINGS, ACTION_LINES, ACTION_JOURNEYS, FINANCE, EVIDENCE_STATUS, ACTION_HORIZONS, HEAT_WEEK, MARKET_EXPLORER });`, ctx);
 const D = ctx, TODAY = new Date().toISOString().slice(0, 10);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const plain = s => String(s || "").replace(/\n/g, " ");
@@ -335,6 +335,13 @@ const CITY_PAGES = [];
         ...(c.delivery || []).map(([k, v]) => `- Delivery, ${k.toLowerCase()}: ${v}`), ...(c.examples || []).map(x => `Where it has been tried (${D.EVIDENCE_STATUS[x.status].name}): ${x.text} (${x.source.label}, ${x.source.url})`));
     });
   });
+  // Explore a market: the same notes as the interactive market on /practical/, for reading without JavaScript
+  const MX = D.MARKET_EXPLORER, mxHref = h => h.startsWith("#practical-") ? `/practical/${h}` : h.startsWith("#cool-") ? `/${h}` : h === "#plan" ? "/plan/" : h === "#finance" ? "/finance/" : h;
+  h += `<h2 id="market">${esc(MX.title)}</h2><p>${esc(MX.caption)} <a href="/practical/#market">Explore it as a drawing</a></p>` +
+    MX.hotspots.map(x => `<h3 id="market-${x.id}">${esc(x.label)}: ${esc(x.title)}</h3><ul><li><strong>What could help:</strong> ${esc(x.help)}</li><li><strong>What makes it work:</strong> ${esc(x.works)}</li><li><strong>People to involve (suggested roles):</strong> ${x.people.map(esc).join("; ")}.</li><li><strong>Look closer:</strong> ${x.look.map(l => `<a href="${mxHref(l.href)}">${esc(l.label)}</a>`).join(" · ")}</li></ul>` +
+      x.evidence.map(e => `<p><strong>Evidence</strong> (${esc(D.EVIDENCE_STATUS[e.status].name)}): ${esc(e.text)} ${ext(e.source.url, e.source.label)}</p>`).join("") + `<p class="meta">Limits: ${esc(x.limit)}</p>`).join("");
+  m.push(`### ${MX.title}`, MX.caption, ...MX.hotspots.flatMap(x => [`#### ${x.label}: ${x.title}`, `- What could help: ${x.help}`, `- What makes it work: ${x.works}`, `- People to involve (suggested roles): ${x.people.join("; ")}`,
+    ...x.evidence.map(e => `- Evidence (${D.EVIDENCE_STATUS[e.status].name}): ${e.text} (${e.source.label}, ${e.source.url})`), `- Limits: ${x.limit}`]));
   const HW = D.HEAT_WEEK;
   h += `<h2 id="heatweek">A week in the heat: an exercise</h2><p>On its own page, follow one worker’s money through a heatwave week, build a package of protection, then test it: money arriving late, insurance that does not trigger, falling ill without being admitted, water or power failing, missing ID, donor money ending. A measure counts only when the person can actually use it. <a href="/a-week-in-the-heat/">Open the exercise</a></p>
     ${HW.countries.map(c => `<h3 id="heatweek-${c.id}">${esc(c.name)}</h3><ul>${HW.people.filter(x => x.country === c.id).map(x => `<li><strong>${esc(x.name)}, ${esc(x.role.toLowerCase())}.</strong> ${esc(x.intro)}</li>`).join("")}</ul>

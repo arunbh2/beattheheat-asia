@@ -3493,6 +3493,89 @@ const ACTION_SETTINGS = [
     ] }
 ];
 // Questions visitors arrive with. go: a setting id, "stalls" for why interventions fail, or "finance" for Paying for protection.
+/* ---------- 29b. EXPLORE A MARKET (the illustrative market on /practical/) ----------
+   Editorial content only. The drawing is media/market/market.svg (built by tools/build-market-scene.py);
+   the behaviour is market.js. Each hotspot id matches a <g id="mx-ID"> in the drawing.
+   Every claim reuses a reviewed action record and keeps its evidence label (see docs/market-explorer.md).
+   Links that start with # follow the site's routing: #practical-… stays on the practical page,
+   #cool-… opens cooling options on the map, #plan opens the planner, #finance opens Paying for protection. */
+const MARKET_EXPLORER = {
+  title: "What could a heat-resilient market look like?",
+  intro: "Choose a feature to see what could help, and what it depends on.",
+  caption: "Illustrative setting, not a survey of a specific place. These are possibilities to explore, not a guarantee of protection. What works depends on local conditions and the people using the space.",
+  hotspots: [
+    { id: "canopy", label: "Stall canopy", pin: [730, 450],
+      title: "Shade where people trade and wait",
+      help: "Coverings over stalls, and over the walkways between them, can keep direct sun off vendors and shoppers. The right kind depends on the space: fixed or movable, one stall or shared along a row, and how air moves underneath.",
+      works: "Agree where it can go, and keep walkways and fire access clear. Vendors should help design it, nobody should lose their pitch to make room, and someone must repair, replace and storm-proof it.",
+      people: ["Vendors and their association", "The market manager or municipal authority", "Whoever installs and maintains it"],
+      look: [{ label: "Shade and water in markets, designed with vendors", href: "#practical-neighbourhoods" }, { label: "Shade options for markets, with rough costs", href: "#cool-markets" }],
+      evidence: [
+        { status: "measured", text: "Of 721 Delhi street vendors surveyed in April and May 2024, 80% saw fewer customers during heatwaves and 49% lost income.",
+          source: { label: "Greenpeace India and National Hawkers Federation, 2024", url: "https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/" } },
+        { status: "reported", text: "Young women vendors in Ahmedabad asked for shared shade sails covering about ten sellers each, and a licensed, fixed place to sell.",
+          source: { label: "AIDMI, southasiadisasters.net Issue 228, 2026", url: "https://www.preventionweb.net/publication/documents-and-publications/small-heat-resilience-measures-big-impact-small-towns-and" } }],
+      limit: "The survey describes the problem shade responds to in one city; it does not measure what a canopy changes." },
+    { id: "water", label: "Drinking-water point", pin: [120, 440],
+      title: "Water people can reach and use",
+      help: "A drinking-water point close to where people trade means vendors need not leave their stall, or spend their earnings, to drink. A tap stand, a refill point or a cooler topped up through the day can all play this role.",
+      works: "Someone has to keep it supplied, clean and tested, and fix it quickly when it breaks. It should be free or cheap, reachable by people using wheelchairs, and open during trading hours.",
+      people: ["The water utility or municipality", "The market committee", "A named caretaker", "Vendors, who know where it is needed"],
+      look: [{ label: "Safe water people do not have to buy", href: "#practical-work" }],
+      evidence: [
+        { status: "reported", text: "In Dhaka, the city water utility worked with local NGOs to bring 3,000 water connections into informal settlements through mini-networks joined to the city system.",
+          source: { label: "Agence Française de Développement: improving access to drinking water in Dhaka’s informal settlements", url: "https://www.afd.fr/en/projects/improve-access-drinking-water-dhakas-informal-settlements" } }],
+      limit: "These are household connections in informal settlements, not a market water point; they show a utility and local groups extending supply, not use or health effects." },
+    { id: "rest", label: "Resting place", pin: [915, 405],
+      title: "A place to pause and recover",
+      help: "A shaded bench or rest point, with water nearby, gives people somewhere to cool down in the hottest hours. In a market it can serve vendors, porters and shoppers, including older people and people out with children.",
+      works: "A rest place only helps if people can afford to use it. Vendors may need someone to mind the stall, and porters paid by the load lose money when they stop: breaks and income protection matter as much as the bench.",
+      people: ["Market management", "Vendor and worker associations", "Employers of porters and loaders", "Local health services"],
+      look: [{ label: "Worker cooling stations", href: "#practical-work" }, { label: "Income protection when it is too hot to work", href: "#practical-work" }],
+      evidence: [
+        { status: "reported", text: "The Migrants Resilience Collaborative reported that more than 27,000 workers used its cooling stations in India, Nepal and Bangladesh in one summer. These are the programme’s own figures.",
+          source: { label: "People’s Courage International, 2025", url: "https://www.peoplescourageinternational.org/pdfs/Emergency%20response%20to%20heat%20wave%20crisis%20in%20South%20and%20Southeast%20Asia.pdf" } },
+        { status: "measured", text: "In a survey of informal workers in Bangkok, nearly 80% had cut their hours because of heat.",
+          source: { label: "WIEGO and HomeNet Thailand, 2025", url: "https://www.wiego.org/wp-content/uploads/2025/10/WIEGO-Policy-Brief-33-Climate-Change-and-Heat-Stress.pdf" } }],
+      limit: "These are worker cooling stations and a survey of working hours, not market benches; health and income effects of the stations have not been independently measured." },
+    { id: "roof", label: "Nearby building roof", pin: [155, 150],
+      title: "A cooler roof next door",
+      help: "Vendors often store goods, eat or live in the buildings around a market. A reflective roof coating, or shade above the roof, can reduce how much heat passes into the rooms below.",
+      works: "Check the roof type, fire safety, ventilation and who owns the building first. Tenants should not face higher rent for the improvement, someone has to pay to recoat it, and heat also comes in through walls and windows.",
+      people: ["Building owners and tenants", "The municipality", "Community groups or contractors who apply and maintain coatings", "Funders"],
+      look: [{ label: "Cool roofs", href: "#practical-homes" }, { label: "Roof options for homes, with rough costs", href: "#cool-homes" }],
+      evidence: [
+        { status: "measured", text: "In a two-year trial in Burkina Faso, cool roofs lowered indoor temperatures by 1.2–1.7 °C and residents’ heart rates fell; a trial in about 400 Ahmedabad homes began in 2025.",
+          source: { label: "Reuters, via South China Morning Post, 2025", url: "https://www.scmp.com/news/asia/south-asia/article/3301810/indian-slums-get-cool-roofs-beat-summer-heat" } }],
+      limit: "These are homes, not shops or storerooms, and results may not transfer; roof type and local conditions decide what is possible." },
+    { id: "tree", label: "Tree", pin: [905, 215],
+      title: "Shade that grows",
+      help: "Trees can shade a market’s edges and resting places for decades. A young tree gives little shade at first, so planting now is part of a longer plan, alongside shade people can use this season.",
+      works: "Secure water and growing space before planting, and pay someone to care for the trees. Plan who benefits: greening should not push vendors or residents out of the place it improves.",
+      people: ["The municipality’s parks or horticulture team", "The water department", "Market users", "Local groups who can care for trees"],
+      look: [{ label: "Trees that survive", href: "#practical-neighbourhoods" }],
+      evidence: [
+        { status: "measured", text: "In one Berlin park more than 500 of 870 new trees died within ten years despite watering: count trees that survive, not saplings planted.",
+          source: { label: "Hansen et al., chapter 10 in Nature-Based Solutions for Cities, 2023", url: "https://doi.org/10.4337/9781800376762" } }],
+      limit: "A European park, not an Asian market: it shows why water and care decide survival, not how much shade a tree gives." },
+    { id: "vendor", label: "Vendor", pin: [250, 540],
+      title: "Protection that fits a working day",
+      help: "Vendors already adapt: many trade early and late and rest at midday. Support can build on that, with trading hours that allow it, a small grant for shade or water storage, and cash that arrives when heat makes trading impossible.",
+      works: "Ask vendors first. Their hours, earnings, transport and care for children shape what they can use. Support works when money arrives quickly and vendors have a say through their associations.",
+      people: ["Vendors and their associations", "The municipality and market management", "Microfinance groups or insurers", "Social protection agencies"],
+      look: [{ label: "Paying for protection", href: "#finance" }, { label: "Income protection when it is too hot to work", href: "#practical-work" }],
+      evidence: [
+        { status: "reported", text: "In Rewa, Madhya Pradesh, a ₹5,000 grant let a fruit and vegetable seller buy a large umbrella for himself and his produce, and a way to keep drinking water on his cart.",
+          source: { label: "AIDMI, southasiadisasters.net Issue 228, 2026", url: "https://www.preventionweb.net/publication/documents-and-publications/small-heat-resilience-measures-big-impact-small-towns-and" } },
+        { status: "reported", text: "Young women vendors in Ahmedabad already sell from 8 to 12 and from 4 to 8, resting through the hottest hours.",
+          source: { label: "AIDMI, southasiadisasters.net Issue 228, 2026", url: "https://www.preventionweb.net/publication/documents-and-publications/small-heat-resilience-measures-big-impact-small-towns-and" } }],
+      limit: "Individual accounts gathered by one organisation in Indian towns and cities: reported experience, not an evaluation." }
+  ],
+  next: [{ label: "Explore practical actions", href: "#pa-journeys" }, { label: "See cooling options", href: "#cool-markets" }],
+  plan: { label: "Ready to plan a response?", href: "#plan" },
+  join: { label: "Help build Common Shade", href: "/join/" }
+};
+
 const ACTION_JOURNEYS = [
   { q: "How do I protect outdoor workers?", go: "work" },
   { q: "How do I cool homes or classrooms?", go: "homes", also: "schools" },

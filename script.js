@@ -2607,7 +2607,7 @@
         <p class="cool-ask__out"><b>Keep the outcomes apart</b>${esc(COOL_ASK.outcomes)}</p></details>` : ""}
       <p class="cool-panel__measure"><b>How you will know</b>${esc(p.measure)}</p>
       <p class="risk__row risk__row--break"><span>On the map:</span> ${p.levers.filter(id => leverById[id]).map(id => `<button type="button" class="lever-chip" data-lever="${id}">${esc(leverById[id].title)}</button>`).join("")}</p>
-      <p class="cool-panel__add"><button type="button" class="btn btn--sm btn--teal" data-cool-add="${p.id}">Add these actions to my plan</button> ${printLink(`cooling-${p.id}`, `Print the ${p.name.toLowerCase()} sheet`)}</p>`;
+      <p class="cool-panel__add"><button type="button" class="btn btn--sm btn--teal" data-cool-add="${p.id}">Add these actions to my plan</button>${p.id === "markets" ? ` <a class="cool-mx" href="/practical/#market-canopy" target="_blank" rel="noopener">See it in a market<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a>` : ""} ${printLink(`cooling-${p.id}`, `Print the ${p.name.toLowerCase()} sheet`)}</p>`;
   }
   function renderCooling() {
     const tabs = document.getElementById("cool-tabs"); if (!tabs || !COOL.length) return;
