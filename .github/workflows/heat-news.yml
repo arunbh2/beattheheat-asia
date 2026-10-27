@@ -1,4 +1,5 @@
 # Refreshes feeds/news.json (heat headlines from South and Southeast Asia, via regional news outlets' RSS feeds and the GDELT Project) every six hours.
+# Also refreshes feeds/research.json, a snapshot of new research from Europe PMC (the page's fallback).
 # The site reads the file from raw.githubusercontent.com, so a new headline shows without a site rebuild.
 name: Heat news feed
 on:
@@ -20,11 +21,12 @@ jobs:
         with:
           node-version: 22
       - run: node tools/fetch-news.js
+      - run: node tools/fetch-research.js
       - name: Commit the feed if it changed
         run: |
-          if git diff --quiet -- feeds/news.json; then echo "No change"; exit 0; fi
+          if git diff --quiet -- feeds/news.json feeds/research.json && [ -z "$(git ls-files --others --exclude-standard feeds)" ]; then echo "No change"; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add feeds/news.json
+          git add feeds/
           git commit -m "Refresh heat news feed"
           git push
