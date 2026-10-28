@@ -1,21 +1,37 @@
 {
- "updated": "2026-10-27T22:25:49.290Z",
+ "updated": "2026-10-28T05:56:41.171Z",
  "keepDays": 14,
  "sources": [
   {
    "name": "regional news outlets",
    "ok": true,
-   "found": 502
+   "found": 501
   },
   {
    "name": "GDELT Project",
    "ok": false,
    "found": 0,
-   "error": "GDELT replied: Your query was too short or too long. "
+   "error": "HTTP 429: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic us"
   }
  ],
  "query": "(heatwave OR \"heat wave\" OR \"extreme heat\" OR \"heat stress\" OR heatstroke OR \"heat index\") (India OR Bangladesh OR Nepal OR \"Sri Lanka\" OR Pakistan OR Bhutan OR Maldives OR Cambodia OR Indonesia OR Philippines OR Singapore OR Thailand OR Vietnam OR Malaysia OR Myanmar OR Laos) sourcelang:english",
  "items": [
+  {
+   "title": "India among top countries with highest heatwave exposure for infants, older adults: Report",
+   "url": "https://www.thehindu.com/sci-tech/energy-and-environment/india-among-top-countries-with-highest-heatwave-exposure-for-infants-older-adults-report/article71634194.ece",
+   "domain": "thehindu.com",
+   "date": "2026-10-28T03:32:28Z",
+   "place": "India",
+   "via": "The Hindu"
+  },
+  {
+   "title": "Climate-linked heat deaths rise 36% since Paris Agreement; India also affected: Lancet",
+   "url": "https://www.hindustantimes.com/india-news/climatelinked-heat-deaths-rise-36-since-paris-agreement-india-also-affected-lancet-101793153952423.html",
+   "domain": "hindustantimes.com",
+   "date": "2026-10-28T02:19:11Z",
+   "place": "India",
+   "via": "Hindustan Times"
+  },
   {
    "title": "Dole orders safety measures for riders amid extreme heat",
    "url": "https://newsinfo.inquirer.net/2331096/dole-orders-safety-measures-for-riders-amid-extreme-heat",
