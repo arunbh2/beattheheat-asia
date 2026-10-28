@@ -283,6 +283,8 @@ const out = {};
 
 // cities: an index page and one page per city
 const CITY_PAGES = [];
+// cities whose country has a snapshot on /countries/ (tools/build-solutions.js) link to it
+const SNAP_SLUG = { Bangladesh: "bangladesh", India: "india", Indonesia: "indonesia", Nepal: "nepal", Philippines: "philippines", "Sri Lanka": "sri-lanka", Thailand: "thailand" };
 {
   const p = PAGES[8], live = Object.fromEntries(D.LIVE_CITIES.map(c => [c.id, c]));
   const intro = `What extreme heat is doing in ${D.CITY_PROFILES.length} Asian cities: whether each has a heat plan, the vicious cycles the evidence ties to it, who is hit hardest and who is already at work.`;
@@ -300,7 +302,8 @@ const CITY_PAGES = [];
       <h2>Vicious cycles the evidence ties to ${esc(c.name)}</h2>${loops.map(x => `<h3><a href="/loops/#${x.l.id}">${esc(x.l.name)}</a></h3><p>${esc(x.why)}</p><p class="meta">${esc(x.l.summary)} <a href="/#loop-${x.l.id}">Follow it on the map</a>.</p>`).join("")}
       <h2>Who heat hits hardest here</h2><ul>${risks.map(g => `<li><a href="/who-is-at-risk/#${g.id}">${esc(g.name)}</a></li>`).join("")}</ul>
       ${exs.length ? `<h2>A worked plan to learn from</h2>${exs.map(x => `<p><a href="/worked-plans/#${x.id}">${esc(x.title)}</a> (${esc(x.place)}, ${esc(x.year)})</p>`).join("")}` : ""}
-      <h2>Already at work here</h2><ul>${orgs.map(o => `<li>${ext(o.url, o.name)}: ${esc(o.does)}</li>`).join("")}</ul><p class="meta">Listing does not imply partnership, affiliation or endorsement.</p>`;
+      <h2>Already at work here</h2><ul>${orgs.map(o => `<li>${ext(o.url, o.name)}: ${esc(o.does)}</li>`).join("")}</ul><p class="meta">Listing does not imply partnership, affiliation or endorsement.</p>
+      ${SNAP_SLUG[c.country] ? `<h2>The national picture</h2><p>Plans and law, warnings, rules for heat at work, cooling, money and other cities in ${esc(c.country)}: <a href="/countries/${SNAP_SLUG[c.country]}/">the ${esc(c.country)} country snapshot</a>.</p>` : ""}`;
     const cpPage = { slug: `cities/${cp.id}`, title: `Extreme heat in ${c.name}: plans, cycles and who is at work`, short: c.name, parent: p };
     const cIntro = `${cp.tagline} Heat plan: ${status.toLowerCase()}.`;
     CITY_PAGES.push(cpPage);
@@ -461,10 +464,10 @@ console.log("Wrote", PAGES.length + CITY_PAGES.length, "pages, llms.txt, llms-fu
 // ---- /solutions/ and /countries/: the research libraries (before /sources/, which reads their links) ----
 require("./build-solutions.js");
 {
-  const extra = ["solutions", "countries", "countries/bangladesh", "countries/nepal", "countries/sri-lanka", "countries/thailand", "countries/indonesia"];
+  const extra = ["solutions", "countries", "countries/bangladesh", "countries/nepal", "countries/sri-lanka", "countries/thailand", "countries/indonesia", "countries/india", "countries/philippines"];
   const sm = fs.readFileSync(path.join(ROOT, "sitemap.xml"), "utf8");
   if (!sm.includes(`${SITE}/solutions/`)) fs.writeFileSync(path.join(ROOT, "sitemap.xml"), sm.replace("</urlset>", extra.map(x => `  <url><loc>${SITE}/${x}/</loc><lastmod>${TODAY}</lastmod><priority>0.7</priority></url>`).join("\n") + "\n</urlset>"));
-  fs.appendFileSync(path.join(ROOT, "llms.txt"), `\n## Solutions library and country snapshots\n\n- [Solutions library](${SITE}/solutions/): passive cooling, active cooling, and the plans, rules and money that make protection last, with evidence labels, costs, dry or humid suitability, and what each depends on\n- [Country snapshots](${SITE}/countries/): Bangladesh, Nepal, Sri Lanka, Thailand and Indonesia\n`);
+  fs.appendFileSync(path.join(ROOT, "llms.txt"), `\n## Solutions library and country snapshots\n\n- [Solutions library](${SITE}/solutions/): passive cooling, active cooling, and the plans, rules and money that make protection last, with evidence labels, costs, dry or humid suitability, and what each depends on\n- [Country snapshots](${SITE}/countries/): Bangladesh, India, Indonesia, Nepal, the Philippines, Sri Lanka and Thailand\n`);
 }
 
 // ---- /sources/: every source the site cites ----
