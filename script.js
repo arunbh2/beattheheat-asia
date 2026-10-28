@@ -2284,24 +2284,30 @@
     const R = typeof ORG_ROLES !== "undefined" ? ORG_ROLES : [];
     roles.innerHTML = `<button class="chip" data-role="all" aria-pressed="true">All <span>${ORGS.length}</span></button>` +
       R.map(r => `<button class="chip" data-role="${r.id}" aria-pressed="false">${esc(r.name)} <span>${ORGS.filter(o => o.role === r.id).length}</span></button>`).join("");
+    // demand, supply or platform: each organisation's main side in a heat alliance (ORG_SIDES, ORG_SIDE)
+    const SD = typeof ORG_SIDES !== "undefined" ? ORG_SIDES : [], SIDE = typeof ORG_SIDE !== "undefined" ? ORG_SIDE : {};
+    const sides = document.getElementById("org-sides");
+    if (sides && SD.length) sides.innerHTML = `<span class="org-sides__k" id="org-sides-k">Side</span><button class="chip" data-side="all" aria-pressed="true">All</button>` +
+      SD.map(x => `<button class="chip" data-side="${x.id}" aria-pressed="false" title="${esc(x.text)}">${esc(x.name)} <span>${ORGS.filter(o => SIDE[o.id] === x.id).length}</span></button>`).join("");
+    const sideDef = document.getElementById("org-side-def");
     list.innerHTML = ORGS.map(o => `
-      <li class="org" data-role="${o.role}">
-        <p class="org__role">${esc((R.find(r => r.id === o.role) || {}).name || "")}</p>
+      <li class="org" data-role="${o.role}" data-side="${SIDE[o.id] || ""}">
+        <p class="org__role">${esc((R.find(r => r.id === o.role) || {}).name || "")}${SIDE[o.id] ? `<span class="org__side org__side--${SIDE[o.id]}">${esc((SD.find(x => x.id === SIDE[o.id]) || {}).name || "")}</span>` : ""}</p>
         <h3 class="org__name">${extLink(o.url, o.name)}</h3>
         <p class="org__does">${gloss(o.does)}</p>
         <p class="org__levers">${o.levers.map(v => leverById[v] ? `<button class="lever-chip" data-lever="${v}">${esc(leverById[v].title)}</button>` : "").join("")}</p>
       </li>`).join("");
     // show a dozen at a time so the list never overwhelms
     const FIRST = 12;
-    let role = "all", expanded = false, query = "";
+    let role = "all", side = "all", expanded = false, query = "";
     const search = document.getElementById("org-search"), count = document.getElementById("org-count");
     const more = document.createElement("button");
     more.type = "button"; more.className = "btn btn--ghost btn--sm org-more";
     list.after(more);
     function showOrgs() {
       const q = query.trim().toLowerCase();
-      const match = [...list.querySelectorAll(".org")].filter(li => (role === "all" || li.dataset.role === role) && (!q || li.textContent.toLowerCase().includes(q)));
-      if (count) count.textContent = q ? (match.length ? `${plural(match.length, "organisation")} match “${query.trim()}”` : `No organisation on this list matches “${query.trim()}”.`) : "";
+      const match = [...list.querySelectorAll(".org")].filter(li => (role === "all" || li.dataset.role === role) && (side === "all" || li.dataset.side === side) && (!q || li.textContent.toLowerCase().includes(q)));
+      if (count) count.textContent = q ? (match.length ? `${plural(match.length, "organisation")} match “${query.trim()}”` : `No organisation on this list matches “${query.trim()}”.`) : (side !== "all" || role !== "all" ? `${plural(match.length, "organisation")} shown` : "");
       list.querySelectorAll(".org").forEach(li => { li.hidden = true; });
       match.forEach((li, i) => { li.hidden = !expanded && i >= FIRST; });
       more.hidden = match.length <= FIRST;
@@ -2314,6 +2320,13 @@
       const b = ev.target.closest("[data-role]"); if (!b) return;
       roles.querySelectorAll("[data-role]").forEach(x => x.setAttribute("aria-pressed", x === b ? "true" : "false"));
       role = b.dataset.role; expanded = false; showOrgs();
+    });
+    if (sides) sides.addEventListener("click", ev => {
+      const b = ev.target.closest("[data-side]"); if (!b) return;
+      sides.querySelectorAll("[data-side]").forEach(x => x.setAttribute("aria-pressed", x === b ? "true" : "false"));
+      side = b.dataset.side; expanded = false;
+      const def = SD.find(x => x.id === side); if (sideDef) { sideDef.textContent = def ? `${def.name}: ${def.text}` : ""; sideDef.hidden = !def; }
+      showOrgs();
     });
     showOrgs();
     const gf = document.getElementById("gaps-film"); if (gf) gf.innerHTML = watchButton("film:gaps", "Watch: where the gaps may be");

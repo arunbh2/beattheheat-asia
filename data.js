@@ -1995,6 +1995,71 @@ const ORGANISATIONS = [
   {"id":"delhiurbanshelterimprove","role":"asia","name":"Delhi Urban Shelter Improvement Board","url":"https://delhishelterboard.in","does":"Provides heat-season shelter arrangements and public shelter information.","levers":["affordablecool","coolhousing","coolnights"]},
   {"id":"nipponpaintindia","role":"cooling","name":"Nippon Paint India","url":"https://nipponpaint.co.in","does":"Lists a reflective roof-coating product for the Indian market.","levers":["coolhousing","coolbydesign"]}
 ];
+/* ---------- 31b. DEMAND, SUPPLY OR PLATFORM ---------- */
+// Each organisation's main side in a heat alliance, for mapping who needs protection, who provides it and who connects
+// the two. Many play more than one part; this is the main one, judged from what each is listed for in ORGANISATIONS.
+const ORG_SIDES = [
+  { id: "demand", name: "Demand", text: "Holds the need or the duty to protect people: governments and public agencies, employers, and organisations of the workers and communities affected." },
+  { id: "supply", name: "Supply", text: "Provides what protection needs: technology, services and delivery on the ground, insurance, lending and grants, research and data." },
+  { id: "platform", name: "Platform", text: "Connects demand and supply: networks, alliances and conveners, and the bodies that set shared rules or standards for a market." }
+];
+const ORG_SIDE = {
+  ghhin: "platform", ilo: "platform", unicef: "platform", zcra: "platform", hera: "platform", coolcoalition: "platform",
+  climatecentre: "supply", seforall: "platform", iea: "platform", ndma: "demand", ndrrma: "demand", ahmedabad: "demand",
+  dncc: "demand", nrcs: "supply", deped: "demand", bdrcs: "supply", icimod: "platform", adb: "supply",
+  escap: "platform", imd: "demand", pagasa: "demand", mom: "demand", ncdc: "demand", nea: "demand",
+  hko: "demand", tmd: "demand", ceew: "supply", lancet: "supply", nushrpc: "platform", cornellgli: "supply",
+  irri: "supply", icddrb: "supply", brac: "supply", iiser: "supply", iied: "supply", usyd: "supply",
+  salata: "supply", wriindia: "supply", gbl: "supply", irade: "supply", iihs: "supply", cstep: "supply",
+  teri: "supply", sfc: "supply", kul: "supply", smu: "supply", hkust: "supply", lshtm: "supply",
+  sriher: "supply", cept: "supply", lbnl: "supply", duke: "platform", practicalaction: "supply", pci: "supply",
+  worldbank: "supply", wmo: "platform", c40: "platform", vital: "supply", gbpn: "supply", startnetwork: "platform",
+  mercycorps: "supply", undp: "platform", unhabitat: "platform", undrr: "platform", rcn: "platform", iclei: "platform",
+  uclg: "platform", wiego: "demand", ifrc: "platform", cdkn: "platform", u4e: "platform", sewa: "demand",
+  mht: "supply", adra: "supply", homenet: "demand", aidmi: "supply", seeds: "supply", selco: "supply",
+  heatwatch: "supply", chintan: "supply", hasirudala: "demand", janpahal: "demand", jansahas: "supply", savechildren: "supply",
+  clasp: "supply", rmi: "supply", crrc: "platform", ecozen: "supply", tarutium: "supply", crc: "platform",
+  swissre: "supply", ibisa: "supply", icicilombard: "supply", howden: "supply", cpi: "supply", ifc: "supply",
+  base: "supply", bluemarble: "supply", celsiuspro: "supply", kmdastur: "supply", godigit: "supply", wtw: "supply",
+  aon: "supply", marsh: "supply", munichre: "supply", hannoverre: "supply", scor: "supply", gicre: "supply",
+  hdfcergo: "supply", axaclimate: "supply", msig: "supply", tokiomarine: "supply", generali: "supply", descartes: "supply",
+  arbol: "supply", wrms: "supply", hillridge: "supply", raincoat: "supply", pula: "supply", oko: "supply",
+  acre: "supply", floodflash: "supply", prudence: "supply", paa: "platform", temasektrust: "supply", rnp: "supply",
+  htparekh: "supply", rainmatter: "supply", chfc: "platform", ciff: "supply", climateworks: "supply", rockefeller: "supply",
+  wellcome: "supply", laudes: "supply", idrc: "supply", ikeafdn: "supply", scbf: "supply", howdenfdn: "supply",
+  icc: "platform", ccc: "platform", cimmyt: "supply", icrisat: "supply", wotr: "supply", bracngo: "supply",
+  helpage: "supply", pdmasindh: "demand", ncf: "supply", cdd: "supply", hi: "supply", hrw: "supply",
+  novonordisk: "supply", earthon: "supply", ramboll: "supply", nrfsg: "supply", rgchk: "supply", forskningsradet: "supply",
+  nsf: "supply", apn: "supply", nihr: "supply", icmr: "supply", snsf: "supply", moes: "supply",
+  dst: "supply", hecpk: "supply", lemelson: "supply", hkjc: "supply", pdjf: "supply", boschstiftung: "supply",
+  atecf: "supply", dcmshriram: "supply", cipla: "supply", dsgroup: "supply", hdfclife: "supply", cimbfdn: "supply",
+  yayasanpetronas: "supply", nusantarafund: "supply", wfasia: "supply", tewa: "supply", mamacash: "supply", bothends: "supply",
+  gfcf: "supply", doen: "supply", goodenergies: "supply", luce: "supply", metlife: "supply", stonefamily: "supply",
+  waterloo: "supply", suezfdn: "supply", halton: "supply", takeda: "supply", danonecomm: "supply", botnar: "supply",
+  opecfund: "supply", mas: "platform", bot: "platform", ojk: "platform", bsp: "platform", sbv: "platform",
+  bangladeshbank: "platform", nrb: "platform", rbi: "platform", sbfn: "platform", komida: "supply", cfi: "supply",
+  bracuniversityjamespgran: "supply", indianinstituteoftropica: "platform", indiameteorologicaldepar: "demand", worldhealthorganization: "platform", ministryofhealthindonesi: "demand", ministryofenvironmentind: "demand",
+  bmkgindonesia: "demand", universitasindonesia: "supply", hasanuddinuniversity: "supply", diponegorouniversity: "supply", seadrifinsurancecompany: "supply", asianinstituteoftechnolo: "supply",
+  rujakcenterforurbanstudi: "supply", universitikebangsaanmala: "supply", kotakitafoundation: "supply", thailandenvironmentinsti: "supply", rmituniversityvietnam: "supply", alluvium: "supply",
+  royaluniversityofphnompe: "supply", indianinstituteofpublich: "supply", varanasimunicipalcorpora: "demand", churudistrictadministrat: "demand", shrikashivishwanathtempl: "demand", ahmedabadmunicipalcorpor: "demand",
+  tatatrusts: "supply", globalresiliencepartners: "platform", homenetsouthasia: "demand", dhangadhisubmetropolitan: "demand", britishredcross: "supply", americanredcross: "supply",
+  instituteofhimalayanrisk: "supply", peopleinneed: "supply", danchurchaid: "supply", communityselfreliancecen: "supply", localinitiativesforbiodi: "supply", youthinnovationlab: "supply",
+  departmentofhydrologyand: "demand", ukmetoffice: "supply", agakhanuniversity: "supply", pakistanmeteorologicalde: "demand", sindhintegratedemergency: "supply", srilankaredcrosssociety: "supply",
+  departmentofmeteorologys: "demand", centralenvironmentalauth: "demand", nationalbuildingresearch: "supply", mdecinssansfrontiressout: "supply", ashden: "supply", cbalance: "supply",
+  theconduitfoundation: "platform", streetnetinternational: "demand", internationalunionoffood: "demand", htparekhfoundation: "supply", sattvaconsulting: "supply", bengalurusustainabilityf: "platform",
+  heatwatchfoundation: "supply", stjohnsmedicalcollegehos: "supply", helpageindia: "supply", dawateislamifgrf: "supply", ministryoflabourandemplo: "demand", employeesstateinsurancec: "demand",
+  keralastatedisastermanag: "demand", departmentofagricultured: "demand", generaleducationdepartme: "demand", energymanagementcentreke: "demand", geohazardsinternational: "supply", woodwellclimateresearchc: "supply",
+  ministryofjalshaktiindia: "demand", bangladeshmeteorological: "demand", directorategeneralofheal: "demand", bangkokmetropolitanadmin: "demand", pagasa2: "demand", ministryofsustainability: "demand",
+  workplacesafetyandhealth: "demand", sentosadevelopmentcorpor: "demand", spgroup: "supply", housingdevelopmentboards: "demand", banpunext: "supply", singaporegreenbuildingco: "supply",
+  buildingandconstructiona: "demand", urbanredevelopmentauthor: "demand", singaporeethcentre: "supply", singaporemanagementunive: "supply", singaporemitallianceforr: "supply", tumcreate: "supply",
+  cambridgecares: "supply", icicilombardgeneralinsur: "supply", cgap: "supply", buildchange: "supply", komida2: "supply", internationalfoodpolicyr: "supply",
+  stepchange: "supply", microsaveconsulting: "supply", africanriskcapacitylimit: "supply", internationallivestockre: "supply", foodandagricultureorgani: "platform", ukforeigncommonwealthand: "supply",
+  universityofthessalyfame: "supply", icleilocalgovernmentsfor: "platform", citiesclimatefinancelead: "platform", unenvironmentprogramme: "platform", globalenvironmentfacilit: "supply", bruhatbengalurumahanagar: "demand",
+  jakartaprovincialgovernm: "demand", quezoncitygovernment: "demand", brihanmumbaimunicipalcor: "demand", karachimetropolitancorpo: "demand", freetowncitycouncil: "demand", cityofathens: "demand",
+  daikin: "supply", greeelectricappliances: "supply", tsinghuauniversity: "supply", nikkensekkei: "supply", godrejenterprisesapplian: "supply", ateenterprises: "supply",
+  allianceforanenergyeffic: "supply", ceptuniversity: "supply", indianhotelscompanylimit: "demand", internationalorganizatio: "platform", bureauofenergyefficiency: "platform", disabilityrightsuk: "demand",
+  laislanetwork: "supply", delhidisastermanagementa: "demand", delhijalboard: "demand", bsesdelhidistributionuti: "supply", delhiurbanshelterimprove: "demand", nipponpaintindia: "supply",
+};
 
 /* ---------- 14. PLAIN-LANGUAGE GLOSSARY ---------- */
 // group: one of GLOSSARY_GROUPS ("extra" terms are explained where they appear but not listed).
