@@ -44,6 +44,11 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The pa
 
 - [The whole map in one file](https://beattheheat.asia/llms-full.txt): every page above as plain text, for reading in one go
 
+## Solutions library and country snapshots
+
+- [Solutions library](https://beattheheat.asia/solutions/): passive cooling, active cooling, and the plans, rules and money that make protection last, with evidence labels, costs, dry or humid suitability, and what each depends on
+- [Country snapshots](https://beattheheat.asia/countries/): Bangladesh, Nepal, Sri Lanka, Thailand and Indonesia
+
 ## Printable one-pagers
 
 - [All one-pagers](https://beattheheat.asia/print/): single A4 briefs for officials, planners and journalists
