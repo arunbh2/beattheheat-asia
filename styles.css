@@ -2994,3 +2994,15 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 .lsols__foot { margin: 10px 0 0; font-size: .82rem; color: var(--grey-700); }
 .lsols__foot a { color: var(--ink); text-decoration-color: var(--orange); text-underline-offset: 3px; }
 .panel .lsols { margin-top: 16px; }
+
+/* Heat network: demand, supply or platform (ORG_SIDES) */
+.org-sides { align-items: center; margin-top: -8px; }
+.org-sides__k { font-size: .78rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--grey-700); margin-right: 2px; }
+.org-side-def { margin: -8px 0 14px; font-size: .9rem; color: var(--grey-700); max-width: 70ch; }
+.org-side-def[hidden] { display: none; }
+.org-csv { margin: 0 0 16px; font-size: .88rem; color: var(--grey-700); max-width: 70ch; }
+.org-csv a { color: var(--ink); font-weight: 600; text-decoration-color: var(--orange); text-underline-offset: 3px; }
+.org__side { display: inline-block; margin-left: 8px; padding: 1px 8px; border-radius: 999px; font-size: .72rem; font-weight: 700; letter-spacing: .03em; text-transform: none; vertical-align: 1px; }
+.org__side--demand { background: var(--ember-50); color: var(--ember-deep, var(--ember)); }
+.org__side--supply { background: var(--sand-100); color: var(--ink); }
+.org__side--platform { background: var(--ink); color: #fff; }

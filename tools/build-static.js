@@ -15,7 +15,7 @@ const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + `
 ;Object.assign(this, { SYSTEMS, CONSEQUENCES, LINKS, LOOP_GROUPS, LOOPS, INSTITUTIONS, LEVERS, LOOP_PLACES, EVIDENCE, ORG_ROLES,
   ORGANISATIONS, GLOSSARY_GROUPS, GLOSSARY, WORKED_EXAMPLES, AT_RISK, AT_RISK_BARRIERS, STALLS, COOL_PLACES, COOL_TRAPS,
-  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, COOL_FX, COOL_REGION, HOME_HEATS, STRAIN, COOL_ASK, PLAN_GROUPS, PLAN_MECHANISMS, PLAN_MECH_NOTE, MCR2030, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL, LIVE_CITIES, CITY_PROFILES, CITY_HAP, HEATWAVES, HEATWAVES_NOTE, ACTION_SETTINGS, ACTION_LINES, ACTION_JOURNEYS, FINANCE, EVIDENCE_STATUS, ACTION_HORIZONS, HEAT_WEEK, MARKET_EXPLORER, LOOP_SOLUTIONS });`, ctx);
+  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, COOL_FX, COOL_REGION, HOME_HEATS, STRAIN, COOL_ASK, PLAN_GROUPS, PLAN_MECHANISMS, PLAN_MECH_NOTE, MCR2030, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL, LIVE_CITIES, CITY_PROFILES, CITY_HAP, HEATWAVES, HEATWAVES_NOTE, ACTION_SETTINGS, ACTION_LINES, ACTION_JOURNEYS, FINANCE, EVIDENCE_STATUS, ACTION_HORIZONS, HEAT_WEEK, MARKET_EXPLORER, LOOP_SOLUTIONS, ORG_SIDES, ORG_SIDE });`, ctx);
 const D = ctx, TODAY = new Date().toISOString().slice(0, 10);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const plain = s => String(s || "").replace(/\n/g, " ");
@@ -263,10 +263,21 @@ const out = {};
 // heat network
 {
   const p = PAGES[7], intro = `${D.ORGANISATIONS.length} organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.`;
-  let h = "", m = [`## ${p.title}`, intro];
+  const sideName = id => (D.ORG_SIDES.find(x => x.id === D.ORG_SIDE[id]) || {}).name || "";
+  const missing = D.ORGANISATIONS.filter(o => !D.ORG_SIDE[o.id]).map(o => o.id);
+  if (missing.length) throw new Error("ORG_SIDE has no side for: " + missing.join(", "));
+  const sidesIntro = `Each organisation is marked with its main side in a heat alliance. ${D.ORG_SIDES.map(x => `${x.name}: ${x.text}`).join(" ")} Many play more than one part; this is the main one.`;
+  let h = `<p>${esc(sidesIntro)}</p><p><a href="/heat-network/heat-network.csv" download>Download the whole list as a spreadsheet (CSV)</a></p>`, m = [`## ${p.title}`, intro, sidesIntro];
   D.ORG_ROLES.forEach(r => { const os = D.ORGANISATIONS.filter(o => o.role === r.id); if (!os.length) return;
-    h += `<h2 id="${r.id}">${esc(r.name)}</h2><ul>${os.map(o => `<li>${ext(o.url, o.name)}: ${esc(o.does)}</li>`).join("")}</ul>`;
-    m.push(`### ${r.name}`, ...os.map(o => `- ${o.name}: ${o.does} (${o.url})`)); });
+    h += `<h2 id="${r.id}">${esc(r.name)}</h2><ul>${os.map(o => `<li>${ext(o.url, o.name)} <span class="meta">(${esc(sideName(o.id))})</span>: ${esc(o.does)}</li>`).join("")}</ul>`;
+    m.push(`### ${r.name}`, ...os.map(o => `- ${o.name} (${sideName(o.id)}): ${o.does} (${o.url})`)); });
+  // the same list as a spreadsheet, for mapping and alliance design: one row per organisation
+  const cell = v => /[",\r\n]/.test(String(v)) ? `"${String(v).replace(/"/g, '""')}"` : String(v);
+  const roleName = id => (D.ORG_ROLES.find(r => r.id === id) || {}).name || "";
+  const leverTitle = id => (D.LEVERS.find(v => v.id === id) || {}).title || "";
+  const rows = [["Organisation", "Side", "Group on the site", "What it does", "Levers it works on", "Link"],
+    ...D.ORGANISATIONS.map(o => [o.name, sideName(o.id), roleName(o.role), o.does, (o.levers || []).map(leverTitle).filter(Boolean).join("; "), o.url])];
+  fs.writeFileSync(path.join(ROOT, "heat-network", "heat-network.csv"), "\uFEFF" + rows.map(r => r.map(cell).join(",")).join("\r\n") + "\r\n");
   out[p.slug] = page(p, intro, h); md.push(m.join("\n\n"));
 }
 
