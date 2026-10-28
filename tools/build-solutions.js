@@ -7,7 +7,7 @@
 const fs = require("fs"), path = require("path"), vm = require("vm");
 const ROOT = path.join(__dirname, ".."), R = path.join(ROOT, "research", "2026-10"), SITE = "https://beattheheat.asia";
 const ctx = {}; vm.createContext(ctx);
-vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + ";Object.assign(this,{EVIDENCE_STATUS,INSTITUTIONS,LEVERS,ACTION_SETTINGS,LOOPS})", ctx);
+vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + ";Object.assign(this,{EVIDENCE_STATUS,INSTITUTIONS,LEVERS,ACTION_SETTINGS,LOOPS,LOOP_SOLUTIONS})", ctx);
 const D = ctx, J = f => JSON.parse(fs.readFileSync(path.join(R, f), "utf8"));
 const STATUS = fs.existsSync(path.join(R, "link-status.json")) ? J("link-status.json") : {};
 const live = u => !!u && STATUS[u] !== "FAIL";
@@ -22,7 +22,7 @@ const lever = id => { const l = D.LEVERS.find(x => x.id === id); return l ? (l.n
 const ICON = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2316202B'/%3E%3Cpath d='M5 14 Q16 4 27 14' fill='none' stroke='%23F26430' stroke-width='4.5' stroke-linecap='round'/%3E%3Cpath d='M9 13 V27 M23 13 V27' stroke='%23F6E7D7' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E";
 const V = (fs.readFileSync(path.join(ROOT, "index.html"), "utf8").match(/styles\.css\?v=(\d+)/) || [, "1"])[1];
 const FOOT_CLOSE = (fs.readFileSync(path.join(ROOT, "practical", "index.html"), "utf8").match(/  <aside class="foot-close"[\s\S]*?<\/aside>\n/) || [""])[0];
-const NAV = `<nav aria-label="Elsewhere on the site"><a href="/#explore">The map</a><a href="/practical/">Practical actions</a><a href="/plan/">Plan a response</a><a href="/news/">Heat in the news</a><a href="/join/">Help build Common Shade</a></nav>`;
+const NAV = `<nav aria-label="Elsewhere on the site"><a href="/#explore">The map</a><a href="/practical/">Practical actions</a><a href="/solutions/">Solutions</a><a href="/plan/">Plan a response</a><a href="/news/">Heat in the news</a><a href="/join/">Help build Common Shade</a></nav>`;
 const page = ({ slug, title, desc, body, script = "" }) => `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,7 +45,7 @@ const page = ({ slug, title, desc, body, script = "" }) => `<!DOCTYPE html>
   <a class="skip-link" href="#main">Skip to the content</a>
   <header class="wkp-top"><div class="container wkp-top__in">
     <a class="wkp-home" href="/"><span class="wordmark__mark" aria-hidden="true"></span>COMMON SHADE<span class="visually-hidden">: back to the map</span></a>
-    ${NAV}
+    ${slug === "solutions" ? NAV.replace('<a href="/solutions/">', '<a href="/solutions/" aria-current="page">') : NAV}
   </div></header>
   <main id="main" tabindex="-1">${body}</main>
 ${FOOT_CLOSE}  <footer class="wkp-foot"><div class="container">
@@ -111,6 +111,10 @@ function activeBits(rec) {
     field("In a power cut", para(rec, rec.grid_dependence)) + field("The cooling-trap risk", rec.cooling_trap ? `<p>${esc(rec.cooling_trap.risk || T(rec.cooling_trap))}${rec.cooling_trap.mitigation ? ` <span class="sol-note">What helps: ${esc(rec.cooling_trap.mitigation)}</span>` : ""}</p>` : "") +
     field("For the poorest", para(rec, rec.affordability_for_poorest));
 }
+// the vicious cycles each solution is matched to on the map (LOOP_SOLUTIONS in data.js), for a link back from its card
+const BREAKS = {};
+Object.entries(ctx.LOOP_SOLUTIONS).forEach(([lid, x]) => x.items.forEach(i => (BREAKS[i.id] = BREAKS[i.id] || []).push(lid)));
+const loopName = id => (ctx.LOOPS.find(l => l.id === id) || {}).name || id;
 function card(rec, lib) {
   const ev = evidence(rec), ex = examples(rec), ef = effects(rec);
   const statuses = [...(rec.evidence || []).filter(e => e.source && live(e.source.url)).map(e => e.status), ...(rec.examples || []).map(e => e.status)];
@@ -120,7 +124,7 @@ function card(rec, lib) {
   const settings = (rec.settings || []).filter(s => D.ACTION_SETTINGS.some(x => x.id === s));
   const q = [rec.name, famName(rec.family), mech, ...settings.map(setting), ...(rec.levers || []).map(lever)].join(" ").toLowerCase();
   const u = rec.uncertainty || {};
-  return { best, html: `<details class="sol" id="${esc(rec.id)}" data-type="${lib.type}" data-settings="${esc(settings.join(" "))}" data-clim="${esc(cl.join(" "))}" data-best="${best}" data-q="${esc(q)}">
+  return { id: rec.id, best, html: `<details class="sol" id="${esc(rec.id)}" data-type="${lib.type}" data-settings="${esc(settings.join(" "))}" data-clim="${esc(cl.join(" "))}" data-best="${best}" data-q="${esc(q)}">
       <summary><span class="sol-h">${esc(rec.name)}</span><span class="sol-tags"><span class="sol-type sol-type--${lib.type}">${esc(lib.label)}</span>${climLabel(cl) ? `<span class="sol-clim">${esc(climLabel(cl))}</span>` : ""}${tag(best)}</span><span class="sol-sum">${esc(mech.split(/(?<=\.)\s/)[0])}</span></summary>
       <div class="sol-body">
         ${field("How it works", para(rec, rec.mechanism))}
@@ -139,12 +143,18 @@ function card(rec, lib) {
         ${field("Moving it elsewhere", para(rec, rec.transferability))}
         ${(src => src ? `<div class="sol-f"><h4>Other sources</h4><ul class="sol-srcs">${src}</ul></div>` : "")(cardSources(rec, ev + ex + ef))}
         ${u.known || u.uncertain ? `<div class="sol-f sol-kiu"><h4>Known, inferred, uncertain</h4><p><b>Known:</b> ${esc(u.known || "")}</p>${u.inferred ? `<p><b>Inferred:</b> ${esc(u.inferred)}</p>` : ""}<p><b>Uncertain:</b> ${esc(u.uncertain || "")}</p></div>` : ""}
+        ${BREAKS[rec.id] ? `<p class="sol-go">On the map, it can help break: ${BREAKS[rec.id].map(l => `<a href="/#loop-${l}">${esc(loopName(l))}</a>`).join(" · ")}</p>` : ""}
         ${settings.length ? `<p class="sol-go">Related practical actions: ${settings.map(s => `<a href="/practical/#practical-${s}">${esc(setting(s))}</a>`).join(" · ")}</p>` : ""}
       </div>
     </details>` };
 }
 const E = J("common_shade_module_e.json");
 const libs = LIBS.map(l => ({ ...l, recs: J(l.file)[l.key].map(r => card(r, l)).filter(Boolean) }));
+{ // every solution named on the map must have a card here
+  const have = new Set(libs.flatMap(l => l.recs.map(r => r.id)));
+  const lost = Object.keys(BREAKS).filter(id => !have.has(id));
+  if (lost.length) throw new Error("LOOP_SOLUTIONS names solutions with no card: " + lost.join(", "));
+}
 const counts = Object.fromEntries(libs.map(l => [l.type, l.recs.length])), total = libs.reduce((t, l) => t + l.recs.length, 0);
 const nameById = Object.fromEntries(LIBS.flatMap(l => J(l.file)[l.key].map(r => [r.id, r.name])));
 const pkgs = (E.packages || []).map(p => `<article class="sol-pkg"><p class="sol-tags">${tag(p.package_status)}${(p.settings || []).map(s => `<span class="sol-clim">${esc(setting(s))}</span>`).join("")}</p>

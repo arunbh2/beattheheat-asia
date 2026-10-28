@@ -846,6 +846,8 @@ Where it plays out: Fast-growing cities across South and Southeast Asia, where a
 
 Where it breaks: Clean, efficient cooling
 
+Solutions to try (a suggested match, not a measured effect): Minimum energy performance standards for cooling appliances (https://beattheheat.asia/solutions/#system_minimum_energy_performance_standards); Transition to purpose-designed low-GWP room AC (https://beattheheat.asia/solutions/#system_low_gwp_room_ac_transition); Solar-reflective roof coatings (https://beattheheat.asia/solutions/#passive_cool_roof_coating); National cooling action plans and cross-sector implementation roadmaps (https://beattheheat.asia/solutions/#system_national_cooling_action_plans)
+
 - Southeast Asia’s air conditioners could rise from 40 million in 2017 to 300 million in 2040, half of them in Indonesia. Without more efficient units, cooling could drive as much as 30% of the region’s peak electricity demand. (International Energy Agency, 2019, https://www.iea.org/reports/the-future-of-cooling-in-southeast-asia) Type: Agency report, with projections. Where: Southeast Asia. Scale: Region-wide energy model. Limit: A projection to 2040 under stated policies, not a forecast; it changes with efficiency rules.
 
 - The world’s stock of air conditioners is set to grow from 1.6 billion to 5.6 billion by 2050, and the energy they use to triple, unless efficiency improves. (International Energy Agency, 2018, https://www.iea.org/reports/the-future-of-cooling) Type: Agency report, with projections. Where: Global. Scale: Global energy model. Limit: A projection to 2050 that assumes current trends; better efficiency changes it.
@@ -862,6 +864,8 @@ Where it plays out: Rain-fed farmland on the Indian subcontinent and in mainland
 
 Where it breaks: Deep emission cuts, Keep water in the soil
 
+Solutions to try (a suggested match, not a measured effect): Organic residue mulch for cooler crop root zones (https://beattheheat.asia/solutions/#passive_organic_soil_mulch); Shade-tree agroforestry for crops (https://beattheheat.asia/solutions/#passive_crop_agroforestry); Permeable pavements retaining rainfall for evaporative surface cooling (https://beattheheat.asia/solutions/#passive_permeable_pavements)
+
 - Reviews the evidence that dry soils amplify hot temperatures: with less water to evaporate, more of the sun’s energy goes into heating the air. (Seneviratne et al., Earth-Science Reviews, 2010, https://doi.org/10.1016/j.earscirev.2010.02.004) Type: Peer-reviewed review. Where: Global. Scale: Review of many studies. Limit: Explains a general mechanism; how strong it is varies by region and season.
 
 #### The melting-ice loop
@@ -877,6 +881,8 @@ In Southeast Asia (Papua, Indonesia): 99%. of the glacier area on Puncak Jaya, S
 Where it plays out: The Hindu Kush Himalaya, whose snow and ice feed rivers such as the Indus, Ganges and Brahmaputra.
 
 Where it breaks: Deep emission cuts, Cut black carbon
+
+Solutions to try (a suggested match, not a measured effect): Minimum energy performance standards for cooling appliances (https://beattheheat.asia/solutions/#system_minimum_energy_performance_standards); Transition to purpose-designed low-GWP room AC (https://beattheheat.asia/solutions/#system_low_gwp_room_ac_transition); National cooling action plans and cross-sector implementation roadmaps (https://beattheheat.asia/solutions/#system_national_cooling_action_plans)
 
 - Puncak Jaya’s glaciers, the last in Southeast Asia, have lost more than 99% of their area since 1850 and about 65% since 2018. About 0.165 km² remained in 2024, and they will very likely be gone around 2030. (Ibel, Mölg and Sommer, The Cryosphere, 2025, https://tc.copernicus.org/articles/19/6629/2025/) Type: Peer-reviewed study. Where: Puncak Jaya, Indonesia. Scale: One glacier field, satellite and field data. Limit: One site; the 2030 date is the authors’ estimate.
 
@@ -896,6 +902,8 @@ Where it plays out: The dry-season burning belt of northern Thailand, Myanmar an
 
 Where it breaks: Deep emission cuts, Fire-smart landscapes
 
+Solutions to try (a suggested match, not a measured effect): Locally calibrated impact-based heat-warning triggers (https://beattheheat.asia/solutions/#nonphysical_impact_based_warning); Pre-agreed heat anticipatory action and forecast finance (https://beattheheat.asia/solutions/#nonphysical_forecast_based_finance); Pooled pre-arranged finance for heat action (https://beattheheat.asia/solutions/#nonphysical_pooled_risk_finance)
+
 - Indonesia’s forest and peatland fires of June to October 2015 cost the country an estimated US$16.1 billion. (World Bank, 2016, https://documents1.worldbank.org/curated/pt/776101467990969768/pdf/103668-BRI-Cost-of-Fires-Knowledge-Note-PUBLIC-ADD-NEW-SERIES-Indonesia-Sustainable-Landscapes-Knowledge-Note.pdf) Type: Agency report, economic estimate. Where: Indonesia. Scale: National, one fire season (2015). Limit: One exceptional year, in an El Niño; costs in other years differ.
 
 - Climate change and land-use change are making wildfires worse. Extreme fires are projected to rise by up to 14% by 2030 and 50% by the end of the century. (UNEP and GRID-Arendal, 2022, https://www.unep.org/resources/report/spreading-wildfire-rising-threat-extraordinary-landscape-fires) Type: Agency report, with projections. Where: Global. Scale: Global assessment. Limit: Global projections; not broken down for Asian countries.
@@ -913,6 +921,8 @@ What this cycle costs (Singapore): Up to 7 °C. warmer: how much hotter Singapor
 Where it plays out: Dense, high-rise city cores such as Hong Kong, Bangkok and Metro Manila.
 
 Where it breaks: Cool by design, Green, cool cities
+
+Solutions to try (a suggested match, not a measured effect): Solar-reflective roof coatings (https://beattheheat.asia/solutions/#passive_cool_roof_coating); Street trees and retained mature canopy (https://beattheheat.asia/solutions/#passive_street_trees); Efficient BLDC ceiling fans (https://beattheheat.asia/solutions/#active_bldc_ceiling_fan); Coordinated fans and higher-setpoint air conditioning (https://beattheheat.asia/solutions/#active_fan_assisted_ac_control)
 
 - In a Phoenix heatwave, waste heat from air conditioners raised night-time air temperatures by more than 1 °C in parts of the city. (Salamanca et al., Journal of Geophysical Research, 2014 (summary by Arizona State University), https://news.asu.edu/content/excess-heat-air-conditioners-causes-higher-nighttime-temperatures) Type: Peer-reviewed modelling study. Where: Phoenix, United States. Scale: One city, simulated heatwave. Limit: A desert city outside Asia; the size of the effect in humid Asian cities is not measured here. Our reading: We use it for the mechanism, not the number: waste heat from cooling warms the street outside.
 
@@ -936,6 +946,8 @@ Where it plays out: Coal-fired power plants along water-stressed rivers in India
 
 Where it breaks: Power that doesn’t need water, Backup power for water
 
+Solutions to try (a suggested match, not a measured effect): Solar/hybrid pumping with water storage for resilient water service (https://beattheheat.asia/solutions/#system_water_power_resilience); Heatwave grid-readiness planning and emergency resource coordination (https://beattheheat.asia/solutions/#system_heatwave_grid_readiness); Demand response and scheduled flexible loads to relieve heat-period peaks (https://beattheheat.asia/solutions/#system_demand_flexibility); Minimum energy performance standards for cooling appliances (https://beattheheat.asia/solutions/#system_minimum_energy_performance_standards)
+
 - Heatwaves in May and June 2023 pushed up demand while hydropower reservoirs ran low, and rolling blackouts hit northern Vietnam. The World Bank’s early estimate put the cost at about US$1.4 billion, roughly 0.3% of GDP. (World Bank estimate, reported by AFP via The Manila Times, 2023, https://manilatimes.net/2023/08/12/business/foreign-business/power-crisis-cost-vietnam-14b-wb/1904920/amp) Type: News report of a World Bank early estimate. Where: Northern Vietnam. Scale: National, one season (2023). Limit: An early estimate reported in the press; drought and demand both played a part.
 
 - 14 of India’s 20 largest thermal utilities shut down at least once for lack of water between 2013 and 2016. Water shortages cost 14 TWh of power in 2016. (World Resources Institute, 2018, https://www.wri.org/insights/40-indias-thermal-power-plants-are-water-scarce-areas-threatening-shutdowns) Type: Research institute analysis. Where: India. Scale: 20 largest thermal utilities, 2013–2016. Limit: Data from before 2017; plants and water rules have changed since.
@@ -954,6 +966,8 @@ Where it plays out: Punjab and Haryana in northwest India, where groundwater tab
 
 Where it breaks: Smart irrigation and groundwater rules
 
+Solutions to try (a suggested match, not a measured effect): Organic residue mulch for cooler crop root zones (https://beattheheat.asia/solutions/#passive_organic_soil_mulch); Shade-net structures for crop microclimate protection (https://beattheheat.asia/solutions/#passive_crop_shade_nets); Shade-tree agroforestry for crops (https://beattheheat.asia/solutions/#passive_crop_agroforestry)
+
 - Groundwater pumping has sped up the sinking of the Mekong delta, to more than 2.5 cm a year in some areas. (Minderhoud et al., Environmental Research Communications, 2020, https://iopscience.iop.org/article/10.1088/2515-7620/ab5e21) Type: Peer-reviewed modelling study. Where: Mekong delta, Vietnam. Scale: Delta-wide model. Limit: Sinking rates vary across the delta; the top rate is not everywhere.
 
 - Satellites show Rajasthan, Punjab and Haryana lost 109 km³ of groundwater between 2002 and 2008, mainly to irrigation, while rainfall stayed close to normal. (Rodell, Velicogna and Famiglietti, Nature, 2009, https://www.nature.com/articles/nature08238) Type: Peer-reviewed study, satellite data. Where: Rajasthan, Punjab and Haryana, India. Scale: Three states, 2002–2008. Limit: An older period; it measures water lost, not the heat link itself. Our reading: The heat link is ours: hotter, drier seasons raise the pull on groundwater that this study measures.
@@ -969,6 +983,8 @@ What this cycle costs (164 cities worldwide): 76%. of urban tree and shrub speci
 Where it plays out: Hot, fast-growing cities such as New Delhi and Singapore, where every urban tree species studied is at risk from rising heat.
 
 Where it breaks: Keep city trees alive
+
+Solutions to try (a suggested match, not a measured effect): Street trees and retained mature canopy (https://beattheheat.asia/solutions/#passive_street_trees); Community maintenance arrangements backed by public/service support (https://beattheheat.asia/solutions/#nonphysical_community_maintenance); Blue-green river corridors and naturalised drainage landscapes (https://beattheheat.asia/solutions/#passive_bluegreen_corridors); Permeable pavements retaining rainfall for evaporative surface cooling (https://beattheheat.asia/solutions/#passive_permeable_pavements)
 
 - Of 3,129 tree and shrub species in 164 cities, 56% already face temperatures beyond those in their natural range, rising to about 76% by 2050 under a mid-range warming scenario. Risk is highest in low-latitude cities such as New Delhi and Singapore. (Esperon-Rodriguez et al., Nature Climate Change, 2022, https://www.vibrantcitieslab.com/wordpress/wp-content/uploads/2023/08/climate-change-increases-global-risk-to-urban-forests.pdf) Type: Peer-reviewed study. Where: 164 cities in 78 countries. Scale: 3,129 species. Limit: Compares climate to each species’ natural range; trees can survive outside it with care.
 
@@ -987,6 +1003,8 @@ What breaking it saves (Ahmedabad, India): 1,190. deaths a year were estimated t
 Where it plays out: District and city hospitals during South Asia’s pre-monsoon heatwaves.
 
 Where it breaks: Heat action plans, Heat-ready health services
+
+Solutions to try (a suggested match, not a measured effect): Heat-ready clinic protocols and staff capability (https://beattheheat.asia/solutions/#nonphysical_clinic_readiness); Heat surge staffing, triage and referral coordination (https://beattheheat.asia/solutions/#nonphysical_surge_referral); Resilient power for health-facility cooling and cold-chain loads (https://beattheheat.asia/solutions/#system_health_critical_power); Locally calibrated impact-based heat-warning triggers (https://beattheheat.asia/solutions/#nonphysical_impact_based_warning)
 
 - Heat-related deaths among people over 65 reached a record 167% above the 1990s level in 2023. (Lancet Countdown, The Lancet, 2024, https://doi.org/10.1016/S0140-6736(24)01822-1) Type: Peer-reviewed global assessment. Where: Global. Scale: Global indicators. Limit: A global figure; it does not give Asia’s share.
 
@@ -1007,6 +1025,8 @@ In Southeast Asia (Bangkok, Thailand): 75%. of home-based workers in Bangkok los
 Where it plays out: Construction sites, brick kilns, farms and street markets across South and Southeast Asia.
 
 Where it breaks: Heat-safe work, Income protection in heatwaves, Social protection floors
+
+Solutions to try (a suggested match, not a measured effect): Paid rest, shade and drinking-water protocols (https://beattheheat.asia/solutions/#nonphysical_paid_recovery); Reschedule work and reduce peak-heat task exposure (https://beattheheat.asia/solutions/#nonphysical_workhour_changes); Parametric heat insurance for income shocks (https://beattheheat.asia/solutions/#nonphysical_parametric_heat_insurance); Scale up existing social protection for heat risk (https://beattheheat.asia/solutions/#nonphysical_shock_responsive_social_protection)
 
 - In a survey of informal workers in Bangkok, nearly 80% had cut their hours because of heat, and 75% of home-based workers lost at least one day of work a month to their own or a family member’s heat illness. (WIEGO and HomeNet Thailand, 2025, https://www.wiego.org/wp-content/uploads/2025/10/WIEGO-Policy-Brief-33-Climate-Change-and-Heat-Stress.pdf) Type: Survey. Where: Bangkok, Thailand. Scale: Informal workers in one city. Limit: Self-reported, from workers in one city.
 
@@ -1034,6 +1054,8 @@ Where it plays out: Households without health insurance, where most medical cost
 
 Where it breaks: Heat-safe work, Free care for heat illness
 
+Solutions to try (a suggested match, not a measured effect): Reduce financial barriers to heat-related care (https://beattheheat.asia/solutions/#nonphysical_financial_access_to_care); Heat-triggered cash outside an insurance contract (https://beattheheat.asia/solutions/#nonphysical_noninsurance_cash); Scale up existing social protection for heat risk (https://beattheheat.asia/solutions/#nonphysical_shock_responsive_social_protection); Community-health-worker heat education and referral (https://beattheheat.asia/solutions/#nonphysical_community_heat_education)
+
 - Cambodia’s average microloan was over US$5,800 in 2024, more than four times the country’s median annual income per person. (Human Rights Watch, 2025, https://www.hrw.org/report/2025/09/24/debt-traps/predatory-microfinance-loans-and-exploitation-of-cambodias-indigenous) Type: Human rights investigation. Where: Cambodia. Scale: National loan data with interviews. Limit: Shows how heavy debt is; it does not measure the part heat plays.
 
 - Medicine costs alone were catastrophic for 11.2% of Indian households in 2011–12, about 29 million households. (Selvaraj, Farooqui and Karan, BMJ Open, 2018, https://bmjopen.bmj.com/content/8/5/e018020) Type: Peer-reviewed study. Where: India. Scale: National household survey, 2011–12. Limit: Older data on all medicine costs, not heat illness alone. Our reading: We read it as the hole a heat illness can fall into; the study does not single out heat.
@@ -1052,6 +1074,8 @@ Where it plays out: Tin-roofed informal settlements in cities such as Dhaka, Kar
 
 Where it breaks: Free care for heat illness, Affordable cooling for the poorest
 
+Solutions to try (a suggested match, not a measured effect): Prevent heat-period electricity/water disconnection for inability to pay (https://beattheheat.asia/solutions/#nonphysical_utility_heat_protection); Solar-reflective roof coatings (https://beattheheat.asia/solutions/#passive_cool_roof_coating); Efficient BLDC ceiling fans (https://beattheheat.asia/solutions/#active_bldc_ceiling_fan); On-bill financing and tariff-based cost recovery for efficient cooling (https://beattheheat.asia/solutions/#system_on_bill_finance)
+
 - 1.12 billion of the rural and urban poor are at high risk because they lack access to cooling. (Sustainable Energy for All, 2023, https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-global-access-to-cooling-gaps-2023) Type: Agency report. Where: Global, with country estimates. Scale: Global model. Limit: Risk of lacking cooling, estimated from income, power and heat data, not a direct survey.
 
 #### The displacement loop
@@ -1067,6 +1091,8 @@ In Southeast Asia (East Asia and the Pacific): 49 million. people in East Asia a
 Where it plays out: Migrant settlements on the edges of fast-growing cities such as Dhaka.
 
 Where it breaks: Income protection in heatwaves, Cool, affordable housing
+
+Solutions to try (a suggested match, not a measured effect): Independent over-roof shade, including ventilated PV shade (https://beattheheat.asia/solutions/#passive_independent_roof_shade); Public air-conditioned cooling centre or shared refuge (https://beattheheat.asia/solutions/#active_public_cooling_centre); Multilingual heat information and routes for migrant workers (https://beattheheat.asia/solutions/#nonphysical_multilingual_migrant_access); Heat-vulnerability mapping linked to beneficiary targeting (https://beattheheat.asia/solutions/#nonphysical_vulnerability_targeting)
 
 - Without action, as many as 49 million people in East Asia and the Pacific could become internal climate migrants by 2050. (World Bank, 2021, https://www.worldbank.org/en/news/press-release/2021/09/13/climate-change-could-force-216-million-people-to-migrate-within-their-own-countries-by-2050) Type: Agency report, with projections. Where: East Asia and the Pacific. Scale: Regional model. Limit: A worst-case scenario to 2050; covers all climate drivers, not heat alone.
 
@@ -1085,6 +1111,8 @@ In Southeast Asia (Philippines): 3.6 million. students in the Philippines lost c
 Where it plays out: School systems that closed classrooms during the 2024 heatwaves, including in the Philippines and Bangladesh.
 
 Where it breaks: Keep children in school
+
+Solutions to try (a suggested match, not a measured effect): School heat operating plans, water access and escalation (https://beattheheat.asia/solutions/#nonphysical_school_heat_operations); Closure decisions with offline learning continuity (https://beattheheat.asia/solutions/#nonphysical_learning_continuity); Schoolyard greening, depaving and shade as a coordinated retrofit (https://beattheheat.asia/solutions/#passive_schoolyard_greening); Heat-responsive school timetables and activity changes (https://beattheheat.asia/solutions/#nonphysical_school_timetables)
 
 - Without air conditioning, each 1 °F hotter school year cuts that year’s learning by about 1%, and the losses fall hardest on disadvantaged students. (Park, Goodman, Hurwitz and Smith, American Economic Journal: Economic Policy, 2020, https://www.aeaweb.org/doi/10.1257/pol.20180612) Type: Peer-reviewed study. Where: United States. Scale: 10 million students. Limit: US schools and tests; the size of the effect in Asian classrooms is not known. Our reading: We use it for direction: hotter school years mean less learning, and the poorest lose most.
 
@@ -1108,6 +1136,8 @@ Where it plays out: Tropical cities whose nights stay hot, such as Bangkok, Chen
 
 Where it breaks: Cool nights and support
 
+Solutions to try (a suggested match, not a measured effect): Night flushing / night-purge ventilation (https://beattheheat.asia/solutions/#passive_night_flushing); Solar-reflective roof coatings (https://beattheheat.asia/solutions/#passive_cool_roof_coating); Efficient BLDC ceiling fans (https://beattheheat.asia/solutions/#active_bldc_ceiling_fan); Night-time and round-the-clock outreach with heat escalation (https://beattheheat.asia/solutions/#nonphysical_night_outreach)
+
 - Singapore averaged 76 warm nights a year (above 26.3 °C) over the last 40 years; by the end of the century such nights could occur on most nights of the year. (National Environment Agency, Singapore, 2024, https://www.nea.gov.sg/media/news/news/index/latest-climate-projections-for-singapore-show-intensifying-urban-heat-and-more-wet-dry-extremes) Type: Government climate study. Where: Singapore. Scale: National, with projections. Limit: End-of-century figures depend on the emissions scenario.
 
 - Data from 47,628 people in 68 countries shows hot nights shorten sleep, with bigger losses for older people and in lower-income countries. (Minor et al., One Earth, 2022, https://orbit.dtu.dk/en/publications/rising-temperatures-erode-human-sleep-globally/) Type: Peer-reviewed study. Where: 68 countries. Scale: 47,628 people, sleep wristbands. Limit: Most wearers live in higher-income countries; the poorest, who sleep hottest, are under-represented.
@@ -1130,6 +1160,8 @@ Where it plays out: Riverbanks, canals and old inner-city sites turned into park
 
 Where it breaks: Green without pushing people out
 
+Solutions to try (a suggested match, not a measured effect): Women-led co-design and worker governance (https://beattheheat.asia/solutions/#nonphysical_women_led_codesign); Heat-vulnerability mapping linked to beneficiary targeting (https://beattheheat.asia/solutions/#nonphysical_vulnerability_targeting); Community maintenance arrangements backed by public/service support (https://beattheheat.asia/solutions/#nonphysical_community_maintenance)
+
 - Across 28 cities in 9 countries, greening in the 1990s and 2000s was strongly linked to gentrification between 2000 and 2016 in 17 of them. (Anguelovski et al., Nature Communications, 2022, https://doi.org/10.1038/s41467-022-31572-1) Type: Peer-reviewed study. Where: 28 cities in Europe and North America. Scale: 28 cities, 2000–2016. Limit: No Asian cities in the sample. Our reading: We treat it as a warning for Asia’s greening plans, not proof it happens the same way there.
 
 - Green space tends to favour wealthier neighbourhoods, and new parks meant to fix that can raise housing costs and displace the residents they were meant to help. Small, local projects are more likely to reach those who need them. (Wolch, Byrne and Newell, Landscape and Urban Planning, 2014, https://urbansustainability.seas.umich.edu/wp-content/uploads/2014/06/Making-cities-just-green-enough.pdf) Type: Peer-reviewed review. Where: Mostly the United States. Scale: Literature review. Limit: Mostly US evidence.
@@ -1149,6 +1181,8 @@ What this cycle costs (Delhi, India): 49%. of 721 Delhi street vendors surveyed 
 Where it plays out: Market towns and city high streets in heat-exposed districts, and lenders whose loans are collected door to door, as in microfinance across northern and central India.
 
 Where it breaks: Heat-smart lending
+
+Solutions to try (a suggested match, not a measured effect): Heat-relevant housing and cooling credit with technical appraisal (https://beattheheat.asia/solutions/#nonphysical_heat_smart_lending); Public shade structures, sails and market/queue canopies (https://beattheheat.asia/solutions/#passive_public_shade_structures); Parametric heat insurance for income shocks (https://beattheheat.asia/solutions/#nonphysical_parametric_heat_insurance); A fallback funding layer when an index misses real harm (https://beattheheat.asia/solutions/#nonphysical_basis_risk_fallback)
 
 - Across 2.7 million firms in 23 advanced economies, heat cut the productivity of small firms while medium and large firms showed no loss, and the largest grew revenue about 0.6 points faster than small firms after hot years. Losses lasted up to two years. Restaurants and hotels were hit hard, partly through lower demand. (OECD Economics Department, Working Paper No. 1828, 2024, https://doi.org/10.1787/19d94638-en) Type: Working paper. Where: 23 advanced economies. Scale: 2.7 million firms. Limit: Rich economies; small informal firms in Asia are not covered.
 
@@ -1174,6 +1208,8 @@ Where it plays out: Rain-fed farming districts of India, Pakistan and Bangladesh
 
 Where it breaks: Crop insurance and fair credit
 
+Solutions to try (a suggested match, not a measured effect): Shade-net structures for crop microclimate protection (https://beattheheat.asia/solutions/#passive_crop_shade_nets); Organic residue mulch for cooler crop root zones (https://beattheheat.asia/solutions/#passive_organic_soil_mulch); Parametric heat insurance for income shocks (https://beattheheat.asia/solutions/#nonphysical_parametric_heat_insurance); Pre-agreed heat anticipatory action and forecast finance (https://beattheheat.asia/solutions/#nonphysical_forecast_based_finance)
+
 - Heat raises suicide rates in India only during the growing season, when it also cuts crop yields, pointing to farm income losses. The findings have been debated. (Carleton, PNAS, 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5565417/) Type: Peer-reviewed study. Where: India. Scale: National, 1967–2013. Limit: An association that has been debated; it does not prove debt is the cause.
 
 - Days above 34 °C make wheat in northern India age early, and crop models may underestimate yield losses at +2 °C by as much as 50%. (Lobell, Sibley and Ortiz-Monasterio, Nature Climate Change, 2012, https://fsi.stanford.edu/node/26622) Type: Peer-reviewed study, satellite data. Where: Northern India. Scale: Wheat region, satellite records. Limit: About wheat only; it shows how models can miss losses.
@@ -1193,6 +1229,8 @@ What this cycle costs (India): 48,385 vs 185. suspected heatstroke cases against
 Where it plays out: Much of Asia, where death certificates rarely record heat as a cause.
 
 Where it breaks: Count every heat death, Cooling centres and check-ins
+
+Solutions to try (a suggested match, not a measured effect): Timely heat-illness and death surveillance (https://beattheheat.asia/solutions/#nonphysical_heat_illness_surveillance); All-cause and excess-mortality analysis for heat attribution (https://beattheheat.asia/solutions/#nonphysical_excess_mortality); Heat-death investigation and consistent certification (https://beattheheat.asia/solutions/#nonphysical_heat_death_certification); Dedicated and traceable heat operating budgets (https://beattheheat.asia/solutions/#nonphysical_dedicated_heat_budgets)
 
 - Suspected heatstroke cases rose from 4,481 in 2022 to 48,385 by 28 July 2024, while confirmed heatstroke deaths rose only from 33 to 185. (Ministry of Health and Family Welfare, reply in India’s Rajya Sabha, 6 August 2024, https://rsdebate.nic.in/bitstream/123456789/750681/1/PQ_265_06082024_U1693_p358_p362.pdf) Type: Government data. Where: India. Scale: National surveillance. Limit: Counts what gets reported; reporting improves over time, so part of the rise is better counting.
 
@@ -1218,6 +1256,8 @@ Where it plays out: Disaster budgets designed for floods and cyclones rather tha
 
 Where it breaks: Dedicated heat budgets, Anticipatory action
 
+Solutions to try (a suggested match, not a measured effect): Dedicated and traceable heat operating budgets (https://beattheheat.asia/solutions/#nonphysical_dedicated_heat_budgets); Pre-agreed heat anticipatory action and forecast finance (https://beattheheat.asia/solutions/#nonphysical_forecast_based_finance); Heat action plans with a seasonal responsibility matrix (https://beattheheat.asia/solutions/#nonphysical_heat_action_plan); Recognise heat in disaster-funding rules and eligibility (https://beattheheat.asia/solutions/#nonphysical_disaster_law_fund_access)
+
 - About 593 deaths a year in Bangkok in 2016–18 were attributable to heat. Valued at 0.1–0.7% of the city’s economy, the upper estimate exceeds the city’s 2020 public health budget. (Park and Rubinyi, World Bank working paper, 2026, https://openknowledge.worldbank.org/entities/publication/d8ba6f53-d778-47d2-b4a6-37dff7db2466/full) Type: Working paper. Where: Bangkok, Thailand. Scale: One city, 2016–2018. Limit: An estimate from a statistical model; the value depends on how a life is priced.
 
 - US$800 million spent on early warning systems in developing countries could avoid US$3–16 billion in losses every year. (Global Commission on Adaptation, 2019, https://openknowledge.worldbank.org/entities/publication/7713887e-5c0c-5fce-9dd0-c18a8875736c) Type: Commission report. Where: Developing countries. Scale: Global estimate. Limit: A broad benefit estimate covering many hazards, not heat alone.
@@ -1239,6 +1279,8 @@ What this cycle costs (Asia): 92%. of Asia’s US$65 billion in natural catastro
 Where it plays out: Fast-growing Asian economies where few households or small businesses carry insurance.
 
 Where it breaks: Dedicated heat budgets, Shared risk pools
+
+Solutions to try (a suggested match, not a measured effect): Pooled pre-arranged finance for heat action (https://beattheheat.asia/solutions/#nonphysical_pooled_risk_finance); Targeted premium support and renewal finance (https://beattheheat.asia/solutions/#nonphysical_premium_support); A fallback funding layer when an index misses real harm (https://beattheheat.asia/solutions/#nonphysical_basis_risk_fallback); Recognise heat in disaster-funding rules and eligibility (https://beattheheat.asia/solutions/#nonphysical_disaster_law_fund_access)
 
 - Only about 8% of Asia’s US$65 billion in natural catastrophe losses in 2025 was insured. The rest fell on households, businesses and governments. (Swiss Re Institute sigma, reported by Global Reinsurance, https://www.globalreinsurance.com/home/swiss-re-sigma-protection-gap-laid-bare-as-asian-cat-losses-hit-65bn/1458440.article) Type: Industry research, reported by the press. Where: Asia. Scale: Region-wide, 2025. Limit: Covers all natural catastrophes, not heat alone; heat losses are rarely insured at all.
 

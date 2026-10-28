@@ -864,6 +864,7 @@
       ${story.loop && state.step === 0 ? evidenceHTML(story.loop, false) : ""}
       ${story.loop && isBroken(story.loop.id) ? `<p class="broken-note">✓ The actions you’ve switched on could help interrupt this cycle</p>` : ""}
       ${step.levers && story.loop.levers.length ? `<ul class="lever-list">${story.loop.levers.map(lid => leverItem(leverById[lid])).join("")}</ul>` : ""}
+      ${step.levers && story.loop ? solsHTML(story.loop) : ""}
       <div class="panel__nav">
         <button class="btn btn--ghost" data-act="prev" ${state.step === 0 ? "disabled" : ""}>← Back</button>
         <button class="btn" data-act="${last ? "done" : "next"}">${last ? "Explore freely" : "Next →"}</button>
@@ -883,6 +884,17 @@
       <p class="stakes__t">${esc(f.text)} <span class="stakes__src">${extLink(f.url, f.by)}</span></p>`;
     return `<div class="stakes stakes--${x.kind}"><p class="stakes__h">${esc(STAKES_LABEL[x.kind])}</p>${fig(x, "")}
       ${x.sea ? `<div class="stakes__sea"><p class="stakes__h stakes__h--sea">In Southeast Asia</p>${fig(x.sea, " stakes__n--sea")}</div>` : ""}</div>`;
+  };
+  // three or four solutions from the solutions library that act on a link in the cycle (LOOP_SOLUTIONS); each opens its card
+  const SOL_TYPE = { passive: "Passive cooling", active: "Active cooling", policy: "Plans, work and money" };
+  const solsHTML = l => {
+    const x = typeof LOOP_SOLUTIONS !== "undefined" && LOOP_SOLUTIONS[l.id]; if (!x) return "";
+    const st = typeof EVIDENCE_STATUS !== "undefined" ? EVIDENCE_STATUS : {};
+    const tag = e => st[e] ? `<span class="ev-tag ev-tag--${e}" title="${esc(st[e].text)}">${esc(st[e].name)}<span class="visually-hidden">: ${esc(st[e].text)}</span></span>` : "";
+    return `<div class="lsols"><p class="lsols__h">Solutions to try</p>${x.note ? `<p class="lsols__note">${esc(x.note)}</p>` : ""}
+      <ul>${x.items.map(i => `<li><a href="/solutions/#${esc(i.id)}" target="_blank" rel="noopener">${esc(i.name)}<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a>
+        <span class="lsols__tags"><span class="sol-type sol-type--${esc(i.type)}">${esc(SOL_TYPE[i.type] || "")}</span>${tag(i.ev)}</span><small>${esc(i.why)}</small></li>`).join("")}</ul>
+      <p class="lsols__foot">A suggested match, not a measured effect on the cycle. <a href="/solutions/" target="_blank" rel="noopener">All 131 solutions<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>`;
   };
   const chainHTML = l => `<p class="chain">${l.path.map(id => `<span>${esc(plain(byId[id]))}</span>`).join('<i aria-hidden="true">→</i>')}<i aria-hidden="true">↺</i></p>`;
 
@@ -2244,6 +2256,7 @@
             ${typeof LOOP_PLACES !== "undefined" && LOOP_PLACES[l.id] ? `<p class="place"><span>Where to look</span>${esc(LOOP_PLACES[l.id])}</p>` : ""}
             ${evidenceHTML(l, false)}
             ${l.levers.length ? `<p class="lrow__breaks"><span>Break it:</span> ${l.levers.map(lid => `<button class="lever-chip" data-lever="${lid}">${esc(leverById[lid].title)}<span class="lever-chip__when">${esc(WHEN[leverById[lid].when] || "")}</span></button>`).join("")}</p>` : ""}
+            ${solsHTML(l)}
           </article>`).join("")}
       </div>`;
     }).join("");
