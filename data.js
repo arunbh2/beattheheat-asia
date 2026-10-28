@@ -2939,6 +2939,135 @@ const LOOP_STAKES = {
 };
 const STAKES_LABEL = { cost: "What this cycle costs", saves: "What breaking it saves", none: "What this cycle costs is not yet measured" };
 
+/* ---------- 24b. SOLUTIONS FOR EACH CYCLE ---------- */
+// Three or four solutions from the solutions library (/solutions/, built from research/2026-10/) that act on a link in each
+// loop. why: which link it cuts. An editorial match, not a measured effect on the loop; each solution's own evidence
+// label is its strongest evidence for what it does. note: where the library cannot break the loop on its own.
+// tools/build-solutions.js checks every id and adds a link back from each solution to its cycles.
+const LOOP_SOLUTIONS = {
+  global: { items: [
+    { id: "system_minimum_energy_performance_standards", name: "Minimum energy performance standards for cooling appliances", type: "active", ev: "guidance", why: "Cuts the electricity each air conditioner needs, so the same cooling adds less warming." },
+    { id: "system_low_gwp_room_ac_transition", name: "Transition to purpose-designed low-GWP room AC", type: "active", ev: "guidance", why: "Moves to refrigerants that warm the planet far less when they leak." },
+    { id: "passive_cool_roof_coating", name: "Solar-reflective roof coatings", type: "passive", ev: "measured", why: "Keeps buildings cooler without power, so less cooling is needed at all." },
+    { id: "system_national_cooling_action_plans", name: "National cooling action plans and cross-sector implementation roadmaps", type: "active", ev: "guidance", why: "Plans the country’s cooling demand as a whole, so efficiency and clean power keep pace with growth." },
+  ] },
+  soil: { items: [
+    { id: "passive_organic_soil_mulch", name: "Organic residue mulch for cooler crop root zones", type: "passive", ev: "measured", why: "Keeps moisture in the soil, so it can keep cooling itself." },
+    { id: "passive_crop_agroforestry", name: "Shade-tree agroforestry for crops", type: "passive", ev: "measured", why: "Shades the ground and holds water in the land." },
+    { id: "passive_permeable_pavements", name: "Permeable pavements retaining rainfall for evaporative surface cooling", type: "passive", ev: "measured", why: "In towns, lets rain soak in instead of running off, so the ground stays moist longer." },
+  ] },
+  ice: { note: "Only cutting the warming slows this loop. These cut cooling’s own share of it; nothing local stops the melting.", items: [
+    { id: "system_minimum_energy_performance_standards", name: "Minimum energy performance standards for cooling appliances", type: "active", ev: "guidance", why: "Cuts the electricity, and so the emissions, each air conditioner needs." },
+    { id: "system_low_gwp_room_ac_transition", name: "Transition to purpose-designed low-GWP room AC", type: "active", ev: "guidance", why: "Moves to refrigerants that warm the planet far less." },
+    { id: "system_national_cooling_action_plans", name: "National cooling action plans and cross-sector implementation roadmaps", type: "active", ev: "guidance", why: "Plans cooling growth so it adds as little warming as possible." },
+  ] },
+  fire: { note: "Breaking this loop needs forest and fire management, which this library does not yet cover. These protect people while it turns.", items: [
+    { id: "nonphysical_impact_based_warning", name: "Locally calibrated impact-based heat-warning triggers", type: "policy", ev: "guidance", why: "Warns people early, based on what the heat will do locally, not just the temperature." },
+    { id: "nonphysical_forecast_based_finance", name: "Pre-agreed heat anticipatory action and forecast finance", type: "policy", ev: "reported", why: "Releases agreed money before the worst days, rather than after." },
+    { id: "nonphysical_pooled_risk_finance", name: "Pooled pre-arranged finance for heat action", type: "policy", ev: "reported", why: "Shares the cost of bad years across places, so one disaster does not empty a budget." },
+  ] },
+  cooling: { items: [
+    { id: "passive_cool_roof_coating", name: "Solar-reflective roof coatings", type: "passive", ev: "measured", why: "Keeps rooms cooler without power, so less air conditioning runs." },
+    { id: "passive_street_trees", name: "Street trees and retained mature canopy", type: "passive", ev: "measured", why: "Shades and cools the street the air conditioners heat." },
+    { id: "active_bldc_ceiling_fan", name: "Efficient BLDC ceiling fans", type: "active", ev: "measured", why: "Gives comfort for a fraction of the power and waste heat of air conditioning." },
+    { id: "active_fan_assisted_ac_control", name: "Coordinated fans and higher-setpoint air conditioning", type: "active", ev: "measured", why: "Lets air conditioning run at a higher setting with a fan, cutting its load." },
+  ] },
+  energywater: { items: [
+    { id: "system_water_power_resilience", name: "Solar/hybrid pumping with water storage for resilient water service", type: "active", ev: "guidance", why: "Keeps water pumping on solar or stored power when the grid fails." },
+    { id: "system_heatwave_grid_readiness", name: "Heatwave grid-readiness planning and emergency resource coordination", type: "active", ev: "guidance", why: "Prepares the grid and its water supply before the heat season." },
+    { id: "system_demand_flexibility", name: "Demand response and scheduled flexible loads to relieve heat-period peaks", type: "active", ev: "reported", why: "Moves flexible loads off the peak, so the grid is less likely to fail." },
+    { id: "system_minimum_energy_performance_standards", name: "Minimum energy performance standards for cooling appliances", type: "active", ev: "guidance", why: "Lowers the peak itself, by making every air conditioner use less." },
+  ] },
+  pumping: { items: [
+    { id: "passive_organic_soil_mulch", name: "Organic residue mulch for cooler crop root zones", type: "passive", ev: "measured", why: "Keeps water in the root zone, so fields need less pumping." },
+    { id: "passive_crop_shade_nets", name: "Shade-net structures for crop microclimate protection", type: "passive", ev: "measured", why: "Cuts the heat and water stress on crops." },
+    { id: "passive_crop_agroforestry", name: "Shade-tree agroforestry for crops", type: "passive", ev: "measured", why: "Shades crops and soil, so less water is lost." },
+  ] },
+  deadgreen: { items: [
+    { id: "passive_street_trees", name: "Street trees and retained mature canopy", type: "passive", ev: "measured", why: "Protects mature canopy and plants trees that can survive the heat." },
+    { id: "nonphysical_community_maintenance", name: "Community maintenance arrangements backed by public/service support", type: "policy", ev: "reported", why: "Pays for watering and care through the dry season, when young trees die." },
+    { id: "passive_bluegreen_corridors", name: "Blue-green river corridors and naturalised drainage landscapes", type: "passive", ev: "measured", why: "Keeps water in the city’s landscape, so trees are not left dry." },
+    { id: "passive_permeable_pavements", name: "Permeable pavements retaining rainfall for evaporative surface cooling", type: "passive", ev: "measured", why: "Lets rain reach tree roots instead of draining away." },
+  ] },
+  clinic: { items: [
+    { id: "nonphysical_clinic_readiness", name: "Heat-ready clinic protocols and staff capability", type: "policy", ev: "guidance", why: "Prepares staff and protocols to treat heat illness early, before it turns severe." },
+    { id: "nonphysical_surge_referral", name: "Heat surge staffing, triage and referral coordination", type: "policy", ev: "guidance", why: "Adds staff, triage and referral for heat surges." },
+    { id: "system_health_critical_power", name: "Resilient power for health-facility cooling and cold-chain loads", type: "active", ev: "reported", why: "Keeps the clinic cool and its medicines safe when the power fails." },
+    { id: "nonphysical_impact_based_warning", name: "Locally calibrated impact-based heat-warning triggers", type: "policy", ev: "guidance", why: "Warns ahead, so fewer people reach the clinic already severely ill." },
+  ] },
+  poverty: { items: [
+    { id: "nonphysical_paid_recovery", name: "Paid rest, shade and drinking-water protocols", type: "policy", ev: "measured", why: "Gives paid rest, shade and water, so stopping does not cost a day’s income." },
+    { id: "nonphysical_workhour_changes", name: "Reschedule work and reduce peak-heat task exposure", type: "policy", ev: "guidance", why: "Moves heavy work away from the hottest hours." },
+    { id: "nonphysical_parametric_heat_insurance", name: "Parametric heat insurance for income shocks", type: "policy", ev: "reported", why: "Pays out when heat crosses a set level, replacing lost income." },
+    { id: "nonphysical_shock_responsive_social_protection", name: "Scale up existing social protection for heat risk", type: "policy", ev: "reported", why: "Tops up existing payments in a heatwave, so families are not forced to work through it." },
+  ] },
+  debt: { items: [
+    { id: "nonphysical_financial_access_to_care", name: "Reduce financial barriers to heat-related care", type: "policy", ev: "guidance", why: "Removes the cost of heat-related care, so treatment does not create debt." },
+    { id: "nonphysical_noninsurance_cash", name: "Heat-triggered cash outside an insurance contract", type: "policy", ev: "reported", why: "Pays cash when heat strikes, so families need not borrow." },
+    { id: "nonphysical_shock_responsive_social_protection", name: "Scale up existing social protection for heat risk", type: "policy", ev: "reported", why: "Uses existing social payments to reach families quickly in a heatwave." },
+    { id: "nonphysical_community_heat_education", name: "Community-health-worker heat education and referral", type: "policy", ev: "measured", why: "Helps people spot heat illness early, before treatment becomes expensive." },
+  ] },
+  energypoverty: { items: [
+    { id: "nonphysical_utility_heat_protection", name: "Prevent heat-period electricity/water disconnection for inability to pay", type: "policy", ev: "guidance", why: "Stops electricity and water being cut off in a heatwave because a bill is unpaid." },
+    { id: "passive_cool_roof_coating", name: "Solar-reflective roof coatings", type: "passive", ev: "measured", why: "Cools the home without power, at low cost." },
+    { id: "active_bldc_ceiling_fan", name: "Efficient BLDC ceiling fans", type: "active", ev: "measured", why: "Gives cooling for a fraction of the running cost." },
+    { id: "system_on_bill_finance", name: "On-bill financing and tariff-based cost recovery for efficient cooling", type: "active", ev: "evaluated", why: "Spreads the cost of efficient cooling across bills, so poorer households can afford it." },
+  ] },
+  displacement: { items: [
+    { id: "passive_independent_roof_shade", name: "Independent over-roof shade, including ventilated PV shade", type: "passive", ev: "test", why: "Shades the hot tin roofs common in the housing people move into." },
+    { id: "active_public_cooling_centre", name: "Public air-conditioned cooling centre or shared refuge", type: "active", ev: "guidance", why: "Gives a cool place to go when home is too hot." },
+    { id: "nonphysical_multilingual_migrant_access", name: "Multilingual heat information and routes for migrant workers", type: "policy", ev: "reported", why: "Reaches newcomers in their own language, with routes to help." },
+    { id: "nonphysical_vulnerability_targeting", name: "Heat-vulnerability mapping linked to beneficiary targeting", type: "policy", ev: "measured", why: "Maps who is most exposed, so help reaches new arrivals." },
+  ] },
+  school: { items: [
+    { id: "nonphysical_school_heat_operations", name: "School heat operating plans, water access and escalation", type: "policy", ev: "guidance", why: "Keeps schools open safely, with water, plans and clear steps to escalate." },
+    { id: "nonphysical_learning_continuity", name: "Closure decisions with offline learning continuity", type: "policy", ev: "guidance", why: "Keeps children learning when schools must close." },
+    { id: "passive_schoolyard_greening", name: "Schoolyard greening, depaving and shade as a coordinated retrofit", type: "passive", ev: "measured", why: "Shades and cools school grounds." },
+    { id: "nonphysical_school_timetables", name: "Heat-responsive school timetables and activity changes", type: "policy", ev: "guidance", why: "Moves the school day and activities away from peak heat." },
+  ] },
+  sleep: { items: [
+    { id: "passive_night_flushing", name: "Night flushing / night-purge ventilation", type: "passive", ev: "guidance", why: "Lets cool night air flush out the day’s heat." },
+    { id: "passive_cool_roof_coating", name: "Solar-reflective roof coatings", type: "passive", ev: "measured", why: "Stops the roof soaking up heat that it gives off at night." },
+    { id: "active_bldc_ceiling_fan", name: "Efficient BLDC ceiling fans", type: "active", ev: "measured", why: "Gives cheap air movement through the night." },
+    { id: "nonphysical_night_outreach", name: "Night-time and round-the-clock outreach with heat escalation", type: "policy", ev: "reported", why: "Checks on people at risk after dark, when hot nights do harm." },
+  ] },
+  greendisplace: { note: "Greening helps only if residents can stay. Protection for tenants is not yet in this library, so pair these with it.", items: [
+    { id: "nonphysical_women_led_codesign", name: "Women-led co-design and worker governance", type: "policy", ev: "reported", why: "Lets residents shape where greening goes and who it serves." },
+    { id: "nonphysical_vulnerability_targeting", name: "Heat-vulnerability mapping linked to beneficiary targeting", type: "policy", ev: "measured", why: "Puts shade where heat risk is highest, not where land values are." },
+    { id: "nonphysical_community_maintenance", name: "Community maintenance arrangements backed by public/service support", type: "policy", ev: "reported", why: "Keeps greening in residents’ hands, with public support." },
+  ] },
+  squeeze: { items: [
+    { id: "nonphysical_heat_smart_lending", name: "Heat-relevant housing and cooling credit with technical appraisal", type: "policy", ev: "reported", why: "Offers credit for cooling and heat-proofing, with a check that it will work." },
+    { id: "passive_public_shade_structures", name: "Public shade structures, sails and market/queue canopies", type: "passive", ev: "measured", why: "Shades markets and queues, so customers keep coming." },
+    { id: "nonphysical_parametric_heat_insurance", name: "Parametric heat insurance for income shocks", type: "policy", ev: "reported", why: "Pays out when heat crosses a set level, so repayments are not missed." },
+    { id: "nonphysical_basis_risk_fallback", name: "A fallback funding layer when an index misses real harm", type: "policy", ev: "reported", why: "Covers the harm an index misses, so a missed payout does not become default." },
+  ] },
+  farmdebt: { items: [
+    { id: "passive_crop_shade_nets", name: "Shade-net structures for crop microclimate protection", type: "passive", ev: "measured", why: "Protects crops from heat damage." },
+    { id: "passive_organic_soil_mulch", name: "Organic residue mulch for cooler crop root zones", type: "passive", ev: "measured", why: "Keeps crop roots cooler and moist." },
+    { id: "nonphysical_parametric_heat_insurance", name: "Parametric heat insurance for income shocks", type: "policy", ev: "reported", why: "Pays out after a heat-hit season, so farmers need not borrow for seed." },
+    { id: "nonphysical_forecast_based_finance", name: "Pre-agreed heat anticipatory action and forecast finance", type: "policy", ev: "reported", why: "Releases money before the damage, while it can still protect the harvest." },
+  ] },
+  invisible: { items: [
+    { id: "nonphysical_heat_illness_surveillance", name: "Timely heat-illness and death surveillance", type: "policy", ev: "guidance", why: "Counts heat illness and deaths as they happen." },
+    { id: "nonphysical_excess_mortality", name: "All-cause and excess-mortality analysis for heat attribution", type: "policy", ev: "measured", why: "Measures the full toll by comparing deaths with a normal year." },
+    { id: "nonphysical_heat_death_certification", name: "Heat-death investigation and consistent certification", type: "policy", ev: "guidance", why: "Records heat as a cause of death consistently." },
+    { id: "nonphysical_dedicated_heat_budgets", name: "Dedicated and traceable heat operating budgets", type: "policy", ev: "guidance", why: "Turns the counted toll into money set aside for protection." },
+  ] },
+  reactive: { items: [
+    { id: "nonphysical_dedicated_heat_budgets", name: "Dedicated and traceable heat operating budgets", type: "policy", ev: "guidance", why: "Sets aside and tracks money for prevention." },
+    { id: "nonphysical_forecast_based_finance", name: "Pre-agreed heat anticipatory action and forecast finance", type: "policy", ev: "reported", why: "Agrees in advance what money is released, and when." },
+    { id: "nonphysical_heat_action_plan", name: "Heat action plans with a seasonal responsibility matrix", type: "policy", ev: "measured", why: "Assigns who does what before each heat season." },
+    { id: "nonphysical_disaster_law_fund_access", name: "Recognise heat in disaster-funding rules and eligibility", type: "policy", ev: "guidance", why: "Lets disaster funds be spent on heat." },
+  ] },
+  protection: { items: [
+    { id: "nonphysical_pooled_risk_finance", name: "Pooled pre-arranged finance for heat action", type: "policy", ev: "reported", why: "Shares heat risk across places, so no single budget carries it alone." },
+    { id: "nonphysical_premium_support", name: "Targeted premium support and renewal finance", type: "policy", ev: "reported", why: "Helps those most at risk keep their cover." },
+    { id: "nonphysical_basis_risk_fallback", name: "A fallback funding layer when an index misses real harm", type: "policy", ev: "reported", why: "Backs up index cover when it misses real harm." },
+    { id: "nonphysical_disaster_law_fund_access", name: "Recognise heat in disaster-funding rules and eligibility", type: "policy", ev: "guidance", why: "Opens public disaster funds to heat losses." },
+  ] },
+};
+
 /* ---------- 25. YOUR CITY ---------- */
 // One profile for each live city (ids match LIVE_CITIES). hap.status: "plan" (a city plan in force), "building" (parts in
 // place, no full plan found), "none" (no city plan found). loops: the cycles the site's evidence ties to this city or
