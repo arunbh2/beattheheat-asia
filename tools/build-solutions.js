@@ -10,7 +10,7 @@ const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + ";Object.assign(this,{EVIDENCE_STATUS,INSTITUTIONS,LEVERS,ACTION_SETTINGS,LOOPS,LOOP_SOLUTIONS})", ctx);
 const D = ctx, J = f => JSON.parse(fs.readFileSync(path.join(R, f), "utf8"));
 const STATUS = fs.existsSync(path.join(R, "link-status.json")) ? J("link-status.json") : {};
-const live = u => !!u && STATUS[u] !== "FAIL";
+const live = u => !!u && STATUS[u] !== "FAIL" && !/^https?:\/\/(www\.)?beattheheat\.asia/.test(u); // never cite the site to itself
 const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const T = x => x == null ? "" : typeof x === "string" ? x : x.text || x.result || x.risk || x.logic || "";
 const ext = (u, l) => live(u) ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(l || u)}<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a>` : "";
@@ -55,7 +55,7 @@ ${script}</body>
 </html>
 `;
 
-const SNAPS = [["bangladesh", "Bangladesh"], ["nepal", "Nepal"], ["sri_lanka", "Sri Lanka"], ["thailand", "Thailand"], ["indonesia", "Indonesia"]].map(([file, name]) => ({ slug: file.replace(/_/g, "-"), name, d: J(`${file}_snapshot.json`) }));
+const SNAPS = [["bangladesh", "Bangladesh"], ["india", "India"], ["indonesia", "Indonesia"], ["nepal", "Nepal"], ["philippines", "Philippines"], ["sri_lanka", "Sri Lanka"], ["thailand", "Thailand"]].map(([file, name]) => ({ slug: file.replace(/_/g, "-"), name, d: J(`${file}_snapshot.json`) }));
 /* ---------------- the solutions library ---------------- */
 const LIBS = [
   { type: "passive", label: "Passive cooling", file: "passive_solutions.json", key: "passive_solutions", h: "Passive cooling", p: "Ways to keep heat out or let it escape with little or no energy: roofs, shade, walls, air flow, trees, water and design." },
@@ -233,7 +233,7 @@ const script = `  <script>
 // The snapshots come from separate research runs and name their sections differently, so they are drawn by a general
 // renderer: every section is shown with a readable heading, sources are resolved to their titles, and empty or
 // technical fields (ids, codes, dates of checking, taxonomy tags) are left out.
-const SKIP = /^(id|iso2|iso3|iso|country|aliases|research_date|last_checked|systems|levers|loops|settings|mapping_status|mapping_note|city_selection|national_exposure_rank|publisher_actor_id|actor_ids|programme_ids|source_ids|national_framework_source_ids|institution_types|cooling_option_places|related_source_ids|url_kind|contribution_is|commitment_status|result_basis)$/;
+const SKIP = /^(id|iso2|iso3|iso|country|aliases|research_date|last_checked|systems|levers|loops|settings|mapping_status|mapping_note|city_selection|national_exposure_rank|publisher_actor_id|actor_ids|programme_ids|institution_types|cooling_option_places|url_kind|contribution_is|commitment_status|result_basis)$/;
 const LABEL = { heat_context: "Heat context", plans_and_law: "Plans and law", plans_and_legal_basis: "Plans and legal basis", plans: "Plans", official_heat_plans: "Official heat plans", official_heat_plan: "Official heat plan", heat_plan_status: "Heat plan",
   legal_basis: "Legal basis", legal_status: "Legal status", legal_character: "Legal standing", responsibilities: "Who is responsible", agencies_responsible: "Agencies responsible", agencies_documented: "Agencies documented", agencies_to_engage_proposed: "Agencies to engage (proposed)",
   warnings: "Warnings", warning_systems: "Warnings", occupational_rules: "Rules for heat at work", occupational_heat_rules: "Rules for heat at work", cooling: "Cooling and buildings", cooling_building_policy: "Cooling and buildings", cooling_and_building_policy: "Cooling and buildings",
@@ -271,6 +271,7 @@ function countryPage(s) {
       const h = val(o[k], depth); if (!h) return "";
       if (/^(sources|evidence|basis)$/.test(k) && /sol-src/.test(h) && !/<ul/.test(h)) return h;
       if (k === "text") return `<span>${h}</span>`;
+      if (/source_ids$/.test(k)) return /sol-src/.test(h) ? `<span class="cty-kv"><b>Sources:</b> ${h}</span>` : "";
       return `<span class="cty-kv"><b>${esc(pretty(k))}:</b> ${h}</span>`;
     }).filter(Boolean);
     const url = o.url && live(o.url) && head ? ext(o.url, head) : "";
@@ -305,7 +306,7 @@ fs.mkdirSync(path.join(ROOT, "solutions"), { recursive: true });
 fs.writeFileSync(path.join(ROOT, "solutions", "index.html"), page({ slug: "solutions", title: "Solutions library", desc: `${total} ways to protect people from extreme heat: passive cooling, active cooling, and the plans, rules and money that make it last, with evidence, costs and what each depends on.`, body, script }));
 SNAPS.forEach(s => { fs.mkdirSync(path.join(ROOT, "countries", s.slug), { recursive: true }); fs.writeFileSync(path.join(ROOT, "countries", s.slug, "index.html"), countryPage(s)); });
 fs.mkdirSync(path.join(ROOT, "countries"), { recursive: true });
-fs.writeFileSync(path.join(ROOT, "countries", "index.html"), page({ slug: "countries", title: "Country snapshots", desc: "Heat country snapshots for Bangladesh, Nepal, Sri Lanka, Thailand and Indonesia.", body: `
+fs.writeFileSync(path.join(ROOT, "countries", "index.html"), page({ slug: "countries", title: "Country snapshots", desc: "Heat country snapshots for Bangladesh, India, Indonesia, Nepal, the Philippines, Sri Lanka and Thailand.", body: `
     <section class="sol-page"><div class="container"><p class="eyebrow eyebrow--break">Country snapshots</p><h1 class="h2 tool-h1">Heat, country by country.</h1>
       <p class="tool-lede">Plans and law, warnings, rules at work, cooling, money, cities, programmes and who is working on it. Researched in October 2026.</p>
       <ul class="cty-index">${SNAPS.map(s => `<li><a href="/countries/${s.slug}/"><b>${esc(s.name)}</b><span>${(s.d.cities || []).map(c => c.name).join(", ")}</span></a></li>`).join("")}</ul>
