@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T06:02:10.214Z",
+ "updated": "2026-10-29T13:21:34.120Z",
  "days": 120,
  "source": "Europe PMC",
  "items": [
@@ -172,6 +172,16 @@
    "preprint": false,
    "url": "https://doi.org/10.1016/j.psj.2026.107884",
    "firstAuthor": "Nawaz AH"
+  },
+  {
+   "title": "Prepartum Heat Stress Dysregulates Immune Resilience in Postpartum Dairy Cows.",
+   "journal": "FASEB journal : official publication of the Federation of American Societies for Experimental Biology",
+   "date": "2026-10-01",
+   "doi": "10.1096/fj.202602708r",
+   "pmid": "42945143",
+   "preprint": false,
+   "url": "https://doi.org/10.1096/fj.202602708r",
+   "firstAuthor": "Tariq A"
   },
   {
    "title": "Integrating Heat Stress into Circular Livestock Production and Life Cycle Assessment: Toward a Heat-Stress Circularity Index",
@@ -592,16 +602,6 @@
    "preprint": false,
    "url": "https://doi.org/10.1038/s41598-026-65095-2",
    "firstAuthor": "Kurihara H"
-  },
-  {
-   "title": "Heat stress impact on rice reproductive processes: challenges and new approaches.",
-   "journal": "Frontiers in genome editing",
-   "date": "2026-08-24",
-   "doi": "10.3389/fgeed.2026.1808390",
-   "pmid": "42707823",
-   "preprint": false,
-   "url": "https://doi.org/10.3389/fgeed.2026.1808390",
-   "firstAuthor": "Moreira M"
   }
  ]
 }
