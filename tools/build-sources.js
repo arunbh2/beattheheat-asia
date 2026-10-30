@@ -56,7 +56,9 @@ const PAGES_HTML = { "index.html": "Home page", "news/index.html": "Heat in the 
   "together/index.html": "Make it work together", "a-week-in-the-heat/index.html": "A week in the heat", "guide/index.html": "How to use this site",
   "solutions/index.html": "Solutions library", "countries/bangladesh/index.html": "Bangladesh snapshot", "countries/nepal/index.html": "Nepal snapshot",
   "countries/sri-lanka/index.html": "Sri Lanka snapshot", "countries/thailand/index.html": "Thailand snapshot", "countries/indonesia/index.html": "Indonesia snapshot",
-  "countries/india/index.html": "India snapshot", "countries/philippines/index.html": "Philippines snapshot" };
+  "countries/india/index.html": "India snapshot", "countries/philippines/index.html": "Philippines snapshot",
+  "heat-economy/index.html": "The heat economy", "heat-economy/businesses/index.html": "The heat economy: businesses", "heat-economy/money/index.html": "The heat economy: money and support",
+  "heat-economy/opportunities/index.html": "The heat economy: what could come up", "heat-economy/conditions/index.html": "The heat economy: what makes markets work" };
 for (const [f, where] of Object.entries(PAGES_HTML)) {
   const t = fs.readFileSync(path.join(ROOT, f), "utf8");
   for (const m of t.matchAll(/<a [^>]*href="(https?:\/\/[^"]+)"[^>]*>([\s\S]*?)<\/a>/g)) add(m[1], m[2].replace(/<[^>]+>/g, "").replace(/\(opens in a new tab\)|↗/g, ""), "ref", where);

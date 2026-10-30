@@ -139,7 +139,7 @@ const out = {};
         ${(x => x ? `<p><strong>${esc(D.STAKES_LABEL[x.kind])} (${esc(x.where)}):</strong> ${esc(x.n)}. ${esc(x.text)} ${ext(x.url, x.by)}</p>${x.sea ? `<p><strong>In Southeast Asia (${esc(x.sea.where)}):</strong> ${esc(x.sea.n)}. ${esc(x.sea.text)} ${ext(x.sea.url, x.sea.by)}</p>` : ""}` : `<p class="meta">${esc(D.STAKES_LABEL.none)}.</p>`)(D.LOOP_STAKES[l.id])}
         ${D.LOOP_PLACES[l.id] ? `<p><strong>Where it plays out:</strong> ${esc(D.LOOP_PLACES[l.id])}</p>` : ""}
         ${lv.length ? `<p><strong>Where it breaks:</strong> ${lv.map(v => `<a href="/actions/#${v.id}">${esc(v.title)}</a>`).join(", ")}</p>` : ""}
-        ${(x => x ? `<p><strong>Solutions to try:</strong> ${x.note ? `${esc(x.note)} ` : ""}${x.items.map(i => `<a href="/solutions/#${i.id}">${esc(i.name)}</a> (${esc(i.why.replace(/\.$/, "").replace(/^./, c => c.toLowerCase()))})`).join("; ")}. A suggested match, not a measured effect on the cycle.</p>` : "")(D.LOOP_SOLUTIONS[l.id])}
+        ${(x => x ? `<p><strong>Solutions to try:</strong> ${x.note ? `${esc(x.note)} ` : ""}${x.items.map(i => `<a href="/solutions/#${i.id}">${esc(i.name)}</a> (${esc(i.why.replace(/\.$/, "").replace(/^./, c => c.toLowerCase()))})`).join("; ")}. A suggested match, not a measured effect on the cycle. <a href="/heat-economy/opportunities/#loop-${l.id}">Business ideas for this cycle</a>.</p>` : "")(D.LOOP_SOLUTIONS[l.id])}
         ${ev.length ? `<ul>${ev.map(e => `<li>${esc(e.finding)} ${ext(e.url, e.by)}${e.type ? `<br><span class="meta">${esc(e.type)} · ${esc(e.where)} · ${esc(e.scale)}. Limit: ${esc(e.limit)}</span>${e.reading ? `<br><span class="meta"><strong>Our reading:</strong> ${esc(e.reading)}</span>` : ""}` : ""}</li>`).join("")}</ul>` : ""}
         <p class="meta"><a href="/#loop-${l.id}">Follow it on the map</a>${l.video ? ` · <a href="/${l.video}">Watch the film (${esc(l.length)})</a>` : ""}</p>`;
       m.push(`#### ${l.name}`, l.summary, `The cycle: ${l.path.map(name).join(" → ")} → back to the start.`,
@@ -463,11 +463,12 @@ console.log("Wrote", PAGES.length + CITY_PAGES.length, "pages, llms.txt, llms-fu
 
 // ---- /solutions/ and /countries/: the research libraries (before /sources/, which reads their links) ----
 require("./build-solutions.js");
+require("./build-economy.js");
 {
-  const extra = ["solutions", "countries", "countries/bangladesh", "countries/nepal", "countries/sri-lanka", "countries/thailand", "countries/indonesia", "countries/india", "countries/philippines"];
+  const extra = ["solutions", "countries", "countries/bangladesh", "countries/nepal", "countries/sri-lanka", "countries/thailand", "countries/indonesia", "countries/india", "countries/philippines", "heat-economy", "heat-economy/businesses", "heat-economy/money", "heat-economy/opportunities", "heat-economy/conditions"];
   const sm = fs.readFileSync(path.join(ROOT, "sitemap.xml"), "utf8");
   if (!sm.includes(`${SITE}/solutions/`)) fs.writeFileSync(path.join(ROOT, "sitemap.xml"), sm.replace("</urlset>", extra.map(x => `  <url><loc>${SITE}/${x}/</loc><lastmod>${TODAY}</lastmod><priority>0.7</priority></url>`).join("\n") + "\n</urlset>"));
-  fs.appendFileSync(path.join(ROOT, "llms.txt"), `\n## Solutions library and country snapshots\n\n- [Solutions library](${SITE}/solutions/): passive cooling, active cooling, and the plans, rules and money that make protection last, with evidence labels, costs, dry or humid suitability, and what each depends on\n- [Country snapshots](${SITE}/countries/): Bangladesh, India, Indonesia, Nepal, the Philippines, Sri Lanka and Thailand\n`);
+  fs.appendFileSync(path.join(ROOT, "llms.txt"), `\n## Solutions library and country snapshots\n\n- [Solutions library](${SITE}/solutions/): passive cooling, active cooling, and the plans, rules and money that make protection last, with evidence labels, costs, dry or humid suitability, and what each depends on\n- [The heat economy](${SITE}/heat-economy/): the businesses selling protection from heat, who invests in them, accelerators and prizes, business ideas for each vicious cycle, and what makes a fair market; with CSV downloads\n- [Country snapshots](${SITE}/countries/): Bangladesh, India, Indonesia, Nepal, the Philippines, Sri Lanka and Thailand\n`);
 }
 
 // ---- /sources/: every source the site cites ----

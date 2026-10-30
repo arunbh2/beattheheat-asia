@@ -894,7 +894,7 @@
     return `<div class="lsols"><p class="lsols__h">Solutions to try</p>${x.note ? `<p class="lsols__note">${esc(x.note)}</p>` : ""}
       <ul>${x.items.map(i => `<li><a href="/solutions/#${esc(i.id)}" target="_blank" rel="noopener">${esc(i.name)}<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a>
         <span class="lsols__tags"><span class="sol-type sol-type--${esc(i.type)}">${esc(SOL_TYPE[i.type] || "")}</span>${tag(i.ev)}</span><small>${esc(i.why)}</small></li>`).join("")}</ul>
-      <p class="lsols__foot">A suggested match, not a measured effect on the cycle. <a href="/solutions/" target="_blank" rel="noopener">All 131 solutions<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>`;
+      <p class="lsols__foot">A suggested match, not a measured effect on the cycle. <a href="/solutions/" target="_blank" rel="noopener">All 131 solutions<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="/heat-economy/opportunities/#loop-${esc(l.id)}" target="_blank" rel="noopener">Business ideas for this cycle<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>`;
   };
   const chainHTML = l => `<p class="chain">${l.path.map(id => `<span>${esc(plain(byId[id]))}</span>`).join('<i aria-hidden="true">→</i>')}<i aria-hidden="true">↺</i></p>`;
 
