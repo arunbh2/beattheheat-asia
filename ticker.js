@@ -32,8 +32,10 @@
     if (!rs.length) return null; var ts = findAll(j, function (o) { return typeof o.datetime === "string" || typeof o.timestamp === "string"; }).map(function (o) { return Date.parse(o.datetime || o.timestamp); }).filter(isFinite);
     var at = ts.length ? Math.max.apply(null, ts) : NaN; if (!isFinite(at) || Date.now() - at > 2 * 3600 * 1000) return null;
     return { max: Math.max.apply(null, rs.map(function (r) { return r.v; })), at: at }; }
+  // the last reading saved by any page of the site, however old (draw() still drops readings over three hours old)
+  function saved() { try { var c = JSON.parse(localStorage.getItem(KEY) || "null"); return c && c.cities ? c : null; } catch (e) { return null; } }
   function get() {
-    try { var c = JSON.parse(localStorage.getItem(KEY) || "null"); if (c && Date.now() - c.at < TTL && c.cities) return Promise.resolve(c); } catch (e) {}
+    var c = saved(); if (c && Date.now() - c.at < TTL) return Promise.resolve(c);
     var q = "https://api.open-meteo.com/v1/forecast?latitude=" + LIVE.map(function (c) { return c.lat; }).join(",") + "&longitude=" + LIVE.map(function (c) { return c.lon; }).join(",") +
       "&current=temperature_2m,apparent_temperature,relative_humidity_2m&daily=temperature_2m_max,apparent_temperature_max&timezone=auto&forecast_days=7";
     var model = fetch(q).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (j) { return Array.isArray(j) ? j : [j]; });
@@ -45,7 +47,7 @@
       if (!Object.keys(out.cities).length) throw new Error("no data");
       try { localStorage.setItem(KEY, JSON.stringify(out)); } catch (e) {}
       return out; }); }
-  function draw() { get().then(function (data) {
+  function paint(data) {
     var ok = LIVE.filter(function (c) { return data.cities[c.id] && age(data.cities[c.id]) < STALE; }); if (!ok.length) { bar.hidden = true; return; }
     var hot = ok.reduce(function (a, b) { return data.cities[b.id].feels > data.cities[a.id].feels ? b : a; }).id;
     var set = function (copy) { return '<ul class="ticker__set"' + (copy ? ' aria-hidden="true"' : "") + ">" + ok.map(function (c) { var d = data.cities[c.id], lv = level(c, d, data.wbgt);
@@ -54,7 +56,10 @@
       '<li class="ticker__more"><a href="/#heat-now"' + (copy ? ' tabindex="-1"' : "") + ">All " + ok.length + " cities and the week ahead</a></li></ul>"; };
     rail.innerHTML = set(false) + set(true); bar.hidden = false;
     rail.style.setProperty("--ticker-dur", Math.max(30, Math.round(rail.scrollWidth / 2 / (reduce ? 22 : 45))) + "s");
-  }, function () {}); }
+  }
+  // show the saved reading at once, then a fresh one; if the weather service does not answer, try again in a minute
+  function draw(tries) { get().then(paint, function () { if ((tries || 0) < 3) setTimeout(function () { draw((tries || 0) + 1); }, 60000); }); }
+  var last = saved(); if (last) paint(last);
   draw();
   setInterval(function () { if (!document.hidden) draw(); }, TTL + 60000);
   if (pause) pause.addEventListener("click", function () { var on = pause.getAttribute("aria-pressed") !== "true";

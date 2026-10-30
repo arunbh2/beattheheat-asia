@@ -3291,3 +3291,33 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 .he .he-dl a::before { color: var(--grey-500); }
 
 @media (max-width: 760px) { .he .sol-bar { top: 84px; } }
+
+/* ---------- /how-heat-is-reported/ ---------- */
+.md .tool-h1 { max-width: 22ch; }
+.md-years { margin: 8px 0 0; max-width: 720px; }
+.md-years figcaption { font-size: .85rem; font-weight: 700; color: var(--grey-700); margin-bottom: 10px; }
+.md-years ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.md-years li { display: grid; grid-template-columns: 3.4rem 1fr 2rem; align-items: center; gap: 10px; font-size: .9rem; font-variant-numeric: tabular-nums; }
+.md-y { color: var(--grey-700); }
+.md-bar { height: 14px; border-bottom: 1px solid var(--rule); }
+.md-bar i { display: block; height: 100%; min-width: 4px; background: var(--grey-500); border-radius: 0 4px 4px 0; }
+.md-years li:hover .md-bar i { background: var(--ink); }
+.md-n { font-weight: 700; }
+.md-note { margin: 10px 0 0; font-size: .82rem; color: var(--grey-700); max-width: 70ch; }
+.md-table th[scope="row"] { font-weight: 700; white-space: nowrap; }
+.md-table td.he-breaks a { font-weight: 600; }
+.md-mid { display: grid; grid-template-columns: 1fr 1.3fr 1fr; gap: 0; margin: 18px 0; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--rule); }
+.md-mid__b { padding: 16px 20px; font-size: .95rem; line-height: 1.5; }
+.md-mid__b p { margin: 0; }
+.md-mid__b + .md-mid__b { border-left: 1px solid var(--rule-soft); }
+.md-mid__b--gap { background: var(--sand-50); }
+.md-mid__b--gap .lc-k { color: var(--ember); }
+@media (max-width: 720px) { .md-mid { grid-template-columns: 1fr; } .md-mid__b + .md-mid__b { border-left: 0; border-top: 1px solid var(--rule-soft); } }
+.md-layers { list-style: none; padding: 0; margin: 14px 0 0; max-width: 90ch; border-top: 1px solid var(--rule); }
+.md-layers li { display: grid; grid-template-columns: 2.2rem 1fr auto; gap: 6px 14px; align-items: baseline; padding: 14px 0; border-bottom: 1px solid var(--rule-soft); line-height: 1.5; }
+.md-layers__n { font-family: var(--font-display); font-size: 1.5rem; line-height: 1; color: var(--grey-500); }
+.md-layers a { font-weight: 600; white-space: nowrap; color: var(--ink); }
+@media (max-width: 600px) { .md-layers li { grid-template-columns: 2.2rem 1fr; } .md-layers a { grid-column: 2; } }
+.refs__bar { flex-wrap: wrap; }
+.refs__bar label:not(.visually-hidden) { flex-basis: 100%; font-size: .85rem; }
+.refs__bar input { min-width: 0; }

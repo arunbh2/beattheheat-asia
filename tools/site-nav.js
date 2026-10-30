@@ -29,6 +29,7 @@ const GROUPS = [
   ] },
   { h: "News and evidence", id: "evidence", items: [
     ["/news/", "Heat in the news", "Headlines and new research, refreshed automatically"],
+    ["/how-heat-is-reported/", "How heat is reported", "What the coverage shows, and what it leaves out"],
     ["/lancet-countdown-2026/", "Lancet Countdown 2026", "The decade’s health evidence, by what you need to do"],
     ["/sources/", "Sources and references", "Every source the site cites"],
     ["/glossary/", "Glossary", "Heat terms in plain language"],
