@@ -61,7 +61,7 @@ const PAGES_HTML = { "index.html": "Home page", "news/index.html": "Heat in the 
   "countries/india/index.html": "India snapshot", "countries/philippines/index.html": "Philippines snapshot",
   "heat-economy/index.html": "The heat economy", "heat-economy/businesses/index.html": "The heat economy: businesses", "heat-economy/money/index.html": "The heat economy: money and support",
   "heat-economy/opportunities/index.html": "The heat economy: what could come up", "heat-economy/conditions/index.html": "The heat economy: what makes markets work",
-  "lancet-countdown-2026/index.html": "Lancet Countdown 2026, in plain language" };
+  "lancet-countdown-2026/index.html": "Lancet Countdown 2026, in plain language", "how-heat-is-reported/index.html": "How heat is reported" };
 for (const [f, where] of Object.entries(PAGES_HTML)) {
   if (!fs.existsSync(path.join(ROOT, f))) continue;
   const t = fs.readFileSync(path.join(ROOT, f), "utf8");
@@ -84,17 +84,22 @@ try {
   arc.research.forEach(x => add(x.url, x.title.replace(/\.$/, ""), "news", "Heat in the news: new research", ts(x.date), { meta: [x.firstAuthor && x.firstAuthor + " et al.", x.journal, x.preprint ? "preprint" : "", fmtDate(x.date)].filter(Boolean).join(" · ") }));
 } catch (e) { console.warn("sources: no news archive yet"); }
 
+// the media bibliography read on /how-heat-is-reported/ (tools/build-media.js writes articles.json)
+const MEDIA = path.join(ROOT, "research", "2026-10", "media", "articles.json");
+if (fs.existsSync(MEDIA)) JSON.parse(fs.readFileSync(MEDIA, "utf8")).forEach((a, i) => add(a.url, a.title, "media", "How heat is reported", i, { meta: [a.pub, a.year, a.by].join(" · ") }));
+
 // the Lancet Countdown 2026 report, its appendix and every reference it cites, in the report's order
 const LC = path.join(ROOT, "research", "2026-10", "lancet-countdown-2026", "references.json");
 if (fs.existsSync(LC)) JSON.parse(fs.readFileSync(LC, "utf8")).forEach(r => add(r.link, r.cite, "lancet", "Lancet Countdown 2026, in plain language", r.n, { no: r.n >= 1 ? r.n : null, scholar: !r.url }));
 
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const all = [...items.values()].map(it => ({ ...it, label: it.label || domainOf(it.url), domain: domainOf(it.url),
-  kind: ["lancet", "news", "ref", "data"].find(k => it.kinds.has(k)) || "org" }));
+  kind: ["lancet", "media", "news", "ref", "data"].find(k => it.kinds.has(k)) || "org" }));
 const sortKey = s => s.toLowerCase().replace(/^(the|a|an)\s+/, "").replace(/[^a-z0-9]/g, "");
-all.sort((a, b) => (a.kind === b.kind && (a.kind === "lancet" || a.kind === "news") ? (a.order ?? 0) - (b.order ?? 0) : sortKey(a.label).localeCompare(sortKey(b.label))));
+all.sort((a, b) => (a.kind === b.kind && (a.kind === "lancet" || a.kind === "news" || a.kind === "media") ? (a.order ?? 0) - (b.order ?? 0) : sortKey(a.label).localeCompare(sortKey(b.label))));
 const GROUPS = [
   { id: "news", short: "from Heat in the news", kind: "news", h: "Heat in the news", p: "Every headline and new paper that has appeared on Heat in the news, newest first. The live page shows the latest two weeks of news and four months of research; this list keeps them all. Headlines are the outlets’ own; listing one is not an endorsement of its framing." },
+  { id: "media", short: "news articles on heat, 2018–2026", kind: "media", h: "How heat is reported: a bibliography", p: "71 articles on extreme heat in South and Southeast Asia, 2018 to 2026, newest first, curated in October 2026 and read on How heat is reported. Several are syndicated columns or wire stories; check bylines at the source. Headlines are the outlets’ own; listing one is not an endorsement of its framing." },
   { id: "lancet", short: "from the Lancet Countdown 2026", kind: "lancet", h: "The Lancet Countdown 2026 and its references", p: "The 2026 report of the Lancet Countdown on health and climate change, its appendix, and every reference it cites, numbered as in the report. Where a reference has no web address, the link searches for it on Google Scholar." },
   { id: "research", short: "research, reports and guidance", kind: "ref", h: "Research, reports and guidance", p: "Papers, reports, guidance, news and datasets cited as evidence anywhere on the site." },
   { id: "organisations", short: "organisations", kind: "org", h: "Organisations in the heat network", p: "Organisations working on extreme heat, as listed in The heat network. Listing one does not imply its partnership, affiliation or endorsement." },
@@ -182,4 +187,4 @@ ${all.filter(x => x.kind === g.kind).map(x => "          " + li(x)).join("\n")}
 `;
 fs.mkdirSync(path.join(ROOT, "sources"), { recursive: true });
 fs.writeFileSync(path.join(ROOT, "sources", "index.html"), html);
-console.log(`sources: ${total} (${counts.ref} references, ${counts.news || 0} from the news, ${counts.lancet || 0} Lancet Countdown, ${counts.org} organisations, ${counts.data} data)`);
+console.log(`sources: ${total} (${counts.ref} references, ${counts.news || 0} from the news, ${counts.media || 0} media articles, ${counts.lancet || 0} Lancet Countdown, ${counts.org} organisations, ${counts.data} data)`);

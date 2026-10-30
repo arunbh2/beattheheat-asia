@@ -50,6 +50,7 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The pa
 - [The heat economy](https://beattheheat.asia/heat-economy/): the businesses selling protection from heat, who invests in them, accelerators and prizes, business ideas for each vicious cycle, and what makes a fair market; with CSV downloads
 - [Country snapshots](https://beattheheat.asia/countries/): Bangladesh, India, Indonesia, Nepal, the Philippines, Sri Lanka and Thailand
 - [The Lancet Countdown 2026, for extreme heat in Asia](https://beattheheat.asia/lancet-countdown-2026/): the 2026 report's heat findings in plain language, what they mean for cities, health workers, employers, communities, funders and governments, the gaps in the evidence, and all 397 references
+- [How heat is reported](https://beattheheat.asia/how-heat-is-reported/): what 71 news articles on extreme heat in South and Southeast Asia (2018–2026) show, what they leave less visible, and the full bibliography
 - [Sources and references](https://beattheheat.asia/sources/): every source the site cites, including every headline from Heat in the news
 
 ## Printable one-pagers
