@@ -56,6 +56,14 @@
    "preprint": false
   },
   {
+   "title": "Intraspecific competition modulates heatwave effects on male reproduction in Drosophila prolongata.",
+   "url": "https://doi.org/10.1007/s00442-026-06006-0",
+   "journal": "Oecologia",
+   "date": "2026-10-27",
+   "firstAuthor": "Gupta S",
+   "preprint": false
+  },
+  {
    "title": "Projected Exposure of Canadian Children to Rare, High-Severity Heatwaves Under Continued Warming.",
    "url": "https://doi.org/10.1029/2026gh001873",
    "journal": "GeoHealth",
@@ -238,6 +246,14 @@
    "date": "2026-10-20",
    "firstAuthor": "Wenqi Liu",
    "preprint": true
+  },
+  {
+   "title": "Integrating Heat Stress into Circular Livestock Production and Life Cycle Assessment: Toward a Heat-Stress Circularity Index.",
+   "url": "https://doi.org/10.3390/ani16203290",
+   "journal": "Animals : an open access journal from MDPI",
+   "date": "2026-10-19",
+   "firstAuthor": "Papatsiros VG",
+   "preprint": false
   },
   {
    "title": "Genetic parameters, trait associations and path coefficient analysis of yield-related traits in maize (Zea mays L.) under heat stress conditions",
@@ -984,5 +1000,5 @@
    "preprint": false
   }
  ],
- "updated": "2026-10-30T18:55:27.702Z"
+ "updated": "2026-10-30T22:30:37.644Z"
 }

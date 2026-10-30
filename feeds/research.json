@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T13:13:16.427Z",
+ "updated": "2026-10-30T22:30:37.502Z",
  "days": 120,
  "source": "Europe PMC",
  "items": [
@@ -22,6 +22,16 @@
    "preprint": false,
    "url": "https://doi.org/10.1007/s13353-026-01126-y",
    "firstAuthor": "Iqbal S"
+  },
+  {
+   "title": "Intraspecific competition modulates heatwave effects on male reproduction in Drosophila prolongata.",
+   "journal": "Oecologia",
+   "date": "2026-10-27",
+   "doi": "10.1007/s00442-026-06006-0",
+   "pmid": "42944882",
+   "preprint": false,
+   "url": "https://doi.org/10.1007/s00442-026-06006-0",
+   "firstAuthor": "Gupta S"
   },
   {
    "title": "Projected Exposure of Canadian Children to Rare, High-Severity Heatwaves Under Continued Warming.",
@@ -72,6 +82,16 @@
    "preprint": false,
    "url": "https://doi.org/10.1007/s11250-026-05414-x",
    "firstAuthor": "Anjali"
+  },
+  {
+   "title": "Integrating Heat Stress into Circular Livestock Production and Life Cycle Assessment: Toward a Heat-Stress Circularity Index.",
+   "journal": "Animals : an open access journal from MDPI",
+   "date": "2026-10-19",
+   "doi": "10.3390/ani16203290",
+   "pmid": "42939222",
+   "preprint": false,
+   "url": "https://doi.org/10.3390/ani16203290",
+   "firstAuthor": "Papatsiros VG"
   },
   {
    "title": "Seasonal ambient temperature and particulate matter as discriminators of hyperemesis gravidarum severity: a retrospective comparative observational study",
@@ -582,26 +602,6 @@
    "preprint": false,
    "url": "https://doi.org/10.3389/fpls.2026.1919895",
    "firstAuthor": "Thapa B"
-  },
-  {
-   "title": "Heat stress responses and thermoregulatory dynamics in Murrah buffalo calves assessed by infrared thermography.",
-   "journal": "International journal of biometeorology",
-   "date": "2026-08-27",
-   "doi": "10.1007/s00484-026-03307-0",
-   "pmid": "42658314",
-   "preprint": false,
-   "url": "https://doi.org/10.1007/s00484-026-03307-0",
-   "firstAuthor": "Kumari R"
-  },
-  {
-   "title": "Widespread coral bleaching across subtropical and temperate Japan under record marine heat stress.",
-   "journal": "Scientific reports",
-   "date": "2026-08-25",
-   "doi": "10.1038/s41598-026-65095-2",
-   "pmid": "42642448",
-   "preprint": false,
-   "url": "https://doi.org/10.1038/s41598-026-65095-2",
-   "firstAuthor": "Kurihara H"
   }
  ]
 }
