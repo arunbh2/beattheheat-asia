@@ -341,7 +341,8 @@ write("heat-economy/opportunities", "Businesses that could help break heat’s c
 write("heat-economy/conditions", "What makes a fair heat-resilience market", "Rules that create demand, ways of paying, barriers, fairness questions and roles for every institution in protection from extreme heat.", conditions);
 
 // ---- CSV downloads ----
-const cell = v => { const s = Array.isArray(v) ? v.join("; ") : v == null ? "" : String(v); return /[",\r\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s; };
+const cell = v => { let s = Array.isArray(v) ? v.join("; ") : v == null ? "" : String(v); if (/^https?:\/\/\S+$/.test(s) && !live(s)) s = ""; // links that failed the check are left out, as on the pages
+  return /[",\r\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s; };
 const csv = (file, head, rows) => { fs.mkdirSync(path.join(ROOT, "heat-economy", "data"), { recursive: true }); fs.writeFileSync(path.join(ROOT, "heat-economy", "data", file + ".csv"), "﻿" + [head, ...rows].map(r => r.map(cell).join(",")).join("\r\n") + "\r\n"); };
 const loopNames = ids => (ids || []).map(id => (loopById[id] || {}).name).filter(Boolean);
 csv("businesses", ["Business", "Part of the economy", "Kind", "Side", "Headquarters", "Countries", "Offers in South or Southeast Asia", "Product", "Business model", "Customer", "User", "Price (local)", "Currency", "Dry or humid heat", "Reaches the poorest", "Cycles it can act on", "How it could cut a cycle", "Risks", "Website", "Source", "Checked"],
