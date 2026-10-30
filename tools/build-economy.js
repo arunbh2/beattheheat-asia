@@ -273,6 +273,13 @@ const money = shell("money", "The heat economy · Money and support", "Who is in
         <p class="sol-none" id="he-none" hidden>No investor matches. Try fewer filters.</p>`);
 
 // ================= 4. WHAT COULD COME UP =================
+// "G3:gef / G4:nature-for-cooling — text": name and link the investors (G3) and programmes (G4) it refers to
+const fitLine = x => {
+  const m = /^((?:G\d:[\w.-]+\s*(?:\/\s*)?)+)\s*[—–-]\s*([\s\S]*)$/.exec(x); if (!m) return `<li>${esc(x)}</li>`;
+  const who = m[1].split("/").map(t => t.trim()).filter(Boolean).map(t => { const [g, id] = t.split(":"); const i = g === "G3" && INV.find(v => v.id === id), a = g === "G4" && PROG.find(v => v.id === id);
+    return i ? `<a href="/heat-economy/money/#inv-${esc(id)}">${esc(i.name)}</a>` : a ? `<a href="/heat-economy/money/#prog-${esc(id)}">${esc(a.name)}</a>` : ""; }).filter(Boolean);
+  return `<li>${who.length ? `<b>${who.join(" · ")}:</b> ` : ""}${esc(m[2])}</li>`;
+};
 const oppCard = o => {
   const [vn, vk] = VIABLE[o.viable_market] || ["", ""];
   return `<details class="sol he-card" id="${esc(o.id)}" data-viable="${vk}" data-q="${qtext(o.name, o.who_pays, o.who_benefits, o.revenue_model, (loopById[o.loop] || {}).name)}">
@@ -285,7 +292,7 @@ const oppCard = o => {
         ${f("What has to be true", ul(o.must_be_true))}
         ${f("Closest examples so far", (o.analogues || []).length ? `<ul class="sol-ul">${o.analogues.map(a => `<li>${esc(a.text)} ${src(a.source)}</li>`).join("")}</ul>` : "")}
         ${f("Who would need to buy or co-own it", ul(o.anchor_demand))}
-        ${f("Money that could fit", ul((o.fit_investors || []).map(x => x.replace(/^(G\d:[^ ]+( \/ )?)+\s*—\s*/, ""))))}
+        ${f("Money that could fit", (o.fit_investors || []).length ? `<ul class="sol-ul">${o.fit_investors.map(fitLine).join("")}</ul>` : "")}
         ${f("Risks", p(o.risks))}
         ${o.viable_market !== "yes" && o.if_not_viable ? `<div class="sol-f sol-kiu"><h4>If buyers cannot fund it</h4>${p(o.if_not_viable)}</div>` : ""}
       </div>
