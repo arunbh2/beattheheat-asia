@@ -1,6 +1,6 @@
 # The 2026 report of the Lancet Countdown on health and climate change: its references, numbered as in the report.
 # n | citation | link (blank = search Google Scholar for the citation)
-1|UNFCCC (2015). Paris Agreement to the United Nations Framework Convention on Climate Change.|https://unfccc.int/sites/default/files/english_paris_agreement.pdf
+1|UNFCCC (2015). Paris Agreement to the United Nations Framework Convention on Climate Change.|
 2|Neira M, Campbell-Lendrum D (2015). New climate change agreement a historic win for human health. WHO.|https://www.who.int/news-room/commentaries/detail/new-climate-change-agreement-a-historic-win-for-human-health
 3|IRENA (2025). 91% of new renewable projects now cheaper than fossil fuels alternatives.|https://www.irena.org/News/pressreleases/2025/Jul/91-Percent-of-New-Renewable-Projects-Now-Cheaper-Than-Fossil-Fuels-Alternatives
 4|IRENA (2025). Renewable power generation costs in 2024.|
@@ -57,7 +57,7 @@
 55|Kriit HK, Chen-Xu J, Semenza JC, et al. (2026). The 2026 Europe report of the Lancet Countdown: narrowing window for decisive health action. Lancet Public Health 11: e386–e407.|https://doi.org/10.1016/S2468-2667(26)00025-3
 56|Gordon-Strachan GM, Parker SY, Harewood HC, et al. (2026). The 2025 small island developing states report of the Lancet Countdown: building resilience in the face of rising heat. Lancet Glob Health 14: 103961.|https://doi.org/10.1016/j.langlo.2026.103961
 57|Watts N, Adger WN, Agnolucci P, et al. (2015). Health and climate change: policy responses to protect public health. Lancet 386: 1861–1914.|https://doi.org/10.1016/S0140-6736(15)60854-6
-58|UNFCCC (2015). Paris Agreement to the United Nations Framework Convention on Climate Change.|https://unfccc.int/sites/default/files/english_paris_agreement.pdf
+58|UNFCCC (2015). Paris Agreement to the United Nations Framework Convention on Climate Change.|
 59|WMO (2025). State of the Global Climate 2025.|
 60|Gagnon D, Schlader ZJ, Jay O (2026). The physiology behind the epidemiology of heat-related health impacts. Physiology 41: 30–42.|
 61|Klarenberg H, van der Velde JHPM, Peeters CFW, et al. (2024). Leisure time physical activity and diastolic heart function. BMJ Open Sport Exerc Med 10: e001778.|https://doi.org/10.1136/bmjsem-2023-001778
