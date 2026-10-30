@@ -202,7 +202,7 @@ ${libs.map(l => `        <section class="sol-group" id="${l.type}" aria-labelled
           <p class="sol-gp">New ideas, labelled honestly by how far they have got.</p>
           <ul class="sol-list">${inno}</ul>
         </section>
-        <p class="tool-alt">Country snapshots: ${COUNTRIES_LINKS()} · <a href="/sources/">All sources</a> · <a href="/practical/">Practical actions</a></p>
+        <p class="tool-alt">Country snapshots: ${COUNTRIES_LINKS()} · <a href="/heat-economy/">The heat economy</a> · <a href="/sources/">All sources</a> · <a href="/practical/">Practical actions</a></p>
       </div>
     </section>`;
 function COUNTRIES_LINKS() { return SNAPS.map(s => `<a href="/countries/${s.slug}/">${esc(s.name)}</a>`).join(" · "); }
