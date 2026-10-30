@@ -48,10 +48,76 @@ footer p + p { margin-top: 2px; } footer b { color: #16202B; }
 @media print { body { background: none; } .sheet { margin: 0; box-shadow: none; width: auto; min-height: 0; height: 273mm; padding: 0; overflow: hidden; } .tools { display: none; } a { color: inherit; } }
 @media screen and (max-width: 820px) { .sheet { width: auto; margin: 8px; min-height: 0; } .fit { zoom: 1 !important; min-height: 0 !important; } .tools { width: auto; margin: 8px; flex-wrap: wrap; } .cols, .cols3 { grid-template-columns: 1fr; } }
 </style>
+<!--csn--><style id="csn-css">html:has(.csn){scroll-padding-top:104px}
+.csn,.csf{--csn-ink:#16202B;--csn-canvas:#FAF7F2;--csn-line:#E6DFD4;--csn-orange:#F26430;--csn-grey:#39424D;font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;color:var(--csn-ink);line-height:1.4}
+.csn{position:sticky;top:0;z-index:50;max-width:none!important;margin:0!important;padding:0!important;display:block!important;background:rgba(250,247,242,.97);border-bottom:1px solid var(--csn-line);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.csn a,.csf a{color:var(--csn-ink);text-decoration:none;margin:0}
+.csn__in{max-width:1240px;margin:0 auto;padding:0 clamp(16px,3vw,32px);min-height:58px;display:flex;align-items:center;gap:8px 22px}
+.csn__home{display:inline-flex;align-items:center;gap:9px;font-family:Anton,Impact,"Arial Narrow",sans-serif;font-size:1.12rem;letter-spacing:.05em;white-space:nowrap;margin:0!important}
+.csn__mark{width:22px;height:22px;border-radius:6px;background:var(--csn-ink);position:relative;flex:none}
+.csn__mark::before{content:"";position:absolute;left:4px;right:4px;top:5px;height:7px;border:3px solid var(--csn-orange);border-bottom:0;border-radius:10px 10px 0 0}
+.csn__primary{display:flex;gap:2px 16px;flex-wrap:wrap;font-size:.9rem;font-weight:700;flex:1;min-width:0}
+.csn__primary a{padding:6px 0;margin:0!important;border-bottom:2px solid transparent}
+.csn__primary a:hover{border-bottom-color:var(--csn-orange)}
+.csn__primary a[aria-current]{border-bottom-color:var(--csn-ink)}
+.csn__menu{margin-left:auto;position:static}
+.csn__menu>summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:6px 14px;border:1.5px solid var(--csn-ink);border-radius:999px;font-weight:700;font-size:.88rem;white-space:nowrap;background:#fff}
+.csn__menu>summary::-webkit-details-marker{display:none}
+.csn__menu[open]>summary{background:var(--csn-ink);color:var(--csn-canvas)}
+.csn__burger{display:inline-grid;gap:3px}.csn__burger i{display:block;width:14px;height:2px;background:currentColor;border-radius:2px}
+.csn__panel{position:absolute;left:0;right:0;top:100%;max-height:calc(100vh - 70px);overflow:auto;background:var(--csn-canvas);border-bottom:1px solid var(--csn-line);box-shadow:0 18px 40px -18px rgba(22,32,43,.35);padding:22px clamp(16px,3vw,32px) 26px;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px 28px}
+.csn__group h2,.csf h2{margin:0 0 8px!important;padding:0!important;border:0!important;font-family:inherit!important;font-size:.72rem!important;font-weight:800!important;letter-spacing:.14em;text-transform:uppercase;color:var(--csn-grey)}
+.csn__group ul,.csf ul{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+.csn__group a{display:grid;gap:1px;padding:7px 10px;border-radius:8px;border-left:3px solid transparent}
+.csn__group a:hover{background:#fff;border-left-color:var(--csn-orange)}
+.csn__group a[aria-current]{background:#fff;border-left-color:var(--csn-ink)}
+.csn__group a[aria-current] b::after{content:" · you are here";font-weight:600;font-size:.78rem;color:var(--csn-grey)}
+.csn__group b{font-size:.95rem}.csn__group small{font-size:.8rem;color:var(--csn-grey)}
+.csn__text{grid-column:1/-1;margin:4px 0 0;font-size:.82rem;color:var(--csn-grey)}
+.csn__text a,.csf__text a{text-decoration:underline;text-decoration-color:var(--csn-orange);text-underline-offset:3px}
+.csn__crumbs{max-width:1240px;margin:0 auto;padding:0 clamp(16px,3vw,32px) 8px;font-size:.8rem;color:var(--csn-grey)}
+.csn__crumbs ol{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:2px 0}
+.csn__crumbs li{display:inline}.csn__crumbs li+li::before{content:"›";margin:0 8px;color:var(--csn-orange)}
+.csn__crumbs a{text-decoration:underline;text-decoration-color:var(--csn-line);text-underline-offset:3px;color:var(--csn-grey)}
+.csn__crumbs [aria-current]{color:var(--csn-ink);font-weight:700}
+.csn a:focus-visible,.csn summary:focus-visible,.csf a:focus-visible{outline:3px solid var(--csn-orange);outline-offset:3px;border-radius:4px}
+.csn-vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.csn-skip{position:absolute;left:12px;top:-60px;z-index:60;padding:10px 16px;background:#16202B;color:#FAF7F2!important;font-weight:700;border-radius:0 0 8px 8px}.csn-skip:focus{top:0}
+.csf{margin-top:56px;background:#16202B;color:#FAF7F2;max-width:none!important;padding:0!important}
+.csf a{color:#FAF7F2}.csf a:hover{text-decoration:underline;text-decoration-color:var(--csn-orange);text-underline-offset:3px}
+.csf h2{color:#C9C2B6!important}
+.csf__in{max-width:1240px;margin:0 auto;padding:34px clamp(16px,3vw,32px) 30px}
+.csf__top{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 18px;padding-bottom:20px;margin-bottom:22px;border-bottom:1px solid rgba(250,247,242,.18);font-size:.9rem;color:#C9C2B6}
+.csf__home{font-family:Anton,Impact,"Arial Narrow",sans-serif;font-size:1.2rem;letter-spacing:.05em}
+.csf__up{margin-left:auto;font-weight:700}
+.csf__grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:22px 28px}
+.csf li{font-size:.9rem}.csf a[aria-current]{font-weight:800;text-decoration:underline;text-decoration-color:var(--csn-orange)}
+.csf__text{margin:24px 0 0;font-size:.82rem;color:#C9C2B6}
+@media (max-width:1100px){.csn__primary a:nth-child(n+5){display:none}}
+@media (max-width:760px){.csn__primary{display:none}.csn__in{min-height:54px}.csn__menu>summary{padding:6px 12px}.csn__panel{grid-template-columns:1fr;max-height:calc(100vh - 60px)}}
+@media print{.csn,.csf,.csn-skip{display:none!important}}</style><!--/csn-->
 </head>
 <body>
+<!--csn--><a class="csn-skip" href="#main">Skip to the content</a><!--/csn-->
+<!--csn--><header class="csn" id="top">
+  <div class="csn__in">
+    <a class="csn__home" href="/"><span class="csn__mark" aria-hidden="true"></span>COMMON SHADE<span class="csn-vh">: home, the map of extreme heat</span></a>
+    <nav class="csn__primary" aria-label="Main sections"><a href="/#explore">The map</a><a href="/#loops">Breaking the cycles</a><a href="/practical/">Practical actions</a><a href="/solutions/">Solutions</a><a href="/heat-economy/">Heat economy</a><a href="/news/">News</a><a href="/lancet-countdown-2026/">Evidence</a></nav>
+    <details class="csn__menu">
+      <summary><span class="csn__burger" aria-hidden="true"><i></i><i></i><i></i></span>All sections</summary>
+      <nav class="csn__panel" aria-label="All sections">
+        <div class="csn__group"><h2 id="csn-understand">Understand heat</h2><ul aria-labelledby="csn-understand"><li><a href="/#explore"><b>The map</b><small>Every consequence of heat, and how each leads to the next</small></a></li><li><a href="/#loops"><b>Breaking the cycles</b><small>The vicious cycles, and where they can be cut</small></a></li><li><a href="/#day"><b>A day in a heatwave</b><small>Eight hours, seven places across Asia</small></a></li><li><a href="/who-is-at-risk/"><b>Who heat hits hardest</b><small>Same heatwave, different barriers</small></a></li><li><a href="/heatwaves/"><b>Heatwaves that shaped Asia</b><small>Ten heatwaves, 1998 to 2026</small></a></li><li><a href="/cities/"><b>Cities</b><small>Heat, plans and cycles in twelve cities</small></a></li><li><a href="/countries/"><b>Countries</b><small>Seven national snapshots</small></a></li></ul></div>
+        <div class="csn__group"><h2 id="csn-act">Act</h2><ul aria-labelledby="csn-act"><li><a href="/practical/"><b>Practical actions</b><small>What to do, by setting, and what keeps it working</small></a></li><li><a href="/solutions/"><b>Solutions library</b><small>131 solutions, with their evidence</small></a></li><li><a href="/cooling-options/"><b>Cooling options</b><small>What to build where people are</small></a></li><li><a href="/plan/"><b>Plan a response</b><small>Turn the map into a one-page plan</small></a></li><li><a href="/worked-plans/"><b>Worked plans</b><small>Plans already written for real places</small></a></li><li><a href="/together/"><b>Make it work together</b><small>A coordinator’s simulation for one place</small></a></li><li><a href="/a-week-in-the-heat/"><b>A week in the heat</b><small>Follow one worker’s money and protection</small></a></li></ul></div>
+        <div class="csn__group"><h2 id="csn-fund">Fund and build</h2><ul aria-labelledby="csn-fund"><li><a href="/finance/"><b>Paying for protection</b><small>Who pays, how money arrives, whether it lasts</small></a></li><li><a href="/heat-economy/"><b>The heat economy</b><small>Businesses, funding and ideas, and what to ask</small></a></li><li><a href="/heat-network/"><b>The heat network</b><small>Organisations already at work</small></a></li><li><a href="/join/"><b>Help build Common Shade</b><small>Add evidence, correct us, partner</small></a></li></ul></div>
+        <div class="csn__group"><h2 id="csn-evidence">News and evidence</h2><ul aria-labelledby="csn-evidence"><li><a href="/news/"><b>Heat in the news</b><small>Headlines and new research, refreshed automatically</small></a></li><li><a href="/lancet-countdown-2026/"><b>Lancet Countdown 2026</b><small>The decade’s health evidence, by what you need to do</small></a></li><li><a href="/sources/"><b>Sources and references</b><small>Every source the site cites</small></a></li><li><a href="/glossary/"><b>Glossary</b><small>Heat terms in plain language</small></a></li><li><a href="/print/" aria-current="page"><b>Printable one-pagers</b><small>Briefs for officials, partners and funders</small></a></li><li><a href="/guide/"><b>How to use this site</b><small>Paths, the toolkit and a workshop guide</small></a></li></ul></div>
+        <p class="csn__text">Text versions, for slow connections and screen readers: <a href="/the-web/">The web</a> · <a href="/loops/">Vicious cycles</a> · <a href="/actions/">Actions</a> · <a href="/practical-actions/">Practical actions</a> · <a href="/paying-for-protection/">Paying for protection</a></p>
+      </nav>
+    </details>
+  </div>
+  <nav class="csn__crumbs" aria-label="You are here"><ol><li><a href="/">Home</a></li><li><a href="/print/">Printable one-pagers</a></li><li aria-current="page">Four heats in a home</li></ol></nav>
+</header><!--/csn-->
 <nav class="tools" aria-label="Page tools"><button type="button" onclick="window.print()">Print or save as PDF</button><a href="/#four-heats">Open the live page</a><a href="/print/">All one-pagers</a></nav>
-<main class="sheet"><div class="fit">
+<main id="main" class="sheet"><div class="fit">
   <div class="bar"><div class="brand"><i></i>COMMON SHADE</div><div class="kind">One-pager · For municipal heat officers and housing departments</div></div>
   <h1>Four heats in a home</h1>
   <p class="lede">A heat warning gives one number. A family under a tin roof lives with four, and the worst of it often comes after dark.</p>
@@ -80,7 +146,19 @@ footer p + p { margin-top: 2px; } footer b { color: #16202B; }
       <div class="box good" style="margin-top:6px"><b>For heat plans.</b> Heat warnings measure the street. Heat plans should protect the room: count indoor and night-time heat, warn for hot nights, and pay for cooler roofs where people sleep.</div>
   <div class="grow"></div>
   <h2>Sources</h2><ol class="srcs"><li>Urban Solutions: how informal settlements stay cool (informal measurements). <a href="https://urbansolutionsjournal.substack.com/p/how-are-informal-settlements-staying">urbansolutionsjournal.substack.com/p/how-are-informal-settlements-staying</a></li><li>Tasgaonkar et al., Scientific Data, 2022: indoor heat in low-income homes in South Asia. <a href="https://www.nature.com/articles/s41597-022-01314-5">nature.com/articles/s41597-022-01314-5</a></li><li>Frontiers in Built Environment, 2022. <a href="https://www.frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2022.874751/full">frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2022.874751/full</a></li><li>IIED, 2026. <a href="https://www.iied.org/sites/default/files/pdfs/2026-02/22697iied.pdf">iied.org/sites/default/files/pdfs/2026-02/22697iied.pdf</a></li><li>NRDC: community-led cool roofs in four Indian cities. <a href="https://www.nrdc.org/bio/anjali-jaiswal/cool-roofs-community-led-initiatives-four-indian-cities">nrdc.org/bio/anjali-jaiswal/cool-roofs-community-led-initiatives-four-indian-cities</a></li><li>Malaria Journal, 2021: roof colour and indoor temperature in rural Gambia. <a href="https://malariajournal.biomedcentral.com/articles/10.1186/s12936-021-03951-4">malariajournal.biomedcentral.com/articles/10.1186/s12936-021-03951-4</a></li><li>Centre for Policy Research, 2023. <a href="https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/">cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action</a></li></ol>
-  <footer>
+  <!--csn--><nav class="csf" aria-label="Site map">
+  <div class="csf__in">
+    <div class="csf__top"><a class="csf__home" href="/">COMMON SHADE</a><span>Seeing extreme heat as a whole, so the right people can act. Plain language, sources linked.</span><a class="csf__up" href="#top">Back to top <span aria-hidden="true">↑</span></a></div>
+    <div class="csf__grid">
+      <div><h2>Understand heat</h2><ul><li><a href="/#explore">The map</a></li><li><a href="/#loops">Breaking the cycles</a></li><li><a href="/#day">A day in a heatwave</a></li><li><a href="/who-is-at-risk/">Who heat hits hardest</a></li><li><a href="/heatwaves/">Heatwaves that shaped Asia</a></li><li><a href="/cities/">Cities</a></li><li><a href="/countries/">Countries</a></li></ul></div>
+      <div><h2>Act</h2><ul><li><a href="/practical/">Practical actions</a></li><li><a href="/solutions/">Solutions library</a></li><li><a href="/cooling-options/">Cooling options</a></li><li><a href="/plan/">Plan a response</a></li><li><a href="/worked-plans/">Worked plans</a></li><li><a href="/together/">Make it work together</a></li><li><a href="/a-week-in-the-heat/">A week in the heat</a></li></ul></div>
+      <div><h2>Fund and build</h2><ul><li><a href="/finance/">Paying for protection</a></li><li><a href="/heat-economy/">The heat economy</a></li><li><a href="/heat-network/">The heat network</a></li><li><a href="/join/">Help build Common Shade</a></li></ul></div>
+      <div><h2>News and evidence</h2><ul><li><a href="/news/">Heat in the news</a></li><li><a href="/lancet-countdown-2026/">Lancet Countdown 2026</a></li><li><a href="/sources/">Sources and references</a></li><li><a href="/glossary/">Glossary</a></li><li><a href="/print/" aria-current="page">Printable one-pagers</a></li><li><a href="/guide/">How to use this site</a></li></ul></div>
+    </div>
+    <p class="csf__text">Text versions: <a href="/the-web/">The web</a> · <a href="/loops/">Vicious cycles</a> · <a href="/actions/">Actions</a> · <a href="/practical-actions/">Practical actions</a> · <a href="/paying-for-protection/">Paying for protection</a> · <a href="/llms-full.txt">Everything as one text file</a></p>
+  </div>
+</nav><script>(function(){var d=document.querySelector(".csn__menu");if(!d)return;var s=d.querySelector("summary");document.addEventListener("keydown",function(e){if(e.key==="Escape"&&d.open){d.open=false;s.focus();}});document.addEventListener("click",function(e){if(d.open&&!d.contains(e.target))d.open=false;});d.addEventListener("click",function(e){if(e.target.closest("a"))d.open=false;});})();</script><!--/csn-->
+<footer>
     <div>
       <p><b>Common Shade</b> · A living map of extreme heat in South and Southeast Asia, updated as the evidence grows. Live page: beattheheat.asia/#four-heats</p>
       <p>Common Shade is in beta, currently at beattheheat.asia. A group of organisations is helping shape it as a shared endeavour for protection from extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement.</p>

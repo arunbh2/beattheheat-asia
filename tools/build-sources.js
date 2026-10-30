@@ -31,13 +31,14 @@ const items = new Map();   // normalised url -> { url, label, kinds:Set, where:S
 const norm = u => u.replace(/^http:/, "https:").replace(/#.*$/, "").replace(/\/$/, "");
 const domainOf = u => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch (e) { return ""; } };
 const SKIP = /creativecommons\.org|github\.com\/arunbh2|beattheheat\.asia|commonshade\.|forms\.(office|cloud\.microsoft)|goatcounter|fonts\.(googleapis|gstatic)/;
-function add(url, label, kind, where) {
+function add(url, label, kind, where, order) {
   if (typeof url !== "string" || !/^https?:\/\//.test(url) || SKIP.test(url)) return;
   const k = norm(url); let it = items.get(k);
   if (!it) items.set(k, it = { url, label: "", kinds: new Set(), where: new Set() });
   label = String(label || "").replace(/\s+/g, " ").trim();
   if (label && (!it.label || (it.label.length < 12 && label.length > it.label.length))) it.label = label;
   it.kinds.add(kind); if (where) it.where.add(where);
+  if (order != null && (it.order == null || order < it.order)) it.order = order;
 }
 // walk data.js: any object with a url is a citation; its label, name, title or source names it
 function walk(v, top, seen = new Set()) {
@@ -58,8 +59,10 @@ const PAGES_HTML = { "index.html": "Home page", "news/index.html": "Heat in the 
   "countries/sri-lanka/index.html": "Sri Lanka snapshot", "countries/thailand/index.html": "Thailand snapshot", "countries/indonesia/index.html": "Indonesia snapshot",
   "countries/india/index.html": "India snapshot", "countries/philippines/index.html": "Philippines snapshot",
   "heat-economy/index.html": "The heat economy", "heat-economy/businesses/index.html": "The heat economy: businesses", "heat-economy/money/index.html": "The heat economy: money and support",
-  "heat-economy/opportunities/index.html": "The heat economy: what could come up", "heat-economy/conditions/index.html": "The heat economy: what makes markets work" };
+  "heat-economy/opportunities/index.html": "The heat economy: what could come up", "heat-economy/conditions/index.html": "The heat economy: what makes markets work",
+  "lancet-countdown-2026/index.html": "Lancet Countdown 2026, in plain language" };
 for (const [f, where] of Object.entries(PAGES_HTML)) {
+  if (!fs.existsSync(path.join(ROOT, f))) continue;
   const t = fs.readFileSync(path.join(ROOT, f), "utf8");
   for (const m of t.matchAll(/<a [^>]*href="(https?:\/\/[^"]+)"[^>]*>([\s\S]*?)<\/a>/g)) add(m[1], m[2].replace(/<[^>]+>/g, "").replace(/\(opens in a new tab\)|↗/g, ""), "ref", where);
 }
@@ -71,17 +74,33 @@ const DATA_TOOLS = [
 ];
 DATA_TOOLS.forEach(([u, l, w]) => add(u, l, "data", w));
 
+// every headline and paper that has appeared on /news/ (tools/archive-news.js keeps them after they leave the live feed)
+const fmtDate = d => { const t = new Date(d); return isNaN(t) ? "" : t.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" }); };
+try {
+  const arc = JSON.parse(fs.readFileSync(path.join(ROOT, "feeds", "archive.json"), "utf8"));
+  const ts = d => -(Date.parse(d) || 0);
+  arc.news.forEach(x => add(x.url, `${x.title} (${[x.via, x.place, fmtDate(x.date)].filter(Boolean).join(", ")})`, "news", "Heat in the news: headlines", ts(x.date)));
+  arc.research.forEach(x => add(x.url, `${x.title} (${[x.firstAuthor && x.firstAuthor + " et al.", x.journal, x.preprint ? "preprint" : "", fmtDate(x.date)].filter(Boolean).join(", ")})`, "news", "Heat in the news: new research", ts(x.date)));
+} catch (e) { console.warn("sources: no news archive yet"); }
+
+// the Lancet Countdown 2026 report, its appendix and every reference it cites, in the report's order
+const LC = path.join(ROOT, "research", "2026-10", "lancet-countdown-2026", "references.json");
+if (fs.existsSync(LC)) JSON.parse(fs.readFileSync(LC, "utf8")).forEach(r => add(r.link, `${r.n >= 1 ? `[${r.n}] ` : ""}${r.cite}`, "lancet", "Lancet Countdown 2026, in plain language", r.n));
+
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const all = [...items.values()].map(it => ({ ...it, label: it.label || domainOf(it.url), domain: domainOf(it.url),
-  kind: it.kinds.has("ref") ? "ref" : it.kinds.has("data") ? "data" : "org" }));
+  kind: ["lancet", "news", "ref", "data"].find(k => it.kinds.has(k)) || "org" }));
 const sortKey = s => s.toLowerCase().replace(/^(the|a|an)\s+/, "").replace(/[^a-z0-9]/g, "");
-all.sort((a, b) => sortKey(a.label).localeCompare(sortKey(b.label)));
+all.sort((a, b) => (a.kind === b.kind && (a.kind === "lancet" || a.kind === "news") ? (a.order ?? 0) - (b.order ?? 0) : sortKey(a.label).localeCompare(sortKey(b.label))));
 const GROUPS = [
+  { id: "news", kind: "news", h: "Heat in the news", p: "Every headline and new paper that has appeared on Heat in the news, newest first. The live page shows the latest two weeks of news and four months of research; this list keeps them all. Headlines are the outlets’ own; listing one is not an endorsement of its framing." },
+  { id: "lancet", kind: "lancet", h: "The Lancet Countdown 2026 and its references", p: "The 2026 report of the Lancet Countdown on health and climate change, its appendix, and every reference it cites, numbered as in the report. Where a reference has no web address, the link searches for it on Google Scholar." },
   { id: "research", kind: "ref", h: "Research, reports and guidance", p: "Papers, reports, guidance, news and datasets cited as evidence anywhere on the site." },
   { id: "organisations", kind: "org", h: "Organisations in the heat network", p: "Organisations working on extreme heat, as listed in The heat network. Listing one does not imply its partnership, affiliation or endorsement." },
   { id: "data", kind: "data", h: "Live data and tools behind the site", p: "Services the site reads from as you use it." }
 ];
 const counts = Object.fromEntries(GROUPS.map(g => [g.kind, all.filter(x => x.kind === g.kind).length]));
+GROUPS.splice(0, GROUPS.length, ...GROUPS.filter(g => counts[g.kind]));
 const li = x => `<li data-q="${esc((x.label + " " + x.domain + " " + [...x.where].join(" ")).toLowerCase())}"><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.label)}<span class="visually-hidden"> (opens in a new tab)</span></a> <span class="refs__dom">${esc(x.domain)}</span>${x.where.size ? `<span class="refs__where">Cited in: ${[...x.where].sort().map(esc).join(" · ")}</span>` : ""}</li>`;
 const ICON = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2316202B'/%3E%3Cpath d='M5 14 Q16 4 27 14' fill='none' stroke='%23F26430' stroke-width='4.5' stroke-linecap='round'/%3E%3Cpath d='M9 13 V27 M23 13 V27' stroke='%23F6E7D7' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E";
 const V = (fs.readFileSync(path.join(ROOT, "index.html"), "utf8").match(/styles\.css\?v=(\d+)/) || [, "1"])[1];
@@ -123,7 +142,7 @@ const html = `<!DOCTYPE html>
       <svg class="spot spot--method" viewBox="0 0 260 160" aria-hidden="true" focusable="false"><g fill="none" stroke="#16202B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M10 150 H250" opacity=".4"/><circle cx="40" cy="60" r="7"/><circle cx="96" cy="40" r="7"/><circle cx="90" cy="100" r="7"/><circle cx="150" cy="70" r="7"/><path d="M46 57 L89 43 M45 66 L84 96 M97 47 L92 93 M103 43 L143 66 M96 98 L144 74" opacity=".6"/><circle cx="160" cy="80" r="26" stroke="#F26430"/><path d="M178 99 L200 122" stroke="#F26430" stroke-width="5"/><circle cx="226" cy="88" r="8"/><path d="M226 96 V122 M226 122 L218 150 M226 122 L234 150 M226 102.0 L208 94.0"/></g></svg>
       <p class="eyebrow">Sources and references</p>
       <h1 class="h2 refs__h">Everything we cite, <br>in one place.</h1>
-      <p class="refs__intro">Every claim on Common Shade links to its source. Here are all ${total} of them: ${counts.ref} papers, reports, guidance and datasets; ${counts.org} organisations; and ${counts.data} live services. Each shows where on the site it is used. Search by title, publisher or topic.</p>
+      <p class="refs__intro">Every claim on Common Shade links to its source. Here are all ${total} of them: ${counts.ref} papers, reports, guidance and datasets; ${counts.news ? `${counts.news} headlines and new papers from Heat in the news; ` : ""}${counts.lancet ? `the Lancet Countdown 2026, its appendix and the ${counts.lancet - 2} distinct sources it cites; ` : ""}${counts.org} organisations; and ${counts.data} live services. Each shows where on the site it is used. Search by title, publisher or topic.</p>
       <div class="refs__bar">
         <label for="refs-search">Search the sources</label>
         <input id="refs-search" type="search" autocomplete="off" placeholder="For example: WHO, wet-bulb, India, insurance">
@@ -169,4 +188,4 @@ ${all.filter(x => x.kind === g.kind).map(x => "          " + li(x)).join("\n")}
 `;
 fs.mkdirSync(path.join(ROOT, "sources"), { recursive: true });
 fs.writeFileSync(path.join(ROOT, "sources", "index.html"), html);
-console.log(`sources: ${total} (${counts.ref} references, ${counts.org} organisations, ${counts.data} data)`);
+console.log(`sources: ${total} (${counts.ref} references, ${counts.news || 0} from the news, ${counts.lancet || 0} Lancet Countdown, ${counts.org} organisations, ${counts.data} data)`);

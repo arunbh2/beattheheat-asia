@@ -458,17 +458,20 @@ require("./build-print")().then(list => {
   fs.writeFileSync(path.join(ROOT, "sitemap.xml"), sm);
   fs.appendFileSync(path.join(ROOT, "llms.txt"), `\n## Printable one-pagers\n\n- [All one-pagers](${SITE}/print/): single A4 briefs for officials, planners and journalists\n${list.map(x => `- [${x.title}](${SITE}/print/${x.slug}/)`).join("\n")}\n`);
   console.log("Wrote", list.length, "printable one-pagers");
+  // last of all, once every page exists: one navigation on every page
+  require("./build-nav.js")();
 });
 console.log("Wrote", PAGES.length + CITY_PAGES.length, "pages, llms.txt, llms-full.txt, sitemap.xml and robots.txt");
 
 // ---- /solutions/ and /countries/: the research libraries (before /sources/, which reads their links) ----
 require("./build-solutions.js");
 require("./build-economy.js");
+require("./build-lancet.js");
 {
-  const extra = ["solutions", "countries", "countries/bangladesh", "countries/nepal", "countries/sri-lanka", "countries/thailand", "countries/indonesia", "countries/india", "countries/philippines", "heat-economy", "heat-economy/businesses", "heat-economy/money", "heat-economy/opportunities", "heat-economy/conditions"];
+  const extra = ["solutions", "countries", "countries/bangladesh", "countries/nepal", "countries/sri-lanka", "countries/thailand", "countries/indonesia", "countries/india", "countries/philippines", "heat-economy", "heat-economy/businesses", "heat-economy/money", "heat-economy/opportunities", "heat-economy/conditions", "lancet-countdown-2026"];
   const sm = fs.readFileSync(path.join(ROOT, "sitemap.xml"), "utf8");
   if (!sm.includes(`${SITE}/solutions/`)) fs.writeFileSync(path.join(ROOT, "sitemap.xml"), sm.replace("</urlset>", extra.map(x => `  <url><loc>${SITE}/${x}/</loc><lastmod>${TODAY}</lastmod><priority>0.7</priority></url>`).join("\n") + "\n</urlset>"));
-  fs.appendFileSync(path.join(ROOT, "llms.txt"), `\n## Solutions library and country snapshots\n\n- [Solutions library](${SITE}/solutions/): passive cooling, active cooling, and the plans, rules and money that make protection last, with evidence labels, costs, dry or humid suitability, and what each depends on\n- [The heat economy](${SITE}/heat-economy/): the businesses selling protection from heat, who invests in them, accelerators and prizes, business ideas for each vicious cycle, and what makes a fair market; with CSV downloads\n- [Country snapshots](${SITE}/countries/): Bangladesh, India, Indonesia, Nepal, the Philippines, Sri Lanka and Thailand\n`);
+  fs.appendFileSync(path.join(ROOT, "llms.txt"), `\n## Solutions library and country snapshots\n\n- [Solutions library](${SITE}/solutions/): passive cooling, active cooling, and the plans, rules and money that make protection last, with evidence labels, costs, dry or humid suitability, and what each depends on\n- [The heat economy](${SITE}/heat-economy/): the businesses selling protection from heat, who invests in them, accelerators and prizes, business ideas for each vicious cycle, and what makes a fair market; with CSV downloads\n- [Country snapshots](${SITE}/countries/): Bangladesh, India, Indonesia, Nepal, the Philippines, Sri Lanka and Thailand\n- [The Lancet Countdown 2026, for extreme heat in Asia](${SITE}/lancet-countdown-2026/): the 2026 report's heat findings in plain language, what they mean for cities, health workers, employers, communities, funders and governments, the gaps in the evidence, and all 397 references\n- [Sources and references](${SITE}/sources/): every source the site cites, including every headline from Heat in the news\n`);
 }
 
 // ---- /sources/: every source the site cites ----
