@@ -14,7 +14,7 @@
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2316202B'/%3E%3Cpath d='M5 14 Q16 4 27 14' fill='none' stroke='%23F26430' stroke-width='4.5' stroke-linecap='round'/%3E%3Cpath d='M9 13 V27 M23 13 V27' stroke='%23F6E7D7' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
-  <link rel="stylesheet" href="/styles.css?v=138">
+  <link rel="stylesheet" href="/styles.css?v=139">
 <!--csn--><style id="csn-css">html:has(.csn){scroll-padding-top:104px}
 .csn,.csf{--csn-ink:#16202B;--csn-canvas:#FAF7F2;--csn-line:#E6DFD4;--csn-orange:#F26430;--csn-grey:#39424D;font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;color:var(--csn-ink);line-height:1.4}
 .csn{position:sticky;top:0;z-index:50;max-width:none!important;margin:0!important;padding:0!important;display:block!important;background:rgba(250,247,242,.97);border-bottom:1px solid var(--csn-line);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
@@ -62,11 +62,48 @@
 .csf__text{margin:24px 0 0;font-size:.82rem;color:#C9C2B6}
 @media (max-width:1100px){.csn__primary a:nth-child(n+5){display:none}}
 @media (max-width:760px){.csn__primary{display:none}.csn__in{min-height:54px}.csn__menu>summary{padding:6px 12px}.csn__panel{grid-template-columns:1fr;max-height:calc(100vh - 60px)}}
-@media print{.csn,.csf,.csn-skip{display:none!important}}</style><!--/csn-->
+@media print{.csn,.csf,.csn-skip,.ticker{display:none!important}}
+.ticker{--canvas:#FAF7F2;--orange:#F26430;--gutter:clamp(16px,3.5vw,40px);font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;line-height:1.4}/* live temperature ticker, above the header */
+.ticker { display: flex; align-items: center; gap: 10px; min-height: 34px; padding: 0 10px 0 var(--gutter); background: #0E161F; color: var(--canvas); font-size: .8rem; overflow: hidden; }
+.ticker[hidden] { display: none; }
+.ticker__k { flex: none; display: inline-flex; align-items: center; gap: 6px; color: var(--canvas); font-weight: 800; letter-spacing: .14em; text-transform: uppercase; font-size: .68rem; text-decoration: none; }
+.ticker__dot { width: 8px; height: 8px; border-radius: 50%; background: #E0442B; box-shadow: 0 0 0 3px rgba(224,68,43,.25); }
+.ticker__view { flex: 1; min-width: 0; overflow: hidden; -webkit-mask-image: linear-gradient(90deg, transparent, #000 24px, #000 calc(100% - 24px), transparent); mask-image: linear-gradient(90deg, transparent, #000 24px, #000 calc(100% - 24px), transparent); }
+.ticker__track { display: flex; width: max-content; animation: ticker var(--ticker-dur, 60s) linear infinite; }
+/* pauses with its Pause button or keyboard focus. Not on hover: the band is where a desktop pointer rests after using the
+   browser's tabs or address bar, which kept it still; and on touch screens a tap leaves :hover stuck */
+.ticker.is-paused .ticker__track, .ticker:has(:focus-visible) .ticker__track { animation-play-state: paused; }
+.ticker__set { display: flex; list-style: none; margin: 0; padding: 0 28px 0 0; gap: 28px; }
+.ticker__set li { flex: none; }
+.ticker__set a { display: inline-flex; align-items: center; gap: 6px; min-height: 34px; color: var(--canvas); text-decoration: none; white-space: nowrap; }
+.ticker__set a:hover b, .ticker__set a:focus-visible b { text-decoration: underline; text-decoration-color: var(--orange); text-underline-offset: 3px; }
+.ticker__set a:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; }
+.ticker__pin { width: 9px; height: 9px; border-radius: 50%; flex: none; box-shadow: 0 0 0 1.5px rgba(250,247,242,.55); }
+.ticker__f { color: #B9C2CC; }
+.ticker__hot { margin-left: 6px; padding: 1px 7px; border-radius: 999px; background: #A93A1C; color: #fff; font-size: .66rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.ticker__more a { color: #F7B79C; font-weight: 700; }
+.ticker__pause { flex: none; min-height: 26px; padding: 2px 10px; border-radius: 999px; border: 1px solid rgba(250,247,242,.35); background: none; color: var(--canvas); font: inherit; font-size: .7rem; font-weight: 700; cursor: pointer; }
+.ticker__pause:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; }
+@keyframes ticker { to { transform: translateX(-50%); } }
+@media (max-width: 640px) { .ticker__f { display: none; } .ticker__k { letter-spacing: .1em; } }
+/* with reduced motion the line still moves, at half speed (script.js), and its Pause button stops it. The site-wide
+   reduced-motion rule switches every animation off with !important, so the ticker needs its own, more specific exception */
+@media (prefers-reduced-motion: reduce) {
+  .ticker .ticker__track { animation: ticker var(--ticker-dur, 60s) linear infinite !important; }
+  .ticker.is-paused .ticker__track, .ticker:has(:focus-visible) .ticker__track { animation-play-state: paused !important; }
+}
+.ticker__lv { margin-left: 6px; padding: 1px 7px; border-radius: 999px; font-size: .66rem; font-weight: 800; letter-spacing: .04em; background: #F2C14E; color: #16202B; }
+.ticker__lv--1 { background: #F26430; color: #16202B; }
+.ticker__lv--2 { background: #D7263D; color: #fff; }</style><!--/csn-->
 </head>
 <body data-page="heat-economy-conditions">
   <a class="skip-link" href="#main">Skip to the content</a>
-    <!--csn--><header class="csn" id="top">
+  <!--csn--><div class="ticker" id="cs-ticker" role="region" aria-label="Live temperatures in Asian cities" hidden>
+  <a class="ticker__k" href="/#heat-now"><span class="ticker__dot" aria-hidden="true"></span>Live</a>
+  <div class="ticker__view"><div class="ticker__track" id="cs-ticker-track"></div></div>
+  <button type="button" class="ticker__pause" id="cs-ticker-pause" aria-pressed="false">Pause</button>
+</div>
+<header class="csn" id="top">
   <div class="csn__in">
     <a class="csn__home" href="/"><span class="csn__mark" aria-hidden="true"></span>COMMON SHADE<span class="csn-vh">: home, the map of extreme heat</span></a>
     <nav class="csn__primary" aria-label="Main sections"><a href="/#explore">The map</a><a href="/#loops">Breaking the cycles</a><a href="/practical/">Practical actions</a><a href="/solutions/">Solutions</a><a href="/heat-economy/" aria-current="page">Heat economy</a><a href="/news/">News</a><a href="/lancet-countdown-2026/">Evidence</a></nav>
@@ -83,14 +120,14 @@
   </div>
   <nav class="csn__crumbs" aria-label="You are here"><ol><li><a href="/">Home</a></li><li><a href="/heat-economy/">The heat economy</a></li><li aria-current="page">Questions to ask</li></ol></nav>
 </header><!--/csn-->
-<main id="main" tabindex="-1">
+  <main id="main" tabindex="-1">
     <section class="sol-page he">
       <div class="container">
         <nav class="he-sub" aria-label="The heat economy"><a href="/heat-economy/">Start here</a><a href="/heat-economy/businesses/">Businesses</a><a href="/heat-economy/money/">Funding and support</a><a href="/heat-economy/opportunities/">Ideas</a><a href="/heat-economy/conditions/" aria-current="page">Questions to ask</a></nav>
-        <p class="eyebrow eyebrow--break">The heat economy · Questions to ask</p>
+        <p class="eyebrow">The heat economy · Questions to ask</p>
         <h1 class="h2 tool-h1">Questions to ask <br>before you buy, fund or start.</h1>
         <p class="tool-lede">For city officers, employers, worker and community organisations, funders, investors and founders: twenty-four questions, the rules and ways of paying that have helped elsewhere, the common obstacles, and what each kind of organisation could do.</p>
-        <p class="sol-caveat"><b>About this section.</b> We gathered this from public websites and reports in October 2026. Being listed does not mean we recommend, partner with or rank anyone, and none of it is financial advice. Companies describe their own products; we have not tested them, so please check details with them directly. If something is missing or out of date, <a href="/join/">tell us</a>.</p>
+        <p class="sol-caveat he-about"><b>About this section.</b> We gathered this from public websites and reports in October 2026. Being listed does not mean we recommend, partner with or rank anyone, and none of it is financial advice. Companies describe their own products; we have not tested them, so please check details with them directly. If something is missing or out of date, <a href="/join/">tell us</a>.</p>
         <nav class="sol-jump" aria-label="On this page"><a href="#q-work">Does it really protect people here?</a> · <a href="#q-fair">Is it fair?</a> · <a href="#q-upkeep">Who keeps it working?</a> · <a href="#q-risk">Who pays, and who carries the risk?</a> · <a href="#rules">Rules that help</a> · <a href="#paying">Ways to pay</a> · <a href="#obstacles">Common obstacles</a> · <a href="#roles">Who could do what</a></nav>
         <section class="cty-s" id="q-work"><h2>Does it really protect people here?</h2><ol class="he-checks" start="1"><li><b>Who exactly will this protect, and from what kind of heat?</b><span>Ask for the people, the place and the evidence. Selling a product is not the same as protecting someone.</span></li><li><b>Will it work here, in our dry heat, humid heat and hot nights?</b><span>Ask for tests in conditions like yours, with people inside the building.</span></li><li><b>Will it make someone else hotter?</b><span>Air conditioners and some roofs push heat into streets and neighbouring homes.</span></li><li><b>Are the claims measured, estimated or marketing?</b><span>Ask how a result was measured, and what it was compared with.</span></li><li><b>Will it still work as heat, floods and water shortages grow?</b><span>Ask how long it lasts and what it needs to keep working.</span></li></ol></section><section class="cty-s" id="q-fair"><h2>Is it fair?</h2><ol class="he-checks" start="6"><li><b>Can families on the lowest incomes use it without giving up food, school or medicine?</b><span>Count the full cost: buying, running, repairs and travel. If they can’t, what is the free or subsidised option?</span></li><li><b>Who is left out because they rent, or lack a meter, ID, bank account or phone?</b><span>Make sure there is another way in for them.</span></li><li><b>Can workers stop to rest without losing pay or their job?</b><span>Equipment helps only if rest is paid and safe to take, including for contract workers.</span></li><li><b>Could it push up rents or move residents and vendors out?</b><span>Involve tenants and vendors early, and agree protections in writing.</span></li><li><b>Does it add unpaid work, often for women?</b><span>Pay for upkeep roles, and check opening hours, safety and toilets.</span></li><li><b>Can older and disabled people reach it, use it and have a say?</b><span>Check access, transport, communication and help on site, with them.</span></li><li><b>Who sees people’s health, location or repayment data?</b><span>Collect only what is needed, and keep a way to use the service without sharing data.</span></li></ol></section><section class="cty-s" id="q-upkeep"><h2>Who keeps it working?</h2><ol class="he-checks" start="13"><li><b>Who looks after it after the pilot, and with what budget?</b><span>Name the owner, the repair plan and who pays each year.</span></li><li><b>What happens when the power or phone network fails?</b><span>Plan a backup for the hottest days, and keep essential services running first.</span></li><li><b>What happens to electricity demand at the hottest hour?</b><span>Start with shade and design, which need no power, before adding machines.</span></li><li><b>Does it compete with drinking water?</b><span>Check where the water comes from in a drought.</span></li><li><b>Which cooling gas does it use, and who handles leaks and disposal?</b><span>Use trained technicians and safe gases.</span></li><li><b>Where do old fans, batteries and gases go?</b><span>Agree safe collection and recycling from the start.</span></li><li><b>Can the product, the installer and the claims be checked independently?</b><span>Look for official tests or registration, a warranty, and a way to get faults fixed.</span></li><li><b>Who can people complain to, and who decides to fix, change or stop it?</b><span>Agree this before starting, and review it after each hot season.</span></li></ol></section><section class="cty-s" id="q-risk"><h2>Who pays, and who carries the risk?</h2><ol class="he-checks" start="21"><li><b>What happens after a missed payment or a bad season?</b><span>Check the total cost, what happens to the equipment, and the options in hard times.</span></li><li><b>Could people lose income and still get no payout, or get it too late?</b><span>Ask how payouts are triggered, and what help exists if they don’t come.</span></li><li><b>Who receives the subsidy, and what extra protection does it buy?</b><span>Make sure the benefit reaches the people using it.</span></li><li><b>If payment depends on results, could it reward the wrong thing?</b><span>Pay for working services people can reach, not for units shipped or longer hours.</span></li></ol></section>
         <section class="cty-s" id="rules"><h2>Rules that have helped create demand</h2><p class="he-intro">Examples from Asia. A rule on paper helps most when it is checked and followed.</p>
@@ -104,13 +141,6 @@
         <p class="tool-alt">Print this page and take it to your next meeting, or <a href="/heat-economy/">go back to the start</a>.</p>
       </div>
     </section></main>
-  <aside class="foot-close" aria-label="Common Shade">
-    <div class="container">
-      <svg class="foot-close__art" viewBox="0 0 132 72" aria-hidden="true" focusable="false"><path d="M8 22 Q66 0 124 22 L124 28 Q66 8 8 28 Z" fill="#F26430"/><g fill="none" stroke="#16202B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M14 27 V70 M118 27 V70 M66 13 V70"/><circle cx="28" cy="40" r="5"/><path d="M28 45 V58 L22 70 M28 58 L34 70 M28 49 L14 42"/><circle cx="104" cy="40" r="5"/><path d="M104 45 V58 L98 70 M104 58 L110 70 M104 49 L118 42"/><circle cx="80" cy="46" r="4"/><path d="M80 50 V60 L76 70 M80 60 L84 70 M80 53 L66 48"/><path d="M4 70 H128" opacity=".35"/></g></svg>
-      <p class="foot-close__line">Shade is something we hold up together.</p>
-      <a class="foot-close__go" href="/join/">Help build Common Shade&nbsp;<span aria-hidden="true">→</span></a>
-    </div>
-  </aside>
   <!--csn--><nav class="csf" aria-label="Site map">
   <div class="csf__in">
     <div class="csf__top"><a class="csf__home" href="/">COMMON SHADE</a><span>Seeing extreme heat as a whole, so the right people can act. Plain language, sources linked.</span><a class="csf__up" href="#top">Back to top <span aria-hidden="true">↑</span></a></div>
@@ -122,7 +152,7 @@
     </div>
     <p class="csf__text">Text versions: <a href="/the-web/">The web</a> · <a href="/loops/">Vicious cycles</a> · <a href="/actions/">Actions</a> · <a href="/practical-actions/">Practical actions</a> · <a href="/paying-for-protection/">Paying for protection</a> · <a href="/llms-full.txt">Everything as one text file</a></p>
   </div>
-</nav><script>(function(){var d=document.querySelector(".csn__menu");if(!d)return;var s=d.querySelector("summary");document.addEventListener("keydown",function(e){if(e.key==="Escape"&&d.open){d.open=false;s.focus();}});document.addEventListener("click",function(e){if(d.open&&!d.contains(e.target))d.open=false;});d.addEventListener("click",function(e){if(e.target.closest("a"))d.open=false;});})();</script><!--/csn-->
+</nav><script>(function(){var d=document.querySelector(".csn__menu");if(!d)return;var s=d.querySelector("summary");document.addEventListener("keydown",function(e){if(e.key==="Escape"&&d.open){d.open=false;s.focus();}});document.addEventListener("click",function(e){if(d.open&&!d.contains(e.target))d.open=false;});d.addEventListener("click",function(e){if(e.target.closest("a"))d.open=false;});})();</script><script src="/ticker.js?v=139" defer></script><!--/csn-->
 <footer class="wkp-foot"><div class="container">
     <p>Gathered from public sources in October 2026. Being listed does not imply endorsement, partnership or ranking, and nothing here is financial advice. Every source links to its publisher; links that no longer work are left out. Text: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0<span class="visually-hidden"> (opens in a new tab)</span></a>. <a href="/sources/">All sources</a> · <a href="/heat-economy/#data">Download the data</a></p>
   </div></footer>

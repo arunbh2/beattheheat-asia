@@ -166,7 +166,7 @@ const CSS = `html:has(.csn){scroll-padding-top:104px}
 .csf__text{margin:24px 0 0;font-size:.82rem;color:#C9C2B6}
 @media (max-width:1100px){.csn__primary a:nth-child(n+5){display:none}}
 @media (max-width:760px){.csn__primary{display:none}.csn__in{min-height:54px}.csn__menu>summary{padding:6px 12px}.csn__panel{grid-template-columns:1fr;max-height:calc(100vh - 60px)}}
-@media print{.csn,.csf,.csn-skip{display:none!important}}`;
+@media print{.csn,.csf,.csn-skip,.ticker{display:none!important}}`;
 
 // Closes the menu with Escape, an outside tap, or after choosing a link on the same page.
 const JS = `(function(){var d=document.querySelector(".csn__menu");if(!d)return;var s=d.querySelector("summary");document.addEventListener("keydown",function(e){if(e.key==="Escape"&&d.open){d.open=false;s.focus();}});document.addEventListener("click",function(e){if(d.open&&!d.contains(e.target))d.open=false;});d.addEventListener("click",function(e){if(e.target.closest("a"))d.open=false;});})();`;

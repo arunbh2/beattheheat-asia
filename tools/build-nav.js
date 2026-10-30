@@ -5,6 +5,17 @@ const fs = require("fs");
 const path = require("path");
 const NAV = require("./site-nav.js");
 const ROOT = path.join(__dirname, "..");
+// the live ticker: same look as the home page's, with its rules copied from styles.css so it also works on the light text pages
+const STYLES = fs.readFileSync(path.join(ROOT, "styles.css"), "utf8");
+const TICKER_CSS = ".ticker{--canvas:#FAF7F2;--orange:#F26430;--gutter:clamp(16px,3.5vw,40px);font-family:\"Hanken Grotesk\",\"Segoe UI\",Roboto,Arial,sans-serif;line-height:1.4}" +
+  (STYLES.match(/\/\* live temperature ticker, above the header \*\/[\s\S]*?\.ticker__lv--2 \{[^}]*\}/) || [""])[0];
+const V = (fs.readFileSync(path.join(ROOT, "index.html"), "utf8").match(/styles\.css\?v=(\d+)/) || [, "1"])[1];
+const TICKER = `<div class="ticker" id="cs-ticker" role="region" aria-label="Live temperatures in Asian cities" hidden>
+  <a class="ticker__k" href="/#heat-now"><span class="ticker__dot" aria-hidden="true"></span>Live</a>
+  <div class="ticker__view"><div class="ticker__track" id="cs-ticker-track"></div></div>
+  <button type="button" class="ticker__pause" id="cs-ticker-pause" aria-pressed="false">Pause</button>
+</div>
+`;
 const SKIP = new Set(["node_modules", ".git", "research", "tools", "docs", "images", "media", "feeds"]);
 
 function pages(dir, out = []) {
@@ -37,10 +48,10 @@ function apply(file) {
   const title = titleOf(html);
 
   // styles and the small menu script, once, in the head
-  html = html.replace("</head>", `<!--csn--><style id="csn-css">${NAV.CSS}</style><!--/csn-->\n</head>`);
+  html = html.replace("</head>", `<!--csn--><style id="csn-css">${NAV.CSS}\n${TICKER_CSS}</style><!--/csn-->\n</head>`);
 
   // the header: replace the page's old site header if it has one, otherwise put it straight after <body> (or its skip link)
-  const head = `<!--csn-->${NAV.header(pathname, title)}<!--/csn-->`;
+  const head = `<!--csn-->${TICKER}${NAV.header(pathname, title)}<!--/csn-->`;
   const mainAt = html.search(/<main[\s>]/);
   const hAt = html.search(/<header[\s>]/);
   if (hAt > -1 && (mainAt === -1 || hAt < mainAt)) {
@@ -56,7 +67,7 @@ function apply(file) {
     html = html.replace(/(<body[^>]*>)/, `$1\n<!--csn--><a class="csn-skip" href="#${id}">Skip to the content</a><!--/csn-->`);
   }
   // the site map, just above the page's own footer line (or at the end)
-  const foot = `<!--csn-->${NAV.footer(pathname)}<script>${NAV.JS}</script><!--/csn-->\n`;
+  const foot = `<!--csn-->${NAV.footer(pathname)}<script>${NAV.JS}</script><script src="/ticker.js?v=${V}" defer></script><!--/csn-->\n`;
   const fAt = html.lastIndexOf("<footer");
   html = fAt > -1 && fAt > mainAt ? html.slice(0, fAt) + foot + html.slice(fAt) : html.replace(/<\/body>/, foot + "</body>");
   fs.writeFileSync(file, html);

@@ -3176,3 +3176,118 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 .news-page__kept a { color: var(--ink); text-decoration-color: var(--orange); text-underline-offset: 3px; }
 .news-page .news-page__kept { color: #D9D3CA; }
 .news-page .news-page__kept a { color: var(--canvas); }
+
+/* ==========================================================
+   Editorial pass: /sources/ and /heat-economy/
+   One accent per meaning: ink carries the text, orange marks actions
+   and hover, green marks what breaks a cycle. Surfaces are quiet;
+   rules and spacing do the work that boxes and colour did before.
+   ========================================================== */
+:root { --rule: #DDD5C8; --rule-soft: #ECE6DC; --link-line: #CFC6B8; }
+
+/* ---------- sources ---------- */
+.refs .refs__h { font-size: clamp(2.1rem, 1.3rem + 3vw, 3.4rem); line-height: .98; max-width: 16ch; }
+.refs__intro { max-width: 60ch; font-size: 1.05rem; }
+.refs__index { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr)); margin: 32px 0 0; border-top: 1px solid var(--ink); }
+.refs__index a { display: grid; gap: 4px; padding: 14px 18px 16px 0; color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--rule); }
+.refs__index a + a { padding-left: 18px; border-left: 1px solid var(--rule-soft); }
+.refs__index b { font-family: var(--font-display); font-weight: 400; font-size: 2rem; line-height: 1; letter-spacing: .01em; }
+.refs__index span { font-size: .85rem; color: var(--grey-700); line-height: 1.35; }
+.refs__index a:hover b { color: var(--orange); }
+.refs__index a:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
+.refs__bar { position: sticky; top: 84px; z-index: 4; display: flex; align-items: center; gap: 16px; max-width: none; margin: 24px 0 8px; padding: 10px 0; background: var(--canvas); border-bottom: 1px solid var(--rule); }
+.refs__bar input { flex: 1; min-height: 44px; border: 1px solid var(--rule); border-radius: 10px; padding: 8px 14px; background: #fff; font-size: 1rem; }
+.refs__bar input:focus { border-color: var(--ink); }
+.refs__count { flex: none; font-size: .85rem; font-variant-numeric: tabular-nums; }
+.refs__group { margin-top: 56px; }
+.refs__group h2 { border-top: 0; padding-top: 0; font-family: var(--font-serif); font-weight: 500; font-size: clamp(1.45rem, 2.4vw, 1.9rem); }
+.refs__n { font-family: var(--font-body); font-size: .85rem; font-weight: 600; vertical-align: middle; }
+.refs__note { font-size: .92rem; max-width: 70ch; margin: 6px 0 18px; }
+.refs__list { gap: 0; border-top: 1px solid var(--rule); }
+.refs__list li { position: relative; display: grid; gap: 3px; padding: 12px 0 13px; border-bottom: 1px solid var(--rule-soft); content-visibility: auto; contain-intrinsic-size: auto 72px; }
+.refs__list li:has(.refs__no) { padding-left: 46px; }
+.refs__no { position: absolute; left: 0; top: 13px; width: 34px; text-align: right; font-size: .78rem; font-weight: 600; color: var(--grey-500); font-variant-numeric: tabular-nums; }
+.refs__list .refs__t { max-width: 82ch; font-family: var(--font-serif); font-weight: 500; font-size: 1.04rem; line-height: 1.4; color: var(--ink); text-decoration: none; }
+.refs__list .refs__t:hover { text-decoration: underline; text-decoration-color: var(--orange); text-underline-offset: 3px; }
+.refs__list .refs__t:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; border-radius: 2px; }
+.refs__m { font-size: .82rem; color: var(--grey-700); }
+.refs__where { font-size: .78rem; color: var(--grey-500); }
+.refs__list li:target { background: var(--sand-50); }
+@media (min-width: 860px) {
+  .refs__list--org, .refs__list--data { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 40px; }
+}
+@media (max-width: 760px) { .refs__bar { top: 80px; } .refs__index a + a { padding-left: 0; border-left: 0; } }
+
+/* ---------- the heat economy ---------- */
+.he .he-sub { gap: 0 26px; margin: 0 0 30px; border-bottom: 1px solid var(--rule); }
+.he .he-sub a { text-decoration: none; min-height: 44px; padding: 0; border: 0; border-bottom: 2px solid transparent; border-radius: 0; margin-bottom: -1px; background: none; font-size: .92rem; font-weight: 600; color: var(--grey-700); }
+.he .he-sub a:hover { color: var(--ink); border-bottom-color: var(--rule); }
+.he .he-sub a[aria-current="page"] { background: none; color: var(--ink); border-bottom-color: var(--ink); }
+.he .tool-h1 { font-size: clamp(2rem, 1.1rem + 2.6vw, 3rem); line-height: 1; max-width: 26ch; }
+.he .tool-lede { font-size: 1.12rem; max-width: 60ch; }
+.he .he-about { margin: 14px 0 40px; padding: 0; background: none; border: 0; border-radius: 0; font-size: .85rem; color: var(--grey-700); max-width: 76ch; }
+.he .he-about b { color: var(--ink); }
+
+/* links: ink, with a soft rule; orange only on hover */
+.sol-page.he a:not(.he-stat) { text-decoration-color: var(--link-line); text-underline-offset: 3px; }
+.sol-page.he a:not(.he-stat):hover { text-decoration-color: var(--orange); }
+/* what breaks a cycle reads green, as on the map */
+.sol-page.he .he-breaks a { color: var(--break-deep); text-decoration-color: rgba(23,112,58,.35); }
+.sol-page.he .he-breaks a:hover { text-decoration-color: var(--break); }
+.he .he-breakline b, .he .sol-f--break h4 { color: var(--break); }
+
+/* section headings carry the structure; no extra rules */
+.he .cty-s { border-top: 0; margin-bottom: 56px; padding-top: 0; }
+.he .cty-s h2, .he .he-start__h, .he .he-shelf--big { font-size: clamp(1.5rem, 2.6vw, 2rem); margin-bottom: 14px; }
+.he .he-shelf:not(.he-shelf--big) { margin-top: 34px; color: var(--grey-700); }
+
+/* starting points: four quiet columns divided by rules, not four boxed cards */
+.he .he-aud { gap: 0; border-top: 1px solid var(--ink); }
+.he .he-aud__card { background: none; border: 0; border-radius: 0; padding: 18px 22px 10px 0; }
+.he .he-aud__card + .he-aud__card { padding-left: 22px; border-left: 1px solid var(--rule-soft); }
+.he .he-aud__card h3 { font-family: var(--font-serif); font-weight: 500; font-size: 1.15rem; margin-bottom: 8px; }
+.he .he-aud__card li { border-top-color: var(--rule-soft); }
+@media (max-width: 1100px) { .he .he-aud__card + .he-aud__card { padding-left: 0; border-left: 0; border-top: 1px solid var(--rule-soft); } }
+
+/* what we found: an editorial strip, numbers in ink */
+.he .he-stats { gap: 0 28px; margin-bottom: 20px; }
+.he .he-stat { background: none; border: 0; border-top: 1px solid var(--ink); border-radius: 0; padding: 16px 0 6px; box-shadow: none; transform: none; color: var(--ink); text-decoration: none; }
+.he .he-stat:hover { box-shadow: none; transform: none; }
+.he .he-stat:hover .he-stat__l { text-decoration: underline; text-decoration-color: var(--orange); text-underline-offset: 3px; }
+.he .he-stat__n { color: var(--ink); font-size: clamp(2.2rem, 3.6vw, 2.8rem); }
+
+/* the flow: one surface, three lanes told apart by their labels */
+.he .he-flow { background: #fff; border-color: var(--rule-soft); }
+.he .he-lane { background: var(--sand-50); color: var(--ink); }
+.he .he-lane--platform { background: var(--sand-50); color: var(--ink); }
+.he .he-lane--platform .he-lane__h, .he .he-lane__h { color: var(--grey-700); }
+.he .he-lane--demand::after, .he .he-lane--platform::after { background: #fff; border: 1px solid var(--rule); color: var(--ink); }
+.he .he-gap { color: var(--grey-700); }
+.he .he-money { border-style: solid; border-color: var(--rule-soft); }
+.he .he-nopayer { border: 0; border-left: 3px solid var(--ember); border-radius: 0; background: var(--ember-50); }
+
+/* kinds of protection: lighter cards, quieter labels */
+.he .he-seg { border-color: var(--rule-soft); }
+.he .he-seg h3 { font-size: 1.2rem; }
+
+/* every list of records: a ledger of rows, not a stack of boxes */
+.he .sol { margin: 0; border: 0; border-bottom: 1px solid var(--rule-soft); border-radius: 0; background: none; box-shadow: none; transition: background-color .2s; }
+.he .sol-group > .sol:first-of-type, .he .he-group > .sol:first-of-type { border-top: 1px solid var(--rule); }
+.he .sol > summary { padding: 16px 44px 16px 0; }
+.he .sol > summary::after { right: 4px; color: var(--grey-500); font-weight: 300; }
+.he .sol:hover > summary .sol-h { text-decoration: underline; text-decoration-color: var(--orange); text-underline-offset: 3px; }
+.he .sol[open] { background: #fff; box-shadow: 0 0 0 1px var(--rule-soft); border-radius: var(--r-sm); margin: 8px 0; }
+.he .sol[open] > summary { padding-left: 18px; }
+.he .sol-body { border-top-color: var(--rule-soft); }
+.he .sol-f h4 { color: var(--grey-700); }
+.he .sol-clim { background: none; border: 1px solid var(--rule); color: var(--grey-700); font-weight: 600; }
+.he .sol-bar { top: 92px; box-shadow: none; border: 1px solid var(--rule-soft); background: rgba(250,247,242,.96); }
+.he .he-viable--public { background: var(--sand-100); color: var(--ink); }
+
+/* downloads: a plain list */
+.he .he-dl { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr)); gap: 0 28px; border-top: 1px solid var(--rule); }
+.he .he-dl li { border-bottom: 1px solid var(--rule-soft); }
+.he .he-dl a { display: flex; min-height: 46px; padding: 0; border: 0; border-radius: 0; background: none; font-weight: 600; }
+.he .he-dl a::before { color: var(--grey-500); }
+
+@media (max-width: 760px) { .he .sol-bar { top: 84px; } }
