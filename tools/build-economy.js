@@ -1,12 +1,14 @@
 #!/usr/bin/env node
 /* Common Shade: builds "The heat economy" (/heat-economy/ and four sub-pages) from the October 2026 research in
    research/2026-10/economy/: market segments (G1), businesses (G2), investors and deals (G3), support programmes (G4),
-   business opportunities loop by loop (G5) and the conditions for a fair market (G6).
+   business ideas loop by loop (G5) and market conditions (G6). The words readers see first come from the plain-language
+   layer in tools/economy-plain.js; the research's own wording goes to the CSV downloads, for specialists.
    Every outside link is checked first on GitHub (tools/check-links.js); research/2026-10/link-status.json records the
    result, and links that failed are left out. Amounts of different kinds are never added together.
-   Also writes CSV downloads to /heat-economy/data/. Run by tools/build-static.js, or alone: node tools/build-economy.js */
+   Run by tools/build-static.js, or alone: node tools/build-economy.js */
 const fs = require("fs"), path = require("path"), vm = require("vm");
 const ROOT = path.join(__dirname, ".."), R = path.join(ROOT, "research", "2026-10"), E = path.join(R, "economy"), SITE = "https://beattheheat.asia";
+const PL = require("./economy-plain.js");
 const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + ";Object.assign(this,{EVIDENCE_STATUS,INSTITUTIONS,LEVERS,LOOPS,LOOP_GROUPS,ACTION_SETTINGS})", ctx);
 const D = ctx, J = f => JSON.parse(fs.readFileSync(path.join(E, f), "utf8"));
@@ -14,8 +16,6 @@ const STATUS = fs.existsSync(path.join(R, "link-status.json")) ? JSON.parse(fs.r
 const live = u => !!u && /^https?:/.test(u) && STATUS[u] !== "FAIL" && !/^https?:\/\/(www\.)?beattheheat\.asia/.test(u);
 const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const ext = (u, l) => live(u) ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(l || u)}<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a>` : "";
-const src = s => s && live(s.url) ? `<span class="sol-src">${ext(s.url, s.label || "Source")}</span>` : "";
-const tag = s => D.EVIDENCE_STATUS[s] ? `<span class="ev-tag ev-tag--${s}" title="${esc(D.EVIDENCE_STATUS[s].text)}">${esc(D.EVIDENCE_STATUS[s].name)}</span>` : "";
 const loopById = Object.fromEntries(D.LOOPS.map(l => [l.id, l]));
 const loopLinks = ids => (ids || []).filter(id => loopById[id]).map(id => `<a href="/#loop-${id}">${esc(loopById[id].name)}</a>`).join(" · ");
 const inst = id => (D.INSTITUTIONS.find(i => i.id === id) || {}).name || id;
@@ -31,28 +31,33 @@ const usd = n => { const x = Number(n); if (!isFinite(x) || !n) return ""; retur
 // ---- the research ----
 const SEG = J("segments.json"), BIZ = J("businesses.json"), INV = J("investors.json"), DEALS = J("deals.json"), PROG = J("programmes.json"),
   OPP = J("opportunities.json"), COND = J("conditions.json"), FLOWS = J("flows.json");
-const segName = id => (SEG.find(s => s.id === id) || {}).name || id || "";
+const plainSeg = id => PL.segments[id] || {};
+// research text shown to readers: drop the researchers' checking notes after a semicolon, and use everyday words
+const NOTE = /verif|inferred|establish|not assumed|background|historical|not audited|not treated|not proof|not a |no fixed amount/i;
+const tidy = t => { if (!has(t)) return ""; let x = String(t).split(/;\s+/).filter((c, i) => i === 0 || !NOTE.test(c)).join("; ").replace(/,\s*with verified[^.;]*/i, "");
+  PL.words.forEach(([re, w]) => { x = x.replace(re, m => m[0] === m[0].toUpperCase() && w[0] !== w[0].toUpperCase() ? w[0].toUpperCase() + w.slice(1) : w); }); return x.trim(); };
+const first = t => has(t) ? tidy(String(t).split(/;\s+/)[0]) : "";
+const segName = id => id === "multi-segment-cooling" ? "Several kinds of cooling" : plainSeg(id).name || (SEG.find(s => s.id === id) || {}).name || id || "";
 const bizBySeg = id => BIZ.filter(b => b.segment === id).length;
 const inAsia = b => (b.countries || []).concat(b.hq_country || []).some(c => ASIA.has(c));
 const N = { biz: BIZ.length, bizAsia: BIZ.filter(inAsia).length, inv: INV.length, deals: DEALS.length, prog: PROG.length, opp: OPP.length,
-  oppPublic: OPP.filter(o => o.viable_market === "with-public-money").length, oppYes: OPP.filter(o => o.viable_market === "yes").length,
-  oppNo: OPP.filter(o => o.viable_market === "no").length, progBuyers: PROG.filter(x => x.connects_to_buyers === "yes").length,
-  poorUnclear: BIZ.filter(b => b.reaches_poorest === "unclear").length };
-const MATURITY = { emerging: "Emerging", growing: "Growing", established: "Established" };
-const POOREST = { yes: "Reaches the poorest", partly: "Can partly reach the poorest", no: "Does not reach the poorest", unclear: "Reach to the poorest unclear" };
-const TYPE = { passive: "Passive cooling", active: "Active cooling", system: "Systems and data", "non-physical": "Plans, work and money" };
-const KIND = { startup: "Start-up", sme: "Small or specialist business", "social-enterprise": "Social enterprise", cooperative: "Co-operative", "corporate-line": "Established company: product line" };
-const VIABLE = { yes: ["Buyers could fund it", "yes"], "with-public-money": ["Needs public or pooled money", "public"], no: ["No direct market", "no"] };
-const DSTATUS = { announced: "Announced", closed: "Closed", disbursed: "Disbursed", unclear: "Status unclear" };
+  oppPublic: OPP.filter(o => o.viable_market === "with-public-money").length, oppYes: OPP.filter(o => o.viable_market === "yes").length };
+const KIND = { startup: "Start-up", sme: "Small or medium business", "social-enterprise": "Social enterprise", cooperative: "Co-operative", "corporate-line": "Established company" };
+const VIABLE = { yes: ["Customers could pay", "yes"], "with-public-money": ["Needs public or shared funding", "public"], no: ["Public action, not a business", "no"] };
+const DSTATUS = { announced: "Announced", closed: "Confirmed", disbursed: "Paid out", unclear: "Not clear" };
+const INSTR = { "mandate/project contribution": "Project funding", equity: "Shares (equity)", debt: "Loan", grant: "Grant", convertible: "Convertible loan", guarantee: "Guarantee", prize: "Prize", "insurance-capital": "Insurance capital", "results-based": "Payment for results" };
+const INVTYPE = { vc: "Venture capital fund", impact: "Impact investor", cvc: "Company investment arm", dfi: "Development finance institution", mdb: "Development bank", "climate-fund": "Climate fund", "adaptation-fund": "Adaptation fund", "blended-facility": "Blended finance fund", philanthropy: "Foundation", "family-office": "Family office", "risk-capital": "Insurance and risk capital", "public-innovation": "Public innovation fund" };
+const PROGTYPE = { prize: "Prize", challenge: "Challenge", accelerator: "Accelerator", incubator: "Incubator", "city-programme": "City programme", "corporate-call": "Company open call", university: "University programme", "philanthropic-fund": "Foundation fund" };
+const SUITS = { both: "Works in dry and humid heat", "hot-dry": "Best in dry heat", "hot-humid": "Suited to humid heat" };
 
 // ---- page template (as the solutions library) ----
 const ICON = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2316202B'/%3E%3Cpath d='M5 14 Q16 4 27 14' fill='none' stroke='%23F26430' stroke-width='4.5' stroke-linecap='round'/%3E%3Cpath d='M9 13 V27 M23 13 V27' stroke='%23F6E7D7' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E";
 const V = (fs.readFileSync(path.join(ROOT, "index.html"), "utf8").match(/styles\.css\?v=(\d+)/) || [, "1"])[1];
 const FOOT_CLOSE = (fs.readFileSync(path.join(ROOT, "practical", "index.html"), "utf8").match(/  <aside class="foot-close"[\s\S]*?<\/aside>\n/) || [""])[0];
 const NAV = `<nav aria-label="Elsewhere on the site"><a href="/#explore">The map</a><a href="/practical/">Practical actions</a><a href="/solutions/">Solutions</a><a href="/plan/">Plan a response</a><a href="/news/">Heat in the news</a><a href="/join/">Help build Common Shade</a></nav>`;
-const PAGES = [["", "Overview"], ["businesses", "Businesses"], ["money", "Money and support"], ["opportunities", "What could come up"], ["conditions", "What makes markets work"]];
+const PAGES = [["", "Start here"], ["businesses", "Businesses"], ["money", "Funding and support"], ["opportunities", "Ideas"], ["conditions", "Questions to ask"]];
 const subnav = cur => `<nav class="he-sub" aria-label="The heat economy">${PAGES.map(([s, n]) => `<a href="/heat-economy/${s ? s + "/" : ""}"${s === cur ? ' aria-current="page"' : ""}>${esc(n)}</a>`).join("")}</nav>`;
-const CAVEAT = `<p class="sol-caveat"><b>How to read this.</b> A targeted review of published sources, checked in October 2026, not a census of the market. Listing a business, investor or programme is not endorsement, partnership or investment advice, and nothing is ranked. Company descriptions are what the company says unless labelled otherwise. Amounts of different kinds (announced, closed, disbursed; equity, loans, grants, guarantees) are never added together.</p>`;
+const ABOUT = `<p class="sol-caveat"><b>About this section.</b> We gathered this from public websites and reports in October 2026. Being listed does not mean we recommend, partner with or rank anyone, and none of it is financial advice. Companies describe their own products; we have not tested them, so please check details with them directly. If something is missing or out of date, <a href="/join/">tell us</a>.</p>`;
 const page = ({ slug, title, desc, body, script = "" }) => `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -79,7 +84,7 @@ const page = ({ slug, title, desc, body, script = "" }) => `<!DOCTYPE html>
   </div></header>
   <main id="main" tabindex="-1">${body}</main>
 ${FOOT_CLOSE}  <footer class="wkp-foot"><div class="container">
-    <p>From a targeted review of published sources compiled in October 2026, not an exhaustive census of the market. Listing a business, investor, programme or organisation does not imply endorsement, partnership or ranking, and nothing here is investment advice. Every source links to its publisher; links that failed our check are left out. Text: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0<span class="visually-hidden"> (opens in a new tab)</span></a>. <a href="/sources/">All sources</a> · <a href="/heat-economy/#data">Download the data</a></p>
+    <p>Gathered from public sources in October 2026. Being listed does not imply endorsement, partnership or ranking, and nothing here is financial advice. Every source links to its publisher; links that no longer work are left out. Text: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0<span class="visually-hidden"> (opens in a new tab)</span></a>. <a href="/sources/">All sources</a> · <a href="/heat-economy/#data">Download the data</a></p>
   </div></footer>
 ${script}</body>
 </html>
@@ -91,7 +96,7 @@ const shell = (cur, eyebrow, h1, lede, inner) => `
         <p class="eyebrow eyebrow--break">${esc(eyebrow)}</p>
         <h1 class="h2 tool-h1">${h1}</h1>
         <p class="tool-lede">${lede}</p>
-        ${CAVEAT}
+        ${ABOUT}
         ${inner}
       </div>
     </section>`;
@@ -107,257 +112,260 @@ function open(){var id=decodeURIComponent(location.hash.slice(1));var el=id&&doc
 const sel = (key, label, opts) => `<label><span>${esc(label)}</span><select data-filter="${key}"><option value="">${esc(opts[0])}</option>${opts.slice(1).map(([v, n]) => `<option value="${esc(v)}">${esc(n)}</option>`).join("")}</select></label>`;
 const search = ph => `<label class="sol-search"><span>Search</span><input type="search" data-filter="q" autocomplete="off" placeholder="${esc(ph)}"></label>`;
 const qtext = (...a) => esc(a.flat().filter(Boolean).join(" ").toLowerCase());
+const go = (href, text) => `<a href="${href}">${esc(text)}&nbsp;<span aria-hidden="true">→</span></a>`;
 
-// ================= 1. OVERVIEW =================
-const segCard = s => {
-  const ms = (s.market_size || []).filter(m => m.figure && live(m.source && m.source.url));
+// ================= 1. START HERE =================
+const AUDIENCES = [
+  ["For city and local governments", [
+    [go("/heat-economy/conditions/", "Questions to ask before you buy anything"), "Does it work here, is it fair, and who keeps it working?"],
+    [go("/heat-economy/opportunities/?viable=public", "Services you could commission"), "Cooler schools, shared cool rooms, ready-to-go summer contracts, trees that are kept alive."],
+    [go("/heat-economy/businesses/", "Find suppliers by type of protection"), "Cool roofs, fans, shade, water, cold storage and more."],
+    [go("/heat-economy/conditions/#rules", "Rules that have helped elsewhere"), "Labels, building rules, heat-at-work rules and bulk buying."]]],
+  ["For worker organisations and community groups", [
+    [go("/heat-economy/conditions/#q-fair", "Is it fair? Seven questions to ask"), "About cost, rent, paid rest, unpaid work, access and data."],
+    [go("/heat-economy/opportunities/#g5-poverty-paidrest", "Ideas that put workers and communities first"), "Paid rest at work, worker-run income support, shared cool rooms, upgrades that let residents stay."],
+    [go("/heat-economy/businesses/?segment=heat-insurance", "How heat insurance works"), "And what to ask before joining a scheme."],
+    [go("/join/", "Tell us what works where you are"), "Your experience helps others choose well."]]],
+  ["For funders and investors", [
+    [go("/heat-economy/opportunities/?viable=public", "Ideas that need public or shared funding"), "Where grants, guarantees and patient money can do the most."],
+    [go("/heat-economy/money/", "Funding we could trace so far"), "Who has funded what, and how to read funding news."],
+    [go("/heat-economy/money/#programmes", "Accelerators, prizes and challenges"), "Programmes already finding and backing ventures."],
+    [go("/heat-economy/conditions/#q-risk", "Who pays, and who carries the risk?"), "Four questions to ask before backing a product or service."]]],
+  ["For people starting or growing a business", [
+    [go("/heat-economy/opportunities/?viable=yes", "Ideas customers could pay for"), "Servicing co-operatives, cooling as a service, paid-rest services for employers, and more."],
+    [go("/heat-economy/money/#programmes", "Where to find support"), "Accelerators, prizes and challenges, and what each offers."],
+    [go("/heat-economy/businesses/", "Who is already doing it"), "Learn from businesses near you."],
+    [go("/heat-economy/conditions/#paying", "Ways customers can pay, and common obstacles"), "Pay as you go, repaying through the bill, paying for cooling rather than the machine."]]]];
+const FOUND = [
+  [`${N.biz}`, "businesses already offer protection from heat", `${N.bizAsia} of them work in South or Southeast Asia, from cool roofs and efficient fans to cold storage, heat sensors and heat insurance.`, "/heat-economy/businesses/"],
+  ["Most", "of the funding we could trace has a clear buyer", "It went to cooling equipment, cold storage, shared cooling networks and heat data, where someone pays for a product or a contract.", "/heat-economy/money/"],
+  [`${N.oppPublic} of ${N.opp}`, "ideas need public or shared funding", "To reach the people who need them most: paid rest, cool rooms, care for heat illness, warnings that reach everyone.", "/heat-economy/opportunities/"],
+  ["1", "big open question", "Who ends up using these products? Published information rarely says whether they reach families on the lowest incomes. It is the most useful thing to ask any supplier, and to share.", "/heat-economy/conditions/#q-fair"]];
+const segCard = s => { const pl = plainSeg(s.id); const n = bizBySeg(s.id);
   return `<article class="he-seg" id="seg-${esc(s.id)}">
-      <p class="sol-tags"><span class="sol-type sol-type--${s.type === "passive" ? "passive" : s.type === "active" ? "active" : "policy"}">${esc(TYPE[s.type] || s.type)}</span><span class="sol-clim">${esc(MATURITY[s.maturity] || s.maturity)}</span></p>
-      <h3>${esc(s.name)}</h3>
-      <p>${esc(s.definition)}</p>
-      <p class="he-k"><b>Who pays:</b> ${esc(s.who_pays)}</p>
-      <p class="he-k"><b>Who benefits:</b> ${esc(s.who_benefits)}</p>
-      <p class="he-k he-poor he-poor--${esc(s.reaches_poorest)}"><b>${esc(POOREST[s.reaches_poorest] || "")}.</b> ${esc(s.reaches_poorest_how)}</p>
-      ${ms.length ? `<p class="he-k"><b>Published size:</b> ${ms.map(m => `${esc(m.figure)} ${esc(m.units)} (${esc(m.year)}, ${esc(m.geography)}) ${src(m.source)}`).join("; ")}</p>` : `<p class="he-k"><b>Published size:</b> no matched estimate found in this review.</p>`}
-      ${(s.loops || []).length ? `<p class="he-k"><b>Cycles it can act on:</b> ${loopLinks(s.loops)}</p>` : ""}
-      <p class="he-go">${bizBySeg(s.id) ? `<a href="/heat-economy/businesses/?segment=${esc(s.id)}">${bizBySeg(s.id)} ${bizBySeg(s.id) === 1 ? "business" : "businesses"} in this review&nbsp;<span aria-hidden="true">→</span></a>` : "No business in this segment was verified in this review."}</p>
-    </article>`;
-};
-const SHELVES = [["Cooling and safer places", ["cool-roofs", "passive-buildings", "shade-greening", "efficient-fans", "evaporative-cooling", "efficient-ac", "refrigerant-services", "district-cooling", "cold-chains", "personal-cooling"]],
-  ["Services, data and care", ["heat-sensing", "heat-data-warnings", "heat-water-services", "workplace-heat-services", "heat-resilient-agriculture", "heat-ready-healthcare", "cooling-power-flexibility"]],
-  ["Finance and risk", ["heat-insurance", "cooling-access-finance"]]];
-const shelved = new Set(SHELVES.flatMap(x => x[1]));
-const extraSeg = SEG.filter(s => !shelved.has(s.id)).map(s => s.id); if (extraSeg.length) SHELVES[1][1].push(...extraSeg);
+      <h3>${esc(pl.name || s.name)}</h3>
+      <p>${esc(pl.what || s.definition)}</p>
+      <p class="he-k"><b>Usually paid for by:</b> ${esc(pl.pays || s.who_pays)}</p>
+      ${(pl.check || []).length ? `<p class="he-k"><b>Three things to check</b></p><ul class="he-checklist">${pl.check.map(c => `<li>${esc(c)}</li>`).join("")}</ul>` : ""}
+      ${(s.loops || []).length ? `<p class="he-k he-small"><b>Can help break:</b> ${loopLinks(s.loops)}</p>` : ""}
+      <p class="he-go">${n ? go(`/heat-economy/businesses/?segment=${esc(s.id)}`, `${n} ${n === 1 ? "business" : "businesses"} offering this`) : "No business found yet. Know one? <a href=\"/join/\">Tell us</a>."}</p>
+    </article>`; };
 const flow = `<figure class="he-flow" aria-labelledby="he-flow-cap">
-      <figcaption id="he-flow-cap" class="he-flow__cap">From heat exposure to protection: who decides, who pays, who delivers</figcaption>
+      <figcaption id="he-flow-cap" class="he-flow__cap">Who needs protection, who connects, who supplies</figcaption>
       <div class="he-lanes">
-        <div class="he-lane he-lane--demand"><p class="he-lane__h">Demand</p>
-          <p><b>People exposed:</b> residents, workers, growers, pupils, patients.</p>
-          <p><b>Those with a duty to protect them:</b> employers, cities, housing owners, schools, health systems.</p>
-          <p class="he-gap">The person who needs protection is often not the one who can pay for it.</p></div>
-        <div class="he-lane he-lane--platform"><p class="he-lane__h">Platform</p>
-          <ul><li>Worker and community voice</li><li>Weather and evidence</li><li>Standards and enforcement</li><li>Procurement and project preparation</li><li>Payment and finance coordination</li></ul></div>
-        <div class="he-lane he-lane--supply"><p class="he-lane__h">Supply</p>
-          ${SHELVES.map(([n, ids]) => `<p><b>${esc(n)}:</b> ${ids.map(id => `<a href="#seg-${id}">${esc(segName(id).split(/[,(]/)[0].trim())}</a>`).join(" · ")}</p>`).join("")}</div>
+        <div class="he-lane he-lane--demand"><p class="he-lane__h">Who needs protection</p>
+          <p>Residents, workers, farmers, pupils and patients.</p>
+          <p>And those responsible for them: employers, cities, landlords, schools and health services.</p>
+          <p class="he-gap">The people who need protection are often not the ones who pay for it.</p></div>
+        <div class="he-lane he-lane--platform"><p class="he-lane__h">Who connects them</p>
+          <ul><li>Worker and community organisations</li><li>Weather services and researchers</li><li>Rules and inspection</li><li>Buying and project preparation</li><li>Funders and finance</li></ul></div>
+        <div class="he-lane he-lane--supply"><p class="he-lane__h">Who supplies protection</p>
+          ${PL.shelves.map(([n, ids]) => `<p><b>${esc(n)}:</b> ${ids.map(id => `<a href="#seg-${id}">${esc(segName(id))}</a>`).join(" · ")}</p>`).join("")}</div>
       </div>
       <div class="he-money">
-        <p class="he-lane__h">Four kinds of money, never interchangeable</p>
-        <ul><li><b>Payments by buyers</b> buy products, services and upkeep.</li><li><b>Loans and equity</b> fund assets or businesses with a credible case for repayment or return.</li><li><b>Public budgets, grants and subsidies</b> cover public goods, preparation and the gap between need and ability to pay.</li><li><b>Premiums</b> buy specified insurance; payouts happen only under the contract’s terms.</li></ul>
+        <p class="he-lane__h">Four kinds of money</p>
+        <ul><li><b>Customers’ payments</b> buy products, services and upkeep.</li><li><b>Loans and investment</b> pay for equipment or businesses that can earn the money back.</li><li><b>Public budgets, grants and subsidies</b> pay for public services and help people who can’t pay.</li><li><b>Insurance premiums</b> buy cover that pays out under agreed conditions.</li></ul>
       </div>
-      <div class="he-outcome"><p><b>The outcome that counts is usable protection, not products delivered.</b> Check it at each step: reach, affordability, permission, safe use, uptime, maintenance and income kept.</p>
-        <p class="he-nopayer"><b>Needs without a reliable payer.</b> Free public shade, paid rest for informal workers, care for people who cannot pay, warnings that reach everyone. These rely on public duties, social protection, grants and collective purchasing. Entrepreneurship alone will not make them disappear.</p></div>
+      <div class="he-outcome"><p><b>What counts is protection people can actually use:</b> they can reach it, afford it and use it safely, and it keeps working.</p>
+        <p class="he-nopayer"><b>Some protection needs public or shared funding.</b> Shade in public places, paid rest for informal workers, care for people who can’t pay, and warnings that reach everyone. These are paid for through public budgets, social protection, grants and buying together.</p></div>
     </figure>`;
-const findings = [
-  [N.biz, "businesses already selling protection from heat", `${N.bizAsia} of them with an offer in South or Southeast Asia. None could yet show, in published evidence, that it reaches the poorest households.`, "businesses"],
-  [N.inv, "investors and capital routes", `${N.deals} financing events traced. Recorded money gathers where a buyer, an asset or a contract is visible: air conditioning, cold chains, district cooling and risk data.`, "money"],
-  [N.prog, "accelerators, prizes and challenges", `Only ${N.progBuyers} clearly connect ventures to paying buyers; most stop at recognition, testing or a pilot site.`, "money#programmes"],
-  [N.opp, "business ideas, cycle by cycle", `${N.oppPublic} need public or pooled money to protect the people they are for; ${N.oppYes} could be funded by buyers; ${N.oppNo} has no direct market.`, "opportunities"]];
-const dataFiles = [["businesses", "Businesses"], ["investors", "Investors and capital routes"], ["deals", "Financing events"], ["programmes", "Accelerators, prizes and challenges"], ["opportunities", "Business ideas by cycle"], ["segments", "Market segments"]];
-const overview = shell("", "The heat economy", "Who is building protection from heat, <br>who pays for it, and what is still missing.",
-  `The businesses already selling protection from heat, the investors and programmes backing them, the businesses that could come up, and what it takes for a market to protect the people who need it most. Every part is tied to the vicious cycles it can help break.`,
-  `<div class="he-stats">${findings.map(([n, l, t, href]) => `<a class="he-stat" href="/heat-economy/${href.replace("#", "/#")}"><span class="he-stat__n">${n}</span><span class="he-stat__l">${esc(l)}</span><span class="he-stat__t">${esc(t)}</span></a>`).join("")}</div>
-        <blockquote class="he-quote"><p>A credible market begins when a need for protection becomes an <b>authorised, funded purchase with accountable delivery and upkeep</b>. Heat exposure, social value and a promising product do not, by themselves, identify a customer.</p><cite>The central finding of the research</cite></blockquote>
+const dataFiles = [["businesses", "Businesses"], ["investors", "Funders and investors"], ["deals", "Funding we traced"], ["programmes", "Accelerators, prizes and challenges"], ["opportunities", "Ideas, cycle by cycle"], ["segments", "Kinds of protection"]];
+const overview = shell("", "The heat economy", "Businesses, funding and ideas <br>that protect people from heat.",
+  `Who already offers protection from heat, who funds it, which new businesses and services could help, and what to ask before you buy, fund or start something.`,
+  `<section class="he-start" aria-labelledby="start-h"><h2 id="start-h" class="he-start__h">Start here</h2>
+          <div class="he-aud">${AUDIENCES.map(([h, items]) => `<article class="he-aud__card"><h3>${esc(h)}</h3><ul>${items.map(([a, t]) => `<li>${a}<span>${esc(t)}</span></li>`).join("")}</ul></article>`).join("")}</div></section>
+        <section class="cty-s" id="found"><h2>What we found</h2>
+          <div class="he-stats">${FOUND.map(([n, l, t, href]) => `<a class="he-stat" href="${href}"><span class="he-stat__n">${esc(n)}</span><span class="he-stat__l">${esc(l)}</span><span class="he-stat__t">${esc(t)}</span></a>`).join("")}</div>
+          <p class="he-intro">The lesson running through all of it: protection works when someone is clearly responsible for buying it, paying for it and keeping it working, and when the people it is for can actually use it.</p></section>
         <section class="cty-s" id="flow"><h2>How the heat economy works</h2>
-          <p class="he-intro">Three questions come before any product: who needs protection, who can authorise it, and who can pay for it? They are often three different people or institutions. A street vendor needs shade, but the city controls the pavement. A worker needs paid rest, but the employer controls the schedule.</p>
+          <p class="he-intro">Three questions come before any product: who needs protection, who can approve it, and who can pay? They are often different people. A street vendor needs shade, but the city looks after the pavement. A worker needs rest breaks, but the employer sets the schedule.</p>
           ${flow}</section>
-        <section class="cty-s" id="segments"><h2>Nineteen parts of the heat economy</h2>
-          <p class="he-intro">Maturity describes whether the product or service model exists, not how fast it is growing or whether it protects enough people. “Can partly reach the poorest” means a route exists, not that it has been shown to work. The research deliberately gives no single size for the whole heat economy: product sales, loans, premiums and public spending overlap, and adding them would overstate it.</p>
-          ${SHELVES.map(([n, ids]) => `<h3 class="he-shelf">${esc(n)}</h3><div class="he-segs">${ids.map(id => SEG.find(s => s.id === id)).filter(Boolean).map(segCard).join("")}</div>`).join("")}</section>
-        <section class="cty-s" id="use"><h2>Using this</h2>
-          <ul class="he-uses"><li><b>Cities, employers and health systems:</b> start with <a href="/heat-economy/conditions/#fairness">the fairness questions</a> before buying, and with <a href="/heat-economy/opportunities/">what could come up</a> for services to commission.</li>
-          <li><b>Funders and investors:</b> see <a href="/heat-economy/money/">where money has gone</a> and which <a href="/heat-economy/opportunities/?viable=public">ideas need public or pooled money</a> to reach the poorest.</li>
-          <li><b>Founders:</b> find <a href="/heat-economy/money/#programmes">support programmes</a> and the <a href="/heat-economy/conditions/#barriers">barriers</a> others have met.</li>
-          <li><b>Worker and community organisations:</b> use the fairness questions to ask who is protected, who pays and who keeps it working.</li></ul></section>
+        <section class="cty-s" id="segments"><h2>Nineteen kinds of protection, and what to check</h2>
+          <p class="he-intro">For each: what it is, who usually pays, and three questions to ask a supplier.</p>
+          ${PL.shelves.map(([n, ids]) => `<h3 class="he-shelf">${esc(n)}</h3><div class="he-segs">${ids.map(id => SEG.find(s => s.id === id)).filter(Boolean).map(segCard).join("")}</div>`).join("")}</section>
         <section class="cty-s" id="data"><h2>Download the data</h2>
-          <p class="he-intro">Free to reuse under CC BY 4.0, with a link to Common Shade. Each spreadsheet has one row per record and links to its source.</p>
+          <p class="he-intro">Spreadsheets with one row per record, including the researchers’ fuller notes and every source. Free to reuse with a link to Common Shade (CC BY 4.0).</p>
           <ul class="he-dl">${dataFiles.map(([f, n]) => `<li><a href="/heat-economy/data/${f}.csv" download>${esc(n)} (CSV)</a></li>`).join("")}</ul></section>
         <p class="tool-alt"><a href="/solutions/">Solutions library</a> · <a href="/countries/">Country snapshots</a> · <a href="/finance/">Paying for protection</a> · <a href="/heat-network/">The heat network</a></p>`);
 
 // ================= 2. BUSINESSES =================
 const bizCard = b => {
   const c = [...new Set((b.countries || []).concat(b.hq_country || []).filter(Boolean))];
-  const pr = b.price && b.price.local ? `${esc(b.price.local)} ${esc(b.price.currency || "")}${b.price.usd ? ` (about ${usd(b.price.usd)}${b.price.year ? `, ${esc(b.price.year)}` : ""})` : ""} ${src(b.price.source)}` : "";
-  const ev = (b.evidence || []).filter(e => e.source && live(e.source.url)).map(e => `<li>${tag(e.status)} ${esc(e.text)} ${src(e.source)}</li>`).join("");
-  const to = b.tradeoffs || {};
-  const toList = [["Energy", to.energy], ["Refrigerant", to.refrigerant], ["Water", to.water], ["End of life", to.end_of_life], ["Data and privacy", to.data_privacy], ["Debt", to.debt_risk]].filter(x => has(x[1]));
-  const partners = (b.partners || []).map(x => live(x.url) ? ext(x.url, x.name) : esc(x.name)).join(" · ");
-  return `<details class="sol he-card" id="${esc(b.id)}" data-segment="${esc(b.segment)}" data-kind="${esc(b.kind)}" data-asia="${inAsia(b) ? "1" : ""}" data-q="${qtext(b.name, b.product, b.problem, b.customer, b.user, segName(b.segment), c.map(cname))}">
-      <summary><span class="sol-h">${esc(b.name)}</span><span class="sol-tags"><span class="sol-type sol-type--${/cool|fan|ac|roof|passive|shade|evap|district|refrig|personal|cold/.test(b.segment) ? "active" : "policy"}">${esc(segName(b.segment))}</span><span class="sol-clim">${esc(KIND[b.kind] || b.kind || "")}</span>${c.length ? `<span class="sol-clim">${esc(c.map(cname).join(", "))}</span>` : ""}</span><span class="sol-sum">${esc(b.product)}</span></summary>
+  const srcs = [...new Map((b.evidence || []).filter(e => e.source && live(e.source.url)).map(e => [e.source.url, e.source])).values()].slice(0, 3);
+  return `<details class="sol he-card" id="${esc(b.id)}" data-segment="${esc(b.segment)}" data-kind="${esc(b.kind)}" data-asia="${inAsia(b) ? "1" : ""}" data-q="${qtext(b.name, b.product, b.customer, b.user, segName(b.segment), c.map(cname))}">
+      <summary><span class="sol-h">${esc(b.name)}</span><span class="sol-tags"><span class="sol-clim">${esc(KIND[b.kind] || "")}</span>${c.length ? `<span class="sol-clim">${esc(c.map(cname).slice(0, 4).join(", "))}${c.length > 4 ? " and more" : ""}</span>` : ""}</span><span class="sol-sum">${esc(tidy(b.product))}</span></summary>
       <div class="sol-body">
-        ${f("What it does", p(b.product) + (live(b.url) ? `<p>${ext(b.url, "Website")}</p>` : ""))}
-        ${f("The heat problem", p(b.problem))}
-        ${f("How it could cut a cycle", p(b.link_it_cuts) + ((b.loops || []).length ? `<p class="sol-note">${loopLinks(b.loops)}</p>` : ""))}
-        ${f("Business model", p(b.business_model) + (b.customer ? `<p><b>Customer:</b> ${esc(b.customer)}</p>` : "") + (b.user ? `<p><b>User:</b> ${esc(b.user)}</p>` : ""))}
-        ${f("Price", pr ? `<p>${pr}</p>` : `<p>No comparable published price was verified.</p>`)}
-        ${f("Dry or humid heat", b.suits && b.suits !== "not-applicable" ? `<p><b>${esc({ both: "Dry and humid heat", "hot-dry": "Dry heat", "hot-humid": "Humid heat" }[b.suits] || b.suits)}.</b> ${esc(b.suits_why)}</p>` : "")}
-        ${f("Who it reaches", p(b.reaches_poorest_why))}
-        ${f("Trade-offs", toList.length ? `<ul class="sol-ul">${toList.map(([k, v]) => `<li><b>${k}:</b> ${esc(v)}</li>`).join("")}</ul>` : "")}
-        ${f("Evidence", ev ? `<ul class="sol-ul">${ev}</ul>` : "")}
-        ${f("Partners named", partners ? `<p>${partners}</p>` : "")}
-        <div class="sol-f sol-kiu"><h4>Risks and what is uncertain</h4>${p(b.risks)}</div>
+        ${f("What it offers", p(tidy(b.product)) + (live(b.url) ? `<p>${ext(b.url, "Website")}</p>` : ""))}
+        ${f("Who buys it", p(tidy(b.customer)))}
+        ${f("Who uses it", p(tidy(b.user)))}
+        ${f("Where", p(c.map(cname).join(", ")))}
+        ${SUITS[b.suits] ? f("Climate", p(SUITS[b.suits])) : ""}
+        ${(b.loops || []).length ? f("Can help break", `<p>${loopLinks(b.loops)}</p>`) : ""}
+        ${f("Sources", srcs.length ? `<p class="sol-src">${srcs.map(s => ext(s.url, s.label)).join(" · ")}</p>` : "")}
+        <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-${esc(b.segment)}">the questions to ask</a> and check details with the company.</p>
       </div>
     </details>`;
 };
-const segsWithBiz = SEG.filter(s => bizBySeg(s.id));
-const businesses = shell("businesses", "The heat economy · Businesses", `${N.biz} businesses already selling <br>protection from heat.`,
-  `Start-ups, small and specialist firms, social enterprises and established companies with a product line for heat, gathered from published sources. ${N.bizAsia} have an offer or activity in South or Southeast Asia. Cooling food and medicines is included alongside cooling people, and the two are kept distinct.`,
-  `<p class="he-note"><b>What this list cannot yet show.</b> For every business here, published evidence that it reaches the poorest fifth of households was not found. That is a gap in the evidence, not a judgement on any company; it is also the question buyers and funders most need answered. All company descriptions are labelled as reported by the company.</p>
-        <div class="sol-bar" role="search">
+const segsWithBiz = PL.shelves.flatMap(x => x[1]).filter(id => bizBySeg(id));
+const businesses = shell("businesses", "The heat economy · Businesses", `${N.biz} businesses offering <br>protection from heat.`,
+  `Start-ups, small businesses, social enterprises and established companies, from cool roofs and efficient fans to cold storage, heat sensors and insurance. ${N.bizAsia} of them work in South or Southeast Asia.`,
+  `<div class="sol-bar" role="search">
           ${search("For example: fan, cold room, roof, insurance, India")}
-          ${sel("segment", "Part of the economy", ["Any part", ...segsWithBiz.map(s => [s.id, `${s.name} (${bizBySeg(s.id)})`])])}
-          ${sel("kind", "Kind", ["Any kind", ...Object.entries(KIND).filter(([k]) => BIZ.some(b => b.kind === k))])}
-          <label class="he-check"><input type="checkbox" data-filter="asia" value="1"> <span>Offers in South or Southeast Asia</span></label>
+          ${sel("segment", "Kind of protection", ["Any kind", ...segsWithBiz.map(id => [id, `${segName(id)} (${bizBySeg(id)})`])])}
+          ${sel("kind", "Type of business", ["Any type", ...Object.entries(KIND).filter(([k]) => BIZ.some(b => b.kind === k))])}
+          <label class="he-check"><input type="checkbox" data-filter="asia" value="1"> <span>Works in South or Southeast Asia</span></label>
           <p class="sol-count" id="he-count" role="status" aria-live="polite"></p>
         </div>
-        ${SEG.filter(s => bizBySeg(s.id)).map(s => `<section class="sol-group he-group" aria-labelledby="g-${s.id}"><h2 class="sol-gh" id="g-${s.id}">${esc(s.name)} <span>${bizBySeg(s.id)}</span></h2>
-          ${BIZ.filter(b => b.segment === s.id).sort((a, b) => a.name.localeCompare(b.name)).map(bizCard).join("\n")}</section>`).join("\n")}
-        <p class="sol-none" id="he-none" hidden>No business matches. Try fewer filters.</p>`);
+        ${segsWithBiz.map(id => { const pl = plainSeg(id); return `<section class="sol-group he-group" aria-labelledby="g-${id}"><h2 class="sol-gh" id="g-${id}">${esc(segName(id))} <span>${bizBySeg(id)}</span></h2>
+          <p class="sol-gp">${esc(pl.what || "")}</p>
+          ${(pl.check || []).length ? `<div class="he-askbox" id="q-${id}"><b>Ask before buying:</b><ul>${pl.check.map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>` : ""}
+          ${BIZ.filter(b => b.segment === id).sort((a, b) => a.name.localeCompare(b.name)).map(bizCard).join("\n")}</section>`; }).join("\n")}
+        <p class="sol-none" id="he-none" hidden>No business matches. Try fewer filters.</p>
+        <p class="tool-alt">Know a business we have missed? <a href="/join/">Tell us</a>. The <a href="/heat-economy/data/businesses.csv" download>spreadsheet</a> has the researchers’ fuller notes on each one.</p>`);
 
-// ================= 3. MONEY AND SUPPORT =================
-const viewName = { "business-project / exact": "Company and project financing (exact amounts)", "business-project / maximum": "Company and project financing (‘up to’ amounts)", "credit-facility-limit / exact": "Credit facility limits", "guarantee-exposure / exact": "Guarantees", "mixed-round / exact": "Mixed rounds (instrument not separable)", "public-approved-envelope / exact": "Public programme approvals", "public-cash-transfer / exact": "Public transfers recorded as disbursed", "public-programme-budget / exact": "Public programme budgets", "unclassified-instrument / exact": "Instrument not established" };
-const views = Object.entries(FLOWS.rollups || {}).map(([k, v]) => [k, v.by_status || {}]);
+// ================= 3. FUNDING AND SUPPORT =================
+const viewName = { "business-project / exact": "Funding for companies and projects", "business-project / maximum": "Funding for companies and projects (‘up to’ amounts)", "credit-facility-limit / exact": "Credit lines", "guarantee-exposure / exact": "Loan guarantees", "mixed-round / exact": "Mixed funding rounds", "public-approved-envelope / exact": "Public programmes approved", "public-cash-transfer / exact": "Public money transferred", "public-programme-budget / exact": "Public programme budgets", "unclassified-instrument / exact": "Other funding" };
 const statusCols = ["announced", "closed", "disbursed"];
-const flowTable = `<div class="he-tablewrap" role="region" aria-label="Recorded amounts by kind and status" tabindex="0"><table class="he-table"><caption>Recorded amounts in US dollars, by kind and status. Each row is a separate view: do not add rows or columns together.</caption>
+const views = Object.entries(FLOWS.rollups || {}).map(([k, v]) => [k, v.by_status || {}]).filter(([, v]) => Object.keys(v).length);
+const flowTable = `<div class="he-tablewrap" role="region" aria-label="Funding we traced, by kind and status" tabindex="0"><table class="he-table"><caption>Funding we traced, in US dollars. Each row is a different kind of money, so the rows are not added together.</caption>
       <thead><tr><th scope="col">Kind of money</th>${statusCols.map(s => `<th scope="col">${DSTATUS[s]}</th>`).join("")}</tr></thead>
-      <tbody>${views.map(([k, v]) => `<tr><th scope="row">${esc(viewName[k] || k)}</th>${statusCols.map(s => `<td>${v[s] ? usd(v[s]) : "<span class=\"he-dash\">not recorded</span>"}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+      <tbody>${views.map(([k, v]) => `<tr><th scope="row">${esc(viewName[k] || k)}</th>${statusCols.map(s => `<td>${v[s] ? usd(v[s]) : "<span class=\"he-dash\">none found</span>"}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
 const bp = (FLOWS.rollups || {})["business-project / exact"] || {};
-const split = (obj, lab) => { const rows = Object.entries(obj || {}).map(([k, v]) => { const [a, s] = k.split(" | "); return [lab(a), DSTATUS[s] || s, v]; }); return rows.length ? `<div class="he-tablewrap" role="region" aria-label="${esc(lab === segName ? "By part of the economy" : "By place")}" tabindex="0"><table class="he-table he-table--sm"><tbody>${rows.map(r => `<tr><th scope="row">${esc(r[0])}</th><td>${esc(r[1])}</td><td>${usd(r[2])}</td></tr>`).join("")}</tbody></table></div>` : ""; };
-const INVTYPE = { vc: "Venture capital", impact: "Impact investor", cvc: "Corporate venture capital", dfi: "Development finance institution", mdb: "Development bank", "climate-fund": "Climate fund", "adaptation-fund": "Adaptation fund", "blended-facility": "Blended-finance facility", philanthropy: "Philanthropy", "family-office": "Family office", "risk-capital": "Risk capital", "public-innovation": "Public innovation fund" };
+const bySeg = Object.entries(bp.by_segment_status || {}).reduce((m, [k, v]) => { const [a, s] = k.split(" | "); (m[a] = m[a] || {})[s] = v; return m; }, {});
+const segTable = Object.keys(bySeg).length ? `<div class="he-tablewrap" role="region" aria-label="Company and project funding by kind of protection" tabindex="0"><table class="he-table he-table--sm"><caption>Funding for companies and projects, by kind of protection</caption><thead><tr><th scope="col">Kind of protection</th><th scope="col">Announced</th><th scope="col">Confirmed</th></tr></thead><tbody>${Object.entries(bySeg).map(([a, v]) => `<tr><th scope="row">${esc(segName(a))}</th><td>${v.announced ? usd(v.announced) : "<span class=\"he-dash\">none found</span>"}</td><td>${v.closed ? usd(v.closed) : "<span class=\"he-dash\">none found</span>"}</td></tr>`).join("")}</tbody></table></div>` : "";
 const dealById = Object.fromEntries(DEALS.map(d => [d.id, d]));
-const invCard = i => `<details class="sol he-card" id="inv-${esc(i.id)}" data-type="${esc(i.type || "")}" data-q="${qtext(i.name, INVTYPE[i.type], (i.segments || []).map(segName), i.geography)}">
-      <summary><span class="sol-h">${esc(i.name)}</span><span class="sol-tags"><span class="sol-type sol-type--policy">${esc(INVTYPE[i.type] || "Capital route")}</span>${(i.segments || []).slice(0, 3).map(s => `<span class="sol-clim">${esc(segName(s))}</span>`).join("")}</span><span class="sol-sum">${esc((i.heat_thesis || {}).text || "")}</span></summary>
+const bizNameById = Object.fromEntries(BIZ.map(b => [b.id, b.name]));
+const recip = d => bizNameById[d.investee] || PL.recipients[d.investee] || String(d.investee || "");
+const invCard = i => { const ds = (i.deals || []).map(id => dealById[id]).filter(Boolean);
+  return `<details class="sol he-card" id="inv-${esc(i.id)}" data-type="${esc(i.type || "")}" data-q="${qtext(i.name, INVTYPE[i.type], (i.segments || []).map(segName), ds.map(recip))}">
+      <summary><span class="sol-h">${esc(i.name)}</span><span class="sol-tags"><span class="sol-clim">${esc(INVTYPE[i.type] || "Funder")}</span>${(i.segments || []).slice(0, 3).map(s => `<span class="sol-clim">${esc(segName(s))}</span>`).join("")}</span>${ds.length ? `<span class="sol-sum">Has funded: ${esc(ds.map(d => `${recip(d)} (${(d.date || "").slice(0, 4)})`).join(", "))}</span>` : ""}</summary>
       <div class="sol-body">
-        ${f("Its link to heat", p((i.heat_thesis || {}).text) + src((i.heat_thesis || {}).source) + (live(i.url) ? `<p>${ext(i.url, "Website")}</p>` : ""))}
-        ${f("Instruments and stages", p([(i.instruments || []).join(", "), (i.stages || []).join(", ")].filter(Boolean).join(" · ")))}
-        ${f("Cheque size", p((i.ticket_size || {}).text))}
-        ${f("Where", p((i.geography || []).join("; ")))}
-        ${f("Dedicated adaptation window", p({ yes: "Yes", no: "No", unclear: "Not established" }[i.adaptation_window] || ""))}
-        ${f("Financing events recorded", (i.deals || []).filter(id => dealById[id]).length ? `<ul class="sol-ul">${i.deals.filter(id => dealById[id]).map(id => { const d = dealById[id]; return `<li><a href="#deal-${esc(id)}">${esc(d.investee)}, ${esc((d.date || "").slice(0, 4))}</a>${d.amount && d.amount.usd ? `: ${usd(d.amount.usd)}` : ""} (${esc(DSTATUS[d.status] || d.status || "")})</li>`; }).join("")}</ul>` : "")}
-        ${(i.loops || []).length ? f("Cycles its heat investments touch", `<p>${loopLinks(i.loops)}</p>`) : ""}
+        ${f("Heat-related funding we found", ds.length ? `<ul class="sol-ul">${ds.map(d => `<li><a href="#deal-${esc(d.id)}">${esc(recip(d))}, ${esc((d.date || "").slice(0, 4))}</a>${d.amount && d.amount.usd ? `: ${usd(d.amount.usd)}` : ""} (${esc(DSTATUS[d.status] || "")})</li>`).join("")}</ul>` : `<p>Listed for its stated interest in heat or cooling.</p>`)}
+        ${f("Usually provides", p((i.instruments || []).map(x => INSTR[x] || x).join(", ")))}
+        ${f("Kinds of protection", p((i.segments || []).map(segName).join(", ")))}
+        ${f("Website", live(i.url) ? `<p>${ext(i.url, i.name)}</p>` : "")}
+        <p class="sol-go">Check the funder’s own website for what it funds now and how to apply.</p>
+      </div>
+    </details>`; };
+const dealRow = d => `<tr id="deal-${esc(d.id)}"><td>${esc(d.date || "")}</td><th scope="row">${esc(recip(d))}</th><td>${esc((d.investors || []).join("; "))}</td>
+      <td>${d.amount && d.amount.usd ? usd(d.amount.usd) : "<span class=\"he-dash\">not published</span>"}${d.amount && d.amount.currency && d.amount.currency !== "USD" && d.amount.local ? `<br><small>${esc(Number(d.amount.local).toLocaleString("en-GB"))} ${esc(d.amount.currency)}</small>` : ""}</td>
+      <td>${esc(INSTR[d.instrument] || "Not stated")}</td><td>${esc(DSTATUS[d.status] || "")}</td><td>${esc(segName(d.segment))}</td><td>${esc((d.countries || []).map(cname).join(", "))}</td><td>${d.source && live(d.source.url) ? ext(d.source.url, "Source") : ""}</td></tr>`;
+const BUYERS = { yes: "Helps you meet buyers", partly: "Partly helps you meet buyers", no: "Does not focus on buyers", unclear: "" };
+const progCard = a => `<details class="sol he-card" id="prog-${esc(a.id)}" data-type="${esc(a.type || "")}" data-q="${qtext(a.name, a.run_by, a.focus, a.geography)}">
+      <summary><span class="sol-h">${esc(a.name)}</span><span class="sol-tags"><span class="sol-clim">${esc(PROGTYPE[a.type] || "")}</span>${BUYERS[a.connects_to_buyers] ? `<span class="sol-clim">${esc(BUYERS[a.connects_to_buyers])}</span>` : ""}</span><span class="sol-sum">${esc(tidy(a.focus))}</span></summary>
+      <div class="sol-body">
+        ${f("Run by", p(tidy(a.run_by)))}
+        ${f("What it offers", ul((a.offers || []).map(tidy)))}
+        ${f("Heat-related ventures it has supported", (a.heat_ventures || []).length ? `<ul class="sol-ul">${a.heat_ventures.map(h => `<li>${live(h.url) ? ext(h.url, h.name) : esc(h.name)}${/^\d{4}$/.test(String(h.year || "").trim()) ? ` (${esc(String(h.year).trim())})` : ""}</li>`).join("")}</ul>` : "")}
+        ${f("Programme page", live(a.url) ? `<p>${ext(a.url, a.name)}</p>` : "")}
+        <p class="sol-go">Check the programme’s own page for current rules and deadlines.</p>
       </div>
     </details>`;
-const dealRow = d => `<tr id="deal-${esc(d.id)}"><td>${esc(d.date || "")}</td><th scope="row">${esc(d.investee)}</th><td>${esc((d.investors || []).join("; "))}</td>
-      <td>${d.amount && d.amount.usd ? usd(d.amount.usd) : "<span class=\"he-dash\">not disclosed</span>"}${d.amount && d.amount.currency && d.amount.currency !== "USD" && d.amount.local ? `<br><small>${esc(Number(d.amount.local).toLocaleString("en-GB"))} ${esc(d.amount.currency)}</small>` : ""}</td>
-      <td>${esc(d.instrument || "not established")}</td><td>${esc(DSTATUS[d.status] || d.status || "")}</td><td>${esc(segName(d.segment))}</td><td>${esc((d.countries || []).map(cname).join(", "))}</td><td>${src(d.source) || ""}</td></tr>`;
-const PROGTYPE = { prize: "Prize", challenge: "Challenge", accelerator: "Accelerator", incubator: "Incubator", "city-programme": "City programme", "corporate-call": "Corporate call", university: "University programme", "philanthropic-fund": "Philanthropic fund" };
-const progCard = a => `<details class="sol he-card" id="prog-${esc(a.id)}" data-type="${esc(a.type || "")}" data-buyers="${esc(a.connects_to_buyers || "")}" data-q="${qtext(a.name, a.run_by, a.focus, a.geography)}">
-      <summary><span class="sol-h">${esc(a.name)}</span><span class="sol-tags"><span class="sol-type sol-type--policy">${esc(PROGTYPE[a.type] || a.type || "")}</span><span class="sol-clim">${esc({ yes: "Connects to buyers", partly: "Partly connects to buyers", no: "Does not connect to buyers", unclear: "Buyer link unclear" }[a.connects_to_buyers] || "")}</span></span><span class="sol-sum">${esc(a.focus)}</span></summary>
-      <div class="sol-body">
-        ${f("Run by", p(a.run_by) + (live(a.url) ? `<p>${ext(a.url, "Programme page")}</p>` : ""))}
-        ${f("Where", p((a.geography || []).join("; ")))}
-        ${f("What it offers", ul(a.offers))}
-        ${f("Cohort", p(a.cohort_size))}
-        ${f("Heat ventures it has backed, and what happened next", (a.heat_ventures || []).length ? `<ul class="sol-ul">${a.heat_ventures.map(h => `<li><b>${live(h.url) ? ext(h.url, h.name) : esc(h.name)}</b>${h.year ? ` (${esc(h.year)})` : ""}. ${esc(h.afterwards)} ${src(h.source)}</li>`).join("")}</ul>` : `<p>No named heat participant was established in this review.</p>`)}
-        <div class="sol-f sol-kiu"><h4>Evaluation</h4>${p((a.evaluation || {}).text)}${src((a.evaluation || {}).source)}</div>
-      </div>
-    </details>`;
-const money = shell("money", "The heat economy · Money and support", "Who is investing in protection from heat, <br>and who helps ventures grow.",
-  `${N.inv} investors and capital routes, ${N.deals} financing events and ${N.prog} accelerators, prizes and challenges. The money recorded here gathers where a buyer, an asset or a service fee is visible. Warnings, paid rest and protection for people who cannot pay need other kinds of money.`,
-  `<nav class="sol-jump" aria-label="On this page"><a href="#where">Where the recorded money went</a> · <a href="#investors">Investors</a> · <a href="#deals">Financing events</a> · <a href="#programmes">Accelerators, prizes and challenges</a></nav>
-        <section class="cty-s" id="where"><h2>Where the recorded money went</h2>
-          <p class="he-intro">These are the financing events this review could verify, not the whole market. Company rounds can fund more than heat. An announced amount is not money received, a credit limit is not a loan drawn, and a programme approval is not cash in a country. So each kind is shown on its own.</p>
+const money = shell("money", "The heat economy · Funding and support", "Who funds protection from heat, <br>and who helps new ventures grow.",
+  `${N.inv} funders and investors, ${N.deals} pieces of funding we could trace, and ${N.prog} accelerators, prizes and challenges.`,
+  `<nav class="sol-jump" aria-label="On this page"><a href="#where">Funding we traced</a> · <a href="#investors">Funders and investors</a> · <a href="#programmes">Accelerators, prizes and challenges</a> · <a href="#deals">Every piece of funding</a></nav>
+        <section class="cty-s" id="where"><h2>Funding we traced</h2>
+          <div class="he-askbox he-askbox--wide"><b>How to read funding news</b><ul><li><b>Announced</b> is not the same as <b>paid</b>. Money often arrives in stages, or later.</li><li>A company’s funding may pay for more than its heat work.</li><li>Shares, loans, grants and guarantees are different things, so we never add them together.</li></ul></div>
           ${flowTable}
-          ${Object.keys(bp.by_segment_status || {}).length ? `<div class="he-two"><div><h3 class="he-shelf">Company and project financing, by part of the economy</h3>${split(bp.by_segment_status, segName)}</div><div><h3 class="he-shelf">…and by where the company or project is</h3>${split(bp.by_geography_status, c => c.length === 2 ? cname(c) : c)}</div></div>` : ""}
-          <p class="he-note"><b>What this suggests.</b> Most recorded company financing went to air-conditioning technology, building controls, risk analytics and cold chains, and much of it to companies based outside South and Southeast Asia. Very little reached services such as paid rest, warnings that reach everyone, or care for people who cannot pay. That reflects what can be verified as much as what exists, but it matches what the business ideas below show: much of the protection people need has no paying buyer.</p></section>
-        <section class="cty-s" id="investors"><h2>Investors and capital routes <span class="he-n">${N.inv}</span></h2>
-          <p class="he-intro">A capital route can be a fund, a public institution, a hosted grant-making initiative or an underwriting mechanism. A named investment shows interest in cooling or heat, not a dedicated adaptation mandate, unless stated.</p>
-          <div class="sol-bar" role="search">${search("For example: equity, cold chain, development bank")}${sel("type", "Kind of investor", ["Any kind", ...Object.entries(INVTYPE).filter(([k]) => INV.some(i => i.type === k))])}<p class="sol-count" id="he-count" role="status" aria-live="polite"></p></div>
-          <div class="he-group">${INV.slice().sort((a, b) => a.name.localeCompare(b.name)).map(invCard).join("\n")}</div></section>
-        <section class="cty-s" id="deals"><h2>Financing events <span class="he-n">${N.deals}</span></h2>
-          <p class="he-intro">Newest first. Amounts in US dollars use dated reference rates; the original currency is shown where different. “Not disclosed” is not zero.</p>
-          <div class="he-tablewrap" role="region" aria-label="Financing events" tabindex="0"><table class="he-table he-table--deals"><caption class="visually-hidden">Financing events for heat and cooling</caption><thead><tr><th scope="col">Date</th><th scope="col">Who received it</th><th scope="col">From</th><th scope="col">Amount</th><th scope="col">Instrument</th><th scope="col">Status</th><th scope="col">Part of the economy</th><th scope="col">Where</th><th scope="col">Source</th></tr></thead>
-          <tbody>${DEALS.map(dealRow).join("")}</tbody></table></div></section>
+          ${segTable}
+          <p class="he-note">Most of the funding we could trace went to cooling equipment, cold storage, shared cooling networks and heat data, where there is a clear buyer for a product or a contract. Services such as paid rest, shared cool rooms and warnings for everyone are usually paid for from public budgets, which this list does not cover. It is a sample of public announcements, not the whole picture.</p></section>
+        <section class="cty-s" id="investors"><h2>Funders and investors <span class="he-n">${N.inv}</span></h2>
+          <div class="sol-bar" role="search">${search("For example: cold storage, foundation, development bank")}${sel("type", "Kind of funder", ["Any kind", ...Object.entries(INVTYPE).filter(([k]) => INV.some(i => i.type === k))])}<p class="sol-count" id="he-count" role="status" aria-live="polite"></p></div>
+          <div class="he-group">${INV.slice().sort((a, b) => a.name.localeCompare(b.name)).map(invCard).join("\n")}</div>
+          <p class="sol-none" id="he-none" hidden>No funder matches. Try fewer filters.</p></section>
         <section class="cty-s" id="programmes"><h2>Accelerators, prizes and challenges <span class="he-n">${N.prog}</span></h2>
-          <p class="he-intro">What each makes possible: finding an innovation, testing it in the right climate, a site to try it, a buyer, money to deliver it, or upkeep. Recognition alone does not create a paying customer or a working public service. Check each programme’s current rules before applying.</p>
+          <p class="he-intro">Each helps at a different stage: finding new ideas, testing them, a place to try them, meeting buyers, or money to grow. Look for the ones that help you meet buyers: winning a prize does not by itself bring customers.</p>
           <div class="he-group">${PROG.map(progCard).join("\n")}</div></section>
-        <p class="sol-none" id="he-none" hidden>No investor matches. Try fewer filters.</p>`);
+        <section class="cty-s" id="deals"><h2>Every piece of funding we traced <span class="he-n">${N.deals}</span></h2>
+          <p class="he-intro">Newest first. Amounts are converted to US dollars; the original currency is shown where different. “Not published” means the amount was not made public.</p>
+          <div class="he-tablewrap" role="region" aria-label="Every piece of funding we traced" tabindex="0"><table class="he-table he-table--deals"><caption class="visually-hidden">Funding for heat and cooling</caption><thead><tr><th scope="col">Date</th><th scope="col">Who received it</th><th scope="col">From</th><th scope="col">Amount</th><th scope="col">Type</th><th scope="col">Status</th><th scope="col">Kind of protection</th><th scope="col">Where</th><th scope="col">Source</th></tr></thead>
+          <tbody>${DEALS.map(dealRow).join("")}</tbody></table></div></section>`);
 
-// ================= 4. WHAT COULD COME UP =================
-// "G3:gef / G4:nature-for-cooling — text": name and link the investors (G3) and programmes (G4) it refers to
-const fitLine = x => {
-  const m = /^((?:G\d:[\w.-]+\s*(?:\/\s*)?)+)\s*[—–-]\s*([\s\S]*)$/.exec(x); if (!m) return `<li>${esc(x)}</li>`;
-  const who = m[1].split("/").map(t => t.trim()).filter(Boolean).map(t => { const [g, id] = t.split(":"); const i = g === "G3" && INV.find(v => v.id === id), a = g === "G4" && PROG.find(v => v.id === id);
-    return i ? `<a href="/heat-economy/money/#inv-${esc(id)}">${esc(i.name)}</a>` : a ? `<a href="/heat-economy/money/#prog-${esc(id)}">${esc(a.name)}</a>` : ""; }).filter(Boolean);
-  return `<li>${who.length ? `<b>${who.join(" · ")}:</b> ` : ""}${esc(m[2])}</li>`;
-};
-const oppCard = o => {
-  const [vn, vk] = VIABLE[o.viable_market] || ["", ""];
-  return `<details class="sol he-card" id="${esc(o.id)}" data-viable="${vk}" data-q="${qtext(o.name, o.who_pays, o.who_benefits, o.revenue_model, (loopById[o.loop] || {}).name)}">
-      <summary><span class="sol-h">${esc(o.name)}</span><span class="sol-tags">${tag(o.status)}<span class="he-viable he-viable--${vk}">${esc(vn)}</span></span><span class="sol-sum"><b>Cuts:</b> ${esc(o.link_it_cuts)}</span></summary>
+// ================= 4. IDEAS =================
+// "G3:gef / G4:nature-for-cooling — text": link the funders (G3) and programmes (G4) it names
+const fitNames = x => { const m = /^((?:G\d:[\w.-]+\s*(?:\/\s*)?)+)/.exec(x); if (!m) return [];
+  return m[1].split("/").map(t => t.trim()).filter(Boolean).map(t => { const [g, id] = t.split(":"); const i = g === "G3" && INV.find(v => v.id === id), a = g === "G4" && PROG.find(v => v.id === id);
+    return i ? `<a href="/heat-economy/money/#inv-${esc(id)}">${esc(i.name)}</a>` : a ? `<a href="/heat-economy/money/#prog-${esc(id)}">${esc(a.name)}</a>` : ""; }).filter(Boolean); };
+const ideaCard = o => {
+  const [vn, vk] = VIABLE[o.viable_market] || ["", ""], pl = PL.ideas[o.id] || [o.name, "", o.who_pays];
+  const fits = [...new Set((o.fit_investors || []).flatMap(fitNames))];
+  const sims = (o.analogues || []).filter(a => a.source && live(a.source.url)).map(a => ext(a.source.url, a.source.label));
+  return `<details class="sol he-card" id="${esc(o.id)}" data-viable="${vk}" data-q="${qtext(pl[0], pl[1], pl[2], (loopById[o.loop] || {}).name)}">
+      <summary><span class="sol-h">${esc(pl[0])}</span><span class="sol-tags"><span class="he-viable he-viable--${vk}">${esc(vn)}</span></span><span class="sol-sum">${esc(pl[1])}</span></summary>
       <div class="sol-body">
-        ${f("Who pays, and why", `<p>${esc(o.who_pays)}</p>${o.why_they_pay ? `<p class="sol-note">${esc(o.why_they_pay)}</p>` : ""}`)}
-        ${f("Who benefits", p(o.who_benefits))}
-        ${f("How it would earn", p(o.revenue_model))}
-        ${f("Price it would need", p(o.price_needed))}
-        ${f("What has to be true", ul(o.must_be_true))}
-        ${f("Closest examples so far", (o.analogues || []).length ? `<ul class="sol-ul">${o.analogues.map(a => `<li>${esc(a.text)} ${src(a.source)}</li>`).join("")}</ul>` : "")}
-        ${f("Who would need to buy or co-own it", ul(o.anchor_demand))}
-        ${f("Money that could fit", (o.fit_investors || []).length ? `<ul class="sol-ul">${o.fit_investors.map(fitLine).join("")}</ul>` : "")}
-        ${f("Risks", p(o.risks))}
-        ${o.viable_market !== "yes" && o.if_not_viable ? `<div class="sol-f sol-kiu"><h4>If buyers cannot fund it</h4>${p(o.if_not_viable)}</div>` : ""}
+        ${f("Who could pay", p(pl[2]))}
+        ${f("Who it helps", p(first(o.who_benefits)))}
+        ${f("Who would need to be on board", ul((o.anchor_demand || []).map(tidy)))}
+        ${f("Similar work so far", sims.length ? `<p class="sol-src">${sims.join(" · ")}</p>` : "")}
+        ${f("Funders and programmes that could fit", fits.length ? `<p>${fits.join(" · ")}</p>` : "")}
+        <details class="he-more"><summary>More detail from the research: what needs to be in place, and risks</summary>
+          <p class="sol-note">In the researchers’ own words, which are more technical.</p>
+          ${f("What needs to be in place", ul((o.must_be_true || []).map(tidy)))}
+          ${f("Risks to watch", p(tidy(o.risks)))}
+          <p class="sol-note">Before starting, see the <a href="/heat-economy/conditions/">questions to ask</a>.</p></details>
+        <p class="sol-go">An idea to explore and test locally, not a proven model. <a href="/#loop-${esc(o.loop)}">See the cycle it helps break</a>.</p>
       </div>
     </details>`;
 };
-const opportunities = shell("opportunities", "The heat economy · What could come up", "Businesses and services that could <br>help break each cycle.",
-  `${N.opp} ideas across all 21 vicious cycles, each naming the link it would cut, who would pay and what has to be true. All are labelled design concept: they are proposals to test locally, not proven models or investment advice.`,
-  `<p class="he-note"><b>The pattern.</b> ${N.oppPublic} of ${N.opp} ideas need public or pooled money to protect the people they are meant for; ${N.oppYes} could be funded by buyers under the right conditions; and for the melting-ice cycle no direct local market exists. The recurring idea is to buy <b>maintained protection</b> with an accountable buyer and operator, rather than assume that selling a product finishes the job. A supplier can earn from a contract while the protection stays free for the people using it.</p>
-        <div class="sol-bar" role="search">${search("For example: trees, clinic, paid rest, school")}${sel("viable", "Who could fund it", ["Any", ["yes", "Buyers could fund it"], ["public", "Needs public or pooled money"], ["no", "No direct market"]])}<p class="sol-count" id="he-count" role="status" aria-live="polite"></p></div>
+const opportunities = shell("opportunities", "The heat economy · Ideas", "Ideas for businesses and services, <br>cycle by cycle.",
+  `${N.opp} ideas for new businesses and services, one or more for each of the 21 vicious cycles on the map. Each says who could pay, who it helps and what needs to be in place. They are ideas to explore and test, not proven models.`,
+  `<p class="he-note"><b>What they have in common.</b> The strongest ideas sell protection that is <b>looked after over time</b>, not just a product. ${N.oppYes} could be paid for by customers. ${N.oppPublic} need public or shared funding to reach the people who need them most, and many of those could still be run by local businesses, co-operatives or community groups on contract.</p>
+        <div class="sol-bar" role="search">${search("For example: trees, clinic, paid rest, school")}${sel("viable", "Who could pay", ["Any", ["yes", "Customers could pay"], ["public", "Needs public or shared funding"], ["no", "Public action, not a business"]])}<p class="sol-count" id="he-count" role="status" aria-live="polite"></p></div>
         ${D.LOOP_GROUPS.map(g => { const ls = D.LOOPS.filter(l => l.group === g.id && OPP.some(o => o.loop === l.id)); return ls.length ? `<h2 class="he-shelf he-shelf--big">${esc(g.name)}</h2>${ls.map(l => `<section class="sol-group he-group" id="loop-${l.id}" aria-labelledby="h-${l.id}"><h3 class="sol-gh" id="h-${l.id}"><a href="/#loop-${l.id}">${esc(l.name)}</a></h3><p class="sol-gp">${esc(l.summary)}</p>
-          ${OPP.filter(o => o.loop === l.id).map(oppCard).join("\n")}</section>`).join("\n")}` : ""; }).join("\n")}
-        <p class="sol-none" id="he-none" hidden>No idea matches. Try fewer filters.</p>`);
+          ${OPP.filter(o => o.loop === l.id).map(ideaCard).join("\n")}</section>`).join("\n")}` : ""; }).join("\n")}
+        <p class="sol-none" id="he-none" hidden>No idea matches. Try fewer filters.</p>
+        <p class="tool-alt">Have an idea, or already doing one of these? <a href="/join/">Tell us</a>.</p>`);
 
-// ================= 5. WHAT MAKES MARKETS WORK =================
-const srcs = a => (a || []).filter(s => live(s.url)).map(s => ext(s.url, s.label)).join(" · ");
-const polCard = x => `<article class="he-row"><h3>${esc(x.name)}</h3><p class="sol-tags">${tag(x.evidence_status)}${(x.countries || []).map(c => `<span class="sol-clim">${esc(cname(c))}</span>`).join("")}</p>
-      <p><b>What is published:</b> ${esc(x.published_fact)}</p><p><b>The demand it could create:</b> ${esc(x.demand_pathway_inference)}</p>
-      ${x.who_would_purchase ? `<p><b>Who would buy:</b> ${esc(x.who_would_purchase)}</p>` : ""}<p class="sol-note"><b>Check before relying on it:</b> ${esc(x.verification_limit)}</p><p class="sol-src">${srcs(x.sources)}</p></article>`;
-const finCard = x => `<article class="he-row"><h3>${esc(x.name)}</h3><p class="sol-tags">${tag(x.evidence_status)}</p>
-      <p>${esc(x.mechanism)}</p><p><b>Example:</b> ${esc(x.documented_example)}</p><p><b>Who pays:</b> ${esc(x.who_pays)} <b>Who benefits:</b> ${esc(x.who_benefits)}</p>
-      <p><b>Reaching people on low incomes:</b> ${esc(x.low_income_access_evidence)}</p>
-      ${(x.conditions_for_fair_use || []).length ? `<p><b>Conditions for fair use:</b></p>${ul(x.conditions_for_fair_use)}` : ""}<p class="sol-note"><b>Risks:</b> ${esc(Array.isArray(x.risks) ? x.risks.join(" ") : x.risks)}</p><p class="sol-src">${srcs(x.sources)}</p></article>`;
-const barCard = x => `<article class="he-row"><h3>${esc(x.name)}</h3><p class="sol-tags">${tag(x.evidence_status)}</p>
-      <p><b>What the evidence shows:</b> ${esc(x.documented_evidence)}</p><p><b>Effect on the market:</b> ${esc(x.market_effect_inference)}</p><p><b>A suggested response:</b> ${esc(x.suggested_response)}</p><p class="sol-src">${srcs(x.sources)}</p></article>`;
-const C = COND;
-const conditions = shell("conditions", "The heat economy · What makes markets work", "What turns a need for protection <br>into a fair market.",
-  `The rules that create demand, the ways of paying that reach people on low incomes, the barriers, a checklist of fairness questions to ask before buying or backing anything, and what each kind of institution could do.`,
-  `<p class="he-note"><b>Three distinctions run through this.</b> A strategy can coordinate action without creating any obligation to buy. A way of financing can lower the upfront cost while still excluding the people in greatest need. And money to install protection is not money to run it. None of this lessens the value of any mechanism; each shows what must also be secured.</p>
-        <nav class="sol-jump" aria-label="On this page"><a href="#fairness">Fairness questions</a> · <a href="#policies">Rules that create demand</a> · <a href="#finance">Ways of paying</a> · <a href="#barriers">Barriers</a> · <a href="#roles">What each institution could do</a></nav>
-        <section class="cty-s" id="fairness"><h2>${(C.fairness_checks || []).length} questions to ask before buying or backing a heat product or service</h2>
-          <p class="he-intro">For cities, employers, funders, investors and worker organisations. These are researcher-designed due-diligence questions, not an official certification or a score.</p>
-          <ol class="he-checks">${(C.fairness_checks || []).map(x => `<li><b>${esc(x.question)}</b><span>${esc(x.suggested_follow_up)}</span></li>`).join("")}</ol></section>
-        <section class="cty-s" id="policies"><h2>Rules that create demand</h2><p class="he-intro">Each is a verified Asian example. A published rule is not the same as compliance or coverage achieved.</p><div class="he-rows">${(C.policies || []).map(polCard).join("")}</div></section>
-        <section class="cty-s" id="finance"><h2>Ways of paying that can reach people on low incomes</h2><div class="he-rows">${(C.finance_structures || []).map(finCard).join("")}</div></section>
-        <section class="cty-s" id="barriers"><h2>Barriers</h2><div class="he-rows">${(C.barriers || []).map(barCard).join("")}</div></section>
-        <section class="cty-s" id="roles"><h2>What each kind of institution could do</h2><p class="he-intro">Suggestions, not commitments or statements of any institution’s current mandate.</p>
-          <div class="he-roles">${(C.actor_roles || []).map(x => `<article class="he-role"><h3>${esc(inst(x.institution_type) || x.name)}</h3>${ul(x.suggestions)}</article>`).join("")}</div></section>
-        ${(C.known || []).length ? `<section class="cty-s"><h2>Known, inferred, uncertain</h2><p><b>Known:</b> ${esc((C.known || []).join(" "))}</p><p><b>Inferred:</b> ${esc((C.inferred || []).join(" "))}</p><p><b>Uncertain:</b> ${esc((C.uncertain || []).join(" "))}</p></section>` : ""}`);
+// ================= 5. QUESTIONS TO ASK =================
+const C = COND, srcOf = (list, id) => ((list.find(x => x.id === id) || {}).sources || []).filter(s => live(s.url)).slice(0, 2).map(s => ext(s.url, s.label)).join(" · ");
+const QIDS = ["q-work", "q-fair", "q-upkeep", "q-risk"];
+const conditions = shell("conditions", "The heat economy · Questions to ask", "Questions to ask <br>before you buy, fund or start.",
+  `For city officers, employers, worker and community organisations, funders, investors and founders: twenty-four questions, the rules and ways of paying that have helped elsewhere, the common obstacles, and what each kind of organisation could do.`,
+  `<nav class="sol-jump" aria-label="On this page">${PL.questions.map(([h], i) => `<a href="#${QIDS[i]}">${esc(h)}</a>`).join(" · ")} · <a href="#rules">Rules that help</a> · <a href="#paying">Ways to pay</a> · <a href="#obstacles">Common obstacles</a> · <a href="#roles">Who could do what</a></nav>
+        ${PL.questions.map(([h, qs], i) => `<section class="cty-s" id="${QIDS[i]}"><h2>${esc(h)}</h2><ol class="he-checks" start="${PL.questions.slice(0, i).reduce((n, g) => n + g[1].length, 1)}">${qs.map(([, q, a]) => `<li><b>${esc(q)}</b><span>${esc(a)}</span></li>`).join("")}</ol></section>`).join("")}
+        <section class="cty-s" id="rules"><h2>Rules that have helped create demand</h2><p class="he-intro">Examples from Asia. A rule on paper helps most when it is checked and followed.</p>
+          <ul class="he-list">${(C.policies || []).map(x => `<li>${esc(PL.policies[x.id] || x.name)} <span class="sol-src">${srcOf(C.policies, x.id)}</span></li>`).join("")}</ul></section>
+        <section class="cty-s" id="paying"><h2>Ways customers can pay</h2><p class="he-intro">Each can lower the cost of getting started. Check the total cost, and what happens in a bad month, before choosing one.</p>
+          <ul class="he-list">${(C.finance_structures || []).map(x => { const pl = PL.finance[x.id] || [x.name, ""]; return `<li><b>${esc(pl[0])}.</b> ${esc(pl[1])} <span class="sol-src">${srcOf(C.finance_structures, x.id)}</span></li>`; }).join("")}</ul></section>
+        <section class="cty-s" id="obstacles"><h2>Common obstacles</h2>
+          <ul class="he-list">${(C.barriers || []).map(x => `<li>${esc(PL.barriers[x.id] || x.name)} <span class="sol-src">${srcOf(C.barriers, x.id)}</span></li>`).join("")}</ul></section>
+        <section class="cty-s" id="roles"><h2>What each kind of organisation could do</h2><p class="he-intro">Suggestions to discuss, not commitments.</p>
+          <div class="he-roles">${(C.actor_roles || []).map(x => `<article class="he-role"><h3>${esc(inst(x.institution_type))}</h3>${ul(PL.roles[x.institution_type] || x.suggestions)}</article>`).join("")}</div></section>
+        <p class="tool-alt">Print this page and take it to your next meeting, or <a href="/heat-economy/">go back to the start</a>.</p>`);
 
 // ---- write the pages ----
 const write = (slug, title, desc, body, script = "") => { const dir = path.join(ROOT, slug); fs.mkdirSync(dir, { recursive: true }); fs.writeFileSync(path.join(dir, "index.html"), page({ slug, title, desc, body, script })); };
-write("heat-economy", "The heat economy", "The businesses selling protection from extreme heat in Asia, who invests in them, what could come up, and what makes a fair market, tied to the cycles they can help break.", overview);
-write("heat-economy/businesses", "Businesses selling protection from heat", `${N.biz} businesses already selling protection from extreme heat, ${N.bizAsia} with offers in South or Southeast Asia, with their models, prices, trade-offs and evidence.`, businesses, FILTER("he-count", "businesses"));
-write("heat-economy/money", "Money and support for the heat economy", `${N.inv} investors and capital routes, ${N.deals} financing events and ${N.prog} accelerators, prizes and challenges in protection from extreme heat.`, money, FILTER("he-count", "investors and programmes"));
-write("heat-economy/opportunities", "Businesses that could help break heat’s cycles", `${N.opp} business and service ideas across 21 vicious cycles of extreme heat: who would pay, what has to be true, and where public money is needed.`, opportunities, FILTER("he-count", "ideas"));
-write("heat-economy/conditions", "What makes a fair heat-resilience market", "Rules that create demand, ways of paying, barriers, fairness questions and roles for every institution in protection from extreme heat.", conditions);
+write("heat-economy", "The heat economy", "Businesses, funding and ideas that protect people from heat in Asia, and what to ask before you buy, fund or start something.", overview);
+write("heat-economy/businesses", "Businesses offering protection from heat", `${N.biz} businesses offering protection from extreme heat, ${N.bizAsia} working in South or Southeast Asia, with what to ask before buying.`, businesses, FILTER("he-count", "businesses"));
+write("heat-economy/money", "Funding and support for protection from heat", `${N.inv} funders and investors, ${N.deals} pieces of funding and ${N.prog} accelerators, prizes and challenges in protection from extreme heat.`, money, FILTER("he-count", "funders and programmes"));
+write("heat-economy/opportunities", "Ideas for businesses and services that protect people from heat", `${N.opp} ideas for businesses and services, one or more for each vicious cycle of extreme heat: who could pay, who it helps, what needs to be in place.`, opportunities, FILTER("he-count", "ideas"));
+write("heat-economy/conditions", "Questions to ask before you buy, fund or start", "Twenty-four questions to ask about heat protection, with rules that help, ways to pay, common obstacles and what each organisation could do.", conditions);
 
-// ---- CSV downloads ----
+// ---- CSV downloads (the researchers' fuller notes, for specialists) ----
 const cell = v => { let s = Array.isArray(v) ? v.join("; ") : v == null ? "" : String(v); if (/^https?:\/\/\S+$/.test(s) && !live(s)) s = ""; // links that failed the check are left out, as on the pages
   return /[",\r\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s; };
 const csv = (file, head, rows) => { fs.mkdirSync(path.join(ROOT, "heat-economy", "data"), { recursive: true }); fs.writeFileSync(path.join(ROOT, "heat-economy", "data", file + ".csv"), "﻿" + [head, ...rows].map(r => r.map(cell).join(",")).join("\r\n") + "\r\n"); };
 const loopNames = ids => (ids || []).map(id => (loopById[id] || {}).name).filter(Boolean);
-csv("businesses", ["Business", "Part of the economy", "Kind", "Side", "Headquarters", "Countries", "Offers in South or Southeast Asia", "Product", "Business model", "Customer", "User", "Price (local)", "Currency", "Dry or humid heat", "Reaches the poorest", "Cycles it can act on", "How it could cut a cycle", "Risks", "Website", "Source", "Checked"],
-  BIZ.map(b => [b.name, segName(b.segment), KIND[b.kind] || b.kind, b.side, cname(b.hq_country), (b.countries || []).map(cname), inAsia(b) ? "yes" : "no", b.product, b.business_model, b.customer, b.user, (b.price || {}).local, (b.price || {}).currency, b.suits, b.reaches_poorest, loopNames(b.loops), b.link_it_cuts, b.risks, b.url, ((b.evidence || [])[0] || {}).source ? b.evidence[0].source.url : "", (b.reach || {}).date || ""]));
-csv("investors", ["Investor or capital route", "Kind", "Side", "Where", "Link to heat", "Instruments", "Stages", "Cheque size", "Adaptation window", "Parts of the economy", "Cycles", "Website", "Source", "Checked"],
-  INV.map(i => [i.name, INVTYPE[i.type] || i.type, i.side, i.geography, (i.heat_thesis || {}).text, i.instruments, i.stages, (i.ticket_size || {}).text, i.adaptation_window, (i.segments || []).map(segName), loopNames(i.loops), i.url, ((i.heat_thesis || {}).source || {}).url, i.last_checked]));
-csv("deals", ["Date", "Recipient", "From", "Amount (original)", "Currency", "Amount (US$)", "Exchange rate note", "Instrument", "Stage", "Status", "Heat-specific use", "Part of the economy", "Countries", "Cycles", "Source"],
-  DEALS.map(d => [d.date, d.investee, d.investors, (d.amount || {}).local, (d.amount || {}).currency, (d.amount || {}).usd, (d.amount || {}).fx, d.instrument, d.stage, d.status, d.heat_specific_use, segName(d.segment), (d.countries || []).map(cname), loopNames(d.loops), (d.source || {}).url]));
-csv("programmes", ["Programme", "Run by", "Kind", "Where", "Focus", "Offers", "Cohort", "Heat ventures", "Connects to buyers", "Evaluation", "Website", "Checked"],
+csv("businesses", ["Business", "Kind of protection", "Type of business", "Headquarters", "Countries", "Works in South or Southeast Asia", "What it offers", "Business model", "Who buys it", "Who uses it", "Price (local)", "Currency", "Climate", "Reach to lowest-income households (researchers' note)", "Cycles it can help break", "How it could help (researchers' note)", "Risks and limits (researchers' note)", "Website", "Source", "Checked"],
+  BIZ.map(b => [b.name, segName(b.segment), KIND[b.kind] || b.kind, cname(b.hq_country), (b.countries || []).map(cname), inAsia(b) ? "yes" : "no", b.product, b.business_model, b.customer, b.user, (b.price || {}).local, (b.price || {}).currency, SUITS[b.suits] || "", b.reaches_poorest_why, loopNames(b.loops), b.link_it_cuts, b.risks, b.url, ((b.evidence || [])[0] || {}).source ? b.evidence[0].source.url : "", (b.reach || {}).date || ""]));
+csv("investors", ["Funder or investor", "Kind", "Heat-related funding (researchers' note)", "Usually provides", "Stages", "Typical amount", "Kinds of protection", "Cycles", "Website", "Source", "Checked"],
+  INV.map(i => [i.name, INVTYPE[i.type] || i.type, (i.heat_thesis || {}).text, (i.instruments || []).map(x => INSTR[x] || x), i.stages, (i.ticket_size || {}).text, (i.segments || []).map(segName), loopNames(i.loops), i.url, ((i.heat_thesis || {}).source || {}).url, i.last_checked]));
+csv("deals", ["Date", "Who received it", "From", "Amount (original)", "Currency", "Amount (US$)", "Exchange rate note", "Type", "Stage", "Status", "Heat-related use (researchers' note)", "Kind of protection", "Countries", "Cycles", "Source"],
+  DEALS.map(d => [d.date, recip(d), d.investors, (d.amount || {}).local, (d.amount || {}).currency, (d.amount || {}).usd, (d.amount || {}).fx, INSTR[d.instrument] || d.instrument, d.stage, DSTATUS[d.status] || d.status, d.heat_specific_use, segName(d.segment), (d.countries || []).map(cname), loopNames(d.loops), (d.source || {}).url]));
+csv("programmes", ["Programme", "Run by", "Type", "Where", "Focus", "What it offers", "Cohort", "Heat-related ventures", "Helps meet buyers", "Evaluation (researchers' note)", "Website", "Checked"],
   PROG.map(a => [a.name, a.run_by, PROGTYPE[a.type] || a.type, a.geography, a.focus, a.offers, a.cohort_size, (a.heat_ventures || []).map(h => h.name), a.connects_to_buyers, (a.evaluation || {}).text, a.url, a.last_checked]));
-csv("opportunities", ["Idea", "Cycle", "Link it cuts", "Evidence label", "Who could fund it", "Who pays", "Why they pay", "Who benefits", "Revenue model", "Price needed", "What has to be true", "Who would need to buy or co-own it", "Risks", "If buyers cannot fund it"],
-  OPP.map(o => [o.name, (loopById[o.loop] || {}).name || o.loop, o.link_it_cuts, o.status, (VIABLE[o.viable_market] || [""])[0], o.who_pays, o.why_they_pay, o.who_benefits, o.revenue_model, o.price_needed, o.must_be_true, o.anchor_demand, o.risks, o.if_not_viable]));
-csv("segments", ["Part of the economy", "Type", "Definition", "Maturity", "Who pays", "Who benefits", "Business models", "Reaches the poorest", "How", "Cycles", "Businesses in this review"],
-  SEG.map(s => [s.name, TYPE[s.type] || s.type, s.definition, s.maturity, s.who_pays, s.who_benefits, s.business_models, s.reaches_poorest, s.reaches_poorest_how, loopNames(s.loops), bizBySeg(s.id)]));
+csv("opportunities", ["Idea", "The idea in brief", "Cycle", "Link it cuts", "Who could pay", "Funding", "Who it helps", "How it would earn", "Price it would need (researchers' note)", "What needs to be in place", "Who would need to be on board", "Watch out for", "If customers cannot pay (researchers' note)"],
+  OPP.map(o => { const pl = PL.ideas[o.id] || [o.name, "", o.who_pays]; return [pl[0], pl[1], (loopById[o.loop] || {}).name || o.loop, o.link_it_cuts, pl[2], (VIABLE[o.viable_market] || [""])[0], o.who_benefits, o.revenue_model, o.price_needed, o.must_be_true, o.anchor_demand, o.risks, o.if_not_viable]; }));
+csv("segments", ["Kind of protection", "What it is", "Usually paid for by", "Things to check", "Cycles it can help break", "Businesses found", "Research definition", "Research note on reaching lowest-income households"],
+  SEG.map(s => { const pl = plainSeg(s.id); return [pl.name || s.name, pl.what, pl.pays, pl.check, loopNames(s.loops), bizBySeg(s.id), s.definition, s.reaches_poorest_how]; }));
 
-// the cycles' "Business ideas" links on the map and /loops/ read this
+// every plain-language entry must match the research ids, so nothing silently falls back to research wording
+const miss = [...SEG.filter(s => !PL.segments[s.id]).map(s => "segment " + s.id), ...OPP.filter(o => !PL.ideas[o.id]).map(o => "idea " + o.id),
+  ...(C.policies || []).filter(x => !PL.policies[x.id]).map(x => "rule " + x.id), ...(C.finance_structures || []).filter(x => !PL.finance[x.id]).map(x => "way to pay " + x.id),
+  ...(C.barriers || []).filter(x => !PL.barriers[x.id]).map(x => "obstacle " + x.id), ...(C.actor_roles || []).filter(x => !PL.roles[x.institution_type]).map(x => "role " + x.institution_type),
+  ...(C.fairness_checks || []).filter(x => !PL.questions.some(g => g[1].some(q => q[0] === x.id))).map(x => "question " + x.id)];
+const ids = DEALS.map(d => d.investee).filter(x => /^[a-z0-9]+(-[a-z0-9]+)*$/.test(x || "") && !bizNameById[x] && !PL.recipients[x]);
+miss.push(...ids.map(x => "funding recipient " + x));
+if (miss.length) throw new Error("tools/economy-plain.js has no plain wording for: " + miss.join(", "));
 module.exports = { loopsWithIdeas: [...new Set(OPP.map(o => o.loop))] };
-console.log(`heat economy: ${N.biz} businesses, ${N.inv} investors, ${N.deals} financing events, ${N.prog} programmes, ${N.opp} ideas, ${SEG.length} segments`);
+console.log(`heat economy: ${N.biz} businesses, ${N.inv} funders, ${N.deals} pieces of funding, ${N.prog} programmes, ${N.opp} ideas, ${SEG.length} kinds of protection`);
