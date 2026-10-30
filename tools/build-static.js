@@ -459,6 +459,7 @@ require("./build-print")().then(list => {
   fs.appendFileSync(path.join(ROOT, "llms.txt"), `\n## Printable one-pagers\n\n- [All one-pagers](${SITE}/print/): single A4 briefs for officials, planners and journalists\n${list.map(x => `- [${x.title}](${SITE}/print/${x.slug}/)`).join("\n")}\n`);
   console.log("Wrote", list.length, "printable one-pagers");
   // last of all, once every page exists: one navigation on every page
+  require("./build-ticker.js");
   require("./build-nav.js")();
 });
 console.log("Wrote", PAGES.length + CITY_PAGES.length, "pages, llms.txt, llms-full.txt, sitemap.xml and robots.txt");

@@ -17,10 +17,10 @@ const live = u => !!u && /^https?:/.test(u) && STATUS[u] !== "FAIL" && !/^https?
 const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const ext = (u, l) => live(u) ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(l || u)}<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a>` : "";
 const loopById = Object.fromEntries(D.LOOPS.map(l => [l.id, l]));
-const loopLinks = ids => (ids || []).filter(id => loopById[id]).map(id => `<a href="/#loop-${id}">${esc(loopById[id].name)}</a>`).join(" · ");
+const loopLinks = ids => `<span class="he-breaks">${(ids || []).filter(id => loopById[id]).map(id => `<a href="/#loop-${id}">${esc(loopById[id].name)}</a>`).join(" · ")}</span>`;
 const inst = id => (D.INSTITUTIONS.find(i => i.id === id) || {}).name || id;
 const has = v => v != null && v !== "" && !(Array.isArray(v) && !v.length);
-const f = (h, body) => has(body) ? `<div class="sol-f"><h4>${esc(h)}</h4>${body}</div>` : "";
+const f = (h, body) => has(body) ? `<div class="sol-f${h === "Can help break" ? " sol-f--break" : ""}"><h4>${esc(h)}</h4>${body}</div>` : "";
 const p = t => has(t) ? `<p>${esc(t)}</p>` : "";
 const ul = a => (a || []).filter(has).length ? `<ul class="sol-ul">${a.filter(has).map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : "";
 const COUNTRY = { AE: "United Arab Emirates", AL: "Albania", AR: "Argentina", AU: "Australia", BD: "Bangladesh", CH: "Switzerland", CN: "China", CR: "Costa Rica", DE: "Germany", DJ: "Djibouti", FR: "France", GB: "United Kingdom", GH: "Ghana", HK: "Hong Kong", ID: "Indonesia", IN: "India", JP: "Japan", KE: "Kenya", KH: "Cambodia", LK: "Sri Lanka", LU: "Luxembourg", MA: "Morocco", MG: "Madagascar", MK: "North Macedonia", MW: "Malawi", MX: "Mexico", MY: "Malaysia", NA: "Namibia", NG: "Nigeria", NP: "Nepal", PA: "Panama", PH: "Philippines", PK: "Pakistan", SC: "Seychelles", SE: "Sweden", SG: "Singapore", SO: "Somalia", ST: "São Tomé and Príncipe", SV: "El Salvador", TH: "Thailand", TN: "Tunisia", TZ: "Tanzania", UG: "Uganda", US: "United States", VN: "Vietnam", ZA: "South Africa", ZM: "Zambia", ZW: "Zimbabwe" };
@@ -53,11 +53,10 @@ const SUITS = { both: "Works in dry and humid heat", "hot-dry": "Best in dry hea
 // ---- page template (as the solutions library) ----
 const ICON = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2316202B'/%3E%3Cpath d='M5 14 Q16 4 27 14' fill='none' stroke='%23F26430' stroke-width='4.5' stroke-linecap='round'/%3E%3Cpath d='M9 13 V27 M23 13 V27' stroke='%23F6E7D7' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E";
 const V = (fs.readFileSync(path.join(ROOT, "index.html"), "utf8").match(/styles\.css\?v=(\d+)/) || [, "1"])[1];
-const FOOT_CLOSE = (fs.readFileSync(path.join(ROOT, "practical", "index.html"), "utf8").match(/  <aside class="foot-close"[\s\S]*?<\/aside>\n/) || [""])[0];
 const NAV = `<nav aria-label="Elsewhere on the site"><a href="/#explore">The map</a><a href="/practical/">Practical actions</a><a href="/solutions/">Solutions</a><a href="/plan/">Plan a response</a><a href="/news/">Heat in the news</a><a href="/join/">Help build Common Shade</a></nav>`;
 const PAGES = [["", "Start here"], ["businesses", "Businesses"], ["money", "Funding and support"], ["opportunities", "Ideas"], ["conditions", "Questions to ask"]];
 const subnav = cur => `<nav class="he-sub" aria-label="The heat economy">${PAGES.map(([s, n]) => `<a href="/heat-economy/${s ? s + "/" : ""}"${s === cur ? ' aria-current="page"' : ""}>${esc(n)}</a>`).join("")}</nav>`;
-const ABOUT = `<p class="sol-caveat"><b>About this section.</b> We gathered this from public websites and reports in October 2026. Being listed does not mean we recommend, partner with or rank anyone, and none of it is financial advice. Companies describe their own products; we have not tested them, so please check details with them directly. If something is missing or out of date, <a href="/join/">tell us</a>.</p>`;
+const ABOUT = `<p class="sol-caveat he-about"><b>About this section.</b> We gathered this from public websites and reports in October 2026. Being listed does not mean we recommend, partner with or rank anyone, and none of it is financial advice. Companies describe their own products; we have not tested them, so please check details with them directly. If something is missing or out of date, <a href="/join/">tell us</a>.</p>`;
 const page = ({ slug, title, desc, body, script = "" }) => `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -83,7 +82,7 @@ const page = ({ slug, title, desc, body, script = "" }) => `<!DOCTYPE html>
     ${NAV}
   </div></header>
   <main id="main" tabindex="-1">${body}</main>
-${FOOT_CLOSE}  <footer class="wkp-foot"><div class="container">
+  <footer class="wkp-foot"><div class="container">
     <p>Gathered from public sources in October 2026. Being listed does not imply endorsement, partnership or ranking, and nothing here is financial advice. Every source links to its publisher; links that no longer work are left out. Text: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0<span class="visually-hidden"> (opens in a new tab)</span></a>. <a href="/sources/">All sources</a> · <a href="/heat-economy/#data">Download the data</a></p>
   </div></footer>
 ${script}</body>
@@ -93,7 +92,7 @@ const shell = (cur, eyebrow, h1, lede, inner) => `
     <section class="sol-page he">
       <div class="container">
         ${subnav(cur)}
-        <p class="eyebrow eyebrow--break">${esc(eyebrow)}</p>
+        <p class="eyebrow">${esc(eyebrow)}</p>
         <h1 class="h2 tool-h1">${h1}</h1>
         <p class="tool-lede">${lede}</p>
         ${ABOUT}
@@ -147,7 +146,7 @@ const segCard = s => { const pl = plainSeg(s.id); const n = bizBySeg(s.id);
       <p>${esc(pl.what || s.definition)}</p>
       <p class="he-k"><b>Usually paid for by:</b> ${esc(pl.pays || s.who_pays)}</p>
       ${(pl.check || []).length ? `<p class="he-k"><b>Three things to check</b></p><ul class="he-checklist">${pl.check.map(c => `<li>${esc(c)}</li>`).join("")}</ul>` : ""}
-      ${(s.loops || []).length ? `<p class="he-k he-small"><b>Can help break:</b> ${loopLinks(s.loops)}</p>` : ""}
+      ${(s.loops || []).length ? `<p class="he-k he-small he-breakline"><b>Can help break:</b> ${loopLinks(s.loops)}</p>` : ""}
       <p class="he-go">${n ? go(`/heat-economy/businesses/?segment=${esc(s.id)}`, `${n} ${n === 1 ? "business" : "businesses"} offering this`) : "No business found yet. Know one? <a href=\"/join/\">Tell us</a>."}</p>
     </article>`; };
 const flow = `<figure class="he-flow" aria-labelledby="he-flow-cap">

@@ -14,7 +14,7 @@
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2316202B'/%3E%3Cpath d='M5 14 Q16 4 27 14' fill='none' stroke='%23F26430' stroke-width='4.5' stroke-linecap='round'/%3E%3Cpath d='M9 13 V27 M23 13 V27' stroke='%23F6E7D7' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
-  <link rel="stylesheet" href="/styles.css?v=138">
+  <link rel="stylesheet" href="/styles.css?v=139">
 <!--csn--><style id="csn-css">html:has(.csn){scroll-padding-top:104px}
 .csn,.csf{--csn-ink:#16202B;--csn-canvas:#FAF7F2;--csn-line:#E6DFD4;--csn-orange:#F26430;--csn-grey:#39424D;font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;color:var(--csn-ink);line-height:1.4}
 .csn{position:sticky;top:0;z-index:50;max-width:none!important;margin:0!important;padding:0!important;display:block!important;background:rgba(250,247,242,.97);border-bottom:1px solid var(--csn-line);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
@@ -62,11 +62,48 @@
 .csf__text{margin:24px 0 0;font-size:.82rem;color:#C9C2B6}
 @media (max-width:1100px){.csn__primary a:nth-child(n+5){display:none}}
 @media (max-width:760px){.csn__primary{display:none}.csn__in{min-height:54px}.csn__menu>summary{padding:6px 12px}.csn__panel{grid-template-columns:1fr;max-height:calc(100vh - 60px)}}
-@media print{.csn,.csf,.csn-skip{display:none!important}}</style><!--/csn-->
+@media print{.csn,.csf,.csn-skip,.ticker{display:none!important}}
+.ticker{--canvas:#FAF7F2;--orange:#F26430;--gutter:clamp(16px,3.5vw,40px);font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;line-height:1.4}/* live temperature ticker, above the header */
+.ticker { display: flex; align-items: center; gap: 10px; min-height: 34px; padding: 0 10px 0 var(--gutter); background: #0E161F; color: var(--canvas); font-size: .8rem; overflow: hidden; }
+.ticker[hidden] { display: none; }
+.ticker__k { flex: none; display: inline-flex; align-items: center; gap: 6px; color: var(--canvas); font-weight: 800; letter-spacing: .14em; text-transform: uppercase; font-size: .68rem; text-decoration: none; }
+.ticker__dot { width: 8px; height: 8px; border-radius: 50%; background: #E0442B; box-shadow: 0 0 0 3px rgba(224,68,43,.25); }
+.ticker__view { flex: 1; min-width: 0; overflow: hidden; -webkit-mask-image: linear-gradient(90deg, transparent, #000 24px, #000 calc(100% - 24px), transparent); mask-image: linear-gradient(90deg, transparent, #000 24px, #000 calc(100% - 24px), transparent); }
+.ticker__track { display: flex; width: max-content; animation: ticker var(--ticker-dur, 60s) linear infinite; }
+/* pauses with its Pause button or keyboard focus. Not on hover: the band is where a desktop pointer rests after using the
+   browser's tabs or address bar, which kept it still; and on touch screens a tap leaves :hover stuck */
+.ticker.is-paused .ticker__track, .ticker:has(:focus-visible) .ticker__track { animation-play-state: paused; }
+.ticker__set { display: flex; list-style: none; margin: 0; padding: 0 28px 0 0; gap: 28px; }
+.ticker__set li { flex: none; }
+.ticker__set a { display: inline-flex; align-items: center; gap: 6px; min-height: 34px; color: var(--canvas); text-decoration: none; white-space: nowrap; }
+.ticker__set a:hover b, .ticker__set a:focus-visible b { text-decoration: underline; text-decoration-color: var(--orange); text-underline-offset: 3px; }
+.ticker__set a:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; }
+.ticker__pin { width: 9px; height: 9px; border-radius: 50%; flex: none; box-shadow: 0 0 0 1.5px rgba(250,247,242,.55); }
+.ticker__f { color: #B9C2CC; }
+.ticker__hot { margin-left: 6px; padding: 1px 7px; border-radius: 999px; background: #A93A1C; color: #fff; font-size: .66rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.ticker__more a { color: #F7B79C; font-weight: 700; }
+.ticker__pause { flex: none; min-height: 26px; padding: 2px 10px; border-radius: 999px; border: 1px solid rgba(250,247,242,.35); background: none; color: var(--canvas); font: inherit; font-size: .7rem; font-weight: 700; cursor: pointer; }
+.ticker__pause:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; }
+@keyframes ticker { to { transform: translateX(-50%); } }
+@media (max-width: 640px) { .ticker__f { display: none; } .ticker__k { letter-spacing: .1em; } }
+/* with reduced motion the line still moves, at half speed (script.js), and its Pause button stops it. The site-wide
+   reduced-motion rule switches every animation off with !important, so the ticker needs its own, more specific exception */
+@media (prefers-reduced-motion: reduce) {
+  .ticker .ticker__track { animation: ticker var(--ticker-dur, 60s) linear infinite !important; }
+  .ticker.is-paused .ticker__track, .ticker:has(:focus-visible) .ticker__track { animation-play-state: paused !important; }
+}
+.ticker__lv { margin-left: 6px; padding: 1px 7px; border-radius: 999px; font-size: .66rem; font-weight: 800; letter-spacing: .04em; background: #F2C14E; color: #16202B; }
+.ticker__lv--1 { background: #F26430; color: #16202B; }
+.ticker__lv--2 { background: #D7263D; color: #fff; }</style><!--/csn-->
 </head>
 <body data-page="heat-economy-businesses">
   <a class="skip-link" href="#main">Skip to the content</a>
-    <!--csn--><header class="csn" id="top">
+  <!--csn--><div class="ticker" id="cs-ticker" role="region" aria-label="Live temperatures in Asian cities" hidden>
+  <a class="ticker__k" href="/#heat-now"><span class="ticker__dot" aria-hidden="true"></span>Live</a>
+  <div class="ticker__view"><div class="ticker__track" id="cs-ticker-track"></div></div>
+  <button type="button" class="ticker__pause" id="cs-ticker-pause" aria-pressed="false">Pause</button>
+</div>
+<header class="csn" id="top">
   <div class="csn__in">
     <a class="csn__home" href="/"><span class="csn__mark" aria-hidden="true"></span>COMMON SHADE<span class="csn-vh">: home, the map of extreme heat</span></a>
     <nav class="csn__primary" aria-label="Main sections"><a href="/#explore">The map</a><a href="/#loops">Breaking the cycles</a><a href="/practical/">Practical actions</a><a href="/solutions/">Solutions</a><a href="/heat-economy/" aria-current="page">Heat economy</a><a href="/news/">News</a><a href="/lancet-countdown-2026/">Evidence</a></nav>
@@ -83,14 +120,14 @@
   </div>
   <nav class="csn__crumbs" aria-label="You are here"><ol><li><a href="/">Home</a></li><li><a href="/heat-economy/">The heat economy</a></li><li aria-current="page">Businesses</li></ol></nav>
 </header><!--/csn-->
-<main id="main" tabindex="-1">
+  <main id="main" tabindex="-1">
     <section class="sol-page he">
       <div class="container">
         <nav class="he-sub" aria-label="The heat economy"><a href="/heat-economy/">Start here</a><a href="/heat-economy/businesses/" aria-current="page">Businesses</a><a href="/heat-economy/money/">Funding and support</a><a href="/heat-economy/opportunities/">Ideas</a><a href="/heat-economy/conditions/">Questions to ask</a></nav>
-        <p class="eyebrow eyebrow--break">The heat economy · Businesses</p>
+        <p class="eyebrow">The heat economy · Businesses</p>
         <h1 class="h2 tool-h1">91 businesses offering <br>protection from heat.</h1>
         <p class="tool-lede">Start-ups, small businesses, social enterprises and established companies, from cool roofs and efficient fans to cold storage, heat sensors and insurance. 57 of them work in South or Southeast Asia.</p>
-        <p class="sol-caveat"><b>About this section.</b> We gathered this from public websites and reports in October 2026. Being listed does not mean we recommend, partner with or rank anyone, and none of it is financial advice. Companies describe their own products; we have not tested them, so please check details with them directly. If something is missing or out of date, <a href="/join/">tell us</a>.</p>
+        <p class="sol-caveat he-about"><b>About this section.</b> We gathered this from public websites and reports in October 2026. Being listed does not mean we recommend, partner with or rank anyone, and none of it is financial advice. Companies describe their own products; we have not tested them, so please check details with them directly. If something is missing or out of date, <a href="/join/">tell us</a>.</p>
         <div class="sol-bar" role="search">
           <label class="sol-search"><span>Search</span><input type="search" data-filter="q" autocomplete="off" placeholder="For example: fan, cold room, roof, insurance, India"></label>
           <label><span>Kind of protection</span><select data-filter="segment"><option value="">Any kind</option><option value="cool-roofs">Cool roofs (7)</option><option value="passive-buildings">Cooler building design (3)</option><option value="efficient-fans">Efficient fans (9)</option><option value="evaporative-cooling">Evaporative coolers (6)</option><option value="efficient-ac">Efficient air conditioning (16)</option><option value="district-cooling">Shared cooling networks (5)</option><option value="cold-chains">Cold storage for food and medicine (21)</option><option value="personal-cooling">Cooling for workers (3)</option><option value="heat-sensing">Heat sensors (4)</option><option value="heat-data-warnings">Heat warnings and data (4)</option><option value="heat-ready-healthcare">Heat-ready health care (3)</option><option value="cooling-power-flexibility">Power for cooling (6)</option><option value="heat-insurance">Heat insurance (4)</option></select></label>
@@ -109,7 +146,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>People occupying treated buildings</p></div>
         <div class="sol-f"><h4>Where</h4><p>Singapore</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.dulux.com.sg/en/products/dulux-weathershield-roof" target="_blank" rel="noopener">Dulux roof — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://www.dulux.com.sg/en/about-us" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cool-roofs">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -122,7 +159,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Building occupants</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.asianpaints.com/waterproofing-products/smartcare-damp-proof-ultra.html" target="_blank" rel="noopener">Asian Paints — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cool-roofs">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -135,7 +172,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Residents and other building users</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.bergerpaints.com/products/waterproofing/homeshield-roof-kool-and-seal" target="_blank" rel="noopener">Berger cool roof — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cool-roofs">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -148,7 +185,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Building users and asset operators</p></div>
         <div class="sol-f"><h4>Where</h4><p>Hong Kong, China</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.i2cool.com/" target="_blank" rel="noopener">i2Cool — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cool-roofs">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -161,7 +198,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Occupants beneath treated roofs</p></div>
         <div class="sol-f"><h4>Where</h4><p>India, Japan</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://nipponpaint.co.in/wp-content/uploads/2024/10/nippon-paint-walltron-cool-poof-TDS_compressed.pdf" target="_blank" rel="noopener">Nippon Walltron Cool Roof TDS — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://nipponpaint.co.in/about-us/" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cool-roofs">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -174,7 +211,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Building occupants</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.drfixit.co.in/search/results?q=Roofseal" target="_blank" rel="noopener">DrFixit heat-reflective coatings — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cool-roofs">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -187,7 +224,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>People or equipment protected by a treated enclosure</p></div>
         <div class="sol-f"><h4>Where</h4><p>Japan</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://spacecool.jp/en/" target="_blank" rel="noopener">SPACECOOL — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cool-roofs">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -203,7 +240,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Building occupants</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.greenjams.org/" target="_blank" rel="noopener">GreenJams — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://www.linkedin.com/company/thegreenjams/" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-passive-buildings">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -216,7 +253,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Residents and other building occupants</p></div>
         <div class="sol-f"><h4>Where</h4><p>Singapore</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://gush.earth/pages/faq" target="_blank" rel="noopener">Gush films — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-passive-buildings">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -229,7 +266,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Building occupants</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.saint-gobain.co.in/" target="_blank" rel="noopener">Saint-Gobain — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://www.saint-gobain.co.in/about-us" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-passive-buildings">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -245,7 +282,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Residents, home-based workers and other occupants</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a> · <a href="/#loop-poverty">The poverty–heat trap</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a> · <a href="/#loop-poverty">The poverty–heat trap</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://atomberg.com/" target="_blank" rel="noopener">Atomberg — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://www.linkedin.com/company/atomberg-technologies-private-limited/" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-efficient-fans">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -258,7 +295,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Residents, workers and other occupants</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a> · <a href="/#loop-poverty">The poverty–heat trap</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a> · <a href="/#loop-poverty">The poverty–heat trap</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.bajajelectricals.com/" target="_blank" rel="noopener">Bajaj Electricals — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://www.linkedin.com/company/bajajelectricals/" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-efficient-fans">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -271,7 +308,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Residents, workers and other occupants</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a> · <a href="/#loop-poverty">The poverty–heat trap</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a> · <a href="/#loop-poverty">The poverty–heat trap</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.crompton.co.in/" target="_blank" rel="noopener">Crompton — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-efficient-fans">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -284,7 +321,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Residents, workers and other occupants</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a> · <a href="/#loop-poverty">The poverty–heat trap</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a> · <a href="/#loop-poverty">The poverty–heat trap</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://havells.com/" target="_blank" rel="noopener">Havells — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://in.linkedin.com/company/havells-india-ltd" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-efficient-fans">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -297,7 +334,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>People in rooms or workspaces served by fans</p></div>
         <div class="sol-f"><h4>Where</h4><p>Malaysia</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a> · <a href="/#loop-poverty">The poverty–heat trap</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a> · <a href="/#loop-poverty">The poverty–heat trap</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://khind.com.my/" target="_blank" rel="noopener">Khind Malaysia — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-efficient-fans">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -310,7 +347,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Residents, workers and other occupants</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a> · <a href="/#loop-poverty">The poverty–heat trap</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a> · <a href="/#loop-poverty">The poverty–heat trap</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://orientelectric.com/" target="_blank" rel="noopener">Orient Electric — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://www.linkedin.com/company/orient-electric" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-efficient-fans">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -323,7 +360,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Residents, workers and other occupants</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a> · <a href="/#loop-poverty">The poverty–heat trap</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a> · <a href="/#loop-poverty">The poverty–heat trap</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.usha.com/" target="_blank" rel="noopener">Usha International — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://www.usha.com/about-us" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-efficient-fans">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -336,7 +373,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Residents, workers and other occupants</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a> · <a href="/#loop-poverty">The poverty–heat trap</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a> · <a href="/#loop-poverty">The poverty–heat trap</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.vguard.in/" target="_blank" rel="noopener">V-Guard — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-efficient-fans">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -349,7 +386,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Residents, pupils and workplace users</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a> · <a href="/#loop-poverty">The poverty–heat trap</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a> · <a href="/#loop-poverty">The poverty–heat trap</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://superfan.in/" target="_blank" rel="noopener">Superfan — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-efficient-fans">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -365,7 +402,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Workers, pupils and other building users</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Best in dry heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energywater">The energy–water loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energywater">The energy–water loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.ambiator.com/" target="_blank" rel="noopener">Ambiator — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-evaporative-cooling">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -378,7 +415,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>People using the treated space</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Best in dry heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energywater">The energy–water loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energywater">The energy–water loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.coolant.co/" target="_blank" rel="noopener">CoolAnt — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://www.linkedin.com/company/coolant-co/" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-evaporative-cooling">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -391,7 +428,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>People or processes in controlled environments</p></div>
         <div class="sol-f"><h4>Where</h4><p>Sweden</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Best in dry heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energywater">The energy–water loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energywater">The energy–water loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.munters.com/en-gb/" target="_blank" rel="noopener">Munters — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://www.munters.com/en-gb/about-us/" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-evaporative-cooling">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -404,7 +441,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Workers and building occupants</p></div>
         
         <div class="sol-f"><h4>Climate</h4><p>Best in dry heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energywater">The energy–water loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energywater">The energy–water loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.oxycom.com/" target="_blank" rel="noopener">Oxycom — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-evaporative-cooling">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -417,7 +454,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Building occupants and workers</p></div>
         <div class="sol-f"><h4>Where</h4><p>Australia</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Best in dry heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energywater">The energy–water loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energywater">The energy–water loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.seeleyinternational.com/" target="_blank" rel="noopener">Seeley International — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://www.seeleyinternational.com/corporate/about/" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-evaporative-cooling">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -430,7 +467,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>People in the served room</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Best in dry heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energywater">The energy–water loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-energywater">The energy–water loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://shop.symphonylimited.com/" target="_blank" rel="noopener">Symphony — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-evaporative-cooling">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -446,7 +483,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Building occupants and operators</p></div>
         <div class="sol-f"><h4>Where</h4><p>United States</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://bluefrontierac.com/" target="_blank" rel="noopener">BlueFrontier product — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://www.linkedin.com/company/blue-frontier-ac/" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-efficient-ac">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -459,7 +496,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>People using cooled spaces</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.bluestarindia.com/" target="_blank" rel="noopener">Blue Star — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://www.bluestarindia.com/about-us" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-efficient-ac">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -472,7 +509,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>People using cooled spaces</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.carrier.com/commercial/en/in/" target="_blank" rel="noopener">Carrier — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-efficient-ac">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -485,7 +522,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>People using cooled spaces</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://daikinindia.com/" target="_blank" rel="noopener">Daikin India — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-efficient-ac">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -498,7 +535,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>People using cooled spaces</p></div>
         <div class="sol-f"><h4>Where</h4><p>Pakistan</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.dawlance.com.pk/air-conditioners" target="_blank" rel="noopener">Dawlance Pakistan — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-efficient-ac">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -511,7 +548,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>People using cooled spaces</p></div>
         <div class="sol-f"><h4>Where</h4><p>China</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://global.gree.com/" target="_blank" rel="noopener">Gree — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-efficient-ac">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -524,7 +561,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>People using cooled spaces</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.haier.com/in/" target="_blank" rel="noopener">Haier — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-efficient-ac">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -537,7 +574,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>People using cooled spaces</p></div>
         
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.johnsoncontrols.com/hvac-equipment" target="_blank" rel="noopener">Johnson Controls — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-efficient-ac">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -550,7 +587,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>People using cooled spaces</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.lg.com/in/air-conditioners/" target="_blank" rel="noopener">LG — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-efficient-ac">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -563,7 +600,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>People using cooled spaces</p></div>
         
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.midea.com/global" target="_blank" rel="noopener">Midea — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-efficient-ac">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -576,7 +613,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>People using cooled spaces</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://in.mitsubishielectric.com/en/products-solutions/air-conditioning/" target="_blank" rel="noopener">Mitsubishi Electric India HVAC — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-efficient-ac">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -589,7 +626,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>People using cooled spaces</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.panasonic.com/in/consumer/air-conditioners.html" target="_blank" rel="noopener">Panasonic — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-efficient-ac">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -602,7 +639,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Building occupants and workers</p></div>
         <div class="sol-f"><h4>Where</h4><p>Vietnam</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://reetech.com.vn/" target="_blank" rel="noopener">Reetech Vietnam — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-efficient-ac">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -615,7 +652,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>People using cooled spaces</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.trane.com/commercial/asia-pacific/in/en.html" target="_blank" rel="noopener">Trane Technologies — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-efficient-ac">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -628,7 +665,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>People using cooled spaces</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.voltas.com/" target="_blank" rel="noopener">Voltas — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://in.linkedin.com/company/voltas-limited" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-efficient-ac">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -641,7 +678,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>People using cooled premises</p></div>
         <div class="sol-f"><h4>Where</h4><p>Bangladesh</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energypoverty">The energy-poverty trap</a> · <a href="/#loop-sleep">The sleepless-nights loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://waltonbd.com/air-conditioner" target="_blank" rel="noopener">Walton Bangladesh — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://waltonbd.com/about" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-efficient-ac">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -657,7 +694,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Occupants and facility users</p></div>
         <div class="sol-f"><h4>Where</h4><p>Singapore</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energywater">The energy–water loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energywater">The energy–water loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.engie-sea.com/" target="_blank" rel="noopener">ENGIE — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-district-cooling">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -670,7 +707,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>People using contracted buildings</p></div>
         <div class="sol-f"><h4>Where</h4><p>Singapore, Malaysia, Indonesia, India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energywater">The energy–water loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energywater">The energy–water loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.kaer.com/services" target="_blank" rel="noopener">Kaer — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://sg.linkedin.com/company/kaer-pte-ltd" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-district-cooling">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -683,7 +720,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Occupants of connected buildings</p></div>
         <div class="sol-f"><h4>Where</h4><p>United Arab Emirates</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energywater">The energy–water loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energywater">The energy–water loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.tabreed.ae/" target="_blank" rel="noopener">Tabreed — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://www.tabreed.ae/who-we-are" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-district-cooling">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -696,7 +733,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Patients, staff and building users</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energywater">The energy–water loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energywater">The energy–water loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.linkedin.com/posts/smartjoules_bw-healthcare-awards-x-kims-hospital-thane-activity-7464988451843751936-Tk6E" target="_blank" rel="noopener">Smart Joules company publication: KIMS Thane cooling, 2026 — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://set-alliance.org/wp-content/uploads/2024/06/CaaS-Smart-Joules-Case-Study.pdf" target="_blank" rel="noopener">SET Alliance historical Smart Joules case<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-district-cooling">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -709,7 +746,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>People using connected premises</p></div>
         <div class="sol-f"><h4>Where</h4><p>Singapore, China</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energywater">The energy–water loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a> · <a href="/#loop-energywater">The energy–water loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.spgroup.com.sg/sustainable-energy-solutions/district-cooling-and-heating" target="_blank" rel="noopener">SP district cooling — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-district-cooling">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -725,7 +762,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Produce sellers and food buyers</p></div>
         <div class="sol-f"><h4>Where</h4><p>Nigeria</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://coldhubs.com/our-solution/" target="_blank" rel="noopener">ColdHubs — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cold-chains">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -738,7 +775,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Temperature-sensitive-product users and sellers</p></div>
         <div class="sol-f"><h4>Where</h4><p>Indonesia</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a> · <a href="/#loop-clinic">The overwhelmed-clinic loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a> · <a href="/#loop-clinic">The overwhelmed-clinic loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://coldspace.id/" target="_blank" rel="noopener">Coldspace — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cold-chains">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -751,7 +788,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Farmers and produce-market participants</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://coolcrop.in/" target="_blank" rel="noopener">CoolCrop — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://www.linkedin.com/company/coolcrop/" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cold-chains">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -764,7 +801,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Small enterprises and food-chain users</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://ddsolar.in/" target="_blank" rel="noopener">Devidayal Solar Solutions — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://ddsolar.in/about-us/" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cold-chains">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -777,7 +814,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Growers and produce sellers</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.ecozensolutions.com/ecofrost" target="_blank" rel="noopener">Ecozen — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://www.linkedin.com/company/ecozen-solutions/" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cold-chains">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -790,7 +827,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Food sellers, cold-chain customers and end users</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.godrejenterprises.com/commercial-appliances" target="_blank" rel="noopener">Godrej Appliances — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cold-chains">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -803,7 +840,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Producers and food-chain users</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.inficold.com/products/solar-cold-storage" target="_blank" rel="noopener">Inficold — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://www.inficold.com/aboutus" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cold-chains">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -816,7 +853,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Producers, workers and food-chain customers</p></div>
         
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.inspirafarms.com/" target="_blank" rel="noopener">InspiraFarms — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://ke.linkedin.com/company/inspirafarms" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cold-chains">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -829,7 +866,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Fishers, farmers, vendors and food buyers</p></div>
         <div class="sol-f"><h4>Where</h4><p>Kenya</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://keepitcool.africa/" target="_blank" rel="noopener">Keep IT Cool — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cold-chains">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -842,7 +879,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Enterprise owners and their customers</p></div>
         <div class="sol-f"><h4>Where</h4><p>Nigeria, France</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.koolboks.com/" target="_blank" rel="noopener">Koolboks — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://www.linkedin.com/company/koolboks/" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cold-chains">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -855,7 +892,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Users of temperature-sensitive food and medicines</p></div>
         <div class="sol-f"><h4>Where</h4><p>Pakistan</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.kooltecheng.com/refrigeration-equipment/" target="_blank" rel="noopener">Kooltech refrigerants — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cold-chains">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -868,7 +905,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Growers and food sellers</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.newleafdynamic.com/" target="_blank" rel="noopener">New Leaf Dynamic — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://www.newleafdynamic.com/about-us" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cold-chains">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -881,7 +918,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Food sellers and recipients</p></div>
         <div class="sol-f"><h4>Where</h4><p>Indonesia</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://east.vc/news/insights/exploring-southeast-asias-logistics-horizon" target="_blank" rel="noopener">Paxel cold chain — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cold-chains">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -894,7 +931,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Food and healthcare users</p></div>
         <div class="sol-f"><h4>Where</h4><p>Germany</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a> · <a href="/#loop-clinic">The overwhelmed-clinic loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a> · <a href="/#loop-clinic">The overwhelmed-clinic loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.phaesun.com/" target="_blank" rel="noopener">Phaesun — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://www.phaesun.com/en/about/" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cold-chains">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -907,7 +944,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Milk producers and milk buyers</p></div>
         <div class="sol-f"><h4>Where</h4><p>India, Bangladesh, Sri Lanka, Tanzania, Mexico, United States</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://promethean-power.com/about-us/" target="_blank" rel="noopener">Promethean Power Systems — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://www.linkedin.com/company/promethean-power-systems" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cold-chains">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -920,7 +957,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Small producers and vendors</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Best in dry heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://rukart.co/" target="_blank" rel="noopener">Rukart — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cold-chains">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -933,7 +970,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Growers and food-market participants</p></div>
         <div class="sol-f"><h4>Where</h4><p>Kenya, Madagascar, Seychelles</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://sokofresh.co.ke/" target="_blank" rel="noopener">SokoFresh — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://sokofresh.co.ke/sokofresh-home/about-us/" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cold-chains">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -946,7 +983,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Food users and medical-product recipients</p></div>
         
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a> · <a href="/#loop-clinic">The overwhelmed-clinic loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a> · <a href="/#loop-clinic">The overwhelmed-clinic loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://sundanzer.com/" target="_blank" rel="noopener">SunDanzer — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://sundanzer.com/about/" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cold-chains">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -959,7 +996,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Sellers and recipients of chilled products</p></div>
         <div class="sol-f"><h4>Where</h4><p>Indonesia</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://superkul.id/" target="_blank" rel="noopener">Superkul — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cold-chains">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -972,7 +1009,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Recipients of temperature-sensitive food and medicines</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a> · <a href="/#loop-clinic">The overwhelmed-clinic loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a> · <a href="/#loop-clinic">The overwhelmed-clinic loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.tan90thermal.com/" target="_blank" rel="noopener">Tan90 — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cold-chains">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -985,7 +1022,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Food and medicine users</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a> · <a href="/#loop-clinic">The overwhelmed-clinic loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a> · <a href="/#loop-clinic">The overwhelmed-clinic loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://tessol.in/tertiary-distribution-solutions/" target="_blank" rel="noopener">TESSOL tertiary distribution — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cold-chains">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -1001,7 +1038,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Wearers needing personal cooling</p></div>
         
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-poverty">The poverty–heat trap</a> · <a href="/#loop-clinic">The overwhelmed-clinic loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-poverty">The poverty–heat trap</a> · <a href="/#loop-clinic">The overwhelmed-clinic loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.ezcooldown.com/" target="_blank" rel="noopener">EZCooldown — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-personal-cooling">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -1014,7 +1051,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Wearers and work crews</p></div>
         <div class="sol-f"><h4>Where</h4><p>United States</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-poverty">The poverty–heat trap</a> · <a href="/#loop-clinic">The overwhelmed-clinic loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-poverty">The poverty–heat trap</a> · <a href="/#loop-clinic">The overwhelmed-clinic loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.qoreperformance.com/" target="_blank" rel="noopener">Qore Performance — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-personal-cooling">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -1027,7 +1064,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>People wearing cooling garments</p></div>
         
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-poverty">The poverty–heat trap</a> · <a href="/#loop-clinic">The overwhelmed-clinic loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-poverty">The poverty–heat trap</a> · <a href="/#loop-clinic">The overwhelmed-clinic loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://techniche-intl.com/" target="_blank" rel="noopener">TechNiche — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-personal-cooling">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -1043,7 +1080,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Workers wearing the equipment</p></div>
         
         
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-poverty">The poverty–heat trap</a> · <a href="/#loop-clinic">The overwhelmed-clinic loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-poverty">The poverty–heat trap</a> · <a href="/#loop-clinic">The overwhelmed-clinic loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://bodytrak.co/" target="_blank" rel="noopener">Bodytrak — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-heat-sensing">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -1056,7 +1093,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Workers and other monitored users</p></div>
         <div class="sol-f"><h4>Where</h4><p>United States</p></div>
         
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-poverty">The poverty–heat trap</a> · <a href="/#loop-clinic">The overwhelmed-clinic loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-poverty">The poverty–heat trap</a> · <a href="/#loop-clinic">The overwhelmed-clinic loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://epicorebiosystems.com/" target="_blank" rel="noopener">Epicore Biosystems — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://www.linkedin.com/company/epicore-biosystems" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-heat-sensing">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -1069,7 +1106,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>People whose environments are assessed</p></div>
         <div class="sol-f"><h4>Where</h4><p>United States</p></div>
         
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-poverty">The poverty–heat trap</a> · <a href="/#loop-clinic">The overwhelmed-clinic loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-poverty">The poverty–heat trap</a> · <a href="/#loop-clinic">The overwhelmed-clinic loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://kestrelinstruments.com/kestrel-5400-heat-stress-tracker" target="_blank" rel="noopener">Nielsen-Kellerman Kestrel — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-heat-sensing">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -1082,7 +1119,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Workers whose heat exposure is assessed</p></div>
         <div class="sol-f"><h4>Where</h4><p>United States</p></div>
         
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-poverty">The poverty–heat trap</a> · <a href="/#loop-clinic">The overwhelmed-clinic loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-poverty">The poverty–heat trap</a> · <a href="/#loop-clinic">The overwhelmed-clinic loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://tsi.com/indoor-environments/products/heat-stress-monitors" target="_blank" rel="noopener">TSI heat stress — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://www.linkedin.com/company/tsiincorporated" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-heat-sensing">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -1098,7 +1135,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Institutional clients and people affected by their investment decisions</p></div>
         <div class="sol-f"><h4>Where</h4><p>United Kingdom</p></div>
         
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-reactive">The reactive-spending loop</a> · <a href="/#loop-protection">The protection-gap loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-reactive">The reactive-spending loop</a> · <a href="/#loop-protection">The protection-gap loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.climate-x.com/articles/press-releases/series-a" target="_blank" rel="noopener">ClimateX funding — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-heat-data-warnings">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -1111,7 +1148,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Decision-makers; affected communities only if analysis changes action</p></div>
         <div class="sol-f"><h4>Where</h4><p>United States</p></div>
         
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-reactive">The reactive-spending loop</a> · <a href="/#loop-protection">The protection-gap loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-reactive">The reactive-spending loop</a> · <a href="/#loop-protection">The protection-gap loop</a></span></p></div>
         
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-heat-data-warnings">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -1124,7 +1161,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Workers or communities if alerts lead to funded protective action</p></div>
         
         
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-reactive">The reactive-spending loop</a> · <a href="/#loop-protection">The protection-gap loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-reactive">The reactive-spending loop</a> · <a href="/#loop-protection">The protection-gap loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://support.tomorrow.io/hc/en-us/articles/38449597664532-Wet-Bulb-Globe-Temperature-WBGT-Premium-Layer" target="_blank" rel="noopener">Tomorrow.io — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-heat-data-warnings">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -1137,7 +1174,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Institutional decision-makers and potentially affected communities</p></div>
         
         
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-reactive">The reactive-spending loop</a> · <a href="/#loop-protection">The protection-gap loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-reactive">The reactive-spending loop</a> · <a href="/#loop-protection">The protection-gap loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://xdi.systems/hub" target="_blank" rel="noopener">XDI heat — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://xdi.systems/about-us" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-heat-data-warnings">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -1153,7 +1190,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Patients and vaccine/medicine recipients</p></div>
         
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-clinic">The overwhelmed-clinic loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-clinic">The overwhelmed-clinic loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.bmedicalsystems.com/en/" target="_blank" rel="noopener">B Medical Systems — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-heat-ready-healthcare">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -1166,7 +1203,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Patients and medicine/vaccine programmes</p></div>
         
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-clinic">The overwhelmed-clinic loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-clinic">The overwhelmed-clinic loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://coolfinity.com/about-us/" target="_blank" rel="noopener">Coolfinity about — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-heat-ready-healthcare">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -1179,7 +1216,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Patients and vaccination programmes</p></div>
         <div class="sol-f"><h4>Where</h4><p>Nigeria, India, United Kingdom</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-clinic">The overwhelmed-clinic loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-clinic">The overwhelmed-clinic loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://dulas.org.uk/solar-refrigeration-for-hiv-aids-programmes-in-nigeriasolar/" target="_blank" rel="noopener">Dulas — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://dulas.org.uk/about/" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-heat-ready-healthcare">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -1195,7 +1232,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Building occupants</p></div>
         
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.75f.io/" target="_blank" rel="noopener">75F — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cooling-power-flexibility">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -1208,7 +1245,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Building occupants and facility managers</p></div>
         <div class="sol-f"><h4>Where</h4><p>Singapore</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://azendian.com/" target="_blank" rel="noopener">Azendian Solutions — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cooling-power-flexibility">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -1221,7 +1258,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Building users and facility operators</p></div>
         <div class="sol-f"><h4>Where</h4><p>Singapore</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://bbp.sg/actis-acquires-leading-asia-cooling-systems-energy-efficiency-provider-bbp/" target="_blank" rel="noopener">bbp acquisition — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://bbp.sg/about-us/" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cooling-power-flexibility">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -1234,7 +1271,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Facility users and cold-chain customers</p></div>
         <div class="sol-f"><h4>Where</h4><p>France</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://beebryte.com/" target="_blank" rel="noopener">BeeBryte — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cooling-power-flexibility">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -1247,7 +1284,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Guests, hotel staff and hotel owners</p></div>
         <div class="sol-f"><h4>Where</h4><p>Singapore</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.sensorflow.co/" target="_blank" rel="noopener">SensorFlow — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://www.linkedin.com/company/sensorflow/" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cooling-power-flexibility">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -1260,7 +1297,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>People using cooled buildings; equipment operators</p></div>
         <div class="sol-f"><h4>Where</h4><p>United States</p></div>
         <div class="sol-f"><h4>Climate</h4><p>Works in dry and humid heat</p></div>
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-cooling">The cooling trap</a> · <a href="/#loop-global">The global cooling loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.skycoolsystems.com/" target="_blank" rel="noopener">SkyCool Systems — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-cooling-power-flexibility">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -1276,7 +1313,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Eligible policyholders</p></div>
         <div class="sol-f"><h4>Where</h4><p>France</p></div>
         
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-protection">The protection-gap loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-protection">The protection-gap loop</a> · <a href="/#loop-squeeze">The heat credit squeeze</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://climate.axa/publications/parametric-insurance-closing-climate-protection-gaps/" target="_blank" rel="noopener">AXA heat cover — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://fr.linkedin.com/company/axaclimate" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-heat-insurance">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -1289,7 +1326,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Eligible dairy producers and other policyholders</p></div>
         <div class="sol-f"><h4>Where</h4><p>India, Luxembourg</p></div>
         
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-protection">The protection-gap loop</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-farmdebt">The farm-debt loop</a> · <a href="/#loop-protection">The protection-gap loop</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.ibisa.network/en/blog/ushma-kavach-a-climate-resilient-shield-for-indias-dairy-farmers" target="_blank" rel="noopener">IBISA heat — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-heat-insurance">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -1302,7 +1339,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Eligible insured women workers</p></div>
         <div class="sol-f"><h4>Where</h4><p>India</p></div>
         
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-poverty">The poverty–heat trap</a> · <a href="/#loop-protection">The protection-gap loop</a> · <a href="/#loop-debt">The medical-debt trap</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-poverty">The poverty–heat trap</a> · <a href="/#loop-protection">The protection-gap loop</a> · <a href="/#loop-debt">The medical-debt trap</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.icicilombard.com/docs/default-source/esg/icici-lombard-esg-report-fy2025.pdf" target="_blank" rel="noopener">ICICI Lombard ESG report FY2025 — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://www.icicilombard.com/about-us" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-heat-insurance">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -1315,7 +1352,7 @@
         <div class="sol-f"><h4>Who uses it</h4><p>Eligible insured workers via the programme</p></div>
         <div class="sol-f"><h4>Where</h4><p>India, Switzerland</p></div>
         
-        <div class="sol-f"><h4>Can help break</h4><p><a href="/#loop-poverty">The poverty–heat trap</a> · <a href="/#loop-protection">The protection-gap loop</a> · <a href="/#loop-debt">The medical-debt trap</a></p></div>
+        <div class="sol-f sol-f--break"><h4>Can help break</h4><p><span class="he-breaks"><a href="/#loop-poverty">The poverty–heat trap</a> · <a href="/#loop-protection">The protection-gap loop</a> · <a href="/#loop-debt">The medical-debt trap</a></span></p></div>
         <div class="sol-f"><h4>Sources</h4><p class="sol-src"><a href="https://www.swissre.com/our-business/public-sector-solutions/case-studies/india-extreme-heat-cover.html" target="_blank" rel="noopener">Swiss Re — original source<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a> · <a href="https://www.linkedin.com/company/swiss-re/" target="_blank" rel="noopener">Original company history/profile<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a></p></div>
         <p class="sol-go">Based on the company’s own information. Before buying, see <a href="#q-heat-insurance">the questions to ask</a> and check details with the company.</p>
       </div>
@@ -1324,13 +1361,6 @@
         <p class="tool-alt">Know a business we have missed? <a href="/join/">Tell us</a>. The <a href="/heat-economy/data/businesses.csv" download>spreadsheet</a> has the researchers’ fuller notes on each one.</p>
       </div>
     </section></main>
-  <aside class="foot-close" aria-label="Common Shade">
-    <div class="container">
-      <svg class="foot-close__art" viewBox="0 0 132 72" aria-hidden="true" focusable="false"><path d="M8 22 Q66 0 124 22 L124 28 Q66 8 8 28 Z" fill="#F26430"/><g fill="none" stroke="#16202B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M14 27 V70 M118 27 V70 M66 13 V70"/><circle cx="28" cy="40" r="5"/><path d="M28 45 V58 L22 70 M28 58 L34 70 M28 49 L14 42"/><circle cx="104" cy="40" r="5"/><path d="M104 45 V58 L98 70 M104 58 L110 70 M104 49 L118 42"/><circle cx="80" cy="46" r="4"/><path d="M80 50 V60 L76 70 M80 60 L84 70 M80 53 L66 48"/><path d="M4 70 H128" opacity=".35"/></g></svg>
-      <p class="foot-close__line">Shade is something we hold up together.</p>
-      <a class="foot-close__go" href="/join/">Help build Common Shade&nbsp;<span aria-hidden="true">→</span></a>
-    </div>
-  </aside>
   <!--csn--><nav class="csf" aria-label="Site map">
   <div class="csf__in">
     <div class="csf__top"><a class="csf__home" href="/">COMMON SHADE</a><span>Seeing extreme heat as a whole, so the right people can act. Plain language, sources linked.</span><a class="csf__up" href="#top">Back to top <span aria-hidden="true">↑</span></a></div>
@@ -1342,7 +1372,7 @@
     </div>
     <p class="csf__text">Text versions: <a href="/the-web/">The web</a> · <a href="/loops/">Vicious cycles</a> · <a href="/actions/">Actions</a> · <a href="/practical-actions/">Practical actions</a> · <a href="/paying-for-protection/">Paying for protection</a> · <a href="/llms-full.txt">Everything as one text file</a></p>
   </div>
-</nav><script>(function(){var d=document.querySelector(".csn__menu");if(!d)return;var s=d.querySelector("summary");document.addEventListener("keydown",function(e){if(e.key==="Escape"&&d.open){d.open=false;s.focus();}});document.addEventListener("click",function(e){if(d.open&&!d.contains(e.target))d.open=false;});d.addEventListener("click",function(e){if(e.target.closest("a"))d.open=false;});})();</script><!--/csn-->
+</nav><script>(function(){var d=document.querySelector(".csn__menu");if(!d)return;var s=d.querySelector("summary");document.addEventListener("keydown",function(e){if(e.key==="Escape"&&d.open){d.open=false;s.focus();}});document.addEventListener("click",function(e){if(d.open&&!d.contains(e.target))d.open=false;});d.addEventListener("click",function(e){if(e.target.closest("a"))d.open=false;});})();</script><script src="/ticker.js?v=139" defer></script><!--/csn-->
 <footer class="wkp-foot"><div class="container">
     <p>Gathered from public sources in October 2026. Being listed does not imply endorsement, partnership or ranking, and nothing here is financial advice. Every source links to its publisher; links that no longer work are left out. Text: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0<span class="visually-hidden"> (opens in a new tab)</span></a>. <a href="/sources/">All sources</a> · <a href="/heat-economy/#data">Download the data</a></p>
   </div></footer>
