@@ -3096,3 +3096,8 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 .he-role ul { margin: 0; padding-left: 1.1em; }
 .he .he-group[hidden], .he .he-card[hidden] { display: none; }
 @media print { .he-sub, .sol-bar { display: none; } }
+.he-tablewrap { position: relative; }
+.he-tablewrap:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
+.sol-bar label { min-width: 0; max-width: 100%; }
+.sol-bar select { max-width: 100%; }
+@media (max-width: 720px) { .sol-bar label:not(.he-check) { flex: 1 1 100%; } .sol-bar select { width: 100%; } }
