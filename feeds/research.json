@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T06:02:43.303Z",
+ "updated": "2026-10-30T13:13:16.427Z",
  "days": 120,
  "source": "Europe PMC",
  "items": [
@@ -14,14 +14,24 @@
    "firstAuthor": "Meade RD"
   },
   {
-   "title": "Left to cope alone: how pregnant and postpartum women and their newborns manage extreme heat in coastal Kilifi, Kenya",
-   "journal": "Frontiers in global women's health",
-   "date": "2026-10-27",
-   "doi": "",
-   "pmid": "",
+   "title": "Combining ability and heat-stress response in rice hybrids derived from mutation-derived M₆ lines.",
+   "journal": "Journal of applied genetics",
+   "date": "2026-10-29",
+   "doi": "10.1007/s13353-026-01126-y",
+   "pmid": "42955562",
    "preprint": false,
-   "url": "https://europepmc.org/article/PMC/PMC13696479",
-   "firstAuthor": "Lusambili A"
+   "url": "https://doi.org/10.1007/s13353-026-01126-y",
+   "firstAuthor": "Iqbal S"
+  },
+  {
+   "title": "Projected Exposure of Canadian Children to Rare, High-Severity Heatwaves Under Continued Warming.",
+   "journal": "GeoHealth",
+   "date": "2026-10-26",
+   "doi": "10.1029/2026gh001873",
+   "pmid": "42936684",
+   "preprint": false,
+   "url": "https://doi.org/10.1029/2026gh001873",
+   "firstAuthor": "Zaerpour M"
   },
   {
    "title": "Prenatal extreme heat exposure and neonatal mortality in Bangladesh, 2015 to 2025: a national birth-history study",
@@ -104,6 +114,16 @@
    "firstAuthor": "Gunther S"
   },
   {
+   "title": "Left to cope alone: how pregnant and postpartum women and their newborns manage extreme heat in coastal Kilifi, Kenya.",
+   "journal": "Frontiers in global women's health",
+   "date": "2026-10-12",
+   "doi": "10.3389/fgwh.2026.1825348",
+   "pmid": "42936054",
+   "preprint": false,
+   "url": "https://doi.org/10.3389/fgwh.2026.1825348",
+   "firstAuthor": "Lusambili A"
+  },
+  {
    "title": "Heat stress induces gonadal transcriptomic reprogramming and histopathological alterations in the mud crab Scylla paramamosain.",
    "journal": "Marine pollution bulletin",
    "date": "2026-10-10",
@@ -182,26 +202,6 @@
    "preprint": false,
    "url": "https://doi.org/10.1096/fj.202602708r",
    "firstAuthor": "Tariq A"
-  },
-  {
-   "title": "Integrating Heat Stress into Circular Livestock Production and Life Cycle Assessment: Toward a Heat-Stress Circularity Index",
-   "journal": "Animals : an open access journal from MDPI",
-   "date": "2026-10-01",
-   "doi": "",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://europepmc.org/article/PMC/PMC13700569",
-   "firstAuthor": "Papatsiros V"
-  },
-  {
-   "title": "Projected Exposure of Canadian Children to Rare, High‐Severity Heatwaves Under Continued Warming",
-   "journal": "GeoHealth",
-   "date": "2026-10-01",
-   "doi": "",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://europepmc.org/article/PMC/PMC13701080",
-   "firstAuthor": "Zaerpour M"
   },
   {
    "title": "Physiological Responses to Intermittent Environmental Heat Stress in Mice.",
@@ -354,14 +354,14 @@
    "firstAuthor": "Chen G"
   },
   {
-   "title": "Emerging compound air–soil heatwaves amplify global vegetation losses",
+   "title": "Emerging compound air-soil heatwaves amplify global vegetation losses.",
    "journal": "National science review",
    "date": "2026-09-17",
-   "doi": "",
-   "pmid": "",
+   "doi": "10.1093/nsr/nwag603",
+   "pmid": "42936203",
    "preprint": false,
-   "url": "https://europepmc.org/article/PMC/PMC13702032",
-   "firstAuthor": ""
+   "url": "https://doi.org/10.1093/nsr/nwag603",
+   "firstAuthor": "Wu S"
   },
   {
    "title": "Heat stress and maternal complications in India: A nationwide analysis using the universal thermal climate index.",
