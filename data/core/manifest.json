@@ -25,14 +25,14 @@
    "/* Society and security */",
    "/* Governance and finance */",
    "/* ---------- 3. LINKS BETWEEN CONSEQUENCES ---------- */",
-   "// [from, to, why]  — add \"loop\" as a 4th item for a link that closes a vicious cycle (drawn red).",
+   "// [from, to, why]  - add \"loop\" as a 4th item for a link that closes a vicious cycle (drawn red).",
    "// Links from each system to its own consequences, and from extreme heat to each system, are drawn automatically."
   ]
  },
  {
   "name": "LINKS",
   "file": "LINKS.json",
-  "notes": "/* ---------- 3. LINKS BETWEEN CONSEQUENCES ---------- */\n// [from, to, why]  — add \"loop\" as a 4th item for a link that closes a vicious cycle (drawn red).\n// Links from each system to its own consequences, and from extreme heat to each system, are drawn automatically.",
+  "notes": "/* ---------- 3. LINKS BETWEEN CONSEQUENCES ---------- */\n// [from, to, why]  - add \"loop\" as a 4th item for a link that closes a vicious cycle (drawn red).\n// Links from each system to its own consequences, and from extreme heat to each system, are drawn automatically.",
   "inside": [
    "/* nature */",
    "/* food */",

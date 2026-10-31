@@ -130,7 +130,7 @@
     const X = i => 80 + i * 94, Y = v => 40 + (hi - v) / (hi - lo) * 190, z = Y(0);
     const line = rows => [[-1, +s.cash], ...rows.map(r => [r.d, r.bal])].map(([i, v]) => `${X(i + 1) - 45},${Y(v).toFixed(1)}`).join(" ");
     const dots = (rows, cls) => rows.map(r => `<circle cx="${X(r.d + 1) - 45}" cy="${Y(r.bal).toFixed(1)}" r="5" class="${cls}${r.bal < 0 ? " is-neg" : ""}"/>`).join("");
-    const sky = W.days.map((d, i) => `<rect x="${X(i + 1) - 92}" y="0" width="94" height="30" class="wk-sky${s.heat[i] ? " is-hot" : ""}"/><text x="${X(i + 1) - 45}" y="20" class="wk-sky__t">${s.heat[i] ? country().temps[i] + " °C" : "—"}</text>`).join("");
+    const sky = W.days.map((d, i) => `<rect x="${X(i + 1) - 92}" y="0" width="94" height="30" class="wk-sky${s.heat[i] ? " is-hot" : ""}"/><text x="${X(i + 1) - 45}" y="20" class="wk-sky__t">${s.heat[i] ? country().temps[i] + " °C" : "-"}</text>`).join("");
     const cw = (box.querySelector(".wk-chartbox") || {}).clientWidth || 700, f = Math.min(2.1, Math.max(1, 620 / cw).toFixed(2));
     return `<svg viewBox="0 0 740 270" class="wk-chart" style="--f:${f}" role="img" aria-label="Money in hand each day. ${has ? `With the package, the lowest point is ${rs(pkg.min)}. ` : ""}Without help, the lowest point is ${rs(base.min)}.">
       ${sky}<rect x="20" y="${z.toFixed(1)}" width="700" height="${Math.max(0, 230 - z).toFixed(1)}" class="wk-neg"/>

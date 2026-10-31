@@ -38,7 +38,7 @@ for (const f of Object.keys(files)) files[f].sort((a, b) => a.id.localeCompare(b
 const report = [`# Knowledge base update, ${month}`, "", `${pass.length} ${pass.length === 1 ? "record" : "records"} published, ${held.length} held back.`, "",
   "## Published", ...pass.map(r => `- **${r.title}** (${r.type}, ${r.evidence})${r.replaces ? `, replacing ${r.replaces}` : ""}`), "",
   "## Held back, with reasons", ...held.map(r => `- **${r.title || r.id}** (${r.id}): ${byId.get(r.id).hold.join("; ")}`), "",
-  "## Flags the reviewer answered", ...pass.filter(r => byId.get(r.id).review.length).map(r => `- ${r.id}: ${byId.get(r.id).review.join("; ")} — ${(r.review || {}).addresses || ""}`)].join("\n");
+  "## Flags the reviewer answered", ...pass.filter(r => byId.get(r.id).review.length).map(r => `- ${r.id}: ${byId.get(r.id).review.join("; ")} - ${(r.review || {}).addresses || ""}`)].join("\n");
 
 if (dry) { console.log(report); process.exit(0); }
 fs.mkdirSync(KB, { recursive: true });

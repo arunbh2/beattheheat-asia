@@ -41,7 +41,7 @@
    "instruments": ["grant", "insurance", "risk-pool", "contingent-credit", "forecast-finance", "cash-transfer", "bond", "loan", "guarantee", "equity", "programme"],
    "stages": ["announced", "committed", "paid", "up-to"],
    "roles": ["catalytic", "evidence", "field-building", "delivery"],
-   "amount": "{ value, currency, usd, fx_date } — usd may be null when unknown; { disclosed: false } when the amount was not made public",
+   "amount": "{ value, currency, usd, fx_date } - usd may be null when unknown; { disclosed: false } when the amount was not made public",
    "optional": "funder_kind (phil, public, dev or inv), philanthropy_role, segment (a kind of protection id), countries (ISO codes)"
   },
   "role": {

@@ -155,7 +155,7 @@ const body = `
         <div class="he-stats lc-stats">
           ${STATS.map(([n, l, t, href]) => `<a class="he-stat" href="${href}"><span class="he-stat__n">${esc(n)}</span><span class="he-stat__l">${esc(l)}</span><span class="he-stat__t">${t}</span></a>`).join("\n          ")}
         </div>
-        <blockquote class="he-quote"><p>“Delivering these actions and meeting these targets is no longer just the greatest public health opportunity of the century—it may be the only hope for a safe future.”</p><cite>The 2026 report of the Lancet Countdown, conclusion</cite></blockquote>
+        <blockquote class="he-quote"><p>“Delivering these actions and meeting these targets is no longer just the greatest public health opportunity of the century-it may be the only hope for a safe future.”</p><cite>The 2026 report of the Lancet Countdown, conclusion</cite></blockquote>
 
         <h2 class="he-shelf he-shelf--big" id="asia">What it means for South and Southeast Asia</h2>
         <ul class="lc-list">

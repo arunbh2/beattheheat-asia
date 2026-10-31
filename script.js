@@ -1,5 +1,5 @@
 /* ==========================================================
-   Extreme heat is a wicked problem — map engine
+   Extreme heat is a wicked problem - map engine
    Plain JavaScript, no libraries. All content lives in data.js.
    ========================================================== */
 

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "module": "R1",
-    "title": "Common Shade — Map of heat risk finance",
+    "title": "Common Shade - Map of heat risk finance",
     "checked_on": "2026-10-31",
     "disclaimer": "Listing is not endorsement and is not financial, insurance or investment advice.",
     "scope": "Targeted global landscape and category map; not exhaustive systematic review.",
@@ -23,7 +23,7 @@
   "instruments": [
     {
       "id": "parametric_heat_micro",
-      "name": "Parametric heat insurance — people",
+      "name": "Parametric heat insurance - people",
       "plain_definition": "An insurer pays an agreed benefit when a specified heat index crosses the policy threshold, without assessing each person's actual income loss.",
       "level": "micro",
       "layer": "transfer",
@@ -67,7 +67,7 @@
     },
     {
       "id": "parametric_heat_meso",
-      "name": "Parametric heat insurance — employers and organisations",
+      "name": "Parametric heat insurance - employers and organisations",
       "plain_definition": "A business or intermediary buys heat-triggered cover for its own costs or a specified group.",
       "level": "meso",
       "layer": "transfer",
@@ -110,7 +110,7 @@
     },
     {
       "id": "parametric_heat_macro",
-      "name": "Parametric heat insurance — sovereign design",
+      "name": "Parametric heat insurance - sovereign design",
       "plain_definition": "A government transfers a defined heat-related fiscal risk using an agreed index.",
       "level": "macro",
       "layer": "transfer",
@@ -2073,7 +2073,7 @@
     {
       "id": "gap",
       "title": "What can be said about the heat protection gap",
-      "text": "No verified Asia-wide estimate matching heat-specific economic losses to heat-specific insured compensation was found. The nearest auditable regional comparison here is Swiss Re sigma 1/2025, table 3: Asia's 2024 disaster-event economic losses were USD 66.5 billion and insured losses USD 11.1 billion. Subtracting the rounded figures gives approximately USD 55.4 billion uninsured, or 83.3%. This table includes natural and man-made disasters and is not a heat estimate. Its economic-loss definition emphasises direct damage and property-related business interruption; it excludes wider indirect earnings/GDP and non-economic losses, and its insured-loss definition excludes life and liability. The dataset covers 104 qualifying Asian disaster events, not a population sample. Source currency is USD, price year 2024, conversion in this report 1 USD = 1 USD. Underlying foreign-currency losses were converted by sigma using occurrence-year end exchange rates and inflation-adjusted as described in its methods. Event-level original currencies and rates were not reproduced in the regional aggregate. Kind: economic-loss estimate, insured-loss estimate and calculated uninsured-loss estimate—not premiums, limits or bank-confirmed payouts. No counterfactual baseline is applicable. These scope limits make the statistic an especially poor proxy for heat mortality, daily wages or informal work.",
+      "text": "No verified Asia-wide estimate matching heat-specific economic losses to heat-specific insured compensation was found. The nearest auditable regional comparison here is Swiss Re sigma 1/2025, table 3: Asia's 2024 disaster-event economic losses were USD 66.5 billion and insured losses USD 11.1 billion. Subtracting the rounded figures gives approximately USD 55.4 billion uninsured, or 83.3%. This table includes natural and man-made disasters and is not a heat estimate. Its economic-loss definition emphasises direct damage and property-related business interruption; it excludes wider indirect earnings/GDP and non-economic losses, and its insured-loss definition excludes life and liability. The dataset covers 104 qualifying Asian disaster events, not a population sample. Source currency is USD, price year 2024, conversion in this report 1 USD = 1 USD. Underlying foreign-currency losses were converted by sigma using occurrence-year end exchange rates and inflation-adjusted as described in its methods. Event-level original currencies and rates were not reproduced in the regional aggregate. Kind: economic-loss estimate, insured-loss estimate and calculated uninsured-loss estimate-not premiums, limits or bank-confirmed payouts. No counterfactual baseline is applicable. These scope limits make the statistic an especially poor proxy for heat mortality, daily wages or informal work.",
       "sources": [
         "sigma"
       ],

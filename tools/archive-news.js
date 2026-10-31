@@ -31,5 +31,5 @@ merge("research", (read("feeds/research.json") || {}).items);
 const byDate = (a, b) => String(b.date || "").localeCompare(String(a.date || ""));
 arc.news.sort(byDate); arc.research.sort(byDate);
 if (added) arc.updated = new Date().toISOString();
-fs.writeFileSync(OUT, JSON.stringify(arc, null, 1) + "\n");
+fs.writeFileSync(OUT, JSON.stringify(arc, null, 1).replace(/\u2014/g, "-") + "\n"); // plain hyphens, never em dashes
 console.log(`archive: ${arc.news.length} headlines, ${arc.research.length} papers (${added} new)`);
