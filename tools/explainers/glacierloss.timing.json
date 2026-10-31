@@ -1,0 +1,39 @@
+{
+ "total": 33.49,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "What happens when Asia\u2019s water towers melt?"
+  },
+  {
+   "start": 5.0,
+   "dur": 13.36,
+   "beats": [
+    0.6,
+    8.04
+   ],
+   "text": "In the Hindu Kush Himalaya, glaciers lost ice sixty-five per cent faster in the 2010s. By 2100 they could lose thirty to fifty per cent of their volume."
+  },
+  {
+   "start": 18.36,
+   "dur": 10.13,
+   "beats": [
+    0.6,
+    3.84
+   ],
+   "text": "First, more meltwater, and the risk of floods. Later, less water in the dry season, for the rivers people farm and drink from."
+  },
+  {
+   "start": 28.49,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Heat in the mountains reaches every river below."
+  }
+ ]
+}

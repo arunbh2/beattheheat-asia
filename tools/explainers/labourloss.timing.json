@@ -1,0 +1,40 @@
+{
+ "total": 41.21,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "What does heat cost a working day?"
+  },
+  {
+   "start": 5.0,
+   "dur": 14.95,
+   "beats": [
+    0.6,
+    8.3
+   ],
+   "text": "Worldwide in 2025, five hundred and seventy-three billion potential work hours were lost to heat. That\u2019s thirty-five per cent above the 2006 to 2015 average."
+  },
+  {
+   "start": 19.95,
+   "dur": 15.46,
+   "beats": [
+    0.6,
+    4.73,
+    12.14
+   ],
+   "text": "Farm workers lose twice as many hours as any other sector. In countries like Bangladesh, India and Nepal, lost income equals three point seven per cent of the economy, against half a per cent in the richest."
+  },
+  {
+   "start": 35.41,
+   "dur": 5.8,
+   "beats": [
+    0.6
+   ],
+   "text": "Shade, rest and cooler hours keep work, and wages, going."
+  }
+ ]
+}

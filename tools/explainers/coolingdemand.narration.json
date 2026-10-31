@@ -1,0 +1,15 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "How many air conditioners will Southeast Asia need?",
+  "About forty million today could become three hundred million by 2040. | Half of them could be in Indonesia.",
+  "Every one adds to peak power demand, | and pushes waste heat into the street.",
+  "Cooler buildings shrink the need: | shade, reflective roofs, and efficient machines.",
+  "The coolest kilowatt is the one you never need."
+ ]
+}

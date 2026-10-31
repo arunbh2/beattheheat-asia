@@ -1,0 +1,39 @@
+{
+ "total": 30.05,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Is heat the same across a whole city?"
+  },
+  {
+   "start": 5.0,
+   "dur": 7.81,
+   "beats": [
+    0.6,
+    4.31
+   ],
+   "text": "No. It can differ sharply from one ward to the next. So some cities map risk ward by ward."
+  },
+  {
+   "start": 12.81,
+   "dur": 12.24,
+   "beats": [
+    0.6,
+    8.08
+   ],
+   "text": "Thane, next to Mumbai, scored each ward on felt heat, warm nights and social vulnerability, and a heatwave task force across departments runs the plan."
+  },
+  {
+   "start": 25.05,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Send help where the heat hits hardest."
+  }
+ ]
+}

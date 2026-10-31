@@ -1,0 +1,14 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "Who in a city is in charge of heat?",
+  "Often, nobody, because heat touches every department: | health, water, power, schools and work. | A chief heat officer joins them up, before the hot season.",
+  "In 2023, Dhaka North City Corporation appointed Asia’s first.",
+  "Heat crosses every department. Someone has to join them up."
+ ]
+}

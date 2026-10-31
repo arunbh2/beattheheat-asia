@@ -1,0 +1,14 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "A heat warning goes out. | Then what?",
+  "Good alerts come in levels, | and each level switches on named actions, like these.",
+  "Delhi’s 2025 plan tied its graded alerts to cooling shelters, | three thousand water points, and heatstroke units in hospitals.",
+  "A warning is only as good as what it switches on."
+ ]
+}

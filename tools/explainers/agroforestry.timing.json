@@ -1,0 +1,40 @@
+{
+ "total": 24.23,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Can trees cool a farm?"
+  },
+  {
+   "start": 5.0,
+   "dur": 6.81,
+   "beats": [
+    0.6,
+    2.81
+   ],
+   "text": "That\u2019s the idea of agroforestry: growing trees alongside crops or livestock."
+  },
+  {
+   "start": 11.81,
+   "dur": 7.42,
+   "beats": [
+    0.6,
+    2.48,
+    4.1
+   ],
+   "text": "The trees shade the soil, help it hold moisture, and give farmers another source of income."
+  },
+  {
+   "start": 19.23,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Shade that pays."
+  }
+ ]
+}

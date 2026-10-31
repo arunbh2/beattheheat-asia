@@ -1,0 +1,14 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "Is heat the same across a whole city?",
+  "No. It can differ sharply from one ward to the next. | So some cities map risk ward by ward.",
+  "Thane, next to Mumbai, scored each ward on felt heat, warm nights and social vulnerability, | and a heatwave task force across departments runs the plan.",
+  "Send help where the heat hits hardest."
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "total": 33.73,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Who gets to be cool?"
+  },
+  {
+   "start": 5.0,
+   "dur": 5.89,
+   "beats": [
+    0.6
+   ],
+   "text": "Air conditioning may have prevented three hundred and sixty thousand deaths a year."
+  },
+  {
+   "start": 10.89,
+   "dur": 8.37,
+   "beats": [
+    0.6,
+    5.99
+   ],
+   "text": "But in the poorest countries, only about three in every hundred households have it. That\u2019s the cooling gap."
+  },
+  {
+   "start": 19.26,
+   "dur": 9.47,
+   "beats": [
+    0.6,
+    4.61
+   ],
+   "text": "Close it with shade, cool roofs and efficient fans first, because cooling now drives a growing share of energy emissions."
+  },
+  {
+   "start": 28.73,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Cool for everyone, without heating the planet."
+  }
+ ]
+}

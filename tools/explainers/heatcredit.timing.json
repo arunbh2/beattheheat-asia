@@ -1,0 +1,40 @@
+{
+ "total": 32.03,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "How does a heatwave reach a bank?"
+  },
+  {
+   "start": 5.0,
+   "dur": 8.79,
+   "beats": [
+    0.6,
+    2.98,
+    4.88
+   ],
+   "text": "A hotter day means a smaller wage. The next instalment waits. Repayments slow, and the strain moves up to the lender."
+  },
+  {
+   "start": 13.79,
+   "dur": 12.02,
+   "beats": [
+    0.6,
+    9.44
+   ],
+   "text": "In India, about sixty per cent of a three point eight trillion rupee microfinance portfolio is in farming and allied work, the work heat hits first."
+  },
+  {
+   "start": 25.81,
+   "dur": 6.22,
+   "beats": [
+    0.6
+   ],
+   "text": "Insurance, patient capital and shared data turn risk into resilience."
+  }
+ ]
+}

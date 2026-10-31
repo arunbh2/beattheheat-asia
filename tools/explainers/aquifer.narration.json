@@ -1,0 +1,14 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "Where does well water come from?",
+  "From an aquifer: | layers of rock and sand that hold water underground. | When pumps take more than rain puts back, the water table falls.",
+  "In north-west India, about a hundred and nine cubic kilometres of groundwater were lost in six years, | mainly to irrigation. Heat makes crops thirstier, and pumps run harder.",
+  "Put water back in the ground, and wells keep flowing."
+ ]
+}

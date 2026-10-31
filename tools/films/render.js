@@ -19,11 +19,13 @@ const total = Math.round((timing ? timing.total : +secs) * fps);
   if (timing) await p.evaluate(T => document.querySelectorAll("section.s").forEach((sec, i) => { const s = T.scenes[i]; if (!s) return;
     sec.style.setProperty("--start", s.start + "s"); sec.style.setProperty("--dur", s.dur + "s");
     sec.querySelectorAll("[data-beat]").forEach(el => { const b = s.beats[+el.dataset.beat]; if (b != null) el.style.setProperty("--d", (b + 0.1) + "s"); }); }), timing);
+  await p.evaluate(() => { window.__A = document.getAnimations(); window.__A.forEach(a => { a.pause(); a.currentTime = 0; }); });
   const out = path.join(ROOT, "media", OUTSUB, name);
   const voice = out + ".voice.wav", sound = timing && fs.existsSync(voice);
   if (sound) execFileSync("python3", [path.join(__dirname, "music.py"), out + ".music.wav", String(timing.total)], { stdio: "inherit" });
   const ff = spawn("ffmpeg", ["-v", "error", "-y", "-f", "image2pipe", "-framerate", String(fps), "-i", "-", ...(sound ? ["-i", voice, "-i", out + ".music.wav", "-filter_complex", "[2]volume=0.55[m];[1][m]amix=inputs=2:normalize=0,loudnorm=I=-16:TP=-1.5:LRA=11[a]", "-map", "0:v", "-map", "[a]", "-c:a", "aac", "-b:a", "128k"] : []), "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "24", "-preset", "slow", "-movflags", "+faststart", out + ".mp4"], { stdio: ["pipe", "inherit", "inherit"] });
-  const seek = t => p.evaluate(ms => document.getAnimations().forEach(a => { a.pause(); a.currentTime = ms; }), t);
+  // hold every animation from the moment the page loads: once one has played out, the browser stops listing it
+  const seek = ms => p.evaluate(ms => { (window.__A = window.__A || document.getAnimations()).forEach(a => { a.pause(); a.currentTime = ms; }); if (window.tick) window.tick(ms); }, ms);
   for (let f = 0; f < total; f++) { await seek(f * 1000 / fps); ff.stdin.write(await p.screenshot({ type: "png" })); }
   ff.stdin.end(); await new Promise(r => ff.on("close", r));
   await seek(+posterAt * 1000); await p.screenshot({ path: out + ".jpg", type: "jpeg", quality: 85 });

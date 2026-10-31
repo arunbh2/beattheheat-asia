@@ -1,0 +1,40 @@
+{
+ "total": 29.96,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Can we just get used to the heat?"
+  },
+  {
+   "start": 5.0,
+   "dur": 13.23,
+   "beats": [
+    0.6,
+    2.49,
+    7.01
+   ],
+   "text": "Up to a point, yes. Places used to heat cope better with days of thirty to thirty-five degrees. But beyond forty, a study of two point seven million firms found no adaptation at all."
+  },
+  {
+   "start": 18.23,
+   "dur": 6.65,
+   "beats": [
+    0.6,
+    2.65
+   ],
+   "text": "Some heat can\u2019t be adapted to. Cutting emissions keeps more places below the limit."
+  },
+  {
+   "start": 24.88,
+   "dur": 5.08,
+   "beats": [
+    0.6
+   ],
+   "text": "Adapt where we can. Cut emissions so we still can."
+  }
+ ]
+}
