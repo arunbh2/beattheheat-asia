@@ -30,13 +30,14 @@
     ] },
   { "id": "fund", "label": "Fund", "h": "Fund and build", "hub": "/fund/",
     "intro": "Where money for protection comes from, where it reaches, and what to ask before funding.",
-    "lead": ["/heat-economy/", "The heat economy", "Who offers protection, who funds it, and what could be built."],
+    "lead": ["/heat-economy/flows/", "Follow the money", "Where funding for protection comes from, where it reaches, and the cycles it has not yet reached."],
     "items": [
+     ["/heat-economy/", "The heat economy", "Who offers protection, who funds it, and what could be built", 1],
      ["/finance/", "Paying for protection", "What needs paying for, and when money is needed", 1],
      ["/heat-economy/money/", "Funders and funding", "48 funders, 50 pieces of funding traced", 1],
      ["/heat-economy/conditions/", "Questions to ask", "Before you buy, fund or start something", 1],
      ["/heat-economy/opportunities/", "Ideas to explore", "32 ideas, one or more for every cycle", 1],
-     ["/heat-economy/businesses/", "Businesses", "91 businesses offering protection", 1],
+     ["/heat-economy/businesses/", "Businesses", "91 businesses offering protection", 2],
      ["/heat-network/", "The heat network", "330 organisations already at work", 1],
      ["/paying-for-protection/", "Paying for protection, as text", "Cases and instruments in plain text", 2]
     ] },
@@ -57,7 +58,7 @@
  ],
  "footer_extra": [["/guide/", "How to use this site"], ["/paths/", "Paths by role"], ["/join/", "Help build Common Shade"], ["/cite/", "Cite and reuse"], ["/approach/", "How we check facts"], ["/corrections/", "Corrections"], ["/llms-full.txt", "Everything as one text file"]],
  "names": {
-  "/heat-economy/businesses/": "Businesses", "/heat-economy/money/": "Funders and funding", "/heat-economy/opportunities/": "Ideas", "/heat-economy/conditions/": "Questions to ask",
+  "/heat-economy/businesses/": "Businesses", "/heat-economy/money/": "Funders and funding", "/heat-economy/opportunities/": "Ideas", "/heat-economy/conditions/": "Questions to ask", "/heat-economy/flows/": "Follow the money",
   "/understand/": "Understand heat", "/act/": "Act", "/fund/": "Fund and build", "/evidence/": "News and evidence", "/paths/": "Paths by role", "/corrections/": "Corrections"
  }
 }

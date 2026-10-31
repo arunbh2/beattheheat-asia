@@ -54,7 +54,7 @@ const SUITS = { both: "Works in dry and humid heat", "hot-dry": "Best in dry hea
 const ICON = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2316202B'/%3E%3Cpath d='M5 14 Q16 4 27 14' fill='none' stroke='%23F26430' stroke-width='4.5' stroke-linecap='round'/%3E%3Cpath d='M9 13 V27 M23 13 V27' stroke='%23F6E7D7' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E";
 const V = (fs.readFileSync(path.join(ROOT, "index.html"), "utf8").match(/styles\.css\?v=(\d+)/) || [, "1"])[1];
 const NAV = `<nav aria-label="Elsewhere on the site"><a href="/#explore">The map</a><a href="/practical/">Practical actions</a><a href="/solutions/">Solutions</a><a href="/plan/">Plan a response</a><a href="/news/">Heat in the news</a><a href="/join/">Help build Common Shade</a></nav>`;
-const PAGES = [["", "Start here"], ["businesses", "Businesses"], ["money", "Funding and support"], ["opportunities", "Ideas"], ["conditions", "Questions to ask"]];
+const PAGES = [["", "Start here"], ["businesses", "Businesses"], ["flows", "Follow the money"], ["money", "Funding and support"], ["opportunities", "Ideas"], ["conditions", "Questions to ask"]];
 const subnav = cur => `<nav class="he-sub" aria-label="The heat economy">${PAGES.map(([s, n]) => `<a href="/heat-economy/${s ? s + "/" : ""}"${s === cur ? ' aria-current="page"' : ""}>${esc(n)}</a>`).join("")}</nav>`;
 const ABOUT = `<p class="sol-caveat he-about"><b>About this section.</b> We gathered this from public websites and reports in October 2026. Being listed does not mean we recommend, partner with or rank anyone, and none of it is financial advice. Companies describe their own products; we have not tested them, so please check details with them directly. If something is missing or out of date, <a href="/join/">tell us</a>.</p>`;
 const page = ({ slug, title, desc, body, script = "" }) => `<!DOCTYPE html>
@@ -332,10 +332,73 @@ const conditions = shell("conditions", "The heat economy · Questions to ask", "
           <div class="he-roles">${(C.actor_roles || []).map(x => `<article class="he-role"><h3>${esc(inst(x.institution_type))}</h3>${ul(PL.roles[x.institution_type] || x.suggestions)}</article>`).join("")}</div></section>
         <p class="tool-alt">Print this page and take it to your next meeting, or <a href="/heat-economy/">go back to the start</a>.</p>`);
 
+// ---- Follow the money: every piece of traced funding, from who gives it to the cycles it could help break ----
+// Four stages: who funds (kind) → how (instrument) → what it builds (kind of protection) → cycles. A piece of funding
+// linked to several cycles is shared equally between them. Counts by default: the amounts are of different kinds
+// (rounds, approved envelopes, credit limits, guarantees) and cannot fairly be added into one total.
+const FKIND = { phil: "Philanthropy", public: "Public and climate funds", dev: "Development finance", inv: "Investors and insurers" };
+const T2K = { philanthropy: "phil", "family-office": "phil", "adaptation-fund": "public", "climate-fund": "public", "public-innovation": "public", dfi: "dev", mdb: "dev", "blended-facility": "dev", vc: "inv", cvc: "inv", impact: "inv", "risk-capital": "inv" };
+const kindByDeal = {}; INV.forEach(i => (i.deals || []).forEach(id => { if (!kindByDeal[id] && T2K[i.type]) kindByDeal[id] = T2K[i.type]; }));
+const KIND_BY_NAME = [[/Swiss Agency for Development|Government of|Ministry|Municipal/i, "public"], [/Foundation|Philanthrop|Earthshot|Collaborative/i, "phil"],
+  [/Green Climate Fund|Global Environment Facility|Adaptation Fund|Efficiency for Access|CLASP/i, "public"], [/ADB|IFC|DFC|FMO|PIDG|SEACEF|CEI Africa|Impact Fund Denmark|Development/i, "dev"]];
+const fkind = d => { const n = d.investors.join(" "), hit = KIND_BY_NAME.find(([re]) => re.test(n)); return hit ? hit[1] : kindByDeal[d.id] || "inv"; };
+const fins = d => ({ grant: "Grants", prize: "Prizes", equity: "Shares", convertible: "Loans", debt: "Loans", guarantee: "Guarantees and insurance", "insurance-capital": "Guarantees and insurance" })[d.instrument]
+  || (/Accredited|programme|Public/i.test(d.stage) ? "Programme funding" : "Mixed or not stated");
+const ROLES = {
+  catalytic: ["Catalytic", "Money that takes on risk so that other money can follow: guarantees, insurance capital, flexible or early loans."],
+  evidence: ["Evidence", "Prizes, challenges, research and pilots that show what works, and for whom."],
+  field: ["Field-building", "Programmes that connect people, share data and build the wider field."],
+  delivery: ["Delivery", "Money that pays directly for protection people receive: public cooling, programmes and facilities."],
+  commercial: ["Commercial growth", "Investment in businesses with paying customers: shares and loans for growth."] };
+const frole = d => /guarantee|insurance-capital|convertible/.test(d.instrument || "") || /Catalytic|transition|Guarantee|reinsurance|Portfolio/i.test(d.stage) ? "catalytic"
+  : /prize/.test(d.instrument || "") || /Prize|Research|Challenge|pilot/i.test(d.stage) ? "evidence"
+  : /Philanthropic programme/i.test(d.stage) ? "field"
+  : /Public cooling facility|thermal-comfort|Accredited-entity|programme phase/i.test(d.stage) ? "delivery" : "commercial";
+const SAS = new Set(["IN", "BD", "PK", "NP", "LK", "BT", "MV", "AF"]), SEAS = new Set(["ID", "TH", "VN", "PH", "MY", "SG", "KH", "LA", "MM", "BN", "TL"]);
+const FDATA = DEALS.map(d => { const a = d.amount || {}, u = Number(a.usd); return { id: d.id, r: recip(d), f: d.investors.join(", "), k: fkind(d), i: fins(d), s: segName(d.segment),
+  c: (d.loops || []).filter(id => loopById[id]), u: isFinite(u) && u > 0 ? u : null, ul: usd(a.usd), st: d.status, role: frole(d), date: d.date,
+  sa: (d.countries || []).some(c => SAS.has(c)), sea: (d.countries || []).some(c => SEAS.has(c)), src: live((d.source || {}).url) ? d.source.url : "", sl: (d.source || {}).label || "Source" }; });
+const touched = new Set(FDATA.flatMap(d => d.c)), untraced = D.LOOPS.filter(l => !touched.has(l.id));
+const roleN = Object.fromEntries(Object.keys(ROLES).map(k => [k, FDATA.filter(d => d.role === k).length]));
+const FMETA = { kinds: FKIND, roles: Object.fromEntries(Object.entries(ROLES).map(([k, v]) => [k, v[0]])), status: DSTATUS,
+  loops: Object.fromEntries(D.LOOPS.map(l => [l.id, l.name])) };
+const flows = shell("flows", "The heat economy · Follow the money", "Where funding for heat protection comes from, <br>and where it reaches.",
+  `A first, partial trace: ${N.deals} pieces of funding from public announcements, followed from who gave them to the cycles they could help break. It is a sample, not the whole picture, and it will grow.`,
+  `<nav class="sol-jump" aria-label="On this page"><a href="#flow">The flow</a> · <a href="#roles">The role money plays</a> · <a href="#untraced">Cycles we have not yet traced</a> · <a href="#health">Health</a> · <a href="#risk">Risk finance</a></nav>
+        <section class="cty-s fl" id="flow" aria-labelledby="fl-h"><h2 id="fl-h">The flow</h2>
+          <div class="fl-bar" role="group" aria-label="What to show">
+            <div class="fl-seg" role="radiogroup" aria-label="Look through"><span class="fl-lbl">Look through</span>
+              ${[["phil", "Philanthropy and grants"], ["public", "Public and climate funds"], ["dev", "Development finance"], ["inv", "Investors and insurers"], ["all", "Everything"]].map(([v, t], i) => `<button type="button" role="radio" aria-checked="${i ? "false" : "true"}" data-lens="${v}">${t}</button>`).join("")}</div>
+            <label class="fl-sel"><span class="fl-lbl">Measure</span><select data-fl="measure"><option value="n">Pieces of funding</option><option value="u">US$ amounts (where published)</option></select></label>
+            <label class="fl-sel"><span class="fl-lbl">Status</span><select data-fl="status"><option value="">Any</option><option value="paid">Paid out or confirmed</option><option value="announced">Announced</option><option value="unclear">Not clear</option></select></label>
+            <label class="fl-sel"><span class="fl-lbl">Where</span><select data-fl="where"><option value="">Anywhere</option><option value="sa">South Asia</option><option value="sea">Southeast Asia</option></select></label>
+          </div>
+          <p class="fl-caution" data-fl-caution hidden>Amounts are of different kinds (investment rounds, approved envelopes, credit limits, guarantees) and are not a total. Funding without a published amount drops out of this view.</p>
+          <div class="fl-stages" aria-hidden="true"><span>Who funds</span><span>How</span><span>What it builds</span><span>Cycles it could help break</span></div>
+          <div class="fl-chart" data-fl-chart role="img" aria-label="Flow of traced funding from kinds of funder, through kinds of funding and kinds of protection, to the cycles of heat they could help break. A full list follows the chart."></div>
+          <p class="fl-hint">Select any band or label to follow it from end to end. A piece of funding linked to several cycles is shared equally between them.</p>
+          <div class="fl-panel" data-fl-panel aria-live="polite"></div>
+          <noscript><p class="he-note">The interactive flow needs JavaScript. <a href="/heat-economy/money/#deals">Every piece of funding is listed here</a>.</p></noscript>
+        </section>
+        <section class="cty-s" id="roles"><h2>The role money plays</h2>
+          <p class="he-intro">Our reading of each piece of funding, from its type and stage. This is inferred, not stated by the funders.</p>
+          <div class="fl-roles">${Object.entries(ROLES).map(([k, [h, p]]) => `<button type="button" class="fl-role fl-role--${k}" data-role="${k}" aria-pressed="false"><b>${esc(h)}</b><span class="fl-role-n">${roleN[k]}</span><span>${esc(p)}</span></button>`).join("")}</div>
+          <p class="he-note">Most of the funding we could trace is commercial growth for products with a paying customer. Fewer pieces take on risk, build evidence or build the field, and services such as paid rest or shared cool rooms rarely appear, because they are usually paid for from public budgets this trace does not cover.</p></section>
+        <section class="cty-s" id="untraced"><h2>Cycles we have not yet traced funding to <span class="he-n">${untraced.length}</span></h2>
+          <p class="he-intro">This may mean the money exists and we have not found it yet. If you know of funding for any of these, <a href="/corrections/">please tell us</a>.</p>
+          <ul class="fl-untraced">${untraced.map(l => `<li><a class="fl-u-h" href="/#loop-${l.id}">${esc(l.name)}</a><span>${esc(l.summary)}</span><a class="fl-u-go" href="/heat-economy/opportunities/#loop-${l.id}">Ideas for this cycle <span aria-hidden="true">→</span></a></li>`).join("")}</ul></section>
+        <section class="cty-s" id="health"><h2>The health thread</h2>
+          <div class="fl-callout"><p class="fl-big">US$3.3 bn <span>declared</span> · US$1.1 bn <span>committed</span></p><p>Forty-eight countries have put a price on what they need each year to protect health from climate change; international funding committed in 2024 covered about a third (Lancet Countdown 2026). Clinics, heat-illness surveillance and health warnings sit inside that gap.</p><p><a href="/lancet-countdown-2026/#for-money">What the Lancet Countdown means for funders <span aria-hidden="true">→</span></a></p></div></section>
+        <section class="cty-s" id="risk"><h2>Risk finance</h2>
+          <div class="fl-callout fl-callout--soft"><p class="eyebrow">Being checked</p><p>Research on money arranged before a heatwave arrives, such as insurance and pre-agreed funds, is being verified. It will appear here, sourced and labelled known, inferred or uncertain, once every claim passes our checks.</p></div></section>
+        <p class="tool-alt">Every piece of funding is also listed in a table on <a href="/heat-economy/money/#deals">Funders and funding</a>, and can be <a href="/heat-economy/data/deals.csv">downloaded as a spreadsheet</a>.</p>`);
+const FLOW_JS = `<script>window.FL=${JSON.stringify({ d: FDATA, m: FMETA }).replace(/</g, "\\u003c")};</script><script src="/heat-economy/flows.js?v=${V}" defer></script>`;
+
 // ---- write the pages ----
 const write = (slug, title, desc, body, script = "") => { const dir = path.join(ROOT, slug); fs.mkdirSync(dir, { recursive: true }); fs.writeFileSync(path.join(dir, "index.html"), page({ slug, title, desc, body, script })); };
 write("heat-economy", "The heat economy", "Businesses, funding and ideas that protect people from heat in Asia, and what to ask before you buy, fund or start something.", overview);
 write("heat-economy/businesses", "Businesses offering protection from heat", `${N.biz} businesses offering protection from extreme heat, ${N.bizAsia} working in South or Southeast Asia, with what to ask before buying.`, businesses, FILTER("he-count", "businesses"));
+write("heat-economy/flows", "Follow the money", `Where funding for heat protection comes from and where it reaches: ${N.deals} pieces of traced funding, followed from who gave them to the cycles they could help break.`, flows, FLOW_JS);
 write("heat-economy/money", "Funding and support for protection from heat", `${N.inv} funders and investors, ${N.deals} pieces of funding and ${N.prog} accelerators, prizes and challenges in protection from extreme heat.`, money, FILTER("he-count", "funders and programmes"));
 write("heat-economy/opportunities", "Ideas for businesses and services that protect people from heat", `${N.opp} ideas for businesses and services, one or more for each vicious cycle of extreme heat: who could pay, who it helps, what needs to be in place.`, opportunities, FILTER("he-count", "ideas"));
 write("heat-economy/conditions", "Questions to ask before you buy, fund or start", "Twenty-four questions to ask about heat protection, with rules that help, ways to pay, common obstacles and what each organisation could do.", conditions);
