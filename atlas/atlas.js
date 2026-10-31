@@ -102,5 +102,19 @@
   document.querySelectorAll("[data-layer]").forEach(function (x) {
     x.addEventListener("change", function () { layer[x.dataset.layer] = x.checked; if (x.dataset.layer === "live" && x.checked) { loadLive(); setYear(A.y1); } draw(); });
   });
-  draw(); panel();
+  // arriving from "Where this happens": #city-<id>, a heatwave or milestone id, or #year-YYYY
+  function fromHash() {
+    var h = decodeURIComponent(location.hash.slice(1)); if (!h) return false;
+    var y = h.match(/^year-(\d{4})$/); if (y) { setYear(+y[1]); return true; }
+    var c = h.match(/^city-([a-z]+)$/);
+    if (c && A.cities.some(function (x) { return x.id === c[1]; })) {
+      layer.city = true; var cb = document.querySelector('[data-layer="city"]'); if (cb) cb.checked = true;
+      S.y = A.y1; S.sel = c[1]; draw(); panel(); return true;
+    }
+    var hw = A.hw.find(function (e) { return e.id === h; }), ms = A.ms.find(function (e) { return e.id === h; });
+    if (hw || ms) { S.y = hw ? hw.y : ms.year; S.sel = h; draw(); panel(); return true; }
+    return false;
+  }
+  if (!fromHash()) { draw(); panel(); }
+  window.addEventListener("hashchange", fromHash);
 })();

@@ -32,6 +32,23 @@ function pages(dir, out = []) {
 const strip = s => s.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
 const decode = s => s.replace(/&amp;/g, "&").replace(/&#39;|&rsquo;/g, "’").replace(/&quot;/g, '"');
 
+// when each page's own content last changed (not the menu, the footer or the build date), so a returning reader can be
+// told, gently, that a page has changed since their last visit. Kept in data/site/page-versions.json.
+const crypto = require("crypto");
+const VERS_FILE = path.join(ROOT, "data", "site", "page-versions.json");
+const VERS = fs.existsSync(VERS_FILE) ? JSON.parse(fs.readFileSync(VERS_FILE, "utf8")) : {};
+const TODAY = new Date().toISOString().slice(0, 10);
+function changedOn(pathname, html) {
+  const m = html.match(/<main[\s\S]*<\/main>/); if (!m) return "";
+  const body = m[0].replace(/<!--csn-->[\s\S]*?<!--\/csn-->/g, "").replace(/<script[\s\S]*?<\/script>/g, "").replace(/\s+/g, " ");
+  const h = crypto.createHash("sha1").update(body).digest("hex").slice(0, 16), v = VERS[pathname];
+  if (!v || v.hash !== h) VERS[pathname] = { hash: h, changed: v ? TODAY : "2026-10-01" };
+  return VERS[pathname].changed;
+}
+const descOf = html => { const d = html.match(/<meta name="description" content="([^"]*)"/); if (!d) return ""; const t = decode(d[1]).replace(/&#x27;/g, "’");
+  const first = t.split(/(?<=[.!?])\s+/)[0]; return first.length > 30 ? first : t; };
+const NO_END = /^\/(print\/|404\/|join\/)/;
+
 function titleOf(html) {
   const h1 = html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/);
   let t = h1 ? strip(h1[1]) : "";
@@ -73,7 +90,11 @@ function apply(file, pn) {
   // on a page that is a stop on a path, the path card opens the main content (shown only to readers on that path)
   const cards = NAV.pathCards(pathname);
   if (cards) html = html.replace(/(<main[^>]*>)/, `$1\n<!--csn-->${cards}<!--/csn-->`);
-  const foot = `<!--csn-->${NAV.footer(pathname, title, UPDATED)}<script>${NAV.JS}</script><script src="/ticker.js?v=${V}" defer></script><!--/csn-->\n`;
+  // the page's own content date, for the "changed since your last visit" note
+  const changed = changedOn(pathname, html);
+  html = html.replace(/<body([^>]*?)(\sdata-changed="[^"]*")?>/, `<body$1 data-changed="${changed}">`);
+  const end = NO_END.test(pathname) ? "" : NAV.ending(pathname, title, descOf(html));
+  const foot = `<!--csn-->${end}${NAV.footer(pathname, title, UPDATED)}<script>${NAV.JS}</script><script src="/ticker.js?v=${V}" defer></script><!--/csn-->\n`;
   const fAt = html.lastIndexOf("<footer");
   html = fAt > -1 && fAt > mainAt ? html.slice(0, fAt) + foot + html.slice(fAt) : html.replace(/<\/body>/, foot + "</body>");
   fs.writeFileSync(file, html);
@@ -101,6 +122,7 @@ module.exports = function buildNav() {
   list.forEach(f => apply(f));
   if (fs.existsSync(path.join(ROOT, "404.html"))) apply(path.join(ROOT, "404.html"), "/404/");
   applyHome();
+  fs.writeFileSync(VERS_FILE, JSON.stringify(Object.fromEntries(Object.entries(VERS).sort()), null, 1) + "\n");
   console.log("Navigation on", list.length, "pages");
 };
 if (require.main === module) module.exports();

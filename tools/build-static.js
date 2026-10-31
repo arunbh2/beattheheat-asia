@@ -128,6 +128,18 @@ const out = {};
   });
   out[p.slug] = page(p, intro, h); md.push(m.filter(Boolean).join("\n\n"));
 }
+// a drawn, faceless composite person for each cycle (data/site/people.json), and the one-minute check for places
+const PEOPLE = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "people.json"), "utf8"));
+const FIGURE = `<svg viewBox="0 0 56 56" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 14 Q28 2 50 14" stroke="#F26430" stroke-width="3.4"/><circle cx="28" cy="22" r="5.5"/><path d="M28 27.5 V40 M28 40 L22 52 M28 40 L34 52 M28 31 L20 37 M28 31 L36 37"/></g></svg>`;
+const personOf = id => { const x = PEOPLE.people.find(q => q.loop === id); return x ? `<figure class="cs-person">${FIGURE}<figcaption><b>${esc(x.who)}</b><p>${esc(x.story)}</p><small>${esc(PEOPLE.note)}</small></figcaption></figure>` : ""; };
+const FORM_URL = "https://forms.cloud.microsoft/e/SNfMp0esFh";
+const PIN = `<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 18s6-5.6 6-10a6 6 0 1 0-12 0c0 4.4 6 10 6 10z" fill="none" stroke="#F26430" stroke-width="2"/><circle cx="10" cy="8" r="2.2" fill="#F26430"/></svg>`;
+const KB_DIR = path.join(ROOT, "data", "kb");
+const KBR = fs.existsSync(KB_DIR) ? fs.readdirSync(KB_DIR).filter(f => f.endsWith(".json") && !f.startsWith("_")).flatMap(f => JSON.parse(fs.readFileSync(path.join(KB_DIR, f), "utf8"))).filter(r => r.status === "current" && r.type !== "source") : [];
+const monthLabel = m => new Date(String(m).slice(0, 7) + "-01T00:00:00Z").toLocaleDateString("en-GB", { month: "long", year: "numeric", timeZone: "UTC" });
+const recentFor = places => { const rs = KBR.filter(r => (r.places || []).some(p => places.includes(p))); return rs.length ? `<h2>Recently updated here</h2><ul>${rs.map(r => `<li>${esc(r.title)} <span class="meta">(added in the ${esc(monthLabel(r.added || r.as_of))} update)</span></li>`).join("")}</ul><p class="meta">Every change is checked before it appears. <a href="/whats-new/">What changed this month</a> · <a href="/corrections/">Corrections</a></p>` : ""; };
+const checkFor = (key, label) => `<aside class="cs-check" data-check="${key}" data-label="${esc(label)}" data-form="${FORM_URL}"><p class="cs-check__q">Does this page feel right for ${esc(label)}?</p><p>If something is missing or not quite right, <a href="/corrections/">please tell us</a>. People who know a place help keep it accurate.</p></aside>`;
+
 // loops
 {
   const p = PAGES[1], intro = `${D.LOOPS.length} vicious cycles in which extreme heat feeds itself, traps people or overwhelms institutions, with where each one plays out in Asia, the evidence, and the actions that could break it.`;
@@ -136,7 +148,7 @@ const out = {};
     h += `<h2>${esc(g.name)}</h2>`; m.push(`### ${g.name}`);
     D.LOOPS.filter(l => l.group === g.id).forEach(l => {
       const lv = loopLevers(l), ev = (D.EVIDENCE[l.id] || []);
-      h += `<h3 id="${l.id}">${esc(l.name)}</h3><p>${esc(l.summary)}</p>
+      h += `<h3 id="${l.id}">${esc(l.name)}</h3><p>${esc(l.summary)}</p>${personOf(l.id)}
         <p class="meta">The cycle: ${esc(l.path.map(name).join(" → "))} → back to the start. Evidence: ${l.evidence === "established" ? "well established" : "emerging (each link is evidenced; the full cycle less so)"}.</p>
         ${(x => x ? `<p><strong>${esc(D.STAKES_LABEL[x.kind])} (${esc(x.where)}):</strong> ${esc(x.n)}. ${esc(x.text)} ${ext(x.url, x.by)}</p>${x.sea ? `<p><strong>In Southeast Asia (${esc(x.sea.where)}):</strong> ${esc(x.sea.n)}. ${esc(x.sea.text)} ${ext(x.sea.url, x.sea.by)}</p>` : ""}` : `<p class="meta">${esc(D.STAKES_LABEL.none)}.</p>`)(D.LOOP_STAKES[l.id])}
         ${D.LOOP_PLACES[l.id] ? `<p><strong>Where it plays out:</strong> ${esc(D.LOOP_PLACES[l.id])}</p>` : ""}
@@ -299,9 +311,11 @@ const SNAP_SLUG = { Bangladesh: "bangladesh", India: "india", Indonesia: "indone
     const risks = cp.risk.map(id => D.AT_RISK.find(g => g.id === id)).filter(Boolean);
     const status = D.CITY_HAP[cp.hap.status];
     h += `<h2 id="${cp.id}"><a href="/cities/${cp.id}/">${esc(c.name)}, ${esc(c.country)}</a></h2><p>${esc(cp.tagline)}</p><p class="meta">Heat plan: ${esc(status)}. Cycles tied to it: ${esc(loops.map(x => x.l.name).join(", "))}.</p>`;
-    const body = `${cp.heat ? `<p><strong>Heat type:</strong> ${esc(cp.heat)} <a href="/glossary/#dryhumid">Dry heat and humid heat, explained</a>.</p>` : ""}<h2>Heat action plan: ${esc(status)}</h2><p>${esc(cp.hap.text)}</p><p class="src">Sources: ${cp.hap.sources.map(s => ext(s.url, s.label)).join(" · ")}</p>
+    const body = `<a class="cs-where" href="/atlas/#city-${cp.id}">${PIN}Where this happens: ${esc(c.name)} on the Atlas <span aria-hidden="true">→</span></a>${cp.heat ? `<p><strong>Heat type:</strong> ${esc(cp.heat)} <a href="/glossary/#dryhumid">Dry heat and humid heat, explained</a>.</p>` : ""}<h2>Heat action plan: ${esc(status)}</h2><p>${esc(cp.hap.text)}</p><p class="src">Sources: ${cp.hap.sources.map(s => ext(s.url, s.label)).join(" · ")}</p>
       <h2>Heat today</h2><p>Live readings and the week’s forecast are on <a href="/#city-${cp.id}">the interactive map</a>. Official warnings: ${ext(c.warn.url, c.warn.label)}. ${D.LIVE_FINGERPRINT ? `How much climate change shaped today’s heat: ${ext(D.LIVE_FINGERPRINT.map.url, D.LIVE_FINGERPRINT.map.label)}.` : ""}</p>
       <h2>Vicious cycles the evidence ties to ${esc(c.name)}</h2>${loops.map(x => `<h3><a href="/loops/#${x.l.id}">${esc(x.l.name)}</a></h3><p>${esc(x.why)}${x.src ? ` <span class="src">Source: ${ext(x.src.url, x.src.label)}</span>` : ""}</p><p class="meta">${esc(x.l.summary)} <a href="/#loop-${x.l.id}">Follow it on the map</a>.</p>`).join("")}
+      ${checkFor("city-" + cp.id, c.name)}
+      ${recentFor(["city-" + cp.id, "country-" + (SNAP_SLUG[c.country] || c.country.toLowerCase().replace(/\s+/g, "-"))])}
       <h2>Who heat hits hardest here</h2><ul>${risks.map(g => `<li><a href="/who-is-at-risk/#${g.id}">${esc(g.name)}</a></li>`).join("")}</ul>
       ${exs.length ? `<h2>A worked plan to learn from</h2>${exs.map(x => `<p><a href="/worked-plans/#${x.id}">${esc(x.title)}</a> (${esc(x.place)}, ${esc(x.year)})</p>`).join("")}` : ""}
       <h2>Already at work here</h2><ul>${orgs.map(o => `<li>${ext(o.url, o.name)}: ${esc(o.does)}</li>`).join("")}</ul><p class="meta">Listing does not imply partnership, affiliation or endorsement.</p>
@@ -322,7 +336,7 @@ const SNAP_SLUG = { Bangladesh: "bangladesh", India: "india", Indonesia: "indone
   const p = PAGES[9], intro = `${D.HEATWAVES.length} major heatwaves across South and Southeast Asia, from Odisha in 1998 to 2026: what happened, what it cost and what changed afterwards. ${D.HEATWAVES_NOTE}`;
   let h = "", m = [`## ${p.title}`, intro];
   D.HEATWAVES.forEach(x => {
-    h += `<h2 id="${x.id}">${esc(x.when)}, ${esc(x.place)}: ${esc(x.title)}</h2><p><strong>Peak:</strong> ${esc(x.peak)}. <strong>Toll:</strong> ${esc(x.toll)}.</p><p>${esc(x.what)}</p><p><strong>What changed:</strong> ${esc(x.changed)}</p>
+    h += `<h2 id="${x.id}">${esc(x.when)}, ${esc(x.place)}: ${esc(x.title)}</h2><p><strong>Peak:</strong> ${esc(x.peak)}. <strong>Toll:</strong> ${esc(x.toll)}.</p><p>${esc(x.what)}</p><p><strong>What changed:</strong> ${esc(x.changed)}</p><p><a class="cs-where" href="/atlas/#${x.id}">${PIN}Where this happens: see it on the Atlas <span aria-hidden="true">→</span></a></p>
       <p class="meta">On the map: ${x.nodes.map(n => `<a href="/#${n}">${esc(name(n))}</a>`).join(" · ")}</p>${srcs(x.sources)}`;
     m.push(`### ${x.when}, ${x.place}: ${x.title}`, `Peak: ${x.peak}. Toll: ${x.toll}.`, x.what, `What changed: ${x.changed}`, ...x.sources.map(s => `Source: ${s.label} ${s.url}`));
   });
