@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T22:30:35.417Z",
+ "updated": "2026-10-31T05:58:15.533Z",
  "keepDays": 14,
  "sources": [
   {
@@ -11,7 +11,7 @@
    "name": "GDELT Project",
    "ok": false,
    "found": 0,
-   "error": "fetch failed: UND_ERR_CONNECT_TIMEOUT"
+   "error": "GDELT replied: Your query was too short or too long. "
   }
  ],
  "query": "(heatwave OR \"heat wave\" OR \"extreme heat\" OR \"heat stress\" OR heatstroke OR \"heat index\") (India OR Bangladesh OR Nepal OR \"Sri Lanka\" OR Pakistan OR Bhutan OR Maldives OR Cambodia OR Indonesia OR Philippines OR Singapore OR Thailand OR Vietnam OR Malaysia OR Myanmar OR Laos) sourcelang:english",
