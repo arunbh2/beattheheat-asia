@@ -126,7 +126,7 @@ module.exports = [
     { type: "statement", line: "Answer *two questions.*", sub: "Who you are, and what you need. Then follow a short path.", say: ["Answer two questions, and follow a short path.", "There’s even a running order for a ninety-minute workshop."] },
     END("Start where you are.") ] },
 
-  { id: "join", term: "Help build Common Shade", page: "join/index.html", label: "Help build Common Shade", url: "beattheheat.asia/join", scenes: [
+  { id: "join", term: "Help build Common Shade", page: "join/index.html", place: "h2", label: "Help build Common Shade", url: "beattheheat.asia/join", scenes: [
     { type: "hook", q: "Shade is something we *hold up together.*", say: ["Shade is something we hold up together."] },
     { type: "show", title: "Why it takes many hands", say: ["A shaded workplace needs permission, maintenance and water.", "A heat warning needs someone able to act on it.", "And a break needs to be possible without losing the day’s income."],
       d: { kind: "flow", steps: [{ k: "Shade", text: "Permission, upkeep, water", at: 0 }, { k: "Warning", text: "Someone able to act", at: 1 }, { k: "Rest", text: "Without losing income", at: 2, good: true }] } },
