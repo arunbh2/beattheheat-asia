@@ -1,0 +1,34 @@
+[
+  {
+    "id": "global",
+    "name": "Global networks and organisations"
+  },
+  {
+    "id": "asia",
+    "name": "Governments and regional bodies in Asia"
+  },
+  {
+    "id": "research",
+    "name": "Research and evidence"
+  },
+  {
+    "id": "ground",
+    "name": "Working on the ground"
+  },
+  {
+    "id": "cooling",
+    "name": "Cooling solutions"
+  },
+  {
+    "id": "finance",
+    "name": "Insurance and finance"
+  },
+  {
+    "id": "lending",
+    "name": "Banks, regulators and microfinance"
+  },
+  {
+    "id": "funders",
+    "name": "Philanthropy and funders"
+  }
+]

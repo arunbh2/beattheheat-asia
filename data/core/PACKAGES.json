@@ -1,0 +1,38 @@
+[
+  {
+    "id": "workers",
+    "title": "Protect workers",
+    "text": "Make it safe and affordable to stop working in dangerous heat.",
+    "levers": ["heatrules","heatcash","socialprotection","freecare"]
+  },
+  {
+    "id": "cities",
+    "title": "Cool cities and homes",
+    "text": "Take heat out of streets, homes and nights.",
+    "levers": ["coolbydesign","greencity","affordablecool","coolhousing","coolnights"]
+  },
+  {
+    "id": "health",
+    "title": "Health first",
+    "text": "Warn early, prepare clinics and count every death.",
+    "levers": ["hap","readyclinics","freecare","coolingcentres","countdeaths"]
+  },
+  {
+    "id": "money",
+    "title": "Fix the money",
+    "text": "Fund prevention before the season, not the emergency after it.",
+    "levers": ["heatbudget","anticipatory","riskpools","countdeaths","farmcredit"]
+  },
+  {
+    "id": "families",
+    "title": "Protect children and families",
+    "text": "Keep children learning, households afloat and nights bearable.",
+    "levers": ["keepinschool","socialprotection","affordablecool","coolnights"]
+  },
+  {
+    "id": "land",
+    "title": "Land, water and energy",
+    "text": "Stop nature and infrastructure from feeding the heat.",
+    "levers": ["emissions","cleancool","soilwater","blackcarbon","firesmart","irrigate","drypower","pumpbackup"]
+  }
+]

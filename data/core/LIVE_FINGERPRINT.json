@@ -1,0 +1,31 @@
+{
+  "title": "Is this climate change?",
+  "text": "Some of today’s heat is weather. Some of it is climate change. Climate Central’s Climate Shift Index scores each day’s temperature in more than 900 cities, from −5 to +5, by how much climate change made it more likely. A score of 3 means climate change made that day’s heat at least three times more likely.",
+  "map": {
+    "label": "Climate Shift Index map, Climate Central",
+    "url": "https://csi.climatecentral.org/"
+  },
+  "cardLink": "Climate change’s fingerprint today",
+  "mapTitle": "Climate change is already adding heat days",
+  "mapText": "Extreme heat is where every cycle on this map starts, and it is no longer only weather. Climate change is already making Asia’s hottest days more frequent.",
+  "season": "Summer 2026, June to August",
+  "facts": [
+    {
+      "n": "1.5 billion+",
+      "text": "people worldwide had at least 30 days of risky heat added by climate change."
+    },
+    {
+      "n": "117 million",
+      "text": "of them were in India, the most of any country, followed by China (94 million) and Indonesia (83 million)."
+    },
+    {
+      "n": "2.8 billion",
+      "text": "people in Asia, 58% of its population, lived through at least 30 days of risky heat."
+    }
+  ],
+  "defn": "A risky heat day is hotter than 90% of the days recorded in that place from 1991 to 2020.",
+  "source": {
+    "label": "Climate Central, Risky heat added by climate change: June to August 2026",
+    "url": "https://www.climatecentral.org/climate-matters/risky-summer-heat"
+  }
+}

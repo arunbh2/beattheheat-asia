@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Buying before diagnosing",
+    "what": "The asset is chosen before anyone has mapped who is exposed, where and why, so the shade ends up where nobody waits.",
+    "fix": "Start with the people and places at risk, then choose.",
+    "step": 1
+  },
+  {
+    "name": "Built, with no one to keep it",
+    "what": "It looks good for one season, then fades because no running budget or owner was set aside.",
+    "fix": "Name who keeps each asset working after year one, and from which budget.",
+    "step": 3,
+    "fact": "The authors of a four-city study warn that without upkeep, green investments become “high-profile ribbon-cutting events but no long-term benefit”.",
+    "source": {
+      "label": "Hansen et al., chapter 10 in Nature-Based Solutions for Cities, 2023",
+      "url": "https://doi.org/10.4337/9781800376762"
+    }
+  },
+  {
+    "name": "Green without water",
+    "what": "Trees, parks and green roofs go in with no water source, soil care or survival budget.",
+    "fix": "Secure the water and three years of care before planting, and count trees that survive."
+  },
+  {
+    "name": "Promising degrees you haven’t measured",
+    "what": "A fixed temperature drop is promised from another place’s study.",
+    "fix": "Log temperatures in treated and untreated places, and report what you measured.",
+    "step": 3
+  },
+  {
+    "name": "A list of activities, not a model",
+    "what": "A proposal lists many activities, but none says who it protects, what it costs per unit, who owns it and what changes.",
+    "fix": "For each option, name the users, the unit cost, the owner and the outcome."
+  }
+]

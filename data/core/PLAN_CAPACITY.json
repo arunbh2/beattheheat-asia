@@ -1,0 +1,13 @@
+[
+  {
+    "id": "have",
+    "name": "What existing capability or budget can support this plan?",
+    "placeholder": "e.g. the health department’s summer outreach staff; the parks maintenance budget",
+    "note": "Count what a budget line contributes to heat, not the whole programme."
+  },
+  {
+    "id": "ask",
+    "name": "What support must be requested, from whom, and for which decision?",
+    "placeholder": "e.g. technical help from the state to cost priority cooling sites, before the council approves the programme"
+  }
+]

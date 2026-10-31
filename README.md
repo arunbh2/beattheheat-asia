@@ -42,7 +42,7 @@ The analytics code (`SITE_ANALYTICS` in `data.js`) keeps its old account name on
 
 | File | What it does | Do you need to edit it? |
 |---|---|---|
-| `data.js` | **All the content of the map**: systems, consequences, links, vicious cycles, breaking points, institutions | Yes, whenever you want to change or add content |
+| `data/core/*.json` | **All the content of the map**: systems, consequences, links, vicious cycles, breaking points, institutions, one file per part. `data.js` is generated from them | Yes, whenever you want to change or add content (never `data.js` itself) |
 | `index.html` | The page around the map: the title, the section headings, "Why wicked?" | Only to change those words |
 | `script.js` | The code that draws the map and makes it interactive | No |
 | `styles.css` | Colours, fonts and layout | No |
@@ -62,9 +62,9 @@ The numbers at the top of the page (systems, consequences, cycles and so on) are
 
 ---
 
-## How to change or add content (in `data.js`)
+## How to change or add content (in `data/core/`)
 
-Open `data.js` on GitHub and click the **pencil icon** (✏️). The file has eighteen numbered parts:
+The content now lives in the knowledge base in `data/` (see `data/README.md`). Each numbered part below is one file in `data/core/`, named after it: part 1 is `data/core/SYSTEMS.json`, part 14 is `data/core/GLOSSARY.json`, and so on. Its notes are in `data/core/manifest.json`. Open the file on GitHub, click the **pencil icon** (✏️) and change only the text inside the quote marks. The site build (`node tools/build-static.js`) regenerates `data.js` from these files, so never edit `data.js` itself: wherever this guide says "part N of `data.js`", edit that part's file in `data/core/`. New research arrives month by month through `data/inbox/` and is checked before it is published (see `data/README.md`). The parts:
 
 1. **SYSTEMS**: the ten slices of the wheel.
 2. **CONSEQUENCES**: every dot. Each one has an `id` (a short name with no spaces, used by the links), a `sys` (which system it belongs to), a `label` (`\n` starts a new line) and a `desc` (the description shown when someone taps it).

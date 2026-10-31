@@ -1,0 +1,72 @@
+[
+  {
+    "id": "nat",
+    "name": "National governments",
+    "desc": "Set laws, budgets, labour rules, building codes and social protection."
+  },
+  {
+    "id": "city",
+    "name": "City and local governments",
+    "desc": "Run heat action plans, urban design, housing and local services."
+  },
+  {
+    "id": "health",
+    "name": "Health authorities",
+    "desc": "Prepare clinics, track heat illness and deaths, and lead public health warnings."
+  },
+  {
+    "id": "met",
+    "name": "Weather and climate services",
+    "desc": "Forecast dangerous heat and trigger warnings and early action."
+  },
+  {
+    "id": "employers",
+    "name": "Employers and businesses",
+    "desc": "Decide on rest breaks, shade, water, working hours and sick pay."
+  },
+  {
+    "id": "workers",
+    "name": "Worker organisations and unions",
+    "desc": "Organise informal and formal workers to win protection and income security."
+  },
+  {
+    "id": "utilities",
+    "name": "Utilities and energy regulators",
+    "desc": "Keep power flowing, price electricity and shape how cooling is supplied."
+  },
+  {
+    "id": "water",
+    "name": "Water authorities",
+    "desc": "Manage supply, pumping, treatment and how scarce water is shared."
+  },
+  {
+    "id": "agri",
+    "name": "Farmers’ organisations and agriculture agencies",
+    "desc": "Shape what is grown, how water is used and how soils are managed."
+  },
+  {
+    "id": "schools",
+    "name": "Schools and education authorities",
+    "desc": "Decide on classrooms, timetables and support that keeps children learning."
+  },
+  {
+    "id": "insurers",
+    "name": "Banks, insurers and financial regulators",
+    "desc": "Price risk, design insurance and lending, set prudential rules and decide where capital flows. They include central banks, commercial and farm banks, and microfinance lenders."
+  },
+  {
+    "id": "funders",
+    "name": "Development banks, donors and climate funds",
+    "desc": "Finance prevention, protection and the institutions that deliver them."
+  },
+  {
+    "id": "community",
+    "name": "Community and civil society groups",
+    "desc": "Reach the people institutions miss: checking on neighbours, running cooling spaces, and giving people a voice in decisions."
+  },
+  {
+    "id": "intl",
+    "name": "International bodies",
+    "desc": "Set global standards and agreements on emissions, refrigerants and work."
+  }
+]

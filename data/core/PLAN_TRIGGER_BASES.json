@@ -1,0 +1,58 @@
+[
+  {
+    "id": "temp",
+    "name": "Forecast daily maximum temperature",
+    "eg": "India’s weather service declares a heatwave in the plains when the maximum reaches 40 °C and is 4.5 °C or more above normal, or reaches 45 °C. The Bangladesh Red Crescent acts on forecasts above 38 °C in Dhaka.",
+    "sources": [
+      {
+        "label": "India Meteorological Department: heatwave definitions",
+        "url": "https://mausam.imd.gov.in/pdfs/heatcolduser/Definition.pdf"
+      },
+      {
+        "label": "Red Cross Red Crescent Climate Centre on Dhaka, 2024",
+        "url": "https://www.climatecentre.org/13733/red-crescent-activates-early-action-protocol-for-heatwaves-in-dhaka/"
+      }
+    ]
+  },
+  {
+    "id": "index",
+    "name": "Heat index (‘feels like’: temperature and humidity)",
+    "eg": "The Philippines warns at four levels: caution at 27–32 °C, extreme caution at 33–41 °C, danger at 42–51 °C, and extreme danger at 52 °C or more. Schools can suspend classes at danger levels.",
+    "sources": [
+      {
+        "label": "GMA News on PAGASA’s heat index levels",
+        "url": "https://www.gmanetwork.com/regionaltv/news/113664/authorities-underscore-protection-as-heat-from-sun-gets-more-intense/story/"
+      }
+    ]
+  },
+  {
+    "id": "wbgt",
+    "name": "Wet-bulb globe temperature (heat, humidity, sun and wind)",
+    "eg": "Singapore’s advisory marks high heat stress at 33 °C, and employers must give shaded rest every hour for heavy outdoor work from 32 °C.",
+    "sources": [
+      {
+        "label": "Singapore: Heat Stress Advisory, 2023",
+        "url": "https://www.mse.gov.sg/latest-news/press-release-heat-stress-advisory/"
+      },
+      {
+        "label": "Singapore Ministry of Manpower, 2023",
+        "url": "https://www.mom.gov.sg/newsroom/press-releases/2023/1024-enhanced-measures-to-reduce-heat-stress-for-outdoor-workers"
+      }
+    ]
+  },
+  {
+    "id": "local",
+    "name": "A local threshold from your own health records",
+    "eg": "Ahmedabad set its alert temperatures from the link between daily maximum temperature and deaths in the city, which is why thresholds should differ from place to place. In 2023 only about 10 of 37 Indian heat plans appeared to set local thresholds.",
+    "sources": [
+      {
+        "label": "CEEW: scientific heat action plans for Indian cities",
+        "url": "https://www.ceew.in/blogs/scientific-heat-action-plans-indian-cities"
+      },
+      {
+        "label": "Centre for Policy Research, 2023",
+        "url": "https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/"
+      }
+    ]
+  }
+]

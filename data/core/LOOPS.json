@@ -1,0 +1,212 @@
+[
+  {
+    "id": "global",
+    "group": "heat",
+    "name": "The global cooling loop",
+    "evidence": "established",
+    "video": "media/loops/global.mp4",
+    "length": "0:45",
+    "path": ["heat","energy","demand","emissions"],
+    "summary": "Cooling powered by fossil fuels adds to the warming that makes us need more cooling."
+  },
+  {
+    "id": "soil",
+    "group": "heat",
+    "name": "The dry-soil loop",
+    "evidence": "established",
+    "video": "media/loops/soil.mp4",
+    "length": "0:46",
+    "path": ["heat","nature","drysoil"],
+    "summary": "Heat dries the soil. Dry soil can’t cool itself, so the land heats up faster."
+  },
+  {
+    "id": "ice",
+    "group": "heat",
+    "name": "The melting-ice loop",
+    "evidence": "established",
+    "video": "media/loops/ice.mp4",
+    "length": "0:48",
+    "path": ["heat","nature","glacier"],
+    "summary": "Heat melts ice. Darker ground and water absorb more sunlight, and the melting speeds up."
+  },
+  {
+    "id": "fire",
+    "group": "heat",
+    "name": "The wildfire loop",
+    "evidence": "established",
+    "video": "media/loops/fire.mp4",
+    "length": "0:47",
+    "path": ["heat","nature","wildfires"],
+    "summary": "Heat dries forests into fuel. Fires release carbon and strip away the trees that cool the land."
+  },
+  {
+    "id": "cooling",
+    "group": "systems",
+    "name": "The cooling trap",
+    "evidence": "established",
+    "video": "media/loops/cooling.mp4",
+    "length": "0:41",
+    "path": ["demand","uhi"],
+    "summary": "Air conditioning heats the street, and a hotter city needs even more air conditioning."
+  },
+  {
+    "id": "energywater",
+    "group": "systems",
+    "name": "The energy–water loop",
+    "evidence": "established",
+    "video": "media/loops/energywater.mp4",
+    "length": "0:46",
+    "path": ["power","scarcity","thermal"],
+    "summary": "Water systems need power and power plants need water. In a heatwave, each failure deepens the other."
+  },
+  {
+    "id": "pumping",
+    "group": "systems",
+    "name": "The groundwater loop",
+    "evidence": "established",
+    "video": "media/loops/pumping.mp4",
+    "length": "0:49",
+    "path": ["scarcity","irrigation","groundwater"],
+    "summary": "Dry fields need more water, so farmers pump harder, aquifers fall and the shortage deepens."
+  },
+  {
+    "id": "deadgreen",
+    "group": "systems",
+    "name": "The dying-green loop",
+    "evidence": "emerging",
+    "video": "media/loops/deadgreen.mp4",
+    "length": "0:53",
+    "path": ["treeloss","uhi"],
+    "summary": "Heat and drought kill city trees. Without their shade the streets get hotter, and hotter streets kill more trees."
+  },
+  {
+    "id": "clinic",
+    "group": "systems",
+    "name": "The overwhelmed-clinic loop",
+    "evidence": "emerging",
+    "video": "media/loops/clinic.mp4",
+    "length": "0:45",
+    "path": ["heatstroke","hsys"],
+    "summary": "Heat illness floods clinics. Overwhelmed clinics treat people later, and more cases become severe."
+  },
+  {
+    "id": "poverty",
+    "group": "people",
+    "name": "The poverty–heat trap",
+    "evidence": "established",
+    "video": "media/loops/poverty.mp4",
+    "length": "0:50",
+    "path": ["informal","heatstroke","lost"],
+    "summary": "People who can’t afford to stop working fall ill. Illness costs income, and lost income makes stopping even less affordable."
+  },
+  {
+    "id": "debt",
+    "group": "people",
+    "name": "The medical-debt trap",
+    "evidence": "emerging",
+    "video": "media/loops/debt.mp4",
+    "length": "0:43",
+    "path": ["heatstroke","debt","informal"],
+    "summary": "Treatment costs push families into debt. Debt removes any option to rest, and working through the heat brings more illness."
+  },
+  {
+    "id": "energypoverty",
+    "group": "people",
+    "name": "The energy-poverty trap",
+    "evidence": "emerging",
+    "video": "media/loops/energypoverty.mp4",
+    "length": "0:40",
+    "path": ["energypoverty","heatstroke","debt"],
+    "summary": "People who can’t afford to cool fall ill. Illness brings debt, and debt puts cooling even further out of reach."
+  },
+  {
+    "id": "displacement",
+    "group": "people",
+    "name": "The displacement loop",
+    "evidence": "emerging",
+    "video": "media/loops/displacement.mp4",
+    "length": "0:46",
+    "path": ["migration","homes","heatstroke","lost","inequality"],
+    "summary": "People forced to move often land in heat-trapping housing, fall ill, lose income, fall further behind, and are forced to move again."
+  },
+  {
+    "id": "school",
+    "group": "people",
+    "name": "The lost-schooling loop",
+    "evidence": "emerging",
+    "video": "media/loops/school.mp4",
+    "length": "0:45",
+    "path": ["dropout","youth","inequality"],
+    "summary": "Children pulled out of school earn less as adults, and poorer families pull more children out of school."
+  },
+  {
+    "id": "sleep",
+    "group": "people",
+    "name": "The sleepless-nights loop",
+    "evidence": "established",
+    "video": "media/loops/sleep.mp4",
+    "length": "0:45",
+    "path": ["sleepless","mental"],
+    "summary": "Hot nights wreck sleep. Poor sleep frays mental health, and stress makes sleep harder still."
+  },
+  {
+    "id": "greendisplace",
+    "group": "people",
+    "name": "The green-displacement loop",
+    "evidence": "emerging",
+    "video": "media/loops/greendisplace.mp4",
+    "length": "0:49",
+    "path": ["inequality","greengap","greengent","homes"],
+    "summary": "Green space follows wealth. When greening reaches poorer districts without protection, rents rise, residents are pushed into hotter housing, and the gap grows."
+  },
+  {
+    "id": "squeeze",
+    "group": "people",
+    "name": "The heat credit squeeze",
+    "evidence": "emerging",
+    "video": "media/loops/squeeze.mp4",
+    "length": "0:53",
+    "path": ["business","repayments","credit"],
+    "summary": "Heat empties shops and small firms miss repayments. Banks tighten credit, so firms can’t afford to adapt, and the next heatwave hits harder."
+  },
+  {
+    "id": "farmdebt",
+    "group": "people",
+    "name": "The farm-debt loop",
+    "evidence": "emerging",
+    "video": "media/loops/farmdebt.mp4",
+    "length": "0:47",
+    "path": ["harvests","farmdebt"],
+    "summary": "A failed harvest pushes farmers into debt. Debt leaves less for seed, water and fertiliser, so the next harvest fails more easily."
+  },
+  {
+    "id": "invisible",
+    "group": "inst",
+    "name": "The invisible-deaths loop",
+    "evidence": "emerging",
+    "video": "media/loops/invisible.mp4",
+    "length": "0:46",
+    "path": ["deaths","underreport","underfund"],
+    "summary": "Heat deaths go uncounted, so heat protection goes unfunded, so more people die uncounted."
+  },
+  {
+    "id": "reactive",
+    "group": "inst",
+    "name": "The reactive-spending loop",
+    "evidence": "emerging",
+    "video": "media/loops/reactive.mp4",
+    "length": "0:44",
+    "path": ["budgets","underfund","emergency"],
+    "summary": "Stretched budgets skimp on prevention. Emergencies multiply, and costly emergency response stretches budgets further."
+  },
+  {
+    "id": "protection",
+    "group": "inst",
+    "name": "The protection-gap loop",
+    "evidence": "emerging",
+    "video": "media/loops/protection.mp4",
+    "length": "0:52",
+    "path": ["insurance","budgets","underfund"],
+    "summary": "As insurers retreat, public budgets absorb the losses, protection is cut, and the risk drives insurers further away."
+  }
+]

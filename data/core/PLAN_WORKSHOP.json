@@ -1,0 +1,35 @@
+{
+  "invite": "Health, disaster management, the city or district, the weather service, labour, education, water and power utilities, and the people at risk: worker unions, women’s groups, disability and older people’s organisations, and community groups.",
+  "steps": [
+    {
+      "time": "10 min",
+      "what": "Set the scene",
+      "how": "Watch the 1 minute 41 second film, or walk through one vicious cycle on the map."
+    },
+    {
+      "time": "15 min",
+      "what": "Step 1: where and who",
+      "how": "Agree the place and the people most at risk. Use “Who heat hits hardest” to check who is missing."
+    },
+    {
+      "time": "20 min",
+      "what": "Steps 2–3: actions, owners and money",
+      "how": "Pick the actions, name a lead for each, and mark “Not decided yet” honestly where no one pays."
+    },
+    {
+      "time": "15 min",
+      "what": "Step 4: triggers and warnings",
+      "how": "With the weather service, agree what each alert level means and how it reaches people without phones."
+    },
+    {
+      "time": "15 min",
+      "what": "Steps 5–6: what could stop it, and the WHO check",
+      "how": "Tick the risks, then close the gaps the check shows."
+    },
+    {
+      "time": "15 min",
+      "what": "Close",
+      "how": "Print the plan, name who does what in the next 30 days, and put the after-season review in the diary."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Shade beats air temperature",
+    "text": "In hot, sunny places, how hot people feel outdoors depends more on radiant heat from the sun and surfaces than on air temperature. Shade from buildings cooled most by day in a Tempe study, then trees, then light structures.",
+    "source": {
+      "label": "Middel et al., 50 Grades of Shade",
+      "url": "https://par.nsf.gov/biblio/10230332-grades-shade"
+    }
+  },
+  {
+    "name": "Reflective paving can make walking hotter",
+    "text": "In Los Angeles, coated roads were up to 6 °C cooler on the surface, but pedestrians above them received about 4 °C more radiant heat. Pair reflective surfaces with shade.",
+    "source": {
+      "label": "Arizona State University, 2020",
+      "url": "https://news.asu.edu/20200505-discoveries-street-smarts-required-heat-mitigation"
+    }
+  },
+  {
+    "name": "Misting depends on humidity and air movement",
+    "text": "In Singapore, a misting fan cut air temperature by about 1.5 °C and made people feel cooler. An overhead misting line without fans made no significant difference.",
+    "source": {
+      "label": "Review in Clean Technologies, MDPI, 2021",
+      "url": "https://www.mdpi.com/2571-8797/3/1/11"
+    }
+  },
+  {
+    "name": "Trees cool people more than thermometers show",
+    "text": "WRI’s Cool Cities Lab puts the improvement trees make to thermal comfort at roughly 2–8 °C. That measures how hot people feel, which is not the same as air temperature.",
+    "source": {
+      "label": "World Resources Institute: Urban trees, an underused tool for keeping people cool",
+      "url": "https://www.wri.org/insights/urban-trees-cooling-potential"
+    }
+  }
+]

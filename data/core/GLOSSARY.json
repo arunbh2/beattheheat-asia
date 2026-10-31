@@ -1,0 +1,694 @@
+[
+  {
+    "id": "heatstroke",
+    "group": "body",
+    "term": "Heatstroke",
+    "match": "heatstroke",
+    "video": "media/glossary/heatstroke.mp4",
+    "length": "0:32",
+    "text": "A medical emergency. The body’s core temperature rises above about 40 °C and its cooling system fails. Without fast cooling it can kill or cause lasting organ damage.",
+    "source": {
+      "label": "National Centre for Disease Control, India: heat-related illnesses",
+      "url": "https://ncdc.mohfw.gov.in/uploads/pdf/6.%20Health%20Impact%20of%20Heat_Heat%20Related%20Illnesses.pdf"
+    }
+  },
+  {
+    "id": "heatexhaustion",
+    "group": "body",
+    "term": "Heat exhaustion",
+    "match": "heat exhaustion",
+    "video": "media/glossary/heatexhaustion.mp4",
+    "length": "0:33",
+    "text": "The warning stage before heatstroke: heavy sweating, weakness, dizziness and nausea. Rest, water and cooling usually bring recovery."
+  },
+  {
+    "id": "heatstress",
+    "group": "body",
+    "term": "Heat stress",
+    "match": "heat stress",
+    "video": "media/glossary/heatstress.mp4",
+    "length": "0:35",
+    "text": "When the body takes in or makes more heat than it can shed, from hot air, humidity, sun and physical work."
+  },
+  {
+    "id": "adaptlimits",
+    "group": "act",
+    "term": "Limits to adaptation",
+    "match": "limits to adaptation|adaptation has limits",
+    "video": "media/glossary/adaptlimits.mp4",
+    "length": "0:30",
+    "text": "The point beyond which adjusting no longer prevents harm. Places used to heat cope better with days of 30–35 °C, but a study of 2.7 million firms found no adaptation to days above 40 °C. Cutting emissions keeps more places below that limit.",
+    "source": {
+      "label": "OECD Economics Department, Working Paper No. 1828, 2024",
+      "url": "https://doi.org/10.1787/19d94638-en"
+    }
+  },
+  {
+    "id": "acclimatisation",
+    "group": "body",
+    "term": "Acclimatisation",
+    "match": "acclimati[sz]ation|acclimati[sz]e",
+    "video": "media/glossary/acclimatisation.mp4",
+    "length": "0:33",
+    "text": "The body slowly adjusting to heat over one to two weeks. New and returning workers are most at risk until it has."
+  },
+  {
+    "id": "excessdeaths",
+    "group": "body",
+    "term": "Excess deaths",
+    "match": "excess death",
+    "video": "media/glossary/excessdeaths.mp4",
+    "length": "0:34",
+    "text": "Deaths above the normal number for that place and time of year. Because death certificates rarely say “heat”, this is how the real toll of a heatwave is counted."
+  },
+  {
+    "id": "wetbulb",
+    "group": "measure",
+    "term": "Wet-bulb temperature",
+    "match": "wet-bulb temperature",
+    "video": "media/glossary/wetbulb.mp4",
+    "length": "0:35",
+    "text": "Heat and humidity combined into one number, read from a thermometer wrapped in a wet cloth. It shows whether sweat can still cool you. A wet-bulb temperature of 35 °C is often quoted as the limit of human survival; recent studies suggest the real limit is lower.",
+    "source": {
+      "label": "Vecellio et al., Journal of Applied Physiology, 2022, summarised by Penn State",
+      "url": "https://psu.edu/news/research/story/humans-cant-endure-temperatures-and-humidities-high-previously-thought"
+    }
+  },
+  {
+    "id": "dryhumid",
+    "group": "measure",
+    "term": "Dry heat and humid heat",
+    "match": "dry heat|humid heat",
+    "video": "media/glossary/dryhumid.mp4",
+    "length": "2:03",
+    "text": "Dry heat is high temperature with low humidity: sweat still evaporates, but the body soaks up heat fast. It peaks in South Asia’s pre-monsoon months. Humid heat is warm, wet air in which sweat can’t evaporate, so the body can’t cool itself even at lower temperatures. It dominates Southeast Asia and builds through South Asia’s monsoon, and it is rising faster than dry heat. The two need different warnings and different cooling.",
+    "source": {
+      "label": "Ivanovich et al., Geophysical Research Letters, 2024",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023GL107382"
+    }
+  },
+  {
+    "id": "wbgt",
+    "group": "measure",
+    "term": "WBGT (wet-bulb globe temperature)",
+    "match": "wet-bulb globe temperature|WBGT",
+    "video": "media/glossary/wbgt.mp4",
+    "length": "0:36",
+    "text": "The workplace measure of heat. It adds sun and wind to heat and humidity, and is used to set rest breaks and stop work."
+  },
+  {
+    "id": "heatindex",
+    "group": "measure",
+    "term": "Heat index",
+    "match": "heat index",
+    "video": "media/glossary/heatindex.mp4",
+    "length": "0:41",
+    "text": "The “feels-like” temperature in the shade, combining air temperature and humidity. In the Philippines, a heat index of 42 °C or more is officially a danger level.",
+    "source": {
+      "label": "PAGASA: heat index",
+      "url": "https://www.pagasa.dost.gov.ph/weather/heat-index"
+    }
+  },
+  {
+    "id": "heatwave",
+    "group": "measure",
+    "term": "Heatwave",
+    "match": "heatwave",
+    "video": "media/glossary/heatwave.mp4",
+    "length": "0:36",
+    "auto": false,
+    "text": "A spell of unusually hot weather for that place. There is no single global definition: each country sets its own thresholds."
+  },
+  {
+    "id": "hotnights",
+    "group": "measure",
+    "term": "Hot nights",
+    "match": "hot night|warm night",
+    "video": "media/glossary/hotnights.mp4",
+    "length": "0:35",
+    "text": "Nights that stay too hot for the body to recover from the day. They are often more dangerous than hot days, and they are rising faster."
+  },
+  {
+    "id": "uhi",
+    "group": "measure",
+    "term": "Urban heat island",
+    "match": "urban heat island",
+    "video": "media/glossary/uhi.mp4",
+    "length": "0:34",
+    "text": "Cities running several degrees hotter than the countryside around them, especially at night, because of concrete, traffic, waste heat and few trees."
+  },
+  {
+    "id": "hap",
+    "group": "act",
+    "term": "Heat action plan",
+    "match": "heat action plan",
+    "video": "media/glossary/hap.mp4",
+    "length": "0:36",
+    "text": "A city’s or country’s plan for the heat season: who issues warnings, at what temperature, and what hospitals, employers and services do next."
+  },
+  {
+    "id": "ews",
+    "group": "act",
+    "term": "Early warning system",
+    "match": "early warning",
+    "video": "media/glossary/ews.mp4",
+    "length": "0:33",
+    "text": "A forecast that reaches people in time, in a form they understand, with clear advice on what to do."
+  },
+  {
+    "id": "anticipatory",
+    "group": "act",
+    "term": "Anticipatory action",
+    "match": "anticipatory",
+    "video": "media/glossary/anticipatory.mp4",
+    "length": "0:36",
+    "text": "Acting on a forecast, before a disaster peaks, by releasing pre-agreed money and help when a trigger is reached."
+  },
+  {
+    "id": "coolingcentre",
+    "group": "act",
+    "term": "Cooling centre",
+    "match": "cooling centre",
+    "video": "media/glossary/coolingcentre.mp4",
+    "length": "0:33",
+    "text": "A public place, such as a library, school or community hall, kept cool during heatwaves for people with no cool space at home."
+  },
+  {
+    "id": "parametric",
+    "group": "money",
+    "term": "Parametric insurance",
+    "match": "parametric",
+    "video": "media/glossary/parametric.mp4",
+    "length": "0:36",
+    "text": "Insurance that pays out automatically when a measured trigger, such as a temperature threshold, is crossed. There is no claim form and no damage assessment."
+  },
+  {
+    "id": "basisrisk",
+    "group": "money",
+    "term": "Basis risk",
+    "match": "basis risk",
+    "video": "media/glossary/basisrisk.mp4",
+    "length": "0:36",
+    "text": "When the trigger and the real loss don’t match: people suffer from the heat, but the threshold isn’t crossed and no payout comes."
+  },
+  {
+    "id": "riskpool",
+    "group": "money",
+    "term": "Risk pool",
+    "match": "risk pool",
+    "video": "media/glossary/riskpool.mp4",
+    "length": "0:35",
+    "text": "A group of countries, cities or insurers that share the cost of disasters, so no single member carries a catastrophe alone."
+  },
+  {
+    "id": "socialprotection",
+    "group": "money",
+    "term": "Social protection",
+    "match": "social protection",
+    "video": "media/glossary/socialprotection.mp4",
+    "length": "0:35",
+    "text": "Public support such as pensions, cash transfers and unemployment benefits that keeps households out of poverty when income stops."
+  },
+  {
+    "id": "passivecooling",
+    "group": "cooling",
+    "term": "Passive cooling",
+    "match": "passive cooling",
+    "video": "media/glossary/passivecooling.mp4",
+    "length": "0:33",
+    "text": "Cooling a building without using power: shade, airflow, insulation, orientation and reflective surfaces."
+  },
+  {
+    "id": "coolroof",
+    "group": "cooling",
+    "term": "Cool roof",
+    "match": "cool roof",
+    "video": "media/glossary/coolroof.mp4",
+    "length": "0:33",
+    "text": "A roof painted or built to reflect sunlight, so less heat reaches the room below."
+  },
+  {
+    "id": "refrigerant",
+    "group": "cooling",
+    "term": "Refrigerant",
+    "match": "refrigerant",
+    "video": "media/glossary/refrigerant.mp4",
+    "length": "0:35",
+    "text": "The fluid inside air conditioners and fridges that carries heat away. Many common ones are powerful greenhouse gases if they leak."
+  },
+  {
+    "id": "blackcarbon",
+    "group": "cooling",
+    "term": "Black carbon",
+    "match": "black carbon",
+    "video": "media/glossary/blackcarbon.mp4",
+    "length": "0:36",
+    "text": "Soot from diesel, wood, coal and brick kilns. It warms the air, and when it settles on snow and ice it darkens them so they melt faster."
+  },
+  {
+    "id": "viciouscycle",
+    "group": "cooling",
+    "term": "Vicious cycle",
+    "match": "vicious cycle",
+    "video": "media/glossary/viciouscycle.mp4",
+    "length": "0:35",
+    "auto": false,
+    "text": "A harm that feeds itself: each turn of the loop makes the next one worse. This map shows where those loops could be interrupted."
+  },
+  {
+    "id": "maladaptation",
+    "group": "cooling",
+    "term": "Maladaptation",
+    "match": "maladaptation",
+    "video": "media/glossary/maladaptation.mp4",
+    "length": "0:30",
+    "text": "A response to heat that makes things worse elsewhere or later, such as air conditioners that cool a room but heat the street."
+  },
+  {
+    "id": "mrt",
+    "group": "measure",
+    "term": "Mean radiant temperature",
+    "match": "mean radiant temperature|radiant heat",
+    "video": "media/glossary/mrt.mp4",
+    "length": "0:29",
+    "text": "The heat your body takes in from the sun and from hot surfaces around it: roads, walls and roofs. In strong sun it shapes how hot you feel more than air temperature does, which is why shade matters so much.",
+    "source": {
+      "label": "Nature-Based Solutions for Cities (Edward Elgar, 2023, open access)",
+      "url": "https://doi.org/10.4337/9781800376762"
+    }
+  },
+  {
+    "id": "thermalcomfort",
+    "group": "measure",
+    "term": "Thermal comfort",
+    "match": "thermal comfort",
+    "video": "media/glossary/thermalcomfort.mp4",
+    "length": "0:27",
+    "text": "How hot or cold a person feels. It depends on air temperature, humidity, wind, sun, clothing and activity, not on air temperature alone."
+  },
+  {
+    "id": "albedo",
+    "group": "cooling",
+    "term": "Albedo",
+    "match": "albedo",
+    "video": "media/glossary/albedo.mp4",
+    "length": "0:28",
+    "text": "How much sunlight a surface reflects. A white roof has a high albedo and stays cooler; dark asphalt has a low albedo and stores heat."
+  },
+  {
+    "id": "evapotranspiration",
+    "group": "nature",
+    "term": "Evapotranspiration",
+    "match": "evapotranspiration",
+    "video": "media/glossary/evapotranspiration.mp4",
+    "length": "0:32",
+    "text": "Water evaporating from soil and leaves. It draws heat out of the air, so well-watered plants cool their surroundings. Plants short of water stop cooling.",
+    "source": {
+      "label": "Nature-Based Solutions for Cities (Edward Elgar, 2023, open access)",
+      "url": "https://doi.org/10.4337/9781800376762"
+    }
+  },
+  {
+    "id": "nbs",
+    "group": "nature",
+    "term": "Nature-based solutions",
+    "match": "nature-based solution",
+    "video": "media/glossary/nbs.mp4",
+    "length": "0:27",
+    "text": "Using living systems such as trees, wetlands, soils and water to tackle problems like heat and flooding while also benefiting people and nature. A park only works as one if it is planned for those benefits and kept alive.",
+    "source": {
+      "label": "Nature-Based Solutions for Cities (Edward Elgar, 2023, open access)",
+      "url": "https://doi.org/10.4337/9781800376762"
+    }
+  },
+  {
+    "id": "ecosystemservices",
+    "group": "nature",
+    "term": "Ecosystem services",
+    "match": "ecosystem service",
+    "video": "media/glossary/ecosystemservices.mp4",
+    "length": "0:29",
+    "text": "The benefits people get from nature: shade and cooling, cleaner air and water, rain soaking into the ground, food and places to rest. The same service is worth most to those with the fewest alternatives, such as cooling for people without air conditioning.",
+    "source": {
+      "label": "Nature-Based Solutions for Cities (Edward Elgar, 2023, open access)",
+      "url": "https://doi.org/10.4337/9781800376762"
+    }
+  },
+  {
+    "id": "bluegreen",
+    "group": "nature",
+    "term": "Blue-green infrastructure",
+    "match": "blue-green infrastructure|blue-green",
+    "video": "media/glossary/bluegreen.mp4",
+    "length": "0:27",
+    "text": "A network of water (blue) and plants and soil (green), such as rivers, ponds, wetlands, parks and planted drains, designed to manage rain and heat together.",
+    "source": {
+      "label": "Nature-Based Solutions for Cities (Edward Elgar, 2023, open access)",
+      "url": "https://doi.org/10.4337/9781800376762"
+    }
+  },
+  {
+    "id": "greyinfra",
+    "group": "nature",
+    "term": "Grey infrastructure",
+    "match": "grey infrastructure|gray infrastructure",
+    "video": "media/glossary/greyinfra.mp4",
+    "length": "0:27",
+    "text": "Engineered, mostly concrete systems such as pipes, drains, embankments and pumps. Many good solutions mix grey and green.",
+    "source": {
+      "label": "Nature-Based Solutions for Cities (Edward Elgar, 2023, open access)",
+      "url": "https://doi.org/10.4337/9781800376762"
+    }
+  },
+  {
+    "id": "spongecity",
+    "group": "nature",
+    "term": "Sponge city",
+    "match": "sponge city|sponge cities|sponge park",
+    "video": "media/glossary/spongecity.mp4",
+    "length": "0:28",
+    "text": "A city designed to soak up, store, clean and slowly release rainwater through parks, wetlands, permeable ground and planted drains, not only pipes. China piloted it in 30 cities from 2014 to 2019; Chennai and Bangkok are building sponge parks.",
+    "source": {
+      "label": "Nature-Based Solutions for Cities (Edward Elgar, 2023, open access)",
+      "url": "https://doi.org/10.4337/9781800376762"
+    }
+  },
+  {
+    "id": "cobenefits",
+    "group": "nature",
+    "term": "Co-benefits",
+    "match": "co-benefit",
+    "video": "media/glossary/cobenefits.mp4",
+    "length": "0:29",
+    "text": "The extra gains a measure brings beyond its main aim, such as a park built to hold floodwater that also cools the street and gives children somewhere to play.",
+    "source": {
+      "label": "Nature-Based Solutions for Cities (Edward Elgar, 2023, open access)",
+      "url": "https://doi.org/10.4337/9781800376762"
+    }
+  },
+  {
+    "id": "eba",
+    "group": "nature",
+    "term": "Ecosystem-based adaptation",
+    "match": "ecosystem-based adaptation",
+    "video": "media/glossary/eba.mp4",
+    "length": "0:28",
+    "text": "Using nature to help people adapt to climate change, such as mangroves against storm surges or trees for shade. A kind of nature-based solution."
+  },
+  {
+    "id": "greengentrification",
+    "group": "nature",
+    "term": "Green gentrification",
+    "match": "green gentrification",
+    "video": "media/glossary/greengentrification.mp4",
+    "length": "0:29",
+    "text": "When a new park or greening raises rents and land prices so much that the poorer residents it was meant to help are pushed out.",
+    "source": {
+      "label": "Nature-Based Solutions for Cities (Edward Elgar, 2023, open access)",
+      "url": "https://doi.org/10.4337/9781800376762"
+    }
+  },
+  {
+    "id": "envjustice",
+    "group": "nature",
+    "term": "Environmental justice",
+    "match": "environmental justice",
+    "video": "media/glossary/envjustice.mp4",
+    "length": "0:30",
+    "text": "A fair share of environmental benefits and harms, and a fair say in decisions about them. Poorer neighbourhoods are often hotter and less green.",
+    "source": {
+      "label": "Nature-Based Solutions for Cities (Edward Elgar, 2023, open access)",
+      "url": "https://doi.org/10.4337/9781800376762"
+    }
+  },
+  {
+    "id": "aquifer",
+    "group": "cooling",
+    "term": "Aquifer",
+    "match": "aquifer",
+    "video": "media/glossary/aquifer.mp4",
+    "length": "0:33",
+    "text": "Underground layers of rock or sand that hold groundwater, the water that wells and pumps draw from."
+  },
+  {
+    "id": "agroforestry",
+    "group": "nature",
+    "term": "Agroforestry",
+    "match": "agroforestry",
+    "video": "media/glossary/agroforestry.mp4",
+    "length": "0:24",
+    "text": "Growing trees alongside crops or livestock. The trees shade the soil, help it hold moisture and give farmers another source of income."
+  },
+  {
+    "id": "chiefheatofficer",
+    "group": "act",
+    "term": "Chief heat officer",
+    "match": "chief heat officer",
+    "auto": false,
+    "video": "media/glossary/chiefheatofficer.mp4",
+    "length": "0:30",
+    "text": "A city official whose job is heat: joining up health, water, power, schools and work so that protection is planned before the hot season. Dhaka North City Corporation appointed Asia’s first in 2023.",
+    "source": {
+      "label": "One Billion Resilient, 2023",
+      "url": "https://onebillionresilient.org/2023/05/03/bushra-afreen-dhaka-chief-heat-officer/"
+    }
+  },
+  {
+    "id": "heatalert",
+    "group": "act",
+    "term": "Heat alert levels",
+    "match": "heat alert levels?",
+    "auto": false,
+    "video": "media/glossary/heatalert.mp4",
+    "length": "0:29",
+    "text": "Graded warnings, such as caution, danger and extreme danger, set at levels of heat that harm health locally. A good plan ties each level to named actions, so a warning switches protection on.",
+    "source": {
+      "label": "WHO/Europe: Heat–health action plans, guidance, second edition, 2026",
+      "url": "https://www.who.int/europe/publications/i/item/9789289062930"
+    }
+  },
+  {
+    "id": "workrest",
+    "group": "act",
+    "term": "Work–rest cycle",
+    "match": "work–rest cycle|work-rest cycle",
+    "auto": false,
+    "video": "media/glossary/workrest.mp4",
+    "length": "0:35",
+    "text": "Building shaded rest into each hour of hot, heavy work. In Singapore, employers must give at least 10 minutes’ shaded rest each hour for heavy outdoor work at a wet-bulb globe temperature of 32 °C or more.",
+    "source": {
+      "label": "Ministry of Manpower, Singapore: enhanced measures to reduce heat stress, 2023",
+      "url": "https://www.mom.gov.sg/newsroom/press-releases/2023/1024-enhanced-measures-to-reduce-heat-stress-for-outdoor-workers"
+    }
+  },
+  {
+    "id": "wardplan",
+    "group": "act",
+    "term": "Ward-level heat plan",
+    "match": "ward-level heat plan",
+    "auto": false,
+    "video": "media/glossary/wardplan.mp4",
+    "length": "0:30",
+    "text": "A heat action plan that maps risk neighbourhood by neighbourhood, using felt heat, warm nights and who lives there, so help goes first where risk is highest. Thane, next to Mumbai, built its 2024 plan this way.",
+    "source": {
+      "label": "CEEW: How can Thane city tackle heatwave risks with a heat action plan",
+      "url": "https://www.ceew.in/publications/how-can-thane-city-tackle-heatwaves-risks-with-heat-action-plan"
+    }
+  },
+  {
+    "id": "whoelements",
+    "group": "act",
+    "term": "Core elements of a heat plan",
+    "match": "core elements",
+    "auto": false,
+    "video": "media/glossary/whoelements.mp4",
+    "length": "0:34",
+    "text": "WHO/Europe’s checklist for a complete heat–health action plan: governance, a warning system, people at risk, communication, a resilient health system, reducing exposure, surveillance, and monitoring and learning.",
+    "source": {
+      "label": "WHO/Europe: Heat–health action plans, guidance, second edition, 2026",
+      "url": "https://www.who.int/europe/publications/i/item/9789289062930"
+    }
+  },
+  {
+    "id": "attribution",
+    "group": "measure",
+    "term": "Climate attribution",
+    "match": "climate attribution",
+    "auto": false,
+    "video": "media/glossary/attribution.mp4",
+    "length": "0:34",
+    "text": "Working out how much climate change has added to an event or its harm. The 2026 Lancet Countdown attributes 71.5% of 2023’s heat deaths to climate change, and 11.3 of 13.5 heatwave days per person in 2025.",
+    "source": {
+      "label": "The 2026 report of the Lancet Countdown on health and climate change",
+      "url": "https://doi.org/10.1016/S0140-6736(26)01779-4"
+    }
+  },
+  {
+    "id": "undercount",
+    "group": "measure",
+    "term": "Undercounted heat deaths",
+    "match": "undercounted heat deaths",
+    "auto": false,
+    "video": "media/glossary/undercount.mp4",
+    "length": "0:41",
+    "text": "Heat deaths that are never recorded as heat deaths, because certificates name the immediate cause, such as a heart attack. In India in 2024, 185 heatstroke deaths were confirmed against 48,385 suspected heatstroke cases, up to 28 July.",
+    "source": {
+      "label": "Ministry of Health and Family Welfare, reply in India’s Rajya Sabha, 6 August 2024",
+      "url": "https://rsdebate.nic.in/bitstream/123456789/750681/1/PQ_265_06082024_U1693_p358_p362.pdf"
+    }
+  },
+  {
+    "id": "labourloss",
+    "group": "money",
+    "term": "Lost work hours",
+    "match": "lost work hours",
+    "auto": false,
+    "video": "media/glossary/labourloss.mp4",
+    "length": "0:41",
+    "text": "Work that heat makes unsafe or impossible. The 2026 Lancet Countdown estimates 573 billion potential work hours were lost to heat in 2025, with farm workers losing twice as many hours as any other sector.",
+    "source": {
+      "label": "The 2026 report of the Lancet Countdown on health and climate change",
+      "url": "https://doi.org/10.1016/S0140-6736(26)01779-4"
+    }
+  },
+  {
+    "id": "informalwork",
+    "group": "money",
+    "term": "Informal work",
+    "match": "informal work",
+    "auto": false,
+    "video": "media/glossary/informalwork.mp4",
+    "length": "0:32",
+    "text": "Work without a formal contract, sick pay or social insurance, often outdoors: street vending, construction, farm and home-based work. An OECD report estimates heat costs informal workers about 2.4% of working hours, against 1.4% for formal workers.",
+    "source": {
+      "label": "The Policy Edge, summarising the OECD Development Centre, 2026",
+      "url": "https://www.policyedge.in/p/oecd-finds-informal-workers-face-unequal-risks-from-heat-automation-and-ageing"
+    }
+  },
+  {
+    "id": "learningloss",
+    "group": "act",
+    "term": "Heat and learning",
+    "match": "heat and learning",
+    "auto": false,
+    "video": "media/glossary/learningloss.mp4",
+    "length": "0:33",
+    "text": "Lost schooling when heat closes schools or makes classrooms too hot to learn in. In April 2024, Bangladesh closed schools for about 33 million children, and 5,288 schools in the Philippines moved to remote learning.",
+    "source": {
+      "label": "NBC News, 2024; Malay Mail (AFP), 2024",
+      "url": "https://www.nbcnews.com/news/world/schools-close-extreme-heat-philippines-bangladesh-asia-rcna149485"
+    }
+  },
+  {
+    "id": "coolinggap",
+    "group": "cooling",
+    "term": "The cooling gap",
+    "match": "cooling gap",
+    "auto": false,
+    "video": "media/glossary/coolinggap.mp4",
+    "length": "0:34",
+    "text": "The difference between people who can stay cool and those who can’t. Air conditioning may have prevented about 360,000 deaths a year in 2022 and 2023, but only about 3% of households in the poorest countries have it.",
+    "source": {
+      "label": "The 2026 report of the Lancet Countdown on health and climate change",
+      "url": "https://doi.org/10.1016/S0140-6736(26)01779-4"
+    }
+  },
+  {
+    "id": "coolingdemand",
+    "group": "cooling",
+    "term": "Cooling demand",
+    "match": "cooling demand",
+    "auto": false,
+    "video": "media/glossary/coolingdemand.mp4",
+    "length": "0:33",
+    "text": "How much cooling people need, and the energy it takes. Southeast Asia’s air conditioners could rise from about 40 million to 300 million by 2040, half of them in Indonesia.",
+    "source": {
+      "label": "International Energy Agency: The Future of Cooling in Southeast Asia",
+      "url": "https://www.iea.org/reports/the-future-of-cooling-in-southeast-asia"
+    }
+  },
+  {
+    "id": "peakdemand",
+    "group": "cooling",
+    "term": "Peak power demand",
+    "match": "peak power demand|peak demand",
+    "auto": false,
+    "video": "media/glossary/peakdemand.mp4",
+    "length": "0:31",
+    "text": "The highest electricity load of the day or year, which in hot countries comes with heat and air conditioning. In May and June 2023, heat drove demand up in northern Viet Nam as hydropower reservoirs ran low; blackouts cost about US$1.4 billion.",
+    "source": {
+      "label": "The Manila Times, reporting the World Bank, 2023",
+      "url": "https://manilatimes.net/2023/08/12/business/foreign-business/power-crisis-cost-vietnam-14b-wb/1904920/amp"
+    }
+  },
+  {
+    "id": "glacierloss",
+    "group": "cooling",
+    "term": "Glacier loss",
+    "match": "glacier loss",
+    "auto": false,
+    "video": "media/glossary/glacierloss.mp4",
+    "length": "0:33",
+    "text": "Mountain ice shrinking faster than snow can replace it. In the Hindu Kush Himalaya, glaciers lost ice 65% faster in the 2010s than in the decade before, and could lose 30–50% of their volume by 2100.",
+    "source": {
+      "label": "ICIMOD: Water, ice, society and ecosystems in the Hindu Kush Himalaya, 2023",
+      "url": "https://lib.icimod.org/record/36322"
+    }
+  },
+  {
+    "id": "peatfire",
+    "group": "cooling",
+    "term": "Peat fires",
+    "match": "peat fires?",
+    "auto": false,
+    "video": "media/glossary/peatfire.mp4",
+    "length": "0:32",
+    "text": "Fires that smoulder in drained peatland, the thick, wet soil of tropical swamps. Once dry, peat burns underground for weeks and fills the air with haze. Indonesia’s 2015 forest and peat fires cost an estimated US$16.1 billion.",
+    "source": {
+      "label": "World Bank: The cost of fire, Indonesia, 2016",
+      "url": "https://documents1.worldbank.org/curated/pt/776101467990969768/pdf/103668-BRI-Cost-of-Fires-Knowledge-Note-PUBLIC-ADD-NEW-SERIES-Indonesia-Sustainable-Landscapes-Knowledge-Note.pdf"
+    }
+  },
+  {
+    "id": "nightcrops",
+    "group": "nature",
+    "term": "Hot nights and crops",
+    "match": "hot nights and crops",
+    "auto": false,
+    "video": "media/glossary/nightcrops.mp4",
+    "length": "0:33",
+    "text": "Crops need cool nights too. At the International Rice Research Institute in the Philippines, rice yields fell about 10% for each 1 °C rise in growing-season night temperature.",
+    "source": {
+      "label": "Peng et al., PNAS, 2004",
+      "url": "https://doi.org/10.1073/pnas.0403720101"
+    }
+  },
+  {
+    "id": "adaptfinance",
+    "group": "money",
+    "term": "Adaptation finance gap",
+    "match": "adaptation finance gap",
+    "auto": false,
+    "video": "media/glossary/adaptfinance.mp4",
+    "length": "0:30",
+    "text": "The difference between what countries say they need to adapt to climate change and the money that arrives. Forty-eight countries put their health adaptation needs at about US$3.3 billion a year; international funding committed in 2024 covered about a third.",
+    "source": {
+      "label": "The 2026 report of the Lancet Countdown on health and climate change",
+      "url": "https://doi.org/10.1016/S0140-6736(26)01779-4"
+    }
+  },
+  {
+    "id": "heatcredit",
+    "group": "money",
+    "term": "Heat and credit",
+    "match": "heat and credit",
+    "auto": false,
+    "video": "media/glossary/heatcredit.mp4",
+    "length": "0:32",
+    "text": "How heat travels from wages to lenders: lost working hours mean missed repayments, and lenders face a cash crunch. About 60% of India’s ₹3.81 trillion microfinance portfolio is in farming and allied work.",
+    "source": {
+      "label": "Mongabay India commentary, June 2026",
+      "url": "https://india.mongabay.com/2026/06/indias-banks-are-sitting-on-a-heat-risk-they-have-barely-begun-to-price-commentary/"
+    }
+  }
+]

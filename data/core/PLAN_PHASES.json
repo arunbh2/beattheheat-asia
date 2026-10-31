@@ -1,0 +1,32 @@
+[
+  {
+    "id": "before",
+    "name": "Before the hot season",
+    "hint": "Train staff, set budgets, map risk, prepare clinics and shelters"
+  },
+  {
+    "id": "yellow",
+    "name": "From a yellow alert",
+    "hint": "Watch: warn the public and check on people at risk"
+  },
+  {
+    "id": "orange",
+    "name": "From an orange alert",
+    "hint": "Be prepared: open cooling spaces, shift work hours, ready hospitals"
+  },
+  {
+    "id": "red",
+    "name": "At a red alert",
+    "hint": "Take action: every department at full response"
+  },
+  {
+    "id": "after",
+    "name": "After the season",
+    "hint": "Count the toll, review what worked, fix it before next year"
+  },
+  {
+    "id": "year",
+    "name": "All year, long term",
+    "hint": "Cooler buildings, greener streets, cleaner cooling"
+  }
+]

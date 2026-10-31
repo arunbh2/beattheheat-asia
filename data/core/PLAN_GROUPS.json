@@ -1,0 +1,62 @@
+[
+  {
+    "id": "workers",
+    "name": "Outdoor and informal workers",
+    "levers": ["hap","heatrules","heatcash","socialprotection","freecare","coolingcentres"]
+  },
+  {
+    "id": "women",
+    "name": "Women in informal and farm work",
+    "levers": ["hap","heatcash","heatrules","socialprotection","coolhousing"]
+  },
+  {
+    "id": "older",
+    "name": "Older people living alone",
+    "levers": ["hap","coolingcentres","readyclinics","affordablecool","countdeaths"]
+  },
+  {
+    "id": "children",
+    "name": "Children and schools",
+    "levers": ["hap","keepinschool","coolbydesign"]
+  },
+  {
+    "id": "settlements",
+    "name": "People in informal settlements",
+    "levers": ["coolhousing","affordablecool","greencity","coolingcentres","coolnights"]
+  },
+  {
+    "id": "farmers",
+    "name": "Smallholder and rainfed farming households",
+    "levers": ["farmcredit","soilwater","irrigate","heatrules","socialprotection"]
+  },
+  {
+    "id": "coastal",
+    "name": "Coastal and riverine communities",
+    "levers": ["hap","socialprotection","anticipatory","readyclinics"]
+  },
+  {
+    "id": "remote",
+    "name": "People in remote or poorly served settlements",
+    "levers": ["anticipatory","readyclinics","countdeaths","hap"]
+  },
+  {
+    "id": "mothers",
+    "name": "Pregnant women, babies and young children",
+    "levers": ["readyclinics","hap","freecare","socialprotection"]
+  },
+  {
+    "id": "disability",
+    "name": "People with disabilities",
+    "levers": ["hap","coolingcentres","readyclinics","freecare"]
+  },
+  {
+    "id": "migrants",
+    "name": "Migrants and other excluded groups",
+    "levers": ["coolhousing","socialprotection","freecare","heatrules"]
+  },
+  {
+    "id": "city",
+    "name": "A whole city or state",
+    "levers": ["hap","readyclinics","greencity","coolbydesign","heatbudget","anticipatory","countdeaths"]
+  }
+]

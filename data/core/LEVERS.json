@@ -1,0 +1,726 @@
+[
+  {
+    "id": "emissions",
+    "edge": ["heat","nature"],
+    "title": "Deep emission cuts",
+    "who": ["nat","intl","funders"],
+    "when": "decade",
+    "measure": "Emissions cut against the national target",
+    "text": "Every fraction of a degree avoided weakens every loop that runs through land, ice and forests at once. It also keeps more places within the limits to adaptation, where protecting people still works.",
+    "example": "Across 2.7 million firms in 23 advanced economies, places used to heat coped better with days of 30–35 °C, but none had adapted to days above 40 °C. Each degree avoided keeps more days below that line.",
+    "exampleSources": [
+      {
+        "label": "OECD Economics Department, Working Paper No. 1828, 2024",
+        "url": "https://doi.org/10.1787/19d94638-en"
+      }
+    ],
+    "guides": [
+      {
+        "by": "Intergovernmental Panel on Climate Change, 2023",
+        "title": "AR6 Synthesis Report: Climate Change 2023",
+        "url": "https://www.ipcc.ch/report/ar6/syr/"
+      },
+      {
+        "by": "OECD Economics Department, 2024",
+        "title": "The heat is on: Heat stress, productivity and adaptation among firms",
+        "url": "https://doi.org/10.1787/19d94638-en"
+      }
+    ]
+  },
+  {
+    "id": "cleancool",
+    "edge": ["demand","emissions"],
+    "title": "Clean, efficient cooling",
+    "who": ["nat","utilities","intl"],
+    "when": "years",
+    "measure": "Share of new air conditioners meeting efficiency standards",
+    "text": "Efficient appliances, clean power and low-warming refrigerants break the link between keeping cool and heating the planet.",
+    "example": "The Kigali Amendment to the Montreal Protocol (2016) commits countries to phase down the most climate-warming refrigerants.",
+    "exampleSources": [
+      {
+        "label": "UNEP, reported by IISD: Kigali Amendment enters into force",
+        "url": "https://sdg.iisd.org/news/kigali-amendment-enters-into-force-bringing-promise-of-reduced-global-warming/"
+      }
+    ],
+    "guides": [
+      {
+        "by": "Ministry of Environment, Forest and Climate Change, India, 2019",
+        "title": "India Cooling Action Plan",
+        "url": "https://ozonecell.nic.in/home-page/resource-informations/reports-publications/india-cooling-action-plan/"
+      }
+    ]
+  },
+  {
+    "id": "soilwater",
+    "edge": ["drysoil","heat"],
+    "title": "Keep water in the soil",
+    "who": ["agri","community","funders"],
+    "when": "years",
+    "measure": "Hectares under soil-moisture practices",
+    "text": "Mulching, agroforestry, water harvesting and restoring degraded land help soils hold moisture and stay cooler."
+  },
+  {
+    "id": "blackcarbon",
+    "edge": ["glacier","heat"],
+    "title": "Cut black carbon",
+    "who": ["nat","city"],
+    "when": "years",
+    "measure": "Brick kilns and engines switched to cleaner technology",
+    "text": "Cleaner stoves, engines and brick kilns and an end to open burning cut black carbon, the soot that darkens snow and ice.",
+    "guides": [
+      {
+        "by": "Climate and Clean Air Coalition",
+        "title": "Cleaner brick production: a natural-draught zig-zag kiln case study",
+        "url": "https://www.ccacoalition.org/resources/cleaner-brick-production-case-study-2-production-bricks-through-natural-draft-zigzag-kiln"
+      }
+    ]
+  },
+  {
+    "id": "firesmart",
+    "edge": ["wildfires","heat"],
+    "title": "Fire-smart landscapes",
+    "who": ["nat","community"],
+    "when": "years",
+    "measure": "Area burned each fire season",
+    "text": "Early detection, community fire crews and land management that reduces fuel keep fires small and forests standing.",
+    "guides": [
+      {
+        "by": "UNEP and GRID-Arendal, 2022",
+        "title": "Spreading like Wildfire: The Rising Threat of Extraordinary Landscape Fires",
+        "url": "https://www.unep.org/resources/report/spreading-wildfire-rising-threat-extraordinary-landscape-fires"
+      }
+    ]
+  },
+  {
+    "id": "coolbydesign",
+    "edge": ["demand","uhi"],
+    "title": "Cool by design",
+    "who": ["city","nat"],
+    "when": "decade",
+    "measure": "New buildings meeting cooling standards",
+    "text": "Shading, ventilation, reflective roofs and efficient cooling cut the need for air conditioning, and the waste heat it dumps outside.",
+    "guides": [
+      {
+        "by": "Global Heat Health Information Network (GHHIN)",
+        "title": "Heat in the city: guidance and resources for urban heat",
+        "url": "https://heathealth.info/in-the-city/"
+      }
+    ]
+  },
+  {
+    "id": "greencity",
+    "edge": ["uhi","demand"],
+    "title": "Green, cool cities",
+    "who": ["city","community"],
+    "when": "years",
+    "measure": "Tree canopy and shaded street length in hotspot wards",
+    "text": "Trees, water, cool roofs and cool pavements lower city temperatures and flatten peak demand.",
+    "example": "Cooling Singapore, a research programme across agencies, models where heat builds up street by street to test which mix of greenery, materials and layout cools each district best. Indian cities and states such as Ahmedabad and Telangana have run programmes that paint roofs to reflect sunlight. The Green Tamil Nadu Mission aims to raise the state’s forest and tree cover from 23.8% to 33% of its land by 2030–31.",
+    "exampleSources": [
+      {
+        "label": "Cooling Singapore: digital urban climate twin",
+        "url": "https://www.thegpsc.org/sites/gpsc/files/cooling_singapore_-_digital_urban_climate_twin.pdf"
+      },
+      {
+        "label": "Tamil Nadu Pollution Control Board, G.O. 215, 2023: the Green Tamil Nadu Mission target",
+        "url": "https://tnpcb.gov.in/PDF/About_Us/Announcementgos/GoNo_215_101123.pdf"
+      }
+    ],
+    "guides": [
+      {
+        "by": "Zurich Climate Resilience Alliance",
+        "title": "Urban heat: resources and partner networks",
+        "url": "https://zcralliance.org/resources-urban-heat/"
+      },
+      {
+        "by": "Kabisch, Korn, Stadler and Bonn (eds), Springer, 2017, open access",
+        "title": "Nature-Based Solutions to Climate Change Adaptation in Urban Areas",
+        "url": "https://doi.org/10.1007/978-3-319-56091-5"
+      },
+      {
+        "by": "Global Heat Health Information Network (GHHIN)",
+        "title": "Heat in the city: guidance and resources for urban heat",
+        "url": "https://heathealth.info/in-the-city/"
+      }
+    ]
+  },
+  {
+    "id": "keepgreen",
+    "edge": ["uhi","treeloss"],
+    "title": "Keep city trees alive",
+    "who": ["city","water","community"],
+    "when": "years",
+    "measure": "Trees alive and growing three years after planting, against trees planted",
+    "text": "Water, healthy soil, room for roots, heat-hardy species and a running budget for upkeep keep trees alive through hotter, drier summers, so their shade lasts. Looking after existing trees comes before planting new ones.",
+    "example": "Berlin wrote a shared “good care” manual for its 12 districts, setting maintenance standards for street trees and green spaces, with drought-resistant species for replanting and a calendar of care. It followed losses such as a park where more than 500 of 870 new trees died within ten years despite watering.",
+    "exampleSources": [
+      {
+        "label": "Hansen et al., chapter 10 in Nature-Based Solutions for Cities, 2023",
+        "url": "https://doi.org/10.4337/9781800376762"
+      }
+    ],
+    "guides": [
+      {
+        "by": "Esperon-Rodriguez et al., Nature Climate Change, 2022",
+        "title": "Climate change increases global risk to urban forests: which city tree species are at risk",
+        "url": "https://www.vibrantcitieslab.com/wordpress/wp-content/uploads/2023/08/climate-change-increases-global-risk-to-urban-forests.pdf"
+      }
+    ]
+  },
+  {
+    "id": "fairgreen",
+    "edge": ["greengap","greengent"],
+    "title": "Green without pushing people out",
+    "who": ["city","nat","community"],
+    "when": "years",
+    "measure": "Original residents still living in a greened neighbourhood five years on",
+    "text": "Secure tenure, rent safeguards and designing with residents let poorer neighbourhoods gain shade and parks without losing their homes. Small, local greening that is “just green enough” protects people better than flagship projects.",
+    "example": "In Bangkok, the Baan Mankong programme of the Community Organizations Development Institute gives canal-side communities subsidies and cheap loans to secure land and rebuild their homes. Along Khlong Lat Phrao, where flood works needed the canal banks, communities planned their own moves and rebuilding instead of being evicted.",
+    "exampleSources": [
+      {
+        "label": "Christian Science Monitor, 2019: when a city of canals floods, what happens to waterway shantytowns?",
+        "url": "https://proof.csmonitor.com/Environment/2019/0703/When-a-city-of-canals-floods-what-happens-to-waterway-shantytowns"
+      }
+    ],
+    "guides": [
+      {
+        "by": "Wolch, Byrne and Newell, Landscape and Urban Planning, 2014",
+        "title": "Urban green space, public health and environmental justice: the challenge of making cities “just green enough”",
+        "url": "https://urbansustainability.seas.umich.edu/wp-content/uploads/2014/06/Making-cities-just-green-enough.pdf"
+      },
+      {
+        "by": "Urban Waters Learning Network",
+        "title": "Greening without gentrification: anti-displacement strategies for parks",
+        "url": "https://urbanwaterslearningnetwork.org/wp-content/uploads/2019/09/Parks-Related-Anti-Displacement-Strategies-report-with-appendix.pdf"
+      }
+    ]
+  },
+  {
+    "id": "drypower",
+    "edge": ["scarcity","thermal"],
+    "title": "Power that doesn’t need water",
+    "who": ["utilities","nat"],
+    "when": "decade",
+    "measure": "Power capacity added that needs little or no water",
+    "text": "Solar and wind use very little water, and dry cooling protects thermal plants when rivers run low or warm."
+  },
+  {
+    "id": "pumpbackup",
+    "edge": ["power","scarcity"],
+    "title": "Backup power for water",
+    "who": ["water","utilities"],
+    "when": "years",
+    "measure": "Water pumping stations with backup power",
+    "text": "Solar pumps and backup supply keep water flowing when the grid fails.",
+    "guides": [
+      {
+        "by": "World Health Organization, 2017",
+        "title": "Climate-resilient water safety plans: managing health risks associated with climate variability and change",
+        "url": "https://www.who.int/publications/i/item/9789241512794"
+      }
+    ]
+  },
+  {
+    "id": "irrigate",
+    "edge": ["irrigation","groundwater"],
+    "title": "Smart irrigation and groundwater rules",
+    "who": ["agri","water"],
+    "when": "years",
+    "measure": "Groundwater levels over time",
+    "text": "Drip irrigation, metering, aquifer recharge and fair pumping rules keep wells from running dry.",
+    "guides": [
+      {
+        "by": "Council on Energy, Environment and Water (CEEW)",
+        "title": "Atal Bhujal Yojana: India’s scheme for community-led groundwater management",
+        "url": "https://www.ceew.in/publications/atal-bhujal-yojana-scheme-for-sustainable-participatory-groundwater-resources-management"
+      }
+    ]
+  },
+  {
+    "id": "farmcredit",
+    "edge": ["harvests","farmdebt"],
+    "title": "Crop insurance and fair credit",
+    "who": ["insurers","agri","funders"],
+    "when": "years",
+    "measure": "Farmers covered by crop insurance or fair credit",
+    "text": "Crop insurance that pays out after a heat-hit season, affordable credit and heat-tolerant seed stop one bad harvest becoming a debt trap.",
+    "guides": [
+      {
+        "by": "Ministry of Agriculture and Farmers Welfare, India",
+        "title": "Pradhan Mantri Fasal Bima Yojana, India’s national crop insurance scheme",
+        "url": "https://pmfby.gov.in/"
+      }
+    ]
+  },
+  {
+    "id": "hap",
+    "edge": ["heatstroke","hsys"],
+    "title": "Heat action plans",
+    "who": ["city","health","met"],
+    "when": "season",
+    "measure": "Hours from heat alert to a coordinated response",
+    "text": "Early warnings, public cooling spaces and outreach to the people most at risk prevent illness before it reaches hospital.",
+    "example": "Ahmedabad launched South Asia’s first city heat action plan in 2013; by June 2026, India had more than 250. In Nepal, Dhangadhi, which passes 40 °C every year, published a heat action plan in 2025 with the Nepal Red Cross Society. In Bangladesh, Practical Action is working with communities and local authorities in Khulna to build a heat early warning system that responds to them, where none existed before.",
+    "exampleSources": [
+      {
+        "label": "Red Cross Red Crescent Climate Centre: Dhangadhi Heat Action Plan 2025",
+        "url": "https://www.climatecentre.org/publications/16234/dhangadhi-heat-action-plan-2025/"
+      },
+      {
+        "label": "Practical Action: Living in a Hotter World",
+        "url": "https://practicalaction.org/news-stories/living-in-a-hotter-world-a-mission-to-find-hidden-urban-hotspots/"
+      }
+    ],
+    "guides": [
+      {
+        "by": "GHHIN, UNDRR and WMO, 2025 (first edition)",
+        "title": "Extreme Heat Risk Governance Framework and Toolkit: a self-assessment of how ready institutions are, and how to plan, act and learn",
+        "url": "https://heathealth.info/resources/heat-gov-framework/"
+      },
+      {
+        "by": "Global Heat Health Information Network (GHHIN)",
+        "title": "Heat action plans and case studies, including Indian cities",
+        "url": "https://heathealth.info/heat-action-plans-and-case-studies/"
+      },
+      {
+        "by": "The Nature Conservancy and partners, 2019",
+        "title": "Heat Action Planning Guide for Neighborhoods of Greater Phoenix: planning heat action with residents",
+        "url": "https://globalfutures.asu.edu/sustainable-cities/wp-content/uploads/sites/17/2023/09/Phoenix-Arizona-Heat-Action-Plan.pdf"
+      },
+      {
+        "by": "WHO and WMO, 2015, in the GHHIN resource library",
+        "title": "Heatwaves and health: guidance on warning-system development",
+        "url": "https://heathealth.info/resources/heatwaves-and-health-guidance-on-warning-system-development/"
+      },
+      {
+        "by": "Council on Energy, Environment and Water (CEEW), 2025",
+        "title": "How Extreme Heat is Impacting India: district-level heat risk for all 734 districts, to target plans",
+        "url": "https://www.ceew.in/sites/default/files/ceew-how-extreme-heat-is-impacting-india-final-web-file.pdf"
+      },
+      {
+        "by": "Council on Energy, Environment and Water (CEEW)",
+        "title": "How can heat action plans make Thane a heat-resilient city?",
+        "url": "https://www.ceew.in/publications/how-can-thane-city-tackle-heatwaves-risks-with-heat-action-plan"
+      }
+    ]
+  },
+  {
+    "id": "readyclinics",
+    "edge": ["hsys","heatstroke"],
+    "title": "Heat-ready health services",
+    "who": ["health","funders"],
+    "when": "season",
+    "measure": "Health facilities with heat protocols, trained staff and cooling",
+    "text": "Cooling, backup power, surge plans and trained frontline workers keep clinics working through heatwaves.",
+    "guides": [
+      {
+        "by": "National Centre for Disease Control, Ministry of Health and Family Welfare, India, 2021",
+        "title": "National Action Plan on Heat-Related Illness",
+        "url": "https://ncdc.mohfw.gov.in/uploads/pdf/heat12.pdf"
+      },
+      {
+        "by": "National Centre for Disease Control, India",
+        "title": "Climate change and health: heat-illness guidelines, emergency cooling guidance and heat stroke units",
+        "url": "https://ncdc.mohfw.gov.in/includes/About/CentresAndDivision/CEOH.php"
+      },
+      {
+        "by": "Council on Energy, Environment and Water (CEEW), for the GHHIN South Asia hub, 2026",
+        "title": "India in a Warming World: Strengthening Heat-Health Action",
+        "url": "https://www.ceew.in/publications/india-heat-health-action"
+      }
+    ],
+    "example": "On Assam’s Brahmaputra river islands, boat clinics run by C-NES with the National Health Mission switched from diesel to solar power, so lights, fans and vaccine fridges keep working and emergencies can be seen after dark. Tamil Nadu’s heat strategy proposes a simple step for mothers: screen for heat risk in the check-ups of the state’s pregnancy scheme, which has run in various forms since 1987.",
+    "exampleSources": [
+      {
+        "label": "Thomson Reuters Foundation, via Eco-Business: Brahmaputra boat clinic goes solar",
+        "url": "https://www.eco-business.com/news/brahmaputra-boat-clinic-goes-solar-powering-up-rural-healthcare/"
+      },
+      {
+        "label": "Tamil Nadu State Planning Commission, Beating the Heat: Tamil Nadu Heat Mitigation Strategy, 2024",
+        "url": "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf"
+      }
+    ]
+  },
+  {
+    "id": "heatrules",
+    "edge": ["informal","heatstroke"],
+    "title": "Heat-safe work",
+    "who": ["nat","employers","workers"],
+    "when": "season",
+    "measure": "Worksites inspected and keeping rest-break rules",
+    "text": "Rest, shade and water during dangerous heat, with paid breaks so that stopping work doesn’t mean losing pay.",
+    "example": "Singapore requires hourly wet-bulb globe temperature checks on outdoor worksites and at least 10 minutes’ shaded rest each hour for heavy work at 32 °C or above; in 2024 it inspected 250 workplaces and acted against 78. Several Gulf states ban outdoor work during the hottest midday hours in summer. Since 2023, Spain has required employers to cut or move working hours when the weather agency issues an orange or red heat alert and other measures can’t keep workers safe. Tamil Nadu’s heat strategy proposes building heat protection into the state’s existing occupational safety rules, rather than waiting for a new law.",
+    "exampleSources": [
+      {
+        "label": "Singapore Ministry of Manpower, 2023",
+        "url": "https://www.mom.gov.sg/newsroom/press-releases/2023/1024-enhanced-measures-to-reduce-heat-stress-for-outdoor-workers"
+      },
+      {
+        "label": "HRD Asia: 78 worksites found non-compliant",
+        "url": "https://www.hcamag.com/asia/specialisation/employment-law/more-than-75-worksites-found-non-compliant-with-singapores-enhanced-heat-stress-measures-report/499570"
+      },
+      {
+        "label": "Garrigues on Spain’s 2023 decree",
+        "url": "https://www.garrigues.com/en_GB/new/spain-high-temperatures-will-mean-employers-must-adopt-preventive-measures-order-protect"
+      },
+      {
+        "label": "Tamil Nadu State Planning Commission, Beating the Heat: Tamil Nadu Heat Mitigation Strategy, 2024",
+        "url": "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf"
+      }
+    ],
+    "guides": [
+      {
+        "by": "WHO and WMO, in the GHHIN resource library",
+        "title": "Heat at work: the first joint global guidance on workplace heat stress",
+        "url": "https://heathealth.info/at-work/"
+      }
+    ]
+  },
+  {
+    "id": "heatcash",
+    "edge": ["heatstroke","lost"],
+    "title": "Income protection in heatwaves",
+    "who": ["insurers","nat","workers"],
+    "when": "years",
+    "measure": "Workers covered, and days from trigger to payout",
+    "text": "Cash that pays out automatically when temperatures cross a danger threshold, so people can afford to stop. Triggers need careful design to limit basis risk: heat that hurts people without triggering a payout.",
+    "example": "Parametric heat insurance has been piloted with women informal workers in India.",
+    "exampleSources": [
+      {
+        "label": "ICMIF, 2024: IBISA launches a parametric heat-index product for women workers in India",
+        "url": "https://www.icmif.org/news_story/ibisa-launches-a-new-parametric-heat-index-product-in-india-to-protect-women-workers-from-heat-induced-wage-losses/"
+      }
+    ],
+    "guides": [
+      {
+        "by": "Global Asia Insurance Partnership, 2026",
+        "title": "Scaling Parametric Insurance in Asia: regulation, design, basis risk and why pilots stall",
+        "url": "https://www.gaip.global/publications/scaling-parametric-insurance-in-asia/"
+      },
+      {
+        "by": "VimoSEWA, 2025",
+        "title": "Parametric heat and rainfall insurance for informal women workers",
+        "url": "https://www.sewainsurance.org/wp-content/uploads/2025/12/Parametric-Heat-and-Rainfall-Insurance-for-Informal-Women-Workers.pdf"
+      },
+      {
+        "by": "CGAP",
+        "title": "Confronting the climate and health nexus: lessons from the Self-Employed Women’s Association (SEWA)",
+        "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association"
+      }
+    ]
+  },
+  {
+    "id": "socialprotection",
+    "edge": ["lost","informal"],
+    "title": "Social protection floors",
+    "who": ["nat","funders"],
+    "when": "years",
+    "measure": "Households reached by heat-season support",
+    "text": "Basic income security that keeps households above the line between one hot season and the next.",
+    "guides": [
+      {
+        "by": "International Labour Organization",
+        "title": "Addressing the impacts of extreme heat through social protection",
+        "url": "https://www.ilo.org/resource/article/addressing-impacts-extreme-heat-through-social-protection"
+      }
+    ]
+  },
+  {
+    "id": "freecare",
+    "edge": ["heatstroke","debt"],
+    "title": "Free care for heat illness",
+    "who": ["health","nat"],
+    "when": "season",
+    "measure": "Heat illness cases treated free of charge",
+    "text": "Covering emergency treatment for heat illness stops one bad day from becoming years of debt.",
+    "guides": [
+      {
+        "by": "National Centre for Disease Control, India",
+        "title": "Climate change and health: heat-illness guidelines, emergency cooling guidance and heat stroke units",
+        "url": "https://ncdc.mohfw.gov.in/includes/About/CentresAndDivision/CEOH.php"
+      },
+      {
+        "by": "National Centre for Disease Control, Ministry of Health and Family Welfare, India, 2021",
+        "title": "National Action Plan on Heat-Related Illness",
+        "url": "https://ncdc.mohfw.gov.in/uploads/pdf/heat12.pdf"
+      }
+    ]
+  },
+  {
+    "id": "affordablecool",
+    "edge": ["energypoverty","heatstroke"],
+    "title": "Affordable cooling for the poorest",
+    "who": ["utilities","city","nat"],
+    "when": "years",
+    "measure": "Low-income homes with affordable cooling",
+    "text": "Lifeline electricity tariffs, efficient fans and cool roofs put safe cooling within reach of every household.",
+    "guides": [
+      {
+        "by": "Sustainable Energy for All, 2023",
+        "title": "Chilling Prospects: Global Access to Cooling Gaps 2023",
+        "url": "https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-global-access-to-cooling-gaps-2023"
+      },
+      {
+        "by": "Sustainable Energy for All",
+        "title": "Chilling Prospects Special: Gender and Access to Cooling",
+        "url": "https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-special-gender"
+      }
+    ]
+  },
+  {
+    "id": "coolhousing",
+    "edge": ["migration","homes"],
+    "title": "Cool, affordable housing",
+    "who": ["city","funders","community"],
+    "when": "decade",
+    "measure": "Homes fitted with cool roofs or insulation",
+    "text": "Upgrading informal settlements with ventilation, shade and cool roofs, and planning homes for people who arrive.",
+    "example": "Telangana’s Cool Roof Policy 2023–2028, India’s first, makes cool roofs mandatory for many kinds of building and aims to cover about 300 km² of roofs. Tamil Nadu’s heat strategy proposes making a measure of how much heat walls and roofs let in, the residential envelope transmittance value (ReTV) from India’s residential energy code, a condition in tenders for redeveloping informal settlements.",
+    "exampleSources": [
+      {
+        "label": "NRDC: Telangana announces a groundbreaking cool roof policy",
+        "url": "https://www.nrdc.org/bio/prima-madan/telangana-announces-groundbreaking-cool-roof-policy"
+      },
+      {
+        "label": "Tamil Nadu State Planning Commission, Beating the Heat: Tamil Nadu Heat Mitigation Strategy, 2024",
+        "url": "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf"
+      }
+    ],
+    "guides": [
+      {
+        "by": "The Climate Group",
+        "title": "Telangana’s cool roof policy: from pilot demonstration to policy",
+        "url": "https://www.theclimategroup.org/our-work/publications/telanganas-cool-roof-policy-pilot-demonstration-policy-implementation"
+      },
+      {
+        "by": "Wellcome",
+        "title": "£17.5m for research testing heat adaptations, including a trial of reflective roof coatings with a site in India",
+        "url": "https://wellcome.org/insights/articles/wellcome-awards-ps175m-support-global-research-drive"
+      }
+    ]
+  },
+  {
+    "id": "keepinschool",
+    "edge": ["inequality","dropout"],
+    "title": "Keep children in school",
+    "who": ["schools","nat"],
+    "when": "season",
+    "measure": "Attendance and drop-outs during the heat season",
+    "text": "Cash transfers, school meals and heat-ready classrooms and timetables keep children learning through hot seasons.",
+    "example": "When heat closes schools, children lose more than lessons: consultations for Tamil Nadu’s heat strategy found that long breaks cost children in schools serving marginalised groups their midday meals. India’s school meal scheme can keep serving meals through the summer holidays in areas declared drought-hit, as Odisha did in 27 districts in a year when a forecast heatwave also extended school closures. In the Philippines, heat helped drive the return to a June school start, keeping classes out of the hottest months, April and May.",
+    "exampleSources": [
+      {
+        "label": "Tamil Nadu State Planning Commission, Beating the Heat: Tamil Nadu Heat Mitigation Strategy, 2024",
+        "url": "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf"
+      },
+      {
+        "label": "The Quint: Odisha extends school holidays and keeps midday meals going",
+        "url": "https://www.thequint.com/news/hot-news/met-dept-predicts-severe-heatwave-odisha-extends-school-holidays"
+      },
+      {
+        "label": "Inquirer: DepEd all set for June school opening in 2025",
+        "url": "https://newsinfo.inquirer.net/1940232/deped-all-set-for-june-school-opening-in-25"
+      }
+    ],
+    "guides": [
+      {
+        "by": "UNICEF, 2026",
+        "title": "Learning Interrupted: global snapshot of climate-related school disruptions",
+        "url": "https://www.unicef.org/reports/learning-interrupted"
+      }
+    ]
+  },
+  {
+    "id": "coolnights",
+    "edge": ["sleepless","mental"],
+    "title": "Cool nights and support",
+    "who": ["city","health","community"],
+    "when": "season",
+    "measure": "Night-time indoor temperatures in target homes",
+    "text": "Cooling centres open at night, shaded and ventilated homes, and mental-health support during the hot season.",
+    "guides": [
+      {
+        "by": "WHO Regional Office for Europe, 2025",
+        "title": "How summer heat affects health, and how to keep cool, including cooling homes at night",
+        "url": "https://www.who.int/europe/news/item/23-06-2025-how-summer-heat-impacts-health-and-how-to--keepcool"
+      },
+      {
+        "by": "Wellcome",
+        "title": "Climate and mental health: uncovering how heat affects anxiety, depression and psychosis",
+        "url": "https://wellcome.org/research-funding/schemes/climate-and-mental-health-award-uncovering-mechanisms-between-heat-and"
+      }
+    ]
+  },
+  {
+    "id": "countdeaths",
+    "edge": ["deaths","underreport"],
+    "title": "Count every heat death",
+    "who": ["health","met","nat"],
+    "when": "years",
+    "measure": "Recorded heat deaths compared with excess deaths",
+    "text": "Real-time tracking of excess deaths during heatwaves, and death certificates that record heat, make the toll visible.",
+    "guides": [
+      {
+        "by": "National Centre for Disease Control, India, in the GHHIN resource library",
+        "title": "Autopsy findings in heat-related deaths: guidance for recording heat as a cause",
+        "url": "https://heathealth.info/resources/autopsy-findings-in-heat-related-deaths/"
+      },
+      {
+        "by": "National Centre for Disease Control, Ministry of Health and Family Welfare, India, 2021",
+        "title": "National Action Plan on Heat-Related Illness",
+        "url": "https://ncdc.mohfw.gov.in/uploads/pdf/heat12.pdf"
+      }
+    ]
+  },
+  {
+    "id": "coolingcentres",
+    "edge": ["underfund","deaths"],
+    "title": "Cooling centres and check-ins",
+    "who": ["city","community","health"],
+    "when": "season",
+    "measure": "Cooling centre visits, and check-ins on people living alone",
+    "text": "Public cooling spaces, water points and check-ins on older people living alone save lives in every heatwave.",
+    "guides": [
+      {
+        "by": "US Centers for Disease Control and Prevention, in the GHHIN resource library",
+        "title": "The use of cooling centers to prevent heat-related illness: evidence and strategies for implementation",
+        "url": "https://heathealth.info/wp-content/uploads/cdc_47657_DS1-compressed-1.pdf"
+      }
+    ]
+  },
+  {
+    "id": "heatbudget",
+    "edge": ["budgets","underfund"],
+    "title": "Dedicated heat budgets",
+    "who": ["nat","city","funders"],
+    "when": "years",
+    "measure": "Heat budget set aside before the season starts",
+    "text": "Ring-fenced funding for heat action, set aside before the season, so protection doesn’t compete with the emergency.",
+    "example": "Since August 2026, India’s disaster response funds can pay for heatwave relief; preparing for heat is still paid for separately. In Nepal, Madhesh Province and five municipalities committed 5% of sectoral budgets to adaptation and disaster risk reduction, with support from Practical Action and Mercy Corps.",
+    "exampleSources": [
+      {
+        "label": "CEEW, Nepal in a Warming World, 2025",
+        "url": "https://www.ceew.in/publications/nepal-heat-health-action"
+      }
+    ],
+    "guides": [
+      {
+        "by": "Centre for Policy Research, India",
+        "title": "Finding the Finance: a guide to identifying centrally sponsored schemes to fund heat resilience",
+        "url": "https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/"
+      },
+      {
+        "by": "Centre for Policy Research, India, 2023",
+        "title": "How is India adapting to heatwaves? An assessment of 37 heat action plans",
+        "url": "https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/"
+      }
+    ]
+  },
+  {
+    "id": "anticipatory",
+    "edge": ["underfund","emergency"],
+    "title": "Anticipatory action",
+    "who": ["met","funders","nat"],
+    "when": "years",
+    "measure": "Money released before the heatwave peaks",
+    "text": "Release money and act on the forecast, before the heatwave peaks, instead of paying for the emergency afterwards.",
+    "example": "On 21 April 2024, with forecasts above 38 °C, the Bangladesh Red Crescent Society activated its heatwave early action protocol for Dhaka: warnings, drinking water, cooling stations and cash grants, with about CHF 500,000 from the IFRC to reach some 124,000 people. WHO and WMO estimate that bringing heat-health warning systems to the countries that lack them could prevent nearly 100,000 deaths a year.",
+    "exampleSources": [
+      {
+        "label": "Red Cross Red Crescent Climate Centre, 2024",
+        "url": "https://www.climatecentre.org/13733/red-crescent-activates-early-action-protocol-for-heatwaves-in-dhaka/"
+      }
+    ],
+    "guides": [
+      {
+        "by": "IFRC, Practical Action and the Red Cross Red Crescent Climate Centre, for the Zurich Climate Resilience Alliance, 2026",
+        "title": "Understanding the global landscape of heat early warning systems (with case studies from Bangladesh, Nepal, Pakistan, the Philippines and Vietnam)",
+        "url": "https://www.preventionweb.net/publication/documents-and-publications/understanding-global-landscape-heat-early-warning-systems"
+      },
+      {
+        "by": "Zurich Climate Resilience Alliance",
+        "title": "Early warning systems: resources",
+        "url": "https://zcralliance.org/resources-ews/"
+      },
+      {
+        "by": "Council on Energy, Environment and Water (CEEW), 2026",
+        "title": "Thriving in a Warming World: climate intelligence for extreme heat",
+        "url": "https://www.ceew.in/sites/default/files/ceew-thriving-warming-world-climate-intelligence-extreme-heat.pdf"
+      }
+    ]
+  },
+  {
+    "id": "heatlending",
+    "edge": ["repayments","credit"],
+    "title": "Heat-smart lending",
+    "who": ["insurers","nat","funders"],
+    "when": "years",
+    "measure": "Borrowers given repayment holidays or extra credit during heatwaves, and loan arrears after the season",
+    "text": "Lenders and regulators keep credit flowing through a heatwave: repayment holidays triggered by heat alerts, credit lines kept open, and loans for shade, cooling and cold storage, so a hot season does not become a debt spiral.",
+    "example": "India’s banks can already reschedule loans and pause repayments in areas hit by notified natural calamities, under a 2018 Reserve Bank of India direction. India added heatwaves to its notified calamities in 2026; whether that relief now reaches heat-hit borrowers is worth asking your bank. Southeast Asia has the same machinery for floods and storms. In the Philippines, banks in areas under a state of calamity can give borrowers up to six months’ grace with no penalties. Indonesia’s regulator let banks restructure Rp12.58 trillion of loans for 237,083 borrowers after the 2025 Sumatra floods, and Vietnam let lenders reschedule debts hit by Typhoon Yagi until 2027. None of these rules yet names heat as a trigger.",
+    "exampleSources": [
+      {
+        "label": "Philstar: BSP expands calamity relief for banks and borrowers, 2025",
+        "url": "https://www.philstar.com/business/2025/10/27/2482726/bsp-expands-calamity-relief-banks-borrowers"
+      },
+      {
+        "label": "Bisnis.com: OJK loan restructuring for Sumatra disaster victims reaches Rp12.58 trillion, 2026",
+        "url": "https://finansial.bisnis.com/read/20260127/90/1947681/ojk-nilai-restrukturisasi-kredit-bagi-korban-bencana-sumatra-capai-rp1258-triliun"
+      },
+      {
+        "label": "Viet Nam News: banks allowed to extend debt repayment for Typhoon Yagi-affected customers to 2027",
+        "url": "https://vietnamnews.vn/economy/1688781/banks-allowed-to-extend-debt-repayment-for-typhoon-yagi-affected-customers-to-2027.html"
+      }
+    ],
+    "guides": [
+      {
+        "by": "Reserve Bank of India, 2018",
+        "title": "Master Direction: Relief measures by banks in areas affected by natural calamities",
+        "url": "https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10478"
+      },
+      {
+        "by": "Shonchoy and others, IDE-JETRO",
+        "title": "Seasonal flexible microcredit in Bangladesh: repayment adjusted to the lean season did not raise default",
+        "url": "https://www.ide.go.jp/English/Publish/Reports/Dp/460.html"
+      },
+      {
+        "by": "Sustainable Banking and Finance Network (regulators and banking associations from emerging markets)",
+        "title": "Policy library: environmental, social and climate risk rules for banks, country by country",
+        "url": "https://www.sbfnetwork.org/"
+      },
+      {
+        "by": "Center for Financial Inclusion, 2023",
+        "title": "Inclusive finance and extreme heat: how small loans and parametric insurance can help people through deadly heatwaves",
+        "url": "https://centerforfinancialinclusion.org/inclusive-finance-and-extreme-heat-how-small-loans-and-parametric-insurance-can-help-vulnerable-populations-manage-through-deadly-heat-waves"
+      }
+    ]
+  },
+  {
+    "id": "riskpools",
+    "edge": ["insurance","budgets"],
+    "title": "Shared risk pools",
+    "who": ["insurers","nat","funders"],
+    "when": "years",
+    "measure": "Share of heat losses covered by pooled risk",
+    "text": "Public–private insurance and regional risk pools keep cover available and spread losses beyond any one budget.",
+    "example": "Regional risk pools such as the African Risk Capacity and the Caribbean’s CCRIF share disaster risk across countries.",
+    "exampleSources": [
+      {
+        "label": "World Bank: sovereign catastrophe risk pools, 15 years on",
+        "url": "https://blogs.worldbank.org/en/psd/sovereign-catastrophe-risk-pools-15-years-and-still-more-come"
+      }
+    ],
+    "guides": [
+      {
+        "by": "Global Asia Insurance Partnership, 2026",
+        "title": "Scaling Parametric Insurance in Asia: regulation, design, basis risk and why pilots stall",
+        "url": "https://www.gaip.global/publications/scaling-parametric-insurance-in-asia/"
+      },
+      {
+        "by": "UNDP",
+        "title": "Global Shield against Climate Risks in Pakistan: pre-arranged finance for climate shocks",
+        "url": "https://www.undp.org/pakistan/projects/global-shield-against-climate-risks"
+      }
+    ]
+  }
+]

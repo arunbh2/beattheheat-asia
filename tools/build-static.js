@@ -1,15 +1,17 @@
 /* ==========================================================
    Builds the crawlable, plain-HTML pages and AI-readable files
-   from data.js. Run after editing data.js:
+   from data.js, which is generated from data/core. Run after editing data/core:
 
        node tools/build-static.js
 
    The interactive site renders its content with JavaScript, which
    most AI crawlers and some search engines do not run. These pages
    carry the same content as plain HTML, so it can be found, read
-   and cited. They are generated: edit data.js, not the pages.
+   and cited. They are generated: edit data/core, not the pages or data.js.
    ========================================================== */
 const fs = require("fs"), path = require("path"), vm = require("vm");
+// data.js is generated from the knowledge base in data/ (tools/build-data.js); rebuild it first
+require("child_process").execFileSync(process.execPath, [path.join(__dirname, "build-data.js")], { stdio: "inherit" });
 const ROOT = path.join(__dirname, ".."), SITE = "https://beattheheat.asia";
 const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + `

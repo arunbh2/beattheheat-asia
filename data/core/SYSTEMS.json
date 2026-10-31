@@ -1,0 +1,65 @@
+[
+  {
+    "id": "nature",
+    "label": "Nature and\necosystems",
+    "color": "#4E7A57",
+    "desc": "Heat dries land, burns forests, melts ice and warms the sea, wearing down the ecosystems that feed, water and shelter us."
+  },
+  {
+    "id": "food",
+    "label": "Food and\nagriculture",
+    "color": "#7D8A34",
+    "desc": "Crops, animals, fisheries and the people who work them all have heat limits. Cross them and food gets scarcer and dearer."
+  },
+  {
+    "id": "water",
+    "label": "Water",
+    "color": "#5679A8",
+    "space": 2,
+    "desc": "Heat raises the demand for water just as it shrinks the supply, and lowers its quality."
+  },
+  {
+    "id": "energy",
+    "label": "Energy",
+    "color": "#B07A26",
+    "rings": 3,
+    "space": 2,
+    "desc": "Heat drives up demand for cooling while cutting the ability of power plants and grids to supply it."
+  },
+  {
+    "id": "cities",
+    "label": "Cities and\ninfrastructure",
+    "color": "#5B6573",
+    "desc": "Concrete, crowding and ageing infrastructure turn cities into amplifiers of heat."
+  },
+  {
+    "id": "health",
+    "label": "Health",
+    "color": "#9A3B4A",
+    "desc": "The human body has limits. Heat strains the heart, kidneys, lungs and mind, and the services built to care for them."
+  },
+  {
+    "id": "work",
+    "label": "Work and\neconomy",
+    "color": "#7A5238",
+    "desc": "Heat slows hands, closes businesses and squeezes the incomes of those with the least margin."
+  },
+  {
+    "id": "education",
+    "label": "Education",
+    "color": "#76609E",
+    "desc": "Hot classrooms and closed schools cost children learning that shows up years later as lower skills and earnings."
+  },
+  {
+    "id": "society",
+    "label": "Society and\nsecurity",
+    "color": "#A0587A",
+    "desc": "Heat frays the social fabric: it isolates, displaces, divides and widens every existing gap."
+  },
+  {
+    "id": "gov",
+    "label": "Governance\nand finance",
+    "color": "#33465C",
+    "desc": "The institutions that decide who is protected, and who pays, are themselves strained by heat."
+  }
+]

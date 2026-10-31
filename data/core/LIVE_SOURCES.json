@@ -1,0 +1,11 @@
+{
+  "model": {
+    "label": "Weather data by Open-Meteo.com",
+    "url": "https://open-meteo.com/",
+    "licence": "CC BY 4.0"
+  },
+  "wbgt": {
+    "label": "Wet-bulb globe temperature: National Environment Agency, Singapore, via data.gov.sg",
+    "url": "https://data.gov.sg/datasets/d_87884af1f85d702d4f74c6af13b4853d/view"
+  }
+}

@@ -1,0 +1,17 @@
+name: Check the knowledge base
+on:
+  push:
+    paths: ["data/**", "tools/build-data.js", "tools/check-data.js", "data.js"]
+  pull_request:
+    paths: ["data/**", "tools/build-data.js", "tools/check-data.js", "data.js"]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - name: data.js matches data/core
+        run: node tools/build-data.js --check
+      - name: every record follows the rules
+        run: node tools/check-data.js

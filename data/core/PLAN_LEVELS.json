@@ -1,0 +1,20 @@
+[
+  {
+    "id": "yellow",
+    "name": "Yellow",
+    "meaning": "Watch",
+    "placeholder": "e.g. 40 °C forecast"
+  },
+  {
+    "id": "orange",
+    "name": "Orange",
+    "meaning": "Be prepared",
+    "placeholder": "e.g. 43 °C, or two hot nights in a row"
+  },
+  {
+    "id": "red",
+    "name": "Red",
+    "meaning": "Take action",
+    "placeholder": "e.g. 45 °C, or heat index 42 °C"
+  }
+]

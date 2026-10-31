@@ -1,0 +1,70 @@
+{
+  "disruptions": [
+    {
+      "id": "power",
+      "name": "Power cut",
+      "dep": "Power",
+      "icon": "⚡"
+    },
+    {
+      "id": "water",
+      "name": "Low water supply",
+      "dep": "Water",
+      "icon": "💧"
+    },
+    {
+      "id": "staff",
+      "name": "Staff unwell or absent",
+      "dep": "Staff",
+      "icon": "👤"
+    },
+    {
+      "id": "phones",
+      "name": "Phones and internet down",
+      "dep": "Phones and internet",
+      "icon": "📶"
+    },
+    {
+      "id": "roads",
+      "name": "Transport disrupted",
+      "dep": "Transport",
+      "icon": "🚌"
+    }
+  ],
+  "functions": [
+    {
+      "id": "cooling",
+      "name": "Cooling spaces",
+      "deps": ["power","water","staff"],
+      "prompt": "Alternative operation, or a nearby accessible replacement"
+    },
+    {
+      "id": "clinic",
+      "name": "Clinic or health post",
+      "deps": ["power","water","staff","roads"],
+      "prompt": "Backup power for cold storage and fans; staff cover; referral transport"
+    },
+    {
+      "id": "watersupply",
+      "name": "Public drinking water",
+      "deps": ["power","water","roads"],
+      "prompt": "Tanker supply, stored water, or another source, with quality checks"
+    },
+    {
+      "id": "outreach",
+      "name": "Outreach to people at risk",
+      "deps": ["phones","staff","roads"],
+      "prompt": "An offline contact list, door-to-door visits, volunteers on foot"
+    }
+  ],
+  "states": [
+    ["","Not arranged"],
+    ["arranged","Arranged"],
+    ["tested","Tested in a drill"]
+  ],
+  "note": "A heatwave can arrive with a power cut and falling water pressure. These prompts help you find what must keep running and what it depends on. They are planning questions, not an emergency protocol, and give no readiness score.",
+  "source": {
+    "label": "MCR2030, 2025, p. 26 (Incheon’s functional continuity plan: 61 core functions, alternative workspaces, resources and staff, with scenario-based training)",
+    "url": "https://mcr2030.undrr.org/publication/urban-heat-risk-management-resource-package"
+  }
+}

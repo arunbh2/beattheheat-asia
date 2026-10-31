@@ -13,7 +13,7 @@ for (const f of SITE) {
   const T = JSON.parse(fs.readFileSync(timing, "utf8"));
   const block = `<!--explainer-->${CSS}<figure class="cs-ex"><video controls playsinline preload="none" width="1920" height="1080" poster="/media/explainers/${f.id}.jpg" aria-label="${esc(f.term)}: an explainer film with captions in the picture">` +
     `<source src="/media/explainers/${f.id}.mp4" type="video/mp4"></video><figcaption><b>Watch: ${esc(f.term)}</b> · ${len(T.total)} · narrated, captions in the picture</figcaption></figure><!--/explainer-->`;
-  let s = fs.readFileSync(page, "utf8").replace(/<!--explainer-->[\s\S]*?<!--\/explainer-->/g, "");
+  let s = fs.readFileSync(page, "utf8").replace(/\n*<!--explainer-->[\s\S]*?<!--\/explainer-->\n*/g, "");
   const h = s.indexOf("</h1>"); if (h < 0) continue;
   let at;
   if (f.place === "h2") { at = s.indexOf("<h2", h); if (at < 0) continue; }

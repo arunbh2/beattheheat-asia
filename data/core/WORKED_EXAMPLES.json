@@ -1,0 +1,271 @@
+[
+  {
+    "id": "ahmedabad",
+    "place": "Ahmedabad, India",
+    "group": "city",
+    "year": "2013 onwards",
+    "title": "Ahmedabad’s heat action plan",
+    "trigger": "In May 2010 a heatwave peaking at 46.8 °C caused an estimated 1,344 excess deaths in the city, 43% more than in the same weeks of 2009 and 2011.",
+    "decision": "In 2013 the Ahmedabad Municipal Corporation, with the Indian Institute of Public Health Gandhinagar and NRDC, launched South Asia’s first heat action plan: forecasts from the India Meteorological Department feed colour-coded alerts, departments act together, the public is warned, and health staff are trained. From 2017 the plan added cool roofs.",
+    "result": "An evaluation estimated about 1,190 deaths a year were avoided after the plan began, compared with before it. The model has since spread to many other Indian cities and states.",
+    "actions": [
+      {
+        "lever": "hap",
+        "lead": "city",
+        "payer": "Not documented",
+        "measure": "Colour-coded alerts issued from IMD forecasts, with inter-agency response"
+      },
+      {
+        "lever": "readyclinics",
+        "lead": "health",
+        "payer": "Not documented",
+        "measure": "Health staff trained to recognise and treat heat illness"
+      },
+      {
+        "lever": "coolhousing",
+        "lead": "city",
+        "payer": "Not documented",
+        "measure": "Cool roofs on homes in informal settlements and on public buildings"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Azhar et al., PLoS ONE, 2014: the 2010 heatwave",
+        "url": "https://doi.org/10.1371/journal.pone.0091831"
+      },
+      {
+        "label": "NRDC: the plan’s components and cool roofs",
+        "url": "https://www.nrdc.org/press-releases/ahmedabads-pioneering-plan-now-shielding-millions-killer-heat"
+      },
+      {
+        "label": "Hess et al., 2018: deaths avoided",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6236972/"
+      }
+    ],
+    "triggers": {
+      "basis": "local",
+      "yellow": "Colour-coded alerts from IMD forecasts, at thresholds set from the city’s own death records",
+      "issuer": "city",
+      "channels": []
+    },
+    "note": "The plan below is filled in with Ahmedabad’s documented actions. Who paid is not set out in these sources, so it is marked “Not documented”."
+  },
+  {
+    "id": "thane",
+    "place": "Thane, India",
+    "group": "city",
+    "year": "2024 onwards",
+    "title": "Thane’s ward-by-ward heat action plan",
+    "trigger": "In Thane, a fast-growing coastal city next to Mumbai, humidity and warm nights make heat more dangerous than the thermometer suggests, and the risk differs sharply from one ward to the next.",
+    "decision": "In March 2024 the Thane Municipal Corporation and CEEW published a heat action plan built on a ward-level risk index of felt heat, warm nights and social vulnerability. A Heatwave Task Force across departments, chaired by an Additional Municipal Commissioner, runs it with emergency procedures. Measures include early warnings, cool roofs and pavements, water stations, shade, and heat preparedness in schools and hospitals.",
+    "result": "Its effect on illness and deaths has not yet been publicly evaluated. What it shows is a plan that names who acts and where the risk is highest, before the season starts.",
+    "actions": [
+      {
+        "lever": "hap",
+        "lead": "city",
+        "payer": "Not documented",
+        "measure": "Ward-level risk index updated each season, with task-force actions logged against it"
+      },
+      {
+        "lever": "coolingcentres",
+        "lead": "city",
+        "payer": "Not documented",
+        "measure": "Water stations and shaded areas in the highest-risk wards"
+      },
+      {
+        "lever": "coolhousing",
+        "lead": "city",
+        "payer": "Not documented",
+        "measure": "Cool roofs and cool pavements installed in high-risk wards"
+      },
+      {
+        "lever": "readyclinics",
+        "lead": "health",
+        "payer": "Not documented",
+        "measure": "Hospitals and schools with heat preparedness procedures"
+      }
+    ],
+    "sources": [
+      {
+        "label": "CEEW: How can Thane city tackle heatwave risks with a heat action plan",
+        "url": "https://www.ceew.in/publications/how-can-thane-city-tackle-heatwaves-risks-with-heat-action-plan"
+      },
+      {
+        "label": "Global Heat Health Information Network: Heat Action Plan for Thane City 2024",
+        "url": "https://heathealth.info/resources/heat-action-plan-for-thane-city-2024/"
+      }
+    ],
+    "note": "The plan below is filled in with Thane’s documented measures. Who paid is not set out in these sources, so it is marked “Not documented”."
+  },
+  {
+    "id": "tamilnadu",
+    "place": "Tamil Nadu, India",
+    "group": "city",
+    "year": "2024 onwards",
+    "title": "Tamil Nadu’s state-wide heat network",
+    "trigger": "About 68% of Tamil Nadu’s people face 8–9 hours a day of strong heat stress from March to June, and 56% live where summer nights are warmer than the 1981–2011 average. The state’s 2019 heatwave action plan dealt mainly with short-term emergency response.",
+    "decision": "In 2024 the State Planning Commission, with WRI India as knowledge partner and support from the British High Commission, convened a Heat Action Network of line departments, including disaster management, health, education, agriculture, environment and forests, and water. Together they wrote India’s first state-wide heat strategy, covering people, animals and ecosystems along three pathways: health and well-being, sustained resources and productivity, and cooling. It builds heat into schemes that already exist rather than starting new ones.",
+    "result": "It is a strategy, not yet an evaluated programme. Departments are to take its recommendations to detailed project reports, with progress reviewed every 6–8 months. What it shows is a whole state, not one city, giving heat an owner across departments.",
+    "actions": [
+      {
+        "lever": "hap",
+        "lead": "nat",
+        "payer": "Not documented",
+        "measure": "Departments in the Heat Action Network reporting progress every 6–8 months"
+      },
+      {
+        "lever": "readyclinics",
+        "lead": "health",
+        "payer": "Not documented",
+        "measure": "Pregnancy-scheme check-ups that screen for heat risk (proposed)"
+      },
+      {
+        "lever": "coolhousing",
+        "lead": "city",
+        "payer": "Not documented",
+        "measure": "Redevelopment tenders for informal settlements that set a limit on heat gain through walls and roofs (proposed)"
+      },
+      {
+        "lever": "greencity",
+        "lead": "nat",
+        "payer": "Public budget",
+        "measure": "Forest and tree cover rising from 23.8% towards 33% by 2030–31"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tamil Nadu State Planning Commission, 2024: Beating the Heat",
+        "url": "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf"
+      },
+      {
+        "label": "WRI India: mapping the path to heat resilience in Tamil Nadu",
+        "url": "https://wri-india.org/perspectives/mapping-path-heat-resilience-tamil-nadu"
+      },
+      {
+        "label": "Tamil Nadu Pollution Control Board, G.O. 215, 2023: the tree cover target",
+        "url": "https://tnpcb.gov.in/PDF/About_Us/Announcementgos/GoNo_215_101123.pdf"
+      }
+    ],
+    "note": "The plan below is filled in with Tamil Nadu’s strategy. Two actions are proposals, not yet in place, and are marked so. Who pays is documented only for the Green Tamil Nadu Mission."
+  },
+  {
+    "id": "singapore",
+    "place": "Singapore",
+    "group": "workers",
+    "year": "2023 onwards",
+    "title": "Singapore’s heat rules for outdoor work",
+    "trigger": "In one of the world’s densest, most humid cities, the commercial centre has measured up to about 7 °C warmer than the outskirts, and builders, shipyard and landscape workers labour outdoors through it. A study of 355 workers found each hot day cost a median S$21 in lost income.",
+    "decision": "In 2023 the National Environment Agency launched a national heat stress advisory based on wet-bulb globe temperature (WBGT), which counts humidity, sun and wind, with low, moderate and high levels. The Ministry of Manpower made employers check WBGT hourly at outdoor work, give at least 10 minutes’ shaded rest each hour for heavy work at 32 °C or above, help new workers acclimatise, and enforced it.",
+    "result": "In March and June 2024 the ministry inspected 250 workplaces and acted against 78, mainly for missing shaded rest breaks and acclimatisation. The rules have since been revised and strengthened. Their effect on heat illness has not yet been publicly evaluated.",
+    "actions": [
+      {
+        "lever": "heatrules",
+        "phase": "orange",
+        "lead": "nat",
+        "payer": "Employers",
+        "measure": "Outdoor worksites checking WBGT hourly and giving shaded rest breaks; workplaces inspected"
+      },
+      {
+        "lever": "hap",
+        "phase": "red",
+        "lead": "met",
+        "payer": "Not documented",
+        "measure": "Heat stress advisory with three WBGT risk levels, shown by location"
+      },
+      {
+        "lever": "greencity",
+        "lead": "city",
+        "payer": "Not documented",
+        "measure": "Districts modelled for cooling through Cooling Singapore"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Ministry of Sustainability and the Environment: Heat Stress Advisory, 2023",
+        "url": "https://www.mse.gov.sg/latest-news/press-release-heat-stress-advisory/"
+      },
+      {
+        "label": "Ministry of Manpower: enhanced heat stress measures, 2023",
+        "url": "https://www.mom.gov.sg/newsroom/press-releases/2023/1024-enhanced-measures-to-reduce-heat-stress-for-outdoor-workers"
+      },
+      {
+        "label": "HRD Asia: 78 of 250 worksites non-compliant, 2024",
+        "url": "https://www.hcamag.com/asia/specialisation/employment-law/more-than-75-worksites-found-non-compliant-with-singapores-enhanced-heat-stress-measures-report/499570"
+      },
+      {
+        "label": "NUS Project HeatSafe, 2024",
+        "url": "https://medicine.nus.edu.sg/wp-content/uploads/2024/03/PRESS-RELEASE_Project-HeatSafe-18MAR2024-FOR-IMMEDIATE-RELEASE.pdf"
+      },
+      {
+        "label": "Cooling Singapore",
+        "url": "https://www.thegpsc.org/sites/gpsc/files/cooling_singapore_-_digital_urban_climate_twin.pdf"
+      }
+    ],
+    "triggers": {
+      "basis": "wbgt",
+      "orange": "32 °C: shaded rest every hour for heavy outdoor work",
+      "red": "33 °C: high heat stress advisory",
+      "issuer": "met",
+      "channels": ["apps","work"]
+    },
+    "note": "The plan below is filled in with Singapore’s documented measures. The rules oblige employers to provide rest and shade; who pays for the advisory and for Cooling Singapore is not set out in these sources."
+  },
+  {
+    "id": "dhaka",
+    "place": "Dhaka, Bangladesh",
+    "group": "city",
+    "year": "2023 onwards",
+    "title": "Dhaka acts before the heat peaks",
+    "trigger": "Bangladesh’s ‘feels-like’ temperature has risen by about 4.5 °C since 1980, and parts of Dhaka run more than 10 °C hotter than the countryside. In April 2024 a long heatwave closed schools for about 33 million children.",
+    "decision": "In 2023 Dhaka North City Corporation appointed Asia’s first Chief Heat Officer, a post paid for by the Arsht-Rock foundation rather than the city, to bring heat planning together. The same year the Bangladesh Red Crescent Society’s heatwave early action protocol was approved: when forecasts pass 38 °C, warnings, drinking water, cooling stations and cash grants go out before the peak.",
+    "result": "On 21 April 2024 the protocol was activated for Dhaka, with about CHF 500,000 from the IFRC’s emergency fund to reach some 124,000 people. Its effect on illness and deaths has not been publicly evaluated. What it shows is money and a plan agreed before the heat, released by a forecast.",
+    "actions": [
+      {
+        "lever": "anticipatory",
+        "phase": "red",
+        "lead": "community",
+        "payer": "Not documented",
+        "measure": "Days from a 38 °C forecast to cash, water and warnings reaching people"
+      },
+      {
+        "lever": "coolingcentres",
+        "phase": "red",
+        "lead": "community",
+        "payer": "Not documented",
+        "measure": "Cooling stations open at three locations during the heatwave"
+      },
+      {
+        "lever": "hap",
+        "phase": "before",
+        "lead": "city",
+        "payer": "Philanthropy",
+        "measure": "A Chief Heat Officer bringing the city’s heat planning together"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Red Cross Red Crescent Climate Centre, 2024",
+        "url": "https://www.climatecentre.org/13733/red-crescent-activates-early-action-protocol-for-heatwaves-in-dhaka/"
+      },
+      {
+        "label": "Arsht-Rock: Dhaka North’s Chief Heat Officer, 2023",
+        "url": "https://onebillionresilient.org/2023/05/03/bushra-afreen-dhaka-chief-heat-officer/"
+      },
+      {
+        "label": "World Bank, 2025",
+        "url": "https://www.worldbank.org/en/news/press-release/2025/09/16/bangladesh-faces-health-and-economic-risks-from-rising-temperature-world-bank"
+      },
+      {
+        "label": "NBC News: school closures, 2024",
+        "url": "https://www.nbcnews.com/news/world/schools-close-extreme-heat-philippines-bangladesh-asia-rcna149485"
+      }
+    ],
+    "triggers": {
+      "basis": "temp",
+      "red": "Forecast above 38 °C: early action protocol activated",
+      "issuer": "met",
+      "channels": []
+    },
+    "note": "The plan below is filled in with Dhaka’s documented actions. The Chief Heat Officer is funded by philanthropy; the early action protocol drew on the IFRC’s emergency fund, which is not one of this tool’s payer options, so it is marked “Not documented”."
+  }
+]

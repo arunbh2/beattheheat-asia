@@ -1,0 +1,26 @@
+{
+  "concept": {
+    "name": "Design concept",
+    "text": "Designed, but not yet tried by the people it is for."
+  },
+  "test": {
+    "name": "Simulation or test",
+    "text": "Tried in a drill, simulation or small trial."
+  },
+  "reported": {
+    "name": "Reported, not evaluated",
+    "text": "Described by those running it or in the news; nobody independent has checked the results."
+  },
+  "guidance": {
+    "name": "Official guidance or data",
+    "text": "What a government or UN agency advises or counts. It shows what is expected, not what works."
+  },
+  "measured": {
+    "name": "Measured in a study",
+    "text": "A study, survey or analysis measured it, often the size of the problem rather than the effect of the fix."
+  },
+  "evaluated": {
+    "name": "Independently evaluated",
+    "text": "Someone outside the programme measured whether the action worked."
+  }
+}

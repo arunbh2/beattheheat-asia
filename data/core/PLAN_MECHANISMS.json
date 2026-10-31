@@ -1,0 +1,62 @@
+[
+  {
+    "id": "amadora",
+    "city": "Amadora, Portugal",
+    "size": "A dense municipality of about 200,000 in the Lisbon Metropolitan Area",
+    "problem": "Rising heat in a dense city with little room for green space, and older and low-income residents at most risk.",
+    "mechanism": "Civil Protection is the single focal point: it coordinates the departments, consolidates their information and runs the heatwave response, with the mayor’s support keeping heat a shared priority.",
+    "resources": "About €1 million a year for heat activities within Civil Protection’s budget, which the city itself describes as not enough for comprehensive risk management.",
+    "delivery": "SMS alerts built with a private partner; the Red Cross, fire service and police help spread warnings; health and social teams visit 3,000–4,000 residents twice a week in summer; prepared cooled shelters.",
+    "unresolved": "Space for greenery in dense streets, and building codes still to be updated.",
+    "check": "Is there one office that can convene the others and hold a heat budget? Who can do home visits at scale?",
+    "pages": "pp. 15–20"
+  },
+  {
+    "id": "incheon",
+    "city": "Incheon, Republic of Korea",
+    "size": "A metropolitan city of over 3 million",
+    "problem": "More heatwave days and tropical nights, with elderly and low-income neighbourhoods most exposed; a sharp rise in heat illness in 2018.",
+    "mechanism": "National law treats heatwaves as a disaster, so heat sits inside the city’s disaster structure, led by a Natural Disaster Division, with district headquarters and field units.",
+    "resources": "A local heat ordinance (2019) and national grants covering part of project costs; some protection is funded through welfare programmes rather than a heat budget.",
+    "delivery": "1,340 heat shelters (2023), shelter locations shared in safety apps, nearly 7,000 volunteer ‘heatwave helpers’, and data analysis to find 52 priority areas for cooling facilities.",
+    "unresolved": "Competing land uses for urban forests, and long-term funding to scale up.",
+    "check": "Does national law give local authorities a mandate and money for heat? Is there data on where older people live alone?",
+    "pages": "pp. 21–27"
+  },
+  {
+    "id": "capetown",
+    "city": "Cape Town, South Africa",
+    "size": "A city of over 4.7 million with a Heat Wave Action Plan",
+    "problem": "Heat that falls hardest on low-income neighbourhoods and informal settlements, where most residents have little greenery and no air conditioning, pool or easy way to the beach.",
+    "mechanism": "A coordinating department convenes rather than implements, alongside existing structures: a business continuity committee, the disaster risk management centre and a climate forum.",
+    "resources": "No dedicated national heat funding; the city relies on general grants, property taxes and tariffs.",
+    "delivery": "Outreach in the hottest areas, six spray parks in lower-income neighbourhoods, and cooling centres and real-time heat monitoring in planning.",
+    "unresolved": "Upkeep of green infrastructure, and resources to scale up public communication, including ‘message coupling’, which it plans to bring from its drought response to heat.",
+    "check": "Is there a body that can convene without taking over others’ mandates? Who keeps essential services running in a heatwave?",
+    "pages": "pp. 34–40"
+  },
+  {
+    "id": "quito",
+    "city": "Quito, Ecuador",
+    "size": "A capital city with its own metropolitan powers",
+    "problem": "A city centre up to 3 °C warmer than its surroundings, while a drought threatens water and hydropower.",
+    "mechanism": "Heat is managed inside the city’s long-term climate action plan, with an environment secretariat in the lead and the risk management secretariat alongside it.",
+    "resources": "Funding from national, municipal, corporate and international sources; an ordinance on green and blue infrastructure.",
+    "delivery": "Nature-based solutions and planning rules, with community and international partners.",
+    "unresolved": "Heat is a lower national priority, and national weather data is incomplete.",
+    "check": "Does your plan sit inside a wider climate plan with its own budget lines? Are the weather data you rely on maintained?",
+    "pages": "pp. 28–33"
+  },
+  {
+    "id": "nairobi",
+    "city": "Nairobi, Kenya",
+    "size": "A fast-growing capital, starting out on heat",
+    "problem": "Rapid development outpacing climate-sensitive planning, and the loss of green space.",
+    "mechanism": "Urban heat was made a priority for the first time; work sits with a small climate change department.",
+    "resources": "Eight staff for all the department’s activities, no dedicated heat strategy yet, and limited funds.",
+    "delivery": "Forecasts from the national weather service reach the public through mainstream media; no dedicated heat warning yet.",
+    "unresolved": "Fragmented, siloed efforts across sectors; no local heat data; low public awareness.",
+    "check": "Starting from little is common. What is the first decision, and the first piece of data, that would let the next step happen?",
+    "pages": "pp. 41–45"
+  }
+]
