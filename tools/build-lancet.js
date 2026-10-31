@@ -1,7 +1,7 @@
 /* ==========================================================
    Builds /lancet-countdown-2026/: the 2026 report of the Lancet Countdown on
    health and climate change, read for extreme heat in South and Southeast Asia,
-   in plain language and organised by what each kind of reader needs to do.
+   in plain language and organised by what each kind of reader might do.
 
        node tools/build-lancet.js      (build-static.js runs it too)
 

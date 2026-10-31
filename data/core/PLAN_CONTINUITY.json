@@ -62,7 +62,7 @@
     ["arranged","Arranged"],
     ["tested","Tested in a drill"]
   ],
-  "note": "A heatwave can arrive with a power cut and falling water pressure. These prompts help you find what must keep running and what it depends on. They are planning questions, not an emergency protocol, and give no readiness score.",
+  "note": "A heatwave can arrive with a power cut and falling water pressure. These prompts help you find what needs to keep running and what it depends on. They are planning questions, not an emergency protocol, and give no readiness score.",
   "source": {
     "label": "MCR2030, 2025, p. 26 (Incheon’s functional continuity plan: 61 core functions, alternative workspaces, resources and staff, with scenario-based training)",
     "url": "https://mcr2030.undrr.org/publication/urban-heat-risk-management-resource-package"

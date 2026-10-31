@@ -45,10 +45,11 @@ fs.mkdirSync(KB, { recursive: true });
 const write = () => { for (const [f, list] of Object.entries(files)) fs.writeFileSync(path.join(KB, f), JSON.stringify(list, null, 1) + "\n"); };
 const restore = () => { const old = JSON.parse(before); for (const f of Object.keys(files)) { if (old[f]) fs.writeFileSync(path.join(KB, f), JSON.stringify(old[f], null, 1) + "\n"); else fs.rmSync(path.join(KB, f), { force: true }); } };
 write();
-// gate 7: the knowledge base is sound, the site builds and every page works; otherwise put everything back
+// gate 7: the knowledge base is sound, the site builds, no page instructs anyone, and every page works; otherwise put everything back
 try {
   execFileSync(process.execPath, [path.join(__dirname, "check-data.js")], { stdio: "inherit" });
   execFileSync(process.execPath, [path.join(__dirname, "build-static.js")], { stdio: "inherit" });
+  execFileSync(process.execPath, [path.join(__dirname, "check-voice.js")], { stdio: "inherit" });
   if (!process.env.SKIP_SITE_CHECK) execFileSync(process.execPath, [path.join(__dirname, "check-site.js")], { stdio: "inherit" });
 } catch (e) { restore(); console.error("Gate 7 failed: nothing was published. The knowledge base is as it was."); process.exit(1); }
 

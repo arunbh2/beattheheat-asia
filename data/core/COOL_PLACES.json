@@ -600,7 +600,7 @@
       },
       {
         "name": "Map risk with the people exposed",
-        "does": "Walk the area with workers, women, older and disabled people, migrants and renters to see who is exposed, why warnings fail, and where assets should go.",
+        "does": "Walk the area with workers, women, older and disabled people, migrants and renters to see who is exposed, why warnings fail, and where assets could go.",
         "keeps": "Repeating it as people and places change.",
         "avoid": "Relying on satellite heat maps alone.",
         "cost": {

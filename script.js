@@ -1412,7 +1412,7 @@
       <p class="plan-step__hint">${esc(FIN.intro)} <a href="/finance/" target="_blank" rel="noopener">How the routes compare<span class="visually-hidden"> (opens in a new tab)</span></a></p>
       ${FIN.needs.map(n => { const v = finNeed(n.id); return `<fieldset class="plan-w2a__lv plan-fin__need"><legend>${esc(n.need)}</legend>
         <label>Route, and who holds the money <input type="text" data-pl-fin="need:${n.id}:route" value="${esc(v.route || "")}" placeholder="e.g. ${esc(n.route.toLowerCase())}"></label>
-        <label>Money must arrive by <input type="text" data-pl-fin="need:${n.id}:by" value="${esc(v.by || "")}" placeholder="${esc(n.ask)}"></label></fieldset>`; }).join("")}
+        <label>Money needed by <input type="text" data-pl-fin="need:${n.id}:by" value="${esc(v.by || "")}" placeholder="${esc(n.ask)}"></label></fieldset>`; }).join("")}
       <fieldset class="plan-w2a__lv plan-fin__path"><legend>If money passes through someone else first</legend>
         ${FIN.fields.map(f => `<label>${esc(f.name)} <input type="text" data-pl-fin="path:${f.id}" value="${esc(finPath()[f.id] || "")}" placeholder="${esc(f.placeholder)}"></label>`).join("")}
       </fieldset>
@@ -1779,7 +1779,7 @@
       PLAN_CONTINUITY.functions.forEach(f => f.deps.filter(d => cont().on.includes(d)).forEach(d => { const fb = cont().fb[`${f.id}:${d}`] || {}; L.push(`   ${f.name} / ${PLAN_CONTINUITY.disruptions.find(x => x.id === d).name}: ${fb.fallback || "(no fallback)"}${fb.who ? `, by ${fb.who}` : ""} [${(PLAN_CONTINUITY.states.find(z => z[0] === (fb.st || "")) || [])[1]}]`); })); }
     if (TWOWAY.length) { L.push("", "WARNINGS THAT WORK BOTH WAYS"); TWOWAY.forEach(f => L.push(`   ${f.name}: ${(t.twoway || {})[f.id] || "(not set)"}`)); }
     if (FIN) { const f = fin(); L.push("", "PAYING FOR PROTECTION");
-      FIN.needs.forEach(n => { const v = (f.needs || {})[n.id] || {}; L.push(`${n.need}: ${v.route || "(no route yet)"}${v.by ? `. Must arrive by: ${v.by}` : ""}`); });
+      FIN.needs.forEach(n => { const v = (f.needs || {})[n.id] || {}; L.push(`${n.need}: ${v.route || "(no route yet)"}${v.by ? `. Needed by: ${v.by}` : ""}`); });
       FIN.fields.forEach(x => L.push(`   ${x.name}: ${(f.path || {})[x.id] || "(not set)"}`));
       L.push(`Payout trigger: ${f.payout || "(none)"}`, `If it does not pay: ${f.nopay || "(not set)"}`, "Will it survive the next season?", ...FIN.survive.map(q => `   - ${q}`)); }
     if (expoOn().length) { L.push("", "EXPOSURE: TO DISCUSS (prompts, not a risk score)"); expoOn().forEach(x => L.push(`   - ${x.q} ${x.prompt}`)); }
@@ -1824,7 +1824,7 @@
         ${W2A.length ? `<h2>Warning-to-action table</h2><table><thead><tr><th>Level</th>${W2A.map(f => `<th>${h(f.name)}</th>`).join("")}</tr></thead><tbody>${LEVELS.map(l => { const w = (t.w2a || {})[l.id] || {};
           return `<tr><td><span class="lv lv--${l.id}"></span><strong>${h(l.name)}</strong></td>${W2A.map(f => { const v = f.id === "decide" ? instName(w.decide) : f.id === "pay" ? (w.pay || PAYERS[0]) : w[f.id];
             return `<td class="${v && v !== "Not decided yet" ? "" : "gap"}">${h(v || "Not set")}</td>`; }).join("")}</tr>`; }).join("")}</tbody></table>` : ""}`; })()}
-      ${FIN ? (f => `<h2>Paying for protection</h2><table><thead><tr><th>Need</th><th>Route, and who holds the money</th><th>Must arrive by</th></tr></thead><tbody>${FIN.needs.map(n => { const v = (f.needs || {})[n.id] || {};
+      ${FIN ? (f => `<h2>Paying for protection</h2><table><thead><tr><th>Need</th><th>Route, and who holds the money</th><th>Needed by</th></tr></thead><tbody>${FIN.needs.map(n => { const v = (f.needs || {})[n.id] || {};
         return `<tr><td><strong>${h(n.need)}</strong></td><td class="${v.route ? "" : "gap"}">${h(v.route || "No route yet")}</td><td>${h(v.by || "")}</td></tr>`; }).join("")}</tbody></table>
         <table><tbody>${FIN.fields.map(x => `<tr><td><strong>${h(x.name)}</strong></td><td class="${(f.path || {})[x.id] ? "" : "gap"}">${h((f.path || {})[x.id] || "Not set")}</td></tr>`).join("")}
         <tr><td><strong>Payout trigger</strong></td><td>${h(f.payout || "None")}</td></tr><tr><td><strong>If it does not pay</strong></td><td class="${f.nopay || !f.payout ? "" : "gap"}">${h(f.nopay || "Not set")}</td></tr></tbody></table>
@@ -2555,7 +2555,7 @@
     const box = document.getElementById("finance-body"); if (!box || typeof FINANCE === "undefined") return;
     const F = FINANCE, src = x => `<span class="cool-ev__src">${extLink(x.url, x.label)}</span>`;
     box.innerHTML = `<p class="loops__intro">${esc(F.intro)}</p>
-      <h3 class="fin-h">What needs paying for, and when must the money arrive?</h3>
+      <h3 class="fin-h">What needs paying for, and when is the money needed?</h3>
       <div class="fin-table" role="table" aria-label="Needs and funding routes">
         <div class="fin-row fin-row--h" role="row"><span role="columnheader">Need</span><span role="columnheader">Route to look into</span><span role="columnheader">The question to answer</span></div>
         ${F.needs.map(n => `<div class="fin-row" role="row"><span role="cell"><b>${esc(n.need)}</b></span><span role="cell">${esc(n.route)}</span><span role="cell">${esc(n.ask)}</span></div>`).join("")}

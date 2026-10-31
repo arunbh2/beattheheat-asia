@@ -25,7 +25,7 @@
       "placeholder": "e.g. ward health helpline 1800-000-000, staffed 8 am to 10 pm"
     }
   ],
-  "note": "Advice should acknowledge what people need in order to follow it. Only confirmed provisions go into the message.",
+  "note": "Advice works better when it acknowledges what people need in order to follow it. Only confirmed provisions go into the message.",
   "source": {
     "label": "MCR2030, 2025, p. 38 (Cape Town’s ‘message coupling’, learned in its 2017 drought and planned for heat)",
     "url": "https://mcr2030.undrr.org/publication/urban-heat-risk-management-resource-package"

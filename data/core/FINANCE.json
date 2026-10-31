@@ -53,7 +53,7 @@
       "who": "Set in the contract; the insurer or a calculation agent confirms it"
     }
   ],
-  "triggersNote": "The three need not match. Protective action should never wait for an insurance payout.",
+  "triggersNote": "The three need not match. Protective action works best when it does not wait for an insurance payout.",
   "basis": {
     "q": "Why can someone lose income to heat and get no payout?",
     "kinds": [
@@ -108,7 +108,7 @@
     },
     {
       "id": "by",
-      "name": "When it must arrive",
+      "name": "When it is needed",
       "placeholder": "e.g. within 3 days of a red alert"
     },
     {

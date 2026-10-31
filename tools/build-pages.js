@@ -106,6 +106,7 @@ const STANDARDS = [
   ["Every claim is sourced", "Each figure links to the publication it comes from, and new sources keep an archived copy, so a claim can be checked even if a page moves."],
   ["Evidence is labelled honestly", "Projections are never presented as facts. Where reports differ, the site shows both and explains why."],
   ["A careful, diplomatic voice", "No blame, no political positions, no ranking of countries, cities or organisations, and no individuals named in the site’s own text."],
+  ["A humble voice", "The site describes what helps, what it depends on and who could act. It does not instruct anyone: the people closest to the heat know their places best."],
   ["Listing is not endorsement", "Organisations, businesses and funders appear because of their published work, not as partners, and never in order of merit."],
   ["Checked before publishing", "New research passes seven checks before it appears: structure, sourcing, evidence, tone, a reviewer’s note, consistency with what is already published, and a test of every page."],
   ["Kept current, with history", "The knowledge base is updated monthly. Older figures are marked as superseded, not deleted, so changes can be traced."],

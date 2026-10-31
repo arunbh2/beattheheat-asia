@@ -76,7 +76,7 @@
     }
   ],
   "centre": "Heat strain",
-  "close": "Effects depend on exposure, task and the person. That is why a single heat alert cannot protect everyone in the same way, and why plans need to ask who is doing what, in what, and after what kind of night.",
+  "close": "Effects depend on exposure, task and the person. That is why a single heat alert cannot protect everyone in the same way, and why plans can ask who is doing what, in what, and after what kind of night.",
   "groups": [
     {
       "id": "medicines",
@@ -109,7 +109,7 @@
       "name": "Workers in hot factories and sheds",
       "brief": "At three garment factories in Phnom Penh, workers reporting heat symptoms rose from 68% to 88% in the hot months, by their own reports. Measure heat where people work, cool roofs and walls, and add air flow, water and breaks.",
       "text": "Heat is not only an outdoor problem. In a survey of 753 women at three garment factories in Phnom Penh, the share reporting heat symptoms rose from 68% in the cooler months to 88% in the hot months, as the factory heat index rose from about 25 °C to 29 °C. More said heat slowed their work and cut their motivation.",
-      "caution": "These are workers’ own reports, not measured output. Plans should count indoor workplaces: measure heat where people work, cool the roof and walls, add air flow, water and breaks.",
+      "caution": "These are workers’ own reports, not measured output. Plans can count indoor workplaces: measure heat where people work, cool the roof and walls, add air flow, water and breaks.",
       "source": {
         "label": "Chea et al., BMC Public Health, 2025",
         "url": "https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-025-22787-0"
