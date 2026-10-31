@@ -1,0 +1,29 @@
+# Verifies a month of incoming research against the real web (tools/verify-inbox.js): opens every source link, saves or finds
+# an archived copy, confirms each source's expected terms appear on the page, and stores excerpts of the real text.
+# Commits the results back to the branch it ran on. Run by hand, or by the monthly update, before tools/merge-inbox.js.
+name: Verify sources
+on:
+  workflow_dispatch:
+    inputs:
+      month:
+        description: The inbox month to verify (YYYY-MM)
+        required: true
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node tools/verify-inbox.js "${{ inputs.month }}"
+      - name: Commit the results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "data/inbox/${{ inputs.month }}"
+          git diff --cached --quiet || git commit -m "Verify sources for ${{ inputs.month }}"
+          git push

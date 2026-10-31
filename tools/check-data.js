@@ -53,13 +53,16 @@ function check(records, kb, opts = {}) {
     if (r.type === "funding" && T) { if (!T.instruments.includes(r.instrument)) hold.push(`instrument must be one of ${T.instruments.join(", ")}`);
       if (!T.stages.includes(r.stage)) hold.push(`stage must be one of ${T.stages.join(", ")}`);
       if (r.philanthropy_role && !T.roles.includes(r.philanthropy_role)) hold.push(`philanthropy_role must be one of ${T.roles.join(", ")}`);
-      const a = r.amount || {}; if (a.value == null || !a.currency) hold.push("amount needs value and currency"); if (a.usd != null && !a.fx_date) hold.push("a US$ amount needs fx_date"); }
+      const a = r.amount || {}; if (a.disclosed === false) { if (a.value != null) hold.push("an undisclosed amount cannot carry a value"); } else if (a.value == null || !a.currency) hold.push("amount needs value and currency, or disclosed: false"); if (a.usd != null && !a.fx_date) hold.push("a US$ amount needs fx_date"); }
     if (r.replaces && !all.has(r.replaces)) hold.push(`replaces an unknown id ${r.replaces}`);
     // 2 sourcing
     if (r.type === "source") {
       if (!/^https:\/\//.test(r.url || "")) hold.push("source url must start with https://");
       if (!/^https:\/\/(web\.archive\.org\/web\/|archive\.(today|ph|is|org)\/)/.test(r.archive || "")) hold.push("source needs an archived copy (web.archive.org or archive.today)");
       if (links) { const s = links[r.url]; if (!s) hold.push("link not checked yet"); else if (s === "FAIL") hold.push("link does not open (FAIL)"); else if (s === "BLOCKED") review.push("site blocks automatic checks: confirm through the archived copy"); }
+      // the page must really say what we rely on it for: tools/verify-inbox.js looks for each expected term on the page or its archived copy
+      if (opts.inbox) { if (!Array.isArray(r.expect) || !r.expect.length) hold.push("source needs expect: the key terms its page must contain");
+        else if (links) { const q = (links._terms || {})[r.url]; if (!q) hold.push("terms not checked yet (run the Verify sources workflow)"); else { const miss = r.expect.filter(t => !q[t]); if (miss.length) hold.push(`not found on the page: ${miss.map(t => `"${t}"`).join(", ")}`); } } }
     } else {
       if (!Array.isArray(r.sources) || !r.sources.length) hold.push("needs at least one source");
       else r.sources.forEach(s => { const x = all.get(s); if (!x) hold.push(`unknown source ${s}`); else if (x.type !== "source") hold.push(`${s} is not a source`); });
