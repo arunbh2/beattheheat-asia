@@ -1,0 +1,3667 @@
+{
+  "module": "R5",
+  "title": "Social protection that scales up in heatwaves",
+  "last_checked": "2026-10-31",
+  "disclaimer": "Listing is not endorsement and is not financial, insurance or investment advice.",
+  "scope_note": "Source-checked scoping review, not an exhaustive systematic review. Heterogeneous scheme records must not be counted as heat-triggered cash programmes. Sources accessible in this review include documents with subsequent intermittent failures; access limitations recorded. No heat-specific paid aggregate inferred from entitlement, budget or announcement.",
+  "evidence_labels": [
+    "concept",
+    "test",
+    "reported",
+    "guidance",
+    "measured",
+    "evaluated"
+  ],
+  "schema_notes": [
+    "The six supplied top-level arrays are retained. Additional metadata, legal/benefit fields, money ledger and unverified list make scope and missing evidence explicit.",
+    "'not verified' is missing evidence, not zero. Empty payouts means no admitted transaction, not no payment.",
+    "Scheme level identifies financing/administration; instruments can serve another level. Public social insurance is mapped to social rather than equated with a private parametric transfer.",
+    "Source.label uses the required evidence labels; access quality is separately recorded in source_register.",
+    "Sources on benefit rules are guidance, not causal evidence. Loop and lever mappings are analytical inferences.",
+    "No published head-to-head heat comparison found in the reviewed evidence."
+  ],
+  "instruments": [
+    {
+      "id": "employment-guarantee",
+      "name": "Public employment with heat-safe working arrangements",
+      "plain_definition": "Government offers eligible people paid work; heat rules can change work conditions. A worksite rule does not itself create a heat cash entitlement.",
+      "level": "meso",
+      "layer": "social",
+      "loops": [
+        "poverty",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash",
+        "hap"
+      ],
+      "settings": [
+        "work",
+        "homes",
+        "summer"
+      ],
+      "how_it_breaks_the_cycle": "Potential mechanism: pre-arranged finance can reduce uncompensated income or care costs and avoid emergency reallocations. These loop links are analytical mappings, not measured causal effects.",
+      "risk_holder": "Underlying household/worker heat risk; public authority, employer or fund holds the specified financial obligation.",
+      "who_pays": "Public budgets",
+      "who_receives": "Eligible work participants",
+      "speed": "Payment follows work/muster/payroll rules, not automatically a weather warning.",
+      "typical_cost": "No transferable heat-specific unit-cost estimate verified. Distinguish benefit spending, administration, contributions/premiums and cost of capital; none can be inferred from an entitlement limit.",
+      "strengths": "Can use established eligibility, service or payment infrastructure; verified example below establishes design, not universal effective coverage.",
+      "limits": "Task and attendance rules can conflict with protective rest; full-wage shorter days require explicit authorization.",
+      "basis_risk": "Usually eligibility, exposure and delivery mismatch rather than weather-index basis risk; do not label every exclusion as actuarial basis risk.",
+      "reaches_poorest": "partly",
+      "reaches_poorest_why": "Depends on programme coverage, documentation, connection/registration and accessible last-mile delivery. Existing infrastructure does not establish universal reach.",
+      "examples": [
+        {
+          "text": "India rural employment guarantee: VB–G RAM G transition from MGNREGA",
+          "status": "active",
+          "source": {
+            "label": "guidance",
+            "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=4&NoteId=158511&lang=1&reg=3"
+          }
+        }
+      ],
+      "uncertainty": "No general measured superiority over new heat insurance established; affordability, coverage, speed and adequacy require local evidence."
+    },
+    {
+      "id": "cash-transfer-delivery-adaptation",
+      "name": "Cash-transfer expansion or safer delivery",
+      "plain_definition": "Existing assistance can pay additional eligible benefits or change when and where people collect; those are different policy choices.",
+      "level": "macro",
+      "layer": "social",
+      "loops": [
+        "poverty",
+        "reactive",
+        "protection",
+        "invisible"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash"
+      ],
+      "settings": [
+        "homes",
+        "neighbourhoods",
+        "summer"
+      ],
+      "how_it_breaks_the_cycle": "Potential mechanism: pre-arranged finance can reduce uncompensated income or care costs and avoid emergency reallocations. These loop links are analytical mappings, not measured causal effects.",
+      "risk_holder": "Underlying household/worker heat risk; public authority, employer or fund holds the specified financial obligation.",
+      "who_pays": "Public assistance budgets",
+      "who_receives": "Eligible households",
+      "speed": "Depends on authorization, registry, liquidity and actual withdrawal; a scheduled launch is not receipt.",
+      "typical_cost": "No transferable heat-specific unit-cost estimate verified. Distinguish benefit spending, administration, contributions/premiums and cost of capital; none can be inferred from an entitlement limit.",
+      "strengths": "Can use established eligibility, service or payment infrastructure; verified example below establishes design, not universal effective coverage.",
+      "limits": "Pre-existing exclusion can persist; a safer payment point alone does not replace lost earnings.",
+      "basis_risk": "Usually eligibility, exposure and delivery mismatch rather than weather-index basis risk; do not label every exclusion as actuarial basis risk.",
+      "reaches_poorest": "partly",
+      "reaches_poorest_why": "Depends on programme coverage, documentation, connection/registration and accessible last-mile delivery. Existing infrastructure does not establish universal reach.",
+      "examples": [
+        {
+          "text": "BISP heat-responsive payment-collection arrangements",
+          "status": "active",
+          "source": {
+            "label": "reported",
+            "url": "https://www.app.com.pk/national/bisp-to-launch-retail-based-payment-model-from-june-16/"
+          }
+        }
+      ],
+      "uncertainty": "No general measured superiority over new heat insurance established; affordability, coverage, speed and adequacy require local evidence."
+    },
+    {
+      "id": "sickness-and-injury-benefit",
+      "name": "Sickness and occupational-injury income protection",
+      "plain_definition": "An insured or legally covered worker receives treatment or income support when illness or injury meets benefit rules.",
+      "level": "micro",
+      "layer": "social",
+      "loops": [
+        "poverty",
+        "debt",
+        "clinic",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash",
+        "freecare"
+      ],
+      "settings": [
+        "work",
+        "homes",
+        "summer"
+      ],
+      "how_it_breaks_the_cycle": "Potential mechanism: pre-arranged finance can reduce uncompensated income or care costs and avoid emergency reallocations. These loop links are analytical mappings, not measured causal effects.",
+      "risk_holder": "Underlying household/worker heat risk; public authority, employer or fund holds the specified financial obligation.",
+      "who_pays": "Employer liability and/or social-insurance contributions",
+      "who_receives": "Eligible workers or providers",
+      "speed": "Medical certification and claim review usually precede entitlement; the relevant payroll deadline must be distinguished from observed payment.",
+      "typical_cost": "No transferable heat-specific unit-cost estimate verified. Distinguish benefit spending, administration, contributions/premiums and cost of capital; none can be inferred from an entitlement limit.",
+      "strengths": "Can use established eligibility, service or payment infrastructure; verified example below establishes design, not universal effective coverage.",
+      "limits": "Work attribution, contributions, registration and documentation can exclude heat harm; no standard weather-index basis risk.",
+      "basis_risk": "Usually eligibility, exposure and delivery mismatch rather than weather-index basis risk; do not label every exclusion as actuarial basis risk.",
+      "reaches_poorest": "partly",
+      "reaches_poorest_why": "Depends on programme coverage, documentation, connection/registration and accessible last-mile delivery. Existing infrastructure does not establish universal reach.",
+      "examples": [
+        {
+          "text": "Singapore work injury compensation for work-related heat illness",
+          "status": "active",
+          "source": {
+            "label": "guidance",
+            "url": "https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work/faqs-on-heat-stress-measures-for-outdoor-work"
+          }
+        }
+      ],
+      "uncertainty": "No general measured superiority over new heat insurance established; affordability, coverage, speed and adequacy require local evidence."
+    },
+    {
+      "id": "publicly-financed-health-cover",
+      "name": "Publicly financed treatment cover",
+      "plain_definition": "Public financing pays for eligible covered care; it is not a grant that a household may spend on anything.",
+      "level": "micro",
+      "layer": "social",
+      "loops": [
+        "debt",
+        "clinic",
+        "poverty",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "freecare",
+        "readyclinics",
+        "socialprotection"
+      ],
+      "settings": [
+        "clinics",
+        "homes",
+        "summer"
+      ],
+      "how_it_breaks_the_cycle": "Potential mechanism: pre-arranged finance can reduce uncompensated income or care costs and avoid emergency reallocations. These loop links are analytical mappings, not measured causal effects.",
+      "risk_holder": "Underlying household/worker heat risk; public authority, employer or fund holds the specified financial obligation.",
+      "who_pays": "Government health financing",
+      "who_receives": "Empanelled provider for beneficiary care",
+      "speed": "Cashless access/authorization and provider reimbursement are separate clocks.",
+      "typical_cost": "No transferable heat-specific unit-cost estimate verified. Distinguish benefit spending, administration, contributions/premiums and cost of capital; none can be inferred from an entitlement limit.",
+      "strengths": "Can use established eligibility, service or payment infrastructure; verified example below establishes design, not universal effective coverage.",
+      "limits": "It can address medical debt after illness, but not necessarily income loss, outpatient care or preventive rest.",
+      "basis_risk": "Usually eligibility, exposure and delivery mismatch rather than weather-index basis risk; do not label every exclusion as actuarial basis risk.",
+      "reaches_poorest": "partly",
+      "reaches_poorest_why": "Depends on programme coverage, documentation, connection/registration and accessible last-mile delivery. Existing infrastructure does not establish universal reach.",
+      "examples": [
+        {
+          "text": "Ayushman Bharat PM-JAY heatstroke hospitalization cover",
+          "status": "active",
+          "source": {
+            "label": "guidance",
+            "url": "https://atalamritabhiyan.assam.gov.in/information-services/pmjay-package-master"
+          }
+        }
+      ],
+      "uncertainty": "No general measured superiority over new heat insurance established; affordability, coverage, speed and adequacy require local evidence."
+    },
+    {
+      "id": "heat-work-stoppage-income",
+      "name": "Wage replacement during a heat-related stop",
+      "plain_definition": "A qualifying work interruption activates wage-support rules, allowing covered workers to lose less income while work pauses.",
+      "level": "meso",
+      "layer": "social",
+      "loops": [
+        "poverty",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "heatcash",
+        "socialprotection",
+        "hap"
+      ],
+      "settings": [
+        "work",
+        "homes",
+        "summer"
+      ],
+      "how_it_breaks_the_cycle": "Potential mechanism: pre-arranged finance can reduce uncompensated income or care costs and avoid emergency reallocations. These loop links are analytical mappings, not measured causal effects.",
+      "risk_holder": "Underlying household/worker heat risk; public authority, employer or fund holds the specified financial obligation.",
+      "who_pays": "Social-insurance or wage-integration fund financing",
+      "who_receives": "Covered employees through approved channels",
+      "speed": "Application, approval and payroll arrangements; observed heat-specific recipient time not verified.",
+      "typical_cost": "No transferable heat-specific unit-cost estimate verified. Distinguish benefit spending, administration, contributions/premiums and cost of capital; none can be inferred from an entitlement limit.",
+      "strengths": "Can use established eligibility, service or payment infrastructure; verified example below establishes design, not universal effective coverage.",
+      "limits": "Employer application and formal employment boundaries matter; worksite exposure can differ from weather-station conditions.",
+      "basis_risk": "Usually eligibility, exposure and delivery mismatch rather than weather-index basis risk; do not label every exclusion as actuarial basis risk.",
+      "reaches_poorest": "partly",
+      "reaches_poorest_why": "Depends on programme coverage, documentation, connection/registration and accessible last-mile delivery. Existing infrastructure does not establish universal reach.",
+      "examples": [
+        {
+          "text": "Italy wage supplementation for excessive heat",
+          "status": "active",
+          "source": {
+            "label": "guidance",
+            "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.07.integrazione-salariale-per-eccesso-di-caldo-indicazioni-dell-inps.html"
+          }
+        }
+      ],
+      "uncertainty": "No general measured superiority over new heat insurance established; affordability, coverage, speed and adequacy require local evidence."
+    },
+    {
+      "id": "seasonal-utility-relief",
+      "name": "Summer electricity relief",
+      "plain_definition": "Public support reduces eligible electricity bills or gives a seasonal energy voucher.",
+      "level": "macro",
+      "layer": "social",
+      "loops": [
+        "energypoverty",
+        "poverty",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatbudget"
+      ],
+      "settings": [
+        "homes",
+        "summer"
+      ],
+      "how_it_breaks_the_cycle": "Potential mechanism: pre-arranged finance can reduce uncompensated income or care costs and avoid emergency reallocations. These loop links are analytical mappings, not measured causal effects.",
+      "risk_holder": "Underlying household/worker heat risk; public authority, employer or fund holds the specified financial obligation.",
+      "who_pays": "Public subsidy or energy-welfare budget",
+      "who_receives": "Eligible household through bill credit",
+      "speed": "Calendar and billing cycle; no automatic forecast trigger unless expressly adopted.",
+      "typical_cost": "No transferable heat-specific unit-cost estimate verified. Distinguish benefit spending, administration, contributions/premiums and cost of capital; none can be inferred from an entitlement limit.",
+      "strengths": "Can use established eligibility, service or payment infrastructure; verified example below establishes design, not universal effective coverage.",
+      "limits": "An account/billing mechanism does not reach everyone without a usable connection or a tenant pass-through arrangement.",
+      "basis_risk": "Usually eligibility, exposure and delivery mismatch rather than weather-index basis risk; do not label every exclusion as actuarial basis risk.",
+      "reaches_poorest": "partly",
+      "reaches_poorest_why": "Depends on programme coverage, documentation, connection/registration and accessible last-mile delivery. Existing infrastructure does not establish universal reach.",
+      "examples": [
+        {
+          "text": "Republic of Korea summer Energy Voucher",
+          "status": "active",
+          "source": {
+            "label": "guidance",
+            "url": "https://www.energy.or.kr/front/conts/105001004002000.do"
+          }
+        }
+      ],
+      "uncertainty": "No general measured superiority over new heat insurance established; affordability, coverage, speed and adequacy require local evidence."
+    },
+    {
+      "id": "forecast-linked-cash",
+      "name": "Forecast-linked assistance through social-protection systems",
+      "plain_definition": "Pre-agreed assistance uses an existing social registry and delivery channel when an agreed forecast condition is met.",
+      "level": "macro",
+      "layer": "anticipatory",
+      "loops": [
+        "poverty",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "anticipatory",
+        "socialprotection",
+        "heatcash"
+      ],
+      "settings": [
+        "work",
+        "homes",
+        "summer"
+      ],
+      "how_it_breaks_the_cycle": "Potential mechanism: pre-arranged finance can reduce uncompensated income or care costs and avoid emergency reallocations. These loop links are analytical mappings, not measured causal effects.",
+      "risk_holder": "Underlying household/worker heat risk; public authority, employer or fund holds the specified financial obligation.",
+      "who_pays": "Pre-arranged public or partner funds",
+      "who_receives": "Selected households",
+      "speed": "Must arrive before protective actions become impossible; actual transfer time requires transaction evidence.",
+      "typical_cost": "No transferable heat-specific unit-cost estimate verified. Distinguish benefit spending, administration, contributions/premiums and cost of capital; none can be inferred from an entitlement limit.",
+      "strengths": "Can use established eligibility, service or payment infrastructure; verified example below establishes design, not universal effective coverage.",
+      "limits": "Forecast miss/false alarm, stale registers and payment failure remain; a non-heat model requires heat-specific design.",
+      "basis_risk": "Forecast/impact mismatch plus eligibility and delivery exclusion.",
+      "reaches_poorest": "partly",
+      "reaches_poorest_why": "Depends on programme coverage, documentation, connection/registration and accessible last-mile delivery. Existing infrastructure does not establish universal reach.",
+      "examples": [
+        {
+          "text": "Fiji anticipatory cash through national social-protection infrastructure",
+          "status": "unclear",
+          "source": {
+            "label": "guidance",
+            "url": "https://www.wfp.org/publications/2024-supercharging-social-protection-systems-anticipatory-cash-case-study-fijis"
+          }
+        }
+      ],
+      "uncertainty": "No general measured superiority over new heat insurance established; affordability, coverage, speed and adequacy require local evidence."
+    }
+  ],
+  "schemes": [
+    {
+      "id": "in-rural-current",
+      "name": "India rural employment guarantee: VB–G RAM G transition from MGNREGA",
+      "instrument": "employment-guarantee",
+      "level": "macro",
+      "layer": "social",
+      "countries": [
+        "India"
+      ],
+      "places": [
+        "National scope subject to programme eligibility"
+      ],
+      "insured_or_covered": "Eligible rural households volunteering for unskilled manual work",
+      "status": "active",
+      "providers": [
+        {
+          "name": "Ministry of Rural Development and state governments",
+          "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=4&NoteId=158511&lang=1&reg=3",
+          "role": "government",
+          "side": "demand"
+        }
+      ],
+      "heat_covered": "partly",
+      "heat_basis": "Official May 2026 FAQ states MGNREGA repeal and successor commencement on 1 July 2026. Worksite water, shade and first-aid provisions are relevant to heat; automatic heat-stop wage replacement not established.",
+      "trigger": {
+        "metric": "Administrative or clinical eligibility; not a weather-index payout",
+        "threshold": "No automatic numerical heat payout threshold verified",
+        "data_source": "Programme records and supporting documents",
+        "geography": "India",
+        "window": "Subject to benefit period and programme rules",
+        "calculated_by": "Ministry of Rural Development and state governments",
+        "verified_by": "Scheme administration; independent verifier not verified",
+        "kind": "action"
+      },
+      "enrolment": [],
+      "premium": {
+        "amount": "not verified",
+        "currency": "not applicable / not verified",
+        "usd": "not applicable / not verified",
+        "year": "not verified",
+        "fx": "not applicable",
+        "paid_by": "Public employment budgets; no retail premium.",
+        "subsidy": "Not separately verified",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=4&NoteId=158511&lang=1&reg=3"
+        }
+      },
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "year": "not verified",
+        "fx": "not applicable",
+        "kind": "budget",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=4&NoteId=158511&lang=1&reg=3"
+        }
+      },
+      "payouts": [],
+      "never_triggered": "unclear",
+      "basis_risk": "Task/attendance and work-demand eligibility can leave heat-related work cessation uncompensated; this is an inferred eligibility mismatch, not insurance basis risk.",
+      "fallback": "Ordinary unemployment allowance when legally due for unmet work demand; it is not verified as automatic compensation for a heat stop.",
+      "inclusion": {
+        "informal_workers": "Rural informal workers can qualify through household work demand; not a universal urban income benefit.",
+        "women": "Eligible subject to underlying programme rules; heat-specific take-up and outcomes not verified",
+        "older_people": "Programme-specific eligibility applies; heat-specific reach not verified",
+        "disabled_people": "Programme-specific eligibility and access conditions apply; heat-specific reach not verified",
+        "migrants": "Current transition, job-card and place-of-work portability require state verification."
+      },
+      "consumer_protection": "No heat-specific complaints, claim-rejection or data-use audit verified. Publish eligibility, decision reasons, accessible appeal and payment timing; these are research implications, not measured compliance failures.",
+      "loops": [
+        "reactive",
+        "protection",
+        "poverty"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash",
+        "hap"
+      ],
+      "settings": [
+        "work",
+        "homes",
+        "summer"
+      ],
+      "evidence": [
+        {
+          "status": "guidance",
+          "text": "Official May 2026 FAQ states MGNREGA repeal and successor commencement on 1 July 2026. Worksite water, shade and first-aid provisions are relevant to heat; automatic heat-stop wage replacement not established.",
+          "kind": "claimed",
+          "source": {
+            "label": "guidance",
+            "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=4&NoteId=158511&lang=1&reg=3"
+          }
+        },
+        {
+          "status": "guidance",
+          "text": "Supports legal context, delivery, eligibility or benefit formula; see source register.",
+          "kind": "claimed",
+          "source": {
+            "label": "guidance",
+            "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=158510&id=158510&lang=1&reg=24"
+          }
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "legal_basis": "VB–G RAM G Act 2025 and state implementing schemes; MGNREGA 2005 is historical from July 2026.",
+      "heat_feature_class": "worksite-protection / existing delivery candidate",
+      "benefit_formula": "Wage entitlement for eligible work; guarantee described as 125 household days per financial year. No uniform nominal heat allowance verified.",
+      "payment_frequency": "Wages weekly or within a fortnight after muster closure according to official FAQ.",
+      "payment_history": {
+        "ever_paid_regular_benefits": "Existing benefit system; transaction history not audited in this review",
+        "ever_heat_triggered": "not verified",
+        "ever_heat_payment": "not verified",
+        "dates": "not verified",
+        "amount": "not verified",
+        "recipients": "not verified",
+        "trigger_to_money_in_hand": "not verified",
+        "use": "Intended purpose follows benefit; actual heat-related use not verified"
+      },
+      "delivery_clock": {
+        "rule": "Statutory/administrative wage schedule is not measured heat-payment speed.",
+        "observed": "No measured trigger-to-recipient time verified"
+      },
+      "evaluation": "No independent heat-specific impact or delivery-speed evaluation verified for this record.",
+      "uncertainty": "State schemes, actual heat adjustments, reduced-task full-wage provisions, attendance exceptions and heat payment records require verification."
+    },
+    {
+      "id": "in-rajasthan-urban",
+      "name": "Rajasthan urban employment guarantee heat work arrangements",
+      "instrument": "employment-guarantee",
+      "level": "meso",
+      "layer": "social",
+      "countries": [
+        "India"
+      ],
+      "places": [
+        "Rajasthan urban areas"
+      ],
+      "insured_or_covered": "Eligible participants in the urban employment scheme",
+      "status": "active",
+      "providers": [
+        {
+          "name": "Rajasthan Department of Local Self Government / urban local bodies",
+          "url": "https://msrgy.rajasthan.gov.in/Home/ordersAndCirculars",
+          "role": "government",
+          "side": "demand"
+        }
+      ],
+      "heat_covered": "partly",
+      "heat_basis": "Official order catalogue lists April 2026 and April 2025 changes to working time and arrangements for heat/loo. It verifies an adaptation order, not its complete wage terms.",
+      "trigger": {
+        "metric": "Administrative or clinical eligibility; not a weather-index payout",
+        "threshold": "No automatic numerical heat payout threshold verified",
+        "data_source": "Programme records and supporting documents",
+        "geography": "India",
+        "window": "Subject to benefit period and programme rules",
+        "calculated_by": "Rajasthan Department of Local Self Government / urban local bodies",
+        "verified_by": "Scheme administration; independent verifier not verified",
+        "kind": "action"
+      },
+      "enrolment": [],
+      "premium": {
+        "amount": "not verified",
+        "currency": "not applicable / not verified",
+        "usd": "not applicable / not verified",
+        "year": "not verified",
+        "fx": "not applicable",
+        "paid_by": "State/local scheme budgets; no retail premium.",
+        "subsidy": "Not separately verified",
+        "source": {
+          "label": "guidance",
+          "url": "https://msrgy.rajasthan.gov.in/Home/ordersAndCirculars"
+        }
+      },
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "year": "not verified",
+        "fx": "not applicable",
+        "kind": "budget",
+        "source": {
+          "label": "guidance",
+          "url": "https://msrgy.rajasthan.gov.in/Home/ordersAndCirculars"
+        }
+      },
+      "payouts": [],
+      "never_triggered": "unclear",
+      "basis_risk": "Safer hours may not preserve earnings if task rates or attendance requirements remain unchanged; inference pending full order.",
+      "fallback": "No heat-specific fallback payment verified; ordinary eligibility and grievance routes do not guarantee emergency cash.",
+      "inclusion": {
+        "informal_workers": "Urban work-seekers subject to scheme eligibility; complete current eligibility not reviewed.",
+        "women": "Eligible subject to underlying programme rules; heat-specific take-up and outcomes not verified",
+        "older_people": "Programme-specific eligibility applies; heat-specific reach not verified",
+        "disabled_people": "Programme-specific eligibility and access conditions apply; heat-specific reach not verified",
+        "migrants": "Portability and eligibility not verified; do not infer automatic access"
+      },
+      "consumer_protection": "No heat-specific complaints, claim-rejection or data-use audit verified. Publish eligibility, decision reasons, accessible appeal and payment timing; these are research implications, not measured compliance failures.",
+      "loops": [
+        "reactive",
+        "protection",
+        "poverty"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash"
+      ],
+      "settings": [
+        "work",
+        "homes",
+        "summer"
+      ],
+      "evidence": [
+        {
+          "status": "guidance",
+          "text": "Official order catalogue lists April 2026 and April 2025 changes to working time and arrangements for heat/loo. It verifies an adaptation order, not its complete wage terms.",
+          "kind": "claimed",
+          "source": {
+            "label": "guidance",
+            "url": "https://msrgy.rajasthan.gov.in/Home/ordersAndCirculars"
+          }
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "legal_basis": "Mukhyamantri Shahari Rozgar Guarantee Yojana administrative orders; April 20, 2026 letter listed in catalogue.",
+      "heat_feature_class": "worksite-protection",
+      "benefit_formula": "Heat-specific wage increment, full-wage shortened day and nominal rate: not verified.",
+      "payment_frequency": "As specified by underlying programme; no separate automatic heat schedule verified",
+      "payment_history": {
+        "ever_paid_regular_benefits": "Existing benefit system; transaction history not audited in this review",
+        "ever_heat_triggered": "not verified",
+        "ever_heat_payment": "Heat-related wage payment not verified",
+        "dates": "not verified",
+        "amount": "not verified",
+        "recipients": "not verified",
+        "trigger_to_money_in_hand": "not verified",
+        "use": "Intended purpose follows benefit; actual heat-related use not verified"
+      },
+      "delivery_clock": {
+        "rule": "No verified heat-specific release deadline",
+        "observed": "No measured trigger-to-recipient time verified"
+      },
+      "evaluation": "No independent heat-specific impact or delivery-speed evaluation verified for this record.",
+      "uncertainty": "Underlying signed orders and attachments, current hours, wage safeguards and compliance not reviewed; catalogue access was intermittent."
+    },
+    {
+      "id": "in-esi",
+      "name": "Employees’ State Insurance sickness benefit for heat-related absence",
+      "instrument": "sickness-and-injury-benefit",
+      "level": "macro",
+      "layer": "social",
+      "countries": [
+        "India"
+      ],
+      "places": [
+        "National scope subject to programme eligibility"
+      ],
+      "insured_or_covered": "Insured workers satisfying applicable eligibility and contribution conditions",
+      "status": "unclear",
+      "providers": [
+        {
+          "name": "Employees’ State Insurance Corporation",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2035277&lang=2&reg=48",
+          "role": "government",
+          "side": "demand"
+        }
+      ],
+      "heat_covered": "yes",
+      "heat_basis": "July 2024 parliamentary answer explicitly confirms sickness benefit when heatwave-related absence is medically certified and contribution conditions are fulfilled. November 2025 labour-code commencement changes the legal context.",
+      "trigger": {
+        "metric": "Certified inability to work due to illness associated with heat",
+        "threshold": "No automatic numerical heat payout threshold verified",
+        "data_source": "Authorized medical certification and insurance contribution records",
+        "geography": "India",
+        "window": "Subject to benefit period and programme rules",
+        "calculated_by": "Employees’ State Insurance Corporation",
+        "verified_by": "Scheme administration; independent verifier not verified",
+        "kind": "payout"
+      },
+      "enrolment": [],
+      "premium": {
+        "amount": "not verified",
+        "currency": "not applicable / not verified",
+        "usd": "not applicable / not verified",
+        "year": "not verified",
+        "fx": "not applicable",
+        "paid_by": "Contributory social insurance; precise current employer/worker rates not verified.",
+        "subsidy": "Not separately verified",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2035277&lang=2&reg=48"
+        }
+      },
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "year": "not verified",
+        "fx": "not applicable",
+        "kind": "budget",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2035277&lang=2&reg=48"
+        }
+      },
+      "payouts": [],
+      "never_triggered": "unclear",
+      "basis_risk": "Certification and contribution conditions can exclude heat-related income loss without recognized sickness. No weather-index basis risk.",
+      "fallback": "No heat-specific fallback payment verified; ordinary eligibility and grievance routes do not guarantee emergency cash.",
+      "inclusion": {
+        "informal_workers": "Not all informal, self-employed or platform workers are automatically insured.",
+        "women": "Eligible subject to underlying programme rules; heat-specific take-up and outcomes not verified",
+        "older_people": "Programme-specific eligibility applies; heat-specific reach not verified",
+        "disabled_people": "Programme-specific eligibility and access conditions apply; heat-specific reach not verified",
+        "migrants": "Insured migrant workers may qualify under applicable rules; current portability and realized access not verified."
+      },
+      "consumer_protection": "No heat-specific complaints, claim-rejection or data-use audit verified. Publish eligibility, decision reasons, accessible appeal and payment timing; these are research implications, not measured compliance failures.",
+      "loops": [
+        "poverty",
+        "debt",
+        "clinic",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash"
+      ],
+      "settings": [
+        "work",
+        "homes",
+        "summer"
+      ],
+      "evidence": [
+        {
+          "status": "guidance",
+          "text": "July 2024 parliamentary answer explicitly confirms sickness benefit when heatwave-related absence is medically certified and contribution conditions are fulfilled. November 2025 labour-code commencement changes the legal context.",
+          "kind": "claimed",
+          "source": {
+            "label": "guidance",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2035277&lang=2&reg=48"
+          }
+        },
+        {
+          "status": "guidance",
+          "text": "Supports legal context, delivery, eligibility or benefit formula; see source register.",
+          "kind": "claimed",
+          "source": {
+            "label": "guidance",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2192463&lang=1&reg=3"
+          }
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "legal_basis": "2024 answer cites ESI Act 1948 section 46(1)(a); current Code on Social Security transition and implementing rules must be checked before publishing a current entitlement guide.",
+      "heat_feature_class": "clinical-income-replacement",
+      "benefit_formula": "Current legally applicable formula and waiting/contribution periods not fully verified; nominal amount withheld.",
+      "payment_frequency": "As specified by underlying programme; no separate automatic heat schedule verified",
+      "payment_history": {
+        "ever_paid_regular_benefits": "Existing benefit system; transaction history not audited in this review",
+        "ever_heat_triggered": "not verified",
+        "ever_heat_payment": "not verified",
+        "dates": "not verified",
+        "amount": "not verified",
+        "recipients": "not verified",
+        "trigger_to_money_in_hand": "not verified",
+        "use": "Intended purpose follows benefit; actual heat-related use not verified"
+      },
+      "delivery_clock": {
+        "rule": "No verified heat-specific release deadline",
+        "observed": "No measured trigger-to-recipient time verified"
+      },
+      "evaluation": "No independent heat-specific impact or delivery-speed evaluation verified for this record.",
+      "uncertainty": "Historical explicit heat eligibility verified; current detailed legal implementation, claims, amounts and payment times not verified."
+    },
+    {
+      "id": "in-pmjay",
+      "name": "Ayushman Bharat PM-JAY heatstroke hospitalization cover",
+      "instrument": "publicly-financed-health-cover",
+      "level": "macro",
+      "layer": "social",
+      "countries": [
+        "India"
+      ],
+      "places": [
+        "National scope subject to programme eligibility"
+      ],
+      "insured_or_covered": "Eligible beneficiaries receiving covered care at empanelled hospitals",
+      "status": "active",
+      "providers": [
+        {
+          "name": "National Health Authority and state health agencies",
+          "url": "https://atalamritabhiyan.assam.gov.in/information-services/pmjay-package-master",
+          "role": "government",
+          "side": "demand"
+        }
+      ],
+      "heat_covered": "yes",
+      "heat_basis": "Assam official package catalogue includes heatstroke MG067/MG067A. This supports a treatment pathway, not automatic cash for hot weather or every outpatient heat illness.",
+      "trigger": {
+        "metric": "Clinical heatstroke and covered hospitalization / package eligibility",
+        "threshold": "No automatic numerical heat payout threshold verified",
+        "data_source": "Clinical records, beneficiary verification and hospital authorization",
+        "geography": "India",
+        "window": "Subject to benefit period and programme rules",
+        "calculated_by": "National Health Authority and state health agencies",
+        "verified_by": "Scheme administration; independent verifier not verified",
+        "kind": "payout"
+      },
+      "enrolment": [],
+      "premium": {
+        "amount": "not verified",
+        "currency": "not applicable / not verified",
+        "usd": "not applicable / not verified",
+        "year": "not verified",
+        "fx": "not applicable",
+        "paid_by": "Government-financed health assurance/insurance arrangements; no separate beneficiary heat premium verified.",
+        "subsidy": "Not separately verified",
+        "source": {
+          "label": "guidance",
+          "url": "https://atalamritabhiyan.assam.gov.in/information-services/pmjay-package-master"
+        }
+      },
+      "size": {
+        "amount": "500000",
+        "currency": "INR",
+        "usd": "5737.45",
+        "year": "2025",
+        "fx": "INR 87.1468 per USD; Federal Reserve 2025 annual average reference; not a claim-date rate",
+        "kind": "limit",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2110780&lang=2&reg=3"
+        }
+      },
+      "payouts": [],
+      "never_triggered": "unclear",
+      "basis_risk": "Harm without eligible admission, accepted diagnosis or empanelled access may receive no payment. It does not replace lost earnings.",
+      "fallback": "No heat-specific fallback payment verified; ordinary eligibility and grievance routes do not guarantee emergency cash.",
+      "inclusion": {
+        "informal_workers": "Occupation alone does not confer entitlement; many low-income informal households can qualify through scheme eligibility.",
+        "women": "Eligible subject to underlying programme rules; heat-specific take-up and outcomes not verified",
+        "older_people": "Separate expansion for people aged 70 and above is documented; registration and hospital rules still apply.",
+        "disabled_people": "Programme-specific eligibility and access conditions apply; heat-specific reach not verified",
+        "migrants": "National portability supports eligible beneficiaries at empanelled hospitals; portability does not confer new eligibility."
+      },
+      "consumer_protection": "Avoid describing the family limit as a cash grant. Explain covered services, documentation, hospital authorization, portability and grievance routes; heat-specific rejection data not verified.",
+      "loops": [
+        "debt",
+        "clinic",
+        "poverty",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "freecare",
+        "socialprotection",
+        "readyclinics"
+      ],
+      "settings": [
+        "clinics",
+        "homes",
+        "summer"
+      ],
+      "evidence": [
+        {
+          "status": "guidance",
+          "text": "Assam official package catalogue includes heatstroke MG067/MG067A. This supports a treatment pathway, not automatic cash for hot weather or every outpatient heat illness.",
+          "kind": "claimed",
+          "source": {
+            "label": "guidance",
+            "url": "https://atalamritabhiyan.assam.gov.in/information-services/pmjay-package-master"
+          }
+        },
+        {
+          "status": "guidance",
+          "text": "Supports legal context, delivery, eligibility or benefit formula; see source register.",
+          "kind": "claimed",
+          "source": {
+            "label": "guidance",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2110780&lang=2&reg=3"
+          }
+        },
+        {
+          "status": "guidance",
+          "text": "Supports legal context, delivery, eligibility or benefit formula; see source register.",
+          "kind": "claimed",
+          "source": {
+            "label": "guidance",
+            "url": "https://nha.gov.in/img/resources/Adhikar-Patra.pdf"
+          }
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "legal_basis": "AB PM-JAY administrative scheme and state implementation arrangements; covered package and hospital authorization rules apply.",
+      "heat_feature_class": "clinical-treatment-finance",
+      "benefit_formula": "Family annual hospital cover is a limit, not cash delivered to each family; current heatstroke package tariff not verified.",
+      "payment_frequency": "As specified by underlying programme; no separate automatic heat schedule verified",
+      "payment_history": {
+        "ever_paid_regular_benefits": "Existing benefit system; transaction history not audited in this review",
+        "ever_heat_triggered": "not verified",
+        "ever_heat_payment": "not verified",
+        "dates": "not verified",
+        "amount": "not verified",
+        "recipients": "not verified",
+        "trigger_to_money_in_hand": "not verified",
+        "use": "Intended purpose follows benefit; actual heat-related use not verified"
+      },
+      "delivery_clock": {
+        "rule": "No verified heat-specific release deadline",
+        "observed": "No measured trigger-to-recipient time verified"
+      },
+      "evaluation": "No independent heat-specific impact or delivery-speed evaluation verified for this record.",
+      "uncertainty": "Design/eligibility evidence does not establish actual heat claims, coverage of all eligible people, payment speed or welfare effect."
+    },
+    {
+      "id": "pk-bisp",
+      "name": "BISP heat-responsive payment-collection arrangements",
+      "instrument": "cash-transfer-delivery-adaptation",
+      "level": "macro",
+      "layer": "social",
+      "countries": [
+        "Pakistan"
+      ],
+      "places": [
+        "National scope subject to programme eligibility"
+      ],
+      "insured_or_covered": "Existing eligible BISP beneficiaries",
+      "status": "active",
+      "providers": [
+        {
+          "name": "Benazir Income Support Programme",
+          "url": "https://www.app.com.pk/national/bisp-to-launch-retail-based-payment-model-from-june-16/",
+          "role": "government",
+          "side": "demand"
+        }
+      ],
+      "heat_covered": "partly",
+      "heat_basis": "Operator announcement reported a move from campsites to designated retail collection points from June 16, 2025 to reduce heat exposure. This changes delivery, not the entitlement amount.",
+      "trigger": {
+        "metric": "Administrative decision in response to heat conditions",
+        "threshold": "No automatic numerical heat payout threshold verified",
+        "data_source": "Administrative payment and biometric verification records",
+        "geography": "Pakistan",
+        "window": "Subject to benefit period and programme rules",
+        "calculated_by": "Benazir Income Support Programme",
+        "verified_by": "Scheme administration; independent verifier not verified",
+        "kind": "action"
+      },
+      "enrolment": [],
+      "premium": {
+        "amount": "not verified",
+        "currency": "not applicable / not verified",
+        "usd": "not applicable / not verified",
+        "year": "not verified",
+        "fx": "not applicable",
+        "paid_by": "Public cash-transfer budget; no beneficiary insurance premium.",
+        "subsidy": "Not separately verified",
+        "source": {
+          "label": "reported",
+          "url": "https://www.app.com.pk/national/bisp-to-launch-retail-based-payment-model-from-june-16/"
+        }
+      },
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "year": "not verified",
+        "fx": "not applicable",
+        "kind": "budget",
+        "source": {
+          "label": "reported",
+          "url": "https://www.app.com.pk/national/bisp-to-launch-retail-based-payment-model-from-june-16/"
+        }
+      },
+      "payouts": [],
+      "never_triggered": "unclear",
+      "basis_risk": "Biometric, cash-availability or network barriers can prevent access after authorization. This is an inferred delivery risk; recipient failure rates were not measured in the reviewed announcement.",
+      "fallback": "No heat-specific fallback payment verified; ordinary eligibility and grievance routes do not guarantee emergency cash.",
+      "inclusion": {
+        "informal_workers": "Household programme eligibility rather than formal employment contribution; not every informal household qualifies.",
+        "women": "Programme serves eligible women beneficiaries; heat-specific payment-completion and fairness measures not verified.",
+        "older_people": "Programme-specific eligibility applies; heat-specific reach not verified",
+        "disabled_people": "Programme-specific eligibility and access conditions apply; heat-specific reach not verified",
+        "migrants": "CNIC and programme records required; movement-related access not verified."
+      },
+      "consumer_protection": "Operator asks recipients to use designated outlets and obtain full payments and printed receipts; Tehsil grievance route documented. An announcement is not proof that every account was paid.",
+      "loops": [
+        "poverty",
+        "reactive",
+        "protection",
+        "invisible"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash"
+      ],
+      "settings": [
+        "homes",
+        "neighbourhoods",
+        "summer"
+      ],
+      "evidence": [
+        {
+          "status": "reported",
+          "text": "Operator announcement reported a move from campsites to designated retail collection points from June 16, 2025 to reduce heat exposure. This changes delivery, not the entitlement amount.",
+          "kind": "claimed",
+          "source": {
+            "label": "reported",
+            "url": "https://www.app.com.pk/national/bisp-to-launch-retail-based-payment-model-from-june-16/"
+          }
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "legal_basis": "BISP programme authority; specific retail implementation arrangements reported by operator through APP.",
+      "heat_feature_class": "safer-delivery / not-extra-heat-cash",
+      "benefit_formula": "Regular tranche; no verified additional heat amount.",
+      "payment_frequency": "Regular programme tranche cycle; retail launch date is not a beneficiary receipt date.",
+      "payment_history": {
+        "ever_paid_regular_benefits": "Existing benefit system; transaction history not audited in this review",
+        "ever_heat_triggered": "Heat-motivated delivery change reported in June 2025; no weather-index cash activation verified.",
+        "ever_heat_payment": "Regular disbursement process reported; extra heat cash not verified.",
+        "dates": "not verified",
+        "amount": "not verified",
+        "recipients": "not verified",
+        "trigger_to_money_in_hand": "not verified",
+        "use": "Intended purpose follows benefit; actual heat-related use not verified"
+      },
+      "delivery_clock": {
+        "rule": "No verified heat-specific release deadline",
+        "observed": "No measured trigger-to-recipient time verified"
+      },
+      "evaluation": "No independent heat-specific impact or delivery-speed evaluation verified for this record.",
+      "uncertainty": "Design/eligibility evidence does not establish actual heat claims, coverage of all eligible people, payment speed or welfare effect."
+    },
+    {
+      "id": "bd-oaa-candidate",
+      "name": "Bangladesh Old Age Allowance — existing system, no verified heat top-up",
+      "instrument": "cash-transfer-delivery-adaptation",
+      "level": "macro",
+      "layer": "social",
+      "countries": [
+        "Bangladesh"
+      ],
+      "places": [
+        "National scope subject to programme eligibility"
+      ],
+      "insured_or_covered": "Eligible older people selected under the allowance programme",
+      "status": "active",
+      "providers": [
+        {
+          "name": "Department of Social Services / Ministry of Social Welfare",
+          "url": "https://socialprotection.gov.bd/wp-content/uploads/2025/08/From-Strategy-to-Impact-An-Assessment-of-Bangladeshs-Social-Security-Policy-Support-Programme-and-its-Contribution-to-Gender-Inclusive-Development.pdf",
+          "role": "government",
+          "side": "demand"
+        }
+      ],
+      "heat_covered": "unclear",
+      "heat_basis": "Government-hosted analysis describes Old Age Allowance and social-protection delivery reform. No automatic heat-related increase or early payment was verified.",
+      "trigger": {
+        "metric": "Administrative or clinical eligibility; not a weather-index payout",
+        "threshold": "No automatic numerical heat payout threshold verified",
+        "data_source": "Programme records and supporting documents",
+        "geography": "Bangladesh",
+        "window": "Subject to benefit period and programme rules",
+        "calculated_by": "Department of Social Services / Ministry of Social Welfare",
+        "verified_by": "Scheme administration; independent verifier not verified",
+        "kind": "action"
+      },
+      "enrolment": [],
+      "premium": {
+        "amount": "not verified",
+        "currency": "not applicable / not verified",
+        "usd": "not applicable / not verified",
+        "year": "not verified",
+        "fx": "not applicable",
+        "paid_by": "Government social-assistance budget; no retail premium.",
+        "subsidy": "Not separately verified",
+        "source": {
+          "label": "reported",
+          "url": "https://socialprotection.gov.bd/wp-content/uploads/2025/08/From-Strategy-to-Impact-An-Assessment-of-Bangladeshs-Social-Security-Policy-Support-Programme-and-its-Contribution-to-Gender-Inclusive-Development.pdf"
+        }
+      },
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "year": "not verified",
+        "fx": "not applicable",
+        "kind": "budget",
+        "source": {
+          "label": "reported",
+          "url": "https://socialprotection.gov.bd/wp-content/uploads/2025/08/From-Strategy-to-Impact-An-Assessment-of-Bangladeshs-Social-Security-Policy-Support-Programme-and-its-Contribution-to-Gender-Inclusive-Development.pdf"
+        }
+      },
+      "payouts": [],
+      "never_triggered": "unclear",
+      "basis_risk": "Existing age, poverty and registration filters do not identify every heat-exposed household; a top-up only reaches those already included unless expanded.",
+      "fallback": "No heat-specific fallback payment verified; ordinary eligibility and grievance routes do not guarantee emergency cash.",
+      "inclusion": {
+        "informal_workers": "No formal employment contribution requirement established by this source; actual inclusion requires programme eligibility verification.",
+        "women": "Gendered eligibility and targeting require current rules verification; no heat-specific outcomes established.",
+        "older_people": "Targets older people; does not establish universal coverage of older people.",
+        "disabled_people": "Programme-specific eligibility and access conditions apply; heat-specific reach not verified",
+        "migrants": "Portability and eligibility not verified; do not infer automatic access"
+      },
+      "consumer_protection": "No heat-specific complaints, claim-rejection or data-use audit verified. Publish eligibility, decision reasons, accessible appeal and payment timing; these are research implications, not measured compliance failures.",
+      "loops": [
+        "reactive",
+        "protection",
+        "poverty"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash"
+      ],
+      "settings": [
+        "work",
+        "homes",
+        "summer"
+      ],
+      "evidence": [
+        {
+          "status": "reported",
+          "text": "Government-hosted analysis describes Old Age Allowance and social-protection delivery reform. No automatic heat-related increase or early payment was verified.",
+          "kind": "claimed",
+          "source": {
+            "label": "reported",
+            "url": "https://socialprotection.gov.bd/wp-content/uploads/2025/08/From-Strategy-to-Impact-An-Assessment-of-Bangladeshs-Social-Security-Policy-Support-Programme-and-its-Contribution-to-Gender-Inclusive-Development.pdf"
+          }
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "legal_basis": "Programme implementation manual and eligibility rules require current primary confirmation; analytical report is not a legal determination.",
+      "heat_feature_class": "existing-system-candidate",
+      "benefit_formula": "Historical nominal rate appears in a secondary analytical source; current FY2026–27 rate withheld pending primary verification.",
+      "payment_frequency": "As specified by underlying programme; no separate automatic heat schedule verified",
+      "payment_history": {
+        "ever_paid_regular_benefits": "Existing benefit system; transaction history not audited in this review",
+        "ever_heat_triggered": "not verified",
+        "ever_heat_payment": "not verified",
+        "dates": "not verified",
+        "amount": "not verified",
+        "recipients": "not verified",
+        "trigger_to_money_in_hand": "not verified",
+        "use": "Intended purpose follows benefit; actual heat-related use not verified"
+      },
+      "delivery_clock": {
+        "rule": "No verified heat-specific release deadline",
+        "observed": "No measured trigger-to-recipient time verified"
+      },
+      "evaluation": "No independent heat-specific impact or delivery-speed evaluation verified for this record.",
+      "uncertainty": "Current rate, legal criteria, registry completeness, heat activation and actual heat payments not verified. Candidate status is an analytical category, not an announced government heat scheme."
+    },
+    {
+      "id": "ph-ecp",
+      "name": "Philippines Employees’ Compensation Programme heat-related illness",
+      "instrument": "sickness-and-injury-benefit",
+      "level": "macro",
+      "layer": "social",
+      "countries": [
+        "Philippines"
+      ],
+      "places": [
+        "National scope subject to programme eligibility"
+      ],
+      "insured_or_covered": "Covered workers whose disease is occupationally compensable; self-employed coverage subject to membership rules",
+      "status": "active",
+      "providers": [
+        {
+          "name": "Employees’ Compensation Commission with SSS / GSIS",
+          "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/11/48368",
+          "role": "government",
+          "side": "demand"
+        }
+      ],
+      "heat_covered": "yes",
+      "heat_basis": "Primary archived rules recognize heatstroke, heat cramps and heat exhaustion associated with excessive heat/humidity. October 2026 DOLE indexed guidance clarifies work-related illness compensation; advisory text and transactions not fully inspected.",
+      "trigger": {
+        "metric": "Compensable occupational disease and causal exposure evidence",
+        "threshold": "No automatic numerical heat payout threshold verified",
+        "data_source": "Medical/work-exposure records; PAGASA information can support evidence, not itself authorize payment.",
+        "geography": "Philippines",
+        "window": "Subject to benefit period and programme rules",
+        "calculated_by": "Employees’ Compensation Commission with SSS / GSIS",
+        "verified_by": "Scheme administration; independent verifier not verified",
+        "kind": "payout"
+      },
+      "enrolment": [],
+      "premium": {
+        "amount": "not verified",
+        "currency": "not applicable / not verified",
+        "usd": "not applicable / not verified",
+        "year": "not verified",
+        "fx": "not applicable",
+        "paid_by": "Employment compensation/social insurance financing; self-employed contributions subject to applicable rules. Current rates not verified.",
+        "subsidy": "Not separately verified",
+        "source": {
+          "label": "guidance",
+          "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/11/48368"
+        }
+      },
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "year": "not verified",
+        "fx": "not applicable",
+        "kind": "budget",
+        "source": {
+          "label": "guidance",
+          "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/11/48368"
+        }
+      },
+      "payouts": [],
+      "never_triggered": "unclear",
+      "basis_risk": "Work attribution, registration and documentation may leave other heat harms or uncompensated rest outside cover.",
+      "fallback": "No heat-specific fallback payment verified; ordinary eligibility and grievance routes do not guarantee emergency cash.",
+      "inclusion": {
+        "informal_workers": "Self-employed SSS members can be covered subject to rules; this does not cover all informal workers automatically.",
+        "women": "Eligible subject to underlying programme rules; heat-specific take-up and outcomes not verified",
+        "older_people": "Programme-specific eligibility applies; heat-specific reach not verified",
+        "disabled_people": "Programme-specific eligibility and access conditions apply; heat-specific reach not verified",
+        "migrants": "Migrant/overseas and domestic-worker applicability depends on current registration rules; heat-specific claim access not verified."
+      },
+      "consumer_protection": "No heat-specific complaints, claim-rejection or data-use audit verified. Publish eligibility, decision reasons, accessible appeal and payment timing; these are research implications, not measured compliance failures.",
+      "loops": [
+        "poverty",
+        "debt",
+        "clinic",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash"
+      ],
+      "settings": [
+        "work",
+        "homes",
+        "summer"
+      ],
+      "evidence": [
+        {
+          "status": "guidance",
+          "text": "Primary archived rules recognize heatstroke, heat cramps and heat exhaustion associated with excessive heat/humidity. October 2026 DOLE indexed guidance clarifies work-related illness compensation; advisory text and transactions not fully inspected.",
+          "kind": "claimed",
+          "source": {
+            "label": "guidance",
+            "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/11/48368"
+          }
+        },
+        {
+          "status": "guidance",
+          "text": "Supports legal context, delivery, eligibility or benefit formula; see source register.",
+          "kind": "claimed",
+          "source": {
+            "label": "guidance",
+            "url": "https://dole.gov.ph/news/dole-issues-guidelines-on-heat-related-illness-compensation-during-el-nino/"
+          }
+        },
+        {
+          "status": "reported",
+          "text": "Supports legal context, delivery, eligibility or benefit formula; see source register.",
+          "kind": "claimed",
+          "source": {
+            "label": "reported",
+            "url": "https://ecc.gov.ph/self-employed-sss-members-now-covered-under-the-ec-program/"
+          }
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "legal_basis": "Employees’ Compensation rules and current implementing resolutions; archived historical rules provide background, not current monetary ceilings.",
+      "heat_feature_class": "occupational-disease-compensation",
+      "benefit_formula": "Medical, disability/rehabilitation and survivor benefits subject to current rules; nominal ceilings not verified.",
+      "payment_frequency": "As specified by underlying programme; no separate automatic heat schedule verified",
+      "payment_history": {
+        "ever_paid_regular_benefits": "Existing benefit system; transaction history not audited in this review",
+        "ever_heat_triggered": "not verified",
+        "ever_heat_payment": "not verified",
+        "dates": "not verified",
+        "amount": "not verified",
+        "recipients": "not verified",
+        "trigger_to_money_in_hand": "not verified",
+        "use": "Intended purpose follows benefit; actual heat-related use not verified"
+      },
+      "delivery_clock": {
+        "rule": "No verified heat-specific release deadline",
+        "observed": "No measured trigger-to-recipient time verified"
+      },
+      "evaluation": "No independent heat-specific impact or delivery-speed evaluation verified for this record.",
+      "uncertainty": "Design/eligibility evidence does not establish actual heat claims, coverage of all eligible people, payment speed or welfare effect."
+    },
+    {
+      "id": "dz-weather-wages",
+      "name": "Algeria CACOBATPH weather-related wage replacement including extreme heat",
+      "instrument": "heat-work-stoppage-income",
+      "level": "macro",
+      "layer": "social",
+      "countries": [
+        "Algeria"
+      ],
+      "places": [
+        "National scope subject to programme eligibility"
+      ],
+      "insured_or_covered": "Covered construction-sector workers under the weather-related lay-off arrangement",
+      "status": "unclear",
+      "providers": [
+        {
+          "name": "CACOBATPH",
+          "url": "https://webapps.ilo.org/static/english/reports/flagship/world_social_protection_report_2024-26/Chapter%2002.html",
+          "role": "government",
+          "side": "demand"
+        }
+      ],
+      "heat_covered": "yes",
+      "heat_basis": "ILO’s 2024–26 report identifies extreme heat among covered weather events and workers’/employers’ contributions financing wage replacement.",
+      "trigger": {
+        "metric": "Qualifying weather-related interruption of covered work",
+        "threshold": "No automatic numerical heat payout threshold verified",
+        "data_source": "Programme records and supporting documents",
+        "geography": "Algeria",
+        "window": "Subject to benefit period and programme rules",
+        "calculated_by": "CACOBATPH",
+        "verified_by": "Scheme administration; independent verifier not verified",
+        "kind": "payout"
+      },
+      "enrolment": [],
+      "premium": {
+        "amount": "not verified",
+        "currency": "not applicable / not verified",
+        "usd": "not applicable / not verified",
+        "year": "not verified",
+        "fx": "not applicable",
+        "paid_by": "Worker and employer social-insurance contributions; current rates not fully verified.",
+        "subsidy": "Not separately verified",
+        "source": {
+          "label": "guidance",
+          "url": "https://webapps.ilo.org/static/english/reports/flagship/world_social_protection_report_2024-26/Chapter%2002.html"
+        }
+      },
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "year": "not verified",
+        "fx": "not applicable",
+        "kind": "budget",
+        "source": {
+          "label": "guidance",
+          "url": "https://webapps.ilo.org/static/english/reports/flagship/world_social_protection_report_2024-26/Chapter%2002.html"
+        }
+      },
+      "payouts": [],
+      "never_triggered": "unclear",
+      "basis_risk": "Sector, insured-employment and interruption criteria may exclude informal workers and earnings losses short of a recognized stop.",
+      "fallback": "No heat-specific fallback payment verified; ordinary eligibility and grievance routes do not guarantee emergency cash.",
+      "inclusion": {
+        "informal_workers": "Registration/covered employment required; universal informal-worker coverage not established.",
+        "women": "Eligible subject to underlying programme rules; heat-specific take-up and outcomes not verified",
+        "older_people": "Programme-specific eligibility applies; heat-specific reach not verified",
+        "disabled_people": "Programme-specific eligibility and access conditions apply; heat-specific reach not verified",
+        "migrants": "Migrant eligibility and actual access not verified."
+      },
+      "consumer_protection": "No heat-specific complaints, claim-rejection or data-use audit verified. Publish eligibility, decision reasons, accessible appeal and payment timing; these are research implications, not measured compliance failures.",
+      "loops": [
+        "reactive",
+        "protection",
+        "poverty"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash"
+      ],
+      "settings": [
+        "work",
+        "homes",
+        "summer"
+      ],
+      "evidence": [
+        {
+          "status": "guidance",
+          "text": "ILO’s 2024–26 report identifies extreme heat among covered weather events and workers’/employers’ contributions financing wage replacement.",
+          "kind": "claimed",
+          "source": {
+            "label": "guidance",
+            "url": "https://webapps.ilo.org/static/english/reports/flagship/world_social_protection_report_2024-26/Chapter%2002.html"
+          }
+        },
+        {
+          "status": "reported",
+          "text": "Supports legal context, delivery, eligibility or benefit formula; see source register.",
+          "kind": "claimed",
+          "source": {
+            "label": "reported",
+            "url": "https://www.cacobatph.dz/le-chomage-intemperies/?lang=fr"
+          }
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "legal_basis": "Sectoral weather-unemployment framework; older decrees and current fund conditions require direct confirmation.",
+      "heat_feature_class": "heat-work-stoppage-income",
+      "benefit_formula": "Wage replacement; precise current percentage, qualifying hours and annual cap withheld because full current operator text was inaccessible.",
+      "payment_frequency": "As specified by underlying programme; no separate automatic heat schedule verified",
+      "payment_history": {
+        "ever_paid_regular_benefits": "Existing benefit system; transaction history not audited in this review",
+        "ever_heat_triggered": "not verified",
+        "ever_heat_payment": "not verified",
+        "dates": "not verified",
+        "amount": "not verified",
+        "recipients": "not verified",
+        "trigger_to_money_in_hand": "not verified",
+        "use": "Intended purpose follows benefit; actual heat-related use not verified"
+      },
+      "delivery_clock": {
+        "rule": "No verified heat-specific release deadline",
+        "observed": "No measured trigger-to-recipient time verified"
+      },
+      "evaluation": "No independent heat-specific impact or delivery-speed evaluation verified for this record.",
+      "uncertainty": "ILO confirms design, not heat-specific paid amounts, current national geographic coverage, current contribution rates or measured recipient speed."
+    },
+    {
+      "id": "it-cigo",
+      "name": "Italy wage supplementation for excessive heat",
+      "instrument": "heat-work-stoppage-income",
+      "level": "macro",
+      "layer": "social",
+      "countries": [
+        "Italy"
+      ],
+      "places": [
+        "National scope subject to programme eligibility"
+      ],
+      "insured_or_covered": "Employees and employers qualifying under CIGO / relevant fund rules",
+      "status": "active",
+      "providers": [
+        {
+          "name": "INPS and applicable wage-integration funds",
+          "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.07.integrazione-salariale-per-eccesso-di-caldo-indicazioni-dell-inps.html",
+          "role": "government",
+          "side": "demand"
+        }
+      ],
+      "heat_covered": "yes",
+      "heat_basis": "INPS July 2025 guidance addresses excessive heat, including perceived temperature and authority-ordered stoppages. The weather test supports an application; it is not automatic parametric payment.",
+      "trigger": {
+        "metric": "Excessive actual/perceived heat or qualifying authority-ordered suspension",
+        "threshold": "Generally temperatures above 35°C; perceived heat and work circumstances considered. Not a universal automatic threshold.",
+        "data_source": "Weather and workplace/application evidence reviewed by INPS/fund",
+        "geography": "Italy",
+        "window": "Subject to benefit period and programme rules",
+        "calculated_by": "INPS and applicable wage-integration funds",
+        "verified_by": "Scheme administration; independent verifier not verified",
+        "kind": "payout"
+      },
+      "enrolment": [],
+      "premium": {
+        "amount": "not verified",
+        "currency": "not applicable / not verified",
+        "usd": "not applicable / not verified",
+        "year": "not verified",
+        "fx": "not applicable",
+        "paid_by": "Social-insurance/fund financing; employer may advance benefit. Programme-specific contribution and surcharge rates not verified.",
+        "subsidy": "Not separately verified",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.07.integrazione-salariale-per-eccesso-di-caldo-indicazioni-dell-inps.html"
+        }
+      },
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "year": "not verified",
+        "fx": "not applicable",
+        "kind": "budget",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.07.integrazione-salariale-per-eccesso-di-caldo-indicazioni-dell-inps.html"
+        }
+      },
+      "payouts": [],
+      "never_triggered": "unclear",
+      "basis_risk": "Covered-employment, employer-application and approval requirements exclude some exposed people; workplace heat can differ from standard weather observations.",
+      "fallback": "No heat-specific fallback payment verified; ordinary eligibility and grievance routes do not guarantee emergency cash.",
+      "inclusion": {
+        "informal_workers": "Unregistered and uncovered self-employed work not automatically reached.",
+        "women": "Eligible subject to underlying programme rules; heat-specific take-up and outcomes not verified",
+        "older_people": "Programme-specific eligibility applies; heat-specific reach not verified",
+        "disabled_people": "Programme-specific eligibility and access conditions apply; heat-specific reach not verified",
+        "migrants": "Covered employment is relevant; detailed migrant conditions and outcomes not verified."
+      },
+      "consumer_protection": "No heat-specific complaints, claim-rejection or data-use audit verified. Publish eligibility, decision reasons, accessible appeal and payment timing; these are research implications, not measured compliance failures.",
+      "loops": [
+        "reactive",
+        "protection",
+        "poverty"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash"
+      ],
+      "settings": [
+        "work",
+        "homes",
+        "summer"
+      ],
+      "evidence": [
+        {
+          "status": "guidance",
+          "text": "INPS July 2025 guidance addresses excessive heat, including perceived temperature and authority-ordered stoppages. The weather test supports an application; it is not automatic parametric payment.",
+          "kind": "claimed",
+          "source": {
+            "label": "guidance",
+            "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.07.integrazione-salariale-per-eccesso-di-caldo-indicazioni-dell-inps.html"
+          }
+        },
+        {
+          "status": "guidance",
+          "text": "Supports legal context, delivery, eligibility or benefit formula; see source register.",
+          "kind": "claimed",
+          "source": {
+            "label": "guidance",
+            "url": "https://www.cliclavoro.gov.it/tutele-e-sostegno-al-reddito/trattamenti-di-sostegno-al-reddito/cassa-integrazione-guadagni-ordinari"
+          }
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "legal_basis": "Wage-integration framework under Legislative Decree 148/2015 and implementing criteria; INPS Message 2130/2025.",
+      "heat_feature_class": "heat-work-stoppage-income",
+      "benefit_formula": "Ordinary wage supplementation generally 80% of lost gross remuneration, subject to legal caps and qualifying rules; no nominal heat claim verified.",
+      "payment_frequency": "As specified by underlying programme; no separate automatic heat schedule verified",
+      "payment_history": {
+        "ever_paid_regular_benefits": "Existing benefit system; transaction history not audited in this review",
+        "ever_heat_triggered": "not verified",
+        "ever_heat_payment": "not verified",
+        "dates": "not verified",
+        "amount": "not verified",
+        "recipients": "not verified",
+        "trigger_to_money_in_hand": "not verified",
+        "use": "Intended purpose follows benefit; actual heat-related use not verified"
+      },
+      "delivery_clock": {
+        "rule": "No verified heat-specific release deadline",
+        "observed": "No measured trigger-to-recipient time verified"
+      },
+      "evaluation": "No independent heat-specific impact or delivery-speed evaluation verified for this record.",
+      "uncertainty": "Design/eligibility evidence does not establish actual heat claims, coverage of all eligible people, payment speed or welfare effect.",
+      "transferable_lesson": "Income replacement linked to a verified stoppage can support preventive rest; requires payroll inclusion and reliable financing."
+    },
+    {
+      "id": "sg-wica",
+      "name": "Singapore work injury compensation for work-related heat illness",
+      "instrument": "sickness-and-injury-benefit",
+      "level": "macro",
+      "layer": "social",
+      "countries": [
+        "Singapore"
+      ],
+      "places": [
+        "National scope subject to programme eligibility"
+      ],
+      "insured_or_covered": "Covered employees with work-related injury or disease",
+      "status": "active",
+      "providers": [
+        {
+          "name": "Ministry of Manpower / employers and work injury insurers",
+          "url": "https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work/faqs-on-heat-stress-measures-for-outdoor-work",
+          "role": "government",
+          "side": "demand"
+        }
+      ],
+      "heat_covered": "yes",
+      "heat_basis": "MOM heat-stress FAQ links occupational heat illness to reporting/compensation. WICA covers local and foreign employees under contracts of service, with stated exclusions.",
+      "trigger": {
+        "metric": "Work-related illness with medical certification / compensable incapacity",
+        "threshold": "No automatic numerical heat payout threshold verified",
+        "data_source": "Clinical and work-exposure evidence",
+        "geography": "Singapore",
+        "window": "Subject to benefit period and programme rules",
+        "calculated_by": "Ministry of Manpower / employers and work injury insurers",
+        "verified_by": "Scheme administration; independent verifier not verified",
+        "kind": "payout"
+      },
+      "enrolment": [],
+      "premium": {
+        "amount": "not verified",
+        "currency": "not applicable / not verified",
+        "usd": "not applicable / not verified",
+        "year": "not verified",
+        "fx": "not applicable",
+        "paid_by": "Employer compensation liability and employer insurance where applicable; no worker retail heat premium.",
+        "subsidy": "Not separately verified",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work/faqs-on-heat-stress-measures-for-outdoor-work"
+        }
+      },
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "year": "not verified",
+        "fx": "not applicable",
+        "kind": "budget",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work/faqs-on-heat-stress-measures-for-outdoor-work"
+        }
+      },
+      "payouts": [],
+      "never_triggered": "unclear",
+      "basis_risk": "Illness attribution and employment status can exclude heat-related harm; preventive rest without illness is not automatically compensated by WICA.",
+      "fallback": "No heat-specific fallback payment verified; ordinary eligibility and grievance routes do not guarantee emergency cash.",
+      "inclusion": {
+        "informal_workers": "Self-employed/independent contractors and domestic workers excluded from ordinary WICA; other frameworks not presumed.",
+        "women": "Eligible subject to underlying programme rules; heat-specific take-up and outcomes not verified",
+        "older_people": "Coverage does not depend on age, subject to covered employment.",
+        "disabled_people": "Programme-specific eligibility and access conditions apply; heat-specific reach not verified",
+        "migrants": "Foreign employees covered under contracts of service; claims can remain eligible after employment ends or work pass cancellation."
+      },
+      "consumer_protection": "MOM publishes claim, status and dispute routes. Do not confuse a compensation assessment deadline with days from heat exposure to money in hand.",
+      "loops": [
+        "poverty",
+        "debt",
+        "clinic",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash"
+      ],
+      "settings": [
+        "work",
+        "homes",
+        "summer"
+      ],
+      "evidence": [
+        {
+          "status": "guidance",
+          "text": "MOM heat-stress FAQ links occupational heat illness to reporting/compensation. WICA covers local and foreign employees under contracts of service, with stated exclusions.",
+          "kind": "claimed",
+          "source": {
+            "label": "guidance",
+            "url": "https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work/faqs-on-heat-stress-measures-for-outdoor-work"
+          }
+        },
+        {
+          "status": "guidance",
+          "text": "Supports legal context, delivery, eligibility or benefit formula; see source register.",
+          "kind": "claimed",
+          "source": {
+            "label": "guidance",
+            "url": "https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation/who-is-covered"
+          }
+        },
+        {
+          "status": "guidance",
+          "text": "Supports legal context, delivery, eligibility or benefit formula; see source register.",
+          "kind": "claimed",
+          "source": {
+            "label": "guidance",
+            "url": "https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation/types-of-compensation"
+          }
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "legal_basis": "Work Injury Compensation Act and applicable occupational-disease provisions.",
+      "heat_feature_class": "occupational-disease-compensation",
+      "benefit_formula": "Medical-leave wage replacement varies by leave type/duration; full average earnings initially, then two-thirds subject to rules. Medical and incapacity benefits are separate.",
+      "payment_frequency": "As specified by underlying programme; no separate automatic heat schedule verified",
+      "payment_history": {
+        "ever_paid_regular_benefits": "Existing benefit system; transaction history not audited in this review",
+        "ever_heat_triggered": "not verified",
+        "ever_heat_payment": "not verified",
+        "dates": "not verified",
+        "amount": "not verified",
+        "recipients": "not verified",
+        "trigger_to_money_in_hand": "not verified",
+        "use": "Intended purpose follows benefit; actual heat-related use not verified"
+      },
+      "delivery_clock": {
+        "rule": "Medical-leave wages due by next payday under MOM guidance; this is a rule, not observed heat-claim speed.",
+        "observed": "No measured trigger-to-recipient time verified"
+      },
+      "evaluation": "No independent heat-specific impact or delivery-speed evaluation verified for this record.",
+      "uncertainty": "Design/eligibility evidence does not establish actual heat claims, coverage of all eligible people, payment speed or welfare effect.",
+      "transferable_lesson": "Explicit inclusion of foreign employees and ordinary payroll deadlines can inform migrant-worker protection, without assuming informal-worker coverage."
+    },
+    {
+      "id": "kr-energy-voucher",
+      "name": "Republic of Korea summer Energy Voucher",
+      "instrument": "seasonal-utility-relief",
+      "level": "macro",
+      "layer": "social",
+      "countries": [
+        "Republic of Korea"
+      ],
+      "places": [
+        "National scope subject to programme eligibility"
+      ],
+      "insured_or_covered": "Households satisfying both specified income-benefit and household-characteristic criteria",
+      "status": "active",
+      "providers": [
+        {
+          "name": "Korea Energy Agency and responsible public authorities",
+          "url": "https://www.energy.or.kr/front/conts/105001004002000.do",
+          "role": "government",
+          "side": "demand"
+        }
+      ],
+      "heat_covered": "partly",
+      "heat_basis": "Official 2026 programme provides summer electricity bill deduction during July 1–September 30. Seasonal cooling support; no forecast-triggered top-up verified.",
+      "trigger": {
+        "metric": "Eligibility plus summer benefit calendar",
+        "threshold": "Administrative household eligibility; no automatic temperature threshold verified",
+        "data_source": "Programme records and supporting documents",
+        "geography": "Republic of Korea",
+        "window": "July 1–September 30, 2026 summer benefit period",
+        "calculated_by": "Korea Energy Agency and responsible public authorities",
+        "verified_by": "Scheme administration; independent verifier not verified",
+        "kind": "action"
+      },
+      "enrolment": [],
+      "premium": {
+        "amount": "not verified",
+        "currency": "not applicable / not verified",
+        "usd": "not applicable / not verified",
+        "year": "not verified",
+        "fx": "not applicable",
+        "paid_by": "Public energy-welfare financing; no retail premium.",
+        "subsidy": "Not separately verified",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.energy.or.kr/front/conts/105001004002000.do"
+        }
+      },
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "year": "not verified",
+        "fx": "not applicable",
+        "kind": "budget",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.energy.or.kr/front/conts/105001004002000.do"
+        }
+      },
+      "payouts": [],
+      "never_triggered": "unclear",
+      "basis_risk": "Cooling need may exceed benefit; households outside eligibility or without usable electricity billing may not benefit. Last point is inference.",
+      "fallback": "No heat-specific fallback payment verified; ordinary eligibility and grievance routes do not guarantee emergency cash.",
+      "inclusion": {
+        "informal_workers": "Income/household eligibility rather than formal employment; not universal.",
+        "women": "Pregnancy and specified family characteristics recognized, subject to income and other conditions.",
+        "older_people": "Older-person households are among eligible household-characteristic groups, with income conditions.",
+        "disabled_people": "Disability is an eligible household characteristic, subject to other conditions.",
+        "migrants": "Residence/registration and foreign-national eligibility not verified."
+      },
+      "consumer_protection": "No heat-specific complaints, claim-rejection or data-use audit verified. Publish eligibility, decision reasons, accessible appeal and payment timing; these are research implications, not measured compliance failures.",
+      "loops": [
+        "energypoverty",
+        "poverty",
+        "clinic",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatbudget"
+      ],
+      "settings": [
+        "homes",
+        "summer"
+      ],
+      "evidence": [
+        {
+          "status": "guidance",
+          "text": "Official 2026 programme provides summer electricity bill deduction during July 1–September 30. Seasonal cooling support; no forecast-triggered top-up verified.",
+          "kind": "claimed",
+          "source": {
+            "label": "guidance",
+            "url": "https://www.energy.or.kr/front/conts/105001004002000.do"
+          }
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "legal_basis": "Energy Act articles 16-2 / 16-3 and special-account legislation cited by operator.",
+      "heat_feature_class": "seasonal-cooling-benefit",
+      "benefit_formula": "Household-size-dependent support; current nominal amount not verified from reviewed page.",
+      "payment_frequency": "Seasonal bill deduction",
+      "payment_history": {
+        "ever_paid_regular_benefits": "Existing benefit system; transaction history not audited in this review",
+        "ever_heat_triggered": "not verified",
+        "ever_heat_payment": "not verified",
+        "dates": "not verified",
+        "amount": "not verified",
+        "recipients": "not verified",
+        "trigger_to_money_in_hand": "not verified",
+        "use": "Intended purpose follows benefit; actual heat-related use not verified"
+      },
+      "delivery_clock": {
+        "rule": "No verified heat-specific release deadline",
+        "observed": "No measured trigger-to-recipient time verified"
+      },
+      "evaluation": "No independent heat-specific impact or delivery-speed evaluation verified for this record.",
+      "uncertainty": "Design/eligibility evidence does not establish actual heat claims, coverage of all eligible people, payment speed or welfare effect.",
+      "transferable_lesson": "Seasonal budget and bill-credit delivery can be adapted where eligible households have usable electricity accounts; coverage and benefit adequacy need local validation."
+    },
+    {
+      "id": "th-2023-bill-proposal",
+      "name": "Thailand 2023 hot-season electricity discount proposal",
+      "instrument": "seasonal-utility-relief",
+      "level": "macro",
+      "layer": "social",
+      "countries": [
+        "Thailand"
+      ],
+      "places": [
+        "National scope subject to programme eligibility"
+      ],
+      "insured_or_covered": "Residential customers in specified consumption bands in the proposal",
+      "status": "ended",
+      "providers": [
+        {
+          "name": "Cabinet / relevant electricity and budget authorities",
+          "url": "https://thailand.prd.go.th/en/content/category/detail/id/48/iid/177054",
+          "role": "government",
+          "side": "demand"
+        }
+      ],
+      "heat_covered": "partly",
+      "heat_basis": "April 2023 government account explicitly links proposed bill relief to hot-season consumption. Cabinet sought Election Commission spending approval; this source does not establish completed credits.",
+      "trigger": {
+        "metric": "Administrative approval and household monthly electricity use",
+        "threshold": "≤300 kWh/month proposed recurring discounts; 301–500 kWh proposed one-time May bill credit",
+        "data_source": "Programme records and supporting documents",
+        "geography": "Thailand",
+        "window": "Proposed May–August 2023; one-time credit for the higher band in May",
+        "calculated_by": "Cabinet / relevant electricity and budget authorities",
+        "verified_by": "Scheme administration; independent verifier not verified",
+        "kind": "action"
+      },
+      "enrolment": [],
+      "premium": {
+        "amount": "not verified",
+        "currency": "not applicable / not verified",
+        "usd": "not applicable / not verified",
+        "year": "not verified",
+        "fx": "not applicable",
+        "paid_by": "Proposed public subsidy; not an insurance premium.",
+        "subsidy": "Not separately verified",
+        "source": {
+          "label": "guidance",
+          "url": "https://thailand.prd.go.th/en/content/category/detail/id/48/iid/177054"
+        }
+      },
+      "size": {
+        "amount": "11112000000",
+        "currency": "THB",
+        "usd": "319456303.31",
+        "year": "2023",
+        "fx": "THB 34.7841 per USD; Federal Reserve 2023 annual average reference; not a payment-date rate",
+        "kind": "budget",
+        "source": {
+          "label": "guidance",
+          "url": "https://thailand.prd.go.th/en/content/category/detail/id/48/iid/177054"
+        }
+      },
+      "payouts": [],
+      "never_triggered": "unclear",
+      "basis_risk": "Consumption bands do not measure household vulnerability or individual heat exposure; disconnected users and tenants may not receive direct relief (inference).",
+      "fallback": "No heat-specific fallback payment verified; ordinary eligibility and grievance routes do not guarantee emergency cash.",
+      "inclusion": {
+        "informal_workers": "Employment status not the stated test; billing arrangements and household eligibility matter.",
+        "women": "Eligible subject to underlying programme rules; heat-specific take-up and outcomes not verified",
+        "older_people": "Programme-specific eligibility applies; heat-specific reach not verified",
+        "disabled_people": "Programme-specific eligibility and access conditions apply; heat-specific reach not verified",
+        "migrants": "Portability and eligibility not verified; do not infer automatic access"
+      },
+      "consumer_protection": "No heat-specific complaints, claim-rejection or data-use audit verified. Publish eligibility, decision reasons, accessible appeal and payment timing; these are research implications, not measured compliance failures.",
+      "loops": [
+        "energypoverty",
+        "poverty",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatbudget"
+      ],
+      "settings": [
+        "homes",
+        "summer"
+      ],
+      "evidence": [
+        {
+          "status": "guidance",
+          "text": "April 2023 government account explicitly links proposed bill relief to hot-season consumption. Cabinet sought Election Commission spending approval; this source does not establish completed credits.",
+          "kind": "claimed",
+          "source": {
+            "label": "guidance",
+            "url": "https://thailand.prd.go.th/en/content/category/detail/id/48/iid/177054"
+          }
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "legal_basis": "Cabinet proposal of April 25, 2023; caretaker-government spending required Election Commission approval under Constitution section 169.",
+      "heat_feature_class": "heat-motivated-discretionary-proposal",
+      "benefit_formula": "Proposed one-time THB benefit recorded separately in money ledger; no proof of credit completion in reviewed source.",
+      "payment_frequency": "Proposed bill-period discount, not a standing weather-trigger entitlement.",
+      "payment_history": {
+        "ever_paid_regular_benefits": "Measure was proposed for a past period; completion not verified.",
+        "ever_heat_triggered": "not verified",
+        "ever_heat_payment": "not verified",
+        "dates": "not verified",
+        "amount": "not verified",
+        "recipients": "not verified",
+        "trigger_to_money_in_hand": "not verified",
+        "use": "Intended purpose follows benefit; actual heat-related use not verified"
+      },
+      "delivery_clock": {
+        "rule": "No verified heat-specific release deadline",
+        "observed": "No measured trigger-to-recipient time verified"
+      },
+      "evaluation": "No independent heat-specific impact or delivery-speed evaluation verified for this record.",
+      "uncertainty": "Status ended refers to the proposed 2023 window, not verified implementation. Recipient counts withheld because the source mixes people and households."
+    },
+    {
+      "id": "fj-anticipatory-sp-model",
+      "name": "Fiji anticipatory cash through national social-protection infrastructure",
+      "instrument": "forecast-linked-cash",
+      "level": "macro",
+      "layer": "social",
+      "countries": [
+        "Fiji"
+      ],
+      "places": [
+        "National scope subject to programme eligibility"
+      ],
+      "insured_or_covered": "Social-protection delivery infrastructure used in anticipatory-cash design",
+      "status": "unclear",
+      "providers": [
+        {
+          "name": "Government of Fiji with WFP",
+          "url": "https://www.wfp.org/publications/2024-supercharging-social-protection-systems-anticipatory-cash-case-study-fijis",
+          "role": "government",
+          "side": "demand"
+        }
+      ],
+      "heat_covered": "no",
+      "heat_basis": "WFP’s 2024 case study describes planned anticipatory cash delivered through national social-protection infrastructure. Non-heat direct model for reusing an existing system, not evidence of a heat benefit.",
+      "trigger": {
+        "metric": "Non-heat anticipatory trigger; numerical rule not verified in reviewed landing page",
+        "threshold": "No automatic numerical heat payout threshold verified",
+        "data_source": "Programme records and supporting documents",
+        "geography": "Fiji",
+        "window": "Subject to benefit period and programme rules",
+        "calculated_by": "Government of Fiji with WFP",
+        "verified_by": "Scheme administration; independent verifier not verified",
+        "kind": "forecast"
+      },
+      "enrolment": [],
+      "premium": {
+        "amount": "not verified",
+        "currency": "not applicable / not verified",
+        "usd": "not applicable / not verified",
+        "year": "not verified",
+        "fx": "not applicable",
+        "paid_by": "Pre-arranged programme/partner financing; detailed funding split not verified.",
+        "subsidy": "Not separately verified",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.wfp.org/publications/2024-supercharging-social-protection-systems-anticipatory-cash-case-study-fijis"
+        }
+      },
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "year": "not verified",
+        "fx": "not applicable",
+        "kind": "budget",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.wfp.org/publications/2024-supercharging-social-protection-systems-anticipatory-cash-case-study-fijis"
+        }
+      },
+      "payouts": [],
+      "never_triggered": "unclear",
+      "basis_risk": "Registry exclusions and forecast miss/false alarm remain possible; heat transfer would require a separately calibrated trigger.",
+      "fallback": "No heat-specific fallback payment verified; ordinary eligibility and grievance routes do not guarantee emergency cash.",
+      "inclusion": {
+        "informal_workers": "Depends on underlying assistance eligibility; neither universal inclusion nor heat reach established.",
+        "women": "Eligible subject to underlying programme rules; heat-specific take-up and outcomes not verified",
+        "older_people": "Programme-specific eligibility applies; heat-specific reach not verified",
+        "disabled_people": "Programme-specific eligibility and access conditions apply; heat-specific reach not verified",
+        "migrants": "Portability and eligibility not verified; do not infer automatic access"
+      },
+      "consumer_protection": "No heat-specific complaints, claim-rejection or data-use audit verified. Publish eligibility, decision reasons, accessible appeal and payment timing; these are research implications, not measured compliance failures.",
+      "loops": [
+        "reactive",
+        "protection",
+        "poverty"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash"
+      ],
+      "settings": [
+        "work",
+        "homes",
+        "summer"
+      ],
+      "evidence": [
+        {
+          "status": "guidance",
+          "text": "WFP’s 2024 case study describes planned anticipatory cash delivered through national social-protection infrastructure. Non-heat direct model for reusing an existing system, not evidence of a heat benefit.",
+          "kind": "claimed",
+          "source": {
+            "label": "guidance",
+            "url": "https://www.wfp.org/publications/2024-supercharging-social-protection-systems-anticipatory-cash-case-study-fijis"
+          }
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "legal_basis": "Government–WFP anticipatory social-protection arrangements; full operational legal and trigger terms not reviewed.",
+      "heat_feature_class": "non-heat-direct-model",
+      "benefit_formula": "No heat amount or verified transaction ledger.",
+      "payment_frequency": "As specified by underlying programme; no separate automatic heat schedule verified",
+      "payment_history": {
+        "ever_paid_regular_benefits": "Existing benefit system; transaction history not audited in this review",
+        "ever_heat_triggered": "not verified",
+        "ever_heat_payment": "not verified",
+        "dates": "not verified",
+        "amount": "not verified",
+        "recipients": "not verified",
+        "trigger_to_money_in_hand": "not verified",
+        "use": "Intended purpose follows benefit; actual heat-related use not verified"
+      },
+      "delivery_clock": {
+        "rule": "No verified heat-specific release deadline",
+        "observed": "No measured trigger-to-recipient time verified"
+      },
+      "evaluation": "No independent heat-specific impact or delivery-speed evaluation verified for this record.",
+      "uncertainty": "Publication design is verified, not current activation, heat eligibility or recipient-payment speed."
+    }
+  ],
+  "actors": [
+    {
+      "id": "actor-in-rural-current",
+      "name": "Ministry of Rural Development and state governments",
+      "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=4&NoteId=158511&lang=1&reg=3",
+      "type": "government",
+      "side": "demand",
+      "heat_role": {
+        "text": "Official May 2026 FAQ states MGNREGA repeal and successor commencement on 1 July 2026. Worksite water, shade and first-aid provisions are relevant to heat; automatic heat-stop wage replacement not established.",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=4&NoteId=158511&lang=1&reg=3"
+        }
+      },
+      "instruments": [
+        "employment-guarantee"
+      ],
+      "geography": [
+        "India"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash",
+        "hap"
+      ],
+      "loops": [
+        "reactive",
+        "protection",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "actor-in-rajasthan-urban",
+      "name": "Rajasthan Department of Local Self Government / urban local bodies",
+      "url": "https://msrgy.rajasthan.gov.in/Home/ordersAndCirculars",
+      "type": "government",
+      "side": "demand",
+      "heat_role": {
+        "text": "Official order catalogue lists April 2026 and April 2025 changes to working time and arrangements for heat/loo. It verifies an adaptation order, not its complete wage terms.",
+        "source": {
+          "label": "guidance",
+          "url": "https://msrgy.rajasthan.gov.in/Home/ordersAndCirculars"
+        }
+      },
+      "instruments": [
+        "employment-guarantee"
+      ],
+      "geography": [
+        "India"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash"
+      ],
+      "loops": [
+        "reactive",
+        "protection",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "actor-in-esi",
+      "name": "Employees’ State Insurance Corporation",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2035277&lang=2&reg=48",
+      "type": "government",
+      "side": "demand",
+      "heat_role": {
+        "text": "July 2024 parliamentary answer explicitly confirms sickness benefit when heatwave-related absence is medically certified and contribution conditions are fulfilled. November 2025 labour-code commencement changes the legal context.",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2035277&lang=2&reg=48"
+        }
+      },
+      "instruments": [
+        "sickness-and-injury-benefit"
+      ],
+      "geography": [
+        "India"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash"
+      ],
+      "loops": [
+        "poverty",
+        "debt",
+        "clinic",
+        "reactive",
+        "protection"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "actor-in-pmjay",
+      "name": "National Health Authority and state health agencies",
+      "url": "https://atalamritabhiyan.assam.gov.in/information-services/pmjay-package-master",
+      "type": "government",
+      "side": "demand",
+      "heat_role": {
+        "text": "Assam official package catalogue includes heatstroke MG067/MG067A. This supports a treatment pathway, not automatic cash for hot weather or every outpatient heat illness.",
+        "source": {
+          "label": "guidance",
+          "url": "https://atalamritabhiyan.assam.gov.in/information-services/pmjay-package-master"
+        }
+      },
+      "instruments": [
+        "publicly-financed-health-cover"
+      ],
+      "geography": [
+        "India"
+      ],
+      "levers": [
+        "freecare",
+        "socialprotection",
+        "readyclinics"
+      ],
+      "loops": [
+        "debt",
+        "clinic",
+        "poverty",
+        "reactive",
+        "protection"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "actor-pk-bisp",
+      "name": "Benazir Income Support Programme",
+      "url": "https://www.app.com.pk/national/bisp-to-launch-retail-based-payment-model-from-june-16/",
+      "type": "government",
+      "side": "demand",
+      "heat_role": {
+        "text": "Operator announcement reported a move from campsites to designated retail collection points from June 16, 2025 to reduce heat exposure. This changes delivery, not the entitlement amount.",
+        "source": {
+          "label": "reported",
+          "url": "https://www.app.com.pk/national/bisp-to-launch-retail-based-payment-model-from-june-16/"
+        }
+      },
+      "instruments": [
+        "cash-transfer-delivery-adaptation"
+      ],
+      "geography": [
+        "Pakistan"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash"
+      ],
+      "loops": [
+        "poverty",
+        "reactive",
+        "protection",
+        "invisible"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "actor-bd-oaa-candidate",
+      "name": "Department of Social Services / Ministry of Social Welfare",
+      "url": "https://socialprotection.gov.bd/wp-content/uploads/2025/08/From-Strategy-to-Impact-An-Assessment-of-Bangladeshs-Social-Security-Policy-Support-Programme-and-its-Contribution-to-Gender-Inclusive-Development.pdf",
+      "type": "government",
+      "side": "demand",
+      "heat_role": {
+        "text": "Government-hosted analysis describes Old Age Allowance and social-protection delivery reform. No automatic heat-related increase or early payment was verified.",
+        "source": {
+          "label": "reported",
+          "url": "https://socialprotection.gov.bd/wp-content/uploads/2025/08/From-Strategy-to-Impact-An-Assessment-of-Bangladeshs-Social-Security-Policy-Support-Programme-and-its-Contribution-to-Gender-Inclusive-Development.pdf"
+        }
+      },
+      "instruments": [
+        "cash-transfer-delivery-adaptation"
+      ],
+      "geography": [
+        "Bangladesh"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash"
+      ],
+      "loops": [
+        "reactive",
+        "protection",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "actor-ph-ecp",
+      "name": "Employees’ Compensation Commission with SSS / GSIS",
+      "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/11/48368",
+      "type": "government",
+      "side": "demand",
+      "heat_role": {
+        "text": "Primary archived rules recognize heatstroke, heat cramps and heat exhaustion associated with excessive heat/humidity. October 2026 DOLE indexed guidance clarifies work-related illness compensation; advisory text and transactions not fully inspected.",
+        "source": {
+          "label": "guidance",
+          "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/11/48368"
+        }
+      },
+      "instruments": [
+        "sickness-and-injury-benefit"
+      ],
+      "geography": [
+        "Philippines"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash"
+      ],
+      "loops": [
+        "poverty",
+        "debt",
+        "clinic",
+        "reactive",
+        "protection"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "actor-dz-weather-wages",
+      "name": "CACOBATPH",
+      "url": "https://webapps.ilo.org/static/english/reports/flagship/world_social_protection_report_2024-26/Chapter%2002.html",
+      "type": "government",
+      "side": "demand",
+      "heat_role": {
+        "text": "ILO’s 2024–26 report identifies extreme heat among covered weather events and workers’/employers’ contributions financing wage replacement.",
+        "source": {
+          "label": "guidance",
+          "url": "https://webapps.ilo.org/static/english/reports/flagship/world_social_protection_report_2024-26/Chapter%2002.html"
+        }
+      },
+      "instruments": [
+        "heat-work-stoppage-income"
+      ],
+      "geography": [
+        "Algeria"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash"
+      ],
+      "loops": [
+        "reactive",
+        "protection",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "actor-it-cigo",
+      "name": "INPS and applicable wage-integration funds",
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.07.integrazione-salariale-per-eccesso-di-caldo-indicazioni-dell-inps.html",
+      "type": "government",
+      "side": "demand",
+      "heat_role": {
+        "text": "INPS July 2025 guidance addresses excessive heat, including perceived temperature and authority-ordered stoppages. The weather test supports an application; it is not automatic parametric payment.",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.07.integrazione-salariale-per-eccesso-di-caldo-indicazioni-dell-inps.html"
+        }
+      },
+      "instruments": [
+        "heat-work-stoppage-income"
+      ],
+      "geography": [
+        "Italy"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash"
+      ],
+      "loops": [
+        "reactive",
+        "protection",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "actor-sg-wica",
+      "name": "Ministry of Manpower / employers and work injury insurers",
+      "url": "https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work/faqs-on-heat-stress-measures-for-outdoor-work",
+      "type": "government",
+      "side": "demand",
+      "heat_role": {
+        "text": "MOM heat-stress FAQ links occupational heat illness to reporting/compensation. WICA covers local and foreign employees under contracts of service, with stated exclusions.",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work/faqs-on-heat-stress-measures-for-outdoor-work"
+        }
+      },
+      "instruments": [
+        "sickness-and-injury-benefit"
+      ],
+      "geography": [
+        "Singapore"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash"
+      ],
+      "loops": [
+        "poverty",
+        "debt",
+        "clinic",
+        "reactive",
+        "protection"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "actor-kr-energy-voucher",
+      "name": "Korea Energy Agency and responsible public authorities",
+      "url": "https://www.energy.or.kr/front/conts/105001004002000.do",
+      "type": "government",
+      "side": "demand",
+      "heat_role": {
+        "text": "Official 2026 programme provides summer electricity bill deduction during July 1–September 30. Seasonal cooling support; no forecast-triggered top-up verified.",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.energy.or.kr/front/conts/105001004002000.do"
+        }
+      },
+      "instruments": [
+        "seasonal-utility-relief"
+      ],
+      "geography": [
+        "Republic of Korea"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatbudget"
+      ],
+      "loops": [
+        "energypoverty",
+        "poverty",
+        "clinic",
+        "reactive",
+        "protection"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "actor-th-2023-bill-proposal",
+      "name": "Cabinet / relevant electricity and budget authorities",
+      "url": "https://thailand.prd.go.th/en/content/category/detail/id/48/iid/177054",
+      "type": "government",
+      "side": "demand",
+      "heat_role": {
+        "text": "April 2023 government account explicitly links proposed bill relief to hot-season consumption. Cabinet sought Election Commission spending approval; this source does not establish completed credits.",
+        "source": {
+          "label": "guidance",
+          "url": "https://thailand.prd.go.th/en/content/category/detail/id/48/iid/177054"
+        }
+      },
+      "instruments": [
+        "seasonal-utility-relief"
+      ],
+      "geography": [
+        "Thailand"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatbudget"
+      ],
+      "loops": [
+        "energypoverty",
+        "poverty",
+        "reactive",
+        "protection"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "actor-fj-anticipatory-sp-model",
+      "name": "Government of Fiji with WFP",
+      "url": "https://www.wfp.org/publications/2024-supercharging-social-protection-systems-anticipatory-cash-case-study-fijis",
+      "type": "partnership",
+      "side": "demand",
+      "heat_role": {
+        "text": "WFP’s 2024 case study describes planned anticipatory cash delivered through national social-protection infrastructure. Non-heat direct model for reusing an existing system, not evidence of a heat benefit.",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.wfp.org/publications/2024-supercharging-social-protection-systems-anticipatory-cash-case-study-fijis"
+        }
+      },
+      "instruments": [
+        "forecast-linked-cash"
+      ],
+      "geography": [
+        "Fiji"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash"
+      ],
+      "loops": [
+        "reactive",
+        "protection",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "in-eshram",
+      "name": "e-Shram",
+      "url": "https://eshram.gov.in/faqs",
+      "type": "government",
+      "side": "platform",
+      "heat_role": {
+        "text": "Registry and scheme-discovery infrastructure for unorganized workers. Registration is not itself a heat payment or proof of eligibility for every linked scheme.",
+        "source": {
+          "label": "guidance",
+          "url": "https://eshram.gov.in/faqs"
+        }
+      },
+      "instruments": [
+        "cash-transfer-delivery-adaptation"
+      ],
+      "geography": [
+        "India"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash"
+      ],
+      "loops": [
+        "poverty",
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "last_checked": "2026-10-31"
+    }
+  ],
+  "triggers": [
+    {
+      "metric": "Clinical illness / work incapacity",
+      "strengths": "Can respond to individual harm even without a station crossing.",
+      "weaknesses": "Acts after illness; certification, attribution and coverage can delay or exclude.",
+      "humid_heat": "Clinical/exposure evidence can recognize humid heat; not necessarily a numerical humidity trigger.",
+      "asia_data": "Need heat diagnoses, work-exposure records and claims linked without publishing personal data.",
+      "used_in": [
+        {
+          "scheme": "in-esi",
+          "source": {
+            "label": "guidance",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2035277&lang=2&reg=48"
+          }
+        },
+        {
+          "scheme": "in-pmjay",
+          "source": {
+            "label": "guidance",
+            "url": "https://atalamritabhiyan.assam.gov.in/information-services/pmjay-package-master"
+          }
+        },
+        {
+          "scheme": "ph-ecp",
+          "source": {
+            "label": "guidance",
+            "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/11/48368"
+          }
+        },
+        {
+          "scheme": "sg-wica",
+          "source": {
+            "label": "guidance",
+            "url": "https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work/faqs-on-heat-stress-measures-for-outdoor-work"
+          }
+        }
+      ]
+    },
+    {
+      "metric": "Actual/perceived temperature and work stoppage",
+      "strengths": "Can support wage replacement for preventive suspension.",
+      "weaknesses": "Weather indication alone does not prove eligible application, approval or payment.",
+      "humid_heat": "Italy guidance considers perceived heat; exact worksite calculation and verifier must be specified.",
+      "asia_data": "No validated transplant of Italy's threshold into an Asian payroll or public-work programme is established.",
+      "used_in": [
+        {
+          "scheme": "it-cigo",
+          "source": {
+            "label": "guidance",
+            "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.07.integrazione-salariale-per-eccesso-di-caldo-indicazioni-dell-inps.html"
+          }
+        }
+      ]
+    },
+    {
+      "metric": "Seasonal calendar and household eligibility",
+      "strengths": "Predictable timing and budgeting without requiring an emergency declaration.",
+      "weaknesses": "May miss heat outside the window or households outside filters; not a forecast payout.",
+      "humid_heat": "Does not itself reflect humidity or indoor heat.",
+      "asia_data": "Korea published a 2026 summer window; benefit values and heat-specific redemption data not verified.",
+      "used_in": [
+        {
+          "scheme": "kr-energy-voucher",
+          "source": {
+            "label": "guidance",
+            "url": "https://www.energy.or.kr/front/conts/105001004002000.do"
+          }
+        }
+      ]
+    },
+    {
+      "metric": "Administrative response to heat / change of collection arrangements",
+      "strengths": "Can reduce exposure while preserving an existing delivery system.",
+      "weaknesses": "Decision and launch date do not establish completed payment or larger benefit.",
+      "humid_heat": "No explicit numerical humidity threshold verified.",
+      "asia_data": "BISP June 2025 heat-related retail-payment announcement; use beneficiary receipt data to test effects.",
+      "used_in": [
+        {
+          "scheme": "pk-bisp",
+          "source": {
+            "label": "reported",
+            "url": "https://www.app.com.pk/national/bisp-to-launch-retail-based-payment-model-from-june-16/"
+          }
+        }
+      ]
+    }
+  ],
+  "evidence_of_effect": [
+    {
+      "id": "bisp-delivery-report",
+      "intervention": "Heat-related shift from campsite to retail cash collection",
+      "place": "Pakistan",
+      "date": "June 2025",
+      "design": "Operator announcement reported by government news agency",
+      "sample": "Administrative announcement; recipient sample not reported",
+      "outcome": "Delivery arrangement, not independently measured income/health effect",
+      "result": "Heat-motivated retail model announced for June 16; observed beneficiary payment time, exposure reduction and distributional effect not established.",
+      "status": "reported",
+      "limits": "APP used because operator page inaccessible. No causal comparison, receipt ledger or independently measured heat outcome.",
+      "source": {
+        "label": "reported",
+        "url": "https://www.app.com.pk/national/bisp-to-launch-retail-based-payment-model-from-june-16/"
+      }
+    }
+  ],
+  "country_layers": [
+    {
+      "country": "India",
+      "layer": "social",
+      "holder": "Ministry of Rural Development and state governments",
+      "instrument": "India rural employment guarantee: VB–G RAM G transition from MGNREGA",
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "kind": "budget",
+        "year": "not verified",
+        "fx": "not applicable"
+      },
+      "heat_eligible": "partly",
+      "trigger": "Administrative or clinical eligibility; not a weather-index payout; No automatic numerical heat payout threshold verified",
+      "speed": "Statutory/administrative wage schedule is not measured heat-payment speed.",
+      "last_mile": "Programme delivery/claim channel; actual heat-specific recipient clock not verified.",
+      "heat_use_evidence": {
+        "text": "Official May 2026 FAQ states MGNREGA repeal and successor commencement on 1 July 2026. Worksite water, shade and first-aid provisions are relevant to heat; automatic heat-stop wage replacement not established.",
+        "status": "guidance",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=4&NoteId=158511&lang=1&reg=3"
+        }
+      },
+      "gap": "State schemes, actual heat adjustments, reduced-task full-wage provisions, attendance exceptions and heat payment records require verification.",
+      "proposed_improvement": {
+        "text": "Test a published heat-specific eligibility/action/payment protocol, with pre-authorized funds, accessible exceptions and independent recipient-timing and inclusion monitoring. This is a research proposal, not a current entitlement.",
+        "status": "concept",
+        "owners": [
+          "Ministry of Rural Development and state governments"
+        ]
+      },
+      "loops": [
+        "reactive",
+        "protection",
+        "poverty"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash",
+        "hap"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "country": "India",
+      "layer": "social",
+      "holder": "Rajasthan Department of Local Self Government / urban local bodies",
+      "instrument": "Rajasthan urban employment guarantee heat work arrangements",
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "kind": "budget",
+        "year": "not verified",
+        "fx": "not applicable"
+      },
+      "heat_eligible": "partly",
+      "trigger": "Administrative or clinical eligibility; not a weather-index payout; No automatic numerical heat payout threshold verified",
+      "speed": "No verified heat-specific release deadline",
+      "last_mile": "Programme delivery/claim channel; actual heat-specific recipient clock not verified.",
+      "heat_use_evidence": {
+        "text": "Official order catalogue lists April 2026 and April 2025 changes to working time and arrangements for heat/loo. It verifies an adaptation order, not its complete wage terms.",
+        "status": "guidance",
+        "source": {
+          "label": "guidance",
+          "url": "https://msrgy.rajasthan.gov.in/Home/ordersAndCirculars"
+        }
+      },
+      "gap": "Underlying signed orders and attachments, current hours, wage safeguards and compliance not reviewed; catalogue access was intermittent.",
+      "proposed_improvement": {
+        "text": "Test a published heat-specific eligibility/action/payment protocol, with pre-authorized funds, accessible exceptions and independent recipient-timing and inclusion monitoring. This is a research proposal, not a current entitlement.",
+        "status": "concept",
+        "owners": [
+          "Rajasthan Department of Local Self Government / urban local bodies"
+        ]
+      },
+      "loops": [
+        "reactive",
+        "protection",
+        "poverty"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "country": "India",
+      "layer": "social",
+      "holder": "Employees’ State Insurance Corporation",
+      "instrument": "Employees’ State Insurance sickness benefit for heat-related absence",
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "kind": "budget",
+        "year": "not verified",
+        "fx": "not applicable"
+      },
+      "heat_eligible": "yes",
+      "trigger": "Certified inability to work due to illness associated with heat; No automatic numerical heat payout threshold verified",
+      "speed": "No verified heat-specific release deadline",
+      "last_mile": "Programme delivery/claim channel; actual heat-specific recipient clock not verified.",
+      "heat_use_evidence": {
+        "text": "July 2024 parliamentary answer explicitly confirms sickness benefit when heatwave-related absence is medically certified and contribution conditions are fulfilled. November 2025 labour-code commencement changes the legal context.",
+        "status": "guidance",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2035277&lang=2&reg=48"
+        }
+      },
+      "gap": "Historical explicit heat eligibility verified; current detailed legal implementation, claims, amounts and payment times not verified.",
+      "proposed_improvement": {
+        "text": "Test a published heat-specific eligibility/action/payment protocol, with pre-authorized funds, accessible exceptions and independent recipient-timing and inclusion monitoring. This is a research proposal, not a current entitlement.",
+        "status": "concept",
+        "owners": [
+          "Employees’ State Insurance Corporation"
+        ]
+      },
+      "loops": [
+        "poverty",
+        "debt",
+        "clinic",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "country": "India",
+      "layer": "social",
+      "holder": "National Health Authority and state health agencies",
+      "instrument": "Ayushman Bharat PM-JAY heatstroke hospitalization cover",
+      "size": {
+        "amount": "500000",
+        "currency": "INR",
+        "usd": "5737.45",
+        "kind": "limit",
+        "year": "2025",
+        "fx": "INR 87.1468 per USD; Federal Reserve 2025 annual average reference; not a claim-date rate"
+      },
+      "heat_eligible": "yes",
+      "trigger": "Clinical heatstroke and covered hospitalization / package eligibility; No automatic numerical heat payout threshold verified",
+      "speed": "No verified heat-specific release deadline",
+      "last_mile": "Covered hospital care; reimbursement to provider is distinct from household cash.",
+      "heat_use_evidence": {
+        "text": "Assam official package catalogue includes heatstroke MG067/MG067A. This supports a treatment pathway, not automatic cash for hot weather or every outpatient heat illness.",
+        "status": "guidance",
+        "source": {
+          "label": "guidance",
+          "url": "https://atalamritabhiyan.assam.gov.in/information-services/pmjay-package-master"
+        }
+      },
+      "gap": "Design/eligibility evidence does not establish actual heat claims, coverage of all eligible people, payment speed or welfare effect.",
+      "proposed_improvement": {
+        "text": "Test a published heat-specific eligibility/action/payment protocol, with pre-authorized funds, accessible exceptions and independent recipient-timing and inclusion monitoring. This is a research proposal, not a current entitlement.",
+        "status": "concept",
+        "owners": [
+          "National Health Authority and state health agencies"
+        ]
+      },
+      "loops": [
+        "debt",
+        "clinic",
+        "poverty",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "freecare",
+        "socialprotection",
+        "readyclinics"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "country": "Pakistan",
+      "layer": "social",
+      "holder": "Benazir Income Support Programme",
+      "instrument": "BISP heat-responsive payment-collection arrangements",
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "kind": "budget",
+        "year": "not verified",
+        "fx": "not applicable"
+      },
+      "heat_eligible": "partly",
+      "trigger": "Administrative decision in response to heat conditions; No automatic numerical heat payout threshold verified",
+      "speed": "No verified heat-specific release deadline",
+      "last_mile": "Designated retail collection with biometric verification and printed receipt.",
+      "heat_use_evidence": {
+        "text": "Operator announcement reported a move from campsites to designated retail collection points from June 16, 2025 to reduce heat exposure. This changes delivery, not the entitlement amount.",
+        "status": "reported",
+        "source": {
+          "label": "reported",
+          "url": "https://www.app.com.pk/national/bisp-to-launch-retail-based-payment-model-from-june-16/"
+        }
+      },
+      "gap": "Design/eligibility evidence does not establish actual heat claims, coverage of all eligible people, payment speed or welfare effect.",
+      "proposed_improvement": {
+        "text": "Test a published heat-specific eligibility/action/payment protocol, with pre-authorized funds, accessible exceptions and independent recipient-timing and inclusion monitoring. This is a research proposal, not a current entitlement.",
+        "status": "concept",
+        "owners": [
+          "Benazir Income Support Programme"
+        ]
+      },
+      "loops": [
+        "poverty",
+        "reactive",
+        "protection",
+        "invisible"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "country": "Bangladesh",
+      "layer": "social",
+      "holder": "Department of Social Services / Ministry of Social Welfare",
+      "instrument": "Bangladesh Old Age Allowance — existing system, no verified heat top-up",
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "kind": "budget",
+        "year": "not verified",
+        "fx": "not applicable"
+      },
+      "heat_eligible": "unclear",
+      "trigger": "Administrative or clinical eligibility; not a weather-index payout; No automatic numerical heat payout threshold verified",
+      "speed": "No verified heat-specific release deadline",
+      "last_mile": "Programme delivery/claim channel; actual heat-specific recipient clock not verified.",
+      "heat_use_evidence": {
+        "text": "Government-hosted analysis describes Old Age Allowance and social-protection delivery reform. No automatic heat-related increase or early payment was verified.",
+        "status": "reported",
+        "source": {
+          "label": "reported",
+          "url": "https://socialprotection.gov.bd/wp-content/uploads/2025/08/From-Strategy-to-Impact-An-Assessment-of-Bangladeshs-Social-Security-Policy-Support-Programme-and-its-Contribution-to-Gender-Inclusive-Development.pdf"
+        }
+      },
+      "gap": "Current rate, legal criteria, registry completeness, heat activation and actual heat payments not verified. Candidate status is an analytical category, not an announced government heat scheme.",
+      "proposed_improvement": {
+        "text": "Test a published heat-specific eligibility/action/payment protocol, with pre-authorized funds, accessible exceptions and independent recipient-timing and inclusion monitoring. This is a research proposal, not a current entitlement.",
+        "status": "concept",
+        "owners": [
+          "Department of Social Services / Ministry of Social Welfare"
+        ]
+      },
+      "loops": [
+        "reactive",
+        "protection",
+        "poverty"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "country": "Philippines",
+      "layer": "social",
+      "holder": "Employees’ Compensation Commission with SSS / GSIS",
+      "instrument": "Philippines Employees’ Compensation Programme heat-related illness",
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "kind": "budget",
+        "year": "not verified",
+        "fx": "not applicable"
+      },
+      "heat_eligible": "yes",
+      "trigger": "Compensable occupational disease and causal exposure evidence; No automatic numerical heat payout threshold verified",
+      "speed": "No verified heat-specific release deadline",
+      "last_mile": "Programme delivery/claim channel; actual heat-specific recipient clock not verified.",
+      "heat_use_evidence": {
+        "text": "Primary archived rules recognize heatstroke, heat cramps and heat exhaustion associated with excessive heat/humidity. October 2026 DOLE indexed guidance clarifies work-related illness compensation; advisory text and transactions not fully inspected.",
+        "status": "guidance",
+        "source": {
+          "label": "guidance",
+          "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/11/48368"
+        }
+      },
+      "gap": "Design/eligibility evidence does not establish actual heat claims, coverage of all eligible people, payment speed or welfare effect.",
+      "proposed_improvement": {
+        "text": "Test a published heat-specific eligibility/action/payment protocol, with pre-authorized funds, accessible exceptions and independent recipient-timing and inclusion monitoring. This is a research proposal, not a current entitlement.",
+        "status": "concept",
+        "owners": [
+          "Employees’ Compensation Commission with SSS / GSIS"
+        ]
+      },
+      "loops": [
+        "poverty",
+        "debt",
+        "clinic",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "country": "Algeria",
+      "layer": "social",
+      "holder": "CACOBATPH",
+      "instrument": "Algeria CACOBATPH weather-related wage replacement including extreme heat",
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "kind": "budget",
+        "year": "not verified",
+        "fx": "not applicable"
+      },
+      "heat_eligible": "yes",
+      "trigger": "Qualifying weather-related interruption of covered work; No automatic numerical heat payout threshold verified",
+      "speed": "No verified heat-specific release deadline",
+      "last_mile": "Programme delivery/claim channel; actual heat-specific recipient clock not verified.",
+      "heat_use_evidence": {
+        "text": "ILO’s 2024–26 report identifies extreme heat among covered weather events and workers’/employers’ contributions financing wage replacement.",
+        "status": "guidance",
+        "source": {
+          "label": "guidance",
+          "url": "https://webapps.ilo.org/static/english/reports/flagship/world_social_protection_report_2024-26/Chapter%2002.html"
+        }
+      },
+      "gap": "ILO confirms design, not heat-specific paid amounts, current national geographic coverage, current contribution rates or measured recipient speed.",
+      "proposed_improvement": {
+        "text": "Test a published heat-specific eligibility/action/payment protocol, with pre-authorized funds, accessible exceptions and independent recipient-timing and inclusion monitoring. This is a research proposal, not a current entitlement.",
+        "status": "concept",
+        "owners": [
+          "CACOBATPH"
+        ]
+      },
+      "loops": [
+        "reactive",
+        "protection",
+        "poverty"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "country": "Italy",
+      "layer": "social",
+      "holder": "INPS and applicable wage-integration funds",
+      "instrument": "Italy wage supplementation for excessive heat",
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "kind": "budget",
+        "year": "not verified",
+        "fx": "not applicable"
+      },
+      "heat_eligible": "yes",
+      "trigger": "Excessive actual/perceived heat or qualifying authority-ordered suspension; Generally temperatures above 35°C; perceived heat and work circumstances considered. Not a universal automatic threshold.",
+      "speed": "No verified heat-specific release deadline",
+      "last_mile": "Programme delivery/claim channel; actual heat-specific recipient clock not verified.",
+      "heat_use_evidence": {
+        "text": "INPS July 2025 guidance addresses excessive heat, including perceived temperature and authority-ordered stoppages. The weather test supports an application; it is not automatic parametric payment.",
+        "status": "guidance",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.07.integrazione-salariale-per-eccesso-di-caldo-indicazioni-dell-inps.html"
+        }
+      },
+      "gap": "Design/eligibility evidence does not establish actual heat claims, coverage of all eligible people, payment speed or welfare effect.",
+      "proposed_improvement": {
+        "text": "Test a published heat-specific eligibility/action/payment protocol, with pre-authorized funds, accessible exceptions and independent recipient-timing and inclusion monitoring. This is a research proposal, not a current entitlement.",
+        "status": "concept",
+        "owners": [
+          "INPS and applicable wage-integration funds"
+        ]
+      },
+      "loops": [
+        "reactive",
+        "protection",
+        "poverty"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "country": "Singapore",
+      "layer": "social",
+      "holder": "Ministry of Manpower / employers and work injury insurers",
+      "instrument": "Singapore work injury compensation for work-related heat illness",
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "kind": "budget",
+        "year": "not verified",
+        "fx": "not applicable"
+      },
+      "heat_eligible": "yes",
+      "trigger": "Work-related illness with medical certification / compensable incapacity; No automatic numerical heat payout threshold verified",
+      "speed": "Medical-leave wages due by next payday under MOM guidance; this is a rule, not observed heat-claim speed.",
+      "last_mile": "Programme delivery/claim channel; actual heat-specific recipient clock not verified.",
+      "heat_use_evidence": {
+        "text": "MOM heat-stress FAQ links occupational heat illness to reporting/compensation. WICA covers local and foreign employees under contracts of service, with stated exclusions.",
+        "status": "guidance",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work/faqs-on-heat-stress-measures-for-outdoor-work"
+        }
+      },
+      "gap": "Design/eligibility evidence does not establish actual heat claims, coverage of all eligible people, payment speed or welfare effect.",
+      "proposed_improvement": {
+        "text": "Test a published heat-specific eligibility/action/payment protocol, with pre-authorized funds, accessible exceptions and independent recipient-timing and inclusion monitoring. This is a research proposal, not a current entitlement.",
+        "status": "concept",
+        "owners": [
+          "Ministry of Manpower / employers and work injury insurers"
+        ]
+      },
+      "loops": [
+        "poverty",
+        "debt",
+        "clinic",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "country": "Republic of Korea",
+      "layer": "social",
+      "holder": "Korea Energy Agency and responsible public authorities",
+      "instrument": "Republic of Korea summer Energy Voucher",
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "kind": "budget",
+        "year": "not verified",
+        "fx": "not applicable"
+      },
+      "heat_eligible": "partly",
+      "trigger": "Eligibility plus summer benefit calendar; Administrative household eligibility; no automatic temperature threshold verified",
+      "speed": "No verified heat-specific release deadline",
+      "last_mile": "Electricity billing/credit channel subject to eligibility and usable account.",
+      "heat_use_evidence": {
+        "text": "Official 2026 programme provides summer electricity bill deduction during July 1–September 30. Seasonal cooling support; no forecast-triggered top-up verified.",
+        "status": "guidance",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.energy.or.kr/front/conts/105001004002000.do"
+        }
+      },
+      "gap": "Design/eligibility evidence does not establish actual heat claims, coverage of all eligible people, payment speed or welfare effect.",
+      "proposed_improvement": {
+        "text": "Test a published heat-specific eligibility/action/payment protocol, with pre-authorized funds, accessible exceptions and independent recipient-timing and inclusion monitoring. This is a research proposal, not a current entitlement.",
+        "status": "concept",
+        "owners": [
+          "Korea Energy Agency and responsible public authorities"
+        ]
+      },
+      "loops": [
+        "energypoverty",
+        "poverty",
+        "clinic",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatbudget"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "country": "Thailand",
+      "layer": "social",
+      "holder": "Cabinet / relevant electricity and budget authorities",
+      "instrument": "Thailand 2023 hot-season electricity discount proposal",
+      "size": {
+        "amount": "11112000000",
+        "currency": "THB",
+        "usd": "319456303.31",
+        "kind": "budget",
+        "year": "2023",
+        "fx": "THB 34.7841 per USD; Federal Reserve 2023 annual average reference; not a payment-date rate"
+      },
+      "heat_eligible": "partly",
+      "trigger": "Administrative approval and household monthly electricity use; ≤300 kWh/month proposed recurring discounts; 301–500 kWh proposed one-time May bill credit",
+      "speed": "No verified heat-specific release deadline",
+      "last_mile": "Electricity billing/credit channel subject to eligibility and usable account.",
+      "heat_use_evidence": {
+        "text": "April 2023 government account explicitly links proposed bill relief to hot-season consumption. Cabinet sought Election Commission spending approval; this source does not establish completed credits.",
+        "status": "guidance",
+        "source": {
+          "label": "guidance",
+          "url": "https://thailand.prd.go.th/en/content/category/detail/id/48/iid/177054"
+        }
+      },
+      "gap": "Status ended refers to the proposed 2023 window, not verified implementation. Recipient counts withheld because the source mixes people and households.",
+      "proposed_improvement": {
+        "text": "Test a published heat-specific eligibility/action/payment protocol, with pre-authorized funds, accessible exceptions and independent recipient-timing and inclusion monitoring. This is a research proposal, not a current entitlement.",
+        "status": "concept",
+        "owners": [
+          "Cabinet / relevant electricity and budget authorities"
+        ]
+      },
+      "loops": [
+        "energypoverty",
+        "poverty",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatbudget"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "country": "Fiji",
+      "layer": "social",
+      "holder": "Government of Fiji with WFP",
+      "instrument": "Fiji anticipatory cash through national social-protection infrastructure",
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "kind": "budget",
+        "year": "not verified",
+        "fx": "not applicable"
+      },
+      "heat_eligible": "no",
+      "trigger": "Non-heat anticipatory trigger; numerical rule not verified in reviewed landing page; No automatic numerical heat payout threshold verified",
+      "speed": "No verified heat-specific release deadline",
+      "last_mile": "Programme delivery/claim channel; actual heat-specific recipient clock not verified.",
+      "heat_use_evidence": {
+        "text": "WFP’s 2024 case study describes planned anticipatory cash delivered through national social-protection infrastructure. Non-heat direct model for reusing an existing system, not evidence of a heat benefit.",
+        "status": "guidance",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.wfp.org/publications/2024-supercharging-social-protection-systems-anticipatory-cash-case-study-fijis"
+        }
+      },
+      "gap": "Publication design is verified, not current activation, heat eligibility or recipient-payment speed.",
+      "proposed_improvement": {
+        "text": "Test a published heat-specific eligibility/action/payment protocol, with pre-authorized funds, accessible exceptions and independent recipient-timing and inclusion monitoring. This is a research proposal, not a current entitlement.",
+        "status": "concept",
+        "owners": [
+          "Government of Fiji with WFP"
+        ]
+      },
+      "loops": [
+        "reactive",
+        "protection",
+        "poverty"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash"
+      ],
+      "last_checked": "2026-10-31"
+    }
+  ],
+  "money_ledger": [
+    {
+      "id": "pmjay-family-limit-2025",
+      "scheme": "in-pmjay",
+      "amount": "500000",
+      "currency": "INR",
+      "usd": "5737.45",
+      "year": "2025",
+      "fx": "87.1468 INR/USD; 2025 annual average reference",
+      "kind": "limit",
+      "stage": "entitlement limit described in 2025 official statement",
+      "unit": "per eligible family per year",
+      "source": {
+        "label": "guidance",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2110780&lang=2&reg=3"
+      },
+      "fx_source": {
+        "label": "guidance",
+        "url": "https://www.federalreserve.gov/releases/g5a/current/"
+      },
+      "not_a_payment": true
+    },
+    {
+      "id": "thai-proposed-budget-2023",
+      "scheme": "th-2023-bill-proposal",
+      "amount": "11112000000",
+      "currency": "THB",
+      "usd": "319456303.31",
+      "year": "2023",
+      "fx": "34.7841 THB/USD; 2023 annual average reference",
+      "kind": "budget",
+      "stage": "announced proposal: Cabinet sought Election Commission approval",
+      "unit": "total proposed budget",
+      "source": {
+        "label": "guidance",
+        "url": "https://thailand.prd.go.th/en/content/category/detail/id/48/iid/177054"
+      },
+      "fx_source": {
+        "label": "guidance",
+        "url": "https://www.federalreserve.gov/releases/g5a/current/"
+      },
+      "not_a_payment": true
+    },
+    {
+      "id": "thai-proposed-credit-2023",
+      "scheme": "th-2023-bill-proposal",
+      "amount": "150",
+      "currency": "THB",
+      "usd": "4.31",
+      "year": "2023",
+      "fx": "34.7841 THB/USD; 2023 annual average reference",
+      "kind": "payout",
+      "stage": "announced proposed bill credit, not verified paid",
+      "unit": "per qualifying household for May 2023 bill, 301–500 kWh band",
+      "source": {
+        "label": "guidance",
+        "url": "https://thailand.prd.go.th/en/content/category/detail/id/48/iid/177054"
+      },
+      "fx_source": {
+        "label": "guidance",
+        "url": "https://www.federalreserve.gov/releases/g5a/current/"
+      },
+      "not_a_payment": true
+    }
+  ],
+  "research_synthesis": [
+    {
+      "id": "ilo-2024-system-analysis",
+      "status": "guidance",
+      "kind": "claimed",
+      "text": "ILO analysis supports adapting established social-protection systems for shocks while recognizing coverage and financing limitations; not a heat-specific causal comparison.",
+      "source": {
+        "label": "guidance",
+        "url": "https://webapps.ilo.org/static/english/reports/flagship/world_social_protection_report_2024-26/Chapter%2002.html"
+      }
+    },
+    {
+      "id": "ilo-2026-heat-discussion",
+      "status": "reported",
+      "kind": "claimed",
+      "text": "ILO reports policy discussion linking income protection to the ability to stop working safely in heat, including migrant workers. This is not an impact evaluation.",
+      "source": {
+        "label": "reported",
+        "url": "https://www.ilo.org/resource/article/addressing-impacts-extreme-heat-through-social-protection"
+      }
+    },
+    {
+      "id": "cgap-2026-insurance-analysis",
+      "status": "reported",
+      "kind": "claimed",
+      "text": "CGAP analysis identifies retail index-insurance basis risk, complexity and affordability constraints, while retaining a role for risk transfer. No direct social-protection versus heat-insurance cost comparison.",
+      "source": {
+        "label": "reported",
+        "url": "https://www.cgap.org/research/publication/built-to-adapt-inclusive-financial-institutions-in-changing-climate"
+      }
+    }
+  ],
+  "unverified_and_excluded": [
+    {
+      "id": "r5-gap-1",
+      "item": "Actual heat-payment ledger",
+      "finding": "not verified",
+      "detail": "For ESI, PM-JAY, ECP, CACOBATPH, CIGO and WICA, no verified heat-specific recipient count, paid aggregate, receipt date or trigger-to-money-in-hand distribution was located. This is not evidence that no claims were paid.",
+      "sources": [
+        {
+          "label": "guidance",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2035277&lang=2&reg=48"
+        },
+        {
+          "label": "guidance",
+          "url": "https://atalamritabhiyan.assam.gov.in/information-services/pmjay-package-master"
+        },
+        {
+          "label": "guidance",
+          "url": "https://dole.gov.ph/news/dole-issues-guidelines-on-heat-related-illness-compensation-during-el-nino/"
+        },
+        {
+          "label": "reported",
+          "url": "https://www.cacobatph.dz/le-chomage-intemperies/?lang=fr"
+        },
+        {
+          "label": "guidance",
+          "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.07.integrazione-salariale-per-eccesso-di-caldo-indicazioni-dell-inps.html"
+        },
+        {
+          "label": "guidance",
+          "url": "https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation/types-of-compensation"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "r5-gap-2",
+      "item": "India rural summer allowance",
+      "finding": "not verified",
+      "detail": "Current uniform summer allowance, heat-stop full wages and Rajasthan/AP rural reduced-task entitlements not verified from primary current orders; excluded as benefit claims.",
+      "sources": [
+        {
+          "label": "guidance",
+          "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=4&NoteId=158511&lang=1&reg=3"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "r5-gap-3",
+      "item": "India transition implementation",
+      "finding": "not verified",
+      "detail": "Detailed state schemes and heat-specific wage protection after July 2026; current ESI contribution/waiting rules under the labour-code transition require full primary verification.",
+      "sources": [
+        {
+          "label": "guidance",
+          "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=4&NoteId=158511&lang=1&reg=3"
+        },
+        {
+          "label": "guidance",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2192463&lang=1&reg=3"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "r5-gap-4",
+      "item": "Rajasthan urban signed heat order",
+      "finding": "not verified",
+      "detail": "Order existence verified in catalogue; attachment, exact working hours and pay-preservation terms not retrieved.",
+      "sources": [
+        {
+          "label": "guidance",
+          "url": "https://msrgy.rajasthan.gov.in/Home/ordersAndCirculars"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "r5-gap-5",
+      "item": "Delhi construction-welfare summer kits",
+      "finding": "not verified",
+      "detail": "Procurement lead and heat advisory found, but completed distribution, actual paid value and coverage not verified. No construction-board heat cash programme admitted.",
+      "sources": [
+        {
+          "label": "guidance",
+          "url": "https://labour.delhi.gov.in/"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "r5-gap-6",
+      "item": "Delhi construction-ban cash",
+      "finding": "not verified",
+      "detail": "Air-pollution stoppage compensation is not evidence of a heat payment; excluded from heat totals.",
+      "sources": [
+        {
+          "label": "guidance",
+          "url": "https://labour.delhi.gov.in/"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "r5-gap-7",
+      "item": "Bangladesh current allowance rate",
+      "finding": "not verified",
+      "detail": "Current FY2026–27 rate, primary eligibility rules and any automatic heat top-up not verified. Historical rate in analytical report not used as current benefit.",
+      "sources": [
+        {
+          "label": "reported",
+          "url": "https://socialprotection.gov.bd/wp-content/uploads/2025/08/From-Strategy-to-Impact-An-Assessment-of-Bangladeshs-Social-Security-Policy-Support-Programme-and-its-Contribution-to-Gender-Inclusive-Development.pdf"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "r5-gap-8",
+      "item": "Brazil Bolsa Família Instruction 55",
+      "finding": "not verified",
+      "detail": "Official catalogue verifies the August 2026 instruction's existence. Heat-specific sanction-relaxation details found in a legal mirror were not verified against accessible primary full text; excluded from scheme table.",
+      "sources": [
+        {
+          "label": "guidance",
+          "url": "https://www.gov.br/mds/pt-br/acesso-a-informacao/legislacao/instrucoes"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "r5-gap-9",
+      "item": "Thailand completed 2023 bill credits",
+      "finding": "not verified",
+      "detail": "Reviewed source records approval-seeking proposal, not completed credits; paid status and recipient totals not verified.",
+      "sources": [
+        {
+          "label": "guidance",
+          "url": "https://thailand.prd.go.th/en/content/category/detail/id/48/iid/177054"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "r5-gap-10",
+      "item": "Korea heat-driven frontloading",
+      "finding": "not verified",
+      "detail": "A news lead suggested a 2025 timing change; primary confirmation not verified. Current seasonal benefit is verified separately.",
+      "sources": [
+        {
+          "label": "guidance",
+          "url": "https://www.energy.or.kr/front/conts/105001004002000.do"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "r5-gap-11",
+      "item": "Algeria current parameters and payments",
+      "finding": "not verified",
+      "detail": "Exact current wage fraction, qualifying hours, geographic coverage, contributions and reported local heat payment figures not fully verified in accessible primary documents; omitted.",
+      "sources": [
+        {
+          "label": "reported",
+          "url": "https://www.cacobatph.dz/le-chomage-intemperies/?lang=fr"
+        },
+        {
+          "label": "guidance",
+          "url": "https://webapps.ilo.org/static/english/reports/flagship/world_social_protection_report_2024-26/Chapter%2002.html"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "r5-gap-12",
+      "item": "Fiji current activation",
+      "finding": "not verified",
+      "detail": "2024 design verified; full protocol, current status, activation/payment history and any heat extension not verified.",
+      "sources": [
+        {
+          "label": "guidance",
+          "url": "https://www.wfp.org/publications/2024-supercharging-social-protection-systems-anticipatory-cash-case-study-fijis"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "r5-gap-13",
+      "item": "Direct comparison with insurance",
+      "finding": "not verified",
+      "detail": "No reviewed heat-specific head-to-head evaluation establishes a social-protection route as cheaper, faster and more inclusive than a new insurance product.",
+      "sources": [
+        {
+          "label": "guidance",
+          "url": "https://webapps.ilo.org/static/english/reports/flagship/world_social_protection_report_2024-26/Chapter%2002.html"
+        },
+        {
+          "label": "reported",
+          "url": "https://www.cgap.org/research/publication/built-to-adapt-inclusive-financial-institutions-in-changing-climate"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "r5-gap-14",
+      "item": "Additional country leads",
+      "finding": "not verified",
+      "detail": "No verified heat-triggered national cash top-up was established here for Nepal, Sri Lanka, Cambodia or Vietnam. Absence from this bounded review is not evidence of absence.",
+      "sources": [
+        {
+          "label": "guidance",
+          "url": "https://webapps.ilo.org/static/english/reports/flagship/world_social_protection_report_2024-26/Chapter%2002.html"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    }
+  ],
+  "source_register": [
+    {
+      "id": "ilo_report",
+      "url": "https://webapps.ilo.org/static/english/reports/flagship/world_social_protection_report_2024-26/Chapter%2002.html",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "source_date": "2024",
+      "access_note": ""
+    },
+    {
+      "id": "ilo_heat",
+      "url": "https://www.ilo.org/resource/article/addressing-impacts-extreme-heat-through-social-protection",
+      "label": "reported",
+      "last_checked": "2026-10-31",
+      "source_date": "2026-01-26",
+      "access_note": ""
+    },
+    {
+      "id": "cgap",
+      "url": "https://www.cgap.org/research/publication/built-to-adapt-inclusive-financial-institutions-in-changing-climate",
+      "label": "reported",
+      "last_checked": "2026-10-31",
+      "source_date": "2026-04",
+      "access_note": ""
+    },
+    {
+      "id": "rural",
+      "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=4&NoteId=158511&lang=1&reg=3",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "source_date": "2026-05-11",
+      "access_note": ""
+    },
+    {
+      "id": "worksite",
+      "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=158510&id=158510&lang=1&reg=24",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "source_date": "2026-05",
+      "access_note": ""
+    },
+    {
+      "id": "urban",
+      "url": "https://msrgy.rajasthan.gov.in/Home/ordersAndCirculars",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "source_date": "2026-04-20 order",
+      "access_note": "Catalogue opened earlier in review; repeat request timed out. Listed heat orders verified; underlying attachments not reviewed."
+    },
+    {
+      "id": "esi",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2035277&lang=2&reg=48",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "source_date": "2024-07-22",
+      "access_note": ""
+    },
+    {
+      "id": "codes",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2192463&lang=1&reg=3",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "source_date": "2025-11-21",
+      "access_note": ""
+    },
+    {
+      "id": "pmjay",
+      "url": "https://atalamritabhiyan.assam.gov.in/information-services/pmjay-package-master",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "source_date": "See document",
+      "access_note": "Package catalogue opened earlier; repeat request timed out. Current tariff not established."
+    },
+    {
+      "id": "pmjay_limit",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2110780&lang=2&reg=3",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "source_date": "2025-03-12",
+      "access_note": ""
+    },
+    {
+      "id": "nha",
+      "url": "https://nha.gov.in/img/resources/Adhikar-Patra.pdf",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "source_date": "See document",
+      "access_note": "Official beneficiary entitlement letter; indexed primary document reviewed."
+    },
+    {
+      "id": "bisp",
+      "url": "https://www.app.com.pk/national/bisp-to-launch-retail-based-payment-model-from-june-16/",
+      "label": "reported",
+      "last_checked": "2026-10-31",
+      "source_date": "2025-06-15",
+      "access_note": "Government news agency reproduces operator announcement; BISP own page returned 403. News used because operator text was inaccessible."
+    },
+    {
+      "id": "oaa",
+      "url": "https://socialprotection.gov.bd/wp-content/uploads/2025/08/From-Strategy-to-Impact-An-Assessment-of-Bangladeshs-Social-Security-Policy-Support-Programme-and-its-Contribution-to-Gender-Inclusive-Development.pdf",
+      "label": "reported",
+      "last_checked": "2026-10-31",
+      "source_date": "2025",
+      "access_note": "Government-hosted analytical report, not the programme's legal text; underlying current DSS page timed out."
+    },
+    {
+      "id": "phil",
+      "url": "https://dole.gov.ph/news/dole-issues-guidelines-on-heat-related-illness-compensation-during-el-nino/",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "source_date": "2026-10",
+      "access_note": "Primary announcement indexed; direct fetch 403. New advisory details treated as indexed, not a fully inspected legal instrument."
+    },
+    {
+      "id": "phil_law",
+      "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/11/48368",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "source_date": "1987 rules / 1990 publication",
+      "access_note": "Opened primary judicial archive. Older rules are background; do not infer current benefit ceilings."
+    },
+    {
+      "id": "phil_self",
+      "url": "https://ecc.gov.ph/self-employed-sss-members-now-covered-under-the-ec-program/",
+      "label": "reported",
+      "last_checked": "2026-10-31",
+      "source_date": "2019",
+      "access_note": "Primary institutional announcement indexed; registration and contribution conditions apply."
+    },
+    {
+      "id": "korea",
+      "url": "https://www.energy.or.kr/front/conts/105001004002000.do",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "source_date": "2026 programme calendar",
+      "access_note": ""
+    },
+    {
+      "id": "thai",
+      "url": "https://thailand.prd.go.th/en/content/category/detail/id/48/iid/177054",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "source_date": "2023-04-26",
+      "access_note": ""
+    },
+    {
+      "id": "italy",
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.07.integrazione-salariale-per-eccesso-di-caldo-indicazioni-dell-inps.html",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "source_date": "2025-07",
+      "access_note": ""
+    },
+    {
+      "id": "italy_formula",
+      "url": "https://www.cliclavoro.gov.it/tutele-e-sostegno-al-reddito/trattamenti-di-sostegno-al-reddito/cassa-integrazione-guadagni-ordinari",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "source_date": "See document",
+      "access_note": "Ministry page opened earlier; later direct fetch 403. General formula, not actual heat claims."
+    },
+    {
+      "id": "algeria",
+      "url": "https://www.cacobatph.dz/le-chomage-intemperies/?lang=fr",
+      "label": "reported",
+      "last_checked": "2026-10-31",
+      "source_date": "See document",
+      "access_note": "Operator guidance indexed but direct access failed; precise current conditions withheld."
+    },
+    {
+      "id": "sg_heat",
+      "url": "https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work/faqs-on-heat-stress-measures-for-outdoor-work",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "source_date": "See document",
+      "access_note": ""
+    },
+    {
+      "id": "sg_cover",
+      "url": "https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation/who-is-covered",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "source_date": "See document",
+      "access_note": ""
+    },
+    {
+      "id": "sg_pay",
+      "url": "https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation/types-of-compensation",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "source_date": "See document",
+      "access_note": ""
+    },
+    {
+      "id": "fiji",
+      "url": "https://www.wfp.org/publications/2024-supercharging-social-protection-systems-anticipatory-cash-case-study-fijis",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "source_date": "2024",
+      "access_note": "Publication landing page opened; linked full PDF access blocked. Design claim only."
+    },
+    {
+      "id": "esh",
+      "url": "https://eshram.gov.in/faqs",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "source_date": "See document",
+      "access_note": ""
+    },
+    {
+      "id": "delhi",
+      "url": "https://labour.delhi.gov.in/",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "source_date": "2026",
+      "access_note": "Official heat-advisory listing; no verified completed summer-kit distribution."
+    },
+    {
+      "id": "brazil",
+      "url": "https://www.gov.br/mds/pt-br/acesso-a-informacao/legislacao/instrucoes",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "source_date": "2026-08-10 instruction",
+      "access_note": "Catalogue verifies Instruction 55 exists; primary full text not retrieved. Heat-specific rule withheld."
+    },
+    {
+      "id": "fed",
+      "url": "https://www.federalreserve.gov/releases/g5a/current/",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "source_date": "2025 table including 2023",
+      "access_note": "Annual average reference rates; not transaction-date conversions."
+    }
+  ]
+}
