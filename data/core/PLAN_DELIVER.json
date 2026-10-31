@@ -1,0 +1,22 @@
+[
+  {
+    "id": "approve",
+    "name": "Who approves the action and the spending",
+    "placeholder": "e.g. the municipal commissioner, within the heat budget"
+  },
+  {
+    "id": "coop",
+    "name": "Who else must cooperate",
+    "placeholder": "e.g. the school board for access, the power company for supply"
+  },
+  {
+    "id": "enable",
+    "name": "What agreement or instruction makes it possible",
+    "placeholder": "e.g. a standing order issued before the season"
+  },
+  {
+    "id": "escalate",
+    "name": "Where a blocked decision goes",
+    "placeholder": "e.g. the district heat task force, within 24 hours"
+  }
+]

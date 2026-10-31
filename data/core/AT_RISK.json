@@ -1,0 +1,195 @@
+[
+  {
+    "id": "farmers",
+    "name": "Smallholder and rainfed farming households",
+    "exposure": "Work in open fields through the hottest hours, with crops and animals that depend on rain heat makes less reliable.",
+    "barriers": "Little irrigation, credit, insurance or savings, so one bad season can mean debt, sold animals and lost seed.",
+    "fact": "At the International Rice Research Institute’s farm in the Philippines, rice yields fell by about 10% for each 1 °C rise in growing-season night temperature.",
+    "source": {
+      "label": "Peng et al., PNAS, 2004",
+      "url": "https://doi.org/10.1073/pnas.0403720101"
+    },
+    "nodes": ["harvests","farmwork","livestock","farmdebt"],
+    "levers": ["farmcredit","soilwater","irrigate","socialprotection"]
+  },
+  {
+    "id": "coastal",
+    "name": "Coastal and riverine communities",
+    "exposure": "Humid heat that stops sweat from cooling the body, warming seas that drive fish away, and warm, low water that spoils drinking supplies.",
+    "barriers": "Livelihoods tied to one place and one resource, homes on fragile land with insecure tenure, and islands and river banks far from services.",
+    "fact": "Humidity makes heat far more costly: across 2.7 million firms, ten extra days above 35 °C cut productivity by 0.75% in very humid places, more than double the average, and barely at all in dry ones.",
+    "source": {
+      "label": "OECD Economics Department, 2024",
+      "url": "https://doi.org/10.1787/19d94638-en"
+    },
+    "more": [
+      {
+        "fact": "In Viet Nam’s Mekong Delta, a long heatwave in February 2024 lowered canals and let sea water push inland; farmers who pumped the salty water onto their rice lost up to half their crop.",
+        "source": {
+          "label": "Viet Nam News, 2024",
+          "url": "https://vietnamnews.vn/environment/1656592/mekong-delta-faces-severe-drought-salinity-concerns.html"
+        }
+      }
+    ],
+    "nodes": ["marine","fisheries","quality","heatstroke"],
+    "levers": ["hap","socialprotection","anticipatory","readyclinics"]
+  },
+  {
+    "id": "remote",
+    "name": "People in remote or poorly served settlements",
+    "exposure": "Far from clinics, cool shelter, reliable power and phone signal, often at the end of the line for water and electricity.",
+    "barriers": "Warnings, ambulances and relief arrive late or not at all, and deaths here are the least likely to be counted.",
+    "nodes": ["remote","telecom","deaths","underreport"],
+    "levers": ["anticipatory","readyclinics","countdeaths","hap"]
+  },
+  {
+    "id": "settlements",
+    "name": "People in informal settlements",
+    "exposure": "Dense rows of homes with tin, asbestos or plastic roofs, little green space, and no way to cool down at night.",
+    "barriers": "Insecure tenure means families can’t invest in cooler homes and landlords won’t, and settlements are often missing from city plans and services.",
+    "fact": "In a survey of 860 households in Ahmedabad, people in informal settlements faced temperatures up to 7.6 °C higher than people in formal housing.",
+    "source": {
+      "label": "Mahadevia et al., 2020, reported in Frontiers in Built Environment, 2022",
+      "url": "https://www.frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2022.874751/full"
+    },
+    "more": [
+      {
+        "fact": "In Jakarta, dense low-income neighbourhoods act as heat islands; informal workers rarely have fans or air conditioning and cool off on terraces or in parks, while green space is concentrated in wealthier areas.",
+        "source": {
+          "label": "Ufaira and others, Frontiers in Human Dynamics, 2023",
+          "url": "https://www.frontiersin.org/journals/human-dynamics/articles/10.3389/fhumd.2023.1237515/full"
+        }
+      }
+    ],
+    "nodes": ["homes","uhi","sleepless","energypoverty"],
+    "levers": ["coolhousing","coolnights","coolingcentres","affordablecool"]
+  },
+  {
+    "id": "workers",
+    "name": "Workers in heat-exposed jobs",
+    "exposure": "Street vendors, builders, salt-pan workers, waste pickers, rickshaw and delivery workers, traffic police and sanitation staff in the hottest parts of the city; factory workers beside furnaces in unventilated sheds; then hot, crowded homes at night.",
+    "barriers": "No paid leave, contract or savings: stopping work in dangerous heat means losing the day’s income. Fixed shifts leave little room to avoid the hottest hours.",
+    "fact": "Doctors at two Indian hospitals with heatstroke units said more than 90% of the patients they treated for heat illness in 2024 were outdoor workers: security guards, migrant labourers and street vendors.",
+    "source": {
+      "label": "Context (Thomson Reuters Foundation), 2024",
+      "url": "https://www.context.news/climate-risks/ice-baths-and-ventilators-indias-hospitals-adapt-to-killer-heat"
+    },
+    "more": [
+      {
+        "fact": "In a survey of 721 Delhi street vendors in 2024, 80% saw fewer customers during heatwaves and 49% lost income.",
+        "source": {
+          "label": "Greenpeace India and National Hawkers Federation, 2024",
+          "url": "https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/"
+        }
+      },
+      {
+        "fact": "In Singapore, a study of 355 workers found each hot day cost a median S$21 in lost income, about 24% of a day’s median pay, and heat at workplaces was often higher than nearby weather stations showed.",
+        "source": {
+          "label": "NUS Project HeatSafe, 2024",
+          "url": "https://medicine.nus.edu.sg/wp-content/uploads/2024/03/PRESS-RELEASE_Project-HeatSafe-18MAR2024-FOR-IMMEDIATE-RELEASE.pdf"
+        }
+      },
+      {
+        "fact": "In Dhaka, Hanoi, Ho Chi Minh City, Phnom Penh and Karachi, garment hubs where factories trap heat, days with wet-bulb temperatures above 30.5 °C rose by 42% in 2020–24 compared with 2005–09.",
+        "source": {
+          "label": "Cornell Global Labor Institute and Schroders, Higher Ground?",
+          "url": "https://www.ilr.cornell.edu/global-labor-institute/higher-ground-fashions-climate-breakdown"
+        }
+      },
+      {
+        "fact": "In Tamil Nadu, 68% of people face 8–9 hours a day of strong heat stress from March to June, measured by an index that counts humidity, wind and sun as well as temperature.",
+        "source": {
+          "label": "Tamil Nadu Heat Mitigation Strategy, 2024",
+          "url": "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf"
+        }
+      }
+    ],
+    "nodes": ["informal","lost","uhi","heatstroke"],
+    "levers": ["heatrules","heatcash","socialprotection","freecare"]
+  },
+  {
+    "id": "women",
+    "name": "Women whose livelihoods are held back by unequal access",
+    "exposure": "Field, home-based and informal work, fetching water, and cooking in homes that trap heat.",
+    "barriers": "Less say over land, credit, technology and household decisions, and most of the unpaid care that grows in a heatwave. Without toilets at work or on transport, many drink less water. Violence at home rises with the heat.",
+    "fact": "Rural households headed by women lose about 8% more of their income to heat stress than those headed by men.",
+    "source": {
+      "label": "FAO, The Unjust Climate, 2024",
+      "url": "https://www.fao.org/newsroom/detail/fao-report--heatwaves-and-floods-affect-rural-women-and-men-differently--widen-income-gap"
+    },
+    "more": [
+      {
+        "fact": "In a study of Indian women workers, 87% of those with poor or no toilets at work reported genitourinary problems, and about 1 in 10 showed heat strain and moderate dehydration.",
+        "source": {
+          "label": "Venugopal et al., Global Health Action, 2016",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5025522/"
+        }
+      },
+      {
+        "fact": "In Nepal’s Madhesh Province, women cooking in hot, smoky kitchens carry a daily ‘thermal labour’ that falls hardest on women in the poorest single-room homes with little access to clean energy or credit.",
+        "source": {
+          "label": "Ghimire and others, Frontiers in Public Health, 2025",
+          "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1657267/full"
+        }
+      }
+    ],
+    "nodes": ["care","fetching","gbv","inequality"],
+    "levers": ["heatcash","socialprotection","hap","coolhousing"]
+  },
+  {
+    "id": "mothers",
+    "name": "Pregnant women, babies and young children",
+    "exposure": "Pregnancy strains the body’s cooling, and babies overheat and dehydrate faster than adults.",
+    "barriers": "Many women keep working and fetching water late into pregnancy, and maternity and child services are rarely ready for heat.",
+    "fact": "Each 1 °C rise raises the odds of preterm birth by about 5%, and a heatwave by about 16%.",
+    "source": {
+      "label": "Chersich et al., BMJ, 2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33148618/"
+    },
+    "more": [
+      {
+        "fact": "In 2014–2023, each infant in India faced an average of 7.7 heatwave days a year, 47% more than in the 1990s.",
+        "source": {
+          "label": "Lancet Countdown, India data sheet, 2024",
+          "url": "https://lancetcountdown.org/wp-content/uploads/2024/10/Lancet-Countdown-2024_INDIA.pdf"
+        }
+      }
+    ],
+    "nodes": ["pregnancy","newborns","hunger","sanitation"],
+    "levers": ["readyclinics","hap","freecare","socialprotection"]
+  },
+  {
+    "id": "older",
+    "name": "Older people",
+    "exposure": "Bodies that sense and shed heat less well, often with heart, kidney or lung conditions.",
+    "barriers": "Living alone, limited mobility, and warnings and help that rely on phones, apps or someone knocking on the door.",
+    "fact": "Older people in a Kolkata informal settlement were 4.3 times more likely than older people in a nearby village to face dangerous heat, with a heat index of 45 °C or more, because their homes stayed hotter than the outdoors, especially at night.",
+    "source": {
+      "label": "Weitz, Mukhopadhyay and Das, International Journal of Biometeorology, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35359160/"
+    },
+    "nodes": ["isolation","kidney","deaths"],
+    "levers": ["coolingcentres","hap","affordablecool","countdeaths"]
+  },
+  {
+    "id": "disability",
+    "name": "People with disabilities or long-term illness",
+    "exposure": "Some conditions and common medicines, such as diuretics, interfere with the body’s cooling. Heart, kidney and lung disease and diabetes raise the danger, and heat worsens many mental health conditions.",
+    "barriers": "Warnings in formats they can’t use, cooling centres they can’t reach, and heat plans that rarely name their needs.",
+    "nodes": ["mental","heatstroke","kidney","isolation"],
+    "levers": ["hap","coolingcentres","readyclinics","freecare"]
+  },
+  {
+    "id": "excluded",
+    "name": "Migrants, prisoners and other excluded groups",
+    "exposure": "Hot, crowded rented rooms, cells and the hardest outdoor jobs, often in a place where they have few connections.",
+    "fact": "Tamil Nadu’s heat strategy names prisoners, held in concrete buildings with little green space, among the groups heat plans must reach, and proposes cool roofs and trees for its jails.",
+    "source": {
+      "label": "Tamil Nadu Heat Mitigation Strategy, 2024",
+      "url": "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf"
+    },
+    "barriers": "No local ID, address or language can mean no warnings, clinics, rations or relief. Many migrant workers are not registered under welfare laws, such as construction workers’ boards, so they miss health and safety benefits meant for them. Who is registered, and who is known to local officials, can decide who is reached first.",
+    "nodes": ["migration","homes","informal","gbv"],
+    "levers": ["coolhousing","socialprotection","freecare","heatrules"]
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "kinds": ["Cooling space","Shaded rest point","Drinking water point","Health post or clinic"],
+  "fields": [
+    {
+      "id": "users",
+      "name": "Meant for",
+      "placeholder": "e.g. older people, outdoor workers"
+    },
+    {
+      "id": "hours",
+      "name": "Open",
+      "placeholder": "e.g. 11 am to 6 pm on alert days"
+    },
+    {
+      "id": "access",
+      "name": "Access",
+      "placeholder": "e.g. step-free; women’s area; no ID asked"
+    },
+    {
+      "id": "operator",
+      "name": "Run by",
+      "placeholder": "e.g. ward office"
+    },
+    {
+      "id": "supplies",
+      "name": "Needs to keep working",
+      "placeholder": "e.g. water, fans, power, one staff member"
+    },
+    {
+      "id": "checked",
+      "name": "Last checked",
+      "placeholder": "e.g. 2 May, by visit"
+    }
+  ],
+  "statuses": [
+    ["listed","Listed"],
+    ["confirmed","Operation confirmed"],
+    ["unknown","Status unknown"]
+  ],
+  "reach": [
+    "Older people who live alone",
+    "Outdoor workers who cannot leave work",
+    "People with disabilities",
+    "People who need help at night",
+    "People without a phone"
+  ],
+  "note": "A point on a list is not a working service. Mark it confirmed only once someone has checked it is open, staffed and supplied.",
+  "source": {
+    "label": "MCR2030, 2025, p. 26 (Incheon’s shelters and priority areas)",
+    "url": "https://mcr2030.undrr.org/publication/urban-heat-risk-management-resource-package"
+  }
+}

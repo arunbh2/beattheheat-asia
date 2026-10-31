@@ -1,0 +1,22 @@
+[
+  {
+    "id": "translate",
+    "name": "Who turns official alerts into useful local messages",
+    "placeholder": "e.g. worker leaders and ward volunteers"
+  },
+  {
+    "id": "action",
+    "name": "What action goes with each message",
+    "placeholder": "e.g. where the nearest water point and cooling station are"
+  },
+  {
+    "id": "report",
+    "name": "How people report missing water, shade or help",
+    "placeholder": "e.g. a WhatsApp number or the ward helpline"
+  },
+  {
+    "id": "respond",
+    "name": "Who responds, and how fast",
+    "placeholder": "e.g. the ward office, the same day"
+  }
+]

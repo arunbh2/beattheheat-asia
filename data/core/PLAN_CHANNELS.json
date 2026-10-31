@@ -1,0 +1,40 @@
+[
+  {
+    "id": "sms",
+    "name": "SMS and phone calls"
+  },
+  {
+    "id": "apps",
+    "name": "Messaging apps and social media"
+  },
+  {
+    "id": "radio",
+    "name": "Radio and TV",
+    "offline": true
+  },
+  {
+    "id": "loud",
+    "name": "Loudspeakers and public announcements",
+    "offline": true
+  },
+  {
+    "id": "door",
+    "name": "Health workers and volunteers, door to door",
+    "offline": true
+  },
+  {
+    "id": "work",
+    "name": "Employers, unions and market associations",
+    "offline": true
+  },
+  {
+    "id": "school",
+    "name": "Schools and childcare",
+    "offline": true
+  },
+  {
+    "id": "access",
+    "name": "Sign language, large print and local languages",
+    "offline": true
+  }
+]

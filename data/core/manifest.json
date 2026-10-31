@@ -1,0 +1,821 @@
+[
+ {
+  "name": "SYSTEMS",
+  "file": "SYSTEMS.json",
+  "notes": "/* ---------- 1. SYSTEMS (drawn clockwise from the top) ---------- */\n// rings: 3 and space (optional) give a system with many long labels a third ring and a wider slice of the wheel.",
+  "inside": [
+   "/* ---------- 2. CONSEQUENCES ---------- */",
+   "// sys: which system it belongs to. Each one is linked to its system automatically.",
+   "// labelAt: \"above\" (optional) puts a label above its dot where a neighbouring dot would cut through it."
+  ]
+ },
+ {
+  "name": "CONSEQUENCES",
+  "file": "CONSEQUENCES.json",
+  "notes": "/* ---------- 2. CONSEQUENCES ---------- */\n// sys: which system it belongs to. Each one is linked to its system automatically.\n// labelAt: \"above\" (optional) puts a label above its dot where a neighbouring dot would cut through it.",
+  "inside": [
+   "/* Nature and ecosystems */",
+   "/* Food and agriculture */",
+   "/* Water */",
+   "/* Energy */",
+   "/* Cities and infrastructure */",
+   "/* Health */",
+   "/* Work and economy */",
+   "/* Education */",
+   "/* Society and security */",
+   "/* Governance and finance */",
+   "/* ---------- 3. LINKS BETWEEN CONSEQUENCES ---------- */",
+   "// [from, to, why]  — add \"loop\" as a 4th item for a link that closes a vicious cycle (drawn red).",
+   "// Links from each system to its own consequences, and from extreme heat to each system, are drawn automatically."
+  ]
+ },
+ {
+  "name": "LINKS",
+  "file": "LINKS.json",
+  "notes": "/* ---------- 3. LINKS BETWEEN CONSEQUENCES ---------- */\n// [from, to, why]  — add \"loop\" as a 4th item for a link that closes a vicious cycle (drawn red).\n// Links from each system to its own consequences, and from extreme heat to each system, are drawn automatically.",
+  "inside": [
+   "/* nature */",
+   "/* food */",
+   "/* water */",
+   "/* energy */",
+   "/* cities */",
+   "/* health */",
+   "/* work */",
+   "/* education */",
+   "/* society */",
+   "/* governance and finance */",
+   "/* added: glacial lakes, tankers, migrant work abroad, camps */",
+   "/* ---------- 4. VICIOUS CYCLES ---------- */",
+   "// path: the steps in order; the last step leads back to the first.",
+   "// evidence: \"established\" (well established) or \"emerging\" (each link is evidenced; the full cycle less so)."
+  ]
+ },
+ {
+  "name": "LOOP_GROUPS",
+  "file": "LOOP_GROUPS.json",
+  "notes": "/* ---------- 4. VICIOUS CYCLES ---------- */\n// path: the steps in order; the last step leads back to the first.\n// evidence: \"established\" (well established) or \"emerging\" (each link is evidenced; the full cycle less so).",
+  "inside": [
+   "// video and length (optional): a short film about the loop in media/loops/, with a .jpg cover of the same name."
+  ]
+ },
+ {
+  "name": "LOOPS",
+  "file": "LOOPS.json",
+  "notes": "// video and length (optional): a short film about the loop in media/loops/, with a .jpg cover of the same name.",
+  "inside": [
+   "/* ---------- 5. INSTITUTIONS: who holds the levers ---------- */"
+  ]
+ },
+ {
+  "name": "INSTITUTIONS",
+  "file": "INSTITUTIONS.json",
+  "notes": "/* ---------- 5. INSTITUTIONS: who holds the levers ---------- */",
+  "inside": [
+   "/* ---------- 6. BREAKING POINTS ---------- */",
+   "// edge: the link it cuts [from, to]. who: the institutions that can pull this lever.",
+   "// A lever breaks every vicious cycle that runs through its link.",
+   "// measure: a suggested way to track progress (editorial, shown as a hint in \"Plan a response\").",
+   "// when: how soon it can start working. \"season\" = this season, \"years\" = 1–3 years, \"decade\" = a decade or more."
+  ]
+ },
+ {
+  "name": "LEVERS",
+  "file": "LEVERS.json",
+  "notes": "/* ---------- 6. BREAKING POINTS ---------- */\n// edge: the link it cuts [from, to]. who: the institutions that can pull this lever.\n// A lever breaks every vicious cycle that runs through its link.\n// measure: a suggested way to track progress (editorial, shown as a hint in \"Plan a response\").\n// when: how soon it can start working. \"season\" = this season, \"years\" = 1–3 years, \"decade\" = a decade or more.",
+  "inside": [
+   "/* ---------- 7. A GUIDED PATH ACROSS SYSTEMS ---------- */"
+  ]
+ },
+ {
+  "name": "STORIES",
+  "file": "STORIES.json",
+  "notes": "/* ---------- 7. A GUIDED PATH ACROSS SYSTEMS ---------- */",
+  "inside": [
+   "/* ---------- 8. WHERE TO LOOK: places in Asia where each loop plays out ---------- */",
+   "// Shown with each vicious cycle. These are places to look, not measurements."
+  ]
+ },
+ {
+  "name": "LOOP_PLACES",
+  "file": "LOOP_PLACES.json",
+  "notes": "/* ---------- 8. WHERE TO LOOK: places in Asia where each loop plays out ---------- */\n// Shown with each vicious cycle. These are places to look, not measurements.",
+  "inside": [
+   "/* ---------- 9. POLICY PACKAGES ---------- */",
+   "// Each package switches on a set of levers (ids from part 6) to show which loops break together."
+  ]
+ },
+ {
+  "name": "PACKAGES",
+  "file": "PACKAGES.json",
+  "notes": "/* ---------- 9. POLICY PACKAGES ---------- */\n// Each package switches on a set of levers (ids from part 6) to show which loops break together.",
+  "inside": [
+   "/* ---------- 10. INSTITUTION PLAYBOOKS: Sense → Decide → Act → Sustain ---------- */"
+  ]
+ },
+ {
+  "name": "PLAYBOOKS",
+  "file": "PLAYBOOKS.json",
+  "notes": "/* ---------- 10. INSTITUTION PLAYBOOKS: Sense → Decide → Act → Sustain ---------- */",
+  "inside": [
+   "/* ---------- 11. A DAY IN A HEATWAVE (illustrative) ---------- */",
+   "// The people here are illustrative composites, not real individuals.",
+   "// loops: the vicious cycles in play (ids from part 4). levers: what would help (ids from part 6).",
+   "// video and length (optional): a short film of the moment in media/day/, with a .jpg cover of the same name."
+  ]
+ },
+ {
+  "name": "HEATWAVE_DAY",
+  "file": "HEATWAVE_DAY.json",
+  "notes": "/* ---------- 11. A DAY IN A HEATWAVE (illustrative) ---------- */\n// The people here are illustrative composites, not real individuals.\n// loops: the vicious cycles in play (ids from part 4). levers: what would help (ids from part 6).\n// video and length (optional): a short film of the moment in media/day/, with a .jpg cover of the same name.",
+  "inside": [
+   "/* ---------- 12. EVIDENCE BEHIND EACH VICIOUS CYCLE ---------- */",
+   "// For each loop: sources that support it. by: who published it and when. title: the source. url: the link. finding: what it shows.",
+   "// Only add sources you have opened and checked."
+  ]
+ },
+ {
+  "name": "EVIDENCE",
+  "file": "EVIDENCE.json",
+  "notes": "/* ---------- 12. EVIDENCE BEHIND EACH VICIOUS CYCLE ---------- */\n// For each loop: sources that support it. by: who published it and when. title: the source. url: the link. finding: what it shows.\n// Only add sources you have opened and checked.",
+  "inside": [
+   "/* ---------- 13. THE HEAT NETWORK: organisations already acting ---------- */",
+   "// role: one of the ORG_ROLES ids. levers: the breaking points (part 6) their work pulls on.",
+   "// url: a page that shows their heat work. levers can be empty ([]) for funders who back others' work.",
+   "// Only add organisations whose heat work you have checked."
+  ]
+ },
+ {
+  "name": "ORG_ROLES",
+  "file": "ORG_ROLES.json",
+  "notes": "/* ---------- 13. THE HEAT NETWORK: organisations already acting ---------- */\n// role: one of the ORG_ROLES ids. levers: the breaking points (part 6) their work pulls on.\n// url: a page that shows their heat work. levers can be empty ([]) for funders who back others' work.\n// Only add organisations whose heat work you have checked.",
+  "inside": []
+ },
+ {
+  "name": "ORGANISATIONS",
+  "file": "ORGANISATIONS.json",
+  "notes": "",
+  "inside": [
+   "/* Beyond the city: rainfed farming, coasts and rivers, older people and disability */",
+   "/* Funders added from the 2026 funding landscape review. Direct heat funding first, then adjacent funding. */",
+   "// Banks, regulators and microfinance in South and Southeast Asia",
+   "// Added from the October 2026 stakeholder research (research/2026-10/stakeholders.json); links checked on GitHub.",
+   "/* ---------- 31b. DEMAND, SUPPLY OR PLATFORM ---------- */",
+   "// Each organisation's main side in a heat alliance, for mapping who needs protection, who provides it and who connects",
+   "// the two. Many play more than one part; this is the main one, judged from what each is listed for in ORGANISATIONS."
+  ]
+ },
+ {
+  "name": "ORG_SIDES",
+  "file": "ORG_SIDES.json",
+  "notes": "/* ---------- 31b. DEMAND, SUPPLY OR PLATFORM ---------- */\n// Each organisation's main side in a heat alliance, for mapping who needs protection, who provides it and who connects\n// the two. Many play more than one part; this is the main one, judged from what each is listed for in ORGANISATIONS.",
+  "inside": []
+ },
+ {
+  "name": "ORG_SIDE",
+  "file": "ORG_SIDE.json",
+  "notes": "",
+  "inside": [
+   "/* ---------- 14. PLAIN-LANGUAGE GLOSSARY ---------- */",
+   "// group: one of GLOSSARY_GROUPS (\"extra\" terms are explained where they appear but not listed).",
+   "// match: the words to look for in the map's text (use | for alternatives); the first one in each piece of text becomes tappable.",
+   "// auto: false means the term is only in the glossary list, not underlined in the text.",
+   "// video and length (optional): a 30-second explainer in media/glossary/, with a .jpg cover of the same name. Terms without one show no play button.",
+   "// Nature-Based Solutions for Cities (McPhearson, Kabisch and Frantzeskaki, eds, Edward Elgar, 2023), open access under CC BY-NC-ND.",
+   "// Cited in the glossary and in part 20: quote its findings with credit, never adapt its tables or figures."
+  ]
+ },
+ {
+  "name": "NBS_BOOK",
+  "file": "NBS_BOOK.json",
+  "notes": "/* ---------- 14. PLAIN-LANGUAGE GLOSSARY ---------- */\n// group: one of GLOSSARY_GROUPS (\"extra\" terms are explained where they appear but not listed).\n// match: the words to look for in the map's text (use | for alternatives); the first one in each piece of text becomes tappable.\n// auto: false means the term is only in the glossary list, not underlined in the text.\n// video and length (optional): a 30-second explainer in media/glossary/, with a .jpg cover of the same name. Terms without one show no play button.\n// Nature-Based Solutions for Cities (McPhearson, Kabisch and Frantzeskaki, eds, Edward Elgar, 2023), open access under CC BY-NC-ND.\n// Cited in the glossary and in part 20: quote its findings with credit, never adapt its tables or figures.",
+  "inside": []
+ },
+ {
+  "name": "GLOSSARY_GROUPS",
+  "file": "GLOSSARY_GROUPS.json",
+  "notes": "",
+  "inside": []
+ },
+ {
+  "name": "GLOSSARY",
+  "file": "GLOSSARY.json",
+  "notes": "",
+  "inside": [
+   "/* ---------- 15. PLAN A RESPONSE ---------- */",
+   "// Who the plan protects, and the actions suggested for each group (lever ids from part 6)."
+  ]
+ },
+ {
+  "name": "PLAN_GROUPS",
+  "file": "PLAN_GROUPS.json",
+  "notes": "/* ---------- 15. PLAN A RESPONSE ---------- */\n// Who the plan protects, and the actions suggested for each group (lever ids from part 6).",
+  "inside": [
+   "// Who pays for each action. \"Not decided yet\" is always allowed: a plan can show where money is still missing."
+  ]
+ },
+ {
+  "name": "PLAN_PAYERS",
+  "file": "PLAN_PAYERS.json",
+  "notes": "// Who pays for each action. \"Not decided yet\" is always allowed: a plan can show where money is still missing.",
+  "inside": [
+   "// Worked examples: real places, documented actions and results. Only use published sources.",
+   "// actions[].phase (optional): when the action happens, from part 19; triggers (optional): the documented alert basis and levels."
+  ]
+ },
+ {
+  "name": "WORKED_EXAMPLES",
+  "file": "WORKED_EXAMPLES.json",
+  "notes": "// Worked examples: real places, documented actions and results. Only use published sources.\n// actions[].phase (optional): when the action happens, from part 19; triggers (optional): the documented alert basis and levels.",
+  "inside": [
+   "// What strong city heat plans include, with documented Indian examples. Shown beside step 1 of “Plan a response”."
+  ]
+ },
+ {
+  "name": "PLAN_CHECKLIST",
+  "file": "PLAN_CHECKLIST.json",
+  "notes": "// What strong city heat plans include, with documented Indian examples. Shown beside step 1 of “Plan a response”.",
+  "inside": []
+ },
+ {
+  "name": "PLAN_CHECKLIST_SOURCES",
+  "file": "PLAN_CHECKLIST_SOURCES.json",
+  "notes": "",
+  "inside": [
+   "/* ---------- 16. SECTION FILMS ---------- */",
+   "// Short films that open a section of the page. video: the file in media/films/ (with a .jpg cover of the same name)."
+  ]
+ },
+ {
+  "name": "SECTION_FILMS",
+  "file": "SECTION_FILMS.json",
+  "notes": "/* ---------- 16. SECTION FILMS ---------- */\n// Short films that open a section of the page. video: the file in media/films/ (with a .jpg cover of the same name).",
+  "inside": [
+   "/* ---------- 17. WHO HEAT HITS HARDEST ---------- */",
+   "// Exposure tells you where heat lands; barriers tell you who can act on it. Both shape who needs which route to safety.",
+   "// nodes: consequences on the map (part 2). levers: what helps (part 6). fact and source (optional): only use published sources you have opened.",
+   "// more (optional): further facts, each with its own source."
+  ]
+ },
+ {
+  "name": "AT_RISK_BARRIERS",
+  "file": "AT_RISK_BARRIERS.json",
+  "notes": "/* ---------- 17. WHO HEAT HITS HARDEST ---------- */\n// Exposure tells you where heat lands; barriers tell you who can act on it. Both shape who needs which route to safety.\n// nodes: consequences on the map (part 2). levers: what helps (part 6). fact and source (optional): only use published sources you have opened.\n// more (optional): further facts, each with its own source.",
+  "inside": []
+ },
+ {
+  "name": "AT_RISK",
+  "file": "AT_RISK.json",
+  "notes": "",
+  "inside": [
+   "/* ---------- 18. WHY ACTION STALLS ---------- */",
+   "// The conditions that keep places from acting on heat even when the risk is known.",
+   "// video and length (optional): a short film in media/stalls/, with a .jpg cover of the same name.",
+   "// sign: how you can tell it is happening. moves: what has shifted it elsewhere. levers and loops: ids from parts 6 and 4.",
+   "// fact and source (optional): only use published sources you have opened. more (optional): further facts, each with its own source."
+  ]
+ },
+ {
+  "name": "STALLS",
+  "file": "STALLS.json",
+  "notes": "/* ---------- 18. WHY ACTION STALLS ---------- */\n// The conditions that keep places from acting on heat even when the risk is known.\n// video and length (optional): a short film in media/stalls/, with a .jpg cover of the same name.\n// sign: how you can tell it is happening. moves: what has shifted it elsewhere. levers and loops: ids from parts 6 and 4.\n// fact and source (optional): only use published sources you have opened. more (optional): further facts, each with its own source.",
+  "inside": [
+   "/* ---------- 19. PLAN TOOLKIT: timing, triggers, warnings and a readiness check ---------- */",
+   "// Used by \"Plan a response\". Only use published sources you have opened.",
+   "// When each action happens in the year. Heat plans run in three phases: before the season, on alert days, after it (with long-term work alongside)."
+  ]
+ },
+ {
+  "name": "PLAN_PHASES",
+  "file": "PLAN_PHASES.json",
+  "notes": "/* ---------- 19. PLAN TOOLKIT: timing, triggers, warnings and a readiness check ---------- */\n// Used by \"Plan a response\". Only use published sources you have opened.\n\n// When each action happens in the year. Heat plans run in three phases: before the season, on alert days, after it (with long-term work alongside).",
+  "inside": [
+   "// A sensible starting point for each action; planners can change it."
+  ]
+ },
+ {
+  "name": "PLAN_PHASE_DEFAULT",
+  "file": "PLAN_PHASE_DEFAULT.json",
+  "notes": "// A sensible starting point for each action; planners can change it.",
+  "inside": []
+ },
+ {
+  "name": "PLAN_PHASE_SOURCE",
+  "file": "PLAN_PHASE_SOURCE.json",
+  "notes": "",
+  "inside": [
+   "// What alerts can be based on, with documented examples from Asia."
+  ]
+ },
+ {
+  "name": "PLAN_TRIGGER_BASES",
+  "file": "PLAN_TRIGGER_BASES.json",
+  "notes": "// What alerts can be based on, with documented examples from Asia.",
+  "inside": []
+ },
+ {
+  "name": "PLAN_LEVELS",
+  "file": "PLAN_LEVELS.json",
+  "notes": "",
+  "inside": [
+   "// Exposure questions in step 1 of Plan a response. Each one ticked adds a prompt to discuss. Never a risk score."
+  ]
+ },
+ {
+  "name": "PLAN_EXPOSURE",
+  "file": "PLAN_EXPOSURE.json",
+  "notes": "// Exposure questions in step 1 of Plan a response. Each one ticked adds a prompt to discuss. Never a risk score.",
+  "inside": [
+   "// The warning-to-action table in step 4: for each alert level, who decides, who acts, who pays, by when, the fallback and how you confirm it happened."
+  ]
+ },
+ {
+  "name": "PLAN_W2A",
+  "file": "PLAN_W2A.json",
+  "notes": "// The warning-to-action table in step 4: for each alert level, who decides, who acts, who pays, by when, the fallback and how you confirm it happened.",
+  "inside": [
+   "// Can we deliver this? Asked for each action in step 3 of the plan."
+  ]
+ },
+ {
+  "name": "PLAN_DELIVER",
+  "file": "PLAN_DELIVER.json",
+  "notes": "// Can we deliver this? Asked for each action in step 3 of the plan.",
+  "inside": [
+   "// Warnings that work both ways, in step 4."
+  ]
+ },
+ {
+  "name": "PLAN_TWOWAY",
+  "file": "PLAN_TWOWAY.json",
+  "notes": "// Warnings that work both ways, in step 4.",
+  "inside": [
+   "// After the season: record what changed, not only what happened."
+  ]
+ },
+ {
+  "name": "PLAN_REVIEWLOG",
+  "file": "PLAN_REVIEWLOG.json",
+  "notes": "// After the season: record what changed, not only what happened.",
+  "inside": [
+   "// How warnings reach people. offline: reaches people without a phone or signal."
+  ]
+ },
+ {
+  "name": "PLAN_CHANNELS",
+  "file": "PLAN_CHANNELS.json",
+  "notes": "// How warnings reach people. offline: reaches people without a phone or signal.",
+  "inside": [
+   "// WHO/Europe's eight core elements of a heat-health action plan (second edition, June 2026). add: actions that fill the gap."
+  ]
+ },
+ {
+  "name": "WHO_ELEMENTS",
+  "file": "WHO_ELEMENTS.json",
+  "notes": "// WHO/Europe's eight core elements of a heat-health action plan (second edition, June 2026). add: actions that fill the gap.",
+  "inside": []
+ },
+ {
+  "name": "WHO_ELEMENTS_SOURCES",
+  "file": "WHO_ELEMENTS_SOURCES.json",
+  "notes": "",
+  "inside": [
+   "// Questions for the review after each season."
+  ]
+ },
+ {
+  "name": "PLAN_REVIEW",
+  "file": "PLAN_REVIEW.json",
+  "notes": "// Questions for the review after each season.",
+  "inside": [
+   "// A 90-minute workshop to fill in the plan together. Who to invite comes first."
+  ]
+ },
+ {
+  "name": "PLAN_WORKSHOP",
+  "file": "PLAN_WORKSHOP.json",
+  "notes": "// A 90-minute workshop to fill in the plan together. Who to invite comes first.",
+  "inside": [
+   "/* ---------- 20. COOLING OPTIONS BY PLACE ---------- */",
+   "// What to build or change where people are, what keeps it working, and the trap to avoid.",
+   "// levers: ids from part 6. measure: a suggested \"how you will know\", copied into the plan when the place is added.",
+   "// options[].cost (optional): { low, high, unit, conf: \"medium\" or \"low\", src (optional) }. Ranges are rough planning",
+   "// figures in Indian rupees. \"medium\" and \"low-medium\" ranges are shown with their confidence; \"low\" ones say \"get local quotes\" instead.",
+   "// facts: only use published sources you have opened. Book chapters are cited, not adapted (CC BY-NC-ND)."
+  ]
+ },
+ {
+  "name": "COOL_PLACES",
+  "file": "COOL_PLACES.json",
+  "notes": "/* ---------- 20. COOLING OPTIONS BY PLACE ---------- */\n// What to build or change where people are, what keeps it working, and the trap to avoid.\n// levers: ids from part 6. measure: a suggested \"how you will know\", copied into the plan when the place is added.\n// options[].cost (optional): { low, high, unit, conf: \"medium\" or \"low\", src (optional) }. Ranges are rough planning\n// figures in Indian rupees. \"medium\" and \"low-medium\" ranges are shown with their confidence; \"low\" ones say \"get local quotes\" instead.\n// facts: only use published sources you have opened. Book chapters are cited, not adapted (CC BY-NC-ND).",
+  "inside": [
+   "// The traps that turn cooling money into assets that stop working. fix: what to do instead. step (optional): the plan step that helps.",
+   "// Questions on every cooling place panel: three goals, the running needs of an option, and which outcome you are after.",
+   "// frame follows the Clean Cooling Collaborative's three goals; questions apply to every option; outcomes stay separate."
+  ]
+ },
+ {
+  "name": "COOL_ASK",
+  "file": "COOL_ASK.json",
+  "notes": "// The traps that turn cooling money into assets that stop working. fix: what to do instead. step (optional): the plan step that helps.\n// Questions on every cooling place panel: three goals, the running needs of an option, and which outcome you are after.\n// frame follows the Clean Cooling Collaborative's three goals; questions apply to every option; outcomes stay separate.",
+  "inside": []
+ },
+ {
+  "name": "COOL_TRAPS",
+  "file": "COOL_TRAPS.json",
+  "notes": "",
+  "inside": [
+   "// What changes the result: evidence that cuts against common assumptions."
+  ]
+ },
+ {
+  "name": "COOL_EVIDENCE",
+  "file": "COOL_EVIDENCE.json",
+  "notes": "// What changes the result: evidence that cuts against common assumptions.",
+  "inside": [
+   "// Putting a value on cooling: the Haizhu wetland in Guangzhou, modelled against housing in its place."
+  ]
+ },
+ {
+  "name": "COOL_VALUE",
+  "file": "COOL_VALUE.json",
+  "notes": "// Putting a value on cooling: the Haizhu wetland in Guangzhou, modelled against housing in its place.",
+  "inside": [
+   "// Free books and guides found in the reference lists of Nature-Based Solutions for Cities, each checked as open access.",
+   "// adds: what it offers someone working on heat, in our words."
+  ]
+ },
+ {
+  "name": "COOL_READING",
+  "file": "COOL_READING.json",
+  "notes": "// Free books and guides found in the reference lists of Nature-Based Solutions for Cities, each checked as open access.\n// adds: what it offers someone working on heat, in our words.",
+  "inside": [
+   "// Actions in the plan that build or run physical cooling assets: step 3 asks who keeps them working."
+  ]
+ },
+ {
+  "name": "COOL_ASSET_LEVERS",
+  "file": "COOL_ASSET_LEVERS.json",
+  "notes": "// Actions in the plan that build or run physical cooling assets: step 3 asks who keeps them working.",
+  "inside": []
+ },
+ {
+  "name": "COOL_COST_NOTE",
+  "file": "COOL_COST_NOTE.json",
+  "notes": "",
+  "inside": [
+   "// The exchange rate used to show Indian rupee costs in US dollars. Update it, with its source, when it moves."
+  ]
+ },
+ {
+  "name": "COOL_FX",
+  "file": "COOL_FX.json",
+  "notes": "// The exchange rate used to show Indian rupee costs in US dollars. Update it, with its source, when it moves.",
+  "inside": [
+   "// Prices and results from elsewhere in the region, so the Indian ranges can be read in context."
+  ]
+ },
+ {
+  "name": "COOL_REGION",
+  "file": "COOL_REGION.json",
+  "notes": "// Prices and results from elsewhere in the region, so the Indian ranges can be read in context.",
+  "inside": [
+   "/* ---------- 21. HEAT RIGHT NOW (live data) ---------- */",
+   "// Live readings are fetched in the visitor's browser from Open-Meteo (model data, CC BY 4.0) and, for Singapore,",
+   "// NEA's measured wet-bulb globe temperature on data.gov.sg. They are never official warnings: each city links to",
+   "// its national weather service. lat/lon: city centre. warn: where official heat warnings are issued."
+  ]
+ },
+ {
+  "name": "LIVE_CITIES",
+  "file": "LIVE_CITIES.json",
+  "notes": "/* ---------- 21. HEAT RIGHT NOW (live data) ---------- */\n// Live readings are fetched in the visitor's browser from Open-Meteo (model data, CC BY 4.0) and, for Singapore,\n// NEA's measured wet-bulb globe temperature on data.gov.sg. They are never official warnings: each city links to\n// its national weather service. lat/lon: city centre. warn: where official heat warnings are issued.",
+  "inside": []
+ },
+ {
+  "name": "LIVE_SOURCES",
+  "file": "LIVE_SOURCES.json",
+  "notes": "",
+  "inside": [
+   "// Climate change's fingerprint: Climate Central's Climate Shift Index (CSI) and its June–August 2026 analysis.",
+   "// Climate Central allows use of its data for educational and non-commercial purposes with credit; we link to its",
+   "// map rather than copy it, and restate its published figures in our own words."
+  ]
+ },
+ {
+  "name": "LIVE_FINGERPRINT",
+  "file": "LIVE_FINGERPRINT.json",
+  "notes": "// Climate change's fingerprint: Climate Central's Climate Shift Index (CSI) and its June–August 2026 analysis.\n// Climate Central allows use of its data for educational and non-commercial purposes with credit; we link to its\n// map rather than copy it, and restate its published figures in our own words.",
+  "inside": [
+   "// shown when someone opens \"Extreme heat\", the centre of the map",
+   "// National warning levels, so the ticker and city cards can say when today's heat matters, not only how hot it is.",
+   "// basis: \"hi\" = heat index estimated from the current temperature and humidity; \"tmax\" = today's forecast high;",
+   "// \"wbgt\" = Singapore's measured wet-bulb globe temperature. flag = the first level shown. Our estimate, never an official warning."
+  ]
+ },
+ {
+  "name": "LIVE_LEVELS",
+  "file": "LIVE_LEVELS.json",
+  "notes": "// National warning levels, so the ticker and city cards can say when today's heat matters, not only how hot it is.\n// basis: \"hi\" = heat index estimated from the current temperature and humidity; \"tmax\" = today's forecast high;\n// \"wbgt\" = Singapore's measured wet-bulb globe temperature. flag = the first level shown. Our estimate, never an official warning.",
+  "inside": []
+ },
+ {
+  "name": "LIVE_LEVELS_NOTE",
+  "file": "LIVE_LEVELS_NOTE.json",
+  "notes": "",
+  "inside": [
+   "// Heat in the news, and new research. News comes from a feed the site's GitHub Action refreshes every six hours",
+   "// (tools/fetch-news.js, GDELT); research is searched live in Europe PMC. Headlines are outside sources, not reviewed by us.",
+   "// Heat in the news, and new research now has its own page (/news/); its settings live in news.js."
+  ]
+ },
+ {
+  "name": "LIVE_NOTE",
+  "file": "LIVE_NOTE.json",
+  "notes": "// Heat in the news, and new research. News comes from a feed the site's GitHub Action refreshes every six hours\n// (tools/fetch-news.js, GDELT); research is searched live in Europe PMC. Headlines are outside sources, not reviewed by us.\n// Heat in the news, and new research now has its own page (/news/); its settings live in news.js.",
+  "inside": [
+   "/* ---------- 22. VISIT COUNTING ---------- */",
+   "// Privacy-friendly visit counts with GoatCounter (no cookies, no personal data). Off while the code is empty.",
+   "// Sign up free at https://www.goatcounter.com/signup, choose a code (e.g. \"beattheheat\" for beattheheat.goatcounter.com)",
+   "// and type it between the quote marks below. Only lowercase letters, numbers and hyphens."
+  ]
+ },
+ {
+  "name": "SITE_ANALYTICS",
+  "file": "SITE_ANALYTICS.json",
+  "notes": "/* ---------- 22. VISIT COUNTING ---------- */\n// Privacy-friendly visit counts with GoatCounter (no cookies, no personal data). Off while the code is empty.\n// Sign up free at https://www.goatcounter.com/signup, choose a code (e.g. \"beattheheat\" for beattheheat.goatcounter.com)\n// and type it between the quote marks below. Only lowercase letters, numbers and hyphens.",
+  "inside": [
+   "/* ---------- 23. START HERE: what people want to do, an optional role, and the first five minutes ---------- */",
+   "// Roles are the institutions in part 5, so no extra content is needed for each one.",
+   "// START_INTENTS was replaced by GUIDE (part 35).",
+   "// The guided first five minutes: one loop, one group at risk, one place it breaks, then into the plan.",
+   "// go: { loop }, { risk } (an id from part 17), { lever } or { plan } (a group id from part 15)."
+  ]
+ },
+ {
+  "name": "FIRST_FIVE",
+  "file": "FIRST_FIVE.json",
+  "notes": "/* ---------- 23. START HERE: what people want to do, an optional role, and the first five minutes ---------- */\n// Roles are the institutions in part 5, so no extra content is needed for each one.\n// START_INTENTS was replaced by GUIDE (part 35).\n// The guided first five minutes: one loop, one group at risk, one place it breaks, then into the plan.\n// go: { loop }, { risk } (an id from part 17), { lever } or { plan } (a group id from part 15).",
+  "inside": [
+   "// On phones, each of these sections opens as a short summary with one button. The text is the button's label."
+  ]
+ },
+ {
+  "name": "SECTION_SUMMARIES",
+  "file": "SECTION_SUMMARIES.json",
+  "notes": "// On phones, each of these sections opens as a short summary with one button. The text is the button's label.",
+  "inside": [
+   "/* ---------- 24. WHAT EACH CYCLE COSTS ---------- */",
+   "// One figure per loop for what is at stake while the cycle keeps turning. Each is restated from evidence already",
+   "// listed for that loop in EVIDENCE (same source). kind \"cost\": the harm; \"saves\": what breaking it is shown to save.",
+   "// A loop with no solid figure gets none: the site says the cost is not yet measured.",
+   "// where: the place the figure comes from. sea: a second figure from Southeast Asia, where the first is from elsewhere."
+  ]
+ },
+ {
+  "name": "LOOP_STAKES",
+  "file": "LOOP_STAKES.json",
+  "notes": "/* ---------- 24. WHAT EACH CYCLE COSTS ---------- */\n// One figure per loop for what is at stake while the cycle keeps turning. Each is restated from evidence already\n// listed for that loop in EVIDENCE (same source). kind \"cost\": the harm; \"saves\": what breaking it is shown to save.\n// A loop with no solid figure gets none: the site says the cost is not yet measured.\n// where: the place the figure comes from. sea: a second figure from Southeast Asia, where the first is from elsewhere.",
+  "inside": []
+ },
+ {
+  "name": "STAKES_LABEL",
+  "file": "STAKES_LABEL.json",
+  "notes": "",
+  "inside": [
+   "/* ---------- 24b. SOLUTIONS FOR EACH CYCLE ---------- */",
+   "// Three or four solutions from the solutions library (/solutions/, built from research/2026-10/) that act on a link in each",
+   "// loop. why: which link it cuts. An editorial match, not a measured effect on the loop; each solution's own evidence",
+   "// label is its strongest evidence for what it does. note: where the library cannot break the loop on its own.",
+   "// tools/build-solutions.js checks every id and adds a link back from each solution to its cycles."
+  ]
+ },
+ {
+  "name": "LOOP_SOLUTIONS",
+  "file": "LOOP_SOLUTIONS.json",
+  "notes": "/* ---------- 24b. SOLUTIONS FOR EACH CYCLE ---------- */\n// Three or four solutions from the solutions library (/solutions/, built from research/2026-10/) that act on a link in each\n// loop. why: which link it cuts. An editorial match, not a measured effect on the loop; each solution's own evidence\n// label is its strongest evidence for what it does. note: where the library cannot break the loop on its own.\n// tools/build-solutions.js checks every id and adds a link back from each solution to its cycles.",
+  "inside": [
+   "/* ---------- 25. YOUR CITY ---------- */",
+   "// One profile for each live city (ids match LIVE_CITIES). hap.status: \"plan\" (a city plan in force), \"building\" (parts in",
+   "// place, no full plan found), \"none\" (no city plan found). loops: the cycles the site's evidence ties to this city or",
+   "// country, with why in a sentence; orgs, examples and risk point to ids elsewhere in this file.",
+   "// heat: the kind of heat the city mostly faces (see the glossary entry \"Dry heat and humid heat\")."
+  ]
+ },
+ {
+  "name": "CITY_HAP",
+  "file": "CITY_HAP.json",
+  "notes": "/* ---------- 25. YOUR CITY ---------- */\n// One profile for each live city (ids match LIVE_CITIES). hap.status: \"plan\" (a city plan in force), \"building\" (parts in\n// place, no full plan found), \"none\" (no city plan found). loops: the cycles the site's evidence ties to this city or\n// country, with why in a sentence; orgs, examples and risk point to ids elsewhere in this file.\n// heat: the kind of heat the city mostly faces (see the glossary entry \"Dry heat and humid heat\").",
+  "inside": []
+ },
+ {
+  "name": "CITY_PROFILES",
+  "file": "CITY_PROFILES.json",
+  "notes": "",
+  "inside": [
+   "/* ---------- 26. HEATWAVES THAT SHAPED ASIA ---------- */",
+   "// Major South and Southeast Asian heatwaves, oldest first. deaths: the recorded toll used for the chart (recorded tolls",
+   "// undercount heat deaths, so treat them as a floor); null where no solid count exists; atLeast: the sources say \"more than\" or \"at least\". nodes: map consequences to visit."
+  ]
+ },
+ {
+  "name": "HEATWAVES",
+  "file": "HEATWAVES.json",
+  "notes": "/* ---------- 26. HEATWAVES THAT SHAPED ASIA ---------- */\n// Major South and Southeast Asian heatwaves, oldest first. deaths: the recorded toll used for the chart (recorded tolls\n// undercount heat deaths, so treat them as a floor); null where no solid count exists; atLeast: the sources say \"more than\" or \"at least\". nodes: map consequences to visit.",
+  "inside": []
+ },
+ {
+  "name": "HEATWAVES_NOTE",
+  "file": "HEATWAVES_NOTE.json",
+  "notes": "",
+  "inside": [
+   "/* ---------- 27. FOUR HEATS IN A HOME ---------- */",
+   "// Shown in Cooling options, linked from Heat right now and the \"Homes that trap heat\" node. Each heat is one hotspot on the",
+   "// drawing of a tin-roofed home; night: what changes after sunset. Every figure has its source."
+  ]
+ },
+ {
+  "name": "HOME_HEATS",
+  "file": "HOME_HEATS.json",
+  "notes": "/* ---------- 27. FOUR HEATS IN A HOME ---------- */\n// Shown in Cooling options, linked from Heat right now and the \"Homes that trap heat\" node. Each heat is one hotspot on the\n// drawing of a tin-roofed home; night: what changes after sunset. Every figure has its source.",
+  "inside": [
+   "/* ---------- 28. WEATHER, WORK AND THE PERSON ---------- */",
+   "// Heat strain is what the body carries, not what the thermometer says: three things add up. Shown in Who heat hits hardest.",
+   "// parts: the three panels; each fact needs a published source you have opened. groups: three groups plans often miss (brief: the one-pager version).",
+   "// Never a risk score, and never medical advice: medicines are explained as a mechanism, and people are told to ask a clinician."
+  ]
+ },
+ {
+  "name": "STRAIN",
+  "file": "STRAIN.json",
+  "notes": "/* ---------- 28. WEATHER, WORK AND THE PERSON ---------- */\n// Heat strain is what the body carries, not what the thermometer says: three things add up. Shown in Who heat hits hardest.\n// parts: the three panels; each fact needs a published source you have opened. groups: three groups plans often miss (brief: the one-pager version).\n// Never a risk score, and never medical advice: medicines are explained as a mechanism, and people are told to ask a clinician.",
+  "inside": [
+   "/* ---------- 29. FIND PRACTICAL ACTIONS ---------- */",
+   "// The second front door: pick a setting, get short action cards. Every card answers eight questions.",
+   "// cool (optional): the matching place in Cooling options (part 20), linked from the setting.",
+   "// who: institution ids (part 5). lever: the action on the map (part 6). cost (optional): [cooling place id, option name] from part 20.",
+   "// evidence: one published source you have opened; reuse sources already on the site where you can. worksIf: the conditions without which it fails.",
+   "// What kind of evidence a card cites. It describes the evidence, not how good the action is; often it shows the problem, not the fix."
+  ]
+ },
+ {
+  "name": "EVIDENCE_STATUS",
+  "file": "EVIDENCE_STATUS.json",
+  "notes": "/* ---------- 29. FIND PRACTICAL ACTIONS ---------- */\n// The second front door: pick a setting, get short action cards. Every card answers eight questions.\n// cool (optional): the matching place in Cooling options (part 20), linked from the setting.\n// who: institution ids (part 5). lever: the action on the map (part 6). cost (optional): [cooling place id, option name] from part 20.\n// evidence: one published source you have opened; reuse sources already on the site where you can. worksIf: the conditions without which it fails.\n// What kind of evidence a card cites. It describes the evidence, not how good the action is; often it shows the problem, not the fix.",
+  "inside": [
+   "// When an action protects people. Immediate measures usually need a longer-term counterpart."
+  ]
+ },
+ {
+  "name": "ACTION_HORIZONS",
+  "file": "ACTION_HORIZONS.json",
+  "notes": "// When an action protects people. Immediate measures usually need a longer-term counterpart.",
+  "inside": []
+ },
+ {
+  "name": "ACTION_LINES",
+  "file": "ACTION_LINES.json",
+  "notes": "",
+  "inside": []
+ },
+ {
+  "name": "ACTION_SETTINGS",
+  "file": "ACTION_SETTINGS.json",
+  "notes": "",
+  "inside": [
+   "// Questions visitors arrive with. go: a setting id, \"stalls\" for why interventions fail, or \"finance\" for Paying for protection.",
+   "/* ---------- 29b. EXPLORE A MARKET (the illustrative market on /practical/) ----------"
+  ]
+ },
+ {
+  "name": "MARKET_EXPLORER",
+  "file": "MARKET_EXPLORER.json",
+  "notes": "// Questions visitors arrive with. go: a setting id, \"stalls\" for why interventions fail, or \"finance\" for Paying for protection.\n/* ---------- 29b. EXPLORE A MARKET (the illustrative market on /practical/) ----------\n   Editorial content only. The drawing is media/market/market.svg (built by tools/build-market-scene.py);\n   the behaviour is market.js. Each hotspot id matches a <g id=\"mx-ID\"> in the drawing.\n   Every claim reuses a reviewed action record and keeps its evidence label (see docs/market-explorer.md).\n   Links that start with # follow the site's routing: #practical-… stays on the practical page,\n   #cool-… opens cooling options on the map, #plan opens the planner, #finance opens Paying for protection. */",
+  "inside": []
+ },
+ {
+  "name": "ACTION_JOURNEYS",
+  "file": "ACTION_JOURNEYS.json",
+  "notes": "",
+  "inside": [
+   "/* ---------- 30. PAYING FOR HEAT PROTECTION ---------- */",
+   "// How protection is paid for, delivered and kept going. Shown in Act on it, and in steps 3 and 4 of Plan a response.",
+   "// Draws on two Global Asia Insurance Partnership reports (2026), checked page by page. The parametric report did not evaluate",
+   "// consumer outcomes, contracts, pricing or trigger performance: use it for design questions, not as proof that a heat product works.",
+   "// cases: say who paid, who received, what it made possible, what it left out and whether it continued. Where sources disagree, say so."
+  ]
+ },
+ {
+  "name": "FINANCE",
+  "file": "FINANCE.json",
+  "notes": "/* ---------- 30. PAYING FOR HEAT PROTECTION ---------- */\n// How protection is paid for, delivered and kept going. Shown in Act on it, and in steps 3 and 4 of Plan a response.\n// Draws on two Global Asia Insurance Partnership reports (2026), checked page by page. The parametric report did not evaluate\n// consumer outcomes, contracts, pricing or trigger performance: use it for design questions, not as proof that a heat product works.\n// cases: say who paid, who received, what it made possible, what it left out and whether it continued. Where sources disagree, say so.",
+  "inside": [
+   "// fields saved with the plan, in step 3",
+   "// When heat reaches lenders: insights from a 2026 commentary, summarised in our words and attributed. Opinion, not a study.",
+   "/* ---------- 32. A WEEK IN THE HEAT ---------- */",
+   "// An exercise for funders, officials and NGOs: follow one worker’s money through a heatwave week, build protection, then test it.",
+   "// The people are composites, not real individuals. Numbers are illustrative Indian rupees a day, and every one can be changed.",
+   "// The tool only adds up cash. It never predicts illness, productivity or payouts, and never gives a score.",
+   "// effect: hours = working hours recovered on hot days (an assumption, shown on the card); water = no need to buy water at work;",
+   "// rentfree = no work cost on hot days; keepbonus = illness does not cost the attendance bonus;",
+   "// people: protect = share of daily pay that heat cannot cut (a monthly wage); bonus = lost if ill; amounts = local payment sizes;",
+   "// defaults = measures already in place by law; mtext = local names, descriptions and conditions for a measure.",
+   "// rest = paid hours protected; freecare = no doctor fee; money = a payment (amount, arrival day); hospital = pays only if admitted.",
+   "// conds: what has to be true for the person to actually use it. A measure counts only when every condition holds,",
+   "// except a soft condition, which changes the cost but not whether it can be used. start: false means it starts unmet; auto: met by another measure."
+  ]
+ },
+ {
+  "name": "HEAT_WEEK",
+  "file": "HEAT_WEEK.json",
+  "notes": "/* ---------- 32. A WEEK IN THE HEAT ---------- */\n// An exercise for funders, officials and NGOs: follow one worker’s money through a heatwave week, build protection, then test it.\n// The people are composites, not real individuals. Numbers are illustrative Indian rupees a day, and every one can be changed.\n// The tool only adds up cash. It never predicts illness, productivity or payouts, and never gives a score.\n// effect: hours = working hours recovered on hot days (an assumption, shown on the card); water = no need to buy water at work;\n// rentfree = no work cost on hot days; keepbonus = illness does not cost the attendance bonus;\n// people: protect = share of daily pay that heat cannot cut (a monthly wage); bonus = lost if ill; amounts = local payment sizes;\n// defaults = measures already in place by law; mtext = local names, descriptions and conditions for a measure.\n// rest = paid hours protected; freecare = no doctor fee; money = a payment (amount, arrival day); hospital = pays only if admitted.\n// conds: what has to be true for the person to actually use it. A measure counts only when every condition holds,\n// except a soft condition, which changes the cost but not whether it can be used. start: false means it starts unmet; auto: met by another measure.",
+  "inside": [
+   "// countries: currency (sym, loc, dp = decimals), the hot week's temperatures, and real context, each with a source",
+   "/* ---------- 33. MAKE IT WORK TOGETHER: PROTECTION IN A PLACE ---------- */",
+   "// A coordinator's simulation, on its own page (/together/, together.js). Three hypothetical places, each with",
+   "// composite workers, the bodies whose agreement protection depends on, and measures broken into the requirements",
+   "// that must all hold. A requirement counts only at the status it needs, and \"agreed\" or beyond counts only with",
+   "// evidence. Work is measured in hours of dangerous heat and days' pay, never as a score or a prediction of illness.",
+   "// expo = hours a hot day keeps someone in dangerous heat; loss = share of a day's pay heat costs them.",
+   "// measure.helps: hours and pay a working measure gives back each hot day; once = paid once, on day 1, if it works.",
+   "// req.need = the status it must reach; req.from = the day of the hot week from which an unmet requirement breaks it."
+  ]
+ },
+ {
+  "name": "PLACE_SIM",
+  "file": "PLACE_SIM.json",
+  "notes": "/* ---------- 33. MAKE IT WORK TOGETHER: PROTECTION IN A PLACE ---------- */\n// A coordinator's simulation, on its own page (/together/, together.js). Three hypothetical places, each with\n// composite workers, the bodies whose agreement protection depends on, and measures broken into the requirements\n// that must all hold. A requirement counts only at the status it needs, and \"agreed\" or beyond counts only with\n// evidence. Work is measured in hours of dangerous heat and days' pay, never as a score or a prediction of illness.\n// expo = hours a hot day keeps someone in dangerous heat; loss = share of a day's pay heat costs them.\n// measure.helps: hours and pay a working measure gives back each hot day; once = paid once, on day 1, if it works.\n// req.need = the status it must reach; req.from = the day of the hot week from which an unmet requirement breaks it.",
+  "inside": [
+   "/* ---------- 34. PLAN: WHERE IT STANDS, WHERE PEOPLE CAN GO, ADVICE AND PROVISION, WHEN THE POWER GOES, MECHANISMS ---------- */",
+   "// Additions to Plan a response, several adapted from the MCR2030 Urban Heat Risk Management Resource Package (2025),",
+   "// which draws on a review of 30+ cases and interviews with officials in five cities in late 2024: evidence of",
+   "// institutional practice, not an impact evaluation. Written in our own words; page numbers are the report's printed pages."
+  ]
+ },
+ {
+  "name": "MCR2030",
+  "file": "MCR2030.json",
+  "notes": "/* ---------- 34. PLAN: WHERE IT STANDS, WHERE PEOPLE CAN GO, ADVICE AND PROVISION, WHEN THE POWER GOES, MECHANISMS ---------- */\n// Additions to Plan a response, several adapted from the MCR2030 Urban Heat Risk Management Resource Package (2025),\n// which draws on a review of 30+ cases and interviews with officials in five cities in late 2024: evidence of\n// institutional practice, not an impact evaluation. Written in our own words; page numbers are the report's printed pages.",
+  "inside": [
+   "// step 3: each action's status uses the same ladder as Make it work together (PLACE_SIM.statuses)"
+  ]
+ },
+ {
+  "name": "PLAN_CAPACITY",
+  "file": "PLAN_CAPACITY.json",
+  "notes": "// step 3: each action's status uses the same ladder as Make it work together (PLACE_SIM.statuses)",
+  "inside": [
+   "// step 1: places people can go. A point on a list is not a working service."
+  ]
+ },
+ {
+  "name": "PLAN_POINTS",
+  "file": "PLAN_POINTS.json",
+  "notes": "// step 1: places people can go. A point on a list is not a working service.",
+  "inside": [
+   "// step 4: advice paired with what makes it possible"
+  ]
+ },
+ {
+  "name": "PLAN_COUPLING",
+  "file": "PLAN_COUPLING.json",
+  "notes": "// step 4: advice paired with what makes it possible",
+  "inside": [
+   "// step 5: will essential services continue? Prompts for planning, not prescribed protocols, and no readiness score."
+  ]
+ },
+ {
+  "name": "PLAN_CONTINUITY",
+  "file": "PLAN_CONTINUITY.json",
+  "notes": "// step 5: will essential services continue? Prompts for planning, not prescribed protocols, and no readiness score.",
+  "inside": [
+   "// \"See it done\": adapt the mechanism, not the city"
+  ]
+ },
+ {
+  "name": "PLAN_MECHANISMS",
+  "file": "PLAN_MECHANISMS.json",
+  "notes": "// \"See it done\": adapt the mechanism, not the city",
+  "inside": []
+ },
+ {
+  "name": "PLAN_MECH_NOTE",
+  "file": "PLAN_MECH_NOTE.json",
+  "notes": "",
+  "inside": [
+   "/* ---------- 35. FIND YOUR WAY IN: THE GUIDE ---------- */",
+   "// One guide replaces the separate starts (the Start here intents, the first-five-minutes tour and the film tour fold",
+   "// into it). Two questions, why you came and how long you have, give a short path of stops. guide.js draws it on the",
+   "// home page (#start) and on /guide/; build-print.js makes the workshop one-pager from it.",
+   "// stop.go: \"film\" | \"tour\" | \"five\" | \"story\" runs an action on the map; href opens a section or, with tab, a page."
+  ]
+ },
+ {
+  "name": "GUIDE",
+  "file": "GUIDE.json",
+  "notes": "/* ---------- 35. FIND YOUR WAY IN: THE GUIDE ---------- */\n// One guide replaces the separate starts (the Start here intents, the first-five-minutes tour and the film tour fold\n// into it). Two questions, why you came and how long you have, give a short path of stops. guide.js draws it on the\n// home page (#start) and on /guide/; build-print.js makes the workshop one-pager from it.\n// stop.go: \"film\" | \"tour\" | \"five\" | \"story\" runs an action on the map; href opens a section or, with tab, a page.",
+  "inside": [
+   "// the running order for a 90-minute workshop (print/workshop-guide)",
+   "// the same 90 minutes for a community group or workers’ organisation (print/community-workshop-guide)"
+  ]
+ }
+]

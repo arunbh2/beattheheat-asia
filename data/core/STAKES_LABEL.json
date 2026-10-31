@@ -1,0 +1,5 @@
+{
+  "cost": "What this cycle costs",
+  "saves": "What breaking it saves",
+  "none": "What this cycle costs is not yet measured"
+}

@@ -1,0 +1,122 @@
+{
+  "intro": "The same reading on a thermometer can be safe for one person and dangerous for another. How much heat the body has to carry depends on three things together: the weather, the work, and the person. Change any one and the danger changes.",
+  "parts": [
+    {
+      "id": "weather",
+      "n": "1",
+      "name": "The weather",
+      "short": "Heat, humidity, sun, wind, night",
+      "text": "Air temperature is only the start. Humidity stops sweat from cooling the body, sun and hot surfaces add radiant heat, still air removes less of it, and a hot night leaves no time to recover. Conditions at a workplace or under a roof can be worse than the nearest weather station shows.",
+      "facts": [
+        {
+          "text": "Monitors at 24 indoor and outdoor workplaces in Singapore found workers could face more heat stress than nearby national weather stations reported.",
+          "source": {
+            "label": "NUS Project HeatSafe, 2024",
+            "url": "https://medicine.nus.edu.sg/wp-content/uploads/2024/03/PRESS-RELEASE_Project-HeatSafe-18MAR2024-FOR-IMMEDIATE-RELEASE.pdf"
+          }
+        },
+        {
+          "text": "Ten extra days above 35 °C cut firms’ productivity by 0.75% in very humid places, more than double the average.",
+          "source": {
+            "label": "OECD Economics Department, 2024",
+            "url": "https://doi.org/10.1787/19d94638-en"
+          }
+        }
+      ]
+    },
+    {
+      "id": "work",
+      "n": "2",
+      "name": "The work",
+      "short": "Effort, clothing, hours, rest",
+      "text": "Heavy work makes heat inside the body. Protective clothing, gowns and masks hold it in. Long shifts, fixed hours and no shade or water break let it build. The same weather is a different risk for a desk worker, a builder and a nurse in protective gear.",
+      "facts": [
+        {
+          "text": "In a laboratory trial of 18 men doing treadmill work and virtual-reality welding and plank-walking at height, humid heat raised core temperature and unsteadied balance, though task speed and accuracy held up.",
+          "source": {
+            "label": "Tan et al., Medicine & Science in Sports & Exercise, 2025",
+            "url": "https://heathealth.info/resources/physical-work-in-humid-heat-impairs-postural-balance-during-simulated-construction-tasks-at-height/"
+          }
+        },
+        {
+          "text": "Across 3,082 health workers in India, Indonesia, Singapore, Taiwan, Thailand and Vietnam, poor practices with protective equipment were linked to heat-related symptoms.",
+          "source": {
+            "label": "Yang et al., BMC Nursing, 2024",
+            "url": "https://doi.org/10.1186/s12912-024-01770-x"
+          }
+        }
+      ]
+    },
+    {
+      "id": "person",
+      "n": "3",
+      "name": "The person",
+      "short": "Age, illness, medicines, sleep",
+      "text": "Older bodies sweat less and feel thirst later. Heart, kidney and lung disease, diabetes and pregnancy add strain, and some medicines reduce the body’s ability to lose heat. A body that did not cool down overnight starts the next day already behind.",
+      "facts": [
+        {
+          "text": "Thinking held up at modest heat strain: 28 adults whose core temperature reached about 38.5 °C showed no loss of executive function or risk-taking. At 39.5 °C, in a separate study of 11 adults, executive function did fall.",
+          "source": {
+            "label": "Modest strain study of 28 adults, PubMed Central",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12804366/"
+          },
+          "also": {
+            "label": "Tan et al., Journal of Sport and Health Science, 2024",
+            "url": "https://doi.org/10.1016/j.jshs.2023.09.001"
+          }
+        },
+        {
+          "text": "Hot nights shorten sleep, with bigger losses for older people and in lower-income countries, across 47,628 people in 68 countries.",
+          "source": {
+            "label": "Minor et al., One Earth, 2022",
+            "url": "https://orbit.dtu.dk/en/publications/rising-temperatures-erode-human-sleep-globally"
+          }
+        }
+      ]
+    }
+  ],
+  "centre": "Heat strain",
+  "close": "Effects depend on exposure, task and the person. That is why a single heat alert cannot protect everyone in the same way, and why plans need to ask who is doing what, in what, and after what kind of night.",
+  "groups": [
+    {
+      "id": "medicines",
+      "name": "People on long-term medicines",
+      "brief": "Some medicines for long-term conditions can reduce sweating or blood flow to the skin. Never stop or change a medicine because of the heat: ask a doctor, nurse or pharmacist, and plan water, shade and check-in calls.",
+      "text": "Some medicines used for long-term conditions, including some for blood pressure, heart disease, Parkinson’s and Alzheimer’s disease, blood thinners and some cancer drugs, can reduce sweating or the blood flow to the skin that carries heat away. Ageing and illness can add to the effect.",
+      "caution": "Never stop or change a medicine because of the heat. Ask a doctor, nurse or pharmacist what to watch for, and plan water, shade and check-in calls for people on these medicines.",
+      "source": {
+        "label": "Wee and Lee, Pharmacological Reviews (summary by NUS Medicine, 2023)",
+        "url": "https://medicine.nus.edu.sg/news/medications-for-chronic-diseases-affect-the-bodys-ability-to-regulate-body-temperature-keep-cool"
+      },
+      "nodes": ["heatstroke","kidney","respiratory"],
+      "levers": ["readyclinics","coolingcentres"]
+    },
+    {
+      "id": "healthworkers",
+      "name": "Health workers in protective gear",
+      "brief": "Staff in gowns, gloves and masks carry heat they cannot shed. Plan cool rest rooms, water, shorter rotations in full gear, and cooling for the clinic itself.",
+      "text": "Clinics and wards fill up in a heatwave, and staff in gowns, gloves and masks carry heat they cannot shed. A survey of 3,082 health workers across six Asian places linked poor practices with protective equipment to heat-related symptoms. Its symptom scale proved unreliable, so the authors still advise staff to check their own symptoms early.",
+      "caution": "Plan cool rest rooms, water, shorter rotations in full protective gear, and cooling for the clinic itself, so the people treating heat illness are not its next patients.",
+      "source": {
+        "label": "Yang et al., BMC Nursing, 2024",
+        "url": "https://doi.org/10.1186/s12912-024-01770-x"
+      },
+      "nodes": ["hsys"],
+      "levers": ["readyclinics","heatrules"]
+    },
+    {
+      "id": "indoor",
+      "name": "Workers in hot factories and sheds",
+      "brief": "At three garment factories in Phnom Penh, workers reporting heat symptoms rose from 68% to 88% in the hot months, by their own reports. Measure heat where people work, cool roofs and walls, and add air flow, water and breaks.",
+      "text": "Heat is not only an outdoor problem. In a survey of 753 women at three garment factories in Phnom Penh, the share reporting heat symptoms rose from 68% in the cooler months to 88% in the hot months, as the factory heat index rose from about 25 °C to 29 °C. More said heat slowed their work and cut their motivation.",
+      "caution": "These are workers’ own reports, not measured output. Plans should count indoor workplaces: measure heat where people work, cool the roof and walls, add air flow, water and breaks.",
+      "source": {
+        "label": "Chea et al., BMC Public Health, 2025",
+        "url": "https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-025-22787-0"
+      },
+      "nodes": ["informal","lost"],
+      "levers": ["heatrules","coolhousing"]
+    }
+  ],
+  "plans": "Ask three questions for every group in a heat plan: how hot is it where they are, what are they doing and wearing, and what do they bring to it, such as age, illness, medicines and a night without sleep."
+}

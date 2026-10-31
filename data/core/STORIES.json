@@ -1,0 +1,53 @@
+{
+  "field": {
+    "title": "From field to family",
+    "kicker": "Across systems",
+    "steps": [
+      {
+        "edges": [
+          ["heat","nature"]
+        ],
+        "title": "Heat reaches the land",
+        "text": "A hot spell arrives at the worst moment of the growing season."
+      },
+      {
+        "edges": [
+          ["nature","drysoil"],
+          ["drysoil","harvests"]
+        ],
+        "title": "Soils dry, harvests fail",
+        "text": "Moisture is pulled from the ground just when crops need it most."
+      },
+      {
+        "edges": [
+          ["harvests","prices"]
+        ],
+        "title": "The shock travels to the market",
+        "text": "Smaller harvests mean higher prices, felt by families far from the field."
+      },
+      {
+        "edges": [
+          ["prices","hunger"],
+          ["hunger","learning"]
+        ],
+        "title": "Children eat less, and learn less",
+        "text": "Hungry children struggle in class, and the loss follows them for life."
+      },
+      {
+        "edges": [
+          ["prices","informal"]
+        ],
+        "title": "Stopping work becomes impossible",
+        "text": "With food costing more, there is even less room to rest during the heat."
+      },
+      {
+        "edges": [
+          ["informal","heatstroke"],
+          ["heatstroke","deaths"]
+        ],
+        "title": "And some don’t survive",
+        "text": "Working through the hottest hours, without rest, water or shade, can kill. From a dry field to a death that may never be counted as heat."
+      }
+    ]
+  }
+}

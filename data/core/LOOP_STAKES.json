@@ -1,0 +1,239 @@
+{
+  "global": {
+    "kind": "cost",
+    "n": "3×",
+    "text": "The energy used for cooling could triple by 2050 as air conditioners grow from 1.6 billion to 5.6 billion, unless they become more efficient.",
+    "by": "International Energy Agency, 2018",
+    "url": "https://www.iea.org/reports/the-future-of-cooling",
+    "where": "World",
+    "sea": {
+      "n": "40m → 300m",
+      "where": "Southeast Asia",
+      "text": "air conditioners in Southeast Asia between 2017 and 2040, half of them in Indonesia, unless efficiency improves. Cooling could then make up as much as 30% of the region’s peak electricity demand.",
+      "by": "International Energy Agency, 2019",
+      "url": "https://www.iea.org/reports/the-future-of-cooling-in-southeast-asia"
+    }
+  },
+  "ice": {
+    "kind": "cost",
+    "n": "30–50%",
+    "text": "of the region’s glacier ice could be gone by 2100 at 1.5–2 °C of warming, after melting 65% faster in the 2010s than the decade before.",
+    "by": "ICIMOD, 2023",
+    "url": "https://lib.icimod.org/record/36322",
+    "where": "Hindu Kush Himalaya",
+    "sea": {
+      "n": "99%",
+      "where": "Papua, Indonesia",
+      "text": "of the glacier area on Puncak Jaya, Southeast Asia’s last tropical ice, has gone since 1850. Only about 0.17 km² was left in 2024, and it will very likely disappear around 2030.",
+      "by": "Ibel, Mölg and Sommer, The Cryosphere, 2025",
+      "url": "https://tc.copernicus.org/articles/19/6629/2025/"
+    }
+  },
+  "fire": {
+    "kind": "cost",
+    "n": "+50%",
+    "text": "more extreme wildfires are projected by the end of the century, and up to 14% more by 2030.",
+    "by": "UNEP and GRID-Arendal, 2022",
+    "url": "https://www.unep.org/resources/report/spreading-wildfire-rising-threat-extraordinary-landscape-fires",
+    "where": "World",
+    "sea": {
+      "n": "US$16.1 billion",
+      "where": "Indonesia",
+      "text": "was the cost to Indonesia of the forest and peatland fires of June to October 2015.",
+      "by": "World Bank, 2016",
+      "url": "https://documents1.worldbank.org/curated/pt/776101467990969768/pdf/103668-BRI-Cost-of-Fires-Knowledge-Note-PUBLIC-ADD-NEW-SERIES-Indonesia-Sustainable-Landscapes-Knowledge-Note.pdf"
+    }
+  },
+  "cooling": {
+    "kind": "cost",
+    "n": "Up to 7 °C",
+    "text": "warmer: how much hotter Singapore’s commercial centre has measured than its outskirts on calm, clear nights.",
+    "by": "Cooling Singapore, citing Chow and Roth, 2006",
+    "url": "https://www.thegpsc.org/sites/gpsc/files/cooling_singapore_-_digital_urban_climate_twin.pdf",
+    "where": "Singapore"
+  },
+  "energywater": {
+    "kind": "cost",
+    "n": "14 TWh",
+    "text": "of electricity lost in India in 2016 because thermal power plants ran short of water.",
+    "by": "World Resources Institute, 2018",
+    "url": "https://www.wri.org/insights/40-indias-thermal-power-plants-are-water-scarce-areas-threatening-shutdowns",
+    "where": "India",
+    "sea": {
+      "n": "US$1.4 billion",
+      "where": "Vietnam",
+      "text": "was the World Bank’s early estimate of what northern Vietnam’s power cuts cost in May and June 2023, about 0.3% of GDP, after heatwaves pushed up demand and dried hydropower reservoirs.",
+      "by": "World Bank estimate, reported by AFP via The Manila Times, 2023",
+      "url": "https://manilatimes.net/2023/08/12/business/foreign-business/power-crisis-cost-vietnam-14b-wb/1904920/amp"
+    }
+  },
+  "pumping": {
+    "kind": "cost",
+    "n": "109 km³",
+    "text": "of groundwater lost from Rajasthan, Punjab and Haryana in six years (2002–2008), mainly to irrigation, while rainfall stayed close to normal.",
+    "by": "Rodell, Velicogna and Famiglietti, Nature, 2009",
+    "url": "https://www.nature.com/articles/nature08238",
+    "where": "India",
+    "sea": {
+      "n": "2.5 cm+",
+      "where": "Mekong delta, Vietnam",
+      "text": "a year: how fast parts of the Mekong delta are sinking as its aquifers are pumped down.",
+      "by": "Minderhoud et al., Environmental Research Communications, 2020",
+      "url": "https://iopscience.iop.org/article/10.1088/2515-7620/ab5e21"
+    }
+  },
+  "deadgreen": {
+    "kind": "cost",
+    "n": "76%",
+    "text": "of urban tree and shrub species in 164 cities could face temperatures beyond their natural range by 2050, up from 56% today. Risk is highest in cities such as New Delhi and Singapore.",
+    "by": "Esperon-Rodriguez et al., Nature Climate Change, 2022",
+    "url": "https://www.vibrantcitieslab.com/wordpress/wp-content/uploads/2023/08/climate-change-increases-global-risk-to-urban-forests.pdf",
+    "where": "164 cities worldwide"
+  },
+  "clinic": {
+    "kind": "saves",
+    "n": "1,190",
+    "text": "deaths a year were estimated to be avoided after Ahmedabad’s heat action plan prepared hospitals and warned the public.",
+    "by": "Hess et al., Journal of Environmental and Public Health, 2018",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6236972/",
+    "where": "Ahmedabad, India"
+  },
+  "poverty": {
+    "kind": "cost",
+    "n": "US$1.78 billion",
+    "text": "Heat-related illness cost Bangladesh 250 million workdays in 2024, about 0.4% of its GDP.",
+    "by": "World Bank, 2025",
+    "url": "https://www.worldbank.org/en/news/press-release/2025/09/16/bangladesh-faces-health-and-economic-risks-from-rising-temperature-world-bank",
+    "where": "Bangladesh",
+    "sea": {
+      "n": "75%",
+      "where": "Bangkok, Thailand",
+      "text": "of home-based workers in Bangkok lost at least a day’s work a month to their own or a family member’s heat illness. Nearly 80% of informal workers surveyed cut their hours because of heat.",
+      "by": "WIEGO and HomeNet Thailand, 2025",
+      "url": "https://www.wiego.org/wp-content/uploads/2025/10/WIEGO-Policy-Brief-33-Climate-Change-and-Heat-Stress.pdf"
+    }
+  },
+  "debt": {
+    "kind": "cost",
+    "n": "29 million",
+    "text": "Indian households faced catastrophic spending on medicines alone in 2011–12. This is the scale of the trap from all illness, not heat alone.",
+    "by": "Selvaraj, Farooqui and Karan, BMJ Open, 2018",
+    "url": "https://bmjopen.bmj.com/content/8/5/e018020",
+    "where": "India",
+    "sea": {
+      "n": "US$5,800+",
+      "where": "Cambodia",
+      "text": "was the average microloan in Cambodia in 2024, over four times the median income per person. This is all borrowing, not heat alone, but it is the debt families draw on when illness or a lost harvest strikes.",
+      "by": "Human Rights Watch, 2025",
+      "url": "https://www.hrw.org/report/2025/09/24/debt-traps/predatory-microfinance-loans-and-exploitation-of-cambodias-indigenous"
+    }
+  },
+  "energypoverty": {
+    "kind": "cost",
+    "n": "1.12 billion",
+    "text": "of the world’s rural and urban poor are at high risk because they lack access to cooling.",
+    "by": "Sustainable Energy for All, 2023",
+    "url": "https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-global-access-to-cooling-gaps-2023",
+    "where": "World"
+  },
+  "displacement": {
+    "kind": "cost",
+    "n": "40 million",
+    "text": "people in South Asia could be forced to move within their own countries by 2050 without action, of up to 216 million worldwide.",
+    "by": "World Bank, 2021",
+    "url": "https://openknowledge.worldbank.org/handle/10986/36248",
+    "where": "South Asia",
+    "sea": {
+      "n": "49 million",
+      "where": "East Asia and the Pacific",
+      "text": "people in East Asia and the Pacific could be forced to move within their own countries by 2050 without action.",
+      "by": "World Bank, 2021",
+      "url": "https://www.worldbank.org/en/news/press-release/2021/09/13/climate-change-could-force-216-million-people-to-migrate-within-their-own-countries-by-2050"
+    }
+  },
+  "school": {
+    "kind": "cost",
+    "n": "171 million",
+    "text": "students had their schooling disrupted by heatwaves in 2024. South Asia was the most affected region.",
+    "by": "UNICEF, 2025",
+    "url": "https://www.unicef.org/reports/learning-interrupted-global-snapshot-2024",
+    "where": "World",
+    "sea": {
+      "n": "3.6 million",
+      "where": "Philippines",
+      "text": "students in the Philippines lost classroom learning in early April 2024, when 5,288 schools switched to remote learning as the heat index reached danger levels.",
+      "by": "AFP via Malay Mail, April 2024",
+      "url": "https://www.malaymail.com/news/world/2024/04/05/thousands-of-philippine-schools-suspend-in-person-classes-due-to-heat-says-education-dept/127511"
+    }
+  },
+  "sleep": {
+    "kind": "cost",
+    "n": "70%",
+    "text": "of India’s districts gained five or more very warm nights each summer over the last decade. Mumbai gained 15.",
+    "by": "Council on Energy, Environment and Water (CEEW), 2025",
+    "url": "https://www.ceew.in/sites/default/files/ceew-how-extreme-heat-is-impacting-india-final-web-file.pdf",
+    "where": "India",
+    "sea": {
+      "n": "76 → most nights",
+      "where": "Singapore",
+      "text": "Singapore has averaged 76 warm nights a year, above 26.3 °C, over the last 40 years. By the end of the century such nights could come on most nights of the year.",
+      "by": "National Environment Agency, Singapore, 2024",
+      "url": "https://www.nea.gov.sg/media/news/news/index/latest-climate-projections-for-singapore-show-intensifying-urban-heat-and-more-wet-dry-extremes"
+    }
+  },
+  "greendisplace": {
+    "kind": "cost",
+    "n": "17 of 28",
+    "text": "cities studied saw greening in the 1990s and 2000s strongly linked to gentrification between 2000 and 2016.",
+    "by": "Anguelovski et al., Nature Communications, 2022",
+    "url": "https://doi.org/10.1038/s41467-022-31572-1",
+    "where": "28 cities in North America and Europe"
+  },
+  "squeeze": {
+    "kind": "cost",
+    "n": "49%",
+    "text": "of 721 Delhi street vendors surveyed lost income in the 2024 heatwaves, and 80% saw fewer customers.",
+    "by": "Greenpeace India and National Hawkers Federation, 2024",
+    "url": "https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/",
+    "where": "Delhi, India"
+  },
+  "farmdebt": {
+    "kind": "cost",
+    "n": "−10%",
+    "text": "rice yield for each 1 °C rise in growing-season night temperature, at the International Rice Research Institute’s farm in the Philippines.",
+    "by": "Peng et al., PNAS, 2004",
+    "url": "https://doi.org/10.1073/pnas.0403720101",
+    "where": "Philippines"
+  },
+  "invisible": {
+    "kind": "cost",
+    "n": "48,385 vs 185",
+    "text": "suspected heatstroke cases against confirmed heatstroke deaths in India in 2024, up to 28 July: most of the toll goes uncounted.",
+    "by": "Ministry of Health and Family Welfare, reply in India’s Rajya Sabha, 2024",
+    "url": "https://rsdebate.nic.in/bitstream/123456789/750681/1/PQ_265_06082024_U1693_p358_p362.pdf",
+    "where": "India"
+  },
+  "reactive": {
+    "kind": "saves",
+    "n": "US$3–16 billion",
+    "text": "in losses could be avoided every year by spending US$800 million on early warning systems in developing countries.",
+    "by": "Global Commission on Adaptation, 2019",
+    "url": "https://openknowledge.worldbank.org/entities/publication/7713887e-5c0c-5fce-9dd0-c18a8875736c",
+    "where": "Developing countries",
+    "sea": {
+      "n": "Up to 0.7%",
+      "where": "Bangkok, Thailand",
+      "text": "of Bangkok’s economy is what heat deaths cost, an estimated 593 a year in 2016–18. The upper estimate is more than the city’s whole public health budget for 2020.",
+      "by": "Park and Rubinyi, World Bank working paper, 2026",
+      "url": "https://openknowledge.worldbank.org/entities/publication/d8ba6f53-d778-47d2-b4a6-37dff7db2466/full"
+    }
+  },
+  "protection": {
+    "kind": "cost",
+    "n": "92%",
+    "text": "of Asia’s US$65 billion in natural catastrophe losses in 2025 was uninsured, falling on households, businesses and governments.",
+    "by": "Swiss Re Institute sigma, reported by Global Reinsurance",
+    "url": "https://www.globalreinsurance.com/home/swiss-re-sigma-protection-gap-laid-bare-as-asian-cat-losses-hit-65bn/1458440.article",
+    "where": "Asia"
+  }
+}

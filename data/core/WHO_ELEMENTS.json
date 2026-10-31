@@ -1,0 +1,52 @@
+[
+  {
+    "id": "governance",
+    "name": "Governance",
+    "why": "One body leads, every action has an owner, and money is set aside.",
+    "add": ["hap","heatbudget"]
+  },
+  {
+    "id": "warning",
+    "name": "Heat–health warning system",
+    "why": "Alerts are set at levels that harm health locally, and each level switches on named actions.",
+    "add": ["anticipatory"],
+    "step": 4
+  },
+  {
+    "id": "risk",
+    "name": "Populations at increased risk",
+    "why": "The plan names who is most at risk and reaches them directly.",
+    "add": ["coolingcentres","socialprotection"],
+    "step": 1
+  },
+  {
+    "id": "comms",
+    "name": "Communication",
+    "why": "Warnings reach people without phones, in their language and format. In the Netherlands, messages asking people to help others prompted more action.",
+    "step": 4
+  },
+  {
+    "id": "health",
+    "name": "Health system resilience",
+    "why": "Clinics and hospitals have trained staff, cooling, backup power and surge plans.",
+    "add": ["readyclinics","freecare"]
+  },
+  {
+    "id": "exposure",
+    "name": "Reducing heat exposure",
+    "why": "Cooler homes, workplaces and streets this season and for the long term, not only warnings.",
+    "add": ["heatrules","coolhousing"]
+  },
+  {
+    "id": "surveillance",
+    "name": "Heat–health surveillance",
+    "why": "Heat illness and excess deaths are tracked during the season, not only certified heatstroke.",
+    "add": ["countdeaths"]
+  },
+  {
+    "id": "mel",
+    "name": "Monitoring, evaluation and learning",
+    "why": "Every action has a measure, and a review after each season changes the plan. Very few cities track this.",
+    "step": 3
+  }
+]

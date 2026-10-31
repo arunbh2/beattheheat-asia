@@ -1,0 +1,30 @@
+[
+  {
+    "id": "decide",
+    "name": "Who decides to act"
+  },
+  {
+    "id": "act",
+    "name": "Who acts, and what they do",
+    "placeholder": "e.g. ward teams open cooling spaces and send water tankers"
+  },
+  {
+    "id": "pay",
+    "name": "Who pays"
+  },
+  {
+    "id": "deadline",
+    "name": "By when",
+    "placeholder": "e.g. within 6 hours of the alert"
+  },
+  {
+    "id": "fallback",
+    "name": "If that fails",
+    "placeholder": "e.g. loudspeaker vans if text messages don’t reach a ward"
+  },
+  {
+    "id": "confirm",
+    "name": "How you confirm it happened",
+    "placeholder": "e.g. each ward reports spaces opened by 2 pm"
+  }
+]

@@ -18,7 +18,7 @@ for (const f of SHORTS) {
   const block = `<!--short-->${CSS}<figure class="cs-short"><video controls playsinline preload="none" width="1280" height="720" poster="/media/shorts/${f.id}.jpg" aria-label="${esc(f.title)}: a short drawn film">` +
     `<source src="/media/shorts/${f.id}.mp4" type="video/mp4"><track kind="captions" srclang="en" label="English" src="/media/shorts/${f.id}.en.vtt" default></video>` +
     `<figcaption><b>Watch: ${esc(f.title)}</b> · ${len(T.total)} · narrated, with captions</figcaption></figure><!--/short-->`;
-  let s = fs.readFileSync(page, "utf8").replace(/<!--short-->[\s\S]*?<!--\/short-->/g, "");
+  let s = fs.readFileSync(page, "utf8").replace(/\n*<!--short-->[\s\S]*?<!--\/short-->/g, "");
   const h = s.indexOf("</h1>"); if (h < 0) continue;
   const rest = s.slice(h + 5), lead = rest.match(/^\s*<p\b[\s\S]*?<\/p>/);
   const at = h + 5 + (lead ? lead[0].length : 0);

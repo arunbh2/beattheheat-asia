@@ -1,0 +1,401 @@
+{
+  "reasons": [
+    {
+      "id": "understand",
+      "name": "Understand heat",
+      "hint": "How heat harms health, income and homes, and why the harm loops back."
+    },
+    {
+      "id": "help",
+      "name": "Help people this season",
+      "hint": "Practical protection to put in place before and during the hot weeks."
+    },
+    {
+      "id": "plan",
+      "name": "Build a plan with others",
+      "hint": "Owners, money, triggers and the agreements that make protection work."
+    },
+    {
+      "id": "fund",
+      "name": "Fund or support this work",
+      "hint": "Where money and partnership make the difference, and who is already at work."
+    },
+    {
+      "id": "community",
+      "name": "Protect my community or workplace",
+      "hint": "For community groups and workers’ organisations: protection where people live and work."
+    }
+  ],
+  "times": [
+    {
+      "id": "5",
+      "name": "5 minutes"
+    },
+    {
+      "id": "30",
+      "name": "Half an hour"
+    },
+    {
+      "id": "workshop",
+      "name": "A workshop",
+      "hint": "about 90 minutes, with others"
+    }
+  ],
+  "stops": {
+    "film": {
+      "title": "Watch the film",
+      "does": "The web of extreme heat, its vicious cycles and who holds the levers, in one narrated film.",
+      "time": "2 min",
+      "take": "the big picture, fast",
+      "go": "film"
+    },
+    "tour": {
+      "title": "Take the 60-second tour of the map",
+      "does": "The map, one system at a time.",
+      "time": "1 min",
+      "take": "how to read the web",
+      "go": "tour"
+    },
+    "five": {
+      "title": "Walk the first five minutes",
+      "does": "One vicious cycle, one group at risk, one place it breaks, and into a plan.",
+      "time": "5 min",
+      "take": "the site’s logic in four stops",
+      "go": "five"
+    },
+    "loop": {
+      "title": "Follow one vicious cycle",
+      "does": "The poverty–heat trap, step by step, on the map.",
+      "time": "3 min",
+      "take": "why heat harm feeds on itself",
+      "go": "story",
+      "story": "poverty"
+    },
+    "now": {
+      "title": "See today’s heat",
+      "does": "Live readings for twelve Asian cities, with national warning levels.",
+      "time": "1 min",
+      "take": "what heat looks like today",
+      "href": "#heat-now"
+    },
+    "day": {
+      "title": "Live a day in a heatwave",
+      "does": "Eight hours, seven places across Asia.",
+      "time": "5 min",
+      "take": "what a heatwave does, hour by hour",
+      "href": "#day"
+    },
+    "atrisk": {
+      "title": "Meet the people heat hits hardest",
+      "does": "Who is most at risk, and the barriers that hold them back.",
+      "time": "5 min",
+      "take": "who to protect first, and why",
+      "href": "#at-risk"
+    },
+    "city": {
+      "title": "Look up a city",
+      "does": "Heat, plans and cycles in twelve Asian cities.",
+      "time": "3 min",
+      "take": "where one city stands",
+      "href": "#city"
+    },
+    "week": {
+      "title": "Spend a week in the heat with one worker",
+      "does": "Follow a worker’s money through a heatwave, build protection, then try to break it.",
+      "time": "15 min",
+      "take": "where the money runs out, and what reaches people",
+      "href": "/a-week-in-the-heat/",
+      "tab": true,
+      "tool": 1
+    },
+    "practical": {
+      "title": "Find practical actions",
+      "does": "What to do in workplaces, homes, schools, clinics and neighbourhoods.",
+      "time": "10 min",
+      "take": "actions you can start this season",
+      "href": "/practical/",
+      "tab": true,
+      "tool": 2
+    },
+    "pawork": {
+      "title": "Find actions for workplaces",
+      "does": "Water, rest, shade and work hours that shift with the heat, and what keeps them working.",
+      "time": "5 min",
+      "take": "measures workers and employers can agree together",
+      "href": "/practical/#practical-work",
+      "tab": true,
+      "tool": 2
+    },
+    "pahome": {
+      "title": "Find actions for homes",
+      "does": "Cooler rooms by day and night, at low cost, and who can help.",
+      "time": "5 min",
+      "take": "steps a household or a street can take this season",
+      "href": "/practical/#practical-homes",
+      "tab": true,
+      "tool": 2
+    },
+    "paneighbour": {
+      "title": "Find actions for markets and neighbourhoods",
+      "does": "Shade, water points and cool places where people gather, trade and wait.",
+      "time": "5 min",
+      "take": "shared protection a neighbourhood can organise",
+      "href": "/practical/#practical-neighbourhoods",
+      "tab": true,
+      "tool": 2
+    },
+    "fourheats": {
+      "title": "See the four heats in a home",
+      "does": "Outdoor air, the roof, radiant heat and indoor air, by day and by night.",
+      "time": "3 min",
+      "take": "why a room can be hotter than the forecast",
+      "href": "#four-heats"
+    },
+    "cooling": {
+      "title": "Compare cooling options",
+      "does": "What to build where people are, and what keeps it working.",
+      "time": "10 min",
+      "take": "options, costs and running needs",
+      "href": "#cooling",
+      "tool": 2
+    },
+    "finance": {
+      "title": "See how protection is paid for",
+      "does": "Who pays, how money arrives in time, and whether it lasts.",
+      "time": "10 min",
+      "take": "where money makes the difference",
+      "href": "/finance/",
+      "tab": true
+    },
+    "plan": {
+      "title": "Plan a response",
+      "does": "Six steps from who you protect to a plan you can run, with owners, money and triggers.",
+      "time": "30 min",
+      "take": "a printable plan",
+      "href": "/plan/",
+      "tab": true,
+      "tool": 3
+    },
+    "planex": {
+      "title": "Open a worked plan",
+      "does": "Ahmedabad’s heat action plan, loaded into the planner to explore.",
+      "time": "5 min",
+      "take": "what a working plan contains",
+      "href": "/plan/?example=ahmedabad",
+      "tab": true,
+      "tool": 3
+    },
+    "stress": {
+      "title": "Stress-test essential services",
+      "does": "A heatwave arrives with a power cut: what keeps running, and what does it depend on?",
+      "time": "15 min",
+      "take": "the dependencies to resolve first",
+      "href": "/plan/#plan-step-5",
+      "tab": true,
+      "tool": 3
+    },
+    "together": {
+      "title": "Make it work together",
+      "does": "A coordinator’s simulation: who has to say yes before protection reaches people.",
+      "time": "30 min",
+      "take": "a place protection plan",
+      "href": "/together/",
+      "tab": true,
+      "tool": 4
+    },
+    "mech": {
+      "title": "See how five cities organise for heat",
+      "does": "Amadora, Incheon, Cape Town, Quito and Nairobi, side by side.",
+      "time": "5 min",
+      "take": "mechanisms to adapt, not copy",
+      "href": "/plan/#plan-mech",
+      "tab": true,
+      "tool": 5
+    },
+    "levers": {
+      "title": "Find who holds the levers",
+      "does": "The institutions that can act, and the cycles each can help break.",
+      "time": "5 min",
+      "take": "who to talk to",
+      "href": "#who-holds"
+    },
+    "stalls": {
+      "title": "See why action stalls",
+      "does": "Seven conditions that stall action, and what has moved them.",
+      "time": "5 min",
+      "take": "the obstacles to expect",
+      "href": "#stalls"
+    },
+    "network": {
+      "title": "Browse the heat network",
+      "does": "Organisations, funders and lenders already at work.",
+      "time": "5 min",
+      "take": "partners and gaps",
+      "href": "#network"
+    },
+    "cworkshop": {
+      "title": "Print the community workshop guide",
+      "does": "A one-page plan for a 90-minute meeting of a community group or workers’ organisation, in plain language.",
+      "time": "1 min",
+      "take": "a running order, and a sheet for what you will do and ask",
+      "href": "/print/community-workshop-guide/",
+      "tab": true
+    },
+    "workshop": {
+      "title": "Print the workshop guide",
+      "does": "A one-page plan for a 90-minute session: which tool when, and for whom.",
+      "time": "1 min",
+      "take": "a running order for the room",
+      "href": "/print/workshop-guide/",
+      "tab": true
+    }
+  },
+  "paths": {
+    "understand:5": ["film","loop"],
+    "understand:30": ["tour","loop","day","atrisk","city"],
+    "understand:workshop": ["workshop","film","day","week","stalls"],
+    "help:5": ["now","practical"],
+    "help:30": ["atrisk","practical","cooling","week"],
+    "help:workshop": ["workshop","week","practical","plan","stress"],
+    "plan:5": ["five","mech"],
+    "plan:30": ["planex","plan","stress"],
+    "plan:workshop": ["workshop","week","plan","together","mech"],
+    "fund:5": ["film","finance"],
+    "fund:30": ["week","finance","levers","network"],
+    "fund:workshop": ["workshop","week","together","finance","network"],
+    "community:5": ["pawork","pahome"],
+    "community:30": ["week","pawork","pahome","fourheats"],
+    "community:workshop": ["cworkshop","week","pawork","paneighbour","together"]
+  },
+  "toolkit": [
+    {
+      "n": 1,
+      "verb": "Feel it",
+      "name": "A week in the heat",
+      "href": "/a-week-in-the-heat/",
+      "tab": true,
+      "who": "Funders, officials, NGOs, workers’ organisations",
+      "time": "15 min",
+      "take": "Where a worker’s money runs out, and which protection actually reaches them.",
+      "icon": "feel"
+    },
+    {
+      "n": 2,
+      "verb": "Find what works",
+      "name": "Practical actions and cooling options",
+      "href": "/practical/",
+      "tab": true,
+      "who": "Anyone who can act this season",
+      "time": "10–20 min",
+      "take": "Actions by setting, with who does them, what they cost and what keeps them working.",
+      "icon": "find"
+    },
+    {
+      "n": 3,
+      "verb": "Plan it",
+      "name": "Plan a response",
+      "href": "/plan/",
+      "tab": true,
+      "who": "City, health and disaster teams; NGOs",
+      "time": "30–60 min",
+      "take": "A plan with owners, money, triggers and a stress test of essential services.",
+      "icon": "plan"
+    },
+    {
+      "n": 4,
+      "verb": "Make it work together",
+      "name": "The coordinator’s simulation",
+      "href": "/together/",
+      "tab": true,
+      "who": "NGOs, community and volunteer groups convening a place",
+      "time": "30 min",
+      "take": "Who has to say yes, what breaks if they don’t, and a place protection plan.",
+      "icon": "together"
+    },
+    {
+      "n": 5,
+      "verb": "Learn from others",
+      "name": "How five cities organise for heat",
+      "href": "/plan/#plan-mech",
+      "tab": true,
+      "who": "Anyone designing a response",
+      "time": "5 min",
+      "take": "Mechanisms to adapt, and what to check before you do.",
+      "icon": "learn"
+    }
+  ],
+  "workshop": [
+    {
+      "time": "0–10",
+      "what": "Open with the film, then today’s heat in your city",
+      "why": "A shared picture before any discussion."
+    },
+    {
+      "time": "10–35",
+      "what": "A week in the heat, in small groups, one worker each",
+      "why": "People feel where protection fails, before they debate it."
+    },
+    {
+      "time": "35–45",
+      "what": "Groups report: what reached their worker, and what broke",
+      "why": "Turns individual stories into a shared list of gaps."
+    },
+    {
+      "time": "45–75",
+      "what": "Plan a response together, on one screen",
+      "why": "Owners, money and triggers for the gaps the groups found. Run the stress test if time allows."
+    },
+    {
+      "time": "75–90",
+      "what": "Agree the next three decisions, and who takes each",
+      "why": "Leave with commitments, recorded on the plan’s status ladder."
+    }
+  ],
+  "workshopTips": [
+    "One person drives the screen; everyone else talks.",
+    "Use a real place the room knows, but keep the worker composite.",
+    "Record what is agreed, and what is only discussed. The plan’s status ladder does this.",
+    "Close by printing the plan, or copying it into the meeting notes."
+  ],
+  "workshopCommunity": [
+    {
+      "time": "0–10",
+      "what": "Share what the hot weeks were like here last year",
+      "why": "Start from what people know. Talk about places and conditions, not about who is to blame."
+    },
+    {
+      "time": "10–30",
+      "what": "Follow one worker’s week in the heat, together on one screen",
+      "why": "A shared story makes it easier to talk about our own. The worker is made up, so no one has to share theirs."
+    },
+    {
+      "time": "30–50",
+      "what": "Find actions for the places we live and work",
+      "why": "Workplaces, homes, markets and streets: pick what we can start ourselves this season."
+    },
+    {
+      "time": "50–75",
+      "what": "See who needs to say yes, and what each would need",
+      "why": "Some protection needs partners: an employer, a landlord, a market committee, a clinic or the local council."
+    },
+    {
+      "time": "75–90",
+      "what": "Agree what we will do, and what we will ask of whom",
+      "why": "A name next to each action, and each request written as an invitation to work together."
+    }
+  ],
+  "workshopCommunityTips": [
+    "Use the languages people speak, and read the screen aloud.",
+    "Keep the worker made up. Never share someone’s own story without their permission.",
+    "Talk about conditions and solutions, not blame.",
+    "Note what the group can do on its own, and what needs a partner.",
+    "If anyone feels unwell from the heat, stop and look after them first.",
+    "Close by reading the list back, then print or photograph it."
+  ],
+  "workshopCommunityBefore": [
+    "Choose a cool, shaded place, with drinking water for everyone.",
+    "Pick a time that does not cost people a day’s work.",
+    "Open the worker exercise, practical actions and the coordinator’s simulation in three tabs. No screen? Print the action cards.",
+    "Ask who will write down what is agreed."
+  ]
+}

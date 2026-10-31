@@ -1,0 +1,30 @@
+{
+ "about": "The site's tone, as rules a machine can check (gate 4). A careful, diplomatic, non-political tone that separates known, inferred and uncertain facts, all sourced. Any match in 'hold' keeps a record out of the site until it is reworded; 'review' asks the monthly reviewer to look again (gate 5). Grow these lists from each month's findings.",
+ "hold": [
+  "junta", "regime", "dictator", "authoritarian", "coup", "crackdown",
+  "corrupt", "corruption", "scandal", "cover-up", "covered up", "buried the", "whitewash",
+  "negligent", "negligence", "incompetent", "incompetence", "shameful", "disgrace", "disgraceful",
+  "failed to act", "failed to protect", "refused to", "ignored by", "turned a blind eye",
+  "blame", "blamed", "culprit", "villain", "greedy", "predatory", "exploitative",
+  "propaganda", "lies", "lied",
+  "ruling party", "opposition party", "election campaign", "vote bank",
+  "best in", "worst in", "ranked last", "lagging behind", "laggard", "leading the way",
+  "slum", "slums", "slum-dweller", "slum dwellers",
+  "victims", "the poor", "illegal migrants"
+ ],
+ "review": [
+  "failure", "failed", "fails", "neglect", "inadequate", "insufficient", "weak", "poorly",
+  "must", "should", "always", "never", "proves", "proven", "guarantee", "clearly", "obviously",
+  "crisis", "catastrophe", "catastrophic", "deadliest", "unprecedented",
+  "government", "minister", "ministry", "election", "politic"
+ ],
+ "people": {
+  "about": "Records describe institutions and evidence, not individuals. No journalist, official or private person is named in record text; authors appear only inside a source's citation.",
+  "honorifics": ["Dr", "Dr.", "Mr", "Mr.", "Mrs", "Ms", "Ms.", "Prof", "Prof.", "Professor", "Minister", "Governor", "Mayor", "Commissioner", "Secretary", "Chairman", "Chairperson", "Sir", "Shri", "Smt", "Datuk", "Tan Sri"],
+  "fields_checked": ["title", "summary", "question", "why_it_matters"]
+ },
+ "evidence": {
+  "projection_words": ["could", "projected", "projection", "by 2030", "by 2040", "by 2050", "by 2100", "modelled", "estimated", "scenario", "may"],
+  "rule": "A record whose text uses projection words cannot be marked known."
+ }
+}

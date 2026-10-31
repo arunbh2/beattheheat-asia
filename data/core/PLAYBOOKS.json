@@ -1,0 +1,86 @@
+{
+  "nat": {
+    "sense": "Set national heat thresholds and link weather alerts to health and death data.",
+    "decide": "Recognise extreme heat as a disaster, with a budget set aside before each season.",
+    "act": "Enforce heat-safe work rules, cooling standards and free care for heat illness.",
+    "sustain": "Cut emissions, build social protection and keep heat in every national plan."
+  },
+  "city": {
+    "sense": "Map the hottest streets, homes and people, and who is most at risk.",
+    "decide": "Adopt and fund a city heat action plan with clear owners.",
+    "act": "Open cooling centres, shade streets, cool roofs and check on people living alone.",
+    "sustain": "Build heat into planning, building codes and housing upgrades."
+  },
+  "health": {
+    "sense": "Track heat illness and excess deaths in real time during heatwaves.",
+    "decide": "Trigger surge plans and outreach when forecasts cross danger levels.",
+    "act": "Prepare clinics with cooling, backup power and trained staff.",
+    "sustain": "Record heat on death certificates and train every frontline worker."
+  },
+  "met": {
+    "sense": "Forecast dangerous heat, including hot nights and humid heat.",
+    "decide": "Agree danger thresholds with health, labour and disaster agencies.",
+    "act": "Issue early, local warnings that trigger action, not just information.",
+    "sustain": "Keep improving forecasts and share data openly."
+  },
+  "employers": {
+    "sense": "Measure heat at the workplace, not just the city forecast.",
+    "decide": "Set heat rules for rest, water, shade and hours before summer begins.",
+    "act": "Give paid breaks and move heavy work to cooler hours.",
+    "sustain": "Build heat into contracts, supply chains and workplace design."
+  },
+  "workers": {
+    "sense": "Collect members’ experiences of heat at work and at home.",
+    "decide": "Put heat protection on the bargaining table.",
+    "act": "Win paid rest, water, shade and income protection.",
+    "sustain": "Make heat rights part of every agreement and law."
+  },
+  "utilities": {
+    "sense": "Forecast peak cooling demand and the points where the grid will fail.",
+    "decide": "Protect supply to clinics, water pumps and cooling centres first.",
+    "act": "Offer lifeline tariffs and demand response, and support efficient cooling.",
+    "sustain": "Shift to clean power that doesn’t depend on scarce water."
+  },
+  "water": {
+    "sense": "Monitor reservoirs, aquifers and pumping during hot spells.",
+    "decide": "Agree fair sharing of scarce water between homes, farms and power.",
+    "act": "Keep water flowing with backup power and emergency supply.",
+    "sustain": "Recharge aquifers and set fair pumping rules."
+  },
+  "agri": {
+    "sense": "Watch soil moisture and crop heat stress through the season.",
+    "decide": "Advise farmers when to plant, irrigate and protect animals.",
+    "act": "Spread mulching, agroforestry, efficient irrigation and heat-tolerant varieties.",
+    "sustain": "Restore soils and watersheds so land stays cooler."
+  },
+  "schools": {
+    "sense": "Monitor classroom temperatures and attendance in hot months.",
+    "decide": "Adjust timetables and calendars before heat closes schools.",
+    "act": "Cool classrooms and keep school meals going.",
+    "sustain": "Build cooler schools and support that keeps children enrolled."
+  },
+  "insurers": {
+    "sense": "Price heat risk with local data, and watch arrears in heat-exposed districts after each hot season.",
+    "decide": "Design cover that pays out quickly when heat crosses a threshold, and add heatwaves to the calamities that switch on loan relief.",
+    "act": "Offer parametric heat insurance to workers and small businesses, and repayment relief when heat strikes.",
+    "sustain": "Share risk through public–private pools so cover stays available."
+  },
+  "funders": {
+    "sense": "Fund heat data and the tracking of deaths.",
+    "decide": "Prioritise prevention over emergency response.",
+    "act": "Finance cooling centres, clinics, cool housing and income protection.",
+    "sustain": "Back the institutions that deliver protection year after year."
+  },
+  "community": {
+    "sense": "Know who lives alone, who works outside and who has no cooling.",
+    "decide": "Agree a neighbourhood plan for heatwaves.",
+    "act": "Check on neighbours, run cooling spaces and share warnings.",
+    "sustain": "Hold institutions to account and keep local knowledge alive."
+  },
+  "intl": {
+    "sense": "Track global warming and heat impacts across countries.",
+    "decide": "Agree standards on emissions, refrigerants and work in heat.",
+    "act": "Support countries to adopt and enforce those standards.",
+    "sustain": "Keep finance and technology flowing to the places most at risk."
+  }
+}

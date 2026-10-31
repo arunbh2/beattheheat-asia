@@ -1,0 +1,33 @@
+{
+  "rows": [
+    {
+      "id": "cool",
+      "advice": "Spend the hottest hours somewhere cool",
+      "ask": "Which place is open, accessible and staffed?",
+      "placeholder": "e.g. the community hall on Station Road, open 11 am to 6 pm"
+    },
+    {
+      "id": "water",
+      "advice": "Drink water often",
+      "ask": "Where is safe water reliably available?",
+      "placeholder": "e.g. free water at the market gate and both bus stands"
+    },
+    {
+      "id": "rest",
+      "advice": "Rest in the shade during the hottest hours",
+      "ask": "Which work arrangements make a break possible without losing pay?",
+      "placeholder": "e.g. the market committee has moved loading to 6–11 am"
+    },
+    {
+      "id": "help",
+      "advice": "Ask for help if you or someone near you feels unwell",
+      "ask": "Which number or contact is answered, and by whom?",
+      "placeholder": "e.g. ward health helpline 1800-000-000, staffed 8 am to 10 pm"
+    }
+  ],
+  "note": "Advice should acknowledge what people need in order to follow it. Only confirmed provisions go into the message.",
+  "source": {
+    "label": "MCR2030, 2025, p. 38 (Cape Town’s ‘message coupling’, learned in its 2017 drought and planned for heat)",
+    "url": "https://mcr2030.undrr.org/publication/urban-heat-risk-management-resource-package"
+  }
+}

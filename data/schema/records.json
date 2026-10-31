@@ -1,0 +1,64 @@
+{
+ "about": "The rules every knowledge-base record must follow (data/kb/*.json and each month's data/inbox/YYYY-MM/*.json). Checked by tools/check-data.js before anything is published.",
+ "common": {
+  "required": ["id", "type", "title", "summary", "evidence", "sources", "as_of", "checked", "status"],
+  "fields": {
+   "id": "Permanent, readable, unique across the whole knowledge base, lower-case with hyphens, prefixed by type, e.g. fund-wellcome-heat-2026. Never reused.",
+   "type": "One of the types below. Decides how the record is drawn on every page.",
+   "title": "Short, plain, neutral name.",
+   "summary": "One to three sentences in plain language. Careful, diplomatic, non-political. No blame, no ranking, no individual people named.",
+   "evidence": "known (measured, official or peer-reviewed), inferred (reasoned from evidence, modelled or projected) or uncertain (reported, contested or not yet verified).",
+   "sources": "One or more source ids (type: source). Every figure must have one.",
+   "as_of": "When the fact applies: YYYY, YYYY-MM or YYYY-MM-DD.",
+   "checked": "When it was last verified: YYYY-MM-DD.",
+   "status": "current, superseded or retired. Superseded and retired records are kept, never deleted.",
+   "places": "Optional list of place ids (city-dhaka, country-bangladesh, region-south-asia).",
+   "cycles": "Optional list of cycle ids from the map (poverty, sleep, reactive ...).",
+   "levers": "Optional list of lever ids from the map.",
+   "added": "The month it entered the knowledge base: YYYY-MM. Set by the merge.",
+   "changed": "The month of its last change: YYYY-MM. Set by the merge.",
+   "replaces": "Optional id of the record this one supersedes."
+  }
+ },
+ "types": {
+  "source": {
+   "about": "A publication, dataset or page that facts rest on.",
+   "required": ["publisher", "url", "archive", "kind"],
+   "kinds": ["study", "official", "report", "news", "data", "organisation"],
+   "rules": ["url must be https", "archive must be an archived copy (web.archive.org or archive.today) of url", "sources of type source cite themselves: sources may be []"]
+  },
+  "claim": {
+   "about": "One figure or finding, quoted by pages and films by its id.",
+   "required": ["value", "unit", "period", "method"],
+   "rules": ["needs at least one source", "projections and models must be inferred or uncertain, never known"]
+  },
+  "funding": {
+   "about": "A piece of money traced to protection from heat.",
+   "required": ["funder", "recipient", "instrument", "stage", "amount"],
+   "instruments": ["grant", "insurance", "risk-pool", "contingent-credit", "forecast-finance", "cash-transfer", "bond", "loan", "guarantee", "equity", "programme"],
+   "stages": ["announced", "committed", "paid", "up-to"],
+   "roles": ["catalytic", "evidence", "field-building", "delivery"],
+   "amount": "{ value, currency, usd, fx_date } — usd may be null when unknown"
+  },
+  "role": {
+   "about": "Who does what for a protection: an organisation or institution and its part in a lever.",
+   "required": ["actor", "lever", "role"],
+   "roles": ["permits", "pays", "delivers", "checks"],
+   "rules": ["describes published work only; never a judgement of performance"]
+  },
+  "milestone": {
+   "about": "A dated change: a plan adopted, a rule notified, a role created, a heatwave recorded.",
+   "required": ["date", "kind"],
+   "kinds": ["plan", "law", "rule", "role", "programme", "heatwave", "finance"]
+  },
+  "trigger": {
+   "about": "What releases money or action: a forecast, a measured index, a declaration.",
+   "required": ["basis", "threshold", "releases"],
+   "bases": ["forecast", "measured-index", "declaration", "modelled-loss"]
+  },
+  "question": {
+   "about": "An open, researchable question for the learning agenda.",
+   "required": ["question", "why_it_matters", "would_answer_it"]
+  }
+ }
+}

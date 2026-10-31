@@ -1,0 +1,108 @@
+{
+  "Philippines": {
+    "agency": "PAGASA",
+    "basis": "hi",
+    "flag": 2,
+    "levels": [
+      [27,"Caution"],
+      [33,"Extreme caution"],
+      [42,"Danger"],
+      [52,"Extreme danger"]
+    ],
+    "source": {
+      "label": "PAGASA heat index categories, as reported by GMA News",
+      "url": "https://gmanetwork.com/news/scitech/weather/939320/pagasa-3-areas-under-danger-level-heat-index-on-march-15-2025/story"
+    }
+  },
+  "Thailand": {
+    "agency": "Thai Meteorological Department",
+    "short": "TMD",
+    "basis": "hi",
+    "flag": 2,
+    "levels": [
+      [27,"Watch"],
+      [33,"Caution"],
+      [42,"Danger"],
+      [52,"Extreme danger"]
+    ],
+    "source": {
+      "label": "Heat index levels, as reported by Malay Mail, 2026",
+      "url": "https://www.malaymail.com/news/world/2026/06/25/bangkok-bakes-under-dangerous-519c-heat-index-govt-opens-cooling-shelters/225135"
+    }
+  },
+  "Sri Lanka": {
+    "agency": "Department of Meteorology, Sri Lanka",
+    "short": "Met. Dept",
+    "basis": "hi",
+    "flag": 0,
+    "levels": [
+      [39,"Caution"],
+      [46,"Extreme caution"],
+      [53,"Danger"]
+    ],
+    "source": {
+      "label": "Heat index levels, as reported by Ada Derana",
+      "url": "https://www.adaderana.lk/news/120359/heat-index-at-caution-level-across-multiple-provinces-today-met-dept"
+    }
+  },
+  "Bangladesh": {
+    "agency": "Bangladesh Meteorological Department",
+    "short": "BMD",
+    "basis": "tmax",
+    "flag": 0,
+    "levels": [
+      [36,"Mild heatwave"],
+      [38,"Moderate heatwave"],
+      [40,"Severe heatwave"],
+      [42,"Very severe heatwave"]
+    ],
+    "source": {
+      "label": "BMD heatwave bands, as reported by Prothom Alo",
+      "url": "https://en.prothomalo.com/environment/lsjp2c74gu"
+    }
+  },
+  "Vietnam": {
+    "agency": "National Centre for Hydro-Meteorological Forecasting",
+    "short": "NCHMF",
+    "basis": "tmax",
+    "flag": 0,
+    "levels": [
+      [35,"Hot spell"],
+      [37,"Severe hot spell"],
+      [39,"Extreme hot spell"]
+    ],
+    "source": {
+      "label": "National heat bulletin, 2026",
+      "url": "https://kttv.gov.vn//upload/thoitiet/2026/4/13/dbqg_nong_20260413_1400.pdf"
+    }
+  },
+  "India": {
+    "agency": "India Meteorological Department",
+    "short": "IMD",
+    "basis": "tmax",
+    "flag": 0,
+    "levels": [
+      [45,"Heatwave"],
+      [47,"Severe heatwave"]
+    ],
+    "only": ["delhi","ahmedabad"],
+    "note": "IMD's rule for the plains when the temperature itself reaches 45 °C; its other rules compare with normal temperatures, which this estimate does not use.",
+    "source": {
+      "label": "IMD heat bulletin",
+      "url": "https://mausam.imd.gov.in/pdfs/heatcolduser/morning_heat_bulletin.pdf"
+    }
+  },
+  "Singapore": {
+    "agency": "National Environment Agency",
+    "short": "NEA",
+    "basis": "wbgt",
+    "flag": 0,
+    "levels": [
+      [33,"High heat stress"]
+    ],
+    "source": {
+      "label": "Heat Stress Advisory, Ministry of Sustainability and the Environment",
+      "url": "https://mse.gov.sg/latest-news/press-release-heat-stress-advisory"
+    }
+  }
+}

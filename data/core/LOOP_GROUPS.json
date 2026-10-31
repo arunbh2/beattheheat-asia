@@ -1,0 +1,18 @@
+[
+  {
+    "id": "heat",
+    "name": "Loops that feed the heat itself"
+  },
+  {
+    "id": "systems",
+    "name": "Loops that break the systems we rely on"
+  },
+  {
+    "id": "people",
+    "name": "Loops that trap people"
+  },
+  {
+    "id": "inst",
+    "name": "Loops inside institutions"
+  }
+]

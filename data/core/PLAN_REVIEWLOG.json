@@ -1,0 +1,22 @@
+[
+  {
+    "id": "happened",
+    "name": "What happened",
+    "placeholder": "e.g. three red-alert days in May; cooling stations opened late in two wards"
+  },
+  {
+    "id": "missed",
+    "name": "Who was still unprotected",
+    "placeholder": "e.g. night-shift workers; renters on upper floors"
+  },
+  {
+    "id": "why",
+    "name": "Why delivery differed from the plan",
+    "placeholder": "e.g. water tankers were not contracted in time"
+  },
+  {
+    "id": "change",
+    "name": "Which decision or budget changes next",
+    "placeholder": "e.g. sign tanker contracts in February; move money to night outreach"
+  }
+]

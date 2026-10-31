@@ -1,0 +1,192 @@
+[
+  {
+    "id": "owner",
+    "video": "media/stalls/owner.mp4",
+    "length": "0:23",
+    "name": "Heat has no single owner",
+    "sign": "Heat sits between health, disaster, labour and urban departments, so no single department holds the mandate or the budget line.",
+    "moves": [
+      "Name one lead agency with a legal mandate and a named heat officer",
+      "Run a standing heat committee across departments that meets before the season, not during it",
+      "Convene a standing network of departments, anchored by the planning and disaster agencies, that reviews progress every six to eight months",
+      "Tie the heat plan to disaster law so its instructions carry weight"
+    ],
+    "more": [
+      {
+        "fact": "In 2024 Tamil Nadu’s State Planning Commission convened a Heat Action Network of line departments to write a state-wide heat strategy, with progress reviews every 6–8 months.",
+        "source": {
+          "label": "Tamil Nadu Heat Mitigation Strategy, 2024",
+          "url": "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf"
+        }
+      },
+      {
+        "fact": "Plans pay off: across 23 advanced economies, firms lost less productivity to heat after their country adopted a national adaptation plan or strategy.",
+        "source": {
+          "label": "OECD Economics Department, 2024",
+          "url": "https://doi.org/10.1787/19d94638-en"
+        }
+      }
+    ],
+    "fact": "Most of 37 Indian heat action plans reviewed cite no legal source for their authority, which weakens accountability.",
+    "source": {
+      "label": "Centre for Policy Research, 2023",
+      "url": "https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/"
+    },
+    "levers": ["hap","heatbudget"],
+    "loops": []
+  },
+  {
+    "id": "money",
+    "video": "media/stalls/money.mp4",
+    "length": "0:21",
+    "name": "Money arrives after the emergency",
+    "sign": "Budgets are drawn up for relief, not prevention, and short political cycles reward a visible response over quiet risk reduction.",
+    "moves": [
+      "Set aside a heat budget before the season starts",
+      "Write heat targets into schemes that already have money, such as urban infrastructure, housing and street-vendor support",
+      "Agree forecast triggers that release money before the peak",
+      "Report progress publicly every year, so prevention becomes visible"
+    ],
+    "fact": "Of the 37 plans, 11 discussed funding, and 8 of those simply asked departments to find their own money.",
+    "source": {
+      "label": "Centre for Policy Research, 2023",
+      "url": "https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/"
+    },
+    "more": [
+      {
+        "fact": "In Nepal’s Madhesh Province, where the southern plains passed 40 °C on 50 days in 2024, the province and five municipalities committed 5% of sectoral budgets to adaptation and disaster risk reduction, after resilience assessments in 57 communities supported by Practical Action and Mercy Corps through the Zurich Climate Resilience Alliance.",
+        "source": {
+          "label": "CEEW, Nepal in a Warming World, 2025",
+          "url": "https://www.ceew.in/publications/nepal-heat-health-action"
+        }
+      }
+    ],
+    "levers": ["heatbudget","anticipatory"],
+    "loops": ["reactive"]
+  },
+  {
+    "id": "invisible",
+    "video": "media/stalls/invisible.mp4",
+    "length": "0:19",
+    "name": "Heat stays invisible",
+    "sign": "Deaths are recorded as heart or kidney failure, local risk is not mapped, and heat feels like normal weather rather than an emergency.",
+    "moves": [
+      "Count excess deaths, not only certified heatstroke",
+      "Map who is exposed, ward by ward, and publish it",
+      "Put the cost in terms decision-makers feel: lost wages, output and school days"
+    ],
+    "fact": "Between March and July 2026, India’s heat surveillance logged 4,853 heatstroke cases but only 20 heatstroke deaths.",
+    "source": {
+      "label": "Ministry of Home Affairs, reported by Down To Earth, 2026",
+      "url": "https://www.downtoearth.org.in/climate-change/india-updates-disaster-list-to-include-heatwaves-and-lightning-after-finance-commission-push"
+    },
+    "more": [
+      {
+        "fact": "Heat losses build up quietly: shorter hours, spoiled goods and illness often fall below the thresholds for disaster relief, and borrowing or skipping care pushes the loss into the future.",
+        "source": {
+          "label": "AIDMI, southasiadisasters.net Issue 228: Small Heat Resilience Measures, Big Impact in Small Towns and on Small Businesses in India, 2026",
+          "url": "https://www.preventionweb.net/publication/documents-and-publications/small-heat-resilience-measures-big-impact-small-towns-and"
+        }
+      }
+    ],
+    "levers": ["countdeaths"],
+    "loops": ["invisible"]
+  },
+  {
+    "id": "skills",
+    "video": "media/stalls/skills.mp4",
+    "length": "0:20",
+    "name": "Too few people know how",
+    "sign": "Plans are often prepared with outside experts, and district teams may not get the training, time or handover they need when staff move on.",
+    "moves": [
+      "Train district and municipal staff every spring, before the first alert",
+      "Pair cities so newer ones learn from those with tested plans",
+      "Write heat roles into job descriptions so the skills survive staff transfers"
+    ],
+    "levers": ["hap","readyclinics"],
+    "loops": ["clinic"]
+  },
+  {
+    "id": "rules",
+    "video": "media/stalls/rules.mp4",
+    "length": "0:20",
+    "name": "Guidance not yet binding",
+    "sign": "Advice exists, but rest breaks, building codes and cooling standards are often voluntary or rarely inspected.",
+    "moves": [
+      "Make heat-safe work rules binding, with inspections in the hot months",
+      "Build heat into rules that already exist, such as state occupational safety rules, instead of waiting for a new law",
+      "Write cooling into building codes and public purchasing",
+      "Publish what was inspected and what was found"
+    ],
+    "fact": "In a study of 352 workers at seven salt pans in Tamil Nadu, close to 9 in 10 worked above recommended heat limits and none of the salt pans gave regular rest breaks. Workers above the limit had nearly three times the odds of reduced kidney function.",
+    "source": {
+      "label": "Venugopal et al., Kidney International Reports, 2023",
+      "url": "https://doi.org/10.1016/j.ekir.2023.04.011"
+    },
+    "more": [
+      {
+        "fact": "An analysis of India’s 2023 labour force survey found that 192 of 506 occupations, 38%, involve heat exposure, outdoors or on hot factory floors. The Factories Act, 1948 does not yet set heat-specific rules for cooling, water or rest.",
+        "source": {
+          "label": "AIDMI, southasiadisasters.net Issue 228: Small Heat Resilience Measures, Big Impact in Small Towns and on Small Businesses in India, 2026",
+          "url": "https://www.preventionweb.net/publication/documents-and-publications/small-heat-resilience-measures-big-impact-small-towns-and"
+        }
+      }
+    ],
+    "levers": ["heatrules","coolbydesign"],
+    "loops": ["poverty"]
+  },
+  {
+    "id": "room",
+    "video": "media/stalls/room.mp4",
+    "length": "0:24",
+    "name": "The people at risk aren’t in the room",
+    "sign": "Plans are often made without hearing from women, outdoor workers, older people, people with disabilities or migrants, so warnings and shelters miss them.",
+    "moves": [
+      "Bring workers’ unions, women’s groups and disability organisations into planning",
+      "Test every warning and shelter with the people it is meant for",
+      "Give communities a simple way to report what is not reaching them"
+    ],
+    "fact": "Only 2 of the 37 plans included an assessment of who is most vulnerable.",
+    "source": {
+      "label": "Centre for Policy Research, 2023",
+      "url": "https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/"
+    },
+    "levers": ["hap","coolingcentres"],
+    "loops": []
+  },
+  {
+    "id": "scale",
+    "video": "media/stalls/scale.mp4",
+    "length": "0:22",
+    "name": "Good solutions stay small",
+    "sign": "Cool roofs, efficient cooling and heat insurance work in pilots, but prices stay high, standards are missing and finance does not follow.",
+    "moves": [
+      "Pool purchases across cities and agencies to bring prices down",
+      "Set performance standards and labels so buyers can trust products",
+      "Blend public and private money so pilots can grow"
+    ],
+    "fact": "Heat early warnings are among the best-proven protections, yet roughly half of all countries still have no heat early warning system.",
+    "source": {
+      "label": "IFRC, Practical Action and the Climate Centre, 2026",
+      "url": "https://www.preventionweb.net/publication/documents-and-publications/understanding-global-landscape-heat-early-warning-systems"
+    },
+    "more": [
+      {
+        "fact": "Companies see the risk but rarely act on it yet: in a 2026 survey of 40 senior business leaders, about half had not assessed their workers’ heat exposure and only 28% had piloted or scaled up protection.",
+        "source": {
+          "label": "World Economic Forum and BCG, Workforce Heat Resilience: An Actionable Framework to Close the Execution Gap, 2026",
+          "url": "https://www.weforum.org/publications/workforce-heat-resilience-an-actionable-framework-to-close-the-execution-gap/"
+        }
+      },
+      {
+        "fact": "Adaptation finance for developing countries needs to be 12–14 times current flows, and heat gets an even smaller share. Apparel buyers can help suppliers invest through longer contracts and volume assurances.",
+        "source": {
+          "label": "FSG, Managing Heat: From Worker Welfare to Business Resilience, 2026",
+          "url": "https://www.fsg.org/wp-content/uploads/2026/04/Managing-Heat-From-Worker-Welfare-to-Business-Resilience_FINAL-4-2-26.pdf"
+        }
+      }
+    ],
+    "levers": ["coolhousing","cleancool","riskpools"],
+    "loops": ["protection"]
+  }
+]

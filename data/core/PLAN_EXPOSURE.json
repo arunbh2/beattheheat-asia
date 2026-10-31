@@ -1,0 +1,37 @@
+[
+  {
+    "id": "indoor",
+    "q": "Do they spend the hot hours indoors, in homes, sheds, kitchens or factories?",
+    "prompt": "Measure heat where they are, not only at the weather station, and count hot nights indoors."
+  },
+  {
+    "id": "heavy",
+    "q": "Do they do heavy physical work in the heat?",
+    "prompt": "Agree rest breaks and earlier shifts that switch on with each alert level."
+  },
+  {
+    "id": "radiant",
+    "q": "Do they work or live near sun-baked surfaces, metal roofs, furnaces, stoves or open fires?",
+    "prompt": "Shade, insulate or move the work: radiant heat adds to the air temperature."
+  },
+  {
+    "id": "clothing",
+    "q": "Do they wear protective clothing, uniforms or gear that holds heat in?",
+    "prompt": "Plan shorter rotations in full gear, cool rest areas, water, and cooling for the work space."
+  },
+  {
+    "id": "rest",
+    "q": "Would resting cost them pay, or is there no shade or water close by?",
+    "prompt": "Pair the alert with income protection, water points and shade within reach."
+  },
+  {
+    "id": "night",
+    "q": "Do they sleep in rooms that stay hot at night?",
+    "prompt": "Warn for hot nights, keep cooling spaces open in the evening, and check on people who are alone."
+  },
+  {
+    "id": "person",
+    "q": "Are many of them older, ill, pregnant or on long-term medicines?",
+    "prompt": "Plan check-in calls and clinic advice. Never advise changing medicines: ask a doctor, nurse or pharmacist what to watch for."
+  }
+]

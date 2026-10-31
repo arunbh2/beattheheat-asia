@@ -1,0 +1,27 @@
+[
+  {
+    "q": "How do I protect outdoor workers?",
+    "go": "work"
+  },
+  {
+    "q": "How do I cool homes or classrooms?",
+    "go": "homes",
+    "also": "schools"
+  },
+  {
+    "q": "What should our municipality do before summer?",
+    "go": "summer"
+  },
+  {
+    "q": "Why are our interventions failing?",
+    "go": "stalls"
+  },
+  {
+    "q": "What would this mean for one worker?",
+    "go": "heatweek"
+  },
+  {
+    "q": "How do we pay for protection?",
+    "go": "finance"
+  }
+]

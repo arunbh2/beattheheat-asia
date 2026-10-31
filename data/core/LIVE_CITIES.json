@@ -1,0 +1,135 @@
+[
+  {
+    "id": "singapore",
+    "name": "Singapore",
+    "country": "Singapore",
+    "lat": 1.35,
+    "lon": 103.82,
+    "wbgt": true,
+    "warn": {
+      "label": "Meteorological Service Singapore",
+      "url": "https://www.weather.gov.sg/"
+    }
+  },
+  {
+    "id": "bangkok",
+    "name": "Bangkok",
+    "country": "Thailand",
+    "lat": 13.75,
+    "lon": 100.5,
+    "warn": {
+      "label": "Thai Meteorological Department",
+      "url": "https://www.tmd.go.th/"
+    }
+  },
+  {
+    "id": "hanoi",
+    "name": "Hanoi",
+    "country": "Vietnam",
+    "lat": 21.03,
+    "lon": 105.85,
+    "warn": {
+      "label": "National Centre for Hydro-Meteorological Forecasting",
+      "url": "https://nchmf.gov.vn/"
+    }
+  },
+  {
+    "id": "manila",
+    "name": "Manila",
+    "country": "Philippines",
+    "lat": 14.6,
+    "lon": 120.98,
+    "warn": {
+      "label": "PAGASA heat index",
+      "url": "https://www.pagasa.dost.gov.ph/weather/heat-index"
+    }
+  },
+  {
+    "id": "jakarta",
+    "name": "Jakarta",
+    "country": "Indonesia",
+    "lat": -6.21,
+    "lon": 106.85,
+    "warn": {
+      "label": "BMKG",
+      "url": "https://www.bmkg.go.id/"
+    }
+  },
+  {
+    "id": "delhi",
+    "name": "Delhi",
+    "country": "India",
+    "lat": 28.61,
+    "lon": 77.21,
+    "warn": {
+      "label": "India Meteorological Department",
+      "url": "https://mausam.imd.gov.in/"
+    }
+  },
+  {
+    "id": "dhaka",
+    "name": "Dhaka",
+    "country": "Bangladesh",
+    "lat": 23.81,
+    "lon": 90.41,
+    "warn": {
+      "label": "Bangladesh Meteorological Department",
+      "url": "https://www.bmd.gov.bd/"
+    }
+  },
+  {
+    "id": "kathmandu",
+    "name": "Kathmandu",
+    "country": "Nepal",
+    "lat": 27.72,
+    "lon": 85.32,
+    "warn": {
+      "label": "Department of Hydrology and Meteorology",
+      "url": "https://www.mfd.gov.np/"
+    }
+  },
+  {
+    "id": "mumbai",
+    "name": "Mumbai",
+    "country": "India",
+    "lat": 19.08,
+    "lon": 72.88,
+    "warn": {
+      "label": "India Meteorological Department",
+      "url": "https://mausam.imd.gov.in/"
+    }
+  },
+  {
+    "id": "ahmedabad",
+    "name": "Ahmedabad",
+    "country": "India",
+    "lat": 23.02,
+    "lon": 72.57,
+    "warn": {
+      "label": "India Meteorological Department",
+      "url": "https://mausam.imd.gov.in/"
+    }
+  },
+  {
+    "id": "colombo",
+    "name": "Colombo",
+    "country": "Sri Lanka",
+    "lat": 6.93,
+    "lon": 79.86,
+    "warn": {
+      "label": "Department of Meteorology, Sri Lanka",
+      "url": "https://www.meteo.gov.lk/"
+    }
+  },
+  {
+    "id": "phnompenh",
+    "name": "Phnom Penh",
+    "country": "Cambodia",
+    "lat": 11.56,
+    "lon": 104.92,
+    "warn": {
+      "label": "Ministry of Water Resources and Meteorology",
+      "url": "https://www.mowram.gov.kh/"
+    }
+  }
+]

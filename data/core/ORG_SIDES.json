@@ -1,0 +1,17 @@
+[
+  {
+    "id": "demand",
+    "name": "Demand",
+    "text": "Holds the need or the duty to protect people: governments and public agencies, employers, and organisations of the workers and communities affected."
+  },
+  {
+    "id": "supply",
+    "name": "Supply",
+    "text": "Provides what protection needs: technology, services and delivery on the ground, insurance, lending and grants, research and data."
+  },
+  {
+    "id": "platform",
+    "name": "Platform",
+    "text": "Connects demand and supply: networks, alliances and conveners, and the bodies that set shared rules or standards for a market."
+  }
+]

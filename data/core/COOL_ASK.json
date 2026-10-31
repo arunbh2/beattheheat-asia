@@ -1,0 +1,33 @@
+{
+  "frame": [
+    {
+      "id": "avoid",
+      "name": "Avoid",
+      "text": "Cut the need for cooling first: shade, cooler roofs, air flow and trees."
+    },
+    {
+      "id": "improve",
+      "name": "Improve",
+      "text": "Where machines are needed, choose efficient ones that run on the power and water you really have."
+    },
+    {
+      "id": "access",
+      "name": "Expand access",
+      "text": "Make sure the people most exposed can reach cooling and afford to keep it running."
+    }
+  ],
+  "frameSource": {
+    "label": "Clean Cooling Collaborative’s three goals, summarised by Philanthropy Asia Alliance",
+    "url": "https://philanthropyasiaalliance.org/our-impact/climate---nature/calls-to-action/clean-cooling-collaborative"
+  },
+  "questions": [
+    "Does it need electricity, and is the supply reliable in the hottest weeks?",
+    "What happens in a power cut: does it stop, or keep cooling without power?",
+    "Does it need water, and where will that water come from in a dry spell?",
+    "Who services or repairs it, and how fast?",
+    "Who owns the running cost each year, and from which budget?",
+    "Who can use it: renters, women, older people, people with disabilities?"
+  ],
+  "outcomesShort": "a cooler room, comfort, less heat strain, better health and kept income are different outcomes; measure the one you mean.",
+  "outcomes": "Name the outcome you want: a cooler room, people feeling comfortable, less heat strain on the body, fewer illnesses, or income kept. They are different. A cooler room does not prove better health, and comfort does not prove less strain, so measure the one you mean."
+}
