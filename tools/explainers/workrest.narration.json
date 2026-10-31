@@ -1,0 +1,14 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "How do you keep working when it’s too hot to work?",
+  "You build rest into every hour. | In Singapore, heavy outdoor work at a WBGT of thirty-two or more needs at least ten minutes of shaded rest an hour.",
+  "Rules work when they’re checked. | In 2024, inspectors visited two hundred and fifty sites, and acted against seventy-eight.",
+  "Rest protects when it’s shaded, built in, and actually taken."
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "Would this heatwave have happened anyway?",
+  "Climate attribution answers that. | In 2025, each person lived through thirteen and a half heatwave days on average. | About eleven of them would not have been expected without climate change.",
+  "And of the heat deaths in 2023, | the report attributes seventy-one and a half per cent to climate change.",
+  "Not bad luck: a cause we can act on."
+ ]
+}

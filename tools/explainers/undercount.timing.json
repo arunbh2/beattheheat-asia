@@ -1,0 +1,48 @@
+{
+ "total": 40.58,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "How many people did the heat kill?"
+  },
+  {
+   "start": 5.0,
+   "dur": 9.85,
+   "beats": [
+    0.6,
+    3.62,
+    7.37
+   ],
+   "text": "The honest answer is: we often don\u2019t know. Death certificates record the immediate cause, like a heart attack, not the heat that triggered it."
+  },
+  {
+   "start": 14.85,
+   "dur": 13.39,
+   "beats": [
+    0.6,
+    7.83
+   ],
+   "text": "In India in 2024, a hundred and eighty-five heatstroke deaths were confirmed, against more than forty-eight thousand suspected heatstroke cases."
+  },
+  {
+   "start": 28.24,
+   "dur": 7.34,
+   "beats": [
+    0.6
+   ],
+   "text": "Counting excess deaths, above the normal for that time of year, shows the fuller toll."
+  },
+  {
+   "start": 35.58,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "What isn\u2019t counted is hard to plan for."
+  }
+ ]
+}

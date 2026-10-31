@@ -1,0 +1,39 @@
+{
+ "total": 31.83,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Can the ground itself burn?"
+  },
+  {
+   "start": 5.0,
+   "dur": 13.47,
+   "beats": [
+    0.6,
+    5.58,
+    9.26
+   ],
+   "text": "Peat can. It\u2019s thick, wet soil, made of plants that never fully rotted. Drain it, and in a hot, dry season it catches, and smoulders underground, filling the sky with haze."
+  },
+  {
+   "start": 18.47,
+   "dur": 8.36,
+   "beats": [
+    0.6
+   ],
+   "text": "Indonesia\u2019s 2015 fires cost an estimated sixteen point one billion dollars."
+  },
+  {
+   "start": 26.83,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Keep peat wet, and it stays in the ground."
+  }
+ ]
+}

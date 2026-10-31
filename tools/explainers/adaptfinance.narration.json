@@ -1,0 +1,14 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "Who pays to protect health from heat?",
+  "Forty-eight countries put a price on protecting health: about three point three billion dollars a year. | In 2024, international funding committed covered about a third.",
+  "That leaves about two-thirds unfunded. | Clinics, warnings and cooler wards wait on that money.",
+  "Close the gap before the next heatwave."
+ ]
+}

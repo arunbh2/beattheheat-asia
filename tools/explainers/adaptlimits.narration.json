@@ -1,0 +1,14 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "Can we just get used to the heat?",
+  "Up to a point, yes. | Places used to heat cope better with days of thirty to thirty-five degrees. | But beyond forty, a study of two point seven million firms found no adaptation at all.",
+  "Some heat can’t be adapted to. | Cutting emissions keeps more places below the limit.",
+  "Adapt where we can. Cut emissions so we still can."
+ ]
+}

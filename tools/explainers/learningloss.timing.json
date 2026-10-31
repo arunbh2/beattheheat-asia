@@ -1,0 +1,41 @@
+{
+ "total": 33.13,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "What happens to school in a heatwave?"
+  },
+  {
+   "start": 5.0,
+   "dur": 13.31,
+   "beats": [
+    0.6,
+    8.03
+   ],
+   "text": "In April 2024, Bangladesh closed schools for about thirty-three million children. In the Philippines, more than five thousand schools moved to remote learning."
+  },
+  {
+   "start": 18.31,
+   "dur": 9.38,
+   "beats": [
+    0.6,
+    1.83,
+    3.31,
+    6.1
+   ],
+   "text": "What helps: cooler classrooms, timetables that dodge the hottest hours, and water and shade at every school."
+  },
+  {
+   "start": 27.69,
+   "dur": 5.44,
+   "beats": [
+    0.6
+   ],
+   "text": "Every closed day is learning lost. Plan to stay open."
+  }
+ ]
+}

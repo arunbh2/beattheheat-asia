@@ -1,0 +1,42 @@
+{
+ "total": 29.6,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Can a fix for heat make heat worse?"
+  },
+  {
+   "start": 5.0,
+   "dur": 11.29,
+   "beats": [
+    0.6,
+    3.22,
+    5.4
+   ],
+   "text": "Yes. That\u2019s maladaptation. An air conditioner cools a room, but it pumps that heat into the street, and studies link it to warmer nights outside."
+  },
+  {
+   "start": 16.29,
+   "dur": 8.31,
+   "beats": [
+    0.6,
+    2.67,
+    4.46,
+    5.91
+   ],
+   "text": "So before any fix, ask: who else does this affect? What happens later? And who is left out?"
+  },
+  {
+   "start": 24.6,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Cool one place without heating another."
+  }
+ ]
+}

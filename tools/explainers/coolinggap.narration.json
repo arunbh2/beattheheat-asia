@@ -1,0 +1,15 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "Who gets to be cool?",
+  "Air conditioning may have prevented three hundred and sixty thousand deaths a year.",
+  "But in the poorest countries, only about three in every hundred households have it. | That’s the cooling gap.",
+  "Close it with shade, cool roofs and efficient fans first, | because cooling now drives a growing share of energy emissions.",
+  "Cool for everyone, without heating the planet."
+ ]
+}

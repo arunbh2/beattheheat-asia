@@ -1,0 +1,14 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "Why do the lights go out in a heatwave?",
+  "Heat pushes demand up, as everyone switches on cooling. | If supply falls at the same time, the lines cross, | and the power goes out.",
+  "In northern Viet Nam in 2023, heat met low hydropower reservoirs. | Blackouts cost about one point four billion dollars.",
+  "Shave the peak: cooler buildings, smarter demand."
+ ]
+}

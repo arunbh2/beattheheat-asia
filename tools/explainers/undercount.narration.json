@@ -1,0 +1,15 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "How many people did the heat kill?",
+  "The honest answer is: we often don’t know. | Death certificates record the immediate cause, like a heart attack, | not the heat that triggered it.",
+  "In India in 2024, a hundred and eighty-five heatstroke deaths were confirmed, | against more than forty-eight thousand suspected heatstroke cases.",
+  "Counting excess deaths, above the normal for that time of year, shows the fuller toll.",
+  "What isn’t counted is hard to plan for."
+ ]
+}

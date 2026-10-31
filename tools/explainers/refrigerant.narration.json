@@ -1,0 +1,14 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "What actually carries the heat out of your room?",
+  "A refrigerant. | Inside, it boils and soaks up the room’s heat. | A compressor squeezes it, | and outside, it gives the heat away. Then round it goes again.",
+  "The catch: many common refrigerants are powerful greenhouse gases if they leak. | The Kigali Amendment, in force since 2019, phases down the worst of them.",
+  "Better cooling means better refrigerants, and no leaks."
+ ]
+}

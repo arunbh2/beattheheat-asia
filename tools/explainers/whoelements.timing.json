@@ -1,0 +1,40 @@
+{
+ "total": 33.72,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "What makes a heat plan complete?"
+  },
+  {
+   "start": 5.0,
+   "dur": 16.18,
+   "beats": [
+    0.6,
+    4.03,
+    10.05
+   ],
+   "text": "The World Health Organization lists eight core elements. From who leads, and the warnings, to the people most at risk and how messages reach them; from clinics, and cutting exposure, to tracking illness, and learning after every season."
+  },
+  {
+   "start": 21.18,
+   "dur": 7.54,
+   "beats": [
+    0.6,
+    2.69
+   ],
+   "text": "The one most often missed is learning: a review after each season, so next year\u2019s plan is better."
+  },
+  {
+   "start": 28.72,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "A checklist to run before the heat, not during it."
+  }
+ ]
+}

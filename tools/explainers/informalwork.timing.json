@@ -1,0 +1,40 @@
+{
+ "total": 32.42,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "No contract. No sick pay. No shade."
+  },
+  {
+   "start": 5.0,
+   "dur": 13.02,
+   "beats": [
+    0.6,
+    2.2,
+    5.47
+   ],
+   "text": "That\u2019s informal work: street vending, building sites, farms, and work at home. Heat takes more of their hours: about two point four per cent, against one point four for formal workers."
+  },
+  {
+   "start": 18.02,
+   "dur": 9.4,
+   "beats": [
+    0.6,
+    5.97
+   ],
+   "text": "In Bangkok, nearly eight in ten informal workers surveyed cut their hours in the heat. Less work means less pay, the same day."
+  },
+  {
+   "start": 27.42,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Protection has to reach people without an employer."
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "How can a brick kiln melt a glacier?",
+  "Through black carbon: soot. | It warms the air as it drifts. | Then it settles on snow and ice, | darkening them, so they soak up sunlight and melt faster.",
+  "In the Hindu Kush Himalaya, glaciers lost ice sixty-five per cent faster in the 2010s.",
+  "Cleaner stoves, engines and kilns cut it, | and clean the air people breathe.",
+  "Less soot, slower melt, cleaner air."
+ ]
+}

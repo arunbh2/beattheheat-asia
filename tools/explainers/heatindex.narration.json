@@ -1,0 +1,15 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "The thermometer says thirty-four degrees. | So why does it feel like forty-two?",
+  "The heat index is the feels-like temperature in the shade. | It adds humidity to the air temperature, | because damp air slows the sweat that cools you.",
+  "In the Philippines, the weather service sorts it into four bands. | From forty-two degrees, the heat index is officially a danger level.",
+  "It’s measured in the shade. | Sun, wind and hard work aren’t in it. For those, there’s WBGT.",
+  "Check the feels-like, not just the forecast."
+ ]
+}

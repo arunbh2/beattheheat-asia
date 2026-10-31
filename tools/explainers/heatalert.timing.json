@@ -1,0 +1,40 @@
+{
+ "total": 28.55,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6,
+    2.3
+   ],
+   "text": "A heat warning goes out. Then what?"
+  },
+  {
+   "start": 5.0,
+   "dur": 7.12,
+   "beats": [
+    0.6,
+    2.58
+   ],
+   "text": "Good alerts come in levels, and each level switches on named actions, like these."
+  },
+  {
+   "start": 12.12,
+   "dur": 11.43,
+   "beats": [
+    0.6,
+    6.05
+   ],
+   "text": "Delhi\u2019s 2025 plan tied its graded alerts to cooling shelters, three thousand water points, and heatstroke units in hospitals."
+  },
+  {
+   "start": 23.55,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "A warning is only as good as what it switches on."
+  }
+ ]
+}

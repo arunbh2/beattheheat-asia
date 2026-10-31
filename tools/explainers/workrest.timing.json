@@ -1,0 +1,39 @@
+{
+ "total": 34.63,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "How do you keep working when it\u2019s too hot to work?"
+  },
+  {
+   "start": 5.0,
+   "dur": 12.8,
+   "beats": [
+    0.6,
+    2.94
+   ],
+   "text": "You build rest into every hour. In Singapore, heavy outdoor work at a WBGT of thirty-two or more needs at least ten minutes of shaded rest an hour."
+  },
+  {
+   "start": 17.8,
+   "dur": 11.09,
+   "beats": [
+    0.6,
+    2.37
+   ],
+   "text": "Rules work when they\u2019re checked. In 2024, inspectors visited two hundred and fifty sites, and acted against seventy-eight."
+  },
+  {
+   "start": 28.89,
+   "dur": 5.74,
+   "beats": [
+    0.6
+   ],
+   "text": "Rest protects when it\u2019s shaded, built in, and actually taken."
+  }
+ ]
+}
