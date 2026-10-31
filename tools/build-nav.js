@@ -1,4 +1,5 @@
-// Puts the one site navigation (tools/site-nav.js) on every page except the home page, which has its own.
+// Puts the one site navigation (tools/site-nav.js) on every page, the home page included: header, menu panels, search,
+// paths by role, the path card on pages that are a stop on a path, and the footer with its citation.
 // Safe to run again: everything it adds sits between <!--csn--> markers and is replaced, not duplicated.
 "use strict";
 const fs = require("fs");
@@ -16,6 +17,8 @@ const TICKER = `<div class="ticker" id="cs-ticker" role="region" aria-label="Liv
   <button type="button" class="ticker__pause" id="cs-ticker-pause" aria-pressed="false">Pause</button>
 </div>
 `;
+const NOSCRIPT = `<noscript><style>.csn__gb,.csn__tools{display:none!important}.csn__gl{display:inline-flex;align-items:center;height:40px;padding:0 14px;font-weight:700}@media (max-width:960px){.csn__main{display:block!important}}</style></noscript>`;
+const UPDATED = new Date().toLocaleDateString("en-GB", { month: "long", year: "numeric" });
 const SKIP = new Set(["node_modules", ".git", "research", "tools", "docs", "images", "media", "feeds"]);
 
 function pages(dir, out = []) {
@@ -40,15 +43,15 @@ function titleOf(html) {
   return t.length > 70 ? t.slice(0, 67).replace(/\s+\S*$/, "") + "…" : t;
 }
 
-function apply(file) {
+function apply(file, pn) {
   let html = fs.readFileSync(file, "utf8");
-  const pathname = "/" + path.relative(ROOT, path.dirname(file)).split(path.sep).join("/") + "/";
+  const pathname = pn || "/" + path.relative(ROOT, path.dirname(file)).split(path.sep).join("/") + "/";
   // undo an earlier run
   html = html.replace(/<!--csn-->[\s\S]*?<!--\/csn-->\n?/g, "");
   const title = titleOf(html);
 
   // styles and the small menu script, once, in the head
-  html = html.replace("</head>", `<!--csn--><style id="csn-css">${NAV.CSS}\n${TICKER_CSS}</style><!--/csn-->\n</head>`);
+  html = html.replace("</head>", `<!--csn--><style id="csn-css">${NAV.CSS}\n${TICKER_CSS}</style>${NOSCRIPT}<!--/csn-->\n</head>`);
 
   // the header: replace the page's old site header if it has one, otherwise put it straight after <body> (or its skip link)
   const head = `<!--csn-->${TICKER}${NAV.header(pathname, title)}<!--/csn-->`;
@@ -67,26 +70,36 @@ function apply(file) {
     html = html.replace(/(<body[^>]*>)/, `$1\n<!--csn--><a class="csn-skip" href="#${id}">Skip to the content</a><!--/csn-->`);
   }
   // the site map, just above the page's own footer line (or at the end)
-  const foot = `<!--csn-->${NAV.footer(pathname)}<script>${NAV.JS}</script><script src="/ticker.js?v=${V}" defer></script><!--/csn-->\n`;
+  // on a page that is a stop on a path, the path card opens the main content (shown only to readers on that path)
+  const cards = NAV.pathCards(pathname);
+  if (cards) html = html.replace(/(<main[^>]*>)/, `$1\n<!--csn-->${cards}<!--/csn-->`);
+  const foot = `<!--csn-->${NAV.footer(pathname, title, UPDATED)}<script>${NAV.JS}</script><script src="/ticker.js?v=${V}" defer></script><!--/csn-->\n`;
   const fAt = html.lastIndexOf("<footer");
   html = fAt > -1 && fAt > mainAt ? html.slice(0, fAt) + foot + html.slice(fAt) : html.replace(/<\/body>/, foot + "</body>");
   fs.writeFileSync(file, html);
 }
 
-// the home page keeps its own header and menu; it gets the shared site map at the foot
+// the home page: the same header replaces its own (its live ticker stays where it is), and the same footer
 function applyHome() {
   const file = path.join(ROOT, "index.html");
-  let html = fs.readFileSync(file, "utf8").replace(/<!--csn-->[\s\S]*?<!--\/csn-->\n?/g, "");
-  html = html.replace("</head>", `<!--csn--><style id="csn-css">${NAV.CSS}</style><!--/csn-->\n</head>`);
+  // keep the header's place: the old header the first time, the marker of our own header after that
+  let html = fs.readFileSync(file, "utf8").replace(/<!--csn--><header class="csn"[\s\S]*?<\/header><!--\/csn-->/, "<!--csn-header-->")
+    .replace(/<!--csn-->[\s\S]*?<!--\/csn-->\n?/g, "");
+  html = html.replace("</head>", `<!--csn--><style id="csn-css">${NAV.CSS}</style>${NOSCRIPT}<!--/csn-->\n</head>`);
+  const head = `<!--csn-->${NAV.header("/", "The map of extreme heat")}<!--/csn-->`;
+  const hAt = html.search(/<header class="site-header"/);
+  if (html.includes("<!--csn-header-->")) html = html.replace("<!--csn-header-->", head);
+  else if (hAt > -1) { const end = html.indexOf("</header>", hAt) + "</header>".length; html = html.slice(0, hAt) + head + html.slice(end); }
   const fAt = html.lastIndexOf("<footer");
-  const foot = `<!--csn-->${NAV.footer("/").replace('href="#top"', 'href="#home-top"')}<!--/csn-->\n`;
+  const foot = `<!--csn-->${NAV.footer("/", "Extreme heat, in one map", UPDATED)}<script>${NAV.JS}</script><!--/csn-->\n`;
   html = fAt > -1 ? html.slice(0, fAt) + foot + html.slice(fAt) : html.replace("</body>", foot + "</body>");
   fs.writeFileSync(file, html);
 }
 
 module.exports = function buildNav() {
   const list = pages(ROOT);
-  list.forEach(apply);
+  list.forEach(f => apply(f));
+  if (fs.existsSync(path.join(ROOT, "404.html"))) apply(path.join(ROOT, "404.html"), "/404/");
   applyHome();
   console.log("Navigation on", list.length, "pages");
 };

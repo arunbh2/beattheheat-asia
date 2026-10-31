@@ -1,0 +1,174 @@
+// Builds the pages that hold the site together: the four group hubs, paths by role, State of the field,
+// How Common Shade sees heat, Cite and reuse, the 404 page, and the search index. Words come from data/site and
+// data/kb; build-nav.js then adds the shared header and footer. Run by build-static.js before build-nav.js.
+"use strict";
+const fs = require("fs"), path = require("path"), vm = require("vm");
+const ROOT = path.join(__dirname, ".."), SITE = "https://beattheheat.asia";
+const NAV = require("./site-nav.js");
+const NAVJ = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "nav.json"), "utf8"));
+const PATHS = NAV.PATHS;
+const esc = s => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+const V = (fs.readFileSync(path.join(ROOT, "index.html"), "utf8").match(/styles\.css\?v=(\d+)/) || [, "1"])[1];
+const ctx = {}; vm.createContext(ctx);
+vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + ";this.D={GLOSSARY,LOOPS,LIVE_CITIES,CITY_PROFILES,HEATWAVES,ORGANISATIONS,ORG_ROLES,SYSTEMS}", ctx);
+const D = ctx.D;
+const MONTH = new Date().toLocaleDateString("en-GB", { month: "long", year: "numeric" });
+
+function page(slug, title, desc, body, extraHead = "") {
+  const url = `${SITE}/${slug ? slug + "/" : ""}`;
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>${esc(title)} · Common Shade</title>
+  <meta name="description" content="${esc(desc)}">
+  <meta name="theme-color" content="#16202B">
+  <link rel="canonical" href="${url}">
+  <link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+  <meta property="og:type" content="website"><meta property="og:site_name" content="Common Shade">
+  <meta property="og:url" content="${url}"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}">
+  <meta property="og:image" content="${SITE}/images/social-share-cs.jpg"><meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400&display=swap">
+  <link rel="stylesheet" href="/styles.css?v=${V}">${extraHead}
+</head>
+<body class="cs-pg">
+  <a class="skip-link" href="#main">Skip to the content</a>
+  <main id="main" tabindex="-1">
+${body}
+  </main>
+  <footer class="wkp-foot"><div class="container"><p>Common Shade · Text: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="/sources/">All sources</a></p></div></footer>
+</body>
+</html>
+`;
+}
+const write = (slug, html) => { const dir = path.join(ROOT, slug); fs.mkdirSync(dir, { recursive: true }); fs.writeFileSync(path.join(dir, "index.html"), html); };
+const hero = (k, h, p) => `<header class="pg-hero"><div class="container"><p class="eyebrow">${esc(k)}</p><h1 class="pg-h1">${h}</h1>${p ? `<p class="pg-lede">${p}</p>` : ""}</div></header>`;
+const pathsFor = url => PATHS.paths.filter(p => p.stops.some(s => s.url === url)).map(p => p.short);
+
+// ---- the four group hubs ----
+for (const g of NAVJ.groups) {
+  const all = [g.lead.concat([0]), ...g.items];
+  const card = ([u, t, d]) => { const who = pathsFor(u); return `<li><a class="hub-card" href="${u}"><b>${esc(t)}</b><span>${esc(d)}</span>${who.length ? `<small>On the path for: ${esc(who.join(", "))}</small>` : ""}</a></li>`; };
+  const onPaths = PATHS.paths.filter(p => p.stops.some(s => all.some(i => i[0] === s.url)));
+  const body = `${hero(g.h, esc(g.h), esc(g.intro))}
+    <section class="container hub">
+      <a class="hub-lead" href="${g.lead[0]}"><span class="eyebrow">Start with</span><b>${esc(g.lead[1])}</b><span>${esc(g.lead[2])}</span><span class="hub-go">Open <span aria-hidden="true">→</span></span></a>
+      <h2 class="hub-h">The core pages</h2>
+      <ul class="hub-grid">${g.items.filter(i => i[3] === 1).map(card).join("")}</ul>
+      ${g.items.some(i => i[3] === 2) ? `<h2 class="hub-h">Also in ${esc(g.h)}</h2><ul class="hub-grid hub-grid--quiet">${g.items.filter(i => i[3] === 2).map(card).join("")}</ul>` : ""}
+      ${onPaths.length ? `<h2 class="hub-h">Paths through this group</h2><p class="hub-p">Short, guided routes for each kind of reader. Choose one, and the site points you to your next stop.</p><ul class="hub-paths">${onPaths.map(p => `<li><a href="/paths/${p.id}/"><b>${esc(p.label)}</b><span>${esc(p.card)}</span></a></li>`).join("")}</ul>` : ""}
+    </section>`;
+  write(g.hub.replace(/^\/|\/$/g, ""), page(g.hub.replace(/^\/|\/$/g, ""), g.h, `${g.h} on Common Shade: ${g.intro}`, body));
+}
+
+// ---- paths by role ----
+write("paths", page("paths", "Paths by role", "Short, guided routes through Common Shade for funders, city teams, health workers, employers, community organisations, national governments and researchers.",
+  `${hero("Paths by role", "Find your way in", "Common Shade is large on purpose. You do not need all of it. Each path is five or so stops, each answering one question your work asks. Your choice stays in this browser, and you can leave a path at any time.")}
+    <section class="container hub"><ul class="hub-paths hub-paths--big">${PATHS.paths.map(p => `<li><a href="/paths/${p.id}/"><b>${esc(p.label)}</b><span>${esc(p.card)}</span><small>${p.stops.length} stops</small></a></li>`).join("")}</ul></section>`));
+for (const p of PATHS.paths) {
+  const stops = p.stops.map((s, i) => `<li class="path-stop"><span class="path-n">${i + 1}</span><div><h2><a href="${s.url}">${esc(s.q)}</a></h2><p>${esc(s.why)}</p>
+      ${s.read.length ? `<p class="path-read"><b>Read first:</b> ${s.read.map(([a, t]) => `<a href="${s.url}${a}">${esc(t)}</a>`).join(" · ")}</p>` : ""}${s.do ? `<p class="path-read"><b>Then:</b> <a href="${s.do[0]}">${esc(s.do[1])}</a></p>` : ""}</div></li>`).join("");
+  write(`paths/${p.id}`, page(`paths/${p.id}`, `${p.label}: a path through Common Shade`, `${p.card} A guided path for ${p.label.toLowerCase()}.`,
+    `${hero("Paths by role", esc(p.label), esc(p.card))}
+    <section class="container hub"><p class="path-start"><a class="hub-go hub-go--btn" href="${p.stops[0].url}" data-csn-setpath="${p.id}">Follow this path <span aria-hidden="true">→</span></a> <span>Your next stop will appear at the top of each page.</span></p>
+      <ol class="path-list">${stops}<li class="path-stop path-stop--end"><span class="path-n">✓</span><div><h2><a href="${PATHS.end.url}">${esc(PATHS.end.q)}</a></h2><p>${esc(p.join)} ${esc(PATHS.end.why)}</p></div></li></ol>
+      <p class="hub-p"><a href="/paths/">All paths</a></p></section>`));
+}
+
+// ---- State of the field: written each month from data/kb/_changes.json ----
+const changesF = path.join(ROOT, "data", "kb", "_changes.json");
+const changes = fs.existsSync(changesF) ? JSON.parse(fs.readFileSync(changesF, "utf8")) : [];
+const BRIEFS = path.join(ROOT, "data", "site", "briefs");
+const briefs = fs.existsSync(BRIEFS) ? fs.readdirSync(BRIEFS).filter(f => f.endsWith(".json")).sort().reverse().map(f => JSON.parse(fs.readFileSync(path.join(BRIEFS, f), "utf8"))) : [];
+const brief = b => `<article class="sof">
+      <p class="eyebrow">${esc(b.month_label)}</p><h2 class="sof-h">${esc(b.headline)}</h2>
+      <div class="sof-grid">${(b.sections || []).map(s => `<section class="sof-card"><p class="sof-k">${esc(s.k)}</p><h3>${esc(s.h)}</h3><p>${esc(s.p)}</p>${s.links ? `<p class="sof-links">${s.links.map(([u, t]) => `<a href="${esc(u)}">${esc(t)}</a>`).join(" · ")}</p>` : ""}</section>`).join("")}</div>
+      ${b.note ? `<p class="hub-p">${esc(b.note)}</p>` : ""}</article>`;
+write("whats-new", page("whats-new", "State of the field", "A monthly note on extreme heat in South and Southeast Asia: where money moved, what the evidence added, which questions grew in importance, and what changed on Common Shade.",
+  `${hero("News and evidence", "State of the field", "Each month: where money for protection moved, one opportunity the evidence supports, one question worth answering, and what changed here. Written from the knowledge base, under the same rules as everything else: careful, sourced, and clear about what is known, inferred or uncertain.")}
+    <section class="container hub">
+      ${briefs.length ? briefs.map(brief).join("") : `<div class="sof-empty"><p class="eyebrow">Coming next</p><h2 class="sof-h">The first brief arrives with the first monthly update</h2><p>Until then, the latest additions are listed below.</p></div>`}
+      <h2 class="hub-h">What changed in the knowledge base</h2>
+      ${changes.length ? `<ul class="sof-log">${changes.map(c => `<li><b>${esc(c.month)}</b>: ${c.published.length} new or updated ${c.published.length === 1 ? "record" : "records"}${c.held ? `, ${c.held} held back for checking` : ""}. ${c.published.slice(0, 6).map(r => esc(r.title)).join("; ")}${c.published.length > 6 ? "…" : ""}</li>`).join("")}</ul>` : `<p class="hub-p">No monthly updates yet. Records will appear here as they pass the site’s seven checks.</p>`}
+    </section>`));
+
+// ---- How Common Shade sees heat ----
+const IDEAS = [
+  ["Heat is a system, not a single hazard", "One hot night costs sleep; lost sleep costs a shift; a lost shift costs a repayment. The map follows these links, so protection can be aimed where a cycle breaks.", "/#explore", "The map"],
+  ["Protection is held up together", "A shaded rest point needs land, water, someone to open it and money to keep it going, and each belongs to a different body. Protection reaches people only when every part holds.", "/together/", "Make it work together"],
+  ["The missing middle", "The damage of heat is widely reported. The question asked less often is how protection is organised, paid for and kept going: who pays, who decides, who checks.", "/how-heat-is-reported/", "How heat is reported"],
+  ["Known, inferred, uncertain", "Every claim says what kind of evidence stands behind it. Measured and official findings are known; models and projections are inferred; reports not yet confirmed are uncertain.", "/sources/", "Sources and references"],
+  ["A gap is a task to solve together", "Where the research found nothing, the site says so plainly. A gap describes what we found, never a fault of any country, city or organisation.", "/heat-network/", "The heat network"],
+];
+const STANDARDS = [
+  ["Every claim is sourced", "Each figure links to the publication it comes from, and new sources keep an archived copy, so a claim can be checked even if a page moves."],
+  ["Evidence is labelled honestly", "Projections are never presented as facts. Where reports differ, the site shows both and explains why."],
+  ["A careful, diplomatic voice", "No blame, no political positions, no ranking of countries, cities or organisations, and no individuals named in the site’s own text."],
+  ["Listing is not endorsement", "Organisations, businesses and funders appear because of their published work, not as partners, and never in order of merit."],
+  ["Checked before publishing", "New research passes seven checks before it appears: structure, sourcing, evidence, tone, a reviewer’s note, consistency with what is already published, and a test of every page."],
+  ["Kept current, with history", "The knowledge base is updated monthly. Older figures are marked as superseded, not deleted, so changes can be traced."],
+];
+write("approach", page("approach", "How Common Shade sees heat", "The ideas behind Common Shade, and the standards every page follows: sourced, honest about evidence, careful in tone, and kept current.",
+  `${hero("News and evidence", "How Common Shade sees heat", "A shared map for everyone working to protect people from extreme heat in South and Southeast Asia. These are the ideas it is built on, and the standards it holds itself to.")}
+    <section class="container hub">
+      <h2 class="hub-h">Five ideas</h2>
+      <ol class="idea-list">${IDEAS.map(([h, p, u, t], i) => `<li><span class="path-n">${i + 1}</span><div><h3>${esc(h)}</h3><p>${esc(p)}</p><p class="path-read"><a href="${u}">${esc(t)} <span aria-hidden="true">→</span></a></p></div></li>`).join("")}</ol>
+      <h2 class="hub-h" id="standards">How we check facts</h2>
+      <ul class="hub-grid hub-grid--plain">${STANDARDS.map(([h, p]) => `<li class="std"><b>${esc(h)}</b><span>${esc(p)}</span></li>`).join("")}</ul>
+      <h2 class="hub-h">An open collaborative</h2>
+      <p class="hub-p">Common Shade is free to use, share and adapt under CC BY 4.0. It grows with the people who use it: corrections, studies, plans and data are welcome, and contributions are credited. <a href="/join/">Help build Common Shade</a> · <a href="/cite/">Cite and reuse</a></p>
+    </section>`));
+
+// ---- Cite and reuse ----
+const DATA = [["LOOPS", "The 21 vicious cycles"], ["CONSEQUENCES", "The 87 consequences of heat"], ["LINKS", "Every link between them"], ["LEVERS", "The 29 actions that break cycles"], ["CITY_PROFILES", "Twelve city profiles"], ["HEATWAVES", "Ten heatwaves, 1998 to 2026"], ["ORGANISATIONS", "The heat network’s organisations"], ["GLOSSARY", "The glossary"]];
+write("cite", page("cite", "Cite and reuse", "How to cite Common Shade and reuse its content and data, free under CC BY 4.0.",
+  `${hero("News and evidence", "Cite and reuse", "Everything on Common Shade is free to use, share and adapt under CC BY 4.0, with credit. Here is how to cite it, and where to find the data.")}
+    <section class="container hub">
+      <h2 class="hub-h">How to cite</h2>
+      <p class="hub-p">Every page carries a ready citation at its foot. For the site as a whole:</p>
+      <blockquote class="cite-box">Common Shade. <i>Extreme heat in South and Southeast Asia: a shared map of consequences, cycles and protection.</i> beattheheat.asia. Updated ${esc(MONTH)}. CC BY 4.0.</blockquote>
+      <p class="hub-p">When you cite a figure, please cite its original source too: each one is linked where it appears, and listed in <a href="/sources/">Sources and references</a>.</p>
+      <h2 class="hub-h">The data</h2>
+      <p class="hub-p">The content behind the map is open, as plain JSON files, one for each part. They are updated as the knowledge base grows.</p>
+      <ul class="hub-grid hub-grid--quiet">${DATA.map(([f, t]) => `<li><a class="hub-card" href="/data/core/${f}.json"><b>${esc(t)}</b><span>data/core/${f}.json</span></a></li>`).join("")}</ul>
+      <p class="hub-p">The rules every record follows are in <a href="/data/schema/records.json">data/schema/records.json</a>, and the full text of the site is in <a href="/llms-full.txt">one plain-text file</a>.</p>
+      <h2 class="hub-h">Films and images</h2>
+      <p class="hub-p">The films and drawings may be shared and shown with credit to Common Shade. The narration voice is LibriTTS (CC BY 4.0), via Piper.</p>
+    </section>`));
+
+// ---- 404 ----
+fs.writeFileSync(path.join(ROOT, "404.html"), page("", "Page not found", "This page could not be found on Common Shade.",
+  `${hero("Not found", "This page has moved, or never was", "Try search, choose a path by role, or start from one of the four groups.")}
+    <section class="container hub">
+      <p class="path-start"><button type="button" class="hub-go hub-go--btn" data-csn-search>Search the site</button> <button type="button" class="hub-go hub-go--btn hub-go--quiet" data-csn-paths>Choose a path by role</button></p>
+      <ul class="hub-paths">${NAVJ.groups.map(g => `<li><a href="${g.hub}"><b>${esc(g.h)}</b><span>${esc(g.intro)}</span></a></li>`).join("")}</ul>
+    </section>`).replace('<link rel="canonical" href="https://beattheheat.asia/">', ""));
+
+// ---- the search index: pages, places, cycles, glossary terms, heatwaves and organisations ----
+function searchIndex() {
+  const out = [], seen = new Set();
+  const add = (u, t, d, g, w = 0, k = "") => { if (seen.has(u + t)) return; seen.add(u + t); out.push({ u, t, d: String(d || "").slice(0, 140), g, w, k }); };
+  const walk = dir => fs.readdirSync(dir, { withFileTypes: true }).forEach(e => {
+    if (e.isDirectory() && !/^(node_modules|\.git|research|tools|data|media|images|feeds|print|docs)$/.test(e.name)) walk(path.join(dir, e.name));
+    else if (e.name === "index.html") {
+      const s = fs.readFileSync(path.join(dir, e.name), "utf8"), u = "/" + path.relative(ROOT, dir).split(path.sep).join("/") + (dir === ROOT ? "" : "/");
+      const t = (s.match(/<title>([\s\S]*?)<\/title>/) || [, ""])[1].replace(/\s*[·|]\s*Common Shade\s*$/, "").replace(/&amp;/g, "&").trim();
+      const d = (s.match(/name="description" content="([^"]*)"/) || [, ""])[1].replace(/&amp;/g, "&").replace(/&quot;/g, '"');
+      const g = NAV.groupOf(u.replace(/^\/$/, "/"));
+      add(u.replace(/\/+/g, "/"), t, d, "Pages", 3, g ? g.h : "");
+    } });
+  walk(ROOT);
+  D.LIVE_CITIES.forEach(c => { const p = D.CITY_PROFILES.find(x => x.id === c.id); add(`/cities/${c.id}/`, `${c.name}, ${c.country}`, p ? p.tagline : "", "Places", 2.5, "city"); });
+  D.LOOPS.forEach(l => add(`/loops/#${l.id}`, l.name, l.summary || l.desc || "", "Vicious cycles", 2, "cycle loop"));
+  D.GLOSSARY.forEach(g => add(`/glossary/#${g.id}`, g.term, g.text, "Glossary", 2, "term definition"));
+  D.HEATWAVES.forEach(h => add(`/heatwaves/#${h.id}`, h.title || h.place, `${h.when || ""} ${h.place || ""}`.trim(), "Heatwaves", 1.5, "heatwave"));
+  D.ORGANISATIONS.forEach(o => add(`/heat-network/#${o.role || ""}`, o.name, o.does || "", "Organisations", 1, "organisation"));
+  NAVJ.groups.forEach(g => add(g.hub, g.h, g.intro, "Pages", 3.5));
+  PATHS.paths.forEach(p => add(`/paths/${p.id}/`, `Path: ${p.label}`, p.card, "Paths by role", 3, "path role"));
+  fs.writeFileSync(path.join(ROOT, "search-index.json"), JSON.stringify(out));
+  return out.length;
+}
+const n = searchIndex();
+console.log(`pages: 4 hubs, ${PATHS.paths.length + 1} path pages, State of the field, approach, cite, 404; search index of ${n} entries`);

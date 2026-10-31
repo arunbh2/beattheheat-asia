@@ -1,0 +1,62 @@
+{
+ "about": "The site's menu, footer and hub pages, as data. Tier 1 items appear in the menu (at most six per group); tier 2 on the group's hub page; tier 3 in search and the footer only. Each item: [url, title, one-line description, tier]. Pages may carry an optional 'lead' card per group. Read by tools/site-nav.js and tools/build-pages.js.",
+ "groups": [
+  { "id": "understand", "label": "Understand", "h": "Understand heat", "hub": "/understand/",
+    "intro": "What extreme heat does, where, to whom, and how one harm leads to the next.",
+    "lead": ["/#explore", "The map", "Every consequence of heat, how each leads to the next, and where the cycles can break."],
+    "items": [
+     ["/#loops", "Breaking the cycles", "Twenty-one vicious cycles, and where they can be cut", 1],
+     ["/who-is-at-risk/", "Who heat hits hardest", "Same heatwave, different barriers", 1],
+     ["/cities/", "Cities", "Heat, plans and cycles in twelve cities", 1],
+     ["/countries/", "Countries", "Seven national snapshots: plans, rules and money", 1],
+     ["/heatwaves/", "Heatwaves that shaped Asia", "Ten heatwaves, 1998 to 2026, and what changed after", 1],
+     ["/#day", "A day in a heatwave", "Eight hours, seven places across Asia", 1],
+     ["/the-web/", "The web of heat", "Every consequence, system by system, as text", 2],
+     ["/loops/", "Vicious cycles", "Each cycle, its evidence and what breaks it, as text", 2],
+     ["/#heat-now", "Heat right now", "Live readings for twelve cities", 2]
+    ] },
+  { "id": "act", "label": "Act", "h": "Act", "hub": "/act/",
+    "intro": "What can be done, in which setting, by whom, and what keeps it working.",
+    "lead": ["/practical/", "Practical actions", "What to do this season in workplaces, homes, schools, clinics and markets."],
+    "items": [
+     ["/solutions/", "Solutions library", "131 ways to protect people, with evidence, cost and limits", 1],
+     ["/cooling-options/", "Cooling options", "What to build where people are", 1],
+     ["/plan/", "Plan a response", "A six-step workbook for a team or a workshop", 1],
+     ["/worked-plans/", "Worked plans", "How places in Asia turned heat risk into a plan", 1],
+     ["/together/", "Make it work together", "Who has to say yes for protection to reach people", 1],
+     ["/a-week-in-the-heat/", "A week in the heat", "Follow one worker’s money through a heatwave", 1],
+     ["/practical-actions/", "Practical actions, as text", "Every action card in plain text", 2],
+     ["/actions/", "Actions that break the cycles", "The 29 levers, as text", 2]
+    ] },
+  { "id": "fund", "label": "Fund", "h": "Fund and build", "hub": "/fund/",
+    "intro": "Where money for protection comes from, where it reaches, and what to ask before funding.",
+    "lead": ["/heat-economy/", "The heat economy", "Who offers protection, who funds it, and what could be built."],
+    "items": [
+     ["/finance/", "Paying for protection", "What needs paying for, and when money must arrive", 1],
+     ["/heat-economy/money/", "Funders and funding", "48 funders, 50 pieces of funding traced", 1],
+     ["/heat-economy/conditions/", "Questions to ask", "Before you buy, fund or start something", 1],
+     ["/heat-economy/opportunities/", "Ideas to explore", "32 ideas, one or more for every cycle", 1],
+     ["/heat-economy/businesses/", "Businesses", "91 businesses offering protection", 1],
+     ["/heat-network/", "The heat network", "330 organisations already at work", 1],
+     ["/paying-for-protection/", "Paying for protection, as text", "Cases and instruments in plain text", 2]
+    ] },
+  { "id": "evidence", "label": "Evidence", "h": "News and evidence", "hub": "/evidence/",
+    "intro": "What the evidence says, how sure we are, and where every claim comes from.",
+    "lead": ["/lancet-countdown-2026/", "The Lancet Countdown 2026", "A decade of health evidence on heat, read for South and Southeast Asia."],
+    "items": [
+     ["/whats-new/", "State of the field", "What changed this month, and what to watch", 1],
+     ["/how-heat-is-reported/", "How heat is reported", "What the coverage shows, across ten languages", 1],
+     ["/news/", "Heat in the news", "Headlines and new research, refreshed automatically", 1],
+     ["/sources/", "Sources and references", "Every source the site cites, searchable", 1],
+     ["/glossary/", "Glossary", "Sixty terms, each with a short film", 1],
+     ["/approach/", "How Common Shade sees heat", "The ideas and standards behind the site", 1],
+     ["/print/", "Printable one-pagers", "Briefs for officials, partners and funders", 2],
+     ["/cite/", "Cite and reuse", "How to cite the site and reuse its data", 2]
+    ] }
+ ],
+ "footer_extra": [["/guide/", "How to use this site"], ["/paths/", "Paths by role"], ["/join/", "Help build Common Shade"], ["/cite/", "Cite and reuse"], ["/approach/", "How we check facts"], ["/llms-full.txt", "Everything as one text file"]],
+ "names": {
+  "/heat-economy/businesses/": "Businesses", "/heat-economy/money/": "Funders and funding", "/heat-economy/opportunities/": "Ideas", "/heat-economy/conditions/": "Questions to ask",
+  "/understand/": "Understand heat", "/act/": "Act", "/fund/": "Fund and build", "/evidence/": "News and evidence", "/paths/": "Paths by role"
+ }
+}
