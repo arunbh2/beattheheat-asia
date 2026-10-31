@@ -10,7 +10,7 @@ const PATHS = NAV.PATHS;
 const esc = s => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const V = (fs.readFileSync(path.join(ROOT, "index.html"), "utf8").match(/styles\.css\?v=(\d+)/) || [, "1"])[1];
 const ctx = {}; vm.createContext(ctx);
-vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + ";this.D={GLOSSARY,LOOPS,LIVE_CITIES,CITY_PROFILES,HEATWAVES,ORGANISATIONS,ORG_ROLES,SYSTEMS,EVIDENCE,LEVERS,PACKAGES,INSTITUTIONS}", ctx);
+vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + ";this.D={GLOSSARY,LOOPS,LIVE_CITIES,CITY_PROFILES,HEATWAVES,ORGANISATIONS,ORG_ROLES,SYSTEMS,EVIDENCE,LEVERS,PACKAGES,INSTITUTIONS,ACTION_SETTINGS,ACTION_HORIZONS,EVIDENCE_STATUS,LOOP_GROUPS}", ctx);
 const D = ctx.D;
 const MONTH = new Date().toLocaleDateString("en-GB", { month: "long", year: "numeric" });
 
@@ -222,6 +222,33 @@ write("approach", page("approach", "How Common Shade sees heat", "The ideas behi
       <p class="hub-p"><a href="/together/">Make it work together</a>: agree who does what in one place · <a href="/heat-network/">The heat network</a>: every organisation · <a href="/worked-plans/">Worked plans</a></p>
     </section>
     <script>window.WHO=${JSON.stringify(DATA).replace(/</g, "\\u003c")};</script><script src="/who-holds-it/holds.js?v=${V}" defer></script>`));
+}
+
+// ---- Build protection: assemble actions for one place, or sketch a portfolio across places ----
+{
+  const edgeLoops = lv => { const l = D.LEVERS.find(x => x.id === lv); return l ? D.LOOPS.filter(o => o.path.some((n, i) => n === l.edge[0] && o.path[(i + 1) % o.path.length] === l.edge[1])).map(o => o.id) : []; };
+  const SETS = D.ACTION_SETTINGS.map(s => ({ id: s.id, n: s.name, sh: s.short, i: s.intro, start: (s.problems || []).map(p => (p.cards || [])[0]).filter(Boolean) }));
+  const CARDS = D.ACTION_SETTINGS.flatMap(s => s.cards.map(c => ({ id: s.id + ":" + c.id, s: s.id, t: c.title, w: c.what, p: c.protects, who: c.who, run: c.running, stop: c.stops, need: c.worksIf,
+    lv: c.lever, ev: c.status, h: c.horizon, loops: edgeLoops(c.lever), src: c.evidence && c.evidence.source ? [c.evidence.source.label, c.evidence.source.url] : null, et: c.evidence ? c.evidence.text : "" })));
+  const DATA = { sets: SETS, cards: CARDS, loops: D.LOOPS.map(l => ({ id: l.id, n: l.name, g: l.group })), groups: D.LOOP_GROUPS.map(g => [g.id, g.name]),
+    inst: Object.fromEntries(D.INSTITUTIONS.map(i => [i.id, i.name])), ev: Object.fromEntries(Object.entries(D.EVIDENCE_STATUS).map(([k, v]) => [k, [v.name, v.text]])),
+    hz: D.ACTION_HORIZONS.map(h => [h.id, h.name]), levers: Object.fromEntries(D.LEVERS.map(l => [l.id, l.title])) };
+  write("build", page("build", "Build protection", "Choose a place, add practical actions, and see which cycles of heat they could help interrupt, what they depend on, who acts and what they cannot fix. Or sketch a portfolio across places.",
+    `${hero("Act", "Build protection", "Choose a place, add actions, and see which cycles they could help interrupt, what each depends on, and what they leave untouched. Nothing here is a recommendation: it is a way to think a package through, together.")}
+    <section class="container hub bp">
+      <div class="bp-tabs" role="tablist" aria-label="Mode"><button type="button" role="tab" aria-selected="true" data-mode="place">Build for one place</button><button type="button" role="tab" aria-selected="false" data-mode="folio">Sketch a portfolio</button></div>
+      <div data-bp-app aria-live="polite"></div>
+      <noscript><p class="hub-p">This builder needs JavaScript. Every action is also on <a href="/practical-actions/">Practical actions, as text</a>.</p></noscript>
+      <h2 class="hub-h">How to read this</h2>
+      <ul class="hub-grid hub-grid--plain">
+        <li class="std"><b>Could help interrupt, never will fix</b><span>A cycle turns green when an action works on one of its links. Whether it breaks in a real place depends on everything listed under what it depends on.</span></li>
+        <li class="std"><b>Evidence shown for every piece</b><span>Each action carries its evidence level, from design concept to independently evaluated, with its source.</span></li>
+        <li class="std"><b>No recommendations</b><span>The portfolio view shows balance and blind spots. It never recommends an organisation or a grantee.</span></li>
+        <li class="std"><b>Saved in the address</b><span>Your package lives in the page address, so you can bookmark it or share it. Nothing is sent to us.</span></li>
+      </ul>
+      <p class="hub-p"><a href="/practical/">Practical actions</a> · <a href="/who-holds-it/">Who holds it up</a> · <a href="/together/">Make it work together</a> · <a href="/plan/">Plan a response</a></p>
+    </section>
+    <script>window.BP=${JSON.stringify(DATA).replace(/</g, "\\u003c")};</script><script src="/build/bp.js?v=${V}" defer></script>`));
 }
 
 // ---- Corrections: data/site/corrections.json plus any knowledge-base record that carries a correction note ----
