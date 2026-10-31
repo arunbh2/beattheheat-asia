@@ -1,0 +1,39 @@
+{
+ "total": 30.98,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "How does a heatwave put salt in the fields?"
+  },
+  {
+   "start": 5.0,
+   "dur": 7.52,
+   "beats": [
+    0.6,
+    3.12
+   ],
+   "text": "Heat and drought lower rivers and canals. With less fresh water pushing out, the sea pushes in."
+  },
+  {
+   "start": 12.52,
+   "dur": 13.46,
+   "beats": [
+    0.6,
+    7.86
+   ],
+   "text": "In Viet Nam\u2019s Mekong Delta in February 2024, a long heatwave let sea water push inland. Farmers who pumped the salty water onto their rice lost up to half their crop."
+  },
+  {
+   "start": 25.98,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Store fresh water before the dry heat comes."
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "total": 35.46,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6,
+    2.6
+   ],
+   "text": "Someone collapses in the heat. What helps first?"
+  },
+  {
+   "start": 5.0,
+   "dur": 8.38,
+   "beats": [
+    0.6,
+    3.25
+   ],
+   "text": "Cooling them, as fast as possible. Heatstroke is an emergency, and every minute of cooling counts."
+  },
+  {
+   "start": 13.38,
+   "dur": 10.42,
+   "beats": [
+    0.6,
+    2.17,
+    4.86,
+    5.9
+   ],
+   "text": "Move them to shade. Cool the body with water and fanning. Call for help. And if they are awake and can swallow, small sips of water."
+  },
+  {
+   "start": 23.8,
+   "dur": 6.66,
+   "beats": [
+    0.6,
+    2.55
+   ],
+   "text": "Confusion is a warning sign: hot skin and confusion together can mean heatstroke."
+  },
+  {
+   "start": 30.46,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Cool first, then get help."
+  }
+ ]
+}

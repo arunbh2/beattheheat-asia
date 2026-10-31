@@ -1,0 +1,47 @@
+{
+ "total": 33.93,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "What if the heat warning can\u2019t get through?"
+  },
+  {
+   "start": 5.0,
+   "dur": 8.42,
+   "beats": [
+    0.6,
+    4.13
+   ],
+   "text": "Phone masts and networks need power, and cooling. In a long heatwave with power cuts, signals weaken."
+  },
+  {
+   "start": 13.42,
+   "dur": 6.74,
+   "beats": [
+    0.6
+   ],
+   "text": "In Bangladesh in 2026, mobile signals weakened as blackouts spread."
+  },
+  {
+   "start": 20.16,
+   "dur": 8.77,
+   "beats": [
+    0.6,
+    4.57
+   ],
+   "text": "Warnings, mobile payments and calls for help all ride on it. So back-up power for networks is heat protection too."
+  },
+  {
+   "start": 28.93,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Keep the line open in the heat."
+  }
+ ]
+}

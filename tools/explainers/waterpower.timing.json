@@ -1,0 +1,40 @@
+{
+ "total": 29.38,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Why do power and water fail together?"
+  },
+  {
+   "start": 5.0,
+   "dur": 8.81,
+   "beats": [
+    0.6,
+    3.18,
+    5.33
+   ],
+   "text": "Many power plants need water to cool. Water pumps need power to run. In a heatwave, each strains the other."
+  },
+  {
+   "start": 13.81,
+   "dur": 10.57,
+   "beats": [
+    0.6,
+    6.69
+   ],
+   "text": "In India in 2016, fourteen terawatt-hours of electricity were lost because thermal power plants ran short of water."
+  },
+  {
+   "start": 24.38,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Plan power and water together."
+  }
+ ]
+}

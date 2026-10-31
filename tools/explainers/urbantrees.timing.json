@@ -1,0 +1,49 @@
+{
+ "total": 39.59,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "What happens when the shade itself is in danger?"
+  },
+  {
+   "start": 5.0,
+   "dur": 8.3,
+   "beats": [
+    0.6,
+    2.76,
+    5.53
+   ],
+   "text": "Street trees cool a city. But heat, drought and missing care can kill them, just when their shade is needed."
+  },
+  {
+   "start": 13.3,
+   "dur": 14.72,
+   "beats": [
+    0.6,
+    9.99
+   ],
+   "text": "Across one hundred and sixty-four cities, fifty-six per cent of urban tree and shrub species already face temperatures beyond their natural range, and seventy-six per cent could by 2050."
+  },
+  {
+   "start": 28.02,
+   "dur": 6.57,
+   "beats": [
+    0.6,
+    2.92
+   ],
+   "text": "Plant trees that suit the heat to come, and budget for the watering that keeps them alive."
+  },
+  {
+   "start": 34.59,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Shade that lasts."
+  }
+ ]
+}
