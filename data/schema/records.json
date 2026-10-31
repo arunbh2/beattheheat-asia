@@ -27,7 +27,7 @@
    "about": "A publication, dataset or page that facts rest on.",
    "required": ["publisher", "url", "archive", "kind"],
    "kinds": ["study", "official", "report", "news", "data", "organisation"],
-   "rules": ["url must be https", "archive must be an archived copy (web.archive.org or archive.today) of url", "sources of type source cite themselves: sources may be []"]
+   "rules": ["url must be https", "archive must be an archived copy (web.archive.org or archive.today) of url", "sources of type source cite themselves: sources may be []", "expect: two to five key terms the page must contain; tools/verify-inbox.js confirms each on the page or its archived copy"]
   },
   "claim": {
    "about": "One figure or finding, quoted by pages and films by its id.",
@@ -40,7 +40,8 @@
    "instruments": ["grant", "insurance", "risk-pool", "contingent-credit", "forecast-finance", "cash-transfer", "bond", "loan", "guarantee", "equity", "programme"],
    "stages": ["announced", "committed", "paid", "up-to"],
    "roles": ["catalytic", "evidence", "field-building", "delivery"],
-   "amount": "{ value, currency, usd, fx_date } — usd may be null when unknown"
+   "amount": "{ value, currency, usd, fx_date } — usd may be null when unknown; { disclosed: false } when the amount was not made public",
+   "optional": "funder_kind (phil, public, dev or inv), philanthropy_role, segment (a kind of protection id), countries (ISO codes)"
   },
   "role": {
    "about": "Who does what for a protection: an organisation or institution and its part in a lever.",
@@ -51,6 +52,7 @@
   "milestone": {
    "about": "A dated change: a plan adopted, a rule notified, a role created, a heatwave recorded.",
    "required": ["date", "kind"],
+   "optional": "lat and lon (approximate) to place it on the Atlas",
    "kinds": ["plan", "law", "rule", "role", "programme", "heatwave", "finance"]
   },
   "trigger": {

@@ -1,0 +1,18 @@
+[
+ { "id": "src-prothomalo-narayanganj-heat-plan-2026", "type": "source", "title": "Bangladesh and three South Asian neighbours launch an initiative on extreme heat", "summary": "News report on Bangladesh's first urban heatwave action plan, for Narayanganj, and national guidance on heat-related illness.",
+   "publisher": "Prothom Alo", "url": "https://en.prothomalo.com/environment/climate-change/qq8g2g85o8", "archive": "", "kind": "news", "expect": ["Narayanganj", "heat"],
+   "evidence": "uncertain", "sources": [], "as_of": "2026-10", "checked": "2026-10-31", "status": "current", "review": { "tone": "ok", "note": "Draft: to be confirmed from the excerpts." } },
+ { "id": "src-ecobusiness-paa-sea-heat-hub-2026", "type": "source", "title": "Philanthropy Asia Alliance supports the Southeast Asia Heat Health Hub", "summary": "Press release on philanthropic support for the next stage of the Global Heat Health Information Network's Southeast Asia Hub.",
+   "publisher": "Eco-Business (press release)", "url": "https://www.eco-business.com/press-releases/philanthropy-asia-alliance-supports-southeast-asia-heat-health-hub-to-scale-coordinated-action-on-extreme-heat/", "archive": "", "kind": "organisation", "expect": ["Philanthropy Asia Alliance", "Heat Health"],
+   "evidence": "known", "sources": [], "as_of": "2026-10", "checked": "2026-10-31", "status": "current", "review": { "tone": "ok", "note": "Draft: to be confirmed from the excerpts." } },
+ { "id": "src-climateworks-global-heat-forum-2026", "type": "source", "title": "Global Heat Forum gathers leaders to scale investment for extreme heat action", "summary": "Press release on the Global Heat Forum held in Bangkok in October 2026.",
+   "publisher": "ClimateWorks Foundation", "url": "https://www.climateworks.org/press-release/global-heat-forum-gathers-600-leaders-to-scale-investment-for-extreme-heat-action/", "archive": "", "kind": "organisation", "expect": ["Global Heat Forum", "Bangkok"],
+   "evidence": "known", "sources": [], "as_of": "2026-10", "checked": "2026-10-31", "status": "current", "review": { "tone": "ok", "note": "Draft: to be confirmed from the excerpts." } },
+ { "id": "src-wmo-south-asia-heat-initiatives-2026", "type": "source", "title": "New initiatives launched to address extreme heat in South Asia", "summary": "WMO news item on a South Asia climate and health desk and a scientific research consortium on heat.",
+   "publisher": "World Meteorological Organization", "url": "https://wmo.int/media/news/new-initiatives-launched-address-extreme-heat-south-asia", "archive": "", "kind": "official", "expect": ["South Asia", "heat"],
+   "evidence": "known", "sources": [], "as_of": "2026-02", "checked": "2026-10-31", "status": "current", "review": { "tone": "ok", "note": "Draft: to be confirmed from the excerpts." } },
+ { "id": "src-newsytoday-four-country-heat-2026", "type": "source", "title": "Four South Asian neighbours set to tackle rising heat risk together", "summary": "A secondary web report of a four-country cooperation framework on heat.",
+   "publisher": "Newsy Today", "url": "https://www.newsy-today.com/four-south-asian-neighbours-set-to-tackle-rising-heat-risk-together/", "archive": "", "kind": "news", "expect": ["Bhutan", "Nepal"],
+   "evidence": "uncertain", "sources": [], "as_of": "2026-10", "checked": "2026-10-31", "status": "current",
+   "review": { "tone": "hold", "note": "Found only on low-reliability sites; no official or established source confirms it yet. Held until one does." } }
+]
