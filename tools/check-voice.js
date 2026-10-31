@@ -7,6 +7,7 @@ const fs = require("fs"), path = require("path"), { execFileSync } = require("ch
 const ROOT = path.join(__dirname, ".."), { voice } = require("../data/schema/tone.json");
 const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 const hold = new RegExp(`\\b(${voice.hold.map(esc).join("|")})\\b`, "i");
+const suspicion = voice.suspicion ? new RegExp(`\\b(${voice.suspicion.hold.map(esc).join("|")})\\b`, "i") : null;
 const pages = execFileSync("git", ["ls-files", "--cached", "--others", "--exclude-standard", "*.html"], { cwd: ROOT }).toString().split("\n")
   .filter(f => f && !/^(media|tools|research|node_modules)\//.test(f));
 const found = [];
@@ -17,7 +18,9 @@ for (const f of pages) {
   for (const s of text.split(/(?<=[.?!;])\s+/)) {
     const m = s.match(hold);
     if (m && !voice.allow.some(a => s.includes(a))) found.push(`${f}: "${m[1]}" in: ${s.trim().slice(0, 160)}`);
+    const q = suspicion && s.match(suspicion);
+    if (q) found.push(`${f}: "${q[1]}" suggests wrongdoing, in: ${s.trim().slice(0, 160)}`);
   }
 }
 if (found.length) { console.error(`voice check: ${found.length} instructing phrases\n` + found.join("\n")); process.exit(1); }
-console.log(`voice check: ${pages.length} pages, no instructing voice`);
+console.log(`voice check: ${pages.length} pages, no instructing voice and no words that suggest wrongdoing`);

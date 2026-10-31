@@ -17,7 +17,11 @@ const HUMBLE = [[/\b(should|must) not be read as\b/gi, "is not the same as"], [/
 const tx = v => v == null ? "" : Array.isArray(v) ? v.map(tx).filter(Boolean).join("; ") : typeof v === "object" ? tx(v.text ?? v.scheme ?? v.value ?? v.name ?? "") : /^not verified$/i.test(String(v).trim()) ? "" : String(v);
 const MON = "January|February|March|April|May|June|July|August|September|October|November|December";
 const tidy = s => s.replace(/([a-z\)]),(\d{4})/g, "$1, $2").replace(new RegExp("([a-z])(" + MON + ")", "g"), "$1 $2").replace(new RegExp("(" + MON + ")(\\d{4})", "g"), "$1 $2").replace(/([a-z])(\d{4})\b/g, "$1 $2");
-const humble = t => { let s = tidy(tx(t)); if (!s) return ""; HUMBLE.forEach(([re, r]) => { s = s.replace(re, m => m[0] === m[0].toUpperCase() ? r[0].toUpperCase() + r.slice(1) : r); }); return s; };
+// sentences that raise wrongdoing, even to deny it ("no mis-selling alleged"), are left out: the site describes what
+// it could and could not see, never what someone did not do
+const SUSPECT = new RegExp("\\b(" + require("../data/schema/tone.json").voice.suspicion.hold.join("|") + ")\\b|not (presented|described) as an? [^.;]*failure", "i");
+const gentle = s => s.split(/(?<=[.;])\s+/).filter(x => !SUSPECT.test(x)).join(" ").replace(/;\s*$/, ".").trim();
+const humble = t => { let s = gentle(tidy(tx(t))); if (!s) return ""; HUMBLE.forEach(([re, r]) => { s = s.replace(re, m => m[0] === m[0].toUpperCase() ? r[0].toUpperCase() + r.slice(1) : r); }); return s; };
 const NV = v => v == null || v === "" || /^not verified$/i.test(String(v)) ? "" : v;
 const src = s => s && s.url && live(s.url) ? { label: humble(s.label || s.title || "Source"), url: clean(s.url), archive: arch(s.url) } : null;
 
@@ -41,6 +45,10 @@ MOD.forEach(({ n, d }) => (d.instruments || []).forEach(i => { if (instruments[i
   poorest: i.reaches_poorest || "", poorestWhy: humble(NV(i.reaches_poorest_why)), loops: Array.isArray(i.loops) ? i.loops : [], module: n }; }));
 
 // schemes: each record once; "did it pay, and when?" read from its payouts and its own never-triggered field
+// what people covered can see and ask: phrased as what was visible to us, never as a judgement of the scheme
+const OPEN_DEFAULT = "We could not yet see its full wording, or how people can ask a question or raise a concern. This reflects what was published, not how it works in practice.";
+const OPEN_ROUTE = "Its documents describe a way for people to ask a question or raise a concern. We could not yet see how that works in practice.";
+const openness = t => /feedback (mechanism|channel)|community feedback|feedback mechanisms|grievance route documented|dispute routes|complaint committees|green line/i.test(tx(t)) ? OPEN_ROUTE : OPEN_DEFAULT;
 const PAYS = { paid: "Paid, amount and date traced", activated: "Activated, payment not traced here", never: "Never triggered", unknown: "Not known" };
 const schemes = [], seen = new Set();
 MOD.forEach(({ n, d }) => (d.schemes || []).forEach(s => {
@@ -56,7 +64,7 @@ MOD.forEach(({ n, d }) => (d.schemes || []).forEach(s => {
     heat: s.heat_covered || "unclear", heatWhy: humble(NV(s.heat_basis)), covered: humble(NV(s.insured_or_covered)),
     trigger: { metric: humble(NV(t.metric) || (t.details && t.details.metric)), threshold: humble(NV(t.threshold)), kind: t.kind || "", data: humble(NV(t.data_source)), window: humble(NV(t.window)) },
     paid, payouts, size, enrol, premiumBy: humble(NV(s.premium && s.premium.paid_by)), basis: humble(NV(s.basis_risk)), fallback: humble(NV(s.fallback)),
-    inclusion: s.inclusion || {}, protection: humble(NV(s.consumer_protection)), evidence: (s.evidence || []).map(e => ({ status: e.status, text: humble(e.text) })),
+    inclusion: s.inclusion || {}, protection: openness(s.consumer_protection), evidence: (s.evidence || []).map(e => ({ status: e.status, text: humble(e.text) })),
     providers: (s.providers || []).map(p => ({ n: p.name, role: p.role })), sources: [...sources.values()].slice(0, 8), module: n });
 }));
 
