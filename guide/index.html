@@ -56,7 +56,10 @@
 @keyframes csn-glow{0%,100%{box-shadow:0 8px 20px -10px rgba(242,100,48,.85),0 0 0 0 rgba(242,100,48,.45)}50%{box-shadow:0 8px 20px -10px rgba(242,100,48,.85),0 0 0 9px rgba(242,100,48,0)}}
 @media (prefers-reduced-motion:reduce){.csn__start--glow{animation:none}}
 .csn__dot{display:none;width:8px;height:8px;border-radius:50%;background:var(--orange)}
-.csn--onpath .csn__start{background:#fff;color:var(--ink);border-color:var(--ink);box-shadow:none}
+.csn__map{display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 14px;border-radius:999px;font-weight:700;font-size:.9rem;white-space:nowrap;text-decoration:none;color:#1F7A70;background:#E7F2F0;border:1.5px solid #1F7A70;transition:background .2s,color .2s,transform .2s}
+.csn__map:hover{background:#1F7A70;color:#fff;transform:translateY(-1px)}.csn__map:focus-visible{outline:3px solid #16202B;outline-offset:2px}
+.csn__btn--map{color:#1F7A70;border-color:#1F7A70;background:#E7F2F0}
+.csn--onpath .csn__dot{background:#16202B}
 .csn--onpath .csn__dot{display:inline-block}
 .csn__burger{display:none;border:1.5px solid var(--ink);background:#fff}
 .csn__bars{display:inline-grid;gap:3px}.csn__bars i{display:block;width:15px;height:2px;border-radius:2px;background:currentColor}
@@ -163,7 +166,8 @@
 .csf__text{margin:12px 0 0;font-size:.8rem;color:#C9C2B6}.csf__text a{text-decoration:underline;text-decoration-color:var(--orange);text-underline-offset:3px}
 @media (max-width:1180px){.csn__search span,.csn__search kbd{display:none}.csn__search{width:40px;padding:0;justify-content:center}.csn__links{grid-template-columns:1fr}.csn__pin{grid-template-columns:minmax(0,1fr) minmax(0,1.4fr) minmax(0,.9fr)}}
 @media (max-width:960px){.csn__main{display:none}.csn__burger{display:inline-flex}.csn__in{height:58px}.csn--slim .csn__in{height:54px}}
-@media (max-width:560px){.csn__start{display:none}.csn__home{font-size:1.05rem}.csn__mark{width:26px}.csn-d{margin-top:4vh;max-height:88vh}.csn-d__h{font-size:1.6rem}.csp{margin:14px 12px 18px;padding:16px 18px}}
+@media (max-width:560px){.csn__tools{gap:6px}.csn__map{width:40px;padding:0;justify-content:center}.csn__map span{display:none}.csn__start{padding:0 12px}.csn__start .csn__dot{display:none}.csn__burger{width:40px;padding:0;justify-content:center;font-size:0;gap:0}.csn__home{font-size:1.05rem}.csn__mark{width:26px}.csn-d{margin-top:4vh;max-height:88vh}.csn-d__h{font-size:1.6rem}.csp{margin:14px 12px 18px;padding:16px 18px}}
+@media (max-width:419px){.csn__home>span:not(.csn-vh){display:none}}
 @media (prefers-reduced-motion:reduce){.csn__panel,.csn__sheet,.csn-d[open]{animation:none}.csn__in,.csn__chev{transition:none}}
 /* the calm ending, the "changed since" note, the one-minute check, a composite person, where this happens */
 .cse{padding:clamp(40px,7vw,80px) clamp(16px,4vw,32px);background:linear-gradient(180deg,rgba(250,247,242,0),#F3EEE7 40%);text-align:center;font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;color:#16202B}
@@ -267,6 +271,7 @@
     </div></div></li></ul>
     </nav>
     <div class="csn__tools">
+      <a class="csn__map" href="/#explore" aria-label="The map: every consequence of heat and how one leads to the next"><svg class="csn__ico" viewBox="0 0 20 20" aria-hidden="true"><path d="M2 5 L7 3 L13 5 L18 3 V15 L13 17 L7 15 L2 17 Z M7 3 V15 M13 5 V17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg><span>The map</span></a>
       <button type="button" class="csn__search" data-csn-search aria-label="Search the site"><svg class="csn__ico" viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13 L18 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg><span>Search</span><kbd aria-hidden="true">/</kbd></button>
       <button type="button" class="csn__start" data-csn-paths><span class="csn__dot" aria-hidden="true"></span><span data-csn-pathlabel>Start here</span></button>
       <button type="button" class="csn__burger" aria-expanded="false" aria-controls="csn-sheet"><span class="csn__bars" aria-hidden="true"><i></i><i></i><i></i></span>Menu</button>
@@ -275,7 +280,7 @@
   <nav class="csn__crumbs" aria-label="You are here"><ol><li><a href="/">Home</a></li><li aria-current="page">Find your way in.</li></ol></nav>
   <div class="csn__pathbar" data-csn-pathbar hidden></div>
   <div class="csn__sheet" id="csn-sheet" hidden>
-    <div class="csn__sheet-tools"><button type="button" class="csn__btn csn__btn--wide" data-csn-search><svg class="csn__ico" viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13 L18 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg> Search the site</button><button type="button" class="csn__btn csn__btn--wide csn__btn--warm" data-csn-paths>Start here: choose a path by role</button></div>
+    <div class="csn__sheet-tools"><a class="csn__btn csn__btn--wide csn__btn--map" href="/#explore"><svg class="csn__ico" viewBox="0 0 20 20" aria-hidden="true"><path d="M2 5 L7 3 L13 5 L18 3 V15 L13 17 L7 15 L2 17 Z M7 3 V15 M13 5 V17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg> Open the map</a><button type="button" class="csn__btn csn__btn--wide" data-csn-search><svg class="csn__ico" viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13 L18 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg> Search the site</button><button type="button" class="csn__btn csn__btn--wide csn__btn--warm" data-csn-paths>Start here: choose a path by role</button></div>
     <details class="csn__acc"><summary>Understand heat<svg class="csn__chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1.5 L6 6.5 L11 1.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></summary><ul>
       <li><a class="csn__acc-lead" href="/#explore"><b>The map</b><small>Every consequence of heat, how each leads to the next, and where the cycles can break.</small></a></li>
       <li><a href="/#loops"><b>Breaking the cycles</b><small>Twenty-one vicious cycles, and where they can be cut</small></a></li><li><a href="/who-is-at-risk/"><b>Who heat hits hardest</b><small>Same heatwave, different barriers</small></a></li><li><a href="/cities/"><b>Cities</b><small>Heat, plans and cycles in twelve cities</small></a></li><li><a href="/countries/"><b>Countries</b><small>Seven national snapshots: plans, rules and money</small></a></li><li><a href="/atlas/"><b>Atlas of Asia’s heat</b><small>Heatwaves since 1998 and the plans that followed, on a map</small></a></li><li><a href="/#day"><b>A day in a heatwave</b><small>Eight hours, seven places across Asia</small></a></li>
@@ -415,7 +420,7 @@ document.addEventListener("click",function(e){var k=e.target.closest("[data-csn-
 function groupOf(u){for(var i=0;i<G.length;i++)if(G[i].urls.indexOf(u)>-1)return G[i].id;return null}
 (function(){var st=$(".csn__start");if(!st)return;var seen;try{seen=localStorage.getItem("cs-start-seen")}catch(e){}if(!seen&&!get())st.classList.add("csn__start--glow");
  $$("[data-csn-paths]").forEach(function(b){b.addEventListener("click",function(){try{localStorage.setItem("cs-start-seen","1")}catch(e){}st.classList.remove("csn__start--glow")})})})();
-function apply(){var p=byId(get());H.classList.toggle("csn--onpath",!!p);$$("[data-csn-pathlabel]").forEach(function(x){x.textContent=p?p.short+" path":"Start here"});
+function apply(){var p=byId(get());H.classList.toggle("csn--onpath",!!p);$$("[data-csn-pathlabel]").forEach(function(x){x.textContent="Start here"});
  $$(".csp").forEach(function(c){c.hidden=!p||c.getAttribute("data-csp")!==p.id});
  var bar=$("[data-csn-pathbar]");if(bar){if(!p){bar.hidden=true}else{var at=-1;p.stops.forEach(function(s,i){if(s.url===here)at=i});var nx=at>-1?p.stops[at+1]:p.stops[0];
   bar.innerHTML='<span>On the <b>'+esc(p.short)+'</b> path'+(at>-1?' · stop '+(at+1)+' of '+p.stops.length:'')+'</span>'+(nx?'<a href="'+nx.url+'">'+(at>-1?"Next":"Start")+': '+esc(nx.q)+' →</a>':'<a href="'+P.end.url+'">Last stop: '+esc(P.end.q)+' →</a>')+'<button type="button" data-csn-leave>Leave</button>';bar.hidden=false}}
