@@ -1,0 +1,3694 @@
+{
+  "metadata": {
+    "module": "R7",
+    "title": "Who supplies the capital and sets the rules",
+    "last_checked": "2026-10-31",
+    "disclaimer": "Listing is not endorsement and is not financial, insurance or investment advice.",
+    "scope": "Targeted primary-source evidence map; not an exhaustive legal or market census. South Asia includes Afghanistan, Bangladesh, Bhutan, India, Maldives, Nepal, Pakistan and Sri Lanka; Southeast Asia includes all eleven countries.",
+    "method": "Primary issuer, programme, government, regulator, UN and MDB sources searched; announcements distinguished from contracts and settlements. No independently evaluated subsidy effect admitted. Unknown legal permission is not prohibition.",
+    "evidence_labels": [
+      "concept",
+      "test",
+      "reported",
+      "guidance",
+      "measured",
+      "evaluated"
+    ],
+    "schema_notes": [
+      "All six requested top-level arrays retained; empty arrays mean no new admissible records for that category in R7.",
+      "Additional fields preserve regulatory scope, premium support and source-check detail.",
+      "Actor type is a directory category, not a licensing determination. Insurtechs are mapped to modeller; HERA to humanitarian; MILMA to partnership.",
+      "Alliance side describes the role in this map. NDF and SCBF are facilities/platforms even where their funds support supply.",
+      "All loop/lever pathways are analyst mappings, not measured impacts.",
+      "Unknown monetary fields are not zero; excluded claims are outside verified finding tables.",
+      "country_risk_finance instrument layer is contingent for the support architecture; underlying country package may combine all five layers."
+    ]
+  },
+  "instruments": [
+    {
+      "id": "parametric_heat",
+      "name": "Parametric heat cover",
+      "plain_definition": "Pays under a contract when a specified heat index crosses a threshold.",
+      "level": "micro",
+      "layer": "transfer",
+      "loops": [
+        "protection",
+        "reactive"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "settings": [
+        "work",
+        "summer"
+      ],
+      "how_it_breaks_the_cycle": "Inferred pathway: pre-agreed funding can preserve household income and reduce emergency budget pressure; effectiveness depends on delivery.",
+      "risk_holder": "Insured party retains uncovered losses; carrier holds contractual insured layer.",
+      "who_pays": "Members, programmes or donors",
+      "who_receives": "Covered workers",
+      "speed": "No general time-to-money estimate established; separate trigger, insurer settlement and beneficiary receipt.",
+      "typical_cost": "No defensible general price. Only case-specific amounts in money_ledger.",
+      "strengths": "Can avoid individual loss adjustment.",
+      "limits": "Index mismatch, benefits caps and payment timing remain material.",
+      "basis_risk": "Weather index can fail to reflect actual harm; grant support also has targeting and coverage gaps.",
+      "reaches_poorest": "partly",
+      "reaches_poorest_why": "Distribution through trusted groups and subsidy can help; documentation, account access and renewal costs can exclude.",
+      "examples": [
+        {
+          "text": "Parametric heat cover example; details in actor and support records.",
+          "status": "reported",
+          "source": {
+            "label": "reported",
+            "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association"
+          }
+        }
+      ],
+      "uncertainty": "Not a generic permission, quote, renewal promise or verified impact estimate."
+    },
+    {
+      "id": "parametric_heat_meso",
+      "name": "Meso heat cover",
+      "plain_definition": "Insures a cooperative or employer, which must have a route to members or workers.",
+      "level": "meso",
+      "layer": "transfer",
+      "loops": [
+        "protection",
+        "reactive"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "settings": [
+        "work",
+        "summer"
+      ],
+      "how_it_breaks_the_cycle": "Inferred pathway: pre-agreed funding can preserve household income and reduce emergency budget pressure; effectiveness depends on delivery.",
+      "risk_holder": "Insured party retains uncovered losses; carrier holds contractual insured layer.",
+      "who_pays": "Aggregator or supporting funder",
+      "who_receives": "Cooperative or employer; onward benefits contractual",
+      "speed": "No general time-to-money estimate established; separate trigger, insurer settlement and beneficiary receipt.",
+      "typical_cost": "No defensible general price. Only case-specific amounts in money_ledger.",
+      "strengths": "Aggregates placement and distribution.",
+      "limits": "Carrier payment does not establish onward fairness or speed.",
+      "basis_risk": "Weather index can fail to reflect actual harm; grant support also has targeting and coverage gaps.",
+      "reaches_poorest": "partly",
+      "reaches_poorest_why": "Distribution through trusted groups and subsidy can help; documentation, account access and renewal costs can exclude.",
+      "examples": [
+        {
+          "text": "Meso heat cover example; details in actor and support records.",
+          "status": "reported",
+          "source": {
+            "label": "reported",
+            "url": "https://celsiuspro.squarespace.com/news-1/insuring-vulnerable-people-in-india-against-extreme-heat-events"
+          }
+        }
+      ],
+      "uncertainty": "Not a generic permission, quote, renewal promise or verified impact estimate."
+    },
+    {
+      "id": "premium_support",
+      "name": "Premium support",
+      "plain_definition": "A donor or public programme pays part of the price of insurance.",
+      "level": "micro",
+      "layer": "transfer",
+      "loops": [
+        "protection",
+        "reactive"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "settings": [
+        "work",
+        "summer"
+      ],
+      "how_it_breaks_the_cycle": "Inferred pathway: pre-agreed funding can preserve household income and reduce emergency budget pressure; effectiveness depends on delivery.",
+      "risk_holder": "Insured party retains uncovered losses; carrier holds contractual insured layer.",
+      "who_pays": "Donor / public programme and members",
+      "who_receives": "Insurer receives premium; policyholders receive insured benefit",
+      "speed": "No general time-to-money estimate established; separate trigger, insurer settlement and beneficiary receipt.",
+      "typical_cost": "No defensible general price. Only case-specific amounts in money_ledger.",
+      "strengths": "Improves affordability.",
+      "limits": "Time-limited support can leave renewal unfunded; not a payout.",
+      "basis_risk": "Weather index can fail to reflect actual harm; grant support also has targeting and coverage gaps.",
+      "reaches_poorest": "partly",
+      "reaches_poorest_why": "Distribution through trusted groups and subsidy can help; documentation, account access and renewal costs can exclude.",
+      "examples": [
+        {
+          "text": "Premium support example; details in actor and support records.",
+          "status": "reported",
+          "source": {
+            "label": "reported",
+            "url": "https://insuresilience-solutions-fund.org/wp-content/uploads/2025/04/2024-05-ISF-Principles-and-Conditions-on-Premium-Subsidies_Pillar-III.pdf"
+          }
+        }
+      ],
+      "uncertainty": "Not a generic permission, quote, renewal promise or verified impact estimate."
+    },
+    {
+      "id": "heat_cash",
+      "name": "Complementary heat cash",
+      "plain_definition": "Pre-agreed retained or philanthropic money provides assistance below an insurance threshold.",
+      "level": "micro",
+      "layer": "retain",
+      "loops": [
+        "protection",
+        "reactive"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "settings": [
+        "work",
+        "summer"
+      ],
+      "how_it_breaks_the_cycle": "Inferred pathway: pre-agreed funding can preserve household income and reduce emergency budget pressure; effectiveness depends on delivery.",
+      "risk_holder": "Programme retains funding and renewal risk.",
+      "who_pays": "Programme or donor",
+      "who_receives": "Participants",
+      "speed": "No general time-to-money estimate established; separate trigger, insurer settlement and beneficiary receipt.",
+      "typical_cost": "No defensible general price. Only case-specific amounts in money_ledger.",
+      "strengths": "Can cover more frequent heat stress.",
+      "limits": "Funding can expire; it does not transfer risk to an insurer.",
+      "basis_risk": "Weather index can fail to reflect actual harm; grant support also has targeting and coverage gaps.",
+      "reaches_poorest": "partly",
+      "reaches_poorest_why": "Distribution through trusted groups and subsidy can help; documentation, account access and renewal costs can exclude.",
+      "examples": [
+        {
+          "text": "Complementary heat cash example; details in actor and support records.",
+          "status": "reported",
+          "source": {
+            "label": "reported",
+            "url": "https://www.howdengroupholdings.com/insights/pioneering-initiative-protects-women-workers-in-india-during-record-breaking-heatwave"
+          }
+        }
+      ],
+      "uncertainty": "Not a generic permission, quote, renewal promise or verified impact estimate."
+    },
+    {
+      "id": "country_risk_finance",
+      "name": "Country risk-finance support",
+      "plain_definition": "Grants and advice help governments assemble financing and delivery arrangements.",
+      "level": "macro",
+      "layer": "contingent",
+      "loops": [
+        "protection",
+        "reactive"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "settings": [
+        "work",
+        "summer"
+      ],
+      "how_it_breaks_the_cycle": "Inferred pathway: pre-agreed funding can preserve household income and reduce emergency budget pressure; effectiveness depends on delivery.",
+      "risk_holder": "Programme retains funding and renewal risk.",
+      "who_pays": "Development partners; borrowing states for loans",
+      "who_receives": "Approved implementing entities and governments",
+      "speed": "No general time-to-money estimate established; separate trigger, insurer settlement and beneficiary receipt.",
+      "typical_cost": "No defensible general price. Only case-specific amounts in money_ledger.",
+      "strengths": "Can connect funding and social delivery.",
+      "limits": "Facility existence alone establishes no heat entitlement or beneficiary transfer.",
+      "basis_risk": "Weather index can fail to reflect actual harm; grant support also has targeting and coverage gaps.",
+      "reaches_poorest": "partly",
+      "reaches_poorest_why": "Distribution through trusted groups and subsidy can help; documentation, account access and renewal costs can exclude.",
+      "examples": [
+        {
+          "text": "Country risk-finance support example; details in actor and support records.",
+          "status": "reported",
+          "source": {
+            "label": "reported",
+            "url": "https://www.globalshield.org/about/financing-structure-global-shield/"
+          }
+        }
+      ],
+      "uncertainty": "Not a generic permission, quote, renewal promise or verified impact estimate."
+    }
+  ],
+  "schemes": [
+    {
+      "id": "sewa_2024",
+      "name": "SEWA heat cover, April 2024–March 2025",
+      "instrument": "parametric_heat",
+      "level": "micro",
+      "layer": "transfer",
+      "countries": [
+        "India"
+      ],
+      "places": [
+        "Gujarat",
+        "Rajasthan",
+        "Maharashtra"
+      ],
+      "insured_or_covered": "Worker income protection during extreme heat; cohort has ended, not a finding that the programme ended.",
+      "status": "ended",
+      "providers": [
+        {
+          "name": "ICICI Lombard",
+          "url": "https://www.icicilombard.com/docs/default-source/esg/icici-lombard-esg-report-fy2025.pdf",
+          "role": "insurer",
+          "side": "supply"
+        },
+        {
+          "name": "Swiss Re",
+          "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association",
+          "role": "reinsurer",
+          "side": "supply"
+        },
+        {
+          "name": "SEWA",
+          "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association",
+          "role": "aggregator",
+          "side": "demand"
+        },
+        {
+          "name": "HERA (then CRA)",
+          "url": "https://heranow.org/wp-content/uploads/2026/02/Insurance-to-Impact.pdf",
+          "role": "funder",
+          "side": "supply"
+        }
+      ],
+      "heat_covered": "yes",
+      "heat_basis": "Worker income protection during extreme heat; cohort has ended, not a finding that the programme ended.",
+      "trigger": {
+        "metric": "Consecutive extreme daily air-temperature observations; not humidity-adjusted merely because product is called Heat Index Cover.",
+        "threshold": "CGAP reports district thresholds spanning 41.6–46.1°C after two consecutive days; full district schedule not verified.",
+        "data_source": "Full contractual data feed not verified for this cohort.",
+        "geography": "District-specific",
+        "window": "Two consecutive days; April 2024–March 2025 policy year",
+        "calculated_by": "not verified",
+        "verified_by": "not verified",
+        "kind": "payout"
+      },
+      "enrolment": [
+        {
+          "year": "2024–25 policy cohort",
+          "number": "50000",
+          "unit": "women insured, insurer-reported",
+          "source": {
+            "label": "reported",
+            "url": "https://www.icicilombard.com/docs/default-source/esg/icici-lombard-esg-report-fy2025.pdf"
+          }
+        }
+      ],
+      "premium": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "year": "not verified",
+        "fx": "not verified",
+        "kind": "premium",
+        "source": {
+          "label": "reported",
+          "url": "https://www.icicilombard.com/docs/default-source/esg/icici-lombard-esg-report-fy2025.pdf"
+        },
+        "paid_by": "SEWA / HERA programme and member arrangements; exact 2024 premium split not verified. Do not substitute 2025 premium.",
+        "subsidy": "not verified"
+      },
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "year": "not verified",
+        "fx": "not verified",
+        "kind": "limit",
+        "source": {
+          "label": "reported",
+          "url": "https://www.icicilombard.com/docs/default-source/esg/icici-lombard-esg-report-fy2025.pdf"
+        }
+      },
+      "payouts": [
+        {
+          "date": "Claims triggered by June within April 2024–March 2025 cohort; precise settlement dates not verified",
+          "amount": "29000000",
+          "currency": "INR",
+          "usd": "346655.25",
+          "fx": "83.6566 INR = 1 USD; 2024 Federal Reserve annual average",
+          "recipients": "Around 46000 women, insurer-reported; individual reconciled receipts not verified",
+          "days_to_payment": "not verified",
+          "channel": "Programme case describes bank-account delivery; specific batch dates not verified",
+          "use": "Income replacement intended; independently measured use not verified",
+          "status": "paid",
+          "source": {
+            "label": "reported",
+            "url": "https://www.icicilombard.com/docs/default-source/esg/icici-lombard-esg-report-fy2025.pdf"
+          },
+          "year": "2024 (inferred from policy period)",
+          "kind": "payout",
+          "money_id": "icici_claims_2024"
+        }
+      ],
+      "never_triggered": "false",
+      "basis_risk": "Inferred: area-level weather can differ from individual heat exposure or livelihood loss.",
+      "fallback": "Separate donor-funded lower-temperature cash layer reported; thresholds conflict across accounts (see trigger_notes).",
+      "inclusion": {
+        "informal_workers": "Yes, target population",
+        "women": "Yes, target population",
+        "older_people": "Age limits and accessibility not verified",
+        "disabled_people": "Eligibility and accessible payment arrangements not verified",
+        "migrants": "Portability and documentation rules not verified"
+      },
+      "consumer_protection": "Contract wording, privacy, dispute and declined-payment records not verified; lack of published evidence is not evidence of mis-selling.",
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "levers": [
+        "heatcash",
+        "riskpools"
+      ],
+      "settings": [
+        "work",
+        "summer"
+      ],
+      "evidence": [
+        {
+          "status": "reported",
+          "text": "Operational report; not an independent causal evaluation.",
+          "kind": "claimed",
+          "source": {
+            "label": "reported",
+            "url": "https://www.icicilombard.com/docs/default-source/esg/icici-lombard-esg-report-fy2025.pdf"
+          }
+        },
+        {
+          "status": "reported",
+          "text": "CGAP documents the two-day trigger and separate cash layer; interview case, not an independent impact evaluation.",
+          "kind": "claimed",
+          "source": {
+            "label": "reported",
+            "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association"
+          }
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "green_delta_heat",
+      "name": "Green Delta livestock heat-index pilot",
+      "instrument": "parametric_heat",
+      "level": "micro",
+      "layer": "transfer",
+      "countries": [
+        "Bangladesh"
+      ],
+      "places": [],
+      "insured_or_covered": "Livestock heat-related production and income risk; introduced in 2024, settlement reported in 2025.",
+      "status": "unclear",
+      "providers": [
+        {
+          "name": "Green Delta Insurance",
+          "url": "https://green-delta.com/heat-index-livestock-insurance-protecting-bangladeshs-livestock-farmers/",
+          "role": "insurer",
+          "side": "supply"
+        },
+        {
+          "name": "IBISA",
+          "url": "https://green-delta.com/heat-index-livestock-insurance-protecting-bangladeshs-livestock-farmers/",
+          "role": "technical",
+          "side": "supply"
+        },
+        {
+          "name": "SCBF",
+          "url": "https://green-delta.com/heat-index-livestock-insurance-protecting-bangladeshs-livestock-farmers/",
+          "role": "funder",
+          "side": "platform"
+        }
+      ],
+      "heat_covered": "yes",
+      "heat_basis": "Livestock heat-related production and income risk; introduced in 2024, settlement reported in 2025.",
+      "trigger": {
+        "metric": "Heat index; contractual formula not verified",
+        "threshold": "not verified",
+        "data_source": "not verified",
+        "geography": "Bangladesh pilot areas; exact insured footprint not verified",
+        "window": "not verified",
+        "calculated_by": "not verified",
+        "verified_by": "not verified",
+        "kind": "payout"
+      },
+      "enrolment": [],
+      "premium": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "year": "not verified",
+        "fx": "not verified",
+        "kind": "premium",
+        "source": {
+          "label": "reported",
+          "url": "https://green-delta.com/heat-index-livestock-insurance-protecting-bangladeshs-livestock-farmers/"
+        },
+        "paid_by": "Not verified; SCBF support does not establish premium payer.",
+        "subsidy": "not verified"
+      },
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "year": "not verified",
+        "fx": "not verified",
+        "kind": "limit",
+        "source": {
+          "label": "reported",
+          "url": "https://green-delta.com/heat-index-livestock-insurance-protecting-bangladeshs-livestock-farmers/"
+        }
+      },
+      "payouts": [
+        {
+          "date": "2025-08-21 first settlement reported",
+          "amount": "not verified",
+          "currency": "not verified",
+          "usd": "not verified",
+          "fx": "not verified",
+          "recipients": "About 500 farmers, operator-reported",
+          "days_to_payment": "not verified",
+          "channel": "not verified",
+          "use": "Intended compensation for livestock production loss; recipient use not verified",
+          "status": "paid",
+          "source": {
+            "label": "reported",
+            "url": "https://green-delta.com/heat-index-livestock-insurance-protecting-bangladeshs-livestock-farmers/"
+          },
+          "year": "2025",
+          "kind": "payout"
+        }
+      ],
+      "never_triggered": "false",
+      "basis_risk": "Inferred: area-level weather can differ from individual heat exposure or livelihood loss.",
+      "fallback": "not verified",
+      "inclusion": {
+        "informal_workers": "not verified",
+        "women": "Sex-disaggregated enrolment and payment records not verified",
+        "older_people": "not verified",
+        "disabled_people": "not verified",
+        "migrants": "not verified"
+      },
+      "consumer_protection": "Contract wording, privacy, dispute and declined-payment records not verified; lack of published evidence is not evidence of mis-selling.",
+      "loops": [
+        "farmdebt",
+        "protection"
+      ],
+      "levers": [
+        "farmcredit"
+      ],
+      "settings": [
+        "work",
+        "summer"
+      ],
+      "evidence": [
+        {
+          "status": "reported",
+          "text": "Operational report; not an independent causal evaluation.",
+          "kind": "claimed",
+          "source": {
+            "label": "reported",
+            "url": "https://green-delta.com/heat-index-livestock-insurance-protecting-bangladeshs-livestock-farmers/"
+          }
+        }
+      ],
+      "last_checked": "2026-10-31"
+    }
+  ],
+  "actors": [
+    {
+      "id": "icici_lombard",
+      "name": "ICICI Lombard",
+      "url": "https://www.icicilombard.com/docs/default-source/esg/icici-lombard-esg-report-fy2025.pdf",
+      "type": "insurer",
+      "side": "supply",
+      "heat_role": {
+        "text": "Primary carrier for SEWA worker heat cover in the reported 2024–25 cohort.",
+        "source": {
+          "label": "reported",
+          "url": "https://www.icicilombard.com/docs/default-source/esg/icici-lombard-esg-report-fy2025.pdf"
+        }
+      },
+      "instruments": [
+        "parametric_heat"
+      ],
+      "geography": [
+        "India"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "active",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "swiss_re",
+      "name": "Swiss Re",
+      "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association",
+      "type": "reinsurer",
+      "side": "supply",
+      "heat_role": {
+        "text": "Designed SEWA heat cover and supplied capacity to ICICI Lombard.",
+        "source": {
+          "label": "reported",
+          "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association"
+        }
+      },
+      "instruments": [
+        "parametric_heat"
+      ],
+      "geography": [
+        "India"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "active",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "aic",
+      "name": "Agriculture Insurance Company of India",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1915851&lang=2&reg=48",
+      "type": "insurer",
+      "side": "supply",
+      "heat_role": {
+        "text": "Launched cattle heat-related milk-income cover in Kerala.",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1915851&lang=2&reg=48"
+        }
+      },
+      "instruments": [
+        "parametric_heat"
+      ],
+      "geography": [
+        "India"
+      ],
+      "levers": [
+        "farmcredit"
+      ],
+      "loops": [
+        "farmdebt",
+        "protection"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "historical launch; current sales not verified",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "go_digit",
+      "name": "Go Digit Insurance",
+      "url": "https://celsiuspro.squarespace.com/news-1/insuring-vulnerable-people-in-india-against-extreme-heat-events",
+      "type": "insurer",
+      "side": "supply",
+      "heat_role": {
+        "text": "Named local insurer in the MHT heat transaction.",
+        "source": {
+          "label": "reported",
+          "url": "https://celsiuspro.squarespace.com/news-1/insuring-vulnerable-people-in-india-against-extreme-heat-events"
+        }
+      },
+      "instruments": [
+        "parametric_heat"
+      ],
+      "geography": [
+        "India"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "active",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "green_delta",
+      "name": "Green Delta Insurance",
+      "url": "https://green-delta.com/heat-index-livestock-insurance-protecting-bangladeshs-livestock-farmers/",
+      "type": "insurer",
+      "side": "supply",
+      "heat_role": {
+        "text": "Bangladesh livestock heat-index carrier reporting a settlement.",
+        "source": {
+          "label": "reported",
+          "url": "https://green-delta.com/heat-index-livestock-insurance-protecting-bangladeshs-livestock-farmers/"
+        }
+      },
+      "instruments": [
+        "parametric_heat"
+      ],
+      "geography": [
+        "Bangladesh"
+      ],
+      "levers": [
+        "farmcredit"
+      ],
+      "loops": [
+        "farmdebt",
+        "protection"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "active",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "descartes",
+      "name": "Descartes Underwriting",
+      "url": "https://descartesunderwriting.com/solutions/extreme-temperatures",
+      "type": "mga",
+      "side": "supply",
+      "heat_role": {
+        "text": "Markets bespoke corporate extreme-temperature cover; local carrier and permissions require placement checks.",
+        "source": {
+          "label": "reported",
+          "url": "https://descartesunderwriting.com/solutions/extreme-temperatures"
+        }
+      },
+      "instruments": [
+        "parametric_heat_meso"
+      ],
+      "geography": [
+        "International; country availability contractual"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "active",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "axa_hk",
+      "name": "AXA Hong Kong and Macau",
+      "url": "https://www.axa.com.hk/en/article/axa-launches-pioneering-heatwave-parametric-insurance",
+      "type": "insurer",
+      "side": "supply",
+      "heat_role": {
+        "text": "Employer heatwave parametric offer; transferable lesson is simplified employer distribution.",
+        "source": {
+          "label": "reported",
+          "url": "https://www.axa.com.hk/en/article/axa-launches-pioneering-heatwave-parametric-insurance"
+        }
+      },
+      "instruments": [
+        "parametric_heat_meso"
+      ],
+      "geography": [
+        "Hong Kong; design lesson only elsewhere"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "launch documented; current renewal availability not verified",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "howden_broker",
+      "name": "Howden",
+      "url": "https://celsiuspro.squarespace.com/news-1/insuring-vulnerable-people-in-india-against-extreme-heat-events",
+      "type": "broker",
+      "side": "supply",
+      "heat_role": {
+        "text": "Named broker partner in MHT heat placement.",
+        "source": {
+          "label": "reported",
+          "url": "https://celsiuspro.squarespace.com/news-1/insuring-vulnerable-people-in-india-against-extreme-heat-events"
+        }
+      },
+      "instruments": [
+        "parametric_heat"
+      ],
+      "geography": [
+        "India"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "active",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "aims",
+      "name": "AIMS Insurance Brokers",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1915851&lang=2&reg=48",
+      "type": "broker",
+      "side": "supply",
+      "heat_role": {
+        "text": "Facilitated Kerala cattle heat product implementation.",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1915851&lang=2&reg=48"
+        }
+      },
+      "instruments": [
+        "parametric_heat"
+      ],
+      "geography": [
+        "India"
+      ],
+      "levers": [
+        "farmcredit"
+      ],
+      "loops": [
+        "farmdebt",
+        "protection"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "active",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "global_parametrics",
+      "name": "Global Parametrics",
+      "url": "https://celsiuspro.squarespace.com/news-1/insuring-vulnerable-people-in-india-against-extreme-heat-events",
+      "type": "modeller",
+      "side": "supply",
+      "heat_role": {
+        "text": "Structured MHT heat index; manages NDF risk capacity.",
+        "source": {
+          "label": "reported",
+          "url": "https://celsiuspro.squarespace.com/news-1/insuring-vulnerable-people-in-india-against-extreme-heat-events"
+        }
+      },
+      "instruments": [
+        "parametric_heat_meso"
+      ],
+      "geography": [
+        "India"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "active",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "celsiuspro",
+      "name": "CelsiusPro",
+      "url": "https://celsiuspro.squarespace.com/news-1/insuring-vulnerable-people-in-india-against-extreme-heat-events",
+      "type": "modeller",
+      "side": "supply",
+      "heat_role": {
+        "text": "Publishes technical group account of the MHT heat transaction.",
+        "source": {
+          "label": "reported",
+          "url": "https://celsiuspro.squarespace.com/news-1/insuring-vulnerable-people-in-india-against-extreme-heat-events"
+        }
+      },
+      "instruments": [
+        "parametric_heat_meso"
+      ],
+      "geography": [
+        "India"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "active",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "ndf",
+      "name": "Natural Disaster Fund",
+      "url": "https://celsiuspro.squarespace.com/news-1/insuring-vulnerable-people-in-india-against-extreme-heat-events",
+      "type": "facility",
+      "side": "platform",
+      "heat_role": {
+        "text": "Risk-capacity and technical-assistance source for MHT heat transaction.",
+        "source": {
+          "label": "reported",
+          "url": "https://celsiuspro.squarespace.com/news-1/insuring-vulnerable-people-in-india-against-extreme-heat-events"
+        }
+      },
+      "instruments": [
+        "parametric_heat_meso"
+      ],
+      "geography": [
+        "India"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "active",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "ibisa",
+      "name": "IBISA",
+      "url": "https://www.ibisa.network/en/blog/ushma-kavach-a-climate-resilient-shield-for-indias-dairy-farmers",
+      "type": "modeller",
+      "side": "supply",
+      "heat_role": {
+        "text": "Heat-index design for India dairy and Bangladesh livestock products.",
+        "source": {
+          "label": "reported",
+          "url": "https://www.ibisa.network/en/blog/ushma-kavach-a-climate-resilient-shield-for-indias-dairy-farmers"
+        }
+      },
+      "instruments": [
+        "parametric_heat_agriculture"
+      ],
+      "geography": [
+        "India",
+        "Bangladesh"
+      ],
+      "levers": [
+        "farmcredit"
+      ],
+      "loops": [
+        "farmdebt",
+        "protection"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "active",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "blue_marble",
+      "name": "Blue Marble",
+      "url": "https://www.rockefellerfoundation.org/news/the-rockefeller-foundation-announces-support-for-the-india-extreme-heat-income-insurance-initiative-as-part-of-the-global-climate-resilience-fund-for-women/",
+      "type": "modeller",
+      "side": "supply",
+      "heat_role": {
+        "text": "Technical partner in the announced India extreme-heat pilot.",
+        "source": {
+          "label": "reported",
+          "url": "https://www.rockefellerfoundation.org/news/the-rockefeller-foundation-announces-support-for-the-india-extreme-heat-income-insurance-initiative-as-part-of-the-global-climate-resilience-fund-for-women/"
+        }
+      },
+      "instruments": [
+        "parametric_heat"
+      ],
+      "geography": [
+        "India"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "historical pilot role; current mandate not verified",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "weo",
+      "name": "WEO",
+      "url": "https://business.esa.int/projects/hotpay",
+      "type": "modeller",
+      "side": "supply",
+      "heat_role": {
+        "text": "HotPay satellite heat-index feasibility developer; not an issued insurance policy.",
+        "source": {
+          "label": "test",
+          "url": "https://business.esa.int/projects/hotpay"
+        }
+      },
+      "instruments": [
+        "heat_index_data"
+      ],
+      "geography": [
+        "India initial validation",
+        "Luxembourg"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "test",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "sewa",
+      "name": "Self-Employed Women’s Association (SEWA)",
+      "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association",
+      "type": "worker_org",
+      "side": "demand",
+      "heat_role": {
+        "text": "Organises informal women workers and heat-cover delivery.",
+        "source": {
+          "label": "reported",
+          "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association"
+        }
+      },
+      "instruments": [
+        "parametric_heat"
+      ],
+      "geography": [
+        "India"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "active",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "mht",
+      "name": "Mahila Housing Trust (MHT)",
+      "url": "https://celsiuspro.squarespace.com/news-1/insuring-vulnerable-people-in-india-against-extreme-heat-events",
+      "type": "worker_org",
+      "side": "demand",
+      "heat_role": {
+        "text": "Heat-cover aggregation through women’s credit cooperatives.",
+        "source": {
+          "label": "reported",
+          "url": "https://celsiuspro.squarespace.com/news-1/insuring-vulnerable-people-in-india-against-extreme-heat-events"
+        }
+      },
+      "instruments": [
+        "parametric_heat_meso"
+      ],
+      "geography": [
+        "India"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "active",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "milma",
+      "name": "MILMA Malabar Regional Cooperative Milk Producers’ Union",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1915851&lang=2&reg=48",
+      "type": "partnership",
+      "side": "demand",
+      "heat_role": {
+        "text": "Dairy cooperative aggregation for cattle heat cover.",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1915851&lang=2&reg=48"
+        }
+      },
+      "instruments": [
+        "parametric_heat_agriculture"
+      ],
+      "geography": [
+        "Kerala, India"
+      ],
+      "levers": [
+        "farmcredit"
+      ],
+      "loops": [
+        "farmdebt"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "historical launch; current coverage not verified",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "hera",
+      "name": "HERA (formerly Climate Resilience for All)",
+      "url": "https://heranow.org/wp-content/uploads/2026/02/Insurance-to-Impact.pdf",
+      "type": "humanitarian",
+      "side": "supply",
+      "heat_role": {
+        "text": "Co-designs heat insurance and funds complementary cash and premium support.",
+        "source": {
+          "label": "reported",
+          "url": "https://heranow.org/wp-content/uploads/2026/02/Insurance-to-Impact.pdf"
+        }
+      },
+      "instruments": [
+        "parametric_heat",
+        "premium_support",
+        "heat_cash"
+      ],
+      "geography": [
+        "South and Southeast Asia",
+        "Africa",
+        "Americas"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "active",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "rockefeller",
+      "name": "The Rockefeller Foundation",
+      "url": "https://www.rockefellerfoundation.org/news/the-rockefeller-foundation-announces-support-for-the-india-extreme-heat-income-insurance-initiative-as-part-of-the-global-climate-resilience-fund-for-women/",
+      "type": "philanthropy",
+      "side": "supply",
+      "heat_role": {
+        "text": "Announced support for the India heat pilot.",
+        "source": {
+          "label": "reported",
+          "url": "https://www.rockefellerfoundation.org/news/the-rockefeller-foundation-announces-support-for-the-india-extreme-heat-income-insurance-initiative-as-part-of-the-global-climate-resilience-fund-for-women/"
+        }
+      },
+      "instruments": [
+        "premium_support"
+      ],
+      "geography": [
+        "India"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "2023 support documented; current heat grant terms not verified",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "arshtrock",
+      "name": "Arsht-Rockefeller Foundation Resilience Center",
+      "url": "https://www.rockefellerfoundation.org/news/the-rockefeller-foundation-announces-support-for-the-india-extreme-heat-income-insurance-initiative-as-part-of-the-global-climate-resilience-fund-for-women/",
+      "type": "research",
+      "side": "platform",
+      "heat_role": {
+        "text": "Partner in the announced India extreme-heat pilot.",
+        "source": {
+          "label": "reported",
+          "url": "https://www.rockefellerfoundation.org/news/the-rockefeller-foundation-announces-support-for-the-india-extreme-heat-income-insurance-initiative-as-part-of-the-global-climate-resilience-fund-for-women/"
+        }
+      },
+      "instruments": [
+        "parametric_heat"
+      ],
+      "geography": [
+        "India"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "historical pilot role; current programme continuity not verified",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "howden_foundation",
+      "name": "Howden Foundation",
+      "url": "https://www.howdengroupholdings.com/insights/pioneering-initiative-protects-women-workers-in-india-during-record-breaking-heatwave",
+      "type": "philanthropy",
+      "side": "supply",
+      "heat_role": {
+        "text": "Funded the additional cash layer in the India programme.",
+        "source": {
+          "label": "reported",
+          "url": "https://www.howdengroupholdings.com/insights/pioneering-initiative-protects-women-workers-in-india-during-record-breaking-heatwave"
+        }
+      },
+      "instruments": [
+        "heat_cash"
+      ],
+      "geography": [
+        "India"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "2024 funding documented; renewal not verified",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "humanity_insured",
+      "name": "Humanity Insured",
+      "url": "https://humanityinsured.org/wp-content/uploads/2025/12/Building-Resilience-through-Protection-Humanity-Insured-Learning-Report-2025.pdf",
+      "type": "philanthropy",
+      "side": "supply",
+      "heat_role": {
+        "text": "Supports MHT and HERA heat programmes; project-specific subsidy schedules unpublished here.",
+        "source": {
+          "label": "reported",
+          "url": "https://humanityinsured.org/wp-content/uploads/2025/12/Building-Resilience-through-Protection-Humanity-Insured-Learning-Report-2025.pdf"
+        }
+      },
+      "instruments": [
+        "premium_support"
+      ],
+      "geography": [
+        "India",
+        "International"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "active",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "scbf",
+      "name": "Swiss Capacity Building Facility (SCBF)",
+      "url": "https://www.scbf.ch/events/webinar---pioneering-heat-index-insurance-for-climate-exposed-workers-farmers",
+      "type": "facility",
+      "side": "platform",
+      "heat_role": {
+        "text": "Supports heat-index product work; premium subsidy not established by named support.",
+        "source": {
+          "label": "reported",
+          "url": "https://www.scbf.ch/events/webinar---pioneering-heat-index-insurance-for-climate-exposed-workers-farmers"
+        }
+      },
+      "instruments": [
+        "product_development"
+      ],
+      "geography": [
+        "India",
+        "Bangladesh"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "active",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "wb",
+      "name": "World Bank",
+      "url": "https://www.worldbank.org/en/programs/disaster-risk-financing-and-insurance-program",
+      "type": "mdb",
+      "side": "supply",
+      "heat_role": {
+        "text": "DRFI advisory and financing architecture; heat eligibility requires transaction documents.",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.worldbank.org/en/programs/disaster-risk-financing-and-insurance-program"
+        }
+      },
+      "instruments": [
+        "contingent_credit",
+        "sovereign_transfer",
+        "social_protection"
+      ],
+      "geography": [
+        "Global"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "active",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "adb",
+      "name": "Asian Development Bank",
+      "url": "https://www.adb.org/what-we-do/topics/disaster-risk-management/modalities-funding-opportunities",
+      "type": "mdb",
+      "side": "supply",
+      "heat_role": {
+        "text": "Disaster finance loans, grants and technical assistance; no blanket heat drawdown entitlement.",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.adb.org/what-we-do/topics/disaster-risk-management/modalities-funding-opportunities"
+        }
+      },
+      "instruments": [
+        "contingent_credit",
+        "product_development"
+      ],
+      "geography": [
+        "Asia and Pacific"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "active",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "aiib",
+      "name": "Asian Infrastructure Investment Bank",
+      "url": "https://www.aiib.org/en/what-we-do/Climate-Focused-Policy-Based-Financing/index.html",
+      "type": "mdb",
+      "side": "supply",
+      "heat_role": {
+        "text": "Climate-focused policy-based finance supports reforms; distinct from automatic heat payout cover.",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.aiib.org/en/what-we-do/Climate-Focused-Policy-Based-Financing/index.html"
+        }
+      },
+      "instruments": [
+        "policy_based_finance"
+      ],
+      "geography": [
+        "AIIB members"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "active",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "global_shield",
+      "name": "Global Shield against Climate Risks",
+      "url": "https://www.globalshield.org/about/financing-structure-global-shield/",
+      "type": "partnership",
+      "side": "platform",
+      "heat_role": {
+        "text": "Coordinates country support; not a risk carrier.",
+        "source": {
+          "label": "reported",
+          "url": "https://www.globalshield.org/about/financing-structure-global-shield/"
+        }
+      },
+      "instruments": [
+        "country_risk_finance"
+      ],
+      "geography": [
+        "Eligible partner countries"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "active",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "gssp",
+      "name": "Global Shield Solutions Platform",
+      "url": "https://www.globalshield.org/about/financing-structure-global-shield/",
+      "type": "facility",
+      "side": "platform",
+      "heat_role": {
+        "text": "Frankfurt School-hosted grant vehicle for country support packages.",
+        "source": {
+          "label": "reported",
+          "url": "https://www.globalshield.org/about/financing-structure-global-shield/"
+        }
+      },
+      "instruments": [
+        "premium_support",
+        "product_development"
+      ],
+      "geography": [
+        "Eligible partner countries"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "active",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "gsff",
+      "name": "Global Shield Financing Facility (GSFF)",
+      "url": "https://www.globalshield.org/about/financing-structure-global-shield/",
+      "type": "facility",
+      "side": "platform",
+      "heat_role": {
+        "text": "World Bank-hosted financing vehicle reformed from GRiF.",
+        "source": {
+          "label": "reported",
+          "url": "https://www.globalshield.org/about/financing-structure-global-shield/"
+        }
+      },
+      "instruments": [
+        "country_risk_finance",
+        "premium_support"
+      ],
+      "geography": [
+        "Eligible partner countries"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "active",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "grif_legacy",
+      "name": "Global Risk Financing Facility (GRiF): legacy identity",
+      "url": "https://www.globalshield.org/about/financing-structure-global-shield/",
+      "type": "facility",
+      "side": "platform",
+      "heat_role": {
+        "text": "Historical predecessor of GSFF; not additional current capital.",
+        "source": {
+          "label": "reported",
+          "url": "https://www.globalshield.org/about/financing-structure-global-shield/"
+        }
+      },
+      "instruments": [
+        "country_risk_finance"
+      ],
+      "geography": [
+        "Global"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "reformed into GSFF",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "v20_fund",
+      "name": "CVF & V20 Joint Multi-Donor Fund",
+      "url": "https://www.globalshield.org/about/financing-structure-global-shield/",
+      "type": "facility",
+      "side": "platform",
+      "heat_role": {
+        "text": "Complementary Global Shield vehicle hosted by UNOPS.",
+        "source": {
+          "label": "reported",
+          "url": "https://www.globalshield.org/about/financing-structure-global-shield/"
+        }
+      },
+      "instruments": [
+        "country_risk_finance"
+      ],
+      "geography": [
+        "Participating vulnerable countries"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "active",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "insuresilience",
+      "name": "InsuResilience Global Partnership / Vision 2025",
+      "url": "https://www.globalshield.org/news/vision-2025-concludes-with-report-on-six-years-of-collaborative-action-to-boost-financial-protection-for-the-most-vulnerable/",
+      "type": "partnership",
+      "side": "platform",
+      "heat_role": {
+        "text": "Legacy collaboration framework; Vision 2025 has concluded.",
+        "source": {
+          "label": "reported",
+          "url": "https://www.globalshield.org/news/vision-2025-concludes-with-report-on-six-years-of-collaborative-action-to-boost-financial-protection-for-the-most-vulnerable/"
+        }
+      },
+      "instruments": [
+        "inclusive_insurance"
+      ],
+      "geography": [
+        "Global"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "Vision 2025 concluded; legacy framework",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "sif",
+      "name": "V20 Sustainable Insurance Facility (SIF)",
+      "url": "https://www.unepfi.org/the-v20-sustainable-insurance-facility/",
+      "type": "facility",
+      "side": "platform",
+      "heat_role": {
+        "text": "MSME insurance development platform; specific issued heat cover not verified.",
+        "source": {
+          "label": "reported",
+          "url": "https://www.unepfi.org/the-v20-sustainable-insurance-facility/"
+        }
+      },
+      "instruments": [
+        "meso_insurance",
+        "product_development"
+      ],
+      "geography": [
+        "V20 economies"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "active",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "idf",
+      "name": "Insurance Development Forum (IDF)",
+      "url": "https://www.insdevforum.org/programmes/global-risk-modelling-alliance-grma/",
+      "type": "partnership",
+      "side": "platform",
+      "heat_role": {
+        "text": "Public-private risk-finance and modelling collaboration; not itself heat risk capital.",
+        "source": {
+          "label": "reported",
+          "url": "https://www.insdevforum.org/programmes/global-risk-modelling-alliance-grma/"
+        }
+      },
+      "instruments": [
+        "risk_modelling",
+        "country_risk_finance"
+      ],
+      "geography": [
+        "Global"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "active",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "grma",
+      "name": "Global Risk Modelling Alliance (GRMA)",
+      "url": "https://www.insdevforum.org/programmes/global-risk-modelling-alliance-grma/",
+      "type": "partnership",
+      "side": "platform",
+      "heat_role": {
+        "text": "IDF–V20 public-good modelling and capacity programme.",
+        "source": {
+          "label": "reported",
+          "url": "https://www.insdevforum.org/programmes/global-risk-modelling-alliance-grma/"
+        }
+      },
+      "instruments": [
+        "risk_modelling"
+      ],
+      "geography": [
+        "Vulnerable countries"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "active",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "a2ii",
+      "name": "Access to Insurance Initiative (A2ii)",
+      "url": "https://www.iais.org/2025/06/cgap-to-become-new-host-of-the-access-to-insurance-initiative-a2ii/",
+      "type": "partnership",
+      "side": "platform",
+      "heat_role": {
+        "text": "Inclusive-supervision support; CGAP host and convenor since July 2025.",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.iais.org/2025/06/cgap-to-become-new-host-of-the-access-to-insurance-initiative-a2ii/"
+        }
+      },
+      "instruments": [
+        "inclusive_insurance"
+      ],
+      "geography": [
+        "Global"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "active",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "iais",
+      "name": "International Association of Insurance Supervisors (IAIS)",
+      "url": "https://www.iais.org/2025/06/cgap-to-become-new-host-of-the-access-to-insurance-initiative-a2ii/",
+      "type": "regulator",
+      "side": "platform",
+      "heat_role": {
+        "text": "International supervisory standards and inclusion work; domestic permission remains national.",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.iais.org/2025/06/cgap-to-become-new-host-of-the-access-to-insurance-initiative-a2ii/"
+        }
+      },
+      "instruments": [
+        "inclusive_insurance",
+        "supervisory_guidance"
+      ],
+      "geography": [
+        "Global"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "active",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "cdp",
+      "name": "Centre for Disaster Protection",
+      "url": "https://www.undrr.org/publication/documents-and-publications/financing-heat-resilience",
+      "type": "research",
+      "side": "platform",
+      "heat_role": {
+        "text": "Technical support for UNDRR–NDMA heat-finance guidance.",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.undrr.org/publication/documents-and-publications/financing-heat-resilience"
+        }
+      },
+      "instruments": [
+        "heat_risk_layering"
+      ],
+      "geography": [
+        "Global",
+        "India"
+      ],
+      "levers": [
+        "heatbudget",
+        "hap",
+        "riskpools"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "active",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "isf",
+      "name": "InsuResilience Solutions Fund (ISF)",
+      "url": "https://insuresilience-solutions-fund.org/our-work/premium-financing-support/",
+      "type": "facility",
+      "side": "platform",
+      "heat_role": {
+        "text": "Product development and conditional premium support; distinct from Vision 2025.",
+        "source": {
+          "label": "reported",
+          "url": "https://insuresilience-solutions-fund.org/our-work/premium-financing-support/"
+        }
+      },
+      "instruments": [
+        "product_development",
+        "premium_support"
+      ],
+      "geography": [
+        "Eligible developing-country projects"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "active",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "seadrif",
+      "name": "SEADRIF Insurance Company",
+      "url": "https://heranow.org/hera-and-seadrif-partner-to-accelerate-solutions-to-extreme-heat-across-southeast-asia/",
+      "type": "insurer",
+      "side": "supply",
+      "heat_role": {
+        "text": "Announced HERA heat accelerator; issued heat policies not established by announcement.",
+        "source": {
+          "label": "reported",
+          "url": "https://heranow.org/hera-and-seadrif-partner-to-accelerate-solutions-to-extreme-heat-across-southeast-asia/"
+        }
+      },
+      "instruments": [
+        "parametric_heat_meso",
+        "sovereign_transfer"
+      ],
+      "geography": [
+        "Southeast Asia"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "heat development announced",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "v20",
+      "name": "Vulnerable Twenty Group (V20)",
+      "url": "https://www.unepfi.org/the-v20-sustainable-insurance-facility/",
+      "type": "partnership",
+      "side": "platform",
+      "heat_role": {
+        "text": "Member-government coalition behind SIF; heat-specific underwriting is not established by membership.",
+        "source": {
+          "label": "reported",
+          "url": "https://www.unepfi.org/the-v20-sustainable-insurance-facility/"
+        }
+      },
+      "instruments": [
+        "country_risk_finance",
+        "meso_insurance"
+      ],
+      "geography": [
+        "V20 economies"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ],
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "active",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "irdai",
+      "name": "IRDAI",
+      "url": "https://financialservices.gov.in/beta/sites/default/files/2024-11/IRDAI%20%28Insurance%20Products%29%20Regulations%2C%202024.pdf",
+      "type": "regulator",
+      "side": "platform",
+      "heat_role": {
+        "text": "Supervisory or legal framework relevant to insurance; heat-specific approval not established by this record.",
+        "source": {
+          "label": "guidance",
+          "url": "https://financialservices.gov.in/beta/sites/default/files/2024-11/IRDAI%20%28Insurance%20Products%29%20Regulations%2C%202024.pdf"
+        }
+      },
+      "instruments": [
+        "insurance_regulation"
+      ],
+      "geography": [
+        "India"
+      ],
+      "levers": [
+        "riskpools"
+      ],
+      "loops": [
+        "protection"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "institution documented; operative scope in country_regulation",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "bangladesh_bank",
+      "name": "Bangladesh Bank",
+      "url": "https://www.bb.org.bd/mediaroom/circulars/brpd/dec202023brpd18e.pdf",
+      "type": "regulator",
+      "side": "platform",
+      "heat_role": {
+        "text": "Supervisory or legal framework relevant to insurance; heat-specific approval not established by this record.",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.bb.org.bd/mediaroom/circulars/brpd/dec202023brpd18e.pdf"
+        }
+      },
+      "instruments": [
+        "insurance_regulation"
+      ],
+      "geography": [
+        "Bangladesh"
+      ],
+      "levers": [
+        "riskpools"
+      ],
+      "loops": [
+        "protection"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "institution documented; operative scope in country_regulation",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "secp",
+      "name": "SECP",
+      "url": "https://www.secp.gov.pk/regulatory-sandbox/",
+      "type": "regulator",
+      "side": "platform",
+      "heat_role": {
+        "text": "Supervisory or legal framework relevant to insurance; heat-specific approval not established by this record.",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.secp.gov.pk/regulatory-sandbox/"
+        }
+      },
+      "instruments": [
+        "insurance_regulation"
+      ],
+      "geography": [
+        "Pakistan"
+      ],
+      "levers": [
+        "riskpools"
+      ],
+      "loops": [
+        "protection"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "institution documented; operative scope in country_regulation",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "ircsl",
+      "name": "IRCSL",
+      "url": "https://ircsl.gov.lk/",
+      "type": "regulator",
+      "side": "platform",
+      "heat_role": {
+        "text": "Supervisory or legal framework relevant to insurance; heat-specific approval not established by this record.",
+        "source": {
+          "label": "guidance",
+          "url": "https://ircsl.gov.lk/"
+        }
+      },
+      "instruments": [
+        "insurance_regulation"
+      ],
+      "geography": [
+        "Sri Lanka"
+      ],
+      "levers": [
+        "riskpools"
+      ],
+      "loops": [
+        "protection"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "institution documented; operative scope in country_regulation",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "mma",
+      "name": "Maldives Monetary Authority",
+      "url": "https://presidency.gov.mv/Press/Article/34780?term=0",
+      "type": "regulator",
+      "side": "platform",
+      "heat_role": {
+        "text": "Supervisory or legal framework relevant to insurance; heat-specific approval not established by this record.",
+        "source": {
+          "label": "guidance",
+          "url": "https://presidency.gov.mv/Press/Article/34780?term=0"
+        }
+      },
+      "instruments": [
+        "insurance_regulation"
+      ],
+      "geography": [
+        "Maldives"
+      ],
+      "levers": [
+        "riskpools"
+      ],
+      "loops": [
+        "protection"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "institution documented; operative scope in country_regulation",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "ojk",
+      "name": "OJK",
+      "url": "https://ojk.go.id/id/regulasi/Pages/POJK-8-Tahun-2024-Produk-Asuransi-dan-Saluran-Pemasaran-Produk-Asuransi.aspx",
+      "type": "regulator",
+      "side": "platform",
+      "heat_role": {
+        "text": "Supervisory or legal framework relevant to insurance; heat-specific approval not established by this record.",
+        "source": {
+          "label": "guidance",
+          "url": "https://ojk.go.id/id/regulasi/Pages/POJK-8-Tahun-2024-Produk-Asuransi-dan-Saluran-Pemasaran-Produk-Asuransi.aspx"
+        }
+      },
+      "instruments": [
+        "insurance_regulation"
+      ],
+      "geography": [
+        "Indonesia"
+      ],
+      "levers": [
+        "riskpools"
+      ],
+      "loops": [
+        "protection"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "institution documented; operative scope in country_regulation",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "ic_ph",
+      "name": "Insurance Commission, Philippines",
+      "url": "https://www.insurance.gov.ph/wp-content/uploads/2022/11/CL2016_64.pdf",
+      "type": "regulator",
+      "side": "platform",
+      "heat_role": {
+        "text": "Supervisory or legal framework relevant to insurance; heat-specific approval not established by this record.",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.insurance.gov.ph/wp-content/uploads/2022/11/CL2016_64.pdf"
+        }
+      },
+      "instruments": [
+        "insurance_regulation"
+      ],
+      "geography": [
+        "Philippines"
+      ],
+      "levers": [
+        "riskpools"
+      ],
+      "loops": [
+        "protection"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "institution documented; operative scope in country_regulation",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "oic",
+      "name": "OIC",
+      "url": "https://cit.oic.or.th/insurance-regulartory-sandbox",
+      "type": "regulator",
+      "side": "platform",
+      "heat_role": {
+        "text": "Supervisory or legal framework relevant to insurance; heat-specific approval not established by this record.",
+        "source": {
+          "label": "guidance",
+          "url": "https://cit.oic.or.th/insurance-regulartory-sandbox"
+        }
+      },
+      "instruments": [
+        "insurance_regulation"
+      ],
+      "geography": [
+        "Thailand"
+      ],
+      "levers": [
+        "riskpools"
+      ],
+      "loops": [
+        "protection"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "institution documented; operative scope in country_regulation",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "bnm",
+      "name": "Bank Negara Malaysia",
+      "url": "https://www.bnm.gov.my/perlindungan-tenang",
+      "type": "regulator",
+      "side": "platform",
+      "heat_role": {
+        "text": "Supervisory or legal framework relevant to insurance; heat-specific approval not established by this record.",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.bnm.gov.my/perlindungan-tenang"
+        }
+      },
+      "instruments": [
+        "insurance_regulation"
+      ],
+      "geography": [
+        "Malaysia"
+      ],
+      "levers": [
+        "riskpools"
+      ],
+      "loops": [
+        "protection"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "institution documented; operative scope in country_regulation",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "mas",
+      "name": "Monetary Authority of Singapore",
+      "url": "https://www.mas.gov.sg/development/sustainable-finance/regulatory-and-supervisory-approach",
+      "type": "regulator",
+      "side": "platform",
+      "heat_role": {
+        "text": "Supervisory or legal framework relevant to insurance; heat-specific approval not established by this record.",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.mas.gov.sg/development/sustainable-finance/regulatory-and-supervisory-approach"
+        }
+      },
+      "instruments": [
+        "insurance_regulation"
+      ],
+      "geography": [
+        "Singapore"
+      ],
+      "levers": [
+        "riskpools"
+      ],
+      "loops": [
+        "protection"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "institution documented; operative scope in country_regulation",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "mof_vietnam",
+      "name": "Government / Ministry of Finance, Vietnam",
+      "url": "https://chinhphu.vn/?classid=1&docid=207854&pageid=27160&typegroupid=4",
+      "type": "regulator",
+      "side": "platform",
+      "heat_role": {
+        "text": "Supervisory or legal framework relevant to insurance; heat-specific approval not established by this record.",
+        "source": {
+          "label": "guidance",
+          "url": "https://chinhphu.vn/?classid=1&docid=207854&pageid=27160&typegroupid=4"
+        }
+      },
+      "instruments": [
+        "insurance_regulation"
+      ],
+      "geography": [
+        "Vietnam"
+      ],
+      "levers": [
+        "riskpools"
+      ],
+      "loops": [
+        "protection"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "institution documented; operative scope in country_regulation",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "irc_cambodia",
+      "name": "Insurance Regulator of Cambodia",
+      "url": "https://www.nbc.gov.kh/download_files/publication/blueprints_eng/Combine%20Ver.%20Final.pdf",
+      "type": "regulator",
+      "side": "platform",
+      "heat_role": {
+        "text": "Supervisory or legal framework relevant to insurance; heat-specific approval not established by this record.",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.nbc.gov.kh/download_files/publication/blueprints_eng/Combine%20Ver.%20Final.pdf"
+        }
+      },
+      "instruments": [
+        "insurance_regulation"
+      ],
+      "geography": [
+        "Cambodia"
+      ],
+      "levers": [
+        "riskpools"
+      ],
+      "loops": [
+        "protection"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "institution documented; operative scope in country_regulation",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "bdcb",
+      "name": "BDCB",
+      "url": "https://cms.bdcb.gov.bn/storage/uploads/regulatories/17111192020994310.pdf",
+      "type": "regulator",
+      "side": "platform",
+      "heat_role": {
+        "text": "Supervisory or legal framework relevant to insurance; heat-specific approval not established by this record.",
+        "source": {
+          "label": "guidance",
+          "url": "https://cms.bdcb.gov.bn/storage/uploads/regulatories/17111192020994310.pdf"
+        }
+      },
+      "instruments": [
+        "insurance_regulation"
+      ],
+      "geography": [
+        "Brunei Darussalam"
+      ],
+      "levers": [
+        "riskpools"
+      ],
+      "loops": [
+        "protection"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "institution documented; operative scope in country_regulation",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "frd",
+      "name": "Financial Regulatory Department",
+      "url": "https://www.frd.gov.mm/page-sub-categories/4",
+      "type": "regulator",
+      "side": "platform",
+      "heat_role": {
+        "text": "Supervisory or legal framework relevant to insurance; heat-specific approval not established by this record.",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.frd.gov.mm/page-sub-categories/4"
+        }
+      },
+      "instruments": [
+        "insurance_regulation"
+      ],
+      "geography": [
+        "Myanmar"
+      ],
+      "levers": [
+        "riskpools"
+      ],
+      "loops": [
+        "protection"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "institution documented; operative scope in country_regulation",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "mof_lao",
+      "name": "Ministry of Finance insurance department, Lao PDR",
+      "url": "https://soe.mof.gov.la/",
+      "type": "regulator",
+      "side": "platform",
+      "heat_role": {
+        "text": "Supervisory or legal framework relevant to insurance; heat-specific approval not established by this record.",
+        "source": {
+          "label": "guidance",
+          "url": "https://soe.mof.gov.la/"
+        }
+      },
+      "instruments": [
+        "insurance_regulation"
+      ],
+      "geography": [
+        "Lao PDR"
+      ],
+      "levers": [
+        "riskpools"
+      ],
+      "loops": [
+        "protection"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "institution documented; operative scope in country_regulation",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    },
+    {
+      "id": "bctl",
+      "name": "Banco Central de Timor-Leste",
+      "url": "https://bancocentral.tl/publication/instruction/",
+      "type": "regulator",
+      "side": "platform",
+      "heat_role": {
+        "text": "Supervisory or legal framework relevant to insurance; heat-specific approval not established by this record.",
+        "source": {
+          "label": "guidance",
+          "url": "https://bancocentral.tl/publication/instruction/"
+        }
+      },
+      "instruments": [
+        "insurance_regulation"
+      ],
+      "geography": [
+        "Timor-Leste"
+      ],
+      "levers": [
+        "riskpools"
+      ],
+      "loops": [
+        "protection"
+      ],
+      "last_checked": "2026-10-31",
+      "status": "institution documented; operative scope in country_regulation",
+      "role_scope": "Heat role only as stated; no inference of unrestricted licensing, available capacity or open funding."
+    }
+  ],
+  "triggers": [],
+  "evidence_of_effect": [],
+  "country_layers": [],
+  "country_regulation": [
+    {
+      "country": "India",
+      "authority": "IRDAI",
+      "parametric_permission": "Actual heat products documented separately; no general permission inferred for a new issuer.",
+      "microinsurance": "2024 product regulations repeal 2015 Micro Insurance Regulations; implementing circulars must be checked.",
+      "worker_and_mobile_distribution": "SEWA operation observed; current authority for a new worker/mobile distributor not verified.",
+      "consumer_protection": "Product governance and clear design requirements; heat-specific disclosure, complaint and data procedures require policy review.",
+      "climate_risk_disclosure": "Heat-specific disclosure mandate not verified",
+      "source": {
+        "label": "guidance",
+        "url": "https://financialservices.gov.in/beta/sites/default/files/2024-11/IRDAI%20%28Insurance%20Products%29%20Regulations%2C%202024.pdf"
+      },
+      "last_checked": "2026-10-31",
+      "admitted_to_verified_rules_table": true,
+      "evidence": "guidance",
+      "legal_review_scope": "Targeted primary-source screen; not a consolidated legal opinion",
+      "loops": [
+        "protection",
+        "reactive"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ]
+    },
+    {
+      "country": "Bangladesh",
+      "authority": "IDRA; Bangladesh Bank for bank distribution",
+      "parametric_permission": "Green Delta heat operation documented; blanket legal permission not verified.",
+      "microinsurance": "Dedicated current microinsurance distribution provisions not verified.",
+      "worker_and_mobile_distribution": "2023 bank corporate-agency route requires prior Bangladesh Bank approval; not permission for all worker groups or apps.",
+      "consumer_protection": "Bank-channel safeguards in official guidelines; heat policy wording and refusal remedies not verified.",
+      "climate_risk_disclosure": "Heat-specific disclosure mandate not verified",
+      "source": {
+        "label": "guidance",
+        "url": "https://www.bb.org.bd/mediaroom/circulars/brpd/dec202023brpd18e.pdf"
+      },
+      "last_checked": "2026-10-31",
+      "admitted_to_verified_rules_table": true,
+      "evidence": "guidance",
+      "legal_review_scope": "Targeted primary-source screen; not a consolidated legal opinion",
+      "loops": [
+        "protection",
+        "reactive"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ]
+    },
+    {
+      "country": "Pakistan",
+      "authority": "SECP",
+      "parametric_permission": "Sandbox route verified; general heat-product authorisation not verified.",
+      "microinsurance": "Official 2014 microinsurance rules catalogue is background; current consolidated amendments not verified.",
+      "worker_and_mobile_distribution": "Sandbox testing does not authorise unlimited mobile or worker-organisation sales.",
+      "consumer_protection": "Controlled testing and supervisory review; heat-specific complaint and data arrangements not verified.",
+      "climate_risk_disclosure": "Heat-specific disclosure mandate not verified",
+      "source": {
+        "label": "guidance",
+        "url": "https://www.secp.gov.pk/regulatory-sandbox/"
+      },
+      "last_checked": "2026-10-31",
+      "admitted_to_verified_rules_table": true,
+      "evidence": "guidance",
+      "legal_review_scope": "Targeted primary-source screen; not a consolidated legal opinion",
+      "loops": [
+        "protection",
+        "reactive"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ]
+    },
+    {
+      "country": "Sri Lanka",
+      "authority": "IRCSL",
+      "parametric_permission": "not verified",
+      "microinsurance": "not verified",
+      "worker_and_mobile_distribution": "not verified",
+      "consumer_protection": "Official supervisory and legal portal verified; applicable heat-specific clauses not verified.",
+      "climate_risk_disclosure": "Heat-specific disclosure mandate not verified",
+      "source": {
+        "label": "guidance",
+        "url": "https://ircsl.gov.lk/"
+      },
+      "last_checked": "2026-10-31",
+      "admitted_to_verified_rules_table": false,
+      "evidence": "guidance",
+      "legal_review_scope": "Targeted primary-source screen; not a consolidated legal opinion",
+      "loops": [
+        "protection",
+        "reactive"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ]
+    },
+    {
+      "country": "Maldives",
+      "authority": "Maldives Monetary Authority; legal announcement from Presidency",
+      "parametric_permission": "not verified",
+      "microinsurance": "Dedicated microinsurance permission not verified.",
+      "worker_and_mobile_distribution": "2025 Act establishes licensing for insurers and intermediaries; a worker group or app needs a valid route.",
+      "consumer_protection": "Official announcement describes conduct and dispute-resolution framework; detailed heat clauses not reviewed.",
+      "climate_risk_disclosure": "Heat-specific disclosure mandate not verified",
+      "source": {
+        "label": "guidance",
+        "url": "https://presidency.gov.mv/Press/Article/34780?term=0"
+      },
+      "last_checked": "2026-10-31",
+      "admitted_to_verified_rules_table": true,
+      "evidence": "guidance",
+      "legal_review_scope": "Targeted primary-source screen; not a consolidated legal opinion",
+      "loops": [
+        "protection",
+        "reactive"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ]
+    },
+    {
+      "country": "Nepal",
+      "authority": "Nepal Insurance Authority",
+      "parametric_permission": "not verified",
+      "microinsurance": "not verified",
+      "worker_and_mobile_distribution": "not verified",
+      "consumer_protection": "not verified",
+      "climate_risk_disclosure": "Heat-specific disclosure mandate not verified",
+      "source": null,
+      "last_checked": "2026-10-31",
+      "admitted_to_verified_rules_table": false,
+      "evidence": null,
+      "legal_review_scope": "Targeted primary-source screen; not a consolidated legal opinion",
+      "loops": [
+        "protection",
+        "reactive"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ]
+    },
+    {
+      "country": "Bhutan",
+      "authority": "Royal Monetary Authority",
+      "parametric_permission": "not verified",
+      "microinsurance": "not verified",
+      "worker_and_mobile_distribution": "not verified",
+      "consumer_protection": "not verified",
+      "climate_risk_disclosure": "Heat-specific disclosure mandate not verified",
+      "source": null,
+      "last_checked": "2026-10-31",
+      "admitted_to_verified_rules_table": false,
+      "evidence": null,
+      "legal_review_scope": "Targeted primary-source screen; not a consolidated legal opinion",
+      "loops": [
+        "protection",
+        "reactive"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ]
+    },
+    {
+      "country": "Afghanistan",
+      "authority": "Ministry of Finance",
+      "parametric_permission": "not verified",
+      "microinsurance": "not verified",
+      "worker_and_mobile_distribution": "not verified",
+      "consumer_protection": "not verified",
+      "climate_risk_disclosure": "Heat-specific disclosure mandate not verified",
+      "source": null,
+      "last_checked": "2026-10-31",
+      "admitted_to_verified_rules_table": false,
+      "evidence": null,
+      "legal_review_scope": "Targeted primary-source screen; not a consolidated legal opinion",
+      "loops": [
+        "protection",
+        "reactive"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ]
+    },
+    {
+      "country": "Indonesia",
+      "authority": "OJK",
+      "parametric_permission": "Product approval/reporting framework verified; heat-specific authorisation not verified.",
+      "microinsurance": "Microinsurance classification and heat eligibility require full product review.",
+      "worker_and_mobile_distribution": "POJK 8/2024 governs products and marketing channels including digital channels; not blanket worker-group authority.",
+      "consumer_protection": "Product and channel governance verified; exact heat benefit and data redress clauses not verified.",
+      "climate_risk_disclosure": "Heat-specific disclosure mandate not verified",
+      "source": {
+        "label": "guidance",
+        "url": "https://ojk.go.id/id/regulasi/Pages/POJK-8-Tahun-2024-Produk-Asuransi-dan-Saluran-Pemasaran-Produk-Asuransi.aspx"
+      },
+      "last_checked": "2026-10-31",
+      "admitted_to_verified_rules_table": true,
+      "evidence": "guidance",
+      "legal_review_scope": "Targeted primary-source screen; not a consolidated legal opinion",
+      "loops": [
+        "protection",
+        "reactive"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ]
+    },
+    {
+      "country": "Philippines",
+      "authority": "Insurance Commission",
+      "parametric_permission": "Heat-specific permission not verified by the reviewed distribution circular.",
+      "microinsurance": "2016 framework supplements enhanced microinsurance framework; background pending amendment check.",
+      "worker_and_mobile_distribution": "Licensed microinsurance entities can contract innovative channels, subject to permitted functions and conduct.",
+      "consumer_protection": "Framework assigns distribution responsibilities and consumer protections; not proof every worker organisation may sell.",
+      "climate_risk_disclosure": "Heat-specific disclosure mandate not verified",
+      "source": {
+        "label": "guidance",
+        "url": "https://www.insurance.gov.ph/wp-content/uploads/2022/11/CL2016_64.pdf"
+      },
+      "last_checked": "2026-10-31",
+      "admitted_to_verified_rules_table": true,
+      "evidence": "guidance",
+      "legal_review_scope": "Targeted primary-source screen; not a consolidated legal opinion",
+      "loops": [
+        "protection",
+        "reactive"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ]
+    },
+    {
+      "country": "Thailand",
+      "authority": "OIC",
+      "parametric_permission": "Controlled sandbox testing route; national heat-product permission not verified.",
+      "microinsurance": "Current heat-relevant microinsurance provisions not verified.",
+      "worker_and_mobile_distribution": "Innovation testing is supervised and limited; normal mobile/worker distribution permission requires separate review.",
+      "consumer_protection": "Sandbox expressly retains consumer-protection objectives; full redress terms not reviewed.",
+      "climate_risk_disclosure": "Heat-specific disclosure mandate not verified",
+      "source": {
+        "label": "guidance",
+        "url": "https://cit.oic.or.th/insurance-regulartory-sandbox"
+      },
+      "last_checked": "2026-10-31",
+      "admitted_to_verified_rules_table": true,
+      "evidence": "guidance",
+      "legal_review_scope": "Targeted primary-source screen; not a consolidated legal opinion",
+      "loops": [
+        "protection",
+        "reactive"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ]
+    },
+    {
+      "country": "Malaysia",
+      "authority": "Bank Negara Malaysia",
+      "parametric_permission": "not verified",
+      "microinsurance": "Perlindungan Tenang is an accessible insurance/takaful initiative, not a heat mandate.",
+      "worker_and_mobile_distribution": "Selected banking/mobile and online routes described for participating products; not unrestricted permission.",
+      "consumer_protection": "Programme emphasises simple products and claims; product exclusions and renewal terms remain material.",
+      "climate_risk_disclosure": "Heat-specific disclosure mandate not verified",
+      "source": {
+        "label": "guidance",
+        "url": "https://www.bnm.gov.my/perlindungan-tenang"
+      },
+      "last_checked": "2026-10-31",
+      "admitted_to_verified_rules_table": true,
+      "evidence": "guidance",
+      "legal_review_scope": "Targeted primary-source screen; not a consolidated legal opinion",
+      "loops": [
+        "protection",
+        "reactive"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ]
+    },
+    {
+      "country": "Singapore",
+      "authority": "Monetary Authority of Singapore",
+      "parametric_permission": "not verified",
+      "microinsurance": "Dedicated heat microinsurance framework not verified.",
+      "worker_and_mobile_distribution": "Worker/mobile permissions not determined by environmental-risk guidance.",
+      "consumer_protection": "Heat policy sales, suitability and complaints require separate conduct review.",
+      "climate_risk_disclosure": "Environmental-risk guidelines and March 2026 transition-planning addendum address physical and transition risk; not compulsory heat benefits.",
+      "source": {
+        "label": "guidance",
+        "url": "https://www.mas.gov.sg/development/sustainable-finance/regulatory-and-supervisory-approach"
+      },
+      "last_checked": "2026-10-31",
+      "admitted_to_verified_rules_table": true,
+      "evidence": "guidance",
+      "legal_review_scope": "Targeted primary-source screen; not a consolidated legal opinion",
+      "loops": [
+        "protection",
+        "reactive"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "authority": "Government / Ministry of Finance",
+      "parametric_permission": "not verified",
+      "microinsurance": "Decree 21/2023 provides a microinsurance framework; operative metadata verified.",
+      "worker_and_mobile_distribution": "Exact eligible mutual/worker/mobile distribution clauses not verified.",
+      "consumer_protection": "Full Vietnamese decree and later amendments require clause review; heat-specific duties not verified.",
+      "climate_risk_disclosure": "Heat-specific disclosure mandate not verified",
+      "source": {
+        "label": "guidance",
+        "url": "https://chinhphu.vn/?classid=1&docid=207854&pageid=27160&typegroupid=4"
+      },
+      "last_checked": "2026-10-31",
+      "admitted_to_verified_rules_table": true,
+      "evidence": "guidance",
+      "legal_review_scope": "Targeted primary-source screen; not a consolidated legal opinion",
+      "loops": [
+        "protection",
+        "reactive"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ]
+    },
+    {
+      "country": "Cambodia",
+      "authority": "Insurance Regulator of Cambodia",
+      "parametric_permission": "not verified",
+      "microinsurance": "Government strategy reports adoption of microinsurance sub-decree.",
+      "worker_and_mobile_distribution": "Strategy reports insurtech sandbox and intermediary conduct measures; unrestricted worker/mobile permission not established.",
+      "consumer_protection": "Strategy-level evidence of agent/broker conduct measures; operative heat-specific terms not verified.",
+      "climate_risk_disclosure": "Heat-specific disclosure mandate not verified",
+      "source": {
+        "label": "guidance",
+        "url": "https://www.nbc.gov.kh/download_files/publication/blueprints_eng/Combine%20Ver.%20Final.pdf"
+      },
+      "last_checked": "2026-10-31",
+      "admitted_to_verified_rules_table": true,
+      "evidence": "guidance",
+      "legal_review_scope": "Targeted primary-source screen; not a consolidated legal opinion",
+      "loops": [
+        "protection",
+        "reactive"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ]
+    },
+    {
+      "country": "Brunei Darussalam",
+      "authority": "BDCB",
+      "parametric_permission": "not verified",
+      "microinsurance": "not verified",
+      "worker_and_mobile_distribution": "Transparency guideline addresses authorised takaful operators/intermediaries; no general worker/mobile authority inferred.",
+      "consumer_protection": "2019 takaful guideline, effective 2020, recommends clear, fair, non-misleading disclosure; do not extend automatically to all insurance.",
+      "climate_risk_disclosure": "Heat-specific disclosure mandate not verified",
+      "source": {
+        "label": "guidance",
+        "url": "https://cms.bdcb.gov.bn/storage/uploads/regulatories/17111192020994310.pdf"
+      },
+      "last_checked": "2026-10-31",
+      "admitted_to_verified_rules_table": true,
+      "evidence": "guidance",
+      "legal_review_scope": "Targeted primary-source screen; not a consolidated legal opinion",
+      "loops": [
+        "protection",
+        "reactive"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ]
+    },
+    {
+      "country": "Myanmar",
+      "authority": "Financial Regulatory Department",
+      "parametric_permission": "not verified",
+      "microinsurance": "not verified",
+      "worker_and_mobile_distribution": "Official catalogue lists 2020 agent and bancassurance directives; detailed permitted activities not reviewed.",
+      "consumer_protection": "Catalogue also lists product-approval and reinsurance directives; current implementation and heat terms not verified.",
+      "climate_risk_disclosure": "Heat-specific disclosure mandate not verified",
+      "source": {
+        "label": "guidance",
+        "url": "https://www.frd.gov.mm/page-sub-categories/4"
+      },
+      "last_checked": "2026-10-31",
+      "admitted_to_verified_rules_table": false,
+      "evidence": "guidance",
+      "legal_review_scope": "Targeted primary-source screen; not a consolidated legal opinion",
+      "loops": [
+        "protection",
+        "reactive"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ]
+    },
+    {
+      "country": "Lao PDR",
+      "authority": "Ministry of Finance insurance department",
+      "parametric_permission": "not verified",
+      "microinsurance": "not verified",
+      "worker_and_mobile_distribution": "not verified",
+      "consumer_protection": "Institution verified; operative rule text not retrieved.",
+      "climate_risk_disclosure": "Heat-specific disclosure mandate not verified",
+      "source": {
+        "label": "guidance",
+        "url": "https://soe.mof.gov.la/"
+      },
+      "last_checked": "2026-10-31",
+      "admitted_to_verified_rules_table": false,
+      "evidence": "guidance",
+      "legal_review_scope": "Targeted primary-source screen; not a consolidated legal opinion",
+      "loops": [
+        "protection",
+        "reactive"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ]
+    },
+    {
+      "country": "Timor-Leste",
+      "authority": "Banco Central de Timor-Leste",
+      "parametric_permission": "not verified",
+      "microinsurance": "not verified",
+      "worker_and_mobile_distribution": "Catalogue lists insurer and intermediary licensing instructions; detailed mobile/worker clauses not reviewed.",
+      "consumer_protection": "Catalogue includes governance, actuarial and reporting requirements; heat conduct terms not verified.",
+      "climate_risk_disclosure": "Heat-specific disclosure mandate not verified",
+      "source": {
+        "label": "guidance",
+        "url": "https://bancocentral.tl/publication/instruction/"
+      },
+      "last_checked": "2026-10-31",
+      "admitted_to_verified_rules_table": false,
+      "evidence": "guidance",
+      "legal_review_scope": "Targeted primary-source screen; not a consolidated legal opinion",
+      "loops": [
+        "protection",
+        "reactive"
+      ],
+      "levers": [
+        "riskpools",
+        "heatcash"
+      ]
+    }
+  ],
+  "premium_support": [
+    {
+      "id": "hera_member_cost_share",
+      "payer": "HERA and participating SEWA members",
+      "purpose": "Heat insurance premium sharing",
+      "heat_specific": "yes",
+      "terms": "2025 cohort; reported premium and member contribution are approximate.",
+      "renewal": "No multi-year entitlement or guaranteed 2026–27 subsidy verified.",
+      "money_ids": [
+        "hera_premium_2025",
+        "member_contribution_2025"
+      ],
+      "source": {
+        "label": "reported",
+        "url": "https://heranow.org/wp-content/uploads/2026/02/Insurance-to-Impact.pdf"
+      },
+      "evidence": "reported",
+      "last_checked": "2026-10-31",
+      "limitations": "",
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "levers": [
+        "heatcash",
+        "riskpools"
+      ]
+    },
+    {
+      "id": "howden_cash",
+      "payer": "Howden Foundation",
+      "purpose": "Earlier philanthropic cash; not verified premium subsidy",
+      "heat_specific": "yes",
+      "terms": "2024 support to the additional heat cash layer.",
+      "renewal": "No automatic renewal obligation verified.",
+      "money_ids": [],
+      "source": {
+        "label": "reported",
+        "url": "https://www.howdengroupholdings.com/insights/pioneering-initiative-protects-women-workers-in-india-during-record-breaking-heatwave"
+      },
+      "evidence": "reported",
+      "last_checked": "2026-10-31",
+      "limitations": "Do not attribute combined insurance-and-cash totals to this donor.",
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "levers": [
+        "heatcash",
+        "riskpools"
+      ]
+    },
+    {
+      "id": "rock_pilot",
+      "payer": "Arsht-Rock-led pilot programme; Rockefeller support also announced",
+      "purpose": "Premium-free participation announced for initial India pilot",
+      "heat_specific": "yes",
+      "terms": "2023 announcement includes an Arsht-Rock budget commitment for premiums and design.",
+      "renewal": "Pilot participation terms do not establish later subsidy renewal.",
+      "money_ids": [
+        "arshtrock_pilot_commitment"
+      ],
+      "source": {
+        "label": "reported",
+        "url": "https://www.rockefellerfoundation.org/news/the-rockefeller-foundation-announces-support-for-the-india-extreme-heat-income-insurance-initiative-as-part-of-the-global-climate-resilience-fund-for-women/"
+      },
+      "evidence": "reported",
+      "last_checked": "2026-10-31",
+      "limitations": "Actual premium invoice and donor-by-donor disbursement not verified.",
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "levers": [
+        "heatcash",
+        "riskpools"
+      ]
+    },
+    {
+      "id": "humanity_support",
+      "payer": "Humanity Insured",
+      "purpose": "Premium-support model and support to Indian heat programmes",
+      "heat_specific": "yes",
+      "terms": "2025 report documents MHT and HERA portfolio support; some portfolio grants taper.",
+      "renewal": "Exact India grant duration, subsidy split and renewal schedule not verified.",
+      "money_ids": [],
+      "source": {
+        "label": "reported",
+        "url": "https://humanityinsured.org/wp-content/uploads/2025/12/Building-Resilience-through-Protection-Humanity-Insured-Learning-Report-2025.pdf"
+      },
+      "evidence": "reported",
+      "last_checked": "2026-10-31",
+      "limitations": "Portfolio-wide tapering statements cannot be applied to a specific Indian contract.",
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "levers": [
+        "heatcash",
+        "riskpools"
+      ]
+    },
+    {
+      "id": "scbf_development",
+      "payer": "SCBF",
+      "purpose": "Product design / implementation support",
+      "heat_specific": "yes",
+      "terms": "Named support for Bangladesh livestock heat product.",
+      "renewal": "Premium renewal payer not verified.",
+      "money_ids": [],
+      "source": {
+        "label": "reported",
+        "url": "https://green-delta.com/heat-index-livestock-insurance-protecting-bangladeshs-livestock-farmers/"
+      },
+      "evidence": "reported",
+      "last_checked": "2026-10-31",
+      "limitations": "Support acknowledgement is not proof that SCBF paid insurance premiums.",
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "levers": [
+        "heatcash",
+        "riskpools"
+      ]
+    },
+    {
+      "id": "isf_nepal",
+      "payer": "ISF",
+      "purpose": "Climate-cover premium financing: direct institutional model for heat",
+      "heat_specific": "no; flood model only",
+      "terms": "Nepal flood project listed May 2025–June 2027.",
+      "renewal": "Financing beyond grant period not verified.",
+      "money_ids": [
+        "isf_nepal_grant"
+      ],
+      "source": {
+        "label": "reported",
+        "url": "https://insuresilience-solutions-fund.org/our-work/premium-financing-support/"
+      },
+      "evidence": "reported",
+      "last_checked": "2026-10-31",
+      "limitations": "",
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "levers": [
+        "heatcash",
+        "riskpools"
+      ]
+    },
+    {
+      "id": "isf_rules",
+      "payer": "ISF",
+      "purpose": "Conditional premium financing",
+      "heat_specific": "potential, subject to eligibility",
+      "terms": "May 2024 conditions: normally up to 50% premium support; macro target-group exception; insured event frequency at least five years; limited to project period.",
+      "renewal": "Phase-out or long-term financing strategy required; not an unconditional promise to renew.",
+      "money_ids": [
+        "isf_support_ceiling"
+      ],
+      "source": {
+        "label": "reported",
+        "url": "https://insuresilience-solutions-fund.org/wp-content/uploads/2025/04/2024-05-ISF-Principles-and-Conditions-on-Premium-Subsidies_Pillar-III.pdf"
+      },
+      "evidence": "reported",
+      "last_checked": "2026-10-31",
+      "limitations": "Existing/prior ISF product-development support is a gateway. Frequent heat losses may not meet the event-frequency condition; a rarer heat layer may. This application is inferred.",
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "levers": [
+        "heatcash",
+        "riskpools"
+      ]
+    },
+    {
+      "id": "shield_pathway",
+      "payer": "Global Shield financing vehicles",
+      "purpose": "Country-requested risk-finance support",
+      "heat_specific": "potential; no specific heat premium grant established",
+      "terms": "Vehicle and country/project approvals apply.",
+      "renewal": "Grant duration and renewals depend on approved packages; no verified universal heat subsidy.",
+      "money_ids": [],
+      "source": {
+        "label": "reported",
+        "url": "https://www.globalshield.org/about/financing-structure-global-shield/"
+      },
+      "evidence": "reported",
+      "last_checked": "2026-10-31",
+      "limitations": "",
+      "loops": [
+        "protection",
+        "reactive",
+        "poverty"
+      ],
+      "levers": [
+        "heatcash",
+        "riskpools"
+      ]
+    }
+  ],
+  "money_ledger": [
+    {
+      "id": "hera_premium_2025",
+      "amount": "8",
+      "currency": "USD",
+      "usd": "8.00",
+      "year": "2025",
+      "fx": "1 USD = 1 USD; source reports approximate USD, underlying INR invoice not verified",
+      "kind": "premium",
+      "stage": "operator-reported approximate cost",
+      "unit": "per participant",
+      "source": {
+        "label": "reported",
+        "url": "https://heranow.org/wp-content/uploads/2026/02/Insurance-to-Impact.pdf"
+      },
+      "fx_source": null,
+      "last_checked": "2026-10-31",
+      "notes": ""
+    },
+    {
+      "id": "member_contribution_2025",
+      "amount": "3.5",
+      "currency": "USD",
+      "usd": "3.50",
+      "year": "2025",
+      "fx": "1 USD = 1 USD; source reports approximate USD, underlying INR invoice not verified",
+      "kind": "premium",
+      "stage": "operator-reported approximate member contribution",
+      "unit": "per participant",
+      "source": {
+        "label": "reported",
+        "url": "https://heranow.org/wp-content/uploads/2026/02/Insurance-to-Impact.pdf"
+      },
+      "fx_source": null,
+      "last_checked": "2026-10-31",
+      "notes": "Component of premium, not an additional premium to add to the total."
+    },
+    {
+      "id": "icici_claims_2024",
+      "amount": "29000000",
+      "currency": "INR",
+      "usd": "346655.25",
+      "year": "2024",
+      "fx": "83.6566 INR = 1 USD; 2024 Federal Reserve annual average",
+      "kind": "payout",
+      "stage": "insurer reports claims provided; individual receipt dates not verified",
+      "unit": "aggregate reported claims",
+      "source": {
+        "label": "reported",
+        "url": "https://www.icicilombard.com/docs/default-source/esg/icici-lombard-esg-report-fy2025.pdf"
+      },
+      "fx_source": {
+        "label": "guidance",
+        "url": "https://www.federalreserve.gov/releases/g5a/current/"
+      },
+      "last_checked": "2026-10-31",
+      "notes": "FY2025 report covers April 2024–March 2025 and says claims triggered by June; calendar year 2024 inferred from that period. Not mixed with philanthropic cash."
+    },
+    {
+      "id": "isf_nepal_grant",
+      "amount": "331480",
+      "currency": "EUR",
+      "usd": "374771.29",
+      "year": "2025",
+      "fx": "1 EUR = 1.1306 USD; 2025 Federal Reserve annual average",
+      "kind": "budget",
+      "stage": "listed grant allocation; actual disbursement not verified",
+      "unit": "project grant allocation",
+      "source": {
+        "label": "reported",
+        "url": "https://insuresilience-solutions-fund.org/our-work/premium-financing-support/"
+      },
+      "fx_source": {
+        "label": "guidance",
+        "url": "https://www.federalreserve.gov/releases/g5a/current/"
+      },
+      "last_checked": "2026-10-31",
+      "notes": "Nepal flood insurance premium-financing project, May 2025–June 2027; direct support-design model, not heat cover or verified premium spend."
+    },
+    {
+      "id": "isf_support_ceiling",
+      "amount": "750000",
+      "currency": "EUR",
+      "usd": "811500.00",
+      "year": "2024",
+      "fx": "1 EUR = 1.0820 USD; 2024 Federal Reserve annual average",
+      "kind": "limit",
+      "stage": "published funding eligibility ceiling; not a commitment",
+      "unit": "per project funding support ceiling",
+      "source": {
+        "label": "reported",
+        "url": "https://insuresilience-solutions-fund.org/wp-content/uploads/2025/04/2024-05-ISF-Principles-and-Conditions-on-Premium-Subsidies_Pillar-III.pdf"
+      },
+      "fx_source": {
+        "label": "guidance",
+        "url": "https://www.federalreserve.gov/releases/g5a/current/"
+      },
+      "last_checked": "2026-10-31",
+      "notes": "Funding request rule contains an or condition with a percentage cap; exact application needs grant-level confirmation. Not sum insured."
+    },
+    {
+      "id": "arshtrock_pilot_commitment",
+      "amount": "500000",
+      "currency": "USD",
+      "usd": "500000.00",
+      "year": "2023",
+      "fx": "1 USD = 1 USD; original announcement denominated in USD",
+      "kind": "budget",
+      "stage": "announced commitment; disbursement not verified",
+      "unit": "pilot premium and design budget",
+      "source": {
+        "label": "reported",
+        "url": "https://www.rockefellerfoundation.org/news/the-rockefeller-foundation-announces-support-for-the-india-extreme-heat-income-insurance-initiative-as-part-of-the-global-climate-resilience-fund-for-women/"
+      },
+      "fx_source": null,
+      "last_checked": "2026-10-31",
+      "notes": "Combined project purposes; not a verified premium invoice or payout."
+    }
+  ],
+  "source_register": [
+    {
+      "id": "icici",
+      "title": "ICICI Lombard ESG report FY2025",
+      "url": "https://www.icicilombard.com/docs/default-source/esg/icici-lombard-esg-report-fy2025.pdf",
+      "label": "reported",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": "2025"
+    },
+    {
+      "id": "cgap",
+      "title": "CGAP: SEWA climate and health case",
+      "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association",
+      "label": "reported",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": "2026"
+    },
+    {
+      "id": "hera",
+      "title": "HERA: Insurance to Impact",
+      "url": "https://heranow.org/wp-content/uploads/2026/02/Insurance-to-Impact.pdf",
+      "label": "reported",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": "2025 case; current PDF uploaded 2026"
+    },
+    {
+      "id": "mht",
+      "title": "CelsiusPro: India extreme-heat transaction",
+      "url": "https://celsiuspro.squarespace.com/news-1/insuring-vulnerable-people-in-india-against-extreme-heat-events",
+      "label": "reported",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": "2024"
+    },
+    {
+      "id": "aic",
+      "title": "Government of India: Saral Krishi Bima cattle heat cover",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1915851&lang=2&reg=48",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": "2023"
+    },
+    {
+      "id": "gd",
+      "title": "Green Delta: heat-index livestock insurance",
+      "url": "https://green-delta.com/heat-index-livestock-insurance-protecting-bangladeshs-livestock-farmers/",
+      "label": "reported",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": ""
+    },
+    {
+      "id": "ibisa",
+      "title": "IBISA: Ushma Kavach dairy heat insurance",
+      "url": "https://www.ibisa.network/en/blog/ushma-kavach-a-climate-resilient-shield-for-indias-dairy-farmers",
+      "label": "reported",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": ""
+    },
+    {
+      "id": "descartes",
+      "title": "Descartes: extreme temperatures",
+      "url": "https://descartesunderwriting.com/solutions/extreme-temperatures",
+      "label": "reported",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": ""
+    },
+    {
+      "id": "axa",
+      "title": "AXA Hong Kong: heatwave parametric launch",
+      "url": "https://www.axa.com.hk/en/article/axa-launches-pioneering-heatwave-parametric-insurance",
+      "label": "reported",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": ""
+    },
+    {
+      "id": "hotpay",
+      "title": "ESA: HotPay feasibility project",
+      "url": "https://business.esa.int/projects/hotpay",
+      "label": "test",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": "2026"
+    },
+    {
+      "id": "rock",
+      "title": "Rockefeller: support for India extreme-heat pilot",
+      "url": "https://www.rockefellerfoundation.org/news/the-rockefeller-foundation-announces-support-for-the-india-extreme-heat-income-insurance-initiative-as-part-of-the-global-climate-resilience-fund-for-women/",
+      "label": "reported",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": "2023"
+    },
+    {
+      "id": "howden",
+      "title": "Howden: 2024 India insurance and cash initiative",
+      "url": "https://www.howdengroupholdings.com/insights/pioneering-initiative-protects-women-workers-in-india-during-record-breaking-heatwave",
+      "label": "reported",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": "2024"
+    },
+    {
+      "id": "humanity",
+      "title": "Humanity Insured Learning Report 2025",
+      "url": "https://humanityinsured.org/wp-content/uploads/2025/12/Building-Resilience-through-Protection-Humanity-Insured-Learning-Report-2025.pdf",
+      "label": "reported",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": "2025"
+    },
+    {
+      "id": "scbf",
+      "title": "SCBF heat-index insurance webinar",
+      "url": "https://www.scbf.ch/events/webinar---pioneering-heat-index-insurance-for-climate-exposed-workers-farmers",
+      "label": "reported",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": "2024"
+    },
+    {
+      "id": "shield",
+      "title": "Global Shield financing structure",
+      "url": "https://www.globalshield.org/about/financing-structure-global-shield/",
+      "label": "reported",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": ""
+    },
+    {
+      "id": "vision",
+      "title": "Global Shield: Vision 2025 concludes",
+      "url": "https://www.globalshield.org/news/vision-2025-concludes-with-report-on-six-years-of-collaborative-action-to-boost-financial-protection-for-the-most-vulnerable/",
+      "label": "reported",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": "2026"
+    },
+    {
+      "id": "sif",
+      "title": "UNEP FI: V20 Sustainable Insurance Facility",
+      "url": "https://www.unepfi.org/the-v20-sustainable-insurance-facility/",
+      "label": "reported",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": ""
+    },
+    {
+      "id": "grma",
+      "title": "IDF: Global Risk Modelling Alliance",
+      "url": "https://www.insdevforum.org/programmes/global-risk-modelling-alliance-grma/",
+      "label": "reported",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": ""
+    },
+    {
+      "id": "a2ii",
+      "title": "IAIS: A2ii hosting transition",
+      "url": "https://www.iais.org/2025/06/cgap-to-become-new-host-of-the-access-to-insurance-initiative-a2ii/",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": "2025"
+    },
+    {
+      "id": "cdp",
+      "title": "UNDRR / NDMA: Financing heat resilience",
+      "url": "https://www.undrr.org/publication/documents-and-publications/financing-heat-resilience",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": "2026"
+    },
+    {
+      "id": "wb",
+      "title": "World Bank DRFI programme",
+      "url": "https://www.worldbank.org/en/programs/disaster-risk-financing-and-insurance-program",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "access": "Readable programme description; donor and institutional references include legacy material; not used as a current donor roster",
+      "source_year": ""
+    },
+    {
+      "id": "adb",
+      "title": "ADB disaster finance modalities",
+      "url": "https://www.adb.org/what-we-do/topics/disaster-risk-management/modalities-funding-opportunities",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": ""
+    },
+    {
+      "id": "aiib",
+      "title": "AIIB climate-focused policy-based financing",
+      "url": "https://www.aiib.org/en/what-we-do/Climate-Focused-Policy-Based-Financing/index.html",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": ""
+    },
+    {
+      "id": "isf",
+      "title": "ISF premium financing support",
+      "url": "https://insuresilience-solutions-fund.org/our-work/premium-financing-support/",
+      "label": "reported",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": ""
+    },
+    {
+      "id": "isfterms",
+      "title": "ISF principles and conditions on premium support",
+      "url": "https://insuresilience-solutions-fund.org/wp-content/uploads/2025/04/2024-05-ISF-Principles-and-Conditions-on-Premium-Subsidies_Pillar-III.pdf",
+      "label": "reported",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": "2024"
+    },
+    {
+      "id": "accelerator",
+      "title": "HERA / SEADRIF heat-insurance accelerator",
+      "url": "https://heranow.org/hera-and-seadrif-partner-to-accelerate-solutions-to-extreme-heat-across-southeast-asia/",
+      "label": "reported",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": "2026"
+    },
+    {
+      "id": "materna",
+      "title": "HERA Materna announcement",
+      "url": "https://heranow.org/hera-launches-the-worlds-first-heat-pregnancy-insurance-to-protect-expectant-mothers-from-extreme-heat/",
+      "label": "reported",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": "2026"
+    },
+    {
+      "id": "india",
+      "title": "IRDAI Insurance Products Regulations 2024",
+      "url": "https://financialservices.gov.in/beta/sites/default/files/2024-11/IRDAI%20%28Insurance%20Products%29%20Regulations%2C%202024.pdf",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": "2024"
+    },
+    {
+      "id": "bb",
+      "title": "Bangladesh Bank bancassurance guidelines",
+      "url": "https://www.bb.org.bd/mediaroom/circulars/brpd/dec202023brpd18e.pdf",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": "2023"
+    },
+    {
+      "id": "secp",
+      "title": "SECP microinsurance rules catalogue",
+      "url": "https://www.secp.gov.pk/document/securities-and-exchange-commission-microinsurance-rules-2014/",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "access": "Official landing page; 2014 rules are background, not a consolidated 2026 legal opinion",
+      "source_year": "2014 background"
+    },
+    {
+      "id": "secpsandbox",
+      "title": "SECP regulatory sandbox",
+      "url": "https://www.secp.gov.pk/regulatory-sandbox/",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": ""
+    },
+    {
+      "id": "srilanka",
+      "title": "IRCSL laws and supervisory portal",
+      "url": "https://ircsl.gov.lk/",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "access": "Portal checked; individual operative provisions not comprehensively reviewed",
+      "source_year": ""
+    },
+    {
+      "id": "maldives",
+      "title": "Maldives Presidency: Insurance Act ratified",
+      "url": "https://presidency.gov.mv/Press/Article/34780?term=0",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "access": "Official legal announcement, not full Act review",
+      "source_year": "2025"
+    },
+    {
+      "id": "ojk",
+      "title": "OJK POJK 8/2024 products and marketing channels",
+      "url": "https://ojk.go.id/id/regulasi/Pages/POJK-8-Tahun-2024-Produk-Asuransi-dan-Saluran-Pemasaran-Produk-Asuransi.aspx",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": "2024"
+    },
+    {
+      "id": "ph",
+      "title": "Philippines IC microinsurance distribution framework",
+      "url": "https://www.insurance.gov.ph/wp-content/uploads/2022/11/CL2016_64.pdf",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "access": "2016 background framework; later amendments not exhaustively consolidated",
+      "source_year": "2016 background"
+    },
+    {
+      "id": "thai",
+      "title": "Thailand OIC insurance regulatory sandbox",
+      "url": "https://cit.oic.or.th/insurance-regulartory-sandbox",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": ""
+    },
+    {
+      "id": "bnm",
+      "title": "BNM Perlindungan Tenang",
+      "url": "https://www.bnm.gov.my/perlindungan-tenang",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": ""
+    },
+    {
+      "id": "mas",
+      "title": "MAS sustainable-finance supervisory approach",
+      "url": "https://www.mas.gov.sg/development/sustainable-finance/regulatory-and-supervisory-approach",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": ""
+    },
+    {
+      "id": "vietnam",
+      "title": "Vietnam Government Decree 21/2023 on microinsurance",
+      "url": "https://chinhphu.vn/?classid=1&docid=207854&pageid=27160&typegroupid=4",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "access": "Official decree metadata checked; detailed clauses not independently translated",
+      "source_year": "2023"
+    },
+    {
+      "id": "cambodia",
+      "title": "Cambodia Financial Sector Development Strategy 2025–2030",
+      "url": "https://www.nbc.gov.kh/download_files/publication/blueprints_eng/Combine%20Ver.%20Final.pdf",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "access": "Government strategy reports adopted measures; not a consolidated insurance statute",
+      "source_year": "2025–2030"
+    },
+    {
+      "id": "brunei",
+      "title": "BDCB takaful product transparency guidelines",
+      "url": "https://cms.bdcb.gov.bn/storage/uploads/regulatories/17111192020994310.pdf",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": "2019; effective 2020"
+    },
+    {
+      "id": "myanmar",
+      "title": "Myanmar FRD insurance directives catalogue",
+      "url": "https://www.frd.gov.mm/page-sub-categories/4",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "access": "Catalogue identifies directives; full text and subsequent amendments not comprehensively reviewed",
+      "source_year": ""
+    },
+    {
+      "id": "lao",
+      "title": "Lao Ministry of Finance insurance department",
+      "url": "https://soe.mof.gov.la/",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "access": "Institution verified; page did not expose operative insurance rules",
+      "source_year": ""
+    },
+    {
+      "id": "timor",
+      "title": "BCTL instructions catalogue",
+      "url": "https://bancocentral.tl/publication/instruction/",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "access": "Insurance and intermediary instructions listed; detailed clauses not reviewed",
+      "source_year": ""
+    },
+    {
+      "id": "fx",
+      "title": "Federal Reserve G.5A annual exchange rates",
+      "url": "https://www.federalreserve.gov/releases/g5a/current/",
+      "label": "guidance",
+      "last_checked": "2026-10-31",
+      "access": "Primary source; readable content checked",
+      "source_year": "2023–2025 annual averages; release 2026-01-05"
+    }
+  ],
+  "unverified_and_excluded": [
+    {
+      "item": "Nepal operative index-insurance and digital clauses",
+      "finding": "not verified",
+      "reason": "NIA directive catalogue was indexed, but full text repeatedly timed out. Index-Based Insurance Directive 2082 is a retrieval lead, not a legal finding.",
+      "url": "https://www.nia.gov.np/law/directive",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "item": "Bhutan current heat/micro/mobile rules",
+      "finding": "not verified",
+      "reason": "RMA catalogue and insurance PDF retrieval timed out; old indexed rules cannot establish current permission.",
+      "url": "https://www.rma.org.bt/bank/laws_bylaws.jsp",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "item": "Afghanistan current insurance permission and consumer rules",
+      "finding": "not verified",
+      "reason": "MoF insurance page returned only a loading shell; old search listing is not an operative legal text.",
+      "url": "https://www.mof.gov.af/en/insurance-activates",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "item": "Lao PDR detailed insurance clauses",
+      "finding": "not verified",
+      "reason": "Official department verified but operative text not exposed.",
+      "url": "https://soe.mof.gov.la/",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "item": "Timor-Leste heat and mobile distribution provisions",
+      "finding": "not verified",
+      "reason": "Instructions catalogue read; individual licensing and conduct clauses not reviewed.",
+      "url": "https://bancocentral.tl/publication/instruction/",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "item": "Myanmar consolidated current product/distribution rules",
+      "finding": "not verified",
+      "reason": "Catalogue read; later amendments and implementation not consolidated.",
+      "url": "https://www.frd.gov.mm/page-sub-categories/4",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "item": "Sri Lanka explicit heat/index and dedicated microinsurance permission",
+      "finding": "not verified",
+      "reason": "Official portal establishes supervisory context, not specific operative permission.",
+      "url": "https://ircsl.gov.lk/",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "item": "Swiss Re Foundation as payer of Asian heat premiums",
+      "finding": "not verified",
+      "reason": "Commercial Swiss Re capacity, SCBF support and Swiss Re Foundation are different institutional claims.",
+      "url": "https://www.scbf.ch/events/webinar---pioneering-heat-index-insurance-for-climate-exposed-workers-farmers",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "item": "MHT detailed 2026 premium, thresholds and payouts",
+      "finding": "not verified for admission",
+      "reason": "News and secondary leads not reconciled with a current policy schedule or primary settlement record. No amounts imported.",
+      "url": "https://celsiuspro.squarespace.com/news-1/insuring-vulnerable-people-in-india-against-extreme-heat-events",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "item": "KM Dastur / Jan Sahas / Go Digit additional city transaction",
+      "finding": "not verified for admission",
+      "reason": "Primary contract, trigger and settlement documentation not retrieved.",
+      "url": null,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "item": "IAIS 2025 climate application-paper detailed clauses",
+      "finding": "not verified in this review",
+      "reason": "PDF retrieval timeout; no specific clause imported. IAIS institutional role is separately sourced.",
+      "url": "https://www.iais.org/uploads/2025/04/Application-Paper-on-the-supervision-of-climate-related-risks-in-the-insurance-sector.pdf",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "item": "HERA Materna issued policy / premium / payout",
+      "finding": "not verified",
+      "reason": "June 2026 announcement specifies intended first heat season in 2027. Do not report as a paying scheme.",
+      "url": "https://heranow.org/hera-launches-the-worlds-first-heat-pregnancy-insurance-to-protect-expectant-mothers-from-extreme-heat/",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "item": "SEADRIF accelerator insured limit / issued heat policy / heat payout",
+      "finding": "not verified",
+      "reason": "October 2026 development announcement is not a transaction or settlement record.",
+      "url": "https://heranow.org/hera-and-seadrif-partner-to-accelerate-solutions-to-extreme-heat-across-southeast-asia/",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "item": "Worldwide absence of capacity for heat mortality, clinics or cities",
+      "finding": "not verified",
+      "reason": "A public-source search cannot establish global non-existence; private placements may not be disclosed.",
+      "url": null,
+      "last_checked": "2026-10-31"
+    },
+    {
+      "item": "Independent effect of the admitted premium subsidies on heat illness or income",
+      "finding": "not verified",
+      "reason": "Operational reports do not establish a counterfactual causal impact.",
+      "url": "https://humanityinsured.org/wp-content/uploads/2025/12/Building-Resilience-through-Protection-Humanity-Insured-Learning-Report-2025.pdf",
+      "last_checked": "2026-10-31"
+    }
+  ],
+  "trigger_notes": [
+    {
+      "issue": "Cash threshold discrepancy",
+      "known": "Howden and CGAP describe a 2024 cash threshold of 40°C; current HERA guide describes 38°C.",
+      "inference": "Different versions, windows or summaries may explain the discrepancy.",
+      "uncertain": "Full 2024 cash protocol and version history not verified; do not harmonise to one threshold.",
+      "sources": [
+        {
+          "label": "reported",
+          "url": "https://www.howdengroupholdings.com/insights/pioneering-initiative-protects-women-workers-in-india-during-record-breaking-heatwave"
+        },
+        {
+          "label": "reported",
+          "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association"
+        },
+        {
+          "label": "reported",
+          "url": "https://heranow.org/wp-content/uploads/2026/02/Insurance-to-Impact.pdf"
+        }
+      ]
+    },
+    {
+      "issue": "Livestock THI",
+      "known": "Green Delta article discusses THI 72 as a physiological stress marker.",
+      "inference": "A health threshold need not be a payout threshold.",
+      "uncertain": "Contractual index, tiers, verifier and settlement timetable not verified.",
+      "sources": [
+        {
+          "label": "reported",
+          "url": "https://green-delta.com/heat-index-livestock-insurance-protecting-bangladeshs-livestock-farmers/"
+        }
+      ]
+    }
+  ],
+  "uncertainty": {
+    "known": "Heat carriers, delivery partnerships, grants and enabling frameworks documented; see source-specific scope.",
+    "inferred": "Stable premium finance, explicit non-payment explanations and a retained frequent-loss layer could improve continuity.",
+    "uncertain": "Undisclosed capacity, current full legal permissions, renewal commitments, last-mile timing and independent impacts."
+  }
+}

@@ -1,0 +1,2541 @@
+{
+  "module": "R6",
+  "title": "Triggers, data and the evidence that money helps",
+  "last_checked": "2026-10-31",
+  "disclaimer": "Listing is not endorsement and is not financial, insurance or investment advice.",
+  "review_scope": "Source-checked scoping review, not a registered exhaustive systematic review. Regional data availability is distinguished from product use. No premium is derived from macro loss estimates.",
+  "schema_notes": [
+    "All six supplied top-level arrays retained; added infrastructure, loss evidence, research pipeline, monetary ledger, exclusions and source register.",
+    "Metric records without a verified financial use have empty used_in arrays; non-payment use and feasibility work are explicit.",
+    "Publications reporting studies are not automatically independent evaluations. 'measured' can describe an analysis whose extrapolated result is modelled; kind states this distinction.",
+    "Economic_loss is an added monetary kind because economic losses must not be labelled premiums, budgets, limits or payouts.",
+    "Empty payout arrays and not verified fields are missing evidence, not zero or never triggered.",
+    "Loop/lever mappings are analytical mechanisms; not measured intervention effects."
+  ],
+  "instruments": [
+    {
+      "id": "heat-index-insurance",
+      "name": "Parametric heat income cover",
+      "plain_definition": "An insurer owes a pre-agreed benefit when a named heat index satisfies the contracted rule, rather than valuing every individual's loss.",
+      "level": "micro",
+      "layer": "transfer",
+      "loops": [
+        "poverty",
+        "debt",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "heatcash",
+        "socialprotection"
+      ],
+      "settings": [
+        "work",
+        "homes",
+        "summer"
+      ],
+      "how_it_breaks_the_cycle": "Potential income buffer can reduce pressure to work in harmful heat or borrow; causal effect is not established by payout counts.",
+      "risk_holder": "Worker retains uncovered loss; insurer holds only the contracted contingent liability.",
+      "who_pays": "Members and supporting organisations in the illustrative SEWA cohort; exact premium split not verified.",
+      "who_receives": "Covered participants through specified payment arrangements",
+      "speed": "Case-specific data and claims process; automatic trigger is not immediate usable cash.",
+      "typical_cost": "No transferable price verified; premium depends on trigger, benefit curve, frequency, data and administration.",
+      "strengths": "Can pay without individual loss adjustment.",
+      "limits": "Needs transparent data/contract and reliable last-mile payment; cannot replace prevention.",
+      "basis_risk": "Index/exposure, vulnerability, benefit-size, timing and administrative mismatch.",
+      "reaches_poorest": "partly",
+      "reaches_poorest_why": "Targeted informal women workers can be included; membership, documentation, premium support and bank access still matter.",
+      "examples": [
+        {
+          "text": "SEWA 2024 policy cohort; see separately identified cash layer",
+          "status": "ended",
+          "source": {
+            "label": "reported",
+            "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association"
+          }
+        }
+      ],
+      "uncertainty": "Signed schedule, full timing distribution and causal welfare effects not verified for this review."
+    },
+    {
+      "id": "forecast-heat-assistance",
+      "name": "Forecast-triggered heat assistance",
+      "plain_definition": "Pre-agreed finance and actions activate from a forecast so that assistance can support protective action before the worst impacts.",
+      "level": "meso",
+      "layer": "anticipatory",
+      "loops": [
+        "poverty",
+        "debt",
+        "clinic",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "anticipatory",
+        "heatcash",
+        "readyclinics"
+      ],
+      "settings": [
+        "work",
+        "homes",
+        "clinics",
+        "neighbourhoods",
+        "summer"
+      ],
+      "how_it_breaks_the_cycle": "Potentially protects people earlier and reduces emergency reallocations; actual effect depends on timing, coverage and action.",
+      "risk_holder": "Households and public/humanitarian response institutions; no insurer necessarily involved.",
+      "who_pays": "Pre-arranged public or humanitarian funding",
+      "who_receives": "Implementers first and selected recipients/services through distinct delivery channels",
+      "speed": "Forecast lead is not recipient delay; readiness, authorization and payment clocks are separate.",
+      "typical_cost": "Readiness, forecast services, administration and benefit spending; no general heat unit cost verified.",
+      "strengths": "Can fund action before observed loss.",
+      "limits": "False alarms, misses, targeting errors and payment delays can remain.",
+      "basis_risk": "Forecast-impact and targeting mismatch rather than necessarily insurance basis risk.",
+      "reaches_poorest": "partly",
+      "reaches_poorest_why": "Targeting can prioritize vulnerable people; this does not demonstrate complete or accessible reach.",
+      "examples": [
+        {
+          "text": "Dhaka heatwave EAP",
+          "status": "active",
+          "source": {
+            "label": "reported",
+            "url": "https://adore.ifrc.org/Download.aspx?FileId=724054"
+          }
+        }
+      ],
+      "uncertainty": "Recipient timing and independent health/income effect need measurement."
+    }
+  ],
+  "schemes": [
+    {
+      "id": "in-sewa-2024",
+      "name": "SEWA heat-insurance and separate cash support, 2024 policy cohort",
+      "instrument": "heat-index-insurance",
+      "level": "micro",
+      "layer": "transfer",
+      "countries": [
+        "India"
+      ],
+      "places": [
+        "Gujarat",
+        "Rajasthan",
+        "Maharashtra"
+      ],
+      "insured_or_covered": "2024 cohort of informal women workers; programme continuation is distinct from this ended policy period.",
+      "status": "ended",
+      "providers": [
+        {
+          "name": "SEWA",
+          "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association",
+          "role": "aggregator",
+          "side": "demand"
+        },
+        {
+          "name": "ICICI Lombard",
+          "url": "https://www.icicilombard.com/docs/default-source/policy-wordings-product-brochure/weather-policy-wordings.pdf",
+          "role": "insurer",
+          "side": "supply"
+        }
+      ],
+      "heat_covered": "yes",
+      "heat_basis": "Temperature and consecutive-day insurance trigger; separate lower-threshold cash layer.",
+      "trigger": {
+        "metric": "District-specific temperature; exact physical variable/processing not established by public summary",
+        "threshold": "41.6–46.1°C depending on district, for two consecutive days",
+        "data_source": "Satellite data described; exact named product/version not verified",
+        "geography": "Covered districts",
+        "window": "2024 policy cohort",
+        "calculated_by": "Underwriter/data process described; named independent calculation agent not verified",
+        "verified_by": "not verified from signed schedule",
+        "kind": "payout"
+      },
+      "enrolment": [
+        {
+          "year": "2024",
+          "number": "50000",
+          "unit": "covered women, reported cohort",
+          "source": {
+            "label": "reported",
+            "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association"
+          }
+        }
+      ],
+      "premium": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "year": "not verified",
+        "fx": "not applicable",
+        "paid_by": "Member and supporting organisations; exact cohort split not verified.",
+        "subsidy": "not verified",
+        "source": {
+          "label": "reported",
+          "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association"
+        }
+      },
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "year": "not verified",
+        "fx": "not applicable",
+        "kind": "limit",
+        "source": {
+          "label": "reported",
+          "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association"
+        }
+      },
+      "payouts": [
+        {
+          "date": "2024; exact recipient date not verified",
+          "year": "2024",
+          "amount": "400",
+          "currency": "INR",
+          "usd": "4.78",
+          "fx": "83.6566 INR/USD; Federal Reserve 2024 annual average reference, not payment-date rate",
+          "recipients": "Reported all 50,000 participants; not an independently verified receipt ledger",
+          "days_to_payment": "not verified for this cash layer",
+          "channel": "Bank account",
+          "use": "Flexible assistance; actual per-recipient use not measured",
+          "status": "paid",
+          "kind": "payout",
+          "amount_scope": "Per participant, non-insurance cash; not aggregate insurance payout",
+          "source": {
+            "label": "reported",
+            "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association"
+          },
+          "fx_source": {
+            "label": "guidance",
+            "url": "https://www.federalreserve.gov/releases/g5a/current/"
+          }
+        }
+      ],
+      "never_triggered": "false",
+      "basis_risk": "Inference: district index can miss humid, radiant, indoor or personal harm; crossing an app temperature does not establish a contracted trigger.",
+      "fallback": "Separate small cash layer documented; not a guarantee that every non-triggered loss was covered.",
+      "inclusion": {
+        "informal_workers": "Explicit target group",
+        "women": "Explicit target group",
+        "older_people": "Eligibility/claims by age not verified",
+        "disabled_people": "Accessible enrolment and claims not verified",
+        "migrants": "Coverage/portability not verified"
+      },
+      "consumer_protection": "Case study reports phone-versus-contract temperature confusion and documentation/payment delays; full signed schedule and case-specific dispute terms were not inspected.",
+      "loops": [
+        "poverty",
+        "debt",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "heatcash",
+        "anticipatory"
+      ],
+      "settings": [
+        "work",
+        "homes",
+        "summer"
+      ],
+      "evidence": [
+        {
+          "status": "reported",
+          "text": "Operational case study; not causal effect evidence.",
+          "kind": "claimed",
+          "source": {
+            "label": "reported",
+            "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association"
+          }
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "payment_history": {
+        "insurance": "Reported insurance payments to about 92% of the 50,000 cohort; exact aggregate and recipient dates not verified.",
+        "cash": "Separate cash reported paid; per-person amount below.",
+        "insurance_speed": "Case study reports two–three weeks in second pilot; not a transaction-level distribution.",
+        "cash_speed": "not verified"
+      },
+      "status_note": "Ended refers only to April 2024–March 2025 cohort, not closure of SEWA's continuing initiative."
+    },
+    {
+      "id": "bd-dhaka-eap",
+      "name": "Dhaka heatwave Early Action Protocol",
+      "instrument": "forecast-heat-assistance",
+      "level": "meso",
+      "layer": "anticipatory",
+      "countries": [
+        "Bangladesh"
+      ],
+      "places": [
+        "Dhaka city prioritized wards"
+      ],
+      "insured_or_covered": "Selected heat-vulnerable households and exposed groups; warnings, services and cash targets differ.",
+      "status": "active",
+      "providers": [
+        {
+          "name": "Bangladesh Red Crescent Society",
+          "url": "https://bdrcs.org/wp-content/uploads/2021/09/Heat-Wave-Feasibility-Study-Final-publish-version-07-September-2021.pdf",
+          "role": "distributor",
+          "side": "demand"
+        },
+        {
+          "name": "IFRC",
+          "url": "https://adore.ifrc.org/Download.aspx?FileId=724054",
+          "role": "funder",
+          "side": "supply"
+        }
+      ],
+      "heat_covered": "yes",
+      "heat_basis": "Joint temperature/heat-index forecast thresholds activate pre-agreed early action.",
+      "trigger": {
+        "metric": "Forecast air temperature and heat index, both in °C-equivalent units as specified",
+        "threshold": "Temperature at least 38°C and heat index at least 38 for at least two consecutive days",
+        "data_source": "Readiness: ECMWF and/or GFS; activation: BMD and either ECMWF or GFS",
+        "geography": "Dhaka city",
+        "window": "Readiness lead 5–7 days; activation lead 2–3 days",
+        "calculated_by": "Forecast providers; BDRCS focal point monitors and committee authorizes",
+        "verified_by": "BMD/Climate Centre support described; no independent financial verifier named in summary",
+        "kind": "action"
+      },
+      "enrolment": [],
+      "premium": {
+        "amount": "not applicable",
+        "currency": "not applicable",
+        "usd": "not applicable",
+        "year": "2023 protocol",
+        "fx": "not applicable",
+        "paid_by": "Humanitarian pre-arranged finance; no beneficiary insurance premium",
+        "subsidy": "Not retail insurance",
+        "source": {
+          "label": "reported",
+          "url": "https://adore.ifrc.org/Download.aspx?FileId=724054"
+        }
+      },
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "year": "not verified",
+        "fx": "not applicable",
+        "kind": "budget",
+        "source": {
+          "label": "reported",
+          "url": "https://adore.ifrc.org/Download.aspx?FileId=724054"
+        }
+      },
+      "payouts": [],
+      "never_triggered": "false",
+      "basis_risk": "Inference: forecast or ward selection can miss harm; the joint air-temperature condition can miss harmful humid conditions below it.",
+      "fallback": "Readiness and action stages; no universal indemnity or automatic fallback cash for every forecast miss verified.",
+      "inclusion": {
+        "informal_workers": "Exposed outdoor workers are a target group",
+        "women": "Prioritization applies; sex-specific cash receipt not verified",
+        "older_people": "Vulnerable older people recognized; complete reach not established",
+        "disabled_people": "Vulnerability and accessibility require recipient-level verification",
+        "migrants": "Registration and temporary-resident access not fully verified"
+      },
+      "consumer_protection": "Protocol selection/feedback mechanisms apply; independent receipt-time and exclusion audit not verified.",
+      "loops": [
+        "poverty",
+        "debt",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "heatcash",
+        "anticipatory"
+      ],
+      "settings": [
+        "work",
+        "homes",
+        "summer"
+      ],
+      "evidence": [
+        {
+          "status": "reported",
+          "text": "Approved protocol and first activation; not a counterfactual impact evaluation.",
+          "kind": "claimed",
+          "source": {
+            "label": "reported",
+            "url": "https://adore.ifrc.org/Download.aspx?FileId=724054"
+          }
+        },
+        {
+          "status": "reported",
+          "text": "First activation reported 21 April 2024.",
+          "kind": "claimed",
+          "source": {
+            "label": "reported",
+            "url": "https://www.anticipation-hub.org/news/the-bangladesh-red-crescent-society-activates-its-early-action-protocol-for-heatwaves-in-dhaka"
+          }
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "status_note": "Five-year protocol approved 2023; first activation 21 April 2024. Current reauthorization/revisions not independently audited.",
+      "payment_history": {
+        "activation": "21 April 2024",
+        "actual_cash_payments": "This R6 source set verifies activation; cash recipient receipt dates, paid total and trigger-to-cash delay not verified.",
+        "speed": "2–3 day forecast lead is not a measured payment delay."
+      }
+    }
+  ],
+  "actors": [
+    {
+      "id": "wmo",
+      "name": "World Meteorological Organization",
+      "url": "https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/wmo-integrated-global-observing-system-wigos/implementation-of-wmo-integrated-global-observing-system-wigos/wdqms-wigos-data-quality-monitoring-system",
+      "type": "government",
+      "side": "platform",
+      "heat_role": {
+        "text": "Data availability, quality and timeliness monitoring; not financial claim adjudication.",
+        "source": {
+          "label": "guidance",
+          "url": "https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/wmo-integrated-global-observing-system-wigos/implementation-of-wmo-integrated-global-observing-system-wigos/wdqms-wigos-data-quality-monitoring-system"
+        }
+      },
+      "instruments": [
+        "forecast-heat-assistance"
+      ],
+      "geography": [
+        "Global / transferable evidence"
+      ],
+      "levers": [
+        "anticipatory",
+        "countdeaths",
+        "heatcash"
+      ],
+      "loops": [
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "ecmwf",
+      "name": "ECMWF / Copernicus C3S",
+      "url": "https://www.ecmwf.int/en/about/media-centre/news/2026/era5t-reanalysis-data",
+      "type": "research",
+      "side": "supply",
+      "heat_role": {
+        "text": "Reanalysis, forecasts and revision-aware historical data.",
+        "source": {
+          "label": "guidance",
+          "url": "https://www.ecmwf.int/en/about/media-centre/news/2026/era5t-reanalysis-data"
+        }
+      },
+      "instruments": [
+        "forecast-heat-assistance"
+      ],
+      "geography": [
+        "Global / transferable evidence"
+      ],
+      "levers": [
+        "anticipatory",
+        "countdeaths",
+        "heatcash"
+      ],
+      "loops": [
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "nasa",
+      "name": "NASA MODIS / LAADS",
+      "url": "https://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/products/MOD11A1/",
+      "type": "government",
+      "side": "supply",
+      "heat_role": {
+        "text": "Satellite LST products with quality flags and observation times.",
+        "source": {
+          "label": "guidance",
+          "url": "https://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/products/MOD11A1/"
+        }
+      },
+      "instruments": [
+        "forecast-heat-assistance"
+      ],
+      "geography": [
+        "Global / transferable evidence"
+      ],
+      "levers": [
+        "anticipatory",
+        "countdeaths",
+        "heatcash"
+      ],
+      "loops": [
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "imd",
+      "name": "India Meteorological Department",
+      "url": "https://imdpune.gov.in/cmpg/Griddata/Max_1_Bin.html",
+      "type": "government",
+      "side": "supply",
+      "heat_role": {
+        "text": "Station-derived historical temperature grids; product inputs differ from full station network.",
+        "source": {
+          "label": "guidance",
+          "url": "https://imdpune.gov.in/cmpg/Griddata/Max_1_Bin.html"
+        }
+      },
+      "instruments": [
+        "forecast-heat-assistance"
+      ],
+      "geography": [
+        "India"
+      ],
+      "levers": [
+        "anticipatory",
+        "countdeaths",
+        "heatcash"
+      ],
+      "loops": [
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "mss",
+      "name": "MSS / NEA Singapore",
+      "url": "https://data.gov.sg/datasets/d_87884af1f85d702d4f74c6af13b4853d/view",
+      "type": "government",
+      "side": "supply",
+      "heat_role": {
+        "text": "Measured WBGT data and heat-stress information.",
+        "source": {
+          "label": "guidance",
+          "url": "https://data.gov.sg/datasets/d_87884af1f85d702d4f74c6af13b4853d/view"
+        }
+      },
+      "instruments": [
+        "forecast-heat-assistance"
+      ],
+      "geography": [
+        "Singapore"
+      ],
+      "levers": [
+        "anticipatory",
+        "countdeaths",
+        "heatcash"
+      ],
+      "loops": [
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "ncdc",
+      "name": "India NCDC / MoHFW",
+      "url": "https://ncdc.mohfw.gov.in/wp-content/uploads/2024/07/FAQ-on-Heat-Related-Illness-Death-Surveillance_2024.pdf",
+      "type": "government",
+      "side": "demand",
+      "heat_role": {
+        "text": "Heat-illness surveillance and health-response planning.",
+        "source": {
+          "label": "guidance",
+          "url": "https://ncdc.mohfw.gov.in/wp-content/uploads/2024/07/FAQ-on-Heat-Related-Illness-Death-Surveillance_2024.pdf"
+        }
+      },
+      "instruments": [
+        "forecast-heat-assistance"
+      ],
+      "geography": [
+        "India"
+      ],
+      "levers": [
+        "anticipatory",
+        "countdeaths",
+        "heatcash"
+      ],
+      "loops": [
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "bdrcs",
+      "name": "Bangladesh Red Crescent Society",
+      "url": "https://adore.ifrc.org/Download.aspx?FileId=724054",
+      "type": "humanitarian",
+      "side": "demand",
+      "heat_role": {
+        "text": "Heat protocol monitoring, targeting and activation.",
+        "source": {
+          "label": "reported",
+          "url": "https://adore.ifrc.org/Download.aspx?FileId=724054"
+        }
+      },
+      "instruments": [
+        "forecast-heat-assistance"
+      ],
+      "geography": [
+        "Bangladesh"
+      ],
+      "levers": [
+        "anticipatory",
+        "countdeaths",
+        "heatcash"
+      ],
+      "loops": [
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "sewa",
+      "name": "SEWA",
+      "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association",
+      "type": "worker_org",
+      "side": "demand",
+      "heat_role": {
+        "text": "Member enrolment, heat financial support and implementation evidence.",
+        "source": {
+          "label": "reported",
+          "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association"
+        }
+      },
+      "instruments": [
+        "heat-index-insurance"
+      ],
+      "geography": [
+        "India"
+      ],
+      "levers": [
+        "anticipatory",
+        "countdeaths",
+        "heatcash"
+      ],
+      "loops": [
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "jpal",
+      "name": "J-PAL",
+      "url": "https://www.povertyactionlab.org/initiative-project/insuring-against-extreme-heat-randomised-evaluation",
+      "type": "research",
+      "side": "supply",
+      "heat_role": {
+        "text": "Registered/funded evaluation description; impact results not established here.",
+        "source": {
+          "label": "test",
+          "url": "https://www.povertyactionlab.org/initiative-project/insuring-against-extreme-heat-randomised-evaluation"
+        }
+      },
+      "instruments": [
+        "forecast-heat-assistance"
+      ],
+      "geography": [
+        "Global / transferable evidence"
+      ],
+      "levers": [
+        "anticipatory",
+        "countdeaths",
+        "heatcash"
+      ],
+      "loops": [
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "cega",
+      "name": "CEGA",
+      "url": "https://cega.berkeley.edu/collection/designing-financial-protection-against-heat-exposure-for-gig-workers-evidence-on-timing-certainty-and-repayment/",
+      "type": "research",
+      "side": "supply",
+      "heat_role": {
+        "text": "Heat-support trial project description; results forthcoming.",
+        "source": {
+          "label": "test",
+          "url": "https://cega.berkeley.edu/collection/designing-financial-protection-against-heat-exposure-for-gig-workers-evidence-on-timing-certainty-and-repayment/"
+        }
+      },
+      "instruments": [
+        "forecast-heat-assistance"
+      ],
+      "geography": [
+        "Global / transferable evidence"
+      ],
+      "levers": [
+        "anticipatory",
+        "countdeaths",
+        "heatcash"
+      ],
+      "loops": [
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "weo",
+      "name": "WEO / ESA HotPay activity",
+      "url": "https://business.esa.int/projects/hotpay",
+      "type": "research",
+      "side": "supply",
+      "heat_role": {
+        "text": "Feasibility of satellite-enabled heat-index service, not verified live insurance.",
+        "source": {
+          "label": "concept",
+          "url": "https://business.esa.int/projects/hotpay"
+        }
+      },
+      "instruments": [
+        "forecast-heat-assistance"
+      ],
+      "geography": [
+        "Global / transferable evidence"
+      ],
+      "levers": [
+        "anticipatory",
+        "countdeaths",
+        "heatcash"
+      ],
+      "loops": [
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "wb",
+      "name": "World Bank research / Development Impact",
+      "url": "https://documents1.worldbank.org/curated/en/099739106042542554/pdf/IDU-91465f9e-0b3f-48d0-b44d-a79816d28283.pdf",
+      "type": "research",
+      "side": "supply",
+      "heat_role": {
+        "text": "Drought transfer-timing trial and reproducibility evidence.",
+        "source": {
+          "label": "measured",
+          "url": "https://documents1.worldbank.org/curated/en/099739106042542554/pdf/IDU-91465f9e-0b3f-48d0-b44d-a79816d28283.pdf"
+        }
+      },
+      "instruments": [
+        "forecast-heat-assistance"
+      ],
+      "geography": [
+        "Global / transferable evidence"
+      ],
+      "levers": [
+        "anticipatory",
+        "countdeaths",
+        "heatcash"
+      ],
+      "loops": [
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "ucd",
+      "name": "UC Davis MRR Innovation Lab",
+      "url": "https://basis.ucdavis.edu/publication/paper-after-drought-impact-microinsurance-consumption-smoothing-and-asset-protection",
+      "type": "research",
+      "side": "supply",
+      "heat_role": {
+        "text": "Author-institution summary of drought insurance study.",
+        "source": {
+          "label": "measured",
+          "url": "https://basis.ucdavis.edu/publication/paper-after-drought-impact-microinsurance-consumption-smoothing-and-asset-protection"
+        }
+      },
+      "instruments": [
+        "forecast-heat-assistance"
+      ],
+      "geography": [
+        "Global / transferable evidence"
+      ],
+      "levers": [
+        "anticipatory",
+        "countdeaths",
+        "heatcash"
+      ],
+      "loops": [
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "last_checked": "2026-10-31"
+    }
+  ],
+  "triggers": [
+    {
+      "id": "air",
+      "metric": "Air temperature",
+      "units": "°C dry-bulb",
+      "strengths": "Simple, observable and supported by long weather histories.",
+      "weaknesses": "Misses humidity, radiation, wind, indoor heat and workload; station/grid may differ from exposure.",
+      "humid_heat": "Poorly captured when used alone.",
+      "asia_data": "IMD daily temperature grids and national station services; local usable hourly coverage must be audited.",
+      "used_in": [
+        {
+          "scheme": "bd-dhaka-eap",
+          "source": {
+            "label": "reported",
+            "url": "https://adore.ifrc.org/Download.aspx?FileId=724054"
+          }
+        }
+      ],
+      "source": [
+        {
+          "label": "guidance",
+          "url": "https://imdpune.gov.in/cmpg/Griddata/Max_1_Bin.html"
+        },
+        {
+          "label": "reported",
+          "url": "https://adore.ifrc.org/Download.aspx?FileId=724054"
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "payout_use_status": "Verified as one component of a forecast/action financing trigger in Dhaka; no claim that air temperature alone is a sufficient health trigger.",
+      "loops": [
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "anticipatory",
+        "heatcash",
+        "hap"
+      ],
+      "mapping_kind": "Analytical inference, not measured effect"
+    },
+    {
+      "id": "hi",
+      "metric": "Heat index",
+      "units": "°C apparent-temperature index",
+      "strengths": "Includes temperature and relative humidity; easy to explain.",
+      "weaknesses": "Shade-oriented index; not a full outdoor work-exposure measure. Formula/domain and time aggregation must be specified.",
+      "humid_heat": "Captures an important humidity effect; not radiation, workload or individual strain.",
+      "asia_data": "Can be calculated where concurrent temperature and humidity/dewpoint exist; temperature-only grids are insufficient.",
+      "used_in": [
+        {
+          "scheme": "bd-dhaka-eap",
+          "source": {
+            "label": "reported",
+            "url": "https://adore.ifrc.org/Download.aspx?FileId=724054"
+          }
+        }
+      ],
+      "source": [
+        {
+          "label": "guidance",
+          "url": "https://www.noaa.gov/jetstream/synoptic/heat-index"
+        },
+        {
+          "label": "reported",
+          "url": "https://adore.ifrc.org/Download.aspx?FileId=724054"
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "payout_use_status": "Verified in Dhaka forecast/action trigger; not an indemnity or automatically issued household insurance payout.",
+      "loops": [
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "anticipatory",
+        "heatcash",
+        "hap"
+      ],
+      "mapping_kind": "Analytical inference, not measured effect"
+    },
+    {
+      "id": "wbgt-measured",
+      "metric": "WBGT — measured",
+      "units": "°C composite, not interchangeable with air °C",
+      "strengths": "Local natural wet-bulb, globe and dry-bulb sensors integrate humidity, wind and radiation.",
+      "weaknesses": "Sensor siting, calibration, maintenance and averaging matter; workload/clothing/individual response remain outside index.",
+      "humid_heat": "Captures humid heat and radiant conditions; not a universal personal safety threshold.",
+      "asia_data": "Singapore publishes instrument-based WBGT and an API; comparable public coverage across all South/SE Asian locations not verified.",
+      "used_in": [],
+      "source": [
+        {
+          "label": "guidance",
+          "url": "https://www.weather.gov.sg/learn-heat-stress/"
+        },
+        {
+          "label": "guidance",
+          "url": "https://data.gov.sg/datasets/d_87884af1f85d702d4f74c6af13b4853d/view"
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "payout_use_status": "No issued heat-finance payout using measured WBGT verified in this review.",
+      "non_payout_uses": [
+        {
+          "text": "Singapore advisory and occupational action framework",
+          "source": {
+            "label": "guidance",
+            "url": "https://www.mse.gov.sg/latest-news/written-reply-to-parliamentary-question-on-heat-stress/"
+          }
+        }
+      ],
+      "loops": [
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "anticipatory",
+        "heatcash",
+        "hap"
+      ],
+      "mapping_kind": "Analytical inference, not measured effect"
+    },
+    {
+      "id": "wbgt-modelled",
+      "metric": "WBGT — modelled",
+      "units": "°C estimate; named algorithm required",
+      "strengths": "Enables spatial/historical estimates without a globe sensor at every location.",
+      "weaknesses": "Dependent on meteorological inputs, radiation/wind assumptions and validation; a simple temperature–humidity proxy is not direct measurement.",
+      "humid_heat": "Potentially captures humid/radiant heat if full method/inputs support it.",
+      "asia_data": "Reanalysis/forecast inputs available regionally; Asian worksite validation of any selected model must be checked.",
+      "used_in": [],
+      "source": [
+        {
+          "label": "measured",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18668404/"
+        },
+        {
+          "label": "guidance",
+          "url": "https://www.weather.gov.sg/learn-heat-stress/"
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "payout_use_status": "No issued modelled-WBGT heat payout verified.",
+      "background_note": "2008 US-depot model is background. Its validation accuracy is not transferred to Asia.",
+      "loops": [
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "anticipatory",
+        "heatcash",
+        "hap"
+      ],
+      "mapping_kind": "Analytical inference, not measured effect"
+    },
+    {
+      "id": "utci",
+      "metric": "Universal Thermal Climate Index (UTCI)",
+      "units": "°C equivalent temperature; dataset often stores K",
+      "strengths": "Combines temperature, humidity, wind and radiation in a physiological reference model.",
+      "weaknesses": "Reference person/activity/clothing assumptions; grid and outdoor setting do not reproduce every person or indoor workplace.",
+      "humid_heat": "Includes humidity but does not remove exposure and vulnerability mismatch.",
+      "asia_data": "ERA5-HEAT provides hourly 0.25° gridded estimates across South/SE Asia; modelled exposure, not a dense instrument network.",
+      "used_in": [],
+      "source": [
+        {
+          "label": "guidance",
+          "url": "https://confluence.ecmwf.int/spaces/CKB/pages/340759409/UTCI%2B-%2BUser%2BGuide"
+        },
+        {
+          "label": "guidance",
+          "url": "https://cds.climate.copernicus.eu/datasets/derived-utci-historical?tab=overview"
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "payout_use_status": "No issued UTCI-triggered heat payout verified.",
+      "loops": [
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "anticipatory",
+        "heatcash",
+        "hap"
+      ],
+      "mapping_kind": "Analytical inference, not measured effect"
+    },
+    {
+      "id": "lst",
+      "metric": "Satellite land-surface temperature (LST)",
+      "units": "K or °C of emitting surface",
+      "strengths": "Spatially detailed view of surface heating and urban land-cover patterns.",
+      "weaknesses": "Skin temperature differs from shaded air or human heat stress; clouds, overpass time, emissivity and missingness matter.",
+      "humid_heat": "Poor direct capture of humidity; LST alone does not measure humid heat.",
+      "asia_data": "MODIS daily 1 km day/night products cover region subject to quality/clear-sky availability; HotPay explores LST-enabled indicators.",
+      "used_in": [],
+      "source": [
+        {
+          "label": "guidance",
+          "url": "https://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/products/MOD11A1/"
+        },
+        {
+          "label": "concept",
+          "url": "https://business.esa.int/projects/hotpay"
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "payout_use_status": "HotPay is concept/feasibility evidence, not a verified live LST insurance payout.",
+      "non_payout_uses": [
+        {
+          "text": "HotPay satellite-trigger service feasibility",
+          "source": {
+            "label": "concept",
+            "url": "https://business.esa.int/projects/hotpay"
+          }
+        }
+      ],
+      "loops": [
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "anticipatory",
+        "heatcash",
+        "hap"
+      ],
+      "mapping_kind": "Analytical inference, not measured effect"
+    },
+    {
+      "id": "duration",
+      "metric": "Duration and night-time indicators",
+      "units": "Consecutive days/nights, minima, degree-hours; define separately",
+      "strengths": "Captures persistence and reduced recovery opportunities.",
+      "weaknesses": "Choice of window and baseline changes eligibility; day/night and time-zone definitions must be fixed.",
+      "humid_heat": "Persistence does not itself include humidity unless combined with a humid-heat metric.",
+      "asia_data": "Daily/hourly weather histories and ERA5-HEAT night statistics available; local indoor recovery exposure still unknown.",
+      "used_in": [
+        {
+          "scheme": "in-sewa-2024",
+          "source": {
+            "label": "reported",
+            "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association"
+          }
+        },
+        {
+          "scheme": "bd-dhaka-eap",
+          "source": {
+            "label": "reported",
+            "url": "https://adore.ifrc.org/Download.aspx?FileId=724054"
+          }
+        }
+      ],
+      "source": [
+        {
+          "label": "guidance",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health"
+        },
+        {
+          "label": "guidance",
+          "url": "https://cds.climate.copernicus.eu/datasets/derived-utci-historical?tab=overview"
+        },
+        {
+          "label": "reported",
+          "url": "https://adore.ifrc.org/Download.aspx?FileId=724054"
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "payout_use_status": "Consecutive-day triggers verified; standalone hot-night payout not verified. Do not conflate the two.",
+      "loops": [
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "anticipatory",
+        "heatcash",
+        "hap"
+      ],
+      "mapping_kind": "Analytical inference, not measured effect"
+    },
+    {
+      "id": "mortality",
+      "metric": "Excess mortality / heat-attributable mortality",
+      "units": "Deaths or rates relative to an explicit counterfactual",
+      "strengths": "Reveals harm beyond certified heatstroke; supports burden and fiscal-needs estimates.",
+      "weaknesses": "Lagged/incomplete registration, baseline and attribution uncertainty; post-event outcome cannot by itself fund pre-impact action.",
+      "humid_heat": "Can model humidity jointly, but mortality is not a direct humidity metric.",
+      "asia_data": "India facility surveillance and city all-cause studies exist; timely complete national daily death data are not assumed.",
+      "used_in": [],
+      "source": [
+        {
+          "label": "guidance",
+          "url": "https://ncdc.mohfw.gov.in/wp-content/uploads/2024/07/FAQ-on-Heat-Related-Illness-Death-Surveillance_2024.pdf"
+        },
+        {
+          "label": "measured",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38340402/"
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "payout_use_status": "No heat-specific excess-mortality payout or heat cat-bond trigger verified.",
+      "definition_note": "Observed all-cause excess above expected baseline differs from statistically estimated heat-attributable deaths.",
+      "loops": [
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "countdeaths",
+        "heatbudget",
+        "readyclinics"
+      ],
+      "mapping_kind": "Analytical inference, not measured effect"
+    },
+    {
+      "id": "probability",
+      "metric": "Forecast probability",
+      "units": "Probability of a precisely defined event at a lead time",
+      "strengths": "Can release funds before harm; expresses forecast uncertainty.",
+      "weaknesses": "Requires local calibration, reliability and decision-cost testing; a probability of above-normal seasonal heat is not a probability of the contracted event.",
+      "humid_heat": "Depends on forecast variable; temperature-only probability misses humidity.",
+      "asia_data": "ECMWF/GFS inputs used by Dhaka; NOAA GEFS publishes heat-exceedance probabilities. No financial probability threshold inferred.",
+      "used_in": [],
+      "source": [
+        {
+          "label": "guidance",
+          "url": "https://www.cpc.ncep.noaa.gov/products/international/heathazard/GHH.html"
+        },
+        {
+          "label": "reported",
+          "url": "https://adore.ifrc.org/Download.aspx?FileId=724054"
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "payout_use_status": "Dhaka uses forecast thresholds, not a verified numerical probability threshold. A probability-based heat payout was not verified here.",
+      "non_payout_uses": [
+        {
+          "text": "NOAA GEFS heatwave probability products; no automatic financial entitlement implied",
+          "source": {
+            "label": "guidance",
+            "url": "https://www.cpc.ncep.noaa.gov/products/international/heathazard/GHH.html"
+          }
+        }
+      ],
+      "loops": [
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "anticipatory",
+        "heatcash",
+        "hap"
+      ],
+      "mapping_kind": "Analytical inference, not measured effect"
+    }
+  ],
+  "evidence_of_effect": [
+    {
+      "id": "niger-timing",
+      "intervention": "Earlier versus lean-season cash after drought",
+      "place": "Tagazar, Imanan and Dantchandou, Niger",
+      "date": "2022 intervention; 2025 paper",
+      "design": "Three-arm cluster RCT; same total assistance, different timing/size schedules; all arms receive cash",
+      "sample": "4,144 households sampled across 171 villages; two inaccessible villages excluded from main analysis",
+      "outcome": "Food security, consumption, well-being, borrowing and livelihoods",
+      "result": "Larger early transfers improved pre-lean-season food security/consumption and yielded higher combined pre-lean/lean welfare. Traditional timing had advantages during the lean season. No persistent welfare differences after the lean season or nine months later; no discernible livelihood impact.",
+      "status": "measured",
+      "limits": "Drought and agricultural season, not heat; no untreated arm. Earlier-than-lean-season cash was after rainfall failure, not before drought onset. Research partnership is not claimed as an independent external evaluation.",
+      "source": {
+        "label": "measured",
+        "url": "https://documents1.worldbank.org/curated/en/099739106042542554/pdf/IDU-91465f9e-0b3f-48d0-b44d-a79816d28283.pdf"
+      },
+      "kind": "measured",
+      "transfer_to_heat": "Direct model for testing timing and transfer size, not a heat effect estimate.",
+      "loops": [
+        "poverty",
+        "farmdebt",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "anticipatory",
+        "socialprotection",
+        "heatcash"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "kenya-insurance",
+      "intervention": "Index-based livestock insurance and drought coping",
+      "place": "Rural Kenya",
+      "date": "2019 journal publication; historical drought experiment",
+      "design": "RCT-based insurance study with asset-threshold analysis; reviewed author-institution summary only",
+      "sample": "Not verified from accessible summary; full paper not inspected",
+      "outcome": "Consumption smoothing / asset protection",
+      "result": "Authors report less costly coping, with differences by household wealth.",
+      "status": "measured",
+      "limits": "Full outcome definitions, sample and exact effect estimates not verified here, so numerical effects withheld. Not heat, human-health insurance or a comparison with public cash; basis risk and take-up remain relevant.",
+      "source": {
+        "label": "measured",
+        "url": "https://basis.ucdavis.edu/publication/paper-after-drought-impact-microinsurance-consumption-smoothing-and-asset-protection"
+      },
+      "kind": "measured",
+      "transfer_to_heat": "Direct model for testing whether liquidity protects food and productive assets; livestock drought thresholds cannot be transplanted.",
+      "loops": [
+        "poverty",
+        "farmdebt",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "farmcredit",
+        "riskpools",
+        "heatcash"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "sewa-qualitative",
+      "intervention": "SEWA heat-insurance/cash bundle",
+      "place": "India",
+      "date": "2024–2025 experience described in May 2026 case study",
+      "design": "Institutional qualitative case study",
+      "sample": "Interview counts/representativeness not established in accessible case study",
+      "outcome": "Reported use of cash and implementation experience",
+      "result": "Reported spending on household and health needs; no counterfactual estimate of health, debt, schooling or work-decision impact.",
+      "status": "reported",
+      "limits": "Illustrative accounts cannot establish causal welfare effects; insurance and non-insurance support must remain separate.",
+      "source": {
+        "label": "reported",
+        "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association"
+      },
+      "kind": "claimed",
+      "transfer_to_heat": "Heat-specific operational evidence, not a completed independent impact estimate.",
+      "loops": [
+        "poverty",
+        "debt",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "heatcash",
+        "socialprotection"
+      ],
+      "last_checked": "2026-10-31"
+    }
+  ],
+  "country_layers": [
+    {
+      "country": "India",
+      "layer": "transfer",
+      "holder": "SEWA",
+      "instrument": "SEWA heat-insurance and separate cash support, 2024 policy cohort",
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "kind": "limit",
+        "year": "2024",
+        "fx": "not applicable"
+      },
+      "heat_eligible": "yes",
+      "trigger": "41.6–46.1°C depending on district, for two consecutive days",
+      "speed": "Reported insurance processing delay; see scheme-specific clock.",
+      "last_mile": "Member bank accounts; documentation exceptions can affect timing.",
+      "heat_use_evidence": {
+        "text": "Temperature and consecutive-day insurance trigger; separate lower-threshold cash layer.",
+        "status": "reported",
+        "source": {
+          "label": "reported",
+          "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association"
+        }
+      },
+      "gap": "Full contract/protocol execution, recipient timing, inclusion and causal outcomes require further evidence.",
+      "proposed_improvement": {
+        "text": "Publish auditable trigger computation, data version, release and recipient timestamps, accessible complaints and independent outcome analysis.",
+        "status": "concept",
+        "owners": [
+          "SEWA"
+        ]
+      },
+      "loops": [
+        "poverty",
+        "debt",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "heatcash",
+        "anticipatory"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "country": "Bangladesh",
+      "layer": "anticipatory",
+      "holder": "Bangladesh Red Crescent Society",
+      "instrument": "Dhaka heatwave Early Action Protocol",
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "kind": "budget",
+        "year": "2023 protocol",
+        "fx": "not applicable"
+      },
+      "heat_eligible": "yes",
+      "trigger": "Temperature at least 38°C and heat index at least 38 for at least two consecutive days",
+      "speed": "Forecast/action lead is not measured recipient payment time.",
+      "last_mile": "Cash/services via implementing protocol; receipt-time distribution not verified.",
+      "heat_use_evidence": {
+        "text": "Joint temperature/heat-index forecast thresholds activate pre-agreed early action.",
+        "status": "reported",
+        "source": {
+          "label": "reported",
+          "url": "https://adore.ifrc.org/Download.aspx?FileId=724054"
+        }
+      },
+      "gap": "Full contract/protocol execution, recipient timing, inclusion and causal outcomes require further evidence.",
+      "proposed_improvement": {
+        "text": "Publish auditable trigger computation, data version, release and recipient timestamps, accessible complaints and independent outcome analysis.",
+        "status": "concept",
+        "owners": [
+          "Bangladesh Red Crescent Society"
+        ]
+      },
+      "loops": [
+        "poverty",
+        "debt",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "heatcash",
+        "anticipatory"
+      ],
+      "last_checked": "2026-10-31"
+    }
+  ],
+  "data_infrastructure": [
+    {
+      "id": "station-quality",
+      "name": "National stations and WIGOS quality monitoring",
+      "owner": "National meteorological services; WMO monitoring infrastructure",
+      "coverage": "Country/site-specific; no regional density statistic computed",
+      "resolution": "Station-specific",
+      "latency": "Operational, subject to reporting and transmission",
+      "verification": "WDQMS links data availability, quality and timeliness with OSCAR metadata; this does not certify a financial claim.",
+      "finance_relevance": "Audit simultaneous usable inputs and missing data within contracted geography, rather than counting all listed stations.",
+      "caveat": "No uniform adequate station density assumed.",
+      "sources": [
+        {
+          "label": "guidance",
+          "url": "https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/wmo-integrated-global-observing-system-wigos/implementation-of-wmo-integrated-global-observing-system-wigos/wdqms-wigos-data-quality-monitoring-system"
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "loops": [
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "countdeaths",
+        "anticipatory",
+        "hap"
+      ],
+      "mapping_kind": "Analytical inference"
+    },
+    {
+      "id": "imd",
+      "name": "IMD gridded daily maximum temperature",
+      "owner": "India Meteorological Department",
+      "coverage": "India; documented 1951–2024 archive",
+      "resolution": "1° × 1° daily; interpolated gridded product",
+      "latency": "Historical archive; not demonstrated as the real-time payout feed",
+      "verification": "Product documentation and source-station metadata",
+      "finance_relevance": "Useful for historical calibration; not neighbourhood or workplace observation.",
+      "caveat": "Documentation says post-2008 grids use around 180 operationally received stations. This is a product-input count, not the total current Indian network.",
+      "sources": [
+        {
+          "label": "guidance",
+          "url": "https://imdpune.gov.in/cmpg/Griddata/Max_1_Bin.html"
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "loops": [
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "countdeaths",
+        "anticipatory",
+        "hap"
+      ],
+      "mapping_kind": "Analytical inference"
+    },
+    {
+      "id": "era5",
+      "name": "ERA5 / ERA5T",
+      "owner": "ECMWF for Copernicus Climate Change Service",
+      "coverage": "Global, including South/SE Asia",
+      "resolution": "Hourly gridded meteorological reconstruction; product/grid must be named",
+      "latency": "ERA5T about five days; consolidated ERA5 about two–three months",
+      "verification": "Provider quality assurance and later consolidation; revisions possible",
+      "finance_relevance": "Historical modelling and event verification; waiting for consolidated data conflicts with very early cash.",
+      "caveat": "Reanalysis is observation–model synthesis, not satellite LST or a local station reading. Settlement must define preliminary/final version.",
+      "sources": [
+        {
+          "label": "guidance",
+          "url": "https://www.ecmwf.int/en/about/media-centre/news/2026/era5t-reanalysis-data"
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "loops": [
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "countdeaths",
+        "anticipatory",
+        "hap"
+      ],
+      "mapping_kind": "Analytical inference"
+    },
+    {
+      "id": "era5-heat",
+      "name": "ERA5-HEAT",
+      "owner": "C3S/ECMWF; dataset documented scientific processing",
+      "coverage": "Global except Antarctica, includes study region",
+      "resolution": "0.25° hourly UTCI/MRT with aggregated statistics",
+      "latency": "Intermediate daily updates; final monthly updates with two–three month lag",
+      "verification": "Versioned algorithm and source data; intermediate can change at consolidation",
+      "finance_relevance": "Reference exposure surface; locally validate before contractual use.",
+      "caveat": "Spatially complete grid does not establish complete worksite exposure measurement.",
+      "sources": [
+        {
+          "label": "guidance",
+          "url": "https://cds.climate.copernicus.eu/datasets/derived-utci-historical?tab=overview"
+        },
+        {
+          "label": "guidance",
+          "url": "https://confluence.ecmwf.int/spaces/CKB/pages/340759409/UTCI%2B-%2BUser%2BGuide"
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "loops": [
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "countdeaths",
+        "anticipatory",
+        "hap"
+      ],
+      "mapping_kind": "Analytical inference"
+    },
+    {
+      "id": "lst-products",
+      "name": "MODIS MOD11A1 v6.1 and proposed EO trigger services",
+      "owner": "NASA MODIS/LAADS; HotPay prime contractor WEO with ESA feasibility support",
+      "coverage": "Global LST retrieval with clear-sky/quality constraints",
+      "resolution": "MODIS daily 1 km day/night; HotPay also describes Sentinel-3/2 and Landsat inputs",
+      "latency": "Product-specific; distinguish archive, near-real-time and composites",
+      "verification": "Quality flags, observation time and archived product version",
+      "finance_relevance": "Spatial calibration/context; HotPay explores trigger generation.",
+      "caveat": "Do not substitute LST degrees for air, WBGT or heat-index degrees.",
+      "sources": [
+        {
+          "label": "guidance",
+          "url": "https://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/products/MOD11A1/"
+        },
+        {
+          "label": "concept",
+          "url": "https://business.esa.int/projects/hotpay"
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "loops": [
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "countdeaths",
+        "anticipatory",
+        "hap"
+      ],
+      "mapping_kind": "Analytical inference"
+    },
+    {
+      "id": "sg-wbgt-data",
+      "name": "Singapore WBGT instruments and API",
+      "owner": "Meteorological Service Singapore / NEA; data.gov.sg publication",
+      "coverage": "Singapore, not an Asia-wide network",
+      "resolution": "API reports preceding 15-minute average, updated every 15 minutes",
+      "latency": "Automatic publication; gaps and subsequent corrections possible",
+      "verification": "Instrument siting/calibration and publisher corrections; financial verifier not appointed by API publication",
+      "finance_relevance": "Transferable monitoring and open-data design; published advisory is not a payout.",
+      "caveat": "October 2026 ministry reply says around 30 stations, expanded from 15 in 2025; count is time-specific.",
+      "sources": [
+        {
+          "label": "guidance",
+          "url": "https://data.gov.sg/datasets/d_87884af1f85d702d4f74c6af13b4853d/view"
+        },
+        {
+          "label": "guidance",
+          "url": "https://www.mse.gov.sg/latest-news/written-reply-to-parliamentary-question-on-heat-stress/"
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "loops": [
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "countdeaths",
+        "anticipatory",
+        "hap"
+      ],
+      "mapping_kind": "Analytical inference"
+    },
+    {
+      "id": "forecast-data",
+      "name": "Operational forecast and ensemble products",
+      "owner": "BMD, ECMWF, NOAA/GFS/GEFS and other national providers",
+      "coverage": "Regional/global, with local skill varying",
+      "resolution": "Run, grid, lead time and event definition must be archived",
+      "latency": "Forecast release schedule; distinguish forecast lead from payment-processing time",
+      "verification": "Hindcasts and local forecast-observation matching; Dhaka monitoring/activation committee described in EAP",
+      "finance_relevance": "Can support readiness and release before heat; requires operational decision authority.",
+      "caveat": "General product availability is not proof of local reliability at contracted threshold.",
+      "sources": [
+        {
+          "label": "guidance",
+          "url": "https://www.cpc.ncep.noaa.gov/products/international/heathazard/GHH.html"
+        },
+        {
+          "label": "reported",
+          "url": "https://adore.ifrc.org/Download.aspx?FileId=724054"
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "loops": [
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "countdeaths",
+        "anticipatory",
+        "hap"
+      ],
+      "mapping_kind": "Analytical inference"
+    },
+    {
+      "id": "health-data",
+      "name": "Health-facility surveillance and civil-registration mortality",
+      "owner": "Health ministries, facilities and civil registrars; aggregate analysis by authorized research institutions",
+      "coverage": "India NCDC/IHIP facility reporting; all-cause coverage varies by city/jurisdiction",
+      "resolution": "NCDC expects daily aggregated facility indicators; complete civil-death data can have longer lags",
+      "latency": "Suspected reports early; confirmation and death registration later",
+      "verification": "Clinical review, death audit, registration quality and epidemiological baseline checks",
+      "finance_relevance": "Loss validation, burden estimation and reserve planning; not a verified automatic insurance trigger.",
+      "caveat": "Facility deaths miss deaths outside facilities; all-cause excess is not automatically attributable to heat.",
+      "sources": [
+        {
+          "label": "guidance",
+          "url": "https://ncdc.mohfw.gov.in/wp-content/uploads/2024/07/FAQ-on-Heat-Related-Illness-Death-Surveillance_2024.pdf"
+        },
+        {
+          "label": "measured",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38340402/"
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "loops": [
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "countdeaths",
+        "anticipatory",
+        "hap"
+      ],
+      "mapping_kind": "Analytical inference"
+    }
+  ],
+  "loss_harm_evidence": [
+    {
+      "id": "in-output",
+      "domain": "Income / production",
+      "place": "India",
+      "date": "1998–2012 plant panel; published 2021",
+      "design": "Plant-panel econometric analysis with worker microdata in selected industries",
+      "sample": "58,377 plants in national unbalanced panel; worker subsamples differ",
+      "exposure": "Annual temperature distribution / daily maximum-temperature exposure",
+      "baseline": "Within-study comparison under alternative temperature exposure, with model controls",
+      "outcome": "Annual plant output",
+      "result": "About 2% lower annual plant output per 1°C; not a measured 2% fall in every worker's wage.",
+      "status": "measured",
+      "kind": "measured",
+      "limits": "Registered manufacturing, historical exposure and adaptation; not every sector, informal livelihood or current insurance claim.",
+      "pricing_relevance": "Evidence for vulnerability calibration; not proof a particular insurer used this coefficient.",
+      "source": {
+        "label": "measured",
+        "url": "https://www.journals.uchicago.edu/doi/full/10.1086/713733"
+      },
+      "loops": [
+        "poverty",
+        "debt",
+        "clinic",
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "heatcash",
+        "heatbudget",
+        "countdeaths",
+        "readyclinics"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "bd-work-income",
+      "domain": "Work hours and household medical spending",
+      "place": "Selected Dhaka exposed worker/pedestrian groups",
+      "date": "Feasibility report published 2021; precise survey fieldwork date not established",
+      "design": "Retrospective survey and comparison group; self-report",
+      "sample": "320 study-group respondents; 80 comparison respondents; income-loss subset 105",
+      "exposure": "Reported hot/summer conditions",
+      "baseline": "Respondents' usual work/other seasons, not randomized temperature exposure",
+      "outcome": "Reported lost work time and increased healthcare expenses",
+      "result": "Study group reported about 2.87 lost work hours per summer day; about 83% reported higher summer healthcare spending.",
+      "status": "measured",
+      "kind": "measured",
+      "limits": "Local retrospective self-report; unclear field dates; no cash-payment impact evaluation. Nominal expense increment withheld because monetary reference year/FX unresolved.",
+      "pricing_relevance": "Can identify timing and spending needs; not a nationally representative wage-loss curve.",
+      "source": {
+        "label": "measured",
+        "url": "https://bdrcs.org/wp-content/uploads/2021/09/Heat-Wave-Feasibility-Study-Final-publish-version-07-September-2021.pdf"
+      },
+      "loops": [
+        "poverty",
+        "debt",
+        "clinic",
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "heatcash",
+        "heatbudget",
+        "countdeaths",
+        "readyclinics"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "bd-national-loss",
+      "domain": "Economic cost of illness-related productivity loss",
+      "place": "Bangladesh",
+      "date": "2024 survey / loss year; report launched 2025",
+      "design": "Two-round household panel, seasonal associations and national extrapolation/valuation",
+      "sample": "More than 16,000 individuals",
+      "exposure": "Heat-related physical and mental health conditions; seasonal comparison",
+      "baseline": "Winter/summer comparisons and counterfactual cost assumptions; not national transaction records",
+      "outcome": "Estimated national economic loss",
+      "result": "Published economic-loss range recorded in money ledger; disputed workday total excluded.",
+      "status": "measured",
+      "kind": "modelled",
+      "limits": "Survey-derived/modelled national valuation; report and launch release disagree on workdays. Do not equate economic loss with insured loss or sum insured.",
+      "pricing_relevance": "Indicative scale for public discussion; resolve methods and denominator before pricing.",
+      "source": {
+        "label": "measured",
+        "url": "https://documents1.worldbank.org/curated/en/099111024033034518/pdf/P168901-70ed6ce2-aaea-42b2-afab-8484b7b75125.pdf"
+      },
+      "supporting_sources": [
+        {
+          "label": "reported",
+          "url": "https://www.worldbank.org/en/news/press-release/2025/09/16/bangladesh-faces-health-and-economic-risks-from-rising-temperature-world-bank"
+        }
+      ],
+      "loops": [
+        "poverty",
+        "debt",
+        "clinic",
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "heatcash",
+        "heatbudget",
+        "countdeaths",
+        "readyclinics"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "in-mortality",
+      "domain": "Health / mortality",
+      "place": "Ten Indian cities",
+      "date": "2008–2019; published 2024",
+      "design": "City-specific generalized additive Poisson regression, meta-analysis",
+      "sample": "Approximately 3.6 million all-cause deaths",
+      "exposure": "Daily mean temperature above city-specific annual 97th percentile for at least two consecutive days",
+      "baseline": "Non-heatwave days under adjusted models",
+      "outcome": "Daily all-cause mortality association",
+      "result": "14.7% higher daily mortality (95% CI 10.3–19.3).",
+      "status": "measured",
+      "kind": "measured",
+      "limits": "Observational city data; not national rural burden. A relative increase on heatwave days is not the proportion of all deaths caused by heat.",
+      "pricing_relevance": "Duration and definition affect harm estimates; not a payout threshold or premium tariff.",
+      "source": {
+        "label": "measured",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38340402/"
+      },
+      "loops": [
+        "poverty",
+        "debt",
+        "clinic",
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "heatcash",
+        "heatbudget",
+        "countdeaths",
+        "readyclinics"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "in-wheat",
+      "domain": "Crop yield",
+      "place": "ICAR-IARI, New Delhi, India",
+      "date": "Reported seasons 2020–21 and 2021–22; published 2025; sowing-year inconsistency in methods",
+      "design": "Randomized controlled pot/chamber experiment",
+      "sample": "Four wheat genotypes; 15 replications per condition; five pots used for yield analysis",
+      "exposure": "36/30°C day/night from heading to maturity, with irrigated heat-only treatment; combined drought tested separately",
+      "baseline": "21/15°C day/night, normal irrigation control",
+      "outcome": "Grain yield reduction",
+      "result": "Heat alone: 29.98–46.55% reduction across tested genotypes.",
+      "status": "measured",
+      "kind": "measured",
+      "limits": "Controlled treatment, not observed national field loss or predicted claim ratio; abstract/methods dates differ. Combined drought-and-heat loss must not be called heat-only loss.",
+      "pricing_relevance": "Crop stage, genotype and moisture conditions matter for trigger design.",
+      "source": {
+        "label": "measured",
+        "url": "https://epubs.icar.org.in/index.php/IJAgS/article/download/154184/62649/489900"
+      },
+      "loops": [
+        "farmdebt",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "farmcredit",
+        "heatlending"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "in-milk",
+      "domain": "Livestock output",
+      "place": "19 districts, Haryana, India",
+      "date": "2004–2019 panel; published 2026",
+      "design": "District panel using livestock survey and climatic variables",
+      "sample": "16 years; survey describes 1,148 villages annually",
+      "exposure": "Temperature, THI and potential evapotranspiration",
+      "baseline": "Within-panel associations and species comparison",
+      "outcome": "Milk yield and production",
+      "result": "Negative heat/humidity-related associations reported for buffalo and crossbred cattle; responses differ by species/season. Exact coefficient not reproduced.",
+      "status": "measured",
+      "kind": "measured",
+      "limits": "Aggregated observational data and management differences; no national heat-loss total or heat-induced animal death count inferred.",
+      "pricing_relevance": "Species-specific vulnerability and productive loss without animal death need separate treatment.",
+      "source": {
+        "label": "measured",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13578687/"
+      },
+      "loops": [
+        "farmdebt",
+        "poverty",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "farmcredit",
+        "heatlending"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "vn-cost-method",
+      "domain": "Health-cost estimation",
+      "place": "Vietnam",
+      "date": "Published 2023; projection horizon 2050",
+      "design": "Systematic review and additional back-of-envelope cost analysis",
+      "sample": "127 reviewed papers; cost model combines parameters from multiple studies",
+      "exposure": "Climate change/rising temperature; scope broader than a discrete heatwave",
+      "baseline": "Modelled climate and economic assumptions",
+      "outcome": "Projected healthcare costs",
+      "result": "Published projections exist, but nominal values withheld because price-base and heat-only attribution were not sufficiently resolved.",
+      "status": "measured",
+      "kind": "modelled",
+      "limits": "Not observed claims, current public spending or an actuarial heat-loss series.",
+      "pricing_relevance": "Shows method and evidence gap; do not transfer an aggregate scenario directly into a policy premium.",
+      "source": {
+        "label": "measured",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10730327/"
+      },
+      "loops": [
+        "poverty",
+        "debt",
+        "clinic",
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "heatcash",
+        "heatbudget",
+        "countdeaths",
+        "readyclinics"
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "in-public-spending",
+      "domain": "Public spending — evidence boundary",
+      "place": "Tamil Nadu, India",
+      "date": "FY2025–26 budget document",
+      "design": "Official budget highlights",
+      "sample": "One state budget publication; not expenditure microdata",
+      "exposure": "Heat preparedness planning",
+      "baseline": "Not applicable",
+      "outcome": "Planned heat action activity versus actual fiscal loss",
+      "result": "Document plans city heat action plans; no heat-attributable public-spending time series or verified heat expenditure amount admitted.",
+      "status": "guidance",
+      "kind": "claimed",
+      "limits": "Budget announcements/planned activity are not audited expenditure or avoided loss.",
+      "pricing_relevance": "Fiscal cost needs event-coded health, income-support and emergency budget data.",
+      "source": {
+        "label": "guidance",
+        "url": "https://www.tnbudget.tn.gov.in/tnweb_files/budget%20highlights/HIGHLIGHTS%20ENG%202025_26.pdf"
+      },
+      "loops": [
+        "poverty",
+        "debt",
+        "clinic",
+        "invisible",
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "heatcash",
+        "heatbudget",
+        "countdeaths",
+        "readyclinics"
+      ],
+      "last_checked": "2026-10-31"
+    }
+  ],
+  "research_pipeline": [
+    {
+      "id": "sewa-evaluation",
+      "name": "Insuring Against Extreme Heat",
+      "place": "India",
+      "status": "test",
+      "design": "Randomized encouragement to increase insurance enrolment",
+      "sample": "J-PAL project description: 2,821 treatment and 2,821 control villages; a 2025 presentation gives a different village count, so no reconciled achieved sample claimed.",
+      "outcomes": "Labour, financial decisions, health, consumption and adaptive behaviour",
+      "results": "Not published in reviewed project description; future-tense measurement plan is not a result.",
+      "source": {
+        "label": "test",
+        "url": "https://www.povertyactionlab.org/initiative-project/insuring-against-extreme-heat-randomised-evaluation"
+      },
+      "supporting_source": {
+        "label": "reported",
+        "url": "https://amenjalal.com/docs/JPSZB_2025.pdf"
+      },
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "gig-evaluation",
+      "name": "Heat-contingent support for gig delivery workers",
+      "place": "Delhi NCR, India",
+      "status": "test",
+      "design": "RCT comparing information control and financial-support arms differing in transfer/credit structure",
+      "sample": "1,180 workers in project description; realized follow-up sample not verified",
+      "outcomes": "Health, labour participation, earnings and exposure",
+      "results": "Project page explicitly says results forthcoming.",
+      "source": {
+        "label": "test",
+        "url": "https://cega.berkeley.edu/collection/designing-financial-protection-against-heat-exposure-for-gig-workers-evidence-on-timing-certainty-and-repayment/"
+      },
+      "last_checked": "2026-10-31"
+    }
+  ],
+  "money_ledger": [
+    {
+      "id": "sewa-cash-2024",
+      "scheme": "in-sewa-2024",
+      "kind": "payout",
+      "stage": "reported paid",
+      "amount": "400",
+      "currency": "INR",
+      "usd": "4.78",
+      "year": "2024",
+      "fx": "83.6566 INR/USD; annual average reference",
+      "unit": "per participant; separate non-insurance cash layer",
+      "source": {
+        "label": "reported",
+        "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association"
+      },
+      "fx_source": {
+        "label": "guidance",
+        "url": "https://www.federalreserve.gov/releases/g5a/current/"
+      }
+    },
+    {
+      "id": "bd-estimated-productivity-cost",
+      "scheme": "not applicable — economic-loss estimate",
+      "kind": "economic_loss",
+      "stage": "modelled estimate; not a financial transaction",
+      "amount": "1330000000–1780000000",
+      "currency": "USD",
+      "usd": "1330000000–1780000000",
+      "year": "2024",
+      "fx": "1 USD = 1 USD; original published currency",
+      "unit": "national illness-related productivity-cost estimate",
+      "source": {
+        "label": "measured",
+        "url": "https://documents1.worldbank.org/curated/en/099111024033034518/pdf/P168901-70ed6ce2-aaea-42b2-afab-8484b7b75125.pdf"
+      },
+      "fx_source": {
+        "label": "measured",
+        "url": "https://documents1.worldbank.org/curated/en/099111024033034518/pdf/P168901-70ed6ce2-aaea-42b2-afab-8484b7b75125.pdf"
+      },
+      "caution": "Economic_loss extends schema because loss is neither premium, budget, limit nor payout; unresolved workday discrepancy."
+    }
+  ],
+  "unverified_and_excluded": [
+    {
+      "id": "r6-gap-1",
+      "item": "Unreconciled Bangladesh workdays",
+      "finding": "not verified",
+      "detail": "Report states 25 million; launch release states 250 million for 2024. No reconciled workday estimate admitted.",
+      "sources": [
+        {
+          "label": "measured",
+          "url": "https://documents1.worldbank.org/curated/en/099111024033034518/pdf/P168901-70ed6ce2-aaea-42b2-afab-8484b7b75125.pdf"
+        },
+        {
+          "label": "reported",
+          "url": "https://www.worldbank.org/en/news/press-release/2025/09/16/bangladesh-faces-health-and-economic-risks-from-rising-temperature-world-bank"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "r6-gap-2",
+      "item": "WBGT payout examples",
+      "finding": "not verified",
+      "detail": "No issued measured- or modelled-WBGT heat-finance payout verified; Singapore monitoring/action is not payment.",
+      "sources": [
+        {
+          "label": "guidance",
+          "url": "https://www.weather.gov.sg/learn-heat-stress/"
+        },
+        {
+          "label": "guidance",
+          "url": "https://data.gov.sg/datasets/d_87884af1f85d702d4f74c6af13b4853d/view"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "r6-gap-3",
+      "item": "UTCI payout example",
+      "finding": "not verified",
+      "detail": "Dataset availability and physiological relevance do not establish an issued UTCI payout.",
+      "sources": [
+        {
+          "label": "guidance",
+          "url": "https://confluence.ecmwf.int/spaces/CKB/pages/340759409/UTCI%2B-%2BUser%2BGuide"
+        },
+        {
+          "label": "guidance",
+          "url": "https://cds.climate.copernicus.eu/datasets/derived-utci-historical?tab=overview"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "r6-gap-4",
+      "item": "LST payout example",
+      "finding": "not verified",
+      "detail": "HotPay is feasibility work; no issued policy, premium or paid trigger verified.",
+      "sources": [
+        {
+          "label": "concept",
+          "url": "https://business.esa.int/projects/hotpay"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "r6-gap-5",
+      "item": "Night-only or excess-mortality heat payout",
+      "finding": "not verified",
+      "detail": "No verified standalone hot-night or heat-excess-mortality payment admitted.",
+      "sources": [
+        {
+          "label": "guidance",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health"
+        },
+        {
+          "label": "measured",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38340402/"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "r6-gap-6",
+      "item": "Probability-based heat payment",
+      "finding": "not verified",
+      "detail": "Albania protocol lead found in indexed PDF, but full text was not readable; numerical probability rule withheld. Dhaka forecast threshold is verified separately.",
+      "sources": [
+        {
+          "label": "reported",
+          "url": "https://adore.ifrc.org/Download.aspx?FileId=724054"
+        },
+        {
+          "label": "guidance",
+          "url": "https://www.cpc.ncep.noaa.gov/products/international/heathazard/GHH.html"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "r6-gap-7",
+      "item": "SEWA complete trigger data and disputes",
+      "finding": "not verified",
+      "detail": "Physical satellite variable, exact named dataset/version, full benefit curve and independent calculation/dispute terms not established from public case summary. Generic ICICI wording is not the SEWA schedule.",
+      "sources": [
+        {
+          "label": "reported",
+          "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association"
+        },
+        {
+          "label": "reported",
+          "url": "https://www.icicilombard.com/docs/default-source/policy-wordings-product-brochure/weather-policy-wordings.pdf"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "r6-gap-8",
+      "item": "SEWA timing reconciliation",
+      "finding": "not verified",
+      "detail": "2026 case study reports two–three weeks for the second pilot; 2025 research slides describe four–six weeks. Different periods/samples/clocks; no pooled mean or universal promise.",
+      "sources": [
+        {
+          "label": "reported",
+          "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association"
+        },
+        {
+          "label": "reported",
+          "url": "https://amenjalal.com/docs/JPSZB_2025.pdf"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "r6-gap-9",
+      "item": "SEWA achieved evaluation sample and impact results",
+      "finding": "not verified",
+      "detail": "J-PAL planned village count differs from 2025 presentation count. No reconciled achieved sample or final causal results verified.",
+      "sources": [
+        {
+          "label": "test",
+          "url": "https://www.povertyactionlab.org/initiative-project/insuring-against-extreme-heat-randomised-evaluation"
+        },
+        {
+          "label": "reported",
+          "url": "https://amenjalal.com/docs/JPSZB_2025.pdf"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "r6-gap-10",
+      "item": "Delhi gig-worker trial results",
+      "finding": "not verified",
+      "detail": "Project design verified; results explicitly forthcoming. Treatment descriptions are not paid-benefit or effectiveness evidence.",
+      "sources": [
+        {
+          "label": "test",
+          "url": "https://cega.berkeley.edu/collection/designing-financial-protection-against-heat-exposure-for-gig-workers-evidence-on-timing-certainty-and-repayment/"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "r6-gap-11",
+      "item": "Health-cost monetary scope",
+      "finding": "not verified",
+      "detail": "Vietnam model price-base/heat-only scope not sufficiently resolved; China stroke abstract lacks identified city, observation years and sample. Exact monetary/effect claims excluded from main table.",
+      "sources": [
+        {
+          "label": "measured",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10730327/"
+        },
+        {
+          "label": "measured",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41916023/"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "r6-gap-12",
+      "item": "Public-spending loss series",
+      "finding": "not verified",
+      "detail": "No comparable event-coded audited heat-attributable public-expenditure series verified in reviewed Asian sources. Budgeted plans are not fiscal losses.",
+      "sources": [
+        {
+          "label": "guidance",
+          "url": "https://www.tnbudget.tn.gov.in/tnweb_files/budget%20highlights/HIGHLIGHTS%20ENG%202025_26.pdf"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "r6-gap-13",
+      "item": "Current Asia station density",
+      "finding": "not verified",
+      "detail": "No consistent regional denominator, hourly variable-complete usable-station count or audited uptime computed. IMD product-input count must not be described as the national total.",
+      "sources": [
+        {
+          "label": "guidance",
+          "url": "https://imdpune.gov.in/cmpg/Griddata/Max_1_Bin.html"
+        },
+        {
+          "label": "guidance",
+          "url": "https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/wmo-integrated-global-observing-system-wigos/implementation-of-wmo-integrated-global-observing-system-wigos/wdqms-wigos-data-quality-monitoring-system"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "r6-gap-14",
+      "item": "Crop field-loss extrapolation and dates",
+      "finding": "not verified",
+      "detail": "Pot treatment does not establish national field loss; paper's stated seasons and sowing-year text differ. National loss extrapolation excluded.",
+      "sources": [
+        {
+          "label": "measured",
+          "url": "https://epubs.icar.org.in/index.php/IJAgS/article/download/154184/62649/489900"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "r6-gap-15",
+      "item": "Kenya detailed effect and coverage",
+      "finding": "not verified",
+      "detail": "Full study sample/outcome definitions and current product terms not verified from reviewed author summary. Numerical treatment effects and present-day premiums withheld.",
+      "sources": [
+        {
+          "label": "measured",
+          "url": "https://basis.ucdavis.edu/publication/paper-after-drought-impact-microinsurance-consumption-smoothing-and-asset-protection"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "r6-gap-16",
+      "item": "Dhaka actual cash clock",
+      "finding": "not verified",
+      "detail": "Activation verified, but this R6 source set does not verify recipient cash amounts/dates. Protocol targets and budget lines are not payouts.",
+      "sources": [
+        {
+          "label": "reported",
+          "url": "https://adore.ifrc.org/Download.aspx?FileId=724054"
+        },
+        {
+          "label": "reported",
+          "url": "https://www.anticipation-hub.org/news/the-bangladesh-red-crescent-society-activates-its-early-action-protocol-for-heatwaves-in-dhaka"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "r6-gap-17",
+      "item": "Premium and sovereign-cover effects of undercount",
+      "finding": "not verified",
+      "detail": "Direction and magnitude of premium/sovereign liability changes depend on contract, exposure and model; no quantified causal premium effect verified.",
+      "sources": [
+        {
+          "label": "guidance",
+          "url": "https://ncdc.mohfw.gov.in/wp-content/uploads/2024/07/FAQ-on-Heat-Related-Illness-Death-Surveillance_2024.pdf"
+        },
+        {
+          "label": "measured",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38340402/"
+        }
+      ],
+      "last_checked": "2026-10-31"
+    }
+  ],
+  "source_register": [
+    {
+      "id": "noaa-hi",
+      "url": "https://www.noaa.gov/jetstream/synoptic/heat-index",
+      "label": "guidance",
+      "date": "Current page",
+      "review_depth": "Full accessible text reviewed",
+      "access_note": "Opened successfully",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "sg-wbgt",
+      "url": "https://www.weather.gov.sg/learn-heat-stress/",
+      "label": "guidance",
+      "date": "Current page",
+      "review_depth": "Full accessible text reviewed",
+      "access_note": "Opened successfully",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "sg-api",
+      "url": "https://data.gov.sg/datasets/d_87884af1f85d702d4f74c6af13b4853d/view",
+      "label": "guidance",
+      "date": "Dataset 2025–2026",
+      "review_depth": "Full accessible text reviewed",
+      "access_note": "Opened successfully",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "sg-network",
+      "url": "https://www.mse.gov.sg/latest-news/written-reply-to-parliamentary-question-on-heat-stress/",
+      "label": "guidance",
+      "date": "October 2026",
+      "review_depth": "Full accessible text reviewed",
+      "access_note": "Opened successfully",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "wbgt-model",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18668404/",
+      "label": "measured",
+      "date": "2008 — background",
+      "review_depth": "Author abstract only",
+      "access_note": "Older US-depot validation; not an Asian performance guarantee",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "utci",
+      "url": "https://confluence.ecmwf.int/spaces/CKB/pages/340759409/UTCI%2B-%2BUser%2BGuide",
+      "label": "guidance",
+      "date": "Current documentation",
+      "review_depth": "Full accessible text reviewed",
+      "access_note": "Opened successfully",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "era5heat",
+      "url": "https://cds.climate.copernicus.eu/datasets/derived-utci-historical?tab=overview",
+      "label": "guidance",
+      "date": "Updated 2026-10-31",
+      "review_depth": "Full accessible text reviewed",
+      "access_note": "Opened successfully",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "era5t",
+      "url": "https://www.ecmwf.int/en/about/media-centre/news/2026/era5t-reanalysis-data",
+      "label": "guidance",
+      "date": "2026-09-21",
+      "review_depth": "Full accessible text reviewed",
+      "access_note": "Opened successfully",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "modis",
+      "url": "https://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/products/MOD11A1/",
+      "label": "guidance",
+      "date": "Version 6.1",
+      "review_depth": "Full accessible text reviewed",
+      "access_note": "Opened successfully",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "imd-grid",
+      "url": "https://imdpune.gov.in/cmpg/Griddata/Max_1_Bin.html",
+      "label": "guidance",
+      "date": "1951–2024 archive documentation",
+      "review_depth": "Full accessible text reviewed",
+      "access_note": "Opened successfully",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "wmo-quality",
+      "url": "https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/wmo-integrated-global-observing-system-wigos/implementation-of-wmo-integrated-global-observing-system-wigos/wdqms-wigos-data-quality-monitoring-system",
+      "label": "guidance",
+      "date": "2026-06-05",
+      "review_depth": "Full accessible text reviewed",
+      "access_note": "Opened successfully",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "gefs",
+      "url": "https://www.cpc.ncep.noaa.gov/products/international/heathazard/GHH.html",
+      "label": "guidance",
+      "date": "Current forecast-product catalogue",
+      "review_depth": "Full accessible text reviewed",
+      "access_note": "Opened successfully",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "who",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health",
+      "label": "guidance",
+      "date": "2026-07-31",
+      "review_depth": "Full accessible text reviewed",
+      "access_note": "Opened successfully",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "ncdc",
+      "url": "https://ncdc.mohfw.gov.in/wp-content/uploads/2024/07/FAQ-on-Heat-Related-Illness-Death-Surveillance_2024.pdf",
+      "label": "guidance",
+      "date": "2024",
+      "review_depth": "Full accessible text reviewed",
+      "access_note": "Opened successfully",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "dhaka-eap",
+      "url": "https://adore.ifrc.org/Download.aspx?FileId=724054",
+      "label": "reported",
+      "date": "2023-08-17",
+      "review_depth": "Full accessible text reviewed",
+      "access_note": "Opened successfully",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "dhaka-activation",
+      "url": "https://www.anticipation-hub.org/news/the-bangladesh-red-crescent-society-activates-its-early-action-protocol-for-heatwaves-in-dhaka",
+      "label": "reported",
+      "date": "2024-04",
+      "review_depth": "Full accessible text reviewed",
+      "access_note": "Opened successfully",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "dhaka-survey",
+      "url": "https://bdrcs.org/wp-content/uploads/2021/09/Heat-Wave-Feasibility-Study-Final-publish-version-07-September-2021.pdf",
+      "label": "measured",
+      "date": "2021",
+      "review_depth": "Methods and relevant results reviewed",
+      "access_note": "Fieldwork dates not clearly established; retrospective self-report",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "sewa-case",
+      "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association",
+      "label": "reported",
+      "date": "2026-05",
+      "review_depth": "Accessible case study reviewed",
+      "access_note": "Design and qualitative evidence; not a causal evaluation",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "sewa-rct",
+      "url": "https://www.povertyactionlab.org/initiative-project/insuring-against-extreme-heat-randomised-evaluation",
+      "label": "test",
+      "date": "2025 funding cycle / current page",
+      "review_depth": "Project description",
+      "access_note": "Future-tense outcomes; results not found here",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "sewa-slides",
+      "url": "https://amenjalal.com/docs/JPSZB_2025.pdf",
+      "label": "reported",
+      "date": "2025-11-04",
+      "review_depth": "Research-team presentation",
+      "access_note": "Study description and timing; not final impact results",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "gig-rct",
+      "url": "https://cega.berkeley.edu/collection/designing-financial-protection-against-heat-exposure-for-gig-workers-evidence-on-timing-certainty-and-repayment/",
+      "label": "test",
+      "date": "Fall 2025–Fall 2026",
+      "review_depth": "Project description",
+      "access_note": "Explicitly says results forthcoming",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "hotpay",
+      "url": "https://business.esa.int/projects/hotpay",
+      "label": "concept",
+      "date": "2026-06-03",
+      "review_depth": "Project description",
+      "access_note": "Feasibility service, not a verified issued policy or payout",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "factory",
+      "url": "https://www.journals.uchicago.edu/doi/full/10.1086/713733",
+      "label": "measured",
+      "date": "2021",
+      "review_depth": "Full paper and data description reviewed",
+      "access_note": "Opened successfully",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "bd-report",
+      "url": "https://documents1.worldbank.org/curated/en/099111024033034518/pdf/P168901-70ed6ce2-aaea-42b2-afab-8484b7b75125.pdf",
+      "label": "measured",
+      "date": "Report launched 2025; survey 2024",
+      "review_depth": "Methods and relevant findings reviewed",
+      "access_note": "Workday total conflicts with launch release",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "bd-release",
+      "url": "https://www.worldbank.org/en/news/press-release/2025/09/16/bangladesh-faces-health-and-economic-risks-from-rising-temperature-world-bank",
+      "label": "reported",
+      "date": "2025-09-16",
+      "review_depth": "Institutional launch release",
+      "access_note": "Workday total conflicts with report",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "wheat",
+      "url": "https://epubs.icar.org.in/index.php/IJAgS/article/download/154184/62649/489900",
+      "label": "measured",
+      "date": "2025; stated experimental seasons 2020–21/2021–22",
+      "review_depth": "Abstract, methods and relevant results reviewed",
+      "access_note": "Methods sowing-year statements differ from stated seasons",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "milk",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13578687/",
+      "label": "measured",
+      "date": "2026; data 2004–2019",
+      "review_depth": "Methods and relevant results reviewed",
+      "access_note": "No national heat-loss extrapolation; exact loss coefficient withheld",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "mortality",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38340402/",
+      "label": "measured",
+      "date": "2024; observations 2008–2019",
+      "review_depth": "Author abstract and figure-method notes",
+      "access_note": "Publisher full text blocked; PMC challenge; no additional unreviewed detail inferred",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "niger-paper",
+      "url": "https://documents1.worldbank.org/curated/en/099739106042542554/pdf/IDU-91465f9e-0b3f-48d0-b44d-a79816d28283.pdf",
+      "label": "measured",
+      "date": "2025; intervention 2022",
+      "review_depth": "Methods, results and limitations reviewed",
+      "access_note": "Drought/lean-season timing model, not heat",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "niger-repro",
+      "url": "https://reproducibility.worldbank.org/index.php/catalog/278/study-description",
+      "label": "measured",
+      "date": "2025-05",
+      "review_depth": "Original study repository and abstract",
+      "access_note": "Computational reproduction is not independent impact replication",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "kenya",
+      "url": "https://basis.ucdavis.edu/publication/paper-after-drought-impact-microinsurance-consumption-smoothing-and-asset-protection",
+      "label": "measured",
+      "date": "2019 publication",
+      "review_depth": "Research institution's author-study summary",
+      "access_note": "Full journal paper inaccessible; precise subgroup effect sizes and sample withheld",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "vn-review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10730327/",
+      "label": "measured",
+      "date": "2023",
+      "review_depth": "Methods and health-cost section",
+      "access_note": "Back-of-envelope monetary results excluded because price-base/scope not sufficiently resolved",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "china-cost",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41916023/",
+      "label": "measured",
+      "date": "2026",
+      "review_depth": "Author abstract only",
+      "access_note": "City, observation dates and sample size unspecified in accessible abstract; exact effect excluded from main estimate table",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "tn-budget",
+      "url": "https://www.tnbudget.tn.gov.in/tnweb_files/budget%20highlights/HIGHLIGHTS%20ENG%202025_26.pdf",
+      "label": "guidance",
+      "date": "FY2025–26",
+      "review_depth": "Heat-action-plan provision reviewed",
+      "access_note": "Planned activity is not heat-attributable expenditure or audited spending",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "weather-wording",
+      "url": "https://www.icicilombard.com/docs/default-source/policy-wordings-product-brochure/weather-policy-wordings.pdf",
+      "label": "reported",
+      "date": "Undated generic weather-policy wording; older product UIN",
+      "review_depth": "Definitions and disputes clauses",
+      "access_note": "Not the SEWA schedule; cannot establish SEWA trigger or dispute terms",
+      "last_checked": "2026-10-31"
+    },
+    {
+      "id": "fx",
+      "url": "https://www.federalreserve.gov/releases/g5a/current/",
+      "label": "guidance",
+      "date": "2026-01-05; annual rates 2023–2025",
+      "review_depth": "Full accessible text reviewed",
+      "access_note": "Opened successfully",
+      "last_checked": "2026-10-31"
+    }
+  ]
+}

@@ -1,0 +1,2584 @@
+{
+  "metadata": {
+    "module": "R1",
+    "title": "Common Shade — Map of heat risk finance",
+    "checked_on": "2026-10-31",
+    "disclaimer": "Listing is not endorsement and is not financial, insurance or investment advice.",
+    "scope": "Targeted global landscape and category map; not exhaustive systematic review.",
+    "schema_note": "User's seven top-level arrays retained. R1 instruments populated; selected schemes and triggers support examples. Other module arrays intentionally empty. Metadata, narrative, source register and exclusions are additive extensions.",
+    "unknown_convention": "Not verified is not zero, no, never triggered or proof of exclusion. Empty payout arrays mean no quantified payout record admitted; consult payment_state.",
+    "evidence_labels": [
+      "concept",
+      "test",
+      "reported",
+      "guidance",
+      "measured",
+      "evaluated"
+    ],
+    "evidence_note": "Evidence labels describe kind, not scheme quality. Source publication by an independent institution is not automatically an independent impact evaluation.",
+    "money_convention": "Amounts are separated by kind and transaction stage. USD amounts use FX 1; AXA uses explicitly declared fixed reporting conversion HKD 7.80/USD, not a historical transaction rate. Unknown original currency or FX means amount withheld.",
+    "mapping_note": "Only supplied loop and lever IDs used. Mappings are analytical possibilities, not measured causal effects.",
+    "classification_note": "One primary level and layer per instrument is a schema constraint. Premium support is a financing adjunct, outcomes payments are not necessarily risk finance, and social protection is a delivery/benefit system as well as a risk layer."
+  },
+  "instruments": [
+    {
+      "id": "parametric_heat_micro",
+      "name": "Parametric heat insurance — people",
+      "plain_definition": "An insurer pays an agreed benefit when a specified heat index crosses the policy threshold, without assessing each person's actual income loss.",
+      "level": "micro",
+      "layer": "transfer",
+      "loops": [
+        "poverty",
+        "debt",
+        "protection"
+      ],
+      "levers": [
+        "heatcash",
+        "freecare"
+      ],
+      "settings": [
+        "work",
+        "homes"
+      ],
+      "how_it_breaks_the_cycle": "Cash can reduce pressure to work through dangerous heat; health and debt effects must be evaluated.",
+      "risk_holder": "Insurer and reinsurer for contracted benefit; household retains uncovered losses.",
+      "who_pays": "Member, employer or sponsor; identify separately by policy year.",
+      "who_receives": "Insured person or a named beneficiary through the contracted channel.",
+      "speed": "Index calculation avoids individual loss adjustment; days-to-cash is not verified for the example.",
+      "typical_cost": "Risk premium plus distribution, data and servicing costs; no defensible universal price range.",
+      "strengths": "Can insure income disruption without damaged property.",
+      "limits": "Thresholds, caps and bank access can leave serious needs unfunded.",
+      "basis_risk": "Location, metric and threshold may miss individual harm; payout can also exceed personal loss.",
+      "reaches_poorest": "partly",
+      "reaches_poorest_why": "SEWA establishes access for informal women members, not universal eligibility for poor households.",
+      "examples": [
+        {
+          "text": "SEWA India: see separate 2023 and 2024 scheme records; do not combine years.",
+          "status": "reported",
+          "source": {
+            "label": "CGAP (May 2026): SEWA climate and health case study",
+            "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association"
+          }
+        }
+      ],
+      "uncertainty": "Contract terms, payment speed and current availability require scheme-level verification.",
+      "last_checked": "2026-10-31",
+      "mapping_status": "Analytical mapping; does not establish measured loop effects."
+    },
+    {
+      "id": "parametric_heat_meso",
+      "name": "Parametric heat insurance — employers and organisations",
+      "plain_definition": "A business or intermediary buys heat-triggered cover for its own costs or a specified group.",
+      "level": "meso",
+      "layer": "transfer",
+      "loops": [
+        "poverty",
+        "squeeze",
+        "protection"
+      ],
+      "levers": [
+        "heatcash",
+        "heatlending"
+      ],
+      "settings": [
+        "work"
+      ],
+      "how_it_breaks_the_cycle": "Pre-agreed benefits can support workers or operating liquidity; pass-through obligations matter.",
+      "risk_holder": "Insurer/reinsurer; employer retains uninsured costs.",
+      "who_pays": "Employer, association or sponsor; contract-specific.",
+      "who_receives": "Organisation or covered workers; these are different arrangements.",
+      "speed": "Potentially fast after index confirmation; published launch is not proof of payment speed.",
+      "typical_cost": "Premium depends on trigger, season, benefit and population; AXA's launch price is recorded separately.",
+      "strengths": "Aggregates buyers and may simplify enrolment.",
+      "limits": "Employer receipt alone does not prove worker benefit; limited benefit can be mistaken for full wage replacement.",
+      "basis_risk": "Regional weather data may miss worksite exposure.",
+      "reaches_poorest": "partly",
+      "reaches_poorest_why": "Employer distribution can reach enrolled workers; informal, subcontracted and migrant access is not established.",
+      "examples": [
+        {
+          "text": "AXA Hong Kong employee-oriented heat product; transferable lesson is group distribution and simple claims, not transferable pricing.",
+          "status": "reported",
+          "source": {
+            "label": "AXA: Heatwave Parametric Insurance launch",
+            "url": "https://www.axa.com.hk/en/article/axa-launches-pioneering-heatwave-parametric-insurance"
+          }
+        }
+      ],
+      "uncertainty": "Contract terms, payment speed and current availability require scheme-level verification.",
+      "last_checked": "2026-10-31",
+      "mapping_status": "Analytical mapping; does not establish measured loop effects."
+    },
+    {
+      "id": "parametric_heat_macro",
+      "name": "Parametric heat insurance — sovereign design",
+      "plain_definition": "A government transfers a defined heat-related fiscal risk using an agreed index.",
+      "level": "macro",
+      "layer": "transfer",
+      "loops": [
+        "reactive",
+        "protection",
+        "clinic"
+      ],
+      "levers": [
+        "riskpools",
+        "heatbudget",
+        "readyclinics"
+      ],
+      "settings": [
+        "clinics",
+        "neighbourhoods"
+      ],
+      "how_it_breaks_the_cycle": "A contingent receipt could protect emergency budgets if release and spending rules are agreed.",
+      "risk_holder": "Insurer/reinsurer for the policy limit; state retains residual risk.",
+      "who_pays": "Government and/or premium-support funder.",
+      "who_receives": "Treasury or designated public agency, then services or households.",
+      "speed": "Design-dependent; no verified sovereign heat payout benchmark in this review.",
+      "typical_cost": "Expected payout, capital charge, data/model, brokerage and administration; no verified heat quote.",
+      "strengths": "Could fund health or income response without asset destruction.",
+      "limits": "No issued sovereign heat policy was verified here; do not present the category as an operating scheme.",
+      "basis_risk": "Fiscal spending and population harm may not track one temperature index.",
+      "reaches_poorest": "unclear",
+      "reaches_poorest_why": "Requires targeting and delivery systems beyond sovereign receipt.",
+      "examples": [
+        {
+          "text": "World Bank risk-transfer architecture is a design model; no heat-specific sovereign deal verified.",
+          "status": "concept",
+          "source": {
+            "label": "World Bank Treasury: disaster risk management products",
+            "url": "https://treasury.worldbank.org/en/about/unit/treasury/ibrd-financial-products/disaster-risk-management"
+          }
+        }
+      ],
+      "uncertainty": "Contract terms, payment speed and current availability require scheme-level verification.",
+      "last_checked": "2026-10-31",
+      "mapping_status": "Analytical mapping; does not establish measured loop effects."
+    },
+    {
+      "id": "indemnity_business",
+      "name": "Heat-related business interruption indemnity",
+      "plain_definition": "Pays eligible, evidenced business losses under the actual policy wording; heat is covered only if its cause and loss meet that wording.",
+      "level": "meso",
+      "layer": "transfer",
+      "loops": [
+        "squeeze",
+        "protection"
+      ],
+      "levers": [
+        "heatlending"
+      ],
+      "settings": [
+        "work"
+      ],
+      "how_it_breaks_the_cycle": "Eligible reimbursement may preserve cash flow and jobs; this is a possible mechanism.",
+      "risk_holder": "Insurer/reinsurer for accepted claims; business for exclusions and deductibles.",
+      "who_pays": "Business or its sponsor.",
+      "who_receives": "Insured business.",
+      "speed": "After evidence and adjustment; no heat-specific observed timing verified.",
+      "typical_cost": "Premium, deductible, waiting period and compliance costs; no verified heat-specific tariff.",
+      "strengths": "Can reflect actual insured financial loss.",
+      "limits": "Ordinary business interruption may require insured physical damage; heat alone must not be assumed covered.",
+      "basis_risk": "Coverage and loss-definition mismatch rather than weather-index basis risk.",
+      "reaches_poorest": "unclear",
+      "reaches_poorest_why": "Small informal firms may lack accounts, contracts or insurable cover; local evidence is needed.",
+      "examples": [
+        {
+          "text": "WEF discusses coverage limits and heat-related disruption; no named indemnity BI contract admitted.",
+          "status": "concept",
+          "source": {
+            "label": "WEF (2025): Insuring Against Extreme Heat",
+            "url": "https://ghhin.org/wp-content/uploads/WEF_Insuring_Against_Extreme_Heat_Navigating_Risks_in_a_Warming_World_2025.pdf"
+          }
+        }
+      ],
+      "uncertainty": "Contract terms, payment speed and current availability require scheme-level verification.",
+      "last_checked": "2026-10-31",
+      "mapping_status": "Analytical mapping; does not establish measured loop effects."
+    },
+    {
+      "id": "indemnity_crop",
+      "name": "Crop yield-loss indemnity / area-yield cover",
+      "plain_definition": "Compensates eligible yield shortfall under notified crop and area rules. An area-yield contract uses average area yield, not each farm's loss.",
+      "level": "micro",
+      "layer": "transfer",
+      "loops": [
+        "farmdebt",
+        "poverty"
+      ],
+      "levers": [
+        "farmcredit"
+      ],
+      "settings": [
+        "work"
+      ],
+      "how_it_breaks_the_cycle": "Can reduce borrowing after eligible harvest losses.",
+      "risk_holder": "Insurer/reinsurer and applicable public support; farmer retains excluded losses.",
+      "who_pays": "Farmer plus public subsidy where applicable.",
+      "who_receives": "Eligible insured farmer.",
+      "speed": "Dependent on crop-cutting/yield data and settlement; seasonal timing may miss immediate heat needs.",
+      "typical_cost": "Farmer premium, public subsidy and loss-assessment costs; no universal heat price.",
+      "strengths": "Connects finance to production loss.",
+      "limits": "PMFBY is included as a direct yield-loss design model; specific heat eligibility is not verified by the source's named-peril list.",
+      "basis_risk": "Area-yield averages can miss a particular farm's loss; heat cause may be disputed.",
+      "reaches_poorest": "partly",
+      "reaches_poorest_why": "Documentation, crop/area notification and enrolment determine access; landless workers do not gain wage cover.",
+      "examples": [
+        {
+          "text": "India PMFBY official coverage description; not proof of a heat-specific claim.",
+          "status": "guidance",
+          "source": {
+            "label": "Government of India PIB (2026): PMFBY coverage and exclusions",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2304549&lang=1&reg=48"
+          }
+        }
+      ],
+      "uncertainty": "Contract terms, payment speed and current availability require scheme-level verification.",
+      "last_checked": "2026-10-31",
+      "mapping_status": "Analytical mapping; does not establish measured loop effects."
+    },
+    {
+      "id": "indemnity_livestock",
+      "name": "Livestock death or loss indemnity",
+      "plain_definition": "Reimburses the eligible insured loss of livestock, after veterinary and policy checks.",
+      "level": "micro",
+      "layer": "transfer",
+      "loops": [
+        "farmdebt",
+        "poverty"
+      ],
+      "levers": [
+        "farmcredit"
+      ],
+      "settings": [
+        "work"
+      ],
+      "how_it_breaks_the_cycle": "An accepted claim could prevent distress borrowing or sale of productive assets.",
+      "risk_holder": "Insurer; farmer retains deductibles, exclusions and uninsured yield loss.",
+      "who_pays": "Farmer, cooperative or subsidy sponsor.",
+      "who_receives": "Insured livestock owner.",
+      "speed": "Requires loss evidence; no heat-specific settlement benchmark verified.",
+      "typical_cost": "Premium, excess, veterinary evidence and administration; not verified for heat.",
+      "strengths": "Can match an eligible animal loss.",
+      "limits": "Heat death, reduced milk yield and disease are distinct coverages; no primary heat indemnity wording verified here.",
+      "basis_risk": "No index basis risk in individual loss adjustment; substantial coverage and valuation risk.",
+      "reaches_poorest": "unclear",
+      "reaches_poorest_why": "Eligibility and premium support need contract review.",
+      "examples": [
+        {
+          "text": "IBISA dairy heat cover is verified as parametric, not indemnity; it illustrates why classification matters.",
+          "status": "concept",
+          "source": {
+            "label": "IBISA (2025): Ushma Kavach",
+            "url": "https://www.ibisa.network/en/blog/ushma-kavach-a-climate-resilient-shield-for-indias-dairy-farmers"
+          }
+        }
+      ],
+      "uncertainty": "Contract terms, payment speed and current availability require scheme-level verification.",
+      "last_checked": "2026-10-31",
+      "mapping_status": "Analytical mapping; does not establish measured loop effects."
+    },
+    {
+      "id": "indemnity_health",
+      "name": "Health expense indemnity and employment-injury protection",
+      "plain_definition": "Health indemnity reimburses eligible expenses; employment-injury systems provide specified medical or earnings benefits where heat illness qualifies.",
+      "level": "micro",
+      "layer": "transfer",
+      "loops": [
+        "debt",
+        "poverty",
+        "clinic"
+      ],
+      "levers": [
+        "freecare",
+        "socialprotection"
+      ],
+      "settings": [
+        "clinics",
+        "work"
+      ],
+      "how_it_breaks_the_cycle": "Eligible health and earnings benefits can reduce medical debt and income loss.",
+      "risk_holder": "Health insurer or social insurance institution under scheme rules.",
+      "who_pays": "Household, employer, social contributions or public funds.",
+      "who_receives": "Patient, provider or eligible worker, depending on benefit.",
+      "speed": "Cashless care and reimbursement have different timing; no generic heat benchmark.",
+      "typical_cost": "Premium/contribution, co-payments, exclusions and administration vary.",
+      "strengths": "Responds to diagnosed illness rather than an outdoor temperature alone.",
+      "limits": "Not all health-related insurance is indemnity: the Japanese example is a fixed clinical-event benefit.",
+      "basis_risk": "No weather-index mismatch; diagnosis, access and eligibility can still exclude heat harm.",
+      "reaches_poorest": "partly",
+      "reaches_poorest_why": "Access depends on coverage and care availability; informal workers need explicit inclusion.",
+      "examples": [
+        {
+          "text": "ILO explains medical and earnings benefits for heat-related injury; Tokio Marine X is separately classified as fixed benefit.",
+          "status": "guidance",
+          "source": {
+            "label": "ILO (2026): Extreme heat and social protection",
+            "url": "https://www.ilo.org/resource/article/addressing-impacts-extreme-heat-through-social-protection"
+          }
+        }
+      ],
+      "uncertainty": "Contract terms, payment speed and current availability require scheme-level verification.",
+      "last_checked": "2026-10-31",
+      "mapping_status": "Analytical mapping; does not establish measured loop effects."
+    },
+    {
+      "id": "clinical_fixed_benefit",
+      "name": "Fixed benefit for a heat-related clinical event",
+      "plain_definition": "Pays a set amount for a covered medical event such as qualifying heatstroke treatment; it is neither weather-parametric nor expense indemnity.",
+      "level": "micro",
+      "layer": "transfer",
+      "loops": [
+        "debt",
+        "poverty"
+      ],
+      "levers": [
+        "freecare"
+      ],
+      "settings": [
+        "clinics",
+        "work",
+        "homes"
+      ],
+      "how_it_breaks_the_cycle": "Can offset treatment-related costs after an eligible event.",
+      "risk_holder": "Insurer for the scheduled benefit; patient for remaining costs.",
+      "who_pays": "Policy buyer.",
+      "who_receives": "Covered patient.",
+      "speed": "After clinical documentation; observed settlement time not verified.",
+      "typical_cost": "Policy-specific premium; no cost benchmark included.",
+      "strengths": "Concrete heat-specific health trigger.",
+      "limits": "Cannot finance prevention before illness; clinical access shapes who can claim.",
+      "basis_risk": "No weather basis risk; harm without the specified clinical event can go unpaid.",
+      "reaches_poorest": "unclear",
+      "reaches_poorest_why": "Digital enrolment and access to qualifying treatment may exclude people; no transferability of eligibility assumed.",
+      "examples": [
+        {
+          "text": "Tokio Marine X Japan: treatment, hospitalisation and ambulance-event benefits; lesson is precise clinical eligibility.",
+          "status": "reported",
+          "source": {
+            "label": "Tokio Marine X: Heatstroke coverage FAQ (Japanese)",
+            "url": "https://www.tokiomarine-x.co.jp/faq/heatstroke-coverage.html"
+          }
+        }
+      ],
+      "uncertainty": "Contract terms, payment speed and current availability require scheme-level verification.",
+      "last_checked": "2026-10-31",
+      "mapping_status": "Analytical mapping; does not establish measured loop effects."
+    },
+    {
+      "id": "regional_pool",
+      "name": "Regional sovereign insurance pool",
+      "plain_definition": "Countries use shared insurance infrastructure and risk capital, often with reinsurance, to finance agreed disaster losses.",
+      "level": "regional",
+      "layer": "transfer",
+      "loops": [
+        "protection",
+        "reactive"
+      ],
+      "levers": [
+        "riskpools",
+        "heatbudget"
+      ],
+      "settings": [
+        "neighbourhoods",
+        "clinics"
+      ],
+      "how_it_breaks_the_cycle": "Pooling and pre-agreed response plans can improve access to liquidity; heat requires explicit cover.",
+      "risk_holder": "Pool insurer, reinsurers and governments for residual risk.",
+      "who_pays": "Members and/or premium-support partners.",
+      "who_receives": "Insured government; people receive funds only through a further delivery step.",
+      "speed": "Lao PDR verified sovereign receipt benchmark is in its scheme record; it is not household timing.",
+      "typical_cost": "Lao policy cost and limit are recorded separately; no heat premium verified.",
+      "strengths": "Shares capacity, infrastructure and contingency planning.",
+      "limits": "Diversification may weaken for correlated regional heat; no pool heat payout verified here.",
+      "basis_risk": "Index/impact reporting may miss losses and uncounted people.",
+      "reaches_poorest": "partly",
+      "reaches_poorest_why": "Needs an inclusive public spending plan and accessible channels.",
+      "examples": [
+        {
+          "text": "SEADRIF Lao PDR 2025 policy is a non-heat direct model for cumulative impacts and verified calculation.",
+          "status": "reported",
+          "source": {
+            "label": "SEADRIF (3 September 2025): Lao PDR payout",
+            "url": "https://seadrif.org/news/seadrif-insurance-company-makes-payout-of-us2-million-to-support-lao-pdr-government/"
+          }
+        }
+      ],
+      "uncertainty": "Contract terms, payment speed and current availability require scheme-level verification.",
+      "last_checked": "2026-10-31",
+      "mapping_status": "Analytical mapping; does not establish measured loop effects."
+    },
+    {
+      "id": "cat_bond",
+      "name": "Catastrophe bonds and insurance-linked securities",
+      "plain_definition": "Investors place capital at risk; an agreed disaster trigger releases some or all protection to the sponsor.",
+      "level": "macro",
+      "layer": "transfer",
+      "loops": [
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "riskpools",
+        "heatbudget"
+      ],
+      "settings": [
+        "neighbourhoods"
+      ],
+      "how_it_breaks_the_cycle": "A tail-risk receipt can reduce emergency fiscal pressure.",
+      "risk_holder": "Investors for contracted principal at risk; sponsor for residual loss.",
+      "who_pays": "Sponsor pays risk-transfer costs; investors receive contractual returns.",
+      "who_receives": "Sovereign or other sponsor.",
+      "speed": "Calculation and settlement govern receipt; announcement is not proof of receipt.",
+      "typical_cost": "Risk margin, structuring, modelling and issuance costs; Jamaica terms are a non-heat example.",
+      "strengths": "Can provide multi-year external risk capital.",
+      "limits": "No heat catastrophe bond verified; deal scale and trigger validation may be barriers.",
+      "basis_risk": "Parametric or modelled-loss trigger may diverge from real loss.",
+      "reaches_poorest": "unclear",
+      "reaches_poorest_why": "A bond has no automatic household entitlement.",
+      "examples": [
+        {
+          "text": "Jamaica 2024 named-storm bond; direct model for capital-market risk transfer, not heat coverage.",
+          "status": "reported",
+          "source": {
+            "label": "World Bank (25 April 2024): Jamaica bond terms",
+            "url": "https://www.worldbank.org/en/news/press-release/2024/04/25/world-bank-returns-to-the-cat-bond-market-providing-financial-protection-to-jamaica"
+          }
+        }
+      ],
+      "uncertainty": "Contract terms, payment speed and current availability require scheme-level verification.",
+      "last_checked": "2026-10-31",
+      "mapping_status": "Analytical mapping; does not establish measured loop effects."
+    },
+    {
+      "id": "contingent_credit",
+      "name": "Contingent disaster credit",
+      "plain_definition": "A pre-agreed credit line can be drawn when legal and programme conditions are satisfied.",
+      "level": "macro",
+      "layer": "contingent",
+      "loops": [
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "heatbudget",
+        "hap"
+      ],
+      "settings": [
+        "clinics",
+        "neighbourhoods"
+      ],
+      "how_it_breaks_the_cycle": "Pre-approved borrowing can reduce disruptive emergency reallocations.",
+      "risk_holder": "Borrower retains loss and repayment obligations; lender supplies liquidity.",
+      "who_pays": "Government repays principal, interest and applicable fees.",
+      "who_receives": "Treasury, with onward budget execution.",
+      "speed": "Available after drawdown conditions and request; household transfer timing is separate.",
+      "typical_cost": "Interest, commitment/front-end or other applicable fees and debt-service costs; dated contract terms required.",
+      "strengths": "Pre-arranged liquidity and preparedness incentives.",
+      "limits": "Debt headroom and declarations can constrain use; heat eligibility is contract-specific.",
+      "basis_risk": "No insurance basis risk, but a harmful event may not satisfy drawdown conditions.",
+      "reaches_poorest": "partly",
+      "reaches_poorest_why": "Only through funded services or inclusive transfers.",
+      "examples": [
+        {
+          "text": "Philippines Cat DDO 4 was disbursed after Typhoon Rai; non-heat model, not evidence of heat use.",
+          "status": "reported",
+          "source": {
+            "label": "World Bank (5 April 2022): Philippines Cat DDO and local financial resilience",
+            "url": "https://www.worldbank.org/en/news/feature/2022/04/05/strengthening-the-philippines-post-disaster-financial-resilience-drmhubtokyo"
+          }
+        }
+      ],
+      "uncertainty": "Contract terms, payment speed and current availability require scheme-level verification.",
+      "last_checked": "2026-10-31",
+      "mapping_status": "Analytical mapping; does not establish measured loop effects."
+    },
+    {
+      "id": "contingency_budget",
+      "name": "Contingency budgets",
+      "plain_definition": "Public spending authority is agreed before a shock so funds can be redirected or released under specified rules.",
+      "level": "meso",
+      "layer": "contingent",
+      "loops": [
+        "reactive",
+        "clinic"
+      ],
+      "levers": [
+        "heatbudget",
+        "hap",
+        "readyclinics"
+      ],
+      "settings": [
+        "clinics",
+        "schools",
+        "neighbourhoods"
+      ],
+      "how_it_breaks_the_cycle": "Delegated authority can fund staff, cooling, water and outreach before ad hoc approvals delay action.",
+      "risk_holder": "Public budget holder.",
+      "who_pays": "Tax revenues or budget finance.",
+      "who_receives": "Authorised departments, suppliers and transfer recipients.",
+      "speed": "Can be quick only if authority, cash and procurement are ready; no universal observed speed.",
+      "typical_cost": "Opportunity cost and administration; a budget entry is not necessarily cash.",
+      "strengths": "Can cover common heat needs without insurance attachment.",
+      "limits": "Other emergencies compete for allocations; no dedicated city heat contingency appropriation verified here.",
+      "basis_risk": "No insurance index basis risk; allocation and targeting errors remain.",
+      "reaches_poorest": "partly",
+      "reaches_poorest_why": "Needs explicit entitlement or accessible service provision.",
+      "examples": [
+        {
+          "text": "UNDRR's 2026 summary identifies public-budget and contingency-finance roles; no specific appropriation asserted.",
+          "status": "guidance",
+          "source": {
+            "label": "UNDRR / NDMA / CDP (2026): Financing heat resilience, landing-page summary only",
+            "url": "https://www.undrr.org/publication/documents-and-publications/financing-heat-resilience"
+          }
+        }
+      ],
+      "uncertainty": "Contract terms, payment speed and current availability require scheme-level verification.",
+      "last_checked": "2026-10-31",
+      "mapping_status": "Analytical mapping; does not establish measured loop effects."
+    },
+    {
+      "id": "reserve_fund",
+      "name": "Reserves and dedicated disaster funds",
+      "plain_definition": "Cash or legally earmarked resources are held for eligible disaster spending; dedicated heat funds require explicit rules.",
+      "level": "macro",
+      "layer": "retain",
+      "loops": [
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "heatbudget",
+        "hap"
+      ],
+      "settings": [
+        "clinics",
+        "neighbourhoods"
+      ],
+      "how_it_breaks_the_cycle": "A replenished reserve can fund recurring response without repeated budget disruption.",
+      "risk_holder": "Government or fund.",
+      "who_pays": "Public revenue, contributions or grants.",
+      "who_receives": "Eligible implementing agencies and beneficiaries.",
+      "speed": "Depends on release rules, liquidity and procurement; no verified heat-specific service standard.",
+      "typical_cost": "Opportunity cost of holding resources, replenishment and administration.",
+      "strengths": "Suitable for retained losses and needs that contracts do not cover.",
+      "limits": "Fund existence does not prove heat eligibility or actual cash availability.",
+      "basis_risk": "No insurance basis risk; legal and administrative gaps can block relief.",
+      "reaches_poorest": "partly",
+      "reaches_poorest_why": "Eligibility and accessible delivery determine reach.",
+      "examples": [
+        {
+          "text": "India SDRF/NDRF and mitigation funds exist; current heatwave eligibility requires reconciliation of official sources.",
+          "status": "guidance",
+          "source": {
+            "label": "India Ministry of Home Affairs: Response Fund",
+            "url": "https://ndmindia.mha.gov.in/ndmi/response-fund"
+          }
+        }
+      ],
+      "uncertainty": "Contract terms, payment speed and current availability require scheme-level verification.",
+      "last_checked": "2026-10-31",
+      "mapping_status": "Analytical mapping; does not establish measured loop effects."
+    },
+    {
+      "id": "aa_humanitarian",
+      "name": "Humanitarian anticipatory action / forecast-based finance",
+      "plain_definition": "A forecast meeting agreed conditions releases pre-arranged resources for specified early actions.",
+      "level": "meso",
+      "layer": "anticipatory",
+      "loops": [
+        "reactive",
+        "poverty",
+        "clinic"
+      ],
+      "levers": [
+        "anticipatory",
+        "heatcash",
+        "readyclinics"
+      ],
+      "settings": [
+        "work",
+        "clinics",
+        "neighbourhoods"
+      ],
+      "how_it_breaks_the_cycle": "Finances prevention or cash before the anticipated peak rather than waiting for damage.",
+      "risk_holder": "Humanitarian fund bears intervention cost; communities retain residual harm.",
+      "who_pays": "Donors and pooled-fund contributors; not necessarily an insurance premium.",
+      "who_receives": "National society, NGOs, suppliers and selected households.",
+      "speed": "Must fit forecast lead time; action lead time is not verified household cash timing.",
+      "typical_cost": "Readiness, data, prepositioning, transfer delivery and false-alarm costs.",
+      "strengths": "Can finance public-health action without an insured asset.",
+      "limits": "Limited geographic coverage and donor replenishment; forecasts can be wrong.",
+      "basis_risk": "Forecast false positives and missed events; targeting error is distinct.",
+      "reaches_poorest": "partly",
+      "reaches_poorest_why": "Bangladesh protocol targets vulnerable urban residents; full eligibility coverage is not established.",
+      "examples": [
+        {
+          "text": "Bangladesh Heatwave EAP activated in April 2024; Pakistan Start Ready provides a second heat example.",
+          "status": "reported",
+          "source": {
+            "label": "IFRC (21 April 2024): Bangladesh Heatwave EAP activation",
+            "url": "https://adore.ifrc.org/Download.aspx?FileId=827319"
+          }
+        }
+      ],
+      "uncertainty": "Contract terms, payment speed and current availability require scheme-level verification.",
+      "last_checked": "2026-10-31",
+      "mapping_status": "Analytical mapping; does not establish measured loop effects."
+    },
+    {
+      "id": "aa_national",
+      "name": "National anticipatory finance",
+      "plain_definition": "A government pre-agrees forecasts, actions and public release authority for acting before expected heat.",
+      "level": "macro",
+      "layer": "anticipatory",
+      "loops": [
+        "reactive",
+        "clinic",
+        "poverty"
+      ],
+      "levers": [
+        "anticipatory",
+        "heatbudget",
+        "hap"
+      ],
+      "settings": [
+        "work",
+        "schools",
+        "clinics",
+        "neighbourhoods"
+      ],
+      "how_it_breaks_the_cycle": "Connects national warnings with funded local action.",
+      "risk_holder": "Government and funding partners.",
+      "who_pays": "Public budgets or grants.",
+      "who_receives": "Authorised agencies and people through agreed channels.",
+      "speed": "Forecast-to-action window must exceed delivery time; not verified for a specific national heat treasury facility.",
+      "typical_cost": "Readiness, forecasting, authorisation and delivery costs; no universal unit cost.",
+      "strengths": "Could institutionalise action beyond project cycles.",
+      "limits": "National-system design is not established merely because a humanitarian protocol operates nationally.",
+      "basis_risk": "Forecast error plus administrative and targeting risk.",
+      "reaches_poorest": "unclear",
+      "reaches_poorest_why": "Requires registries, outreach and provision for unregistered people.",
+      "examples": [
+        {
+          "text": "IFRC Bangladesh supplies a government-data-linked design model; it is not evidence of a sovereign treasury entitlement.",
+          "status": "concept",
+          "source": {
+            "label": "IFRC (21 April 2024): Bangladesh Heatwave EAP activation",
+            "url": "https://adore.ifrc.org/Download.aspx?FileId=827319"
+          }
+        }
+      ],
+      "uncertainty": "Contract terms, payment speed and current availability require scheme-level verification.",
+      "last_checked": "2026-10-31",
+      "mapping_status": "Analytical mapping; does not establish measured loop effects."
+    },
+    {
+      "id": "shock_social",
+      "name": "Shock-responsive social protection",
+      "plain_definition": "An existing benefit system increases payments or temporarily adds eligible people after a pre-agreed shock.",
+      "level": "macro",
+      "layer": "social",
+      "loops": [
+        "poverty",
+        "debt",
+        "energypoverty",
+        "reactive"
+      ],
+      "levers": [
+        "socialprotection",
+        "heatcash",
+        "freecare"
+      ],
+      "settings": [
+        "homes",
+        "work",
+        "clinics"
+      ],
+      "how_it_breaks_the_cycle": "A ready payment channel can preserve consumption and reduce harmful coping.",
+      "risk_holder": "Government and financing partners; households retain unmet needs.",
+      "who_pays": "Public budgets, grants and any linked financing.",
+      "who_receives": "Existing and newly eligible households.",
+      "speed": "Depends on updated registries, enrolment and payment access; drought-system timing is not a heat benchmark.",
+      "typical_cost": "Transfer value plus registration, verification, delivery, appeals and financing.",
+      "strengths": "Can extend beyond insured workers to non-working vulnerable people.",
+      "limits": "Existing exclusions can expand during a shock; employment-linked transfers may require unsafe work.",
+      "basis_risk": "Index false negatives plus registry and benefit-adequacy errors.",
+      "reaches_poorest": "partly",
+      "reaches_poorest_why": "Horizontal expansion can include previously uncovered people only if funded and operational.",
+      "examples": [
+        {
+          "text": "Kenya HSNP is a direct model for pre-registered scale-up; its vegetation trigger is not a heat trigger.",
+          "status": "guidance",
+          "source": {
+            "label": "World Bank (2020): Adaptive Social Protection",
+            "url": "https://documents1.worldbank.org/curated/en/579641590038388922/pdf/Adaptive-Social-Protection-Building-Resilience-to-Shocks.pdf"
+          }
+        }
+      ],
+      "uncertainty": "Contract terms, payment speed and current availability require scheme-level verification.",
+      "last_checked": "2026-10-31",
+      "mapping_status": "Analytical mapping; does not establish measured loop effects."
+    },
+    {
+      "id": "contributory_wage",
+      "name": "Contributory bad-weather wage replacement",
+      "plain_definition": "A social insurance arrangement compensates eligible work stoppages due to dangerous weather, including heat where explicitly covered.",
+      "level": "meso",
+      "layer": "social",
+      "loops": [
+        "poverty",
+        "debt",
+        "protection"
+      ],
+      "levers": [
+        "heatcash",
+        "socialprotection"
+      ],
+      "settings": [
+        "work"
+      ],
+      "how_it_breaks_the_cycle": "Preserves earnings when work must stop, reducing the financial barrier to rest.",
+      "risk_holder": "Social insurance fund and covered employers under scheme rules.",
+      "who_pays": "Employer and worker contributions in the Algerian example.",
+      "who_receives": "Eligible workers, potentially through employer payroll.",
+      "speed": "Payroll and reimbursement deadlines require current administrator verification.",
+      "typical_cost": "Contributions and administrative costs; exact Algerian rate excluded pending accessible primary confirmation.",
+      "strengths": "Recognises income loss before medical injury.",
+      "limits": "Contributory employment rules may exclude informal and unregistered workers.",
+      "basis_risk": "Eligibility and recognition of a work stoppage can miss actual harm.",
+      "reaches_poorest": "partly",
+      "reaches_poorest_why": "Formal-sector protection is verified in ILO guidance; informal inclusion not verified.",
+      "examples": [
+        {
+          "text": "Algeria CACOBATPH includes extreme heat in bad-weather wage replacement, as described by ILO.",
+          "status": "guidance",
+          "source": {
+            "label": "ILO (2024): World Social Protection Report, chapter 2",
+            "url": "https://webapps.ilo.org/static/english/reports/flagship/world_social_protection_report_2024-26/Chapter%2002.html"
+          }
+        }
+      ],
+      "uncertainty": "Contract terms, payment speed and current availability require scheme-level verification.",
+      "last_checked": "2026-10-31",
+      "mapping_status": "Analytical mapping; does not establish measured loop effects."
+    },
+    {
+      "id": "premium_support",
+      "name": "Premium support and smart subsidies",
+      "plain_definition": "Public or donor money pays part of an insurance premium; design can target affordability while funding transparency and review.",
+      "level": "macro",
+      "layer": "transfer",
+      "loops": [
+        "protection",
+        "poverty"
+      ],
+      "levers": [
+        "riskpools",
+        "socialprotection",
+        "farmcredit"
+      ],
+      "settings": [
+        "work",
+        "neighbourhoods"
+      ],
+      "how_it_breaks_the_cycle": "Can improve access to risk transfer without requiring the poorest to pay the full premium.",
+      "risk_holder": "Underlying insurer retains contracted risk; sponsor bears subsidy cost.",
+      "who_pays": "Government or donor; policy buyer may pay the balance.",
+      "who_receives": "Insurer receives premium; insured receives only eligible benefits.",
+      "speed": "Premium is paid at inception/renewal; this is not a disaster payout.",
+      "typical_cost": "Subsidy plus targeting, administration and evaluation; grants may also fund technical assistance.",
+      "strengths": "Can address affordability and build accessible distribution.",
+      "limits": "Renewal dependency, weak customer value and poorly targeted subsidies are possible; not findings about a named provider.",
+      "basis_risk": "Does not remove basis risk; may subsidise a mismatched trigger.",
+      "reaches_poorest": "partly",
+      "reaches_poorest_why": "Must identify who benefits and provide fallback for non-enrollees.",
+      "examples": [
+        {
+          "text": "Lao PDR premium support is reported by World Bank; wider grant support must not all be labelled premium.",
+          "status": "reported",
+          "source": {
+            "label": "World Bank (11 February 2026): Southeast Asia financial preparedness",
+            "url": "https://www.worldbank.org/en/news/feature/2026/02/11/risk-resilience-strengthening-financial-preparedness-southeast-asia"
+          }
+        }
+      ],
+      "uncertainty": "Contract terms, payment speed and current availability require scheme-level verification.",
+      "last_checked": "2026-10-31",
+      "mapping_status": "Analytical mapping; does not establish measured loop effects."
+    },
+    {
+      "id": "heat_outcomes",
+      "name": "Results-based / outcome-linked heat payments",
+      "plain_definition": "A funder pays for verified outputs or outcomes under an agreed contract; financing must bridge the time before verification.",
+      "level": "meso",
+      "layer": "retain",
+      "loops": [
+        "reactive",
+        "cooling",
+        "clinic"
+      ],
+      "levers": [
+        "heatbudget",
+        "readyclinics",
+        "hap"
+      ],
+      "settings": [
+        "clinics",
+        "homes",
+        "schools"
+      ],
+      "how_it_breaks_the_cycle": "Could reward maintained protection or verified cooling delivery; avoided harm attribution requires care.",
+      "risk_holder": "Implementer bears performance/cash-flow risk unless advances are agreed.",
+      "who_pays": "Outcome funder; an investor may bridge costs but is not necessarily the ultimate payer.",
+      "who_receives": "Implementer or investor after verification.",
+      "speed": "Generally after verification; not suitable alone for urgent household liquidity.",
+      "typical_cost": "Working capital, monitoring, independent verification and administration.",
+      "strengths": "Can link payment to service performance.",
+      "limits": "No verified heat-health outcome-payment deal found; energy savings are not proof of lives saved.",
+      "basis_risk": "Performance-metric mismatch and attribution risk, not weather basis risk.",
+      "reaches_poorest": "unclear",
+      "reaches_poorest_why": "Depends on service eligibility; incentives may otherwise favour easier-to-reach populations.",
+      "examples": [
+        {
+          "text": "IFC describes results-based sustainable-cooling finance as a design pathway, not a verified heat-health payout scheme.",
+          "status": "concept",
+          "source": {
+            "label": "IFC (2024): Cooler Finance, results-based finance section",
+            "url": "https://www.ifc.org/content/dam/ifc/doc/2024/cooler-finance-report.pdf"
+          }
+        }
+      ],
+      "uncertainty": "Contract terms, payment speed and current availability require scheme-level verification.",
+      "last_checked": "2026-10-31",
+      "mapping_status": "Analytical mapping; does not establish measured loop effects."
+    }
+  ],
+  "schemes": [
+    {
+      "id": "sewa_2023",
+      "name": "SEWA extreme-heat pilot, 2023",
+      "instrument": "parametric_heat_micro",
+      "level": "micro",
+      "layer": "transfer",
+      "countries": [
+        "India"
+      ],
+      "places": [
+        "Five Gujarat districts"
+      ],
+      "insured_or_covered": "Informal women members",
+      "status": "ended",
+      "providers": [
+        {
+          "name": "ICICI Lombard",
+          "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association",
+          "role": "insurer",
+          "side": "supply"
+        },
+        {
+          "name": "SEWA",
+          "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association",
+          "role": "distributor",
+          "side": "demand"
+        },
+        {
+          "name": "Zurich Re",
+          "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association",
+          "role": "reinsurer",
+          "side": "supply"
+        },
+        {
+          "name": "Blue Marble",
+          "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association",
+          "role": "technical",
+          "side": "supply"
+        }
+      ],
+      "heat_covered": "yes",
+      "heat_basis": "Heat index policy",
+      "trigger": {
+        "metric": "Three-day cumulative temperature",
+        "threshold": "District/time-specific; numeric schedule not verified",
+        "data_source": "NASA POWER",
+        "geography": "Five Gujarat districts",
+        "window": "5 May–30 June 2023",
+        "calculated_by": "not verified",
+        "verified_by": "not verified",
+        "kind": "payout"
+      },
+      "enrolment": [
+        {
+          "year": "2023",
+          "number": "21000",
+          "unit": "women enrolled",
+          "source": {
+            "label": "CGAP (May 2026): SEWA climate and health case study",
+            "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association"
+          }
+        }
+      ],
+      "premium": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "year": "not verified",
+        "fx": "not verified",
+        "kind": "premium",
+        "source": {
+          "label": "CGAP (May 2026): SEWA climate and health case study",
+          "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association"
+        },
+        "paid_by": "Grant sponsor",
+        "subsidy": "not verified"
+      },
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "year": "not verified",
+        "fx": "not verified",
+        "kind": "limit",
+        "source": {
+          "label": "CGAP (May 2026): SEWA climate and health case study",
+          "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association"
+        }
+      },
+      "payouts": [],
+      "never_triggered": "true",
+      "basis_risk": "Inferred: index, geography or eligibility may not match individual harm; magnitude not measured here.",
+      "fallback": "Adaptation equipment distributed; no contractual cash fallback verified.",
+      "inclusion": {
+        "informal_workers": "Included",
+        "women": "Target population",
+        "older_people": "not verified",
+        "disabled_people": "not verified",
+        "migrants": "not verified"
+      },
+      "consumer_protection": "Policy wording, complaints, privacy, rejection statistics and benefit adequacy not verified; no allegation of misconduct.",
+      "loops": [
+        "poverty",
+        "protection"
+      ],
+      "levers": [
+        "heatcash"
+      ],
+      "settings": [
+        "work"
+      ],
+      "evidence": [
+        {
+          "status": "reported",
+          "text": "Existence documented; missing transaction fields are not evidence of no payments.",
+          "kind": "claimed",
+          "source": {
+            "label": "CGAP (May 2026): SEWA climate and health case study",
+            "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association"
+          }
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "source": {
+        "label": "CGAP (May 2026): SEWA climate and health case study",
+        "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association"
+      },
+      "payment_state": "reported_no_insurance_payout"
+    },
+    {
+      "id": "sewa_2024",
+      "name": "SEWA heat insurance and separate cash support, 2024 policy year",
+      "instrument": "parametric_heat_micro",
+      "level": "micro",
+      "layer": "transfer",
+      "countries": [
+        "India"
+      ],
+      "places": [
+        "Gujarat",
+        "Rajasthan",
+        "Maharashtra"
+      ],
+      "insured_or_covered": "50,000 women enrolled; coverage count is not payout count.",
+      "status": "ended",
+      "providers": [
+        {
+          "name": "ICICI Lombard",
+          "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association",
+          "role": "insurer",
+          "side": "supply"
+        },
+        {
+          "name": "Swiss Re",
+          "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association",
+          "role": "reinsurer",
+          "side": "supply"
+        },
+        {
+          "name": "SEWA",
+          "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association",
+          "role": "distributor",
+          "side": "demand"
+        },
+        {
+          "name": "HERA / Climate Resilience for All",
+          "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association",
+          "role": "funder",
+          "side": "platform"
+        }
+      ],
+      "heat_covered": "yes",
+      "heat_basis": "Heat insurance plus separately funded cash",
+      "trigger": {
+        "metric": "Consecutive hot days",
+        "threshold": "Two days; district thresholds 41.6–46.1°C. Full schedule not verified.",
+        "data_source": "not verified",
+        "geography": "22 districts",
+        "window": "9 April 2024–31 March 2025",
+        "calculated_by": "not verified",
+        "verified_by": "not verified",
+        "kind": "payout"
+      },
+      "enrolment": [],
+      "premium": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "year": "not verified",
+        "fx": "not verified",
+        "kind": "premium",
+        "source": {
+          "label": "CGAP (May 2026): SEWA climate and health case study",
+          "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association"
+        },
+        "paid_by": "not verified",
+        "subsidy": "not verified"
+      },
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "year": "not verified",
+        "fx": "not verified",
+        "kind": "limit",
+        "source": {
+          "label": "CGAP (May 2026): SEWA climate and health case study",
+          "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association"
+        }
+      },
+      "payouts": [],
+      "never_triggered": "false",
+      "basis_risk": "Inferred: index, geography or eligibility may not match individual harm; magnitude not measured here.",
+      "fallback": "Separate donor-funded cash assistance; contractual fallback not established.",
+      "inclusion": {
+        "informal_workers": "Included",
+        "women": "Target population",
+        "older_people": "not verified",
+        "disabled_people": "not verified",
+        "migrants": "not verified"
+      },
+      "consumer_protection": "Policy wording, complaints, privacy, rejection statistics and benefit adequacy not verified; no allegation of misconduct.",
+      "loops": [
+        "poverty",
+        "debt",
+        "protection"
+      ],
+      "levers": [
+        "heatcash"
+      ],
+      "settings": [
+        "work"
+      ],
+      "evidence": [
+        {
+          "status": "reported",
+          "text": "Case study reports insurance payments in 17 districts and separate cash assistance across all districts; amounts and bank-credit dates not verified here.",
+          "kind": "claimed",
+          "source": {
+            "label": "CGAP (May 2026): SEWA climate and health case study",
+            "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association"
+          }
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "source": {
+        "label": "CGAP (May 2026): SEWA climate and health case study",
+        "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association"
+      },
+      "payment_state": "reported_paid_amount_and_dates_unverified",
+      "additional_triggers": [
+        {
+          "metric": "Single-day temperature",
+          "threshold": ">40°C",
+          "kind": "action",
+          "purpose": "Separate donor cash support, not insurance",
+          "source": {
+            "label": "CGAP (May 2026): SEWA climate and health case study",
+            "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association"
+          }
+        }
+      ]
+    },
+    {
+      "id": "axa_hk_2024",
+      "name": "AXA Hong Kong Heatwave Parametric Insurance, launch design",
+      "instrument": "parametric_heat_meso",
+      "level": "meso",
+      "layer": "transfer",
+      "countries": [
+        "China"
+      ],
+      "places": [
+        "Hong Kong"
+      ],
+      "insured_or_covered": "Outdoor employees; contract-level enrolment not verified.",
+      "status": "unclear",
+      "providers": [
+        {
+          "name": "AXA Hong Kong and Macau",
+          "url": "https://www.axa.com.hk/en/article/axa-launches-pioneering-heatwave-parametric-insurance",
+          "role": "insurer",
+          "side": "supply"
+        }
+      ],
+      "heat_covered": "yes",
+      "heat_basis": "Specified temperature trigger",
+      "trigger": {
+        "metric": "Air temperature; launch footnote describes arithmetic average of daily maximum temperatures",
+        "threshold": "Above 36.0°C for three consecutive days; averaging detail needs contract confirmation.",
+        "data_source": "Hong Kong Observatory",
+        "geography": "Hong Kong; station aggregation not fully specified",
+        "window": "August–October in launch design",
+        "calculated_by": "AXA monitors",
+        "verified_by": "not verified",
+        "kind": "payout"
+      },
+      "enrolment": [],
+      "premium": {
+        "amount": "19.90",
+        "currency": "HKD",
+        "usd": "2.55",
+        "year": "2024",
+        "fx": "7.80 HKD per USD; fixed reporting conversion, not historical transaction rate; HKMA band midpoint.",
+        "kind": "premium",
+        "source": {
+          "label": "AXA: Heatwave Parametric Insurance launch",
+          "url": "https://www.axa.com.hk/en/article/axa-launches-pioneering-heatwave-parametric-insurance"
+        },
+        "fx_source": {
+          "label": "HKMA: linked exchange rate system",
+          "url": "https://www.hkma.gov.hk/eng/key-functions/money/linked-exchange-rate-system/"
+        },
+        "paid_by": "Buyer/corporation channel; exact allocation not verified",
+        "subsidy": "not verified"
+      },
+      "size": {
+        "amount": "100",
+        "currency": "HKD",
+        "usd": "12.82",
+        "year": "2024",
+        "fx": "7.80 HKD per USD; fixed reporting conversion, not historical transaction rate.",
+        "kind": "limit",
+        "source": {
+          "label": "AXA: Heatwave Parametric Insurance launch",
+          "url": "https://www.axa.com.hk/en/article/axa-launches-pioneering-heatwave-parametric-insurance"
+        },
+        "fx_source": {
+          "label": "HKMA: linked exchange rate system",
+          "url": "https://www.hkma.gov.hk/eng/key-functions/money/linked-exchange-rate-system/"
+        },
+        "scope": "Launch cash-or-equivalent-kit benefit per person; aggregate policy limit not verified."
+      },
+      "payouts": [],
+      "never_triggered": "unclear",
+      "basis_risk": "Inferred: index, geography or eligibility may not match individual harm; magnitude not measured here.",
+      "fallback": "not verified",
+      "inclusion": {
+        "informal_workers": "not verified",
+        "women": "not verified",
+        "older_people": "not verified",
+        "disabled_people": "not verified",
+        "migrants": "not verified"
+      },
+      "consumer_protection": "Launch states no loss evidence or claim form needed; cash or kit benefit. Full wording, complaints and rejection history not verified.",
+      "loops": [
+        "poverty",
+        "protection"
+      ],
+      "levers": [
+        "heatcash"
+      ],
+      "settings": [
+        "work"
+      ],
+      "evidence": [
+        {
+          "status": "reported",
+          "text": "Existence documented; missing transaction fields are not evidence of no payments.",
+          "kind": "claimed",
+          "source": {
+            "label": "AXA: Heatwave Parametric Insurance launch",
+            "url": "https://www.axa.com.hk/en/article/axa-launches-pioneering-heatwave-parametric-insurance"
+          }
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "source": {
+        "label": "AXA: Heatwave Parametric Insurance launch",
+        "url": "https://www.axa.com.hk/en/article/axa-launches-pioneering-heatwave-parametric-insurance"
+      },
+      "payment_state": "unknown"
+    },
+    {
+      "id": "dhaka_eap_2024",
+      "name": "Bangladesh Red Crescent Heatwave EAP, 2024 activation",
+      "instrument": "aa_humanitarian",
+      "level": "meso",
+      "layer": "anticipatory",
+      "countries": [
+        "Bangladesh"
+      ],
+      "places": [
+        "Dhaka"
+      ],
+      "insured_or_covered": "Vulnerable urban residents; not insurance policyholders.",
+      "status": "ended",
+      "providers": [
+        {
+          "name": "Bangladesh Red Crescent Society",
+          "url": "https://adore.ifrc.org/Download.aspx?FileId=827319",
+          "role": "aggregator",
+          "side": "platform"
+        },
+        {
+          "name": "IFRC-DREF",
+          "url": "https://adore.ifrc.org/Download.aspx?FileId=827319",
+          "role": "funder",
+          "side": "platform"
+        }
+      ],
+      "heat_covered": "yes",
+      "heat_basis": "Explicit heatwave early action",
+      "trigger": {
+        "metric": "Forecast/observed maximum air temperature and heat index",
+        "threshold": "Activation note describes >38°C and high heat index for at least two days; not a complete formal trigger algorithm.",
+        "data_source": "BMD; ECMWF and GFS forecasts",
+        "geography": "Selected Dhaka thanas",
+        "window": "Activated 21 April 2024; stated seven-day lead time",
+        "calculated_by": "BDRCS using forecast sources; full calculation protocol not verified",
+        "verified_by": "not verified",
+        "kind": "forecast"
+      },
+      "enrolment": [],
+      "premium": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "year": "not verified",
+        "fx": "not verified",
+        "kind": "premium",
+        "source": {
+          "label": "IFRC (21 April 2024): Bangladesh Heatwave EAP activation",
+          "url": "https://adore.ifrc.org/Download.aspx?FileId=827319"
+        },
+        "paid_by": "Not applicable: humanitarian finance",
+        "subsidy": "Not applicable"
+      },
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "year": "not verified",
+        "fx": "not verified",
+        "kind": "limit",
+        "source": {
+          "label": "IFRC (21 April 2024): Bangladesh Heatwave EAP activation",
+          "url": "https://adore.ifrc.org/Download.aspx?FileId=827319"
+        }
+      },
+      "payouts": [],
+      "never_triggered": "false",
+      "basis_risk": "Inferred: index, geography or eligibility may not match individual harm; magnitude not measured here.",
+      "fallback": "Further response operation reported; no universal entitlement verified.",
+      "inclusion": {
+        "informal_workers": "not verified",
+        "women": "not verified",
+        "older_people": "not verified",
+        "disabled_people": "not verified",
+        "migrants": "not verified"
+      },
+      "consumer_protection": "Policy wording, complaints, privacy, rejection statistics and benefit adequacy not verified; no allegation of misconduct.",
+      "loops": [
+        "reactive",
+        "clinic",
+        "poverty"
+      ],
+      "levers": [
+        "anticipatory",
+        "heatcash",
+        "readyclinics"
+      ],
+      "settings": [
+        "neighbourhoods",
+        "clinics",
+        "work"
+      ],
+      "evidence": [
+        {
+          "status": "reported",
+          "text": "Existence documented; missing transaction fields are not evidence of no payments.",
+          "kind": "claimed",
+          "source": {
+            "label": "IFRC (21 April 2024): Bangladesh Heatwave EAP activation",
+            "url": "https://adore.ifrc.org/Download.aspx?FileId=827319"
+          }
+        },
+        {
+          "status": "reported",
+          "text": "IFRC mid-year report states 23,500 at-risk individuals received multipurpose cash; amount, exact credit date and unique-household denominator not verified.",
+          "kind": "claimed",
+          "source": {
+            "label": "IFRC (2024): DREF mid-year report",
+            "url": "https://www.ifrc.org/sites/default/files/2024-10/IFRC%27s%20Disaster%20Response%20Emergency%20Fund%20Mid-Year%20Report%202024.pdf"
+          }
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "source": {
+        "label": "IFRC (21 April 2024): Bangladesh Heatwave EAP activation",
+        "url": "https://adore.ifrc.org/Download.aspx?FileId=827319"
+      },
+      "payment_state": "activation_and_cash_delivery_reported_exact_payment_dates_unverified"
+    },
+    {
+      "id": "pakistan_start_rp5",
+      "name": "Start Ready Pakistan heatwave, Risk Pool 5",
+      "instrument": "aa_humanitarian",
+      "level": "meso",
+      "layer": "anticipatory",
+      "countries": [
+        "Pakistan"
+      ],
+      "places": [
+        "Jacobabad",
+        "Nawabshah",
+        "Dadu"
+      ],
+      "insured_or_covered": "Communities reached by implementing agencies; not necessarily insured or cash recipients.",
+      "status": "ended",
+      "providers": [
+        {
+          "name": "Start Network",
+          "url": "https://startnetwork.org/funds/start-ready/activations/act-00000167",
+          "role": "funder",
+          "side": "platform"
+        }
+      ],
+      "heat_covered": "yes",
+      "heat_basis": "Heatwave activation",
+      "trigger": {
+        "metric": "not verified",
+        "threshold": "not verified",
+        "data_source": "not verified",
+        "geography": "Jacobabad, Nawabshah, Dadu",
+        "window": "Activation period 1 May–30 July 2026",
+        "calculated_by": "not verified",
+        "verified_by": "not verified",
+        "kind": "forecast"
+      },
+      "enrolment": [],
+      "premium": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "year": "not verified",
+        "fx": "not verified",
+        "kind": "premium",
+        "source": {
+          "label": "Start Network: RP5 Pakistan Heatwave activation",
+          "url": "https://startnetwork.org/funds/start-ready/activations/act-00000167"
+        },
+        "paid_by": "Not an individual insurance premium",
+        "subsidy": "Donor-backed pooled finance"
+      },
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "year": "not verified",
+        "fx": "not verified",
+        "kind": "limit",
+        "source": {
+          "label": "Start Network: RP5 Pakistan Heatwave activation",
+          "url": "https://startnetwork.org/funds/start-ready/activations/act-00000167"
+        }
+      },
+      "payouts": [],
+      "never_triggered": "false",
+      "basis_risk": "Inferred: index, geography or eligibility may not match individual harm; magnitude not measured here.",
+      "fallback": "not verified",
+      "inclusion": {
+        "informal_workers": "not verified",
+        "women": "not verified",
+        "older_people": "not verified",
+        "disabled_people": "not verified",
+        "migrants": "not verified"
+      },
+      "consumer_protection": "Policy wording, complaints, privacy, rejection statistics and benefit adequacy not verified; no allegation of misconduct.",
+      "loops": [
+        "reactive",
+        "clinic",
+        "poverty"
+      ],
+      "levers": [
+        "anticipatory",
+        "readyclinics"
+      ],
+      "settings": [
+        "neighbourhoods",
+        "clinics",
+        "work"
+      ],
+      "evidence": [
+        {
+          "status": "reported",
+          "text": "Dashboard records activation and distribution. Currency and denominator reconciliation are insufficient for admitting its financial amount or reach counts.",
+          "kind": "claimed",
+          "source": {
+            "label": "Start Network: RP5 Pakistan Heatwave activation",
+            "url": "https://startnetwork.org/funds/start-ready/activations/act-00000167"
+          }
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "source": {
+        "label": "Start Network: RP5 Pakistan Heatwave activation",
+        "url": "https://startnetwork.org/funds/start-ready/activations/act-00000167"
+      },
+      "payment_state": "fund_distribution_reported_household_cash_receipt_unverified"
+    },
+    {
+      "id": "lao_seadrif_2025",
+      "name": "Lao PDR SEADRIF sovereign policy, 2025–2027",
+      "instrument": "regional_pool",
+      "level": "macro",
+      "layer": "transfer",
+      "countries": [
+        "Lao PDR"
+      ],
+      "places": [],
+      "insured_or_covered": "Government fiscal response",
+      "status": "active",
+      "providers": [
+        {
+          "name": "SEADRIF Insurance Company",
+          "url": "https://seadrif.org/news/seadrif-insurance-company-makes-payout-of-us2-million-to-support-lao-pdr-government/",
+          "role": "insurer",
+          "side": "supply"
+        },
+        {
+          "name": "Lao Ministry of Finance",
+          "url": "https://seadrif.org/news/seadrif-insurance-company-makes-payout-of-us2-million-to-support-lao-pdr-government/",
+          "role": "government",
+          "side": "demand"
+        },
+        {
+          "name": "Gallagher Re",
+          "url": "https://seadrif.org/news/seadrif-insurance-company-makes-payout-of-us2-million-to-support-lao-pdr-government/",
+          "role": "technical",
+          "side": "supply"
+        }
+      ],
+      "heat_covered": "no",
+      "heat_basis": "Reviewed policy covers floods, cyclones, earthquakes and landslides; direct institutional model only.",
+      "trigger": {
+        "metric": "Cumulative officially reported affected population",
+        "threshold": "Second tier: 300,000–449,999 affected people",
+        "data_source": "Lao NDMO impact reports",
+        "geography": "Lao PDR",
+        "window": "Policy aggregation rules; reported events 2 May–4 August 2025",
+        "calculated_by": "NDMO reports impacts; policy calculation verified by Gallagher Re",
+        "verified_by": "Gallagher Re, calculation agent",
+        "kind": "payout"
+      },
+      "enrolment": [],
+      "premium": {
+        "amount": "3400000",
+        "currency": "USD",
+        "usd": "3400000",
+        "year": "2025",
+        "fx": "1 USD = 1 USD; two-year policy premium",
+        "kind": "premium",
+        "source": {
+          "label": "World Bank (11 February 2026): Southeast Asia financial preparedness",
+          "url": "https://www.worldbank.org/en/news/feature/2026/02/11/risk-resilience-strengthening-financial-preparedness-southeast-asia"
+        },
+        "paid_by": "Grant-supported government policy",
+        "subsidy": "Premium support reported; broader grant also funds other work."
+      },
+      "size": {
+        "amount": "16000000",
+        "currency": "USD",
+        "usd": "16000000",
+        "year": "2025",
+        "fx": "1 USD = 1 USD",
+        "kind": "limit",
+        "source": {
+          "label": "World Bank (11 February 2026): Southeast Asia financial preparedness",
+          "url": "https://www.worldbank.org/en/news/feature/2026/02/11/risk-resilience-strengthening-financial-preparedness-southeast-asia"
+        }
+      },
+      "payouts": [
+        {
+          "date": "2025-09-01",
+          "year": "2025",
+          "amount": "2000000",
+          "currency": "USD",
+          "usd": "2000000",
+          "fx": "1 USD = 1 USD",
+          "kind": "payout",
+          "recipients": "Lao Ministry of Finance: one sovereign recipient; 305,196 affected people is not a paid-beneficiary count.",
+          "days_to_payment": "6 business days after receipt of latest government impact data; not six days from event or household timing.",
+          "channel": "Sovereign receipt",
+          "use": "Response/recovery under pre-agreed plan; actual household uses not verified.",
+          "status": "paid",
+          "source": {
+            "label": "SEADRIF (3 September 2025): Lao PDR payout",
+            "url": "https://seadrif.org/news/seadrif-insurance-company-makes-payout-of-us2-million-to-support-lao-pdr-government/"
+          }
+        }
+      ],
+      "never_triggered": "false",
+      "basis_risk": "Inferred: index, geography or eligibility may not match individual harm; magnitude not measured here.",
+      "fallback": "not verified",
+      "inclusion": {
+        "informal_workers": "not verified",
+        "women": "not verified",
+        "older_people": "not verified",
+        "disabled_people": "not verified",
+        "migrants": "not verified"
+      },
+      "consumer_protection": "Policy wording, complaints, privacy, rejection statistics and benefit adequacy not verified; no allegation of misconduct.",
+      "loops": [
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "riskpools",
+        "heatbudget"
+      ],
+      "settings": [
+        "neighbourhoods"
+      ],
+      "evidence": [
+        {
+          "status": "reported",
+          "text": "Existence documented; missing transaction fields are not evidence of no payments.",
+          "kind": "claimed",
+          "source": {
+            "label": "SEADRIF (3 September 2025): Lao PDR payout",
+            "url": "https://seadrif.org/news/seadrif-insurance-company-makes-payout-of-us2-million-to-support-lao-pdr-government/"
+          }
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "source": {
+        "label": "SEADRIF (3 September 2025): Lao PDR payout",
+        "url": "https://seadrif.org/news/seadrif-insurance-company-makes-payout-of-us2-million-to-support-lao-pdr-government/"
+      },
+      "payment_state": "reported_paid_to_treasury",
+      "status_note": "Appears active within 2025–2027 policy term; continuing availability not separately confirmed."
+    },
+    {
+      "id": "jamaica_bond_2024",
+      "name": "Jamaica World Bank catastrophe bond, 2024 issuance",
+      "instrument": "cat_bond",
+      "level": "macro",
+      "layer": "transfer",
+      "countries": [
+        "Jamaica"
+      ],
+      "places": [],
+      "insured_or_covered": "Government named-storm risk",
+      "status": "unclear",
+      "providers": [
+        {
+          "name": "IBRD / World Bank",
+          "url": "https://www.worldbank.org/en/news/press-release/2024/04/25/world-bank-returns-to-the-cat-bond-market-providing-financial-protection-to-jamaica",
+          "role": "technical",
+          "side": "platform"
+        },
+        {
+          "name": "Government of Jamaica",
+          "url": "https://www.worldbank.org/en/news/press-release/2024/04/25/world-bank-returns-to-the-cat-bond-market-providing-financial-protection-to-jamaica",
+          "role": "government",
+          "side": "demand"
+        }
+      ],
+      "heat_covered": "no",
+      "heat_basis": "Non-heat direct model for tail-risk capital; no heat eligibility.",
+      "trigger": {
+        "metric": "Named storm central pressure and path",
+        "threshold": "Full numeric schedule not verified in reviewed summary",
+        "data_source": "US National Hurricane Center",
+        "geography": "Jamaica policy trigger geography",
+        "window": "Per occurrence; 2024 bond risk period",
+        "calculated_by": "AIR Worldwide",
+        "verified_by": "Third-party calculation agent analysis reported; separate verification not identified",
+        "kind": "payout"
+      },
+      "enrolment": [],
+      "premium": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "year": "not verified",
+        "fx": "not verified",
+        "kind": "premium",
+        "source": {
+          "label": "World Bank (25 April 2024): Jamaica bond terms",
+          "url": "https://www.worldbank.org/en/news/press-release/2024/04/25/world-bank-returns-to-the-cat-bond-market-providing-financial-protection-to-jamaica"
+        },
+        "paid_by": "Sponsor; full premium and subsidy allocation not verified",
+        "subsidy": "not verified"
+      },
+      "size": {
+        "amount": "150000000",
+        "currency": "USD",
+        "usd": "150000000",
+        "year": "2024",
+        "fx": "1 USD = 1 USD",
+        "kind": "bond_size",
+        "source": {
+          "label": "World Bank (25 April 2024): Jamaica bond terms",
+          "url": "https://www.worldbank.org/en/news/press-release/2024/04/25/world-bank-returns-to-the-cat-bond-market-providing-financial-protection-to-jamaica"
+        }
+      },
+      "payouts": [
+        {
+          "date": "2025-11-07",
+          "year": "2025",
+          "amount": "150000000",
+          "currency": "USD",
+          "usd": "150000000",
+          "fx": "1 USD = 1 USD",
+          "kind": "payout",
+          "recipients": "Government of Jamaica; settlement receipt not verified",
+          "days_to_payment": "not verified",
+          "channel": "not verified",
+          "use": "Disaster liquidity intended; final spending not verified.",
+          "status": "announced",
+          "source": {
+            "label": "World Bank (7 November 2025): Jamaica full payout announcement",
+            "url": "https://www.worldbank.org/en/news/press-release/2025/11/07/hurricane-melissa-triggers-100-payout-of-150-million-world-bank-catastrophe-bond-for-jamaica"
+          }
+        }
+      ],
+      "never_triggered": "false",
+      "basis_risk": "Inferred: index, geography or eligibility may not match individual harm; magnitude not measured here.",
+      "fallback": "not verified",
+      "inclusion": {
+        "informal_workers": "not verified",
+        "women": "not verified",
+        "older_people": "not verified",
+        "disabled_people": "not verified",
+        "migrants": "not verified"
+      },
+      "consumer_protection": "Policy wording, complaints, privacy, rejection statistics and benefit adequacy not verified; no allegation of misconduct.",
+      "loops": [
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "riskpools",
+        "heatbudget"
+      ],
+      "settings": [
+        "neighbourhoods"
+      ],
+      "evidence": [
+        {
+          "status": "reported",
+          "text": "Existence documented; missing transaction fields are not evidence of no payments.",
+          "kind": "claimed",
+          "source": {
+            "label": "World Bank (25 April 2024): Jamaica bond terms",
+            "url": "https://www.worldbank.org/en/news/press-release/2024/04/25/world-bank-returns-to-the-cat-bond-market-providing-financial-protection-to-jamaica"
+          }
+        },
+        {
+          "status": "reported",
+          "text": "Full payout qualification was announced; settlement not established by this notice.",
+          "kind": "claimed",
+          "source": {
+            "label": "World Bank (7 November 2025): Jamaica full payout announcement",
+            "url": "https://www.worldbank.org/en/news/press-release/2025/11/07/hurricane-melissa-triggers-100-payout-of-150-million-world-bank-catastrophe-bond-for-jamaica"
+          }
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "source": {
+        "label": "World Bank (25 April 2024): Jamaica bond terms",
+        "url": "https://www.worldbank.org/en/news/press-release/2024/04/25/world-bank-returns-to-the-cat-bond-market-providing-financial-protection-to-jamaica"
+      },
+      "payment_state": "triggered_full_payout_announced_receipt_not_verified",
+      "status_note": "Scheduled maturity alone does not establish remaining cover after announced full redemption.",
+      "cost_note": "2024 terms specify 7.00% per annum risk margin; not the complete government premium. Investor coupon also includes SOFR and funding margin."
+    },
+    {
+      "id": "ushma_kavach",
+      "name": "Ushma Kavach dairy heat index insurance",
+      "instrument": "parametric_heat_micro",
+      "level": "micro",
+      "layer": "transfer",
+      "countries": [
+        "India"
+      ],
+      "places": [],
+      "insured_or_covered": "Dairy farmers' heat-related milk-income risk",
+      "status": "unclear",
+      "providers": [
+        {
+          "name": "IBISA",
+          "url": "https://www.ibisa.network/en/blog/ushma-kavach-a-climate-resilient-shield-for-indias-dairy-farmers",
+          "role": "technical",
+          "side": "supply"
+        }
+      ],
+      "heat_covered": "yes",
+      "heat_basis": "Explicit dairy heat-stress parametric product launched February 2024",
+      "trigger": {
+        "metric": "not verified",
+        "threshold": "not verified",
+        "data_source": "not verified",
+        "geography": "not verified",
+        "window": "not verified",
+        "calculated_by": "not verified",
+        "verified_by": "not verified",
+        "kind": "payout"
+      },
+      "enrolment": [],
+      "premium": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "year": "not verified",
+        "fx": "not verified",
+        "kind": "premium",
+        "source": {
+          "label": "IBISA (2025): Ushma Kavach",
+          "url": "https://www.ibisa.network/en/blog/ushma-kavach-a-climate-resilient-shield-for-indias-dairy-farmers"
+        },
+        "paid_by": "not verified",
+        "subsidy": "not verified"
+      },
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "year": "not verified",
+        "fx": "not verified",
+        "kind": "limit",
+        "source": {
+          "label": "IBISA (2025): Ushma Kavach",
+          "url": "https://www.ibisa.network/en/blog/ushma-kavach-a-climate-resilient-shield-for-indias-dairy-farmers"
+        }
+      },
+      "payouts": [],
+      "never_triggered": "unclear",
+      "basis_risk": "Inferred: index, geography or eligibility may not match individual harm; magnitude not measured here.",
+      "fallback": "not verified",
+      "inclusion": {
+        "informal_workers": "not verified",
+        "women": "not verified",
+        "older_people": "not verified",
+        "disabled_people": "not verified",
+        "migrants": "not verified"
+      },
+      "consumer_protection": "Policy wording, complaints, privacy, rejection statistics and benefit adequacy not verified; no allegation of misconduct.",
+      "loops": [
+        "farmdebt",
+        "poverty"
+      ],
+      "levers": [
+        "farmcredit"
+      ],
+      "settings": [
+        "work"
+      ],
+      "evidence": [
+        {
+          "status": "reported",
+          "text": "Existence documented; missing transaction fields are not evidence of no payments.",
+          "kind": "claimed",
+          "source": {
+            "label": "IBISA (2025): Ushma Kavach",
+            "url": "https://www.ibisa.network/en/blog/ushma-kavach-a-climate-resilient-shield-for-indias-dairy-farmers"
+          }
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "source": {
+        "label": "IBISA (2025): Ushma Kavach",
+        "url": "https://www.ibisa.network/en/blog/ushma-kavach-a-climate-resilient-shield-for-indias-dairy-farmers"
+      },
+      "payment_state": "unknown"
+    },
+    {
+      "id": "tokio_heatstroke",
+      "name": "Tokio Marine X heatstroke clinical-event benefits",
+      "instrument": "clinical_fixed_benefit",
+      "level": "micro",
+      "layer": "transfer",
+      "countries": [
+        "Japan"
+      ],
+      "places": [],
+      "insured_or_covered": "Covered individuals",
+      "status": "unclear",
+      "providers": [
+        {
+          "name": "Tokio Marine X",
+          "url": "https://www.tokiomarine-x.co.jp/faq/heatstroke-coverage.html",
+          "role": "insurer",
+          "side": "supply"
+        }
+      ],
+      "heat_covered": "yes",
+      "heat_basis": "Specified heatstroke medical events",
+      "trigger": {
+        "metric": "Covered clinical event; not a weather index",
+        "threshold": "Physician-determined IV treatment, qualifying hospital admission or ambulance transport, as applicable.",
+        "data_source": "Clinical documentation",
+        "geography": "Policy eligibility; overseas treatment documentation also discussed",
+        "window": "During policy term",
+        "calculated_by": "Insurer adjudication",
+        "verified_by": "not verified",
+        "kind": "payout"
+      },
+      "enrolment": [],
+      "premium": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "year": "not verified",
+        "fx": "not verified",
+        "kind": "premium",
+        "source": {
+          "label": "Tokio Marine X: Heatstroke coverage FAQ (Japanese)",
+          "url": "https://www.tokiomarine-x.co.jp/faq/heatstroke-coverage.html"
+        },
+        "paid_by": "not verified",
+        "subsidy": "not verified"
+      },
+      "size": {
+        "amount": "not verified",
+        "currency": "not verified",
+        "usd": "not verified",
+        "year": "not verified",
+        "fx": "not verified",
+        "kind": "limit",
+        "source": {
+          "label": "Tokio Marine X: Heatstroke coverage FAQ (Japanese)",
+          "url": "https://www.tokiomarine-x.co.jp/faq/heatstroke-coverage.html"
+        }
+      },
+      "payouts": [],
+      "never_triggered": "unclear",
+      "basis_risk": "No weather-index basis risk; access to diagnosis and specified treatment can leave other heat harm unpaid.",
+      "fallback": "not verified",
+      "inclusion": {
+        "informal_workers": "not verified",
+        "women": "not verified",
+        "older_people": "not verified",
+        "disabled_people": "not verified",
+        "migrants": "not verified"
+      },
+      "consumer_protection": "FAQ lists exclusions and one-episode payment/termination rules; full terms and claim outcomes require review.",
+      "loops": [
+        "debt",
+        "poverty"
+      ],
+      "levers": [
+        "freecare"
+      ],
+      "settings": [
+        "clinics",
+        "work",
+        "homes"
+      ],
+      "evidence": [
+        {
+          "status": "reported",
+          "text": "Existence documented; missing transaction fields are not evidence of no payments.",
+          "kind": "claimed",
+          "source": {
+            "label": "Tokio Marine X: Heatstroke coverage FAQ (Japanese)",
+            "url": "https://www.tokiomarine-x.co.jp/faq/heatstroke-coverage.html"
+          }
+        }
+      ],
+      "last_checked": "2026-10-31",
+      "source": {
+        "label": "Tokio Marine X: Heatstroke coverage FAQ (Japanese)",
+        "url": "https://www.tokiomarine-x.co.jp/faq/heatstroke-coverage.html"
+      },
+      "payment_state": "unknown"
+    }
+  ],
+  "actors": [],
+  "triggers": [
+    {
+      "metric": "Air temperature / consecutive hot days",
+      "strengths": "Transparent and relatively simple.",
+      "weaknesses": "May miss humidity, nights, worksite and personal exposure.",
+      "humid_heat": "Incomplete alone.",
+      "asia_data": "Official station observations and gridded datasets exist; coverage and contractual licence vary.",
+      "used_in": [
+        {
+          "scheme": "SEWA 2024; AXA Hong Kong",
+          "source": {
+            "label": "AXA: Heatwave Parametric Insurance launch",
+            "url": "https://www.axa.com.hk/en/article/axa-launches-pioneering-heatwave-parametric-insurance"
+          }
+        }
+      ]
+    },
+    {
+      "metric": "Heat index",
+      "strengths": "Combines air temperature and humidity.",
+      "weaknesses": "Not a full occupational radiant/workload measure; forecast errors matter.",
+      "humid_heat": "Captures humidity within the index's assumptions.",
+      "asia_data": "GFS-based Pakistan humanitarian design; BMD/global forecasts referenced in Bangladesh.",
+      "used_in": [
+        {
+          "scheme": "Pakistan historical DRF; Bangladesh 2024 EAP",
+          "source": {
+            "label": "Start Network: Pakistan DRF design and 2020 learning",
+            "url": "https://startnetwork.org/disaster-risk-financing-pakistan"
+          }
+        }
+      ]
+    },
+    {
+      "metric": "WBGT",
+      "strengths": "Relevant to occupational heat when properly measured and interpreted.",
+      "weaknesses": "Needs environmental and task interpretation; no verified operational insurance trigger admitted.",
+      "humid_heat": "Reflects more of heat load than air temperature alone; not interchangeable with wet-bulb temperature.",
+      "asia_data": "Operational coverage and quality not assessed.",
+      "used_in": [],
+      "source": {
+        "label": "WHO (31 July 2026): Heat and health",
+        "url": "https://www.who.int/en/news-room/fact-sheets/detail/climate-change-heat-and-health"
+      }
+    },
+    {
+      "metric": "Land-surface temperature",
+      "strengths": "Can map surface spatial variation.",
+      "weaknesses": "Not human air-temperature exposure; cannot substitute for a policy metric without validation.",
+      "humid_heat": "Does not itself capture humidity.",
+      "asia_data": "No operational heat-finance trigger verified here.",
+      "used_in": [],
+      "source": {
+        "label": "WMO: Extreme Heat",
+        "url": "https://wmo.int/themes/extreme-heat"
+      }
+    },
+    {
+      "metric": "Consecutive hot nights",
+      "strengths": "Can represent reduced recovery opportunities.",
+      "weaknesses": "Threshold and exposure calibration needed; current standalone payout trigger not verified.",
+      "humid_heat": "Minimum temperature alone still misses humidity.",
+      "asia_data": "Historical Pakistan design discusses maximum/minimum forecasts.",
+      "used_in": [
+        {
+          "scheme": "Historical Pakistan DRF design; not confirmed current RP5 wording",
+          "source": {
+            "label": "Start Network: Pakistan DRF design and 2020 learning",
+            "url": "https://startnetwork.org/disaster-risk-financing-pakistan"
+          }
+        }
+      ]
+    },
+    {
+      "metric": "Excess mortality",
+      "strengths": "Can capture wider mortality burden retrospectively.",
+      "weaknesses": "Attribution, baseline and reporting lag make prevention finance difficult.",
+      "humid_heat": "Health effects may reflect combined exposures; metric does not identify each cause.",
+      "asia_data": "No operational heat payout trigger verified.",
+      "used_in": [],
+      "source": {
+        "label": "WMO: Extreme Heat",
+        "url": "https://wmo.int/themes/extreme-heat"
+      }
+    },
+    {
+      "metric": "Forecast threshold / probability",
+      "strengths": "Can release resources before peak harm.",
+      "weaknesses": "Lead-time and calibration trade-off; false positives and missed events.",
+      "humid_heat": "Only if humidity-sensitive exposure is in the model.",
+      "asia_data": "Bangladesh EAP and Pakistan humanitarian models; exact current probability thresholds unverified.",
+      "used_in": [
+        {
+          "scheme": "Bangladesh EAP",
+          "source": {
+            "label": "IFRC (21 April 2024): Bangladesh Heatwave EAP activation",
+            "url": "https://adore.ifrc.org/Download.aspx?FileId=827319"
+          }
+        }
+      ]
+    }
+  ],
+  "evidence_of_effect": [],
+  "country_layers": [],
+  "narrative": [
+    {
+      "id": "instruments",
+      "title": "The instrument map",
+      "text": "Heat finance is a portfolio of funding sources, contracts, authorisations and delivery channels. The 19 categories below distinguish actual heat applications from non-heat models and unverified heat concepts. Risk transfer covers a contracted liability; reserves and borrowing leave the underlying loss with the holder. Anticipatory action describes timing and pre-agreed action. Social protection describes a benefit system and delivery route. Premium support changes who pays for insurance. Results-based finance rewards verified performance and is usually not emergency liquidity. These dimensions overlap, so their money must not be added as if each were an additional protection benefit.",
+      "sources": [
+        "wb",
+        "asp",
+        "wef"
+      ],
+      "known": "Verified heat applications exist at household, employer and humanitarian-programme levels.",
+      "inferred": "A useful Common Shade map should let users distinguish funding source, recipient, release condition and delivery channel.",
+      "uncertain": "No issued sovereign heat policy, heat catastrophe bond or heat-health outcome-payment contract was verified in this review. This is a search finding, not evidence that none exists."
+    },
+    {
+      "id": "layering",
+      "title": "Risk layering for heat",
+      "text": "Start with a costed response plan, not an insurance product. Retain the cost of frequent needs through budgets and replenishable reserves. Use contingent credit for liquidity needs that justify borrowing and meet drawdown conditions. Consider insurance/reinsurance or capital-market transfer for financially severe, less frequent residual losses. These are tendencies, not fixed return-period boundaries. Timing overlays every layer: forecast releases can fund early action, while ready benefit systems, payroll and public services can deliver support. World Bank guidance describes this layered approach. The Philippines Cat DDO example demonstrates declaration-linked liquidity; SEADRIF demonstrates an impact-linked sovereign receipt. Neither reviewed example proves heat eligibility. For cities, borrowing authority, transfers from national government and procurement rules must be checked separately. Heat's recurring income and clinical costs need routine funding even when no rare-event policy triggers. Prevention remains a recurrent public and employer responsibility. A warming climate also means pricing and attachment assumptions need review, rather than automatic extrapolation from historical loss frequencies.",
+      "sources": [
+        "wb",
+        "ph",
+        "cat",
+        "asp"
+      ],
+      "designer_description": "Draw a tall rectangle with loss severity increasing upward and frequency decreasing upward. Put budgets/reserves at the broad base, contingent credit in the middle, and insurance/reinsurance/capital-market cover at the top. Do not assign numerical return periods without a local fiscal loss model. Place a continuous prevention-and-readiness strip underneath. Beside the stack, show a time axis: forecast, action, event, index confirmation, treasury/agency receipt, household/service receipt. Overlay anticipatory finance across the pre-event part and social-protection/payroll/service channels across the full stack. Label the gap between a warning and action authority, and the gap between institution receipt and final delivery. Add an explicit fallback path for harm below insurance thresholds. Do not draw premiums as additional payout capital or add borrowing to grants without showing repayment.",
+      "known": "Different instruments can finance different severities and phases; source availability alone does not ensure delivery.",
+      "inferred": "For heat, the recurring budget and last-mile capability may be more foundational than an upper risk-transfer layer.",
+      "uncertain": "Optimal attachment points, reserve size, premium affordability and borrowing capacity require local data and an agreed response liability."
+    },
+    {
+      "id": "heat_difference",
+      "title": "Why heat needs different financing designs",
+      "text": "Heat can create serious health and livelihood losses without destroying an asset. Harm can develop quickly within a prolonged hot period, and cumulative days and nights matter. Ambient temperature alone does not represent humidity, radiant load, work intensity or indoor exposure. Mortality under-reporting complicates both loss assessment and trigger calibration. These facts support a separation between public-health warnings, permission and resources to act, and contractual payout triggers. They do not establish that any one index is universally superior.",
+      "sources": [
+        "who",
+        "wmo"
+      ],
+      "known": "Heat-health risk depends on exposure, duration and vulnerability; under-reporting and delayed delivery can obscure need.",
+      "inferred": "Different response costs may warrant different trigger families and a lower-threshold retained fallback.",
+      "uncertain": "The best local index, station/grid resolution, verification method and health-income calibration cannot be specified from a global map."
+    },
+    {
+      "id": "gap",
+      "title": "What can be said about the heat protection gap",
+      "text": "No verified Asia-wide estimate matching heat-specific economic losses to heat-specific insured compensation was found. The nearest auditable regional comparison here is Swiss Re sigma 1/2025, table 3: Asia's 2024 disaster-event economic losses were USD 66.5 billion and insured losses USD 11.1 billion. Subtracting the rounded figures gives approximately USD 55.4 billion uninsured, or 83.3%. This table includes natural and man-made disasters and is not a heat estimate. Its economic-loss definition emphasises direct damage and property-related business interruption; it excludes wider indirect earnings/GDP and non-economic losses, and its insured-loss definition excludes life and liability. The dataset covers 104 qualifying Asian disaster events, not a population sample. Source currency is USD, price year 2024, conversion in this report 1 USD = 1 USD. Underlying foreign-currency losses were converted by sigma using occurrence-year end exchange rates and inflation-adjusted as described in its methods. Event-level original currencies and rates were not reproduced in the regional aggregate. Kind: economic-loss estimate, insured-loss estimate and calculated uninsured-loss estimate—not premiums, limits or bank-confirmed payouts. No counterfactual baseline is applicable. These scope limits make the statistic an especially poor proxy for heat mortality, daily wages or informal work.",
+      "sources": [
+        "sigma"
+      ],
+      "known": "A broad regional uninsured-loss comparison is available; its scope is explicitly wider in hazards and narrower in welfare losses than the question about heat.",
+      "inferred": "A heat-finance gap assessment should separately measure unfunded response costs, uncovered income/health harm and delays in delivery.",
+      "uncertain": "Asia's heat-specific insured share and the amount reaching affected people before harmful coping remain unquantified here."
+    },
+    {
+      "id": "uncertainty",
+      "title": "Evidence and publication boundary",
+      "text": "This is a targeted, source-linked landscape map checked on 31 October 2026, not an exhaustive systematic review or a contract-level due-diligence certification. Searches prioritised South and Southeast Asia, then Africa, Middle East and Latin America, with Hong Kong and Japan retained for specific transferable design lessons. English searches were supplemented by Japanese primary product documentation and French administrator leads. Missing primary access is recorded, not silently replaced by a claim of verification. Historical policy-year records are separated from current programme availability. Loop/lever mappings and possible causal pathways are analytical interpretations; they are not evidence that any scheme has changed a feedback loop. No comparative ranking was undertaken.",
+      "sources": [
+        "rct"
+      ],
+      "known": "Reported payment activity is not equivalent to an evaluated health or income effect. The J-PAL page describes a randomized encouragement evaluation design; reviewed material does not report its results.",
+      "inferred": "Publication should distinguish existence, contractual design, actual cash receipt and measured effect as separate filters.",
+      "uncertain": "Current renewals, full trigger schedules, customer complaints, rejection rates and subgroup access remain incompletely documented."
+    }
+  ],
+  "heat_design_challenges": [
+    {
+      "challenge": "Health and income harm without damaged assets",
+      "design_used": "SEWA income-oriented parametric cover; separate public/social benefits and heatstroke clinical benefits address other losses.",
+      "design_status": "reported",
+      "remaining_gap": "These mechanisms cover different needs. A clinical-event payment is not wages and a fixed benefit is not full expense indemnity.",
+      "sources": [
+        "sewa",
+        "tokio",
+        "ilo26"
+      ],
+      "loops": [
+        "poverty",
+        "debt",
+        "clinic"
+      ],
+      "levers": [
+        "heatcash",
+        "freecare",
+        "socialprotection"
+      ]
+    },
+    {
+      "challenge": "Uncounted or unattributed deaths",
+      "design_used": "Reviewed operational heat examples use weather or forecasts rather than requiring a counted heat death.",
+      "design_status": "reported",
+      "remaining_gap": "This bypasses death-certification delay but does not make payouts track mortality. Mortality surveillance and excess-mortality analysis remain relevant for calibration; no operational excess-mortality heat payout trigger verified.",
+      "sources": [
+        "wmo",
+        "ifrc"
+      ],
+      "loops": [
+        "invisible",
+        "clinic"
+      ],
+      "levers": [
+        "countdeaths",
+        "readyclinics"
+      ]
+    },
+    {
+      "challenge": "Accumulation across consecutive days and nights",
+      "design_used": "Multi-day triggers are used in SEWA and AXA designs; historical Pakistan DRF learning considered maximum and minimum temperatures.",
+      "design_status": "reported",
+      "remaining_gap": "Long consecutive-day requirements may miss intermittent severe exposure; hot-night-specific payment wording not verified for current examples.",
+      "sources": [
+        "sewa",
+        "axa",
+        "start"
+      ],
+      "loops": [
+        "sleep",
+        "poverty"
+      ],
+      "levers": [
+        "heatcash",
+        "anticipatory"
+      ]
+    },
+    {
+      "challenge": "Humidity and occupational exposure",
+      "design_used": "Start Network's Pakistan design describes a GFS-based heat-index model; Bangladesh activation references heat index alongside temperature.",
+      "design_status": "reported",
+      "remaining_gap": "Heat index is not WBGT. Neither automatically captures workload, radiant heat, clothing or indoor conditions. Exact current algorithms require review.",
+      "sources": [
+        "start",
+        "ifrc",
+        "who"
+      ],
+      "loops": [
+        "poverty",
+        "clinic"
+      ],
+      "levers": [
+        "anticipatory",
+        "heatcash"
+      ]
+    },
+    {
+      "challenge": "Sparse stations and coarse exposure data",
+      "design_used": "SEWA's first pilot used NASA POWER; provider examples also use official weather observations.",
+      "design_status": "reported",
+      "remaining_gap": "Gridded/reanalysis data are not local ground measurement or satellite land-surface temperature. Independent local validation, missing-data rules and a backup feed are proposed safeguards, not verified scheme features.",
+      "sources": [
+        "sewa",
+        "axa"
+      ],
+      "loops": [
+        "invisible",
+        "protection"
+      ],
+      "levers": [
+        "countdeaths",
+        "riskpools"
+      ]
+    },
+    {
+      "challenge": "Warning, action and payout are separate",
+      "design_used": "Humanitarian EAPs pre-agree actions and finance; lower-threshold assistance can sit beside insurance.",
+      "design_status": "reported",
+      "remaining_gap": "Record forecast issue, trigger confirmation, release approval, institutional receipt and final receipt separately; an action lead time is not cash-in-hand speed.",
+      "sources": [
+        "ifrc",
+        "asp"
+      ],
+      "loops": [
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "anticipatory",
+        "heatbudget",
+        "socialprotection"
+      ]
+    },
+    {
+      "challenge": "Forecast false alarms and missed harm",
+      "design_used": "Start Network reports a historical Karachi activation where the predicted threshold event did not materialise; preventative activities continued.",
+      "design_status": "reported",
+      "remaining_gap": "False positives have costs; misses can leave harm unfunded. No universal acceptable error rate or independently measured basis-risk rate is established.",
+      "sources": [
+        "start"
+      ],
+      "loops": [
+        "reactive",
+        "protection"
+      ],
+      "levers": [
+        "anticipatory",
+        "heatbudget"
+      ]
+    }
+  ],
+  "unverified_and_excluded": [
+    {
+      "item": "Sovereign parametric heat insurance and heat catastrophe-bond deals",
+      "reason": "No executed heat-specific contract, premium, trigger schedule or payment verified; category retained only as concept/direct-model comparison."
+    },
+    {
+      "item": "Generic business interruption or cattle mortality policies as confirmed heat cover",
+      "reason": "Heat-specific operative wording and claim record not verified; do not assume heat or milk-yield loss is covered."
+    },
+    {
+      "item": "InRisk Gujarat milk-union sample policy as an issued transaction",
+      "url": "https://inrisklabs.com/solutions/livestock",
+      "reason": "Provider labels terms as a sample; no policy year, issued policy or payout corroboration. Monetary schedule excluded."
+    },
+    {
+      "item": "Ushma Kavach numerical thresholds, enrolment, premiums and payments",
+      "reason": "Primary blog confirms product purpose and launch but not these transaction fields."
+    },
+    {
+      "item": "SEWA money figures without a reproducible original-currency/FX record",
+      "reason": "Reviewed case study's conversions do not establish each historical transaction rate. Monetary amounts withheld; distinct programme years retained."
+    },
+    {
+      "item": "SEWA 2025 low-loss-ratio and cash-threshold comparisons",
+      "reason": "Case study uses different cash-threshold descriptions across passages. No reconciled schedule or denominator admitted."
+    },
+    {
+      "item": "Bangladesh EAP budget as paid cash",
+      "reason": "Activation budget is not payout or disbursement. Budget USD conversion not verified; financial amounts withheld."
+    },
+    {
+      "item": "Bangladesh reach counts pooled across different sources",
+      "reason": "People, households, cash recipients, service contacts and awareness reach differ. IFRC cash-recipient statement retained as reported, not added to other denominators."
+    },
+    {
+      "item": "Start Ready RP5 dashboard financial amount and reach totals",
+      "url": "https://startnetwork.org/funds/start-ready/activations/act-00000167",
+      "reason": "Readable page does not identify currency alongside amount; reach values vary across indexed/retrieved versions and may include outreach. No combined paid-recipient total or converted financial amount admitted."
+    },
+    {
+      "item": "Start Pakistan historical GFS trigger as the RP5 2026 trigger",
+      "reason": "A historical design source cannot establish current thresholds, verifier or lead time."
+    },
+    {
+      "item": "Jamaica announced full payout as settled cash",
+      "reason": "Reviewed issuer notice says the government will receive funds. Bank-confirmed receipt and days-to-cash not verified."
+    },
+    {
+      "item": "Current India heatwave SDRF eligibility",
+      "url": "https://ndmindia.mha.gov.in/ndmi/response-fund",
+      "reason": "Search index and retrieved MHA page disagree; other official guidance says heat was not nationally notified. Current dated notification and state norms required before asserting entitlement."
+    },
+    {
+      "item": "CACOBATPH precise contribution rates, eligibility and repayment deadlines",
+      "url": "https://www.cacobatph.dz/le-chomage-intemperies/?lang=fr",
+      "reason": "Administrator page returned 502 on direct retrieval. ILO's accessible account supports existence only; granular figures excluded."
+    },
+    {
+      "item": "Philippine statutory disaster-fund percentages as current verified heat finance",
+      "url": "https://pcw.gov.ph/republic-act-10121-philippine-disaster-risk-reduction-and-management-act-of-2010/",
+      "reason": "Official law mirror returned 403; current amendments, implementing rules and heat use not verified."
+    },
+    {
+      "item": "Latest Asian protection-gap figures from an unreadable Swiss Re page",
+      "reason": "Only indexed text available; older accessible sigma report used instead, with scope and year explicit."
+    },
+    {
+      "item": "Heat-health results/outcome-payment deal",
+      "reason": "IFC supports the financing concept for sustainable cooling, not an identified outcome contract paying for avoided heat illness/deaths."
+    },
+    {
+      "item": "UNDRR 2026 report detailed case-study claims",
+      "reason": "Landing page accessible but download resolved to a download-interstitial page; only landing-page summary used."
+    },
+    {
+      "item": "Independent effects of heat-insurance payments",
+      "reason": "No completed independent causal effect estimate verified. J-PAL project description is not evaluation results."
+    },
+    {
+      "item": "Other global leads",
+      "reason": "Senegal CREWS heat work, MENA insurance diagnostics, Brazil anticipatory-social-protection assessments and Indonesia coffee insurance were discovered but not admitted as verified heat payout schemes."
+    }
+  ],
+  "source_register": [
+    {
+      "id": "wb",
+      "label": "World Bank: disaster risk finance and insurance",
+      "url": "https://www.worldbank.org/ext/en/topic/financial-sector/disaster-risk-finance-and-insurance",
+      "last_checked": "2026-10-31",
+      "access_note": "Relevant primary/institutional page or PDF retrieved; evidence scope stated in text.",
+      "evidence_scope": "Scope limited to the specific statements cited."
+    },
+    {
+      "id": "asp",
+      "label": "World Bank (2020): Adaptive Social Protection",
+      "url": "https://documents1.worldbank.org/curated/en/579641590038388922/pdf/Adaptive-Social-Protection-Building-Resilience-to-Shocks.pdf",
+      "last_checked": "2026-10-31",
+      "access_note": "Relevant primary/institutional page or PDF retrieved; evidence scope stated in text.",
+      "evidence_scope": "Scope limited to the specific statements cited."
+    },
+    {
+      "id": "sewa",
+      "label": "CGAP (May 2026): SEWA climate and health case study",
+      "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association",
+      "last_checked": "2026-10-31",
+      "access_note": "Relevant primary/institutional page or PDF retrieved; evidence scope stated in text.",
+      "evidence_scope": "Institutional case study, not an independent causal evaluation."
+    },
+    {
+      "id": "axa",
+      "label": "AXA: Heatwave Parametric Insurance launch",
+      "url": "https://www.axa.com.hk/en/article/axa-launches-pioneering-heatwave-parametric-insurance",
+      "last_checked": "2026-10-31",
+      "access_note": "Relevant primary/institutional page or PDF retrieved; evidence scope stated in text.",
+      "evidence_scope": "Scope limited to the specific statements cited."
+    },
+    {
+      "id": "dairy",
+      "label": "IBISA (2025): Ushma Kavach",
+      "url": "https://www.ibisa.network/en/blog/ushma-kavach-a-climate-resilient-shield-for-indias-dairy-farmers",
+      "last_checked": "2026-10-31",
+      "access_note": "Relevant primary/institutional page or PDF retrieved; evidence scope stated in text.",
+      "evidence_scope": "Scope limited to the specific statements cited."
+    },
+    {
+      "id": "ifrc",
+      "label": "IFRC (21 April 2024): Bangladesh Heatwave EAP activation",
+      "url": "https://adore.ifrc.org/Download.aspx?FileId=827319",
+      "last_checked": "2026-10-31",
+      "access_note": "Relevant primary/institutional page or PDF retrieved; evidence scope stated in text.",
+      "evidence_scope": "Scope limited to the specific statements cited."
+    },
+    {
+      "id": "ifrcout",
+      "label": "IFRC (2024): DREF mid-year report",
+      "url": "https://www.ifrc.org/sites/default/files/2024-10/IFRC%27s%20Disaster%20Response%20Emergency%20Fund%20Mid-Year%20Report%202024.pdf",
+      "last_checked": "2026-10-31",
+      "access_note": "Relevant primary/institutional page or PDF retrieved; evidence scope stated in text.",
+      "evidence_scope": "Scope limited to the specific statements cited."
+    },
+    {
+      "id": "start",
+      "label": "Start Network: Pakistan DRF design and 2020 learning",
+      "url": "https://startnetwork.org/disaster-risk-financing-pakistan",
+      "last_checked": "2026-10-31",
+      "access_note": "Relevant primary/institutional page or PDF retrieved; evidence scope stated in text.",
+      "evidence_scope": "Scope limited to the specific statements cited."
+    },
+    {
+      "id": "start26",
+      "label": "Start Network: RP5 Pakistan Heatwave activation",
+      "url": "https://startnetwork.org/funds/start-ready/activations/act-00000167",
+      "last_checked": "2026-10-31",
+      "access_note": "Relevant primary/institutional page or PDF retrieved; evidence scope stated in text.",
+      "evidence_scope": "Scope limited to the specific statements cited."
+    },
+    {
+      "id": "laos",
+      "label": "SEADRIF (3 September 2025): Lao PDR payout",
+      "url": "https://seadrif.org/news/seadrif-insurance-company-makes-payout-of-us2-million-to-support-lao-pdr-government/",
+      "last_checked": "2026-10-31",
+      "access_note": "Relevant primary/institutional page or PDF retrieved; evidence scope stated in text.",
+      "evidence_scope": "Scope limited to the specific statements cited."
+    },
+    {
+      "id": "laoscost",
+      "label": "World Bank (11 February 2026): Southeast Asia financial preparedness",
+      "url": "https://www.worldbank.org/en/news/feature/2026/02/11/risk-resilience-strengthening-financial-preparedness-southeast-asia",
+      "last_checked": "2026-10-31",
+      "access_note": "Relevant primary/institutional page or PDF retrieved; evidence scope stated in text.",
+      "evidence_scope": "Scope limited to the specific statements cited."
+    },
+    {
+      "id": "bond",
+      "label": "World Bank (25 April 2024): Jamaica bond terms",
+      "url": "https://www.worldbank.org/en/news/press-release/2024/04/25/world-bank-returns-to-the-cat-bond-market-providing-financial-protection-to-jamaica",
+      "last_checked": "2026-10-31",
+      "access_note": "Relevant primary/institutional page or PDF retrieved; evidence scope stated in text.",
+      "evidence_scope": "Scope limited to the specific statements cited."
+    },
+    {
+      "id": "bondtrigger",
+      "label": "World Bank (7 November 2025): Jamaica full payout announcement",
+      "url": "https://www.worldbank.org/en/news/press-release/2025/11/07/hurricane-melissa-triggers-100-payout-of-150-million-world-bank-catastrophe-bond-for-jamaica",
+      "last_checked": "2026-10-31",
+      "access_note": "Relevant primary/institutional page or PDF retrieved; evidence scope stated in text.",
+      "evidence_scope": "Scope limited to the specific statements cited."
+    },
+    {
+      "id": "cat",
+      "label": "World Bank Treasury: disaster risk management products",
+      "url": "https://treasury.worldbank.org/en/about/unit/treasury/ibrd-financial-products/disaster-risk-management",
+      "last_checked": "2026-10-31",
+      "access_note": "Relevant primary/institutional page or PDF retrieved; evidence scope stated in text.",
+      "evidence_scope": "Scope limited to the specific statements cited."
+    },
+    {
+      "id": "ph",
+      "label": "World Bank (5 April 2022): Philippines Cat DDO and local financial resilience",
+      "url": "https://www.worldbank.org/en/news/feature/2022/04/05/strengthening-the-philippines-post-disaster-financial-resilience-drmhubtokyo",
+      "last_checked": "2026-10-31",
+      "access_note": "Relevant primary/institutional page or PDF retrieved; evidence scope stated in text.",
+      "evidence_scope": "Scope limited to the specific statements cited."
+    },
+    {
+      "id": "india",
+      "label": "India Ministry of Home Affairs: Response Fund",
+      "url": "https://ndmindia.mha.gov.in/ndmi/response-fund",
+      "last_checked": "2026-10-31",
+      "access_note": "Relevant primary/institutional page or PDF retrieved; evidence scope stated in text.",
+      "evidence_scope": "Scope limited to the specific statements cited."
+    },
+    {
+      "id": "ilo",
+      "label": "ILO (2024): World Social Protection Report, chapter 2",
+      "url": "https://webapps.ilo.org/static/english/reports/flagship/world_social_protection_report_2024-26/Chapter%2002.html",
+      "last_checked": "2026-10-31",
+      "access_note": "Relevant primary/institutional page or PDF retrieved; evidence scope stated in text.",
+      "evidence_scope": "Scope limited to the specific statements cited."
+    },
+    {
+      "id": "ilo26",
+      "label": "ILO (2026): Extreme heat and social protection",
+      "url": "https://www.ilo.org/resource/article/addressing-impacts-extreme-heat-through-social-protection",
+      "last_checked": "2026-10-31",
+      "access_note": "Relevant primary/institutional page or PDF retrieved; evidence scope stated in text.",
+      "evidence_scope": "Scope limited to the specific statements cited."
+    },
+    {
+      "id": "who",
+      "label": "WHO (31 July 2026): Heat and health",
+      "url": "https://www.who.int/en/news-room/fact-sheets/detail/climate-change-heat-and-health",
+      "last_checked": "2026-10-31",
+      "access_note": "Relevant primary/institutional page or PDF retrieved; evidence scope stated in text.",
+      "evidence_scope": "Scope limited to the specific statements cited."
+    },
+    {
+      "id": "wmo",
+      "label": "WMO: Extreme Heat",
+      "url": "https://wmo.int/themes/extreme-heat",
+      "last_checked": "2026-10-31",
+      "access_note": "Relevant primary/institutional page or PDF retrieved; evidence scope stated in text.",
+      "evidence_scope": "Scope limited to the specific statements cited."
+    },
+    {
+      "id": "ifc",
+      "label": "IFC (2024): Cooler Finance, results-based finance section",
+      "url": "https://www.ifc.org/content/dam/ifc/doc/2024/cooler-finance-report.pdf",
+      "last_checked": "2026-10-31",
+      "access_note": "Relevant primary/institutional page or PDF retrieved; evidence scope stated in text.",
+      "evidence_scope": "Scope limited to the specific statements cited."
+    },
+    {
+      "id": "wef",
+      "label": "WEF (2025): Insuring Against Extreme Heat",
+      "url": "https://ghhin.org/wp-content/uploads/WEF_Insuring_Against_Extreme_Heat_Navigating_Risks_in_a_Warming_World_2025.pdf",
+      "last_checked": "2026-10-31",
+      "access_note": "Relevant primary/institutional page or PDF retrieved; evidence scope stated in text.",
+      "evidence_scope": "Scope limited to the specific statements cited."
+    },
+    {
+      "id": "undrr",
+      "label": "UNDRR / NDMA / CDP (2026): Financing heat resilience, landing-page summary only",
+      "url": "https://www.undrr.org/publication/documents-and-publications/financing-heat-resilience",
+      "last_checked": "2026-10-31",
+      "access_note": "Landing-page summary reviewed; full report download not retrieved.",
+      "evidence_scope": "Scope limited to the specific statements cited."
+    },
+    {
+      "id": "tokio",
+      "label": "Tokio Marine X: Heatstroke coverage FAQ (Japanese)",
+      "url": "https://www.tokiomarine-x.co.jp/faq/heatstroke-coverage.html",
+      "last_checked": "2026-10-31",
+      "access_note": "Relevant primary/institutional page or PDF retrieved; evidence scope stated in text.",
+      "evidence_scope": "Scope limited to the specific statements cited."
+    },
+    {
+      "id": "crop",
+      "label": "Government of India PIB (2026): PMFBY coverage and exclusions",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2304549&lang=1&reg=48",
+      "last_checked": "2026-10-31",
+      "access_note": "Relevant primary/institutional page or PDF retrieved; evidence scope stated in text.",
+      "evidence_scope": "Scope limited to the specific statements cited."
+    },
+    {
+      "id": "rct",
+      "label": "J-PAL: Insuring Against Extreme Heat, randomized evaluation project",
+      "url": "https://www.povertyactionlab.org/initiative-project/insuring-against-extreme-heat-randomised-evaluation",
+      "last_checked": "2026-10-31",
+      "access_note": "Relevant primary/institutional page or PDF retrieved; evidence scope stated in text.",
+      "evidence_scope": "Study design only; no effect estimate extracted."
+    },
+    {
+      "id": "sigma",
+      "label": "Swiss Re Institute sigma 1/2025, tables 2–3 and definitions",
+      "url": "https://www.swissre.com/dam/jcr%3A46617c8b-98a4-4d54-b259-f4bdcbaab0b8/sri-sigma-natural-catastrophes-1-2025.pdf",
+      "last_checked": "2026-10-31",
+      "access_note": "Accessible PDF reviewed; 2024 table 3 includes natural and man-made disasters.",
+      "evidence_scope": "Scope limited to the specific statements cited."
+    },
+    {
+      "id": "hkfx",
+      "label": "HKMA: linked exchange rate system",
+      "url": "https://www.hkma.gov.hk/eng/key-functions/money/linked-exchange-rate-system/",
+      "last_checked": "2026-10-31",
+      "access_note": "Relevant primary/institutional page or PDF retrieved; evidence scope stated in text.",
+      "evidence_scope": "Scope limited to the specific statements cited."
+    }
+  ],
+  "alliance_roles": [
+    {
+      "side": "demand",
+      "examples": [
+        "Finance ministries",
+        "Cities",
+        "Health systems",
+        "Employers",
+        "Worker organisations"
+      ],
+      "role": "Define needs, duties, response costs and recipients."
+    },
+    {
+      "side": "supply",
+      "examples": [
+        "Insurers",
+        "Reinsurers",
+        "Lenders",
+        "Data providers"
+      ],
+      "role": "Supply contracted capital, credit, services and evidence."
+    },
+    {
+      "side": "platform",
+      "examples": [
+        "Regional facilities",
+        "Regulators",
+        "Humanitarian pooled funds"
+      ],
+      "role": "Set rules, aggregate or connect demand and supply; some also supply finance."
+    }
+  ],
+  "completion_audit": {
+    "all_instrument_rows_have_sources": true,
+    "all_instrument_rows_checked_on": "2026-10-31",
+    "all_requested_categories_addressed": true,
+    "all_categories_have_operational_heat_example": false,
+    "all_scheme_payment_states_explicit": true,
+    "full_trigger_schedules_verified": false,
+    "current_status_confirmed_for_all": false,
+    "household_cash_dates_complete": false,
+    "universal_typical_prices_available": false,
+    "measured_heat_effects_verified": false,
+    "financial_unknowns_withheld": true,
+    "publication_boundary": "Category map usable with explicit gaps. Do not render conceptual or non-heat examples as verified heat products. Full contract and last-mile claims are not certified."
+  }
+}
