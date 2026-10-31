@@ -1,0 +1,14 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 0.94,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "Kathmandu. A valley city warming fast, below the Himalayan ice.",
+  "In the 2010s, Himalayan glaciers lost ice sixty-five per cent faster.",
+  "Nepal adopted a national heatwave plan in 2024.",
+  "Heat in the mountains reaches every river that flows from them."
+ ]
+}

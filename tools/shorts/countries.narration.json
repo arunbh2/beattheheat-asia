@@ -1,0 +1,14 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 0.94,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "Seven countries, one hot season.",
+  "Warnings, plans and protection differ from country to country.",
+  "Bangladesh, India, Indonesia, Nepal, the Philippines, Sri Lanka and Thailand.",
+  "Who warns, who plans, and who protects."
+ ]
+}

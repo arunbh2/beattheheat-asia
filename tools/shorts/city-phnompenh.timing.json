@@ -1,0 +1,37 @@
+{
+ "total": 20.42,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 6.35,
+   "beats": [
+    0.35
+   ],
+   "text": "Phnom Penh. A capital of garment factories and metal roofs, hottest before the rains."
+  },
+  {
+   "start": 6.35,
+   "dur": 5.97,
+   "beats": [
+    0.35
+   ],
+   "text": "In hot months, garment workers reporting heat symptoms rose to eighty-eight per cent."
+  },
+  {
+   "start": 12.32,
+   "dur": 3.6,
+   "beats": [
+    0.35
+   ],
+   "text": "A proposal would give the city heat thresholds."
+  },
+  {
+   "start": 15.92,
+   "dur": 4.5,
+   "beats": [
+    0.35
+   ],
+   "text": "Cooler factories protect workers, and the work."
+  }
+ ]
+}

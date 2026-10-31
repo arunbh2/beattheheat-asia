@@ -1,0 +1,37 @@
+{
+ "total": 20.8,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 6.06,
+   "beats": [
+    0.35
+   ],
+   "text": "Dhaka. One of the world\u2019s densest cities, where heat fills tin-roofed homes."
+  },
+  {
+   "start": 6.06,
+   "dur": 6.22,
+   "beats": [
+    0.35
+   ],
+   "text": "Heat illness cost Bangladesh two hundred and fifty million workdays in 2024."
+  },
+  {
+   "start": 12.28,
+   "dur": 4.02,
+   "beats": [
+    0.35
+   ],
+   "text": "Dhaka North appointed Asia\u2019s first chief heat officer."
+  },
+  {
+   "start": 16.3,
+   "dur": 4.5,
+   "beats": [
+    0.35
+   ],
+   "text": "Cooler roofs and paid rest protect both health and income."
+  }
+ ]
+}

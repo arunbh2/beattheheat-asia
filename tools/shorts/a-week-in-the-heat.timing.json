@@ -1,0 +1,37 @@
+{
+ "total": 15.64,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 3.6,
+   "beats": [
+    0.35
+   ],
+   "text": "A week in the heat."
+  },
+  {
+   "start": 3.6,
+   "dur": 3.6,
+   "beats": [
+    0.35
+   ],
+   "text": "Follow one worker\u2019s money through a heatwave week."
+  },
+  {
+   "start": 7.2,
+   "dur": 3.94,
+   "beats": [
+    0.35
+   ],
+   "text": "Build a package of protection. Then try to break it."
+  },
+  {
+   "start": 11.14,
+   "dur": 4.5,
+   "beats": [
+    0.35
+   ],
+   "text": "It only counts if they can use it."
+  }
+ ]
+}

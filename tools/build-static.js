@@ -460,7 +460,7 @@ require("./build-print")().then(list => {
   console.log("Wrote", list.length, "printable one-pagers");
   // last of all, once every page exists: one navigation on every page
   require("./build-ticker.js");
-  require("./build-nav.js")();
+  require("./build-nav.js")(); require("./shorts/embed.js");
 });
 console.log("Wrote", PAGES.length + CITY_PAGES.length, "pages, llms.txt, llms-full.txt, sitemap.xml and robots.txt");
 

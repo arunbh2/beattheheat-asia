@@ -1,0 +1,14 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 0.94,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "Jakarta. A sprawling capital where the heat is humid all year round.",
+  "By 2040, half of Southeast Asia’s air conditioners could be in Indonesia.",
+  "In 2025, health facilities were told to prepare for heat illness.",
+  "Shade and cool roofs can keep that boom smaller."
+ ]
+}

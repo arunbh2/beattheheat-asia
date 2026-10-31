@@ -1,0 +1,14 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 0.94,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "Hanoi. A fast-growing capital whose power and water strain together in the heat.",
+  "In 2023, heat and low reservoirs led to blackouts costing about one point four billion dollars.",
+  "The Red Cross tested early action, triggered by a heat forecast.",
+  "Plan cooling, power and water together."
+ ]
+}

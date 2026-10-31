@@ -1,0 +1,40 @@
+{
+ "total": 21.26,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 3.6,
+   "beats": [
+    0.35
+   ],
+   "text": "Not all cooling is equal."
+  },
+  {
+   "start": 3.6,
+   "dur": 7.59,
+   "beats": [
+    0.35,
+    1.56,
+    3.87,
+    5.88
+   ],
+   "text": "Three families. Passive cooling, like shade and trees. Active cooling, like fans. And plans and money."
+  },
+  {
+   "start": 11.19,
+   "dur": 4.71,
+   "beats": [
+    0.35
+   ],
+   "text": "Air conditioning protects people, but adds heat outside."
+  },
+  {
+   "start": 15.9,
+   "dur": 5.36,
+   "beats": [
+    0.35
+   ],
+   "text": "A hundred and thirty-one solutions, with evidence, costs and limits."
+  }
+ ]
+}

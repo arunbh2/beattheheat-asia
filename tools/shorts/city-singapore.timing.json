@@ -1,0 +1,37 @@
+{
+ "total": 21.33,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 4.45,
+   "beats": [
+    0.35
+   ],
+   "text": "Singapore. A city-state of hot nights and dense towers."
+  },
+  {
+   "start": 4.45,
+   "dur": 5.61,
+   "beats": [
+    0.35
+   ],
+   "text": "Singapore averages seventy-six warm nights a year, and more are coming."
+  },
+  {
+   "start": 10.06,
+   "dur": 6.77,
+   "beats": [
+    0.35
+   ],
+   "text": "A national advisory rates heat stress as low, moderate or high, with advice for each."
+  },
+  {
+   "start": 16.83,
+   "dur": 4.5,
+   "beats": [
+    0.35
+   ],
+   "text": "Measure heat where people work."
+  }
+ ]
+}

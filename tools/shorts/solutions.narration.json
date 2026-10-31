@@ -1,0 +1,14 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 0.94,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "Not all cooling is equal.",
+  "Three families. | Passive cooling, like shade and trees. | Active cooling, like fans. | And plans and money.",
+  "Air conditioning protects people, but adds heat outside.",
+  "A hundred and thirty-one solutions, with evidence, costs and limits."
+ ]
+}

@@ -9,15 +9,17 @@ const { chromium } = require(process.env.PW || "playwright");
 const { spawn, execFileSync } = require("child_process"), path = require("path"), fs = require("fs");
 const [name = "heat-and-lenders", secs = "58", fpsArg = "25", posterAt = "3"] = process.argv.slice(2);
 const ROOT = path.join(__dirname, "..", ".."), fps = +fpsArg;
-const timingFile = path.join(__dirname, name + ".timing.json"), timing = fs.existsSync(timingFile) ? JSON.parse(fs.readFileSync(timingFile, "utf8")) : null;
+// FILM_DIR and FILM_OUT render another set of films, e.g. FILM_DIR=tools/shorts FILM_OUT=shorts
+const DIR = process.env.FILM_DIR ? path.resolve(ROOT, process.env.FILM_DIR) : __dirname, OUTSUB = process.env.FILM_OUT || "films";
+const timingFile = path.join(DIR, name + ".timing.json"), timing = fs.existsSync(timingFile) ? JSON.parse(fs.readFileSync(timingFile, "utf8")) : null;
 const total = Math.round((timing ? timing.total : +secs) * fps);
 (async () => {
   const b = await chromium.launch(), p = await b.newPage({ viewport: { width: 1280, height: 720 } });
-  await p.goto("file://" + path.join(__dirname, name + ".html")); await p.evaluate(() => document.fonts.ready);
+  await p.goto("file://" + path.join(DIR, name + ".html")); await p.evaluate(() => document.fonts.ready);
   if (timing) await p.evaluate(T => document.querySelectorAll("section.s").forEach((sec, i) => { const s = T.scenes[i]; if (!s) return;
     sec.style.setProperty("--start", s.start + "s"); sec.style.setProperty("--dur", s.dur + "s");
     sec.querySelectorAll("[data-beat]").forEach(el => { const b = s.beats[+el.dataset.beat]; if (b != null) el.style.setProperty("--d", (b + 0.1) + "s"); }); }), timing);
-  const out = path.join(ROOT, "media", "films", name);
+  const out = path.join(ROOT, "media", OUTSUB, name);
   const voice = out + ".voice.wav", sound = timing && fs.existsSync(voice);
   if (sound) execFileSync("python3", [path.join(__dirname, "music.py"), out + ".music.wav", String(timing.total)], { stdio: "inherit" });
   const ff = spawn("ffmpeg", ["-v", "error", "-y", "-f", "image2pipe", "-framerate", String(fps), "-i", "-", ...(sound ? ["-i", voice, "-i", out + ".music.wav", "-filter_complex", "[2]volume=0.55[m];[1][m]amix=inputs=2:normalize=0,loudnorm=I=-16:TP=-1.5:LRA=11[a]", "-map", "0:v", "-map", "[a]", "-c:a", "aac", "-b:a", "128k"] : []), "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "24", "-preset", "slow", "-movflags", "+faststart", out + ".mp4"], { stdio: ["pipe", "inherit", "inherit"] });

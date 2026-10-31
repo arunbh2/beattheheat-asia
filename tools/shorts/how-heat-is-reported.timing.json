@@ -1,0 +1,40 @@
+{
+ "total": 19.98,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 3.6,
+   "beats": [
+    0.35
+   ],
+   "text": "How is heat reported?"
+  },
+  {
+   "start": 3.6,
+   "dur": 5.79,
+   "beats": [
+    0.35
+   ],
+   "text": "The damage is well covered: lost lives, lost work, closed schools."
+  },
+  {
+   "start": 9.39,
+   "dur": 6.09,
+   "beats": [
+    0.35,
+    2.64,
+    3.39,
+    4.51
+   ],
+   "text": "The strongest reporting also asks who pays, who decides, and who checks."
+  },
+  {
+   "start": 15.48,
+   "dur": 4.5,
+   "beats": [
+    0.35
+   ],
+   "text": "All the way to results."
+  }
+ ]
+}

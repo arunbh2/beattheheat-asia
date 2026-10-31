@@ -1,0 +1,37 @@
+{
+ "total": 20.62,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.28,
+   "beats": [
+    0.35
+   ],
+   "text": "Bangkok. A tropical megacity where heat costs lives and livelihoods."
+  },
+  {
+   "start": 5.28,
+   "dur": 4.92,
+   "beats": [
+    0.35
+   ],
+   "text": "Nearly eight in ten informal workers surveyed cut their hours in the heat."
+  },
+  {
+   "start": 10.2,
+   "dur": 5.92,
+   "beats": [
+    0.35
+   ],
+   "text": "In 2026, Bangkok opened three hundred and four cooling centres."
+  },
+  {
+   "start": 16.12,
+   "dur": 4.5,
+   "beats": [
+    0.35
+   ],
+   "text": "They work best close to home."
+  }
+ ]
+}

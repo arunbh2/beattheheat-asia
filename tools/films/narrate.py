@@ -13,9 +13,13 @@ import json, os, subprocess, sys, tempfile, wave
 
 name = sys.argv[1] if len(sys.argv) > 1 else "heat-and-lenders"
 here = os.path.dirname(os.path.abspath(__file__)); root = os.path.dirname(os.path.dirname(here))
+# FILM_DIR and FILM_OUT voice another set of films, e.g. FILM_DIR=tools/shorts FILM_OUT=shorts
+if os.environ.get("FILM_DIR"): here = os.path.join(root, os.environ["FILM_DIR"])
+sub = os.environ.get("FILM_OUT", "films")
 cfg = json.load(open(os.path.join(here, name + ".narration.json"), encoding="utf-8"))
 model, v = os.environ["PIPER_VOICE"], cfg["voice"]
 LEAD, TAIL, GAP, MIN = 0.6, 1.1, 0.35, 5.0      # silence before speech, after it, between beats; shortest scene
+if os.environ.get("FILM_PACE") == "short": LEAD, TAIL, GAP, MIN = 0.35, 0.6, 0.2, 3.6   # the 25-second films
 tmp = tempfile.mkdtemp()
 
 def speak(text, path):
@@ -30,13 +34,14 @@ for i, line in enumerate(cfg["scenes"]):
         path = os.path.join(tmp, f"s{i}b{j}.wav"); d = speak(part, path)
         beats.append(round(cursor, 2)); clips.append((t + cursor, path)); cursor += d + GAP
     length = round(max(MIN, cursor - GAP + TAIL), 2)
+    if i == len(cfg["scenes"]) - 1 and os.environ.get("FILM_PACE") == "short": length = max(length, 4.5)   # time to read the closing card
     scenes.append({"start": round(t, 2), "dur": length, "beats": beats, "text": line.replace(" | ", " ").replace("|", " ")})
     t += length
 total = round(t, 2)
 json.dump({"total": total, "scenes": scenes}, open(os.path.join(here, name + ".timing.json"), "w"), indent=1)
 
 # one voice track: each clip delayed to its place, mixed together
-out = os.path.join(root, "media", "films", name + ".voice.wav")
+out = os.path.join(root, "media", sub, name + ".voice.wav")
 args = ["ffmpeg", "-v", "error", "-y"]
 for _, p in clips: args += ["-i", p]
 f = "".join(f"[{k}]adelay={int(s*1000)}|{int(s*1000)},apad=whole_dur={total}[a{k}];" for k, (s, _) in enumerate(clips))

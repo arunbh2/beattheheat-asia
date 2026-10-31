@@ -1,0 +1,37 @@
+{
+ "total": 21.07,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.35
+   ],
+   "text": "Colombo. A coastal capital where humid heat meets markets and harbours."
+  },
+  {
+   "start": 5.0,
+   "dur": 5.95,
+   "beats": [
+    0.35
+   ],
+   "text": "Heat advisories ask people to work in the shade. Market and fish workers often cannot."
+  },
+  {
+   "start": 10.95,
+   "dur": 5.62,
+   "beats": [
+    0.35
+   ],
+   "text": "The city has worked on guidelines for a heat plan that takes women\u2019s work into account."
+  },
+  {
+   "start": 16.57,
+   "dur": 4.5,
+   "beats": [
+    0.35
+   ],
+   "text": "Advice works when it fits how people earn a living."
+  }
+ ]
+}
