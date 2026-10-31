@@ -2268,7 +2268,7 @@ From interviews with city officials in October and November 2024 and published m
 
 ## Plain-language glossary of extreme heat
 
-60 terms that come up again and again in extreme heat, explained in a sentence or two.
+85 terms that come up again and again in extreme heat, explained in a sentence or two.
 
 ### What heat does to the body
 
@@ -2281,6 +2281,24 @@ From interviews with city officials in October and November 2024 and published m
 - **Acclimatisation**: The body slowly adjusting to heat over one to two weeks. New and returning workers are most at risk until it has.
 
 - **Excess deaths**: Deaths above the normal number for that place and time of year. Because death certificates rarely say “heat”, this is how the real toll of a heatwave is counted.
+
+- **Older people and heat**: With age, thirst fades and the body sweats less, so it cools more slowly and the heart works harder. Older people in a Kolkata informal settlement were 4.3 times more likely than those in a nearby village to face dangerous heat, because their homes stayed hot at night.
+
+- **Heat in pregnancy**: A pregnant body runs warm and has less room to cool. Each 1 °C rise raises the odds of a preterm birth by about 5%, and a heatwave by about 16%.
+
+- **Babies and young children in heat**: Babies and small children overheat and lose water faster than adults, and depend on someone else to notice. In 2014–2023, each infant in India faced an average of 7.7 heatwave days a year, 47% more than in the 1990s.
+
+- **Heat, kidneys and the heart**: Sweating and dehydration make the heart work harder and can damage the kidneys, especially with repeated exposure. People already living with heart, kidney or lung conditions have less room to cope.
+
+- **Sleep in the heat**: To fall asleep, the body needs to cool. On hot nights sleep comes later and ends sooner, so the next day starts already depleted. A study of 47,628 people’s sleep wristbands in 68 countries found hot nights cut sleep.
+
+- **Heat and the mind**: Heat is linked to more anxiety, distress and suicide, and to worse outcomes for people living with mental illness.
+
+- **When home is hotter than outside**: Thin metal roofs, small windows and crowded rooms can make a home hotter inside than out, worst at night. In Ahmedabad, people in informal settlements faced temperatures up to 7.6 °C higher than people in formal housing.
+
+- **Kitchen heat**: Cooking over a fire in a small, smoky kitchen during a heatwave: a daily ‘thermal labour’ that falls hardest on women in the poorest single-room homes.
+
+- **Heat illness first aid**: Heatstroke is an emergency, and cooling buys time: move the person to shade, cool them with water and fanning, call for help, and give small sips of water only if they are awake. Hot skin with confusion can mean heatstroke.
 
 ### How heat is measured
 
@@ -2330,6 +2348,16 @@ From interviews with city officials in October and November 2024 and published m
 
 - **Heat and learning**: Lost schooling when heat closes schools or makes classrooms too hot to learn in. In April 2024, Bangladesh closed schools for about 33 million children, and 5,288 schools in the Philippines moved to remote learning.
 
+- **Heat check-ins**: A call or a knock for people who live alone or can’t easily leave home. In Chicago’s 1995 heatwave, living alone and not leaving home were among the strongest risks of dying.
+
+- **Heat in closed places**: Prisons, hostels, care homes and crowded shelters, where people can’t leave for shade. Tamil Nadu’s heat strategy names prisoners among the groups it is meant to reach, and proposes cool roofs and trees for its jails.
+
+- **Clinics in a heatwave**: Heatwaves bring surges of patients just as staff, power and supplies are under strain. In 2024, Indian hospitals prepared heatstroke rooms, ice baths and cooled beds before the peak.
+
+- **Warning the hospitals first**: A heat warning that reaches clinics a day or two early, so they can add staff, stock fluids and clear beds. After Ahmedabad’s plan prepared hospitals and warned the public, an evaluation estimated about 1,190 deaths a year were avoided.
+
+- **Cool classrooms**: A hot classroom is hard to learn in, and when it becomes unsafe, schools close. In 2024, heatwaves disrupted the schooling of 171 million students; South Asia was the most affected region.
+
 ### Money and protection
 
 - **Parametric insurance**: Insurance that pays out automatically when a measured trigger, such as a temperature threshold, is crossed. There is no claim form and no damage assessment.
@@ -2376,6 +2404,18 @@ From interviews with city officials in October and November 2024 and published m
 
 - **Peat fires**: Fires that smoulder in drained peatland, the thick, wet soil of tropical swamps. Once dry, peat burns underground for weeks and fills the air with haze. Indonesia’s 2015 forest and peat fires cost an estimated US$16.1 billion.
 
+- **Cold chains in the heat**: Every fridge and cool box from the factory to the patient or the plate. Without reliable power, fridges for food, medicines and vaccines fail; 526 million tonnes of food are lost each year for lack of refrigeration.
+
+- **When phones go quiet**: Phone masts and networks need power and cooling too. In Bangladesh in 2026, mobile signals weakened as blackouts spread; warnings, mobile payments and calls for help all ride on them.
+
+- **Power grids in a heatwave**: Demand peaks as everyone switches on cooling, just as hot lines and transformers struggle. An early World Bank estimate put the cost of northern Viet Nam’s power cuts in May and June 2023 at US$1.4 billion.
+
+- **Water for power, power for water**: Many power plants need water to cool, and water pumps need power to run, so in a heatwave each strains the other. In 2016, India lost 14 TWh of electricity because thermal power plants ran short of water.
+
+- **The diesel fallback**: When the grid fails, homes, shops and hospitals that can afford it switch to diesel generators, which keep the lights on and add to the heat and the smoke. There are 20 to 30 million back-up generator sites in low- and middle-income countries.
+
+- **Roads and rails in the heat**: Steel rails expand and can buckle, so trains slow; roads soften; hot, thin air means planes need longer runways. Journeys, shifts and supplies, including medicines and food, are delayed.
+
 ### Nature in the city
 
 - **Evapotranspiration**: Water evaporating from soil and leaves. It draws heat out of the air, so well-watered plants cool their surroundings. Plants short of water stop cooling.
@@ -2401,6 +2441,16 @@ From interviews with city officials in October and November 2024 and published m
 - **Agroforestry**: Growing trees alongside crops or livestock. The trees shade the soil, help it hold moisture and give farmers another source of income.
 
 - **Hot nights and crops**: Crops need cool nights too. At the International Rice Research Institute in the Philippines, rice yields fell about 10% for each 1 °C rise in growing-season night temperature.
+
+- **City trees under heat**: Heat, drought and missing upkeep can kill street trees just when their shade is needed. Across 164 cities, 56% of urban tree and shrub species already face temperatures beyond their natural range, and 76% could by 2050.
+
+- **Shade follows wealth**: Trees and parks cluster in better-off neighbourhoods, which can pay for them and their upkeep, so poorer districts stay hotter. In Jakarta, green space is concentrated in wealthier areas while dense low-income neighbourhoods act as heat islands.
+
+- **When dry soil heats the air**: Moist soil cools the air as its water evaporates. When soil dries, that cooling stops, so the air heats faster and dries the soil further: a loop that water kept in the ground can break.
+
+- **Asia’s last tropical ice**: On Puncak Jaya in Papua, Indonesia, 99% of the glacier area has gone since 1850. About 0.17 km² was left in 2024, and it will very likely disappear around 2030.
+
+- **Heat, drought and salt water**: Heat and drought lower rivers and canals, and the sea pushes inland. In Viet Nam’s Mekong Delta in February 2024, farmers who pumped salty canal water onto their rice lost up to half their crop.
 
 ## Organisations working on extreme heat
 

@@ -1,0 +1,40 @@
+{
+ "total": 31.67,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Who needs a heat warning before the public?"
+  },
+  {
+   "start": 5.0,
+   "dur": 10.04,
+   "beats": [
+    0.6,
+    1.95,
+    5.48
+   ],
+   "text": "The hospitals. A warning that reaches clinics early lets them add staff, stock fluids and clear beds before the heat arrives."
+  },
+  {
+   "start": 15.04,
+   "dur": 11.63,
+   "beats": [
+    0.6,
+    4.89
+   ],
+   "text": "After Ahmedabad\u2019s heat plan prepared hospitals and warned the public, an evaluation estimated about one thousand one hundred and ninety deaths a year were avoided."
+  },
+  {
+   "start": 26.67,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Warn the clinics, then the streets."
+  }
+ ]
+}

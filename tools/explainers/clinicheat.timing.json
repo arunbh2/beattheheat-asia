@@ -1,0 +1,48 @@
+{
+ "total": 32.51,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "What happens to a hospital in a heatwave?"
+  },
+  {
+   "start": 5.0,
+   "dur": 5.94,
+   "beats": [
+    0.6,
+    2.27
+   ],
+   "text": "More patients arrive, just as power, staff and supplies are stretched."
+  },
+  {
+   "start": 10.94,
+   "dur": 8.95,
+   "beats": [
+    0.6,
+    5.27
+   ],
+   "text": "In 2024, Indian hospitals prepared heatstroke rooms, ice baths and cooled beds before the peak."
+  },
+  {
+   "start": 19.89,
+   "dur": 7.62,
+   "beats": [
+    0.6,
+    4.11
+   ],
+   "text": "And a clinic that loses power loses its cooling too. Back-up power and a cool room keep care going."
+  },
+  {
+   "start": 27.51,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Clinics that stay cool, so they can keep others cool."
+  }
+ ]
+}

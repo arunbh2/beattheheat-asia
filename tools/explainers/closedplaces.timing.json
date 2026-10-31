@@ -1,0 +1,47 @@
+{
+ "total": 34.45,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "What if you can\u2019t leave when it\u2019s too hot?"
+  },
+  {
+   "start": 5.0,
+   "dur": 9.77,
+   "beats": [
+    0.6,
+    4.46
+   ],
+   "text": "Some people can\u2019t go to shade, or a cooling centre: people in prisons, hostels, care homes and crowded shelters."
+  },
+  {
+   "start": 14.77,
+   "dur": 9.68,
+   "beats": [
+    0.6,
+    5.68
+   ],
+   "text": "Tamil Nadu\u2019s heat strategy names prisoners among the groups it is meant to reach, and proposes cool roofs and trees for its jails."
+  },
+  {
+   "start": 24.45,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Whoever holds the key holds the duty of care."
+  },
+  {
+   "start": 29.45,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Heat plans that reach every building."
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "Why do the lights go out when it’s hottest?",
+  "Everyone switches on fans and air conditioners at once. | Lines and transformers run hot, | and some give way.",
+  "In northern Viet Nam in 2023, heat pushed up demand and dried hydropower reservoirs. | An early World Bank estimate put the cost of the power cuts at one point four billion dollars.",
+  "A blackout switches off cooling when it matters most. | Cooler buildings and efficient machines lower the peak.",
+  "Lower the peak, keep the power on."
+ ]
+}

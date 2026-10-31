@@ -1,0 +1,48 @@
+{
+ "total": 37.33,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Who checks on you in a heatwave?"
+  },
+  {
+   "start": 5.0,
+   "dur": 8.32,
+   "beats": [
+    0.6,
+    3.54
+   ],
+   "text": "A heat check-in is a call or a knock for people who live alone or can\u2019t easily leave home."
+  },
+  {
+   "start": 13.32,
+   "dur": 11.62,
+   "beats": [
+    0.6,
+    6.43
+   ],
+   "text": "In Chicago\u2019s 1995 heatwave, many of those who died were alone at home. Living alone, and not leaving home, were among the strongest risks."
+  },
+  {
+   "start": 24.94,
+   "dur": 7.39,
+   "beats": [
+    0.6,
+    3.75
+   ],
+   "text": "Neighbours, community health workers, a phone call: cheap, simple, and often what makes the difference."
+  },
+  {
+   "start": 32.33,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "No one alone in the heat."
+  }
+ ]
+}

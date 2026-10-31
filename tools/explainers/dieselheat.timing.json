@@ -1,0 +1,48 @@
+{
+ "total": 32.29,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "When the grid fails, what keeps running?"
+  },
+  {
+   "start": 5.0,
+   "dur": 6.14,
+   "beats": [
+    0.6,
+    3.71
+   ],
+   "text": "For homes, shops and hospitals that can afford them, diesel generators."
+  },
+  {
+   "start": 11.14,
+   "dur": 8.28,
+   "beats": [
+    0.6,
+    4.91
+   ],
+   "text": "There are twenty to thirty million back-up generator sites in poorer countries, noisy, polluting, and costly to run."
+  },
+  {
+   "start": 19.42,
+   "dur": 7.87,
+   "beats": [
+    0.6,
+    3.89
+   ],
+   "text": "It keeps the lights on, and adds to the heat. Steadier grids and clean back-up power break the loop."
+  },
+  {
+   "start": 27.29,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Back-up power that doesn\u2019t warm the city."
+  }
+ ]
+}

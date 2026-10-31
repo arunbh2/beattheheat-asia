@@ -1,0 +1,14 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "There is ice on the equator. For now.",
+  "High on Puncak Jaya, in Papua, Indonesia, | sits Southeast Asia’s last tropical ice.",
+  "Ninety-nine per cent of its glacier area has gone since 1850. | What remains will very likely disappear around 2030.",
+  "What we lose, we can still slow elsewhere."
+ ]
+}

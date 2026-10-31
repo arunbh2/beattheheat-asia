@@ -1,0 +1,49 @@
+{
+ "total": 38.86,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Who works in the hottest room of the house?"
+  },
+  {
+   "start": 5.0,
+   "dur": 8.92,
+   "beats": [
+    0.6,
+    2.94,
+    6.44
+   ],
+   "text": "Very often, women and girls, cooking over a fire in a small, smoky kitchen, in the middle of a heatwave."
+  },
+  {
+   "start": 13.92,
+   "dur": 9.09,
+   "beats": [
+    0.6,
+    3.92
+   ],
+   "text": "A study in Nepal calls it a daily thermal labour, heaviest for women in the poorest single-room homes."
+  },
+  {
+   "start": 23.01,
+   "dur": 10.85,
+   "beats": [
+    0.6,
+    5.73
+   ],
+   "text": "And when heat makes people ill, the extra caring usually falls on women and girls: fetching water, nursing the sick, minding children home from school."
+  },
+  {
+   "start": 33.86,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Cleaner stoves, cooler kitchens, shared care."
+  }
+ ]
+}

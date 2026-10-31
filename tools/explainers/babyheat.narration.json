@@ -1,0 +1,15 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "A baby can’t tell you it’s too hot.",
+  "Small bodies heat up and lose water faster than adults’, | and they depend on someone else to notice.",
+  "In India, each infant faced an average of seven point seven heatwave days a year, | forty-seven per cent more than in the 1990s.",
+  "Shade, fluids, and a cool place to sleep, | and a clinic that knows heat is on its way.",
+  "The smallest people need the closest watch."
+ ]
+}

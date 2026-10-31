@@ -1,0 +1,40 @@
+{
+ "total": 28.49,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Can dry ground make a heatwave worse?"
+  },
+  {
+   "start": 5.0,
+   "dur": 11.83,
+   "beats": [
+    0.6,
+    4.43,
+    7.43
+   ],
+   "text": "Moist soil cools the air as its water evaporates. When the soil dries out, that cooling stops, so the air heats faster, and dries the soil further."
+  },
+  {
+   "start": 16.83,
+   "dur": 6.66,
+   "beats": [
+    0.6,
+    3.38
+   ],
+   "text": "Keeping water in the ground keeps the cooling in: ponds, mulch, trees and wetlands."
+  },
+  {
+   "start": 23.49,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Wet ground, cooler air."
+  }
+ ]
+}

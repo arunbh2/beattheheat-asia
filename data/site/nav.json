@@ -27,7 +27,10 @@
      ["/worked-plans/", "Worked plans", "How places in Asia turned heat risk into a plan", 1],
      ["/who-holds-it/", "Who holds it up", "Who could permit, pay for, deliver and check each action", 1],
      ["/together/", "Make it work together", "Agree who does what in one place", 2],
-     ["/a-week-in-the-heat/", "A week in the heat", "Follow one worker’s money through a heatwave", 1],
+     ["/live-through-a-heatwave/", "Live through a heatwave", "A night at home, a city under strain, a worker’s week", 1],
+     ["/a-night-in-the-heat/", "A night in the heat", "Care and health through a hot night and a clinic visit", 2],
+     ["/a-city-under-strain/", "A city under strain", "Power, water, clinics and trees through a heatwave", 2],
+     ["/a-week-in-the-heat/", "A week in the heat", "Follow one worker’s money through a heatwave", 2],
      ["/practical-actions/", "Practical actions, as text", "Every action card in plain text", 2],
      ["/actions/", "Actions that break the cycles", "The 29 levers, as text", 2]
     ] },
@@ -54,7 +57,7 @@
      ["/how-heat-is-reported/", "How heat is reported", "What the coverage shows, across ten languages", 1],
      ["/news/", "Heat in the news", "Headlines and new research, refreshed automatically", 1],
      ["/sources/", "Sources and references", "Every source the site cites, searchable", 1],
-     ["/glossary/", "Glossary", "Sixty terms, each with a short film", 1],
+     ["/glossary/", "Glossary", "Eighty-five terms, each with a short film", 1],
      ["/approach/", "How Common Shade sees heat", "The ideas and standards behind the site", 2],
      ["/print/", "Printable one-pagers", "Briefs for officials, partners and funders", 2],
      ["/cite/", "Cite and reuse", "How to cite the site and reuse its data", 2],
@@ -64,6 +67,6 @@
  "footer_extra": [["/guide/", "How to use this site"], ["/paths/", "Paths by role"], ["/join/", "Help build Common Shade"], ["/cite/", "Cite and reuse"], ["/approach/", "How we check facts"], ["/corrections/", "Corrections"], ["/llms-full.txt", "Everything as one text file"]],
  "names": {
   "/heat-economy/businesses/": "Businesses", "/heat-economy/money/": "Funders and funding", "/heat-economy/opportunities/": "Ideas", "/heat-economy/conditions/": "Questions to ask", "/heat-economy/flows/": "Follow the money",
-  "/understand/": "Understand heat", "/act/": "Act", "/fund/": "Fund and build", "/evidence/": "News and evidence", "/paths/": "Paths by role", "/corrections/": "Corrections", "/evidence-map/": "Evidence map", "/who-holds-it/": "Who holds it up", "/build/": "Build protection", "/atlas/": "Atlas", "/paying-when-heat-strikes/": "Paying when heat strikes"
+  "/understand/": "Understand heat", "/act/": "Act", "/fund/": "Fund and build", "/evidence/": "News and evidence", "/paths/": "Paths by role", "/corrections/": "Corrections", "/evidence-map/": "Evidence map", "/who-holds-it/": "Who holds it up", "/build/": "Build protection", "/atlas/": "Atlas", "/live-through-a-heatwave/": "Live through a heatwave", "/paying-when-heat-strikes/": "Paying when heat strikes"
  }
 }

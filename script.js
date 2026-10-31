@@ -2397,6 +2397,11 @@
   }
 
   // Who heat hits hardest: exposure plus barriers, each group linked to its consequences and levers.
+  // the short films and simulation that go with each group (films are glossary terms with a video)
+  const RISK_FILMS = { older: ["olderheat", "checkins", "sleepheat"], mothers: ["pregnancyheat", "babyheat"], settlements: ["homeheat", "shadegap"], women: ["kitchenheat"],
+    disability: ["kidneyheat", "mindheat"], excluded: ["closedplaces"], workers: ["firstaid", "workrest"], farmers: ["drysoilloop", "nightcrops"], coastal: ["saltwater"], remote: ["clinicheat", "telecomheat"] };
+  const RISK_SIM = { older: ["/a-night-in-the-heat/", "Live through a hot night"], mothers: ["/a-night-in-the-heat/", "Live through a hot night"], disability: ["/a-night-in-the-heat/", "Live through a hot night"],
+    settlements: ["/a-city-under-strain/", "See a city under strain"], workers: ["/a-week-in-the-heat/", "Live through a worker’s week"] };
   function renderAtRisk() {
     const box = document.getElementById("atrisk-list"), bar = document.getElementById("atrisk-barriers");
     if (!box || typeof AT_RISK === "undefined") return;
@@ -2407,6 +2412,7 @@
         ${[g.fact ? g : null, ...(g.more || [])].filter(Boolean).map(f => `<p class="risk__fact">${esc(f.fact)} <a href="${esc(f.source.url)}" target="_blank" rel="noopener">${esc(f.source.label)}<span class="visually-hidden"> (opens in a new tab)</span></a></p>`).join("")}
         <p class="risk__row"><span>On the map:</span> ${g.nodes.filter(id => byId[id]).map(id => `<button type="button" class="node-chip" data-go="${id}" style="--c:${byId[id].color}">${esc(plain(byId[id]))}</button>`).join("")}</p>
         <p class="risk__row risk__row--break"><span>What helps:</span> ${g.levers.filter(id => leverById[id]).map(id => `<button type="button" class="lever-chip" data-lever="${id}">${esc(leverById[id].title)}</button>`).join("")}</p>
+        ${(w => w.length ? `<p class="risk__row risk__row--watch"><span>Watch:</span> ${w.map(x => `<button type="button" class="gloss-watch" data-watch="${x.id}" aria-label="Watch: ${esc(x.term)} (${esc(x.length || "0:30")})"><span class="play-icon" aria-hidden="true"></span>${esc(x.term)}</button>`).join("")}${RISK_SIM[g.id] ? ` <a class="risk__sim" href="${RISK_SIM[g.id][0]}">${esc(RISK_SIM[g.id][1])} <span aria-hidden="true">→</span></a>` : ""}</p>` : "")((RISK_FILMS[g.id] || []).map(id => GLOSS.find(x => x.id === id && x.video)).filter(Boolean))}
       </article>`).join("");
   }
 
@@ -2519,7 +2525,7 @@
     jr.innerHTML = `<p class="pa-journeys__k">Start from a question</p>` + PA_Q.map(x => `<button type="button" class="pa-q" data-pa-go="${x.go}" aria-pressed="false">${esc(x.q)}</button>`).join("");
     tabs.innerHTML = PA.map(x => `<button type="button" role="tab" class="cool-tab" id="pa-tab-${x.id}" data-pa="${x.id}" aria-controls="pa-panel" aria-selected="false" tabindex="-1">${settingIcon(x.id)}${esc(x.name)}</button>`).join("");
     const hash = decodeURIComponent(location.hash.slice(1));
-    showPractical(hash.startsWith("practical-") && (PA.some(x => x.id === hash.slice(10)) || hash.slice(10) === "stalls") ? hash.slice(10) : PA[0].id);
+    showPractical(hash.startsWith("practical-") && (PA.some(x => x.id === hash.slice(10)) || hash.slice(10) === "stalls") ? hash.slice(10) : (PA.some(x => x.id === "homes") ? "homes" : PA[0].id));   // homes first: heat is not only a workplace problem
     const sec = document.getElementById("practical");
     // links such as #practical-clinics open that setting
     window.addEventListener("hashchange", () => { const h = decodeURIComponent(location.hash.slice(1)); if (!h.startsWith("practical-")) return;

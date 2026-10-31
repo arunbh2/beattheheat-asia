@@ -1,0 +1,15 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "Can a home be hotter inside than out?",
+  "Yes. Thin metal roofs heat fast, | small windows let little air through, | and the heat stays long after sunset.",
+  "In a survey of eight hundred and sixty households in Ahmedabad, | people in informal settlements faced temperatures up to seven point six degrees higher.",
+  "A cool roof can change the whole night: | reflective paint, shade and a cross-breeze, before any machine.",
+  "Safe from heat starts with the roof."
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "What keeps medicines and food safe in a heatwave?",
+  "The cold chain: every fridge and cool box | from the factory to the patient, or the plate.",
+  "Each year, five hundred and twenty-six million tonnes of food are lost for lack of refrigeration.",
+  "When the power fails in a heatwave, the chain breaks. | Solar fridges and back-up power keep vaccines safe.",
+  "Keep the chain cold, end to end."
+ ]
+}

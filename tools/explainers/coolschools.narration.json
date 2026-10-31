@@ -1,0 +1,15 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "What happens to school in a heatwave?",
+  "A hot classroom is hard to learn in, | and when it becomes unsafe, schools close.",
+  "In 2024, heatwaves disrupted the schooling of one hundred and seventy-one million students. | South Asia was the most affected region.",
+  "In the Philippines, five thousand two hundred and eighty-eight schools switched to remote learning in one week of April 2024.",
+  "Cool roofs, shade and water, so school can stay open."
+ ]
+}

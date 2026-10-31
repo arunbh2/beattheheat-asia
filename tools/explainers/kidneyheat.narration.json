@@ -1,0 +1,15 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "Where does heat do its quiet damage?",
+  "When you sweat, you lose water and salt. | The heart pumps harder to carry heat to the skin, | and the kidneys strain, especially when it happens day after day.",
+  "People already living with heart, kidney or lung conditions | have less room to cope.",
+  "That is why many heat deaths are recorded as something else: | a failing heart or kidneys, on a hot day.",
+  "Heat care is care for long-term illness too."
+ ]
+}

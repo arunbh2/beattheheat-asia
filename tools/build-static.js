@@ -192,11 +192,17 @@ const checkFor = (key, label) => `<aside class="cs-check" data-check="${key}" da
 {
   const p = PAGES[3], intro = "The same heatwave lands differently. Who is harmed depends on how exposed people are and what stands between them and safety.";
   let h = `<h2>Five questions behind every barrier</h2><ul>${D.AT_RISK_BARRIERS.map(b => `<li><strong>${esc(b.q)}</strong> ${esc(b.a)}</li>`).join("")}</ul>`, m = [`## ${p.title}`, intro, ...D.AT_RISK_BARRIERS.map(b => `- ${b.q} ${b.a}`)];
+  // the short films and simulation that go with each group (the same pairs as the map's version, in script.js)
+  const RISK_FILMS = { older: ["olderheat", "checkins", "sleepheat"], mothers: ["pregnancyheat", "babyheat"], settlements: ["homeheat", "shadegap"], women: ["kitchenheat"],
+    disability: ["kidneyheat", "mindheat"], excluded: ["closedplaces"], workers: ["firstaid", "workrest"], farmers: ["drysoilloop", "nightcrops"], coastal: ["saltwater"], remote: ["clinicheat", "telecomheat"] };
+  const RISK_SIM = { older: ["/a-night-in-the-heat/", "Live through a hot night"], mothers: ["/a-night-in-the-heat/", "Live through a hot night"], disability: ["/a-night-in-the-heat/", "Live through a hot night"],
+    settlements: ["/a-city-under-strain/", "See a city under strain"], workers: ["/a-week-in-the-heat/", "Live through a worker’s week"] };
   D.AT_RISK.forEach(g => {
     const facts = [g.fact ? g : null, ...(g.more || [])].filter(Boolean);
     h += `<h2 id="${g.id}">${esc(g.name)}</h2><p><strong>Exposed to:</strong> ${esc(g.exposure)}</p><p><strong>Held back by:</strong> ${esc(g.barriers)}</p>
       ${facts.map(f => `<p>${esc(f.fact)} ${ext(f.source.url, f.source.label)}</p>`).join("")}
-      <p><strong>What helps:</strong> ${g.levers.map(id => lever[id] ? `<a href="/actions/#${id}">${esc(lever[id].title)}</a>` : "").filter(Boolean).join(", ")}</p>`;
+      <p><strong>What helps:</strong> ${g.levers.map(id => lever[id] ? `<a href="/actions/#${id}">${esc(lever[id].title)}</a>` : "").filter(Boolean).join(", ")}</p>
+      ${(w => w.length ? `<p><strong>Watch:</strong> ${w.map(t => `<a href="/${t.video}">${esc(t.term)} (${esc(t.length)})</a>`).join(", ")}${RISK_SIM[g.id] ? `. Or <a href="${RISK_SIM[g.id][0]}">${esc(RISK_SIM[g.id][1].toLowerCase())}</a>` : ""}.</p>` : "")((RISK_FILMS[g.id] || []).map(id => D.GLOSSARY.find(t => t.id === id && t.video)).filter(Boolean))}`;
     m.push(`### ${g.name}`, `Exposed to: ${g.exposure}`, `Held back by: ${g.barriers}`, ...facts.map(f => `${f.fact} (${f.source.label}, ${f.source.url})`), `What helps: ${g.levers.map(id => (lever[id] || {}).title).filter(Boolean).join(", ")}`);
   });
   const S = D.STRAIN, src = f => `${ext(f.source.url, f.source.label)}${f.also ? ` ${ext(f.also.url, f.also.label)}` : ""}`;

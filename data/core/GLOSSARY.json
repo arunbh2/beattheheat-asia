@@ -690,5 +690,355 @@
       "label": "Mongabay India commentary, June 2026",
       "url": "https://india.mongabay.com/2026/06/indias-banks-are-sitting-on-a-heat-risk-they-have-barely-begun-to-price-commentary/"
     }
+  },
+  {
+    "id": "olderheat",
+    "group": "body",
+    "term": "Older people and heat",
+    "match": "older people and heat",
+    "auto": false,
+    "video": "media/glossary/olderheat.mp4",
+    "length": "0:42",
+    "text": "With age, thirst fades and the body sweats less, so it cools more slowly and the heart works harder. Older people in a Kolkata informal settlement were 4.3 times more likely than those in a nearby village to face dangerous heat, because their homes stayed hot at night.",
+    "source": {
+      "label": "Weitz, Mukhopadhyay and Das, International Journal of Biometeorology, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35359160/"
+    }
+  },
+  {
+    "id": "pregnancyheat",
+    "group": "body",
+    "term": "Heat in pregnancy",
+    "match": "heat in pregnancy",
+    "auto": false,
+    "video": "media/glossary/pregnancyheat.mp4",
+    "length": "0:37",
+    "text": "A pregnant body runs warm and has less room to cool. Each 1 °C rise raises the odds of a preterm birth by about 5%, and a heatwave by about 16%.",
+    "source": {
+      "label": "Chersich et al., BMJ, 2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33148618/"
+    }
+  },
+  {
+    "id": "babyheat",
+    "group": "body",
+    "term": "Babies and young children in heat",
+    "match": "babies and young children in heat",
+    "auto": false,
+    "video": "media/glossary/babyheat.mp4",
+    "length": "0:37",
+    "text": "Babies and small children overheat and lose water faster than adults, and depend on someone else to notice. In 2014–2023, each infant in India faced an average of 7.7 heatwave days a year, 47% more than in the 1990s.",
+    "source": {
+      "label": "Lancet Countdown, India data sheet, 2024",
+      "url": "https://lancetcountdown.org/wp-content/uploads/2024/10/Lancet-Countdown-2024_INDIA.pdf"
+    }
+  },
+  {
+    "id": "kidneyheat",
+    "group": "body",
+    "term": "Heat, kidneys and the heart",
+    "match": "heat, kidneys and the heart",
+    "auto": false,
+    "video": "media/glossary/kidneyheat.mp4",
+    "length": "0:35",
+    "text": "Sweating and dehydration make the heart work harder and can damage the kidneys, especially with repeated exposure. People already living with heart, kidney or lung conditions have less room to cope.",
+    "source": {
+      "label": "Kidney International Reports, 2023",
+      "url": "https://doi.org/10.1016/j.ekir.2023.04.011"
+    }
+  },
+  {
+    "id": "sleepheat",
+    "group": "body",
+    "term": "Sleep in the heat",
+    "match": "sleep in the heat",
+    "auto": false,
+    "video": "media/glossary/sleepheat.mp4",
+    "length": "0:36",
+    "text": "To fall asleep, the body needs to cool. On hot nights sleep comes later and ends sooner, so the next day starts already depleted. A study of 47,628 people’s sleep wristbands in 68 countries found hot nights cut sleep.",
+    "source": {
+      "label": "Minor et al., One Earth, 2022",
+      "url": "https://orbit.dtu.dk/en/publications/rising-temperatures-erode-human-sleep-globally/"
+    }
+  },
+  {
+    "id": "mindheat",
+    "group": "body",
+    "term": "Heat and the mind",
+    "match": "heat and the mind",
+    "auto": false,
+    "video": "media/glossary/mindheat.mp4",
+    "length": "0:31",
+    "text": "Heat is linked to more anxiety, distress and suicide, and to worse outcomes for people living with mental illness.",
+    "source": {
+      "label": "Thompson et al., The Lancet Planetary Health, 2023, summarised by Imperial College London",
+      "url": "https://www.imperial.ac.uk/news/246058/rising-temperatures-associated-with-poorer-mental/"
+    }
+  },
+  {
+    "id": "homeheat",
+    "group": "body",
+    "term": "When home is hotter than outside",
+    "match": "when home is hotter than outside",
+    "auto": false,
+    "video": "media/glossary/homeheat.mp4",
+    "length": "0:38",
+    "text": "Thin metal roofs, small windows and crowded rooms can make a home hotter inside than out, worst at night. In Ahmedabad, people in informal settlements faced temperatures up to 7.6 °C higher than people in formal housing.",
+    "source": {
+      "label": "Mahadevia et al., 2020, reported in Frontiers in Built Environment, 2022",
+      "url": "https://www.frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2022.874751/full"
+    }
+  },
+  {
+    "id": "kitchenheat",
+    "group": "body",
+    "term": "Kitchen heat",
+    "match": "kitchen heat",
+    "auto": false,
+    "video": "media/glossary/kitchenheat.mp4",
+    "length": "0:39",
+    "text": "Cooking over a fire in a small, smoky kitchen during a heatwave: a daily ‘thermal labour’ that falls hardest on women in the poorest single-room homes.",
+    "source": {
+      "label": "Ghimire and others, Frontiers in Public Health, 2025",
+      "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1657267/full"
+    }
+  },
+  {
+    "id": "firstaid",
+    "group": "body",
+    "term": "Heat illness first aid",
+    "match": "heat illness first aid",
+    "auto": false,
+    "video": "media/glossary/firstaid.mp4",
+    "length": "0:35",
+    "text": "Heatstroke is an emergency, and cooling buys time: move the person to shade, cool them with water and fanning, call for help, and give small sips of water only if they are awake. Hot skin with confusion can mean heatstroke.",
+    "source": {
+      "label": "National Centre for Disease Control, India: heat-related illnesses",
+      "url": "https://ncdc.mohfw.gov.in/uploads/pdf/6.%20Health%20Impact%20of%20Heat_Heat%20Related%20Illnesses.pdf"
+    }
+  },
+  {
+    "id": "checkins",
+    "group": "act",
+    "term": "Heat check-ins",
+    "match": "heat check-ins",
+    "auto": false,
+    "video": "media/glossary/checkins.mp4",
+    "length": "0:37",
+    "text": "A call or a knock for people who live alone or can’t easily leave home. In Chicago’s 1995 heatwave, living alone and not leaving home were among the strongest risks of dying.",
+    "source": {
+      "label": "Semenza et al., New England Journal of Medicine, 1996",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8649494/"
+    }
+  },
+  {
+    "id": "closedplaces",
+    "group": "act",
+    "term": "Heat in closed places",
+    "match": "heat in closed places",
+    "auto": false,
+    "video": "media/glossary/closedplaces.mp4",
+    "length": "0:34",
+    "text": "Prisons, hostels, care homes and crowded shelters, where people can’t leave for shade. Tamil Nadu’s heat strategy names prisoners among the groups it is meant to reach, and proposes cool roofs and trees for its jails.",
+    "source": {
+      "label": "Tamil Nadu Heat Mitigation Strategy, 2024",
+      "url": "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf"
+    }
+  },
+  {
+    "id": "clinicheat",
+    "group": "act",
+    "term": "Clinics in a heatwave",
+    "match": "clinics in a heatwave",
+    "auto": false,
+    "video": "media/glossary/clinicheat.mp4",
+    "length": "0:33",
+    "text": "Heatwaves bring surges of patients just as staff, power and supplies are under strain. In 2024, Indian hospitals prepared heatstroke rooms, ice baths and cooled beds before the peak.",
+    "source": {
+      "label": "Context (Thomson Reuters Foundation), 2024",
+      "url": "https://www.context.news/climate-risks/ice-baths-and-ventilators-indias-hospitals-adapt-to-killer-heat"
+    }
+  },
+  {
+    "id": "healthalert",
+    "group": "act",
+    "term": "Warning the hospitals first",
+    "match": "warning the hospitals first",
+    "auto": false,
+    "video": "media/glossary/healthalert.mp4",
+    "length": "0:32",
+    "text": "A heat warning that reaches clinics a day or two early, so they can add staff, stock fluids and clear beds. After Ahmedabad’s plan prepared hospitals and warned the public, an evaluation estimated about 1,190 deaths a year were avoided.",
+    "source": {
+      "label": "Hess et al., Journal of Environmental and Public Health, 2018",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6236972/"
+    }
+  },
+  {
+    "id": "coldchainheat",
+    "group": "cooling",
+    "term": "Cold chains in the heat",
+    "match": "cold chains in the heat",
+    "auto": false,
+    "video": "media/glossary/coldchainheat.mp4",
+    "length": "0:34",
+    "text": "Every fridge and cool box from the factory to the patient or the plate. Without reliable power, fridges for food, medicines and vaccines fail; 526 million tonnes of food are lost each year for lack of refrigeration.",
+    "source": {
+      "label": "UNEP and FAO, Sustainable Food Cold Chains, 2022",
+      "url": "https://www.unep.org/resources/report/sustainable-food-cold-chains-opportunities-challenges-and-way-forward"
+    }
+  },
+  {
+    "id": "telecomheat",
+    "group": "cooling",
+    "term": "When phones go quiet",
+    "match": "when phones go quiet",
+    "auto": false,
+    "video": "media/glossary/telecomheat.mp4",
+    "length": "0:34",
+    "text": "Phone masts and networks need power and cooling too. In Bangladesh in 2026, mobile signals weakened as blackouts spread; warnings, mobile payments and calls for help all ride on them.",
+    "source": {
+      "label": "Asia News Network, 2026",
+      "url": "https://asianews.network/?p=269961"
+    }
+  },
+  {
+    "id": "gridheat",
+    "group": "cooling",
+    "term": "Power grids in a heatwave",
+    "match": "power grids in a heatwave",
+    "auto": false,
+    "video": "media/glossary/gridheat.mp4",
+    "length": "0:41",
+    "text": "Demand peaks as everyone switches on cooling, just as hot lines and transformers struggle. An early World Bank estimate put the cost of northern Viet Nam’s power cuts in May and June 2023 at US$1.4 billion.",
+    "source": {
+      "label": "World Bank estimate, reported by AFP via The Manila Times, 2023",
+      "url": "https://manilatimes.net/2023/08/12/business/foreign-business/power-crisis-cost-vietnam-14b-wb/1904920/amp"
+    }
+  },
+  {
+    "id": "waterpower",
+    "group": "cooling",
+    "term": "Water for power, power for water",
+    "match": "water for power, power for water",
+    "auto": false,
+    "video": "media/glossary/waterpower.mp4",
+    "length": "0:29",
+    "text": "Many power plants need water to cool, and water pumps need power to run, so in a heatwave each strains the other. In 2016, India lost 14 TWh of electricity because thermal power plants ran short of water.",
+    "source": {
+      "label": "World Resources Institute, 2018",
+      "url": "https://www.wri.org/insights/40-indias-thermal-power-plants-are-water-scarce-areas-threatening-shutdowns"
+    }
+  },
+  {
+    "id": "dieselheat",
+    "group": "cooling",
+    "term": "The diesel fallback",
+    "match": "the diesel fallback",
+    "auto": false,
+    "video": "media/glossary/dieselheat.mp4",
+    "length": "0:32",
+    "text": "When the grid fails, homes, shops and hospitals that can afford it switch to diesel generators, which keep the lights on and add to the heat and the smoke. There are 20 to 30 million back-up generator sites in low- and middle-income countries.",
+    "source": {
+      "label": "IFC, The Dirty Footprint of the Broken Grid, 2019",
+      "url": "https://www.ifc.org/en/pressroom/2019/new-ifc-study-details-environmental-economic-health-costs-of-fossil-fuel-generators"
+    }
+  },
+  {
+    "id": "urbantrees",
+    "group": "nature",
+    "term": "City trees under heat",
+    "match": "city trees under heat",
+    "auto": false,
+    "video": "media/glossary/urbantrees.mp4",
+    "length": "0:40",
+    "text": "Heat, drought and missing upkeep can kill street trees just when their shade is needed. Across 164 cities, 56% of urban tree and shrub species already face temperatures beyond their natural range, and 76% could by 2050.",
+    "source": {
+      "label": "Esperon-Rodriguez et al., Nature Climate Change, 2022",
+      "url": "https://www.vibrantcitieslab.com/wordpress/wp-content/uploads/2023/08/climate-change-increases-global-risk-to-urban-forests.pdf"
+    }
+  },
+  {
+    "id": "shadegap",
+    "group": "nature",
+    "term": "Shade follows wealth",
+    "match": "shade follows wealth",
+    "auto": false,
+    "video": "media/glossary/shadegap.mp4",
+    "length": "0:36",
+    "text": "Trees and parks cluster in better-off neighbourhoods, which can pay for them and their upkeep, so poorer districts stay hotter. In Jakarta, green space is concentrated in wealthier areas while dense low-income neighbourhoods act as heat islands.",
+    "source": {
+      "label": "Wolch, Byrne and Newell, Landscape and Urban Planning, 2014",
+      "url": "https://urbansustainability.seas.umich.edu/wp-content/uploads/2014/06/Making-cities-just-green-enough.pdf"
+    }
+  },
+  {
+    "id": "coolschools",
+    "group": "act",
+    "term": "Cool classrooms",
+    "match": "cool classrooms",
+    "auto": false,
+    "video": "media/glossary/coolschools.mp4",
+    "length": "0:38",
+    "text": "A hot classroom is hard to learn in, and when it becomes unsafe, schools close. In 2024, heatwaves disrupted the schooling of 171 million students; South Asia was the most affected region.",
+    "source": {
+      "label": "UNICEF, Learning interrupted, 2025",
+      "url": "https://www.unicef.org/reports/learning-interrupted-global-snapshot-2024"
+    }
+  },
+  {
+    "id": "railsheat",
+    "group": "cooling",
+    "term": "Roads and rails in the heat",
+    "match": "roads and rails in the heat",
+    "auto": false,
+    "video": "media/glossary/railsheat.mp4",
+    "length": "0:31",
+    "text": "Steel rails expand and can buckle, so trains slow; roads soften; hot, thin air means planes need longer runways. Journeys, shifts and supplies, including medicines and food, are delayed.",
+    "source": {
+      "label": "Network Rail: buckled rails in summer heat",
+      "url": "https://www.networkrail.co.uk/running-the-railway/looking-after-the-railway/delays-explained/buckled-rail-and-summer-heat"
+    }
+  },
+  {
+    "id": "drysoilloop",
+    "group": "nature",
+    "term": "When dry soil heats the air",
+    "match": "when dry soil heats the air",
+    "auto": false,
+    "video": "media/glossary/drysoilloop.mp4",
+    "length": "0:28",
+    "text": "Moist soil cools the air as its water evaporates. When soil dries, that cooling stops, so the air heats faster and dries the soil further: a loop that water kept in the ground can break.",
+    "source": {
+      "label": "Seneviratne et al., Earth-Science Reviews, 2010",
+      "url": "https://doi.org/10.1016/j.earscirev.2010.02.004"
+    }
+  },
+  {
+    "id": "tropicalice",
+    "group": "nature",
+    "term": "Asia’s last tropical ice",
+    "match": "asia’s last tropical ice",
+    "auto": false,
+    "video": "media/glossary/tropicalice.mp4",
+    "length": "0:31",
+    "text": "On Puncak Jaya in Papua, Indonesia, 99% of the glacier area has gone since 1850. About 0.17 km² was left in 2024, and it will very likely disappear around 2030.",
+    "source": {
+      "label": "Ibel, Mölg and Sommer, The Cryosphere, 2025",
+      "url": "https://tc.copernicus.org/articles/19/6629/2025/"
+    }
+  },
+  {
+    "id": "saltwater",
+    "group": "nature",
+    "term": "Heat, drought and salt water",
+    "match": "heat, drought and salt water",
+    "auto": false,
+    "video": "media/glossary/saltwater.mp4",
+    "length": "0:31",
+    "text": "Heat and drought lower rivers and canals, and the sea pushes inland. In Viet Nam’s Mekong Delta in February 2024, farmers who pumped salty canal water onto their rice lost up to half their crop.",
+    "source": {
+      "label": "Viet Nam News, 2024",
+      "url": "https://vietnamnews.vn/environment/1656592/mekong-delta-faces-severe-drought-salinity-concerns.html"
+    }
   }
 ]
