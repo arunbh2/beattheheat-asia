@@ -358,12 +358,23 @@ const SAS = new Set(["IN", "BD", "PK", "NP", "LK", "BT", "MV", "AF"]), SEAS = ne
 const FDATA = DEALS.map(d => { const a = d.amount || {}, u = Number(a.usd); return { id: d.id, r: recip(d), f: d.investors.join(", "), k: fkind(d), i: fins(d), s: segName(d.segment),
   c: (d.loops || []).filter(id => loopById[id]), u: isFinite(u) && u > 0 ? u : null, ul: usd(a.usd), st: d.status, role: frole(d), date: d.date,
   sa: (d.countries || []).some(c => SAS.has(c)), sea: (d.countries || []).some(c => SEAS.has(c)), src: live((d.source || {}).url) ? d.source.url : "", sl: (d.source || {}).label || "Source" }; });
+// funding published each month to the knowledge base (data/kb/funding.json) joins the traced funding
+const KBF = fs.existsSync(path.join(ROOT, "data", "kb", "funding.json")) ? JSON.parse(fs.readFileSync(path.join(ROOT, "data", "kb", "funding.json"), "utf8")).filter(r => r.status === "current") : [];
+const KBS = Object.fromEntries((fs.existsSync(path.join(ROOT, "data", "kb", "source.json")) ? JSON.parse(fs.readFileSync(path.join(ROOT, "data", "kb", "source.json"), "utf8")) : []).map(r => [r.id, r]));
+const KINSTR = { grant: "Grants", equity: "Shares", loan: "Loans", bond: "Loans", "contingent-credit": "Loans", guarantee: "Guarantees and insurance", insurance: "Guarantees and insurance", "risk-pool": "Guarantees and insurance", "forecast-finance": "Programme funding", "cash-transfer": "Programme funding", programme: "Programme funding" };
+const KROLE = { catalytic: "catalytic", evidence: "evidence", "field-building": "field", delivery: "delivery" };
+const KSTAGE = { announced: "announced", committed: "closed", paid: "disbursed", "up-to": "announced" };
+KBF.forEach(r => { const a = r.amount || {}, u = Number(a.usd), src = KBS[(r.sources || [])[0]] || {};
+  FDATA.push({ id: r.id, r: r.recipient, f: r.funder, k: FKIND[r.funder_kind] ? r.funder_kind : "inv", i: KINSTR[r.instrument] || "Mixed or not stated", s: r.segment ? segName(r.segment) : "Not yet classified",
+    c: (r.cycles || []).filter(id => loopById[id]), u: isFinite(u) && u > 0 ? u : null, ul: a.disclosed === false ? "" : usd(a.usd), st: KSTAGE[r.stage] || "unclear", role: KROLE[r.philanthropy_role] || "commercial",
+    date: r.as_of, sa: (r.countries || []).some(c => SAS.has(c)) || (r.places || []).includes("region-south-asia"), sea: (r.countries || []).some(c => SEAS.has(c)) || (r.places || []).includes("region-southeast-asia"),
+    src: src.url || "", sl: src.publisher || src.title || "Source" }); });
 const touched = new Set(FDATA.flatMap(d => d.c)), untraced = D.LOOPS.filter(l => !touched.has(l.id));
 const roleN = Object.fromEntries(Object.keys(ROLES).map(k => [k, FDATA.filter(d => d.role === k).length]));
 const FMETA = { kinds: FKIND, roles: Object.fromEntries(Object.entries(ROLES).map(([k, v]) => [k, v[0]])), status: DSTATUS,
   loops: Object.fromEntries(D.LOOPS.map(l => [l.id, l.name])) };
 const flows = shell("flows", "The heat economy · Follow the money", "Where funding for heat protection comes from, <br>and where it reaches.",
-  `A first, partial trace: ${N.deals} pieces of funding from public announcements, followed from who gave them to the cycles they could help break. It is a sample, not the whole picture, and it will grow.`,
+  `A first, partial trace: ${FDATA.length} pieces of funding from public announcements, followed from who gave them to the cycles they could help break. It is a sample, not the whole picture, and it will grow.`,
   `<nav class="sol-jump" aria-label="On this page"><a href="#flow">The flow</a> · <a href="#roles">The role money plays</a> · <a href="#untraced">Cycles we have not yet traced</a> · <a href="#health">Health</a> · <a href="#risk">Risk finance</a></nav>
         <section class="cty-s fl" id="flow" aria-labelledby="fl-h"><h2 id="fl-h">The flow</h2>
           <div class="fl-bar" role="group" aria-label="What to show">
@@ -398,7 +409,7 @@ const FLOW_JS = `<script>window.FL=${JSON.stringify({ d: FDATA, m: FMETA }).repl
 const write = (slug, title, desc, body, script = "") => { const dir = path.join(ROOT, slug); fs.mkdirSync(dir, { recursive: true }); fs.writeFileSync(path.join(dir, "index.html"), page({ slug, title, desc, body, script })); };
 write("heat-economy", "The heat economy", "Businesses, funding and ideas that protect people from heat in Asia, and what to ask before you buy, fund or start something.", overview);
 write("heat-economy/businesses", "Businesses offering protection from heat", `${N.biz} businesses offering protection from extreme heat, ${N.bizAsia} working in South or Southeast Asia, with what to ask before buying.`, businesses, FILTER("he-count", "businesses"));
-write("heat-economy/flows", "Follow the money", `Where funding for heat protection comes from and where it reaches: ${N.deals} pieces of traced funding, followed from who gave them to the cycles they could help break.`, flows, FLOW_JS);
+write("heat-economy/flows", "Follow the money", `Where funding for heat protection comes from and where it reaches: ${FDATA.length} pieces of traced funding, followed from who gave them to the cycles they could help break.`, flows, FLOW_JS);
 write("heat-economy/money", "Funding and support for protection from heat", `${N.inv} funders and investors, ${N.deals} pieces of funding and ${N.prog} accelerators, prizes and challenges in protection from extreme heat.`, money, FILTER("he-count", "funders and programmes"));
 write("heat-economy/opportunities", "Ideas for businesses and services that protect people from heat", `${N.opp} ideas for businesses and services, one or more for each vicious cycle of extreme heat: who could pay, who it helps, what needs to be in place.`, opportunities, FILTER("he-count", "ideas"));
 write("heat-economy/conditions", "Questions to ask before you buy, fund or start", "Twenty-four questions to ask about heat protection, with rules that help, ways to pay, common obstacles and what each organisation could do.", conditions);

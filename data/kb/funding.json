@@ -1,0 +1,81 @@
+[
+ {
+  "id": "fund-paa-ghhin-sea-hub-2026",
+  "type": "funding",
+  "title": "Support for the Southeast Asia Heat Health Hub’s next stage",
+  "summary": "Announced on 8 October 2026: support for the next stage of the Global Heat Health Information Network’s Southeast Asia Hub, including funding for heat-health work in Indonesia (Makassar and two more cities) and Thailand in 2027, and preparations for a second Southeast Asia Heat Health Forum. The amount was not disclosed.",
+  "funder": "Philanthropy Asia Alliance",
+  "recipient": "Global Heat Health Information Network, Southeast Asia Hub (NUS Medicine)",
+  "instrument": "programme",
+  "stage": "announced",
+  "amount": {
+   "disclosed": false
+  },
+  "funder_kind": "phil",
+  "philanthropy_role": "field-building",
+  "segment": "heat-data-warnings",
+  "countries": [
+   "ID",
+   "TH"
+  ],
+  "places": [
+   "country-indonesia",
+   "country-thailand"
+  ],
+  "levers": [
+   "hap",
+   "readyclinics"
+  ],
+  "cycles": [
+   "clinic"
+  ],
+  "evidence": "known",
+  "sources": [
+   "src-ecobusiness-paa-sea-heat-hub-2026"
+  ],
+  "as_of": "2026-10",
+  "checked": "2026-10-31",
+  "status": "current",
+  "added": "2026-10",
+  "changed": "2026-10"
+ },
+ {
+  "id": "fund-rockefeller-wellcome-south-asia-heat-2026",
+  "type": "funding",
+  "title": "A South Asia climate–health desk and a heat research consortium",
+  "summary": "Announced on 20 February 2026: The Rockefeller Foundation and Wellcome fund a South Asia Climate–Health Desk under the WHO–WMO Climate and Health Joint Programme, and a South Asia Scientific Research Consortium, through a Rockefeller grant to IISER Pune, to develop tailored heat-risk thresholds. Amounts were not disclosed.",
+  "funder": "The Rockefeller Foundation and Wellcome",
+  "recipient": "WHO–WMO South Asia Climate–Health Desk; IISER Pune research consortium",
+  "instrument": "grant",
+  "stage": "announced",
+  "amount": {
+   "disclosed": false
+  },
+  "funder_kind": "phil",
+  "philanthropy_role": "evidence",
+  "segment": "heat-data-warnings",
+  "countries": [
+   "IN"
+  ],
+  "places": [
+   "region-south-asia"
+  ],
+  "levers": [
+   "hap",
+   "anticipatory"
+  ],
+  "cycles": [
+   "clinic",
+   "invisible"
+  ],
+  "evidence": "known",
+  "sources": [
+   "src-wmo-south-asia-heat-initiatives-2026"
+  ],
+  "as_of": "2026-02",
+  "checked": "2026-10-31",
+  "status": "current",
+  "added": "2026-10",
+  "changed": "2026-10"
+ }
+]

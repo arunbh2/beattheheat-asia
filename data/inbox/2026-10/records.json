@@ -1,0 +1,192 @@
+[
+ {
+  "id": "ms-narayanganj-heat-plan-2026",
+  "type": "milestone",
+  "title": "Bangladesh’s first urban heatwave action plan, for Narayanganj",
+  "summary": "Bangladesh’s first heat and health assessment, released in October 2026, reports that the country’s first urban heatwave action plan has been developed for Narayanganj, alongside national guidelines for heat-related illness and a public campaign, “Beat the Heat”.",
+  "date": "2026-10",
+  "kind": "plan",
+  "lat": 23.62,
+  "lon": 90.5,
+  "places": [
+   "country-bangladesh"
+  ],
+  "levers": [
+   "hap"
+  ],
+  "cycles": [
+   "clinic"
+  ],
+  "evidence": "inferred",
+  "sources": [
+   "src-prothomalo-narayanganj-heat-plan-2026"
+  ],
+  "as_of": "2026-10",
+  "checked": "2026-10-31",
+  "status": "current",
+  "review": {
+   "tone": "ok",
+   "note": "Wording follows the report; dated to the assessment’s release because the plan’s own date is not given."
+  }
+ },
+ {
+  "id": "ms-global-heat-forum-2026",
+  "type": "milestone",
+  "title": "The first Global Heat Forum, in Bangkok",
+  "summary": "Nearly 600 scientists, business leaders, philanthropists and health experts met in Bangkok from 6 to 9 October 2026. The Forum released the first country-level heat and health assessments for Bangladesh, Bhutan, India and Nepal, and a roadmap for investment and action on extreme heat.",
+  "date": "2026-10-06",
+  "kind": "programme",
+  "lat": 14.3,
+  "lon": 100.9,
+  "places": [
+   "region-asia"
+  ],
+  "levers": [
+   "hap",
+   "anticipatory"
+  ],
+  "evidence": "known",
+  "sources": [
+   "src-climateworks-global-heat-forum-2026"
+  ],
+  "as_of": "2026-10",
+  "checked": "2026-10-31",
+  "status": "current",
+  "review": {
+   "tone": "ok",
+   "note": "Facts as stated by an organiser; no judgement of outcomes."
+  }
+ },
+ {
+  "id": "fund-paa-ghhin-sea-hub-2026",
+  "type": "funding",
+  "title": "Support for the Southeast Asia Heat Health Hub’s next stage",
+  "summary": "Announced on 8 October 2026: support for the next stage of the Global Heat Health Information Network’s Southeast Asia Hub, including funding for heat-health work in Indonesia (Makassar and two more cities) and Thailand in 2027, and preparations for a second Southeast Asia Heat Health Forum. The amount was not disclosed.",
+  "funder": "Philanthropy Asia Alliance",
+  "recipient": "Global Heat Health Information Network, Southeast Asia Hub (NUS Medicine)",
+  "instrument": "programme",
+  "stage": "announced",
+  "amount": {
+   "disclosed": false
+  },
+  "funder_kind": "phil",
+  "philanthropy_role": "field-building",
+  "segment": "heat-data-warnings",
+  "countries": [
+   "ID",
+   "TH"
+  ],
+  "places": [
+   "country-indonesia",
+   "country-thailand"
+  ],
+  "levers": [
+   "hap",
+   "readyclinics"
+  ],
+  "cycles": [
+   "clinic"
+  ],
+  "evidence": "known",
+  "sources": [
+   "src-ecobusiness-paa-sea-heat-hub-2026"
+  ],
+  "as_of": "2026-10",
+  "checked": "2026-10-31",
+  "status": "current",
+  "review": {
+   "tone": "ok",
+   "note": "Role read as field-building: convening, shared evidence and country work; our reading, as on Follow the money."
+  }
+ },
+ {
+  "id": "fund-rockefeller-wellcome-south-asia-heat-2026",
+  "type": "funding",
+  "title": "A South Asia climate–health desk and a heat research consortium",
+  "summary": "Announced on 20 February 2026: The Rockefeller Foundation and Wellcome fund a South Asia Climate–Health Desk under the WHO–WMO Climate and Health Joint Programme, and a South Asia Scientific Research Consortium, through a Rockefeller grant to IISER Pune, to develop tailored heat-risk thresholds. Amounts were not disclosed.",
+  "funder": "The Rockefeller Foundation and Wellcome",
+  "recipient": "WHO–WMO South Asia Climate–Health Desk; IISER Pune research consortium",
+  "instrument": "grant",
+  "stage": "announced",
+  "amount": {
+   "disclosed": false
+  },
+  "funder_kind": "phil",
+  "philanthropy_role": "evidence",
+  "segment": "heat-data-warnings",
+  "countries": [
+   "IN"
+  ],
+  "places": [
+   "region-south-asia"
+  ],
+  "levers": [
+   "hap",
+   "anticipatory"
+  ],
+  "cycles": [
+   "clinic",
+   "invisible"
+  ],
+  "evidence": "known",
+  "sources": [
+   "src-wmo-south-asia-heat-initiatives-2026"
+  ],
+  "as_of": "2026-02",
+  "checked": "2026-10-31",
+  "status": "current",
+  "review": {
+   "tone": "ok",
+   "note": "Role read as evidence: thresholds, research and decision tools; our reading."
+  }
+ },
+ {
+  "id": "q-pilots-after-funding",
+  "type": "question",
+  "title": "How do heat-health pilots keep their footing once funding ends?",
+  "summary": "A funder’s own account of the region notes that successful pilots often lose their institutional footing once funding ends.",
+  "question": "How do heat-health pilots in Southeast Asia keep their institutional footing once their first funding ends?",
+  "why_it_matters": "Protection that stops when a grant stops leaves people where they started; knowing what keeps it going would shape how grants are designed.",
+  "would_answer_it": "Follow a handful of heat-health pilots for two years after their first funding, recording who kept which part going and why.",
+  "scale": "Five to eight pilots, two years",
+  "cycles": [
+   "reactive"
+  ],
+  "levers": [
+   "heatbudget"
+  ],
+  "evidence": "uncertain",
+  "sources": [
+   "src-ecobusiness-paa-sea-heat-hub-2026"
+  ],
+  "as_of": "2026-10",
+  "checked": "2026-10-31",
+  "status": "current",
+  "review": {
+   "tone": "ok",
+   "note": "Drawn from the funder’s stated observation; the question and approach are our suggestion."
+  }
+ },
+ {
+  "id": "ms-four-country-heat-coalition-2026",
+  "type": "milestone",
+  "title": "Four South Asian countries formalise a heat cooperation framework",
+  "summary": "A secondary web report says India, Nepal, Bangladesh and Bhutan formalised a regional coalition on heat in October 2026.",
+  "date": "2026-10",
+  "kind": "programme",
+  "places": [
+   "region-south-asia"
+  ],
+  "evidence": "uncertain",
+  "sources": [
+   "src-newsytoday-four-country-heat-2026"
+  ],
+  "as_of": "2026-10",
+  "checked": "2026-10-31",
+  "status": "current",
+  "review": {
+   "tone": "hold",
+   "note": "Established sources describe four country assessments released at the Global Heat Forum, not a formal coalition. Held until an official source confirms one."
+  }
+ }
+]

@@ -1,0 +1,20 @@
+{
+ "month": "2026-10",
+ "month_label": "October 2026",
+ "headline": "The field gathers, and the connecting work finds support",
+ "sections": [
+  { "k": "Where philanthropic money moved", "h": "Toward the work that connects",
+    "p": "Two announcements this year support the parts of protection that sit between institutions: a South Asia climate–health desk and research consortium (The Rockefeller Foundation and Wellcome), and the next stage of the Southeast Asia Heat Health Hub, with work in Indonesia and Thailand (Philanthropy Asia Alliance). Both are field-building and evidence roles, the ones our trace of funding found thinnest. Amounts were not disclosed.",
+    "links": [["/heat-economy/flows/", "Follow the money"], ["/heat-economy/flows/#roles", "The role money plays"]] },
+  { "k": "An opportunity the evidence supports", "h": "Heat-safe work",
+    "p": "Six solutions for safer work in the heat have been measured in a study, yet our trace found no funding announcements for them. Much of this work is paid from public budgets and employers, which the trace does not cover, so this is a question worth asking rather than a gap we can confirm.",
+    "links": [["/evidence-map/#stronger", "Stronger evidence, little funding traced"], ["/who-holds-it/#heatrules", "Who holds it up"]] },
+  { "k": "A question that grew in importance", "h": "What keeps a pilot going after its first grant?",
+    "p": "A funder’s own account of Southeast Asia notes that successful heat-health pilots often lose their footing once funding ends. We have added it to the learning agenda, sized for a two-year study of a handful of pilots.",
+    "links": [["/evidence-map/#q-pilots-after-funding", "The question"], ["/build/", "Sketch a portfolio"]] },
+  { "k": "What changed on Common Shade", "h": "The first month through every check",
+    "p": "Nine new records passed all seven checks, including Bangladesh’s first urban heatwave action plan, for Narayanganj, and the first Global Heat Forum in Bangkok. Two were held back: a report of a four-country coalition that established sources describe instead as four country assessments. New this month: the Atlas, the Evidence map, Follow the money, Who holds it up, Build protection and a public corrections log.",
+    "links": [["/atlas/", "The Atlas"], ["/corrections/", "Corrections"]] }
+ ],
+ "note": "Written from the knowledge base, under the same checks as every page: sourced, labelled known, inferred or uncertain, and open to correction."
+}

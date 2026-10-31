@@ -60,4 +60,6 @@ fs.writeFileSync(path.join(REPORTS, `${month}.md`), report + "\n");
 const log = path.join(KB, "_changes.json"), changes = fs.existsSync(log) ? JSON.parse(fs.readFileSync(log, "utf8")) : [];
 changes.unshift({ month, published: pass.map(r => ({ id: r.id, type: r.type, title: r.title, replaces: r.replaces || null })), held: held.length });
 fs.writeFileSync(log, JSON.stringify(changes, null, 1) + "\n");
+// the change log now exists, so redraw the pages that read it (State of the field, Corrections) and their navigation
+execFileSync(process.execPath, [path.join(__dirname, "build-static.js")], { stdio: "inherit" });
 console.log(`${month}: ${pass.length} published, ${held.length} held. Report: data/reports/${month}.md`);
