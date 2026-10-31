@@ -13,7 +13,7 @@
     {
       "id": "agreed",
       "name": "Agreed",
-      "hint": "Those who must act have said yes.",
+      "hint": "Those whose action it needs have said yes.",
       "evidence": true
     },
     {
@@ -99,7 +99,7 @@
     {
       "step": 4,
       "name": "Prepare delivery and money",
-      "does": "Cost what must be built and what must keep running; find suitable funding.",
+      "does": "Cost what would be built and what would keep it running; find suitable funding.",
       "output": "A costed package"
     },
     {

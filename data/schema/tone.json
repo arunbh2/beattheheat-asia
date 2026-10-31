@@ -26,5 +26,10 @@
  "evidence": {
   "projection_words": ["could", "projected", "projection", "by 2030", "by 2040", "by 2050", "by 2100", "modelled", "estimated", "scenario", "may"],
   "rule": "A record whose text uses projection words cannot be marked known."
+ },
+ "voice": {
+  "about": "Humility. Common Shade describes what helps, what it depends on and who could act; it does not instruct anyone. In the site's own voice, prefer could, can, would ideally, works best when, is worth checking, is fairer when. A law, a standard or a physical limit may be stated as it is (In Singapore, employers must give...), and quoted headlines keep their own words. tools/check-voice.js reads every built page: a phrase on the hold list fails the build unless its sentence contains an allowed phrase.",
+  "hold": ["should", "must", "ought to", "it is essential", "it is vital", "it is crucial", "it is imperative", "we urge", "we call on", "we demand", "have no choice"],
+  "allow": ["employers must give", "Employers must pay", "air conditioners must carry an energy label", "air conditioners must meet a higher minimum efficiency", "banks must check whether a borrower", "planes need longer runways or must carry less", "whether she should go back at all", "must-know", "what-must-be-done", "must-adopt", "Workers Must Choose", "workers should take safety measures", "should be reviewed", "active cooling where it is essential"]
  }
 }

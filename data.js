@@ -8076,7 +8076,7 @@ const AT_RISK = [
     "id": "excluded",
     "name": "Migrants, prisoners and other excluded groups",
     "exposure": "Hot, crowded rented rooms, cells and the hardest outdoor jobs, often in a place where they have few connections.",
-    "fact": "Tamil Nadu’s heat strategy names prisoners, held in concrete buildings with little green space, among the groups heat plans must reach, and proposes cool roofs and trees for its jails.",
+    "fact": "Tamil Nadu’s heat strategy names prisoners, held in concrete buildings with little green space, among the groups heat plans are meant to reach, and proposes cool roofs and trees for its jails.",
     "source": {
       "label": "Tamil Nadu Heat Mitigation Strategy, 2024",
       "url": "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf"
@@ -8274,7 +8274,7 @@ const STALLS = [
         }
       },
       {
-        "fact": "Adaptation finance for developing countries needs to be 12–14 times current flows, and heat gets an even smaller share. Apparel buyers can help suppliers invest through longer contracts and volume assurances.",
+        "fact": "Estimated adaptation needs in developing countries are 12–14 times current finance flows, and heat gets an even smaller share. Apparel buyers can help suppliers invest through longer contracts and volume assurances.",
         "source": {
           "label": "FSG, Managing Heat: From Worker Welfare to Business Resilience, 2026",
           "url": "https://www.fsg.org/wp-content/uploads/2026/04/Managing-Heat-From-Worker-Welfare-to-Business-Resilience_FINAL-4-2-26.pdf"
@@ -8409,7 +8409,7 @@ const PLAN_TRIGGER_BASES = [
   {
     "id": "local",
     "name": "A local threshold from your own health records",
-    "eg": "Ahmedabad set its alert temperatures from the link between daily maximum temperature and deaths in the city, which is why thresholds should differ from place to place. In 2023 only about 10 of 37 Indian heat plans appeared to set local thresholds.",
+    "eg": "Ahmedabad set its alert temperatures from the link between daily maximum temperature and deaths in the city, which is why thresholds differ from place to place. In 2023 only about 10 of 37 Indian heat plans appeared to set local thresholds.",
     "sources": [
       {
         "label": "CEEW: scientific heat action plans for Indian cities",
@@ -8528,7 +8528,7 @@ const PLAN_DELIVER = [
   },
   {
     "id": "coop",
-    "name": "Who else must cooperate",
+    "name": "Who else would need to cooperate",
     "placeholder": "e.g. the school board for access, the power company for supply"
   },
   {
@@ -9363,7 +9363,7 @@ const COOL_PLACES = [
       },
       {
         "name": "Map risk with the people exposed",
-        "does": "Walk the area with workers, women, older and disabled people, migrants and renters to see who is exposed, why warnings fail, and where assets should go.",
+        "does": "Walk the area with workers, women, older and disabled people, migrants and renters to see who is exposed, why warnings fail, and where assets could go.",
         "keeps": "Repeating it as people and places change.",
         "avoid": "Relying on satellite heat maps alone.",
         "cost": {
@@ -10741,7 +10741,7 @@ const LOOP_SOLUTIONS = {
         "name": "Closure decisions with offline learning continuity",
         "type": "policy",
         "ev": "guidance",
-        "why": "Keeps children learning when schools must close."
+        "why": "Keeps children learning when schools have to close."
       },
       {
         "id": "passive_schoolyard_greening",
@@ -11844,7 +11844,7 @@ const HOME_HEATS = {
       "url": "https://malariajournal.biomedcentral.com/articles/10.1186/s12936-021-03951-4"
     }
   },
-  "plans": "Heat warnings measure the street. Heat plans should protect the room: count indoor and night-time heat, warn for hot nights, and pay for cooler roofs where people sleep."
+  "plans": "Heat warnings measure the street. Heat plans can protect the room too: count indoor and night-time heat, warn for hot nights, and pay for cooler roofs where people sleep."
 };
 
 /* ---------- 28. WEATHER, WORK AND THE PERSON ---------- */
@@ -11930,7 +11930,7 @@ const STRAIN = {
     }
   ],
   "centre": "Heat strain",
-  "close": "Effects depend on exposure, task and the person. That is why a single heat alert cannot protect everyone in the same way, and why plans need to ask who is doing what, in what, and after what kind of night.",
+  "close": "Effects depend on exposure, task and the person. That is why a single heat alert cannot protect everyone in the same way, and why plans can ask who is doing what, in what, and after what kind of night.",
   "groups": [
     {
       "id": "medicines",
@@ -11963,7 +11963,7 @@ const STRAIN = {
       "name": "Workers in hot factories and sheds",
       "brief": "At three garment factories in Phnom Penh, workers reporting heat symptoms rose from 68% to 88% in the hot months, by their own reports. Measure heat where people work, cool roofs and walls, and add air flow, water and breaks.",
       "text": "Heat is not only an outdoor problem. In a survey of 753 women at three garment factories in Phnom Penh, the share reporting heat symptoms rose from 68% in the cooler months to 88% in the hot months, as the factory heat index rose from about 25 °C to 29 °C. More said heat slowed their work and cut their motivation.",
-      "caution": "These are workers’ own reports, not measured output. Plans should count indoor workplaces: measure heat where people work, cool the roof and walls, add air flow, water and breaks.",
+      "caution": "These are workers’ own reports, not measured output. Plans can count indoor workplaces: measure heat where people work, cool the roof and walls, add air flow, water and breaks.",
       "source": {
         "label": "Chea et al., BMC Public Health, 2025",
         "url": "https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-025-22787-0"
@@ -12029,7 +12029,7 @@ const ACTION_LINES = [
   ["what","What to do"],
   ["protects","Who it protects"],
   ["suits","Where it suits"],
-  ["who","Who must act"],
+  ["who","Who acts"],
   ["running","Running and upkeep"],
   ["evidence","Evidence"],
   ["stops","What could stop it"],
@@ -12217,7 +12217,7 @@ const ACTION_SETTINGS = [
         "protects": "Outdoor workers at sites with no shade at all.",
         "suits": "Short-term sites, roadsides and markets.",
         "who": ["employers","city","community"],
-        "running": "Moving and fixing it, and repairs; someone must own it.",
+        "running": "Moving and fixing it, and repairs; someone needs to own it.",
         "evidence": {
           "text": "Bengaluru’s Neralu shelter won a 2024 design contest: about 15 kg, seats four, costs about US$175, and can be carried on an auto-rickshaw. It had not yet been tried by workers when it was shown in May 2025.",
           "source": {
@@ -12622,7 +12622,7 @@ const ACTION_SETTINGS = [
         "status": "reported",
         "horizon": "during",
         "title": "Heat-ready timetables",
-        "what": "Start earlier, shorten the hottest afternoons, move exams and sports, and keep learning going if schools must close.",
+        "what": "Start earlier, shorten the hottest afternoons, move exams and sports, and keep learning going if schools have to close.",
         "protects": "Pupils, teachers and parents who travel in the heat.",
         "suits": "Education departments and school boards, set before the season.",
         "who": ["schools","nat","met"],
@@ -12946,7 +12946,7 @@ const ACTION_SETTINGS = [
             "url": "https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/"
           }
         },
-        "stops": "A warning with no named person who must act on it.",
+        "stops": "A warning with no named person to act on it.",
         "worksIf": ["Every level has someone named to act","Warnings reach people without phones"],
         "lever": "hap",
         "plan": 4
@@ -13077,7 +13077,7 @@ const MARKET_EXPLORER = {
       "pin": [730,450],
       "title": "Shade where people trade and wait",
       "help": "Coverings over stalls, and over the walkways between them, can keep direct sun off vendors and shoppers. The right kind depends on the space: fixed or movable, one stall or shared along a row, and how air moves underneath.",
-      "works": "Agree where it can go, and keep walkways and fire access clear. Vendors should help design it, nobody should lose their pitch to make room, and someone must repair, replace and storm-proof it.",
+      "works": "Agree where it can go, and keep walkways and fire access clear. It works best when vendors help design it, nobody loses their pitch to make room, and someone is named to repair, replace and storm-proof it.",
       "people": [
         "Vendors and their association",
         "The market manager or municipal authority",
@@ -13119,7 +13119,7 @@ const MARKET_EXPLORER = {
       "pin": [120,440],
       "title": "Water people can reach and use",
       "help": "A drinking-water point close to where people trade means vendors need not leave their stall, or spend their earnings, to drink. A tap stand, a refill point or a cooler topped up through the day can all play this role.",
-      "works": "Someone has to keep it supplied, clean and tested, and fix it quickly when it breaks. It should be free or cheap, reachable by people using wheelchairs, and open during trading hours.",
+      "works": "Someone has to keep it supplied, clean and tested, and fix it quickly when it breaks. It works best when it is free or cheap, reachable by people using wheelchairs, and open during trading hours.",
       "people": [
         "The water utility or municipality",
         "The market committee",
@@ -13193,7 +13193,7 @@ const MARKET_EXPLORER = {
       "pin": [155,150],
       "title": "A cooler roof next door",
       "help": "Vendors often store goods, eat or live in the buildings around a market. A reflective roof coating, or shade above the roof, can reduce how much heat passes into the rooms below.",
-      "works": "Check the roof type, fire safety, ventilation and who owns the building first. Tenants should not face higher rent for the improvement, someone has to pay to recoat it, and heat also comes in through walls and windows.",
+      "works": "Check the roof type, fire safety, ventilation and who owns the building first. It is fairer when tenants do not face higher rent for the improvement; someone has to pay to recoat it, and heat also comes in through walls and windows.",
       "people": [
         "Building owners and tenants",
         "The municipality",
@@ -13228,7 +13228,7 @@ const MARKET_EXPLORER = {
       "pin": [905,215],
       "title": "Shade that grows",
       "help": "Trees can shade a market’s edges and resting places for decades. A young tree gives little shade at first, so planting now is part of a longer plan, alongside shade people can use this season.",
-      "works": "Secure water and growing space before planting, and pay someone to care for the trees. Plan who benefits: greening should not push vendors or residents out of the place it improves.",
+      "works": "Secure water and growing space before planting, and pay someone to care for the trees. Plan who benefits: greening works best when it does not push vendors or residents out of the place it improves.",
       "people": [
         "The municipality’s parks or horticulture team",
         "The water department",
@@ -13329,7 +13329,7 @@ const ACTION_JOURNEYS = [
     "also": "schools"
   },
   {
-    "q": "What should our municipality do before summer?",
+    "q": "What could our municipality do before summer?",
     "go": "summer"
   },
   {
@@ -13407,7 +13407,7 @@ const FINANCE = {
       "who": "Set in the contract; the insurer or a calculation agent confirms it"
     }
   ],
-  "triggersNote": "The three need not match. Protective action should never wait for an insurance payout.",
+  "triggersNote": "The three need not match. Protective action works best when it does not wait for an insurance payout.",
   "basis": {
     "q": "Why can someone lose income to heat and get no payout?",
     "kinds": [
@@ -13462,7 +13462,7 @@ const FINANCE = {
     },
     {
       "id": "by",
-      "name": "When it must arrive",
+      "name": "When it is needed",
       "placeholder": "e.g. within 3 days of a red alert"
     },
     {
@@ -15160,7 +15160,7 @@ const PLACE_SIM = {
     {
       "id": "agreed",
       "name": "Agreed",
-      "hint": "Those who must act have said yes.",
+      "hint": "Those whose action it needs have said yes.",
       "evidence": true
     },
     {
@@ -15246,7 +15246,7 @@ const PLACE_SIM = {
     {
       "step": 4,
       "name": "Prepare delivery and money",
-      "does": "Cost what must be built and what must keep running; find suitable funding.",
+      "does": "Cost what would be built and what would keep it running; find suitable funding.",
       "output": "A costed package"
     },
     {
@@ -16301,7 +16301,7 @@ const PLAN_CAPACITY = [
   },
   {
     "id": "ask",
-    "name": "What support must be requested, from whom, and for which decision?",
+    "name": "What support could be requested, from whom, and for which decision?",
     "placeholder": "e.g. technical help from the state to cost priority cooling sites, before the council approves the programme"
   }
 ];
@@ -16390,7 +16390,7 @@ const PLAN_COUPLING = {
       "placeholder": "e.g. ward health helpline 1800-000-000, staffed 8 am to 10 pm"
     }
   ],
-  "note": "Advice should acknowledge what people need in order to follow it. Only confirmed provisions go into the message.",
+  "note": "Advice works better when it acknowledges what people need in order to follow it. Only confirmed provisions go into the message.",
   "source": {
     "label": "MCR2030, 2025, p. 38 (Cape Town’s ‘message coupling’, learned in its 2017 drought and planned for heat)",
     "url": "https://mcr2030.undrr.org/publication/urban-heat-risk-management-resource-package"
@@ -16463,7 +16463,7 @@ const PLAN_CONTINUITY = {
     ["arranged","Arranged"],
     ["tested","Tested in a drill"]
   ],
-  "note": "A heatwave can arrive with a power cut and falling water pressure. These prompts help you find what must keep running and what it depends on. They are planning questions, not an emergency protocol, and give no readiness score.",
+  "note": "A heatwave can arrive with a power cut and falling water pressure. These prompts help you find what needs to keep running and what it depends on. They are planning questions, not an emergency protocol, and give no readiness score.",
   "source": {
     "label": "MCR2030, 2025, p. 26 (Incheon’s functional continuity plan: 61 core functions, alternative workspaces, resources and staff, with scenario-based training)",
     "url": "https://mcr2030.undrr.org/publication/urban-heat-risk-management-resource-package"

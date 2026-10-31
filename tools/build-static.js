@@ -335,7 +335,7 @@ const SNAP_SLUG = { Bangladesh: "bangladesh", India: "india", Indonesia: "indone
 // ---- practical actions ----
 {
   const p = PAGES[10], n = D.ACTION_SETTINGS.reduce((t, x) => t + x.cards.length, 0);
-  const intro = `${n} practical actions against extreme heat in workplaces, homes, schools, health facilities, markets and neighbourhoods, and what municipalities can do before summer. Each answers eight questions: what to do, who it protects, where it suits, who must act, what it takes to run, the evidence, what could stop it, and what it only works with.`;
+  const intro = `${n} practical actions against extreme heat in workplaces, homes, schools, health facilities, markets and neighbourhoods, and what municipalities can do before summer. Each answers eight questions: what to do, who it protects, where it suits, who acts, what it takes to run, the evidence, what could stop it, and what it only works with.`;
   const inst = id => (D.INSTITUTIONS.find(i => i.id === id) || {}).name || id;
   const val = (c, k) => k === "who" ? c.who.map(inst).join(", ") : k === "evidence" ? c.evidence.text : k === "worksIf" ? c.worksIf.join("; ") + "." : c[k];
   let h = `<p class="meta">Evidence labels: ${Object.values(D.EVIDENCE_STATUS).map(x => `<strong>${esc(x.name)}</strong>: ${esc(x.text)}`).join(" ")}</p><p><strong>Start from a question:</strong> ${D.ACTION_JOURNEYS.map(j => j.go === "stalls" ? `<a href="/#stalls">${esc(j.q)}</a>` : j.go === "finance" ? `<a href="/paying-for-protection/">${esc(j.q)}</a>` : `<a href="#${j.go}">${esc(j.q)}</a>`).join(" · ")}</p>`, m = [`## ${p.title}`, intro];
@@ -374,7 +374,7 @@ const SNAP_SLUG = { Bangladesh: "bangladesh", India: "india", Indonesia: "indone
 {
   const p = PAGES[11], F = D.FINANCE, intro = F.intro;
   const src = x => ext(x.url, x.label);
-  let h = `<h2>What needs paying for, and when must the money arrive?</h2><table><thead><tr><th>Need</th><th>Route to look into</th><th>The question to answer</th></tr></thead><tbody>${F.needs.map(n => `<tr><td>${esc(n.need)}</td><td>${esc(n.route)}</td><td>${esc(n.ask)}</td></tr>`).join("")}</tbody></table><p class="meta">${esc(F.needsNote)}</p>
+  let h = `<h2>What needs paying for, and when is the money needed?</h2><table><thead><tr><th>Need</th><th>Route to look into</th><th>The question to answer</th></tr></thead><tbody>${F.needs.map(n => `<tr><td>${esc(n.need)}</td><td>${esc(n.route)}</td><td>${esc(n.ask)}</td></tr>`).join("")}</tbody></table><p class="meta">${esc(F.needsNote)}</p>
     <h2>Three triggers, not one</h2><ul>${F.triggers.map(t => `<li><strong>${esc(t.name)}:</strong> ${esc(t.does)} ${esc(t.who)}.</li>`).join("")}</ul><p>${esc(F.triggersNote)}</p>
     <h2>${esc(F.basis.q)}</h2><ul>${F.basis.kinds.map(k => `<li><strong>${esc(k.name)}.</strong> ${esc(k.text)}</li>`).join("")}</ul><p><strong>${esc(F.basis.ask)}</strong> ${esc(F.basis.note)} ${src(F.basis.source)}</p>
     <h2>From trigger to protection</h2><ol>${F.pathway.steps.map(x => `<li>${esc(x)}</li>`).join("")}</ol><p>${esc(F.pathway.note)} ${src(F.pathway.source)}</p>
@@ -383,7 +383,7 @@ const SNAP_SLUG = { Bangladesh: "bangladesh", India: "india", Indonesia: "indone
     <h2>What has been tried</h2>${F.cases.map(c => `<h3 id="${c.id}">${esc(c.name)}</h3><p class="meta">${esc(c.where)} · ${esc(c.hazard)}</p><ul><li><strong>Who paid:</strong> ${esc(c.paid)}</li><li><strong>Who received it:</strong> ${esc(c.received)}</li><li><strong>What it made possible:</strong> ${esc(c.enabled)}</li><li><strong>What it left out:</strong> ${esc(c.uncovered)}</li><li><strong>Did it continue?</strong> ${esc(c.continued)}</li><li><strong>Lesson:</strong> ${esc(c.lesson)}</li></ul><p class="meta">Sources: ${c.sources.map(src).join(" · ")}</p>`).join("")}
     <h2>What this evidence can and can’t tell you</h2><p>${esc(F.boundary)} ${src(F.boundarySource)}</p>
     <p><a href="/print/paying-for-protection/">Print the one-pager</a> · <a href="/plan/#plan-step-3">Add who pays to a plan</a></p>`;
-  const m = [`## ${p.title}`, intro, "### What needs paying for, and when must the money arrive?", ...F.needs.map(n => `- ${n.need}: ${n.route}. ${n.ask}`), F.needsNote,
+  const m = [`## ${p.title}`, intro, "### What needs paying for, and when is the money needed?", ...F.needs.map(n => `- ${n.need}: ${n.route}. ${n.ask}`), F.needsNote,
     "### Three triggers, not one", ...F.triggers.map(t => `- ${t.name}: ${t.does} ${t.who}.`), F.triggersNote,
     `### ${F.basis.q}`, ...F.basis.kinds.map(k => `- ${k.name}: ${k.text}`), `${F.basis.ask} ${F.basis.note} (${F.basis.source.label}, ${F.basis.source.url})`,
     "### From trigger to protection", F.pathway.steps.join(" → "), `${F.pathway.note} (${F.pathway.source.label}, ${F.pathway.source.url})`,

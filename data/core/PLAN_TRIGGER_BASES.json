@@ -43,7 +43,7 @@
   {
     "id": "local",
     "name": "A local threshold from your own health records",
-    "eg": "Ahmedabad set its alert temperatures from the link between daily maximum temperature and deaths in the city, which is why thresholds should differ from place to place. In 2023 only about 10 of 37 Indian heat plans appeared to set local thresholds.",
+    "eg": "Ahmedabad set its alert temperatures from the link between daily maximum temperature and deaths in the city, which is why thresholds differ from place to place. In 2023 only about 10 of 37 Indian heat plans appeared to set local thresholds.",
     "sources": [
       {
         "label": "CEEW: scientific heat action plans for Indian cities",

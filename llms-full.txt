@@ -1780,7 +1780,7 @@ Exposed to: Hot, crowded rented rooms, cells and the hardest outdoor jobs, often
 
 Held back by: No local ID, address or language can mean no warnings, clinics, rations or relief. Many migrant workers are not registered under welfare laws, such as construction workers’ boards, so they miss health and safety benefits meant for them. Who is registered, and who is known to local officials, can decide who is reached first.
 
-Tamil Nadu’s heat strategy names prisoners, held in concrete buildings with little green space, among the groups heat plans must reach, and proposes cool roofs and trees for its jails. (Tamil Nadu Heat Mitigation Strategy, 2024, https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf)
+Tamil Nadu’s heat strategy names prisoners, held in concrete buildings with little green space, among the groups heat plans are meant to reach, and proposes cool roofs and trees for its jails. (Tamil Nadu Heat Mitigation Strategy, 2024, https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf)
 
 What helps: Cool, affordable housing, Social protection floors, Free care for heat illness, Heat-safe work
 
@@ -1812,7 +1812,7 @@ Older bodies sweat less and feel thirst later. Heart, kidney and lung disease, d
 
 - Hot nights shorten sleep, with bigger losses for older people and in lower-income countries, across 47,628 people in 68 countries. (Minor et al., One Earth, 2022, https://orbit.dtu.dk/en/publications/rising-temperatures-erode-human-sleep-globally)
 
-Effects depend on exposure, task and the person. That is why a single heat alert cannot protect everyone in the same way, and why plans need to ask who is doing what, in what, and after what kind of night.
+Effects depend on exposure, task and the person. That is why a single heat alert cannot protect everyone in the same way, and why plans can ask who is doing what, in what, and after what kind of night.
 
 #### Three groups heat plans often miss
 
@@ -1820,7 +1820,7 @@ Effects depend on exposure, task and the person. That is why a single heat alert
 
 - Health workers in protective gear: Clinics and wards fill up in a heatwave, and staff in gowns, gloves and masks carry heat they cannot shed. A survey of 3,082 health workers across six Asian places linked poor practices with protective equipment to heat-related symptoms. Its symptom scale proved unreliable, so the authors still advise staff to check their own symptoms early. Plan cool rest rooms, water, shorter rotations in full protective gear, and cooling for the clinic itself, so the people treating heat illness are not its next patients. (Yang et al., BMC Nursing, 2024, https://doi.org/10.1186/s12912-024-01770-x)
 
-- Workers in hot factories and sheds: Heat is not only an outdoor problem. In a survey of 753 women at three garment factories in Phnom Penh, the share reporting heat symptoms rose from 68% in the cooler months to 88% in the hot months, as the factory heat index rose from about 25 °C to 29 °C. More said heat slowed their work and cut their motivation. These are workers’ own reports, not measured output. Plans should count indoor workplaces: measure heat where people work, cool the roof and walls, add air flow, water and breaks. (Chea et al., BMC Public Health, 2025, https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-025-22787-0)
+- Workers in hot factories and sheds: Heat is not only an outdoor problem. In a survey of 753 women at three garment factories in Phnom Penh, the share reporting heat symptoms rose from 68% in the cooler months to 88% in the hot months, as the factory heat index rose from about 25 °C to 29 °C. More said heat slowed their work and cut their motivation. These are workers’ own reports, not measured output. Plans can count indoor workplaces: measure heat where people work, cool the roof and walls, add air flow, water and breaks. (Chea et al., BMC Public Health, 2025, https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-025-22787-0)
 
 For heat plans: Ask three questions for every group in a heat plan: how hot is it where they are, what are they doing and wearing, and what do they bring to it, such as age, illness, medicines and a night without sleep.
 
@@ -1990,7 +1990,7 @@ Key caution: Often the most useful layer, and the easiest to leave unfunded.
 
 - An upkeep agreement: A written deal between the council, community groups, schools or vendors on who repaints, waters, prunes, refills and repairs. Keeps working with: Money from the running budget, not only the building budget. Avoid: Paying to build without paying to maintain. Rough cost: about US$2,100–US$11,000 per year, for a cluster of assets (₹2,00,000–₹10,00,000 at Indian prices; planning estimate, low to medium confidence)
 
-- Map risk with the people exposed: Walk the area with workers, women, older and disabled people, migrants and renters to see who is exposed, why warnings fail, and where assets should go. Keeps working with: Repeating it as people and places change. Avoid: Relying on satellite heat maps alone. Rough cost: about US$5,300–US$21,000 per baseline (₹5,00,000–₹20,00,000 at Indian prices; planning estimate, medium confidence)
+- Map risk with the people exposed: Walk the area with workers, women, older and disabled people, migrants and renters to see who is exposed, why warnings fail, and where assets could go. Keeps working with: Repeating it as people and places change. Avoid: Relying on satellite heat maps alone. Rough cost: about US$5,300–US$21,000 per baseline (₹5,00,000–₹20,00,000 at Indian prices; planning estimate, medium confidence)
 
 - A way to complain and be heard: An accessible route for complaints and feedback, set up before work starts. Keeps working with: Someone who answers within a set time. Avoid: Starting work where affected people have no voice or remedy. Rough cost: about US$1,100–US$5,300 per set-up (₹1,00,000–₹5,00,000 at Indian prices; planning estimate, medium confidence)
 
@@ -2078,7 +2078,7 @@ At night: After sunset the street starts to cool, but thin-roofed homes cool slo
 
 Indoors is not always hotter at midday: in an experiment in The Gambia, metal-roofed houses were about 1.4 °C cooler than the outdoor shade by day, but warmer at night. The danger is nights that do not cool.
 
-For heat plans: Heat warnings measure the street. Heat plans should protect the room: count indoor and night-time heat, warn for hot nights, and pay for cooler roofs where people sleep.
+For heat plans: Heat warnings measure the street. Heat plans can protect the room too: count indoor and night-time heat, warn for hot nights, and pay for cooler roofs where people sleep.
 
 ## Worked heat action plans from Asia
 
@@ -3428,7 +3428,7 @@ Source: Mongabay, 2026 https://news.mongabay.com/short-article/2026/05/climate-c
 
 ## Practical actions against extreme heat, by setting
 
-34 practical actions against extreme heat in workplaces, homes, schools, health facilities, markets and neighbourhoods, and what municipalities can do before summer. Each answers eight questions: what to do, who it protects, where it suits, who must act, what it takes to run, the evidence, what could stop it, and what it only works with.
+34 practical actions against extreme heat in workplaces, homes, schools, health facilities, markets and neighbourhoods, and what municipalities can do before summer. Each answers eight questions: what to do, who it protects, where it suits, who acts, what it takes to run, the evidence, what could stop it, and what it only works with.
 
 ### Outdoor and hot workplaces
 
@@ -3446,7 +3446,7 @@ Evidence: Reported, not evaluated · Before the season
 
 - Where it suits: Construction sites, markets, bus and taxi stands, labour chowks and community spaces with heavy foot traffic.
 
-- Who must act: City and local governments, Employers and businesses, Community and civil society groups
+- Who acts: City and local governments, Employers and businesses, Community and civil society groups
 
 - Running and upkeep: Water, ice and salts every day; cleaning; power for fans; someone on site; repairs before each season.
 
@@ -3482,7 +3482,7 @@ Evidence: Reported, not evaluated · During the heat
 
 - Where it suits: Markets, labour chowks and worker unions or associations with leaders people trust.
 
-- Who must act: Weather and climate services, Worker organisations and unions, Community and civil society groups
+- Who acts: Weather and climate services, Worker organisations and unions, Community and civil society groups
 
 - Running and upkeep: A messenger’s time every alert day, printed boards, and someone who answers when workers report a problem.
 
@@ -3504,7 +3504,7 @@ Evidence: Reported, not evaluated · Over years
 
 - Where it suits: Informal settlements and work areas where water has to be bought.
 
-- Who must act: Water authorities, City and local governments, Community and civil society groups
+- Who acts: Water authorities, City and local governments, Community and civil society groups
 
 - Running and upkeep: Upkeep of pipes and points, water quality testing, and a fair way to bill or share costs.
 
@@ -3524,7 +3524,7 @@ Evidence: Reported, not evaluated · Over years
 
 - Where it suits: Any programme that builds things that need upkeep.
 
-- Who must act: City and local governments, Community and civil society groups, Development banks, donors and climate funds
+- Who acts: City and local governments, Community and civil society groups, Development banks, donors and climate funds
 
 - Running and upkeep: Wages and training, built into the running budget from the start.
 
@@ -3544,9 +3544,9 @@ Evidence: Design concept · Before the season
 
 - Where it suits: Short-term sites, roadsides and markets.
 
-- Who must act: Employers and businesses, City and local governments, Community and civil society groups
+- Who acts: Employers and businesses, City and local governments, Community and civil society groups
 
-- Running and upkeep: Moving and fixing it, and repairs; someone must own it.
+- Running and upkeep: Moving and fixing it, and repairs; someone needs to own it.
 
 - Evidence: Bengaluru’s Neralu shelter won a 2024 design contest: about 15 kg, seats four, costs about US$175, and can be carried on an auto-rickshaw. It had not yet been tried by workers when it was shown in May 2025. (AP News, June 2025, via KSAT, https://www.ksat.com/health/2025/06/07/how-an-innovative-portable-shelter-could-help-indias-outdoor-workers-beat-the-heat/)
 
@@ -3566,7 +3566,7 @@ Evidence: Measured in a study · During the heat
 
 - Where it suits: Any worksite where an employer, contractor or city department sets the hours.
 
-- Who must act: Employers and businesses, Worker organisations and unions, National governments, City and local governments
+- Who acts: Employers and businesses, Worker organisations and unions, National governments, City and local governments
 
 - Running and upkeep: Little equipment; the cost is paid time. Someone has to check the rule is kept.
 
@@ -3594,7 +3594,7 @@ Evidence: Reported, not evaluated · Before the season
 
 - Where it suits: Busy junctions, markets and work yards. Misting only in dry, breezy spots.
 
-- Who must act: City and local governments, Employers and businesses, Community and civil society groups
+- Who acts: City and local governments, Employers and businesses, Community and civil society groups
 
 - Running and upkeep: A daily refill and cleaning roster, often ₹500–2,000 a day per water point, and repairs before each season.
 
@@ -3614,7 +3614,7 @@ Evidence: Measured in a study · Before the season
 
 - Where it suits: Where workers belong to an association, cooperative or scheme that can enrol them and pay by phone.
 
-- Who must act: Banks, insurers and financial regulators, Worker organisations and unions, National governments
+- Who acts: Banks, insurers and financial regulators, Worker organisations and unions, National governments
 
 - Running and upkeep: Premiums or a public subsidy every season, plus enrolment and payment systems.
 
@@ -3636,7 +3636,7 @@ Evidence: Reported, not evaluated · During the heat
 
 - Where it suits: Construction sites, factories, brick kilns and farms with a supervisor.
 
-- Who must act: Employers and businesses, Worker organisations and unions, Health authorities
+- Who acts: Employers and businesses, Worker organisations and unions, Health authorities
 
 - Running and upkeep: A refresher before each season, and a steady supply of water and ice.
 
@@ -3658,7 +3658,7 @@ Evidence: Measured in a study · Over years
 
 - Where it suits: Indoor workplaces under metal roofs or beside furnaces.
 
-- Who must act: Employers and businesses, Worker organisations and unions, National governments
+- Who acts: Employers and businesses, Worker organisations and unions, National governments
 
 - Running and upkeep: A heat meter and someone to read it daily; upkeep of roofs and fans; power for ventilation.
 
@@ -3684,7 +3684,7 @@ Evidence: Measured in a study · Before the season
 
 - Where it suits: Sound roofs in hot, sunny places, where residents can stay long enough to benefit.
 
-- Who must act: City and local governments, Community and civil society groups, Development banks, donors and climate funds
+- Who acts: City and local governments, Community and civil society groups, Development banks, donors and climate funds
 
 - Running and upkeep: Recoating every few years, and a thermometer to check it works.
 
@@ -3708,7 +3708,7 @@ Evidence: Measured in a study · Before the season
 
 - Where it suits: Most homes; screens are cheap and households can fit them.
 
-- Who must act: Community and civil society groups, City and local governments
+- Who acts: Community and civil society groups, City and local governments
 
 - Running and upkeep: Fixing and replacing screens each season; vents need rain and mosquito screens.
 
@@ -3728,7 +3728,7 @@ Evidence: Measured in a study · Over years
 
 - Where it suits: Homes with a grid connection; solar where the grid is weak.
 
-- Who must act: Utilities and energy regulators, City and local governments, National governments
+- Who acts: Utilities and energy regulators, City and local governments, National governments
 
 - Running and upkeep: Monthly power bills, and a grid that holds in a heatwave.
 
@@ -3748,7 +3748,7 @@ Evidence: Measured in a study · Over years
 
 - Where it suits: Homes cooking indoors on wood, dung, kerosene or gas.
 
-- Who must act: Community and civil society groups, Utilities and energy regulators, National governments
+- Who acts: Community and civil society groups, Utilities and energy regulators, National governments
 
 - Running and upkeep: Fuel costs every month, and upkeep of vents and chimneys.
 
@@ -3768,7 +3768,7 @@ Evidence: Measured in a study · During the heat
 
 - Where it suits: Any neighbourhood with a list of who lives alone.
 
-- Who must act: Community and civil society groups, Health authorities, City and local governments
+- Who acts: Community and civil society groups, Health authorities, City and local governments
 
 - Running and upkeep: A list kept up to date, and volunteers’ or health workers’ time during alerts.
 
@@ -3792,7 +3792,7 @@ Evidence: Measured in a study · Before the season
 
 - Where it suits: Single-storey schools with metal or concrete roofs.
 
-- Who must act: Schools and education authorities, City and local governments, Development banks, donors and climate funds
+- Who acts: Schools and education authorities, City and local governments, Development banks, donors and climate funds
 
 - Running and upkeep: A line in the school maintenance budget for recoating; anchors checked before the monsoon.
 
@@ -3812,7 +3812,7 @@ Evidence: Official guidance or data · Before the season
 
 - Where it suits: Every school.
 
-- Who must act: Schools and education authorities, Water authorities
+- Who acts: Schools and education authorities, Water authorities
 
 - Running and upkeep: Filter changes, cleaning and a supply that lasts the hottest weeks.
 
@@ -3826,13 +3826,13 @@ Evidence: Official guidance or data · Before the season
 
 Evidence: Reported, not evaluated · During the heat
 
-- What to do: Start earlier, shorten the hottest afternoons, move exams and sports, and keep learning going if schools must close.
+- What to do: Start earlier, shorten the hottest afternoons, move exams and sports, and keep learning going if schools have to close.
 
 - Who it protects: Pupils, teachers and parents who travel in the heat.
 
 - Where it suits: Education departments and school boards, set before the season.
 
-- Who must act: Schools and education authorities, National governments, Weather and climate services
+- Who acts: Schools and education authorities, National governments, Weather and climate services
 
 - Running and upkeep: Little money; it needs agreed triggers and a plan for remote or make-up learning.
 
@@ -3852,7 +3852,7 @@ Evidence: Measured in a study · Over years
 
 - Where it suits: Schools with open yards and a water source.
 
-- Who must act: Schools and education authorities, City and local governments, Community and civil society groups
+- Who acts: Schools and education authorities, City and local governments, Community and civil society groups
 
 - Running and upkeep: Watering through the holidays, when nobody is at school.
 
@@ -3876,7 +3876,7 @@ Evidence: Official guidance or data · During the heat
 
 - Where it suits: Every hospital and health centre in heat-prone districts.
 
-- Who must act: Health authorities, National governments
+- Who acts: Health authorities, National governments
 
 - Running and upkeep: Stocks of ice, fluids and medicines through the season, and training every year.
 
@@ -3896,7 +3896,7 @@ Evidence: Official guidance or data · Over years
 
 - Where it suits: Facilities on weak grids or under hot roofs, especially in rural areas.
 
-- Who must act: Health authorities, Utilities and energy regulators, Development banks, donors and climate funds
+- Who acts: Health authorities, Utilities and energy regulators, Development banks, donors and climate funds
 
 - Running and upkeep: Fuel or battery upkeep, servicing of cooling, and a power company that prioritises the facility.
 
@@ -3916,7 +3916,7 @@ Evidence: Measured in a study · During the heat
 
 - Where it suits: Wards, emergency rooms and outreach teams in hot weather.
 
-- Who must act: Health authorities, Worker organisations and unions
+- Who acts: Health authorities, Worker organisations and unions
 
 - Running and upkeep: Staff time for rotations, and a cooled rest space.
 
@@ -3936,7 +3936,7 @@ Evidence: Independently evaluated · During the heat
 
 - Where it suits: District and city health systems with a heat warning.
 
-- Who must act: Health authorities, Weather and climate services, City and local governments
+- Who acts: Health authorities, Weather and climate services, City and local governments
 
 - Running and upkeep: Planning time before the season, and overtime or reserve staff during alerts.
 
@@ -3956,7 +3956,7 @@ Evidence: Official guidance or data · Before the season
 
 - Where it suits: Outpatient departments, health centres and vaccination days.
 
-- Who must act: Health authorities, City and local governments
+- Who acts: Health authorities, City and local governments
 
 - Running and upkeep: Someone to refill water and keep the space usable.
 
@@ -3980,7 +3980,7 @@ Evidence: Measured in a study · Before the season
 
 - Where it suits: Open and street markets.
 
-- Who must act: City and local governments, Community and civil society groups, Worker organisations and unions
+- Who acts: City and local governments, Community and civil society groups, Worker organisations and unions
 
 - Running and upkeep: Storm-proof fixing, replacing worn cloth, and a refill and cleaning roster.
 
@@ -4002,7 +4002,7 @@ Evidence: Measured in a study · Before the season
 
 - Where it suits: Busy stops and queues with no shade.
 
-- Who must act: City and local governments, Community and civil society groups
+- Who acts: City and local governments, Community and civil society groups
 
 - Running and upkeep: Refilling the water, and keeping access clear for wheelchairs.
 
@@ -4022,7 +4022,7 @@ Evidence: Official guidance or data · During the heat
 
 - Where it suits: Neighbourhoods with many hot homes and a suitable public building nearby.
 
-- Who must act: City and local governments, Community and civil society groups, Health authorities
+- Who acts: City and local governments, Community and civil society groups, Health authorities
 
 - Running and upkeep: Staff, power and water for every alert day, and transport for those who cannot walk there.
 
@@ -4042,7 +4042,7 @@ Evidence: Measured in a study · Over years
 
 - Where it suits: Streets and open spaces with root space and a water source.
 
-- Who must act: City and local governments, Water authorities, Community and civil society groups
+- Who acts: City and local governments, Water authorities, Community and civil society groups
 
 - Running and upkeep: Watering and care for at least three years after planting.
 
@@ -4068,7 +4068,7 @@ Evidence: Measured in a study · Before the season
 
 - Where it suits: Every city, district or state with a heat plan, or about to write one.
 
-- Who must act: City and local governments, National governments, Development banks, donors and climate funds
+- Who acts: City and local governments, National governments, Development banks, donors and climate funds
 
 - Running and upkeep: A budget line each year, and staff time in the lead office.
 
@@ -4088,13 +4088,13 @@ Evidence: Measured in a study · Before the season
 
 - Where it suits: Cities and districts with a weather forecast and health data.
 
-- Who must act: Weather and climate services, Health authorities, City and local governments
+- Who acts: Weather and climate services, Health authorities, City and local governments
 
 - Running and upkeep: A yearly review of thresholds and who does what.
 
 - Evidence: Ahmedabad set its alert temperatures from the local link between daily maximum temperature and deaths; in 2023 only about 10 of 37 Indian heat plans appeared to set local thresholds. (Centre for Policy Research, 2023, https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/)
 
-- What could stop it: A warning with no named person who must act on it.
+- What could stop it: A warning with no named person to act on it.
 
 - Works only if: Every level has someone named to act; Warnings reach people without phones.
 
@@ -4108,7 +4108,7 @@ Evidence: Measured in a study · Before the season
 
 - Where it suits: Every ward or district, before choosing actions.
 
-- Who must act: City and local governments, Community and civil society groups, Health authorities
+- Who acts: City and local governments, Community and civil society groups, Health authorities
 
 - Running and upkeep: A few weeks of fieldwork, updated every year or two.
 
@@ -4130,7 +4130,7 @@ Evidence: Reported, not evaluated · Before the season
 
 - Where it suits: Any city with a known hot season.
 
-- Who must act: City and local governments, Water authorities, Community and civil society groups
+- Who acts: City and local governments, Water authorities, Community and civil society groups
 
 - Running and upkeep: Upkeep through the season, with named teams and a budget.
 
@@ -4150,7 +4150,7 @@ Evidence: Official guidance or data · During the heat
 
 - Where it suits: District health offices and hospitals.
 
-- Who must act: Health authorities, National governments
+- Who acts: Health authorities, National governments
 
 - Running and upkeep: Daily reporting through the season, and training for doctors who certify deaths.
 
@@ -4170,7 +4170,7 @@ Evidence: Measured in a study · Before the season
 
 - Where it suits: Cities and districts with a reliable forecast and a pre-agreed fund.
 
-- Who must act: Weather and climate services, Development banks, donors and climate funds, National governments
+- Who acts: Weather and climate services, Development banks, donors and climate funds, National governments
 
 - Running and upkeep: A fund topped up each year, and rules for releasing it.
 
@@ -4190,7 +4190,7 @@ Illustrative setting, not a survey of a specific place. These are possibilities 
 
 - What could help: Coverings over stalls, and over the walkways between them, can keep direct sun off vendors and shoppers. The right kind depends on the space: fixed or movable, one stall or shared along a row, and how air moves underneath.
 
-- What makes it work: Agree where it can go, and keep walkways and fire access clear. Vendors should help design it, nobody should lose their pitch to make room, and someone must repair, replace and storm-proof it.
+- What makes it work: Agree where it can go, and keep walkways and fire access clear. It works best when vendors help design it, nobody loses their pitch to make room, and someone is named to repair, replace and storm-proof it.
 
 - People to involve (suggested roles): Vendors and their association; The market manager or municipal authority; Whoever installs and maintains it
 
@@ -4204,7 +4204,7 @@ Illustrative setting, not a survey of a specific place. These are possibilities 
 
 - What could help: A drinking-water point close to where people trade means vendors need not leave their stall, or spend their earnings, to drink. A tap stand, a refill point or a cooler topped up through the day can all play this role.
 
-- What makes it work: Someone has to keep it supplied, clean and tested, and fix it quickly when it breaks. It should be free or cheap, reachable by people using wheelchairs, and open during trading hours.
+- What makes it work: Someone has to keep it supplied, clean and tested, and fix it quickly when it breaks. It works best when it is free or cheap, reachable by people using wheelchairs, and open during trading hours.
 
 - People to involve (suggested roles): The water utility or municipality; The market committee; A named caretaker; Vendors, who know where it is needed
 
@@ -4230,7 +4230,7 @@ Illustrative setting, not a survey of a specific place. These are possibilities 
 
 - What could help: Vendors often store goods, eat or live in the buildings around a market. A reflective roof coating, or shade above the roof, can reduce how much heat passes into the rooms below.
 
-- What makes it work: Check the roof type, fire safety, ventilation and who owns the building first. Tenants should not face higher rent for the improvement, someone has to pay to recoat it, and heat also comes in through walls and windows.
+- What makes it work: Check the roof type, fire safety, ventilation and who owns the building first. It is fairer when tenants do not face higher rent for the improvement; someone has to pay to recoat it, and heat also comes in through walls and windows.
 
 - People to involve (suggested roles): Building owners and tenants; The municipality; Community groups or contractors who apply and maintain coatings; Funders
 
@@ -4242,7 +4242,7 @@ Illustrative setting, not a survey of a specific place. These are possibilities 
 
 - What could help: Trees can shade a market’s edges and resting places for decades. A young tree gives little shade at first, so planting now is part of a longer plan, alongside shade people can use this season.
 
-- What makes it work: Secure water and growing space before planting, and pay someone to care for the trees. Plan who benefits: greening should not push vendors or residents out of the place it improves.
+- What makes it work: Secure water and growing space before planting, and pay someone to care for the trees. Plan who benefits: greening works best when it does not push vendors or residents out of the place it improves.
 
 - People to involve (suggested roles): The municipality’s parks or horticulture team; The water department; Market users; Local groups who can care for trees
 
@@ -4408,7 +4408,7 @@ Every worker here is a composite, not a real person. The numbers are examples in
 
 Protection only works if someone pays for it, the money arrives in time, and it is still there next season. Start from what needs paying for, not from a product.
 
-### What needs paying for, and when must the money arrive?
+### What needs paying for, and when is the money needed?
 
 - Shade, cooler buildings and water points: Public investment, grants or infrastructure finance. Who pays to build it, and who pays to run it afterwards?
 
@@ -4430,7 +4430,7 @@ A way to compare routes, not a claim that every route exists in every country.
 
 - Payout trigger: Decides whether a specific insurance contract pays. Set in the contract; the insurer or a calculation agent confirms it.
 
-The three need not match. Protective action should never wait for an insurance payout.
+The three need not match. Protective action works best when it does not wait for an insurance payout.
 
 ### Why can someone lose income to heat and get no payout?
 

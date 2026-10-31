@@ -119,7 +119,7 @@
       ${out(STEPS[1], `<p>${conf} of ${s.actors.length - 1} bodies have confirmed their role here. ${x.missing.length ? `Still to hear from: ${x.missing.map(i => esc(T.missing[i].toLowerCase())).join(", ")}.` : ""}</p>`)}`;
   }
 
-  /* ---- step 3: what must happen together ---- */
+  /* ---- step 3: what needs to happen together ---- */
   function chain(m) {
     return `<div class="tg-chain" role="group" aria-label="${esc(m.name)}: what must happen">${m.reqs.map(r => { const x = rq(m, r), c = counts(x), ok = met(m, r), key = `${m.id}:${r.id}`;
       return `<div class="tg-req${ok ? " is-ok" : ""}">
@@ -131,7 +131,7 @@
   }
   function step3() {
     const s = sc(), ms = chosen(), all = ms.reduce((a, m) => a + m.reqs.length, 0), ok = ms.reduce((a, m) => a + m.reqs.filter(r => met(m, r)).length, 0);
-    return `<h2 class="tg-h">What must happen together</h2>
+    return `<h2 class="tg-h">What needs to happen together</h2>
       <p class="tg-lead">${esc(STEPS[2].does)} Choose the measures, then work through what each one needs. Naming an owner is not the same as their agreement: only the status, with evidence, counts.</p>
       <p class="tg-ladder">${T.statuses.map(x => `<span title="${esc(x.hint)}"><b>${esc(x.name)}</b> ${esc(x.hint)}</span>`).join("")}</p>
       <div class="tg-measures">${s.measures.map(m => { const on = !!st().sel[m.id], okN = m.reqs.filter(r => met(m, r)).length;
@@ -217,7 +217,7 @@
       <h2>The people at the centre</h2><table><tr><th>Who</th><th>Hours in dangerous heat in a hot week</th><th>Pay lost</th></tr>${base.map((b, i) => `<tr><td>${h(b.p.name)}, ${h(b.p.role.toLowerCase())}</td><td>${b.expo} without help · ${pkg[i].expo} with the plan</td><td>${b.base.loss ? `${days(b.loss)} · ${days(pkg[i].loss)}` : h(b.p.lossNote || "–")}</td></tr>`).join("")}</table>
       <h2>Who is involved</h2><table><tr><th>Body</th><th>Role here</th><th>Confirmed?</th></tr>${s.actors.filter(a => a.id !== "ngo").map(a => `<tr><td>${h(actorName(a.id))}</td><td>${a.roles.map(r => h(T.roles[r])).join(", ")}</td><td class="${x.confirmed[a.id] ? "" : "gap"}">${x.confirmed[a.id] ? "Yes" + (x.notes[a.id] ? `: ${h(x.notes[a.id])}` : "") : "Not yet"}</td></tr>`).join("")}</table>
       ${x.missing.length ? `<p>Still to hear from: ${x.missing.map(i => h(T.missing[i].toLowerCase())).join(", ")}.</p>` : ""}
-      <h2>What must happen together</h2><table><tr><th>Measure and requirement</th><th>Who</th><th>Status</th><th>Evidence</th></tr>${chosen().map(m => m.reqs.map((r, k) => { const q = rq(m, r);
+      <h2>What needs to happen together</h2><table><tr><th>Measure and requirement</th><th>Who</th><th>Status</th><th>Evidence</th></tr>${chosen().map(m => m.reqs.map((r, k) => { const q = rq(m, r);
         return `<tr><td>${k ? "" : `<b>${h(m.name)}</b><br>`}${h(r.text)}</td><td>${h(actorName(q.owner))}</td><td class="${met(m, r) ? "" : "gap"}">${h(T.statuses[rank(counts(q))].name)}${met(m, r) ? "" : ` (needs: ${h(T.needNames[r.need])})`}</td><td>${h(q.ev || "–")}</td></tr>`; }).join("")).join("") || `<tr><td colspan="4" class="gap">No measures chosen</td></tr>`}</table>
       <h2>Decisions to make together</h2>${Object.keys(byOwner).length ? Object.entries(byOwner).map(([o, list]) => `<p><b>With ${h(actorName(o))}:</b> ${list.map(f => h(f.r.text.charAt(0).toLowerCase() + f.r.text.slice(1))).join("; ")}.</p>`).join("") : "<p>None outstanding in this simulation.</p>"}
       <h2>Money</h2><table><tr><th>Measure</th><th>Who pays to set up</th><th>Who pays to run</th></tr>${chosen().map(m => { const p = x.pay[m.id] || {}; return `<tr><td>${h(m.name)}</td><td class="${p.build || !(m.cost && m.cost.build) ? "" : "gap"}">${m.cost && m.cost.build ? h(p.build ? actorName(p.build) : "Not decided") : "–"}</td><td class="${p.run ? "" : "gap"}">${h(p.run ? actorName(p.run) : "Not decided")}</td></tr>`; }).join("")}</table>

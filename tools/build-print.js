@@ -244,7 +244,7 @@ async function build() {
         <li>Do warnings cover humid heat in the monsoon, not only the pre-monsoon peak?</li>
         <li>Are misting and evaporative coolers used only where the air is dry enough for them to work?</li>
         <li>Are work–rest rules set by WBGT or the heat index, not air temperature alone?</li>
-        <li>Do warnings include hot nights, when bodies should recover?</li></ul>
+        <li>Do warnings include hot nights, when bodies need to recover?</li></ul>
       <p style="margin-top:6px"><b>Watch the 2-minute explainer:</b> beattheheat.asia/#watch-dryhumid</p>`;
     add("dry-and-humid-heat", { kind: "One-pager · For health, labour and disaster management officials", title: "Dry heat and humid heat", for: "Health, labour and disaster management officials" },
       await sheet({ slug: "dry-and-humid-heat", kind: "One-pager · For health, labour and disaster management officials", title: "Dry heat and humid heat",
@@ -269,7 +269,7 @@ async function build() {
           ${exs.length ? `<h2>A worked plan to learn from</h2><p>${exs.map(x => `<b>${esc(x.title)}</b> (${esc(x.place)}, ${esc(x.year)})`).join("; ")}</p>` : ""}</div>
         <div><h2>Already at work here</h2><ul class="tight">${orgs.map(o => `<li>${esc(o.name)}</li>`).join("")}</ul><p style="font-size:7.5pt;color:#5E6570">Listing does not imply partnership, affiliation or endorsement.</p></div></div>
       <h2>Four questions for ${esc(c.name)}’s heat plan</h2>
-      <ul class="check cols"><li>Is it funded, with a named owner?</li><li>Does it assess who is most vulnerable, and where they live?</li><li>Does it have legal backing, so departments must act?</li><li>Does it count indoor and night-time heat, not only daytime highs?</li></ul>
+      <ul class="check cols"><li>Is it funded, with a named owner?</li><li>Does it assess who is most vulnerable, and where they live?</li><li>Does it have legal backing, so departments are required to act?</li><li>Does it count indoor and night-time heat, not only daytime highs?</li></ul>
       <p style="margin-top:6px"><b>Official warnings:</b> ${esc(c.warn.label)} · <b>Today’s heat and the week ahead:</b> beattheheat.asia/#city-${cp.id}</p>`;
     const srcs = [...cp.hap.sources, ...loops.flatMap(x => { const ev = (D.LOOP_STAKES && D.LOOP_STAKES[x.l.id]) || null; return ev ? [{ label: ev.by, url: ev.url }] : []; }), cpr].filter(Boolean)
       .filter((s, i, a) => a.findIndex(z => z.url === s.url) === i).slice(0, 8);
@@ -298,7 +298,7 @@ async function build() {
   // 4c. Paying for heat protection
   {
     const F = D.FINANCE;
-    const body = `<h2>What needs paying for, and when must the money arrive?</h2>
+    const body = `<h2>What needs paying for, and when is the money needed?</h2>
       <table><tr><th style="width:27%">Need</th><th style="width:31%">Route to look into</th><th>The question to answer</th></tr>${F.needs.map(n => `<tr><td><b>${esc(n.need)}</b></td><td>${esc(n.route)}</td><td>${esc(n.ask)}</td></tr>`).join("")}</table>
       <p style="font-size:7.8pt;color:#5E6570;margin-top:2px">${esc(F.needsNote)}</p>
       <div class="cols" style="margin-top:4px">
@@ -339,7 +339,7 @@ async function build() {
     const meta = { kind: `Practical actions · ${st.name}`, title: `Practical actions: ${st.name}${of}`, for: "Anyone who has to act", group: "actions" };
     add(slug, meta,
       await sheet({ slug, kind: "Practical actions · Eight questions for every action", title: `Practical actions: ${st.name}${of}`,
-        lede: "What to do, who must act, what it takes to run, what could stop it, and what it only works with.", body, live: `/practical/#practical-${st.id}`,
+        lede: "What to do, who acts, what it takes to run, what could stop it, and what it only works with.", body, live: `/practical/#practical-${st.id}`,
         sources: srcs }));
   }
 

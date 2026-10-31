@@ -178,7 +178,7 @@
         "protects": "Outdoor workers at sites with no shade at all.",
         "suits": "Short-term sites, roadsides and markets.",
         "who": ["employers","city","community"],
-        "running": "Moving and fixing it, and repairs; someone must own it.",
+        "running": "Moving and fixing it, and repairs; someone needs to own it.",
         "evidence": {
           "text": "Bengaluru’s Neralu shelter won a 2024 design contest: about 15 kg, seats four, costs about US$175, and can be carried on an auto-rickshaw. It had not yet been tried by workers when it was shown in May 2025.",
           "source": {
@@ -583,7 +583,7 @@
         "status": "reported",
         "horizon": "during",
         "title": "Heat-ready timetables",
-        "what": "Start earlier, shorten the hottest afternoons, move exams and sports, and keep learning going if schools must close.",
+        "what": "Start earlier, shorten the hottest afternoons, move exams and sports, and keep learning going if schools have to close.",
         "protects": "Pupils, teachers and parents who travel in the heat.",
         "suits": "Education departments and school boards, set before the season.",
         "who": ["schools","nat","met"],
@@ -907,7 +907,7 @@
             "url": "https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/"
           }
         },
-        "stops": "A warning with no named person who must act on it.",
+        "stops": "A warning with no named person to act on it.",
         "worksIf": ["Every level has someone named to act","Warnings reach people without phones"],
         "lever": "hap",
         "plan": 4
