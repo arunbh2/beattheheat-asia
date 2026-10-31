@@ -10,7 +10,7 @@ const PATHS = NAV.PATHS;
 const esc = s => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const V = (fs.readFileSync(path.join(ROOT, "index.html"), "utf8").match(/styles\.css\?v=(\d+)/) || [, "1"])[1];
 const ctx = {}; vm.createContext(ctx);
-vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + ";this.D={GLOSSARY,LOOPS,LIVE_CITIES,CITY_PROFILES,HEATWAVES,ORGANISATIONS,ORG_ROLES,SYSTEMS,EVIDENCE,LEVERS}", ctx);
+vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + ";this.D={GLOSSARY,LOOPS,LIVE_CITIES,CITY_PROFILES,HEATWAVES,ORGANISATIONS,ORG_ROLES,SYSTEMS,EVIDENCE,LEVERS,PACKAGES,INSTITUTIONS}", ctx);
 const D = ctx.D;
 const MONTH = new Date().toLocaleDateString("en-GB", { month: "long", year: "numeric" });
 
@@ -185,6 +185,43 @@ write("approach", page("approach", "How Common Shade sees heat", "The ideas behi
         <li class="std"><b>Open to correction</b><span>If a study is missing or graded wrongly, <a href="/corrections/">please tell us</a>.</span></li>
       </ul>
     </section>`));
+}
+
+// ---- Who holds it up: for each action, the four roles protection depends on (permits, pays, delivers, checks) ----
+{
+  const ROLE4 = [["permits", "Permits", "Owns the site, sets the rule or gives the approval."], ["pays", "Pays", "Funds it at the start, and keeps paying while it runs."],
+    ["delivers", "Delivers", "Runs it day to day, where people are."], ["checks", "Checks", "Measures, reviews and advises, so it keeps working and reaches people."]];
+  // our reading of the parts each kind of body usually plays; real arrangements differ from place to place
+  const TYPICAL = { nat: ["permits", "pays"], city: ["permits", "pays", "delivers"], health: ["permits", "delivers"], met: ["delivers"], employers: ["pays", "delivers"], workers: ["checks"],
+    utilities: ["permits", "delivers"], water: ["delivers"], agri: ["delivers"], schools: ["permits", "delivers"], insurers: ["permits", "pays"], funders: ["pays"], community: ["delivers", "checks"], intl: ["checks"] };
+  // the part each group of organisations in the heat network plays, from the kind of work it publishes
+  const GROUP_ROLE = { asia: "permits", funders: "pays", finance: "pays", lending: "pays", ground: "delivers", cooling: "delivers", research: "checks", global: "checks" };
+  const PK = D.PACKAGES;
+  const LV = D.LEVERS.map(l => ({ id: l.id, t: l.title, x: l.text, who: l.who, pk: (PK.find(p => p.levers.includes(l.id)) || {}).id || "other" }));
+  const ORGS = D.ORGANISATIONS.map(o => ({ id: o.id, n: o.name, u: o.url, d: o.does, g: o.role, r: GROUP_ROLE[o.role] || "checks", lv: o.levers }));
+  const INST = Object.fromEntries(D.INSTITUTIONS.map(i => [i.id, [i.name, i.desc]]));
+  const GROUPS = Object.fromEntries(D.ORG_ROLES.map(r => [r.id, r.name]));
+  const DATA = { roles: ROLE4, typical: TYPICAL, levers: LV, orgs: ORGS, inst: INST, groups: GROUPS, packages: [...PK.map(p => [p.id, p.title]), ["other", "Other actions"]] };
+  write("who-holds-it", page("who-holds-it", "Who holds it up", "For protection from heat to reach people, someone has to permit it, pay for it, deliver it and check it. Choose an action to see the kinds of body involved and the organisations already at work.",
+    `${hero("Act", "Who holds it up", "For protection to reach people, someone has to permit it, pay for it, deliver it and check it. Choose an action to see who could hold each part, and where we have not yet found anyone.")}
+    <section class="container hub who">
+      <p class="who-disc">The organisations shown are those whose published work relates to each action. Inclusion does not imply partnership, affiliation or endorsement, and nothing here judges how well anyone does their part.</p>
+      <div class="who-grid">
+        <nav class="who-pick" aria-label="Choose an action"><label class="who-sel"><span class="fl-lbl">Choose an action</span><select data-who-select></select></label><div class="who-list" data-who-list></div></nav>
+        <div class="who-main" data-who-main aria-live="polite"></div>
+        <aside class="who-side" data-who-side aria-live="polite"></aside>
+      </div>
+      <noscript><p class="hub-p">This view needs JavaScript. <a href="/heat-network/">The heat network</a> lists every organisation as text.</p></noscript>
+      <h2 class="hub-h">How to read this</h2>
+      <ul class="hub-grid hub-grid--plain">
+        <li class="std"><b>Kinds of body: our reading</b><span>Which kinds of body usually permit, pay, deliver and check is our reading of the solutions library and worked plans. Real arrangements differ from place to place.</span></li>
+        <li class="std"><b>Named organisations: published work</b><span>Each organisation is placed by the kind of work it publishes, and links to it. A gap means we have not found anyone yet, not that nobody is doing it.</span></li>
+        <li class="std"><b>No scores, no comparisons</b><span>Counts describe our research, not anyone’s performance. Organisations are never ranked against each other.</span></li>
+        <li class="std"><b>Help fill the gaps</b><span>If you hold one of these parts, or know who does, <a href="/corrections/">please tell us</a> and we will add it with credit.</span></li>
+      </ul>
+      <p class="hub-p"><a href="/together/">Make it work together</a>: agree who does what in one place · <a href="/heat-network/">The heat network</a>: every organisation · <a href="/worked-plans/">Worked plans</a></p>
+    </section>
+    <script>window.WHO=${JSON.stringify(DATA).replace(/</g, "\\u003c")};</script><script src="/who-holds-it/holds.js?v=${V}" defer></script>`));
 }
 
 // ---- Corrections: data/site/corrections.json plus any knowledge-base record that carries a correction note ----
