@@ -1,0 +1,14 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 0.94,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "A week in the heat.",
+  "Follow one worker’s money through a heatwave week.",
+  "Build a package of protection. Then try to break it.",
+  "It only counts if they can use it."
+ ]
+}

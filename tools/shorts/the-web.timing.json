@@ -1,0 +1,37 @@
+{
+ "total": 18.05,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 3.6,
+   "beats": [
+    0.35
+   ],
+   "text": "Extreme heat is never one problem."
+  },
+  {
+   "start": 3.6,
+   "dur": 5.58,
+   "beats": [
+    0.35
+   ],
+   "text": "It sets off eighty-seven consequences, across ten systems."
+  },
+  {
+   "start": 9.18,
+   "dur": 4.37,
+   "beats": [
+    0.35
+   ],
+   "text": "Each one leads to the next, and every link has its evidence."
+  },
+  {
+   "start": 13.55,
+   "dur": 4.5,
+   "beats": [
+    0.35
+   ],
+   "text": "See the whole web, system by system."
+  }
+ ]
+}

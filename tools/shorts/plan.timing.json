@@ -1,0 +1,43 @@
+{
+ "total": 19.86,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 3.6,
+   "beats": [
+    0.35
+   ],
+   "text": "Plan a response to heat, in six steps."
+  },
+  {
+   "start": 3.6,
+   "dur": 5.21,
+   "beats": [
+    0.35,
+    1.13,
+    2.31,
+    3.26
+   ],
+   "text": "First, who you\u2019re protecting. What you\u2019ll do. And who leads and pays."
+  },
+  {
+   "start": 8.81,
+   "dur": 6.55,
+   "beats": [
+    0.35,
+    1.01,
+    2.85,
+    3.96
+   ],
+   "text": "Then, the alerts that switch it on, what could stop it, and a check against WHO\u2019s core elements."
+  },
+  {
+   "start": 15.36,
+   "dur": 4.5,
+   "beats": [
+    0.35
+   ],
+   "text": "Plan it before the season."
+  }
+ ]
+}

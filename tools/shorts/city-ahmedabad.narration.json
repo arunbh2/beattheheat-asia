@@ -1,0 +1,14 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 0.94,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "Ahmedabad. Where South Asia’s first heat action plan began, and where its results were measured.",
+  "In 2010, a heatwave caused about thirteen hundred excess deaths.",
+  "The plan that followed warned people early. Nearly twelve hundred deaths a year were avoided.",
+  "Planning ahead saves lives."
+ ]
+}

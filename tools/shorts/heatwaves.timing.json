@@ -1,0 +1,40 @@
+{
+ "total": 19.89,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 4.0,
+   "beats": [
+    0.35
+   ],
+   "text": "What makes heat deadly? It is not only the temperature."
+  },
+  {
+   "start": 4.0,
+   "dur": 6.3,
+   "beats": [
+    0.35,
+    1.89,
+    3.01,
+    4.07
+   ],
+   "text": "Three things add up. Humid air. Hot nights. And many hot days in a row."
+  },
+  {
+   "start": 10.3,
+   "dur": 5.09,
+   "beats": [
+    0.35
+   ],
+   "text": "And recorded deaths are a floor: many are never counted as heat deaths."
+  },
+  {
+   "start": 15.39,
+   "dur": 4.5,
+   "beats": [
+    0.35
+   ],
+   "text": "Each major heatwave changed what came after."
+  }
+ ]
+}

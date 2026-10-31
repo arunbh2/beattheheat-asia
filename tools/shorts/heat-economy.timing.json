@@ -1,0 +1,37 @@
+{
+ "total": 20.39,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 3.6,
+   "beats": [
+    0.35
+   ],
+   "text": "Who pays to protect people from heat?"
+  },
+  {
+   "start": 3.6,
+   "dur": 6.38,
+   "beats": [
+    0.35
+   ],
+   "text": "A cooler workplace helps workers, the business, its buyers, insurers, and the public purse."
+  },
+  {
+   "start": 9.98,
+   "dur": 5.91,
+   "beats": [
+    0.35
+   ],
+   "text": "But often no single one of them has the reason, or the money, to pay for all of it."
+  },
+  {
+   "start": 15.89,
+   "dur": 4.5,
+   "beats": [
+    0.35
+   ],
+   "text": "The heat economy maps who builds, funds and buys protection."
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "total": 19.91,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 4.4,
+   "beats": [
+    0.35
+   ],
+   "text": "What can you do this season? Start where people spend the day."
+  },
+  {
+   "start": 4.4,
+   "dur": 7.41,
+   "beats": [
+    0.35,
+    1.25,
+    3.25,
+    5.03
+   ],
+   "text": "At work, water, shade and rest. At school, cooler rooms. At home, check on older neighbours."
+  },
+  {
+   "start": 11.81,
+   "dur": 3.6,
+   "beats": [
+    0.35
+   ],
+   "text": "Each says who it protects, and who must act."
+  },
+  {
+   "start": 15.41,
+   "dur": 4.5,
+   "beats": [
+    0.35
+   ],
+   "text": "Thirty-four practical actions, by setting."
+  }
+ ]
+}

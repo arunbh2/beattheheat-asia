@@ -1,0 +1,14 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 0.94,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "Plan a response to heat, in six steps.",
+  "First, | who you’re protecting. | What you’ll do. | And who leads and pays.",
+  "Then, | the alerts that switch it on, | what could stop it, | and a check against WHO’s core elements.",
+  "Plan it before the season."
+ ]
+}

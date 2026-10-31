@@ -1,0 +1,37 @@
+{
+ "total": 22.66,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.77,
+   "beats": [
+    0.35
+   ],
+   "text": "Delhi. Fierce heat before the monsoon, street trade, and falling groundwater."
+  },
+  {
+   "start": 5.77,
+   "dur": 5.29,
+   "beats": [
+    0.35
+   ],
+   "text": "In heatwaves, eight in ten Delhi street vendors surveyed saw fewer customers."
+  },
+  {
+   "start": 11.06,
+   "dur": 7.1,
+   "beats": [
+    0.35
+   ],
+   "text": "Its 2025 heat plan brought alerts, cooling shelters, and three thousand water points."
+  },
+  {
+   "start": 18.16,
+   "dur": 4.5,
+   "beats": [
+    0.35
+   ],
+   "text": "Steady funds can help it last beyond each summer."
+  }
+ ]
+}

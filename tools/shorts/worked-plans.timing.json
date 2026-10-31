@@ -1,0 +1,40 @@
+{
+ "total": 20.62,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 3.81,
+   "beats": [
+    0.35
+   ],
+   "text": "How have places in Asia turned heat risk into a plan?"
+  },
+  {
+   "start": 3.81,
+   "dur": 7.88,
+   "beats": [
+    0.35,
+    1.64,
+    3.97,
+    5.4
+   ],
+   "text": "At three scales. A whole city, in Ahmedabad. Ward by ward, in Thane. And state-wide, in Tamil Nadu."
+  },
+  {
+   "start": 11.69,
+   "dur": 4.43,
+   "beats": [
+    0.35
+   ],
+   "text": "Each shows what was decided, what changed, and who leads."
+  },
+  {
+   "start": 16.12,
+   "dur": 4.5,
+   "beats": [
+    0.35
+   ],
+   "text": "Plans worth borrowing from."
+  }
+ ]
+}

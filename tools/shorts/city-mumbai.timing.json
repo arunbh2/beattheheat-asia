@@ -1,0 +1,37 @@
+{
+ "total": 18.74,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.79,
+   "beats": [
+    0.35
+   ],
+   "text": "Mumbai. A coastal megacity where the nights are heating faster than the days."
+  },
+  {
+   "start": 5.79,
+   "dur": 4.78,
+   "beats": [
+    0.35
+   ],
+   "text": "Mumbai gained fifteen very warm nights a summer over the last decade."
+  },
+  {
+   "start": 10.57,
+   "dur": 3.67,
+   "beats": [
+    0.35
+   ],
+   "text": "Its climate plan names urban heat as a priority."
+  },
+  {
+   "start": 14.24,
+   "dur": 4.5,
+   "beats": [
+    0.35
+   ],
+   "text": "Cool nights are protection too."
+  }
+ ]
+}

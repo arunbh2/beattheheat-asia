@@ -1,0 +1,37 @@
+{
+ "total": 18.32,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 3.6,
+   "beats": [
+    0.35
+   ],
+   "text": "Seven countries, one hot season."
+  },
+  {
+   "start": 3.6,
+   "dur": 4.0,
+   "beats": [
+    0.35
+   ],
+   "text": "Warnings, plans and protection differ from country to country."
+  },
+  {
+   "start": 7.6,
+   "dur": 6.22,
+   "beats": [
+    0.35
+   ],
+   "text": "Bangladesh, India, Indonesia, Nepal, the Philippines, Sri Lanka and Thailand."
+  },
+  {
+   "start": 13.82,
+   "dur": 4.5,
+   "beats": [
+    0.35
+   ],
+   "text": "Who warns, who plans, and who protects."
+  }
+ ]
+}

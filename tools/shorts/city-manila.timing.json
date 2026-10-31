@@ -1,0 +1,37 @@
+{
+ "total": 21.56,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.23,
+   "beats": [
+    0.35
+   ],
+   "text": "Manila. A dense, humid metropolis where heat can close schools."
+  },
+  {
+   "start": 5.23,
+   "dur": 6.63,
+   "beats": [
+    0.35
+   ],
+   "text": "In April 2024, over five thousand Philippine schools moved to remote learning."
+  },
+  {
+   "start": 11.86,
+   "dur": 5.2,
+   "beats": [
+    0.35
+   ],
+   "text": "Quezon City has a heat action team, and libraries as cooling centres."
+  },
+  {
+   "start": 17.06,
+   "dur": 4.5,
+   "beats": [
+    0.35
+   ],
+   "text": "Cooler classrooms keep children learning."
+  }
+ ]
+}

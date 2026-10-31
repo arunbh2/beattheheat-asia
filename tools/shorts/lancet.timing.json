@@ -1,0 +1,37 @@
+{
+ "total": 22.86,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 4.92,
+   "beats": [
+    0.35
+   ],
+   "text": "The Lancet Countdown 2026, in two numbers."
+  },
+  {
+   "start": 4.92,
+   "dur": 7.88,
+   "beats": [
+    0.35
+   ],
+   "text": "Five hundred and seventy-three billion potential work hours were lost to heat in 2025."
+  },
+  {
+   "start": 12.8,
+   "dur": 5.56,
+   "beats": [
+    0.35
+   ],
+   "text": "And each person loses about forty-eight hours of sleep a year to hot nights."
+  },
+  {
+   "start": 18.36,
+   "dur": 4.5,
+   "beats": [
+    0.35
+   ],
+   "text": "Here is what they mean, for you."
+  }
+ ]
+}

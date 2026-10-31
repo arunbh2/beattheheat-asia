@@ -1,0 +1,14 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 0.94,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "Paying for heat protection is about timing.",
+  "Money is needed | before, to prepare. | During, so people can stop. | And after, to recover.",
+  "A payout tied to temperature can miss the real loss: basis risk.",
+  "Protection only counts if it reaches people in time."
+ ]
+}

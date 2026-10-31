@@ -1,0 +1,40 @@
+{
+ "total": 21.5,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 4.56,
+   "beats": [
+    0.35
+   ],
+   "text": "Heat sets off chains. Cut one link, and you can ease many."
+  },
+  {
+   "start": 4.56,
+   "dur": 6.36,
+   "beats": [
+    0.35
+   ],
+   "text": "A hot night costs sleep. Lost sleep costs a shift. A lost shift costs a repayment."
+  },
+  {
+   "start": 10.92,
+   "dur": 6.08,
+   "beats": [
+    0.35,
+    1.55,
+    3.25,
+    4.47
+   ],
+   "text": "Start with shade and paid rest, early warning, and cooler homes."
+  },
+  {
+   "start": 17.0,
+   "dur": 4.5,
+   "beats": [
+    0.35
+   ],
+   "text": "Twenty-nine actions, each mapped to the cycles it can break."
+  }
+ ]
+}
