@@ -100,6 +100,7 @@ const IDEAS = [
   ["Protection is held up together", "A shaded rest point needs land, water, someone to open it and money to keep it going, and each belongs to a different body. Protection reaches people only when every part holds.", "/together/", "Make it work together"],
   ["The missing middle", "The damage of heat is widely reported. The question asked less often is how protection is organised, paid for and kept going: who pays, who decides, who checks.", "/how-heat-is-reported/", "How heat is reported"],
   ["Known, inferred, uncertain", "Every claim says what kind of evidence stands behind it. Measured and official findings are known; models and projections are inferred; reports not yet confirmed are uncertain.", "/sources/", "Sources and references"],
+  ["Built together, open to correction", "Common Shade is built with the people who use it. When something here is wrong, unfair or unclear, we say sorry, correct it in the open and keep a record of what changed.", "/corrections/", "Corrections"],
   ["A gap is a task to solve together", "Where the research found nothing, the site says so plainly. A gap describes what we found, never a fault of any country, city or organisation.", "/heat-network/", "The heat network"],
 ];
 const STANDARDS = [
@@ -114,12 +115,33 @@ const STANDARDS = [
 write("approach", page("approach", "How Common Shade sees heat", "The ideas behind Common Shade, and the standards every page follows: sourced, honest about evidence, careful in tone, and kept current.",
   `${hero("News and evidence", "How Common Shade sees heat", "A shared map for everyone working to protect people from extreme heat in South and Southeast Asia. These are the ideas it is built on, and the standards it holds itself to.")}
     <section class="container hub">
-      <h2 class="hub-h">Five ideas</h2>
+      <h2 class="hub-h">Six ideas</h2>
       <ol class="idea-list">${IDEAS.map(([h, p, u, t], i) => `<li><span class="path-n">${i + 1}</span><div><h3>${esc(h)}</h3><p>${esc(p)}</p><p class="path-read"><a href="${u}">${esc(t)} <span aria-hidden="true">→</span></a></p></div></li>`).join("")}</ol>
       <h2 class="hub-h" id="standards">How we check facts</h2>
       <ul class="hub-grid hub-grid--plain">${STANDARDS.map(([h, p]) => `<li class="std"><b>${esc(h)}</b><span>${esc(p)}</span></li>`).join("")}</ul>
       <h2 class="hub-h">An open collaborative</h2>
       <p class="hub-p">Common Shade is free to use, share and adapt under CC BY 4.0. It grows with the people who use it: corrections, studies, plans and data are welcome, and contributions are credited. <a href="/join/">Help build Common Shade</a> · <a href="/cite/">Cite and reuse</a></p>
+    </section>`));
+
+// ---- Corrections: data/site/corrections.json plus any knowledge-base record that carries a correction note ----
+const CORR = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "corrections.json"), "utf8")).entries;
+const KBD = path.join(ROOT, "data", "kb");
+const kbCorr = fs.existsSync(KBD) ? fs.readdirSync(KBD).filter(f => f.endsWith(".json") && !f.startsWith("_"))
+  .flatMap(f => JSON.parse(fs.readFileSync(path.join(KBD, f), "utf8"))).filter(r => r.correction)
+  .map(r => ({ date: r.changed || r.added, where: [r.title], what: r.correction, change: r.summary, sorry: r.sorry || "" })) : [];
+const allCorr = [...CORR, ...kbCorr].sort((a, b) => String(b.date).localeCompare(String(a.date)));
+const fmtDate = d => /^\d{4}-\d{2}-\d{2}$/.test(d) ? new Date(d + "T00:00:00Z").toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }) : /^\d{4}-\d{2}$/.test(d) ? new Date(d + "-01T00:00:00Z").toLocaleDateString("en-GB", { month: "long", year: "numeric", timeZone: "UTC" }) : esc(d);
+write("corrections", page("corrections", "Corrections", "Common Shade is built together. When something here is wrong, unfair or unclear, we say sorry, correct it in the open and record what changed.",
+  `${hero("News and evidence", "Corrections", "Common Shade is built together, and it will sometimes be wrong. When it is, we say sorry, correct it in the open, and keep the record here.")}
+    <section class="container hub">
+      <ol class="corr-steps">
+        <li><span class="path-n">1</span><div><h3>Tell us</h3><p>A wrong figure, an unfair description, a broken link, a missing voice or a better source. Anyone can raise it, and no correction is too small.</p></div></li>
+        <li><span class="path-n">2</span><div><h3>We check it with you</h3><p>We look at the evidence together, and where we got it wrong, we say so plainly.</p></div></li>
+        <li><span class="path-n">3</span><div><h3>We correct it in the open</h3><p>The page changes, the change is listed below, and older figures are kept as superseded, so anyone can trace what changed and why.</p></div></li>
+      </ol>
+      <p class="corr-cta"><a class="hub-btn" href="/join/#join-form">Suggest a correction <span aria-hidden="true">→</span></a></p>
+      <h2 class="hub-h" id="log">What we have corrected</h2>
+      ${allCorr.length ? `<ol class="corr-log">${allCorr.map(c => `<li class="corr"><p class="corr-d">${fmtDate(c.date)} · ${(c.where || []).map(esc).join(", ")}</p><p><b>What was wrong.</b> ${esc(c.what)}</p><p><b>What changed.</b> ${esc(c.change)}</p>${c.sorry ? `<p class="corr-sorry">${esc(c.sorry)}</p>` : ""}</li>`).join("")}</ol>` : `<p class="hub-p">No corrections yet.</p>`}
     </section>`));
 
 // ---- Cite and reuse ----
