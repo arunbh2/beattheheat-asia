@@ -20,7 +20,8 @@
     "lead": ["/practical/", "Practical actions", "What to do this season in workplaces, homes, schools, clinics and markets."],
     "items": [
      ["/solutions/", "Solutions library", "131 ways to protect people, with evidence, cost and limits", 1],
-     ["/cooling-options/", "Cooling options", "What to build where people are", 1],
+     ["/build/", "Build protection", "Assemble actions for one place, or sketch a portfolio", 1],
+     ["/cooling-options/", "Cooling options", "What to build where people are", 2],
      ["/plan/", "Plan a response", "A six-step workbook for a team or a workshop", 1],
      ["/worked-plans/", "Worked plans", "How places in Asia turned heat risk into a plan", 1],
      ["/who-holds-it/", "Who holds it up", "Who could permit, pay for, deliver and check each action", 1],
@@ -61,6 +62,6 @@
  "footer_extra": [["/guide/", "How to use this site"], ["/paths/", "Paths by role"], ["/join/", "Help build Common Shade"], ["/cite/", "Cite and reuse"], ["/approach/", "How we check facts"], ["/corrections/", "Corrections"], ["/llms-full.txt", "Everything as one text file"]],
  "names": {
   "/heat-economy/businesses/": "Businesses", "/heat-economy/money/": "Funders and funding", "/heat-economy/opportunities/": "Ideas", "/heat-economy/conditions/": "Questions to ask", "/heat-economy/flows/": "Follow the money",
-  "/understand/": "Understand heat", "/act/": "Act", "/fund/": "Fund and build", "/evidence/": "News and evidence", "/paths/": "Paths by role", "/corrections/": "Corrections", "/evidence-map/": "Evidence map", "/who-holds-it/": "Who holds it up"
+  "/understand/": "Understand heat", "/act/": "Act", "/fund/": "Fund and build", "/evidence/": "News and evidence", "/paths/": "Paths by role", "/corrections/": "Corrections", "/evidence-map/": "Evidence map", "/who-holds-it/": "Who holds it up", "/build/": "Build protection"
  }
 }
