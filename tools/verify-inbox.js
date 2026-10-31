@@ -36,6 +36,15 @@ async function archiveOf(u) {
   return "";
 }
 
+// every passage where an expected term appears (past the site's menus), merged where they overlap, up to about 8,000 characters
+function around(body, nb, terms) {
+  const spans = [];
+  terms.forEach(t => { let i = -1; const k = norm(t); while ((i = nb.indexOf(k, i + 1)) > -1) spans.push([Math.max(0, i - 600), Math.min(body.length, i + 900)]); });
+  spans.sort((a, b) => a[0] - b[0]);
+  const merged = []; spans.forEach(s => { const m = merged[merged.length - 1]; if (m && s[0] <= m[1]) m[1] = Math.max(m[1], s[1]); else merged.push(s.slice()); });
+  const out = []; let n = 0; for (const [a, b] of merged.slice(1).concat(merged.slice(0, 1))) { if (n > 8000) break; out.push(body.slice(a, b)); n += b - a; }
+  return out;
+}
 (async () => {
   const lf = path.join(DIR, "link-check.json"), links = fs.existsSync(lf) ? JSON.parse(fs.readFileSync(lf, "utf8")) : {};
   links._terms = links._terms || {};
@@ -55,7 +64,7 @@ async function archiveOf(u) {
       links._terms[r.url] = found;
       const title = (page.body.match(/<title[^>]*>([\s\S]*?)<\/title>/i) || [, ""])[1].replace(/\s+/g, " ").trim();
       excerpts[r.id] = { url: r.url, status, http: page.status, archive: r.archive || "", title, found,
-        around: (r.expect || []).filter(t => found[t]).map(t => { const i = nb.indexOf(norm(t)); return body.slice(Math.max(0, i - 400), i + 500); }),
+        around: around(body, nb, (r.expect || []).filter(t => found[t])),
         opening: body.slice(0, 1500) };
       console.log(`${status.padEnd(8)} ${r.id}  archive: ${r.archive ? "yes" : "NO"}  terms: ${Object.entries(found).map(([t, v]) => (v ? "✓ " : "✗ ") + t).join(" · ")}`);
     }

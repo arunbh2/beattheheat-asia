@@ -12,6 +12,12 @@ const V = (fs.readFileSync(path.join(ROOT, "index.html"), "utf8").match(/styles\
 const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + ";this.D={GLOSSARY,LOOPS,LIVE_CITIES,CITY_PROFILES,HEATWAVES,ORGANISATIONS,ORG_ROLES,SYSTEMS,EVIDENCE,LEVERS,PACKAGES,INSTITUTIONS,ACTION_SETTINGS,ACTION_HORIZONS,EVIDENCE_STATUS,LOOP_GROUPS,CITY_HAP,LIVE_NOTE}", ctx);
 const D = ctx.D;
+// published knowledge-base records (data/kb), so each month's verified research reaches the pages that draw it
+const KB_DIR = path.join(ROOT, "data", "kb");
+const KB = fs.existsSync(KB_DIR) ? fs.readdirSync(KB_DIR).filter(f => f.endsWith(".json") && !f.startsWith("_")).flatMap(f => JSON.parse(fs.readFileSync(path.join(KB_DIR, f), "utf8"))).filter(r => r.status === "current") : [];
+const KBID = Object.fromEntries(fs.existsSync(KB_DIR) ? fs.readdirSync(KB_DIR).filter(f => f.endsWith(".json") && !f.startsWith("_")).flatMap(f => JSON.parse(fs.readFileSync(path.join(KB_DIR, f), "utf8"))).map(r => [r.id, r]) : []);
+const srcOf = r => { const x = KBID[(r.sources || [])[0]]; return x ? [x.publisher ? `${x.publisher}: ${x.title}` : x.title, x.url] : null; };
+const PLACE = p => /^country-/.test(p) ? p.slice(8).split("-").map(w => w[0].toUpperCase() + w.slice(1)).join(" ").replace("Viet Nam", "Viet Nam") : { "region-asia": "Asia", "region-south-asia": "South Asia", "region-southeast-asia": "Southeast Asia", "region-global": "Global" }[p] || p.replace(/^city-/, "");
 const MONTH = new Date().toLocaleDateString("en-GB", { month: "long", year: "numeric" });
 
 function page(slug, title, desc, body, extraHead = "") {
@@ -133,7 +139,8 @@ write("approach", page("approach", "How Common Shade sees heat", "The ideas behi
     ["other", "Other studies and reports", /survey|working paper|research|investigation|institute|industry|university/i], ["news", "News reports", /news|press/i]];
   const gradeOf = t => { const peer = /peer-reviewed/i.test(t) && !/modelling/i.test(t); if (peer) return "peer"; if (/reported by the press|news/i.test(t)) return "news"; const g = GRADES.slice(1).find(([, , re]) => re.test(t)); return g ? g[0] : "other"; };
   const ASIA = /India|Bangladesh|Nepal|Pakistan|Sri Lanka|Thailand|Bangkok|Indonesia|Jakarta|Philippines|Los Baños|Viet|Cambodia|Malaysia|Singapore|Ahmedabad|Delhi|Dhaka|Myanmar|Lao|Asia/i;
-  const EVS = D.EVIDENCE, LV = D.LEVERS, LQ = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "learning.json"), "utf8")).questions;
+  const EVS = D.EVIDENCE, LV = D.LEVERS, LQ = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "learning.json"), "utf8")).questions
+    .concat(KB.filter(r => r.type === "question").map(r => ({ id: r.id, loop: (r.cycles || [])[0] || "", status: "open", q: r.question, have: r.summary, could: r.would_answer_it, scale: r.scale || "To be sized" })));
   const cyc = D.LOOPS.map(l => { const st = (EVS[l.id] || []).map(s => ({ ...s, g: gradeOf(s.type), asia: ASIA.test(s.where || "") }));
     return { l, st, peer: st.filter(s => s.g === "peer").length, asia: st.filter(s => s.asia).length, q: LQ.filter(q => q.loop === l.id) }; })
     .sort((a, b) => (a.l.evidence === "emerging" ? 0 : 1) - (b.l.evidence === "emerging" ? 0 : 1) || a.peer + a.asia - (b.peer + b.asia));
@@ -256,7 +263,10 @@ write("approach", page("approach", "How Common Shade sees heat", "The ideas behi
   // approximate centres for each heatwave on the drawn map, and how wide an area it covered (map units)
   const HWPOS = { odisha1998: [20.5, 85.0, 3], ap2003: [16.5, 80.0, 3], ahmedabad2010: [23.0, 72.6, 2], southasia2015: [24.5, 74.0, 7], sea2016: [15.5, 101.5, 6],
     southasia2022: [28.0, 73.5, 7], asia2023: [20.0, 95.0, 9], asia2024: [18.0, 92.0, 12], india2024: [27.0, 78.5, 5], southasia2026: [27.0, 73.0, 7] };
-  const MS = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "milestones.json"), "utf8")).milestones;
+  const KINDMAP = { plan: "plan", law: "rule", rule: "rule", role: "role", programme: "programme", finance: "programme" };
+  const MS = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "milestones.json"), "utf8")).milestones
+    .concat(KB.filter(r => r.type === "milestone" && r.lat != null && r.lon != null && KINDMAP[r.kind]).map(r => ({ id: r.id, year: +String(r.date).slice(0, 4), kind: KINDMAP[r.kind],
+      place: (r.places || []).map(PLACE).join(", "), lat: r.lat, lon: r.lon, title: r.title, text: r.summary, source: srcOf(r), link: ["/whats-new/", "What changed this month"] })));
   const HW = D.HEATWAVES.filter(h => HWPOS[h.id]).map(h => ({ id: h.id, y: h.year, when: h.when, place: h.place, t: h.title, toll: h.toll, what: h.what, changed: h.changed,
     src: h.sources && h.sources[0] ? [h.sources[0].label, h.sources[0].url] : null, lat: HWPOS[h.id][0], lon: HWPOS[h.id][1], r: HWPOS[h.id][2] }));
   const missing = D.HEATWAVES.filter(h => !HWPOS[h.id]).map(h => h.id);

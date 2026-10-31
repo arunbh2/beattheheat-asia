@@ -1,0 +1,27 @@
+[
+ {
+  "id": "q-pilots-after-funding",
+  "type": "question",
+  "title": "How do heat-health pilots keep their footing once funding ends?",
+  "summary": "A funder’s own account of the region notes that successful pilots often lose their institutional footing once funding ends.",
+  "question": "How do heat-health pilots in Southeast Asia keep their institutional footing once their first funding ends?",
+  "why_it_matters": "Protection that stops when a grant stops leaves people where they started; knowing what keeps it going would shape how grants are designed.",
+  "would_answer_it": "Follow a handful of heat-health pilots for two years after their first funding, recording who kept which part going and why.",
+  "scale": "Five to eight pilots, two years",
+  "cycles": [
+   "reactive"
+  ],
+  "levers": [
+   "heatbudget"
+  ],
+  "evidence": "uncertain",
+  "sources": [
+   "src-ecobusiness-paa-sea-heat-hub-2026"
+  ],
+  "as_of": "2026-10",
+  "checked": "2026-10-31",
+  "status": "current",
+  "added": "2026-10",
+  "changed": "2026-10"
+ }
+]

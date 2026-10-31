@@ -1,0 +1,55 @@
+[
+ {
+  "id": "ms-four-country-heat-coalition-2026",
+  "type": "milestone",
+  "title": "Four South Asian countries formalise a heat cooperation framework",
+  "summary": "A secondary web report says India, Nepal, Bangladesh and Bhutan formalised a regional coalition on heat in October 2026.",
+  "date": "2026-10",
+  "kind": "programme",
+  "places": [
+   "region-south-asia"
+  ],
+  "evidence": "uncertain",
+  "sources": [
+   "src-newsytoday-four-country-heat-2026"
+  ],
+  "as_of": "2026-10",
+  "checked": "2026-10-31",
+  "status": "current",
+  "review": {
+   "tone": "hold",
+   "note": "Established sources describe four country assessments released at the Global Heat Forum, not a formal coalition. Held until an official source confirms one."
+  },
+  "_file": "records.json",
+  "_held": [
+   "the reviewer held it back: Established sources describe four country assessments released at the Global Heat Forum, not a formal coalition. Held until an official source confirms one."
+  ]
+ },
+ {
+  "id": "src-newsytoday-four-country-heat-2026",
+  "type": "source",
+  "title": "Four South Asian neighbours set to tackle rising heat risk together",
+  "summary": "A secondary web report of a four-country cooperation framework on heat.",
+  "publisher": "Newsy Today",
+  "url": "https://www.newsy-today.com/four-south-asian-neighbours-set-to-tackle-rising-heat-risk-together/",
+  "archive": "https://web.archive.org/web/20261031093520/https://www.newsy-today.com/four-south-asian-neighbours-set-to-tackle-rising-heat-risk-together/",
+  "kind": "news",
+  "expect": [
+   "Bhutan",
+   "Nepal"
+  ],
+  "evidence": "uncertain",
+  "sources": [],
+  "as_of": "2026-10",
+  "checked": "2026-10-31",
+  "status": "current",
+  "review": {
+   "tone": "hold",
+   "note": "Found only on low-reliability sites; no official or established source confirms it yet. Held until one does."
+  },
+  "_file": "sources.json",
+  "_held": [
+   "the reviewer held it back: Found only on low-reliability sites; no official or established source confirms it yet. Held until one does."
+  ]
+ }
+]

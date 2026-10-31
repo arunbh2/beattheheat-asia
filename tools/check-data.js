@@ -79,7 +79,7 @@ function check(records, kb, opts = {}) {
     if (named.length) hold.push("names a person: describe the institution or role instead");
     if (r.byline || r.author) hold.push("no author or byline fields: authors belong only in a source's citation");
     // 5 review note, written by the monthly reviewer for every inbox record
-    if (opts.inbox) { const v = r.review || {}; if (v.tone !== "ok" || !v.note) hold.push("needs the reviewer's note: review { tone: \"ok\", note }"); else if (review.length && !v.addresses) hold.push(`flags need an answer in review.addresses: ${review.join("; ")}`); }
+    if (opts.inbox) { const v = r.review || {}; if (v.tone === "hold") hold.push(`the reviewer held it back: ${v.note || "no reason given"}`); else if (v.tone !== "ok" || !v.note) hold.push("needs the reviewer's note: review { tone: \"ok\", note }"); else if (review.length && !v.addresses) hold.push(`flags need an answer in review.addresses: ${review.join("; ")}`); }
     // 6 consistency: a new figure for the same thing, place and period as a current one
     if (r.type === "claim" && r.key) {
       const twin = kb.find(k => k.type === "claim" && k.status === "current" && k.key === r.key && k.id !== r.id && k.id !== r.replaces && String(k.period) === String(r.period));

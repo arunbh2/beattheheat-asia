@@ -1,1 +1,62 @@
-[]
+[
+ {
+  "month": "2026-10",
+  "published": [
+   {
+    "id": "ms-narayanganj-heat-plan-2026",
+    "type": "milestone",
+    "title": "Bangladesh’s first urban heatwave action plan, for Narayanganj",
+    "replaces": null
+   },
+   {
+    "id": "ms-global-heat-forum-2026",
+    "type": "milestone",
+    "title": "The first Global Heat Forum, in Bangkok",
+    "replaces": null
+   },
+   {
+    "id": "fund-paa-ghhin-sea-hub-2026",
+    "type": "funding",
+    "title": "Support for the Southeast Asia Heat Health Hub’s next stage",
+    "replaces": null
+   },
+   {
+    "id": "fund-rockefeller-wellcome-south-asia-heat-2026",
+    "type": "funding",
+    "title": "A South Asia climate–health desk and a heat research consortium",
+    "replaces": null
+   },
+   {
+    "id": "q-pilots-after-funding",
+    "type": "question",
+    "title": "How do heat-health pilots keep their footing once funding ends?",
+    "replaces": null
+   },
+   {
+    "id": "src-prothomalo-narayanganj-heat-plan-2026",
+    "type": "source",
+    "title": "Bangladesh, 3 other South Asian countries launch new initiative to tackle extreme heat",
+    "replaces": null
+   },
+   {
+    "id": "src-ecobusiness-paa-sea-heat-hub-2026",
+    "type": "source",
+    "title": "Philanthropy Asia Alliance supports Southeast Asia Heat Health Hub to scale coordinated action on extreme heat",
+    "replaces": null
+   },
+   {
+    "id": "src-climateworks-global-heat-forum-2026",
+    "type": "source",
+    "title": "Global Heat Forum gathers 600 leaders to scale investment for extreme heat action",
+    "replaces": null
+   },
+   {
+    "id": "src-wmo-south-asia-heat-initiatives-2026",
+    "type": "source",
+    "title": "New initiatives launched to address extreme heat in South Asia",
+    "replaces": null
+   }
+  ],
+  "held": 2
+ }
+]

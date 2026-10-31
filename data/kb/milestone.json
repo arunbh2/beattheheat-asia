@@ -1,0 +1,56 @@
+[
+ {
+  "id": "ms-global-heat-forum-2026",
+  "type": "milestone",
+  "title": "The first Global Heat Forum, in Bangkok",
+  "summary": "Nearly 600 scientists, business leaders, philanthropists and health experts met in Bangkok from 6 to 9 October 2026. The Forum released the first country-level heat and health assessments for Bangladesh, Bhutan, India and Nepal, and a roadmap for investment and action on extreme heat.",
+  "date": "2026-10-06",
+  "kind": "programme",
+  "lat": 14.3,
+  "lon": 100.9,
+  "places": [
+   "region-asia"
+  ],
+  "levers": [
+   "hap",
+   "anticipatory"
+  ],
+  "evidence": "known",
+  "sources": [
+   "src-climateworks-global-heat-forum-2026"
+  ],
+  "as_of": "2026-10",
+  "checked": "2026-10-31",
+  "status": "current",
+  "added": "2026-10",
+  "changed": "2026-10"
+ },
+ {
+  "id": "ms-narayanganj-heat-plan-2026",
+  "type": "milestone",
+  "title": "Bangladesh’s first urban heatwave action plan, for Narayanganj",
+  "summary": "Bangladesh’s first heat and health assessment, released in October 2026, reports that the country’s first urban heatwave action plan has been developed for Narayanganj, alongside national guidelines for heat-related illness and a public campaign, “Beat the Heat”.",
+  "date": "2026-10",
+  "kind": "plan",
+  "lat": 23.62,
+  "lon": 90.5,
+  "places": [
+   "country-bangladesh"
+  ],
+  "levers": [
+   "hap"
+  ],
+  "cycles": [
+   "clinic"
+  ],
+  "evidence": "inferred",
+  "sources": [
+   "src-prothomalo-narayanganj-heat-plan-2026"
+  ],
+  "as_of": "2026-10",
+  "checked": "2026-10-31",
+  "status": "current",
+  "added": "2026-10",
+  "changed": "2026-10"
+ }
+]
