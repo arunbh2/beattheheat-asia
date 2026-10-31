@@ -52,7 +52,8 @@
      { "url": "/countries/", "q": "Where does each country stand?", "why": "Plans, warnings, rules at work, cooling and money, country by country.", "read": [], "do": ["/cities/", "See the cities"] },
      { "url": "/lancet-countdown-2026/", "q": "What does the evidence ask of governments?", "why": "The report’s targets, and what they mean for national action.", "read": [["#for-national", "What it means for national governments"], ["#targets", "The targets"]], "do": ["/lancet-countdown-2026/#blind-spots", "See the gaps in the evidence"] },
      { "url": "/worked-plans/", "q": "What has worked elsewhere?", "why": "Worked plans, from a city to a whole state.", "read": [["#tamilnadu", "Tamil Nadu’s state-wide network"]], "do": ["/heatwaves/", "See what heatwaves changed"] },
-     { "url": "/finance/", "q": "How is protection paid for?", "why": "Triggers, timing and what has been tried across Asia.", "read": [], "do": ["/heat-economy/", "See the heat economy"] }
+     { "url": "/finance/", "q": "How is protection paid for?", "why": "Triggers, timing and what has been tried across Asia.", "read": [], "do": ["/heat-economy/", "See the heat economy"] },
+     { "url": "/paying-when-heat-strikes/", "q": "Which layer could carry heat?", "why": "Insurance, pools, credit, forecast funds and social protection for heat: what exists, whether it paid, and when.", "read": [], "do": ["/paying-when-heat-strikes/#countries", "See the layers country by country"] }
     ] },
   { "id": "research", "label": "Journalists and researchers", "short": "Research", "card": "How heat is reported, the evidence behind every claim, and the open questions.",
     "join": "Share a study, a dataset or a correction.",

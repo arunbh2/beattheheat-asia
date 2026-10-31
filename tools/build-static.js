@@ -131,6 +131,9 @@ const out = {};
 // a drawn, faceless composite person for each cycle (data/site/people.json), and the one-minute check for places
 const PEOPLE = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "people.json"), "utf8"));
 const FIGURE = `<svg viewBox="0 0 56 56" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 14 Q28 2 50 14" stroke="#F26430" stroke-width="3.4"/><circle cx="28" cy="22" r="5.5"/><path d="M28 27.5 V40 M28 40 L22 52 M28 40 L34 52 M28 31 L20 37 M28 31 L36 37"/></g></svg>`;
+// cycles that risk-finance instruments name (tools/riskfin-data.js), so each links to Paying when heat strikes
+const RFLOOPS = (() => { try { const c = {}; require("./riskfin-data.js").instruments.forEach(i => i.loops.forEach(l => { c[l] = (c[l] || 0) + 1; })); return c; } catch (e) { return {}; } })();
+const rfLine = id => RFLOOPS[id] >= 2 ? `<p><strong>Money arranged before heat:</strong> ${RFLOOPS[id]} kinds of insurance, pooled funds, credit and forecast-based finance name this cycle. <a href="/paying-when-heat-strikes/">Paying when heat strikes</a> asks of each whether it paid, and when.</p>` : "";
 const personOf = id => { const x = PEOPLE.people.find(q => q.loop === id); return x ? `<figure class="cs-person">${FIGURE}<figcaption><b>${esc(x.who)}</b><p>${esc(x.story)}</p><small>${esc(PEOPLE.note)}</small></figcaption></figure>` : ""; };
 const FORM_URL = "https://forms.cloud.microsoft/e/SNfMp0esFh";
 const PIN = `<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 18s6-5.6 6-10a6 6 0 1 0-12 0c0 4.4 6 10 6 10z" fill="none" stroke="#F26430" stroke-width="2"/><circle cx="10" cy="8" r="2.2" fill="#F26430"/></svg>`;
@@ -152,7 +155,7 @@ const checkFor = (key, label) => `<aside class="cs-check" data-check="${key}" da
         <p class="meta">The cycle: ${esc(l.path.map(name).join(" → "))} → back to the start. Evidence: ${l.evidence === "established" ? "well established" : "emerging (each link is evidenced; the full cycle less so)"}.</p>
         ${(x => x ? `<p><strong>${esc(D.STAKES_LABEL[x.kind])} (${esc(x.where)}):</strong> ${esc(x.n)}. ${esc(x.text)} ${ext(x.url, x.by)}</p>${x.sea ? `<p><strong>In Southeast Asia (${esc(x.sea.where)}):</strong> ${esc(x.sea.n)}. ${esc(x.sea.text)} ${ext(x.sea.url, x.sea.by)}</p>` : ""}` : `<p class="meta">${esc(D.STAKES_LABEL.none)}.</p>`)(D.LOOP_STAKES[l.id])}
         ${D.LOOP_PLACES[l.id] ? `<p><strong>Where it plays out:</strong> ${esc(D.LOOP_PLACES[l.id])}</p>` : ""}
-        ${lv.length ? `<p><strong>Where it breaks:</strong> ${lv.map(v => `<a href="/actions/#${v.id}">${esc(v.title)}</a>`).join(", ")}</p>` : ""}
+        ${lv.length ? `<p><strong>Where it breaks:</strong> ${lv.map(v => `<a href="/actions/#${v.id}">${esc(v.title)}</a>`).join(", ")}</p>` : ""}${rfLine(l.id)}
         ${(x => x ? `<p><strong>Solutions to try:</strong> ${x.note ? `${esc(x.note)} ` : ""}${x.items.map(i => `<a href="/solutions/#${i.id}">${esc(i.name)}</a> (${esc(i.why.replace(/\.$/, "").replace(/^./, c => c.toLowerCase()))})`).join("; ")}. A suggested match, not a measured effect on the cycle. <a href="/heat-economy/opportunities/#loop-${l.id}">Business ideas for this cycle</a>.</p>` : "")(D.LOOP_SOLUTIONS[l.id])}
         ${ev.length ? `<ul>${ev.map(e => `<li>${esc(e.finding)} ${ext(e.url, e.by)}${e.type ? `<br><span class="meta">${esc(e.type)} · ${esc(e.where)} · ${esc(e.scale)}. Limit: ${esc(e.limit)}</span>${e.reading ? `<br><span class="meta"><strong>Our reading:</strong> ${esc(e.reading)}</span>` : ""}` : ""}</li>`).join("")}</ul>` : ""}
         <p class="meta"><a href="/#loop-${l.id}">Follow it on the map</a>${l.video ? ` · <a href="/${l.video}">Watch the film (${esc(l.length)})</a>` : ""}</p>`;
@@ -448,6 +451,7 @@ fs.writeFileSync(path.join(ROOT, "sitemap.xml"), `<?xml version="1.0" encoding="
   <url><loc>${SITE}/together/</loc><lastmod>${TODAY}</lastmod><priority>0.9</priority></url>
   <url><loc>${SITE}/guide/</loc><lastmod>${TODAY}</lastmod><priority>0.9</priority></url>
   <url><loc>${SITE}/practical/</loc><lastmod>${TODAY}</lastmod><priority>0.9</priority></url>
+  <url><loc>${SITE}/paying-when-heat-strikes/</loc><lastmod>${TODAY}</lastmod><priority>0.8</priority></url>
   <url><loc>${SITE}/finance/</loc><lastmod>${TODAY}</lastmod><priority>0.8</priority></url>
   <url><loc>${SITE}/sources/</loc><lastmod>${TODAY}</lastmod><priority>0.6</priority></url>
   <url><loc>${SITE}/join/</loc><lastmod>${TODAY}</lastmod><priority>0.7</priority></url>
