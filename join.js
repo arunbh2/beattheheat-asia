@@ -38,6 +38,43 @@
     box.appendChild(f); box.appendChild(p);
   }
 
+  /* ---- /join/: ways in, where you are coming from, and a form that remembers both ---- */
+  var GUIDE = {
+    listen: "<b>You chose to listen.</b> In the form, choose “Staying informed” as your contribution. That is all.",
+    share: "<b>You chose to share.</b> In the last question, tell us what you would like to share. A link or a few lines is plenty.",
+    build: "<b>You chose to build.</b> In the last question, describe what you would like to explore. A rough idea is a good start."
+  };
+  function journey() {
+    var ways = [].slice.call(document.querySelectorAll("[data-way]")); if (!ways.length) return;
+    var panels = document.querySelectorAll("[data-panel]"), hint = document.querySelector("[data-panel-hint]"), guide = document.querySelector("[data-guide]");
+    var roots = [].slice.call(document.querySelectorAll("[data-root]")), fits = document.querySelectorAll("[data-fit]");
+    var base = guide ? guide.innerHTML : "", S = { way: "", roots: [] };
+    document.documentElement.classList.add("jn-js");
+    function names() { return roots.filter(function (r) { return S.roots.indexOf(r.dataset.root) > -1; }).map(function (r) { return r.querySelector("b").textContent; }); }
+    function sync() {
+      ways.forEach(function (w) { var on = w.dataset.way === S.way; w.setAttribute("aria-checked", String(on)); w.tabIndex = on || (!S.way && w === ways[0]) ? 0 : -1; });
+      panels.forEach(function (p) { p.hidden = p.dataset.panel !== S.way; });
+      if (hint) hint.hidden = !!S.way;
+      roots.forEach(function (r) { r.setAttribute("aria-pressed", String(S.roots.indexOf(r.dataset.root) > -1)); });
+      fits.forEach(function (f) { f.hidden = S.roots.indexOf(f.dataset.fit) < 0; });
+      if (guide) { var n = names();
+        guide.innerHTML = (S.way ? GUIDE[S.way] : base) + (n.length ? " <span class=\"jn-guide__roots\">You told us you work on " + n.join(", ").toLowerCase() + ": mentioning it in the form helps the right person read it.</span>" : ""); }
+    }
+    function pick(w, focus) { S.way = w; sync(); if (focus) { var b = document.getElementById("way-" + w); if (b) b.focus(); } }
+    ways.forEach(function (w, i) {
+      w.addEventListener("click", function () { pick(w.dataset.way); });
+      w.addEventListener("keydown", function (e) {   // a radio group: arrows move between the three ways
+        var k = e.key, j = k === "ArrowRight" || k === "ArrowDown" ? i + 1 : k === "ArrowLeft" || k === "ArrowUp" ? i - 1 : null;
+        if (j === null) return; e.preventDefault(); pick(ways[(j + ways.length) % ways.length].dataset.way, true);
+      });
+    });
+    roots.forEach(function (r) { r.addEventListener("click", function () { var k = r.dataset.root, i = S.roots.indexOf(k); if (i > -1) S.roots.splice(i, 1); else S.roots.push(k); sync(); }); });
+    document.querySelectorAll("[data-pick]").forEach(function (a) { a.addEventListener("click", function (e) { e.preventDefault(); pick(a.dataset.pick); var sec = document.getElementById("ways"); if (sec) sec.scrollIntoView({ behavior: "smooth", block: "start" }); setTimeout(function () { var b = document.getElementById("way-" + a.dataset.pick); if (b) b.focus({ preventScroll: true }); }, 450); }); });
+    document.querySelectorAll("[data-go]").forEach(function (a) { a.addEventListener("click", function () { S.way = a.dataset.go; sync(); }); });
+    var h = location.hash.match(/^#(?:way-)?(listen|share|build|updates)$/); if (h) pick(h[1] === "updates" ? "listen" : h[1]);
+    sync();
+  }
+
   /* ---- elsewhere: one gentle invitation, at most once a month ----
      Browsers do not let a page show its own message as a tab closes, so the card appears either when the
      pointer heads for the tab bar (desktop) or after a visitor has spent time and scrolled (any device). */
@@ -58,11 +95,11 @@
       el.innerHTML =
         '<button type="button" class="invite__x" aria-label="Not now, close">×</button>' +
         '<p class="invite__eyebrow">Common Shade</p>' +
-        '<h2 class="invite__h" id="invite-h">' + (leaving ? "Before you go" : "Working on heat?") + '</h2>' +
-        '<p class="invite__p">People and organisations across South and Southeast Asia are building Common Shade, a collaborative for protection from extreme heat. Would you like to help build it, or just hear what changes?</p>' +
+        '<h2 class="invite__h" id="invite-h">Working on heat?</h2>' +
+        '<p class="invite__p">Common Shade is being built by people across South and Southeast Asia who work on heat in many different ways. If you would like to take part, at whatever pace suits you, there is room for you.</p>' +
         '<div class="invite__acts">' +
-          '<a class="invite__btn invite__btn--main" href="/join/" target="_blank" rel="noopener" data-act="join">Help build Common Shade<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a>' +
-          '<a class="invite__btn" href="/join/#updates" target="_blank" rel="noopener" data-act="updates">Keep me updated<span class="visually-hidden"> (opens in a new tab)</span></a>' +
+          '<a class="invite__btn invite__btn--main" href="/join/" target="_blank" rel="noopener" data-act="join">See the ways in<span class="visually-hidden"> (opens in a new tab)</span>&nbsp;<span aria-hidden="true">↗</span></a>' +
+          '<a class="invite__btn" href="/join/#way-listen" target="_blank" rel="noopener" data-act="updates">Just keep me updated<span class="visually-hidden"> (opens in a new tab)</span></a>' +
         '</div>' +
         '<button type="button" class="invite__later">Not now</button>';
       document.body.appendChild(el);
@@ -85,10 +122,10 @@
       if (depth > 0.35 && Date.now() - start > 45000) show(false);
     }
     function cleanup() { document.removeEventListener("mouseout", onLeave); removeEventListener("scroll", onScroll); }
-    if (matchMedia("(hover: hover) and (pointer: fine)").matches) document.addEventListener("mouseout", onLeave);
+    // no "before you go" interruption as people leave: the card only appears after someone has spent real time reading
     addEventListener("scroll", onScroll, { passive: true });
   }
 
-  function boot() { if (document.body.dataset.page === "join") renderForm(); else invite(); }
+  function boot() { if (document.body.dataset.page === "join") { renderForm(); journey(); } else invite(); }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot); else boot();
 })();
