@@ -374,7 +374,7 @@ button { font: inherit; color: inherit; }
 .web.far .node--domain .node__label { opacity: 0; }
 .web.far .node--domain.on .node__label { opacity: 1; }
 
-.node { cursor: pointer; transition: opacity .35s ease; transition-delay: calc(var(--d, 0) * 200ms); }
+.node { cursor: pointer; transition: opacity .25s var(--ease-out, ease-out); transition-delay: calc(var(--d, 0) * 60ms); }
 .node:focus { outline: none; }
 .node__halo { fill: var(--amber); opacity: 0; transition: opacity .2s; }
 .node__dot { fill: var(--c); stroke: var(--white); stroke-width: calc(var(--px) * 2px); transition: fill .2s; }
@@ -400,11 +400,11 @@ button { font: inherit; color: inherit; }
 .hub__ring { fill: none; stroke: var(--ink); stroke-width: 4; stroke-dasharray: 12 12; transform-box: fill-box; transform-origin: center; animation: spin 120s linear infinite; }
 .hub__disc { fill: var(--orange); }
 .hub__text { font-family: var(--font-display); font-size: 74px; fill: var(--ink); pointer-events: none; letter-spacing: 0.01em; }
-.node--hub .hub__halo { animation: halo 3.6s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+.node--hub .hub__halo { animation: halo 3.6s ease-out 3; transform-box: fill-box; transform-origin: center; }
 @keyframes spin { to { transform: rotate(360deg); } }
 @keyframes halo { 0% { opacity: .35; transform: scale(.85); } 100% { opacity: 0; transform: scale(1.18); } }
 
-.edge { fill: none; transition: opacity .35s ease; transition-delay: calc(var(--d, 0) * 200ms); }
+.edge { fill: none; transition: opacity .25s var(--ease-out, ease-out); transition-delay: calc(var(--d, 0) * 60ms); }
 .edge--hub { stroke: var(--ink); stroke-width: calc(var(--px) * 2.6px); }
 .edge--direct { stroke: var(--c); stroke-width: calc(var(--px) * 1.3px); opacity: .55; }
 .edge--knock { stroke: #4A5560; stroke-width: calc(var(--px) * 1.2px); stroke-dasharray: calc(var(--px) * 4px) calc(var(--px) * 4px); opacity: .7; }
@@ -3897,3 +3897,12 @@ html:not(.rf-js) .rf-co-tabs{display:none}
 @media (max-width:760px){.rf-lab{font-size:24px}.rf-hero__in{grid-template-columns:1fr}.rf-hero__art{max-width:300px;order:-1}.rf-people{grid-template-columns:1fr}.rf-co__row{grid-template-columns:1fr;gap:6px}.rf-filters [role=group]>span{min-width:100%}.rf-cards{grid-template-columns:1fr}.rf-cnt{display:none}}
 @media (prefers-reduced-motion:reduce){.rf-strips,.rf-sunglow,.rf-halo,.rf-card{transition:none}.rf-card:hover{transform:none}}
 .rf-co__row>.rf-chip{align-self:start;justify-self:start;white-space:normal;text-align:center;line-height:1.3}
+
+/* ---------- Touch screens: lifts on hover stay put after a tap, so they only lift where a real pointer hovers ---------- */
+@media (hover: none), (pointer: coarse) {
+  .btn--hero:hover, .door:hover, .wk-person:hover, .wk-card:hover, .tg-launch:hover, .wayin__opt:hover, .toolkit__card:hover,
+  .section-link a:hover, .mx-card:hover, .cty-index a:hover, .he-stat:hover, .hub-card:hover, .jn-way:hover, .act-card:hover,
+  .rf-card:hover, .csn__start:hover, .csn__map:hover { transform: none; }
+  .intro--canopy .btn--hero:hover span, .foot-close__go:hover span { transform: none; }
+  .cm__dot:hover .cm__pin, .mx-pin:hover span { transform: none; }
+}

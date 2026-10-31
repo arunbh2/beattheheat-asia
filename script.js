@@ -408,7 +408,7 @@
     nodes.forEach(n => {
       if (n.kind !== "leaf") return;
       const t = n.g.querySelector(".node__label"); if (!t) return;
-      const lg = el("g", {}, gLabels);
+      const lg = el("g", { "aria-hidden": "true" }, gLabels);
       const sync = () => { lg.setAttribute("class", n.g.getAttribute("class") + " node--label-only");
         lg.setAttribute("transform", n.g.getAttribute("transform")); lg.setAttribute("style", n.g.getAttribute("style") || ""); };
       sync(); lg.appendChild(t);
@@ -588,6 +588,9 @@
   zoomOutBtn.addEventListener("click", () => animateTo(zoomAt(1 / 1.6), 350));
   need("zoom-fit").addEventListener("click", () => fitAll());
 
+  // while a finger or wheel moves the map, redraw at most once a frame
+  let camFrame = 0;
+  const requestCam = () => { if (!camFrame) camFrame = requestAnimationFrame(() => { camFrame = 0; applyCam(); }); };
   // drag to pan, pinch to zoom, tap to select
   const pointers = new Map();
   let gesture = null;
@@ -610,7 +613,7 @@
       const dx = ev.clientX - gesture.sx, dy = ev.clientY - gesture.sy;
       if (!gesture.moved && Math.hypot(dx, dy) < 6) return;
       gesture.moved = true; svg.classList.add("is-dragging");
-      cam.x = gesture.cx - dx / cam.k; cam.y = gesture.cy - dy / cam.k; applyCam();
+      cam.x = gesture.cx - dx / cam.k; cam.y = gesture.cy - dy / cam.k; requestCam();
     } else if (gesture.type === "pinch" && pointers.size === 2) {
       const [p1, p2] = [...pointers.values()];
       const rect = svg.getBoundingClientRect();
@@ -619,13 +622,13 @@
       const sx = gesture.mx - rect.left, sy = gesture.my - rect.top;
       const wx = gesture.cx + (sx - W / 2) / gesture.k, wy = gesture.cy + (sy - H / 2) / gesture.k;
       const nx = (p1.x + p2.x) / 2 - rect.left, ny = (p1.y + p2.y) / 2 - rect.top;
-      cam.k = k2; cam.x = wx - (nx - W / 2) / k2; cam.y = wy - (ny - H / 2) / k2; applyCam();
+      cam.k = k2; cam.x = wx - (nx - W / 2) / k2; cam.y = wy - (ny - H / 2) / k2; requestCam();
     }
   });
   function endPointer(ev) {
     if (!pointers.has(ev.pointerId)) return;
     pointers.delete(ev.pointerId);
-    if (gesture && gesture.type === "pan" && !gesture.moved && ev.type === "pointerup") tap(gesture.target);
+    if (gesture && gesture.type === "pan" && !gesture.moved && ev.type === "pointerup") tap(gesture.target, ev.clientX, ev.clientY, ev.pointerType);
     if (pointers.size === 0) { gesture = null; svg.classList.remove("is-dragging"); }
     else if (pointers.size === 1) {
       const [p] = [...pointers.values()];
@@ -639,7 +642,7 @@
     ev.preventDefault();
     const rect = svg.getBoundingClientRect();
     Object.assign(cam, zoomAt(Math.exp(-ev.deltaY * 0.0022), ev.clientX - rect.left, ev.clientY - rect.top));
-    applyCam();
+    requestCam();
   }, { passive: false });
   svg.addEventListener("dblclick", ev => {
     const rect = svg.getBoundingClientRect();
@@ -651,11 +654,22 @@
     h.classList.add("is-on"); clearTimeout(hintTimer); hintTimer = setTimeout(() => h.classList.remove("is-on"), 1400);
   }
 
-  function tap(target) {
+  function nearestNode(x, y, within) {
+    let best = null, bd = within;
+    nodes.forEach(n => {
+      if (!n.g || n.kind === "hub" || n.g.classList.contains("out")) return;
+      const d = n.g.querySelector(".node__dot"); if (!d) return;
+      const r = d.getBoundingClientRect(); if (!r.width) return;
+      const dist = Math.hypot(r.left + r.width / 2 - x, r.top + r.height / 2 - y) - r.width / 2;
+      if (dist < bd) { bd = dist; best = n.g; }
+    });
+    return best;
+  }
+  function tap(target, x, y, kind) {
     if (!target || !target.closest) return;
     const lever = target.closest(".lever");
     if (lever) { selectLever(lever.dataset.lever); return; }
-    const node = target.closest(".node");
+    const node = target.closest(".node:not(.node--label-only)") || (x != null ? nearestNode(x, y, kind === "mouse" ? 6 : 22) : null);
     if (node) { onNodeActivate(node.dataset.id); return; }
     if (state.selected || state.story || state.inst) clearSelection();
   }
