@@ -27,7 +27,7 @@ function parseCSV(t) {
   const [h, ...b] = rows; return b.filter(r => r.length > 1).map(r => Object.fromEntries(h.map((k, i) => [k.trim(), (r[i] || "").trim()])));
 }
 const ARTS = parseCSV(fs.readFileSync(CSV, "utf8")).filter(a => /^https?:\/\//.test(a["Full URL"]))
-  .map(a => ({ group: a.Group, year: +a.Year, by: a["Journalist(s)"], pub: a.Publication, title: a["Article title / headline"], geo: a.Geography, angle: a["Story angle"], url: a["Full URL"], type: a["Link type"] }))
+  .map(a => ({ year: +a.Year, pub: a.Publication, title: a["Article title / headline"], geo: a.Geography, angle: a["Story angle"], url: a["Full URL"], type: a["Link type"] }))
   .sort((a, b) => b.year - a.year || a.pub.localeCompare(b.pub));
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const ext = (u, t) => `<a href="${esc(u)}" target="_blank" rel="noopener">${t}<span class="visually-hidden"> (opens in a new tab)</span></a>`;
@@ -43,7 +43,7 @@ const NONE = ["Nepal", "Viet", "Indonesia", "Sri Lanka", "Pakistan"].filter(k =>
 const pct = n => Math.round(n / N * 100);
 
 const STATS = [
-  [String(N), "articles in the collection", `From ${yrs[0]} to October ${yrs[yrs.length - 1]}, by ${new Set(ARTS.flatMap(a => a.by.split(";").map(s => s.trim()))).size} journalists and teams in ${new Set(ARTS.map(a => a.pub)).size} outlets.`],
+  [String(N), "articles in the collection", `From ${yrs[0]} to October ${yrs[yrs.length - 1]}, in ${new Set(ARTS.map(a => a.pub)).size} outlets across the region and beyond.`],
   [`${byYear[2024]} of ${N}`, "were published in 2024", `${pct(byYear[2024])}% of the collection, the year of severe heatwaves across the region and India’s general election.`],
   [String(geo("India")), "mention India", `Nearly half. Singapore appears in ${geo("Singapore")}, Bangladesh in ${geo("Bangladesh")}, the Philippines and Thailand in ${geo("Philippines")} each.`],
   ["0", `on ${NONE.slice(0, -1).join(", ")} or ${NONE[NONE.length - 1]}`, "A gap in this collection, not necessarily in all reporting: it is a place to look harder."],
@@ -120,7 +120,7 @@ const body = `
 
         <section class="cty-s" id="middle" aria-labelledby="middle-h">
           <h2 id="middle-h">The missing middle</h2>
-          <p class="he-intro">Two lenses run through the collection. Economic commentary, such as David Fickling’s Bloomberg Opinion columns, links heat to growth, construction, food prices, power and decarbonisation. Close-up reporting, such as David Fogarty’s for The Straits Times, follows delivery riders, port engineers, safety rules and earnings. Between the two sits a question asked less often.</p>
+          <p class="he-intro">Two valuable lenses run through the collection. Economic commentary links heat to growth, construction, food prices, power and decarbonisation. Close-up reporting follows delivery riders, port engineers, safety rules and earnings. Between the two sits a question asked less often.</p>
           <div class="md-mid" role="list">
             <div class="md-mid__b" role="listitem"><p class="lc-k">The big picture</p><p>Productivity, growth, competitiveness.</p></div>
             <div class="md-mid__b md-mid__b--gap" role="listitem"><p class="lc-k">The under-examined middle</p><p><b>Who pays? Who coordinates? What incentives change? Who is accountable?</b></p></div>
@@ -150,10 +150,10 @@ const body = `
 
         <section class="cty-s" id="bibliography" aria-labelledby="bibliography-h">
           <h2 id="bibliography-h">All ${N} articles</h2>
-          <p class="he-intro">Newest first. Several are syndicated columns or wire stories; check bylines at the source. ${`<a href="/how-heat-is-reported/extreme-heat-journalism-2018-2026.csv" download>Download the list (CSV)</a>`}. Every article is also in ${go("/sources/#media", "Sources and references")}</p>
+          <p class="he-intro">Newest first. Several are syndicated columns or wire stories; each links to the original. ${`<a href="/how-heat-is-reported/extreme-heat-journalism-2018-2026.csv" download>Download the list (CSV)</a>`}. Every article is also in ${go("/sources/#media", "Sources and references")}</p>
           <div class="refs__bar lc-bar"><label for="md-q" class="visually-hidden">Search the articles</label><input id="md-q" type="search" autocomplete="off" placeholder="Search ${N} articles: workers, Philippines, Guardian, cooling"><p class="refs__count" id="md-count" role="status" aria-live="polite">${N} articles</p></div>
           <ul class="refs__list" id="md-list">
-            ${ARTS.map(a => `<li data-q="${esc([a.title, a.by, a.pub, a.geo, a.angle, a.year].join(" ").toLowerCase())}"><a class="refs__t" href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}<span class="visually-hidden"> (opens in a new tab)</span></a><span class="refs__m">${esc([a.pub, a.year, a.by].join(" · "))}</span><span class="refs__where">${esc(a.geo)} · ${esc(a.angle)}</span></li>`).join("\n            ")}
+            ${ARTS.map(a => `<li data-q="${esc([a.title, a.pub, a.geo, a.angle, a.year].join(" ").toLowerCase())}"><a class="refs__t" href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}<span class="visually-hidden"> (opens in a new tab)</span></a><span class="refs__m">${esc([a.pub, a.year].join(" · "))}</span><span class="refs__where">${esc(a.geo)} · ${esc(a.angle)}</span></li>`).join("\n            ")}
           </ul>
         </section>
       </div>
