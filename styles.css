@@ -3670,3 +3670,4 @@ html.jn-js .jn-fit[hidden]{display:none}
 @media (prefers-reduced-motion:reduce){.jn-panel,.jn-fit{animation:none}.jn-way{transition:none}}
 html.jn-js .jn-panel[hidden],html.jn-js .jn-panel-hint[hidden]{display:none}
 .jn-root{align-content:start}
+.corr-credit{font-size:.9rem;color:#174d34;font-weight:600}

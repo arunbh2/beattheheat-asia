@@ -31,10 +31,12 @@ Write records to `data/inbox/<month>/` (`sources.json`, `records.json`). Every s
 Commit and push the inbox, then run the **Verify sources** workflow (`verify-sources.yml`) with the month on the session's branch. Wait for its commit ("Verify sources for <month>"), pull, and read `data/inbox/<month>/_excerpts.json`. If a page could not be read, re-run once; otherwise leave it to be held.
 
 ## 5. Review, from the real text
-Rewrite every summary from the excerpts, not from memory or search snippets. Then give each record its reviewer's note: `review: { tone: "ok", note }`, plus `addresses` for any flag the checker raises. Hold anything uncorroborated with `review: { tone: "hold", note: "<reason>" }`. Run `node tools/check-data.js <month>` until every record either passes or is held for a stated reason.
+Rewrite every summary from the excerpts, not from memory or search snippets. Then give each record its reviewer's note: `review: { tone: "ok", note }`, plus `addresses` for any flag the checker raises. Hold anything uncorroborated with `review: { tone: "hold", note: "<reason>" }`. Suggestions readers sent through a page's "Does this feel right?" check arrive in the join form: treat each as a lead, verify it like any other source, and when it leads to a change, add `correction` (what was wrong), a short `sorry` where one is owed, and `credit` only if the reader asked for it. The corrections page, the city page's "Recently updated here" and returning readers' "updated since your last visit" note all follow automatically. Run `node tools/check-data.js <month>` until every record either passes or is held for a stated reason.
 
 ## 6. Publish
 Run `node tools/merge-inbox.js <month>` (with `PW` set to the Playwright path for the site check). It publishes what passes, holds the rest with reasons, rebuilds the site, checks the voice of every page and tests every page at phone and desktop widths. If gate 7 fails, nothing is published: fix the cause and run it again.
+
+If a cycle's evidence changes in a way that touches its composite person (`data/site/people.json`), update the story so it stays true to the evidence: a role, never a name, and no figures of its own.
 
 ## 7. Write the State of the field brief
 Write `data/site/briefs/<month>.json` (see `2026-10.json`): four short sections (where philanthropic money moved; one opportunity the evidence supports; one question that grew in importance; what changed on Common Shade), each linking to the pages that show it. Calm, citable and humble, with no asks. Rebuild (`node tools/build-static.js`) and run `node tools/check-voice.js`.

@@ -129,6 +129,7 @@ write("approach", page("approach", "How Common Shade sees heat", "The ideas behi
       <p class="hub-p">Common Shade is free to use, share and adapt under CC BY 4.0. It grows with the people who use it: corrections, studies, plans and data are welcome, and contributions are credited. <a href="/join/">Help build Common Shade</a> · <a href="/cite/">Cite and reuse</a></p>
     </section>`));
 
+const PEOPLE = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "people.json"), "utf8"));
 // ---- Evidence map: how sure we are, cycle by cycle; where evidence is stronger than the funding we traced; the learning agenda ----
 {
   const RS = path.join(ROOT, "research", "2026-10"), RJ = f => JSON.parse(fs.readFileSync(path.join(RS, f), "utf8"));
@@ -167,7 +168,7 @@ write("approach", page("approach", "How Common Shade sees heat", "The ideas behi
           <span class="evm-name">${esc(c.l.name)}</span><span class="evm-chip evm-chip--${c.l.evidence}">${c.l.evidence === "established" ? "Well established" : "Evidence emerging"}</span>
           <span class="evm-sqs">${c.st.map(s => `<i class="evm-sq evm-sq--${s.g}">${s.asia ? "A" : ""}</i>`).join("")}</span>
           <span class="evm-meta">${c.st.length} ${c.st.length === 1 ? "study" : "studies"} · ${c.peer} peer-reviewed · ${c.asia} from the region</span></summary>
-        <div class="evm-body"><p>${esc(c.l.summary)}</p><ul class="evm-studies">${c.st.map(s => `<li><span class="evm-g evm-g--${s.g}">${esc(GRADES.find(g => g[0] === s.g)[1])}</span> <b>${ok(s.url) ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>` : esc(s.title)}</b> <span class="sol-note">${esc(s.by)} · ${esc(s.where || "")} · ${esc(s.scale || "")}</span><br><span class="evm-limit">Its limit: ${esc(s.limit || "")}</span></li>`).join("")}</ul>
+        <div class="evm-body"><p>${esc(c.l.summary)}</p>${(x => x ? `<figure class="cs-person"><svg viewBox="0 0 56 56" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 14 Q28 2 50 14" stroke="#F26430" stroke-width="3.4"/><circle cx="28" cy="22" r="5.5"/><path d="M28 27.5 V40 M28 40 L22 52 M28 40 L34 52 M28 31 L20 37 M28 31 L36 37"/></g></svg><figcaption><b>${esc(x.who)}</b><p>${esc(x.story)}</p><small>${esc(PEOPLE.note)}</small></figcaption></figure>` : "")(PEOPLE.people.find(q => q.loop === c.l.id))}<ul class="evm-studies">${c.st.map(s => `<li><span class="evm-g evm-g--${s.g}">${esc(GRADES.find(g => g[0] === s.g)[1])}</span> <b>${ok(s.url) ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>` : esc(s.title)}</b> <span class="sol-note">${esc(s.by)} · ${esc(s.where || "")} · ${esc(s.scale || "")}</span><br><span class="evm-limit">Its limit: ${esc(s.limit || "")}</span></li>`).join("")}</ul>
           ${c.q.length ? `<p class="evm-qlink">Open question: <a href="#${c.q[0].id}">${esc(c.q[0].q)}</a></p>` : ""}<p class="path-read"><a href="/#loop-${c.l.id}">See this cycle on the map <span aria-hidden="true">→</span></a></p></div></details>`).join("")}</div>
 
       <h2 class="hub-h" id="stronger">Stronger evidence, little funding traced</h2>
@@ -309,7 +310,7 @@ const CORR = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "correct
 const KBD = path.join(ROOT, "data", "kb");
 const kbCorr = fs.existsSync(KBD) ? fs.readdirSync(KBD).filter(f => f.endsWith(".json") && !f.startsWith("_"))
   .flatMap(f => JSON.parse(fs.readFileSync(path.join(KBD, f), "utf8"))).filter(r => r.correction)
-  .map(r => ({ date: r.changed || r.added, where: [r.title], what: r.correction, change: r.summary, sorry: r.sorry || "" })) : [];
+  .map(r => ({ date: r.changed || r.added, where: [r.title], what: r.correction, change: r.summary, sorry: r.sorry || "", credit: r.credit || "" })) : [];
 const allCorr = [...CORR, ...kbCorr].sort((a, b) => String(b.date).localeCompare(String(a.date)));
 const fmtDate = d => /^\d{4}-\d{2}-\d{2}$/.test(d) ? new Date(d + "T00:00:00Z").toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }) : /^\d{4}-\d{2}$/.test(d) ? new Date(d + "-01T00:00:00Z").toLocaleDateString("en-GB", { month: "long", year: "numeric", timeZone: "UTC" }) : esc(d);
 write("corrections", page("corrections", "Corrections", "Common Shade is built together. When something here is wrong, unfair or unclear, we say sorry, correct it in the open and record what changed.",
@@ -322,7 +323,7 @@ write("corrections", page("corrections", "Corrections", "Common Shade is built t
       </ol>
       <p class="corr-cta"><a class="hub-btn" href="/join/#join-form">Suggest a correction <span aria-hidden="true">→</span></a></p>
       <h2 class="hub-h" id="log">What we have corrected</h2>
-      ${allCorr.length ? `<ol class="corr-log">${allCorr.map(c => `<li class="corr"><p class="corr-d">${fmtDate(c.date)} · ${(c.where || []).map(esc).join(", ")}</p><p><b>What was wrong.</b> ${esc(c.what)}</p><p><b>What changed.</b> ${esc(c.change)}</p>${c.sorry ? `<p class="corr-sorry">${esc(c.sorry)}</p>` : ""}</li>`).join("")}</ol>` : `<p class="hub-p">No corrections yet.</p>`}
+      ${allCorr.length ? `<ol class="corr-log">${allCorr.map(c => `<li class="corr"><p class="corr-d">${fmtDate(c.date)} · ${(c.where || []).map(esc).join(", ")}</p><p><b>What was wrong.</b> ${esc(c.what)}</p><p><b>What changed.</b> ${esc(c.change)}</p>${c.sorry ? `<p class="corr-sorry">${esc(c.sorry)}</p>` : ""}${c.credit ? `<p class="corr-credit">With thanks to ${esc(c.credit)}, who pointed it out.</p>` : ""}</li>`).join("")}</ol>` : `<p class="hub-p">No corrections yet.</p>`}
     </section>`));
 
 // ---- Cite and reuse ----

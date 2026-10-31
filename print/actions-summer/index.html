@@ -186,7 +186,37 @@ footer p + p { margin-top: 2px; } footer b { color: #16202B; }
 @media (max-width:960px){.csn__main{display:none}.csn__burger{display:inline-flex}.csn__in{height:58px}.csn--slim .csn__in{height:54px}}
 @media (max-width:560px){.csn__start{display:none}.csn__home{font-size:1.05rem}.csn__mark{width:26px}.csn-d{margin-top:4vh;max-height:88vh}.csn-d__h{font-size:1.6rem}.csp{margin:14px 12px 18px;padding:16px 18px}}
 @media (prefers-reduced-motion:reduce){.csn__panel,.csn__sheet,.csn-d[open]{animation:none}.csn__in,.csn__chev{transition:none}}
-@media print{.csn,.csf,.csn-skip,.ticker,.csp,.csn-d{display:none!important}}
+/* the calm ending, the "changed since" note, the one-minute check, a composite person, where this happens */
+.cse{padding:clamp(40px,7vw,80px) clamp(16px,4vw,32px);background:linear-gradient(180deg,rgba(250,247,242,0),#F3EEE7 40%);text-align:center;font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;color:#16202B}
+.cse__in{max-width:640px;margin:0 auto}.cse__mark{width:96px;height:32px;color:#16202B;margin:0 auto 10px;display:block}
+.cse__k{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#7A6F63;margin:14px 0 4px}
+.cse__t{font-family:Anton,Impact,"Arial Narrow",sans-serif;text-transform:uppercase;font-size:clamp(1.3rem,1rem + 1.4vw,1.9rem);line-height:1.1;margin:0 0 6px}
+.cse__q{margin:0 auto;font-family:Newsreader,Georgia,serif;font-size:clamp(1.05rem,.95rem + .5vw,1.3rem);line-height:1.5;color:#39424D;max-width:56ch}
+.cse__acts{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 18px;margin:22px 0 6px;align-items:center}
+.cse__btn{font:inherit;font-weight:700;cursor:pointer;background:#16202B;color:#FAF7F2;border:0;border-radius:999px;padding:10px 18px}
+.cse__next{font-weight:700;color:#16202B;text-decoration:underline;text-decoration-color:#F26430;text-underline-offset:4px}
+.cse__rest{font-size:.88rem;color:#7A6F63;margin:12px 0 0}
+.csn-new{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;max-width:1240px;margin:8px auto 0;padding:0 clamp(16px,3.5vw,40px);font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;font-size:.86rem}
+.csn-new span{display:inline-flex;align-items:center;gap:6px;background:#E8F3EC;color:#174d34;border-radius:999px;padding:4px 12px;font-weight:600}
+.csn-new span::before{content:"";width:7px;height:7px;border-radius:50%;background:#1f6f4a}
+.csn-new a{color:#16202B;text-underline-offset:3px;text-decoration-color:#F26430}
+.csn-new button{font:inherit;font-size:.8rem;background:none;border:0;color:#7A6F63;cursor:pointer;text-decoration:underline}
+.csn__canopy{transform-box:fill-box;transform-origin:center;transition:transform 1.2s cubic-bezier(.2,.8,.2,1)}
+.cs-tip{position:fixed;z-index:80;pointer-events:none;background:#16202B;color:#FAF7F2;font:600 .8rem/1.3 "Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;padding:6px 10px;border-radius:8px;box-shadow:0 6px 20px rgba(0,0,0,.18);opacity:0;transform:translateY(4px);transition:opacity .15s,transform .15s}
+.cs-tip.is-on{opacity:1;transform:none}.cs-tip small{display:block;font-weight:400;color:#C9CED6;font-size:.7rem}
+.cs-check{margin:28px 0;padding:18px 20px;border-radius:14px;background:#fff;border:1px solid #E6DFD4;font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif}
+.cs-check__q{font-weight:700;margin:0 0 10px}.cs-check__acts{display:flex;flex-wrap:wrap;gap:8px}
+.cs-check button{font:inherit;font-weight:600;cursor:pointer;border-radius:999px;padding:7px 16px;border:1.5px solid #16202B;background:#fff;color:#16202B}
+.cs-check button.is-main{background:#16202B;color:#FAF7F2}
+.cs-check textarea,.cs-check input{font:inherit;width:100%;box-sizing:border-box;border:1px solid #D6CEC2;border-radius:10px;padding:10px 12px;margin:6px 0 10px;background:#FAF7F2}
+.cs-check label{font-size:.88rem;font-weight:600;display:block}.cs-check p{margin:6px 0;line-height:1.55}.cs-check .cs-check__small{font-size:.82rem;color:#5E6570}
+.cs-where{display:inline-flex;align-items:center;gap:8px;margin:6px 0 14px;font-weight:600;font-size:.95rem}
+.cs-where svg{width:18px;height:18px;flex:none}
+.cs-person{display:grid;grid-template-columns:56px 1fr;gap:14px;align-items:start;margin:12px 0 14px;padding:14px 16px;background:#fff;border-left:3px solid #F26430;border-radius:0 12px 12px 0}
+.cs-person svg{width:56px;height:56px;color:#16202B}
+.cs-person b{display:block;font-size:.95rem;margin-bottom:2px}.cs-person p{margin:0;line-height:1.55}.cs-person small{display:block;margin-top:6px;font-size:.78rem;color:#7A6F63}
+@media (prefers-reduced-motion:reduce){.csn__canopy,.cs-tip{transition:none}}
+@media print{.csn,.csf,.csn-skip,.ticker,.csp,.csn-d,.cse,.csn-new,.cs-check{display:none!important}}
 .ticker{--canvas:#FAF7F2;--orange:#F26430;--gutter:clamp(16px,3.5vw,40px);font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;line-height:1.4}/* live temperature ticker, above the header */
 .ticker { display: flex; align-items: center; gap: 10px; min-height: 34px; padding: 0 10px 0 var(--gutter); background: #0E161F; color: var(--canvas); font-size: .8rem; overflow: hidden; }
 .ticker[hidden] { display: none; }
@@ -220,7 +250,7 @@ footer p + p { margin-top: 2px; } footer b { color: #16202B; }
 .ticker__lv--1 { background: #F26430; color: #16202B; }
 .ticker__lv--2 { background: #D7263D; color: #fff; }</style><noscript><style>.csn__gb,.csn__tools{display:none!important}.csn__gl{display:inline-flex;align-items:center;height:40px;padding:0 14px;font-weight:700}@media (max-width:960px){.csn__main{display:block!important}}</style></noscript><!--/csn-->
 </head>
-<body>
+<body data-changed="2026-10-01">
 <!--csn--><a class="csn-skip" href="#main">Skip to the content</a><!--/csn-->
 <!--csn--><div class="ticker" id="cs-ticker" role="region" aria-label="Live temperatures in Asian cities" hidden>
   <a class="ticker__k" href="/#heat-now"><span class="ticker__dot" aria-hidden="true"></span>Live</a>
@@ -229,7 +259,7 @@ footer p + p { margin-top: 2px; } footer b { color: #16202B; }
 </div>
 <header class="csn" id="top">
   <div class="csn__in">
-    <a class="csn__home" href="/"><svg class="csn__mark" viewBox="0 0 26 20" aria-hidden="true"><path d="M2.5 8 Q13 -1 23.5 8" fill="none" stroke="#F26430" stroke-width="4" stroke-linecap="round"/><path d="M6.5 7 V18.5 M19.5 7 V18.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg><span>COMMON SHADE</span><span class="csn-vh">: home, the map of extreme heat</span></a>
+    <a class="csn__home" href="/"><svg class="csn__mark" viewBox="0 0 26 20" aria-hidden="true"><path class="csn__canopy" d="M2.5 8 Q13 -1 23.5 8" fill="none" stroke="#F26430" stroke-width="4" stroke-linecap="round"/><path d="M6.5 7 V18.5 M19.5 7 V18.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg><span>COMMON SHADE</span><span class="csn-vh">: home, the map of extreme heat</span></a>
     <nav class="csn__main" aria-label="Main">
       <ul class="csn__groups"><li><button type="button" class="csn__gb" aria-expanded="false" aria-controls="csn-p-understand" data-g="understand">Understand<svg class="csn__chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1.5 L6 6.5 L11 1.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button><a class="csn__gl" href="/understand/">Understand</a>
         <div class="csn__panel" id="csn-p-understand" role="region" aria-label="Understand heat" hidden><div class="csn__pin">
@@ -392,9 +422,61 @@ function apply(){var p=byId(get());H.classList.toggle("csn--onpath",!!p);$$("[da
  $$("[data-csn-foryou]").forEach(function(f){var g=f.getAttribute("data-csn-foryou");if(!p){f.innerHTML='<p>Choose a path by role, and your next stops appear here.</p><button type="button" class="csn__btn" data-csn-paths>Choose a path</button>';f.querySelector("[data-csn-paths]").addEventListener("click",openPaths);return}
   var mine=p.stops.filter(function(s){return groupOf(s.url)===g});f.innerHTML='<p><b>'+esc(p.short)+' path</b></p>'+(mine.length?'<ol>'+mine.map(function(s){return'<li><a href="'+s.url+'">'+esc(s.q)+'</a></li>'}).join("")+'</ol>':'<p>No stops in this group. Your path continues elsewhere.</p>')})}
 apply();
+/* ---- remembering, gently: everything below stays in this browser only ---- */
+function load(k,d){try{var v=JSON.parse(localStorage.getItem(k)||"null");return v==null?d:v}catch(e){return d}}
+function save(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
+var today=new Date().toISOString().slice(0,10);
+/* changed since your last visit, and a new monthly brief */
+(function(){var visits=load("cs-visits",{}),last=visits[here],changed=document.body.getAttribute("data-changed")||"",notes=[];
+ if(last&&changed&&changed>last)notes.push('<span>Updated since your last visit</span><a href="/whats-new/">See what changed this month</a>');
+ var brief="2026-10",seen=load("cs-brief-seen","");
+ if(brief&&Object.keys(visits).length&&seen<brief&&here!=="/whats-new/")notes.push('<span>New: the October 2026 State of the field</span><a href="/whats-new/">Read it</a><button type="button" data-csn-dismiss>Not now</button>');
+ if(here==="/whats-new/"&&brief)save("cs-brief-seen",brief);
+ visits[here]=today;save("cs-visits",visits);
+ if(!notes.length)return;var bar=document.createElement("div");bar.className="csn-new";bar.setAttribute("role","status");bar.innerHTML=notes.join(" ");
+ var crumbs=$(".csn__crumbs")||H;crumbs.parentNode.insertBefore(bar,crumbs.nextSibling);
+ var d=$("[data-csn-dismiss]",bar);if(d)d.addEventListener("click",function(){save("cs-brief-seen",brief);bar.remove()})})();
+/* the canopy in the logo widens a little with each stop of a path you walk */
+(function(){var p=byId(get()),c=$(".csn__canopy");if(!p||!c)return;var seen=load("cs-path-seen",{}),list=seen[p.id]||[];
+ if(p.stops.some(function(s){return s.url===here})&&list.indexOf(here)<0){list.push(here);seen[p.id]=list;save("cs-path-seen",seen)}
+ var done=p.stops.filter(function(s){return list.indexOf(s.url)>-1}).length,f=done/p.stops.length;
+ requestAnimationFrame(function(){c.style.transform="scaleX("+(0.82+0.3*f).toFixed(3)+")"});
+ var home=$(".csn__home");if(home)home.setAttribute("title",p.short+" path: "+done+" of "+p.stops.length+" stops seen");
+ var bar=$("[data-csn-pathbar]");if(bar&&f===1&&!load("cs-path-done-"+p.id,false)){save("cs-path-done-"+p.id,true);var t=document.createElement("span");t.className="csn__thanks";t.textContent=" You have walked the whole path. Thank you.";bar.appendChild(t)}})();
+/* share this page */
+$$("[data-cse-share]").forEach(function(b){b.addEventListener("click",function(){var d={title:document.title,url:location.href.split("#")[0]};
+ if(navigator.share)navigator.share(d).catch(function(){});else(navigator.clipboard?navigator.clipboard.writeText(d.url):Promise.reject()).then(function(){b.textContent="Link copied"},function(){b.textContent="Copy the address bar to share"})})});
+/* hover or focus a city: its heat right now, from the readings the live ticker already keeps */
+(function(){var live=load("bth-live-v1",null);if(!live||!live.cities)return;var tip=null;
+ function show(a){var m=(a.getAttribute("href")||"").match(new RegExp("(?:/cities/([a-z]+))|(?:#city-([a-z]+))"));if(!m)return;var id=m[1]||m[2],c=live.cities[id];if(!c||Date.now()-live.at>3*36e5)return;
+  if(!tip){tip=document.createElement("div");tip.className="cs-tip";tip.setAttribute("role","tooltip");document.body.appendChild(tip)}
+  tip.innerHTML=Math.round(c.t)+"°C now · feels like "+Math.round(c.feels)+"°C<small>Model estimate, not an official warning</small>";
+  var r=a.getBoundingClientRect();tip.style.left=Math.min(innerWidth-220,Math.max(8,r.left))+"px";tip.style.top=(r.bottom+8)+"px";tip.classList.add("is-on")}
+ function hide(){if(tip)tip.classList.remove("is-on")}
+ document.addEventListener("mouseover",function(e){var a=e.target.closest&&e.target.closest('a[href*="/cities/"],a[href*="#city-"]');if(a)show(a);else hide()});
+ document.addEventListener("focusin",function(e){var a=e.target.closest&&e.target.closest('a[href*="/cities/"],a[href*="#city-"]');if(a)show(a);else hide()});
+ addEventListener("scroll",hide,{passive:true})})();
+/* the one-minute check: does this feel right for your city? */
+$$("[data-check]").forEach(function(box){var key=box.getAttribute("data-check"),label=box.getAttribute("data-label")||"this place",form=box.getAttribute("data-form")||"",
+ mem=load("cs-checks",{}),prev=mem[key],changed=document.body.getAttribute("data-changed")||"";
+ function remember(v){mem[key]=v;save("cs-checks",mem)}
+ function done(html){box.innerHTML=html}
+ var thanksNo='<p class="cs-check__q">Thank you. A person on the team will read it.</p><p>Suggestions are reviewed in each monthly update. If something changes, it is listed on <a href="/corrections/">the corrections page</a>, with credit if you would like it.</p>';
+ if(prev&&prev.a==="no"){done(changed&&changed>prev.d?'<p class="cs-check__q">This page has been updated since your suggestion on '+prev.d+'.</p><p>See <a href="/corrections/">what we corrected</a> and <a href="/whats-new/">what changed this month</a>. Thank you for helping.</p>':'<p class="cs-check__q">You suggested a change here on '+prev.d+'.</p><p>It will be reviewed in the next monthly update; changes are listed on <a href="/corrections/">the corrections page</a>.</p>');return}
+ if(prev&&prev.a==="yes"){done('<p class="cs-check__q">You told us this rings true for '+esc(label)+'. Thank you.</p><p class="cs-check__small">Changed your mind? <button type="button" data-again>Suggest a change</button></p>');var ag=$("[data-again]",box);if(ag)ag.addEventListener("click",function(){delete mem[key];save("cs-checks",mem);ask()});return}
+ ask();
+ function ask(){box.innerHTML='<p class="cs-check__q">Does this page feel right for '+esc(label)+'?</p><p class="cs-check__small">One minute. People who know a place help keep it accurate.</p><div class="cs-check__acts"><button type="button" class="is-main" data-yes>Yes, it rings true</button><button type="button" data-no>Not quite</button></div>';
+  $("[data-yes]",box).addEventListener("click",function(){remember({a:"yes",d:today});done('<p class="cs-check__q">Thank you. Knowing it rings true matters too.</p><p class="cs-check__small">This is noted in your browser only.</p>')});
+  $("[data-no]",box).addEventListener("click",function(){box.innerHTML='<label for="'+key+'-t">What would you change? A sentence is enough.</label><textarea id="'+key+'-t" rows="3"></textarea><label for="'+key+'-n">Your name or organisation, if you would like credit (optional)</label><input id="'+key+'-n" type="text" autocomplete="organization"><p class="cs-check__small">Your note goes to our form on Microsoft Forms, where a person on the team reads it. We copy it for you, so you can paste it into the last question.</p><div class="cs-check__acts"><button type="button" class="is-main" data-send>Copy and open the form</button><button type="button" data-cancel>Cancel</button></div>';
+   $("textarea",box).focus();
+   $("[data-cancel]",box).addEventListener("click",ask);
+   $("[data-send]",box).addEventListener("click",function(){var t=$("textarea",box).value.trim(),n=$("input",box).value.trim();if(!t){$("textarea",box).focus();return}
+    var note="About "+label+" ("+location.href.split("#")[0]+"): "+t+(n?" | Credit: "+n:"");
+    (navigator.clipboard?navigator.clipboard.writeText(note):Promise.reject()).catch(function(){});
+    if(form)window.open(form,"_blank","noopener");remember({a:"no",d:today});done(thanksNo)})})}});
 /* copy the citation */
 $$("[data-csn-copy]").forEach(function(b){b.addEventListener("click",function(){var t=$("[data-csn-cite]").textContent;(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){b.textContent="Copied"},function(){b.textContent="Select and copy"})})});
-})();</script><script src="/ticker.js?v=153" defer></script><!--/csn-->
+})();</script><script src="/ticker.js?v=154" defer></script><!--/csn-->
 <footer>
     <div>
       <p><b>Common Shade</b> · A living map of extreme heat in South and Southeast Asia, updated as the evidence grows. Live page: beattheheat.asia/practical/#practical-summer</p>
