@@ -10,7 +10,7 @@ const PATHS = NAV.PATHS;
 const esc = s => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const V = (fs.readFileSync(path.join(ROOT, "index.html"), "utf8").match(/styles\.css\?v=(\d+)/) || [, "1"])[1];
 const ctx = {}; vm.createContext(ctx);
-vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + ";this.D={GLOSSARY,LOOPS,LIVE_CITIES,CITY_PROFILES,HEATWAVES,ORGANISATIONS,ORG_ROLES,SYSTEMS}", ctx);
+vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + ";this.D={GLOSSARY,LOOPS,LIVE_CITIES,CITY_PROFILES,HEATWAVES,ORGANISATIONS,ORG_ROLES,SYSTEMS,EVIDENCE,LEVERS}", ctx);
 const D = ctx.D;
 const MONTH = new Date().toLocaleDateString("en-GB", { month: "long", year: "numeric" });
 
@@ -122,6 +122,70 @@ write("approach", page("approach", "How Common Shade sees heat", "The ideas behi
       <h2 class="hub-h">An open collaborative</h2>
       <p class="hub-p">Common Shade is free to use, share and adapt under CC BY 4.0. It grows with the people who use it: corrections, studies, plans and data are welcome, and contributions are credited. <a href="/join/">Help build Common Shade</a> · <a href="/cite/">Cite and reuse</a></p>
     </section>`));
+
+// ---- Evidence map: how sure we are, cycle by cycle; where evidence is stronger than the funding we traced; the learning agenda ----
+{
+  const RS = path.join(ROOT, "research", "2026-10"), RJ = f => JSON.parse(fs.readFileSync(path.join(RS, f), "utf8"));
+  const LSTAT = fs.existsSync(path.join(RS, "link-status.json")) ? RJ("link-status.json") : {};
+  const ok = u => u && LSTAT[u] !== "FAIL";
+  // grades of evidence, from each study's own description of itself
+  const GRADES = [["peer", "Peer-reviewed", /peer-reviewed/i], ["model", "Modelled or projected", /projection|modelling|model|estimate/i], ["official", "Official and agency", /agency|government|commission/i],
+    ["other", "Other studies and reports", /survey|working paper|research|investigation|institute|industry|university/i], ["news", "News reports", /news|press/i]];
+  const gradeOf = t => { const peer = /peer-reviewed/i.test(t) && !/modelling/i.test(t); if (peer) return "peer"; if (/reported by the press|news/i.test(t)) return "news"; const g = GRADES.slice(1).find(([, , re]) => re.test(t)); return g ? g[0] : "other"; };
+  const ASIA = /India|Bangladesh|Nepal|Pakistan|Sri Lanka|Thailand|Bangkok|Indonesia|Jakarta|Philippines|Los Baños|Viet|Cambodia|Malaysia|Singapore|Ahmedabad|Delhi|Dhaka|Myanmar|Lao|Asia/i;
+  const EVS = D.EVIDENCE, LV = D.LEVERS, LQ = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "learning.json"), "utf8")).questions;
+  const cyc = D.LOOPS.map(l => { const st = (EVS[l.id] || []).map(s => ({ ...s, g: gradeOf(s.type), asia: ASIA.test(s.where || "") }));
+    return { l, st, peer: st.filter(s => s.g === "peer").length, asia: st.filter(s => s.asia).length, q: LQ.filter(q => q.loop === l.id) }; })
+    .sort((a, b) => (a.l.evidence === "emerging" ? 0 : 1) - (b.l.evidence === "emerging" ? 0 : 1) || a.peer + a.asia - (b.peer + b.asia));
+  const nStudies = cyc.reduce((s, c) => s + c.st.length, 0), nEmerging = cyc.filter(c => c.l.evidence === "emerging").length;
+  // solutions and their best evidence, and traced funding, per lever
+  const RANKS = ["evaluated", "measured", "guidance", "reported", "test", "concept"];
+  const SOLS = [["passive_solutions.json", "passive_solutions"], ["active_solutions.json", "active_solutions"], ["policy_and_finance_solutions.json", "policy_and_finance_solutions"]]
+    .flatMap(([f, k]) => { const j = RJ(f); return j[k] || []; });
+  const DEALS = RJ("economy/deals.json");
+  const bestOf = s => { const st = [...(s.evidence || []).filter(e => e.source && ok(e.source.url)).map(e => e.status), ...(s.examples || []).map(e => e.status)]; return RANKS.find(r => st.includes(r)) || ""; };
+  const lev = LV.map(v => { const ss = SOLS.filter(s => (s.levers || []).includes(v.id)); return { v, sols: ss.length, strong: ss.filter(s => /evaluated|measured/.test(bestOf(s))).length, money: DEALS.filter(d => (d.levers || []).includes(v.id)).length }; });
+  const shown = lev.filter(x => x.sols || x.money).sort((a, b) => b.strong - a.strong || a.money - b.money), unseen = lev.filter(x => !x.sols && !x.money);
+  const gap = x => x.strong >= 3 && x.money <= 1;
+  const maxS = Math.max(...shown.map(x => x.strong)), maxM = Math.max(...shown.map(x => x.money));
+  const square = s => `<a class="evm-sq evm-sq--${s.g}"${ok(s.url) ? ` href="${esc(s.url)}" target="_blank" rel="noopener"` : ""} title="${esc(s.type + " · " + (s.where || ""))}"><span class="visually-hidden">${esc(s.type)}, ${esc(s.where || "")}</span></a>`;
+  write("evidence-map", page("evidence-map", "Evidence map", `How sure we are, cycle by cycle: ${nStudies} studies graded by kind, where evidence looks stronger than the funding we traced, and ${LQ.length} questions nobody has answered yet.`,
+    `${hero("News and evidence", "How sure are we?", "A map of what the evidence shows firmly, what it suggests, and what nobody has measured yet. It ranks our knowledge, never any country, city or organisation.")}
+    <section class="container hub">
+      <nav class="sol-jump" aria-label="On this page"><a href="#cycles">Cycle by cycle</a> · <a href="#stronger">Stronger evidence, little funding traced</a> · <a href="#questions">Questions nobody has answered yet</a> · <a href="#method">How we graded</a></nav>
+      <h2 class="hub-h" id="cycles">Cycle by cycle</h2>
+      <p class="hub-p">${D.LOOPS.length} vicious cycles, ${nStudies} studies. ${nEmerging} cycles rest on evidence that is still emerging; they come first. Each square is one study, coloured by its kind; select a cycle to see every study and the limits it states.</p>
+      <ul class="evm-key" aria-label="Kinds of evidence">${GRADES.map(([g, n]) => `<li><i class="evm-sq evm-sq--${g}"></i>${esc(n)}</li>`).join("")}<li><i class="evm-asia">A</i>From South or Southeast Asia</li></ul>
+      <div class="evm-rows">${cyc.map(c => `<details class="evm-row" id="ev-${c.l.id}"><summary>
+          <span class="evm-name">${esc(c.l.name)}</span><span class="evm-chip evm-chip--${c.l.evidence}">${c.l.evidence === "established" ? "Well established" : "Evidence emerging"}</span>
+          <span class="evm-sqs">${c.st.map(s => `<i class="evm-sq evm-sq--${s.g}">${s.asia ? "A" : ""}</i>`).join("")}</span>
+          <span class="evm-meta">${c.st.length} ${c.st.length === 1 ? "study" : "studies"} · ${c.peer} peer-reviewed · ${c.asia} from the region</span></summary>
+        <div class="evm-body"><p>${esc(c.l.summary)}</p><ul class="evm-studies">${c.st.map(s => `<li><span class="evm-g evm-g--${s.g}">${esc(GRADES.find(g => g[0] === s.g)[1])}</span> <b>${ok(s.url) ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>` : esc(s.title)}</b> <span class="sol-note">${esc(s.by)} · ${esc(s.where || "")} · ${esc(s.scale || "")}</span><br><span class="evm-limit">Its limit: ${esc(s.limit || "")}</span></li>`).join("")}</ul>
+          ${c.q.length ? `<p class="evm-qlink">Open question: <a href="#${c.q[0].id}">${esc(c.q[0].q)}</a></p>` : ""}<p class="path-read"><a href="/#loop-${c.l.id}">See this cycle on the map <span aria-hidden="true">→</span></a></p></div></details>`).join("")}</div>
+
+      <h2 class="hub-h" id="stronger">Stronger evidence, little funding traced</h2>
+      <p class="hub-p">For each action that breaks cycles: on the left, how many solutions in our library have been measured in a study or independently evaluated; on the right, how many pieces of funding we traced. Our funding trace covers public announcements, mostly investment in businesses; public budgets, which pay for much of this work, are not in it. So a short bar on the right means <i>we have not traced</i> funding, not that none exists.</p>
+      <div class="evm-fly" role="table" aria-label="Measured or evaluated solutions, and pieces of funding traced, for each action">
+        <div class="evm-fly-h" role="row"><span role="columnheader">Measured or evaluated solutions</span><span role="columnheader">Action</span><span role="columnheader">Pieces of funding traced</span></div>
+        ${shown.map(x => `<div class="evm-fly-r${gap(x) ? " is-gap" : ""}" role="row"><span class="evm-fly-l" role="cell"><b>${x.strong}</b><i style="width:${(x.strong / maxS * 100).toFixed(1)}%"></i></span><span class="evm-fly-n" role="cell">${esc(x.v.title)}${gap(x) ? `<em>Stronger evidence, little funding traced</em>` : ""}</span><span class="evm-fly-rt" role="cell"><i style="width:${(x.money / maxM * 100).toFixed(1)}%"></i><b>${x.money}</b></span></div>`).join("")}
+      </div>
+      <p class="sol-note">Not shown, because our library has no solution or funding for them yet: ${unseen.map(x => esc(x.v.title)).join(", ")}. <a href="/solutions/">The solutions library</a> · <a href="/heat-economy/flows/">Follow the money</a></p>
+
+      <h2 class="hub-h" id="questions">Questions nobody has answered yet</h2>
+      <p class="hub-p">A learning agenda, drawn from the limits the studies above state about themselves. Each question is sized so that one well-designed study could move it. The suggested approach and scale are ours, offered for discussion; researchers and funders closer to each place will know better.</p>
+      <ol class="evm-qs">${LQ.filter(q => q.status === "open").map(q => `<li class="evm-q" id="${esc(q.id)}"><p class="evm-q-k">${esc((D.LOOPS.find(l => l.id === q.loop) || {}).name || "")} · <span class="evm-chip evm-chip--emerging">Uncertain</span></p><h3>${esc(q.q)}</h3>
+          <dl><dt>What we have</dt><dd>${esc(q.have)} <a href="#ev-${esc(q.loop)}">The studies</a></dd><dt>What could answer it <span class="sol-note">(our suggestion)</span></dt><dd>${esc(q.could)}</dd><dt>Scale</dt><dd>${esc(q.scale)}</dd></dl></li>`).join("")}</ol>
+      <p class="hub-p">Know of a study that answers one of these, or a better question? <a href="/corrections/">Tell us</a>, and we will add it with credit.</p>
+
+      <h2 class="hub-h" id="method">How we graded</h2>
+      <ul class="hub-grid hub-grid--plain">
+        <li class="std"><b>From each study’s own description</b><span>Each study is grouped by how it describes itself: peer-reviewed, official or agency, modelled or projected, other studies and reports, or news. A model is never counted as a measurement.</span></li>
+        <li class="std"><b>Well established or evidence emerging</b><span>A well-established cycle has been widely documented as a whole. Where evidence is emerging, each link is evidenced, but the full cycle has been studied less.</span></li>
+        <li class="std"><b>A ranking of knowledge only</b><span>Thin evidence describes what research has not yet reached. It says nothing about any country, city or organisation.</span></li>
+        <li class="std"><b>Open to correction</b><span>If a study is missing or graded wrongly, <a href="/corrections/">please tell us</a>.</span></li>
+      </ul>
+    </section>`));
+}
 
 // ---- Corrections: data/site/corrections.json plus any knowledge-base record that carries a correction note ----
 const CORR = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "corrections.json"), "utf8")).entries;

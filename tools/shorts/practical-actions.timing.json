@@ -1,35 +1,35 @@
 {
- "total": 19.91,
+ "total": 19.33,
  "scenes": [
   {
    "start": 0.0,
-   "dur": 4.4,
+   "dur": 4.23,
    "beats": [
     0.35
    ],
    "text": "What can you do this season? Start where people spend the day."
   },
   {
-   "start": 4.4,
-   "dur": 7.41,
+   "start": 4.23,
+   "dur": 7.0,
    "beats": [
     0.35,
-    1.25,
-    3.25,
-    5.03
+    1.17,
+    2.92,
+    4.62
    ],
    "text": "At work, water, shade and rest. At school, cooler rooms. At home, check on older neighbours."
   },
   {
-   "start": 11.81,
+   "start": 11.23,
    "dur": 3.6,
    "beats": [
     0.35
    ],
-   "text": "Each says who it protects, and who must act."
+   "text": "Each says who it protects, and who acts."
   },
   {
-   "start": 15.41,
+   "start": 14.83,
    "dur": 4.5,
    "beats": [
     0.35

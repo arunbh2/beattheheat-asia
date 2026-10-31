@@ -45,12 +45,13 @@
     "intro": "What the evidence says, how sure we are, and where every claim comes from.",
     "lead": ["/lancet-countdown-2026/", "The Lancet Countdown 2026", "A decade of health evidence on heat, read for South and Southeast Asia."],
     "items": [
+     ["/evidence-map/", "Evidence map", "How sure we are, and the questions nobody has answered yet", 1],
      ["/whats-new/", "State of the field", "What changed this month, and what to watch", 1],
      ["/how-heat-is-reported/", "How heat is reported", "What the coverage shows, across ten languages", 1],
      ["/news/", "Heat in the news", "Headlines and new research, refreshed automatically", 1],
      ["/sources/", "Sources and references", "Every source the site cites, searchable", 1],
      ["/glossary/", "Glossary", "Sixty terms, each with a short film", 1],
-     ["/approach/", "How Common Shade sees heat", "The ideas and standards behind the site", 1],
+     ["/approach/", "How Common Shade sees heat", "The ideas and standards behind the site", 2],
      ["/print/", "Printable one-pagers", "Briefs for officials, partners and funders", 2],
      ["/cite/", "Cite and reuse", "How to cite the site and reuse its data", 2],
      ["/corrections/", "Corrections", "What we got wrong, and what we changed", 2]
@@ -59,6 +60,6 @@
  "footer_extra": [["/guide/", "How to use this site"], ["/paths/", "Paths by role"], ["/join/", "Help build Common Shade"], ["/cite/", "Cite and reuse"], ["/approach/", "How we check facts"], ["/corrections/", "Corrections"], ["/llms-full.txt", "Everything as one text file"]],
  "names": {
   "/heat-economy/businesses/": "Businesses", "/heat-economy/money/": "Funders and funding", "/heat-economy/opportunities/": "Ideas", "/heat-economy/conditions/": "Questions to ask", "/heat-economy/flows/": "Follow the money",
-  "/understand/": "Understand heat", "/act/": "Act", "/fund/": "Fund and build", "/evidence/": "News and evidence", "/paths/": "Paths by role", "/corrections/": "Corrections"
+  "/understand/": "Understand heat", "/act/": "Act", "/fund/": "Fund and build", "/evidence/": "News and evidence", "/paths/": "Paths by role", "/corrections/": "Corrections", "/evidence-map/": "Evidence map"
  }
 }

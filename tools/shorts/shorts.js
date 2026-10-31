@@ -88,7 +88,7 @@ module.exports = [
     { t: "title", k: "Practical actions", h: "What you can do this season", sub: "Simple steps, in the places people spend the day.", say: "What can you do this season? Start where people spend the day.", art: "shade" },
     { t: "three", k: "By setting", h: "Work, school, home", cards: [{ i: "work", b: "At work", s: "Water, shade and real rest." }, { i: "school", b: "At school", s: "Cooler rooms, smarter timetables." }, { i: "home", b: "At home", s: "Check on older neighbours." }],
       say: "At work, | water, shade and rest. | At school, cooler rooms. | At home, check on older neighbours." },
-    { t: "point", k: "Eight questions", h: "Who it protects, who acts", p: "Each action says what to do, who it protects, who must act, and what could stop it.", say: "Each says who it protects, and who must act.", art: "check" },
+    { t: "point", k: "Eight questions", h: "Who it protects, who acts", p: "Each action says what to do, who it protects, who acts, and what could stop it.", say: "Each says who it protects, and who acts.", art: "check" },
     { t: "close", k: "34 actions", line: "Practical steps, by setting.", say: "Thirty-four practical actions, by setting." } ] },
   { id: "solutions", page: "solutions/index.html", title: "Not all cooling is equal", sources: "Solutions library, on Common Shade", scenes: [
     { t: "title", k: "Solutions library", h: "Not all cooling is equal", sub: "Some cool a place. Some cool a person. Some make it last.", say: "Not all cooling is equal.", art: "tree" },
@@ -103,7 +103,7 @@ module.exports = [
     { t: "close", k: "Who builds, funds and buys", line: "Mapping the businesses and money behind protection.", say: "The heat economy maps who builds, funds and buys protection." } ] },
   { id: "finance", page: "finance/index.html", title: "Money that arrives in time", sources: "Paying for heat protection, on Common Shade", scenes: [
     { t: "title", k: "Paying for protection", h: "Money that arrives in time", sub: "", say: "Paying for heat protection is about timing.", art: "calendar" },
-    { t: "three", k: "When it must arrive", h: "Before, during, after", cards: [{ i: "plans", b: "Before", s: "To prepare." }, { i: "shade", b: "During", s: "So people can stop work." }, { i: "home", b: "After", s: "To recover." }],
+    { t: "three", k: "When it is needed", h: "Before, during, after", cards: [{ i: "plans", b: "Before", s: "To prepare." }, { i: "shade", b: "During", s: "So people can stop work." }, { i: "home", b: "After", s: "To recover." }],
       say: "Money is needed | before, to prepare. | During, so people can stop. | And after, to recover." },
     { t: "point", k: "Basis risk", h: "When the trigger misses", p: "A payout tied to a temperature can miss the real loss. That gap is called basis risk.", say: "A payout tied to temperature can miss the real loss: basis risk.", art: "bell" },
     { t: "close", k: "What has been tried", line: "Protection only counts if it reaches people in time.", say: "Protection only counts if it reaches people in time." } ] },

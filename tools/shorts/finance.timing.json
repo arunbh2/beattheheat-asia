@@ -1,35 +1,35 @@
 {
- "total": 20.55,
+ "total": 22.1,
  "scenes": [
   {
    "start": 0.0,
-   "dur": 3.95,
+   "dur": 3.75,
    "beats": [
     0.35
    ],
    "text": "Paying for heat protection is about timing."
   },
   {
-   "start": 3.95,
-   "dur": 6.83,
+   "start": 3.75,
+   "dur": 8.46,
    "beats": [
     0.35,
-    1.85,
-    3.23,
-    5.03
+    2.7,
+    4.33,
+    6.51
    ],
    "text": "Money is needed before, to prepare. During, so people can stop. And after, to recover."
   },
   {
-   "start": 10.78,
-   "dur": 5.27,
+   "start": 12.21,
+   "dur": 5.39,
    "beats": [
     0.35
    ],
    "text": "A payout tied to temperature can miss the real loss: basis risk."
   },
   {
-   "start": 16.05,
+   "start": 17.6,
    "dur": 4.5,
    "beats": [
     0.35
