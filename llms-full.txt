@@ -816,11 +816,11 @@ Leads to: Public budgets strained (Higher borrowing costs leave less to spend.);
 
 Source: Aguilar-Gomez et al., summarised in VoxEU, 2024 https://cepr.org/voxeu/columns/heatwaves-ripple-financial-system
 
-#### Elections and public services disrupted
+#### Public services disrupted
 
 Heat disrupts voting, courts and public offices. On the last day of India’s 2024 general election, Uttar Pradesh’s chief electoral officer said 33 polling staff had died of heat, and more died in Bihar and Odisha.
 
-Leads to: Social trust frays (Disrupted elections and services test public trust.)
+Leads to: Social trust frays (Disruption to public services can test public trust.)
 
 Source: AFP via Malay Mail, 2 June 2024 https://www.malaymail.com/amp/news/world/2024/06/02/heatstroke-killed-33-indian-polling-staff-on-last-voting-day-says-state-election-chief/137732
 
@@ -1542,7 +1542,7 @@ Cuts the link: Forced migration → Homes that trap heat. Who can act: City and 
 
 Could help interrupt: The displacement loop
 
-In practice: Telangana’s Cool Roof Policy 2023–2028, India’s first, makes cool roofs mandatory for many kinds of building and aims to cover about 300 km² of roofs. Tamil Nadu’s heat strategy proposes making a measure of how much heat walls and roofs let in, the residential envelope transmittance value (ReTV) from India’s residential energy code, a condition in tenders for slum redevelopment.
+In practice: Telangana’s Cool Roof Policy 2023–2028, India’s first, makes cool roofs mandatory for many kinds of building and aims to cover about 300 km² of roofs. Tamil Nadu’s heat strategy proposes making a measure of how much heat walls and roofs let in, the residential envelope transmittance value (ReTV) from India’s residential energy code, a condition in tenders for redeveloping informal settlements.
 
 - Guide: Telangana’s cool roof policy: from pilot demonstration to policy (The Climate Group) https://www.theclimategroup.org/our-work/publications/telanganas-cool-roof-policy-pilot-demonstration-policy-implementation
 
@@ -1762,7 +1762,7 @@ Exposed to: Bodies that sense and shed heat less well, often with heart, kidney 
 
 Held back by: Living alone, limited mobility, and warnings and help that rely on phones, apps or someone knocking on the door.
 
-Older people in a Kolkata slum were 4.3 times more likely than older people in a nearby village to face dangerous heat, with a heat index of 45 °C or more, because their homes stayed hotter than the outdoors, especially at night. (Weitz, Mukhopadhyay and Das, International Journal of Biometeorology, 2022, https://pubmed.ncbi.nlm.nih.gov/35359160/)
+Older people in a Kolkata informal settlement were 4.3 times more likely than older people in a nearby village to face dangerous heat, with a heat index of 45 °C or more, because their homes stayed hotter than the outdoors, especially at night. (Weitz, Mukhopadhyay and Das, International Journal of Biometeorology, 2022, https://pubmed.ncbi.nlm.nih.gov/35359160/)
 
 What helps: Cooling centres and check-ins, Heat action plans, Affordable cooling for the poorest, Count every heat death
 
@@ -1864,7 +1864,7 @@ Key caution: Check the roof type, fire safety, tenure and ventilation before any
 
 - Let the air through: Higher vents and openings that let hot air out at night. Keeps working with: Security, rain protection and mosquito screens. Avoid: Openings that let in dust, rain or intruders. Rough cost: No range solid enough to share: get local quotes.
 
-In 16 Ahmedabad slum homes measured in September 2017, rooms under a modular roof averaged about 33.8 °C against 36.8 °C under asbestos sheets. White paint on tin did not beat asbestos or concrete in the same comparison: measure before you promise. (Vellingiri et al., Indian Journal of Occupational and Environmental Medicine, 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7227734)
+In 16 homes in an Ahmedabad informal settlement, measured in September 2017, rooms under a modular roof averaged about 33.8 °C against 36.8 °C under asbestos sheets. White paint on tin did not beat asbestos or concrete in the same comparison: measure before you promise. (Vellingiri et al., Indian Journal of Occupational and Environmental Medicine, 2020, https://pmc.ncbi.nlm.nih.gov/articles/PMC7227734)
 
 In a two-year trial in Burkina Faso, cool roofs lowered indoor temperatures by 1.2 °C in tin-and-mud homes and 1.7 °C in tin-roofed homes, and residents’ heart rates fell. The same team began a year-long trial in about 400 Ahmedabad homes in 2025. (Reuters, via South China Morning Post, 2025, https://www.scmp.com/news/asia/south-asia/article/3301810/indian-slums-get-cool-roofs-beat-summer-heat)
 
@@ -2136,7 +2136,7 @@ What changed: It is a strategy, not yet an evaluated programme. Departments are 
 
 - Heat-ready health services: led by Health authorities; paid by Not documented; Pregnancy-scheme check-ups that screen for heat risk (proposed)
 
-- Cool, affordable housing: led by City and local governments; paid by Not documented; Slum redevelopment tenders that set a limit on heat gain through walls and roofs (proposed)
+- Cool, affordable housing: led by City and local governments; paid by Not documented; Redevelopment tenders for informal settlements that set a limit on heat gain through walls and roofs (proposed)
 
 - Green, cool cities: led by National governments; paid by Public budget; Forest and tree cover rising from 23.8% towards 33% by 2030–31
 
@@ -2758,7 +2758,7 @@ Each organisation is marked with its main side in a heat alliance. Demand: Holds
 
 - Watershed Organisation Trust (WOTR) (Supply): Sends heat-health advisories by SMS to farmers, farm labourers and rural job-scheme workers in drought-prone Marathwada, built with the India Meteorological Department, alongside its watershed work. (https://cdkn.org/story/heat-health-advisories-rural-india-learning-during-pandemic-era)
 
-- BRAC (Supply): In Bangladesh’s April 2024 heat emergency, mobilised 50,000 community health workers to raise awareness, with a focus on families with pregnant women, and is piloting heat-reduction ideas in urban slums. (https://bracusa.org/bangladesh_heat_emergency/)
+- BRAC (Supply): In Bangladesh’s April 2024 heat emergency, mobilised 50,000 community health workers to raise awareness, with a focus on families with pregnant women, and is piloting heat-reduction ideas in urban informal settlements. (https://bracusa.org/bangladesh_heat_emergency/)
 
 - HelpAge International (Supply): Works with older people’s associations in Bangladesh and Pakistan on disaster risk, including heatwaves and early warning, and speaks up for older farm labourers and street vendors exposed to heat. (https://helpage.org/tags/bangladesh)
 
@@ -3314,7 +3314,7 @@ Page: https://beattheheat.asia/cities/phnompenh/
 
 Peak: Coastal Odisha, not known for extreme heat. Toll: 2,042 deaths from heatstroke recorded by hospitals.
 
-Heat struck a coastal state that had never planned for it, and hospitals counted more than two thousand heatstroke deaths in a single month.
+Heat struck a coastal state with little past experience of extreme heat, and hospitals counted more than two thousand heatstroke deaths in a single month.
 
 What changed: Odisha wrote its first heat action plan in 1999. The next year, recorded heat deaths fell to 91.
 
@@ -3402,7 +3402,7 @@ Source: Borneo Post (AFP), 2024: Myanmar records 48.2 °C https://www.theborneop
 
 Source: NBC News, 2024: school closures in the Philippines and Bangladesh https://www.nbcnews.com/news/world/schools-close-extreme-heat-philippines-bangladesh-asia-rcna149485
 
-### May–June 2024, Northern India: The election heatwave
+### May–June 2024, Northern India: Weeks of record heat in the north
 
 Peak: Nearly 50 °C in parts of the north; Delhi’s hottest night in more than five decades. Toll: 110 heat deaths and more than 40,000 suspected heatstroke cases officially recorded from 1 March to 18 June.
 

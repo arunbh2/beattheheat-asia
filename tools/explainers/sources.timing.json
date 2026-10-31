@@ -1,0 +1,39 @@
+{
+ "total": 25.85,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Where does every claim on this site come from?"
+  },
+  {
+   "start": 5.0,
+   "dur": 9.83,
+   "beats": [
+    0.6,
+    2.99
+   ],
+   "text": "From more than two thousand sources. Research and guidance, the Lancet Countdown, organisations, the news, and live data."
+  },
+  {
+   "start": 14.83,
+   "dur": 6.02,
+   "beats": [
+    0.6,
+    2.83
+   ],
+   "text": "Every claim links to its source, and you can search them all, in one list."
+  },
+  {
+   "start": 20.85,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Check it for yourself."
+  }
+ ]
+}

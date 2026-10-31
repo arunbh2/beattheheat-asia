@@ -1,0 +1,41 @@
+{
+ "total": 26.64,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.11,
+   "beats": [
+    0.6
+   ],
+   "text": "Before you buy, fund or start something: ask four questions."
+  },
+  {
+   "start": 5.11,
+   "dur": 9.36,
+   "beats": [
+    0.6,
+    2.9,
+    4.09,
+    5.57
+   ],
+   "text": "Does it really protect people here? Is it fair? Who keeps it working? And who pays, and who carries the risk?"
+  },
+  {
+   "start": 14.47,
+   "dur": 7.17,
+   "beats": [
+    0.6,
+    2.62
+   ],
+   "text": "There are twenty-four in all, with the rules and ways of paying that have helped elsewhere."
+  },
+  {
+   "start": 21.64,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Protection that works, lasts and reaches everyone."
+  }
+ ]
+}

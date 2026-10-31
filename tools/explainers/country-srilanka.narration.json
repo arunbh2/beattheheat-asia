@@ -1,0 +1,14 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "In Sri Lanka, heat means humid air, and warmer nights.",
+  "The Disaster Management Centre issues warm weather advisories: | in 2026, in April, August and October.",
+  "A heat-health action plan is listed in Sri Lanka’s climate commitments to 2035. | A national roadmap for acting before disasters was launched in June 2026. | And Colombo has guidelines for a heat plan that sees women’s work.",
+  "Acting before the heat, not after it."
+ ]
+}

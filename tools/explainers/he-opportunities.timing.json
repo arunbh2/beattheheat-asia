@@ -1,0 +1,47 @@
+{
+ "total": 29.57,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Can protecting people from heat be a business?"
+  },
+  {
+   "start": 5.0,
+   "dur": 7.61,
+   "beats": [
+    0.6,
+    2.56
+   ],
+   "text": "Here are thirty-two ideas, at least one for every one of the twenty-one vicious cycles."
+  },
+  {
+   "start": 12.61,
+   "dur": 6.68,
+   "beats": [
+    0.6,
+    4.41
+   ],
+   "text": "The strongest ideas sell protection that is looked after over time, not just a product."
+  },
+  {
+   "start": 19.29,
+   "dur": 5.25,
+   "beats": [
+    0.6
+   ],
+   "text": "They are ideas to explore and test, not proven models."
+  },
+  {
+   "start": 24.54,
+   "dur": 5.03,
+   "beats": [
+    0.6
+   ],
+   "text": "Who could pay, who it helps, what needs to be in place."
+  }
+ ]
+}

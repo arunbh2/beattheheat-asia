@@ -1,0 +1,40 @@
+{
+ "total": 34.7,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Is there one fix for heat?"
+  },
+  {
+   "start": 5.0,
+   "dur": 16.16,
+   "beats": [
+    0.6,
+    4.73,
+    7.68
+   ],
+   "text": "No. There are a hundred and thirty-one in the library. Fifty-two cool places without machines, thirty-seven are active or system cooling, and forty-two are the plans, rules and money that make protection last."
+  },
+  {
+   "start": 21.16,
+   "dur": 8.54,
+   "beats": [
+    0.6,
+    2.77
+   ],
+   "text": "They work best together. A cool roof, a warning and paid rest protect more than any one alone."
+  },
+  {
+   "start": 29.7,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Each with its evidence, cost and limits."
+  }
+ ]
+}

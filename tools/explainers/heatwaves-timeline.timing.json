@@ -1,0 +1,49 @@
+{
+ "total": 47.94,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Ten heatwaves that changed what came next."
+  },
+  {
+   "start": 5.0,
+   "dur": 23.57,
+   "beats": [
+    0.6,
+    6.36,
+    11.76,
+    16.26
+   ],
+   "text": "From Odisha in 1998, which taught a state to plan, to Ahmedabad in 2010, behind South Asia\u2019s first city heat plan, to 2015, the region\u2019s deadliest recent heatwave, and Asia\u2019s hottest April, in 2024, when schools shut from Dhaka to Manila."
+  },
+  {
+   "start": 28.57,
+   "dur": 7.58,
+   "beats": [
+    0.6,
+    3.42
+   ],
+   "text": "Recorded deaths are a floor, not a total: many heat deaths are never counted as heat deaths."
+  },
+  {
+   "start": 36.15,
+   "dur": 6.79,
+   "beats": [
+    0.6
+   ],
+   "text": "And after each one, something changed: new plans, new warnings, new rules."
+  },
+  {
+   "start": 42.94,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Learn from the last heatwave before the next."
+  }
+ ]
+}

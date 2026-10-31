@@ -1,0 +1,14 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "Is there one fix for heat?",
+  "No. There are a hundred and thirty-one in the library. | Fifty-two cool places without machines, | thirty-seven are active or system cooling, and forty-two are the plans, rules and money that make protection last.",
+  "They work best together. | A cool roof, a warning and paid rest protect more than any one alone.",
+  "Each with its evidence, cost and limits."
+ ]
+}

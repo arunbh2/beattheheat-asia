@@ -1,0 +1,48 @@
+{
+ "total": 35.65,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Who sells protection from heat?"
+  },
+  {
+   "start": 5.0,
+   "dur": 7.5,
+   "beats": [
+    0.6,
+    3.11
+   ],
+   "text": "We found ninety-one businesses, fifty-seven of them working in South or Southeast Asia."
+  },
+  {
+   "start": 12.5,
+   "dur": 9.9,
+   "beats": [
+    0.6,
+    5.37
+   ],
+   "text": "Most work in cold storage for food and medicine, and efficient cooling, then fans, cool roofs and evaporative coolers."
+  },
+  {
+   "start": 22.4,
+   "dur": 8.25,
+   "beats": [
+    0.6,
+    3.38
+   ],
+   "text": "Being listed is not an endorsement. Companies describe their own products, so ask before you buy."
+  },
+  {
+   "start": 30.65,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Find who makes it, then ask the hard questions."
+  }
+ ]
+}

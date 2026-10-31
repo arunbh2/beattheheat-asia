@@ -1,0 +1,14 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "How to read a heat headline.",
+  "Which measure? Air temperature, heat index and WBGT are different numbers. | Confirmed, or suspected? The counts can be far apart. | Who said it, and how do they know? | And what happened next?",
+  "The news here refreshes automatically, | and every headline is kept, with its link, in our sources.",
+  "Read the heat, not just the headline."
+ ]
+}

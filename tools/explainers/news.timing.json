@@ -1,0 +1,41 @@
+{
+ "total": 33.11,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "How to read a heat headline."
+  },
+  {
+   "start": 5.0,
+   "dur": 15.56,
+   "beats": [
+    0.6,
+    6.89,
+    11.0,
+    13.1
+   ],
+   "text": "Which measure? Air temperature, heat index and WBGT are different numbers. Confirmed, or suspected? The counts can be far apart. Who said it, and how do they know? And what happened next?"
+  },
+  {
+   "start": 20.56,
+   "dur": 7.55,
+   "beats": [
+    0.6,
+    3.1
+   ],
+   "text": "The news here refreshes automatically, and every headline is kept, with its link, in our sources."
+  },
+  {
+   "start": 28.11,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Read the heat, not just the headline."
+  }
+ ]
+}

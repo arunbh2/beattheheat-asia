@@ -1,0 +1,14 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "What could a heat-resilient market look like?",
+  "Shade over the stalls. | A water point. | A place to rest. | A cooler roof, and a tree.",
+  "And each one depends on something: | who must act, what it takes to run, and what could stop it.",
+  "Pick a setting. Find what works there."
+ ]
+}

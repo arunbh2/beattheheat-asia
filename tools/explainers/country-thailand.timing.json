@@ -1,0 +1,47 @@
+{
+ "total": 41.51,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "How much hotter is Thailand getting?"
+  },
+  {
+   "start": 5.0,
+   "dur": 12.89,
+   "beats": [
+    0.6,
+    6.73
+   ],
+   "text": "In 2024, the national mean was twenty-eight point five degrees, more than a degree above the 1991 to 2020 average."
+  },
+  {
+   "start": 17.89,
+   "dur": 8.2,
+   "beats": [
+    0.6
+   ],
+   "text": "In April 2023, Tak reached forty-five point four: a national record."
+  },
+  {
+   "start": 26.09,
+   "dur": 10.42,
+   "beats": [
+    0.6,
+    6.48
+   ],
+   "text": "In 2026, Bangkok opened three hundred and four cooling centres, with a strategy for financing its response to heat."
+  },
+  {
+   "start": 36.51,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Cool rooms close to home, open when they\u2019re needed."
+  }
+ ]
+}

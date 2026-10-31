@@ -1,0 +1,50 @@
+{
+ "total": 50.6,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.37,
+   "beats": [
+    0.6
+   ],
+   "text": "Ten years of evidence on health and heat, in eight numbers."
+  },
+  {
+   "start": 5.37,
+   "dur": 15.23,
+   "beats": [
+    0.6,
+    6.67
+   ],
+   "text": "Seven hundred and ten thousand deaths linked to heat in 2023, a record. Thirteen and a half heatwave days per person in 2025, eleven of them added by climate change."
+  },
+  {
+   "start": 20.6,
+   "dur": 11.22,
+   "beats": [
+    0.6,
+    4.92,
+    6.92
+   ],
+   "text": "Five hundred and seventy-three billion work hours lost, a trillion dollars of income, and forty-eight hours of sleep a year, per person."
+  },
+  {
+   "start": 31.82,
+   "dur": 13.78,
+   "beats": [
+    0.6,
+    5.11,
+    8.67
+   ],
+   "text": "Air conditioning may have prevented three hundred and sixty thousand deaths a year. Forty-six countries warn for heat-related illness. And health needs of three point three billion dollars a year met about a third."
+  },
+  {
+   "start": 45.6,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "What they mean for South and Southeast Asia, and for you."
+  }
+ ]
+}

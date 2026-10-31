@@ -1,0 +1,14 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "Where does the money for heat protection come from?",
+  "We traced forty-eight funders and investors, | fifty pieces of funding, | and twenty-four accelerators, prizes and challenges.",
+  "One rule for reading funding news: announced is not the same as paid. | Money often arrives in stages, or later.",
+  "Follow the money to where it lands."
+ ]
+}

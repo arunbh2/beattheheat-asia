@@ -1,0 +1,41 @@
+{
+ "total": 28.0,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "What does a simple rest point need?"
+  },
+  {
+   "start": 5.0,
+   "dur": 9.11,
+   "beats": [
+    0.6,
+    1.67,
+    2.87,
+    4.44
+   ],
+   "text": "A site. Clean water. Someone to open it. And money to keep it going. Each belongs to a different body."
+  },
+  {
+   "start": 14.11,
+   "dur": 8.89,
+   "beats": [
+    0.6,
+    4.37
+   ],
+   "text": "Protection reaches a worker only when every one of them holds. This is a tool for cooperation, not for blame."
+  },
+  {
+   "start": 23.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Agree who does what, before the hot week."
+  }
+ ]
+}

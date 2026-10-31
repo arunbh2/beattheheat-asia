@@ -1,0 +1,14 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "What does a simple rest point need?",
+  "A site. | Clean water. | Someone to open it. | And money to keep it going. Each belongs to a different body.",
+  "Protection reaches a worker only when every one of them holds. | This is a tool for cooperation, not for blame.",
+  "Agree who does what, before the hot week."
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "Who is already working on heat?",
+  "We found three hundred and thirty organisations, working on parts of the web of heat.",
+  "Some hold the need, or the duty to protect people. | Some supply what protection needs. | And some connect the two.",
+  "Inclusion describes published work. It doesn’t imply partnership or endorsement.",
+  "See who could hold up the shade with you."
+ ]
+}

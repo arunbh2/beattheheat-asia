@@ -1,0 +1,49 @@
+{
+ "total": 40.14,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "A humid country, with a hot dry season."
+  },
+  {
+   "start": 5.0,
+   "dur": 11.25,
+   "beats": [
+    0.6,
+    3.95
+   ],
+   "text": "The weather service marks March to May as the hot dry season. And the national adaptation plan finds night-time lows rising faster than daytime highs."
+  },
+  {
+   "start": 16.25,
+   "dur": 6.95,
+   "beats": [
+    0.6,
+    3.25
+   ],
+   "text": "Warnings use four heat index bands. From forty-two degrees, it\u2019s a danger level."
+  },
+  {
+   "start": 23.2,
+   "dur": 11.65,
+   "beats": [
+    0.6,
+    3.7,
+    7.59
+   ],
+   "text": "Local disaster offices plan the response, labour guidance protects workers such as delivery riders, and cities like Quezon City have heat action teams."
+  },
+  {
+   "start": 34.85,
+   "dur": 5.29,
+   "beats": [
+    0.6
+   ],
+   "text": "Warnings that switch on protection, from city hall to the street."
+  }
+ ]
+}

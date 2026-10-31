@@ -291,7 +291,7 @@ const SNAP_SLUG = { Bangladesh: "bangladesh", India: "india", Indonesia: "indone
   let h = "", m = [`## ${p.title}`, intro];
   D.CITY_PROFILES.forEach(cp => {
     const c = live[cp.id], url = `${SITE}/cities/${cp.id}/`;
-    const loops = cp.loops.map(x => ({ l: D.LOOPS.find(l => l.id === x.id), why: x.why })).filter(x => x.l);
+    const loops = cp.loops.map(x => ({ l: D.LOOPS.find(l => l.id === x.id), why: x.why, src: x.src })).filter(x => x.l);
     const orgs = cp.orgs.map(id => D.ORGANISATIONS.find(o => o.id === id)).filter(Boolean);
     const exs = cp.examples.map(id => D.WORKED_EXAMPLES.find(x => x.id === id)).filter(Boolean);
     const risks = cp.risk.map(id => D.AT_RISK.find(g => g.id === id)).filter(Boolean);
@@ -299,7 +299,7 @@ const SNAP_SLUG = { Bangladesh: "bangladesh", India: "india", Indonesia: "indone
     h += `<h2 id="${cp.id}"><a href="/cities/${cp.id}/">${esc(c.name)}, ${esc(c.country)}</a></h2><p>${esc(cp.tagline)}</p><p class="meta">Heat plan: ${esc(status)}. Cycles tied to it: ${esc(loops.map(x => x.l.name).join(", "))}.</p>`;
     const body = `${cp.heat ? `<p><strong>Heat type:</strong> ${esc(cp.heat)} <a href="/glossary/#dryhumid">Dry heat and humid heat, explained</a>.</p>` : ""}<h2>Heat action plan: ${esc(status)}</h2><p>${esc(cp.hap.text)}</p><p class="src">Sources: ${cp.hap.sources.map(s => ext(s.url, s.label)).join(" · ")}</p>
       <h2>Heat today</h2><p>Live readings and the week’s forecast are on <a href="/#city-${cp.id}">the interactive map</a>. Official warnings: ${ext(c.warn.url, c.warn.label)}. ${D.LIVE_FINGERPRINT ? `How much climate change shaped today’s heat: ${ext(D.LIVE_FINGERPRINT.map.url, D.LIVE_FINGERPRINT.map.label)}.` : ""}</p>
-      <h2>Vicious cycles the evidence ties to ${esc(c.name)}</h2>${loops.map(x => `<h3><a href="/loops/#${x.l.id}">${esc(x.l.name)}</a></h3><p>${esc(x.why)}</p><p class="meta">${esc(x.l.summary)} <a href="/#loop-${x.l.id}">Follow it on the map</a>.</p>`).join("")}
+      <h2>Vicious cycles the evidence ties to ${esc(c.name)}</h2>${loops.map(x => `<h3><a href="/loops/#${x.l.id}">${esc(x.l.name)}</a></h3><p>${esc(x.why)}${x.src ? ` <span class="src">Source: ${ext(x.src.url, x.src.label)}</span>` : ""}</p><p class="meta">${esc(x.l.summary)} <a href="/#loop-${x.l.id}">Follow it on the map</a>.</p>`).join("")}
       <h2>Who heat hits hardest here</h2><ul>${risks.map(g => `<li><a href="/who-is-at-risk/#${g.id}">${esc(g.name)}</a></li>`).join("")}</ul>
       ${exs.length ? `<h2>A worked plan to learn from</h2>${exs.map(x => `<p><a href="/worked-plans/#${x.id}">${esc(x.title)}</a> (${esc(x.place)}, ${esc(x.year)})</p>`).join("")}` : ""}
       <h2>Already at work here</h2><ul>${orgs.map(o => `<li>${ext(o.url, o.name)}: ${esc(o.does)}</li>`).join("")}</ul><p class="meta">Listing does not imply partnership, affiliation or endorsement.</p>
@@ -460,7 +460,7 @@ require("./build-print")().then(list => {
   console.log("Wrote", list.length, "printable one-pagers");
   // last of all, once every page exists: one navigation on every page
   require("./build-ticker.js");
-  require("./build-nav.js")(); require("./shorts/embed.js");
+  require("./build-nav.js")(); require("./shorts/embed.js"); require("./explainers/embed.js");
 });
 console.log("Wrote", PAGES.length + CITY_PAGES.length, "pages, llms.txt, llms-full.txt, sitemap.xml and robots.txt");
 

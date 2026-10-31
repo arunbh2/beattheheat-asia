@@ -1,0 +1,47 @@
+{
+ "total": 48.66,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.9,
+   "beats": [
+    0.6
+   ],
+   "text": "Across Indonesia\u2019s islands, the heat is humid, all year round."
+  },
+  {
+   "start": 5.9,
+   "dur": 12.66,
+   "beats": [
+    0.6
+   ],
+   "text": "In 2024, Indonesia\u2019s weather stations ran point eight of a degree above the 1991 to 2020 average."
+  },
+  {
+   "start": 18.56,
+   "dur": 14.67,
+   "beats": [
+    0.6,
+    7.71
+   ],
+   "text": "A health climate action plan, adopted by ministerial decree in 2025, and a national cooling plan that combines passive design, efficiency and cleaner refrigerants."
+  },
+  {
+   "start": 33.23,
+   "dur": 10.43,
+   "beats": [
+    0.6,
+    6.72
+   ],
+   "text": "By 2040, half of Southeast Asia\u2019s air conditioners could be in Indonesia, which is why cooler buildings matter so much."
+  },
+  {
+   "start": 43.66,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Cool by design, and by efficient machines."
+  }
+ ]
+}

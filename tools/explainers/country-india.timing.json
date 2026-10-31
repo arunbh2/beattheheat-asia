@@ -1,0 +1,51 @@
+{
+ "total": 46.99,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "One country. Three kinds of heat."
+  },
+  {
+   "start": 5.0,
+   "dur": 11.37,
+   "beats": [
+    0.6,
+    3.69,
+    6.12
+   ],
+   "text": "India spans hot and dry places, places that swing between the two, and hot, humid coasts. Each needs different warnings and cooling."
+  },
+  {
+   "start": 16.37,
+   "dur": 15.23,
+   "beats": [
+    0.6,
+    3.11,
+    5.29,
+    7.99
+   ],
+   "text": "Protection is planned at every level: national health advisories, state plans such as Tamil Nadu\u2019s, city plans such as Delhi\u2019s and Chennai\u2019s, and workplace rules notified in 2026."
+  },
+  {
+   "start": 31.6,
+   "dur": 10.07,
+   "beats": [
+    0.6,
+    4.19
+   ],
+   "text": "It began in Ahmedabad, in 2013: South Asia\u2019s first city heat plan, a model since taken up across the country."
+  },
+  {
+   "start": 41.67,
+   "dur": 5.32,
+   "beats": [
+    0.6
+   ],
+   "text": "Many plans; the next step is making every one reach people."
+  }
+ ]
+}
