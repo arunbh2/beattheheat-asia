@@ -351,6 +351,218 @@ fs.writeFileSync(path.join(ROOT, "404.html"), page("", "Page not found", "This p
       <ul class="hub-paths">${NAVJ.groups.map(g => `<li><a href="${g.hub}"><b>${esc(g.h)}</b><span>${esc(g.intro)}</span></a></li>`).join("")}</ul>
     </section>`).replace('<link rel="canonical" href="https://beattheheat.asia/">', ""));
 
+// ---- Paying when heat strikes: risk finance for heat (research/2026-10/riskfin, read by tools/riskfin-data.js) ----
+{
+  const RF = require("./riskfin-data.js");
+  const SLUG = "paying-when-heat-strikes", DIRD = path.join(ROOT, SLUG, "data");
+  const PEOPLE = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "people.json"), "utf8"));
+  const person = id => PEOPLE.people.find(p => p.loop === id);
+  const loopName = id => (D.LOOPS.find(l => l.id === id) || {}).name || id;
+  const SNAPSLUG = { Bangladesh: "bangladesh", India: "india", Indonesia: "indonesia", Nepal: "nepal", Philippines: "philippines", "Sri Lanka": "sri-lanka", Thailand: "thailand" };
+  const LBY = Object.fromEntries(RF.LAYERS.map(l => [l.id, l]));
+  const HEAT = { yes: "Heat in its cover", partly: "Heat partly covered", no: "Heat not covered", unclear: "Heat cover unclear" };
+  const STATUS = { active: "Active", pilot: "Pilot", ended: "Ended", paused: "Paused", unclear: "Status unclear" };
+  const MKIND = { payout: "Payout", disbursement: "Money given out", limit: "Cover limit", sum_insured: "Sum insured", bond_size: "Bond size", credit_line: "Credit line", budget: "Budget", premium: "Premium" };
+  const TKIND = { forecast: "Forecast trigger", action: "Action trigger", payout: "Payout trigger", declaration: "Declared event" };
+  const REGION = { sa: "South Asia", sea: "Southeast Asia", elsewhere: "Outside the region, for comparison" };
+  const INCL = { informal_workers: "Informal workers", women: "Women", older_people: "Older people", disabled_people: "Disabled people", migrants: "Migrants", poorest: "The poorest" };
+  const EVL = { concept: "Concept", test: "Test", reported: "Reported", guidance: "Guidance", measured: "Measured", evaluated: "Evaluated" };
+  const num = s => { const n = Number(String(s).replace(/,/g, "")); return isFinite(n) && String(s).trim() !== "" ? n.toLocaleString("en-GB", { maximumFractionDigits: n < 100 ? 2 : 0 }) : String(s); };
+  const money = m => m && m.amount ? `${esc(m.currency || "")} ${esc(num(m.amount))}${m.usd && m.currency !== "USD" ? ` <small>(about US$${esc(num(m.usd))})</small>` : ""}` : "";
+  const xl = (s, t) => s ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(t || s.label)}<span class="visually-hidden"> (opens in a new tab)</span></a>${s.archive ? ` <a class="rf-arch" href="${esc(s.archive)}" target="_blank" rel="noopener">archived copy<span class="visually-hidden"> (opens in a new tab)</span></a>` : ""}` : "";
+  const kv = (k, v) => v ? `<p class="rf-kv"><b>${esc(k)}</b> ${v}</p>` : "";
+
+  // per-layer counts, of the records we documented: never a measure of the world, and never money added up
+  const LS = RF.LAYERS.map(l => { const s = RF.schemes.filter(x => x.layer === l.id); return Object.assign({}, l, {
+    n: s.length, heat: s.filter(x => x.heat === "yes").length, part: s.filter(x => x.heat === "partly").length, paid: s.filter(x => x.paid === "paid").length,
+    never: s.filter(x => x.paid === "never").length, inst: RF.instruments.filter(i => i.layer === l.id).map(i => ({ n: i.n, d: i.def, sp: i.speed, lim: i.limits, poor: i.poorest })),
+    seg: s.map(x => ({ id: x.id, n: x.n, h: x.heat, p: x.paid })) }); });
+
+  // one card per scheme: "did it pay, and when?" first, then the trigger, the money in its kind, and who it reaches
+  const card = s => {
+    const L = LBY[s.layer] || { short: s.layer };
+    const pays = s.payouts.length ? `<ul class="rf-pays">${s.payouts.map(p => `<li><span class="rf-money"><i>${esc(MKIND[p.kind] || p.kind || "Money")}</i> ${money(p) || "amount not traced"}</span><span>${esc(p.date || "date not traced")}${p.recipients ? ` · ${esc(p.recipients)}` : ""}</span>${p.days ? `<span class="rf-clock">How fast: ${esc(p.days)}</span>` : ""}${p.src ? `<span class="rf-src">${xl(p.src, "Source")}</span>` : ""}</li>`).join("")}</ul>` : "";
+    const incl = Object.keys(INCL).filter(k => s.inclusion[k] != null).map(k => { const v = String(s.inclusion[k] || ""), nv = !v || /^not verified$/i.test(v); return `<li class="${nv ? "is-nv" : ""}"><b>${INCL[k]}</b><span>${nv ? "Not verified" : esc(v)}</span></li>`; }).join("");
+    return `<li class="rf-card" data-layer="${s.layer}" data-paid="${s.paid}" data-region="${s.region}" data-heat="${s.heat}" data-id="${esc(s.id)}" id="s-${esc(s.id)}">
+      <details><summary>
+        <span class="rf-card__top"><span class="rf-chip rf-chip--${s.layer}">${esc(L.short)}</span><span class="rf-heat rf-heat--${s.heat}">${esc(HEAT[s.heat] || HEAT.unclear)}</span></span>
+        <b class="rf-card__n">${esc(s.n)}</b>
+        <span class="rf-card__where">${esc(s.countries.join(", "))} · ${esc(STATUS[s.status] || s.status)}</span>
+        <span class="rf-paid rf-paid--${s.paid}"><i aria-hidden="true"></i>${esc(RF.PAYS[s.paid])}</span>
+      </summary><div class="rf-card__body">
+        ${s.covered ? kv("Who or what it protects", esc(s.covered)) : ""}
+        ${s.heatWhy ? kv("Heat, in its own words", esc(s.heatWhy)) : ""}
+        ${s.trigger.metric ? `<div class="rf-trig"><p class="rf-trig__k">${esc(TKIND[s.trigger.kind] || "Trigger")}</p><p><b>${esc(s.trigger.metric)}</b>${s.trigger.threshold ? `. ${esc(s.trigger.threshold)}` : ""}</p>${s.trigger.data ? `<p class="rf-muted">Data: ${esc(s.trigger.data)}</p>` : ""}${s.trigger.window ? `<p class="rf-muted">Window: ${esc(s.trigger.window)}</p>` : ""}</div>` : ""}
+        <h4 class="rf-h4">Did it pay, and when?</h4>${pays || `<p class="rf-muted">${s.paid === "never" ? "Our sources record that it has not been triggered. That is a finding, not a failure: a trigger set for rare years may rightly stay quiet." : s.paid === "activated" ? "Sources describe it as activated or paying, but we could not trace an amount and a date we could rely on." : "We could not find a reliable record either way. A missing record is not evidence that nothing was paid."}</p>`}
+        ${s.size ? kv(MKIND[s.size.kind] || "Size", `${money(s.size)}${s.size.year ? ` <small>(${esc(s.size.year)})</small>` : ""}${s.size.scope ? ` <small>${esc(s.size.scope)}</small>` : ""}`) : ""}
+        ${s.enrol.length ? kv("Reach, as reported", s.enrol.map(e => `${esc(num(e.number))} ${esc(e.unit || "")} (${esc(e.year)})`).join("; ")) : ""}
+        ${s.premiumBy ? kv("Who pays the premium or cost", esc(s.premiumBy)) : ""}
+        ${s.basis ? kv("Where the trigger and the harm could part ways", esc(s.basis)) : ""}
+        ${s.fallback ? kv("If the trigger misses", esc(s.fallback)) : ""}
+        ${incl ? `<h4 class="rf-h4">Who it reaches</h4><ul class="rf-incl">${incl}</ul>` : ""}
+        ${s.protection ? kv("Protection for people covered", esc(s.protection)) : ""}
+        ${s.evidence.length ? `<ul class="rf-ev">${s.evidence.map(e => `<li><span class="rf-evl rf-evl--${esc(e.status)}">${esc(EVL[e.status] || e.status)}</span> ${esc(e.text)}</li>`).join("")}</ul>` : ""}
+        ${s.providers.length ? kv("Who is involved", s.providers.map(p => esc(p.n)).join(", ")) : ""}
+        ${s.sources.length ? `<p class="rf-srcs"><b>Sources</b> ${s.sources.map(x => xl(x)).join(" · ")}</p>` : ""}
+      </div></details></li>`;
+  };
+  const sch = RF.schemes.slice().sort((a, b) => ({ sa: 0, sea: 1, elsewhere: 2 }[a.region] - { sa: 0, sea: 1, elsewhere: 2 }[b.region]) || ({ paid: 0, activated: 1, never: 2, unknown: 3 }[a.paid] - { paid: 0, activated: 1, never: 2, unknown: 3 }[b.paid]));
+
+  // the three triggers, and the two clocks after them, each with a real example from the research
+  const byId = id => RF.schemes.find(s => s.id === id) || {};
+  const eap = byId("bd-dhaka-eap"), js = byId("jansahas_digit_2025"), lao = byId("lao_seadrif_2025"), bdc = byId("bd_heat");
+  const RIB = [
+    { k: "warning", h: "A warning", p: "A weather service says dangerous heat is coming. It tells people to take care, and starts nothing on its own.", ex: `In Dhaka, readiness begins on a forecast ${esc((eap.trigger || {}).window || "").split(";")[0].replace(/^Readiness lead/i, "").trim()} ahead.`, src: (eap.sources || [])[0] },
+    { k: "action", h: "An action trigger", p: "A threshold agreed in advance gives permission, and money, to act: cash, water, cooling, outreach.", ex: `Dhaka’s Early Action Protocol: ${esc((eap.trigger || {}).threshold || "")}. First activated in April 2024.`, src: (bdc.sources || [])[0] },
+    { k: "payout", h: "A payout trigger", p: "A contract pays when a measured index crosses its line, whether or not a person was harmed.", ex: `A worker cover in Noida, India: ${esc(((js.trigger || {}).threshold || "").split(".")[0])}.`, src: (js.sources || [])[0] },
+    { k: "treasury", h: "Money reaches an institution", p: "A ministry, agency or organisation receives the funds. This clock is the one most often reported.", ex: `A regional pool paid Lao PDR US$2 million ${esc(((lao.payouts || [])[0] || {}).days || "").split(";")[0]}, for floods rather than heat.`, src: ((lao.payouts || [])[0] || {}).src },
+    { k: "person", h: "Money reaches a person", p: "The clock that matters most to someone losing a day’s pay, and the one we could least often see.", ex: `In Dhaka in 2024, households received BDT 5,000 each; the dates they received it are not in our sources.`, src: (bdc.sources || [])[0] }];
+  const ribbon = `<ol class="rf-rib">${RIB.map((r, i) => `<li class="rf-rib__s rf-rib__s--${r.k}"><span class="rf-rib__n">${i + 1}</span><h3>${r.h}</h3><p>${r.p}</p><p class="rf-rib__ex">${r.ex}${r.src ? ` <span class="rf-src">${xl(r.src, "Source")}</span>` : ""}</p></li>`).join("")}</ol>`;
+  const FAM = RF.triggers.filter(t => t.module === 6);
+
+  // country by country: the layers we found, the gap, and an idea labelled for what it is
+  const CO = Object.keys(RF.layersByCountry).filter(c => !/ASEAN/.test(c)).sort((a, b) => RF.layersByCountry[b].length - RF.layersByCountry[a].length || a.localeCompare(b));
+  const coSlug = c => c.toLowerCase().replace(/[^a-z]+/g, "-");
+  const RULE = Object.fromEntries(RF.rules.map(r => [r.country.replace(/^Vietnam$/, "Viet Nam"), r]));
+  const coPanel = c => { const rows = RF.layersByCountry[c].slice().sort((a, b) => RF.LAYERS.findIndex(l => l.id === a.layer) - RF.LAYERS.findIndex(l => l.id === b.layer)); const r = RULE[c];
+    return `<section class="rf-co" id="country-${coSlug(c)}" data-co="${coSlug(c)}" aria-labelledby="co-${coSlug(c)}"><h3 id="co-${coSlug(c)}">${esc(c)}</h3>
+      <ol class="rf-co__stack">${rows.map(x => `<li class="rf-co__row rf-co__row--${x.layer}"><span class="rf-chip rf-chip--${x.layer}">${esc((LBY[x.layer] || {}).short || x.layer)}</span><div><b>${esc(x.inst)}</b> <span class="rf-heat rf-heat--${esc(x.heat)}">${esc(HEAT[x.heat] || HEAT.unclear)}</span>
+        ${x.holder ? `<p class="rf-muted">Held by ${esc(x.holder)}</p>` : ""}${x.trigger ? kv("How it is released", esc(x.trigger)) : ""}${x.lastMile ? kv("How it reaches people", esc(x.lastMile)) : ""}
+        ${x.gap ? `<p class="rf-gap"><b>What we could not find</b> ${esc(x.gap)}</p>` : ""}${x.idea ? `<p class="rf-idea"><b>An idea, inferred</b> ${esc(x.idea)}</p>` : ""}${x.src ? `<p class="rf-src">${xl(x.src, "Source")}</p>` : ""}</div></li>`).join("")}</ol>
+      ${r ? `<div class="rf-rules"><p class="rf-trig__k">The rules, in brief${r.authority ? ` · ${esc(r.authority)}` : ""}</p>${kv("Index-based (parametric) cover", esc(r.parametric))}${kv("Small-sum insurance", esc(r.micro))}${kv("Selling through worker groups and phones", esc(r.distribution))}${kv("Protection for buyers", esc(r.protection))}${r.src ? `<p class="rf-src">${xl(r.src, "Source")}</p>` : ""}</div>` : ""}
+      ${SNAPSLUG[c] ? `<p class="rf-muted"><a href="/countries/${SNAPSLUG[c]}/">The ${esc(c)} country snapshot</a> · plans, warnings, work rules and money beyond risk finance.</p>` : ""}</section>`; };
+
+  // who takes part, by side, so no one is ranked
+  const SIDES = [["demand", "Who seeks protection", "Governments, cities, worker groups and humanitarian agencies that hold the risk and want cover or ready money."], ["platform", "Who connects and sets rules", "Regulators, pools, partnerships and facilities that make arrangements possible and fair."], ["supply", "Who supplies cover, money and know-how", "Insurers, reinsurers, brokers, development banks, funders and researchers."]];
+  const TYPE = t => String(t || "other").replace(/_/g, " ").replace(/^mga$/, "managing agent").replace(/^mdb$/, "development bank");
+  const who = SIDES.map(([k, h, p]) => { const a = RF.actors.filter(x => x.side === k); const types = {}; a.forEach(x => { types[TYPE(x.type)] = (types[TYPE(x.type)] || 0) + 1; });
+    return `<article class="rf-side rf-side--${k}"><p class="rf-side__n">${a.length}</p><h3>${h}</h3><p>${p}</p><p class="rf-types">${Object.entries(types).sort((x, y) => y[1] - x[1]).map(([t, n]) => `<span>${esc(t)} <b>${n}</b></span>`).join("")}</p>
+      <details class="rf-more"><summary>See all ${a.length}</summary><ul>${a.sort((x, y) => x.n.localeCompare(y.n)).map(x => `<li>${x.url ? `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.n)}<span class="visually-hidden"> (opens in a new tab)</span></a>` : esc(x.n)}${x.role ? `<span>${esc(x.role)}</span>` : ""}</li>`).join("")}</ul></details></article>`; }).join("");
+
+  // the dataset, for anyone to reuse: one JSON file and plain spreadsheets, money kept in its kind
+  fs.mkdirSync(DIRD, { recursive: true });
+  const csv = (rows, cols) => [cols.join(","), ...rows.map(r => cols.map(c => { const v = r[c] == null ? "" : Array.isArray(r[c]) ? r[c].join("; ") : String(r[c]); return /[",\n]/.test(v) ? `"${v.replace(/"/g, '""')}"` : v; }).join(","))].join("\n") + "\n";
+  const DSET = { title: "Paying when heat strikes: heat risk finance in South and Southeast Asia", publisher: "Common Shade", url: `${SITE}/${SLUG}/`, licence: "CC BY 4.0", checked: RF.checked, disclaimer: RF.disclaimer,
+    rules: ["Money is kept in its kind: premiums, cover limits, payouts and budgets are never added together.", "Warning, action and payout triggers are kept apart.", "Every scheme records whether it paid, and when; 'never triggered' is a valid finding.", "Known, inferred and uncertain are kept distinct.", "Links that failed our link check are left out."],
+    layers: RF.LAYERS, schemes: RF.schemes, instruments: RF.instruments, triggers: RF.triggers, data_infrastructure: RF.data, country_layers: RF.layersByCountry, rules_by_country: RF.rules, actors: RF.actors, evidence_of_effect: RF.effects, not_verified: RF.unverified, sources: RF.sources };
+  fs.writeFileSync(path.join(DIRD, "heat-risk-finance.json"), JSON.stringify(DSET, null, 1));
+  const flat = RF.schemes.map(s => ({ id: s.id, name: s.n, layer: s.layer, instrument: s.inst, countries: s.countries, status: s.status, heat_covered: s.heat, did_it_pay: RF.PAYS[s.paid], trigger_kind: s.trigger.kind, trigger_metric: s.trigger.metric, trigger_threshold: s.trigger.threshold,
+    size_kind: s.size ? s.size.kind : "", size_amount: s.size ? s.size.amount : "", size_currency: s.size ? s.size.currency : "", payouts: s.payouts.map(p => `${p.kind}: ${p.currency} ${p.amount} (${p.date})`), basis_risk: s.basis, fallback: s.fallback, sources: s.sources.map(x => x.url) }));
+  const FILES = [["schemes.csv", csv(flat, Object.keys(flat[0])), "Every scheme, with whether it paid"], ["instruments.csv", csv(RF.instruments, ["id", "n", "layer", "level", "def", "pays", "gets", "speed", "good", "limits", "basis", "poorest"]), "The kinds of instrument"],
+    ["country-layers.csv", csv(Object.entries(RF.layersByCountry).flatMap(([c, r]) => r.map(x => Object.assign({ country: c }, x, { src: x.src ? x.src.url : "" }))), ["country", "layer", "inst", "holder", "heat", "trigger", "lastMile", "gap", "idea", "src"]), "Country by country"],
+    ["actors.csv", csv(RF.actors, ["n", "side", "type", "role", "geo", "url"]), "Who takes part"], ["triggers.csv", csv(RF.triggers, ["metric", "good", "weak", "humid", "asia", "used"]), "Ways to measure heat for a trigger"],
+    ["sources.csv", csv(RF.sources, ["label", "url", "status", "archive", "module"]), "Every source, with its link check"]];
+  FILES.forEach(([f, c]) => fs.writeFileSync(path.join(DIRD, f), c));
+
+  const P1 = person("protection"), P2 = person("reactive");
+  const tot = { n: RF.schemes.length, heat: RF.schemes.filter(s => s.heat === "yes").length, paid: RF.schemes.filter(s => s.paid === "paid").length, never: RF.schemes.filter(s => s.paid === "never").length };
+  const CHIP = (k, v, t, on) => `<button type="button" class="rf-f${on ? " is-on" : ""}" data-f="${k}" data-v="${v}" aria-pressed="${on ? "true" : "false"}">${t}</button>`;
+  const RFD = { L: LS.map(l => ({ id: l.id, name: l.name, short: l.short, when: l.when, text: l.text, n: l.n, heat: l.heat, part: l.part, paid: l.paid, never: l.never, inst: l.inst, seg: l.seg })) };
+
+  write(SLUG, page(SLUG, "Paying when heat strikes", "Which layer of money could carry heat? Insurance, pools, credit, forecast-based funds and social protection for extreme heat in South and Southeast Asia: what exists, whether it paid, and when.",
+    `<header class="rf-hero"><div class="container rf-hero__in">
+      <div class="rf-hero__txt"><p class="eyebrow">Fund and build</p><h1 class="pg-h1">Paying when heat strikes</h1>
+      <p class="pg-lede">Most money set aside for disasters was designed for floods, storms and earthquakes, which break things that can be counted. Heat mostly takes income, health and working days, quietly. This section gathers what exists to pay when heat arrives, and asks, gently, one question.</p>
+      <p class="rf-q">Which layer could carry heat?</p>
+      <ul class="rf-facts"><li><b>${tot.n}</b><span>schemes and arrangements we documented</span></li><li><b>${tot.heat}</b><span>name heat in their cover</span></li><li><b>${tot.paid}</b><span>with a payment we could trace, amount and date</span></li></ul>
+      <p class="rf-note">Counts are of what we documented, not of everything that exists. Money is never added up across kinds.</p></div>
+      <svg class="rf-hero__art" viewBox="0 0 320 240" aria-hidden="true" focusable="false"><g fill="none" stroke="#16202B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><circle cx="252" cy="44" r="20" fill="#F5A623" stroke="#F5A623"/><path d="M252 10v-6M252 84v-6M218 44h-6M292 44h-6M228 20l-4-4M276 68l4 4M276 20l4-4" stroke="#F5A623"/>
+        <path d="M40 96 Q160 70 280 96 L280 104 Q160 80 40 104 Z" fill="#2E6F95" stroke="#2E6F95" opacity=".55"/><path d="M50 122 Q160 100 270 122 L270 130 Q160 110 50 130 Z" fill="#C98A12" stroke="#C98A12" opacity=".7"/>
+        <path d="M60 148 Q160 128 260 148 L260 156 Q160 138 60 156 Z" fill="#F26430" stroke="#F26430"/><path d="M70 172 Q160 156 250 172 L250 180 Q160 166 70 180 Z" fill="#B8401A" stroke="#B8401A" opacity=".85"/><path d="M80 194 Q160 180 240 194 L240 202 Q160 190 80 202 Z" fill="#1F7A70" stroke="#1F7A70"/>
+        <path d="M10 236H310" opacity=".4"/><circle cx="120" cy="208" r="6"/><path d="M120 214v12M120 226l-6 10M120 226l6 10M120 218l-9 6"/><circle cx="200" cy="208" r="6"/><path d="M200 214v12M200 226l-6 10M200 226l6 10M200 218l9 6"/><circle cx="160" cy="214" r="4"/><path d="M160 218v9M160 227l-4 9M160 227l4 9"/></g></svg>
+    </div></header>
+    <nav class="container rf-jump" aria-label="On this page"><a href="#layers">The layers</a><a href="#did-it-pay">Did it pay, and when?</a><a href="#triggers">Three triggers</a><a href="#countries">Country by country</a><a href="#who">Who takes part</a><a href="#know">What we know</a><a href="#data">The data</a></nav>
+
+    <section class="container rf-sec rf-people" aria-label="Two cycles this section is about">
+      <article class="rf-person"><p class="rf-person__k">The <a href="/loops/#protection">${esc(loopName("protection").replace(/^The /, "").toLowerCase())}</a></p><p class="rf-person__who">${esc(P1.who)}</p><p>${esc(P1.story)}</p></article>
+      <article class="rf-person"><p class="rf-person__k">The <a href="/loops/#reactive">${esc(loopName("reactive").replace(/^The /, "").toLowerCase())}</a></p><p class="rf-person__who">${esc(P2.who)}</p><p>${esc(P2.story)}</p></article>
+      <p class="rf-note">${esc(PEOPLE.note)} Money arranged before heat arrives is one way these two cycles could be eased.</p>
+    </section>
+
+    <section class="container rf-sec" id="layers" aria-labelledby="layers-h">
+      <p class="eyebrow">Layers of shade</p><h2 class="hub-h" id="layers-h">The layers of protection</h2>
+      <p class="hub-p">Money for a bad season can be held in layers, like canopies one above another. The ones closest to people carry the heat of most years; the higher ones open only for rarer, harder years. Each strip below is one scheme we documented: filled where heat is in its cover, open where it is not. Where the shade has holes, heat reaches people as lost pay and illness.</p>
+      <div class="rf-can" data-rf-can>
+        <div class="rf-can__stage"><svg class="rf-can__svg" viewBox="0 0 800 520" role="img" aria-labelledby="can-t can-d" data-rf-svg><title id="can-t">Five layers of protection above people</title><desc id="can-d">A drawing of five layered canopies. Choose how hard a heat season is to see which layers open, and select a layer to read about it.</desc></svg>
+          <div class="rf-sev" role="radiogroup" aria-label="How hard a heat season?">
+            <span class="rf-sev__k">How hard a heat season?</span>
+            <button type="button" role="radio" aria-checked="true" data-sev="1">Most years</button><button type="button" role="radio" aria-checked="false" data-sev="2">A hard year</button><button type="button" role="radio" aria-checked="false" data-sev="3">A rare, extreme year</button>
+          </div>
+          <p class="rf-can__cap" data-rf-cap aria-live="polite"></p>
+        </div>
+        <aside class="rf-can__side" data-rf-side aria-live="polite"></aside>
+      </div>
+      <p class="rf-note">A picture of how layered protection is meant to work, drawn from the schemes we documented. It is not a measurement of the protection gap, which we could not put a reliable number on.</p>
+      <noscript><ul class="hub-grid hub-grid--plain">${LS.map(l => `<li class="std"><b>${esc(l.name)}</b><span>${esc(l.text)} ${l.n} schemes documented, ${l.heat} with heat in their cover, ${l.paid} with a traced payment.</span></li>`).join("")}</ul></noscript>
+    </section>
+
+    <section class="container rf-sec" id="did-it-pay" aria-labelledby="pay-h">
+      <p class="eyebrow">Every scheme, one honest question</p><h2 class="hub-h" id="pay-h">Did it pay, and when?</h2>
+      <p class="hub-p">Open any scheme to see its trigger, the money in its own kind, how fast it moved, where the trigger and the harm could part ways, and who it reaches. <i>Never triggered</i> is a finding, not a failure.</p>
+      <div class="rf-filters" data-rf-filters>
+        <div role="group" aria-label="Layer"><span>Layer</span>${CHIP("layer", "all", "All", true)}${RF.LAYERS.map(l => CHIP("layer", l.id, esc(l.short))).join("")}</div>
+        <div role="group" aria-label="Did it pay?"><span>Did it pay?</span>${CHIP("paid", "all", "All", true)}${CHIP("paid", "paid", "Paid, traced")}${CHIP("paid", "activated", "Activated")}${CHIP("paid", "never", "Never triggered")}${CHIP("paid", "unknown", "Not known")}</div>
+        <div role="group" aria-label="Where"><span>Where</span>${CHIP("region", "all", "All", true)}${CHIP("region", "sa", "South Asia")}${CHIP("region", "sea", "Southeast Asia")}${CHIP("region", "elsewhere", "Elsewhere, for comparison")}</div>
+        <label class="rf-only"><input type="checkbox" data-rf-heat> Only schemes with heat in their cover</label>
+      </div>
+      <p class="rf-count" data-rf-count aria-live="polite">${sch.length} schemes</p>
+      <ul class="rf-cards" data-rf-cards>${sch.map(card).join("")}</ul>
+      <p class="rf-empty" data-rf-empty hidden>No scheme matches all of these. Try fewer filters.</p>
+    </section>
+
+    <section class="rf-band" id="triggers" aria-labelledby="trig-h"><div class="container rf-sec">
+      <p class="eyebrow">Kept apart, on purpose</p><h2 class="hub-h" id="trig-h">Three triggers, and two clocks</h2>
+      <p class="hub-p">A warning, a decision to act and a contract that pays are different things, set by different people for different reasons. After a payout trigger, two more clocks run: until money reaches an institution, and until it reaches a person. A fast payment to a treasury can still be a slow one for a family.</p>
+      ${ribbon}
+      <h3 class="rf-h3">Ways to measure heat for a trigger</h3>
+      <p class="hub-p">No single measure sees all of heat. Each one catches some harm and can miss another.</p>
+      <ul class="rf-fam">${FAM.map(t => `<li><details><summary><b>${esc(t.metric)}</b>${t.humid ? `<span>Humid heat: ${esc(t.humid)}</span>` : ""}</summary>${kv("What it does well", esc(t.good))}${kv("What it can miss", esc(t.weak))}${kv("Data in Asia", esc(t.asia))}${kv("Used in", esc(t.used))}</details></li>`).join("")}</ul>
+      <h3 class="rf-h3">How long the data takes</h3>
+      <ul class="rf-lat">${RF.data.map(x => `<li><b>${esc(x.n)}</b><span>${esc(x.latency)}</span>${x.caveat ? `<small>${esc(x.caveat)}</small>` : ""}</li>`).join("")}</ul>
+    </div></section>
+
+    <section class="container rf-sec" id="hard" aria-labelledby="hard-h">
+      <p class="eyebrow">Why heat is different</p><h2 class="hub-h" id="hard-h">Seven things that make heat hard to finance</h2>
+      <ol class="rf-hard">${RF.challenges.map((c, i) => `<li><span class="path-n">${i + 1}</span><div><h3>${esc(c.c)}</h3>${c.design ? `<p><b>What has been tried.</b> ${esc(c.design)}</p>` : ""}${c.gap ? `<p class="rf-muted"><b>Still open.</b> ${esc(c.gap)}</p>` : ""}</div></li>`).join("")}</ol>
+    </section>
+
+    <section class="container rf-sec" id="countries" aria-labelledby="co-h">
+      <p class="eyebrow">Place by place</p><h2 class="hub-h" id="co-h">Country by country</h2>
+      <p class="hub-p">The layers we found in each place, what we could not find, and ideas the researchers inferred. A gap describes what our search found, never a fault, and an idea is a possibility, not a recommendation.</p>
+      <div class="rf-co-tabs" role="tablist" aria-label="Choose a country" data-rf-cotabs>${CO.map((c, i) => `<button type="button" role="tab" aria-selected="${i ? "false" : "true"}" aria-controls="country-${coSlug(c)}" data-co-t="${coSlug(c)}">${esc(c)} <small>${RF.layersByCountry[c].length}</small></button>`).join("")}</div>
+      <div class="rf-co-panels">${CO.map(coPanel).join("")}</div>
+    </section>
+
+    <section class="container rf-sec" id="who" aria-labelledby="who-h">
+      <p class="eyebrow">Many hands</p><h2 class="hub-h" id="who-h">Who takes part</h2>
+      <p class="hub-p">${RF.actors.length} organisations appear in the research. Listing is not endorsement, partnership or ranking. <a href="/who-holds-it/">Who holds it up</a> shows who could permit, pay for, deliver and check each action.</p>
+      <div class="rf-sides">${who}</div>
+    </section>
+
+    <section class="container rf-sec" id="effect" aria-labelledby="eff-h">
+      <p class="eyebrow">What changed for people</p><h2 class="hub-h" id="eff-h">What the evidence says about effect</h2>
+      <p class="hub-p">Few of these arrangements have been studied for what they changed in people’s lives. Here is what has, each with how it was studied. Some come from outside Asia, or from other hazards, and are shown because they teach something about timing.</p>
+      <ul class="rf-eff">${RF.effects.map(e => `<li><span class="rf-evl rf-evl--${esc(e.status)}">${esc(EVL[e.status] || e.status)}</span><h3>${esc(e.n)}</h3><p class="rf-muted">${esc([e.place, e.date].filter(Boolean).join(" · "))}</p>${e.result ? `<p>${esc(e.result)}</p>` : ""}${e.limits ? `<p class="rf-muted"><b>Limits.</b> ${esc(e.limits)}</p>` : ""}${e.src ? `<p class="rf-src">${xl(e.src, "Source")}</p>` : ""}</li>`).join("")}</ul>
+    </section>
+
+    <section class="rf-band rf-band--sand" id="know" aria-labelledby="know-h"><div class="container rf-sec">
+      <p class="eyebrow">Known, inferred, uncertain</p><h2 class="hub-h" id="know-h">What we know, what we infer, and what we are unsure of</h2>
+      <div class="rf-kiu">${RF.narrative.map(x => `<article><h3>${esc(x.title)}</h3><p>${esc(x.text)}</p><dl><dt class="k">Known</dt><dd>${esc(x.known)}</dd><dt class="i">Inferred</dt><dd>${esc(x.inferred)}</dd><dt class="u">Uncertain</dt><dd>${esc(x.uncertain)}</dd></dl>${x.id === "gap" ? `<p class="rf-gap"><b>Our own check</b> We have not yet been able to open the cited table and confirm these regional figures ourselves, so they are shown as the research reported them, with its caveats. They cover all disasters, not heat.</p>` : ""}</article>`).join("")}</div>
+      <details class="rf-more rf-nv"><summary>What we could not verify, and left out (${RF.unverified.length})</summary><p class="hub-p">Things that were reported, claimed or likely, but that we could not confirm from a source we could open. They are not on this page as facts. If you can help confirm one, <a href="/corrections/">please tell us</a>.</p><ul>${RF.unverified.map(u => `<li><b>${esc(u.item)}</b>${u.why && u.why !== u.item ? `<span>${esc(u.why)}</span>` : ""}</li>`).join("")}</ul></details>
+    </div></section>
+
+    <section class="container rf-sec" id="data" aria-labelledby="data-h">
+      <p class="eyebrow">Open to everyone</p><h2 class="hub-h" id="data-h">The data, to download and reuse</h2>
+      <p class="hub-p">Everything on this page, free under CC BY 4.0. Money stays in its kind, the three triggers stay apart, and every source carries the result of our link check.</p>
+      <ul class="rf-dl"><li><a href="/${SLUG}/data/heat-risk-finance.json" download><b>Everything, as one file</b><span>heat-risk-finance.json</span></a></li>${FILES.map(([f, , t]) => `<li><a href="/${SLUG}/data/${f}" download><b>${esc(t)}</b><span>${f}</span></a></li>`).join("")}</ul>
+      <blockquote class="cite-box">Common Shade. <i>Paying when heat strikes: heat risk finance in South and Southeast Asia.</i> beattheheat.asia/${SLUG}/. Checked ${esc(new Date(RF.checked + "T00:00:00Z").toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }))}. CC BY 4.0.</blockquote>
+      <p class="rf-disc">${esc(RF.disclaimer)} Figures are as reported by their sources on the date checked; amounts are in the currency reported, with a US dollar figure only where the source gave one.</p>
+      <p class="hub-p">Something here wrong, out of date or unfair? We would be grateful to <a href="/corrections/">hear it</a>, and we will correct it in the open.</p>
+      <p class="hub-p"><a href="/finance/">Paying for protection</a> · <a href="/heat-economy/flows/">Follow the money</a> · <a href="/loops/#protection">The protection-gap loop</a> · <a href="/loops/#reactive">The reactive-spending loop</a> · <a href="/countries/">Countries</a></p>
+    </section>
+    <script>window.RF=${JSON.stringify(RFD).replace(/</g, "\\u003c")};</script><script src="/${SLUG}/rf.js?v=${V}" defer></script>`));
+}
+
 // ---- the search index: pages, places, cycles, glossary terms, heatwaves and organisations ----
 function searchIndex() {
   const out = [], seen = new Set();

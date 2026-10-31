@@ -96,31 +96,31 @@
   "changed": "2026-10-31"
  },
  "/countries/bangladesh/": {
-  "hash": "faf02f76a6c53bb8",
+  "hash": "65d515694d729e15",
   "changed": "2026-10-31"
  },
  "/countries/india/": {
-  "hash": "d28fd86a245f5c0e",
+  "hash": "88f17f58754b3f1e",
   "changed": "2026-10-31"
  },
  "/countries/indonesia/": {
-  "hash": "39e520d520bcfda6",
+  "hash": "342a7c519ad17e52",
   "changed": "2026-10-31"
  },
  "/countries/nepal/": {
-  "hash": "8b197b1bc4356189",
+  "hash": "06cd16973bbcb489",
   "changed": "2026-10-31"
  },
  "/countries/philippines/": {
-  "hash": "1f336197243de4a5",
+  "hash": "bd316878a4c15633",
   "changed": "2026-10-31"
  },
  "/countries/sri-lanka/": {
-  "hash": "714b20211adddef3",
+  "hash": "02e15d83300f0856",
   "changed": "2026-10-31"
  },
  "/countries/thailand/": {
-  "hash": "5b36c20d8ad9b4d4",
+  "hash": "e7d50f6d7ebf9797",
   "changed": "2026-10-31"
  },
  "/evidence-map/": {
@@ -132,12 +132,12 @@
   "changed": "2026-10-01"
  },
  "/finance/": {
-  "hash": "6a8348ea755eec4a",
-  "changed": "2026-10-01"
+  "hash": "e9e1e8d156d9ef55",
+  "changed": "2026-10-31"
  },
  "/fund/": {
-  "hash": "053853605ccbf16a",
-  "changed": "2026-10-01"
+  "hash": "3a748fecb67eab96",
+  "changed": "2026-10-31"
  },
  "/glossary/": {
   "hash": "6d1a1fbfd3200d9c",
@@ -160,8 +160,8 @@
   "changed": "2026-10-31"
  },
  "/heat-economy/flows/": {
-  "hash": "85c5adbc189dffca",
-  "changed": "2026-10-01"
+  "hash": "9176c40a9d04acbc",
+  "changed": "2026-10-31"
  },
  "/heat-economy/money/": {
   "hash": "4543b5290718195e",
@@ -192,7 +192,7 @@
   "changed": "2026-10-31"
  },
  "/loops/": {
-  "hash": "07b2bed0815a06fe",
+  "hash": "a1fd4d581b71948f",
   "changed": "2026-10-31"
  },
  "/news/": {
@@ -200,8 +200,8 @@
   "changed": "2026-10-01"
  },
  "/paths/": {
-  "hash": "f03dc67abf0c7e20",
-  "changed": "2026-10-01"
+  "hash": "47669c8de319b03f",
+  "changed": "2026-10-31"
  },
  "/paths/city/": {
   "hash": "0a1f474381e72de5",
@@ -224,12 +224,16 @@
   "changed": "2026-10-01"
  },
  "/paths/national/": {
-  "hash": "af2443e21c5d9ce0",
-  "changed": "2026-10-01"
+  "hash": "379ba510621de57d",
+  "changed": "2026-10-31"
  },
  "/paying-for-protection/": {
   "hash": "b7df088ee2a14cf4",
   "changed": "2026-10-01"
+ },
+ "/paying-when-heat-strikes/": {
+  "hash": "7d729c9c5a4a9953",
+  "changed": "2026-10-31"
  },
  "/plan/": {
   "hash": "8b536f29d7823989",
@@ -389,7 +393,7 @@
  },
  "/sources/": {
   "hash": "7b97a5afc17b239a",
-  "changed": "2026-10-01"
+  "changed": "2026-10-31"
  },
  "/the-web/": {
   "hash": "523a52d86c2869c4",
@@ -404,8 +408,8 @@
   "changed": "2026-10-01"
  },
  "/whats-new/": {
-  "hash": "1a643bb8dc8f72a1",
-  "changed": "2026-10-01"
+  "hash": "1d0f6855d68eadbe",
+  "changed": "2026-10-31"
  },
  "/who-holds-it/": {
   "hash": "f0f46ef81076c17d",

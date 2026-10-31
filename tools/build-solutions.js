@@ -284,7 +284,10 @@ function countryPage(s) {
   const cities = (d.cities || []).length ? `<section class="cty-s" id="cities"><h2>Cities</h2><div class="cty-cities">${d.cities.map(ci => `<article class="cty-city"><h3>${esc(ci.name)}</h3>${cityKeys(ci).map(k => { const h = val(ci[k], 1); return h ? `<p><b>${esc(pretty(k))}:</b> ${h}</p>` : ""; }).join("")}</article>`).join("")}</div></section>` : "";
   const progs = (d.programmes || []).map(p => `<li>${obj(p, 1)}</li>`).filter(x => x !== "<li></li>").join("");
   const actors = (d.actors || []).filter(a => live(a.url)).map(a => `<li><b>${ext(a.url, a.name)}</b> <span>${esc(a.does || "")}</span></li>`).join("");
-  const all = [...blocks, cities, progs ? `<section class="cty-s" id="programmes"><h2>Programmes</h2><ul class="sol-list">${progs}</ul></section>` : "",
+  const RFC = (() => { try { return require("./riskfin-data.js").layersByCountry[s.name] || []; } catch (e) { return []; } })();
+  const RFL = { social: "Social protection", retain: "Budgets and reserves", anticipatory: "Anticipatory action", contingent: "Contingent finance", transfer: "Insurance, pools and bonds" };
+  const rfSec = RFC.length ? `<section class="cty-s" id="paying-when-heat-strikes"><h2>Paying when heat strikes</h2><p>The layers of money we found for heat in ${esc(s.name)}, from the systems that reach people to risk shared with insurers: ${[...new Set(RFC.map(x => RFL[x.layer] || x.layer))].map(esc).join(", ")}. Each is shown with how it is released, how it reaches people, and what we could not find.</p><p><a href="/paying-when-heat-strikes/#country-${s.name.toLowerCase().replace(/[^a-z]+/g, "-")}">See ${esc(s.name)}, layer by layer <span aria-hidden="true">→</span></a></p></section>` : "";
+  const all = [...blocks, rfSec, cities, progs ? `<section class="cty-s" id="programmes"><h2>Programmes</h2><ul class="sol-list">${progs}</ul></section>` : "",
     actors ? `<section class="cty-s" id="actors"><h2>Who is working on it</h2><p class="sol-note">Listing does not imply partnership, endorsement or ranking.</p><ul class="cty-actors">${actors}</ul></section>` : "", kiu].filter(Boolean);
   const jump = all.map(b => { const m = b.match(/id="([^"]+)"><h2>(.*?)<\/h2>/); return m ? `<a href="#${m[1]}">${m[2]}</a>` : ""; }).filter(Boolean).join(" · ");
   const body = `
