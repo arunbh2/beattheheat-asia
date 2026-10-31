@@ -144,7 +144,7 @@ module.exports = [
     { type: "hook", q: "What could a *heat-resilient market* look like?", say: ["What could a heat-resilient market look like?"] },
     { type: "show", title: "Five things to look for", say: ["Shade over the stalls.", "A water point.", "A place to rest.", "A cooler roof, and a tree."],
       d: { kind: "flow", steps: [{ k: "Shade", text: "Over the stalls", at: 0, good: true }, { k: "Water", text: "A water point", at: 1, good: true }, { k: "Rest", text: "A place to rest", at: 2, good: true }, { k: "Roof", text: "A cooler roof", at: 3, good: true }, { k: "Tree", text: "Shade that grows", at: 3, good: true }] } },
-    { type: "show", title: "Each one depends on something", sub: "Who must act, what it takes to run, and what could stop it.", say: ["And each one depends on something:", "who must act, what it takes to run, and what could stop it."], d: { kind: "art", name: "shade", at: 0, top: 340, size: 580 } },
+    { type: "show", title: "Each one depends on something", sub: "Who acts, what it takes to run, and what could stop it.", say: ["And each one depends on something:", "who acts, what it takes to run, and what could stop it."], d: { kind: "art", name: "shade", at: 0, top: 340, size: 580 } },
     END("Pick a setting. Find what works there.") ] },
 
   { id: "sources", term: "Every claim, linked", page: "sources/index.html", label: "Sources and references", url: "beattheheat.asia/sources", scenes: [
@@ -208,8 +208,8 @@ module.exports = [
 
   { id: "eight-questions", term: "Eight questions every action answers", page: "practical-actions/index.html", place: "h2", label: "Practical actions", url: "beattheheat.asia/practical-actions", scenes: [
     { type: "hook", q: "Will it *actually work* here?", say: ["Will an action against heat actually work here?"] },
-    { type: "show", title: "Eight questions", say: ["Every action on this page answers eight questions:", "what to do, who it protects, where it suits, and who must act;", "what it takes to run, the evidence, what could stop it, and what it only works with."],
-      d: { kind: "grid", step: .25, items: ["What to do", "Who it protects", "Where it suits", "Who must act", "What it takes to run", "The evidence", "What could stop it", "What it only works with"].map((t, i) => ({ text: t, at: i < 4 ? 1 : 2 })) } },
+    { type: "show", title: "Eight questions", say: ["Every action on this page answers eight questions:", "what to do, who it protects, where it suits, and who acts;", "what it takes to run, the evidence, what could stop it, and what it only works with."],
+      d: { kind: "grid", step: .25, items: ["What to do", "Who it protects", "Where it suits", "Who acts", "What it takes to run", "The evidence", "What could stop it", "What it only works with"].map((t, i) => ({ text: t, at: i < 4 ? 1 : 2 })) } },
     { type: "statement", line: "The last one *matters most.*", sub: "Water points need water. Rest breaks need pay.", say: ["The last one matters most.", "Water points need water. Rest breaks need pay."] },
     END("34 actions, by setting.") ] },
 ];

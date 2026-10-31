@@ -1,5 +1,5 @@
 {
- "total": 31.35,
+ "total": 30.31,
  "scenes": [
   {
    "start": 0.0,
@@ -11,25 +11,25 @@
   },
   {
    "start": 5.0,
-   "dur": 14.29,
+   "dur": 13.51,
    "beats": [
     0.6,
-    3.64,
-    7.73
+    3.79,
+    7.66
    ],
-   "text": "Every action on this page answers eight questions: what to do, who it protects, where it suits, and who must act; what it takes to run, the evidence, what could stop it, and what it only works with."
+   "text": "Every action on this page answers eight questions: what to do, who it protects, where it suits, and who acts; what it takes to run, the evidence, what could stop it, and what it only works with."
   },
   {
-   "start": 19.29,
-   "dur": 7.06,
+   "start": 18.51,
+   "dur": 6.8,
    "beats": [
     0.6,
-    2.69
+    2.61
    ],
    "text": "The last one matters most. Water points need water. Rest breaks need pay."
   },
   {
-   "start": 26.35,
+   "start": 25.31,
    "dur": 5.0,
    "beats": [
     0.6

@@ -1,5 +1,5 @@
 {
- "total": 25.48,
+ "total": 25.09,
  "scenes": [
   {
    "start": 0.0,
@@ -11,26 +11,26 @@
   },
   {
    "start": 5.0,
-   "dur": 8.02,
+   "dur": 7.77,
    "beats": [
     0.6,
-    2.42,
-    3.78,
-    5.31
+    2.34,
+    3.62,
+    5.11
    ],
    "text": "Shade over the stalls. A water point. A place to rest. A cooler roof, and a tree."
   },
   {
-   "start": 13.02,
-   "dur": 7.46,
+   "start": 12.77,
+   "dur": 7.32,
    "beats": [
     0.6,
-    2.67
+    2.89
    ],
-   "text": "And each one depends on something: who must act, what it takes to run, and what could stop it."
+   "text": "And each one depends on something: who acts, what it takes to run, and what could stop it."
   },
   {
-   "start": 20.48,
+   "start": 20.09,
    "dur": 5.0,
    "beats": [
     0.6
