@@ -3,13 +3,21 @@
   "hash": "4559f59cb33f750f",
   "changed": "2026-10-01"
  },
+ "/a-city-under-strain/": {
+  "hash": "7e71ab8bf05e3d56",
+  "changed": "2026-10-01"
+ },
+ "/a-night-in-the-heat/": {
+  "hash": "d927a5b681ab6b06",
+  "changed": "2026-10-31"
+ },
  "/a-week-in-the-heat/": {
   "hash": "a5b568058583ff6b",
   "changed": "2026-10-01"
  },
  "/act/": {
-  "hash": "003b747d0e3438ab",
-  "changed": "2026-10-01"
+  "hash": "7bbac93515191502",
+  "changed": "2026-10-31"
  },
  "/actions/": {
   "hash": "99b50fff2498d38f",
@@ -128,8 +136,8 @@
   "changed": "2026-10-31"
  },
  "/evidence/": {
-  "hash": "d848050793b48ae0",
-  "changed": "2026-10-01"
+  "hash": "e8e20e4c461e7fc6",
+  "changed": "2026-10-31"
  },
  "/finance/": {
   "hash": "e9e1e8d156d9ef55",
@@ -141,7 +149,7 @@
  },
  "/glossary/": {
   "hash": "6d1a1fbfd3200d9c",
-  "changed": "2026-10-01"
+  "changed": "2026-10-31"
  },
  "/guide/": {
   "hash": "a8eb70deb31eeffe",
@@ -191,6 +199,10 @@
   "hash": "8e9c2566a71637dc",
   "changed": "2026-10-31"
  },
+ "/live-through-a-heatwave/": {
+  "hash": "eb8d7ab1a4ad8dca",
+  "changed": "2026-10-01"
+ },
  "/loops/": {
   "hash": "a1fd4d581b71948f",
   "changed": "2026-10-31"
@@ -200,12 +212,12 @@
   "changed": "2026-10-01"
  },
  "/paths/": {
-  "hash": "47669c8de319b03f",
+  "hash": "df19ea438bbf729f",
   "changed": "2026-10-31"
  },
  "/paths/city/": {
-  "hash": "0a1f474381e72de5",
-  "changed": "2026-10-01"
+  "hash": "439663720aba7665",
+  "changed": "2026-10-31"
  },
  "/paths/community/": {
   "hash": "ef482bcf1bd7e673",
@@ -220,8 +232,8 @@
   "changed": "2026-10-01"
  },
  "/paths/health/": {
-  "hash": "763f0c123035a067",
-  "changed": "2026-10-01"
+  "hash": "cfbd8e751002b8d1",
+  "changed": "2026-10-31"
  },
  "/paths/national/": {
   "hash": "379ba510621de57d",
@@ -232,7 +244,7 @@
   "changed": "2026-10-01"
  },
  "/paying-when-heat-strikes/": {
-  "hash": "96d5015583cca533",
+  "hash": "4cd399d35743f45e",
   "changed": "2026-10-31"
  },
  "/plan/": {
@@ -244,8 +256,8 @@
   "changed": "2026-10-31"
  },
  "/practical/": {
-  "hash": "ec935021905aee8f",
-  "changed": "2026-10-01"
+  "hash": "47268dae3179bd1c",
+  "changed": "2026-10-31"
  },
  "/print/": {
   "hash": "1c55826e055e941b",
@@ -408,7 +420,7 @@
   "changed": "2026-10-01"
  },
  "/whats-new/": {
-  "hash": "1d0f6855d68eadbe",
+  "hash": "88db622abfabfa2a",
   "changed": "2026-10-31"
  },
  "/who-holds-it/": {

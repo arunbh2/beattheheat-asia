@@ -1,0 +1,15 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "What happens when the night doesn’t cool?",
+  "To fall asleep, the body needs to cool down. | On hot nights, sleep comes later and ends sooner.",
+  "A study of forty-seven thousand people’s sleep wristbands, in sixty-eight countries, | found that hot nights cut sleep.",
+  "A bad night means a harder next day: | the body starts already tired, with no reserve for the heat.",
+  "Cool nights are part of protection."
+ ]
+}

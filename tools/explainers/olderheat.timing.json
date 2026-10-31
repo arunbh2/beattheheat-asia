@@ -1,0 +1,49 @@
+{
+ "total": 41.87,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Why is heat harder on older bodies?"
+  },
+  {
+   "start": 5.0,
+   "dur": 9.16,
+   "beats": [
+    0.6,
+    4.02,
+    6.06
+   ],
+   "text": "With age, thirst fades and the body sweats less, so it cools more slowly, and the heart works harder to shed heat."
+  },
+  {
+   "start": 14.16,
+   "dur": 14.58,
+   "beats": [
+    0.6,
+    8.83
+   ],
+   "text": "In Kolkata, older people in an informal settlement were four point three times more likely to face dangerous heat than older people in a nearby village, because their homes stayed hot at night."
+  },
+  {
+   "start": 28.74,
+   "dur": 8.13,
+   "beats": [
+    0.6,
+    3.52
+   ],
+   "text": "Heat is most dangerous at home, at night, where the walls hold the day\u2019s heat and no one is there to notice."
+  },
+  {
+   "start": 36.87,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "A cooler room, and someone who checks in."
+  }
+ ]
+}

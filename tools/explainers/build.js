@@ -7,7 +7,7 @@
 const fs = require("fs"), path = require("path");
 const { SCENES } = require("../shorts/art");
 // specs.js: the glossary set (media/glossary); site.js: films for pages across the site (media/explainers)
-const SPECS = [...require("./specs"), ...require("./site").map(f => ({ ...f, site: true }))];
+const SPECS = [...require("./specs"), ...require("./specs-care"), ...require("./site").map(f => ({ ...f, site: true }))];
 const CSS = fs.readFileSync(path.join(__dirname, "explainer.css"), "utf8");
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const rich = s => esc(s).replace(/\*(.+?)\*/g, "<em>$1</em>");   // *word* is highlighted in orange

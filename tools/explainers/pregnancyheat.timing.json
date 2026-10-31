@@ -1,0 +1,48 @@
+{
+ "total": 37.04,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "What does a heatwave mean for a pregnancy?"
+  },
+  {
+   "start": 5.0,
+   "dur": 7.66,
+   "beats": [
+    0.6,
+    3.98
+   ],
+   "text": "A pregnant body already runs warm and works harder. In heat, it has less room to cool down."
+  },
+  {
+   "start": 12.66,
+   "dur": 10.5,
+   "beats": [
+    0.6,
+    6.94
+   ],
+   "text": "Across many studies, each one degree rise raised the odds of a preterm birth by about five per cent. During a heatwave, by about sixteen per cent."
+  },
+  {
+   "start": 23.16,
+   "dur": 8.88,
+   "beats": [
+    0.6,
+    3.97
+   ],
+   "text": "Rest, water and shade are care, not comfort, especially for women who keep working or fetching water while pregnant."
+  },
+  {
+   "start": 32.04,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Cooler days for two."
+  }
+ ]
+}

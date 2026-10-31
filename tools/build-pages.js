@@ -10,7 +10,7 @@ const PATHS = NAV.PATHS;
 const esc = s => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const V = (fs.readFileSync(path.join(ROOT, "index.html"), "utf8").match(/styles\.css\?v=(\d+)/) || [, "1"])[1];
 const ctx = {}; vm.createContext(ctx);
-vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + ";this.D={GLOSSARY,LOOPS,LIVE_CITIES,CITY_PROFILES,HEATWAVES,ORGANISATIONS,ORG_ROLES,SYSTEMS,EVIDENCE,LEVERS,PACKAGES,INSTITUTIONS,ACTION_SETTINGS,ACTION_HORIZONS,EVIDENCE_STATUS,LOOP_GROUPS,CITY_HAP,LIVE_NOTE}", ctx);
+vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + ";this.D={GLOSSARY,LOOPS,LIVE_CITIES,CITY_PROFILES,HEATWAVES,ORGANISATIONS,ORG_ROLES,SYSTEMS,EVIDENCE,LEVERS,PACKAGES,INSTITUTIONS,ACTION_SETTINGS,ACTION_HORIZONS,EVIDENCE_STATUS,LOOP_GROUPS,CITY_HAP,LIVE_NOTE,AT_RISK,CONSEQUENCES,LOOP_STAKES}", ctx);
 const D = ctx.D;
 // published knowledge-base records (data/kb), so each month's verified research reaches the pages that draw it
 const KB_DIR = path.join(ROOT, "data", "kb");
@@ -471,7 +471,7 @@ fs.writeFileSync(path.join(ROOT, "404.html"), page("", "Page not found", "This p
         <path d="M60 148 Q160 128 260 148 L260 156 Q160 138 60 156 Z" fill="#F26430" stroke="#F26430"/><path d="M70 172 Q160 156 250 172 L250 180 Q160 166 70 180 Z" fill="#B8401A" stroke="#B8401A" opacity=".85"/><path d="M80 194 Q160 180 240 194 L240 202 Q160 190 80 202 Z" fill="#1F7A70" stroke="#1F7A70"/>
         <path d="M10 236H310" opacity=".4"/><circle cx="120" cy="208" r="6"/><path d="M120 214v12M120 226l-6 10M120 226l6 10M120 218l-9 6"/><circle cx="200" cy="208" r="6"/><path d="M200 214v12M200 226l-6 10M200 226l6 10M200 218l9 6"/><circle cx="160" cy="214" r="4"/><path d="M160 218v9M160 227l-4 9M160 227l4 9"/></g></svg>
     </div></header>
-    <nav class="container rf-jump" aria-label="On this page"><a href="#layers">The layers</a><a href="#did-it-pay">Did it pay, and when?</a><a href="#triggers">Three triggers</a><a href="#countries">Country by country</a><a href="#who">Who takes part</a><a href="#know">What we know</a><a href="#data">The data</a></nav>
+    <nav class="container rf-jump" aria-label="On this page"><a href="#layers">The layers</a><a href="#did-it-pay">Did it pay, and when?</a><a href="#triggers">Three triggers</a><a href="#beyond-wages">Beyond wages</a><a href="#countries">Country by country</a><a href="#who">Who takes part</a><a href="#know">What we know</a><a href="#data">The data</a></nav>
 
     <section class="container rf-sec rf-people" aria-label="Two cycles this section is about">
       <article class="rf-person"><p class="rf-person__k">The <a href="/loops/#protection">${esc(loopName("protection").replace(/^The /, "").toLowerCase())}</a></p><p class="rf-person__who">${esc(P1.who)}</p><p>${esc(P1.story)}</p></article>
@@ -526,6 +526,12 @@ fs.writeFileSync(path.join(ROOT, "404.html"), page("", "Page not found", "This p
       <ol class="rf-hard">${RF.challenges.map((c, i) => `<li><span class="path-n">${i + 1}</span><div><h3>${esc(c.c)}</h3>${c.design ? `<p><b>What has been tried.</b> ${esc(c.design)}</p>` : ""}${c.gap ? `<p class="rf-muted"><b>Still open.</b> ${esc(c.gap)}</p>` : ""}</div></li>`).join("")}</ol>
     </section>
 
+    <section class="container rf-sec" id="beyond-wages" aria-labelledby="bw-h">
+      <p class="eyebrow">Beyond wages</p><h2 class="hub-h" id="bw-h">Clinics, grids, water and care</h2>
+      <p class="hub-p">Much of what this research found pays people for lost income, or pays governments after a declared event. Heat also lands on things no payout reaches directly: a clinic that loses its cooling, a pump that stops in a power cut, an older woman alone in a room that will not cool. In what we reviewed, we found little risk finance designed for those. Inferred: that protection mostly sits in public budgets, utility planning, building rules and health services, the lower layers of the canopy above.</p>
+      <ul class="lv-links"><li><a href="/a-city-under-strain/">A city under strain: power, water and clinics</a></li><li><a href="/a-night-in-the-heat/">A night in the heat: care at home</a></li><li><a href="/who-holds-it/">Who holds it up</a></li></ul>
+    </section>
+
     <section class="container rf-sec" id="countries" aria-labelledby="co-h">
       <p class="eyebrow">Place by place</p><h2 class="hub-h" id="co-h">Country by country</h2>
       <p class="hub-p">The layers we found in each place, what we could not find, and ideas the researchers inferred. A gap describes what our search found, never a fault, and an idea is a possibility, not a recommendation.</p>
@@ -562,6 +568,9 @@ fs.writeFileSync(path.join(ROOT, "404.html"), page("", "Page not found", "This p
     </section>
     <script>window.RF=${JSON.stringify(RFD).replace(/</g, "\\u003c")};</script><script src="/${SLUG}/rf.js?v=${V}" defer></script>`));
 }
+
+// ---- Live through a heatwave: three simulations of equal weight (tools/build-live.js) ----
+require("./build-live.js")({ page, write, hero, esc, V, D, ROOT });
 
 // ---- the search index: pages, places, cycles, glossary terms, heatwaves and organisations ----
 function searchIndex() {

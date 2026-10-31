@@ -1,0 +1,14 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "Can heat weigh on the mind?",
+  "Yes. On hotter days, studies find more anxiety and distress, | more visits for mental health care, | and harder days for people living with mental illness.",
+  "So heat plans can include the mind: | people in mental health care, and those who support them, need cool places too.",
+  "A cooler mind needs a cooler place."
+ ]
+}

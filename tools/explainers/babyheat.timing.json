@@ -1,0 +1,48 @@
+{
+ "total": 37.03,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "A baby can\u2019t tell you it\u2019s too hot."
+  },
+  {
+   "start": 5.0,
+   "dur": 7.52,
+   "beats": [
+    0.6,
+    4.08
+   ],
+   "text": "Small bodies heat up and lose water faster than adults\u2019, and they depend on someone else to notice."
+  },
+  {
+   "start": 12.52,
+   "dur": 11.04,
+   "beats": [
+    0.6,
+    6.01
+   ],
+   "text": "In India, each infant faced an average of seven point seven heatwave days a year, forty-seven per cent more than in the 1990s."
+  },
+  {
+   "start": 23.56,
+   "dur": 8.47,
+   "beats": [
+    0.6,
+    4.49
+   ],
+   "text": "Shade, fluids, and a cool place to sleep, and a clinic that knows heat is on its way."
+  },
+  {
+   "start": 32.03,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "The smallest people need the closest watch."
+  }
+ ]
+}

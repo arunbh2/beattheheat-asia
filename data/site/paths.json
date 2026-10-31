@@ -1,68 +1,560 @@
 {
  "about": "Guided paths through the site, one per kind of reader. Optional and light: a reader who ignores them sees the site as it is. Each stop answers one question the reader asks, in one line, with at most two sections to read first and one thing to do. Every path ends at Join. Read by tools/site-nav.js and tools/build-pages.js; the monthly update may refresh the lines, under the same tone checks.",
- "end": { "url": "/join/", "q": "How could you take part?", "why": "Common Shade is a collaborative: shade is something we hold up together." },
+ "end": {
+  "url": "/join/",
+  "q": "How could you take part?",
+  "why": "Common Shade is a collaborative: shade is something we hold up together."
+ },
  "paths": [
-  { "id": "funder", "label": "Funders and philanthropy", "short": "Funders", "card": "Where support could matter most, what works, and who could carry it to people.",
-    "join": "Bring a question, a portfolio or a place.",
-    "stops": [
-     { "url": "/cities/", "q": "Where is the need?", "why": "Twelve cities and what heat is doing in each, with the plans already in place.", "read": [["#dhaka", "Dhaka"], ["#delhi", "Delhi"]], "do": ["/countries/", "Compare the country snapshots"] },
-     { "url": "/solutions/", "q": "What works, and how sure are we?", "why": "131 ways to protect people, each with its evidence, cost and limits.", "read": [["#packages", "Combinations that work together"], ["#blind-spots", "Blind spots"]], "do": ["/lancet-countdown-2026/#for-money", "Read the Lancet Countdown for funders"] },
-     { "url": "/evidence-map/", "q": "What is still unknown?", "why": "Twelve questions the evidence has not yet answered, each sized for one well-designed study, and where evidence looks stronger than the funding we traced.", "read": [["#questions", "Questions nobody has answered yet"], ["#stronger", "Stronger evidence, little funding traced"]], "do": ["/lancet-countdown-2026/#blind-spots", "See the gaps in the Lancet's evidence"] },
-     { "url": "/heat-economy/flows/", "q": "Where is money flowing, and where is it not?", "why": "Fifty pieces of traced funding, followed from who gave them to the cycles they could help break, with the role each plays.", "read": [["#roles", "The role money plays"], ["#untraced", "Cycles we have not yet traced"]], "do": ["/heat-economy/money/", "Meet the funders and investors"] },
-     { "url": "/who-holds-it/", "q": "Who could carry it to people?", "why": "For each action, who could permit it, pay for it, deliver it and check it, with the organisations already at work and the parts where we found no one yet.", "read": [], "do": ["/heat-network/", "See all 330 organisations"] },
-     { "url": "/build/", "q": "How could a few grants work together?", "why": "Choose Sketch a portfolio: a few grants across places and roles, and see which cycles it reaches, what it leans on and what would make it last.", "read": [], "do": ["/heat-economy/conditions/", "Twenty-four questions to ask before a grant starts"] }
-    ] },
-  { "id": "city", "label": "City and local government", "short": "City teams", "card": "Your city’s heat, the actions that fit, and a plan your team can run.",
-    "join": "Share what your city is trying, and what you need.",
-    "stops": [
-     { "url": "/cities/", "q": "What is heat doing in our city?", "why": "Twelve city profiles: the kind of heat, the plan in place and the cycles at work.", "read": [], "do": ["/countries/", "See your country’s snapshot"] },
-     { "url": "/practical/", "q": "What can we do this season?", "why": "Actions by setting, each with who acts and what keeps it working.", "read": [["#market", "A heat-resilient market"]], "do": ["/cooling-options/", "Choose cooling for each setting"] },
-     { "url": "/worked-plans/", "q": "How have other places done it?", "why": "Plans from Ahmedabad, Thane, Tamil Nadu, Singapore and Dhaka.", "read": [["#ahmedabad", "Ahmedabad"], ["#thane", "Thane, ward by ward"]], "do": ["/heatwaves/", "See what past heatwaves changed"] },
-     { "url": "/build/", "q": "Which actions fit together here?", "why": "Choose your place, add actions, and see what they could help interrupt, what each depends on and who acts.", "read": [], "do": ["/plan/", "Turn it into a six-step plan"] },
-     { "url": "/plan/", "q": "How do we turn this into a plan?", "why": "Six steps, from who you protect to the alerts that switch actions on.", "read": [], "do": ["/together/", "Agree who does what"] },
-     { "url": "/finance/", "q": "How will we pay for it?", "why": "What needs paying for, when money is needed, and what has been tried.", "read": [], "do": ["/heat-economy/flows/", "Follow the money"] }
-    ] },
-  { "id": "health", "label": "Health workers and services", "short": "Health", "card": "Who is most at risk, what the evidence says, and how clinics prepare.",
-    "join": "Share what your clinic or service sees each hot season.",
-    "stops": [
-     { "url": "/who-is-at-risk/", "q": "Who is most at risk?", "why": "Ten groups, what exposes them and what holds them back.", "read": [["#older", "Older people"], ["#mothers", "Pregnant women and mothers"]], "do": ["/glossary/", "Check the heat-illness terms"] },
-     { "url": "/lancet-countdown-2026/", "q": "What does the evidence say?", "why": "The decade’s health evidence on heat, read for South and Southeast Asia.", "read": [["#for-health", "What it means for health workers"]], "do": ["/lancet-countdown-2026/#references", "Find the references"] },
-     { "url": "/practical-actions/", "q": "How do clinics prepare?", "why": "Practical actions for health facilities, with what keeps them working.", "read": [["#clinics", "Health facilities"]], "do": ["/plan/", "Plan your season"] },
-     { "url": "/plan/", "q": "How do we plan the season?", "why": "A workbook that checks your plan against WHO’s core elements.", "read": [], "do": ["/worked-plans/", "Learn from worked plans"] }
-    ] },
-  { "id": "employer", "label": "Employers and businesses", "short": "Employers", "card": "What heat does to work and pay, and what protects people and the business.",
-    "join": "Share what has worked at your sites.",
-    "stops": [
-     { "url": "/a-week-in-the-heat/", "q": "What does heat do to a working week?", "why": "Follow one worker’s money and protection through a heatwave.", "read": [], "do": ["/who-is-at-risk/#workers", "See who is most exposed at work"] },
-     { "url": "/practical-actions/", "q": "What protects people at work?", "why": "Water, shade, rest and cooler hours, with what each depends on.", "read": [["#work", "Outdoor and hot workplaces"]], "do": ["/worked-plans/#singapore", "See Singapore’s rules for outdoor work"] },
-     { "url": "/cooling-options/", "q": "What could we build?", "why": "Cooling for workplaces and rest points, with what keeps it working.", "read": [["#work", "Work"]], "do": ["/solutions/", "Compare solutions"] },
-     { "url": "/heat-economy/businesses/", "q": "Who offers it?", "why": "Businesses offering protection, with what to ask before buying.", "read": [], "do": ["/heat-economy/conditions/", "Ask the right questions first"] }
-    ] },
-  { "id": "community", "label": "Worker and community organisations", "short": "Communities", "card": "Who is exposed, what protection needs, and how to make it work together.",
-    "join": "Tell us what your members face, and what helps.",
-    "stops": [
-     { "url": "/who-is-at-risk/", "q": "Who is exposed, and why?", "why": "Ten groups, the heat they face and the barriers to staying safe.", "read": [["#workers", "Outdoor workers"], ["#settlements", "Informal settlements"]], "do": ["/a-week-in-the-heat/", "Follow a worker’s week"] },
-     { "url": "/practical/", "q": "What helps, close to home?", "why": "Practical steps for homes, markets and neighbourhoods.", "read": [["#market", "A heat-resilient market"]], "do": ["/cooling-options/", "See cooling options"] },
-     { "url": "/together/", "q": "How do we make it work together?", "why": "A rest point needs a site, water, someone to open it and money: four owners.", "read": [], "do": ["/heat-network/", "Find who is already at work"] },
-     { "url": "/heat-network/", "q": "Who could we work with?", "why": "Organisations already at work, by the part they play.", "read": [["#ground", "Working on the ground"]], "do": ["/plan/", "Plan with partners"] }
-    ] },
-  { "id": "national", "label": "National government and regulators", "short": "National", "card": "Country snapshots, worked plans, the evidence and how protection is paid for.",
-    "join": "Share a plan, a rule or a lesson worth spreading.",
-    "stops": [
-     { "url": "/countries/", "q": "Where does each country stand?", "why": "Plans, warnings, rules at work, cooling and money, country by country.", "read": [], "do": ["/cities/", "See the cities"] },
-     { "url": "/lancet-countdown-2026/", "q": "What does the evidence ask of governments?", "why": "The report’s targets, and what they mean for national action.", "read": [["#for-national", "What it means for national governments"], ["#targets", "The targets"]], "do": ["/lancet-countdown-2026/#blind-spots", "See the gaps in the evidence"] },
-     { "url": "/worked-plans/", "q": "What has worked elsewhere?", "why": "Worked plans, from a city to a whole state.", "read": [["#tamilnadu", "Tamil Nadu’s state-wide network"]], "do": ["/heatwaves/", "See what heatwaves changed"] },
-     { "url": "/finance/", "q": "How is protection paid for?", "why": "Triggers, timing and what has been tried across Asia.", "read": [], "do": ["/heat-economy/", "See the heat economy"] },
-     { "url": "/paying-when-heat-strikes/", "q": "Which layer could carry heat?", "why": "Insurance, pools, credit, forecast funds and social protection for heat: what exists, whether it paid, and when.", "read": [], "do": ["/paying-when-heat-strikes/#countries", "See the layers country by country"] }
-    ] },
-  { "id": "research", "label": "Journalists and researchers", "short": "Research", "card": "How heat is reported, the evidence behind every claim, and the open questions.",
-    "join": "Share a study, a dataset or a correction.",
-    "stops": [
-     { "url": "/how-heat-is-reported/", "q": "How is heat reported?", "why": "What coverage shows across ten languages, and the questions it asks less often.", "read": [["#dots", "Reporting that connects the dots"]], "do": ["/news/", "See this fortnight’s headlines"] },
-     { "url": "/lancet-countdown-2026/", "q": "What does the evidence say?", "why": "Eight numbers, read for the region, with every reference.", "read": [["#blind-spots", "Gaps in the evidence"]], "do": ["/glossary/", "Check a term"] },
-     { "url": "/the-web/", "q": "How does one harm lead to another?", "why": "Every consequence of heat and every link between them, each with its evidence.", "read": [], "do": ["/loops/", "Read the vicious cycles"] },
-     { "url": "/evidence-map/", "q": "How sure are we, and what is still unknown?", "why": "Every study graded by kind, cycle by cycle, and twelve questions nobody has answered yet.", "read": [["#questions", "Questions nobody has answered yet"]], "do": ["/lancet-countdown-2026/#blind-spots", "See the Lancet's evidence gaps"] },
-     { "url": "/sources/", "q": "Where does every claim come from?", "why": "Every source the site cites, with where it is used.", "read": [], "do": ["/cite/", "Cite and reuse the data"] }
-    ] }
+  {
+   "id": "funder",
+   "label": "Funders and philanthropy",
+   "short": "Funders",
+   "card": "Where support could matter most, what works, and who could carry it to people.",
+   "join": "Bring a question, a portfolio or a place.",
+   "stops": [
+    {
+     "url": "/cities/",
+     "q": "Where is the need?",
+     "why": "Twelve cities and what heat is doing in each, with the plans already in place.",
+     "read": [
+      [
+       "#dhaka",
+       "Dhaka"
+      ],
+      [
+       "#delhi",
+       "Delhi"
+      ]
+     ],
+     "do": [
+      "/countries/",
+      "Compare the country snapshots"
+     ]
+    },
+    {
+     "url": "/solutions/",
+     "q": "What works, and how sure are we?",
+     "why": "131 ways to protect people, each with its evidence, cost and limits.",
+     "read": [
+      [
+       "#packages",
+       "Combinations that work together"
+      ],
+      [
+       "#blind-spots",
+       "Blind spots"
+      ]
+     ],
+     "do": [
+      "/lancet-countdown-2026/#for-money",
+      "Read the Lancet Countdown for funders"
+     ]
+    },
+    {
+     "url": "/evidence-map/",
+     "q": "What is still unknown?",
+     "why": "Twelve questions the evidence has not yet answered, each sized for one well-designed study, and where evidence looks stronger than the funding we traced.",
+     "read": [
+      [
+       "#questions",
+       "Questions nobody has answered yet"
+      ],
+      [
+       "#stronger",
+       "Stronger evidence, little funding traced"
+      ]
+     ],
+     "do": [
+      "/lancet-countdown-2026/#blind-spots",
+      "See the gaps in the Lancet's evidence"
+     ]
+    },
+    {
+     "url": "/heat-economy/flows/",
+     "q": "Where is money flowing, and where is it not?",
+     "why": "Fifty pieces of traced funding, followed from who gave them to the cycles they could help break, with the role each plays.",
+     "read": [
+      [
+       "#roles",
+       "The role money plays"
+      ],
+      [
+       "#untraced",
+       "Cycles we have not yet traced"
+      ]
+     ],
+     "do": [
+      "/heat-economy/money/",
+      "Meet the funders and investors"
+     ]
+    },
+    {
+     "url": "/who-holds-it/",
+     "q": "Who could carry it to people?",
+     "why": "For each action, who could permit it, pay for it, deliver it and check it, with the organisations already at work and the parts where we found no one yet.",
+     "read": [],
+     "do": [
+      "/heat-network/",
+      "See all 330 organisations"
+     ]
+    },
+    {
+     "url": "/build/",
+     "q": "How could a few grants work together?",
+     "why": "Choose Sketch a portfolio: a few grants across places and roles, and see which cycles it reaches, what it leans on and what would make it last.",
+     "read": [],
+     "do": [
+      "/heat-economy/conditions/",
+      "Twenty-four questions to ask before a grant starts"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "city",
+   "label": "City and local government",
+   "short": "City teams",
+   "card": "Your city’s heat, the actions that fit, and a plan your team can run.",
+   "join": "Share what your city is trying, and what you need.",
+   "stops": [
+    {
+     "url": "/cities/",
+     "q": "What is heat doing in our city?",
+     "why": "Twelve city profiles: the kind of heat, the plan in place and the cycles at work.",
+     "read": [],
+     "do": [
+      "/countries/",
+      "See your country’s snapshot"
+     ]
+    },
+    {
+     "url": "/a-city-under-strain/",
+     "q": "What happens to our power, water and clinics?",
+     "why": "Stress-test a city’s systems through a five-day heatwave, and see which protection helps most.",
+     "read": [],
+     "do": [
+      "/who-holds-it/",
+      "See who holds each part up"
+     ]
+    },
+    {
+     "url": "/practical/",
+     "q": "What can we do this season?",
+     "why": "Actions by setting, each with who acts and what keeps it working.",
+     "read": [
+      [
+       "#market",
+       "A heat-resilient market"
+      ]
+     ],
+     "do": [
+      "/cooling-options/",
+      "Choose cooling for each setting"
+     ]
+    },
+    {
+     "url": "/worked-plans/",
+     "q": "How have other places done it?",
+     "why": "Plans from Ahmedabad, Thane, Tamil Nadu, Singapore and Dhaka.",
+     "read": [
+      [
+       "#ahmedabad",
+       "Ahmedabad"
+      ],
+      [
+       "#thane",
+       "Thane, ward by ward"
+      ]
+     ],
+     "do": [
+      "/heatwaves/",
+      "See what past heatwaves changed"
+     ]
+    },
+    {
+     "url": "/build/",
+     "q": "Which actions fit together here?",
+     "why": "Choose your place, add actions, and see what they could help interrupt, what each depends on and who acts.",
+     "read": [],
+     "do": [
+      "/plan/",
+      "Turn it into a six-step plan"
+     ]
+    },
+    {
+     "url": "/plan/",
+     "q": "How do we turn this into a plan?",
+     "why": "Six steps, from who you protect to the alerts that switch actions on.",
+     "read": [],
+     "do": [
+      "/together/",
+      "Agree who does what"
+     ]
+    },
+    {
+     "url": "/finance/",
+     "q": "How will we pay for it?",
+     "why": "What needs paying for, when money is needed, and what has been tried.",
+     "read": [],
+     "do": [
+      "/heat-economy/flows/",
+      "Follow the money"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "health",
+   "label": "Health workers and services",
+   "short": "Health",
+   "card": "Who is most at risk, what the evidence says, and how clinics prepare.",
+   "join": "Share what your clinic or service sees each hot season.",
+   "stops": [
+    {
+     "url": "/who-is-at-risk/",
+     "q": "Who is most at risk?",
+     "why": "Ten groups, what exposes them and what holds them back.",
+     "read": [
+      [
+       "#older",
+       "Older people"
+      ],
+      [
+       "#mothers",
+       "Pregnant women and mothers"
+      ]
+     ],
+     "do": [
+      "/glossary/",
+      "Check the heat-illness terms"
+     ]
+    },
+    {
+     "url": "/a-night-in-the-heat/",
+     "q": "What does a hot night do to the people we care for?",
+     "why": "Stay with an older woman, a pregnant woman or a family with a baby through a hot night and a clinic visit.",
+     "read": [],
+     "do": [
+      "/practical/#practical-clinics",
+      "See what clinics can do"
+     ]
+    },
+    {
+     "url": "/lancet-countdown-2026/",
+     "q": "What does the evidence say?",
+     "why": "The decade’s health evidence on heat, read for South and Southeast Asia.",
+     "read": [
+      [
+       "#for-health",
+       "What it means for health workers"
+      ]
+     ],
+     "do": [
+      "/lancet-countdown-2026/#references",
+      "Find the references"
+     ]
+    },
+    {
+     "url": "/practical-actions/",
+     "q": "How do clinics prepare?",
+     "why": "Practical actions for health facilities, with what keeps them working.",
+     "read": [
+      [
+       "#clinics",
+       "Health facilities"
+      ]
+     ],
+     "do": [
+      "/plan/",
+      "Plan your season"
+     ]
+    },
+    {
+     "url": "/plan/",
+     "q": "How do we plan the season?",
+     "why": "A workbook that checks your plan against WHO’s core elements.",
+     "read": [],
+     "do": [
+      "/worked-plans/",
+      "Learn from worked plans"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "employer",
+   "label": "Employers and businesses",
+   "short": "Employers",
+   "card": "What heat does to work and pay, and what protects people and the business.",
+   "join": "Share what has worked at your sites.",
+   "stops": [
+    {
+     "url": "/a-week-in-the-heat/",
+     "q": "What does heat do to a working week?",
+     "why": "Follow one worker’s money and protection through a heatwave.",
+     "read": [],
+     "do": [
+      "/who-is-at-risk/#workers",
+      "See who is most exposed at work"
+     ]
+    },
+    {
+     "url": "/practical-actions/",
+     "q": "What protects people at work?",
+     "why": "Water, shade, rest and cooler hours, with what each depends on.",
+     "read": [
+      [
+       "#work",
+       "Outdoor and hot workplaces"
+      ]
+     ],
+     "do": [
+      "/worked-plans/#singapore",
+      "See Singapore’s rules for outdoor work"
+     ]
+    },
+    {
+     "url": "/cooling-options/",
+     "q": "What could we build?",
+     "why": "Cooling for workplaces and rest points, with what keeps it working.",
+     "read": [
+      [
+       "#work",
+       "Work"
+      ]
+     ],
+     "do": [
+      "/solutions/",
+      "Compare solutions"
+     ]
+    },
+    {
+     "url": "/heat-economy/businesses/",
+     "q": "Who offers it?",
+     "why": "Businesses offering protection, with what to ask before buying.",
+     "read": [],
+     "do": [
+      "/heat-economy/conditions/",
+      "Ask the right questions first"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "community",
+   "label": "Worker and community organisations",
+   "short": "Communities",
+   "card": "Who is exposed, what protection needs, and how to make it work together.",
+   "join": "Tell us what your members face, and what helps.",
+   "stops": [
+    {
+     "url": "/who-is-at-risk/",
+     "q": "Who is exposed, and why?",
+     "why": "Ten groups, the heat they face and the barriers to staying safe.",
+     "read": [
+      [
+       "#workers",
+       "Outdoor workers"
+      ],
+      [
+       "#settlements",
+       "Informal settlements"
+      ]
+     ],
+     "do": [
+      "/a-week-in-the-heat/",
+      "Follow a worker’s week"
+     ]
+    },
+    {
+     "url": "/practical/",
+     "q": "What helps, close to home?",
+     "why": "Practical steps for homes, markets and neighbourhoods.",
+     "read": [
+      [
+       "#market",
+       "A heat-resilient market"
+      ]
+     ],
+     "do": [
+      "/cooling-options/",
+      "See cooling options"
+     ]
+    },
+    {
+     "url": "/together/",
+     "q": "How do we make it work together?",
+     "why": "A rest point needs a site, water, someone to open it and money: four owners.",
+     "read": [],
+     "do": [
+      "/heat-network/",
+      "Find who is already at work"
+     ]
+    },
+    {
+     "url": "/heat-network/",
+     "q": "Who could we work with?",
+     "why": "Organisations already at work, by the part they play.",
+     "read": [
+      [
+       "#ground",
+       "Working on the ground"
+      ]
+     ],
+     "do": [
+      "/plan/",
+      "Plan with partners"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "national",
+   "label": "National government and regulators",
+   "short": "National",
+   "card": "Country snapshots, worked plans, the evidence and how protection is paid for.",
+   "join": "Share a plan, a rule or a lesson worth spreading.",
+   "stops": [
+    {
+     "url": "/countries/",
+     "q": "Where does each country stand?",
+     "why": "Plans, warnings, rules at work, cooling and money, country by country.",
+     "read": [],
+     "do": [
+      "/cities/",
+      "See the cities"
+     ]
+    },
+    {
+     "url": "/lancet-countdown-2026/",
+     "q": "What does the evidence ask of governments?",
+     "why": "The report’s targets, and what they mean for national action.",
+     "read": [
+      [
+       "#for-national",
+       "What it means for national governments"
+      ],
+      [
+       "#targets",
+       "The targets"
+      ]
+     ],
+     "do": [
+      "/lancet-countdown-2026/#blind-spots",
+      "See the gaps in the evidence"
+     ]
+    },
+    {
+     "url": "/worked-plans/",
+     "q": "What has worked elsewhere?",
+     "why": "Worked plans, from a city to a whole state.",
+     "read": [
+      [
+       "#tamilnadu",
+       "Tamil Nadu’s state-wide network"
+      ]
+     ],
+     "do": [
+      "/heatwaves/",
+      "See what heatwaves changed"
+     ]
+    },
+    {
+     "url": "/finance/",
+     "q": "How is protection paid for?",
+     "why": "Triggers, timing and what has been tried across Asia.",
+     "read": [],
+     "do": [
+      "/heat-economy/",
+      "See the heat economy"
+     ]
+    },
+    {
+     "url": "/paying-when-heat-strikes/",
+     "q": "Which layer could carry heat?",
+     "why": "Insurance, pools, credit, forecast funds and social protection for heat: what exists, whether it paid, and when.",
+     "read": [],
+     "do": [
+      "/paying-when-heat-strikes/#countries",
+      "See the layers country by country"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "research",
+   "label": "Journalists and researchers",
+   "short": "Research",
+   "card": "How heat is reported, the evidence behind every claim, and the open questions.",
+   "join": "Share a study, a dataset or a correction.",
+   "stops": [
+    {
+     "url": "/how-heat-is-reported/",
+     "q": "How is heat reported?",
+     "why": "What coverage shows across ten languages, and the questions it asks less often.",
+     "read": [
+      [
+       "#dots",
+       "Reporting that connects the dots"
+      ]
+     ],
+     "do": [
+      "/news/",
+      "See this fortnight’s headlines"
+     ]
+    },
+    {
+     "url": "/lancet-countdown-2026/",
+     "q": "What does the evidence say?",
+     "why": "Eight numbers, read for the region, with every reference.",
+     "read": [
+      [
+       "#blind-spots",
+       "Gaps in the evidence"
+      ]
+     ],
+     "do": [
+      "/glossary/",
+      "Check a term"
+     ]
+    },
+    {
+     "url": "/the-web/",
+     "q": "How does one harm lead to another?",
+     "why": "Every consequence of heat and every link between them, each with its evidence.",
+     "read": [],
+     "do": [
+      "/loops/",
+      "Read the vicious cycles"
+     ]
+    },
+    {
+     "url": "/evidence-map/",
+     "q": "How sure are we, and what is still unknown?",
+     "why": "Every study graded by kind, cycle by cycle, and twelve questions nobody has answered yet.",
+     "read": [
+      [
+       "#questions",
+       "Questions nobody has answered yet"
+      ]
+     ],
+     "do": [
+      "/lancet-countdown-2026/#blind-spots",
+      "See the Lancet's evidence gaps"
+     ]
+    },
+    {
+     "url": "/sources/",
+     "q": "Where does every claim come from?",
+     "why": "Every source the site cites, with where it is used.",
+     "read": [],
+     "do": [
+      "/cite/",
+      "Cite and reuse the data"
+     ]
+    }
+   ]
+  }
  ]
 }

@@ -1,0 +1,15 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "Why are some streets so much hotter than others?",
+  "Trees and parks cluster in better-off neighbourhoods, | which can pay for them, and for the upkeep that keeps them alive.",
+  "In Jakarta, dense low-income neighbourhoods act as heat islands, | while green space is concentrated in wealthier areas.",
+  "Start the shade where the heat is worst, | and plant it in a way that doesn’t push people out.",
+  "Shade for every street."
+ ]
+}
