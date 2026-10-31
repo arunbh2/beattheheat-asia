@@ -188,7 +188,7 @@ const body = `
 
         <section class="cty-s" id="dots" aria-labelledby="dots-h">
           <h2 id="dots-h">Reporting that connects the dots</h2>
-          <p class="he-intro">Six pieces that follow protection furthest: who pays, who decides and who checks. They are offered as examples to learn from, not as a ranking, and reporting an allegation is not the same as proving it.</p>
+          <p class="he-intro">Six pieces that follow protection furthest: who pays, who decides and who checks. They are offered as examples to learn from, not as a ranking, and a report is not the same as a finding.</p>
           <div class="lc-readers">
             ${P_DOTS.map(([id, h]) => { const a = P_BY[id], e = P_EX[id]; return `<article class="lc-reader md-dot"><h3>${esc(h)}</h3><p>${esc(e.what_it_does_well)}</p><dl class="md-who"><dt>Who pays</dt><dd>${esc(e.who_pays)}</dd><dt>Who decides</dt><dd>${esc(e.who_decides)}</dd><dt>Who checks</dt><dd>${esc(e.who_checks)}</dd></dl><p class="md-src">${plink(a)}<span>${esc(pmeta(a))}</span></p><p class="lc-k lc-k--act">On the map</p><p class="he-breaks">${e.loop_ids.filter(l => LOOPN[l]).map(l => `<a href="/loops/#${l}">${esc(LOOPN[l])}</a>`).join(" · ")}</p></article>`; }).join("\n            ")}
           </div>

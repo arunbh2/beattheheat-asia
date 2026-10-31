@@ -400,7 +400,7 @@ fs.writeFileSync(path.join(ROOT, "404.html"), page("", "Page not found", "This p
         ${s.basis ? kv("Where the trigger and the harm could part ways", esc(s.basis)) : ""}
         ${s.fallback ? kv("If the trigger misses", esc(s.fallback)) : ""}
         ${incl ? `<h4 class="rf-h4">Who it reaches</h4><ul class="rf-incl">${incl}</ul>` : ""}
-        ${s.protection ? kv("Protection for people covered", esc(s.protection)) : ""}
+        ${s.protection ? kv("What people covered can see and ask", esc(s.protection)) : ""}
         ${s.evidence.length ? `<ul class="rf-ev">${s.evidence.map(e => `<li><span class="rf-evl rf-evl--${esc(e.status)}">${esc(EVL[e.status] || e.status)}</span> ${esc(e.text)}</li>`).join("")}</ul>` : ""}
         ${s.providers.length ? kv("Who is involved", s.providers.map(p => esc(p.n)).join(", ")) : ""}
         ${s.sources.length ? `<p class="rf-srcs"><b>Sources</b> ${s.sources.map(x => xl(x)).join(" · ")}</p>` : ""}
