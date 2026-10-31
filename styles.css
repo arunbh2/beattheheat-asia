@@ -3337,3 +3337,53 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 .md-who dd { margin: 0; }
 @media (max-width: 480px) { .md-who { grid-template-columns: 1fr; } .md-who dd { margin-bottom: 6px; } }
 .md-plist { margin-top: 8px; }
+
+/* ---------- hub pages, paths, State of the field, approach and cite (tools/build-pages.js) ---------- */
+.cs-pg { background: var(--canvas); }
+.pg-hero { padding: clamp(40px, 7vw, 88px) 0 clamp(24px, 4vw, 40px); background: radial-gradient(ellipse 70% 90% at 85% 0%, rgba(242,100,48,.12), transparent 70%); }
+.pg-h1 { font-family: var(--font-display); font-weight: 400; text-transform: uppercase; letter-spacing: .01em; line-height: .98; font-size: clamp(2.6rem, 6.4vw, 5rem); margin: 10px 0 16px; max-width: 16ch; }
+.pg-lede { font-size: clamp(1.05rem, 1.6vw, 1.25rem); line-height: 1.55; color: var(--grey-700, #39424D); max-width: 62ch; margin: 0; }
+.hub { padding-bottom: 32px; }
+.hub-h { font-family: var(--font-display); font-weight: 400; text-transform: uppercase; letter-spacing: .02em; font-size: clamp(1.5rem, 2.6vw, 2rem); margin: 44px 0 14px; }
+.hub-p { max-width: 70ch; line-height: 1.6; color: var(--grey-700, #39424D); }
+.hub-p a, .path-read a, .sof-links a { font-weight: 700; color: var(--ink); text-decoration-color: var(--orange); text-underline-offset: 3px; }
+.hub-lead { display: grid; gap: 10px; padding: clamp(24px, 4vw, 36px); border-radius: 22px; background: var(--ink); color: var(--canvas); text-decoration: none; position: relative; overflow: hidden; max-width: 760px; }
+.hub-lead::before { content: ""; position: absolute; right: -60px; top: -80px; width: 280px; height: 280px; border-radius: 50%; background: radial-gradient(circle, rgba(242,100,48,.4), transparent 70%); }
+.hub-lead .eyebrow { color: #F6A27C; margin: 0; }
+.hub-lead b { font-family: var(--font-display); font-weight: 400; font-size: clamp(1.8rem, 3.6vw, 2.6rem); text-transform: uppercase; line-height: 1; }
+.hub-lead span { color: rgba(250,247,242,.85); max-width: 52ch; }
+.hub-go { font-weight: 700; color: #F6A27C; }
+.hub-lead:hover .hub-go { text-decoration: underline; }
+.hub-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr)); gap: 14px; }
+.hub-card { display: flex; flex-direction: column; gap: 6px; height: 100%; padding: 20px 22px; border-radius: 16px; background: #fff; border: 1px solid var(--line); color: var(--ink); text-decoration: none; transition: border-color .15s, transform .15s; }
+.hub-card:hover { border-color: var(--ink); transform: translateY(-2px); }
+.hub-card b { font-size: 1.08rem; } .hub-card span { color: var(--grey-700, #39424D); font-size: .94rem; line-height: 1.45; }
+.hub-card small { margin-top: auto; padding-top: 8px; font-size: .78rem; color: var(--ember, #B8401A); font-weight: 700; }
+.hub-grid--quiet .hub-card { background: transparent; }
+.hub-grid--plain { list-style: none; }
+.std { display: flex; flex-direction: column; gap: 6px; padding: 20px 22px; border-radius: 16px; background: #fff; border: 1px solid var(--line); }
+.std b { font-size: 1.04rem; } .std span { color: var(--grey-700, #39424D); font-size: .94rem; line-height: 1.5; }
+.hub-paths { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: 12px; }
+.hub-paths a { display: flex; flex-direction: column; gap: 6px; padding: 18px 20px; border-radius: 16px; border: 1.5px solid var(--line); background: #fff; color: var(--ink); text-decoration: none; border-left: 5px solid var(--orange); }
+.hub-paths a:hover { border-color: var(--ink); border-left-color: var(--orange); }
+.hub-paths b { font-size: 1.04rem; } .hub-paths span { color: var(--grey-700, #39424D); font-size: .92rem; } .hub-paths small { color: var(--grey-500); font-weight: 700; font-size: .78rem; }
+.hub-paths--big a { padding: 24px; }
+.hub-go--btn { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 0 22px; border-radius: 999px; background: var(--ink); color: var(--canvas); border: 0; font: 700 1rem var(--font-body, inherit); text-decoration: none; cursor: pointer; }
+.hub-go--quiet { background: #fff; color: var(--ink); border: 1.5px solid var(--ink); }
+.path-start { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; margin: 8px 0 24px; color: var(--grey-700, #39424D); }
+.path-list, .idea-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; max-width: 860px; }
+.path-stop, .idea-list li { display: grid; grid-template-columns: 48px 1fr; gap: 16px; padding: 20px 0; border-bottom: 1px solid var(--line); }
+.path-n { display: grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; background: var(--sand-50, #F2E7D9); font-weight: 800; }
+.path-stop h2, .idea-list h3 { margin: 0 0 6px; font-size: 1.2rem; line-height: 1.3; }
+.path-stop h2 a { color: var(--ink); text-decoration-color: var(--orange); text-underline-offset: 4px; }
+.path-stop p, .idea-list p { margin: 0 0 6px; line-height: 1.55; color: var(--grey-700, #39424D); }
+.path-stop--end .path-n { background: var(--green, #17703A); color: #fff; }
+.sof { padding: clamp(22px, 3vw, 32px); border-radius: 22px; background: #fff; border: 1px solid var(--line); margin: 0 0 24px; }
+.sof-h { font-family: var(--font-display); font-weight: 400; text-transform: uppercase; font-size: clamp(1.6rem, 3vw, 2.3rem); line-height: 1.05; margin: 6px 0 18px; }
+.sof-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 14px; }
+.sof-card { padding: 18px 20px; border-radius: 14px; background: var(--canvas); }
+.sof-k { margin: 0 0 6px; font-size: .7rem; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; color: var(--ember, #B8401A); }
+.sof-card h3 { margin: 0 0 6px; font-size: 1.05rem; } .sof-card p { margin: 0 0 6px; line-height: 1.5; }
+.sof-empty { padding: 28px; border-radius: 22px; border: 1.5px dashed var(--line); background: #fff; }
+.sof-log { line-height: 1.6; max-width: 80ch; }
+.cite-box { margin: 0 0 16px; padding: 18px 22px; border-left: 4px solid var(--orange); background: #fff; border-radius: 0 14px 14px 0; font-size: 1.02rem; line-height: 1.5; max-width: 760px; }
