@@ -135,7 +135,7 @@ async function main() {
   }
   for (const s of sources.filter(s => !s.ok)) console.log(`::warning title=Heat news feed::${s.name} could not be reached (${s.error}); the other source was used.`);
   const next = build(results.flatMap(r => r.items), prev, sources);
-  fs.mkdirSync(path.dirname(OUT), { recursive: true }); fs.writeFileSync(OUT, JSON.stringify(next, null, 1) + "\n");
+  fs.mkdirSync(path.dirname(OUT), { recursive: true }); fs.writeFileSync(OUT, JSON.stringify(next, null, 1).replace(/\u2014/g, "-") + "\n"); // the site uses a plain hyphen, never an em dash
   console.log(`Wrote ${next.items.length} headlines from the last ${KEEP_DAYS} days.`);
 }
 

@@ -6295,7 +6295,7 @@
   },
   {
    "id": "bd-oaa-candidate",
-   "n": "Bangladesh Old Age Allowance — existing system, no verified heat top-up",
+   "n": "Bangladesh Old Age Allowance - existing system, no verified heat top-up",
    "inst": "cash-transfer-delivery-adaptation",
    "layer": "social",
    "level": "macro",
@@ -7065,7 +7065,7 @@
  "instruments": [
   {
    "id": "parametric_heat_micro",
-   "n": "Parametric heat insurance — people",
+   "n": "Parametric heat insurance - people",
    "def": "An insurer pays an agreed benefit when a specified heat index crosses the policy threshold, without assessing each person's actual income loss.",
    "layer": "transfer",
    "level": "micro",
@@ -7086,7 +7086,7 @@
   },
   {
    "id": "parametric_heat_meso",
-   "n": "Parametric heat insurance — employers and organisations",
+   "n": "Parametric heat insurance - employers and organisations",
    "def": "A business or intermediary buys heat-triggered cover for its own costs or a specified group.",
    "layer": "transfer",
    "level": "meso",
@@ -7107,7 +7107,7 @@
   },
   {
    "id": "parametric_heat_macro",
-   "n": "Parametric heat insurance — sovereign design",
+   "n": "Parametric heat insurance - sovereign design",
    "def": "A government transfers a defined heat-related fiscal risk using an agreed index.",
    "layer": "transfer",
    "level": "macro",
@@ -8074,7 +8074,7 @@
    "module": 6
   },
   {
-   "metric": "WBGT — measured",
+   "metric": "WBGT - measured",
    "good": "Local natural wet-bulb, globe and dry-bulb sensors integrate humidity, wind and radiation.",
    "weak": "Sensor siting, calibration, maintenance and averaging matter; workload/clothing/individual response remain outside index.",
    "humid": "Captures humid heat and radiant conditions; not a universal personal safety threshold.",
@@ -8083,7 +8083,7 @@
    "module": 6
   },
   {
-   "metric": "WBGT — modelled",
+   "metric": "WBGT - modelled",
    "good": "Enables spatial/historical estimates without a globe sensor at every location.",
    "weak": "Dependent on meteorological inputs, radiation/wind assumptions and validation; a simple temperature–humidity proxy is not direct measurement.",
    "humid": "Potentially captures humid/radiant heat if full method/inputs support it.",
@@ -8756,7 +8756,7 @@
    {
     "layer": "social",
     "holder": "Department of Social Services / Ministry of Social Welfare",
-    "inst": "Bangladesh Old Age Allowance — existing system, no verified heat top-up",
+    "inst": "Bangladesh Old Age Allowance - existing system, no verified heat top-up",
     "heat": "unclear",
     "trigger": "Administrative or clinical eligibility; not a weather-index payout; No automatic numerical heat payout threshold verified",
     "speed": "No verified heat-specific release deadline",

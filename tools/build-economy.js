@@ -281,7 +281,7 @@ const money = shell("money", "The heat economy · Funding and support", "Who fun
           <tbody>${DEALS.map(dealRow).join("")}</tbody></table></div></section>`);
 
 // ================= 4. IDEAS =================
-// "G3:gef / G4:nature-for-cooling — text": link the funders (G3) and programmes (G4) it names
+// "G3:gef / G4:nature-for-cooling - text": link the funders (G3) and programmes (G4) it names
 const fitNames = x => { const m = /^((?:G\d:[\w.-]+\s*(?:\/\s*)?)+)/.exec(x); if (!m) return [];
   return m[1].split("/").map(t => t.trim()).filter(Boolean).map(t => { const [g, id] = t.split(":"); const i = g === "G3" && INV.find(v => v.id === id), a = g === "G4" && PROG.find(v => v.id === id);
     return i ? `<a href="/heat-economy/money/#inv-${esc(id)}">${esc(i.name)}</a>` : a ? `<a href="/heat-economy/money/#prog-${esc(id)}">${esc(a.name)}</a>` : ""; }).filter(Boolean); };

@@ -18,9 +18,10 @@ for (const f of pages) {
   for (const s of text.split(/(?<=[.?!;])\s+/)) {
     const m = s.match(hold);
     if (m && !voice.allow.some(a => s.includes(a))) found.push(`${f}: "${m[1]}" in: ${s.trim().slice(0, 160)}`);
+    if (s.includes("\u2014")) found.push(`${f}: an em dash (the site uses a plain hyphen), in: ${s.trim().slice(0, 160)}`);
     const q = suspicion && s.match(suspicion);
     if (q) found.push(`${f}: "${q[1]}" suggests wrongdoing, in: ${s.trim().slice(0, 160)}`);
   }
 }
 if (found.length) { console.error(`voice check: ${found.length} instructing phrases\n` + found.join("\n")); process.exit(1); }
-console.log(`voice check: ${pages.length} pages, no instructing voice and no words that suggest wrongdoing`);
+console.log(`voice check: ${pages.length} pages, no instructing voice and no words that suggest wrongdoing, no em dashes`);

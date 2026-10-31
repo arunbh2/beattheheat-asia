@@ -868,7 +868,7 @@
     },
     {
       "id": "wbgt-measured",
-      "metric": "WBGT — measured",
+      "metric": "WBGT - measured",
       "units": "°C composite, not interchangeable with air °C",
       "strengths": "Local natural wet-bulb, globe and dry-bulb sensors integrate humidity, wind and radiation.",
       "weaknesses": "Sensor siting, calibration, maintenance and averaging matter; workload/clothing/individual response remain outside index.",
@@ -910,7 +910,7 @@
     },
     {
       "id": "wbgt-modelled",
-      "metric": "WBGT — modelled",
+      "metric": "WBGT - modelled",
       "units": "°C estimate; named algorithm required",
       "strengths": "Enables spatial/historical estimates without a globe sensor at every location.",
       "weaknesses": "Dependent on meteorological inputs, radiation/wind assumptions and validation; a simple temperature–humidity proxy is not direct measurement.",
@@ -1828,7 +1828,7 @@
     },
     {
       "id": "in-public-spending",
-      "domain": "Public spending — evidence boundary",
+      "domain": "Public spending - evidence boundary",
       "place": "Tamil Nadu, India",
       "date": "FY2025–26 budget document",
       "design": "Official budget highlights",
@@ -1921,7 +1921,7 @@
     },
     {
       "id": "bd-estimated-productivity-cost",
-      "scheme": "not applicable — economic-loss estimate",
+      "scheme": "not applicable - economic-loss estimate",
       "kind": "economic_loss",
       "stage": "modelled estimate; not a financial transaction",
       "amount": "1330000000–1780000000",
@@ -2253,7 +2253,7 @@
       "id": "wbgt-model",
       "url": "https://pubmed.ncbi.nlm.nih.gov/18668404/",
       "label": "measured",
-      "date": "2008 — background",
+      "date": "2008 - background",
       "review_depth": "Author abstract only",
       "access_note": "Older US-depot validation; not an Asian performance guarantee",
       "last_checked": "2026-10-31"

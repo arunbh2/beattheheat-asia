@@ -78,7 +78,7 @@ const SYSTEMS = [
 /* ---------- 2. CONSEQUENCES ---------- */
 // sys: which system it belongs to. Each one is linked to its system automatically.
 // labelAt: "above" (optional) puts a label above its dot where a neighbouring dot would cut through it.
-// sections inside: Nature and ecosystems · Food and agriculture · Water · Energy · Cities and infrastructure · Health · Work and economy · Education · Society and security · Governance and finance · ---------- 3. LINKS BETWEEN CONSEQUENCES ---------- · [from, to, why]  — add "loop" as a 4th item for a link that closes a vicious cycle (drawn red). · Links from each system to its own consequences, and from extreme heat to each system, are drawn automatically.
+// sections inside: Nature and ecosystems · Food and agriculture · Water · Energy · Cities and infrastructure · Health · Work and economy · Education · Society and security · Governance and finance · ---------- 3. LINKS BETWEEN CONSEQUENCES ---------- · [from, to, why]  - add "loop" as a 4th item for a link that closes a vicious cycle (drawn red). · Links from each system to its own consequences, and from extreme heat to each system, are drawn automatically.
 const CONSEQUENCES = [
   {
     "id": "droughts",
@@ -1256,7 +1256,7 @@ const CONSEQUENCES = [
 ];
 
 /* ---------- 3. LINKS BETWEEN CONSEQUENCES ---------- */
-// [from, to, why]  — add "loop" as a 4th item for a link that closes a vicious cycle (drawn red).
+// [from, to, why]  - add "loop" as a 4th item for a link that closes a vicious cycle (drawn red).
 // Links from each system to its own consequences, and from extreme heat to each system, are drawn automatically.
 // sections inside: nature · food · water · energy · cities · health · work · education · society · governance and finance · added: glacial lakes, tankers, migrant work abroad, camps · ---------- 4. VICIOUS CYCLES ---------- · path: the steps in order; the last step leads back to the first. · evidence: "established" (well established) or "emerging" (each link is evidenced; the full cycle less so).
 const LINKS = [

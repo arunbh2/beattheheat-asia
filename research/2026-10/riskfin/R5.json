@@ -974,7 +974,7 @@
     },
     {
       "id": "bd-oaa-candidate",
-      "name": "Bangladesh Old Age Allowance — existing system, no verified heat top-up",
+      "name": "Bangladesh Old Age Allowance - existing system, no verified heat top-up",
       "instrument": "cash-transfer-delivery-adaptation",
       "level": "macro",
       "layer": "social",
@@ -2761,7 +2761,7 @@
       "country": "Bangladesh",
       "layer": "social",
       "holder": "Department of Social Services / Ministry of Social Welfare",
-      "instrument": "Bangladesh Old Age Allowance — existing system, no verified heat top-up",
+      "instrument": "Bangladesh Old Age Allowance - existing system, no verified heat top-up",
       "size": {
         "amount": "not verified",
         "currency": "not verified",

@@ -51,7 +51,7 @@ async function openAlex(from) {
   items = items.filter(x => x.title);
   if (!items.length) { console.log("::warning::no research found; feeds/research.json left as it was"); return; }
   fs.writeFileSync(OUT, JSON.stringify({ updated: new Date().toISOString(), days: DAYS, source,
-    items: items.map(({ abstract, ...x }) => x) }, null, 1) + "\n");
+    items: items.map(({ abstract, ...x }) => x) }, null, 1).replace(/\u2014/g, "-") + "\n"); // plain hyphens, never em dashes
   console.log(`research: ${items.length} items from ${source} written`);
   // the digest for editors: abstracts stay in this log, not in the repository
   console.log("\n===== RESEARCH DIGEST =====");
