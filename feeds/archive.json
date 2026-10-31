@@ -2,6 +2,13 @@
  "note": "Every item that has appeared on /news/. Built by tools/archive-news.js.",
  "news": [
   {
+   "title": "Afternoon rains, high heat index forecast for ‘Undas’ in Mindanao",
+   "url": "https://newsinfo.inquirer.net/2333512/afternoon-rains-high-heat-index-forecast-for-undas-in-mindanao",
+   "via": "Inquirer",
+   "date": "2026-10-31T11:47:25Z",
+   "place": "Philippines"
+  },
+  {
    "title": "India among top countries with highest heatwave exposure for infants, older adults: Report",
    "url": "https://www.thehindu.com/sci-tech/energy-and-environment/india-among-top-countries-with-highest-heatwave-exposure-for-infants-older-adults-report/article71634194.ece",
    "via": "The Hindu",
@@ -1000,5 +1007,5 @@
    "preprint": false
   }
  ],
- "updated": "2026-10-30T22:30:37.644Z"
+ "updated": "2026-10-31T12:49:51.211Z"
 }

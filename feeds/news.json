@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-31T05:58:15.533Z",
+ "updated": "2026-10-31T12:49:49.815Z",
  "keepDays": 14,
  "sources": [
   {
    "name": "regional news outlets",
    "ok": true,
-   "found": 502
+   "found": 500
   },
   {
    "name": "GDELT Project",
@@ -16,6 +16,14 @@
  ],
  "query": "(heatwave OR \"heat wave\" OR \"extreme heat\" OR \"heat stress\" OR heatstroke OR \"heat index\") (India OR Bangladesh OR Nepal OR \"Sri Lanka\" OR Pakistan OR Bhutan OR Maldives OR Cambodia OR Indonesia OR Philippines OR Singapore OR Thailand OR Vietnam OR Malaysia OR Myanmar OR Laos) sourcelang:english",
  "items": [
+  {
+   "title": "Afternoon rains, high heat index forecast for ‘Undas’ in Mindanao",
+   "url": "https://newsinfo.inquirer.net/2333512/afternoon-rains-high-heat-index-forecast-for-undas-in-mindanao",
+   "domain": "newsinfo.inquirer.net",
+   "date": "2026-10-31T11:47:25Z",
+   "place": "Philippines",
+   "via": "Inquirer"
+  },
   {
    "title": "India among top countries with highest heatwave exposure for infants, older adults: Report",
    "url": "https://www.thehindu.com/sci-tech/energy-and-environment/india-among-top-countries-with-highest-heatwave-exposure-for-infants-older-adults-report/article71634194.ece",
