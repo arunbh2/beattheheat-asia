@@ -10,7 +10,7 @@ const PATHS = NAV.PATHS;
 const esc = s => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const V = (fs.readFileSync(path.join(ROOT, "index.html"), "utf8").match(/styles\.css\?v=(\d+)/) || [, "1"])[1];
 const ctx = {}; vm.createContext(ctx);
-vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + ";this.D={GLOSSARY,LOOPS,LIVE_CITIES,CITY_PROFILES,HEATWAVES,ORGANISATIONS,ORG_ROLES,SYSTEMS,EVIDENCE,LEVERS,PACKAGES,INSTITUTIONS,ACTION_SETTINGS,ACTION_HORIZONS,EVIDENCE_STATUS,LOOP_GROUPS}", ctx);
+vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + ";this.D={GLOSSARY,LOOPS,LIVE_CITIES,CITY_PROFILES,HEATWAVES,ORGANISATIONS,ORG_ROLES,SYSTEMS,EVIDENCE,LEVERS,PACKAGES,INSTITUTIONS,ACTION_SETTINGS,ACTION_HORIZONS,EVIDENCE_STATUS,LOOP_GROUPS,CITY_HAP,LIVE_NOTE}", ctx);
 const D = ctx.D;
 const MONTH = new Date().toLocaleDateString("en-GB", { month: "long", year: "numeric" });
 
@@ -249,6 +249,49 @@ write("approach", page("approach", "How Common Shade sees heat", "The ideas behi
       <p class="hub-p"><a href="/practical/">Practical actions</a> · <a href="/who-holds-it/">Who holds it up</a> · <a href="/together/">Make it work together</a> · <a href="/plan/">Plan a response</a></p>
     </section>
     <script>window.BP=${JSON.stringify(DATA).replace(/</g, "\\u003c")};</script><script src="/build/bp.js?v=${V}" defer></script>`));
+}
+
+// ---- Atlas: where and when heat has changed what places do ----
+{
+  // approximate centres for each heatwave on the drawn map, and how wide an area it covered (map units)
+  const HWPOS = { odisha1998: [20.5, 85.0, 3], ap2003: [16.5, 80.0, 3], ahmedabad2010: [23.0, 72.6, 2], southasia2015: [24.5, 74.0, 7], sea2016: [15.5, 101.5, 6],
+    southasia2022: [28.0, 73.5, 7], asia2023: [20.0, 95.0, 9], asia2024: [18.0, 92.0, 12], india2024: [27.0, 78.5, 5], southasia2026: [27.0, 73.0, 7] };
+  const MS = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "milestones.json"), "utf8")).milestones;
+  const HW = D.HEATWAVES.filter(h => HWPOS[h.id]).map(h => ({ id: h.id, y: h.year, when: h.when, place: h.place, t: h.title, toll: h.toll, what: h.what, changed: h.changed,
+    src: h.sources && h.sources[0] ? [h.sources[0].label, h.sources[0].url] : null, lat: HWPOS[h.id][0], lon: HWPOS[h.id][1], r: HWPOS[h.id][2] }));
+  const missing = D.HEATWAVES.filter(h => !HWPOS[h.id]).map(h => h.id);
+  if (missing.length) throw new Error("atlas: no map position for heatwave " + missing.join(", "));
+  const CITIES = D.LIVE_CITIES.map(c => { const p = D.CITY_PROFILES.find(x => x.id === c.id) || { hap: {} }; return { id: c.id, n: c.name, c: c.country, lat: c.lat, lon: c.lon, st: p.hap.status, tx: p.hap.text, warn: c.warn ? [c.warn.label, c.warn.url] : null }; });
+  const ATL = { hw: HW, ms: MS, cities: CITIES, hap: D.CITY_HAP, note: D.LIVE_NOTE, y0: 1998, y1: Math.max(...HW.map(h => h.y), ...MS.map(m => m.year)) };
+  write("atlas", page("atlas", "Atlas of Asia's heat", "Where, and when, heat has changed what places do: ten heatwaves since 1998 and the plans, rules and roles that followed, on a drawn map of South and Southeast Asia.",
+    `${hero("Understand heat", "Atlas of Asia’s heat", "Where, and when, heat has changed what places do. Drag the timeline, or press play, to watch heatwaves arrive and the plans that came after.")}
+    <section class="container hub atl" data-atl>
+      <div class="atl-layers" role="group" aria-label="Show on the map">
+        <label><input type="checkbox" data-layer="hw" checked> <i class="atl-k atl-k--hw"></i>Heatwaves</label>
+        <label><input type="checkbox" data-layer="ms" checked> <i class="atl-k atl-k--ms"></i>Plans, rules and roles</label>
+        <label><input type="checkbox" data-layer="city"> <i class="atl-k atl-k--city"></i>City heat plans today</label>
+        <label><input type="checkbox" data-layer="live"> <i class="atl-k atl-k--live"></i>Heat right now</label>
+      </div>
+      <div class="atl-grid">
+        <div class="atl-mapwrap"><div class="atl-map" data-atl-map><img src="/images/asia-map.svg" alt="" width="1000" height="721" class="atl-base"></div>
+          <p class="atl-year" aria-live="polite"><b data-atl-year></b><span data-atl-line></span></p></div>
+        <aside class="atl-side" data-atl-side aria-live="polite"></aside>
+      </div>
+      <div class="atl-time">
+        <button type="button" class="atl-play" data-atl-play aria-label="Play the years">Play</button>
+        <div class="atl-track"><input type="range" min="${ATL.y0}" max="${ATL.y1}" step="1" value="${ATL.y1}" data-atl-range aria-label="Year"><div class="atl-ticks" data-atl-ticks aria-hidden="true"></div></div>
+      </div>
+      <noscript><p class="hub-p">The Atlas needs JavaScript. <a href="/heatwaves/">Heatwaves that shaped Asia</a> and <a href="/worked-plans/">Worked plans</a> tell the same story as text.</p></noscript>
+      <h2 class="hub-h">How to read this</h2>
+      <ul class="hub-grid hub-grid--plain">
+        <li class="std"><b>Approximate places</b><span>Heatwaves are drawn as areas around where they were worst; the map has no borders and is not a political map.</span></li>
+        <li class="std"><b>A milestone is a step, not a score</b><span>Each marks something done, with its source. It says nothing about how well it worked, or about places not shown.</span></li>
+        <li class="std"><b>Heat right now is an estimate</b><span>${esc(D.LIVE_NOTE)}</span></li>
+        <li class="std"><b>Missing a step?</b><span>Plans and rules are added each month. If one is missing, <a href="/corrections/">please tell us</a>.</span></li>
+      </ul>
+      <p class="hub-p"><a href="/heatwaves/">Heatwaves that shaped Asia</a> · <a href="/worked-plans/">Worked plans</a> · <a href="/cities/">Cities</a> · <a href="/countries/">Countries</a></p>
+    </section>
+    <script>window.ATL=${JSON.stringify(ATL).replace(/</g, "\\u003c")};</script><script src="/atlas/atlas.js?v=${V}" defer></script>`));
 }
 
 // ---- Corrections: data/site/corrections.json plus any knowledge-base record that carries a correction note ----

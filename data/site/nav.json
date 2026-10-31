@@ -9,7 +9,8 @@
      ["/who-is-at-risk/", "Who heat hits hardest", "Same heatwave, different barriers", 1],
      ["/cities/", "Cities", "Heat, plans and cycles in twelve cities", 1],
      ["/countries/", "Countries", "Seven national snapshots: plans, rules and money", 1],
-     ["/heatwaves/", "Heatwaves that shaped Asia", "Ten heatwaves, 1998 to 2026, and what changed after", 1],
+     ["/atlas/", "Atlas of Asia’s heat", "Heatwaves since 1998 and the plans that followed, on a map", 1],
+     ["/heatwaves/", "Heatwaves that shaped Asia", "Ten heatwaves, 1998 to 2026, and what changed after", 2],
      ["/#day", "A day in a heatwave", "Eight hours, seven places across Asia", 1],
      ["/the-web/", "The web of heat", "Every consequence, system by system, as text", 2],
      ["/loops/", "Vicious cycles", "Each cycle, its evidence and what breaks it, as text", 2],
@@ -62,6 +63,6 @@
  "footer_extra": [["/guide/", "How to use this site"], ["/paths/", "Paths by role"], ["/join/", "Help build Common Shade"], ["/cite/", "Cite and reuse"], ["/approach/", "How we check facts"], ["/corrections/", "Corrections"], ["/llms-full.txt", "Everything as one text file"]],
  "names": {
   "/heat-economy/businesses/": "Businesses", "/heat-economy/money/": "Funders and funding", "/heat-economy/opportunities/": "Ideas", "/heat-economy/conditions/": "Questions to ask", "/heat-economy/flows/": "Follow the money",
-  "/understand/": "Understand heat", "/act/": "Act", "/fund/": "Fund and build", "/evidence/": "News and evidence", "/paths/": "Paths by role", "/corrections/": "Corrections", "/evidence-map/": "Evidence map", "/who-holds-it/": "Who holds it up", "/build/": "Build protection"
+  "/understand/": "Understand heat", "/act/": "Act", "/fund/": "Fund and build", "/evidence/": "News and evidence", "/paths/": "Paths by role", "/corrections/": "Corrections", "/evidence-map/": "Evidence map", "/who-holds-it/": "Who holds it up", "/build/": "Build protection", "/atlas/": "Atlas"
  }
 }
