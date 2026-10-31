@@ -1,0 +1,49 @@
+{
+ "total": 43.6,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "How is Bangladesh getting ready for heat?"
+  },
+  {
+   "start": 5.0,
+   "dur": 9.31,
+   "beats": [
+    0.6,
+    5.32
+   ],
+   "text": "Bangladesh has daytime hotspots in the west and south-west, and humid heat and warm nights in its crowded cities."
+  },
+  {
+   "start": 14.31,
+   "dur": 7.68,
+   "beats": [
+    0.6
+   ],
+   "text": "In 2024, heat-related illness cost two hundred and fifty million workdays."
+  },
+  {
+   "start": 21.99,
+   "dur": 16.61,
+   "beats": [
+    0.6,
+    2.06,
+    6.01,
+    10.93
+   ],
+   "text": "What is in place: a National Adaptation Plan to 2050, a health adaptation plan adopted in 2026, national guidance on heat illness, and a city heat plan in Narayanganj."
+  },
+  {
+   "start": 38.6,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "From plans on paper to protection people can use."
+  }
+ ]
+}

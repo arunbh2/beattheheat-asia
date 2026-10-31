@@ -1,0 +1,42 @@
+{
+ "total": 32.71,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Twelve Asian cities. Twelve different summers."
+  },
+  {
+   "start": 5.0,
+   "dur": 10.02,
+   "beats": [
+    0.6,
+    3.36,
+    5.84
+   ],
+   "text": "In four, a heat plan is in force. In five, parts are in place. In three, we found no published city plan yet."
+  },
+  {
+   "start": 15.02,
+   "dur": 12.69,
+   "beats": [
+    0.6,
+    2.84,
+    5.75,
+    7.69
+   ],
+   "text": "Each city has something to share: Ahmedabad\u2019s plan, the region\u2019s first; Dhaka\u2019s chief heat officer; Bangkok\u2019s cooling centres; Singapore\u2019s heat stress advisory."
+  },
+  {
+   "start": 27.71,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Learn city to city."
+  }
+ ]
+}

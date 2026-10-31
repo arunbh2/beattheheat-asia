@@ -2894,7 +2894,7 @@
         return `<li><button class="cp__loop" data-story="${l.id}">
           <span class="cp__ring" aria-hidden="true"></span>
           <span class="cp__ln">${esc(l.name)}</span>
-          <span class="cp__why">${esc(x.why)}</span>
+          <span class="cp__why">${esc(x.why)}${x.src ? `<small class="cp__src">Source: ${esc(x.src.label)}</small>` : ""}</span>
           ${l.levers.length ? `<span class="cp__break">Break it: ${esc(leverById[l.levers[0]].title)}${l.levers.length > 1 ? ` and ${l.levers.length - 1} more` : ""}</span>` : ""}
           <span class="cp__go">Follow it on the map →</span></button></li>`; }).join("")}</ul>
       <div class="cp__grid">

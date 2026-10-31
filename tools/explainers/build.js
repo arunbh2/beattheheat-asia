@@ -6,7 +6,8 @@
 "use strict";
 const fs = require("fs"), path = require("path");
 const { SCENES } = require("../shorts/art");
-const SPECS = require("./specs");
+// specs.js: the glossary set (media/glossary); site.js: films for pages across the site (media/explainers)
+const SPECS = [...require("./specs"), ...require("./site").map(f => ({ ...f, site: true }))];
 const CSS = fs.readFileSync(path.join(__dirname, "explainer.css"), "utf8");
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const rich = s => esc(s).replace(/\*(.+?)\*/g, "<em>$1</em>");   // *word* is highlighted in orange
@@ -48,6 +49,12 @@ const C = {
       `</svg>${d.nodes.map((t, i) => { const [x, y] = pos(i); return `<div class="fl in" style="position:absolute;left:${x - 160}px;top:${y - 60}px;width:320px;min-height:120px;padding:18px 20px;${T(at(d.at ?? 0) + i * .3)}"><span style="margin:0;font-size:28px">${esc(t)}</span></div>`; }).join("")}` +
       (d.center ? `<div class="fade" style="position:absolute;left:${cx - 170}px;top:${cy - 40}px;width:340px;text-align:center;font:400 46px/1 Anton;text-transform:uppercase;${T(at(d.at ?? 0) + .8)}">${esc(d.center)}</div>` : "") +
       (d.brkLabel ? `<div class="fade" style="position:absolute;left:0;top:40px;width:560px;font:700 34px/1.3 Hanken;color:var(--green);${T(at(d.brkAt ?? 1) + .2)}">${esc(d.brkLabel)}</div>` : "") + `</div>`; },
+  timeline: (d, at) => { const W = 1680, y0 = d.min, y1 = d.max, x = y => 40 + (y - y0) / (y1 - y0) * (W - 80);
+    return `<div class="zone art"><svg viewBox="0 0 1680 510" style="inset:0;width:1680px;height:510px"><path class="draw" style="--len:1700;${T(at(0))}" d="M20 255 H1660" stroke-width="8"/>` +
+      d.items.map((e, i) => { const up = i % 2 === 0, X = x(e.y + (e.m || 0) / 12), t = at(e.at ?? 0) + (e.step ?? i * .32);
+        return `<g class="pop" style="${T(t)}"><circle cx="${X}" cy="255" r="${e.big ? 22 : 15}" class="${e.big ? "of" : "w"}"/></g><path class="fade" style="${T(t)}" d="M${X} ${up ? 233 : 277} V${up ? (e.hi ? 84 : 150) : (e.hi ? 440 : 360)}" stroke-width="4"/>` +
+          `<text class="fade" style="${T(t + .1)};font:400 40px Anton;fill:${e.big ? "#F26430" : "currentColor"}" x="${X}" y="${up ? (e.hi ? 40 : 110) : (e.hi ? 480 : 410)}" text-anchor="middle">${esc(e.label)}</text>` +
+          `<text class="fade" style="${T(t + .1)};font:700 24px Hanken" x="${X}" y="${up ? (e.hi ? 70 : 140) : (e.hi ? 506 : 444)}" text-anchor="middle">${esc(e.sub)}</text>`; }).join("") + `</svg></div>`; },
   art: (d, at) => `<div class="art"><svg viewBox="0 0 520 520" style="right:150px;top:${d.top ?? 230}px;width:${d.size ?? 700}px;height:${d.size ?? 700}px">${(SCENES[d.name])().replace(/style="--d:([\d.]+)s"/g, (m, x) => `style="${T(at(d.at ?? 0) + +x)}"`)}</svg></div>`,
   svg: (d, at) => `<div class="art"><svg viewBox="${d.box || "0 0 1680 520"}" style="left:120px;top:${d.top ?? 380}px;width:${d.w ?? 1680}px;height:${d.h ?? 520}px">${d.draw(at, T)}</svg></div>`,
   clock: (d, at) => { const r = 200, c = 2 * Math.PI * r, cx = 1340, cy = 600, t = at(d.at ?? 0);
@@ -59,16 +66,16 @@ const C = {
       `<text class="fade" x="${cx + 260}" y="${cy - 230}" style="font:400 64px Anton;fill:var(--green);${T(at(d.restAt ?? 1) + .4)}">${60 - d.work} MIN</text><text class="fade" x="${cx + 260}" y="${cy - 180}" style="${T(at(d.restAt ?? 1) + .4)}">${esc(d.restLabel)}</text></svg></div>`; },
 };
 
-function scene(s, i, start, dur, beats, isLast) {
+function scene(s, i, start, dur, beats, isLast, f = {}) {
   const at = k => start + (beats[Math.min(k, beats.length - 1)] ?? .4);
   const dark = s.type === "hook" || s.type === "end" || s.dark;
   let h = `<section class="s${dark ? " s--dark on-dark" : ""}${isLast ? " s--last" : ""}" style="--start:${start.toFixed(2)}s;--dur:${dur.toFixed(2)}s">`;
-  h += `<div class="hd"><span class="logo">${MARK(dark ? "#F6E7D7" : "#16202B")}COMMON SHADE</span><span class="lab">${esc(s.label || "Plain-language glossary")}</span></div>`;
+  h += `<div class="hd"><span class="logo">${MARK(dark ? "#F6E7D7" : "#16202B")}COMMON SHADE</span><span class="lab">${esc(s.label || f.label || "Plain-language glossary")}</span></div>`;
   if (s.type === "hook") h += `<svg class="rings" viewBox="0 0 1000 1000">${[0, 1.5, 3, 4.5].map(o => `<circle class="ring" style="${T(start + o)}" cx="500" cy="500" r="480" stroke-width="5"/>`).join("")}<circle class="fade" style="${T(start)}" cx="500" cy="500" r="90" fill="#F26430" stroke="none" opacity=".9"/></svg><p class="q in" style="${T(at(0) - .2)}">${rich(s.q)}</p>`;
   if (s.type === "show" && s.dark && !s.d) h += `${s.k ? `<p class="k in" style="${T(start + .2)}">${esc(s.k)}</p>` : ""}<p class="hero-n pop" style="${T(at(0))}">${esc(s.title.replace(/\*/g, ""))}</p>${s.sub ? `<p class="hero-sub in" style="${T(at(0) + .6)}">${rich(s.sub)}</p>` : ""}`;
   else if (s.type === "term" || s.type === "show") h += `${s.k ? `<p class="k in" style="${T(start + .2)}">${esc(s.k)}</p>` : ""}<p class="t${s.small ? " t--sm" : ""} in" style="${T(start + .3)}">${rich(s.title)}</p>${s.sub ? `<p class="sub in" style="${T(start + .7)}">${rich(s.sub)}</p>` : ""}`;
   if (s.type === "statement") h += `<p class="big in" style="${T(at(0) - .1)}">${rich(s.line)}</p>${s.sub ? `<p class="big-sub in" style="${T(at(s.subAt ?? 1))}">${rich(s.sub)}</p>` : ""}`;
-  if (s.type === "end") h += `<div class="end-mark in" style="${T(start + .3)}">${MARK("#F6E7D7").replace('width="40" height="31"', 'width="150" height="116"')}COMMON SHADE</div><p class="end-line in" style="${T(start + .8)}">${rich(s.line)}</p><p class="end-url fade" style="${T(start + 1.3)}">${esc(s.url || "beattheheat.asia/glossary")}</p>`;
+  if (s.type === "end") h += `<div class="end-mark in" style="${T(start + .3)}">${MARK("#F6E7D7").replace('width="40" height="31"', 'width="150" height="116"')}COMMON SHADE</div><p class="end-line in" style="${T(start + .8)}">${rich(s.line)}</p><p class="end-url fade" style="${T(start + 1.3)}">${esc(s.url || f.url || "beattheheat.asia/glossary")}</p>`;
   if (s.d) h += C[s.d.kind](s.d, at);
   if (s.src) h += `<p class="src fade" style="${T(start + 1)}">Source: ${esc(s.src)}</p>`;
   return h + `</section>`;
@@ -85,11 +92,11 @@ for (const f of SPECS.filter(f => !only || f.id === only)) {
   const caps = f.scenes.flatMap((s, i) => s.say.map((line, k) => { const b0 = S[i].start + S[i].beats[k], b1 = k + 1 < s.say.length ? S[i].start + S[i].beats[k + 1] : S[i].start + S[i].dur;
     return `<p style="--t:${(b0 - .05).toFixed(2)}s;--d:${(b1 - b0).toFixed(2)}s">${esc(line)}</p>`; }));
   const html = `<!DOCTYPE html>
-<!-- Glossary explainer: ${esc(f.term)}. Generated by tools/explainers/build.js from specs.js; edit there.
+<!-- ${f.site ? "Explainer for /" + f.page.replace(/index\.html$/, "") : "Glossary explainer"}: ${esc(f.term)}. Generated by tools/explainers/build.js from specs.js; edit there.
      Rendered frame by frame by tools/explainers/render.js. Drawn, faceless figures only. -->
 <html lang="en"><head><meta charset="UTF-8"><title>${esc(f.term)}</title><style>${CSS}</style></head>
 <body style="--total:${total.toFixed(2)}s">
-${f.scenes.map((s, i) => scene(s, i, S[i].start, S[i].dur, S[i].beats, i === f.scenes.length - 1)).join("\n")}
+${f.scenes.map((s, i) => scene(s, i, S[i].start, S[i].dur, S[i].beats, i === f.scenes.length - 1, f)).join("\n")}
 <div class="cap">${caps.join("")}</div><div class="prog"></div>
 <script>
 // numbers count up on cue; the renderer calls tick(ms) on every frame

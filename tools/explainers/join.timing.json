@@ -1,0 +1,40 @@
+{
+ "total": 29.05,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Shade is something we hold up together."
+  },
+  {
+   "start": 5.0,
+   "dur": 11.73,
+   "beats": [
+    0.6,
+    4.55,
+    7.27
+   ],
+   "text": "A shaded workplace needs permission, maintenance and water. A heat warning needs someone able to act on it. And a break needs to be possible without losing the day\u2019s income."
+  },
+  {
+   "start": 16.73,
+   "dur": 7.32,
+   "beats": [
+    0.6,
+    3.54
+   ],
+   "text": "Different entry points, one shared commitment. Tell us what you work on, and what you could bring."
+  },
+  {
+   "start": 24.05,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Join the collaborative."
+  }
+ ]
+}

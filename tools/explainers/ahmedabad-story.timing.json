@@ -1,0 +1,50 @@
+{
+ "total": 48.97,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "What did a city learn from one deadly heatwave?"
+  },
+  {
+   "start": 5.0,
+   "dur": 10.94,
+   "beats": [
+    0.6,
+    5.98
+   ],
+   "text": "In May 2010, Ahmedabad reached forty-six point eight degrees. An estimated thirteen hundred and forty-four extra deaths followed."
+  },
+  {
+   "start": 15.94,
+   "dur": 18.62,
+   "beats": [
+    0.6,
+    6.81,
+    9.46,
+    14.19
+   ],
+   "text": "In 2013, the city launched South Asia\u2019s first heat action plan. Forecasts feed colour-coded alerts, departments act together, the public is warned and health staff are trained. From 2017, it added cool roofs."
+  },
+  {
+   "start": 34.56,
+   "dur": 9.41,
+   "beats": [
+    0.6,
+    6.17
+   ],
+   "text": "An evaluation estimated about eleven hundred and ninety deaths a year were avoided. The model has since spread across India."
+  },
+  {
+   "start": 43.97,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Plan before the heat. Measure what changes."
+  }
+ ]
+}

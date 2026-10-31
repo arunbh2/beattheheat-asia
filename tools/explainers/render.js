@@ -8,7 +8,7 @@ const { spawn, execFileSync } = require("child_process"), path = require("path")
 const [id, fpsArg = "25", coverAt = "2.4"] = process.argv.slice(2);
 const ROOT = path.join(__dirname, "..", ".."), fps = +fpsArg;
 const timing = JSON.parse(fs.readFileSync(path.join(__dirname, id + ".timing.json"), "utf8"));
-const total = Math.round(timing.total * fps), out = path.join(ROOT, "media", "glossary", id), voice = out + ".voice.wav";
+const total = Math.round(timing.total * fps), out = path.join(ROOT, "media", process.env.FILM_OUT || "glossary", id), voice = out + ".voice.wav";
 (async () => {
   const b = await chromium.launch(), p = await b.newPage({ viewport: { width: 1920, height: 1080 } });
   await p.goto("file://" + path.join(__dirname, id + ".html")); await p.evaluate(() => document.fonts.ready);

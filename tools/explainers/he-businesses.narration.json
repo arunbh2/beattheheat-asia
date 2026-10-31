@@ -1,0 +1,15 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "Who sells protection from heat?",
+  "We found ninety-one businesses, | fifty-seven of them working in South or Southeast Asia.",
+  "Most work in cold storage for food and medicine, and efficient cooling, | then fans, cool roofs and evaporative coolers.",
+  "Being listed is not an endorsement. | Companies describe their own products, so ask before you buy.",
+  "Find who makes it, then ask the hard questions."
+ ]
+}

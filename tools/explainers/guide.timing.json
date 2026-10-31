@@ -1,0 +1,42 @@
+{
+ "total": 36.93,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.6,
+   "beats": [
+    0.6,
+    3.32
+   ],
+   "text": "Common Shade is large on purpose. You don\u2019t need all of it."
+  },
+  {
+   "start": 5.6,
+   "dur": 18.38,
+   "beats": [
+    0.6,
+    5.91,
+    10.65,
+    14.14
+   ],
+   "text": "Understand: the web of heat, the cycles, cities and past heatwaves. Act: practical actions, cooling and paying for protection. Tools: exercises to plan and test protection. And reference: sources and the glossary."
+  },
+  {
+   "start": 23.98,
+   "dur": 7.95,
+   "beats": [
+    0.6,
+    3.48
+   ],
+   "text": "Answer two questions, and follow a short path. There\u2019s even a running order for a ninety-minute workshop."
+  },
+  {
+   "start": 31.93,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Start where you are."
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "One country. Three kinds of heat.",
+  "India spans hot and dry places, | places that swing between the two, | and hot, humid coasts. Each needs different warnings and cooling.",
+  "Protection is planned at every level: | national health advisories, | state plans such as Tamil Nadu’s, | city plans such as Delhi’s and Chennai’s, and workplace rules notified in 2026.",
+  "It began in Ahmedabad, in 2013: | South Asia’s first city heat plan, a model since taken up across the country.",
+  "Many plans; the next step is making every one reach people."
+ ]
+}

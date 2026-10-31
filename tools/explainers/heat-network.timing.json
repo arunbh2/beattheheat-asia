@@ -1,0 +1,47 @@
+{
+ "total": 31.72,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Who is already working on heat?"
+  },
+  {
+   "start": 5.0,
+   "dur": 6.75,
+   "beats": [
+    0.6
+   ],
+   "text": "We found three hundred and thirty organisations, working on parts of the web of heat."
+  },
+  {
+   "start": 11.75,
+   "dur": 8.39,
+   "beats": [
+    0.6,
+    3.68,
+    5.94
+   ],
+   "text": "Some hold the need, or the duty to protect people. Some supply what protection needs. And some connect the two."
+  },
+  {
+   "start": 20.14,
+   "dur": 6.58,
+   "beats": [
+    0.6
+   ],
+   "text": "Inclusion describes published work. It doesn\u2019t imply partnership or endorsement."
+  },
+  {
+   "start": 26.72,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "See who could hold up the shade with you."
+  }
+ ]
+}

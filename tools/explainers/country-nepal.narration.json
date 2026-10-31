@@ -1,0 +1,15 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "Nepal’s heat is felt most in the plains below the mountains: the Terai.",
+  "Before the monsoon, the heat is dry and fierce. | Then it turns humid, and nights stop cooling down.",
+  "Nepal’s 2024 national heatwave plan gives agencies their roles | for warnings, water, health, schools, electricity and workplaces.",
+  "And local plans lead the way: | Nepalgunj wrote the country’s first in 2023, and Dhangadhi followed.",
+  "National roles, local plans, one season at a time."
+ ]
+}

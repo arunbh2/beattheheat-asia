@@ -1,0 +1,40 @@
+{
+ "total": 29.72,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Where does the money for heat protection come from?"
+  },
+  {
+   "start": 5.0,
+   "dur": 10.48,
+   "beats": [
+    0.6,
+    3.7,
+    5.57
+   ],
+   "text": "We traced forty-eight funders and investors, fifty pieces of funding, and twenty-four accelerators, prizes and challenges."
+  },
+  {
+   "start": 15.48,
+   "dur": 9.24,
+   "beats": [
+    0.6,
+    5.2
+   ],
+   "text": "One rule for reading funding news: announced is not the same as paid. Money often arrives in stages, or later."
+  },
+  {
+   "start": 24.72,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Follow the money to where it lands."
+  }
+ ]
+}

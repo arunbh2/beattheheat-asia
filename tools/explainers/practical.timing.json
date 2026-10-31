@@ -1,0 +1,41 @@
+{
+ "total": 25.48,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "What could a heat-resilient market look like?"
+  },
+  {
+   "start": 5.0,
+   "dur": 8.02,
+   "beats": [
+    0.6,
+    2.42,
+    3.78,
+    5.31
+   ],
+   "text": "Shade over the stalls. A water point. A place to rest. A cooler roof, and a tree."
+  },
+  {
+   "start": 13.02,
+   "dur": 7.46,
+   "beats": [
+    0.6,
+    2.67
+   ],
+   "text": "And each one depends on something: who must act, what it takes to run, and what could stop it."
+  },
+  {
+   "start": 20.48,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Pick a setting. Find what works there."
+  }
+ ]
+}

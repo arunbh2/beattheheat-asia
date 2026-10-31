@@ -1,0 +1,40 @@
+{
+ "total": 31.35,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "Will an action against heat actually work here?"
+  },
+  {
+   "start": 5.0,
+   "dur": 14.29,
+   "beats": [
+    0.6,
+    3.64,
+    7.73
+   ],
+   "text": "Every action on this page answers eight questions: what to do, who it protects, where it suits, and who must act; what it takes to run, the evidence, what could stop it, and what it only works with."
+  },
+  {
+   "start": 19.29,
+   "dur": 7.06,
+   "beats": [
+    0.6,
+    2.69
+   ],
+   "text": "The last one matters most. Water points need water. Rest breaks need pay."
+  },
+  {
+   "start": 26.35,
+   "dur": 5.0,
+   "beats": [
+    0.6
+   ],
+   "text": "34 actions, by setting."
+  }
+ ]
+}
