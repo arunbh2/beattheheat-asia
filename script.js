@@ -1105,7 +1105,7 @@
     else if (act === "prev") { state.step--; renderStep(); }
   }
   document.addEventListener("click", ev => {
-    if (ev.target.closest("#panel, #guide, #loops, #web-list, #practical, #finance, #start, #who-holds, #at-risk, #stalls, #cooling, #city, #heatwaves, #network, #breakbar, #day, #path-form, .intro")) handleAction(ev);
+    if (ev.target.closest("#panel, #guide, #loops, #web-list, #practical, #finance, #start, #who-holds, #at-risk, #stalls, #cooling, #city, #heatwaves, #network, #breakbar, #day, #path-form, .intro, .act")) handleAction(ev);
   });
   document.addEventListener("keydown", ev => {
     if (ev.key === "Escape" && (state.selected || state.story || state.inst || state.pkg)) { clearSelection(); fitAll(); }
