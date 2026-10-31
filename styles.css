@@ -3321,3 +3321,19 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 .refs__bar { flex-wrap: wrap; }
 .refs__bar label:not(.visually-hidden) { flex-basis: 100%; font-size: .85rem; }
 .refs__bar input { min-width: 0; }
+
+/* /how-heat-is-reported/: the pilot review across languages */
+.md-h3 { font-family: var(--font-serif); font-weight: 500; font-size: 1.3rem; margin: 28px 0 8px; }
+.md-en { font-weight: 400; color: var(--grey-700); }
+.md-local { list-style: none; padding: 0; margin: 14px 0 18px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 0 28px; border-top: 1px solid var(--rule); }
+.md-local li { padding: 16px 0; border-bottom: 1px solid var(--rule-soft); line-height: 1.5; }
+.md-local li > b { display: block; font-size: 1rem; margin-bottom: 4px; }
+.md-local li > p { margin: 0 0 8px; font-size: .95rem; }
+.md-src { font-size: .88rem; line-height: 1.45; margin: 10px 0 0; overflow-wrap: anywhere; }
+.md-src a { font-weight: 600; color: var(--ink); text-decoration-color: var(--link-line, var(--rule)); text-underline-offset: 3px; }
+.md-src span { display: block; color: var(--grey-700); margin-top: 2px; }
+.md-who { display: grid; grid-template-columns: max-content 1fr; gap: 6px 14px; margin: 12px 0; padding: 12px 0; border-top: 1px solid var(--rule-soft); border-bottom: 1px solid var(--rule-soft); font-size: .92rem; }
+.md-who dt { font-weight: 700; color: var(--grey-700); }
+.md-who dd { margin: 0; }
+@media (max-width: 480px) { .md-who { grid-template-columns: 1fr; } .md-who dd { margin-bottom: 6px; } }
+.md-plist { margin-top: 8px; }

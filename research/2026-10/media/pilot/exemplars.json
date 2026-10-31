@@ -1,0 +1,77 @@
+[
+ {
+  "article_id": "in-deaths-commentary-2023",
+  "what_it_does_well": "Connects mortality counting to resource allocation and explains why even excess-death methods have limits.",
+  "who_pays": "No specific budget payer traced.",
+  "who_decides": "Registration and health systems determine what can be counted and acted upon.",
+  "who_checks": "Commentary compares published records and mortality methods; not an original field investigation.",
+  "loop_ids": [
+   "invisible",
+   "clinic",
+   "reactive"
+  ]
+ },
+ {
+  "article_id": "mm-power-workers-2024",
+  "what_it_does_well": "Links worker heat to electricity agreements and outages, retaining competing explanations and seeking response.",
+  "who_pays": "Power tariffs and investment are discussed; disputed payment claims remain attributed.",
+  "who_decides": "Electricity authorities and plant operators affect supply; factories control indoor protection.",
+  "who_checks": "Union complaints, cited documents and requests for response are used; allegations are not adjudicated.",
+  "loop_ids": [
+   "energywater",
+   "poverty",
+   "school",
+   "energypoverty"
+  ]
+ },
+ {
+  "article_id": "in-insurance-followup-2025",
+  "what_it_does_well": "Returns to a no-payout pilot and asks what redesign and cash layers changed for women.",
+  "who_pays": "Member contributions and programme support are described; whole long-term financing is not independently audited.",
+  "who_decides": "SEWA and insurance partners redesign thresholds and assistance.",
+  "who_checks": "Reporters revisit previous results and hear worker experiences; a causal impact evaluation is not presented.",
+  "loop_ids": [
+   "poverty",
+   "debt",
+   "protection",
+   "sleep"
+  ]
+ },
+ {
+  "article_id": "kh-factory-enforcement-2026",
+  "what_it_does_well": "Connects specific fainting incidents with corrective orders, inspection demands and a request for clarification.",
+  "who_pays": "Factories are asked to improve conditions; actual expenditure not disclosed.",
+  "who_decides": "Labour authorities issue orders; employers implement; unions call for stronger inspections.",
+  "who_checks": "Unions question compliance; ministry clarification is sought. Completed inspection findings are not established.",
+  "loop_ids": [
+   "poverty",
+   "clinic",
+   "reactive"
+  ]
+ },
+ {
+  "article_id": "in-insurance-design-2026",
+  "what_it_does_well": "Explains trigger setting, premium subsidy and the trade-off between wider eligibility and payment size.",
+  "who_pays": "Women contribute to premiums; programme subsidy covers part, as reported.",
+  "who_decides": "Insurers and risk modellers set parameters; implementing organisations negotiate changes.",
+  "who_checks": "Researchers test assumptions and call for regulatory scrutiny; no completed regulator audit is shown.",
+  "loop_ids": [
+   "poverty",
+   "protection",
+   "reactive"
+  ]
+ },
+ {
+  "article_id": "kh-measured-factory-2026",
+  "what_it_does_well": "Combines worker-collected exposure data, factory responses, legal standards and an undisclosed-budget question.",
+  "who_pays": "Factory describes infrastructure spending; actual budget is not disclosed.",
+  "who_decides": "Managers control equipment and production; public bodies set rules.",
+  "who_checks": "Reporters compare measurements and worker accounts with employer statements and regulatory documents.",
+  "loop_ids": [
+   "poverty",
+   "clinic",
+   "cooling",
+   "reactive"
+  ]
+ }
+]

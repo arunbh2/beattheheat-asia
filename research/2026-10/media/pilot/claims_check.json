@@ -1,0 +1,33 @@
+[
+ {
+  "claim": "OECD reports that 80% of Bangkok vendors and 96% of Delhi vendors reported fewer customers during heat.",
+  "verdict": "confirmed",
+  "correct_figure": "80% Bangkok; 96% Delhi.",
+  "primary_source_url": "https://www.oecd.org/en/publications/securing-the-livelihoods-of-informal-economy-workers-in-times-of-global-changes_7b0d17a9-en/full-report/informal-workers-and-emerging-risks-in-the-era-of-environmental-degradation-and-climate-change_3e3c5b34.html",
+  "notes": "Box 5.3, demand channel. Self-reported customer decline, not measured sales or a population census. Bangkok: 496 vendors surveyed May 2025 recalling April. Delhi: approximately 500 vendors; before/after summer in the same clusters. Underlying WIEGO resources linked separately. Bangkok factsheet confirms the study; the specific customer-decline percentage is traced to OECD, not reproduced in reviewed factsheet pages. Delhi PDF text encoding limits verification; selected methods pages visually inspected.",
+  "underlying_sources": [
+   "https://www.wiego.org/advocacy-worker-education-resources/too-hot-to-work-home-based-workers-street-vendors-bangkok/",
+   "https://www.wiego.org/research-library-publications/working-heat-street-vendors-delhi-india/"
+  ],
+  "checked": "2026-10-31"
+ },
+ {
+  "claim": "Das and Somanathan (Environmental Research Letters, 2024) find net earnings 40% lower during heatwaves in two Delhi settlements; survey year 2019.",
+  "verdict": "confirmed",
+  "correct_figure": "Net earnings 40% lower during two heatwaves; nearly 400 workers followed daily for one month in summer 2019.",
+  "primary_source_url": "https://digitalcommons.isical.ac.in/journal-articles/4821/",
+  "notes": "Author-institution repository abstract, lines 30–40; DOI 10.1088/1748-9326/ad7da4. Distinguish 2024 publication from 2019 data. Observational earnings comparison; not a national estimate or randomised intervention. Full statistical methods not independently reanalysed.",
+  "checked": "2026-10-31"
+ },
+ {
+  "claim": "IIED published an August 2026 Dhaka informal-worker study; reports cite different GDP shares.",
+  "verdict": "confirmed",
+  "correct_figure": "175 households. Estimated annual wage loss US$148.86 outdoor and US$89.10 indoor; 23.7 and 13.5 workdays. National immediate losses US$4.10bn/0.91% GDP; adding modelled kidney-related losses gives US$6.22bn/1.38%.",
+  "primary_source_url": "https://www.iied.org/sites/default/files/pdfs/2026-08/22755iied.pdf",
+  "notes": "PDF pp55–57 and60 (printed pages): survey-based annualisation and national extrapolation, not directly observed national losses. Kidney component uses symptom reports and external progression assumptions, not diagnosed national CKD cases. Official release rounds income losses to 8.5%/4.5% and workdays to24/14. Bengali article distinguishes both GDP scopes; cross-outlet discrepancy audit incomplete.",
+  "corroborating_source_url": "https://www.iied.org/bangladeshi-workers-beset-extreme-heat-study-finds",
+  "publication_record_url": "https://www.iied.org/22755iied",
+  "title_note": "Publication catalogue: No escaping the heat; downloaded PDF cover: Too hot to work, too poor to rest. Same product 22755IIED.",
+  "checked": "2026-10-31"
+ }
+]

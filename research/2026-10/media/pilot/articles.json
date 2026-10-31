@@ -1,0 +1,2982 @@
+[
+ {
+  "id": "np-warning-2026",
+  "title": "तराईमा तातो हावाको लहर, घरमै बस्न सुझाव",
+  "title_en": "Heatwave in the Tarai; advice to stay at home",
+  "outlet": "कान्तिपुर",
+  "original_outlet": "रासस (RSS)",
+  "date": "2026-05-23",
+  "country_focus": [
+   "Nepal"
+  ],
+  "language": "ne",
+  "url": "https://ekantipur.com/news/2026/05/23/hot-winds-increasing-risk-to-public-life-in-western-nepal-47-56.html",
+  "access": "open",
+  "format": "news",
+  "frame_primary": "emergency",
+  "frames_secondary": [],
+  "missing_middle": 1,
+  "mm_evidence": "Body ¶1–4: Disaster authority names warning districts and requests preparedness; no allocation or delivery process explained.",
+  "actors_quoted": [],
+  "voice_of_affected": "no",
+  "solutions_depth": 1,
+  "followup": "no",
+  "data_used": [
+   "temperature"
+  ],
+  "humidity_mentioned": "no",
+  "gender_or_care": "no",
+  "informal_work": "no",
+  "loop_ids": [
+   "clinic",
+   "reactive"
+  ],
+  "summary_plain": "The report relays a heat warning for western Nepal. It names the issuing agencies and gives protective advice.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "targeted_discovery",
+   "outlet_type": "national daily",
+   "evidence": [
+    {
+     "location": "Body ¶1–6",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "Forecast temperatures and preparedness advice dominate; no affected person speaks."
+    },
+    {
+     "location": "Body ¶1–6",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "Body ¶1–4: Disaster authority names warning districts and requests preparedness; no allocation or delivery process explained."
+    },
+    {
+     "location": "Body ¶1–6",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 1: named measures without demonstrated effects. No specific earlier promise or intervention revisited."
+    },
+    {
+     "location": "Reviewed article body, excluding navigation, captions unrelated to the story and related-news boxes",
+     "fields": [
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "voice_of_affected",
+      "followup"
+     ],
+     "note": "No qualifying passage or direct affected-person account identified under the codebook definition."
+    }
+   ],
+   "byline_status": "Visible credit",
+   "translation": "Researcher English translation; not publisher-authorised; native-language review pending",
+   "date_basis": "Nepali date जेष्ठ ९, २०८३; ISO date agrees with publisher URL",
+   "counting_country": "Nepal",
+   "affected_woman_quoted": false,
+   "affected_woman_evidence": "No explicitly identified directly affected woman found among quoted speakers.",
+   "informal_worker_quoted": false
+  }
+ },
+ {
+  "id": "np-households-2026",
+  "title": "गर्मीको मार विपन्नको चुलोसम्म",
+  "title_en": "Heat reaches poor households’ cooking pots",
+  "outlet": "कान्तिपुर",
+  "original_outlet": "कान्तिपुर",
+  "date": "2026-05-27",
+  "country_focus": [
+   "Nepal"
+  ],
+  "language": "ne",
+  "url": "https://ekantipur.com/news/2026/05/27/the-heat-wave-reaches-the-poors-stove-00-04.html",
+  "access": "open",
+  "format": "feature",
+  "frame_primary": "lost_work",
+  "frames_secondary": [
+   "inequality"
+  ],
+  "missing_middle": 1,
+  "mm_evidence": "Opening: Local governments close or reschedule schools; worker passages describe household costs without an organised income-protection mechanism.",
+  "actors_quoted": [
+   "worker"
+  ],
+  "voice_of_affected": "yes",
+  "solutions_depth": 1,
+  "followup": "no",
+  "data_used": [
+   "temperature",
+   "lost hours or wages"
+  ],
+  "humidity_mentioned": "no",
+  "gender_or_care": "yes",
+  "informal_work": "yes",
+  "loop_ids": [
+   "poverty",
+   "debt",
+   "school",
+   "sleep"
+  ],
+  "summary_plain": "Workers describe shrinking sales and difficulty feeding their families during heat. Household debt makes stopping work harder.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "targeted_discovery",
+   "outlet_type": "national daily",
+   "evidence": [
+    {
+     "location": "Opening; Gopal, Puja and river-worker passages",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "Named workers discuss earnings, debt, childcare and family medicines; school schedules change."
+    },
+    {
+     "location": "Opening; Gopal, Puja and river-worker passages",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "Opening: Local governments close or reschedule schools; worker passages describe household costs without an organised income-protection mechanism."
+    },
+    {
+     "location": "Opening; Gopal, Puja and river-worker passages",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 1: named measures without demonstrated effects. No specific earlier promise or intervention revisited."
+    },
+    {
+     "location": "Reviewed article body, excluding navigation, captions unrelated to the story and related-news boxes",
+     "fields": [
+      "humidity_mentioned",
+      "followup"
+     ],
+     "note": "No qualifying passage or direct affected-person account identified under the codebook definition."
+    }
+   ],
+   "byline_status": "Visible credit",
+   "translation": "Researcher English translation; not publisher-authorised; native-language review pending",
+   "date_basis": "जेष्ठ १३, २०८३; publisher URL agrees",
+   "counting_country": "Nepal",
+   "affected_woman_quoted": true,
+   "affected_woman_evidence": "Puja vendor portrait: widow describes household work and childcare.",
+   "informal_worker_quoted": true
+  }
+ },
+ {
+  "id": "np-poverty-2024",
+  "title": "अधिकतम तापक्रम ४३ डिग्री, तर, गरिबलाई केको गर्मी !",
+  "title_en": "Maximum temperature 43 degrees, but what respite from heat for the poor?",
+  "outlet": "कान्तिपुर",
+  "original_outlet": "कान्तिपुर",
+  "date": "2024-06-01",
+  "country_focus": [
+   "Nepal"
+  ],
+  "language": "ne",
+  "url": "https://ekantipur.com/news/2024/06/01/the-maximum-temperature-is-43-degrees-but-what-is-the-heat-for-the-poor-57-49.html",
+  "access": "open",
+  "format": "feature",
+  "frame_primary": "inequality",
+  "frames_secondary": [
+   "lost_work"
+  ],
+  "missing_middle": 0,
+  "mm_evidence": "Worker portraits and closing advice: No body organising or financing worker heat protection is identified.",
+  "actors_quoted": [
+   "worker",
+   "employer or business"
+  ],
+  "voice_of_affected": "yes",
+  "solutions_depth": 1,
+  "followup": "no",
+  "data_used": [
+   "temperature",
+   "lost hours or wages"
+  ],
+  "humidity_mentioned": "no",
+  "gender_or_care": "yes",
+  "informal_work": "yes",
+  "loop_ids": [
+   "poverty",
+   "school",
+   "sleep",
+   "debt"
+  ],
+  "summary_plain": "Brick workers, repairers and vendors explain why they keep working in dangerous heat. Family expenses limit their choices.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "targeted_discovery",
+   "outlet_type": "national daily",
+   "evidence": [
+    {
+     "location": "Worker portraits; closing vendor passages",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "Workers and kiln owner speak; accounts link sales, care, schooling and inability to rest."
+    },
+    {
+     "location": "Worker portraits; closing vendor passages",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "Worker portraits and closing advice: No body organising or financing worker heat protection is identified."
+    },
+    {
+     "location": "Worker portraits; closing vendor passages",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 1: named measures without demonstrated effects. No specific earlier promise or intervention revisited."
+    },
+    {
+     "location": "Reviewed article body, excluding navigation, captions unrelated to the story and related-news boxes",
+     "fields": [
+      "humidity_mentioned",
+      "followup"
+     ],
+     "note": "No qualifying passage or direct affected-person account identified under the codebook definition."
+    }
+   ],
+   "byline_status": "Visible credit",
+   "translation": "Researcher English translation; not publisher-authorised; native-language review pending",
+   "date_basis": "जेष्ठ १९, २०८१; publisher URL agrees",
+   "scope_note": "School closures mentioned without naming their responsible body; municipality discussed as vendor regulator, not protection provider.",
+   "counting_country": "Nepal",
+   "affected_woman_quoted": true,
+   "affected_woman_evidence": "Closing: woman corn seller Sonu speaks about sales.",
+   "informal_worker_quoted": true
+  }
+ },
+ {
+  "id": "np-kathmandu-2026",
+  "title": "Adverse weather adds to informal workers’ stress in Kathmandu",
+  "title_en": null,
+  "outlet": "The Kathmandu Post",
+  "original_outlet": "The Kathmandu Post",
+  "date": "2026-05-28",
+  "country_focus": [
+   "Nepal"
+  ],
+  "language": "en",
+  "url": "https://kathmandupost.com/money/2026/05/28/adverse-weather-adds-to-informal-workers-stress-in-kathmandu",
+  "access": "open",
+  "format": "feature",
+  "frame_primary": "lost_work",
+  "frames_secondary": [
+   "inequality"
+  ],
+  "missing_middle": 0,
+  "mm_evidence": "Closing policy-gap discussion: Describes missing safeguards, but does not identify a body organising or paying for heat protection.",
+  "actors_quoted": [
+   "worker",
+   "NGO"
+  ],
+  "voice_of_affected": "yes",
+  "solutions_depth": 1,
+  "followup": "no",
+  "data_used": [
+   "temperature",
+   "lost hours or wages"
+  ],
+  "humidity_mentioned": "no",
+  "gender_or_care": "no",
+  "informal_work": "yes",
+  "loop_ids": [
+   "poverty",
+   "sleep",
+   "displacement"
+  ],
+  "summary_plain": "Migrant workers describe hotter workplaces and sleeping spaces in Kathmandu. A research report places those experiences alongside gaps in protection.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "targeted_discovery",
+   "outlet_type": "national daily",
+   "evidence": [
+    {
+     "location": "Worker interviews; closing research discussion",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "Workers describe earnings and hot nights; family responsibilities and migrant status shape exposure."
+    },
+    {
+     "location": "Worker interviews; closing research discussion",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "Closing policy-gap discussion: Describes missing safeguards, but does not identify a body organising or paying for heat protection."
+    },
+    {
+     "location": "Worker interviews; closing research discussion",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 1: named measures without demonstrated effects. No specific earlier promise or intervention revisited."
+    },
+    {
+     "location": "Reviewed article body, excluding navigation, captions unrelated to the story and related-news boxes",
+     "fields": [
+      "humidity_mentioned",
+      "gender_or_care",
+      "followup"
+     ],
+     "note": "No qualifying passage or direct affected-person account identified under the codebook definition."
+    }
+   ],
+   "byline_status": "Visible credit",
+   "translation": "Not applicable",
+   "gender_voice": "Shanti Maya Rai is directly quoted; gender/care yes refers to household responsibilities, not inferred identity",
+   "updated": "2026-05-29",
+   "counting_country": "Nepal",
+   "affected_woman_quoted": true,
+   "affected_woman_evidence": "Shanti Maya Rai interview uses explicit female pronouns.",
+   "informal_worker_quoted": true
+  }
+ },
+ {
+  "id": "vn-data-2024",
+  "title": "Chuỗi ngày nắng nóng dài kỷ lục ở Sài Gòn",
+  "title_en": "Record-long run of hot days in Saigon",
+  "outlet": "VnExpress",
+  "original_outlet": "VnExpress",
+  "date": "2024-04-27",
+  "country_focus": [
+   "Viet Nam"
+  ],
+  "language": "vi",
+  "url": "https://vnexpress.net/chuoi-ngay-nang-nong-dai-ky-luc-o-sai-gon-4739003.html",
+  "access": "open",
+  "format": "data story",
+  "frame_primary": "science_attribution",
+  "frames_secondary": [
+   "emergency"
+  ],
+  "missing_middle": 0,
+  "mm_evidence": "Data and forecast sections: Weather trends are analysed; no protection organiser or payer is identified.",
+  "actors_quoted": [
+   "scientist"
+  ],
+  "voice_of_affected": "no",
+  "solutions_depth": 0,
+  "followup": "no",
+  "data_used": [
+   "temperature"
+  ],
+  "humidity_mentioned": "no",
+  "gender_or_care": "no",
+  "informal_work": "no",
+  "loop_ids": [
+   "global"
+  ],
+  "summary_plain": "The story compares the duration of southern Viet Nam’s heat with earlier years. Its methods note identifies weather stations and missing observations.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "targeted_discovery",
+   "outlet_type": "national digital news",
+   "evidence": [
+    {
+     "location": "Trend analysis; final data-methods note",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "Meteorologists explain temperatures and El Niño; no worker or resident is directly quoted."
+    },
+    {
+     "location": "Trend analysis; final data-methods note",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "Data and forecast sections: Weather trends are analysed; no protection organiser or payer is identified."
+    },
+    {
+     "location": "Trend analysis; final data-methods note",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 0: no protective intervention identified. No specific earlier promise or intervention revisited."
+    },
+    {
+     "location": "Reviewed article body, excluding navigation, captions unrelated to the story and related-news boxes",
+     "fields": [
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "voice_of_affected",
+      "followup"
+     ],
+     "note": "No qualifying passage or direct affected-person account identified under the codebook definition."
+    }
+   ],
+   "byline_status": "Visible credit",
+   "translation": "Researcher English translation; not publisher-authorised; native-language review pending",
+   "counting_country": "Viet Nam",
+   "affected_woman_quoted": false,
+   "affected_woman_evidence": "No explicitly identified directly affected woman found among quoted speakers.",
+   "informal_worker_quoted": false
+  }
+ },
+ {
+  "id": "vn-social-protection-2026",
+  "title": "Nắng nóng cực đoan: Thách thức an sinh xã hội mới đối với người lao động",
+  "title_en": "Extreme heat: a new social-protection challenge for workers",
+  "outlet": "VietnamPlus",
+  "original_outlet": "VietnamPlus",
+  "date": "2026-06-25",
+  "country_focus": [
+   "Viet Nam"
+  ],
+  "language": "vi",
+  "url": "https://www.vietnamplus.vn/nang-nong-cuc-doan-thach-thuc-an-sinh-xa-hoi-moi-doi-voi-nguoi-lao-dong-post1120365.vnp",
+  "access": "open",
+  "format": "explainer",
+  "frame_primary": "inequality",
+  "frames_secondary": [
+   "lost_work"
+  ],
+  "missing_middle": 2,
+  "mm_evidence": "Four-pillars section: Proposes local cooling infrastructure, forecast-linked financial support and linked worker records; these are recommendations, not implemented benefits.",
+  "actors_quoted": [
+   "worker"
+  ],
+  "voice_of_affected": "yes",
+  "solutions_depth": 1,
+  "followup": "no",
+  "data_used": [
+   "temperature",
+   "heat index",
+   "lost hours or wages"
+  ],
+  "humidity_mentioned": "yes",
+  "gender_or_care": "yes",
+  "informal_work": "yes",
+  "loop_ids": [
+   "poverty",
+   "sleep",
+   "protection",
+   "reactive"
+  ],
+  "summary_plain": "Research findings connect outdoor heat exposure with gaps in social protection. The article sets out proposed responsibilities and prioritises women and migrants.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "targeted_discovery",
+   "outlet_type": "wire service",
+   "evidence": [
+    {
+     "location": "Double-burden and four-pillars sections",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "Anonymous construction and delivery workers speak; humidity, hot nights and women’s protection are explicitly discussed."
+    },
+    {
+     "location": "Double-burden and four-pillars sections",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "Four-pillars section: Proposes local cooling infrastructure, forecast-linked financial support and linked worker records; these are recommendations, not implemented benefits."
+    },
+    {
+     "location": "Double-burden and four-pillars sections",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 1: named measures without demonstrated effects. No specific earlier promise or intervention revisited."
+    },
+    {
+     "location": "Reviewed article body, excluding navigation, captions unrelated to the story and related-news boxes",
+     "fields": [
+      "followup"
+     ],
+     "note": "No qualifying passage or direct affected-person account identified under the codebook definition."
+    }
+   ],
+   "byline_status": "Visible credit",
+   "translation": "Researcher English translation; not publisher-authorised; native-language review pending",
+   "counting_country": "Viet Nam",
+   "affected_woman_quoted": false,
+   "affected_woman_evidence": "No explicitly identified directly affected woman found among quoted speakers.",
+   "informal_worker_quoted": true,
+   "quotation_rule": "Rider is directly quoted; academic and UNDP remarks are paraphrased, excluded from quoted-voice counts."
+  }
+ },
+ {
+  "id": "vn-street-work-2024",
+  "title": "Lao động vất vả mưu sinh dưới nắng nóng 38 độ C",
+  "title_en": "Workers struggle to earn a living in 38-degree heat",
+  "outlet": "Báo Người Lao Động (Tuổi Trẻ-hosted page)",
+  "original_outlet": "Báo Người Lao Động",
+  "date": "2024-02-24",
+  "country_focus": [
+   "Viet Nam"
+  ],
+  "language": "vi",
+  "url": "https://tuoitre.vn/nld/lao-dong-vat-va-muu-sinh-duoi-nang-nong-38-do-c-196240224090130229.htm",
+  "access": "open",
+  "format": "feature",
+  "frame_primary": "lost_work",
+  "frames_secondary": [
+   "inequality"
+  ],
+  "missing_middle": 0,
+  "mm_evidence": "Worker portraits: Shade and drinking water are personal coping measures; no protection delivery or funding body is identified.",
+  "actors_quoted": [
+   "worker"
+  ],
+  "voice_of_affected": "yes",
+  "solutions_depth": 1,
+  "followup": "no",
+  "data_used": [
+   "temperature",
+   "lost hours or wages"
+  ],
+  "humidity_mentioned": "no",
+  "gender_or_care": "yes",
+  "informal_work": "yes",
+  "loop_ids": [
+   "poverty",
+   "energypoverty"
+  ],
+  "summary_plain": "Street sellers and transport workers describe working through heat to preserve income. Their accounts connect fewer customers with personal coping costs.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "targeted_discovery",
+   "outlet_type": "national daily",
+   "evidence": [
+    {
+     "location": "Worker portraits before related-news box",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "Named women sellers and drivers speak about sales and family support."
+    },
+    {
+     "location": "Worker portraits before related-news box",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "Worker portraits: Shade and drinking water are personal coping measures; no protection delivery or funding body is identified."
+    },
+    {
+     "location": "Worker portraits before related-news box",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 1: named measures without demonstrated effects. No specific earlier promise or intervention revisited."
+    },
+    {
+     "location": "Reviewed article body, excluding navigation, captions unrelated to the story and related-news boxes",
+     "fields": [
+      "humidity_mentioned",
+      "followup"
+     ],
+     "note": "No qualifying passage or direct affected-person account identified under the codebook definition."
+    }
+   ],
+   "byline_status": "Visible credit",
+   "translation": "Researcher English translation; not publisher-authorised; native-language review pending",
+   "syndication": "Publisher branding and credited NLĐO copy; hosted under Tuổi Trẻ /nld/. Related-news box excluded.",
+   "counting_country": "Viet Nam",
+   "affected_woman_quoted": true,
+   "affected_woman_evidence": "Women sellers Lực and Thu directly describe heat and earnings.",
+   "informal_worker_quoted": true
+  }
+ },
+ {
+  "id": "lk-school-directive-2024",
+  "title": "අධික උෂ්ණත්වය ඇති අවස්ථාවේ පාසල් සිසුන් එළිමහනේ රැඳවීමෙන් වළකින්න",
+  "title_en": "Avoid keeping schoolchildren outdoors during high temperatures",
+  "outlet": "Dasatha Lanka News",
+  "original_outlet": "Dasatha Lanka News",
+  "date": "2024-02-28",
+  "country_focus": [
+   "Sri Lanka"
+  ],
+  "language": "si",
+  "url": "https://dasathalankanews.com/%E0%B6%85%E0%B6%B0%E0%B7%92%E0%B6%9A-%E0%B6%8B%E0%B7%82%E0%B7%8A%E0%B6%AB%E0%B6%AD%E0%B7%8A%E0%B6%BA-%E0%B6%87%E0%B6%AD%E0%B7%92-%E0%B6%85%E0%B7%80%E0%B7%83%E0%B7%8A%E0%B6%AE%E0%B7%8F%E0%B7%80/",
+  "access": "open",
+  "format": "news",
+  "frame_primary": "emergency",
+  "frames_secondary": [],
+  "missing_middle": 2,
+  "mm_evidence": "Final paragraph: Education ministry routes joint health guidance through provincial and zonal directors to school principals.",
+  "actors_quoted": [],
+  "voice_of_affected": "no",
+  "solutions_depth": 1,
+  "followup": "no",
+  "data_used": [
+   "none"
+  ],
+  "humidity_mentioned": "no",
+  "gender_or_care": "no",
+  "informal_work": "no",
+  "loop_ids": [
+   "school",
+   "reactive"
+  ],
+  "summary_plain": "Schools are told to avoid outdoor activities during high heat. The brief identifies the administrative chain carrying the instruction.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "targeted_discovery",
+   "outlet_type": "broadcaster website",
+   "evidence": [
+    {
+     "location": "Complete short body",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "School directive is attributed to ministries; no direct personal quotation or affected voice."
+    },
+    {
+     "location": "Complete short body",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "Final paragraph: Education ministry routes joint health guidance through provincial and zonal directors to school principals."
+    },
+    {
+     "location": "Complete short body",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 1: named measures without demonstrated effects. No specific earlier promise or intervention revisited."
+    },
+    {
+     "location": "Reviewed article body, excluding navigation, captions unrelated to the story and related-news boxes",
+     "fields": [
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "voice_of_affected",
+      "followup"
+     ],
+     "note": "No qualifying passage or direct affected-person account identified under the codebook definition."
+    }
+   ],
+   "byline_status": "Visible credit",
+   "translation": "Researcher English translation; not publisher-authorised; native-language review pending",
+   "counting_country": "Sri Lanka",
+   "affected_woman_quoted": false,
+   "affected_woman_evidence": "No explicitly identified directly affected woman found among quoted speakers.",
+   "informal_worker_quoted": false
+  }
+ },
+ {
+  "id": "lk-school-reminder-2024",
+  "title": "අධික උණුසුම පළාත් 05ට බලපායි",
+  "title_en": "Extreme heat affects five provinces",
+  "outlet": "වී News",
+  "original_outlet": "වී News",
+  "date": "2024-03-14",
+  "country_focus": [
+   "Sri Lanka"
+  ],
+  "language": "si",
+  "url": "https://vnews.lk/%E0%B6%85%E0%B6%B0%E0%B7%92%E0%B6%9A-%E0%B6%8B%E0%B6%AB%E0%B7%94%E0%B7%83%E0%B7%94%E0%B6%B8-%E0%B6%B4%E0%B7%85%E0%B7%8F%E0%B6%AD%E0%B7%8A-05%E0%B6%A7-%E0%B6%B6%E0%B6%BD%E0%B6%B4%E0%B7%8F%E0%B6%BA%E0%B7%92/",
+  "access": "open",
+  "format": "news",
+  "frame_primary": "emergency",
+  "frames_secondary": [
+   "fragmented_responsibility"
+  ],
+  "missing_middle": 1,
+  "mm_evidence": "Final two paragraphs: Ministry reports some schools disregarded earlier guidance and repeats its instructions; no inspection or funding process explained.",
+  "actors_quoted": [],
+  "voice_of_affected": "no",
+  "solutions_depth": 1,
+  "followup": "yes",
+  "data_used": [
+   "none"
+  ],
+  "humidity_mentioned": "no",
+  "gender_or_care": "no",
+  "informal_work": "no",
+  "loop_ids": [
+   "school",
+   "reactive"
+  ],
+  "summary_plain": "The brief returns to earlier school heat guidance after reported non-compliance. It does not trace inspections, sanctions or school resources.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "targeted_discovery",
+   "outlet_type": "broadcaster website",
+   "evidence": [
+    {
+     "location": "Final two paragraphs",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "Specific earlier instructions and reported non-compliance are revisited; no affected person speaks."
+    },
+    {
+     "location": "Final two paragraphs",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "Final two paragraphs: Ministry reports some schools disregarded earlier guidance and repeats its instructions; no inspection or funding process explained."
+    },
+    {
+     "location": "Final two paragraphs",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 1: named measures without demonstrated effects. Revisits a specific earlier action or incident."
+    },
+    {
+     "location": "Reviewed article body, excluding navigation, captions unrelated to the story and related-news boxes",
+     "fields": [
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "voice_of_affected"
+     ],
+     "note": "No qualifying passage or direct affected-person account identified under the codebook definition."
+    }
+   ],
+   "byline_status": "Not displayed in retrieved article header or footer",
+   "translation": "Researcher English translation; not publisher-authorised; native-language review pending",
+   "counting_country": "Sri Lanka",
+   "affected_woman_quoted": false,
+   "affected_woman_evidence": "No explicitly identified directly affected woman found among quoted speakers.",
+   "informal_worker_quoted": false
+  }
+ },
+ {
+  "id": "id-garment-adaptation-2025",
+  "title": "Adaptasi iklim: melindungi perempuan, menjaga produktivitas nasional",
+  "title_en": "Climate adaptation: protecting women, maintaining national productivity",
+  "outlet": "ANTARA News",
+  "original_outlet": "ANTARA News",
+  "date": "2025-12-10",
+  "country_focus": [
+   "Indonesia"
+  ],
+  "language": "id",
+  "url": "https://m.antaranews.com/amp/berita/5297722/adaptasi-iklim-melindungi-perempuan-menjaga-produktivitas-nasional",
+  "access": "open",
+  "format": "opinion",
+  "frame_primary": "inequality",
+  "frames_secondary": [
+   "lost_work",
+   "fragmented_responsibility"
+  ],
+  "missing_middle": 2,
+  "mm_evidence": "GEN examples: Factories fund hydration, ventilation and cooler lactation rooms; author explains cost and regulatory constraints.",
+  "actors_quoted": [],
+  "voice_of_affected": "no",
+  "solutions_depth": 1,
+  "followup": "no",
+  "data_used": [
+   "none"
+  ],
+  "humidity_mentioned": "no",
+  "gender_or_care": "yes",
+  "informal_work": "no",
+  "loop_ids": [
+   "poverty",
+   "cooling",
+   "reactive"
+  ],
+  "summary_plain": "A CARE Indonesia leader describes factory adaptation through a gender network. The commentary explains why company finances affect whether measures spread.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "targeted_discovery",
+   "outlet_type": "wire service",
+   "evidence": [
+    {
+     "location": "GEN examples and final policy proposals",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "Author discusses women’s factory work and lactation spaces; no directly quoted affected worker."
+    },
+    {
+     "location": "GEN examples and final policy proposals",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "GEN examples: Factories fund hydration, ventilation and cooler lactation rooms; author explains cost and regulatory constraints."
+    },
+    {
+     "location": "GEN examples and final policy proposals",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 1: named measures without demonstrated effects. No specific earlier promise or intervention revisited."
+    },
+    {
+     "location": "Reviewed article body, excluding navigation, captions unrelated to the story and related-news boxes",
+     "fields": [
+      "humidity_mentioned",
+      "informal_work",
+      "voice_of_affected",
+      "followup"
+     ],
+     "note": "No qualifying passage or direct affected-person account identified under the codebook definition."
+    }
+   ],
+   "byline_status": "Visible credit",
+   "translation": "Researcher English translation; not publisher-authorised; native-language review pending",
+   "author_interest": "Author identifies himself as CEO of CARE Indonesia; programme descriptions are attributed practitioner claims.",
+   "counting_country": "Indonesia",
+   "affected_woman_quoted": false,
+   "affected_woman_evidence": "No explicitly identified directly affected woman found among quoted speakers.",
+   "informal_worker_quoted": false
+  }
+ },
+ {
+  "id": "id-health-warning-2026",
+  "title": "Pakar ITS ingatkan risiko kesehatan akibat gelombang panas",
+  "title_en": "ITS experts warn of health risks from heatwaves",
+  "outlet": "ANTARA News",
+  "original_outlet": "ANTARA News",
+  "date": "2026-10-21",
+  "country_focus": [
+   "Indonesia"
+  ],
+  "language": "id",
+  "url": "https://www.antaranews.com/berita/5801589/pakar-its-ingatkan-risiko-kesehatan-akibat-gelombang-panas",
+  "access": "open",
+  "format": "news",
+  "frame_primary": "emergency",
+  "frames_secondary": [
+   "other"
+  ],
+  "missing_middle": 0,
+  "mm_evidence": "Doctors’ advice: Individual precautions are described; no organisation of public protection or funding is explained.",
+  "actors_quoted": [
+   "health worker"
+  ],
+  "voice_of_affected": "no",
+  "solutions_depth": 1,
+  "followup": "no",
+  "data_used": [
+   "temperature"
+  ],
+  "humidity_mentioned": "yes",
+  "gender_or_care": "no",
+  "informal_work": "no",
+  "loop_ids": [
+   "sleep",
+   "energypoverty",
+   "clinic"
+  ],
+  "summary_plain": "Doctors describe physical and mental-health risks from heat. The article includes humid conditions, sleep and unequal access to cooling.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "targeted_discovery",
+   "outlet_type": "wire service",
+   "evidence": [
+    {
+     "location": "Complete body before related links",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "Two doctors speak; humidity and sleep appear explicitly; no affected person is interviewed."
+    },
+    {
+     "location": "Complete body before related links",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "Doctors’ advice: Individual precautions are described; no organisation of public protection or funding is explained."
+    },
+    {
+     "location": "Complete body before related links",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 1: named measures without demonstrated effects. No specific earlier promise or intervention revisited."
+    },
+    {
+     "location": "Reviewed article body, excluding navigation, captions unrelated to the story and related-news boxes",
+     "fields": [
+      "gender_or_care",
+      "informal_work",
+      "voice_of_affected",
+      "followup"
+     ],
+     "note": "No qualifying passage or direct affected-person account identified under the codebook definition."
+    }
+   ],
+   "byline_status": "Visible credit",
+   "translation": "Researcher English translation; not publisher-authorised; native-language review pending",
+   "legacy_id": "n01",
+   "health_advice": "Article’s advice is coded as reported coverage, not adopted as Common Shade clinical guidance.",
+   "counting_country": "Indonesia",
+   "affected_woman_quoted": false,
+   "affected_woman_evidence": "No explicitly identified directly affected woman found among quoted speakers.",
+   "informal_worker_quoted": false
+  }
+ },
+ {
+  "id": "pk-karachi-roles-2024",
+  "title": "کمشنر کراچی کی زیر صدارت اجلاس ،ہیٹ اسٹروک کی صورتحال سے نمٹنے کے لئے مختلف شہری اداروں کو ذمہ داریاں تفویض",
+  "title_en": "Karachi commissioner’s meeting assigns city agencies responsibilities for responding to heatstroke",
+  "outlet": "UrduPoint",
+  "original_outlet": "این این آئی (NNI)",
+  "date": "2024-05-06",
+  "country_focus": [
+   "Pakistan"
+  ],
+  "language": "ur",
+  "url": "https://www.urdupoint.com/daily/livenews/2024-05-06/news-4007727.html",
+  "access": "open",
+  "format": "news",
+  "frame_primary": "emergency",
+  "frames_secondary": [],
+  "missing_middle": 2,
+  "mm_evidence": "Meeting account: Assigns municipal water points, health wards, utility supply and ambulance lists to named agencies and a control room.",
+  "actors_quoted": [],
+  "voice_of_affected": "no",
+  "solutions_depth": 1,
+  "followup": "no",
+  "data_used": [
+   "none"
+  ],
+  "humidity_mentioned": "no",
+  "gender_or_care": "no",
+  "informal_work": "no",
+  "loop_ids": [
+   "energywater",
+   "clinic",
+   "school",
+   "reactive"
+  ],
+  "summary_plain": "A Karachi meeting assigns heat-response tasks across city services. It explains proposed coordination without checking subsequent delivery.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "targeted_discovery",
+   "outlet_type": "wire republication",
+   "evidence": [
+    {
+     "location": "Complete single-paragraph meeting report",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "Agency responsibilities, utility hours and ambulance coordination are specified; no affected person speaks."
+    },
+    {
+     "location": "Complete single-paragraph meeting report",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "Meeting account: Assigns municipal water points, health wards, utility supply and ambulance lists to named agencies and a control room."
+    },
+    {
+     "location": "Complete single-paragraph meeting report",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 1: named measures without demonstrated effects. No specific earlier promise or intervention revisited."
+    },
+    {
+     "location": "Reviewed article body, excluding navigation, captions unrelated to the story and related-news boxes",
+     "fields": [
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "voice_of_affected",
+      "followup"
+     ],
+     "note": "No qualifying passage or direct affected-person account identified under the codebook definition."
+    }
+   ],
+   "byline_status": "Visible credit",
+   "translation": "Researcher English translation; not publisher-authorised; native-language review pending",
+   "counting_country": "Pakistan",
+   "affected_woman_quoted": false,
+   "affected_woman_evidence": "No explicitly identified directly affected woman found among quoted speakers.",
+   "informal_worker_quoted": false
+  }
+ },
+ {
+  "id": "bd-wages-study-2026",
+  "title": "তাপপ্রবাহে শ্রমিকের মজুরি ক্ষতি বছরে ৭৭ হাজার কোটি টাকা",
+  "title_en": "Workers’ annual wage losses from heatwaves reach 77,000 crore taka",
+  "outlet": "প্রথম আলো",
+  "original_outlet": "প্রথম আলো",
+  "date": "2026-08-11",
+  "country_focus": [
+   "Bangladesh"
+  ],
+  "language": "bn",
+  "url": "https://www.prothomalo.com/amp/story/bangladesh/kg2t6n67kw",
+  "access": "open",
+  "format": "feature",
+  "frame_primary": "lost_work",
+  "frames_secondary": [
+   "inequality"
+  ],
+  "missing_middle": 2,
+  "mm_evidence": "Legal-gap and support-package sections: Explains proposed heat-triggered cash and protection costs, but does not audit an operating programme.",
+  "actors_quoted": [
+   "worker",
+   "scientist",
+   "health worker",
+   "union or worker group"
+  ],
+  "voice_of_affected": "yes",
+  "solutions_depth": 1,
+  "followup": "no",
+  "data_used": [
+   "temperature",
+   "heat index",
+   "lost hours or wages",
+   "budget figures"
+  ],
+  "humidity_mentioned": "no",
+  "gender_or_care": "no",
+  "informal_work": "yes",
+  "loop_ids": [
+   "poverty",
+   "debt",
+   "sleep",
+   "reactive"
+  ],
+  "summary_plain": "A rickshaw worker’s experience introduces research on lost earnings. The article distinguishes different national loss estimates and describes proposed protections.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "targeted_discovery",
+   "outlet_type": "national daily",
+   "evidence": [
+    {
+     "location": "Worker opening; GDP and legal-gap sections",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "Worker, researcher, doctor and labour representative speak; loss estimates and a proposed support budget appear."
+    },
+    {
+     "location": "Worker opening; GDP and legal-gap sections",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "Legal-gap and support-package sections: Explains proposed heat-triggered cash and protection costs, but does not audit an operating programme."
+    },
+    {
+     "location": "Worker opening; GDP and legal-gap sections",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 1: named measures without demonstrated effects. No specific earlier promise or intervention revisited."
+    },
+    {
+     "location": "Reviewed article body, excluding navigation, captions unrelated to the story and related-news boxes",
+     "fields": [
+      "humidity_mentioned",
+      "gender_or_care",
+      "followup"
+     ],
+     "note": "No qualifying passage or direct affected-person account identified under the codebook definition."
+    }
+   ],
+   "byline_status": "Visible credit",
+   "translation": "Researcher English translation; not publisher-authorised; native-language review pending",
+   "number_warning": "Headline translation reproduces publisher wording, not an independent estimate; M10 explains modelled extrapolation.",
+   "date_note": "Published the day before IIED’s press release; report coverage appears pre-release.",
+   "counting_country": "Bangladesh",
+   "affected_woman_quoted": false,
+   "affected_woman_evidence": "No explicitly identified directly affected woman found among quoted speakers.",
+   "informal_worker_quoted": true
+  }
+ },
+ {
+  "id": "ph-work-advisory-2026",
+  "title": "Matinding init, puwede bang gamiting dahilan ng manggagawa para 'di pumasok sa trabaho?",
+  "title_en": "Can workers use extreme heat as a reason not to report for work?",
+  "outlet": "GMA News / Balitambayan",
+  "original_outlet": "GMA News / Balitambayan",
+  "date": "2026-10-20",
+  "country_focus": [
+   "Philippines"
+  ],
+  "language": "tl",
+  "url": "https://www.gmanetwork.com/news/balitambayan/trending/1006565/matinding-init-puwede-bang-gamiting-dahilan-ng-manggagawa-para-di-pumasok-sa-trabaho/story/",
+  "access": "open",
+  "format": "news",
+  "frame_primary": "lost_work",
+  "frames_secondary": [],
+  "missing_middle": 2,
+  "mm_evidence": "Delivery-rider and compensation sections: Describes forthcoming refusal guidance and reimbursement through SSS/GSIS-linked employee compensation.",
+  "actors_quoted": [
+   "national official"
+  ],
+  "voice_of_affected": "no",
+  "solutions_depth": 1,
+  "followup": "no",
+  "data_used": [
+   "temperature",
+   "heat index"
+  ],
+  "humidity_mentioned": "no",
+  "gender_or_care": "no",
+  "informal_work": "no",
+  "loop_ids": [
+   "poverty",
+   "debt",
+   "protection"
+  ],
+  "summary_plain": "A labour official explains planned heat-related work guidance. The report also describes compensation channels for work-related injuries.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "targeted_discovery",
+   "outlet_type": "broadcaster website",
+   "evidence": [
+    {
+     "location": "Delivery riders and compensation paragraphs",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "Labour secretary is quoted; no worker speaks; proposed rules and existing compensation channels must be distinguished."
+    },
+    {
+     "location": "Delivery riders and compensation paragraphs",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "Delivery-rider and compensation sections: Describes forthcoming refusal guidance and reimbursement through SSS/GSIS-linked employee compensation."
+    },
+    {
+     "location": "Delivery riders and compensation paragraphs",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 1: named measures without demonstrated effects. No specific earlier promise or intervention revisited."
+    },
+    {
+     "location": "Reviewed article body, excluding navigation, captions unrelated to the story and related-news boxes",
+     "fields": [
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "voice_of_affected",
+      "followup"
+     ],
+     "note": "No qualifying passage or direct affected-person account identified under the codebook definition."
+    }
+   ],
+   "byline_status": "Visible credit",
+   "translation": "Researcher English translation; not publisher-authorised; native-language review pending",
+   "footer_credit": "—Vince Angelo Ferreras/FRJ GMA News",
+   "legal_status": "Statements describe a forthcoming advisory; no independently verified new legal entitlement is asserted.",
+   "counting_country": "Philippines",
+   "affected_woman_quoted": false,
+   "affected_woman_evidence": "No explicitly identified directly affected woman found among quoted speakers.",
+   "informal_worker_quoted": false
+  }
+ },
+ {
+  "id": "ph-labour-day-2024",
+  "title": "Labor Day 2024: Ipagtanggol ang kabuhayan, panawagan ng mga manggagawa, tsuper, partner-riders",
+  "title_en": "Labor Day 2024: workers, drivers and partner-riders call to defend livelihoods",
+  "outlet": "Manila Today",
+  "original_outlet": "Manila Today",
+  "date": "2024-05-01",
+  "country_focus": [
+   "Philippines"
+  ],
+  "language": "tl",
+  "url": "https://manilatoday.net/labor-day-2024-ipagtanggol-ang-kabuhayan-panawagan-ng-mga-manggagawa/",
+  "access": "open",
+  "format": "news",
+  "frame_primary": "politics",
+  "frames_secondary": [
+   "lost_work",
+   "inequality"
+  ],
+  "missing_middle": 2,
+  "mm_evidence": "Occupational-safety section: Explains that heat absences remain unpaid unless a worker–company collective agreement changes the arrangement.",
+  "actors_quoted": [
+   "union or worker group"
+  ],
+  "voice_of_affected": "no",
+  "solutions_depth": 1,
+  "followup": "no",
+  "data_used": [
+   "lost hours or wages"
+  ],
+  "humidity_mentioned": "no",
+  "gender_or_care": "no",
+  "informal_work": "no",
+  "loop_ids": [
+   "poverty",
+   "protection"
+  ],
+  "summary_plain": "Labour Day coverage includes demands for heat protection alongside wages. It explains how collective bargaining relates to pay during heat absences.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "targeted_discovery",
+   "outlet_type": "local/labour newsroom",
+   "evidence": [
+    {
+     "location": "Occupational health and safety section",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "Labour-group spokesperson speaks; coverage connects heat absence, employer arrangements and collective bargaining."
+    },
+    {
+     "location": "Occupational health and safety section",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "Occupational-safety section: Explains that heat absences remain unpaid unless a worker–company collective agreement changes the arrangement."
+    },
+    {
+     "location": "Occupational health and safety section",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 1: named measures without demonstrated effects. No specific earlier promise or intervention revisited."
+    },
+    {
+     "location": "Reviewed article body, excluding navigation, captions unrelated to the story and related-news boxes",
+     "fields": [
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "voice_of_affected",
+      "followup"
+     ],
+     "note": "No qualifying passage or direct affected-person account identified under the codebook definition."
+    }
+   ],
+   "byline_status": "Visible credit",
+   "translation": "Researcher English translation; not publisher-authorised; native-language review pending",
+   "affected_voice_basis": "Representatives or school administrators are quoted, but no person directly recounts their own heat exposure.",
+   "heat_scope": "Heat is a substantive section of a broader labour demonstration story.",
+   "counting_country": "Philippines",
+   "affected_woman_quoted": false,
+   "affected_woman_evidence": "No explicitly identified directly affected woman found among quoted speakers.",
+   "informal_worker_quoted": false
+  }
+ },
+ {
+  "id": "kh-school-2024",
+  "title": "Classes Cut Short in Scorching Heat",
+  "title_en": null,
+  "outlet": "Cambodianess",
+  "original_outlet": "Cambodianess",
+  "date": "2024-05-01",
+  "country_focus": [
+   "Cambodia"
+  ],
+  "language": "en",
+  "url": "https://cambodianess.com/article/classes-cut-short-in-scorching-heat",
+  "access": "open",
+  "format": "news",
+  "frame_primary": "emergency",
+  "frames_secondary": [
+   "inequality"
+  ],
+  "missing_middle": 2,
+  "mm_evidence": "Principal interviews: Describes closure discretion and parents donating drinking water when school provision is insufficient.",
+  "actors_quoted": [
+   "national official",
+   "community member"
+  ],
+  "voice_of_affected": "no",
+  "solutions_depth": 1,
+  "followup": "no",
+  "data_used": [
+   "temperature",
+   "deaths"
+  ],
+  "humidity_mentioned": "no",
+  "gender_or_care": "no",
+  "informal_work": "no",
+  "loop_ids": [
+   "school",
+   "reactive"
+  ],
+  "summary_plain": "School principals describe adapting schedules and seeking extra drinking water. The report connects national instructions with decisions at individual schools.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "targeted_discovery",
+   "outlet_type": "national digital news",
+   "evidence": [
+    {
+     "location": "Opening orders and principal interviews",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "Principals speak about implementation and parent donations; no pupil or parent is directly quoted."
+    },
+    {
+     "location": "Opening orders and principal interviews",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "Principal interviews: Describes closure discretion and parents donating drinking water when school provision is insufficient."
+    },
+    {
+     "location": "Opening orders and principal interviews",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 1: named measures without demonstrated effects. No specific earlier promise or intervention revisited."
+    },
+    {
+     "location": "Reviewed article body, excluding navigation, captions unrelated to the story and related-news boxes",
+     "fields": [
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "voice_of_affected",
+      "followup"
+     ],
+     "note": "No qualifying passage or direct affected-person account identified under the codebook definition."
+    }
+   ],
+   "byline_status": "Visible credit",
+   "translation": "Not applicable",
+   "actor_rule": "Principals coded community member because the required actor vocabulary lacks education official; affected role-based school voice.",
+   "affected_voice_basis": "Representatives or school administrators are quoted, but no person directly recounts their own heat exposure.",
+   "counting_country": "Cambodia",
+   "affected_woman_quoted": false,
+   "affected_woman_evidence": "No explicitly identified directly affected woman found among quoted speakers.",
+   "informal_worker_quoted": false
+  }
+ },
+ {
+  "id": "kh-factory-enforcement-2026",
+  "title": "Unionists Demand Action as Factory Extreme Heat Drives Workers to Collapse",
+  "title_en": null,
+  "outlet": "Cambodianess",
+  "original_outlet": "Thmey Thmey",
+  "date": "2026-03-16",
+  "country_focus": [
+   "Cambodia"
+  ],
+  "language": "en",
+  "url": "https://cambodianess.com/article/unionists-demand-action-as-factory-extreme-heat-drives-workers-to-collapse",
+  "access": "open",
+  "format": "news",
+  "frame_primary": "fragmented_responsibility",
+  "frames_secondary": [
+   "lost_work",
+   "cooling"
+  ],
+  "missing_middle": 3,
+  "mm_evidence": "Fainting cases and inspection section: Reports official corrective orders, challenges enforcement and seeks ministry clarification after incidents.",
+  "actors_quoted": [
+   "union or worker group",
+   "scientist"
+  ],
+  "voice_of_affected": "no",
+  "solutions_depth": 1,
+  "followup": "yes",
+  "data_used": [
+   "temperature"
+  ],
+  "humidity_mentioned": "no",
+  "gender_or_care": "yes",
+  "informal_work": "no",
+  "loop_ids": [
+   "poverty",
+   "clinic",
+   "reactive"
+  ],
+  "summary_plain": "The story returns to factory fainting incidents and official responses. Union voices connect cooling instructions with inspection and enforcement.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "targeted_discovery",
+   "outlet_type": "national digital news",
+   "evidence": [
+    {
+     "location": "Fainting cases; inspection demands; ministry response",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "Union leaders speak; a female worker’s death is discussed with conflicting attribution explicitly preserved."
+    },
+    {
+     "location": "Fainting cases; inspection demands; ministry response",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "Fainting cases and inspection section: Reports official corrective orders, challenges enforcement and seeks ministry clarification after incidents."
+    },
+    {
+     "location": "Fainting cases; inspection demands; ministry response",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 1: named measures without demonstrated effects. Revisits a specific earlier action or incident."
+    },
+    {
+     "location": "Reviewed article body, excluding navigation, captions unrelated to the story and related-news boxes",
+     "fields": [
+      "humidity_mentioned",
+      "informal_work",
+      "voice_of_affected"
+     ],
+     "note": "No qualifying passage or direct affected-person account identified under the codebook definition."
+    }
+   ],
+   "byline_status": "Visible credit",
+   "translation": "Not applicable",
+   "translation_credit": "Translated from Khmer by Meng Seavmey; this sampled version is English.",
+   "affected_voice_basis": "Representatives or school administrators are quoted, but no person directly recounts their own heat exposure.",
+   "score_boundary": "Score 3 concerns enforcement scrutiny, not verified health causation or an independently completed audit.",
+   "counting_country": "Cambodia",
+   "affected_woman_quoted": false,
+   "affected_woman_evidence": "No explicitly identified directly affected woman found among quoted speakers.",
+   "informal_worker_quoted": false
+  }
+ },
+ {
+  "id": "kh-informal-finance-2026",
+  "title": "Extreme Heat Leaves Cambodia’s Informal Workers Exposed Without Financial Protection",
+  "title_en": null,
+  "outlet": "Cambodianess",
+  "original_outlet": "Cambodianess",
+  "date": "2026-05-25",
+  "country_focus": [
+   "Cambodia"
+  ],
+  "language": "en",
+  "url": "https://www.cambodianess.com/article/extreme-heat-leaves-cambodias-informal-workers-exposed-without-financial-protection",
+  "access": "open",
+  "format": "feature",
+  "frame_primary": "inequality",
+  "frames_secondary": [
+   "lost_work",
+   "fragmented_responsibility"
+  ],
+  "missing_middle": 2,
+  "mm_evidence": "NSSF passages: Explains worker contributions, healthcare coverage, lost-income exclusion and registration barriers; asks ministry about additional protection.",
+  "actors_quoted": [
+   "worker",
+   "national official",
+   "union or worker group"
+  ],
+  "voice_of_affected": "yes",
+  "solutions_depth": 1,
+  "followup": "no",
+  "data_used": [
+   "temperature"
+  ],
+  "humidity_mentioned": "no",
+  "gender_or_care": "yes",
+  "informal_work": "yes",
+  "loop_ids": [
+   "poverty",
+   "debt",
+   "protection"
+  ],
+  "summary_plain": "Informal workers explain why health cover does not replace lost income. The story examines benefit rules and obstacles to joining social protection.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "targeted_discovery",
+   "outlet_type": "national digital news",
+   "evidence": [
+    {
+     "location": "Worker opening; NSSF benefits and access sections",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "Workers, ministry spokesperson and worker association speak; family coverage and registration costs feature."
+    },
+    {
+     "location": "Worker opening; NSSF benefits and access sections",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "NSSF passages: Explains worker contributions, healthcare coverage, lost-income exclusion and registration barriers; asks ministry about additional protection."
+    },
+    {
+     "location": "Worker opening; NSSF benefits and access sections",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 1: named measures without demonstrated effects. No specific earlier promise or intervention revisited."
+    },
+    {
+     "location": "Reviewed article body, excluding navigation, captions unrelated to the story and related-news boxes",
+     "fields": [
+      "humidity_mentioned",
+      "followup"
+     ],
+     "note": "No qualifying passage or direct affected-person account identified under the codebook definition."
+    }
+   ],
+   "byline_status": "Visible credit",
+   "translation": "Not applicable",
+   "counting_country": "Cambodia",
+   "affected_woman_quoted": false,
+   "affected_woman_evidence": "No explicitly identified directly affected woman found among quoted speakers.",
+   "informal_worker_quoted": true
+  }
+ },
+ {
+  "id": "kh-cool-season-2024",
+  "title": "Cambodia: It’s Cooler Now, But Locals Worry About the Heatwaves Ahead",
+  "title_en": null,
+  "outlet": "Cambodianess",
+  "original_outlet": "Reporting ASEAN",
+  "date": "2024-12-23",
+  "country_focus": [
+   "Cambodia"
+  ],
+  "language": "en",
+  "url": "https://www.cambodianess.com/article/cambodia-its-cooler-now-but-locals-worry-about-the-heatwaves-ahead",
+  "access": "open",
+  "format": "feature",
+  "frame_primary": "inequality",
+  "frames_secondary": [
+   "cooling",
+   "lost_work"
+  ],
+  "missing_middle": 2,
+  "mm_evidence": "City and greening sections: Names emergency teams and tree provision; worker interviews reveal limits on access to privately controlled shade.",
+  "actors_quoted": [
+   "worker",
+   "national official",
+   "scientist",
+   "international agency"
+  ],
+  "voice_of_affected": "yes",
+  "solutions_depth": 1,
+  "followup": "yes",
+  "data_used": [
+   "temperature",
+   "lost hours or wages"
+  ],
+  "humidity_mentioned": "yes",
+  "gender_or_care": "yes",
+  "informal_work": "yes",
+  "loop_ids": [
+   "poverty",
+   "deadgreen",
+   "energypoverty",
+   "reactive"
+  ],
+  "summary_plain": "During cooler weather, residents look back on the heatwave and prepare for its return. Workers explain why available shade is not always accessible.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "targeted_discovery",
+   "outlet_type": "regional nonprofit newsroom",
+   "evidence": [
+    {
+     "location": "Opening; shade access; city and greening sections",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "Women’s childcare, vendor income, private shade and institutional responses are discussed."
+    },
+    {
+     "location": "Opening; shade access; city and greening sections",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "City and greening sections: Names emergency teams and tree provision; worker interviews reveal limits on access to privately controlled shade."
+    },
+    {
+     "location": "Opening; shade access; city and greening sections",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 1: named measures without demonstrated effects. Revisits a specific earlier action or incident."
+    }
+   ],
+   "byline_status": "Visible credit",
+   "translation": "Not applicable",
+   "quiet_season": "Article itself identifies cooler year-end weather; one purposive example, not a completed monthly search.",
+   "health_caution": "A participant’s shower belief is not reproduced as health guidance.",
+   "counting_country": "Cambodia",
+   "affected_woman_quoted": true,
+   "affected_woman_evidence": "Sophea describes collecting waste with her daughter.",
+   "informal_worker_quoted": true,
+   "quotation_rule": "City spokesperson statement is paraphrased, not counted as a direct quote."
+  }
+ },
+ {
+  "id": "kh-measured-factory-2026",
+  "title": "Heat stress growing with targets, strain on workers",
+  "title_en": null,
+  "outlet": "Mekong Independent",
+  "original_outlet": "Mekong Independent",
+  "date": "2026-10-01",
+  "country_focus": [
+   "Cambodia"
+  ],
+  "language": "en",
+  "url": "https://mekongindependent.com/2026/10/heat-stress-growing-with-targets-strain-on-workers/",
+  "access": "open",
+  "format": "investigation",
+  "frame_primary": "fragmented_responsibility",
+  "frames_secondary": [
+   "inequality",
+   "lost_work",
+   "cooling"
+  ],
+  "missing_middle": 3,
+  "mm_evidence": "Why-is-it-still-hot section: Combines worker measurements, regulatory gaps, factory response and unpublished cooling budgets to examine protection delivery.",
+  "actors_quoted": [
+   "worker",
+   "employer or business",
+   "scientist"
+  ],
+  "voice_of_affected": "yes",
+  "solutions_depth": 2,
+  "followup": "yes",
+  "data_used": [
+   "temperature",
+   "heat index",
+   "budget figures"
+  ],
+  "humidity_mentioned": "yes",
+  "gender_or_care": "yes",
+  "informal_work": "yes",
+  "loop_ids": [
+   "poverty",
+   "clinic",
+   "cooling",
+   "reactive"
+  ],
+  "summary_plain": "Workers help measure factory heat while reporters examine rules and employer responses. The investigation links production pressure with practical limits on cooling.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "targeted_discovery",
+   "outlet_type": "investigative/nonprofit newsroom",
+   "evidence": [
+    {
+     "location": "Measurement, regulation and factory-response sections",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "Named women workers speak; measured humidity and temperatures are distinguished from employer-reported improvements."
+    },
+    {
+     "location": "Measurement, regulation and factory-response sections",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "Why-is-it-still-hot section: Combines worker measurements, regulatory gaps, factory response and unpublished cooling budgets to examine protection delivery."
+    },
+    {
+     "location": "Measurement, regulation and factory-response sections",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 2: effects or operational limitations described; full lifecycle costing absent. Revisits a specific earlier action or incident."
+    }
+   ],
+   "byline_status": "Visible credit",
+   "translation": "Not applicable",
+   "syndicated_url": "https://pulitzercenter.org/stories/heat-stress-growing-targets-strain-workers",
+   "solutions_boundary": "Employer describes maintenance but actual factory budget undisclosed; not score 3 for solutions.",
+   "metric_caution": "Story’s terminology mixes wet-bulb and heat-index discussion; do not reuse it as WBGT guidance.",
+   "informal_basis": "Subcontracted workplace described as absent from cited registration databases; not all garment workers assumed informal.",
+   "counting_country": "Cambodia",
+   "affected_woman_quoted": true,
+   "affected_woman_evidence": "Sreymom and other women workers directly describe factory conditions.",
+   "informal_worker_quoted": true
+  }
+ },
+ {
+  "id": "la-schools-2024",
+  "title": "Lao Government Advises Heat Safety Measures for Schools Amid Sweltering Temperatures",
+  "title_en": null,
+  "outlet": "Laotian Times",
+  "original_outlet": "Laotian Times",
+  "date": "2024-04-26",
+  "country_focus": [
+   "Lao People's Democratic Republic"
+  ],
+  "language": "en",
+  "url": "https://laotiantimes.com/2024/04/26/lao-government-advises-heat-safety-measures-for-schools-amid-sweltering-temperatures/",
+  "access": "open",
+  "format": "news",
+  "frame_primary": "emergency",
+  "frames_secondary": [],
+  "missing_middle": 2,
+  "mm_evidence": "Notice paragraph: Education ministry delegates cancellations, rescheduling and compensatory lessons to Vientiane educational institutions.",
+  "actors_quoted": [
+   "community member"
+  ],
+  "voice_of_affected": "no",
+  "solutions_depth": 1,
+  "followup": "no",
+  "data_used": [
+   "temperature"
+  ],
+  "humidity_mentioned": "no",
+  "gender_or_care": "no",
+  "informal_work": "no",
+  "loop_ids": [
+   "school",
+   "reactive"
+  ],
+  "summary_plain": "The report explains school options under an education ministry notice. It also records public requests for cooling in disadvantaged schools.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "targeted_discovery",
+   "outlet_type": "national digital news",
+   "evidence": [
+    {
+     "location": "Ministry notice; public reactions",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "Anonymous social-media users are quoted; direct exposure is not established."
+    },
+    {
+     "location": "Ministry notice; public reactions",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "Notice paragraph: Education ministry delegates cancellations, rescheduling and compensatory lessons to Vientiane educational institutions."
+    },
+    {
+     "location": "Ministry notice; public reactions",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 1: named measures without demonstrated effects. No specific earlier promise or intervention revisited."
+    },
+    {
+     "location": "Reviewed article body, excluding navigation, captions unrelated to the story and related-news boxes",
+     "fields": [
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "voice_of_affected",
+      "followup"
+     ],
+     "note": "No qualifying passage or direct affected-person account identified under the codebook definition."
+    }
+   ],
+   "byline_status": "Visible credit",
+   "translation": "Not applicable",
+   "counting_country": "Lao People's Democratic Republic",
+   "affected_woman_quoted": false,
+   "affected_woman_evidence": "No explicitly identified directly affected woman found among quoted speakers.",
+   "informal_worker_quoted": false
+  }
+ },
+ {
+  "id": "mm-power-workers-2024",
+  "title": "Myanmar’s worsening power woes leave factory workers in dangerous heat",
+  "title_en": null,
+  "outlet": "Radio Free Asia",
+  "original_outlet": "Radio Free Asia",
+  "date": "2024-11-27",
+  "country_focus": [
+   "Myanmar"
+  ],
+  "language": "en",
+  "url": "https://www.rfa.org/english/myanmar/2024/11/27/myanmar-energy-crisis/",
+  "access": "open",
+  "format": "feature",
+  "frame_primary": "fragmented_responsibility",
+  "frames_secondary": [
+   "lost_work",
+   "inequality"
+  ],
+  "missing_middle": 3,
+  "mm_evidence": "Power-contract and worker-complaint sections: Relates tariff-payment disputes, plant outages and union complaints to factory protection; competing accounts retained.",
+  "actors_quoted": [
+   "union or worker group",
+   "national official",
+   "NGO"
+  ],
+  "voice_of_affected": "no",
+  "solutions_depth": 1,
+  "followup": "yes",
+  "data_used": [
+   "temperature"
+  ],
+  "humidity_mentioned": "no",
+  "gender_or_care": "no",
+  "informal_work": "no",
+  "loop_ids": [
+   "energywater",
+   "poverty",
+   "school",
+   "energypoverty"
+  ],
+  "summary_plain": "The report connects factory heat with power shortages and electricity agreements. Union complaints sit alongside competing explanations and a request for response.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "targeted_discovery",
+   "outlet_type": "international broadcaster Asian service",
+   "evidence": [
+    {
+     "location": "Power agreements; worsening-situation section",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "Union and civil-society representatives speak; electricity failures affect workers and schoolwork."
+    },
+    {
+     "location": "Power agreements; worsening-situation section",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "Power-contract and worker-complaint sections: Relates tariff-payment disputes, plant outages and union complaints to factory protection; competing accounts retained."
+    },
+    {
+     "location": "Power agreements; worsening-situation section",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 1: named measures without demonstrated effects. Revisits a specific earlier action or incident."
+    },
+    {
+     "location": "Reviewed article body, excluding navigation, captions unrelated to the story and related-news boxes",
+     "fields": [
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "voice_of_affected"
+     ],
+     "note": "No qualifying passage or direct affected-person account identified under the codebook definition."
+    }
+   ],
+   "byline_status": "Visible credit",
+   "translation": "Not applicable",
+   "affected_voice_basis": "Representatives or school administrators are quoted, but no person directly recounts their own heat exposure.",
+   "followup_basis": "Returns to earlier power agreements and plant suspension, rather than a matched heat-event follow-up.",
+   "counting_country": "Myanmar",
+   "affected_woman_quoted": false,
+   "affected_woman_evidence": "No explicitly identified directly affected woman found among quoted speakers.",
+   "informal_worker_quoted": false
+  }
+ },
+ {
+  "id": "mm-deaths-2024",
+  "title": "Heat wave kills 100 in Myanmar, mostly infants and elderly",
+  "title_en": null,
+  "outlet": "Radio Free Asia",
+  "original_outlet": "Radio Free Asia",
+  "date": "2024-05-20",
+  "country_focus": [
+   "Myanmar"
+  ],
+  "language": "en",
+  "url": "https://www.rfa.org/english/news/myanmar/myanmar-heat-05202024065347.html",
+  "access": "open",
+  "format": "news",
+  "frame_primary": "emergency",
+  "frames_secondary": [
+   "inequality"
+  ],
+  "missing_middle": 2,
+  "mm_evidence": "Relief-group passages: Names organisations providing funeral assistance and health ministry prevention response, alongside limits of available information.",
+  "actors_quoted": [
+   "NGO",
+   "community member"
+  ],
+  "voice_of_affected": "yes",
+  "solutions_depth": 1,
+  "followup": "no",
+  "data_used": [
+   "temperature",
+   "deaths"
+  ],
+  "humidity_mentioned": "no",
+  "gender_or_care": "no",
+  "informal_work": "no",
+  "loop_ids": [
+   "invisible",
+   "clinic",
+   "energypoverty"
+  ],
+  "summary_plain": "Aid groups describe deaths during extreme heat and power shortages. The story attributes the toll to those groups rather than presenting a verified register.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "targeted_discovery",
+   "outlet_type": "international broadcaster Asian service",
+   "evidence": [
+    {
+     "location": "Aid-group interviews and response requests",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "Anonymous residents and aid workers speak; infants and older people feature."
+    },
+    {
+     "location": "Aid-group interviews and response requests",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "Relief-group passages: Names organisations providing funeral assistance and health ministry prevention response, alongside limits of available information."
+    },
+    {
+     "location": "Aid-group interviews and response requests",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 1: named measures without demonstrated effects. No specific earlier promise or intervention revisited."
+    },
+    {
+     "location": "Reviewed article body, excluding navigation, captions unrelated to the story and related-news boxes",
+     "fields": [
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "followup"
+     ],
+     "note": "No qualifying passage or direct affected-person account identified under the codebook definition."
+    }
+   ],
+   "byline_status": "Visible credit",
+   "translation": "Not applicable",
+   "death_count": "Headline is exact publisher metadata; independently verified heat-attributable deaths not established.",
+   "counting_country": "Myanmar",
+   "affected_woman_quoted": false,
+   "affected_woman_evidence": "No explicitly identified directly affected woman found among quoted speakers.",
+   "informal_worker_quoted": false
+  }
+ },
+ {
+  "id": "mm-water-power-2024",
+  "title": "Heatwave and power outages intensify water woes in Thaton and surrounding areas",
+  "title_en": null,
+  "outlet": "Eleven Media Group",
+  "original_outlet": "Eleven Media Group",
+  "date": "2024-04-23",
+  "country_focus": [
+   "Myanmar"
+  ],
+  "language": "en",
+  "url": "https://elevenmyanmar.com/news/heatwave-and-power-outages-intensify-water-woes-in-thaton-and-surrounding-areas",
+  "access": "open",
+  "format": "news",
+  "frame_primary": "emergency",
+  "frames_secondary": [
+   "inequality"
+  ],
+  "missing_middle": 2,
+  "mm_evidence": "Final paragraph: Fire Services Department and social associations deliver water; residents explain why functioning wells cannot operate without power.",
+  "actors_quoted": [
+   "NGO",
+   "community member"
+  ],
+  "voice_of_affected": "yes",
+  "solutions_depth": 1,
+  "followup": "no",
+  "data_used": [
+   "none"
+  ],
+  "humidity_mentioned": "no",
+  "gender_or_care": "no",
+  "informal_work": "no",
+  "loop_ids": [
+   "energywater",
+   "pumping",
+   "reactive"
+  ],
+  "summary_plain": "Residents link drinking-water shortages to heat and electricity cuts. The report identifies relief providers and the dependence of wells on power.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "targeted_discovery",
+   "outlet_type": "national daily",
+   "evidence": [
+    {
+     "location": "Complete short body",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "Resident and local aid group speak about wells, outages and water distribution."
+    },
+    {
+     "location": "Complete short body",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "Final paragraph: Fire Services Department and social associations deliver water; residents explain why functioning wells cannot operate without power."
+    },
+    {
+     "location": "Complete short body",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 1: named measures without demonstrated effects. No specific earlier promise or intervention revisited."
+    },
+    {
+     "location": "Reviewed article body, excluding navigation, captions unrelated to the story and related-news boxes",
+     "fields": [
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "followup"
+     ],
+     "note": "No qualifying passage or direct affected-person account identified under the codebook definition."
+    }
+   ],
+   "byline_status": "Not displayed in retrieved article header or footer",
+   "translation": "Not applicable",
+   "counting_country": "Myanmar",
+   "affected_woman_quoted": false,
+   "affected_woman_evidence": "No explicitly identified directly affected woman found among quoted speakers.",
+   "informal_worker_quoted": false
+  }
+ },
+ {
+  "id": "my-workplace-law-2024",
+  "title": "Majikan, pekerja perlu ambil langkah keselamatan hadapi perubahan cuaca",
+  "title_en": "Employers and workers should take safety measures for changing weather",
+  "outlet": "Astro Awani",
+  "original_outlet": "Bernama",
+  "date": "2024-07-03",
+  "country_focus": [
+   "Malaysia"
+  ],
+  "language": "ms",
+  "url": "https://www.astroawani.com/berita-malaysia/majikan-pekerja-perlu-ambil-langkah-keselamatan-hadapi-perubahan-cuaca-477284",
+  "access": "open",
+  "format": "news",
+  "frame_primary": "other",
+  "frames_secondary": [
+   "lost_work"
+  ],
+  "missing_middle": 2,
+  "mm_evidence": "HIRARC and law paragraphs: Links employer risk assessment, NIOSH assistance and statutory responsibilities; no inspection outcomes reported.",
+  "actors_quoted": [
+   "national official"
+  ],
+  "voice_of_affected": "no",
+  "solutions_depth": 1,
+  "followup": "no",
+  "data_used": [
+   "none"
+  ],
+  "humidity_mentioned": "no",
+  "gender_or_care": "no",
+  "informal_work": "no",
+  "loop_ids": [
+   "poverty",
+   "protection"
+  ],
+  "summary_plain": "The report links weather-related workplace risks with employer responsibilities. It explains a risk-assessment route and available technical assistance.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "targeted_discovery",
+   "outlet_type": "wire republication",
+   "evidence": [
+    {
+     "location": "Risk-assessment and amended-law paragraphs",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "NIOSH representative speaks; no employee is quoted; broader weather risks include heat."
+    },
+    {
+     "location": "Risk-assessment and amended-law paragraphs",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "HIRARC and law paragraphs: Links employer risk assessment, NIOSH assistance and statutory responsibilities; no inspection outcomes reported."
+    },
+    {
+     "location": "Risk-assessment and amended-law paragraphs",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 1: named measures without demonstrated effects. No specific earlier promise or intervention revisited."
+    },
+    {
+     "location": "Reviewed article body, excluding navigation, captions unrelated to the story and related-news boxes",
+     "fields": [
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "voice_of_affected",
+      "followup"
+     ],
+     "note": "No qualifying passage or direct affected-person account identified under the codebook definition."
+    }
+   ],
+   "byline_status": "Visible credit",
+   "translation": "Researcher English translation; not publisher-authorised; native-language review pending",
+   "counting_country": "Malaysia",
+   "affected_woman_quoted": false,
+   "affected_woman_evidence": "No explicitly identified directly affected woman found among quoted speakers.",
+   "informal_worker_quoted": false
+  }
+ },
+ {
+  "id": "my-risk-review-2024",
+  "title": "Penilaian risiko di tempat kerja perlu disemak semula – MISHA",
+  "title_en": "Workplace risk assessment should be reviewed — MISHA",
+  "outlet": "Berita RTM",
+  "original_outlet": "Berita RTM",
+  "date": "2024-04-28",
+  "country_focus": [
+   "Malaysia"
+  ],
+  "language": "ms",
+  "url": "https://berita.rtm.gov.my/nasional/senarai-berita-nasional/senarai-artikel/penilaian-risiko-di-tempat-kerja-perlu-disemak-semula-misha/",
+  "access": "open",
+  "format": "news",
+  "frame_primary": "other",
+  "frames_secondary": [
+   "lost_work"
+  ],
+  "missing_middle": 1,
+  "mm_evidence": "Complete body: MISHA calls on employers to review risk controls, without detailing an implementation or financing process.",
+  "actors_quoted": [
+   "NGO"
+  ],
+  "voice_of_affected": "no",
+  "solutions_depth": 1,
+  "followup": "no",
+  "data_used": [
+   "none"
+  ],
+  "humidity_mentioned": "no",
+  "gender_or_care": "no",
+  "informal_work": "no",
+  "loop_ids": [
+   "poverty",
+   "reactive"
+  ],
+  "summary_plain": "A safety association calls for renewed workplace risk assessment during extreme heat. Construction workers are identified as exposed, but do not speak.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "targeted_discovery",
+   "outlet_type": "broadcaster website",
+   "evidence": [
+    {
+     "location": "Complete short body",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "MISHA chair is quoted; recommendation names employers but gives no delivery details."
+    },
+    {
+     "location": "Complete short body",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "Complete body: MISHA calls on employers to review risk controls, without detailing an implementation or financing process."
+    },
+    {
+     "location": "Complete short body",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 1: named measures without demonstrated effects. No specific earlier promise or intervention revisited."
+    },
+    {
+     "location": "Reviewed article body, excluding navigation, captions unrelated to the story and related-news boxes",
+     "fields": [
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "voice_of_affected",
+      "followup"
+     ],
+     "note": "No qualifying passage or direct affected-person account identified under the codebook definition."
+    }
+   ],
+   "byline_status": "Not displayed in retrieved article header or footer",
+   "translation": "Researcher English translation; not publisher-authorised; native-language review pending",
+   "counting_country": "Malaysia",
+   "affected_woman_quoted": false,
+   "affected_woman_evidence": "No explicitly identified directly affected woman found among quoted speakers.",
+   "informal_worker_quoted": false
+  }
+ },
+ {
+  "id": "my-chronic-heat-2026",
+  "title": "Strok Haba Bukan Lagi Bermusim",
+  "title_en": "Heatstroke is no longer seasonal",
+  "outlet": "BERNAMA / Tinta Minda",
+  "original_outlet": "BERNAMA / Tinta Minda",
+  "date": "2026-08-05",
+  "country_focus": [
+   "Malaysia"
+  ],
+  "language": "ms",
+  "url": "https://bernama.com/bm/tintaminda/news.php?id=2588367",
+  "access": "open",
+  "format": "opinion",
+  "frame_primary": "other",
+  "frames_secondary": [
+   "lost_work",
+   "science_attribution"
+  ],
+  "missing_middle": 2,
+  "mm_evidence": "Policy section: Proposes employer monitoring, worker warnings, school guidelines and recurring training; these remain recommendations.",
+  "actors_quoted": [],
+  "voice_of_affected": "no",
+  "solutions_depth": 1,
+  "followup": "no",
+  "data_used": [
+   "temperature",
+   "deaths"
+  ],
+  "humidity_mentioned": "yes",
+  "gender_or_care": "no",
+  "informal_work": "no",
+  "loop_ids": [
+   "invisible",
+   "school",
+   "reactive"
+  ],
+  "summary_plain": "The commentary treats heat as a continuing workplace and public-health risk. It proposes monitoring and prevention beyond occasional drinking-water advice.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "targeted_discovery",
+   "outlet_type": "wire service",
+   "evidence": [
+    {
+     "location": "Humidity discussion and policy section",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "Humidity is explained; authors advocate WBGT monitoring rather than supplying WBGT measurements."
+    },
+    {
+     "location": "Humidity discussion and policy section",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "Policy section: Proposes employer monitoring, worker warnings, school guidelines and recurring training; these remain recommendations."
+    },
+    {
+     "location": "Humidity discussion and policy section",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 1: named measures without demonstrated effects. No specific earlier promise or intervention revisited."
+    },
+    {
+     "location": "Reviewed article body, excluding navigation, captions unrelated to the story and related-news boxes",
+     "fields": [
+      "gender_or_care",
+      "informal_work",
+      "voice_of_affected",
+      "followup"
+     ],
+     "note": "No qualifying passage or direct affected-person account identified under the codebook definition."
+    }
+   ],
+   "byline_status": "Visible credit",
+   "translation": "Researcher English translation; not publisher-authorised; native-language review pending",
+   "counting_country": "Malaysia",
+   "affected_woman_quoted": false,
+   "affected_woman_evidence": "No explicitly identified directly affected woman found among quoted speakers.",
+   "informal_worker_quoted": false
+  }
+ },
+ {
+  "id": "th-outdoor-rights-2025",
+  "title": "“แรงงานกลางแจ้ง” ไร้กฎหมายคุ้มครอง จากวิกฤตโลกร้อน",
+  "title_en": "Outdoor workers lack legal protection against the global-heating crisis",
+  "outlet": "Thai PBS / Policy Watch",
+  "original_outlet": "Thai PBS / Policy Watch",
+  "date": "2025-04-29",
+  "country_focus": [
+   "Thailand"
+  ],
+  "language": "th",
+  "url": "https://policywatch.thaipbs.or.th/article/environment-48",
+  "access": "open",
+  "format": "explainer",
+  "frame_primary": "inequality",
+  "frames_secondary": [
+   "lost_work",
+   "fragmented_responsibility"
+  ],
+  "missing_middle": 2,
+  "mm_evidence": "Thailand-law section: Explains employer heat-control duties and article’s claimed gap for outdoor and platform workers; links a ministerial regulation.",
+  "actors_quoted": [
+   "worker"
+  ],
+  "voice_of_affected": "yes",
+  "solutions_depth": 1,
+  "followup": "no",
+  "data_used": [
+   "temperature",
+   "deaths"
+  ],
+  "humidity_mentioned": "no",
+  "gender_or_care": "yes",
+  "informal_work": "yes",
+  "loop_ids": [
+   "poverty",
+   "protection"
+  ],
+  "summary_plain": "A delivery rider explains changing working hours during heat. The explainer examines how employment status affects access to protection.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "targeted_discovery",
+   "outlet_type": "broadcaster website",
+   "evidence": [
+    {
+     "location": "Rider interview and Thailand-law section",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "Named woman rider speaks; platform status, legislation and rest-space requests feature."
+    },
+    {
+     "location": "Rider interview and Thailand-law section",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "Thailand-law section: Explains employer heat-control duties and article’s claimed gap for outdoor and platform workers; links a ministerial regulation."
+    },
+    {
+     "location": "Rider interview and Thailand-law section",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 1: named measures without demonstrated effects. No specific earlier promise or intervention revisited."
+    },
+    {
+     "location": "Reviewed article body, excluding navigation, captions unrelated to the story and related-news boxes",
+     "fields": [
+      "humidity_mentioned",
+      "followup"
+     ],
+     "note": "No qualifying passage or direct affected-person account identified under the codebook definition."
+    }
+   ],
+   "byline_status": "Visible credit",
+   "translation": "Researcher English translation; not publisher-authorised; native-language review pending",
+   "credit": "ชญาดา จิรกิตติถาวร credited separately as Graphic Designer.",
+   "legal_caution": "Headline/legal gap recorded as article framing; not a current legal conclusion from this review.",
+   "counting_country": "Thailand",
+   "affected_woman_quoted": true,
+   "affected_woman_evidence": "Revika rider interview uses explicit female pronouns.",
+   "informal_worker_quoted": true
+  }
+ },
+ {
+  "id": "in-insurance-followup-2025",
+  "title": "Rising Temperatures, Rising Inequalities: How a New Insurance Protects India’s Poorest Women",
+  "title_en": null,
+  "outlet": "Inter Press Service",
+  "original_outlet": "Inter Press Service",
+  "date": "2025-06-26",
+  "country_focus": [
+   "India"
+  ],
+  "language": "en",
+  "url": "https://www.ipsnews.net/2025/06/rising-temperatures-rising-inequalities-how-a-new-insurance-protects-indias-poorest-women/",
+  "access": "open",
+  "format": "feature",
+  "frame_primary": "inequality",
+  "frames_secondary": [
+   "lost_work"
+  ],
+  "missing_middle": 3,
+  "mm_evidence": "Insurance section: Revisits failed pilot triggers, redesign, premium contributions and payouts, including worker accounts of using support.",
+  "actors_quoted": [
+   "worker",
+   "union or worker group",
+   "NGO"
+  ],
+  "voice_of_affected": "yes",
+  "solutions_depth": 2,
+  "followup": "yes",
+  "data_used": [
+   "temperature",
+   "lost hours or wages"
+  ],
+  "humidity_mentioned": "yes",
+  "gender_or_care": "yes",
+  "informal_work": "yes",
+  "loop_ids": [
+   "poverty",
+   "debt",
+   "protection",
+   "sleep"
+  ],
+  "summary_plain": "The feature revisits an insurance pilot that initially paid nothing. It explains redesign and hears from women about what payments help cover.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "targeted_discovery",
+   "outlet_type": "international nonprofit wire",
+   "evidence": [
+    {
+     "location": "Worker interviews; insurance redesign section",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "Named women workers and programme representatives speak; humidity, nights, premiums and payout limits feature."
+    },
+    {
+     "location": "Worker interviews; insurance redesign section",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "Insurance section: Revisits failed pilot triggers, redesign, premium contributions and payouts, including worker accounts of using support."
+    },
+    {
+     "location": "Worker interviews; insurance redesign section",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 2: effects or operational limitations described; full lifecycle costing absent. Revisits a specific earlier action or incident."
+    }
+   ],
+   "byline_status": "Visible credit",
+   "translation": "Not applicable",
+   "funding_disclosure": "Publisher says feature supported by Open Society Foundations.",
+   "number_caution": "Reported premiums and payouts require programme documentation before reuse as independent impact evidence.",
+   "counting_country": "India",
+   "affected_woman_quoted": true,
+   "affected_woman_evidence": "Deviben and Hansaben directly describe heat and insurance.",
+   "informal_worker_quoted": true
+  }
+ },
+ {
+  "id": "in-insurance-design-2026",
+  "title": "Can parametric insurance really put a price on extreme heat — and protect India’s informal workers from its growing economic toll?",
+  "title_en": null,
+  "outlet": "Down To Earth",
+  "original_outlet": "Down To Earth",
+  "date": "2026-05-22",
+  "country_focus": [
+   "India"
+  ],
+  "language": "en",
+  "url": "https://www.downtoearth.org.in/climate-change/can-parametric-insurance-really-put-a-price-on-extreme-heat-and-protect-indias-informal-workers-from-its-growing-economic-toll",
+  "access": "open",
+  "format": "explainer",
+  "frame_primary": "inequality",
+  "frames_secondary": [
+   "lost_work"
+  ],
+  "missing_middle": 3,
+  "mm_evidence": "How-it-works and limits sections: Traces premium subsidy, insurer trigger decisions, changed payouts and calls for regulatory review.",
+  "actors_quoted": [
+   "NGO",
+   "scientist"
+  ],
+  "voice_of_affected": "no",
+  "solutions_depth": 2,
+  "followup": "yes",
+  "data_used": [
+   "temperature"
+  ],
+  "humidity_mentioned": "no",
+  "gender_or_care": "yes",
+  "informal_work": "yes",
+  "loop_ids": [
+   "poverty",
+   "protection",
+   "reactive"
+  ],
+  "summary_plain": "The article explains heat-insurance design and who supports premiums. It examines whether easier payout triggers still offer enough income protection.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "targeted_discovery",
+   "outlet_type": "environmental newsroom",
+   "evidence": [
+    {
+     "location": "How-it-works; limits; redesign passages",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "Programme and research voices appear; affected women are described but not directly quoted."
+    },
+    {
+     "location": "How-it-works; limits; redesign passages",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "How-it-works and limits sections: Traces premium subsidy, insurer trigger decisions, changed payouts and calls for regulatory review."
+    },
+    {
+     "location": "How-it-works; limits; redesign passages",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 2: effects or operational limitations described; full lifecycle costing absent. Revisits a specific earlier action or incident."
+    },
+    {
+     "location": "Reviewed article body, excluding navigation, captions unrelated to the story and related-news boxes",
+     "fields": [
+      "humidity_mentioned",
+      "voice_of_affected"
+     ],
+     "note": "No qualifying passage or direct affected-person account identified under the codebook definition."
+    }
+   ],
+   "byline_status": "Not displayed in retrieved article header or footer",
+   "translation": "Not applicable",
+   "byline_note": "No author displayed in retrieved article body or AMP header; external profile attribution not adopted.",
+   "counting_country": "India",
+   "affected_woman_quoted": false,
+   "affected_woman_evidence": "No explicitly identified directly affected woman found among quoted speakers.",
+   "informal_worker_quoted": false
+  }
+ },
+ {
+  "id": "in-deaths-commentary-2023",
+  "title": "Commentary: India has no idea how many people its heatwaves are killing",
+  "title_en": null,
+  "outlet": "CNA",
+  "original_outlet": "Bloomberg Opinion",
+  "date": "2023-06-23",
+  "country_focus": [
+   "India"
+  ],
+  "language": "en",
+  "url": "https://www.channelnewsasia.com/commentary/india-deadly-heatwave-extreme-weather-climate-change-healthcare-3579621",
+  "access": "open",
+  "format": "opinion",
+  "frame_primary": "fragmented_responsibility",
+  "frames_secondary": [
+   "emergency",
+   "inequality"
+  ],
+  "missing_middle": 3,
+  "mm_evidence": "Unrecorded-deaths section: Connects death certification and registration gaps with the limits of excess-mortality estimates and emergency resource decisions.",
+  "actors_quoted": [],
+  "voice_of_affected": "no",
+  "solutions_depth": 1,
+  "followup": "yes",
+  "data_used": [
+   "temperature",
+   "deaths"
+  ],
+  "humidity_mentioned": "no",
+  "gender_or_care": "yes",
+  "informal_work": "no",
+  "loop_ids": [
+   "invisible",
+   "clinic",
+   "reactive"
+  ],
+  "summary_plain": "The commentary examines why heat deaths are difficult to count. It links missing records with decisions about whom emergency services should protect.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "baseline_reverification",
+   "outlet_type": "broadcaster opinion republication",
+   "evidence": [
+    {
+     "location": "Mortality-method and unrecorded-deaths sections",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "Certification and gender exclusions are discussed; no directly affected person speaks. Humidity appears only in related-story links."
+    },
+    {
+     "location": "Mortality-method and unrecorded-deaths sections",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "Unrecorded-deaths section: Connects death certification and registration gaps with the limits of excess-mortality estimates and emergency resource decisions."
+    },
+    {
+     "location": "Mortality-method and unrecorded-deaths sections",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 1: named measures without demonstrated effects. Revisits a specific earlier action or incident."
+    },
+    {
+     "location": "Reviewed article body, excluding navigation, captions unrelated to the story and related-news boxes",
+     "fields": [
+      "informal_work",
+      "voice_of_affected",
+      "humidity_mentioned"
+     ],
+     "note": "No qualifying passage or direct affected-person account identified under the codebook definition."
+    }
+   ],
+   "byline_status": "Visible credit",
+   "translation": "Not applicable",
+   "legacy_id": "b06",
+   "scope": "China and COVID examples are comparisons; India remains country focus.",
+   "counting_country": "India",
+   "affected_woman_quoted": false,
+   "affected_woman_evidence": "No explicitly identified directly affected woman found among quoted speakers.",
+   "informal_worker_quoted": false
+  }
+ },
+ {
+  "id": "region-attribution-2024",
+  "title": "Asia’s extreme April heat worsened by climate change, scientists say",
+  "title_en": null,
+  "outlet": "Interaksyon",
+  "original_outlet": "Reuters",
+  "date": "2024-05-15",
+  "country_focus": [
+   "Philippines",
+   "India",
+   "Thailand",
+   "Viet Nam",
+   "Myanmar",
+   "Lao People's Democratic Republic"
+  ],
+  "language": "en",
+  "url": "https://interaksyon.philstar.com/politics-issues/2024/05/15/275525/asias-extreme-april-heat-worsened-by-climate-change-scientists-say/",
+  "access": "open",
+  "format": "news",
+  "frame_primary": "science_attribution",
+  "frames_secondary": [
+   "emergency",
+   "inequality"
+  ],
+  "missing_middle": 1,
+  "mm_evidence": "Adaptation closing: Calls for heat action plans, without specifying financing or delivery arrangements.",
+  "actors_quoted": [
+   "scientist",
+   "NGO"
+  ],
+  "voice_of_affected": "no",
+  "solutions_depth": 1,
+  "followup": "no",
+  "data_used": [
+   "temperature",
+   "deaths"
+  ],
+  "humidity_mentioned": "no",
+  "gender_or_care": "no",
+  "informal_work": "no",
+  "loop_ids": [
+   "global",
+   "poverty",
+   "school"
+  ],
+  "summary_plain": "An attribution report links regional heat with climate change and unequal exposure. It calls for protection without explaining an operating delivery mechanism.",
+  "notes": {
+   "last_checked": "2026-10-31",
+   "selection_route": "baseline_reverification",
+   "outlet_type": "wire republication",
+   "evidence": [
+    {
+     "location": "Attribution findings and adaptation closing",
+     "fields": [
+      "frame_primary",
+      "frames_secondary",
+      "actors_quoted",
+      "voice_of_affected",
+      "data_used",
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "loop_ids"
+     ],
+     "note": "Attribution scientists and humanitarian expert speak; temperatures, deaths and school closures appear, without direct affected-person testimony."
+    },
+    {
+     "location": "Attribution findings and adaptation closing",
+     "fields": [
+      "missing_middle"
+     ],
+     "note": "Adaptation closing: Calls for heat action plans, without specifying financing or delivery arrangements."
+    },
+    {
+     "location": "Attribution findings and adaptation closing",
+     "fields": [
+      "solutions_depth",
+      "followup"
+     ],
+     "note": "Solution score 1: named measures without demonstrated effects. No specific earlier promise or intervention revisited."
+    },
+    {
+     "location": "Reviewed article body, excluding navigation, captions unrelated to the story and related-news boxes",
+     "fields": [
+      "humidity_mentioned",
+      "gender_or_care",
+      "informal_work",
+      "voice_of_affected",
+      "followup"
+     ],
+     "note": "No qualifying passage or direct affected-person account identified under the codebook definition."
+    }
+   ],
+   "byline_status": "Visible credit",
+   "translation": "Not applicable",
+   "legacy_id": "b52",
+   "credit": "Reporting by David Stanway; Editing by Subhranshu Sahu",
+   "country_rule": "Multi-country substantive attribution scope; country marginals overlap.",
+   "counting_country": "Regional (multi-country)",
+   "affected_woman_quoted": false,
+   "affected_woman_evidence": "No explicitly identified directly affected woman found among quoted speakers.",
+   "informal_worker_quoted": false
+  }
+ }
+]
