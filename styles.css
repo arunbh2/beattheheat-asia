@@ -3387,3 +3387,18 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 .sof-empty { padding: 28px; border-radius: 22px; border: 1.5px dashed var(--line); background: #fff; }
 .sof-log { line-height: 1.6; max-width: 80ch; }
 .cite-box { margin: 0 0 16px; padding: 18px 22px; border-left: 4px solid var(--orange); background: #fff; border-radius: 0 14px 14px 0; font-size: 1.02rem; line-height: 1.5; max-width: 760px; }
+
+/* ---- Corrections ---- */
+.corr-steps{list-style:none;margin:0 0 28px;padding:0;display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.corr-steps li{display:flex;gap:14px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px 20px}
+.corr-steps h3{margin:2px 0 6px;font-size:1.05rem}.corr-steps p{margin:0;color:var(--muted,#4a5560);line-height:1.55}
+.corr-cta{margin:0 0 36px}
+.hub-btn{display:inline-flex;align-items:center;gap:8px;background:var(--ink,#16202B);color:#fff!important;text-decoration:none;font-weight:600;padding:12px 20px;border-radius:999px}
+.hub-btn:hover,.hub-btn:focus-visible{background:var(--orange,#E8622C)}
+.corr-log{list-style:none;margin:0;padding:0;display:grid;gap:14px;max-width:820px}
+.corr{border-left:4px solid var(--orange,#E8622C);background:#fff;border-radius:0 12px 12px 0;padding:16px 20px}
+.corr p{margin:0 0 8px;line-height:1.6}.corr p:last-child{margin:0}
+.corr-d{font-size:.85rem;letter-spacing:.04em;text-transform:uppercase;color:var(--muted,#4a5560)}
+.corr-sorry{font-style:italic}
+.corr-steps .path-n{flex:none}
+.csf__cite a{color:inherit;text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--orange,#E8622C)}

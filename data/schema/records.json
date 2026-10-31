@@ -17,7 +17,9 @@
    "levers": "Optional list of lever ids from the map.",
    "added": "The month it entered the knowledge base: YYYY-MM. Set by the merge.",
    "changed": "The month of its last change: YYYY-MM. Set by the merge.",
-   "replaces": "Optional id of the record this one supersedes."
+   "replaces": "Optional id of the record this one supersedes.",
+   "correction": "Optional. When this record corrects something the site got wrong: what was wrong, in plain words. It is listed on /corrections/ with the record's summary as what changed.",
+   "sorry": "Optional. A short, sincere apology, shown with the correction where one is owed."
   }
  },
  "types": {

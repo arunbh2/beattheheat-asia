@@ -1,0 +1,8 @@
+{
+ "about": "The public corrections log. Newest first. Each entry says what was wrong, what changed and where, in plain words, with an apology where one is owed. Entries are never removed. The monthly update adds an entry for any knowledge-base record that carries a 'correction' note.",
+ "entries": [
+  { "date": "2026-10-31", "where": ["Across the site"], "what": "Many pages spoke in an instructing voice, telling cities, employers, funders and others what to do.",
+    "change": "We rewrote about 330 phrases to describe what helps, what it depends on and who could act, and added a check so the instructing voice cannot return. Laws, standards and quoted headlines keep their own words.",
+    "sorry": "We are sorry. The people closest to the heat know their places best, and the site is here to learn alongside them, not to direct them." }
+ ]
+}

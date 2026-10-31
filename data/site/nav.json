@@ -51,12 +51,13 @@
      ["/glossary/", "Glossary", "Sixty terms, each with a short film", 1],
      ["/approach/", "How Common Shade sees heat", "The ideas and standards behind the site", 1],
      ["/print/", "Printable one-pagers", "Briefs for officials, partners and funders", 2],
-     ["/cite/", "Cite and reuse", "How to cite the site and reuse its data", 2]
+     ["/cite/", "Cite and reuse", "How to cite the site and reuse its data", 2],
+     ["/corrections/", "Corrections", "What we got wrong, and what we changed", 2]
     ] }
  ],
- "footer_extra": [["/guide/", "How to use this site"], ["/paths/", "Paths by role"], ["/join/", "Help build Common Shade"], ["/cite/", "Cite and reuse"], ["/approach/", "How we check facts"], ["/llms-full.txt", "Everything as one text file"]],
+ "footer_extra": [["/guide/", "How to use this site"], ["/paths/", "Paths by role"], ["/join/", "Help build Common Shade"], ["/cite/", "Cite and reuse"], ["/approach/", "How we check facts"], ["/corrections/", "Corrections"], ["/llms-full.txt", "Everything as one text file"]],
  "names": {
   "/heat-economy/businesses/": "Businesses", "/heat-economy/money/": "Funders and funding", "/heat-economy/opportunities/": "Ideas", "/heat-economy/conditions/": "Questions to ask",
-  "/understand/": "Understand heat", "/act/": "Act", "/fund/": "Fund and build", "/evidence/": "News and evidence", "/paths/": "Paths by role"
+  "/understand/": "Understand heat", "/act/": "Act", "/fund/": "Fund and build", "/evidence/": "News and evidence", "/paths/": "Paths by role", "/corrections/": "Corrections"
  }
 }

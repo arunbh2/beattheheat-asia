@@ -112,6 +112,7 @@ function footer(pathname, title, updated) {
     </div>
     <p class="csf__extra">${NAV.footer_extra.map(([u, t]) => `<a href="${u}">${esc(t)}</a>`).join("")}</p>
     <p class="csf__cite"><b>Cite this page:</b> <span data-csn-cite>Common Shade. “${esc(title)}.” ${esc(url)}. Updated ${esc(updated)}. CC BY 4.0.</span> <button type="button" class="csf__copy" data-csn-copy>Copy</button></p>
+    <p class="csf__cite"><b>Spot something wrong?</b> We are building this together and will gladly correct it. <a href="/corrections/">See corrections, or suggest one</a></p>
     <p class="csf__text">Text versions, for slow connections and screen readers: ${TEXT.map(([u, t]) => `<a href="${u}">${esc(t)}</a>`).join(" · ")}</p>
   </div>
 </nav>`;
