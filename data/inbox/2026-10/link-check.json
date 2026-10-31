@@ -1,0 +1,29 @@
+{
+ "_terms": {
+  "https://en.prothomalo.com/environment/climate-change/qq8g2g85o8": {
+   "Narayanganj": true,
+   "heat": true
+  },
+  "https://www.eco-business.com/press-releases/philanthropy-asia-alliance-supports-southeast-asia-heat-health-hub-to-scale-coordinated-action-on-extreme-heat/": {
+   "Philanthropy Asia Alliance": true,
+   "Heat Health": true
+  },
+  "https://www.climateworks.org/press-release/global-heat-forum-gathers-600-leaders-to-scale-investment-for-extreme-heat-action/": {
+   "Global Heat Forum": true,
+   "Bangkok": true
+  },
+  "https://wmo.int/media/news/new-initiatives-launched-address-extreme-heat-south-asia": {
+   "South Asia": true,
+   "heat": true
+  },
+  "https://www.newsy-today.com/four-south-asian-neighbours-set-to-tackle-rising-heat-risk-together/": {
+   "Bhutan": true,
+   "Nepal": true
+  }
+ },
+ "https://en.prothomalo.com/environment/climate-change/qq8g2g85o8": "OK",
+ "https://www.eco-business.com/press-releases/philanthropy-asia-alliance-supports-southeast-asia-heat-health-hub-to-scale-coordinated-action-on-extreme-heat/": "OK",
+ "https://www.climateworks.org/press-release/global-heat-forum-gathers-600-leaders-to-scale-investment-for-extreme-heat-action/": "OK",
+ "https://wmo.int/media/news/new-initiatives-launched-address-extreme-heat-south-asia": "OK",
+ "https://www.newsy-today.com/four-south-asian-neighbours-set-to-tackle-rising-heat-risk-together/": "OK"
+}
