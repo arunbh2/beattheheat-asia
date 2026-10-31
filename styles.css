@@ -3727,3 +3727,11 @@ html.jn-js .jn-panel[hidden],html.jn-js .jn-panel-hint[hidden]{display:none}
   .intro--canopy .intro__live{order:1} .intro--canopy .intro__resume{order:8} .intro--canopy .intro__trust{order:8}
   .intro--canopy .intro__title{font-size:clamp(2.6rem,12vw,4.4rem)}
 }
+/* the wicked problem, on the first screen */
+.intro__wicked{margin:16px 0 0;padding:14px 18px;border-left:3px solid var(--orange);background:rgba(246,231,215,.06);border-radius:0 12px 12px 0;max-width:40rem}
+.intro__wicked-line{margin:0;font-family:var(--font-display);text-transform:uppercase;letter-spacing:.01em;font-size:clamp(1.05rem,.9rem + .8vw,1.45rem);line-height:1.15;color:var(--cream)}
+.intro__wicked-acts{display:flex;flex-wrap:wrap;align-items:center;gap:8px 18px;margin:12px 0 0}
+.intro__watch{font:inherit;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;gap:8px;padding:7px 14px 7px 8px;border-radius:999px;border:1px solid rgba(246,231,215,.4);background:transparent;color:var(--cream)}
+.intro__watch:hover,.intro__watch:focus-visible{background:var(--cream);color:var(--ink)}.intro__watch span:last-child{font-weight:400;opacity:.8}
+.intro__wicked-acts a{color:var(--cream);font-weight:600;text-decoration:underline;text-decoration-color:var(--orange);text-underline-offset:4px}
+@media (max-width:899px){.intro--canopy .intro__wicked{order:2;margin-top:4px}.intro--canopy .intro__title{order:2}.intro--canopy .intro__tagline{order:3}}
