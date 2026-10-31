@@ -342,6 +342,10 @@ $$(".csn__panel").forEach(function(p){p.addEventListener("focusout",function(e){
 var bur=$(".csn__burger"),sheet=$("#csn-sheet");
 function sheetSet(v){sheet.hidden=!v;bur.setAttribute("aria-expanded",String(v));document.documentElement.style.overflow=v?"hidden":"";document.documentElement.style.setProperty("--csn-h",H.getBoundingClientRect().height+"px")}
 if(bur)bur.addEventListener("click",function(){sheetSet(sheet.hidden)});
+// never leave the page locked: close the phone menu when the screen widens past it (a tablet turning, a window resizing),
+// and when a page comes back from the browser's history
+if(sheet&&window.matchMedia){var wide=matchMedia("(min-width: 961px)");var fit=function(){if(wide.matches&&!sheet.hidden)sheetSet(false)};if(wide.addEventListener)wide.addEventListener("change",fit);else if(wide.addListener)wide.addListener(fit)}
+window.addEventListener("pageshow",function(){if(sheet&&!sheet.hidden)sheetSet(false);else document.documentElement.style.overflow=""});
 document.addEventListener("keydown",function(e){if(e.key==="Escape"&&sheet&&!sheet.hidden){sheetSet(false);bur.focus()}});
 if(sheet)sheet.addEventListener("click",function(e){if(e.target.closest("a"))sheetSet(false)});
 /* search: the index loads the first time it is opened */
@@ -380,7 +384,7 @@ function apply(){var p=byId(get());H.classList.toggle("csn--onpath",!!p);$$("[da
 apply();
 /* copy the citation */
 $$("[data-csn-copy]").forEach(function(b){b.addEventListener("click",function(){var t=$("[data-csn-cite]").textContent;(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){b.textContent="Copied"},function(){b.textContent="Select and copy"})})});
-})();</script><script src="/ticker.js?v=151" defer></script><!--/csn-->
+})();</script><script src="/ticker.js?v=152" defer></script><!--/csn-->
 <footer>
     <div>
       <p><b>Common Shade</b> · A living map of extreme heat in South and Southeast Asia, updated as the evidence grows. Live page: beattheheat.asia/#city-manila</p>

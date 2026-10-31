@@ -14,7 +14,7 @@
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2316202B'/%3E%3Cpath d='M5 14 Q16 4 27 14' fill='none' stroke='%23F26430' stroke-width='4.5' stroke-linecap='round'/%3E%3Cpath d='M9 13 V27 M23 13 V27' stroke='%23F6E7D7' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
-  <link rel="stylesheet" href="/styles.css?v=151">
+  <link rel="stylesheet" href="/styles.css?v=152">
 <!--csn--><style id="csn-css">html:has(.csn){scroll-padding-top:120px}
 .csn,.csf,.csn-d,.csp{--ink:#16202B;--ink2:#39424D;--grey:#5E6570;--canvas:#FAF7F2;--sand:#F2E7D9;--line:#E6DFD4;--orange:#F26430;--ember:#B8401A;--green:#17703A;font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);line-height:1.4}
 .csn{position:sticky;top:0;z-index:60;margin:0!important;padding:0!important;max-width:none!important;display:block!important;background:rgba(250,247,242,.96);border-bottom:1px solid var(--line);-webkit-backdrop-filter:saturate(1.2) blur(10px);backdrop-filter:saturate(1.2) blur(10px)}
@@ -319,6 +319,10 @@ $$(".csn__panel").forEach(function(p){p.addEventListener("focusout",function(e){
 var bur=$(".csn__burger"),sheet=$("#csn-sheet");
 function sheetSet(v){sheet.hidden=!v;bur.setAttribute("aria-expanded",String(v));document.documentElement.style.overflow=v?"hidden":"";document.documentElement.style.setProperty("--csn-h",H.getBoundingClientRect().height+"px")}
 if(bur)bur.addEventListener("click",function(){sheetSet(sheet.hidden)});
+// never leave the page locked: close the phone menu when the screen widens past it (a tablet turning, a window resizing),
+// and when a page comes back from the browser's history
+if(sheet&&window.matchMedia){var wide=matchMedia("(min-width: 961px)");var fit=function(){if(wide.matches&&!sheet.hidden)sheetSet(false)};if(wide.addEventListener)wide.addEventListener("change",fit);else if(wide.addListener)wide.addListener(fit)}
+window.addEventListener("pageshow",function(){if(sheet&&!sheet.hidden)sheetSet(false);else document.documentElement.style.overflow=""});
 document.addEventListener("keydown",function(e){if(e.key==="Escape"&&sheet&&!sheet.hidden){sheetSet(false);bur.focus()}});
 if(sheet)sheet.addEventListener("click",function(e){if(e.target.closest("a"))sheetSet(false)});
 /* search: the index loads the first time it is opened */
@@ -357,7 +361,7 @@ function apply(){var p=byId(get());H.classList.toggle("csn--onpath",!!p);$$("[da
 apply();
 /* copy the citation */
 $$("[data-csn-copy]").forEach(function(b){b.addEventListener("click",function(){var t=$("[data-csn-cite]").textContent;(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){b.textContent="Copied"},function(){b.textContent="Select and copy"})})});
-})();</script><script src="/ticker.js?v=151" defer></script><!--/csn-->
+})();</script><script src="/ticker.js?v=152" defer></script><!--/csn-->
 <footer class="wkp-foot"><div class="container">
     <p>From a structured rapid evidence map compiled in October 2026, not an exhaustive systematic review. Listing a solution, programme or organisation does not imply endorsement, partnership or ranking. Every source links to its publisher; links that failed our check are left out. Text: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0<span class="visually-hidden"> (opens in a new tab)</span></a>. <a href="/sources/">All sources</a> · <a href="/">Back to the map</a></p>
   </div></footer>

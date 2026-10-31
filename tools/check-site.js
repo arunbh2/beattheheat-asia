@@ -23,7 +23,10 @@ server.listen(0, async () => {
     for (const pg of pages) { errs = [];
       const r = await p.goto(`http://127.0.0.1:${port}/${pg}`, { waitUntil: "load" }).catch(e => ({ status: () => 0 }));
       const ov = await p.evaluate(() => document.documentElement.scrollWidth - innerWidth).catch(() => 0);
-      if (!r || r.status() !== 200 || ov > 1 || errs.length) bad.push(`${w}px /${pg}: ${r && r.status() !== 200 ? "status " + r.status() + " " : ""}${ov > 1 ? "scrolls sideways " + ov + "px " : ""}${errs.join(" | ")}`); }
+      // on a phone, nothing large may capture touch: a swipe that lands on it would stop the page from scrolling
+      const trap = w > 500 ? "" : await p.evaluate(() => { const A = innerWidth * innerHeight; for (const e of document.querySelectorAll("body *")) { const t = getComputedStyle(e).touchAction;
+        if (t === "none" || t === "pinch-zoom" || (t.includes("pan-x") && !t.includes("pan-y"))) { const r = e.getBoundingClientRect(); if (r.width * r.height > 0.3 * A) return `${e.tagName.toLowerCase()}${e.className && typeof e.className === "string" ? "." + e.className.split(" ")[0] : ""} (touch-action: ${t})`; } } return ""; }).catch(() => "");
+      if (!r || r.status() !== 200 || ov > 1 || trap || errs.length) bad.push(`${w}px /${pg}: ${r && r.status() !== 200 ? "status " + r.status() + " " : ""}${ov > 1 ? "scrolls sideways " + ov + "px " : ""}${trap ? "blocks scrolling on touch: " + trap + " " : ""}${errs.join(" | ")}`); }
     await p.close();
   }
   await b.close(); server.close();
