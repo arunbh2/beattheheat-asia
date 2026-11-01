@@ -1,9 +1,9 @@
 name: Check the knowledge base
 on:
   push:
-    paths: ["data/**", "tools/build-data.js", "tools/check-data.js", "tools/check-voice.js", "data.js", "**/*.html"]
+    paths: ["data/**", "tools/living-evidence/**", "tools/hap-archive.js", "tools/check-hap-archive.js", "research/india-hap-archive/**", "tools/build-data.js", "tools/check-data.js", "tools/check-voice.js", "data.js", "**/*.html"]
   pull_request:
-    paths: ["data/**", "tools/build-data.js", "tools/check-data.js", "tools/check-voice.js", "data.js", "**/*.html"]
+    paths: ["data/**", "tools/living-evidence/**", "tools/hap-archive.js", "tools/check-hap-archive.js", "research/india-hap-archive/**", "tools/build-data.js", "tools/check-data.js", "tools/check-voice.js", "data.js", "**/*.html"]
 jobs:
   check:
     runs-on: ubuntu-latest
@@ -17,3 +17,5 @@ jobs:
         run: node tools/check-data.js
       - name: no page speaks in an instructing voice
         run: node tools/check-voice.js
+      - name: the weekly evidence review queue is complete where accepted
+        run: node tools/living-evidence/check.js

@@ -1,0 +1,56 @@
+# The weekly evidence review (tools/living-evidence/). Every Monday, harvests new studies on heat-health, passive
+# cooling and heat finance in South and Southeast Asia from open research services, screens them, pre-fills fields
+# from their abstracts, and opens a pull request with the week's review queue (data/evidence/inbox/<week>.json).
+# A reviewer marks each study accept or reject and completes its review fields; merging the pull request is the
+# sign-off, and the Evidence map shows accepted studies at the next build. Free: no keys, no paid services.
+# Needs, once: Settings > Actions > General > "Allow GitHub Actions to create and approve pull requests".
+name: Weekly evidence review
+on:
+  schedule:
+    - cron: "17 3 * * 1"
+  workflow_dispatch:
+    inputs:
+      days:
+        description: How many days back to look
+        default: "8"
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: evidence-weekly
+  cancel-in-progress: false
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Harvest, screen and pre-fill
+        id: h
+        run: node tools/living-evidence/harvest.js --days "${{ inputs.days || '8' }}"
+      - name: Open the review pull request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          WEEK: ${{ steps.h.outputs.week }}
+          QUEUED: ${{ steps.h.outputs.queued }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          BR="evidence/$WEEK"
+          git checkout -B "$BR"
+          git add data/evidence
+          if git diff --cached --quiet; then echo "Nothing new this week."; exit 0; fi
+          git commit -m "Evidence review queue for $WEEK ($QUEUED studies)"
+          git push -f origin "$BR"
+          BODY=$(printf '%s\n' \
+            "**$QUEUED studies** queued for review this week, in \`data/evidence/inbox/$WEEK.json\`." "" \
+            "For each study: read it (the link, and the abstract in this run's log), then set \`decision\` to \`accept\` or \`reject\`." \
+            "For an accepted study, fill \`review\`: \`cycle\` (a cycle id), \`finding\` (one or two sentences in your own words), \`grade\` (peer, preprint, official, model or other), \`where\`, and any of sample size, effect size, unit cost, climate zone, failure modes and limit that the study supports." \
+            "The \`suggested\` fields were copied from the abstract by rule, with the sentence each came from. Check them against the study; never copy one you cannot confirm." "" \
+            "The check on this pull request must pass. Merging is the sign-off: accepted studies then appear on the Evidence map. Leave a study as \`pending\` to decide later." "" \
+            "Guide: \`data/evidence/README.md\`")
+          gh pr create --base "${{ github.event.repository.default_branch }}" --head "$BR" --title "Evidence review: $WEEK ($QUEUED studies)" --body "$BODY" \
+            || echo "::warning::Could not open the pull request (allow Actions to create pull requests in the repository settings). The queue is on branch $BR."
