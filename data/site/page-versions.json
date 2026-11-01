@@ -31,6 +31,10 @@
   "hash": "9d67fa913b81a923",
   "changed": "2026-10-01"
  },
+ "/briefs/heat-mothers-children-minds/": {
+  "hash": "c6d8fb808df517c8",
+  "changed": "2026-10-01"
+ },
  "/build/": {
   "hash": "4e9a56824ff75f37",
   "changed": "2026-10-01"
@@ -41,55 +45,55 @@
  },
  "/cities/": {
   "hash": "8a8811a365d0e6ff",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/cities/ahmedabad/": {
   "hash": "f8347f665669bc7e",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/cities/bangkok/": {
   "hash": "dfd5b18e400f1c87",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/cities/colombo/": {
   "hash": "8bfa348c331c743d",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/cities/delhi/": {
   "hash": "5b7f0e74ef5da2a4",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/cities/dhaka/": {
   "hash": "1785e5ff61d9e223",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/cities/hanoi/": {
   "hash": "adb89e2761637f64",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/cities/jakarta/": {
   "hash": "93267fb063b6de89",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/cities/kathmandu/": {
   "hash": "a15a80357bf8d813",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/cities/manila/": {
   "hash": "35f89e1859a43c0e",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/cities/mumbai/": {
   "hash": "5ce560c2dd0c95fd",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/cities/phnompenh/": {
   "hash": "fab69cc422299392",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/cities/singapore/": {
   "hash": "74c6430be65df3da",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/cooling-options/": {
   "hash": "6748a35a4255bdba",
@@ -101,43 +105,43 @@
  },
  "/countries/": {
   "hash": "b3ffff3feb63ee0e",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/countries/bangladesh/": {
   "hash": "3ec98e0150f73577",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/countries/india/": {
   "hash": "095dadcc114f9de5",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/countries/indonesia/": {
   "hash": "bfd459d5e7645d9b",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/countries/nepal/": {
   "hash": "bf3bec42176131da",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/countries/philippines/": {
   "hash": "bd316878a4c15633",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/countries/sri-lanka/": {
   "hash": "3c74eca0da44ad82",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/countries/thailand/": {
   "hash": "c43cd1569f51212a",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/evidence-map/": {
-  "hash": "b274f7d2ba5ab238",
+  "hash": "24c0515444afc3ab",
   "changed": "2026-11-01"
  },
  "/evidence/": {
-  "hash": "e8e20e4c461e7fc6",
-  "changed": "2026-10-31"
+  "hash": "5a3ec2716b812da5",
+  "changed": "2026-11-01"
  },
  "/finance/": {
   "hash": "e9e1e8d156d9ef55",
@@ -157,15 +161,15 @@
  },
  "/heat-economy/": {
   "hash": "3ce0703499394ce6",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/heat-economy/businesses/": {
   "hash": "553018e1dc64e26f",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/heat-economy/conditions/": {
   "hash": "d4d731bfcba8e191",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/heat-economy/flows/": {
   "hash": "9176c40a9d04acbc",
@@ -173,23 +177,23 @@
  },
  "/heat-economy/money/": {
   "hash": "ca87929b2be81deb",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/heat-economy/opportunities/": {
   "hash": "a9c24ee6b230afcb",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/heat-network/": {
   "hash": "dc55e342f3772ccd",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/heatwaves/": {
   "hash": "2a64c785418b290a",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/how-heat-is-reported/": {
   "hash": "56ecb6acc74902d7",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/join/": {
   "hash": "975b8ef527db20e4",
@@ -197,7 +201,7 @@
  },
  "/lancet-countdown-2026/": {
   "hash": "8e9c2566a71637dc",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/live-through-a-heatwave/": {
   "hash": "eb8d7ab1a4ad8dca",
@@ -253,7 +257,7 @@
  },
  "/practical-actions/": {
   "hash": "00e3876fc1f05d98",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/practical/": {
   "hash": "47268dae3179bd1c",
@@ -401,7 +405,7 @@
  },
  "/solutions/": {
   "hash": "bea42f117cfce16d",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  },
  "/sources/": {
   "hash": "e13c2a0efd2f032c",
@@ -433,6 +437,6 @@
  },
  "/worked-plans/": {
   "hash": "0d5d88d43f8d8389",
-  "changed": "2026-10-31"
+  "changed": "2026-11-01"
  }
 }
