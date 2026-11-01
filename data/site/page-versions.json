@@ -176,7 +176,7 @@
   "changed": "2026-10-31"
  },
  "/heat-economy/money/": {
-  "hash": "ca87929b2be81deb",
+  "hash": "979f36f9b5d234a5",
   "changed": "2026-11-01"
  },
  "/heat-economy/opportunities/": {
@@ -193,6 +193,10 @@
  },
  "/how-heat-is-reported/": {
   "hash": "56ecb6acc74902d7",
+  "changed": "2026-11-01"
+ },
+ "/intersections/": {
+  "hash": "a2f1d990a20be0a8",
   "changed": "2026-11-01"
  },
  "/join/": {
@@ -408,7 +412,7 @@
   "changed": "2026-11-01"
  },
  "/sources/": {
-  "hash": "e13c2a0efd2f032c",
+  "hash": "9d46bdb73b71b860",
   "changed": "2026-11-01"
  },
  "/the-web/": {
@@ -420,8 +424,8 @@
   "changed": "2026-10-01"
  },
  "/understand/": {
-  "hash": "da4a298623a1239d",
-  "changed": "2026-10-01"
+  "hash": "97f8baed7402642a",
+  "changed": "2026-11-01"
  },
  "/whats-new/": {
   "hash": "88db622abfabfa2a",
@@ -432,7 +436,7 @@
   "changed": "2026-10-01"
  },
  "/who-is-at-risk/": {
-  "hash": "e27279c9380add30",
+  "hash": "06467a6cf41e7228",
   "changed": "2026-11-01"
  },
  "/worked-plans/": {
