@@ -1,0 +1,8 @@
+{
+  "about": "Records from the first pass's unresolved list (batch-1/India_Heat_Action_Plans_Unresolved.csv) that a later pass verified. Each maps the old unresolved id to the verified record that replaces it, so the gap is no longer shown. Source: India_HAP_Batch_2_Coverage_Report.md, 'Verification and important corrections' (Pimpri-Chinchwad 2024, Himachal Pradesh 2024 and Uttar Pradesh 2024 recovered).",
+  "resolved": {
+    "IN-UP-STATE-UP-UNKNOWN": "IN-UP-STATE-UP-2024",
+    "IN-HP-STATE-HP-UNKNOWN": "IN-HP-STATE-HP-2024",
+    "IN-MH-CITY-PIMPRI-CHINCHWAD-UNKNOWN": "IN-MH-CITY-PIMPRI-CHINCHWAD-2024"
+  }
+}

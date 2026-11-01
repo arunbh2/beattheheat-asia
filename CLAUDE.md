@@ -52,7 +52,7 @@ Counts are calculated from data at build time. Never type a count into a page; r
 - Keep each change to what was asked. Prefer targeted edits to rewrites.
 
 ## Heat action plan research (observatory)
-- The India archive is built from `research/india-hap-archive/`. Replace the CSV, update `expected.json`, rebuild and run `npm run check:hap`. Document types come only from the notes prefix. Years are shown as printed. Unresolved rows never count as verified.
+- The India archive is built from `research/india-hap-archive/India_HAP_Combined_Verified.json`, a complete replacement catalogue. Do not append additions. To update it, replace the combined files, record recovered gaps in `resolved.json`, update `expected.json`, rebuild and run `npm run check:hap`. The type comes from `document_type`, which must match the notes prefix. Editions are shown as printed. Leads and unresolved rows never count as verified. See the README in that folder.
 - Planned plan scoring:
   - Put extracted text (not PDFs) in `research/hap-text/<id>.txt`.
   - Score against `research/hap-rubric.md` into `research/hap-scores/<id>.json`.

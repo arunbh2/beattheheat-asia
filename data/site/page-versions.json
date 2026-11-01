@@ -116,7 +116,7 @@
   "changed": "2026-11-01"
  },
  "/countries/india/": {
-  "hash": "7bd9a94a8127a5ea",
+  "hash": "a17a123033b885f6",
   "changed": "2026-11-01"
  },
  "/countries/indonesia/": {
@@ -412,15 +412,15 @@
   "changed": "2026-11-01"
  },
  "/resources/": {
-  "hash": "ba8bd1ed089ae731",
-  "changed": "2026-10-01"
+  "hash": "7dafda973aff6b6a",
+  "changed": "2026-11-01"
  },
  "/resources/heat-action-plans/": {
-  "hash": "8afbb242c31b0123",
-  "changed": "2026-10-01"
+  "hash": "21cafb99b315a186",
+  "changed": "2026-11-01"
  },
  "/resources/heat-action-plans/india/": {
-  "hash": "61fc69f13691601f",
+  "hash": "b42168052e5309f5",
   "changed": "2026-11-01"
  },
  "/solutions/": {
@@ -456,7 +456,7 @@
   "changed": "2026-11-01"
  },
  "/worked-plans/": {
-  "hash": "d5a4564a3dfa88e7",
+  "hash": "28de2bca6b1e17d8",
   "changed": "2026-11-01"
  }
 }

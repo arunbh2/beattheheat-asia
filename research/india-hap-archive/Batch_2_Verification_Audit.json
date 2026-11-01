@@ -1,0 +1,1061 @@
+{
+  "checked": "2026-11-01",
+  "prior_verified_records": 113,
+  "new_verified_records": 33,
+  "unverified_leads": 67,
+  "combined_verified_records": 146,
+  "records": [
+    {
+      "id": "IN-PB-DISTRICT-FEROZEPUR-2025",
+      "source_url": "https://cdn.s3waas.gov.in/s3a8c88a0055f636e4a163a5e3d16adab7/uploads/2025/04/2025042394.pdf",
+      "source_reference": "turn249view0",
+      "corroborating_references": [],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "39",
+      "observed_text_lines": "1457",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "HAP; Printed year on cover."
+    },
+    {
+      "id": "IN-UP-DISTRICT-AMETHI-2024-25",
+      "source_url": "https://cdn.s3waas.gov.in/s3cfa0860e83a4c3a763a7e62d825349f7/uploads/2024/09/2024090511.pdf",
+      "source_reference": "turn250view3",
+      "corroborating_references": [],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "30",
+      "observed_text_lines": "896",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "HAP; Proposal printed on cover; repository labels 2024."
+    },
+    {
+      "id": "IN-UP-DISTRICT-JHANSI-2024",
+      "source_url": "https://cdn.s3waas.gov.in/s38efb100a295c0c690931222ff4467bb8/uploads/2024/09/2024091815.pdf",
+      "source_reference": "turn250view4",
+      "corroborating_references": [],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "33",
+      "observed_text_lines": "1607",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "HAP; Mainly Hindi with English headings and reporting forms."
+    },
+    {
+      "id": "IN-UP-CITY-JHANSI-2025",
+      "source_url": "https://jnnjhansi.com/docs/Jhansi%20Heat%20Wave.pdf",
+      "source_reference": "turn256view5",
+      "corroborating_references": [
+        "turn253search37"
+      ],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "102",
+      "observed_text_lines": "2810",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "HAP; Printed 2025 established by indexed cover; PDF text confirms city plan."
+    },
+    {
+      "id": "IN-UP-DISTRICT-SHAHJAHANPUR-2026",
+      "source_url": "https://cdn.s3waas.gov.in/s3bcbe3365e6ac95ea2c0343a2395834dd/uploads/2026/06/17805563056482.pdf",
+      "source_reference": "turn258view0",
+      "corroborating_references": [],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "51",
+      "observed_text_lines": "2438",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "HAP; Printed year on cover."
+    },
+    {
+      "id": "IN-UP-DISTRICT-SHAHJAHANPUR-2025",
+      "source_url": "https://cdn.s3waas.gov.in/s3bcbe3365e6ac95ea2c0343a2395834dd/uploads/2025/03/2025032664.pdf",
+      "source_reference": "turn259view1",
+      "corroborating_references": [],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "50",
+      "observed_text_lines": "2428",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "HAP; Printed year on cover."
+    },
+    {
+      "id": "IN-UP-DISTRICT-SHAHJAHANPUR-2024",
+      "source_url": "https://cdn.s3waas.gov.in/s3bcbe3365e6ac95ea2c0343a2395834dd/uploads/2024/03/2024032339.pdf",
+      "source_reference": "turn259view2",
+      "corroborating_references": [],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "48",
+      "observed_text_lines": "2318",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "HAP; Printed year on cover."
+    },
+    {
+      "id": "IN-UP-DISTRICT-SHAHJAHANPUR-2023",
+      "source_url": "https://cdn.s3waas.gov.in/s3bcbe3365e6ac95ea2c0343a2395834dd/uploads/2023/03/2023032122.pdf",
+      "source_reference": "turn259view3",
+      "corroborating_references": [],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "29",
+      "observed_text_lines": "1080",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "HAP; Printed year on cover."
+    },
+    {
+      "id": "IN-UP-DISTRICT-LAKHIMPUR-KHERI-2025",
+      "source_url": "https://cdn.s3waas.gov.in/s3a2557a7b2e94197ff767970b67041697/uploads/2025/04/2025041175.pdf",
+      "source_reference": "turn259view4",
+      "corroborating_references": [],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "52",
+      "observed_text_lines": "1663",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "HAP; Printed year on cover."
+    },
+    {
+      "id": "IN-UP-DISTRICT-LAKHIMPUR-KHERI-2026-27",
+      "source_url": "https://cdn.s3waas.gov.in/s3a2557a7b2e94197ff767970b67041697/uploads/2026/01/17695929992821.pdf",
+      "source_reference": "turn259view5",
+      "corroborating_references": [],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "55",
+      "observed_text_lines": "1900",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "HAP; Printed year on title page; hosting page calls this 2026."
+    },
+    {
+      "id": "IN-UP-DISTRICT-LAKHIMPUR-KHERI-2024-25",
+      "source_url": "https://cdn.s3waas.gov.in/s3a2557a7b2e94197ff767970b67041697/uploads/2024/09/2024091998-1.pdf",
+      "source_reference": "turn259view6",
+      "corroborating_references": [],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "48",
+      "observed_text_lines": "1284",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "HAP; Printed period on cover."
+    },
+    {
+      "id": "IN-RJ-DISTRICT-DUNGARPUR-2025",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/dam/dmr/files/heatwave2025/Dungarpur.pdf",
+      "source_reference": "turn242view4",
+      "corroborating_references": [],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "73",
+      "observed_text_lines": "2400",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "HAP; English cover and predominantly Hindi body."
+    },
+    {
+      "id": "IN-UP-STATE-UP-2024",
+      "source_url": "https://pure.manchester.ac.uk/ws/portalfiles/portal/352692064/Heat_Wave_Action_Plan-2024.pdf",
+      "source_reference": "turn261view1",
+      "corroborating_references": [],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "107",
+      "observed_text_lines": "2721",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "HAP; Cover says 2024; institutional mirror recovered previous unresolved state edition."
+    },
+    {
+      "id": "IN-HP-STATE-HP-2024",
+      "source_url": "https://hpsdma.hp.gov.in/WriteReadData/LINKS/0e2d66eb-434d-4992-8d06-fb66f6bbc7a4.pdf",
+      "source_reference": "turn262view1",
+      "corroborating_references": [],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "37",
+      "observed_text_lines": "1574",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "HAP; Cover prints 2024 and a retained 2020 label; 2024 edition heading corroborated by official listing."
+    },
+    {
+      "id": "IN-HP-STATE-HP-UNDATED",
+      "source_url": "https://hpsdma.nic.in/WriteReadData/LINKS/re592f2d85-6e6f-4241-a34a-d51def32677d.pdf",
+      "source_reference": "turn272view1",
+      "corroborating_references": [],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "38",
+      "observed_text_lines": "1576",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "HAP; Ambiguous edition: cover contains both (2020) and (2023). Neither selected as sole edition year."
+    },
+    {
+      "id": "IN-RJ-STATE-RJ-2017",
+      "source_url": "https://iiphg.edu.in/images/pdfs/2019/RCCPHAP.pdf",
+      "source_reference": "turn272view5",
+      "corroborating_references": [],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "58",
+      "observed_text_lines": "1817",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "HAP; Draft printed on cover; 2017 printed in running title."
+    },
+    {
+      "id": "IN-RJ-DISTRICT-PALI-2025",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/dam/dmr/files/heatwave2025/PALI.pdf",
+      "source_reference": "turn278view2",
+      "corroborating_references": [
+        "turn277search26"
+      ],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "36",
+      "observed_text_lines": "873",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "HAP; Printed cover year confirmed in indexed document text; direct PDF resolved with readable heat-response content."
+    },
+    {
+      "id": "IN-RJ-DISTRICT-HANUMANGARH-2025",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/dam/dmr/files/heatwave2025/Hanumangarh.pdf",
+      "source_reference": "turn242view5",
+      "corroborating_references": [
+        "turn291search3"
+      ],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "31",
+      "observed_text_lines": "767",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "HAP; Printed cover text confirmed by search retrieval; direct PDF resolved with 31 pages."
+    },
+    {
+      "id": "IN-RJ-DISTRICT-BARMER-2025",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/dam/dmr/files/heatwave2025/BARMER.pdf",
+      "source_reference": "turn241view6",
+      "corroborating_references": [
+        "turn291search4"
+      ],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "29",
+      "observed_text_lines": "123",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "HAP; PDF presentation format; indexed title reads HEAT WAVE ACTION PLAN - 2025. Language not established."
+    },
+    {
+      "id": "IN-RJ-DISTRICT-DEEG-2025",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/dam/dmr/files/heatwave2025/Deeg.pdf",
+      "source_reference": "turn242view2",
+      "corroborating_references": [
+        "turn244search31",
+        "turn292search10"
+      ],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "26",
+      "observed_text_lines": "0",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "HAP; Scanned PDF resolves; indexed OCR independently establishes district, action-plan content and printed 2025. Full visual review not performed."
+    },
+    {
+      "id": "IN-UP-DISTRICT-BAGHPAT-2026",
+      "source_url": "https://cdn.s3waas.gov.in/s3f7e6c85504ce6e82442c770f7c8606f0/uploads/2026/04/17757266005297.pdf",
+      "source_reference": "turn287view0",
+      "corroborating_references": [],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "62",
+      "observed_text_lines": "1932",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "HAP; Cover says 2026 while repository groups under 2026-27."
+    },
+    {
+      "id": "IN-UP-DISTRICT-BAGHPAT-2024",
+      "source_url": "https://cdn.s3waas.gov.in/s3f7e6c85504ce6e82442c770f7c8606f0/uploads/2024/04/2024040237.pdf",
+      "source_reference": "turn288view1",
+      "corroborating_references": [],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "52",
+      "observed_text_lines": "1424",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "HAP; Cover says 2024 while repository groups under 2024-25."
+    },
+    {
+      "id": "IN-MH-DISTRICT-LATUR-HEALTH-2026-27",
+      "source_url": "https://cdn.s3waas.gov.in/s317e62166fc8586dfa4d1bc0e1742c08b/uploads/2026/06/17810050802992.pdf",
+      "source_reference": "turn288view3",
+      "corroborating_references": [],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "44",
+      "observed_text_lines": "1144",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "EMBEDDED_HEAT_HEALTH_PLAN; Official page labels district Heat Wave Action Plan, but PDF is a broader climate-health plan with dedicated Health Action Plan on Heat and Health. Pages count whole volume."
+    },
+    {
+      "id": "IN-TN-STATE-URBAN-COOLING-GUIDELINES-2026",
+      "source_url": "https://southasia.iclei.org/wp-content/uploads/2025/06/TN-Urban-cooling-guidelines_ICLEISA_low-res.pdf",
+      "source_reference": "turn288view4",
+      "corroborating_references": [],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "124",
+      "observed_text_lines": "3222",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "GUIDANCE; Cover and copyright say February 2026 despite /2025/06/ URL path."
+    },
+    {
+      "id": "IN-ALL-NATIONAL-PREGNANCY-AWARENESS-UNDATED",
+      "source_url": "https://ncdc.mohfw.gov.in/uploads/pdf/heat26.pdf",
+      "source_reference": "turn281view8",
+      "corroborating_references": [],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "6",
+      "observed_text_lines": "254",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "GUIDANCE; Six-page brochure; two-page A4 layout contains substantially the same text and is an alternate format, not another document."
+    },
+    {
+      "id": "IN-ALL-NATIONAL-STATE-ADVISORY-2026",
+      "source_url": "https://ncdc.mohfw.gov.in/uploads/pdf/1.%20Heat%20wave%20advisory%20for%20State%20Health%20department_2026.pdf",
+      "source_reference": "turn282view0",
+      "corroborating_references": [],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "5",
+      "observed_text_lines": "214",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "GUIDANCE; Printed Summer 2026; distinct from 2025 advisory."
+    },
+    {
+      "id": "IN-ALL-NATIONAL-PUBLIC-ADVISORY-2026",
+      "source_url": "https://ncdc.mohfw.gov.in/uploads/pdf/5.%20Public%20Health%20Advisory_Extreme%20HeatHeatwave.pdf",
+      "source_reference": "turn282view1",
+      "corroborating_references": [],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "3",
+      "observed_text_lines": "137",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "GUIDANCE; Footer explicitly prints 2026."
+    },
+    {
+      "id": "IN-ALL-NATIONAL-HEALTH-IMPACTS-UNDATED",
+      "source_url": "https://ncdc.mohfw.gov.in/uploads/pdf/6.%20Health%20Impact%20of%20Heat_Heat%20Related%20Illnesses.pdf",
+      "source_reference": "turn282view2",
+      "corroborating_references": [],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "1",
+      "observed_text_lines": "58",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "GUIDANCE; One-page health advisory; no printed edition year established."
+    },
+    {
+      "id": "IN-UP-DISTRICT-MATHURA-2024",
+      "source_url": "https://cdn.s3waas.gov.in/s326e359e83860db1d11b6acca57d8ea88/uploads/2024/08/2024081670.pdf",
+      "source_reference": "turn299view4",
+      "corroborating_references": [],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "49",
+      "observed_text_lines": "1194",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "HAP; Cover prints 2024."
+    },
+    {
+      "id": "IN-UP-CITY-SHAHJAHANPUR-UNDATED",
+      "source_url": "https://cdn.s3waas.gov.in/s3bcbe3365e6ac95ea2c0343a2395834dd/uploads/2026/06/17805559255599.pdf",
+      "source_reference": "turn300view3",
+      "corroborating_references": [],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "91",
+      "observed_text_lines": "2712",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "HAP; Official page labels 2026; document body confirms city plan but printed edition year not established. Distinct from district plan."
+    },
+    {
+      "id": "IN-RJ-DISTRICT-ALWAR-UNDATED",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/dam/dmr/files/heatwave2025/Alwar.pdf",
+      "source_reference": "turn241view2",
+      "corroborating_references": [
+        "turn269search18"
+      ],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "21",
+      "observed_text_lines": "0",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "HAP; Direct scanned PDF resolved; indexed OCR confirms heat plan and Alwar jurisdiction. Printed edition year not established; repository path says 2025."
+    },
+    {
+      "id": "IN-RJ-DISTRICT-BANSWARA-UNDATED",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/dam/dmr/files/heatwave2025/BANSWARA.pdf",
+      "source_reference": "turn241view4",
+      "corroborating_references": [],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "31",
+      "observed_text_lines": "776",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "HAP; Readable content establishes heat-response responsibilities and Banswara officers; printed edition year not established. PDF presentation format."
+    },
+    {
+      "id": "IN-MH-CITY-PIMPRI-CHINCHWAD-2024",
+      "source_url": "https://www.pcmcindia.gov.in/marathi/pdf/Heat-Action-Plan.pdf",
+      "source_reference": "turn302view2",
+      "corroborating_references": [],
+      "checked": "2026-11-01",
+      "observed_content_type": "application/pdf",
+      "observed_pdf_pages": "186",
+      "observed_text_lines": "4772",
+      "verification_method": "research PDF resolution plus relevant document text; indexed OCR or indexed cover used where noted",
+      "binary_download_performed": false,
+      "evidence_summary": "HAP; Copyright 2024; draft consultation status in contemporaneous municipal announcement, adoption not established. Recovered previously unresolved document."
+    },
+    {
+      "id": "IN-RJ-DISTRICT-AJMER-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Observed download link timed out; relevant PDF content not established.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-BALOTRA-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Observed download exceeds research retrieval size limit; PDF content not established.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-BARAN-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Observed download link timed out; relevant PDF content not established.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-BEAWAR-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Observed download exceeds research retrieval size limit; PDF content not established.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-BHARATPUR-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Observed download link timed out; relevant PDF content not established.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-BHILWARA-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "PDF resolved and text extraction reported, but relevant plan content and edition could not be inspected; follow-up retrieval timed out.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-BIKANER-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Observed download link timed out; relevant PDF content not established.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-BUNDI-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Observed download exceeds research retrieval size limit; PDF content not established.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-CHITTORGARH-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Observed download link timed out; relevant PDF content not established.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-CHURU-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Observed download exceeds research retrieval size limit; PDF content not established.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-DAUSA-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Primary district repository lists this plan; individual PDF content not established in this pass.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-DIDWANA-KUCHAMAN-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Observed download link timed out; relevant PDF content not established.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-JAIPUR-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Observed download link timed out; relevant PDF content not established.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-JAISALMER-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "PDF resolved but lacks readable text; available indexed content insufficient to verify the plan.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-JALORE-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "PDF resolved but lacks readable text; available indexed content insufficient to verify the plan.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-JHALAWAR-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "PDF resolved and text extraction reported, but relevant plan content and edition could not be inspected; follow-up retrieval timed out.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-JHUNJHUNU-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Observed download link timed out; relevant PDF content not established.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-JODHPUR-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Observed download link timed out; relevant PDF content not established.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-KARAULI-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Observed download link timed out; relevant PDF content not established.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-KHAIRTHAL-TIJARA-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Observed download link timed out; relevant PDF content not established.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-KOTA-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Primary district repository lists this plan; individual PDF content not established in this pass.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-KOTPUTLI-BEHROR-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Primary district repository lists this plan; individual PDF content not established in this pass.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-NAGAUR-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Primary district repository lists this plan; individual PDF content not established in this pass.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-PHALODI-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Primary district repository lists this plan; individual PDF content not established in this pass.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-PRATAPGARH-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Primary district repository lists this plan; individual PDF content not established in this pass.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-RAJSAMAND-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Observed download link timed out; relevant PDF content not established.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-SALUMBAR-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "PDF resolved but lacks readable text; available indexed content insufficient to verify the plan.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-SAWAI-MADHOPUR-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Primary district repository lists this plan; individual PDF content not established in this pass.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-SIKAR-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Observed download exceeds research retrieval size limit; PDF content not established.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-SIROHI-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Primary district repository lists this plan; individual PDF content not established in this pass.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-SRI-GANGANAGAR-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Primary district repository lists this plan; individual PDF content not established in this pass.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-TONK-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Primary district repository lists this plan; individual PDF content not established in this pass.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-RJ-DISTRICT-UDAIPUR-UNKNOWN",
+      "source_reference": "turn244search0 / turn240view1",
+      "source_url": "https://dmrelief.rajasthan.gov.in/content/raj/dmr/en/plans/district-heat-wave-action-plan.html",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Primary district repository lists this plan; individual PDF content not established in this pass.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-TN-STATE-TN-REF2026-UNKNOWN",
+      "source_reference": "turn237view1",
+      "source_url": "https://beta-tnsmart.rimes.int/index.php/Action_plan/HeatWave",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Official TN-SMART listing located; research view exposes no usable direct document link.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-TN-CITY-AVADI-REF2025-UNKNOWN",
+      "source_reference": "turn237view1",
+      "source_url": "https://beta-tnsmart.rimes.int/index.php/Action_plan/HeatWave",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Official TN-SMART listing located; research view exposes no usable direct document link.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-TN-CITY-CHENNAI-REF2025-UNKNOWN",
+      "source_reference": "turn237view1",
+      "source_url": "https://beta-tnsmart.rimes.int/index.php/Action_plan/HeatWave",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Official TN-SMART listing located; research view exposes no usable direct document link.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-TN-CITY-COIMBATORE-REF2025-UNKNOWN",
+      "source_reference": "turn237view1",
+      "source_url": "https://beta-tnsmart.rimes.int/index.php/Action_plan/HeatWave",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Official TN-SMART listing located; research view exposes no usable direct document link.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-TN-CITY-ERODE-REF2025-UNKNOWN",
+      "source_reference": "turn237view1",
+      "source_url": "https://beta-tnsmart.rimes.int/index.php/Action_plan/HeatWave",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Official TN-SMART listing located; research view exposes no usable direct document link.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-TN-CITY-MADURAI-REF2025-UNKNOWN",
+      "source_reference": "turn237view1",
+      "source_url": "https://beta-tnsmart.rimes.int/index.php/Action_plan/HeatWave",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Official TN-SMART listing located; research view exposes no usable direct document link.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-TN-CITY-SALEM-REF2025-UNKNOWN",
+      "source_reference": "turn237view1",
+      "source_url": "https://beta-tnsmart.rimes.int/index.php/Action_plan/HeatWave",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Official TN-SMART listing located; research view exposes no usable direct document link.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-TN-CITY-TAMBARAM-REF2025-UNKNOWN",
+      "source_reference": "turn237view1",
+      "source_url": "https://beta-tnsmart.rimes.int/index.php/Action_plan/HeatWave",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Official TN-SMART listing located; research view exposes no usable direct document link.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-TN-CITY-TIRUCHIRAPPALLI-REF2025-UNKNOWN",
+      "source_reference": "turn237view1",
+      "source_url": "https://beta-tnsmart.rimes.int/index.php/Action_plan/HeatWave",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Official TN-SMART listing located; research view exposes no usable direct document link.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-TN-CITY-TIRUPPUR-REF2025-UNKNOWN",
+      "source_reference": "turn237view1",
+      "source_url": "https://beta-tnsmart.rimes.int/index.php/Action_plan/HeatWave",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Official TN-SMART listing located; research view exposes no usable direct document link.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-TN-CITY-THOOTHUKUDI-REF2025-UNKNOWN",
+      "source_reference": "turn237view1",
+      "source_url": "https://beta-tnsmart.rimes.int/index.php/Action_plan/HeatWave",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Official TN-SMART listing located; research view exposes no usable direct document link.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-TN-CITY-VELLORE-REF2025-UNKNOWN",
+      "source_reference": "turn237view1",
+      "source_url": "https://beta-tnsmart.rimes.int/index.php/Action_plan/HeatWave",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Official TN-SMART listing located; research view exposes no usable direct document link.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-OD-CITY-BARIPADA-REF2025-UNKNOWN",
+      "source_reference": "turn239view0",
+      "source_url": "https://heathealth.info/resources/heat-action-plan-for-baripada-city-2025-baripada-india/",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "GHHIN catalogue lists city plan and points to CRAVIS; direct PDF not verified.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-GJ-CITY-BHAVNAGAR-REF2025-UNKNOWN",
+      "source_reference": "turn239view1",
+      "source_url": "https://heathealth.info/resources/heat-action-plan-for-bhavnagar-city-2025-bhavnagar-india/",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "GHHIN catalogue lists city plan and points to CRAVIS; direct PDF not verified.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-OD-CITY-BOUDHGARH-REF2025-UNKNOWN",
+      "source_reference": "turn239view2",
+      "source_url": "https://heathealth.info/resources/heat-action-plan-for-boudhgarh-notified-area-council-nac-2025-boudhgarh-india/",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "GHHIN catalogue lists city plan and points to CRAVIS; direct PDF not verified.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-OD-CITY-CUTTACK-REF2025-UNKNOWN",
+      "source_reference": "turn239view3",
+      "source_url": "https://heathealth.info/resources/heat-action-plan-for-cuttack-city-2025-cuttack-india/",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "GHHIN catalogue lists city plan and points to CRAVIS; direct PDF not verified.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-OD-CITY-JHARSUGUDA-REF2025-UNKNOWN",
+      "source_reference": "turn239view4",
+      "source_url": "https://heathealth.info/resources/heat-action-plan-for-jharsuguda-city-2025-jharsuguda-india/",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "GHHIN catalogue lists city plan and points to CRAVIS; direct PDF not verified.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-GJ-CITY-PALANPUR-REF2025-UNKNOWN",
+      "source_reference": "turn239view5",
+      "source_url": "https://heathealth.info/resources/heat-action-plan-for-palanpur-city-2025-palanpur-india/",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "GHHIN catalogue lists city plan and points to CRAVIS; direct PDF not verified.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-GA-CITY-PANAJI-REF2025-UNKNOWN",
+      "source_reference": "turn239view6",
+      "source_url": "https://heathealth.info/resources/heat-action-plan-for-panaji-city-2025-panaji-india/",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "GHHIN catalogue lists city plan and points to CRAVIS; direct PDF not verified.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-OD-CITY-PARALAKHEMUNDI-REF2025-UNKNOWN",
+      "source_reference": "turn239view7",
+      "source_url": "https://heathealth.info/resources/heat-action-plan-for-paralakhemundi-city-2025-paralakhemundi-india/",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "GHHIN catalogue lists city plan and points to CRAVIS; direct PDF not verified.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-OD-CITY-ROURKELA-REF2025-UNKNOWN",
+      "source_reference": "turn239view8",
+      "source_url": "https://heathealth.info/resources/heat-action-plan-for-rourkela-city-2025-rourkela-india/",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "GHHIN catalogue lists city plan and points to CRAVIS; direct PDF not verified.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-OD-CITY-SAMBALPUR-REF2025-UNKNOWN",
+      "source_reference": "turn239view9",
+      "source_url": "https://heathealth.info/resources/heat-action-plan-for-sambalpur-city-2025-sambalpur-india/",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "GHHIN catalogue lists city plan and points to CRAVIS; direct PDF not verified.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-OD-CITY-SUNDARGARH-REF2025-UNKNOWN",
+      "source_reference": "turn239view10",
+      "source_url": "https://heathealth.info/resources/heat-action-plan-for-sundargarh-city-2025-sundargarh-india/",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "GHHIN catalogue lists city plan and points to CRAVIS; direct PDF not verified.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-OD-CITY-TITILAGARH-REF2025-UNKNOWN",
+      "source_reference": "turn239view11",
+      "source_url": "https://heathealth.info/resources/heat-action-plan-for-titilagarh-city-2025-titilagarh-india/",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "GHHIN catalogue lists city plan and points to CRAVIS; direct PDF not verified.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-OD-CITY-ANGUL-REF2025-UNKNOWN",
+      "source_reference": "turn239view12",
+      "source_url": "https://heathealth.info/resources/heat-action-plan-for-angul-city-2025-angul-india/",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "GHHIN catalogue lists city plan and points to CRAVIS; direct PDF not verified.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-UP-DISTRICT-HARDOI-REF2023-UNKNOWN",
+      "source_reference": "turn238search10",
+      "source_url": "https://sdma.up.gov.in/meteorological/heat-wave",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Official repository lists Hindi HAP; direct PDF content not obtained.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-UP-DISTRICT-HARDOI-REF2025-UNKNOWN",
+      "source_reference": "turn288view2",
+      "source_url": "https://hardoi.nic.in/notice/heat-waves-work-plan/",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Six-page PDF resolved but OCR is too poor to establish document scope and edition; may be an implementing circular.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-UP-DISTRICT-BAGHPAT-REF2023-24-UNKNOWN",
+      "source_reference": "turn286view0",
+      "source_url": "https://bagpat.nic.in/disaster-management/",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Official listing and download link located; PDF retrieval timed out.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-UP-DISTRICT-AGRA-REF2025-UNKNOWN",
+      "source_reference": "turn236search2",
+      "source_url": "https://sdma.up.gov.in/public/heatwave",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Repository lists Agra HAP; jurisdiction and distinction from city edition remain unverified.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-UP-CITY-AGRA-REF2025-UNKNOWN",
+      "source_reference": "turn238search10",
+      "source_url": "https://sdma.up.gov.in/meteorological/heat-wave",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Official repository lists city HAP; direct PDF content not obtained.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-UP-DISTRICT-GAUTAM-BUDDHA-NAGAR-REF2025-UNKNOWN",
+      "source_reference": "turn236search2",
+      "source_url": "https://sdma.up.gov.in/public/heatwave",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Official repository lists GB Nagar HAP; direct PDF content not obtained.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-UP-DISTRICT-GONDA-REF2025-UNKNOWN",
+      "source_reference": "turn236search2",
+      "source_url": "https://sdma.up.gov.in/public/heatwave",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Official repository lists 2025 HAP; possible overlap with earlier Gonda edition requires document comparison.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-UP-CITY-LUCKNOW-REF2025-UNKNOWN",
+      "source_reference": "turn238search10",
+      "source_url": "https://sdma.up.gov.in/meteorological/heat-wave",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "City HAP listed in English and Hindi; neither content-verified here; no separate row for untranslated/translated formats.",
+      "binary_download_performed": false
+    },
+    {
+      "id": "IN-UP-DISTRICT-SULTANPUR-REF2023-UNKNOWN",
+      "source_reference": "turn297search10",
+      "source_url": "https://sdma.up.gov.in/meteorological-resources",
+      "checked": "2026-11-01",
+      "verification_method": "landing-page or repository metadata review only; no verified document URL",
+      "evidence_summary": "Official repository indexes Sultanpur HAP; page fetch returned 502 and PDF content was not established.",
+      "binary_download_performed": false
+    }
+  ],
+  "limitations": [
+    "Searches and repository screening extend beyond these selected 100 records.",
+    "The 67 leads are not verified documents; some may duplicate existing editions when retrieved.",
+    "No bulk byte download, binary-hash deduplication, adoption assessment or complete text appraisal performed.",
+    "Some PDF resolutions used indexed/cached text. Later retries sometimes timed out.",
+    "No newly verified Wayback links."
+  ]
+}

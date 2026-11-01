@@ -1,8 +1,8 @@
 {
-  "about": "What tools/check-hap-archive.js expects from this catalogue, taken from India_HAP_Coverage_Report.md (checked 1 November 2026). When the CSV files are replaced with a new release, update these numbers from that release's report, then run the check.",
-  "verified": 113,
-  "unresolved": 30,
-  "type": { "HAP": 58, "EMBEDDED_HEAT_HEALTH_PLAN": 36, "NATIONAL_PLAN": 1, "GUIDANCE": 18 },
-  "level": { "city": 10, "district": 35, "national": 18, "state": 50 },
+  "about": "What tools/check-hap-archive.js expects from the current catalogue, taken from India_HAP_Batch_2_Coverage_Report.md and Batch_2_Verification_Audit.json (checked 1 November 2026). When a new release replaces the catalogue, update these numbers from that release's report, then run the check.",
+  "verified": 146,
+  "type": { "HAP": 85, "EMBEDDED_HEAT_HEALTH_PLAN": 37, "NATIONAL_PLAN": 1, "GUIDANCE": 23 },
+  "level": { "city": 13, "district": 56, "national": 22, "state": 55 },
+  "leads": { "batch-2": 67, "batch-1": 27 },
   "verified_on": "2026-11-01"
 }

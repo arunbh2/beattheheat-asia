@@ -28,7 +28,7 @@ Read the following:
 - `data/site/milestones.json`
 - `heat-economy/flows/` (cycles with no traced funding)
 - the open **weekly evidence review** pull requests (`data/evidence/inbox/`)
-- `research/india-hap-archive/India_Heat_Action_Plans_Unresolved.csv`
+- the open leads in `research/india-hap-archive/` (the latest leads CSV and `batch-1/India_Heat_Action_Plans_Unresolved.csv`)
 
 List what to look for this month:
 - new or updated heat plans, rules, roles and programmes in South and Southeast Asia (Atlas milestones, with approximate lat/lon);
@@ -67,13 +67,17 @@ The owner signs off by merging, so list for the owner what you propose to accept
 If accumulated studies suggest a cycle's status (`emerging` or `established`) or a learning-agenda question has changed, propose it in the report rather than changing it.
 
 ## 7. The heat action plan archive
-- For each new Indian plan or edition found:
-  - add a row to `research/india-hap-archive/India_Heat_Action_Plans_Verified.csv`, using the same 16 columns, a stable new `id`, the printed year or period exactly, and a notes prefix (`HAP`, `EMBEDDED_HEAT_HEALTH_PLAN`, `NATIONAL_PLAN` or `GUIDANCE`) followed by `checked YYYY-MM-DD`;
-  - only after its PDF is confirmed, through `verify-urls.yml` and the content.
-- Move resolved rows out of the unresolved file.
-- Update `expected.json` and the coverage report's totals.
-- Run `npm run check:hap`.
-- Keep separate editions as separate rows, and never infer a year from a filename.
+- Search for new Indian plans and editions, and for documents on the leads lists that may now be retrievable. Confirm each PDF through `verify-urls.yml` and its content.
+- Produce a new **combined** catalogue: every existing record unchanged, plus the verified additions. It uses the same 16 columns plus `document_type` and `verification_checked`. Each addition needs:
+  - a stable new `id`
+  - the edition exactly as printed
+  - a notes prefix that matches `document_type`
+- Never append additions to the old file. Never infer a year from a filename.
+- Follow `research/india-hap-archive/README.md`:
+  - record recovered gaps in `resolved.json`
+  - add the new leads file and report
+  - update `expected.json`
+  - run `npm run check:hap`
 
 ## 8. Site health
 - **Links.** List every outside link on the site and run `verify-urls.yml` with `archive: no`.
