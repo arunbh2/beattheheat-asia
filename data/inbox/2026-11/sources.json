@@ -1,0 +1,160 @@
+[
+ {
+  "id": "src-carleton-2017-suicide-india",
+  "type": "source",
+  "title": "Crop-damaging temperatures increase suicide rates in India",
+  "publisher": "PNAS",
+  "url": "https://www.pnas.org/doi/10.1073/pnas.1701354114",
+  "archive": "",
+  "kind": "peer-reviewed",
+  "expect": [
+   "suicide",
+   "India",
+   "temperature",
+   "59,300"
+  ],
+  "status": "candidate",
+  "note": "Staged to check the page opens and contains these terms before any map change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-burke-2018-suicide-temperature",
+  "type": "source",
+  "title": "Higher temperatures increase suicide rates in the United States and Mexico",
+  "publisher": "Nature Climate Change",
+  "url": "https://www.nature.com/articles/s41558-018-0222-x",
+  "archive": "",
+  "kind": "peer-reviewed",
+  "expect": [
+   "suicide",
+   "temperature"
+  ],
+  "status": "candidate",
+  "note": "Staged to check the page opens and contains these terms before any map change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-carlton-2016-diarrhoea",
+  "type": "source",
+  "title": "A systematic review and meta-analysis of ambient temperature and diarrhoeal diseases",
+  "publisher": "International Journal of Epidemiology",
+  "url": "https://doi.org/10.1093/ije/dyv296",
+  "archive": "",
+  "kind": "peer-reviewed",
+  "expect": [
+   "temperature",
+   "diarrh",
+   "7%"
+  ],
+  "status": "candidate",
+  "note": "Staged to check the page opens and contains these terms before any map change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-chersich-2020-bmj",
+  "type": "source",
+  "title": "Associations between high temperatures in pregnancy and risk of preterm birth, low birth weight, and stillbirths",
+  "publisher": "BMJ",
+  "url": "https://www.bmj.com/content/371/bmj.m3811",
+  "archive": "",
+  "kind": "peer-reviewed",
+  "expect": [
+   "preterm",
+   "stillbirth",
+   "heatwave"
+  ],
+  "status": "candidate",
+  "note": "Staged to check the page opens and contains these terms before any map change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-rekha-2023-pregnancy-heat",
+  "type": "source",
+  "title": "Heat stress and adverse pregnancy outcome: prospective cohort study",
+  "publisher": "BJOG",
+  "url": "https://doi.org/10.1111/1471-0528.17680",
+  "archive": "",
+  "kind": "peer-reviewed",
+  "expect": [
+   "heat",
+   "pregnancy",
+   "miscarriage"
+  ],
+  "status": "candidate",
+  "note": "Staged to check the page opens and contains these terms before any map change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-venugopal-2016-women-workers",
+  "type": "source",
+  "title": "Venugopal et al., Global Health Action, 2016: heat and women workers in India",
+  "publisher": "Global Health Action",
+  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5025522/",
+  "archive": "",
+  "kind": "peer-reviewed",
+  "expect": [
+   "women",
+   "toilet",
+   "water"
+  ],
+  "status": "candidate",
+  "note": "Staged to check the page opens and contains these terms before any map change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-who-heat-health-factsheet",
+  "type": "source",
+  "title": "Heat and health (fact sheet)",
+  "publisher": "World Health Organization",
+  "url": "https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health",
+  "archive": "",
+  "kind": "guidance",
+  "expect": [
+   "pregnant",
+   "mental health",
+   "heat"
+  ],
+  "status": "candidate",
+  "note": "Staged to check the page opens and contains these terms before any map change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-who-mnch-climate-2023",
+  "type": "source",
+  "title": "Protecting maternal, newborn and child health from the impacts of climate change: a call for action",
+  "publisher": "World Health Organization, UNICEF and UNFPA",
+  "url": "https://www.who.int/publications/i/item/9789240085350",
+  "archive": "",
+  "kind": "guidance",
+  "expect": [
+   "maternal",
+   "newborn",
+   "climate"
+  ],
+  "status": "candidate",
+  "note": "Staged to check the page opens and contains these terms before any map change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-who-mental-health-climate-2022",
+  "type": "source",
+  "title": "Mental health and climate change: policy brief",
+  "publisher": "World Health Organization",
+  "url": "https://www.who.int/publications/i/item/9789240045125",
+  "archive": "",
+  "kind": "guidance",
+  "expect": [
+   "mental health",
+   "climate"
+  ],
+  "status": "candidate",
+  "note": "Staged to check the page opens and contains these terms before any map change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-zhu-2023-ipv",
+  "type": "source",
+  "title": "Association of ambient temperature with the prevalence of intimate partner violence among partnered women in low- and middle-income South Asian countries",
+  "publisher": "JAMA Psychiatry, via Yale Bell Lab",
+  "url": "https://bell-lab.yale.edu/publications/association-ambient-temperature-prevalence-intimate-partner-violence-among-partnered",
+  "archive": "",
+  "kind": "peer-reviewed",
+  "expect": [
+   "intimate partner violence",
+   "temperature"
+  ],
+  "status": "candidate",
+  "note": "Staged to check the page opens and contains these terms before any map change rests on it. Not published from the inbox."
+ }
+]
