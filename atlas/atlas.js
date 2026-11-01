@@ -116,5 +116,6 @@
     return false;
   }
   if (!fromHash()) { draw(); panel(); }
-  window.addEventListener("hashchange", fromHash);
+  // from the list under the map: open the heatwave, then bring the map and its panel into view
+  window.addEventListener("hashchange", function () { if (fromHash()) map.closest(".atl-grid").scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" }); });
 })();

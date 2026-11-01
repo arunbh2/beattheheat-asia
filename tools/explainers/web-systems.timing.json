@@ -1,5 +1,5 @@
 {
- "total": 31.55,
+ "total": 31.99,
  "scenes": [
   {
    "start": 0.0,
@@ -11,24 +11,24 @@
   },
   {
    "start": 5.0,
-   "dur": 10.28,
+   "dur": 10.81,
    "beats": [
     0.6,
-    3.62,
-    6.42
+    4.14,
+    6.83
    ],
    "text": "Through nature, food, water and energy; through cities, health, work and schools; through society, and through how we govern and pay."
   },
   {
-   "start": 15.28,
-   "dur": 6.27,
+   "start": 15.81,
+   "dur": 6.18,
    "beats": [
     0.6
    ],
-   "text": "Eighty-seven consequences, and every link between them carries its evidence."
+   "text": "Ninety consequences, and every link between them carries its evidence."
   },
   {
-   "start": 21.55,
+   "start": 21.99,
    "dur": 5.0,
    "beats": [
     0.6
@@ -36,7 +36,7 @@
    "text": "Pull one thread, and the whole web moves."
   },
   {
-   "start": 26.55,
+   "start": 26.99,
    "dur": 5.0,
    "beats": [
     0.6

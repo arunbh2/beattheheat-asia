@@ -1,0 +1,322 @@
+{
+ "https://ahmedabadcity.gov.in": {
+  "status": "FAIL",
+  "code": "UND_ERR_CONNECT_TIMEOUT",
+  "archive": ""
+ },
+ "https://anamai.moph.go.th/": {
+  "status": "FAIL",
+  "code": 302,
+  "archive": ""
+ },
+ "https://bbmp.gov.in": {
+  "status": "FAIL",
+  "code": "UND_ERR_CONNECT_TIMEOUT",
+  "archive": ""
+ },
+ "https://beeindia.gov.in": {
+  "status": "FAIL",
+  "code": "UND_ERR_CONNECT_TIMEOUT",
+  "archive": ""
+ },
+ "https://beeindia.gov.in/show_content.php?lang=1&level=1&lid=322&ls_id=198": {
+  "status": "FAIL",
+  "code": "UND_ERR_CONNECT_TIMEOUT",
+  "archive": ""
+ },
+ "https://beeindia.gov.in/show_content.php?lang=1&level=2&lid=328&ls_id=202": {
+  "status": "FAIL",
+  "code": "UND_ERR_CONNECT_TIMEOUT",
+  "archive": ""
+ },
+ "https://biratnagarmun.gov.np/": {
+  "status": "FAIL",
+  "code": "UND_ERR_CONNECT_TIMEOUT",
+  "archive": ""
+ },
+ "https://churu.rajasthan.gov.in": {
+  "status": "FAIL",
+  "code": "UND_ERR_CONNECT_TIMEOUT",
+  "archive": ""
+ },
+ "https://doi.org/10.1175/2009JCLI2909.1": {
+  "status": "FAIL",
+  "code": 405,
+  "archive": ""
+ },
+ "https://doi.org/10.1175/JCLI-D-17-0672.1": {
+  "status": "FAIL",
+  "code": 405,
+  "archive": ""
+ },
+ "https://doi.org/10.4337/9781800376762": {
+  "status": "FAIL",
+  "code": 405,
+  "archive": ""
+ },
+ "https://doi.org/10.7554/eLife.58511": {
+  "status": "FAIL",
+  "code": 406,
+  "archive": ""
+ },
+ "https://dost.gov.ph/knowledge-resources/news/86-2025-news/3971-iheatmap-an-online-monitoring-guide-for-heat-index.html": {
+  "status": "FAIL",
+  "code": 500,
+  "archive": ""
+ },
+ "https://earthobservatory.sg/news/blog/heat-stress-and-hope-how-field-data-from-asia-s-coral-reefs-can-help-us-improve-climate-resilience": {
+  "status": "FAIL",
+  "code": "UNABLE_TO_VERIFY_LEAF_SIGNATURE",
+  "archive": ""
+ },
+ "https://eeslindia.org/wp-content/uploads/2021/02/Press%20Release%20-%20EESL%20is%20looking%20to%20partner%20with%20private%20sector%20ESCOs%20to%20scale%20up%20its%20BEEP%5B42%5D.pdf": {
+  "status": "FAIL",
+  "code": "UND_ERR_CONNECT_TIMEOUT",
+  "archive": ""
+ },
+ "https://eeslindia.org/wp-content/uploads/2022/09/Annual-Report-FY-2021-22.pdf": {
+  "status": "FAIL",
+  "code": "UND_ERR_CONNECT_TIMEOUT",
+  "archive": ""
+ },
+ "https://generaleducation.kerala.gov.in": {
+  "status": "FAIL",
+  "code": "UNABLE_TO_VERIFY_LEAF_SIGNATURE",
+  "archive": ""
+ },
+ "https://ijbes.utm.my/index.php/ijbes/article/view/388": {
+  "status": "FAIL",
+  "code": "ECONNREFUSED",
+  "archive": ""
+ },
+ "https://iqac.sriramachandra.edu.in/iqacreq/sdg13/environmental-education-measures-1332evd2.pdf": {
+  "status": "FAIL",
+  "code": "ENOTFOUND",
+  "archive": ""
+ },
+ "https://meteo.gov.lk": {
+  "status": "FAIL",
+  "code": "UND_ERR_CONNECT_TIMEOUT",
+  "archive": ""
+ },
+ "https://ndma.gov.in": {
+  "status": "FAIL",
+  "code": "UND_ERR_CONNECT_TIMEOUT",
+  "archive": ""
+ },
+ "https://ndrrma.gov.np/": {
+  "status": "FAIL",
+  "code": "UND_ERR_CONNECT_TIMEOUT",
+  "archive": ""
+ },
+ "https://nepalgunjmun.gov.np/": {
+  "status": "FAIL",
+  "code": "UND_ERR_CONNECT_TIMEOUT",
+  "archive": ""
+ },
+ "https://nnvns.org.in/": {
+  "status": "FAIL",
+  "code": 502,
+  "archive": ""
+ },
+ "https://nopr.niscpr.res.in/handle/123456789/60741": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://rsdebate.nic.in/bitstream/123456789/750681/1/PQ_265_06082024_U1693_p358_p362.pdf": {
+  "status": "FAIL",
+  "code": "UND_ERR_RES_CONTENT_LENGTH_MISMATCH",
+  "archive": ""
+ },
+ "https://sbiventures.co.in/funds-managed/neev-fund-ii/": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://siddharthanagarmun.gov.np/": {
+  "status": "FAIL",
+  "code": "UND_ERR_CONNECT_TIMEOUT",
+  "archive": ""
+ },
+ "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf": {
+  "status": "FAIL",
+  "code": "UND_ERR_CONNECT_TIMEOUT",
+  "archive": ""
+ },
+ "https://tnpcb.gov.in/PDF/About_Us/Announcementgos/GoNo_215_101123.pdf": {
+  "status": "FAIL",
+  "code": "UND_ERR_CONNECT_TIMEOUT",
+  "archive": ""
+ },
+ "https://udit.beeindia.gov.in/eco-niwas-samhita/": {
+  "status": "FAIL",
+  "code": "UND_ERR_CONNECT_TIMEOUT",
+  "archive": ""
+ },
+ "https://www.ategroup.com": {
+  "status": "FAIL",
+  "code": "UNABLE_TO_VERIFY_LEAF_SIGNATURE",
+  "archive": ""
+ },
+ "https://www.beeindia.gov.in/WriteReadData/L45218/1734437096.pdf": {
+  "status": "FAIL",
+  "code": "UND_ERR_CONNECT_TIMEOUT",
+  "archive": ""
+ },
+ "https://www.beeindia.gov.in/show_content.php?lang=1&level=1&lid=322&ls_id=198": {
+  "status": "FAIL",
+  "code": "UND_ERR_CONNECT_TIMEOUT",
+  "archive": ""
+ },
+ "https://www.beeindia.gov.in/show_content.php?lang=1&level=1&lid=436&ls_id=359": {
+  "status": "FAIL",
+  "code": "UND_ERR_CONNECT_TIMEOUT",
+  "archive": ""
+ },
+ "https://www.beepindia.org/wp-content/uploads/2023/05/EMSyS-Policy-Paper-April2023.pdf": {
+  "status": "FAIL",
+  "code": "ERR_SSL_SSL/TLS_ALERT_HANDSHAKE_FAILURE",
+  "archive": ""
+ },
+ "https://www.dede.go.th/": {
+  "status": "FAIL",
+  "code": "UNABLE_TO_VERIFY_LEAF_SIGNATURE",
+  "archive": ""
+ },
+ "https://www.esic.gov.in": {
+  "status": "FAIL",
+  "code": "UND_ERR_CONNECT_TIMEOUT",
+  "archive": ""
+ },
+ "https://www.howdengroup.com/uk-en/news-insights/article-name/parametric-insurance-for-extreme-heat-protecting-people-in-a-warming-world": {
+  "status": "FAIL",
+  "code": "UND_ERR_HEADERS_OVERFLOW",
+  "archive": ""
+ },
+ "https://www.ipsnews.net/2025/06/rising-temperatures-rising-inequalities-how-a-new-insurance-protects-indias-poorest-women/": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://www.lemonde.fr/en/environment/article/2024/04/23/southeast-asia-hit-by-extreme-heat-wave_6669258_114.html": {
+  "status": "FAIL",
+  "code": 402,
+  "archive": ""
+ },
+ "https://www.meteo.gov.lk/": {
+  "status": "FAIL",
+  "code": "UND_ERR_CONNECT_TIMEOUT",
+  "archive": ""
+ },
+ "https://www.mfd.gov.np/": {
+  "status": "FAIL",
+  "code": "UND_ERR_CONNECT_TIMEOUT",
+  "archive": ""
+ },
+ "https://www.mowram.gov.kh/": {
+  "status": "FAIL",
+  "code": "ERR_TLS_CERT_ALTNAME_INVALID",
+  "archive": ""
+ },
+ "https://www.rimes.int/": {
+  "status": "FAIL",
+  "code": "timeout",
+  "archive": ""
+ },
+ "https://www.rimes.int/rimes-supports-nepals-national-demonstration-of-ibf-for-heat-extremes/": {
+  "status": "FAIL",
+  "code": "timeout",
+  "archive": ""
+ },
+ "https://www.tsinghua.edu.cn": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://www.unhas.ac.id/": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://www.washingtonpost.com/climate-environment/interactive/2023/india-deadly-extreme-heat-poverty/": {
+  "status": "FAIL",
+  "code": "timeout",
+  "archive": ""
+ },
+ "https://www.washingtonpost.com/climate-solutions/interactive/2024/air-conditioning-humidity-hotter-summers-solutions/": {
+  "status": "FAIL",
+  "code": "timeout",
+  "archive": ""
+ },
+ "https://www.washingtonpost.com/weather/2024/04/30/southeast-asia-heat-india-thailand-philippines/": {
+  "status": "FAIL",
+  "code": "timeout",
+  "archive": ""
+ },
+ "https://www.washingtonpost.com/weather/2024/05/29/record-heat-delhi-india-climate-survival/": {
+  "status": "FAIL",
+  "code": "timeout",
+  "archive": ""
+ },
+ "https://www.washingtonpost.com/world/2022/05/09/india-heat-wave-climate-change/": {
+  "status": "FAIL",
+  "code": "timeout",
+  "archive": ""
+ },
+ "https://www.washingtonpost.com/world/2023/08/31/extreme-heat-indoor-work-asia/": {
+  "status": "FAIL",
+  "code": "timeout",
+  "archive": ""
+ },
+ "https://www.washingtonpost.com/world/2024/05/31/india-heat-deaths/": {
+  "status": "FAIL",
+  "code": "timeout",
+  "archive": ""
+ },
+ "https://www.washingtonpost.com/world/interactive/2022/india-extreme-heat-climate-change/": {
+  "status": "FAIL",
+  "code": "timeout",
+  "archive": ""
+ },
+ "https://www.yourhome.gov.au/case-studies/hot-humid/cairns-queensland": {
+  "status": "FAIL",
+  "code": "timeout",
+  "archive": ""
+ },
+ "https://www.yourhome.gov.au/case-studies/hot-humid/darwin-river-northern-territory": {
+  "status": "FAIL",
+  "code": "timeout",
+  "archive": ""
+ },
+ "https://www.yourhome.gov.au/case-studies/warm/parkside-south-australia": {
+  "status": "FAIL",
+  "code": "timeout",
+  "archive": ""
+ },
+ "https://www.yourhome.gov.au/case-studies/warm/white-gum-valley-west-australia": {
+  "status": "FAIL",
+  "code": "timeout",
+  "archive": ""
+ },
+ "https://www.yourhome.gov.au/passive-design/insulation": {
+  "status": "FAIL",
+  "code": "timeout",
+  "archive": ""
+ },
+ "https://www.yourhome.gov.au/passive-design/passive-cooling": {
+  "status": "FAIL",
+  "code": "timeout",
+  "archive": ""
+ },
+ "https://www.yourhome.gov.au/passive-design/thermal-mass": {
+  "status": "FAIL",
+  "code": "timeout",
+  "archive": ""
+ },
+ "https://www.yourhome.gov.au/passive-design/ventilation-airtightness": {
+  "status": "FAIL",
+  "code": "timeout",
+  "archive": ""
+ }
+}

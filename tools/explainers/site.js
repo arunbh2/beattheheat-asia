@@ -98,8 +98,8 @@ module.exports = [
 
   { id: "he-money", term: "Money for heat protection", page: "heat-economy/money/index.html", label: HE, url: "beattheheat.asia/heat-economy/money", scenes: [
     { type: "hook", q: "Where does the money for heat protection *come from?*", say: ["Where does the money for heat protection come from?"] },
-    { type: "show", title: "What we traced", sub: "From public websites and reports, October 2026", say: ["We traced forty-eight funders and investors,", "fifty pieces of funding,", "and twenty-four accelerators, prizes and challenges."],
-      d: { kind: "stats", items: [{ count: 48, label: "funders and investors", at: 0 }, { count: 50, label: "pieces of funding", color: "var(--ink)", at: 1 }, { count: 24, label: "accelerators, prizes and challenges", color: "var(--green)", at: 2 }] } },
+    { type: "show", title: "What we traced", sub: "From public websites and reports, 2026", say: ["We traced seventy-seven funders and investors,", "fifty pieces of funding,", "and twenty-four accelerators, prizes and challenges."],
+      d: { kind: "stats", items: [{ count: 77, label: "funders and investors", at: 0 }, { count: 50, label: "pieces of funding", color: "var(--ink)", at: 1 }, { count: 24, label: "accelerators, prizes and challenges", color: "var(--green)", at: 2 }] } },
     { type: "statement", line: "Announced is *not the same as paid.*", sub: "Money often arrives in stages, or later.", say: ["One rule for reading funding news: announced is not the same as paid.", "Money often arrives in stages, or later."] },
     END("Follow the money to where it lands.") ] },
 
@@ -191,11 +191,11 @@ module.exports = [
     { type: "show", dark: true, k: "What changed", title: "1,190", sub: "deaths a year estimated avoided after the plan began", say: ["An evaluation estimated about eleven hundred and ninety deaths a year were avoided.", "The model has since spread across India."], src: "Hess et al., 2018" },
     END("Plan before the heat. Measure what changes.") ] },
 
-  { id: "web-systems", term: "Ten systems, 87 consequences", page: "the-web/index.html", place: "h2", label: "The web of extreme heat", url: "beattheheat.asia/the-web", scenes: [
+  { id: "web-systems", term: "Ten systems, 90 consequences", page: "the-web/index.html", place: "h2", label: "The web of extreme heat", url: "beattheheat.asia/the-web", scenes: [
     { type: "hook", q: "How far does *one heatwave* reach?", say: ["How far does one heatwave reach?"] },
     { type: "show", title: "Through ten systems", say: ["Through nature, food, water and energy;", "through cities, health, work and schools;", "through society, and through how we govern and pay."],
       d: { kind: "grid", step: .25, items: [{ text: "Nature", at: 0 }, { text: "Food and farming", at: 0 }, { text: "Water", at: 0 }, { text: "Energy", at: 0 }, { text: "Cities", at: 1 }, { text: "Health", at: 1 }, { text: "Work", at: 1 }, { text: "Education", at: 1 }, { text: "Society", at: 2 }, { text: "Governance and finance", at: 2 }] } },
-    { type: "show", dark: true, k: "The web", title: "87", sub: "consequences of heat, and the links between them, each with its evidence", say: ["Eighty-seven consequences, and every link between them carries its evidence."] },
+    { type: "show", dark: true, k: "The web", title: "90", sub: "consequences of heat, and the links between them, each with its evidence", say: ["Ninety consequences, and every link between them carries its evidence."] },
     { type: "statement", line: "Pull one thread, and *the whole web moves.*", say: ["Pull one thread, and the whole web moves."] },
     END("Find the thread you can pull.") ] },
 

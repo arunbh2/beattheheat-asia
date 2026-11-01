@@ -30,6 +30,7 @@ function page(slug, title, desc, body, extraHead = "") {
   <title>${esc(title)} · Common Shade</title>
   <meta name="description" content="${esc(desc)}">
   <meta name="theme-color" content="#16202B">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2316202B'/%3E%3Cpath d='M5 14 Q16 4 27 14' fill='none' stroke='%23F26430' stroke-width='4.5' stroke-linecap='round'/%3E%3Cpath d='M9 13 V27 M23 13 V27' stroke='%23F6E7D7' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E">
   <link rel="canonical" href="${url}">
   <link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
   <meta property="og:type" content="website"><meta property="og:site_name" content="Common Shade">
@@ -293,6 +294,7 @@ const PEOPLE = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "peopl
         <button type="button" class="atl-play" data-atl-play aria-label="Play the years">Play</button>
         <div class="atl-track"><input type="range" min="${ATL.y0}" max="${ATL.y1}" step="1" value="${ATL.y1}" data-atl-range aria-label="Year"><div class="atl-ticks" data-atl-ticks aria-hidden="true"></div></div>
       </div>
+      <nav class="atl-list" aria-label="Every heatwave on the map"><h2 class="atl-list__h">Every heatwave on the map</h2><ul>${HW.slice().sort((a, b) => a.y - b.y).map(h => `<li><a href="#${esc(h.id)}"><b>${esc(String(h.y))}</b> ${esc(h.place)}</a></li>`).join("")}</ul></nav>
       <noscript><p class="hub-p">The Atlas needs JavaScript. <a href="/heatwaves/">Heatwaves that shaped Asia</a> and <a href="/worked-plans/">Worked plans</a> tell the same story as text.</p></noscript>
       <h2 class="hub-h">How to read this</h2>
       <ul class="hub-grid hub-grid--plain">

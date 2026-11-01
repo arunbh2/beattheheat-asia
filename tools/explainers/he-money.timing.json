@@ -1,5 +1,5 @@
 {
- "total": 29.72,
+ "total": 31.18,
  "scenes": [
   {
    "start": 0.0,
@@ -11,25 +11,25 @@
   },
   {
    "start": 5.0,
-   "dur": 10.48,
+   "dur": 11.29,
    "beats": [
     0.6,
-    3.7,
-    5.57
+    4.57,
+    6.39
    ],
-   "text": "We traced forty-eight funders and investors, fifty pieces of funding, and twenty-four accelerators, prizes and challenges."
+   "text": "We traced seventy-seven funders and investors, fifty pieces of funding, and twenty-four accelerators, prizes and challenges."
   },
   {
-   "start": 15.48,
-   "dur": 9.24,
+   "start": 16.29,
+   "dur": 9.89,
    "beats": [
     0.6,
-    5.2
+    5.71
    ],
    "text": "One rule for reading funding news: announced is not the same as paid. Money often arrives in stages, or later."
   },
   {
-   "start": 24.72,
+   "start": 26.18,
    "dur": 5.0,
    "beats": [
     0.6

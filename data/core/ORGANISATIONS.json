@@ -315,7 +315,7 @@
     "id": "irade",
     "role": "research",
     "name": "Integrated Research and Action for Development (IRADe)",
-    "url": "https://irade.org/website/ongoing-projects-2/",
+    "url": "https://irade.org/",
     "does": "Develops heat hotspot assessments and gender-sensitive heat action plans in India, Bangladesh and Sri Lanka.",
     "levers": ["hap"]
   },
@@ -1179,7 +1179,7 @@
     "id": "cdd",
     "role": "ground",
     "name": "Centre for Disability in Development (CDD), with CBM",
-    "url": "https://cbm.org/news/news-initiatives/news-hua/persons-with-disabilities-in-the-context-of-climate-change-adaptation-in-bangladesh",
+    "url": "https://www.cbm.org/",
     "does": "Runs disability-inclusive disaster risk and climate adaptation in Bangladesh, including coastal sub-districts, where heatwaves are among the hazards. A heat-specific programme is not confirmed.",
     "levers": ["hap"]
   },
@@ -1275,7 +1275,7 @@
     "id": "icmr",
     "role": "funders",
     "name": "Indian Council of Medical Research (ICMR)",
-    "url": "https://smcw.edu.in/assets/pdf/2025/Extramural%20Funded%20Research%20Projects.pdf",
+    "url": "https://www.icmr.gov.in/",
     "does": "Funds medical research including a 2025 study of heat-health risk communication among construction workers, manual labourers and street vendors.",
     "levers": ["heatrules","hap"]
   },
@@ -1595,7 +1595,7 @@
     "id": "nrb",
     "role": "lending",
     "name": "Nepal Rastra Bank",
-    "url": "https://www.sbfnetwork.org/wp-content/assets/policy-library/1440_Nepal_Guideline_on_ESRM_for_Banks_and_FIs_2018_NRB.pdf",
+    "url": "https://www.nrb.org.np/",
     "does": "Sets environmental and social risk rules for banks (2018), and since October 2024 a green finance taxonomy that sorts lending into green, amber and red.",
     "levers": ["heatlending"]
   },

@@ -1,0 +1,212 @@
+{
+ "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/776101467990969768": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://documents1.worldbank.org/curated/en/776101467990969768/pdf/103668-BRI-Cost-of-Fires-Knowledge-Note-PUBLIC-ADD-NEW-SERIES-Indonesia-Sustainable-Landscapes-Knowledge-Note.pdf": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://doi.org/10.54878/3F34AX59": {
+  "status": "FAIL",
+  "code": 404,
+  "archive": ""
+ },
+ "https://irade.org/": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://labelno5.egat.co.th/": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://labourdept.gov.lk/": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://ncdc.mohfw.gov.in/": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://ncdc.mohfw.gov.in/heat-related-illness/": {
+  "status": "FAIL",
+  "code": 404,
+  "archive": ""
+ },
+ "https://smcw.edu.in/": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://urbansustainability.seas.umich.edu/": {
+  "status": "BLOCKED",
+  "code": 403,
+  "archive": ""
+ },
+ "https://web.archive.org/web/2023/https://cbm.org/news/news-initiatives/news-hua/persons-with-disabilities-in-the-context-of-climate-change-adaptation-in-bangladesh": {
+  "status": "BLOCKED",
+  "code": 429,
+  "archive": ""
+ },
+ "https://web.archive.org/web/2023/https://documents1.worldbank.org/curated/pt/776101467990969768/pdf/103668-BRI-Cost-of-Fires-Knowledge-Note-PUBLIC-ADD-NEW-SERIES-Indonesia-Sustainable-Landscapes-Knowledge-Note.pdf": {
+  "status": "BLOCKED",
+  "code": 429,
+  "archive": ""
+ },
+ "https://web.archive.org/web/2023/https://doi.org/10.54878/3f34ax59": {
+  "status": "BLOCKED",
+  "code": 429,
+  "archive": ""
+ },
+ "https://web.archive.org/web/2023/https://irade.org/website/ongoing-projects-2/": {
+  "status": "BLOCKED",
+  "code": 429,
+  "archive": ""
+ },
+ "https://web.archive.org/web/2023/https://labelno5.egat.co.th/home/ผู้บริโภค/": {
+  "status": "BLOCKED",
+  "code": 429,
+  "archive": ""
+ },
+ "https://web.archive.org/web/2023/https://labourdept.gov.lk/industrial-safety-division-static/": {
+  "status": "BLOCKED",
+  "code": 429,
+  "archive": ""
+ },
+ "https://web.archive.org/web/2023/https://ncdc.mohfw.gov.in/wp-content/uploads/2024/05/4-Training-Manual-for-State-And-District-Nodal-Officers-For-Implementation-of-Heat-Health-Action-Plan.pdf": {
+  "status": "BLOCKED",
+  "code": 429,
+  "archive": ""
+ },
+ "https://web.archive.org/web/2023/https://pubfiles.pagasa.dost.gov.ph/tamss/weather/heat_index_summary.pdf": {
+  "status": "FAIL",
+  "code": "ECONNREFUSED",
+  "archive": ""
+ },
+ "https://web.archive.org/web/2023/https://smcw.edu.in/assets/pdf/2025/Extramural%20Funded%20Research%20Projects.pdf": {
+  "status": "FAIL",
+  "code": "ECONNREFUSED",
+  "archive": ""
+ },
+ "https://web.archive.org/web/2023/https://urbansustainability.seas.umich.edu/wp-content/uploads/2014/06/Making-cities-just-green-enough.pdf": {
+  "status": "FAIL",
+  "code": "ECONNREFUSED",
+  "archive": ""
+ },
+ "https://web.archive.org/web/2023/https://www.egat.co.th/home/en/20230922e/": {
+  "status": "FAIL",
+  "code": "ECONNREFUSED",
+  "archive": ""
+ },
+ "https://web.archive.org/web/2023/https://www.fisheries.gov.lk/web/index.php/en/information/news/878-2023-06-07-06-56-03": {
+  "status": "FAIL",
+  "code": "ECONNREFUSED",
+  "archive": ""
+ },
+ "https://web.archive.org/web/2023/https://www.sbfnetwork.org/wp-content/assets/policy-library/1440_Nepal_Guideline_on_ESRM_for_Banks_and_FIs_2018_NRB.pdf": {
+  "status": "BLOCKED",
+  "code": 429,
+  "archive": ""
+ },
+ "https://web.archive.org/web/2025/https://cbm.org/news/news-initiatives/news-hua/persons-with-disabilities-in-the-context-of-climate-change-adaptation-in-bangladesh": {
+  "status": "BLOCKED",
+  "code": 429,
+  "archive": ""
+ },
+ "https://web.archive.org/web/2025/https://documents1.worldbank.org/curated/pt/776101467990969768/pdf/103668-BRI-Cost-of-Fires-Knowledge-Note-PUBLIC-ADD-NEW-SERIES-Indonesia-Sustainable-Landscapes-Knowledge-Note.pdf": {
+  "status": "BLOCKED",
+  "code": 429,
+  "archive": ""
+ },
+ "https://web.archive.org/web/2025/https://doi.org/10.54878/3f34ax59": {
+  "status": "BLOCKED",
+  "code": 429,
+  "archive": ""
+ },
+ "https://web.archive.org/web/2025/https://irade.org/website/ongoing-projects-2/": {
+  "status": "BLOCKED",
+  "code": 429,
+  "archive": ""
+ },
+ "https://web.archive.org/web/2025/https://labelno5.egat.co.th/home/ผู้บริโภค/": {
+  "status": "FAIL",
+  "code": 404,
+  "archive": ""
+ },
+ "https://web.archive.org/web/2025/https://labourdept.gov.lk/industrial-safety-division-static/": {
+  "status": "BLOCKED",
+  "code": 429,
+  "archive": ""
+ },
+ "https://web.archive.org/web/2025/https://ncdc.mohfw.gov.in/wp-content/uploads/2024/05/4-Training-Manual-for-State-And-District-Nodal-Officers-For-Implementation-of-Heat-Health-Action-Plan.pdf": {
+  "status": "BLOCKED",
+  "code": 429,
+  "archive": ""
+ },
+ "https://web.archive.org/web/2025/https://pubfiles.pagasa.dost.gov.ph/tamss/weather/heat_index_summary.pdf": {
+  "status": "BLOCKED",
+  "code": 429,
+  "archive": ""
+ },
+ "https://web.archive.org/web/2025/https://smcw.edu.in/assets/pdf/2025/Extramural%20Funded%20Research%20Projects.pdf": {
+  "status": "FAIL",
+  "code": "ECONNREFUSED",
+  "archive": ""
+ },
+ "https://web.archive.org/web/2025/https://urbansustainability.seas.umich.edu/wp-content/uploads/2014/06/Making-cities-just-green-enough.pdf": {
+  "status": "FAIL",
+  "code": "ECONNREFUSED",
+  "archive": ""
+ },
+ "https://web.archive.org/web/2025/https://www.egat.co.th/home/en/20230922e/": {
+  "status": "FAIL",
+  "code": "ECONNREFUSED",
+  "archive": ""
+ },
+ "https://web.archive.org/web/2025/https://www.fisheries.gov.lk/web/index.php/en/information/news/878-2023-06-07-06-56-03": {
+  "status": "BLOCKED",
+  "code": 429,
+  "archive": ""
+ },
+ "https://web.archive.org/web/2025/https://www.sbfnetwork.org/wp-content/assets/policy-library/1440_Nepal_Guideline_on_ESRM_for_Banks_and_FIs_2018_NRB.pdf": {
+  "status": "FAIL",
+  "code": "ECONNREFUSED",
+  "archive": ""
+ },
+ "https://www.cbm.org/": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://www.egat.co.th/home/en/": {
+  "status": "FAIL",
+  "code": 404,
+  "archive": ""
+ },
+ "https://www.fisheries.gov.lk/": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://www.nrb.org.np/": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://www.pagasa.dost.gov.ph/weather/heat-index": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://www.sbfnetwork.org/": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ }
+}

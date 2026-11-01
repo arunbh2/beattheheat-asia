@@ -641,7 +641,7 @@ const CONSEQUENCES = [
     "sources": [
       {
         "label": "Wolch, Byrne and Newell, Landscape and Urban Planning, 2014: making cities “just green enough”",
-        "url": "https://urbansustainability.seas.umich.edu/wp-content/uploads/2014/06/Making-cities-just-green-enough.pdf"
+        "url": "https://doi.org/10.1016/j.landurbplan.2014.01.017"
       },
       {
         "label": "Hansen et al., chapter 10 in Nature-Based Solutions for Cities, 2023: tree survival tracks municipal budgets in Santiago",
@@ -2079,7 +2079,7 @@ const LEVERS = [
       {
         "by": "Wolch, Byrne and Newell, Landscape and Urban Planning, 2014",
         "title": "Urban green space, public health and environmental justice: the challenge of making cities “just green enough”",
-        "url": "https://urbansustainability.seas.umich.edu/wp-content/uploads/2014/06/Making-cities-just-green-enough.pdf"
+        "url": "https://doi.org/10.1016/j.landurbplan.2014.01.017"
       },
       {
         "by": "Urban Waters Learning Network",
@@ -3062,7 +3062,7 @@ const EVIDENCE = {
     {
       "by": "World Bank, 2016",
       "title": "The Cost of Fire: An Economic Analysis of Indonesia’s 2015 Fire Crisis",
-      "url": "https://documents1.worldbank.org/curated/pt/776101467990969768/pdf/103668-BRI-Cost-of-Fires-Knowledge-Note-PUBLIC-ADD-NEW-SERIES-Indonesia-Sustainable-Landscapes-Knowledge-Note.pdf",
+      "url": "https://documents1.worldbank.org/curated/en/776101467990969768/pdf/103668-BRI-Cost-of-Fires-Knowledge-Note-PUBLIC-ADD-NEW-SERIES-Indonesia-Sustainable-Landscapes-Knowledge-Note.pdf",
       "type": "Agency report, economic estimate",
       "where": "Indonesia",
       "scale": "National, one fire season (2015)",
@@ -3463,7 +3463,7 @@ const EVIDENCE = {
     {
       "by": "Wolch, Byrne and Newell, Landscape and Urban Planning, 2014",
       "title": "Urban green space, public health and environmental justice: making cities “just green enough”",
-      "url": "https://urbansustainability.seas.umich.edu/wp-content/uploads/2014/06/Making-cities-just-green-enough.pdf",
+      "url": "https://doi.org/10.1016/j.landurbplan.2014.01.017",
       "type": "Peer-reviewed review",
       "where": "Mostly the United States",
       "scale": "Literature review",
@@ -4072,7 +4072,7 @@ const ORGANISATIONS = [
     "id": "irade",
     "role": "research",
     "name": "Integrated Research and Action for Development (IRADe)",
-    "url": "https://irade.org/website/ongoing-projects-2/",
+    "url": "https://irade.org/",
     "does": "Develops heat hotspot assessments and gender-sensitive heat action plans in India, Bangladesh and Sri Lanka.",
     "levers": ["hap"]
   },
@@ -4936,7 +4936,7 @@ const ORGANISATIONS = [
     "id": "cdd",
     "role": "ground",
     "name": "Centre for Disability in Development (CDD), with CBM",
-    "url": "https://cbm.org/news/news-initiatives/news-hua/persons-with-disabilities-in-the-context-of-climate-change-adaptation-in-bangladesh",
+    "url": "https://www.cbm.org/",
     "does": "Runs disability-inclusive disaster risk and climate adaptation in Bangladesh, including coastal sub-districts, where heatwaves are among the hazards. A heat-specific programme is not confirmed.",
     "levers": ["hap"]
   },
@@ -5032,7 +5032,7 @@ const ORGANISATIONS = [
     "id": "icmr",
     "role": "funders",
     "name": "Indian Council of Medical Research (ICMR)",
-    "url": "https://smcw.edu.in/assets/pdf/2025/Extramural%20Funded%20Research%20Projects.pdf",
+    "url": "https://www.icmr.gov.in/",
     "does": "Funds medical research including a 2025 study of heat-health risk communication among construction workers, manual labourers and street vendors.",
     "levers": ["heatrules","hap"]
   },
@@ -5352,7 +5352,7 @@ const ORGANISATIONS = [
     "id": "nrb",
     "role": "lending",
     "name": "Nepal Rastra Bank",
-    "url": "https://www.sbfnetwork.org/wp-content/assets/policy-library/1440_Nepal_Guideline_on_ESRM_for_Banks_and_FIs_2018_NRB.pdf",
+    "url": "https://www.nrb.org.np/",
     "does": "Sets environmental and social risk rules for banks (2018), and since October 2024 a green finance taxonomy that sorts lending into green, amber and red.",
     "levers": ["heatlending"]
   },
@@ -7438,7 +7438,7 @@ const GLOSSARY = [
     "text": "Fires that smoulder in drained peatland, the thick, wet soil of tropical swamps. Once dry, peat burns underground for weeks and fills the air with haze. Indonesia’s 2015 forest and peat fires cost an estimated US$16.1 billion.",
     "source": {
       "label": "World Bank: The cost of fire, Indonesia, 2016",
-      "url": "https://documents1.worldbank.org/curated/pt/776101467990969768/pdf/103668-BRI-Cost-of-Fires-Knowledge-Note-PUBLIC-ADD-NEW-SERIES-Indonesia-Sustainable-Landscapes-Knowledge-Note.pdf"
+      "url": "https://documents1.worldbank.org/curated/en/776101467990969768/pdf/103668-BRI-Cost-of-Fires-Knowledge-Note-PUBLIC-ADD-NEW-SERIES-Indonesia-Sustainable-Landscapes-Knowledge-Note.pdf"
     }
   },
   {
@@ -7760,7 +7760,7 @@ const GLOSSARY = [
     "text": "Trees and parks cluster in better-off neighbourhoods, which can pay for them and their upkeep, so poorer districts stay hotter. In Jakarta, green space is concentrated in wealthier areas while dense low-income neighbourhoods act as heat islands.",
     "source": {
       "label": "Wolch, Byrne and Newell, Landscape and Urban Planning, 2014",
-      "url": "https://urbansustainability.seas.umich.edu/wp-content/uploads/2014/06/Making-cities-just-green-enough.pdf"
+      "url": "https://doi.org/10.1016/j.landurbplan.2014.01.017"
     }
   },
   {
@@ -8867,8 +8867,8 @@ const PLAN_PHASE_DEFAULT = {
 
 // sections inside: What alerts can be based on, with documented examples from Asia.
 const PLAN_PHASE_SOURCE = {
-  "label": "National Centre for Disease Control, India: training manual for heat-health action plans (before, during and after the heat season)",
-  "url": "https://ncdc.mohfw.gov.in/wp-content/uploads/2024/05/4-Training-Manual-for-State-And-District-Nodal-Officers-For-Implementation-of-Heat-Health-Action-Plan.pdf"
+  "label": "National Centre for Disease Control, India: training manual for heat-health action plans (before, during and after the heat season). The manual’s old address no longer works; this links to the Centre’s site",
+  "url": "https://ncdc.mohfw.gov.in/"
 };
 
 // What alerts can be based on, with documented examples from Asia.
@@ -10634,7 +10634,7 @@ const LOOP_STAKES = {
       "where": "Indonesia",
       "text": "was the cost to Indonesia of the forest and peatland fires of June to October 2015.",
       "by": "World Bank, 2016",
-      "url": "https://documents1.worldbank.org/curated/pt/776101467990969768/pdf/103668-BRI-Cost-of-Fires-Knowledge-Note-PUBLIC-ADD-NEW-SERIES-Indonesia-Sustainable-Landscapes-Knowledge-Note.pdf"
+      "url": "https://documents1.worldbank.org/curated/en/776101467990969768/pdf/103668-BRI-Cost-of-Fires-Knowledge-Note-PUBLIC-ADD-NEW-SERIES-Indonesia-Sustainable-Landscapes-Knowledge-Note.pdf"
     }
   },
   "cooling": {
@@ -11716,7 +11716,7 @@ const CITY_PROFILES = [
         "why": "Indonesia’s 2015 forest and peat fires cost an estimated US$16.1 billion.",
         "src": {
           "label": "World Bank, 2016",
-          "url": "https://documents1.worldbank.org/curated/pt/776101467990969768/pdf/103668-BRI-Cost-of-Fires-Knowledge-Note-PUBLIC-ADD-NEW-SERIES-Indonesia-Sustainable-Landscapes-Knowledge-Note.pdf"
+          "url": "https://documents1.worldbank.org/curated/en/776101467990969768/pdf/103668-BRI-Cost-of-Fires-Knowledge-Note-PUBLIC-ADD-NEW-SERIES-Indonesia-Sustainable-Landscapes-Knowledge-Note.pdf"
         }
       },
       {
@@ -14308,8 +14308,8 @@ const HEAT_WEEK = {
         {
           "text": "In 2023, when fish traders at Peliyagoda raised concerns about the price of ice, the Ministry of Fisheries brought traders and ice suppliers together and agreed a lower price: Rs 650 for 50 kg instead of Rs 850.",
           "source": {
-            "label": "Ministry of Fisheries, 2023",
-            "url": "https://www.fisheries.gov.lk/web/index.php/en/information/news/878-2023-06-07-06-56-03"
+            "label": "Ministry of Fisheries, 2023 (the original notice is no longer online)",
+            "url": "https://www.fisheries.gov.lk/"
           }
         },
         {
@@ -14449,8 +14449,8 @@ const HEAT_WEEK = {
         {
           "text": "PAGASA recorded a heat index of 46 °C at NAIA in Pasay City on 24 April 2024, the highest in Metro Manila that year.",
           "source": {
-            "label": "PAGASA heat index summary",
-            "url": "https://pubfiles.pagasa.dost.gov.ph/tamss/weather/heat_index_summary.pdf"
+            "label": "PAGASA heat index (the 2024 summary is no longer online)",
+            "url": "https://www.pagasa.dost.gov.ph/weather/heat-index"
           }
         },
         {

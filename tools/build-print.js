@@ -81,6 +81,7 @@ async function sheet({ slug, kind, title, lede, body, live, sources }) {
 <title>${esc(title)} | Common Shade one-pager</title>
 <meta name="description" content="${esc(lede)}">
 <link rel="canonical" href="${url}"><link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Common Shade"><meta property="og:url" content="${url}"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(lede)}"><meta property="og:image" content="${SITE}/images/social-share-cs.jpg"><meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2316202B'/%3E%3Cpath d='M5 14 Q16 4 27 14' fill='none' stroke='%23F26430' stroke-width='4.5' stroke-linecap='round'/%3E%3Cpath d='M9 13 V27 M23 13 V27' stroke='%23F6E7D7' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E">
@@ -369,6 +370,7 @@ async function build() {
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Printable one-pagers | Common Shade</title><meta name="description" content="Printable, one-page briefs from Common Shade for officials, planners, partners and journalists. Free to share under CC BY 4.0.">
 <link rel="canonical" href="${SITE}/print/"><link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Common Shade"><meta property="og:url" content="${SITE}/print/"><meta property="og:title" content="Printable one-pagers"><meta property="og:description" content="Printable, one-page briefs from Common Shade for officials, planners, partners and journalists. Free to share under CC BY 4.0."><meta property="og:image" content="${SITE}/images/social-share-cs.jpg"><meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2316202B'/%3E%3Cpath d='M5 14 Q16 4 27 14' fill='none' stroke='%23F26430' stroke-width='4.5' stroke-linecap='round'/%3E%3Cpath d='M9 13 V27 M23 13 V27' stroke='%23F6E7D7' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E">
 <style>body{margin:0;font-family:"Hanken Grotesk",Arial,sans-serif;color:#16202B;background:#FAF7F2;line-height:1.5}main{max-width:900px;margin:0 auto;padding:24px 20px 48px}
