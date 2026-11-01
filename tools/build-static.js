@@ -259,10 +259,15 @@ const checkFor = (key, label) => `<aside class="cs-check" data-check="${key}" da
     D.HOME_HEATS.nuance.text, `For heat plans: ${D.HOME_HEATS.plans}`);
   out[p.slug] = page(p, intro, h); md.push(m.join("\n\n"));
 }
+// the India heat action plan archive (research/india-hap-archive/), for links from worked plans and Indian city pages
+const HAPA = require("./hap-archive.js").load();
+const hapFor = name => HAPA.docs.filter(d => d.district_or_city === name || (d.state === name && !d.district_or_city));
 // worked plans
 {
   const p = PAGES[5], intro = "How places in Asia have turned heat risk into a plan: what happened, what they decided, what changed, and who leads each action.";
   let h = "", m = [`## ${p.title}`, intro];
+  h += `<p>Looking for the documents themselves? The <a href="/resources/heat-action-plans/india/">India heat action plan archive</a> lists ${HAPA.docs.length} verified plans and guidance documents from across India, with a link to each PDF.</p>`;
+  m.push(`The India heat action plan archive lists ${HAPA.docs.length} verified plans and guidance documents from across India, with a link to each PDF: ${"https://beattheheat.asia"}/resources/heat-action-plans/india/`);
   D.WORKED_EXAMPLES.forEach(x => {
     h += `<h2 id="${x.id}">${esc(x.title)}</h2><p class="meta">${esc(x.place)} · ${esc(x.year)}</p>
       <p><strong>What happened:</strong> ${esc(x.trigger)}</p><p><strong>What they decided:</strong> ${esc(x.decision)}</p><p><strong>What changed:</strong> ${esc(x.result)}</p>
@@ -332,6 +337,7 @@ const SNAP_SLUG = { Bangladesh: "bangladesh", India: "india", Indonesia: "indone
       ${checkFor("city-" + cp.id, c.name)}
       ${recentFor(["city-" + cp.id, "country-" + (SNAP_SLUG[c.country] || c.country.toLowerCase().replace(/\s+/g, "-"))])}
       <h2>Who heat hits hardest here</h2><ul>${risks.map(g => `<li><a href="/who-is-at-risk/#${g.id}">${esc(g.name)}</a></li>`).join("")}</ul>
+      ${c.country === "India" ? (n => n ? `<h2>Heat action plans on file</h2><p>${n} ${n === 1 ? "document" : "documents"} for ${esc(c.name)} in the <a href="/resources/heat-action-plans/india/?q=${encodeURIComponent(c.name)}">India heat action plan archive</a>, with a link to each PDF.</p>` : `<h2>Heat action plans on file</h2><p>The <a href="/resources/heat-action-plans/india/">India heat action plan archive</a> has no verified document for ${esc(c.name)} yet; plans for its state and national guidance are there.</p>`)(hapFor(c.name).length) : ""}
       ${exs.length ? `<h2>A worked plan to learn from</h2>${exs.map(x => `<p><a href="/worked-plans/#${x.id}">${esc(x.title)}</a> (${esc(x.place)}, ${esc(x.year)})</p>`).join("")}` : ""}
       <h2>Already at work here</h2><ul>${orgs.map(o => `<li>${ext(o.url, o.name)}: ${esc(o.does)}</li>`).join("")}</ul><p class="meta">Listing does not imply partnership, affiliation or endorsement.</p>
       ${SNAP_SLUG[c.country] ? `<h2>The national picture</h2><p>Plans and law, warnings, rules for heat at work, cooling, money and other cities in ${esc(c.country)}: <a href="/countries/${SNAP_SLUG[c.country]}/">the ${esc(c.country)} country snapshot</a>.</p>` : ""}`;

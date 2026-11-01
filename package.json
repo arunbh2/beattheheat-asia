@@ -3,7 +3,8 @@
   "private": true,
   "description": "Builds the plain-text pages, AI files and printable one-pagers for Common Shade from data.js.",
   "scripts": {
-    "build": "node tools/build-static.js"
+    "build": "node tools/build-static.js",
+    "check:hap": "node tools/check-hap-archive.js"
   },
   "devDependencies": {
     "qrcode": "1.5.4"
