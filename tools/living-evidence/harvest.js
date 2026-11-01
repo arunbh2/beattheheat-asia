@@ -30,8 +30,8 @@ async function get(url, as = "json", tries = 5) {
   for (let i = 1; i <= tries; i++) {
     try {
       const r = await fetch(url, { headers: UA, signal: AbortSignal.timeout(60000) });
-      if (r.status === 429 || r.status >= 500) { const ra = +r.headers.get("retry-after") || 0; throw Object.assign(new Error("HTTP " + r.status), { wait: Math.min(ra * 1000, 60000) }); }
-      if (!r.ok) throw Object.assign(new Error("HTTP " + r.status), { final: true });
+      if (r.status === 429 || r.status >= 500) { const ra = +r.headers.get("retry-after") || 0, body = (await r.text().catch(() => "")).replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim().slice(0, 160); throw Object.assign(new Error("HTTP " + r.status + (body ? ": " + body : "")), { wait: Math.min(ra * 1000, 60000) }); }
+      if (!r.ok) { const body = (await r.text().catch(() => "")).replace(/\s+/g, " ").slice(0, 160); throw Object.assign(new Error("HTTP " + r.status + (body ? ": " + body : "")), { final: true }); }
       return as === "json" ? await r.json() : await r.text();
     } catch (e) { if (i === tries || e.final) throw e; await sleep(e.wait || 8000 * i); }
   }
@@ -42,8 +42,14 @@ const q = s => s.includes(" ") ? `"${s}"` : s;
 
 const SOURCES = {
   async europepmc(from, to) {
-    const query = `(${TERMS.map(t => `TITLE:${q(t)} OR ABSTRACT:${q(t)}`).join(" OR ")}) AND (${PLACES.map(q).join(" OR ")}) AND FIRST_PDATE:[${from} TO ${to}]`;
-    const j = await get("https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&resultType=core&pageSize=100&query=" + encodeURIComponent(query));
+    // the same title search the news feed uses (tools/fetch-research.js), which Europe PMC answers reliably,
+    // then a short second search for cooling and finance studies
+    const TITLE = '(TITLE:"heatwave" OR TITLE:"heatwaves" OR TITLE:"heat wave" OR TITLE:"heat waves" OR TITLE:"extreme heat" OR TITLE:"heat stress" OR TITLE:"heat-related" OR TITLE:"heat exposure" OR TITLE:"heat illness" OR TITLE:"heatstroke" OR TITLE:"heat stroke" OR TITLE:"ambient temperature")';
+    const PLACE = '(India OR Bangladesh OR Nepal OR "Sri Lanka" OR Pakistan OR Cambodia OR Indonesia OR Philippines OR Singapore OR Thailand OR Vietnam OR Malaysia OR Myanmar OR "South Asia" OR "Southeast Asia")';
+    const MORE = '(TITLE:"cool roof" OR TITLE:"cool roofs" OR TITLE:"passive cooling" OR TITLE:"thermal comfort" OR TITLE:"urban heat" OR TITLE:"heat insurance" OR TITLE:"parametric insurance" OR TITLE:"heat action plan")';
+    const ask = async t => { const r = await get("https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&resultType=core&pageSize=100&sort=" + encodeURIComponent("FIRST_PDATE_D desc") + "&query=" + encodeURIComponent(`${t} AND ${PLACE} AND FIRST_PDATE:[${from} TO 3000-01-01]`)); return (r.resultList && r.resultList.result) || []; };
+    const res = (await ask(TITLE)).concat(await ask(MORE));
+    const j = { resultList: { result: res } };
     return ((j.resultList && j.resultList.result) || []).map(x => ({ title: clean(x.title), abstract: clean(x.abstractText), date: x.firstPublicationDate || "",
       doi: (x.doi || "").toLowerCase(), url: x.doi ? "https://doi.org/" + x.doi : `https://europepmc.org/article/${x.source}/${x.id}`,
       venue: (x.journalInfo && x.journalInfo.journal && x.journalInfo.journal.title) || x.bookOrReportDetails?.publisher || "", kind: x.source === "PPR" ? "preprint" : "article",
