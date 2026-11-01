@@ -156,5 +156,114 @@
   ],
   "status": "candidate",
   "note": "Staged to check the page opens and contains these terms before any map change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "epmc-carleton-2017",
+  "type": "source",
+  "title": "Europe PMC record for DOI:10.1073/pnas.1701354114",
+  "publisher": "Europe PMC",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1073/pnas.1701354114&resultType=core&format=json",
+  "archive": "none",
+  "kind": "lookup",
+  "expect": [
+   "suicide",
+   "India",
+   "temperature"
+  ],
+  "status": "candidate",
+  "note": "A lookup of the paper’s abstract, used only to confirm what it says; never cited on the site."
+ },
+ {
+  "id": "epmc-burke-2018",
+  "type": "source",
+  "title": "Europe PMC record for DOI:10.1038/s41558-018-0222-x",
+  "publisher": "Europe PMC",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038/s41558-018-0222-x&resultType=core&format=json",
+  "archive": "none",
+  "kind": "lookup",
+  "expect": [
+   "suicide",
+   "temperature"
+  ],
+  "status": "candidate",
+  "note": "A lookup of the paper’s abstract, used only to confirm what it says; never cited on the site."
+ },
+ {
+  "id": "epmc-carlton-2016",
+  "type": "source",
+  "title": "Europe PMC record for DOI:10.1093/ije/dyv296",
+  "publisher": "Europe PMC",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1093/ije/dyv296&resultType=core&format=json",
+  "archive": "none",
+  "kind": "lookup",
+  "expect": [
+   "temperature",
+   "diarrh"
+  ],
+  "status": "candidate",
+  "note": "A lookup of the paper’s abstract, used only to confirm what it says; never cited on the site."
+ },
+ {
+  "id": "epmc-chersich-2020",
+  "type": "source",
+  "title": "Europe PMC record for DOI:10.1136/bmj.m3811",
+  "publisher": "Europe PMC",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1136/bmj.m3811&resultType=core&format=json",
+  "archive": "none",
+  "kind": "lookup",
+  "expect": [
+   "preterm",
+   "stillbirth",
+   "heatwave"
+  ],
+  "status": "candidate",
+  "note": "A lookup of the paper’s abstract, used only to confirm what it says; never cited on the site."
+ },
+ {
+  "id": "epmc-rekha-2023",
+  "type": "source",
+  "title": "Europe PMC record for DOI:10.1111/1471-0528.17680",
+  "publisher": "Europe PMC",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1111/1471-0528.17680&resultType=core&format=json",
+  "archive": "none",
+  "kind": "lookup",
+  "expect": [
+   "heat",
+   "pregnan",
+   "miscarriage"
+  ],
+  "status": "candidate",
+  "note": "A lookup of the paper’s abstract, used only to confirm what it says; never cited on the site."
+ },
+ {
+  "id": "epmc-venugopal-2016",
+  "type": "source",
+  "title": "Europe PMC record for PMCID:PMC5025522",
+  "publisher": "Europe PMC",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMCID%3APMC5025522&resultType=core&format=json",
+  "archive": "none",
+  "kind": "lookup",
+  "expect": [
+   "women",
+   "toilet",
+   "water"
+  ],
+  "status": "candidate",
+  "note": "A lookup of the paper’s abstract, used only to confirm what it says; never cited on the site."
+ },
+ {
+  "id": "epmc-thompson-2023",
+  "type": "source",
+  "title": "Europe PMC record for DOI:10.1016/S2542-5196(23)00104-3",
+  "publisher": "Europe PMC",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1016/S2542-5196%2823%2900104-3&resultType=core&format=json",
+  "archive": "none",
+  "kind": "lookup",
+  "expect": [
+   "mental",
+   "temperature"
+  ],
+  "status": "candidate",
+  "note": "A lookup of the paper’s abstract, used only to confirm what it says; never cited on the site."
  }
 ]
