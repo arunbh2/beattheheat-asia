@@ -181,6 +181,7 @@ const PEOPLE = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "peopl
 
       <h2 class="hub-h" id="questions">Questions nobody has answered yet</h2>
       <p class="hub-p">A learning agenda, drawn from the limits the studies above state about themselves. Each question is sized so that one well-designed study could move it. The suggested approach and scale are ours, offered for discussion; researchers and funders closer to each place will know better.</p>
+      <p class="hub-p">Five of these questions, on pregnancy, newborns, children, mental health and violence against women, are set out with their evidence in a citable brief: <a href="/briefs/heat-mothers-children-minds/">Heat and the health of mothers, children and minds</a>.</p>
       <ol class="evm-qs">${LQ.filter(q => q.status === "open").map(q => `<li class="evm-q" id="${esc(q.id)}"><p class="evm-q-k">${esc((D.LOOPS.find(l => l.id === q.loop) || {}).name || "")} · <span class="evm-chip evm-chip--emerging">Uncertain</span></p><h3>${esc(q.q)}</h3>
           <dl><dt>What we have</dt><dd>${esc(q.have)} <a href="#ev-${esc(q.loop)}">The studies</a></dd><dt>What could answer it <span class="sol-note">(our suggestion)</span></dt><dd>${esc(q.could)}</dd><dt>Scale</dt><dd>${esc(q.scale)}</dd></dl></li>`).join("")}</ol>
       <p class="hub-p">Know of a study that answers one of these, or a better question? <a href="/corrections/">Tell us</a>, and we will add it with credit.</p>
@@ -571,6 +572,7 @@ fs.writeFileSync(path.join(ROOT, "404.html"), page("", "Page not found", "This p
 
 // ---- Live through a heatwave: three simulations of equal weight (tools/build-live.js) ----
 require("./build-live.js")({ page, write, hero, esc, V, D, ROOT });
+require("./build-brief-health.js")({ page, write, esc, D, ROOT });
 
 // ---- the search index: pages, places, cycles, glossary terms, heatwaves and organisations ----
 function searchIndex() {
