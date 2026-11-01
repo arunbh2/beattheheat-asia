@@ -30,6 +30,8 @@ expect(screen(s2).keep && /9\.2% increase in all-cause mortality/.test(e2.effect
 expect(e2.unit_cost === null && e2.agro_climatic_zone === null && e2.effect_size_c === null, "fields the text does not state stay empty");
 const s3 = { title: "Heat stress in European dairy cows", abstract: "We measured milk yield on 40 farms in Germany during heatwaves." };
 expect(!screen(s3).keep, "screen sets aside studies with no South or Southeast Asian setting");
+const s4 = { title: "Ensiled fruit peels as an animal feed in Sri Lanka", abstract: "We measured feed quality of 40 silage samples stored under shade. Reflective covers were used." };
+expect(!screen(s4).keep, "screen sets aside studies with no heat context, even when cooling words appear");
 
 ok.forEach(m => console.log("  ok   " + m));
 if (fail.length) { console.error(fail.map(m => "  FAIL " + m).join("\n")); console.error(`living evidence check: ${fail.length} problem(s)`); process.exit(1); }
