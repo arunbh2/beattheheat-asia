@@ -321,7 +321,13 @@ function countryPage(s) {
 
 fs.mkdirSync(path.join(ROOT, "solutions"), { recursive: true });
 fs.writeFileSync(path.join(ROOT, "solutions", "index.html"), page({ slug: "solutions", title: "Solutions library", desc: `${total} ways to protect people from extreme heat: passive cooling, active cooling, and the plans, rules and money that make it last, with evidence, costs and what each depends on.`, body, script }));
-SNAPS.forEach(s => { fs.mkdirSync(path.join(ROOT, "countries", s.slug), { recursive: true }); fs.writeFileSync(path.join(ROOT, "countries", s.slug, "index.html"), countryPage(s)); });
+// India: point from its official plans to the heat action plan archive (research/india-hap-archive/), counted from the catalogue
+function withHapArchive(html) {
+  const A = require("./hap-archive.js").load(), C = A.counts;
+  const line = `<p class="cty-note"><b>Every plan on file:</b> the <a href="/resources/heat-action-plans/india/">India heat action plan archive</a> lists ${C.total} verified documents (${C.type.HAP || 0} standalone heat action plans, ${C.type.EMBEDDED_HEAT_HEALTH_PLAN || 0} heat-health plans inside state and UT climate-and-health volumes, ${C.type.NATIONAL_PLAN || 0} national plan and ${C.type.GUIDANCE || 0} guidance documents), with a link to each PDF.</p>`;
+  return html.replace(/(<h2[^>]*>Official plans and authority<\/h2>)/, `$1${line}`);
+}
+SNAPS.forEach(s => { fs.mkdirSync(path.join(ROOT, "countries", s.slug), { recursive: true }); fs.writeFileSync(path.join(ROOT, "countries", s.slug, "index.html"), s.slug === "india" ? withHapArchive(countryPage(s)) : countryPage(s)); });
 fs.mkdirSync(path.join(ROOT, "countries"), { recursive: true });
 fs.writeFileSync(path.join(ROOT, "countries", "index.html"), page({ slug: "countries", title: "Country snapshots", desc: "Heat country snapshots for Bangladesh, India, Indonesia, Nepal, the Philippines, Sri Lanka and Thailand.", body: `
     <section class="sol-page"><div class="container"><p class="eyebrow eyebrow--break">Country snapshots</p><h1 class="h2 tool-h1">Heat, country by country.</h1>
