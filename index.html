@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
 
-  <link rel="stylesheet" href="styles.css?v=168">
+  <link rel="stylesheet" href="styles.css?v=169">
 
   <script type="application/ld+json">
   {
@@ -111,12 +111,12 @@
   }
   </script>
   <link rel="alternate" type="text/plain" href="/llms-full.txt" title="The whole map as plain text">
-  <script src="data.js?v=168" defer></script>
-  <script src="script.js?v=168" defer></script>
-  <script src="heatweek.js?v=168" defer></script>
-  <script src="guide.js?v=168" defer></script>
-  <script src="journey.js?v=168" defer></script>
-  <script src="/join.js?v=168" defer></script>
+  <script src="data.js?v=169" defer></script>
+  <script src="script.js?v=169" defer></script>
+  <script src="heatweek.js?v=169" defer></script>
+  <script src="guide.js?v=169" defer></script>
+  <script src="journey.js?v=169" defer></script>
+  <script src="/join.js?v=169" defer></script>
 <!--csn--><style id="csn-css">html:has(.csn){scroll-padding-top:120px}
 .csn,.csf,.csn-d,.csp{--ink:#16202B;--ink2:#39424D;--grey:#5E6570;--canvas:#FAF7F2;--sand:#F2E7D9;--line:#E6DFD4;--orange:#F26430;--ember:#B8401A;--green:#17703A;font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);line-height:1.4}
 .csn{position:sticky;top:0;z-index:60;margin:0!important;padding:0!important;max-width:none!important;display:block!important;background:rgba(250,247,242,.96);border-bottom:1px solid var(--line);-webkit-backdrop-filter:saturate(1.2) blur(10px);backdrop-filter:saturate(1.2) blur(10px)}
@@ -427,6 +427,25 @@ html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{
         </dl>
         <div class="intro__foot">
           <p class="honest">This map is large, but the real web is larger. Every heatwave reveals links that aren’t drawn here yet.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="launch" id="launch" aria-labelledby="launch-h">
+      <!-- The launch film: rendered in code from real screens of the site (tools/launch/). Plays only when asked; nothing loads until then. -->
+      <div class="container launch__in">
+        <figure class="launch__film">
+          <video controls playsinline preload="none" poster="/media/launch/launch-poster.jpg" width="1920" height="1080" aria-describedby="launch-p">
+            <source src="/media/launch/launch-16x9.mp4" type="video/mp4">
+            <track kind="captions" src="/media/launch/launch.en.vtt" srclang="en" label="English">
+          </video>
+        </figure>
+        <div class="launch__copy">
+          <p class="launch__k">New</p>
+          <h2 class="launch__h" id="launch-h">Common Shade, in 20 seconds</h2>
+          <p class="launch__p" id="launch-p">Extreme heat, in one shared map. A short film made from the site itself, free to share. Every idea is on screen, so it works with the sound off.</p>
+          <p class="launch__dl"><a href="/media/launch/launch-16x9.mp4" download>Download the film (MP4)</a></p>
+          <p class="launch__more">For sharing: <a href="/media/launch/launch-1x1.mp4" download>square</a> · <a href="/media/launch/launch-9x16.mp4" download>vertical</a> · <a href="/media/launch/launch-9x16-6s.mp4" download>6-second vertical</a> · <a href="/media/launch/launch-16x9-gentle.mp4" download>gentle version, without fast camera moves</a></p>
         </div>
       </div>
     </section>

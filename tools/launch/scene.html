@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!-- Common Shade launch film: one scene, driven frame by frame by window.tick(ms) (tools/launch/render.js).
+     Real screens of the site (tools/launch/shots/, captured from the built pages), the site's fonts and colours.
+     Counts arrive as window.COUNTS from tools/launch/build.js, read from the data, never typed.
+     ?gentle=1 renders the calmer version: no whip pan, no speed ramp, no motion blur. -->
+<html lang="en"><head><meta charset="utf-8"><title>Common Shade launch film</title>
+<style>
+@font-face { font-family: Anton; src: url(../films/fonts/Anton-Regular.ttf); }
+@font-face { font-family: Hanken; src: url(../films/fonts/HankenGrotesk-Medium.ttf); font-weight: 500; }
+@font-face { font-family: Hanken; src: url(../films/fonts/HankenGrotesk-Bold.ttf); font-weight: 700; }
+:root { --ink: #16202B; --cream: #FAF7F2; --sand: #F6E7D7; --orange: #F26430; --ember: #B8401A; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 100%; height: 100%; overflow: hidden; background: #000; }
+body { font-family: Hanken, sans-serif; color: var(--cream); }
+.layer { position: absolute; inset: 0; overflow: hidden; }
+#stage { position: absolute; inset: 0; }
+/* A: the map */
+#A { background: radial-gradient(circle at 50% 46%, #FFF6EC 0%, var(--cream) 60%, #F1E6D8 100%); }
+#map { position: absolute; left: 50%; top: 50%; transform-origin: 50% 49%; border-radius: 50%; }
+#vig { position: absolute; inset: 0; background: radial-gradient(circle at 50% 50%, rgba(250,247,242,0) 52%, rgba(250,247,242,.75) 70%, #FAF7F2 84%); pointer-events: none; }
+#capA { position: absolute; font-family: Anton; line-height: .98; letter-spacing: .01em; color: var(--ink); text-transform: uppercase; }
+#capA b { display: block; color: var(--orange); font-weight: 400; }
+#capA .bg { position: absolute; inset: -.35em -.5em; background: rgba(250, 247, 242, .88); border-radius: .25em; z-index: -1; box-shadow: 0 .3em 1.2em rgba(22, 32, 43, .12); }
+/* C: the device */
+#C { background: radial-gradient(ellipse at 50% 62%, #3A2A22 0%, #1B222C 45%, #10161D 100%); }
+#glow { position: absolute; left: 50%; border-radius: 50%; background: radial-gradient(closest-side, rgba(242, 100, 48, .45), rgba(242, 100, 48, 0)); transform: translate(-50%, -50%); }
+#rig { position: absolute; perspective: 1800px; }
+#phone { position: absolute; inset: 0; transform-style: preserve-3d; }
+.face { position: absolute; inset: 0; border-radius: 13%/6.2%; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.front { background: #0D1218; padding: 3.4%; box-shadow: 0 0 0 2px #2A3440 inset; }
+.front .screen { position: relative; width: 100%; height: 100%; border-radius: 10.6%/4.9%; overflow: hidden; background: var(--cream); }
+.front img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: top; }
+.front .notch { position: absolute; top: 1.2%; left: 50%; width: 3.2%; aspect-ratio: 1; transform: translateX(-50%); background: #0D1218; border-radius: 50%; z-index: 2; }
+.back { transform: rotateY(180deg); background: linear-gradient(160deg, #26303B, #141A21); box-shadow: 0 0 0 2px #2A3440 inset; display: grid; place-items: center; }
+.back svg { width: 34%; }
+#shadow { position: absolute; border-radius: 50%; background: radial-gradient(closest-side, rgba(0, 0, 0, .55), rgba(0, 0, 0, 0)); }
+#proof { position: absolute; display: grid; }
+.pr { display: grid; grid-template-columns: auto 1fr; align-items: baseline; column-gap: .45em; }
+.pr b { font-family: Anton; font-weight: 400; color: var(--orange); line-height: 1; }
+.pr span { color: var(--sand); line-height: 1.2; font-weight: 500; }
+/* D: the tagline */
+#tag { position: absolute; left: 0; right: 0; text-align: center; font-family: Anton; text-transform: uppercase; line-height: 1; color: var(--cream); }
+#tag em { font-style: normal; color: var(--orange); display: block; }
+/* F: the reveal */
+#F { background: radial-gradient(ellipse at 50% 45%, #1F2933 0%, #10161D 75%); }
+#grid { position: absolute; left: 50%; top: 50%; display: grid; grid-template-columns: repeat(3, 1fr); }
+#grid img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; object-position: top; border-radius: .6vmin; box-shadow: 0 1vmin 3vmin rgba(0, 0, 0, .5); display: block; }
+#card { position: absolute; inset: 0; display: grid; place-content: center; justify-items: center; text-align: center; }
+#card .logo { display: flex; align-items: center; gap: .35em; font-family: Anton; color: var(--cream); letter-spacing: .03em; }
+#card .logo svg { height: .95em; }
+#card .cta { margin-top: .9em; font-weight: 700; color: var(--ink); background: var(--orange); border-radius: 999px; padding: .45em 1.25em; }
+#card .url { margin-top: .75em; font-weight: 700; color: var(--cream); letter-spacing: .01em; }
+#card .free { margin-top: .35em; color: var(--sand); opacity: .85; font-weight: 500; }
+#black { position: absolute; inset: 0; background: #000; }
+</style></head><body>
+<svg width="0" height="0" style="position:absolute"><filter id="whip" x="-20%" y="0" width="140%" height="100%"><feGaussianBlur id="whipBlur" stdDeviation="0 0"/></filter></svg>
+<div id="stage">
+  <div class="layer" id="A"><img id="map" src="shots/map-wheel.jpg" alt=""><div id="vig"></div><div id="capA"><span class="bg"></span>One heatwave.<b>Many harms.</b></div></div>
+  <div class="layer" id="C"><div id="glow"></div><div id="shadow"></div>
+    <div id="rig"><div id="phone">
+      <div class="face front"><div class="screen"><div class="notch"></div><img id="scrA" src="shots/phone-home.jpg" alt=""><img id="scrB" src="shots/phone-hap.jpg" alt=""></div></div>
+      <div class="face back"><svg viewBox="0 0 26 20" aria-hidden="true"><path d="M2.5 8 Q13 -1 23.5 8" fill="none" stroke="#F26430" stroke-width="4" stroke-linecap="round"/><path d="M6.5 7 V18.5 M19.5 7 V18.5" stroke="#FAF7F2" stroke-width="2.6" stroke-linecap="round"/></svg></div>
+    </div></div>
+    <div id="proof"></div>
+    <div id="tag">Extreme heat,<em>in one shared map.</em></div>
+  </div>
+  <div class="layer" id="F"><div id="grid"></div>
+    <div id="card"><div class="logo"><svg viewBox="0 0 26 20" aria-hidden="true"><path d="M2.5 8 Q13 -1 23.5 8" fill="none" stroke="#F26430" stroke-width="4" stroke-linecap="round"/><path d="M6.5 7 V18.5 M19.5 7 V18.5" stroke="#FAF7F2" stroke-width="2.6" stroke-linecap="round"/></svg>COMMON SHADE</div>
+      <div class="cta">Explore the map</div><div class="url">beattheheat.asia</div><div class="free">Free and open</div></div>
+  </div>
+  <div id="black"></div>
+</div>
+<script>
+(function () {
+  "use strict";
+  var C = window.COUNTS || { hap: 0, solutions: 0, orgs: 0 };
+  var GENTLE = /[?&]gentle=1/.test(location.search);
+  var $ = function (s) { return document.querySelector(s); };
+  var W = innerWidth, H = innerHeight, S = Math.min(W, H) / 1080, PORT = H > W * 1.2, SQUARE = !PORT && W < H * 1.3;
+  // the proof, read from the data
+  var fmt = function (n) { return Number(n).toLocaleString("en-GB"); };
+  $("#proof").innerHTML = [[C.hap, "heat action plans and guidance documents, India"], [C.solutions, "solutions, with their evidence and cost"], [C.orgs, "organisations already at work"]]
+    .map(function (r) { return '<div class="pr"><b>' + fmt(r[0]) + '</b><span>' + r[1] + '</span></div>'; }).join("");
+  (PORT ? ["t-atlas", "t-solutions", "t-hap", "t-evidence", "home", "t-risk", "t-city", "t-plan", "t-intersections", "t-network"] : ["t-atlas", "t-solutions", "t-hap", "t-evidence", "home", "t-risk", "t-city", "t-plan", "t-intersections"]).forEach(function (n) { var i = new Image(); i.src = "shots/" + n + ".jpg"; i.alt = ""; $("#grid").appendChild(i); });
+
+  // easing
+  var clamp = function (x) { return Math.max(0, Math.min(1, x)); };
+  var seg = function (t, a, b) { return clamp((t - a) / (b - a)); };
+  var ease = function (x) { return x < .5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2; };   // in-out cubic
+  var out = function (x) { return 1 - Math.pow(1 - x, 3); };
+  var lerp = function (a, b, x) { return a + (b - a) * x; };
+
+  // layout, once
+  var mapSize = Math.min(W, H) * (PORT ? 1.02 : .96);
+  var map = $("#map"); map.style.width = mapSize + "px"; map.style.marginLeft = -mapSize / 2 + "px"; map.style.marginTop = -mapSize / 2 * 1442 / 1413 + "px";
+  var cap = $("#capA"); cap.style.fontSize = (PORT ? 104 : 112) * S + "px";
+  if (PORT) { cap.style.left = 72 * S + "px"; cap.style.bottom = 150 * S + "px"; } else { cap.style.left = 96 * S + "px"; cap.style.bottom = 110 * S + "px"; }
+  var ph = PORT ? H * .5 : H * .74, pw = ph * 412 / 860;
+  var rig = $("#rig"); rig.style.width = pw + "px"; rig.style.height = ph + "px";
+  var px = PORT ? (W - pw) / 2 : (SQUARE ? W * .27 - pw / 2 : W * .33 - pw / 2), py = PORT ? H * .1 : (H - ph) / 2 - 10 * S;
+  rig.style.left = px + "px"; rig.style.top = py + "px";
+  var glow = $("#glow"), gsz = ph * 1.25; glow.style.width = glow.style.height = gsz + "px"; glow.style.left = px + pw / 2 + "px"; glow.style.top = py + ph / 2 + "px";
+  var sh = $("#shadow"); sh.style.width = pw * 1.5 + "px"; sh.style.height = pw * .22 + "px"; sh.style.left = px + pw / 2 - pw * .75 + "px"; sh.style.top = py + ph + 8 * S + "px";
+  var proof = $("#proof"); proof.style.rowGap = 26 * S + "px";
+  [].forEach.call(document.querySelectorAll(".pr b"), function (b) { b.style.fontSize = (PORT ? 96 : SQUARE ? 88 : 104) * S + "px"; });
+  [].forEach.call(document.querySelectorAll(".pr span"), function (s) { s.style.fontSize = (PORT ? 32 : SQUARE ? 29 : 32) * S + "px"; s.style.maxWidth = (PORT ? 560 : SQUARE ? 420 : 560) * S + "px"; });
+  if (PORT) { proof.style.left = 90 * S + "px"; proof.style.right = 90 * S + "px"; proof.style.top = py + ph + 80 * S + "px"; }
+  else { proof.style.left = (SQUARE ? W * .5 : W * .56) + "px"; proof.style.right = 60 * S + "px"; proof.style.top = "50%"; proof.style.transform = "translateY(-50%)"; }
+  var tag = $("#tag"); tag.style.fontSize = (PORT ? 106 : SQUARE ? 128 : 150) * S + "px"; tag.style.top = "50%"; tag.style.transform = "translateY(-50%)"; tag.style.padding = "0 " + 60 * S + "px";
+  var COLS = PORT ? 2 : 3, ROWS = PORT ? 5 : 3, grid = $("#grid"), gw = PORT ? W * 1.04 : W * .92, gap = (PORT ? 18 : 24) * S; grid.style.width = gw + "px"; grid.style.gap = gap + "px"; grid.style.gridTemplateColumns = "repeat(" + COLS + ", 1fr)";
+  var tileW = (gw - (COLS - 1) * gap) / COLS, gh = ROWS * tileW * 10 / 16 + (ROWS - 1) * gap; grid.style.marginLeft = -gw / 2 + "px"; grid.style.marginTop = -gh / 2 + "px";
+  var card = $("#card"); card.style.fontSize = (PORT ? 46 : 42) * S + "px";
+  card.querySelector(".logo").style.fontSize = (PORT ? 120 : 112) * S + "px";
+  var cards = { cta: card.querySelector(".cta"), url: card.querySelector(".url"), free: card.querySelector(".free"), logo: card.querySelector(".logo") };
+  cards.url.style.fontSize = (PORT ? 54 : 50) * S + "px"; cards.free.style.fontSize = (PORT ? 34 : 30) * S + "px";
+  var prs = document.querySelectorAll(".pr");
+
+  window.tick = function (ms) {
+    var t = ms / 1000;
+    // --- A: push in on the map (0 to 3.5 s) ---
+    var pA = ease(seg(t, 0, 3.6));
+    map.style.transform = "scale(" + lerp(1, PORT ? 1.65 : 1.85, pA) + ")";
+    var cIn = out(seg(t, .5, 1.2));
+    cap.style.opacity = cIn; cap.style.transform = "translateY(" + (1 - cIn) * 40 * S + "px)";
+    // --- the move from A to C: a whip pan (3.5 to 4.0 s), or a soft crossfade in the gentle version ---
+    var w = seg(t, 3.5, 4.0), wE = ease(w);
+    var A = $("#A"), Cl = $("#C");
+    if (GENTLE) { A.style.transform = "none"; Cl.style.transform = "none"; A.style.opacity = 1 - wE; Cl.style.opacity = wE; A.style.display = t < 4 ? "block" : "none"; }
+    else { A.style.opacity = 1; Cl.style.opacity = 1; A.style.transform = "translateX(" + (-wE * W) + "px)"; Cl.style.transform = "translateX(" + ((1 - wE) * W) + "px)"; A.style.display = t < 4.05 ? "block" : "none"; }
+    var blur = GENTLE ? 0 : Math.sin(Math.PI * w) * 70 * S;
+    document.getElementById("whipBlur").setAttribute("stdDeviation", blur.toFixed(2) + " 0");
+    $("#stage").style.filter = blur > .3 ? "url(#whip)" : "none";
+    Cl.style.display = t >= 3.45 && t < 13 ? "block" : "none";
+    // --- C: orbit the device with a speed ramp (4.0 to 9.0 s): slow, fast, slow, settling on the archive ---
+    var o = seg(t, 3.6, 8.6);
+    var ang = GENTLE ? lerp(-28, 0, ease(o)) : lerp(-200, 0, ease(ease(o)));   // the ramp: a doubled ease is slow at both ends and fast through the middle
+    var tilt = lerp(10, 4, ease(o));
+    $("#phone").style.transform = "rotateX(" + tilt + "deg) rotateY(" + ang + "deg)";
+    // the screen changes from the homepage to the archive while its back is to the camera
+    var showB = GENTLE ? t > 6.3 : ang > -90;
+    $("#scrB").style.opacity = GENTLE ? clamp((t - 6.0) / .6) : (showB ? 1 : 0);
+    sh.style.opacity = .6 + .4 * Math.abs(Math.cos(ang * Math.PI / 180));
+    // the proof, line by line
+    [6.4, 7.1, 7.8].forEach(function (s, i) { var e = out(seg(t, s, s + .55)); prs[i].style.opacity = e; prs[i].style.transform = "translateY(" + (1 - e) * 30 * S + "px)"; });
+    // --- D: rack focus from the device to the tagline (9.0 to 13.0 s) ---
+    var rOut = ease(seg(t, 9.0, 10.0)), rIn = ease(seg(t, 9.3, 10.4));
+    var dev = "blur(" + (rOut * 18 * S).toFixed(2) + "px)";
+    rig.style.filter = dev; proof.style.filter = dev; glow.style.filter = dev;
+    rig.style.opacity = proof.style.opacity = lerp(1, .32, rOut);
+    tag.style.opacity = rIn; tag.style.filter = "blur(" + ((1 - rIn) * 22 * S).toFixed(2) + "px)";
+    tag.style.transform = "translateY(-50%) scale(" + lerp(1.06, 1, rIn) + ")";
+    // --- E: smash cut to black (13.0 to 13.6 s) ---
+    $("#black").style.opacity = t >= 13.0 && t < 13.6 ? 1 : 0;
+    // --- F: pull back to the whole website (13.6 to 20 s), then the end card ---
+    var F = $("#F"); F.style.display = t >= 13.6 ? "block" : "none";
+    var pF = out(seg(t, 13.6, 16.6)), s0 = PORT ? 2.2 : W * 1.02 / tileW;
+    grid.style.transform = "scale(" + lerp(s0, 1, pF) + ")";
+    var cd = ease(seg(t, 16.3, 17.2));
+    grid.style.opacity = lerp(1, .22, cd); grid.style.filter = "blur(" + (cd * 3 * S).toFixed(2) + "px)";
+    cards.logo.style.opacity = cd; cards.logo.style.transform = "translateY(" + (1 - cd) * 24 * S + "px)";
+    var c2 = out(seg(t, 17.0, 17.6)), c3 = out(seg(t, 17.4, 18.0));
+    cards.cta.style.opacity = c2; cards.cta.style.transform = "scale(" + lerp(.9, 1, c2) + ")";
+    cards.url.style.opacity = c3; cards.free.style.opacity = c3 * .85;
+    // a short fade at the very end, so the loop or the next post does not jump
+    $("#black").style.opacity = t >= 13.0 && t < 13.6 ? 1 : clamp((t - 19.6) / .4);
+  };
+  window.ready = Promise.all([].map.call(document.images, function (i) { return i.complete ? 1 : new Promise(function (r) { i.onload = i.onerror = r; }); })).then(function () { return document.fonts.ready; });
+  window.tick(0);
+})();
+</script>
+</body></html>

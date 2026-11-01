@@ -4086,3 +4086,20 @@ html:not(.rf-js) .rf-co-tabs{display:none}
 .evm-live{display:inline-block;margin:4px 0;padding:6px 10px;border-left:3px solid #1F7A70;background:#F1F7F5;border-radius:0 8px 8px 0;font-size:.88rem;line-height:1.5}
 .evm-live small{display:block;color:var(--grey-700);margin-top:2px}.evm-live-list{padding-left:1.1em;line-height:1.55}.evm-live-list:empty{display:none}
 .hap-gaps-h{margin:18px 0 8px;font-size:.95rem}
+
+/* ---- Homepage launch card: the 20-second film (media/launch/, made by tools/launch/) ---- */
+.launch{background:var(--ink,#16202B);color:#FAF7F2;padding:clamp(28px,5vw,56px) 0;border-top:1px solid rgba(246,231,215,.12)}
+.launch__in{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:clamp(20px,4vw,48px);align-items:center}
+.launch__film{margin:0}
+.launch__film video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#10161D;border-radius:14px;box-shadow:0 12px 40px rgba(0,0,0,.35)}
+.launch__k{margin:0 0 8px;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--orange,#F26430)}
+.launch__h{margin:0 0 10px;font-family:Anton,Impact,sans-serif;font-weight:400;font-size:clamp(1.9rem,3.6vw,2.8rem);line-height:1.02;text-transform:uppercase;color:#FAF7F2}
+.launch__p{margin:0 0 16px;color:#E9DED0;line-height:1.6;max-width:44ch}
+.launch__dl{margin:0 0 10px}
+.launch__dl a{display:inline-flex;align-items:center;min-height:44px;padding:10px 20px;border-radius:999px;background:var(--orange,#F26430);color:#16202B;font-weight:800;text-decoration:none}
+.launch__dl a:hover{background:#F6E7D7}
+.launch__more{margin:0;font-size:.9rem;color:#C9C2B6;line-height:1.7}
+.launch__more a{color:#FAF7F2;text-decoration:underline;text-decoration-color:var(--orange,#F26430);text-underline-offset:3px}
+.launch a:focus-visible,.launch video:focus-visible{outline:3px solid var(--orange,#F26430);outline-offset:3px}
+@media (max-width:760px){.launch__in{grid-template-columns:1fr}}
+@media print{.launch{display:none}}
