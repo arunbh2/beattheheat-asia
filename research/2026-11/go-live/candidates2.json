@@ -1,0 +1,27 @@
+{
+ "https://api.crossref.org/works/10.1016/j.landurbplan.2014.01.017": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://api.crossref.org/works/10.54878/3f34ax59": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://doi.org/10.1016/j.landurbplan.2014.01.017": {
+  "status": "REDIRECT",
+  "code": 200,
+  "archive": ""
+ },
+ "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1016/j.landurbplan.2014.01.017&resultType=lite&format=json": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://www.icmr.gov.in/": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ }
+}
