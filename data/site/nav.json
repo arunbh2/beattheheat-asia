@@ -32,7 +32,7 @@
      ["/a-city-under-strain/", "A city under strain", "Power, water, clinics and trees through a heatwave", 2],
      ["/a-week-in-the-heat/", "A week in the heat", "Follow one worker’s money through a heatwave", 2],
      ["/practical-actions/", "Practical actions, as text", "Every action card in plain text", 2],
-     ["/actions/", "Actions that break the cycles", "The 29 levers, as text", 2]
+     ["/actions/", "Actions that break the cycles", "The 33 levers, as text", 2]
     ] },
   { "id": "fund", "label": "Fund", "h": "Fund and build", "hub": "/fund/",
     "intro": "Where money for protection comes from, where it reaches, and what to ask before funding.",

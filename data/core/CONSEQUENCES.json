@@ -632,15 +632,23 @@
     "id": "pregnancy",
     "sys": "health",
     "label": "Risks in\npregnancy",
-    "desc": "Each 1 °C rise in temperature raises the odds of preterm birth by about 5%, and a heatwave by about 16%. Stillbirths rise too. Women who keep working outdoors or fetching water while pregnant carry the most risk. In Bangladesh, the extreme-heat days a pregnancy passes through rose from about 4 for births in 2018 to about 30 for births in 2024.",
+    "desc": "Each 1 °C rise in temperature raises the odds of preterm birth by about 5%, and a heatwave by about 16%; stillbirths rise by about 5% for each 1 °C, and the risks are largest for poorer women and at the youngest and oldest ages. Women who keep working outdoors or fetching water while pregnant carry the most risk: in a Tamil Nadu study of 800 pregnant women doing physical work, those with high workplace heat had about twice the risk of miscarriage. In Bangladesh, the extreme-heat days a pregnancy passes through rose from about 4 for births in 2018 to about 30 for births in 2024.",
     "sources": [
       {
-        "label": "Chersich et al., BMJ, 2020: high temperatures in pregnancy and preterm birth, low birth weight and stillbirth",
-        "url": "https://heathealth.info/resources/associations-between-high-temperatures-in-pregnancy-and-risk-of-preterm-birth-low-birth-weight-and-stillbirths-systematic-review-and-meta-analysis/"
+        "label": "Chersich et al., BMJ, 2020: systematic review and meta-analysis of 70 studies in 27 countries",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33148618/"
+      },
+      {
+        "label": "Rekha et al., BJOG, 2023: occupational heat and pregnancy outcomes in 800 women workers, Tamil Nadu",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37814395/"
       },
       {
         "label": "Preprint, not yet peer reviewed: prenatal extreme heat and newborn deaths in Bangladesh, 2015–2025 (medRxiv, 2026)",
         "url": "https://doi.org/10.64898/2026.10.23.26366352"
+      },
+      {
+        "label": "WHO, UNICEF and UNFPA, 2023: Protecting maternal, newborn and child health from the impacts of climate change",
+        "url": "https://www.who.int/publications/i/item/9789240085350"
       }
     ]
   },
@@ -653,6 +661,22 @@
       {
         "label": "Lancet Countdown 2024, India data sheet: infants faced 7.7 heatwave days a year",
         "url": "https://lancetcountdown.org/wp-content/uploads/2024/10/Lancet-Countdown-2024_INDIA.pdf"
+      },
+      {
+        "label": "WHO, UNICEF and UNFPA, 2023: Protecting maternal, newborn and child health from the impacts of climate change",
+        "url": "https://www.who.int/publications/i/item/9789240085350"
+      }
+    ]
+  },
+  {
+    "id": "childdiarrhoea",
+    "sys": "health",
+    "label": "Diarrhoea in\nyoung children",
+    "desc": "Warmth lets bacteria multiply in water and food. Across 26 studies, each 1 °C rise in temperature was linked to about 7% more diarrhoea, a leading cause of death in young children. Repeated bouts leave children undernourished.",
+    "sources": [
+      {
+        "label": "Carlton et al., International Journal of Epidemiology, 2016: temperature and diarrhoeal disease, 26 studies",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26567313/"
       }
     ]
   },
@@ -660,11 +684,31 @@
     "id": "mental",
     "sys": "health",
     "label": "Mental health\nsuffers",
-    "desc": "Heat is linked to more anxiety, distress and suicide, and to worse outcomes for people living with mental illness.",
+    "desc": "Heat is linked to more anxiety, distress and suicide, and to worse outcomes for people living with mental illness. Heat in pregnancy adds stress and anxiety, known risks for the birth. In many countries, mental health services are far from meeting the need.",
     "sources": [
       {
         "label": "Thompson et al., The Lancet Planetary Health, 2023, summarised by Imperial College London",
         "url": "https://www.imperial.ac.uk/news/246058/rising-temperatures-associated-with-poorer-mental/"
+      },
+      {
+        "label": "WHO, 2022: Mental health and climate change, policy brief",
+        "url": "https://www.who.int/publications/i/item/9789240045125"
+      },
+      {
+        "label": "WHO, UNICEF and UNFPA, 2023: Protecting maternal, newborn and child health from the impacts of climate change",
+        "url": "https://www.who.int/publications/i/item/9789240085350"
+      }
+    ]
+  },
+  {
+    "id": "suicide",
+    "sys": "health",
+    "label": "Suicides rise",
+    "desc": "In India, where one fifth of the world’s suicides occur, a 1 °C rise in a day’s temperature above 20 °C in the growing season was linked to about 70 more suicides, as the same heat cut crop yields. Warming over 30 years is estimated to account for 59,300 suicides. The findings have been debated.",
+    "sources": [
+      {
+        "label": "Carleton, PNAS, 2017: crop-damaging temperatures increase suicide rates in India",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28760983/"
       }
     ]
   },
@@ -753,6 +797,18 @@
       {
         "label": "World Bank, 2022, reported by Down To Earth",
         "url": "https://www.downtoearth.org.in/climate-change/heatwaves-in-india-could-soon-break-human-survivability-limit-says-world-bank-analysis-86431"
+      }
+    ]
+  },
+  {
+    "id": "womenwater",
+    "sys": "work",
+    "label": "Hot workplaces\nwithout toilets",
+    "desc": "Heat at work carries a hidden cost for women where there are no safe toilets. In a study of 312 women workers in India, heat exceeded safe limits for 71%; of those with poor or no toilets, 87% reported genitourinary problems, and about 1 in 10 showed heat strain and moderate dehydration.",
+    "sources": [
+      {
+        "label": "Venugopal et al., Global Health Action, 2016: heat and inadequate sanitation for 312 women workers in India",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27633034/"
       }
     ]
   },
@@ -964,11 +1020,11 @@
     "id": "gbv",
     "sys": "society",
     "label": "Violence against\nwomen rises",
-    "desc": "Across India, Nepal and Pakistan, each 1 °C rise in yearly temperature was linked to about 4.5% more intimate partner violence. Lost income, stress and crowded hot homes all play a part.",
+    "desc": "Across 194,871 women in India, Nepal and Pakistan, each 1 °C rise in yearly temperature was linked to about 4.5% more intimate partner violence, with physical and sexual violence rising most. Under very high emissions it could rise about 21% by the 2090s, against about 6% if warming is held lowest. Lost income, stress and crowded hot homes may all play a part.",
     "sources": [
       {
         "label": "Zhu et al., JAMA Psychiatry, 2023: ambient temperature and intimate partner violence in India, Nepal and Pakistan",
-        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10308303/"
+        "url": "https://bell-lab.yale.edu/publications/association-ambient-temperature-prevalence-intimate-partner-violence-among-partnered"
       }
     ]
   },

@@ -713,15 +713,23 @@ const CONSEQUENCES = [
     "id": "pregnancy",
     "sys": "health",
     "label": "Risks in\npregnancy",
-    "desc": "Each 1 °C rise in temperature raises the odds of preterm birth by about 5%, and a heatwave by about 16%. Stillbirths rise too. Women who keep working outdoors or fetching water while pregnant carry the most risk. In Bangladesh, the extreme-heat days a pregnancy passes through rose from about 4 for births in 2018 to about 30 for births in 2024.",
+    "desc": "Each 1 °C rise in temperature raises the odds of preterm birth by about 5%, and a heatwave by about 16%; stillbirths rise by about 5% for each 1 °C, and the risks are largest for poorer women and at the youngest and oldest ages. Women who keep working outdoors or fetching water while pregnant carry the most risk: in a Tamil Nadu study of 800 pregnant women doing physical work, those with high workplace heat had about twice the risk of miscarriage. In Bangladesh, the extreme-heat days a pregnancy passes through rose from about 4 for births in 2018 to about 30 for births in 2024.",
     "sources": [
       {
-        "label": "Chersich et al., BMJ, 2020: high temperatures in pregnancy and preterm birth, low birth weight and stillbirth",
-        "url": "https://heathealth.info/resources/associations-between-high-temperatures-in-pregnancy-and-risk-of-preterm-birth-low-birth-weight-and-stillbirths-systematic-review-and-meta-analysis/"
+        "label": "Chersich et al., BMJ, 2020: systematic review and meta-analysis of 70 studies in 27 countries",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33148618/"
+      },
+      {
+        "label": "Rekha et al., BJOG, 2023: occupational heat and pregnancy outcomes in 800 women workers, Tamil Nadu",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37814395/"
       },
       {
         "label": "Preprint, not yet peer reviewed: prenatal extreme heat and newborn deaths in Bangladesh, 2015–2025 (medRxiv, 2026)",
         "url": "https://doi.org/10.64898/2026.10.23.26366352"
+      },
+      {
+        "label": "WHO, UNICEF and UNFPA, 2023: Protecting maternal, newborn and child health from the impacts of climate change",
+        "url": "https://www.who.int/publications/i/item/9789240085350"
       }
     ]
   },
@@ -734,6 +742,22 @@ const CONSEQUENCES = [
       {
         "label": "Lancet Countdown 2024, India data sheet: infants faced 7.7 heatwave days a year",
         "url": "https://lancetcountdown.org/wp-content/uploads/2024/10/Lancet-Countdown-2024_INDIA.pdf"
+      },
+      {
+        "label": "WHO, UNICEF and UNFPA, 2023: Protecting maternal, newborn and child health from the impacts of climate change",
+        "url": "https://www.who.int/publications/i/item/9789240085350"
+      }
+    ]
+  },
+  {
+    "id": "childdiarrhoea",
+    "sys": "health",
+    "label": "Diarrhoea in\nyoung children",
+    "desc": "Warmth lets bacteria multiply in water and food. Across 26 studies, each 1 °C rise in temperature was linked to about 7% more diarrhoea, a leading cause of death in young children. Repeated bouts leave children undernourished.",
+    "sources": [
+      {
+        "label": "Carlton et al., International Journal of Epidemiology, 2016: temperature and diarrhoeal disease, 26 studies",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26567313/"
       }
     ]
   },
@@ -741,11 +765,31 @@ const CONSEQUENCES = [
     "id": "mental",
     "sys": "health",
     "label": "Mental health\nsuffers",
-    "desc": "Heat is linked to more anxiety, distress and suicide, and to worse outcomes for people living with mental illness.",
+    "desc": "Heat is linked to more anxiety, distress and suicide, and to worse outcomes for people living with mental illness. Heat in pregnancy adds stress and anxiety, known risks for the birth. In many countries, mental health services are far from meeting the need.",
     "sources": [
       {
         "label": "Thompson et al., The Lancet Planetary Health, 2023, summarised by Imperial College London",
         "url": "https://www.imperial.ac.uk/news/246058/rising-temperatures-associated-with-poorer-mental/"
+      },
+      {
+        "label": "WHO, 2022: Mental health and climate change, policy brief",
+        "url": "https://www.who.int/publications/i/item/9789240045125"
+      },
+      {
+        "label": "WHO, UNICEF and UNFPA, 2023: Protecting maternal, newborn and child health from the impacts of climate change",
+        "url": "https://www.who.int/publications/i/item/9789240085350"
+      }
+    ]
+  },
+  {
+    "id": "suicide",
+    "sys": "health",
+    "label": "Suicides rise",
+    "desc": "In India, where one fifth of the world’s suicides occur, a 1 °C rise in a day’s temperature above 20 °C in the growing season was linked to about 70 more suicides, as the same heat cut crop yields. Warming over 30 years is estimated to account for 59,300 suicides. The findings have been debated.",
+    "sources": [
+      {
+        "label": "Carleton, PNAS, 2017: crop-damaging temperatures increase suicide rates in India",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28760983/"
       }
     ]
   },
@@ -834,6 +878,18 @@ const CONSEQUENCES = [
       {
         "label": "World Bank, 2022, reported by Down To Earth",
         "url": "https://www.downtoearth.org.in/climate-change/heatwaves-in-india-could-soon-break-human-survivability-limit-says-world-bank-analysis-86431"
+      }
+    ]
+  },
+  {
+    "id": "womenwater",
+    "sys": "work",
+    "label": "Hot workplaces\nwithout toilets",
+    "desc": "Heat at work carries a hidden cost for women where there are no safe toilets. In a study of 312 women workers in India, heat exceeded safe limits for 71%; of those with poor or no toilets, 87% reported genitourinary problems, and about 1 in 10 showed heat strain and moderate dehydration.",
+    "sources": [
+      {
+        "label": "Venugopal et al., Global Health Action, 2016: heat and inadequate sanitation for 312 women workers in India",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27633034/"
       }
     ]
   },
@@ -1045,11 +1101,11 @@ const CONSEQUENCES = [
     "id": "gbv",
     "sys": "society",
     "label": "Violence against\nwomen rises",
-    "desc": "Across India, Nepal and Pakistan, each 1 °C rise in yearly temperature was linked to about 4.5% more intimate partner violence. Lost income, stress and crowded hot homes all play a part.",
+    "desc": "Across 194,871 women in India, Nepal and Pakistan, each 1 °C rise in yearly temperature was linked to about 4.5% more intimate partner violence, with physical and sexual violence rising most. Under very high emissions it could rise about 21% by the 2090s, against about 6% if warming is held lowest. Lost income, stress and crowded hot homes may all play a part.",
     "sources": [
       {
         "label": "Zhu et al., JAMA Psychiatry, 2023: ambient temperature and intimate partner violence in India, Nepal and Pakistan",
-        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10308303/"
+        "url": "https://bell-lab.yale.edu/publications/association-ambient-temperature-prevalence-intimate-partner-violence-among-partnered"
       }
     ]
   },
@@ -1496,7 +1552,24 @@ const LINKS = [
   ["abroad","lost","When a worker falls ill or dies, the money home stops."],
   ["conflict","camps","Conflict drives people into crowded camps."],
   ["camps","homes","Tarpaulin shelters trap heat, with no way to cool."],
-  ["camps","schoolclose","Learning centres close when the heat peaks."]
+  ["camps","schoolclose","Learning centres close when the heat peaks."],
+  [
+    "informal",
+    "pregnancy",
+    "Pregnant women who keep doing heavy work in the heat face more miscarriage and early birth."
+  ],
+  ["fetching","pregnancy","Carrying water far in the heat adds strain to a pregnancy."],
+  ["pregnancy","mental","Heat in pregnancy adds stress and anxiety, known risks for the birth."],
+  ["quality","childdiarrhoea","Warm, low water lets bacteria multiply."],
+  ["sanitation","childdiarrhoea","Without clean water and handwashing, children catch diarrhoea more easily."],
+  ["spoilage","childdiarrhoea","Food that spoils in the heat makes children ill."],
+  ["childdiarrhoea","newborns","Repeated diarrhoea leaves young children undernourished and weak."],
+  ["childdiarrhoea","hsys","Sick children fill clinics in the hot months."],
+  ["harvests","suicide","When heat ruins crops, farm incomes fall, and suicides rise in the growing season."],
+  ["mental","suicide","Distress that goes without support can end in self-harm."],
+  ["homes","gbv","Crowded, hot homes may raise tension inside them."],
+  ["informal","womenwater","Many women’s workplaces have no safe toilets."],
+  ["womenwater","kidney","Dehydration at work strains the kidneys."]
 ];
 
 /* ---------- 4. VICIOUS CYCLES ---------- */
@@ -2542,6 +2615,63 @@ const LEVERS = [
         "url": "https://www.undp.org/pakistan/projects/global-shield-against-climate-risks"
       }
     ]
+  },
+  {
+    "id": "maternalheat",
+    "edge": ["pregnancy","newborns"],
+    "title": "Heat-safe pregnancy and newborn care",
+    "who": ["health","employers","community"],
+    "when": "season",
+    "measure": "Antenatal and newborn services with heat advice, cool rooms and heat protocols",
+    "text": "Heat advice and checks in antenatal care, lighter work and rest for pregnant workers, cool labour wards and newborn units, and visits to new mothers in a heatwave.",
+    "example": "Tamil Nadu’s heat strategy proposes screening for heat risk in the check-ups of the state’s pregnancy scheme.",
+    "exampleSources": [
+      {
+        "label": "Tamil Nadu Heat Mitigation Strategy, 2024",
+        "url": "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf"
+      }
+    ],
+    "guides": [
+      {
+        "by": "WHO, UNICEF and UNFPA, 2023",
+        "title": "Protecting maternal, newborn and child health from the impacts of climate change: a call for action",
+        "url": "https://www.who.int/publications/i/item/9789240085350"
+      }
+    ]
+  },
+  {
+    "id": "mindheat",
+    "edge": ["mental","suicide"],
+    "title": "Mental health in heat plans",
+    "who": ["health","nat","community"],
+    "when": "years",
+    "measure": "Heat plans that name mental health, with services and support lines that stay open in heatwaves",
+    "text": "Heat plans that include mental health: support that reaches farm households after crop losses, services that stay open through heatwaves, and warnings that reach people in mental health care.",
+    "guides": [
+      {
+        "by": "World Health Organization, 2022",
+        "title": "Mental health and climate change: policy brief",
+        "url": "https://www.who.int/publications/i/item/9789240045125"
+      }
+    ]
+  },
+  {
+    "id": "safeathome",
+    "edge": ["lost","gbv"],
+    "title": "Violence prevention in heat planning",
+    "who": ["community","nat","health"],
+    "when": "years",
+    "measure": "Heat plans that include helplines, shelters and women’s groups",
+    "text": "Helplines, shelters and women’s groups included in heat plans and kept open in heatwaves, income support in hot seasons, and health workers trained to recognise violence on their visits."
+  },
+  {
+    "id": "childwater",
+    "edge": ["sanitation","childdiarrhoea"],
+    "title": "Safe water and rehydration for young children",
+    "who": ["water","health","community"],
+    "when": "season",
+    "measure": "Clean water, handwashing and oral rehydration ready before the hot months",
+    "text": "Safe drinking water, handwashing and oral rehydration salts in place before the hot months, carried to families by clinics and community health workers."
   }
 ];
 
@@ -8252,8 +8382,17 @@ const AT_RISK = [
       "label": "Peng et al., PNAS, 2004",
       "url": "https://doi.org/10.1073/pnas.0403720101"
     },
-    "nodes": ["harvests","farmwork","livestock","farmdebt"],
-    "levers": ["farmcredit","soilwater","irrigate","socialprotection"]
+    "nodes": ["harvests","farmwork","livestock","farmdebt","suicide"],
+    "levers": ["farmcredit","soilwater","irrigate","socialprotection","mindheat"],
+    "more": [
+      {
+        "fact": "In India, crop-damaging heat in the growing season is linked to more suicides; warming over 30 years is estimated to account for 59,300.",
+        "source": {
+          "label": "Carleton, PNAS, 2017: crop-damaging temperatures increase suicide rates in India",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28760983/"
+        }
+      }
+    ]
   },
   {
     "id": "coastal",
@@ -8376,8 +8515,8 @@ const AT_RISK = [
         }
       }
     ],
-    "nodes": ["care","fetching","gbv","inequality"],
-    "levers": ["heatcash","socialprotection","hap","coolhousing"]
+    "nodes": ["care","fetching","gbv","inequality","womenwater"],
+    "levers": ["heatcash","socialprotection","hap","coolhousing","safeathome"]
   },
   {
     "id": "mothers",
@@ -8396,10 +8535,24 @@ const AT_RISK = [
           "label": "Lancet Countdown, India data sheet, 2024",
           "url": "https://lancetcountdown.org/wp-content/uploads/2024/10/Lancet-Countdown-2024_INDIA.pdf"
         }
+      },
+      {
+        "fact": "In Tamil Nadu, among 800 pregnant women doing moderate to heavy physical work, those with high workplace heat had about twice the risk of miscarriage.",
+        "source": {
+          "label": "Rekha et al., BJOG, 2023: occupational heat and pregnancy outcomes in 800 women workers, Tamil Nadu",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37814395/"
+        }
+      },
+      {
+        "fact": "Across 26 studies, each 1 °C rise in temperature was linked to about 7% more diarrhoea, a leading cause of death in young children.",
+        "source": {
+          "label": "Carlton et al., International Journal of Epidemiology, 2016: temperature and diarrhoeal disease, 26 studies",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26567313/"
+        }
       }
     ],
-    "nodes": ["pregnancy","newborns","hunger","sanitation"],
-    "levers": ["readyclinics","hap","freecare","socialprotection"]
+    "nodes": ["pregnancy","newborns","hunger","sanitation","childdiarrhoea"],
+    "levers": ["readyclinics","hap","freecare","socialprotection","maternalheat","childwater"]
   },
   {
     "id": "older",
@@ -8420,7 +8573,12 @@ const AT_RISK = [
     "exposure": "Some conditions and common medicines, such as diuretics, interfere with the body’s cooling. Heart, kidney and lung disease and diabetes raise the danger, and heat worsens many mental health conditions.",
     "barriers": "Warnings in formats they can’t use, cooling centres they can’t reach, and heat plans that rarely name their needs.",
     "nodes": ["mental","heatstroke","kidney","isolation"],
-    "levers": ["hap","coolingcentres","readyclinics","freecare"]
+    "levers": ["hap","coolingcentres","readyclinics","freecare","mindheat"],
+    "fact": "Heat can worsen underlying illness, including heart disease, diabetes, asthma and mental health conditions.",
+    "source": {
+      "label": "WHO, 2026: Heat and health, fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health"
+    }
   },
   {
     "id": "excluded",

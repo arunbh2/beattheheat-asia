@@ -235,5 +235,22 @@
   ["abroad","lost","When a worker falls ill or dies, the money home stops."],
   ["conflict","camps","Conflict drives people into crowded camps."],
   ["camps","homes","Tarpaulin shelters trap heat, with no way to cool."],
-  ["camps","schoolclose","Learning centres close when the heat peaks."]
+  ["camps","schoolclose","Learning centres close when the heat peaks."],
+  [
+    "informal",
+    "pregnancy",
+    "Pregnant women who keep doing heavy work in the heat face more miscarriage and early birth."
+  ],
+  ["fetching","pregnancy","Carrying water far in the heat adds strain to a pregnancy."],
+  ["pregnancy","mental","Heat in pregnancy adds stress and anxiety, known risks for the birth."],
+  ["quality","childdiarrhoea","Warm, low water lets bacteria multiply."],
+  ["sanitation","childdiarrhoea","Without clean water and handwashing, children catch diarrhoea more easily."],
+  ["spoilage","childdiarrhoea","Food that spoils in the heat makes children ill."],
+  ["childdiarrhoea","newborns","Repeated diarrhoea leaves young children undernourished and weak."],
+  ["childdiarrhoea","hsys","Sick children fill clinics in the hot months."],
+  ["harvests","suicide","When heat ruins crops, farm incomes fall, and suicides rise in the growing season."],
+  ["mental","suicide","Distress that goes without support can end in self-harm."],
+  ["homes","gbv","Crowded, hot homes may raise tension inside them."],
+  ["informal","womenwater","Many women’s workplaces have no safe toilets."],
+  ["womenwater","kidney","Dehydration at work strains the kidneys."]
 ]
