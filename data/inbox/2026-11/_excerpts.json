@@ -1,0 +1,150 @@
+{
+ "src-carleton-2017-suicide-india": {
+  "url": "https://www.pnas.org/doi/10.1073/pnas.1701354114",
+  "status": "BLOCKED",
+  "http": 403,
+  "archive": "https://web.archive.org/web/20250716162228/https://www.pnas.org/doi/10.1073/pnas.1701354114",
+  "title": "",
+  "found": {
+   "suicide": false,
+   "India": false,
+   "temperature": false,
+   "59,300": false
+  },
+  "around": [],
+  "opening": ""
+ },
+ "src-burke-2018-suicide-temperature": {
+  "url": "https://www.nature.com/articles/s41558-018-0222-x",
+  "status": "REDIRECT",
+  "http": 200,
+  "archive": "https://web.archive.org/web/20261013105654/https://www.nature.com/articles/s41558-018-0222-x",
+  "title": "Client Challenge",
+  "found": {
+   "suicide": false,
+   "temperature": false
+  },
+  "around": [],
+  "opening": "Client Challenge A required part of this site couldn’t load. This may be due to a browser extension, network issues, or browser settings. Please check your connection, disable any ad blockers, or try using a different browser."
+ },
+ "src-carlton-2016-diarrhoea": {
+  "url": "https://doi.org/10.1093/ije/dyv296",
+  "status": "BLOCKED",
+  "http": 403,
+  "archive": "",
+  "title": "",
+  "found": {
+   "temperature": false,
+   "diarrh": false,
+   "7%": false
+  },
+  "around": [],
+  "opening": ""
+ },
+ "src-chersich-2020-bmj": {
+  "url": "https://www.bmj.com/content/371/bmj.m3811",
+  "status": "BLOCKED",
+  "http": 403,
+  "archive": "https://web.archive.org/web/20260222112145/https://www.bmj.com/content/371/bmj.m3811",
+  "title": "",
+  "found": {
+   "preterm": false,
+   "stillbirth": false,
+   "heatwave": false
+  },
+  "around": [],
+  "opening": ""
+ },
+ "src-rekha-2023-pregnancy-heat": {
+  "url": "https://doi.org/10.1111/1471-0528.17680",
+  "status": "BLOCKED",
+  "http": 403,
+  "archive": "",
+  "title": "",
+  "found": {
+   "heat": false,
+   "pregnancy": false,
+   "miscarriage": false
+  },
+  "around": [],
+  "opening": ""
+ },
+ "src-venugopal-2016-women-workers": {
+  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5025522/",
+  "status": "REDIRECT",
+  "http": 200,
+  "archive": "https://web.archive.org/web/20231118090730/http://ncbi.nlm.nih.gov/pmc/articles/PMC5025522/",
+  "title": "Checking your browser - reCAPTCHA",
+  "found": {
+   "women": false,
+   "toilet": false,
+   "water": false
+  },
+  "around": [],
+  "opening": "Checking your browser - reCAPTCHA Checking your browser before accessing pmc.ncbi.nlm.nih.gov ... Click here if you are not automatically redirected after 5 seconds."
+ },
+ "src-who-heat-health-factsheet": {
+  "url": "https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health",
+  "status": "OK",
+  "http": 200,
+  "archive": "https://web.archive.org/web/20261030145632/https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health",
+  "title": "Heat and health",
+  "found": {
+   "pregnant": false,
+   "mental health": true,
+   "heat": true
+  },
+  "around": [
+   "h facility assessment GIS centre for health Reports World Health Statistics UHC global monitoring report About WHO About WHO Partnerships Committees and advisory groups Collaborating centres Technical teams Organizational structure Who we are Our work Activities Initiatives General Programme of Work WHO Academy Funding Investment in WHO WHO Foundation Accountability External audit Financial statements Internal audit and investigations Programme Budget Results reports Governance Governing bodies World Health Assembly Executive Board Member States Portal Home / Newsroom / Fact sheets / Detail / Heat and health Unsplash-dikaseva Credits Heat and health 31 July 2026 Reading time: Key facts Heat is an important environmental and occupational health hazard. Heat stress is a leading cause of weather-related deaths and can exacerbate underlying illnesses including cardiovascular disease, diabetes, mental health, asthma, and can increase the risk of accidents and transmission of some infectious diseases. Heatstroke is a medical emergency with a high-case fatality rate. The number of people exposed to extreme heat is growing exponentially due to climate change in all world regions. Heat-related mortality for people over 65 years of age increased by approximately 85% between 2000 2004 and 2017 2021 (1) . Between 2000 2019 studies show approximately 489 000 heat-related deaths occur each year, with 45% of these in Asia and 36% in Europe (2) . In Europe alone in the summer of 2022, an estimated 61 672 heat-related excess deaths occurred (3) . High intensity heatwave events can bring high acute mortality; in 2003, 70 000 people in Europe died as a result of the June August event. In 2010, 56 000 excess deaths occurred during a 44 day heatwave in the Russian Federation. Vulnerability to heat is shaped by both physiological factors, such as age and health status, and exposure factors such as occupation and socio-economic conditions. The negative health impacts of heat are predictable and largely preventable with specific public health and multi-sectoral policies and interventions. WHO has issued guidance for public health institutions to identify and manage extreme heat risks. Action on climate change combined with comprehensive preparedness and risk management can save lives now and in the future. Overview A heatwave is a period where local excess heat accumulates over a sequence of unusually hot days and nights. Heatwaves and prolonged excess heat conditions are increasing in frequency, duration, intensity and magnitude due to climate change. Even low and moderate intensity heat waves can impact the health and well-being of vulnerable populations. The frequency and intensity of extreme heat and heat waves will continue to rise in the 21st century because of climate change. Extended periods of high day and nighttime temperature conditions create cumulative stress on the human body, increasing the risk of illness and death from heat exposure. Heatwaves can acutely impact large populations for short periods of time, often trigger public health emergencies, and result in excess mortality and cascading socioeconomic impacts (for example, lost work capacity and labour productivity). They can also cause loss of health service delivery capacity, when power shortages accompany heatwaves and disrupt health facilities, transport and water infrastructure. Population ageing and the growing prevalence of non-communicable diseases (respiratory and cardiovascular diseases, diabetes, dementia, renal disease and musculoskeletal disease) means that populations are becoming more susceptible to negative heat impacts. Cities are not being designed to minimize the accumulation and generation of urban heat, with a loss of greenspace and inappropriate housing materials (for example, metal roofs) that amplify human exposure to excess heat. Awareness among health workers and the public remains insufficient of the health risks posed by heat. Health professionals should adjust their guidance, planning and interventions to account for increasing heat exposures, as well as to manage acute increases in admissions associated with heatwaves. Practical, feasible and often low-cost interventions at the individual, community, organizational, governmental and societal levels can save lives. Who is affected? Many populations in tropical and subtropical climates are chronically exposed to high temperatures. In mid to high latitudes, population exposure excess heat is seasonal. Individual vulnerability to heat for physiological or clinical factors in adults is well described (4) . Heat can affect health through a variety of direct and indirect mechanisms. There is limited research on the impact of chronic (sustained) exposure to high temperatures and humidity. Outdoor and manual workers, athletes and civil protection employees are exposed to excess heat because of their work and susceptible to exertional heat stress. Urban and rural poor are often disproportionately exposed to overheating due to low quality housing and lack of access to cooling. Due to building materials, informal settlements are often hotter than other urban areas in some cities. Gender can play an important role in determining heat exposure, for example where women are primarily responsible for cooking indoors during hot weather. Infographic: Main heat vulnerability factors How does heat impact health? The amount of heat stored in the human body is determined by a combination of (a) an inability to eliminate internally generated heat from metabolic processes due to environmental heat stress (for example, high temperature, high humidity, low wind, high thermal radiation), (b) clothing creating a barrier to heat loss, (c) external heat gain from the environment. The body’s inability to regulate internal temperature and eliminate heat gain in such conditions increases the risk of heat exhaustion and heatstroke. The strain put on the body as it tries to cool itself also stresses the heart and kidneys. As a result, heat extremes can worsen health risks from chronic conditions (cardiovascular, mental, respiratory and diabetes related conditions) and cause acute kidney injury. Deaths and hospitalizations triggered by extreme hot weather occur rapidly (same day and following days), which means interventions also need to be rapid when a heat alert is issued. Heat can also disrupt and compromise essential health services, such as the loss of power supply and transport. Heat will reduce working productivity and increases the risk of accidents. It is difficult to complete work or learning in very hot weather and heatwaves may lead schools and other institutions to close. Heatwaves can also be associated with hazardous air pollution events. The scale and nature of the health impacts of heat depend on the timing, intensity and duration of a heat event, and the level of acclimatization and adaptability of the local population, infrastructure and institutions to the prevailing climate. Infographic: Scale and nature of the health impacts of heat What actions should the public take? Stay out of the heat Avoid going outside and doing strenuous activity during the hottest time of day. Stay in the shade. Remember that perceived temperatures in the sun can be 10 15˚C higher. Spend 2 3 hours during the day in a cool place. Be aware of the risk of drowning. Never swim alone. Stay informed about official heat warnings. Keep your home cool Use the night air to cool down your home by opening windows after dark when the outdoor temperature is lower than the indoor temperature. During the day when outdoor temperatures are higher than indoors, close windows and cover them with blinds or shutters to block direct sunlight. Turn off as many electrical devices as possible. Use electric fans only when temperatures are below 40˚C / 104˚F. In temperatures above 40˚C / 104˚F, fans will heat the body. If using air conditioning, set the thermostat to 27˚C / 81˚F and turn on an electric fan this will make the room feel 4˚C cooler . It can also save up to 70% on your electricity bill for cooling. Remember that it may be cooler outdoors in the shade. Keep your body cool and hydrated Use light and loose-fitting clothing and bed linens. Take cool showers or baths. Wet your skin using a damp cloth, spray, or wet light clothing. Drink water regularly (1 cup of water per hour and at least 2 3 litres per day). Regularly check in with vulnerable people in your circle especially people over 65 years old and those with heart, lung or kidney conditions, a disability, and living alone. Protect infants and children Never leave children or animals in parked vehicles for any amount of time, as temperatures can quickly become dangerously high. Avoid direct exposure to the sun during peak "
+  ],
+  "opening": "Heat and health Skip to main content World Health Organization Global Regions World Health Organization WHO Regional websites Africa Americas South-East Asia Europe Eastern Mediterranean Western Pacific When autocomplete results are available use up and down arrows to review and enter to select. Select language Select language English العربية 中文 Fran ais Русский Espa ol Home Health Topics All topics A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Resources Fact sheets Facts in pictures Multimedia Podcasts Publications Questions and answers Tools and toolkits Popular Dengue Endometriosis Excessive heat Herpes Mental disorders Mpox Countries All countries A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Regions Africa Americas Europe Eastern Mediterranean South-East Asia Western Pacific WHO in countries Data by country Country presence Country cooperation strategies Country office profiles Strengthening country offices Newsroom Newsroom News releases Statements Campaigns Events Feature stories Speeches Commentaries Photo library Headlines Emergencies In focus Cholera Ebola disease Israel and the occupied Palestinian territory Middle East Sudan Ukraine Latest Disease Outbreak News Situation reports Rapid risk assessments Weekly Epidemiological Record WHO in emergencies Surveillance Alert and response Operations Research Funding Partners Health emergency appeals International Health Regulations Independent Oversight and Advisory Committee Data Data at WHO Data hub Global H"
+ },
+ "src-who-mnch-climate-2023": {
+  "url": "https://www.who.int/publications/i/item/9789240085350",
+  "status": "OK",
+  "http": 200,
+  "archive": "https://web.archive.org/web/20261012223221/https://www.who.int/publications/i/item/9789240085350",
+  "title": "Protecting maternal, newborn and child health from the impacts of climate change: A call for action",
+  "found": {
+   "maternal": true,
+   "newborn": true,
+   "climate": true
+  },
+  "around": [
+   "acility assessment GIS centre for health Reports World Health Statistics UHC global monitoring report About WHO About WHO Partnerships Committees and advisory groups Collaborating centres Technical teams Organizational structure Who we are Our work Activities Initiatives General Programme of Work WHO Academy Funding Investment in WHO WHO Foundation Accountability External audit Financial statements Internal audit and investigations Programme Budget Results reports Governance Governing bodies World Health Assembly Executive Board Member States Portal Home / Publications / i / item / Protecting maternal, newborn and child health from the impacts of climate change: A call for action - Select language - العربية 中文 fran ais русский espa ol portugu s Protecting maternal, newborn and child health from the impacts of climate change: A call for action 21 November 2023 Advocacy brief Download (4.3 MB) Overview Climate hazards, including extreme heat, are associated with increased risks of developing complications that lead to adverse maternal and perinatal outcomes. These may include multiple causes of maternal and neonatal morbidity and mortality such as gestational diabetes, hyper tensive disorders of pregnancy, preterm birth, low birth weight and stillbirth. In addition to the health risks related to poor nutrition, water, hygiene and sanitation, the effects of exposure to climate hazards and their aftermath during and after pregnancy can affect mental health and contribute to intergenerational trauma. They may increase stress, anxiety and depression known risk factors for adverse perinatal outcomes. The impact of climate change on MNCH demands action. In addition to a wide range of immediate health risks, climate change threatens to lead to many longterm consequences that affect the health and well-being of women, newborns and children throughout their lives. Agencies that have endorsed the Call to Action amp;nbsp; Editors World Health Organization Number of pages 17 Reference numbers ISBN: 978 92 4 008535 0 Copyright Regions Africa Americas Eastern Mediterranean Europe South-East Asia Western Pacific Policies Cybersecurity Ethics Information disclosure Permissions and licensing Preventing sexual exploitation Terms of use About us Careers Frequently asked questions Library Procurement Publications Contact us Newsletters Report misconduct Privacy policy © 2026 WHO",
+   "Protecting maternal, newborn and child health from the impacts of climate change: A call for action Skip to main content Global Regions WHO Regional websites Africa Americas South-East Asia Europe Eastern Mediterranean Western Pacific When autocomplete results are available use up and down arrows to review and enter to select. Select language Select language English العربية 中文 Fran ais Русский Espa ol Portugu s Home Health Topics All topics A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Resources Fact sheets Facts in pictures Multimedia Podcasts Publications Questions and answers Tools and toolkits Popular Dengue Endometriosis Excessive heat Herpes Mental disorders Mpox Countries All countries A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Regions Africa Americas Europe Eastern Mediterranean South-East Asia Western Pacific WHO in countries Data by country Country presence Country cooperation strategies Country office profiles Strengthening co"
+  ],
+  "opening": "Protecting maternal, newborn and child health from the impacts of climate change: A call for action Skip to main content Global Regions WHO Regional websites Africa Americas South-East Asia Europe Eastern Mediterranean Western Pacific When autocomplete results are available use up and down arrows to review and enter to select. Select language Select language English العربية 中文 Fran ais Русский Espa ol Portugu s Home Health Topics All topics A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Resources Fact sheets Facts in pictures Multimedia Podcasts Publications Questions and answers Tools and toolkits Popular Dengue Endometriosis Excessive heat Herpes Mental disorders Mpox Countries All countries A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Regions Africa Americas Europe Eastern Mediterranean South-East Asia Western Pacific WHO in countries Data by country Country presence Country cooperation strategies Country office profiles Strengthening country offices Newsroom Newsroom News releases Statements Campaigns Events Feature stories Speeches Commentaries Photo library Headlines Emergencies In focus Cholera Ebola disease Israel and the occupied Palestinian territory Middle East Sudan Ukraine Latest Disease Outbreak News Situation reports Rapid risk assessments Weekly Epidemiological Record WHO in emergencies Surveillance Alert and response Operations Research Funding Partners Health emergency appeals International Health Regulations Independent Oversight and Advisory Co"
+ },
+ "src-who-mental-health-climate-2022": {
+  "url": "https://www.who.int/publications/i/item/9789240045125",
+  "status": "OK",
+  "http": 200,
+  "archive": "https://web.archive.org/web/20261007085928/https://www.who.int/publications/i/item/9789240045125",
+  "title": "Mental health and Climate Change: Policy Brief",
+  "found": {
+   "mental health": true,
+   "climate": true
+  },
+  "around": [
+   "ed health facility assessment GIS centre for health Reports World Health Statistics UHC global monitoring report About WHO About WHO Partnerships Committees and advisory groups Collaborating centres Technical teams Organizational structure Who we are Our work Activities Initiatives General Programme of Work WHO Academy Funding Investment in WHO WHO Foundation Accountability External audit Financial statements Internal audit and investigations Programme Budget Results reports Governance Governing bodies World Health Assembly Executive Board Member States Portal Home / Publications / i / item / Mental health and Climate Change: Policy Brief - Select language - العربية 中文 fran ais русский espa ol portugu s Mental health and Climate Change: Policy Brief 3 June 2022 Policy brief Download (5.3 MB) Overview The world faces an incredible climate crisis. Climate change exacerbates many social, environmental and economic risk factors for problems in mental health and psychosocial wellbeing. Yet, despite this impact, large gaps also exist in many countries between mental health needs and the availability and accessibility of the mental health systems and services to address them. In response to these challenges, WHO has developed a policy brief describing the interconnections between climate change and mental health and providing five key recommendations on potential approaches to address the mental health impacts of the climate crisis. Editors World Health Organization Number of pages 16 Reference numbers ISBN: 9789240045125 Copyright Regions Africa Americas Eastern Mediterranean Europe South-East Asia Western Pacific Policies Cybersecurity Ethics Information disclosure Permissions and licensing Preventing sexual exploitation Terms of use About us Careers Frequently asked questions Library Procurement Publications Contact us Newsletters Report misconduct Privacy policy © 2026 WHO",
+   "Mental health and Climate Change: Policy Brief Skip to main content World Health Organization Global Regions World Health Organization WHO Regional websites Africa Americas South-East Asia Europe Eastern Mediterranean Western Pacific When autocomplete results are available use up and down arrows to review and enter to select. Select language Select language English العربية 中文 Fran ais Русский Espa ol Portugu s Home Health Topics All topics A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Resources Fact sheets Facts in pictures Multimedia Podcasts Publications Questions and answers Tools and toolkits Popular Dengue Endometriosis Excessive heat Herpes Mental disorders Mpox Countries All countries A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Regions Africa Americas Europe Eastern Mediterranean South-East Asia Western Pacific WHO in countries Data by country Country presence Country cooperation stra"
+  ],
+  "opening": "Mental health and Climate Change: Policy Brief Skip to main content World Health Organization Global Regions World Health Organization WHO Regional websites Africa Americas South-East Asia Europe Eastern Mediterranean Western Pacific When autocomplete results are available use up and down arrows to review and enter to select. Select language Select language English العربية 中文 Fran ais Русский Espa ol Portugu s Home Health Topics All topics A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Resources Fact sheets Facts in pictures Multimedia Podcasts Publications Questions and answers Tools and toolkits Popular Dengue Endometriosis Excessive heat Herpes Mental disorders Mpox Countries All countries A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Regions Africa Americas Europe Eastern Mediterranean South-East Asia Western Pacific WHO in countries Data by country Country presence Country cooperation strategies Country office profiles Strengthening country offices Newsroom Newsroom News releases Statements Campaigns Events Feature stories Speeches Commentaries Photo library Headlines Emergencies In focus Cholera Ebola disease Israel and the occupied Palestinian territory Middle East Sudan Ukraine Latest Disease Outbreak News Situation reports Rapid risk assessments Weekly Epidemiological Record WHO in emergencies Surveillance Alert and response Operations Research Funding Partners Health emergency appeals International Health Regulations Independent Oversight and Advisory Com"
+ },
+ "src-zhu-2023-ipv": {
+  "url": "https://bell-lab.yale.edu/publications/association-ambient-temperature-prevalence-intimate-partner-violence-among-partnered",
+  "status": "OK",
+  "http": 200,
+  "archive": "https://web.archive.org/web/20261101065926/https://bell-lab.yale.edu/publications/association-ambient-temperature-prevalence-intimate-partner-violence-among-partnered",
+  "title": "Association of Ambient Temperature With the Prevalence of Intimate Partner Violence Among Partnered Women in Low- and Middle-Income South Asian Countries | Michelle L. Bell&#039;s Research Group",
+  "found": {
+   "intimate partner violence": true,
+   "temperature": true
+  },
+  "around": [
+   "Association of Ambient Temperature With the Prevalence of Intimate Partner Violence Among Partnered Women in Low- and Middle-Income South Asian Countries | Michelle L. Bell s Research Group Skip to main content Yale University Open Main Navigation Close Main Navigation Home People Research News Publications Research Survey Home > Publications > Association of Ambient Temperature With the Prevalence of Intimate Partner Violence Among Partnered Women in Low- and Middle-Income South Asian Countries Association of Ambient Temperature With the Prevalence of Intimate Partner Violence Among Partnered Women in Low- and Middle-Income South Asian Countries Importance Intimate partner violence (IPV), including physical, sexual, and emotional violence, constitutes a critical public health problem, particularly in low- and middle-income countries. While climate change could escalate violent events, data quantifying its possible association with IPV are scant. Objective To evaluate the association of ambient temperature with the prevalence of IPV among partnered women in low- and middle-income countries in South Asia, and to estimate the association of future climate warming with IPV. Design, Setting, and Participants This cross-sectional study used data from the Demographic and Health Survey and included 194 871 ever-partnered women aged 15 to 49 years from 3 South Asian countries (India, Nepal, and Pakistan). The study applied the mixed-effect multivariable logistic regression model to investigate the association of ambient temperature with IPV prevalence. The study further modeled the change in IPV prevalence under various future climate change scenarios. The data included in the analyses were collected from October 1, 2010, to April 30, 2018, and the current analyses were performed from January 2, 2022, to July 11, 2022. Exposure Annual ambient temperature exposure for each woman, estimated based on an atmospheric reanalysis model of the global climate. Main Outcomes and Measures The prevalence of IPV and its types (physical, sexual, and emotional violence) were assessed based on self-reported questionnaires from October 1, 2010, to April 30, 2018, and the changes in the prevalence with climate changes were estimated through the 2090s. Results The study included 194 871 ever-partnered women aged 15 to 49 years (mean [SD] age, 35.4 [7.6] years; overall IPV prevalence, 27.0%) from 3 South Asian countries. The prevalence of physical violence was highest (23.0%), followed by emotional (12.5%), and sexual violence (9.5%). The annual temperature ranges were mostly between 20 °C and 30 °C. A significant association was found between high ambient temperature and the prevalence of IPV against women, with each 1 °C increase in the annual mean temperature associated with a mean increase in IPV prevalence of 4.49% (95% CI, 4.20%-4.78%). According to the study’s projections under the unlimited emissions scenarios (SSPs [shared socioeconomic pathways], as defined by the Intergovernmental Panel on Climate Change] 5-8.5), IPV prevalence would increase by 21.0% by the end of the 21st century, while it would only moderately increase under increasingly stricter scenarios (SSP2-4.5 [9.8%] and SSP1-2.6 [5.8%]). In addition, the projected increases in the prevalence of physical (28.3%) and sexual (26.1%) violence were greater than that of emotional violence (8.9%). In the 2090s, India was estimated to experience the highest IPV prevalence increase (23.5%) among the 3 countries, compared with Nepal (14.8%) and Pakistan (5.9%). Conclusions and Relevance This cross-sectional, multicountry study provides ample epidemiological evidence to support that high ambient temperature may be associated with the risk of IPV against women. These findings highlight the vulnerabilities and inequalities of women experiencing IPV in low- and middle-income countries in the context of global climate warming. Publication Date: 2023 Authors: Y Zhu, C He, ML Bell, ..., H Kan Journal: JAMA Psychiatry 2023:80(9); 952-961 See Publication Last Updated: Aug 22, 2022 Search Publications Search this site Yale Accessibility at Yale Privacy policy Copyright 2026 Yale University All rights reserved Facebook Twitter Flickr iTunes YouTube"
+  ],
+  "opening": "Association of Ambient Temperature With the Prevalence of Intimate Partner Violence Among Partnered Women in Low- and Middle-Income South Asian Countries | Michelle L. Bell s Research Group Skip to main content Yale University Open Main Navigation Close Main Navigation Home People Research News Publications Research Survey Home > Publications > Association of Ambient Temperature With the Prevalence of Intimate Partner Violence Among Partnered Women in Low- and Middle-Income South Asian Countries Association of Ambient Temperature With the Prevalence of Intimate Partner Violence Among Partnered Women in Low- and Middle-Income South Asian Countries Importance Intimate partner violence (IPV), including physical, sexual, and emotional violence, constitutes a critical public health problem, particularly in low- and middle-income countries. While climate change could escalate violent events, data quantifying its possible association with IPV are scant. Objective To evaluate the association of ambient temperature with the prevalence of IPV among partnered women in low- and middle-income countries in South Asia, and to estimate the association of future climate warming with IPV. Design, Setting, and Participants This cross-sectional study used data from the Demographic and Health Survey and included 194 871 ever-partnered women aged 15 to 49 years from 3 South Asian countries (India, Nepal, and Pakistan). The study applied the mixed-effect multivariable logistic regression model to i"
+ }
+}
