@@ -46,6 +46,12 @@ const PAGES = [
   { slug: "practical-actions", title: "Practical actions against extreme heat, by setting", short: "Practical actions" },
   { slug: "paying-for-protection", title: "Paying for heat protection: who pays, how money arrives, and whether it lasts", short: "Paying for protection" }
 ];
+// where each text page's "interactive version" button goes: the matching part of the site, never just the top of the homepage
+const INTERACTIVE = { "the-web": "/#explore", loops: "/#loops", actions: "/#package-all", "who-is-at-risk": "/#at-risk", "cooling-options": "/#cooling", "worked-plans": "/#plan",
+  glossary: "/#glossary", "heat-network": "/#network", cities: "/#city", heatwaves: "/atlas/", "practical-actions": "/practical/", "paying-for-protection": "/finance/" };
+const INTERACTIVE_LABEL = { "the-web": "Open the interactive map", loops: "Open the cycles on the interactive map", actions: "See the actions on the interactive map", "who-is-at-risk": "Open the interactive version",
+  "cooling-options": "Open the interactive cooling options", "worked-plans": "Open the interactive planner", glossary: "Open the glossary with its films", "heat-network": "Open the interactive network",
+  cities: "Open the interactive city view", heatwaves: "Open the Atlas of Asia’s heat", "practical-actions": "Open the interactive practical actions", "paying-for-protection": "Open the interactive version" };
 const LICENCE = "Text, data, films and illustrations © Common Shade contributors, shared under Creative Commons Attribution 4.0 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/): you may copy, adapt and translate them, with credit and a link to beattheheat.asia. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’ and are not covered.";
 const DISCLAIMER = "Common Shade is in beta, currently at beattheheat.asia. A group of organisations is helping shape it as a shared endeavour for protection from extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement. Every claim links to its source; where the evidence is still emerging, the map says so.";
 
@@ -97,7 +103,7 @@ ${ld.map(x => `  <script type="application/ld+json">${JSON.stringify(x)}</script
   <main>
     <h1>${esc(p.title)}</h1>
     <p class="lede">${esc(intro)}</p>
-    <a class="cta" href="/">Open the interactive map</a>
+    <a class="cta" href="${INTERACTIVE[p.slug] || "/#explore"}">${esc(INTERACTIVE_LABEL[p.slug] || "Open the interactive map")}</a>
 ${body}
   </main>
   <footer><p>${esc(DISCLAIMER)}</p><p>Text, data, films and illustrations © Common Shade contributors, shared under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>: copy, adapt and translate them, with credit and a link to beattheheat.asia. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’.</p><p>Generated from the map’s data on ${TODAY}. The whole map as plain text: <a href="/llms-full.txt">llms-full.txt</a>.</p></footer>
@@ -487,6 +493,18 @@ require("./build-print")().then(list => {
   // last of all, once every page exists: one navigation on every page
   require("./build-ticker.js");
   require("./build-pages.js"); require("./build-nav.js")(); require("./shorts/embed.js"); require("./explainers/embed.js");
+  // the sitemap lists every page that exists, so new sections never go missing from search engines
+  {
+    const urls = [], skip = /^(tools|media|node_modules|research|data|images|feeds|\.git|\.github|\.claude|\.agents)$/;
+    const walk = (dir, rel) => fs.readdirSync(dir, { withFileTypes: true }).forEach(e => {
+      if (e.isDirectory()) { if (!skip.test(e.name)) walk(path.join(dir, e.name), rel + e.name + "/"); }
+      else if (e.name === "index.html") urls.push(rel); });
+    walk(ROOT, "");
+    const pri = u => u === "" ? "1.0" : /^print\//.test(u) ? "0.5" : u.split("/").length <= 2 ? "0.8" : "0.7";
+    fs.writeFileSync(path.join(ROOT, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
+      urls.sort().map(u => `  <url><loc>${SITE}/${u}</loc><lastmod>${TODAY}</lastmod><priority>${pri(u)}</priority></url>`).join("\n") + "\n</urlset>\n");
+    console.log("sitemap:", urls.length, "pages");
+  }
 });
 console.log("Wrote", PAGES.length + CITY_PAGES.length, "pages, llms.txt, llms-full.txt, sitemap.xml and robots.txt");
 
