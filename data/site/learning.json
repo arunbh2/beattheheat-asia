@@ -48,6 +48,26 @@
   { "id": "q-protection-gap", "loop": "protection", "status": "open",
     "q": "How large are uninsured losses from heat, and could money arranged in advance narrow the gap?",
     "have": "Figures for all natural catastrophes together, and a qualitative regional review.",
-    "could": "Estimate uninsured heat losses for one sector in one country, and test a pre-arranged payout design.", "scale": "One sector, one country" }
+    "could": "Estimate uninsured heat losses for one sector in one country, and test a pre-arranged payout design.", "scale": "One sector, one country" },
+  { "id": "q-pregnancy-heat", "loop": "poverty", "status": "open",
+    "q": "Which protections lower heat risks in pregnancy in South and Southeast Asia: rest and lighter work, cooler homes, antenatal advice, or cash that lets women stop work?",
+    "have": "A review of 70 studies in 27 countries, only seven of them low- or middle-income, and one cohort of 800 working women in Tamil Nadu; none tests what reduces the risk.",
+    "could": "Add heat exposure and simple protections to antenatal records in a few districts, and compare outcomes across hot seasons.", "scale": "Two or three districts, two to three years" },
+  { "id": "q-newborn-units", "loop": "clinic", "status": "open",
+    "q": "How hot do labour wards and newborn units get in a heatwave, and what keeps them safe when the power fails?",
+    "have": "A WHO, UNICEF and UNFPA call to action that names heat among the risks to mothers and newborns, and no measurements from facilities in the region that we have found.",
+    "could": "Log indoor temperatures and power cuts in a sample of facilities through one hot season, alongside any cooling and back-up power they have.", "scale": "Twenty to thirty facilities, one season" },
+  { "id": "q-heat-suicide", "loop": "farmdebt", "status": "open",
+    "q": "Beyond farm households in India, how does heat affect self-harm and suicide across South and Southeast Asia, and does income support in bad seasons reduce it?",
+    "have": "One national study of India over 47 years linking heat in the growing season to suicides through crop losses; little from cities or other countries.",
+    "could": "Link daily temperatures with suicide and self-harm records where they exist, and study districts where crop insurance or cash reached households in bad years.", "scale": "Two or three countries, existing records" },
+  { "id": "q-heat-ipv", "loop": "poverty", "status": "open",
+    "q": "Why is heat linked to more intimate partner violence in South Asia, and do income support, cooler homes or women’s groups weaken the link?",
+    "have": "A cross-sectional study of 194,871 women in India, Nepal and Pakistan, using yearly temperatures; it shows an association, not the reasons for it.",
+    "could": "Add heat and household strain questions to existing violence surveys, and compare places with and without seasonal income support.", "scale": "Existing surveys, with a qualitative study in a few districts" },
+  { "id": "q-child-diarrhoea", "loop": "poverty", "status": "open",
+    "q": "How much does heat add to diarrhoea and undernutrition in young children in the region, and how much do safe water and oral rehydration offset it?",
+    "have": "A review of 26 studies finding about 7% more diarrhoea per 1 °C, uneven across regions and with signs of publication bias.",
+    "could": "Combine clinic records of child diarrhoea with temperature and water-supply data in a few towns over several seasons.", "scale": "Three to five towns, three seasons" }
  ]
 }

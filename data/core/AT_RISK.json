@@ -9,8 +9,17 @@
       "label": "Peng et al., PNAS, 2004",
       "url": "https://doi.org/10.1073/pnas.0403720101"
     },
-    "nodes": ["harvests","farmwork","livestock","farmdebt"],
-    "levers": ["farmcredit","soilwater","irrigate","socialprotection"]
+    "nodes": ["harvests","farmwork","livestock","farmdebt","suicide"],
+    "levers": ["farmcredit","soilwater","irrigate","socialprotection","mindheat"],
+    "more": [
+      {
+        "fact": "In India, crop-damaging heat in the growing season is linked to more suicides; warming over 30 years is estimated to account for 59,300.",
+        "source": {
+          "label": "Carleton, PNAS, 2017: crop-damaging temperatures increase suicide rates in India",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28760983/"
+        }
+      }
+    ]
   },
   {
     "id": "coastal",
@@ -133,8 +142,8 @@
         }
       }
     ],
-    "nodes": ["care","fetching","gbv","inequality"],
-    "levers": ["heatcash","socialprotection","hap","coolhousing"]
+    "nodes": ["care","fetching","gbv","inequality","womenwater"],
+    "levers": ["heatcash","socialprotection","hap","coolhousing","safeathome"]
   },
   {
     "id": "mothers",
@@ -153,10 +162,24 @@
           "label": "Lancet Countdown, India data sheet, 2024",
           "url": "https://lancetcountdown.org/wp-content/uploads/2024/10/Lancet-Countdown-2024_INDIA.pdf"
         }
+      },
+      {
+        "fact": "In Tamil Nadu, among 800 pregnant women doing moderate to heavy physical work, those with high workplace heat had about twice the risk of miscarriage.",
+        "source": {
+          "label": "Rekha et al., BJOG, 2023: occupational heat and pregnancy outcomes in 800 women workers, Tamil Nadu",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37814395/"
+        }
+      },
+      {
+        "fact": "Across 26 studies, each 1 °C rise in temperature was linked to about 7% more diarrhoea, a leading cause of death in young children.",
+        "source": {
+          "label": "Carlton et al., International Journal of Epidemiology, 2016: temperature and diarrhoeal disease, 26 studies",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26567313/"
+        }
       }
     ],
-    "nodes": ["pregnancy","newborns","hunger","sanitation"],
-    "levers": ["readyclinics","hap","freecare","socialprotection"]
+    "nodes": ["pregnancy","newborns","hunger","sanitation","childdiarrhoea"],
+    "levers": ["readyclinics","hap","freecare","socialprotection","maternalheat","childwater"]
   },
   {
     "id": "older",
@@ -177,7 +200,12 @@
     "exposure": "Some conditions and common medicines, such as diuretics, interfere with the body’s cooling. Heart, kidney and lung disease and diabetes raise the danger, and heat worsens many mental health conditions.",
     "barriers": "Warnings in formats they can’t use, cooling centres they can’t reach, and heat plans that rarely name their needs.",
     "nodes": ["mental","heatstroke","kidney","isolation"],
-    "levers": ["hap","coolingcentres","readyclinics","freecare"]
+    "levers": ["hap","coolingcentres","readyclinics","freecare","mindheat"],
+    "fact": "Heat can worsen underlying illness, including heart disease, diabetes, asthma and mental health conditions.",
+    "source": {
+      "label": "WHO, 2026: Heat and health, fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health"
+    }
   },
   {
     "id": "excluded",

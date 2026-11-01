@@ -1,6 +1,6 @@
 # Common Shade
 
-> An interactive systems map of extreme heat in Asia: how heat ripples through 10 systems and 87 consequences, the 21 vicious cycles that make it worse, the 29 actions that could break them, and the 14 kinds of institution that hold those levers. Every claim links to its source.
+> An interactive systems map of extreme heat in Asia: how heat ripples through 10 systems and 90 consequences, the 21 vicious cycles that make it worse, the 33 actions that could break them, and the 14 kinds of institution that hold those levers. Every claim links to its source.
 
 Common Shade's beta platform is at beattheheat.asia and is moving to commonshade.asia; it was first published as BeatTheHeat.Asia. It is independent of the Beat the Heat initiative that UNEP's Cool Coalition runs with the COP30 Presidency.
 

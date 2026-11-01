@@ -1,16 +1,16 @@
 # Common Shade: the whole map as text
 
-> An interactive systems map of extreme heat in Asia: how heat ripples through 10 systems and 87 consequences, the 21 vicious cycles that make it worse, the 29 actions that could break them, and the 14 kinds of institution that hold those levers. Every claim links to its source.
+> An interactive systems map of extreme heat in Asia: how heat ripples through 10 systems and 90 consequences, the 21 vicious cycles that make it worse, the 33 actions that could break them, and the 14 kinds of institution that hold those levers. Every claim links to its source.
 
 Common Shade is in beta, currently at beattheheat.asia. A group of organisations is helping shape it as a shared endeavour for protection from extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement. Every claim links to its source; where the evidence is still emerging, the map says so.
 
 Text, data, films and illustrations © Common Shade contributors, shared under Creative Commons Attribution 4.0 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/): you may copy, adapt and translate them, with credit and a link to beattheheat.asia. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’ and are not covered.
 
-Interactive map: https://beattheheat.asia/ · Generated 2026-10-31
+Interactive map: https://beattheheat.asia/ · Generated 2026-11-01
 
 ## The web of extreme heat: every consequence, system by system
 
-How extreme heat ripples through 10 systems: 87 consequences and the links between them, each with its evidence.
+How extreme heat ripples through 10 systems: 90 consequences and the links between them, each with its evidence.
 
 ### Extreme heat: where every cycle starts
 
@@ -118,7 +118,7 @@ Crops, animals, fisheries and the people who work them all have heat limits. Cro
 
 Heat during flowering and grain-filling cuts yields of staple crops, even when there is enough rain. Smallholders farming on rain alone, with no irrigation or savings to fall back on, are hit first.
 
-Leads to: Food price spikes (Smaller harvests push up prices.); Farmers fall into debt (A failed season leaves farmers borrowing to eat and to replant.)
+Leads to: Food price spikes (Smaller harvests push up prices.); Farmers fall into debt (A failed season leaves farmers borrowing to eat and to replant.); Suicides rise (When heat ruins crops, farm incomes fall, and suicides rise in the growing season.)
 
 Source: Lobell, Sibley and Ortiz-Monasterio, Nature Climate Change, 2012 (wheat in India) https://fsi.stanford.edu/node/26622
 
@@ -160,7 +160,7 @@ Source: Free et al., Science, 2019: warming has already cut fisheries productivi
 
 Without cool storage, more of every harvest rots between field and plate.
 
-Leads to: Food price spikes (Losses after harvest push up prices.)
+Leads to: Food price spikes (Losses after harvest push up prices.); Diarrhoea in young children (Food that spoils in the heat makes children ill.)
 
 Source: UNEP and FAO, 2022: Sustainable Food Cold Chains (526 million tonnes of food lost for lack of refrigeration) https://www.unep.org/resources/report/sustainable-food-cold-chains-opportunities-challenges-and-way-forward
 
@@ -218,7 +218,7 @@ Source: World Resources Institute: responding to Day Zero equitably, Cape Town a
 
 Warm, low water breeds algae and bacteria and concentrates pollution.
 
-Leads to: Infectious diseases spread (Contaminated water spreads disease.)
+Leads to: Infectious diseases spread (Contaminated water spreads disease.); Diarrhoea in young children (Warm, low water lets bacteria multiply.)
 
 Source: Review in International Journal of Environmental Research and Public Health, 2022: cyanobacteria gain the advantage above 20 °C https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9223187/
 
@@ -250,7 +250,7 @@ Source: World Resources Institute, 2018: 40% of India’s thermal power plants a
 
 Where taps fail, someone has to walk further, for longer, in the heat, to bring water home.
 
-Leads to: Care burden falls on women and girls (Fetching water falls mostly on women and girls.); Children pulled out of school (Girls miss school to fetch water.); Violence against women rises (Longer trips for water, often alone, expose women and girls to harassment and assault.)
+Leads to: Care burden falls on women and girls (Fetching water falls mostly on women and girls.); Children pulled out of school (Girls miss school to fetch water.); Violence against women rises (Longer trips for water, often alone, expose women and girls to harassment and assault.); Risks in pregnancy (Carrying water far in the heat adds strain to a pregnancy.)
 
 Source: UNICEF, 2016: women and girls spend 200 million hours a day collecting water https://www.unicef.org/press-releases/unicef-collecting-water-often-colossal-waste-time-women-and-girls
 
@@ -258,7 +258,7 @@ Source: UNICEF, 2016: women and girls spend 200 million hours a day collecting w
 
 Without enough water, toilets, handwashing and cleaning suffer.
 
-Leads to: Infectious diseases spread (Poor hygiene spreads diarrhoea and other infections.); Babies and young children at risk (Diarrhoea from unsafe water is most dangerous for the youngest children.)
+Leads to: Infectious diseases spread (Poor hygiene spreads diarrhoea and other infections.); Babies and young children at risk (Diarrhoea from unsafe water is most dangerous for the youngest children.); Diarrhoea in young children (Without clean water and handwashing, children catch diarrhoea more easily.)
 
 Source: ACAPS, 2017: Sindh heatwave briefing (more use of unprotected water sources) https://www.acaps.org/sites/acaps/files/products/files/170424_acaps_start_anticipatory_briefing_note_pakistan_heatwave.pdf
 
@@ -350,7 +350,7 @@ Source: Tamil Nadu State Planning Commission, 2024 https://spc.tn.gov.in/wp-cont
 
 Tin roofs, poor ventilation and crowded rooms can make homes hotter inside than out, leaving nowhere safe to rest. Thin roofs cool slowly, so the worst comes at night: in low-income homes measured across South Asia, tin-roofed houses stayed warmer indoors than the outdoor air.
 
-Leads to: Heatstroke and heat exhaustion (With no cool place to recover, heat builds up day after day.); Deepening inequality (Hot homes cost sleep, health and earnings, so the gap widens.); Sleepless hot nights (Rooms stay hot all night.)
+Leads to: Heatstroke and heat exhaustion (With no cool place to recover, heat builds up day after day.); Deepening inequality (Hot homes cost sleep, health and earnings, so the gap widens.); Sleepless hot nights (Rooms stay hot all night.); Violence against women rises (Crowded, hot homes may raise tension inside them.)
 
 Source: Frontiers in Built Environment, 2022: Ahmedabad informal settlements up to 7.6 °C hotter https://www.frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2022.874751/full
 
@@ -460,13 +460,17 @@ Source: Air Quality News, 2026: heat-driven ozone and health in India https://ai
 
 #### Risks in pregnancy
 
-Each 1 °C rise in temperature raises the odds of preterm birth by about 5%, and a heatwave by about 16%. Stillbirths rise too. Women who keep working outdoors or fetching water while pregnant carry the most risk. In Bangladesh, the extreme-heat days a pregnancy passes through rose from about 4 for births in 2018 to about 30 for births in 2024.
+Each 1 °C rise in temperature raises the odds of preterm birth by about 5%, and a heatwave by about 16%; stillbirths rise by about 5% for each 1 °C, and the risks are largest for poorer women and at the youngest and oldest ages. Women who keep working outdoors or fetching water while pregnant carry the most risk: in a Tamil Nadu study of 800 pregnant women doing physical work, those with high workplace heat had about twice the risk of miscarriage. In Bangladesh, the extreme-heat days a pregnancy passes through rose from about 4 for births in 2018 to about 30 for births in 2024.
 
-Leads to: Health systems overwhelmed (Complications add to the load on maternity care.); Babies and young children at risk (Babies born early or small are more fragile in the heat.)
+Leads to: Health systems overwhelmed (Complications add to the load on maternity care.); Babies and young children at risk (Babies born early or small are more fragile in the heat.); Mental health suffers (Heat in pregnancy adds stress and anxiety, known risks for the birth.)
 
-Source: Chersich et al., BMJ, 2020: high temperatures in pregnancy and preterm birth, low birth weight and stillbirth https://heathealth.info/resources/associations-between-high-temperatures-in-pregnancy-and-risk-of-preterm-birth-low-birth-weight-and-stillbirths-systematic-review-and-meta-analysis/
+Source: Chersich et al., BMJ, 2020: systematic review and meta-analysis of 70 studies in 27 countries https://pubmed.ncbi.nlm.nih.gov/33148618/
+
+Source: Rekha et al., BJOG, 2023: occupational heat and pregnancy outcomes in 800 women workers, Tamil Nadu https://pubmed.ncbi.nlm.nih.gov/37814395/
 
 Source: Preprint, not yet peer reviewed: prenatal extreme heat and newborn deaths in Bangladesh, 2015–2025 (medRxiv, 2026) https://doi.org/10.64898/2026.10.23.26366352
+
+Source: WHO, UNICEF and UNFPA, 2023: Protecting maternal, newborn and child health from the impacts of climate change https://www.who.int/publications/i/item/9789240085350
 
 #### Babies and young children at risk
 
@@ -476,13 +480,33 @@ Leads to: Care burden falls on women and girls (Sick babies and children need so
 
 Source: Lancet Countdown 2024, India data sheet: infants faced 7.7 heatwave days a year https://lancetcountdown.org/wp-content/uploads/2024/10/Lancet-Countdown-2024_INDIA.pdf
 
+Source: WHO, UNICEF and UNFPA, 2023: Protecting maternal, newborn and child health from the impacts of climate change https://www.who.int/publications/i/item/9789240085350
+
+#### Diarrhoea in young children
+
+Warmth lets bacteria multiply in water and food. Across 26 studies, each 1 °C rise in temperature was linked to about 7% more diarrhoea, a leading cause of death in young children. Repeated bouts leave children undernourished.
+
+Leads to: Babies and young children at risk (Repeated diarrhoea leaves young children undernourished and weak.); Health systems overwhelmed (Sick children fill clinics in the hot months.)
+
+Source: Carlton et al., International Journal of Epidemiology, 2016: temperature and diarrhoeal disease, 26 studies https://pubmed.ncbi.nlm.nih.gov/26567313/
+
 #### Mental health suffers
 
-Heat is linked to more anxiety, distress and suicide, and to worse outcomes for people living with mental illness.
+Heat is linked to more anxiety, distress and suicide, and to worse outcomes for people living with mental illness. Heat in pregnancy adds stress and anxiety, known risks for the birth. In many countries, mental health services are far from meeting the need.
 
-Leads to: Sleepless hot nights (Stress and anxiety make sleep even harder.); Violence and crime rise (Frayed tempers spill over into violence.)
+Leads to: Sleepless hot nights (Stress and anxiety make sleep even harder.); Violence and crime rise (Frayed tempers spill over into violence.); Suicides rise (Distress that goes without support can end in self-harm.)
 
 Source: Thompson et al., The Lancet Planetary Health, 2023, summarised by Imperial College London https://www.imperial.ac.uk/news/246058/rising-temperatures-associated-with-poorer-mental/
+
+Source: WHO, 2022: Mental health and climate change, policy brief https://www.who.int/publications/i/item/9789240045125
+
+Source: WHO, UNICEF and UNFPA, 2023: Protecting maternal, newborn and child health from the impacts of climate change https://www.who.int/publications/i/item/9789240085350
+
+#### Suicides rise
+
+In India, where one fifth of the world’s suicides occur, a 1 °C rise in a day’s temperature above 20 °C in the growing season was linked to about 70 more suicides, as the same heat cut crop yields. Warming over 30 years is estimated to account for 59,300 suicides. The findings have been debated.
+
+Source: Carleton, PNAS, 2017: crop-damaging temperatures increase suicide rates in India https://pubmed.ncbi.nlm.nih.gov/28760983/
 
 #### Sleepless hot nights
 
@@ -540,9 +564,17 @@ Source: International Labour Organization, 2019: heat stress predicted to cost t
 
 Without paid leave, contracts or savings, stopping work means losing the day’s income. So people keep working through dangerous heat. About three in four Indian workers, some 380 million people, depend on heat-exposed work.
 
-Leads to: Heatstroke and heat exhaustion (Working through the hottest hours without shade, water or rest raises the risk of heat illness.); Injuries and accidents rise (Fatigue and heat cause accidents.); Care burden falls on women and girls (When workers fall ill, someone has to care for them, usually women.)
+Leads to: Heatstroke and heat exhaustion (Working through the hottest hours without shade, water or rest raises the risk of heat illness.); Injuries and accidents rise (Fatigue and heat cause accidents.); Care burden falls on women and girls (When workers fall ill, someone has to care for them, usually women.); Risks in pregnancy (Pregnant women who keep doing heavy work in the heat face more miscarriage and early birth.); Hot workplaces without toilets (Many women’s workplaces have no safe toilets.)
 
 Source: World Bank, 2022, reported by Down To Earth https://www.downtoearth.org.in/climate-change/heatwaves-in-india-could-soon-break-human-survivability-limit-says-world-bank-analysis-86431
+
+#### Hot workplaces without toilets
+
+Heat at work carries a hidden cost for women where there are no safe toilets. In a study of 312 women workers in India, heat exceeded safe limits for 71%; of those with poor or no toilets, 87% reported genitourinary problems, and about 1 in 10 showed heat strain and moderate dehydration.
+
+Leads to: Kidney and heart strain (Dehydration at work strains the kidneys.)
+
+Source: Venugopal et al., Global Health Action, 2016: heat and inadequate sanitation for 312 women workers in India https://pubmed.ncbi.nlm.nih.gov/27633034/
 
 #### Migrant workers abroad
 
@@ -686,11 +718,11 @@ Source: Zhu et al., JAMA Psychiatry, 2023 https://pmc.ncbi.nlm.nih.gov/articles/
 
 #### Violence against women rises
 
-Across India, Nepal and Pakistan, each 1 °C rise in yearly temperature was linked to about 4.5% more intimate partner violence. Lost income, stress and crowded hot homes all play a part.
+Across 194,871 women in India, Nepal and Pakistan, each 1 °C rise in yearly temperature was linked to about 4.5% more intimate partner violence, with physical and sexual violence rising most. Under very high emissions it could rise about 21% by the 2090s, against about 6% if warming is held lowest. Lost income, stress and crowded hot homes may all play a part.
 
 Leads to: Mental health suffers (Violence leaves lasting harm to mental health.); Deepening inequality (Violence keeps women out of work, decisions and public life.)
 
-Source: Zhu et al., JAMA Psychiatry, 2023: ambient temperature and intimate partner violence in India, Nepal and Pakistan https://pmc.ncbi.nlm.nih.gov/articles/PMC10308303/
+Source: Zhu et al., JAMA Psychiatry, 2023: ambient temperature and intimate partner violence in India, Nepal and Pakistan https://bell-lab.yale.edu/publications/association-ambient-temperature-prevalence-intimate-partner-violence-among-partnered
 
 #### Conflict over water and land
 
@@ -1288,7 +1320,7 @@ Solutions to try (a suggested match, not a measured effect): Pooled pre-arranged
 
 ## Actions that break the vicious cycles of extreme heat
 
-29 actions that cut a link in one or more vicious cycles of extreme heat: who can take each one, how soon it works, examples from Asia and practical guides.
+33 actions that cut a link in one or more vicious cycles of extreme heat: who can take each one, how soon it works, examples from Asia and practical guides.
 
 ### Deep emission cuts
 
@@ -1656,6 +1688,36 @@ In practice: Regional risk pools such as the African Risk Capacity and the Carib
 
 - Guide: Global Shield against Climate Risks in Pakistan: pre-arranged finance for climate shocks (UNDP) https://www.undp.org/pakistan/projects/global-shield-against-climate-risks
 
+### Heat-safe pregnancy and newborn care
+
+Heat advice and checks in antenatal care, lighter work and rest for pregnant workers, cool labour wards and newborn units, and visits to new mothers in a heatwave.
+
+Cuts the link: Risks in pregnancy → Babies and young children at risk. Who can act: Health authorities, Employers and businesses, Community and civil society groups.
+
+In practice: Tamil Nadu’s heat strategy proposes screening for heat risk in the check-ups of the state’s pregnancy scheme.
+
+- Guide: Protecting maternal, newborn and child health from the impacts of climate change: a call for action (WHO, UNICEF and UNFPA, 2023) https://www.who.int/publications/i/item/9789240085350
+
+### Mental health in heat plans
+
+Heat plans that include mental health: support that reaches farm households after crop losses, services that stay open through heatwaves, and warnings that reach people in mental health care.
+
+Cuts the link: Mental health suffers → Suicides rise. Who can act: Health authorities, National governments, Community and civil society groups.
+
+- Guide: Mental health and climate change: policy brief (World Health Organization, 2022) https://www.who.int/publications/i/item/9789240045125
+
+### Violence prevention in heat planning
+
+Helplines, shelters and women’s groups included in heat plans and kept open in heatwaves, income support in hot seasons, and health workers trained to recognise violence on their visits.
+
+Cuts the link: Lost work hours and wages → Violence against women rises. Who can act: Community and civil society groups, National governments, Health authorities.
+
+### Safe water and rehydration for young children
+
+Safe drinking water, handwashing and oral rehydration salts in place before the hot months, carried to families by clinics and community health workers.
+
+Cuts the link: Sanitation and hygiene fail → Diarrhoea in young children. Who can act: Water authorities, Health authorities, Community and civil society groups.
+
 ## Who extreme heat hits hardest
 
 The same heatwave lands differently. Who is harmed depends on how exposed people are and what stands between them and safety.
@@ -1678,7 +1740,9 @@ Held back by: Little irrigation, credit, insurance or savings, so one bad season
 
 At the International Rice Research Institute’s farm in the Philippines, rice yields fell by about 10% for each 1 °C rise in growing-season night temperature. (Peng et al., PNAS, 2004, https://doi.org/10.1073/pnas.0403720101)
 
-What helps: Crop insurance and fair credit, Keep water in the soil, Smart irrigation and groundwater rules, Social protection floors
+In India, crop-damaging heat in the growing season is linked to more suicides; warming over 30 years is estimated to account for 59,300. (Carleton, PNAS, 2017: crop-damaging temperatures increase suicide rates in India, https://pubmed.ncbi.nlm.nih.gov/28760983/)
+
+What helps: Crop insurance and fair credit, Keep water in the soil, Smart irrigation and groundwater rules, Social protection floors, Mental health in heat plans
 
 ### Coastal and riverine communities
 
@@ -1742,7 +1806,7 @@ In a study of Indian women workers, 87% of those with poor or no toilets at work
 
 In Nepal’s Madhesh Province, women cooking in hot, smoky kitchens carry a daily ‘thermal labour’ that falls hardest on women in the poorest single-room homes with little access to clean energy or credit. (Ghimire and others, Frontiers in Public Health, 2025, https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1657267/full)
 
-What helps: Income protection in heatwaves, Social protection floors, Heat action plans, Cool, affordable housing
+What helps: Income protection in heatwaves, Social protection floors, Heat action plans, Cool, affordable housing, Violence prevention in heat planning
 
 ### Pregnant women, babies and young children
 
@@ -1754,7 +1818,11 @@ Each 1 °C rise raises the odds of preterm birth by about 5%, and a heatwave by
 
 In 2014–2023, each infant in India faced an average of 7.7 heatwave days a year, 47% more than in the 1990s. (Lancet Countdown, India data sheet, 2024, https://lancetcountdown.org/wp-content/uploads/2024/10/Lancet-Countdown-2024_INDIA.pdf)
 
-What helps: Heat-ready health services, Heat action plans, Free care for heat illness, Social protection floors
+In Tamil Nadu, among 800 pregnant women doing moderate to heavy physical work, those with high workplace heat had about twice the risk of miscarriage. (Rekha et al., BJOG, 2023: occupational heat and pregnancy outcomes in 800 women workers, Tamil Nadu, https://pubmed.ncbi.nlm.nih.gov/37814395/)
+
+Across 26 studies, each 1 °C rise in temperature was linked to about 7% more diarrhoea, a leading cause of death in young children. (Carlton et al., International Journal of Epidemiology, 2016: temperature and diarrhoeal disease, 26 studies, https://pubmed.ncbi.nlm.nih.gov/26567313/)
+
+What helps: Heat-ready health services, Heat action plans, Free care for heat illness, Social protection floors, Heat-safe pregnancy and newborn care, Safe water and rehydration for young children
 
 ### Older people
 
@@ -1772,7 +1840,9 @@ Exposed to: Some conditions and common medicines, such as diuretics, interfere w
 
 Held back by: Warnings in formats they can’t use, cooling centres they can’t reach, and heat plans that rarely name their needs.
 
-What helps: Heat action plans, Cooling centres and check-ins, Heat-ready health services, Free care for heat illness
+Heat can worsen underlying illness, including heart disease, diabetes, asthma and mental health conditions. (WHO, 2026: Heat and health, fact sheet, https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health)
+
+What helps: Heat action plans, Cooling centres and check-ins, Heat-ready health services, Free care for heat illness, Mental health in heat plans
 
 ### Migrants, prisoners and other excluded groups
 

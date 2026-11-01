@@ -1,0 +1,101 @@
+{
+ "_terms": {
+  "https://www.pnas.org/doi/10.1073/pnas.1701354114": {
+   "suicide": false,
+   "India": false,
+   "temperature": false,
+   "59,300": false
+  },
+  "https://www.nature.com/articles/s41558-018-0222-x": {
+   "suicide": false,
+   "temperature": false
+  },
+  "https://doi.org/10.1093/ije/dyv296": {
+   "temperature": false,
+   "diarrh": false,
+   "7%": false
+  },
+  "https://www.bmj.com/content/371/bmj.m3811": {
+   "preterm": true,
+   "stillbirth": true,
+   "heatwave": true
+  },
+  "https://doi.org/10.1111/1471-0528.17680": {
+   "heat": false,
+   "pregnancy": false,
+   "miscarriage": false
+  },
+  "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5025522/": {
+   "women": true,
+   "toilet": true,
+   "water": true
+  },
+  "https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health": {
+   "pregnant": false,
+   "mental health": true,
+   "heat": true
+  },
+  "https://www.who.int/publications/i/item/9789240085350": {
+   "maternal": true,
+   "newborn": true,
+   "climate": true
+  },
+  "https://www.who.int/publications/i/item/9789240045125": {
+   "mental health": true,
+   "climate": true
+  },
+  "https://bell-lab.yale.edu/publications/association-ambient-temperature-prevalence-intimate-partner-violence-among-partnered": {
+   "intimate partner violence": true,
+   "temperature": true
+  },
+  "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1073/pnas.1701354114&resultType=core&format=json": {
+   "suicide": true,
+   "India": true,
+   "temperature": true
+  },
+  "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038/s41558-018-0222-x&resultType=core&format=json": {
+   "suicide": false,
+   "temperature": false
+  },
+  "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1093/ije/dyv296&resultType=core&format=json": {
+   "temperature": true,
+   "diarrh": true
+  },
+  "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1136/bmj.m3811&resultType=core&format=json": {
+   "preterm": true,
+   "stillbirth": true,
+   "heatwave": true
+  },
+  "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1111/1471-0528.17680&resultType=core&format=json": {
+   "heat": true,
+   "pregnan": true,
+   "miscarriage": true
+  },
+  "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMCID%3APMC5025522&resultType=core&format=json": {
+   "women": true,
+   "toilet": true,
+   "water": false
+  },
+  "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1016/S2542-5196%2823%2900104-3&resultType=core&format=json": {
+   "mental": false,
+   "temperature": false
+  }
+ },
+ "https://www.pnas.org/doi/10.1073/pnas.1701354114": "BLOCKED",
+ "https://www.nature.com/articles/s41558-018-0222-x": "REDIRECT",
+ "https://doi.org/10.1093/ije/dyv296": "BLOCKED",
+ "https://www.bmj.com/content/371/bmj.m3811": "BLOCKED",
+ "https://doi.org/10.1111/1471-0528.17680": "BLOCKED",
+ "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5025522/": "REDIRECT",
+ "https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health": "OK",
+ "https://www.who.int/publications/i/item/9789240085350": "OK",
+ "https://www.who.int/publications/i/item/9789240045125": "OK",
+ "https://bell-lab.yale.edu/publications/association-ambient-temperature-prevalence-intimate-partner-violence-among-partnered": "OK",
+ "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1073/pnas.1701354114&resultType=core&format=json": "OK",
+ "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038/s41558-018-0222-x&resultType=core&format=json": "OK",
+ "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1093/ije/dyv296&resultType=core&format=json": "OK",
+ "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1136/bmj.m3811&resultType=core&format=json": "OK",
+ "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1111/1471-0528.17680&resultType=core&format=json": "OK",
+ "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMCID%3APMC5025522&resultType=core&format=json": "OK",
+ "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1016/S2542-5196%2823%2900104-3&resultType=core&format=json": "OK"
+}

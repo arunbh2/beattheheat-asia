@@ -327,7 +327,7 @@ write("corrections", page("corrections", "Corrections", "Common Shade is built t
     </section>`));
 
 // ---- Cite and reuse ----
-const DATA = [["LOOPS", "The 21 vicious cycles"], ["CONSEQUENCES", "The 87 consequences of heat"], ["LINKS", "Every link between them"], ["LEVERS", "The 29 actions that break cycles"], ["CITY_PROFILES", "Twelve city profiles"], ["HEATWAVES", "Ten heatwaves, 1998 to 2026"], ["ORGANISATIONS", "The heat network’s organisations"], ["GLOSSARY", "The glossary"]];
+const DATA = [["LOOPS", `The ${D.LOOPS.length} vicious cycles`], ["CONSEQUENCES", `The ${D.CONSEQUENCES.length} consequences of heat`], ["LINKS", "Every link between them"], ["LEVERS", `The ${D.LEVERS.length} actions that break cycles`], ["CITY_PROFILES", "Twelve city profiles"], ["HEATWAVES", "Ten heatwaves, 1998 to 2026"], ["ORGANISATIONS", "The heat network’s organisations"], ["GLOSSARY", "The glossary"]];
 write("cite", page("cite", "Cite and reuse", "How to cite Common Shade and reuse its content and data, free under CC BY 4.0.",
   `${hero("News and evidence", "Cite and reuse", "Everything on Common Shade is free to use, share and adapt under CC BY 4.0, with credit. Here is how to cite it, and where to find the data.")}
     <section class="container hub">

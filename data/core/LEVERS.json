@@ -722,5 +722,62 @@
         "url": "https://www.undp.org/pakistan/projects/global-shield-against-climate-risks"
       }
     ]
+  },
+  {
+    "id": "maternalheat",
+    "edge": ["pregnancy","newborns"],
+    "title": "Heat-safe pregnancy and newborn care",
+    "who": ["health","employers","community"],
+    "when": "season",
+    "measure": "Antenatal and newborn services with heat advice, cool rooms and heat protocols",
+    "text": "Heat advice and checks in antenatal care, lighter work and rest for pregnant workers, cool labour wards and newborn units, and visits to new mothers in a heatwave.",
+    "example": "Tamil Nadu’s heat strategy proposes screening for heat risk in the check-ups of the state’s pregnancy scheme.",
+    "exampleSources": [
+      {
+        "label": "Tamil Nadu Heat Mitigation Strategy, 2024",
+        "url": "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf"
+      }
+    ],
+    "guides": [
+      {
+        "by": "WHO, UNICEF and UNFPA, 2023",
+        "title": "Protecting maternal, newborn and child health from the impacts of climate change: a call for action",
+        "url": "https://www.who.int/publications/i/item/9789240085350"
+      }
+    ]
+  },
+  {
+    "id": "mindheat",
+    "edge": ["mental","suicide"],
+    "title": "Mental health in heat plans",
+    "who": ["health","nat","community"],
+    "when": "years",
+    "measure": "Heat plans that name mental health, with services and support lines that stay open in heatwaves",
+    "text": "Heat plans that include mental health: support that reaches farm households after crop losses, services that stay open through heatwaves, and warnings that reach people in mental health care.",
+    "guides": [
+      {
+        "by": "World Health Organization, 2022",
+        "title": "Mental health and climate change: policy brief",
+        "url": "https://www.who.int/publications/i/item/9789240045125"
+      }
+    ]
+  },
+  {
+    "id": "safeathome",
+    "edge": ["lost","gbv"],
+    "title": "Violence prevention in heat planning",
+    "who": ["community","nat","health"],
+    "when": "years",
+    "measure": "Heat plans that include helplines, shelters and women’s groups",
+    "text": "Helplines, shelters and women’s groups included in heat plans and kept open in heatwaves, income support in hot seasons, and health workers trained to recognise violence on their visits."
+  },
+  {
+    "id": "childwater",
+    "edge": ["sanitation","childdiarrhoea"],
+    "title": "Safe water and rehydration for young children",
+    "who": ["water","health","community"],
+    "when": "season",
+    "measure": "Clean water, handwashing and oral rehydration ready before the hot months",
+    "text": "Safe drinking water, handwashing and oral rehydration salts in place before the hot months, carried to families by clinics and community health workers."
   }
 ]
