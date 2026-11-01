@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T06:27:25.627Z",
+ "updated": "2026-11-01T17:59:32.008Z",
  "days": 120,
  "source": "Europe PMC",
  "items": [
@@ -12,6 +12,16 @@
    "preprint": false,
    "url": "https://doi.org/10.1016/j.lanplh.2026.101517",
    "firstAuthor": "Meade RD"
+  },
+  {
+   "title": "Heat-Related Illnesses in India: Focus on Fluid-Electrolyte Management",
+   "journal": "Cureus",
+   "date": "2026-11-01",
+   "doi": "",
+   "pmid": "",
+   "preprint": false,
+   "url": "https://europepmc.org/article/PMC/PMC13722842",
+   "firstAuthor": "Kalra S"
   },
   {
    "title": "Combining ability and heat-stress response in rice hybrids derived from mutation-derived M₆ lines.",
@@ -192,16 +202,6 @@
    "preprint": false,
    "url": "https://doi.org/10.1371/journal.pgen.1012336",
    "firstAuthor": "Zang D"
-  },
-  {
-   "title": "Inbred and outcrossed Drosophila embryos diverge in stress defense and developmental maintenance during heat stress",
-   "journal": "bioRxiv : the preprint server for biology",
-   "date": "2026-10-06",
-   "doi": "",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://europepmc.org/article/PMC/PMC13691973",
-   "firstAuthor": ""
   },
   {
    "title": "Integrative transcriptomic analysis reveals tissue associated molecular responses to heat stress in chickens.",
