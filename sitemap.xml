@@ -1,89 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://beattheheat.asia/</loc><lastmod>2026-11-01</lastmod><priority>1.0</priority></url>
-  <url><loc>https://beattheheat.asia/a-week-in-the-heat/</loc><lastmod>2026-11-01</lastmod><priority>0.9</priority></url>
-  <url><loc>https://beattheheat.asia/plan/</loc><lastmod>2026-11-01</lastmod><priority>0.9</priority></url>
-  <url><loc>https://beattheheat.asia/together/</loc><lastmod>2026-11-01</lastmod><priority>0.9</priority></url>
-  <url><loc>https://beattheheat.asia/guide/</loc><lastmod>2026-11-01</lastmod><priority>0.9</priority></url>
-  <url><loc>https://beattheheat.asia/practical/</loc><lastmod>2026-11-01</lastmod><priority>0.9</priority></url>
-  <url><loc>https://beattheheat.asia/paying-when-heat-strikes/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://beattheheat.asia/finance/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://beattheheat.asia/sources/</loc><lastmod>2026-11-01</lastmod><priority>0.6</priority></url>
-  <url><loc>https://beattheheat.asia/join/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://beattheheat.asia/news/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://beattheheat.asia/the-web/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://beattheheat.asia/loops/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/a-city-under-strain/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/a-night-in-the-heat/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/a-week-in-the-heat/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/act/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
   <url><loc>https://beattheheat.asia/actions/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://beattheheat.asia/who-is-at-risk/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://beattheheat.asia/cooling-options/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://beattheheat.asia/worked-plans/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://beattheheat.asia/glossary/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://beattheheat.asia/heat-network/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/approach/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/atlas/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/briefs/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/briefs/heat-mothers-children-minds/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://beattheheat.asia/build/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/cite/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
   <url><loc>https://beattheheat.asia/cities/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://beattheheat.asia/heatwaves/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://beattheheat.asia/practical-actions/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://beattheheat.asia/paying-for-protection/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://beattheheat.asia/cities/singapore/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://beattheheat.asia/cities/bangkok/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://beattheheat.asia/cities/hanoi/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://beattheheat.asia/cities/manila/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://beattheheat.asia/cities/jakarta/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://beattheheat.asia/cities/delhi/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://beattheheat.asia/cities/dhaka/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://beattheheat.asia/cities/kathmandu/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://beattheheat.asia/cities/mumbai/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://beattheheat.asia/cities/ahmedabad/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://beattheheat.asia/cities/colombo/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://beattheheat.asia/cities/phnompenh/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
-  <url><loc>https://beattheheat.asia/solutions/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://beattheheat.asia/countries/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://beattheheat.asia/cities/ahmedabad/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://beattheheat.asia/cities/bangkok/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://beattheheat.asia/cities/colombo/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://beattheheat.asia/cities/delhi/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://beattheheat.asia/cities/dhaka/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://beattheheat.asia/cities/hanoi/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://beattheheat.asia/cities/jakarta/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://beattheheat.asia/cities/kathmandu/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://beattheheat.asia/cities/manila/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://beattheheat.asia/cities/mumbai/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://beattheheat.asia/cities/phnompenh/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://beattheheat.asia/cities/singapore/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://beattheheat.asia/cooling-options/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/corrections/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/countries/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
   <url><loc>https://beattheheat.asia/countries/bangladesh/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://beattheheat.asia/countries/india/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://beattheheat.asia/countries/indonesia/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
   <url><loc>https://beattheheat.asia/countries/nepal/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://beattheheat.asia/countries/philippines/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
   <url><loc>https://beattheheat.asia/countries/sri-lanka/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
   <url><loc>https://beattheheat.asia/countries/thailand/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://beattheheat.asia/countries/indonesia/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://beattheheat.asia/countries/india/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://beattheheat.asia/countries/philippines/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://beattheheat.asia/heat-economy/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://beattheheat.asia/evidence-map/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/evidence/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/finance/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/fund/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/glossary/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/guide/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/heat-economy/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
   <url><loc>https://beattheheat.asia/heat-economy/businesses/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://beattheheat.asia/heat-economy/conditions/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://beattheheat.asia/heat-economy/flows/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
   <url><loc>https://beattheheat.asia/heat-economy/money/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
   <url><loc>https://beattheheat.asia/heat-economy/opportunities/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://beattheheat.asia/heat-economy/conditions/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://beattheheat.asia/lancet-countdown-2026/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://beattheheat.asia/how-heat-is-reported/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
-  <url><loc>https://beattheheat.asia/print/</loc><lastmod>2026-11-01</lastmod><priority>0.6</priority></url>
-  <url><loc>https://beattheheat.asia/print/workshop-guide/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
-  <url><loc>https://beattheheat.asia/print/community-workshop-guide/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
-  <url><loc>https://beattheheat.asia/print/four-heats/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
-  <url><loc>https://beattheheat.asia/print/weather-work-person/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
-  <url><loc>https://beattheheat.asia/print/dry-and-humid-heat/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
-  <url><loc>https://beattheheat.asia/print/city-singapore/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
+  <url><loc>https://beattheheat.asia/heat-network/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/heatwaves/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/how-heat-is-reported/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/intersections/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/join/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/lancet-countdown-2026/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/live-through-a-heatwave/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/loops/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/news/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/paths/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/paths/city/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://beattheheat.asia/paths/community/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://beattheheat.asia/paths/employer/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://beattheheat.asia/paths/funder/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://beattheheat.asia/paths/health/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://beattheheat.asia/paths/national/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://beattheheat.asia/paying-for-protection/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/paying-when-heat-strikes/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/plan/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/practical-actions/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/practical/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/print/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
+  <url><loc>https://beattheheat.asia/print/actions-clinics/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
+  <url><loc>https://beattheheat.asia/print/actions-homes/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
+  <url><loc>https://beattheheat.asia/print/actions-neighbourhoods/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
+  <url><loc>https://beattheheat.asia/print/actions-schools/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
+  <url><loc>https://beattheheat.asia/print/actions-summer/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
+  <url><loc>https://beattheheat.asia/print/actions-work-2/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
+  <url><loc>https://beattheheat.asia/print/actions-work/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
+  <url><loc>https://beattheheat.asia/print/city-ahmedabad/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
   <url><loc>https://beattheheat.asia/print/city-bangkok/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
-  <url><loc>https://beattheheat.asia/print/city-hanoi/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
-  <url><loc>https://beattheheat.asia/print/city-manila/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
-  <url><loc>https://beattheheat.asia/print/city-jakarta/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
+  <url><loc>https://beattheheat.asia/print/city-colombo/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
   <url><loc>https://beattheheat.asia/print/city-delhi/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
   <url><loc>https://beattheheat.asia/print/city-dhaka/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
+  <url><loc>https://beattheheat.asia/print/city-hanoi/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
+  <url><loc>https://beattheheat.asia/print/city-jakarta/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
   <url><loc>https://beattheheat.asia/print/city-kathmandu/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
+  <url><loc>https://beattheheat.asia/print/city-manila/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
   <url><loc>https://beattheheat.asia/print/city-mumbai/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
-  <url><loc>https://beattheheat.asia/print/city-ahmedabad/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
-  <url><loc>https://beattheheat.asia/print/city-colombo/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
   <url><loc>https://beattheheat.asia/print/city-phnompenh/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
+  <url><loc>https://beattheheat.asia/print/city-singapore/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
+  <url><loc>https://beattheheat.asia/print/community-workshop-guide/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
+  <url><loc>https://beattheheat.asia/print/cooling-dry/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
+  <url><loc>https://beattheheat.asia/print/cooling-flood/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
+  <url><loc>https://beattheheat.asia/print/cooling-homes/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
+  <url><loc>https://beattheheat.asia/print/cooling-markets/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
+  <url><loc>https://beattheheat.asia/print/cooling-schools/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
+  <url><loc>https://beattheheat.asia/print/cooling-system/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
+  <url><loc>https://beattheheat.asia/print/cooling-waiting/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
+  <url><loc>https://beattheheat.asia/print/cooling-work/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
+  <url><loc>https://beattheheat.asia/print/dry-and-humid-heat/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
+  <url><loc>https://beattheheat.asia/print/four-heats/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
   <url><loc>https://beattheheat.asia/print/heatwaves/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
   <url><loc>https://beattheheat.asia/print/paying-for-protection/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
-  <url><loc>https://beattheheat.asia/print/actions-work/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
-  <url><loc>https://beattheheat.asia/print/actions-work-2/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
-  <url><loc>https://beattheheat.asia/print/actions-homes/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
-  <url><loc>https://beattheheat.asia/print/actions-schools/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
-  <url><loc>https://beattheheat.asia/print/actions-clinics/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
-  <url><loc>https://beattheheat.asia/print/actions-neighbourhoods/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
-  <url><loc>https://beattheheat.asia/print/actions-summer/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
-  <url><loc>https://beattheheat.asia/print/cooling-homes/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
-  <url><loc>https://beattheheat.asia/print/cooling-work/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
-  <url><loc>https://beattheheat.asia/print/cooling-schools/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
-  <url><loc>https://beattheheat.asia/print/cooling-markets/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
-  <url><loc>https://beattheheat.asia/print/cooling-waiting/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
-  <url><loc>https://beattheheat.asia/print/cooling-flood/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
-  <url><loc>https://beattheheat.asia/print/cooling-dry/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
-  <url><loc>https://beattheheat.asia/print/cooling-system/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
+  <url><loc>https://beattheheat.asia/print/weather-work-person/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
+  <url><loc>https://beattheheat.asia/print/workshop-guide/</loc><lastmod>2026-11-01</lastmod><priority>0.5</priority></url>
+  <url><loc>https://beattheheat.asia/solutions/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/sources/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/the-web/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/together/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/understand/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/whats-new/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/who-holds-it/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/who-is-at-risk/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://beattheheat.asia/worked-plans/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority></url>
 </urlset>

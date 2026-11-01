@@ -20,7 +20,7 @@
   "changed": "2026-11-01"
  },
  "/actions/": {
-  "hash": "f61350b5ed73cbc5",
+  "hash": "8e78cb33ca6797f5",
   "changed": "2026-11-01"
  },
  "/approach/": {
@@ -29,6 +29,10 @@
  },
  "/atlas/": {
   "hash": "9d67fa913b81a923",
+  "changed": "2026-10-01"
+ },
+ "/briefs/": {
+  "hash": "f0b8dc78c7a9dd89",
   "changed": "2026-10-01"
  },
  "/briefs/heat-mothers-children-minds/": {
@@ -44,60 +48,60 @@
   "changed": "2026-11-01"
  },
  "/cities/": {
-  "hash": "8a8811a365d0e6ff",
+  "hash": "d74738c01b6b4e68",
   "changed": "2026-11-01"
  },
  "/cities/ahmedabad/": {
-  "hash": "f8347f665669bc7e",
+  "hash": "c3f455a9edcbf2c3",
   "changed": "2026-11-01"
  },
  "/cities/bangkok/": {
-  "hash": "dfd5b18e400f1c87",
+  "hash": "d4f00ee86797712c",
   "changed": "2026-11-01"
  },
  "/cities/colombo/": {
-  "hash": "8bfa348c331c743d",
+  "hash": "f4aba6cbbbee2a0b",
   "changed": "2026-11-01"
  },
  "/cities/delhi/": {
-  "hash": "5b7f0e74ef5da2a4",
+  "hash": "85dbca5c729158b4",
   "changed": "2026-11-01"
  },
  "/cities/dhaka/": {
-  "hash": "1785e5ff61d9e223",
+  "hash": "87fe8484d558f54e",
   "changed": "2026-11-01"
  },
  "/cities/hanoi/": {
-  "hash": "adb89e2761637f64",
+  "hash": "47e4b6748fb7119d",
   "changed": "2026-11-01"
  },
  "/cities/jakarta/": {
-  "hash": "93267fb063b6de89",
+  "hash": "890c5b93dc1d4847",
   "changed": "2026-11-01"
  },
  "/cities/kathmandu/": {
-  "hash": "a15a80357bf8d813",
+  "hash": "e0fcdb9c8b62d401",
   "changed": "2026-11-01"
  },
  "/cities/manila/": {
-  "hash": "35f89e1859a43c0e",
+  "hash": "fe0343638d4561bc",
   "changed": "2026-11-01"
  },
  "/cities/mumbai/": {
-  "hash": "5ce560c2dd0c95fd",
+  "hash": "b6ab0d942f7285b0",
   "changed": "2026-11-01"
  },
  "/cities/phnompenh/": {
-  "hash": "fab69cc422299392",
+  "hash": "721c0aaa1a9b811f",
   "changed": "2026-11-01"
  },
  "/cities/singapore/": {
-  "hash": "74c6430be65df3da",
+  "hash": "9da7e05a4f368734",
   "changed": "2026-11-01"
  },
  "/cooling-options/": {
-  "hash": "6748a35a4255bdba",
-  "changed": "2026-10-01"
+  "hash": "d0ef31f5aa5c60c6",
+  "changed": "2026-11-01"
  },
  "/corrections/": {
   "hash": "3b201fc4a7eb75a1",
@@ -152,8 +156,8 @@
   "changed": "2026-10-31"
  },
  "/glossary/": {
-  "hash": "d3a3f43aa060e084",
-  "changed": "2026-10-31"
+  "hash": "60f4dbd35fa6a6db",
+  "changed": "2026-11-01"
  },
  "/guide/": {
   "hash": "a8eb70deb31eeffe",
@@ -184,11 +188,11 @@
   "changed": "2026-11-01"
  },
  "/heat-network/": {
-  "hash": "dc55e342f3772ccd",
+  "hash": "69f93973fa7bad8b",
   "changed": "2026-11-01"
  },
  "/heatwaves/": {
-  "hash": "2a64c785418b290a",
+  "hash": "a0b2e4a97acb5add",
   "changed": "2026-11-01"
  },
  "/how-heat-is-reported/": {
@@ -212,8 +216,8 @@
   "changed": "2026-10-01"
  },
  "/loops/": {
-  "hash": "a1fd4d581b71948f",
-  "changed": "2026-10-31"
+  "hash": "6a4d1a0ed13916b7",
+  "changed": "2026-11-01"
  },
  "/news/": {
   "hash": "ceb3513c56aae359",
@@ -248,19 +252,19 @@
   "changed": "2026-10-31"
  },
  "/paying-for-protection/": {
-  "hash": "b7df088ee2a14cf4",
-  "changed": "2026-10-01"
+  "hash": "3cfdb8afcf229b19",
+  "changed": "2026-11-01"
  },
  "/paying-when-heat-strikes/": {
-  "hash": "4cd399d35743f45e",
-  "changed": "2026-10-31"
+  "hash": "36417167a29584de",
+  "changed": "2026-11-01"
  },
  "/plan/": {
   "hash": "8b536f29d7823989",
   "changed": "2026-10-01"
  },
  "/practical-actions/": {
-  "hash": "00e3876fc1f05d98",
+  "hash": "5dcfc06132a8e1eb",
   "changed": "2026-11-01"
  },
  "/practical/": {
@@ -416,7 +420,7 @@
   "changed": "2026-11-01"
  },
  "/the-web/": {
-  "hash": "7fa10b10927f6992",
+  "hash": "24b4ce5a76b8e1b3",
   "changed": "2026-11-01"
  },
  "/together/": {
@@ -436,11 +440,11 @@
   "changed": "2026-10-01"
  },
  "/who-is-at-risk/": {
-  "hash": "06467a6cf41e7228",
+  "hash": "8d3b4855f430b3e9",
   "changed": "2026-11-01"
  },
  "/worked-plans/": {
-  "hash": "0d5d88d43f8d8389",
+  "hash": "923929577dca89e6",
   "changed": "2026-11-01"
  }
 }

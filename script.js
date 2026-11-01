@@ -1441,7 +1441,7 @@
     box.innerHTML = `<p class="plan-step__hint">Tick what applies to the people you are protecting. Each one adds something to discuss to your plan.</p>
       <div class="plan-exposure__qs">${EXPO.map(x => `<label class="plan-check"><input type="checkbox" data-pl-expo="${x.id}"${plan.exposure.includes(x.id) ? " checked" : ""}><span>${esc(x.q)}</span></label>`).join("")}</div>
       ${on.length ? `<p class="plan-ladder__k">To discuss</p><ul class="plan-exposure__prompts">${on.map(x => `<li>${esc(x.prompt)}</li>`).join("")}</ul>` : ""}
-      <p class="plan-exposure__note">Heat strain depends on the weather, the work and the person together. <a href="#strain">See weather, work and the person</a>.</p>`;
+      <p class="plan-exposure__note">Heat strain depends on the weather, the work and the person together. <a href="${document.getElementById("strain") ? "" : "/"}#strain">See weather, work and the person</a>.</p>`;
   }
   // cooling assets (part 20) need someone to keep them working after year one
   const ASSETS = typeof COOL_ASSET_LEVERS !== "undefined" ? COOL_ASSET_LEVERS : [];
@@ -2476,7 +2476,7 @@
   let paSel = "", paHz = "";
   function paCost(ref) {
     const pl = ref && COOL.find(x => x.id === ref[0]), o = pl && pl.options.find(x => x.name === ref[1]);
-    return o ? `<span class="pa-cost">Rough cost: ${coolCost(o.cost)} <a href="#cool-${pl.id}">See cooling options</a></span>` : "";
+    return o ? `<span class="pa-cost">Rough cost: ${coolCost(o.cost)} <a href="${COOL_HOME}#cool-${pl.id}">See cooling options</a></span>` : "";
   }
   function paLine(c, key) {
     if (key === "who") return esc(c.who.map(id => instById[id] ? instById[id].name : id).join(", "));
@@ -2511,13 +2511,15 @@
     panelEl.removeAttribute("aria-label"); panelEl.setAttribute("aria-labelledby", "pa-tab-" + st.id);
     const q = PA_Q.find(x => x.go === st.id && x.also), also = q && PA.find(x => x.id === q.also);
     panelEl.innerHTML = `<div class="pa-head"><p class="pa-intro">${esc(st.intro)}</p>
-        <p class="pa-head__go">${(cp => cp ? `<a class="pa-join" href="#cool-${cp.id}">Options, costs and traps for ${esc(cp.name.toLowerCase())} <span aria-hidden="true">→</span></a> · ` : "")(st.cool && COOL.find(x => x.id === st.cool))}${printLink("actions-" + st.id, `Print the ${st.short.toLowerCase()} cards`)}${also ? ` · <button type="button" class="link" data-pa-tab="${also.id}">Also: ${esc(also.name.toLowerCase())}</button>` : ""}</p></div>
+        <p class="pa-head__go">${(cp => cp ? `<a class="pa-join" href="${COOL_HOME}#cool-${cp.id}">Options, costs and traps for ${esc(cp.name.toLowerCase())} <span aria-hidden="true">→</span></a> · ` : "")(st.cool && COOL.find(x => x.id === st.cool))}${printLink("actions-" + st.id, `Print the ${st.short.toLowerCase()} cards`)}${also ? ` · <button type="button" class="link" data-pa-tab="${also.id}">Also: ${esc(also.name.toLowerCase())}</button>` : ""}</p></div>
       ${st.problems ? `<div class="pa-problems"><p class="pa-problems__k">What workers told researchers</p><div class="pa-problems__list">${st.problems.map(x => x.setting ? `<button type="button" class="pa-prob" data-pa-tab="${x.setting}">${esc(x.q)} <span aria-hidden="true">→</span></button>` : `<a class="pa-prob" href="#pa-${x.cards[0]}">${esc(x.q)} <span aria-hidden="true">↓</span></a>`).join("")}</div>
         <p class="cool-ev__src">${extLink(st.problemsSource.url, st.problemsSource.label)}</p></div>` : ""}
       <div class="pa-hz" role="group" aria-label="Show actions by when they protect people"><button type="button" data-pa-hz="" aria-pressed="${!paHz}">All</button>${HZ.map(h => `<button type="button" data-pa-hz="${h.id}" aria-pressed="${paHz === h.id}">${esc(h.name)}</button>`).join("")}</div>
       <div class="pa-cards">${st.cards.filter(c => !paHz || c.horizon === paHz).map(paCard).join("") || `<p class="pa-intro">No ${esc(st.short.toLowerCase())} actions for this time frame. <button type="button" class="link" data-pa-hz="">Show all</button></p>`}</div>
       <p class="pa-key">Evidence labels say what kind of evidence a card cites, not how good the action is. <a href="#evidence-labels">What each label means</a></p>`;
   }
+  // cooling options live in the homepage's cooling section; from other pages, link there rather than to a missing anchor
+  const COOL_HOME = document.getElementById("cool-tabs") ? "" : "/";
   function renderEvKey() { const k = document.getElementById("ev-key"); if (k) k.innerHTML = Object.entries(EV_ST).map(([id, x]) => `<div><dt>${evTag(id)}</dt><dd>${esc(x.text)}</dd></div>`).join(""); }
   function renderPractical() {
     renderEvKey();
@@ -2527,6 +2529,7 @@
     const hash = decodeURIComponent(location.hash.slice(1));
     showPractical(hash.startsWith("practical-") && (PA.some(x => x.id === hash.slice(10)) || hash.slice(10) === "stalls") ? hash.slice(10) : (PA.some(x => x.id === "homes") ? "homes" : PA[0].id));   // homes first: heat is not only a workplace problem
     const sec = document.getElementById("practical");
+    if (/^practical-/.test(hash) && sec) setTimeout(() => sec.scrollIntoView({ block: "start" }), 300);
     // links such as #practical-clinics open that setting
     window.addEventListener("hashchange", () => { const h = decodeURIComponent(location.hash.slice(1)); if (!h.startsWith("practical-")) return;
       const id = h.slice(10); if (PA.some(x => x.id === id) || id === "stalls") { showPractical(id); sec.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" }); } });
@@ -2674,6 +2677,8 @@
     tabs.innerHTML = COOL.map((p, i) => `<button type="button" role="tab" class="cool-tab" id="cool-tab-${p.id}" data-cool="${p.id}" aria-controls="cool-panel" aria-selected="${i ? "false" : "true"}" tabindex="${i ? -1 : 0}">${esc(p.name)}</button>`).join("");
     const hash = decodeURIComponent(location.hash.slice(1));
     showCoolPlace(hash.startsWith("cool-") ? hash.slice(5) : COOL[0].id);
+    // arriving from a link such as /#cool-markets: open that tab and bring it into view
+    if (hash.startsWith("cool-") && COOL.some(x => x.id === hash.slice(5))) setTimeout(() => tabs.scrollIntoView({ block: "start" }), 300);
     // links such as #cool-homes, from the action cards, open that place
     window.addEventListener("hashchange", () => { const h = decodeURIComponent(location.hash.slice(1));
       if (h.startsWith("cool-") && COOL.some(x => x.id === h.slice(5))) { showCoolPlace(h.slice(5)); document.getElementById("cool-tabs").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" }); } });

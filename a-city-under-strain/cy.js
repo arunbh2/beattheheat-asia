@@ -51,7 +51,7 @@
     var homes = "", x;
     for (x = 0; x < 4; x++) homes += '<g transform="translate(' + (300 + x * 62) + ' 250)"><path d="M0 30 L26 8 L52 30" stroke="' + (P.roofs ? "#FFFFFF" : "#B8401A") + '" stroke-width="' + (P.roofs ? 7 : 4) + '" fill="none"/><rect x="4" y="30" width="44" height="50" fill="#FAF7F2" stroke="#16202B" stroke-width="3"/><rect x="16" y="44" width="18" height="16" fill="' + lit + '"/></g>';
     var trees = ""; [70, 560, 640].forEach(function (tx) { trees += '<g><path d="M' + tx + ' 330 V292" stroke="#16202B" stroke-width="4"/><circle cx="' + tx + '" cy="276" r="26" fill="' + tree + '"/></g>'; });
-    svg.innerHTML = '<rect width="720" height="380" fill="' + (d ? "#FFF2E3" : "#FAF7F2") + '"/>' +
+    svg.innerHTML = '<title id="cy-t">A drawn city: a power station, a substation, a water pump, a clinic, homes and trees</title><rect width="720" height="380" fill="' + (d ? "#FFF2E3" : "#FAF7F2") + '"/>' +
       '<circle cx="640" cy="60" r="' + sun + '" fill="#F5A623" opacity="' + (d ? .95 : .6) + '"/>' +
       '<path d="M20 330 H700" stroke="#16202B" stroke-width="2" opacity=".35"/>' +
       // power station and the line to the substation

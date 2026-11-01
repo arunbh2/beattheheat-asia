@@ -187,7 +187,7 @@ footer p + p { margin-top: 2px; } footer b { color: #16202B; }
 .csf__extra{display:flex;flex-wrap:wrap;gap:8px 22px;margin:26px 0 0;padding-top:18px;border-top:1px solid rgba(250,247,242,.18);font-size:.88rem;font-weight:700}
 .csf__cite{margin:16px 0 0;font-size:.82rem;color:#C9C2B6;line-height:1.5}.csf__cite b{color:#FAF7F2}
 .csf__copy{margin-left:6px;border:1px solid rgba(250,247,242,.35);background:none;color:#FAF7F2!important;border-radius:6px;padding:2px 8px;font-size:.78rem!important}
-.csf__text{margin:12px 0 0;font-size:.8rem;color:#C9C2B6}.csf__text a{text-decoration:underline;text-decoration-color:var(--orange);text-underline-offset:3px}
+.csf__text{margin:12px 0 0;font-size:.8rem;color:#C9C2B6}.csf__text a,.csf__cite a{text-decoration:underline;text-decoration-color:var(--orange);text-underline-offset:3px}
 @media (max-width:1180px){.csn__search span,.csn__search kbd{display:none}.csn__search{width:40px;padding:0;justify-content:center}.csn__links{grid-template-columns:1fr}.csn__pin{grid-template-columns:minmax(0,1fr) minmax(0,1.4fr) minmax(0,.9fr)}}
 @media (max-width:960px){.csn__main{display:none}.csn__burger{display:inline-flex}.csn__in{height:58px}.csn--slim .csn__in{height:54px}}
 @media (max-width:560px){.csn__tools{gap:6px}.csn__map{width:40px;padding:0;justify-content:center}.csn__map span{display:none}.csn__start{padding:0 12px}.csn__start .csn__dot{display:none}.csn__burger{width:40px;padding:0;justify-content:center;font-size:0;gap:0}.csn__home{font-size:1.05rem}.csn__mark{width:26px}.csn-d{margin-top:4vh;max-height:88vh}.csn-d__h{font-size:1.6rem}.csp{margin:14px 12px 18px;padding:16px 18px}}
@@ -478,7 +478,7 @@ $$("[data-check]").forEach(function(box){var key=box.getAttribute("data-check"),
     if(form)window.open(form,"_blank","noopener");remember({a:"no",d:today});done(thanksNo)})})}});
 /* copy the citation */
 $$("[data-csn-copy]").forEach(function(b){b.addEventListener("click",function(){var t=$("[data-csn-cite]").textContent;(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){b.textContent="Copied"},function(){b.textContent="Select and copy"})})});
-})();</script><script src="/ticker.js?v=163" defer></script><!--/csn-->
+})();</script><script src="/ticker.js?v=164" defer></script><!--/csn-->
 <footer>
     <div>
       <p><b>Common Shade</b> · A living map of extreme heat in South and Southeast Asia, updated as the evidence grows. Live page: beattheheat.asia/#city-jakarta</p>

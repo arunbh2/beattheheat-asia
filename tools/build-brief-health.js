@@ -95,5 +95,10 @@ module.exports = function brief({ page, write, esc, D, ROOT }) {
 
     <section class="br-s br-refs" id="sources"><h2>Sources</h2><ol>${REF.map((r, i) => `<li id="ref-${i + 1}"><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.label)}<span class="visually-hidden"> (opens in a new tab)</span></a></li>`).join("")}</ol></section>
   </article>`;
+  // the index of evidence briefs, so /briefs/ (the brief's breadcrumb) is a real page
+  write("briefs", page("briefs", "Evidence briefs", "Short, citable evidence briefs from Common Shade: what is known, inferred and uncertain on one question, with the research that could answer it.",
+    `<header class="pg-hero"><div class="container"><p class="eyebrow">News and evidence</p><h1 class="pg-h1">Evidence briefs</h1><p class="pg-lede">Short, citable briefs on one question at a time: what is known, what is inferred, what is still uncertain, and the research that could answer it. Free to use under CC BY 4.0.</p></div></header>
+    <section class="container hub"><ul class="hub-grid hub-grid--plain"><li><a class="hub-card" href="/${SLUG}/"><b>Heat and the health of mothers, children and minds</b><span>Pregnancy, newborns and young children, mental health and suicide, violence against women, and women at work in South and Southeast Asia. ${DATE}.</span></a></li></ul>
+      <p class="hub-p">More briefs will follow. For a whole-site summary each month, see <a href="/whats-new/">State of the field</a>; for printable one-pagers, see <a href="/print/">Printable one-pagers</a>.</p></section>`));
   write(SLUG, page(SLUG, "Heat and the health of mothers, children and minds", "An evidence brief on extreme heat and pregnancy, newborns and young children, mental health and violence against women in South and Southeast Asia: what is known, inferred and uncertain, and five questions research could answer.", body));
 };

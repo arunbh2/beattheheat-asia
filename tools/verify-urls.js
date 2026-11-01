@@ -9,6 +9,7 @@ const fs = require("fs");
 const [list, out] = process.argv.slice(2);
 if (!list || !out) { console.error("usage: node tools/verify-urls.js <urls.txt> <out.json>"); process.exit(2); }
 const urls = [...new Set(fs.readFileSync(list, "utf8").split(/\r?\n/).map(s => s.trim()).filter(s => /^https?:\/\//.test(s)))];
+const NO_ARCHIVE = process.env.NO_ARCHIVE === "1";   // a quick status-only pass, e.g. before going live
 const prev = fs.existsSync(out) ? JSON.parse(fs.readFileSync(out, "utf8")) : {};
 const UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36";
 async function get(u, ms, method = "GET") {
@@ -31,7 +32,7 @@ async function check(u) {
   let r = await get(u, 25000, "HEAD");
   if (!r.ok) r = await get(u, 30000, "GET");
   const status = r.ok ? (new URL(r.url).host !== new URL(u).host ? "REDIRECT" : "OK") : [401, 403, 429, 999].includes(r.status) ? "BLOCKED" : "FAIL";
-  const archive = (prev[u] && prev[u].archive) || await archiveOf(u);
+  const archive = (prev[u] && prev[u].archive) || (NO_ARCHIVE ? "" : await archiveOf(u));
   return { status, code: r.status, archive };
 }
 (async () => {
