@@ -204,7 +204,7 @@ module.exports = [
     END("Heat in the mountains reaches every river below.") ] },
 
   { id: "peatfire", term: "Peat fires", group: "cooling", text: "Fires that smoulder in drained peatland, the thick, wet soil of tropical swamps. Once dry, peat burns underground for weeks and fills the air with haze. Indonesia’s 2015 forest and peat fires cost an estimated US$16.1 billion.",
-    source: { label: "World Bank: The cost of fire, Indonesia, 2016", url: "https://documents1.worldbank.org/curated/pt/776101467990969768/pdf/103668-BRI-Cost-of-Fires-Knowledge-Note-PUBLIC-ADD-NEW-SERIES-Indonesia-Sustainable-Landscapes-Knowledge-Note.pdf" }, scenes: [
+    source: { label: "World Bank: The cost of fire, Indonesia, 2016", url: "https://documents1.worldbank.org/curated/en/776101467990969768/pdf/103668-BRI-Cost-of-Fires-Knowledge-Note-PUBLIC-ADD-NEW-SERIES-Indonesia-Sustainable-Landscapes-Knowledge-Note.pdf" }, scenes: [
     { type: "hook", q: "Can the ground *itself* burn?", say: ["Can the ground itself burn?"] },
     { type: "term", title: "Peat fires", sub: "Fires that smoulder in drained swamp soil", say: ["Peat can. It’s thick, wet soil, made of plants that never fully rotted.", "Drain it, and in a hot, dry season it catches,", "and smoulders underground, filling the sky with haze."],
       d: { kind: "flow", steps: [{ k: "Wet", text: "Peat holds water and carbon", at: 0, good: true }, { k: "Drained", text: "Dries out in the heat", at: 1 }, { k: "Burning", text: "Smoulders for weeks, haze spreads", at: 2, hot: true }] } },

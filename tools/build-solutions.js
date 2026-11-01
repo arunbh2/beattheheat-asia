@@ -67,11 +67,20 @@ const climates = s => { const c = (s && s.climates) || (typeof s === "string" ? 
 const climLabel = c => c.length === 2 ? "Dry and humid heat" : c[0] === "hot-humid" ? "Humid heat" : c[0] === "hot-dry" ? "Dry heat" : "";
 const srcMap = rec => { const m = {}; (Array.isArray(rec.sources) ? rec.sources : []).forEach(s => { if (s && s.url) { m[s.url] = s.label || s.url; if (s.id) m["#" + s.id] = s; } }); return m; };
 const srcList = (rec, urls) => { const m = srcMap(rec); return (urls || []).map(u => typeof u === "string" ? ext(u, m[u] || u.replace(/^https?:\/\/(www\.)?/, "").split("/")[0]) : u && u.url ? ext(u.url, u.label || m[u.url]) : "").filter(Boolean).join(" · "); };
-const money = (o, unit) => o == null ? "" : typeof o === "object" ? (o.min === o.max || o.max == null ? `${o.min}` : `${o.min}–${o.max}`) + (o.unit || unit ? ` ${o.unit || unit}` : "") : String(o);
+const num = n => typeof n === "number" ? n.toLocaleString("en-US", { maximumFractionDigits: 2 }) : String(n);
+const money = (o, unit) => {
+  if (o == null) return "";
+  if (typeof o !== "object") return typeof o === "number" ? num(o) : String(o);
+  const lo = o.min != null ? o.min : o.value, hi = o.max;
+  if (lo == null) return "";
+  return (hi == null || hi === lo ? num(lo) : `${num(lo)}–${num(hi)}`) + (o.unit || unit ? ` ${o.unit || unit}` : "");
+};
 function costHTML(c) {
   if (!c) return "";
-  const parts = ["upfront", "running", "upkeep"].filter(k => c[k]).map(k => {
-    const usd = c.usd && c.usd[k] ? ` (about US$${money(c.usd[k])}${c.usd.unit ? `, ${String(c.usd.unit).split(";")[0].replace(/^USD\s*/, "")}` : ""})` : "";
+  const parts = ["upfront", "running", "upkeep"].filter(k => c[k] && money(c[k])).map(k => {
+    const uu = c.usd && c.usd.unit ? String(c.usd.unit).split(";")[0].replace(/^USD\s*/, "").trim() : "";
+    const local = typeof c[k] === "object" ? String(c[k].unit || "") : "";
+    const usd = c.usd && c.usd[k] != null && money(c.usd[k]) && !/^USD\b/.test(local) ? ` (about US$${money(c.usd[k])}${uu ? (uu.startsWith("/") ? uu : `, ${uu}`) : ""})` : "";
     return `<li><b>${k[0].toUpperCase() + k.slice(1)}:</b> ${esc(money(c[k]))}${esc(usd)}${c[k].basis ? `. <span class="sol-note">${esc(c[k].basis)}</span>` : ""}</li>`;
   });
   const note = c.note || "";
@@ -234,7 +243,9 @@ const script = `  <script>
 // renderer: every section is shown with a readable heading, sources are resolved to their titles, and empty or
 // technical fields (ids, codes, dates of checking, taxonomy tags) are left out.
 const SKIP = /^(id|iso2|iso3|iso|iso_code|listing_notice|evidence_definitions|country|aliases|research_date|last_checked|systems|levers|loops|settings|mapping_status|mapping_note|city_selection|national_exposure_rank|publisher_actor_id|actor_ids|programme_ids|institution_types|cooling_option_places|url_kind|contribution_is|commitment_status|result_basis)$/;
-const LABEL = { collaboration_entry_points: "Ways to help (proposed)", occupational_heat: "Rules for heat at work", responsibility_map: "Who is responsible", official_plans_and_authority: "Official plans and authority", cost_reporting: "What costs we could verify", equity_and_delivery_checks: "Fairness and delivery checks", selection_method: "How the cities were chosen", research_limits: "Limits of this research", heat_context: "Heat context", plans_and_law: "Plans and law", plans_and_legal_basis: "Plans and legal basis", plans: "Plans", official_heat_plans: "Official heat plans", official_heat_plan: "Official heat plan", heat_plan_status: "Heat plan",
+// records use "null" for a blank field; say that in plain words on the page
+const plainNull = t => t.replace(/\bnull (does not mean|is not)\b/gi, "a blank $1").replace(/\bnull\b/g, "blank");
+const LABEL = { reason_for_null: "Why this is left blank", collaboration_entry_points: "Ways to help (proposed)", occupational_heat: "Rules for heat at work", responsibility_map: "Who is responsible", official_plans_and_authority: "Official plans and authority", cost_reporting: "What costs we could verify", equity_and_delivery_checks: "Fairness and delivery checks", selection_method: "How the cities were chosen", research_limits: "Limits of this research", heat_context: "Heat context", plans_and_law: "Plans and law", plans_and_legal_basis: "Plans and legal basis", plans: "Plans", official_heat_plans: "Official heat plans", official_heat_plan: "Official heat plan", heat_plan_status: "Heat plan",
   legal_basis: "Legal basis", legal_status: "Legal status", legal_character: "Legal standing", responsibilities: "Who is responsible", agencies_responsible: "Agencies responsible", agencies_documented: "Agencies documented", agencies_to_engage_proposed: "Agencies to engage (proposed)",
   warnings: "Warnings", warning_systems: "Warnings", occupational_rules: "Rules for heat at work", occupational_heat_rules: "Rules for heat at work", cooling: "Cooling and buildings", cooling_building_policy: "Cooling and buildings", cooling_and_building_policy: "Cooling and buildings",
   cooling_design_proposals: "Cooling design ideas (proposed)", finance_mechanisms: "Money for protection", finance: "Money for protection", local_finance_status: "Local finance", cost: "Costs", costs: "Costs", costing_next_step: "Costing: next step",
@@ -255,7 +266,7 @@ function countryPage(s) {
   function val(v, depth) {
     if (empty(v)) return "";
     if (typeof v === "boolean" || typeof v === "number") return depth ? `<span>${esc(v)}</span>` : "";
-    if (typeof v === "string") return `<span>${esc(v)}</span>`;
+    if (typeof v === "string") return `<span>${esc(plainNull(v))}</span>`;
     if (Array.isArray(v)) {
       if (v.every(x => typeof x === "string" && !srcIdx[x] && !/^https?:/.test(x))) return `<ul>${v.map(x => `<li>${esc(x)}</li>`).join("")}</ul>`;
       const refs = refsOf(v); if (refs.length && refs.length === v.length) return `<span class="sol-src">${refs.join(" · ")}</span>`;
