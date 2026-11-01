@@ -31,6 +31,9 @@ jobs:
       - name: Harvest, screen and pre-fill
         id: h
         run: node tools/living-evidence/harvest.js --days "${{ inputs.days || '8' }}"
+        env:
+          # optional and free: an OpenAlex API key (openalex.org) raises its request limit
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
       - name: Open the review pull request
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
