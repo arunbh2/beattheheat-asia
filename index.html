@@ -431,6 +431,25 @@ html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{
       </div>
     </section>
 
+    <section class="launch" id="launch" aria-labelledby="launch-h">
+      <!-- The launch film: rendered in code from real screens of the site (tools/launch/). Plays only when asked; nothing loads until then. -->
+      <div class="container launch__in">
+        <figure class="launch__film">
+          <video controls playsinline preload="none" poster="/media/launch/launch-poster.jpg" width="1920" height="1080" aria-describedby="launch-p">
+            <source src="/media/launch/launch-16x9.mp4" type="video/mp4">
+            <track kind="captions" src="/media/launch/launch.en.vtt" srclang="en" label="English">
+          </video>
+        </figure>
+        <div class="launch__copy">
+          <p class="launch__k">New</p>
+          <h2 class="launch__h" id="launch-h">Common Shade, in 20 seconds</h2>
+          <p class="launch__p" id="launch-p">Extreme heat, in one shared map. A short film made from the site itself, free to share. Every idea is on screen, so it works with the sound off.</p>
+          <p class="launch__dl"><a href="/media/launch/launch-16x9.mp4" download>Download the film (MP4)</a></p>
+          <p class="launch__more">For sharing: <a href="/media/launch/launch-1x1.mp4" download>square</a> · <a href="/media/launch/launch-9x16.mp4" download>vertical</a> · <a href="/media/launch/launch-9x16-6s.mp4" download>6-second vertical</a> · <a href="/media/launch/launch-16x9-gentle.mp4" download>gentle version, without fast camera moves</a></p>
+        </div>
+      </div>
+    </section>
+
     <section class="act" id="act-1" aria-labelledby="act-1-h" data-act-n="1">
       <div class="container act__in">
         <p class="act__k"><span>Act 1</span>Feel it</p>

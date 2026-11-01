@@ -33,6 +33,7 @@ Counts are calculated from data at build time. Never type a count into a page; r
 - Page folders such as `/plan/`, `/atlas/`, `/intersections/` and `/resources/heat-action-plans/india/` each hold a generated `index.html` and, where there is one, the page's own script.
 - `research/YYYY-MM/`: verified research sets and link checks. They are published as files but never linked as pages.
 - `research/india-hap-archive/`: the HAP catalogue CSVs, report and downloader (see its README).
+- `tools/launch/`: the 20-second launch film (scene, shots, music, renderer) behind the homepage launch card; files in `media/launch/`.
 - `media/`: films and covers. `tools/explainers/`, `tools/films/` and `tools/shorts/` build them (Piper voice, Playwright render).
 - `data/evidence/` and `tools/living-evidence/`: the weekly evidence review. A Monday job harvests studies and opens a review pull request; merging is the sign-off; accepted studies join their cycles on the Evidence map. See `data/evidence/README.md`.
 - `.github/workflows/`: data checks, link checks, news feed, source and URL verification, and the weekly evidence review.
