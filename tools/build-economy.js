@@ -31,6 +31,31 @@ const usd = n => { const x = Number(n); if (!isFinite(x) || !n) return ""; retur
 // ---- the research ----
 const SEG = J("segments.json"), BIZ = J("businesses.json"), INV = J("investors.json"), DEALS = J("deals.json"), PROG = J("programmes.json"),
   OPP = J("opportunities.json"), COND = J("conditions.json"), FLOWS = J("flows.json");
+// funders the site names elsewhere but the investor research did not list: from traced deals, the knowledge base
+// (data/kb/funding.json) and the risk-finance research. Each is added with the record it comes from, so the list stays complete.
+{
+  const nm = s => String(s || "").toLowerCase().replace(/^the /, "").replace(/[^a-z0-9]/g, "");
+  const ALIAS = { dfc: "us-dfc", adbventures: "adb", asiandevelopmentbank: "adb", ifc: "ifc", internationalfinancecorporation: "ifc", indiaeximbank: "exim", n47: "n47", swissre: "swissre",
+    pidginfraco: "pidg", seaceftiiclimecapital: "seacef", seacefiiclimecapital: "seacef", svlsmefundneevii: "svl", hivostriodosfonds: "hivos", "2150urbantechsustainabilityfund": "2150",
+    primecoalitionprimeimpactfund: "prime", efficiencyforaccessrdfund: "efa", cleancoolingcollaborative: "ccc" };
+  const known = new Map(); INV.forEach(i => { known.set(nm(i.name), i); known.set(nm(i.name.split(/ [-(/,]/)[0]), i); });
+  const findInv = name => { const k = nm(name); if (known.has(k)) return known.get(k); const a = ALIAS[k];
+    if (a) return INV.find(i => nm(i.name).includes({ "us-dfc": "developmentfinancecorporation", adb: "asiandevelopmentbank", ifc: "internationalfinancecorporation", exim: "exportimportbankofindia", n47: "n47", swissre: "swissre", pidg: "pidg", seacef: "seacef", svl: "svlsmefund", hivos: "hivostriodos", "2150": "2150", prime: "primecoalition", efa: "efficiencyforaccess", ccc: "cleancoolingcollaborative" }[a]));
+    return INV.find(i => { const n = nm(i.name); return k.length > 5 && (n.startsWith(k) || k.startsWith(n)); }); };
+  const add = (name, type, extra, url) => { let i = findInv(name);
+    if (!i) { i = { id: "x-" + nm(name).slice(0, 40), name, url: url || "", type, side: "supply", instruments: [], segments: [], deals: [], extra: [], added: true }; INV.push(i); known.set(nm(name), i); }
+    if (extra) { i.extra = i.extra || []; if (!i.extra.some(e => e.text === extra.text)) i.extra.push(extra); } return i; };
+  DEALS.forEach(d => (d.investors || []).forEach(raw => { const name = String(raw).split(";")[0].replace(/\s+through .*$/, "").trim(); if (!name) return;
+    const i = add(name, "named"); i.deals = i.deals || []; if (!i.deals.includes(d.id)) i.deals.push(d.id); }));
+  const KBF0 = fs.existsSync(path.join(ROOT, "data", "kb", "funding.json")) ? JSON.parse(fs.readFileSync(path.join(ROOT, "data", "kb", "funding.json"), "utf8")).filter(r => r.status === "current") : [];
+  const KBS0 = Object.fromEntries((fs.existsSync(path.join(ROOT, "data", "kb", "source.json")) ? JSON.parse(fs.readFileSync(path.join(ROOT, "data", "kb", "source.json"), "utf8")) : []).map(r => [r.id, r]));
+  KBF0.forEach(r => { const src = KBS0[(r.sources || [])[0]] || {};
+    String(r.funder || "").split(/ and (?=The |[A-Z])/).map(x => x.trim()).filter(Boolean).forEach(f => add(f, r.funder_kind === "phil" ? "philanthropy" : "named",
+      { text: `${r.title}${r.as_of ? ` (${String(r.as_of).slice(0, 4)})` : ""}`, url: src.url || "", label: src.publisher || src.title || "Source", page: "/heat-economy/flows/" })); });
+  const RFT = { philanthropy: "philanthropy", mdb: "mdb", facility: "humanitarian-fund" };
+  require("./riskfin-data.js").actors.filter(a => a.side === "supply" && RFT[a.type]).forEach(a =>
+    add(a.n, RFT[a.type], { text: a.role ? a.role.replace(/\.$/, "") : "Named in the research on paying when heat strikes", url: "", label: "", page: "/paying-when-heat-strikes/#who" }, a.url));
+}
 const plainSeg = id => PL.segments[id] || {};
 // research text shown to readers: drop the researchers' checking notes after a semicolon, and use everyday words
 const NOTE = /verif|inferred|establish|not assumed|background|historical|not audited|not treated|not proof|not a |no fixed amount/i;
@@ -46,7 +71,7 @@ const KIND = { startup: "Start-up", sme: "Small or medium business", "social-ent
 const VIABLE = { yes: ["Customers could pay", "yes"], "with-public-money": ["Needs public or shared funding", "public"], no: ["Public action, not a business", "no"] };
 const DSTATUS = { announced: "Announced", closed: "Confirmed", disbursed: "Paid out", unclear: "Not clear" };
 const INSTR = { "mandate/project contribution": "Project funding", equity: "Shares (equity)", debt: "Loan", grant: "Grant", convertible: "Convertible loan", guarantee: "Guarantee", prize: "Prize", "insurance-capital": "Insurance capital", "results-based": "Payment for results" };
-const INVTYPE = { vc: "Venture capital fund", impact: "Impact investor", cvc: "Company investment arm", dfi: "Development finance institution", mdb: "Development bank", "climate-fund": "Climate fund", "adaptation-fund": "Adaptation fund", "blended-facility": "Blended finance fund", philanthropy: "Foundation", "family-office": "Family office", "risk-capital": "Insurance and risk capital", "public-innovation": "Public innovation fund" };
+const INVTYPE = { named: "Named in funding we traced", "humanitarian-fund": "Humanitarian or pooled fund", vc: "Venture capital fund", impact: "Impact investor", cvc: "Company investment arm", dfi: "Development finance institution", mdb: "Development bank", "climate-fund": "Climate fund", "adaptation-fund": "Adaptation fund", "blended-facility": "Blended finance fund", philanthropy: "Foundation", "family-office": "Family office", "risk-capital": "Insurance and risk capital", "public-innovation": "Public innovation fund" };
 const PROGTYPE = { prize: "Prize", challenge: "Challenge", accelerator: "Accelerator", incubator: "Incubator", "city-programme": "City programme", "corporate-call": "Company open call", university: "University programme", "philanthropic-fund": "Foundation fund" };
 const SUITS = { both: "Works in dry and humid heat", "hot-dry": "Best in dry heat", "hot-humid": "Suited to humid heat" };
 
@@ -239,7 +264,7 @@ const invCard = i => { const ds = (i.deals || []).map(id => dealById[id]).filter
   return `<details class="sol he-card" id="inv-${esc(i.id)}" data-type="${esc(i.type || "")}" data-q="${qtext(i.name, INVTYPE[i.type], (i.segments || []).map(segName), ds.map(recip))}">
       <summary><span class="sol-h">${esc(i.name)}</span><span class="sol-tags"><span class="sol-clim">${esc(INVTYPE[i.type] || "Funder")}</span>${(i.segments || []).slice(0, 3).map(s => `<span class="sol-clim">${esc(segName(s))}</span>`).join("")}</span>${ds.length ? `<span class="sol-sum">Has funded: ${esc(ds.map(d => `${recip(d)} (${(d.date || "").slice(0, 4)})`).join(", "))}</span>` : ""}</summary>
       <div class="sol-body">
-        ${f("Heat-related funding we found", ds.length ? `<ul class="sol-ul">${ds.map(d => `<li><a href="#deal-${esc(d.id)}">${esc(recip(d))}, ${esc((d.date || "").slice(0, 4))}</a>${d.amount && d.amount.usd ? `: ${usd(d.amount.usd)}` : ""} (${esc(DSTATUS[d.status] || "")})</li>`).join("")}</ul>` : `<p>Listed for its stated interest in heat or cooling.</p>`)}
+        ${f("Heat-related funding we found", ds.length || (i.extra || []).length ? `<ul class="sol-ul">${ds.map(d => `<li><a href="#deal-${esc(d.id)}">${esc(recip(d))}, ${esc((d.date || "").slice(0, 4))}</a>${d.amount && d.amount.usd ? `: ${usd(d.amount.usd)}` : ""} (${esc(DSTATUS[d.status] || "")})</li>`).join("")}${(i.extra || []).map(e => `<li>${esc(e.text)}${e.url && live(e.url) ? ` · ${ext(e.url, e.label || "Source")}` : ""}${e.page ? ` · <a href="${e.page}">See it on the site</a>` : ""}</li>`).join("")}</ul>` : `<p>Listed for its stated interest in heat or cooling.</p>`)}
         ${f("Usually provides", p((i.instruments || []).map(x => INSTR[x] || x).join(", ")))}
         ${f("Kinds of protection", p((i.segments || []).map(segName).join(", ")))}
         ${f("Website", live(i.url) ? `<p>${ext(i.url, i.name)}</p>` : "")}
