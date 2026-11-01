@@ -1,0 +1,14 @@
+[
+ {
+  "id": "src-obr-minecraft-extreme-heat",
+  "type": "source",
+  "title": "Minecraft Extreme Heat series",
+  "publisher": "One Billion Resilient (Arsht-Rock)",
+  "url": "https://onebillionresilient.org/project/minecraft-extreme-heat-series/",
+  "archive": "",
+  "kind": "resource",
+  "expect": ["Minecraft", "heat"],
+  "status": "candidate",
+  "note": "A learning resource to list on the Intersections page; checked so its description comes from the page itself."
+ }
+]
