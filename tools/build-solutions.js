@@ -23,7 +23,9 @@ const ICON = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewB
 const V = (fs.readFileSync(path.join(ROOT, "index.html"), "utf8").match(/styles\.css\?v=(\d+)/) || [, "1"])[1];
 const FOOT_CLOSE = (fs.readFileSync(path.join(ROOT, "practical", "index.html"), "utf8").match(/  <aside class="foot-close"[\s\S]*?<\/aside>\n/) || [""])[0];
 const NAV = `<nav aria-label="Elsewhere on the site"><a href="/#explore">The map</a><a href="/practical/">Practical actions</a><a href="/solutions/">Solutions</a><a href="/plan/">Plan a response</a><a href="/news/">Heat in the news</a><a href="/join/">Help build Common Shade</a></nav>`;
-const page = ({ slug, title, desc, body, script = "" }) => `<!DOCTYPE html>
+// research text sometimes runs a word into a year ("June2025"); space it, in visible text only, never inside links
+const spaceYears = html => html.replace(/>([^<]+)</g, (m, t) => ">" + t.replace(/(^|[\s(“"–-])([A-Za-z]*[a-z])((?:19|20)\d{2})(?=[\s,.;:)”"–-]|$)/g, "$1$2 $3") + "<");
+const page = ({ slug, title, desc, body, script = "" }) => spaceYears(`<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -53,7 +55,7 @@ ${FOOT_CLOSE}  <footer class="wkp-foot"><div class="container">
   </div></footer>
 ${script}</body>
 </html>
-`;
+`);
 
 const SNAPS = [["bangladesh", "Bangladesh"], ["india", "India"], ["indonesia", "Indonesia"], ["nepal", "Nepal"], ["philippines", "Philippines"], ["sri_lanka", "Sri Lanka"], ["thailand", "Thailand"]].map(([file, name]) => ({ slug: file.replace(/_/g, "-"), name, d: J(`${file}_snapshot.json`) }));
 /* ---------------- the solutions library ---------------- */
@@ -244,7 +246,7 @@ const script = `  <script>
 // technical fields (ids, codes, dates of checking, taxonomy tags) are left out.
 const SKIP = /^(id|iso2|iso3|iso|iso_code|listing_notice|evidence_definitions|country|aliases|research_date|last_checked|systems|levers|loops|settings|mapping_status|mapping_note|city_selection|national_exposure_rank|publisher_actor_id|actor_ids|programme_ids|institution_types|cooling_option_places|url_kind|contribution_is|commitment_status|result_basis)$/;
 // records use "null" for a blank field; say that in plain words on the page
-const plainNull = t => t.replace(/\bnull (does not mean|is not)\b/gi, "a blank $1").replace(/\bnull\b/g, "blank");
+const plainNull = t => t.replace(/([a-z])((?:19|20)\d{2})\b/g, "$1 $2").replace(/\bnull (does not mean|is not)\b/gi, "a blank $1").replace(/\bnull\b/g, "blank");
 const LABEL = { reason_for_null: "Why this is left blank", collaboration_entry_points: "Ways to help (proposed)", occupational_heat: "Rules for heat at work", responsibility_map: "Who is responsible", official_plans_and_authority: "Official plans and authority", cost_reporting: "What costs we could verify", equity_and_delivery_checks: "Fairness and delivery checks", selection_method: "How the cities were chosen", research_limits: "Limits of this research", heat_context: "Heat context", plans_and_law: "Plans and law", plans_and_legal_basis: "Plans and legal basis", plans: "Plans", official_heat_plans: "Official heat plans", official_heat_plan: "Official heat plan", heat_plan_status: "Heat plan",
   legal_basis: "Legal basis", legal_status: "Legal status", legal_character: "Legal standing", responsibilities: "Who is responsible", agencies_responsible: "Agencies responsible", agencies_documented: "Agencies documented", agencies_to_engage_proposed: "Agencies to engage (proposed)",
   warnings: "Warnings", warning_systems: "Warnings", occupational_rules: "Rules for heat at work", occupational_heat_rules: "Rules for heat at work", cooling: "Cooling and buildings", cooling_building_policy: "Cooling and buildings", cooling_and_building_policy: "Cooling and buildings",
@@ -260,7 +262,7 @@ const orderKeys = o => Object.keys(o).filter(k => !SKIP.test(k)).sort((x, y) => 
 function countryPage(s) {
   const d = s.d, c = d.country, srcIdx = {}; (d.sources || []).forEach(x => { srcIdx[x.id] = x; });
   const isRef = o => o && typeof o === "object" && !Array.isArray(o) && (o.url || (o.id && srcIdx[o.id])) && Object.keys(o).length <= 6 && !o.text && !o.name && !o.proposal;
-  const refLink = o => { const x = srcIdx[o.id] || o; return live(x.url) ? ext(x.url, x.title || x.label || o.label || o.id || "source") : ""; };
+  const refLink = o => { const x = srcIdx[o.id] || o, t = x.title || x.label || o.label; return live(x.url) ? ext(x.url, plainNull(t || o.id || "source")) : t && x.url ? `${esc(plainNull(t))} (no longer online)` : ""; };
   const refsOf = arr => arr.map(x => typeof x === "string" ? (srcIdx[x] ? refLink({ id: x }) : /^https?:/.test(x) ? ext(x, x.replace(/^https?:\/\/(www\.)?/, "").split("/")[0]) : "") : isRef(x) ? refLink(x) : "").filter(Boolean);
   const empty = v => v == null || v === "" || (Array.isArray(v) && !v.length) || (typeof v === "object" && !Array.isArray(v) && !Object.keys(v).length);
   function val(v, depth) {
@@ -270,7 +272,8 @@ function countryPage(s) {
     if (Array.isArray(v)) {
       if (v.every(x => typeof x === "string" && !srcIdx[x] && !/^https?:/.test(x))) return `<ul>${v.map(x => `<li>${esc(x)}</li>`).join("")}</ul>`;
       const refs = refsOf(v); if (refs.length && refs.length === v.length) return `<span class="sol-src">${refs.join(" · ")}</span>`;
-      return `<ul class="sol-list">${v.map(x => isRef(x) ? `<li class="sol-src">${refLink(x)}</li>` : typeof x === "object" ? `<li>${obj(x, depth + 1)}</li>` : `<li>${esc(x)}</li>`).join("")}</ul>`;
+      const items = v.map(x => isRef(x) ? (refLink(x) ? `<li class="sol-src">${refLink(x)}</li>` : "") : typeof x === "object" ? `<li>${obj(x, depth + 1)}</li>` : `<li>${esc(x)}</li>`).filter(Boolean);
+      return items.length ? `<ul class="sol-list">${items.join("")}</ul>` : "";
     }
     if (isRef(v)) return `<span class="sol-src">${refLink(v)}</span>`;
     return obj(v, depth + 1);
@@ -282,7 +285,7 @@ function countryPage(s) {
       const h = val(o[k], depth); if (!h) return "";
       if (/^(sources|evidence|basis)$/.test(k) && /sol-src/.test(h) && !/<ul/.test(h)) return h;
       if (k === "text") return `<span>${h}</span>`;
-      if (/source_ids$/.test(k)) return /sol-src/.test(h) ? `<span class="cty-kv"><b>Sources:</b> ${h}</span>` : "";
+      if (/source_ids$/.test(k)) return /sol-src">[^<]/.test(h) ? `<span class="cty-kv"><b>Sources:</b> ${h}</span>` : "";
       return `<span class="cty-kv"><b>${esc(pretty(k))}:</b> ${h}</span>`;
     }).filter(Boolean);
     const url = o.url && live(o.url) && head ? ext(o.url, head) : "";

@@ -294,6 +294,7 @@ const PEOPLE = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "peopl
         <button type="button" class="atl-play" data-atl-play aria-label="Play the years">Play</button>
         <div class="atl-track"><input type="range" min="${ATL.y0}" max="${ATL.y1}" step="1" value="${ATL.y1}" data-atl-range aria-label="Year"><div class="atl-ticks" data-atl-ticks aria-hidden="true"></div></div>
       </div>
+      <nav class="atl-list" aria-label="Every heatwave on the map"><h2 class="atl-list__h">Every heatwave on the map</h2><ul>${HW.slice().sort((a, b) => a.y - b.y).map(h => `<li><a href="#${esc(h.id)}"><b>${esc(String(h.y))}</b> ${esc(h.place)}</a></li>`).join("")}</ul></nav>
       <noscript><p class="hub-p">The Atlas needs JavaScript. <a href="/heatwaves/">Heatwaves that shaped Asia</a> and <a href="/worked-plans/">Worked plans</a> tell the same story as text.</p></noscript>
       <h2 class="hub-h">How to read this</h2>
       <ul class="hub-grid hub-grid--plain">

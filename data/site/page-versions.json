@@ -20,7 +20,7 @@
   "changed": "2026-11-01"
  },
  "/actions/": {
-  "hash": "8e78cb33ca6797f5",
+  "hash": "77e445fc3b911ff5",
   "changed": "2026-11-01"
  },
  "/approach/": {
@@ -28,8 +28,8 @@
   "changed": "2026-10-01"
  },
  "/atlas/": {
-  "hash": "9d67fa913b81a923",
-  "changed": "2026-10-01"
+  "hash": "ad1b8132d69c2035",
+  "changed": "2026-11-01"
  },
  "/briefs/": {
   "hash": "f0b8dc78c7a9dd89",
@@ -76,11 +76,11 @@
   "changed": "2026-11-01"
  },
  "/cities/jakarta/": {
-  "hash": "890c5b93dc1d4847",
+  "hash": "2f2ab411d3463460",
   "changed": "2026-11-01"
  },
  "/cities/kathmandu/": {
-  "hash": "e0fcdb9c8b62d401",
+  "hash": "4e3caf8e24e707e6",
   "changed": "2026-11-01"
  },
  "/cities/manila/": {
@@ -112,19 +112,19 @@
   "changed": "2026-11-01"
  },
  "/countries/bangladesh/": {
-  "hash": "3ec98e0150f73577",
+  "hash": "07faf1c9ce0e8a0c",
   "changed": "2026-11-01"
  },
  "/countries/india/": {
-  "hash": "095dadcc114f9de5",
+  "hash": "ffc4b88b04e7afdc",
   "changed": "2026-11-01"
  },
  "/countries/indonesia/": {
-  "hash": "bfd459d5e7645d9b",
+  "hash": "1f1d710ad0acb80c",
   "changed": "2026-11-01"
  },
  "/countries/nepal/": {
-  "hash": "bf3bec42176131da",
+  "hash": "ef61d163853f3cc2",
   "changed": "2026-11-01"
  },
  "/countries/philippines/": {
@@ -132,15 +132,15 @@
   "changed": "2026-11-01"
  },
  "/countries/sri-lanka/": {
-  "hash": "3c74eca0da44ad82",
+  "hash": "f35acd0eea7e54b4",
   "changed": "2026-11-01"
  },
  "/countries/thailand/": {
-  "hash": "c43cd1569f51212a",
+  "hash": "11ac92d3347c6ac5",
   "changed": "2026-11-01"
  },
  "/evidence-map/": {
-  "hash": "24c0515444afc3ab",
+  "hash": "846cc8d67ac816a9",
   "changed": "2026-11-01"
  },
  "/evidence/": {
@@ -152,11 +152,11 @@
   "changed": "2026-10-31"
  },
  "/fund/": {
-  "hash": "3a748fecb67eab96",
-  "changed": "2026-10-31"
+  "hash": "8352d6bd20948a94",
+  "changed": "2026-11-01"
  },
  "/glossary/": {
-  "hash": "60f4dbd35fa6a6db",
+  "hash": "1f095729669bfa11",
   "changed": "2026-11-01"
  },
  "/guide/": {
@@ -176,8 +176,8 @@
   "changed": "2026-11-01"
  },
  "/heat-economy/flows/": {
-  "hash": "9176c40a9d04acbc",
-  "changed": "2026-10-31"
+  "hash": "687bf616b682ba74",
+  "changed": "2026-11-01"
  },
  "/heat-economy/money/": {
   "hash": "979f36f9b5d234a5",
@@ -188,7 +188,7 @@
   "changed": "2026-11-01"
  },
  "/heat-network/": {
-  "hash": "69f93973fa7bad8b",
+  "hash": "20027934c2015a74",
   "changed": "2026-11-01"
  },
  "/heatwaves/": {
@@ -216,7 +216,7 @@
   "changed": "2026-10-01"
  },
  "/loops/": {
-  "hash": "6a4d1a0ed13916b7",
+  "hash": "b2a7c3bca3f29843",
   "changed": "2026-11-01"
  },
  "/news/": {
@@ -264,7 +264,7 @@
   "changed": "2026-10-01"
  },
  "/practical-actions/": {
-  "hash": "5dcfc06132a8e1eb",
+  "hash": "cb71391619942b31",
   "changed": "2026-11-01"
  },
  "/practical/": {
@@ -412,15 +412,15 @@
   "changed": "2026-11-01"
  },
  "/solutions/": {
-  "hash": "bea42f117cfce16d",
+  "hash": "b0d424ff93ae02f1",
   "changed": "2026-11-01"
  },
  "/sources/": {
-  "hash": "9d46bdb73b71b860",
+  "hash": "1651c048a7d12ab3",
   "changed": "2026-11-01"
  },
  "/the-web/": {
-  "hash": "24b4ce5a76b8e1b3",
+  "hash": "ebc7ef804b21cf67",
   "changed": "2026-11-01"
  },
  "/together/": {

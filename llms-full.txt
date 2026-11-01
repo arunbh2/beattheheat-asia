@@ -410,7 +410,7 @@ Trees and parks cluster in better-off neighbourhoods, which can pay for them and
 
 Leads to: Urban heat islands (Neighbourhoods with little green run hotter.); Greening pushes people out (When greening finally reaches the least green, cheapest districts as a property upgrade, without protection for tenants, rents rise.)
 
-Source: Wolch, Byrne and Newell, Landscape and Urban Planning, 2014: making cities “just green enough” https://urbansustainability.seas.umich.edu/wp-content/uploads/2014/06/Making-cities-just-green-enough.pdf
+Source: Wolch, Byrne and Newell, Landscape and Urban Planning, 2014: making cities “just green enough” https://doi.org/10.1016/j.landurbplan.2014.01.017
 
 Source: Hansen et al., chapter 10 in Nature-Based Solutions for Cities, 2023: tree survival tracks municipal budgets in Santiago https://doi.org/10.4337/9781800376762
 
@@ -928,7 +928,7 @@ The cycle: Extreme heat → Nature and ecosystems → Wildfires → back to the 
 
 What this cycle costs (World): +50%. more extreme wildfires are projected by the end of the century, and up to 14% more by 2030. (UNEP and GRID-Arendal, 2022, https://www.unep.org/resources/report/spreading-wildfire-rising-threat-extraordinary-landscape-fires)
 
-In Southeast Asia (Indonesia): US$16.1 billion. was the cost to Indonesia of the forest and peatland fires of June to October 2015. (World Bank, 2016, https://documents1.worldbank.org/curated/pt/776101467990969768/pdf/103668-BRI-Cost-of-Fires-Knowledge-Note-PUBLIC-ADD-NEW-SERIES-Indonesia-Sustainable-Landscapes-Knowledge-Note.pdf)
+In Southeast Asia (Indonesia): US$16.1 billion. was the cost to Indonesia of the forest and peatland fires of June to October 2015. (World Bank, 2016, https://documents1.worldbank.org/curated/en/776101467990969768/pdf/103668-BRI-Cost-of-Fires-Knowledge-Note-PUBLIC-ADD-NEW-SERIES-Indonesia-Sustainable-Landscapes-Knowledge-Note.pdf)
 
 Where it plays out: The dry-season burning belt of northern Thailand, Myanmar and Laos, and Indonesia’s peatlands.
 
@@ -936,7 +936,7 @@ Where it breaks: Deep emission cuts, Fire-smart landscapes
 
 Solutions to try (a suggested match, not a measured effect): Locally calibrated impact-based heat-warning triggers (https://beattheheat.asia/solutions/#nonphysical_impact_based_warning); Pre-agreed heat anticipatory action and forecast finance (https://beattheheat.asia/solutions/#nonphysical_forecast_based_finance); Pooled pre-arranged finance for heat action (https://beattheheat.asia/solutions/#nonphysical_pooled_risk_finance)
 
-- Indonesia’s forest and peatland fires of June to October 2015 cost the country an estimated US$16.1 billion. (World Bank, 2016, https://documents1.worldbank.org/curated/pt/776101467990969768/pdf/103668-BRI-Cost-of-Fires-Knowledge-Note-PUBLIC-ADD-NEW-SERIES-Indonesia-Sustainable-Landscapes-Knowledge-Note.pdf) Type: Agency report, economic estimate. Where: Indonesia. Scale: National, one fire season (2015). Limit: One exceptional year, in an El Niño; costs in other years differ.
+- Indonesia’s forest and peatland fires of June to October 2015 cost the country an estimated US$16.1 billion. (World Bank, 2016, https://documents1.worldbank.org/curated/en/776101467990969768/pdf/103668-BRI-Cost-of-Fires-Knowledge-Note-PUBLIC-ADD-NEW-SERIES-Indonesia-Sustainable-Landscapes-Knowledge-Note.pdf) Type: Agency report, economic estimate. Where: Indonesia. Scale: National, one fire season (2015). Limit: One exceptional year, in an El Niño; costs in other years differ.
 
 - Climate change and land-use change are making wildfires worse. Extreme fires are projected to rise by up to 14% by 2030 and 50% by the end of the century. (UNEP and GRID-Arendal, 2022, https://www.unep.org/resources/report/spreading-wildfire-rising-threat-extraordinary-landscape-fires) Type: Agency report, with projections. Where: Global. Scale: Global assessment. Limit: Global projections; not broken down for Asian countries.
 
@@ -1196,7 +1196,7 @@ Solutions to try (a suggested match, not a measured effect): Women-led co-design
 
 - Across 28 cities in 9 countries, greening in the 1990s and 2000s was strongly linked to gentrification between 2000 and 2016 in 17 of them. (Anguelovski et al., Nature Communications, 2022, https://doi.org/10.1038/s41467-022-31572-1) Type: Peer-reviewed study. Where: 28 cities in Europe and North America. Scale: 28 cities, 2000–2016. Limit: No Asian cities in the sample. Our reading: We treat it as a warning for Asia’s greening plans, not proof it happens the same way there.
 
-- Green space tends to favour wealthier neighbourhoods, and new parks meant to fix that can raise housing costs and displace the residents they were meant to help. Small, local projects are more likely to reach those who need them. (Wolch, Byrne and Newell, Landscape and Urban Planning, 2014, https://urbansustainability.seas.umich.edu/wp-content/uploads/2014/06/Making-cities-just-green-enough.pdf) Type: Peer-reviewed review. Where: Mostly the United States. Scale: Literature review. Limit: Mostly US evidence.
+- Green space tends to favour wealthier neighbourhoods, and new parks meant to fix that can raise housing costs and displace the residents they were meant to help. Small, local projects are more likely to reach those who need them. (Wolch, Byrne and Newell, Landscape and Urban Planning, 2014, https://doi.org/10.1016/j.landurbplan.2014.01.017) Type: Peer-reviewed review. Where: Mostly the United States. Scale: Literature review. Limit: Mostly US evidence.
 
 - Fieldwork on how recent gentrification in Bangkok, including green urban renewal, affects the city’s lower-income residents. (Endo, The Developing Economies, 2026, https://onlinelibrary.wiley.com/doi/10.1111/deve.70013) Type: Peer-reviewed field study. Where: Bangkok, Thailand. Scale: One city, fieldwork. Limit: Qualitative; it does not measure how many people moved.
 
@@ -1424,7 +1424,7 @@ Could help interrupt: The green-displacement loop
 
 In practice: In Bangkok, the Baan Mankong programme of the Community Organizations Development Institute gives canal-side communities subsidies and cheap loans to secure land and rebuild their homes. Along Khlong Lat Phrao, where flood works needed the canal banks, communities planned their own moves and rebuilding instead of being evicted.
 
-- Guide: Urban green space, public health and environmental justice: the challenge of making cities “just green enough” (Wolch, Byrne and Newell, Landscape and Urban Planning, 2014) https://urbansustainability.seas.umich.edu/wp-content/uploads/2014/06/Making-cities-just-green-enough.pdf
+- Guide: Urban green space, public health and environmental justice: the challenge of making cities “just green enough” (Wolch, Byrne and Newell, Landscape and Urban Planning, 2014) https://doi.org/10.1016/j.landurbplan.2014.01.017
 
 - Guide: Greening without gentrification: anti-displacement strategies for parks (Urban Waters Learning Network) https://urbanwaterslearningnetwork.org/wp-content/uploads/2019/09/Parks-Related-Anti-Displacement-Strategies-report-with-appendix.pdf
 
@@ -2750,7 +2750,7 @@ Each organisation is marked with its main side in a heat alliance. Demand: Holds
 
 - Good Business Lab (Supply): Researching heat, health and gender in India’s and Bangladesh’s garment sector, 2025–2027. (https://lirneasia.net/futureworksasia/projects/heat-health-and-gender/)
 
-- Integrated Research and Action for Development (IRADe) (Supply): Develops heat hotspot assessments and gender-sensitive heat action plans in India, Bangladesh and Sri Lanka. (https://irade.org/website/ongoing-projects-2/)
+- Integrated Research and Action for Development (IRADe) (Supply): Develops heat hotspot assessments and gender-sensitive heat action plans in India, Bangladesh and Sri Lanka. (https://irade.org/)
 
 - Indian Institute for Human Settlements (IIHS) (Supply): Researches urban heat and tests passive and low-energy cooling shelters that give outdoor workers safe places to rest and recover. (https://iihs.co.in/publication/evaluating-indoor-thermal-resilience-of-passive-and-low-power-cooling-shelters-for-outdoor-workers-in-india/)
 
@@ -2882,7 +2882,7 @@ Each organisation is marked with its main side in a heat alliance. Demand: Holds
 
 - HelpAge International (Supply): Works with older people’s associations in Bangladesh and Pakistan on disaster risk, including heatwaves and early warning, and speaks up for older farm labourers and street vendors exposed to heat. (https://helpage.org/tags/bangladesh)
 
-- Centre for Disability in Development (CDD), with CBM (Supply): Runs disability-inclusive disaster risk and climate adaptation in Bangladesh, including coastal sub-districts, where heatwaves are among the hazards. A heat-specific programme is not confirmed. (https://cbm.org/news/news-initiatives/news-hua/persons-with-disabilities-in-the-context-of-climate-change-adaptation-in-bangladesh)
+- Centre for Disability in Development (CDD), with CBM (Supply): Runs disability-inclusive disaster risk and climate adaptation in Bangladesh, including coastal sub-districts, where heatwaves are among the hazards. A heat-specific programme is not confirmed. (https://www.cbm.org/)
 
 - Rujak Center for Urban Studies (Supply): Leads Be-Housing research on urban-poor housing and heat adaptation. (https://rujak.org)
 
@@ -3056,7 +3056,7 @@ Each organisation is marked with its main side in a heat alliance. Demand: Holds
 
 - Bangladesh Bank (Platform): Steers credit to farmers after climate shocks through its refinancing schemes. In June 2026 it told banks to prioritise farmers hit by heavy rain. Heat is not yet among the shocks that trigger this support. (https://www.bssnews.net/news/391823)
 
-- Nepal Rastra Bank (Platform): Sets environmental and social risk rules for banks (2018), and since October 2024 a green finance taxonomy that sorts lending into green, amber and red. (https://www.sbfnetwork.org/wp-content/assets/policy-library/1440_Nepal_Guideline_on_ESRM_for_Banks_and_FIs_2018_NRB.pdf)
+- Nepal Rastra Bank (Platform): Sets environmental and social risk rules for banks (2018), and since October 2024 a green finance taxonomy that sorts lending into green, amber and red. (https://www.nrb.org.np/)
 
 - Reserve Bank of India (Platform): Its 2018 directions let banks reschedule loans and pause repayments in areas hit by notified calamities, which in India now include heatwaves. A 2024 draft framework would require banks to disclose their climate-related financial risks. (https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10478)
 
@@ -3124,7 +3124,7 @@ Each organisation is marked with its main side in a heat alliance. Demand: Holds
 
 - National Institute for Health and Care Research (NIHR) (Supply): Funds HEAT-PROTECT in Andhra Pradesh (2023–2027), building heat adaptation into primary healthcare for vulnerable groups. (https://ghrcentre-ncdec.nihr.ac.uk/project/heat-exposure-adaptation-tools-protecting-vulnerable-g/)
 
-- Indian Council of Medical Research (ICMR) (Supply): Funds medical research including a 2025 study of heat-health risk communication among construction workers, manual labourers and street vendors. (https://smcw.edu.in/assets/pdf/2025/Extramural%20Funded%20Research%20Projects.pdf)
+- Indian Council of Medical Research (ICMR) (Supply): Funds medical research including a 2025 study of heat-health risk communication among construction workers, manual labourers and street vendors. (https://www.icmr.gov.in/)
 
 - Swiss National Science Foundation (SNSF) (Supply): Runs a joint 2026 call with India’s Ministry of Earth Sciences on mountain hazards that explicitly covers heatwaves and their links to forests and horticulture. (https://www.snf.ch/media/en/sMJbvJyKnKsYuNTK/call_doc_SNSF-MoES_2026.pdf)
 
@@ -4432,7 +4432,7 @@ Follow one worker’s money through a heatwave week, build protection, then test
 
 - In March 2024 the Department of Meteorology issued heat advisories for the Western Province and others, urging people to stay hydrated and work in the shade. (News 1st, 2024, https://english.newsfirst.lk/2024/03/04/heat-advisory-issued-by-sri-lanka-s-met-dept)
 
-- In 2023, when fish traders at Peliyagoda raised concerns about the price of ice, the Ministry of Fisheries brought traders and ice suppliers together and agreed a lower price: Rs 650 for 50 kg instead of Rs 850. (Ministry of Fisheries, 2023, https://www.fisheries.gov.lk/web/index.php/en/information/news/878-2023-06-07-06-56-03)
+- In 2023, when fish traders at Peliyagoda raised concerns about the price of ice, the Ministry of Fisheries brought traders and ice suppliers together and agreed a lower price: Rs 650 for 50 kg instead of Rs 850. (Ministry of Fisheries, 2023 (the original notice is no longer online), https://www.fisheries.gov.lk/)
 
 - A national strategy on fish loss names the high cost of energy for fishing, ice and transport as a weakness, and aims to cut quality loss in the multi-day fishery by 30% by 2033. (FAO: food loss and waste in fish value chains, Sri Lanka, https://www.fao.org/flw-in-fish-value-chains/projects/sri-lanka/multidimensional-solutions-strategy/en)
 
@@ -4470,7 +4470,7 @@ Follow one worker’s money through a heatwave week, build protection, then test
 
 - School heads can suspend in-person classes when the heat index is high, under a 2022 Department of Education order. (Manila Bulletin, 2024, https://mb.com.ph/2024/3/31/dep-ed-confirms-suspension-of-classes-in-several-areas-due-to-severe-heat)
 
-- PAGASA recorded a heat index of 46 °C at NAIA in Pasay City on 24 April 2024, the highest in Metro Manila that year. (PAGASA heat index summary, https://pubfiles.pagasa.dost.gov.ph/tamss/weather/heat_index_summary.pdf)
+- PAGASA recorded a heat index of 46 °C at NAIA in Pasay City on 24 April 2024, the highest in Metro Manila that year. (PAGASA heat index (the 2024 summary is no longer online), https://www.pagasa.dost.gov.ph/weather/heat-index)
 
 - The Department of Labor and Employment has reminded employers to adjust rest breaks, provide free drinking water and ventilate workplaces in the hot season. Self-employed vendors work outside these workplace measures. (The Manila Times, 2024, https://manilatimes.net/2024/03/24/news/national/dole-protect-workers-from-heat-stress/1938252)
 

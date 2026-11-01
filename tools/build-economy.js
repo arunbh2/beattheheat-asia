@@ -411,7 +411,7 @@ const flows = shell("flows", "The heat economy · Follow the money", "Where fund
           </div>
           <p class="fl-caution" data-fl-caution hidden>Amounts are of different kinds (investment rounds, approved envelopes, credit limits, guarantees) and are not a total. Funding without a published amount drops out of this view.</p>
           <div class="fl-stages" aria-hidden="true"><span>Who funds</span><span>How</span><span>What it builds</span><span>Cycles it could help break</span></div>
-          <div class="fl-chart" data-fl-chart role="img" aria-label="Flow of traced funding from kinds of funder, through kinds of funding and kinds of protection, to the cycles of heat they could help break. A full list follows the chart."></div>
+          <div class="fl-chart" data-fl-chart role="group" aria-label="Flow of traced funding from kinds of funder, through kinds of funding and kinds of protection, to the cycles of heat they could help break. A full list follows the chart."></div>
           <p class="fl-hint">Select any band or label to follow it from end to end. A piece of funding linked to several cycles is shared equally between them.</p>
           <div class="fl-panel" data-fl-panel aria-live="polite"></div>
           <noscript><p class="he-note">The interactive flow needs JavaScript. <a href="/heat-economy/money/#deals">Every piece of funding is listed here</a>.</p></noscript>

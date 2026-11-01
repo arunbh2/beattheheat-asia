@@ -3582,7 +3582,7 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 .atl-map{position:relative;aspect-ratio:1000/721;overflow:hidden;border-radius:12px}
 .atl-base{position:absolute;inset:0;width:100%;height:100%;opacity:.9}
 .atl-hw,.atl-ms,.atl-city{position:absolute;transform:translate(-50%,-50%);cursor:pointer;border:0;padding:0;font:inherit}
-.atl-hw{aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,rgba(242,120,60,.75),rgba(242,120,60,.28) 60%,rgba(242,120,60,0) 72%);opacity:.55;transition:opacity .4s}
+.atl-hw{aspect-ratio:1;min-width:24px;border-radius:50%;background:radial-gradient(circle,rgba(242,120,60,.75),rgba(242,120,60,.28) 60%,rgba(242,120,60,0) 72%);opacity:.55;transition:opacity .4s}
 .atl-hw.is-now{opacity:1;animation:atl-pulse 2.2s ease-out infinite}.atl-hw.is-sel{outline:2px solid #E8622C;outline-offset:2px}
 @keyframes atl-pulse{0%{transform:translate(-50%,-50%) scale(.85)}60%{transform:translate(-50%,-50%) scale(1.06)}100%{transform:translate(-50%,-50%) scale(.85)}}
 .atl-ms{width:13px;height:13px;background:#1f6f4a;border:2px solid #fff;border-radius:2px;transform:translate(-50%,-50%) rotate(45deg);opacity:.75;box-shadow:0 1px 3px rgba(0,0,0,.25);z-index:2}
@@ -4035,3 +4035,11 @@ html:not(.rf-js) .rf-co-tabs{display:none}
 .ix-p.is-partly{border-color:#C98A12}.ix-p.is-partly .ix-res{color:#8a6a2a}.ix-sum{grid-template-columns:repeat(3,1fr)!important}
 .ix-fix[hidden]{display:none}
 .ix-hero__in{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:24px;align-items:center}.ix-art{width:100%;max-width:380px;justify-self:center}@media (max-width:760px){.ix-hero__in{grid-template-columns:1fr}.ix-art{max-width:240px;order:-1}}
+
+/* film captions sit on a dark page in News */
+.news-page .cs-ex figcaption{color:#C9C2B6}.news-page .cs-ex figcaption a{color:#FAF7F2}
+/* Atlas: every heatwave as a plain list, for small screens and keyboards where map markers sit close together */
+.atl-list{margin:18px 0 6px}.atl-list__h{font-size:.78rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--ember,#B8401A);margin:0 0 8px}
+.atl-list ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.atl-list a{display:inline-flex;align-items:center;gap:6px;min-height:36px;padding:6px 12px;border:1px solid rgba(22,32,43,.18);border-radius:999px;color:var(--ink,#16202B);text-decoration:none;font-size:.88rem;background:#fff}
+.atl-list a:hover{border-color:var(--orange,#F26430)}.atl-list a b{color:var(--ember,#B8401A)}
