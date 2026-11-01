@@ -77,7 +77,7 @@ const SOURCES = {
   },
   async openalex(from, to) {
     const abs = inv => { if (!inv) return ""; const w = []; for (const [k, ps] of Object.entries(inv)) ps.forEach(p => { w[p] = k; }); return w.join(" "); };
-    const j = await get("https://api.openalex.org/works?per-page=100&sort=publication_date:desc&filter=" + encodeURIComponent(`from_created_date:${from},to_created_date:${to},title_and_abstract.search:${TERMS.slice(0, 9).map(t => t.replace(/[^a-z -]/gi, "")).join("|")}`) + "&select=" + ["title", "abstract_inverted_index", "publication_date", "doi", "primary_location", "type", "authorships"].join(",") +
+    const j = await get("https://api.openalex.org/works?per-page=100&sort=publication_date:desc&filter=" + encodeURIComponent(`from_publication_date:${from},to_publication_date:${to},title_and_abstract.search:${TERMS.slice(0, 9).map(t => t.replace(/[^a-z -]/gi, "")).join("|")}`) + "&select=" + ["title", "abstract_inverted_index", "publication_date", "doi", "primary_location", "type", "authorships"].join(",") +
       "&mailto=hello@beattheheat.asia" + (process.env.OPENALEX_API_KEY ? "&api_key=" + encodeURIComponent(process.env.OPENALEX_API_KEY) : ""));
     return (j.results || []).map(x => ({ title: clean(x.title), abstract: clean(abs(x.abstract_inverted_index)), date: x.publication_date || "", doi: (x.doi || "").replace("https://doi.org/", "").toLowerCase(),
       url: x.doi || (x.primary_location && x.primary_location.landing_page_url) || x.id, venue: (x.primary_location && x.primary_location.source && x.primary_location.source.display_name) || "",
