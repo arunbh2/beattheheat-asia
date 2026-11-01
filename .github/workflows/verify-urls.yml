@@ -10,6 +10,9 @@ on:
       out:
         description: Where to write the results (JSON)
         required: true
+      archive:
+        description: Find or save archived copies (yes), or check status only (no)
+        default: "yes"
 permissions:
   contents: write
 jobs:
@@ -22,6 +25,8 @@ jobs:
         with:
           node-version: 22
       - run: node tools/verify-urls.js "${{ inputs.list }}" "${{ inputs.out }}"
+        env:
+          NO_ARCHIVE: ${{ inputs.archive == 'no' && '1' || '0' }}
       - name: Commit the results
         run: |
           git config user.name "github-actions[bot]"
