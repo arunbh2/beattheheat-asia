@@ -60,7 +60,9 @@ function extract(rec) {
 // screening: in scope, set in South or Southeast Asia, and reporting new data
 function screen(rec) {
   const text = [rec.title, rec.abstract].filter(Boolean).join(". ");
-  const streams = Object.entries(STREAMS).filter(([, s]) => s.re.test(text)).map(([k]) => k);
+  // every stream is about heat: a word like "shade" or "finance" alone is not enough
+  const heat = /\b(heat\w*|hot|temperatures?|thermal|cooling|warming|wet[- ]bulb|WBGT)\b/i.test(text);
+  const streams = heat ? Object.entries(STREAMS).filter(([, s]) => s.re.test(text)).map(([k]) => k) : [];
   const asia = PLACE_RE.test(text); PLACE_RE.lastIndex = 0;
   const empirical = EMPIRICAL.test(text);
   const reviewOnly = /\b(systematic review|scoping review|narrative review|meta-analysis|commentary|editorial|perspective)\b/i.test(rec.title || "");

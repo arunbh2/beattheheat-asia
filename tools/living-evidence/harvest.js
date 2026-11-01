@@ -25,10 +25,15 @@ function isoWeek(d) {
   t.setUTCDate(t.getUTCDate() + 4 - day); const y = t.getUTCFullYear(), w = Math.ceil(((t - Date.UTC(y, 0, 1)) / 864e5 + 1) / 7);
   return `${y}-W${String(w).padStart(2, "0")}`;
 }
-async function get(url, as = "json", tries = 3) {
+// polite retries: services that are busy (429, 503) are given time, and their Retry-After is honoured
+async function get(url, as = "json", tries = 5) {
   for (let i = 1; i <= tries; i++) {
-    try { const r = await fetch(url, { headers: UA, signal: AbortSignal.timeout(45000) }); if (!r.ok) throw new Error("HTTP " + r.status); return as === "json" ? await r.json() : await r.text(); }
-    catch (e) { if (i === tries) throw e; await sleep(3000 * i); }
+    try {
+      const r = await fetch(url, { headers: UA, signal: AbortSignal.timeout(60000) });
+      if (r.status === 429 || r.status >= 500) { const ra = +r.headers.get("retry-after") || 0; throw Object.assign(new Error("HTTP " + r.status), { wait: Math.min(ra * 1000, 60000) }); }
+      if (!r.ok) throw Object.assign(new Error("HTTP " + r.status), { final: true });
+      return as === "json" ? await r.json() : await r.text();
+    } catch (e) { if (i === tries || e.final) throw e; await sleep(e.wait || 8000 * i); }
   }
 }
 const TERMS = ["heatwave", "heat wave", "extreme heat", "heat stress", "heat-related", "heat exposure", "heat illness", "heatstroke", "cool roof", "passive cooling", "urban heat island", "thermal comfort", "parametric insurance heat"];
@@ -38,7 +43,7 @@ const q = s => s.includes(" ") ? `"${s}"` : s;
 const SOURCES = {
   async europepmc(from, to) {
     const query = `(${TERMS.map(t => `TITLE_ABS:${q(t)}`).join(" OR ")}) AND (${PLACES.map(q).join(" OR ")}) AND FIRST_PDATE:[${from} TO ${to}]`;
-    const j = await get("https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&resultType=core&pageSize=200&query=" + encodeURIComponent(query));
+    const j = await get("https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&resultType=core&pageSize=100&query=" + encodeURIComponent(query));
     return ((j.resultList && j.resultList.result) || []).map(x => ({ title: clean(x.title), abstract: clean(x.abstractText), date: x.firstPublicationDate || "",
       doi: (x.doi || "").toLowerCase(), url: x.doi ? "https://doi.org/" + x.doi : `https://europepmc.org/article/${x.source}/${x.id}`,
       venue: (x.journalInfo && x.journalInfo.journal && x.journalInfo.journal.title) || x.bookOrReportDetails?.publisher || "", kind: x.source === "PPR" ? "preprint" : "article",
@@ -48,7 +53,7 @@ const SOURCES = {
     const out = [];
     // general journals, then the DOI prefixes of SSRN (10.2139), the World Bank (10.1596) and ADB (10.22617)
     for (const [label, extra] of [["Crossref", ""], ["SSRN via Crossref", ",prefix:10.2139"], ["World Bank via Crossref", ",prefix:10.1596"], ["ADB via Crossref", ",prefix:10.22617"]]) {
-      const j = await get(`https://api.crossref.org/works?rows=100&query.bibliographic=${encodeURIComponent("heat " + PLACES.slice(0, 12).join(" "))}&filter=${encodeURIComponent(`from-index-date:${from},until-index-date:${to}${extra}`)}&select=DOI,title,abstract,container-title,published,type,author,publisher&mailto=hello@beattheheat.asia`);
+      const j = await get(`https://api.crossref.org/works?rows=100&query=${encodeURIComponent("heatwave \"heat stress\" \"extreme heat\" \"heat exposure\" \"urban heat\" \"thermal comfort\" \"cool roof\" Asia India Bangladesh")}&filter=${encodeURIComponent(`from-created-date:${from},until-created-date:${to}${extra}`)}&select=DOI,title,abstract,container-title,published,type,author,publisher&mailto=hello@beattheheat.asia`);
       for (const x of (j.message && j.message.items) || []) out.push({ title: clean((x.title || [])[0]), abstract: clean(x.abstract), doi: (x.DOI || "").toLowerCase(), url: "https://doi.org/" + x.DOI,
         date: ((x.published && x.published["date-parts"] && x.published["date-parts"][0]) || []).map(n => String(n).padStart(2, "0")).join("-"),
         venue: (x["container-title"] || [])[0] || x.publisher || "", kind: /posted-content/.test(x.type) || /^10\.2139/.test(x.DOI) ? "preprint" : x.type === "report" ? "report" : "article",
@@ -66,8 +71,7 @@ const SOURCES = {
   },
   async openalex(from, to) {
     const abs = inv => { if (!inv) return ""; const w = []; for (const [k, ps] of Object.entries(inv)) ps.forEach(p => { w[p] = k; }); return w.join(" "); };
-    const j = await get("https://api.openalex.org/works?per-page=200&sort=publication_date:desc&filter=" + encodeURIComponent(`from_created_date:${from},to_created_date:${to}`) +
-      "&search=" + encodeURIComponent(`(${TERMS.slice(0, 9).map(q).join(" OR ")}) AND (${PLACES.map(q).join(" OR ")})`) + "&mailto=hello@beattheheat.asia");
+    const j = await get("https://api.openalex.org/works?per-page=100&sort=publication_date:desc&filter=" + encodeURIComponent(`from_created_date:${from},to_created_date:${to},title_and_abstract.search:${TERMS.slice(0, 9).map(t => t.replace(/[^a-z -]/gi, "")).join("|")}`) + "&mailto=hello@beattheheat.asia");
     return (j.results || []).map(x => ({ title: clean(x.title), abstract: clean(abs(x.abstract_inverted_index)), date: x.publication_date || "", doi: (x.doi || "").replace("https://doi.org/", "").toLowerCase(),
       url: x.doi || (x.primary_location && x.primary_location.landing_page_url) || x.id, venue: (x.primary_location && x.primary_location.source && x.primary_location.source.display_name) || "",
       kind: x.type === "preprint" ? "preprint" : x.type === "report" ? "report" : "article", by: ((x.authorships || [])[0] && x.authorships[0].author.display_name.split(" ").slice(-1)[0]) || "",
