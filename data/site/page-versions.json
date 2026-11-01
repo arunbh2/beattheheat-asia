@@ -16,7 +16,7 @@
   "changed": "2026-10-01"
  },
  "/act/": {
-  "hash": "416a4d46e4fd3c3a",
+  "hash": "c2554516c19a6a33",
   "changed": "2026-11-01"
  },
  "/actions/": {
@@ -52,7 +52,7 @@
   "changed": "2026-11-01"
  },
  "/cities/ahmedabad/": {
-  "hash": "c3f455a9edcbf2c3",
+  "hash": "6c4f2088cb44754a",
   "changed": "2026-11-01"
  },
  "/cities/bangkok/": {
@@ -64,7 +64,7 @@
   "changed": "2026-11-01"
  },
  "/cities/delhi/": {
-  "hash": "85dbca5c729158b4",
+  "hash": "194b12c9dc91c62e",
   "changed": "2026-11-01"
  },
  "/cities/dhaka/": {
@@ -88,7 +88,7 @@
   "changed": "2026-11-01"
  },
  "/cities/mumbai/": {
-  "hash": "b6ab0d942f7285b0",
+  "hash": "8d6003efd6111e54",
   "changed": "2026-11-01"
  },
  "/cities/phnompenh/": {
@@ -116,7 +116,7 @@
   "changed": "2026-11-01"
  },
  "/countries/india/": {
-  "hash": "ffc4b88b04e7afdc",
+  "hash": "7bd9a94a8127a5ea",
   "changed": "2026-11-01"
  },
  "/countries/indonesia/": {
@@ -411,6 +411,18 @@
   "hash": "8f76b220bfcb7a89",
   "changed": "2026-11-01"
  },
+ "/resources/": {
+  "hash": "ba8bd1ed089ae731",
+  "changed": "2026-10-01"
+ },
+ "/resources/heat-action-plans/": {
+  "hash": "8afbb242c31b0123",
+  "changed": "2026-10-01"
+ },
+ "/resources/heat-action-plans/india/": {
+  "hash": "61fc69f13691601f",
+  "changed": "2026-11-01"
+ },
  "/solutions/": {
   "hash": "b0d424ff93ae02f1",
   "changed": "2026-11-01"
@@ -444,7 +456,7 @@
   "changed": "2026-11-01"
  },
  "/worked-plans/": {
-  "hash": "923929577dca89e6",
+  "hash": "d5a4564a3dfa88e7",
   "changed": "2026-11-01"
  }
 }

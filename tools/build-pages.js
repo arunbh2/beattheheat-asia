@@ -576,6 +576,7 @@ fs.writeFileSync(path.join(ROOT, "404.html"), page("", "Page not found", "This p
 require("./build-live.js")({ page, write, hero, esc, V, D, ROOT });
 require("./build-brief-health.js")({ page, write, esc, D, ROOT });
 require("./build-intersections.js")({ page, write, esc, V, D });
+require("./build-hap-archive.js")({ page, write, esc, V, ROOT });
 
 // ---- the search index: pages, places, cycles, glossary terms, heatwaves and organisations ----
 function searchIndex() {

@@ -4043,3 +4043,42 @@ html:not(.rf-js) .rf-co-tabs{display:none}
 .atl-list ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
 .atl-list a{display:inline-flex;align-items:center;gap:6px;min-height:36px;padding:6px 12px;border:1px solid rgba(22,32,43,.18);border-radius:999px;color:var(--ink,#16202B);text-decoration:none;font-size:.88rem;background:#fff}
 .atl-list a:hover{border-color:var(--orange,#F26430)}.atl-list a b{color:var(--ember,#B8401A)}
+
+/* ---- India heat action plan archive (/resources/heat-action-plans/india/, tools/build-hap-archive.js) ---- */
+.hap-bar[hidden],.hap-list[hidden],.hap-doc[hidden],.hap-none[hidden]{display:none}
+.hap-sec{padding-top:8px;padding-bottom:28px}.hap-p{max-width:72ch;color:var(--grey-700);line-height:1.6}
+.hap-band{background:linear-gradient(180deg,#F6EFE4,#FAF7F2);padding:10px 0 18px;margin-top:12px}.hap-band--quiet{background:#F3EFE8}
+.hap-sum{margin-top:8px}.hap-sum span{font-size:.88rem;line-height:1.35;color:var(--grey-700)}
+.hap-bar{align-items:end}.hap-bar label{flex:1 1 170px}.hap-bar__q{flex:2 1 300px}.hap-bar__q input{width:100%}
+.hap-reset{font:inherit;font-size:.9rem;font-weight:700;min-height:40px;padding:8px 14px;border-radius:999px;border:1.5px solid var(--ink);background:#fff;color:var(--ink);cursor:pointer}
+.hap-reset:hover:not(:disabled){background:var(--ink);color:#fff}.hap-reset:disabled{opacity:.45;cursor:default}
+.hap-reset:focus-visible,.hap-doc a:focus-visible,.hap-dl a:focus-visible{outline:3px solid var(--orange);outline-offset:2px}
+.hap-years{font-size:.88rem;margin:0 0 14px}
+.hap-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,360px),1fr));gap:14px}
+.hap-doc{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 18px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.hap-doc__top{display:flex;flex-wrap:wrap;gap:6px}
+.hap-type,.hap-flag{display:inline-block;font-size:.72rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:999px}
+.hap-type--hap{background:#FBE9DF;color:#8F3212}.hap-type--embedded-heat-health-plan{background:#E2F1EE;color:#165C55}
+.hap-type--national-plan{background:#E3EEF5;color:#22536F}.hap-type--guidance{background:#ECEAE6;color:#39424D}.hap-type--review{background:#fff;color:#8F3212;border:1.5px dashed #8F3212}
+.hap-flag{background:#fff;color:#39424D;border:1px solid #C9C2B6;text-transform:none;letter-spacing:0;font-weight:700}
+.hap-doc__t{margin:2px 0 0;font-size:1.05rem;line-height:1.3;overflow-wrap:anywhere}
+.hap-doc__meta{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;margin:0;font-size:.88rem}.hap-doc__meta div{display:contents}
+.hap-doc__meta dt{color:var(--grey-700);font-weight:700}.hap-doc__meta dd{margin:0;overflow-wrap:anywhere}.hap-doc__meta small{color:var(--grey-700)}
+.hap-doc__note{margin:0;font-size:.86rem;line-height:1.5;color:var(--grey-700);background:#FAF7F2;border-left:3px solid #E8622C;padding:6px 10px;border-radius:0 8px 8px 0}
+.hap-doc__links{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin:auto 0 0;padding-top:4px}
+.hap-doc__links a{font-size:.88rem;font-weight:700;color:var(--ink);text-decoration:underline;text-decoration-color:var(--orange);text-underline-offset:3px}
+.hap-doc__links a.hap-pdf{display:inline-flex;align-items:center;min-height:40px;padding:8px 16px;border-radius:999px;background:var(--ink);color:#fff;text-decoration:none}
+.hap-doc__links a.hap-pdf:hover{background:#B8401A}
+.hap-doc__id{margin:0;font-size:.74rem;color:var(--grey-700);overflow-wrap:anywhere}
+.hap-none{padding:28px;text-align:center;background:#fff;border-radius:14px;border:1px dashed #C9C2B6}
+.hap-method{max-width:78ch;padding-left:1.1em;line-height:1.6}.hap-method li{margin:0 0 10px}
+.hap-gaps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,320px),1fr));gap:10px}
+.hap-gap{background:#fff;border:1px dashed #C9C2B6;border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:4px;font-size:.88rem;min-width:0}
+.hap-gap b{font-size:.95rem;overflow-wrap:anywhere}.hap-gap__where{color:var(--grey-700);font-weight:600}.hap-gap__why{line-height:1.45}
+.hap-gap__src a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--orange);text-underline-offset:3px}
+.hap-dl{list-style:none;margin:0 0 14px;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,280px),1fr));gap:12px}
+.hap-dl a{display:flex;flex-direction:column;gap:4px;height:100%;padding:14px 16px;border-radius:14px;background:#fff;border:1.5px solid var(--ink);color:var(--ink);text-decoration:none}
+.hap-dl a:hover{border-color:var(--orange)}.hap-dl span{font-size:.88rem;color:var(--grey-700)}.hap-dl small{font-size:.76rem;color:var(--grey-700);overflow-wrap:anywhere}
+@media (max-width:640px){.hap-bar label{flex:1 1 100%}.hap-bar select{width:100%}.hap-reset{width:100%}.hap-sum{grid-template-columns:repeat(2,1fr)}}
+@media print{.hap-bar,.hap-doc__links a.hap-pdf{display:none}.hap-doc{break-inside:avoid}}
+.hap-sec .ix-h3{margin:26px 0 6px}
