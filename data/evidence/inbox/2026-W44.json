@@ -1,0 +1,218 @@
+{
+ "week": "2026-W44",
+ "harvested": "2026-11-01T11:27:02.283Z",
+ "window": {
+  "from": "2026-10-24",
+  "to": "2026-11-01"
+ },
+ "sources": {
+  "europepmc": {
+   "ok": false,
+   "error": "HTTP 503: {\"errCode\":503,\"errMsg\":\"Search service is temporarily unavailable. Please retry later.\"}"
+  },
+  "crossref": {
+   "ok": true,
+   "found": 125
+  },
+  "arxiv": {
+   "ok": true,
+   "found": 0
+  },
+  "openalex": {
+   "ok": false,
+   "error": "HTTP 429: {\"error\":\"Plan upgrade required\",\"message\":\"The \\\"from_created_date:2026-10-24\\\" filter is part of daily sync, which comes with the Member+ and Partne"
+  },
+  "worldbank": {
+   "ok": true,
+   "found": 0
+  },
+  "who": {
+   "ok": true,
+   "found": 49
+  }
+ },
+ "counts": {
+  "found": 174,
+  "distinct": 162,
+  "new": 162,
+  "kept": 3,
+  "set_aside": 159
+ },
+ "candidates": [
+  {
+   "key": "doi:10.64898/2026.10.23.26366352",
+   "title": "Prenatal extreme heat exposure and neonatal mortality in Bangladesh, 2015 to 2025: a national birth-history study",
+   "url": "https://doi.org/10.64898/2026.10.23.26366352",
+   "doi": "10.64898/2026.10.23.26366352",
+   "date": "2026-10-26",
+   "venue": "openRxiv",
+   "kind": "preprint",
+   "first_author": "Hoque",
+   "found_in": [
+    "Crossref"
+   ],
+   "streams": [
+    "heat-health"
+   ],
+   "suggested": {
+    "sample_size": {
+     "value": "1,000 births",
+     "quote": "Per 5 extreme heat days, its adjusted rate ratio was 1.06 (0.98 to 1.15), a risk difference of 1.4 per 1,000 births (-0.6 to 3.3)."
+    },
+    "geography": {
+     "value": "Bangladesh; South Asia",
+     "quote": ""
+    },
+    "agro_climatic_zone": null,
+    "effect_size_c": {
+     "value": "1 degree C",
+     "quote": "Without control for calendar month of birth, each 1 degree C higher mean third trimester maximum temperature was associated with lower mortality (rate ratio 0.96, 0.93 to 0.99)."
+    },
+    "effect_size_pct": {
+     "value": "rate ratio 0.96",
+     "quote": "Without control for calendar month of birth, each 1 degree C higher mean third trimester maximum temperature was associated with lower mortality (rate ratio 0.96, 0.93 to 0.99)."
+    },
+    "unit_cost": null,
+    "failure_modes": [
+     {
+      "value": "did not",
+      "quote": "The confidence intervals did not exclude modest increases in risk, and both gestational age and heat exposure were estimated with error."
+     }
+    ],
+    "design": [
+     "cross-sectional survey"
+    ],
+    "cycles": []
+   },
+   "decision": "pending",
+   "review": {
+    "cycle": "",
+    "finding": "",
+    "grade": "",
+    "where": "",
+    "sample_size": "",
+    "effect_size": "",
+    "unit_cost": "",
+    "agro_climatic_zone": "",
+    "failure_modes": "",
+    "limit": "",
+    "note": ""
+   }
+  },
+  {
+   "key": "doi:10.21203/rs.3.rs-11314189/v1",
+   "title": "Community Responses to Urban Heat Risk in Prayagraj Municipal Corporation, India",
+   "url": "https://doi.org/10.21203/rs.3.rs-11314189/v1",
+   "doi": "10.21203/rs.3.rs-11314189/v1",
+   "date": "2026-10-27",
+   "venue": "Springer Science and Business Media LLC",
+   "kind": "preprint",
+   "first_author": "Yadav",
+   "found_in": [
+    "Crossref"
+   ],
+   "streams": [
+    "heat-health"
+   ],
+   "suggested": {
+    "sample_size": {
+     "value": "422 households",
+     "quote": "The analysis is based on primary household-level data collected from 422 households through multistage cluster random sampling conducted between February and March 2026."
+    },
+    "geography": {
+     "value": "India; South Asia",
+     "quote": ""
+    },
+    "agro_climatic_zone": null,
+    "effect_size_c": null,
+    "effect_size_pct": null,
+    "unit_cost": null,
+    "failure_modes": [
+     {
+      "value": "constraints",
+      "quote": "Qualitative field narratives were additionally incorporated to contextualise lived experiences of heat exposure and adaptation constraints."
+     }
+    ],
+    "design": [
+     "qualitative"
+    ],
+    "cycles": [
+     "school",
+     "poverty"
+    ]
+   },
+   "decision": "pending",
+   "review": {
+    "cycle": "",
+    "finding": "",
+    "grade": "",
+    "where": "",
+    "sample_size": "",
+    "effect_size": "",
+    "unit_cost": "",
+    "agro_climatic_zone": "",
+    "failure_modes": "",
+    "limit": "",
+    "note": ""
+   }
+  },
+  {
+   "key": "doi:10.53941/jhrr.2026.100029",
+   "title": "Morphology as Climate Infrastructure: Traditional Building Form, Measured Performance, and Urban Heat in Jodhpur, India",
+   "url": "https://doi.org/10.53941/jhrr.2026.100029",
+   "doi": "10.53941/jhrr.2026.100029",
+   "date": "2026-10-26",
+   "venue": "Journal of Hazards, Risk and Resilience",
+   "kind": "article",
+   "first_author": "Madapala",
+   "found_in": [
+    "Crossref"
+   ],
+   "streams": [
+    "passive-cooling"
+   ],
+   "suggested": {
+    "sample_size": {
+     "value": "n = 8000",
+     "quote": "Historic-core surface temperatures average 0.63 °C cooler than the modern expansion (n = 8000 pixels), and built-up intensity (NDBI) explains substantially more of this variance than vegetation cover (NDVI)-consistent with the weak evapotranspiration effect expected in a water-scarce climate."
+    },
+    "geography": {
+     "value": "India",
+     "quote": ""
+    },
+    "agro_climatic_zone": {
+     "value": "arid",
+     "quote": "Urban heat is intensifying across hot-arid cities, where the vegetation-based cooling strategies that work in humid climates are constrained by water scarcity."
+    },
+    "effect_size_c": {
+     "value": "0.63 °C",
+     "quote": "Historic-core surface temperatures average 0.63 °C cooler than the modern expansion (n = 8000 pixels), and built-up intensity (NDBI) explains substantially more of this variance than vegetation cover (NDVI)-consistent with the weak evapotranspiration effect expected in a water-scarce climate."
+    },
+    "effect_size_pct": null,
+    "unit_cost": null,
+    "failure_modes": null,
+    "design": [
+     "field measurement"
+    ],
+    "cycles": [
+     "cooling",
+     "squeeze"
+    ]
+   },
+   "decision": "pending",
+   "review": {
+    "cycle": "",
+    "finding": "",
+    "grade": "",
+    "where": "",
+    "sample_size": "",
+    "effect_size": "",
+    "unit_cost": "",
+    "agro_climatic_zone": "",
+    "failure_modes": "",
+    "limit": "",
+    "note": ""
+   }
+  }
+ ]
+}
