@@ -4082,3 +4082,6 @@ html:not(.rf-js) .rf-co-tabs{display:none}
 @media (max-width:640px){.hap-bar label{flex:1 1 100%}.hap-bar select{width:100%}.hap-reset{width:100%}.hap-sum{grid-template-columns:repeat(2,1fr)}}
 @media print{.hap-bar,.hap-doc__links a.hap-pdf{display:none}.hap-doc{break-inside:avoid}}
 .hap-sec .ix-h3{margin:26px 0 6px}
+/* Evidence map: studies added through the weekly evidence review (tools/living-evidence/) */
+.evm-live{display:inline-block;margin:4px 0;padding:6px 10px;border-left:3px solid #1F7A70;background:#F1F7F5;border-radius:0 8px 8px 0;font-size:.88rem;line-height:1.5}
+.evm-live small{display:block;color:var(--grey-700);margin-top:2px}.evm-live-list{padding-left:1.1em;line-height:1.55}.evm-live-list:empty{display:none}

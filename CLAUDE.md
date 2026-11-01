@@ -34,12 +34,13 @@ Counts are calculated from data at build time. Never type a count into a page; r
 - `research/YYYY-MM/`: verified research sets and link checks. They are published as files but never linked as pages.
 - `research/india-hap-archive/`: the HAP catalogue CSVs, report and downloader (see its README).
 - `media/`: films and covers. `tools/explainers/`, `tools/films/` and `tools/shorts/` build them (Piper voice, Playwright render).
-- `.github/workflows/`: data checks, link checks, news feed, source and URL verification.
+- `data/evidence/` and `tools/living-evidence/`: the weekly evidence review. A Monday job harvests studies and opens a review pull request; merging is the sign-off; accepted studies join their cycles on the Evidence map. See `data/evidence/README.md`.
+- `.github/workflows/`: data checks, link checks, news feed, source and URL verification, and the weekly evidence review.
 
 ## Every change
 1. Edit the source (data, builder or page script), never only the generated HTML.
 2. Build with `node tools/build-static.js`.
-3. Run the checks: `node tools/check-voice.js`, `node tools/check-data.js`, `node tools/build-data.js --check`, `npm run check:hap`, then `git add -A` and `node tools/check-site.js` (Playwright, tracked pages only).
+3. Run the checks: `node tools/check-voice.js`, `node tools/check-data.js`, `node tools/build-data.js --check`, `npm run check:hap`, `node tools/living-evidence/check.js`, then `git add -A` and `node tools/check-site.js` (Playwright, tracked pages only).
 4. When styles.css or a script changes, bump the cache version `?v=N` across all HTML and JS.
 5. Commit with a clear message, push to the session branch, open a PR, merge, then fast-forward the branch. Never force-push. Never run git stash or pull while a film render is writing files.
 
@@ -57,6 +58,9 @@ Counts are calculated from data at build time. Never type a count into a page; r
   - Score against `research/hap-rubric.md` into `research/hap-scores/<id>.json`.
   - Every score above 0 cites a page and a quote of 30 words or fewer.
   - When unsure, score lower with "confidence": "low".
+
+## Monthly update
+`/monthly-heat-update [YYYY-MM]` (`.claude/commands/monthly-heat-update.md`) researches, verifies and publishes the month across the whole site.
 
 ## Saving usage
 Read only the files the task needs, using the map above. Write one script to process many files instead of handling them one by one. End by listing the files changed and the checks run.

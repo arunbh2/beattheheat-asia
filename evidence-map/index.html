@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://beattheheat.asia/images/social-share-cs.jpg"><meta name="twitter:card" content="summary_large_image">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400&display=swap">
-  <link rel="stylesheet" href="/styles.css?v=166">
+  <link rel="stylesheet" href="/styles.css?v=167">
 <!--csn--><style id="csn-css">html:has(.csn){scroll-padding-top:120px}
 .csn,.csf,.csn-d,.csp{--ink:#16202B;--ink2:#39424D;--grey:#5E6570;--canvas:#FAF7F2;--sand:#F2E7D9;--line:#E6DFD4;--orange:#F26430;--ember:#B8401A;--green:#17703A;font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);line-height:1.4}
 .csn{position:sticky;top:0;z-index:60;margin:0!important;padding:0!important;max-width:none!important;display:block!important;background:rgba(250,247,242,.96);border-bottom:1px solid var(--line);-webkit-backdrop-filter:saturate(1.2) blur(10px);backdrop-filter:saturate(1.2) blur(10px)}
@@ -313,7 +313,7 @@ html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{
 </aside><!--/csn-->
 <header class="pg-hero"><div class="container"><p class="eyebrow">News and evidence</p><h1 class="pg-h1">How sure are we?</h1><p class="pg-lede">A map of what the evidence shows firmly, what it suggests, and what nobody has measured yet. It ranks our knowledge, never any country, city or organisation.</p></div></header>
     <section class="container hub">
-      <nav class="sol-jump" aria-label="On this page"><a href="#cycles">Cycle by cycle</a> · <a href="#stronger">Stronger evidence, little funding traced</a> · <a href="#questions">Questions nobody has answered yet</a> · <a href="#method">How we graded</a></nav>
+      <nav class="sol-jump" aria-label="On this page"><a href="#cycles">Cycle by cycle</a> · <a href="#stronger">Stronger evidence, little funding traced</a> · <a href="#questions">Questions nobody has answered yet</a> · <a href="#living">The weekly evidence review</a> · <a href="#method">How we graded</a></nav>
       <h2 class="hub-h" id="cycles">Cycle by cycle</h2>
       <p class="hub-p">21 vicious cycles, 66 studies. 12 cycles rest on evidence that is still emerging; they come first. Each square is one study, coloured by its kind; select a cycle to see every study and the limits it states.</p>
       <ul class="evm-key" aria-label="Kinds of evidence"><li><i class="evm-sq evm-sq--peer"></i>Peer-reviewed</li><li><i class="evm-sq evm-sq--model"></i>Modelled or projected</li><li><i class="evm-sq evm-sq--official"></i>Official and agency</li><li><i class="evm-sq evm-sq--other"></i>Other studies and reports</li><li><i class="evm-sq evm-sq--news"></i>News reports</li><li><i class="evm-asia">A</i>From South or Southeast Asia</li></ul>
@@ -456,11 +456,17 @@ html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{
           <dl><dt>What we have</dt><dd>A funder’s own account of the region notes that successful pilots often lose their institutional footing once funding ends. <a href="#ev-reactive">The studies</a></dd><dt>What could answer it <span class="sol-note">(our suggestion)</span></dt><dd>Follow a handful of heat-health pilots for two years after their first funding, recording who kept which part going and why.</dd><dt>Scale</dt><dd>Five to eight pilots, two years</dd></dl></li></ol>
       <p class="hub-p">Know of a study that answers one of these, or a better question? <a href="/corrections/">Tell us</a>, and we will add it with credit.</p>
 
+      <h2 class="hub-h" id="living">The weekly evidence review</h2>
+      <p class="hub-p">This map keeps growing. Each week, a harvest asks open research services for new studies on heat and health, passive cooling and heat finance in South and Southeast Asia: Europe PMC (which includes PubMed and preprints), Crossref (including SSRN, World Bank and ADB papers), arXiv, OpenAlex (including university repositories), the World Bank’s document library and WHO’s repository. Studies set in the region that report new data are queued, with their sample size, place, climate zone, effect size, unit cost and shortcomings copied from the abstract where the abstract states them.</p>
+      <p class="hub-p">Nothing reaches this map until a reviewer has read the study, written its finding in their own words, graded it and chosen the cycle it speaks to. The first reviewed studies will appear in their cycles above, marked as added in the weekly review. Studies that were queued but not added are not judged here: many are simply outside what this map covers.</p>
+      <ul class="evm-live-list"></ul>
+
       <h2 class="hub-h" id="method">How we graded</h2>
       <ul class="hub-grid hub-grid--plain">
         <li class="std"><b>From each study’s own description</b><span>Each study is grouped by how it describes itself: peer-reviewed, official or agency, modelled or projected, other studies and reports, or news. A model is never counted as a measurement.</span></li>
         <li class="std"><b>Well established or evidence emerging</b><span>A well-established cycle has been widely documented as a whole. Where evidence is emerging, each link is evidenced, but the full cycle has been studied less.</span></li>
         <li class="std"><b>A ranking of knowledge only</b><span>Thin evidence describes what research has not yet reached. It says nothing about any country, city or organisation.</span></li>
+        <li class="std"><b>Read by a person before it counts</b><span>Fields copied automatically from abstracts are suggestions for the reviewer. Only what a reviewer has checked and signed off is shown, and a preprint is labelled as awaiting review by other researchers.</span></li>
         <li class="std"><b>Open to correction</b><span>If a study is missing or graded wrongly, <a href="/corrections/">please tell us</a>.</span></li>
       </ul>
     </section>
@@ -603,7 +609,7 @@ $$("[data-check]").forEach(function(box){var key=box.getAttribute("data-check"),
     if(form)window.open(form,"_blank","noopener");remember({a:"no",d:today});done(thanksNo)})})}});
 /* copy the citation */
 $$("[data-csn-copy]").forEach(function(b){b.addEventListener("click",function(){var t=$("[data-csn-cite]").textContent;(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){b.textContent="Copied"},function(){b.textContent="Select and copy"})})});
-})();</script><script src="/ticker.js?v=166" defer></script><!--/csn-->
+})();</script><script src="/ticker.js?v=167" defer></script><!--/csn-->
 <footer class="wkp-foot"><div class="container"><p>Common Shade · Text: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="/sources/">All sources</a></p></div></footer>
 </body>
 </html>
