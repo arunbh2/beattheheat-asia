@@ -26,7 +26,7 @@ async function render(fmt, stills) {
   execFileSync("python3", [path.join(ROOT, "tools", "films", "music.py"), music, String(T.total)], { stdio: "inherit" });
   const ff = spawn("ffmpeg", ["-v", "error", "-y", "-f", "image2pipe", "-framerate", String(FPS), "-i", "-", "-i", voice, "-i", music,
     "-filter_complex", "[2]volume=0.5[m];[1][m]amix=inputs=2:normalize=0,loudnorm=I=-16:TP=-1.5:LRA=11[a]", "-map", "0:v", "-map", "[a]",
-    "-c:a", "aac", "-b:a", "128k", "-c:v", "libx264", "-pix_fmt", "yuv420p", "-preset", "slow", "-crf", "23", "-maxrate", "2400k", "-bufsize", "4800k",
+    "-c:a", "aac", "-b:a", "128k", "-c:v", "libx264", "-pix_fmt", "yuv420p", "-preset", "slow", "-crf", "30", "-maxrate", "900k", "-bufsize", "1800k", "-tune", "stillimage",
     "-movflags", "+faststart", "-shortest", mp4], { stdio: ["pipe", "inherit", "inherit"] });
   const frames = Math.round(T.total * FPS);
   for (let f = 0; f < frames; f++) {
