@@ -61,6 +61,9 @@ Counts are calculated from data at build time. Never type a count into a page; r
   - Every score above 0 cites a page and a quote of 30 words or fewer.
   - When unsure, score lower with "confidence": "low".
 
+## Heat shorts
+`.claude/skills/heat-shorts/` makes short explainer films with faceless figures, a humble voice, checked sources and no em dashes. It builds on the repo's own renderer by default; the Remotion route needs the user's agreement. It is adapted from an MIT-licensed skill, with the reference frames left out.
+
 ## Monthly update
 `/monthly-heat-update [YYYY-MM]` (`.claude/commands/monthly-heat-update.md`) researches, verifies and publishes the month across the whole site.
 
