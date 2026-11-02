@@ -1,0 +1,371 @@
+{
+ "week": "2026-W45",
+ "harvested": "2026-11-02T11:15:33.847Z",
+ "window": {
+  "from": "2026-10-25",
+  "to": "2026-11-02"
+ },
+ "sources": {
+  "europepmc": {
+   "ok": true,
+   "found": 9
+  },
+  "crossref": {
+   "ok": true,
+   "found": 118
+  },
+  "arxiv": {
+   "ok": true,
+   "found": 0
+  },
+  "openalex": {
+   "ok": true,
+   "found": 100
+  },
+  "worldbank": {
+   "ok": true,
+   "found": 0
+  },
+  "who": {
+   "ok": true,
+   "found": 49
+  }
+ },
+ "counts": {
+  "found": 276,
+  "distinct": 262,
+  "new": 262,
+  "kept": 6,
+  "set_aside": 256
+ },
+ "candidates": [
+  {
+   "key": "doi:10.1177/17449871261486792",
+   "title": "Heat exposure and perceived academic functioning among nursing students in a tropical higher education setting: a qualitative study.",
+   "url": "https://doi.org/10.1177/17449871261486792",
+   "doi": "10.1177/17449871261486792",
+   "date": "2026-10-28",
+   "venue": "Journal of research in nursing : JRN",
+   "kind": "article",
+   "first_author": "Costales KR",
+   "found_in": [
+    "PubMed via Europe PMC"
+   ],
+   "streams": [
+    "heat-health"
+   ],
+   "suggested": {
+    "sample_size": null,
+    "geography": {
+     "value": "Philippines",
+     "quote": ""
+    },
+    "agro_climatic_zone": null,
+    "effect_size_c": null,
+    "effect_size_pct": null,
+    "unit_cost": null,
+    "failure_modes": [
+     {
+      "value": "challenge",
+      "quote": "Extreme heat presents a growing challenge for nursing education in tropical regions."
+     },
+     {
+      "value": "However",
+      "quote": "However, there is limited qualitative evidence regarding students' experiences across commuting, campus, and learning environments."
+     }
+    ],
+    "design": [
+     "field measurement",
+     "qualitative"
+    ],
+    "cycles": [
+     "school",
+     "poverty"
+    ]
+   },
+   "decision": "pending",
+   "review": {
+    "cycle": "",
+    "finding": "",
+    "grade": "",
+    "where": "",
+    "sample_size": "",
+    "effect_size": "",
+    "unit_cost": "",
+    "agro_climatic_zone": "",
+    "failure_modes": "",
+    "limit": "",
+    "note": ""
+   }
+  },
+  {
+   "key": "doi:10.64898/2026.10.23.26366352",
+   "title": "Prenatal extreme heat exposure and neonatal mortality in Bangladesh, 2015 to 2025: a national birth-history study",
+   "url": "https://doi.org/10.64898/2026.10.23.26366352",
+   "doi": "10.64898/2026.10.23.26366352",
+   "date": "2026-10-26",
+   "venue": "medRxiv",
+   "kind": "preprint",
+   "first_author": "Hoque SMAU",
+   "found_in": [
+    "Preprint via Europe PMC",
+    "Crossref"
+   ],
+   "streams": [
+    "heat-health"
+   ],
+   "suggested": {
+    "sample_size": {
+     "value": "1,000 births",
+     "quote": "Per 5 extreme heat days, its adjusted rate ratio was 1.06 (0.98 to 1.15), a risk difference of 1.4 per 1,000 births (-0.6 to 3.3)."
+    },
+    "geography": {
+     "value": "Bangladesh; South Asia",
+     "quote": ""
+    },
+    "agro_climatic_zone": null,
+    "effect_size_c": {
+     "value": "1 degree C",
+     "quote": "Without control for calendar month of birth, each 1 degree C higher mean third trimester maximum temperature was associated with lower mortality (rate ratio 0.96, 0.93 to 0.99)."
+    },
+    "effect_size_pct": {
+     "value": "rate ratio 0.96",
+     "quote": "Without control for calendar month of birth, each 1 degree C higher mean third trimester maximum temperature was associated with lower mortality (rate ratio 0.96, 0.93 to 0.99)."
+    },
+    "unit_cost": null,
+    "failure_modes": [
+     {
+      "value": "did not",
+      "quote": "The confidence intervals did not exclude modest increases in risk, and both gestational age and heat exposure were estimated with error."
+     }
+    ],
+    "design": [
+     "cross-sectional survey"
+    ],
+    "cycles": []
+   },
+   "decision": "pending",
+   "review": {
+    "cycle": "",
+    "finding": "",
+    "grade": "",
+    "where": "",
+    "sample_size": "",
+    "effect_size": "",
+    "unit_cost": "",
+    "agro_climatic_zone": "",
+    "failure_modes": "",
+    "limit": "",
+    "note": ""
+   }
+  },
+  {
+   "key": "doi:10.21203/rs.3.rs-10780874/v1",
+   "title": "Ventilation, indoor air quality and thermal comfort in India’s leather footwear manufacturing cluster: a tier-resolved field study",
+   "url": "https://doi.org/10.21203/rs.3.rs-10780874/v1",
+   "doi": "10.21203/rs.3.rs-10780874/v1",
+   "date": "2026-10-30",
+   "venue": "Research Square",
+   "kind": "preprint",
+   "first_author": "Arif M",
+   "found_in": [
+    "Preprint via Europe PMC"
+   ],
+   "streams": [
+    "passive-cooling"
+   ],
+   "suggested": {
+    "sample_size": null,
+    "geography": {
+     "value": "India",
+     "quote": ""
+    },
+    "agro_climatic_zone": null,
+    "effect_size_c": null,
+    "effect_size_pct": null,
+    "unit_cost": null,
+    "failure_modes": null,
+    "design": [
+     "field measurement"
+    ],
+    "cycles": []
+   },
+   "decision": "pending",
+   "review": {
+    "cycle": "",
+    "finding": "",
+    "grade": "",
+    "where": "",
+    "sample_size": "",
+    "effect_size": "",
+    "unit_cost": "",
+    "agro_climatic_zone": "",
+    "failure_modes": "",
+    "limit": "",
+    "note": ""
+   }
+  },
+  {
+   "key": "doi:10.21203/rs.3.rs-11314189/v1",
+   "title": "Community Responses to Urban Heat Risk in Prayagraj Municipal Corporation, India",
+   "url": "https://doi.org/10.21203/rs.3.rs-11314189/v1",
+   "doi": "10.21203/rs.3.rs-11314189/v1",
+   "date": "2026-10-27",
+   "venue": "Research Square",
+   "kind": "preprint",
+   "first_author": "Yadav A",
+   "found_in": [
+    "Preprint via Europe PMC",
+    "Crossref"
+   ],
+   "streams": [
+    "heat-health"
+   ],
+   "suggested": {
+    "sample_size": {
+     "value": "422 households",
+     "quote": "The analysis is based on primary household-level data collected from 422 households through multistage cluster random sampling conducted between February and March 2026."
+    },
+    "geography": {
+     "value": "India; South Asia",
+     "quote": ""
+    },
+    "agro_climatic_zone": null,
+    "effect_size_c": null,
+    "effect_size_pct": null,
+    "unit_cost": null,
+    "failure_modes": [
+     {
+      "value": "constraints",
+      "quote": "Qualitative field narratives were additionally incorporated to contextualise lived experiences of heat exposure and adaptation constraints."
+     }
+    ],
+    "design": [
+     "qualitative"
+    ],
+    "cycles": [
+     "school",
+     "poverty"
+    ]
+   },
+   "decision": "pending",
+   "review": {
+    "cycle": "",
+    "finding": "",
+    "grade": "",
+    "where": "",
+    "sample_size": "",
+    "effect_size": "",
+    "unit_cost": "",
+    "agro_climatic_zone": "",
+    "failure_modes": "",
+    "limit": "",
+    "note": ""
+   }
+  },
+  {
+   "key": "doi:10.53941/jhrr.2026.100029",
+   "title": "Morphology as Climate Infrastructure: Traditional Building Form, Measured Performance, and Urban Heat in Jodhpur, India",
+   "url": "https://doi.org/10.53941/jhrr.2026.100029",
+   "doi": "10.53941/jhrr.2026.100029",
+   "date": "2026-10-26",
+   "venue": "Journal of Hazards, Risk and Resilience",
+   "kind": "article",
+   "first_author": "Madapala",
+   "found_in": [
+    "Crossref"
+   ],
+   "streams": [
+    "passive-cooling"
+   ],
+   "suggested": {
+    "sample_size": {
+     "value": "n = 8000",
+     "quote": "Historic-core surface temperatures average 0.63 °C cooler than the modern expansion (n = 8000 pixels), and built-up intensity (NDBI) explains substantially more of this variance than vegetation cover (NDVI)-consistent with the weak evapotranspiration effect expected in a water-scarce climate."
+    },
+    "geography": {
+     "value": "India",
+     "quote": ""
+    },
+    "agro_climatic_zone": {
+     "value": "arid",
+     "quote": "Urban heat is intensifying across hot-arid cities, where the vegetation-based cooling strategies that work in humid climates are constrained by water scarcity."
+    },
+    "effect_size_c": {
+     "value": "0.63 °C",
+     "quote": "Historic-core surface temperatures average 0.63 °C cooler than the modern expansion (n = 8000 pixels), and built-up intensity (NDBI) explains substantially more of this variance than vegetation cover (NDVI)-consistent with the weak evapotranspiration effect expected in a water-scarce climate."
+    },
+    "effect_size_pct": null,
+    "unit_cost": null,
+    "failure_modes": null,
+    "design": [
+     "field measurement"
+    ],
+    "cycles": [
+     "cooling",
+     "squeeze"
+    ]
+   },
+   "decision": "pending",
+   "review": {
+    "cycle": "",
+    "finding": "",
+    "grade": "",
+    "where": "",
+    "sample_size": "",
+    "effect_size": "",
+    "unit_cost": "",
+    "agro_climatic_zone": "",
+    "failure_modes": "",
+    "limit": "",
+    "note": ""
+   }
+  },
+  {
+   "key": "doi:10.17632/6yngnrd589",
+   "title": "Hourly field dataset of ambient, roof-surface and indoor air temperatures for passive cooling and waterproofing treatments on reinforced-concrete roofs",
+   "url": "https://doi.org/10.17632/6yngnrd589",
+   "doi": "10.17632/6yngnrd589",
+   "date": "2026-11-01",
+   "venue": "Mendeley Data",
+   "kind": "article",
+   "first_author": "Visvanathan",
+   "found_in": [
+    "Repository via OpenAlex"
+   ],
+   "streams": [
+    "passive-cooling"
+   ],
+   "suggested": {
+    "sample_size": null,
+    "geography": {
+     "value": "India",
+     "quote": ""
+    },
+    "agro_climatic_zone": null,
+    "effect_size_c": null,
+    "effect_size_pct": null,
+    "unit_cost": null,
+    "failure_modes": null,
+    "design": null,
+    "cycles": [
+     "cooling"
+    ]
+   },
+   "decision": "pending",
+   "review": {
+    "cycle": "",
+    "finding": "",
+    "grade": "",
+    "where": "",
+    "sample_size": "",
+    "effect_size": "",
+    "unit_cost": "",
+    "agro_climatic_zone": "",
+    "failure_modes": "",
+    "limit": "",
+    "note": ""
+   }
+  }
+ ]
+}
