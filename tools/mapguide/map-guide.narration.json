@@ -1,0 +1,64 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 1,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "counts": {
+  "harms": 90,
+  "systems": 10,
+  "loops": 21,
+  "levers": 33
+ },
+ "scenes": [
+  "One heatwave never causes just one problem. | It sets off a chain.",
+  "This is the Common Shade map. | Extreme heat sits in the centre. | Around it, ten systems, from water and food to health and work. | Each dot is a harm, 90 in all, each with its sources.",
+  "Tap a dot, such as power cuts. | The map lights up what feeds it, | and what it sets in motion.",
+  "Each harm opens a card: what happens, the evidence behind it, | and the cycles it is caught in.",
+  "Some links curve back on themselves. These are vicious cycles. | Cooling demand heats the city, | and a hotter city needs even more cooling.",
+  "The green marks are levers: actions that can cut a link. | Each one shows who can act, how soon it works, and where it has been tried.",
+  "Switch on a package of actions, and see which of the 21 cycles it could help interrupt. | It is a guide for thinking, not a forecast: real effects depend on reach and quality.",
+  "Start with the harm you see. | Follow the lines. | Find the lever within reach. | Explore the map at beat the heat dot Asia."
+ ],
+ "captions": [
+  [
+   "One heatwave never causes just one problem.",
+   "It sets off a chain."
+  ],
+  [
+   "This is the Common Shade map.",
+   "Extreme heat sits in the centre.",
+   "Around it, ten systems, from water and food to health and work.",
+   "Each dot is a harm, 90 in all, each with its sources."
+  ],
+  [
+   "Tap a dot, such as power cuts.",
+   "The map lights up what feeds it,",
+   "and what it sets in motion."
+  ],
+  [
+   "Each harm opens a card: what happens, the evidence behind it,",
+   "and the cycles it is caught in."
+  ],
+  [
+   "Some links curve back on themselves. These are vicious cycles.",
+   "Cooling demand heats the city,",
+   "and a hotter city needs even more cooling."
+  ],
+  [
+   "The green marks are levers: actions that can cut a link.",
+   "Each one shows who can act, how soon it works, and where it has been tried."
+  ],
+  [
+   "Switch on a package of actions, and see which of the 21 cycles it could help interrupt.",
+   "It is a guide for thinking, not a forecast: real effects depend on reach and quality."
+  ],
+  [
+   "Start with the harm you see.",
+   "Follow the lines.",
+   "Find the lever within reach.",
+   "Explore the map at beattheheat.asia."
+  ]
+ ]
+}

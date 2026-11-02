@@ -34,6 +34,7 @@ Counts are calculated from data at build time. Never type a count into a page; r
 - `research/YYYY-MM/`: verified research sets and link checks. They are published as files but never linked as pages.
 - `research/india-hap-archive/`: the HAP catalogue CSVs, report and downloader (see its README).
 - `tools/launch/`: the 20-second launch film (scene, shots, music, renderer) behind the homepage launch card; files in `media/launch/`.
+- `tools/mapguide/`: the map guide film, in which a drawn, faceless guide walks through real captures of the map. It plays from "Watch: how to read the map" under the legend. Files are in `media/mapguide/` (9:16 and 16:9); see its README.
 - `media/`: films and covers. `tools/explainers/`, `tools/films/` and `tools/shorts/` build them (Piper voice, Playwright render).
 - `data/evidence/` and `tools/living-evidence/`: the weekly evidence review. A Monday job harvests studies and opens a review pull request; merging is the sign-off; accepted studies join their cycles on the Evidence map. See `data/evidence/README.md`.
 - `.github/workflows/`: data checks, link checks, news feed, source and URL verification, and the weekly evidence review.
@@ -59,6 +60,9 @@ Counts are calculated from data at build time. Never type a count into a page; r
   - Score against `research/hap-rubric.md` into `research/hap-scores/<id>.json`.
   - Every score above 0 cites a page and a quote of 30 words or fewer.
   - When unsure, score lower with "confidence": "low".
+
+## Heat shorts
+`.claude/skills/heat-shorts/` makes short explainer films with faceless figures, a humble voice, checked sources and no em dashes. It builds on the repo's own renderer by default; the Remotion route needs the user's agreement. It is adapted from an MIT-licensed skill, with the reference frames left out.
 
 ## Monthly update
 `/monthly-heat-update [YYYY-MM]` (`.claude/commands/monthly-heat-update.md`) researches, verifies and publishes the month across the whole site.

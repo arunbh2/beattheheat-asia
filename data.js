@@ -8340,6 +8340,18 @@ const SECTION_FILMS = [
       "label": "See weather, work and the person",
       "act": "strain"
     }
+  },
+  {
+    "id": "mapguide",
+    "title": "How to read the heat map",
+    "label": "map guide",
+    "video": "media/mapguide/map-guide-16x9.mp4",
+    "length": "1:19",
+    "text": "A drawn guide walks through the map: extreme heat at the centre, the systems around it, each harm as a dot, the vicious cycles that feed themselves, and the levers that can cut a link. The map is a guide for thinking, not a forecast.",
+    "back": {
+      "label": "Open the map",
+      "act": "explore"
+    }
   }
 ];
 
