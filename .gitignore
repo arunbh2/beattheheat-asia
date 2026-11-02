@@ -5,3 +5,5 @@ media/films/*.voice.wav
 media/shorts/*.voice.wav
 media/glossary/*.voice.wav
 media/explainers/*.voice.wav
+media/mapguide/*.voice.wav
+media/mapguide/*.music.wav

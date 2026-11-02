@@ -34,6 +34,7 @@ Counts are calculated from data at build time. Never type a count into a page; r
 - `research/YYYY-MM/`: verified research sets and link checks. They are published as files but never linked as pages.
 - `research/india-hap-archive/`: the HAP catalogue CSVs, report and downloader (see its README).
 - `tools/launch/`: the 20-second launch film (scene, shots, music, renderer) behind the homepage launch card; files in `media/launch/`.
+- `tools/mapguide/`: the map guide film, in which a drawn, faceless guide walks through real captures of the map. It plays from "Watch: how to read the map" under the legend. Files are in `media/mapguide/` (9:16 and 16:9); see its README.
 - `media/`: films and covers. `tools/explainers/`, `tools/films/` and `tools/shorts/` build them (Piper voice, Playwright render).
 - `data/evidence/` and `tools/living-evidence/`: the weekly evidence review. A Monday job harvests studies and opens a review pull request; merging is the sign-off; accepted studies join their cycles on the Evidence map. See `data/evidence/README.md`.
 - `.github/workflows/`: data checks, link checks, news feed, source and URL verification, and the weekly evidence review.
