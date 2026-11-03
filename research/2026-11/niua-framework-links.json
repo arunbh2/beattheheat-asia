@@ -1,0 +1,22 @@
+{
+ "https://niua.in/c-cube": {
+  "status": "OK",
+  "code": 200,
+  "archive": "https://web.archive.org/web/20260812170000/https://niua.in/c-cube/"
+ },
+ "https://niua.in/c-cube/publications": {
+  "status": "OK",
+  "code": 200,
+  "archive": "https://web.archive.org/web/20261103134409/https://niua.in/c-cube/publications"
+ },
+ "https://www.niua.in/c-cube": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://www.wiego.org/wp-content/uploads/2020/10/WIEGO_Statistical_Brief_N24_India.pdf": {
+  "status": "OK",
+  "code": 200,
+  "archive": "https://web.archive.org/web/20260702040748/https://www.wiego.org/wp-content/uploads/2020/10/WIEGO_Statistical_Brief_N24_India.pdf"
+ }
+}
