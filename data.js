@@ -881,7 +881,7 @@ const CONSEQUENCES = [
       },
       {
         "label": "NIUA Climate Centre for Cities, 2026: Heat Resilient Cities Framework, p. 8, citing WIEGO's statistical profile of informal workers in India",
-        "url": "https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf"
+        "url": "https://niua.in/publication-details/Heat_Resilient_Cities_Framework"
       }
     ]
   },
@@ -1245,7 +1245,7 @@ const CONSEQUENCES = [
       },
       {
         "label": "NIUA Climate Centre for Cities, 2026: Heat Resilient Cities Framework, p. 10",
-        "url": "https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf"
+        "url": "https://niua.in/publication-details/Heat_Resilient_Cities_Framework"
       }
     ]
   },
@@ -2009,7 +2009,7 @@ const LEVERS = [
       {
         "by": "National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026",
         "title": "Heat Resilient Cities Framework: heat stress mitigation built into housing, mobility, water systems and building norms (pp. 6-8)",
-        "url": "https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf"
+        "url": "https://niua.in/publication-details/Heat_Resilient_Cities_Framework"
       }
     ]
   },
@@ -2211,7 +2211,7 @@ const LEVERS = [
       {
         "by": "National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026",
         "title": "Heat Resilient Cities Framework: a yearly city intervention plan, and a long-term heat resilience perspective that extends a city's heat action plan (pp. 1, 3-4, 10)",
-        "url": "https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf"
+        "url": "https://niua.in/publication-details/Heat_Resilient_Cities_Framework"
       }
     ]
   },
@@ -2288,7 +2288,7 @@ const LEVERS = [
       {
         "by": "National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026",
         "title": "Heat Resilient Cities Framework: occupational heat protection for informal workers indoors and out, and who carries duties where there is no single employer (pp. 4, 8)",
-        "url": "https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf"
+        "url": "https://niua.in/publication-details/Heat_Resilient_Cities_Framework"
       }
     ]
   },
@@ -2384,7 +2384,7 @@ const LEVERS = [
       {
         "by": "National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026",
         "title": "Heat Resilient Cities Framework: cooling access treated as a public service and a question of energy justice, including for tenants and informal settlements (pp. 8-9)",
-        "url": "https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf"
+        "url": "https://niua.in/publication-details/Heat_Resilient_Cities_Framework"
       }
     ]
   },
@@ -2494,7 +2494,7 @@ const LEVERS = [
       {
         "by": "National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026",
         "title": "Heat Resilient Cities Framework: heat-health surveillance and records of heat illness and deaths, disaggregated by social group and neighbourhood (pp. 9-10)",
-        "url": "https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf"
+        "url": "https://niua.in/publication-details/Heat_Resilient_Cities_Framework"
       }
     ]
   },
@@ -2515,7 +2515,7 @@ const LEVERS = [
       {
         "by": "National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026",
         "title": "Heat Resilient Cities Framework: shade, drinking water, alerts, cool surfaces and basic public cooling first, as low-cost protection that reaches many people quickly (p. 6)",
-        "url": "https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf"
+        "url": "https://niua.in/publication-details/Heat_Resilient_Cities_Framework"
       }
     ]
   },
@@ -7334,7 +7334,7 @@ const GLOSSARY = [
     "text": "A city that moves beyond emergency response each hot season towards lasting change in its buildings, water, transport, work, health services and cooling, with the people most exposed to heat at the centre. This is how India's Heat Resilient Cities Framework (2026) describes it.",
     "source": {
       "label": "NIUA Climate Centre for Cities, 2026: Heat Resilient Cities Framework, p. 2",
-      "url": "https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf"
+      "url": "https://niua.in/publication-details/Heat_Resilient_Cities_Framework"
     }
   },
   {
@@ -7346,7 +7346,7 @@ const GLOSSARY = [
     "text": "A city plan for heat that grows out of a heat action plan. It starts by mapping hotspots and who is most exposed, then sets out interventions for the next one or two years, within a longer-term perspective across city systems. Some Indian cities are setting up urban disaster management authorities to lead them.",
     "source": {
       "label": "NIUA Climate Centre for Cities, 2026: Heat Resilient Cities Framework, pp. 3-4, 10",
-      "url": "https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf"
+      "url": "https://niua.in/publication-details/Heat_Resilient_Cities_Framework"
     }
   },
   {
@@ -8343,7 +8343,7 @@ const PLAN_CHECKLIST_SOURCES = [
   },
   {
     "label": "NIUA Climate Centre for Cities, 2026",
-    "url": "https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf"
+    "url": "https://niua.in/publication-details/Heat_Resilient_Cities_Framework"
   }
 ];
 
