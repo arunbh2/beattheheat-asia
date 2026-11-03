@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T07:00:31.524Z",
+ "updated": "2026-11-03T19:38:56.470Z",
  "days": 120,
  "source": "Europe PMC",
  "items": [
@@ -14,14 +14,14 @@
    "firstAuthor": "Meade RD"
   },
   {
-   "title": "Heat-Related Illnesses in India: Focus on Fluid-Electrolyte Management",
-   "journal": "Cureus",
-   "date": "2026-11-01",
-   "doi": "",
+   "title": "500 years of May temperature variability in Balochistan reconstructed from Juniperus excelsa tree rings: heat stress, growth-collapse extremes, and implications for an endangered relict forest",
+   "journal": "Preprint",
+   "date": "2026-11-02",
+   "doi": "10.21203/rs.3.rs-10746072/v1",
    "pmid": "",
-   "preprint": false,
-   "url": "https://europepmc.org/article/PMC/PMC13722842",
-   "firstAuthor": "Kalra S"
+   "preprint": true,
+   "url": "https://doi.org/10.21203/rs.3.rs-10746072/v1",
+   "firstAuthor": "Majeed M"
   },
   {
    "title": "Combining ability and heat-stress response in rice hybrids derived from mutation-derived M₆ lines.",
@@ -134,6 +134,16 @@
    "firstAuthor": "Wu Y"
   },
   {
+   "title": "Physiological Responses to Intermittent Environmental Heat Stress in Mice",
+   "journal": "FASEB journal : official publication of the Federation of American Societies for Experimental Biology",
+   "date": "2026-10-15",
+   "doi": "",
+   "pmid": "",
+   "preprint": false,
+   "url": "https://europepmc.org/article/PMC/PMC13726869",
+   "firstAuthor": "Husain H"
+  },
+  {
    "title": "The association between extreme heat and sperm quality in a chronically heat-exposed population: An observational study in Singapore.",
    "journal": "Environmental epidemiology (Philadelphia, Pa.)",
    "date": "2026-10-15",
@@ -232,6 +242,16 @@
    "preprint": false,
    "url": "https://doi.org/10.1016/j.psj.2026.107884",
    "firstAuthor": "Nawaz AH"
+  },
+  {
+   "title": "New horizons in adaptive capacity and heat-related health in older people: integrating frailty, energy insecurity and social resources.",
+   "journal": "Age and ageing",
+   "date": "2026-10-01",
+   "doi": "10.1093/ageing/afag315",
+   "pmid": "42967228",
+   "preprint": false,
+   "url": "https://doi.org/10.1093/ageing/afag315",
+   "firstAuthor": "Petraglia L"
   },
   {
    "title": "Prepartum Heat Stress Dysregulates Immune Resilience in Postpartum Dairy Cows.",
@@ -582,26 +602,6 @@
    "preprint": false,
    "url": "https://doi.org/10.1038/s41467-026-77165-0",
    "firstAuthor": "Hu Z"
-  },
-  {
-   "title": "Machine Learning-Based Assessment and Forecasting of Temperature–Humidity Index for Dairy Heat Stress Using Multivariate and Panel Data Approaches in Bihar, India",
-   "journal": "Preprint",
-   "date": "2026-09-01",
-   "doi": "10.21203/rs.3.rs-10502094/v1",
-   "pmid": "",
-   "preprint": true,
-   "url": "https://doi.org/10.21203/rs.3.rs-10502094/v1",
-   "firstAuthor": "Kumar V"
-  },
-  {
-   "title": "Harnessing genomics approaches for heat stress resilience in wheat: from discovery to deployment.",
-   "journal": "Journal of experimental botany",
-   "date": "2026-09-01",
-   "doi": "10.1093/jxb/erag226",
-   "pmid": "42150811",
-   "preprint": false,
-   "url": "https://doi.org/10.1093/jxb/erag226",
-   "firstAuthor": "Chitikineni A"
   }
  ]
 }
