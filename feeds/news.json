@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T06:27:52.489Z",
+ "updated": "2026-11-03T07:00:30.200Z",
  "keepDays": 14,
  "sources": [
   {
@@ -11,11 +11,19 @@
    "name": "GDELT Project",
    "ok": false,
    "found": 0,
-   "error": "HTTP 429: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic us"
+   "error": "fetch failed: UND_ERR_CONNECT_TIMEOUT"
   }
  ],
  "query": "(heatwave OR \"heat wave\" OR \"extreme heat\" OR \"heat stress\" OR heatstroke OR \"heat index\") (India OR Bangladesh OR Nepal OR \"Sri Lanka\" OR Pakistan OR Bhutan OR Maldives OR Cambodia OR Indonesia OR Philippines OR Singapore OR Thailand OR Vietnam OR Malaysia OR Myanmar OR Laos) sourcelang:english",
  "items": [
+  {
+   "title": "44°C heat index recorded in 3 areas on Monday, Nov. 2",
+   "url": "https://newsinfo.inquirer.net/2334943/44c-heat-index-recorded-in-3-areas-on-nov-2",
+   "domain": "newsinfo.inquirer.net",
+   "date": "2026-11-02T19:09:00Z",
+   "place": "Philippines",
+   "via": "Inquirer"
+  },
   {
    "title": "Afternoon rains, high heat index forecast for ‘Undas’ in Mindanao",
    "url": "https://newsinfo.inquirer.net/2333512/afternoon-rains-high-heat-index-forecast-for-undas-in-mindanao",
