@@ -792,11 +792,15 @@
     "id": "informal",
     "sys": "work",
     "label": "Informal workers\ncan’t stop work",
-    "desc": "Without paid leave, contracts or savings, stopping work means losing the day’s income. So people keep working through dangerous heat. About three in four Indian workers, some 380 million people, depend on heat-exposed work.",
+    "desc": "Without paid leave, contracts or savings, stopping work means losing the day’s income. So people keep working through dangerous heat. About three in four Indian workers, some 380 million people, depend on heat-exposed work. Around 90% of India's workers, and 80% in urban Delhi, work informally.",
     "sources": [
       {
         "label": "World Bank, 2022, reported by Down To Earth",
         "url": "https://www.downtoearth.org.in/climate-change/heatwaves-in-india-could-soon-break-human-survivability-limit-says-world-bank-analysis-86431"
+      },
+      {
+        "label": "NIUA Climate Centre for Cities, 2026: Heat Resilient Cities Framework, p. 8, citing WIEGO's statistical profile of informal workers in India",
+        "url": "https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf"
       }
     ]
   },
@@ -1152,11 +1156,15 @@
     "id": "underreport",
     "sys": "gov",
     "label": "Heat deaths\nunder-recorded",
-    "desc": "Heat is rarely written on death certificates. Most heat deaths are recorded as heart, kidney or lung failure.",
+    "desc": "Heat is rarely written on death certificates. Most heat deaths are recorded as heart, kidney or lung failure. In India, heatwaves are declared on dry-air temperature from relatively few weather stations, which can miss humid heat where many informal workers live and work.",
     "sources": [
       {
         "label": "Down To Earth, 2024: the miscalculation in India’s heatwave mortality data",
         "url": "https://www.downtoearth.org.in/climate-change/lost-in-the-heat-the-critical-miscalculation-in-indias-heatwave-mortality-data"
+      },
+      {
+        "label": "NIUA Climate Centre for Cities, 2026: Heat Resilient Cities Framework, p. 10",
+        "url": "https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf"
       }
     ]
   },
