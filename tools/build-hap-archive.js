@@ -46,6 +46,9 @@ module.exports = function hapArchive({ page, write, esc, V, ROOT }) {
   const ext = (u, label, cls = "") => `<a${cls ? ` class="${cls}"` : ""} href="${esc(u)}" target="_blank" rel="noopener">${label}<span class="visually-hidden"> (opens in a new tab)</span></a>`;
   const typeTag = t => `<span class="hap-type hap-type--${esc(t.toLowerCase().replace(/_/g, "-"))}">${esc((T[t] || { short: "Needs review" }).short)}</span>`;
   const flags = d => [/\bdraft\b/i.test(d.note) ? "Draft" : "", /adoption not established/i.test(d.note) ? "Adoption not established" : ""].filter(Boolean);
+  // NIUA's Heat Resilient Cities Framework (CC BY-SA 4.0), kept as an unchanged copy in resources/guidance/
+  const NIUA = "/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf";
+  const NIUA_MB = (fs.statSync(path.join(__dirname, "..", NIUA)).size / 1048576).toFixed(1);
   const pagesText = d => d.pages == null ? "" : d.type === "EMBEDDED_HEAT_HEALTH_PLAN" ? `${n(d.pages)} (whole document)` : n(d.pages);
   const langText = d => d.languages.length > 1 ? `${esc(d.languageLabel)} <small>(a second language may cover part of the document only)</small>` : esc(d.languageLabel);
 
@@ -117,6 +120,17 @@ module.exports = function hapArchive({ page, write, esc, V, ROOT }) {
       <div class="hap-none" data-hap-none hidden><p>No documents match these filters.</p><button type="button" class="hap-reset" data-hap-reset>Reset filters</button></div>
     </div></section>
 
+    <section class="hap-band" id="resilience" aria-labelledby="res-h"><div class="container hap-sec">
+      <h2 class="hub-h" id="res-h">Beyond the plans: heat resilience</h2>
+      <p class="hap-p">India’s Ministry of Housing and Urban Affairs has a national urban heat resilience initiative under the AMRUT 2.0 sector reforms. It is led by the Climate Centre for Cities (C-Cube) at the National Institute of Urban Affairs (NIUA) and supports 12 cities. Its <a href="${NIUA}">Heat Resilient Cities Framework</a> (September 2026) describes two parts that work together:</p>
+      <ul class="hap-method">
+        <li><b>A city intervention plan, for one or two years.</b> It starts with a needs assessment: heat hotspots, checked on the ground against air temperature and humidity, and layers showing who is most exposed. A city cooling perspective and a heat resilience plan follow, then delivery in steps, with monitoring and an impact assessment.</li>
+        <li><b>An urban heat resilience perspective, for the long term.</b> It covers five areas: buildings and infrastructure; working conditions and occupational heat protection; fair access to cooling and affordable energy; strategies co-created with citizens; and heat-health protection, social protection and services that keep running.</li>
+      </ul>
+      <p class="hap-p">The framework treats this perspective as an extension of a city’s heat action plan or climate action plan, not a separate document. It notes that the Disaster Management (Amendment) Act, 2025 lets cities with municipal corporations set up urban disaster management authorities, and that Chennai, Bengaluru and Visakhapatnam are moving to establish them. One line from it sums up the spirit: <q>Early warning systems are meaningful only when they are communicated to the ones most in need</q> (p. 6).</p>
+      <p class="hap-p"><small>Source: National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026, <i>Heat Resilient Cities Framework</i>, pp. 1-10. Shared under CC BY-SA 4.0; <a href="${NIUA}">an unchanged copy (PDF, ${NIUA_MB} MB)</a> is kept here with credit to its publishers. More of their work is at <a href="https://niua.in/c-cube">niua.in/c-cube</a>. The framework is guidance, not a heat action plan, so it is not counted in the archive above.</small></p>
+    </div></section>
+
     <section class="container hap-sec" id="method" aria-labelledby="method-h">
       <h2 class="hub-h" id="method-h">How it was checked</h2>
       <ul class="hap-method">
@@ -156,6 +170,7 @@ module.exports = function hapArchive({ page, write, esc, V, ROOT }) {
     `<header class="pg-hero"><div class="container"><p class="eyebrow">Resources</p><h1 class="pg-h1">Resources</h1><p class="pg-lede">Collections to search, download and reuse.</p></div></header>
     <section class="container hub"><ul class="hub-grid">
       <li><a class="hub-card" href="/resources/heat-action-plans/india/"><b>India heat action plan archive</b><span>${n(C.total)} verified plans and guidance documents, searchable, with links to each PDF</span></a></li>
+      <li><a class="hub-card" href="/resources/heat-action-plans/india/#resilience"><b>Heat Resilient Cities Framework (NIUA, 2026)</b><span>India’s national guidance on moving from heat action plans to heat resilience, summarised, with the full document</span></a></li>
       <li><a class="hub-card" href="/sources/"><b>Sources and references</b><span>Every source the site cites, searchable</span></a></li>
       <li><a class="hub-card" href="/print/"><b>Printable one-pagers</b><span>Briefs for officials, partners and funders</span></a></li>
       <li><a class="hub-card" href="/intersections/#resources"><b>Learning resources</b><span>Games and materials on heat and health</span></a></li></ul></section>`));

@@ -873,11 +873,15 @@ const CONSEQUENCES = [
     "id": "informal",
     "sys": "work",
     "label": "Informal workers\ncan’t stop work",
-    "desc": "Without paid leave, contracts or savings, stopping work means losing the day’s income. So people keep working through dangerous heat. About three in four Indian workers, some 380 million people, depend on heat-exposed work.",
+    "desc": "Without paid leave, contracts or savings, stopping work means losing the day’s income. So people keep working through dangerous heat. About three in four Indian workers, some 380 million people, depend on heat-exposed work. Around 90% of India's workers, and 80% in urban Delhi, work informally.",
     "sources": [
       {
         "label": "World Bank, 2022, reported by Down To Earth",
         "url": "https://www.downtoearth.org.in/climate-change/heatwaves-in-india-could-soon-break-human-survivability-limit-says-world-bank-analysis-86431"
+      },
+      {
+        "label": "NIUA Climate Centre for Cities, 2026: Heat Resilient Cities Framework, p. 8, citing WIEGO's statistical profile of informal workers in India",
+        "url": "https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf"
       }
     ]
   },
@@ -1233,11 +1237,15 @@ const CONSEQUENCES = [
     "id": "underreport",
     "sys": "gov",
     "label": "Heat deaths\nunder-recorded",
-    "desc": "Heat is rarely written on death certificates. Most heat deaths are recorded as heart, kidney or lung failure.",
+    "desc": "Heat is rarely written on death certificates. Most heat deaths are recorded as heart, kidney or lung failure. In India, heatwaves are declared on dry-air temperature from relatively few weather stations, which can miss humid heat where many informal workers live and work.",
     "sources": [
       {
         "label": "Down To Earth, 2024: the miscalculation in India’s heatwave mortality data",
         "url": "https://www.downtoearth.org.in/climate-change/lost-in-the-heat-the-critical-miscalculation-in-indias-heatwave-mortality-data"
+      },
+      {
+        "label": "NIUA Climate Centre for Cities, 2026: Heat Resilient Cities Framework, p. 10",
+        "url": "https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf"
       }
     ]
   },
@@ -1997,6 +2005,11 @@ const LEVERS = [
         "by": "Global Heat Health Information Network (GHHIN)",
         "title": "Heat in the city: guidance and resources for urban heat",
         "url": "https://heathealth.info/in-the-city/"
+      },
+      {
+        "by": "National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026",
+        "title": "Heat Resilient Cities Framework: heat stress mitigation built into housing, mobility, water systems and building norms (pp. 6-8)",
+        "url": "https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf"
       }
     ]
   },
@@ -2194,6 +2207,11 @@ const LEVERS = [
         "by": "Council on Energy, Environment and Water (CEEW)",
         "title": "How can heat action plans make Thane a heat-resilient city?",
         "url": "https://www.ceew.in/publications/how-can-thane-city-tackle-heatwaves-risks-with-heat-action-plan"
+      },
+      {
+        "by": "National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026",
+        "title": "Heat Resilient Cities Framework: a yearly city intervention plan, and a long-term heat resilience perspective that extends a city's heat action plan (pp. 1, 3-4, 10)",
+        "url": "https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf"
       }
     ]
   },
@@ -2266,6 +2284,11 @@ const LEVERS = [
         "by": "WHO and WMO, in the GHHIN resource library",
         "title": "Heat at work: the first joint global guidance on workplace heat stress",
         "url": "https://heathealth.info/at-work/"
+      },
+      {
+        "by": "National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026",
+        "title": "Heat Resilient Cities Framework: occupational heat protection for informal workers indoors and out, and who carries duties where there is no single employer (pp. 4, 8)",
+        "url": "https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf"
       }
     ]
   },
@@ -2357,6 +2380,11 @@ const LEVERS = [
         "by": "Sustainable Energy for All",
         "title": "Chilling Prospects Special: Gender and Access to Cooling",
         "url": "https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-special-gender"
+      },
+      {
+        "by": "National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026",
+        "title": "Heat Resilient Cities Framework: cooling access treated as a public service and a question of energy justice, including for tenants and informal settlements (pp. 8-9)",
+        "url": "https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf"
       }
     ]
   },
@@ -2462,6 +2490,11 @@ const LEVERS = [
         "by": "National Centre for Disease Control, Ministry of Health and Family Welfare, India, 2021",
         "title": "National Action Plan on Heat-Related Illness",
         "url": "https://ncdc.mohfw.gov.in/uploads/pdf/heat12.pdf"
+      },
+      {
+        "by": "National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026",
+        "title": "Heat Resilient Cities Framework: heat-health surveillance and records of heat illness and deaths, disaggregated by social group and neighbourhood (pp. 9-10)",
+        "url": "https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf"
       }
     ]
   },
@@ -2478,6 +2511,11 @@ const LEVERS = [
         "by": "US Centers for Disease Control and Prevention, in the GHHIN resource library",
         "title": "The use of cooling centers to prevent heat-related illness: evidence and strategies for implementation",
         "url": "https://heathealth.info/wp-content/uploads/cdc_47657_DS1-compressed-1.pdf"
+      },
+      {
+        "by": "National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026",
+        "title": "Heat Resilient Cities Framework: shade, drinking water, alerts, cool surfaces and basic public cooling first, as low-cost protection that reaches many people quickly (p. 6)",
+        "url": "https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf"
       }
     ]
   },
@@ -7288,6 +7326,30 @@ const GLOSSARY = [
     }
   },
   {
+    "id": "heatresilientcity",
+    "group": "act",
+    "term": "Heat-resilient city",
+    "match": "heat-resilient city",
+    "auto": false,
+    "text": "A city that moves beyond emergency response each hot season towards lasting change in its buildings, water, transport, work, health services and cooling, with the people most exposed to heat at the centre. This is how India's Heat Resilient Cities Framework (2026) describes it.",
+    "source": {
+      "label": "NIUA Climate Centre for Cities, 2026: Heat Resilient Cities Framework, p. 2",
+      "url": "https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf"
+    }
+  },
+  {
+    "id": "heatresilienceplan",
+    "group": "act",
+    "term": "Heat resilience plan",
+    "match": "heat resilience plan",
+    "auto": false,
+    "text": "A city plan for heat that grows out of a heat action plan. It starts by mapping hotspots and who is most exposed, then sets out interventions for the next one or two years, within a longer-term perspective across city systems. Some Indian cities are setting up urban disaster management authorities to lead them.",
+    "source": {
+      "label": "NIUA Climate Centre for Cities, 2026: Heat Resilient Cities Framework, pp. 3-4, 10",
+      "url": "https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf"
+    }
+  },
+  {
     "id": "whoelements",
     "group": "act",
     "term": "Core elements of a heat plan",
@@ -8226,6 +8288,10 @@ const PLAN_CHECKLIST = [
   {
     "item": "Tie work rules to heat alerts",
     "eg": "Since 2023, Spain has required employers to cut or move working hours when the weather agency issues an orange or red heat alert and other measures can’t keep workers safe."
+  },
+  {
+    "item": "Plan with the people most exposed",
+    "eg": "India's Heat Resilient Cities Framework (2026) asks for vulnerability mapping done with the people most affected and repeated at least once every three years, with worker collectives, women's groups and residents' associations taking part in risk mapping, solution design, delivery and monitoring."
   }
 ];
 
@@ -8274,6 +8340,10 @@ const PLAN_CHECKLIST_SOURCES = [
   {
     "label": "Garrigues on Spain’s 2023 decree",
     "url": "https://www.garrigues.com/en_GB/new/spain-high-temperatures-will-mean-employers-must-adopt-preventive-measures-order-protect"
+  },
+  {
+    "label": "NIUA Climate Centre for Cities, 2026",
+    "url": "https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf"
   }
 ];
 

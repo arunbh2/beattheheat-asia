@@ -6,7 +6,7 @@ Common Shade is in beta, currently at beattheheat.asia. A group of organisations
 
 Text, data, films and illustrations © Common Shade contributors, shared under Creative Commons Attribution 4.0 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/): you may copy, adapt and translate them, with credit and a link to beattheheat.asia. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’ and are not covered.
 
-Interactive map: https://beattheheat.asia/ · Generated 2026-11-02
+Interactive map: https://beattheheat.asia/ · Generated 2026-11-03
 
 ## The web of extreme heat: every consequence, system by system
 
@@ -562,11 +562,13 @@ Source: International Labour Organization, 2019: heat stress predicted to cost t
 
 #### Informal workers can’t stop work
 
-Without paid leave, contracts or savings, stopping work means losing the day’s income. So people keep working through dangerous heat. About three in four Indian workers, some 380 million people, depend on heat-exposed work.
+Without paid leave, contracts or savings, stopping work means losing the day’s income. So people keep working through dangerous heat. About three in four Indian workers, some 380 million people, depend on heat-exposed work. Around 90% of India's workers, and 80% in urban Delhi, work informally.
 
 Leads to: Heatstroke and heat exhaustion (Working through the hottest hours without shade, water or rest raises the risk of heat illness.); Injuries and accidents rise (Fatigue and heat cause accidents.); Care burden falls on women and girls (When workers fall ill, someone has to care for them, usually women.); Risks in pregnancy (Pregnant women who keep doing heavy work in the heat face more miscarriage and early birth.); Hot workplaces without toilets (Many women’s workplaces have no safe toilets.)
 
 Source: World Bank, 2022, reported by Down To Earth https://www.downtoearth.org.in/climate-change/heatwaves-in-india-could-soon-break-human-survivability-limit-says-world-bank-analysis-86431
+
+Source: NIUA Climate Centre for Cities, 2026: Heat Resilient Cities Framework, p. 8, citing WIEGO's statistical profile of informal workers in India https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf
 
 #### Hot workplaces without toilets
 
@@ -808,11 +810,13 @@ Source: Swiss Re Institute sigma, reported by Global Reinsurance https://www.glo
 
 #### Heat deaths under-recorded
 
-Heat is rarely written on death certificates. Most heat deaths are recorded as heart, kidney or lung failure.
+Heat is rarely written on death certificates. Most heat deaths are recorded as heart, kidney or lung failure. In India, heatwaves are declared on dry-air temperature from relatively few weather stations, which can miss humid heat where many informal workers live and work.
 
 Leads to: Heat protection underfunded (What isn’t counted isn’t funded.)
 
 Source: Down To Earth, 2024: the miscalculation in India’s heatwave mortality data https://www.downtoearth.org.in/climate-change/lost-in-the-heat-the-critical-miscalculation-in-indias-heatwave-mortality-data
+
+Source: NIUA Climate Centre for Cities, 2026: Heat Resilient Cities Framework, p. 10 https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf
 
 #### Heat protection underfunded
 
@@ -1386,6 +1390,8 @@ Could help interrupt: The cooling trap
 
 - Guide: Heat in the city: guidance and resources for urban heat (Global Heat Health Information Network (GHHIN)) https://heathealth.info/in-the-city/
 
+- Guide: Heat Resilient Cities Framework: heat stress mitigation built into housing, mobility, water systems and building norms (pp. 6-8) (National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026) https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf
+
 ### Green, cool cities
 
 Trees, water, cool roofs and cool pavements lower city temperatures and flatten peak demand.
@@ -1488,6 +1494,8 @@ In practice: Ahmedabad launched South Asia’s first city heat action plan in 20
 
 - Guide: How can heat action plans make Thane a heat-resilient city? (Council on Energy, Environment and Water (CEEW)) https://www.ceew.in/publications/how-can-thane-city-tackle-heatwaves-risks-with-heat-action-plan
 
+- Guide: Heat Resilient Cities Framework: a yearly city intervention plan, and a long-term heat resilience perspective that extends a city's heat action plan (pp. 1, 3-4, 10) (National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026) https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf
+
 ### Heat-ready health services
 
 Cooling, backup power, surge plans and trained frontline workers keep clinics working through heatwaves.
@@ -1515,6 +1523,8 @@ Could help interrupt: The poverty–heat trap, The medical-debt trap
 In practice: Singapore requires hourly wet-bulb globe temperature checks on outdoor worksites and at least 10 minutes’ shaded rest each hour for heavy work at 32 °C or above; in 2024 it inspected 250 workplaces and acted against 78. Several Gulf states ban outdoor work during the hottest midday hours in summer. Since 2023, Spain has required employers to cut or move working hours when the weather agency issues an orange or red heat alert and other measures can’t keep workers safe. Tamil Nadu’s heat strategy proposes building heat protection into the state’s existing occupational safety rules, rather than waiting for a new law.
 
 - Guide: Heat at work: the first joint global guidance on workplace heat stress (WHO and WMO, in the GHHIN resource library) https://heathealth.info/at-work/
+
+- Guide: Heat Resilient Cities Framework: occupational heat protection for informal workers indoors and out, and who carries duties where there is no single employer (pp. 4, 8) (National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026) https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf
 
 ### Income protection in heatwaves
 
@@ -1566,6 +1576,8 @@ Could help interrupt: The energy-poverty trap
 
 - Guide: Chilling Prospects Special: Gender and Access to Cooling (Sustainable Energy for All) https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-special-gender
 
+- Guide: Heat Resilient Cities Framework: cooling access treated as a public service and a question of energy justice, including for tenants and informal settlements (pp. 8-9) (National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026) https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf
+
 ### Cool, affordable housing
 
 Upgrading informal settlements with ventilation, shade and cool roofs, and planning homes for people who arrive.
@@ -1616,6 +1628,8 @@ Could help interrupt: The invisible-deaths loop
 
 - Guide: National Action Plan on Heat-Related Illness (National Centre for Disease Control, Ministry of Health and Family Welfare, India, 2021) https://ncdc.mohfw.gov.in/uploads/pdf/heat12.pdf
 
+- Guide: Heat Resilient Cities Framework: heat-health surveillance and records of heat illness and deaths, disaggregated by social group and neighbourhood (pp. 9-10) (National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026) https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf
+
 ### Cooling centres and check-ins
 
 Public cooling spaces, water points and check-ins on older people living alone save lives in every heatwave.
@@ -1625,6 +1639,8 @@ Cuts the link: Heat protection underfunded → Heat deaths. Who can act: City an
 Could help interrupt: The invisible-deaths loop
 
 - Guide: The use of cooling centers to prevent heat-related illness: evidence and strategies for implementation (US Centers for Disease Control and Prevention, in the GHHIN resource library) https://heathealth.info/wp-content/uploads/cdc_47657_DS1-compressed-1.pdf
+
+- Guide: Heat Resilient Cities Framework: shade, drinking water, alerts, cool surfaces and basic public cooling first, as low-cost protection that reaches many people quickly (p. 6) (National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026) https://beattheheat.asia/resources/guidance/niua-heat-resilient-cities-framework-2026.pdf
 
 ### Dedicated heat budgets
 
@@ -2340,7 +2356,7 @@ From interviews with city officials in October and November 2024 and published m
 
 ## Plain-language glossary of extreme heat
 
-85 terms that come up again and again in extreme heat, explained in a sentence or two.
+87 terms that come up again and again in extreme heat, explained in a sentence or two.
 
 ### What heat does to the body
 
@@ -2415,6 +2431,10 @@ From interviews with city officials in October and November 2024 and published m
 - **Work–rest cycle**: Building shaded rest into each hour of hot, heavy work. In Singapore, employers must give at least 10 minutes’ shaded rest each hour for heavy outdoor work at a wet-bulb globe temperature of 32 °C or more.
 
 - **Ward-level heat plan**: A heat action plan that maps risk neighbourhood by neighbourhood, using felt heat, warm nights and who lives there, so help goes first where risk is highest. Thane, next to Mumbai, built its 2024 plan this way.
+
+- **Heat-resilient city**: A city that moves beyond emergency response each hot season towards lasting change in its buildings, water, transport, work, health services and cooling, with the people most exposed to heat at the centre. This is how India's Heat Resilient Cities Framework (2026) describes it.
+
+- **Heat resilience plan**: A city plan for heat that grows out of a heat action plan. It starts by mapping hotspots and who is most exposed, then sets out interventions for the next one or two years, within a longer-term perspective across city systems. Some Indian cities are setting up urban disaster management authorities to lead them.
 
 - **Core elements of a heat plan**: WHO/Europe’s checklist for a complete heat–health action plan: governance, a warning system, people at risk, communication, a resilient health system, reducing exposure, surveillance, and monitoring and learning.
 

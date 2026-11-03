@@ -30,7 +30,7 @@ const KIND = k => /^ORG/.test(k) ? "org" : /^LIVE_/.test(k) ? "data" : "ref";
 const items = new Map();   // normalised url -> { url, label, kinds:Set, where:Set }
 const norm = u => u.replace(/^http:/, "https:").replace(/#.*$/, "").replace(/\/$/, "");
 const domainOf = u => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch (e) { return ""; } };
-const SKIP = /creativecommons\.org|github\.com\/arunbh2|beattheheat\.asia|commonshade\.|forms\.(office|cloud\.microsoft)|goatcounter|fonts\.(googleapis|gstatic)/;
+const SKIP = /creativecommons\.org|github\.com\/arunbh2|beattheheat\.asia(?!\/resources\/guidance\/)|commonshade\.|forms\.(office|cloud\.microsoft)|goatcounter|fonts\.(googleapis|gstatic)/;
 function add(url, label, kind, where, order, extra) {
   if (typeof url !== "string" || !/^https?:\/\//.test(url) || SKIP.test(url)) return;
   const k = norm(url); let it = items.get(k);
