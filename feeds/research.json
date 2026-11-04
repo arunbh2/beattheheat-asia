@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T06:43:12.977Z",
+ "updated": "2026-11-04T19:55:39.127Z",
  "days": 120,
  "source": "Europe PMC",
  "items": [
@@ -132,16 +132,6 @@
    "preprint": false,
    "url": "https://europepmc.org/article/PMC/PMC13666011",
    "firstAuthor": "Wu Y"
-  },
-  {
-   "title": "Physiological Responses to Intermittent Environmental Heat Stress in Mice",
-   "journal": "FASEB journal : official publication of the Federation of American Societies for Experimental Biology",
-   "date": "2026-10-15",
-   "doi": "",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://europepmc.org/article/PMC/PMC13726869",
-   "firstAuthor": "Husain H"
   },
   {
    "title": "The association between extreme heat and sperm quality in a chronically heat-exposed population: An observational study in Singapore.",
@@ -602,6 +592,16 @@
    "preprint": false,
    "url": "https://doi.org/10.1038/s41467-026-77165-0",
    "firstAuthor": "Hu Z"
+  },
+  {
+   "title": "Machine Learning-Based Assessment and Forecasting of Temperature–Humidity Index for Dairy Heat Stress Using Multivariate and Panel Data Approaches in Bihar, India",
+   "journal": "Preprint",
+   "date": "2026-09-01",
+   "doi": "10.21203/rs.3.rs-10502094/v1",
+   "pmid": "",
+   "preprint": true,
+   "url": "https://doi.org/10.21203/rs.3.rs-10502094/v1",
+   "firstAuthor": "Kumar V"
   }
  ]
 }

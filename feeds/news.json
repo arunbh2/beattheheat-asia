@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T06:43:11.307Z",
+ "updated": "2026-11-04T19:55:37.473Z",
  "keepDays": 14,
  "sources": [
   {
@@ -16,6 +16,22 @@
  ],
  "query": "(heatwave OR \"heat wave\" OR \"extreme heat\" OR \"heat stress\" OR heatstroke OR \"heat index\") (India OR Bangladesh OR Nepal OR \"Sri Lanka\" OR Pakistan OR Bhutan OR Maldives OR Cambodia OR Indonesia OR Philippines OR Singapore OR Thailand OR Vietnam OR Malaysia OR Myanmar OR Laos) sourcelang:english",
  "items": [
+  {
+   "title": "WALANG PASOK: Class suspensions on Thursday due to high heat index",
+   "url": "https://newsinfo.inquirer.net/2336167/walang-pasok-class-suspensions-on-thursday-due-to-high-heat-index",
+   "domain": "newsinfo.inquirer.net",
+   "date": "2026-11-04T20:21:11Z",
+   "place": "Philippines",
+   "via": "Inquirer"
+  },
+  {
+   "title": "Butuan experiences scorching 42-45°C heat index for second straight day",
+   "url": "https://newsinfo.inquirer.net/2336102/butuan-experiences-scorching-42-45c-heat-index-for-second-straight-day",
+   "domain": "newsinfo.inquirer.net",
+   "date": "2026-11-04T18:07:23Z",
+   "place": "Philippines",
+   "via": "Inquirer"
+  },
   {
    "title": "44°C heat index recorded in 3 areas on Monday, Nov. 2",
    "url": "https://newsinfo.inquirer.net/2334943/44c-heat-index-recorded-in-3-areas-on-nov-2",

@@ -2,6 +2,20 @@
  "note": "Every item that has appeared on /news/. Built by tools/archive-news.js.",
  "news": [
   {
+   "title": "WALANG PASOK: Class suspensions on Thursday due to high heat index",
+   "url": "https://newsinfo.inquirer.net/2336167/walang-pasok-class-suspensions-on-thursday-due-to-high-heat-index",
+   "via": "Inquirer",
+   "date": "2026-11-04T20:21:11Z",
+   "place": "Philippines"
+  },
+  {
+   "title": "Butuan experiences scorching 42-45°C heat index for second straight day",
+   "url": "https://newsinfo.inquirer.net/2336102/butuan-experiences-scorching-42-45c-heat-index-for-second-straight-day",
+   "via": "Inquirer",
+   "date": "2026-11-04T18:07:23Z",
+   "place": "Philippines"
+  },
+  {
    "title": "44°C heat index recorded in 3 areas on Monday, Nov. 2",
    "url": "https://newsinfo.inquirer.net/2334943/44c-heat-index-recorded-in-3-areas-on-nov-2",
    "via": "Inquirer",
@@ -1070,5 +1084,5 @@
    "preprint": false
   }
  ],
- "updated": "2026-11-03T19:38:56.643Z"
+ "updated": "2026-11-04T19:55:39.210Z"
 }
