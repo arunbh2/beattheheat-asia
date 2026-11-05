@@ -2,6 +2,20 @@
  "note": "Every item that has appeared on /news/. Built by tools/archive-news.js.",
  "news": [
   {
+   "title": "Dangerous heat index expected in 3 areas on Friday – Pagasa",
+   "url": "https://newsinfo.inquirer.net/2336795/dangerous-heat-index-expected-in-3-areas-on-friday-pagasa",
+   "via": "Inquirer",
+   "date": "2026-11-05T19:52:00Z",
+   "place": "Philippines"
+  },
+  {
+   "title": "Walang Pasok: Class suspensions on Friday (Nov. 6) due to high heat index",
+   "url": "https://newsinfo.inquirer.net/2336740/walang-pasok-class-suspensions-on-friday-nov-6-due-to-high-heat-index",
+   "via": "Inquirer",
+   "date": "2026-11-05T17:37:53Z",
+   "place": "Philippines"
+  },
+  {
    "title": "WALANG PASOK: Class suspensions on Thursday due to high heat index",
    "url": "https://newsinfo.inquirer.net/2336167/walang-pasok-class-suspensions-on-thursday-due-to-high-heat-index",
    "via": "Inquirer",
@@ -1084,5 +1098,5 @@
    "preprint": false
   }
  ],
- "updated": "2026-11-04T19:55:39.210Z"
+ "updated": "2026-11-05T20:07:59.008Z"
 }
