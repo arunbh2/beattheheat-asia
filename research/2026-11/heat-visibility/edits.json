@@ -7,7 +7,24 @@
   "attributionasia-2022": "southasia2022"
  },
  "heatwaveReason": "Events about the same heatwave as a record on /heatwaves/ link to it; that record is then not repeated as its own marker on the timeline.",
- "events": {},
+ "events": {
+  "countdown-2018": {
+   "what": "The Lancet Countdown reported heat exposure and labour-capacity indicators in its annual framework, including a heat-related labour-loss estimate.",
+   "reason": "Its only source could not be read by the checks (a robot wall), so the figure it carried is left out and the general point kept. Removed: 41 indicators."
+  },
+  "globalforum-2018": {
+   "what": "The forum had a Southeast Asian regional focus and attention to communication. Its description distinguishes the formal launch from earlier founding.",
+   "reason": "Its only source could not be read by the checks (a robot wall), so the figure it carried is left out and the general point kept. Removed: 17 to 20 December."
+  },
+  "northwest-2021": {
+   "what": "CDC reported a sharp rise in heat-related emergency-department visits in its northwestern surveillance region during the late-June heatwave, and highlighted near-real-time surveillance for guiding response.",
+   "reason": "Its only source could not be read by the checks (a robot wall), so the figure it carried is left out and the general point kept. Removed: 2,779 visits, June 25-30."
+  },
+  "researchgrowth-2021": {
+   "what": "A review of Web of Science papers reported rapid growth in heatwave research, with prominent attention to events in 1995 and 2003.",
+   "reason": "Its only source could not be read by the checks (a robot wall), so the figure it carried is left out and the general point kept. Removed: 8,011 papers, doubling within about 5 years."
+  }
+ },
  "dropSources": {},
  "kb": {}
 }

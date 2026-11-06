@@ -4,7 +4,7 @@
  "grades": {
   "known": "Original documents, peer-reviewed papers, or institutions reporting their own actions.",
   "inferred": "Reached through secondary accounts.",
-  "uncertain": "Its sources could not confirm the detail."
+  "uncertain": "Its sources could not be read to confirm it, so only its year and its general point are shown."
  },
  "caveats": [
   "Grades describe the evidence for what happened. Why each event mattered is historical interpretation, not a measured effect.",
@@ -235,7 +235,7 @@
    "scope": "city",
    "place": "London, United Kingdom",
    "asia": false,
-   "grade": "inferred",
+   "grade": "uncertain",
    "first": "no",
    "quote": "",
    "quote_loc": "",
@@ -531,8 +531,8 @@
   },
   {
    "id": "srexapproval-2011",
-   "date": "2011-11-18",
-   "precision": "day",
+   "date": "2011",
+   "precision": "year",
    "title": "SREX policy summary is approved",
    "what": "IPCC member governments approved the SREX Summary for Policymakers in Kampala. The announcement connected disaster risk management, adaptation and vulnerability.",
    "why": "Extreme events gained an assessment organised around risk and the capacity to cope.",
@@ -542,7 +542,7 @@
    "scope": "global",
    "place": "",
    "asia": false,
-   "grade": "known",
+   "grade": "uncertain",
    "first": "no",
    "quote": "",
    "quote_loc": "",
@@ -661,6 +661,28 @@
    ]
   },
   {
+   "id": "sendai-2015",
+   "date": "2015",
+   "precision": "year",
+   "title": "Disaster framework centres lives, livelihoods and health",
+   "what": "The Sendai Framework adopted targets for reducing disaster risk and losses in lives, livelihoods and health. It is an all-hazards framework, rather than a heat-specific agreement.",
+   "why": "Heat protection could be connected to broader disaster governance and loss monitoring.",
+   "threads": [
+    "unfccc",
+    "plans"
+   ],
+   "scope": "global",
+   "place": "Sendai, Japan",
+   "asia": false,
+   "grade": "uncertain",
+   "first": "no",
+   "quote": "",
+   "quote_loc": "",
+   "sources": [
+    "S56"
+   ]
+  },
+  {
    "id": "warningguide-2015",
    "date": "2015",
    "precision": "year",
@@ -727,28 +749,6 @@
    ]
   },
   {
-   "id": "sendai-2015",
-   "date": "2015-03-18",
-   "precision": "day",
-   "title": "Disaster framework centres lives, livelihoods and health",
-   "what": "The Sendai Framework adopted targets for reducing disaster risk and losses in lives, livelihoods and health. It is an all-hazards framework, rather than a heat-specific agreement.",
-   "why": "Heat protection could be connected to broader disaster governance and loss monitoring.",
-   "threads": [
-    "unfccc",
-    "plans"
-   ],
-   "scope": "global",
-   "place": "Sendai, Japan",
-   "asia": false,
-   "grade": "known",
-   "first": "no",
-   "quote": "",
-   "quote_loc": "",
-   "sources": [
-    "S56"
-   ]
-  },
-  {
    "id": "karachiheat-2015",
    "date": "2015-06",
    "precision": "month",
@@ -784,7 +784,7 @@
    "scope": "national",
    "place": "India",
    "asia": true,
-   "grade": "known",
+   "grade": "uncertain",
    "first": "no",
    "quote": "",
    "quote_loc": "",
@@ -828,7 +828,7 @@
    "scope": "regional",
    "place": "Colombo, Sri Lanka",
    "asia": true,
-   "grade": "known",
+   "grade": "uncertain",
    "first": "no",
    "quote": "",
    "quote_loc": "",
@@ -850,7 +850,7 @@
    "scope": "global",
    "place": "",
    "asia": false,
-   "grade": "known",
+   "grade": "uncertain",
    "first": "no",
    "quote": "",
    "quote_loc": "",
@@ -902,11 +902,33 @@
    ]
   },
   {
+   "id": "globalforum-2018",
+   "date": "2018",
+   "precision": "year",
+   "title": "GHHIN holds its inaugural global forum",
+   "what": "The forum had a Southeast Asian regional focus and attention to communication. Its description distinguishes the formal launch from earlier founding.",
+   "why": "Regional experience entered a shared global heat-health agenda.",
+   "threads": [
+    "who-wmo",
+    "plans"
+   ],
+   "scope": "global",
+   "place": "Hong Kong, China",
+   "asia": true,
+   "grade": "uncertain",
+   "first": "claimed",
+   "quote": "",
+   "quote_loc": "",
+   "sources": [
+    "S16"
+   ]
+  },
+  {
    "id": "countdown-2018",
    "date": "2018",
    "precision": "year",
    "title": "Annual indicators make heat losses trackable",
-   "what": "The Lancet Countdown reported heat exposure and labour-capacity indicators within a 41-indicator framework. Its 2018 report gave a heat-related labour-loss estimate for 2017.",
+   "what": "The Lancet Countdown reported heat exposure and labour-capacity indicators in its annual framework, including a heat-related labour-loss estimate.",
    "why": "Recurring indicators made heat a continuing health-development issue beyond individual emergencies.",
    "threads": [
     "science",
@@ -916,7 +938,7 @@
    "scope": "global",
    "place": "",
    "asia": false,
-   "grade": "known",
+   "grade": "uncertain",
    "first": "no",
    "quote": "",
    "quote_loc": "",
@@ -944,28 +966,6 @@
    "quote_loc": "",
    "sources": [
     "S20"
-   ]
-  },
-  {
-   "id": "globalforum-2018",
-   "date": "2018-12-17",
-   "precision": "day",
-   "title": "GHHIN holds its inaugural global forum",
-   "what": "The forum ran from 17 to 20 December, with a Southeast Asian regional focus and attention to communication. Its description distinguishes the formal launch from earlier founding.",
-   "why": "Regional experience entered a shared global heat-health agenda.",
-   "threads": [
-    "who-wmo",
-    "plans"
-   ],
-   "scope": "global",
-   "place": "Hong Kong, China",
-   "asia": true,
-   "grade": "known",
-   "first": "claimed",
-   "quote": "",
-   "quote_loc": "",
-   "sources": [
-    "S16"
    ]
   },
   {
@@ -1056,6 +1056,50 @@
    ]
   },
   {
+   "id": "researchgrowth-2021",
+   "date": "2021",
+   "precision": "year",
+   "title": "Bibliometrics documents rapidly growing heatwave research",
+   "what": "A review of Web of Science papers reported rapid growth in heatwave research, with prominent attention to events in 1995 and 2003.",
+   "why": "Scientific attention became measurable, although publication growth does not establish growth in public or media attention.",
+   "threads": [
+    "science",
+    "media"
+   ],
+   "scope": "global",
+   "place": "",
+   "asia": false,
+   "grade": "uncertain",
+   "first": "no",
+   "quote": "",
+   "quote_loc": "",
+   "sources": [
+    "S26"
+   ]
+  },
+  {
+   "id": "northwest-2021",
+   "date": "2021",
+   "precision": "year",
+   "title": "Northwestern heatwave demonstrates rapid health surveillance",
+   "what": "CDC reported a sharp rise in heat-related emergency-department visits in its northwestern surveillance region during the late-June heatwave, and highlighted near-real-time surveillance for guiding response.",
+   "why": "A rare regional event showed how heat can rapidly exceed familiar health-service expectations.",
+   "threads": [
+    "heatwave",
+    "science"
+   ],
+   "scope": "regional",
+   "place": "Northwestern United States",
+   "asia": false,
+   "grade": "uncertain",
+   "first": "no",
+   "quote": "",
+   "quote_loc": "",
+   "sources": [
+    "S28"
+   ]
+  },
+  {
    "id": "attributabledeaths-2021",
    "date": "2021",
    "precision": "year",
@@ -1096,50 +1140,6 @@
    "quote_loc": "",
    "sources": [
     "S24"
-   ]
-  },
-  {
-   "id": "northwest-2021",
-   "date": "2021-06",
-   "precision": "month",
-   "title": "Northwestern heatwave demonstrates rapid health surveillance",
-   "what": "CDC recorded 2,779 heat-related emergency-department visits during June 25-30 in its northwestern surveillance region. It highlighted near-real-time surveillance for guiding response.",
-   "why": "A rare regional event showed how heat can rapidly exceed familiar health-service expectations.",
-   "threads": [
-    "heatwave",
-    "science"
-   ],
-   "scope": "regional",
-   "place": "Northwestern United States",
-   "asia": false,
-   "grade": "known",
-   "first": "no",
-   "quote": "",
-   "quote_loc": "",
-   "sources": [
-    "S28"
-   ]
-  },
-  {
-   "id": "researchgrowth-2021",
-   "date": "2021-09-03",
-   "precision": "day",
-   "title": "Bibliometrics documents rapidly growing heatwave research",
-   "what": "A review analysed 8,011 Web of Science papers and reported that the research literature doubled within about 5 years. It noted prominent attention to events in 1995 and 2003.",
-   "why": "Scientific attention became measurable, although publication growth does not establish growth in public or media attention.",
-   "threads": [
-    "science",
-    "media"
-   ],
-   "scope": "global",
-   "place": "",
-   "asia": false,
-   "grade": "known",
-   "first": "no",
-   "quote": "",
-   "quote_loc": "",
-   "sources": [
-    "S26"
    ]
   },
   {
@@ -1688,7 +1688,7 @@
    "scope": "global",
    "place": "Including India and Singapore",
    "asia": true,
-   "grade": "known",
+   "grade": "uncertain",
    "first": "no",
    "quote": "",
    "quote_loc": "",
@@ -2201,9 +2201,10 @@
    "year": 1995,
    "type": "assessment",
    "url": "https://wedocs.unep.org/bitstreams/844c7e28-eb76-4262-b985-801907bf9f83/download",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20261106192708/https://wedocs.unep.org/server/api/core/bitstreams/844c7e28-eb76-4262-b985-801907bf9f83/content",
+   "status": "ok",
+   "terms": "all",
+   "kb": "src-s1-ipcc-1995"
   },
   {
    "key": "S2",
@@ -2212,9 +2213,10 @@
    "year": 1992,
    "type": "assessment",
    "url": "https://wedocs.unep.org/items/e58f3806-61a3-4d01-9913-a78e3c549da6",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20260119041601/https://wedocs.unep.org/items/e58f3806-61a3-4d01-9913-a78e3c549da6",
+   "status": "ok",
+   "terms": "all",
+   "kb": "src-s2-wmo-1992"
   },
   {
    "key": "S3",
@@ -2223,9 +2225,10 @@
    "year": 1992,
    "type": "decision",
    "url": "https://unfccc.int/resource/docs/convkp/conveng.pdf",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20261025101342/https://unfccc.int/resource/docs/convkp/conveng.pdf",
+   "status": "ok",
+   "terms": "all",
+   "kb": "src-s3-united-1992"
   },
   {
    "key": "S4",
@@ -2234,9 +2237,9 @@
    "year": 1995,
    "type": "agency",
    "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00038443.htm",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20261106193736/https://www.cdc.gov/mmwr/preview/mmwrhtml/00038443.htm",
+   "status": "blocked",
+   "terms": "none"
   },
   {
    "key": "S5",
@@ -2245,9 +2248,10 @@
    "year": 2001,
    "type": "assessment",
    "url": "https://www-iam.nies.go.jp/aim/india0210/cc_papers/ipccreports/climate_change_2001/working_group2/WG2_spm.pdf",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20261106192847/https://www-iam.nies.go.jp/aim/india0210/cc_papers/ipccreports/climate_change_2001/working_group2/WG2_spm.pdf",
+   "status": "ok",
+   "terms": "all",
+   "kb": "src-s5-ipcc-2001"
   },
   {
    "key": "S6",
@@ -2256,9 +2260,10 @@
    "year": 2001,
    "type": "assessment",
    "url": "https://www-iam.nies.go.jp/aim/india0210/cc_papers/ipccreports/climate_change_2001/working_group2/WG2_09.pdf",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20261106192855/https://www-iam.nies.go.jp/aim/india0210/cc_papers/ipccreports/climate_change_2001/working_group2/WG2_09.pdf",
+   "status": "ok",
+   "terms": "all",
+   "kb": "src-s6-ipcc-2001"
   },
   {
    "key": "S7",
@@ -2267,9 +2272,10 @@
    "year": 2008,
    "type": "agency",
    "url": "https://www.who.int/publications/i/item/9789289071918",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20261014161206/https://www.who.int/publications/i/item/9789289071918",
+   "status": "ok",
+   "terms": "all",
+   "kb": "src-s7-who-2008"
   },
   {
    "key": "S8",
@@ -2278,9 +2284,10 @@
    "year": 2015,
    "type": "agency",
    "url": "https://cdn.who.int/media/docs/default-source/climate-change/heat-waves-and-health---guidance-on-warning-system-development.pdf?download=true&sfvrsn=e4813084_2",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20260608090937/https://cdn.who.int/media/docs/default-source/climate-change/heat-waves-and-health---guidance-on-warning-system-development.pdf?sfvrsn=e4813084_2&download=true",
+   "status": "ok",
+   "terms": "all",
+   "kb": "src-s8-wmo-2015"
   },
   {
    "key": "S9",
@@ -2289,9 +2296,10 @@
    "year": 2018,
    "type": "agency",
    "url": "https://www.preventionweb.net/resource/case-study/innovative-heat-wave-early-warning-system-and-action-plan-ahmedabad-india",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20261106192912/https://www.preventionweb.net/resource/case-study/innovative-heat-wave-early-warning-system-and-action-plan-ahmedabad-india",
+   "status": "blocked",
+   "terms": "all",
+   "kb": "src-s9-who-2018"
   },
   {
    "key": "S10",
@@ -2300,9 +2308,9 @@
    "year": 2010,
    "type": "study",
    "url": "https://pubmed.ncbi.nlm.nih.gov/20439769/",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20260925205137/https://pubmed.ncbi.nlm.nih.gov/20439769/",
+   "status": "ok",
+   "terms": "some"
   },
   {
    "key": "S11",
@@ -2311,9 +2319,9 @@
    "year": 2011,
    "type": "agency",
    "url": "https://www.preventionweb.net/news/summary-policy-makers-new-special-report-extremes-srex-approved-ipcc",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20261106192932/https://www.preventionweb.net/news/summary-policy-makers-new-special-report-extremes-srex-approved-ipcc",
+   "status": "blocked",
+   "terms": "none"
   },
   {
    "key": "S12",
@@ -2322,9 +2330,10 @@
    "year": 2014,
    "type": "assessment",
    "url": "https://digitallibrary.un.org/nanna/record/3893122/files/SYR_AR5_FINAL_full.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20250403182655/https://digitallibrary.un.org/nanna/record/3893122/files/SYR_AR5_FINAL_full.pdf?withWatermark=0&withMetadata=0&registerDownload=1&version=1",
+   "status": "ok",
+   "terms": "all",
+   "kb": "src-s12-ipcc-2014"
   },
   {
    "key": "S13",
@@ -2333,9 +2342,9 @@
    "year": 2019,
    "type": "agency",
    "url": "https://www.undrr.org/news/heatwaves-lessons-india-dealing-growing-hazard",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20240331024625/https://www.undrr.org/news/heatwaves-lessons-india-dealing-growing-hazard",
+   "status": "blocked",
+   "terms": "none"
   },
   {
    "key": "S14",
@@ -2344,9 +2353,10 @@
    "year": null,
    "type": "agency",
    "url": "https://unfccc.int/topics/adaptation-and-resilience/workstreams/gga?trk=article-ssr-frontend-pulse_little-text-block",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20260329143102/https://unfccc.int/topics/adaptation-and-resilience/workstreams/gga?trk=article-ssr-frontend-pulse_little-text-block",
+   "status": "ok",
+   "terms": "all",
+   "kb": "src-s14-unfccc"
   },
   {
    "key": "S15",
@@ -2355,9 +2365,9 @@
    "year": null,
    "type": "agency",
    "url": "https://heathealth.info/about-us/",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20261001052351/https://heathealth.info/about-us/",
+   "status": "ok",
+   "terms": "all"
   },
   {
    "key": "S16",
@@ -2366,9 +2376,9 @@
    "year": 2018,
    "type": "agency",
    "url": "https://www.preventionweb.net/event/first-global-forum-heat-and-health",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20261106193003/https://www.preventionweb.net/event/first-global-forum-heat-and-health",
+   "status": "blocked",
+   "terms": "none"
   },
   {
    "key": "S17",
@@ -2377,9 +2387,9 @@
    "year": null,
    "type": "agency",
    "url": "https://heathealth.info/projects/",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20260211095332/https://heathealth.info/projects/",
+   "status": "ok",
+   "terms": "all"
   },
   {
    "key": "S18",
@@ -2388,9 +2398,9 @@
    "year": 2017,
    "type": "study",
    "url": "https://pubmed.ncbi.nlm.nih.gov/28782036/",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20261021132600/https://pubmed.ncbi.nlm.nih.gov/28782036/",
+   "status": "ok",
+   "terms": "some"
   },
   {
    "key": "S19",
@@ -2399,9 +2409,9 @@
    "year": 2018,
    "type": "study",
    "url": "https://pubmed.ncbi.nlm.nih.gov/30503045/",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20261004200847/https://pubmed.ncbi.nlm.nih.gov/30503045/",
+   "status": "ok",
+   "terms": "none"
   },
   {
    "key": "S20",
@@ -2410,9 +2420,10 @@
    "year": 2018,
    "type": "agency",
    "url": "https://unfccc.int/news/unfccc-secretariat-welcomes-ipcc-s-global-warming-of-15degc-report",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20261021191322/https://unfccc.int/news/unfccc-secretariat-welcomes-ipcc-s-global-warming-of-15degc-report",
+   "status": "ok",
+   "terms": "all",
+   "kb": "src-s20-unfccc-2018"
   },
   {
    "key": "S21",
@@ -2421,9 +2432,10 @@
    "year": 2019,
    "type": "assessment",
    "url": "https://wedocs.unep.org/bitstreams/8ef0970c-06fc-45fc-818e-78aebd997c1a/download",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20261106193030/https://wedocs.unep.org/server/api/core/bitstreams/8ef0970c-06fc-45fc-818e-78aebd997c1a/content",
+   "status": "ok",
+   "terms": "all",
+   "kb": "src-s21-ipcc-2019"
   },
   {
    "key": "S22",
@@ -2432,9 +2444,10 @@
    "year": 2019,
    "type": "agency",
    "url": "https://www.ilo.org/resource/news/increase-heat-stress-predicted-bring-productivity-loss-equivalent-80",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20261011023837/https://www.ilo.org/resource/news/increase-heat-stress-predicted-bring-productivity-loss-equivalent-80",
+   "status": "ok",
+   "terms": "all",
+   "kb": "src-s22-ilo-2019"
   },
   {
    "key": "S23",
@@ -2443,9 +2456,9 @@
    "year": 2020,
    "type": "study",
    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7209987/",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20260918083610/https://pmc.ncbi.nlm.nih.gov/articles/PMC7209987/",
+   "status": "ok",
+   "terms": "all"
   },
   {
    "key": "S24",
@@ -2454,9 +2467,10 @@
    "year": 2021,
    "type": "assessment",
    "url": "https://www.unccd.int/sites/default/files/library/1751_IPCC_AR6_WGI_SPM.pdf",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20261106193042/https://www.unccd.int/sites/default/files/library/1751_IPCC_AR6_WGI_SPM.pdf",
+   "status": "ok",
+   "terms": "all",
+   "kb": "src-s24-ipcc-2021"
   },
   {
    "key": "S25",
@@ -2465,9 +2479,9 @@
    "year": 2021,
    "type": "study",
    "url": "https://edoc.unibas.ch/entities/publication/a7377942-68b6-4aaa-b986-3e28f9d446f8",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20261106193057/https://edoc.unibas.ch/entities/publication/a7377942-68b6-4aaa-b986-3e28f9d446f8",
+   "status": "ok",
+   "terms": "all"
   },
   {
    "key": "S26",
@@ -2477,8 +2491,8 @@
    "type": "study",
    "url": "https://doi.org/10.1007/s00704-021-03758-y",
    "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "status": "redirect",
+   "terms": "none"
   },
   {
    "key": "S27",
@@ -2487,9 +2501,9 @@
    "year": 2022,
    "type": "study",
    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8799385/",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20260720061841/https://pmc.ncbi.nlm.nih.gov/articles/PMC8799385/",
+   "status": "ok",
+   "terms": "all"
   },
   {
    "key": "S28",
@@ -2498,9 +2512,9 @@
    "year": 2021,
    "type": "study",
    "url": "https://www.cdc.gov/mmwr/volumes/70/wr/mm7029e1.htm",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20260925003005/https://www.cdc.gov/mmwr/volumes/70/wr/mm7029e1.htm",
+   "status": "blocked",
+   "terms": "none"
   },
   {
    "key": "S29",
@@ -2509,9 +2523,10 @@
    "year": 2022,
    "type": "agency",
    "url": "https://unfccc.int/sites/default/files/resource/Final_Summary%20Report_IPCC%20WG2_06.10.2022.pdf",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20250114161830/https://unfccc.int/sites/default/files/resource/Final_Summary%20Report_IPCC%20WG2_06.10.2022.pdf",
+   "status": "ok",
+   "terms": "all",
+   "kb": "src-s29-unfccc-2022"
   },
   {
    "key": "S30",
@@ -2521,8 +2536,8 @@
    "type": "assessment",
    "url": "https://www.unccd.int/sites/default/files/library/1861_IPCC_AR6_WGIII_SummaryForPolicymakers.pdf",
    "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "status": "ok",
+   "terms": "all"
   },
   {
    "key": "S31",
@@ -2531,9 +2546,10 @@
    "year": 2022,
    "type": "agency",
    "url": "https://wmo.int/media/news/climate-change-made-heatwaves-india-and-pakistan-30-times-more-likely",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20260807202620/https://wmo.int/media/news/climate-change-made-heatwaves-india-and-pakistan-30-times-more-likely",
+   "status": "ok",
+   "terms": "all",
+   "kb": "src-s31-wmo-2022"
   },
   {
    "key": "S32",
@@ -2542,9 +2558,9 @@
    "year": 2023,
    "type": "agency",
    "url": "https://www.rockefellerfoundation.org/news/the-rockefeller-foundation-announces-support-for-the-india-extreme-heat-income-insurance-initiative-as-part-of-the-global-climate-resilience-fund-for-women/",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20260616222229/https://www.rockefellerfoundation.org/news/the-rockefeller-foundation-announces-support-for-the-india-extreme-heat-income-insurance-initiative-as-part-of-the-global-climate-resilience-fund-for-women/",
+   "status": "ok",
+   "terms": "all"
   },
   {
    "key": "S33",
@@ -2553,9 +2569,9 @@
    "year": 2023,
    "type": "agency",
    "url": "https://onebillionresilient.org/2023/05/03/bushra-afreen-dhaka-chief-heat-officer/",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20260617102749/https://onebillionresilient.org/2023/05/03/bushra-afreen-dhaka-chief-heat-officer/",
+   "status": "ok",
+   "terms": "all"
   },
   {
    "key": "S34",
@@ -2564,9 +2580,9 @@
    "year": 2023,
    "type": "plan",
    "url": "https://www.mom.gov.sg/newsroom/press-releases/2023/1024-enhanced-measures-to-reduce-heat-stress-for-outdoor-workers",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20260518184817/https://www.mom.gov.sg/newsroom/press-releases/2023/1024-enhanced-measures-to-reduce-heat-stress-for-outdoor-workers",
+   "status": "ok",
+   "terms": "all"
   },
   {
    "key": "S35",
@@ -2575,9 +2591,10 @@
    "year": 2023,
    "type": "agency",
    "url": "https://www.who.int/publications/m/item/cop28-uae-declaration-on-climate-and-health",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20261025011302/https://www.who.int/publications/m/item/cop28-uae-declaration-on-climate-and-health",
+   "status": "ok",
+   "terms": "all",
+   "kb": "src-s35-who-2023"
   },
   {
    "key": "S36",
@@ -2586,9 +2603,10 @@
    "year": 2024,
    "type": "decision",
    "url": "https://unfccc.int/sites/default/files/resource/cma2023_16a01E.pdf?download=",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20261026112302/https://unfccc.int/sites/default/files/resource/cma2023_16a01E.pdf?download=",
+   "status": "ok",
+   "terms": "all",
+   "kb": "src-s36-unfccc-2024"
   },
   {
    "key": "S37",
@@ -2597,9 +2615,10 @@
    "year": 2024,
    "type": "agency",
    "url": "https://www.unicef.org/press-releases/new-guidelines-launched-protect-children-and-pregnant-women-heat-stress-bangladesh",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20251018132853/https://www.unicef.org/press-releases/new-guidelines-launched-protect-children-and-pregnant-women-heat-stress-bangladesh",
+   "status": "ok",
+   "terms": "all",
+   "kb": "src-s37-unicef-2024"
   },
   {
    "key": "S38",
@@ -2608,9 +2627,10 @@
    "year": 2024,
    "type": "agency",
    "url": "https://www.who.int/news/item/25-07-2024-united-nations-secretary-general-calls-for-global-action-on-extreme-heat",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20260423015543/https://www.who.int/news/item/25-07-2024-united-nations-secretary-general-calls-for-global-action-on-extreme-heat",
+   "status": "ok",
+   "terms": "all",
+   "kb": "src-s38-who-2024"
   },
   {
    "key": "S39",
@@ -2619,9 +2639,10 @@
    "year": 2024,
    "type": "agency",
    "url": "https://www.ilo.org/resource/news/more-workers-ever-are-losing-fight-against-heat-stress",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20261004174018/https://www.ilo.org/resource/news/more-workers-ever-are-losing-fight-against-heat-stress",
+   "status": "ok",
+   "terms": "all",
+   "kb": "src-s39-ilo-2024"
   },
   {
    "key": "S40",
@@ -2630,9 +2651,9 @@
    "year": 2025,
    "type": "agency",
    "url": "https://www.mse.gov.sg/latest-news/opening-address-by-sms-koh-poh-koon-ghhin-heat-health-forum/",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20260606102036/https://www.mse.gov.sg/latest-news/opening-address-by-sms-koh-poh-koon-ghhin-heat-health-forum/",
+   "status": "ok",
+   "terms": "all"
   },
   {
    "key": "S41",
@@ -2641,9 +2662,10 @@
    "year": 2025,
    "type": "agency",
    "url": "https://www.who.int/news/item/22-08-2025-who-wmo-issue-new-report-and-guidance-to-protect-workers-from-increasing-heat-stress",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20261011062440/https://www.who.int/news/item/22-08-2025-who-wmo-issue-new-report-and-guidance-to-protect-workers-from-increasing-heat-stress",
+   "status": "ok",
+   "terms": "all",
+   "kb": "src-s41-who-2025"
   },
   {
    "key": "S42",
@@ -2652,9 +2674,9 @@
    "year": 2025,
    "type": "agency",
    "url": "https://www.worldbank.org/en/news/press-release/2025/09/16/bangladesh-faces-health-and-economic-risks-from-rising-temperature-world-bank",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20261024092728/https://www.worldbank.org/en/news/press-release/2025/09/16/bangladesh-faces-health-and-economic-risks-from-rising-temperature-world-bank",
+   "status": "ok",
+   "terms": "all"
   },
   {
    "key": "S43",
@@ -2664,8 +2686,8 @@
    "type": "agency",
    "url": "https://www.unep.org/en/news-and-stories/press-release/brazil-italy-announce-new-push-and-funding-cooling-action-ahead",
    "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "status": "ok",
+   "terms": "all"
   },
   {
    "key": "S44",
@@ -2674,9 +2696,10 @@
    "year": 2025,
    "type": "agency",
    "url": "https://www.who.int/news-room/events/detail/2025/11/13/default-calendar/cop30-health-day",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20260130091539/https://www.who.int/news-room/events/detail/2025/11/13/default-calendar/cop30-health-day",
+   "status": "ok",
+   "terms": "some",
+   "kb": "src-s44-who-2025"
   },
   {
    "key": "S45",
@@ -2685,9 +2708,9 @@
    "year": 2026,
    "type": "agency",
    "url": "https://heathealth.info/news/south-asia-hub-launched/",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20260616081103/https://heathealth.info/news/south-asia-hub-launched/",
+   "status": "ok",
+   "terms": "all"
   },
   {
    "key": "S46",
@@ -2697,8 +2720,8 @@
    "type": "agency",
    "url": "https://www.undrr.org/publication/documents-and-publications/financing-heat-resilience",
    "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "status": "blocked",
+   "terms": "none"
   },
   {
    "key": "S47",
@@ -2708,8 +2731,8 @@
    "type": "agency",
    "url": "https://public.wmo.int/news/media-centre/extreme-heat-and-rainfall-glacier-loss-and-record-ocean-heat-impact-asia-2025",
    "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "status": "ok",
+   "terms": "all"
   },
   {
    "key": "S48",
@@ -2718,9 +2741,10 @@
    "year": 2026,
    "type": "agency",
    "url": "https://www.who.int/publications/i/item/9789240125063",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20261106193316/https://www.who.int/publications/i/item/9789240125063",
+   "status": "ok",
+   "terms": "all",
+   "kb": "src-s48-who-2026"
   },
   {
    "key": "S49",
@@ -2729,9 +2753,9 @@
    "year": 2026,
    "type": "agency",
    "url": "https://files.emdat.be/reports/2025_EMDAT_report.pdf",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20261001160200/https://files.emdat.be/reports/2025_EMDAT_report.pdf",
+   "status": "ok",
+   "terms": "all"
   },
   {
    "key": "S50",
@@ -2740,9 +2764,9 @@
    "year": 2024,
    "type": "plan",
    "url": "https://dpnet.org.np/public/uploads/files/heatwave_eng_webpublish%202026-01-20%2005-39-23.pdf",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20261106193338/https://dpnet.org.np/public/uploads/files/heatwave_eng_webpublish%202026-01-20%2005-39-23.pdf",
+   "status": "ok",
+   "terms": "all"
   },
   {
    "key": "S51",
@@ -2751,9 +2775,9 @@
    "year": 2026,
    "type": "agency",
    "url": "https://managenergy.ec.europa.eu/managenergy-discover/managenergy-news/ipcc-opens-expert-review-special-report-climate-change-and-cities-2026-06-03_en",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20260613115145/https://managenergy.ec.europa.eu/managenergy-discover/managenergy-news/ipcc-opens-expert-review-special-report-climate-change-and-cities-2026-06-03_en",
+   "status": "ok",
+   "terms": "all"
   },
   {
    "key": "S52",
@@ -2762,9 +2786,10 @@
    "year": null,
    "type": "agency",
    "url": "https://www.who.int/europe/activities/planning-heat-health-action",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20260906135740/https://www.who.int/europe/activities/planning-heat-health-action",
+   "status": "ok",
+   "terms": "all",
+   "kb": "src-s52-who"
   },
   {
    "key": "S53",
@@ -2774,8 +2799,8 @@
    "type": "agency",
    "url": "https://cambodia-kh.afd.fr/en/ressources/summary-ipcc-special-report-ocean-and-cryosphere-changing-climate-srocc",
    "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "status": "ok",
+   "terms": "all"
   },
   {
    "key": "S54",
@@ -2784,9 +2809,10 @@
    "year": 2023,
    "type": "agency",
    "url": "https://www.unccd.int/resources/unccd-library/climate-change-2023-ar6-synthesis-report",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20261106193410/https://www.unccd.int/resources/unccd-library/climate-change-2023-ar6-synthesis-report",
+   "status": "ok",
+   "terms": "all",
+   "kb": "src-s54-unccd-2023"
   },
   {
    "key": "S55",
@@ -2795,9 +2821,9 @@
    "year": null,
    "type": "agency",
    "url": "https://www.preventionweb.net/understanding-disaster-risk/disaster-losses-and-statistics",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20261013100852/https://www.preventionweb.net/understanding-disaster-risk/disaster-losses-and-statistics",
+   "status": "blocked",
+   "terms": "none"
   },
   {
    "key": "S56",
@@ -2806,9 +2832,9 @@
    "year": 2015,
    "type": "decision",
    "url": "https://www.undrr.org/publication/sendai-framework-disaster-risk-reduction-2015-2030",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20261022201919/https://www.undrr.org/publication/sendai-framework-disaster-risk-reduction-2015-2030",
+   "status": "blocked",
+   "terms": "none"
   },
   {
    "key": "S57",
@@ -2817,9 +2843,9 @@
    "year": null,
    "type": "agency",
    "url": "https://www.weather.gov/mkx/1995_heat-wave",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20260218033621/https://www.weather.gov/mkx/1995_heat-wave",
+   "status": "ok",
+   "terms": "all"
   },
   {
    "key": "S58",
@@ -2828,9 +2854,9 @@
    "year": 1976,
    "type": "agency",
    "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=91008J1A.TXT",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20250415133032/https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=91008J1A.TXT",
+   "status": "ok",
+   "terms": "none"
   },
   {
    "key": "S59",
@@ -2839,9 +2865,10 @@
    "year": 2022,
    "type": "agency",
    "url": "https://www.unccd.int/resources/unccd-library/climate-change-2022-impacts-adaptation-and-vulnerability",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20261106193440/https://www.unccd.int/resources/unccd-library/climate-change-2022-impacts-adaptation-and-vulnerability",
+   "status": "ok",
+   "terms": "all",
+   "kb": "src-s59-unccd-2022"
   },
   {
    "key": "S60",
@@ -2850,9 +2877,9 @@
    "year": null,
    "type": "agency",
    "url": "https://onebillionresilient.org/project/extreme-heat-protection-initiative/",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20260926050639/https://onebillionresilient.org/project/extreme-heat-protection-initiative/",
+   "status": "ok",
+   "terms": "all"
   },
   {
    "key": "S61",
@@ -2861,9 +2888,10 @@
    "year": 2013,
    "type": "assessment",
    "url": "https://digitallibrary.un.org/record/3841704/files/WG1AR5_SummaryVolume_FINAL.pdf",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20261106194222/https://digitallibrary.un.org/record/3841704/files/WG1AR5_SummaryVolume_FINAL.pdf",
+   "status": "ok",
+   "terms": "all",
+   "kb": "src-s61-ipcc-2013"
   },
   {
    "key": "S62",
@@ -2872,9 +2900,10 @@
    "year": 1992,
    "type": "assessment",
    "url": "https://www.ipcc.ch/site/assets/uploads/2020/02/ipcc_wg_II_1992_suppl_report_full_report.pdf",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20261106194229/https://www.ipcc.ch/site/assets/uploads/2020/02/ipcc_wg_II_1992_suppl_report_full_report.pdf",
+   "status": "ok",
+   "terms": "all",
+   "kb": "src-s62-ipcc-1992"
   },
   {
    "key": "S63",
@@ -2883,9 +2912,10 @@
    "year": 2000,
    "type": "assessment",
    "url": "https://unfccc.int/resource/tet/d/Pop-up3.0_1.pdf",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20250903015845/https://unfccc.int/resource/tet/d/Pop-up3.0_1.pdf",
+   "status": "ok",
+   "terms": "all",
+   "kb": "src-s63-ipcc-2000"
   },
   {
    "key": "S64",
@@ -2894,9 +2924,10 @@
    "year": 2023,
    "type": "agency",
    "url": "https://unfccc.int/event/sbsta-ipcc-special-event-key-findings-of-the-sixth-assessment-synthesis-report",
-   "archive": "",
-   "status": "unchecked",
-   "terms": "unchecked"
+   "archive": "https://web.archive.org/web/20240326013810/http://unfccc.int/event/sbsta-ipcc-special-event-key-findings-of-the-sixth-assessment-synthesis-report",
+   "status": "ok",
+   "terms": "all",
+   "kb": "src-s64-unfccc-2023"
   }
  ]
 }

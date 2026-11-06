@@ -61,8 +61,14 @@ for (const e of EVENTS) {
   const src = keep(e.sources, `Event ${e.id}`);
   if (!src.length) { log.push(`- Event ${e.id} (${e.title}): dropped. None of its sources survived the checks.`); continue; }
   let grade = (ed.grade || e.grade).toLowerCase();
-  if (src.every(k => sources[k].terms === "none") && grade !== "uncertain") { log.push(`- Event ${e.id} (${e.title}): graded uncertain. Its sources showed none of their expected terms.`); grade = "uncertain"; }
-  events.push({ id: e.id, date: e.date, precision: e.precision, title: ed.title || e.title, what: ed.what || e.what, why: ed.why || e.why,
+  // an event whose sources could not be read to confirm it: graded uncertain, shown with its year only, and any figure
+  // it carried is reworded away in edits.json (each with its reason)
+  let date = e.date, precision = e.precision;
+  if (src.every(k => sources[k].terms === "none")) {
+    if (grade !== "uncertain") log.push(`- Event ${e.id} (${e.title}): graded uncertain, year only. Its sources could not be read to confirm it.${ed.what ? " Reworded: " + ed.reason : ""}`);
+    grade = "uncertain"; date = e.date.slice(0, 4); precision = "year";
+  } else if (ed.what) log.push(`- Event ${e.id}: reworded. ${ed.reason}`);
+  events.push({ id: e.id, date, precision, title: ed.title || e.title, what: ed.what || e.what, why: ed.why || e.why,
     threads: e.threads, scope: e.scope, place: e.place || "", asia: e.asia === "direct", grade,
     first: e.first === "claimed" ? "claimed" : "no", quote: e.quote || "", quote_loc: e.quote_loc || "",
     ...(HEAT[e.id] ? { heatwave: HEAT[e.id] } : {}), sources: src });
@@ -104,7 +110,7 @@ const unverified = [...part("F", "ZZ").matchAll(/^- \*\*([^*]+)\*\*\s*(.*)$/gm)]
 const A = part("A", "B"), cutoff = (A.match(/Research cut-off: \*\*([^*]+)\*\*/) || [, ""])[1];
 const out = {
   about: "How heat became visible: when science, health, labour, finance and the UN began to notice extreme heat. Built by research/2026-11/heat-visibility/convert.js from checked research; shown on /how-heat-became-visible/.",
-  cutoff, grades: { known: "Original documents, peer-reviewed papers, or institutions reporting their own actions.", inferred: "Reached through secondary accounts.", uncertain: "Its sources could not confirm the detail." },
+  cutoff, grades: { known: "Original documents, peer-reviewed papers, or institutions reporting their own actions.", inferred: "Reached through secondary accounts.", uncertain: "Its sources could not be read to confirm it, so only its year and its general point are shown." },
   caveats: [
     "Grades describe the evidence for what happened. Why each event mattered is historical interpretation, not a measured effect.",
     "A claimed first is shown as claimed, with its source; no first use of an IPCC heat term is asserted.",
