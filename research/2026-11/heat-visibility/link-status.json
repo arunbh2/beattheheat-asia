@@ -1,0 +1,32 @@
+{
+ "https://cambodia-kh.afd.fr/en/ressources/summary-ipcc-special-report-ocean-and-cryosphere-changing-climate-srocc": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://doi.org/10.1007/s00704-021-03758-y": {
+  "status": "REDIRECT",
+  "code": 200,
+  "archive": ""
+ },
+ "https://public.wmo.int/news/media-centre/extreme-heat-and-rainfall-glacier-loss-and-record-ocean-heat-impact-asia-2025": {
+  "status": "OK",
+  "code": 200,
+  "archive": "https://web.archive.org/web/20261106194636/https://public.wmo.int/news/media-centre/extreme-heat-and-rainfall-glacier-loss-and-record-ocean-heat-impact-asia-2025"
+ },
+ "https://www.unccd.int/sites/default/files/library/1861_IPCC_AR6_WGIII_SummaryForPolicymakers.pdf": {
+  "status": "OK",
+  "code": 200,
+  "archive": "https://web.archive.org/web/20261106194443/https://www.unccd.int/sites/default/files/library/1861_IPCC_AR6_WGIII_SummaryForPolicymakers.pdf"
+ },
+ "https://www.undrr.org/publication/documents-and-publications/financing-heat-resilience": {
+  "status": "BLOCKED",
+  "code": 403,
+  "archive": "https://web.archive.org/web/20261106194607/https://www.undrr.org/publication/documents-and-publications/financing-heat-resilience"
+ },
+ "https://www.unep.org/en/news-and-stories/press-release/brazil-italy-announce-new-push-and-funding-cooling-action-ahead": {
+  "status": "OK",
+  "code": 200,
+  "archive": "https://web.archive.org/web/20261106194502/https://www.unep.org/en/news-and-stories/press-release/brazil-italy-announce-new-push-and-funding-cooling-action-ahead"
+ }
+}
