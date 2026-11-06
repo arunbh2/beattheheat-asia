@@ -41,14 +41,14 @@
    "Chicago 1995": true
   },
   "https://www.preventionweb.net/resource/case-study/innovative-heat-wave-early-warning-system-and-action-plan-ahmedabad-india": {
-   "May 2010": false,
-   "April 2013": false,
-   "Health Department": false
+   "May 2010": true,
+   "April 2013": true,
+   "Health Department": true
   },
   "https://pubmed.ncbi.nlm.nih.gov/20439769/": {
    "Epub 2010 May 3": false,
-   "wet-bulb temperature": false,
-   "hyperthermia": false
+   "wet-bulb temperature": true,
+   "hyperthermia": true
   },
   "https://www.preventionweb.net/news/summary-policy-makers-new-special-report-extremes-srex-approved-ipcc": {
    "18 November 2011": false,
@@ -87,8 +87,8 @@
   },
   "https://pubmed.ncbi.nlm.nih.gov/28782036/": {
    "2017 Aug 2": false,
-   "Ganges and Indus": false,
-   "wet-bulb temperature": false
+   "Ganges and Indus": true,
+   "wet-bulb temperature": true
   },
   "https://pubmed.ncbi.nlm.nih.gov/30503045/": {
    "41 indicators": false,
@@ -131,9 +131,9 @@
    "doubling within about": false
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC8799385/": {
-   "2021 Dec 16": false,
-   "24 subjects": false,
-   "30.55": false
+   "2021 Dec 16": true,
+   "24 subjects": true,
+   "30.55": true
   },
   "https://www.cdc.gov/mmwr/volumes/70/wr/mm7029e1.htm": {
    "June 25–30": false,
@@ -251,9 +251,9 @@
    "Responsible": true
   },
   "https://managenergy.ec.europa.eu/managenergy-discover/managenergy-news/ipcc-opens-expert-review-special-report-climate-change-and-cities-2026-06-03_en": {
-   "3 June 2026": false,
-   "8 May to 3 July 2026": false,
-   "March 2027": false
+   "3 June 2026": true,
+   "8 May to 3 July 2026": true,
+   "March 2027": true
   },
   "https://www.who.int/europe/activities/planning-heat-health-action": {
    "2021": true,
@@ -371,7 +371,7 @@
  "https://www.who.int/publications/i/item/9789240125063": "OK",
  "https://files.emdat.be/reports/2025_EMDAT_report.pdf": "OK",
  "https://dpnet.org.np/public/uploads/files/heatwave_eng_webpublish%202026-01-20%2005-39-23.pdf": "OK",
- "https://managenergy.ec.europa.eu/managenergy-discover/managenergy-news/ipcc-opens-expert-review-special-report-climate-change-and-cities-2026-06-03_en": "FAIL",
+ "https://managenergy.ec.europa.eu/managenergy-discover/managenergy-news/ipcc-opens-expert-review-special-report-climate-change-and-cities-2026-06-03_en": "OK",
  "https://www.who.int/europe/activities/planning-heat-health-action": "OK",
  "https://cambodia-kh.afd.fr/en/ressources/summary-ipcc-special-report-ocean-and-cryosphere-changing-climate-srocc": "OK",
  "https://www.unccd.int/resources/unccd-library/climate-change-2023-ar6-synthesis-report": "OK",
