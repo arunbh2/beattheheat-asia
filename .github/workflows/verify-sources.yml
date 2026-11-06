@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       month:
-        description: The inbox month to verify (YYYY-MM)
+        description: The inbox to verify (YYYY-MM, or YYYY-MM-topic for a separate batch)
         required: true
 permissions:
   contents: write
@@ -19,6 +19,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Install pdftotext, so PDF sources can be checked
+        run: sudo apt-get install -y -qq poppler-utils >/dev/null || echo "pdftotext not installed; PDF terms will read as missing"
       - run: node tools/verify-inbox.js "${{ inputs.month }}"
       - name: Commit the results
         run: |

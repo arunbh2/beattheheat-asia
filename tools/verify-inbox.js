@@ -7,11 +7,14 @@
 //   4. saves short excerpts of the real text around each term to _excerpts.json, so the reviewer writes from what
 //      the page says, not from memory.
 // Results go to link-check.json ({ url: status, _terms: { url: { term: true|false } } }), which gate 2 reads.
-// Usage: node tools/verify-inbox.js 2026-11
+// PDFs are read through pdftotext (poppler-utils, installed by the workflow), so a report's own words can be checked;
+// without it a PDF's terms read as missing. Archived copies are fetched raw (the archive's "id_" form, without its toolbar).
+// Usage: node tools/verify-inbox.js 2026-11            the month's inbox, data/inbox/2026-11/
+//        node tools/verify-inbox.js 2026-11-some-topic a separate batch, data/inbox/2026-11-some-topic/ (not merged monthly)
 "use strict";
-const fs = require("fs"), path = require("path");
+const fs = require("fs"), path = require("path"), os = require("os"), { execFileSync } = require("child_process");
 const month = process.argv[2];
-if (!/^\d{4}-\d{2}$/.test(month || "")) { console.error("usage: node tools/verify-inbox.js YYYY-MM"); process.exit(2); }
+if (!/^\d{4}-\d{2}(-[a-z0-9-]+)?$/.test(month || "")) { console.error("usage: node tools/verify-inbox.js YYYY-MM[-topic]"); process.exit(2); }
 const DIR = path.join(__dirname, "..", "data", "inbox", month);
 const UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36";
 const files = fs.existsSync(DIR) ? fs.readdirSync(DIR).filter(f => f.endsWith(".json") && !f.startsWith("_") && f !== "link-check.json") : [];
@@ -20,9 +23,18 @@ if (!files.length) { console.error(`no records in data/inbox/${month}`); process
 async function get(u, ms = 30000) {
   const ctl = new AbortController(), t = setTimeout(() => ctl.abort(), ms);
   try { const r = await fetch(u, { redirect: "follow", signal: ctl.signal, headers: { "User-Agent": UA, "Accept": "text/html,application/pdf,*/*" } });
-    const body = r.ok ? await r.text() : ""; return { ok: r.ok, status: r.status, url: r.url, body, headers: r.headers };
+    const body = r.ok ? bodyText(Buffer.from(await r.arrayBuffer()), r.headers.get("content-type") || "") : "";
+    return { ok: r.ok, status: r.status, url: r.url, body, headers: r.headers };
   } catch (e) { return { ok: false, status: e.name === "AbortError" ? "timeout" : (e.cause && e.cause.code) || e.message, url: u, body: "" }; } finally { clearTimeout(t); }
 }
+// a response as text: a PDF through pdftotext (its text is plain, so it is wrapped to pass through text() unchanged)
+function bodyText(buf, type) {
+  if (!/pdf/i.test(type) && buf.subarray(0, 5).toString() !== "%PDF-") return buf.toString("utf8");
+  const f = path.join(os.tmpdir(), `verify-${process.pid}-${Date.now()}.pdf`);
+  try { fs.writeFileSync(f, buf); return execFileSync("pdftotext", ["-q", "-enc", "UTF-8", f, "-"], { maxBuffer: 64 * 1024 * 1024 }).toString("utf8").replace(/</g, " "); }
+  catch (e) { return ""; } finally { try { fs.unlinkSync(f); } catch (e) {} }
+}
+const raw = a => a.replace(/(\/web\/\d+)(?:[a-z]{2}_)?\//, "$1id_/");   // an archived copy as it was saved, without the archive's toolbar
 const text = html => html.replace(/<(script|style|noscript)[\s\S]*?<\/\1>/gi, " ").replace(/<[^>]+>/g, " ").replace(/&nbsp;|&#160;/g, " ")
   .replace(/&amp;/g, "&").replace(/&#8217;|&rsquo;|&#x2019;/g, "’").replace(/&#8216;|&lsquo;/g, "‘").replace(/&quot;|&#8220;|&#8221;|&ldquo;|&rdquo;/g, '"').replace(/&[a-z#0-9]+;/gi, " ").replace(/\s+/g, " ").trim();
 const norm = s => s.toLowerCase().replace(/[’‘]/g, "'").replace(/[“”]/g, '"').replace(/\s+/g, " ");
@@ -58,7 +70,7 @@ function around(body, nb, terms) {
       links[r.url] = status;
       if (!r.archive) { const a = await archiveOf(r.url); if (a) { r.archive = a; changed = true; } }
       let body = page.ok ? text(page.body) : "";
-      if (!body && r.archive) { const ar = await get(r.archive, 60000); if (ar.ok) body = text(ar.body); }
+      if (!body && r.archive) { const ar = await get(raw(r.archive), 60000); if (ar.ok) body = text(ar.body); }
       const nb = norm(body), found = {};
       (r.expect || []).forEach(t => { found[t] = nb.includes(norm(t)); });
       links._terms[r.url] = found;
