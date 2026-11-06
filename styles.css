@@ -4087,6 +4087,17 @@ html:not(.rf-js) .rf-co-tabs{display:none}
 .evm-live small{display:block;color:var(--grey-700);margin-top:2px}.evm-live-list{padding-left:1.1em;line-height:1.55}.evm-live-list:empty{display:none}
 .hap-gaps-h{margin:18px 0 8px;font-size:.95rem}
 
+/* The door: one question under the hero ("I work as:"), opening the matching path in Find your way in */
+.role-door{background:var(--ink,#16202B);color:#FAF7F2;padding:clamp(18px,3.4vw,28px) 0;border-top:1px solid rgba(246,231,215,.12)}
+.role-door__in{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px}
+.role-door__k{margin:0;font-weight:700;font-size:1.05rem;color:#F6E7D7}
+.role-door__opts{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none}
+.role-door__opt{display:inline-flex;align-items:center;min-height:44px;padding:8px 16px;border:1.5px solid rgba(246,231,215,.45);border-radius:999px;color:#FAF7F2;font-weight:600;text-decoration:none;transition:background-color .16s var(--ease-out,ease-out),border-color .16s var(--ease-out,ease-out),color .16s var(--ease-out,ease-out)}
+@media (hover:hover){.role-door__opt:hover{border-color:var(--orange,#F26430);background:rgba(242,100,48,.14)}}
+.role-door__opt:focus-visible{outline:3px solid var(--orange,#F26430);outline-offset:3px}
+.role-door__opt[aria-current]{background:var(--orange,#F26430);border-color:var(--orange,#F26430);color:var(--ink,#16202B)}
+.role-door__note{flex-basis:100%;margin:2px 0 0;font-size:.875rem;color:rgba(246,231,215,.78)}
+@media (prefers-reduced-motion:reduce){.role-door__opt{transition:none}}
 /* ---- Homepage launch card: the 20-second film (media/launch/, made by tools/launch/) ---- */
 .launch{background:var(--ink,#16202B);color:#FAF7F2;padding:clamp(28px,5vw,56px) 0;border-top:1px solid rgba(246,231,215,.12)}
 .launch__in{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:clamp(20px,4vw,48px);align-items:center}

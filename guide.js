@@ -8,7 +8,7 @@
   const G = GUIDE, KEY = "bth-guide-v1", HOME = !!document.getElementById("explore");
   const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const track = name => { try { if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: name, title: name, event: true }); } catch (e) {} };
-  let S = { reason: "", time: "", done: {}, seen: false };
+  let S = { reason: "", time: "", role: "", done: {}, seen: false };
   try { S = Object.assign(S, JSON.parse(localStorage.getItem(KEY) || "{}")); } catch (e) {}
   const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} };
   const mins = t => { const m = /(\d+)(?:–(\d+))?\s*min/.exec(t); return m ? +(m[2] || m[1]) : 0; };
@@ -66,11 +66,32 @@
 
 
 
+  // the door under the hero: one role answers the first question here, and the guide below asks how much time
+  function renderDoor() {
+    document.querySelectorAll("[data-door]").forEach(a => {
+      if (!G.reasons.some(r => r.id === a.dataset.doorReason)) { a.closest("li").hidden = true; return; } // a role whose path no longer exists
+      const on = S.role === a.dataset.door && S.reason === a.dataset.doorReason;
+      if (on) a.setAttribute("aria-current", "true"); else a.removeAttribute("aria-current");
+    });
+  }
+  function openDoor(a) {
+    S.role = a.dataset.door; S.reason = a.dataset.doorReason; S.seen = true; save(); renderWay(); renderDoor(); track("door-" + S.role);
+    // with the time already chosen the path is ready; otherwise the next thing to answer is the time
+    const next = S.time ? document.querySelector(".wayin__stops [data-way-stop]") : document.querySelector("[data-way-time]");
+    const land = next && (next.closest(".wayin__path") || next.closest(".wayin__q")) || document.getElementById("start"); if (!land) return;
+    const head = document.querySelector("header.csn, .site-header"), still = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const top = land.getBoundingClientRect().top + window.scrollY - (head ? head.getBoundingClientRect().height : 0) - 16;
+    window.scrollTo({ top, behavior: still ? "auto" : "smooth" });
+    if (next) next.focus({ preventScroll: true });
+  }
+
   document.addEventListener("click", ev => {
     const t = ev.target, b = k => t.closest && t.closest(`[data-way-${k}]`);
-    if (b("reason")) { S.reason = b("reason").dataset.wayReason; S.seen = true; save(); renderWay(); track("way-" + S.reason); focusPath(); return; }
+    const door = t.closest && t.closest("[data-door]");
+    if (door) { ev.preventDefault(); openDoor(door); return; }
+    if (b("reason")) { S.reason = b("reason").dataset.wayReason; S.seen = true; save(); renderWay(); renderDoor(); track("way-" + S.reason); focusPath(); return; }
     if (b("time")) { S.time = b("time").dataset.wayTime; S.seen = true; save(); renderWay(); track("way-time-" + S.time); focusPath(); return; }
-    if (b("reset")) { S.reason = ""; S.time = ""; S.done = {}; save(); renderWay(); const f = document.querySelector("[data-way-reason]"); if (f) f.focus(); return; }
+    if (b("reset")) { S.reason = ""; S.time = ""; S.role = ""; S.done = {}; save(); renderWay(); renderDoor(); const f = document.querySelector("[data-way-reason]"); if (f) f.focus(); return; }
     if (b("stop")) { const id = b("stop").dataset.wayStop; S.done[id] = true; save(); track("way-stop-" + id); setTimeout(renderWay, 400); return; }
     if (b("tool")) { track("way-tool-" + b("tool").dataset.wayTool); }
   });
@@ -93,5 +114,5 @@
       <ul class="gw__tips">${G.workshopTips.map(t => `<li>${esc(t)}</li>`).join("")}</ul>`;
   }
 
-  renderWay(); renderToolkit(); renderSignpost(); renderWorkshop();
+  renderWay(); renderDoor(); renderToolkit(); renderSignpost(); renderWorkshop();
 })();
