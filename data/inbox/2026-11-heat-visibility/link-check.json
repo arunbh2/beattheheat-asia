@@ -1,0 +1,388 @@
+{
+ "_terms": {
+  "https://wedocs.unep.org/bitstreams/844c7e28-eb76-4262-b985-801907bf9f83/download": {
+   "1988": true,
+   "Human health": true,
+   "heat waves": true
+  },
+  "https://wedocs.unep.org/items/e58f3806-61a3-4d01-9913-a78e3c549da6": {
+   "1990": true,
+   "February 1992": true,
+   "Supplement": true
+  },
+  "https://unfccc.int/resource/docs/convkp/conveng.pdf": {
+   "human health and welfare": true,
+   "Article 2": true,
+   "public health": true
+  },
+  "https://www.cdc.gov/mmwr/preview/mmwrhtml/00038443.htm": {
+   "July 12-16, 1995": false,
+   "465 deaths": false,
+   "selection bias": false
+  },
+  "https://www-iam.nies.go.jp/aim/india0210/cc_papers/ipccreports/climate_change_2001/working_group2/WG2_spm.pdf": {
+   "Human Health": true,
+   "heat waves": true,
+   "very likely": true
+  },
+  "https://www-iam.nies.go.jp/aim/india0210/cc_papers/ipccreports/climate_change_2001/working_group2/WG2_09.pdf": {
+   "Human Health": true,
+   "Adaptation Options": true,
+   "heat": true
+  },
+  "https://www.who.int/publications/i/item/9789289071918": {
+   "1 January 2008": true,
+   "EuroHEAT": true,
+   "urban planning": true
+  },
+  "https://cdn.who.int/media/docs/default-source/climate-change/heat-waves-and-health---guidance-on-warning-system-development.pdf?download=true&sfvrsn=e4813084_2": {
+   "2015": true,
+   "WMO-No. 1142": true,
+   "Chicago 1995": true
+  },
+  "https://www.preventionweb.net/resource/case-study/innovative-heat-wave-early-warning-system-and-action-plan-ahmedabad-india": {
+   "May 2010": false,
+   "April 2013": false,
+   "Health Department": false
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/20439769/": {
+   "Epub 2010 May 3": false,
+   "wet-bulb temperature": false,
+   "hyperthermia": false
+  },
+  "https://www.preventionweb.net/news/summary-policy-makers-new-special-report-extremes-srex-approved-ipcc": {
+   "18 November 2011": false,
+   "Kampala": false,
+   "inequalities": false
+  },
+  "https://digitallibrary.un.org/nanna/record/3893122/files/SYR_AR5_FINAL_full.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0": {
+   "Synthesis Report": true,
+   "heat waves": true,
+   "labour productivity": true
+  },
+  "https://www.undrr.org/news/heatwaves-lessons-india-dealing-growing-hazard": {
+   "2016": false,
+   "Guidelines for Preparation": false,
+   "Heat-Wave": false
+  },
+  "https://unfccc.int/topics/adaptation-and-resilience/workstreams/gga?trk=article-ssr-frontend-pulse_little-text-block": {
+   "Article 7": true,
+   "2015 Paris Agreement": true,
+   "59 Belém Adaptation Indicators": true
+  },
+  "https://heathealth.info/about-us/": {
+   "founded in 2016": true,
+   "NOAA": true,
+   "Regional Hubs": true
+  },
+  "https://www.preventionweb.net/event/first-global-forum-heat-and-health": {
+   "Colombo in 2016": false,
+   "17 December 2018": false,
+   "Southeast Asia": false
+  },
+  "https://heathealth.info/projects/": {
+   "November 2016 and April 2017": true,
+   "Karachi": true,
+   "Heatwave Management Plan": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/28782036/": {
+   "2017 Aug 2": false,
+   "Ganges and Indus": false,
+   "wet-bulb temperature": false
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/30503045/": {
+   "41 indicators": false,
+   "153 billion": false,
+   "labour capacity": false
+  },
+  "https://unfccc.int/news/unfccc-secretariat-welcomes-ipcc-s-global-warming-of-15degc-report": {
+   "8 October 2018": true,
+   "420 million": true,
+   "severe heatwaves": true
+  },
+  "https://wedocs.unep.org/bitstreams/8ef0970c-06fc-45fc-818e-78aebd997c1a/download": {
+   "A.2.2": true,
+   "heatwaves": true,
+   "food security": true
+  },
+  "https://www.ilo.org/resource/news/increase-heat-stress-predicted-bring-productivity-loss-equivalent-80": {
+   "1 July 2019": true,
+   "2.2 per cent": true,
+   "southern Asia": true
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7209987/": {
+   "2020 May 8": true,
+   "South Asia": true,
+   "35°C": true
+  },
+  "https://www.unccd.int/sites/default/files/library/1751_IPCC_AR6_WGI_SPM.pdf": {
+   "A.3.1": true,
+   "virtually certain": true,
+   "hot extremes": true
+  },
+  "https://edoc.unibas.ch/entities/publication/a7377942-68b6-4aaa-b986-3e28f9d446f8": {
+   "732 locations": true,
+   "43 countries": true,
+   "37.0%": true
+  },
+  "https://doi.org/10.1007/s00704-021-03758-y": {
+   "03 September 2021": false,
+   "8,011 papers": false,
+   "doubling within about": false
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8799385/": {
+   "2021 Dec 16": false,
+   "24 subjects": false,
+   "30.55": false
+  },
+  "https://www.cdc.gov/mmwr/volumes/70/wr/mm7029e1.htm": {
+   "June 25–30": false,
+   "2,779": false,
+   "NSSP": false
+  },
+  "https://unfccc.int/sites/default/files/resource/Final_Summary%20Report_IPCC%20WG2_06.10.2022.pdf": {
+   "hyperthermia": true,
+   "extreme heat": true,
+   "IPCC": true
+  },
+  "https://www.unccd.int/sites/default/files/library/1861_IPCC_AR6_WGIII_SummaryForPolicymakers.pdf": {
+   "D.2.1": true,
+   "urban heat": true,
+   "high confidence": true
+  },
+  "https://wmo.int/media/news/climate-change-made-heatwaves-india-and-pakistan-30-times-more-likely": {
+   "2015": true,
+   "24 May 2022": true,
+   "Karachi": true
+  },
+  "https://www.rockefellerfoundation.org/news/the-rockefeller-foundation-announces-support-for-the-india-extreme-heat-income-insurance-initiative-as-part-of-the-global-climate-resilience-fund-for-women/": {
+   "February 6, 2023": true,
+   "SEWA": true,
+   "$500,000": true
+  },
+  "https://onebillionresilient.org/2023/05/03/bushra-afreen-dhaka-chief-heat-officer/": {
+   "May 3, 2023": true,
+   "Dhaka North": true,
+   "Chief Heat Officer": true
+  },
+  "https://www.mom.gov.sg/newsroom/press-releases/2023/1024-enhanced-measures-to-reduce-heat-stress-for-outdoor-workers": {
+   "32": true,
+   "24 October 2023": true,
+   "10 minutes": true
+  },
+  "https://www.who.int/publications/m/item/cop28-uae-declaration-on-climate-and-health": {
+   "3 December 2023": true,
+   "inaugural Health Day": true,
+   "declaration": true
+  },
+  "https://unfccc.int/sites/default/files/resource/cma2023_16a01E.pdf?download=": {
+   "2/CMA.5": true,
+   "Global goal on adaptation": true,
+   "health services": true
+  },
+  "https://www.unicef.org/press-releases/new-guidelines-launched-protect-children-and-pregnant-women-heat-stress-bangladesh": {
+   "5 May 2024": true,
+   "DGHS": true,
+   "National Guidelines": true
+  },
+  "https://www.who.int/news/item/25-07-2024-united-nations-secretary-general-calls-for-global-action-on-extreme-heat": {
+   "25 July 2024": true,
+   "protect workers": true,
+   "489 000": true
+  },
+  "https://www.ilo.org/resource/news/more-workers-ever-are-losing-fight-against-heat-stress": {
+   "25 July 2024": true,
+   "outside of heatwaves": true,
+   "21 countries": true
+  },
+  "https://www.mse.gov.sg/latest-news/opening-address-by-sms-koh-poh-koon-ghhin-heat-health-forum/": {
+   "7 Jan 2025": true,
+   "regional Southeast Asia hub": true,
+   "livelihoods and wellbeing": true
+  },
+  "https://www.who.int/news/item/22-08-2025-who-wmo-issue-new-report-and-guidance-to-protect-workers-from-increasing-heat-stress": {
+   "22 August 2025": true,
+   "2.4": true,
+   "occupational": true
+  },
+  "https://www.worldbank.org/en/news/press-release/2025/09/16/bangladesh-faces-health-and-economic-risks-from-rising-temperature-world-bank": {
+   "September 16, 2025": true,
+   "250 million workdays": true,
+   "$1.78 billion": true
+  },
+  "https://www.unep.org/en/news-and-stories/press-release/brazil-italy-announce-new-push-and-funding-cooling-action-ahead": {
+   "13 June 2025": true,
+   "EUR 2 million": true,
+   "Global Cooling Pledge": true
+  },
+  "https://www.who.int/news-room/events/detail/2025/11/13/default-calendar/cop30-health-day": {
+   "13 November 2025": true,
+   "Belém Health Action Plan": false,
+   "climate justice": true
+  },
+  "https://heathealth.info/news/south-asia-hub-launched/": {
+   "April 7, 2026": true,
+   "Wellcome": true,
+   "New Delhi": true
+  },
+  "https://www.undrr.org/publication/documents-and-publications/financing-heat-resilience": {
+   "2026": false,
+   "public budgets": false,
+   "parametric insurance": false
+  },
+  "https://public.wmo.int/news/media-centre/extreme-heat-and-rainfall-glacier-loss-and-record-ocean-heat-impact-asia-2025": {
+   "17 June 2026": true,
+   "Paro, Bhutan": true,
+   "marine heatwaves": true
+  },
+  "https://www.who.int/publications/i/item/9789240125063": {
+   "21 October 2026": true,
+   "four domains": true,
+   "priority indicators": true
+  },
+  "https://files.emdat.be/reports/2025_EMDAT_report.pdf": {
+   "2026-03-17": true,
+   "reporting delays": true,
+   "Extreme temperature": true
+  },
+  "https://dpnet.org.np/public/uploads/files/heatwave_eng_webpublish%202026-01-20%2005-39-23.pdf": {
+   "2024": true,
+   "Government of Nepal": true,
+   "Responsible": true
+  },
+  "https://managenergy.ec.europa.eu/managenergy-discover/managenergy-news/ipcc-opens-expert-review-special-report-climate-change-and-cities-2026-06-03_en": {
+   "3 June 2026": false,
+   "8 May to 3 July 2026": false,
+   "March 2027": false
+  },
+  "https://www.who.int/europe/activities/planning-heat-health-action": {
+   "2021": true,
+   "second edition": true,
+   "8 core elements": true
+  },
+  "https://cambodia-kh.afd.fr/en/ressources/summary-ipcc-special-report-ocean-and-cryosphere-changing-climate-srocc": {
+   "September 24, 2019": true,
+   "Monaco": true,
+   "adaptation options": true
+  },
+  "https://www.unccd.int/resources/unccd-library/climate-change-2023-ar6-synthesis-report": {
+   "2023": true,
+   "three Special Reports": true,
+   "disproportionately affected": true
+  },
+  "https://www.preventionweb.net/understanding-disaster-risk/disaster-losses-and-statistics": {
+   "2017": false,
+   "EM-DAT": false,
+   "DesInventar Sendai": false
+  },
+  "https://www.undrr.org/publication/sendai-framework-disaster-risk-reduction-2015-2030": {
+   "March 18, 2015": false,
+   "seven clear targets": false,
+   "health": false
+  },
+  "https://www.weather.gov/mkx/1995_heat-wave": {
+   "1995": true,
+   "official plan": true,
+   "public health emergency": true
+  },
+  "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=91008J1A.TXT": {
+   "1833": false,
+   "July 1976": false,
+   "Urban Heat Island Phenomenon": false
+  },
+  "https://www.unccd.int/resources/unccd-library/climate-change-2022-impacts-adaptation-and-vulnerability": {
+   "CHAPTER 7": true,
+   "CHAPTER 10": true,
+   "Poverty, livelihoods": true
+  },
+  "https://onebillionresilient.org/project/extreme-heat-protection-initiative/": {
+   "May 2023": true,
+   "21,000": true,
+   "Blue Marble": true
+  },
+  "https://digitallibrary.un.org/record/3841704/files/WG1AR5_SummaryVolume_FINAL.pdf": {
+   "Temperature Extremes, Heat Waves and Warm Spells": true,
+   "TFE.9": true,
+   "SREX": true
+  },
+  "https://www.ipcc.ch/site/assets/uploads/2020/02/ipcc_wg_II_1992_suppl_report_full_report.pdf": {
+   "heat island": true,
+   "heat stress": true,
+   "human health": true
+  },
+  "https://unfccc.int/resource/tet/d/Pop-up3.0_1.pdf": {
+   "Kathmandu": true,
+   "8 to 10 March 2000": true,
+   "Human health": true
+  },
+  "https://unfccc.int/event/sbsta-ipcc-special-event-key-findings-of-the-sixth-assessment-synthesis-report": {
+   "20 March 2023": true,
+   "three Special Reports": true,
+   "Interlaken": true
+  }
+ },
+ "https://wedocs.unep.org/bitstreams/844c7e28-eb76-4262-b985-801907bf9f83/download": "OK",
+ "https://wedocs.unep.org/items/e58f3806-61a3-4d01-9913-a78e3c549da6": "OK",
+ "https://unfccc.int/resource/docs/convkp/conveng.pdf": "OK",
+ "https://www.cdc.gov/mmwr/preview/mmwrhtml/00038443.htm": "BLOCKED",
+ "https://www-iam.nies.go.jp/aim/india0210/cc_papers/ipccreports/climate_change_2001/working_group2/WG2_spm.pdf": "OK",
+ "https://www-iam.nies.go.jp/aim/india0210/cc_papers/ipccreports/climate_change_2001/working_group2/WG2_09.pdf": "OK",
+ "https://www.who.int/publications/i/item/9789289071918": "OK",
+ "https://cdn.who.int/media/docs/default-source/climate-change/heat-waves-and-health---guidance-on-warning-system-development.pdf?download=true&sfvrsn=e4813084_2": "OK",
+ "https://www.preventionweb.net/resource/case-study/innovative-heat-wave-early-warning-system-and-action-plan-ahmedabad-india": "BLOCKED",
+ "https://pubmed.ncbi.nlm.nih.gov/20439769/": "OK",
+ "https://www.preventionweb.net/news/summary-policy-makers-new-special-report-extremes-srex-approved-ipcc": "BLOCKED",
+ "https://digitallibrary.un.org/nanna/record/3893122/files/SYR_AR5_FINAL_full.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0": "OK",
+ "https://www.undrr.org/news/heatwaves-lessons-india-dealing-growing-hazard": "BLOCKED",
+ "https://unfccc.int/topics/adaptation-and-resilience/workstreams/gga?trk=article-ssr-frontend-pulse_little-text-block": "OK",
+ "https://heathealth.info/about-us/": "OK",
+ "https://www.preventionweb.net/event/first-global-forum-heat-and-health": "BLOCKED",
+ "https://heathealth.info/projects/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/28782036/": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/30503045/": "OK",
+ "https://unfccc.int/news/unfccc-secretariat-welcomes-ipcc-s-global-warming-of-15degc-report": "OK",
+ "https://wedocs.unep.org/bitstreams/8ef0970c-06fc-45fc-818e-78aebd997c1a/download": "OK",
+ "https://www.ilo.org/resource/news/increase-heat-stress-predicted-bring-productivity-loss-equivalent-80": "OK",
+ "https://pmc.ncbi.nlm.nih.gov/articles/PMC7209987/": "OK",
+ "https://www.unccd.int/sites/default/files/library/1751_IPCC_AR6_WGI_SPM.pdf": "OK",
+ "https://edoc.unibas.ch/entities/publication/a7377942-68b6-4aaa-b986-3e28f9d446f8": "OK",
+ "https://doi.org/10.1007/s00704-021-03758-y": "REDIRECT",
+ "https://pmc.ncbi.nlm.nih.gov/articles/PMC8799385/": "OK",
+ "https://www.cdc.gov/mmwr/volumes/70/wr/mm7029e1.htm": "BLOCKED",
+ "https://unfccc.int/sites/default/files/resource/Final_Summary%20Report_IPCC%20WG2_06.10.2022.pdf": "OK",
+ "https://www.unccd.int/sites/default/files/library/1861_IPCC_AR6_WGIII_SummaryForPolicymakers.pdf": "OK",
+ "https://wmo.int/media/news/climate-change-made-heatwaves-india-and-pakistan-30-times-more-likely": "OK",
+ "https://www.rockefellerfoundation.org/news/the-rockefeller-foundation-announces-support-for-the-india-extreme-heat-income-insurance-initiative-as-part-of-the-global-climate-resilience-fund-for-women/": "OK",
+ "https://onebillionresilient.org/2023/05/03/bushra-afreen-dhaka-chief-heat-officer/": "OK",
+ "https://www.mom.gov.sg/newsroom/press-releases/2023/1024-enhanced-measures-to-reduce-heat-stress-for-outdoor-workers": "OK",
+ "https://www.who.int/publications/m/item/cop28-uae-declaration-on-climate-and-health": "OK",
+ "https://unfccc.int/sites/default/files/resource/cma2023_16a01E.pdf?download=": "OK",
+ "https://www.unicef.org/press-releases/new-guidelines-launched-protect-children-and-pregnant-women-heat-stress-bangladesh": "OK",
+ "https://www.who.int/news/item/25-07-2024-united-nations-secretary-general-calls-for-global-action-on-extreme-heat": "OK",
+ "https://www.ilo.org/resource/news/more-workers-ever-are-losing-fight-against-heat-stress": "OK",
+ "https://www.mse.gov.sg/latest-news/opening-address-by-sms-koh-poh-koon-ghhin-heat-health-forum/": "OK",
+ "https://www.who.int/news/item/22-08-2025-who-wmo-issue-new-report-and-guidance-to-protect-workers-from-increasing-heat-stress": "OK",
+ "https://www.worldbank.org/en/news/press-release/2025/09/16/bangladesh-faces-health-and-economic-risks-from-rising-temperature-world-bank": "OK",
+ "https://www.unep.org/en/news-and-stories/press-release/brazil-italy-announce-new-push-and-funding-cooling-action-ahead": "OK",
+ "https://www.who.int/news-room/events/detail/2025/11/13/default-calendar/cop30-health-day": "OK",
+ "https://heathealth.info/news/south-asia-hub-launched/": "OK",
+ "https://www.undrr.org/publication/documents-and-publications/financing-heat-resilience": "BLOCKED",
+ "https://public.wmo.int/news/media-centre/extreme-heat-and-rainfall-glacier-loss-and-record-ocean-heat-impact-asia-2025": "OK",
+ "https://www.who.int/publications/i/item/9789240125063": "OK",
+ "https://files.emdat.be/reports/2025_EMDAT_report.pdf": "OK",
+ "https://dpnet.org.np/public/uploads/files/heatwave_eng_webpublish%202026-01-20%2005-39-23.pdf": "OK",
+ "https://managenergy.ec.europa.eu/managenergy-discover/managenergy-news/ipcc-opens-expert-review-special-report-climate-change-and-cities-2026-06-03_en": "FAIL",
+ "https://www.who.int/europe/activities/planning-heat-health-action": "OK",
+ "https://cambodia-kh.afd.fr/en/ressources/summary-ipcc-special-report-ocean-and-cryosphere-changing-climate-srocc": "OK",
+ "https://www.unccd.int/resources/unccd-library/climate-change-2023-ar6-synthesis-report": "OK",
+ "https://www.preventionweb.net/understanding-disaster-risk/disaster-losses-and-statistics": "BLOCKED",
+ "https://www.undrr.org/publication/sendai-framework-disaster-risk-reduction-2015-2030": "BLOCKED",
+ "https://www.weather.gov/mkx/1995_heat-wave": "OK",
+ "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=91008J1A.TXT": "OK",
+ "https://www.unccd.int/resources/unccd-library/climate-change-2022-impacts-adaptation-and-vulnerability": "OK",
+ "https://onebillionresilient.org/project/extreme-heat-protection-initiative/": "OK",
+ "https://digitallibrary.un.org/record/3841704/files/WG1AR5_SummaryVolume_FINAL.pdf": "OK",
+ "https://www.ipcc.ch/site/assets/uploads/2020/02/ipcc_wg_II_1992_suppl_report_full_report.pdf": "OK",
+ "https://unfccc.int/resource/tet/d/Pop-up3.0_1.pdf": "OK",
+ "https://unfccc.int/event/sbsta-ipcc-special-event-key-findings-of-the-sixth-assessment-synthesis-report": "OK"
+}
