@@ -746,7 +746,7 @@
     if (!byId[id]) return;
     state.story = null; state.inst = null; state.selected = id;
     const { ns, es, flow } = neighbourhood(id);
-    mark({ nodes: ns, edges: es, flow });
+    mark({ nodes: ns, edges: es, flow, levers: byId[id].levers.length ? [] : hopeFor(id) });
     byId[id].g.classList.add("current");
     declutter();
     renderNode(id);
@@ -949,6 +949,18 @@
       <p class="fp-box__go"><a href="#heat-now">See today’s heat in twelve cities</a> · ${extLink(F.map.url, "Today’s Climate Shift Index")}</p></div>`;
   }
 
+  // a harm with no lever of its own still ends with somewhere to act: the nearest levers on its chain (HARM_HOPE,
+  // reviewed by hand and checked by tools/build-data.js), or a plain note that the map has nothing here yet
+  const HOPE = typeof HARM_HOPE !== "undefined" ? HARM_HOPE : {};
+  const hopeFor = id => (HOPE[id] || []).filter(l => leverById[l]);
+  function hopeBox(id) {
+    if (!(id in HOPE)) return "";
+    const near = hopeFor(id).map(l => leverById[l]);
+    return near.length
+      ? `<h3 class="panel__h panel__h--break">Nearest places to act</h3><p class="panel__note">No lever on this map cuts this harm’s own links yet. These act close by, on the chain it is part of.</p><ul class="lever-list">${near.map(leverItem).join("")}</ul>`
+      : `<h3 class="panel__h panel__h--break">Nearest places to act</h3><p class="panel__note">No lever on this map reaches this harm yet. That is a gap in the map, not a sign that nothing can be done. Know what helps here? <a href="/join/">We would like to hear from you</a>.</p>`;
+  }
+
   function renderNode(id) {
     const n = byId[id];
     const loops = n.loops.map(lid => loopById[lid]);
@@ -962,7 +974,7 @@
       ${n.sources ? `<p class="panel__src">Evidence: ${n.sources.map(x => extLink(x.url, x.label)).join(" · ")}</p>` : ""}
       ${loops.length ? `<div class="loop-box"><p class="loop-box__h">Caught in ${plural(loops.length, "vicious cycle")}</p><ul class="loop-list">${loops.map(loopItem).join("")}</ul></div>` : ""}
       ${n.out.length ? `<button class="btn btn--full" data-act="ripple" data-id="${id}">Follow the ripple</button><p class="ripple-result" data-ripple-result hidden></p>` : ""}
-      ${levers.length ? `<h3 class="panel__h panel__h--break">Breaking points here</h3><ul class="lever-list">${levers.map(leverItem).join("")}</ul>` : ""}
+      ${levers.length ? `<h3 class="panel__h panel__h--break">Breaking points here</h3><ul class="lever-list">${levers.map(leverItem).join("")}</ul>` : hopeBox(id)}
       ${n.out.length ? `<h3 class="panel__h">Sets in motion <span>${n.out.length}</span></h3><ul class="conns">${n.out.map(e => connectionItem(e, "out")).join("")}</ul>` : ""}
       ${n.in.length ? `<h3 class="panel__h">Driven by <span>${n.in.length}</span></h3><ul class="conns">${n.in.map(e => connectionItem(e, "in")).join("")}</ul>` : ""}
       <button class="link" data-act="clear">← Back to the whole web</button>`;

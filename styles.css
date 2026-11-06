@@ -481,7 +481,7 @@ button { font: inherit; color: inherit; }
 .example { margin-top: 14px; padding: 12px 14px; border-left: 4px solid var(--break); background: var(--break-50); font-size: 0.93rem; }
 .example__src { display: block; margin-top: 6px; font-size: .8rem; }
 .panel__src, .list-src { margin-top: 8px; font-size: .8rem; }
-.panel__src a, .list-src a, .example__src a { color: inherit; }
+.panel__src a, .list-src a, .example__src a, .panel__note a { color: inherit; }
 .cut { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 6px; align-items: baseline; font-weight: 600; }
 
 .loop-box { margin-top: 16px; padding: 12px 14px 4px; border-left: 4px solid var(--ember); background: #FDF0F1; }
