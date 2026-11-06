@@ -1,12 +1,14 @@
 {
-  "loops": "See the cycles and where they break",
   "day": "Walk through the day",
-  "at-risk": "Meet the groups most at risk",
-  "who-holds": "See who can act",
-  "stalls": "See the seven conditions",
-  "cooling": "Explore cooling options",
-  "network": "Browse the organisations",
+  "heatweek": "Follow a week in the heat",
   "wicked": "Read why heat is wicked",
+  "city": "Look up a city",
+  "heatwaves": "See the heatwaves that shaped Asia",
+  "stalls": "See the seven conditions",
+  "who-holds": "See who can act",
+  "cooling": "Explore cooling options",
+  "finance": "See who pays, and how",
+  "plan": "Start a plan",
   "method": "Read how the map works",
   "glossary": "Open the glossary"
 }

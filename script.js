@@ -13,6 +13,9 @@
   // progressive disclosure on phones: whatever scrolls to, or links into, a collapsed section or list opens it first
   function reveal(el) {
     for (let n = el; n && n.classList; n = n.parentElement) {
+      if (n.classList.contains("lrow__more")) openRow(n.closest(".lrow"));
+      if (n.tagName === "DETAILS" && !n.open) n.open = true;
+      if (n.classList.contains("pd-fold")) openSection(n);   // a link to a folded section itself opens it too
       if (n.classList.contains("pd-more")) { const l = n.closest(".pd-list"); if (l) showAll(l); }
       if (n.classList.contains("pd-body")) openSection(n.closest("section"));
     }
@@ -21,6 +24,14 @@
   Element.prototype.scrollIntoView = function (...args) { reveal(this); return nativeScroll.apply(this, args); };
   document.addEventListener("click", ev => { const a = ev.target.closest && ev.target.closest('a[href^="#"]'); if (!a) return;
     const t = document.getElementById(decodeURIComponent(a.hash.slice(1))); if (t) reveal(t); }, true);
+  // a vicious cycle's row shows its name, summary and where it breaks; the rest opens on request
+  function openRow(row, open = true) {
+    if (!row) return;
+    row.classList.toggle("is-more", open);
+    const b = row.querySelector("[data-lrow-more]"); if (b) { b.setAttribute("aria-expanded", String(open)); b.textContent = open ? "Less on this cycle" : "More on this cycle"; }
+  }
+  document.addEventListener("click", ev => { const b = ev.target.closest && ev.target.closest("[data-lrow-more]"); if (!b) return;
+    const row = b.closest(".lrow"); openRow(row, !row.classList.contains("is-more")); });
   function openSection(sec) {
     if (!sec || sec.classList.contains("pd-is-open")) return;
     sec.classList.add("pd-is-open");
@@ -2314,7 +2325,7 @@
       const ls = LOOPS.filter(l => l.group === g.id);
       return `<div class="lgroup">
         <h3 class="lgroup__h">${esc(g.name)} <span>${plural(ls.length, "loop")}</span></h3>
-        ${ls.map(l => `
+        <div class="lgroup__rows">${ls.map(l => `
           <article class="lrow" data-loop="${l.id}">
             <div class="lrow__head">
               <h4><button class="lrow__name" data-story="${l.id}">${esc(l.name)}</button></h4>
@@ -2322,16 +2333,21 @@
               <span class="ev ev--broken">✓ Action switched on</span>
             </div>
             <p class="lrow__sum">${gloss(l.summary)}</p>
-            ${stakesHTML(l)}
-            ${watchButton("loop:" + l.id, "Watch this loop")}
-            ${chainHTML(l)}
-            ${typeof LOOP_PLACES !== "undefined" && LOOP_PLACES[l.id] ? `<p class="place"><span>Where to look</span>${esc(LOOP_PLACES[l.id])}</p>` : ""}
-            ${evidenceHTML(l, false)}
             ${l.levers.length ? `<p class="lrow__breaks"><span>Break it:</span> ${l.levers.map(lid => `<button class="lever-chip" data-lever="${lid}">${esc(leverById[lid].title)}<span class="lever-chip__when">${esc(WHEN[leverById[lid].when] || "")}</span></button>`).join("")}</p>` : ""}
-            ${solsHTML(l)}
-          </article>`).join("")}
+            <button type="button" class="link lrow__toggle" data-lrow-more aria-expanded="false" aria-controls="lrow-more-${l.id}">More on this cycle</button>
+            <div class="lrow__more" id="lrow-more-${l.id}">
+              ${stakesHTML(l)}
+              ${watchButton("loop:" + l.id, "Watch this loop")}
+              ${chainHTML(l)}
+              ${typeof LOOP_PLACES !== "undefined" && LOOP_PLACES[l.id] ? `<p class="place"><span>Where to look</span>${esc(LOOP_PLACES[l.id])}</p>` : ""}
+              ${evidenceHTML(l, false)}
+              ${solsHTML(l)}
+            </div>
+          </article>`).join("")}</div>
       </div>`;
     }).join("");
+    // two cycles per group in view; the rest one tap away (anything that links to a hidden one opens its group)
+    document.querySelectorAll("#loop-groups .lgroup__rows").forEach(rows => limitList(rows, 2, "loops in this group"));
 
     const ranked = nodes.filter(n => n.kind !== "domain" && n.loops.length > 1).sort((a, b) => b.loops.length - a.loops.length).slice(0, 6);
     document.getElementById("pressure-points").innerHTML = ranked.map(n => `<li><button class="pp" data-go="${n.id}"><span class="pp__n">${n.loops.length}</span><span class="pp__name">${esc(plain(n))}</span><span class="pp__meta">loops run through it</span></button></li>`).join("");
@@ -2369,8 +2385,8 @@
         <p class="org__does">${gloss(o.does)}</p>
         <p class="org__levers">${o.levers.map(v => leverById[v] ? `<button class="lever-chip" data-lever="${v}">${esc(leverById[v].title)}</button>` : "").join("")}</p>
       </li>`).join("");
-    // show a dozen at a time so the list never overwhelms
-    const FIRST = 12;
+    // show a few at a time so the list never overwhelms: four on a phone, eight on a wider screen
+    const FIRST = window.matchMedia("(max-width: 760px)").matches ? 4 : 8;
     let role = "all", side = "all", expanded = false, query = "";
     const search = document.getElementById("org-search"), count = document.getElementById("org-count");
     const more = document.createElement("button");
@@ -2413,6 +2429,7 @@
         <span class="gap__n">${n === 0 ? "No one on this list" : plural(n, "organisation")}</span>
         <span class="gap__bar" aria-hidden="true"><span style="width:${(n / max * 100).toFixed(1)}%"></span></span>
       </button></li>`).join("");
+    limitList(gaps, 5, "cycles");   // the least-covered come first
   }
 
   /* ---- glossary popover ---- */
@@ -2893,6 +2910,7 @@
       <p class="now-fp__src">${esc(FP.defn)} Source: ${extLink(FP.source.url, FP.source.label)}.</p>`;
     const status = document.getElementById("now-status");
     list.innerHTML = LIVE.map(c => card(c, null, null, false).replace("Live data unavailable", "Loading…")).join("");
+    limitList(list, 3, "cities");
     const load = () => liveFetch().then(data => {
       const ok = LIVE.filter(c => data.cities[c.id] && liveAge(data.cities[c.id]) < LIVE_STALE);
       const hot = ok.length ? ok.reduce((a, b) => data.cities[b.id].feels > data.cities[a.id].feels ? b : a).id : null;
@@ -2901,7 +2919,7 @@
       list.innerHTML = order.map(c => card(c, data.cities[c.id], data.wbgt, c.id === hot)).join("");
       limitList(list, 3, "cities");
       if (status) status.textContent = `Updated ${new Date(data.at).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })} your time.`;
-    }, () => { list.innerHTML = LIVE.map(c => card(c, null, null, false)).join(""); if (status) status.textContent = "Live data could not be loaded just now. The official warning links still work."; });
+    }, () => { list.innerHTML = LIVE.map(c => card(c, null, null, false)).join(""); limitList(list, 3, "cities"); if (status) status.textContent = "Live data could not be loaded just now. The official warning links still work."; });
     // fetch only when the section comes near the screen
     const sec = document.getElementById("heat-now");
     if ("IntersectionObserver" in window) { const io = new IntersectionObserver(es => { if (es.some(e => e.isIntersecting)) { io.disconnect(); load(); } }, { rootMargin: "800px 0px" }); io.observe(sec); }
@@ -3215,11 +3233,12 @@
       const kids = [...c.children], h = kids.findIndex(k => /^H2$/.test(k.tagName)); if (h < 0) return;
       const intro = kids[h + 1] && kids[h + 1].tagName === "P" ? h + 1 : h;
       const rest = kids.slice(intro + 1); if (!rest.length) return;
+      sec.classList.add("pd-fold");   // folds on every screen: heading, first paragraph and one button (HOME_OPEN sections never do)
       const body = document.createElement("div"); body.className = "pd-body"; body.id = "pd-" + id;
       rest.forEach(k => body.appendChild(k));
       const btn = document.createElement("button"); btn.type = "button"; btn.className = "btn btn--sm btn--cta pd-open"; btn.textContent = label;
       btn.setAttribute("aria-expanded", "false"); btn.setAttribute("aria-controls", body.id);
-      btn.addEventListener("click", () => { if (sec.classList.contains("pd-is-open")) { sec.classList.remove("pd-is-open"); btn.setAttribute("aria-expanded", "false"); btn.textContent = label; sec.scrollIntoView({ block: "start" }); } else { openSection(sec); track("open-" + id); } });
+      btn.addEventListener("click", () => { if (sec.classList.contains("pd-is-open")) { sec.classList.remove("pd-is-open"); btn.setAttribute("aria-expanded", "false"); btn.textContent = label; nativeScroll.call(sec, { block: "start" }); } else { openSection(sec); track("open-" + id); } });
       c.appendChild(btn); c.appendChild(body);
     });
     [["atrisk-list", 3, "groups"], ["stall-list", 3, "conditions"], ["inst-list", 5, "institutions"], ["cool-traps", 3, "traps"], ["cool-reading", 3, "books and guides"], ["day-list", 3, "hours"]]

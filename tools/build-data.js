@@ -103,6 +103,21 @@ function checkHope(V) {
   }
   return problems;
 }
+// The homepage's open and folded sections (HOME_OPEN, SECTION_SUMMARIES): every id is a section on the homepage,
+// none is both open and folded, and every label is a short line.
+function checkHome(V) {
+  if (!V.HOME_OPEN || !V.SECTION_SUMMARIES) return [];
+  const html = fs.readFileSync(path.join(ROOT, "index.html"), "utf8"), problems = [];
+  const sections = new Set([...html.matchAll(/<section\b[^>]*\bid="([^"]+)"/g)].map(m => m[1]));
+  V.HOME_OPEN.open.forEach(id => { if (!sections.has(id)) problems.push(`HOME_OPEN: "${id}" is not a section on the homepage`); });
+  Object.entries(V.SECTION_SUMMARIES).forEach(([id, label]) => {
+    if (!sections.has(id)) problems.push(`SECTION_SUMMARIES: "${id}" is not a section on the homepage`);
+    if (V.HOME_OPEN.open.includes(id)) problems.push(`"${id}" is both open (HOME_OPEN) and folded (SECTION_SUMMARIES)`);
+    if (!label || label.length > 40) problems.push(`SECTION_SUMMARIES: "${id}" needs a short button label`);
+  });
+  V.HOME_OPEN.open.forEach(id => { if (!(V.HOME_OPEN.why || {})[id]) problems.push(`HOME_OPEN: "${id}" needs its reason in why`); });
+  return problems;
+}
 const failOn = problems => { if (problems.length) { console.error(problems.join("\n")); process.exit(1); } };
 
 const deepEqual = (a, b) => JSON.stringify(a) === JSON.stringify(b);
@@ -112,9 +127,9 @@ else if (mode === "--check") {
   const a = load(fs.readFileSync(OUT, "utf8")), b = load(build());
   const diff = a.names.filter(n => !deepEqual(a.values[n], b.values[n]));
   if (diff.length || a.names.length !== b.names.length) { console.error("data.js differs from data/core in:", diff.join(", ") || "block list"); process.exit(1); }
-  failOn(checkHope(b.values));
+  failOn([...checkHope(b.values), ...checkHome(b.values)]);
   console.log(`data.js matches data/core (${a.names.length} blocks)`);
 } else {
-  const out = build(); failOn(checkHope(load(out).values));   // fails loudly if the result is not valid
+  const out = build(); const built = load(out).values; failOn([...checkHope(built), ...checkHome(built)]);   // fails loudly if the result is not valid
   fs.writeFileSync(OUT, out); console.log(`data.js rebuilt from data/core (${out.length.toLocaleString()} characters)`);
 }

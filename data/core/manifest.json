@@ -568,7 +568,7 @@
  {
   "name": "SECTION_SUMMARIES",
   "file": "SECTION_SUMMARIES.json",
-  "notes": "// On phones, each of these sections opens as a short summary with one button. The text is the button's label.",
+  "notes": "/* ---------- HOMEPAGE: SECTIONS THAT FOLD ---------- */\n// Each section here shows its heading, its first paragraph and one button (the label) on every screen, and opens in place.\n// Any link, search result or scroll into a folded section opens it first. Sections in HOME_OPEN never fold.",
   "inside": [
    "/* ---------- 24. WHAT EACH CYCLE COSTS ---------- */",
    "// One figure per loop for what is at stake while the cycle keeps turning. Each is restated from evidence already",
@@ -576,6 +576,12 @@
    "// A loop with no solid figure gets none: the site says the cost is not yet measured.",
    "// where: the place the figure comes from. sea: a second figure from Southeast Asia, where the first is from elsewhere."
   ]
+ },
+ {
+  "name": "HOME_OPEN",
+  "file": "HOME_OPEN.json",
+  "notes": "/* ---------- HOMEPAGE: THE SEVEN SECTIONS THAT STAY OPEN ---------- */\n// One per act of the journey, two for act 2 (how heat connects, the site's core). why: the reason for each, kept with the choice.\n// tools/build-data.js checks that every id here and in SECTION_SUMMARIES is a homepage section, and that none is both.",
+  "inside": []
  },
  {
   "name": "LOOP_STAKES",
