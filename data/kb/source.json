@@ -764,5 +764,71 @@
   "status": "current",
   "added": "2026-11",
   "changed": "2026-11"
+ },
+ {
+  "id": "src-s30-ipcc-2022",
+  "type": "source",
+  "title": "Climate Change 2022: Mitigation of Climate Change - Summary for Policymakers",
+  "summary": "IPCC assessment by IPCC, 2022. Cited on How heat became visible for Mitigation assessment recognises urban heat trade-offs; AR6 WGIII.",
+  "publisher": "IPCC",
+  "url": "https://www.unccd.int/sites/default/files/library/1861_IPCC_AR6_WGIII_SummaryForPolicymakers.pdf",
+  "archive": "https://web.archive.org/web/20261106194443/https://www.unccd.int/sites/default/files/library/1861_IPCC_AR6_WGIII_SummaryForPolicymakers.pdf",
+  "kind": "report",
+  "expect": [
+   "D.2.1",
+   "urban heat",
+   "high confidence"
+  ],
+  "evidence": "known",
+  "sources": [],
+  "as_of": "2022",
+  "checked": "2026-11-06",
+  "status": "current",
+  "added": "2026-11",
+  "changed": "2026-11"
+ },
+ {
+  "id": "src-s43-unep-2025",
+  "type": "source",
+  "title": "Brazil, Italy announce new push and funding on cooling action ahead of COP30",
+  "summary": "Report by UNEP, 2025. Cited on How heat became visible for Global Cooling Pledge is launched; UNEP and Brazil launch city heat initiative; Implementation, finance and regional exchange gained dedicated homes.",
+  "publisher": "UNEP",
+  "url": "https://www.unep.org/en/news-and-stories/press-release/brazil-italy-announce-new-push-and-funding-cooling-action-ahead",
+  "archive": "https://web.archive.org/web/20261106194502/https://www.unep.org/en/news-and-stories/press-release/brazil-italy-announce-new-push-and-funding-cooling-action-ahead",
+  "kind": "report",
+  "expect": [
+   "13 June 2025",
+   "EUR 2 million",
+   "Global Cooling Pledge"
+  ],
+  "evidence": "known",
+  "sources": [],
+  "as_of": "2025",
+  "checked": "2026-11-06",
+  "status": "current",
+  "added": "2026-11",
+  "changed": "2026-11"
+ },
+ {
+  "id": "src-s47-wmo-2026",
+  "type": "source",
+  "title": "Extreme heat and rainfall, glacier loss and record ocean heat impact Asia in 2025",
+  "summary": "Report by WMO, 2026. Cited on How heat became visible for WMO frames heat within Asian multi-hazard risk; Implementation, finance and regional exchange gained dedicated homes.",
+  "publisher": "WMO",
+  "url": "https://public.wmo.int/news/media-centre/extreme-heat-and-rainfall-glacier-loss-and-record-ocean-heat-impact-asia-2025",
+  "archive": "https://web.archive.org/web/20261106194636/https://public.wmo.int/news/media-centre/extreme-heat-and-rainfall-glacier-loss-and-record-ocean-heat-impact-asia-2025",
+  "kind": "report",
+  "expect": [
+   "17 June 2026",
+   "Paro, Bhutan",
+   "marine heatwaves"
+  ],
+  "evidence": "known",
+  "sources": [],
+  "as_of": "2026",
+  "checked": "2026-11-06",
+  "status": "current",
+  "added": "2026-11",
+  "changed": "2026-11"
  }
 ]

@@ -26,5 +26,17 @@
   }
  },
  "dropSources": {},
- "kb": {}
+ "kb": {},
+ "story": {
+  "the-transition-remains-uneven-and-incomp": {
+   "text": "A regional history of media attention was not verified here. Disaster databases and epidemiological mortality estimates count different things. Country coverage in this review is uneven, and absence from this timeline is not evidence of inaction.",
+   "reason": "The bibliometric review behind \"scientific publication growth is measurable\" (S26) could not be confirmed or archived, so that clause is left out."
+  }
+ },
+ "unverified": {
+  "Media and public attention": {
+   "text": "No comparable, reproducible South and Southeast Asian media series, Google Trends extract or multilingual coverage study was opened and verified. A study of research publications could not be confirmed either. No media-attention peak is dated here.",
+   "reason": "Its reference to a verified bibliometric study (S26) no longer holds: that source could not be confirmed or archived."
+  }
+ }
 }

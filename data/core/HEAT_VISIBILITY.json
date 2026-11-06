@@ -118,9 +118,8 @@
    "id": "the-transition-remains-uneven-and-incomp",
    "span": "",
    "title": "The transition remains uneven and incomplete",
-   "text": "Scientific publication growth is measurable; a comparable regional history of media attention was not verified here. Disaster databases and epidemiological mortality estimates count different things. Country coverage in this review is uneven, and absence from this timeline is not evidence of inaction.",
+   "text": "A regional history of media attention was not verified here. Disaster databases and epidemiological mortality estimates count different things. Country coverage in this review is uneven, and absence from this timeline is not evidence of inaction.",
    "sources": [
-    "S26",
     "S49",
     "S55"
    ]
@@ -1053,28 +1052,6 @@
    "quote_loc": "",
    "sources": [
     "S23"
-   ]
-  },
-  {
-   "id": "researchgrowth-2021",
-   "date": "2021",
-   "precision": "year",
-   "title": "Bibliometrics documents rapidly growing heatwave research",
-   "what": "A review of Web of Science papers reported rapid growth in heatwave research, with prominent attention to events in 1995 and 2003.",
-   "why": "Scientific attention became measurable, although publication growth does not establish growth in public or media attention.",
-   "threads": [
-    "science",
-    "media"
-   ],
-   "scope": "global",
-   "place": "",
-   "asia": false,
-   "grade": "uncertain",
-   "first": "no",
-   "quote": "",
-   "quote_loc": "",
-   "sources": [
-    "S26"
    ]
   },
   {
@@ -2178,7 +2155,7 @@
   },
   {
    "topic": "Media and public attention",
-   "text": "The verified bibliometric study measures research publications, not news coverage or search interest. No comparable, reproducible South and Southeast Asian media series, Google Trends extract or multilingual coverage study was opened and verified. No media-attention peak is dated here."
+   "text": "No comparable, reproducible South and Southeast Asian media series, Google Trends extract or multilingual coverage study was opened and verified. A study of research publications could not be confirmed either. No media-attention peak is dated here."
   },
   {
    "topic": "UNDRR hazard definitions and all database revisions",
@@ -2484,17 +2461,6 @@
    "terms": "all"
   },
   {
-   "key": "S26",
-   "label": "Heat waves: a hot topic in climate change research",
-   "by": "Marx et al.",
-   "year": 2021,
-   "type": "study",
-   "url": "https://doi.org/10.1007/s00704-021-03758-y",
-   "archive": "",
-   "status": "redirect",
-   "terms": "none"
-  },
-  {
    "key": "S27",
    "label": "Evaluating the 35°C wet-bulb temperature adaptability threshold for young, healthy subjects (PSU HEAT Project)",
    "by": "Vecellio et al.",
@@ -2535,9 +2501,10 @@
    "year": 2022,
    "type": "assessment",
    "url": "https://www.unccd.int/sites/default/files/library/1861_IPCC_AR6_WGIII_SummaryForPolicymakers.pdf",
-   "archive": "",
+   "archive": "https://web.archive.org/web/20261106194443/https://www.unccd.int/sites/default/files/library/1861_IPCC_AR6_WGIII_SummaryForPolicymakers.pdf",
    "status": "ok",
-   "terms": "all"
+   "terms": "all",
+   "kb": "src-s30-ipcc-2022"
   },
   {
    "key": "S31",
@@ -2685,9 +2652,10 @@
    "year": 2025,
    "type": "agency",
    "url": "https://www.unep.org/en/news-and-stories/press-release/brazil-italy-announce-new-push-and-funding-cooling-action-ahead",
-   "archive": "",
+   "archive": "https://web.archive.org/web/20261106194502/https://www.unep.org/en/news-and-stories/press-release/brazil-italy-announce-new-push-and-funding-cooling-action-ahead",
    "status": "ok",
-   "terms": "all"
+   "terms": "all",
+   "kb": "src-s43-unep-2025"
   },
   {
    "key": "S44",
@@ -2719,7 +2687,7 @@
    "year": 2026,
    "type": "agency",
    "url": "https://www.undrr.org/publication/documents-and-publications/financing-heat-resilience",
-   "archive": "",
+   "archive": "https://web.archive.org/web/20261106194607/https://www.undrr.org/publication/documents-and-publications/financing-heat-resilience",
    "status": "blocked",
    "terms": "none"
   },
@@ -2730,9 +2698,10 @@
    "year": 2026,
    "type": "agency",
    "url": "https://public.wmo.int/news/media-centre/extreme-heat-and-rainfall-glacier-loss-and-record-ocean-heat-impact-asia-2025",
-   "archive": "",
+   "archive": "https://web.archive.org/web/20261106194636/https://public.wmo.int/news/media-centre/extreme-heat-and-rainfall-glacier-loss-and-record-ocean-heat-impact-asia-2025",
    "status": "ok",
-   "terms": "all"
+   "terms": "all",
+   "kb": "src-s47-wmo-2026"
   },
   {
    "key": "S48",

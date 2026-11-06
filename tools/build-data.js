@@ -128,7 +128,9 @@ function checkVisibility(V) {
   const HW = new Set((V.HEATWAVES || []).map(h => h.id)), ids = new Set();
   H.sources.forEach(s => { S.add(s.key);
     if (!/^https:\/\//.test(s.url)) P.push(`HEAT_VISIBILITY source ${s.key}: url must be https`);
-    if (s.status !== "unchecked" && !/^https:\/\/(web\.archive\.org|archive\.(today|ph|is))\//.test(s.archive || "")) P.push(`HEAT_VISIBILITY source ${s.key}: needs an archived copy (checked sources only)`); });
+    // an archived copy is required, unless the live link works and every expected term was confirmed on it
+    const live = ["ok", "redirect"].includes(s.status) && s.terms === "all";
+    if (s.status !== "unchecked" && !live && !/^https:\/\/(web\.archive\.org|archive\.(today|ph|is))\//.test(s.archive || "")) P.push(`HEAT_VISIBILITY source ${s.key}: needs an archived copy (or a working link with every expected term confirmed)`); });
   const cites = (where, keys) => { if (!keys || !keys.length) P.push(`HEAT_VISIBILITY ${where}: needs at least one source`); (keys || []).forEach(k => { if (!S.has(k)) P.push(`HEAT_VISIBILITY ${where}: cites ${k}, which is not in sources`); }); };
   H.events.forEach(e => { const w = `event ${e.id}`;
     if (ids.has(e.id)) P.push(`HEAT_VISIBILITY ${w}: id used twice`); ids.add(e.id);

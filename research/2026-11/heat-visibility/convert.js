@@ -47,6 +47,7 @@ for (const s of SOURCES) {
     status: String(st).toLowerCase(), terms: found == null ? "unchecked" : found === 0 ? "none" : found === (s.expect || []).length ? "all" : "some" };
   if ((EDITS.dropSources || {})[s.key]) { log.push(`- Source ${s.key} (${s.title}): dropped. ${EDITS.dropSources[s.key]}`); continue; }
   if (src.status === "fail" && !archive) { log.push(`- Source ${s.key} (${s.title}): dropped. The link failed and no archived copy exists.`); continue; }
+  if (!archive && src.terms === "none") { log.push(`- Source ${s.key} (${s.title}): dropped. Nothing on it could be confirmed (status ${src.status}, no expected term found) and no archived copy exists.`); continue; }
   if (EDITS.kb && EDITS.kb[s.key]) src.kb = EDITS.kb[s.key];
   sources[s.key] = src;
 }
@@ -81,7 +82,9 @@ const story = [];
 for (const m of part("A", "B").matchAll(/^- \*\*([^*]+)\*\*\s*(.*)$/gm)) {
   const head = m[1].trim().replace(/\.$/, ""), [span, title] = head.includes(":") ? head.split(/:\s*/, 2) : ["", head];
   const src = keep(cites(m[2]), `Story "${head}"`);
-  story.push({ id: slug(span || title), span: span.trim(), title: title.trim().replace(/^./, c => c.toUpperCase()), text: strip(m[2]), sources: src });
+  const id = slug(span || title), ed = (EDITS.story || {})[id];
+  if (ed) log.push(`- Story "${head}": reworded. ${ed.reason}`);
+  story.push({ id, span: span.trim(), title: title.trim().replace(/^./, c => c.toUpperCase()), text: ed ? ed.text : strip(m[2]), sources: src });
 }
 // ---- the IPCC tracker (C): table rows ----
 const ipcc = [];
@@ -104,7 +107,9 @@ for (const m of part("D", "E").matchAll(/^\d+\. \*\*([^*]+)\*\*\s*(.*?)\s*\*\*St
 }
 const turningClose = strip((part("D", "E").match(/^Across these turning points[\s\S]*?$/m) || [""])[0]);
 // ---- could not verify (F) ----
-const unverified = [...part("F", "ZZ").matchAll(/^- \*\*([^*]+)\*\*\s*(.*)$/gm)].map(m => ({ topic: m[1].trim().replace(/\.$/, ""), text: strip(m[2]) }));
+const unverified = [...part("F", "ZZ").matchAll(/^- \*\*([^*]+)\*\*\s*(.*)$/gm)].map(m => { const topic = m[1].trim().replace(/\.$/, ""), ed = (EDITS.unverified || {})[topic];
+  if (ed) log.push(`- Could-not-verify note "${topic}": reworded. ${ed.reason}`);
+  return { topic, text: ed ? ed.text : strip(m[2]) }; });
 
 // ---- notes kept with the data ----
 const A = part("A", "B"), cutoff = (A.match(/Research cut-off: \*\*([^*]+)\*\*/) || [, ""])[1];

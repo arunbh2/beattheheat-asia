@@ -2,6 +2,13 @@
  "note": "Every item that has appeared on /news/. Built by tools/archive-news.js.",
  "news": [
   {
+   "title": "3 areas under dangerous level heat index on Saturday - Pagasa",
+   "url": "https://newsinfo.inquirer.net/2337309/3-areas-under-dangerous-level-heat-index-on-saturday-pagasa",
+   "via": "Inquirer",
+   "date": "2026-11-06T19:08:44Z",
+   "place": "Philippines"
+  },
+  {
    "title": "Extreme heat is creating a workplace health crisis in Bangladesh’s garment industry",
    "url": "https://news.mongabay.com/short-article/2026/11/extreme-heat-is-creating-a-workplace-health-crisis-in-bangladeshs-garment-industry/",
    "via": "Mongabay",
@@ -1105,5 +1112,5 @@
    "preprint": false
   }
  ],
- "updated": "2026-11-06T07:01:13.315Z"
+ "updated": "2026-11-06T19:34:12.743Z"
 }
