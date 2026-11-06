@@ -1,0 +1,13 @@
+{
+ "about": "Reviewed decisions applied by convert.js. Each entry carries its reason, so the page's data can be rebuilt and audited.",
+ "heatwave": {
+  "ahmedabadheat-2010": "ahmedabad2010",
+  "indiaheat-2015": "southasia2015",
+  "karachiheat-2015": "southasia2015",
+  "attributionasia-2022": "southasia2022"
+ },
+ "heatwaveReason": "Events about the same heatwave as a record on /heatwaves/ link to it; that record is then not repeated as its own marker on the timeline.",
+ "events": {},
+ "dropSources": {},
+ "kb": {}
+}

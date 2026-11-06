@@ -76,6 +76,7 @@ function build() {
   const manifest = JSON.parse(fs.readFileSync(MANIFEST, "utf8"));
   let out = HEADER;
   for (const m of manifest) {
+    if (m.browser === false) continue;   // build-only: builders read it from data/core (tools/data-blocks.js); browsers never download it
     const v = JSON.parse(fs.readFileSync(path.join(CORE, m.file), "utf8"));
     out += `const ${m.name} = ${JSON.stringify(v)};\n`;
   }
@@ -118,6 +119,31 @@ function checkHome(V) {
   V.HOME_OPEN.open.forEach(id => { if (!(V.HOME_OPEN.why || {})[id]) problems.push(`HOME_OPEN: "${id}" needs its reason in why`); });
   return problems;
 }
+// How heat became visible (HEAT_VISIBILITY): every citation resolves, every source has an https link (and an archived copy
+// once checked), grades and threads come from fixed lists, quotes are short and located, "first" is only ever "claimed",
+// and heatwave links resolve. Each problem names the event and the field, so it can be fixed without reading this code.
+function checkVisibility(V) {
+  const H = V.HEAT_VISIBILITY; if (!H) return [];
+  const P = [], S = new Set(), THREADS = ["ipcc", "unfccc", "who-wmo", "labour", "science", "heatwave", "plans", "finance", "media"];
+  const HW = new Set((V.HEATWAVES || []).map(h => h.id)), ids = new Set();
+  H.sources.forEach(s => { S.add(s.key);
+    if (!/^https:\/\//.test(s.url)) P.push(`HEAT_VISIBILITY source ${s.key}: url must be https`);
+    if (s.status !== "unchecked" && !/^https:\/\/(web\.archive\.org|archive\.(today|ph|is))\//.test(s.archive || "")) P.push(`HEAT_VISIBILITY source ${s.key}: needs an archived copy (checked sources only)`); });
+  const cites = (where, keys) => { if (!keys || !keys.length) P.push(`HEAT_VISIBILITY ${where}: needs at least one source`); (keys || []).forEach(k => { if (!S.has(k)) P.push(`HEAT_VISIBILITY ${where}: cites ${k}, which is not in sources`); }); };
+  H.events.forEach(e => { const w = `event ${e.id}`;
+    if (ids.has(e.id)) P.push(`HEAT_VISIBILITY ${w}: id used twice`); ids.add(e.id);
+    if (!/^\d{4}(-\d{2}(-\d{2})?)?$/.test(e.date)) P.push(`HEAT_VISIBILITY ${w}: date must be YYYY, YYYY-MM or YYYY-MM-DD`);
+    if (!["known", "inferred", "uncertain"].includes(e.grade)) P.push(`HEAT_VISIBILITY ${w}: grade must be known, inferred or uncertain`);
+    if (!["no", "claimed"].includes(e.first)) P.push(`HEAT_VISIBILITY ${w}: first must be "no" or "claimed" (a first is shown as claimed)`);
+    (e.threads || []).forEach(t => { if (!THREADS.includes(t)) P.push(`HEAT_VISIBILITY ${w}: unknown thread "${t}"`); });
+    if (e.quote && (e.quote.split(/\s+/).length > 30 || !e.quote_loc)) P.push(`HEAT_VISIBILITY ${w}: a quote needs 30 words or fewer and its page or section (quote_loc)`);
+    if (e.heatwave && !HW.has(e.heatwave)) P.push(`HEAT_VISIBILITY ${w}: heatwave "${e.heatwave}" is not in HEATWAVES`);
+    cites(w, e.sources); });
+  H.story.forEach(s => cites(`story "${s.title}"`, s.sources));
+  H.turning.forEach(t => { cites(`turning point "${t.title}"`, t.sources); if (!t.missing) P.push(`HEAT_VISIBILITY turning point "${t.title}": needs who was still missing`); });
+  H.ipcc.forEach(r => cites(`IPCC row ${r.report}`, r.sources));
+  return P;
+}
 const failOn = problems => { if (problems.length) { console.error(problems.join("\n")); process.exit(1); } };
 
 const deepEqual = (a, b) => JSON.stringify(a) === JSON.stringify(b);
@@ -127,9 +153,10 @@ else if (mode === "--check") {
   const a = load(fs.readFileSync(OUT, "utf8")), b = load(build());
   const diff = a.names.filter(n => !deepEqual(a.values[n], b.values[n]));
   if (diff.length || a.names.length !== b.names.length) { console.error("data.js differs from data/core in:", diff.join(", ") || "block list"); process.exit(1); }
-  failOn([...checkHope(b.values), ...checkHome(b.values)]);
+  const all = Object.assign({}, b.values, require("./data-blocks.js")());
+  failOn([...checkHope(all), ...checkHome(all), ...checkVisibility(all)]);
   console.log(`data.js matches data/core (${a.names.length} blocks)`);
 } else {
-  const out = build(); const built = load(out).values; failOn([...checkHope(built), ...checkHome(built)]);   // fails loudly if the result is not valid
+  const out = build(); const built = load(out).values; Object.assign(built, require("./data-blocks.js")()); failOn([...checkHope(built), ...checkHome(built), ...checkVisibility(built)]);   // fails loudly if the result is not valid
   fs.writeFileSync(OUT, out); console.log(`data.js rebuilt from data/core (${out.length.toLocaleString()} characters)`);
 }

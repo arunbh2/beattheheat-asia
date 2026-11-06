@@ -40,6 +40,10 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The pa
 - [Colombo](https://beattheheat.asia/cities/colombo/): Extreme heat in Colombo: plans, cycles and who is at work
 - [Phnom Penh](https://beattheheat.asia/cities/phnompenh/): Extreme heat in Phnom Penh: plans, cycles and who is at work
 
+## How heat became visible
+
+- [How heat became visible](https://beattheheat.asia/how-heat-became-visible/): when science, health, labour, finance and the UN began to notice extreme heat, and who was still missing; a graded timeline, the turning points and how heat appears in IPCC reports (also in llms-full.txt)
+
 ## Optional
 
 - [The whole map in one file](https://beattheheat.asia/llms-full.txt): every page above as plain text, for reading in one go

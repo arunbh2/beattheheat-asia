@@ -13,13 +13,14 @@ const src = fs.readFileSync(path.join(ROOT, "data.js"), "utf8");
 const names = [...src.matchAll(/^const ([A-Z][A-Z0-9_]*)\s*=/gm)].map(m => m[1]);
 const ctx = {}; vm.createContext(ctx);
 vm.runInContext(src + `\n;Object.assign(this, { ${names.join(", ")} });`, ctx);
+const ONLY = require("./data-blocks.js")(); Object.assign(ctx, ONLY); names.push(...Object.keys(ONLY));   // build-only blocks (not in data.js)
 
 // where on the site each part of data.js appears
 const WHERE = [
   [/^(SYSTEMS|CONSEQUENCES|LINKS)$/, "The web"], [/^(LOOP|STORIES)/, "Vicious cycles"], [/^(LEVERS|PLAYBOOKS|PACKAGES|EVIDENCE$)/, "Actions"],
   [/^INSTITUTIONS$/, "Who can act"], [/^ORG/, "The heat network"], [/^(GLOSS|NBS_BOOK)/, "Glossary"],
   [/^(PLAN_|WORKED_|WHO_ELEMENTS|MCR2030)/, "Plan a response"], [/^AT_RISK/, "Who heat hits hardest"], [/^STALLS$/, "Why action stalls"],
-  [/^(COOL_|HOME_HEATS)/, "Cooling options"], [/^LIVE_/, "Heat right now"], [/^HEATWAVE_DAY$/, "A day in a heatwave"], [/^HEATWAVES/, "Heatwaves that shaped Asia"],
+  [/^(COOL_|HOME_HEATS)/, "Cooling options"], [/^LIVE_/, "Heat right now"], [/^HEATWAVE_DAY$/, "A day in a heatwave"], [/^HEATWAVES/, "Heatwaves that shaped Asia"], [/^HEAT_VISIBILITY$/, "How heat became visible"],
   [/^CITY_/, "Your city"], [/^(ACTION_|EVIDENCE_STATUS)/, "Find practical actions"], [/^FINANCE$/, "Paying for protection"],
   [/^STRAIN$/, "Weather, work and the person"], [/^HEAT_WEEK$/, "A week in the heat"], [/^PLACE_SIM$/, "Make it work together"],
   [/^SECTION_FILMS$/, "Films"], [/^GUIDE$/, "How to use this site"]
@@ -47,7 +48,7 @@ function walk(v, top, seen = new Set()) {
   if (Array.isArray(v)) { v.forEach(x => walk(x, top, seen)); return; }
   if (typeof v.url === "string") add(v.url, v.label || v.title || v.name || v.source || v.org, KIND(top), whereOf(top));
   for (const [key, x] of Object.entries(v)) {
-    if (typeof x === "string" && /^https?:\/\//.test(x) && key !== "url") add(x, "", KIND(top), whereOf(top));
+    if (typeof x === "string" && /^https?:\/\//.test(x) && key !== "url" && key !== "archive") add(x, "", KIND(top), whereOf(top));   // an archive is a copy of its url, not a source of its own
     else walk(x, top, seen);
   }
 }

@@ -11,7 +11,7 @@ const esc = s => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").re
 const V = (fs.readFileSync(path.join(ROOT, "index.html"), "utf8").match(/styles\.css\?v=(\d+)/) || [, "1"])[1];
 const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + ";this.D={GLOSSARY,LOOPS,LIVE_CITIES,CITY_PROFILES,HEATWAVES,ORGANISATIONS,ORG_ROLES,SYSTEMS,EVIDENCE,LEVERS,PACKAGES,INSTITUTIONS,ACTION_SETTINGS,ACTION_HORIZONS,EVIDENCE_STATUS,LOOP_GROUPS,CITY_HAP,LIVE_NOTE,AT_RISK,CONSEQUENCES,LOOP_STAKES}", ctx);
-const D = ctx.D;
+const D = Object.assign(ctx.D, require("./data-blocks.js")());   // plus build-only blocks (not in data.js)
 // published knowledge-base records (data/kb), so each month's verified research reaches the pages that draw it
 const KB_DIR = path.join(ROOT, "data", "kb");
 const KB = fs.existsSync(KB_DIR) ? fs.readdirSync(KB_DIR).filter(f => f.endsWith(".json") && !f.startsWith("_")).flatMap(f => JSON.parse(fs.readFileSync(path.join(KB_DIR, f), "utf8"))).filter(r => r.status === "current") : [];
@@ -587,6 +587,7 @@ fs.writeFileSync(path.join(ROOT, "404.html"), page("", "Page not found", "This p
 require("./build-live.js")({ page, write, hero, esc, V, D, ROOT });
 require("./build-brief-health.js")({ page, write, esc, D, ROOT });
 require("./build-intersections.js")({ page, write, esc, V, D });
+require("./build-visibility.js")({ page, write, esc, hero, V, D });
 require("./build-hap-archive.js")({ page, write, esc, V, ROOT });
 
 // ---- the search index: pages, places, cycles, glossary terms, heatwaves and organisations ----
@@ -607,6 +608,7 @@ function searchIndex() {
   D.LOOPS.forEach(l => add(`/loops/#${l.id}`, l.name, l.summary || l.desc || "", "Vicious cycles", 2, "cycle loop"));
   D.GLOSSARY.forEach(g => add(`/glossary/#${g.id}`, g.term, g.text, "Glossary", 2, "term definition"));
   D.HEATWAVES.forEach(h => add(`/heatwaves/#${h.id}`, h.title || h.place, `${h.when || ""} ${h.place || ""}`.trim(), "Heatwaves", 1.5, "heatwave"));
+  (D.HEAT_VISIBILITY ? D.HEAT_VISIBILITY.events : []).forEach(e => add(`/how-heat-became-visible/#${e.id}`, e.title, `${e.date.slice(0, 4)} ${e.place || ""}`.trim(), "How heat became visible", 1, "event"));
   D.ORGANISATIONS.forEach(o => add(`/heat-network/#${o.role || ""}`, o.name, o.does || "", "Organisations", 1, "organisation"));
   NAVJ.groups.forEach(g => add(g.hub, g.h, g.intro, "Pages", 3.5));
   PATHS.paths.forEach(p => add(`/paths/${p.id}/`, `Path: ${p.label}`, p.card, "Paths by role", 3, "path role"));
