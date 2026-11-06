@@ -60,11 +60,15 @@ function around(body, nb, terms) {
 (async () => {
   const lf = path.join(DIR, "link-check.json"), links = fs.existsSync(lf) ? JSON.parse(fs.readFileSync(lf, "utf8")) : {};
   links._terms = links._terms || {};
-  const excerpts = {};
+  const ef = path.join(DIR, "_excerpts.json"), excerpts = fs.existsSync(ef) ? JSON.parse(fs.readFileSync(ef, "utf8")) : {};
+  // results are saved after every source, so a run that stops early keeps its work, and the next run resumes:
+  // a source already checked, with an archived copy, is skipped (FORCE=1 checks everything again)
+  const save = () => { fs.writeFileSync(lf, JSON.stringify(links, null, 1) + "\n"); fs.writeFileSync(ef, JSON.stringify(excerpts, null, 1) + "\n"); };
   for (const f of files) {
     const fp = path.join(DIR, f), raw = JSON.parse(fs.readFileSync(fp, "utf8")), list = Array.isArray(raw) ? raw : [raw];
     let changed = false;
     for (const r of list.filter(x => x.type === "source" && x.url)) {
+      if (process.env.FORCE !== "1" && r.archive && links[r.url] && links._terms[r.url] && excerpts[r.id]) { console.log(`done     ${r.id}  (checked in an earlier run)`); continue; }
       const page = await get(r.url);
       const status = page.ok ? (new URL(page.url).host !== new URL(r.url).host ? "REDIRECT" : "OK") : [401, 403, 429, 999].includes(page.status) ? "BLOCKED" : "FAIL";
       links[r.url] = status;
@@ -79,10 +83,11 @@ function around(body, nb, terms) {
         around: around(body, nb, (r.expect || []).filter(t => found[t])),
         opening: body.slice(0, 1500) };
       console.log(`${status.padEnd(8)} ${r.id}  archive: ${r.archive ? "yes" : "NO"}  terms: ${Object.entries(found).map(([t, v]) => (v ? "✓ " : "✗ ") + t).join(" · ")}`);
+      if (changed) fs.writeFileSync(fp, JSON.stringify(Array.isArray(raw) ? list : list[0], null, 1) + "\n");
+      save();
     }
     if (changed) fs.writeFileSync(fp, JSON.stringify(Array.isArray(raw) ? list : list[0], null, 1) + "\n");
   }
-  fs.writeFileSync(lf, JSON.stringify(links, null, 1) + "\n");
-  fs.writeFileSync(path.join(DIR, "_excerpts.json"), JSON.stringify(excerpts, null, 1) + "\n");
+  save();
   console.log(`wrote data/inbox/${month}/link-check.json and _excerpts.json`);
 })();
