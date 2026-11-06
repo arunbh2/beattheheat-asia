@@ -313,6 +313,8 @@ button { font: inherit; color: inherit; }
 .explorer.is-simple .filters { flex-wrap: wrap; overflow: visible; } /* every system's name in view, matching its dot's colour */
 .explorer.is-simple .toolbar__row, .explorer.is-simple .breakbar, .explorer.is-simple .pathfinder, .explorer.is-simple .legend { display: none; }
 .web.is-simple .node--leaf, .web.is-simple .edge:not(.edge--hub), .web.is-simple .lever { display: none; }
+/* ...and its guide matches: the tour and how to start; packages and the list of cycles come with the whole map (the cycles are also in their own section below) */
+.explorer.is-simple .guide > :not(.btn--tour):not(.panel__desc) { display: none; }
 .who-select { min-width: 0; max-width: 100%; }
 @media (max-width: 700px) { .who-select { flex: 1 1 100%; } .who-select select { width: 100%; } }
 .who-select select {
@@ -1419,17 +1421,34 @@ body.film-open { overflow: hidden; }
 @keyframes flash { 0%, 30% { box-shadow: 0 0 0 4px var(--orange); } 100% { box-shadow: 0 0 0 0 transparent; } }
 @media (prefers-reduced-motion: reduce) { .risk.is-flash { animation: none; outline: 3px solid var(--orange); } }
 
-/* progressive disclosure: only on phones; desktop always shows everything */
+/* progressive disclosure, on every screen. Sections in SECTION_SUMMARIES fold to their heading, first paragraph and one
+   button, and sit as compact cards in the journey; the seven in HOME_OPEN stay open, with long lists showing the first few.
+   Whatever links or scrolls into a folded part opens it first (script.js, reveal). */
 .pd-open, .pd-all { display: none; }
-@media (max-width: 760px) {
-  .pd-open { display: inline-flex; margin-top: 18px; }
-  section:not(.pd-is-open) > .container > .pd-body { display: none; }
-  .pd-is-open .pd-open { margin-bottom: 8px; }
-  .pd-list:not(.is-all) > .pd-more { display: none; }
-  .pd-all { display: inline-flex; margin-top: 12px; }
-  .pd-all[hidden] { display: none; }
-  .now .pd-all { color: var(--canvas); border-color: var(--canvas); }
-}
+.pd-fold .pd-open { display: inline-flex; margin-top: 18px; }
+.pd-fold:not(.pd-is-open) > .container > .pd-body { display: none; }
+.pd-is-open .pd-open { margin-bottom: 8px; }
+.pd-list:not(.is-all) > .pd-more { display: none; }
+.pd-all { display: inline-flex; margin-top: 12px; }
+.pd-all[hidden] { display: none; }
+.now .pd-all { color: var(--canvas); border-color: var(--canvas); }
+.pd-fold:not(.pd-is-open) { padding-top: clamp(28px, 4vw, 44px); padding-bottom: clamp(28px, 4vw, 44px); min-height: 0; }
+.pd-fold:not(.pd-is-open) > .scene--drawn, .pd-fold:not(.pd-is-open) > .sec-scene, .pd-fold:not(.pd-is-open) > .container > .spot { display: none; }
+.pd-fold:not(.pd-is-open) > .container > p:not(.eyebrow) { max-width: 46rem; }
+.pd-fold:not(.pd-is-open) > .container > h2 { font-size: clamp(1.6rem, 2.8vw, 2.4rem); line-height: 1.08; max-width: 40rem; margin-bottom: 10px; }
+.pd-fold:not(.pd-is-open) > .container > h2 br { display: none; }
+/* a vicious cycle's row: name, summary and where it breaks; the rest on request */
+.lrow:not(.is-more) > .lrow__more { display: none; }
+.lrow__toggle { margin-top: 6px; font-size: .9rem; }
+/* who heat hits hardest: the weather, work and person explainer opens from its heading */
+.strain-fold { margin-top: 28px; border-top: 1.5px solid var(--line); padding-top: 14px; }
+.strain-fold > summary { list-style: none; cursor: pointer; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; min-height: 44px; }
+.strain-fold > summary::-webkit-details-marker { display: none; }
+.strain-fold > summary .atrisk__h { margin: 0; }
+.strain-fold > summary .atrisk__h::after { content: " +"; color: var(--orange); }
+.strain-fold[open] > summary .atrisk__h::after { content: " −"; }
+.strain-fold__hint { font-size: .9rem; color: var(--grey-700); }
+.strain-fold > summary:focus-visible { outline: 3px solid var(--orange); outline-offset: 3px; }
 .site-footer__text { max-width: 40rem; font-size: .85rem; color: var(--grey-700); }
 .site-footer__text a { display: inline-block; padding: 4px 0; color: var(--ink); }
 .site-footer__licence a { display: inline; padding: 6px 0; line-height: 1.9; }

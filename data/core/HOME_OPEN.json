@@ -1,0 +1,12 @@
+{
+  "open": ["at-risk","explore","loops","heat-now","practical","start","network"],
+  "why": {
+    "at-risk": "Act 1. Same heatwave, different barriers: the reason the site exists. The first stop for two of the guide's five reasons, and step two of the first five minutes.",
+    "explore": "Act 2. The map is the site's own contribution and its most linked part, from every page's menu.",
+    "loops": "Act 2. How harm feeds itself and where it breaks: the insight a reader cannot get elsewhere, and the second most linked part of the site.",
+    "heat-now": "Act 3. Today's heat in real cities: the reason to come back, the health worker's first stop, and linked from the ticker on every page.",
+    "practical": "Act 4. What works, who does it and what keeps it working: the turn from harm to action.",
+    "start": "Act 4. Find your way in: where the role question at the door lands, and the first stop for a city official's plan.",
+    "network": "Act 5. Who is already pulling the levers: proof that the reader is not alone, and the funder's first stop."
+  }
+}

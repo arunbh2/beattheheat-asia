@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Newsreader:ital,wght@0,400;0,500;1,400&display=swap">
 
-  <link rel="stylesheet" href="styles.css?v=175">
+  <link rel="stylesheet" href="styles.css?v=176">
 
   <script type="application/ld+json">
   {
@@ -111,12 +111,12 @@
   }
   </script>
   <link rel="alternate" type="text/plain" href="/llms-full.txt" title="The whole map as plain text">
-  <script src="data.js?v=175" defer></script>
-  <script src="script.js?v=175" defer></script>
-  <script src="heatweek.js?v=175" defer></script>
-  <script src="guide.js?v=175" defer></script>
-  <script src="journey.js?v=175" defer></script>
-  <script src="/join.js?v=175" defer></script>
+  <script src="data.js?v=176" defer></script>
+  <script src="script.js?v=176" defer></script>
+  <script src="heatweek.js?v=176" defer></script>
+  <script src="guide.js?v=176" defer></script>
+  <script src="journey.js?v=176" defer></script>
+  <script src="/join.js?v=176" defer></script>
 <!--csn--><style id="csn-css">html:has(.csn){scroll-padding-top:120px}
 .csn,.csf,.csn-d,.csp{--ink:#16202B;--ink2:#39424D;--grey:#5E6570;--canvas:#FAF7F2;--sand:#F2E7D9;--line:#E6DFD4;--orange:#F26430;--ember:#B8401A;--green:#17703A;font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);line-height:1.4}
 .csn{position:sticky;top:0;z-index:60;margin:0!important;padding:0!important;max-width:none!important;display:block!important;background:rgba(250,247,242,.96);border-bottom:1px solid var(--line);-webkit-backdrop-filter:saturate(1.2) blur(10px);backdrop-filter:saturate(1.2) blur(10px)}
@@ -514,8 +514,10 @@ html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{
         <div id="barriers-film" class="section-film"></div>
         <ol id="atrisk-barriers" class="atrisk__barriers"></ol>
         <div id="atrisk-list" class="atrisk__list"></div>
-        <h3 class="atrisk__h" id="strain">Weather, work and the person</h3>
-        <div class="strain" id="strain-box"></div>
+        <details class="strain-fold">
+          <summary><h3 class="atrisk__h" id="strain">Weather, work and the person</h3><span class="strain-fold__hint">How heat, work and the body add up</span></summary>
+          <div class="strain" id="strain-box"></div>
+        </details>
         <p class="atrisk__close">People in the same community may need different routes to the same outcome: <strong>livelihood security and dignity.</strong></p>
         <p class="atrisk__close"><a href="/intersections/">Intersections: a game about who protection reaches, and why <span aria-hidden="true">→</span></a></p>
         <p class="atrisk__sources">Also on the map: intimate partner violence rose about 4.5% with each 1 °C of yearly warmth across India, Nepal and Pakistan (<a href="https://bell-lab.yale.edu/publications/association-ambient-temperature-prevalence-intimate-partner-violence-among-partnered" target="_blank" rel="noopener">Zhu et al., JAMA Psychiatry, 2023<span class="visually-hidden"> (opens in a new tab)</span></a>), and 466 million children now live where extremely hot days are at least twice as common as in the 1960s (<a href="https://www.unicef.org/press-releases/almost-half-billion-children-live-areas-experiencing-least-twice-many-extremely-hot" target="_blank" rel="noopener">UNICEF, 2024<span class="visually-hidden"> (opens in a new tab)</span></a>).</p>
