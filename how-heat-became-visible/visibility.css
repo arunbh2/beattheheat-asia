@@ -62,8 +62,9 @@
 .hv-row-ipcc dl { margin: 0; display: grid; gap: 8px; }
 .hv-row-ipcc dt { font-size: .78rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; color: var(--grey-500); }
 .hv-row-ipcc dd { margin: 2px 0 0; }
+.hv-sec .hub-p + .hub-p { margin-top: 10px; }
 .hv-unread { margin-top: 14px; font-size: .92rem; color: var(--grey-700); max-width: 46rem; }
 .hv-limits { margin-top: 10px; border: 1.5px solid var(--line); border-radius: var(--r-sm); padding: 10px 14px; }
 .hv-limits summary { cursor: pointer; font-weight: 700; min-height: 32px; }
 .hv-limits ul { margin: 10px 0 0; padding-left: 1.1rem; display: grid; gap: 8px; }
-@media (min-width: 900px) { .hv-eras, .hv-turns { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 900px) { .hv-eras, .hv-turns, .hv-ipcc { grid-template-columns: repeat(2, minmax(0, 1fr)); } }

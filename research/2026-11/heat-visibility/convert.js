@@ -87,7 +87,9 @@ for (const line of part("C", "D").split("\n").filter(l => /^\| (?!Report|---)/.t
     how: strip(how), headline: strip(headline), change: strip(change), audited, sources: keep(cites(line), `IPCC row ${report}`) });
 }
 // the tracker's own caveats: the paragraphs around its table
-const ipccNotes = part("C", "D").split("\n").slice(1).filter(l => l.trim() && !/^\|/.test(l)).map(strip).filter(Boolean);
+// the page shows the tracker as cards and names unread reports "not yet read", so its notes say the same (wording only)
+const ipccNotes = part("C", "D").split("\n").slice(1).filter(l => l.trim() && !/^\|/.test(l)).map(strip).filter(Boolean)
+  .map(n => n.replace(/^The table includes/, "This list includes").replace(/“Not audited” means/, "“Not yet read” means").replace(/Their heat content was not audited\./, "Their heat content was not read here."));
 // ---- turning points (D) ----
 const turning = [];
 for (const m of part("D", "E").matchAll(/^\d+\. \*\*([^*]+)\*\*\s*(.*?)\s*\*\*Still unseen:\*\*\s*(.*)$/gm)) {

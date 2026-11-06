@@ -2120,8 +2120,8 @@
  ],
  "ipccNotes": [
   "Confidence language is kept attached to the finding it qualifies. Different reports assessed different periods, regions and definitions. A change in wording is not automatically a simple rise or fall in certainty. AR5 explicitly warns against direct comparisons in TFE.9, Table 1.",
-  "The table includes the assessment cycles and the special reports identified in the opened assessment bibliography. A bibliography verifies a report's identity and year; it does not verify its heat content. “Not audited” means a heat passage was not accessible in this review, rather than that heat was absent.",
-  "The 1994 Technical Guidelines and later inventory/methodology reports are distinct from the assessment and special-report sequence. Their heat content was not audited. This tracker does not establish when any IPCC term first appeared."
+  "This list includes the assessment cycles and the special reports identified in the opened assessment bibliography. A bibliography verifies a report's identity and year; it does not verify its heat content. “Not yet read” means a heat passage was not accessible in this review, rather than that heat was absent.",
+  "The 1994 Technical Guidelines and later inventory/methodology reports are distinct from the assessment and special-report sequence. Their heat content was not read here. This tracker does not establish when any IPCC term first appeared."
  ],
  "unverified": [
   {
