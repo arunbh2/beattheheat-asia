@@ -42,7 +42,7 @@ Counts are calculated from data at build time. Never type a count into a page; r
 ## Every change
 1. Edit the source (data, builder or page script), never only the generated HTML.
 2. Build with `node tools/build-static.js`.
-3. Run the checks: `node tools/check-voice.js`, `node tools/check-data.js`, `node tools/build-data.js --check`, `npm run check:hap`, `node tools/living-evidence/check.js`, then `git add -A` and `node tools/check-site.js` (Playwright, tracked pages only).
+3. Run the checks: `node tools/check-voice.js`, `node tools/check-data.js`, `node tools/build-data.js --check`, `npm run check:hap`, `node tools/living-evidence/check.js`, `node tools/check-weight.js` (speed budget; after a deliberate change in weight, record it with `--update`), then `git add -A` and `node tools/check-site.js` (Playwright, tracked pages only).
 4. When styles.css or a script changes, bump the cache version `?v=N` across all HTML and JS.
 5. Commit with a clear message, push to the session branch, open a PR, merge, then fast-forward the branch. Never force-push. Never run git stash or pull while a film render is writing files.
 

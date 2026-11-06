@@ -272,144 +272,144 @@
   "changed": "2026-10-31"
  },
  "/print/": {
-  "hash": "d3a01337dab02fc0",
-  "changed": "2026-11-03"
+  "hash": "bbead4d748a5c807",
+  "changed": "2026-11-06"
  },
  "/print/actions-clinics/": {
-  "hash": "8e5ef652cb6f61d5",
-  "changed": "2026-11-03"
+  "hash": "4b3a565265cb8b5c",
+  "changed": "2026-11-06"
  },
  "/print/actions-homes/": {
-  "hash": "eabd8c9fd972d208",
-  "changed": "2026-11-03"
+  "hash": "33282338a14294a2",
+  "changed": "2026-11-06"
  },
  "/print/actions-neighbourhoods/": {
-  "hash": "4927aeb0c3974ed9",
-  "changed": "2026-11-03"
+  "hash": "e35fc6c4fbf45831",
+  "changed": "2026-11-06"
  },
  "/print/actions-schools/": {
-  "hash": "2b3e81b716e398d3",
-  "changed": "2026-11-03"
+  "hash": "cd22cfd96d0c5712",
+  "changed": "2026-11-06"
  },
  "/print/actions-summer/": {
-  "hash": "2f2e82f528277778",
-  "changed": "2026-11-03"
+  "hash": "7b3b2fce29663858",
+  "changed": "2026-11-06"
  },
  "/print/actions-work-2/": {
-  "hash": "229f47b13e3f34f5",
-  "changed": "2026-11-03"
+  "hash": "5309a6070e708139",
+  "changed": "2026-11-06"
  },
  "/print/actions-work/": {
-  "hash": "808e9e29231bab36",
-  "changed": "2026-11-03"
+  "hash": "641d6f086085ab08",
+  "changed": "2026-11-06"
  },
  "/print/city-ahmedabad/": {
-  "hash": "3c8a8cd70504c572",
-  "changed": "2026-11-03"
+  "hash": "9b35cdf5140281a4",
+  "changed": "2026-11-06"
  },
  "/print/city-bangkok/": {
-  "hash": "400139ed0544e69f",
-  "changed": "2026-11-03"
+  "hash": "870437a8de054a24",
+  "changed": "2026-11-06"
  },
  "/print/city-colombo/": {
-  "hash": "eaa1d9f76e229c88",
-  "changed": "2026-11-03"
+  "hash": "b886509a31a2a71e",
+  "changed": "2026-11-06"
  },
  "/print/city-delhi/": {
-  "hash": "cfac347b7a78e2c6",
-  "changed": "2026-11-03"
+  "hash": "57b35c9b2510716a",
+  "changed": "2026-11-06"
  },
  "/print/city-dhaka/": {
-  "hash": "847de9c367c94129",
-  "changed": "2026-11-03"
+  "hash": "6fbf96556ba61e0d",
+  "changed": "2026-11-06"
  },
  "/print/city-hanoi/": {
-  "hash": "85500c0f4d2d7a2a",
-  "changed": "2026-11-03"
+  "hash": "b38b3a0499d152e3",
+  "changed": "2026-11-06"
  },
  "/print/city-jakarta/": {
-  "hash": "ff62e11a22e1e43d",
-  "changed": "2026-11-03"
+  "hash": "6c725fe0ee51b70c",
+  "changed": "2026-11-06"
  },
  "/print/city-kathmandu/": {
-  "hash": "7cd786cde5475c97",
-  "changed": "2026-11-03"
+  "hash": "1676fd4016af7bde",
+  "changed": "2026-11-06"
  },
  "/print/city-manila/": {
-  "hash": "0fe08ed446c9f362",
-  "changed": "2026-11-03"
+  "hash": "33b503b94d07e5bf",
+  "changed": "2026-11-06"
  },
  "/print/city-mumbai/": {
-  "hash": "177e542f17f39937",
-  "changed": "2026-11-03"
+  "hash": "2f6c717c6599c746",
+  "changed": "2026-11-06"
  },
  "/print/city-phnompenh/": {
-  "hash": "a7c03a9409ffb6dc",
-  "changed": "2026-11-03"
+  "hash": "94fe734f63446bb2",
+  "changed": "2026-11-06"
  },
  "/print/city-singapore/": {
-  "hash": "61c6575f625f7944",
-  "changed": "2026-11-03"
+  "hash": "8669c98c0ddd54a5",
+  "changed": "2026-11-06"
  },
  "/print/community-workshop-guide/": {
-  "hash": "25d17703756ffc6d",
-  "changed": "2026-11-03"
+  "hash": "9d0b860e03b0efac",
+  "changed": "2026-11-06"
  },
  "/print/cooling-dry/": {
-  "hash": "241726c95cc73e7e",
-  "changed": "2026-11-03"
+  "hash": "8d19e2b3a9d95226",
+  "changed": "2026-11-06"
  },
  "/print/cooling-flood/": {
-  "hash": "b93fcea23ad8e7b6",
-  "changed": "2026-11-03"
+  "hash": "efe359c9dbdec5f2",
+  "changed": "2026-11-06"
  },
  "/print/cooling-homes/": {
-  "hash": "8ccc52885aaceaf7",
-  "changed": "2026-11-03"
+  "hash": "bece8657814b8ecd",
+  "changed": "2026-11-06"
  },
  "/print/cooling-markets/": {
-  "hash": "c824f5f8fded763c",
-  "changed": "2026-11-03"
+  "hash": "a82647533a3bcee7",
+  "changed": "2026-11-06"
  },
  "/print/cooling-schools/": {
-  "hash": "66099b831466782d",
-  "changed": "2026-11-03"
+  "hash": "96500a8db236e8e3",
+  "changed": "2026-11-06"
  },
  "/print/cooling-system/": {
-  "hash": "de3ca19fcec37b37",
-  "changed": "2026-11-03"
+  "hash": "b32c03c4f45f8b33",
+  "changed": "2026-11-06"
  },
  "/print/cooling-waiting/": {
-  "hash": "e704005ca1f2810a",
-  "changed": "2026-11-03"
+  "hash": "82995420545300eb",
+  "changed": "2026-11-06"
  },
  "/print/cooling-work/": {
-  "hash": "c3a8da1a88606ace",
-  "changed": "2026-11-03"
+  "hash": "3f6a3b8372e1cff1",
+  "changed": "2026-11-06"
  },
  "/print/dry-and-humid-heat/": {
-  "hash": "876655a500c3f984",
-  "changed": "2026-11-03"
+  "hash": "5eef7cf770708fa8",
+  "changed": "2026-11-06"
  },
  "/print/four-heats/": {
-  "hash": "123d7993e64e96f1",
-  "changed": "2026-11-03"
+  "hash": "d05eca3bece7dfde",
+  "changed": "2026-11-06"
  },
  "/print/heatwaves/": {
-  "hash": "0e3426fe9279c0ec",
-  "changed": "2026-11-03"
+  "hash": "fea26e5442112de0",
+  "changed": "2026-11-06"
  },
  "/print/paying-for-protection/": {
-  "hash": "6691c9fa9f5e38bd",
-  "changed": "2026-11-03"
+  "hash": "f2671e8d92521c75",
+  "changed": "2026-11-06"
  },
  "/print/weather-work-person/": {
-  "hash": "adced56ba1374b25",
-  "changed": "2026-11-03"
+  "hash": "37f8c9734bdec95f",
+  "changed": "2026-11-06"
  },
  "/print/workshop-guide/": {
-  "hash": "bc4f58146ad668db",
-  "changed": "2026-11-03"
+  "hash": "e4dad5864454f4ef",
+  "changed": "2026-11-06"
  },
  "/resources/": {
   "hash": "0becc9b96a51b90b",
@@ -428,8 +428,8 @@
   "changed": "2026-11-01"
  },
  "/sources/": {
-  "hash": "1a568d2f1ec9acf6",
-  "changed": "2026-11-03"
+  "hash": "711e196c42995ece",
+  "changed": "2026-11-06"
  },
  "/the-web/": {
   "hash": "89f8273779d59992",

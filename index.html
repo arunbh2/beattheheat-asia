@@ -31,9 +31,9 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Newsreader:ital,wght@0,400;0,500;1,400&display=swap">
 
-  <link rel="stylesheet" href="styles.css?v=170">
+  <link rel="stylesheet" href="styles.css?v=171">
 
   <script type="application/ld+json">
   {
@@ -111,12 +111,12 @@
   }
   </script>
   <link rel="alternate" type="text/plain" href="/llms-full.txt" title="The whole map as plain text">
-  <script src="data.js?v=170" defer></script>
-  <script src="script.js?v=170" defer></script>
-  <script src="heatweek.js?v=170" defer></script>
-  <script src="guide.js?v=170" defer></script>
-  <script src="journey.js?v=170" defer></script>
-  <script src="/join.js?v=170" defer></script>
+  <script src="data.js?v=171" defer></script>
+  <script src="script.js?v=171" defer></script>
+  <script src="heatweek.js?v=171" defer></script>
+  <script src="guide.js?v=171" defer></script>
+  <script src="journey.js?v=171" defer></script>
+  <script src="/join.js?v=171" defer></script>
 <!--csn--><style id="csn-css">html:has(.csn){scroll-padding-top:120px}
 .csn,.csf,.csn-d,.csp{--ink:#16202B;--ink2:#39424D;--grey:#5E6570;--canvas:#FAF7F2;--sand:#F2E7D9;--line:#E6DFD4;--orange:#F26430;--ember:#B8401A;--green:#17703A;font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);line-height:1.4}
 .csn{position:sticky;top:0;z-index:60;margin:0!important;padding:0!important;max-width:none!important;display:block!important;background:rgba(250,247,242,.96);border-bottom:1px solid var(--line);-webkit-backdrop-filter:saturate(1.2) blur(10px);backdrop-filter:saturate(1.2) blur(10px)}
@@ -435,7 +435,7 @@ html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{
       <!-- The launch film: rendered in code from real screens of the site (tools/launch/). Plays only when asked; nothing loads until then. -->
       <div class="container launch__in">
         <figure class="launch__film">
-          <video controls playsinline preload="none" poster="/media/launch/launch-poster.jpg" width="1920" height="1080" aria-describedby="launch-p">
+          <video controls playsinline preload="none" data-poster="/media/launch/launch-poster.jpg" width="1920" height="1080" aria-describedby="launch-p">
             <source src="/media/launch/launch-16x9.mp4" type="video/mp4">
             <track kind="captions" src="/media/launch/launch.en.vtt" srclang="en" label="English">
           </video>
@@ -1157,7 +1157,7 @@ $$("[data-csn-copy]").forEach(function(b){b.addEventListener("click",function(){
         <button type="button" class="film__close" data-film="close" aria-label="Close the film">×</button>
       </div>
       <div class="film__frame">
-        <video id="film-video" controls playsinline preload="none" poster="media/extreme-heat-wicked-problem-poster.jpg">
+        <video id="film-video" controls playsinline preload="none" data-poster="media/extreme-heat-wicked-problem-poster.jpg">
           <source src="media/extreme-heat-wicked-problem.mp4?v=2" type="video/mp4">
           <track kind="captions" src="media/extreme-heat-wicked-problem.en.vtt" srclang="en" label="English" default>
           Your browser can’t play this film. <a href="media/extreme-heat-wicked-problem.mp4">Download it (MP4, 9.7 MB)</a>.
@@ -1166,7 +1166,7 @@ $$("[data-csn-copy]").forEach(function(b){b.addEventListener("click",function(){
         <div class="film__end film__end--web" id="film-end" hidden>
           <!-- The film's last line is "the whole web moves": the end card fades into the same web as the title. -->
           <div class="film__end-web" aria-hidden="true">
-            <video id="film-end-web" muted loop playsinline preload="none" tabindex="-1" poster="media/hero/web.jpg">
+            <video id="film-end-web" muted loop playsinline preload="none" tabindex="-1" data-poster="media/hero/web.jpg">
               <source src="media/hero/web.mp4" type="video/mp4">
               <source src="media/hero/web.webm" type="video/webm">
             </video>
