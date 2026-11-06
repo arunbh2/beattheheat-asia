@@ -87,6 +87,12 @@
   ]
  },
  {
+  "name": "HARM_HOPE",
+  "file": "HARM_HOPE.json",
+  "notes": "/* ---------- 6b. NEAREST PLACES TO ACT ---------- */\n// For each harm that no lever touches directly: the levers nearest to it on the chain it feeds, one or two links away,\n// chosen by hand (a lever is listed only where acting there plausibly eases what this harm sets in motion).\n// [] means no lever on the map reaches this harm yet; the map says so plainly instead of offering a stretch.\n// tools/build-data.js checks it: every lever-less harm is listed, every lever exists and sits within two links.",
+  "inside": []
+ },
+ {
   "name": "STORIES",
   "file": "STORIES.json",
   "notes": "/* ---------- 7. A GUIDED PATH ACROSS SYSTEMS ---------- */",

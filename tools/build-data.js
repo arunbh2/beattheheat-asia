@@ -79,6 +79,29 @@ function build() {
   return out;
 }
 
+// Nearest places to act (HARM_HOPE): every harm that no lever touches is listed, with levers that exist and sit within
+// two links of it on the map, or [] for an honest gap. Harms that gain a lever of their own drop out of the list.
+function checkHope(V) {
+  if (!V.HARM_HOPE) return [];
+  const problems = [], levers = Object.fromEntries(V.LEVERS.map(v => [v.id, v])), harms = new Set(V.CONSEQUENCES.map(c => c.id));
+  const touched = new Set(V.LEVERS.flatMap(v => v.edge));
+  const adj = {}; V.LINKS.forEach(([a, b]) => { (adj[a] = adj[a] || []).push(b); (adj[b] = adj[b] || []).push(a); });
+  const within2 = id => { const s = new Set([id]); (adj[id] || []).forEach(x => { s.add(x); (adj[x] || []).forEach(y => s.add(y)); }); return s; };
+  V.CONSEQUENCES.forEach(c => { if (!touched.has(c.id) && !(c.id in V.HARM_HOPE)) problems.push(`HARM_HOPE: "${c.id}" has no lever and no entry`); });
+  for (const [id, ls] of Object.entries(V.HARM_HOPE)) {
+    if (!harms.has(id)) { problems.push(`HARM_HOPE: "${id}" is not a harm on the map`); continue; }
+    if (touched.has(id)) problems.push(`HARM_HOPE: "${id}" now has a lever of its own; remove its entry`);
+    if (!Array.isArray(ls)) { problems.push(`HARM_HOPE: "${id}" needs a list`); continue; }
+    const near = within2(id);
+    ls.forEach(l => {
+      if (!levers[l]) problems.push(`HARM_HOPE: "${id}" lists unknown lever "${l}"`);
+      else if (!levers[l].edge.some(e => near.has(e))) problems.push(`HARM_HOPE: "${id}" lists "${l}", which is more than two links away`);
+    });
+  }
+  return problems;
+}
+const failOn = problems => { if (problems.length) { console.error(problems.join("\n")); process.exit(1); } };
+
 const deepEqual = (a, b) => JSON.stringify(a) === JSON.stringify(b);
 const mode = process.argv[2];
 if (mode === "--split") split();
@@ -86,8 +109,9 @@ else if (mode === "--check") {
   const a = load(fs.readFileSync(OUT, "utf8")), b = load(build());
   const diff = a.names.filter(n => !deepEqual(a.values[n], b.values[n]));
   if (diff.length || a.names.length !== b.names.length) { console.error("data.js differs from data/core in:", diff.join(", ") || "block list"); process.exit(1); }
+  failOn(checkHope(b.values));
   console.log(`data.js matches data/core (${a.names.length} blocks)`);
 } else {
-  const out = build(); load(out);   // fails loudly if the result is not valid
+  const out = build(); failOn(checkHope(load(out).values));   // fails loudly if the result is not valid
   fs.writeFileSync(OUT, out); console.log(`data.js rebuilt from data/core (${out.length.toLocaleString()} characters)`);
 }

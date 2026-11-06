@@ -2713,6 +2713,62 @@ const LEVERS = [
   }
 ];
 
+/* ---------- 6b. NEAREST PLACES TO ACT ---------- */
+// For each harm that no lever touches directly: the levers nearest to it on the chain it feeds, one or two links away,
+// chosen by hand (a lever is listed only where acting there plausibly eases what this harm sets in motion).
+// [] means no lever on the map reaches this harm yet; the map says so plainly instead of offering a stretch.
+// tools/build-data.js checks it: every lever-less harm is listed, every lever exists and sits within two links.
+const HARM_HOPE = {
+  "droughts": ["farmcredit","firesmart","keepgreen"],
+  "forest": ["firesmart"],
+  "glof": ["blackcarbon"],
+  "marine": [],
+  "biodiversity": ["farmcredit"],
+  "wildlife": ["farmcredit"],
+  "livestock": [],
+  "farmwork": ["heatcash","socialprotection","farmcredit"],
+  "pests": ["farmcredit"],
+  "fisheries": [],
+  "spoilage": ["childwater"],
+  "prices": ["socialprotection","farmcredit","heatrules"],
+  "hunger": ["heatcash","socialprotection","maternalheat"],
+  "tankers": ["pumpbackup","childwater"],
+  "quality": ["childwater"],
+  "competition": ["drypower"],
+  "fetching": ["pumpbackup","keepinschool","maternalheat"],
+  "hydro": ["blackcarbon","pumpbackup"],
+  "generators": ["cleancool"],
+  "coldchain": [],
+  "infrastructure": ["heatbudget","riskpools"],
+  "transport": [],
+  "smog": ["firesmart"],
+  "publicspace": [],
+  "telecom": ["anticipatory"],
+  "kidney": ["coolingcentres","countdeaths"],
+  "respiratory": ["coolingcentres","countdeaths"],
+  "infectious": ["readyclinics","childwater"],
+  "injuries": ["heatrules","readyclinics","heatcash"],
+  "womenwater": ["heatrules"],
+  "abroad": ["countdeaths","heatcash"],
+  "productivity": ["heatcash","heatbudget"],
+  "business": ["heatlending","riskpools","heatcash"],
+  "supply": [],
+  "customers": ["heatlending"],
+  "tourism": ["socialprotection","heatcash"],
+  "schoolclose": ["keepinschool"],
+  "learning": ["keepinschool"],
+  "youth": ["keepinschool"],
+  "care": ["keepinschool","socialprotection"],
+  "isolation": ["coolingcentres","countdeaths"],
+  "violence": ["coolnights","mindheat"],
+  "conflict": ["coolhousing"],
+  "camps": ["coolhousing"],
+  "gatherings": ["coolingcentres","anticipatory"],
+  "cohesion": ["coolingcentres"],
+  "remote": ["countdeaths"],
+  "elections": []
+};
+
 /* ---------- 7. A GUIDED PATH ACROSS SYSTEMS ---------- */
 // sections inside: ---------- 8. WHERE TO LOOK: places in Asia where each loop plays out ---------- · Shown with each vicious cycle. These are places to look, not measurements.
 const STORIES = {
