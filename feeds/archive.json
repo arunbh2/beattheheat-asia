@@ -2,6 +2,13 @@
  "note": "Every item that has appeared on /news/. Built by tools/archive-news.js.",
  "news": [
   {
+   "title": "Extreme heat is creating a workplace health crisis in Bangladesh’s garment industry",
+   "url": "https://news.mongabay.com/short-article/2026/11/extreme-heat-is-creating-a-workplace-health-crisis-in-bangladeshs-garment-industry/",
+   "via": "Mongabay",
+   "date": "2026-11-06T06:39:56Z",
+   "place": "Bangladesh"
+  },
+  {
    "title": "Dangerous heat index expected in 3 areas on Friday – Pagasa",
    "url": "https://newsinfo.inquirer.net/2336795/dangerous-heat-index-expected-in-3-areas-on-friday-pagasa",
    "via": "Inquirer",
@@ -1098,5 +1105,5 @@
    "preprint": false
   }
  ],
- "updated": "2026-11-05T20:07:59.008Z"
+ "updated": "2026-11-06T07:01:13.315Z"
 }
