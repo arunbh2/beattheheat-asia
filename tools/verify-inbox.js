@@ -48,6 +48,15 @@ async function archiveOf(u) {
   return "";
 }
 
+// the Europe PMC record for a PubMed or PMC link, as plain text, or ""
+async function europePmc(u) {
+  const m = u.match(/pubmed\.ncbi\.nlm\.nih\.gov\/(\d+)/) || u.match(/(PMC\d+)/i); if (!m) return "";
+  const q = /^PMC/i.test(m[1]) ? `PMCID:${m[1].toUpperCase()}` : `EXT_ID:${m[1]} AND SRC:MED`;
+  const r = await get(`https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=${encodeURIComponent(q)}&resultType=core&format=json`, 30000);
+  try { const x = JSON.parse(r.body).resultList.result[0]; if (!x) return "";
+    return [x.title, x.authorString, x.journalInfo && x.journalInfo.journal && x.journalInfo.journal.title, x.pubYear, x.firstPublicationDate, x.electronicPublicationDate, x.abstractText].filter(Boolean).join(" ").replace(/<[^>]+>/g, " ");
+  } catch (e) { return ""; }
+}
 // every passage where an expected term appears (past the site's menus), merged where they overlap, up to about 8,000 characters
 function around(body, nb, terms) {
   const spans = [];
@@ -68,13 +77,18 @@ function around(body, nb, terms) {
     const fp = path.join(DIR, f), raw = JSON.parse(fs.readFileSync(fp, "utf8")), list = Array.isArray(raw) ? raw : [raw];
     let changed = false;
     for (const r of list.filter(x => x.type === "source" && x.url)) {
-      if (process.env.FORCE !== "1" && r.archive && links[r.url] && links._terms[r.url] && excerpts[r.id]) { console.log(`done     ${r.id}  (checked in an earlier run)`); continue; }
+      const prevFound = links._terms[r.url] && Object.values(links._terms[r.url]).some(Boolean);
+      if (process.env.FORCE !== "1" && r.archive && prevFound && excerpts[r.id]) { console.log(`done     ${r.id}  (checked in an earlier run)`); continue; }
       const page = await get(r.url);
       const status = page.ok ? (new URL(page.url).host !== new URL(r.url).host ? "REDIRECT" : "OK") : [401, 403, 429, 999].includes(page.status) ? "BLOCKED" : "FAIL";
       links[r.url] = status;
       if (!r.archive) { const a = await archiveOf(r.url); if (a) { r.archive = a; changed = true; } }
       let body = page.ok ? text(page.body) : "";
-      if (!body && r.archive) { const ar = await get(rawArchive(r.archive), 60000); if (ar.ok) body = text(ar.body); }
+      const has = b => (r.expect || []).some(t => norm(b).includes(norm(t)));
+      // a site that answers with a wall (cookies, a robot check) gives text but not the page: then read the archived copy too
+      if (!has(body) && r.archive) { const ar = await get(rawArchive(r.archive), 90000); if (ar.ok) body += " " + text(ar.body); }
+      // PubMed and PMC turn robots away; Europe PMC serves the same record (title, journal, dates, abstract) openly
+      if (!has(body)) { const ep = await europePmc(r.url); if (ep) body += " " + ep; }
       const nb = norm(body), found = {};
       (r.expect || []).forEach(t => { found[t] = nb.includes(norm(t)); });
       links._terms[r.url] = found;
