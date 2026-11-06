@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Newsreader:ital,wght@0,400;0,500;1,400&display=swap">
 
-  <link rel="stylesheet" href="styles.css?v=171">
+  <link rel="stylesheet" href="styles.css?v=172">
 
   <script type="application/ld+json">
   {
@@ -111,12 +111,12 @@
   }
   </script>
   <link rel="alternate" type="text/plain" href="/llms-full.txt" title="The whole map as plain text">
-  <script src="data.js?v=171" defer></script>
-  <script src="script.js?v=171" defer></script>
-  <script src="heatweek.js?v=171" defer></script>
-  <script src="guide.js?v=171" defer></script>
-  <script src="journey.js?v=171" defer></script>
-  <script src="/join.js?v=171" defer></script>
+  <script src="data.js?v=172" defer></script>
+  <script src="script.js?v=172" defer></script>
+  <script src="heatweek.js?v=172" defer></script>
+  <script src="guide.js?v=172" defer></script>
+  <script src="journey.js?v=172" defer></script>
+  <script src="/join.js?v=172" defer></script>
 <!--csn--><style id="csn-css">html:has(.csn){scroll-padding-top:120px}
 .csn,.csf,.csn-d,.csp{--ink:#16202B;--ink2:#39424D;--grey:#5E6570;--canvas:#FAF7F2;--sand:#F2E7D9;--line:#E6DFD4;--orange:#F26430;--ember:#B8401A;--green:#17703A;font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);line-height:1.4}
 .csn{position:sticky;top:0;z-index:60;margin:0!important;padding:0!important;max-width:none!important;display:block!important;background:rgba(250,247,242,.96);border-bottom:1px solid var(--line);-webkit-backdrop-filter:saturate(1.2) blur(10px);backdrop-filter:saturate(1.2) blur(10px)}
@@ -428,6 +428,21 @@ html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{
         <div class="intro__foot">
           <p class="honest">This map is large, but the real web is larger. Every heatwave reveals links that aren’t drawn here yet.</p>
         </div>
+      </div>
+    </section>
+
+    <section class="role-door" aria-labelledby="door-k">
+      <!-- One question at the door: each role opens the matching path in "Find your way in" (#start). Without JavaScript the links simply go there. -->
+      <div class="container role-door__in">
+        <p class="role-door__k" id="door-k">I work as:</p>
+        <ul class="role-door__opts">
+          <li><a class="role-door__opt" href="#start" data-door="city" data-door-reason="plan">a city official</a></li>
+          <li><a class="role-door__opt" href="#start" data-door="health" data-door-reason="help">a health worker</a></li>
+          <li><a class="role-door__opt" href="#start" data-door="community" data-door-reason="community">with workers or communities</a></li>
+          <li><a class="role-door__opt" href="#start" data-door="funder" data-door-reason="fund">a funder</a></li>
+          <li><a class="role-door__opt" href="#start" data-door="research" data-door-reason="understand">a researcher</a></li>
+        </ul>
+        <p class="role-door__note">Each opens a short path, with how long each stop takes. Your choice stays in this browser.</p>
       </div>
     </section>
 
