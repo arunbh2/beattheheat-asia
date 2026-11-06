@@ -306,6 +306,13 @@ button { font: inherit; color: inherit; }
 
 .explorer__layout { display: grid; gap: 24px; }
 .toolbar__row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 22px; }
+/* A calm first view on phones: heat and its systems only, until the reader asks for more (script.js) */
+.map-simple { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; padding: 12px 14px; border-radius: var(--r-sm); background: var(--sand-50); border: 1.5px solid var(--line); }
+.map-simple[hidden] { display: none; }
+.map-simple p { margin: 0; flex: 1 1 16rem; font-size: .92rem; line-height: 1.4; }
+.explorer.is-simple .filters { flex-wrap: wrap; overflow: visible; } /* every system's name in view, matching its dot's colour */
+.explorer.is-simple .toolbar__row, .explorer.is-simple .breakbar, .explorer.is-simple .pathfinder, .explorer.is-simple .legend { display: none; }
+.web.is-simple .node--leaf, .web.is-simple .edge:not(.edge--hub), .web.is-simple .lever { display: none; }
 .who-select { min-width: 0; max-width: 100%; }
 @media (max-width: 700px) { .who-select { flex: 1 1 100%; } .who-select select { width: 100%; } }
 .who-select select {

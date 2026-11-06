@@ -686,6 +686,7 @@
   }
 
   function mark({ nodes: ns = [], edges: es = [], flow = [], depth = null, loopEdges = [], levers = [] }) {
+    showWhole(false);
     clearMarks();
     svg.classList.add("has-focus");
     ns.forEach(id => { const n = byId[id]; if (!n) return; n.g.classList.add("on"); if (depth) n.g.style.setProperty("--d", Math.min(depth.get(id) || 0, 8)); });
@@ -718,6 +719,7 @@
   }
 
   function applyFilter() {
+    showWhole(false);
     const f = state.filter;
     svg.classList.toggle("is-filtered", f !== "all");
     gBg.querySelectorAll("[data-sys]").forEach(x => x.classList.toggle("out", f !== "all" && x.dataset.sys !== f));
@@ -1052,6 +1054,7 @@
 
   /* ======================= EVENTS ======================= */
   function onNodeActivate(id) {
+    if (simple && byId[id] && byId[id].kind === "domain") { const chip = document.querySelector(`[data-filter="${id}"]`); if (chip) { chip.click(); return; } }
     if (state.selected === id && !state.story) { clearSelection(); return; }
     select(id);
   }
@@ -1137,6 +1140,37 @@
     if (ev.key === "Escape" && (state.selected || state.story || state.inst || state.pkg)) { clearSelection(); fitAll(); }
   });
 
+  /* ======================= A CALM FIRST VIEW ON PHONES ======================= */
+  // On a phone the map opens on heat and its systems only. Choosing a system, opening any dot, cycle or link
+  // (from the map, the page or the address), or "Show the whole map" brings everything back as before.
+  // "Show the whole map" is remembered in this browser, so a returning reader starts with the full web.
+  const FULL_KEY = "bth-map-full", explorer = document.getElementById("explore"), simpleBox = document.getElementById("map-simple");
+  let simple = false;
+  function frameSimple(instant) {
+    const t = targetFor(boundsOf(["heat", ...SYSTEMS.map(s => s.id)]), { maxK: 1.2 });
+    if (instant) { Object.assign(cam, t); applyCam(); } else animateTo(t);
+  }
+  function setSimple(on) {
+    simple = on;
+    svg.classList.toggle("is-simple", on);
+    if (explorer) explorer.classList.toggle("is-simple", on);
+    if (simpleBox) simpleBox.hidden = !on;
+  }
+  function startSimple() {
+    let full = false; try { full = localStorage.getItem(FULL_KEY) === "1"; } catch (e) {}
+    if (full || !simpleBox || !window.matchMedia("(max-width: 767px)").matches) return;
+    setSimple(true); frameSimple(true);
+  }
+  function showWhole(remember) {
+    if (!simple) return;
+    setSimple(false);
+    if (remember) { try { localStorage.setItem(FULL_KEY, "1"); } catch (e) {} }
+  }
+  if (simpleBox) simpleBox.addEventListener("click", ev => {
+    if (!ev.target.closest("[data-map-whole]")) return;
+    showWhole(true); fitAll(); track("map-whole");
+  });
+
   need("filters").addEventListener("click", ev => {
     const b = ev.target.closest("[data-filter]"); if (!b) return;
     state.filter = b.dataset.filter;
@@ -1163,7 +1197,7 @@
     clearTimeout(resizeTimer);
     resizeTimer = setTimeout(() => {
       applyCam();
-      if (window.innerWidth !== lastW && !state.selected && !state.story && !state.inst) fitAll(true);
+      if (window.innerWidth !== lastW && !state.selected && !state.story && !state.inst) { if (simple) frameSimple(true); else fitAll(true); }
       lastW = window.innerWidth;
     }, 150);
   });
@@ -2193,6 +2227,7 @@
 
   function tourStep(i) {
     const t = TOUR[i]; if (!t) return;
+    showWhole(false);   // the tour walks the whole web
     state.story = null; state.inst = null;
     // only the "weak link" step switches a lever on; going back or forward switches it off again
     if (!t.lever && state.on.size) { state.on.clear(); state.pkg = null; applyBreakState(); }
@@ -3351,6 +3386,7 @@
     initDisclosure();
     applyBreakState();
     fitAll(true, true);
+    startSimple();
     svg.classList.add("is-ready");
     routeHash();
     goFromQuery();
