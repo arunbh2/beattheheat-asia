@@ -1,0 +1,834 @@
+[
+ {
+  "key": "S1",
+  "url": "https://wedocs.unep.org/bitstreams/844c7e28-eb76-4262-b985-801907bf9f83/download",
+  "title": "IPCC Second Assessment: Climate Change 1995",
+  "by": "IPCC",
+  "year": 1995,
+  "type": "IPCC report",
+  "expect": [
+   "Human health",
+   "heat waves",
+   "1988"
+  ]
+ },
+ {
+  "key": "S2",
+  "url": "https://wedocs.unep.org/items/e58f3806-61a3-4d01-9913-a78e3c549da6",
+  "title": "Climate Change: The IPCC 1990 and 1992 Assessments",
+  "by": "WMO and UNEP",
+  "year": 1992,
+  "type": "IPCC report",
+  "expect": [
+   "1990",
+   "February 1992",
+   "Supplement"
+  ]
+ },
+ {
+  "key": "S3",
+  "url": "https://unfccc.int/resource/docs/convkp/conveng.pdf",
+  "title": "United Nations Framework Convention on Climate Change",
+  "by": "United Nations",
+  "year": 1992,
+  "type": "UN decision",
+  "expect": [
+   "human health and welfare",
+   "Article 2",
+   "public health"
+  ]
+ },
+ {
+  "key": "S4",
+  "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00038443.htm",
+  "title": "Heat-Related Mortality -- Chicago, July 1995",
+  "by": "CDC",
+  "year": 1995,
+  "type": "Agency report",
+  "expect": [
+   "July 12-16, 1995",
+   "465 deaths",
+   "selection bias"
+  ]
+ },
+ {
+  "key": "S5",
+  "url": "https://www-iam.nies.go.jp/aim/india0210/cc_papers/ipccreports/climate_change_2001/working_group2/WG2_spm.pdf",
+  "title": "Climate Change 2001: Impacts, Adaptation, and Vulnerability - Summary for Policymakers",
+  "by": "IPCC",
+  "year": 2001,
+  "type": "IPCC report",
+  "expect": [
+   "Human Health",
+   "heat waves",
+   "very likely"
+  ]
+ },
+ {
+  "key": "S6",
+  "url": "https://www-iam.nies.go.jp/aim/india0210/cc_papers/ipccreports/climate_change_2001/working_group2/WG2_09.pdf",
+  "title": "Human Health",
+  "by": "IPCC",
+  "year": 2001,
+  "type": "IPCC report",
+  "expect": [
+   "Human Health",
+   "Adaptation Options",
+   "heat"
+  ]
+ },
+ {
+  "key": "S7",
+  "url": "https://www.who.int/publications/i/item/9789289071918",
+  "title": "Heat-health action plans: guidance",
+  "by": "WHO Regional Office for Europe",
+  "year": 2008,
+  "type": "Agency report",
+  "expect": [
+   "1 January 2008",
+   "EuroHEAT",
+   "urban planning"
+  ]
+ },
+ {
+  "key": "S8",
+  "url": "https://cdn.who.int/media/docs/default-source/climate-change/heat-waves-and-health---guidance-on-warning-system-development.pdf?download=true&sfvrsn=e4813084_2",
+  "title": "Heatwaves and Health: Guidance on Warning-System Development",
+  "by": "WMO and WHO",
+  "year": 2015,
+  "type": "Agency report",
+  "expect": [
+   "WMO-No. 1142",
+   "2015",
+   "Chicago 1995"
+  ]
+ },
+ {
+  "key": "S9",
+  "url": "https://www.preventionweb.net/resource/case-study/innovative-heat-wave-early-warning-system-and-action-plan-ahmedabad-india",
+  "title": "Innovative Heat Wave Early Warning System And Action Plan In Ahmedabad, India",
+  "by": "WHO and WMO",
+  "year": 2018,
+  "type": "Agency report",
+  "expect": [
+   "May 2010",
+   "April 2013",
+   "Health Department"
+  ]
+ },
+ {
+  "key": "S10",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/20439769/",
+  "title": "An adaptability limit to climate change due to heat stress",
+  "by": "Sherwood et al.",
+  "year": 2010,
+  "type": "Peer-reviewed study",
+  "expect": [
+   "Epub 2010 May 3",
+   "wet-bulb temperature",
+   "hyperthermia"
+  ]
+ },
+ {
+  "key": "S11",
+  "url": "https://www.preventionweb.net/news/summary-policy-makers-new-special-report-extremes-srex-approved-ipcc",
+  "title": "Summary for Policy Makers of the new Special Report on Extremes (SREX) approved by IPCC",
+  "by": "IPCC",
+  "year": 2011,
+  "type": "Agency report",
+  "expect": [
+   "18 November 2011",
+   "Kampala",
+   "inequalities"
+  ]
+ },
+ {
+  "key": "S12",
+  "url": "https://digitallibrary.un.org/nanna/record/3893122/files/SYR_AR5_FINAL_full.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0",
+  "title": "Climate Change 2014: Synthesis Report",
+  "by": "IPCC",
+  "year": 2014,
+  "type": "IPCC report",
+  "expect": [
+   "Synthesis Report",
+   "heat waves",
+   "labour productivity"
+  ]
+ },
+ {
+  "key": "S13",
+  "url": "https://www.undrr.org/news/heatwaves-lessons-india-dealing-growing-hazard",
+  "title": "India: Lessons on dealing with the growing heatwaves",
+  "by": "UNDRR",
+  "year": 2019,
+  "type": "Agency report",
+  "expect": [
+   "2016",
+   "Guidelines for Preparation",
+   "Heat-Wave"
+  ]
+ },
+ {
+  "key": "S14",
+  "url": "https://unfccc.int/topics/adaptation-and-resilience/workstreams/gga?trk=article-ssr-frontend-pulse_little-text-block",
+  "title": "Global goal on adaptation",
+  "by": "UNFCCC",
+  "year": null,
+  "type": "Agency report",
+  "expect": [
+   "Article 7",
+   "2015 Paris Agreement",
+   "59 Belém Adaptation Indicators"
+  ]
+ },
+ {
+  "key": "S15",
+  "url": "https://heathealth.info/about-us/",
+  "title": "About Us",
+  "by": "Global Heat Health Information Network",
+  "year": null,
+  "type": "Agency report",
+  "expect": [
+   "founded in 2016",
+   "NOAA",
+   "Regional Hubs"
+  ]
+ },
+ {
+  "key": "S16",
+  "url": "https://www.preventionweb.net/event/first-global-forum-heat-and-health",
+  "title": "First global forum for heat and health",
+  "by": "Global Heat Health Information Network",
+  "year": 2018,
+  "type": "Agency report",
+  "expect": [
+   "Colombo in 2016",
+   "17 December 2018",
+   "Southeast Asia"
+  ]
+ },
+ {
+  "key": "S17",
+  "url": "https://heathealth.info/projects/",
+  "title": "Projects and Studies",
+  "by": "Global Heat Health Information Network",
+  "year": null,
+  "type": "Agency report",
+  "expect": [
+   "November 2016 and April 2017",
+   "Karachi",
+   "Heatwave Management Plan"
+  ]
+ },
+ {
+  "key": "S18",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/28782036/",
+  "title": "Deadly heat waves projected in the densely populated agricultural regions of South Asia",
+  "by": "Im et al.",
+  "year": 2017,
+  "type": "Peer-reviewed study",
+  "expect": [
+   "2017 Aug 2",
+   "Ganges and Indus",
+   "wet-bulb temperature"
+  ]
+ },
+ {
+  "key": "S19",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/30503045/",
+  "title": "The 2018 report of the Lancet Countdown on health and climate change: shaping the health of nations for centuries to come",
+  "by": "Watts et al.",
+  "year": 2018,
+  "type": "Peer-reviewed study",
+  "expect": [
+   "41 indicators",
+   "153 billion",
+   "labour capacity"
+  ]
+ },
+ {
+  "key": "S20",
+  "url": "https://unfccc.int/news/unfccc-secretariat-welcomes-ipcc-s-global-warming-of-15degc-report",
+  "title": "UNFCCC Secretariat Welcomes IPCC’s Global Warming of 1.5°C Report",
+  "by": "UNFCCC",
+  "year": 2018,
+  "type": "Agency report",
+  "expect": [
+   "8 October 2018",
+   "420 million",
+   "severe heatwaves"
+  ]
+ },
+ {
+  "key": "S21",
+  "url": "https://wedocs.unep.org/bitstreams/8ef0970c-06fc-45fc-818e-78aebd997c1a/download",
+  "title": "Climate Change and Land - Summary for Policymakers",
+  "by": "IPCC",
+  "year": 2019,
+  "type": "IPCC report",
+  "expect": [
+   "A.2.2",
+   "heatwaves",
+   "food security"
+  ]
+ },
+ {
+  "key": "S22",
+  "url": "https://www.ilo.org/resource/news/increase-heat-stress-predicted-bring-productivity-loss-equivalent-80",
+  "title": "Increase in heat stress predicted to bring productivity loss equivalent to 80 million jobs",
+  "by": "ILO",
+  "year": 2019,
+  "type": "Agency report",
+  "expect": [
+   "1 July 2019",
+   "2.2 per cent",
+   "southern Asia"
+  ]
+ },
+ {
+  "key": "S23",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7209987/",
+  "title": "The emergence of heat and humidity too severe for human tolerance",
+  "by": "Raymond et al.",
+  "year": 2020,
+  "type": "Peer-reviewed study",
+  "expect": [
+   "2020 May 8",
+   "South Asia",
+   "35°C"
+  ]
+ },
+ {
+  "key": "S24",
+  "url": "https://www.unccd.int/sites/default/files/library/1751_IPCC_AR6_WGI_SPM.pdf",
+  "title": "Climate Change 2021: The Physical Science Basis - Summary for Policymakers",
+  "by": "IPCC",
+  "year": 2021,
+  "type": "IPCC report",
+  "expect": [
+   "A.3.1",
+   "virtually certain",
+   "hot extremes"
+  ]
+ },
+ {
+  "key": "S25",
+  "url": "https://edoc.unibas.ch/entities/publication/a7377942-68b6-4aaa-b986-3e28f9d446f8",
+  "title": "The burden of heat-related mortality attributable to recent human-induced climate change",
+  "by": "Vicedo-Cabrera et al.",
+  "year": 2021,
+  "type": "Peer-reviewed study",
+  "expect": [
+   "732 locations",
+   "43 countries",
+   "37.0%"
+  ]
+ },
+ {
+  "key": "S26",
+  "url": "https://doi.org/10.1007/s00704-021-03758-y",
+  "title": "Heat waves: a hot topic in climate change research",
+  "by": "Marx et al.",
+  "year": 2021,
+  "type": "Peer-reviewed study",
+  "expect": [
+   "03 September 2021",
+   "8,011 papers",
+   "doubling within about"
+  ]
+ },
+ {
+  "key": "S27",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8799385/",
+  "title": "Evaluating the 35°C wet-bulb temperature adaptability threshold for young, healthy subjects (PSU HEAT Project)",
+  "by": "Vecellio et al.",
+  "year": 2022,
+  "type": "Peer-reviewed study",
+  "expect": [
+   "2021 Dec 16",
+   "24 subjects",
+   "30.55"
+  ]
+ },
+ {
+  "key": "S28",
+  "url": "https://www.cdc.gov/mmwr/volumes/70/wr/mm7029e1.htm",
+  "title": "Heat-Related Emergency Department Visits During the Northwestern Heat Wave — United States, June 2021",
+  "by": "Schramm et al.",
+  "year": 2021,
+  "type": "Peer-reviewed study",
+  "expect": [
+   "June 25–30",
+   "2,779",
+   "NSSP"
+  ]
+ },
+ {
+  "key": "S29",
+  "url": "https://unfccc.int/sites/default/files/resource/Final_Summary%20Report_IPCC%20WG2_06.10.2022.pdf",
+  "title": "SBSTA/IPCC Summary Report on Unpacking the new scientific knowledge and key findings in the Working Group II contribution to the Sixth Assessment report: Impacts, Adaptation and Vulnerability",
+  "by": "UNFCCC",
+  "year": 2022,
+  "type": "Agency report",
+  "expect": [
+   "hyperthermia",
+   "extreme heat",
+   "IPCC"
+  ]
+ },
+ {
+  "key": "S30",
+  "url": "https://www.unccd.int/sites/default/files/library/1861_IPCC_AR6_WGIII_SummaryForPolicymakers.pdf",
+  "title": "Climate Change 2022: Mitigation of Climate Change - Summary for Policymakers",
+  "by": "IPCC",
+  "year": 2022,
+  "type": "IPCC report",
+  "expect": [
+   "D.2.1",
+   "urban heat",
+   "high confidence"
+  ]
+ },
+ {
+  "key": "S31",
+  "url": "https://wmo.int/media/news/climate-change-made-heatwaves-india-and-pakistan-30-times-more-likely",
+  "title": "Climate change made heatwaves in India and Pakistan \"30 times more likely\"",
+  "by": "WMO",
+  "year": 2022,
+  "type": "Agency report",
+  "expect": [
+   "24 May 2022",
+   "Karachi",
+   "2015"
+  ]
+ },
+ {
+  "key": "S32",
+  "url": "https://www.rockefellerfoundation.org/news/the-rockefeller-foundation-announces-support-for-the-india-extreme-heat-income-insurance-initiative-as-part-of-the-global-climate-resilience-fund-for-women/",
+  "title": "The Rockefeller Foundation Announces Support for the India Extreme Heat Income Insurance Initiative as Part of the Global Climate Resilience Fund for Women",
+  "by": "The Rockefeller Foundation",
+  "year": 2023,
+  "type": "Agency report",
+  "expect": [
+   "February 6, 2023",
+   "SEWA",
+   "$500,000"
+  ]
+ },
+ {
+  "key": "S33",
+  "url": "https://onebillionresilient.org/2023/05/03/bushra-afreen-dhaka-chief-heat-officer/",
+  "title": "Dhaka North becomes the first city in Asia to appoint a Chief Heat Officer",
+  "by": "Arsht-Rock",
+  "year": 2023,
+  "type": "Agency report",
+  "expect": [
+   "May 3, 2023",
+   "Dhaka North",
+   "Chief Heat Officer"
+  ]
+ },
+ {
+  "key": "S34",
+  "url": "https://www.mom.gov.sg/newsroom/press-releases/2023/1024-enhanced-measures-to-reduce-heat-stress-for-outdoor-workers",
+  "title": "Enhanced Measures to Reduce Heat Stress for Outdoor Workers",
+  "by": "Singapore Ministry of Manpower",
+  "year": 2023,
+  "type": "Government plan",
+  "expect": [
+   "24 October 2023",
+   "32",
+   "10 minutes"
+  ]
+ },
+ {
+  "key": "S35",
+  "url": "https://www.who.int/publications/m/item/cop28-uae-declaration-on-climate-and-health",
+  "title": "COP28 UAE Declaration on climate and health",
+  "by": "WHO",
+  "year": 2023,
+  "type": "Agency report",
+  "expect": [
+   "3 December 2023",
+   "inaugural Health Day",
+   "declaration"
+  ]
+ },
+ {
+  "key": "S36",
+  "url": "https://unfccc.int/sites/default/files/resource/cma2023_16a01E.pdf?download=",
+  "title": "Report of the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement on its fifth session, held in the United Arab Emirates from 30 November to 13 December 2023 - Addendum",
+  "by": "UNFCCC",
+  "year": 2024,
+  "type": "UN decision",
+  "expect": [
+   "2/CMA.5",
+   "Global goal on adaptation",
+   "health services"
+  ]
+ },
+ {
+  "key": "S37",
+  "url": "https://www.unicef.org/press-releases/new-guidelines-launched-protect-children-and-pregnant-women-heat-stress-bangladesh",
+  "title": "New guidelines launched to protect children and pregnant women from heat stress in Bangladesh",
+  "by": "UNICEF",
+  "year": 2024,
+  "type": "Agency report",
+  "expect": [
+   "5 May 2024",
+   "DGHS",
+   "National Guidelines"
+  ]
+ },
+ {
+  "key": "S38",
+  "url": "https://www.who.int/news/item/25-07-2024-united-nations-secretary-general-calls-for-global-action-on-extreme-heat",
+  "title": "United Nations Secretary-General calls for global action on extreme heat",
+  "by": "WHO",
+  "year": 2024,
+  "type": "Agency report",
+  "expect": [
+   "25 July 2024",
+   "protect workers",
+   "489 000"
+  ]
+ },
+ {
+  "key": "S39",
+  "url": "https://www.ilo.org/resource/news/more-workers-ever-are-losing-fight-against-heat-stress",
+  "title": "More workers than ever are losing the fight against heat stress",
+  "by": "ILO",
+  "year": 2024,
+  "type": "Agency report",
+  "expect": [
+   "25 July 2024",
+   "outside of heatwaves",
+   "21 countries"
+  ]
+ },
+ {
+  "key": "S40",
+  "url": "https://www.mse.gov.sg/latest-news/opening-address-by-sms-koh-poh-koon-ghhin-heat-health-forum/",
+  "title": "Opening address at GHHIN Southeast Asia Heat Health Forum - SMS Koh Poh Koon",
+  "by": "Singapore Ministry of Sustainability and the Environment",
+  "year": 2025,
+  "type": "Agency report",
+  "expect": [
+   "7 Jan 2025",
+   "regional Southeast Asia hub",
+   "livelihoods and wellbeing"
+  ]
+ },
+ {
+  "key": "S41",
+  "url": "https://www.who.int/news/item/22-08-2025-who-wmo-issue-new-report-and-guidance-to-protect-workers-from-increasing-heat-stress",
+  "title": "WHO, WMO issue new report and guidance to protect workers from increasing heat stress",
+  "by": "WHO and WMO",
+  "year": 2025,
+  "type": "Agency report",
+  "expect": [
+   "22 August 2025",
+   "2.4",
+   "occupational"
+  ]
+ },
+ {
+  "key": "S42",
+  "url": "https://www.worldbank.org/en/news/press-release/2025/09/16/bangladesh-faces-health-and-economic-risks-from-rising-temperature-world-bank",
+  "title": "Bangladesh Faces Health and Economic Risks from Rising Temperature: World Bank",
+  "by": "World Bank",
+  "year": 2025,
+  "type": "Agency report",
+  "expect": [
+   "September 16, 2025",
+   "250 million workdays",
+   "$1.78 billion"
+  ]
+ },
+ {
+  "key": "S43",
+  "url": "https://www.unep.org/en/news-and-stories/press-release/brazil-italy-announce-new-push-and-funding-cooling-action-ahead",
+  "title": "Brazil, Italy announce new push and funding on cooling action ahead of COP30",
+  "by": "UNEP",
+  "year": 2025,
+  "type": "Agency report",
+  "expect": [
+   "13 June 2025",
+   "EUR 2 million",
+   "Global Cooling Pledge"
+  ]
+ },
+ {
+  "key": "S44",
+  "url": "https://www.who.int/news-room/events/detail/2025/11/13/default-calendar/cop30-health-day",
+  "title": "COP30 Health Day",
+  "by": "WHO",
+  "year": 2025,
+  "type": "Agency report",
+  "expect": [
+   "13 November 2025",
+   "Belém Health Action Plan",
+   "climate justice"
+  ]
+ },
+ {
+  "key": "S45",
+  "url": "https://heathealth.info/news/south-asia-hub-launched/",
+  "title": "New South Asia Heat and Health Hub launched to strengthen regional response to extreme heat",
+  "by": "GHHIN and CEEW",
+  "year": 2026,
+  "type": "Agency report",
+  "expect": [
+   "April 7, 2026",
+   "Wellcome",
+   "New Delhi"
+  ]
+ },
+ {
+  "key": "S46",
+  "url": "https://www.undrr.org/publication/documents-and-publications/financing-heat-resilience",
+  "title": "Financing heat resilience",
+  "by": "UNDRR, NDMA India and Centre for Disaster Protection",
+  "year": 2026,
+  "type": "Agency report",
+  "expect": [
+   "2026",
+   "public budgets",
+   "parametric insurance"
+  ]
+ },
+ {
+  "key": "S47",
+  "url": "https://public.wmo.int/news/media-centre/extreme-heat-and-rainfall-glacier-loss-and-record-ocean-heat-impact-asia-2025",
+  "title": "Extreme heat and rainfall, glacier loss and record ocean heat impact Asia in 2025",
+  "by": "WMO",
+  "year": 2026,
+  "type": "Agency report",
+  "expect": [
+   "17 June 2026",
+   "Paro, Bhutan",
+   "marine heatwaves"
+  ]
+ },
+ {
+  "key": "S48",
+  "url": "https://www.who.int/publications/i/item/9789240125063",
+  "title": "Priority indicators to monitor the impact of heat exposure on maternal, newborn and child health",
+  "by": "WHO, WMO, UNICEF and UNFPA",
+  "year": 2026,
+  "type": "Agency report",
+  "expect": [
+   "21 October 2026",
+   "four domains",
+   "priority indicators"
+  ]
+ },
+ {
+  "key": "S49",
+  "url": "https://files.emdat.be/reports/2025_EMDAT_report.pdf",
+  "title": "2025 Disasters in Numbers",
+  "by": "CRED",
+  "year": 2026,
+  "type": "Agency report",
+  "expect": [
+   "2026-03-17",
+   "reporting delays",
+   "Extreme temperature"
+  ]
+ },
+ {
+  "key": "S50",
+  "url": "https://dpnet.org.np/public/uploads/files/heatwave_eng_webpublish%202026-01-20%2005-39-23.pdf",
+  "title": "Plan of Action for Risk Reduction and Response on Measures for Protection from Heat Wave 2024",
+  "by": "Government of Nepal, NDRRMA",
+  "year": 2024,
+  "type": "Government plan",
+  "expect": [
+   "Government of Nepal",
+   "2024",
+   "Responsible"
+  ]
+ },
+ {
+  "key": "S51",
+  "url": "https://managenergy.ec.europa.eu/managenergy-discover/managenergy-news/ipcc-opens-expert-review-special-report-climate-change-and-cities-2026-06-03_en",
+  "title": "IPCC opens expert review for Special Report on Climate Change and Cities",
+  "by": "European Climate, Infrastructure and Environment Executive Agency",
+  "year": 2026,
+  "type": "Agency report",
+  "expect": [
+   "3 June 2026",
+   "8 May to 3 July 2026",
+   "March 2027"
+  ]
+ },
+ {
+  "key": "S52",
+  "url": "https://www.who.int/europe/activities/planning-heat-health-action",
+  "title": "Planning heat–health action",
+  "by": "WHO Regional Office for Europe",
+  "year": null,
+  "type": "Agency report",
+  "expect": [
+   "second edition",
+   "2021",
+   "8 core elements"
+  ]
+ },
+ {
+  "key": "S53",
+  "url": "https://cambodia-kh.afd.fr/en/ressources/summary-ipcc-special-report-ocean-and-cryosphere-changing-climate-srocc",
+  "title": "Summary on the IPCC Special Report on the Ocean and Cryosphere in a Changing Climate (SROCC)",
+  "by": "AFD",
+  "year": 2019,
+  "type": "Agency report",
+  "expect": [
+   "September 24, 2019",
+   "Monaco",
+   "adaptation options"
+  ]
+ },
+ {
+  "key": "S54",
+  "url": "https://www.unccd.int/resources/unccd-library/climate-change-2023-ar6-synthesis-report",
+  "title": "Climate Change 2023. AR6 Synthesis Report",
+  "by": "UNCCD",
+  "year": 2023,
+  "type": "Agency report",
+  "expect": [
+   "three Special Reports",
+   "disproportionately affected",
+   "2023"
+  ]
+ },
+ {
+  "key": "S55",
+  "url": "https://www.preventionweb.net/understanding-disaster-risk/disaster-losses-and-statistics",
+  "title": "Disaster losses and statistics",
+  "by": "UNDRR PreventionWeb",
+  "year": null,
+  "type": "Agency report",
+  "expect": [
+   "EM-DAT",
+   "DesInventar Sendai",
+   "2017"
+  ]
+ },
+ {
+  "key": "S56",
+  "url": "https://www.undrr.org/publication/sendai-framework-disaster-risk-reduction-2015-2030",
+  "title": "Sendai Framework for Disaster Risk Reduction 2015-2030",
+  "by": "UNDRR",
+  "year": 2015,
+  "type": "UN decision",
+  "expect": [
+   "March 18, 2015",
+   "seven clear targets",
+   "health"
+  ]
+ },
+ {
+  "key": "S57",
+  "url": "https://www.weather.gov/mkx/1995_heat-wave",
+  "title": "July 12-15, 1995 Deadly Heat Wave",
+  "by": "NOAA National Weather Service",
+  "year": null,
+  "type": "Agency report",
+  "expect": [
+   "1995",
+   "official plan",
+   "public health emergency"
+  ]
+ },
+ {
+  "key": "S58",
+  "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=91008J1A.TXT",
+  "title": "Radiative Effects of Pollutants on the Planetary Boundary Layer",
+  "by": "US EPA",
+  "year": 1976,
+  "type": "Agency report",
+  "expect": [
+   "July 1976",
+   "1833",
+   "Urban Heat Island Phenomenon"
+  ]
+ },
+ {
+  "key": "S59",
+  "url": "https://www.unccd.int/resources/unccd-library/climate-change-2022-impacts-adaptation-and-vulnerability",
+  "title": "Climate Change 2022: Impacts, Adaptation and Vulnerability",
+  "by": "UNCCD",
+  "year": 2022,
+  "type": "Agency report",
+  "expect": [
+   "CHAPTER 7",
+   "CHAPTER 10",
+   "Poverty, livelihoods"
+  ]
+ },
+ {
+  "key": "S60",
+  "url": "https://onebillionresilient.org/project/extreme-heat-protection-initiative/",
+  "title": "Extreme Heat Protection Initiative",
+  "by": "Arsht-Rock",
+  "year": null,
+  "type": "Agency report",
+  "expect": [
+   "May 2023",
+   "21,000",
+   "Blue Marble"
+  ]
+ },
+ {
+  "key": "S61",
+  "url": "https://digitallibrary.un.org/record/3841704/files/WG1AR5_SummaryVolume_FINAL.pdf",
+  "title": "Climate Change 2013: The Physical Science Basis - Summary for Policymakers, Technical Summary and Frequently Asked Questions",
+  "by": "IPCC",
+  "year": 2013,
+  "type": "IPCC report",
+  "expect": [
+   "Temperature Extremes, Heat Waves and Warm Spells",
+   "TFE.9",
+   "SREX"
+  ]
+ },
+ {
+  "key": "S62",
+  "url": "https://www.ipcc.ch/site/assets/uploads/2020/02/ipcc_wg_II_1992_suppl_report_full_report.pdf",
+  "title": "Climate Change 1992: The Supplementary Report to the IPCC Impacts Assessment",
+  "by": "IPCC",
+  "year": 1992,
+  "type": "IPCC report",
+  "expect": [
+   "heat island",
+   "heat stress",
+   "human health"
+  ]
+ },
+ {
+  "key": "S63",
+  "url": "https://unfccc.int/resource/tet/d/Pop-up3.0_1.pdf",
+  "title": "Methodological and Technological Issues in Technology Transfer - Summary for Policymakers",
+  "by": "IPCC",
+  "year": 2000,
+  "type": "IPCC report",
+  "expect": [
+   "Kathmandu",
+   "8 to 10 March 2000",
+   "Human health"
+  ]
+ },
+ {
+  "key": "S64",
+  "url": "https://unfccc.int/event/sbsta-ipcc-special-event-key-findings-of-the-sixth-assessment-synthesis-report",
+  "title": "SBSTA - IPCC Special event: Key findings of the Sixth Assessment Synthesis Report",
+  "by": "UNFCCC",
+  "year": 2023,
+  "type": "Agency report",
+  "expect": [
+   "20 March 2023",
+   "three Special Reports",
+   "Interlaken"
+  ]
+ }
+]

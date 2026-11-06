@@ -646,6 +646,13 @@
   ]
  },
  {
+  "name": "HEAT_VISIBILITY",
+  "file": "HEAT_VISIBILITY.json",
+  "notes": "/* ---------- HOW HEAT BECAME VISIBLE ---------- */\n// The page /how-heat-became-visible/: a graded timeline of when science, health, labour, finance and the UN began to notice heat,\n// the turning points (and who was still missing), and how heat appears in IPCC reports. Do not edit by hand: it is built by\n// research/2026-11/heat-visibility/convert.js from checked research and edits.json, and checked by tools/build-data.js.\n// Build-only (\"browser\": false): builders read it from here; it is not in data.js, so no visitor downloads it.",
+  "inside": [],
+  "browser": false
+ },
+ {
   "name": "HOME_HEATS",
   "file": "HOME_HEATS.json",
   "notes": "/* ---------- 27. FOUR HEATS IN A HOME ---------- */\n// Shown in Cooling options, linked from Heat right now and the \"Homes that trap heat\" node. Each heat is one hotspot on the\n// drawing of a tin-roofed home; night: what changes after sunset. Every figure has its source.",

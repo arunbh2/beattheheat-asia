@@ -9,6 +9,9 @@ A free, open, non-commercial evidence platform on extreme heat in South and Sout
 
 Counts are calculated from data at build time. Never type a count into a page; read the current numbers from the build output. Readers are city officials, health workers, unions, NGOs, funders and researchers, many of them on low-end Android phones and slow networks.
 
+## The first rule
+Every decision elevates the reader's experience (UX), the maintainer's experience (DX) and the AI agent's experience (AX) at once, without breaking anything. A change that helps one at the cost of another is not finished: for example, a feature that adds weight to the homepage for a page most readers never open, a check whose failure does not say what to fix, or page text that differs from what llms-full.txt says. Test what already works before shipping.
+
 ## Hard rules
 1. **Zero budget.** GitHub Pages only: no paid APIs, servers, databases or accounts.
 2. **No new dependencies without asking.** Pages are plain HTML, CSS and vanilla JS. The Node scripts in `tools/` generate the pages, and the output is committed. Ask before adding any library to pages or tools.
@@ -26,7 +29,7 @@ Counts are calculated from data at build time. Never type a count into a page; r
 8. **Funders.** Wellcome and every other funder stays in the funder records. Do not mention Wellcome in evidence briefs.
 
 ## Where things live
-- `data/core/*.json`: source of truth for the map. `node tools/build-data.js` turns it into `data.js`. Keep the JSON formatting by editing strings in place or using `ser()` from build-data.js.
+- `data/core/*.json`: source of truth for the map. `node tools/build-data.js` turns it into `data.js`. A block marked `"browser": false` in the manifest is build-only: it stays out of `data.js` (so visitors never download it) and builders add it with `require("./data-blocks.js")()`. Keep the JSON formatting by editing strings in place or using `ser()` from build-data.js.
 - `data/site/*.json`: site words (nav.json for the menu, crumbs and names; tone.json is in `data/schema/`). `data/kb/` holds monthly knowledge-base records.
 - `index.html`, `script.js`, `styles.css`: the homepage map. Shared styles for all pages are in `styles.css`.
 - `tools/build-static.js`: builds everything (it calls build-pages.js, build-nav.js and the others). Each section has its own builder, such as `build-intersections.js` or `build-hap-archive.js`.
@@ -60,6 +63,9 @@ Counts are calculated from data at build time. Never type a count into a page; r
   - Score against `research/hap-rubric.md` into `research/hap-scores/<id>.json`.
   - Every score above 0 cites a page and a quote of 30 words or fewer.
   - When unsure, score lower with "confidence": "low".
+
+## How heat became visible
+`/how-heat-became-visible/` is built by `tools/build-visibility.js` from the build-only block `HEAT_VISIBILITY`, which `research/2026-11/heat-visibility/convert.js` writes from the checked research and its reviewed `edits.json` (never edit the block by hand). `tools/visibility-text.js` holds what the page and `llms-full.txt` share. Its sources were checked as a separate batch, `data/inbox/2026-11-heat-visibility/`, with `verify-sources.yml` (`month: 2026-11-heat-visibility`); the checker reads PDFs and resumes where it stopped. What was left out is in `research/2026-11/heat-visibility/dropped.md`.
 
 ## Heat shorts
 `.claude/skills/heat-shorts/` makes short explainer films with faceless figures, a humble voice, checked sources and no em dashes. It builds on the repo's own renderer by default; the Remotion route needs the user's agreement. It is adapted from an MIT-licensed skill, with the reference frames left out.

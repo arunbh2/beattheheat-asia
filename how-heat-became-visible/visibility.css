@@ -1,0 +1,70 @@
+/* How heat became visible: styles for this page only (loaded by tools/build-visibility.js), so no other page carries them. */
+.hv-sec { padding-top: 28px; padding-bottom: 28px; }
+.hv-notes { margin: 0; padding-left: 1.1rem; color: var(--grey-700); font-size: .95rem; display: grid; gap: 6px; max-width: 46rem; }
+.hv-jump { margin-top: 14px; font-weight: 600; }
+.hv-eras, .hv-turns, .hv-list, .hv-ipcc { list-style: none; margin: 18px 0 0; padding: 0; display: grid; gap: 14px; }
+.hv-era, .hv-turn, .hv-row-ipcc { padding: 16px 18px; border: 1.5px solid var(--line); border-radius: var(--r-sm); background: var(--canvas); }
+.hv-era h3, .hv-turn h3, .hv-row-ipcc h3 { margin: 2px 0 6px; font-size: 1.1rem; line-height: 1.3; }
+.hv-era p, .hv-turn p { margin: 0 0 8px; max-width: 46rem; }
+.hv-span { font-size: .8rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; color: var(--ember); margin: 0; }
+.hv-missing { border-left: 3px solid var(--orange); padding-left: 12px; }
+.hv-missing b { display: block; font-size: .85rem; letter-spacing: .03em; }
+.hv-close { margin-top: 16px; max-width: 46rem; font-weight: 600; }
+.hv-sec a { color: inherit; text-decoration-color: var(--orange); text-underline-offset: 3px; }
+.hv-sec a:hover { text-decoration-thickness: 2px; }
+.hv-src { font-size: .85rem; color: var(--grey-700); margin: 6px 0 0; overflow-wrap: anywhere; }
+.hv-src summary { cursor: pointer; font-weight: 700; display: inline-flex; min-height: 32px; align-items: center; }
+.hv-src summary span { font-weight: 500; margin-left: 4px; }
+.hv-src ul { margin: 4px 0 0; padding-left: 1.1rem; display: grid; gap: 4px; }
+.hv-src small { color: var(--grey-500); }
+.hv-arc { font-size: .8rem; color: var(--grey-500); }
+/* the timeline */
+.hv-filters { display: grid; gap: 12px; margin: 14px 0 6px; padding: 14px; border-radius: var(--r-sm); background: var(--sand-50); border: 1.5px solid var(--line); }
+.hv-filters[hidden] { display: none; }
+.hv-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.hv-chips .chip { min-height: 40px; }
+.hv-chips .chip span { opacity: .7; margin-left: 2px; }
+.hv-row { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; }
+.hv-sel { display: inline-flex; align-items: center; gap: 8px; font-weight: 600; font-size: .92rem; }
+.hv-sel select { min-height: 40px; max-width: 100%; }
+.hv-n { opacity: .7; }
+.hv-count { margin: 0; font-weight: 700; }
+.hv-decades { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; margin: 12px 0 4px; font-weight: 700; }
+.hv-decades span { font-size: .8rem; letter-spacing: .06em; text-transform: uppercase; color: var(--grey-500); }
+.hv-decades a { min-height: 32px; display: inline-flex; align-items: center; }
+.hv-list { gap: 0; border-left: 2px solid var(--line); margin-left: 6px; }
+.hv-ev { position: relative; padding: 14px 0 16px 18px; border-bottom: 1px solid var(--line); }
+.hv-ev[hidden] { display: none; }
+.hv-ev::before { content: ""; position: absolute; left: -7px; top: 20px; width: 12px; height: 12px; border-radius: 50%; background: var(--canvas); border: 2.5px solid var(--ink); }
+.hv-ev--hw::before { background: var(--orange); border-color: var(--orange); }
+.hv-ev--hw { background: linear-gradient(90deg, rgba(242,100,48,.07), transparent 70%); }
+.hv-when { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; margin: 0 0 4px; font-size: .88rem; }
+.hv-when time { font-weight: 800; }
+.hv-place { color: var(--grey-700); }
+.hv-t { margin: 0 0 6px; font-size: 1.08rem; line-height: 1.3; }
+.hv-what, .hv-why { margin: 0 0 6px; max-width: 46rem; }
+.hv-why b { font-weight: 700; }
+.hv-grade, .hv-tag { display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: .75rem; font-weight: 700; border: 1.5px solid currentColor; }
+.hv-grade--known { color: var(--break); }
+.hv-grade--inferred { color: #8A5A00; }
+.hv-grade--uncertain { color: var(--grey-700); border-style: dashed; }
+.hv-tag { color: var(--ember); }
+.hv-q { margin: 8px 0; padding: 8px 12px; border-left: 3px solid var(--line); }
+.hv-q p { margin: 0; font-family: var(--font-serif); font-size: 1.05rem; }
+.hv-q footer { font-size: .8rem; color: var(--grey-500); }
+.hv-hw { display: grid; gap: 4px; margin: 6px 0; font-weight: 600; }
+.hv-hw span { font-weight: 400; font-size: .9rem; color: var(--grey-700); }
+.hv-threads { margin: 4px 0 0; font-size: .8rem; color: var(--grey-500); }
+.hv-empty { margin-top: 14px; font-weight: 600; }
+.hv-empty[hidden] { display: none; }
+/* the IPCC tracker: one card per report, no table to scroll sideways */
+.hv-row-ipcc h3 span { font-weight: 500; color: var(--grey-500); font-size: .9rem; }
+.hv-row-ipcc dl { margin: 0; display: grid; gap: 8px; }
+.hv-row-ipcc dt { font-size: .78rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; color: var(--grey-500); }
+.hv-row-ipcc dd { margin: 2px 0 0; }
+.hv-sec .hub-p + .hub-p { margin-top: 10px; }
+.hv-unread { margin-top: 14px; font-size: .92rem; color: var(--grey-700); max-width: 46rem; }
+.hv-limits { margin-top: 10px; border: 1.5px solid var(--line); border-radius: var(--r-sm); padding: 10px 14px; }
+.hv-limits summary { cursor: pointer; font-weight: 700; min-height: 32px; }
+.hv-limits ul { margin: 10px 0 0; padding-left: 1.1rem; display: grid; gap: 8px; }
+@media (min-width: 900px) { .hv-eras, .hv-turns, .hv-ipcc { grid-template-columns: repeat(2, minmax(0, 1fr)); } }

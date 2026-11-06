@@ -7,11 +7,14 @@
 //   4. saves short excerpts of the real text around each term to _excerpts.json, so the reviewer writes from what
 //      the page says, not from memory.
 // Results go to link-check.json ({ url: status, _terms: { url: { term: true|false } } }), which gate 2 reads.
-// Usage: node tools/verify-inbox.js 2026-11
+// PDFs are read through pdftotext (poppler-utils, installed by the workflow), so a report's own words can be checked;
+// without it a PDF's terms read as missing. Archived copies are fetched raw (the archive's "id_" form, without its toolbar).
+// Usage: node tools/verify-inbox.js 2026-11            the month's inbox, data/inbox/2026-11/
+//        node tools/verify-inbox.js 2026-11-some-topic a separate batch, data/inbox/2026-11-some-topic/ (not merged monthly)
 "use strict";
-const fs = require("fs"), path = require("path");
+const fs = require("fs"), path = require("path"), os = require("os"), { execFileSync } = require("child_process");
 const month = process.argv[2];
-if (!/^\d{4}-\d{2}$/.test(month || "")) { console.error("usage: node tools/verify-inbox.js YYYY-MM"); process.exit(2); }
+if (!/^\d{4}-\d{2}(-[a-z0-9-]+)?$/.test(month || "")) { console.error("usage: node tools/verify-inbox.js YYYY-MM[-topic]"); process.exit(2); }
 const DIR = path.join(__dirname, "..", "data", "inbox", month);
 const UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36";
 const files = fs.existsSync(DIR) ? fs.readdirSync(DIR).filter(f => f.endsWith(".json") && !f.startsWith("_") && f !== "link-check.json") : [];
@@ -20,9 +23,18 @@ if (!files.length) { console.error(`no records in data/inbox/${month}`); process
 async function get(u, ms = 30000) {
   const ctl = new AbortController(), t = setTimeout(() => ctl.abort(), ms);
   try { const r = await fetch(u, { redirect: "follow", signal: ctl.signal, headers: { "User-Agent": UA, "Accept": "text/html,application/pdf,*/*" } });
-    const body = r.ok ? await r.text() : ""; return { ok: r.ok, status: r.status, url: r.url, body, headers: r.headers };
+    const body = r.ok ? bodyText(Buffer.from(await r.arrayBuffer()), r.headers.get("content-type") || "") : "";
+    return { ok: r.ok, status: r.status, url: r.url, body, headers: r.headers };
   } catch (e) { return { ok: false, status: e.name === "AbortError" ? "timeout" : (e.cause && e.cause.code) || e.message, url: u, body: "" }; } finally { clearTimeout(t); }
 }
+// a response as text: a PDF through pdftotext (its text is plain, so it is wrapped to pass through text() unchanged)
+function bodyText(buf, type) {
+  if (!/pdf/i.test(type) && buf.subarray(0, 5).toString() !== "%PDF-") return buf.toString("utf8");
+  const f = path.join(os.tmpdir(), `verify-${process.pid}-${Date.now()}.pdf`);
+  try { fs.writeFileSync(f, buf); return execFileSync("pdftotext", ["-q", "-enc", "UTF-8", f, "-"], { maxBuffer: 64 * 1024 * 1024 }).toString("utf8").replace(/</g, " "); }
+  catch (e) { return ""; } finally { try { fs.unlinkSync(f); } catch (e) {} }
+}
+const rawArchive = a => a.replace(/(\/web\/\d+)(?:[a-z]{2}_)?\//, "$1id_/");   // an archived copy as it was saved, without the archive's toolbar
 const text = html => html.replace(/<(script|style|noscript)[\s\S]*?<\/\1>/gi, " ").replace(/<[^>]+>/g, " ").replace(/&nbsp;|&#160;/g, " ")
   .replace(/&amp;/g, "&").replace(/&#8217;|&rsquo;|&#x2019;/g, "’").replace(/&#8216;|&lsquo;/g, "‘").replace(/&quot;|&#8220;|&#8221;|&ldquo;|&rdquo;/g, '"').replace(/&[a-z#0-9]+;/gi, " ").replace(/\s+/g, " ").trim();
 const norm = s => s.toLowerCase().replace(/[’‘]/g, "'").replace(/[“”]/g, '"').replace(/\s+/g, " ");
@@ -36,6 +48,15 @@ async function archiveOf(u) {
   return "";
 }
 
+// the Europe PMC record for a PubMed or PMC link, as plain text, or ""
+async function europePmc(u) {
+  const m = u.match(/pubmed\.ncbi\.nlm\.nih\.gov\/(\d+)/) || u.match(/(PMC\d+)/i); if (!m) return "";
+  const q = /^PMC/i.test(m[1]) ? `PMCID:${m[1].toUpperCase()}` : `EXT_ID:${m[1]} AND SRC:MED`;
+  const r = await get(`https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=${encodeURIComponent(q)}&resultType=core&format=json`, 30000);
+  try { const x = JSON.parse(r.body).resultList.result[0]; if (!x) return "";
+    return [x.title, x.authorString, x.journalInfo && x.journalInfo.journal && x.journalInfo.journal.title, x.pubYear, x.firstPublicationDate, x.electronicPublicationDate, x.abstractText].filter(Boolean).join(" ").replace(/<[^>]+>/g, " ");
+  } catch (e) { return ""; }
+}
 // every passage where an expected term appears (past the site's menus), merged where they overlap, up to about 8,000 characters
 function around(body, nb, terms) {
   const spans = [];
@@ -48,17 +69,26 @@ function around(body, nb, terms) {
 (async () => {
   const lf = path.join(DIR, "link-check.json"), links = fs.existsSync(lf) ? JSON.parse(fs.readFileSync(lf, "utf8")) : {};
   links._terms = links._terms || {};
-  const excerpts = {};
+  const ef = path.join(DIR, "_excerpts.json"), excerpts = fs.existsSync(ef) ? JSON.parse(fs.readFileSync(ef, "utf8")) : {};
+  // results are saved after every source, so a run that stops early keeps its work, and the next run resumes:
+  // a source already checked, with an archived copy, is skipped (FORCE=1 checks everything again)
+  const save = () => { fs.writeFileSync(lf, JSON.stringify(links, null, 1) + "\n"); fs.writeFileSync(ef, JSON.stringify(excerpts, null, 1) + "\n"); };
   for (const f of files) {
     const fp = path.join(DIR, f), raw = JSON.parse(fs.readFileSync(fp, "utf8")), list = Array.isArray(raw) ? raw : [raw];
     let changed = false;
     for (const r of list.filter(x => x.type === "source" && x.url)) {
+      const prevFound = links._terms[r.url] && Object.values(links._terms[r.url]).some(Boolean);
+      if (process.env.FORCE !== "1" && r.archive && prevFound && excerpts[r.id]) { console.log(`done     ${r.id}  (checked in an earlier run)`); continue; }
       const page = await get(r.url);
       const status = page.ok ? (new URL(page.url).host !== new URL(r.url).host ? "REDIRECT" : "OK") : [401, 403, 429, 999].includes(page.status) ? "BLOCKED" : "FAIL";
       links[r.url] = status;
       if (!r.archive) { const a = await archiveOf(r.url); if (a) { r.archive = a; changed = true; } }
       let body = page.ok ? text(page.body) : "";
-      if (!body && r.archive) { const ar = await get(r.archive, 60000); if (ar.ok) body = text(ar.body); }
+      const has = b => (r.expect || []).some(t => norm(b).includes(norm(t)));
+      // a site that answers with a wall (cookies, a robot check) gives text but not the page: then read the archived copy too
+      if (!has(body) && r.archive) { const ar = await get(rawArchive(r.archive), 90000); if (ar.ok) body += " " + text(ar.body); }
+      // PubMed and PMC turn robots away; Europe PMC serves the same record (title, journal, dates, abstract) openly
+      if (!has(body)) { const ep = await europePmc(r.url); if (ep) body += " " + ep; }
       const nb = norm(body), found = {};
       (r.expect || []).forEach(t => { found[t] = nb.includes(norm(t)); });
       links._terms[r.url] = found;
@@ -67,10 +97,11 @@ function around(body, nb, terms) {
         around: around(body, nb, (r.expect || []).filter(t => found[t])),
         opening: body.slice(0, 1500) };
       console.log(`${status.padEnd(8)} ${r.id}  archive: ${r.archive ? "yes" : "NO"}  terms: ${Object.entries(found).map(([t, v]) => (v ? "✓ " : "✗ ") + t).join(" · ")}`);
+      if (changed) fs.writeFileSync(fp, JSON.stringify(Array.isArray(raw) ? list : list[0], null, 1) + "\n");
+      save();
     }
     if (changed) fs.writeFileSync(fp, JSON.stringify(Array.isArray(raw) ? list : list[0], null, 1) + "\n");
   }
-  fs.writeFileSync(lf, JSON.stringify(links, null, 1) + "\n");
-  fs.writeFileSync(path.join(DIR, "_excerpts.json"), JSON.stringify(excerpts, null, 1) + "\n");
+  save();
   console.log(`wrote data/inbox/${month}/link-check.json and _excerpts.json`);
 })();

@@ -6,21 +6,24 @@ on:
   workflow_dispatch:
     inputs:
       month:
-        description: The inbox month to verify (YYYY-MM)
+        description: The inbox to verify (YYYY-MM, or YYYY-MM-topic for a separate batch)
         required: true
 permissions:
   contents: write
 jobs:
   verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Install pdftotext, so PDF sources can be checked
+        run: sudo apt-get install -y -qq poppler-utils >/dev/null || echo "pdftotext not installed; PDF terms will read as missing"
       - run: node tools/verify-inbox.js "${{ inputs.month }}"
       - name: Commit the results
+        if: always()   # keep what was checked even if the run stopped early; the next run resumes from it
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

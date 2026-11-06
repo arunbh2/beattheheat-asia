@@ -18,6 +18,7 @@ vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + `
 ;Object.assign(this, { SYSTEMS, CONSEQUENCES, LINKS, LOOP_GROUPS, LOOPS, INSTITUTIONS, LEVERS, LOOP_PLACES, EVIDENCE, ORG_ROLES,
   ORGANISATIONS, GLOSSARY_GROUPS, GLOSSARY, WORKED_EXAMPLES, AT_RISK, AT_RISK_BARRIERS, STALLS, COOL_PLACES, COOL_TRAPS,
   COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, COOL_FX, COOL_REGION, HOME_HEATS, STRAIN, COOL_ASK, PLAN_GROUPS, PLAN_MECHANISMS, PLAN_MECH_NOTE, MCR2030, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL, LIVE_CITIES, CITY_PROFILES, CITY_HAP, HEATWAVES, HEATWAVES_NOTE, ACTION_SETTINGS, ACTION_LINES, ACTION_JOURNEYS, FINANCE, EVIDENCE_STATUS, ACTION_HORIZONS, HEAT_WEEK, MARKET_EXPLORER, LOOP_SOLUTIONS, ORG_SIDES, ORG_SIDE });`, ctx);
+Object.assign(ctx, require("./data-blocks.js")());   // plus build-only blocks (not in data.js)
 const D = ctx, TODAY = new Date().toISOString().slice(0, 10);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const plain = s => String(s || "").replace(/\n/g, " ");
@@ -429,6 +430,10 @@ const SNAP_SLUG = { Bangladesh: "bangladesh", India: "india", Indonesia: "indone
   out[p.slug] = page(p, intro, h); md.push(m.join("\n\n"));
 }
 
+// ---- how heat became visible: its page is built by tools/build-visibility.js; the same text, from the same helper, joins llms-full.txt ----
+const VT = require("./visibility-text.js");
+if (D.HEAT_VISIBILITY) md.push(VT.markdown(D.HEAT_VISIBILITY, SITE));
+
 // ---- write the pages ----
 [...PAGES, ...CITY_PAGES].forEach(p => { const dir = path.join(ROOT, p.slug); fs.mkdirSync(dir, { recursive: true }); fs.writeFileSync(path.join(dir, "index.html"), out[p.slug]); });
 
@@ -453,6 +458,10 @@ ${PAGES.map(p => `- [${p.short}](${SITE}/${p.slug}/): ${p.title}`).join("\n")}
 ## Cities
 
 ${CITY_PAGES.map(p => `- [${p.short}](${SITE}/${p.slug}/): ${p.title}`).join("\n")}
+
+## How heat became visible
+
+- [${VT.TITLE}](${SITE}/${VT.SLUG}/): when science, health, labour, finance and the UN began to notice extreme heat, and who was still missing; a graded timeline, the turning points and how heat appears in IPCC reports (also in llms-full.txt)
 
 ## Optional
 

@@ -1,0 +1,1560 @@
+[
+ {
+  "id": "urbanheat-1833",
+  "date": "1833",
+  "precision": "year",
+  "threads": [
+   "science"
+  ],
+  "scope": "city",
+  "place": "London, United Kingdom",
+  "title": "Urban heat differences enter the scientific record",
+  "what": "An EPA historical review traces documented city-country temperature differences to an 1833 publication. The original publication was not opened for this review.",
+  "why": "Urban form was already recognised as a source of local heat before modern climate assessments.",
+  "grade": "INFERRED",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S58"
+  ]
+ },
+ {
+  "id": "ipcc-1988",
+  "date": "1988",
+  "precision": "year",
+  "threads": [
+   "ipcc"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "IPCC is established",
+  "what": "WMO and UNEP established the IPCC to assess climate science, impacts and response options.",
+  "why": "Heat would gain an enduring route into intergovernmental scientific assessment.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S1"
+  ]
+ },
+ {
+  "id": "far-1990",
+  "date": "1990-08",
+  "precision": "month",
+  "threads": [
+   "ipcc"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "First IPCC assessment is completed",
+  "what": "The first IPCC assessment was completed in August 1990. Its heat-health passages could not be reopened in this review.",
+  "why": "This established the assessment cycle through which subsequent heat evidence reached governments.",
+  "grade": "KNOWN",
+  "first": "yes",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S1",
+   "S2"
+  ]
+ },
+ {
+  "id": "convention-1992",
+  "date": "1992",
+  "precision": "year",
+  "threads": [
+   "unfccc"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "Climate convention includes human health",
+  "what": "The UNFCCC defined adverse climate effects to include harm to human health and welfare. Article 4 also addressed public health in climate response assessment.",
+  "why": "Health had a treaty-level connection to climate change before heat had a dedicated global policy agenda.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S3"
+  ]
+ },
+ {
+  "id": "supplement-1992",
+  "date": "1992-02",
+  "precision": "month",
+  "threads": [
+   "ipcc"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "IPCC updates its first assessment",
+  "what": "The 1992 impacts supplement linked urban heat islands with global warming and discussed increased mortality from heat stress.",
+  "why": "An early assessment explicitly connected city heat exposure with climate-related health risk.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S62"
+  ]
+ },
+ {
+  "id": "chicago-1995",
+  "date": "1995-07",
+  "precision": "month",
+  "threads": [
+   "heatwave",
+   "science"
+  ],
+  "scope": "city",
+  "place": "Chicago, United States",
+  "title": "Heat deaths expose surveillance and response gaps",
+  "what": "CDC reported 465 deaths certified as heat-related during July 11-27. It also described inconsistent death definitions and the limits of medical-examiner surveillance.",
+  "why": "A major urban heat emergency made preventable deaths and social vulnerability visible.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S4",
+   "S57"
+  ]
+ },
+ {
+  "id": "sar-1995",
+  "date": "1995-12",
+  "precision": "month",
+  "threads": [
+   "ipcc",
+   "science"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "IPCC names direct heat-health impacts",
+  "what": "The Second Assessment Report linked anticipated increases in heatwave intensity and duration to additional illness and mortality. Its Working Group II summary included a dedicated human-health section.",
+  "why": "Heat-related illness and death became explicit findings in the assessment's policy summary.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S1"
+  ]
+ },
+ {
+  "id": "tar-2001",
+  "date": "2001",
+  "precision": "year",
+  "threads": [
+   "ipcc",
+   "science"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "IPCC links heatwaves with unequal impacts",
+  "what": "TAR's Working Group II summary connected projected heat extremes with mortality, crop damage, cooling demand and energy reliability. Its Human Health chapter reviewed thermal stress and adaptation.",
+  "why": "Heat appeared as a connected health, infrastructure and equity risk.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S5",
+   "S6"
+  ]
+ },
+ {
+  "id": "europe-2003",
+  "date": "2003",
+  "precision": "year",
+  "threads": [
+   "heatwave",
+   "who-wmo"
+  ],
+  "scope": "regional",
+  "place": "Europe",
+  "title": "European heatwave becomes a public-health reference point",
+  "what": "The 2003 European heatwave caused severe health impacts and overwhelmed hospitals in France, as reviewed by WHO and WMO. Later guidance used this event to explain heat-health warning and response needs.",
+  "why": "A large mortality emergency helped turn heat prevention into a structured public-health field.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S7",
+   "S8"
+  ]
+ },
+ {
+  "id": "ar4-2007",
+  "date": "2007",
+  "precision": "year",
+  "threads": [
+   "ipcc"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "Fourth assessment consolidates the evidence cycle",
+  "what": "The IPCC published its Fourth Assessment Report, including a Synthesis Report. Detailed heat passages were inaccessible in this review and are listed as verification gaps.",
+  "why": "Heat's assessment history continued within a regular science-policy cycle, although this entry makes no new heat-confidence claim.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S12",
+   "S61"
+  ]
+ },
+ {
+  "id": "whoaction-2008",
+  "date": "2008",
+  "precision": "year",
+  "threads": [
+   "who-wmo",
+   "plans"
+  ],
+  "scope": "regional",
+  "place": "WHO European Region",
+  "title": "WHO publishes heat-health action-plan guidance",
+  "what": "WHO's EuroHEAT guidance brought warnings, public advice, health services, housing and urban planning into one prevention framework.",
+  "why": "Protection became a planned portfolio of public actions rather than a weather advisory alone.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S7"
+  ]
+ },
+ {
+  "id": "russia-2010",
+  "date": "2010",
+  "precision": "year",
+  "threads": [
+   "heatwave",
+   "who-wmo"
+  ],
+  "scope": "national",
+  "place": "Russian Federation",
+  "title": "Russian heatwave reinforces the public-health case",
+  "what": "The 2010 Russian heatwave became another major example in WHO-WMO guidance on severe heat-health impacts.",
+  "why": "Repeated emergencies strengthened the case for warning systems linked to health action.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S8"
+  ]
+ },
+ {
+  "id": "ahmedabadheat-2010",
+  "date": "2010-05",
+  "precision": "month",
+  "threads": [
+   "heatwave",
+   "plans"
+  ],
+  "scope": "city",
+  "place": "Ahmedabad, India",
+  "title": "Ahmedabad heatwave prompts coordinated planning",
+  "what": "Following a deadly May heatwave, Ahmedabad Municipal Corporation and partners began developing a coordinated response.",
+  "why": "A South Asian city linked a local health emergency to municipal heat governance.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "direct",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S9"
+  ]
+ },
+ {
+  "id": "wetbulb-2010",
+  "date": "2010-05-03",
+  "precision": "day",
+  "threads": [
+   "science"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "Theory identifies a limit to heat adaptation",
+  "what": "A peer-reviewed study proposed sustained 35°C wet-bulb exposure as a theoretical limit under idealised conditions. This was not a general safety threshold for everyday activity.",
+  "why": "Humid heat introduced physical limits to adaptation into climate-risk discussions.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S10"
+  ]
+ },
+ {
+  "id": "srexapproval-2011",
+  "date": "2011-11-18",
+  "precision": "day",
+  "threads": [
+   "ipcc"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "SREX policy summary is approved",
+  "what": "IPCC member governments approved the SREX Summary for Policymakers in Kampala. The announcement connected disaster risk management, adaptation and vulnerability.",
+  "why": "Extreme events gained an assessment organised around risk and the capacity to cope.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S11"
+  ]
+ },
+ {
+  "id": "srexpublication-2012",
+  "date": "2012",
+  "precision": "year",
+  "threads": [
+   "ipcc"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "SREX becomes a published assessment",
+  "what": "The published SREX brought climate extremes, exposure, vulnerability and disaster management into a shared assessment.",
+  "why": "It provided a bridge between physical hazard science and disaster-risk practice.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S12",
+   "S11"
+  ]
+ },
+ {
+  "id": "ar5science-2013",
+  "date": "2013",
+  "precision": "year",
+  "threads": [
+   "ipcc",
+   "science"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "AR5 physical-science assessment is published",
+  "what": "AR5 Working Group I assessed human contributions to temperature extremes and increasing heatwave frequency in large parts of Europe, Asia and Australia.",
+  "why": "Observed heat trends and attribution became increasingly central to the assessment story.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S61"
+  ]
+ },
+ {
+  "id": "ahmedabadplan-2013",
+  "date": "2013-04",
+  "precision": "month",
+  "threads": [
+   "plans",
+   "who-wmo"
+  ],
+  "scope": "city",
+  "place": "Ahmedabad, India",
+  "title": "Ahmedabad launches its heat action plan",
+  "what": "The municipal corporation and partners launched a plan with health-department coordination, forecasting, alerts and public communication. WHO-WMO describe it as South Asia's first comprehensive city heat-health plan; that bounded claim is retained as claimed.",
+  "why": "South Asian municipal experience became a reference for organised heat protection.",
+  "grade": "KNOWN",
+  "first": "claimed",
+  "asia": "direct",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S9"
+  ]
+ },
+ {
+  "id": "ar5impacts-2014",
+  "date": "2014",
+  "precision": "year",
+  "threads": [
+   "ipcc",
+   "labour"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "AR5 connects heat with work capacity",
+  "what": "The AR5 assessment linked heat-related health risks with lost work capacity and reduced labour productivity in vulnerable populations.",
+  "why": "Heat became more visible as a livelihood and economic risk alongside mortality.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S12"
+  ]
+ },
+ {
+  "id": "ar5synthesis-2014",
+  "date": "2014-11",
+  "precision": "month",
+  "threads": [
+   "ipcc",
+   "science"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "AR5 synthesis strengthens the heat signal",
+  "what": "AR5 judged increased heatwave frequency likely in large parts of Europe, Asia and Australia. It judged future increases in heatwave frequency and duration very likely.",
+  "why": "Heat appeared as both an observed change and a continuing future risk.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S12"
+  ]
+ },
+ {
+  "id": "gga-2015",
+  "date": "2015",
+  "precision": "year",
+  "threads": [
+   "unfccc"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "Paris Agreement establishes the adaptation goal",
+  "what": "Article 7 established the global goal on adaptation, covering capacity, resilience and vulnerability. The opened UNFCCC workstream record confirms this institutional milestone.",
+  "why": "Heat adaptation gained a wider international policy framework without becoming a separate treaty obligation.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S14"
+  ]
+ },
+ {
+  "id": "indiaheat-2015",
+  "date": "2015",
+  "precision": "year",
+  "threads": [
+   "heatwave",
+   "plans"
+  ],
+  "scope": "national",
+  "place": "India",
+  "title": "Severe Indian heat reinforces national planning needs",
+  "what": "A severe heatwave affected India during the 2015 hot season. WMO's retrospective account linked the regional emergency with subsequent heat-health planning.",
+  "why": "South Asian heat deaths became a visible reason to connect forecasts, health agencies and disaster management.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "direct",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S31"
+  ]
+ },
+ {
+  "id": "warningguide-2015",
+  "date": "2015",
+  "precision": "year",
+  "threads": [
+   "who-wmo",
+   "plans"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "WHO and WMO integrate warnings with health action",
+  "what": "Joint guidance covered heat-health warning-system development, epidemiology, biometeorology and risk communication. The PDF is dated 2015, while WHO's landing page is dated 2016.",
+  "why": "Weather and health services gained a shared technical basis for heat warnings.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S8"
+  ]
+ },
+ {
+  "id": "sendai-2015",
+  "date": "2015-03-18",
+  "precision": "day",
+  "threads": [
+   "unfccc",
+   "plans"
+  ],
+  "scope": "global",
+  "place": "Sendai, Japan",
+  "title": "Disaster framework centres lives, livelihoods and health",
+  "what": "The Sendai Framework adopted targets for reducing disaster risk and losses in lives, livelihoods and health. It is an all-hazards framework, rather than a heat-specific agreement.",
+  "why": "Heat protection could be connected to broader disaster governance and loss monitoring.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S56"
+  ]
+ },
+ {
+  "id": "karachiheat-2015",
+  "date": "2015-06",
+  "precision": "month",
+  "threads": [
+   "heatwave",
+   "plans"
+  ],
+  "scope": "city",
+  "place": "Karachi, Pakistan",
+  "title": "Karachi emergency exposes coordination needs",
+  "what": "The June heatwave exposed gaps in inter-agency coordination and clarity of response roles. A later management plan drew on analysis of this event.",
+  "why": "Heat entered city disaster planning through an identified institutional gap.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "direct",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S17"
+  ]
+ },
+ {
+  "id": "colombo-2016",
+  "date": "2016",
+  "precision": "year",
+  "threads": [
+   "who-wmo",
+   "plans"
+  ],
+  "scope": "regional",
+  "place": "Colombo, Sri Lanka",
+  "title": "South Asian experts convene on heat and health",
+  "what": "A South Asian workshop in Colombo discussed heat-health practice and the need for an integrated approach. The later GHHIN forum record identifies it as a precursor meeting.",
+  "why": "South Asian practice contributed to the formation of a global heat-health exchange.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "direct",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S16"
+  ]
+ },
+ {
+  "id": "ghhin-2016",
+  "date": "2016",
+  "precision": "year",
+  "threads": [
+   "who-wmo",
+   "plans"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "Global heat-health network is founded",
+  "what": "WMO, WHO, NOAA and partners founded GHHIN. Its current history distinguishes founding in 2016 from later public launch and forum milestones.",
+  "why": "Heat acquired a dedicated international community linking science, services and policy.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S15"
+  ]
+ },
+ {
+  "id": "indiaguidance-2016",
+  "date": "2016",
+  "precision": "year",
+  "threads": [
+   "plans"
+  ],
+  "scope": "national",
+  "place": "India",
+  "title": "India circulates national heat-action planning guidance",
+  "what": "NDMA circulated guidance to state disaster-management agencies for preparing, implementing and evaluating heat action plans.",
+  "why": "City experience entered a national framework for seasonal heat protection.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "direct",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S13"
+  ]
+ },
+ {
+  "id": "desinventar-2017",
+  "date": "2017",
+  "precision": "year",
+  "threads": [
+   "plans",
+   "science"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "Disaster-loss inventory gains Sendai alignment",
+  "what": "UNDRR upgraded DesInventar to DesInventar Sendai, supporting subnational disaster-loss recording.",
+  "why": "Local loss records offered a complement to international databases that depend on event visibility and reporting thresholds.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S55"
+  ]
+ },
+ {
+  "id": "karachiplan-2017",
+  "date": "2017-04",
+  "precision": "month",
+  "threads": [
+   "plans"
+  ],
+  "scope": "city",
+  "place": "Karachi, Pakistan",
+  "title": "Karachi heatwave management plan is delivered",
+  "what": "ESSA and The Urban Unit delivered the city's management plan between November 2016 and April 2017, with CDKN support. GHHIN records city approval and a proposed evaluation framework.",
+  "why": "The response moved from emergency experience to defined responsibilities before, during and after heat.",
+  "grade": "KNOWN",
+  "first": "claimed",
+  "asia": "direct",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S17"
+  ]
+ },
+ {
+  "id": "southasiawet-2017",
+  "date": "2017-08-02",
+  "precision": "day",
+  "threads": [
+   "science",
+   "labour"
+  ],
+  "scope": "regional",
+  "place": "South Asia, including the Indus and Ganges basins",
+  "title": "Humid-heat projections focus on South Asian agriculture",
+  "what": "A modelling study projected dangerous wet-bulb extremes in densely populated agricultural regions under high future emissions. It connected hazard with poverty and exposure.",
+  "why": "South Asia entered a prominent scientific debate about humid heat and human adaptation limits.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "direct",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S18"
+  ]
+ },
+ {
+  "id": "countdown-2018",
+  "date": "2018",
+  "precision": "year",
+  "threads": [
+   "science",
+   "labour",
+   "media"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "Annual indicators make heat losses trackable",
+  "what": "The Lancet Countdown reported heat exposure and labour-capacity indicators within a 41-indicator framework. Its 2018 report gave a heat-related labour-loss estimate for 2017.",
+  "why": "Recurring indicators made heat a continuing health-development issue beyond individual emergencies.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S19"
+  ]
+ },
+ {
+  "id": "sr15-2018",
+  "date": "2018-10-08",
+  "precision": "day",
+  "threads": [
+   "ipcc",
+   "unfccc"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "Half a degree becomes a protection question",
+  "what": "UNFCCC's response to SR1.5 highlighted substantially lower severe-heatwave exposure at 1.5°C than at 2°C. The original report's detailed heat passages remained inaccessible.",
+  "why": "Temperature goals became easier to connect with differences in human heat exposure.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S20"
+  ]
+ },
+ {
+  "id": "globalforum-2018",
+  "date": "2018-12-17",
+  "precision": "day",
+  "threads": [
+   "who-wmo",
+   "plans"
+  ],
+  "scope": "global",
+  "place": "Hong Kong, China",
+  "title": "GHHIN holds its inaugural global forum",
+  "what": "The forum ran from 17 to 20 December, with a Southeast Asian regional focus and attention to communication. Its description distinguishes the formal launch from earlier founding.",
+  "why": "Regional experience entered a shared global heat-health agenda.",
+  "grade": "KNOWN",
+  "first": "claimed",
+  "asia": "direct",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S16"
+  ]
+ },
+ {
+  "id": "ilowork-2019",
+  "date": "2019-07-01",
+  "precision": "day",
+  "threads": [
+   "labour",
+   "finance"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "ILO quantifies future heat-related working-hour losses",
+  "what": "ILO projected that 2.2 per cent of global working hours would be lost in 2030 under its stated assumptions. Southern Asia was among the regions with the largest projected losses.",
+  "why": "Heat became legible to labour, development and economic policy through a common work metric.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "direct",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S22"
+  ]
+ },
+ {
+  "id": "land-2019",
+  "date": "2019-08",
+  "precision": "month",
+  "threads": [
+   "ipcc",
+   "science"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "Land report connects heat with food systems",
+  "what": "SRCCL assessed increased frequency, intensity and duration of heat-related events in most land regions with high confidence. It linked climate pressures with land degradation and food security.",
+  "why": "Heat was embedded in land and food-system risk rather than treated only as a health emergency.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S21"
+  ]
+ },
+ {
+  "id": "ocean-2019",
+  "date": "2019-09-24",
+  "precision": "day",
+  "threads": [
+   "ipcc",
+   "science"
+  ],
+  "scope": "global",
+  "place": "Monaco",
+  "title": "Ocean assessment expands the meaning of heat risk",
+  "what": "AFD's official review records adoption of SROCC and its policy summary on this date. It describes assessment of ocean and cryosphere impacts, human societies and adaptation; original heat-specific wording was not reopened.",
+  "why": "The history of heat risk widened to ocean-linked ecosystems and coastal livelihoods.",
+  "grade": "INFERRED",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S53"
+  ]
+ },
+ {
+  "id": "humidobservations-2020",
+  "date": "2020-05-08",
+  "precision": "day",
+  "threads": [
+   "science"
+  ],
+  "scope": "global",
+  "place": "Including South Asia",
+  "title": "Observations reveal exceptional humid-heat episodes",
+  "what": "A station-based study found brief, local humid-heat extremes near or above the theoretical 35°C wet-bulb benchmark. These were not evidence of sustained exposure across whole regions.",
+  "why": "A risk often discussed as distant future became an observed, locally concentrated phenomenon.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "direct",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S23"
+  ]
+ },
+ {
+  "id": "ar6physical-2021",
+  "date": "2021",
+  "precision": "year",
+  "threads": [
+   "ipcc",
+   "science"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "AR6 raises confidence in observed hot extremes",
+  "what": "Working Group I judged increased frequency and intensity of hot extremes across most land since the 1950s virtually certain. It assessed human-induced climate change as the main driver with high confidence.",
+  "why": "The global heat signal and its human cause became much more firmly established.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S24"
+  ]
+ },
+ {
+  "id": "attributabledeaths-2021",
+  "date": "2021",
+  "precision": "year",
+  "threads": [
+   "science"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "Study attributes part of heat mortality to warming",
+  "what": "A study of 732 locations in 43 countries estimated that 37.0% of warm-season heat-related deaths in its study countries were attributable to human-induced climate change during 1991-2018.",
+  "why": "Climate attribution extended from weather hazards to observed health burdens.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S25"
+  ]
+ },
+ {
+  "id": "northwest-2021",
+  "date": "2021-06",
+  "precision": "month",
+  "threads": [
+   "heatwave",
+   "science"
+  ],
+  "scope": "regional",
+  "place": "Northwestern United States",
+  "title": "Northwestern heatwave demonstrates rapid health surveillance",
+  "what": "CDC recorded 2,779 heat-related emergency-department visits during June 25-30 in its northwestern surveillance region. It highlighted near-real-time surveillance for guiding response.",
+  "why": "A rare regional event showed how heat can rapidly exceed familiar health-service expectations.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S28"
+  ]
+ },
+ {
+  "id": "researchgrowth-2021",
+  "date": "2021-09-03",
+  "precision": "day",
+  "threads": [
+   "science",
+   "media"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "Bibliometrics documents rapidly growing heatwave research",
+  "what": "A review analysed 8,011 Web of Science papers and reported that the research literature doubled within about 5 years. It noted prominent attention to events in 1995 and 2003.",
+  "why": "Scientific attention became measurable, although publication growth does not establish growth in public or media attention.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S26"
+  ]
+ },
+ {
+  "id": "empiricalwetbulb-2021",
+  "date": "2021-12-16",
+  "precision": "day",
+  "threads": [
+   "science"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "Experiments challenge the 35°C wet-bulb shorthand",
+  "what": "A study first published online in December 2021, with a February 2022 issue date, found uncompensable heat stress below 35°C wet-bulb in young healthy adults doing light activity. The experiments did not establish one universal safety limit.",
+  "why": "Physiological evidence narrowed the gap between a theoretical survivability limit and real exposure risk.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S27"
+  ]
+ },
+ {
+  "id": "ar6impacts-2022",
+  "date": "2022",
+  "precision": "year",
+  "threads": [
+   "ipcc",
+   "labour",
+   "science"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "AR6 connects heat with vulnerability and livelihoods",
+  "what": "Working Group II assessed health, cities, livelihoods and Asia in dedicated chapters. The opened UNFCCC summary also presented exposure to hyperthermia from extreme heat and humidity.",
+  "why": "Heat risk became more clearly connected to vulnerability, settlement conditions and adaptation limits.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S29",
+   "S59"
+  ]
+ },
+ {
+  "id": "ar6mitigation-2022",
+  "date": "2022",
+  "precision": "year",
+  "threads": [
+   "ipcc",
+   "plans"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "Mitigation assessment recognises urban heat trade-offs",
+  "what": "Working Group III assessed urban planning options that can reduce heat-island effects. It also noted that increased density can increase heatwave vulnerability, with high confidence.",
+  "why": "Climate responses themselves became part of the heat-risk discussion.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S30"
+  ]
+ },
+ {
+  "id": "attributionasia-2022",
+  "date": "2022-05-24",
+  "precision": "day",
+  "threads": [
+   "science",
+   "heatwave"
+  ],
+  "scope": "regional",
+  "place": "India and Pakistan",
+  "title": "WMO carries rapid South Asian heat attribution",
+  "what": "WMO communicated a rapid study finding that the 2022 regional heat event was about 30 times more likely because of climate change. It also described linked health, agriculture and water impacts.",
+  "why": "South Asian heat entered an international attribution conversation during the event's immediate aftermath.",
+  "grade": "INFERRED",
+  "first": "no",
+  "asia": "direct",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S31"
+  ]
+ },
+ {
+  "id": "coolingpledge-2023",
+  "date": "2023",
+  "precision": "year",
+  "threads": [
+   "unfccc",
+   "finance"
+  ],
+  "scope": "global",
+  "place": "COP28, United Arab Emirates",
+  "title": "Global Cooling Pledge is launched",
+  "what": "The COP28 Presidency and UNEP Cool Coalition launched the Global Cooling Pledge. UNEP later described its combined cooling-emissions and access aims.",
+  "why": "Protection from heat and the climate impacts of cooling entered a shared international initiative.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S43"
+  ]
+ },
+ {
+  "id": "insuranceannounce-2023",
+  "date": "2023-02-06",
+  "precision": "day",
+  "threads": [
+   "finance",
+   "labour"
+  ],
+  "scope": "national",
+  "place": "India",
+  "title": "Income-protection insurance for women is announced",
+  "what": "SEWA, Arsht-Rock and Blue Marble announced parametric extreme-heat income insurance. The announcement included premium support and design funding; it was not proof of payouts or long-term viability.",
+  "why": "Heat protection explicitly connected women's health with the income lost when work becomes unsafe.",
+  "grade": "KNOWN",
+  "first": "claimed",
+  "asia": "direct",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S32"
+  ]
+ },
+ {
+  "id": "ar6synthesis-2023",
+  "date": "2023-03-20",
+  "precision": "day",
+  "threads": [
+   "ipcc"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "AR6 synthesis brings risk and equity together",
+  "what": "The Synthesis integrated the three working groups and three special reports. UNCCD's opened record highlighted disproportionate climate impacts on vulnerable communities.",
+  "why": "Heat entered a synthesis connecting physical risk, development conditions and unequal impacts.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S54",
+   "S64"
+  ]
+ },
+ {
+  "id": "insurancecover-2023",
+  "date": "2023-05",
+  "precision": "month",
+  "threads": [
+   "finance",
+   "labour"
+  ],
+  "scope": "national",
+  "place": "India",
+  "title": "Heat-insurance pilot moves into coverage",
+  "what": "Arsht-Rock's project record dates the launch with SEWA and Blue Marble to May 2023 and reports first-year coverage for 21,000 members.",
+  "why": "An announced financial instrument became an implemented pilot, with outcomes still distinct from coverage.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "direct",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S60"
+  ]
+ },
+ {
+  "id": "dhakacho-2023",
+  "date": "2023-05-03",
+  "precision": "day",
+  "threads": [
+   "plans"
+  ],
+  "scope": "city",
+  "place": "Dhaka North, Bangladesh",
+  "title": "Dhaka North announces a chief heat officer",
+  "what": "Arsht-Rock and Dhaka North announced a dedicated chief heat officer role to coordinate heat responses. The partner announcement describes it as the first in Asia; independent confirmation of that regional first was not established.",
+  "why": "Heat gained a named coordination function in a major South Asian city.",
+  "grade": "KNOWN",
+  "first": "claimed",
+  "asia": "direct",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S33"
+  ]
+ },
+ {
+  "id": "singaporework-2023",
+  "date": "2023-10-24",
+  "precision": "day",
+  "threads": [
+   "labour",
+   "plans"
+  ],
+  "scope": "national",
+  "place": "Singapore",
+  "title": "Singapore introduces heat-stress measures for outdoor work",
+  "what": "Measures took immediate effect and included hourly WBGT monitoring. Heavy physical work at WBGT of 32°C or higher required at least 10 minutes of hourly rest under shade.",
+  "why": "Heat protection became an explicit employer responsibility with an operational exposure trigger.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "direct",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S34"
+  ]
+ },
+ {
+  "id": "uaeframework-2023",
+  "date": "2023-12",
+  "precision": "month",
+  "threads": [
+   "unfccc",
+   "who-wmo"
+  ],
+  "scope": "global",
+  "place": "COP28, United Arab Emirates",
+  "title": "Adaptation framework includes health and social protection",
+  "what": "Decision 2/CMA.5 set targets covering health resilience, climate-related morbidity and mortality, and adaptive social protection. It did not establish a separate heat-finance entitlement.",
+  "why": "Negotiated adaptation goals created policy space for health and livelihood protection from heat.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S36"
+  ]
+ },
+ {
+  "id": "cophealth-2023",
+  "date": "2023-12-03",
+  "precision": "day",
+  "threads": [
+   "unfccc",
+   "who-wmo"
+  ],
+  "scope": "global",
+  "place": "COP28, United Arab Emirates",
+  "title": "COP28 holds its inaugural Health Day",
+  "what": "WHO recorded the inaugural Health Day and the COP28 climate-and-health declaration. The declaration is separate from negotiated COP decisions.",
+  "why": "Health gained a dedicated and highly visible place in the COP programme.",
+  "grade": "KNOWN",
+  "first": "claimed",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S35"
+  ]
+ },
+ {
+  "id": "nepalplan-2024",
+  "date": "2024",
+  "precision": "year",
+  "threads": [
+   "plans",
+   "labour"
+  ],
+  "scope": "national",
+  "place": "Nepal",
+  "title": "Nepal specifies responsibilities for heat response",
+  "what": "NDRRMA's plan assigned actions for warnings, local health teams, schools, power, workplaces and daily-wage workers. The opened English copy carries a 2024 plan year; its upload path is later.",
+  "why": "Heat entered a multisector national response matrix in a Himalayan country.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "direct",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S50"
+  ]
+ },
+ {
+  "id": "bangladeshguidance-2024",
+  "date": "2024-05-05",
+  "precision": "day",
+  "threads": [
+   "plans",
+   "who-wmo"
+  ],
+  "scope": "national",
+  "place": "Bangladesh",
+  "title": "Bangladesh launches national heat-illness guidance",
+  "what": "DGHS, supported by UNICEF, launched national guidance with attention to children and pregnant women.",
+  "why": "Heat response became more explicitly connected to primary care and maternal and child health.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "direct",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S37"
+  ]
+ },
+ {
+  "id": "iloheat-2024",
+  "date": "2024-07-25",
+  "precision": "day",
+  "threads": [
+   "labour",
+   "science"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "ILO highlights chronic workplace heat exposure",
+  "what": "ILO's Heat at work report reviewed science, policy and legislation in 21 countries. It reported that eight in ten occupational injuries from extreme heat happened outside heatwaves.",
+  "why": "Routine hot work became visible alongside exceptional heatwave emergencies.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "direct",
+  "quote": "Heat is a silent killer",
+  "quote_loc": "Standfirst",
+  "sources": [
+   "S39"
+  ]
+ },
+ {
+  "id": "uncall-2024",
+  "date": "2024-07-25",
+  "precision": "day",
+  "threads": [
+   "unfccc",
+   "who-wmo",
+   "labour"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "UN call places extreme heat across sectors",
+  "what": "The UN Secretary-General's call addressed vulnerable people, workers, resilience through data and science, and limiting warming. WHO's account linked it with preventable heat illness and mortality.",
+  "why": "Extreme heat became a named UN-wide action issue spanning health, work and climate.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S38"
+  ]
+ },
+ {
+  "id": "adaptationindicators-2025",
+  "date": "2025",
+  "precision": "year",
+  "threads": [
+   "unfccc",
+   "science"
+  ],
+  "scope": "global",
+  "place": "COP30, Brazil",
+  "title": "Adaptation indicators become a shared monitoring framework",
+  "what": "UNFCCC records adoption of 59 Belém Adaptation Indicators at CMA7. These cover adaptation more broadly and are not 59 heat indicators.",
+  "why": "Adaptation visibility increasingly depended on measurable progress as well as declarations.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S14"
+  ]
+ },
+ {
+  "id": "seahub-2025",
+  "date": "2025-01-07",
+  "precision": "day",
+  "threads": [
+   "who-wmo",
+   "plans"
+  ],
+  "scope": "regional",
+  "place": "Singapore and Southeast Asia",
+  "title": "Southeast Asia heat-health hub gains public launch",
+  "what": "Singapore's official account records the inaugural regional forum and the NUS-hosted GHHIN Southeast Asia Hub. This entry dates the public launch, rather than the earliest preparatory work.",
+  "why": "Humid tropical heat gained a dedicated regional science-policy home.",
+  "grade": "KNOWN",
+  "first": "claimed",
+  "asia": "direct",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S40"
+  ]
+ },
+ {
+  "id": "beattheheat-2025",
+  "date": "2025-06-13",
+  "precision": "day",
+  "threads": [
+   "unfccc",
+   "plans",
+   "finance"
+  ],
+  "scope": "global",
+  "place": "Bonn, Germany",
+  "title": "UNEP and Brazil launch city heat initiative",
+  "what": "UNEP and the COP30 Presidency launched Beat the Heat in Cities. Italy also pledged EUR 2 million for Global Cooling Pledge support.",
+  "why": "Heat action gained an international implementation initiative connecting cities and sustainable cooling.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S43"
+  ]
+ },
+ {
+  "id": "workguidance-2025",
+  "date": "2025-08-22",
+  "precision": "day",
+  "threads": [
+   "who-wmo",
+   "labour"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "WHO-WMO issue workplace heat guidance",
+  "what": "The agencies released technical guidance on climate change and workplace heat stress. It connected prevention with worker health, safety and locally relevant action.",
+  "why": "Heat-health practice broadened beyond city alerts into the organisation of work.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "direct",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S41"
+  ]
+ },
+ {
+  "id": "bangladesheconomy-2025",
+  "date": "2025-09-16",
+  "precision": "day",
+  "threads": [
+   "finance",
+   "labour",
+   "science"
+  ],
+  "scope": "national",
+  "place": "Bangladesh",
+  "title": "World Bank launches heat-health and economy assessment",
+  "what": "The report drew on climate data and a two-round 2024 household survey of more than 16,000 people. It estimated 250 million workdays lost and economic losses up to $1.78 billion in 2024.",
+  "why": "Heat became a quantified national development and human-capital issue.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "direct",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S42"
+  ]
+ },
+ {
+  "id": "belemhealth-2025",
+  "date": "2025-11-13",
+  "precision": "day",
+  "threads": [
+   "unfccc",
+   "who-wmo"
+  ],
+  "scope": "global",
+  "place": "Belém, Brazil",
+  "title": "Belém health plan centres equity and implementation",
+  "what": "WHO records the launch of the Belém Health Action Plan at COP30 Health Day. Its stated foundations included equity, climate justice and participatory governance.",
+  "why": "The climate-health agenda moved further into adaptation delivery and the distribution of protection.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S44"
+  ]
+ },
+ {
+  "id": "heatfinance-2026",
+  "date": "2026",
+  "precision": "year",
+  "threads": [
+   "finance",
+   "plans"
+  ],
+  "scope": "global",
+  "place": "Including India and Singapore",
+  "title": "Heat resilience gains a dedicated financing framework",
+  "what": "UNDRR and NDMA India, with technical support from the Centre for Disaster Protection, published Financing heat resilience. It covered public budgets, concessional finance, private capital and risk-transfer instruments.",
+  "why": "The question expanded from which heat actions exist to how different protection functions are financed.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "direct",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S46"
+  ]
+ },
+ {
+  "id": "recordinggap-2026",
+  "date": "2026",
+  "precision": "year",
+  "threads": [
+   "science",
+   "plans"
+  ],
+  "scope": "global",
+  "place": "Including India and Pakistan",
+  "title": "Disaster review makes heat-reporting delays explicit",
+  "what": "CRED's 2025 disaster review, with a 17 March 2026 reference date, recorded zero extreme-temperature deaths in its provisional table. It explicitly said reporting delays had left many heatwave deaths uncounted.",
+  "why": "A zero in a disaster table became a documented data gap, rather than evidence of no heat deaths.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "direct",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S49"
+  ]
+ },
+ {
+  "id": "whoguidance-2026",
+  "date": "2026",
+  "precision": "year",
+  "threads": [
+   "who-wmo",
+   "plans"
+  ],
+  "scope": "regional",
+  "place": "WHO European Region",
+  "title": "WHO updates the heat-health planning framework",
+  "what": "WHO reports a second edition of its heat-health action-plan guidance, organised around eight core elements. Governance, financing, surveillance and review are explicit components.",
+  "why": "A plan was framed more clearly as an operating system for sustained protection.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S52"
+  ]
+ },
+ {
+  "id": "southasiahub-2026",
+  "date": "2026-04-07",
+  "precision": "day",
+  "threads": [
+   "who-wmo",
+   "plans",
+   "finance"
+  ],
+  "scope": "regional",
+  "place": "New Delhi and South Asia",
+  "title": "South Asia heat-health hub is launched",
+  "what": "GHHIN and CEEW announced a Wellcome-funded regional hub with coordinating partners spanning research, policy and public health.",
+  "why": "South Asian evidence and local practice gained a dedicated route into regional and global exchange.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "direct",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S45"
+  ]
+ },
+ {
+  "id": "citiesreview-2026",
+  "date": "2026-05-08",
+  "precision": "day",
+  "threads": [
+   "ipcc"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "Cities special-report draft enters expert review",
+  "what": "The European Commission's official account records review of the Cities Special Report's second-order draft from 8 May to 3 July. It gave March 2027 as the planned final release date.",
+  "why": "Cities were receiving a dedicated assessment process, but draft material was not an approved finding.",
+  "grade": "INFERRED",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S51"
+  ]
+ },
+ {
+  "id": "asiareport-2026",
+  "date": "2026-06-17",
+  "precision": "day",
+  "threads": [
+   "who-wmo",
+   "science"
+  ],
+  "scope": "regional",
+  "place": "Asia; launched in Paro, Bhutan",
+  "title": "WMO frames heat within Asian multi-hazard risk",
+  "what": "WMO released its State of the Climate in Asia 2025 account, connecting dangerous heat, ocean warming, glaciers and early warnings.",
+  "why": "Heat was embedded in a regional account of interacting risks to health, food, infrastructure and livelihoods.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "direct",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S47"
+  ]
+ },
+ {
+  "id": "mnchindicators-2026",
+  "date": "2026-10-21",
+  "precision": "day",
+  "threads": [
+   "who-wmo",
+   "science"
+  ],
+  "scope": "global",
+  "place": "",
+  "title": "Heat monitoring expands to mothers and children",
+  "what": "WHO, WMO, UNICEF and UNFPA published priority indicators for monitoring heat impacts on maternal, newborn and child health. The framework links health data with heat-exposure measures.",
+  "why": "Previously less visible outcomes gained a dedicated monitoring approach.",
+  "grade": "KNOWN",
+  "first": "no",
+  "asia": "indirect",
+  "quote": "",
+  "quote_loc": "",
+  "sources": [
+   "S48"
+  ]
+ }
+]
