@@ -34,7 +34,7 @@ function bodyText(buf, type) {
   try { fs.writeFileSync(f, buf); return execFileSync("pdftotext", ["-q", "-enc", "UTF-8", f, "-"], { maxBuffer: 64 * 1024 * 1024 }).toString("utf8").replace(/</g, " "); }
   catch (e) { return ""; } finally { try { fs.unlinkSync(f); } catch (e) {} }
 }
-const raw = a => a.replace(/(\/web\/\d+)(?:[a-z]{2}_)?\//, "$1id_/");   // an archived copy as it was saved, without the archive's toolbar
+const rawArchive = a => a.replace(/(\/web\/\d+)(?:[a-z]{2}_)?\//, "$1id_/");   // an archived copy as it was saved, without the archive's toolbar
 const text = html => html.replace(/<(script|style|noscript)[\s\S]*?<\/\1>/gi, " ").replace(/<[^>]+>/g, " ").replace(/&nbsp;|&#160;/g, " ")
   .replace(/&amp;/g, "&").replace(/&#8217;|&rsquo;|&#x2019;/g, "’").replace(/&#8216;|&lsquo;/g, "‘").replace(/&quot;|&#8220;|&#8221;|&ldquo;|&rdquo;/g, '"').replace(/&[a-z#0-9]+;/gi, " ").replace(/\s+/g, " ").trim();
 const norm = s => s.toLowerCase().replace(/[’‘]/g, "'").replace(/[“”]/g, '"').replace(/\s+/g, " ");
@@ -70,7 +70,7 @@ function around(body, nb, terms) {
       links[r.url] = status;
       if (!r.archive) { const a = await archiveOf(r.url); if (a) { r.archive = a; changed = true; } }
       let body = page.ok ? text(page.body) : "";
-      if (!body && r.archive) { const ar = await get(raw(r.archive), 60000); if (ar.ok) body = text(ar.body); }
+      if (!body && r.archive) { const ar = await get(rawArchive(r.archive), 60000); if (ar.ok) body = text(ar.body); }
       const nb = norm(body), found = {};
       (r.expect || []).forEach(t => { found[t] = nb.includes(norm(t)); });
       links._terms[r.url] = found;
