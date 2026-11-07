@@ -282,5 +282,11 @@
   ["infectious","isolation","Infection control can close shared cool spaces and cut in-person support."],
   ["isolation","homes","Kept at home with nowhere cooler to go, people stay longer in the heat."],
   ["infrastructure","schoolclose","Storm damage can close learning spaces that heat also closes."],
-  ["quality","scarcity","Salt water creeping into wells and rivers makes existing sources unusable."]
+  ["quality","scarcity","Salt water creeping into wells and rivers makes existing sources unusable."],
+  ["lost","energypoverty","When heat cuts earnings, cooling becomes harder to afford in the next hot spell."],
+  [
+    "irrigation",
+    "farmwork",
+    "Irrigated fields make the air more humid, so farmworkers can face more humid heat even as the air cools."
+  ]
 ]

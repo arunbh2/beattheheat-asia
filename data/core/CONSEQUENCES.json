@@ -27,11 +27,15 @@
     "id": "forest",
     "sys": "nature",
     "label": "Forest\ndieback",
-    "desc": "Heat and drought stress trees until they stop growing, then die, turning forests from shade and carbon stores into fuel.",
+    "desc": "Heat and drought stress trees until they stop growing, then die, turning forests from shade and carbon stores into fuel. Losing forest cover adds heat for the people who work there: in an experiment in East Kalimantan, Indonesia, 361 workers in cleared land faced heat stress readings 2.84 °C higher than in forest, and got less done. The experiment cleared land; it does not show that forests dying back from heat have the same effect.",
     "sources": [
       {
         "label": "Hammond et al., Nature Communications, 2022: a hotter-drought fingerprint for tree die-off",
         "url": "https://doi.org/10.1038/s41467-022-29289-2"
+      },
+      {
+        "label": "Masuda et al., 2021: warming from tropical deforestation reduces worker productivity (PMC7952402)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7952402/"
       }
     ]
   },
@@ -39,11 +43,15 @@
     "id": "drysoil",
     "sys": "nature",
     "label": "Drying\nsoils",
-    "desc": "Heat pulls moisture from the ground when crops and plants need it most.",
+    "desc": "Heat pulls moisture from the ground when crops and plants need it most. In India's 2015 heatwave, drying soils and the heat they gave off added to the second peak of the heat, though not the first.",
     "sources": [
       {
         "label": "Seneviratne et al., Earth-Science Reviews, 2010",
         "url": "https://doi.org/10.1016/j.earscirev.2010.02.004"
+      },
+      {
+        "label": "Ghatak et al., 2017: the role of local heating in the 2015 Indian heat wave (NASA abstract)",
+        "url": "https://ntrs.nasa.gov/citations/20180003614"
       }
     ]
   },
@@ -303,11 +311,15 @@
     "id": "irrigation",
     "sys": "water",
     "label": "Irrigation\ndemand soars",
-    "desc": "Hot, dry fields need far more water to keep crops alive.",
+    "desc": "Hot, dry fields need far more water to keep crops alive. Watering fields cools the air but makes it more humid, which can raise the humid heat that farmworkers feel.",
     "sources": [
       {
         "label": "Rodell, Velicogna and Famiglietti, Nature, 2009",
         "url": "https://www.nature.com/articles/nature08238"
+      },
+      {
+        "label": "Mishra et al., 2020: moist heat stress extremes in India enhanced by irrigation",
+        "url": "https://impact.ornl.gov/en/publications/moist-heat-stress-extremes-in-india-enhanced-by-irrigation/"
       }
     ]
   },
@@ -315,11 +327,15 @@
     "id": "groundwater",
     "sys": "water",
     "label": "Groundwater\nover-pumped",
-    "desc": "Farmers and cities pump deeper and harder, draining aquifers faster than rain can refill them.",
+    "desc": "Farmers and cities pump deeper and harder, draining aquifers faster than rain can refill them. In India, warming is linked to more pumping for irrigation and faster groundwater loss, leaving less in reserve for the next hot season.",
     "sources": [
       {
         "label": "Rodell, Velicogna and Famiglietti, Nature, 2009",
         "url": "https://www.nature.com/articles/nature08238"
+      },
+      {
+        "label": "Bhattarai et al., 2023: warming temperatures exacerbate groundwater depletion rates in India (USDA record)",
+        "url": "https://www.ars.usda.gov/research/publications/publication/?seqNo115=387051"
       }
     ]
   },
@@ -364,7 +380,7 @@
     "sys": "energy",
     "label": "Cooling demand\npeaks",
     "labelAt": "above",
-    "desc": "As temperatures climb, so does the demand for fans and air conditioning, pushing electricity use to new peaks.",
+    "desc": "As temperatures climb, so does the demand for fans and air conditioning, pushing electricity use to new peaks. Air conditioners push their heat outside: in a model of city blocks in Rajkot, condensers on outside walls could warm the street air by more than 1 °C and raise cooling demand further.",
     "sources": [
       {
         "label": "International Energy Agency, 2018: The Future of Cooling",
@@ -373,6 +389,10 @@
       {
         "label": "International Energy Agency: The Future of Cooling in Southeast Asia",
         "url": "https://www.iea.org/reports/the-future-of-cooling-in-southeast-asia"
+      },
+      {
+        "label": "Verma et al., Scientific Reports, 2026: air conditioner waste heat in hypothetical urban blocks, Rajkot",
+        "url": "https://www.nature.com/articles/s41598-026-62477-4"
       }
     ]
   },
@@ -444,11 +464,15 @@
     "id": "energypoverty",
     "sys": "energy",
     "label": "Can’t afford\nto keep cool",
-    "desc": "For the poorest households, fans, cooling and electricity bills are out of reach.",
+    "desc": "For the poorest households, fans, cooling and electricity bills are out of reach. In Delhi, low-income households used little more electricity on hot days, which the researchers read as a sign of few ways to cool.",
     "sources": [
       {
         "label": "Sustainable Energy for All, 2023: Chilling Prospects",
         "url": "https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-global-access-to-cooling-gaps-2023"
+      },
+      {
+        "label": "Harish et al., 2020: impact of temperature on electricity demand in Delhi and Indian states",
+        "url": "https://cprindia.org/journalarticles/impact-of-temperature-on-electricity-demand-evidence-from-delhi-and-indian-states/"
       }
     ]
   },

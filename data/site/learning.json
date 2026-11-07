@@ -128,6 +128,22 @@
   { "id": "q-successive-shocks", "loop": "poverty", "status": "open",
     "q": "Do heat and later floods leave the same households less able to recover than either alone?",
     "have": "Pakistan's 2022 assessment records food pressures building from heat to floods, but not for the same households.",
-    "could": "Follow households hit by both and by one, recording harvests, food and recovery spending.", "scale": "Illustrative: a few hundred households over two farming seasons" }
+    "could": "Follow households hit by both and by one, recording harvests, food and recovery spending.", "scale": "Illustrative: a few hundred households over two farming seasons" },
+  { "id": "q-soil-moisture", "loop": "soil", "status": "open",
+    "q": "Does keeping soils moist lower afternoon heat without raising the humid heat that farmworkers feel?",
+    "have": "Research on India's 2015 heatwave links drying soils to the heat, and irrigation research shows cooler but more humid air.",
+    "could": "Compare matched fields with different soil-moisture practices, measuring air heat, humid heat and soil water.", "scale": "Illustrative: twenty to thirty paired fields over two hot seasons" },
+  { "id": "q-cooling-debt", "loop": "energypoverty", "status": "open",
+    "q": "Do earnings lost or health costs paid in a heatwave make cooling harder to afford the next season?",
+    "have": "Income shapes which cooling households own, but the steps from lost earnings to debt to less cooling are not tracked.",
+    "could": "Follow households monthly through heat, earnings, illness costs, debt, electricity spending and actual cooling use.", "scale": "Illustrative: several hundred households over two hot seasons" },
+  { "id": "q-waste-heat", "loop": "cooling", "status": "open",
+    "q": "Does moving air conditioner condensers lower street heat and later electricity use in real neighbourhoods?",
+    "have": "A model of Rajkot city blocks suggests it could; it has not been tested in occupied buildings.",
+    "could": "Compare paired buildings before and after moving condensers, with outdoor and indoor sensors and electricity meters.", "scale": "Illustrative: a dozen to twenty buildings over one hot season" },
+  { "id": "q-short-nights", "loop": "sleep", "status": "open",
+    "q": "Does a hot, short night raise the next day's heat strain during ordinary work?",
+    "have": "Small laboratory studies found no overall rise after short sleep, but they did not test long humid workdays.",
+    "could": "Measure bedroom heat, sleep, next-day exposure and heat strain repeatedly in working people, without depriving anyone of sleep.", "scale": "Illustrative: a hundred or more workers over four to six weeks" }
  ]
 }

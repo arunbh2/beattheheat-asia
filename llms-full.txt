@@ -48,19 +48,23 @@ Source: UNEP and GRID-Arendal, 2022: Spreading like wildfire https://www.unep.or
 
 #### Forest dieback
 
-Heat and drought stress trees until they stop growing, then die, turning forests from shade and carbon stores into fuel.
+Heat and drought stress trees until they stop growing, then die, turning forests from shade and carbon stores into fuel. Losing forest cover adds heat for the people who work there: in an experiment in East Kalimantan, Indonesia, 361 workers in cleared land faced heat stress readings 2.84 °C higher than in forest, and got less done. The experiment cleared land; it does not show that forests dying back from heat have the same effect.
 
 Leads to: Wildfires (Stressed and dying trees become fuel.); Biodiversity loss (Habitats disappear with the trees.); Wildlife moves into farms and villages (Dying forests offer less food and shelter, pushing animals out.)
 
 Source: Hammond et al., Nature Communications, 2022: a hotter-drought fingerprint for tree die-off https://doi.org/10.1038/s41467-022-29289-2
 
+Source: Masuda et al., 2021: warming from tropical deforestation reduces worker productivity (PMC7952402) https://pmc.ncbi.nlm.nih.gov/articles/PMC7952402/
+
 #### Drying soils
 
-Heat pulls moisture from the ground when crops and plants need it most.
+Heat pulls moisture from the ground when crops and plants need it most. In India's 2015 heatwave, drying soils and the heat they gave off added to the second peak of the heat, though not the first.
 
 Leads to: Failing harvests (Moisture vanishes just when crops need it most.); Extreme heat (Dry soil can’t cool itself by evaporation, so more of the sun’s energy becomes heat.)
 
 Source: Seneviratne et al., Earth-Science Reviews, 2010 https://doi.org/10.1016/j.earscirev.2010.02.004
+
+Source: Ghatak et al., 2017: the role of local heating in the 2015 Indian heat wave (NASA abstract) https://ntrs.nasa.gov/citations/20180003614
 
 #### Glacier and snow melt
 
@@ -232,19 +236,23 @@ Source: Review in International Journal of Environmental Research and Public Hea
 
 #### Irrigation demand soars
 
-Hot, dry fields need far more water to keep crops alive.
+Hot, dry fields need far more water to keep crops alive. Watering fields cools the air but makes it more humid, which can raise the humid heat that farmworkers feel.
 
-Leads to: Groundwater over-pumped (Farmers pump harder and deeper to keep crops alive.)
+Leads to: Groundwater over-pumped (Farmers pump harder and deeper to keep crops alive.); Farmwork hours lost (Irrigated fields make the air more humid, so farmworkers can face more humid heat even as the air cools.)
 
 Source: Rodell, Velicogna and Famiglietti, Nature, 2009 https://www.nature.com/articles/nature08238
 
+Source: Mishra et al., 2020: moist heat stress extremes in India enhanced by irrigation https://impact.ornl.gov/en/publications/moist-heat-stress-extremes-in-india-enhanced-by-irrigation/
+
 #### Groundwater over-pumped
 
-Farmers and cities pump deeper and harder, draining aquifers faster than rain can refill them.
+Farmers and cities pump deeper and harder, draining aquifers faster than rain can refill them. In India, warming is linked to more pumping for irrigation and faster groundwater loss, leaving less in reserve for the next hot season.
 
 Leads to: Water shortages (Aquifers fall and wells run dry.)
 
 Source: Rodell, Velicogna and Famiglietti, Nature, 2009 https://www.nature.com/articles/nature08238
+
+Source: Bhattarai et al., 2023: warming temperatures exacerbate groundwater depletion rates in India (USDA record) https://www.ars.usda.gov/research/publications/publication/?seqNo115=387051
 
 #### Competition for water
 
@@ -276,13 +284,15 @@ Heat drives up demand for cooling while cutting the ability of power plants and 
 
 #### Cooling demand peaks
 
-As temperatures climb, so does the demand for fans and air conditioning, pushing electricity use to new peaks.
+As temperatures climb, so does the demand for fans and air conditioning, pushing electricity use to new peaks. Air conditioners push their heat outside: in a model of city blocks in Rajkot, condensers on outside walls could warm the street air by more than 1 °C and raise cooling demand further.
 
 Leads to: Power cuts and grid stress (Peak demand pushes grids to the limit.); Emissions from cooling rise (Most cooling still runs on fossil-fuelled power.); Urban heat islands (Air conditioners pump heat outdoors, warming the streets around them.); Can’t afford to keep cool (Higher bills push poor households into energy poverty.)
 
 Source: International Energy Agency, 2018: The Future of Cooling https://www.iea.org/reports/the-future-of-cooling
 
 Source: International Energy Agency: The Future of Cooling in Southeast Asia https://www.iea.org/reports/the-future-of-cooling-in-southeast-asia
+
+Source: Verma et al., Scientific Reports, 2026: air conditioner waste heat in hypothetical urban blocks, Rajkot https://www.nature.com/articles/s41598-026-62477-4
 
 #### Power cuts and grid stress
 
@@ -328,11 +338,13 @@ Source: International Energy Agency, 2018: The Future of Cooling https://www.iea
 
 #### Can’t afford to keep cool
 
-For the poorest households, fans, cooling and electricity bills are out of reach.
+For the poorest households, fans, cooling and electricity bills are out of reach. In Delhi, low-income households used little more electricity on hot days, which the researchers read as a sign of few ways to cool.
 
 Leads to: Heatstroke and heat exhaustion (With no way to cool down at home, heat builds up in the body.); Homes that trap heat (Without affordable cooling or backup power, a household has fewer ways to bring indoor heat down.)
 
 Source: Sustainable Energy for All, 2023: Chilling Prospects https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-global-access-to-cooling-gaps-2023
+
+Source: Harish et al., 2020: impact of temperature on electricity demand in Delhi and Indian states https://cprindia.org/journalarticles/impact-of-temperature-on-electricity-demand-evidence-from-delhi-and-indian-states/
 
 #### Cold chains break
 
@@ -584,7 +596,7 @@ Heat slows hands, closes businesses and squeezes the incomes of those with the l
 
 The International Labour Organization projects that heat stress could cut 2.2% of all working hours worldwide by 2030, the equivalent of 80 million full-time jobs.
 
-Leads to: Informal workers can’t stop work (Lost income leaves even less margin, so the next heatwave has to be worked through too.); Deepening inequality (Lost earnings hurt most where there are no savings to fall back on.); Hunger and malnutrition (Less income means less food.); Violence against women rises (Lost income and stress at home raise the risk of violence against women.); Loan repayments slip (Lost wages make household and microfinance repayments harder.)
+Leads to: Informal workers can’t stop work (Lost income leaves even less margin, so the next heatwave has to be worked through too.); Deepening inequality (Lost earnings hurt most where there are no savings to fall back on.); Hunger and malnutrition (Less income means less food.); Violence against women rises (Lost income and stress at home raise the risk of violence against women.); Loan repayments slip (Lost wages make household and microfinance repayments harder.); Can’t afford to keep cool (When heat cuts earnings, cooling becomes harder to afford in the next hot spell.)
 
 Source: International Labour Organization, 2019: heat stress predicted to cost the equivalent of 80 million jobs https://www.ilo.org/resource/news/increase-heat-stress-predicted-bring-productivity-loss-equivalent-80
 
@@ -1498,6 +1510,8 @@ Cuts the link: Irrigation demand soars → Groundwater over-pumped. Who can act:
 
 Could help interrupt: The groundwater loop
 
+Watch for: Watering fields cools the air but makes it more humid, which can raise the humid heat that farmworkers feel. Saving water and protecting workers are worth checking together. (Mishra et al., 2020: moist heat stress extremes in India enhanced by irrigation, https://impact.ornl.gov/en/publications/moist-heat-stress-extremes-in-india-enhanced-by-irrigation/)
+
 - Guide: Atal Bhujal Yojana: India’s scheme for community-led groundwater management (Council on Energy, Environment and Water (CEEW)) https://www.ceew.in/publications/atal-bhujal-yojana-scheme-for-sustainable-participatory-groundwater-resources-management
 
 ### Crop insurance and fair credit
@@ -1834,6 +1848,8 @@ In a survey of 860 households in Ahmedabad, people in informal settlements faced
 
 In Jakarta, dense low-income neighbourhoods act as heat islands; informal workers rarely have fans or air conditioning and cool off on terraces or in parks, while green space is concentrated in wealthier areas. (Ufaira and others, Frontiers in Human Dynamics, 2023, https://www.frontiersin.org/journals/human-dynamics/articles/10.3389/fhumd.2023.1237515/full)
 
+In a model of 16 buildings in Rajkot, air conditioner condensers on outside walls could warm the street air by more than 1 °C. (Scientific Reports, 2026, https://www.nature.com/articles/s41598-026-62477-4)
+
 What helps: Cool, affordable housing, Cool nights and support, Cooling centres and check-ins, Affordable cooling for the poorest
 
 ### Workers in heat-exposed jobs
@@ -1851,6 +1867,8 @@ In Singapore, a study of 355 workers found each hot day cost a median S$21 in lo
 In Dhaka, Hanoi, Ho Chi Minh City, Phnom Penh and Karachi, garment hubs where factories trap heat, days with wet-bulb temperatures above 30.5 °C rose by 42% in 2020–24 compared with 2005–09. (Cornell Global Labor Institute and Schroders, Higher Ground?, https://www.ilr.cornell.edu/global-labor-institute/higher-ground-fashions-climate-breakdown)
 
 In Tamil Nadu, 68% of people face 8–9 hours a day of strong heat stress from March to June, measured by an index that counts humidity, wind and sun as well as temperature. (Tamil Nadu Heat Mitigation Strategy, 2024, https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf)
+
+In East Kalimantan, Indonesia, 361 workers doing 90-minute tasks on cleared land faced heat stress readings 2.84 °C higher than in forest. (Masuda et al., 2021 (PMC7952402), https://pmc.ncbi.nlm.nih.gov/articles/PMC7952402/)
 
 What helps: Heat-safe work, Income protection in heatwaves, Social protection floors, Free care for heat illness
 

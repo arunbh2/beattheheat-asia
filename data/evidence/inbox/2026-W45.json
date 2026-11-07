@@ -49,6 +49,38 @@
     "finding": "In June 2023, heat pushed electricity demand up while low reservoirs cut the hydropower available. It shows the water to power part of the cycle during heat, not the whole loop.",
     "limit": "The utility's own operational account; plant and transmission problems also contributed, and heat's share is not separated."
    }
+  },
+  {
+   "decision": "accept",
+   "title": "The Role of Local Heating in the 2015 Indian Heat Wave",
+   "url": "https://ntrs.nasa.gov/citations/20180003614",
+   "first_author": "Ghatak et al.",
+   "venue": "",
+   "date": "2017",
+   "review": {
+    "cycle": "soil",
+    "grade": "peer",
+    "where": "North and central India",
+    "sample_size": "",
+    "finding": "Drying soils and the heat they gave off added to the second peak of India's 2015 heatwave, though not the first. It supports the soil part of the cycle in one event.",
+    "limit": "Read through its abstract; one event cannot show how much every heatwave owes to dry soils."
+   }
+  },
+  {
+   "decision": "accept",
+   "title": "Quantifying the impact of air conditioner waste heat on neighbourhood scale microclimate and building energy demand in hypothetical urban blocks",
+   "url": "https://www.nature.com/articles/s41598-026-62477-4",
+   "first_author": "Verma et al.",
+   "venue": "Scientific Reports",
+   "date": "2026",
+   "review": {
+    "cycle": "cooling",
+    "grade": "model",
+    "where": "Hypothetical blocks in Rajkot, India",
+    "sample_size": "16 buildings, six condenser placements",
+    "finding": "In a model of city blocks, condensers on outside walls warmed the street air and raised the buildings' cooling demand, closing the cooling loop on paper.",
+    "limit": "Hypothetical blocks and separate models, not measured in a real neighbourhood."
+   }
   }
  ]
 }
