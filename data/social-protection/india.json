@@ -1,0 +1,972 @@
+{
+ "country": {
+  "id": "in",
+  "slug": "india",
+  "name": "India",
+  "as_of": "2026-11-05",
+  "checked": "2026-11-07",
+  "unit_note": "",
+  "summary": [
+   {
+    "text": "Official announcements describe rural-employment changes from July 2026 and pension changes approved in October. Pension implementation and current disaster-relief details remain partly unverified.",
+    "sources": [
+     {
+      "label": "Ministry of Rural Development, 2026: Historic Commencement of Viksit Bharat – G RAM G Act Across Rural India from July 1st 2026",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2259703&lang=1&reg=1"
+     },
+     {
+      "label": "Government of India, 2026: Cabinet approves continuation of the National Social Assistance Programme for five years from 2026-27 to 2030-31",
+      "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-continuation-of-the-national-social-assistance-programme-for-five-years-from-2026-27-to-2030-31/?comment=disable"
+     },
+     {
+      "label": "Ministry of Home Affairs: Disaster Management Division",
+      "url": "https://www.mha.gov.in/index.php/disaster-management-division"
+     }
+    ]
+   },
+   {
+    "text": "Openly licensed weather data can support state exposure indicators. Public reports provide other indicators, but reuse licences and shared place codes are not consistently established.",
+    "sources": [
+     {
+      "label": "Copernicus Climate Change Service / ECMWF, 2018: ERA5 hourly data on single levels from 1940 to present",
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview"
+     },
+     {
+      "label": "Department of Food and Public Distribution, 2025: E-KYC COMPLIANT RATION CARDS",
+      "url": "https://sansad.in/getFile/annex/269/AU1793_fjXAYl.pdf?source=pqars"
+     },
+     {
+      "label": "India Meteorological Department: Yearly Gridded Maximum Temperature (1.0 x 1.0) data Binary File",
+      "url": "https://imdpune.gov.in/cmpg/Griddata/Max_1_Bin.html"
+     },
+     {
+      "label": "International Institute for Population Sciences and ICF, 2022: National Family Health Survey (NFHS-5), 2019-21: India",
+      "url": "https://assets.exemplars.health/fd9a20fb-4386-00b3-39a1-1737868b44b7/d4b76902-0381-4d15-9661-9b2e06b58682/10%20National%20Family%20Health%20Survey%205%2020192021.pdf"
+     },
+     {
+      "label": "geoBoundaries: Archival & Programmatic Access",
+      "url": "https://www.geoboundaries.org/api.html"
+     }
+    ]
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Income lost while resting: no national automatic heat-triggered informal-worker wage replacement verified. Delhi evidence records earnings losses.",
+    "sources": [
+     {
+      "label": "Das and Somanathan, 2024: Heat causes large earnings losses for informal-sector workers in India",
+      "url": "https://heathealth.info/wp-content/uploads/Das_2024_Environ._Res._Lett._19_124019.pdf"
+     }
+    ]
+   },
+   {
+    "text": "Farm losses outside insurance conditions: PMFBY depends on notification, enrolment and covered risks.",
+    "sources": [
+     {
+      "label": "Press Information Bureau, 2026: Pradhan Mantri Fasal Bima Yojana",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2304549&lang=1&reg=48"
+     }
+    ]
+   },
+   {
+    "text": "Current shocks for new pension entrants: PM-SYM pays from age 60.",
+    "sources": [
+     {
+      "label": "Ministry of Labour and Employment, 2025: Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)",
+      "url": "https://www.labour.gov.in/static/uploads/2025/06/2e7e01b90e6358cb82f396615fc87a94.pdf"
+     }
+    ]
+   },
+   {
+    "text": "Debt and asset sales: no verified evaluation links public-system receipt to reductions in these heat outcomes.",
+    "sources": []
+   },
+   {
+    "text": "Anticipatory payments: no current public heat-forecast-triggered cash entitlement with verified rules and receipt established.",
+    "sources": []
+   },
+   {
+    "text": "Construction workers outside registration: checked Meghalaya benefits depend on the Board's qualifying route.",
+    "sources": [
+     {
+      "label": "Meghalaya Building and Other Construction Workers Welfare Board: Frequently Asked Questions",
+      "url": "https://megbocwwb.gov.in/faqs"
+     },
+     {
+      "label": "Meghalaya Building and Other Construction Workers Welfare Board: Schemes",
+      "url": "https://megbocwwb.gov.in/schemes"
+     }
+    ]
+   }
+  ],
+  "map": {
+   "rows": [
+    [
+     "Exposure",
+     "ERA5-derived hot-night frequency for completed year 2025; disclosed threshold and Indian local-calendar days."
+    ],
+    [
+     "Systems",
+     "PM-JAY 70-plus entitlement, including cover-sharing and enrolment conditions."
+    ],
+    [
+     "Optional third indicator",
+     "Disability-pension transition status: approved change, operational implementation unverified."
+    ],
+    [
+     "Geography",
+     "States/UTs; versioned, openly licensed boundaries after India-specific metadata checks."
+    ],
+    [
+     "Join",
+     "Spatial weather aggregation plus reviewed state crosswalk for factual scheme registry."
+    ],
+    [
+     "Open basis",
+     "ERA5 CC-BY; GeoBoundaries gbOpen; separately openly licensed Common Shade factual registry."
+    ],
+    [
+     "Shows",
+     "Hotter nights alongside public-system routes readers could explore."
+    ],
+    [
+     "Does not show",
+     "Eligible households, enrolment gaps, actual treatment, payment speed, adequacy or reduced harm."
+    ]
+   ],
+   "misreadings": [
+    "Low registration can reflect population, eligibility, mobility or incomplete access.",
+    "High enrolment can coexist with difficulty using a benefit.",
+    "A national scheme can be uniform on paper while local delivery differs.",
+    "State averages conceal neighbourhoods, outdoor work, housing and humid coastal exposure.",
+    "Recent weather alongside older survey data is not simultaneous measurement.",
+    "Overlapping scheme counts cannot be added to estimate protected households."
+   ]
+  },
+  "questions": [
+   {
+    "id": "in-accesssteps",
+    "q": "At which access step do heat-exposed informal-worker households lose the most potential support?",
+    "have": "Separate administrative stocks and a small commissioned facilitation assessment; no complete representative ladder.",
+    "could": "Voluntary repeated survey before, during and after a hot season, publishing only aggregate group and step results.",
+    "scale": "About 1,500 households across six districts; final size depends on detectable differences."
+   },
+   {
+    "id": "in-timing",
+    "q": "Does receiving an existing transfer before peak heat improve coping compared with later receipt?",
+    "have": "Entitlements and heat earnings-loss evidence; little verified payment-timing evidence.",
+    "could": "Evaluate an authorised timing change with aggregate earnings, care costs and borrowing outcomes.",
+    "scale": "About 2,000 households across 40-60 clusters, subject to power analysis."
+   },
+   {
+    "id": "in-heatcare",
+    "q": "How much of household heat-illness cost is met through PM-JAY and free public care?",
+    "have": "Hospital-cover rules and service policies; no verified heat-specific cost pathway.",
+    "could": "Consent-based care-cost study across public and empanelled facilities, publishing aggregate results.",
+    "scale": "About 600 episodes across 12 facilities in one season."
+   },
+   {
+    "id": "in-navigation",
+    "q": "Does assisted scheme navigation improve timely receipt during a hot season?",
+    "have": "Delivery models and commissioned assessment; no verified heat-specific causal estimate.",
+    "could": "Phased rollout of additional support against existing services, measuring receipt and timing; providers on equal terms.",
+    "scale": "About 60 communities and 1,800 households; subject to power analysis."
+   },
+   {
+    "id": "in-safework",
+    "q": "Can public works cushion heat income loss while reducing exposure?",
+    "have": "Historical learning protection evidence; no verified 2026-framework heat evaluation.",
+    "could": "Evaluate adjusted hours, rest and water provision alongside work access and wage arrival.",
+    "scale": "About 50 worksites across four districts in one hot season."
+   }
+  ]
+ },
+ "schemes": [
+  {
+   "id": "in-ruralwork",
+   "level": "national",
+   "name": "Viksit Bharat - Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+   "type": "public-works",
+   "run_by": "Ministry of Rural Development and state governments",
+   "who": "Rural households whose adult members volunteer for unskilled manual work.",
+   "gives": "125 days of wage employment per financial year; wage rates vary.",
+   "delivery": "Work on demand; wages through bank or post-office accounts.",
+   "documents": "Existing job cards remain valid; the complete new application checklist was not verified.",
+   "portable": "unknown",
+   "speed": "Published rule: weekly payment or within fifteen days of muster-roll closure; actual receipt times not verified.",
+   "shock_responsive": "partly",
+   "heat_relevance": "Could replace some lost rural earnings, depending on work availability, safe conditions and payment timing.",
+   "status": "changed",
+   "status_as_of": "2026-11-05",
+   "grade": "KNOWN",
+   "situations": [
+    "work"
+   ],
+   "sources": [
+    {
+     "label": "Ministry of Rural Development, 2026: Historic Commencement of Viksit Bharat – G RAM G Act Across Rural India from July 1st 2026",
+     "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2259703&lang=1&reg=1"
+    }
+   ]
+  },
+  {
+   "id": "in-oldage",
+   "level": "national",
+   "name": "Pradhan Mantri Vridhavastha Pension Yojana",
+   "type": "pension",
+   "run_by": "Department of Rural Development and states/UTs",
+   "who": "People in below-poverty-line households aged 60 or above under continuing central rules.",
+   "gives": "Central assistance: Rs.200 monthly at ages 60-79; Rs.500 at 80 or above. State additions vary.",
+   "delivery": "State pension systems.",
+   "documents": "State checklist not verified.",
+   "portable": "unknown",
+   "speed": "Monthly entitlement; actual timing unknown.",
+   "shock_responsive": "no",
+   "heat_relevance": "Regular income could help meet seasonal household costs.",
+   "status": "changed",
+   "status_as_of": "2026-11-05",
+   "grade": "KNOWN",
+   "situations": [
+    "older",
+    "income"
+   ],
+   "sources": [
+    {
+     "label": "Ministry of Rural Development, 2026: Department of Rural Development: Year Ender 2025",
+     "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2210378&lang=1&reg=1"
+    },
+    {
+     "label": "Government of India, 2026: Cabinet approves continuation of the National Social Assistance Programme for five years from 2026-27 to 2030-31",
+     "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-continuation-of-the-national-social-assistance-programme-for-five-years-from-2026-27-to-2030-31/?comment=disable"
+    }
+   ]
+  },
+  {
+   "id": "in-widow",
+   "level": "national",
+   "name": "Pradhan Mantri Vidhawa Pension Yojana",
+   "type": "pension",
+   "run_by": "Department of Rural Development and states/UTs",
+   "who": "Widows in below-poverty-line households aged 40 or above under continuing central rules.",
+   "gives": "Central assistance: Rs.300 monthly at ages 40-79; Rs.500 at 80 or above. State additions vary.",
+   "delivery": "State pension systems.",
+   "documents": "State checklist not verified.",
+   "portable": "unknown",
+   "speed": "Monthly entitlement; actual timing unknown.",
+   "shock_responsive": "no",
+   "heat_relevance": "Regular income could cushion seasonal earnings pressure.",
+   "status": "changed",
+   "status_as_of": "2026-11-05",
+   "grade": "KNOWN",
+   "situations": [
+    "income"
+   ],
+   "sources": [
+    {
+     "label": "Ministry of Rural Development, 2026: Department of Rural Development: Year Ender 2025",
+     "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2210378&lang=1&reg=1"
+    },
+    {
+     "label": "Government of India, 2026: Cabinet approves continuation of the National Social Assistance Programme for five years from 2026-27 to 2030-31",
+     "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-continuation-of-the-national-social-assistance-programme-for-five-years-from-2026-27-to-2030-31/?comment=disable"
+    }
+   ]
+  },
+  {
+   "id": "in-disability",
+   "level": "national",
+   "name": "Pradhan Mantri Divyangjan Pension Yojana",
+   "type": "pension",
+   "run_by": "Department of Rural Development and states/UTs",
+   "who": "October approval expands eligibility to 40% benchmark disability and removes the minimum age; operational commencement not verified.",
+   "gives": "Approved central rates: Rs.375 monthly at ages 0-79 and Rs.625 at 80 or above.",
+   "delivery": "State pension systems; transition guidelines pending in the announcement.",
+   "documents": "Revised operational checklist not verified.",
+   "portable": "unknown",
+   "speed": "Actual timing unknown.",
+   "shock_responsive": "no",
+   "heat_relevance": "Could support recurring costs for households including people with disabilities.",
+   "status": "changed",
+   "status_as_of": "2026-11-05",
+   "grade": "KNOWN",
+   "situations": [
+    "disability",
+    "income"
+   ],
+   "sources": [
+    {
+     "label": "Government of India, 2026: Cabinet approves continuation of the National Social Assistance Programme for five years from 2026-27 to 2030-31",
+     "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-continuation-of-the-national-social-assistance-programme-for-five-years-from-2026-27-to-2030-31/?comment=disable"
+    }
+   ]
+  },
+  {
+   "id": "in-familybenefit",
+   "level": "national",
+   "name": "Pradhan Mantri Parivar Labh Yojana",
+   "type": "cash",
+   "run_by": "Department of Rural Development and states/UTs",
+   "who": "Surviving household head of a below-poverty-line family after the death of its primary breadwinner aged 18-59.",
+   "gives": "Rs.20,000 under continuing central rules.",
+   "delivery": "State-administered, demand-based assistance.",
+   "documents": "State checklist not verified.",
+   "portable": "unknown",
+   "speed": "Unknown.",
+   "shock_responsive": "yes",
+   "heat_relevance": "Could assist an eligible family following a breadwinner's death; heat-specific receipt not verified.",
+   "status": "changed",
+   "status_as_of": "2026-11-05",
+   "grade": "KNOWN",
+   "situations": [
+    "income"
+   ],
+   "sources": [
+    {
+     "label": "Ministry of Rural Development, 2026: Department of Rural Development: Year Ender 2025",
+     "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2210378&lang=1&reg=1"
+    },
+    {
+     "label": "Government of India, 2026: Cabinet approves continuation of the National Social Assistance Programme for five years from 2026-27 to 2030-31",
+     "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-continuation-of-the-national-social-assistance-programme-for-five-years-from-2026-27-to-2030-31/?comment=disable"
+    }
+   ]
+  },
+  {
+   "id": "in-food",
+   "level": "national",
+   "name": "National Food Security Act foodgrain entitlement under Pradhan Mantri Garib Kalyan Anna Yojana",
+   "type": "food",
+   "run_by": "Department of Food and Public Distribution and states/UTs",
+   "who": "Antyodaya Anna Yojana and Priority Household beneficiaries identified by states/UTs; Maharashtra rules checked.",
+   "gives": "35 kg per Antyodaya household monthly; 5 kg per Priority Household person monthly. Free foodgrains continue through 31 December 2028.",
+   "delivery": "Public Distribution System.",
+   "documents": "State ration-card enrolment requirements vary; complete current checklist not verified.",
+   "portable": "unknown",
+   "speed": "Monthly entitlement; household receipt dates unknown.",
+   "shock_responsive": "partly",
+   "heat_relevance": "Could preserve food consumption when earnings fall; no automatic heat-related increase verified.",
+   "status": "current",
+   "status_as_of": "2026-11-05",
+   "grade": "KNOWN",
+   "situations": [
+    "food"
+   ],
+   "sources": [
+    {
+     "label": "Maharashtra Food, Civil Supplies and Consumer Protection Department: National Food Security Act, 2013",
+     "url": "https://s3e21e4e58ad9ab56e8a4634046da90113.s3waas.gov.in/national-food-security-act-2013/"
+    },
+    {
+     "label": "Department of Food and Public Distribution, 2025: E-KYC COMPLIANT RATION CARDS",
+     "url": "https://sansad.in/getFile/annex/269/AU1793_fjXAYl.pdf?source=pqars"
+    }
+   ]
+  },
+  {
+   "id": "in-pmsym",
+   "level": "national",
+   "name": "Pradhan Mantri Shram Yogi Maan-Dhan Yojana",
+   "type": "pension",
+   "run_by": "Ministry of Labour and Employment",
+   "who": "Eligible unorganised workers entering at ages 18-40, subject to income and other pension or insurance exclusions.",
+   "gives": "Rs.3,000 monthly from age 60; contributory rather than immediate income support.",
+   "delivery": "Common Service Centres or Maandhan portal; contributions through auto-debit.",
+   "documents": "Aadhaar, savings or Jan-Dhan account details with IFSC, and mobile number.",
+   "portable": "unknown",
+   "speed": "Pension starts at age 60; not a current-season payment for new entrants.",
+   "shock_responsive": "no",
+   "heat_relevance": "Relevant to future old-age income rather than current heat-related earnings losses.",
+   "status": "current",
+   "status_as_of": "2026-11-05",
+   "grade": "KNOWN",
+   "situations": [
+    "older",
+    "income"
+   ],
+   "sources": [
+    {
+     "label": "Ministry of Labour and Employment: Schemes",
+     "url": "https://eshram.gov.in/Schemes"
+    },
+    {
+     "label": "Ministry of Labour and Employment, 2025: Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)",
+     "url": "https://www.labour.gov.in/static/uploads/2025/06/2e7e01b90e6358cb82f396615fc87a94.pdf"
+    }
+   ]
+  },
+  {
+   "id": "in-pmjjby",
+   "level": "national",
+   "name": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+   "type": "insurance",
+   "run_by": "Government-supported life insurance through participating banks and insurers",
+   "who": "Eligible account holders entering at ages 18-50 with consent for premium auto-debit.",
+   "gives": "Rs.2 lakh on death from any cause; annual premium Rs.436.",
+   "delivery": "Bank-linked insurance claim.",
+   "documents": "Account and enrolment consent; complete claim checklist not verified.",
+   "portable": "unknown",
+   "speed": "Actual claim-to-payment time unknown.",
+   "shock_responsive": "yes",
+   "heat_relevance": "Death cover could help eligible surviving households; not earnings replacement during non-fatal illness.",
+   "status": "current",
+   "status_as_of": "2026-11-05",
+   "grade": "KNOWN",
+   "situations": [
+    "income"
+   ],
+   "sources": [
+    {
+     "label": "Ministry of Labour and Employment: Schemes",
+     "url": "https://eshram.gov.in/Schemes"
+    }
+   ]
+  },
+  {
+   "id": "in-freecare",
+   "level": "national",
+   "name": "National Health Mission Free Drugs and Free Diagnostics Service Initiatives",
+   "type": "health",
+   "run_by": "Ministry of Health and Family Welfare and states/UTs",
+   "who": "Patients using participating public health facilities.",
+   "gives": "Specified essential medicines and diagnostic services free of cost; no household cash amount.",
+   "delivery": "Public facilities, with packages differing by facility level.",
+   "documents": "No uniform household application checklist verified.",
+   "portable": "unknown",
+   "speed": "Care-linked provision; actual availability and waiting time unknown.",
+   "shock_responsive": "partly",
+   "heat_relevance": "Could reduce treatment costs, including outside hospital insurance; heat-specific availability not measured in the source.",
+   "status": "current",
+   "status_as_of": "2026-11-05",
+   "grade": "KNOWN",
+   "situations": [
+    "health"
+   ],
+   "sources": [
+    {
+     "label": "Ministry of Health and Family Welfare, 2026: Steps taken to Strengthen Public Healthcare in Rural Areas",
+     "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2292343&lang=2&reg=48"
+    }
+   ]
+  },
+  {
+   "id": "in-pmfby",
+   "level": "national",
+   "name": "Pradhan Mantri Fasal Bima Yojana",
+   "type": "insurance",
+   "run_by": "Department of Agriculture and Farmers Welfare, participating states and insurers",
+   "who": "Eligible farmers with insured crops in notified areas, including tenants and sharecroppers meeting state documentation conditions.",
+   "gives": "Claims depend on insured loss and sum insured. Maximum farmer premiums: 2% Kharif, 1.5% Rabi foodgrain/oilseed crops, 5% commercial/horticultural crops.",
+   "delivery": "Implementing insurers and enrolment channels.",
+   "documents": "Insurable interest and state-defined land, tenure or sowing evidence; application and premium within deadlines.",
+   "portable": "no",
+   "speed": "Actual claim timing not verified.",
+   "shock_responsive": "yes",
+   "heat_relevance": "Some heat-related crop losses could enter insured yield loss; universal farm-level heat trigger not verified.",
+   "status": "current",
+   "status_as_of": "2026-11-05",
+   "grade": "KNOWN",
+   "situations": [
+    "farm"
+   ],
+   "sources": [
+    {
+     "label": "Press Information Bureau, 2026: Pradhan Mantri Fasal Bima Yojana",
+     "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2304549&lang=1&reg=48"
+    }
+   ]
+  },
+  {
+   "id": "in-farmcredit",
+   "level": "national",
+   "name": "Modified Interest Subvention Scheme",
+   "type": "credit",
+   "run_by": "Department of Agriculture and Farmers Welfare through lending institutions",
+   "who": "Eligible short-term agricultural borrowers, including specified allied activities.",
+   "gives": "2026-27 budget note: loans up to ₹3 lakh at 7% yearly, with an additional 3% benefit for prompt repayment.",
+   "delivery": "Concessional agricultural lending.",
+   "documents": "Lender-specific checklist not verified.",
+   "portable": "unknown",
+   "speed": "Sanction and disbursement times unknown.",
+   "shock_responsive": "no",
+   "heat_relevance": "Could provide seasonal liquidity; repayable borrowing, not a heat-loss grant.",
+   "status": "current",
+   "status_as_of": "2026-11-05",
+   "grade": "KNOWN",
+   "situations": [
+    "farm"
+   ],
+   "sources": [
+    {
+     "label": "Government of India, 2026: Notes on Demands for Grants, 2026-2027",
+     "url": "https://www.indiabudget.gov.in/doc/eb/sbe1.pdf"
+    }
+   ]
+  },
+  {
+   "id": "in-megbocw",
+   "level": "state",
+   "name": "Meghalaya Building and Other Construction Workers Welfare Board benefits",
+   "type": "welfare-fund",
+   "run_by": "Meghalaya Building and Other Construction Workers Welfare Board",
+   "who": "Registered workers meeting Board age, work-history and contribution conditions.",
+   "gives": "Medical and other assistance. Medical payment wording is difficult to interpret, so no reliable payable amount is reproduced.",
+   "delivery": "Applications through area Labour Inspector.",
+   "documents": "Registration: photograph, age proof, employer certificate of 90 days' construction work. Medical claims list hospital records and subscription evidence.",
+   "portable": "unknown",
+   "speed": "Unknown.",
+   "shock_responsive": "partly",
+   "heat_relevance": "Medical assistance could help qualifying workers; heat-specific approvals and payments not verified.",
+   "status": "unclear",
+   "status_as_of": "2026-11-05",
+   "grade": "UNCERTAIN",
+   "situations": [
+    "work"
+   ],
+   "sources": [
+    {
+     "label": "Meghalaya Building and Other Construction Workers Welfare Board: Frequently Asked Questions",
+     "url": "https://megbocwwb.gov.in/faqs"
+    },
+    {
+     "label": "Meghalaya Building and Other Construction Workers Welfare Board: Schemes",
+     "url": "https://megbocwwb.gov.in/schemes"
+    }
+   ]
+  }
+ ],
+ "ladder": [
+  {
+   "scheme": "in-food",
+   "scheme_note": "",
+   "group": "Existing NFSA beneficiaries",
+   "step": "documented",
+   "finding": "India, 31 October 2025: 68,14,95,972 beneficiaries completed e-KYC, stated as 85.6%.",
+   "grade": "KNOWN",
+   "limit": "e-KYC is neither receipt nor every documentation requirement.",
+   "sources": [
+    {
+     "label": "Department of Food and Public Distribution, 2025: E-KYC COMPLIANT RATION CARDS",
+     "url": "https://sansad.in/getFile/annex/269/AU1793_fjXAYl.pdf?source=pqars"
+    }
+   ]
+  },
+  {
+   "scheme": "in-food",
+   "scheme_note": "",
+   "group": "Households awaiting a card or addition of members",
+   "step": "applied",
+   "finding": "December 2025 parliamentary reply: the Department does not maintain the pendency list.",
+   "grade": "KNOWN",
+   "limit": "Describes the central record; state records may exist.",
+   "sources": [
+    {
+     "label": "Department of Food and Public Distribution, 2025: E-KYC COMPLIANT RATION CARDS",
+     "url": "https://sansad.in/getFile/annex/269/AU1793_fjXAYl.pdf?source=pqars"
+    }
+   ]
+  },
+  {
+   "scheme": "",
+   "scheme_note": "multiple",
+   "group": "Households across health insurance and financing schemes",
+   "step": "enrolled",
+   "finding": "India, NFHS-5, 2019-21: 41.0% had any usual member covered by a health insurance or financing scheme.",
+   "grade": "KNOWN",
+   "limit": "Self-reported household coverage; not a PM-JAY enrolment rate or evidence of care received.",
+   "sources": [
+    {
+     "label": "International Institute for Population Sciences and ICF, 2022: National Family Health Survey (NFHS-5), 2019-21: India",
+     "url": "https://assets.exemplars.health/fd9a20fb-4386-00b3-39a1-1737868b44b7/d4b76902-0381-4d15-9661-9b2e06b58682/10%20National%20Family%20Health%20Survey%205%2020192021.pdf"
+    }
+   ]
+  },
+  {
+   "scheme": "",
+   "scheme_note": "pmjay",
+   "group": "Beneficiaries accessing care outside their home state",
+   "step": "received",
+   "finding": "India, as of 30 June 2026: 29.05 lakh inter-state portability hospital admissions authorised.",
+   "grade": "KNOWN",
+   "limit": "Authorisations are a proxy, not unique people or verified completed care; no heat-specific costs measured.",
+   "sources": [
+    {
+     "label": "Ministry of Health and Family Welfare, 2026: Update on Ayushman Bharat Pradhan Mantri Jan Arogya Yojna (AB PM-JAY)",
+     "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2290627&lang=1&reg=22"
+    }
+   ]
+  },
+  {
+   "scheme": "in-ruralwork",
+   "scheme_note": "",
+   "group": "Historical MGNREGA workers",
+   "step": "on time",
+   "finding": "India, 1 April to 2 December 2025: 95.31% of fund transfer orders generated within 8 days.",
+   "grade": "KNOWN",
+   "limit": "Administrative stage, not bank receipt; predates July 2026 transition.",
+   "sources": [
+    {
+     "label": "Ministry of Rural Development, 2026: Department of Rural Development: Year Ender 2025",
+     "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2210378&lang=1&reg=1"
+    }
+   ]
+  },
+  {
+   "scheme": "in-ruralwork",
+   "scheme_note": "",
+   "group": "Women in historical MGNREGA",
+   "step": "received",
+   "finding": "India, 1 April to 2 December 2025: women accounted for 56.73% of person-days.",
+   "grade": "KNOWN",
+   "limit": "Work participation proxy, not wage receipt or eligible-women coverage.",
+   "sources": [
+    {
+     "label": "Ministry of Rural Development, 2026: Department of Rural Development: Year Ender 2025",
+     "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2210378&lang=1&reg=1"
+    }
+   ]
+  }
+ ],
+ "evidence": [
+  {
+   "by": "Institute of Economic Growth and Indian Statistical Institute, 2024",
+   "title": "Heat causes large earnings losses for informal-sector workers in India",
+   "url": "https://doi.org/10.1088/1748-9326/ad7da4",
+   "type": "Peer-reviewed study",
+   "where": "Two settlements in Delhi",
+   "scale": "Final dataset: 9,972 observations on 396 workers, May-June 2019.",
+   "finding": "KNOWN: net earnings were 40% lower during two study-period heatwaves.",
+   "effect": "unclear",
+   "limit": "Short observational panel; airport-station weather and self-reported health. No social-protection treatment evaluated.",
+   "sources": [
+    {
+     "label": "Das and Somanathan, 2024: Heat causes large earnings losses for informal-sector workers in India",
+     "url": "https://heathealth.info/wp-content/uploads/Das_2024_Environ._Res._Lett._19_124019.pdf"
+    }
+   ]
+  },
+  {
+   "by": "Abdul Latif Jameel Poverty Action Lab, project cycle 2025",
+   "title": "Insuring Against Extreme Heat: A Randomised Evaluation",
+   "url": "https://www.povertyactionlab.org/initiative-project/insuring-against-extreme-heat-randomised-evaluation",
+   "type": "Evaluation",
+   "where": "India",
+   "scale": "Planned encouragement design: 2,821 treatment villages and 2,821 control villages.",
+   "finding": "KNOWN: project page describes planned measurement of labour supply, financial decisions, health, consumption and adaptation; no completed effects.",
+   "effect": "unclear",
+   "limit": "Design rather than results; SEWA-linked insurance is not a public entitlement.",
+   "sources": [
+    {
+     "label": "Abdul Latif Jameel Poverty Action Lab, 2025: Insuring Against Extreme Heat: A Randomised Evaluation",
+     "url": "https://www.povertyactionlab.org/initiative-project/insuring-against-extreme-heat-randomised-evaluation"
+    }
+   ]
+  }
+ ],
+ "routes": [
+  {
+   "id": "in-route-csc",
+   "name": "Common Service Centres",
+   "kind": "government",
+   "does": "Provide assisted registration, authentication and applications for specified schemes.",
+   "where": "India",
+   "self_reported": "No consistently dated reach figure retained.",
+   "independent": "",
+   "evaluations": "",
+   "url": "https://eshram.gov.in/faqs",
+   "org_id": "",
+   "sources": [
+    {
+     "label": "Ministry of Labour and Employment: FAQs",
+     "url": "https://eshram.gov.in/faqs"
+    },
+    {
+     "label": "Ministry of Labour and Employment, 2025: Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)",
+     "url": "https://www.labour.gov.in/static/uploads/2025/06/2e7e01b90e6358cb82f396615fc87a94.pdf"
+    }
+   ]
+  },
+  {
+   "id": "in-route-sewa",
+   "name": "Self Employed Women's Association",
+   "kind": "union",
+   "does": "Provides organising and enrolment routes for informal women workers in the heat-insurance initiative.",
+   "where": "India; precise current footprint not verified.",
+   "self_reported": "No independently checked membership or insurance reach retained.",
+   "independent": "External page specifies a planned encouragement study; no results.",
+   "evaluations": "Insuring Against Extreme Heat: A Randomised Evaluation, cycle 2025; design.",
+   "url": "https://www.povertyactionlab.org/initiative-project/insuring-against-extreme-heat-randomised-evaluation",
+   "org_id": "sewa",
+   "sources": [
+    {
+     "label": "Abdul Latif Jameel Poverty Action Lab, 2025: Insuring Against Extreme Heat: A Randomised Evaluation",
+     "url": "https://www.povertyactionlab.org/initiative-project/insuring-against-extreme-heat-randomised-evaluation"
+    }
+   ]
+  },
+  {
+   "id": "in-route-ippb",
+   "name": "India Post Payments Bank",
+   "kind": "financial",
+   "does": "Provides an account route for eligible transfers, with Aadhaar seeding through app or post office.",
+   "where": "India",
+   "self_reported": "No dated reach retained.",
+   "independent": "",
+   "evaluations": "",
+   "url": "https://ippbonline.bank.in/web/ippb/direct-benefit-transfers",
+   "org_id": "",
+   "sources": [
+    {
+     "label": "India Post Payments Bank: Direct Benefit Transfers",
+     "url": "https://ippbonline.bank.in/web/ippb/direct-benefit-transfers"
+    }
+   ]
+  },
+  {
+   "id": "in-route-nalsa",
+   "name": "National Legal Services Authority and local legal services institutions",
+   "kind": "government",
+   "does": "Provide eligible legal assistance; paralegal volunteers can help with oral applications and government schemes.",
+   "where": "India through state, district and local institutions.",
+   "self_reported": "No dated scheme-access reach retained.",
+   "independent": "",
+   "evaluations": "",
+   "url": "https://nalsa.gov.in/legal-aid/",
+   "org_id": "",
+   "sources": [
+    {
+     "label": "National Legal Services Authority: Legal Aid",
+     "url": "https://nalsa.gov.in/legal-aid/"
+    }
+   ]
+  },
+  {
+   "id": "in-route-arogyamitra",
+   "name": "Pradhan Mantri Arogya Mitras",
+   "kind": "government",
+   "does": "Help with PM-JAY verification, cashless admissions and hospital support.",
+   "where": "Participating hospitals in India.",
+   "self_reported": "Programme admissions are not attributable assistance effects.",
+   "independent": "",
+   "evaluations": "",
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2290627&lang=1&reg=22",
+   "org_id": "",
+   "sources": [
+    {
+     "label": "Ministry of Health and Family Welfare, 2026: Update on Ayushman Bharat Pradhan Mantri Jan Arogya Yojna (AB PM-JAY)",
+     "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2290627&lang=1&reg=22"
+    }
+   ]
+  },
+  {
+   "id": "in-route-eshram",
+   "name": "e-Shram",
+   "kind": "digital platform",
+   "does": "Registers unorganised workers and connects specified scheme information; registration is not a payment.",
+   "where": "India",
+   "self_reported": "No dated registration total retained.",
+   "independent": "",
+   "evaluations": "",
+   "url": "https://eshram.gov.in/faqs",
+   "org_id": "",
+   "sources": [
+    {
+     "label": "Ministry of Labour and Employment: FAQs",
+     "url": "https://eshram.gov.in/faqs"
+    }
+   ]
+  }
+ ],
+ "indicators": [
+  {
+   "id": "in-hotdays",
+   "layer": "exposure",
+   "indicator": "Days with daily maximum temperature above 40°C",
+   "definition": "Proposed IMD-derived count; 40°C is a display threshold, not a complete heatwave definition.",
+   "unit": "days",
+   "unit_of_place": "state",
+   "year": 2024,
+   "publisher": "India Meteorological Department; aggregation proposed by Common Shade",
+   "url": "https://imdpune.gov.in/cmpg/Griddata/Max_1_Bin.html",
+   "licence": "Not stated on opened page.",
+   "open": false,
+   "joinable": false,
+   "access": "open download",
+   "format": "other",
+   "update": "Historical annual files; checked archive describes 1951-2024.",
+   "place_code": "Latitude/longitude; no administrative code.",
+   "limit": "1-degree grid; fewer stations from 2008 onwards. Files not downloaded here."
+  },
+  {
+   "id": "in-hotnights",
+   "layer": "exposure",
+   "indicator": "Hot-night frequency",
+   "definition": "Proposed local-calendar-day count above a disclosed minimum-temperature threshold, derived from hourly ERA5.",
+   "unit": "days",
+   "unit_of_place": "state",
+   "year": 2025,
+   "publisher": "Copernicus Climate Change Service / ECMWF; aggregation proposed by Common Shade",
+   "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+   "licence": "CC-BY displayed.",
+   "open": true,
+   "joinable": false,
+   "access": "registration",
+   "format": "other",
+   "update": "Daily source updates; annual aggregation proposed.",
+   "place_code": "Latitude/longitude; spatial aggregation needed.",
+   "limit": "INFERRED reanalysis exposure; not neighbourhood or indoor measurement."
+  },
+  {
+   "id": "in-humidheat",
+   "layer": "exposure",
+   "indicator": "Humid-heat exposure",
+   "definition": "Candidate derived metric using hourly temperature and dewpoint; formula and thresholds remain to be selected.",
+   "unit": "metric-dependent",
+   "unit_of_place": "state",
+   "year": 2025,
+   "publisher": "Copernicus Climate Change Service / ECMWF; derivation proposed by Common Shade",
+   "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+   "licence": "CC-BY displayed.",
+   "open": true,
+   "joinable": false,
+   "access": "registration",
+   "format": "other",
+   "update": "Daily source updates.",
+   "place_code": "Same grid as hotnights if identical extraction used.",
+   "limit": "Not a published state indicator; no occupational exposure or WBGT equivalence established."
+  },
+  {
+   "id": "in-crowding",
+   "layer": "vulnerability",
+   "indicator": "People per sleeping room",
+   "definition": "NFHS-5 mean people per room used for sleeping, Table 2.7.",
+   "unit": "people per room",
+   "unit_of_place": "state",
+   "year": 2021,
+   "publisher": "IIPS / Ministry of Health and Family Welfare",
+   "url": "https://assets.exemplars.health/fd9a20fb-4386-00b3-39a1-1737868b44b7/d4b76902-0381-4d15-9661-9b2e06b58682/10%20National%20Family%20Health%20Survey%205%2020192021.pdf",
+   "licence": "Open reuse licence not established.",
+   "open": false,
+   "joinable": false,
+   "access": "open download",
+   "format": "PDF",
+   "update": "Survey rounds.",
+   "place_code": "State labels in published table.",
+   "limit": "2019-21 survey; crowding is not measured indoor heat."
+  },
+  {
+   "id": "in-disabilityshare",
+   "layer": "vulnerability",
+   "indicator": "Prevalence of any disability",
+   "definition": "NFHS-5 reported prevalence by state/UT, Table 2.31.",
+   "unit": "percent",
+   "unit_of_place": "state",
+   "year": 2021,
+   "publisher": "IIPS / Ministry of Health and Family Welfare",
+   "url": "https://assets.exemplars.health/fd9a20fb-4386-00b3-39a1-1737868b44b7/d4b76902-0381-4d15-9661-9b2e06b58682/10%20National%20Family%20Health%20Survey%205%2020192021.pdf",
+   "licence": "Open reuse licence not established.",
+   "open": false,
+   "joinable": false,
+   "access": "open download",
+   "format": "PDF",
+   "update": "Survey rounds.",
+   "place_code": "Same state labels as crowding.",
+   "limit": "Reported disability differs from certified pension eligibility."
+  },
+  {
+   "id": "in-nfsaenrolled",
+   "layer": "coverage",
+   "indicator": "NFSA registered beneficiaries",
+   "definition": "Count in parliamentary annexure dated 31 October 2025.",
+   "unit": "people",
+   "unit_of_place": "state",
+   "year": 2025,
+   "publisher": "Department of Food and Public Distribution",
+   "url": "https://sansad.in/getFile/annex/269/AU1793_fjXAYl.pdf?source=pqars",
+   "licence": "Open reuse licence not verified.",
+   "open": false,
+   "joinable": false,
+   "access": "open download",
+   "format": "PDF",
+   "update": "Dated parliamentary snapshot.",
+   "place_code": "State/UT names; serial numbers are not place codes.",
+   "limit": "Registered count, not receipt or all eligible people."
+  },
+  {
+   "id": "in-nfsaekyc",
+   "layer": "coverage",
+   "indicator": "NFSA beneficiaries with completed e-KYC",
+   "definition": "Count and percentage among registered beneficiaries in same annexure.",
+   "unit": "people and percent",
+   "unit_of_place": "state",
+   "year": 2025,
+   "publisher": "Department of Food and Public Distribution",
+   "url": "https://sansad.in/getFile/annex/269/AU1793_fjXAYl.pdf?source=pqars",
+   "licence": "Open reuse licence not verified.",
+   "open": false,
+   "joinable": false,
+   "access": "open download",
+   "format": "PDF",
+   "update": "Dated parliamentary snapshot.",
+   "place_code": "Identical state/UT rows to nfsaenrolled.",
+   "limit": "Documentation stage, not receipt."
+  },
+  {
+   "id": "in-healthmembership",
+   "layer": "coverage",
+   "indicator": "Health insurance or financing membership",
+   "definition": "NFHS-5 state estimates for women and men, Table 11.15.",
+   "unit": "percent",
+   "unit_of_place": "state",
+   "year": 2021,
+   "publisher": "IIPS / Ministry of Health and Family Welfare",
+   "url": "https://assets.exemplars.health/fd9a20fb-4386-00b3-39a1-1737868b44b7/d4b76902-0381-4d15-9661-9b2e06b58682/10%20National%20Family%20Health%20Survey%205%2020192021.pdf",
+   "licence": "Open reuse licence not established.",
+   "open": false,
+   "joinable": false,
+   "access": "open download",
+   "format": "PDF",
+   "update": "Survey rounds.",
+   "place_code": "Published state/UT labels.",
+   "limit": "Survey age groups differ from household coverage and older-person eligibility."
+  },
+  {
+   "id": "in-pensionrules",
+   "layer": "system",
+   "indicator": "Central disability-pension rule and transition status",
+   "definition": "Approved benefit, eligibility and implementation status from October 2026 announcement.",
+   "unit": "rupees per month and categorical status",
+   "unit_of_place": "state",
+   "year": 2026,
+   "publisher": "Government of India; proposed Common Shade factual registry",
+   "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-continuation-of-the-national-social-assistance-programme-for-five-years-from-2026-27-to-2030-31/?comment=disable",
+   "licence": "Source reuse not checked; extracted factual registry can have a separate open licence.",
+   "open": false,
+   "joinable": true,
+   "access": "open download",
+   "format": "other",
+   "update": "On rule changes.",
+   "place_code": "National rule assigned to verified state entries; no source place code.",
+   "limit": "Approval is not operational receipt or state additions."
+  },
+  {
+   "id": "in-healthrules",
+   "layer": "system",
+   "indicator": "PM-JAY older-person entitlement",
+   "definition": "Published 70-plus eligibility, cover and enrolment requirements.",
+   "unit": "rupees per year and categorical eligibility",
+   "unit_of_place": "state",
+   "year": 2026,
+   "publisher": "National Health Authority; proposed Common Shade factual registry",
+   "url": "https://nha.gov.in/img/resources/English_FAQs_related_to_the_benefits_for_senior_citizens.pdf",
+   "licence": "Source reuse not checked; extracted factual registry can have a separate open licence.",
+   "open": false,
+   "joinable": false,
+   "access": "open download",
+   "format": "PDF",
+   "update": "On rule changes.",
+   "place_code": "No administrative code in FAQ.",
+   "limit": "Entitlement and national implementation differ from local hospital access."
+  }
+ ]
+}

@@ -1,0 +1,673 @@
+{
+ "country": {
+  "id": "id",
+  "slug": "indonesia",
+  "name": "Indonesia",
+  "as_of": "2026-11-06",
+  "checked": "2026-11-07",
+  "unit_note": "",
+  "summary": [
+   {
+    "text": "KNOWN heat evidence: insured primary-care visits increased on hotter days, including diabetes and cardiovascular visits. That study does not estimate how much insurance reduced household heat losses.",
+    "sources": [
+     {
+      "label": "Fritz, 2022: Temperature and non-communicable diseases: Evidence from Indonesia's primary health care system",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/hec.4590"
+     }
+    ]
+   },
+   {
+    "text": "KNOWN contextual evidence: PKH improved some child outcomes but did not increase several household economic outcomes in its historic evaluation. No heat-specific PKH causal effect was verified.",
+    "sources": [
+     {
+      "label": "J-PAL: The Medium-Term Impact of Conditional Cash Transfers on Health and Education in Indonesia",
+      "url": "https://www.povertyactionlab.org/evaluation/medium-term-impact-conditional-cash-transfers-health-and-education-indonesia"
+     },
+     {
+      "label": "Cahyadi et al., 2020: Cumulative Impacts of Conditional Cash Transfer Programs: Experimental Evidence from Indonesia",
+      "url": "https://swlb1.aeaweb.org/articles?id=10.1257/pol.20190245"
+     }
+    ]
+   },
+   {
+    "text": "INFERRED map design: open climate and modelled population grids can be aggregated to a documented older province geography. Public source metadata reveals a boundary-vintage issue, so current province coverage tables are not silently joined. [Ie, Iw, Ib]",
+    "sources": []
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Informal heat work stoppages: JKK concerns qualifying work injury and JKP concerns qualifying termination; neither opened rule establishes general pay for every lost hot day.",
+    "sources": [
+     {
+      "label": "BPJS Ketenagakerjaan: Manfaat Bukan Penerima Upah",
+      "url": "https://www.bpjsketenagakerjaan.go.id/Bukan-Penerima-Upah.html"
+     },
+     {
+      "label": "BPJS Ketenagakerjaan: Cek Informasi Detail Jaminan Kehilangan Pekerjaan",
+      "url": "https://www.bpjsketenagakerjaan.go.id/jaminan-kehilangan-pekerjaan.html"
+     }
+    ]
+   },
+   {
+    "text": "Heat debt, asset sales and mortality: no evaluated public heat-transfer effect was opened. Non-heat PKH null findings are not heat null findings.",
+    "sources": [
+     {
+      "label": "J-PAL: The Medium-Term Impact of Conditional Cash Transfers on Health and Education in Indonesia",
+      "url": "https://www.povertyactionlab.org/evaluation/medium-term-impact-conditional-cash-transfers-health-and-education-indonesia"
+     },
+     {
+      "label": "Cahyadi et al., 2020: Cumulative Impacts of Conditional Cash Transfer Programs: Experimental Evidence from Indonesia",
+      "url": "https://swlb1.aeaweb.org/articles?id=10.1257/pol.20190245"
+     }
+    ]
+   }
+  ],
+  "map": {
+   "rows": [],
+   "misreadings": []
+  },
+  "questions": [
+   {
+    "id": "id-claims",
+    "q": "What share of diagnosed work-related heat claims reach benefit payment?",
+    "have": "JKK benefits exist; heat-specific acceptance and delay were not verified. [I5, I6]",
+    "could": "Prospective multi-site claims pathway study, publishing aggregate submitted, accepted and paid counts and time intervals.",
+    "scale": "Illustrative: several provinces over two hot seasons; sample based on case volume."
+   },
+   {
+    "id": "id-continuity",
+    "q": "Does contribution support keep informal workers insured through the hot season?",
+    "have": "A registration experiment and a new contribution-saving route exist. [I16, I9]",
+    "could": "Cluster randomisation of assisted contribution-saving access, measuring active coverage, care costs and retention in aggregate.",
+    "scale": "Illustrative: 40-60 clusters; final size from power calculations."
+   },
+   {
+    "id": "id-topups",
+    "q": "Does a pre-heat top-up reduce income loss, debt and delayed care?",
+    "have": "PKH delivery and general economic evaluations exist, without a verified heat effect. [I4, I17]",
+    "could": "Pre-specified phased top-up trial using forecasts, with household outcomes reported only in aggregate.",
+    "scale": "Illustrative: two hot seasons across 40-60 clusters."
+   },
+   {
+    "id": "id-cropclaims",
+    "q": "Which heat-related crop losses meet AUTP damage rules and receive timely support?",
+    "have": "Drought insurance terms and extension routes are published. [I11]",
+    "could": "Crop-season panel combining weather, field loss assessment and anonymised aggregate claim outcomes, without publishing farm locations.",
+    "scale": "Illustrative: 1,000-1,500 insured and comparable uninsured farm households."
+   }
+  ]
+ },
+ "schemes": [
+  {
+   "id": "id-bpujkk",
+   "level": "national",
+   "name": "Jaminan Kecelakaan Kerja: Bukan Penerima Upah",
+   "type": "insurance",
+   "run_by": "BPJS Ketenagakerjaan",
+   "who": "Registered and contributing non-wage workers.",
+   "gives": "Medically necessary work-injury care and temporary incapacity compensation.",
+   "delivery": "BPJS claim route; registration assistance listed in section E.",
+   "documents": "NIK or KTP and email for registration; claim documents need a separate check.",
+   "portable": "unknown",
+   "speed": "Actual payment time not measured in the sources read.",
+   "shock_responsive": "partly",
+   "heat_relevance": "Work attribution and acceptance of heat-related claims were not verified.",
+   "status": "current",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "health"
+   ],
+   "sources": [
+    {
+     "label": "BPJS Ketenagakerjaan: Manfaat Bukan Penerima Upah",
+     "url": "https://www.bpjsketenagakerjaan.go.id/Bukan-Penerima-Upah.html"
+    }
+   ]
+  },
+  {
+   "id": "id-bpujkm",
+   "level": "national",
+   "name": "Jaminan Kematian: Bukan Penerima Upah",
+   "type": "insurance",
+   "run_by": "BPJS Ketenagakerjaan",
+   "who": "Active contributors and qualifying survivors under programme conditions.",
+   "gives": "Death grant Rp20.000.000, periodic grant Rp12.000.000 and funeral Rp10.000.000.",
+   "delivery": "Survivor claim through BPJS.",
+   "documents": "Current application checklist not verified.",
+   "portable": "unknown",
+   "speed": "Actual payment time not measured in the sources read.",
+   "shock_responsive": "unknown",
+   "heat_relevance": "INFERRED: survivor support could cushion a death-related shock; work and non-work pathways differ.",
+   "status": "current",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "income"
+   ],
+   "sources": [
+    {
+     "label": "BPJS Ketenagakerjaan: Manfaat Bukan Penerima Upah",
+     "url": "https://www.bpjsketenagakerjaan.go.id/Bukan-Penerima-Upah.html"
+    }
+   ]
+  },
+  {
+   "id": "id-bpujht",
+   "level": "national",
+   "name": "Jaminan Hari Tua: Bukan Penerima Upah",
+   "type": "pension",
+   "run_by": "BPJS Ketenagakerjaan",
+   "who": "Contributors meeting withdrawal conditions.",
+   "gives": "Accumulated contributions plus investment returns; no fixed universal pension.",
+   "delivery": "BPJS withdrawal process.",
+   "documents": "Current application checklist not verified.",
+   "portable": "unknown",
+   "speed": "Actual payment time not measured in the sources read.",
+   "shock_responsive": "unknown",
+   "heat_relevance": "Savings are distinct from an immediate heat-triggered grant.",
+   "status": "current",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "income"
+   ],
+   "sources": [
+    {
+     "label": "BPJS Ketenagakerjaan: Manfaat Bukan Penerima Upah",
+     "url": "https://www.bpjsketenagakerjaan.go.id/Bukan-Penerima-Upah.html"
+    }
+   ]
+  },
+  {
+   "id": "id-construction",
+   "level": "national",
+   "name": "Jaminan Kecelakaan Kerja and Jaminan Kematian: Jasa Konstruksi",
+   "type": "insurance",
+   "run_by": "BPJS Ketenagakerjaan",
+   "who": "Covered construction-project workers.",
+   "gives": "JKK treatment and temporary incapacity pay: 100% for the first and second six-month periods, then 50%.",
+   "delivery": "Project and BPJS arrangements.",
+   "documents": "Current application checklist not verified.",
+   "portable": "unknown",
+   "speed": "Actual payment time not measured in the sources read.",
+   "shock_responsive": "unknown",
+   "heat_relevance": "A relevant outdoor-worker route, with heat-specific paid-claim evidence unverified.",
+   "status": "current",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "health"
+   ],
+   "sources": [
+    {
+     "label": "BPJS Ketenagakerjaan: Jaminan Keselamatan Kerja untuk Jasa Konstruksi (Jakon)",
+     "url": "https://www.bpjsketenagakerjaan.go.id/jasa-konstruksi.html"
+    }
+   ]
+  },
+  {
+   "id": "id-jkp",
+   "level": "national",
+   "name": "Jaminan Kehilangan Pekerjaan",
+   "type": "insurance",
+   "run_by": "BPJS Ketenagakerjaan / Ministry of Manpower",
+   "who": "Qualifying wage workers with employment termination and contribution history.",
+   "gives": "60% of reported wage for up to six months; wage ceiling Rp. 5.000.000,00.",
+   "delivery": "Monthly claims and labour-market services.",
+   "documents": "Termination evidence and active job-search commitment; other conditions apply.",
+   "portable": "unknown",
+   "speed": "Monthly benefit; actual processing distribution unknown.",
+   "shock_responsive": "partly",
+   "heat_relevance": "Termination protection does not automatically replace income for a temporary hot day.",
+   "status": "current",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "income"
+   ],
+   "sources": [
+    {
+     "label": "BPJS Ketenagakerjaan: Cek Informasi Detail Jaminan Kehilangan Pekerjaan",
+     "url": "https://www.bpjsketenagakerjaan.go.id/jaminan-kehilangan-pekerjaan.html"
+    }
+   ]
+  },
+  {
+   "id": "id-bsu",
+   "level": "national",
+   "name": "Bantuan Subsidi Upah 2026",
+   "type": "cash",
+   "run_by": "Ministry of Manpower",
+   "who": "Qualifying citizens active as wage-earner BPJS members through August 2026; wage and other tests apply.",
+   "gives": null,
+   "delivery": "BPJS-sourced selection; current page awaits further recipient-check details.",
+   "documents": "NIK and administrative employment/wage records; applicant process not fully announced.",
+   "portable": "unknown",
+   "speed": "Actual payment time not measured in the sources read.",
+   "shock_responsive": "partly",
+   "heat_relevance": "General purchasing-power support; no heat forecast trigger verified.",
+   "status": "changed",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "income"
+   ],
+   "sources": [
+    {
+     "label": "Ministry of Manpower, 2026: Bantuan Subsidi Upah 2026",
+     "url": "https://bsu.kemnaker.go.id/"
+    }
+   ]
+  },
+  {
+   "id": "id-kur",
+   "level": "national",
+   "name": "Kredit Usaha Rakyat: BRI offer",
+   "type": "credit",
+   "run_by": "Government credit programme / Bank Rakyat Indonesia",
+   "who": "Productive viable enterprises meeting lender tests.",
+   "gives": "Super-micro up to Rp10 million at 3%; micro above Rp10 million to Rp100 million, starting at 6% yearly.",
+   "delivery": "Participating lender; BRI terms checked.",
+   "documents": "BRI 2026 offer lists NIB and NPWP; additional lender documents apply.",
+   "portable": "unknown",
+   "speed": "Actual payment time not measured in the sources read.",
+   "shock_responsive": "partly",
+   "heat_relevance": "INFERRED: working capital can help livelihoods, while the full loan remains repayable.",
+   "status": "current",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "income"
+   ],
+   "sources": [
+    {
+     "label": "Bank Rakyat Indonesia, 2026: Kredit Usaha Rakyat (KUR)",
+     "url": "https://bri.co.id/web/guest/promo-detail/900"
+    }
+   ]
+  }
+ ],
+ "ladder": [
+  {
+   "scheme": "",
+   "scheme_note": "pkh",
+   "group": "Programme families",
+   "step": "received",
+   "finding": "Government report, 7 August 2026: more than 7 million families had been paid in quarter III.",
+   "grade": "KNOWN",
+   "limit": "Interim national administrative report; no eligible-family denominator or heat subgroup.",
+   "sources": [
+    {
+     "label": "Ministry of State Secretariat, 2026: Pastikan Tepat Sasaran, Pemerintah Salurkan Bansos kepada Lebih dari 18 Juta KPM",
+     "url": "https://www.setneg.go.id/baca/index/pastikan_tepat_sasaran_pemerintah_salurkan_bansos_kepada_lebih_dari_18_juta_kpm"
+    }
+   ]
+  },
+  {
+   "scheme": "",
+   "scheme_note": "sembako",
+   "group": "Programme families",
+   "step": "received",
+   "finding": "Government report, 7 August 2026: more than 12 million families had been paid in quarter III.",
+   "grade": "KNOWN",
+   "limit": "Not a completed-quarter count; cannot sum overlapping schemes.",
+   "sources": [
+    {
+     "label": "Ministry of State Secretariat, 2026: Pastikan Tepat Sasaran, Pemerintah Salurkan Bansos kepada Lebih dari 18 Juta KPM",
+     "url": "https://www.setneg.go.id/baca/index/pastikan_tepat_sasaran_pemerintah_salurkan_bansos_kepada_lebih_dari_18_juta_kpm"
+    }
+   ]
+  },
+  {
+   "scheme": "",
+   "scheme_note": "jkn",
+   "group": "Non-poor informal-worker households in Bandung and Medan",
+   "step": "enrolled",
+   "finding": "Evaluation of 5,996 households: registration assistance increased enrolment by 3.5 percentage points.",
+   "grade": "KNOWN",
+   "limit": "Historical randomised offer, not current national access; page narrative describes 2015-2018.",
+   "sources": [
+    {
+     "label": "J-PAL: Enrolling Informal Sector Workers in National Health Insurance in Indonesia",
+     "url": "https://www.povertyactionlab.org/evaluation/enrolling-informal-sector-workers-national-health-insurance-indonesia"
+    }
+   ]
+  },
+  {
+   "scheme": "",
+   "scheme_note": "jkn",
+   "group": "Same historical evaluation population",
+   "step": "enrolled",
+   "finding": "Full subsidy increased enrolment by 18.6 percentage points from a comparison mean of 7.8 percent.",
+   "grade": "KNOWN",
+   "limit": "Subsidy experiment; not a 2026 policy coverage estimate.",
+   "sources": [
+    {
+     "label": "J-PAL: Enrolling Informal Sector Workers in National Health Insurance in Indonesia",
+     "url": "https://www.povertyactionlab.org/evaluation/enrolling-informal-sector-workers-national-health-insurance-indonesia"
+    }
+   ]
+  },
+  {
+   "scheme": "",
+   "scheme_note": "jkn",
+   "group": "Same historical evaluation population",
+   "step": "enrolled",
+   "finding": "Additional information had no measured effect on enrolment.",
+   "grade": "KNOWN",
+   "limit": "Specific information treatments and historical urban sample; not proof that all awareness work has no effect.",
+   "sources": [
+    {
+     "label": "J-PAL: Enrolling Informal Sector Workers in National Health Insurance in Indonesia",
+     "url": "https://www.povertyactionlab.org/evaluation/enrolling-informal-sector-workers-national-health-insurance-indonesia"
+    }
+   ]
+  }
+ ],
+ "evidence": [
+  {
+   "by": "Fritz, 2022",
+   "title": "Temperature and non-communicable diseases: Evidence from Indonesia's primary health care system",
+   "url": "https://onlinelibrary.wiley.com/doi/10.1002/hec.4590",
+   "type": "Peer-reviewed study",
+   "where": "Indonesia",
+   "scale": "2015-2016 insured sample; 1,697,452 individuals",
+   "finding": "KNOWN study estimates: visits on days above 30 degrees C mean temperature rose by 8% overall, 25% for diabetes and 14% for cardiovascular disease versus 25.5-27 degrees C. No respiratory-visit increase was found.",
+   "effect": "mixed",
+   "limit": "Insurance users only; diagnoses cannot distinguish first diagnosis from continued treatment. This estimates heat-related service use, not the effect of insurance on heat harm.",
+   "sources": [
+    {
+     "label": "Fritz, 2022: Temperature and non-communicable diseases: Evidence from Indonesia's primary health care system",
+     "url": "https://onlinelibrary.wiley.com/doi/10.1002/hec.4590"
+    }
+   ]
+  },
+  {
+   "by": "J-PAL, undated",
+   "title": "Enrolling Informal Sector Workers in National Health Insurance in Indonesia",
+   "url": "https://www.povertyactionlab.org/evaluation/enrolling-informal-sector-workers-national-health-insurance-indonesia",
+   "type": "Evaluation",
+   "where": "Bandung and Medan",
+   "scale": "5,996 households; page narrative describes 2015-2018",
+   "finding": "KNOWN evaluation findings: assisted registration and subsidies increased enrolment; extra information had no effect. These are access outcomes, with heat applicability INFERRED.",
+   "effect": "mixed",
+   "limit": "Historic urban non-poor informal-worker sample; no heat-related income, illness or mortality estimate.",
+   "sources": [
+    {
+     "label": "J-PAL: Enrolling Informal Sector Workers in National Health Insurance in Indonesia",
+     "url": "https://www.povertyactionlab.org/evaluation/enrolling-informal-sector-workers-national-health-insurance-indonesia"
+    }
+   ]
+  },
+  {
+   "by": "Cahyadi et al., 2020; J-PAL summary",
+   "title": "Cumulative Impacts of Conditional Cash Transfer Programs: Experimental Evidence from Indonesia",
+   "url": "https://swlb1.aeaweb.org/articles?id=10.1257/pol.20190245",
+   "type": "Peer-reviewed study",
+   "where": "Indonesia",
+   "scale": "13,619 households across 360 sub-districts in the evaluation summary",
+   "finding": "KNOWN study findings: stunting fell by 23 percent after six years; consumption, household-head employment and land/livestock ownership did not increase. Heat outcomes were not tested.",
+   "effect": "mixed",
+   "limit": "Publisher abstract and evaluation summary were read, not the full paper. Historical rollout is not evidence of 2026 heat responsiveness.",
+   "sources": [
+    {
+     "label": "J-PAL: The Medium-Term Impact of Conditional Cash Transfers on Health and Education in Indonesia",
+     "url": "https://www.povertyactionlab.org/evaluation/medium-term-impact-conditional-cash-transfers-health-and-education-indonesia"
+    },
+    {
+     "label": "Cahyadi et al., 2020: Cumulative Impacts of Conditional Cash Transfer Programs: Experimental Evidence from Indonesia",
+     "url": "https://swlb1.aeaweb.org/articles?id=10.1257/pol.20190245"
+    }
+   ]
+  }
+ ],
+ "routes": [
+  {
+   "id": "id-route-facilitators",
+   "name": "PKH social facilitators",
+   "kind": "government",
+   "does": "Current government reporting identifies facilitators supporting programme households.",
+   "where": "Indonesia",
+   "self_reported": "No separate measured heat-season application-success count.",
+   "independent": "",
+   "evaluations": "",
+   "url": "https://www.setneg.go.id/baca/index/pastikan_tepat_sasaran_pemerintah_salurkan_bansos_kepada_lebih_dari_18_juta_kpm",
+   "org_id": "",
+   "sources": [
+    {
+     "label": "Ministry of State Secretariat, 2026: Pastikan Tepat Sasaran, Pemerintah Salurkan Bansos kepada Lebih dari 18 Juta KPM",
+     "url": "https://www.setneg.go.id/baca/index/pastikan_tepat_sasaran_pemerintah_salurkan_bansos_kepada_lebih_dari_18_juta_kpm"
+    }
+   ]
+  },
+  {
+   "id": "id-route-perisai",
+   "name": "PERISAI agents",
+   "kind": "government",
+   "does": "BPJS lists assisted document checking and enrolment for non-wage workers.",
+   "where": "Indonesia",
+   "self_reported": "No comparable independent success rate read.",
+   "independent": "",
+   "evaluations": "",
+   "url": "https://www.bpjsketenagakerjaan.go.id/Bukan-Penerima-Upah.html",
+   "org_id": "",
+   "sources": [
+    {
+     "label": "BPJS Ketenagakerjaan: Manfaat Bukan Penerima Upah",
+     "url": "https://www.bpjsketenagakerjaan.go.id/Bukan-Penerima-Upah.html"
+    }
+   ]
+  },
+  {
+   "id": "id-route-bankagents",
+   "name": "BRILink and BNI46 agent routes",
+   "kind": "financial",
+   "does": "BPJS lists these as enrolment and contribution channels.",
+   "where": "Indonesia",
+   "self_reported": "No independently evaluated heat outcome verified.",
+   "independent": "",
+   "evaluations": "",
+   "url": "https://www.bpjsketenagakerjaan.go.id/Bukan-Penerima-Upah.html",
+   "org_id": "",
+   "sources": [
+    {
+     "label": "BPJS Ketenagakerjaan: Manfaat Bukan Penerima Upah",
+     "url": "https://www.bpjsketenagakerjaan.go.id/Bukan-Penerima-Upah.html"
+    }
+   ]
+  }
+ ],
+ "indicators": [
+  {
+   "id": "id-hotdays",
+   "layer": "exposure",
+   "indicator": "Days with daily maximum air temperature above 35 degrees C",
+   "definition": "Proposed annual count from ERA5 hourly 2 m air temperature, using local calendar days. Threshold is an analytical choice, not a national warning or safe-work limit.",
+   "unit": "days/year",
+   "unit_of_place": "state",
+   "year": 2025,
+   "publisher": "Copernicus Climate Change Service / ECMWF",
+   "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+   "licence": "CC-BY licence displayed",
+   "open": true,
+   "joinable": false,
+   "access": "registration",
+   "format": "other",
+   "update": "Source daily; derived map annual",
+   "place_code": "Latitude/longitude grid; spatial overlay",
+   "limit": "INFERRED; native 0.25 degree grid. No country values calculated. Use correct local time zones. [Ie]"
+  },
+  {
+   "id": "id-hotnights",
+   "layer": "exposure",
+   "indicator": "Days with daily minimum air temperature above 28 degrees C",
+   "definition": "Proposed annual count from the same temperature series. A whole-day minimum is a reproducible hot-night proxy, not a measured sleeping condition.",
+   "unit": "days/year",
+   "unit_of_place": "state",
+   "year": 2025,
+   "publisher": "Copernicus Climate Change Service / ECMWF",
+   "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+   "licence": "CC-BY licence displayed",
+   "open": true,
+   "joinable": false,
+   "access": "registration",
+   "format": "other",
+   "update": "Source daily; derived map annual",
+   "place_code": "Same grid and selected boundary as hotdays",
+   "limit": "INFERRED; indoor heat, wind, work intensity and radiant heat are not measured. [Ie]"
+  },
+  {
+   "id": "id-dewpoint",
+   "layer": "exposure",
+   "indicator": "Mean dew-point temperature",
+   "definition": "Proposed annual mean of hourly 2 m dew-point temperature, aggregated by area. It gives moisture context rather than a validated humid-heat health index.",
+   "unit": "degrees C",
+   "unit_of_place": "state",
+   "year": 2025,
+   "publisher": "Copernicus Climate Change Service / ECMWF",
+   "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+   "licence": "CC-BY licence displayed",
+   "open": true,
+   "joinable": false,
+   "access": "registration",
+   "format": "other",
+   "update": "Source daily; derived map annual",
+   "place_code": "Same grid and boundary as hotdays",
+   "limit": "INFERRED; dew point is not wet-bulb temperature, heat index or WBGT. [Ie]"
+  },
+  {
+   "id": "id-older",
+   "layer": "vulnerability",
+   "indicator": "Population aged 65 and over",
+   "definition": "Proposed sum of the published age-sex raster bands aged 65+ divided by the total for the same release.",
+   "unit": "percent of population",
+   "unit_of_place": "state",
+   "year": 2020,
+   "publisher": "WorldPop, University of Southampton",
+   "url": "https://hub.worldpop.org/geodata/summary?id=81578",
+   "licence": "CC BY 4.0 stated; check file provenance for ODbL exception",
+   "open": true,
+   "joinable": false,
+   "access": "open download",
+   "format": "other",
+   "update": "Versioned research release",
+   "place_code": "WGS84 grid; spatial overlay",
+   "limit": "INFERRED, not census counts; about 100 m native grid. Administrative aggregates not downloaded or calculated. [Iw]"
+  },
+  {
+   "id": "id-underfive",
+   "layer": "vulnerability",
+   "indicator": "Children under five",
+   "definition": "Proposed sum of age 0-1 and 1-4 raster groups, using both sexes and the same-release population denominator.",
+   "unit": "percent of population",
+   "unit_of_place": "state",
+   "year": 2020,
+   "publisher": "WorldPop, University of Southampton",
+   "url": "https://hub.worldpop.org/geodata/summary?id=81578",
+   "licence": "CC BY 4.0 stated; check provenance",
+   "open": true,
+   "joinable": false,
+   "access": "open download",
+   "format": "other",
+   "update": "Versioned research release",
+   "place_code": "Same grid as older",
+   "limit": "INFERRED; age-group labels and totals receive a check before calculation. This is not eligibility for a child benefit. [Iw]"
+  },
+  {
+   "id": "id-density",
+   "layer": "vulnerability",
+   "indicator": "Residential population density",
+   "definition": "Sum the age-sex population estimates within each selected polygon and divide by its land area.",
+   "unit": "estimated persons/km2",
+   "unit_of_place": "state",
+   "year": 2020,
+   "publisher": "WorldPop; project derivation",
+   "url": "https://hub.worldpop.org/geodata/summary?id=81578",
+   "licence": "CC BY 4.0 stated; check provenance",
+   "open": true,
+   "joinable": false,
+   "access": "open download",
+   "format": "other",
+   "update": "Versioned research release",
+   "place_code": "Same grid and selected geometry",
+   "limit": "INFERRED; residents are not daytime workers. Migrant workplaces and informal settlements may be represented differently. [Iw]"
+  },
+  {
+   "id": "id-jknnational",
+   "layer": "coverage",
+   "indicator": "JKN coverage and activity, national context",
+   "definition": "Record the two DJSN concepts with their reported date and original denominator language. Do not infer paid heat care.",
+   "unit": "percent as reported",
+   "unit_of_place": "country",
+   "year": 2026,
+   "publisher": "National Social Security Council",
+   "url": "https://djsn.go.id/berita/peluncuran-program-nadi-jkn-untuk-menjaga-keaktifan-kepersertaan",
+   "licence": "Publicly readable; open reuse licence not verified",
+   "open": false,
+   "joinable": false,
+   "access": "open download",
+   "format": "other",
+   "update": "Dated announcement; no regular series verified",
+   "place_code": "ISO3 IDN only; no province code in this source",
+   "limit": "Not a province layer; national value stays in the country panel. [I9]"
+  },
+  {
+   "id": "id-pkhreceipt",
+   "layer": "coverage",
+   "indicator": "PKH quarterly disbursement count",
+   "definition": "Number of programme families reported paid to the interim date; not eligible-household coverage.",
+   "unit": "families",
+   "unit_of_place": "country",
+   "year": 2026,
+   "publisher": "Ministry of State Secretariat",
+   "url": "https://www.setneg.go.id/baca/index/pastikan_tepat_sasaran_pemerintah_salurkan_bansos_kepada_lebih_dari_18_juta_kpm",
+   "licence": "Not verified",
+   "open": false,
+   "joinable": false,
+   "access": "open download",
+   "format": "other",
+   "update": "Dated administrative announcement",
+   "place_code": "ISO3 IDN; no subnational extract read",
+   "limit": "Do not distribute the national count among provinces. [I4]"
+  },
+  {
+   "id": "id-sembakorate",
+   "layer": "system",
+   "indicator": "Sembako published monthly amount",
+   "definition": "Current decision states Rp200.000,00 per family per month, subject to fiscal capacity; stage payment is a separate field.",
+   "unit": "IDR/family/month",
+   "unit_of_place": "state",
+   "year": 2026,
+   "publisher": "Ministry of Social Affairs",
+   "url": "https://jdih.kemensos.go.id/detail/keputusan-menteri-sosial-republik-indonesia-nomor-33huk2026-wt8GReCOMq",
+   "licence": "Create an independently written fact table with attribution; source licence unverified",
+   "open": false,
+   "joinable": false,
+   "access": "open download",
+   "format": "PDF",
+   "update": "Rule or budget revision",
+   "place_code": "Versioned project province table, not a recipient register",
+   "limit": "National terms can be repeated as availability; this is not proof of payment locally. [I3]"
+  },
+  {
+   "id": "id-autpterms",
+   "layer": "system",
+   "indicator": "AUTP premium and insured value",
+   "definition": "Display farmer premium, public share and insured value as different quantities, alongside listed perils.",
+   "unit": "IDR/ha/season",
+   "unit_of_place": "state",
+   "year": 2026,
+   "publisher": "Ministry of Agriculture",
+   "url": "https://psp.pertanian.go.id/faq/kategori/14",
+   "licence": "Report reuse licence not verified; record factual terms with attribution",
+   "open": false,
+   "joinable": false,
+   "access": "open download",
+   "format": "other",
+   "update": "Programme rule revision",
+   "place_code": "Curated province availability, with local implementation unverified",
+   "limit": "The 2026 allocation does not establish universal local availability. [I11, I12]"
+  }
+ ]
+}

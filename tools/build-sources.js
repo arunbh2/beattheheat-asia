@@ -20,7 +20,7 @@ const WHERE = [
   [/^(SYSTEMS|CONSEQUENCES|LINKS)$/, "The web"], [/^(LOOP|STORIES)/, "Vicious cycles"], [/^(LEVERS|PLAYBOOKS|PACKAGES|EVIDENCE$)/, "Actions"],
   [/^INSTITUTIONS$/, "Who can act"], [/^ORG/, "The heat network"], [/^(GLOSS|NBS_BOOK)/, "Glossary"],
   [/^(PLAN_|WORKED_|WHO_ELEMENTS|MCR2030)/, "Plan a response"], [/^AT_RISK/, "Who heat hits hardest"], [/^STALLS$/, "Why action stalls"],
-  [/^(COOL_|HOME_HEATS)/, "Cooling options"], [/^LIVE_/, "Heat right now"], [/^HEATWAVE_DAY$/, "A day in a heatwave"], [/^HEATWAVES/, "Heatwaves that shaped Asia"], [/^HEAT_VISIBILITY$/, "How heat became visible"],
+  [/^(COOL_|HOME_HEATS)/, "Cooling options"], [/^LIVE_/, "Heat right now"], [/^HEATWAVE_DAY$/, "A day in a heatwave"], [/^HEATWAVES/, "Heatwaves that shaped Asia"], [/^SOCIAL_PROTECTION$/, "Who could help a household through a hot season"], [/^HEAT_VISIBILITY$/, "How heat became visible"],
   [/^CITY_/, "Your city"], [/^(ACTION_|EVIDENCE_STATUS)/, "Find practical actions"], [/^FINANCE$/, "Paying for protection"],
   [/^STRAIN$/, "Weather, work and the person"], [/^HEAT_WEEK$/, "A week in the heat"], [/^PLACE_SIM$/, "Make it work together"],
   [/^SECTION_FILMS$/, "Films"], [/^GUIDE$/, "How to use this site"]

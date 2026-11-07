@@ -452,6 +452,9 @@ const SNAP_SLUG = { Bangladesh: "bangladesh", India: "india", Indonesia: "indone
 // ---- how heat became visible: its page is built by tools/build-visibility.js; the same text, from the same helper, joins llms-full.txt ----
 const VT = require("./visibility-text.js");
 if (D.HEAT_VISIBILITY) md.push(VT.markdown(D.HEAT_VISIBILITY, SITE));
+// ---- who could help a household through a hot season: page by tools/build-social-protection.js, the same words from tools/social-protection-text.js ----
+const SPT = require("./social-protection-text.js");
+if ((D.SOCIAL_PROTECTION || []).length) md.push(SPT.md(D.SOCIAL_PROTECTION, SITE));
 
 // ---- write the pages ----
 [...PAGES, ...CITY_PAGES].forEach(p => { const dir = path.join(ROOT, p.slug); fs.mkdirSync(dir, { recursive: true }); fs.writeFileSync(path.join(dir, "index.html"), out[p.slug]); });
@@ -482,7 +485,11 @@ ${CITY_PAGES.map(p => `- [${p.short}](${SITE}/${p.slug}/): ${p.title}`).join("\n
 
 - [${VT.TITLE}](${SITE}/${VT.SLUG}/): when science, health, labour, finance and the UN began to notice extreme heat, and who was still missing; a graded timeline, the turning points and how heat appears in IPCC reports (also in llms-full.txt)
 
-## Optional
+${(D.SOCIAL_PROTECTION || []).length ? `## Social protection and heat
+
+- [${SPT.TITLE}](${SITE}/${SPT.SLUG}/): public schemes that could cushion a household through a hot season in ${SPT.counts(D.SOCIAL_PROTECTION).countries} countries (${D.SOCIAL_PROTECTION.map(f => f.country.name).join(", ")}): who runs each, who is eligible, what it gives, how it is delivered, the steps of access with what is measured, delivery routes and organisations, and where no public system responds (also in llms-full.txt)
+
+` : ""}## Optional
 
 - [The whole map in one file](${SITE}/llms-full.txt): every page above as plain text, for reading in one go
 `);

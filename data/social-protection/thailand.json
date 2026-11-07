@@ -1,0 +1,555 @@
+{
+ "country": {
+  "id": "th",
+  "slug": "thailand",
+  "name": "Thailand",
+  "as_of": "2026-11-06",
+  "checked": "2026-11-07",
+  "unit_note": "",
+  "summary": [
+   {
+    "text": "UNCERTAIN heat-specific delivery evidence comes from a small worker-network insurance pilot. It is separate from public entitlements and has no independently verified outcome evaluation in the sources read.",
+    "sources": [
+     {
+      "label": "HomeNet International, 2026: HomeNet Thailand Runs a Pilot Extreme Heat Insurance Project for Informal Economy Workers",
+      "url": "https://www.homenetinternational.org/homenet-thailand-runs-a-pilot-extreme-heat-insurance-project-for-informal-economy-workers/"
+     }
+    ]
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Informal workers' heat income loss: Section 40 has conditional sickness cash, while the worker heat insurance pilot is limited and private; no universal paid hot-day entitlement was verified.",
+    "sources": [
+     {
+      "label": "Ministry of Labour, 2026: Over 500,000 Section 40 Insured Persons Rejoice Following Labour Minister’s Drive to Enhance Social Security Benefits Aligned with Current Economic Conditions: Outpatient Medical Compensation Increased from 50 to 200 Baht/Visit; Maximum Income Compensation for Disability Cases Raised from 1,000 to 3,000 Baht",
+      "url": "https://www.mol.go.th/en/news/over-500000-section-40-insured-persons-rejoice-following-labour-ministers-drive-to-enhance-social-security-benefits-aligned-with-current-economic-conditions-outpatient-medical-compensation-increased-from-50-to-200-baht-visit-maximum-income-compensation-for-disability-cases-raised-from-1000-to-3000-baht"
+     },
+     {
+      "label": "HomeNet International, 2026: HomeNet Thailand Runs a Pilot Extreme Heat Insurance Project for Informal Economy Workers",
+      "url": "https://www.homenetinternational.org/homenet-thailand-runs-a-pilot-extreme-heat-insurance-project-for-informal-economy-workers/"
+     }
+    ]
+   },
+   {
+    "text": "Agricultural heat losses: relief needs prior registration, a declared assistance area and assessed damage; crop loss is not automatically full income replacement.",
+    "sources": [
+     {
+      "label": "Department of Agricultural Extension, 2026: เกษตรฯ เผย 3 สิ่ง เกษตรกรควรทำ เพื่อรับการช่วยเหลือ เมื่อประสบภัยพิบัติด้านพืช",
+      "url": "https://doaenews.doae.go.th/archives/31902"
+     }
+    ]
+   },
+   {
+    "text": "Heat damage to housing and assets: the opened disaster-insurance announcement lists floods, windstorms and earthquakes, with no verified heat peril.",
+    "sources": [
+     {
+      "label": "Government Public Relations Department, 2026: Launch of Nationwide Disaster Insurance Program Effective 1 October 2026",
+      "url": "https://thailand.prd.go.th/en/content/category/detail/id/48/iid/547200"
+     }
+    ]
+   }
+  ],
+  "map": {
+   "rows": [],
+   "misreadings": []
+  },
+  "questions": [
+   {
+    "id": "th-s40heat",
+    "q": "Does Section 40 sickness compensation reach informal workers diagnosed with heat illness?",
+    "have": "Current benefit changes are published; heat-specific applications and payments were not verified. [T3]",
+    "could": "Prospective claims-pathway study tracking aggregate awareness, documentation, accepted claims, value and delay.",
+    "scale": "Illustrative: several provinces over two hot seasons; final size based on case flow."
+   },
+   {
+    "id": "th-pilot",
+    "q": "Does heat-triggered insurance preserve earnings and reduce debt without changing essential work hours?",
+    "have": "A worker-network pilot and partner reports exist without an independent impact estimate. [T15, T16]",
+    "could": "Pre-registered phased rollout with agreed comparison clusters, measuring income, care costs, rest and coping in aggregate.",
+    "scale": "Illustrative: 40-60 clusters across two hot seasons."
+   },
+   {
+    "id": "th-geography",
+    "q": "How different are social-insurance coverage maps based on residence and employer registration?",
+    "have": "SSO metadata describes different location concepts by section. [T11]",
+    "could": "Secure institutional aggregation of both location definitions; publish only province-level differences and uncertainty.",
+    "scale": "Illustrative: one year of all available provincial aggregate records."
+   },
+   {
+    "id": "th-crops",
+    "q": "How much heat-related crop loss is met by declared-disaster relief, and how quickly?",
+    "have": "Crop-relief rates, documents and procedure are published. [T5]",
+    "could": "Crop-season household panel and administrative aggregate audit of declarations, assessed losses, payment dates and recovery.",
+    "scale": "Illustrative: 1,000-1,500 households across several agroclimatic areas."
+   }
+  ]
+ },
+ "schemes": [
+  {
+   "id": "th-oldage",
+   "level": "national",
+   "name": "Old-Age Allowance",
+   "type": "pension",
+   "run_by": "Local administrative organisations under Ministry of Interior rules",
+   "who": "Eligible older Thai residents; full current income and other-pension tests not reverified.",
+   "gives": "Monthly THB600 at 60-69; 700 at 70-79; 800 at 80-89; 1,000 at 90+.",
+   "delivery": "Not verified.",
+   "documents": "Current local application checklist unverified.",
+   "portable": "unknown",
+   "speed": "Monthly entitlement; actual payment timing unknown.",
+   "shock_responsive": "no",
+   "heat_relevance": "INFERRED: resources could help meet hot-season household costs; heat outcomes were not evaluated.",
+   "status": "current",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "older",
+    "income"
+   ],
+   "sources": [
+    {
+     "label": "Department of Older Persons: การรับเบี้ยผู้สูงอายุ",
+     "url": "https://dop.go.th/th/faq/view=967"
+    }
+   ]
+  },
+  {
+   "id": "th-s40",
+   "level": "national",
+   "name": "Social Security Act Section 40",
+   "type": "insurance",
+   "run_by": "Social Security Office",
+   "who": "Qualifying self-employed or informal workers under contribution conditions.",
+   "gives": "2026 contribution options THB70/100/300 monthly; outpatient compensation THB200/visit up to three yearly.",
+   "delivery": "SSO contribution and claim channels.",
+   "documents": "Current identity, contribution and medical-certificate checklist not fully verified.",
+   "portable": "unknown",
+   "speed": "Actual payment time not measured in the sources read.",
+   "shock_responsive": "partly",
+   "heat_relevance": "Sickness cash may cushion lost earnings; it is separate from UCS treatment cover, with heat-specific receipt unknown.",
+   "status": "changed",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "work",
+    "health"
+   ],
+   "sources": [
+    {
+     "label": "Ministry of Labour, 2026: Over 500,000 Section 40 Insured Persons Rejoice Following Labour Minister’s Drive to Enhance Social Security Benefits Aligned with Current Economic Conditions: Outpatient Medical Compensation Increased from 50 to 200 Baht/Visit; Maximum Income Compensation for Disability Cases Raised from 1,000 to 3,000 Baht",
+     "url": "https://www.mol.go.th/en/news/over-500000-section-40-insured-persons-rejoice-following-labour-ministers-drive-to-enhance-social-security-benefits-aligned-with-current-economic-conditions-outpatient-medical-compensation-increased-from-50-to-200-baht-visit-maximum-income-compensation-for-disability-cases-raised-from-1000-to-3000-baht"
+    }
+   ]
+  },
+  {
+   "id": "th-ssochild",
+   "level": "national",
+   "name": "Child allowance under Sections 33 and 39",
+   "type": "cash",
+   "run_by": "Social Security Office",
+   "who": "Qualifying insured parents; at least 12 contribution months in the preceding 36 months.",
+   "gives": "THB1,000/child/month, up to three children aged birth to six.",
+   "delivery": "SSO child-benefit process.",
+   "documents": "Legal parenthood and child age need verification; full claim checklist not extracted.",
+   "portable": "unknown",
+   "speed": "Monthly entitlement; observed delay unknown.",
+   "shock_responsive": "no",
+   "heat_relevance": "INFERRED: resources could help meet hot-season household costs; heat outcomes were not evaluated.",
+   "status": "current",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "income"
+   ],
+   "sources": [
+    {
+     "label": "Social Security Office, 2026: สิทธิกรณีสงเคราะห์บุตร",
+     "url": "https://www.sso.go.th/wpr/main/service/%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%AA%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%A1_detail_detail_1_125_694/234_234"
+    }
+   ]
+  },
+  {
+   "id": "th-croprelief",
+   "level": "national",
+   "name": "Emergency crop-disaster assistance",
+   "type": "relief",
+   "run_by": "Department of Agricultural Extension / provincial authorities / BAAC",
+   "who": "Previously registered growers with assessed damage in a declared assistance area.",
+   "gives": "May 2026 notice: rice THB1,340/rai; field crops/vegetables 1,980; perennial crops 4,048; up to 30 rai/household.",
+   "delivery": "District agriculture assessment and BAAC transfer.",
+   "documents": "Updated pre-disaster farmer registration and form กษ 01 with local damage certification.",
+   "portable": "unknown",
+   "speed": "Notice describes roughly 60 days after application; this is guidance, not a measured payment distribution.",
+   "shock_responsive": "yes",
+   "heat_relevance": "Drought or heat-related crop damage depends on declaration and damage rules; universal direct heat cover is not established.",
+   "status": "current",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "farm",
+    "food",
+    "disaster"
+   ],
+   "sources": [
+    {
+     "label": "Department of Agricultural Extension, 2026: เกษตรฯ เผย 3 สิ่ง เกษตรกรควรทำ เพื่อรับการช่วยเหลือ เมื่อประสบภัยพิบัติด้านพืช",
+     "url": "https://doaenews.doae.go.th/archives/31902"
+    }
+   ]
+  },
+  {
+   "id": "th-disasterinsurance",
+   "level": "national",
+   "name": "Nationwide Disaster Insurance Program",
+   "type": "insurance",
+   "run_by": "Ministry of Interior / disaster-management and insurance arrangements",
+   "who": "Eligible residences under announced policy conditions.",
+   "gives": "Residential cover up to THB100,000 for listed perils; other limits apply.",
+   "delivery": "Official damage assessment and insurance claims.",
+   "documents": "Current application checklist not verified.",
+   "portable": "unknown",
+   "speed": "Actual payment time not measured in the sources read.",
+   "shock_responsive": "yes",
+   "heat_relevance": "Floods, windstorms and earthquakes are listed; heat is not listed in the opened announcement.",
+   "status": "changed",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "disaster",
+    "income"
+   ],
+   "sources": [
+    {
+     "label": "Government Public Relations Department, 2026: Launch of Nationwide Disaster Insurance Program Effective 1 October 2026",
+     "url": "https://thailand.prd.go.th/en/content/category/detail/id/48/iid/547200"
+    }
+   ]
+  }
+ ],
+ "ladder": [],
+ "evidence": [
+  {
+   "by": "HomeNet International, 2026",
+   "title": "HomeNet Thailand Runs a Pilot Extreme Heat Insurance Project for Informal Economy Workers",
+   "url": "https://www.homenetinternational.org/homenet-thailand-runs-a-pilot-extreme-heat-insurance-project-for-informal-economy-workers/",
+   "type": "Agency report",
+   "where": "Ten provinces",
+   "scale": "Self-reported pilot for 1,000 informal workers, May-July 2026",
+   "finding": "UNCERTAIN self-report: a heat-triggered insurance pilot offered THB300 daily assistance against a THB100 contribution. Payout triggers were reportedly reached in some provinces; no independently measured household effect was read.",
+   "effect": "unclear",
+   "limit": "The policy contract and final evaluation were not opened; inconsistent payout-cap wording prevents a reliable total payout-day claim.",
+   "sources": [
+    {
+     "label": "HomeNet International, 2026: HomeNet Thailand Runs a Pilot Extreme Heat Insurance Project for Informal Economy Workers",
+     "url": "https://www.homenetinternational.org/homenet-thailand-runs-a-pilot-extreme-heat-insurance-project-for-informal-economy-workers/"
+    }
+   ]
+  },
+  {
+   "by": "Prudence Foundation / HERA, 2026",
+   "title": "How Extreme Heat is Reshaping Women's Lives in Thailand",
+   "url": "https://www.prudentialplc.com/en/sustainability-social-impact/prudence-foundation/news-and-publications/How-Extreme-Heat-is-Reshaping-Womens-Lives-in-Thailand/",
+   "type": "Agency report",
+   "where": "Eight Thai provinces",
+   "scale": "Partner summary: workshops with 299 women",
+   "finding": "UNCERTAIN self-reported experiences: women described heat-related earnings and health pressures. The summary identifies a shock pathway, without estimating an insurance or public-transfer effect.",
+   "effect": "unclear",
+   "limit": "Own partner summary only; full report methods and its own stated limits were not verified because the attachment was too large for the reader.",
+   "sources": [
+    {
+     "label": "Prudence Foundation / HERA, 2026: How Extreme Heat is Reshaping Women's Lives in Thailand",
+     "url": "https://www.prudentialplc.com/en/sustainability-social-impact/prudence-foundation/news-and-publications/How-Extreme-Heat-is-Reshaping-Womens-Lives-in-Thailand/"
+    }
+   ]
+  }
+ ],
+ "routes": [
+  {
+   "id": "th-route-local",
+   "name": "Local administrative organisations",
+   "kind": "government",
+   "does": "Operate the older-person allowance route under Ministry of Interior rules.",
+   "where": "Thailand",
+   "self_reported": "No independent heat-season access evaluation read.",
+   "independent": "",
+   "evaluations": "",
+   "url": "https://dop.go.th/th/faq/view=967",
+   "org_id": "",
+   "sources": [
+    {
+     "label": "Department of Older Persons: การรับเบี้ยผู้สูงอายุ",
+     "url": "https://dop.go.th/th/faq/view=967"
+    }
+   ]
+  },
+  {
+   "id": "th-route-agriculture",
+   "name": "District agricultural offices and BAAC",
+   "kind": "government",
+   "does": "Support registered growers through damage forms, assessment and crop-relief bank transfers.",
+   "where": "Thailand",
+   "self_reported": "No independent heat-specific payment count extracted.",
+   "independent": "",
+   "evaluations": "",
+   "url": "https://doaenews.doae.go.th/archives/31902",
+   "org_id": "",
+   "sources": [
+    {
+     "label": "Department of Agricultural Extension, 2026: เกษตรฯ เผย 3 สิ่ง เกษตรกรควรทำ เพื่อรับการช่วยเหลือ เมื่อประสบภัยพิบัติด้านพืช",
+     "url": "https://doaenews.doae.go.th/archives/31902"
+    }
+   ]
+  },
+  {
+   "id": "th-route-homenet",
+   "name": "HomeNet Thailand",
+   "kind": "civil society",
+   "does": "Own network report describes enrolling informal workers in a heat insurance pilot and policy dialogue.",
+   "where": "Pilot across ten provinces",
+   "self_reported": "Self-reported pilot target: 1,000 workers; no audited receipt denominator.",
+   "independent": "",
+   "evaluations": "",
+   "url": "https://www.homenetinternational.org/homenet-thailand-runs-a-pilot-extreme-heat-insurance-project-for-informal-economy-workers/",
+   "org_id": "homenet",
+   "sources": [
+    {
+     "label": "HomeNet International, 2026: HomeNet Thailand Runs a Pilot Extreme Heat Insurance Project for Informal Economy Workers",
+     "url": "https://www.homenetinternational.org/homenet-thailand-runs-a-pilot-extreme-heat-insurance-project-for-informal-economy-workers/"
+    }
+   ]
+  },
+  {
+   "id": "th-route-fiw",
+   "name": "Federation of Informal Workers",
+   "kind": "union",
+   "does": "Reported partner in the same worker heat insurance pilot.",
+   "where": "Thailand pilot",
+   "self_reported": "Same pilot population; this is not an additional reach count.",
+   "independent": "",
+   "evaluations": "",
+   "url": "https://www.homenetinternational.org/homenet-thailand-runs-a-pilot-extreme-heat-insurance-project-for-informal-economy-workers/",
+   "org_id": "",
+   "sources": [
+    {
+     "label": "HomeNet International, 2026: HomeNet Thailand Runs a Pilot Extreme Heat Insurance Project for Informal Economy Workers",
+     "url": "https://www.homenetinternational.org/homenet-thailand-runs-a-pilot-extreme-heat-insurance-project-for-informal-economy-workers/"
+    }
+   ]
+  },
+  {
+   "id": "th-route-hera",
+   "name": "HERA",
+   "kind": "civil society",
+   "does": "Reports women-worker heat research and support for heat financial protection.",
+   "where": "Thailand",
+   "self_reported": "Partner summary reports workshops with 299 women across eight provinces.",
+   "independent": "",
+   "evaluations": "",
+   "url": "https://www.prudentialplc.com/en/sustainability-social-impact/prudence-foundation/news-and-publications/How-Extreme-Heat-is-Reshaping-Womens-Lives-in-Thailand/",
+   "org_id": "",
+   "sources": [
+    {
+     "label": "HomeNet International, 2026: HomeNet Thailand Runs a Pilot Extreme Heat Insurance Project for Informal Economy Workers",
+     "url": "https://www.homenetinternational.org/homenet-thailand-runs-a-pilot-extreme-heat-insurance-project-for-informal-economy-workers/"
+    },
+    {
+     "label": "Prudence Foundation / HERA, 2026: How Extreme Heat is Reshaping Women's Lives in Thailand",
+     "url": "https://www.prudentialplc.com/en/sustainability-social-impact/prudence-foundation/news-and-publications/How-Extreme-Heat-is-Reshaping-Womens-Lives-in-Thailand/"
+    }
+   ]
+  }
+ ],
+ "indicators": [
+  {
+   "id": "th-hotdays",
+   "layer": "exposure",
+   "indicator": "Days with daily maximum air temperature above 35 degrees C",
+   "definition": "Proposed annual count from ERA5 hourly 2 m air temperature, using local calendar days. Threshold is an analytical choice, not a national warning or safe-work limit.",
+   "unit": "days/year",
+   "unit_of_place": "state",
+   "year": 2025,
+   "publisher": "Copernicus Climate Change Service / ECMWF",
+   "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+   "licence": "CC-BY licence displayed",
+   "open": true,
+   "joinable": false,
+   "access": "registration",
+   "format": "other",
+   "update": "Source daily; derived map annual",
+   "place_code": "Latitude/longitude grid; spatial overlay",
+   "limit": "INFERRED; native 0.25 degree grid. No country values calculated. Use correct local time zones. [Te]"
+  },
+  {
+   "id": "th-hotnights",
+   "layer": "exposure",
+   "indicator": "Days with daily minimum air temperature above 28 degrees C",
+   "definition": "Proposed annual count from the same temperature series. A whole-day minimum is a reproducible hot-night proxy, not a measured sleeping condition.",
+   "unit": "days/year",
+   "unit_of_place": "state",
+   "year": 2025,
+   "publisher": "Copernicus Climate Change Service / ECMWF",
+   "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+   "licence": "CC-BY licence displayed",
+   "open": true,
+   "joinable": false,
+   "access": "registration",
+   "format": "other",
+   "update": "Source daily; derived map annual",
+   "place_code": "Same grid and selected boundary as hotdays",
+   "limit": "INFERRED; indoor heat, wind, work intensity and radiant heat are not measured. [Te]"
+  },
+  {
+   "id": "th-dewpoint",
+   "layer": "exposure",
+   "indicator": "Mean dew-point temperature",
+   "definition": "Proposed annual mean of hourly 2 m dew-point temperature, aggregated by area. It gives moisture context rather than a validated humid-heat health index.",
+   "unit": "degrees C",
+   "unit_of_place": "state",
+   "year": 2025,
+   "publisher": "Copernicus Climate Change Service / ECMWF",
+   "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+   "licence": "CC-BY licence displayed",
+   "open": true,
+   "joinable": false,
+   "access": "registration",
+   "format": "other",
+   "update": "Source daily; derived map annual",
+   "place_code": "Same grid and boundary as hotdays",
+   "limit": "INFERRED; dew point is not wet-bulb temperature, heat index or WBGT. [Te]"
+  },
+  {
+   "id": "th-older",
+   "layer": "vulnerability",
+   "indicator": "Population aged 65 and over",
+   "definition": "Proposed sum of the published age-sex raster bands aged 65+ divided by the total for the same release.",
+   "unit": "percent of population",
+   "unit_of_place": "state",
+   "year": 2020,
+   "publisher": "WorldPop, University of Southampton",
+   "url": "https://hub.worldpop.org/geodata/summary?id=50547",
+   "licence": "CC BY 4.0 stated; check file provenance for ODbL exception",
+   "open": true,
+   "joinable": false,
+   "access": "open download",
+   "format": "other",
+   "update": "Versioned research release",
+   "place_code": "WGS84 grid; spatial overlay",
+   "limit": "INFERRED, not census counts; about 100 m native grid. Administrative aggregates not downloaded or calculated. [Tw]"
+  },
+  {
+   "id": "th-underfive",
+   "layer": "vulnerability",
+   "indicator": "Children under five",
+   "definition": "Proposed sum of age 0-1 and 1-4 raster groups, using both sexes and the same-release population denominator.",
+   "unit": "percent of population",
+   "unit_of_place": "state",
+   "year": 2020,
+   "publisher": "WorldPop, University of Southampton",
+   "url": "https://hub.worldpop.org/geodata/summary?id=50547",
+   "licence": "CC BY 4.0 stated; check provenance",
+   "open": true,
+   "joinable": false,
+   "access": "open download",
+   "format": "other",
+   "update": "Versioned research release",
+   "place_code": "Same grid as older",
+   "limit": "INFERRED; age-group labels and totals receive a check before calculation. This is not eligibility for a child benefit. [Tw]"
+  },
+  {
+   "id": "th-density",
+   "layer": "vulnerability",
+   "indicator": "Residential population density",
+   "definition": "Sum the age-sex population estimates within each selected polygon and divide by its land area.",
+   "unit": "estimated persons/km2",
+   "unit_of_place": "state",
+   "year": 2020,
+   "publisher": "WorldPop; project derivation",
+   "url": "https://hub.worldpop.org/geodata/summary?id=50547",
+   "licence": "CC BY 4.0 stated; check provenance",
+   "open": true,
+   "joinable": false,
+   "access": "open download",
+   "format": "other",
+   "update": "Versioned research release",
+   "place_code": "Same grid and selected geometry",
+   "limit": "INFERRED; residents are not daytime workers. Migrant workplaces and informal settlements may be represented differently. [Tw]"
+  },
+  {
+   "id": "th-ssoprovince",
+   "layer": "coverage",
+   "indicator": "SSO registrants by section and province",
+   "definition": "Published catalogue definition: Section 33 follows employer registration province; Sections 39/40 follow member registration province.",
+   "unit": "persons",
+   "unit_of_place": "state",
+   "year": 2026,
+   "publisher": "Social Security Office",
+   "url": "https://data.go.th/th/dataset/sso-total-insured-persons",
+   "licence": "Open Data Common stated; exact legal instrument/version not verified",
+   "open": false,
+   "joinable": false,
+   "access": "open download",
+   "format": "other",
+   "update": "Monthly",
+   "place_code": "Province in catalogue; XLS code field not parsed",
+   "limit": "Metadata read, XLS payload not extracted. Not resident coverage or paid-benefit receipt. [T11]"
+  },
+  {
+   "id": "th-ucsregistration",
+   "layer": "coverage",
+   "indicator": "Health-entitlement registration coverage",
+   "definition": "NHSO administrative registration coverage as defined by its monthly report; denominator requires inspection before plotting a percentage.",
+   "unit": "persons or percent after denominator check",
+   "unit_of_place": "state",
+   "year": 2026,
+   "publisher": "National Health Security Office",
+   "url": "https://nhso.gdcatalog.go.th/en/dataset/dataset-rg_13_01",
+   "licence": "Creative Commons Attributions stated; version not specified",
+   "open": true,
+   "joinable": false,
+   "access": "dashboard only",
+   "format": "other",
+   "update": "Monthly",
+   "place_code": "Province metadata; no shared numeric code verified",
+   "limit": "Catalogue opened, linked dashboard timed out; values are not ready for use. [T10]"
+  },
+  {
+   "id": "th-s40national",
+   "layer": "coverage",
+   "indicator": "Section 40 national registrants",
+   "definition": "National monthly count from the Section 40 catalogue, separate from the province table.",
+   "unit": "persons",
+   "unit_of_place": "country",
+   "year": 2026,
+   "publisher": "Social Security Office",
+   "url": "https://data.go.th/th/dataset/sso-insured-section-40",
+   "licence": "Open Data Common stated; exact version not verified",
+   "open": false,
+   "joinable": false,
+   "access": "open download",
+   "format": "other",
+   "update": "Monthly",
+   "place_code": "ISO3 THA; no province breakdown in this record",
+   "limit": "Do not distribute national totals among provinces; payload not parsed. [T12]"
+  },
+  {
+   "id": "th-oaaterms",
+   "layer": "system",
+   "indicator": "Older-person monthly allowance by age band",
+   "definition": "Published 2026 rate bands, displayed with age eligibility and application limits.",
+   "unit": "THB/person/month",
+   "unit_of_place": "state",
+   "year": 2026,
+   "publisher": "Government of Thailand",
+   "url": "https://dop.go.th/th/faq/view=967",
+   "licence": "Newly authored factual table can be open; source-page licence not verified",
+   "open": false,
+   "joinable": false,
+   "access": "open download",
+   "format": "other",
+   "update": "Policy revision",
+   "place_code": "Curated province crosswalk",
+   "limit": "National rule is not verified local receipt or purchasing power. [T2]"
+  }
+ ]
+}

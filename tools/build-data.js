@@ -142,6 +142,45 @@ function checkWatch(V) {
       (w.sources || []).forEach(x => { if (!x.label || !/^https:\/\//.test(x.url || "")) P.push(`${at}: each source needs a label and an https url`); }); }); });
   return P;
 }
+// Social protection (SOCIAL_PROTECTION, one file per country in data/social-protection/): unique ids, fixed values from
+// the README, an as-of date on every scheme, https sources, ladder steps from the eight, links that resolve, and no
+// em dash. Each problem names the country, the record and what to fix.
+function checkSocialProtection(V) {
+  const SP = V.SOCIAL_PROTECTION; if (!SP) return [];
+  const P = [], ids = new Set(), orgs = new Set((V.ORGANISATIONS || []).map(o => o.id));
+  const TYPES = ["cash", "pension", "food", "public-works", "credit", "health", "insurance", "welfare-fund", "relief", "livelihood"];
+  const YN = ["yes", "partly", "no", "unknown"], STATUS = ["current", "changed", "closed", "unclear"], GRADES = ["KNOWN", "INFERRED", "UNCERTAIN"];
+  const STEPS = ["aware", "eligible", "documented", "applied", "enrolled", "received", "adequate", "on time"];
+  const SIT = ["work", "health", "older", "disability", "farm", "moved", "food", "disaster", "income"];
+  const srcs = (at, list) => { if (!(list || []).length) P.push(`${at}: needs at least one source`);
+    (list || []).forEach(x => { if (!x.label || !/^https?:\/\//.test(x.url || "")) P.push(`${at}: each source needs a label and a url`); }); };
+  SP.forEach(file => { const c = file.country || {}, at0 = `data/social-protection/${c.slug || "?"}.json`;
+    if (!/^[a-z]{2}$/.test(c.id || "")) P.push(`${at0}: country.id must be an ISO 3166 alpha-2 code in lower case`);
+    if (!/^\d{4}-\d{2}(-\d{2})?$/.test(c.as_of || "")) P.push(`${at0}: country.as_of must be a date (YYYY-MM or YYYY-MM-DD)`);
+    if (/—/.test(JSON.stringify(file))) P.push(`${at0}: contains an em dash; use a plain hyphen`);
+    (c.summary || []).concat(c.gaps || []).forEach((g, i) => { if (!g.text) P.push(`${at0}: a summary or gap item ${i + 1} has no text`); });
+    const schemeIds = new Set();
+    (file.schemes || []).forEach(s => { const at = `${at0} scheme ${s.id}`;
+      if (!s.id || !s.id.startsWith(c.id + "-")) P.push(`${at}: id must start with "${c.id}-"`); if (ids.has(s.id)) P.push(`${at}: id used twice`); ids.add(s.id); schemeIds.add(s.id);
+      if (!s.name || !s.run_by) P.push(`${at}: needs name and run_by`);
+      if (!TYPES.includes(s.type)) P.push(`${at}: type must be one of ${TYPES.join(", ")}`);
+      if (!YN.includes(s.portable) || !YN.includes(s.shock_responsive)) P.push(`${at}: portable and shock_responsive must be yes, partly, no or unknown`);
+      if (!STATUS.includes(s.status)) P.push(`${at}: status must be current, changed, closed or unclear`);
+      if (!/^\d{4}-\d{2}(-\d{2})?$/.test(s.status_as_of || "")) P.push(`${at}: needs status_as_of (YYYY-MM or YYYY-MM-DD)`);
+      if (!GRADES.includes(s.grade)) P.push(`${at}: grade must be KNOWN, INFERRED or UNCERTAIN`);
+      (s.situations || []).forEach(t => { if (!SIT.includes(t)) P.push(`${at}: unknown situation "${t}" (see data/social-protection/README.md)`); });
+      srcs(at, s.sources); });
+    (file.ladder || []).forEach((l, i) => { const at = `${at0} ladder ${i + 1}`;
+      if (!STEPS.includes(l.step)) P.push(`${at}: step must be one of ${STEPS.join(", ")}`);
+      if (l.scheme && !schemeIds.has(l.scheme)) P.push(`${at}: scheme "${l.scheme}" is not a scheme in this file`);
+      if (!l.finding) P.push(`${at}: needs a finding`); srcs(at, l.sources); });
+    (file.routes || []).forEach(r => { const at = `${at0} route ${r.id}`;
+      if (!String(r.id).startsWith(c.id + "-route-")) P.push(`${at}: id must start with "${c.id}-route-"`); if (ids.has(r.id)) P.push(`${at}: id used twice`); ids.add(r.id);
+      if (r.org_id && !orgs.has(r.org_id)) P.push(`${at}: org_id "${r.org_id}" is not in data/core/ORGANISATIONS.json`); srcs(at, r.sources); });
+    (file.evidence || []).forEach((e, i) => srcs(`${at0} evidence ${i + 1}`, e.sources));
+  });
+  return P;
+}
 // How heat became visible (HEAT_VISIBILITY): every citation resolves, every source has an https link (and an archived copy
 // once checked), grades and threads come from fixed lists, quotes are short and located, "first" is only ever "claimed",
 // and heatwave links resolve. Each problem names the event and the field, so it can be fixed without reading this code.
@@ -179,9 +218,9 @@ else if (mode === "--check") {
   const diff = a.names.filter(n => !deepEqual(a.values[n], b.values[n]));
   if (diff.length || a.names.length !== b.names.length) { console.error("data.js differs from data/core in:", diff.join(", ") || "block list"); process.exit(1); }
   const all = Object.assign({}, b.values, require("./data-blocks.js")());
-  failOn([...checkHope(all), ...checkHome(all), ...checkVisibility(all), ...checkWatch(all)]);
+  failOn([...checkHope(all), ...checkHome(all), ...checkVisibility(all), ...checkWatch(all), ...checkSocialProtection(all)]);
   console.log(`data.js matches data/core (${a.names.length} blocks)`);
 } else {
-  const out = build(); const built = load(out).values; Object.assign(built, require("./data-blocks.js")()); failOn([...checkHope(built), ...checkHome(built), ...checkVisibility(built), ...checkWatch(built)]);   // fails loudly if the result is not valid
+  const out = build(); const built = load(out).values; Object.assign(built, require("./data-blocks.js")()); failOn([...checkHope(built), ...checkHome(built), ...checkVisibility(built), ...checkWatch(built), ...checkSocialProtection(built)]);   // fails loudly if the result is not valid
   fs.writeFileSync(OUT, out); console.log(`data.js rebuilt from data/core (${out.length.toLocaleString()} characters)`);
 }

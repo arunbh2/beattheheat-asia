@@ -2638,5 +2638,29 @@
     "url": "https://nipponpaint.co.in",
     "does": "Lists a reflective roof-coating product for the Indian market.",
     "levers": ["coolhousing","coolbydesign"]
+  },
+  {
+    "id": "haqdarshak",
+    "role": "ground",
+    "name": "Haqdarshak",
+    "url": "https://www.haqdarshak.com/",
+    "does": "Helps people and small businesses in India find and apply for welfare schemes, through trained field agents and, as it describes itself, a database of over 5,000 benefit programmes.",
+    "levers": ["socialprotection"]
+  },
+  {
+    "id": "healthserve",
+    "role": "ground",
+    "name": "HealthServe",
+    "url": "https://help.healthserve.org.sg/need-help-or-advice/",
+    "does": "Helps migrant workers in Singapore with medical issues and work injury claims under the Work Injury Compensation Act, with a 24-hour helpline; its casework and social services are free.",
+    "levers": ["socialprotection","freecare"]
+  },
+  {
+    "id": "twc2",
+    "role": "ground",
+    "name": "Transient Workers Count Too (TWC2)",
+    "url": "https://twc2.org.sg/helping-workers-in-need/",
+    "does": "Helps low-wage migrant workers in Singapore who are in trouble; it says over 20,000 contact it digitally each year and about 1,500 come in person.",
+    "levers": ["socialprotection"]
   }
 ]

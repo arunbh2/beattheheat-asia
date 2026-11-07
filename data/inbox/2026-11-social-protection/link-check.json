@@ -1,0 +1,1003 @@
+{
+ "_terms": {
+  "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-mof/2026/5/4d4de077-26a7-4f8f-aad1-7b3f48043897.pdf": {
+   "15": true,
+   "30": true,
+   "500": true,
+   "700": true,
+   "850": true,
+   "iBAS++": true,
+   "Payment Cycle": true,
+   "Family Card": true,
+   "2,500": true,
+   "1,000": true,
+   "5,000": true,
+   "50,000": true,
+   "100,000": true
+  },
+  "https://cpd.org.bd/resources/2026/06/CPD-Budget-Analysis-FY2027.pdf": {
+   "700": false,
+   "850": false,
+   "FY2026-27": false,
+   "1,000": false
+  },
+  "https://file.portal.gov.bd/uploads/e5e7ab98-01a1-4201-aed7-938bac247de3/659/fea/716/659fea716a8f4036787088.pdf": {
+   "37.6": false,
+   "Table 10.2": false,
+   "44.0": false,
+   "23.9": false
+  },
+  "https://nsds.bbs.gov.bd/storage/files/1/Publications/BBS_Preliminary_Census_2022.pdf": {
+   "2022": true,
+   "Disability": true,
+   "Population": true
+  },
+  "https://www.anticipation-hub.org/Documents/Reports/0_RCCC_SRSP_simulation_Rajshahi_Advocacy_brief_V3.pdf": {
+   "27": false,
+   "301": true,
+   "2,400": true,
+   "simulation": true,
+   "1,290": false
+  },
+  "https://bdrcs.org/wp-content/uploads/2024/04/Heatwave-Early-Actions-2024-_27.4.24-_Operation-Update-01.pdf": {
+   "27": true,
+   "1,290": true,
+   "4,000 households": true,
+   "BDT 5000": true
+  },
+  "https://bura.brunel.ac.uk/bitstream/2438/30215/1/FullText.pdf": {
+   "33": true,
+   "2315": true,
+   "33%": true,
+   "Limitations of the study": true,
+   "50,000": false
+  },
+  "https://www.ilo.org/projects-and-partnerships/projects/implementation-pilot-employment-injury-scheme-eis-bangladesh": {
+   "2028": true,
+   "Central Fund": true,
+   "pilot": true
+  },
+  "https://bfi.uchicago.edu/wp-content/uploads/2025/11/BFI_WP_2025-140.pdf": {
+   "Bangladesh": true,
+   "Nepal": true,
+   "borrowing": true
+  },
+  "https://www.worldbank.org/en/news/press-release/2025/09/16/bangladesh-faces-health-and-economic-risks-from-rising-temperature-world-bank": {
+   "2024": true,
+   "16,000": true,
+   "productivity": true
+  },
+  "https://go-api.ifrc.org/api/downloadfile/91752/EAP2024BD07_MDRBD038": {
+   "Nagad": true,
+   "EMTS": true,
+   "Heatwave": true
+  },
+  "https://bilsbd.org/news/bils-calls-to-include-informal-sector-in-the-employment-injury-scheme/": {
+   "29": true,
+   "2026": true,
+   "informal": true,
+   "Employment Injury Scheme": true
+  },
+  "https://www.haqdarshak.com/": {
+   "261": false,
+   "trained field staff": true,
+   "Haqdarshak agents": true,
+   "Application": true,
+   "Schemes Mapped": true,
+   "human agents": true,
+   "5,000": true
+  },
+  "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview": {
+   "0.25": true,
+   "GRIB": true,
+   "CC-BY": true,
+   "Reanalysis": true
+  },
+  "https://www.geoboundaries.org/api/current/gbOpen/BGD/ADM1/": {
+   "BGD": true,
+   "ADM1": true,
+   "CC0": true
+  },
+  "https://eshram.gov.in/faqs": {
+   "Universal Account Number": true,
+   "Common Service Centre": true,
+   "totally free": true
+  },
+  "https://iwwage.org/wp-content/uploads/2020/12/DIgital-solution-for-sgh.pdf": {
+   "Evaluation Plan": false,
+   "Haqdarshak": false,
+   "Sustainability": false
+  },
+  "https://www.jsw.in/sites/default/files/assets/Program-Assesment-Haqdarshak.pdf": {
+   "65": false,
+   "77": false,
+   "91": false,
+   "261": false,
+   "Final report": false,
+   "September 2020": false,
+   "511 cases": false,
+   "5,000": false
+  },
+  "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2259703&lang=1&reg=1": {
+   "125": true,
+   "125 Days": true,
+   "job cards": true,
+   "Direct Benefit Transfer": true
+  },
+  "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2210378&lang=1&reg=1": {
+   "40": true,
+   "60": true,
+   "79": true,
+   "80": true,
+   "200": true,
+   "300": true,
+   "500": true,
+   "NSAP": true,
+   "95.31": true,
+   "56.73": true,
+   "20,000": true
+  },
+  "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-continuation-of-the-national-social-assistance-programme-for-five-years-from-2026-27-to-2030-31/?comment=disable": {
+   "40": true,
+   "60": false,
+   "79": true,
+   "80": true,
+   "200": false,
+   "300": false,
+   "375": true,
+   "500": false,
+   "625": true,
+   "40%": true,
+   "20,000": false
+  },
+  "https://s3e21e4e58ad9ab56e8a4634046da90113.s3waas.gov.in/national-food-security-act-2013/": {
+   "31": true,
+   "35": true,
+   "2028": true,
+   "35 kg": true,
+   "five kg": true
+  },
+  "https://eshram.gov.in/Schemes": {
+   "60": true,
+   "436": true,
+   "PM-SYM": true,
+   "PMJJBY": true,
+   "3,000": false
+  },
+  "https://www.labour.gov.in/static/uploads/2025/06/2e7e01b90e6358cb82f396615fc87a94.pdf": {
+   "60": true,
+   "Contribution Structure": true,
+   "Enrolment Process": true,
+   "Jan-Dhan": false,
+   "3,000": true
+  },
+  "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2290627&lang=1&reg=22": {
+   "30": true,
+   "70": true,
+   "29.05 lakh": true,
+   "30th": true,
+   "portability": true,
+   "29.05": true
+  },
+  "https://nha.gov.in/img/resources/English_FAQs_related_to_the_benefits_for_senior_citizens.pdf": {
+   "70": false,
+   "Aadhaar": false,
+   "₹5 lakh": false,
+   "waiting period": false
+  },
+  "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2292343&lang=2&reg=48": {
+   "Free Drugs": true,
+   "Free Diagnostics": true,
+   "National Health Mission": true
+  },
+  "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2292437&lang=2&reg=48": {
+   "PM-KISAN": true,
+   "6,000": true,
+   "instalments": true
+  },
+  "https://agriculture.wb.gov.in/pm-krishak-samman-nidhi-pm-kisan-": {
+   "biometric e-KYC": false,
+   "NPCI": false,
+   "Block Agriculture Office": false,
+   "6,000": false
+  },
+  "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2304549&lang=1&reg=48": {
+   "2": true,
+   "5": true,
+   "Kharif 2026": true,
+   "sharecroppers": true,
+   "notified": true,
+   "1.5": true
+  },
+  "https://www.mha.gov.in/index.php/disaster-management-division": {
+   "Sixteenth Finance Commission": true,
+   "31.07.2026": true,
+   "SDRF": true
+  },
+  "https://sansad.in/getFile/annex/269/AU1793_fjXAYl.pdf?source=pqars": {
+   "14": true,
+   "20": true,
+   "31": true,
+   "35": true,
+   "56": true,
+   "61": true,
+   "68": true,
+   "79": true,
+   "1793": true,
+   "85.6%": true,
+   "pendency": true,
+   "69,243": true,
+   "02,389": true,
+   "95,972": true,
+   "85.6": true
+  },
+  "https://imdpune.gov.in/cmpg/Griddata/Max_1_Bin.html": {
+   "180": true,
+   "31x31": true,
+   "1951-2024": true
+  },
+  "https://assets.exemplars.health/fd9a20fb-4386-00b3-39a1-1737868b44b7/d4b76902-0381-4d15-9661-9b2e06b58682/10%20National%20Family%20Health%20Survey%205%2020192021.pdf": {
+   "21": true,
+   "636,699": true,
+   "41.0": true,
+   "sleeping": true
+  },
+  "https://www.geoboundaries.org/api.html": {
+   "gbOpen": true,
+   "boundaryID": true,
+   "boundaryYearRepresented": true
+  },
+  "https://heathealth.info/wp-content/uploads/Das_2024_Environ._Res._Lett._19_124019.pdf": {
+   "40": true,
+   "396": true,
+   "9972": true,
+   "40%": true
+  },
+  "https://www.journals.uchicago.edu/doi/abs/10.1086/710066": {
+   "21": false,
+   "50": false,
+   "workfare": false,
+   "test scores": false,
+   "Agricultural income": false
+  },
+  "https://www.povertyactionlab.org/initiative-project/insuring-against-extreme-heat-randomised-evaluation": {
+   "2,821": true,
+   "Panel survey": true,
+   "Spring 2025": true
+  },
+  "https://www.indiabudget.gov.in/doc/eb/sbe1.pdf": {
+   "3": true,
+   "7": true,
+   "27": true,
+   "MISS": true,
+   "7%": true,
+   "4%": true
+  },
+  "https://megbocwwb.gov.in/faqs": {
+   "90 days": true,
+   "Photograph": true,
+   "Inspector": true
+  },
+  "https://megbocwwb.gov.in/schemes": {
+   "Medical Assistance": true,
+   "five or more": true,
+   "Subscription": true
+  },
+  "https://ndmindia.mha.gov.in/ndmi/response-fund": {
+   "Local Disaster": false,
+   "10 percent": false,
+   "2021-26": false
+  },
+  "https://scispace.com/pdf/temperature-and-human-capital-in-india-2r19t8guj9.pdf": {
+   "21": false,
+   "50": false,
+   "intent-to-": false,
+   "50%": false,
+   "4.5 million": false
+  },
+  "https://ippbonline.bank.in/web/ippb/direct-benefit-transfers": {
+   "Seeding": true,
+   "Post Office": true,
+   "consent": true
+  },
+  "https://nalsa.gov.in/legal-aid/": {
+   "orally": true,
+   "Para Legal Volunteers": true,
+   "front office": true
+  },
+  "https://perlinsos.kemensos.go.id/": {
+   "PKH": false,
+   "Sembako": false,
+   "Agen": false,
+   "200.000": false,
+   "00": false
+  },
+  "https://jdih.kemensos.go.id/detail/keputusan-menteri-sosial-republik-indonesia-nomor-106huk2026-ggGnNohlR5": {
+   "106": false,
+   "2026": false,
+   "Program Keluarga Harapan": false
+  },
+  "https://jdih.kemensos.go.id/detail/keputusan-menteri-sosial-republik-indonesia-nomor-33huk2026-wt8GReCOMq": {
+   "33": false,
+   "2026": false,
+   "Sembako": false,
+   "200.000": false,
+   "00": false
+  },
+  "https://www.setneg.go.id/baca/index/pastikan_tepat_sasaran_pemerintah_salurkan_bansos_kepada_lebih_dari_18_juta_kpm": {
+   "12": true,
+   "7 juta": true,
+   "12 juta": true,
+   "07 Agustus 2026": true,
+   "200.000": false,
+   "00": true
+  },
+  "https://www.bpjsketenagakerjaan.go.id/Bukan-Penerima-Upah.html": {
+   "PERISAI": true,
+   "Jaminan Kecelakaan Kerja": true,
+   "Jaminan Hari Tua": true,
+   "20.000": true,
+   "000": true,
+   "12.000": true,
+   "10.000": true
+  },
+  "https://www.bpjsketenagakerjaan.go.id/jasa-konstruksi.html": {
+   "50": true,
+   "100": true,
+   "Jasa Konstruksi": true,
+   "STMB": true,
+   "100%": true
+  },
+  "https://www.bpjsketenagakerjaan.go.id/jaminan-kehilangan-pekerjaan.html": {
+   "60": true,
+   "60%": true,
+   "6 (enam) bulan": true,
+   "5.000.000": true,
+   "5.000": true,
+   "000": true,
+   "00": true
+  },
+  "https://bsu.kemnaker.go.id/": {
+   "Rp900.000": false,
+   "Agustus 2026": false,
+   "Nomor Induk Kependudukan": true,
+   "300.000": true,
+   "900.000": false
+  },
+  "https://djsn.go.id/berita/peluncuran-program-nadi-jkn-untuk-menjaga-keaktifan-kepersertaan": {
+   "25": false,
+   "30": false,
+   "60": false,
+   "80": false,
+   "98": false,
+   "80,25": false,
+   "98,60": false,
+   "30 Juni 2026": false
+  },
+  "https://bri.co.id/web/guest/promo-detail/900": {
+   "3": true,
+   "6": true,
+   "10": true,
+   "100": true,
+   "2026": true,
+   "3%": true,
+   "6%": true
+  },
+  "https://psp.pertanian.go.id/faq/kategori/14": {
+   "10": false,
+   "36.000": false,
+   "144.000": false,
+   "6.000.000": false,
+   "6.000": false,
+   "000": false
+  },
+  "https://psp.pertanian.go.id/berita/kementan-alokasikan-autp-untuk-100-ribu-hektare-lindungi-petani-hadapi-el-nino": {
+   "10": false,
+   "2026": false,
+   "AUTP": false,
+   "100 ribu": false,
+   "36.000": false,
+   "6.000": false,
+   "000": false
+  },
+  "https://kampungkb.kemendukbangga.go.id/kampung/51368/intervensi/2776097/pemberian-bantuan-blt": {
+   "2026": false,
+   "300.000": false,
+   "Musyawarah Desa": false
+  },
+  "https://jdih.kemensos.go.id/detail/keputusan-menteri-sosial-republik-indonesia-nomor-2huk2026-t-MtOzARJBIM": {
+   "2/HUK/2026": false,
+   "Aceh": false,
+   "Sumatera Barat": false
+  },
+  "https://onlinelibrary.wiley.com/doi/10.1002/hec.4590": {
+   "8": true,
+   "14": true,
+   "25": true,
+   "27": true,
+   "30": true,
+   "8%": true,
+   "25%": true,
+   "14%": true,
+   "25.5": true
+  },
+  "https://www.povertyactionlab.org/evaluation/enrolling-informal-sector-workers-national-health-insurance-indonesia": {
+   "5,996": true,
+   "3.5 percentage points": true,
+   "additional information": true,
+   "3.5": true,
+   "18.6": true,
+   "7.8": true
+  },
+  "https://www.povertyactionlab.org/evaluation/medium-term-impact-conditional-cash-transfers-health-and-education-indonesia": {
+   "23": true,
+   "13,619": true,
+   "360 sub-districts": true,
+   "Household consumption": true
+  },
+  "https://swlb1.aeaweb.org/articles?id=10.1257/pol.20190245": {
+   "23": true,
+   "2020": true,
+   "23 percent": true,
+   "six years": true
+  },
+  "https://hub.worldpop.org/geodata/summary?id=81578": {
+   "2020": true,
+   "Geotiff": true,
+   "WGS84": true
+  },
+  "https://www.geoboundaries.org/api/current/gbOpen/IDN/ALL/": {
+   "ADM1": true,
+   "boundaryYearRepresented": true,
+   "Open Database License": true
+  },
+  "https://www.donidcr.gov.np/pages/mostly-asked-questions--social-security-4/": {
+   "27": false,
+   "532": false,
+   "सामाजिक सुरक्षा": true,
+   "४०००": true,
+   "बसाइँ": true,
+   "4,000": false,
+   "2,660": false,
+   "3,990": false,
+   "2,128": false,
+   "1,000": false
+  },
+  "https://donidcr.gov.np/pages/social-security-allowance-rate/": {
+   "27": false,
+   "532": false,
+   "Social Security Allowance Rate": true,
+   "४०००": true,
+   "५३२": true,
+   "4,000": false,
+   "2,660": false,
+   "3,990": false,
+   "2,128": false,
+   "1,000": false
+  },
+  "https://www.unicef.org/nepal/media/31216/file/Federal%20Budget%20Brief-2026_UNICEF_Web%20Version.pdf.pdf": {
+   "27": true,
+   "532": true,
+   "3,806,634": true,
+   "1,000": true,
+   "Table 3": true
+  },
+  "https://hib.gov.np/faq/": {
+   "बीमा": true,
+   "नवीकरण": true,
+   "१०": true,
+   "3,500": false,
+   "100,000": false
+  },
+  "https://link.springer.com/article/10.1186/s12982-026-01734-3": {
+   "13.3%": false,
+   "12.0%": false,
+   "NDHS 2022": false,
+   "3,500": false,
+   "100,000": false,
+   "13.3": false,
+   "12.0": false
+  },
+  "https://www.ssf.gov.np/list/operating-schemes/informal-sector-scheme": {
+   "24": false,
+   "1500": false,
+   "अनौपचारिक": true,
+   "सामाजिक सुरक्षा": true,
+   "योजना": true,
+   "100,000": false
+  },
+  "https://www.ilo.org/resource/news/nepal-launches-national-campaign-bring-informal-workers-social-security": {
+   "24": true,
+   "1500": true,
+   "informal": true,
+   "social security": true,
+   "100,000": false
+  },
+  "https://documents1.worldbank.org/curated/en/099021925113581657/pdf/P1766171d407e20f21adde1ba735b9a8b83.pdf": {
+   "15": true,
+   "2023": true,
+   "9 percent": true,
+   "7 percent": true
+  },
+  "https://hmis.gov.np/media/20/02_The-Public-Health-Service-Act-2075-2018.pdf": {
+   "2018": false,
+   "basic health": false,
+   "emergency": false
+  },
+  "https://nepp.gov.np/nepp-introduction": {
+   "रोजगार": false,
+   "२०८२": false,
+   "कार्यक्रम": false
+  },
+  "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0329557": {
+   "43": true,
+   "356": true,
+   "43%": true,
+   "heatwaves": true
+  },
+  "https://go-api.ifrc.org/api/downloadfile/93851/sEAP2025NP02_MDRNP020": {
+   "2025": true,
+   "1,200": true,
+   "Heatwave": true
+  },
+  "https://censusresults.nsonepal.gov.np/downloads/census-dataset": {
+   "Census Dataset": true,
+   "type of roof": true,
+   "type of disability": true
+  },
+  "https://www.geoboundaries.org/api/current/gbOpen/NPL/ADM1/": {
+   "2020": true,
+   "NPL": true,
+   "ADM1": true
+  },
+  "https://thedocs.worldbank.org/en/doc/46a4c8089e04edb210173fc3192b8526-0060072025/original/Social-Protection-Response-Annual-Report-September-2025.pdf": {
+   "2025": true,
+   "Nepal": true,
+   "Standards": true
+  },
+  "https://resourcecentre.savethechildren.net/document/ensuring-access-to-social-security-allowances-in-nepal-guidance-for-local-governments-on-developing-and-implementing-a-standard-operating-procedure": {
+   "2026": true,
+   "Nepal": true,
+   "local governments": true
+  },
+  "https://www.undp.org/nepal/publications/inff-integrated-national-financing-strategy-2026": {
+   "80": false,
+   "February 13, 2026": false,
+   "Ministry of Finance": false,
+   "climate": false
+  },
+  "https://www.undp.org/sites/g/files/zskgke326/files/2026-02/final_web_version_infs_9_feb_2026_0.pdf": {
+   "80": true,
+   "insurance": true,
+   "agriculture": true
+  },
+  "https://hib.gov.np/content/317/latest-updated-benefit-package-may-2026/": {
+   "2083": true,
+   "स्वास्थ्य": true,
+   "बीमा": true,
+   "3,500": false,
+   "100,000": false
+  },
+  "https://ask.gov.sg/msf/questions/cls1lenhf00lsjzsgm0r5ahon?from=quicklinks": {
+   "SupportGoWhere": false,
+   "bank balance": false,
+   "Singpass": false
+  },
+  "https://ask.gov.sg/msf/questions/cm7iuhxgq015iyb4u6ij6meyp?from=topics": {
+   "Household composition": false,
+   "Specific needs": false,
+   "Income level": false
+  },
+  "https://ask.gov.sg/msf/questions/cm7itoel70155yb4uyejmqsbn": {
+   "760": true,
+   "$760": true,
+   "$1,250": true,
+   "April 2025": true,
+   "1,250": true
+  },
+  "https://ask.gov.sg/msf/questions/cls1lenha00j3jzsg08fudd5y?from=topics": {
+   "760": false,
+   "3 to 6 months": false,
+   "permanently unable to work": false,
+   "Social Service Office": false,
+   "1,250": false
+  },
+  "https://www.gov.sg/features/cost-of-living/": {
+   "190": true,
+   "250": true,
+   "500": true,
+   "4 November 2026": true,
+   "$500": true,
+   "$250": true
+  },
+  "https://www.cpf.gov.sg/member/growing-your-savings/government-support/workfare-income-supplement": {
+   "40": true,
+   "60": true,
+   "1.13 million": true,
+   "February 2026": true,
+   "40%": true,
+   "1.13": true
+  },
+  "https://www.cpf.gov.sg/member/tools-and-services/calculators/workfare-income-supplement-employee-work-year-2026-calculator": {
+   "40": true,
+   "60": true,
+   "Work Year 2026": true,
+   "$3,000": true,
+   "two months": true
+  },
+  "https://www.mom.gov.sg/employment-practices/silver-support-scheme": {
+   "215": true,
+   "$1,080": true,
+   "$215": true,
+   "No application is needed": true,
+   "1,080": true
+  },
+  "https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/medishield-life/medishield-life-benefits/": {
+   "1 June 2026": true,
+   "$200,000": true,
+   "No Limit": true,
+   "200,000": true
+  },
+  "https://www.moh.gov.sg/managing-expenses/keeping-healthcare-affordable/managing-medical-bills/": {
+   "MediSave": true,
+   "Permanent Residents": true,
+   "MediFund": true,
+   "200,000": false
+  },
+  "https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/medifund/": {
+   "Medical Social Workers": true,
+   "Singapore citizen": true,
+   "MediFund Committee": true
+  },
+  "https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/chas/": {
+   "$18.50": true,
+   "Common illness": true,
+   "Singapore Citizens": true,
+   "18.50": true
+  },
+  "https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation/types-of-compensation": {
+   "$53,000": true,
+   "Medical leave wages": true,
+   "one year": true,
+   "53,000": true
+  },
+  "https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work/faqs-on-heat-stress-measures-for-outdoor-work": {
+   "paid working hours": true,
+   "WICA": true,
+   "heat-related illness": true,
+   "53,000": false
+  },
+  "https://www.mom.gov.sg/workplace-safety-and-health/od-under-wsha-and-wica": {
+   "Diseases caused by excessive heat": true,
+   "1 December 2025": true,
+   "platform workers": true,
+   "53,000": false
+  },
+  "https://www.mom.gov.sg/primary-care-plan/what-is-pcp": {
+   "7 or more": true,
+   "Construction": true,
+   "MDWs": true
+  },
+  "https://www.mom.gov.sg/newsroom/press-releases/2026/0806-enhanced-primary-care-plan-appointment-of-new-aos": {
+   "92": true,
+   "96": true,
+   "96%": true,
+   "92%": true,
+   "May 2025": true
+  },
+  "https://www.mom.gov.sg/primary-care-plan/getting-primary-care-services": {
+   "Telemedicine": true,
+   "Zone A": true,
+   "acute conditions": true
+  },
+  "https://www.mom.gov.sg/newsroom/press-releases/2026/0828-enhancements-to-heat-stress-framework": {
+   "1 December 2026": true,
+   "28 August 2026": true,
+   "training": true
+  },
+  "https://medicine.nus.edu.sg/news/heat-stress-causes-lower-fertility-productivity-and-reduced-cognitive-capacity-project-heatsafe/": {
+   "21": true,
+   "214": true,
+   "355": true,
+   "S$21": true
+  },
+  "https://help.healthserve.org.sg/need-help-or-advice/": {
+   "WICA": true,
+   "FREE": true,
+   "special pass": true
+  },
+  "https://healthserve.org.sg/casework-social-services/": {
+   "Casework": true,
+   "Social Services": true,
+   "emergency financial aid": true
+  },
+  "https://twc2.org.sg/helping-workers-in-need/": {
+   "20,000": true,
+   "1,500": true,
+   "DIRECT SERVICES": true
+  },
+  "https://www.enterprisesg.gov.sg/financial-support/enterprise-financing-scheme---sme-working-capital": {
+   "100": true,
+   "S$500,000": true,
+   "70%": true,
+   "100%": true,
+   "500,000": true
+  },
+  "https://www.sfa.gov.sg/recognition-programmes-grants/grants/agri-food-cluster-transformation-act-fund": {
+   "12": true,
+   "20": true,
+   "2026": true,
+   "12 - 20 weeks": true,
+   "valid farm licence": true
+  },
+  "https://data.gov.sg/datasets/d_d95ae740c0f8961a0b10435836660ce0/view": {
+   "Census of Population 2020": true,
+   "Master Plan 2019": true,
+   "0 - 4": true
+  },
+  "https://data.gov.sg/datasets/d_4765db0e87b9c86336792efe8a1f7a66/view": {
+   "PLN_AREA_N": true,
+   "PLN_AREA_C": true,
+   "GEOJSON": true
+  },
+  "https://data.gov.sg/datasets/d_87884af1f85d702d4f74c6af13b4853d/view": {
+   "15 minutes": true,
+   "Feb 2025": true,
+   "Open Data Licence": true
+  },
+  "https://data.gov.sg/datasets/d_5521441aca9643a2021417e096ea65d0/view": {
+   "3240": true,
+   "20825": true,
+   "29291": true
+  },
+  "https://www.thaigov.go.th/th/news/170664": {
+   "20": false,
+   "200": false,
+   "300": false,
+   "750": false,
+   "800": false,
+   "2569": false
+  },
+  "https://dop.go.th/th/faq/view=967": {
+   "60": true,
+   "69": true,
+   "70": true,
+   "79": true,
+   "80": true,
+   "89": true,
+   "90": true,
+   "600": true,
+   "700": true,
+   "800": true,
+   "1,000": true
+  },
+  "https://www.mol.go.th/en/news/over-500000-section-40-insured-persons-rejoice-following-labour-ministers-drive-to-enhance-social-security-benefits-aligned-with-current-economic-conditions-outpatient-medical-compensation-increased-from-50-to-200-baht-visit-maximum-income-compensation-for-disability-cases-raised-from-1000-to-3000-baht": {
+   "70": true,
+   "100": true,
+   "200": true,
+   "300": true,
+   "18 Jan 2026": true,
+   "200 Baht": true,
+   "70 Baht": true
+  },
+  "https://www.thaigov.go.th/th/news/169363": {
+   "50": false,
+   "90": false,
+   "50%": false,
+   "สปส.2-01/7": false
+  },
+  "https://doaenews.doae.go.th/archives/31902": {
+   "30": true,
+   "60": true,
+   "1,340": true,
+   "1,980": true,
+   "4,048": true
+  },
+  "https://www.thaigov.go.th/th/news/168977": {
+   "50": false,
+   "1,800": false,
+   "15 - 60": false
+  },
+  "https://www.thaigov.go.th/th/news/167291": {
+   "25": false,
+   "0.25": false,
+   "1 ตุลาคม 2569": false
+  },
+  "https://thailand.prd.go.th/en/content/category/detail/id/48/iid/547200": {
+   "100,000": true,
+   "October 2026": true,
+   "earthquakes": true
+  },
+  "https://www.sso.go.th/wpr/main/service/%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%AA%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%A1_detail_detail_1_125_694/234_234": {
+   "1,000": true,
+   "มาตรา 33": true,
+   "12 เดือน": true
+  },
+  "https://nhso.gdcatalog.go.th/en/dataset/dataset-rg_13_01": {
+   "Creative Commons Attributions": true,
+   "HTML": true,
+   "February 23, 2026": true
+  },
+  "https://data.go.th/th/dataset/sso-total-insured-persons": {
+   "มาตรา 33": false,
+   "มาตรา 39": false,
+   "Open Data Common": false
+  },
+  "https://data.go.th/th/dataset/sso-insured-section-40": {
+   "2569": false,
+   "XLS": false,
+   "Open Data Common": false
+  },
+  "https://www.imf.org/-/media/files/publications/cr/2025/english/1thaea2025001-print-pdf.pdf": {
+   "50": false,
+   "83": false,
+   "Section 39": false,
+   "21.7": false,
+   "1.6 percent": false,
+   "1.6": false
+  },
+  "https://link.springer.com/article/10.1186/s12939-020-01273-6": {
+   "2": false,
+   "10": false,
+   "6.0%": false,
+   "2%": false,
+   "52,000": false,
+   "6.0": false
+  },
+  "https://www.homenetinternational.org/homenet-thailand-runs-a-pilot-extreme-heat-insurance-project-for-informal-economy-workers/": {
+   "100": true,
+   "299": false,
+   "300": true,
+   "1,000": true,
+   "100 baht": true,
+   "300-baht": true
+  },
+  "https://www.prudentialplc.com/en/sustainability-social-impact/prudence-foundation/news-and-publications/How-Extreme-Heat-is-Reshaping-Womens-Lives-in-Thailand/": {
+   "299": true,
+   "299 women": true,
+   "eight provinces": true,
+   "workshops": true
+  },
+  "https://hub.worldpop.org/geodata/summary?id=50547": {
+   "2020": true,
+   "Geotiff": true,
+   "WGS84": true
+  },
+  "https://www.geoboundaries.org/api/current/gbOpen/THA/ADM1/": {
+   "ADM1": true,
+   "boundaryYearRepresented": true,
+   "Open Database License": true
+  }
+ },
+ "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-mof/2026/5/4d4de077-26a7-4f8f-aad1-7b3f48043897.pdf": "OK",
+ "https://cpd.org.bd/resources/2026/06/CPD-Budget-Analysis-FY2027.pdf": "FAIL",
+ "https://file.portal.gov.bd/uploads/e5e7ab98-01a1-4201-aed7-938bac247de3/659/fea/716/659fea716a8f4036787088.pdf": "FAIL",
+ "https://nsds.bbs.gov.bd/storage/files/1/Publications/BBS_Preliminary_Census_2022.pdf": "FAIL",
+ "https://www.anticipation-hub.org/Documents/Reports/0_RCCC_SRSP_simulation_Rajshahi_Advocacy_brief_V3.pdf": "OK",
+ "https://bdrcs.org/wp-content/uploads/2024/04/Heatwave-Early-Actions-2024-_27.4.24-_Operation-Update-01.pdf": "OK",
+ "https://bura.brunel.ac.uk/bitstream/2438/30215/1/FullText.pdf": "OK",
+ "https://www.ilo.org/projects-and-partnerships/projects/implementation-pilot-employment-injury-scheme-eis-bangladesh": "OK",
+ "https://bfi.uchicago.edu/wp-content/uploads/2025/11/BFI_WP_2025-140.pdf": "OK",
+ "https://www.worldbank.org/en/news/press-release/2025/09/16/bangladesh-faces-health-and-economic-risks-from-rising-temperature-world-bank": "OK",
+ "https://go-api.ifrc.org/api/downloadfile/91752/EAP2024BD07_MDRBD038": "OK",
+ "https://bilsbd.org/news/bils-calls-to-include-informal-sector-in-the-employment-injury-scheme/": "OK",
+ "https://www.haqdarshak.com/": "OK",
+ "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview": "OK",
+ "https://www.geoboundaries.org/api/current/gbOpen/BGD/ADM1/": "OK",
+ "https://eshram.gov.in/faqs": "OK",
+ "https://iwwage.org/wp-content/uploads/2020/12/DIgital-solution-for-sgh.pdf": "FAIL",
+ "https://www.jsw.in/sites/default/files/assets/Program-Assesment-Haqdarshak.pdf": "FAIL",
+ "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2259703&lang=1&reg=1": "OK",
+ "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2210378&lang=1&reg=1": "OK",
+ "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-continuation-of-the-national-social-assistance-programme-for-five-years-from-2026-27-to-2030-31/?comment=disable": "OK",
+ "https://s3e21e4e58ad9ab56e8a4634046da90113.s3waas.gov.in/national-food-security-act-2013/": "OK",
+ "https://eshram.gov.in/Schemes": "OK",
+ "https://www.labour.gov.in/static/uploads/2025/06/2e7e01b90e6358cb82f396615fc87a94.pdf": "OK",
+ "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2290627&lang=1&reg=22": "OK",
+ "https://nha.gov.in/img/resources/English_FAQs_related_to_the_benefits_for_senior_citizens.pdf": "BLOCKED",
+ "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2292343&lang=2&reg=48": "OK",
+ "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2292437&lang=2&reg=48": "OK",
+ "https://agriculture.wb.gov.in/pm-krishak-samman-nidhi-pm-kisan-": "FAIL",
+ "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2304549&lang=1&reg=48": "OK",
+ "https://www.mha.gov.in/index.php/disaster-management-division": "OK",
+ "https://sansad.in/getFile/annex/269/AU1793_fjXAYl.pdf?source=pqars": "OK",
+ "https://imdpune.gov.in/cmpg/Griddata/Max_1_Bin.html": "OK",
+ "https://assets.exemplars.health/fd9a20fb-4386-00b3-39a1-1737868b44b7/d4b76902-0381-4d15-9661-9b2e06b58682/10%20National%20Family%20Health%20Survey%205%2020192021.pdf": "OK",
+ "https://www.geoboundaries.org/api.html": "OK",
+ "https://heathealth.info/wp-content/uploads/Das_2024_Environ._Res._Lett._19_124019.pdf": "OK",
+ "https://www.journals.uchicago.edu/doi/abs/10.1086/710066": "BLOCKED",
+ "https://www.povertyactionlab.org/initiative-project/insuring-against-extreme-heat-randomised-evaluation": "OK",
+ "https://www.indiabudget.gov.in/doc/eb/sbe1.pdf": "OK",
+ "https://megbocwwb.gov.in/faqs": "OK",
+ "https://megbocwwb.gov.in/schemes": "OK",
+ "https://ndmindia.mha.gov.in/ndmi/response-fund": "FAIL",
+ "https://scispace.com/pdf/temperature-and-human-capital-in-india-2r19t8guj9.pdf": "OK",
+ "https://ippbonline.bank.in/web/ippb/direct-benefit-transfers": "OK",
+ "https://nalsa.gov.in/legal-aid/": "OK",
+ "https://perlinsos.kemensos.go.id/": "FAIL",
+ "https://jdih.kemensos.go.id/detail/keputusan-menteri-sosial-republik-indonesia-nomor-106huk2026-ggGnNohlR5": "FAIL",
+ "https://jdih.kemensos.go.id/detail/keputusan-menteri-sosial-republik-indonesia-nomor-33huk2026-wt8GReCOMq": "FAIL",
+ "https://www.setneg.go.id/baca/index/pastikan_tepat_sasaran_pemerintah_salurkan_bansos_kepada_lebih_dari_18_juta_kpm": "OK",
+ "https://www.bpjsketenagakerjaan.go.id/Bukan-Penerima-Upah.html": "OK",
+ "https://www.bpjsketenagakerjaan.go.id/jasa-konstruksi.html": "OK",
+ "https://www.bpjsketenagakerjaan.go.id/jaminan-kehilangan-pekerjaan.html": "OK",
+ "https://bsu.kemnaker.go.id/": "BLOCKED",
+ "https://djsn.go.id/berita/peluncuran-program-nadi-jkn-untuk-menjaga-keaktifan-kepersertaan": "BLOCKED",
+ "https://bri.co.id/web/guest/promo-detail/900": "OK",
+ "https://psp.pertanian.go.id/faq/kategori/14": "BLOCKED",
+ "https://psp.pertanian.go.id/berita/kementan-alokasikan-autp-untuk-100-ribu-hektare-lindungi-petani-hadapi-el-nino": "BLOCKED",
+ "https://kampungkb.kemendukbangga.go.id/kampung/51368/intervensi/2776097/pemberian-bantuan-blt": "FAIL",
+ "https://jdih.kemensos.go.id/detail/keputusan-menteri-sosial-republik-indonesia-nomor-2huk2026-t-MtOzARJBIM": "FAIL",
+ "https://onlinelibrary.wiley.com/doi/10.1002/hec.4590": "BLOCKED",
+ "https://www.povertyactionlab.org/evaluation/enrolling-informal-sector-workers-national-health-insurance-indonesia": "OK",
+ "https://www.povertyactionlab.org/evaluation/medium-term-impact-conditional-cash-transfers-health-and-education-indonesia": "OK",
+ "https://swlb1.aeaweb.org/articles?id=10.1257/pol.20190245": "OK",
+ "https://hub.worldpop.org/geodata/summary?id=81578": "OK",
+ "https://www.geoboundaries.org/api/current/gbOpen/IDN/ALL/": "OK",
+ "https://www.donidcr.gov.np/pages/mostly-asked-questions--social-security-4/": "OK",
+ "https://donidcr.gov.np/pages/social-security-allowance-rate/": "OK",
+ "https://www.unicef.org/nepal/media/31216/file/Federal%20Budget%20Brief-2026_UNICEF_Web%20Version.pdf.pdf": "OK",
+ "https://hib.gov.np/faq/": "OK",
+ "https://link.springer.com/article/10.1186/s12982-026-01734-3": "OK",
+ "https://www.ssf.gov.np/list/operating-schemes/informal-sector-scheme": "OK",
+ "https://www.ilo.org/resource/news/nepal-launches-national-campaign-bring-informal-workers-social-security": "OK",
+ "https://documents1.worldbank.org/curated/en/099021925113581657/pdf/P1766171d407e20f21adde1ba735b9a8b83.pdf": "OK",
+ "https://hmis.gov.np/media/20/02_The-Public-Health-Service-Act-2075-2018.pdf": "FAIL",
+ "https://nepp.gov.np/nepp-introduction": "FAIL",
+ "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0329557": "OK",
+ "https://go-api.ifrc.org/api/downloadfile/93851/sEAP2025NP02_MDRNP020": "OK",
+ "https://censusresults.nsonepal.gov.np/downloads/census-dataset": "OK",
+ "https://www.geoboundaries.org/api/current/gbOpen/NPL/ADM1/": "OK",
+ "https://thedocs.worldbank.org/en/doc/46a4c8089e04edb210173fc3192b8526-0060072025/original/Social-Protection-Response-Annual-Report-September-2025.pdf": "OK",
+ "https://resourcecentre.savethechildren.net/document/ensuring-access-to-social-security-allowances-in-nepal-guidance-for-local-governments-on-developing-and-implementing-a-standard-operating-procedure": "OK",
+ "https://www.undp.org/nepal/publications/inff-integrated-national-financing-strategy-2026": "BLOCKED",
+ "https://www.undp.org/sites/g/files/zskgke326/files/2026-02/final_web_version_infs_9_feb_2026_0.pdf": "OK",
+ "https://hib.gov.np/content/317/latest-updated-benefit-package-may-2026/": "OK",
+ "https://ask.gov.sg/msf/questions/cls1lenhf00lsjzsgm0r5ahon?from=quicklinks": "BLOCKED",
+ "https://ask.gov.sg/msf/questions/cm7iuhxgq015iyb4u6ij6meyp?from=topics": "BLOCKED",
+ "https://ask.gov.sg/msf/questions/cm7itoel70155yb4uyejmqsbn": "BLOCKED",
+ "https://ask.gov.sg/msf/questions/cls1lenha00j3jzsg08fudd5y?from=topics": "BLOCKED",
+ "https://www.gov.sg/features/cost-of-living/": "OK",
+ "https://www.cpf.gov.sg/member/growing-your-savings/government-support/workfare-income-supplement": "OK",
+ "https://www.cpf.gov.sg/member/tools-and-services/calculators/workfare-income-supplement-employee-work-year-2026-calculator": "OK",
+ "https://www.mom.gov.sg/employment-practices/silver-support-scheme": "OK",
+ "https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/medishield-life/medishield-life-benefits/": "OK",
+ "https://www.moh.gov.sg/managing-expenses/keeping-healthcare-affordable/managing-medical-bills/": "OK",
+ "https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/medifund/": "OK",
+ "https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/chas/": "OK",
+ "https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation/types-of-compensation": "OK",
+ "https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work/faqs-on-heat-stress-measures-for-outdoor-work": "OK",
+ "https://www.mom.gov.sg/workplace-safety-and-health/od-under-wsha-and-wica": "OK",
+ "https://www.mom.gov.sg/primary-care-plan/what-is-pcp": "OK",
+ "https://www.mom.gov.sg/newsroom/press-releases/2026/0806-enhanced-primary-care-plan-appointment-of-new-aos": "OK",
+ "https://www.mom.gov.sg/primary-care-plan/getting-primary-care-services": "OK",
+ "https://www.mom.gov.sg/newsroom/press-releases/2026/0828-enhancements-to-heat-stress-framework": "OK",
+ "https://medicine.nus.edu.sg/news/heat-stress-causes-lower-fertility-productivity-and-reduced-cognitive-capacity-project-heatsafe/": "OK",
+ "https://help.healthserve.org.sg/need-help-or-advice/": "OK",
+ "https://healthserve.org.sg/casework-social-services/": "OK",
+ "https://twc2.org.sg/helping-workers-in-need/": "OK",
+ "https://www.enterprisesg.gov.sg/financial-support/enterprise-financing-scheme---sme-working-capital": "OK",
+ "https://www.sfa.gov.sg/recognition-programmes-grants/grants/agri-food-cluster-transformation-act-fund": "OK",
+ "https://data.gov.sg/datasets/d_d95ae740c0f8961a0b10435836660ce0/view": "OK",
+ "https://data.gov.sg/datasets/d_4765db0e87b9c86336792efe8a1f7a66/view": "OK",
+ "https://data.gov.sg/datasets/d_87884af1f85d702d4f74c6af13b4853d/view": "OK",
+ "https://data.gov.sg/datasets/d_5521441aca9643a2021417e096ea65d0/view": "OK",
+ "https://www.thaigov.go.th/th/news/170664": "BLOCKED",
+ "https://dop.go.th/th/faq/view=967": "OK",
+ "https://www.mol.go.th/en/news/over-500000-section-40-insured-persons-rejoice-following-labour-ministers-drive-to-enhance-social-security-benefits-aligned-with-current-economic-conditions-outpatient-medical-compensation-increased-from-50-to-200-baht-visit-maximum-income-compensation-for-disability-cases-raised-from-1000-to-3000-baht": "OK",
+ "https://www.thaigov.go.th/th/news/169363": "BLOCKED",
+ "https://doaenews.doae.go.th/archives/31902": "OK",
+ "https://www.thaigov.go.th/th/news/168977": "BLOCKED",
+ "https://www.thaigov.go.th/th/news/167291": "BLOCKED",
+ "https://thailand.prd.go.th/en/content/category/detail/id/48/iid/547200": "OK",
+ "https://www.sso.go.th/wpr/main/service/%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%AA%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%A1_detail_detail_1_125_694/234_234": "OK",
+ "https://nhso.gdcatalog.go.th/en/dataset/dataset-rg_13_01": "OK",
+ "https://data.go.th/th/dataset/sso-total-insured-persons": "BLOCKED",
+ "https://data.go.th/th/dataset/sso-insured-section-40": "BLOCKED",
+ "https://www.imf.org/-/media/files/publications/cr/2025/english/1thaea2025001-print-pdf.pdf": "BLOCKED",
+ "https://link.springer.com/article/10.1186/s12939-020-01273-6": "OK",
+ "https://www.homenetinternational.org/homenet-thailand-runs-a-pilot-extreme-heat-insurance-project-for-informal-economy-workers/": "OK",
+ "https://www.prudentialplc.com/en/sustainability-social-impact/prudence-foundation/news-and-publications/How-Extreme-Heat-is-Reshaping-Womens-Lives-in-Thailand/": "OK",
+ "https://hub.worldpop.org/geodata/summary?id=50547": "OK",
+ "https://www.geoboundaries.org/api/current/gbOpen/THA/ADM1/": "OK"
+}

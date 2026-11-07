@@ -1,0 +1,3071 @@
+[
+ {
+  "id": "sp-bangladesh-b1",
+  "type": "source",
+  "countries": [
+   "bangladesh"
+  ],
+  "keys": [
+   "bangladesh-B1"
+  ],
+  "title": "Social Security Budget Report FY2026-27",
+  "publisher": "Finance Division, Ministry of Finance",
+  "year": 2026,
+  "url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-mof/2026/5/4d4de077-26a7-4f8f-aad1-7b3f48043897.pdf",
+  "kind": "Government page",
+  "expect": [
+   "iBAS++",
+   "Payment Cycle",
+   "Family Card",
+   "2,500",
+   "700",
+   "1,000",
+   "850",
+   "30",
+   "500",
+   "15",
+   "5,000",
+   "50,000",
+   "100,000"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260617035014/https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-mof/2026/5/4d4de077-26a7-4f8f-aad1-7b3f48043897.pdf"
+ },
+ {
+  "id": "sp-bangladesh-b2",
+  "type": "source",
+  "countries": [
+   "bangladesh"
+  ],
+  "keys": [
+   "bangladesh-B2"
+  ],
+  "title": "An Analysis of the National Budget for FY2026-27",
+  "publisher": "Centre for Policy Dialogue",
+  "year": 2026,
+  "url": "https://cpd.org.bd/resources/2026/06/CPD-Budget-Analysis-FY2027.pdf",
+  "kind": "Agency report",
+  "expect": [
+   "FY2026-27",
+   "700",
+   "850",
+   "1,000"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-bangladesh-b3",
+  "type": "source",
+  "countries": [
+   "bangladesh"
+  ],
+  "keys": [
+   "bangladesh-B3"
+  ],
+  "title": "Household Income and Expenditure Survey HIES 2022: Final Report",
+  "publisher": "Bangladesh Bureau of Statistics",
+  "year": 2023,
+  "url": "https://file.portal.gov.bd/uploads/e5e7ab98-01a1-4201-aed7-938bac247de3/659/fea/716/659fea716a8f4036787088.pdf",
+  "kind": "Government page",
+  "expect": [
+   "37.6",
+   "Table 10.2",
+   "44.0",
+   "23.9"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-bangladesh-b4",
+  "type": "source",
+  "countries": [
+   "bangladesh"
+  ],
+  "keys": [
+   "bangladesh-B4"
+  ],
+  "title": "Population & Housing Census 2022: Preliminary Report",
+  "publisher": "Bangladesh Bureau of Statistics",
+  "year": 2022,
+  "url": "https://nsds.bbs.gov.bd/storage/files/1/Publications/BBS_Preliminary_Census_2022.pdf",
+  "kind": "Government page",
+  "expect": [
+   "2022",
+   "Disability",
+   "Population"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20250909172835/http://nsds.bbs.gov.bd/storage/files/1/Publications/BBS_Preliminary_Census_2022.pdf"
+ },
+ {
+  "id": "sp-bangladesh-b5",
+  "type": "source",
+  "countries": [
+   "bangladesh"
+  ],
+  "keys": [
+   "bangladesh-B5"
+  ],
+  "title": "When social protection anticipates risk: Lessons from a shock responsive social protection simulation in Rajshahi city, Bangladesh",
+  "publisher": "Red Cross Red Crescent Climate Centre and implementing partners",
+  "year": 2026,
+  "url": "https://www.anticipation-hub.org/Documents/Reports/0_RCCC_SRSP_simulation_Rajshahi_Advocacy_brief_V3.pdf",
+  "kind": "Agency report",
+  "expect": [
+   "301",
+   "2,400",
+   "simulation",
+   "1,290",
+   "27"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260125221725/https://www.anticipation-hub.org/Documents/Reports/0_RCCC_SRSP_simulation_Rajshahi_Advocacy_brief_V3.pdf"
+ },
+ {
+  "id": "sp-bangladesh-b6",
+  "type": "source",
+  "countries": [
+   "bangladesh"
+  ],
+  "keys": [
+   "bangladesh-B6"
+  ],
+  "title": "Nationwide Heatwave Early Actions/Response: Operations Update-01; 27 April, 2024",
+  "publisher": "Bangladesh Red Crescent Society",
+  "year": 2024,
+  "url": "https://bdrcs.org/wp-content/uploads/2024/04/Heatwave-Early-Actions-2024-_27.4.24-_Operation-Update-01.pdf",
+  "kind": "Agency report",
+  "expect": [
+   "1,290",
+   "4,000 households",
+   "BDT 5000",
+   "27"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20250802193313/https://bdrcs.org/wp-content/uploads/2024/04/Heatwave-Early-Actions-2024-_27.4.24-_Operation-Update-01.pdf"
+ },
+ {
+  "id": "sp-bangladesh-b7",
+  "type": "source",
+  "countries": [
+   "bangladesh"
+  ],
+  "keys": [
+   "bangladesh-B7"
+  ],
+  "title": "The effectiveness of a government-sponsored health protection scheme in reducing financial risks for the below-poverty-line population in Bangladesh",
+  "publisher": "Hasan et al.",
+  "year": 2024,
+  "url": "https://bura.brunel.ac.uk/bitstream/2438/30215/1/FullText.pdf",
+  "kind": "Peer-reviewed study",
+  "expect": [
+   "2315",
+   "33%",
+   "Limitations of the study",
+   "50,000",
+   "33"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260502050135/https://bura.brunel.ac.uk/bitstream/2438/30215/1/FullText.pdf"
+ },
+ {
+  "id": "sp-bangladesh-b8",
+  "type": "source",
+  "countries": [
+   "bangladesh"
+  ],
+  "keys": [
+   "bangladesh-B8"
+  ],
+  "title": "Implementation of a pilot Employment Injury Scheme (EIS) in Bangladesh",
+  "publisher": "International Labour Organization",
+  "year": null,
+  "url": "https://www.ilo.org/projects-and-partnerships/projects/implementation-pilot-employment-injury-scheme-eis-bangladesh",
+  "kind": "Agency report",
+  "expect": [
+   "Central Fund",
+   "2028",
+   "pilot"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20250517114042/https://www.ilo.org/projects-and-partnerships/projects/implementation-pilot-employment-injury-scheme-eis-bangladesh"
+ },
+ {
+  "id": "sp-bangladesh-b9",
+  "type": "source",
+  "countries": [
+   "bangladesh",
+   "nepal"
+  ],
+  "keys": [
+   "bangladesh-B9",
+   "nepal-N13"
+  ],
+  "title": "Fast Action for Floods: RCT Evidence on Forecast-based Cash Transfers from Bangladesh and Nepal",
+  "publisher": "Christian et al.",
+  "year": 2025,
+  "url": "https://bfi.uchicago.edu/wp-content/uploads/2025/11/BFI_WP_2025-140.pdf",
+  "kind": "Working paper",
+  "expect": [
+   "Bangladesh",
+   "Nepal",
+   "borrowing"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260418075844/https://bfi.uchicago.edu/wp-content/uploads/2025/11/BFI_WP_2025-140.pdf"
+ },
+ {
+  "id": "sp-bangladesh-b10",
+  "type": "source",
+  "countries": [
+   "bangladesh"
+  ],
+  "keys": [
+   "bangladesh-B10"
+  ],
+  "title": "Bangladesh Faces Health and Economic Risks from Rising Temperature: World Bank",
+  "publisher": "World Bank",
+  "year": 2025,
+  "url": "https://www.worldbank.org/en/news/press-release/2025/09/16/bangladesh-faces-health-and-economic-risks-from-rising-temperature-world-bank",
+  "kind": "Agency report",
+  "expect": [
+   "2024",
+   "16,000",
+   "productivity"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261024092728/https://www.worldbank.org/en/news/press-release/2025/09/16/bangladesh-faces-health-and-economic-risks-from-rising-temperature-world-bank"
+ },
+ {
+  "id": "sp-bangladesh-b11",
+  "type": "source",
+  "countries": [
+   "bangladesh"
+  ],
+  "keys": [
+   "bangladesh-B11"
+  ],
+  "title": "EARLY ACTION PROTOCOL SUMMARY: Bangladesh | Cold Wave",
+  "publisher": "International Federation of Red Cross and Red Crescent Societies",
+  "year": 2025,
+  "url": "https://go-api.ifrc.org/api/downloadfile/91752/EAP2024BD07_MDRBD038",
+  "kind": "Agency report",
+  "expect": [
+   "Nagad",
+   "EMTS",
+   "Heatwave"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260305235052/https://go-api.ifrc.org/api/downloadfile/91752/EAP2024BD07_MDRBD038"
+ },
+ {
+  "id": "sp-bangladesh-b12",
+  "type": "source",
+  "countries": [
+   "bangladesh"
+  ],
+  "keys": [
+   "bangladesh-B12"
+  ],
+  "title": "BILS calls to include informal sector in the Employment Injury Scheme",
+  "publisher": "Bangladesh Institute of Labour Studies",
+  "year": 2026,
+  "url": "https://bilsbd.org/news/bils-calls-to-include-informal-sector-in-the-employment-injury-scheme/",
+  "kind": "Agency report",
+  "expect": [
+   "informal",
+   "Employment Injury Scheme",
+   "2026",
+   "29"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-bangladesh-b13",
+  "type": "source",
+  "countries": [
+   "bangladesh",
+   "india",
+   "indonesia",
+   "nepal",
+   "singapore",
+   "thailand"
+  ],
+  "keys": [
+   "bangladesh-B13",
+   "india-S31",
+   "indonesia-Ih",
+   "nepal-N19",
+   "singapore-S30",
+   "thailand-Th"
+  ],
+  "title": "Haqdarshak",
+  "publisher": "Haqdarshak",
+  "year": null,
+  "url": "https://www.haqdarshak.com/",
+  "kind": "Agency report",
+  "expect": [
+   "trained field staff",
+   "Haqdarshak agents",
+   "Application",
+   "Schemes Mapped",
+   "human agents",
+   "5,000",
+   "261"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261007071808/https://www.haqdarshak.com/"
+ },
+ {
+  "id": "sp-bangladesh-b14",
+  "type": "source",
+  "countries": [
+   "bangladesh",
+   "india",
+   "indonesia",
+   "nepal",
+   "singapore",
+   "thailand"
+  ],
+  "keys": [
+   "bangladesh-B14",
+   "india-S17",
+   "indonesia-Ie",
+   "nepal-N16",
+   "singapore-S31",
+   "thailand-Te"
+  ],
+  "title": "ERA5 hourly data on single levels from 1940 to present",
+  "publisher": "Copernicus Climate Change Service / ECMWF",
+  "year": 2026,
+  "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+  "kind": "Agency report",
+  "expect": [
+   "0.25",
+   "GRIB",
+   "CC-BY",
+   "Reanalysis"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261104212542/https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview"
+ },
+ {
+  "id": "sp-bangladesh-b15",
+  "type": "source",
+  "countries": [
+   "bangladesh"
+  ],
+  "keys": [
+   "bangladesh-B15"
+  ],
+  "title": "geoBoundaries gbOpen BGD ADM1 API metadata",
+  "publisher": "geoBoundaries",
+  "year": 2023,
+  "url": "https://www.geoboundaries.org/api/current/gbOpen/BGD/ADM1/",
+  "kind": "Agency report",
+  "expect": [
+   "BGD",
+   "ADM1",
+   "CC0"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-india-s1",
+  "type": "source",
+  "countries": [
+   "india"
+  ],
+  "keys": [
+   "india-S1"
+  ],
+  "title": "FAQs",
+  "publisher": "Ministry of Labour and Employment",
+  "year": null,
+  "url": "https://eshram.gov.in/faqs",
+  "kind": "Government page",
+  "expect": [
+   "Universal Account Number",
+   "Common Service Centre",
+   "totally free"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260606074325/https://eshram.gov.in/faqs"
+ },
+ {
+  "id": "sp-india-s2",
+  "type": "source",
+  "countries": [
+   "india"
+  ],
+  "keys": [
+   "india-S2"
+  ],
+  "title": "Digital Solutions For SHGs In Chhattisgarh",
+  "publisher": "LEAD at Krea University / IWWAGE",
+  "year": 2020,
+  "url": "https://iwwage.org/wp-content/uploads/2020/12/DIgital-solution-for-sgh.pdf",
+  "kind": "Agency report",
+  "expect": [
+   "Evaluation Plan",
+   "Haqdarshak",
+   "Sustainability"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20220121121055/https://iwwage.org/wp-content/uploads/2020/12/DIgital-solution-for-sgh.pdf"
+ },
+ {
+  "id": "sp-india-s3",
+  "type": "source",
+  "countries": [
+   "india"
+  ],
+  "keys": [
+   "india-S3"
+  ],
+  "title": "Assessment of social scheme accessibility and entitlement programme implemented by Haqdarshak Empowerment Solutions Pvt. Ltd.",
+  "publisher": "Grant Thornton India LLP",
+  "year": 2020,
+  "url": "https://www.jsw.in/sites/default/files/assets/Program-Assesment-Haqdarshak.pdf",
+  "kind": "Evaluation",
+  "expect": [
+   "Final report",
+   "September 2020",
+   "511 cases",
+   "91",
+   "65",
+   "77",
+   "5,000",
+   "261"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-india-s4",
+  "type": "source",
+  "countries": [
+   "india"
+  ],
+  "keys": [
+   "india-S4"
+  ],
+  "title": "Historic Commencement of Viksit Bharat – G RAM G Act Across Rural India from July 1st 2026",
+  "publisher": "Ministry of Rural Development",
+  "year": 2026,
+  "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2259703&lang=1&reg=1",
+  "kind": "Government page",
+  "expect": [
+   "125 Days",
+   "job cards",
+   "Direct Benefit Transfer",
+   "125"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-india-s5",
+  "type": "source",
+  "countries": [
+   "india"
+  ],
+  "keys": [
+   "india-S5"
+  ],
+  "title": "Department of Rural Development: Year Ender 2025",
+  "publisher": "Ministry of Rural Development",
+  "year": 2026,
+  "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2210378&lang=1&reg=1",
+  "kind": "Government page",
+  "expect": [
+   "NSAP",
+   "95.31",
+   "56.73",
+   "200",
+   "60",
+   "79",
+   "500",
+   "80",
+   "300",
+   "40",
+   "20,000"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-india-s6",
+  "type": "source",
+  "countries": [
+   "india"
+  ],
+  "keys": [
+   "india-S6"
+  ],
+  "title": "Cabinet approves continuation of the National Social Assistance Programme for five years from 2026-27 to 2030-31",
+  "publisher": "Government of India",
+  "year": 2026,
+  "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-continuation-of-the-national-social-assistance-programme-for-five-years-from-2026-27-to-2030-31/?comment=disable",
+  "kind": "Government page",
+  "expect": [
+   "375",
+   "625",
+   "40%",
+   "200",
+   "60",
+   "79",
+   "500",
+   "80",
+   "300",
+   "40",
+   "20,000"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261016202215/https://www.pmindia.gov.in/en/news_updates/cabinet-approves-continuation-of-the-national-social-assistance-programme-for-five-years-from-2026-27-to-2030-31/?comment=disable"
+ },
+ {
+  "id": "sp-india-s7",
+  "type": "source",
+  "countries": [
+   "india"
+  ],
+  "keys": [
+   "india-S7"
+  ],
+  "title": "National Food Security Act, 2013",
+  "publisher": "Maharashtra Food, Civil Supplies and Consumer Protection Department",
+  "year": null,
+  "url": "https://s3e21e4e58ad9ab56e8a4634046da90113.s3waas.gov.in/national-food-security-act-2013/",
+  "kind": "Government page",
+  "expect": [
+   "35 kg",
+   "five kg",
+   "2028",
+   "35",
+   "31"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20250418094123/https://s3e21e4e58ad9ab56e8a4634046da90113.s3waas.gov.in/national-food-security-act-2013/"
+ },
+ {
+  "id": "sp-india-s8",
+  "type": "source",
+  "countries": [
+   "india"
+  ],
+  "keys": [
+   "india-S8"
+  ],
+  "title": "Schemes",
+  "publisher": "Ministry of Labour and Employment",
+  "year": null,
+  "url": "https://eshram.gov.in/Schemes",
+  "kind": "Government page",
+  "expect": [
+   "PM-SYM",
+   "PMJJBY",
+   "436",
+   "3,000",
+   "60"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-india-s9",
+  "type": "source",
+  "countries": [
+   "india"
+  ],
+  "keys": [
+   "india-S9"
+  ],
+  "title": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)",
+  "publisher": "Ministry of Labour and Employment",
+  "year": 2025,
+  "url": "https://www.labour.gov.in/static/uploads/2025/06/2e7e01b90e6358cb82f396615fc87a94.pdf",
+  "kind": "Government page",
+  "expect": [
+   "Contribution Structure",
+   "Enrolment Process",
+   "Jan-Dhan",
+   "3,000",
+   "60"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-india-s10",
+  "type": "source",
+  "countries": [
+   "india"
+  ],
+  "keys": [
+   "india-S10"
+  ],
+  "title": "Update on Ayushman Bharat Pradhan Mantri Jan Arogya Yojna (AB PM-JAY)",
+  "publisher": "Ministry of Health and Family Welfare",
+  "year": 2026,
+  "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2290627&lang=1&reg=22",
+  "kind": "Government page",
+  "expect": [
+   "29.05 lakh",
+   "30th",
+   "portability",
+   "70",
+   "30",
+   "29.05"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-india-s11",
+  "type": "source",
+  "countries": [
+   "india"
+  ],
+  "keys": [
+   "india-S11"
+  ],
+  "title": "FAQs related to the benefits for senior citizens under the AB-PMJAY scheme",
+  "publisher": "National Health Authority",
+  "year": null,
+  "url": "https://nha.gov.in/img/resources/English_FAQs_related_to_the_benefits_for_senior_citizens.pdf",
+  "kind": "Government page",
+  "expect": [
+   "Aadhaar",
+   "₹5 lakh",
+   "waiting period",
+   "70"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20251129212708/https://nha.gov.in/img/resources/English_FAQs_related_to_the_benefits_for_senior_citizens.pdf"
+ },
+ {
+  "id": "sp-india-s12",
+  "type": "source",
+  "countries": [
+   "india"
+  ],
+  "keys": [
+   "india-S12"
+  ],
+  "title": "Steps taken to Strengthen Public Healthcare in Rural Areas",
+  "publisher": "Ministry of Health and Family Welfare",
+  "year": 2026,
+  "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2292343&lang=2&reg=48",
+  "kind": "Government page",
+  "expect": [
+   "Free Drugs",
+   "Free Diagnostics",
+   "National Health Mission"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-india-s13",
+  "type": "source",
+  "countries": [
+   "india"
+  ],
+  "keys": [
+   "india-S13"
+  ],
+  "title": "Cabinet approves continuation of the PM-KISAN Scheme from 2026-27 to 2030-31 with a Financial Outlay of Rs.3.15 lakh crore",
+  "publisher": "Government of India",
+  "year": 2026,
+  "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2292437&lang=2&reg=48",
+  "kind": "Government page",
+  "expect": [
+   "PM-KISAN",
+   "6,000",
+   "instalments"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260901022024/https://www.pib.gov.in/PressReleasePage.aspx?PRID=2292437&reg=48&lang=2"
+ },
+ {
+  "id": "sp-india-s14",
+  "type": "source",
+  "countries": [
+   "india"
+  ],
+  "keys": [
+   "india-S14"
+  ],
+  "title": "PM Krishak Samman Nidhi (PM-KISAN)",
+  "publisher": "Department of Agriculture, Government of West Bengal",
+  "year": null,
+  "url": "https://agriculture.wb.gov.in/pm-krishak-samman-nidhi-pm-kisan-",
+  "kind": "Government page",
+  "expect": [
+   "biometric e-KYC",
+   "NPCI",
+   "Block Agriculture Office",
+   "6,000"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-india-s15",
+  "type": "source",
+  "countries": [
+   "india"
+  ],
+  "keys": [
+   "india-S15"
+  ],
+  "title": "Pradhan Mantri Fasal Bima Yojana",
+  "publisher": "Press Information Bureau",
+  "year": 2026,
+  "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2304549&lang=1&reg=48",
+  "kind": "Government page",
+  "expect": [
+   "Kharif 2026",
+   "sharecroppers",
+   "notified",
+   "2",
+   "1.5",
+   "5"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-india-s16",
+  "type": "source",
+  "countries": [
+   "india"
+  ],
+  "keys": [
+   "india-S16"
+  ],
+  "title": "Disaster Management Division",
+  "publisher": "Ministry of Home Affairs",
+  "year": null,
+  "url": "https://www.mha.gov.in/index.php/disaster-management-division",
+  "kind": "Government page",
+  "expect": [
+   "Sixteenth Finance Commission",
+   "31.07.2026",
+   "SDRF"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-india-s18",
+  "type": "source",
+  "countries": [
+   "india"
+  ],
+  "keys": [
+   "india-S18"
+  ],
+  "title": "E-KYC COMPLIANT RATION CARDS",
+  "publisher": "Department of Food and Public Distribution",
+  "year": 2025,
+  "url": "https://sansad.in/getFile/annex/269/AU1793_fjXAYl.pdf?source=pqars",
+  "kind": "Government page",
+  "expect": [
+   "1793",
+   "85.6%",
+   "pendency",
+   "35",
+   "31",
+   "20",
+   "56",
+   "69,243",
+   "79",
+   "61",
+   "02,389",
+   "68",
+   "14",
+   "95,972",
+   "85.6"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261107103523/https://sansad.in/getFile/annex/269/AU1793_fjXAYl.pdf?source=pqars"
+ },
+ {
+  "id": "sp-india-s19",
+  "type": "source",
+  "countries": [
+   "india"
+  ],
+  "keys": [
+   "india-S19"
+  ],
+  "title": "Yearly Gridded Maximum Temperature (1.0 x 1.0) data Binary File",
+  "publisher": "India Meteorological Department",
+  "year": null,
+  "url": "https://imdpune.gov.in/cmpg/Griddata/Max_1_Bin.html",
+  "kind": "Government page",
+  "expect": [
+   "31x31",
+   "1951-2024",
+   "180"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260630131731/https://imdpune.gov.in/cmpg/Griddata/Max_1_Bin.html"
+ },
+ {
+  "id": "sp-india-s20",
+  "type": "source",
+  "countries": [
+   "india"
+  ],
+  "keys": [
+   "india-S20"
+  ],
+  "title": "National Family Health Survey (NFHS-5), 2019-21: India",
+  "publisher": "International Institute for Population Sciences and ICF",
+  "year": 2022,
+  "url": "https://assets.exemplars.health/fd9a20fb-4386-00b3-39a1-1737868b44b7/d4b76902-0381-4d15-9661-9b2e06b58682/10%20National%20Family%20Health%20Survey%205%2020192021.pdf",
+  "kind": "Agency report",
+  "expect": [
+   "636,699",
+   "41.0",
+   "sleeping",
+   "21"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261107103537/https://assets.exemplars.health/fd9a20fb-4386-00b3-39a1-1737868b44b7/d4b76902-0381-4d15-9661-9b2e06b58682/10%20National%20Family%20Health%20Survey%205%2020192021.pdf"
+ },
+ {
+  "id": "sp-india-s21",
+  "type": "source",
+  "countries": [
+   "india"
+  ],
+  "keys": [
+   "india-S21"
+  ],
+  "title": "Archival & Programmatic Access",
+  "publisher": "geoBoundaries",
+  "year": null,
+  "url": "https://www.geoboundaries.org/api.html",
+  "kind": "Agency report",
+  "expect": [
+   "gbOpen",
+   "boundaryID",
+   "boundaryYearRepresented"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261026214345/https://www.geoboundaries.org/api.html"
+ },
+ {
+  "id": "sp-india-s22",
+  "type": "source",
+  "countries": [
+   "india"
+  ],
+  "keys": [
+   "india-S22"
+  ],
+  "title": "Heat causes large earnings losses for informal-sector workers in India",
+  "publisher": "Das and Somanathan",
+  "year": 2024,
+  "url": "https://heathealth.info/wp-content/uploads/Das_2024_Environ._Res._Lett._19_124019.pdf",
+  "kind": "Peer-reviewed study",
+  "expect": [
+   "9972",
+   "396",
+   "40%",
+   "40"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260502063902/https://heathealth.info/wp-content/uploads/Das_2024_Environ._Res._Lett._19_124019.pdf"
+ },
+ {
+  "id": "sp-india-s23",
+  "type": "source",
+  "countries": [
+   "india"
+  ],
+  "keys": [
+   "india-S23"
+  ],
+  "title": "Temperature and Human Capital in India",
+  "publisher": "Garg et al.",
+  "year": 2020,
+  "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/710066",
+  "kind": "Peer-reviewed study",
+  "expect": [
+   "workfare",
+   "test scores",
+   "Agricultural income",
+   "50",
+   "21"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20240405095203/https://www.journals.uchicago.edu/doi/abs/10.1086/710066"
+ },
+ {
+  "id": "sp-india-s24",
+  "type": "source",
+  "countries": [
+   "india"
+  ],
+  "keys": [
+   "india-S24"
+  ],
+  "title": "Insuring Against Extreme Heat: A Randomised Evaluation",
+  "publisher": "Abdul Latif Jameel Poverty Action Lab",
+  "year": 2025,
+  "url": "https://www.povertyactionlab.org/initiative-project/insuring-against-extreme-heat-randomised-evaluation",
+  "kind": "Evaluation",
+  "expect": [
+   "2,821",
+   "Panel survey",
+   "Spring 2025"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260714161406/https://www.povertyactionlab.org/initiative-project/insuring-against-extreme-heat-randomised-evaluation"
+ },
+ {
+  "id": "sp-india-s26",
+  "type": "source",
+  "countries": [
+   "india"
+  ],
+  "keys": [
+   "india-S26"
+  ],
+  "title": "Notes on Demands for Grants, 2026-2027",
+  "publisher": "Government of India",
+  "year": 2026,
+  "url": "https://www.indiabudget.gov.in/doc/eb/sbe1.pdf",
+  "kind": "Government page",
+  "expect": [
+   "MISS",
+   "7%",
+   "4%",
+   "27",
+   "7",
+   "3"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260829081305/https://www.indiabudget.gov.in/doc/eb/sbe1.pdf"
+ },
+ {
+  "id": "sp-india-s27",
+  "type": "source",
+  "countries": [
+   "india"
+  ],
+  "keys": [
+   "india-S27"
+  ],
+  "title": "Frequently Asked Questions",
+  "publisher": "Meghalaya Building and Other Construction Workers Welfare Board",
+  "year": null,
+  "url": "https://megbocwwb.gov.in/faqs",
+  "kind": "Government page",
+  "expect": [
+   "90 days",
+   "Photograph",
+   "Inspector"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260710101412/https://megbocwwb.gov.in/faqs"
+ },
+ {
+  "id": "sp-india-s28",
+  "type": "source",
+  "countries": [
+   "india"
+  ],
+  "keys": [
+   "india-S28"
+  ],
+  "title": "Schemes",
+  "publisher": "Meghalaya Building and Other Construction Workers Welfare Board",
+  "year": null,
+  "url": "https://megbocwwb.gov.in/schemes",
+  "kind": "Government page",
+  "expect": [
+   "Medical Assistance",
+   "five or more",
+   "Subscription"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20251209222309/https://megbocwwb.gov.in/schemes"
+ },
+ {
+  "id": "sp-india-s29",
+  "type": "source",
+  "countries": [
+   "india"
+  ],
+  "keys": [
+   "india-S29"
+  ],
+  "title": "Response Fund",
+  "publisher": "Ministry of Home Affairs",
+  "year": null,
+  "url": "https://ndmindia.mha.gov.in/ndmi/response-fund",
+  "kind": "Government page",
+  "expect": [
+   "Local Disaster",
+   "10 percent",
+   "2021-26"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260309032238/https://ndmindia.mha.gov.in/ndmi/response-fund"
+ },
+ {
+  "id": "sp-india-s30",
+  "type": "source",
+  "countries": [
+   "india"
+  ],
+  "keys": [
+   "india-S30"
+  ],
+  "title": "Temperature and Human Capital in India",
+  "publisher": "Garg et al.",
+  "year": 2020,
+  "url": "https://scispace.com/pdf/temperature-and-human-capital-in-india-2r19t8guj9.pdf",
+  "kind": "Working paper",
+  "expect": [
+   "intent-to-",
+   "50%",
+   "4.5 million",
+   "50",
+   "21"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-india-s32",
+  "type": "source",
+  "countries": [
+   "india"
+  ],
+  "keys": [
+   "india-S32"
+  ],
+  "title": "Direct Benefit Transfers",
+  "publisher": "India Post Payments Bank",
+  "year": null,
+  "url": "https://ippbonline.bank.in/web/ippb/direct-benefit-transfers",
+  "kind": "Government page",
+  "expect": [
+   "Seeding",
+   "Post Office",
+   "consent"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-india-s33",
+  "type": "source",
+  "countries": [
+   "india"
+  ],
+  "keys": [
+   "india-S33"
+  ],
+  "title": "Legal Aid",
+  "publisher": "National Legal Services Authority",
+  "year": null,
+  "url": "https://nalsa.gov.in/legal-aid/",
+  "kind": "Government page",
+  "expect": [
+   "orally",
+   "Para Legal Volunteers",
+   "front office"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261008210157/https://nalsa.gov.in/legal-aid/"
+ },
+ {
+  "id": "sp-indonesia-i1",
+  "type": "source",
+  "countries": [
+   "indonesia"
+  ],
+  "keys": [
+   "indonesia-I1"
+  ],
+  "title": "Portal Perlinsos - Kesejahteraan Sosial untuk Semua",
+  "publisher": "Ministry of Social Affairs",
+  "year": null,
+  "url": "https://perlinsos.kemensos.go.id/",
+  "kind": "Government page",
+  "expect": [
+   "PKH",
+   "Sembako",
+   "Agen",
+   "200.000",
+   "00"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-indonesia-i2",
+  "type": "source",
+  "countries": [
+   "indonesia"
+  ],
+  "keys": [
+   "indonesia-I2"
+  ],
+  "title": "Keputusan Menteri Sosial Republik Indonesia Nomor 106/HUK/2026 tentang Penetapan Jumlah Alokasi Keluarga Penerima Manfaat dan Besaran Nilai Bantuan Program Keluarga Harapan Tahun 2026",
+  "publisher": "Ministry of Social Affairs",
+  "year": 2026,
+  "url": "https://jdih.kemensos.go.id/detail/keputusan-menteri-sosial-republik-indonesia-nomor-106huk2026-ggGnNohlR5",
+  "kind": "Government page",
+  "expect": [
+   "106",
+   "2026",
+   "Program Keluarga Harapan"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-indonesia-i3",
+  "type": "source",
+  "countries": [
+   "indonesia"
+  ],
+  "keys": [
+   "indonesia-I3"
+  ],
+  "title": "Keputusan Menteri Sosial Republik Indonesia Nomor 33/HUK/2026 Tentang Penetapan Jumlah Alokasi Keluarga Penerima Manfaat Dan Besaran Nilai Bantuan Program Sembako Tahun 2026",
+  "publisher": "Ministry of Social Affairs",
+  "year": 2026,
+  "url": "https://jdih.kemensos.go.id/detail/keputusan-menteri-sosial-republik-indonesia-nomor-33huk2026-wt8GReCOMq",
+  "kind": "Government page",
+  "expect": [
+   "33",
+   "2026",
+   "Sembako",
+   "200.000",
+   "00"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-indonesia-i4",
+  "type": "source",
+  "countries": [
+   "indonesia"
+  ],
+  "keys": [
+   "indonesia-I4"
+  ],
+  "title": "Pastikan Tepat Sasaran, Pemerintah Salurkan Bansos kepada Lebih dari 18 Juta KPM",
+  "publisher": "Ministry of State Secretariat",
+  "year": 2026,
+  "url": "https://www.setneg.go.id/baca/index/pastikan_tepat_sasaran_pemerintah_salurkan_bansos_kepada_lebih_dari_18_juta_kpm",
+  "kind": "Government page",
+  "expect": [
+   "7 juta",
+   "12 juta",
+   "07 Agustus 2026",
+   "200.000",
+   "00",
+   "12"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261107103910/https://www.setneg.go.id/baca/index/pastikan_tepat_sasaran_pemerintah_salurkan_bansos_kepada_lebih_dari_18_juta_kpm"
+ },
+ {
+  "id": "sp-indonesia-i5",
+  "type": "source",
+  "countries": [
+   "indonesia"
+  ],
+  "keys": [
+   "indonesia-I5"
+  ],
+  "title": "Manfaat Bukan Penerima Upah",
+  "publisher": "BPJS Ketenagakerjaan",
+  "year": null,
+  "url": "https://www.bpjsketenagakerjaan.go.id/Bukan-Penerima-Upah.html",
+  "kind": "Government page",
+  "expect": [
+   "PERISAI",
+   "Jaminan Kecelakaan Kerja",
+   "Jaminan Hari Tua",
+   "20.000",
+   "000",
+   "12.000",
+   "10.000"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260818051119/https://www.bpjsketenagakerjaan.go.id/bukan-penerima-upah.html"
+ },
+ {
+  "id": "sp-indonesia-i6",
+  "type": "source",
+  "countries": [
+   "indonesia"
+  ],
+  "keys": [
+   "indonesia-I6"
+  ],
+  "title": "Jaminan Keselamatan Kerja untuk Jasa Konstruksi (Jakon)",
+  "publisher": "BPJS Ketenagakerjaan",
+  "year": null,
+  "url": "https://www.bpjsketenagakerjaan.go.id/jasa-konstruksi.html",
+  "kind": "Government page",
+  "expect": [
+   "Jasa Konstruksi",
+   "STMB",
+   "100%",
+   "100",
+   "50"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261007174054/https://www.bpjsketenagakerjaan.go.id/jasa-konstruksi.html"
+ },
+ {
+  "id": "sp-indonesia-i7",
+  "type": "source",
+  "countries": [
+   "indonesia"
+  ],
+  "keys": [
+   "indonesia-I7"
+  ],
+  "title": "Cek Informasi Detail Jaminan Kehilangan Pekerjaan",
+  "publisher": "BPJS Ketenagakerjaan",
+  "year": null,
+  "url": "https://www.bpjsketenagakerjaan.go.id/jaminan-kehilangan-pekerjaan.html",
+  "kind": "Government page",
+  "expect": [
+   "60%",
+   "6 (enam) bulan",
+   "5.000.000",
+   "60",
+   "5.000",
+   "000",
+   "00"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261014123228/https://www.bpjsketenagakerjaan.go.id/jaminan-kehilangan-pekerjaan.html"
+ },
+ {
+  "id": "sp-indonesia-i8",
+  "type": "source",
+  "countries": [
+   "indonesia"
+  ],
+  "keys": [
+   "indonesia-I8"
+  ],
+  "title": "Bantuan Subsidi Upah 2026",
+  "publisher": "Ministry of Manpower",
+  "year": 2026,
+  "url": "https://bsu.kemnaker.go.id/",
+  "kind": "Government page",
+  "expect": [
+   "Rp900.000",
+   "Agustus 2026",
+   "Nomor Induk Kependudukan",
+   "300.000",
+   "900.000"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260801004521/https://bsu.kemnaker.go.id/"
+ },
+ {
+  "id": "sp-indonesia-i9",
+  "type": "source",
+  "countries": [
+   "indonesia"
+  ],
+  "keys": [
+   "indonesia-I9"
+  ],
+  "title": "Peluncuran Program NADI JKN untuk Menjaga Keaktifan Kepersertaan",
+  "publisher": "National Social Security Council",
+  "year": 2026,
+  "url": "https://djsn.go.id/berita/peluncuran-program-nadi-jkn-untuk-menjaga-keaktifan-kepersertaan",
+  "kind": "Government page",
+  "expect": [
+   "80,25",
+   "98,60",
+   "30 Juni 2026",
+   "30",
+   "98",
+   "60",
+   "80",
+   "25"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-indonesia-i10",
+  "type": "source",
+  "countries": [
+   "indonesia"
+  ],
+  "keys": [
+   "indonesia-I10"
+  ],
+  "title": "Kredit Usaha Rakyat (KUR)",
+  "publisher": "Bank Rakyat Indonesia",
+  "year": 2026,
+  "url": "https://bri.co.id/web/guest/promo-detail/900",
+  "kind": "Government page",
+  "expect": [
+   "2026",
+   "3%",
+   "6%",
+   "10",
+   "3",
+   "100",
+   "6"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-indonesia-i11",
+  "type": "source",
+  "countries": [
+   "indonesia"
+  ],
+  "keys": [
+   "indonesia-I11"
+  ],
+  "title": "Asuransi Usaha Tani Padi (AUTP)",
+  "publisher": "Ministry of Agriculture",
+  "year": null,
+  "url": "https://psp.pertanian.go.id/faq/kategori/14",
+  "kind": "Government page",
+  "expect": [
+   "36.000",
+   "144.000",
+   "6.000.000",
+   "6.000",
+   "000",
+   "10"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-indonesia-i12",
+  "type": "source",
+  "countries": [
+   "indonesia"
+  ],
+  "keys": [
+   "indonesia-I12"
+  ],
+  "title": "Kementan Alokasikan AUTP untuk 100 Ribu Hektare, Lindungi Petani Hadapi El Nino",
+  "publisher": "Ministry of Agriculture",
+  "year": 2026,
+  "url": "https://psp.pertanian.go.id/berita/kementan-alokasikan-autp-untuk-100-ribu-hektare-lindungi-petani-hadapi-el-nino",
+  "kind": "Government page",
+  "expect": [
+   "AUTP",
+   "2026",
+   "100 ribu",
+   "36.000",
+   "6.000",
+   "000",
+   "10"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-indonesia-i13",
+  "type": "source",
+  "countries": [
+   "indonesia"
+  ],
+  "keys": [
+   "indonesia-I13"
+  ],
+  "title": "Pemberian bantuan BLT",
+  "publisher": "Kemendukbangga / BKKBN community activity portal",
+  "year": 2026,
+  "url": "https://kampungkb.kemendukbangga.go.id/kampung/51368/intervensi/2776097/pemberian-bantuan-blt",
+  "kind": "Government page",
+  "expect": [
+   "300.000",
+   "2026",
+   "Musyawarah Desa"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-indonesia-i14",
+  "type": "source",
+  "countries": [
+   "indonesia"
+  ],
+  "keys": [
+   "indonesia-I14"
+  ],
+  "title": "Keputusan Menteri Sosial Republik Indonesia Nomor 2/HUK/2026 tentang Bantuan Sosial bagi Korban Bencana Alam di Aceh, Provinsi Sumatera Utara, dan Provinsi Sumatera Barat",
+  "publisher": "Ministry of Social Affairs",
+  "year": 2026,
+  "url": "https://jdih.kemensos.go.id/detail/keputusan-menteri-sosial-republik-indonesia-nomor-2huk2026-t-MtOzARJBIM",
+  "kind": "Government page",
+  "expect": [
+   "2/HUK/2026",
+   "Aceh",
+   "Sumatera Barat"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-indonesia-i15",
+  "type": "source",
+  "countries": [
+   "indonesia"
+  ],
+  "keys": [
+   "indonesia-I15"
+  ],
+  "title": "Temperature and non-communicable diseases: Evidence from Indonesia's primary health care system",
+  "publisher": "Fritz",
+  "year": 2022,
+  "url": "https://onlinelibrary.wiley.com/doi/10.1002/hec.4590",
+  "kind": "Peer-reviewed study",
+  "expect": [
+   "8%",
+   "25%",
+   "14%",
+   "30",
+   "8",
+   "25",
+   "14",
+   "25.5",
+   "27"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20250323005243/https://onlinelibrary.wiley.com/doi/10.1002/hec.4590"
+ },
+ {
+  "id": "sp-indonesia-i16",
+  "type": "source",
+  "countries": [
+   "indonesia"
+  ],
+  "keys": [
+   "indonesia-I16"
+  ],
+  "title": "Enrolling Informal Sector Workers in National Health Insurance in Indonesia",
+  "publisher": "J-PAL",
+  "year": null,
+  "url": "https://www.povertyactionlab.org/evaluation/enrolling-informal-sector-workers-national-health-insurance-indonesia",
+  "kind": "Evaluation",
+  "expect": [
+   "5,996",
+   "3.5 percentage points",
+   "additional information",
+   "3.5",
+   "18.6",
+   "7.8"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260508094918/https://www.povertyactionlab.org/evaluation/enrolling-informal-sector-workers-national-health-insurance-indonesia"
+ },
+ {
+  "id": "sp-indonesia-i17",
+  "type": "source",
+  "countries": [
+   "indonesia"
+  ],
+  "keys": [
+   "indonesia-I17"
+  ],
+  "title": "The Medium-Term Impact of Conditional Cash Transfers on Health and Education in Indonesia",
+  "publisher": "J-PAL",
+  "year": null,
+  "url": "https://www.povertyactionlab.org/evaluation/medium-term-impact-conditional-cash-transfers-health-and-education-indonesia",
+  "kind": "Evaluation",
+  "expect": [
+   "13,619",
+   "360 sub-districts",
+   "Household consumption",
+   "23"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260520191953/https://www.povertyactionlab.org/evaluation/medium-term-impact-conditional-cash-transfers-health-and-education-indonesia"
+ },
+ {
+  "id": "sp-indonesia-i18",
+  "type": "source",
+  "countries": [
+   "indonesia"
+  ],
+  "keys": [
+   "indonesia-I18"
+  ],
+  "title": "Cumulative Impacts of Conditional Cash Transfer Programs: Experimental Evidence from Indonesia",
+  "publisher": "Cahyadi et al.",
+  "year": 2020,
+  "url": "https://swlb1.aeaweb.org/articles?id=10.1257/pol.20190245",
+  "kind": "Peer-reviewed study",
+  "expect": [
+   "23 percent",
+   "six years",
+   "2020",
+   "23"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-indonesia-iw",
+  "type": "source",
+  "countries": [
+   "indonesia"
+  ],
+  "keys": [
+   "indonesia-Iw"
+  ],
+  "title": "Age and sex structures",
+  "publisher": "WorldPop, University of Southampton",
+  "year": 2025,
+  "url": "https://hub.worldpop.org/geodata/summary?id=81578",
+  "kind": "Agency report",
+  "expect": [
+   "2020",
+   "Geotiff",
+   "WGS84"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-indonesia-ib",
+  "type": "source",
+  "countries": [
+   "indonesia"
+  ],
+  "keys": [
+   "indonesia-Ib"
+  ],
+  "title": "geoBoundaries gbOpen IDN ALL API metadata",
+  "publisher": "geoBoundaries",
+  "year": 2023,
+  "url": "https://www.geoboundaries.org/api/current/gbOpen/IDN/ALL/",
+  "kind": "Agency report",
+  "expect": [
+   "ADM1",
+   "boundaryYearRepresented",
+   "Open Database License"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260613213131/https://www.geoboundaries.org/api/current/gbOpen/IDN/ALL/"
+ },
+ {
+  "id": "sp-nepal-n1",
+  "type": "source",
+  "countries": [
+   "nepal"
+  ],
+  "keys": [
+   "nepal-N1"
+  ],
+  "title": "प्राय सोधिने प्रश्नहरु : सामाजिक सुरक्षा",
+  "publisher": "Department of National ID and Civil Registration",
+  "year": null,
+  "url": "https://www.donidcr.gov.np/pages/mostly-asked-questions--social-security-4/",
+  "kind": "Government page",
+  "expect": [
+   "सामाजिक सुरक्षा",
+   "४०००",
+   "बसाइँ",
+   "4,000",
+   "2,660",
+   "3,990",
+   "2,128",
+   "532",
+   "27",
+   "1,000"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260510211823/https://donidcr.gov.np/pages/mostly-asked-questions--social-security-4/"
+ },
+ {
+  "id": "sp-nepal-n2",
+  "type": "source",
+  "countries": [
+   "nepal"
+  ],
+  "keys": [
+   "nepal-N2"
+  ],
+  "title": "Social Security Allowance Rate",
+  "publisher": "Department of National ID and Civil Registration",
+  "year": null,
+  "url": "https://donidcr.gov.np/pages/social-security-allowance-rate/",
+  "kind": "Government page",
+  "expect": [
+   "Social Security Allowance Rate",
+   "४०००",
+   "५३२",
+   "4,000",
+   "2,660",
+   "3,990",
+   "2,128",
+   "532",
+   "27",
+   "1,000"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260608171214/https://donidcr.gov.np/pages/social-security-allowance-rate/"
+ },
+ {
+  "id": "sp-nepal-n3",
+  "type": "source",
+  "countries": [
+   "nepal"
+  ],
+  "keys": [
+   "nepal-N3"
+  ],
+  "title": "Nepal Federal Budget Brief: Fiscal Year 2026/27 (2083/84 B.S.)",
+  "publisher": "UNICEF Nepal",
+  "year": 2026,
+  "url": "https://www.unicef.org/nepal/media/31216/file/Federal%20Budget%20Brief-2026_UNICEF_Web%20Version.pdf.pdf",
+  "kind": "Agency report",
+  "expect": [
+   "3,806,634",
+   "1,000",
+   "Table 3",
+   "532",
+   "27"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-nepal-n4",
+  "type": "source",
+  "countries": [
+   "nepal"
+  ],
+  "keys": [
+   "nepal-N4"
+  ],
+  "title": "बारम्बार सोधिने प्रश्नहरू",
+  "publisher": "Health Insurance Board",
+  "year": null,
+  "url": "https://hib.gov.np/faq/",
+  "kind": "Government page",
+  "expect": [
+   "बीमा",
+   "नवीकरण",
+   "१०",
+   "3,500",
+   "100,000"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260507082400/https://hib.gov.np/faq/"
+ },
+ {
+  "id": "sp-nepal-n5",
+  "type": "source",
+  "countries": [
+   "nepal"
+  ],
+  "keys": [
+   "nepal-N5"
+  ],
+  "title": "Status of health insurance enrolment in Nepal and way forward for policy reform",
+  "publisher": "Discover Public Health",
+  "year": 2026,
+  "url": "https://link.springer.com/article/10.1186/s12982-026-01734-3",
+  "kind": "Peer-reviewed study",
+  "expect": [
+   "13.3%",
+   "12.0%",
+   "NDHS 2022",
+   "3,500",
+   "100,000",
+   "13.3",
+   "12.0"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260618091626/https://link.springer.com/article/10.1186/s12982-026-01734-3"
+ },
+ {
+  "id": "sp-nepal-n6",
+  "type": "source",
+  "countries": [
+   "nepal"
+  ],
+  "keys": [
+   "nepal-N6"
+  ],
+  "title": "अनौपचारिक क्षेत्र सामाजिक सुरक्षा योजना",
+  "publisher": "Social Security Fund",
+  "year": null,
+  "url": "https://www.ssf.gov.np/list/operating-schemes/informal-sector-scheme",
+  "kind": "Government page",
+  "expect": [
+   "अनौपचारिक",
+   "सामाजिक सुरक्षा",
+   "योजना",
+   "100,000",
+   "24",
+   "1500"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20250809173638/https://ssf.gov.np/list/operating-schemes/informal-sector-scheme"
+ },
+ {
+  "id": "sp-nepal-n7",
+  "type": "source",
+  "countries": [
+   "nepal"
+  ],
+  "keys": [
+   "nepal-N7"
+  ],
+  "title": "Nepal launches national campaign to bring informal workers into social security",
+  "publisher": "International Labour Organization",
+  "year": 2025,
+  "url": "https://www.ilo.org/resource/news/nepal-launches-national-campaign-bring-informal-workers-social-security",
+  "kind": "Agency report",
+  "expect": [
+   "informal",
+   "1500",
+   "social security",
+   "100,000",
+   "24"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261025225756/https://www.ilo.org/resource/news/nepal-launches-national-campaign-bring-informal-workers-social-security"
+ },
+ {
+  "id": "sp-nepal-n8",
+  "type": "source",
+  "countries": [
+   "nepal"
+  ],
+  "keys": [
+   "nepal-N8"
+  ],
+  "title": "De Jure and De Facto Coverage of Parental Benefits in Nepal",
+  "publisher": "World Bank",
+  "year": 2025,
+  "url": "https://documents1.worldbank.org/curated/en/099021925113581657/pdf/P1766171d407e20f21adde1ba735b9a8b83.pdf",
+  "kind": "Working paper",
+  "expect": [
+   "9 percent",
+   "7 percent",
+   "2023",
+   "15"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-nepal-n9",
+  "type": "source",
+  "countries": [
+   "nepal"
+  ],
+  "keys": [
+   "nepal-N9"
+  ],
+  "title": "The Public Health Service Act, 2075 (2018)",
+  "publisher": "Nepal Law Commission",
+  "year": 2018,
+  "url": "https://hmis.gov.np/media/20/02_The-Public-Health-Service-Act-2075-2018.pdf",
+  "kind": "Government page",
+  "expect": [
+   "basic health",
+   "emergency",
+   "2018"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-nepal-n10",
+  "type": "source",
+  "countries": [
+   "nepal"
+  ],
+  "keys": [
+   "nepal-N10"
+  ],
+  "title": "कार्यक्रम परिचय",
+  "publisher": "National Employment Promotion Programme, Government of Nepal",
+  "year": null,
+  "url": "https://nepp.gov.np/nepp-introduction",
+  "kind": "Government page",
+  "expect": [
+   "रोजगार",
+   "२०८२",
+   "कार्यक्रम"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260614163348/http://www.nepp.gov.np/nepp-introduction"
+ },
+ {
+  "id": "sp-nepal-n11",
+  "type": "source",
+  "countries": [
+   "nepal"
+  ],
+  "keys": [
+   "nepal-N11"
+  ],
+  "title": "Exploring outdoor workers’ knowledge, attitudes, practices, and perceived risks of heatwaves in Nepal",
+  "publisher": "Sharma et al.",
+  "year": 2025,
+  "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0329557",
+  "kind": "Peer-reviewed study",
+  "expect": [
+   "356",
+   "43%",
+   "heatwaves",
+   "43"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260527045123/https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0329557"
+ },
+ {
+  "id": "sp-nepal-n12",
+  "type": "source",
+  "countries": [
+   "nepal"
+  ],
+  "keys": [
+   "nepal-N12"
+  ],
+  "title": "Simplified Early Action Protocol: Nepal | Urban Heatwave",
+  "publisher": "International Federation of Red Cross and Red Crescent Societies / Nepal Red Cross Society",
+  "year": 2025,
+  "url": "https://go-api.ifrc.org/api/downloadfile/93851/sEAP2025NP02_MDRNP020",
+  "kind": "Agency report",
+  "expect": [
+   "1,200",
+   "2025",
+   "Heatwave"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-nepal-n14",
+  "type": "source",
+  "countries": [
+   "nepal"
+  ],
+  "keys": [
+   "nepal-N14"
+  ],
+  "title": "Census Dataset",
+  "publisher": "National Statistics Office",
+  "year": null,
+  "url": "https://censusresults.nsonepal.gov.np/downloads/census-dataset",
+  "kind": "Government page",
+  "expect": [
+   "Census Dataset",
+   "type of roof",
+   "type of disability"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260514192453/https://censusresults.nsonepal.gov.np/downloads/census-dataset"
+ },
+ {
+  "id": "sp-nepal-n15",
+  "type": "source",
+  "countries": [
+   "nepal"
+  ],
+  "keys": [
+   "nepal-N15"
+  ],
+  "title": "geoBoundaries gbOpen NPL ADM1 API metadata",
+  "publisher": "geoBoundaries",
+  "year": 2023,
+  "url": "https://www.geoboundaries.org/api/current/gbOpen/NPL/ADM1/",
+  "kind": "Agency report",
+  "expect": [
+   "NPL",
+   "ADM1",
+   "2020"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261107104358/https://www.geoboundaries.org/api/current/gbOpen/NPL/ADM1/"
+ },
+ {
+  "id": "sp-nepal-n17",
+  "type": "source",
+  "countries": [
+   "nepal"
+  ],
+  "keys": [
+   "nepal-N17"
+  ],
+  "title": "Social Protection Response (SPR) Annual Report 2024-2025",
+  "publisher": "World Bank",
+  "year": 2025,
+  "url": "https://thedocs.worldbank.org/en/doc/46a4c8089e04edb210173fc3192b8526-0060072025/original/Social-Protection-Response-Annual-Report-September-2025.pdf",
+  "kind": "Agency report",
+  "expect": [
+   "Nepal",
+   "2025",
+   "Standards"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260819113441/https://thedocs.worldbank.org/en/doc/46a4c8089e04edb210173fc3192b8526-0060072025/original/Social-Protection-Response-Annual-Report-September-2025.pdf"
+ },
+ {
+  "id": "sp-nepal-n18",
+  "type": "source",
+  "countries": [
+   "nepal"
+  ],
+  "keys": [
+   "nepal-N18"
+  ],
+  "title": "Ensuring access to social security allowances in Nepal: Guidance for local governments on developing and implementing a standard operating procedure",
+  "publisher": "Save the Children",
+  "year": 2026,
+  "url": "https://resourcecentre.savethechildren.net/document/ensuring-access-to-social-security-allowances-in-nepal-guidance-for-local-governments-on-developing-and-implementing-a-standard-operating-procedure",
+  "kind": "Agency report",
+  "expect": [
+   "Nepal",
+   "2026",
+   "local governments"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-nepal-n20",
+  "type": "source",
+  "countries": [
+   "nepal"
+  ],
+  "keys": [
+   "nepal-N20"
+  ],
+  "title": "INFF Integrated National Financing Strategy 2026",
+  "publisher": "United Nations Development Programme / Ministry of Finance",
+  "year": 2026,
+  "url": "https://www.undp.org/nepal/publications/inff-integrated-national-financing-strategy-2026",
+  "kind": "Agency report",
+  "expect": [
+   "February 13, 2026",
+   "Ministry of Finance",
+   "climate",
+   "80"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260611131117/https://www.undp.org/nepal/publications/inff-integrated-national-financing-strategy-2026"
+ },
+ {
+  "id": "sp-nepal-n21",
+  "type": "source",
+  "countries": [
+   "nepal"
+  ],
+  "keys": [
+   "nepal-N21"
+  ],
+  "title": "Integrated National Financing Framework Financing Strategy for Pro-Employment Economic Growth of Nepal with Action Plan",
+  "publisher": "Ministry of Finance / United Nations Development Programme",
+  "year": 2026,
+  "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-02/final_web_version_infs_9_feb_2026_0.pdf",
+  "kind": "Agency report",
+  "expect": [
+   "insurance",
+   "80",
+   "agriculture"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260611221731/https://www.undp.org/sites/g/files/zskgke326/files/2026-02/final_web_version_infs_9_feb_2026_0.pdf"
+ },
+ {
+  "id": "sp-nepal-n22",
+  "type": "source",
+  "countries": [
+   "nepal"
+  ],
+  "keys": [
+   "nepal-N22"
+  ],
+  "title": "स्वास्थ्य बीमा बोर्डको सुबिधा थैली (तेस्रो संशोधन), 2083",
+  "publisher": "Health Insurance Board",
+  "year": 2026,
+  "url": "https://hib.gov.np/content/317/latest-updated-benefit-package-may-2026/",
+  "kind": "Government page",
+  "expect": [
+   "2083",
+   "स्वास्थ्य",
+   "बीमा",
+   "3,500",
+   "100,000"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-singapore-s1",
+  "type": "source",
+  "countries": [
+   "singapore"
+  ],
+  "keys": [
+   "singapore-S1"
+  ],
+  "title": "How do I apply for the ComCare Short-to-Medium-Term Assistance (SMTA)?",
+  "publisher": "Ministry of Social and Family Development",
+  "year": null,
+  "url": "https://ask.gov.sg/msf/questions/cls1lenhf00lsjzsgm0r5ahon?from=quicklinks",
+  "kind": "Government page",
+  "expect": [
+   "SupportGoWhere",
+   "bank balance",
+   "Singpass"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20251222003712/https://ask.gov.sg/msf/questions/cls1lenhf00lsjzsgm0r5ahon?from=quicklinks"
+ },
+ {
+  "id": "sp-singapore-s2",
+  "type": "source",
+  "countries": [
+   "singapore"
+  ],
+  "keys": [
+   "singapore-S2"
+  ],
+  "title": "How much more ComCare Short-to-Medium-Term Assistance (SMTA) cash assistance can I expect to receive under the new rates announced in Budget 2025?",
+  "publisher": "Ministry of Social and Family Development",
+  "year": null,
+  "url": "https://ask.gov.sg/msf/questions/cm7iuhxgq015iyb4u6ij6meyp?from=topics",
+  "kind": "Government page",
+  "expect": [
+   "Household composition",
+   "Specific needs",
+   "Income level"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-singapore-s3",
+  "type": "source",
+  "countries": [
+   "singapore"
+  ],
+  "keys": [
+   "singapore-S3"
+  ],
+  "title": "How much more ComCare Long-Term Assistance (LTA) will I receive under the new rates announced in Budget 2025?",
+  "publisher": "Ministry of Social and Family Development",
+  "year": null,
+  "url": "https://ask.gov.sg/msf/questions/cm7itoel70155yb4uyejmqsbn",
+  "kind": "Government page",
+  "expect": [
+   "$760",
+   "$1,250",
+   "April 2025",
+   "760",
+   "1,250"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260104200303/https://ask.gov.sg/msf/questions/cm7itoel70155yb4uyejmqsbn"
+ },
+ {
+  "id": "sp-singapore-s4",
+  "type": "source",
+  "countries": [
+   "singapore"
+  ],
+  "keys": [
+   "singapore-S4"
+  ],
+  "title": "How long is the ComCare assistance given for?",
+  "publisher": "Ministry of Social and Family Development",
+  "year": null,
+  "url": "https://ask.gov.sg/msf/questions/cls1lenha00j3jzsg08fudd5y?from=topics",
+  "kind": "Government page",
+  "expect": [
+   "3 to 6 months",
+   "permanently unable to work",
+   "Social Service Office",
+   "760",
+   "1,250"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20250907212221/https://ask.gov.sg/msf/questions/cls1lenha00j3jzsg08fudd5y?from=topics"
+ },
+ {
+  "id": "sp-singapore-s5",
+  "type": "source",
+  "countries": [
+   "singapore"
+  ],
+  "keys": [
+   "singapore-S5"
+  ],
+  "title": "Managing Cost of Living in Singapore",
+  "publisher": "Government of Singapore",
+  "year": 2026,
+  "url": "https://www.gov.sg/features/cost-of-living/",
+  "kind": "Government page",
+  "expect": [
+   "4 November 2026",
+   "$500",
+   "$250",
+   "250",
+   "500",
+   "190"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261019095112/https://www.gov.sg/features/cost-of-living/"
+ },
+ {
+  "id": "sp-singapore-s6",
+  "type": "source",
+  "countries": [
+   "singapore"
+  ],
+  "keys": [
+   "singapore-S6"
+  ],
+  "title": "Workfare Income Supplement",
+  "publisher": "Central Provident Fund Board",
+  "year": 2026,
+  "url": "https://www.cpf.gov.sg/member/growing-your-savings/government-support/workfare-income-supplement",
+  "kind": "Government page",
+  "expect": [
+   "1.13 million",
+   "February 2026",
+   "40%",
+   "40",
+   "60",
+   "1.13"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261019181806/https://www.cpf.gov.sg/member/growing-your-savings/government-support/workfare-income-supplement"
+ },
+ {
+  "id": "sp-singapore-s7",
+  "type": "source",
+  "countries": [
+   "singapore"
+  ],
+  "keys": [
+   "singapore-S7"
+  ],
+  "title": "Workfare Income Supplement Employee Work Year 2026 Calculator",
+  "publisher": "Central Provident Fund Board",
+  "year": 2026,
+  "url": "https://www.cpf.gov.sg/member/tools-and-services/calculators/workfare-income-supplement-employee-work-year-2026-calculator",
+  "kind": "Government page",
+  "expect": [
+   "Work Year 2026",
+   "$3,000",
+   "two months",
+   "40",
+   "60"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260412225215/https://www.cpf.gov.sg/member/tools-and-services/calculators/workfare-income-supplement-employee-work-year-2026-calculator"
+ },
+ {
+  "id": "sp-singapore-s8",
+  "type": "source",
+  "countries": [
+   "singapore"
+  ],
+  "keys": [
+   "singapore-S8"
+  ],
+  "title": "Silver Support Scheme",
+  "publisher": "Ministry of Manpower",
+  "year": null,
+  "url": "https://www.mom.gov.sg/employment-practices/silver-support-scheme",
+  "kind": "Government page",
+  "expect": [
+   "$1,080",
+   "$215",
+   "No application is needed",
+   "215",
+   "1,080"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260412230859/https://www.mom.gov.sg/employment-practices/silver-support-scheme"
+ },
+ {
+  "id": "sp-singapore-s9",
+  "type": "source",
+  "countries": [
+   "singapore"
+  ],
+  "keys": [
+   "singapore-S9"
+  ],
+  "title": "MediShield Life Benefits",
+  "publisher": "Ministry of Health",
+  "year": 2026,
+  "url": "https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/medishield-life/medishield-life-benefits/",
+  "kind": "Government page",
+  "expect": [
+   "1 June 2026",
+   "$200,000",
+   "No Limit",
+   "200,000"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260824011027/https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/medishield-life/medishield-life-benefits/"
+ },
+ {
+  "id": "sp-singapore-s10",
+  "type": "source",
+  "countries": [
+   "singapore"
+  ],
+  "keys": [
+   "singapore-S10"
+  ],
+  "title": "Managing medical bills",
+  "publisher": "Ministry of Health",
+  "year": 2024,
+  "url": "https://www.moh.gov.sg/managing-expenses/keeping-healthcare-affordable/managing-medical-bills/",
+  "kind": "Government page",
+  "expect": [
+   "MediSave",
+   "Permanent Residents",
+   "MediFund",
+   "200,000"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260720060548/https://www.moh.gov.sg/managing-expenses/keeping-healthcare-affordable/managing-medical-bills/"
+ },
+ {
+  "id": "sp-singapore-s11",
+  "type": "source",
+  "countries": [
+   "singapore"
+  ],
+  "keys": [
+   "singapore-S11"
+  ],
+  "title": "MediFund",
+  "publisher": "Ministry of Health",
+  "year": 2024,
+  "url": "https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/medifund/",
+  "kind": "Government page",
+  "expect": [
+   "Medical Social Workers",
+   "Singapore citizen",
+   "MediFund Committee"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261025193324/https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/medifund/"
+ },
+ {
+  "id": "sp-singapore-s12",
+  "type": "source",
+  "countries": [
+   "singapore"
+  ],
+  "keys": [
+   "singapore-S12"
+  ],
+  "title": "Community Health Assist Scheme (CHAS)",
+  "publisher": "Ministry of Health",
+  "year": 2025,
+  "url": "https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/chas/",
+  "kind": "Government page",
+  "expect": [
+   "$18.50",
+   "Common illness",
+   "Singapore Citizens",
+   "18.50"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261025193337/https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/chas/"
+ },
+ {
+  "id": "sp-singapore-s13",
+  "type": "source",
+  "countries": [
+   "singapore"
+  ],
+  "keys": [
+   "singapore-S13"
+  ],
+  "title": "Types of compensation under WICA",
+  "publisher": "Ministry of Manpower",
+  "year": null,
+  "url": "https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation/types-of-compensation",
+  "kind": "Government page",
+  "expect": [
+   "$53,000",
+   "Medical leave wages",
+   "one year",
+   "53,000"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260709054603/https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation/types-of-compensation"
+ },
+ {
+  "id": "sp-singapore-s14",
+  "type": "source",
+  "countries": [
+   "singapore"
+  ],
+  "keys": [
+   "singapore-S14"
+  ],
+  "title": "FAQs on Heat stress measures for outdoor work",
+  "publisher": "Ministry of Manpower",
+  "year": null,
+  "url": "https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work/faqs-on-heat-stress-measures-for-outdoor-work",
+  "kind": "Government page",
+  "expect": [
+   "paid working hours",
+   "WICA",
+   "heat-related illness",
+   "53,000"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260412002203/https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work/faqs-on-heat-stress-measures-for-outdoor-work"
+ },
+ {
+  "id": "sp-singapore-s15",
+  "type": "source",
+  "countries": [
+   "singapore"
+  ],
+  "keys": [
+   "singapore-S15"
+  ],
+  "title": "Updated coverage of reportable and compensable occupational diseases (ODs) under WSHA and WICA",
+  "publisher": "Ministry of Manpower",
+  "year": 2025,
+  "url": "https://www.mom.gov.sg/workplace-safety-and-health/od-under-wsha-and-wica",
+  "kind": "Government page",
+  "expect": [
+   "Diseases caused by excessive heat",
+   "1 December 2025",
+   "platform workers",
+   "53,000"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261022040432/https://www.mom.gov.sg/workplace-safety-and-health/od-under-wsha-and-wica"
+ },
+ {
+  "id": "sp-singapore-s16",
+  "type": "source",
+  "countries": [
+   "singapore"
+  ],
+  "keys": [
+   "singapore-S16"
+  ],
+  "title": "What is the Primary Care Plan (PCP)",
+  "publisher": "Ministry of Manpower",
+  "year": null,
+  "url": "https://www.mom.gov.sg/primary-care-plan/what-is-pcp",
+  "kind": "Government page",
+  "expect": [
+   "7 or more",
+   "Construction",
+   "MDWs"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260727151007/https://www.mom.gov.sg/primary-care-plan/what-is-pcp"
+ },
+ {
+  "id": "sp-singapore-s17",
+  "type": "source",
+  "countries": [
+   "singapore"
+  ],
+  "keys": [
+   "singapore-S17"
+  ],
+  "title": "Enhanced Primary Care Plan brings healthcare closer to migrant workers while lowering or maintaining costs for almost all employers",
+  "publisher": "Ministry of Manpower",
+  "year": 2026,
+  "url": "https://www.mom.gov.sg/newsroom/press-releases/2026/0806-enhanced-primary-care-plan-appointment-of-new-aos",
+  "kind": "Government page",
+  "expect": [
+   "96%",
+   "92%",
+   "May 2025",
+   "92",
+   "96"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-singapore-s18",
+  "type": "source",
+  "countries": [
+   "singapore"
+  ],
+  "keys": [
+   "singapore-S18"
+  ],
+  "title": "Getting primary care services under the Primary Care Plan (PCP)",
+  "publisher": "Ministry of Manpower",
+  "year": null,
+  "url": "https://www.mom.gov.sg/primary-care-plan/getting-primary-care-services",
+  "kind": "Government page",
+  "expect": [
+   "Telemedicine",
+   "Zone A",
+   "acute conditions"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260413104058/https://www.mom.gov.sg/primary-care-plan/getting-primary-care-services"
+ },
+ {
+  "id": "sp-singapore-s19",
+  "type": "source",
+  "countries": [
+   "singapore"
+  ],
+  "keys": [
+   "singapore-S19"
+  ],
+  "title": "MOM Enhances Heat Stress Protection for Workers Amid Rising Heat Risks",
+  "publisher": "Ministry of Manpower",
+  "year": 2026,
+  "url": "https://www.mom.gov.sg/newsroom/press-releases/2026/0828-enhancements-to-heat-stress-framework",
+  "kind": "Government page",
+  "expect": [
+   "1 December 2026",
+   "28 August 2026",
+   "training"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260903060540/https://www.mom.gov.sg/newsroom/press-releases/2026/0828-enhancements-to-heat-stress-framework"
+ },
+ {
+  "id": "sp-singapore-s20",
+  "type": "source",
+  "countries": [
+   "singapore"
+  ],
+  "keys": [
+   "singapore-S20"
+  ],
+  "title": "Heat stress causes lower fertility, productivity and reduced cognitive capacity: Project HeatSafe",
+  "publisher": "National University of Singapore Medicine",
+  "year": 2024,
+  "url": "https://medicine.nus.edu.sg/news/heat-stress-causes-lower-fertility-productivity-and-reduced-cognitive-capacity-project-heatsafe/",
+  "kind": "Agency report",
+  "expect": [
+   "355",
+   "214",
+   "S$21",
+   "21"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260612182037/https://medicine.nus.edu.sg/news/heat-stress-causes-lower-fertility-productivity-and-reduced-cognitive-capacity-project-heatsafe/"
+ },
+ {
+  "id": "sp-singapore-s21",
+  "type": "source",
+  "countries": [
+   "singapore"
+  ],
+  "keys": [
+   "singapore-S21"
+  ],
+  "title": "Need help or advice EN",
+  "publisher": "HealthServe",
+  "year": null,
+  "url": "https://help.healthserve.org.sg/need-help-or-advice/",
+  "kind": "Agency report",
+  "expect": [
+   "WICA",
+   "FREE",
+   "special pass"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260206192108/https://help.healthserve.org.sg/need-help-or-advice/"
+ },
+ {
+  "id": "sp-singapore-s22",
+  "type": "source",
+  "countries": [
+   "singapore"
+  ],
+  "keys": [
+   "singapore-S22"
+  ],
+  "title": "Casework & Social Services",
+  "publisher": "HealthServe",
+  "year": null,
+  "url": "https://healthserve.org.sg/casework-social-services/",
+  "kind": "Agency report",
+  "expect": [
+   "Casework",
+   "Social Services",
+   "emergency financial aid"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260921085122/https://healthserve.org.sg/casework-social-services/"
+ },
+ {
+  "id": "sp-singapore-s23",
+  "type": "source",
+  "countries": [
+   "singapore"
+  ],
+  "keys": [
+   "singapore-S23"
+  ],
+  "title": "Helping workers in need",
+  "publisher": "Transient Workers Count Too",
+  "year": 2026,
+  "url": "https://twc2.org.sg/helping-workers-in-need/",
+  "kind": "Agency report",
+  "expect": [
+   "20,000",
+   "1,500",
+   "DIRECT SERVICES"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260920124452/https://twc2.org.sg/helping-workers-in-need/"
+ },
+ {
+  "id": "sp-singapore-s24",
+  "type": "source",
+  "countries": [
+   "singapore"
+  ],
+  "keys": [
+   "singapore-S24"
+  ],
+  "title": "Enterprise Financing Scheme – SME Working Capital Loan",
+  "publisher": "Enterprise Singapore",
+  "year": 2026,
+  "url": "https://www.enterprisesg.gov.sg/financial-support/enterprise-financing-scheme---sme-working-capital",
+  "kind": "Government page",
+  "expect": [
+   "S$500,000",
+   "70%",
+   "100%",
+   "500,000",
+   "100"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260515202445/https://www.enterprisesg.gov.sg/financial-support/enterprise-financing-scheme---sme-working-capital"
+ },
+ {
+  "id": "sp-singapore-s25",
+  "type": "source",
+  "countries": [
+   "singapore"
+  ],
+  "keys": [
+   "singapore-S25"
+  ],
+  "title": "Agri-food Cluster Transformation (ACT) Fund",
+  "publisher": "Singapore Food Agency",
+  "year": 2026,
+  "url": "https://www.sfa.gov.sg/recognition-programmes-grants/grants/agri-food-cluster-transformation-act-fund",
+  "kind": "Government page",
+  "expect": [
+   "2026",
+   "12 - 20 weeks",
+   "valid farm licence",
+   "12",
+   "20"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261004164552/https://www.sfa.gov.sg/recognition-programmes-grants/grants/agri-food-cluster-transformation-act-fund"
+ },
+ {
+  "id": "sp-singapore-s26",
+  "type": "source",
+  "countries": [
+   "singapore"
+  ],
+  "keys": [
+   "singapore-S26"
+  ],
+  "title": "Resident Population by Planning Area/Subzone of Residence, Age Group and Sex (Census of Population 2020)",
+  "publisher": "Singapore Department of Statistics",
+  "year": 2021,
+  "url": "https://data.gov.sg/datasets/d_d95ae740c0f8961a0b10435836660ce0/view",
+  "kind": "Government page",
+  "expect": [
+   "Census of Population 2020",
+   "Master Plan 2019",
+   "0 - 4"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-singapore-s27",
+  "type": "source",
+  "countries": [
+   "singapore"
+  ],
+  "keys": [
+   "singapore-S27"
+  ],
+  "title": "Master Plan 2019 Planning Area Boundary (No Sea)",
+  "publisher": "Urban Redevelopment Authority",
+  "year": 2025,
+  "url": "https://data.gov.sg/datasets/d_4765db0e87b9c86336792efe8a1f7a66/view",
+  "kind": "Government page",
+  "expect": [
+   "PLN_AREA_N",
+   "PLN_AREA_C",
+   "GEOJSON"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261002092519/https://data.gov.sg/datasets/d_4765db0e87b9c86336792efe8a1f7a66/view"
+ },
+ {
+  "id": "sp-singapore-s28",
+  "type": "source",
+  "countries": [
+   "singapore"
+  ],
+  "keys": [
+   "singapore-S28"
+  ],
+  "title": "Wet Bulb Globe Temperature (WBGT) Observations",
+  "publisher": "National Environment Agency",
+  "year": 2025,
+  "url": "https://data.gov.sg/datasets/d_87884af1f85d702d4f74c6af13b4853d/view",
+  "kind": "Government page",
+  "expect": [
+   "15 minutes",
+   "Feb 2025",
+   "Open Data Licence"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20251226194553/https://data.gov.sg/datasets/d_87884af1f85d702d4f74c6af13b4853d/view"
+ },
+ {
+  "id": "sp-singapore-s29",
+  "type": "source",
+  "countries": [
+   "singapore"
+  ],
+  "keys": [
+   "singapore-S29"
+  ],
+  "title": "Households Assisted Through Comcare Schemes, Annual",
+  "publisher": "Ministry of Social and Family Development / Singapore Department of Statistics",
+  "year": 2026,
+  "url": "https://data.gov.sg/datasets/d_5521441aca9643a2021417e096ea65d0/view",
+  "kind": "Government page",
+  "expect": [
+   "29291",
+   "20825",
+   "3240"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-thailand-t1",
+  "type": "source",
+  "countries": [
+   "thailand"
+  ],
+  "keys": [
+   "thailand-T1"
+  ],
+  "title": "กรมบัญชีกลางอัปเดตสวัสดิการแห่งรัฐ เดือนพฤศจิกายน 2569 จ่ายอะไรบ้าง",
+  "publisher": "Government of Thailand / Comptroller General’s Department",
+  "year": 2026,
+  "url": "https://www.thaigov.go.th/th/news/170664",
+  "kind": "Government page",
+  "expect": [
+   "300",
+   "750",
+   "2569",
+   "800",
+   "200",
+   "20"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-thailand-t2",
+  "type": "source",
+  "countries": [
+   "thailand"
+  ],
+  "keys": [
+   "thailand-T2"
+  ],
+  "title": "การรับเบี้ยผู้สูงอายุ",
+  "publisher": "Department of Older Persons",
+  "year": null,
+  "url": "https://dop.go.th/th/faq/view=967",
+  "kind": "Government page",
+  "expect": [
+   "600",
+   "700",
+   "1,000",
+   "60",
+   "69",
+   "70",
+   "79",
+   "800",
+   "80",
+   "89",
+   "90"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20250423015249/https://www.dop.go.th/th/faq/view=967"
+ },
+ {
+  "id": "sp-thailand-t3",
+  "type": "source",
+  "countries": [
+   "thailand"
+  ],
+  "keys": [
+   "thailand-T3"
+  ],
+  "title": "Over 500,000 Section 40 Insured Persons Rejoice Following Labour Minister’s Drive to Enhance Social Security Benefits Aligned with Current Economic Conditions: Outpatient Medical Compensation Increased from 50 to 200 Baht/Visit; Maximum Income Compensation for Disability Cases Raised from 1,000 to 3,000 Baht",
+  "publisher": "Ministry of Labour",
+  "year": 2026,
+  "url": "https://www.mol.go.th/en/news/over-500000-section-40-insured-persons-rejoice-following-labour-ministers-drive-to-enhance-social-security-benefits-aligned-with-current-economic-conditions-outpatient-medical-compensation-increased-from-50-to-200-baht-visit-maximum-income-compensation-for-disability-cases-raised-from-1000-to-3000-baht",
+  "kind": "Government page",
+  "expect": [
+   "18 Jan 2026",
+   "200 Baht",
+   "70 Baht",
+   "70",
+   "100",
+   "300",
+   "200"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260211025206/https://www.mol.go.th/en/news/over-500000-section-40-insured-persons-rejoice-following-labour-ministers-drive-to-enhance-social-security-benefits-aligned-with-current-economic-conditions-outpatient-medical-compensation-increased-from-50-to-200-baht-visit-maximum-income-compensation-for-disability-cases-raised-from-1000-to-3000-baht"
+ },
+ {
+  "id": "sp-thailand-t4",
+  "type": "source",
+  "countries": [
+   "thailand"
+  ],
+  "keys": [
+   "thailand-T4"
+  ],
+  "title": "รัฐบาลย้ำสิทธิ “ม.33” เจอภัยธรรมชาติจนทำงานไม่ได้ รับเงินว่างงานเหตุสุดวิสัย 50% ไม่เกิน 90 วัน",
+  "publisher": "Government of Thailand / Social Security Office",
+  "year": 2026,
+  "url": "https://www.thaigov.go.th/th/news/169363",
+  "kind": "Government page",
+  "expect": [
+   "50%",
+   "90",
+   "สปส.2-01/7",
+   "50"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-thailand-t5",
+  "type": "source",
+  "countries": [
+   "thailand"
+  ],
+  "keys": [
+   "thailand-T5"
+  ],
+  "title": "เกษตรฯ เผย 3 สิ่ง เกษตรกรควรทำ เพื่อรับการช่วยเหลือ เมื่อประสบภัยพิบัติด้านพืช",
+  "publisher": "Department of Agricultural Extension",
+  "year": 2026,
+  "url": "https://doaenews.doae.go.th/archives/31902",
+  "kind": "Government page",
+  "expect": [
+   "1,340",
+   "1,980",
+   "4,048",
+   "30",
+   "60"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-thailand-t6",
+  "type": "source",
+  "countries": [
+   "thailand"
+  ],
+  "keys": [
+   "thailand-T6"
+  ],
+  "title": "กอช. ชวน “อาชีพอิสระ” ออมเงินรับบำนาญตลอดชีพ พร้อมรับสิทธิ์ลดหย่อนภาษีสูงสุด 30,000 บาท",
+  "publisher": "Government of Thailand / National Savings Fund",
+  "year": 2026,
+  "url": "https://www.thaigov.go.th/th/news/168977",
+  "kind": "Government page",
+  "expect": [
+   "1,800",
+   "15 - 60",
+   "50"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-thailand-t7",
+  "type": "source",
+  "countries": [
+   "thailand"
+  ],
+  "keys": [
+   "thailand-T7"
+  ],
+  "title": "กสร. แนะนายจ้าง-ลูกจ้าง เตรียมความพร้อมกองทุนสงเคราะห์ลูกจ้างรูปแบบใหม่ สร้างหลักประกันแรงงานไทย เริ่มเก็บเงินสะสม 1 ต.ค. 2569",
+  "publisher": "Government of Thailand / Department of Labour Protection and Welfare",
+  "year": 2026,
+  "url": "https://www.thaigov.go.th/th/news/167291",
+  "kind": "Government page",
+  "expect": [
+   "0.25",
+   "25",
+   "1 ตุลาคม 2569"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-thailand-t8",
+  "type": "source",
+  "countries": [
+   "thailand"
+  ],
+  "keys": [
+   "thailand-T8"
+  ],
+  "title": "Launch of Nationwide Disaster Insurance Program Effective 1 October 2026",
+  "publisher": "Government Public Relations Department",
+  "year": 2026,
+  "url": "https://thailand.prd.go.th/en/content/category/detail/id/48/iid/547200",
+  "kind": "Government page",
+  "expect": [
+   "100,000",
+   "October 2026",
+   "earthquakes"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261006200921/https://thailand.prd.go.th/en/content/category/detail/id/48/iid/547200"
+ },
+ {
+  "id": "sp-thailand-t9",
+  "type": "source",
+  "countries": [
+   "thailand"
+  ],
+  "keys": [
+   "thailand-T9"
+  ],
+  "title": "สิทธิกรณีสงเคราะห์บุตร",
+  "publisher": "Social Security Office",
+  "year": 2026,
+  "url": "https://www.sso.go.th/wpr/main/service/%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%AA%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%A1_detail_detail_1_125_694/234_234",
+  "kind": "Government page",
+  "expect": [
+   "1,000",
+   "มาตรา 33",
+   "12 เดือน"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261020173723/https://www.sso.go.th/wpr/main/service/%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B8%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%AA%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%A1_detail_detail_1_125_694/234_234"
+ },
+ {
+  "id": "sp-thailand-t10",
+  "type": "source",
+  "countries": [
+   "thailand"
+  ],
+  "keys": [
+   "thailand-T10"
+  ],
+  "title": "รายงานแสดงความครอบคลุมการลงทะเบียนผู้มีสิทธิ",
+  "publisher": "National Health Security Office",
+  "year": 2026,
+  "url": "https://nhso.gdcatalog.go.th/en/dataset/dataset-rg_13_01",
+  "kind": "Government page",
+  "expect": [
+   "Creative Commons Attributions",
+   "HTML",
+   "February 23, 2026"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20220810222435/https://nhso.gdcatalog.go.th/en/dataset/dataset-rg_13_01"
+ },
+ {
+  "id": "sp-thailand-t11",
+  "type": "source",
+  "countries": [
+   "thailand"
+  ],
+  "keys": [
+   "thailand-T11"
+  ],
+  "title": "จำนวนผู้ประกันตนในระบบประกันสังคม",
+  "publisher": "Social Security Office / data.go.th",
+  "year": 2026,
+  "url": "https://data.go.th/th/dataset/sso-total-insured-persons",
+  "kind": "Government page",
+  "expect": [
+   "มาตรา 33",
+   "มาตรา 39",
+   "Open Data Common"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-thailand-t12",
+  "type": "source",
+  "countries": [
+   "thailand"
+  ],
+  "keys": [
+   "thailand-T12"
+  ],
+  "title": "จำนวนผู้ประกันตนมาตรา 40",
+  "publisher": "Social Security Office / data.go.th",
+  "year": 2026,
+  "url": "https://data.go.th/th/dataset/sso-insured-section-40",
+  "kind": "Government page",
+  "expect": [
+   "XLS",
+   "Open Data Common",
+   "2569"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-thailand-t13",
+  "type": "source",
+  "countries": [
+   "thailand"
+  ],
+  "keys": [
+   "thailand-T13"
+  ],
+  "title": "Thailand: 2024 Article IV Consultation-Press Release; Staff Report; and Statement by the Executive Director for Thailand",
+  "publisher": "International Monetary Fund; social-protection annex prepared by ILO",
+  "year": 2025,
+  "url": "https://www.imf.org/-/media/files/publications/cr/2025/english/1thaea2025001-print-pdf.pdf",
+  "kind": "Agency report",
+  "expect": [
+   "Section 39",
+   "21.7",
+   "1.6 percent",
+   "83",
+   "1.6",
+   "50"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260621212220/https://www.imf.org/-/media/files/publications/cr/2025/english/1thaea2025001-print-pdf.pdf"
+ },
+ {
+  "id": "sp-thailand-t14",
+  "type": "source",
+  "countries": [
+   "thailand"
+  ],
+  "keys": [
+   "thailand-T14"
+  ],
+  "title": "Financial risk protection of Thailand’s universal health coverage: results from series of national household surveys between 1996 and 2015",
+  "publisher": "Tangcharoensathien et al.",
+  "year": 2020,
+  "url": "https://link.springer.com/article/10.1186/s12939-020-01273-6",
+  "kind": "Peer-reviewed study",
+  "expect": [
+   "6.0%",
+   "2%",
+   "52,000",
+   "10",
+   "6.0",
+   "2"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261022051045/https://link.springer.com/article/10.1186/s12939-020-01273-6"
+ },
+ {
+  "id": "sp-thailand-t15",
+  "type": "source",
+  "countries": [
+   "thailand"
+  ],
+  "keys": [
+   "thailand-T15"
+  ],
+  "title": "HomeNet Thailand Runs a Pilot Extreme Heat Insurance Project for Informal Economy Workers",
+  "publisher": "HomeNet International",
+  "year": 2026,
+  "url": "https://www.homenetinternational.org/homenet-thailand-runs-a-pilot-extreme-heat-insurance-project-for-informal-economy-workers/",
+  "kind": "Agency report",
+  "expect": [
+   "1,000",
+   "100 baht",
+   "300-baht",
+   "300",
+   "100",
+   "299"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-thailand-t16",
+  "type": "source",
+  "countries": [
+   "thailand"
+  ],
+  "keys": [
+   "thailand-T16"
+  ],
+  "title": "How Extreme Heat is Reshaping Women's Lives in Thailand",
+  "publisher": "Prudence Foundation / HERA",
+  "year": 2026,
+  "url": "https://www.prudentialplc.com/en/sustainability-social-impact/prudence-foundation/news-and-publications/How-Extreme-Heat-is-Reshaping-Womens-Lives-in-Thailand/",
+  "kind": "Agency report",
+  "expect": [
+   "299 women",
+   "eight provinces",
+   "workshops",
+   "299"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-thailand-tw",
+  "type": "source",
+  "countries": [
+   "thailand"
+  ],
+  "keys": [
+   "thailand-Tw"
+  ],
+  "title": "Age and sex structures",
+  "publisher": "WorldPop, University of Southampton",
+  "year": 2020,
+  "url": "https://hub.worldpop.org/geodata/summary?id=50547",
+  "kind": "Agency report",
+  "expect": [
+   "2020",
+   "Geotiff",
+   "WGS84"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ },
+ {
+  "id": "sp-thailand-tb",
+  "type": "source",
+  "countries": [
+   "thailand"
+  ],
+  "keys": [
+   "thailand-Tb"
+  ],
+  "title": "geoBoundaries gbOpen THA ADM1 API metadata",
+  "publisher": "geoBoundaries",
+  "year": 2023,
+  "url": "https://www.geoboundaries.org/api/current/gbOpen/THA/ADM1/",
+  "kind": "Agency report",
+  "expect": [
+   "ADM1",
+   "boundaryYearRepresented",
+   "Open Database License"
+  ],
+  "note": "Staged from the social protection research to check the page opens and holds these terms before the page uses it. Not published from the inbox."
+ }
+]
