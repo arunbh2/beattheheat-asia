@@ -2359,7 +2359,7 @@
     document.getElementById("pressure-points").innerHTML = ranked.map(n => `<li><button class="pp" data-go="${n.id}"><span class="pp__n">${n.loops.length}</span><span class="pp__name">${esc(plain(n))}</span><span class="pp__meta">loops run through it</span></button></li>`).join("");
     const multi = LEVERS.filter(v => v.loops.length > 1).sort((a, b) => b.loops.length - a.loops.length);
     document.getElementById("multi-levers").innerHTML = multi.map(v => `<li><button class="pp pp--lever" data-lever="${v.id}"><span class="pp__n">${v.loops.length}</span><span class="pp__name">${esc(v.title)}</span><span class="pp__meta">loops it acts on</span></button></li>`).join("");
-    limitList(document.getElementById("multi-levers"), 3, "levers");   // the three that act on most loops first
+    limitList(document.getElementById("pressure-points"), 3, "pressure points"); limitList(document.getElementById("multi-levers"), 3, "levers");
   }
 
   function renderInstitutions() {
