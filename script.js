@@ -2915,14 +2915,15 @@
       <p class="now-fp__season">${esc(FP.season)}</p>
       <ul class="now-fp__facts">${FP.facts.map(f => `<li><b>${esc(f.n)}</b> ${esc(f.text)}</li>`).join("")}</ul>
       <p class="now-fp__src">${esc(FP.defn)} Source: ${extLink(FP.source.url, FP.source.label)}.</p>`;
+    if (fpBox && FP) nowMore();
     const status = document.getElementById("now-status");
     list.innerHTML = LIVE.map(c => card(c, null, null, false).replace("Live data unavailable", "Loading…")).join("");
     limitList(list, 3, "cities");
     const load = () => liveFetch().then(data => {
       const ok = LIVE.filter(c => data.cities[c.id] && liveAge(data.cities[c.id]) < LIVE_STALE);
       const hot = ok.length ? ok.reduce((a, b) => data.cities[b.id].feels > data.cities[a.id].feels ? b : a).id : null;
-      const phone = window.matchMedia("(max-width: 760px)").matches;
-      const order = phone ? LIVE.slice().sort((a, b) => ((data.cities[b.id] || {}).feels ?? -99) - ((data.cities[a.id] || {}).feels ?? -99)) : LIVE;
+      // the hottest city leads
+      const order = LIVE.slice().sort((a, b) => ((data.cities[b.id] || {}).feels ?? -99) - ((data.cities[a.id] || {}).feels ?? -99));
       list.innerHTML = order.map(c => card(c, data.cities[c.id], data.wbgt, c.id === hot)).join("");
       limitList(list, 3, "cities");
       if (status) status.textContent = `Updated ${new Date(data.at).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })} your time.`;
@@ -2933,6 +2934,8 @@
     else load();
   }
   const clamp01 = x => Math.max(0, Math.min(1, x));
+  // the fold under the live cities shows once it has content
+  function nowMore() { const d = document.getElementById("now-more"); if (d) d.hidden = false; }
 
   /* ======================= YOUR CITY ======================= */
   // a map of the twelve live cities and, for the one picked, its heat now, its plan, the cycles turning there and who is at work
@@ -3186,6 +3189,7 @@
     });
     paint();
     const room = document.getElementById("now-room");
+    if (room) nowMore();
     if (room) room.innerHTML = `<b>Warnings track the street, not the room.</b> These readings are outdoor air in the shade. Under a tin roof it can be hotter, and it stays hot at night. <a href="#four-heats">See the four heats in a home</a> ${watchButton("film:fourheats", "Watch the film")}`;
   }
 
@@ -3281,7 +3285,7 @@
   function renderStats() {
     const values = {
       systems: SYSTEMS.length, consequences: CONSEQUENCES.length, links: edges.length,
-      loops: LOOPS.length, levers: LEVERS.length, institutions: INSTITUTIONS.length,
+      loops: LOOPS.length, levers: LEVERS.length, institutions: INSTITUTIONS.length, cities: LIVE.length,
       cross: edges.filter(e => e.type === "cross").length
     };
     document.querySelectorAll("[data-stat]").forEach(x => { if (values[x.dataset.stat] !== undefined) x.textContent = values[x.dataset.stat]; });

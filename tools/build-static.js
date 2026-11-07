@@ -20,6 +20,24 @@ vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + `
   COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, COOL_FX, COOL_REGION, HOME_HEATS, STRAIN, COOL_ASK, PLAN_GROUPS, PLAN_MECHANISMS, PLAN_MECH_NOTE, MCR2030, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL, LIVE_CITIES, CITY_PROFILES, CITY_HAP, HEATWAVES, HEATWAVES_NOTE, ACTION_SETTINGS, ACTION_LINES, ACTION_JOURNEYS, FINANCE, EVIDENCE_STATUS, ACTION_HORIZONS, HEAT_WEEK, MARKET_EXPLORER, LOOP_SOLUTIONS, ORG_SIDES, ORG_SIDE });`, ctx);
 Object.assign(ctx, require("./data-blocks.js")());   // plus build-only blocks (not in data.js)
 const D = ctx, TODAY = new Date().toISOString().slice(0, 10);
+// ---- the homepage's numbers: each [data-stat] holds a plain-HTML fallback (what readers see with no JavaScript, and what
+// crawlers read). It is written here from the data, so no count on the homepage is typed by hand. script.js renderStats()
+// sets the same values in the browser; a key added there needs adding here too.
+{
+  const live = vm.runInContext("typeof LIVE_CITIES !== 'undefined' ? LIVE_CITIES.length : 0", ctx);
+  // cross-system links, counted as script.js counts them: unique links between two parts of the map in different systems, not loop links
+  const sysOf = Object.fromEntries([...D.SYSTEMS.map(x => [x.id, x.id]), ...D.CONSEQUENCES.map(c => [c.id, c.sys])]);
+  const seen = new Set([...D.SYSTEMS.map(x => "heat>" + x.id), ...D.CONSEQUENCES.map(c => c.sys + ">" + c.id)]);
+  let cross = 0;
+  D.LINKS.forEach(([from, to, , flag]) => { const id = from + ">" + to;
+    if (!(from in sysOf) || !(to in sysOf) || seen.has(id)) return; seen.add(id);
+    if (flag !== "loop" && sysOf[from] !== sysOf[to]) cross++; });
+  const STAT = { cross, systems: D.SYSTEMS.length, consequences: D.CONSEQUENCES.length, loops: D.LOOPS.length, levers: D.LEVERS.length, institutions: D.INSTITUTIONS.length, cities: live };
+  const file = path.join(ROOT, "index.html"), html = fs.readFileSync(file, "utf8"), unknown = new Set();
+  const out = html.replace(/(data-stat="([a-z]+)"[^>]*>)([^<]*)(<)/g, (m, open, key, old, close) => key in STAT ? open + STAT[key] + close : (unknown.add(key), m));
+  if (unknown.size) throw new Error(`index.html: data-stat "${[...unknown].join('", "')}" has no value in tools/build-static.js (STAT). Add it there and in script.js renderStats().`);
+  if (out !== html) fs.writeFileSync(file, out);
+}
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const plain = s => String(s || "").replace(/\n/g, " ");
 const byId = Object.fromEntries([...D.SYSTEMS, ...D.CONSEQUENCES, { id: "heat", label: "Extreme heat" }].map(x => [x.id, x]));
