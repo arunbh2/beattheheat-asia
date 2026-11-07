@@ -146,6 +146,9 @@ const PEOPLE = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "peopl
   LIVE.problems.forEach(p => console.warn("living evidence (left out): " + p));
   const EVS = Object.fromEntries(Object.entries(D.EVIDENCE).map(([k, v]) => [k, v.slice()]));
   LIVE.accepted.forEach(a => a.cycles.forEach(id => (EVS[id] = EVS[id] || []).push(a.study)));
+  // a question's dated history: when it opened, and each step that moved it (data/site/learning.json)
+  const qDate = d => { const [y, m, dd] = d.split("-"); return `${+dd} ${["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][+m - 1]} ${y}`; };
+  const qHist = q => (q.history || []).length ? `<p class="evm-q-h">${q.history.map(h => `${h.status === "open" ? "Opened" : h.status === "advanced" ? "Advanced" : "Answered"} ${esc(qDate(h.date))}${h.status !== "open" ? `: ${esc(h.note)}` : ""}`).join(" · ")}. <a href="/growing/">How the commons is growing</a></p>` : "";
   const LV = D.LEVERS, LQ = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "learning.json"), "utf8")).questions
     .concat(KB.filter(r => r.type === "question").map(r => ({ id: r.id, loop: (r.cycles || [])[0] || "", status: "open", q: r.question, have: r.summary, could: r.would_answer_it, scale: r.scale || "To be sized" })));
   const cyc = D.LOOPS.map(l => { const st = (EVS[l.id] || []).map(s => ({ ...s, g: gradeOf(s.type), asia: ASIA.test(s.where || "") }));
@@ -189,7 +192,7 @@ const PEOPLE = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "peopl
       <h2 class="hub-h" id="questions">Questions nobody has answered yet</h2>
       <p class="hub-p">A learning agenda, drawn from the limits the studies above state about themselves. Each question is sized so that one well-designed study could move it. The suggested approach and scale are ours, offered for discussion; researchers and funders closer to each place will know better.</p>
       <p class="hub-p">Five of these questions, on pregnancy, newborns, children, mental health and violence against women, are set out with their evidence in a citable brief: <a href="/briefs/heat-mothers-children-minds/">Heat and the health of mothers, children and minds</a>.</p>
-      <ol class="evm-qs">${LQ.filter(q => q.status === "open").map(q => `<li class="evm-q" id="${esc(q.id)}"><p class="evm-q-k">${esc((D.LOOPS.find(l => l.id === q.loop) || {}).name || "")} · <span class="evm-chip evm-chip--emerging">Uncertain</span></p><h3>${esc(q.q)}</h3>
+      <ol class="evm-qs">${LQ.filter(q => q.status !== "answered").map(q => `<li class="evm-q" id="${esc(q.id)}"><p class="evm-q-k">${esc((D.LOOPS.find(l => l.id === q.loop) || {}).name || "")} · <span class="evm-chip evm-chip--emerging">${q.status === "advanced" ? "Advanced, not answered" : "Uncertain"}</span></p><h3>${esc(q.q)}</h3>${qHist(q)}
           <dl><dt>What we have</dt><dd>${esc(q.have)} <a href="#ev-${esc(q.loop)}">The studies</a></dd><dt>What could answer it <span class="sol-note">(our suggestion)</span></dt><dd>${esc(q.could)}</dd><dt>Scale</dt><dd>${esc(q.scale)}</dd></dl></li>`).join("")}</ol>
       <p class="hub-p">Know of a study that answers one of these, or a better question? <a href="/corrections/">Tell us</a>, and we will add it with credit.</p>
 

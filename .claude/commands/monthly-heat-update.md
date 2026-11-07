@@ -64,7 +64,14 @@ For each open "Evidence review" pull request:
 
 The owner signs off by merging, so list for the owner what you propose to accept and why. Do not merge evidence pull requests yourself unless the owner has said to.
 
-If accumulated studies suggest a cycle's status (`emerging` or `established`) or a learning-agenda question has changed, propose it in the report rather than changing it.
+If accumulated studies suggest a cycle's status (`emerging` or `established`) has changed, propose it in the report rather than changing it.
+
+When accepted studies narrow or answer a learning-agenda question, draft the step in the same review pull request, so the owner's merge is the sign-off:
+- in `data/site/learning.json`, add a step to the question's `history`: `{ "date", "status": "advanced" | "answered", "note", "records": [ids] }`, and set `status` to match. Advanced means the evidence narrows the question; it is never an answer.
+- in `data/site/growth.json`, add the matching change: kind `question-advanced`, `"question": "<id>"`, `added` the same date, why it matters in one or two sentences, and an action such as "See the open questions" on `/evidence-map/#<id>`.
+- `node tools/build-data.js --check` refuses a step without records, or without its matching change.
+
+At the end of every monthly update, record the month's changes in `data/site/growth.json` (one reviewed entry each, with the pull request number and the `effort` files of any verified batch), so "Watch Common Shade grow" stays current. A changed file hash alone is not a change.
 
 ## 7. The heat action plan archive
 - Search for new Indian plans and editions, and for documents on the leads lists that may now be retrievable. Confirm each PDF through `verify-urls.yml` and its content.
