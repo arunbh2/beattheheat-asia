@@ -8,7 +8,7 @@
 - Two blanket claims were rejected: universal benefit from fans and established mortality reduction from cooling centres. The evidence supports narrower wording. [S1, S2]
 - Education results, several thin levers and effects on tenants remain unresolved in this run. The Kerala roof-result paper could not be opened, so its reported learning gains are excluded.
 
-Baseline: [Common Shade repository snapshot](https://github.com/arunbh2/beattheheat-asia/tree/2426367458a858372a5aa23625e96c8169869f50). This is a content baseline, not scientific evidence. No website or repository changes have been applied.
+Baseline: Common Shade repository snapshot at commit 2426367458a858372a5aa23625e96c8169869f50 (link to the repository removed in November 2026; the commit is named so the baseline can still be found). This is a content baseline, not scientific evidence. No website or repository changes have been applied.
 
 ## B. NEW OR UPDATED HARMS
 

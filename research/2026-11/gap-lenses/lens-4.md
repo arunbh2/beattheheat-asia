@@ -8,7 +8,7 @@
 - The assumption that a blank heat-health field means zero harm was rejected. Timor-Leste's profile distinguishes unspecified heat indicators from an approved health adaptation plan. [S4]
 - Evidence remains thin for highland health, small towns, outer islands and direct humid-versus-dry comparisons. The regional review supports broader coverage, but not one common threshold. [S8, S9]
 
-Baseline: [Common Shade repository snapshot](https://github.com/arunbh2/beattheheat-asia/tree/2426367458a858372a5aa23625e96c8169869f50). This is a content baseline, not scientific evidence. No website or repository changes have been applied.
+Baseline: Common Shade repository snapshot at commit 2426367458a858372a5aa23625e96c8169869f50 (link to the repository removed in November 2026; the commit is named so the baseline can still be found). This is a content baseline, not scientific evidence. No website or repository changes have been applied.
 
 The coverage check uses the country directories and unique source URLs in the loop register's `where` field. It is reproducible at the pinned snapshot, but excludes other site evidence and untagged global studies. Zero in this table is a content-tagging result, not a literature count.
 
