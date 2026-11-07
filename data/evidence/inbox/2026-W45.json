@@ -1,18 +1,18 @@
 {
  "week": "2026-W45",
- "harvested": "2026-11-02T11:15:33.847Z",
+ "harvested": "2026-11-07T17:49:27.105Z",
  "window": {
-  "from": "2026-10-25",
-  "to": "2026-11-02"
+  "from": "2026-10-30",
+  "to": "2026-11-07"
  },
  "sources": {
   "europepmc": {
    "ok": true,
-   "found": 9
+   "found": 4
   },
   "crossref": {
    "ok": true,
-   "found": 118
+   "found": 102
   },
   "arxiv": {
    "ok": true,
@@ -26,17 +26,22 @@
    "ok": true,
    "found": 0
   },
+  "newsfeed": {
+   "ok": true,
+   "found": 128
+  },
   "who": {
    "ok": true,
    "found": 49
   }
  },
  "counts": {
-  "found": 276,
-  "distinct": 262,
-  "new": 262,
-  "kept": 6,
-  "set_aside": 256
+  "found": 383,
+  "distinct": 321,
+  "new": 232,
+  "kept": 4,
+  "set_aside": 228,
+  "news_page_no_abstract": 60
  },
  "candidates": [
   {
@@ -350,6 +355,234 @@
     "design": null,
     "cycles": [
      "cooling"
+    ]
+   },
+   "decision": "pending",
+   "review": {
+    "cycle": "",
+    "finding": "",
+    "grade": "",
+    "where": "",
+    "sample_size": "",
+    "effect_size": "",
+    "unit_cost": "",
+    "agro_climatic_zone": "",
+    "failure_modes": "",
+    "limit": "",
+    "note": ""
+   }
+  },
+  {
+   "key": "doi:10.1016/j.envres.2026.125991",
+   "title": "Climate-induced extreme heat associated with suicide risk mediated by poor sleep and emotional dysregulation: A nationally representative panel study from Bangladesh.",
+   "url": "https://doi.org/10.1016/j.envres.2026.125991",
+   "doi": "10.1016/j.envres.2026.125991",
+   "date": "2026-10-24",
+   "venue": "Environmental research",
+   "kind": "article",
+   "first_author": "Wahid",
+   "found_in": [
+    "Common Shade news page"
+   ],
+   "streams": [
+    "heat-health"
+   ],
+   "suggested": {
+    "sample_size": {
+     "value": "n = 7492",
+     "quote": "Using a nationally representative two-round panel survey from Bangladesh (n = 7492), we empirically examined whether poor sleep quality and emotional dysregulation mediate the relationship between exposure to extreme heat and suicide risk."
+    },
+    "geography": {
+     "value": "Bangladesh",
+     "quote": ""
+    },
+    "agro_climatic_zone": null,
+    "effect_size_c": {
+     "value": "28°C",
+     "quote": "Exposure to days ≥28°C over a two-week period was the lowest temperature threshold significantly associated with elevated suicide risk, with the highest risk detected at ≥35°C."
+    },
+    "effect_size_pct": null,
+    "unit_cost": null,
+    "failure_modes": null,
+    "design": [
+     "cross-sectional survey"
+    ],
+    "cycles": [
+     "sleep",
+     "school",
+     "poverty"
+    ]
+   },
+   "decision": "pending",
+   "review": {
+    "cycle": "",
+    "finding": "",
+    "grade": "",
+    "where": "",
+    "sample_size": "",
+    "effect_size": "",
+    "unit_cost": "",
+    "agro_climatic_zone": "",
+    "failure_modes": "",
+    "limit": "",
+    "note": ""
+   }
+  },
+  {
+   "key": "doi:10.4103/tjem.tjem_417_25",
+   "title": "Heat stroke during the 2025 summer heatwave in Northwestern India: A tertiary care emergency department case series.",
+   "url": "https://doi.org/10.4103/tjem.tjem_417_25",
+   "doi": "10.4103/tjem.tjem_417_25",
+   "date": "2026-10-10",
+   "venue": "Turkish journal of emergency medicine",
+   "kind": "article",
+   "first_author": "Siva",
+   "found_in": [
+    "Common Shade news page"
+   ],
+   "streams": [
+    "heat-health"
+   ],
+   "suggested": {
+    "sample_size": null,
+    "geography": {
+     "value": "India",
+     "quote": ""
+    },
+    "agro_climatic_zone": {
+     "value": "arid",
+     "quote": "Population living in arid and northwestern regions are particularly vulnerable during prolonged summer heatwaves."
+    },
+    "effect_size_c": {
+     "value": "40°C",
+     "quote": "Heat stroke is a life-threatening medical emergency, characterized by a core body temperature above 40°C with central nervous system dysfunction."
+    },
+    "effect_size_pct": {
+     "value": "mortality was 20%",
+     "quote": "The overall in-hospital mortality was 20%."
+    },
+    "unit_cost": null,
+    "failure_modes": null,
+    "design": null,
+    "cycles": [
+     "clinic",
+     "poverty"
+    ]
+   },
+   "decision": "pending",
+   "review": {
+    "cycle": "",
+    "finding": "",
+    "grade": "",
+    "where": "",
+    "sample_size": "",
+    "effect_size": "",
+    "unit_cost": "",
+    "agro_climatic_zone": "",
+    "failure_modes": "",
+    "limit": "",
+    "note": ""
+   }
+  },
+  {
+   "key": "doi:10.5271/sjweh.4336",
+   "title": "Effect of occupation-related heat stress exposure on productivity among sugarcane workers in Thailand.",
+   "url": "https://doi.org/10.5271/sjweh.4336",
+   "doi": "10.5271/sjweh.4336",
+   "date": "2026-10-09",
+   "venue": "Scandinavian journal of work, environment & health",
+   "kind": "article",
+   "first_author": "Tantipanjaporn",
+   "found_in": [
+    "Common Shade news page"
+   ],
+   "streams": [
+    "heat-health"
+   ],
+   "suggested": {
+    "sample_size": null,
+    "geography": {
+     "value": "Thailand",
+     "quote": ""
+    },
+    "agro_climatic_zone": null,
+    "effect_size_c": {
+     "value": "31.3°C",
+     "quote": "Results Recorded WBGT eff -FS-TWA values averaged 31.3°C [standard deviation (SD) 2.8, range 22.9-35.4°C]."
+    },
+    "effect_size_pct": null,
+    "unit_cost": null,
+    "failure_modes": null,
+    "design": [
+     "cross-sectional survey"
+    ],
+    "cycles": [
+     "poverty",
+     "farmdebt"
+    ]
+   },
+   "decision": "pending",
+   "review": {
+    "cycle": "",
+    "finding": "",
+    "grade": "",
+    "where": "",
+    "sample_size": "",
+    "effect_size": "",
+    "unit_cost": "",
+    "agro_climatic_zone": "",
+    "failure_modes": "",
+    "limit": "",
+    "note": ""
+   }
+  },
+  {
+   "key": "doi:10.1016/j.isci.2026.117349",
+   "title": "Heat stress and maternal complications in India: A nationwide analysis using the universal thermal climate index.",
+   "url": "https://doi.org/10.1016/j.isci.2026.117349",
+   "doi": "10.1016/j.isci.2026.117349",
+   "date": "2026-09-17",
+   "venue": "iScience",
+   "kind": "article",
+   "first_author": "Chaudhary",
+   "found_in": [
+    "Common Shade news page"
+   ],
+   "streams": [
+    "heat-health"
+   ],
+   "suggested": {
+    "sample_size": {
+     "value": "176,193 women",
+     "quote": "The analytic sample comprised 176,193 women; 56.6% reported at least one maternal complication."
+    },
+    "geography": {
+     "value": "India",
+     "quote": ""
+    },
+    "agro_climatic_zone": null,
+    "effect_size_c": {
+     "value": "1°C",
+     "quote": "Multivariable logistic regression models estimated adjusted odds ratios (aORs) per 1°C (1 K) increase in UTCI, adjusting for maternal age, parity, household wealth quintile, and place of residence, with state fixed effects."
+    },
+    "effect_size_pct": null,
+    "unit_cost": null,
+    "failure_modes": [
+     {
+      "value": "limited",
+      "quote": "Physiological adaptations in pregnancy heighten heat strain, yet national evidence examining exposure using Universal Thermal Climate Index (UTCI) is limited."
+     },
+     {
+      "value": "not significant",
+      "quote": "Higher mean UTCI across pregnancy was associated with increased odds of maternal complications (aOR 1.004; 95% confidence interval [CI]: 1.000-1.008; p = 0.042), with the strongest effect in the second trimester (aOR 1.006; 95% CI: 1.002-1.010; p = 0.007); first and third trimesters were not sign..."
+     }
+    ],
+    "design": [
+     "cross-sectional survey",
+     "field measurement"
+    ],
+    "cycles": [
+     "school"
     ]
    },
    "decision": "pending",
