@@ -32,7 +32,7 @@ const D = ctx, TODAY = new Date().toISOString().slice(0, 10);
   D.LINKS.forEach(([from, to, , flag]) => { const id = from + ">" + to;
     if (!(from in sysOf) || !(to in sysOf) || seen.has(id)) return; seen.add(id);
     if (flag !== "loop" && sysOf[from] !== sysOf[to]) cross++; });
-  const STAT = { cross, systems: D.SYSTEMS.length, consequences: D.CONSEQUENCES.length, loops: D.LOOPS.length, levers: D.LEVERS.length, institutions: D.INSTITUTIONS.length, cities: live };
+  const STAT = { cross, systems: D.SYSTEMS.length, consequences: D.CONSEQUENCES.length, loops: D.LOOPS.length, levers: D.LEVERS.length, institutions: D.INSTITUTIONS.length, cities: live, orgs: D.ORGANISATIONS.length };
   const file = path.join(ROOT, "index.html"), html = fs.readFileSync(file, "utf8"), unknown = new Set();
   const out = html.replace(/(data-stat="([a-z]+)"[^>]*>)([^<]*)(<)/g, (m, open, key, old, close) => key in STAT ? open + STAT[key] + close : (unknown.add(key), m));
   if (unknown.size) throw new Error(`index.html: data-stat "${[...unknown].join('", "')}" has no value in tools/build-static.js (STAT). Add it there and in script.js renderStats().`);

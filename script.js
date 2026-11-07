@@ -1129,7 +1129,7 @@
       if (all) all.click();
       if (q) { q.value = leverById[t.dataset.id].title; q.dispatchEvent(new Event("input")); }
       reveal(document.getElementById("org-list"));
-      document.getElementById("network").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" });
+      (document.getElementById("org-browse") || document.getElementById("network")).scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" });
       return;
     }
     if (act === "film") { openFilm(t); return; }
@@ -3285,7 +3285,7 @@
   function renderStats() {
     const values = {
       systems: SYSTEMS.length, consequences: CONSEQUENCES.length, links: edges.length,
-      loops: LOOPS.length, levers: LEVERS.length, institutions: INSTITUTIONS.length, cities: LIVE.length,
+      loops: LOOPS.length, levers: LEVERS.length, institutions: INSTITUTIONS.length, cities: LIVE.length, orgs: ORGS.length,
       cross: edges.filter(e => e.type === "cross").length
     };
     document.querySelectorAll("[data-stat]").forEach(x => { if (values[x.dataset.stat] !== undefined) x.textContent = values[x.dataset.stat]; });
