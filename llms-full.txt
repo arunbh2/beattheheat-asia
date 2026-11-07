@@ -142,11 +142,13 @@ Source: Eco-Business: climate stress is trampling productivity in India’s live
 
 #### Farmwork hours lost
 
-Farm labourers work in the open sun. In the hottest hours, work becomes dangerous or impossible.
+Farm labourers work in the open sun. In the hottest hours, work becomes dangerous or impossible. In Nepal's Tarai, measured heat at work was high, and starting earlier or changing clothing protected workers only in part.
 
 Leads to: Failing harvests (Fields go untended in the hottest hours.); Lost work hours and wages (Farm labourers lose daily wages.)
 
 Source: International Labour Organization, 2019: agriculture bears 60% of working hours lost to heat https://www.ilo.org/resource/news/increase-heat-stress-predicted-bring-productivity-loss-equivalent-80
+
+Source: Pradhan et al., Industrial Health, 2013: climate change and heat stress responses in the Tarai region of Nepal https://www.jstage.jst.go.jp/article/indhealth/51/1/51_2012-0166/_article
 
 #### Pests and crop diseases spread
 
@@ -460,11 +462,13 @@ Source: Phosri et al., International Journal of Biometeorology, 2025: air pollut
 
 #### Heatstroke and heat exhaustion
 
-When the body can no longer cool itself, heat exhaustion can tip into heatstroke: a medical emergency that can kill. India’s suspected heatstroke cases rose more than tenfold in two summers, from 4,481 in 2022 to over 48,000 in 2024. Humid heat is the most dangerous: when the wet-bulb temperature is high, sweat stops cooling the body.
+When the body can no longer cool itself, heat exhaustion can tip into heatstroke: a medical emergency that can kill. India’s suspected heatstroke cases rose more than tenfold in two summers, from 4,481 in 2022 to over 48,000 in 2024. Humid heat is the most dangerous: when the wet-bulb temperature is high, sweat stops cooling the body. Many more people feel heat illness than are diagnosed with it: among women garment workers in Phnom Penh, reports of symptoms such as thirst, heavy sweating and tiredness rose from 68% in cool months to 88% in hot months.
 
 Leads to: Heat deaths (Heatstroke kills if it is not treated quickly.); Health systems overwhelmed (Heat illness brings sudden surges of patients.); Lost work hours and wages (Illness means days off work, and for daily earners no work means no pay.); Medical costs and debt (Treatment and lost days are paid for out of pocket.)
 
 Source: Ministry of Health and Family Welfare, reply in India’s Rajya Sabha, 6 August 2024 https://rsdebate.nic.in/bitstream/123456789/750681/1/PQ_265_06082024_U1693_p358_p362.pdf
+
+Source: Chea et al., BMC Public Health, 2025: heat stress among women garment workers in Cambodia, cool and hot months https://link.springer.com/article/10.1186/s12889-025-22787-0
 
 #### Kidney and heart strain
 
@@ -480,11 +484,13 @@ Source: De Silva et al., 2022: occupational heat exposure alone does not explain
 
 #### Breathing problems worsen
 
-Ozone, smoke and hot air inflame airways and worsen asthma and lung disease.
+Ozone, smoke and hot air inflame airways and worsen asthma and lung disease. A review of 76 studies in ASEAN countries finds air pollution changing how heat affects health, but not in the same way everywhere.
 
 Leads to: Heat deaths (Breathing problems turn fatal in the heat.)
 
 Source: Air Quality News, 2026: heat-driven ozone and health in India https://airqualitynews.com/news/health-news/heatwaves-drive-dangerous-ozone-pollution-across-india/
+
+Source: Aung et al., 2026: heat-related health impacts in ASEAN countries, a scoping review https://researchprofiles.canberra.edu.au/en/publications/heat-related-health-impacts-in-asean-countries-a-scoping-review/
 
 #### Risks in pregnancy
 
@@ -630,11 +636,13 @@ Source: World Bank: personal remittances received, % of GDP (Nepal) https://data
 
 #### Productivity falls
 
-Above a certain temperature, people work more slowly and make more mistakes, indoors and out. Across 2.7 million firms in 23 advanced economies, ten extra days above 35 °C cut a year’s labour productivity by 0.3%, and days above 40 °C did five times the damage. In humid, still air the loss roughly doubles.
+Above a certain temperature, people work more slowly and make more mistakes, indoors and out. Across 2.7 million firms in 23 advanced economies, ten extra days above 35 °C cut a year’s labour productivity by 0.3%, and days above 40 °C did five times the damage. In humid, still air the loss roughly doubles. Losses differ by place and job: an ILO study of the Maldives estimates work lost to heat by sector and workload, as modelled estimates rather than measured wages.
 
 Leads to: Lost work hours and wages (Slower work means lower output and pay.); Public budgets strained (Lower output means lower tax revenue.)
 
 Source: OECD Economics Department, Working Paper No. 1828, 2024 https://doi.org/10.1787/19d94638-en
+
+Source: ILO, 2026: impacts of heat stress on jobs and productivity in the Maldives https://www.ilo.org/sites/default/files/2026-10/MALDIVES_Study_Oct27.pdf
 
 #### Medical costs and debt
 
@@ -858,7 +866,7 @@ Source: Swiss Re Institute sigma, reported by Global Reinsurance https://www.glo
 
 #### Heat deaths under-recorded
 
-Heat is rarely written on death certificates. Most heat deaths are recorded as heart, kidney or lung failure. In India, heatwaves are declared on dry-air temperature from relatively few weather stations, which can miss humid heat where many informal workers live and work. Personal sensors worn by women aged 40 to 79 in rural Tamil Nadu sometimes read more than 5 °C apart within the same hour, so area averages can misjudge who is exposed.
+Heat is rarely written on death certificates. Most heat deaths are recorded as heart, kidney or lung failure. In India, heatwaves are declared on dry-air temperature from relatively few weather stations, which can miss humid heat where many informal workers live and work. Personal sensors worn by women aged 40 to 79 in rural Tamil Nadu sometimes read more than 5 °C apart within the same hour, so area averages can misjudge who is exposed. Timor-Leste's 2026 WHO climate and health profile lists heat-related deaths and illness as not specified: an empty field, not a zero.
 
 Leads to: Heat protection underfunded (What isn’t counted isn’t funded.)
 
@@ -867,6 +875,8 @@ Source: Down To Earth, 2024: the miscalculation in India’s heatwave mortality 
 Source: NIUA Climate Centre for Cities, 2026: Heat Resilient Cities Framework, p. 10 https://niua.in/publication-details/Heat_Resilient_Cities_Framework
 
 Source: Deshpande et al., 2023: heat exposure among adult women in rural Tamil Nadu (PMC10785747) https://pmc.ncbi.nlm.nih.gov/articles/PMC10785747/
+
+Source: WHO, 2026: climate change country profile, Timor-Leste https://cdn.who.int/media/docs/default-source/searo/hsd/country-profiles/tls-climate-change-cf-2026.pdf?download=true&sfvrsn=131a4a74_3
 
 #### Heat protection underfunded
 
@@ -1678,6 +1688,8 @@ Cuts the link: Heat deaths → Heat deaths under-recorded. Who can act: Health a
 
 Could help interrupt: The invisible-deaths loop
 
+In practice: Timor-Leste's 2026 WHO climate and health profile shows heat-related deaths and illness as not specified, rather than as zero, which keeps the gap visible.
+
 - Guide: Autopsy findings in heat-related deaths: guidance for recording heat as a cause (National Centre for Disease Control, India, in the GHHIN resource library) https://heathealth.info/resources/autopsy-findings-in-heat-related-deaths/
 
 - Guide: National Action Plan on Heat-Related Illness (National Centre for Disease Control, Ministry of Health and Family Welfare, India, 2021) https://ncdc.mohfw.gov.in/uploads/pdf/heat12.pdf
@@ -1888,6 +1900,8 @@ Personal sensors worn by women aged 40 to 79 in rural Tamil Nadu sometimes read 
 
 In April 2024, about 73,900 households in the Mekong Delta were short of water, and women and girls carried most of the extra fetching. (UNICEF Viet Nam, 27 April 2024, https://www.unicef.org/media/156076/file/Viet_Nam_Humanitarian_Situation_Report_No._01_%28drought%29_reporting_period__-27_April_2024.pdf)
 
+Among women garment workers in Phnom Penh, reported heat symptoms rose from 68% in cool months to 88% in hot months. (Chea et al., BMC Public Health, 2025, https://link.springer.com/article/10.1186/s12889-025-22787-0)
+
 What helps: Income protection in heatwaves, Social protection floors, Heat action plans, Cool, affordable housing, Violence prevention in heat planning
 
 ### Pregnant women, babies and young children
@@ -1919,6 +1933,8 @@ Held back by: Living alone, limited mobility, and warnings and help that rely on
 Older people in a Kolkata informal settlement were 4.3 times more likely than older people in a nearby village to face dangerous heat, with a heat index of 45 °C or more, because their homes stayed hotter than the outdoors, especially at night. (Weitz, Mukhopadhyay and Das, International Journal of Biometeorology, 2022, https://pubmed.ncbi.nlm.nih.gov/35359160/)
 
 In Chiang Rai, older people and their families described changing daily routines to cope with heat, and the help families give to keep them going. (Chiang Rai study, 2023 (PubMed 37372754), https://pubmed.ncbi.nlm.nih.gov/37372754/)
+
+Bhutan's 2015 WHO profile projects about 49 heat-related deaths per 100,000 people aged 65 or over by 2080 if emissions stay high. It is a projection, not a count. (WHO, 2015: climate and health country profile, Bhutan, https://cdn.who.int/media/docs/default-source/searo/wsh-och-searo/bhu-c-h-profile.pdf?sfvrsn=9b974adb_2)
 
 What helps: Cooling centres and check-ins, Heat action plans, Affordable cooling for the poorest, Count every heat death
 
