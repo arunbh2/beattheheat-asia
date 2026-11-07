@@ -144,7 +144,7 @@ function footer(pathname, title, updated) {
 
 const CSS = `html:has(.csn){scroll-padding-top:120px}
 .csn,.csf,.csn-d,.csp{--ink:#16202B;--ink2:#39424D;--grey:#5E6570;--canvas:#FAF7F2;--sand:#F2E7D9;--line:#E6DFD4;--orange:#F26430;--ember:#B8401A;--green:#17703A;font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);line-height:1.4}
-.csn{position:sticky;top:0;z-index:60;margin:0!important;padding:0!important;max-width:none!important;display:block!important;background:rgba(250,247,242,.96);border-bottom:1px solid var(--line);-webkit-backdrop-filter:saturate(1.2) blur(10px);backdrop-filter:saturate(1.2) blur(10px)}
+.csn{position:sticky;top:var(--tk-h,0px);z-index:60;margin:0!important;padding:0!important;max-width:none!important;display:block!important;background:rgba(250,247,242,.96);border-bottom:1px solid var(--line);-webkit-backdrop-filter:saturate(1.2) blur(10px);backdrop-filter:saturate(1.2) blur(10px)}
 .csn a,.csf a,.csn-d a,.csp a{color:var(--ink);margin:0}
 :where(.csn,.csn-d,.csf,.csp) button{font:inherit;color:inherit;cursor:pointer}
 .csn__in{max-width:1280px;margin:0 auto;padding:0 clamp(16px,3vw,32px);height:64px;display:flex;align-items:center;gap:12px;transition:height .2s ease}
@@ -214,7 +214,7 @@ const CSS = `html:has(.csn){scroll-padding-top:120px}
 .csn__pathbar{max-width:1280px;margin:0 auto;padding:0 clamp(16px,3vw,32px) 10px;display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;font-size:.84rem;color:var(--ink2)}
 .csn__pathbar b{color:var(--ink)}.csn__pathbar a{font-weight:700;text-decoration:underline;text-decoration-color:var(--orange);text-underline-offset:3px}
 .csn__pathbar button{border:0;background:none;padding:0;color:var(--grey);text-decoration:underline;font-size:.84rem}
-.csn__sheet{position:absolute;left:0;right:0;top:100%;height:calc(100vh - var(--csn-h,64px));height:calc(100dvh - var(--csn-h,64px));overflow-y:auto;overscroll-behavior:contain;background:var(--canvas);padding:16px clamp(16px,4vw,32px) 40px;border-top:1px solid var(--line)}
+.csn__sheet{position:absolute;left:0;right:0;top:100%;height:calc(100vh - var(--csn-h,64px) - var(--tk-h,0px));height:calc(100dvh - var(--csn-h,64px) - var(--tk-h,0px));overflow-y:auto;overscroll-behavior:contain;background:var(--canvas);padding:16px clamp(16px,4vw,32px) 40px;border-top:1px solid var(--line)}
 .csn__sheet:not([hidden]){animation:csn-in .2s ease-out}
 .csn__sheet-tools{display:grid;gap:10px;margin-bottom:14px}
 .csn__acc{border-bottom:1px solid var(--line)}
