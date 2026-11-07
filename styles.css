@@ -107,6 +107,15 @@ button { font: inherit; color: inherit; }
 .story__deeper .atrisk__close { margin-top: 0; font-size: var(--fs-18); }
 .story__deeper .atrisk__sources { margin-top: 0; }
 .story__deeper > .pd-all { justify-self: start; margin-top: 0; }
+/* act 1's teaser: one group, its core only (exposed to, held back by); its evidence, map links and films arrive with "Show all" */
+.atrisk__list:not(.is-all) .risk__fact, .atrisk__list:not(.is-all) .risk__row { display: none; }
+@media (min-width: 900px) {
+  .story__deeper:has(> .atrisk__list:not(.is-all)) { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); grid-template-rows: auto 1fr; column-gap: var(--sp-7); align-items: start; }
+  .story__deeper:has(> .atrisk__list:not(.is-all)) > * { grid-column: 1 / -1; }
+  .story__deeper:has(> .atrisk__list:not(.is-all)) > p:first-child { grid-column: 1; grid-row: 1; font-size: var(--fs-18); }
+  .story__deeper:has(> .atrisk__list:not(.is-all)) > .pd-all { grid-column: 1; grid-row: 2; }
+  .story__deeper:has(> .atrisk__list:not(.is-all)) > .atrisk__list { grid-column: 2; grid-row: 1 / span 2; grid-template-columns: 1fr; }
+}
 .story__deeper .strain-fold { padding-top: var(--sp-4); }
 .story__deeper .strain-fold .atrisk__h { font-family: var(--font-body); font-weight: 700; font-size: var(--fs-18); line-height: 1.3; letter-spacing: 0; text-transform: none; }
 /* on a phone the drawing is a calm strip above the eyebrow, never behind the text */

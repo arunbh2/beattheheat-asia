@@ -3241,7 +3241,7 @@
       btn.addEventListener("click", () => { if (sec.classList.contains("pd-is-open")) { sec.classList.remove("pd-is-open"); btn.setAttribute("aria-expanded", "false"); btn.textContent = label; nativeScroll.call(sec, { block: "start" }); } else { openSection(sec); track("open-" + id); } });
       c.appendChild(btn); c.appendChild(body);
     });
-    [["atrisk-list", 0, "groups most at risk"], ["stall-list", 3, "conditions"], ["inst-list", 5, "institutions"], ["cool-traps", 3, "traps"], ["cool-reading", 3, "books and guides"], ["day-list", 3, "hours"]]
+    [["atrisk-list", 1, "groups most at risk"], ["stall-list", 3, "conditions"], ["inst-list", 5, "institutions"], ["cool-traps", 3, "traps"], ["cool-reading", 3, "books and guides"], ["day-list", 3, "hours"]]
       .forEach(([id, n, noun]) => { const l = document.getElementById(id); if (l) limitList(l, n, noun); });
     const h = decodeURIComponent(location.hash.slice(1)), t = h && document.getElementById(h); if (t) reveal(t);
   }
