@@ -49,7 +49,7 @@ const HTML = `<div class="csx__head"><p class="csx__k">Before you go</p><h2 clas
 <a class="csx__map" href="/" data-csx-map><picture><source type="image/webp" data-srcset="/images/map-preview.webp"><img data-src="/images/map-preview.jpg" alt="The Common Shade map: extreme heat at the centre, its consequences across ten systems around it" width="520" height="500"></picture><span>Open the map <span aria-hidden="true">→</span></span></a>
 <div class="csx__groups">${GROUPS.map(g => `<section class="csx__g csx__g--${g.id}" aria-labelledby="csx-${g.id}"><h3 class="csx__gh" id="csx-${g.id}">${esc(g.name)}</h3><ul>${g.items.map(([num, what, rest, href]) =>
   `<li><a href="${href}"><b>${n(num)}</b><span><em>${esc(what)}</em> ${esc(rest)}</span></a></li>`).join("")}</ul></section>`).join("")}</div>`;
-const FOOT = `<div class="csx__foot"><a class="csx__go" href="/" data-csx-map>Open the map</a><a class="csx__join" href="/join/">Help build Common Shade</a><form method="dialog"><button class="csx__stay">Keep reading</button></form></div>`;
+const FOOT = `<div class="csx__foot"><a class="csx__go" href="/" data-csx-map>Open the map</a><a class="csx__join" href="/join/">Help build Common Shade</a><a class="csx__grow" href="/growing/?from=exit#canopy" data-csx-grow><svg class="csx__grow-i" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M3 12c2-6 16-6 18 0" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 12v8M12 16l-4 4M12 16l4 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span data-csx-grow-l>Watch Common Shade grow</span></a><form method="dialog"><button class="csx__stay">Keep reading</button></form></div>`;
 
 const CSS = `.csx{width:min(1040px,calc(100vw - 24px));max-height:calc(100dvh - 24px);margin:auto;padding:0;border:0;border-radius:20px;background:#FAF7F2;color:#16202B;box-shadow:0 40px 90px -30px rgba(0,0,0,.6);font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;line-height:1.45;overflow:auto;overscroll-behavior:contain}
 .csx::backdrop{background:rgba(14,22,31,.62)}
@@ -81,7 +81,12 @@ const CSS = `.csx{width:min(1040px,calc(100vw - 24px));max-height:calc(100dvh - 
 .csx__foot form{margin:0}
 .csx__go{display:inline-flex;align-items:center;min-height:48px;padding:0 24px;border-radius:999px;background:#F26430;color:#16202B;font-weight:800;text-decoration:none}
 .csx__join{display:inline-flex;align-items:center;min-height:48px;padding:0 24px;border-radius:999px;background:#16202B;color:#FAF7F2;font-weight:800;text-decoration:none}
-.csx__join:hover{background:#B8401A}.csx__go:hover{background:#16202B;color:#FAF7F2}
+.csx__join:hover{background:#B8401A}
+.csx__grow{display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:0 20px;border-radius:999px;border:2px solid #1F6B43;color:#1F6B43;font-weight:800;text-decoration:none;background:transparent;transition:background-color .35s ease,color .35s ease}
+.csx__grow-i{display:none}
+.csx__grow--on{background:#1F6B43;color:#fff}.csx__grow--on .csx__grow-i{display:block}
+.csx__grow:hover,.csx__grow:focus-visible{background:#16202B;border-color:#16202B;color:#FAF7F2}
+@media (prefers-reduced-motion:reduce){.csx__grow{transition:none}}.csx__go:hover{background:#16202B;color:#FAF7F2}
 .csx__stay{min-height:48px;padding:0 20px;border:1.5px solid #16202B;border-radius:999px;background:none;color:#16202B;font:inherit;font-weight:700;cursor:pointer}
 .csx a:focus-visible,.csx button:focus-visible{outline:3px solid #F26430;outline-offset:3px}
 @media (max-width:760px){.csx__in{grid-template-columns:minmax(0,1fr) 96px;gap:14px}.csx__head{grid-column:1}.csx__map{grid-column:2;grid-row:1;margin-top:-48px}.csx__map>span{padding:6px 8px;font-size:.75rem}.csx__groups{grid-column:1 / -1;grid-template-columns:minmax(0,1fr)}.csx__h{font-size:1.7rem}.csx__p{font-size:.95rem}.csx__foot{padding:10px 14px;gap:8px}.csx__go,.csx__join{flex:1 1 0;justify-content:center;min-height:44px;padding:6px 10px;font-size:.88rem;line-height:1.15;text-align:center}.csx__foot form{flex-basis:100%}.csx__stay{width:100%;min-height:32px;padding:0;border:0;font-size:.88rem;text-decoration:underline;text-underline-offset:3px}}
@@ -96,7 +101,7 @@ const JS = `/* Common Shade: "Everything Common Shade covers", the card shown wh
   var KEY = "cs-exit-rest", root = document.documentElement, start = Date.now() - (window.performance ? performance.now() : 0), shown = false, lastY = scrollY, lastT = Date.now(), deep = scrollY > innerHeight * 1.5;   // already reading deep when this arrives
   try { if (sessionStorage.getItem(KEY)) return; } catch (e) {}
   var TOP = ${JSON.stringify(TOP)}, HTML = ${JSON.stringify(HTML)}, FOOT = ${JSON.stringify(FOOT)}, CSS = ${JSON.stringify(CSS)};
-  function show() {
+  function show(via) {
     if (shown || root.dataset.csPop || document.querySelector("dialog[open]")) return;
     shown = true; root.dataset.csPop = "exit"; off();
     var st = document.createElement("style"); st.textContent = CSS; document.head.appendChild(st);
@@ -108,14 +113,21 @@ const JS = `/* Common Shade: "Everything Common Shade covers", the card shown wh
     d.addEventListener("click", function (e) { if (e.target === d) d.close(); });   // a tap outside the card closes it
     d.addEventListener("close", function () { try { sessionStorage.setItem(KEY, "1"); } catch (e) {} if (root.dataset.csPop === "exit") delete root.dataset.csPop; setTimeout(function () { d.remove(); }, 50); });
     document.body.appendChild(d); d.showModal();
+    // the "Watch Common Shade grow" door turns on, once, as the reader moves to close the card: the pointer nearing the
+    // close buttons, keyboard focus reaching them, or (on a phone, where the card opened on the way out) after a moment
+    var grow = d.querySelector("[data-csx-grow]"), exits = [].slice.call(d.querySelectorAll(".csx__x,.csx__stay"));
+    function on() { if (grow.classList.contains("csx__grow--on")) return; grow.classList.add("csx__grow--on"); grow.querySelector("[data-csx-grow-l]").textContent = "Before you go: see how it grew"; }
+    exits.forEach(function (b) { b.addEventListener("focus", on); b.addEventListener("pointerenter", on); });
+    d.addEventListener("pointermove", function (e) { exits.forEach(function (b) { var r = b.getBoundingClientRect(); if (Math.abs(e.clientX - (r.left + r.width / 2)) < 140 && Math.abs(e.clientY - (r.top + r.height / 2)) < 110) on(); }); });
+    if (via === "scroll") setTimeout(on, 900);
   }
   // leaving, on a computer: the pointer heads up out of the page, towards the tabs and the address bar
-  function onOut(e) { if (!e.relatedTarget && e.clientY <= 0 && Date.now() - start > 4000) show(); }
+  function onOut(e) { if (!e.relatedTarget && e.clientY <= 0 && Date.now() - start > 4000) show("pointer"); }
   // leaving, on a phone: after reading a while, a quick swipe back up towards the top, where the back and address bar are
   function onScroll() {
     var y = scrollY, t = Date.now();
     if (y > innerHeight * 1.5) deep = true;
-    if (deep && t - start > 15000 && lastY - y > 140 && t - lastT < 260 && y < innerHeight) show();
+    if (deep && t - start > 15000 && lastY - y > 140 && t - lastT < 260 && y < innerHeight) show("scroll");
     if (t - lastT > 120) { lastY = y; lastT = t; }
   }
   function off() { document.removeEventListener("mouseout", onOut); removeEventListener("scroll", onScroll); }

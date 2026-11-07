@@ -145,6 +145,49 @@ function checkWatch(V) {
 // Social protection (SOCIAL_PROTECTION, one file per country in data/social-protection/): unique ids, fixed values from
 // the README, an as-of date on every scheme, https sources, ladder steps from the eight, links that resolve, and no
 // em dash. Each problem names the country, the record and what to fix.
+// Watch Common Shade grow (data/site/growth.json): one reviewed entry per change. Kinds, roots, places, people and
+// topics come from fixed lists; every link, page and action resolves; "why" is one or two sentences; a quoted finding
+// appears word for word in the site's own records; effort files exist; nothing vague like "Learn more". Each problem
+// names the entry and the field.
+function checkGrowth(V) {
+  const fs = require("fs"), path = require("path"), ROOT = path.join(__dirname, ".."), P = [];
+  const file = path.join(ROOT, "data/site/growth.json"); if (!fs.existsSync(file)) return P;
+  const T = require("./growth-text.js"), G = JSON.parse(fs.readFileSync(file, "utf8"));
+  const arr = x => Array.isArray(x) ? x : Object.values(x || {});
+  const people = new Set(arr(V.AT_RISK).map(r => r.id)), levers = new Set(arr(V.LEVERS).map(r => r.id)), loops = new Set(arr(V.LOOPS).map(r => r.id));
+  const kinds = new Set(T.KINDS.map(k => k[0])), places = new Set(T.PLACES.map(p => p[0])), roots = new Set(["evidence", "experience", "practical", "institutions", "financing"]);
+  const pageExists = h => { const u = h.split(/[?#]/)[0]; if (!u || u === "/") return true; const f = path.join(ROOT, u.replace(/^\//, "")); return fs.existsSync(u.endsWith("/") ? path.join(f, "index.html") : f); };
+  const norm = t => String(t).replace(/[’‘]/g, "'").replace(/[“”]/g, '"').replace(/\s+/g, " ");
+  const corpus = norm([fs.readFileSync(path.join(ROOT, "llms-full.txt"), "utf8"), ...["data/core", "data/site", "data/kb", "data/social-protection"].flatMap(d => fs.readdirSync(path.join(ROOT, d)).filter(f => f.endsWith(".json") && f !== "growth.json").map(f => fs.readFileSync(path.join(ROOT, d, f), "utf8")))].join("\n"));
+  const ids = new Set(), today = new Date().toISOString().slice(0, 10), seenPr = {};
+  (G.entries || []).forEach(e => { const at = `data/site/growth.json entry ${e.id}`;
+    if (!/^g-[a-z0-9-]+$/.test(e.id || "")) P.push(`${at}: id must look like "g-short-name"`); if (ids.has(e.id)) P.push(`${at}: id used twice`); ids.add(e.id);
+    if (!kinds.has(e.kind)) P.push(`${at}: kind must be one of ${[...kinds].join(", ")}`);
+    if (!roots.has(e.root)) P.push(`${at}: root must be one of ${[...roots].join(", ")}`);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(e.added || "") || e.added > today) P.push(`${at}: added must be a past date, YYYY-MM-DD`);
+    if (e.pr != null && !Number.isInteger(e.pr)) P.push(`${at}: pr must be the merged pull request number, or null`);
+    if (!e.title || !e.why) P.push(`${at}: needs a title and why`);
+    if ((String(e.why).match(/[.!?](\s|$)/g) || []).length > 2) P.push(`${at}: why is one or two sentences`);
+    if (/—/.test(JSON.stringify(e))) P.push(`${at}: use "-", never an em dash`);
+    (e.places || []).forEach(p => { if (!places.has(p)) P.push(`${at}: place "${p}" is not in PLACES (tools/growth-text.js)`); });
+    (e.people || []).forEach(p => { if (!people.has(p)) P.push(`${at}: people "${p}" is not an AT_RISK id`); });
+    (e.topics || []).forEach(t => { if (!levers.has(t) && !loops.has(t)) P.push(`${at}: topic "${t}" is not a lever or loop id`); });
+    if (!Array.isArray(e.action) || e.action.length !== 2) P.push(`${at}: action is ["Label", "/path/"]`);
+    else { if (/^(learn more|read more|click here|more|details)$/i.test(e.action[0].trim())) P.push(`${at}: action "${e.action[0]}" is vague; name the next step, such as "Read the evidence"`);
+      if (!pageExists(e.action[1])) P.push(`${at}: action link ${e.action[1]} is not a page on the site`); }
+    (e.pages || []).forEach(([h]) => { if (!pageExists(h)) P.push(`${at}: page ${h} is not on the site`); });
+    (e.links || []).forEach(l => { const [t, id] = String(l.to).split(":");
+      const ok = t === "lever" ? levers.has(id) : t === "loop" ? loops.has(id) : t === "people" ? people.has(id) : t === "page" ? pageExists(id) : false;
+      if (!ok) P.push(`${at}: link "${l.to}" does not resolve (lever:, loop:, people: or page:)`);
+      if (!["record", "editorial"].includes(l.basis)) P.push(`${at}: link "${l.to}" basis must be record or editorial`);
+      if (!l.why) P.push(`${at}: link "${l.to}" needs a why`); });
+    if (e.finding) { if (!corpus.includes(norm(e.finding.text))) P.push(`${at}: the quoted finding does not appear in the site's records; quote it exactly as the site already states it`);
+      if (!e.finding.source || !e.finding.source[1]) P.push(`${at}: finding needs a source ["label", "url"]`); }
+    if (e.effort) ["inbox", "links", "linkcheck", "hap", "dropped", "held"].forEach(k => { const f = e.effort[k]; if (f && !fs.existsSync(path.join(ROOT, f))) P.push(`${at}: effort ${k} file ${f} does not exist`); });
+    if (e.effort && !e.effort.asked) P.push(`${at}: effort needs "asked", the question the work set out to answer`);
+  });
+  return P;
+}
 function checkSocialProtection(V) {
   const SP = V.SOCIAL_PROTECTION; if (!SP) return [];
   const P = [], ids = new Set(), orgs = new Set((V.ORGANISATIONS || []).map(o => o.id));
@@ -225,9 +268,9 @@ else if (mode === "--check") {
   const diff = a.names.filter(n => !deepEqual(a.values[n], b.values[n]));
   if (diff.length || a.names.length !== b.names.length) { console.error("data.js differs from data/core in:", diff.join(", ") || "block list"); process.exit(1); }
   const all = Object.assign({}, b.values, require("./data-blocks.js")());
-  failOn([...checkHope(all), ...checkHome(all), ...checkVisibility(all), ...checkWatch(all), ...checkSocialProtection(all)]);
+  failOn([...checkHope(all), ...checkHome(all), ...checkVisibility(all), ...checkWatch(all), ...checkSocialProtection(all), ...checkGrowth(all)]);
   console.log(`data.js matches data/core (${a.names.length} blocks)`);
 } else {
-  const out = build(); const built = load(out).values; Object.assign(built, require("./data-blocks.js")()); failOn([...checkHope(built), ...checkHome(built), ...checkVisibility(built), ...checkWatch(built), ...checkSocialProtection(built)]);   // fails loudly if the result is not valid
+  const out = build(); const built = load(out).values; Object.assign(built, require("./data-blocks.js")()); failOn([...checkHope(built), ...checkHome(built), ...checkVisibility(built), ...checkWatch(built), ...checkSocialProtection(built), ...checkGrowth(built)]);   // fails loudly if the result is not valid
   fs.writeFileSync(OUT, out); console.log(`data.js rebuilt from data/core (${out.length.toLocaleString()} characters)`);
 }

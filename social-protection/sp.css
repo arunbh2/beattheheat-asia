@@ -68,3 +68,4 @@
   .sp-table tr { padding: 8px 0; border-bottom: 1px solid var(--line); } .sp-table td { border: 0; padding: 2px 0; }
   .sp-table td:nth-child(3)::before { content: "Open licence: "; font-weight: 700; } .sp-table td:nth-child(4)::before { content: "Shared place code: "; font-weight: 700; }
 }
+.sp-took { padding-left: 20px; display: grid; gap: 8px; max-width: 76ch; }

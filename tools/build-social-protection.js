@@ -49,12 +49,17 @@ module.exports = function socialProtection({ page, write, esc, hero, V, D }) {
       ${f.country.map.misreadings.length ? `<details class="sp-more"><summary>How it could mislead</summary><ul>${f.country.map.misreadings.map(m => `<li>${esc(m)}</li>`).join("")}</ul></details>` : ""}`);
   const questions = per("questions", f => `<ul class="sp-questions">${f.country.questions.map(q => `<li id="${esc(q.id)}">${q.steps ? `<span class="sp-meta">Unmeasured ${q.steps.length > 1 ? "steps" : "step"}: ${esc(q.steps.map(k => T.STEP_NAME[k]).join(", "))}</span> ` : ""}<b>${esc(q.q)}</b><p><span class="sp-meta">What is known:</span> ${esc(q.have)}</p><p><span class="sp-meta">A study that could answer it:</span> ${esc(q.could)} <span class="sp-meta">(${esc(q.scale)})</span></p></li>`).join("")}</ul>`);
   const evidence = SP.flatMap(f => f.evidence.map(e => ({ e, c: f.country })));
+  // what it took to add this: counted from the source check files, as on /growing/
+  const GT = require("./growth-text.js"), gEntry = GT.load().entries.find(e => e.id === "g-social-protection"), gx = gEntry && GT.effort(gEntry);
+  const took = gx ? `<section id="took" class="sp-sec" aria-labelledby="took-h"><h2 id="took-h" class="sp-h2">What it took to add this</h2>
+      <ol class="sp-took">${[["The question", gx.asked], ["The search", gx.search], ["The checking", gx.check], ["What we set aside", gx.aside], ["What is still open", gx.open]].filter(([, t]) => t).map(([h, t]) => `<li><b>${h}.</b> ${esc(t)}</li>`).join("")}</ol>
+      <p class="sp-meta">See for yourself: ${gx.files.map(([h, l]) => `<a href="${esc(h)}">${esc(l)}</a>`).join(" · ")}. This page's place in the commons is on <a href="/growing/#g-social-protection">Watch Common Shade grow</a>.</p></section>` : "";
   const allSources = [...new Map(SP.flatMap(f => [...f.schemes, ...f.ladder, ...f.routes, ...f.evidence, ...f.country.summary, ...f.country.gaps].flatMap(x => x.sources || [])).map(s => [s.url, s])).values()];
 
   const body = `${hero("Act", esc(T.TITLE), `Heat cuts the hours people can safely work and brings costs for care. Public schemes can cushion part of that shock. ${n.schemes} schemes in ${n.countries} countries, what is known about who they reach, and where nothing responds.`)}
   <div class="container sp">
     <p class="sp-note"><b>This is not an eligibility check.</b> Rules change often and differ by place, so each scheme shows the date its status applies to; check with the scheme before relying on it. Households appear here only in aggregate.</p>
-    <nav class="sp-jump" aria-label="On this page"><a href="#why">Why heat reaches household budgets</a><a href="#find">Find support</a><a href="#steps">Steps of access</a><a href="#routes">Delivery routes</a><a href="#gaps">Where nothing responds</a><a href="#maps">What a map could show</a><a href="#questions">Open questions</a><a href="#sources">Sources</a></nav>
+    <nav class="sp-jump" aria-label="On this page"><a href="#why">Why heat reaches household budgets</a><a href="#find">Find support</a><a href="#steps">Steps of access</a><a href="#routes">Delivery routes</a><a href="#gaps">Where nothing responds</a><a href="#maps">What a map could show</a><a href="#questions">Open questions</a>${gx ? `<a href="#took">What it took</a>` : ""}<a href="#sources">Sources</a></nav>
 
     <section id="why" class="sp-sec" aria-labelledby="why-h"><h2 id="why-h" class="sp-h2">Why heat reaches household budgets</h2>
       <p>Heat cuts the hours people can safely work, and illness brings costs and lost days. On the map these are <a href="/#lost">Lost work hours and wages</a>, <a href="/#debt">Medical costs and debt</a> and <a href="/#heatstroke">Heatstroke and heat exhaustion</a>. Public schemes can cushion part of that shock. What the studies show:</p>
@@ -92,6 +97,7 @@ module.exports = function socialProtection({ page, write, esc, hero, V, D }) {
       <p>What the evidence has not yet answered. Study sizes are illustrative, not power calculations.</p>
       ${questions}</section>
 
+    ${took}
     <section id="sources" class="sp-sec" aria-labelledby="sources-h"><h2 id="sources-h" class="sp-h2">Sources</h2>
       <p>Every source was opened and checked for the terms and numbers quoted here before use. ${allSources.length} sources; all are also on <a href="/sources/">Sources and references</a>. Something wrong or out of date? <a href="/corrections/">Tell us, and we will correct it</a>.</p>
       <ul class="sp-srclist">${allSources.map(s => `<li>${ext(s.url, s.label)}</li>`).join("")}</ul></section>
