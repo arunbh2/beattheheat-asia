@@ -288,5 +288,7 @@
     "irrigation",
     "farmwork",
     "Irrigated fields make the air more humid, so farmworkers can face more humid heat even as the air cools."
-  ]
+  ],
+  ["spoilage","emissions","Food that rots carries an emissions cost of its own."],
+  ["forest","productivity","Where forest is cleared, outdoor workers face more heat and get less done."]
 ]

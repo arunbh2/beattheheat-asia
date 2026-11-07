@@ -156,6 +156,18 @@
   { "id": "q-missing-indicator", "loop": "invisible", "status": "open",
     "q": "How many heat-related clinic visits can a linked reporting pilot find where national profiles leave the field empty?",
     "have": "Timor-Leste's profile leaves heat-related deaths and illness unspecified, alongside an approved health adaptation plan.",
-    "could": "Pilot agreed case definitions, daily weather links and record checks in a few facilities.", "scale": "Illustrative: four health facilities for six months" }
+    "could": "Pilot agreed case definitions, daily weather links and record checks in a few facilities.", "scale": "Illustrative: four health facilities for six months" },
+  { "id": "q-cooling-package", "loop": "energypoverty", "status": "open",
+    "q": "Does cooling matched to local heat reduce strain in homes without adding bills people cannot afford?",
+    "have": "Short laboratory trials show fans help in some conditions and not others; there is no household evidence in the region.",
+    "could": "Compare supported cooling packages in occupied homes, with consent, health oversight and cost tracking.", "scale": "Illustrative: about a hundred households in contrasting climates over one hot season" },
+  { "id": "q-cold-storage-service", "loop": "farmdebt", "status": "open",
+    "q": "Does pay-per-use cold storage cut food losses and leave producers better off after fees?",
+    "have": "A pilot in Muzaffarpur, India, offered pay-per-use storage; its outcomes have not been independently checked.",
+    "could": "Phase access in with comparison producers, temperature logs and accounts of what producers earn after fees.", "scale": "Illustrative: a few hundred producers at four markets over two harvests" },
+  { "id": "q-cool-space-after", "loop": "clinic", "status": "open",
+    "q": "How long does protection last after people leave a cooling space?",
+    "have": "A review found only short-lived benefits in simulations and no real-world health outcomes for users.",
+    "could": "Follow consenting users and similar non-users through the rest of hot days, measuring exposure and health.", "scale": "Illustrative: about 150 people over six hot weeks" }
  ]
 }

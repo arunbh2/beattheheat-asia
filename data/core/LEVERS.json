@@ -496,6 +496,17 @@
         "title": "Heat Resilient Cities Framework: cooling access treated as a public service and a question of energy justice, including for tenants and informal settlements (pp. 8-9)",
         "url": "https://niua.in/publication-details/Heat_Resilient_Cities_Framework"
       }
+    ],
+    "watch": [
+      {
+        "text": "In laboratory trials with older adults, fans slightly cooled the body in hot, humid air but raised body temperature in very hot, dry air. These were short trials, not homes.",
+        "sources": [
+          {
+            "label": "Chaseling et al., 2025: older adults' responses to fan use in heat extremes (PMC12308431)",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12308431/"
+          }
+        ]
+      }
     ]
   },
   {
@@ -644,6 +655,17 @@
         "by": "National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026",
         "title": "Heat Resilient Cities Framework: shade, drinking water, alerts, cool surfaces and basic public cooling first, as low-cost protection that reaches many people quickly (p. 6)",
         "url": "https://niua.in/publication-details/Heat_Resilient_Cities_Framework"
+      }
+    ],
+    "watch": [
+      {
+        "text": "A 2025 review found no study that measured health outcomes for people using cooling centres; in simulated heatwaves, the benefits were short-lived. That is not evidence of no benefit.",
+        "sources": [
+          {
+            "label": "Dearman et al., UKHSA, 2025: public health effectiveness of cooling centres, a systematic review",
+            "url": "https://researchportal.ukhsa.gov.uk/en/publications/public-health-effectiveness-of-cooling-centres-during-periods-of-/"
+          }
+        ]
       }
     ]
   },

@@ -50,7 +50,7 @@ Source: UNEP and GRID-Arendal, 2022: Spreading like wildfire https://www.unep.or
 
 Heat and drought stress trees until they stop growing, then die, turning forests from shade and carbon stores into fuel. Losing forest cover adds heat for the people who work there: in an experiment in East Kalimantan, Indonesia, 361 workers in cleared land faced heat stress readings 2.84 °C higher than in forest, and got less done. The experiment cleared land; it does not show that forests dying back from heat have the same effect.
 
-Leads to: Wildfires (Stressed and dying trees become fuel.); Biodiversity loss (Habitats disappear with the trees.); Wildlife moves into farms and villages (Dying forests offer less food and shelter, pushing animals out.)
+Leads to: Wildfires (Stressed and dying trees become fuel.); Biodiversity loss (Habitats disappear with the trees.); Wildlife moves into farms and villages (Dying forests offer less food and shelter, pushing animals out.); Productivity falls (Where forest is cleared, outdoor workers face more heat and get less done.)
 
 Source: Hammond et al., Nature Communications, 2022: a hotter-drought fingerprint for tree die-off https://doi.org/10.1038/s41467-022-29289-2
 
@@ -168,11 +168,13 @@ Source: Free et al., Science, 2019: warming has already cut fisheries productivi
 
 #### Food spoils faster
 
-Without cool storage, more of every harvest rots between field and plate.
+Without cool storage, more of every harvest rots between field and plate. Cold storage protects food only when the cold holds from farm to market; equipment alone does not show fewer losses.
 
-Leads to: Food price spikes (Losses after harvest push up prices.); Diarrhoea in young children (Food that spoils in the heat makes children ill.)
+Leads to: Food price spikes (Losses after harvest push up prices.); Diarrhoea in young children (Food that spoils in the heat makes children ill.); Emissions from cooling rise (Food that rots carries an emissions cost of its own.)
 
 Source: UNEP and FAO, 2022: Sustainable Food Cold Chains (526 million tonnes of food lost for lack of refrigeration) https://www.unep.org/resources/report/sustainable-food-cold-chains-opportunities-challenges-and-way-forward
+
+Source: UNEP and FAO, 2022: sustainable food cold chains https://wedocs.unep.org/bitstreams/e3f8b701-b044-46b9-9deb-8afad6967607/download
 
 #### Food price spikes
 
@@ -332,11 +334,13 @@ Source: IFC, 2019: The Dirty Footprint of the Broken Grid (20–30 million back-
 
 #### Emissions from cooling rise
 
-Most cooling still runs on fossil-fuelled power and refrigerants that warm the planet.
+Most cooling still runs on fossil-fuelled power and refrigerants that warm the planet. Refrigeration adds emissions through the power it uses and the refrigerants that leak, set against the food losses it avoids.
 
 Leads to: Extreme heat (Emissions add to the warming that drives demand for cooling.)
 
 Source: International Energy Agency, 2018: The Future of Cooling https://www.iea.org/reports/the-future-of-cooling
+
+Source: UNEP and FAO, 2022: sustainable food cold chains https://wedocs.unep.org/bitstreams/e3f8b701-b044-46b9-9deb-8afad6967607/download
 
 #### Can’t afford to keep cool
 
@@ -636,13 +640,15 @@ Source: World Bank: personal remittances received, % of GDP (Nepal) https://data
 
 #### Productivity falls
 
-Above a certain temperature, people work more slowly and make more mistakes, indoors and out. Across 2.7 million firms in 23 advanced economies, ten extra days above 35 °C cut a year’s labour productivity by 0.3%, and days above 40 °C did five times the damage. In humid, still air the loss roughly doubles. Losses differ by place and job: an ILO study of the Maldives estimates work lost to heat by sector and workload, as modelled estimates rather than measured wages.
+Above a certain temperature, people work more slowly and make more mistakes, indoors and out. Across 2.7 million firms in 23 advanced economies, ten extra days above 35 °C cut a year’s labour productivity by 0.3%, and days above 40 °C did five times the damage. In humid, still air the loss roughly doubles. Losses differ by place and job: an ILO study of the Maldives estimates work lost to heat by sector and workload, as modelled estimates rather than measured wages. Less heat at work can protect output: in garment factories near Bengaluru, switching to LED lighting, which gives off less heat, softened the drop in output on hot days (one firm's rollout, analysed in a working paper).
 
 Leads to: Lost work hours and wages (Slower work means lower output and pay.); Public budgets strained (Lower output means lower tax revenue.)
 
 Source: OECD Economics Department, Working Paper No. 1828, 2024 https://doi.org/10.1787/19d94638-en
 
 Source: ILO, 2026: impacts of heat stress on jobs and productivity in the Maldives https://www.ilo.org/sites/default/files/2026-10/MALDIVES_Study_Oct27.pdf
+
+Source: Adhvaryu et al., MIT CEEPR working paper, 2017: the light and the heat, productivity co-benefits of energy-saving technology https://ceepr.mit.edu/wp-content/uploads/2021/09/2017-019.pdf
 
 #### Medical costs and debt
 
@@ -1634,6 +1640,8 @@ Cuts the link: Can’t afford to keep cool → Heatstroke and heat exhaustion. W
 
 Could help interrupt: The energy-poverty trap
 
+Watch for: In laboratory trials with older adults, fans slightly cooled the body in hot, humid air but raised body temperature in very hot, dry air. These were short trials, not homes. (Chaseling et al., 2025: older adults' responses to fan use in heat extremes (PMC12308431), https://pmc.ncbi.nlm.nih.gov/articles/PMC12308431/)
+
 - Guide: Chilling Prospects: Global Access to Cooling Gaps 2023 (Sustainable Energy for All, 2023) https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-global-access-to-cooling-gaps-2023
 
 - Guide: Chilling Prospects Special: Gender and Access to Cooling (Sustainable Energy for All) https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-special-gender
@@ -1703,6 +1711,8 @@ Public cooling spaces, water points and check-ins on older people living alone c
 Cuts the link: Heat protection underfunded → Heat deaths. Who can act: City and local governments, Community and civil society groups, Health authorities.
 
 Could help interrupt: The invisible-deaths loop
+
+Watch for: A 2025 review found no study that measured health outcomes for people using cooling centres; in simulated heatwaves, the benefits were short-lived. That is not evidence of no benefit. (Dearman et al., UKHSA, 2025: public health effectiveness of cooling centres, a systematic review, https://researchportal.ukhsa.gov.uk/en/publications/public-health-effectiveness-of-cooling-centres-during-periods-of-/)
 
 - Guide: The use of cooling centers to prevent heat-related illness: evidence and strategies for implementation (US Centers for Disease Control and Prevention, in the GHHIN resource library) https://heathealth.info/wp-content/uploads/cdc_47657_DS1-compressed-1.pdf
 
