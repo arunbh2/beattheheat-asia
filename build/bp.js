@@ -28,6 +28,12 @@
 
   // ---- shared pieces ----
   function loopsOf(ids) { var o = {}; ids.forEach(function (id) { C[id].loops.forEach(function (l) { o[l] = 1; }); }); return o; }
+  // the cycles the actions offered for these places can reach: the fair measure of a package (a workplace package is not
+  // expected to reach the heat itself, or a wildfire feedback), with the rest of the map shown apart
+  function reachOf(setIds) { return loopsOf(B.cards.filter(function (c) { return setIds.indexOf(c.s) > -1; }).map(function (c) { return c.id; })); }
+  function split(hit, reach) { var inR = B.loops.filter(function (l) { return reach[l.id]; });
+    return { inR: inR, gap: inR.filter(function (l) { return !hit[l.id]; }), beyond: B.loops.filter(function (l) { return !reach[l.id]; }) }; }
+  var loopLi = function (l) { return '<li><a href="/#loop-' + l.id + '">' + esc(l.n) + "</a></li>"; };
   function ring(hit) {
     return '<div class="bp-ring">' + B.groups.map(function (g) {
       return '<div class="bp-rg"><p>' + esc(g[1]) + '</p><ul>' + B.loops.filter(function (l) { return l.g === g[0]; }).map(function (l) {
@@ -57,20 +63,21 @@
     }).join("");
     var hzCover = B.hz.map(function (h) { var on = picks.some(function (id) { return C[id].h === h[0]; }); return '<li class="' + (on ? "is-on" : "") + '">' + esc(h[1]) + (on ? "" : ": not yet covered") + "</li>"; }).join("");
     var who = instList(picks);
-    var miss = B.loops.filter(function (l) { return !hit[l.id]; });
-    var sheet = picks.length ? '<h3 class="bp-h">Cycles it could help interrupt <span>' + nHit + " of " + B.loops.length + "</span></h3>" + ring(hit) +
+    var R = split(hit, reachOf([S.set]));
+    var sheet = picks.length ? '<h3 class="bp-h">Cycles it could help interrupt <span>' + nHit + " of " + R.inR.length + " within reach here</span></h3>" +
+      '<p class="bp-note">Actions in this place can reach ' + R.inR.length + " of the " + B.loops.length + " cycles on the map. Reaching a cycle is not the same as breaking it.</p>" + ring(hit) +
       '<h3 class="bp-h">When it works</h3><ul class="bp-hzs">' + hzCover + "</ul>" +
       '<h3 class="bp-h">What it depends on</h3><ul class="bp-ul">' + picks.map(function (id) { return "<li><b>" + esc(C[id].t) + ":</b> " + esc([].concat(C[id].need).join("; ")) + "</li>"; }).join("") + "</ul>" +
       '<h3 class="bp-h">Who acts</h3><ul class="bp-who">' + who.map(function (w) { return "<li>" + esc(B.inst[w[0]] || w[0]) + " <span>" + w[1] + " of " + picks.length + "</span></li>"; }).join("") + '</ul><p class="bp-note">See who could hold each part on <a href="/who-holds-it/#' + C[picks[0]].lv + '">Who holds it up</a>.</p>' +
       '<h3 class="bp-h">What it takes to keep running</h3><ul class="bp-ul">' + picks.map(function (id) { return "<li><b>" + esc(C[id].t) + ":</b> " + esc(C[id].run) + "</li>"; }).join("") + "</ul>" +
       '<h3 class="bp-h">What could stop it</h3><ul class="bp-ul">' + picks.map(function (id) { return "<li><b>" + esc(C[id].t) + ":</b> " + esc(C[id].stop) + "</li>"; }).join("") + "</ul>" +
-      '<h3 class="bp-h">What it cannot fix</h3><p class="bp-note">This package does not reach ' + miss.length + " of the " + B.loops.length + " cycles. Some sit far from this place, such as the heat itself or the rules and budgets set elsewhere; others may need partners beyond it.</p>" +
-      '<details class="bp-miss"><summary>See the cycles it does not reach</summary><ul>' + miss.map(function (l) { return '<li><a href="/#loop-' + l.id + '">' + esc(l.n) + "</a></li>"; }).join("") + "</ul></details>" +
+      '<h3 class="bp-h">What it does not reach yet</h3>' + (R.gap.length ? '<p class="bp-note">Within reach of this place but not in the package: ' + R.gap.length + (R.gap.length === 1 ? " cycle" : " cycles") + ". Other actions on the shelf could reach " + (R.gap.length === 1 ? "it" : "them") + ".</p><ul class=\"bp-ul\">" + R.gap.map(loopLi).join("") + "</ul>" : '<p class="bp-note">The package reaches every cycle that actions in this place can reach.</p>') +
+      '<details class="bp-miss"><summary>' + R.beyond.length + " cycles sit beyond this place</summary><p class=\"bp-note\">Such as the heat itself, or rules and budgets set elsewhere: they need partners beyond this place.</p><ul>" + R.beyond.map(loopLi).join("") + "</ul></details>" +
       '<div class="bp-acts"><button type="button" data-copy>Copy a link to this package</button><button type="button" data-print>Print a summary</button><button type="button" data-clear>Start again</button></div>'
       : '<p class="bp-empty">Add actions from the shelf to see which cycles they could help interrupt, what they depend on and who acts.</p><button type="button" class="bp-start" data-start>Start with one action for each problem people here report</button>' + ring({});
     app.innerHTML = '<h2 class="bp-step"><span>1</span> Choose a place</h2>' + tiles + '<p class="bp-intro">' + esc(s.i) + "</p>" +
       '<div class="bp-grid"><div class="bp-shelf"><h2 class="bp-step"><span>2</span> Add actions</h2>' + cards + '</div><aside class="bp-sheet" aria-label="Your package"><h2 class="bp-step"><span>3</span> Your package <em>' + picks.length + "</em></h2>" + sheet + "</aside></div>" +
-      '<div class="bp-bar" aria-hidden="true">' + picks.length + " actions · could help interrupt " + nHit + " of " + B.loops.length + " cycles</div>";
+      '<div class="bp-bar" aria-hidden="true">' + picks.length + " actions · could help interrupt " + nHit + " of " + R.inR.length + " cycles within reach here</div>";
     app.querySelectorAll("[data-set]").forEach(function (b) { b.addEventListener("click", function () { if (S.set !== b.dataset.set) { S.set = b.dataset.set; S.picks = []; } render(); }); });
     app.querySelectorAll("[data-pick]").forEach(function (b) { b.addEventListener("click", function () { var id = b.dataset.pick, i = S.picks.indexOf(id); if (i > -1) S.picks.splice(i, 1); else S.picks.push(id); render(); }); });
     var st = app.querySelector("[data-start]"); if (st) st.addEventListener("click", function () { S.picks = s.start.map(function (x) { return S.set + ":" + x; }).filter(function (id, i, a) { return C[id] && a.indexOf(id) === i; }); render(); });
@@ -94,9 +101,11 @@
       var sets = {}; ids.forEach(function (id) { sets[C[id].s] = 1; });
       var who = instList(ids), lean = who.filter(function (w) { return ids.length >= 3 && w[1] / ids.length >= 0.6; });
       var unev = ids.filter(function (id) { return !/evaluated|measured/.test(C[id].ev); });
-      var miss = B.loops.filter(function (l) { return !hit[l.id]; });
-      out = '<h3 class="bp-h">Cycles it could help interrupt <span>' + nHit + " of " + B.loops.length + "</span></h3>" + ring(hit) +
-        '<details class="bp-miss"><summary>' + miss.length + " cycles it does not reach</summary><ul>" + miss.map(function (l) { return '<li><a href="/#loop-' + l.id + '">' + esc(l.n) + "</a></li>"; }).join("") + "</ul></details>" +
+      var R = split(hit, reachOf(Object.keys(sets)));
+      out = '<h3 class="bp-h">Cycles it could help interrupt <span>' + nHit + " of " + R.inR.length + " within reach of these places</span></h3>" +
+        '<p class="bp-note">Actions in the places chosen can reach ' + R.inR.length + " of the " + B.loops.length + " cycles on the map.</p>" + ring(hit) +
+        (R.gap.length ? '<details class="bp-miss"><summary>' + R.gap.length + " within reach, not yet in the portfolio</summary><ul>" + R.gap.map(loopLi).join("") + "</ul></details>" : "") +
+        '<details class="bp-miss"><summary>' + R.beyond.length + " beyond these places</summary><ul>" + R.beyond.map(loopLi).join("") + "</ul></details>" +
         '<h3 class="bp-h">Balance of roles</h3><div class="bp-bal">' + ROLES.map(function (r) { var n = rc[r[0]] || 0; return n ? '<span class="bp-b bp-b--' + r[0] + '" style="flex:' + n + '">' + r[1] + " · " + n + "</span>" : ""; }).join("") + "</div>" +
         '<p class="bp-note">' + ROLES.filter(function (r) { return !rc[r[0]]; }).map(function (r) { return r[1]; }).join(", ").replace(/^(.+)$/, "No pieces yet for: $1.") + "</p>" +
         '<h3 class="bp-h">Places</h3><ul class="bp-hzs">' + B.sets.map(function (s) { return '<li class="' + (sets[s.id] ? "is-on" : "") + '">' + esc(s.sh) + "</li>"; }).join("") + "</ul>" +
