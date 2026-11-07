@@ -72,13 +72,15 @@ Source: ICIMOD, 2023: glacier loss in the Hindu Kush Himalaya https://lib.icimod
 
 #### Glacial lake outburst floods
 
-As glaciers retreat, meltwater pools behind loose rock and ice. When a bank gives way the lake can empty in hours. In October 2023 Sikkim’s South Lhonak lake burst after a frozen moraine collapsed into it; the flood breached the Teesta III dam, set off 45 landslides and cut the national highway. Climate change played a key role, and the lake can burst again.
+As glaciers retreat, meltwater pools behind loose rock and ice. When a bank gives way the lake can empty in hours. In October 2023 Sikkim’s South Lhonak lake burst after a frozen moraine collapsed into it; the flood breached the Teesta III dam, set off 45 landslides and cut the national highway. Climate change played a key role, and the lake can burst again. Melting is one part among several: Pakistan's Shisper glacier dammed its own lake after a surge, and the 7 May 2022 outburst swept away the Hassanabad bridge.
 
 Leads to: Roads, rails and runways strained (A burst lake sweeps away bridges and highways.); Hydropower falls (Floods breach dams and wreck power stations downstream.); Heat deaths (Floodwater arrives with little warning.)
 
 Source: ICIMOD, 2025: climate change played key role in the 2023 Sikkim lake outburst https://www.icimod.org/press-release/new-scientific-study-confirms-climate-change-played-key-role-in-deadly-2023-lake-outburst-in-sikkim/
 
 Source: Sattar et al., Science, 2025: the Sikkim flood of October 2023 https://www.science.org/doi/10.1126/science.ads2659
+
+Source: Lovell et al., Journal of Glaciology, 2024: ice-dammed lake formation and drainage at Shisper Glacier https://www.cambridge.org/core/journals/journal-of-glaciology/article/multiple-phases-of-icedammed-lake-formation-and-drainage-associated-with-a-surge-of-shisper-glacier-western-karakoram/EC032F0636796DB506AD584FA7E3961A
 
 #### Marine heatwaves and coral bleaching
 
@@ -116,13 +118,15 @@ Crops, animals, fisheries and the people who work them all have heat limits. Cro
 
 #### Failing harvests
 
-Heat during flowering and grain-filling cuts yields of staple crops, even when there is enough rain. Smallholders farming on rain alone, with no irrigation or savings to fall back on, are hit first.
+Heat during flowering and grain-filling cuts yields of staple crops, even when there is enough rain. Smallholders farming on rain alone, with no irrigation or savings to fall back on, are hit first. Shocks can come one after another: in Pakistan in 2022, flood crop losses added to food pressures left by the summer's heat, though the heat did not cause the floods.
 
 Leads to: Food price spikes (Smaller harvests push up prices.); Farmers fall into debt (A failed season leaves farmers borrowing to eat and to replant.); Suicides rise (When heat ruins crops, farm incomes fall, and suicides rise in the growing season.); Learning suffers in hot classrooms (When heat cuts harvests and farm income, children's test results fall.); Hunger and malnutrition (A poor harvest leaves the households that already eat least eating less the following year.)
 
 Source: Lobell, Sibley and Ortiz-Monasterio, Nature Climate Change, 2012 (wheat in India) https://fsi.stanford.edu/node/26622
 
 Source: Peng et al., PNAS, 2004 (rice in the Philippines) https://doi.org/10.1073/pnas.0403720101
+
+Source: World Weather Attribution, 2022: extreme monsoon rainfall and flooding in Pakistan https://www.worldweatherattribution.org/climate-change-likely-increased-extreme-monsoon-rainfall-flooding-highly-vulnerable-communities-in-pakistan/
 
 #### Livestock losses
 
@@ -200,11 +204,13 @@ Heat raises the demand for water just as it shrinks the supply, and lowers its q
 
 #### Water shortages
 
-Taps run dry and wells fall just as people, crops and animals need more water to cope with the heat.
+Taps run dry and wells fall just as people, crops and animals need more water to cope with the heat. Drought and salt water can leave water unusable as well as scarce: in April 2024, UNICEF estimated 73,900 households in the Mekong Delta short of water, with women and girls carrying most of the extra fetching.
 
-Leads to: Longer trips to fetch water (Taps run dry, so someone has to fetch water.); Sanitation and hygiene fail (Without water, sanitation and hygiene fail.); Competition for water (Farms, cities and power plants compete for what is left.); Irrigation demand soars (Dry fields need more irrigation.); Power plants cut output (Power plants need cool water. When rivers run low or warm, they cut output.); City trees and parks die (When water runs short, watering trees and parks is cut first.); Buying water from tankers (When taps run dry, people buy water by the tanker.)
+Leads to: Longer trips to fetch water (Taps run dry, so someone has to fetch water.); Sanitation and hygiene fail (Without water, sanitation and hygiene fail.); Competition for water (Farms, cities and power plants compete for what is left.); Irrigation demand soars (Dry fields need more irrigation.); Power plants cut output (Power plants need cool water. When rivers run low or warm, they cut output.); City trees and parks die (When water runs short, watering trees and parks is cut first.); Buying water from tankers (When taps run dry, people buy water by the tanker.); Hydropower falls (Low reservoirs in a hot spell leave less water to turn into electricity.)
 
 Source: World Resources Institute: Day Zero lessons from Cape Town and Chennai https://www.wri.org/insights/responding-day-zero-equitably-water-crisis-lessons-cape-town-and-chennai
+
+Source: UNICEF Viet Nam Humanitarian Situation Report No. 1, 27 April 2024 (drought) https://www.unicef.org/media/156076/file/Viet_Nam_Humanitarian_Situation_Report_No._01_%28drought%29_reporting_period__-27_April_2024.pdf
 
 #### Buying water from tankers
 
@@ -220,7 +226,7 @@ Source: World Resources Institute: responding to Day Zero equitably, Cape Town a
 
 Warm, low water breeds algae and bacteria and concentrates pollution.
 
-Leads to: Infectious diseases spread (Contaminated water spreads disease.); Diarrhoea in young children (Warm, low water lets bacteria multiply.)
+Leads to: Infectious diseases spread (Contaminated water spreads disease.); Diarrhoea in young children (Warm, low water lets bacteria multiply.); Water shortages (Salt water creeping into wells and rivers makes existing sources unusable.)
 
 Source: Review in International Journal of Environmental Research and Public Health, 2022: cyanobacteria gain the advantage above 20 °C https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9223187/
 
@@ -280,11 +286,13 @@ Source: International Energy Agency: The Future of Cooling in Southeast Asia htt
 
 #### Power cuts and grid stress
 
-Peak demand and heat-stressed lines and transformers push grids to the edge. Outages switch off cooling when it matters most.
+Peak demand and heat-stressed lines and transformers push grids to the edge. Outages switch off cooling when it matters most. Heat and low water can strike the grid together: in northern Viet Nam in June 2023, heat drove demand up while low reservoirs left only 23.7% of hydropower capacity available, with plant and transmission problems adding to the strain.
 
 Leads to: Diesel generators run longer (Outages drive those who can afford it to diesel.); Cold chains break (Without power, fridges for food and vaccines fail.); Health systems overwhelmed (Hospitals and clinics lose cooling and equipment when the power fails.); Water shortages (Without power, pumps and treatment plants stop.); Phone and data networks fail (Phone masts and networks fail when the power does.); Small businesses close (Shops and workshops lose power and stock.); Homes that trap heat (When the power fails, fans stop and a hot home has no way to cool down.)
 
 Source: World Bank estimate, reported by AFP via The Manila Times, 2023: Vietnam’s heat-driven power crisis https://manilatimes.net/2023/08/12/business/foreign-business/power-crisis-cost-vietnam-14b-wb/1904920/amp
+
+Source: Vietnam Electricity, 7 June 2023: power supply in the hot season https://en.evn.com.vn/d6/news/Ministry-of-Industry-and-Trade-informs-about-power-supply-situation-in-hot-season-66-163-3527.aspx
 
 #### Power plants cut output
 
@@ -362,7 +370,7 @@ Source: Tasgaonkar et al., Scientific Data, 2022: indoor heat in low-income home
 
 Rails buckle, roads soften and hot, thin air means planes need longer runways or must carry less.
 
-Leads to: Transport disrupted (Buckled rails and softened roads slow everything down.); Public budgets strained (Repairs drain public budgets.)
+Leads to: Transport disrupted (Buckled rails and softened roads slow everything down.); Public budgets strained (Repairs drain public budgets.); Schools close in heatwaves (Storm damage can close learning spaces that heat also closes.)
 
 Source: Coffel, Thompson and Horton, Climatic Change, 2017, via NASA: rising temperatures and aircraft take-off https://ntrs.nasa.gov/citations/20170007349
 
@@ -382,7 +390,7 @@ Source: World Bank estimate, reported by AFP via The Manila Times, 2023 https://
 
 Heat speeds up the chemistry that forms ground-level ozone, and still, hot air traps pollution and smoke.
 
-Leads to: Breathing problems worsen (Ozone and smoke inflame the lungs.)
+Leads to: Breathing problems worsen (Ozone and smoke inflame the lungs.); Heat deaths (Polluted air can be more deadly on the hottest days.)
 
 Source: Air Quality News, 2026: heatwaves drive dangerous ozone pollution across India (npj Clean Air study) https://airqualitynews.com/news/health-news/heatwaves-drive-dangerous-ozone-pollution-across-india/
 
@@ -430,11 +438,13 @@ The human body has limits. Heat strains the heart, kidneys, lungs and mind, and 
 
 #### Heat deaths
 
-Extreme heat kills, often quietly, through failing hearts, kidneys and lungs. Europe’s 2003 heatwave alone is estimated to have caused more than 70,000 deaths.
+Extreme heat kills, often quietly, through failing hearts, kidneys and lungs. Europe’s 2003 heatwave alone is estimated to have caused more than 70,000 deaths. In Thailand, the link between air pollution and deaths was stronger on the hottest days, across 34 provinces; whether this holds elsewhere is not yet known.
 
 Leads to: Heat deaths under-recorded (Most heat deaths are recorded as heart, kidney or lung failure.); Deepening inequality (Families lose breadwinners and carers.)
 
 Source: Robine et al., Comptes Rendus Biologies, 2008: death toll exceeded 70,000 in Europe in summer 2003 https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2007.12.001/
+
+Source: Phosri et al., International Journal of Biometeorology, 2025: air pollution, temperature and mortality in Thailand https://link.springer.com/article/10.1007/s00484-025-02913-8
 
 #### Heatstroke and heat exhaustion
 
@@ -534,7 +544,7 @@ Source: Raja et al., Annals of Occupational and Environmental Medicine, 2026: he
 
 Warmth helps the mosquitoes that carry dengue breed and bite, and dirty water and spoiled food spread illness. Bangladesh had its worst dengue year on record in 2023: by 30 October, WHO counted 267,680 cases and 1,333 deaths, with the surge starting unusually early.
 
-Leads to: Health systems overwhelmed (Outbreaks add to the caseload.)
+Leads to: Health systems overwhelmed (Outbreaks add to the caseload.); Older people isolated at home (Infection control can close shared cool spaces and cut in-person support.)
 
 Source: WHO Bangladesh, Dengue Situation Report 10, 30 October 2023 https://www.who.int/bangladesh/about-us/publications/m/item/dengue-situation-report-10-30-october-2023
 
@@ -556,13 +566,15 @@ Source: A counterpoint: no loss of executive function or risk-taking at modest h
 
 #### Health systems overwhelmed
 
-Heatwaves bring surges of patients just as staff, power and supplies are under strain. In Bangladesh, people with disabilities described heat making travel, communication and reaching care harder, and many relied on family to get help.
+Heatwaves bring surges of patients just as staff, power and supplies are under strain. In Bangladesh, people with disabilities described heat making travel, communication and reaching care harder, and many relied on family to get help. During an outbreak, protective clothing adds heat: health workers in southern India and Singapore reported heat symptoms while wearing it in 2020.
 
 Leads to: Heatstroke and heat exhaustion (Overstretched services treat people later, and heat illness turns severe fast.)
 
 Source: Context, 2024: India’s hospitals adapt to killer heat https://www.context.news/climate-risks/ice-baths-and-ventilators-indias-hospitals-adapt-to-killer-heat
 
 Source: Interviews with people with disabilities in three Bangladesh locations, International Journal of Disaster Risk Science, 2026 https://link.springer.com/article/10.1007/s13753-026-00778-y
+
+Source: Lee et al., 2020: heat stress among health workers in India and Singapore during COVID-19 https://heathealth.info/wp-content/uploads/Lee-et-al.-2020-Heat-Stress-and-Thermal-Perception-amongst-Healthcare-Workers-during-the-COVID-19-Pandemic-in-India-and-Singapore.pdf
 
 ### Work and economy
 
@@ -666,11 +678,13 @@ Hot classrooms and closed schools cost children learning that shows up years lat
 
 #### Schools close in heatwaves
 
-When classrooms become dangerous, schools shut, sometimes for weeks.
+When classrooms become dangerous, schools shut, sometimes for weeks. Disasters and heat can close the same classrooms: in Cox's Bazar in 2024, storms damaged 434 learning facilities, and heat closed centres separately.
 
 Leads to: Learning suffers in hot classrooms (Lost school days mean lost learning.); Care burden falls on women and girls (Children at home need someone to look after them.); Hunger and malnutrition (Children who rely on school meals go without them when schools shut.)
 
 Source: UNICEF, 2025: Learning interrupted https://www.unicef.org/reports/learning-interrupted-global-snapshot-2024
+
+Source: UNICEF Bangladesh, 2025: rebuilding education for climate and disaster resilience in Cox's Bazar https://www.unicef.org/bangladesh/en/stories/rebuilding-education-climate-and-disaster-resilience-coxs-bazar
 
 #### Learning suffers in hot classrooms
 
@@ -726,7 +740,7 @@ Source: Older people and family members in Chiang Rai, Thailand, 2023 (PubMed 37
 
 Older people living alone are among the most likely to die in a heatwave. Many victims of Chicago’s 1995 heatwave died alone at home.
 
-Leads to: Heat deaths (Older people alone at home are among the most likely to die.)
+Leads to: Heat deaths (Older people alone at home are among the most likely to die.); Homes that trap heat (Kept at home with nowhere cooler to go, people stay longer in the heat.)
 
 Source: Semenza et al., New England Journal of Medicine, 1996: heat-related deaths in the July 1995 Chicago heatwave https://pubmed.ncbi.nlm.nih.gov/8649494/
 
@@ -1786,6 +1800,8 @@ At the International Rice Research Institute’s farm in the Philippines, rice y
 
 In India, crop-damaging heat in the growing season is linked to more suicides; warming over 30 years is estimated to account for 59,300. (Carleton, PNAS, 2017: crop-damaging temperatures increase suicide rates in India, https://pubmed.ncbi.nlm.nih.gov/28760983/)
 
+On 25 April 2024, the UN reported drought in 41 Philippine provinces during a hot, dry spell, as FAO and partners activated anticipatory action in Isabela and Bangsamoro. (United Nations in the Philippines, 25 April 2024, https://philippines.un.org/en/267032-un-calls-increased-support-climate-resilience-philippines-drought-wreaks-havoc)
+
 What helps: Crop insurance and fair credit, Keep water in the soil, Smart irrigation and groundwater rules, Social protection floors, Mental health in heat plans
 
 ### Coastal and riverine communities
@@ -1851,6 +1867,8 @@ In a study of Indian women workers, 87% of those with poor or no toilets at work
 In Nepal’s Madhesh Province, women cooking in hot, smoky kitchens carry a daily ‘thermal labour’ that falls hardest on women in the poorest single-room homes with little access to clean energy or credit. (Ghimire and others, Frontiers in Public Health, 2025, https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1657267/full)
 
 Personal sensors worn by women aged 40 to 79 in rural Tamil Nadu sometimes read more than 5 °C apart within the same hour, possibly from cooking on solid fuels. (Deshpande et al., 2023 (PMC10785747), https://pmc.ncbi.nlm.nih.gov/articles/PMC10785747/)
+
+In April 2024, about 73,900 households in the Mekong Delta were short of water, and women and girls carried most of the extra fetching. (UNICEF Viet Nam, 27 April 2024, https://www.unicef.org/media/156076/file/Viet_Nam_Humanitarian_Situation_Report_No._01_%28drought%29_reporting_period__-27_April_2024.pdf)
 
 What helps: Income protection in heatwaves, Social protection floors, Heat action plans, Cool, affordable housing, Violence prevention in heat planning
 

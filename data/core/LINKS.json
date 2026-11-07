@@ -276,5 +276,11 @@
     "hunger",
     "A poor harvest leaves the households that already eat least eating less the following year."
   ],
-  ["care","productivity","Care work crowds out paid work, especially for women who work from home."]
+  ["care","productivity","Care work crowds out paid work, especially for women who work from home."],
+  ["scarcity","hydro","Low reservoirs in a hot spell leave less water to turn into electricity."],
+  ["smog","deaths","Polluted air can be more deadly on the hottest days."],
+  ["infectious","isolation","Infection control can close shared cool spaces and cut in-person support."],
+  ["isolation","homes","Kept at home with nowhere cooler to go, people stay longer in the heat."],
+  ["infrastructure","schoolclose","Storm damage can close learning spaces that heat also closes."],
+  ["quality","scarcity","Salt water creeping into wells and rivers makes existing sources unusable."]
 ]
