@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://beattheheat.asia/images/social-share-cs.jpg"><meta name="twitter:card" content="summary_large_image">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Newsreader:ital,wght@0,400;1,400&display=swap">
-  <link rel="stylesheet" href="/styles.css?v=187">
+  <link rel="stylesheet" href="/styles.css?v=189">
 <!--csn--><style id="csn-css">html:has(.csn){scroll-padding-top:120px}
 .csn,.csf,.csn-d,.csp{--ink:#16202B;--ink2:#39424D;--grey:#5E6570;--canvas:#FAF7F2;--sand:#F2E7D9;--line:#E6DFD4;--orange:#F26430;--ember:#B8401A;--green:#17703A;font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);line-height:1.4}
 .csn{position:sticky;top:var(--tk-h,0px);z-index:60;margin:0!important;padding:0!important;max-width:none!important;display:block!important;background:rgba(250,247,242,.96);border-bottom:1px solid var(--line);-webkit-backdrop-filter:saturate(1.2) blur(10px);backdrop-filter:saturate(1.2) blur(10px)}
@@ -400,13 +400,16 @@ var today=new Date().toISOString().slice(0,10);
 /* changed since your last visit, and a new monthly brief */
 (function(){var visits=load("cs-visits",{}),last=visits[here],changed=document.body.getAttribute("data-changed")||"",notes=[];
  if(last&&changed&&changed>last)notes.push('<span>Updated since your last visit</span><a href="/whats-new/">See what changed this month</a>');
- var brief="2026-10",seen=load("cs-brief-seen","");
- if(brief&&Object.keys(visits).length&&seen<brief&&here!=="/whats-new/")notes.push('<span>New: the October 2026 State of the field</span><a href="/whats-new/">Read it</a><button type="button" data-csn-dismiss>Not now</button>');
+ var brief="2026-10";
+ /* the monthly brief: on every page of every visit (site owner's choice), resting for the rest of a visit once answered */
+ var briefRest;try{briefRest=sessionStorage.getItem("cs-brief-rest")}catch(e){}
+ if(brief&&!briefRest&&here!=="/whats-new/")notes.push('<span>New: the October 2026 State of the field</span><a href="/whats-new/" data-csn-briefread>Read it</a><button type="button" data-csn-dismiss>Not now</button>');
  if(here==="/whats-new/"&&brief)save("cs-brief-seen",brief);
  visits[here]=today;save("cs-visits",visits);
  if(!notes.length)return;var bar=document.createElement("div");bar.className="csn-new";bar.setAttribute("role","status");bar.innerHTML=notes.join(" ");
  var crumbs=$(".csn__crumbs")||H;crumbs.parentNode.insertBefore(bar,crumbs.nextSibling);
- var d=$("[data-csn-dismiss]",bar);if(d)d.addEventListener("click",function(){save("cs-brief-seen",brief);bar.remove()})})();
+ function rest(){save("cs-brief-seen",brief);try{sessionStorage.setItem("cs-brief-rest","1")}catch(e){}}
+ var d=$("[data-csn-dismiss]",bar);if(d)d.addEventListener("click",function(){rest();bar.remove()});var r=$("[data-csn-briefread]",bar);if(r)r.addEventListener("click",rest)})();
 /* the canopy in the logo widens a little with each stop of a path you walk */
 (function(){var p=byId(get()),c=$(".csn__canopy");if(!p||!c)return;var seen=load("cs-path-seen",{}),list=seen[p.id]||[];
  if(p.stops.some(function(s){return s.url===here})&&list.indexOf(here)<0){list.push(here);seen[p.id]=list;save("cs-path-seen",seen)}
@@ -447,7 +450,7 @@ $$("[data-check]").forEach(function(box){var key=box.getAttribute("data-check"),
     if(form)window.open(form,"_blank","noopener");remember({a:"no",d:today});done(thanksNo)})})}});
 /* copy the citation */
 $$("[data-csn-copy]").forEach(function(b){b.addEventListener("click",function(){var t=$("[data-csn-cite]").textContent;(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){b.textContent="Copied"},function(){b.textContent="Select and copy"})})});
-})();</script><script src="/ticker.js?v=187" defer></script><!--/csn-->
+})();</script><script src="/ticker.js?v=189" defer></script><script>addEventListener("load",function(){setTimeout(function(){["/join.js?v=189","/everything.js?v=189"].forEach(function(s){var e=document.createElement("script");e.src=s;document.body.appendChild(e)})},2500)})</script><!--/csn-->
 <footer class="wkp-foot"><div class="container"><p>Common Shade · Text: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="/sources/">All sources</a></p></div></footer>
 </body>
 </html>

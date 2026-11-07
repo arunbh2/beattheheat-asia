@@ -152,6 +152,7 @@ const PEOPLE = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "peopl
     return { l, st, peer: st.filter(s => s.g === "peer").length, asia: st.filter(s => s.asia).length, q: LQ.filter(q => q.loop === l.id) }; })
     .sort((a, b) => (a.l.evidence === "emerging" ? 0 : 1) - (b.l.evidence === "emerging" ? 0 : 1) || a.peer + a.asia - (b.peer + b.asia));
   const nStudies = cyc.reduce((s, c) => s + c.st.length, 0), nEmerging = cyc.filter(c => c.l.evidence === "emerging").length;
+  require("./site-counts.js")({ studies: nStudies, learningQuestions: LQ.length });
   // solutions and their best evidence, and traced funding, per lever
   const RANKS = ["evaluated", "measured", "guidance", "reported", "test", "concept"];
   const SOLS = [["passive_solutions.json", "passive_solutions"], ["active_solutions.json", "active_solutions"], ["policy_and_finance_solutions.json", "policy_and_finance_solutions"]]
@@ -469,6 +470,7 @@ fs.writeFileSync(path.join(ROOT, "404.html"), page("", "Page not found", "This p
   FILES.forEach(([f, c]) => fs.writeFileSync(path.join(DIRD, f), c));
 
   const P1 = person("protection"), P2 = person("reactive");
+  require("./site-counts.js")({ schemes: RF.schemes.length, instruments: RF.instruments.length });
   const tot = { n: RF.schemes.length, heat: RF.schemes.filter(s => s.heat === "yes").length, paid: RF.schemes.filter(s => s.paid === "paid").length, never: RF.schemes.filter(s => s.paid === "never").length };
   const CHIP = (k, v, t, on) => `<button type="button" class="rf-f${on ? " is-on" : ""}" data-f="${k}" data-v="${v}" aria-pressed="${on ? "true" : "false"}">${t}</button>`;
   const RFD = { L: LS.map(l => ({ id: l.id, name: l.name, short: l.short, when: l.when, text: l.text, n: l.n, heat: l.heat, part: l.part, paid: l.paid, never: l.never, inst: l.inst, seg: l.seg })) };

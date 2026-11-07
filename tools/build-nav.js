@@ -94,11 +94,17 @@ function apply(file, pn) {
   const changed = changedOn(pathname, html);
   html = html.replace(/<body([^>]*?)(\sdata-changed="[^"]*")?>/, `<body$1 data-changed="${changed}">`);
   const end = NO_END.test(pathname) ? "" : NAV.ending(pathname, title, descOf(html));
-  const foot = `<!--csn-->${end}${NAV.footer(pathname, title, UPDATED)}<script>${NAV.JS}</script><script src="/ticker.js?v=${V}" defer></script><!--/csn-->\n`;
+  // every page: the invitation (join.js, unless the page loads it itself) and the exit card (everything.js)
+  const pops = later([...(/<script[^>]+src="\/join\.js/.test(html) ? [] : [`/join.js?v=${V}`]), `/everything.js?v=${V}`]);
+  const foot = `<!--csn-->${end}${NAV.footer(pathname, title, UPDATED)}<script>${NAV.JS}</script><script src="/ticker.js?v=${V}" defer></script>${pops}<!--/csn-->\n`;
   const fAt = html.lastIndexOf("<footer");
   html = fAt > -1 && fAt > mainAt ? html.slice(0, fAt) + foot + html.slice(fAt) : html.replace(/<\/body>/, foot + "</body>");
   fs.writeFileSync(file, html);
 }
+
+// scripts for cards that appear only after a while (the invitation, the exit card) load once the page has finished
+// loading, so they never compete with what a reader sees first on a slow phone (and stay out of check-weight's first load)
+const later = srcs => `<script>addEventListener("load",function(){setTimeout(function(){${JSON.stringify(srcs)}.forEach(function(s){var e=document.createElement("script");e.src=s;document.body.appendChild(e)})},2500)})</script>`;
 
 // the home page: the same header replaces its own (its live ticker stays where it is), and the same footer
 function applyHome() {
@@ -112,7 +118,7 @@ function applyHome() {
   if (html.includes("<!--csn-header-->")) html = html.replace("<!--csn-header-->", head);
   else if (hAt > -1) { const end = html.indexOf("</header>", hAt) + "</header>".length; html = html.slice(0, hAt) + head + html.slice(end); }
   const fAt = html.lastIndexOf("<footer");
-  const foot = `<!--csn-->${NAV.footer("/", "Extreme heat, in one map", UPDATED)}<script>${NAV.JS}</script><!--/csn-->\n`;
+  const foot = `<!--csn-->${NAV.footer("/", "Extreme heat, in one map", UPDATED)}<script>${NAV.JS}</script>${later([`/everything.js?v=${V}`])}<!--/csn-->\n`;
   html = fAt > -1 ? html.slice(0, fAt) + foot + html.slice(fAt) : html.replace("</body>", foot + "</body>");
   fs.writeFileSync(file, html);
 }

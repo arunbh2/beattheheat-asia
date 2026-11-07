@@ -174,5 +174,6 @@ module.exports = function hapArchive({ page, write, esc, V, ROOT }) {
       <li><a class="hub-card" href="/sources/"><b>Sources and references</b><span>Every source the site cites, searchable</span></a></li>
       <li><a class="hub-card" href="/print/"><b>Printable one-pagers</b><span>Briefs for officials, partners and funders</span></a></li>
       <li><a class="hub-card" href="/intersections/#resources"><b>Learning resources</b><span>Games and materials on heat and health</span></a></li></ul></section>`));
+  require("./site-counts.js")({ hapVerified: C.total });
   console.log(`India HAP archive: ${C.total} verified (${ORDER.filter(t => C.type[t]).map(t => `${t} ${C.type[t]}`).join(", ")}), ${leads.length} leads kept apart (${Object.entries(C.leadsByBatch).map(([k, v]) => `${k} ${v}`).join(", ")})${A.review.length ? `, ${A.review.length} need review` : ""}`);
 };

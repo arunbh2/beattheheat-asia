@@ -264,4 +264,5 @@ fs.mkdirSync(path.join(ROOT, SLUG), { recursive: true });
 fs.writeFileSync(path.join(ROOT, SLUG, "index.html"), html);
 fs.copyFileSync(CSV, path.join(ROOT, SLUG, "extreme-heat-journalism-2018-2026.csv"));
 fs.writeFileSync(path.join(ROOT, "research", "2026-10", "media", "articles.json"), JSON.stringify(ARTS, null, 1) + "\n");
+require("./site-counts.js")({ mediaArticles: N });
 console.log(`how heat is reported: ${N} + ${PN} pilot articles, ${yrs.length} years, none on ${NONE.join(", ")}`);

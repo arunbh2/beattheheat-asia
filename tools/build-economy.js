@@ -466,4 +466,5 @@ const ids = DEALS.map(d => d.investee).filter(x => /^[a-z0-9]+(-[a-z0-9]+)*$/.te
 miss.push(...ids.map(x => "funding recipient " + x));
 if (miss.length) throw new Error("tools/economy-plain.js has no plain wording for: " + miss.join(", "));
 module.exports = { loopsWithIdeas: [...new Set(OPP.map(o => o.loop))] };
+require("./site-counts.js")({ businesses: N.biz, funders: N.inv, programmes: N.prog });
 console.log(`heat economy: ${N.biz} businesses, ${N.inv} funders, ${N.deals} pieces of funding, ${N.prog} programmes, ${N.opp} ideas, ${SEG.length} kinds of protection`);
