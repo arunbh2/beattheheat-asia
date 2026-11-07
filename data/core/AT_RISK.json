@@ -75,6 +75,13 @@
           "label": "Ufaira and others, Frontiers in Human Dynamics, 2023",
           "url": "https://www.frontiersin.org/journals/human-dynamics/articles/10.3389/fhumd.2023.1237515/full"
         }
+      },
+      {
+        "fact": "In a model of 16 buildings in Rajkot, air conditioner condensers on outside walls could warm the street air by more than 1 °C.",
+        "source": {
+          "label": "Scientific Reports, 2026",
+          "url": "https://www.nature.com/articles/s41598-026-62477-4"
+        }
       }
     ],
     "nodes": ["homes","uhi","sleepless","energypoverty"],
@@ -117,6 +124,13 @@
         "source": {
           "label": "Tamil Nadu Heat Mitigation Strategy, 2024",
           "url": "https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf"
+        }
+      },
+      {
+        "fact": "In East Kalimantan, Indonesia, 361 workers doing 90-minute tasks on cleared land faced heat stress readings 2.84 °C higher than in forest.",
+        "source": {
+          "label": "Masuda et al., 2021 (PMC7952402)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7952402/"
         }
       }
     ],
