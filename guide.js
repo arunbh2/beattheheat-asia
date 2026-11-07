@@ -62,6 +62,7 @@
           <span class="toolkit__n">${t.n} · ${esc(t.verb)}</span><b>${esc(t.name)}</b>
           <span class="toolkit__take">${esc(t.take)}</span>
           <span class="toolkit__meta">${esc(t.time)} · ${esc(t.who)}${t.tab ? ` · opens in a new tab <span aria-hidden="true">↗</span>` : ""}</span></a></li>`; }).join("")}</ol>`;
+    const fold = box.closest("details[hidden]"); if (fold) fold.hidden = false;   // homepage fold
   }
 
 

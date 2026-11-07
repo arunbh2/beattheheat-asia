@@ -1110,8 +1110,6 @@ button { font: inherit; color: inherit; }
 .plan .eyebrow--break { color: var(--break); }
 
 /* ---------- the film ---------- */
-.btn--film { min-height: 48px; padding: 12px 24px; font-size: 1rem; font-weight: 600; background: var(--ink); border-color: var(--ink); color: var(--canvas); }
-.btn--film:hover { background: var(--canvas); color: var(--ink); }
 
 .play-icon { display: inline-grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--orange); }
 .play-icon::before { content: ""; margin-left: 3px; border-style: solid; border-width: 6px 0 6px 10px; border-color: transparent transparent transparent var(--ink); }
@@ -1373,13 +1371,16 @@ body.film-open { overflow: hidden; }
 @media (min-width: 900px) { .now-list:not(.is-all) { grid-template-columns: minmax(0, 1.5fr) repeat(2, minmax(0, 1fr)); } }
 .now-list:not(.is-all) > .is-hottest { border-width: 2px; }
 .now-list:not(.is-all) > .is-hottest .now-c__t { font-size: clamp(3rem, 1.8rem + 3vw, 4.75rem); }
-.now-more { margin-top: var(--sp-6); max-width: 60rem; border-top: 1px solid #2E3B49; border-bottom: 1px solid #2E3B49; }
-.now-more > summary { display: flex; align-items: center; justify-content: space-between; gap: var(--sp-4); min-height: 48px; padding: var(--sp-3) 0; font-size: var(--fs-18); font-weight: 700; cursor: pointer; list-style: none; }
-.now-more > summary::-webkit-details-marker { display: none; }
-.now-more > summary::after { content: "+"; flex: none; font-size: 1.5rem; line-height: 1; color: #F6A27C; }
-.now-more[open] > summary::after { content: "\2212"; }
-.now-more > .now-fp { margin-top: var(--sp-2); }
-.now-more > .now__room { margin-bottom: var(--sp-5); }
+/* a "go deeper" fold under a section's focal point */
+.story__more { margin-top: var(--sp-6); max-width: 60rem; border-block: 1px solid var(--line); }
+.story__more > summary { display: flex; align-items: center; justify-content: space-between; gap: var(--sp-4); min-height: 48px; padding: var(--sp-3) 0; font-size: var(--fs-18); font-weight: 700; cursor: pointer; list-style: none; }
+.story__more > summary::-webkit-details-marker { display: none; }
+.story__more > summary::after { content: "+"; flex: none; font-size: 1.5rem; line-height: 1; color: var(--tone-ink); }
+.story__more[open] > summary::after { content: "\2212"; }
+.now .story__more { border-color: #2E3B49; } .now .story__more > summary::after { color: #F6A27C; }
+.story__more > .now-fp, .story__more > .toolkit { margin-top: var(--sp-2); }
+.story__more > .now__room, .story__more > .toolkit { margin-bottom: var(--sp-5); }
+.start .story__more { max-width: none; }
 .now-c__city { font-size: 1.05rem; display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
 .now-c__city span { font-size: .78rem; font-weight: 600; color: #A9B0BA; }
 .now-c__flag { align-self: flex-start; margin-top: 2px; padding: 2px 8px; border-radius: 999px; background: var(--orange); color: var(--ink); font-size: .7rem; font-weight: 800; }
@@ -2491,7 +2492,7 @@ body:not([data-page="plan"]) a[href^="#plan-"]::after, body:not([data-page="plan
 /* ---------- Practical actions and paying for protection: cards on the map, and their own pages ---------- */
 .practical--link, .finance--link { padding: clamp(44px, 6vw, 72px) 0; }
 /* the practical section as a story: headline first (the drawing follows it on phones), one action, the market as its focal card */
-.practical.story { padding-block: var(--sp-section); }
+.practical.story, .start.story { padding-block: var(--sp-section); }
 @media (max-width: 899px) { .practical.story > .container > .spot { display: none; } }   /* the market card carries the picture on phones */
 .practical.story .mx-card { margin: var(--sp-6) 0 0; }
 .section-link { margin-top: 24px; }
@@ -2627,8 +2628,6 @@ body:not([data-page="plan"]) a[href^="#plan-"]::after, body:not([data-page="plan
 .intro__art { justify-self: center; width: 100%; max-width: 560px; margin-top: 12px; }
 .hero-scene { display: block; width: 100%; height: auto; overflow: visible; }
 
-.intro--canopy .btn--film { background: transparent; border-color: rgba(246,231,215,.4); color: var(--cream); }
-.intro--canopy .btn--film:hover { background: var(--cream); border-color: var(--cream); color: var(--ink); }
 .intro--canopy a:focus-visible, .intro--canopy button:focus-visible { outline: 3px solid var(--orange); outline-offset: 3px; }
 
 @media (min-width: 900px) {

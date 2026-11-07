@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Newsreader:ital,wght@0,400;0,500;1,400&display=swap">
 
-  <link rel="stylesheet" href="styles.css?v=182">
+  <link rel="stylesheet" href="styles.css?v=183">
 
   <script type="application/ld+json">
   {
@@ -111,12 +111,12 @@
   }
   </script>
   <link rel="alternate" type="text/plain" href="/llms-full.txt" title="The whole map as plain text">
-  <script src="data.js?v=182" defer></script>
-  <script src="script.js?v=182" defer></script>
-  <script src="heatweek.js?v=182" defer></script>
-  <script src="guide.js?v=182" defer></script>
-  <script src="journey.js?v=182" defer></script>
-  <script src="/join.js?v=182" defer></script>
+  <script src="data.js?v=183" defer></script>
+  <script src="script.js?v=183" defer></script>
+  <script src="heatweek.js?v=183" defer></script>
+  <script src="guide.js?v=183" defer></script>
+  <script src="journey.js?v=183" defer></script>
+  <script src="/join.js?v=183" defer></script>
 <!--csn--><style id="csn-css">html:has(.csn){scroll-padding-top:120px}
 .csn,.csf,.csn-d,.csp{--ink:#16202B;--ink2:#39424D;--grey:#5E6570;--canvas:#FAF7F2;--sand:#F2E7D9;--line:#E6DFD4;--orange:#F26430;--ember:#B8401A;--green:#17703A;font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);line-height:1.4}
 .csn{position:sticky;top:0;z-index:60;margin:0!important;padding:0!important;max-width:none!important;display:block!important;background:rgba(250,247,242,.96);border-bottom:1px solid var(--line);-webkit-backdrop-filter:saturate(1.2) blur(10px);backdrop-filter:saturate(1.2) blur(10px)}
@@ -705,7 +705,7 @@ html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{
           <p class="now__status" id="now-status" role="status"></p>
         </header>
         <ol class="now-list" id="now-list"></ol>
-        <details class="now-more" id="now-more" hidden>
+        <details class="story__more" id="now-more" hidden>
           <summary>Is this climate change, and how hot is it indoors?</summary>
           <div class="now-fp" id="now-fp" role="group" aria-labelledby="now-fp-title"></div>
           <p class="now__room" id="now-room"></p>
@@ -868,14 +868,19 @@ html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{
       </div>
     </section>
 
-    <section class="start" id="start" aria-labelledby="start-title">
+    <section class="start story story--act5" id="start" aria-labelledby="start-title">
       <div class="container has-spot">
+        <header class="story__head">
+          <p class="eyebrow">Start here</p>
+          <h2 id="start-title" class="h2 story__h">Find your way in</h2>
+          <p class="story__lede">Answer two questions and the site will suggest a short path, with how long each stop takes and what you will leave with.</p>
+        </header>
         <svg class="spot spot--start" viewBox="0 0 260 160" aria-hidden="true" focusable="false"><g fill="none" stroke="#16202B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M10 150 H250" opacity=".4"/><path d="M130 150 V40"/><path d="M130 50 H196 L210 62 L196 74 H130" stroke="#F26430"/><path d="M130 84 H70 L56 96 L70 108 H130"/><path d="M130 116 H180 L192 126 L180 136 H130" opacity=".6"/><circle cx="206" cy="84" r="8"/><path d="M206 92 V120 M206 120 L197 150 M206 120 L215 150 M206 98.8 L184 82.8 M206 98.8 L214 118.8"/></g></svg>
-        <p class="eyebrow">Start here</p>
-        <h2 id="start-title" class="start__h">Find your way in</h2>
-        <p class="loops__intro">Answer two questions and the site will suggest a short path, with how long each stop takes and what you will leave with.</p>
         <div id="wayin" class="wayin"></div>
-        <div id="toolkit" class="toolkit"></div>
+        <details class="story__more" hidden>
+          <summary>Or browse the toolkit, in the order the tools build on each other</summary>
+          <div id="toolkit" class="toolkit"></div>
+        </details>
         <p class="wayin__more"><a href="/guide/" target="_blank" rel="noopener">How to use this site<span class="visually-hidden"> (opens in a new tab)</span> ↗</a> · <a href="/print/workshop-guide/" target="_blank" rel="noopener">Print the workshop guide<span class="visually-hidden"> (opens in a new tab)</span> ↗</a> · <a href="/print/community-workshop-guide/" target="_blank" rel="noopener">Community version<span class="visually-hidden"> (opens in a new tab)</span> ↗</a></p>
       </div>
     </section>
