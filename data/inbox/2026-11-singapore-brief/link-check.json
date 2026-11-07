@@ -1,0 +1,132 @@
+{
+ "_terms": {
+  "https://heathealth.info/resources/a-multi-stakeholder-approach-for-urban-heat-resilience-singapores-experience/": {
+   "Singapore": true,
+   "Multi-Stakeholder": true,
+   "World Cities Summit": false,
+   "Deliveroo": false
+  },
+  "https://www.preventionweb.net/publication/documents-and-publications/multi-stakeholder-approach-urban-heat-resilience-singapores": {
+   "Singapore": false,
+   "multi-stakeholder": false,
+   "heat": false
+  },
+  "https://medicine.nus.edu.sg/?p=87067": {
+   "World Cities Summit": true,
+   "Southeast Asia Hub": true,
+   "Ministry of Manpower": true
+  },
+  "https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work": {
+   "minimum of 15 minutes": true,
+   "minimum of 10 minutes": true,
+   "7 days": true,
+   "$5 million": true,
+   "shipyards": true
+  },
+  "https://mom.gov.sg/-/media/mom/documents/heat-stress-measures/heat-stress-framework-outdoor-workers.pdf": {
+   "15 minutes": true,
+   "10 minutes": true,
+   "7 days": true,
+   "$5 million": true
+  },
+  "https://www.mom.gov.sg/newsroom/press-releases/2024/0906-revised-framework-to-guide-employers-and-protect-outdoor-workers-against-heat-stress": {
+   "three-tier Heat Stress Advisory": true,
+   "15 minutes": true,
+   "inspections": true
+  },
+  "https://www.mse.gov.sg/latest-news/press-release-heat-stress-advisory/": {
+   "Ministry of Health": true,
+   "Expert Panel": true,
+   "Wet Bulb Globe Temperature": true
+  },
+  "https://www.mse.gov.sg/latest-news/written-reply-to-parliamentary-question-on-mercury-task-force-to-tackle-heatwave/": {
+   "Mercury": true,
+   "heatwave": true,
+   "Meteorological Service Singapore": true
+  },
+  "https://medicine.nus.edu.sg/hrpc/singapores-new-heatwave-response-plan-includes-cooling-spaces-suspension-of-outdoor-activities/": {
+   "29": false,
+   "35": false,
+   "37": false,
+   "three consecutive days": false,
+   "cooling spaces": true
+  },
+  "https://www.malaymail.com/news/singapore/2025/03/20/singapore-rolls-out-cooling-measures-as-heatwave-response-plan-unveiled/170163": {
+   "29": true,
+   "35": true,
+   "37": true,
+   "three consecutive days": true,
+   "Mercury": true
+  },
+  "https://www.mse.gov.sg/latest-news/speech-by-sms-janil-puthucheary-committee-of-supply-2026/": {
+   "Heat Resilience Policy Office": true,
+   "Adapting to Heat Impacts": true,
+   "$40 million": true,
+   "Heat Resilience Action Plan": true,
+   "coordinate action, oversee research": true
+  },
+  "https://www.mse.gov.sg/latest-news/written-reply-to-parliamentary-question-on-heat-preparedness/": {
+   "Heat Resilience Policy Office": true,
+   "RIE2030": true
+  },
+  "https://www.nccs.gov.sg/singapores-climate-action/adaptation-efforts/response-to-rising-temperatures/": {
+   "Heat Stress Advisory": true,
+   "Cooling Singapore": false
+  },
+  "https://www.changiairport.com/en/corporate/our-sustainability-efforts/environment/enhancing-heat-resilience.html": {
+   "30,000": false,
+   "heat stress": true,
+   "rest": true
+  },
+  "https://www.mdpi.com/2227-9032/11/2/211": {
+   "Singapore Armed Forces": false,
+   "heat injuries": false,
+   "1970s": false
+  },
+  "https://www.moh.gov.sg/newsroom/using-findings-of-heat-map-study-to-help-elderly-recognise-common-symptoms-of-heat-related-illnesses-and-seek-timely-medical-advice/": {
+   "HEAT": true,
+   "heat-related illness": true,
+   "epidemiology": true
+  },
+  "https://www.sutd.edu.sg/lkycic/publication-listing/towards-a-climate-resilient-citizenry-population-household-study-for-understanding-experience-of-urban-heat-in-singapore/": {
+   "urban heat": false,
+   "household": false,
+   "rental": false
+  },
+  "https://www.eco-business.com/press-releases/philanthropy-asia-alliance-supports-southeast-asia-heat-health-hub-to-scale-coordinated-action-on-extreme-heat/": {
+   "Philanthropy Asia Alliance": true,
+   "Indonesia": true,
+   "Thailand": true,
+   "Hub": true
+  },
+  "https://heathealth.info/southeastasia/": {
+   "Southeast Asia": true,
+   "Hub": true
+  },
+  "https://www.eco-business.com/news/heatwave-fee-for-asias-gig-workers-does-little-to-cool-climate-stress/": {
+   "Grab": true,
+   "heat": true,
+   "riders": true
+  }
+ },
+ "https://heathealth.info/resources/a-multi-stakeholder-approach-for-urban-heat-resilience-singapores-experience/": "OK",
+ "https://www.preventionweb.net/publication/documents-and-publications/multi-stakeholder-approach-urban-heat-resilience-singapores": "BLOCKED",
+ "https://medicine.nus.edu.sg/?p=87067": "OK",
+ "https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work": "OK",
+ "https://mom.gov.sg/-/media/mom/documents/heat-stress-measures/heat-stress-framework-outdoor-workers.pdf": "REDIRECT",
+ "https://www.mom.gov.sg/newsroom/press-releases/2024/0906-revised-framework-to-guide-employers-and-protect-outdoor-workers-against-heat-stress": "OK",
+ "https://www.mse.gov.sg/latest-news/press-release-heat-stress-advisory/": "OK",
+ "https://www.mse.gov.sg/latest-news/written-reply-to-parliamentary-question-on-mercury-task-force-to-tackle-heatwave/": "OK",
+ "https://medicine.nus.edu.sg/hrpc/singapores-new-heatwave-response-plan-includes-cooling-spaces-suspension-of-outdoor-activities/": "OK",
+ "https://www.malaymail.com/news/singapore/2025/03/20/singapore-rolls-out-cooling-measures-as-heatwave-response-plan-unveiled/170163": "OK",
+ "https://www.mse.gov.sg/latest-news/speech-by-sms-janil-puthucheary-committee-of-supply-2026/": "OK",
+ "https://www.mse.gov.sg/latest-news/written-reply-to-parliamentary-question-on-heat-preparedness/": "OK",
+ "https://www.nccs.gov.sg/singapores-climate-action/adaptation-efforts/response-to-rising-temperatures/": "OK",
+ "https://www.changiairport.com/en/corporate/our-sustainability-efforts/environment/enhancing-heat-resilience.html": "OK",
+ "https://www.mdpi.com/2227-9032/11/2/211": "BLOCKED",
+ "https://www.moh.gov.sg/newsroom/using-findings-of-heat-map-study-to-help-elderly-recognise-common-symptoms-of-heat-related-illnesses-and-seek-timely-medical-advice/": "OK",
+ "https://www.sutd.edu.sg/lkycic/publication-listing/towards-a-climate-resilient-citizenry-population-household-study-for-understanding-experience-of-urban-heat-in-singapore/": "OK",
+ "https://www.eco-business.com/press-releases/philanthropy-asia-alliance-supports-southeast-asia-heat-health-hub-to-scale-coordinated-action-on-extreme-heat/": "OK",
+ "https://heathealth.info/southeastasia/": "OK",
+ "https://www.eco-business.com/news/heatwave-fee-for-asias-gig-workers-does-little-to-cool-climate-stress/": "OK"
+}
