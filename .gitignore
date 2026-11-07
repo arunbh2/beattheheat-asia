@@ -6,4 +6,6 @@ media/shorts/*.voice.wav
 media/glossary/*.voice.wav
 media/explainers/*.voice.wav
 media/mapguide/*.voice.wav
+media/reels/*.voice.wav
+media/reels/*.music.wav
 media/mapguide/*.music.wav

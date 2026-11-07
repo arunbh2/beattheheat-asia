@@ -14,7 +14,8 @@ const DIR = process.env.FILM_DIR ? path.resolve(ROOT, process.env.FILM_DIR) : __
 const timingFile = path.join(DIR, name + ".timing.json"), timing = fs.existsSync(timingFile) ? JSON.parse(fs.readFileSync(timingFile, "utf8")) : null;
 const total = Math.round((timing ? timing.total : +secs) * fps);
 (async () => {
-  const b = await chromium.launch(), p = await b.newPage({ viewport: { width: 1280, height: 720 } });
+  // FILM_W and FILM_H set another frame size, e.g. 1080 × 1920 for vertical Reels
+  const b = await chromium.launch(), p = await b.newPage({ viewport: { width: +(process.env.FILM_W || 1280), height: +(process.env.FILM_H || 720) } });
   await p.goto("file://" + path.join(DIR, name + ".html")); await p.evaluate(() => document.fonts.ready);
   if (timing) await p.evaluate(T => document.querySelectorAll("section.s").forEach((sec, i) => { const s = T.scenes[i]; if (!s) return;
     sec.style.setProperty("--start", s.start + "s"); sec.style.setProperty("--dur", s.dur + "s");

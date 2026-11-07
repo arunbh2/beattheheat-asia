@@ -1,0 +1,58 @@
+{
+ "total": 33.54,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 3.6,
+   "beats": [
+    0.35
+   ],
+   "text": "Why can't this worker just take a break?"
+  },
+  {
+   "start": 3.6,
+   "dur": 5.32,
+   "beats": [
+    0.35,
+    2.51
+   ],
+   "text": "A street vendor can't stop to rest. Stopping means losing the day's sales."
+  },
+  {
+   "start": 8.92,
+   "dur": 4.93,
+   "beats": [
+    0.35,
+    1.94
+   ],
+   "text": "Then the heat makes him ill. Days of work are lost, and treatment costs money."
+  },
+  {
+   "start": 13.85,
+   "dur": 5.52,
+   "beats": [
+    0.35,
+    1.84
+   ],
+   "text": "A loan fills the gap. Now, on the next hot day, rest costs even more."
+  },
+  {
+   "start": 19.37,
+   "dur": 9.67,
+   "beats": [
+    0.35,
+    3.36
+   ],
+   "text": "Heat, lost income, debt, no rest. Shade, paid rest and income support could make rest possible, if they reach people in time."
+  },
+  {
+   "start": 29.04,
+   "dur": 4.5,
+   "beats": [
+    0.35,
+    2.11
+   ],
+   "text": "See what could break the cycle. Beat the heat dot Asia."
+  }
+ ]
+}
