@@ -211,11 +211,15 @@
     "id": "spoilage",
     "sys": "food",
     "label": "Food spoils\nfaster",
-    "desc": "Without cool storage, more of every harvest rots between field and plate.",
+    "desc": "Without cool storage, more of every harvest rots between field and plate. Cold storage protects food only when the cold holds from farm to market; equipment alone does not show fewer losses.",
     "sources": [
       {
         "label": "UNEP and FAO, 2022: Sustainable Food Cold Chains (526 million tonnes of food lost for lack of refrigeration)",
         "url": "https://www.unep.org/resources/report/sustainable-food-cold-chains-opportunities-challenges-and-way-forward"
+      },
+      {
+        "label": "UNEP and FAO, 2022: sustainable food cold chains",
+        "url": "https://wedocs.unep.org/bitstreams/e3f8b701-b044-46b9-9deb-8afad6967607/download"
       }
     ]
   },
@@ -456,11 +460,15 @@
     "id": "emissions",
     "sys": "energy",
     "label": "Emissions from\ncooling rise",
-    "desc": "Most cooling still runs on fossil-fuelled power and refrigerants that warm the planet.",
+    "desc": "Most cooling still runs on fossil-fuelled power and refrigerants that warm the planet. Refrigeration adds emissions through the power it uses and the refrigerants that leak, set against the food losses it avoids.",
     "sources": [
       {
         "label": "International Energy Agency, 2018: The Future of Cooling",
         "url": "https://www.iea.org/reports/the-future-of-cooling"
+      },
+      {
+        "label": "UNEP and FAO, 2022: sustainable food cold chains",
+        "url": "https://wedocs.unep.org/bitstreams/e3f8b701-b044-46b9-9deb-8afad6967607/download"
       }
     ]
   },
@@ -928,7 +936,7 @@
     "id": "productivity",
     "sys": "work",
     "label": "Productivity\nfalls",
-    "desc": "Above a certain temperature, people work more slowly and make more mistakes, indoors and out. Across 2.7 million firms in 23 advanced economies, ten extra days above 35 °C cut a year’s labour productivity by 0.3%, and days above 40 °C did five times the damage. In humid, still air the loss roughly doubles. Losses differ by place and job: an ILO study of the Maldives estimates work lost to heat by sector and workload, as modelled estimates rather than measured wages.",
+    "desc": "Above a certain temperature, people work more slowly and make more mistakes, indoors and out. Across 2.7 million firms in 23 advanced economies, ten extra days above 35 °C cut a year’s labour productivity by 0.3%, and days above 40 °C did five times the damage. In humid, still air the loss roughly doubles. Losses differ by place and job: an ILO study of the Maldives estimates work lost to heat by sector and workload, as modelled estimates rather than measured wages. Less heat at work can protect output: in garment factories near Bengaluru, switching to LED lighting, which gives off less heat, softened the drop in output on hot days (one firm's rollout, analysed in a working paper).",
     "sources": [
       {
         "label": "OECD Economics Department, Working Paper No. 1828, 2024",
@@ -937,6 +945,10 @@
       {
         "label": "ILO, 2026: impacts of heat stress on jobs and productivity in the Maldives",
         "url": "https://www.ilo.org/sites/default/files/2026-10/MALDIVES_Study_Oct27.pdf"
+      },
+      {
+        "label": "Adhvaryu et al., MIT CEEPR working paper, 2017: the light and the heat, productivity co-benefits of energy-saving technology",
+        "url": "https://ceepr.mit.edu/wp-content/uploads/2021/09/2017-019.pdf"
       }
     ]
   },
