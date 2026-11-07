@@ -4,13 +4,13 @@
 "use strict";
 const DEBT_REST = [
   { art: "vendor", say: "A street vendor can't stop to rest. | Stopping means losing the day's sales.",
-    head: ["", "Stopping costs today's income"],
+    head: ["No time to rest.", "Stopping costs today's income."],
     src: "In a 2024 survey of 721 Delhi street vendors, 49% lost income in heatwaves. Greenpeace India and National Hawkers Federation" },
   { art: "ill", say: "Then the heat makes him ill. | Days of work are lost, and treatment costs money.",
-    head: ["", "Illness takes more days"],
+    head: ["Then he falls ill.", "More days lost. Costs rise."],
     src: "Heat harmed health and cut incomes and working hours across five cities in Nepal and Bangladesh. Red Cross and Red Crescent, 2026" },
   { art: "loan", say: "A loan fills the gap. | Now, on the next hot day, rest costs even more.",
-    head: ["", "Now rest costs even more"],
+    head: ["A loan fills the gap.", "Now rest costs even more."],
     src: "Heat pushed some households towards high-interest loans. Red Cross and Red Crescent, 2026" },
   { art: "cycle", say: "Heat, lost income, debt, no rest. | Shade, paid rest and income support could make rest possible, if they reach people in time.",
     head: ["A cycle that feeds itself", "Protection can make rest possible"],

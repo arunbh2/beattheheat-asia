@@ -34,9 +34,9 @@ Scene 5 runs two beats on purpose: the cycle forms first, then the protections e
 | # | Narration (`\|` marks a new beat) | Headline on screen | Facts |
 |---|---|---|---|
 | 0 | The heatwave ends. \| The debt doesn't. | THE HEATWAVE ENDS. / THE DEBT DOESN'T. | F2 |
-| 1 | A street vendor can't stop to rest. \| Stopping means losing the day's sales. | STOPPING COSTS TODAY'S INCOME | F1 |
-| 2 | Then the heat makes him ill. \| Days of work are lost, and treatment costs money. | ILLNESS TAKES MORE DAYS | F2, F3 |
-| 3 | A loan fills the gap. \| Now, on the next hot day, rest costs even more. | NOW REST COSTS EVEN MORE | F2, F3 |
+| 1 | A street vendor can't stop to rest. \| Stopping means losing the day's sales. | NO TIME TO REST. / STOPPING COSTS TODAY'S INCOME. | F1 |
+| 2 | Then the heat makes him ill. \| Days of work are lost, and treatment costs money. | THEN HE FALLS ILL. / MORE DAYS LOST. COSTS RISE. | F2, F3 |
+| 3 | A loan fills the gap. \| Now, on the next hot day, rest costs even more. | A LOAN FILLS THE GAP. / NOW REST COSTS EVEN MORE. | F2, F3 |
 | 4 | Heat, lost income, debt, no rest. \| Shade, paid rest and income support could make rest possible, if they reach people in time. | PROTECTION CAN MAKE REST POSSIBLE | F3, F4, F5 |
 | 5 | See what could break the cycle. \| Beat the heat dot Asia. | SEE WHAT COULD BREAK THE CYCLE | |
 

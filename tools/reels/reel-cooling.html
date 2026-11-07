@@ -151,7 +151,9 @@ svg#stage{position:absolute;left:0;top:0;width:1080px;height:1920px}
     const sc = S[i], tm = T.scenes[i], t = s - tm.start, beats = tm.beats || [0];
     let k = 0; beats.forEach((bt, j) => { if (t >= bt - .15) k = j; });
     const fadeIn = on(t, 0, .3), fadeOut = i < S.length - 1 ? 1 - on(t, tm.dur - .3, .3) : 1, o = Math.min(fadeIn, fadeOut);
-    root.innerHTML = g(o, (ART[sc.art] || (() => ""))(t, beats));
+    // a slow push-in through every scene, so the frame is never quite still while the voice speaks
+    const z = (1 + .045 * cl(t / Math.max(tm.dur, 1))).toFixed(4);
+    root.innerHTML = g(o, (ART[sc.art] || (() => ""))(t, beats), `translate(260 300) scale(${z}) translate(-260 -300)`);
     const h = sc.head[Math.min(k, sc.head.length - 1)] || sc.head.filter(Boolean)[0] || "";
     const key = i + ":" + k;
     if (key !== last) {   // the words change only when the beat changes
