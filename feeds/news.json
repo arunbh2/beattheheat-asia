@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T06:14:37.992Z",
+ "updated": "2026-11-07T13:19:12.031Z",
  "keepDays": 14,
  "sources": [
   {
@@ -11,11 +11,19 @@
    "name": "GDELT Project",
    "ok": false,
    "found": 0,
-   "error": "GDELT replied: Your query was too short or too long. "
+   "error": "HTTP 429: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic us"
   }
  ],
  "query": "(heatwave OR \"heat wave\" OR \"extreme heat\" OR \"heat stress\" OR heatstroke OR \"heat index\") (India OR Bangladesh OR Nepal OR \"Sri Lanka\" OR Pakistan OR Bhutan OR Maldives OR Cambodia OR Indonesia OR Philippines OR Singapore OR Thailand OR Vietnam OR Malaysia OR Myanmar OR Laos) sourcelang:english",
  "items": [
+  {
+   "title": "Heatwave fuels 54% fire surge in Northern Mindanao",
+   "url": "https://newsinfo.inquirer.net/2337482/heatwave-fuels-54-fire-surge-in-northern-mindanao",
+   "domain": "newsinfo.inquirer.net",
+   "date": "2026-11-07T09:28:28Z",
+   "place": "Philippines",
+   "via": "Inquirer"
+  },
   {
    "title": "3 areas under dangerous level heat index on Saturday - Pagasa",
    "url": "https://newsinfo.inquirer.net/2337309/3-areas-under-dangerous-level-heat-index-on-saturday-pagasa",

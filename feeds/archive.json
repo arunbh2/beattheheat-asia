@@ -2,6 +2,13 @@
  "note": "Every item that has appeared on /news/. Built by tools/archive-news.js.",
  "news": [
   {
+   "title": "Heatwave fuels 54% fire surge in Northern Mindanao",
+   "url": "https://newsinfo.inquirer.net/2337482/heatwave-fuels-54-fire-surge-in-northern-mindanao",
+   "via": "Inquirer",
+   "date": "2026-11-07T09:28:28Z",
+   "place": "Philippines"
+  },
+  {
    "title": "3 areas under dangerous level heat index on Saturday - Pagasa",
    "url": "https://newsinfo.inquirer.net/2337309/3-areas-under-dangerous-level-heat-index-on-saturday-pagasa",
    "via": "Inquirer",
@@ -1112,5 +1119,5 @@
    "preprint": false
   }
  ],
- "updated": "2026-11-06T19:34:12.743Z"
+ "updated": "2026-11-07T13:19:14.373Z"
 }
