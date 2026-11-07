@@ -1,0 +1,54 @@
+{
+  "lens": "2 compound and cascading events",
+  "harms": [
+    { "id": "power", "add": "Heat and low water can strike the grid together: in northern Viet Nam in June 2023, heat drove demand up while low reservoirs left only 23.7% of hydropower capacity available, with plant and transmission problems adding to the strain.",
+      "sources": [{ "label": "Vietnam Electricity, 7 June 2023: power supply in the hot season", "url": "https://en.evn.com.vn/d6/news/Ministry-of-Industry-and-Trade-informs-about-power-supply-situation-in-hot-season-66-163-3527.aspx" }] },
+    { "id": "homes", "add": "Heat can follow a storm: after 19 of 96 Indian cyclones between 1980 and 2021, humid heat peaked about five days later, while damaged power lines can leave homes without fans.",
+      "sources": [{ "label": "Rajeev et al., Earth's Future, 2022: compound tropical cyclone and humid heat extremes in India", "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022EF002992" }] },
+    { "id": "deaths", "add": "In Thailand, the link between air pollution and deaths was stronger on the hottest days, across 34 provinces; whether this holds elsewhere is not yet known.",
+      "sources": [{ "label": "Phosri et al., International Journal of Biometeorology, 2025: air pollution, temperature and mortality in Thailand", "url": "https://link.springer.com/article/10.1007/s00484-025-02913-8" }] },
+    { "id": "scarcity", "add": "Drought and salt water can leave water unusable as well as scarce: in April 2024, UNICEF estimated 73,900 households in the Mekong Delta short of water, with women and girls carrying most of the extra fetching.",
+      "sources": [{ "label": "UNICEF Viet Nam Humanitarian Situation Report No. 1, 27 April 2024 (drought)", "url": "https://www.unicef.org/media/156076/file/Viet_Nam_Humanitarian_Situation_Report_No._01_%28drought%29_reporting_period__-27_April_2024.pdf" }] },
+    { "id": "hsys", "add": "During an outbreak, protective clothing adds heat: health workers in southern India and Singapore reported heat symptoms while wearing it in 2020.",
+      "sources": [{ "label": "Lee et al., 2020: heat stress among health workers in India and Singapore during COVID-19", "url": "https://heathealth.info/wp-content/uploads/Lee-et-al.-2020-Heat-Stress-and-Thermal-Perception-amongst-Healthcare-Workers-during-the-COVID-19-Pandemic-in-India-and-Singapore.pdf" }] },
+    { "id": "schoolclose", "add": "Disasters and heat can close the same classrooms: in Cox's Bazar in 2024, storms damaged 434 learning facilities, and heat closed centres separately.",
+      "sources": [{ "label": "UNICEF Bangladesh, 2025: rebuilding education for climate and disaster resilience in Cox's Bazar", "url": "https://www.unicef.org/bangladesh/en/stories/rebuilding-education-climate-and-disaster-resilience-coxs-bazar" }] },
+    { "id": "harvests", "add": "Shocks can come one after another: in Pakistan in 2022, flood crop losses added to food pressures left by the summer's heat, though the heat did not cause the floods.",
+      "sources": [{ "label": "World Weather Attribution, 2022: extreme monsoon rainfall and flooding in Pakistan", "url": "https://www.worldweatherattribution.org/climate-change-likely-increased-extreme-monsoon-rainfall-flooding-highly-vulnerable-communities-in-pakistan/" }] },
+    { "id": "glof", "add": "Melting is one part among several: Pakistan's Shisper glacier dammed its own lake after a surge, and the 7 May 2022 outburst swept away the Hassanabad bridge.",
+      "sources": [{ "label": "Lovell et al., Journal of Glaciology, 2024: ice-dammed lake formation and drainage at Shisper Glacier", "url": "https://www.cambridge.org/core/journals/journal-of-glaciology/article/multiple-phases-of-icedammed-lake-formation-and-drainage-associated-with-a-surge-of-shisper-glacier-western-karakoram/EC032F0636796DB506AD584FA7E3961A" }] },
+    { "id": "wildfires", "add": "In Indonesia, warmth raises the chance of fire even in years without drought.",
+      "sources": [{ "label": "Fernandes et al., 2017: heightened fire probability in Indonesia in non-drought conditions", "url": "https://alliancebioversityciat.org/publications-data/heightened-fire-probability-indonesia-non-drought-conditions-effect-increasing-0" }] }
+  ],
+  "links": [
+    ["scarcity", "hydro", "Low reservoirs in a hot spell leave less water to turn into electricity."],
+    ["smog", "deaths", "Polluted air can be more deadly on the hottest days."],
+    ["infectious", "isolation", "Infection control can close shared cool spaces and cut in-person support."],
+    ["isolation", "homes", "Kept at home with nowhere cooler to go, people stay longer in the heat."],
+    ["infrastructure", "schoolclose", "Storm damage can close learning spaces that heat also closes."],
+    ["quality", "scarcity", "Salt water creeping into wells and rivers makes existing sources unusable."]
+  ],
+  "levers": [
+    { "id": "soilwater", "example": "In Ninh Thuan, Viet Nam, a pond built in July 2023 with UNDP support gave one smallholder family water for livestock and crops through dry spells, though they still could not afford pumps for other plans (one household's account).",
+      "exampleSources": [{ "label": "UNDP Viet Nam, 2024: when water returned, hope grew for a family in Viet Nam", "url": "https://www.undp.org/vietnam/stories/when-water-returned-hope-grew-family-viet-nam" }] }
+  ],
+  "atRisk": [
+    { "id": "coastal", "fact": "After 19 of 96 cyclones in India between 1980 and 2021, humid heat peaked about five days later, while recovery was still under way.",
+      "source": { "label": "Earth's Future, 2022", "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022EF002992" } },
+    { "id": "women", "fact": "In April 2024, about 73,900 households in the Mekong Delta were short of water, and women and girls carried most of the extra fetching.",
+      "source": { "label": "UNICEF Viet Nam, 27 April 2024", "url": "https://www.unicef.org/media/156076/file/Viet_Nam_Humanitarian_Situation_Report_No._01_%28drought%29_reporting_period__-27_April_2024.pdf" } },
+    { "id": "farmers", "fact": "On 25 April 2024, the UN reported drought in 41 Philippine provinces during a hot, dry spell, as FAO and partners activated anticipatory action in Isabela and Bangsamoro.",
+      "source": { "label": "United Nations in the Philippines, 25 April 2024", "url": "https://philippines.un.org/en/267032-un-calls-increased-support-climate-resilience-philippines-drought-wreaks-havoc" } }
+  ],
+  "questions": [
+    { "id": "q-outage-heat", "loop": "energywater", "q": "How much extra heat do people face when the power fails during a hot, low-water spell?", "have": "Utility accounts record supply limits, and cyclone research finds humid heat soon after storms; household heat during outages is rarely measured.", "could": "Link outage logs with indoor sensors and daily symptoms, comparing areas with faster and slower restoration.", "scale": "Illustrative: a few hundred households over one hot season" },
+    { "id": "q-joint-alerts", "loop": "clinic", "q": "Does one warning for heat and polluted air together protect people better than two separate warnings?", "have": "Thai research finds pollution more deadly on hot days, but heat and pollution do not always peak together.", "could": "Compare warning formats across similar communities, measuring understanding, behaviour and personal exposure.", "scale": "Illustrative: two dozen communities over one hot season" },
+    { "id": "q-multi-hazard-schools", "loop": "school", "q": "Do learning spaces built for storms and heat together keep more children learning through both?", "have": "Cox's Bazar has a rebuilt centre with fans and solar backup, without a comparison of heat or attendance.", "could": "Compare indoor heat, closures and attendance in rebuilt and similar centres through a hot season and a storm season.", "scale": "Illustrative: twenty learning centres over a year" },
+    { "id": "q-outbreak-cooling", "loop": "clinic", "q": "Can cooling for staff reduce heat strain while keeping infection protection in place?", "have": "Health workers reported heat symptoms in protective clothing, and a small test found an iced drink improved comfort.", "could": "Test staff cooling in a crossover trial under infection-control rules, measuring heat strain, symptoms and tasks.", "scale": "Illustrative: about eighty health workers in four facilities" },
+    { "id": "q-successive-shocks", "loop": "poverty", "q": "Do heat and later floods leave the same households less able to recover than either alone?", "have": "Pakistan's 2022 assessment records food pressures building from heat to floods, but not for the same households.", "could": "Follow households hit by both and by one, recording harvests, food and recovery spending.", "scale": "Illustrative: a few hundred households over two farming seasons" }
+  ],
+  "evidence": [
+    { "title": "Ministry of Industry and Trade informs about power supply situation in hot season", "url": "https://en.evn.com.vn/d6/news/Ministry-of-Industry-and-Trade-informs-about-power-supply-situation-in-hot-season-66-163-3527.aspx", "first_author": "Vietnam Electricity", "venue": "", "date": "2023",
+      "review": { "cycle": "energywater", "grade": "official", "where": "Northern Viet Nam", "sample_size": "", "finding": "In June 2023, heat pushed electricity demand up while low reservoirs cut the hydropower available. It shows the water to power part of the cycle during heat, not the whole loop.", "limit": "The utility's own operational account; plant and transmission problems also contributed, and heat's share is not separated." } }
+  ]
+}

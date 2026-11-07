@@ -109,3 +109,6 @@ The next agreed lens is 3, slow and hidden harms, followed by 2, 5, 4 and 6. It 
 - **New at-risk groups not created.** Children, caregivers, young adults, displaced people and people in detention fit existing groups (mothers and young children; older people; people with disabilities or long-term illness; informal settlements; excluded groups).
 - **Duplicate links.** Links already on the map are not added again; where a lens brings new evidence for one, the evidence goes to the harm or to the cycle it belongs to.
 - **The lens 4 country coverage table.** A tagging audit of one file, not a literature count; on the site it could read as a ranking of countries, so it stays here.
+- **Lens 5 question on forest regrowth after heat (`forestreturn`).** No cycle on the map holds a forest feedback, and a question is shown under its cycle, so it is kept here until such a cycle exists.
+- **Lens 5 factory lighting study.** The same study is in lens 6; it is used once, in lens 6, on productivity.
+- **Lens 1 young adults study (`youth`).** On the map, `youth` is "Lower skills and earnings", the lifetime cost of lost learning; a symptom survey of 19-24 year olds does not fit it, and neither does a link from it to sleep. The study's own limit (no under-19s) is kept in a learning question instead.

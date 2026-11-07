@@ -1,0 +1,47 @@
+{
+  "lens": "1 people the map does not separate",
+  "harms": [
+    { "id": "childdiarrhoea", "add": "In Dhaka, hospital records from 1981 to 2010 show diarrhoea admissions among children under 5 rising by about 14% on heatwave days; the size of the link depends on how a heatwave is defined.",
+      "sources": [{ "label": "Dhaka hospital records, PLOS Global Public Health, 2024: heatwaves and diarrhoea admissions in children under 5", "url": "https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0003629" }] },
+    { "id": "hsys", "add": "In Bangladesh, people with disabilities described heat making travel, communication and reaching care harder, and many relied on family to get help.",
+      "sources": [{ "label": "Interviews with people with disabilities in three Bangladesh locations, International Journal of Disaster Risk Science, 2026", "url": "https://link.springer.com/article/10.1007/s13753-026-00778-y" }] },
+    { "id": "care", "add": "In Chiang Rai, Thailand, older people and their families described leaning on family help to keep daily routines going in hot weather; the study also covered cold and air pollution.",
+      "sources": [{ "label": "Older people and family members in Chiang Rai, Thailand, 2023 (PubMed 37372754)", "url": "https://pubmed.ncbi.nlm.nih.gov/37372754/" }] },
+    { "id": "sleepless", "add": "Migrant workers in Singapore linked hot, crowded dormitories with poor sleep and tiredness on the next shift.",
+      "sources": [{ "label": "Migrant workers in Singapore, 2023 (PMC10329802)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10329802/" }] },
+    { "id": "camps", "add": "Temperatures measured inside shelters in Cox's Bazar stayed above comfort limits through much of the day; residents added false ceilings and roof shading where they could.",
+      "sources": [{ "label": "Shelter temperatures in Cox's Bazar, Journal of Housing and the Built Environment, 2020", "url": "https://link.springer.com/article/10.1007/s10901-020-09783-z" }] }
+  ],
+  "links": [
+    ["power", "homes", "When the power fails, fans stop and a hot home has no way to cool down."],
+    ["energypoverty", "homes", "Without affordable cooling or backup power, a household has fewer ways to bring indoor heat down."],
+    ["care", "hsys", "Without someone to help, reaching medicines and care during a heatwave becomes harder."]
+  ],
+  "levers": [
+    { "id": "childwater", "example": "In 2024, Bangladesh's Directorate General of Health Services launched national guidance to protect children and pregnant women from heat, built with UNICEF.",
+      "exampleSources": [{ "label": "UNICEF, 2024: new guidelines launched to protect children and pregnant women from heat in Bangladesh", "url": "https://www.unicef.org/press-releases/new-guidelines-launched-protect-children-and-pregnant-women-heat-stress-bangladesh" }] }
+  ],
+  "atRisk": [
+    { "id": "mothers", "fact": "In Dhaka, diarrhoea admissions among children under 5 rose by 13.9% on heatwave days, in hospital records from 1981 to 2010.",
+      "source": { "label": "PLOS Global Public Health, 2024", "url": "https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0003629" } },
+    { "id": "mothers", "fact": "Among 800 pregnant women doing physical work in Tamil Nadu, 47.3% had high heat exposure at work.",
+      "source": { "label": "Rekha et al., BJOG, 2023 (PubMed 37814395)", "url": "https://pubmed.ncbi.nlm.nih.gov/37814395/" } },
+    { "id": "disability", "fact": "In interviews across three Bangladesh locations in 2025, people with disabilities described heat making it harder to move about and to get care, and leaning on family for help.",
+      "source": { "label": "International Journal of Disaster Risk Science, 2026", "url": "https://link.springer.com/article/10.1007/s13753-026-00778-y" } },
+    { "id": "older", "fact": "In Chiang Rai, older people and their families described changing daily routines to cope with heat, and the help families give to keep them going.",
+      "source": { "label": "Chiang Rai study, 2023 (PubMed 37372754)", "url": "https://pubmed.ncbi.nlm.nih.gov/37372754/" } },
+    { "id": "excluded", "fact": "In the Philippines, a 2024 case study records a detention programme that maps climate risks, including heatwaves, trains staff and improves ventilation. It does not report heat illness rates.",
+      "source": { "label": "ICRC and BJMP case study on PreventionWeb, 2024", "url": "https://www.preventionweb.net/resource/case-study/philippines-prisoners-climate-change" } }
+  ],
+  "questions": [
+    { "id": "q-assisted-access", "loop": "clinic", "q": "Do heat warnings people can understand, with help to travel, get disabled and housebound older people to care sooner?", "have": "Interviews in Bangladesh and Thailand describe barriers and reliance on family; no evaluation of a support package in the region.", "could": "Offer accessible warnings and assisted transport in some neighbourhoods and compare time to care with similar neighbourhoods.", "scale": "Illustrative: a few hundred households over one hot season" },
+    { "id": "q-dormitory-nights", "loop": "sleep", "q": "Does a practical cooling package for workers' dormitories improve sleep after hot shifts?", "have": "Migrant workers in Singapore link hot dormitories with poor sleep; no tested dormitory intervention in the region.", "could": "Compare sleep, next-day tiredness and costs in dormitories with and without simple cooling changes.", "scale": "Illustrative: a few dormitories over six weeks" },
+    { "id": "q-adolescent-heat", "loop": "school", "q": "Do reliable drinking water and planned breaks help school-age adolescents protect themselves from heat?", "have": "A study of young adults aged 19 to 24 in Yogyakarta; younger adolescents were not included.", "could": "Compare protective habits and symptoms in schools with and without water points and break schedules.", "scale": "Illustrative: twenty schools over one hot season" },
+    { "id": "q-postpartum-heat", "loop": "clinic", "q": "How does indoor heat affect health and care-seeking in the first weeks after birth?", "have": "Guidance in India covers breastfeeding and infant care in heat, but no study in the region measures postpartum heat outcomes.", "could": "Follow mothers and babies after birth with indoor temperature sensors and records of symptoms and clinic visits.", "scale": "Illustrative: a few hundred mothers over two hot seasons" },
+    { "id": "q-cool-refuge-access", "loop": "displacement", "q": "What stops people without secure housing from using a nearby cool place during hot spells?", "have": "Research on people without secure housing in Nagpur and Delhi exists, but outcome evidence is thin.", "could": "Ask people without secure housing about the barriers, then test changes to opening hours, location and outreach.", "scale": "Illustrative: two cities over one hot season" }
+  ],
+  "evidence": [
+    { "title": "\u201cMy young life, finished already?\u201d: a qualitative study of embedded social stressors and their effects on mental health of low-wage male migrant workers in Singapore", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10329802/", "first_author": "Farwin et al.", "venue": "Globalization and Health", "date": "2023",
+      "review": { "cycle": "sleep", "grade": "peer", "where": "Singapore", "sample_size": "21 individual and 2 group interviews", "finding": "Low-wage migrant workers linked hot, crowded dormitories with poor sleep and fatigue, alongside other stressors on their mental health. It supports the sleep part of the cycle, not the whole loop.", "limit": "Recruited through one support organisation, mainly Indian and Bangladeshi workers; interviews describe experience, not measured sleep." } }
+  ]
+}

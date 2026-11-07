@@ -1,0 +1,45 @@
+{
+  "lens": "5 return links and cycles",
+  "harms": [
+    { "id": "drysoil", "add": "In India's 2015 heatwave, drying soils and the heat they gave off added to the second peak of the heat, though not the first.",
+      "sources": [{ "label": "Ghatak et al., 2017: the role of local heating in the 2015 Indian heat wave (NASA abstract)", "url": "https://ntrs.nasa.gov/citations/20180003614" }] },
+    { "id": "forest", "add": "Losing forest cover adds heat for the people who work there: in an experiment in East Kalimantan, Indonesia, 361 workers in cleared land faced heat stress readings 2.84 °C higher than in forest, and got less done. The experiment cleared land; it does not show that forests dying back from heat have the same effect.",
+      "sources": [{ "label": "Masuda et al., 2021: warming from tropical deforestation reduces worker productivity (PMC7952402)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7952402/" }] },
+    { "id": "groundwater", "add": "In India, warming is linked to more pumping for irrigation and faster groundwater loss, leaving less in reserve for the next hot season.",
+      "sources": [{ "label": "Bhattarai et al., 2023: warming temperatures exacerbate groundwater depletion rates in India (USDA record)", "url": "https://www.ars.usda.gov/research/publications/publication/?seqNo115=387051" }] },
+    { "id": "irrigation", "add": "Watering fields cools the air but makes it more humid, which can raise the humid heat that farmworkers feel.",
+      "sources": [{ "label": "Mishra et al., 2020: moist heat stress extremes in India enhanced by irrigation", "url": "https://impact.ornl.gov/en/publications/moist-heat-stress-extremes-in-india-enhanced-by-irrigation/" }] },
+    { "id": "energypoverty", "add": "In Delhi, low-income households used little more electricity on hot days, which the researchers read as a sign of few ways to cool.",
+      "sources": [{ "label": "Harish et al., 2020: impact of temperature on electricity demand in Delhi and Indian states", "url": "https://cprindia.org/journalarticles/impact-of-temperature-on-electricity-demand-evidence-from-delhi-and-indian-states/" }] },
+    { "id": "demand", "add": "Air conditioners push their heat outside: in a model of city blocks in Rajkot, condensers on outside walls could warm the street air by more than 1 °C and raise cooling demand further.",
+      "sources": [{ "label": "Verma et al., Scientific Reports, 2026: air conditioner waste heat in hypothetical urban blocks, Rajkot", "url": "https://www.nature.com/articles/s41598-026-62477-4" }] }
+  ],
+  "links": [
+    ["lost", "energypoverty", "When heat cuts earnings, cooling becomes harder to afford in the next hot spell."],
+    ["irrigation", "farmwork", "Irrigated fields make the air more humid, so farmworkers can face more humid heat even as the air cools."]
+  ],
+  "levers": [
+    { "id": "irrigate", "example": "In a regional model of the Indo-Gangetic Plain, switching from channel to drip irrigation saved water and lowered humid heat. It is a simulation, not a field programme.",
+      "exampleSources": [{ "label": "Ambika et al., Earth's Future, 2022: water savings and lower humid heat from efficient irrigation", "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021EF002642" }],
+      "watch": [{ "text": "In the same model, drip irrigation warmed the dry air by about 0.2 °C, and the model held water demand fixed, so real pumping may differ.",
+        "sources": [{ "label": "Ambika et al., Earth's Future, 2022", "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021EF002642" }] }] }
+  ],
+  "atRisk": [
+    { "id": "workers", "fact": "In East Kalimantan, Indonesia, 361 workers doing 90-minute tasks on cleared land faced heat stress readings 2.84 °C higher than in forest.",
+      "source": { "label": "Masuda et al., 2021 (PMC7952402)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7952402/" } },
+    { "id": "settlements", "fact": "In a model of 16 buildings in Rajkot, air conditioner condensers on outside walls could warm the street air by more than 1 °C.",
+      "source": { "label": "Scientific Reports, 2026", "url": "https://www.nature.com/articles/s41598-026-62477-4" } }
+  ],
+  "questions": [
+    { "id": "q-soil-moisture", "loop": "soil", "q": "Does keeping soils moist lower afternoon heat without raising the humid heat that farmworkers feel?", "have": "Research on India's 2015 heatwave links drying soils to the heat, and irrigation research shows cooler but more humid air.", "could": "Compare matched fields with different soil-moisture practices, measuring air heat, humid heat and soil water.", "scale": "Illustrative: twenty to thirty paired fields over two hot seasons" },
+    { "id": "q-cooling-debt", "loop": "energypoverty", "q": "Do earnings lost or health costs paid in a heatwave make cooling harder to afford the next season?", "have": "Income shapes which cooling households own, but the steps from lost earnings to debt to less cooling are not tracked.", "could": "Follow households monthly through heat, earnings, illness costs, debt, electricity spending and actual cooling use.", "scale": "Illustrative: several hundred households over two hot seasons" },
+    { "id": "q-waste-heat", "loop": "cooling", "q": "Does moving air conditioner condensers lower street heat and later electricity use in real neighbourhoods?", "have": "A model of Rajkot city blocks suggests it could; it has not been tested in occupied buildings.", "could": "Compare paired buildings before and after moving condensers, with outdoor and indoor sensors and electricity meters.", "scale": "Illustrative: a dozen to twenty buildings over one hot season" },
+    { "id": "q-short-nights", "loop": "sleep", "q": "Does a hot, short night raise the next day's heat strain during ordinary work?", "have": "Small laboratory studies found no overall rise after short sleep, but they did not test long humid workdays.", "could": "Measure bedroom heat, sleep, next-day exposure and heat strain repeatedly in working people, without depriving anyone of sleep.", "scale": "Illustrative: a hundred or more workers over four to six weeks" }
+  ],
+  "evidence": [
+    { "title": "The Role of Local Heating in the 2015 Indian Heat Wave", "url": "https://ntrs.nasa.gov/citations/20180003614", "first_author": "Ghatak et al.", "venue": "", "date": "2017",
+      "review": { "cycle": "soil", "grade": "peer", "where": "North and central India", "sample_size": "", "finding": "Drying soils and the heat they gave off added to the second peak of India's 2015 heatwave, though not the first. It supports the soil part of the cycle in one event.", "limit": "Read through its abstract; one event cannot show how much every heatwave owes to dry soils." } },
+    { "title": "Quantifying the impact of air conditioner waste heat on neighbourhood scale microclimate and building energy demand in hypothetical urban blocks", "url": "https://www.nature.com/articles/s41598-026-62477-4", "first_author": "Verma et al.", "venue": "Scientific Reports", "date": "2026",
+      "review": { "cycle": "cooling", "grade": "model", "where": "Hypothetical blocks in Rajkot, India", "sample_size": "16 buildings, six condenser placements", "finding": "In a model of city blocks, condensers on outside walls warmed the street air and raised the buildings' cooling demand, closing the cooling loop on paper.", "limit": "Hypothetical blocks and separate models, not measured in a real neighbourhood." } }
+  ]
+}

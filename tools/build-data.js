@@ -130,6 +130,18 @@ function checkHome(V) {
     if (!LOOPS_OK.includes(sel)) problems.push(`styles.css: "${sel}" loops forever; let it run a few times and rest (e.g. "3" instead of "infinite"), or add it to LOOPS_OK in tools/build-data.js if a reader's action starts it`); }
   return problems;
 }
+// Watch-outs (LEVERS watch): each documented side effect of a lever is a short sentence with at least one source that
+// has a label and an https link, so a reader can check it. Each problem names the lever and what to fix.
+function checkWatch(V) {
+  const P = [];
+  (V.LEVERS || []).forEach(v => { if (v.watch === undefined) return;
+    if (!Array.isArray(v.watch) || !v.watch.length) return P.push(`LEVERS ${v.id}: watch must be a list of { text, sources }, or left out`);
+    v.watch.forEach((w, i) => { const at = `LEVERS ${v.id} watch[${i}]`;
+      if (!w.text || w.text.length > 320) P.push(`${at}: needs text of at most 320 characters`);
+      if (!(w.sources || []).length) P.push(`${at}: needs at least one source`);
+      (w.sources || []).forEach(x => { if (!x.label || !/^https:\/\//.test(x.url || "")) P.push(`${at}: each source needs a label and an https url`); }); }); });
+  return P;
+}
 // How heat became visible (HEAT_VISIBILITY): every citation resolves, every source has an https link (and an archived copy
 // once checked), grades and threads come from fixed lists, quotes are short and located, "first" is only ever "claimed",
 // and heatwave links resolve. Each problem names the event and the field, so it can be fixed without reading this code.
@@ -167,9 +179,9 @@ else if (mode === "--check") {
   const diff = a.names.filter(n => !deepEqual(a.values[n], b.values[n]));
   if (diff.length || a.names.length !== b.names.length) { console.error("data.js differs from data/core in:", diff.join(", ") || "block list"); process.exit(1); }
   const all = Object.assign({}, b.values, require("./data-blocks.js")());
-  failOn([...checkHope(all), ...checkHome(all), ...checkVisibility(all)]);
+  failOn([...checkHope(all), ...checkHome(all), ...checkVisibility(all), ...checkWatch(all)]);
   console.log(`data.js matches data/core (${a.names.length} blocks)`);
 } else {
-  const out = build(); const built = load(out).values; Object.assign(built, require("./data-blocks.js")()); failOn([...checkHope(built), ...checkHome(built), ...checkVisibility(built)]);   // fails loudly if the result is not valid
+  const out = build(); const built = load(out).values; Object.assign(built, require("./data-blocks.js")()); failOn([...checkHope(built), ...checkHome(built), ...checkVisibility(built), ...checkWatch(built)]);   // fails loudly if the result is not valid
   fs.writeFileSync(OUT, out); console.log(`data.js rebuilt from data/core (${out.length.toLocaleString()} characters)`);
 }
