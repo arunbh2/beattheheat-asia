@@ -1,0 +1,86 @@
+{
+ "week": "2026-11-gap-lenses",
+ "note": "Studies from the November 2026 gap lenses, checked in data/inbox/2026-11-gap-lenses and reviewed in a Claude Code session; merging the pull request is the sign-off.",
+ "candidates": [
+  {
+   "decision": "accept",
+   "title": "“My young life, finished already?”: a qualitative study of embedded social stressors and their effects on mental health of low-wage male migrant workers in Singapore",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10329802/",
+   "first_author": "Farwin et al.",
+   "venue": "",
+   "date": "2023",
+   "review": {
+    "cycle": "sleep",
+    "grade": "peer",
+    "where": "Singapore",
+    "sample_size": "21 individual and 2 group interviews",
+    "finding": "Low-wage migrant workers linked hot, crowded dormitories with poor sleep and fatigue, alongside other stressors on their mental health. It supports the sleep part of the cycle, not the whole loop.",
+    "limit": "Recruited through one support organisation, mainly Indian and Bangladeshi workers; interviews describe experience, not measured sleep."
+   }
+  },
+  {
+   "decision": "accept",
+   "title": "Impacts of heat on sleep quality among heat-exposed workers: a systematic review",
+   "url": "https://www.aoemj.org/journal/view.php?doi=10.35371/aoem.2026.38.e3",
+   "first_author": "Raja et al.",
+   "venue": "Annals of Occupational and Environmental Medicine",
+   "date": "2026",
+   "review": {
+    "cycle": "sleep",
+    "grade": "peer",
+    "where": "Global, including Asian settings",
+    "sample_size": "11 studies",
+    "finding": "Across 11 studies, heat was linked to poorer sleep among people who work in it. This supports the heat and sleep part of the cycle; few studies follow heat built up over a season.",
+    "limit": "Mostly cross-sectional studies with different measures, so the results were not pooled."
+   }
+  },
+  {
+   "decision": "accept",
+   "title": "Ministry of Industry and Trade informs about power supply situation in hot season",
+   "url": "https://en.evn.com.vn/d6/news/Ministry-of-Industry-and-Trade-informs-about-power-supply-situation-in-hot-season-66-163-3527.aspx",
+   "first_author": "Vietnam Electricity",
+   "venue": "",
+   "date": "2023",
+   "review": {
+    "cycle": "energywater",
+    "grade": "official",
+    "where": "Northern Viet Nam",
+    "sample_size": "",
+    "finding": "In June 2023, heat pushed electricity demand up while low reservoirs cut the hydropower available. It shows the water to power part of the cycle during heat, not the whole loop.",
+    "limit": "The utility's own operational account; plant and transmission problems also contributed, and heat's share is not separated."
+   }
+  },
+  {
+   "decision": "accept",
+   "title": "The Role of Local Heating in the 2015 Indian Heat Wave",
+   "url": "https://ntrs.nasa.gov/citations/20180003614",
+   "first_author": "Ghatak et al.",
+   "venue": "",
+   "date": "2017",
+   "review": {
+    "cycle": "soil",
+    "grade": "peer",
+    "where": "North and central India",
+    "sample_size": "",
+    "finding": "Drying soils and the heat they gave off added to the second peak of India's 2015 heatwave, though not the first. It supports the soil part of the cycle in one event.",
+    "limit": "Read through its abstract; one event cannot show how much every heatwave owes to dry soils."
+   }
+  },
+  {
+   "decision": "accept",
+   "title": "Quantifying the impact of air conditioner waste heat on neighbourhood scale microclimate and building energy demand in hypothetical urban blocks",
+   "url": "https://www.nature.com/articles/s41598-026-62477-4",
+   "first_author": "Verma et al.",
+   "venue": "Scientific Reports",
+   "date": "2026",
+   "review": {
+    "cycle": "cooling",
+    "grade": "model",
+    "where": "Hypothetical blocks in Rajkot, India",
+    "sample_size": "16 buildings, six condenser placements",
+    "finding": "In a model of city blocks, condensers on outside walls warmed the street air and raised the buildings' cooling demand, closing the cooling loop on paper.",
+    "limit": "Hypothetical blocks and separate models, not measured in a real neighbourhood."
+   }
+  }
+ ]
+}

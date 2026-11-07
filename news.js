@@ -12,6 +12,19 @@
     credits: { "GDELT Project": "https://www.gdeltproject.org/" },
     note: "Headlines and papers come from outside sources and are not reviewed by us. They are listed to help you follow the conversation, not as endorsements."
   };
+  // what became of each item (feeds/status.json, written by tools/news-status.js): news coverage is kept apart from
+  // checked evidence, and a paper reaches the Evidence map only after a reviewer accepts it in the weekly review
+  const STATUS = { url: "https://raw.githubusercontent.com/arunbh2/beattheheat-asia/main/feeds/status.json", local: "/feeds/status.json" };
+  const TAGS = { evidence: ["On the Evidence map", "/evidence-map/#living"], review: ["In the weekly evidence review", "/evidence-map/#living"],
+    screened: ["Screened: outside the review's focus", ""], waiting: ["Not yet screened", ""], cited: ["Cited on Common Shade", "/sources/"] };
+  const norm = u => String(u || "").trim().toLowerCase().replace(/^https?:\/\/(dx\.)?doi\.org\//, "doi:").replace(/^https?:\/\/(www\.)?/, "").replace(/[#?].*$/, "").replace(/\/$/, "");
+  const statusP = fetch(STATUS.url, { cache: "no-cache" }).then(r => { if (!r.ok) throw 0; return r.json(); })
+    .catch(() => fetch(STATUS.local, { cache: "no-cache" }).then(r => { if (!r.ok) throw 0; return r.json(); })).catch(() => null);
+  const tag = (st) => { const t = TAGS[st]; if (!t) return ""; return t[1] ? `<a class="feed__st feed__st--${st}" href="${t[1]}">${t[0]}</a>` : `<span class="feed__st feed__st--${st}">${t[0]}</span>`; };
+  // add each item's tag once the status file arrives; the lists work the same without it
+  const decorate = (list, kind) => statusP.then(S => { if (!S || !list) return; const map = S[kind] || {};
+    [...list.querySelectorAll("li")].forEach(li => { const a = li.querySelector("a[href]"); if (!a || li.querySelector(".feed__st")) return;
+      const st = map[norm(a.getAttribute("href"))] || (kind === "papers" ? "waiting" : ""); const h = tag(st); if (h) (li.querySelector(".feed__src") || a).insertAdjacentHTML("afterend", h); }); return S; });
   const SOUTH = ["India", "Bangladesh", "Nepal", "Sri Lanka", "Pakistan", "Bhutan", "Maldives"];
   const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const ext = (url, label) => `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(label)}<span class="visually-hidden"> (opens in a new tab)</span></a>`;
@@ -39,14 +52,15 @@
       const row = x => `<li data-region="${x.place ? (SOUTH.includes(x.place) ? "south" : "southeast") : "other"}"><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(strip(x.title))}<span class="visually-hidden"> (opens in a new tab)</span></a>
         <span class="feed__src">${esc(x.domain || "")}${x.place ? ` · ${esc(x.place)}` : ""}${x.date ? ` · ${esc(ago(Date.parse(x.date)))}` : ""}</span></li>`;
       const draw = region => show(list, items.filter(x => region === "all" || (x.place && (SOUTH.includes(x.place) ? "south" : "southeast") === region)).map(row), 12);
-      draw("all");
+      draw("all"); decorate(list, "headlines").then(S => { if (!S || !meta) return; const c = S.counts.headlines || {};
+        meta.insertAdjacentHTML("beforeend", ` News is a lead, not evidence: before anything is added, the monthly update traces each story to its primary source.${c.cited ? ` ${c.cited} ${c.cited === 1 ? "headline is" : "headlines are"} cited on Common Shade.` : ""}`); });
       const counts = { south: items.filter(x => x.place && SOUTH.includes(x.place)).length, southeast: items.filter(x => x.place && !SOUTH.includes(x.place)).length };
       if (filter && counts.south && counts.southeast) {
         filter.hidden = false;
         filter.innerHTML = [["all", `All (${items.length})`], ["south", `South Asia (${counts.south})`], ["southeast", `Southeast Asia (${counts.southeast})`]]
           .map(([id, l], i) => `<button type="button" class="chip" data-region="${id}" aria-pressed="${i === 0}">${esc(l)}</button>`).join("");
         filter.addEventListener("click", e => { const b = e.target.closest("[data-region]"); if (!b) return;
-          filter.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", String(x === b))); draw(b.dataset.region); });
+          filter.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", String(x === b))); draw(b.dataset.region); decorate(list, "headlines"); });
       }
     }).catch(() => { list.innerHTML = `<li class="feed__wait">The news feed could not be loaded just now.</li>`; });
   }
@@ -60,6 +74,8 @@
         return `<li><a href="${esc(url)}" target="_blank" rel="noopener">${esc(strip(x.title))}<span class="visually-hidden"> (opens in a new tab)</span></a>
           <span class="feed__src">${esc(where)}${x.firstPublicationDate ? ` · ${esc(new Date(x.firstPublicationDate).toLocaleDateString([], { day: "numeric", month: "short", year: "numeric" }))}` : ""}</span></li>`; }), 12);
       if (meta) meta.innerHTML = `Papers and preprints from the last ${R.days} days with heat in the title and an Asian setting, newest first, from ${ext(R.credit.url, R.credit.label)}.`;
+      decorate(list, "papers").then(S => { if (!S || !meta) return; const c = S.counts.papers || {}, all = Object.values(c).reduce((a, b) => a + b, 0);
+        meta.insertAdjacentHTML("beforeend", ` Every paper listed here goes through the weekly evidence review before it can reach the map. Of the ${all} papers this page has listed: ${c.evidence || 0} on the Evidence map, ${c.review || 0} in review, ${c.screened || 0} screened and set aside, and ${c.waiting || 0} waiting for the next Monday screen.`); });
     };
     try { const c = JSON.parse(localStorage.getItem(KEY) || "null"); if (c && Date.now() - c.at < 6 * 3600000) { draw(c.j); return; } } catch (e) {}
     const from = new Date(Date.now() - R.days * 86400000).toISOString().slice(0, 10);

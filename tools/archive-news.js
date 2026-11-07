@@ -28,6 +28,9 @@ if (process.argv.includes("--history")) {
 }
 merge("news", (read("feeds/news.json") || {}).items);
 merge("research", (read("feeds/research.json") || {}).items);
+// a future date is a journal's scheduled issue, not a publication date: keep it as "issue" (also mends older entries)
+const TODAY = new Date().toISOString().slice(0, 10);
+arc.research.forEach(x => { if (x.date && x.date > TODAY) { x.issue = x.date; x.date = ""; } });
 const byDate = (a, b) => String(b.date || "").localeCompare(String(a.date || ""));
 arc.news.sort(byDate); arc.research.sort(byDate);
 if (added) arc.updated = new Date().toISOString();

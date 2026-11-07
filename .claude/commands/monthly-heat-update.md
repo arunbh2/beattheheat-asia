@@ -40,6 +40,8 @@ List what to look for this month:
 ## 2. Research
 Use web search (extended where needed). Prefer official, peer-reviewed and established sources. Use news to find things, then look for the primary source. Keep a note of anything found only on low-reliability sites: it may be drafted, but the reviewer holds it.
 
+Start from the month's headlines on /news/: every headline in `feeds/archive.json` that `feeds/status.json` marks `lead` is a lead to trace. For each, look for the primary source (the report, plan, dataset or official statement behind the story). Draft a record from the primary source, never from the news report; when none can be found, leave the headline as a lead. Papers on /news/ need no tracing here: the weekly evidence review screens every one of them.
+
 ## 3. Draft the inbox
 Write records to `data/inbox/<month>/` (`sources.json`, `records.json`). Every source has `url`, an empty `archive`, `kind`, and `expect` (two to five key terms its page must contain). Summaries at this stage are provisional.
 

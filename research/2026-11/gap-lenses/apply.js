@@ -52,7 +52,7 @@ const lqFile = path.join(ROOT, "data", "site", "learning.json"), lqText = fs.rea
 const newQ = (P.questions || []).filter(q => { if (lq.questions.some(x => x.id === q.id)) return false;
   if (q.loop && !LO.some(l => l.id === q.loop)) { problems.push(`question ${q.id}: loop "${q.loop}" is not a cycle`); return false; } return true; });
 
-const ev = P.evidence || [], evFile = path.join(ROOT, "data", "evidence", "inbox", "2026-W45.json");
+const ev = P.evidence || [], evFile = path.join(ROOT, "data", "evidence", "inbox", "2026-11-gap-lenses.json");
 ev.forEach(e => okSrc({ label: e.title, url: e.url }, `evidence ${e.title.slice(0, 40)}`));
 
 if (problems.length) { console.error("Nothing written. Fix these in patch-" + n + ".json:\n- " + problems.join("\n- ")); process.exit(1); }
@@ -63,7 +63,7 @@ if (newQ.length) {
   newQ.forEach(x => done.push(`question ${x.id}`)); }
 if (ev.length) {
   fs.mkdirSync(path.dirname(evFile), { recursive: true });
-  const j = fs.existsSync(evFile) ? read(evFile) : { week: "2026-W45", note: "Studies from the November 2026 gap lenses, checked in data/inbox/2026-11-gap-lenses and reviewed in a Claude Code session; merging the pull request is the sign-off.", candidates: [] };
+  const j = fs.existsSync(evFile) ? read(evFile) : { week: "2026-11-gap-lenses", note: "Studies from the November 2026 gap lenses, checked in data/inbox/2026-11-gap-lenses and reviewed in a Claude Code session; merging the pull request is the sign-off.", candidates: [] };
   ev.forEach(e => { if (!j.candidates.some(c => c.url === e.url && c.review && c.review.cycle === e.review.cycle)) { j.candidates.push(Object.assign({ decision: "accept" }, e)); done.push(`evidence ${e.review.cycle}`); } });
   fs.writeFileSync(evFile, JSON.stringify(j, null, 1) + "\n");
 }

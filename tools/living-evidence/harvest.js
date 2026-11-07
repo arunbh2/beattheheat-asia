@@ -8,8 +8,8 @@
 //
 // Sources: Europe PMC (includes PubMed/MEDLINE and preprint servers such as medRxiv), Crossref (journals, and the
 // DOIs of SSRN, the World Bank and ADB), arXiv, OpenAlex (includes institutional and university repositories),
-// the World Bank Documents and Reports API, and WHO IRIS. A source that does not answer is noted in the queue and
-// the harvest carries on.
+// the World Bank Documents and Reports API, WHO IRIS, and every paper listed on /news/ (feeds/archive.json). A source
+// that does not answer is noted in the queue and the harvest carries on.
 "use strict";
 const fs = require("fs"), path = require("path");
 const { extract, screen, suggestCycles } = require("./extract.js");
@@ -18,6 +18,7 @@ const arg = (k, d) => { const i = process.argv.indexOf(k); return i > -1 ? proce
 const DAYS = +arg("--days", 8), MAX = 60;
 const UA = { "User-Agent": "CommonShade-LivingEvidence/1.0 (https://beattheheat.asia; mailto:hello@beattheheat.asia)", "Accept": "application/json, application/atom+xml;q=0.9, */*;q=0.5" };
 const sleep = ms => new Promise(r => setTimeout(r, ms));
+const NOABS = [];   // news-page papers left unscreened this week because no abstract could be found
 const clean = t => String(t || "").replace(/<[^>]+>/g, " ").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&").replace(/\s+/g, " ").trim();
 
 function isoWeek(d) {
@@ -89,6 +90,27 @@ const SOURCES = {
     return Object.values(j.documents || {}).filter(x => x && x.display_title).map(x => ({ title: clean(x.display_title), abstract: clean(x.abstracts && (x.abstracts.cdata || x.abstracts["cdata!"] || "")),
       date: String(x.docdt || "").slice(0, 10), url: x.url || "", doi: "", venue: "World Bank", kind: "report", by: "World Bank", via: "World Bank Documents" }));
   },
+  // the research shown on /news/ (feeds/archive.json and feeds/research.json): every paper the page has listed goes
+  // through the same screen, so nothing on the news page reaches the map without a reviewer; seen.json keeps it to once
+  async newsfeed() {
+    const read = f => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, f), "utf8")); } catch (e) { return {}; } };
+    const items = [...(read("feeds/archive.json").research || []), ...(read("feeds/research.json").items || [])];
+    const seen = new Set((read("data/evidence/seen.json").keys) || []), out = [];
+    for (const x of items.filter(x => x && x.title && x.url)) {
+      const doi = (x.doi || (String(x.url).match(/doi\.org\/(.+)$/) || [])[1] || "").toLowerCase();
+      const y = { title: clean(x.title), abstract: clean(x.abstract || ""), date: x.date || "", doi, url: x.url, venue: x.journal || "",
+        kind: x.preprint ? "preprint" : "article", by: (x.firstAuthor || "").split(" ")[0], via: "Common Shade news page" };
+      // the archive keeps no abstracts, and the screen needs one: fetch it by DOI for papers not yet screened
+      if (!y.abstract && doi && !seen.has("doi:" + doi)) {
+        try { const j = await get("https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&resultType=core&pageSize=1&query=" + encodeURIComponent(`DOI:"${doi}"`), "json", 2);
+          const r = ((j.resultList || {}).result || [])[0]; if (r && r.abstractText) y.abstract = clean(r.abstractText); } catch (e) {}
+        await sleep(300);
+      }
+      // still no abstract: leave it unscreened (not marked seen), so a later week can try again
+      if (y.abstract || seen.has("doi:" + doi)) out.push(y); else NOABS.push(y.title);
+    }
+    return out;
+  },
   async who(from) {
     const j = await get("https://iris.who.int/server/api/discover/search/objects?query=" + encodeURIComponent("heat") + "&sort=dc.date.accessioned,DESC&size=50");
     const objs = (((j._embedded || {}).searchResult || {})._embedded || {}).objects || [];
@@ -125,7 +147,7 @@ const SOURCES = {
   const prev = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, "utf8")) : null;
   const merged = prev ? prev.candidates.concat(candidates.filter(c => !prev.candidates.some(p => p.key === c.key))) : candidates;
   fs.writeFileSync(file, JSON.stringify({ week, harvested: now.toISOString(), window: { from, to }, sources: status,
-    counts: { found: all.length, distinct: byKey.size, new: fresh.length, kept: candidates.length, set_aside: screened.length - kept.length },
+    counts: { found: all.length, distinct: byKey.size, new: fresh.length, kept: candidates.length, set_aside: screened.length - kept.length, news_page_no_abstract: NOABS.length },
     candidates: merged }, null, 1).replace(/—/g, "-") + "\n");
   fresh.forEach(([k]) => seen.add(k));
   fs.writeFileSync(SEEN, JSON.stringify({ about: "Studies already screened by the weekly harvest, so none is queued twice.", keys: [...seen].sort() }) + "\n");
