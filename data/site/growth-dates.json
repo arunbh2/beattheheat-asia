@@ -11289,7 +11289,10 @@
    "url": "https://www.eco-business.com/news/heatwave-fee-for-asias-gig-workers-does-little-to-cool-climate-stress/",
    "label": "Eco-Business: Heatwave fee for Asia's gig workers does little to cool climate stress",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2022-07-21",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.eco-business.com/press-releases/philanthropy-asia-alliance-supports-southeast-asia-heat-health-hub-to-scale-coordinated-action-on-extreme-heat/",
@@ -13657,9 +13660,9 @@
    "label": "Ministry of Manpower: revised heat stress framework, 2024",
    "root": "practical",
    "org": false,
-   "date": "2024",
-   "precision": "year",
-   "how": "label"
+   "date": "2024-09-09",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.mom.gov.sg/newsroom/press-releases/2026/0806-enhanced-primary-care-plan-appointment-of-new-aos",
