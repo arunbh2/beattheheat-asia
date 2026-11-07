@@ -334,4 +334,5 @@ fs.writeFileSync(path.join(ROOT, "countries", "index.html"), page({ slug: "count
       <p class="tool-lede">Plans and law, warnings, rules at work, cooling, money, cities, programmes and who is working on it. Researched in October 2026.</p>
       <ul class="cty-index">${SNAPS.map(s => `<li><a href="/countries/${s.slug}/"><b>${esc(s.name)}</b><span>${(s.d.cities || []).map(c => c.name).join(", ")}</span></a></li>`).join("")}</ul>
       <p class="tool-alt"><a href="/solutions/">Solutions library</a> · <a href="/sources/">All sources</a></p></div></section>` }));
+require("./site-counts.js")({ solutions: total, countries: SNAPS.length });
 console.log(`solutions: ${total} (${Object.entries(counts).map(([k, v]) => `${v} ${k}`).join(", ")}), ${SNAPS.length} country snapshots${Object.keys(STATUS).length ? "" : " (no link-status.json yet: all links kept)"}`);

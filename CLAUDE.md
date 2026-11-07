@@ -41,6 +41,12 @@ Every decision elevates the reader's experience (UX), the maintainer's experienc
 - `media/`: films and covers. `tools/explainers/`, `tools/films/` and `tools/shorts/` build them (Piper voice, Playwright render).
 - `data/evidence/` and `tools/living-evidence/`: the weekly evidence review. A Monday job harvests studies and opens a review pull request; merging is the sign-off; accepted studies join their cycles on the Evidence map. See `data/evidence/README.md`.
 - `.github/workflows/`: data checks, link checks, news feed, source and URL verification, and the weekly evidence review.
+- `tools/site-counts.js` → `data/site/counts.json` (generated): each builder records the headline counts it prints (solutions, sources, schemes and so on), so anything showing a count reads the page's own figure.
+- Pop-ups, on every page of every visit (the site owner's choice, November 2026). Each rests for the rest of a visit once the reader answers it, and only one shows at a time (`<html data-cs-pop>`):
+  - the invitation (`join.js`)
+  - the State of the field notice (`tools/site-nav.js`)
+  - the exit card "Everything Common Shade covers" (`tools/build-everything.js` → `everything.js`, also listed in llms.txt)
+  The two scripts load 2.5 s after the page loads. Check a card with `?preview=invite` or `?preview=everything`.
 
 ## Every change
 1. Edit the source (data, builder or page script), never only the generated HTML.

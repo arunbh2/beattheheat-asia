@@ -245,4 +245,5 @@ ${FOOT_CLOSE}  <footer class="wkp-foot"><div class="container">
 `;
 fs.mkdirSync(path.join(ROOT, SLUG), { recursive: true });
 fs.writeFileSync(path.join(ROOT, SLUG, "index.html"), html);
+require("./site-counts.js")({ lancetReferences: nums.length });
 console.log(`lancet countdown 2026: ${READERS.length} reader guides, ${nums.length} references (${nums.filter(r => !r.url).length} via Scholar search)`);

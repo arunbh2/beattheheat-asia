@@ -192,4 +192,5 @@ ${all.filter(x => x.kind === g.kind).map(x => "          " + li(x)).join("\n")}
 `;
 fs.mkdirSync(path.join(ROOT, "sources"), { recursive: true });
 fs.writeFileSync(path.join(ROOT, "sources", "index.html"), html);
+require("./site-counts.js")({ sources: total, newsSources: counts.news || 0 });
 console.log(`sources: ${total} (${counts.ref} references, ${counts.news || 0} from the news, ${counts.media || 0} media articles, ${counts.lancet || 0} Lancet Countdown, ${counts.org} organisations, ${counts.data} data)`);

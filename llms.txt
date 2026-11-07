@@ -94,3 +94,31 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The pa
 - [Cooling options: Heat and waterlogging](https://beattheheat.asia/print/cooling-flood/)
 - [Cooling options: Greening where water is short](https://beattheheat.asia/print/cooling-dry/)
 - [Cooling options: Making it last](https://beattheheat.asia/print/cooling-system/)
+
+## Everything the site covers
+
+### Understand heat
+
+- [90 consequences mapped](https://beattheheat.asia/) with 21 vicious cycles and 33 ways to break them
+- [12 city profiles](https://beattheheat.asia/cities/) and 7 country snapshots
+- [10 heatwaves](https://beattheheat.asia/heatwaves/) that shaped South and Southeast Asia
+
+### The evidence
+
+- [2,143 sources](https://beattheheat.asia/sources/) cited, every one listed
+- [66 studies graded](https://beattheheat.asia/evidence-map/) cycle by cycle, on the evidence map
+- [18 learning questions](https://beattheheat.asia/evidence-map/#questions) nobody has answered yet
+- [397 report references](https://beattheheat.asia/lancet-countdown-2026/) the Lancet Countdown 2026, in plain language
+- [140 news headlines](https://beattheheat.asia/news/) and 71 articles studied for how heat is reported
+
+### What helps
+
+- [131 solutions](https://beattheheat.asia/solutions/) each with an evidence label
+- [146 heat action plans](https://beattheheat.asia/resources/heat-action-plans/india/) verified, from India
+- [5 planning tools](https://beattheheat.asia/guide/) from a week in the heat to a plan of your own
+
+### Money and people
+
+- [98 schemes](https://beattheheat.asia/paying-when-heat-strikes/) and 36 financial instruments, and whether they paid
+- [91 businesses](https://beattheheat.asia/heat-economy/) and 77 funders in the heat economy
+- [330 organisations](https://beattheheat.asia/heat-network/) mapped, each with a profile

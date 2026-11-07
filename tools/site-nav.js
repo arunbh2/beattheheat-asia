@@ -396,13 +396,16 @@ var today=new Date().toISOString().slice(0,10);
 /* changed since your last visit, and a new monthly brief */
 (function(){var visits=load("cs-visits",{}),last=visits[here],changed=document.body.getAttribute("data-changed")||"",notes=[];
  if(last&&changed&&changed>last)notes.push('<span>Updated since your last visit</span><a href="/whats-new/">See what changed this month</a>');
- var brief=${JSON.stringify(BRIEF)},seen=load("cs-brief-seen","");
- if(brief&&Object.keys(visits).length&&seen<brief&&here!=="/whats-new/")notes.push('<span>New: the ${BRIEF_LABEL} State of the field</span><a href="/whats-new/">Read it</a><button type="button" data-csn-dismiss>Not now</button>');
+ var brief=${JSON.stringify(BRIEF)};
+ /* the monthly brief: on every page of every visit (site owner's choice), resting for the rest of a visit once answered */
+ var briefRest;try{briefRest=sessionStorage.getItem("cs-brief-rest")}catch(e){}
+ if(brief&&!briefRest&&here!=="/whats-new/")notes.push('<span>New: the ${BRIEF_LABEL} State of the field</span><a href="/whats-new/" data-csn-briefread>Read it</a><button type="button" data-csn-dismiss>Not now</button>');
  if(here==="/whats-new/"&&brief)save("cs-brief-seen",brief);
  visits[here]=today;save("cs-visits",visits);
  if(!notes.length)return;var bar=document.createElement("div");bar.className="csn-new";bar.setAttribute("role","status");bar.innerHTML=notes.join(" ");
  var crumbs=$(".csn__crumbs")||H;crumbs.parentNode.insertBefore(bar,crumbs.nextSibling);
- var d=$("[data-csn-dismiss]",bar);if(d)d.addEventListener("click",function(){save("cs-brief-seen",brief);bar.remove()})})();
+ function rest(){save("cs-brief-seen",brief);try{sessionStorage.setItem("cs-brief-rest","1")}catch(e){}}
+ var d=$("[data-csn-dismiss]",bar);if(d)d.addEventListener("click",function(){rest();bar.remove()});var r=$("[data-csn-briefread]",bar);if(r)r.addEventListener("click",rest)})();
 /* the canopy in the logo widens a little with each stop of a path you walk */
 (function(){var p=byId(get()),c=$(".csn__canopy");if(!p||!c)return;var seen=load("cs-path-seen",{}),list=seen[p.id]||[];
  if(p.stops.some(function(s){return s.url===here})&&list.indexOf(here)<0){list.push(here);seen[p.id]=list;save("cs-path-seen",seen)}

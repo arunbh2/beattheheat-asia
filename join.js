@@ -11,7 +11,7 @@
     contact: ""
   };
 
-  var KEY = "bth-invite-v1", DAY = 864e5;
+  var KEY = "bth-invite-v1";
   function store(get, val) {
     try { if (get) return JSON.parse(localStorage.getItem(KEY) || "null"); localStorage.setItem(KEY, JSON.stringify(val)); } catch (e) { return null; }
   }
@@ -75,21 +75,20 @@
     sync();
   }
 
-  /* ---- elsewhere: one gentle invitation, at most once a month ----
-     Browsers do not let a page show its own message as a tab closes, so the card appears either when the
-     pointer heads for the tab bar (desktop) or after a visitor has spent time and scrolled (any device). */
+  /* ---- elsewhere: the invitation, on every page of every visit (the site owner's choice, November 2026) ----
+     It appears once someone has read for 20 seconds and scrolled a little (or straight away on a short page). Once they
+     answer it (a link, Not now, x or Escape), it rests for the rest of that visit, so it never returns on every click.
+     Only one card shows at a time: <html data-cs-pop> marks one that is open (see everything.js). */
   function invite() {
     if (!JOIN.formUrl) return;
-    var seen = store(true);
-    if (seen && Date.now() - seen.at < (seen.joined ? 180 : 30) * DAY) return;
-    try { if (sessionStorage.getItem(KEY)) return; } catch (e) {}
-    var start = Date.now(), shown = false, el;
+    var preview = /[?&]preview=invite\b/.test(location.search);   // to check the card: add ?preview=invite to any address
+    try { if (sessionStorage.getItem(KEY) && !preview) return; } catch (e) {}
+    var start = preview ? 0 : Date.now() - (window.performance ? performance.now() : 0), shown = false, el;   // timed from arrival, though this script may load late
 
-    function show(leaving) {
-      if (shown) return;
-      var menu = document.getElementById("site-menu"); if (menu && !menu.hidden) return;
-      shown = true; cleanup();
-      try { sessionStorage.setItem(KEY, "1"); } catch (e) {}
+    function show() {
+      if (shown || document.documentElement.dataset.csPop) return;
+      shown = true; cleanup(); clearInterval(timer);
+      document.documentElement.dataset.csPop = "invite";
       el = document.createElement("div");
       el.className = "invite"; el.setAttribute("role", "dialog"); el.setAttribute("aria-modal", "false"); el.setAttribute("aria-labelledby", "invite-h");
       el.innerHTML =
@@ -112,18 +111,19 @@
     }
     function close(joined) {
       store(false, { at: Date.now(), joined: !!joined });
+      try { sessionStorage.setItem(KEY, "1"); } catch (e) {}
+      if (document.documentElement.dataset.csPop === "invite") delete document.documentElement.dataset.csPop;
       document.removeEventListener("keydown", onKey);
       if (el) { el.classList.remove("is-in"); setTimeout(function () { if (el) el.remove(); }, 300); }
     }
     function onKey(e) { if (e.key === "Escape") close(false); }
-    function onLeave(e) { if (!e.relatedTarget && e.clientY <= 0 && Date.now() - start > 15000) show(true); }
-    function onScroll() {
-      var h = document.documentElement, depth = (h.scrollTop + innerHeight) / h.scrollHeight;
-      if (depth > 0.35 && Date.now() - start > 45000) show(false);
+    function ready() {
+      var h = document.documentElement, short = h.scrollHeight < innerHeight * 1.6, depth = (h.scrollTop + innerHeight) / h.scrollHeight;
+      if (Date.now() - start > 20000 && (short || depth > 0.25)) show();
     }
-    function cleanup() { document.removeEventListener("mouseout", onLeave); removeEventListener("scroll", onScroll); }
-    // no "before you go" interruption as people leave: the card only appears after someone has spent real time reading
-    addEventListener("scroll", onScroll, { passive: true });
+    function cleanup() { removeEventListener("scroll", ready); }
+    addEventListener("scroll", ready, { passive: true });
+    var timer = setInterval(ready, 2500);   // a short page has nothing to scroll
   }
 
   function boot() { if (document.body.dataset.page === "join") { renderForm(); journey(); } else invite(); }
