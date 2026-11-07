@@ -48,10 +48,15 @@ async function archiveOf(u) {
   return "";
 }
 
-// the Europe PMC record for a PubMed or PMC link, as plain text, or ""
+// the DOI inside a journal link (most publishers put it in the path; Nature's article ids are DOIs without the prefix)
+function doiOf(u) {
+  const d = decodeURIComponent(u), m = d.match(/\b(10\.\d{4,9}\/[^\s?#&]+)/); if (m) return m[1].replace(/\/(full|abstract|pdf)$/i, "");
+  const n = d.match(/nature\.com\/articles\/(s\d{5}-\d{3}-\d+-\w+)/); return n ? "10.1038/" + n[1] : "";
+}
+// the Europe PMC record for a PubMed, PMC or DOI link, as plain text, or "" (publishers that turn robots away are still checked)
 async function europePmc(u) {
-  const m = u.match(/pubmed\.ncbi\.nlm\.nih\.gov\/(\d+)/) || u.match(/(PMC\d+)/i); if (!m) return "";
-  const q = /^PMC/i.test(m[1]) ? `PMCID:${m[1].toUpperCase()}` : `EXT_ID:${m[1]} AND SRC:MED`;
+  const m = u.match(/pubmed\.ncbi\.nlm\.nih\.gov\/(\d+)/) || u.match(/(PMC\d+)/i), doi = m ? "" : doiOf(u); if (!m && !doi) return "";
+  const q = doi ? `DOI:"${doi}"` : /^PMC/i.test(m[1]) ? `PMCID:${m[1].toUpperCase()}` : `EXT_ID:${m[1]} AND SRC:MED`;
   const r = await get(`https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=${encodeURIComponent(q)}&resultType=core&format=json`, 30000);
   try { const x = JSON.parse(r.body).resultList.result[0]; if (!x) return "";
     return [x.title, x.authorString, x.journalInfo && x.journalInfo.journal && x.journalInfo.journal.title, x.pubYear, x.firstPublicationDate, x.electronicPublicationDate, x.abstractText].filter(Boolean).join(" ").replace(/<[^>]+>/g, " ");
@@ -87,7 +92,7 @@ function around(body, nb, terms) {
       const has = b => (r.expect || []).some(t => norm(b).includes(norm(t)));
       // a site that answers with a wall (cookies, a robot check) gives text but not the page: then read the archived copy too
       if (!has(body) && r.archive) { const ar = await get(rawArchive(r.archive), 90000); if (ar.ok) body += " " + text(ar.body); }
-      // PubMed and PMC turn robots away; Europe PMC serves the same record (title, journal, dates, abstract) openly
+      // PubMed, PMC and many journals turn robots away; Europe PMC serves the same record (title, journal, dates, abstract) openly, by PMID, PMCID or DOI
       if (!has(body)) { const ep = await europePmc(r.url); if (ep) body += " " + ep; }
       const nb = norm(body), found = {};
       (r.expect || []).forEach(t => { found[t] = nb.includes(norm(t)); });
