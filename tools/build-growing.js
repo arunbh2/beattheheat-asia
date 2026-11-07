@@ -45,8 +45,8 @@ module.exports = function growing({ page, write, esc, hero, V }) {
   const W = 960, H = 640, GY = 330, TX = 480;
   const hash = s => { let h = 2166136261; for (const ch of s) { h ^= ch.charCodeAt(0); h = Math.imul(h, 16777619); } return (h >>> 0) / 4294967295; };
   const order = ["evidence", "experience", "practical", "institutions", "financing"];
-  const ang = i => Math.PI * (0.88 - i * 0.19);   // branches fan out above, left to right
-  const crown = (i, t) => { const a = ang(i) + (t - 0.5) * 0.15, r = 150 + t * 120; return [TX + Math.cos(a) * r * 1.35, GY - 30 - Math.sin(a) * r]; };
+  const ang = i => Math.PI * (0.80 - i * 0.15);   // branches fan out above, left to right
+  const crown = (i, t) => { const a = ang(i) + (t - 0.5) * 0.12, r = 95 + t * 120; return [TX + Math.cos(a) * r * 1.45, GY - 24 - Math.sin(a) * r]; };
   const rootEnd = i => [80 + i * 200, H - 40];
   const fx = v => v.toFixed(1);
   // leaves: one per change, along its root's branch, oldest nearest the trunk
@@ -68,9 +68,9 @@ module.exports = function growing({ page, write, esc, hero, V }) {
   const svg = `<svg class="gw-svg" viewBox="0 0 ${W} ${H}" role="group" aria-labelledby="gw-svg-t gw-svg-d">
     <title id="gw-svg-t">The canopy: changes to Common Shade above the surface, the work it draws on beneath</title>
     <desc id="gw-svg-d">Each mark in the canopy is one change, on the branch of its root. Beneath the surface, five roots carry the dated work the commons draws on: ${order.map(r => `${rootName[r]}, ${n(last[r])} works`).join("; ")}. Selecting a change draws only its own connections. A metaphor for the knowledge commons, not a measure of protection.</desc>
-    <path class="gw-dome" d="M110 ${GY - 34} C 150 40, 810 40, 850 ${GY - 34}"/>
-    <text class="gw-svg-cap" x="${TX}" y="58" text-anchor="middle">The shared aim: protection from extreme heat</text>
-    ${order.map((r, i) => { const [x, y] = crown(i, 1); return `<path class="gw-branch" d="M${TX} ${GY} Q ${fx((TX + x) / 2)} ${fx(GY - 60)} ${fx(x)} ${fx(y)}"/>`; }).join("")}
+    <path class="gw-dome" d="M70 ${GY - 14} C 90 -10, 870 -10, 890 ${GY - 14}"/>
+    <text class="gw-svg-cap" x="${TX}" y="40" text-anchor="middle">The shared aim: protection from extreme heat</text>
+    ${order.map((r, i) => { const [x, y] = crown(i, 1); const [mx, my] = crown(i, 0); return `<path class="gw-branch" d="M${TX} ${GY} Q ${fx(mx)} ${fx(my + 40)} ${fx(x)} ${fx(y)}"/>`; }).join("")}
     <line class="gw-ground" x1="20" y1="${GY}" x2="${W - 20}" y2="${GY}"/><text class="gw-svg-cap gw-svg-cap--l" x="24" y="${GY - 8}">Above: what Common Shade added, from October 2026</text><text class="gw-svg-cap gw-svg-cap--l" x="24" y="${GY + 20}">Below: the work it draws on, by year of publication</text>
     ${order.map((r, i) => { const [x, y] = rootEnd(i); return `<path class="gw-root-main" d="M${TX} ${GY} C ${TX} ${GY + 90}, ${fx(x)} ${fx(y - 160)}, ${fx(x)} ${fx(y)}"/><text class="gw-root-lab" x="${fx(x)}" y="${fx(y + 26)}" text-anchor="middle">${esc(rootName[r])} <tspan class="gw-root-n" data-root="${r}">${n(last[r])}</tspan></text>`; }).join("")}
     <g class="gw-strands">${strands}</g>
@@ -103,7 +103,7 @@ module.exports = function growing({ page, write, esc, hero, V }) {
   const usedKinds = T.KINDS.filter(([k]) => L.entries.some(e => e.kind === k));
 
   const body = `${hero("News and evidence", esc(T.TITLE), esc(T.LEDE))}
-  <div class="container gw">
+  <div class="container gw-page">
     <p class="gw-sum" id="gw-sum">${n(S.changes)} changes recorded since ${esc(T.date(S.first))}: ${n(S.revised)} corrections or revised interpretations, ${n(S.connections)} connections documented and ${n(S.questions)} questions opened. Beneath them, ${n(F.dated)} works the commons draws on carry a publication date${F.undated ? `, and ${n(F.undated)} are still being dated` : ""}.</p>
     <nav class="gw-doors" aria-label="Three ways in">
       <a class="gw-door" href="#updates" data-door="new"><b>What's new</b><span>The latest changes, newest first</span></a>

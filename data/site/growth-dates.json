@@ -33,13 +33,19 @@
    "url": "http://www.theraintree.co.in",
    "label": "Raintree Family Office official site",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2018-09-30",
+   "precision": "day",
+   "how": "online"
   },
   {
    "url": "https://10across.org/10xprize/",
    "label": "10X PRIZE Clean Cooling Student Competition",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2026-07-22",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://10across.org/release-asus-ten-across-initiative-announces-the-10x-grand-prize-finalists-and-peoples-choice-award-winners/",
@@ -60,7 +66,10 @@
    "url": "https://accurantinternational.com/",
    "label": "Accurant International / Net Zero Alliance",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2021-11-24",
+   "precision": "day",
+   "how": "online"
   },
   {
    "url": "https://acmfcms.assistasia.org/uploads/FOR_UPLOADING_Phase_2_m_A_Rs_Guide_c2cb0ec348.pdf",
@@ -72,7 +81,10 @@
    "url": "https://acris.aalto.fi/ws/portalfiles/portal/67401543/ENG_Miller_et_al_Cooling_energy_savings_Energy_and_Buildings.pdf",
    "label": "Miller et al., Energy and Buildings2021 field study",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2022-05-20",
+   "precision": "day",
+   "how": "online"
   },
   {
    "url": "https://adore.ifrc.org/Download.aspx?FileId=724054",
@@ -96,19 +108,28 @@
    "url": "https://adore.ifrc.org/Download.aspx?FileId=827691",
    "label": "Vietnam Red Cross Society",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2026-09-02",
+   "precision": "day",
+   "how": "online"
   },
   {
    "url": "https://adore.ifrc.org/Download.aspx?FileId=839271",
    "label": "Hellenic Red Cross",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2024-07-23",
+   "precision": "day",
+   "how": "online"
   },
   {
    "url": "https://adore.ifrc.org/Download.aspx?FileId=840522",
    "label": "Burkinabe Red Cross",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2025-05-29",
+   "precision": "day",
+   "how": "online"
   },
   {
    "url": "https://adraindia.org/anticipatory-heatwave-response-in-2025/",
@@ -120,13 +141,19 @@
    "url": "https://adraindia.org/our-impact/climate-resilience/",
    "label": "reported",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2026-07-16",
+   "precision": "day",
+   "how": "online"
   },
   {
    "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/admt.202301174",
    "label": "Das et al.: MgO–PVDF radiative paint",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2023-09-29",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://aeee.in",
@@ -138,16 +165,19 @@
    "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019JD031972",
    "label": "Chen et al., four roof surfaces, Shenzhen",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2020-07-16",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023GL107382",
    "label": "Ivanovich et al., Geophysical Research Letters, 2024",
    "root": "evidence",
    "org": false,
-   "date": "2024",
-   "precision": "year",
-   "how": "label"
+   "date": "2024-03-21",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://ahmedabadcity.gov.in",
@@ -166,9 +196,9 @@
    "label": "AIDMI (2025), Parametric Insurance and Extreme Heat: SEWA's Experience",
    "root": "financing",
    "org": false,
-   "date": "2025",
-   "precision": "year",
-   "how": "label"
+   "date": "2025-04-09",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://aidmi.org/key-resources-on-extreme-heat-cooling/",
@@ -315,7 +345,10 @@
    "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=54.16.285",
    "label": "Washington RCW54.16.285 heat-alert utility protections",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2015-06-06",
+   "precision": "day",
+   "how": "online"
   },
   {
    "url": "https://app.powerbi.com/view?r=eyJrIjoiZTMyNTVkNDMtZmZmMy00YTI2LWJkYjktYjA4MjJmMDg5ZTg4IiwidCI6ImVhYTZiZTU0LTQ2ODctNDBjNC05ODI3LWMwNDRiZDhlOGQzYyIsImMiOjl9",
@@ -333,19 +366,28 @@
    "url": "https://arc.int/news/government-malawi-receives-insurance-payout-arc-group-following-2024-drought",
    "label": "ARC official release: Malawi traditional and anticipatory drought payments,25July2025",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2025-08-22",
+   "precision": "day",
+   "how": "online"
   },
   {
    "url": "https://archive.cmb.ac.lk/handle/70130/8937",
    "label": "University of Colombo: urban heat island and green space in Colombo District",
    "root": "experience",
-   "org": false
+   "org": false,
+   "date": "2025",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://aruwacapital.com/",
    "label": "Aruwa Capital Management",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2019-08-23",
+   "precision": "day",
+   "how": "online"
   },
   {
    "url": "https://aruwacapital.com/wp-content/uploads/2022/03/Koolboks-Press-Release_vF.pdf",
@@ -408,7 +450,10 @@
    "url": "https://asu.elsevierpure.com/en/publications/are-water-bodies-effective-for-urban-heat-mitigation-evidence-fro/",
    "label": "Yao et al., urban lakes in Nanjing and Guangzhou",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2023",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://atalamritabhiyan.assam.gov.in/information-services/pmjay-package-master",
@@ -420,52 +465,73 @@
    "url": "https://atomberg.com/",
    "label": "Atomberg Technologies - fans",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2013-03-25",
+   "precision": "day",
+   "how": "online"
   },
   {
    "url": "https://azendian.com/",
    "label": "Azendian Solutions",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2016-01-14",
+   "precision": "day",
+   "how": "online"
   },
   {
    "url": "https://bancocentral.tl/publication/instruction/",
    "label": "Banco Central de Timor-Leste",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2026-10-13",
+   "precision": "day",
+   "how": "online"
   },
   {
    "url": "https://baochinhphu.vn/chi-dao-dieu-hanh-cua-chinh-phu-thu-tuong-chinh-phu-ngay-7-3-2025-102250307203146235.htm",
    "label": "Viet Nam Government: March 2025 changes to fund governance",
    "root": "financing",
    "org": false,
-   "date": "2025",
-   "precision": "year",
-   "how": "label"
+   "date": "2025-03-07",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://basc.pnnl.gov/resource-guides/air-conditioning?existing_homes=602",
    "label": "PNNL air-conditioning system guidance",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2025-01-20",
+   "precision": "day",
+   "how": "online"
   },
   {
    "url": "https://basc.pnnl.gov/resource-guides/evaporative-cooling-systems",
    "label": "PNNL/US DOE evaporative-cooling technical guidance",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2019-09-18",
+   "precision": "day",
+   "how": "online"
   },
   {
    "url": "https://basc.pnnl.gov/resource-guides/evaporative-cooling-systems?existing_homes=602",
    "label": "PNNL evaporative cooling suitability",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2021-03-24",
+   "precision": "day",
+   "how": "online"
   },
   {
    "url": "https://basc.pnnl.gov/resource-guides/window-attachments-solar-control-and-energy-efficiency",
    "label": "PNNL guidance: window attachments for solar control",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2023-08-02",
+   "precision": "day",
+   "how": "online"
   },
   {
    "url": "https://basis.ucdavis.edu/publication/paper-after-drought-impact-microinsurance-consumption-smoothing-and-asset-protection",
@@ -486,19 +552,28 @@
    "url": "https://bbp.sg/",
    "label": "Barghest Building Performance (bbp)",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2019-11-09",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://bbp.sg/about-us/",
    "label": "Original company history/profile",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2022-05-27",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://bbp.sg/actis-acquires-leading-asia-cooling-systems-energy-efficiency-provider-bbp/",
    "label": "No complete comparable published price verified; request a dated local installed and lifecycle quote.",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2025-07-24",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://bdrcs.org",
@@ -528,7 +603,10 @@
    "url": "https://beebryte.com/",
    "label": "BeeBryte",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2026-01-19",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://beeindia.gov.in",
@@ -588,7 +666,10 @@
    "url": "https://bimabharosa.irdai.gov.in/Home/CallCenter",
    "label": "IRDAI, Bima Bharosa complaint gateway",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2022-10-02",
+   "precision": "day",
+   "how": "online"
   },
   {
    "url": "https://blog.esewa.com.np/esewa-care-heat-protection-plan",
@@ -603,28 +684,37 @@
    "url": "https://blogs.worldbank.org/en/psd/sovereign-catastrophe-risk-pools-15-years-and-still-more-come",
    "label": "World Bank: sovereign catastrophe risk pools, 15 years on",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2021",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://bluefrontierac.com/",
    "label": "Blue Frontier",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2021-04-09",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://bluefrontierac.com/breakthrough-energy-ventures-leads-20m-series-a-for-blue-frontiers-game-changing-sustainable-energy-storing-air-conditioning/",
    "label": "BlueFrontier funding - original announcement",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2022-08-01",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-025-22787-0",
    "label": "Chea et al., BMC Public Health, 2025",
    "root": "practical",
    "org": false,
-   "date": "2025",
-   "precision": "year",
-   "how": "label"
+   "date": "2025-04-25",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://bmjopen.bmj.com/content/8/5/e018020",
@@ -760,9 +850,9 @@
    "label": "CamboJA News, 2024",
    "root": "experience",
    "org": false,
-   "date": "2024",
-   "precision": "year",
-   "how": "label"
+   "date": "2024-04-11",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://carbonmajors.org/briefing/Carbon-Majors-2024-Data-Update-35466",
@@ -1122,16 +1212,19 @@
    "url": "https://cds.climate.copernicus.eu/datasets/derived-utci-historical?tab=overview",
    "label": "guidance",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2020-01-15",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
    "label": "Copernicus Climate Change Service / ECMWF, 2018: ERA5 hourly data on single levels from 1940 to present",
    "root": "evidence",
    "org": false,
-   "date": "2018",
-   "precision": "year",
-   "how": "label"
+   "date": "2018-06-14",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://ceepr.mit.edu/wp-content/uploads/2021/09/2017-019.pdf",
@@ -1152,25 +1245,37 @@
    "url": "https://cei-africa.com/",
    "label": "CEI Africa",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2022-10-16",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://cei-africa.com/news/cei-africa-invests-up-to-eur-1m-in-inspirafarms-cooling-2/",
    "label": "CEI Africa InspiraFarms",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2024-01-23",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://celsiuspro.squarespace.com/news-1/insuring-vulnerable-people-in-india-against-extreme-heat-events",
    "label": "reported",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2024-04-29",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://centerforfinancialinclusion.org/inclusive-finance-and-extreme-heat-how-small-loans-and-parametric-insurance-can-help-vulnerable-populations-manage-through-deadly-heat-waves",
    "label": "Inclusive finance and extreme heat: how small loans and parametric insurance can help people through deadly heatwaves",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2023-04-27",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://centre.humdata.org/anticipatory-action/",
@@ -1242,13 +1347,19 @@
    "url": "https://citizenmatters.in/city-buzz-five-things-you-must-know-about-the-delhi-heat-action-plan",
    "label": "Citizen Matters",
    "root": "experience",
-   "org": false
+   "org": false,
+   "date": "2025-05-22",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://citizenmatters.in/mcap-climate-change-heat-mumbai/",
    "label": "Citizen Matters",
    "root": "experience",
-   "org": false
+   "org": false,
+   "date": "2024-08-08",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://citizenmatters.in/new-cool-roof-solutions-heat-in-informal-settlements/",
@@ -1260,7 +1371,10 @@
    "url": "https://citizenmatters.in/water-shortage-in-slums-low-income-households-80074",
    "label": "Citizen Matters: water access a daily struggle for Bengaluru’s slum dwellers",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2022-05-18",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://cityperspectives.smu.edu.sg/wcs-2026/pages/research/cooling-singapore-solutions-for-a-heat-resilient-city.html",
@@ -1296,13 +1410,19 @@
    "url": "https://climate.axa/",
    "label": "AXA Climate - parametric heat-risk solutions",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2022-10-19",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://climate.axa/publications/parametric-insurance-closing-climate-protection-gaps/",
    "label": "No complete comparable published price verified; request a dated local installed and lifecycle quote.",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2026-10-12",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://climate.duke.edu/annual-report/items/heat-policy-innovation-hub/",
@@ -1332,13 +1452,19 @@
    "url": "https://climateandhealthalliance.org/cradle-to-grave-the-health-toll-of-fossil-fuels-and-the-imperative-for-a-just-transition-2nd-edition/",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2025-09-15",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://climatepitch.org/",
    "label": "Climate Pitch",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2023-08-31",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://climateworks.org/press-release/statement-on-the-united-nations-secretary-generals-call-to-action-for-extreme-heat/",
@@ -1377,7 +1503,10 @@
    "url": "https://collaborate.princeton.edu/en/publications/comparison-of-the-environmental-energy-and-thermal-comfort-perfor/",
    "label": "Li et al., Singapore radiant/all-air crossover study",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2024",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://commerzventures.com/",
@@ -1407,7 +1536,7 @@
    "org": false,
    "date": "2008",
    "precision": "year",
-   "how": "label"
+   "how": "meta"
   },
   {
    "url": "https://comptroller.nyc.gov/wp-content/uploads/2025/07/SR24-082A.pdf",
@@ -1446,19 +1575,28 @@
    "url": "https://coolcrop.in/",
    "label": "CoolCrop Technologies",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2018-08-24",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://coolfinity.com/",
    "label": "Coolfinity Medical",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2017-11-16",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://coolfinity.com/about-us/",
    "label": "No complete comparable published price verified; request a dated local installed and lifecycle quote.",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2025-10-31",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://cooling-centres.heatwatch.in/about",
@@ -1477,9 +1615,9 @@
    "label": "Centre for Policy Research, 2023",
    "root": "practical",
    "org": false,
-   "date": "2023",
-   "precision": "year",
-   "how": "label"
+   "date": "2023-03-25",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://cprindia.org/journalarticles/impact-of-temperature-on-electricity-demand-evidence-from-delhi-and-indian-states/",
@@ -1494,7 +1632,10 @@
    "url": "https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/",
    "label": "Finding the Finance: a guide to identifying centrally sponsored schemes to fund heat resilience",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2023-12-05",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://cprindia.org/wp-content/uploads/2023/03/Heat-Report_27March-23_Updated-Table.pdf",
@@ -1645,9 +1786,9 @@
    "label": "IDEAS, via Databoks, 2025",
    "root": "experience",
    "org": false,
-   "date": "2025",
-   "precision": "year",
-   "how": "label"
+   "date": "2025-05-20",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://ddma.delhi.gov.in",
@@ -1935,13 +2076,19 @@
    "url": "https://doi.org/10.1001/jamainternmed.2020.1672",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2020-09-01",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1001/jamanetworkopen.2020.6609",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2020-05-28",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1001/jamanetworkopen.2024.1435",
@@ -1953,25 +2100,37 @@
    "url": "https://doi.org/10.1002/2017GL073524",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2017-05-06",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1002/aris.2011.1440450112",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2011-01",
+   "precision": "month",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1002/wcc.13",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2010-02-09",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1002/wcc.665",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2020-06-18",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1002/wcc.904",
@@ -1983,25 +2142,37 @@
    "url": "https://doi.org/10.1007/978-3-030-63131-4",
    "label": "Resilient Urban Futures",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2021",
+   "precision": "year",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1007/978-3-030-98989-7_2",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2022",
+   "precision": "year",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1007/978-3-319-56091-5",
    "label": "Nature-Based Solutions to Climate Change Adaptation in Urban Areas",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2017",
+   "precision": "year",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1007/s00484-017-1407-0",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2017-08-01",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1007/s10311-021-01285-w",
@@ -2013,7 +2184,10 @@
    "url": "https://doi.org/10.1007/s10584-019-02582-8",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2019-12-11",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1007/s10584-021-03117-w",
@@ -2025,7 +2199,10 @@
    "url": "https://doi.org/10.1007/s10584-021-03244-4",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2021-11",
+   "precision": "month",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1007/s10584-024-03748-9",
@@ -2148,7 +2325,10 @@
    "url": "https://doi.org/10.1016/S0140-6736(23)01859-7",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2023-12",
+   "precision": "month",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1016/S0140-6736(24)01822-1",
@@ -2187,7 +2367,10 @@
    "url": "https://doi.org/10.1016/S0140-6736(25)02280-9",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2026-01",
+   "precision": "month",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1016/S0140-6736(26)01779-4",
@@ -2394,7 +2577,10 @@
    "url": "https://doi.org/10.1016/j.erss.2024.103829",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2025-01",
+   "precision": "month",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1016/j.erss.2025.104367",
@@ -2406,7 +2592,10 @@
    "url": "https://doi.org/10.1016/j.gloenvcha.2003.10.001",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2004-07",
+   "precision": "month",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1016/j.gloenvcha.2012.10.008",
@@ -2430,7 +2619,10 @@
    "url": "https://doi.org/10.1016/j.ijdrr.2025.105509",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2025-06",
+   "precision": "month",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1016/j.jacc.2025.08.015",
@@ -2472,7 +2664,10 @@
    "url": "https://doi.org/10.1016/j.jhtm.2022.08.007",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2022-09",
+   "precision": "month",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1016/j.jhydrol.2021.126994",
@@ -2538,7 +2733,10 @@
    "url": "https://doi.org/10.1016/j.lanplh.2025.101295",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2025-08",
+   "precision": "month",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1016/j.measurement.2017.10.065",
@@ -2550,7 +2748,10 @@
    "url": "https://doi.org/10.1016/j.oneear.2021.04.014",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2021-05",
+   "precision": "month",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1016/j.oneear.2022.04.008",
@@ -2574,7 +2775,10 @@
    "url": "https://doi.org/10.1016/j.rser.2010.06.003",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2010-12",
+   "precision": "month",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1016/j.scitotenv.2018.11.483",
@@ -2598,7 +2802,10 @@
    "url": "https://doi.org/10.1016/j.smrv.2018.07.007",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2018-12",
+   "precision": "month",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1016/j.smrv.2024.101915",
@@ -2610,19 +2817,28 @@
    "url": "https://doi.org/10.1017/9781316647554",
    "label": "Urban Planet: Knowledge towards Sustainable Cities",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2018",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://doi.org/10.1017/CBO9781139177245",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2012",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://doi.org/10.1017/sus.2020.13",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2020",
+   "precision": "year",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1029/2020GH000253",
@@ -2670,7 +2886,10 @@
    "url": "https://doi.org/10.1038/d41586-025-02461-6",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2025-08-04",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://doi.org/10.1038/nature18307",
@@ -2682,7 +2901,10 @@
    "url": "https://doi.org/10.1038/nclimate2941",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2016-03-07",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1038/s41467-022-29289-2",
@@ -2724,7 +2946,10 @@
    "url": "https://doi.org/10.1038/s41558-018-0097-x",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2018-03-26",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://doi.org/10.1038/s41558-019-0486-9",
@@ -2766,7 +2991,10 @@
    "url": "https://doi.org/10.1038/s41558-022-01521-3",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2022-11-10",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1038/s41558-022-01589-x",
@@ -2787,13 +3015,19 @@
    "url": "https://doi.org/10.1038/s41558-025-02323-z",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2025-04-07",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://doi.org/10.1038/s41558-025-02440-9",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2025-09",
+   "precision": "month",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1038/s41558-026-02615-y",
@@ -2805,19 +3039,28 @@
    "url": "https://doi.org/10.1038/s41560-020-0641-6",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2020-06-12",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://doi.org/10.1038/s41572-018-0005-8",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2018-06-21",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1038/s41579-024-01026-0",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2024-03-14",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1038/s41586-018-0383-9",
@@ -2829,13 +3072,19 @@
    "url": "https://doi.org/10.1038/s41586-025-09611-w",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2025-09-18",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1038/s41586-026-10237-9",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2026-03-25",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1038/s41591-024-03358-z",
@@ -2901,7 +3150,10 @@
    "url": "https://doi.org/10.1038/s44168-024-00142-0",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2024-07-29",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1038/s44168-025-00209-6",
@@ -2913,7 +3165,10 @@
    "url": "https://doi.org/10.1038/s44333-026-00092-6",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2026-04-01",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1038/s44360-026-00057-6",
@@ -2970,31 +3225,46 @@
    "url": "https://doi.org/10.1088/1748-9326/aa815f",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2017",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://doi.org/10.1088/1748-9326/ab57b3",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2019",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://doi.org/10.1088/1748-9326/ad4b46",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2024",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://doi.org/10.1088/1748-9326/ad7da4",
    "label": "Heat causes large earnings losses for informal-sector workers in India",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2024",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://doi.org/10.1088/2752-5309/ae3ed9",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2026-02-23",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1093/annweh/wxae007",
@@ -3135,7 +3405,10 @@
    "url": "https://doi.org/10.1146/annurev-publhealth-090924-113926",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2026-04-02",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1164/rccm.202204-0657OC",
@@ -3246,7 +3519,10 @@
    "url": "https://doi.org/10.1186/s13705-026-00565-z",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2026-03-13",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1186/s41182-025-00856-9",
@@ -3258,7 +3534,10 @@
    "url": "https://doi.org/10.1201/b16750",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2014",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://doi.org/10.1249/ESM.0000000000000008",
@@ -3282,34 +3561,46 @@
    "url": "https://doi.org/10.1371/journal.pcbi.1012866",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2025-03-31",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1371/journal.pclm.0000129",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2023",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://doi.org/10.1371/journal.pclm.0000773",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2026",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://doi.org/10.1371/journal.pone.0091831",
    "label": "Azhar et al., PLoS ONE, 2014: the 2010 heatwave",
    "root": "experience",
    "org": false,
-   "date": "2014",
-   "precision": "year",
-   "how": "label"
+   "date": "2014-03-14",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1371/journal.pone.0257101",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2021",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://doi.org/10.1503/cmaj.250022",
@@ -3360,7 +3651,10 @@
    "url": "https://doi.org/10.2147/NSS.S134864",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2017-05",
+   "precision": "month",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.2196/59345",
@@ -3378,34 +3672,46 @@
    "url": "https://doi.org/10.3389/fclim.2022.1009234",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2022",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://doi.org/10.3389/fclim.2026.1843008",
    "label": "Frontiers in Climate, 2026 (model study)",
    "root": "practical",
    "org": false,
-   "date": "2026",
-   "precision": "year",
-   "how": "label"
+   "date": "2026-10-14",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.3389/fnins.2019.00336",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2019-04-24",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.3389/fpubh.2022.1086858",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2023-01-26",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.3389/fpubh.2023.1307614",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2023-10-27",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.3390/atmos7120158",
@@ -3417,13 +3723,19 @@
    "url": "https://doi.org/10.3390/ijerph120404354",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2015-04-22",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.3390/ijerph16122081",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2019-06-12",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.3390/ijerph20032106",
@@ -3435,7 +3747,10 @@
    "url": "https://doi.org/10.3390/ijerph20176674",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2023-08-29",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.3390/socsci14050304",
@@ -3462,16 +3777,19 @@
    "url": "https://doi.org/10.48550/arXiv.2306.12807",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2023",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://doi.org/10.5271/sjweh.4336",
    "label": "Scandinavian Journal of Work, Environment & Health, 2026",
    "root": "practical",
    "org": false,
-   "date": "2026",
-   "precision": "year",
-   "how": "label"
+   "date": "2026-10-09",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.5694/mja2.52616",
@@ -3483,7 +3801,10 @@
    "url": "https://doi.org/10.59117/20.500.11822/48798",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2025-10",
+   "precision": "month",
+   "how": "meta"
   },
   {
    "url": "https://doi.org/10.64898/2026.10.23.26366352",
@@ -3498,7 +3819,10 @@
    "url": "https://doi.org/10.7554/eLife.58511",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2020-09-15",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://dole.gov.ph/news/dole-issues-guidelines-on-heat-related-illness-compensation-during-el-nino/",
@@ -3516,7 +3840,10 @@
    "url": "https://donortracker.org/publications/budget-cuts-tracker",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2026-06-17",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://dop.go.th/th/faq/view=967",
@@ -3537,7 +3864,10 @@
    "url": "https://dsp.tecnalia.com/items/169158c1-41a1-48a8-8856-6437e1f45b63",
    "label": "Acero et al., high-rise urban geometry, Singapore",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2021-03",
+   "precision": "month",
+   "how": "meta"
   },
   {
    "url": "https://dst.gov.in",
@@ -3561,7 +3891,10 @@
    "url": "https://dulas.org.uk/solar-refrigeration-for-hiv-aids-programmes-in-nigeriasolar/",
    "label": "Dulas",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2020-09-13",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://e360.yale.edu/digest/april-2023-heat-wave-india-thailand-climate-change",
@@ -3591,34 +3924,46 @@
    "url": "https://earthonfoundation.org/greenovation-urban-climate-resilience-challenge/",
    "label": "EarthON Foundation",
    "root": "institutions",
-   "org": false
+   "org": false,
+   "date": "2026-04-16",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://earthshotprize.org/",
    "label": "The Earthshot Prize",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2026-06-19",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://earthshotprize.org/news/five-winners-of-the-2024-earthshot-prize-are-unveiled-in-cape-town/",
    "label": "Earthshot 2024 prize awards",
    "root": "financing",
    "org": false,
-   "date": "2024",
-   "precision": "year",
-   "how": "label"
+   "date": "2024-11-06",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://earthshotprize.org/winners-finalists/mahila-housing-trust/",
    "label": "Mahila Housing Trust programme profile",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2026-09-10",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://east.vc/news/insights/exploring-southeast-asias-logistics-horizon",
    "label": "No complete comparable published price verified; request a dated local installed and lifecycle quote.",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2023-11-20",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://ecc.gov.ph/self-employed-sss-members-now-covered-under-the-ec-program/",
@@ -3630,7 +3975,10 @@
    "url": "https://eco-business.com/news/climate-stress-is-trampling-productivity-in-indias-vulnerable-livestock-sector",
    "label": "Eco-Business: climate stress is trampling productivity in India’s livestock sector",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2023-09-25",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://economictimes.indiatimes.com/industry/energy/power/india-is-blocking-a-cheap-way-to-beat-the-heat-wave-one-tweak-in-ac-can-lower-costs/articleshow/130743913.cms",
@@ -3693,25 +4041,37 @@
    "url": "https://efficiencyforaccess.org/publications/promethean-power-transforming-indias-rural-dairy-sector-through-smart-decentralised-cooling/",
    "label": "Efficiency for Access Promethean research award",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2023-11-09",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://efficiencyforaccess.org/rd-fund/about-the-rd-fund/",
    "label": "Efficiency for Access Research and Development Fund",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2023-10-02",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://efficiencyforaccess.org/updates/global-leap-awards-announces-winners-and-finalists-of-the-2022-off-grid-cold-chain-challenge/",
    "label": "DOEN Foundation",
    "root": "institutions",
-   "org": false
+   "org": false,
+   "date": "2023-03-01",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://efficiencyforaccess.org/updates/off-grid-fan-quality-testing-in-pakistan/",
    "label": "Efficiency for Access/CLASP Pakistan fan testing",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2019-08-05",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://efficiencyforaccess.org/wp-content/uploads/2022-Buyers-Guide-for-Cold-Chain-Solutions-v3.1_2023-04-05-144524_akfy.pdf",
@@ -3780,13 +4140,19 @@
    "url": "https://en.prothomalo.com/environment/climate-change/qq8g2g85o8",
    "label": "Bangladesh, 3 other South Asian countries launch new initiative to tackle extreme heat",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2026-10-08",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://en.prothomalo.com/environment/lsjp2c74gu",
    "label": "BMD heatwave bands, as reported by Prothom Alo",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2024-04-20",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://energy-base.org/wp-content/uploads/2020/03/10.CaaS_Instrument-Analysis-Paper_FINAL_09.17.19.pdf",
@@ -3802,9 +4168,9 @@
    "label": "Prayas Energy Group (2026), temperature-history analysis of an unnamed product",
    "root": "financing",
    "org": false,
-   "date": "2026",
-   "precision": "year",
-   "how": "label"
+   "date": "2026-04-08",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://english.newsfirst.lk/2024/03/04/heat-advisory-issued-by-sri-lanka-s-met-dept",
@@ -3828,7 +4194,10 @@
    "url": "https://english.seoul.go.kr/climate-shelters-to-keep-you-safe-during-freezes-and-heat-waves/",
    "label": "Seoul Metropolitan Government: climate shelters",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2024-03-04",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://epbcpublicportal.environment.gov.au/all-referrals/project-referral-summary/?id=9ec043ea-b73d-eb11-9650-005056842ad1",
@@ -3846,7 +4215,10 @@
    "url": "https://epicorebiosystems.com/",
    "label": "Epicore Biosystems",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2025-03-27",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://epubs.icar.org.in/index.php/IJA/article/download/174495/66469/531438",
@@ -3873,7 +4245,7 @@
    "org": false,
    "date": "2016",
    "precision": "year",
-   "how": "label"
+   "how": "meta"
   },
   {
    "url": "https://equator.vc/",
@@ -3897,7 +4269,10 @@
    "url": "https://eudl.eu/pdf/10.4108/eai.16-5-2020.2304098",
    "label": "Lipare et al.: intermittent-pumping roof pond",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2021",
+   "precision": "year",
+   "how": "crossref"
   },
   {
    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52025PC0081",
@@ -3942,7 +4317,10 @@
    "url": "https://expert.ubd.edu.bn/en/publications/field-measurement-on-the-model-of-green-facade-systems-and-its-ef-2/",
    "label": "Widiastuti et al., green-facade scale-model measurements",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2020",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://extranet.who.int/e-spar/",
@@ -4032,7 +4410,10 @@
    "url": "https://forestdeclaration.org/about/new-york-declaration-on-forests/",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2022-03-18",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://foundation.halton.com/",
@@ -4053,7 +4434,7 @@
    "org": false,
    "date": "2012",
    "precision": "year",
-   "how": "label"
+   "how": "meta"
   },
   {
    "url": "https://gbpn.org/news-gbpn-sharpens-its-focus-decarbonising-housing-india-and-south-east-asia",
@@ -4119,7 +4500,10 @@
    "url": "https://globalcoolingprize.org/grand-winners-press-release/",
    "label": "Global Cooling Prize winners",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2021-04-28",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://globalfundcommunityfoundations.org/what-we-do/grants/grants-awarded/",
@@ -4140,7 +4524,10 @@
    "url": "https://gmanetwork.com/news/scitech/weather/939320/pagasa-3-areas-under-danger-level-heat-index-on-march-15-2025/story",
    "label": "PAGASA heat index categories, as reported by GMA News",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2025-03-14",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://go-api.ifrc.org/api/downloadfile/91752/EAP2024BD07_MDRBD038",
@@ -4158,7 +4545,10 @@
    "url": "https://green-delta.com/heat-index-livestock-insurance-protecting-bangladeshs-livestock-farmers/",
    "label": "Green Delta Insurance",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2025-09-15",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://green-delta.com/wp-content/uploads/2026/03/Annual-Report-2025.pdf",
@@ -4174,9 +4564,9 @@
    "label": "Saudi Ministry of Health figures, reported by Gulf News, 2024: 1,301 deaths during Hajj",
    "root": "evidence",
    "org": false,
-   "date": "2024",
-   "precision": "year",
-   "how": "label"
+   "date": "2024-06-23",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://gush.earth/",
@@ -4210,15 +4600,18 @@
    "label": "Bakhtiar and Karim, IFPRI, 2025: extreme heat, schooling and child labour in rural Bangladesh",
    "root": "evidence",
    "org": false,
-   "date": "2025",
-   "precision": "year",
-   "how": "label"
+   "date": "2025-12-31",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://hdl.handle.net/10779/exe.31889365.v1",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2025",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://healthserve.org.sg/casework-social-services/",
@@ -4236,25 +4629,37 @@
    "url": "https://heathealth.info/about-us/",
    "label": "About Us",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2020-07-30",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://heathealth.info/at-work/",
    "label": "Heat at work: the first joint global guidance on workplace heat stress",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2020-07-27",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://heathealth.info/heat-action-plans-and-case-studies/",
    "label": "Heat action plans and case studies, including Indian cities",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2020-08-13",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://heathealth.info/in-the-city/",
    "label": "Heat in the city: guidance and resources for urban heat",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2020-07-20",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://heathealth.info/news/south-asia-hub-launched/",
@@ -4269,7 +4674,10 @@
    "url": "https://heathealth.info/projects/",
    "label": "Projects and Studies",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2020-07-30",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://heathealth.info/resource-library/",
@@ -4557,22 +4965,28 @@
    "url": "https://heranow.org/hera-and-seadrif-partner-to-accelerate-solutions-to-extreme-heat-across-southeast-asia/",
    "label": "SEADRIF Insurance Company",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2026-10-09",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://heranow.org/hera-launches-the-worlds-first-heat-pregnancy-insurance-to-protect-expectant-mothers-from-extreme-heat/",
    "label": "HERA (23 June 2026), Materna announcement; first season planned 2027",
    "root": "financing",
    "org": false,
-   "date": "2026",
-   "precision": "year",
-   "how": "label"
+   "date": "2026-06-23",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://heranow.org/our-work/",
    "label": "HERA, Our Work",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2026-01-14",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://heranow.org/resources/as-extreme-heat-threats-grow-can-heat-insurance-offer-protection/",
@@ -4614,7 +5028,10 @@
    "url": "https://hkh.icimod.org/hi-wise/",
    "label": "ICIMOD HI-WISE assessment",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2023-06-19",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://hluce.org/new-lucesea-grants-address-growing-impact-climate-change-and-importance-community-histories/",
@@ -4662,7 +5079,10 @@
    "url": "https://humanityinsured.org/stories/mahila-housing-trust/",
    "label": "Humanity Insured: MHT heat coverage support",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2025-06-04",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://humanityinsured.org/wp-content/uploads/2025/12/Building-Resilience-through-Protection-Humanity-Insured-Learning-Report-2025.pdf",
@@ -4699,9 +5119,9 @@
    "label": "Jones et al., World Bank Policy Research Working Paper 10960, 2024",
    "root": "practical",
    "org": false,
-   "date": "2024",
-   "precision": "year",
-   "how": "label"
+   "date": "2024-02-02",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://idrc-crdi.ca",
@@ -4743,7 +5163,10 @@
    "url": "https://iibec.org/publication-post/testing-field-aged-tpo-roofs-demonstrating-real-world-performance/",
    "label": "Keegan, Taylor and Kirby, field-aged TPO roofs",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2020-07-11",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://iieta.org/node/19733",
@@ -4794,7 +5217,10 @@
    "url": "https://ijbes.utm.my/index.php/ijbes/article/view/388",
    "label": "Leng et al.: Field Investigation of Indoor Thermal Performance in Malaysia Air-Welled Terraced House",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2019",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://ilostat.ilo.org/topics/wages/",
@@ -4818,19 +5244,25 @@
    "org": false,
    "date": "2020",
    "precision": "year",
-   "how": "label"
+   "how": "meta"
   },
   {
    "url": "https://impactfund.dk/",
    "label": "Impact Fund Denmark (formerly IFU)",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2025-05-23",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://impactfund.dk/news/smart-joules-receives-the-first-investment-made-under-a-new-danish-climate-finance-initiative-for-india/",
    "label": "Impact Fund Denmark Smart Joules climate finance",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2024-02-21",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://impactfund.dk/wp-content/uploads/2024/05/final-interactive-ar-2023.pdf",
@@ -4938,16 +5370,19 @@
    "url": "https://indianjournals.com/article/ijaeb-14-3-024",
    "label": "Sentimenla, paddy-straw mulch and FYM, Nagaland",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2021",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://inp.polri.go.id/artikel/jakarta-governor-urges-vigilance-as-extreme-heat-grips-capital",
    "label": "Indonesian National Police news, 2026",
    "root": "experience",
    "org": false,
-   "date": "2026",
-   "precision": "year",
-   "how": "label"
+   "date": "2026-03-16",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://inrisklabs.com/solutions/livestock",
@@ -4989,7 +5424,10 @@
    "url": "https://insuresilience-solutions-fund.org/our-work/premium-financing-support/",
    "label": "InsuResilience Solutions Fund (ISF)",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2025-01-28",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://insuresilience-solutions-fund.org/wp-content/uploads/2025/02/2023_Sri-Lanka-Report.pdf",
@@ -5022,7 +5460,10 @@
    "url": "https://iopscience.iop.org/article/10.1088/2515-7620/ab5e21",
    "label": "Groundwater extraction may drown mega-delta",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2020-01-01",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://ippbonline.bank.in/web/ippb/direct-benefit-transfers",
@@ -5103,13 +5544,19 @@
    "url": "https://jfde.eu/index.php/jfde/article/view/183",
    "label": "Nguyen et al., green facade on Hanoi tube house",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2019-08-05",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://jfde.eu/index.php/jfde/article/view/205",
    "label": "Vasquez et al.: four Santiago green screen facades",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2020-12-19",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://jnnjhansi.com/docs/Jhansi%20Heat%20Wave.pdf",
@@ -5124,58 +5571,64 @@
    "url": "https://jouagr.qu.edu.iq/article_167504.html",
    "label": "Al-Lame and Al-Saadoon, soil mulch and irrigation, Iraq",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2020",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://journal.agrimetassociation.org/index.php/jam/article/view/25",
    "label": "Khapte et al., protected cultivation in Jodhpur, 2021",
    "root": "practical",
    "org": false,
-   "date": "2021",
-   "precision": "year",
-   "how": "label"
+   "date": "2021-09-01",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://journal.agrimetassociation.org/index.php/jam/article/view/2904",
    "label": "Rani et al., French bean shade net and polyethylene, Punjab, 2025",
    "root": "practical",
    "org": false,
-   "date": "2025",
-   "precision": "year",
-   "how": "label"
+   "date": "2025-12-01",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://journal.agrimetassociation.org/index.php/jam/article/view/3061",
    "label": "Sultana et al., mulch and soil temperature, Assam, 2026",
    "root": "practical",
    "org": false,
-   "date": "2026",
-   "precision": "year",
-   "how": "label"
+   "date": "2026-06-04",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://journals.plos.org/climate/article?id=10.1371/journal.pclm.0000618",
    "label": "Vasilakopoulou et al., PLOS Climate, 2025: cumulative urban heat and learning, a systematic review",
    "root": "evidence",
    "org": false,
-   "date": "2025",
-   "precision": "year",
-   "how": "label"
+   "date": "2025-07-30",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0003629",
    "label": "PLOS Global Public Health, 2024",
    "root": "evidence",
    "org": false,
-   "date": "2024",
-   "precision": "year",
-   "how": "label"
+   "date": "2024-09-03",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0329557",
    "label": "Exploring outdoor workers’ knowledge, attitudes, practices, and perceived risks of heatwaves in Nepal",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2025-08-13",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://journals.sagepub.com/doi/10.1177/00219096241230486",
@@ -5187,7 +5640,10 @@
    "url": "https://jurnal.ubl.ac.id/index.php/ja/article/view/3389",
    "label": "Suryandono et al., aluminium mini-louvers experiment",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2024-02-09",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://kathmandupost.com/money/2026/07/30/extreme-heat-threatens-nepal-s-economy-as-warming-accelerates",
@@ -5325,7 +5781,7 @@
    "org": false,
    "date": "2023",
    "precision": "year",
-   "how": "label"
+   "how": "meta"
   },
   {
    "url": "https://libird.org",
@@ -5355,55 +5811,64 @@
    "url": "https://link.springer.com/article/10.1007/s00484-018-1562-y",
    "label": "Zhao et al.: cooling intervention in construction workers",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2018-05-25",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://link.springer.com/article/10.1007/s00484-025-02913-8",
    "label": "Phosri et al., International Journal of Biometeorology, 2025: air pollution, temperature and mortality in Thailand",
    "root": "evidence",
    "org": false,
-   "date": "2025",
-   "precision": "year",
-   "how": "label"
+   "date": "2025-04-08",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://link.springer.com/article/10.1007/s00484-025-03063-7",
    "label": "McManus et al., Shade matters, 2026",
    "root": "practical",
    "org": false,
-   "date": "2026",
-   "precision": "year",
-   "how": "label"
+   "date": "2026-01",
+   "precision": "month",
+   "how": "crossref"
   },
   {
    "url": "https://link.springer.com/article/10.1007/s13753-026-00778-y",
    "label": "International Journal of Disaster Risk Science, 2026",
    "root": "evidence",
    "org": false,
-   "date": "2026",
-   "precision": "year",
-   "how": "label"
+   "date": "2026-11-03",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://link.springer.com/article/10.1007/s40095-019-0308-x",
    "label": "Chandra et al., roof insulation experiment, Sri Lanka",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2019-06-15",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://link.springer.com/article/10.1007/s43937-026-00196-7",
    "label": "Muna et al., Bangladesh clinic false-ceiling modelling",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2026-10-24",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://link.springer.com/article/10.1007/s44447-025-00051-6",
    "label": "Haque et al., organic and synthetic mulch, coastal Bangladesh, 2025",
    "root": "practical",
    "org": false,
-   "date": "2025",
-   "precision": "year",
-   "how": "label"
+   "date": "2025-11-10",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://link.springer.com/article/10.1186/s12889-025-21597-8",
@@ -5416,9 +5881,9 @@
    "label": "Chea et al., BMC Public Health, 2025",
    "root": "evidence",
    "org": false,
-   "date": "2025",
-   "precision": "year",
-   "how": "label"
+   "date": "2025-04-25",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://link.springer.com/article/10.1186/s12913-026-15146-1",
@@ -5452,9 +5917,9 @@
    "label": "Malaria Journal, 2021: roof colour and indoor temperature in rural Gambia",
    "root": "experience",
    "org": false,
-   "date": "2021",
-   "precision": "year",
-   "how": "label"
+   "date": "2021-10-29",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://managenergy.ec.europa.eu/managenergy-discover/managenergy-news/ipcc-opens-expert-review-special-report-climate-change-and-cities-2026-06-03_en",
@@ -5550,16 +6015,19 @@
    "url": "https://medicine.nus.edu.sg/news/heat-stress-causes-lower-fertility-productivity-and-reduced-cognitive-capacity-project-heatsafe/",
    "label": "Heat stress causes lower fertility, productivity and reduced cognitive capacity: Project HeatSafe",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2024-03-19",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://medicine.nus.edu.sg/news/medications-for-chronic-diseases-affect-the-bodys-ability-to-regulate-body-temperature-keep-cool",
    "label": "Wee and Lee, Pharmacological Reviews (summary by NUS Medicine, 2023)",
    "root": "evidence",
    "org": false,
-   "date": "2023",
-   "precision": "year",
-   "how": "label"
+   "date": "2023-08-15",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://medicine.nus.edu.sg/newsletters/issue54/dossier/nus-centre-designated-southeast-asia-hub-for-global-heat-health-info-exchange",
@@ -5580,7 +6048,10 @@
    "url": "https://meetingorganizer.copernicus.org/ICUC12/ICUC12-950.html",
    "label": "Crank et al., Bishan park vegetation modelling, ICUC12-950",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2025-05-21",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://megbocwwb.gov.in/faqs",
@@ -5598,13 +6069,19 @@
    "url": "https://melaventures.in/",
    "label": "Mela Ventures",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2025-09-17",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://melaventures.in/press-release/leading-cold-chain-solution-provider-tessol-raises-inr-7-5-cr-from-mela-ventures/",
    "label": "Mela Tessol funding",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2022-06-15",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://meteo.gov.lk",
@@ -5658,7 +6135,10 @@
    "url": "https://modernniagara.com/",
    "label": "Modern Niagara",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2019-04-11",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://modmr.gov.bd/pages/laws",
@@ -6267,13 +6747,19 @@
    "url": "https://nepal.peopleinneed.net/en/from-forecast-to-early-action-how-the-rain-programme-acted-on-rising-heat-13033gp",
    "label": "reported",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2025-07-30",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://nepal.peopleinneed.net/en/madhesh-2025-climate-disasters-early-warnings-and-local-action-13352gp",
    "label": "reported",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2026-03-16",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=91008J1A.TXT",
@@ -6289,9 +6775,9 @@
    "label": "Heat Standard Across Different Workloads in Nepal, 2024",
    "root": "experience",
    "org": false,
-   "date": "2024",
-   "precision": "year",
-   "how": "label"
+   "date": "2024-12-19",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://news.asu.edu/20200505-discoveries-street-smarts-required-heat-mitigation",
@@ -6465,7 +6951,7 @@
    "org": false,
    "date": "2017",
    "precision": "year",
-   "how": "label"
+   "how": "meta"
   },
   {
    "url": "https://ntrs.nasa.gov/citations/20180003614",
@@ -6480,7 +6966,10 @@
    "url": "https://ntut.elsevierpure.com/en/publications/field-temperature-performances-of-in-use-permeable-sidewalks-and-/",
    "label": "Chen et al., in-use permeable sidewalk, Taipei",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2024",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://nuapada.odisha.gov.in/sites/default/files/2023-07/2023041574_1.pdf",
@@ -6558,40 +7047,55 @@
    "url": "https://onebillionresilient.org/project/chief-heat-officers/",
    "label": "Climate Resilience Center Chief Heat Officer programme",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2022-01-07",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://onebillionresilient.org/project/extreme-heat-protection-initiative/",
    "label": "Extreme Heat Protection Initiative",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2024-07-01",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://onlinelibrary.wiley.com/doi/10.1002/hec.4590",
    "label": "Temperature and non-communicable diseases: Evidence from Indonesia's primary health care system",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2022-08-21",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://onlinelibrary.wiley.com/doi/10.1111/deve.70013",
    "label": "Endo, The Developing Economies, 2026",
    "root": "experience",
    "org": false,
-   "date": "2026",
-   "precision": "year",
-   "how": "label"
+   "date": "2026-01-22",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://onlinelibrary.wiley.com/doi/10.1155/2020/8854156",
    "label": "Shan et al.: bamboo-steel composite walls",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2020-01",
+   "precision": "month",
+   "how": "crossref"
   },
   {
    "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/ajim.23672",
    "label": "Tetzlaff et al.: personal cooling-garment systematic review",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2024-11-05",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://open-meteo.com/",
@@ -6616,9 +7120,9 @@
    "label": "Global Commission on Adaptation, 2019",
    "root": "practical",
    "org": false,
-   "date": "2019",
-   "precision": "year",
-   "how": "label"
+   "date": "2019-09-10",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://openknowledge.worldbank.org/entities/publication/d8ba6f53-d778-47d2-b4a6-37dff7db2466/full",
@@ -6633,7 +7137,10 @@
    "url": "https://openknowledge.worldbank.org/handle/10986/36248",
    "label": "Groundswell Part 2: Acting on Internal Climate Migration",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2021-09-13",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://orbit.dtu.dk/en/publications/rising-temperatures-erode-human-sleep-globally",
@@ -6642,7 +7149,7 @@
    "org": false,
    "date": "2022",
    "precision": "year",
-   "how": "label"
+   "how": "meta"
   },
   {
    "url": "https://orbit.dtu.dk/en/publications/rising-temperatures-erode-human-sleep-globally/",
@@ -6651,7 +7158,7 @@
    "org": false,
    "date": "2022",
    "precision": "year",
-   "how": "label"
+   "how": "meta"
   },
   {
    "url": "https://orca.cardiff.ac.uk/id/eprint/186594/1/sustainability-18-03876.pdf",
@@ -6693,13 +7200,19 @@
    "url": "https://par.nsf.gov/biblio/10230332-grades-shade",
    "label": "Middel et al., 50 Grades of Shade, Bulletin of the American Meteorological Society",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2021",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://par.nsf.gov/biblio/10642926",
    "label": "US National Science Foundation public access repository",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2025",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://paxel.co/id/home",
@@ -6723,13 +7236,19 @@
    "url": "https://periodical.uthm.edu.my/index.php/rtcebe/article/view/5894",
    "label": "Lawin and Zakaria, small-scale roof field study",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2024-01-09",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://ph02.tci-thaijo.org/index.php/ET/article/view/257087",
    "label": "Yamtraipat et al., Thai AC-plus-fan experiment2024",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2024-12-25",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://philanthropyasiaalliance.com",
@@ -6768,13 +7287,19 @@
    "url": "https://pidg.org/",
    "label": "PIDG / InfraCo (formerly InfraCo Africa)",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2025-02-20",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://pidg.org/portfolio/inspirafarms-cooling/",
    "label": "PIDG equity record",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2023-11-30",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10308303/",
@@ -6783,7 +7308,7 @@
    "org": false,
    "date": "2023",
    "precision": "year",
-   "how": "label"
+   "how": "meta"
   },
   {
    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10329802/",
@@ -6792,7 +7317,7 @@
    "org": false,
    "date": "2023",
    "precision": "year",
-   "how": "label"
+   "how": "meta"
   },
   {
    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10730327/",
@@ -6906,7 +7431,10 @@
    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8807448/",
    "label": "Dzyuban et al., Public transit infrastructure and heat perceptions",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2021",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://pmfby.gov.in/",
@@ -6933,7 +7461,10 @@
    "url": "https://portal.fis.tum.de/en/publications/impact-of-solar-insulation-film-on-the-cooling-load-of-an-office-/",
    "label": "Pawar et al., Singapore window-film simulation",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2019",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://portal.mcgm.gov.in",
@@ -6945,7 +7476,10 @@
    "url": "https://portal.research.lu.se/en/publications/rest-shade-hydration-and-hygiene-for-the-prevention-of-kidney-inj/",
    "label": "Hansson et al. rest-shade-hydration-hygiene cohort",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2025",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://practicalaction.org",
@@ -6957,7 +7491,10 @@
    "url": "https://practicalaction.org/news-stories/living-in-a-hotter-world-a-mission-to-find-hidden-urban-hotspots/",
    "label": "Practical Action: Living in a Hotter World",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2026-07-31",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://practicalaction.org/news-stories/zurich-climate-resilience-alliance-to-expand-focus-on-destructive-extreme-heat/",
@@ -7011,16 +7548,19 @@
    "url": "https://promethean-power.com/about-us/",
    "label": "Promethean Power Systems",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2024-11-08",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://proof.csmonitor.com/Environment/2019/0703/When-a-city-of-canals-floods-what-happens-to-waterway-shantytowns",
    "label": "Christian Science Monitor, 2019: when a city of canals floods, what happens to waterway shantytowns?",
    "root": "practical",
    "org": false,
-   "date": "2019",
-   "precision": "year",
-   "how": "label"
+   "date": "2019-07-03",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://psecommunity.org/wp-content/plugins/wpor/includes/file/2303/LAPSE-2023.22785-1v1.pdf",
@@ -7039,9 +7579,9 @@
    "label": "Vecellio et al., Journal of Applied Physiology, 2022, summarised by Penn State",
    "root": "evidence",
    "org": false,
-   "date": "2022",
-   "precision": "year",
-   "how": "label"
+   "date": "2022-03-01",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://public.wmo.int/news/media-centre/extreme-heat-and-rainfall-glacier-loss-and-record-ocean-heat-impact-asia-2025",
@@ -7057,9 +7597,9 @@
    "label": "World Meteorological Organization, 2022: climate change made the heatwave 30 times more likely",
    "root": "evidence",
    "org": false,
-   "date": "2022",
-   "precision": "year",
-   "how": "label"
+   "date": "2022-04-29",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://publications-cnrc.canada.ca/eng/view/ft/?id=c5dc2be4-536d-4a2a-8fdc-3a6203cad9e5",
@@ -7074,7 +7614,7 @@
    "org": false,
    "date": "2021",
    "precision": "year",
-   "how": "label"
+   "how": "meta"
   },
   {
    "url": "https://pubmed.ncbi.nlm.nih.gov/18668404/",
@@ -7323,7 +7863,10 @@
    "url": "https://py.org.pk/publication/pdm-heatwave-jacobabad-2026",
    "label": "evaluated",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2026-07-01",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://quezoncity.gov.ph",
@@ -7335,7 +7878,10 @@
    "url": "https://quezoncity.gov.ph/qc-beefs-up-action-vs-extreme-heat-designates-chief-heat-action-officers/",
    "label": "Quezon City Government",
    "root": "experience",
-   "org": false
+   "org": false,
+   "date": "2026-06-03",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://quezoncity.gov.ph/wp-content/uploads/2026/10/CONTRACT-GS-2609036.pdf",
@@ -7398,7 +7944,10 @@
    "url": "https://research-portal.uu.nl/en/publications/rocks-and-walls-biodiversity-and-temperature-regulation-of-natura/",
    "label": "Hecht et al.: existing Singapore vertical greenery field research",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2025",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://research.dial.uclouvain.be/bitstreams/831fbd10-e3bc-4823-bd97-361b400aacca/download",
@@ -7410,37 +7959,55 @@
    "url": "https://research.dial.uclouvain.be/entities/publication/8792b0ab-c5ce-4be2-bd7e-33b3e6ed3b59",
    "label": "Hema et al.: compressed-earth wall experiment",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2021",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://research.polyu.edu.hk/en/publications/climate-change-and-tourism-demand-risks-for-extreme-heat/",
    "label": "Hong Kong Polytechnic University: climate change and tourism demand risks from extreme heat",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2024",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://research.tcu.ac.jp/en/publications/affordable-retrofitting-methods-to-achieve-thermal-comfort-for-a-/",
    "label": "Tuck et al.: Affordable retrofitting of Malaysian terrace house, Tokyo City University",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2020",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://research.uaeu.ac.ae/en/publications/thermal-performance-evaluation-of-window-shutters-for-residential/",
    "label": "Abdullah et al., Abu Dhabi window shutter simulation",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2022",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://research.unipg.it/handle/11391/1474606",
    "label": "Rossi et al., solar awning experiment",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2024-11-22",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://research.wur.nl/en/publications/chasing-cool-unveiling-the-influence-of-green-blue-features-on-ou/",
    "label": "Manavvi and Milosevic, Chasing cool, Roorkee",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2025",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://researchportal.hkust.edu.hk/en/publications/evaluating-energy-and-microclimate-impacts-of-passive-and-high-ef/",
@@ -7461,7 +8028,7 @@
    "org": false,
    "date": "2025",
    "precision": "year",
-   "how": "label"
+   "how": "meta"
   },
   {
    "url": "https://researchprofiles.canberra.edu.au/en/publications/heat-related-health-impacts-in-asean-countries-a-scoping-review/",
@@ -7470,7 +8037,7 @@
    "org": false,
    "date": "2026",
    "precision": "year",
-   "how": "label"
+   "how": "meta"
   },
   {
    "url": "https://resilience360.ai/",
@@ -7605,19 +8172,28 @@
    "url": "https://scholar.ui.ac.id/en/publications/thermal-performance-of-bio-based-phase-change-material-encapsulat/",
    "label": "Universitas Indonesia: coconut-oil PCM bamboo wall experiment",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2025",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://scholars.aku.edu/en/publications/impact-of-community-education-on-heat-related-health-outcomes-and/",
    "label": "Razzak et al., Karachi community education cRCT",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2022",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://scholars.cityu.edu.hk/en/publications/harnessing-street-shade-to-mitigate-heat-stress-an-in-situ-parall/",
    "label": "Xu et al., street shade in Singapore",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2025",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://scholars.duke.edu/publication/1572526",
@@ -7632,7 +8208,10 @@
    "url": "https://scholars.mssm.edu/en/publications/impact-of-heatwaves-on-all-cause-mortality-in-india-a-comprehensi/",
    "label": "de Bont et al., Indian multi-city heat mortality study",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2024",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://sdg.iisd.org/news/kigali-amendment-enters-into-force-bringing-promise-of-reduced-global-warming/",
@@ -7644,7 +8223,10 @@
    "url": "https://sdgs.nesdc.go.th/en/urban-heat-transforming-bangkok-into-a-cooler-city-for-sustainable-heat-management/",
    "label": "Thailand NESDC Bangkok heat action planning",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2025-04-18",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://sdma.kerala.gov.in",
@@ -7656,7 +8238,10 @@
    "url": "https://sdma.kerala.gov.in/heat-actions/",
    "label": "Government of Kerala / KSDMA / DDMAs",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2026-04-27",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://sdma.kerala.gov.in/wp-content/uploads/2020/07/Heat-Action-Plan-Kerala.pdf",
@@ -7696,45 +8281,45 @@
    "label": "SEADRIF / HERA (9 October 2026), Extreme Heat Insurance Accelerator",
    "root": "financing",
    "org": false,
-   "date": "2026",
-   "precision": "year",
-   "how": "label"
+   "date": "2026-10-09",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://seadrif.org/news/seadrif-and-fao-launch-southeast-asias-first-anticipatory-drought-insurance-pilot-in-lao-pdr/",
    "label": "SEADRIF–FAO anticipatory drought sandbox, 27 May 2026",
    "root": "financing",
    "org": false,
-   "date": "2026",
-   "precision": "year",
-   "how": "label"
+   "date": "2026-05-26",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://seadrif.org/news/seadrif-delivers-us1-14-million-in-payouts-to-lao-pdr-government-and-wfp-in-five-business-days-following-heavy-rainfall-and-widespread-flooding/",
    "label": "SEADRIF: separate government and WFP payouts, 1 September 2026",
    "root": "financing",
    "org": false,
-   "date": "2026",
-   "precision": "year",
-   "how": "label"
+   "date": "2026-09-01",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://seadrif.org/news/seadrif-insurance-company-makes-payout-of-us2-million-to-support-lao-pdr-government/",
    "label": "SEADRIF (3 September 2025): Lao PDR payout",
    "root": "financing",
    "org": false,
-   "date": "2025",
-   "precision": "year",
-   "how": "label"
+   "date": "2025-09-03",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://seadrif.org/news/seadrif-releases-additional-financing-as-lao-pdr-flood-impacts-grow-taking-total-payouts-to-us2-28-million/",
    "label": "SEADRIF: additional government/WFP joint payouts, 4 September 2026",
    "root": "financing",
    "org": false,
-   "date": "2026",
-   "precision": "year",
-   "how": "label"
+   "date": "2026-09-04",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://seadrif.org/wp-content/uploads/2025/11/IDF_Case_Study_SEADRIF_Laos_2025.pdf",
@@ -7761,25 +8346,37 @@
    "url": "https://selcofoundation.org/careers/terms-of-reference-tor-landscape-study-of-decentralized-cold-storages-in-india-and-assessment-of-deployed-decentralized-agri-cold-storages/",
    "label": "SELCO decentralized agri cold storage assessment terms of reference",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2023-02-28",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://selcofoundation.org/empowering-primary-care-through-innovation-a-climate-responsive-phc-model-in-karnataka/",
    "label": "SELCO climate-responsive Aradeshanahalli PHC",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2025-07-02",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://selcofoundation.org/ground-stories-in-karnataka/",
    "label": "SELCO Energy for Health Karnataka stories",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2025-07-02",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://serdp-estcp.mil/projects/details/4fe69e7b-7412-4579-b761-3c514f4a0e6f",
    "label": "US ESTCP radiative-film demonstration project",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2024-10-07",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://set-alliance.org/wp-content/uploads/2024/06/CaaS-Smart-Joules-Case-Study.pdf",
@@ -7800,19 +8397,28 @@
    "url": "https://shellfoundation.org/",
    "label": "Shell Foundation",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2024-06-25",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://shellfoundation.org/insight-report/the-cooling-dividend/",
    "label": "Shell Foundation cooling dividend",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2026-09-23",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://shellfoundation.org/news/keep-it-cool-wins-earthshot-prize/",
    "label": "Shell Foundation KeepITCool support",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2024-11-08",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://shop.symphonylimited.com/",
@@ -7884,13 +8490,19 @@
    "url": "https://sokofresh.co.ke/",
    "label": "SokoFresh",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2025-04-15",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://sokofresh.co.ke/sokofresh-home/about-us/",
    "label": "Original company history/profile",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2025-05-04",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://southasia.iclei.org/news/extreme-heat-new-knowledge-products-highlight-need-to-build-resilience-adaptation/",
@@ -7974,7 +8586,10 @@
    "url": "https://stories.purdue.edu/the-whitest-paint-is-here-and-its-the-coolest-literally/",
    "label": "Purdue research account and reproduced paper abstract",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2021-04-15",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://streetnet.org.za",
@@ -7986,13 +8601,19 @@
    "url": "https://sundanzer.com/",
    "label": "SunDanzer",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2026-10-14",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://sundanzer.com/about/",
    "label": "Original company history/profile",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2026-10-15",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://superfan.in/",
@@ -8016,7 +8637,10 @@
    "url": "https://swarajyamag.com/amp/story/infrastructure%2Fchennais-transformation-into-sponge-city-gcc-to-set-up-57-sponge-parks-for-flood-prevention",
    "label": "Chennai: 57 sponge parks commissioned for ₹7.67 crore, about ₹13.5 lakh each by our arithmetic",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2023-06-29",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://swasti-prod.s3.ap-south-1.amazonaws.com/Ananthapuramu%20Heat%20Action%20Plan%202025_1748852362.pdf",
@@ -8040,13 +8664,19 @@
    "url": "https://swlb1.aeaweb.org/articles?id=10.1257/pol.20190245",
    "label": "Cumulative Impacts of Conditional Cash Transfer Programs: Experimental Evidence from Indonesia",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2020-11-01",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://symphonylimited.com/investor/results/",
    "label": "Symphony investor results and product catalogue",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2022-01-10",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://systems.arch.ethz.ch/3for2-beyond-efficiency",
@@ -8064,7 +8694,10 @@
    "url": "https://tc.copernicus.org/articles/19/6629/2025/",
    "label": "Tropical glaciers on Puncak Jaya close to extinction",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2025",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://techemerge.org/news/new-ifc-sustainable-cooling-initiative-to-build-on-techemerge-success/",
@@ -8122,9 +8755,9 @@
    "label": "Government of Thailand, 2026",
    "root": "experience",
    "org": false,
-   "date": "2026",
-   "precision": "year",
-   "how": "label"
+   "date": "2026-05-06",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://thailand.prd.go.th/en/content/category/detail/id/48/iid/177054",
@@ -8157,13 +8790,19 @@
    "url": "https://thehimalayantimes.com/health/health-insurance-board-clarifies-opd-limit-total-coverage-unchanged",
    "label": "The Himalayan Times",
    "root": "experience",
-   "org": false
+   "org": false,
+   "date": "2026-02-03",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://themigrationstory.com/?p=19496",
    "label": "The Migration Story",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2026-07-09",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://theprint.in/world/heat-wave-in-southeast-asia-closes-schools-triggers-health-alerts/2061903/",
@@ -8184,7 +8823,10 @@
    "url": "https://thethaiger.com/news/world/indonesia-adopts-cool-roofs-to-combat-heatwaves-and-reduce-energy-costs",
    "label": "The Thaiger: Indonesia adopts cool roofs",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2023-05-24",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://tnpcb.gov.in/PDF/About_Us/Announcementgos/GoNo_215_101123.pdf",
@@ -8236,9 +8878,9 @@
    "label": "Tuoi Tre News, 2020",
    "root": "experience",
    "org": false,
-   "date": "2020",
-   "precision": "year",
-   "how": "label"
+   "date": "2020-02-29",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://twc2.org.sg/helping-workers-in-need/",
@@ -8274,7 +8916,10 @@
    "url": "https://unctad.org/news/countries-agree-300-billion-2035-new-climate-finance-goal-what-next",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2024-12-10",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://unece.org/sites/default/files/2021-11/LCA_final.pdf",
@@ -8517,7 +9162,10 @@
    "url": "https://vbn.aau.dk/en/publications/experimental-investigation-of-convective-heat-transfer-for-night--2/",
    "label": "Guo et al.: Experimental investigation of convective heat transfer for night ventilation",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2021",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://vietnamnews.vn/economy/1688781/banks-allowed-to-extend-debt-repayment-for-typhoon-yagi-affected-customers-to-2027.html",
@@ -8544,13 +9192,19 @@
    "url": "https://villgro.org/companies/",
    "label": "Villgro companies",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2023-09-06",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://villgro.org/programs/powering-livelihoods/",
    "label": "Villgro CEEW Powering Livelihoods",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2023-12-04",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://waareertl.com/",
@@ -8667,22 +9321,28 @@
    "url": "https://wellcome.org/engagement-and-advocacy/advocacy-and-partnerships/climate-health-funders-coalition",
    "label": "Climate & Health Funders Coalition",
    "root": "institutions",
-   "org": false
+   "org": false,
+   "date": "2025-11-13",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://wellcome.org/insights/articles/wellcome-awards-ps175m-support-global-research-drive",
    "label": "£17.5m for research testing heat adaptations, including a trial of reflective roof coatings with a site in India",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2023-06-07",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://wellcome.org/insights/articles/wellcome-responds-2024-report-lancet-countdown-health-and-climate-change",
    "label": "Lancet Countdown 2024, summarised by Wellcome: heatwaves and droughts linked to 151 million more people facing food insecurity",
    "root": "evidence",
    "org": false,
-   "date": "2024",
-   "precision": "year",
-   "how": "label"
+   "date": "2024-10-30",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://wellcome.org/our-priorities/climate-and-health/extreme-heat",
@@ -8712,7 +9372,10 @@
    "url": "https://wmo.int/activities/early-warnings-all/wmo-and-early-warnings-all-initiative",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2023-02-28",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://wmo.int/media/news/climate-change-made-heatwaves-india-and-pakistan-30-times-more-likely",
@@ -8727,7 +9390,10 @@
    "url": "https://wmo.int/media/news/new-initiatives-launched-address-extreme-heat-south-asia",
    "label": "New initiatives launched to address extreme heat in South Asia",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2026-02-20",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://wmo.int/news/media-centre/extreme-heat-pushes-agrifood-systems-brink",
@@ -8739,7 +9405,10 @@
    "url": "https://wmo.int/news/media-centre/wmo-confirms-2025-was-one-of-warmest-years-record",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2026-01-13",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://wmo.int/node/38332",
@@ -8751,13 +9420,19 @@
    "url": "https://wmo.int/publication-series/state-of-global-climate/state-of-global-climate-2023",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2024-03-15",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://wmo.int/themes/extreme-heat",
    "label": "WMO: Extreme Heat",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2023-03-10",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://worldhealthorg.shinyapps.io/dengue_global/",
@@ -8769,7 +9444,10 @@
    "url": "https://wri-india.org/perspectives/mapping-path-heat-resilience-tamil-nadu",
    "label": "WRI India: mapping the path to heat resilience in Tamil Nadu",
    "root": "experience",
-   "org": false
+   "org": false,
+   "date": "2026",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://wrmsglobal.com/securisk/",
@@ -8805,13 +9483,19 @@
    "url": "https://www.75f.io/",
    "label": "75F",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2021-09-21",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.abl.com/personal/loans/prime-minister-fan-replacement-program/",
    "label": "Allied Bank fan replacement programme terms",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2026-06-18",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.academia.edu/117778626/Advancing_building_bioclimatic_design_charts_for_the_use_of_evaporative_cooling_in_the_composite_climate_of_India",
@@ -8832,7 +9516,10 @@
    "url": "https://www.acea.auto/pc-registrations/new-car-registrations-1-8-in-2025-battery-electric-17-4-market-share/",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2026-01-27",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.acreafrica.com/downloads/acre-africa-profile.pdf",
@@ -8929,9 +9616,9 @@
    "label": "Park, Goodman, Hurwitz and Smith, American Economic Journal: Economic Policy, 2020",
    "root": "practical",
    "org": false,
-   "date": "2020",
-   "precision": "year",
-   "how": "label"
+   "date": "2020-05-01",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://www.afd.fr/en/projects/improve-access-drinking-water-dhakas-informal-settlements",
@@ -8961,7 +9648,10 @@
    "url": "https://www.akahindia.org/case_studies_all/urban-heat-island-mitigation-with-cool-roof-at-garden-housing-society-hyderabad/",
    "label": "AKAH/IIIT-H Garden Housing Society project",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2023-06-25",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.aku.edu",
@@ -9021,7 +9711,10 @@
    "url": "https://www.amnesty.org.au/the-inhumane-conditions-in-coxs-bazar-and-what-must-be-done-to-support-refugees-looking-for-a-dignified-hopeful-future/",
    "label": "Amnesty International Australia: conditions in Cox’s Bazar",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2024-05-24",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.ankurcapital.com/",
@@ -9034,9 +9727,9 @@
    "label": "Antara, 2025",
    "root": "experience",
    "org": false,
-   "date": "2025",
-   "precision": "year",
-   "how": "label"
+   "date": "2025-10-16",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.anticipation-hub.org/Documents/EAPs/EAP_activation_Kyrgyzstan_heatwave2025.pdf",
@@ -9094,18 +9787,18 @@
    "label": "Raja et al., Annals of Occupational and Environmental Medicine, 2026: heat and sleep among heat-exposed workers, a systematic review",
    "root": "evidence",
    "org": false,
-   "date": "2026",
-   "precision": "year",
-   "how": "label"
+   "date": "2026-01-08",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://www.aol.com/articles/feel-m-front-fireball-45c-151008000.html",
    "label": "The Telegraph, syndicated by AOL (16 July 2026), VimoSEWA pause and redesign",
    "root": "financing",
    "org": false,
-   "date": "2026",
-   "precision": "year",
-   "how": "label"
+   "date": "2026-07-16",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.aon.com/en/insights/articles/parametric-can-help-mitigate-extreme-heat-risks-for-contractors-in-emea",
@@ -9240,7 +9933,10 @@
    "url": "https://www.atachcommunity.com/our-impact/case-studies/case-study/bangladesh-early-action-protocol-for-heat-events/",
    "label": "ATACH Bangladesh heat EAP case",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2025-11-07",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.atecf.org/water-and-agriculture",
@@ -9396,7 +10092,10 @@
    "url": "https://www.bmedicalsystems.com/en/",
    "label": "B Medical Systems",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2024-05-30",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.bmkg.go.id",
@@ -9514,9 +10213,9 @@
    "label": "Business Today, 2025",
    "root": "experience",
    "org": false,
-   "date": "2025",
-   "precision": "year",
-   "how": "label"
+   "date": "2025-04-21",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.c40.org",
@@ -9555,7 +10254,10 @@
    "url": "https://www.cacobatph.dz/le-chomage-intemperies/?lang=fr",
    "label": "",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2021-02-28",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.calmac.com/energy-storage-article-thermal-energy-storage-sees-ongoing-development-in-india-1",
@@ -9576,37 +10278,46 @@
    "url": "https://www.carbonbrief.org/analysis-chinas-co2-emissions-have-now-been-flat-or-falling-for-21-months/",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2026-02-12",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.carbonbrief.org/climate-change-made-india-and-pakistans-2022-early-heatwave-30-times-more-likely",
    "label": "Carbon Brief, 2022",
    "root": "evidence",
    "org": false,
-   "date": "2022",
-   "precision": "year",
-   "how": "label"
+   "date": "2022-05-23",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.carbonbrief.org/guest-post-the-challenge-of-consensus-decision-making-in-un-climate-negotiations",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2024-03-05",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.carbonbrief.org/iran-war-analysis-how-60-nations-have-responded-to-the-global-energy-crisis/",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2026-04-08",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.carbonbrief.org/mapped-16-times-extreme-weather-drove-higher-food-prices-since-2022/",
    "label": "Carbon Brief, 2025: 16 times extreme weather drove higher food prices (on Kotz et al., Environmental Research Letters)",
    "root": "evidence",
    "org": false,
-   "date": "2025",
-   "precision": "year",
-   "how": "label"
+   "date": "2025-07-20",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.cares.cam.ac.uk",
@@ -9696,13 +10407,19 @@
    "url": "https://www.cdc.gov/niosh/heat-stress/communication-resources/app.html",
    "label": "NIOSH Heat Safety Tool App and WBGT limitations",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2026-08-13",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.cdc.gov/niosh/heat-stress/recommendations/index.html",
    "label": "NIOSH Workplace recommendations",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2026-07-16",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.cea.lk",
@@ -9933,7 +10650,10 @@
    "url": "https://www.cimmyt.org/blogs/heat-tolerant-maize-hybrids-a-pursuit-to-strengthen-food-security-in-south-asia/",
    "label": "CIMMYT: heat-tolerant maize hybrids in South Asia",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2024-02-02",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.cimmyt.org/projects/heat-stress-tolerant-maize-for-asia/",
@@ -9970,33 +10690,45 @@
    "label": "CLASP Bangladesh retailer field study 2019",
    "root": "financing",
    "org": false,
-   "date": "2019",
-   "precision": "year",
-   "how": "label"
+   "date": "2019-09-26",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.clasp.ngo/research/all/the-socio-economic-impact-of-super-efficient-fans-in-bangladesh/",
    "label": "CLASP off-grid fan customer survey, Bangladesh2020",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2020-06-05",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.clasp.ngo/rfps/global-leaprbf-appliance-monitoring-verification/",
    "label": "CLASP Global LEAP RBF monitoring and verification",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2021-11-22",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.cleancoolingcollaborative.org/",
    "label": "Clean Cooling Collaborative (ClimateWorks Foundation)",
    "root": "institutions",
-   "org": false
+   "org": false,
+   "date": "2021-07-26",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.cleancoolingcollaborative.org/about",
    "label": "Clean Cooling Collaborative mandate",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2021-07-27",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.clearvisionventures.com/",
@@ -10116,7 +10848,10 @@
    "url": "https://www.climateinvestment.com/",
    "label": "Climate Investment",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2020-01-20",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.climatepolicyinitiative.org/financing-indias-heat-resilience/",
@@ -10129,9 +10864,9 @@
    "label": "Cities Climate Finance Leadership Alliance, The State of Cities Climate Finance, 2021",
    "root": "practical",
    "org": false,
-   "date": "2021",
-   "precision": "year",
-   "how": "label"
+   "date": "2021-06-30",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.climateworks.org",
@@ -10149,7 +10884,10 @@
    "url": "https://www.climateworks.org/press-release/global-heat-forum-gathers-600-leaders-to-scale-investment-for-extreme-heat-action/",
    "label": "Global Heat Forum gathers 600 leaders to scale investment for extreme heat action",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2026-10-06",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.climecap.com/",
@@ -10161,13 +10899,19 @@
    "url": "https://www.climecap.com/post/clime-capital-hits-first-close-of-second-southeast-asian-clean-energy-fund-at-127m",
    "label": "SEACEF II first close and first-loss investors",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2024-01-24",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.climecap.com/post/clime-capital-invests-in-smart-energy-management-solution-provider-ampotech",
    "label": "Clime Ampotech funding",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2025-02-04",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.conduitfoundation.org.uk/",
@@ -10369,9 +11113,9 @@
    "label": "DFDL, on Prakas 214/25, 2025",
    "root": "experience",
    "org": false,
-   "date": "2025",
-   "precision": "year",
-   "how": "label"
+   "date": "2025-10-06",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.dhakatribune.com/bangladesh/310693/arsht-rock-bangladesh%E2%80%99s-first-chief-heat-officer",
@@ -10401,7 +11145,10 @@
    "url": "https://www.dof.gov.ph/phl-cat-bond-triggers-payout/",
    "label": "Philippines Department of Finance: Cat Bond payout announcement, 25January2022",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2022-01-25",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.donidcr.gov.np/pages/mostly-asked-questions--social-security-4/",
@@ -10426,15 +11173,18 @@
    "label": "World Bank, 2022, reported by Down To Earth",
    "root": "experience",
    "org": false,
-   "date": "2022",
-   "precision": "year",
-   "how": "label"
+   "date": "2022-12-07",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.downtoearth.org.in/climate-change/india-updates-disaster-list-to-include-heatwaves-and-lightning-after-finance-commission-push",
    "label": "India updates disaster list to include heatwaves and lightning after Finance Commission push",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2026-08-07",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.downtoearth.org.in/climate-change/lost-in-the-heat-the-critical-miscalculation-in-indias-heatwave-mortality-data",
@@ -10449,16 +11199,19 @@
    "url": "https://www.downtoearth.org.in/environment/how-to-fight-heat-wave-the-odisha-way-49950",
    "label": "Down To Earth: how to fight heat wave the Odisha way",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2015-05-27",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.downtoearth.org.in/news/climate-change/climate-change-responsible-for-over-80-of-temperature-rise-within-asia-last-month-the-hottest-april-ever-wwa-96153",
    "label": "World Weather Attribution, reported by Down To Earth, 2024",
    "root": "evidence",
    "org": false,
-   "date": "2024",
-   "precision": "year",
-   "how": "label"
+   "date": "2024-05-14",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.downtoearth.org.in/topic/heat",
@@ -10482,7 +11235,10 @@
    "url": "https://www.dtnext.in/news/chennai/after-50-years-siva-vishnu-pond-rejuvenated-for-rs-36-lakh-by-chennai-corporation-796892",
    "label": "Chennai: one pond restored for ₹36 lakh",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2024-07-26",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.dulux.com.sg/en/about-us",
@@ -10510,15 +11266,18 @@
    "label": "Eco-Business, 2026: extreme heat reshapes travel in Asia (Booking.com survey)",
    "root": "evidence",
    "org": false,
-   "date": "2026",
-   "precision": "year",
-   "how": "label"
+   "date": "2026-05-11",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.eco-business.com/news/brahmaputra-boat-clinic-goes-solar-powering-up-rural-healthcare/",
    "label": "Thomson Reuters Foundation, via Eco-Business: Brahmaputra boat clinic goes solar",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2017-11-01",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.eco-business.com/press-releases/philanthropy-asia-alliance-supports-southeast-asia-heat-health-hub-to-scale-coordinated-action-on-extreme-heat/",
@@ -10539,25 +11298,28 @@
    "url": "https://www.ecozensolutions.com/ecofrost/ecofrost-empowers-produce-distribution-centers.html",
    "label": "Ecozen: Oorja/Ecofrost market-gate cold room, Samastipur",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2023-09-12",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.ecozensolutions.com/news/climate-smart-deep-tech-company-ecozen-raises-25-million.html",
    "label": "Ecozen 2023 round",
    "root": "financing",
    "org": false,
-   "date": "2023",
-   "precision": "year",
-   "how": "label"
+   "date": "2023-01-24",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.ecozensolutions.com/news/climate-smart-deeptech-company-ecozen-raises-30-million-dollars.html",
    "label": "Ecozen 2024 round",
    "root": "financing",
    "org": false,
-   "date": "2024",
-   "precision": "year",
-   "how": "label"
+   "date": "2024-04-19",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.eda.admin.ch/deza/en/home.html",
@@ -10611,7 +11373,10 @@
    "url": "https://www.energy.gov/cmei/buildings/hvac-commissioning",
    "label": "US DOE HVAC commissioning",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2021-08-30",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.energy.or.kr/front/conts/105001004002000.do",
@@ -10623,7 +11388,10 @@
    "url": "https://www.engie-sea.com/",
    "label": "ENGIE South East Asia - cooling services",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2025-09-15",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.enterprisesg.gov.sg/financial-support/enterprise-financing-scheme---sme-working-capital",
@@ -10701,7 +11469,7 @@
    "org": false,
    "date": "2024",
    "precision": "year",
-   "how": "label"
+   "how": "meta"
   },
   {
    "url": "https://www.fao.org/publications/fao-flagship-publications/the-impact-of-disasters-on-agriculture-and-food-security/en",
@@ -10779,7 +11547,7 @@
    "org": false,
    "date": "2022",
    "precision": "year",
-   "how": "label"
+   "how": "meta"
   },
   {
    "url": "https://www.frontiersin.org/journals/human-dynamics/articles/10.3389/fhumd.2023.1237515/full",
@@ -10788,13 +11556,16 @@
    "org": false,
    "date": "2023",
    "precision": "year",
-   "how": "label"
+   "how": "meta"
   },
   {
    "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2023.1122504/full",
    "label": "Tokizawa: wetted inner clothing with ventilation garment",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2023",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1657267/full",
@@ -10803,7 +11574,7 @@
    "org": false,
    "date": "2025",
    "precision": "year",
-   "how": "label"
+   "how": "meta"
   },
   {
    "url": "https://www.fsg.org/wp-content/uploads/2026/04/Managing-Heat-From-Worker-Welfare-to-Business-Resilience_FINAL-4-2-26.pdf",
@@ -10836,25 +11607,28 @@
    "url": "https://www.gaip.global/publications/physical-risks-on-the-insurance-industry/",
    "label": "Climate Change & Insurance: Physical risks on the insurance industry",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2026-05-12",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.gaip.global/publications/scaling-parametric-insurance-in-asia/",
    "label": "Global Asia Insurance Partnership, Scaling Parametric Insurance in Asia, 2026, pp. 48–51",
    "root": "financing",
    "org": false,
-   "date": "2026",
-   "precision": "year",
-   "how": "label"
+   "date": "2026-08-27",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.garrigues.com/en_GB/new/spain-high-temperatures-will-mean-employers-must-adopt-preventive-measures-order-protect",
    "label": "Garrigues on Spain’s 2023 decree",
    "root": "practical",
    "org": false,
-   "date": "2023",
-   "precision": "year",
-   "how": "label"
+   "date": "2023-05-22",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.generaliglobalcorporate.com/media/press-releases/all/2026/Descartes-and-Generali-Global-Corporate-Commercial-renew-long-term-strategic-partnership-to-reinforce-their-global-leadership-in-parametric-insurance.html",
@@ -10908,13 +11682,19 @@
    "url": "https://www.globalinnovation.fund/",
    "label": "Global Innovation Fund",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2023-02-28",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.globalinnovation.fund/innovating-for-climate-resilience",
    "label": "GIF adaptation window",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2023-03-13",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.globalinnovation.fund/investments/blackfrog",
@@ -10935,31 +11715,46 @@
    "url": "https://www.globalinnovation.fund/investments/keep-it-cool",
    "label": "GIF Keep IT Cool",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2025-07-08",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.globalinnovation.fund/investments/komunidad",
    "label": "GIF Komunidad",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2024-08-12",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.globalinnovation.fund/news/news/gif-invests-in-cold-chain-technology",
    "label": "GIF Blackfrog capital",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2025-07-01",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.globalinnovation.fund/what-we-do",
    "label": "Global Innovation Fund - climate resilience and Thrive support routes",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2025-12-16",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.globalreinsurance.com/home/swiss-re-sigma-protection-gap-laid-bare-as-asian-cat-losses-hit-65bn/1458440.article",
    "label": "Swiss Re Institute sigma, reported by Global Reinsurance",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2026",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://www.globalresiliencepartnership.org",
@@ -10977,7 +11772,10 @@
    "url": "https://www.globalshield.org/about/financing-structure-global-shield/",
    "label": "reported",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2023-05-21",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.globalshield.org/news/vision-2025-concludes-with-report-on-six-years-of-collaborative-action-to-boost-financial-protection-for-the-most-vulnerable/",
@@ -11001,7 +11799,10 @@
    "url": "https://www.gmanetwork.com/regionaltv/news/113664/authorities-underscore-protection-as-heat-from-sun-gets-more-intense/story/",
    "label": "GMA News on PAGASA’s heat index levels",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2026-04-11",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.gmanetwork.com/regionaltv/news/115185/pagasa-urges-public-to-brace-for-more-intense-heat/story/",
@@ -11046,7 +11847,10 @@
    "url": "https://www.gov.uk/government/news/uk-first-major-economy-to-halve-emissions",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2024-02-06",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.gov.uk/government/organisations/department-for-energy-security-and-net-zero",
@@ -11064,25 +11868,37 @@
    "url": "https://www.gov.uk/guidance/heat-health-alert-action-card-for-health-and-social-care-providers",
    "label": "UKHSA heat-health alert action card: health/social care providers",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2025-02-18",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.gov.uk/guidance/looking-after-children-and-those-in-early-years-settings-before-and-during-hot-weather-teachers-and-other-educational-professionals",
    "label": "UKHSA school and early-years heat guidance",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2024-12-19",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.grandviewresearch.com/industry-analysis/cool-roof-market",
    "label": "Grand View Research: cool roof market",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2022-07-03",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.grandviewresearch.com/industry-analysis/district-cooling-market-report",
    "label": "Grand View Research: district cooling market",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2026-06-04",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.green-cooling-initiative.org/fileadmin/Publications/2025_Solar_Cooling_Solutions.pdf",
@@ -11217,7 +12033,10 @@
    "url": "https://www.hcamag.com/asia/specialisation/employment-law/more-than-75-worksites-found-non-compliant-with-singapores-enhanced-heat-stress-measures-report/499570",
    "label": "HRD Asia",
    "root": "experience",
-   "org": false
+   "org": false,
+   "date": "2024-08-01",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.hdb.gov.sg",
@@ -11274,7 +12093,10 @@
    "url": "https://www.hillridge.com.au/blog-1/15/6/2021/hillridge-powers-australias-first-direct-real-time-agriculture-weather-insurance-platform",
    "label": "MSI Australia",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2021-06-15",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.hillridge.com.au/faqs",
@@ -11295,7 +12117,10 @@
    "url": "https://www.hkma.gov.hk/eng/key-functions/money/linked-exchange-rate-system/",
    "label": "HKMA: linked exchange rate system",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2024-06-27",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.hko.gov.hk/en/wservice/warning/coldhot.htm",
@@ -11307,7 +12132,10 @@
    "url": "https://www.homenetinternational.org/homenet-thailand-runs-a-pilot-extreme-heat-insurance-project-for-informal-economy-workers/",
    "label": "HomeNet Thailand",
    "root": "institutions",
-   "org": false
+   "org": false,
+   "date": "2026-06-23",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.homenetthailand.org",
@@ -11349,7 +12177,10 @@
    "url": "https://www.howdengroupholdings.com/insights/pioneering-initiative-protects-women-workers-in-india-during-record-breaking-heatwave",
    "label": "reported",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2024-07-04",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.hrw.org/news/2023/06/30/extreme-heat-signals-need-inclusive-climate-action",
@@ -11427,13 +12258,19 @@
    "url": "https://www.ibisa.network/en/blog/ibisa-raises-dollar3-million-to-scale-parametric-insurance-solutions-strengthening-climate-resilience-across-asia-and-africa",
    "label": "IBISA original financing release",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2024-06-25",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.ibisa.network/en/blog/ushma-kavach-a-climate-resilient-shield-for-indias-dairy-farmers",
    "label": "No complete comparable published price verified; request a dated local installed and lifecycle quote.",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2025-06-01",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.icicilombard.com",
@@ -11470,9 +12307,9 @@
    "label": "ICIMOD, 2025: climate change played key role in the 2023 Sikkim lake outburst",
    "root": "evidence",
    "org": false,
-   "date": "2025",
-   "precision": "year",
-   "how": "label"
+   "date": "2025-02-04",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.icj-cij.org/case/187",
@@ -11778,7 +12615,10 @@
    "url": "https://www.iieta.org/journals/ijht/paper/10.18280/ijht.440112",
    "label": "Ventilated grass-tray test, Bangkok",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2026-02-28",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://www.ikeafoundation.org/campaign-26",
@@ -11796,22 +12636,28 @@
    "url": "https://www.ilo.org/projects-and-partnerships/projects/implementation-pilot-employment-injury-scheme-eis-bangladesh",
    "label": "International Labour Organization: Implementation of a pilot Employment Injury Scheme (EIS) in Bangladesh",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2021-08-01",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.ilo.org/publications/heat-and-osh-policy-brief-best-practices-gcc-region-and-beyond",
    "label": "ILO heat and occupational safety policy brief 2024",
    "root": "financing",
    "org": false,
-   "date": "2024",
-   "precision": "year",
-   "how": "label"
+   "date": "2024-06-01",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.ilo.org/resource/article/addressing-impacts-extreme-heat-through-social-protection",
    "label": "Addressing the impacts of extreme heat through social protection",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2026-02-11",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.ilo.org/resource/news/increase-heat-stress-predicted-bring-productivity-loss-equivalent-80",
@@ -11836,15 +12682,18 @@
    "label": "International Labour Organization, 2025: Nepal launches national campaign to bring informal workers into social security",
    "root": "practical",
    "org": false,
-   "date": "2025",
-   "precision": "year",
-   "how": "label"
+   "date": "2025-12-24",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.ilo.org/resource/news/new-legislation-qatar-provides-greater-protection-workers-heat-stress",
    "label": "ILO explanation of Qatar heat legislation",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2021-05-27",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.ilo.org/sites/default/files/2026-10/MALDIVES_Study_Oct27.pdf",
@@ -11908,9 +12757,9 @@
    "label": "Thompson et al., The Lancet Planetary Health, 2023, summarised by Imperial College London",
    "root": "evidence",
    "org": false,
-   "date": "2023",
-   "precision": "year",
-   "how": "label"
+   "date": "2023-07-11",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.indiabudget.gov.in/doc/eb/sbe1.pdf",
@@ -12075,7 +12924,10 @@
    "url": "https://www.iwmi.org/projects/solar/",
    "label": "IWMI SoLAR",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2024-06-26",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.jakarta.go.id",
@@ -12123,13 +12975,16 @@
    "org": false,
    "date": "2013",
    "precision": "year",
-   "how": "label"
+   "how": "meta"
   },
   {
    "url": "https://www.jstage.jst.go.jp/article/indhealth/58/1/58_2018-0182/_article",
    "label": "Tokizawa et al.: liquid vest under protective clothing",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2020",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://www.jstage.jst.go.jp/article/jea/22/3/22_JE20110082/_pdf/-char/en",
@@ -12187,15 +13042,18 @@
    "label": "King’s College London, 2023: microfinance and climate shocks in Cambodia",
    "root": "evidence",
    "org": false,
-   "date": "2023",
-   "precision": "year",
-   "how": "label"
+   "date": "2023-09-28",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.kenresearch.com/philippines-cool-roof-market",
    "label": "Ken Research: Philippines cool roof market",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2026-03-04",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.keralaenergy.gov.in",
@@ -12231,7 +13089,10 @@
    "url": "https://www.kooltecheng.com/refrigeration-equipment/",
    "label": "Kooltech Engineering",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2021-06-23",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.ksat.com/health/2025/06/07/how-an-innovative-portable-shelter-could-help-indias-outdoor-workers-beat-the-heat/",
@@ -12384,31 +13245,46 @@
    "url": "https://www.linkedin.com/posts/markel-international_nfu-mutual-to-roll-out-markel-underwritten-activity-7067546441971294208-kYC8",
    "label": "Markel",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2023-05-25",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.linkedin.com/posts/smartjoules_bw-healthcare-awards-x-kims-hospital-thane-activity-7464988451843751936-Tk6E",
    "label": "No complete comparable published price verified; request a dated local installed and lifecycle quote.",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2026-05-26",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.linkedin.com/posts/smartjoules_smart-joules-raises-10-mn-series-b-funding-activity-7404749549350916096-p_qc",
    "label": "Smart Joules own Series B announcement",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2025-12-11",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.lse.ac.uk/granthaminstitute/climate-change-laws-of-the-world-/",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2015-05-20",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.lse.ac.uk/granthaminstitute/publication/raising-ambition-and-accelerating-delivery-of-climate-finance/",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2024-11-14",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.lshtm.ac.uk/newsevents/news/2024/tackling-premature-births-face-climate-change",
@@ -12432,13 +13308,19 @@
    "url": "https://www.mahilahousingtrust.org/practice-areas/building-climate-resilience-and-energy-efficiency/",
    "label": "MHT climate-resilience practice",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2022-06-07",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.mahilahousingtrust.org/practice-areas/microlending-for-habitat-improvement/",
    "label": "MHT microlending for habitat improvement",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2022-06-07",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.mahilahousingtrust.org/wp-content/uploads/2022/06/MHT_Combating-Climate-Change%E2%80%90induced-Heat-Stress.pdf",
@@ -12585,7 +13467,10 @@
    "url": "https://www.metrotvnews.com/read/KXyCWwmW-target-30-ruang-terbuka-hijau-jakarta-dikejar-hingga-2045",
    "label": "Metro TV News",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2026-01-21",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.mfd.gov.np/",
@@ -12696,37 +13581,46 @@
    "url": "https://www.mom.gov.sg/employment-practices/silver-support-scheme",
    "label": "Ministry of Manpower: Silver Support Scheme",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2026-10-05",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work",
    "label": "Ministry of Manpower: heat stress measures for outdoor work",
    "root": "experience",
-   "org": false
+   "org": false,
+   "date": "2026-08-28",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work/faqs-on-heat-stress-measures-for-outdoor-work",
    "label": "Ministry of Manpower: FAQs on Heat stress measures for outdoor work",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2026-08-28",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.mom.gov.sg/newsroom/parliament-questions-and-replies/2025/1106-written-answer-to-pq-on-unpaid-medical-bills-incurred-by-work-permit-and-s-pass-holders",
    "label": "Ministry of Manpower, written answer, 2025",
    "root": "experience",
    "org": false,
-   "date": "2025",
-   "precision": "year",
-   "how": "label"
+   "date": "2025-11-07",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.mom.gov.sg/newsroom/press-releases/2021/0917-improved-standards-for-new-migrant-worker-dormitories",
    "label": "Ministry of Manpower, 2021",
    "root": "experience",
    "org": false,
-   "date": "2021",
-   "precision": "year",
-   "how": "label"
+   "date": "2021-09-17",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.mom.gov.sg/newsroom/press-releases/2023/1024-enhanced-measures-to-reduce-heat-stress-for-outdoor-workers",
@@ -12742,51 +13636,63 @@
    "label": "Ministry of Manpower, 2026: Enhanced Primary Care Plan brings healthcare closer to migrant workers while lowering or maintaining costs for almost all employers",
    "root": "practical",
    "org": false,
-   "date": "2026",
-   "precision": "year",
-   "how": "label"
+   "date": "2026-08-06",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.mom.gov.sg/newsroom/press-releases/2026/0828-enhancements-to-heat-stress-framework",
    "label": "Ministry of Manpower, 2026: MOM Enhances Heat Stress Protection for Workers Amid Rising Heat Risks",
    "root": "evidence",
    "org": false,
-   "date": "2026",
-   "precision": "year",
-   "how": "label"
+   "date": "2026-08-28",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.mom.gov.sg/primary-care-plan/getting-primary-care-services",
    "label": "Ministry of Manpower: Getting primary care services under the Primary Care Plan (PCP)",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2026-08-07",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.mom.gov.sg/primary-care-plan/what-is-pcp",
    "label": "Ministry of Manpower: What is the Primary Care Plan (PCP)",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2026-08-07",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.mom.gov.sg/workplace-safety-and-health/od-under-wsha-and-wica",
    "label": "Ministry of Manpower, 2025: Updated coverage of reportable and compensable occupational diseases (ODs) under WSHA and WICA",
    "root": "practical",
    "org": false,
-   "date": "2025",
-   "precision": "year",
-   "how": "label"
+   "date": "2025-12-17",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation/types-of-compensation",
    "label": "Ministry of Manpower: Types of compensation under WICA",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2026-10-21",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation/who-is-covered",
    "label": "guidance",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2024-03-14",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.mona-naqshbandi.auroville.org/projects/sri-aurobindo-integral-life-centre-(sailc)",
@@ -12946,9 +13852,9 @@
    "label": "NBC News, 2024",
    "root": "practical",
    "org": false,
-   "date": "2024",
-   "precision": "year",
-   "how": "label"
+   "date": "2024-05-02",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.nber.org/papers/w20598",
@@ -13113,7 +14019,10 @@
    "url": "https://www.networkrail.co.uk/running-the-railway/looking-after-the-railway/delays-explained/buckled-rail-and-summer-heat",
    "label": "Network Rail: buckled rails in summer heat",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2019-01-18",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.newleafdynamic.com/",
@@ -13288,9 +14197,9 @@
    "label": "Orissa Post, 2024: heat cut showroom footfall",
    "root": "evidence",
    "org": false,
-   "date": "2024",
-   "precision": "year",
-   "how": "label"
+   "date": "2024-07-05",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.osdma.org/wp-content/uploads/2020/03/Heat-action-plan-Book-2020.pdf",
@@ -13350,7 +14259,10 @@
    "url": "https://www.pbs.org/newshour/world/india-likely-undercounts-heat-related-deaths-tempering-its-response-officials-say",
    "label": "India likely undercounts heat-related deaths, tempering its response, officials say",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2024-07-04",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.pcmcindia.gov.in/marathi/pdf/Heat-Action-Plan.pdf",
@@ -13395,7 +14307,10 @@
    "url": "https://www.phaesun.com/en/about/",
    "label": "Original company history/profile",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2025-05-01",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.philhealth.gov.ph/news/up/article/2024/news_6642d522e6c98.php",
@@ -13564,9 +14479,9 @@
    "label": "The Policy Edge, summarising the OECD Development Centre, 2026",
    "root": "evidence",
    "org": false,
-   "date": "2026",
-   "precision": "year",
-   "how": "label"
+   "date": "2026-10-06",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.poundsterlinglive.com/history/USD-INR-2026",
@@ -13650,7 +14565,10 @@
    "url": "https://www.preventionweb.net/publication/documents-and-publications/understanding-global-landscape-heat-early-warning-systems",
    "label": "Understanding the global landscape of heat early warning systems (with case studies from Bangladesh, Nepal, Pakistan, the Philippines and Vietnam)",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2026-06-24",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.preventionweb.net/resource/case-study/innovative-heat-wave-early-warning-system-and-action-plan-ahmedabad-india",
@@ -13665,7 +14583,10 @@
    "url": "https://www.preventionweb.net/understanding-disaster-risk/disaster-losses-and-statistics",
    "label": "Disaster losses and statistics",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2021-06-09",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.primecoalition.org/",
@@ -13677,7 +14598,10 @@
    "url": "https://www.primecoalition.org/investee-library/gradient",
    "label": "Prime Gradient investment",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2021-09-20",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.primecoalition.org/investments",
@@ -13689,13 +14613,19 @@
    "url": "https://www.prnewswire.com/in/news-releases/adb-ventures-announces-its-first-two-investments-882262035.html",
    "label": "ADB Ventures first investments",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2021-03-17",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.prosperglobalventures.com/blog/pilot-launch-small-businesses-prepare-for-climate-shocks-to-protect-their-livelihood-and-trade-with-anticipatory-mindset-using-ai",
    "label": "Prosper Global Ventures Resilience AI pilot current URL",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2026-07-15",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.prosperglobalventures.com/climate-lab",
@@ -13845,7 +14775,10 @@
    "url": "https://www.rivm.nl/en/news/national-heatwave-plan-evaluation-substantial-attenuation-in-risk-of-dying-from-heat-since",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2025-06-02",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.rma.org.bt/bank/laws_bylaws.jsp",
@@ -13884,7 +14817,10 @@
    "url": "https://www.rockefellerfoundation.org/perspective/who-owns-the-response-to-heat-in-bangladesh-everyone-does/",
    "label": "icddr,b",
    "root": "institutions",
-   "org": false
+   "org": false,
+   "date": "2026-02-23",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.rockefellerfoundation.org/wp-content/uploads/2024/09/Heatwaves-in-Dhaka-Case-Study.pdf",
@@ -13905,7 +14841,10 @@
    "url": "https://www.rystadenergy.com/services/upstream-solution",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2022-08-23",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.sahf.info/wp-content/uploads/sahf-events/ibf-toolkit-workshop-nov-2025/presentations/Session-18-RAIN-Practisioners-Perspective_SS.pdf",
@@ -13975,27 +14914,27 @@
    "label": "Sattar et al., Science, 2025: the Sikkim flood of October 2023",
    "root": "evidence",
    "org": false,
-   "date": "2025",
-   "precision": "year",
-   "how": "label"
+   "date": "2025-03-21",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://www.scientificamerican.com/article/women-experience-greater-burdens-from-extreme-heat",
    "label": "Climate Resilience for All, 2023, reported by Scientific American: women bear greater burdens from extreme heat",
    "root": "evidence",
    "org": false,
-   "date": "2023",
-   "precision": "year",
-   "how": "label"
+   "date": "2023-07-27",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.scientificamerican.com/article/worst-coral-mass-bleaching-on-record-caused-by-warming-oceans",
    "label": "NOAA and International Coral Reef Initiative, reported by Scientific American, 2025",
    "root": "evidence",
    "org": false,
-   "date": "2025",
-   "precision": "year",
-   "how": "label"
+   "date": "2025-04-24",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.scmp.com/news/asia/south-asia/article/3301810/indian-slums-get-cool-roofs-beat-summer-heat",
@@ -14049,13 +14988,19 @@
    "url": "https://www.seeleyinternational.com/",
    "label": "Seeley International",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2018-06-19",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.seeleyinternational.com/corporate/about/",
    "label": "Original company history/profile",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2018-06-20",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.seforall.org",
@@ -14088,7 +15033,10 @@
    "url": "https://www.sensorflow.co/",
    "label": "SensorFlow",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2025-04-08",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.sentosa.gov.sg",
@@ -14100,7 +15048,10 @@
    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A14978",
    "label": "France voluntary communal heat-vulnerability register",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2026-05-26",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.setneg.go.id/baca/index/pastikan_tepat_sasaran_pemerintah_salurkan_bansos_kepada_lebih_dari_18_juta_kpm",
@@ -14151,7 +15102,7 @@
    "org": false,
    "date": "2018",
    "precision": "year",
-   "how": "label"
+   "how": "meta"
   },
   {
    "url": "https://www.skycoolsystems.com/",
@@ -14175,16 +15126,19 @@
    "url": "https://www.socialalpha.org/basking-in-cold-comfort-with-tan90/",
    "label": "Social Alpha Energy Challenge 2.0 - historical Tan90 pathway",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2020-09-11",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.socialalpha.org/techtonic-innovations-in-clean-energy-2026/",
    "label": "Techtonic: Innovations in Clean Energy 2026",
    "root": "financing",
    "org": false,
-   "date": "2026",
-   "precision": "year",
-   "how": "label"
+   "date": "2026-07-08",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.southwark.gov.uk/sites/default/files/2025-07/Hot-weather-and-health.pdf",
@@ -14265,7 +15219,10 @@
    "url": "https://www.ssph-journal.org/journals/international-journal-of-public-health/articles/10.3389/ijph.2025.1608083/full",
    "label": "Sanz-Mas et al., Community use and perceptions of schoolyard climate shelters",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2025",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://www.stepchange.earth",
@@ -14493,7 +15450,10 @@
    "url": "https://www.swissre.com/our-business/public-sector-solutions/insights/parametric-structure-for-sewa-in-south-east-asia.html",
    "label": "Swiss Re: the structure behind a parametric solution for SEWA",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2024-08-09",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.sydney.edu.au/news-opinion/news/2025/10/21/garment-factories-are-sweltering--these-simple-fixes-could-keep-.html",
@@ -14565,13 +15525,19 @@
    "url": "https://www.tbsnews.net/bangladesh/environment/beneath-burning-sky-everyone-feels-heat-informal-workers-pay-highest-price",
    "label": "The Business Standard",
    "root": "experience",
-   "org": false
+   "org": false,
+   "date": "2026-06-05",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.tbsnews.net/economy/corporates/green-delta-insurance-completes-bangladeshs-first-dairy-heat-index-insurance",
    "label": "IBISA",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2025-09-02",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.techemerge.org/our-focus/sustainable-cooling/",
@@ -14685,7 +15651,10 @@
    "url": "https://www.theguardian.com/business/2025/oct/03/banking-industry-net-zero-alliance-shuts-down-climate-nzba",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2025-10-03",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.theguardian.com/environment/2024/apr/04/schools-close-and-crops-wither-as-historic-heatwave-hits-south-east-asia",
@@ -14700,7 +15669,10 @@
    "url": "https://www.theguardian.com/environment/2026/apr/15/big-oil-huge-war-windfall-consumers",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2026-04-15",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.theguardian.com/environment/2026/jul/20/extreme-heat-india-outdoor-workers-poverty",
@@ -14820,13 +15792,19 @@
    "url": "https://www.thenewsminute.com/tamil-nadu/chennai-civic-body-ramps-up-pond-restoration-rainwater-harvesting-parks-ahead-of-monsoon",
    "label": "The News Minute",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2025-09-04",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.thequint.com/news/hot-news/met-dept-predicts-severe-heatwave-odisha-extends-school-holidays",
    "label": "The Quint: Odisha extends school holidays and keeps midday meals going",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2016-04-19",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.third-derivative.org/blog/d3-incoming-general-cohort-25-3-newsbrief",
@@ -14887,9 +15865,9 @@
    "label": "The Tribune (PTI), 2024: 110 deaths, 40,000 suspected heatstroke cases",
    "root": "evidence",
    "org": false,
-   "date": "2024",
-   "precision": "year",
-   "how": "label"
+   "date": "2024-06-20",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.triodos-im.com/",
@@ -15132,7 +16110,10 @@
    "url": "https://www.unep.org/ozonaction/south-asia",
    "label": "UNEP South Asia servicing and enforcement network",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2023",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://www.unep.org/resources/emissions-gap-report-2024",
@@ -15151,9 +16132,9 @@
    "label": "UNEP and GRID-Arendal, 2022: Spreading like wildfire",
    "root": "evidence",
    "org": false,
-   "date": "2022",
-   "precision": "year",
-   "how": "label"
+   "date": "2022-02",
+   "precision": "month",
+   "how": "meta"
   },
   {
    "url": "https://www.unep.org/resources/report/sustainable-food-cold-chains-opportunities-challenges-and-way-forward",
@@ -15234,16 +16215,19 @@
    "url": "https://www.unicef.org/bangladesh/en/stories/gift-water-delivered-and-within-reach",
    "label": "UNICEF hybrid solar/grid treatment plants Teknaf",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2025-07-28",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.unicef.org/bangladesh/en/stories/rebuilding-education-climate-and-disaster-resilience-coxs-bazar",
    "label": "UNICEF Bangladesh, 2025: rebuilding education for climate and disaster resilience in Cox's Bazar",
    "root": "evidence",
    "org": false,
-   "date": "2025",
-   "precision": "year",
-   "how": "label"
+   "date": "2025-04-03",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.unicef.org/bangladesh/sites/unicef.org.bangladesh/files/2018-10/Disaster-Mgt-Act-2012-English.pdf",
@@ -15258,19 +16242,28 @@
    "url": "https://www.unicef.org/documents/el-nino-2026-2027-protect-children-now-build-resilience",
    "label": "UNICEF",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2026-09-29",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.unicef.org/india/stories/akha-boat-hope",
    "label": "UNICEF Akha boat clinic solar direct-drive refrigeration",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2024-10-17",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.unicef.org/india/stories/powered-solar-energy-led-communities",
    "label": "UNICEF community-led off-grid solar water supply Chhattisgarh",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2026-06-03",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.unicef.org/innovation/call-for-application-climate-and-health-2026",
@@ -15291,7 +16284,10 @@
    "url": "https://www.unicef.org/liberia/stories/unicefs-solar-direct-drive-vaccine-refrigerator-revolutionizes-immunization-liberia",
    "label": "UNICEF Ceegbah clinic solar direct-drive refrigerator",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2023-04-12",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.unicef.org/media/156076/file/Viet_Nam_Humanitarian_Situation_Report_No._01_%28drought%29_reporting_period__-27_April_2024.pdf",
@@ -15340,30 +16336,36 @@
    "label": "UNICEF, 2016: women and girls spend 200 million hours a day collecting water",
    "root": "evidence",
    "org": false,
-   "date": "2016",
-   "precision": "year",
-   "how": "label"
+   "date": "2016-08-29",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.unicef.org/reports/learning-interrupted",
    "label": "Learning Interrupted: global snapshot of climate-related school disruptions",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2026-09-08",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.unicef.org/reports/learning-interrupted-global-snapshot-2024",
    "label": "UNICEF, 2025",
    "root": "practical",
    "org": false,
-   "date": "2025",
-   "precision": "year",
-   "how": "label"
+   "date": "2025-01-23",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.unicef.org/supply/documents/solar-powered-refrigeration-systems-price-data",
    "label": "UNICEF solar-powered refrigeration systems pricing and specifications",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2026-09-22",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.unicef.org/supply/media/26006/file/Solar-powered-refrigerator-systems-pricing-2022-2026.pdf",
@@ -15552,7 +16554,10 @@
    "url": "https://www.weather.gov.sg/learn-heat-stress/",
    "label": "guidance",
    "root": "financing",
-   "org": false
+   "org": false,
+   "date": "2023-07-21",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.weather.gov/mkx/1995_heat-wave",
@@ -15619,9 +16624,9 @@
    "label": "WHO (31 July 2026): Heat and health",
    "root": "financing",
    "org": false,
-   "date": "2026",
-   "precision": "year",
-   "how": "label"
+   "date": "2026-07-31",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.who.int/europe/activities/planning-heat-health-action",
@@ -15633,7 +16638,10 @@
    "url": "https://www.who.int/europe/news/item/23-06-2025-how-summer-heat-impacts-health-and-how-to--keepcool",
    "label": "How summer heat affects health, and how to keep cool, including cooling homes at night",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2025-06-23",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.who.int/europe/publications/i/item/9789289062930",
@@ -15642,13 +16650,16 @@
    "org": false,
    "date": "2026",
    "precision": "year",
-   "how": "label"
+   "how": "meta"
   },
   {
    "url": "https://www.who.int/europe/publications/i/item/WHO-EURO-2023-8349-48121-71370",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2023",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://www.who.int/japan/news/feature-stories/detail/indonesia-launches-katalis-heat-to-understand-and-address-the-health-impacts-of-extreme-heat",
@@ -15660,7 +16671,10 @@
    "url": "https://www.who.int/news-room/commentaries/detail/new-climate-change-agreement-a-historic-win-for-human-health",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2015-12-17",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.who.int/news-room/events/detail/2025/11/13/default-calendar/cop30-health-day",
@@ -15693,7 +16707,10 @@
    "url": "https://www.who.int/news-room/fact-sheets/detail/malaria",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2025-12-04",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.who.int/news/item/22-08-2025-who-wmo-issue-new-report-and-guidance-to-protect-workers-from-increasing-heat-stress",
@@ -15720,7 +16737,7 @@
    "org": false,
    "date": "2022",
    "precision": "year",
-   "how": "label"
+   "how": "meta"
   },
   {
    "url": "https://www.who.int/publications/i/item/9789240085350",
@@ -15729,13 +16746,16 @@
    "org": false,
    "date": "2023",
    "precision": "year",
-   "how": "label"
+   "how": "meta"
   },
   {
    "url": "https://www.who.int/publications/i/item/9789240118423",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2025",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://www.who.int/publications/i/item/9789240125063",
@@ -15750,7 +16770,10 @@
    "url": "https://www.who.int/publications/i/item/9789241512794",
    "label": "Climate-resilient water safety plans: managing health risks associated with climate variability and change",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2017",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://www.who.int/publications/i/item/9789289071918",
@@ -15765,13 +16788,19 @@
    "url": "https://www.who.int/publications/i/item/WHO-IVB-2021.02Rev.1",
    "label": "WHO, UNICEF and PATH freeze-preventive carrier guidance",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2021",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://www.who.int/publications/i/item/who-wer10052-665-678",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2025",
+   "precision": "year",
+   "how": "meta"
   },
   {
    "url": "https://www.who.int/publications/m/item/2025-who-health-and-climate-change-global-survey--support-document",
@@ -15871,9 +16900,9 @@
    "label": "World Bank, Shaping a Cooler Bangkok, 2025",
    "root": "experience",
    "org": false,
-   "date": "2025",
-   "precision": "year",
-   "how": "label"
+   "date": "2025-04-15",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.worldbank.org/en/news/feature/2022/04/05/strengthening-the-philippines-post-disaster-financial-resilience-drmhubtokyo",
@@ -16018,39 +17047,54 @@
    "label": "World Resources Institute, 2018: 40% of India’s thermal power plants are in water-scarce areas",
    "root": "evidence",
    "org": false,
-   "date": "2018",
-   "precision": "year",
-   "how": "label"
+   "date": "2018-16-01",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.wri.org/insights/climate-action-progress-1-5-degrees-c-2025",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2025-22-10",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.wri.org/insights/climate-action-this-decade-sectoral-emissions",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2024-04-11",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.wri.org/insights/cop29-outcomes-next-steps",
    "label": "",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2024-27-11",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.wri.org/insights/responding-day-zero-equitably-water-crisis-lessons-cape-town-and-chennai",
    "label": "World Resources Institute: Day Zero lessons from Cape Town and Chennai",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2019-31-10",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.wri.org/insights/urban-trees-cooling-potential",
    "label": "World Resources Institute: Urban trees, an underused tool for keeping people cool",
    "root": "practical",
-   "org": false
+   "org": false,
+   "date": "2026-16-04",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.wtwco.com/en-hk/solutions/services/parametric-solutions",

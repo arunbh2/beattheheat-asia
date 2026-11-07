@@ -455,6 +455,7 @@ if (D.HEAT_VISIBILITY) md.push(VT.markdown(D.HEAT_VISIBILITY, SITE));
 // ---- who could help a household through a hot season: page by tools/build-social-protection.js, the same words from tools/social-protection-text.js ----
 const SPT = require("./social-protection-text.js");
 if ((D.SOCIAL_PROTECTION || []).length) md.push(SPT.md(D.SOCIAL_PROTECTION, SITE));
+const GT = require("./growth-text.js"); md.push(GT.md(SITE));
 
 // ---- write the pages ----
 [...PAGES, ...CITY_PAGES].forEach(p => { const dir = path.join(ROOT, p.slug); fs.mkdirSync(dir, { recursive: true }); fs.writeFileSync(path.join(dir, "index.html"), out[p.slug]); });
@@ -484,6 +485,8 @@ ${CITY_PAGES.map(p => `- [${p.short}](${SITE}/${p.slug}/): ${p.title}`).join("\n
 ## How heat became visible
 
 - [${VT.TITLE}](${SITE}/${VT.SLUG}/): when science, health, labour, finance and the UN began to notice extreme heat, and who was still missing; a graded timeline, the turning points and how heat appears in IPCC reports (also in llms-full.txt)
+
+- [${GT.TITLE}](${SITE}/${GT.SLUG}/): how the knowledge on Common Shade is changing: each change with why it matters, its sources, what it connects to and what it took to add, the corrections, and the work it draws on dated by year of publication (also in llms-full.txt)
 
 ${(D.SOCIAL_PROTECTION || []).length ? `## Social protection and heat
 
@@ -533,7 +536,7 @@ require("./build-print")().then(list => {
   console.log("Wrote", list.length, "printable one-pagers");
   // last of all, once every page exists: one navigation on every page
   require("./build-ticker.js");
-  require("./build-pages.js"); require("./build-everything.js")({ llms: true }); require("./build-nav.js")(); require("./shorts/embed.js"); require("./explainers/embed.js");
+  require("./growth-dates.js"); require("./build-pages.js"); require("./build-everything.js")({ llms: true }); require("./build-nav.js")(); require("./shorts/embed.js"); require("./explainers/embed.js");
   // the sitemap lists every page that exists, so new sections never go missing from search engines
   {
     const urls = [], skip = /^(tools|media|node_modules|research|data|images|feeds|\.git|\.github|\.claude|\.agents)$/;

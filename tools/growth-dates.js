@@ -91,7 +91,10 @@ for (const s of src.values()) {
 // dates fetched on GitHub (tools/fetch-dates.js), when that run has happened
 const FETCHED = path.join(ROOT, "research/growth/fetched-dates.json");
 if (fs.existsSync(FETCHED)) for (const [u, d] of Object.entries(J("research/growth/fetched-dates.json"))) {
-  const s = src.get(u), k = d && dateFrom(d.date); if (s && k && HOW[d.how]) { const c = { ...k, how: d.how }; if (rank(c) > rank(s)) Object.assign(s, c); } }
+  const s = src.get(u), k = d && dateFrom(d.date); if (!s || !k || !HOW[d.how]) continue;
+  // a page's metadata can carry the date it was republished: where the source's own label prints another year, the label wins
+  if (d.how === "meta" && s.how === "label" && s.date !== k.date.slice(0, 4)) continue;
+  const c = { ...k, how: d.how }; if (rank(c) > rank(s)) Object.assign(s, c); }
 
 const list = [...src.values()].sort((a, b) => a.url < b.url ? -1 : 1);
 const undated = list.filter(s => !s.date && !s.org);

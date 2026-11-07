@@ -49,6 +49,9 @@
     var panels = document.querySelectorAll("[data-panel]"), hint = document.querySelector("[data-panel-hint]"), guide = document.querySelector("[data-guide]");
     var roots = [].slice.call(document.querySelectorAll("[data-root]")), fits = document.querySelectorAll("[data-fit]");
     var base = guide ? guide.innerHTML : "", S = { way: "", roots: [] };
+    // arriving from a change on /growing/ (?about=...): name it, so it can be mentioned in the form
+    var about = ""; try { about = (new URLSearchParams(location.search).get("about") || "").slice(0, 160); } catch (e) {}
+    var aboutEsc = about.replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; });
     document.documentElement.classList.add("jn-js");
     function names() { return roots.filter(function (r) { return S.roots.indexOf(r.dataset.root) > -1; }).map(function (r) { return r.querySelector("b").textContent; }); }
     function sync() {
@@ -58,7 +61,8 @@
       roots.forEach(function (r) { r.setAttribute("aria-pressed", String(S.roots.indexOf(r.dataset.root) > -1)); });
       fits.forEach(function (f) { f.hidden = S.roots.indexOf(f.dataset.fit) < 0; });
       if (guide) { var n = names();
-        guide.innerHTML = (S.way ? GUIDE[S.way] : base) + (n.length ? " <span class=\"jn-guide__roots\">You told us you work on " + n.join(", ").toLowerCase() + ": mentioning it in the form helps the right person read it.</span>" : ""); }
+        guide.innerHTML = (S.way ? GUIDE[S.way] : base) + (n.length ? " <span class=\"jn-guide__roots\">You told us you work on " + n.join(", ").toLowerCase() + ": mentioning it in the form helps the right person read it.</span>" : "") +
+          (about ? " <span class=\"jn-guide__roots\">You are writing about “" + aboutEsc + "”: naming it in the form helps the right person read it.</span>" : ""); }
     }
     function pick(w, focus) { S.way = w; sync(); if (focus) { var b = document.getElementById("way-" + w); if (b) b.focus(); } }
     ways.forEach(function (w, i) {
