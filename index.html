@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Newsreader:ital,wght@0,400;0,500;1,400&display=swap">
 
-  <link rel="stylesheet" href="styles.css?v=178">
+  <link rel="stylesheet" href="styles.css?v=179">
 
   <script type="application/ld+json">
   {
@@ -111,12 +111,12 @@
   }
   </script>
   <link rel="alternate" type="text/plain" href="/llms-full.txt" title="The whole map as plain text">
-  <script src="data.js?v=178" defer></script>
-  <script src="script.js?v=178" defer></script>
-  <script src="heatweek.js?v=178" defer></script>
-  <script src="guide.js?v=178" defer></script>
-  <script src="journey.js?v=178" defer></script>
-  <script src="/join.js?v=178" defer></script>
+  <script src="data.js?v=179" defer></script>
+  <script src="script.js?v=179" defer></script>
+  <script src="heatweek.js?v=179" defer></script>
+  <script src="guide.js?v=179" defer></script>
+  <script src="journey.js?v=179" defer></script>
+  <script src="/join.js?v=179" defer></script>
 <!--csn--><style id="csn-css">html:has(.csn){scroll-padding-top:120px}
 .csn,.csf,.csn-d,.csp{--ink:#16202B;--ink2:#39424D;--grey:#5E6570;--canvas:#FAF7F2;--sand:#F2E7D9;--line:#E6DFD4;--orange:#F26430;--ember:#B8401A;--green:#17703A;font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);line-height:1.4}
 .csn{position:sticky;top:0;z-index:60;margin:0!important;padding:0!important;max-width:none!important;display:block!important;background:rgba(250,247,242,.96);border-bottom:1px solid var(--line);-webkit-backdrop-filter:saturate(1.2) blur(10px);backdrop-filter:saturate(1.2) blur(10px)}
@@ -418,16 +418,6 @@ html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{
           <line x1="24" y1="400" x2="616" y2="400" stroke="#F6E7D7" stroke-width="2" stroke-linecap="round" opacity=".3"/>
         </svg>
         </div>
-        <dl class="stats">
-          <div><dt>Systems mapped</dt><dd data-stat="systems">10</dd></div>
-          <div><dt>Consequences mapped</dt><dd data-stat="consequences">87</dd></div>
-          <div class="stat--urgent"><dt>Vicious cycles</dt><dd data-stat="loops">21</dd></div>
-          <div class="stat--break"><dt>Places to break them</dt><dd data-stat="levers">29</dd></div>
-          <div><dt>Institutions holding levers</dt><dd data-stat="institutions">14</dd></div>
-        </dl>
-        <div class="intro__foot">
-          <p class="honest">This map is large, but the real web is larger. Every heatwave reveals links that aren’t drawn here yet.</p>
-        </div>
       </div>
     </section>
 
@@ -520,15 +510,26 @@ html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{
       <div class="container act__in">
         <p class="act__k"><span>Act 2</span>See how it connects</p>
         <h2 class="act__h" id="act-2-h">How does one harm lead to the next?</h2>
-        <p class="act__p">Heat rarely does one thing. Here is the whole web, every link sourced, and the vicious cycles that keep it turning.</p>
         <div class="act__acts"><span class="act__choose">Watch one harm become another, through</span><button type="button" class="btn btn--hero" data-story="sleep">a hot night at home</button><button type="button" class="btn btn--hero" data-story="energywater">a city’s power and water</button><button type="button" class="btn btn--hero" data-story="poverty">a worker’s pay</button><a class="act__quiet" href="#explore">Or explore freely</a></div>
         <p class="act__note">The guided view follows one vicious cycle, step by step. You can leave it at any moment and explore the whole map.</p>
       </div>
     </section>
 
-    <section class="explorer" id="explore" aria-labelledby="explore-title">
+    <section class="explorer story story--act2" id="explore" aria-labelledby="explore-title">
       <div class="container">
-        <h2 id="explore-title" class="visually-hidden">The web of extreme heat</h2>
+        <header class="story__head explorer__head">
+          <p class="eyebrow">The web of extreme heat</p>
+          <h2 id="explore-title" class="h2 story__h">One harm leads to the next.</h2>
+          <p class="story__lede">Heat rarely does one thing. Here is the whole web, every link sourced, and the vicious cycles that keep it turning.</p>
+        </header>
+        <dl class="stats explorer__stats">
+          <div><dt>Systems mapped</dt><dd data-stat="systems">10</dd></div>
+          <div><dt>Consequences mapped</dt><dd data-stat="consequences">87</dd></div>
+          <div class="stat--urgent"><dt>Vicious cycles</dt><dd data-stat="loops">21</dd></div>
+          <div class="stat--break"><dt>Places to break them</dt><dd data-stat="levers">29</dd></div>
+          <div><dt>Institutions holding levers</dt><dd data-stat="institutions">14</dd></div>
+        </dl>
+        <p class="honest explorer__honest">This map is large, but the real web is larger. Every heatwave reveals links that aren’t drawn here yet.</p>
 
         <div class="toolbar">
           <div class="filters" id="filters" role="group" aria-label="Show one system"></div>
@@ -538,35 +539,37 @@ html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{
             <button type="button" class="btn btn--sm" data-map-whole>Show the whole map</button>
           </div>
 
-          <div class="toolbar__row">
-            <label class="who-select">
-              <span class="visually-hidden">Show the levers an institution holds</span>
-              <select id="who"></select>
-            </label>
-            <label class="key key--switch key--break"><input type="checkbox" id="toggle-levers"><span class="switch" aria-hidden="true"></span>Show where loops break</label>
-            <label class="key key--switch key--cross"><input type="checkbox" id="toggle-all"><span class="switch" aria-hidden="true"></span>Show all <span data-stat="cross">61</span> cross-system links</label>
-          </div>
-
-          <div class="breakbar" id="breakbar">
-            <div class="breakbar__head">
-              <span class="breakbar__label"><span class="lever-icon lever-icon--sm" aria-hidden="true"></span>Break the loops</span>
-              <span class="breakbar__count"><b data-break-count>0</b> of <span data-stat="loops">18</span> vicious cycles these actions could help interrupt</span>
-              <span class="breakbar__meter" aria-hidden="true"><span id="break-meter"></span></span>
-              <button type="button" id="break-reset" class="link" data-act="reset-levers" hidden>Switch everything off</button>
+          <details class="map-tools">
+            <summary>Map tools <span>who can act, break the loops, follow a path from one harm to another</span></summary>
+            <div class="toolbar__row">
+              <label class="who-select">
+                <span class="visually-hidden">Show the levers an institution holds</span>
+                <select id="who"></select>
+              </label>
+              <label class="key key--switch key--break"><input type="checkbox" id="toggle-levers"><span class="switch" aria-hidden="true"></span>Show where loops break</label>
+              <label class="key key--switch key--cross"><input type="checkbox" id="toggle-all"><span class="switch" aria-hidden="true"></span>Show all <span data-stat="cross">61</span> cross-system links</label>
             </div>
-            <div class="pkg-chips" id="pkg-chips" role="group" aria-label="Policy packages"></div>
-            <p class="breakbar__hint">Choose a package, or turn on “Show where loops break”, click any break marker on the map and switch it on. This is an illustrative systems map: real effect depends on reach, quality and how long an action lasts. <a href="#method">How this map works</a></p>
-          </div>
 
-          <form class="pathfinder" id="path-form">
-            <label for="path-from">How does</label>
-            <select id="path-from"></select>
-            <button type="button" class="pathfinder__swap" data-act="swap-path" aria-label="Swap">⇄</button>
-            <label for="path-to">lead to</label>
-            <select id="path-to"></select>
-            <button class="btn btn--sm" type="submit">Show the path</button>
-          </form>
+            <div class="breakbar" id="breakbar">
+              <div class="breakbar__head">
+                <span class="breakbar__label"><span class="lever-icon lever-icon--sm" aria-hidden="true"></span>Break the loops</span>
+                <span class="breakbar__count"><b data-break-count>0</b> of <span data-stat="loops">18</span> vicious cycles these actions could help interrupt</span>
+                <span class="breakbar__meter" aria-hidden="true"><span id="break-meter"></span></span>
+                <button type="button" id="break-reset" class="link" data-act="reset-levers" hidden>Switch everything off</button>
+              </div>
+              <div class="pkg-chips" id="pkg-chips" role="group" aria-label="Policy packages"></div>
+              <p class="breakbar__hint">Choose a package, or turn on “Show where loops break”, click any break marker on the map and switch it on. This is an illustrative systems map: real effect depends on reach, quality and how long an action lasts. <a href="#method">How this map works</a></p>
+            </div>
 
+            <form class="pathfinder" id="path-form">
+              <label for="path-from">How does</label>
+              <select id="path-from"></select>
+              <button type="button" class="pathfinder__swap" data-act="swap-path" aria-label="Swap">⇄</button>
+              <label for="path-to">lead to</label>
+              <select id="path-to"></select>
+              <button class="btn btn--sm" type="submit">Show the path</button>
+            </form>
+          </details>
           <div class="legend" role="group" aria-label="How to read the map">
             <span class="key"><span class="key__line key__line--direct"></span>Direct impact</span>
             <span class="key"><span class="key__line key__line--knock"></span>Knock-on effect</span>
