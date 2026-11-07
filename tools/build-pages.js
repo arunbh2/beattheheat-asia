@@ -76,8 +76,8 @@ write("paths", page("paths", "Paths by role", "Short, guided routes through Comm
   `${hero("Paths by role", "Find your way in", "Common Shade is large on purpose. You do not need all of it. Each path is five or so stops, each answering one question your work asks. Your choice stays in this browser, and you can leave a path at any time.")}
     <section class="container hub"><ul class="hub-paths hub-paths--big">${PATHS.paths.map(p => `<li><a href="/paths/${p.id}/"><b>${esc(p.label)}</b><span>${esc(p.card)}</span><small>${p.stops.length} stops</small></a></li>`).join("")}</ul></section>`));
 for (const p of PATHS.paths) {
-  const stops = p.stops.map((s, i) => `<li class="path-stop"><span class="path-n">${i + 1}</span><div><h2><a href="${s.url}">${esc(s.q)}</a></h2><p>${esc(s.why)}</p>
-      ${s.read.length ? `<p class="path-read"><b>Read first:</b> ${s.read.map(([a, t]) => `<a href="${s.url}${a}">${esc(t)}</a>`).join(" · ")}</p>` : ""}${s.do ? `<p class="path-read"><b>Then:</b> <a href="${s.do[0]}">${esc(s.do[1])}</a></p>` : ""}</div></li>`).join("");
+  const stops = p.stops.map((s, i) => `<li class="path-stop"><span class="path-n">${i + 1}</span><div><h2><a href="${s.url}">${esc(s.q)}</a></h2><p>${esc(fillCounts(s.why))}</p>
+      ${s.read.length ? `<p class="path-read"><b>Read first:</b> ${s.read.map(([a, t]) => `<a href="${s.url}${a}">${esc(t)}</a>`).join(" · ")}</p>` : ""}${s.do ? `<p class="path-read"><b>Then:</b> <a href="${s.do[0]}">${esc(fillCounts(s.do[1]))}</a></p>` : ""}</div></li>`).join("");
   write(`paths/${p.id}`, page(`paths/${p.id}`, `${p.label}: a path through Common Shade`, `${p.card} A guided path for ${p.label.toLowerCase()}.`,
     `${hero("Paths by role", esc(p.label), esc(p.card))}
     <section class="container hub"><p class="path-start"><a class="hub-go hub-go--btn" href="${p.stops[0].url}" data-csn-setpath="${p.id}">Follow this path <span aria-hidden="true">→</span></a> <span>Your next stop will appear at the top of each page.</span></p>
