@@ -8,7 +8,7 @@
 - Two broad claims did not pass: that irrigation always reduces worker heat exposure, and that sleep loss always increases next-day physiological heat strain. Metric and experimental conditions matter. [S3, S10, S11]
 - Forest cooling loss merits a conditional return link, with a clear distinction between clearing and heat-driven dieback. Evidence remains concentrated in India, with one Indonesian experiment; other countries and untested map nodes remain open. [S8]
 
-Baseline: [current loop registry](https://github.com/arunbh2/beattheheat-asia/blob/2426367458a858372a5aa23625e96c8169869f50/data/core/LOOPS.json). The registry is used only to identify existing map content, not as scientific evidence. No map changes have been applied.
+Baseline: current loop registry, data/core/LOOPS.json at commit 2426367458a858372a5aa23625e96c8169869f50 (link to the repository removed in November 2026; the commit is named so the baseline can still be found). The registry is used only to identify existing map content, not as scientific evidence. No map changes have been applied.
 
 # B. NEW OR UPDATED HARMS
 
