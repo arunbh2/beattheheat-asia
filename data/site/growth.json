@@ -291,7 +291,7 @@
                 { "to": "loop:poverty", "why": "Support that arrives in time can keep a hot season from pushing a household into the poverty cycle.", "basis": "editorial" }]
     },
     {
-      "id": "g-news-to-evidence", "kind": "tool", "root": "evidence", "added": "2026-11-07", "pr": null,
+      "id": "g-news-to-evidence", "kind": "tool", "root": "evidence", "added": "2026-11-07", "pr": 214,
       "title": "The news page now shows what became of each paper and headline",
       "why": "Coverage and checked evidence are easy to confuse. Every paper on the news page now goes through the weekly evidence review, and each item shows whether it is on the Evidence map, in review, set aside or still waiting.",
       "places": ["region"], "people": [], "topics": ["invisible"],
@@ -301,7 +301,7 @@
       "links": [{ "to": "page:/evidence-map/", "why": "Accepted papers join their cycles on the Evidence map.", "basis": "record" }]
     },
     {
-      "id": "g-question-history", "kind": "tool", "root": "evidence", "added": "2026-11-07", "pr": null,
+      "id": "g-question-history", "kind": "tool", "root": "evidence", "added": "2026-11-07", "pr": 213,
       "title": "Every open question now carries its own dated history",
       "why": "A question that moves is easier to trust than one that simply changes. Each step now shows when it happened, what moved it and which records did, and advanced is never shown as answered.",
       "places": ["region"], "people": [], "topics": ["clinic", "invisible"],
@@ -320,6 +320,20 @@
       "count": "step-questions",
       "pages": [["/social-protection/#steps", "Steps of access"]], "action": ["Help answer a question", "/join/"],
       "links": [{ "to": "lever:socialprotection", "why": "The questions ask whether social protection reaches households in time and in full.", "basis": "record" }]
+    },
+    {
+      "id": "g-singapore-brief", "kind": "evidence", "root": "institutions", "added": "2026-11-07", "pr": null,
+      "title": "How Singapore organises for heat, traced to its own sources",
+      "why": "A country brief from the Southeast Asia heat-health hub described the coordination, triggers and research money behind Singapore's heat rules. Each insight was traced to the government or published source behind it, and only what those sources confirm reached the site.",
+      "places": ["singapore"], "people": ["workers", "older"], "topics": ["heatrules", "hap"],
+      "event": { "what": "Country brief published", "date": "2026-06" },
+      "finding": { "text": "Since March 2025 a heatwave is declared when the daily maximum reaches at least 35 °C and the daily mean at least 29 °C for three days in a row", "source": ["Malay Mail: Singapore's heatwave response plan, 2025", "https://www.malaymail.com/news/singapore/2025/03/20/singapore-rolls-out-cooling-measures-as-heatwave-response-plan-unveiled/170163"] },
+      "review": "Every claim checked against its source on GitHub; four that could not be confirmed were set aside and listed",
+      "effort": { "asked": "Which insights in Singapore's heat resilience brief can be confirmed from primary sources, and where on the site do they help?", "inbox": "data/inbox/2026-11-singapore-brief", "dropped": "research/2026-11/singapore-brief/dropped-after-check.json", "open": "How many heat illnesses Singapore's clinics see is still being studied." },
+      "pages": [["/cities/singapore/", "Singapore"], ["/plan/", "Plan a response"], ["/evidence-map/#q-clinic-load", "The learning agenda"]], "action": ["Read Singapore's page", "/cities/singapore/"],
+      "links": [{ "to": "lever:heatrules", "why": "The 2024 revision of the outdoor work rules updates the lever's Singapore example.", "basis": "record" },
+                { "to": "lever:hap", "why": "A clear heatwave trigger tied to measures for each sector is what a heat action plan sets out.", "basis": "record" },
+                { "to": "people:workers", "why": "Delivery riders, newly described on the workers' profile, have little room to stop in the heat.", "basis": "record" }]
     }
   ]
 }

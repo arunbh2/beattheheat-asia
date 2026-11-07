@@ -370,11 +370,15 @@
     "when": "season",
     "measure": "Worksites inspected and keeping rest-break rules",
     "text": "Rest, shade and water during dangerous heat, with paid breaks so that stopping work doesn’t mean losing pay.",
-    "example": "Singapore requires hourly wet-bulb globe temperature checks on outdoor worksites and at least 10 minutes’ shaded rest each hour for heavy work at 32 °C or above; in 2024 it inspected 250 workplaces and acted against 78. Several Gulf states ban outdoor work during the hottest midday hours in summer. Since 2023, Spain has required employers to cut or move working hours when the weather agency issues an orange or red heat alert and other measures can’t keep workers safe. Tamil Nadu’s heat strategy proposes building heat protection into the state’s existing occupational safety rules, rather than waiting for a new law.",
+    "example": "Singapore requires hourly wet-bulb globe temperature checks on outdoor worksites and at least 10 minutes’ shaded rest each hour for heavy work at 32 °C or above; in 2024 it inspected 250 workplaces and acted against 78, and that September revised the rules to follow its three-level heat stress advisory, recommending at least 15 minutes’ rest an hour for heavy work at 33 °C or above. Several Gulf states ban outdoor work during the hottest midday hours in summer. Since 2023, Spain has required employers to cut or move working hours when the weather agency issues an orange or red heat alert and other measures can’t keep workers safe. Tamil Nadu’s heat strategy proposes building heat protection into the state’s existing occupational safety rules, rather than waiting for a new law.",
     "exampleSources": [
       {
         "label": "Singapore Ministry of Manpower, 2023",
         "url": "https://www.mom.gov.sg/newsroom/press-releases/2023/1024-enhanced-measures-to-reduce-heat-stress-for-outdoor-workers"
+      },
+      {
+        "label": "Ministry of Manpower: revised heat stress framework, 2024",
+        "url": "https://www.mom.gov.sg/newsroom/press-releases/2024/0906-revised-framework-to-guide-employers-and-protect-outdoor-workers-against-heat-stress"
       },
       {
         "label": "HRD Asia: 78 worksites found non-compliant",

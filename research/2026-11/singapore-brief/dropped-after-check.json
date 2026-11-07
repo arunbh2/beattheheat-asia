@@ -1,0 +1,35 @@
+[
+ {
+  "id": "c-changi",
+  "where": "Practical actions / worked example: employers beyond the rules",
+  "text": "Changi Airport Group describes cooling rest areas, hydration stations, protective wear, training and extra rest on hot days for about 30,000 airside workers.",
+  "missing": [
+   "changi: \"30,000\""
+  ]
+ },
+ {
+  "id": "c-military",
+  "where": "/how-heat-became-visible/ (candidate)",
+  "text": "Singapore's military has managed heat injuries in training for decades; a 2023 review traces how those policies developed.",
+  "missing": [
+   "sim-lee: \"Singapore Armed Forces\"",
+   "sim-lee: \"heat injuries\""
+  ]
+ },
+ {
+  "id": "c-rental",
+  "where": "Learning agenda: work under way on lived experience of heat at home",
+  "text": "A household study in Singapore looks at how residents, including those in rental flats, experience urban heat.",
+  "missing": [
+   "sutd-rental: \"rental\""
+  ]
+ },
+ {
+  "id": "c-gig-nopenalty",
+  "where": "Who is at risk: delivery riders",
+  "text": "Some platforms say they do not penalise riders who turn down orders in challenging weather.",
+  "missing": [
+   "brief: \"Deliveroo\""
+  ]
+ }
+]

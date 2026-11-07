@@ -155,8 +155,8 @@
     "year": "2023 onwards",
     "title": "Singapore’s heat rules for outdoor work",
     "trigger": "In one of the world’s densest, most humid cities, the commercial centre has measured up to about 7 °C warmer than the outskirts, and builders, shipyard and landscape workers labour outdoors through it. A study of 355 workers found each hot day cost a median S$21 in lost income.",
-    "decision": "In 2023 the National Environment Agency launched a national heat stress advisory based on wet-bulb globe temperature (WBGT), which counts humidity, sun and wind, with low, moderate and high levels. The Ministry of Manpower made employers check WBGT hourly at outdoor work, give at least 10 minutes’ shaded rest each hour for heavy work at 32 °C or above, help new workers acclimatise, and enforced it.",
-    "result": "In March and June 2024 the ministry inspected 250 workplaces and acted against 78, mainly for missing shaded rest breaks and acclimatisation. The rules have since been revised and strengthened. Their effect on heat illness has not yet been publicly evaluated.",
+    "decision": "In 2023 Singapore launched a national heat stress advisory, developed by the environment ministry and the National Environment Agency with the Ministry of Health and its expert panel on heat stress, based on wet-bulb globe temperature (WBGT), which counts humidity, sun and wind, with low, moderate and high levels. The Ministry of Manpower made employers check WBGT hourly at outdoor work, give at least 10 minutes’ shaded rest each hour for heavy work at 32 °C or above, help new workers acclimatise, and enforced it.",
+    "result": "In March and June 2024 the ministry inspected 250 workplaces and acted against 78, mainly for missing shaded rest breaks and acclimatisation. In September 2024 the rules were revised to follow the advisory’s three levels: at a WBGT of 33 °C or above, at least 15 minutes’ rest an hour is recommended for heavy work, new workers acclimatise over at least 7 days, and construction sites with contracts of S$5 million or more and shipyards are required to keep their own WBGT meters. Their effect on heat illness has not yet been publicly evaluated.",
     "actions": [
       {
         "lever": "heatrules",
@@ -191,6 +191,14 @@
       {
         "label": "HRD Asia: 78 of 250 worksites non-compliant, 2024",
         "url": "https://www.hcamag.com/asia/specialisation/employment-law/more-than-75-worksites-found-non-compliant-with-singapores-enhanced-heat-stress-measures-report/499570"
+      },
+      {
+        "label": "Ministry of Manpower: revised heat stress framework, 2024",
+        "url": "https://www.mom.gov.sg/newsroom/press-releases/2024/0906-revised-framework-to-guide-employers-and-protect-outdoor-workers-against-heat-stress"
+      },
+      {
+        "label": "Ministry of Manpower: heat stress measures for outdoor work",
+        "url": "https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work"
       },
       {
         "label": "NUS Project HeatSafe, 2024",

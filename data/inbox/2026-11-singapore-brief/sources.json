@@ -1,0 +1,465 @@
+[
+ {
+  "id": "src-sg-brief",
+  "type": "source",
+  "keys": [
+   "brief"
+  ],
+  "title": "A Multi-Stakeholder Approach for Urban Heat Resilience: Singapore's Experience",
+  "publisher": "Global Heat Health Information Network, Southeast Asia Hub",
+  "year": 2026,
+  "url": "https://heathealth.info/resources/a-multi-stakeholder-approach-for-urban-heat-resilience-singapores-experience/",
+  "kind": "Country brief",
+  "where": "Singapore",
+  "expect": [
+   "Singapore",
+   "Multi-Stakeholder",
+   "World Cities Summit",
+   "Deliveroo"
+  ],
+  "claims": [
+   "c-gig-nopenalty"
+  ],
+  "note": "Staged from the Singapore heat resilience brief batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261107183046/https://heathealth.info/resources/a-multi-stakeholder-approach-for-urban-heat-resilience-singapores-experience/"
+ },
+ {
+  "id": "src-sg-brief-pw",
+  "type": "source",
+  "keys": [
+   "brief-pw"
+  ],
+  "title": "A multi-stakeholder approach for urban heat resilience: Singapore's experience (listing)",
+  "publisher": "PreventionWeb",
+  "year": 2026,
+  "url": "https://www.preventionweb.net/publication/documents-and-publications/multi-stakeholder-approach-urban-heat-resilience-singapores",
+  "kind": "Listing",
+  "where": "Singapore",
+  "expect": [
+   "Singapore",
+   "multi-stakeholder",
+   "heat"
+  ],
+  "claims": [],
+  "note": "Staged from the Singapore heat resilience brief batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260907194436/https://www.preventionweb.net/publication/documents-and-publications/multi-stakeholder-approach-urban-heat-resilience-singapores"
+ },
+ {
+  "id": "src-sg-nus-news",
+  "type": "source",
+  "keys": [
+   "nus-news"
+  ],
+  "title": "New report documents Singapore's journey and multi-stakeholder approach toward urban heat resilience",
+  "publisher": "NUS Yong Loo Lin School of Medicine",
+  "year": 2026,
+  "url": "https://medicine.nus.edu.sg/?p=87067",
+  "kind": "News release",
+  "where": "Singapore",
+  "expect": [
+   "World Cities Summit",
+   "Southeast Asia Hub",
+   "Ministry of Manpower"
+  ],
+  "claims": [],
+  "note": "Staged from the Singapore heat resilience brief batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261107183124/https://medicine.nus.edu.sg/news/new-report-documents-singapores-journey-and-multi-stakeholder-approach-toward-urban-heat-resilience/"
+ },
+ {
+  "id": "src-sg-mom-page",
+  "type": "source",
+  "keys": [
+   "mom-page"
+  ],
+  "title": "Heat stress measures for outdoor work",
+  "publisher": "Ministry of Manpower, Singapore",
+  "year": 2024,
+  "url": "https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work",
+  "kind": "Official guidance",
+  "where": "Singapore",
+  "expect": [
+   "minimum of 15 minutes",
+   "minimum of 10 minutes",
+   "7 days",
+   "$5 million",
+   "shipyards"
+  ],
+  "claims": [
+   "c-rules-2024"
+  ],
+  "note": "Staged from the Singapore heat resilience brief batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260815171210/https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work"
+ },
+ {
+  "id": "src-sg-mom-pdf",
+  "type": "source",
+  "keys": [
+   "mom-pdf"
+  ],
+  "title": "Heat stress framework for outdoor workers",
+  "publisher": "Ministry of Manpower, Singapore",
+  "year": 2024,
+  "url": "https://mom.gov.sg/-/media/mom/documents/heat-stress-measures/heat-stress-framework-outdoor-workers.pdf",
+  "kind": "Official guidance",
+  "where": "Singapore",
+  "expect": [
+   "15 minutes",
+   "10 minutes",
+   "7 days",
+   "$5 million"
+  ],
+  "claims": [
+   "c-rules-2024"
+  ],
+  "note": "Staged from the Singapore heat resilience brief batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261019161214/https://www.mom.gov.sg/-/media/mom/documents/heat-stress-measures/heat-stress-framework-outdoor-workers.pdf"
+ },
+ {
+  "id": "src-sg-mom-2024",
+  "type": "source",
+  "keys": [
+   "mom-2024"
+  ],
+  "title": "Revised framework to guide employers and protect outdoor workers against heat stress",
+  "publisher": "Ministry of Manpower, Singapore",
+  "year": 2024,
+  "url": "https://www.mom.gov.sg/newsroom/press-releases/2024/0906-revised-framework-to-guide-employers-and-protect-outdoor-workers-against-heat-stress",
+  "kind": "Press release",
+  "where": "Singapore",
+  "expect": [
+   "three-tier Heat Stress Advisory",
+   "15 minutes",
+   "inspections"
+  ],
+  "claims": [
+   "c-rules-2024"
+  ],
+  "note": "Staged from the Singapore heat resilience brief batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260713035259/https://www.mom.gov.sg/newsroom/press-releases/2024/0906-revised-framework-to-guide-employers-and-protect-outdoor-workers-against-heat-stress"
+ },
+ {
+  "id": "src-sg-mse-2023",
+  "type": "source",
+  "keys": [
+   "mse-2023"
+  ],
+  "title": "Press release: Heat Stress Advisory",
+  "publisher": "Ministry of Sustainability and the Environment, Singapore",
+  "year": 2023,
+  "url": "https://www.mse.gov.sg/latest-news/press-release-heat-stress-advisory/",
+  "kind": "Press release",
+  "where": "Singapore",
+  "expect": [
+   "Ministry of Health",
+   "Expert Panel",
+   "Wet Bulb Globe Temperature"
+  ],
+  "claims": [
+   "c-advisory-joint"
+  ],
+  "note": "Staged from the Singapore heat resilience brief batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260606104314/https://www.mse.gov.sg/latest-news/press-release-heat-stress-advisory/"
+ },
+ {
+  "id": "src-sg-mse-mercury",
+  "type": "source",
+  "keys": [
+   "mse-mercury"
+  ],
+  "title": "Written reply to parliamentary question on Mercury Task Force to tackle heatwave",
+  "publisher": "Ministry of Sustainability and the Environment, Singapore",
+  "year": 2026,
+  "url": "https://www.mse.gov.sg/latest-news/written-reply-to-parliamentary-question-on-mercury-task-force-to-tackle-heatwave/",
+  "kind": "Parliamentary reply",
+  "where": "Singapore",
+  "expect": [
+   "Mercury",
+   "heatwave",
+   "Meteorological Service Singapore"
+  ],
+  "claims": [],
+  "note": "Staged from the Singapore heat resilience brief batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260714063744/https://www.mse.gov.sg/latest-news/written-reply-to-parliamentary-question-on-mercury-task-force-to-tackle-heatwave/"
+ },
+ {
+  "id": "src-sg-hrpc-plan",
+  "type": "source",
+  "keys": [
+   "hrpc-plan"
+  ],
+  "title": "Singapore's new heatwave response plan includes cooling spaces, suspension of outdoor activities",
+  "publisher": "NUS Heat Resilience and Performance Centre (reposting The Straits Times)",
+  "year": 2025,
+  "url": "https://medicine.nus.edu.sg/hrpc/singapores-new-heatwave-response-plan-includes-cooling-spaces-suspension-of-outdoor-activities/",
+  "kind": "News",
+  "where": "Singapore",
+  "expect": [
+   "35",
+   "29",
+   "three consecutive days",
+   "cooling spaces",
+   "37"
+  ],
+  "claims": [
+   "c-heatwave-def",
+   "c-taskforce-37"
+  ],
+  "note": "Staged from the Singapore heat resilience brief batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260514015850/https://medicine.nus.edu.sg/hrpc/singapores-new-heatwave-response-plan-includes-cooling-spaces-suspension-of-outdoor-activities/"
+ },
+ {
+  "id": "src-sg-malaymail-plan",
+  "type": "source",
+  "keys": [
+   "malaymail-plan"
+  ],
+  "title": "Singapore rolls out cooling measures as heatwave response plan unveiled",
+  "publisher": "Malay Mail",
+  "year": 2025,
+  "url": "https://www.malaymail.com/news/singapore/2025/03/20/singapore-rolls-out-cooling-measures-as-heatwave-response-plan-unveiled/170163",
+  "kind": "News",
+  "where": "Singapore",
+  "expect": [
+   "35",
+   "29",
+   "three consecutive days",
+   "Mercury",
+   "37"
+  ],
+  "claims": [
+   "c-heatwave-def",
+   "c-taskforce-37"
+  ],
+  "note": "Staged from the Singapore heat resilience brief batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20250409123807/https://www.malaymail.com/news/singapore/2025/03/20/singapore-rolls-out-cooling-measures-as-heatwave-response-plan-unveiled/170163"
+ },
+ {
+  "id": "src-sg-mse-cos-2026",
+  "type": "source",
+  "keys": [
+   "mse-cos-2026"
+  ],
+  "title": "Committee of Supply 2026: speech on heat resilience",
+  "publisher": "Ministry of Sustainability and the Environment, Singapore",
+  "year": 2026,
+  "url": "https://www.mse.gov.sg/latest-news/speech-by-sms-janil-puthucheary-committee-of-supply-2026/",
+  "kind": "Official speech",
+  "where": "Singapore",
+  "expect": [
+   "Heat Resilience Policy Office",
+   "Adapting to Heat Impacts",
+   "$40 million",
+   "Heat Resilience Action Plan",
+   "coordinate action, oversee research"
+  ],
+  "claims": [
+   "c-coordination",
+   "c-fund-40m"
+  ],
+  "note": "Staged from the Singapore heat resilience brief batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260829202856/https://www.mse.gov.sg/latest-news/speech-by-sms-janil-puthucheary-committee-of-supply-2026/"
+ },
+ {
+  "id": "src-sg-mse-pq-prep",
+  "type": "source",
+  "keys": [
+   "mse-pq-prep"
+  ],
+  "title": "Written reply to parliamentary question on heat preparedness",
+  "publisher": "Ministry of Sustainability and the Environment, Singapore",
+  "year": 2026,
+  "url": "https://www.mse.gov.sg/latest-news/written-reply-to-parliamentary-question-on-heat-preparedness/",
+  "kind": "Parliamentary reply",
+  "where": "Singapore",
+  "expect": [
+   "Heat Resilience Policy Office",
+   "RIE2030"
+  ],
+  "claims": [
+   "c-rie2030"
+  ],
+  "note": "Staged from the Singapore heat resilience brief batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261107183201/https://www.mse.gov.sg/latest-news/written-reply-to-parliamentary-question-on-heat-preparedness/"
+ },
+ {
+  "id": "src-sg-nccs",
+  "type": "source",
+  "keys": [
+   "nccs"
+  ],
+  "title": "Response to rising temperatures",
+  "publisher": "National Climate Change Secretariat, Singapore",
+  "year": 2026,
+  "url": "https://www.nccs.gov.sg/singapores-climate-action/adaptation-efforts/response-to-rising-temperatures/",
+  "kind": "Official page",
+  "where": "Singapore",
+  "expect": [
+   "Heat Stress Advisory",
+   "Cooling Singapore"
+  ],
+  "claims": [],
+  "note": "Staged from the Singapore heat resilience brief batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260913102711/https://www.nccs.gov.sg/singapores-climate-action/adaptation-efforts/response-to-rising-temperatures/"
+ },
+ {
+  "id": "src-sg-changi",
+  "type": "source",
+  "keys": [
+   "changi"
+  ],
+  "title": "Enhancing heat resilience",
+  "publisher": "Changi Airport Group",
+  "year": 2025,
+  "url": "https://www.changiairport.com/en/corporate/our-sustainability-efforts/environment/enhancing-heat-resilience.html",
+  "kind": "Organisation page",
+  "where": "Singapore",
+  "expect": [
+   "30,000",
+   "heat stress",
+   "rest"
+  ],
+  "claims": [
+   "c-changi"
+  ],
+  "note": "Staged from the Singapore heat resilience brief batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260618105750/https://www.changiairport.com/en/corporate/our-sustainability-efforts/environment/enhancing-heat-resilience.html"
+ },
+ {
+  "id": "src-sg-sim-lee",
+  "type": "source",
+  "keys": [
+   "sim-lee"
+  ],
+  "title": "A History of Heat Health Management Policies in the Singapore Military",
+  "publisher": "Sim and Lee, Healthcare",
+  "year": 2023,
+  "url": "https://www.mdpi.com/2227-9032/11/2/211",
+  "kind": "Peer-reviewed review",
+  "where": "Singapore",
+  "expect": [
+   "Singapore Armed Forces",
+   "heat injuries",
+   "1970s"
+  ],
+  "claims": [
+   "c-military"
+  ],
+  "note": "Staged from the Singapore heat resilience brief batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260125102233/https://www.mdpi.com/2227-9032/11/2/211"
+ },
+ {
+  "id": "src-sg-moh-heatmap",
+  "type": "source",
+  "keys": [
+   "moh-heatmap"
+  ],
+  "title": "Using findings of HEAT-MAP study to help elderly recognise common symptoms of heat-related illnesses",
+  "publisher": "Ministry of Health, Singapore",
+  "year": 2026,
+  "url": "https://www.moh.gov.sg/newsroom/using-findings-of-heat-map-study-to-help-elderly-recognise-common-symptoms-of-heat-related-illnesses-and-seek-timely-medical-advice/",
+  "kind": "Parliamentary reply",
+  "where": "Singapore",
+  "expect": [
+   "HEAT",
+   "heat-related illness",
+   "epidemiology"
+  ],
+  "claims": [
+   "c-heatmap"
+  ],
+  "note": "Staged from the Singapore heat resilience brief batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261107183230/https://www.moh.gov.sg/newsroom/using-findings-of-heat-map-study-to-help-elderly-recognise-common-symptoms-of-heat-related-illnesses-and-seek-timely-medical-advice/"
+ },
+ {
+  "id": "src-sg-sutd-rental",
+  "type": "source",
+  "keys": [
+   "sutd-rental"
+  ],
+  "title": "Towards a climate resilient citizenry: population household study for understanding experience of urban heat in Singapore",
+  "publisher": "Singapore University of Technology and Design, Lee Kuan Yew Centre for Innovative Cities",
+  "year": 2025,
+  "url": "https://www.sutd.edu.sg/lkycic/publication-listing/towards-a-climate-resilient-citizenry-population-household-study-for-understanding-experience-of-urban-heat-in-singapore/",
+  "kind": "Research report listing",
+  "where": "Singapore",
+  "expect": [
+   "urban heat",
+   "household",
+   "rental"
+  ],
+  "claims": [
+   "c-rental"
+  ],
+  "note": "Staged from the Singapore heat resilience brief batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260514131651/https://www.sutd.edu.sg/lkycic/publication-listing/towards-a-climate-resilient-citizenry-population-household-study-for-understanding-experience-of-urban-heat-in-singapore/"
+ },
+ {
+  "id": "src-sg-paa",
+  "type": "source",
+  "keys": [
+   "paa"
+  ],
+  "title": "Philanthropy Asia Alliance supports Southeast Asia Heat Health Hub to scale coordinated action on extreme heat",
+  "publisher": "Eco-Business (press release)",
+  "year": 2026,
+  "url": "https://www.eco-business.com/press-releases/philanthropy-asia-alliance-supports-southeast-asia-heat-health-hub-to-scale-coordinated-action-on-extreme-heat/",
+  "kind": "Press release",
+  "where": "Singapore",
+  "expect": [
+   "Philanthropy Asia Alliance",
+   "Indonesia",
+   "Thailand",
+   "Hub"
+  ],
+  "claims": [
+   "c-hub"
+  ],
+  "note": "Staged from the Singapore heat resilience brief batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261107183300/https://www.eco-business.com/press-releases/philanthropy-asia-alliance-supports-southeast-asia-heat-health-hub-to-scale-coordinated-action-on-extreme-heat/"
+ },
+ {
+  "id": "src-sg-ghhin-sea",
+  "type": "source",
+  "keys": [
+   "ghhin-sea"
+  ],
+  "title": "Global Heat Health Information Network: Southeast Asia Hub",
+  "publisher": "Global Heat Health Information Network",
+  "year": 2026,
+  "url": "https://heathealth.info/southeastasia/",
+  "kind": "Organisation page",
+  "where": "Singapore",
+  "expect": [
+   "Southeast Asia",
+   "Hub"
+  ],
+  "claims": [
+   "c-hub"
+  ],
+  "note": "Staged from the Singapore heat resilience brief batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260724102313/https://heathealth.info/southeastasia/"
+ },
+ {
+  "id": "src-sg-gig-fee",
+  "type": "source",
+  "keys": [
+   "gig-fee"
+  ],
+  "title": "Heatwave fee for Asia's gig workers does little to cool climate stress",
+  "publisher": "Eco-Business",
+  "year": 2025,
+  "url": "https://www.eco-business.com/news/heatwave-fee-for-asias-gig-workers-does-little-to-cool-climate-stress/",
+  "kind": "News",
+  "where": "Singapore",
+  "expect": [
+   "Grab",
+   "heat",
+   "riders"
+  ],
+  "claims": [
+   "c-gig"
+  ],
+  "note": "Staged from the Singapore heat resilience brief batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260714130530/https://www.eco-business.com/news/heatwave-fee-for-asias-gig-workers-does-little-to-cool-climate-stress/"
+ }
+]

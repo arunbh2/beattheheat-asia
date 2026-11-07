@@ -20,7 +20,7 @@
   "changed": "2026-11-07"
  },
  "/actions/": {
-  "hash": "4e6e19a6052def17",
+  "hash": "ff3e94e3d4282334",
   "changed": "2026-11-07"
  },
  "/approach/": {
@@ -96,8 +96,8 @@
   "changed": "2026-11-06"
  },
  "/cities/singapore/": {
-  "hash": "9da7e05a4f368734",
-  "changed": "2026-11-06"
+  "hash": "65772840cb8df8c0",
+  "changed": "2026-11-07"
  },
  "/cooling-options/": {
   "hash": "d0ef31f5aa5c60c6",
@@ -140,7 +140,7 @@
   "changed": "2026-11-06"
  },
  "/evidence-map/": {
-  "hash": "2b51243d8362745e",
+  "hash": "0513efc8f7a3a2fd",
   "changed": "2026-11-07"
  },
  "/evidence/": {
@@ -160,7 +160,7 @@
   "changed": "2026-11-07"
  },
  "/growing/": {
-  "hash": "38e7f1fa95e7fa1e",
+  "hash": "8e44d499ff7a1f1c",
   "changed": "2026-11-07"
  },
  "/guide/": {
@@ -192,7 +192,7 @@
   "changed": "2026-11-06"
  },
  "/heat-network/": {
-  "hash": "46ae5e1f42f7e588",
+  "hash": "529252ad3708f7cf",
   "changed": "2026-11-07"
  },
  "/heatwaves/": {
@@ -356,7 +356,7 @@
   "changed": "2026-11-07"
  },
  "/print/city-singapore/": {
-  "hash": "af830caca086fc1d",
+  "hash": "977961c0735f1091",
   "changed": "2026-11-07"
  },
  "/print/community-workshop-guide/": {
@@ -440,7 +440,7 @@
   "changed": "2026-11-06"
  },
  "/sources/": {
-  "hash": "8df23c5ec06d65af",
+  "hash": "9b1d2bb7f077b564",
   "changed": "2026-11-07"
  },
  "/the-web/": {
@@ -464,11 +464,11 @@
   "changed": "2026-10-01"
  },
  "/who-is-at-risk/": {
-  "hash": "3118899ebcaa1275",
+  "hash": "47e04f7915935e98",
   "changed": "2026-11-07"
  },
  "/worked-plans/": {
-  "hash": "28de2bca6b1e17d8",
-  "changed": "2026-11-06"
+  "hash": "4ddbfd6fdfd36ae5",
+  "changed": "2026-11-07"
  }
 }

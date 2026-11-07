@@ -2200,11 +2200,19 @@
     "levers": ["anticipatory","hap"]
   },
   {
+    "id": "ghhinsea",
+    "role": "asia",
+    "name": "Global Heat Health Information Network, Southeast Asia Hub",
+    "url": "https://heathealth.info/southeastasia/",
+    "does": "Based in Singapore, shares heat-health evidence and practice across the region; Philanthropy Asia Alliance supports its work in countries including Indonesia and Thailand.",
+    "levers": ["hap"]
+  },
+  {
     "id": "ministryofsustainability",
     "role": "asia",
     "name": "Ministry of Sustainability and the Environment, Singapore",
-    "url": "https://www.mse.gov.sg",
-    "does": "Coordinates heat resilience and sustainable cooling policy.",
+    "url": "https://www.mse.gov.sg/latest-news/speech-by-sms-janil-puthucheary-committee-of-supply-2026/",
+    "does": "Coordinates heat resilience and sustainable cooling policy. In March 2026 it set up a Heat Resilience Policy Office to coordinate action across agencies, oversee research and draft a heat resilience action plan, and announced a S$40 million ‘Adapting to Heat Impacts’ funding initiative for research on heat impacts and community heat resilience, within its RIE2030 Heat Resilience R&D Programme.",
     "levers": ["coolingcentres","hap","heatbudget"]
   },
   {

@@ -2,7 +2,7 @@
   {
     "id": "temp",
     "name": "Forecast daily maximum temperature",
-    "eg": "India’s weather service declares a heatwave in the plains when the maximum reaches 40 °C and is 4.5 °C or more above normal, or reaches 45 °C. The Bangladesh Red Crescent acts on forecasts above 38 °C in Dhaka.",
+    "eg": "India’s weather service declares a heatwave in the plains when the maximum reaches 40 °C and is 4.5 °C or more above normal, or reaches 45 °C. The Bangladesh Red Crescent acts on forecasts above 38 °C in Dhaka. Singapore declares a heatwave when the daily maximum reaches at least 35 °C and the daily mean at least 29 °C for three days in a row.",
     "sources": [
       {
         "label": "India Meteorological Department: heatwave definitions",
@@ -11,6 +11,10 @@
       {
         "label": "Red Cross Red Crescent Climate Centre on Dhaka, 2024",
         "url": "https://www.climatecentre.org/13733/red-crescent-activates-early-action-protocol-for-heatwaves-in-dhaka/"
+      },
+      {
+        "label": "Malay Mail: Singapore’s heatwave response plan, 2025",
+        "url": "https://www.malaymail.com/news/singapore/2025/03/20/singapore-rolls-out-cooling-measures-as-heatwave-response-plan-unveiled/170163"
       }
     ]
   },
@@ -28,7 +32,7 @@
   {
     "id": "wbgt",
     "name": "Wet-bulb globe temperature (heat, humidity, sun and wind)",
-    "eg": "Singapore’s advisory marks high heat stress at 33 °C, and employers must give shaded rest every hour for heavy outdoor work from 32 °C.",
+    "eg": "Singapore’s advisory marks high heat stress at 33 °C, and employers must give shaded rest every hour for heavy outdoor work from 32 °C. Since 2024, at least 15 minutes’ rest an hour is recommended at 33 °C or above.",
     "sources": [
       {
         "label": "Singapore: Heat Stress Advisory, 2023",
@@ -37,6 +41,10 @@
       {
         "label": "Singapore Ministry of Manpower, 2023",
         "url": "https://www.mom.gov.sg/newsroom/press-releases/2023/1024-enhanced-measures-to-reduce-heat-stress-for-outdoor-workers"
+      },
+      {
+        "label": "Ministry of Manpower: heat stress measures for outdoor work",
+        "url": "https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work"
       }
     ]
   },
