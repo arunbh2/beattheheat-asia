@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Newsreader:ital,wght@0,400;0,500;1,400&display=swap">
 
-  <link rel="stylesheet" href="styles.css?v=180">
+  <link rel="stylesheet" href="styles.css?v=181">
 
   <script type="application/ld+json">
   {
@@ -111,12 +111,12 @@
   }
   </script>
   <link rel="alternate" type="text/plain" href="/llms-full.txt" title="The whole map as plain text">
-  <script src="data.js?v=180" defer></script>
-  <script src="script.js?v=180" defer></script>
-  <script src="heatweek.js?v=180" defer></script>
-  <script src="guide.js?v=180" defer></script>
-  <script src="journey.js?v=180" defer></script>
-  <script src="/join.js?v=180" defer></script>
+  <script src="data.js?v=181" defer></script>
+  <script src="script.js?v=181" defer></script>
+  <script src="heatweek.js?v=181" defer></script>
+  <script src="guide.js?v=181" defer></script>
+  <script src="journey.js?v=181" defer></script>
+  <script src="/join.js?v=181" defer></script>
 <!--csn--><style id="csn-css">html:has(.csn){scroll-padding-top:120px}
 .csn,.csf,.csn-d,.csp{--ink:#16202B;--ink2:#39424D;--grey:#5E6570;--canvas:#FAF7F2;--sand:#F2E7D9;--line:#E6DFD4;--orange:#F26430;--ember:#B8401A;--green:#17703A;font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);line-height:1.4}
 .csn{position:sticky;top:0;z-index:60;margin:0!important;padding:0!important;max-width:none!important;display:block!important;background:rgba(250,247,242,.96);border-bottom:1px solid var(--line);-webkit-backdrop-filter:saturate(1.2) blur(10px);backdrop-filter:saturate(1.2) blur(10px)}
@@ -524,9 +524,9 @@ html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{
         </header>
         <dl class="stats explorer__stats">
           <div><dt>Systems mapped</dt><dd data-stat="systems">10</dd></div>
-          <div><dt>Consequences mapped</dt><dd data-stat="consequences">87</dd></div>
+          <div><dt>Consequences mapped</dt><dd data-stat="consequences">90</dd></div>
           <div class="stat--urgent"><dt>Vicious cycles</dt><dd data-stat="loops">21</dd></div>
-          <div class="stat--break"><dt>Places to break them</dt><dd data-stat="levers">29</dd></div>
+          <div class="stat--break"><dt>Places to break them</dt><dd data-stat="levers">33</dd></div>
           <div><dt>Institutions holding levers</dt><dd data-stat="institutions">14</dd></div>
         </dl>
         <p class="honest explorer__honest">This map is large, but the real web is larger. Every heatwave reveals links that aren’t drawn here yet.</p>
@@ -547,13 +547,13 @@ html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{
                 <select id="who"></select>
               </label>
               <label class="key key--switch key--break"><input type="checkbox" id="toggle-levers"><span class="switch" aria-hidden="true"></span>Show where loops break</label>
-              <label class="key key--switch key--cross"><input type="checkbox" id="toggle-all"><span class="switch" aria-hidden="true"></span>Show all <span data-stat="cross">61</span> cross-system links</label>
+              <label class="key key--switch key--cross"><input type="checkbox" id="toggle-all"><span class="switch" aria-hidden="true"></span>Show all <span data-stat="cross">86</span> cross-system links</label>
             </div>
 
             <div class="breakbar" id="breakbar">
               <div class="breakbar__head">
                 <span class="breakbar__label"><span class="lever-icon lever-icon--sm" aria-hidden="true"></span>Break the loops</span>
-                <span class="breakbar__count"><b data-break-count>0</b> of <span data-stat="loops">18</span> vicious cycles these actions could help interrupt</span>
+                <span class="breakbar__count"><b data-break-count>0</b> of <span data-stat="loops">21</span> vicious cycles these actions could help interrupt</span>
                 <span class="breakbar__meter" aria-hidden="true"><span id="break-meter"></span></span>
                 <button type="button" id="break-reset" class="link" data-act="reset-levers" hidden>Switch everything off</button>
               </div>
@@ -648,7 +648,7 @@ html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{
       <div class="container">
         <header class="story__head">
         <p class="eyebrow eyebrow--break">Breaking the cycles</p>
-        <h2 id="loops-title" class="h2 story__h"><span class="num-urgent" data-stat="loops">21</span> vicious cycles. <br><span class="num-break" data-stat="levers">29</span> ways to break them.</h2>
+        <h2 id="loops-title" class="h2 story__h"><span class="num-urgent" data-stat="loops">21</span> vicious cycles. <br><span class="num-break" data-stat="levers">33</span> ways to break them.</h2>
         <p class="loops__intro story__lede">Each <button type="button" class="term" data-term="viciouscycle" aria-expanded="false">vicious cycle</button> feeds itself, but every loop has weak links: points where one well-placed action stops the cycle from feeding itself. The strongest levers break several loops at once, and the pressure points are where many loops meet.</p>
           <div class="story__actions"><button type="button" class="btn btn--cta" data-random>Pull a thread at random</button></div>
         </header>
@@ -696,15 +696,20 @@ html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{
       </div>
     </section>
 
-    <section class="now" id="heat-now" aria-labelledby="now-title">
+    <section class="now story story--act3" id="heat-now" aria-labelledby="now-title">
       <div class="container">
-        <p class="eyebrow">Heat right now</p>
-        <h2 id="now-title" class="h2">Today, across <br>twelve Asian cities.</h2>
-        <p class="loops__intro" id="now-intro"></p>
-        <p class="now__status" id="now-status" role="status"></p>
+        <header class="story__head">
+          <p class="eyebrow">Heat right now</p>
+          <h2 id="now-title" class="h2 story__h">It is happening <br>today, in <span data-stat="cities">12</span> Asian cities.</h2>
+          <p class="story__lede" id="now-intro"></p>
+          <p class="now__status" id="now-status" role="status"></p>
+        </header>
         <ol class="now-list" id="now-list"></ol>
-        <div class="now-fp" id="now-fp" role="group" aria-labelledby="now-fp-title"></div>
-        <p class="now__room" id="now-room"></p>
+        <details class="now-more" id="now-more" hidden>
+          <summary>Is this climate change, and how hot is it indoors?</summary>
+          <div class="now-fp" id="now-fp" role="group" aria-labelledby="now-fp-title"></div>
+          <p class="now__room" id="now-room"></p>
+        </details>
         <p class="now__foot" id="now-foot"></p>
         <p class="now__plan">Want to see what this week’s forecast would switch on? Set your alert levels in step 4 of <a href="#plan-step-4">Plan a response</a> and pick a city.</p>
         <div class="feeds-link">
