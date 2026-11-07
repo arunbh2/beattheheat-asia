@@ -12,6 +12,8 @@ const fs = require("fs"), path = require("path");
 const ROOT = path.join(__dirname, ".."), OUT = path.join(ROOT, "research/growth/fetched-dates.json");
 const urls = fs.readFileSync(path.join(ROOT, "research/growth/undated.txt"), "utf8").split("\n").map(s => s.trim()).filter(Boolean);
 const done = fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT, "utf8")) : {};
+// an entry saved without its date (an earlier bug) is looked up again
+for (const [u, v] of Object.entries(done)) if (v && !v.date) delete done[u];
 const START = Date.now(), LIMIT = 40 * 60 * 1000, UA = "CommonShadeDateCheck/1.0 (+https://beattheheat.asia/approach/)";
 const NOW_Y = new Date().getUTCFullYear();
 const clean = d => { const m = String(d || "").match(/((?:19|20)\d{2})(?:-(\d{1,2}))?(?:-(\d{1,2}))?/); if (!m || +m[1] > NOW_Y) return null;
@@ -53,7 +55,7 @@ async function one(url) {
 (async () => {
   const todo = urls.filter(u => !(u in done)); let n = 0;
   console.log(`fetch-dates: ${urls.length} links, ${todo.length} still to look up`);
-  const save = () => fs.writeFileSync(OUT, JSON.stringify(done, Object.keys(done).sort(), 1) + "\n");
+  const save = () => fs.writeFileSync(OUT, JSON.stringify(Object.fromEntries(Object.keys(done).sort().map(k => [k, done[k]])), null, 1) + "\n");
   const worker = async () => { while (todo.length && Date.now() - START < LIMIT) { const u = todo.shift(); done[u] = await one(u); if (++n % 50 === 0) { save(); console.log(`  ${n} looked up`); } } };
   await Promise.all(Array.from({ length: 8 }, worker)); save();
   const v = Object.values(done), by = {}; v.forEach(x => { const k = x ? x.how : "none"; by[k] = (by[k] || 0) + 1; });

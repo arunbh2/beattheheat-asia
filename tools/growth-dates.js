@@ -62,7 +62,7 @@ for (const f of fs.readdirSync(path.join(ROOT, "data/kb")).filter(f => f.endsWit
   J(`data/kb/${f}`).forEach(r => { const block = `kb:${r.type || f.replace(/\.json$/, "")}`, d = dateFrom(r.date || r.published);
     if (r.url) add(r.url, r.title, block, d && { ...d, how: "record" }); walk(r, block); });
 // data/site: milestones carry dates; learning questions, corrections
-J("data/site/milestones.json").milestones.forEach(m => { const d = dateFrom(m.date);
+J("data/site/milestones.json").milestones.forEach(m => { const d = dateFrom(m.date || m.year);
   (m.sources || (m.source ? [m.source] : [])).forEach(s => add(s.url, s.label, "milestones", d && { ...d, how: "record" })); walk(m, "milestones"); });
 walk(J("data/site/learning.json"), "learning"); walk(J("data/site/corrections.json"), "corrections");
 // social protection: schemes, routes and evidence
