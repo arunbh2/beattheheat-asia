@@ -40,24 +40,29 @@ const GROUPS = [
     [D.ORGANISATIONS.length, "organisations", "mapped, each with a profile", "/heat-network/"]] }];
 
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-const HTML = `<form method="dialog" class="csx__x-form"><button class="csx__x" aria-label="Close and keep reading">×</button></form>
-<div class="csx__head"><p class="csx__k">Before you go</p><h2 class="csx__h" id="csx-h">Everything Common Shade covers</h2>
+// the card, top to bottom: a close button over a full-bleed drawing of the common shade, the map of everything, and the
+// ways on, kept in reach at the foot of the card however far it scrolls
+const TOP = `<form method="dialog" class="csx__x-form"><button class="csx__x" aria-label="Close and keep reading">×</button></form>
+<div class="csx__art"><img data-src="/images/common-shade-banner.svg" alt="" width="1200" height="300"></div>`;
+const HTML = `<div class="csx__head"><p class="csx__k">Before you go</p><h2 class="csx__h" id="csx-h">Everything Common Shade covers</h2>
 <p class="csx__p">One free, open evidence base on extreme heat in South and Southeast Asia. Here is all of it, in one place.</p></div>
 <a class="csx__map" href="/" data-csx-map><picture><source type="image/webp" data-srcset="/images/map-preview.webp"><img data-src="/images/map-preview.jpg" alt="The Common Shade map: extreme heat at the centre, its consequences across ten systems around it" width="520" height="500"></picture><span>Open the map <span aria-hidden="true">→</span></span></a>
 <div class="csx__groups">${GROUPS.map(g => `<section class="csx__g csx__g--${g.id}" aria-labelledby="csx-${g.id}"><h3 class="csx__gh" id="csx-${g.id}">${esc(g.name)}</h3><ul>${g.items.map(([num, what, rest, href]) =>
-  `<li><a href="${href}"><b>${n(num)}</b><span><em>${esc(what)}</em> ${esc(rest)}</span></a></li>`).join("")}</ul></section>`).join("")}</div>
-<div class="csx__foot"><a class="csx__go" href="/" data-csx-map>Open the map</a><form method="dialog"><button class="csx__stay">Keep reading</button></form></div>`;
+  `<li><a href="${href}"><b>${n(num)}</b><span><em>${esc(what)}</em> ${esc(rest)}</span></a></li>`).join("")}</ul></section>`).join("")}</div>`;
+const FOOT = `<div class="csx__foot"><a class="csx__go" href="/" data-csx-map>Open the map</a><a class="csx__join" href="/join/">Help build Common Shade</a><form method="dialog"><button class="csx__stay">Keep reading</button></form></div>`;
 
 const CSS = `.csx{width:min(1040px,calc(100vw - 24px));max-height:calc(100dvh - 24px);margin:auto;padding:0;border:0;border-radius:20px;background:#FAF7F2;color:#16202B;box-shadow:0 40px 90px -30px rgba(0,0,0,.6);font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;line-height:1.45;overflow:auto;overscroll-behavior:contain}
 .csx::backdrop{background:rgba(14,22,31,.62)}
 .csx__in{position:relative;display:grid;grid-template-columns:minmax(0,1fr) 190px;gap:18px 28px;padding:clamp(20px,3vw,32px)}
-.csx__x-form{position:absolute;top:10px;right:10px;margin:0;z-index:2}
+.csx__x-form{position:absolute;top:12px;right:12px;margin:0;z-index:2}
+.csx__art{height:clamp(120px,21vw,230px);overflow:hidden;background:#0B1119}
+.csx__art img{display:block;width:100%;height:100%;object-fit:cover;object-position:30% 100%}
 .csx__x{width:44px;height:44px;border:0;border-radius:50%;background:#fff;color:#16202B;font-size:26px;line-height:1;cursor:pointer;box-shadow:0 2px 8px rgba(22,32,43,.15)}
-.csx__head{grid-column:1;align-self:end}
+.csx__head{grid-column:1;align-self:start}
 .csx__k{margin:0;font-weight:800;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:#B8401A}
 .csx__h{margin:6px 0 0;font-family:Anton,Impact,"Arial Narrow",sans-serif;font-weight:400;font-size:clamp(1.9rem,1.2rem + 2.6vw,3.2rem);line-height:1;text-transform:uppercase}
 .csx__p{margin:10px 0 0;max-width:40rem;color:#39424D;font-size:1.05rem}
-.csx__map{grid-column:2;grid-row:1;align-self:start;display:block;margin-top:34px;border-radius:14px;overflow:hidden;background:#fff;border:1px solid #E6DFD4;color:#16202B;font-weight:700;text-decoration:none}
+.csx__map{grid-column:2;grid-row:1;align-self:start;position:relative;z-index:1;margin-top:-96px;box-shadow:0 18px 40px -18px rgba(14,22,31,.55);display:block;border-radius:14px;overflow:hidden;background:#fff;border:1px solid #E6DFD4;color:#16202B;font-weight:700;text-decoration:none}
 .csx__map img{display:block;width:100%;height:auto;aspect-ratio:520/500;background:#F2E7D9}
 .csx__map>span{display:block;padding:10px 12px;font-size:.9rem}
 .csx__map:hover,.csx__map:focus-visible{border-color:#F26430}
@@ -72,12 +77,14 @@ const CSS = `.csx{width:min(1040px,calc(100vw - 24px));max-height:calc(100dvh - 
 .csx__g b{font-family:Anton,Impact,"Arial Narrow",sans-serif;font-weight:400;font-size:1.3rem;line-height:1;color:var(--g,#16202B);text-align:right;font-variant-numeric:tabular-nums}
 .csx__g span{font-size:.85rem;line-height:1.35;color:#39424D}.csx__g em{font-style:normal;font-weight:700;color:#16202B}
 .csx__g a:hover em,.csx__g a:focus-visible em{text-decoration:underline;text-decoration-color:#F26430;text-underline-offset:3px}
-.csx__foot{grid-column:1 / -1;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.csx__foot{position:sticky;bottom:0;z-index:1;display:flex;flex-wrap:wrap;gap:10px 12px;align-items:center;padding:14px clamp(20px,3vw,32px);background:rgba(250,247,242,.97);border-top:1px solid #E6DFD4}
 .csx__foot form{margin:0}
 .csx__go{display:inline-flex;align-items:center;min-height:48px;padding:0 24px;border-radius:999px;background:#F26430;color:#16202B;font-weight:800;text-decoration:none}
+.csx__join{display:inline-flex;align-items:center;min-height:48px;padding:0 24px;border-radius:999px;background:#16202B;color:#FAF7F2;font-weight:800;text-decoration:none}
+.csx__join:hover{background:#B8401A}.csx__go:hover{background:#16202B;color:#FAF7F2}
 .csx__stay{min-height:48px;padding:0 20px;border:1.5px solid #16202B;border-radius:999px;background:none;color:#16202B;font:inherit;font-weight:700;cursor:pointer}
 .csx a:focus-visible,.csx button:focus-visible{outline:3px solid #F26430;outline-offset:3px}
-@media (max-width:760px){.csx__in{grid-template-columns:minmax(0,1fr) 96px;gap:14px}.csx__head{grid-column:1}.csx__map{grid-column:2;grid-row:1;margin-top:40px}.csx__map>span{padding:6px 8px;font-size:.75rem}.csx__groups{grid-column:1 / -1;grid-template-columns:minmax(0,1fr)}.csx__h{font-size:1.7rem}.csx__p{font-size:.95rem}}
+@media (max-width:760px){.csx__in{grid-template-columns:minmax(0,1fr) 96px;gap:14px}.csx__head{grid-column:1}.csx__map{grid-column:2;grid-row:1;margin-top:-48px}.csx__map>span{padding:6px 8px;font-size:.75rem}.csx__groups{grid-column:1 / -1;grid-template-columns:minmax(0,1fr)}.csx__h{font-size:1.7rem}.csx__p{font-size:.95rem}.csx__foot{padding:10px 14px;gap:8px}.csx__go,.csx__join{flex:1 1 0;justify-content:center;min-height:44px;padding:6px 10px;font-size:.88rem;line-height:1.15;text-align:center}.csx__foot form{flex-basis:100%}.csx__stay{width:100%;min-height:32px;padding:0;border:0;font-size:.88rem;text-decoration:underline;text-underline-offset:3px}}
 @media (prefers-reduced-motion:no-preference){.csx[open]{animation:csx-in .28s cubic-bezier(.16,1,.3,1)}@keyframes csx-in{from{opacity:0;transform:translateY(14px)}}}
 @media print{.csx{display:none!important}}`;
 
@@ -88,13 +95,13 @@ const JS = `/* Common Shade: "Everything Common Shade covers", the card shown wh
   if (!window.HTMLDialogElement || document.body.dataset.page === "join") return;
   var KEY = "cs-exit-rest", root = document.documentElement, start = Date.now() - (window.performance ? performance.now() : 0), shown = false, lastY = scrollY, lastT = Date.now(), deep = scrollY > innerHeight * 1.5;   // already reading deep when this arrives
   try { if (sessionStorage.getItem(KEY)) return; } catch (e) {}
-  var HTML = ${JSON.stringify(HTML)}, CSS = ${JSON.stringify(CSS)};
+  var TOP = ${JSON.stringify(TOP)}, HTML = ${JSON.stringify(HTML)}, FOOT = ${JSON.stringify(FOOT)}, CSS = ${JSON.stringify(CSS)};
   function show() {
     if (shown || root.dataset.csPop || document.querySelector("dialog[open]")) return;
     shown = true; root.dataset.csPop = "exit"; off();
     var st = document.createElement("style"); st.textContent = CSS; document.head.appendChild(st);
     var d = document.createElement("dialog"); d.className = "csx"; d.setAttribute("aria-labelledby", "csx-h");
-    d.innerHTML = '<div class="csx__in">' + HTML + "</div>";
+    d.innerHTML = TOP + '<div class="csx__in">' + HTML + "</div>" + FOOT;
     [].forEach.call(d.querySelectorAll("[data-srcset]"), function (s) { s.srcset = s.getAttribute("data-srcset"); });
     [].forEach.call(d.querySelectorAll("img[data-src]"), function (i) { i.src = i.getAttribute("data-src"); });
     if (document.getElementById("explore")) [].forEach.call(d.querySelectorAll("[data-csx-map]"), function (a) { a.href = "#explore"; a.addEventListener("click", function () { d.close(); }); });
