@@ -1,0 +1,476 @@
+{
+ "_terms": {
+  "https://link.springer.com/article/10.1007/s13753-026-00778-y": {
+   "03 November 2026": true,
+   "eight semistructured interviews": true,
+   "caregiver-supported communication": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/37814395/": {
+   "95": false,
+   "800": false,
+   "800 pregnant women": false,
+   "2017-2019 and 2021-2022": false,
+   "aOR 2.3": false,
+   "47.3": false,
+   "2.3": false,
+   "1.4": false,
+   "3.8": false
+  },
+  "https://www.nature.com/articles/s41467-026-76822-8": {
+   "21 August 2026": true,
+   "103 studies": true,
+   "postnatal health": true,
+   "single person performing quality assessment": true
+  },
+  "https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0003629": {
+   "95": true,
+   "September 3, 2024": true,
+   "TAV95": true,
+   "children aged under 5": true,
+   "residual confounding": true,
+   "13.9": true,
+   "8.3": true,
+   "19.9": true
+  },
+  "https://www.nature.com/articles/s41598-025-34800-y": {
+   "439": true,
+   "05 February 2026": false,
+   "439 adolescents": true,
+   "19 and 24 years": false,
+   "3.9 out of 11": false,
+   "3.9": false
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/37372754/": {
+   "15 older persons": true,
+   "15 family members": true,
+   "Seasonal adaptability": true
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10329802/": {
+   "21 individual and 2 group interviews": true,
+   "insomnia and chronic fatigue": true,
+   "NGO clinics": true
+  },
+  "https://www.climatechip.org/node/203": {
+   "142": false,
+   "2016": true,
+   "One hundred and forty-two": true,
+   "68 percent": true,
+   "inability to care": true
+  },
+  "https://link.springer.com/article/10.1007/s10901-020-09783-z": {
+   "1594 households": false,
+   "nine shelters": false,
+   "eleven days": false,
+   "Thermal conditions": false
+  },
+  "https://www.unicef.org/press-releases/new-guidelines-launched-protect-children-and-pregnant-women-heat-stress-bangladesh": {
+   "05 May 2024": true,
+   "National Guidelines": true,
+   "B.E.A.T": true
+  },
+  "https://india.unfpa.org/en/publications/heat-and-pregnancy-guidance-healthcare-providers-and-community-health-workers": {
+   "06 May 2026": true,
+   "heat-risk checklist": true,
+   "breastfeeding": true,
+   "functional referral systems": true
+  },
+  "https://www.preventionweb.net/resource/case-study/philippines-prisoners-climate-change": {
+   "17 December 2024": false,
+   "Bureau of Jail Management": false,
+   "upgrading ventilation": false
+  },
+  "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2832975": {
+   "April 18, 2025": false,
+   "26 °C": false,
+   "28.3 °C": false,
+   "selection bias": false
+  },
+  "https://journals.sagepub.com/doi/10.1177/25166026261472713": {
+   "August 17, 2026": false,
+   "86 participants": false,
+   "six structured focus group": false
+  },
+  "https://link.springer.com/article/10.1186/s44263-025-00224-z": {
+   "01 December 2025": false,
+   "19 studies": true,
+   "2293 migrant workers": true,
+   "piece-rate payment": false
+  },
+  "https://www.unicef.org/media/139926/file/Protecting-children-from-heat-stress-A-technical-note-2023.pdf": {
+   "May 2023": true,
+   "B.E.A.T.": true,
+   "Breastfeed infants under 6 months": true,
+   "Monitoring and assessment": true
+  },
+  "https://www.research.ed.ac.uk/en/publications/too-hot-to-handle-how-residents-in-nagpur-india-are-adapting-to-h/": {
+   "peer-review": true,
+   "homeless people": true,
+   "in-depth interviews": true
+  },
+  "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022EF002992": {
+   "Observational Evidence": false,
+   "ERA5": false,
+   "environmental stress index": false
+  },
+  "https://en.evn.com.vn/d6/news/Ministry-of-Industry-and-Trade-informs-about-power-supply-situation-in-hot-season-66-163-3527.aspx": {
+   "3,110MW": true,
+   "23.7%": true,
+   "June 6, 2023": true,
+   "3,110": true,
+   "23.7": true
+  },
+  "https://en.evn.com.vn/d6/news/Operational-situation-in-April-2024-andobjectives-and-tasks-inMay-2024-66-142-4106.aspx": {
+   "27 April 2024": true,
+   "993 million kWh": true,
+   "continuous power supply": true
+  },
+  "https://link.springer.com/article/10.1007/s00484-025-02913-8": {
+   "34 provinces": true,
+   "green density": true,
+   "99th": true
+  },
+  "https://www.adb.org/sites/default/files/publication/1116426/ewp-835-heat-stress-air-pollution-risk.pdf": {
+   "negative correlation": true,
+   "2000 and 2020": true,
+   "causal decomposition": true
+  },
+  "https://philippines.un.org/en/267032-un-calls-increased-support-climate-resilience-philippines-drought-wreaks-havoc": {
+   "25 April 2024": true,
+   "41 provinces": true,
+   "Anticipatory Action": true
+  },
+  "https://www.unicef.org/media/156076/file/Viet_Nam_Humanitarian_Situation_Report_No._01_%28drought%29_reporting_period__-27_April_2024.pdf": {
+   "73,900 households": true,
+   "saltwater intrusion": true,
+   "27 April, 2024": true,
+   "73,900": true
+  },
+  "https://www.ghhin.org/assets/technical-brief-COVID-and-Heat-finalv2.pdf": {
+   "Updated 27 May 2020": true,
+   "cooling centers": true,
+   "personal protective": true
+  },
+  "https://heathealth.info/wp-content/uploads/Lee-et-al.-2020-Heat-Stress-and-Thermal-Perception-amongst-Healthcare-Workers-during-the-COVID-19-Pandemic-in-India-and-Singapore.pdf": {
+   "3 November 2020": true,
+   "May and June 2020": true,
+   "ice slurry": true
+  },
+  "https://www.unicef.org/bangladesh/en/stories/rebuilding-education-climate-and-disaster-resilience-coxs-bazar": {
+   "434": true,
+   "03 April 2025": true,
+   "434 UNICEF learning facilities": true,
+   "February 2025": true
+  },
+  "https://www.worldweatherattribution.org/climate-change-likely-increased-extreme-monsoon-rainfall-flooding-highly-vulnerable-communities-in-pakistan/": {
+   "14 September, 2022": true,
+   "60-day": true,
+   "5-day": true
+  },
+  "https://digitalcommons.chapman.edu/sees_articles/608/": {
+   "7 May 2022": true,
+   "land surface temperature": true,
+   "satellite remote sensing": true
+  },
+  "https://www.cambridge.org/core/journals/journal-of-glaciology/article/multiple-phases-of-icedammed-lake-formation-and-drainage-associated-with-a-surge-of-shisper-glacier-western-karakoram/EC032F0636796DB506AD584FA7E3961A": {
+   "25 October 2024": true,
+   "subglacial conduit": true,
+   "7 May 2022": true
+  },
+  "https://alliancebioversityciat.org/publications-data/heightened-fire-probability-indonesia-non-drought-conditions-effect-increasing-0": {
+   "published in 2017": false,
+   "normal-to-wet conditions": false,
+   "1997 and 2015": false
+  },
+  "https://www.undp.org/vietnam/stories/when-water-returned-hope-grew-family-viet-nam": {
+   "October 8, 2024": false,
+   "July last year (2023)": false,
+   "lack of money to buy pumps": false
+  },
+  "https://www.kireports.org/article/S2468024923012664/pdf": {
+   "7": false,
+   "352": false,
+   "352 workers": false,
+   "2017 to 2020": false,
+   "serum creatinine": false,
+   "1.73": false
+  },
+  "https://www.jstage.jst.go.jp/article/jea/22/3/22_JE20110082/_pdf/-char/en": {
+   "95": true,
+   "2005": true,
+   "2009": true,
+   "prolonged heat stress": true,
+   "2.22": true,
+   "1.48": true,
+   "3.35": true
+  },
+  "https://onlinelibrary.wiley.com/doi/10.1111/nep.13989": {
+   "2.12 Heat stress": false,
+   "recall bias": false,
+   "multifactorial": true
+  },
+  "https://scholars.duke.edu/publication/1572526": {
+   "October 1, 2022": true,
+   "N = 225": true,
+   "p = 0.227": true
+  },
+  "https://www.journals.uchicago.edu/doi/abs/10.1086/710066": {
+   "Agricultural income": false,
+   "workfare program": false,
+   "India": false
+  },
+  "https://www.journals.uchicago.edu/doi/full/10.1086%2F713733": {
+   "58,377 plants": false,
+   "six days preceding": false,
+   "2.1%": false,
+   "2.1": false
+  },
+  "https://www.nber.org/system/files/working_papers/w34047/w34047.pdf": {
+   "July 2025": true,
+   "300,000 households": true,
+   "subsequent year": true
+  },
+  "https://www.aoemj.org/journal/view.php?doi=10.35371/aoem.2026.38.e3": {
+   "January 8, 2026": true,
+   "11 studies": true,
+   "cumulative heat effects": true,
+   "Synthesis without Meta-Analysis": true
+  },
+  "https://bmjopen.bmj.com/content/bmjopen/2/6/e001396.full.pdf": {
+   "2009": true,
+   "29.9": true,
+   "housework": true
+  },
+  "https://www.iied.org/sites/default/files/pdfs/2026-08/22755iied.pdf": {
+   "175 informal worker households": true,
+   "psychological stress index": true,
+   "FGDs": true
+  },
+  "https://www.homenetinternational.org/wp-content/uploads/2023/02/HNSA-Impact-of-Climate-Change-on-Home-based-workers.pdf": {
+   "202 women": true,
+   "unpaid care work": true,
+   "April": true
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC10785747/": {
+   "104": false,
+   "104 different participants": false,
+   "614 measurements": false,
+   "13 June 2018": false
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7227734/": {
+   "16 selected slum households": true,
+   "October 4, 2017": true,
+   "Airlite": true
+  },
+  "https://link.springer.com/article/10.1186/s12913-026-15146-1": {
+   "215": true,
+   "272": true,
+   "15 July 2026": false,
+   "272 participants": true,
+   "May to June 2019": true,
+   "38,540": true
+  },
+  "https://journals.plos.org/climate/article?id=10.1371/journal.pclm.0000618": {
+   "July 30, 2025": true,
+   "seven studies": true,
+   "indoor classroom climatic conditions": true
+  },
+  "https://www.jstage.jst.go.jp/article/indhealth/51/1/51_2012-0166/_article": {
+   "HOTHAPS": true,
+   "Adaptive strategies": true,
+   "2013 Volume 51": true
+  },
+  "https://cdn.who.int/media/docs/default-source/searo/wsh-och-searo/bhu-c-h-profile.pdf?sfvrsn=9b974adb_2": {
+   "BHUTAN": true,
+   "HEAT-RELATED MORTALITY": true,
+   "1961–1990": true,
+   "100,000": true
+  },
+  "https://www.ilo.org/sites/default/files/2026-10/MALDIVES_Study_Oct27.pdf": {
+   "Research limitations": true,
+   "1985-2014": true,
+   "work capacity": true
+  },
+  "https://cdn.who.int/media/docs/default-source/searo/hsd/country-profiles/tls-climate-change-cf-2026.pdf?download=true&sfvrsn=131a4a74_3": {
+   "TIMOR-LESTE": true,
+   "Heat-related mortality": true,
+   "Health National Adaptation Plan": true
+  },
+  "https://link.springer.com/article/10.1186/s12889-025-22787-0": {
+   "68": true,
+   "88": true,
+   "753": true,
+   "753 female responses": true,
+   "25 April 2025": false,
+   "Limitations": false
+  },
+  "https://www.tse-fr.eu/publications/journal-article/impact-cold-waves-and-heat-waves-mortality-evidence-lower-middle": {
+   "2000-2018": false,
+   "Southern Vietnam": false,
+   "public spending on health": false
+  },
+  "https://www.ilo.org/resource/news/lao-people%E2%80%99s-democratic-republic-advances-occupational-safety-and-health": {
+   "19 March 2025": true,
+   "Draft Ministerial Decision": true,
+   "7 March 2025": true
+  },
+  "https://researchprofiles.canberra.edu.au/en/publications/heat-related-health-impacts-in-asean-countries-a-scoping-review/": {
+   "76 studies": true,
+   "Jun 2026": true,
+   "Effect modification": true
+  },
+  "https://mausamjournal.imd.gov.in/index.php/MAUSAM/article/view/649": {
+   "22 stations": true,
+   "2017-07-01": true,
+   "1000 to 2000": true
+  },
+  "https://ntrs.nasa.gov/citations/20180003614": {
+   "2015": true,
+   "soil moisture": true,
+   "early June": true
+  },
+  "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021EF002642": {
+   "WRF": false,
+   "drip": false,
+   "constant irrigation water demand": false,
+   "0.2": false
+  },
+  "https://impact.ornl.gov/en/publications/moist-heat-stress-extremes-in-india-enhanced-by-irrigation/": {
+   "planetary boundary layer": true,
+   "moist heat stress": true,
+   "irrigation": true
+  },
+  "https://cprindia.org/journalarticles/impact-of-temperature-on-electricity-demand-evidence-from-delhi-and-indian-states/": {
+   "30": true,
+   "May 1, 2020": true,
+   "micro-data": true,
+   "low-income consumers": true
+  },
+  "https://www.ifo.de/DocDL/cesifo1_wp12365.pdf": {
+   "December 2025": false,
+   "ownership of fans": false,
+   "appliance-specific electricity use": false
+  },
+  "https://www.nature.com/articles/s41598-026-62477-4": {
+   "20 July 2026": false,
+   "16 buildings": true,
+   "hypothetical": true
+  },
+  "https://www.ars.usda.gov/research/publications/publication/?seqNo115=387051": {
+   "Technical Abstract": true,
+   "groundwater withdrawals": true,
+   "9/1/2023": true
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7952402/": {
+   "361": true,
+   "361 workers": true,
+   "90-min": true,
+   "2.84": true
+  },
+  "https://link.springer.com/article/10.1007/s00421-013-2671-2": {
+   "13 June 2013": true,
+   "Ten healthy individuals": true,
+   "hydration state": true
+  },
+  "https://cris.tau.ac.il/en/publications/heat-tolerance-after-total-and-partial-acute-sleep-deprivation/": {
+   "Eleven participants": true,
+   "subjective discomfort": true,
+   "chronotype": true
+  },
+  "https://ceepr.mit.edu/wp-content/uploads/2021/09/2017-019.pdf": {
+   "October 9, 2017": true,
+   "26 garment factories": true,
+   "October 2009": true
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12308431/": {
+   "Fifty-eight participants": true,
+   "320 exposures": true,
+   "short, laboratory-based exposures": true
+  },
+  "https://researchportal.ukhsa.gov.uk/en/publications/public-health-effectiveness-of-cooling-centres-during-periods-of-/": {
+   "five studies": true,
+   "transient physiological benefits": true,
+   "No studies reported real-world health outcomes": true
+  },
+  "https://wedocs.unep.org/bitstreams/e3f8b701-b044-46b9-9deb-8afad6967607/download": {
+   "Oonnayan": true,
+   "refrigerant leakage": true,
+   "GreenCHILL": true
+  },
+  "https://www.iea.org/reports/the-future-of-cooling-in-southeast-asia": {
+   "25 November 2019": false,
+   "Stated Policies Scenario": false,
+   "Seasonal Energy Efficiency Ratio": false
+  }
+ },
+ "https://link.springer.com/article/10.1007/s13753-026-00778-y": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/37814395/": "OK",
+ "https://www.nature.com/articles/s41467-026-76822-8": "REDIRECT",
+ "https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0003629": "OK",
+ "https://www.nature.com/articles/s41598-025-34800-y": "REDIRECT",
+ "https://pubmed.ncbi.nlm.nih.gov/37372754/": "OK",
+ "https://pmc.ncbi.nlm.nih.gov/articles/PMC10329802/": "OK",
+ "https://www.climatechip.org/node/203": "OK",
+ "https://link.springer.com/article/10.1007/s10901-020-09783-z": "OK",
+ "https://www.unicef.org/press-releases/new-guidelines-launched-protect-children-and-pregnant-women-heat-stress-bangladesh": "OK",
+ "https://india.unfpa.org/en/publications/heat-and-pregnancy-guidance-healthcare-providers-and-community-health-workers": "OK",
+ "https://www.preventionweb.net/resource/case-study/philippines-prisoners-climate-change": "BLOCKED",
+ "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2832975": "BLOCKED",
+ "https://journals.sagepub.com/doi/10.1177/25166026261472713": "BLOCKED",
+ "https://link.springer.com/article/10.1186/s44263-025-00224-z": "OK",
+ "https://www.unicef.org/media/139926/file/Protecting-children-from-heat-stress-A-technical-note-2023.pdf": "OK",
+ "https://www.research.ed.ac.uk/en/publications/too-hot-to-handle-how-residents-in-nagpur-india-are-adapting-to-h/": "OK",
+ "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022EF002992": "BLOCKED",
+ "https://en.evn.com.vn/d6/news/Ministry-of-Industry-and-Trade-informs-about-power-supply-situation-in-hot-season-66-163-3527.aspx": "OK",
+ "https://en.evn.com.vn/d6/news/Operational-situation-in-April-2024-andobjectives-and-tasks-inMay-2024-66-142-4106.aspx": "OK",
+ "https://link.springer.com/article/10.1007/s00484-025-02913-8": "OK",
+ "https://www.adb.org/sites/default/files/publication/1116426/ewp-835-heat-stress-air-pollution-risk.pdf": "OK",
+ "https://philippines.un.org/en/267032-un-calls-increased-support-climate-resilience-philippines-drought-wreaks-havoc": "OK",
+ "https://www.unicef.org/media/156076/file/Viet_Nam_Humanitarian_Situation_Report_No._01_%28drought%29_reporting_period__-27_April_2024.pdf": "OK",
+ "https://www.ghhin.org/assets/technical-brief-COVID-and-Heat-finalv2.pdf": "REDIRECT",
+ "https://heathealth.info/wp-content/uploads/Lee-et-al.-2020-Heat-Stress-and-Thermal-Perception-amongst-Healthcare-Workers-during-the-COVID-19-Pandemic-in-India-and-Singapore.pdf": "OK",
+ "https://www.unicef.org/bangladesh/en/stories/rebuilding-education-climate-and-disaster-resilience-coxs-bazar": "OK",
+ "https://www.worldweatherattribution.org/climate-change-likely-increased-extreme-monsoon-rainfall-flooding-highly-vulnerable-communities-in-pakistan/": "OK",
+ "https://digitalcommons.chapman.edu/sees_articles/608/": "OK",
+ "https://www.cambridge.org/core/journals/journal-of-glaciology/article/multiple-phases-of-icedammed-lake-formation-and-drainage-associated-with-a-surge-of-shisper-glacier-western-karakoram/EC032F0636796DB506AD584FA7E3961A": "OK",
+ "https://alliancebioversityciat.org/publications-data/heightened-fire-probability-indonesia-non-drought-conditions-effect-increasing-0": "BLOCKED",
+ "https://www.undp.org/vietnam/stories/when-water-returned-hope-grew-family-viet-nam": "BLOCKED",
+ "https://www.kireports.org/article/S2468024923012664/pdf": "BLOCKED",
+ "https://www.jstage.jst.go.jp/article/jea/22/3/22_JE20110082/_pdf/-char/en": "OK",
+ "https://onlinelibrary.wiley.com/doi/10.1111/nep.13989": "BLOCKED",
+ "https://scholars.duke.edu/publication/1572526": "OK",
+ "https://www.journals.uchicago.edu/doi/abs/10.1086/710066": "BLOCKED",
+ "https://www.journals.uchicago.edu/doi/full/10.1086%2F713733": "BLOCKED",
+ "https://www.nber.org/system/files/working_papers/w34047/w34047.pdf": "OK",
+ "https://www.aoemj.org/journal/view.php?doi=10.35371/aoem.2026.38.e3": "OK",
+ "https://bmjopen.bmj.com/content/bmjopen/2/6/e001396.full.pdf": "BLOCKED",
+ "https://www.iied.org/sites/default/files/pdfs/2026-08/22755iied.pdf": "OK",
+ "https://www.homenetinternational.org/wp-content/uploads/2023/02/HNSA-Impact-of-Climate-Change-on-Home-based-workers.pdf": "OK",
+ "https://pmc.ncbi.nlm.nih.gov/articles/PMC10785747/": "OK",
+ "https://pmc.ncbi.nlm.nih.gov/articles/PMC7227734/": "OK",
+ "https://link.springer.com/article/10.1186/s12913-026-15146-1": "OK",
+ "https://journals.plos.org/climate/article?id=10.1371/journal.pclm.0000618": "OK",
+ "https://www.jstage.jst.go.jp/article/indhealth/51/1/51_2012-0166/_article": "OK",
+ "https://cdn.who.int/media/docs/default-source/searo/wsh-och-searo/bhu-c-h-profile.pdf?sfvrsn=9b974adb_2": "OK",
+ "https://www.ilo.org/sites/default/files/2026-10/MALDIVES_Study_Oct27.pdf": "OK",
+ "https://cdn.who.int/media/docs/default-source/searo/hsd/country-profiles/tls-climate-change-cf-2026.pdf?download=true&sfvrsn=131a4a74_3": "OK",
+ "https://link.springer.com/article/10.1186/s12889-025-22787-0": "OK",
+ "https://www.tse-fr.eu/publications/journal-article/impact-cold-waves-and-heat-waves-mortality-evidence-lower-middle": "OK",
+ "https://www.ilo.org/resource/news/lao-people%E2%80%99s-democratic-republic-advances-occupational-safety-and-health": "OK",
+ "https://researchprofiles.canberra.edu.au/en/publications/heat-related-health-impacts-in-asean-countries-a-scoping-review/": "OK",
+ "https://mausamjournal.imd.gov.in/index.php/MAUSAM/article/view/649": "OK",
+ "https://ntrs.nasa.gov/citations/20180003614": "OK",
+ "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021EF002642": "BLOCKED",
+ "https://impact.ornl.gov/en/publications/moist-heat-stress-extremes-in-india-enhanced-by-irrigation/": "OK",
+ "https://cprindia.org/journalarticles/impact-of-temperature-on-electricity-demand-evidence-from-delhi-and-indian-states/": "OK",
+ "https://www.ifo.de/DocDL/cesifo1_wp12365.pdf": "OK",
+ "https://www.nature.com/articles/s41598-026-62477-4": "REDIRECT",
+ "https://www.ars.usda.gov/research/publications/publication/?seqNo115=387051": "OK",
+ "https://pmc.ncbi.nlm.nih.gov/articles/PMC7952402/": "OK",
+ "https://link.springer.com/article/10.1007/s00421-013-2671-2": "OK",
+ "https://cris.tau.ac.il/en/publications/heat-tolerance-after-total-and-partial-acute-sleep-deprivation/": "OK",
+ "https://ceepr.mit.edu/wp-content/uploads/2021/09/2017-019.pdf": "OK",
+ "https://pmc.ncbi.nlm.nih.gov/articles/PMC12308431/": "OK",
+ "https://researchportal.ukhsa.gov.uk/en/publications/public-health-effectiveness-of-cooling-centres-during-periods-of-/": "OK",
+ "https://wedocs.unep.org/bitstreams/e3f8b701-b044-46b9-9deb-8afad6967607/download": "OK",
+ "https://www.iea.org/reports/the-future-of-cooling-in-southeast-asia": "BLOCKED"
+}
