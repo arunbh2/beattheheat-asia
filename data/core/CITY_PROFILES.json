@@ -5,11 +5,19 @@
     "heat": "Humid heat, all year round.",
     "hap": {
       "status": "plan",
-      "text": "Singapore launched a national Heat Stress Advisory in July 2023. It rates heat stress as low, moderate or high from the wet-bulb globe temperature, and tells people what to do at each level.",
+      "text": "Singapore launched a national Heat Stress Advisory in July 2023. It rates heat stress as low, moderate or high from the wet-bulb globe temperature, and tells people what to do at each level. Since March 2025 a heatwave is declared when the daily maximum reaches at least 35 °C and the daily mean at least 29 °C for three days in a row; a taskforce of 37 public agencies then opens air-conditioned cooling spaces in community centres. In March 2026 a Heat Resilience Policy Office was set up to coordinate action across agencies, oversee research and draft a heat resilience action plan.",
       "sources": [
         {
           "label": "Ministry of Sustainability and the Environment, 2023",
           "url": "https://mse.gov.sg/latest-news/press-release-heat-stress-advisory"
+        },
+        {
+          "label": "Malay Mail: Singapore’s heatwave response plan, 2025",
+          "url": "https://www.malaymail.com/news/singapore/2025/03/20/singapore-rolls-out-cooling-measures-as-heatwave-response-plan-unveiled/170163"
+        },
+        {
+          "label": "Ministry of Sustainability and the Environment: Committee of Supply speech, 2026",
+          "url": "https://www.mse.gov.sg/latest-news/speech-by-sms-janil-puthucheary-committee-of-supply-2026/"
         }
       ]
     },
@@ -47,7 +55,7 @@
         }
       }
     ],
-    "orgs": ["nea","mom","smu","nrfsg","mas","c40"],
+    "orgs": ["nea","mom","ministryofsustainability","ghhinsea","smu","nrfsg","mas","c40"],
     "examples": ["singapore"],
     "risk": ["workers","older"]
   },

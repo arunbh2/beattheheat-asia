@@ -173,6 +173,10 @@ function checkLearning(V) {
         (s.records || []).forEach(r => { if (!known.has(r)) P.push(`${st}: record "${r}" is not in EVIDENCE or data/kb`); });
         if (!G.some(e => e.kind === "question-advanced" && e.question === q.id && e.added === s.date)) P.push(`${st}: add a "question-advanced" change to data/site/growth.json with "question": "${q.id}" and "added": "${s.date}"`);
       } });
+    (q.underway || []).forEach((u, i) => { const st = `${at} underway ${i + 1}`;
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(u.since || "") || u.since > today) P.push(`${st}: since must be a past date, YYYY-MM-DD`);
+      if (!u.text) P.push(`${st}: needs text saying what the work is`);
+      if (!Array.isArray(u.source) || !u.source[0] || !/^https?:\/\//.test(u.source[1] || "")) P.push(`${st}: source is ["label", "https://..."]`); });
     if (q.status !== h[h.length - 1].status) P.push(`${at}: status "${q.status}" differs from its latest history step "${h[h.length - 1].status}"`);
   });
   G.filter(e => e.kind === "question-advanced").forEach(e => { const q = L.questions.find(x => x.id === e.question);

@@ -1588,7 +1588,7 @@ Cuts the link: Informal workers can’t stop work → Heatstroke and heat exhaus
 
 Could help interrupt: The poverty–heat trap, The medical-debt trap
 
-In practice: Singapore requires hourly wet-bulb globe temperature checks on outdoor worksites and at least 10 minutes’ shaded rest each hour for heavy work at 32 °C or above; in 2024 it inspected 250 workplaces and acted against 78. Several Gulf states ban outdoor work during the hottest midday hours in summer. Since 2023, Spain has required employers to cut or move working hours when the weather agency issues an orange or red heat alert and other measures can’t keep workers safe. Tamil Nadu’s heat strategy proposes building heat protection into the state’s existing occupational safety rules, rather than waiting for a new law.
+In practice: Singapore requires hourly wet-bulb globe temperature checks on outdoor worksites and at least 10 minutes’ shaded rest each hour for heavy work at 32 °C or above; in 2024 it inspected 250 workplaces and acted against 78, and that September revised the rules to follow its three-level heat stress advisory, recommending at least 15 minutes’ rest an hour for heavy work at 33 °C or above. Several Gulf states ban outdoor work during the hottest midday hours in summer. Since 2023, Spain has required employers to cut or move working hours when the weather agency issues an orange or red heat alert and other measures can’t keep workers safe. Tamil Nadu’s heat strategy proposes building heat protection into the state’s existing occupational safety rules, rather than waiting for a new law.
 
 - Guide: Heat at work: the first joint global guidance on workplace heat stress (WHO and WMO, in the GHHIN resource library) https://heathealth.info/at-work/
 
@@ -1889,6 +1889,8 @@ Doctors at two Indian hospitals with heatstroke units said more than 90% of the 
 In a survey of 721 Delhi street vendors in 2024, 80% saw fewer customers during heatwaves and 49% lost income. (Greenpeace India and National Hawkers Federation, 2024, https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/)
 
 In Singapore, a study of 355 workers found each hot day cost a median S$21 in lost income, about 24% of a day’s median pay, and heat at workplaces was often higher than nearby weather stations showed. (NUS Project HeatSafe, 2024, https://medicine.nus.edu.sg/wp-content/uploads/2024/03/PRESS-RELEASE_Project-HeatSafe-18MAR2024-FOR-IMMEDIATE-RELEASE.pdf)
+
+Few delivery platforms in Asia make concessions to riders in hot weather, and riders may not be allowed into restaurants to pick up orders, get a drink of water or use the washroom, according to a source quoted by Eco-Business. (Eco-Business: Heatwave fee for Asia's gig workers does little to cool climate stress, https://www.eco-business.com/news/heatwave-fee-for-asias-gig-workers-does-little-to-cool-climate-stress/)
 
 In Dhaka, Hanoi, Ho Chi Minh City, Phnom Penh and Karachi, garment hubs where factories trap heat, days with wet-bulb temperatures above 30.5 °C rose by 42% in 2020–24 compared with 2005–09. (Cornell Global Labor Institute and Schroders, Higher Ground?, https://www.ilr.cornell.edu/global-labor-institute/higher-ground-fashions-climate-breakdown)
 
@@ -2344,9 +2346,9 @@ Source: Tamil Nadu Pollution Control Board, G.O. 215, 2023: the tree cover targe
 
 What happened: In one of the world’s densest, most humid cities, the commercial centre has measured up to about 7 °C warmer than the outskirts, and builders, shipyard and landscape workers labour outdoors through it. A study of 355 workers found each hot day cost a median S$21 in lost income.
 
-What they decided: In 2023 the National Environment Agency launched a national heat stress advisory based on wet-bulb globe temperature (WBGT), which counts humidity, sun and wind, with low, moderate and high levels. The Ministry of Manpower made employers check WBGT hourly at outdoor work, give at least 10 minutes’ shaded rest each hour for heavy work at 32 °C or above, help new workers acclimatise, and enforced it.
+What they decided: In 2023 Singapore launched a national heat stress advisory, developed by the environment ministry and the National Environment Agency with the Ministry of Health and its expert panel on heat stress, based on wet-bulb globe temperature (WBGT), which counts humidity, sun and wind, with low, moderate and high levels. The Ministry of Manpower made employers check WBGT hourly at outdoor work, give at least 10 minutes’ shaded rest each hour for heavy work at 32 °C or above, help new workers acclimatise, and enforced it.
 
-What changed: In March and June 2024 the ministry inspected 250 workplaces and acted against 78, mainly for missing shaded rest breaks and acclimatisation. The rules have since been revised and strengthened. Their effect on heat illness has not yet been publicly evaluated.
+What changed: In March and June 2024 the ministry inspected 250 workplaces and acted against 78, mainly for missing shaded rest breaks and acclimatisation. In September 2024 the rules were revised to follow the advisory’s three levels: at a WBGT of 33 °C or above, at least 15 minutes’ rest an hour is recommended for heavy work, new workers acclimatise over at least 7 days, and construction sites with contracts of S$5 million or more and shipyards are required to keep their own WBGT meters. Their effect on heat illness has not yet been publicly evaluated.
 
 - Heat-safe work: led by National governments; paid by Employers; Outdoor worksites checking WBGT hourly and giving shaded rest breaks; workplaces inspected
 
@@ -2359,6 +2361,10 @@ Source: Ministry of Sustainability and the Environment: Heat Stress Advisory, 20
 Source: Ministry of Manpower: enhanced heat stress measures, 2023 https://www.mom.gov.sg/newsroom/press-releases/2023/1024-enhanced-measures-to-reduce-heat-stress-for-outdoor-workers
 
 Source: HRD Asia: 78 of 250 worksites non-compliant, 2024 https://www.hcamag.com/asia/specialisation/employment-law/more-than-75-worksites-found-non-compliant-with-singapores-enhanced-heat-stress-measures-report/499570
+
+Source: Ministry of Manpower: revised heat stress framework, 2024 https://www.mom.gov.sg/newsroom/press-releases/2024/0906-revised-framework-to-guide-employers-and-protect-outdoor-workers-against-heat-stress
+
+Source: Ministry of Manpower: heat stress measures for outdoor work https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work
 
 Source: NUS Project HeatSafe, 2024 https://medicine.nus.edu.sg/wp-content/uploads/2024/03/PRESS-RELEASE_Project-HeatSafe-18MAR2024-FOR-IMMEDIATE-RELEASE.pdf
 
@@ -2656,7 +2662,7 @@ From interviews with city officials in October and November 2024 and published m
 
 ## Organisations working on extreme heat
 
-333 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
+334 organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.
 
 Each organisation is marked with its main side in a heat alliance. Demand: Holds the need or the duty to protect people: governments and public agencies, employers, and organisations of the workers and communities affected. Supply: Provides what protection needs: technology, services and delivery on the ground, insurance, lending and grants, research and data. Platform: Connects demand and supply: networks, alliances and conveners, and the bodies that set shared rules or standards for a market. Many play more than one part; this is the main one.
 
@@ -2824,7 +2830,9 @@ Each organisation is marked with its main side in a heat alliance. Demand: Holds
 
 - PAGASA (Demand): Publishes the Philippines’ heat-index information service. (https://www.pagasa.dost.gov.ph)
 
-- Ministry of Sustainability and the Environment, Singapore (Demand): Coordinates heat resilience and sustainable cooling policy. (https://www.mse.gov.sg)
+- Global Heat Health Information Network, Southeast Asia Hub (Platform): Based in Singapore, shares heat-health evidence and practice across the region; Philanthropy Asia Alliance supports its work in countries including Indonesia and Thailand. (https://heathealth.info/southeastasia/)
+
+- Ministry of Sustainability and the Environment, Singapore (Demand): Coordinates heat resilience and sustainable cooling policy. In March 2026 it set up a Heat Resilience Policy Office to coordinate action across agencies, oversee research and draft a heat resilience action plan, and announced a S$40 million ‘Adapting to Heat Impacts’ funding initiative for research on heat impacts and community heat resilience, within its RIE2030 Heat Resilience R&D Programme. (https://www.mse.gov.sg/latest-news/speech-by-sms-janil-puthucheary-committee-of-supply-2026/)
 
 - Workplace Safety and Health Council, Singapore (Demand): Publishes implementation guidance for workplace heat protection. (https://www.tal.sg/wshc)
 
@@ -3350,7 +3358,7 @@ What extreme heat is doing in 12 Asian cities: whether each has a heat plan, the
 
 A city-state with hot nights, dense towers and an early national heat stress advisory.
 
-Heat action plan (Heat plan in force): Singapore launched a national Heat Stress Advisory in July 2023. It rates heat stress as low, moderate or high from the wet-bulb globe temperature, and tells people what to do at each level. Sources: Ministry of Sustainability and the Environment, 2023 https://mse.gov.sg/latest-news/press-release-heat-stress-advisory
+Heat action plan (Heat plan in force): Singapore launched a national Heat Stress Advisory in July 2023. It rates heat stress as low, moderate or high from the wet-bulb globe temperature, and tells people what to do at each level. Since March 2025 a heatwave is declared when the daily maximum reaches at least 35 °C and the daily mean at least 29 °C for three days in a row; a taskforce of 37 public agencies then opens air-conditioned cooling spaces in community centres. In March 2026 a Heat Resilience Policy Office was set up to coordinate action across agencies, oversee research and draft a heat resilience action plan. Sources: Ministry of Sustainability and the Environment, 2023 https://mse.gov.sg/latest-news/press-release-heat-stress-advisory; Malay Mail: Singapore’s heatwave response plan, 2025 https://www.malaymail.com/news/singapore/2025/03/20/singapore-rolls-out-cooling-measures-as-heatwave-response-plan-unveiled/170163; Ministry of Sustainability and the Environment: Committee of Supply speech, 2026 https://www.mse.gov.sg/latest-news/speech-by-sms-janil-puthucheary-committee-of-supply-2026/
 
 - The sleepless-nights loop: Singapore has averaged 76 warm nights a year over four decades; by 2100 they could come on most nights.
 
@@ -3362,7 +3370,7 @@ Heat action plan (Heat plan in force): Singapore launched a national Heat Stress
 
 Who heat hits hardest: Workers in heat-exposed jobs; Older people
 
-Already at work: National Environment Agency, Singapore; Ministry of Manpower, Singapore; Singapore Management University, Urban Institute; National Research Foundation, Singapore; Monetary Authority of Singapore; C40 Cities
+Already at work: National Environment Agency, Singapore; Ministry of Manpower, Singapore; Ministry of Sustainability and the Environment, Singapore; Global Heat Health Information Network, Southeast Asia Hub; Singapore Management University, Urban Institute; National Research Foundation, Singapore; Monetary Authority of Singapore; C40 Cities
 
 Page: https://beattheheat.asia/cities/singapore/
 
@@ -5646,7 +5654,7 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 
 https://beattheheat.asia/growing/
 
-See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 29 changes are recorded since 23 October 2026, 4 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
+See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 30 changes are recorded since 23 October 2026, 4 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
 
 ### How the work behind the commons grew
 
@@ -5677,6 +5685,8 @@ Dated by the publication date of the work Common Shade draws on (1078 of 1903 wo
 - Tool improved: Every open question now carries its own dated history. Added 7 November 2026 · Questions opened 31 October 2026. Why it matters (our reading): A question that moves is easier to trust than one that simply changes. Each step now shows when it happened, what moved it and which records did, and advanced is never shown as answered. Places: South and Southeast Asia. Topics: The overwhelmed-clinic loop, The invisible-deaths loop. Review: Opening dates taken from the repository history; later steps are checked against their records. Next: See the open questions https://beattheheat.asia/evidence-map/. Connections: Evidence map (from the site's records): The evidence map shows each question with its history.
 
 - Question opened: Questions opened for every step of access nobody has measured (12 questions). Added 7 November 2026 · Gaps found in the checked findings November 2026. Why it matters (our reading): Many steps between a scheme on paper and support in hand are unmeasured, especially whether support is adequate and on time. Each gap now carries a question and a study that could answer it. Places: Bangladesh, India, Indonesia, Nepal, Singapore, Thailand. People: Workers in heat-exposed jobs, Older people. Topics: Social protection floors. Review: Each question restates only what the checked findings measure; designs are our suggestions. Next: Help answer a question https://beattheheat.asia/join/. Connections: Social protection floors (from the site's records): The questions ask whether social protection reaches households in time and in full.
+
+- Evidence added: How Singapore organises for heat, traced to its own sources. Added 7 November 2026 · Country brief published June 2026. Why it matters (our reading): A country brief from the Southeast Asia heat-health hub described the coordination, triggers and research money behind Singapore's heat rules. Each insight was traced to the government or published source behind it, and only what those sources confirm reached the site. What the source says: "Since March 2025 a heatwave is declared when the daily maximum reaches at least 35 °C and the daily mean at least 29 °C for three days in a row" (Malay Mail: Singapore's heatwave response plan, 2025 https://www.malaymail.com/news/singapore/2025/03/20/singapore-rolls-out-cooling-measures-as-heatwave-response-plan-unveiled/170163) Places: Singapore. People: Workers in heat-exposed jobs, Older people. Topics: Heat-safe work, Heat action plans. Review: Every claim checked against its source on GitHub; four that could not be confirmed were set aside and listed. Next: Read Singapore's page https://beattheheat.asia/cities/singapore/. Connections: Heat-safe work (from the site's records): The 2024 revision of the outdoor work rules updates the lever's Singapore example. Heat action plans (from the site's records): A clear heatwave trigger tied to measures for each sector is what a heat action plan sets out. Workers in heat-exposed jobs (from the site's records): Delivery riders, newly described on the workers' profile, have little room to stop in the heat. What it took to add this: The question: Which insights in Singapore's heat resilience brief can be confirmed from primary sources, and where on the site do they help? 20 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 17 confirmed, and 3 could not be (2 blocked automated reading, 1 did not show the expected text). 17 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: How many heat illnesses Singapore's clinics see is still being studied.
 
 - Connection documented: Every harm paired with hope: the nearest places to act, or an honest gap. Added 6 November 2026 · Mapping reviewed November 2026. Why it matters (our reading): A harm without a way forward can leave a reader stuck. Each harm now points to the actions closest to it, or says plainly that none is documented yet. Places: South and Southeast Asia. Review: Built from the map's own links between harms and actions. Next: Explore this connection https://beattheheat.asia/#explore. Connections: The map (from the site's records): The pairing uses the links already on the map.
 
@@ -5728,7 +5738,7 @@ https://beattheheat.asia/evidence-map/
 
 What we have restates the limits the cited studies give themselves; what could answer it and the scale are our suggestions. Advanced means new evidence narrows a question; it is not an answer.
 
-- How much of the load on clinics in South and Southeast Asia during a heatwave is heat illness, and which early actions lower it? [open; open 2026-10-31] What we have: A global health assessment that does not give Asia’s share, and one before-and-after evaluation in Ahmedabad where other changes may explain part of the effect. What could answer it: Compare clinic records across hot seasons in cities with and without early-warning plans. Scale: Two or three cities, two seasons
+- How much of the load on clinics in South and Southeast Asia during a heatwave is heat illness, and which early actions lower it? [open; open 2026-10-31] What we have: A global health assessment that does not give Asia’s share, and one before-and-after evaluation in Ahmedabad where other changes may explain part of the effect. Work under way (not yet an answer): Singapore's HEAT-MAP study is building a fuller picture of how common heat-related illness is now and could become, with findings used to help older people recognise its symptoms. (Ministry of Health, Singapore: Using findings of HEAT-MAP study to help elderly recognise common symptoms of heat-related illnesses, 2026, https://www.moh.gov.sg/newsroom/using-findings-of-heat-map-study-to-help-elderly-recognise-common-symptoms-of-heat-related-illnesses-and-seek-timely-medical-advice/) What could answer it: Compare clinic records across hot seasons in cities with and without early-warning plans. Scale: Two or three cities, two seasons
 
 - How many heat deaths go uncounted, and which ways of counting close the gap? [open; open 2026-10-31] What we have: Official counts that rise partly because reporting improves, and part-season counts that show the gap but not the true toll. What could answer it: Compare excess deaths with recorded heat deaths in a few districts, and test simple reporting changes. Scale: A few districts, one or two seasons
 

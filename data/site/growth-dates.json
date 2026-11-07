@@ -4728,6 +4728,12 @@
    "how": "label"
   },
   {
+   "url": "https://heathealth.info/southeastasia/",
+   "label": "Global Heat Health Information Network, Southeast Asia Hub",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://heathealth.info/wp-content/uploads/2022042190.pdf",
    "label": "Heat Wave Action Plan: Guide to Heat Wave Plan in District Patiala",
    "root": "institutions",
@@ -11280,6 +11286,12 @@
    "how": "meta"
   },
   {
+   "url": "https://www.eco-business.com/news/heatwave-fee-for-asias-gig-workers-does-little-to-cool-climate-stress/",
+   "label": "Eco-Business: Heatwave fee for Asia's gig workers does little to cool climate stress",
+   "root": "evidence",
+   "org": false
+  },
+  {
    "url": "https://www.eco-business.com/press-releases/philanthropy-asia-alliance-supports-southeast-asia-heat-health-hub-to-scale-coordinated-action-on-extreme-heat/",
    "label": "Philanthropy Asia Alliance",
    "root": "institutions",
@@ -13377,6 +13389,15 @@
    "how": "url"
   },
   {
+   "url": "https://www.malaymail.com/news/singapore/2025/03/20/singapore-rolls-out-cooling-measures-as-heatwave-response-plan-unveiled/170163",
+   "label": "Malay Mail: Singapore’s heatwave response plan, 2025",
+   "root": "experience",
+   "org": false,
+   "date": "2025-03-20",
+   "precision": "day",
+   "how": "url"
+  },
+  {
    "url": "https://www.malaymail.com/news/world/2024/04/05/thousands-of-philippine-schools-suspend-in-person-classes-due-to-heat-says-education-dept/127511",
    "label": "AFP via Malay Mail, April 2024",
    "root": "experience",
@@ -13632,6 +13653,15 @@
    "how": "record"
   },
   {
+   "url": "https://www.mom.gov.sg/newsroom/press-releases/2024/0906-revised-framework-to-guide-employers-and-protect-outdoor-workers-against-heat-stress",
+   "label": "Ministry of Manpower: revised heat stress framework, 2024",
+   "root": "practical",
+   "org": false,
+   "date": "2024",
+   "precision": "year",
+   "how": "label"
+  },
+  {
    "url": "https://www.mom.gov.sg/newsroom/press-releases/2026/0806-enhanced-primary-care-plan-appointment-of-new-aos",
    "label": "Ministry of Manpower, 2026: Enhanced Primary Care Plan brings healthcare closer to migrant workers while lowering or maintaining costs for almost all employers",
    "root": "practical",
@@ -13744,6 +13774,15 @@
    "label": "Singapore’s Heat Stress Advisory",
    "root": "practical",
    "org": false
+  },
+  {
+   "url": "https://www.mse.gov.sg/latest-news/speech-by-sms-janil-puthucheary-committee-of-supply-2026/",
+   "label": "Ministry of Sustainability and the Environment: Committee of Supply speech, 2026",
+   "root": "experience",
+   "org": false,
+   "date": "2026",
+   "precision": "year",
+   "how": "label"
   },
   {
    "url": "https://www.mse.gov.sg/latest-news/written-reply-to-parliamentary-question-on-heat-stress/",

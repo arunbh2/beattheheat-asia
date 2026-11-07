@@ -1,0 +1,124 @@
+[
+ {
+  "id": "c-advisory-joint",
+  "where": "Worked example: Singapore (decision)",
+  "text": "The national heat stress advisory was developed by the Ministry of Sustainability and the Environment and the National Environment Agency with the Ministry of Health and its expert panel on heat stress.",
+  "sources": [
+   {
+    "label": "Ministry of Sustainability and the Environment, Singapore: Press release: Heat Stress Advisory, 2023",
+    "url": "https://www.mse.gov.sg/latest-news/press-release-heat-stress-advisory/"
+   }
+  ]
+ },
+ {
+  "id": "c-rules-2024",
+  "where": "Worked example: Singapore (result); lever heatrules example",
+  "text": "In September 2024 the rules were revised to follow the advisory's three levels: at 33 °C or above, at least 15 minutes' rest an hour is recommended for heavy work; new workers acclimatise over at least 7 days; and construction sites with contracts of S$5 million or more, shipyards and process plants keep their own WBGT meters.",
+  "sources": [
+   {
+    "label": "Ministry of Manpower, Singapore: Revised framework to guide employers and protect outdoor workers against heat stress, 2024",
+    "url": "https://www.mom.gov.sg/newsroom/press-releases/2024/0906-revised-framework-to-guide-employers-and-protect-outdoor-workers-against-heat-stress"
+   },
+   {
+    "label": "Ministry of Manpower, Singapore: Heat stress measures for outdoor work, 2024",
+    "url": "https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work"
+   }
+  ]
+ },
+ {
+  "id": "c-coordination",
+  "where": "City profile: Singapore; /who-holds-it/ context",
+  "text": "In March 2026 a Heat Resilience Policy Office was set up to coordinate action across agencies, oversee research and draft a heat resilience action plan across infrastructure, health, economic and social sectors.",
+  "sources": [
+   {
+    "label": "Ministry of Sustainability and the Environment, Singapore: Committee of Supply 2026: speech on heat resilience, 2026",
+    "url": "https://www.mse.gov.sg/latest-news/speech-by-sms-janil-puthucheary-committee-of-supply-2026/"
+   }
+  ]
+ },
+ {
+  "id": "c-heatwave-def",
+  "where": "City profile: Singapore; /plan/ triggers",
+  "text": "Since March 2025 a heatwave is declared when the daily maximum reaches at least 35 °C and the daily mean at least 29 °C for three days in a row; air-conditioned cooling spaces then open in community centres.",
+  "sources": [
+   {
+    "label": "Malay Mail: Singapore rolls out cooling measures as heatwave response plan unveiled, 2025",
+    "url": "https://www.malaymail.com/news/singapore/2025/03/20/singapore-rolls-out-cooling-measures-as-heatwave-response-plan-unveiled/170163"
+   }
+  ]
+ },
+ {
+  "id": "c-taskforce-37",
+  "where": "City profile: Singapore",
+  "text": "A taskforce of 37 public agencies prepares and carries out the response.",
+  "sources": [
+   {
+    "label": "Malay Mail: Singapore rolls out cooling measures as heatwave response plan unveiled, 2025",
+    "url": "https://www.malaymail.com/news/singapore/2025/03/20/singapore-rolls-out-cooling-measures-as-heatwave-response-plan-unveiled/170163"
+   }
+  ]
+ },
+ {
+  "id": "c-fund-40m",
+  "where": "Funders: Ministry of Sustainability and the Environment record",
+  "text": "Its S$40 million 'Adapting to Heat Impacts' funding initiative (2026) supports research on heat impacts and community heat resilience.",
+  "sources": [
+   {
+    "label": "Ministry of Sustainability and the Environment, Singapore: Committee of Supply 2026: speech on heat resilience, 2026",
+    "url": "https://www.mse.gov.sg/latest-news/speech-by-sms-janil-puthucheary-committee-of-supply-2026/"
+   }
+  ]
+ },
+ {
+  "id": "c-rie2030",
+  "where": "Funders: Ministry of Sustainability and the Environment record",
+  "text": "The S$40 million initiative sits within the RIE2030 Heat Resilience R&D Programme, which has one pillar on infrastructure and one on heat's impact on society.",
+  "sources": [
+   {
+    "label": "Ministry of Sustainability and the Environment, Singapore: Written reply to parliamentary question on heat preparedness, 2026",
+    "url": "https://www.mse.gov.sg/latest-news/written-reply-to-parliamentary-question-on-heat-preparedness/"
+   },
+   {
+    "label": "Ministry of Sustainability and the Environment, Singapore: Committee of Supply 2026: speech on heat resilience, 2026",
+    "url": "https://www.mse.gov.sg/latest-news/speech-by-sms-janil-puthucheary-committee-of-supply-2026/"
+   }
+  ]
+ },
+ {
+  "id": "c-heatmap",
+  "where": "Learning agenda: work under way on the true count of heat illness",
+  "text": "Singapore's HEAT-MAP study is building a fuller picture of how common heat-related illness is now and could become, with findings used to help older people recognise its symptoms.",
+  "sources": [
+   {
+    "label": "Ministry of Health, Singapore: Using findings of HEAT-MAP study to help elderly recognise common symptoms of heat-related illnesses, 2026",
+    "url": "https://www.moh.gov.sg/newsroom/using-findings-of-heat-map-study-to-help-elderly-recognise-common-symptoms-of-heat-related-illnesses-and-seek-timely-medical-advice/"
+   }
+  ]
+ },
+ {
+  "id": "c-hub",
+  "where": "Organisations: new record for the Southeast Asia hub",
+  "text": "The Global Heat Health Information Network's hub for Southeast Asia, based in Singapore, shares heat-health evidence and practice across the region; Philanthropy Asia Alliance supports its work in countries including Indonesia and Thailand.",
+  "sources": [
+   {
+    "label": "Global Heat Health Information Network: Global Heat Health Information Network: Southeast Asia Hub, 2026",
+    "url": "https://heathealth.info/southeastasia/"
+   },
+   {
+    "label": "Eco-Business (press release): Philanthropy Asia Alliance supports Southeast Asia Heat Health Hub to scale coordinated action on extreme heat, 2026",
+    "url": "https://www.eco-business.com/press-releases/philanthropy-asia-alliance-supports-southeast-asia-heat-health-hub-to-scale-coordinated-action-on-extreme-heat/"
+   }
+  ]
+ },
+ {
+  "id": "c-gig",
+  "where": "Who is at risk / practical: delivery riders",
+  "text": "Few delivery platforms in Asia make concessions to riders in hot weather, and riders may not be allowed into restaurants to pick up orders, get a drink of water or use the washroom, according to a source quoted by Eco-Business.",
+  "sources": [
+   {
+    "label": "Eco-Business: Heatwave fee for Asia's gig workers does little to cool climate stress",
+    "url": "https://www.eco-business.com/news/heatwave-fee-for-asias-gig-workers-does-little-to-cool-climate-stress/"
+   }
+  ]
+ }
+]
