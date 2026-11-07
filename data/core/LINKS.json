@@ -259,5 +259,22 @@
     "homes",
     "Without affordable cooling or backup power, a household has fewer ways to bring indoor heat down."
   ],
-  ["care","hsys","Without someone to help, reaching medicines and care during a heatwave becomes harder."]
+  ["care","hsys","Without someone to help, reaching medicines and care during a heatwave becomes harder."],
+  [
+    "sanitation",
+    "kidney",
+    "Without toilets at work, people drink less in the heat, which adds to the strain on the kidneys."
+  ],
+  [
+    "kidney",
+    "lost",
+    "Kidney disease means missed work for patients and for the family members who care for them."
+  ],
+  ["harvests","learning","When heat cuts harvests and farm income, children's test results fall."],
+  [
+    "harvests",
+    "hunger",
+    "A poor harvest leaves the households that already eat least eating less the following year."
+  ],
+  ["care","productivity","Care work crowds out paid work, especially for women who work from home."]
 ]

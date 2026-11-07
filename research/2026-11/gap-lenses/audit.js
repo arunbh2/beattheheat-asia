@@ -11,16 +11,20 @@ const LC = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "inbox", "2026-11-
 // a source confirmed by reading the checker's saved text (patch "confirmed": { url: "exact quote" }): the quote must be in a saved record
 const EXC = ["data/inbox/2026-11-gap-lenses/_excerpts.json", "research/2026-11/health-deepening/excerpts.json"].map(f => { try { return fs.readFileSync(path.join(ROOT, f), "utf8").replace(/\\n/g, " ").replace(/\s+/g, " "); } catch (e) { return ""; } }).join(" ");
 const quotes = u => [].concat((P.confirmed || {})[u] || []), quoted = u => quotes(u).length > 0 && quotes(u).every(q => EXC.includes(q.replace(/\s+/g, " ")));
+// each source's saved text (the page, its archived copy or its Europe PMC record, as the checker kept it)
+const TXT = (() => { const o = {}; try { const e = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "inbox", "2026-11-gap-lenses", "_excerpts.json"), "utf8"));
+  Object.values(e).forEach(x => { o[x.url] = ((x.opening || "") + " " + (x.around || []).join(" ")).replace(/\s+/g, " "); }); } catch (e) {} return o; })();
 const items = [
   ...(P.harms || []).map(h => [`harm ${h.id}`, h.add, h.sources]),
   ...(P.levers || []).flatMap(v => [v.example ? [`example ${v.id}`, v.example, v.exampleSources] : null, ...(v.watch || []).map(w => [`watch ${v.id}`, w.text, w.sources])]).filter(Boolean),
   ...(P.atRisk || []).map(f => [`fact ${f.id}`, f.fact, [f.source]]),
   ...(P.evidence || []).map(e => [`evidence ${e.review.cycle}`, e.review.finding + " " + (e.review.sample_size || ""), [{ url: e.url }]])];
-const nums = s => (String(s).match(/\d[\d,]*\.\d+|\d{1,3}(?:,\d{3})+|\d{3,}|\d+(?=%)/g) || []).filter(x => !/^(19|20)\d\d$/.test(x));
+const nums = s => (String(s).match(/\d[\d,]*\.\d+|\d{1,3}(?:,\d{3})+|\d{2,}|\d+(?=%)/g) || []).filter(x => !/^(19|20)\d\d$/.test(x));
 let bad = 0;
 for (const [what, text, srcs] of items) {
   const st = srcs.map(s => `${LC[s.url] || "NOT CHECKED"}${Object.values((LC._terms || {})[s.url] || {}).some(Boolean) ? "" : " (no term found)"}`);
-  const found = t => srcs.some(s => ((LC._terms || {})[s.url] || {})[t] || (quoted(s.url) && quotes(s.url).some(q => q.includes(t))));
+  const word = (txt, t) => new RegExp(`(^|[^\\d.,])${t.replace(/[.,]/g, m => "\\" + m)}(?![\\d]|[.,]\\d)`).test(txt);
+  const found = t => srcs.some(s => ((LC._terms || {})[s.url] || {})[t] || (quoted(s.url) && quotes(s.url).some(q => word(q, t))) || word(TXT[s.url] || "", t));
   const miss = nums(text).filter(t => !found(t) && !found(t.replace(/,/g, "")));
   const ok = srcs.every(s => quoted(s.url) || (["OK", "REDIRECT", "BLOCKED"].includes(LC[s.url]) && Object.values((LC._terms || {})[s.url] || {}).some(Boolean))) && !miss.length;
   if (!ok) bad++;

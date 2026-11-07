@@ -219,11 +219,15 @@
     "id": "hunger",
     "sys": "food",
     "label": "Hunger and\nmalnutrition",
-    "desc": "When food costs more and incomes fall, families eat less and less well, and children suffer most.",
+    "desc": "When food costs more and incomes fall, families eat less and less well, and children suffer most. In rural India, a hot growing season was followed by poorer diets the next year among the households that already ate least, a gap that averages hide (a working paper).",
     "sources": [
       {
         "label": "Lancet Countdown 2024, summarised by Wellcome: heatwaves and droughts linked to 151 million more people facing food insecurity",
         "url": "https://wellcome.org/insights/articles/wellcome-responds-2024-report-lancet-countdown-health-and-climate-change"
+      },
+      {
+        "label": "Stainier et al., NBER working paper, 2025: hot weather, undernutrition and adaptation in rural India",
+        "url": "https://www.nber.org/system/files/working_papers/w34047/w34047.pdf"
       }
     ]
   },
@@ -608,11 +612,19 @@
     "id": "kidney",
     "sys": "health",
     "label": "Kidney and\nheart strain",
-    "desc": "Sweating and dehydration make the heart work harder and can damage the kidneys, especially with repeated exposure.",
+    "desc": "Sweating and dehydration make the heart work harder and can damage the kidneys, especially with repeated exposure. In a Thai cohort, men who reported long spells of heat at work were about twice as likely to report a new kidney diagnosis. In Sri Lanka, heat at work alone does not explain the kidney disease of unknown cause found among farmers.",
     "sources": [
       {
         "label": "Kidney International Reports, 2023: heat stress and kidney health in Tamil Nadu salt-pan workers",
         "url": "https://doi.org/10.1016/j.ekir.2023.04.011"
+      },
+      {
+        "label": "Tawatsupa et al., Journal of Epidemiology, 2012: occupational heat and kidney disease in the Thai Cohort Study",
+        "url": "https://www.jstage.jst.go.jp/article/jea/22/3/22_JE20110082/_pdf/-char/en"
+      },
+      {
+        "label": "De Silva et al., 2022: occupational heat exposure alone does not explain CKDu in Sri Lanka",
+        "url": "https://scholars.duke.edu/publication/1572526"
       }
     ]
   },
@@ -688,7 +700,7 @@
     "id": "mental",
     "sys": "health",
     "label": "Mental health\nsuffers",
-    "desc": "Heat is linked to more anxiety, distress and suicide, and to worse outcomes for people living with mental illness. Heat in pregnancy adds stress and anxiety, known risks for the birth. In many countries, mental health services are far from meeting the need.",
+    "desc": "Heat is linked to more anxiety, distress and suicide, and to worse outcomes for people living with mental illness. Heat in pregnancy adds stress and anxiety, known risks for the birth. In many countries, mental health services are far from meeting the need. In a national survey of Thai adults, people whose daily life was often disrupted by heat reported poorer wellbeing; a survey like this cannot show which came first.",
     "sources": [
       {
         "label": "Thompson et al., The Lancet Planetary Health, 2023, summarised by Imperial College London",
@@ -701,6 +713,10 @@
       {
         "label": "WHO, UNICEF and UNFPA, 2023: Protecting maternal, newborn and child health from the impacts of climate change",
         "url": "https://www.who.int/publications/i/item/9789240085350"
+      },
+      {
+        "label": "Tawatsupa et al., BMJ Open, 2012: heat stress, health and wellbeing in a national cohort of Thai adults",
+        "url": "https://bmjopen.bmj.com/content/bmjopen/2/6/e001396.full.pdf"
       }
     ]
   },
@@ -720,7 +736,7 @@
     "id": "sleepless",
     "sys": "health",
     "label": "Sleepless\nhot nights",
-    "desc": "When nights stay hot, the body has less chance to recover from the day, so the next day can start already depleted. Migrant workers in Singapore linked hot, crowded dormitories with poor sleep and tiredness on the next shift.",
+    "desc": "When nights stay hot, the body has less chance to recover from the day, so the next day can start already depleted. Migrant workers in Singapore linked hot, crowded dormitories with poor sleep and tiredness on the next shift. A review of 11 studies finds heat linked to poorer sleep among people who work in it.",
     "sources": [
       {
         "label": "Minor et al., One Earth, 2022: rising temperatures erode human sleep",
@@ -729,6 +745,10 @@
       {
         "label": "Migrant workers in Singapore, 2023 (PMC10329802)",
         "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10329802/"
+      },
+      {
+        "label": "Raja et al., Annals of Occupational and Environmental Medicine, 2026: heat and sleep among heat-exposed workers, a systematic review",
+        "url": "https://www.aoemj.org/journal/view.php?doi=10.35371/aoem.2026.38.e3"
       }
     ]
   },
@@ -860,11 +880,15 @@
     "id": "debt",
     "sys": "work",
     "label": "Medical costs\nand debt",
-    "desc": "Treatment, medicines and lost days are often paid for out of pocket, pushing households into debt.",
+    "desc": "Treatment, medicines and lost days are often paid for out of pocket, pushing households into debt. In Dhaka, informal workers described paying for treatment and borrowing during heat; how long such debts last is not yet known.",
     "sources": [
       {
         "label": "Selvaraj, Farooqui and Karan, BMJ Open, 2018",
         "url": "https://bmjopen.bmj.com/content/8/5/e018020"
+      },
+      {
+        "label": "IIED, 2026: health and economic impacts of heat on informal workers in urban Bangladesh",
+        "url": "https://www.iied.org/sites/default/files/pdfs/2026-08/22755iied.pdf"
       }
     ]
   },
@@ -944,11 +968,15 @@
     "id": "learning",
     "sys": "education",
     "label": "Learning suffers\nin hot classrooms",
-    "desc": "Studies link hotter school days to measurably lower learning and exam results.",
+    "desc": "Studies link hotter school days to measurably lower learning and exam results. A review of seven studies across 61 countries links heat built up over months and years with poorer results, hardest on low-income students.",
     "sources": [
       {
         "label": "Park, Goodman, Hurwitz and Smith, American Economic Journal: Economic Policy, 2020",
         "url": "https://www.aeaweb.org/doi/10.1257/pol.20180612"
+      },
+      {
+        "label": "Vasilakopoulou et al., PLOS Climate, 2025: cumulative urban heat and learning, a systematic review",
+        "url": "https://journals.plos.org/climate/article?id=10.1371/journal.pclm.0000618"
       }
     ]
   },
@@ -1172,7 +1200,7 @@
     "id": "underreport",
     "sys": "gov",
     "label": "Heat deaths\nunder-recorded",
-    "desc": "Heat is rarely written on death certificates. Most heat deaths are recorded as heart, kidney or lung failure. In India, heatwaves are declared on dry-air temperature from relatively few weather stations, which can miss humid heat where many informal workers live and work.",
+    "desc": "Heat is rarely written on death certificates. Most heat deaths are recorded as heart, kidney or lung failure. In India, heatwaves are declared on dry-air temperature from relatively few weather stations, which can miss humid heat where many informal workers live and work. Personal sensors worn by women aged 40 to 79 in rural Tamil Nadu sometimes read more than 5 °C apart within the same hour, so area averages can misjudge who is exposed.",
     "sources": [
       {
         "label": "Down To Earth, 2024: the miscalculation in India’s heatwave mortality data",
@@ -1181,6 +1209,10 @@
       {
         "label": "NIUA Climate Centre for Cities, 2026: Heat Resilient Cities Framework, p. 10",
         "url": "https://niua.in/publication-details/Heat_Resilient_Cities_Framework"
+      },
+      {
+        "label": "Deshpande et al., 2023: heat exposure among adult women in rural Tamil Nadu (PMC10785747)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10785747/"
       }
     ]
   },
