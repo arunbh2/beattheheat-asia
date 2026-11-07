@@ -291,6 +291,16 @@
                 { "to": "loop:poverty", "why": "Support that arrives in time can keep a hot season from pushing a household into the poverty cycle.", "basis": "editorial" }]
     },
     {
+      "id": "g-question-history", "kind": "tool", "root": "evidence", "added": "2026-11-07", "pr": null,
+      "title": "Every open question now carries its own dated history",
+      "why": "A question that moves is easier to trust than one that simply changes. Each step now shows when it happened, what moved it and which records did, and advanced is never shown as answered.",
+      "places": ["region"], "people": [], "topics": ["clinic", "invisible"],
+      "event": { "what": "Questions opened", "date": "2026-10-31" },
+      "review": "Opening dates taken from the repository history; later steps are checked against their records",
+      "pages": [["/evidence-map/", "Evidence map"]], "action": ["See the open questions", "/evidence-map/"],
+      "links": [{ "to": "page:/evidence-map/", "why": "The evidence map shows each question with its history.", "basis": "record" }]
+    },
+    {
       "id": "g-step-questions", "kind": "question-opened", "root": "practical", "added": "2026-11-07", "pr": 211,
       "title": "Questions opened for every step of access nobody has measured",
       "why": "Many steps between a scheme on paper and support in hand are unmeasured, especially whether support is adequate and on time. Each gap now carries a question and a study that could answer it.",

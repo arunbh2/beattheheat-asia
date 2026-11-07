@@ -149,6 +149,37 @@ function checkWatch(V) {
 // topics come from fixed lists; every link, page and action resolves; "why" is one or two sentences; a quoted finding
 // appears word for word in the site's own records; effort files exist; nothing vague like "Learn more". Each problem
 // names the entry and the field.
+// The learning agenda (data/site/learning.json): every question has a dated history whose latest step is its status;
+// advanced and answered steps name the records that moved them and have a matching change on /growing/.
+function checkLearning(V) {
+  const fs = require("fs"), path = require("path"), ROOT = path.join(__dirname, ".."), P = [];
+  const L = JSON.parse(fs.readFileSync(path.join(ROOT, "data/site/learning.json"), "utf8")), today = new Date().toISOString().slice(0, 10);
+  const G = fs.existsSync(path.join(ROOT, "data/site/growth.json")) ? JSON.parse(fs.readFileSync(path.join(ROOT, "data/site/growth.json"), "utf8")).entries : [];
+  const deepIds = x => Array.isArray(x) ? x.flatMap(deepIds) : x && typeof x === "object" ? [x.id, ...Object.values(x).flatMap(deepIds)] : [];
+  const known = new Set([...deepIds(V.EVIDENCE), ...deepIds(V.LEVERS),
+    ...fs.readdirSync(path.join(ROOT, "data/kb")).filter(f => f.endsWith(".json") && !f.startsWith("_")).flatMap(f => JSON.parse(fs.readFileSync(path.join(ROOT, "data/kb", f), "utf8")).map(r => r.id))].filter(Boolean));
+  const ids = new Set();
+  L.questions.forEach(q => { const at = `data/site/learning.json question ${q.id}`, h = q.history || [];
+    if (ids.has(q.id)) P.push(`${at}: id used twice`); ids.add(q.id);
+    if (!h.length) { P.push(`${at}: needs a history, starting with { date, status: "open", note } on the day it appeared`); return; }
+    if (h[0].status !== "open") P.push(`${at}: the first history step is "open"`);
+    h.forEach((s, i) => { const st = `${at} history step ${i + 1}`;
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(s.date || "") || s.date > today) P.push(`${st}: date must be a past date, YYYY-MM-DD`);
+      if (i && s.date < h[i - 1].date) P.push(`${st}: steps run in date order`);
+      if (!["open", "advanced", "answered"].includes(s.status)) P.push(`${st}: status must be open, advanced or answered`);
+      if (!s.note) P.push(`${st}: needs a short note`);
+      if (s.status !== "open") {
+        if (!(s.records || []).length) P.push(`${st}: an ${s.status} step names the record ids that moved it`);
+        (s.records || []).forEach(r => { if (!known.has(r)) P.push(`${st}: record "${r}" is not in EVIDENCE or data/kb`); });
+        if (!G.some(e => e.kind === "question-advanced" && e.question === q.id && e.added === s.date)) P.push(`${st}: add a "question-advanced" change to data/site/growth.json with "question": "${q.id}" and "added": "${s.date}"`);
+      } });
+    if (q.status !== h[h.length - 1].status) P.push(`${at}: status "${q.status}" differs from its latest history step "${h[h.length - 1].status}"`);
+  });
+  G.filter(e => e.kind === "question-advanced").forEach(e => { const q = L.questions.find(x => x.id === e.question);
+    if (!q) P.push(`data/site/growth.json entry ${e.id}: "question" must be a learning.json question id`);
+    else if (!(q.history || []).some(s => s.status !== "open" && s.date === e.added)) P.push(`data/site/growth.json entry ${e.id}: ${e.question} has no advanced or answered step dated ${e.added}`); });
+  return P;
+}
 function checkGrowth(V) {
   const fs = require("fs"), path = require("path"), ROOT = path.join(__dirname, ".."), P = [];
   const file = path.join(ROOT, "data/site/growth.json"); if (!fs.existsSync(file)) return P;
@@ -268,9 +299,9 @@ else if (mode === "--check") {
   const diff = a.names.filter(n => !deepEqual(a.values[n], b.values[n]));
   if (diff.length || a.names.length !== b.names.length) { console.error("data.js differs from data/core in:", diff.join(", ") || "block list"); process.exit(1); }
   const all = Object.assign({}, b.values, require("./data-blocks.js")());
-  failOn([...checkHope(all), ...checkHome(all), ...checkVisibility(all), ...checkWatch(all), ...checkSocialProtection(all), ...checkGrowth(all)]);
+  failOn([...checkHope(all), ...checkHome(all), ...checkVisibility(all), ...checkWatch(all), ...checkSocialProtection(all), ...checkGrowth(all), ...checkLearning(all)]);
   console.log(`data.js matches data/core (${a.names.length} blocks)`);
 } else {
-  const out = build(); const built = load(out).values; Object.assign(built, require("./data-blocks.js")()); failOn([...checkHope(built), ...checkHome(built), ...checkVisibility(built), ...checkWatch(built), ...checkSocialProtection(built), ...checkGrowth(built)]);   // fails loudly if the result is not valid
+  const out = build(); const built = load(out).values; Object.assign(built, require("./data-blocks.js")()); failOn([...checkHope(built), ...checkHome(built), ...checkVisibility(built), ...checkWatch(built), ...checkSocialProtection(built), ...checkGrowth(built), ...checkLearning(built)]);   // fails loudly if the result is not valid
   fs.writeFileSync(OUT, out); console.log(`data.js rebuilt from data/core (${out.length.toLocaleString()} characters)`);
 }
