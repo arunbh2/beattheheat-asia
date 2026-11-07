@@ -110,6 +110,36 @@ button { font: inherit; color: inherit; }
 .story__deeper .atrisk__close { margin-top: 0; font-size: var(--fs-18); }
 .story__deeper .atrisk__sources { margin-top: 0; }
 .story__deeper > .pd-all { justify-self: start; margin-top: 0; }
+/* act 2, the map: the hero's stat row now sits under the map's headline, and the tools wait behind one disclosure */
+.explorer.story { padding-top: var(--sp-7); }   /* the chapter band above already opens the act */
+.explorer .explorer__stats { max-width: none; margin: var(--sp-5) 0 0; border-top-width: 1px; }
+.explorer .explorer__stats div { padding: var(--sp-2) var(--sp-3) 0 0; }
+.explorer .explorer__stats dd { font-size: clamp(1.6rem, 1.2rem + 1.2vw, 2.2rem); }
+@media (min-width: 760px) { .explorer .explorer__stats { grid-template-columns: repeat(5, minmax(0, 1fr)); } }
+@media (min-width: 1024px) {   /* split: the headline left, the map in numbers right, so the map itself rises into the first screen */
+  .explorer > .container { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); column-gap: var(--sp-7); }
+  .explorer > .container > * { grid-column: 1 / -1; }
+  .explorer > .container > .explorer__head { grid-column: 1; grid-row: 1; }
+  .explorer > .container > .explorer__stats { grid-column: 2; grid-row: 1; align-self: end; grid-template-columns: repeat(3, minmax(0, 1fr)); row-gap: var(--sp-4); margin: 0 0 var(--sp-2); }
+}
+@media (min-width: 900px) {   /* the legend and the film to read it share one row */
+  .explorer .toolbar { grid-template-columns: minmax(0, 1fr) auto; align-items: center; }
+  .explorer .toolbar > * { grid-column: 1 / -1; }
+  .explorer .toolbar > .legend { grid-column: 1; }
+  .explorer .toolbar > .map-guide-film { grid-column: 2; }
+  .explorer .toolbar > .map-guide-film .watch-btn { margin-top: 0; }
+}
+.explorer .explorer__honest { margin: var(--sp-2) 0 var(--sp-5); text-align: left; max-width: 46rem; }
+.map-tools { margin: var(--sp-2) 0 var(--sp-4); border: 1.5px solid var(--line); border-radius: 12px; background: var(--white); }
+.map-tools > summary { list-style: none; cursor: pointer; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px var(--sp-3); min-height: 44px; padding: var(--sp-3) var(--sp-4); font-weight: 700; }
+.map-tools > summary::-webkit-details-marker { display: none; }
+.map-tools > summary::before { content: "+"; color: var(--tone); font-weight: 800; }
+.map-tools[open] > summary::before { content: "−"; }
+.map-tools > summary span { font-weight: 500; font-size: var(--fs-14); color: var(--grey-700); }
+.map-tools > summary:focus-visible { outline: 3px solid var(--orange); outline-offset: 3px; }
+.map-tools[open] { padding-bottom: var(--sp-4); }
+.map-tools > :not(summary) { margin-left: var(--sp-4); margin-right: var(--sp-4); }
+.explorer.is-simple .map-tools { display: none; }
 /* act 1's teaser: one group, its core only (exposed to, held back by); its evidence, map links and films arrive with "Show all" */
 .atrisk__list:not(.is-all) .risk__fact, .atrisk__list:not(.is-all) .risk__row { display: none; }
 @media (min-width: 900px) {

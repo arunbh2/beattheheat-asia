@@ -1182,6 +1182,12 @@
     showWhole(true); fitAll(); track("map-whole");
   });
 
+  // the map's tools wait behind one disclosure; when any action is switched on (from the tools, the panel or a link),
+  // it opens, so "Break the loops" and its count are in view
+  const mapTools = document.querySelector(".map-tools"), breakCount = document.querySelector("[data-break-count]");
+  if (mapTools && breakCount) new MutationObserver(() => { if (breakCount.textContent.trim() !== "0") mapTools.open = true; })
+    .observe(breakCount, { childList: true, characterData: true, subtree: true });
+
   need("filters").addEventListener("click", ev => {
     const b = ev.target.closest("[data-filter]"); if (!b) return;
     state.filter = b.dataset.filter;
