@@ -620,7 +620,7 @@ button { font: inherit; color: inherit; }
 }
 
 /* ---------- 3. Where the loops break ---------- */
-.loops { padding: clamp(64px, 9vw, 128px) 0; background: var(--white); border-top: 1px solid var(--line); }
+.loops { background: var(--white); border-top: 1px solid var(--line); }
 /* Cool roofs behind the heading: strongest white wash over the text on the left, roofs showing on the right, fading to white */
 .loops { position: relative; isolation: isolate; overflow: hidden; overflow: clip; }
 .loops__scene { position: absolute; left: 0; right: 0; top: 0; height: clamp(400px, 40vw, 580px); z-index: -1; pointer-events: none; }
@@ -958,10 +958,14 @@ button { font: inherit; color: inherit; }
 .btn--tour:hover { background: var(--ink); border-color: var(--ink); color: var(--canvas); }
 
 /* ---------- the heat network ---------- */
-.network { padding: clamp(64px, 9vw, 128px) 0; background: var(--white); border-top: 1px solid var(--line); }
-.network .eyebrow { margin-bottom: 20px; }
-.network__layout { display: grid; gap: 40px; margin-top: clamp(28px, 4vw, 44px); }
-@media (min-width: 1000px) { .network__layout { grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr); align-items: start; } .gaps { position: sticky; top: calc(var(--header-h) + 20px); } }
+.network { background: var(--break-50); border-top: 1px solid var(--line); }
+/* the story's close: gaps first, the directory in a fold, then an invitation */
+.network .story__head { max-width: 50rem; } .network .story__head > .story__lede { max-width: 34rem; }
+.network .gaps { max-width: 60rem; margin-top: var(--sp-6); }
+.story__handoff .story__actions { justify-content: center; }
+.network .story__more { max-width: none; border-color: rgba(22,32,43,.18); }
+.network__dir { padding-bottom: var(--sp-5); }
+.network__econ { margin-top: var(--sp-6); }
 .org-roles { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
 .org-roles .chip span { margin-left: 4px; color: var(--grey-500); font-weight: 600; }
 .org-roles .chip[aria-pressed="true"] span { color: inherit; }
@@ -1007,7 +1011,6 @@ button { font: inherit; color: inherit; }
 }
 .term-pop strong { display: block; margin-bottom: 2px; color: var(--amber); text-transform: capitalize; }
 .org-roles .chip { white-space: normal; text-align: left; max-width: 100%; }
-.network__layout > * { min-width: 0; }
 .org-more { margin-top: 14px; }
 .org-more[hidden] { display: none; }
 .org-search { display: block; margin-bottom: 12px; }
@@ -1357,7 +1360,7 @@ body.film-open { overflow: hidden; }
 .cooling .term { padding-top: 2px; padding-bottom: 2px; }
 
 /* ---------- Heat right now (part 21 of data.js; live data) ---------- */
-.now { padding: clamp(64px, 9vw, 120px) 0; background: #111A23; color: var(--canvas); border-top: 1px solid #2E3B49; }
+.now { background: #111A23; color: var(--canvas); border-top: 1px solid #2E3B49; }
 .now .eyebrow { color: #F6A27C; }
 .now .h2 { color: var(--canvas); }
 .now a { color: var(--canvas); }
@@ -1408,7 +1411,7 @@ body.film-open { overflow: hidden; }
 .plan-live__no { color: var(--grey-500); }
 
 /* ---------- Start here (part 23 of data.js) ---------- */
-.start { padding: clamp(40px, 6vw, 72px) 0; background: var(--canvas); border-top: 1px solid var(--line); }
+.start { background: var(--canvas); border-top: 1px solid var(--line); }
 .start__h { margin-top: 10px; font-family: var(--font-display); font-weight: 400; font-size: clamp(2rem, 1.5rem + 2vw, 3.2rem); line-height: 1; text-transform: uppercase; }
 
 /* the first five minutes: a slim bar under the header */
@@ -2492,7 +2495,7 @@ body:not([data-page="plan"]) a[href^="#plan-"]::after, body:not([data-page="plan
 /* ---------- Practical actions and paying for protection: cards on the map, and their own pages ---------- */
 .practical--link, .finance--link { padding: clamp(44px, 6vw, 72px) 0; }
 /* the practical section as a story: headline first (the drawing follows it on phones), one action, the market as its focal card */
-.practical.story, .start.story { padding-block: var(--sp-section); }
+.practical.story { padding-block: var(--sp-section); }
 @media (max-width: 899px) { .practical.story > .container > .spot { display: none; } }   /* the market card carries the picture on phones */
 .practical.story .mx-card { margin: var(--sp-6) 0 0; }
 .section-link { margin-top: 24px; }

@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Newsreader:ital,wght@0,400;0,500;1,400&display=swap">
 
-  <link rel="stylesheet" href="styles.css?v=183">
+  <link rel="stylesheet" href="styles.css?v=184">
 
   <script type="application/ld+json">
   {
@@ -111,12 +111,12 @@
   }
   </script>
   <link rel="alternate" type="text/plain" href="/llms-full.txt" title="The whole map as plain text">
-  <script src="data.js?v=183" defer></script>
-  <script src="script.js?v=183" defer></script>
-  <script src="heatweek.js?v=183" defer></script>
-  <script src="guide.js?v=183" defer></script>
-  <script src="journey.js?v=183" defer></script>
-  <script src="/join.js?v=183" defer></script>
+  <script src="data.js?v=184" defer></script>
+  <script src="script.js?v=184" defer></script>
+  <script src="heatweek.js?v=184" defer></script>
+  <script src="guide.js?v=184" defer></script>
+  <script src="journey.js?v=184" defer></script>
+  <script src="/join.js?v=184" defer></script>
 <!--csn--><style id="csn-css">html:has(.csn){scroll-padding-top:120px}
 .csn,.csf,.csn-d,.csp{--ink:#16202B;--ink2:#39424D;--grey:#5E6570;--canvas:#FAF7F2;--sand:#F2E7D9;--line:#E6DFD4;--orange:#F26430;--ember:#B8401A;--green:#17703A;font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);line-height:1.4}
 .csn{position:sticky;top:0;z-index:60;margin:0!important;padding:0!important;max-width:none!important;display:block!important;background:rgba(250,247,242,.96);border-bottom:1px solid var(--line);-webkit-backdrop-filter:saturate(1.2) blur(10px);backdrop-filter:saturate(1.2) blur(10px)}
@@ -900,17 +900,37 @@ html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{
       </div>
     </section>
 
-    <section class="network" id="network" aria-labelledby="network-title">
+    <section class="network story story--act5" id="network" aria-labelledby="network-title">
       <!-- Drawn scene: a shaded public water point, people filling and sharing. -->
       <div class="sec-scene sec-scene--water scene--drawn" aria-hidden="true">
         <svg class="drawn drawn--side drawn--network" viewBox="0 0 600 420" aria-hidden="true" focusable="false"><g fill="none" stroke="#16202B" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 380 H590" opacity=".5"/><path d="M150 150 Q300 110 450 150 L450 162 Q300 124 150 162 Z" fill="#F26430" stroke="#F26430"/><path d="M160 160 V380 M440 160 V380"/><path d="M286 380 V250 H314 V380 M314 262 H346 V276"/><circle class="nw-drop" cx="346" cy="292" r="4" fill="#16202B"/><path d="M332 380 q14 -40 28 0 Z" stroke="#F26430"/><circle cx="390" cy="298" r="10"/><path d="M390 308 V342 M390 342 L379 380 M390 342 L401 380 M390 316.0 L366 346.0 M390 316.0 L372 356.0"/><circle cx="220" cy="298" r="10"/><path d="M220 308 V342 M220 342 L209 380 M220 342 L231 380 M220 316.0 L248 334.0 M220 316.0 L206 342.0"/><path d="M248 322 h12 v14 h-12 Z" stroke="#F26430"/><circle cx="270" cy="326" r="7"/><path d="M270 332 V355 M270 355 L263 380 M270 355 L277 380 M270 337.76 L256 331.76 M270 337.76 L280 353.76"/><circle cx="510" cy="298" r="10"/><path d="M510 308 V342 M510 342 L499 380 M510 342 L521 380 M510 316.0 L498 292.0 M510 316.0 L522 292.0"/><path d="M494 272 q16 -16 32 0 q-4 14 -16 14 q-12 0 -16 -14 Z"/><circle cx="80" cy="298" r="10"/><path d="M80 308 V342 M80 342 L69 380 M80 342 L91 380 M80 316.0 L100 340.0 M80 316.0 L70 342.0"/><path d="M100 346 h16 v22 h-16 Z" opacity=".7"/></g></svg>
       </div>
 
       <div class="container">
-        <p class="eyebrow eyebrow--break">The heat network</p>
-        <h2 id="network-title" class="h2">Who is already <br>pulling the levers.</h2>
-        <p class="loops__intro">Organisations across Asia and the world already working on parts of this web. Choose a group, or open any lever on the map to see who is working on it.</p>
-        <p class="network__note">Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.</p>
+        <header class="story__head">
+          <p class="eyebrow eyebrow--break">The heat network</p>
+          <h2 id="network-title" class="h2 story__h">Who is already <br>pulling the levers.</h2>
+          <p class="story__lede">Organisations across Asia and the world already working on parts of this web. Choose a group, or open any lever on the map to see who is working on it.</p>
+          <p class="network__note">Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.</p>
+        </header>
+        <div class="gaps" role="region" aria-labelledby="gaps-title">
+            <h3 id="gaps-title" class="leverage__h">Where the gaps may be</h3>
+            <div id="gaps-film" class="gaps__film"></div>
+            <p class="leverage__note">How many organisations on this list work on a lever that acts on each loop. A low number shows a gap in this directory’s coverage, not proof that nobody is working on it.</p>
+            <ol id="gap-list" class="gap-list"></ol>
+          </div>
+        <details class="story__more" id="org-browse">
+          <summary><span>Browse all <span data-stat="orgs">330</span> organisations</span></summary>
+          <div class="network__dir">
+            <label class="org-search"><span class="visually-hidden">Search organisations</span><input type="search" id="org-search" placeholder="Search organisations, places or topics" autocomplete="off"></label>
+            <div class="org-roles" id="org-roles" role="group" aria-label="Show one group of organisations"></div>
+            <div class="org-roles org-sides" id="org-sides" role="group" aria-labelledby="org-sides-k"></div>
+            <p class="org-side-def" id="org-side-def" hidden></p>
+            <p class="org-csv"><a href="/heat-network/heat-network.csv" download>Download the whole list as a spreadsheet (CSV)</a>: name, side, group, what each does, the levers it works on and a link. For mapping who needs protection, who provides it and who connects them.</p>
+            <p class="org-count" id="org-count" aria-live="polite"></p>
+            <ul class="org-list" id="org-list"></ul>
+          </div>
+        </details>
         <p class="network__econ"><a href="/heat-economy/" target="_blank" rel="noopener"><b>The heat economy</b><span>Businesses, funding and ideas that protect people from heat, and questions to ask before you buy, fund or start something.</span><span class="visually-hidden"> (opens in a new tab)</span></a></p>
         <div class="network__deeper">
           <p><strong>Go deeper.</strong> Libraries worth bookmarking. Almost every lever on the map also links to practical guides.</p>
@@ -922,24 +942,12 @@ html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{
             <li><a href="https://zcralliance.org/blogs/why-extreme-heat-demands-a-systems-response/" target="_blank" rel="noopener">Beyond individual risk<span class="visually-hidden"> (opens in a new tab)</span></a>: why extreme heat demands a whole-system response</li>
           </ul>
         </div>
-        <div class="network__layout">
-          <div>
-            <label class="org-search"><span class="visually-hidden">Search organisations</span><input type="search" id="org-search" placeholder="Search organisations, places or topics" autocomplete="off"></label>
-            <div class="org-roles" id="org-roles" role="group" aria-label="Show one group of organisations"></div>
-            <div class="org-roles org-sides" id="org-sides" role="group" aria-labelledby="org-sides-k"></div>
-            <p class="org-side-def" id="org-side-def" hidden></p>
-            <p class="org-csv"><a href="/heat-network/heat-network.csv" download>Download the whole list as a spreadsheet (CSV)</a>: name, side, group, what each does, the levers it works on and a link. For mapping who needs protection, who provides it and who connects them.</p>
-            <p class="org-count" id="org-count" aria-live="polite"></p>
-            <ul class="org-list" id="org-list"></ul>
-          </div>
-          <div class="gaps" role="region" aria-labelledby="gaps-title">
-            <h3 id="gaps-title" class="leverage__h">Where the gaps may be</h3>
-            <div id="gaps-film" class="gaps__film"></div>
-            <p class="leverage__note">How many organisations on this list work on a lever that acts on each loop. A low number shows a gap in this directory’s coverage, not proof that nobody is working on it.</p>
-            <ol id="gap-list" class="gap-list"></ol>
-          </div>
-        </div>
         <p class="honest">This list is a starting point, not a directory of everyone working on heat.</p>
+        <footer class="story__handoff network__join">
+          <p class="story__handoff-line">Working on heat, <br>or know who is?</p>
+          <p class="story__handoff-sub">Come as you are. Bring what you know.</p>
+          <div class="story__actions"><a class="btn btn--cta" href="/join/">Help build Common Shade</a></div>
+        </footer>
       </div>
     </section>
 
