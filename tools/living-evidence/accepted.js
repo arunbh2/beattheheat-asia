@@ -11,7 +11,8 @@ const GRADE = { peer: "Peer-reviewed study", preprint: "Preprint, awaiting revie
 function load() {
   const problems = [], accepted = [], counts = { pending: 0, accept: 0, reject: 0, weeks: 0 };
   if (!fs.existsSync(INBOX)) return { accepted, problems, counts };
-  for (const f of fs.readdirSync(INBOX).filter(f => /^\d{4}-W\d{2}\.json$/.test(f)).sort()) {
+  // weekly queues (2026-W45) and named batches reviewed in a session (2026-11-gap-lenses)
+  for (const f of fs.readdirSync(INBOX).filter(f => /^\d{4}-(W\d{2}|\d{2}-[a-z0-9-]+)\.json$/.test(f)).sort()) {
     let j; try { j = JSON.parse(fs.readFileSync(path.join(INBOX, f), "utf8")); } catch (e) { problems.push(`${f}: not valid JSON (${e.message})`); continue; }
     counts.weeks++;
     for (const c of j.candidates || []) {

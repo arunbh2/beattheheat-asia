@@ -95,14 +95,6 @@
  ],
  "research": [
   {
-   "title": "Effects of a 3-day simulated heatwave on physiological and functional outcomes in older adults in Canada: a single-site randomised crossover trial.",
-   "url": "https://doi.org/10.1016/j.lanplh.2026.101517",
-   "journal": "The Lancet. Planetary health",
-   "date": "2027-07-28",
-   "firstAuthor": "Meade RD",
-   "preprint": false
-  },
-  {
    "title": "500 years of May temperature variability in Balochistan reconstructed from Juniperus excelsa tree rings: heat stress, growth-collapse extremes, and implications for an endangered relict forest",
    "url": "https://doi.org/10.21203/rs.3.rs-10746072/v1",
    "journal": "Preprint",
@@ -1117,6 +1109,15 @@
    "date": "2026-08-24",
    "firstAuthor": "Moreira M",
    "preprint": false
+  },
+  {
+   "title": "Effects of a 3-day simulated heatwave on physiological and functional outcomes in older adults in Canada: a single-site randomised crossover trial.",
+   "url": "https://doi.org/10.1016/j.lanplh.2026.101517",
+   "journal": "The Lancet. Planetary health",
+   "date": "",
+   "firstAuthor": "Meade RD",
+   "preprint": false,
+   "issue": "2027-07-28"
   }
  ],
  "updated": "2026-11-07T13:19:14.373Z"

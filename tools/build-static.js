@@ -540,7 +540,7 @@ require("./build-print")().then(list => {
   console.log("Wrote", list.length, "printable one-pagers");
   // last of all, once every page exists: one navigation on every page
   require("./build-ticker.js");
-  require("./growth-dates.js"); require("./build-pages.js"); require("./build-everything.js")({ llms: true }); require("./build-nav.js")(); require("./shorts/embed.js"); require("./explainers/embed.js");
+  require("./growth-dates.js"); require("./news-status.js"); require("./build-pages.js"); require("./build-everything.js")({ llms: true }); require("./build-nav.js")(); require("./shorts/embed.js"); require("./explainers/embed.js");
   // the sitemap lists every page that exists, so new sections never go missing from search engines
   {
     const urls = [], skip = /^(tools|media|node_modules|research|data|images|feeds|\.git|\.github|\.claude|\.agents)$/;

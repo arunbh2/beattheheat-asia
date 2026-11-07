@@ -291,6 +291,16 @@
                 { "to": "loop:poverty", "why": "Support that arrives in time can keep a hot season from pushing a household into the poverty cycle.", "basis": "editorial" }]
     },
     {
+      "id": "g-news-to-evidence", "kind": "tool", "root": "evidence", "added": "2026-11-07", "pr": null,
+      "title": "The news page now shows what became of each paper and headline",
+      "why": "Coverage and checked evidence are easy to confuse. Every paper on the news page now goes through the weekly evidence review, and each item shows whether it is on the Evidence map, in review, set aside or still waiting.",
+      "places": ["region"], "people": [], "topics": ["invisible"],
+      "event": { "what": "Papers and headlines listed since", "date": "2026-10" },
+      "review": "Papers reach the map only after a reviewer accepts them; headlines are traced to their primary source first",
+      "pages": [["/news/", "Heat in the news"], ["/evidence-map/#living", "The weekly evidence review"]], "action": ["See what became of each item", "/news/"],
+      "links": [{ "to": "page:/evidence-map/", "why": "Accepted papers join their cycles on the Evidence map.", "basis": "record" }]
+    },
+    {
       "id": "g-question-history", "kind": "tool", "root": "evidence", "added": "2026-11-07", "pr": null,
       "title": "Every open question now carries its own dated history",
       "why": "A question that moves is easier to trust than one that simply changes. Each step now shows when it happened, what moved it and which records did, and advanced is never shown as answered.",

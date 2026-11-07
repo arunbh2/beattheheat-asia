@@ -2121,6 +2121,13 @@ html:has(> body > .ticker:not([hidden])) { --tk-h: 34px; }
 .feed__list a:hover, .feed__list a:focus-visible { text-decoration: underline; text-decoration-color: var(--orange); text-underline-offset: 3px; }
 .feed__src { font-size: .76rem; color: #A9B0BA; }
 .feed__wait { color: #A9B0BA; font-size: .85rem; }
+.feed__st { justify-self: start; font-size: .72rem; font-weight: 700; padding: 2px 8px; border-radius: 999px; border: 1px solid #5B6876; color: #C9D1DA; text-decoration: none; }
+.feed__list a.feed__st { color: #C9D1DA; font-weight: 700; }
+.feed__list .feed__st--evidence { border-color: #7FD1A8; color: #9FE0BE; }
+.feed__st--evidence::before { content: "✓ "; }
+.feed__list .feed__st--review { border-color: #F6C177; color: #F8D49B; }
+.feed__list .feed__st--cited { border-color: #F6A27C; color: #F8BC9F; }
+.feed__st--waiting { border-style: dashed; }
 .feed__more { margin-top: 10px; color: #F6A27C; }
 .feed__meta, .feeds__note { margin-top: 10px; font-size: .76rem; color: #A9B0BA; }
 .feed__meta a { color: inherit; }

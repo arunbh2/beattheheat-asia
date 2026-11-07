@@ -43,6 +43,8 @@ async function openAlex(from) {
     date: x.publication_date || "", doi: (x.doi || "").replace("https://doi.org/", ""), pmid: "", preprint: x.type === "preprint",
     url: x.doi || x.id, firstAuthor: ((x.authorships || [])[0] && x.authorships[0].author.display_name) || "", abstract: clean(abs(x.abstract_inverted_index)) }));
 }
+// a journal can print a future issue date; keep it as "issue", never as the date a paper was published
+const TODAY = new Date().toISOString().slice(0, 10), notFuture = x => (x.date && x.date > TODAY ? Object.assign(x, { issue: x.date, date: "" }) : x);
 (async () => {
   const from = new Date(Date.now() - DAYS * 864e5).toISOString().slice(0, 10);
   let items = [], source = "";
@@ -50,6 +52,7 @@ async function openAlex(from) {
   if (!items.length) { try { items = await openAlex(from); source = "OpenAlex"; } catch (e) { console.log("::warning::OpenAlex did not answer either (" + e.message + "); feeds/research.json left as it was"); return; } }
   items = items.filter(x => x.title);
   if (!items.length) { console.log("::warning::no research found; feeds/research.json left as it was"); return; }
+  items.forEach(notFuture);
   fs.writeFileSync(OUT, JSON.stringify({ updated: new Date().toISOString(), days: DAYS, source,
     items: items.map(({ abstract, ...x }) => x) }, null, 1).replace(/\u2014/g, "-") + "\n"); // plain hyphens, never em dashes
   console.log(`research: ${items.length} items from ${source} written`);

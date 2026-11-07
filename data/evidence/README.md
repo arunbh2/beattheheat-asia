@@ -9,15 +9,16 @@ New studies reach the Evidence map (`/evidence-map/`) through a weekly cycle. It
    - OpenAlex (with university repositories)
    - the World Bank document library
    - WHO IRIS
+   - every paper listed on /news/ (`feeds/archive.json`), with its abstract fetched from Europe PMC by DOI; a paper whose abstract cannot be found stays unscreened and is tried again the next week
 
-   A service that does not answer is noted in the queue, and the harvest carries on.
+   A service that does not answer is noted in the queue, and the harvest carries on. `tools/news-status.js` then marks each paper on /news/ as on the Evidence map, in review, screened and set aside, or not yet screened (`feeds/status.json`).
 2. **Screen and pre-fill (automatic).** `tools/living-evidence/extract.js` keeps studies that meet three tests:
    - they are about heat and health, passive cooling or heat finance
    - they name a South or Southeast Asian setting
    - they show signs of new data
 
    It then copies the following from the title and abstract, each with the sentence it came from: sample size, places, climate zone, effect size (°C, %, or a risk ratio), unit cost, failure modes and study design. It never infers. A field the abstract does not state stays empty. It also suggests up to three cycles by keyword.
-3. **Queue (automatic).** The week's candidates are written to `inbox/<YYYY>-W<ww>.json` and a pull request is opened. Abstracts stay in that run's log, not in the repository. `seen.json` stops a study from being queued twice.
+3. **Queue (automatic).** The week's candidates are written to `inbox/<YYYY>-W<ww>.json` (studies reviewed as a named batch in a session use `inbox/<YYYY>-<MM>-<name>.json`, such as `2026-11-gap-lenses.json`) and a pull request is opened. Abstracts stay in that run's log, not in the repository. `seen.json` stops a study from being queued twice.
 4. **Review (a person).** For each candidate, open the study and set `decision`:
    - `reject`, with an optional `review.note`
    - `accept`, completing `review`:

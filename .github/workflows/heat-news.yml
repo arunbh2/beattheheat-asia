@@ -24,6 +24,7 @@ jobs:
       - run: node tools/fetch-news.js
       - run: node tools/fetch-research.js
       - run: node tools/archive-news.js
+      - run: node tools/news-status.js
       - name: Rebuild the sources page with the archive
         run: node tools/build-sources.js && node tools/build-nav.js
       - name: Commit the feed if it changed
