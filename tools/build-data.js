@@ -191,6 +191,9 @@ function checkCountsAndDates() {
   const typed = s => (String(s).match(/(?:^|[^\w{\/.-])(\d[\d,]*)\s+[A-Za-z]/g) || []).map(m => m.trim()).filter(m => !/^(19|20)\d\d\b/.test(m));
   NAV.groups.forEach(g => [g.lead, ...g.items].forEach(it => { if (!it) return; [it[1], it[2]].forEach(s => typed(s).forEach(m =>
     P.push(`data/site/nav.json "${it[0]}": "${m}..." is a typed count; write it as {key} (filled from data/site/counts.json by tools/nav-counts.js)`))); }));
+  const PJ = JSON.parse(fs.readFileSync(path.join(ROOT, "data/site/paths.json"), "utf8"));
+  PJ.paths.forEach(p => p.stops.forEach(s => [s.why, ...(s.do ? [s.do[1]] : []), ...(s.read || []).map(r => r[1])].forEach(x => typed(x).forEach(m =>
+    P.push(`data/site/paths.json "${p.id}" stop ${s.url}: "${m}..." is a typed count; write it as {key} (filled from data/site/counts.json by tools/nav-counts.js)`)))));
   const feeds = [["feeds/archive.json", a => [...(a.news || []), ...(a.research || [])]], ["feeds/research.json", r => r.items || []], ["feeds/news.json", n => n.items || []]];
   feeds.forEach(([f, pick]) => { const file = path.join(ROOT, f); if (!fs.existsSync(file)) return;
     pick(JSON.parse(fs.readFileSync(file, "utf8"))).forEach(x => { if (x && x.date && String(x.date).slice(0, 10) > today)

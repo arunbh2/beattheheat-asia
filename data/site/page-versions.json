@@ -240,20 +240,20 @@
   "changed": "2026-10-31"
  },
  "/paths/community/": {
-  "hash": "ef482bcf1bd7e673",
-  "changed": "2026-10-01"
+  "hash": "e128884ae82d0456",
+  "changed": "2026-11-07"
  },
  "/paths/employer/": {
   "hash": "cc0748e7a3b7dce9",
   "changed": "2026-10-01"
  },
  "/paths/funder/": {
-  "hash": "b5e8b8f4e1e76943",
-  "changed": "2026-10-01"
+  "hash": "bbe1381b3b126000",
+  "changed": "2026-11-07"
  },
  "/paths/health/": {
-  "hash": "cfbd8e751002b8d1",
-  "changed": "2026-10-31"
+  "hash": "7515e4902dde7982",
+  "changed": "2026-11-07"
  },
  "/paths/national/": {
   "hash": "379ba510621de57d",
@@ -432,7 +432,7 @@
   "changed": "2026-11-03"
  },
  "/social-protection/": {
-  "hash": "94a741276cad3ce7",
+  "hash": "0c448ce419166dec",
   "changed": "2026-11-07"
  },
  "/solutions/": {

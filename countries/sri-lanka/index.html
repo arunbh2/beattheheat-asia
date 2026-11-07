@@ -14,7 +14,7 @@
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2316202B'/%3E%3Cpath d='M5 14 Q16 4 27 14' fill='none' stroke='%23F26430' stroke-width='4.5' stroke-linecap='round'/%3E%3Cpath d='M9 13 V27 M23 13 V27' stroke='%23F6E7D7' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Newsreader:ital,wght@0,400;0,500;1,400&display=swap">
-  <link rel="stylesheet" href="/styles.css?v=196">
+  <link rel="stylesheet" href="/styles.css?v=197">
 <!--csn--><style id="csn-css">html:has(.csn){scroll-padding-top:120px}
 .csn,.csf,.csn-d,.csp{--ink:#16202B;--ink2:#39424D;--grey:#5E6570;--canvas:#FAF7F2;--sand:#F2E7D9;--line:#E6DFD4;--orange:#F26430;--ember:#B8401A;--green:#17703A;font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);line-height:1.4}
 .csn{position:sticky;top:var(--tk-h,0px);z-index:60;margin:0!important;padding:0!important;max-width:none!important;display:block!important;background:rgba(250,247,242,.96);border-bottom:1px solid var(--line);-webkit-backdrop-filter:saturate(1.2) blur(10px);backdrop-filter:saturate(1.2) blur(10px)}
@@ -131,13 +131,13 @@
 .csn-d__stops small{display:block;color:var(--grey);font-size:.84rem}
 .csn-d__row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
 .csn-d__link{border:0;background:none;padding:0;text-decoration:underline;color:var(--grey);font-size:.9rem}
-.csp{margin:18px auto 22px;max-width:1240px;padding:20px 24px;border-radius:18px;background:#fff;border:1px solid var(--line);border-left:5px solid var(--orange);box-shadow:0 18px 40px -30px rgba(22,32,43,.4)}
+.csp{margin:12px auto 16px;max-width:1240px;padding:14px 20px;border-radius:18px;background:#fff;border:1px solid var(--line);border-left:5px solid var(--orange);box-shadow:0 18px 40px -30px rgba(22,32,43,.4)}
 .csp p{margin:0 0 8px!important}
 .csp__k{font-size:.72rem!important;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--ember)}
-.csp__q{font-family:Anton,Impact,"Arial Narrow",sans-serif;font-size:1.6rem!important;line-height:1.1;text-transform:uppercase;letter-spacing:.02em}
+.csp__q{font-family:Anton,Impact,"Arial Narrow",sans-serif;font-size:1.2rem!important;line-height:1.15;text-transform:uppercase;letter-spacing:.02em}
 .csp__why{color:var(--ink2);max-width:70ch}
 .csp__read a,.csp__do a{font-weight:700;text-decoration:underline;text-decoration-color:var(--orange);text-underline-offset:3px}
-.csp__next{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;margin:12px 0 0!important;padding-top:12px;border-top:1px solid var(--line)}
+.csp__next{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;margin:8px 0 0!important;padding-top:10px;border-top:1px solid var(--line)}
 .csp__go{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 18px;border-radius:999px;background:var(--ink);color:var(--canvas)!important;font-weight:700;text-decoration:none}
 .csp__leave{border:0;background:none;padding:0;color:var(--grey);text-decoration:underline;font-size:.88rem}
 .csf{margin-top:56px;background:#16202B;color:#FAF7F2;max-width:none!important;padding:0!important}
@@ -409,7 +409,7 @@ function groupOf(u){for(var i=0;i<G.length;i++)if(G[i].urls.indexOf(u)>-1)return
  $$("[data-csn-paths]").forEach(function(b){b.addEventListener("click",function(){try{localStorage.setItem("cs-start-seen","1")}catch(e){}st.classList.remove("csn__start--glow")})})})();
 function apply(){var p=byId(get());H.classList.toggle("csn--onpath",!!p);$$("[data-csn-pathlabel]").forEach(function(x){x.textContent="Start here"});
  $$(".csp").forEach(function(c){c.hidden=!p||c.getAttribute("data-csp")!==p.id});
- var bar=$("[data-csn-pathbar]");if(bar){if(!p){bar.hidden=true}else{var at=-1;p.stops.forEach(function(s,i){if(s.url===here)at=i});var nx=at>-1?p.stops[at+1]:p.stops[0];
+ var bar=$("[data-csn-pathbar]"),card=$(".csp:not([hidden])");if(bar){if(!p||card){bar.hidden=true}else{var at=-1;p.stops.forEach(function(s,i){if(s.url===here)at=i});var nx=at>-1?p.stops[at+1]:p.stops[0];
   bar.innerHTML='<span>On the <b>'+esc(p.short)+'</b> path'+(at>-1?' · stop '+(at+1)+' of '+p.stops.length:'')+'</span>'+(nx?'<a href="'+nx.url+'">'+(at>-1?"Next":"Start")+': '+esc(nx.q)+' →</a>':'<a href="'+P.end.url+'">Last stop: '+esc(P.end.q)+' →</a>')+'<button type="button" data-csn-leave>Leave</button>';bar.hidden=false}}
  $$("[data-csn-foryou]").forEach(function(f){var g=f.getAttribute("data-csn-foryou");if(!p){f.innerHTML='<p>Choose a path by role, and your next stops appear here.</p><button type="button" class="csn__btn" data-csn-paths>Choose a path</button>';f.querySelector("[data-csn-paths]").addEventListener("click",openPaths);return}
   var mine=p.stops.filter(function(s){return groupOf(s.url)===g});f.innerHTML='<p><b>'+esc(p.short)+' path</b></p>'+(mine.length?'<ol>'+mine.map(function(s){return'<li><a href="'+s.url+'">'+esc(s.q)+'</a></li>'}).join("")+'</ol>':'<p>No stops in this group. Your path continues elsewhere.</p>')})}
@@ -471,7 +471,7 @@ $$("[data-check]").forEach(function(box){var key=box.getAttribute("data-check"),
     if(form)window.open(form,"_blank","noopener");remember({a:"no",d:today});done(thanksNo)})})}});
 /* copy the citation */
 $$("[data-csn-copy]").forEach(function(b){b.addEventListener("click",function(){var t=$("[data-csn-cite]").textContent;(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){b.textContent="Copied"},function(){b.textContent="Select and copy"})})});
-})();</script><script src="/ticker.js?v=196" defer></script><script>addEventListener("load",function(){setTimeout(function(){["/join.js?v=196","/everything.js?v=196"].forEach(function(s){var e=document.createElement("script");e.src=s;document.body.appendChild(e)})},2500)})</script><!--/csn-->
+})();</script><script src="/ticker.js?v=197" defer></script><script>addEventListener("load",function(){setTimeout(function(){["/join.js?v=197","/everything.js?v=197"].forEach(function(s){var e=document.createElement("script");e.src=s;document.body.appendChild(e)})},2500)})</script><!--/csn-->
 <footer class="wkp-foot"><div class="container">
     <p>From a structured rapid evidence map compiled in October 2026, not an exhaustive systematic review. Listing a solution, programme or organisation does not imply endorsement, partnership or ranking. Every source links to its publisher; links that failed our check are left out. Text: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0<span class="visually-hidden"> (opens in a new tab)</span></a>. <a href="/sources/">All sources</a> · <a href="/">Back to the map</a></p>
   </div></footer>

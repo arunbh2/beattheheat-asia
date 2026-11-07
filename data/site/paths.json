@@ -35,7 +35,7 @@
     {
      "url": "/solutions/",
      "q": "What works, and how sure are we?",
-     "why": "131 ways to protect people, each with its evidence, cost and limits.",
+     "why": "{solutions} ways to protect people, each with its evidence, cost and limits.",
      "read": [
       [
        "#packages",
@@ -73,7 +73,7 @@
     {
      "url": "/heat-economy/flows/",
      "q": "Where is money flowing, and where is it not?",
-     "why": "Fifty pieces of traced funding, followed from who gave them to the cycles they could help break, with the role each plays.",
+     "why": "{fundingTraced} pieces of traced funding, followed from who gave them to the cycles they could help break, with the role each plays.",
      "read": [
       [
        "#roles",
@@ -96,7 +96,7 @@
      "read": [],
      "do": [
       "/heat-network/",
-      "See all 330 organisations"
+      "See all {organisations} organisations"
      ]
     },
     {
@@ -214,7 +214,7 @@
     {
      "url": "/who-is-at-risk/",
      "q": "Who is most at risk?",
-     "why": "Ten groups, what exposes them and what holds them back.",
+     "why": "{atRisk} groups, what exposes them and what holds them back.",
      "read": [
       [
        "#older",
@@ -351,7 +351,7 @@
     {
      "url": "/who-is-at-risk/",
      "q": "Who is exposed, and why?",
-     "why": "Ten groups, the heat they face and the barriers to staying safe.",
+     "why": "{atRisk} groups, the heat they face and the barriers to staying safe.",
      "read": [
       [
        "#workers",

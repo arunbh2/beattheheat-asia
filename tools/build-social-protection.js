@@ -59,11 +59,7 @@ module.exports = function socialProtection({ page, write, esc, hero, V, D }) {
   const body = `${hero("Act", esc(T.TITLE), `Heat cuts the hours people can safely work and brings costs for care. Public schemes can cushion part of that shock. ${n.schemes} schemes in ${n.countries} countries, what is known about who they reach, and where nothing responds.`)}
   <div class="container sp">
     <p class="sp-note"><b>This is not an eligibility check.</b> Rules change often and differ by place, so each scheme shows the date its status applies to; check with the scheme before relying on it. Households appear here only in aggregate.</p>
-    <nav class="sp-jump" aria-label="On this page"><a href="#why">Why heat reaches household budgets</a><a href="#find">Find support</a><a href="#steps">Steps of access</a><a href="#routes">Delivery routes</a><a href="#gaps">Where nothing responds</a><a href="#maps">What a map could show</a><a href="#questions">Open questions</a>${gx ? `<a href="#took">What it took</a>` : ""}<a href="#sources">Sources</a></nav>
-
-    <section id="why" class="sp-sec" aria-labelledby="why-h"><h2 id="why-h" class="sp-h2">Why heat reaches household budgets</h2>
-      <p>Heat cuts the hours people can safely work, and illness brings costs and lost days. On the map these are <a href="/#lost">Lost work hours and wages</a>, <a href="/#debt">Medical costs and debt</a> and <a href="/#heatstroke">Heatstroke and heat exhaustion</a>. Public schemes can cushion part of that shock. What the studies show:</p>
-      <ul class="sp-evidence">${evidence.map(({ e, c }) => `<li><b>${esc(c.name)}:</b> ${esc(e.finding)}${e.effect ? ` <span class="sp-meta">${esc(e.effect)}</span>` : ""} <span class="sp-meta">Limit: ${esc(e.limit)}</span>${srcs(e.sources)}</li>`).join("")}</ul></section>
+    <nav class="sp-jump" aria-label="On this page"><a href="#find">Find support</a><a href="#why">Why heat reaches household budgets</a><a href="#steps">Steps of access</a><a href="#routes">Delivery routes</a><a href="#gaps">Where nothing responds</a><a href="#maps">What a map could show</a><a href="#questions">Open questions</a>${gx ? `<a href="#took">What it took</a>` : ""}<a href="#sources">Sources</a></nav>
 
     <section id="find" class="sp-sec" aria-labelledby="find-h"><h2 id="find-h" class="sp-h2">Find support</h2>
       <p>Choose a country and a situation. Each scheme opens to show who runs it, who is eligible, what it gives, how it is delivered, the documents it asks for, whether it follows people who move, whether it can respond to a shock, and its sources.</p>
@@ -75,6 +71,10 @@ module.exports = function socialProtection({ page, write, esc, hero, V, D }) {
       </form>
       ${finder}
       <p class="sp-empty" id="sp-empty" hidden>No scheme in the checked set matches all of these. Try fewer choices; a scheme missing here may still exist.</p></section>
+
+    <section id="why" class="sp-sec" aria-labelledby="why-h"><h2 id="why-h" class="sp-h2">Why heat reaches household budgets</h2>
+      <p>Heat cuts the hours people can safely work, and illness brings costs and lost days. On the map these are <a href="/#lost">Lost work hours and wages</a>, <a href="/#debt">Medical costs and debt</a> and <a href="/#heatstroke">Heatstroke and heat exhaustion</a>. Public schemes can cushion part of that shock. What the studies show:</p>
+      <ul class="sp-evidence">${evidence.map(({ e, c }) => `<li><b>${esc(c.name)}:</b> ${esc(e.finding)}${e.effect ? ` <span class="sp-meta">${esc(e.effect)}</span>` : ""} <span class="sp-meta">Limit: ${esc(e.limit)}</span>${srcs(e.sources)}</li>`).join("")}</ul></section>
 
     <section id="steps" class="sp-sec" aria-labelledby="steps-h"><h2 id="steps-h" class="sp-h2">Steps of access</h2>
       <p>Between a scheme existing and a household receiving enough, on time, lie eight steps: aware, eligible, documented, applied, enrolled, received, adequate, on time. Where a step has been measured, the finding is shown with who was counted. The findings come from different studies of different people, so they are not one funnel.</p>
