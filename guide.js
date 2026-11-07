@@ -81,7 +81,7 @@
     const next = S.time ? document.querySelector(".wayin__stops [data-way-stop]") : document.querySelector("[data-way-time]");
     const land = next && (next.closest(".wayin__path") || next.closest(".wayin__q")) || document.getElementById("start"); if (!land) return;
     const head = document.querySelector("header.csn, .site-header"), still = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
-    const top = land.getBoundingClientRect().top + window.scrollY - (head ? head.getBoundingClientRect().height : 0) - 16;
+    const top = land.getBoundingClientRect().top + window.scrollY - (head ? Math.max(0, head.getBoundingClientRect().bottom) : 0) - 16;
     window.scrollTo({ top, behavior: still ? "auto" : "smooth" });
     if (next) next.focus({ preventScroll: true });
   }

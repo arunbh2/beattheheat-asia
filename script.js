@@ -745,12 +745,12 @@
   /* ======================= SELECTION ======================= */
   function beforeFocus() {
     openPanel();
-    const r = stage.getBoundingClientRect();
+    const r = stage.getBoundingClientRect(), tk = parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--tk-h")) || 0;   // the pinned ticker, when it shows
     if (!isDesktop()) {
-      const top = r.top - 66;
+      const top = r.top - 66 - tk;
       if (Math.abs(top) > 4) window.scrollBy(0, top);
-    } else if (r.bottom > window.innerHeight + 4 || r.top < 60) {
-      const delta = r.top < 60 ? r.top - 76 : Math.min(r.bottom - window.innerHeight + 16, r.top - 76);
+    } else if (r.bottom > window.innerHeight + 4 || r.top < 60 + tk) {
+      const delta = r.top < 60 + tk ? r.top - 76 - tk : Math.min(r.bottom - window.innerHeight + 16, r.top - 76 - tk);
       window.scrollBy({ top: delta, behavior: reduceMotion ? "auto" : "smooth" });
     }
   }
