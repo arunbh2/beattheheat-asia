@@ -1,0 +1,60 @@
+{
+ "total": 25.48,
+ "scenes": [
+  {
+   "start": 0.0,
+   "dur": 3.67,
+   "beats": [
+    0.35,
+    1.92
+   ],
+   "text": "You built a cooling centre. Can she use it?"
+  },
+  {
+   "start": 3.67,
+   "dur": 4.1,
+   "beats": [
+    0.35,
+    1.63
+   ],
+   "text": "It's open in the day. But her home stays hottest at night."
+  },
+  {
+   "start": 7.77,
+   "dur": 3.87,
+   "beats": [
+    0.35,
+    1.4
+   ],
+   "text": "It's close. But she can't walk that far in the heat."
+  },
+  {
+   "start": 11.64,
+   "dur": 3.6,
+   "beats": [
+    0.35,
+    1.54
+   ],
+   "text": "An alert went out. But she has no phone."
+  },
+  {
+   "start": 15.24,
+   "dur": 4.76,
+   "beats": [
+    0.35,
+    1.43,
+    3.1
+   ],
+   "text": "A ride there, and a neighbour who checks in, can make it reachable."
+  },
+  {
+   "start": 20.0,
+   "dur": 5.48,
+   "beats": [
+    0.35,
+    2.42
+   ],
+   "text": "Who can use the protection you planned? Try the exercise at beat the heat dot Asia."
+  }
+ ]
+}

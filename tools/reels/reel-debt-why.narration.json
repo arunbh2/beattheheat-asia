@@ -1,0 +1,16 @@
+{
+ "voice": {
+  "model": "en-us-libritts-high",
+  "speaker": 599,
+  "length_scale": 0.94,
+  "licence": "LibriTTS (CC BY 4.0), via the Piper voice en-us-libritts-high"
+ },
+ "scenes": [
+  "Why can't this worker just take a break?",
+  "A street vendor can't stop to rest. | Stopping means losing the day's sales.",
+  "Then the heat makes him ill. | Days of work are lost, and treatment costs money.",
+  "A loan fills the gap. | Now, on the next hot day, rest costs even more.",
+  "Heat, lost income, debt, no rest. | Shade, paid rest and income support could make rest possible, if they reach people in time.",
+  "See what could break the cycle. | Beat the heat dot Asia."
+ ]
+}
