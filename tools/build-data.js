@@ -184,6 +184,19 @@ function checkLearning(V) {
     else if (!(q.history || []).some(s => s.status !== "open" && s.date === e.added)) P.push(`data/site/growth.json entry ${e.id}: ${e.question} has no advanced or answered step dated ${e.added}`); });
   return P;
 }
+// the menu never carries a typed count, and no page shows a publication date that has not happened yet
+function checkCountsAndDates() {
+  const fs = require("fs"), path = require("path"), ROOT = path.join(__dirname, ".."), P = [], today = new Date().toISOString().slice(0, 10);
+  const NAV = JSON.parse(fs.readFileSync(path.join(ROOT, "data/site/nav.json"), "utf8"));
+  const typed = s => (String(s).match(/(?:^|[^\w{\/.-])(\d[\d,]*)\s+[A-Za-z]/g) || []).map(m => m.trim()).filter(m => !/^(19|20)\d\d\b/.test(m));
+  NAV.groups.forEach(g => [g.lead, ...g.items].forEach(it => { if (!it) return; [it[1], it[2]].forEach(s => typed(s).forEach(m =>
+    P.push(`data/site/nav.json "${it[0]}": "${m}..." is a typed count; write it as {key} (filled from data/site/counts.json by tools/nav-counts.js)`))); }));
+  const feeds = [["feeds/archive.json", a => [...(a.news || []), ...(a.research || [])]], ["feeds/research.json", r => r.items || []], ["feeds/news.json", n => n.items || []]];
+  feeds.forEach(([f, pick]) => { const file = path.join(ROOT, f); if (!fs.existsSync(file)) return;
+    pick(JSON.parse(fs.readFileSync(file, "utf8"))).forEach(x => { if (x && x.date && String(x.date).slice(0, 10) > today)
+      P.push(`${f}: "${String(x.title).slice(0, 60)}" is dated ${x.date}, after today; a journal's future issue date belongs in "issue" (tools/archive-news.js and tools/fetch-research.js move it)`); }); });
+  return P;
+}
 function checkGrowth(V) {
   const fs = require("fs"), path = require("path"), ROOT = path.join(__dirname, ".."), P = [];
   const file = path.join(ROOT, "data/site/growth.json"); if (!fs.existsSync(file)) return P;
@@ -303,9 +316,9 @@ else if (mode === "--check") {
   const diff = a.names.filter(n => !deepEqual(a.values[n], b.values[n]));
   if (diff.length || a.names.length !== b.names.length) { console.error("data.js differs from data/core in:", diff.join(", ") || "block list"); process.exit(1); }
   const all = Object.assign({}, b.values, require("./data-blocks.js")());
-  failOn([...checkHope(all), ...checkHome(all), ...checkVisibility(all), ...checkWatch(all), ...checkSocialProtection(all), ...checkGrowth(all), ...checkLearning(all)]);
+  failOn([...checkHope(all), ...checkHome(all), ...checkVisibility(all), ...checkWatch(all), ...checkSocialProtection(all), ...checkGrowth(all), ...checkLearning(all), ...checkCountsAndDates()]);
   console.log(`data.js matches data/core (${a.names.length} blocks)`);
 } else {
-  const out = build(); const built = load(out).values; Object.assign(built, require("./data-blocks.js")()); failOn([...checkHope(built), ...checkHome(built), ...checkVisibility(built), ...checkWatch(built), ...checkSocialProtection(built), ...checkGrowth(built), ...checkLearning(built)]);   // fails loudly if the result is not valid
+  const out = build(); const built = load(out).values; Object.assign(built, require("./data-blocks.js")()); failOn([...checkHope(built), ...checkHome(built), ...checkVisibility(built), ...checkWatch(built), ...checkSocialProtection(built), ...checkGrowth(built), ...checkLearning(built), ...checkCountsAndDates()]);   // fails loudly if the result is not valid
   fs.writeFileSync(OUT, out); console.log(`data.js rebuilt from data/core (${out.length.toLocaleString()} characters)`);
 }
