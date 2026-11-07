@@ -179,6 +179,27 @@
     "have": "Historical learning protection evidence; no verified 2026-framework heat evaluation.",
     "could": "Evaluate adjusted hours, rest and water provision alongside work access and wage arrival.",
     "scale": "About 50 worksites across four districts in one hot season."
+   },
+   {
+    "id": "in-step-adequate",
+    "steps": [
+     "adequate"
+    ],
+    "q": "Is what a household receives from rural work, pensions or food rations enough to cover a hot season's lost earnings and care costs?",
+    "have": "Documents, applications, enrolment, receipt and payment timing are measured for some schemes, such as fund transfer orders for rural work. No source checked measures whether support is adequate in a hot season.",
+    "could": "Compare the support received with heat-season losses in the same households, in a hot month and a cooler one.",
+    "scale": "Illustrative: about 600 households in three districts"
+   },
+   {
+    "id": "in-step-aware",
+    "steps": [
+     "aware",
+     "eligible"
+    ],
+    "q": "How many informal workers exposed to heat know which schemes they could use, and how many of them qualify?",
+    "have": "Later steps are measured for some schemes; awareness and eligibility are not, in the sources checked.",
+    "could": "Pair a short awareness survey with an eligibility screen for the same workers, at worksites and markets.",
+    "scale": "Illustrative: about 800 workers in two cities"
    }
   ]
  },

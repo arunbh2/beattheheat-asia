@@ -5162,22 +5162,22 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 
 #### Steps of access in Bangladesh (findings come from different studies of different people; they are not one funnel)
 
-- Aware: nobody has measured this here yet, in the sources checked.
+- Aware: nobody has measured this here yet, in the sources checked. Open question: How many heat-exposed urban households know of an allowance, qualify for it, hold the documents, apply and are enrolled?
 
-- Eligible: nobody has measured this here yet, in the sources checked.
+- Eligible: nobody has measured this here yet, in the sources checked. Open question: How many heat-exposed urban households know of an allowance, qualify for it, hold the documents, apply and are enrolled?
 
-- Documented: nobody has measured this here yet, in the sources checked.
+- Documented: nobody has measured this here yet, in the sources checked. Open question: How many heat-exposed urban households know of an allowance, qualify for it, hold the documents, apply and are enrolled?
 
-- Applied: nobody has measured this here yet, in the sources checked.
+- Applied: nobody has measured this here yet, in the sources checked. Open question: How many heat-exposed urban households know of an allowance, qualify for it, hold the documents, apply and are enrolled?
 
-- Enrolled: nobody has measured this here yet, in the sources checked.
+- Enrolled: nobody has measured this here yet, in the sources checked. Open question: How many heat-exposed urban households know of an allowance, qualify for it, hold the documents, apply and are enrolled?
 
 - Received: Implementers report 301 recipients received a BDT 2,400 top-up in August 2025. (Simulation participants in Ward 4, Rajshahi; limit: Selected simulation participants; no population access denominator or independent outcome evaluation.; sources: Red Cross Red Crescent Climate Centre and implementing partners, 2026: When social protection anticipates risk: Lessons from a shock responsive social protection simulation in Rajshahi city, Bangladesh https://www.anticipation-hub.org/Documents/Reports/0_RCCC_SRSP_simulation_Rajshahi_Advocacy_brief_V3.pdf)
 - Received: Implementer update: 1,290 households had received multipurpose cash by 27 April 2024. (Selected Dhaka households; limit: The 4,000-household figure is a target, not the receipt count in this update.; sources: Bangladesh Red Crescent Society, 2024: Nationwide Heatwave Early Actions/Response: Operations Update-01; 27 April, 2024 https://bdrcs.org/wp-content/uploads/2024/04/Heatwave-Early-Actions-2024-_27.4.24-_Operation-Update-01.pdf)
 
-- Adequate: nobody has measured this here yet, in the sources checked.
+- Adequate: nobody has measured this here yet, in the sources checked. Open question: When heat arrives, how much of a household's lost earnings and care costs does an allowance or top-up cover, and does it arrive before the hottest days?
 
-- On time: nobody has measured this here yet, in the sources checked.
+- On time: nobody has measured this here yet, in the sources checked. Open question: When heat arrives, how much of a household's lost earnings and care costs does an allowance or top-up cover, and does it arrive before the hottest days?
 
 #### Delivery routes and organisations in Bangladesh (unranked)
 
@@ -5202,6 +5202,20 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 - Seasonal migration: nationwide portability of eligibility, applications and collection was not verified; a digital transfer alone does not establish portability. (Sources: Finance Division, Ministry of Finance, 2026: Social Security Budget Report FY2026-27 https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-mof/2026/5/4d4de077-26a7-4f8f-aad1-7b3f48043897.pdf)
 
 - Heat debt, asset sales and mortality: no evaluated public heat transfer effect was found in this bounded search. Flood trial findings do not fill that gap. (Sources: Red Cross Red Crescent Climate Centre and implementing partners, 2026: When social protection anticipates risk: Lessons from a shock responsive social protection simulation in Rajshahi city, Bangladesh https://www.anticipation-hub.org/Documents/Reports/0_RCCC_SRSP_simulation_Rajshahi_Advocacy_brief_V3.pdf; Bangladesh Red Crescent Society, 2024: Nationwide Heatwave Early Actions/Response: Operations Update-01; 27 April, 2024 https://bdrcs.org/wp-content/uploads/2024/04/Heatwave-Early-Actions-2024-_27.4.24-_Operation-Update-01.pdf; Christian et al., 2025: Fast Action for Floods: RCT Evidence on Forecast-based Cash Transfers from Bangladesh and Nepal https://bfi.uchicago.edu/wp-content/uploads/2025/11/BFI_WP_2025-140.pdf)
+
+#### Open questions for Bangladesh (study designs and sizes are our suggestions; sizes are illustrative)
+
+- Does an allowance top-up before a heatwave reduce lost work and medical spending? What is known: A Rajshahi delivery simulation was reported. [B5] A study that could answer it: Randomised phased invitation or top-up timing across comparable neighbourhood clusters, with aggregate income, medical-spending and timing outcomes. (Illustrative design: 40-60 clusters; final size from power calculations.)
+
+- At which access step do heat-exposed urban households stop receiving support? What is known: HIES measures past receipt but not a linked eligibility-to-receipt ladder. [B3] A study that could answer it: A repeated representative household survey linked only to consented, de-identified process totals; publish aggregate transitions and reasons. (Illustrative design: 1,500-2,000 households across several cities.)
+
+- How often does public support meet the costs of medically diagnosed heat illness? What is known: A historical SSK financial-risk evaluation exists; heat-specific claims were not reported. [B7] A study that could answer it: Prospective facility-cost study comparing public benefits, out-of-pocket costs, referral and foregone care across one hot season. (Illustrative design: 10-15 facilities; power and case-volume check first.)
+
+- Does assisted application improve timely receipt among migrants and women outdoor workers? What is known: Delivery organisations describe support, but no comparable independent local effect was read. [B6, B12, B13] A study that could answer it: Randomise outreach timing among consenting community clusters and track aggregate application, receipt, cost and delay. (Illustrative design: 30-50 clusters over one application cycle.)
+
+- [Unmeasured: Adequate, On time] When heat arrives, how much of a household's lost earnings and care costs does an allowance or top-up cover, and does it arrive before the hottest days? What is known: Implementer reports count households that received cash in Rajshahi and Dhaka. None of the sources checked measures how far the money went, or when it arrived compared with the heat. A study that could answer it: Follow recipient households through one hot season, recording lost work days, care costs and payment dates against heat-alert dates. (Illustrative: about 300 households in two cities over one hot season)
+
+- [Unmeasured: Aware, Eligible, Documented, Applied, Enrolled] How many heat-exposed urban households know of an allowance, qualify for it, hold the documents, apply and are enrolled? What is known: None of the sources checked measures these steps for the schemes on this page in Bangladesh. A study that could answer it: A household survey in hot wards that asks the same people about each step, for the same schemes. (Illustrative: about 1,000 households in four wards)
 
 ### India (research as of 5 November 2026; sources checked 7 November 2026)
 
@@ -5237,9 +5251,9 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 
 #### Steps of access in India (findings come from different studies of different people; they are not one funnel)
 
-- Aware: nobody has measured this here yet, in the sources checked.
+- Aware: nobody has measured this here yet, in the sources checked. Open question: How many informal workers exposed to heat know which schemes they could use, and how many of them qualify?
 
-- Eligible: nobody has measured this here yet, in the sources checked.
+- Eligible: nobody has measured this here yet, in the sources checked. Open question: How many informal workers exposed to heat know which schemes they could use, and how many of them qualify?
 
 - Documented: India, 31 October 2025: 68,14,95,972 beneficiaries completed e-KYC, stated as 85.6%. (Existing NFSA beneficiaries; limit: e-KYC is neither receipt nor every documentation requirement.; sources: Department of Food and Public Distribution, 2025: E-KYC COMPLIANT RATION CARDS https://sansad.in/getFile/annex/269/AU1793_fjXAYl.pdf?source=pqars)
 
@@ -5250,7 +5264,7 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 - Received: India, as of 30 June 2026: 29.05 lakh inter-state portability hospital admissions authorised. (Beneficiaries accessing care outside their home state; limit: Authorisations are a proxy, not unique people or verified completed care; no heat-specific costs measured.; sources: Ministry of Health and Family Welfare, 2026: Update on Ayushman Bharat Pradhan Mantri Jan Arogya Yojna (AB PM-JAY) https://www.pib.gov.in/PressReleasePage.aspx?PRID=2290627&lang=1&reg=22)
 - Received: India, 1 April to 2 December 2025: women accounted for 56.73% of person-days. (Women in historical MGNREGA; limit: Work participation proxy, not wage receipt or eligible-women coverage.; sources: Ministry of Rural Development, 2026: Department of Rural Development: Year Ender 2025 https://www.pib.gov.in/PressReleasePage.aspx?PRID=2210378&lang=1&reg=1)
 
-- Adequate: nobody has measured this here yet, in the sources checked.
+- Adequate: nobody has measured this here yet, in the sources checked. Open question: Is what a household receives from rural work, pensions or food rations enough to cover a hot season's lost earnings and care costs?
 
 - On time: India, 1 April to 2 December 2025: 95.31% of fund transfer orders generated within 8 days. (Historical MGNREGA workers; limit: Administrative stage, not bank receipt; predates July 2026 transition.; sources: Ministry of Rural Development, 2026: Department of Rural Development: Year Ender 2025 https://www.pib.gov.in/PressReleasePage.aspx?PRID=2210378&lang=1&reg=1)
 
@@ -5282,6 +5296,22 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 
 - Construction workers outside registration: checked Meghalaya benefits depend on the Board's qualifying route. (Sources: Meghalaya Building and Other Construction Workers Welfare Board: Frequently Asked Questions https://megbocwwb.gov.in/faqs; Meghalaya Building and Other Construction Workers Welfare Board: Schemes https://megbocwwb.gov.in/schemes)
 
+#### Open questions for India (study designs and sizes are our suggestions; sizes are illustrative)
+
+- At which access step do heat-exposed informal-worker households lose the most potential support? What is known: Separate administrative stocks and a small commissioned facilitation assessment; no complete representative ladder. A study that could answer it: Voluntary repeated survey before, during and after a hot season, publishing only aggregate group and step results. (About 1,500 households across six districts; final size depends on detectable differences.)
+
+- Does receiving an existing transfer before peak heat improve coping compared with later receipt? What is known: Entitlements and heat earnings-loss evidence; little verified payment-timing evidence. A study that could answer it: Evaluate an authorised timing change with aggregate earnings, care costs and borrowing outcomes. (About 2,000 households across 40-60 clusters, subject to power analysis.)
+
+- How much of household heat-illness cost is met through PM-JAY and free public care? What is known: Hospital-cover rules and service policies; no verified heat-specific cost pathway. A study that could answer it: Consent-based care-cost study across public and empanelled facilities, publishing aggregate results. (About 600 episodes across 12 facilities in one season.)
+
+- Does assisted scheme navigation improve timely receipt during a hot season? What is known: Delivery models and commissioned assessment; no verified heat-specific causal estimate. A study that could answer it: Phased rollout of additional support against existing services, measuring receipt and timing; providers on equal terms. (About 60 communities and 1,800 households; subject to power analysis.)
+
+- Can public works cushion heat income loss while reducing exposure? What is known: Historical learning protection evidence; no verified 2026-framework heat evaluation. A study that could answer it: Evaluate adjusted hours, rest and water provision alongside work access and wage arrival. (About 50 worksites across four districts in one hot season.)
+
+- [Unmeasured: Adequate] Is what a household receives from rural work, pensions or food rations enough to cover a hot season's lost earnings and care costs? What is known: Documents, applications, enrolment, receipt and payment timing are measured for some schemes, such as fund transfer orders for rural work. No source checked measures whether support is adequate in a hot season. A study that could answer it: Compare the support received with heat-season losses in the same households, in a hot month and a cooler one. (Illustrative: about 600 households in three districts)
+
+- [Unmeasured: Aware, Eligible] How many informal workers exposed to heat know which schemes they could use, and how many of them qualify? What is known: Later steps are measured for some schemes; awareness and eligibility are not, in the sources checked. A study that could answer it: Pair a short awareness survey with an eligibility screen for the same workers, at worksites and markets. (Illustrative: about 800 workers in two cities)
+
 ### Indonesia (research as of 6 November 2026; sources checked 7 November 2026)
 
 - KNOWN heat evidence: insured primary-care visits increased on hotter days, including diabetes and cardiovascular visits. That study does not estimate how much insurance reduced household heat losses. (Sources: Fritz, 2022: Temperature and non-communicable diseases: Evidence from Indonesia's primary health care system https://onlinelibrary.wiley.com/doi/10.1002/hec.4590)
@@ -5308,13 +5338,13 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 
 #### Steps of access in Indonesia (findings come from different studies of different people; they are not one funnel)
 
-- Aware: nobody has measured this here yet, in the sources checked.
+- Aware: nobody has measured this here yet, in the sources checked. Open question: Where do informal workers stop between hearing of worker insurance and applying for it?
 
-- Eligible: nobody has measured this here yet, in the sources checked.
+- Eligible: nobody has measured this here yet, in the sources checked. Open question: Where do informal workers stop between hearing of worker insurance and applying for it?
 
-- Documented: nobody has measured this here yet, in the sources checked.
+- Documented: nobody has measured this here yet, in the sources checked. Open question: Where do informal workers stop between hearing of worker insurance and applying for it?
 
-- Applied: nobody has measured this here yet, in the sources checked.
+- Applied: nobody has measured this here yet, in the sources checked. Open question: Where do informal workers stop between hearing of worker insurance and applying for it?
 
 - Enrolled: Evaluation of 5,996 households: registration assistance increased enrolment by 3.5 percentage points. (Non-poor informal-worker households in Bandung and Medan; limit: Historical randomised offer, not current national access; page narrative describes 2015-2018.; sources: J-PAL: Enrolling Informal Sector Workers in National Health Insurance in Indonesia https://www.povertyactionlab.org/evaluation/enrolling-informal-sector-workers-national-health-insurance-indonesia)
 - Enrolled: Full subsidy increased enrolment by 18.6 percentage points from a comparison mean of 7.8 percent. (Same historical evaluation population; limit: Subsidy experiment; not a 2026 policy coverage estimate.; sources: J-PAL: Enrolling Informal Sector Workers in National Health Insurance in Indonesia https://www.povertyactionlab.org/evaluation/enrolling-informal-sector-workers-national-health-insurance-indonesia)
@@ -5323,9 +5353,9 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 - Received: Government report, 7 August 2026: more than 7 million families had been paid in quarter III. (Programme families; limit: Interim national administrative report; no eligible-family denominator or heat subgroup.; sources: Ministry of State Secretariat, 2026: Pastikan Tepat Sasaran, Pemerintah Salurkan Bansos kepada Lebih dari 18 Juta KPM https://www.setneg.go.id/baca/index/pastikan_tepat_sasaran_pemerintah_salurkan_bansos_kepada_lebih_dari_18_juta_kpm)
 - Received: Government report, 7 August 2026: more than 12 million families had been paid in quarter III. (Programme families; limit: Not a completed-quarter count; cannot sum overlapping schemes.; sources: Ministry of State Secretariat, 2026: Pastikan Tepat Sasaran, Pemerintah Salurkan Bansos kepada Lebih dari 18 Juta KPM https://www.setneg.go.id/baca/index/pastikan_tepat_sasaran_pemerintah_salurkan_bansos_kepada_lebih_dari_18_juta_kpm)
 
-- Adequate: nobody has measured this here yet, in the sources checked.
+- Adequate: nobody has measured this here yet, in the sources checked. Open question: Do cash transfers reach families before or after the hottest weeks, and is the amount enough to cover lost work?
 
-- On time: nobody has measured this here yet, in the sources checked.
+- On time: nobody has measured this here yet, in the sources checked. Open question: Do cash transfers reach families before or after the hottest weeks, and is the amount enough to cover lost work?
 
 #### Delivery routes and organisations in Indonesia (unranked)
 
@@ -5340,6 +5370,20 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 - Informal heat work stoppages: JKK concerns qualifying work injury and JKP concerns qualifying termination; neither opened rule establishes general pay for every lost hot day. (Sources: BPJS Ketenagakerjaan: Manfaat Bukan Penerima Upah https://www.bpjsketenagakerjaan.go.id/Bukan-Penerima-Upah.html; BPJS Ketenagakerjaan: Cek Informasi Detail Jaminan Kehilangan Pekerjaan https://www.bpjsketenagakerjaan.go.id/jaminan-kehilangan-pekerjaan.html)
 
 - Heat debt, asset sales and mortality: no evaluated public heat-transfer effect was opened. Non-heat PKH null findings are not heat null findings. (Sources: J-PAL: The Medium-Term Impact of Conditional Cash Transfers on Health and Education in Indonesia https://www.povertyactionlab.org/evaluation/medium-term-impact-conditional-cash-transfers-health-and-education-indonesia; Cahyadi et al., 2020: Cumulative Impacts of Conditional Cash Transfer Programs: Experimental Evidence from Indonesia https://swlb1.aeaweb.org/articles?id=10.1257/pol.20190245)
+
+#### Open questions for Indonesia (study designs and sizes are our suggestions; sizes are illustrative)
+
+- What share of diagnosed work-related heat claims reach benefit payment? What is known: JKK benefits exist; heat-specific acceptance and delay were not verified. [I5, I6] A study that could answer it: Prospective multi-site claims pathway study, publishing aggregate submitted, accepted and paid counts and time intervals. (Illustrative: several provinces over two hot seasons; sample based on case volume.)
+
+- Does contribution support keep informal workers insured through the hot season? What is known: A registration experiment and a new contribution-saving route exist. [I16, I9] A study that could answer it: Cluster randomisation of assisted contribution-saving access, measuring active coverage, care costs and retention in aggregate. (Illustrative: 40-60 clusters; final size from power calculations.)
+
+- Does a pre-heat top-up reduce income loss, debt and delayed care? What is known: PKH delivery and general economic evaluations exist, without a verified heat effect. [I4, I17] A study that could answer it: Pre-specified phased top-up trial using forecasts, with household outcomes reported only in aggregate. (Illustrative: two hot seasons across 40-60 clusters.)
+
+- Which heat-related crop losses meet AUTP damage rules and receive timely support? What is known: Drought insurance terms and extension routes are published. [I11] A study that could answer it: Crop-season panel combining weather, field loss assessment and anonymised aggregate claim outcomes, without publishing farm locations. (Illustrative: 1,000-1,500 insured and comparable uninsured farm households.)
+
+- [Unmeasured: On time, Adequate] Do cash transfers reach families before or after the hottest weeks, and is the amount enough to cover lost work? What is known: Government reports count the families paid each quarter, without payment dates set against heat or amounts set against losses. A study that could answer it: Link payment dates with heat records and a short household survey on lost work and spending. (Illustrative: about 500 families in two provinces over one year)
+
+- [Unmeasured: Aware, Eligible, Documented, Applied] Where do informal workers stop between hearing of worker insurance and applying for it? What is known: An evaluation in Bandung and Medan measured enrolment: registration help raised it by 3.5 percentage points and full subsidy by 18.6, while information alone had no measured effect. Awareness, documents and applications were not measured as separate steps. A study that could answer it: Follow the same workers through awareness, documents and application, with and without help to register. (Illustrative: about 1,000 workers in two cities)
 
 ### Nepal (research as of 6 November 2026; sources checked 7 November 2026)
 
@@ -5375,19 +5419,19 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 - Aware: 2023: 7 percent of women knew of SSF. (Women informal workers in the same survey; limit: Same pre-launch and urban-sample limits.; sources: World Bank, 2025: De Jure and De Facto Coverage of Parental Benefits in Nepal https://documents1.worldbank.org/curated/en/099021925113581657/pdf/P1766171d407e20f21adde1ba735b9a8b83.pdf)
 - Aware: 2023: 15 percent of men knew of SSF. (Men informal workers in the same survey; limit: Same pre-launch and urban-sample limits.; sources: World Bank, 2025: De Jure and De Facto Coverage of Parental Benefits in Nepal https://documents1.worldbank.org/curated/en/099021925113581657/pdf/P1766171d407e20f21adde1ba735b9a8b83.pdf)
 
-- Eligible: nobody has measured this here yet, in the sources checked.
+- Eligible: nobody has measured this here yet, in the sources checked. Open question: Among people who qualify for an allowance, how many hold the documents and have applied?
 
-- Documented: nobody has measured this here yet, in the sources checked.
+- Documented: nobody has measured this here yet, in the sources checked. Open question: Among people who qualify for an allowance, how many hold the documents and have applied?
 
-- Applied: nobody has measured this here yet, in the sources checked.
+- Applied: nobody has measured this here yet, in the sources checked. Open question: Among people who qualify for an allowance, how many hold the documents and have applied?
 
 - Enrolled: ILO report dated 24 December 2025: about 1500 informal and self-employed registrants. (Informal and self-employed workers; limit: Mixed informal and self-employed categories; no eligible population or benefit-receipt denominator.; sources: International Labour Organization, 2025: Nepal launches national campaign to bring informal workers into social security https://www.ilo.org/resource/news/nepal-launches-national-campaign-bring-informal-workers-social-security)
 
 - Received: 2023 survey: only 6 percent of informal parents received cash benefits at the last birth. (Informal parents in the same survey; limit: Not heat support or current SSF receipt; childbirth may predate the survey.; sources: World Bank, 2025: De Jure and De Facto Coverage of Parental Benefits in Nepal https://documents1.worldbank.org/curated/en/099021925113581657/pdf/P1766171d407e20f21adde1ba735b9a8b83.pdf)
 
-- Adequate: nobody has measured this here yet, in the sources checked.
+- Adequate: nobody has measured this here yet, in the sources checked. Open question: Do allowances arrive on time and cover what a hot season costs older people and outdoor-worker households?
 
-- On time: nobody has measured this here yet, in the sources checked.
+- On time: nobody has measured this here yet, in the sources checked. Open question: Do allowances arrive on time and cover what a hot season costs older people and outdoor-worker households?
 
 #### Delivery routes and organisations in Nepal (unranked)
 
@@ -5414,6 +5458,20 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 - Heat anticipatory cash: the urban protocol concerns selected places and planned households; it does not establish a standing nationwide public payment. (Sources: International Federation of Red Cross and Red Crescent Societies / Nepal Red Cross Society, 2025: Simplified Early Action Protocol: Nepal | Urban Heatwave https://go-api.ifrc.org/api/downloadfile/93851/sEAP2025NP02_MDRNP020)
 
 - Debt and asset recovery after heat: no completed heat social-protection impact evaluation was read. Statistically non-significant later flood outcomes are not a heat null result. (Sources: Christian et al., 2025: Fast Action for Floods: RCT Evidence on Forecast-based Cash Transfers from Bangladesh and Nepal https://bfi.uchicago.edu/wp-content/uploads/2025/11/BFI_WP_2025-140.pdf)
+
+#### Open questions for Nepal (study designs and sizes are our suggestions; sizes are illustrative)
+
+- Does pre-heat cash reduce lost earnings and medical spending for outdoor-worker households? What is known: An urban heat protocol exists without a completed impact evaluation in the sources read. [N12] A study that could answer it: Randomised or pre-specified phased delivery across comparable neighbourhoods, recording timing, income, care and coping costs in aggregate. (Illustrative design: 40-60 clusters over two hot seasons; power calculation before final sampling.)
+
+- Which step limits qualifying SSF access among informal workers? What is known: Pre-launch awareness data and later registration reports describe different periods. [N7, N8] A study that could answer it: Follow a representative cohort from information through contribution qualification and benefit receipt, with anonymised aggregate reporting. (Illustrative design: 1,500-2,000 workers across several municipalities.)
+
+- How often does public insurance meet the full cost of heat-related care? What is known: Enrolment is measured; current heat-specific claims and complete costs are not. [N4, N5, N22] A study that could answer it: Prospective facility and household cost study with diagnosed heat cases, matched service records under consent, and published aggregate results only. (Illustrative design: 10-15 facilities across a hot season; case-volume check before sizing.)
+
+- Does a supported transfer process reduce allowance interruption after migration? What is known: A documented allowance transfer route exists; actual seasonal continuity was not measured. [N1] A study that could answer it: Phased assistance through wards, comparing aggregate transfer completion, payment interruption and travel cost. (Illustrative design: 20-30 ward pairs over one renewal and payment cycle.)
+
+- [Unmeasured: Adequate, On time] Do allowances arrive on time and cover what a hot season costs older people and outdoor-worker households? What is known: Awareness of the Social Security Fund, enrolment and receipt are measured in the sources checked; the adequacy and timing of allowances in hot months are not. A study that could answer it: Record payment dates and heat-season costs for allowance households in the Tarai. (Illustrative: about 400 households in four municipalities)
+
+- [Unmeasured: Eligible, Documented, Applied] Among people who qualify for an allowance, how many hold the documents and have applied? What is known: In the sources checked, eligibility, documents and applications are not measured as separate steps. A study that could answer it: A records review with local governments that counts eligible people, documents held and applications made. (Illustrative: six wards in three municipalities)
 
 ### Singapore (research as of 6 November 2026; sources checked 7 November 2026)
 
@@ -5457,24 +5515,24 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 
 #### Steps of access in Singapore (findings come from different studies of different people; they are not one funnel)
 
-- Aware: nobody has measured this here yet, in the sources checked.
+- Aware: nobody has measured this here yet, in the sources checked. Open question: Do migrant workers know which medical and injury protections apply to heat illness, and do they start a claim?
 
-- Eligible: nobody has measured this here yet, in the sources checked.
+- Eligible: nobody has measured this here yet, in the sources checked. Open question: Do migrant workers know which medical and injury protections apply to heat illness, and do they start a claim?
 
-- Documented: nobody has measured this here yet, in the sources checked.
+- Documented: nobody has measured this here yet, in the sources checked. Open question: Do migrant workers know which medical and injury protections apply to heat illness, and do they start a claim?
 
-- Applied: nobody has measured this here yet, in the sources checked.
+- Applied: nobody has measured this here yet, in the sources checked. Open question: Do migrant workers know which medical and injury protections apply to heat illness, and do they start a claim?
 
-- Enrolled: nobody has measured this here yet, in the sources checked.
+- Enrolled: nobody has measured this here yet, in the sources checked. Open question: Do migrant workers know which medical and injury protections apply to heat illness, and do they start a claim?
 
 - Received: 2024: 20825 households received ComCare SMTA. (Assisted households, national; limit: Household receipt, not the share of eligible households reached, persons protected or a heat subgroup.; sources: Ministry of Social and Family Development / Singapore Department of Statistics, 2026: Households Assisted Through Comcare Schemes, Annual https://data.gov.sg/datasets/d_5521441aca9643a2021417e096ea65d0/view)
 - Received: 2024: 3240 households received ComCare LTA. (Assisted households, national; limit: Historical national series; other household members are not necessarily benefit recipients.; sources: Ministry of Social and Family Development / Singapore Department of Statistics, 2026: Households Assisted Through Comcare Schemes, Annual https://data.gov.sg/datasets/d_5521441aca9643a2021417e096ea65d0/view)
 - Received: 2024: overall ComCare household count is 29291. (Households across included schemes; limit: Scheme rows can overlap; counts are not additive and no current heat denominator is available.; sources: Ministry of Social and Family Development / Singapore Department of Statistics, 2026: Households Assisted Through Comcare Schemes, Annual https://data.gov.sg/datasets/d_5521441aca9643a2021417e096ea65d0/view)
 - Received: As at February 2026, up to work year 2025: 1.13 million workers received WIS cumulatively. (Lower-income workers, cumulative; limit: Not annual reach, all eligible workers or people exposed to heat.; sources: Central Provident Fund Board, 2026: Workfare Income Supplement https://www.cpf.gov.sg/member/growing-your-savings/government-support/workfare-income-supplement)
 
-- Adequate: nobody has measured this here yet, in the sources checked.
+- Adequate: nobody has measured this here yet, in the sources checked. Open question: Does temporary support cover the income lost when heat cuts work, and how soon does it arrive?
 
-- On time: nobody has measured this here yet, in the sources checked.
+- On time: nobody has measured this here yet, in the sources checked. Open question: Does temporary support cover the income lost when heat cuts work, and how soon does it arrive?
 
 #### Delivery routes and organisations in Singapore (unranked)
 
@@ -5502,6 +5560,20 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 
 - Heat-triggered public anticipatory cash, general asset-loss cover and debt relief: no standing heat-specific entitlement was verified in the public sources read. This is a bounded evidence gap, not a claim that no assistance is available. (Sources: Government of Singapore, 2026: Managing Cost of Living in Singapore https://www.gov.sg/features/cost-of-living/; Ministry of Manpower: Types of compensation under WICA https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation/types-of-compensation; Enterprise Singapore, 2026: Enterprise Financing Scheme – SME Working Capital Loan https://www.enterprisesg.gov.sg/financial-support/enterprise-financing-scheme---sme-working-capital)
 
+#### Open questions for Singapore (study designs and sizes are our suggestions; sizes are illustrative)
+
+- How often do work-related heat illnesses move from report to accepted and paid WICA claim? What is known: Heat is recognised and benefit types are published; heat-specific process counts were not verified. [S13, S14, S15] A study that could answer it: Secure aggregate reporting of notified, filed, accepted and paid claims with time intervals and broad worker categories. (Illustrative: all available cases across several hot seasons; no individual case details published.)
+
+- Does PCP access reduce total costs and delayed care during hot periods for covered migrant workers? What is known: A patient-experience survey exists, without a heat-specific causal comparison. [S17] A study that could answer it: Prospective hot-season facility and worker survey with pre-specified comparison periods, full care costs and aggregate results. (Illustrative: 10-15 clinics; final size based on expected heat case volume.)
+
+- How consistently do workers receive and use paid heat-rest breaks? What is known: Official guidance recognises specified breaks as paid work; implementation outcomes were not verified. [S14] A study that could answer it: Confidential worker and employer survey plus aggregate work-schedule observations across heat levels, without individual tracking. (Illustrative: 40-60 worksites across several exposed sectors.)
+
+- Which access steps explain non-receipt of temporary support during heat-related household income loss? What is known: National ComCare receipt counts and assisted-application routes exist. [S1, S29] A study that could answer it: Representative repeated household survey measuring awareness through on-time receipt, including explicit residency eligibility checks. (Illustrative: 1,500-2,000 households over two hot seasons.)
+
+- [Unmeasured: Adequate, On time] Does temporary support cover the income lost when heat cuts work, and how soon does it arrive? What is known: Counts of households receiving ComCare support and of workers receiving the Workfare Income Supplement are published; adequacy and timing against heat-related income loss are not, in the sources checked. A study that could answer it: A survey of support recipients in outdoor work that compares lost earnings in hot months with the support received and when it came. (Illustrative: about 300 households)
+
+- [Unmeasured: Aware, Eligible, Documented, Applied, Enrolled] Do migrant workers know which medical and injury protections apply to heat illness, and do they start a claim? What is known: None of the sources checked measures awareness, applications or claims started among migrant workers for heat illness. A study that could answer it: Short surveys at dormitories and worker centres, with partner organisations, followed by records of claims started. (Illustrative: about 500 workers)
+
 ### Thailand (research as of 6 November 2026; sources checked 7 November 2026)
 
 - UNCERTAIN heat-specific delivery evidence comes from a small worker-network insurance pilot. It is separate from public entitlements and has no independently verified outcome evaluation in the sources read. (Sources: HomeNet International, 2026: HomeNet Thailand Runs a Pilot Extreme Heat Insurance Project for Informal Economy Workers https://www.homenetinternational.org/homenet-thailand-runs-a-pilot-extreme-heat-insurance-project-for-informal-economy-workers/)
@@ -5520,21 +5592,21 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 
 #### Steps of access in Thailand (findings come from different studies of different people; they are not one funnel)
 
-- Aware: nobody has measured this here yet, in the sources checked.
+- Aware: nobody has measured this here yet, in the sources checked. Open question: For older people and informal workers, which is the first step of access where support stops in a hot season?
 
-- Eligible: nobody has measured this here yet, in the sources checked.
+- Eligible: nobody has measured this here yet, in the sources checked. Open question: For older people and informal workers, which is the first step of access where support stops in a hot season?
 
-- Documented: nobody has measured this here yet, in the sources checked.
+- Documented: nobody has measured this here yet, in the sources checked. Open question: For older people and informal workers, which is the first step of access where support stops in a hot season?
 
-- Applied: nobody has measured this here yet, in the sources checked.
+- Applied: nobody has measured this here yet, in the sources checked. Open question: For older people and informal workers, which is the first step of access where support stops in a hot season?
 
-- Enrolled: nobody has measured this here yet, in the sources checked.
+- Enrolled: nobody has measured this here yet, in the sources checked. Open question: For older people and informal workers, which is the first step of access where support stops in a hot season?
 
-- Received: nobody has measured this here yet, in the sources checked.
+- Received: nobody has measured this here yet, in the sources checked. Open question: For older people and informal workers, which is the first step of access where support stops in a hot season?
 
-- Adequate: nobody has measured this here yet, in the sources checked.
+- Adequate: nobody has measured this here yet, in the sources checked. Open question: For older people and informal workers, which is the first step of access where support stops in a hot season?
 
-- On time: nobody has measured this here yet, in the sources checked.
+- On time: nobody has measured this here yet, in the sources checked. Open question: Does crop relief after a declared disaster arrive in time to matter for the next season?
 
 #### Delivery routes and organisations in Thailand (unranked)
 
@@ -5555,3 +5627,17 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 - Agricultural heat losses: relief needs prior registration, a declared assistance area and assessed damage; crop loss is not automatically full income replacement. (Sources: Department of Agricultural Extension, 2026: เกษตรฯ เผย 3 สิ่ง เกษตรกรควรทำ เพื่อรับการช่วยเหลือ เมื่อประสบภัยพิบัติด้านพืช https://doaenews.doae.go.th/archives/31902)
 
 - Heat damage to housing and assets: the opened disaster-insurance announcement lists floods, windstorms and earthquakes, with no verified heat peril. (Sources: Government Public Relations Department, 2026: Launch of Nationwide Disaster Insurance Program Effective 1 October 2026 https://thailand.prd.go.th/en/content/category/detail/id/48/iid/547200)
+
+#### Open questions for Thailand (study designs and sizes are our suggestions; sizes are illustrative)
+
+- Does Section 40 sickness compensation reach informal workers diagnosed with heat illness? What is known: Current benefit changes are published; heat-specific applications and payments were not verified. [T3] A study that could answer it: Prospective claims-pathway study tracking aggregate awareness, documentation, accepted claims, value and delay. (Illustrative: several provinces over two hot seasons; final size based on case flow.)
+
+- Does heat-triggered insurance preserve earnings and reduce debt without changing essential work hours? What is known: A worker-network pilot and partner reports exist without an independent impact estimate. [T15, T16] A study that could answer it: Pre-registered phased rollout with agreed comparison clusters, measuring income, care costs, rest and coping in aggregate. (Illustrative: 40-60 clusters across two hot seasons.)
+
+- How different are social-insurance coverage maps based on residence and employer registration? What is known: SSO metadata describes different location concepts by section. [T11] A study that could answer it: Secure institutional aggregation of both location definitions; publish only province-level differences and uncertainty. (Illustrative: one year of all available provincial aggregate records.)
+
+- How much heat-related crop loss is met by declared-disaster relief, and how quickly? What is known: Crop-relief rates, documents and procedure are published. [T5] A study that could answer it: Crop-season household panel and administrative aggregate audit of declarations, assessed losses, payment dates and recovery. (Illustrative: 1,000-1,500 households across several agroclimatic areas.)
+
+- [Unmeasured: Aware, Eligible, Documented, Applied, Enrolled, Received, Adequate] For older people and informal workers, which is the first step of access where support stops in a hot season? What is known: None of the sources checked measures any step of access for the schemes on this page in Thailand. A study that could answer it: A household survey that follows the old-age allowance and Section 40 through all eight steps, for the same people. (Illustrative: about 1,000 households in three provinces)
+
+- [Unmeasured: On time] Does crop relief after a declared disaster arrive in time to matter for the next season? What is known: None of the sources checked measures when relief reaches farmers compared with the loss. A study that could answer it: Compare declaration, claim and payment dates for crop relief across districts. (Illustrative: records from ten districts over two seasons)

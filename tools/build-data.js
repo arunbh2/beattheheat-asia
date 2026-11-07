@@ -178,6 +178,13 @@ function checkSocialProtection(V) {
       if (!String(r.id).startsWith(c.id + "-route-")) P.push(`${at}: id must start with "${c.id}-route-"`); if (ids.has(r.id)) P.push(`${at}: id used twice`); ids.add(r.id);
       if (r.org_id && !orgs.has(r.org_id)) P.push(`${at}: org_id "${r.org_id}" is not in data/core/ORGANISATIONS.json`); srcs(at, r.sources); });
     (file.evidence || []).forEach((e, i) => srcs(`${at0} evidence ${i + 1}`, e.sources));
+    const measured = new Set((file.ladder || []).map(l => l.step)), qids = new Set();
+    (c.questions || []).forEach(q => { const at = `${at0} question ${q.id}`;
+      if (qids.has(q.id)) P.push(`${at}: id used twice`); qids.add(q.id);
+      if (!q.q || !q.have || !q.could || !q.scale) P.push(`${at}: needs q, have, could and scale`);
+      if (q.steps && !/^Illustrative/.test(q.scale || "")) P.push(`${at}: a step question's scale starts "Illustrative" (research/2026-11/social-protection/step-questions.json)`);
+      (q.steps || []).forEach(k => { if (!STEPS.includes(k)) P.push(`${at}: step "${k}" must be one of ${STEPS.join(", ")}`);
+        else if (measured.has(k)) P.push(`${at}: step "${k}" is now measured in this country; remove it from research/2026-11/social-protection/step-questions.json and run convert.js`); }); });
   });
   return P;
 }

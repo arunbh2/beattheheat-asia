@@ -94,6 +94,30 @@
     "have": "Drought insurance terms and extension routes are published. [I11]",
     "could": "Crop-season panel combining weather, field loss assessment and anonymised aggregate claim outcomes, without publishing farm locations.",
     "scale": "Illustrative: 1,000-1,500 insured and comparable uninsured farm households."
+   },
+   {
+    "id": "id-step-ontime",
+    "steps": [
+     "on time",
+     "adequate"
+    ],
+    "q": "Do cash transfers reach families before or after the hottest weeks, and is the amount enough to cover lost work?",
+    "have": "Government reports count the families paid each quarter, without payment dates set against heat or amounts set against losses.",
+    "could": "Link payment dates with heat records and a short household survey on lost work and spending.",
+    "scale": "Illustrative: about 500 families in two provinces over one year"
+   },
+   {
+    "id": "id-step-apply",
+    "steps": [
+     "aware",
+     "eligible",
+     "documented",
+     "applied"
+    ],
+    "q": "Where do informal workers stop between hearing of worker insurance and applying for it?",
+    "have": "An evaluation in Bandung and Medan measured enrolment: registration help raised it by 3.5 percentage points and full subsidy by 18.6, while information alone had no measured effect. Awareness, documents and applications were not measured as separate steps.",
+    "could": "Follow the same workers through awareness, documents and application, with and without help to register.",
+    "scale": "Illustrative: about 1,000 workers in two cities"
    }
   ]
  },

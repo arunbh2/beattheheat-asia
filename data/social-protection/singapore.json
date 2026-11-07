@@ -205,6 +205,31 @@
     "have": "National ComCare receipt counts and assisted-application routes exist. [S1, S29]",
     "could": "Representative repeated household survey measuring awareness through on-time receipt, including explicit residency eligibility checks.",
     "scale": "Illustrative: 1,500-2,000 households over two hot seasons."
+   },
+   {
+    "id": "sg-step-adequate",
+    "steps": [
+     "adequate",
+     "on time"
+    ],
+    "q": "Does temporary support cover the income lost when heat cuts work, and how soon does it arrive?",
+    "have": "Counts of households receiving ComCare support and of workers receiving the Workfare Income Supplement are published; adequacy and timing against heat-related income loss are not, in the sources checked.",
+    "could": "A survey of support recipients in outdoor work that compares lost earnings in hot months with the support received and when it came.",
+    "scale": "Illustrative: about 300 households"
+   },
+   {
+    "id": "sg-step-aware",
+    "steps": [
+     "aware",
+     "eligible",
+     "documented",
+     "applied",
+     "enrolled"
+    ],
+    "q": "Do migrant workers know which medical and injury protections apply to heat illness, and do they start a claim?",
+    "have": "None of the sources checked measures awareness, applications or claims started among migrant workers for heat illness.",
+    "could": "Short surveys at dormitories and worker centres, with partner organisations, followed by records of claims started.",
+    "scale": "Illustrative: about 500 workers"
    }
   ]
  },
