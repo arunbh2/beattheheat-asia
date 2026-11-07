@@ -468,7 +468,7 @@
     "who": ["utilities","city","nat"],
     "when": "years",
     "measure": "Low-income homes with affordable cooling",
-    "text": "Lifeline electricity tariffs, efficient fans and cool roofs put safe cooling within reach of every household.",
+    "text": "Lifeline electricity tariffs, cool roofs and cooling suited to the local heat bring safer cooling within reach of households that cannot afford it. Which kind helps depends on the climate and the person: a fan that helps in humid heat may not help in very hot, dry air.",
     "guides": [
       {
         "by": "Sustainable Energy for All, 2023",
@@ -604,7 +604,7 @@
     "who": ["city","community","health"],
     "when": "season",
     "measure": "Cooling centre visits, and check-ins on people living alone",
-    "text": "Public cooling spaces, water points and check-ins on older people living alone save lives in every heatwave.",
+    "text": "Public cooling spaces, water points and check-ins on older people living alone can offer relief in a heatwave. How much they protect health depends on who can reach them, how long people stay, and how hot it is once they leave.",
     "guides": [
       {
         "by": "US Centers for Disease Control and Prevention, in the GHHIN resource library",

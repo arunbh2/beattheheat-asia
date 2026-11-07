@@ -1566,7 +1566,7 @@ Could help interrupt: The medical-debt trap, The energy-poverty trap
 
 ### Affordable cooling for the poorest
 
-Lifeline electricity tariffs, efficient fans and cool roofs put safe cooling within reach of every household.
+Lifeline electricity tariffs, cool roofs and cooling suited to the local heat bring safer cooling within reach of households that cannot afford it. Which kind helps depends on the climate and the person: a fan that helps in humid heat may not help in very hot, dry air.
 
 Cuts the link: Can’t afford to keep cool → Heatstroke and heat exhaustion. Who can act: Utilities and energy regulators, City and local governments, National governments.
 
@@ -1632,7 +1632,7 @@ Could help interrupt: The invisible-deaths loop
 
 ### Cooling centres and check-ins
 
-Public cooling spaces, water points and check-ins on older people living alone save lives in every heatwave.
+Public cooling spaces, water points and check-ins on older people living alone can offer relief in a heatwave. How much they protect health depends on who can reach them, how long people stay, and how hot it is once they leave.
 
 Cuts the link: Heat protection underfunded → Heat deaths. Who can act: City and local governments, Community and civil society groups, Health authorities.
 

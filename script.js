@@ -925,6 +925,8 @@
   };
   const chainHTML = l => `<p class="chain">${l.path.map(id => `<span>${esc(plain(byId[id]))}</span>`).join('<i aria-hidden="true">→</i>')}<i aria-hidden="true">↺</i></p>`;
 
+  // documented side effects of a lever (LEVERS watch), shown honestly beside what it can do
+  const watchOuts = v => (v.watch || []).length ? `<div class="watch"><p class="watch__k">Watch for</p>${v.watch.map(w => `<p>${gloss(w.text)}<span class="example__src">Source: ${w.sources.map(x => extLink(x.url, x.label)).join(" · ")}</span></p>`).join("")}</div>` : "";
   const whoChips = v => (v.who || []).map(w => instById[w] ? `<button class="who-chip" data-inst="${w}">${esc(instById[w].name)}</button>` : "").join("");
 
   function leverItem(v) {
@@ -1006,6 +1008,7 @@
         <span>${state.on.has(v.id) ? "Switched on: acting on " + plural(v.loops.length, "loop") : "Switch on this lever"}</span>
       </button>
       ${v.example ? `<p class="example">${gloss(v.example)}${v.exampleSources ? `<span class="example__src">Sources: ${v.exampleSources.map(x => extLink(x.url, x.label)).join(" · ")}</span>` : ""}</p>` : ""}
+      ${watchOuts(v)}
       <h3 class="panel__h">Who can pull this lever</h3>
       <div class="who-chips">${whoChips(v)}</div>
       <h3 class="panel__h">Already working on it</h3>

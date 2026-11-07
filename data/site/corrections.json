@@ -1,6 +1,9 @@
 {
  "about": "The public corrections log. Newest first. Each entry says what was wrong, what changed and where, in plain words, with an apology where one is owed. Entries are never removed. The monthly update adds an entry for any knowledge-base record that carries a 'correction' note.",
  "entries": [
+  { "date": "2026-11-07", "where": ["Cooling centres and check-ins (an action on the map)", "Affordable cooling for the poorest (an action on the map)"], "what": "Two actions said more than the evidence shows: that public cooling spaces and check-ins save lives in every heatwave, and that efficient fans put safe cooling within reach of every household.",
+    "change": "Both now say what the evidence supports and what it depends on. Cooling spaces can offer relief; how much they protect health depends on who can reach them, how long people stay, and the heat after they leave. Fans help in some conditions and not others, so cooling is matched to the local heat.",
+    "sorry": "We are sorry. Readers plan real protection on these words, and they deserve the limits as well as the promise." },
   { "date": "2026-10-31", "where": ["Across the site"], "what": "Many pages spoke in an instructing voice, telling cities, employers, funders and others what to do.",
     "change": "We rewrote about 330 phrases to describe what helps, what it depends on and who could act, and added a check so the instructing voice cannot return. Laws, standards and quoted headlines keep their own words.",
     "sorry": "We are sorry. The people closest to the heat know their places best, and the site is here to learn alongside them, not to direct them." }

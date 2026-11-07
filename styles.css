@@ -529,6 +529,9 @@ button { font: inherit; color: inherit; }
 .network__deeper a { color: var(--ink); text-decoration-color: var(--orange); text-underline-offset: 3px; }
 .example { margin-top: 14px; padding: 12px 14px; border-left: 4px solid var(--break); background: var(--break-50); font-size: 0.93rem; }
 .example__src { display: block; margin-top: 6px; font-size: .8rem; }
+.watch { margin-top: 12px; padding: 12px 14px; border-left: 4px solid var(--amber); background: #FFF6DF; font-size: .93rem; }
+.watch__k { margin: 0 0 4px; font-size: .75rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+.watch p + p { margin-top: 8px; }
 .panel__src, .list-src { margin-top: 8px; font-size: .8rem; }
 .panel__src a, .list-src a, .example__src a, .panel__note a { color: inherit; }
 .cut { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 6px; align-items: baseline; font-weight: 600; }
