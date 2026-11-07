@@ -8,6 +8,12 @@
   var NAMES = ["Prologue", "Feel it", "See how it connects", "Where it lands", "What helps", "Together"];
   var acts = [].slice.call(document.querySelectorAll("[data-act-n]")), links = [].slice.call(document.querySelectorAll("[data-j]"));
   var bar = document.querySelector("[data-journey-bar]"), nav = document.querySelector("[data-journey]");
+  // story headers rise once as they arrive (not with reduced motion)
+  if ("IntersectionObserver" in window && !(window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches)) {
+    var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("is-in"); io.unobserve(e.target); } }); }, { rootMargin: "0px 0px -8%" });
+    document.documentElement.classList.add("reveal");
+    [].forEach.call(document.querySelectorAll(".story__head"), function (h) { io.observe(h); });
+  }
   if (!acts.length) return;
   var mem = load("cs-journey", { act: 0 }), current = 0;
 
