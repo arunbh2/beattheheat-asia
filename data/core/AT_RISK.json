@@ -175,6 +175,13 @@
           "label": "UNICEF Viet Nam, 27 April 2024",
           "url": "https://www.unicef.org/media/156076/file/Viet_Nam_Humanitarian_Situation_Report_No._01_%28drought%29_reporting_period__-27_April_2024.pdf"
         }
+      },
+      {
+        "fact": "Among women garment workers in Phnom Penh, reported heat symptoms rose from 68% in cool months to 88% in hot months.",
+        "source": {
+          "label": "Chea et al., BMC Public Health, 2025",
+          "url": "https://link.springer.com/article/10.1186/s12889-025-22787-0"
+        }
       }
     ],
     "nodes": ["care","fetching","gbv","inequality","womenwater"],
@@ -248,6 +255,13 @@
         "source": {
           "label": "Chiang Rai study, 2023 (PubMed 37372754)",
           "url": "https://pubmed.ncbi.nlm.nih.gov/37372754/"
+        }
+      },
+      {
+        "fact": "Bhutan's 2015 WHO profile projects about 49 heat-related deaths per 100,000 people aged 65 or over by 2080 if emissions stay high. It is a projection, not a count.",
+        "source": {
+          "label": "WHO, 2015: climate and health country profile, Bhutan",
+          "url": "https://cdn.who.int/media/docs/default-source/searo/wsh-och-searo/bhu-c-h-profile.pdf?sfvrsn=9b974adb_2"
         }
       }
     ]

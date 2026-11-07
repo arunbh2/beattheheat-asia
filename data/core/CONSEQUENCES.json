@@ -171,11 +171,15 @@
     "id": "farmwork",
     "sys": "food",
     "label": "Farmwork\nhours lost",
-    "desc": "Farm labourers work in the open sun. In the hottest hours, work becomes dangerous or impossible.",
+    "desc": "Farm labourers work in the open sun. In the hottest hours, work becomes dangerous or impossible. In Nepal's Tarai, measured heat at work was high, and starting earlier or changing clothing protected workers only in part.",
     "sources": [
       {
         "label": "International Labour Organization, 2019: agriculture bears 60% of working hours lost to heat",
         "url": "https://www.ilo.org/resource/news/increase-heat-stress-predicted-bring-productivity-loss-equivalent-80"
+      },
+      {
+        "label": "Pradhan et al., Industrial Health, 2013: climate change and heat stress responses in the Tarai region of Nepal",
+        "url": "https://www.jstage.jst.go.jp/article/indhealth/51/1/51_2012-0166/_article"
       }
     ]
   },
@@ -644,11 +648,15 @@
     "id": "heatstroke",
     "sys": "health",
     "label": "Heatstroke and\nheat exhaustion",
-    "desc": "When the body can no longer cool itself, heat exhaustion can tip into heatstroke: a medical emergency that can kill. India’s suspected heatstroke cases rose more than tenfold in two summers, from 4,481 in 2022 to over 48,000 in 2024. Humid heat is the most dangerous: when the wet-bulb temperature is high, sweat stops cooling the body.",
+    "desc": "When the body can no longer cool itself, heat exhaustion can tip into heatstroke: a medical emergency that can kill. India’s suspected heatstroke cases rose more than tenfold in two summers, from 4,481 in 2022 to over 48,000 in 2024. Humid heat is the most dangerous: when the wet-bulb temperature is high, sweat stops cooling the body. Many more people feel heat illness than are diagnosed with it: among women garment workers in Phnom Penh, reports of symptoms such as thirst, heavy sweating and tiredness rose from 68% in cool months to 88% in hot months.",
     "sources": [
       {
         "label": "Ministry of Health and Family Welfare, reply in India’s Rajya Sabha, 6 August 2024",
         "url": "https://rsdebate.nic.in/bitstream/123456789/750681/1/PQ_265_06082024_U1693_p358_p362.pdf"
+      },
+      {
+        "label": "Chea et al., BMC Public Health, 2025: heat stress among women garment workers in Cambodia, cool and hot months",
+        "url": "https://link.springer.com/article/10.1186/s12889-025-22787-0"
       }
     ]
   },
@@ -676,11 +684,15 @@
     "id": "respiratory",
     "sys": "health",
     "label": "Breathing\nproblems worsen",
-    "desc": "Ozone, smoke and hot air inflame airways and worsen asthma and lung disease.",
+    "desc": "Ozone, smoke and hot air inflame airways and worsen asthma and lung disease. A review of 76 studies in ASEAN countries finds air pollution changing how heat affects health, but not in the same way everywhere.",
     "sources": [
       {
         "label": "Air Quality News, 2026: heat-driven ozone and health in India",
         "url": "https://airqualitynews.com/news/health-news/heatwaves-drive-dangerous-ozone-pollution-across-india/"
+      },
+      {
+        "label": "Aung et al., 2026: heat-related health impacts in ASEAN countries, a scoping review",
+        "url": "https://researchprofiles.canberra.edu.au/en/publications/heat-related-health-impacts-in-asean-countries-a-scoping-review/"
       }
     ]
   },
@@ -916,11 +928,15 @@
     "id": "productivity",
     "sys": "work",
     "label": "Productivity\nfalls",
-    "desc": "Above a certain temperature, people work more slowly and make more mistakes, indoors and out. Across 2.7 million firms in 23 advanced economies, ten extra days above 35 °C cut a year’s labour productivity by 0.3%, and days above 40 °C did five times the damage. In humid, still air the loss roughly doubles.",
+    "desc": "Above a certain temperature, people work more slowly and make more mistakes, indoors and out. Across 2.7 million firms in 23 advanced economies, ten extra days above 35 °C cut a year’s labour productivity by 0.3%, and days above 40 °C did five times the damage. In humid, still air the loss roughly doubles. Losses differ by place and job: an ILO study of the Maldives estimates work lost to heat by sector and workload, as modelled estimates rather than measured wages.",
     "sources": [
       {
         "label": "OECD Economics Department, Working Paper No. 1828, 2024",
         "url": "https://doi.org/10.1787/19d94638-en"
+      },
+      {
+        "label": "ILO, 2026: impacts of heat stress on jobs and productivity in the Maldives",
+        "url": "https://www.ilo.org/sites/default/files/2026-10/MALDIVES_Study_Oct27.pdf"
       }
     ]
   },
@@ -1252,7 +1268,7 @@
     "id": "underreport",
     "sys": "gov",
     "label": "Heat deaths\nunder-recorded",
-    "desc": "Heat is rarely written on death certificates. Most heat deaths are recorded as heart, kidney or lung failure. In India, heatwaves are declared on dry-air temperature from relatively few weather stations, which can miss humid heat where many informal workers live and work. Personal sensors worn by women aged 40 to 79 in rural Tamil Nadu sometimes read more than 5 °C apart within the same hour, so area averages can misjudge who is exposed.",
+    "desc": "Heat is rarely written on death certificates. Most heat deaths are recorded as heart, kidney or lung failure. In India, heatwaves are declared on dry-air temperature from relatively few weather stations, which can miss humid heat where many informal workers live and work. Personal sensors worn by women aged 40 to 79 in rural Tamil Nadu sometimes read more than 5 °C apart within the same hour, so area averages can misjudge who is exposed. Timor-Leste's 2026 WHO climate and health profile lists heat-related deaths and illness as not specified: an empty field, not a zero.",
     "sources": [
       {
         "label": "Down To Earth, 2024: the miscalculation in India’s heatwave mortality data",
@@ -1265,6 +1281,10 @@
       {
         "label": "Deshpande et al., 2023: heat exposure among adult women in rural Tamil Nadu (PMC10785747)",
         "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10785747/"
+      },
+      {
+        "label": "WHO, 2026: climate change country profile, Timor-Leste",
+        "url": "https://cdn.who.int/media/docs/default-source/searo/hsd/country-profiles/tls-climate-change-cf-2026.pdf?download=true&sfvrsn=131a4a74_3"
       }
     ]
   },

@@ -617,6 +617,13 @@
         "title": "Heat Resilient Cities Framework: heat-health surveillance and records of heat illness and deaths, disaggregated by social group and neighbourhood (pp. 9-10)",
         "url": "https://niua.in/publication-details/Heat_Resilient_Cities_Framework"
       }
+    ],
+    "example": "Timor-Leste's 2026 WHO climate and health profile shows heat-related deaths and illness as not specified, rather than as zero, which keeps the gap visible.",
+    "exampleSources": [
+      {
+        "label": "WHO, 2026: climate change country profile, Timor-Leste",
+        "url": "https://cdn.who.int/media/docs/default-source/searo/hsd/country-profiles/tls-climate-change-cf-2026.pdf?download=true&sfvrsn=131a4a74_3"
+      }
     ]
   },
   {

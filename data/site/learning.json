@@ -144,6 +144,18 @@
   { "id": "q-short-nights", "loop": "sleep", "status": "open",
     "q": "Does a hot, short night raise the next day's heat strain during ordinary work?",
     "have": "Small laboratory studies found no overall rise after short sleep, but they did not test long humid workdays.",
-    "could": "Measure bedroom heat, sleep, next-day exposure and heat strain repeatedly in working people, without depriving anyone of sleep.", "scale": "Illustrative: a hundred or more workers over four to six weeks" }
+    "could": "Measure bedroom heat, sleep, next-day exposure and heat strain repeatedly in working people, without depriving anyone of sleep.", "scale": "Illustrative: a hundred or more workers over four to six weeks" },
+  { "id": "q-outer-islands", "loop": "poverty", "status": "open",
+    "q": "How well do national estimates of work lost to heat describe workers on the Maldives' outer islands?",
+    "have": "A national model with stated limits on local data and on assumptions about workers.",
+    "could": "Compare personal heat, rest time and output across matched workplaces on several islands.", "scale": "Illustrative: about a hundred workers on six islands over one hot season" },
+  { "id": "q-elevation-health", "loop": "clinic", "status": "open",
+    "q": "Do heat symptoms and clinic visits differ between lowland, hill and highland settlements?",
+    "have": "Nepal has workplace measurements in the Tarai and studies of warming by altitude, but no linked comparison.",
+    "could": "Use the same sensors and symptom definitions across altitudes, linked to clinic records.", "scale": "Illustrative: a dozen settlements across three altitudes over two hot seasons" },
+  { "id": "q-missing-indicator", "loop": "invisible", "status": "open",
+    "q": "How many heat-related clinic visits can a linked reporting pilot find where national profiles leave the field empty?",
+    "have": "Timor-Leste's profile leaves heat-related deaths and illness unspecified, alongside an approved health adaptation plan.",
+    "could": "Pilot agreed case definitions, daily weather links and record checks in a few facilities.", "scale": "Illustrative: four health facilities for six months" }
  ]
 }
