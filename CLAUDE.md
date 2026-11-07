@@ -36,7 +36,7 @@ Every decision elevates the reader's experience (UX), the maintainer's experienc
 - Page folders such as `/plan/`, `/atlas/`, `/intersections/` and `/resources/heat-action-plans/india/` each hold a generated `index.html` and, where there is one, the page's own script.
 - `research/YYYY-MM/`: verified research sets and link checks. They are published as files but never linked as pages.
 - `research/india-hap-archive/`: the HAP catalogue CSVs, report and downloader (see its README).
-- `tools/launch/`: the 20-second launch film (scene, shots, music, renderer) behind the homepage launch card; files in `media/launch/`.
+- `tools/launch/`: the 20-second launch film (scene, shots, music, renderer); files in `media/launch/`. Its homepage card was removed in November 2026 (the site owner's decision); the film files stay.
 - `tools/mapguide/`: the map guide film, in which a drawn, faceless guide walks through real captures of the map. It plays from "Watch: how to read the map" under the legend. Files are in `media/mapguide/` (9:16 and 16:9); see its README.
 - `media/`: films and covers. `tools/explainers/`, `tools/films/` and `tools/shorts/` build them (Piper voice, Playwright render).
 - `data/evidence/` and `tools/living-evidence/`: the weekly evidence review. A Monday job harvests studies and opens a review pull request; merging is the sign-off; accepted studies join their cycles on the Evidence map. See `data/evidence/README.md`.
