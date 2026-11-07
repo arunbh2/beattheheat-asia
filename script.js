@@ -2353,12 +2353,13 @@
       </div>`;
     }).join("");
     // two cycles per group in view; the rest one tap away (anything that links to a hidden one opens its group)
-    document.querySelectorAll("#loop-groups .lgroup__rows").forEach(rows => limitList(rows, 2, "loops in this group"));
+    document.querySelectorAll("#loop-groups .lgroup__rows").forEach(rows => limitList(rows, 1, "loops in this group"));
 
     const ranked = nodes.filter(n => n.kind !== "domain" && n.loops.length > 1).sort((a, b) => b.loops.length - a.loops.length).slice(0, 6);
     document.getElementById("pressure-points").innerHTML = ranked.map(n => `<li><button class="pp" data-go="${n.id}"><span class="pp__n">${n.loops.length}</span><span class="pp__name">${esc(plain(n))}</span><span class="pp__meta">loops run through it</span></button></li>`).join("");
     const multi = LEVERS.filter(v => v.loops.length > 1).sort((a, b) => b.loops.length - a.loops.length);
     document.getElementById("multi-levers").innerHTML = multi.map(v => `<li><button class="pp pp--lever" data-lever="${v.id}"><span class="pp__n">${v.loops.length}</span><span class="pp__name">${esc(v.title)}</span><span class="pp__meta">loops it acts on</span></button></li>`).join("");
+    limitList(document.getElementById("multi-levers"), 3, "levers");   // the three that act on most loops first
   }
 
   function renderInstitutions() {
