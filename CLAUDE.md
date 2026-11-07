@@ -75,6 +75,9 @@ Every decision elevates the reader's experience (UX), the maintainer's experienc
 ## How heat became visible
 `/how-heat-became-visible/` is built by `tools/build-visibility.js` from the build-only block `HEAT_VISIBILITY`, which `research/2026-11/heat-visibility/convert.js` writes from the checked research and its reviewed `edits.json` (never edit the block by hand). `tools/visibility-text.js` holds what the page and `llms-full.txt` share. Its sources were checked as a separate batch, `data/inbox/2026-11-heat-visibility/`, with `verify-sources.yml` (`month: 2026-11-heat-visibility`); the checker reads PDFs and resumes where it stopped. What was left out is in `research/2026-11/heat-visibility/dropped.md`.
 
+## Social protection
+`/social-protection/` ("Who could help a household through a hot season") is built by `tools/build-social-protection.js` from the build-only block `SOCIAL_PROTECTION`: one file per country in `data/social-protection/` (schema in its README). `tools/social-protection-text.js` holds what the page and `llms-full.txt` share. To add a country, save its research reply in `research/2026-11/social-protection/`, add its code to `CODES` in `convert.js`, then run `stage.js`, `verify-sources.yml` (`month: 2026-11-social-protection`) and `convert.js`; only confirmed records reach the data, and the rest is listed in `dropped-after-check.json`. Never rank governments or organisations; households in aggregate only.
+
 ## Heat shorts
 `.claude/skills/heat-shorts/` makes short explainer films with faceless figures, a humble voice, checked sources and no em dashes. It builds on the repo's own renderer by default; the Remotion route needs the user's agreement. It is adapted from an MIT-licensed skill, with the reference frames left out.
 
