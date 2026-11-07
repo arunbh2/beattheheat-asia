@@ -1,5 +1,5 @@
 {
- "about": "The site's menu, footer and hub pages, as data. Tier 1 items appear in the menu (at most six per group); tier 2 on the group's hub page; tier 3 in search and the footer only. Each item: [url, title, one-line description, tier]. Pages may carry an optional 'lead' card per group. Read by tools/site-nav.js and tools/build-pages.js.",
+ "about": "The site's menu, footer and hub pages, as data. Tier 1 items appear in the menu (at most six per group); tier 2 on the group's hub page; tier 3 in search and the footer only. Each item: [url, title, one-line description, tier]. Write a count as {key} (for example {funders}): tools/nav-counts.js fills it from data/site/counts.json, and build-data.js --check refuses a typed one. Pages may carry an optional 'lead' card per group. Read by tools/site-nav.js and tools/build-pages.js.",
  "groups": [
   { "id": "understand", "label": "Understand", "h": "Understand heat", "hub": "/understand/",
     "intro": "What extreme heat does, where, to whom, and how one harm leads to the next.",
@@ -10,7 +10,7 @@
      ["/cities/", "Cities", "Heat, plans and cycles in twelve cities", 1],
      ["/countries/", "Countries", "Seven national snapshots: plans, rules and money", 1],
      ["/atlas/", "Atlas of Asia’s heat", "Heatwaves since 1998 and the plans that followed, on a map", 1],
-     ["/heatwaves/", "Heatwaves that shaped Asia", "Ten heatwaves, 1998 to 2026, and what changed after", 2],
+     ["/heatwaves/", "Heatwaves that shaped Asia", "{heatwaves} heatwaves, 1998 to 2026, and what changed after", 2],
      ["/how-heat-became-visible/", "How heat became visible", "When science, health, labour and the UN began to notice heat", 2],
      ["/intersections/", "Intersections", "Same heat, different lives: a note and a game", 1],
      ["/#day", "A day in a heatwave", "Eight hours, seven places across Asia", 2],
@@ -22,7 +22,7 @@
     "intro": "What can be done, in which setting, by whom, and what keeps it working.",
     "lead": ["/practical/", "Practical actions", "What to do this season in workplaces, homes, schools, clinics and markets."],
     "items": [
-     ["/solutions/", "Solutions library", "131 ways to protect people, with evidence, cost and limits", 1],
+     ["/solutions/", "Solutions library", "{solutions} ways to protect people, with evidence, cost and limits", 1],
      ["/build/", "Build protection", "Assemble actions for one place, or sketch a portfolio", 1],
      ["/cooling-options/", "Cooling options", "What to build where people are", 2],
      ["/plan/", "Plan a response", "A six-step workbook for a team or a workshop", 1],
@@ -36,7 +36,7 @@
      ["/a-week-in-the-heat/", "A week in the heat", "Follow one worker’s money through a heatwave", 2],
      ["/social-protection/", "Who could help a household", "Public schemes that could cushion a hot season, country by country", 2],
      ["/practical-actions/", "Practical actions, as text", "Every action card in plain text", 2],
-     ["/actions/", "Actions that break the cycles", "The 33 levers, as text", 2]
+     ["/actions/", "Actions that break the cycles", "The {levers} levers, as text", 2]
     ] },
   { "id": "fund", "label": "Fund", "h": "Fund and build", "hub": "/fund/",
     "intro": "Where money for protection comes from, where it reaches, and what to ask before funding.",
@@ -45,11 +45,11 @@
      ["/heat-economy/", "The heat economy", "Who offers protection, who funds it, and what could be built", 1],
      ["/paying-when-heat-strikes/", "Paying when heat strikes", "Insurance, pools, credit and forecast funds: did they pay, and when?", 1],
      ["/finance/", "Paying for protection", "What needs paying for, and when money is needed", 1],
-     ["/heat-economy/money/", "Funders and funding", "77 funders, 50 pieces of funding traced", 1],
+     ["/heat-economy/money/", "Funders and funding", "{funders} funders, {fundingTraced} pieces of funding traced", 1],
      ["/heat-economy/conditions/", "Questions to ask", "Before you buy, fund or start something", 1],
-     ["/heat-economy/opportunities/", "Ideas to explore", "32 ideas, one or more for every cycle", 1],
-     ["/heat-economy/businesses/", "Businesses", "91 businesses offering protection", 2],
-     ["/heat-network/", "The heat network", "330 organisations already at work", 2],
+     ["/heat-economy/opportunities/", "Ideas to explore", "{ideas} ideas, one or more for every cycle", 1],
+     ["/heat-economy/businesses/", "Businesses", "{businesses} businesses offering protection", 2],
+     ["/heat-network/", "The heat network", "{organisations} organisations already at work", 2],
      ["/paying-for-protection/", "Paying for protection, as text", "Cases and instruments in plain text", 2]
     ] },
   { "id": "evidence", "label": "Evidence", "h": "News and evidence", "hub": "/evidence/",

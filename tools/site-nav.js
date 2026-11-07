@@ -8,8 +8,9 @@ const NAV = JSON.parse(fs.readFileSync(path.join(SITE_DIR, "nav.json"), "utf8"))
 const PATHS = JSON.parse(fs.readFileSync(path.join(SITE_DIR, "paths.json"), "utf8"));
 const GROUPS = NAV.groups;
 
+const fill = require("./nav-counts.js");   // {key} in nav.json becomes the count the page itself records
 const esc = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
-const items = g => g.items.map(([u, t, d, tier]) => ({ u, t, d, tier }));
+const items = g => g.items.map(([u, t, d, tier]) => ({ u, t, d: fill(d), tier }));
 const NAMES = { ...NAV.names };
 GROUPS.forEach(g => { NAMES[g.hub] = NAMES[g.hub] || g.h; [g.lead, ...g.items].forEach(([u, t]) => { if (u.endsWith("/") && !NAMES[u]) NAMES[u] = t; }); });
 const TEXT = GROUPS.flatMap(g => items(g).filter(i => i.tier === 2 && /\btext\b/i.test(i.d + i.t)).map(i => [i.u, i.t.replace(/, as text$/, "")]));
@@ -49,7 +50,7 @@ const LENS = `<svg class="csn__ico" viewBox="0 0 20 20" aria-hidden="true"><circ
 function panel(g, cur) {
   const ac = u => (u === cur ? ' aria-current="page"' : "");
   return `<div class="csn__panel" id="csn-p-${g.id}" role="region" aria-label="${esc(g.h)}" hidden><div class="csn__pin">
-      <a class="csn__lead" href="${g.lead[0]}"${ac(g.lead[0])}><span class="csn__k">Start with</span><b>${esc(g.lead[1])}</b><span>${esc(g.lead[2])}</span><span class="csn__go">Open <span aria-hidden="true">→</span></span></a>
+      <a class="csn__lead" href="${g.lead[0]}"${ac(g.lead[0])}><span class="csn__k">Start with</span><b>${esc(g.lead[1])}</b><span>${esc(fill(g.lead[2]))}</span><span class="csn__go">Open <span aria-hidden="true">→</span></span></a>
       <ul class="csn__links">${items(g).filter(i => i.tier === 1).map(i => `<li><a href="${i.u}"${ac(i.u)}><b>${esc(i.t)}</b><small>${esc(i.d)}</small></a></li>`).join("")}</ul>
       <div class="csn__side"><p class="csn__k">For you</p><div class="csn__foryou" data-csn-foryou="${g.id}"><p>Choose a path by role, and your next stops appear here.</p><button type="button" class="csn__btn" data-csn-paths>Choose a path</button></div>
         <a class="csn__hub" href="${g.hub}">Everything in ${esc(g.h)} <span aria-hidden="true">→</span></a></div>
@@ -77,7 +78,7 @@ function header(pathname, title) {
   <div class="csn__sheet" id="csn-sheet" hidden>
     <div class="csn__sheet-tools"><a class="csn__btn csn__btn--wide csn__btn--map" href="/#explore">${MAPI} Open the map</a><button type="button" class="csn__btn csn__btn--wide" data-csn-search>${LENS} Search the site</button><button type="button" class="csn__btn csn__btn--wide csn__btn--warm" data-csn-paths>Start here: choose a path by role</button></div>
     ${GROUPS.map(g => `<details class="csn__acc"${g === g0 ? " open" : ""}><summary>${esc(g.h)}${CHEV}</summary><ul>
-      <li><a class="csn__acc-lead" href="${g.lead[0]}"><b>${esc(g.lead[1])}</b><small>${esc(g.lead[2])}</small></a></li>
+      <li><a class="csn__acc-lead" href="${g.lead[0]}"><b>${esc(g.lead[1])}</b><small>${esc(fill(g.lead[2]))}</small></a></li>
       ${items(g).filter(i => i.tier === 1).map(i => `<li><a href="${i.u}"${i.u === cur ? ' aria-current="page"' : ""}><b>${esc(i.t)}</b><small>${esc(i.d)}</small></a></li>`).join("")}
       <li><a class="csn__hub" href="${g.hub}">Everything in ${esc(g.h)} <span aria-hidden="true">→</span></a></li></ul></details>`).join("\n    ")}
   </div>

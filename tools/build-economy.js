@@ -65,7 +65,9 @@ const first = t => has(t) ? tidy(String(t).split(/;\s+/)[0]) : "";
 const segName = id => id === "multi-segment-cooling" ? "Several kinds of cooling" : plainSeg(id).name || (SEG.find(s => s.id === id) || {}).name || id || "";
 const bizBySeg = id => BIZ.filter(b => b.segment === id).length;
 const inAsia = b => (b.countries || []).concat(b.hq_country || []).some(c => ASIA.has(c));
-const N = { biz: BIZ.length, bizAsia: BIZ.filter(inAsia).length, inv: INV.length, deals: DEALS.length, prog: PROG.length, opp: OPP.length,
+// funding published each month to the knowledge base (data/kb/funding.json) joins the traced funding, on every page that counts it
+const KBF = fs.existsSync(path.join(ROOT, "data", "kb", "funding.json")) ? JSON.parse(fs.readFileSync(path.join(ROOT, "data", "kb", "funding.json"), "utf8")).filter(r => r.status === "current") : [];
+const N = { traced: DEALS.length + KBF.length, biz: BIZ.length, bizAsia: BIZ.filter(inAsia).length, inv: INV.length, deals: DEALS.length, prog: PROG.length, opp: OPP.length,
   oppPublic: OPP.filter(o => o.viable_market === "with-public-money").length, oppYes: OPP.filter(o => o.viable_market === "yes").length };
 const KIND = { startup: "Start-up", sme: "Small or medium business", "social-enterprise": "Social enterprise", cooperative: "Co-operative", "corporate-line": "Established company" };
 const VIABLE = { yes: ["Customers could pay", "yes"], "with-public-money": ["Needs public or shared funding", "public"], no: ["Public action, not a business", "no"] };
@@ -286,7 +288,7 @@ const progCard = a => `<details class="sol he-card" id="prog-${esc(a.id)}" data-
       </div>
     </details>`;
 const money = shell("money", "The heat economy · Funding and support", "Who funds protection from heat, <br>and who helps new ventures grow.",
-  `${N.inv} funders and investors, ${N.deals} pieces of funding we could trace, and ${N.prog} accelerators, prizes and challenges.`,
+  `${N.inv} funders and investors, ${N.traced} pieces of funding we could trace, and ${N.prog} accelerators, prizes and challenges.`,
   `<nav class="sol-jump" aria-label="On this page"><a href="#where">Funding we traced</a> · <a href="#investors">Funders and investors</a> · <a href="#programmes">Accelerators, prizes and challenges</a> · <a href="#deals">Every piece of funding</a></nav>
         <section class="cty-s" id="where"><h2>Funding we traced</h2>
           <div class="he-askbox he-askbox--wide"><b>How to read funding news</b><ul><li><b>Announced</b> is not the same as <b>paid</b>. Money often arrives in stages, or later.</li><li>A company’s funding may pay for more than its heat work.</li><li>Shares, loans, grants and guarantees are different things, so we never add them together.</li></ul></div>
@@ -300,7 +302,7 @@ const money = shell("money", "The heat economy · Funding and support", "Who fun
         <section class="cty-s" id="programmes"><h2>Accelerators, prizes and challenges <span class="he-n">${N.prog}</span></h2>
           <p class="he-intro">Each helps at a different stage: finding new ideas, testing them, a place to try them, meeting buyers, or money to grow. Look for the ones that help you meet buyers: winning a prize does not by itself bring customers.</p>
           <div class="he-group">${PROG.map(progCard).join("\n")}</div></section>
-        <section class="cty-s" id="deals"><h2>Every piece of funding we traced <span class="he-n">${N.deals}</span></h2>
+        <section class="cty-s" id="deals"><h2>Every piece of funding we traced <span class="he-n">${N.traced}</span></h2>${KBF.length ? `<p class="he-n-note">${N.deals} are listed here with their funders; ${KBF.length === 1 ? "one more, published in a monthly update, is" : `${KBF.length} more, published in monthly updates, are`} in <a href="/heat-economy/flows/">Follow the money</a>.</p>` : ""}
           <p class="he-intro">Newest first. Amounts are converted to US dollars; the original currency is shown where different. “Not published” means the amount was not made public.</p>
           <div class="he-tablewrap" role="region" aria-label="Every piece of funding we traced" tabindex="0"><table class="he-table he-table--deals"><caption class="visually-hidden">Funding for heat and cooling</caption><thead><tr><th scope="col">Date</th><th scope="col">Who received it</th><th scope="col">From</th><th scope="col">Amount</th><th scope="col">Type</th><th scope="col">Status</th><th scope="col">Kind of protection</th><th scope="col">Where</th><th scope="col">Source</th></tr></thead>
           <tbody>${DEALS.map(dealRow).join("")}</tbody></table></div></section>`);
@@ -383,8 +385,7 @@ const SAS = new Set(["IN", "BD", "PK", "NP", "LK", "BT", "MV", "AF"]), SEAS = ne
 const FDATA = DEALS.map(d => { const a = d.amount || {}, u = Number(a.usd); return { id: d.id, r: recip(d), f: d.investors.join(", "), k: fkind(d), i: fins(d), s: segName(d.segment),
   c: (d.loops || []).filter(id => loopById[id]), u: isFinite(u) && u > 0 ? u : null, ul: usd(a.usd), st: d.status, role: frole(d), date: d.date,
   sa: (d.countries || []).some(c => SAS.has(c)), sea: (d.countries || []).some(c => SEAS.has(c)), src: live((d.source || {}).url) ? d.source.url : "", sl: (d.source || {}).label || "Source" }; });
-// funding published each month to the knowledge base (data/kb/funding.json) joins the traced funding
-const KBF = fs.existsSync(path.join(ROOT, "data", "kb", "funding.json")) ? JSON.parse(fs.readFileSync(path.join(ROOT, "data", "kb", "funding.json"), "utf8")).filter(r => r.status === "current") : [];
+// the monthly knowledge-base funding (KBF, read above) joins the trace
 const KBS = Object.fromEntries((fs.existsSync(path.join(ROOT, "data", "kb", "source.json")) ? JSON.parse(fs.readFileSync(path.join(ROOT, "data", "kb", "source.json"), "utf8")) : []).map(r => [r.id, r]));
 const KINSTR = { grant: "Grants", equity: "Shares", loan: "Loans", bond: "Loans", "contingent-credit": "Loans", guarantee: "Guarantees and insurance", insurance: "Guarantees and insurance", "risk-pool": "Guarantees and insurance", "forecast-finance": "Programme funding", "cash-transfer": "Programme funding", programme: "Programme funding" };
 const KROLE = { catalytic: "catalytic", evidence: "evidence", "field-building": "field", delivery: "delivery" };
@@ -435,7 +436,7 @@ const write = (slug, title, desc, body, script = "") => { const dir = path.join(
 write("heat-economy", "The heat economy", "Businesses, funding and ideas that protect people from heat in Asia, and what to ask before you buy, fund or start something.", overview);
 write("heat-economy/businesses", "Businesses offering protection from heat", `${N.biz} businesses offering protection from extreme heat, ${N.bizAsia} working in South or Southeast Asia, with what to ask before buying.`, businesses, FILTER("he-count", "businesses"));
 write("heat-economy/flows", "Follow the money", `Where funding for heat protection comes from and where it reaches: ${FDATA.length} pieces of traced funding, followed from who gave them to the cycles they could help break.`, flows, FLOW_JS);
-write("heat-economy/money", "Funding and support for protection from heat", `${N.inv} funders and investors, ${N.deals} pieces of funding and ${N.prog} accelerators, prizes and challenges in protection from extreme heat.`, money, FILTER("he-count", "funders and programmes"));
+write("heat-economy/money", "Funding and support for protection from heat", `${N.inv} funders and investors, ${N.traced} pieces of funding traced and ${N.prog} accelerators, prizes and challenges in protection from extreme heat.`, money, FILTER("he-count", "funders and programmes"));
 write("heat-economy/opportunities", "Ideas for businesses and services that protect people from heat", `${N.opp} ideas for businesses and services, one or more for each vicious cycle of extreme heat: who could pay, who it helps, what needs to be in place.`, opportunities, FILTER("he-count", "ideas"));
 write("heat-economy/conditions", "Questions to ask before you buy, fund or start", "Twenty-four questions to ask about heat protection, with rules that help, ways to pay, common obstacles and what each organisation could do.", conditions);
 
@@ -466,5 +467,5 @@ const ids = DEALS.map(d => d.investee).filter(x => /^[a-z0-9]+(-[a-z0-9]+)*$/.te
 miss.push(...ids.map(x => "funding recipient " + x));
 if (miss.length) throw new Error("tools/economy-plain.js has no plain wording for: " + miss.join(", "));
 module.exports = { loopsWithIdeas: [...new Set(OPP.map(o => o.loop))] };
-require("./site-counts.js")({ businesses: N.biz, funders: N.inv, programmes: N.prog });
-console.log(`heat economy: ${N.biz} businesses, ${N.inv} funders, ${N.deals} pieces of funding, ${N.prog} programmes, ${N.opp} ideas, ${SEG.length} kinds of protection`);
+require("./site-counts.js")({ businesses: N.biz, funders: N.inv, programmes: N.prog, fundingTraced: N.traced, ideas: N.opp });
+console.log(`heat economy: ${N.biz} businesses, ${N.inv} funders, ${N.traced} pieces of funding traced (${N.deals} in the directory, ${KBF.length} from monthly updates), ${N.prog} programmes, ${N.opp} ideas, ${SEG.length} kinds of protection`);

@@ -5,6 +5,7 @@
 const fs = require("fs"), path = require("path"), vm = require("vm");
 const ROOT = path.join(__dirname, ".."), SITE = "https://beattheheat.asia";
 const NAV = require("./site-nav.js");
+const fillCounts = require("./nav-counts.js");   // {key} in nav.json becomes the count the page itself records
 const NAVJ = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "nav.json"), "utf8"));
 const PATHS = NAV.PATHS;
 const esc = s => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -57,11 +58,11 @@ const pathsFor = url => PATHS.paths.filter(p => p.stops.some(s => s.url === url)
 // ---- the four group hubs ----
 for (const g of NAVJ.groups) {
   const all = [g.lead.concat([0]), ...g.items];
-  const card = ([u, t, d]) => { const who = pathsFor(u); return `<li><a class="hub-card" href="${u}"><b>${esc(t)}</b><span>${esc(d)}</span>${who.length ? `<small>On the path for: ${esc(who.join(", "))}</small>` : ""}</a></li>`; };
+  const card = ([u, t, d]) => { const who = pathsFor(u); return `<li><a class="hub-card" href="${u}"><b>${esc(t)}</b><span>${esc(fillCounts(d))}</span>${who.length ? `<small>On the path for: ${esc(who.join(", "))}</small>` : ""}</a></li>`; };
   const onPaths = PATHS.paths.filter(p => p.stops.some(s => all.some(i => i[0] === s.url)));
   const body = `${hero(g.h, esc(g.h), esc(g.intro))}
     <section class="container hub">
-      <a class="hub-lead" href="${g.lead[0]}"><span class="eyebrow">Start with</span><b>${esc(g.lead[1])}</b><span>${esc(g.lead[2])}</span><span class="hub-go">Open <span aria-hidden="true">→</span></span></a>
+      <a class="hub-lead" href="${g.lead[0]}"><span class="eyebrow">Start with</span><b>${esc(g.lead[1])}</b><span>${esc(fillCounts(g.lead[2]))}</span><span class="hub-go">Open <span aria-hidden="true">→</span></span></a>
       <h2 class="hub-h">The core pages</h2>
       <ul class="hub-grid">${g.items.filter(i => i[3] === 1).map(card).join("")}</ul>
       ${g.items.some(i => i[3] === 2) ? `<h2 class="hub-h">Also in ${esc(g.h)}</h2><ul class="hub-grid hub-grid--quiet">${g.items.filter(i => i[3] === 2).map(card).join("")}</ul>` : ""}
@@ -106,13 +107,14 @@ const IDEAS = [
   ["Heat is a system, not a single hazard", "One hot night costs sleep; lost sleep costs a shift; a lost shift costs a repayment. The map follows these links, so protection can be aimed where a cycle breaks.", "/#explore", "The map"],
   ["Protection is held up together", "A shaded rest point needs land, water, someone to open it and money to keep it going, and each belongs to a different body. Protection reaches people only when every part holds.", "/together/", "Make it work together"],
   ["The missing middle", "The damage of heat is widely reported. The question asked less often is how protection is organised, paid for and kept going: who pays, who decides, who checks.", "/how-heat-is-reported/", "How heat is reported"],
-  ["Known, inferred, uncertain", "Every claim says what kind of evidence stands behind it. Measured and official findings are known; models and projections are inferred; reports not yet confirmed are uncertain.", "/sources/", "Sources and references"],
+  ["Known, inferred, uncertain", "Every claim says what kind of evidence stands behind it. Known means measured in a study, or set out in an official record; models and projections are inferred; reports not yet confirmed are uncertain. An official record can show that a rule, plan or scheme exists and what it promises. Whether it was carried out, or worked, takes an evaluation or an independent report: where none is cited, read the claim as saying only that it exists.", "/sources/", "Sources and references"],
   ["Built together, open to correction", "Common Shade is built with the people who use it. When something here is wrong, unfair or unclear, we say sorry, correct it in the open and keep a record of what changed.", "/corrections/", "Corrections"],
   ["A gap is a task to solve together", "Where the research found nothing, the site says so plainly. A gap describes what we found, never a fault of any country, city or organisation.", "/heat-network/", "The heat network"],
 ];
 const STANDARDS = [
   ["Every claim is sourced", "Each figure links to the publication it comes from, and new sources keep an archived copy, so a claim can be checked even if a page moves."],
   ["Evidence is labelled honestly", "Projections are never presented as facts. Where reports differ, the site shows both and explains why."],
+  ["Four things kept apart", "What kind of source a claim rests on (a study, an official record, a news report), how the work was done, what it found, and how sure we are of it. A strong source can carry a modest finding, and a rule on paper is not yet a result."],
   ["A careful, diplomatic voice", "No blame, no political positions, no ranking of countries, cities or organisations, and no individuals named in the site’s own text."],
   ["A humble voice", "The site describes what helps, what it depends on and who could act. It does not instruct anyone: the people closest to the heat know their places best."],
   ["Listing is not endorsement", "Organisations, businesses and funders appear because of their published work, not as partners, and never in order of merit."],

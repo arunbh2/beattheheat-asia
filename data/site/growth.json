@@ -334,6 +334,16 @@
       "links": [{ "to": "lever:heatrules", "why": "The 2024 revision of the outdoor work rules updates the lever's Singapore example.", "basis": "record" },
                 { "to": "lever:hap", "why": "A clear heatwave trigger tied to measures for each sector is what a heat action plan sets out.", "basis": "record" },
                 { "to": "people:workers", "why": "Delivery riders, newly described on the workers' profile, have little room to stop in the heat.", "basis": "record" }]
+    },
+    {
+      "id": "g-official-not-effect", "kind": "correction", "root": "evidence", "added": "2026-11-07", "pr": null,
+      "title": "A rule on paper is no longer read as a result",
+      "why": "The method grouped official records with measured findings as known. An official record can show that a rule or scheme exists; whether it was carried out or worked takes an evaluation, and the method now says so.",
+      "places": ["region"], "people": [], "topics": [],
+      "event": { "what": "Method corrected", "date": "2026-11" },
+      "review": "Prompted by an outside review of the site; menu counts now read from each page's own data",
+      "pages": [["/approach/", "How Common Shade sees heat"]], "action": ["Read how evidence is labelled", "/approach/"],
+      "links": [{ "to": "page:/sources/", "why": "Every claim's source is listed with its kind.", "basis": "record" }]
     }
   ]
 }
