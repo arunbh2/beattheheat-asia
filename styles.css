@@ -40,6 +40,12 @@
   --shadow-1: 0 1px 2px rgba(74,44,24,.06), 0 2px 8px rgba(74,44,24,.06);
   --shadow-2: 0 1px 2px rgba(74,44,24,.06), 0 14px 36px -14px rgba(74,44,24,.30);
 
+  /* the story system (homepage sections): one type scale, one spacing scale, one section anatomy */
+  --fs-12: .75rem; --fs-14: .875rem; --fs-16: 1rem; --fs-18: 1.125rem; --fs-22: 1.375rem; --fs-28: 1.75rem;
+  --fs-display: clamp(2.6rem, 1.7rem + 3.4vw, 4.5rem);
+  --sp-1: 4px; --sp-2: 8px; --sp-3: 12px; --sp-4: 16px; --sp-5: 24px; --sp-6: 32px; --sp-7: 48px; --sp-8: 64px;
+  --sp-section: clamp(64px, 3rem + 4.5vw, 112px);
+  --tone: var(--ember);      /* each act's accent: ember (heat) for acts 1 and 2, orange for act 3, green (shade) for acts 4 and 5 */
   --max: 1400px;
   --gutter: clamp(16px, 3.5vw, 40px);
   --header-h: 60px;
@@ -82,6 +88,32 @@ button { font: inherit; color: inherit; }
 }
 .eyebrow::before { content: ""; width: 32px; height: 4px; background: var(--orange); flex: none; }
 .eyebrow--break { color: var(--break); }
+/* ---- The story: every open homepage section has the same bones (eyebrow, headline, lede, focal, one action, go deeper) ---- */
+.story { padding-top: var(--sp-section); padding-bottom: var(--sp-section); }
+.story--act1, .story--act2 { --tone: var(--ember); } .story--act3 { --tone: var(--orange); } .story--act4, .story--act5 { --tone: var(--break); }
+.story .eyebrow { color: var(--tone); } .story .eyebrow::before { background: var(--tone); }
+.story__head { max-width: 40rem; }
+.story__h { font-size: var(--fs-display); line-height: .96; }
+.story__lede { margin-top: var(--sp-4); max-width: 34rem; font-size: clamp(var(--fs-18), 1rem + .45vw, var(--fs-22)); line-height: 1.45; color: var(--grey-700); text-wrap: pretty; }
+.story__actions { margin-top: var(--sp-5); display: flex; flex-wrap: wrap; align-items: center; gap: var(--sp-3) var(--sp-5); }
+.story__actions .section-film .watch-btn { margin-top: 0; }
+.story__note { margin-top: var(--sp-7); max-width: 40rem; font-size: var(--fs-16); color: var(--grey-700); }
+.story__deeper { margin-top: var(--sp-7); padding-top: var(--sp-5); border-top: 1px solid var(--line); display: grid; gap: var(--sp-4); }
+.story__deeper > p { margin: 0; max-width: 46rem; }
+.story__links { display: flex; flex-wrap: wrap; gap: var(--sp-2) var(--sp-5); margin: 0; padding: 0; list-style: none; font-weight: 600; }
+.story__links a { color: var(--ink); text-decoration-color: var(--tone); text-underline-offset: 4px; }
+.story .atrisk__barriers { margin-top: var(--sp-5); }
+.story__deeper .atrisk__list, .story__deeper .strain-fold { margin-top: 0; }
+.story__deeper .atrisk__close { margin-top: 0; font-size: var(--fs-18); }
+.story__deeper .atrisk__sources { margin-top: 0; }
+.story__deeper > .pd-all { justify-self: start; margin-top: 0; }
+.story__deeper .strain-fold { padding-top: var(--sp-4); }
+.story__deeper .strain-fold .atrisk__h { font-family: var(--font-body); font-weight: 700; font-size: var(--fs-18); line-height: 1.3; letter-spacing: 0; text-transform: none; }
+/* on a phone the drawing is a calm strip above the eyebrow, never behind the text */
+@media (max-width: 899px) {
+  .story > .sec-scene { position: relative; height: auto; margin: calc(-1 * var(--sp-section) + var(--sp-5)) 0 var(--sp-4); }
+  .story > .sec-scene .drawn--side { position: relative; top: 0; right: 0; width: min(70%, 340px); opacity: 1; margin-left: auto; margin-right: var(--gutter); }
+}
 .eyebrow--break::before { background: var(--break); }
 
 .h2 {

@@ -501,26 +501,34 @@ html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{
       </div>
     </section>
 
-    <section class="atrisk" id="at-risk" aria-labelledby="atrisk-title">
+    <section class="atrisk story story--act1" id="at-risk" aria-labelledby="atrisk-title">
       <!-- Drawn scene: one sun, five people, five different barriers. -->
       <div class="sec-scene sec-scene--field scene--drawn" aria-hidden="true">
         <svg class="drawn drawn--side drawn--atrisk" viewBox="0 0 600 420" aria-hidden="true" focusable="false"><g fill="none" stroke="#16202B" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><g class="ar-sun"><circle cx="300" cy="70" r="30" fill="#F26430" stroke="#F26430"/><path d="M300 20 v-14 M300 120 v14 M250 70 h-14 M350 70 h14 M265 35 l-10 -10 M335 35 l10 -10 M265 105 l-10 10 M335 105 l10 10" stroke="#F26430"/></g><path d="M10 380 H590" opacity=".5"/><path d="M20 394 H180 M40 406 H200" opacity=".3"/><circle cx="70" cy="298" r="10"/><path d="M70 308 V342 M70 342 L59 380 M70 342 L81 380 M70 316.0 L94 336.0 M70 316.0 L88 346.0"/><path d="M100 318 L82 380 M92 380 h-18"/><circle cx="180" cy="298" r="10"/><path d="M180 308 V342 M180 342 L169 380 M180 342 L191 380 M180 316.0 L168 290.0 M180 316.0 L192 290.0"/><path d="M164 272 q16 -18 32 0 q-4 14 -16 14 q-12 0 -16 -14 Z" stroke="#F26430"/><circle cx="290" cy="298" r="10"/><path d="M290 308 V342 M290 342 L284 380 M290 342 L298 380 M290 316.0 L308 338.0 M290 316.0 L280 340.0"/><path d="M308 324 V380"/><circle cx="390" cy="362" r="18"/><circle cx="420" cy="372" r="8"/><path d="M380 322 V350 H414 M380 350 L376 362 M414 350 L420 372 M380 304 L380 322 M380 318 L404 336"/><circle cx="380" cy="292" r="10"/><circle cx="500" cy="329" r="6"/><path d="M500 335 V356 M500 356 L493 380 M500 356 L507 380 M500 340 L490 356 M500 340 L510 356"/><path d="M520 340 h18 v20 h-18 Z" opacity=".7"/></g></svg>
       </div>
 
       <div class="container">
-        <p class="eyebrow">Who heat hits hardest</p>
-        <h2 id="atrisk-title" class="h2">Same heatwave. <br>Different barriers.</h2>
-        <p class="loops__intro">Heat is not only a city problem. It reaches farms that depend on rain, coasts and riverbanks, and villages far from any clinic. Who is harmed depends on two things together: how exposed people are, and what stands between them and safety. Age, gender, disability, illness, social identity, insecure tenure and unpaid care shape five questions.</p>
-        <div id="barriers-film" class="section-film"></div>
+        <!-- The story's act 1: one idea (heat is not equal), the five barriers as its focal row, the groups one tap away.
+             Every sentence of the earlier intro is kept; each now sits where it does its job. -->
+        <header class="story__head">
+          <p class="eyebrow">Who heat hits hardest</p>
+          <h2 id="atrisk-title" class="h2 story__h">Same heatwave. <br>Different barriers.</h2>
+          <p class="story__lede">Who is harmed depends on two things together: how exposed people are, and what stands between them and safety.</p>
+          <div class="story__actions"><div id="barriers-film" class="section-film"></div></div>
+        </header>
+        <p class="story__note">Age, gender, disability, illness, social identity, insecure tenure and unpaid care shape five questions.</p>
         <ol id="atrisk-barriers" class="atrisk__barriers"></ol>
-        <div id="atrisk-list" class="atrisk__list"></div>
+        <div class="story__deeper">
+          <p>Heat is not only a city problem. It reaches farms that depend on rain, coasts and riverbanks, and villages far from any clinic.</p>
+          <div id="atrisk-list" class="atrisk__list"></div>
         <details class="strain-fold">
           <summary><h3 class="atrisk__h" id="strain">Weather, work and the person</h3><span class="strain-fold__hint">How heat, work and the body add up</span></summary>
           <div class="strain" id="strain-box"></div>
         </details>
-        <p class="atrisk__close">People in the same community may need different routes to the same outcome: <strong>livelihood security and dignity.</strong></p>
-        <p class="atrisk__close"><a href="/intersections/">Intersections: a game about who protection reaches, and why <span aria-hidden="true">→</span></a></p>
-        <p class="atrisk__sources">Also on the map: intimate partner violence rose about 4.5% with each 1 °C of yearly warmth across India, Nepal and Pakistan (<a href="https://bell-lab.yale.edu/publications/association-ambient-temperature-prevalence-intimate-partner-violence-among-partnered" target="_blank" rel="noopener">Zhu et al., JAMA Psychiatry, 2023<span class="visually-hidden"> (opens in a new tab)</span></a>), and 466 million children now live where extremely hot days are at least twice as common as in the 1960s (<a href="https://www.unicef.org/press-releases/almost-half-billion-children-live-areas-experiencing-least-twice-many-extremely-hot" target="_blank" rel="noopener">UNICEF, 2024<span class="visually-hidden"> (opens in a new tab)</span></a>).</p>
+          <p class="atrisk__close">People in the same community may need different routes to the same outcome: <strong>livelihood security and dignity.</strong></p>
+          <ul class="story__links"><li><a href="/intersections/">Intersections: a game about who protection reaches, and why <span aria-hidden="true">→</span></a></li><li><a href="/who-is-at-risk/">Who heat hits hardest, as one page <span aria-hidden="true">→</span></a></li></ul>
+          <p class="atrisk__sources">Also on the map: intimate partner violence rose about 4.5% with each 1 °C of yearly warmth across India, Nepal and Pakistan (<a href="https://bell-lab.yale.edu/publications/association-ambient-temperature-prevalence-intimate-partner-violence-among-partnered" target="_blank" rel="noopener">Zhu et al., JAMA Psychiatry, 2023<span class="visually-hidden"> (opens in a new tab)</span></a>), and 466 million children now live where extremely hot days are at least twice as common as in the 1960s (<a href="https://www.unicef.org/press-releases/almost-half-billion-children-live-areas-experiencing-least-twice-many-extremely-hot" target="_blank" rel="noopener">UNICEF, 2024<span class="visually-hidden"> (opens in a new tab)</span></a>).</p>
+        </div>
       </div>
     </section>
 
