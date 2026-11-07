@@ -8,8 +8,8 @@
   "changed": "2026-10-31"
  },
  "/a-night-in-the-heat/": {
-  "hash": "fe5bd112cca8eeec",
-  "changed": "2026-10-31"
+  "hash": "f4024ecf8667907a",
+  "changed": "2026-11-07"
  },
  "/a-week-in-the-heat/": {
   "hash": "a5b568058583ff6b",
@@ -20,7 +20,7 @@
   "changed": "2026-11-01"
  },
  "/actions/": {
-  "hash": "458504d10db55218",
+  "hash": "631e074f655638d5",
   "changed": "2026-11-07"
  },
  "/approach/": {
@@ -140,8 +140,8 @@
   "changed": "2026-11-06"
  },
  "/evidence-map/": {
-  "hash": "d41e4e0b66e6d96a",
-  "changed": "2026-11-01"
+  "hash": "5aae6b0f370ceee7",
+  "changed": "2026-11-07"
  },
  "/evidence/": {
   "hash": "5a3ec2716b812da5",
@@ -432,12 +432,12 @@
   "changed": "2026-11-06"
  },
  "/sources/": {
-  "hash": "c5d608fb93a67b0c",
-  "changed": "2026-11-06"
+  "hash": "e581343b3216d166",
+  "changed": "2026-11-07"
  },
  "/the-web/": {
-  "hash": "89f8273779d59992",
-  "changed": "2026-11-06"
+  "hash": "8e349979e90cfc3e",
+  "changed": "2026-11-07"
  },
  "/together/": {
   "hash": "ace04bdaa2e35cf2",
@@ -456,8 +456,8 @@
   "changed": "2026-10-01"
  },
  "/who-is-at-risk/": {
-  "hash": "8d3b4855f430b3e9",
-  "changed": "2026-11-01"
+  "hash": "907f7f50ad55de6d",
+  "changed": "2026-11-07"
  },
  "/worked-plans/": {
   "hash": "28de2bca6b1e17d8",

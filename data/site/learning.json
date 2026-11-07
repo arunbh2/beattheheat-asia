@@ -68,6 +68,26 @@
   { "id": "q-child-diarrhoea", "loop": "poverty", "status": "open",
     "q": "How much does heat add to diarrhoea and undernutrition in young children in the region, and how much do safe water and oral rehydration offset it?",
     "have": "A review of 26 studies finding about 7% more diarrhoea per 1 °C, uneven across regions and with signs of publication bias.",
-    "could": "Combine clinic records of child diarrhoea with temperature and water-supply data in a few towns over several seasons.", "scale": "Three to five towns, three seasons" }
+    "could": "Combine clinic records of child diarrhoea with temperature and water-supply data in a few towns over several seasons.", "scale": "Three to five towns, three seasons" },
+  { "id": "q-assisted-access", "loop": "clinic", "status": "open",
+    "q": "Do heat warnings people can understand, with help to travel, get disabled and housebound older people to care sooner?",
+    "have": "Interviews in Bangladesh and Thailand describe barriers and reliance on family; no evaluation of a support package in the region.",
+    "could": "Offer accessible warnings and assisted transport in some neighbourhoods and compare time to care with similar neighbourhoods.", "scale": "Illustrative: a few hundred households over one hot season" },
+  { "id": "q-dormitory-nights", "loop": "sleep", "status": "open",
+    "q": "Does a practical cooling package for workers' dormitories improve sleep after hot shifts?",
+    "have": "Migrant workers in Singapore link hot dormitories with poor sleep; no tested dormitory intervention in the region.",
+    "could": "Compare sleep, next-day tiredness and costs in dormitories with and without simple cooling changes.", "scale": "Illustrative: a few dormitories over six weeks" },
+  { "id": "q-adolescent-heat", "loop": "school", "status": "open",
+    "q": "Do reliable drinking water and planned breaks help school-age adolescents protect themselves from heat?",
+    "have": "A study of young adults aged 19 to 24 in Yogyakarta; younger adolescents were not included.",
+    "could": "Compare protective habits and symptoms in schools with and without water points and break schedules.", "scale": "Illustrative: twenty schools over one hot season" },
+  { "id": "q-postpartum-heat", "loop": "clinic", "status": "open",
+    "q": "How does indoor heat affect health and care-seeking in the first weeks after birth?",
+    "have": "Guidance in India covers breastfeeding and infant care in heat, but no study in the region measures postpartum heat outcomes.",
+    "could": "Follow mothers and babies after birth with indoor temperature sensors and records of symptoms and clinic visits.", "scale": "Illustrative: a few hundred mothers over two hot seasons" },
+  { "id": "q-cool-refuge-access", "loop": "displacement", "status": "open",
+    "q": "What stops people without secure housing from using a nearby cool place during hot spells?",
+    "have": "Research on people without secure housing in Nagpur and Delhi exists, but outcome evidence is thin.",
+    "could": "Ask people without secure housing about the barriers, then test changes to opening hours, location and outreach.", "scale": "Illustrative: two cities over one hot season" }
  ]
 }

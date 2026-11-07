@@ -176,6 +176,20 @@
           "label": "Carlton et al., International Journal of Epidemiology, 2016: temperature and diarrhoeal disease, 26 studies",
           "url": "https://pubmed.ncbi.nlm.nih.gov/26567313/"
         }
+      },
+      {
+        "fact": "In Dhaka, diarrhoea admissions among children under 5 rose by 13.9% on heatwave days, in hospital records from 1981 to 2010.",
+        "source": {
+          "label": "PLOS Global Public Health, 2024",
+          "url": "https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0003629"
+        }
+      },
+      {
+        "fact": "Among 800 pregnant women doing physical work in Tamil Nadu, 47.3% had high heat exposure at work.",
+        "source": {
+          "label": "Rekha et al., BJOG, 2023 (PubMed 37814395)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37814395/"
+        }
       }
     ],
     "nodes": ["pregnancy","newborns","hunger","sanitation","childdiarrhoea"],
@@ -192,7 +206,16 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/35359160/"
     },
     "nodes": ["isolation","kidney","deaths"],
-    "levers": ["coolingcentres","hap","affordablecool","countdeaths"]
+    "levers": ["coolingcentres","hap","affordablecool","countdeaths"],
+    "more": [
+      {
+        "fact": "In Chiang Rai, older people and their families described changing daily routines to cope with heat, and the help families give to keep them going.",
+        "source": {
+          "label": "Chiang Rai study, 2023 (PubMed 37372754)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37372754/"
+        }
+      }
+    ]
   },
   {
     "id": "disability",
@@ -205,7 +228,16 @@
     "source": {
       "label": "WHO, 2026: Heat and health, fact sheet",
       "url": "https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health"
-    }
+    },
+    "more": [
+      {
+        "fact": "In interviews across three Bangladesh locations in 2025, people with disabilities described heat making it harder to move about and to get care, and leaning on family for help.",
+        "source": {
+          "label": "International Journal of Disaster Risk Science, 2026",
+          "url": "https://link.springer.com/article/10.1007/s13753-026-00778-y"
+        }
+      }
+    ]
   },
   {
     "id": "excluded",

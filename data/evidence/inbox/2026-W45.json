@@ -1,0 +1,22 @@
+{
+ "week": "2026-W45",
+ "note": "Studies from the November 2026 gap lenses, checked in data/inbox/2026-11-gap-lenses and reviewed in a Claude Code session; merging the pull request is the sign-off.",
+ "candidates": [
+  {
+   "decision": "accept",
+   "title": "“My young life, finished already?”: a qualitative study of embedded social stressors and their effects on mental health of low-wage male migrant workers in Singapore",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10329802/",
+   "first_author": "Farwin et al.",
+   "venue": "",
+   "date": "2023",
+   "review": {
+    "cycle": "sleep",
+    "grade": "peer",
+    "where": "Singapore",
+    "sample_size": "21 individual and 2 group interviews",
+    "finding": "Low-wage migrant workers linked hot, crowded dormitories with poor sleep and fatigue, alongside other stressors on their mental health. It supports the sleep part of the cycle, not the whole loop.",
+    "limit": "Recruited through one support organisation, mainly Indian and Bangladeshi workers; interviews describe experience, not measured sleep."
+   }
+  }
+ ]
+}
