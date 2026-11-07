@@ -20,17 +20,32 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: 22
-      - run: node tools/verify-urls.js "${{ inputs.list }}" "${{ inputs.out }}"
+      # inputs reach the shell as variables, never as script text, and are checked before use
+      - name: Check the inputs
         env:
+          LIST: ${{ inputs.list }}
+          OUT: ${{ inputs.out }}
+        run: |
+          case "$LIST" in /*|*..*|"") echo "::error::list must be a path inside the repository, without .."; exit 1;; esac
+          [[ "$LIST" =~ ^[A-Za-z0-9][A-Za-z0-9._/-]*$ ]] || { echo "::error::list may use only letters, digits, . _ / -"; exit 1; }
+          case "$OUT" in /*|*..*|"") echo "::error::out must be a path inside the repository, without .."; exit 1;; esac
+          [[ "$OUT" =~ ^[A-Za-z0-9][A-Za-z0-9._/-]*$ ]] || { echo "::error::out may use only letters, digits, . _ / -"; exit 1; }
+          [[ "$OUT" == research/*.json ]] || { echo "::error::out must be a .json file under research/"; exit 1; }
+      - run: node tools/verify-urls.js "$LIST" "$OUT"
+        env:
+          LIST: ${{ inputs.list }}
+          OUT: ${{ inputs.out }}
           NO_ARCHIVE: ${{ inputs.archive == 'no' && '1' || '0' }}
       - name: Commit the results
+        env:
+          OUT: ${{ inputs.out }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "${{ inputs.out }}"
-          git diff --cached --quiet || git commit -m "Link check and archives: ${{ inputs.out }}"
+          git add "$OUT"
+          git diff --cached --quiet || git commit -m "Link check and archives: $OUT"
           git pull --rebase --autostash && git push
