@@ -140,6 +140,13 @@
           "label": "Ghimire and others, Frontiers in Public Health, 2025",
           "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1657267/full"
         }
+      },
+      {
+        "fact": "Personal sensors worn by women aged 40 to 79 in rural Tamil Nadu sometimes read more than 5 °C apart within the same hour, possibly from cooking on solid fuels.",
+        "source": {
+          "label": "Deshpande et al., 2023 (PMC10785747)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10785747/"
+        }
       }
     ],
     "nodes": ["care","fetching","gbv","inequality","womenwater"],
@@ -235,6 +242,13 @@
         "source": {
           "label": "International Journal of Disaster Risk Science, 2026",
           "url": "https://link.springer.com/article/10.1007/s13753-026-00778-y"
+        }
+      },
+      {
+        "fact": "Among 272 people with chronic kidney disease at a Sri Lankan hospital in 2019, the median monthly cost of haemodialysis care was LKR 38,540, including income lost by patients and carers. The study did not look at heat.",
+        "source": {
+          "label": "Rathnayake et al., BMC Health Services Research, 2026",
+          "url": "https://link.springer.com/article/10.1186/s12913-026-15146-1"
         }
       }
     ]

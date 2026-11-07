@@ -88,6 +88,26 @@
   { "id": "q-cool-refuge-access", "loop": "displacement", "status": "open",
     "q": "What stops people without secure housing from using a nearby cool place during hot spells?",
     "have": "Research on people without secure housing in Nagpur and Delhi exists, but outcome evidence is thin.",
-    "could": "Ask people without secure housing about the barriers, then test changes to opening hours, location and outreach.", "scale": "Illustrative: two cities over one hot season" }
+    "could": "Ask people without secure housing about the barriers, then test changes to opening hours, location and outreach.", "scale": "Illustrative: two cities over one hot season" },
+  { "id": "q-kidney-persist", "loop": "clinic", "status": "open",
+    "q": "Which repeated heat exposures lead to kidney harm that lasts beyond the hot season?",
+    "have": "Single tests in Tamil Nadu and self-reports in Thailand raise the concern; persistent harm and other causes are hard to separate, and heat alone does not explain Sri Lanka's kidney disease of unknown cause.",
+    "could": "Follow workers before, during and after the hot season, with personal exposure, drinking and repeat kidney tests at least three months apart.", "scale": "Illustrative: a few hundred workers over two hot seasons" },
+  { "id": "q-debt-duration", "loop": "debt", "status": "open",
+    "q": "When does borrowing for treatment and lost income in a heatwave leave debt outstanding after the season?",
+    "have": "Worker accounts from Dhaka describe borrowing; repayment over time is rarely tracked.",
+    "could": "Keep monthly household accounts alongside illness records and local heat, with cooler months for comparison.", "scale": "Illustrative: a few hundred households over two years" },
+  { "id": "q-night-recovery", "loop": "sleep", "status": "open",
+    "q": "Does a cooler night help people recover for the next day's work without adding costs they cannot afford?",
+    "have": "Studies link heat with poorer sleep, and small roof comparisons measured daytime heat; the two have not been tested together in the region.",
+    "could": "Try night cooling in a crossover design, measuring bedroom heat, sleep, next-day function and spending.", "scale": "Illustrative: a few hundred workers over six weeks" },
+  { "id": "q-care-time", "loop": "squeeze", "status": "open",
+    "q": "How does heat shift unpaid care, housework and paid work done at home?",
+    "have": "Surveys show heat getting in the way of housework and care competing with paid work, but little time accounting.",
+    "could": "Collect time diaries from several household members in hot and cooler weeks, with indoor heat.", "scale": "Illustrative: two hundred households" },
+  { "id": "q-early-growth", "loop": "poverty", "status": "open",
+    "q": "Does repeated heat at home affect babies' growth, once diet and infections are taken into account?",
+    "have": "A study in Bangladesh was found but its full text could not be checked, so no effect is shown on the map.",
+    "could": "Follow families from pregnancy into infancy with home heat, feeding, infections and measured growth.", "scale": "Illustrative: a few hundred families over two years" }
  ]
 }

@@ -118,7 +118,7 @@ Crops, animals, fisheries and the people who work them all have heat limits. Cro
 
 Heat during flowering and grain-filling cuts yields of staple crops, even when there is enough rain. Smallholders farming on rain alone, with no irrigation or savings to fall back on, are hit first.
 
-Leads to: Food price spikes (Smaller harvests push up prices.); Farmers fall into debt (A failed season leaves farmers borrowing to eat and to replant.); Suicides rise (When heat ruins crops, farm incomes fall, and suicides rise in the growing season.)
+Leads to: Food price spikes (Smaller harvests push up prices.); Farmers fall into debt (A failed season leaves farmers borrowing to eat and to replant.); Suicides rise (When heat ruins crops, farm incomes fall, and suicides rise in the growing season.); Learning suffers in hot classrooms (When heat cuts harvests and farm income, children's test results fall.); Hunger and malnutrition (A poor harvest leaves the households that already eat least eating less the following year.)
 
 Source: Lobell, Sibley and Ortiz-Monasterio, Nature Climate Change, 2012 (wheat in India) https://fsi.stanford.edu/node/26622
 
@@ -176,11 +176,13 @@ Source: Inside Climate News, 2025: weather extremes are driving up food prices h
 
 #### Hunger and malnutrition
 
-When food costs more and incomes fall, families eat less and less well, and children suffer most.
+When food costs more and incomes fall, families eat less and less well, and children suffer most. In rural India, a hot growing season was followed by poorer diets the next year among the households that already ate least, a gap that averages hide (a working paper).
 
 Leads to: Learning suffers in hot classrooms (Hungry children struggle to learn.); Babies and young children at risk (Underfed babies and children have less reserve to survive heat and illness.)
 
 Source: Lancet Countdown 2024, summarised by Wellcome: heatwaves and droughts linked to 151 million more people facing food insecurity https://wellcome.org/insights/articles/wellcome-responds-2024-report-lancet-countdown-health-and-climate-change
+
+Source: Stainier et al., NBER working paper, 2025: hot weather, undernutrition and adaptation in rural India https://www.nber.org/system/files/working_papers/w34047/w34047.pdf
 
 #### Farmers fall into debt
 
@@ -258,7 +260,7 @@ Source: UNICEF, 2016: women and girls spend 200 million hours a day collecting w
 
 Without enough water, toilets, handwashing and cleaning suffer.
 
-Leads to: Infectious diseases spread (Poor hygiene spreads diarrhoea and other infections.); Babies and young children at risk (Diarrhoea from unsafe water is most dangerous for the youngest children.); Diarrhoea in young children (Without clean water and handwashing, children catch diarrhoea more easily.)
+Leads to: Infectious diseases spread (Poor hygiene spreads diarrhoea and other infections.); Babies and young children at risk (Diarrhoea from unsafe water is most dangerous for the youngest children.); Diarrhoea in young children (Without clean water and handwashing, children catch diarrhoea more easily.); Kidney and heart strain (Without toilets at work, people drink less in the heat, which adds to the strain on the kidneys.)
 
 Source: ACAPS, 2017: Sindh heatwave briefing (more use of unprotected water sources) https://www.acaps.org/sites/acaps/files/products/files/170424_acaps_start_anticipatory_briefing_note_pakistan_heatwave.pdf
 
@@ -444,11 +446,15 @@ Source: Ministry of Health and Family Welfare, reply in India’s Rajya Sabha, 6
 
 #### Kidney and heart strain
 
-Sweating and dehydration make the heart work harder and can damage the kidneys, especially with repeated exposure.
+Sweating and dehydration make the heart work harder and can damage the kidneys, especially with repeated exposure. In a Thai cohort, men who reported long spells of heat at work were about twice as likely to report a new kidney diagnosis. In Sri Lanka, heat at work alone does not explain the kidney disease of unknown cause found among farmers.
 
-Leads to: Heat deaths (Many heat deaths are heart and kidney failures.)
+Leads to: Heat deaths (Many heat deaths are heart and kidney failures.); Lost work hours and wages (Kidney disease means missed work for patients and for the family members who care for them.)
 
 Source: Kidney International Reports, 2023: heat stress and kidney health in Tamil Nadu salt-pan workers https://doi.org/10.1016/j.ekir.2023.04.011
+
+Source: Tawatsupa et al., Journal of Epidemiology, 2012: occupational heat and kidney disease in the Thai Cohort Study https://www.jstage.jst.go.jp/article/jea/22/3/22_JE20110082/_pdf/-char/en
+
+Source: De Silva et al., 2022: occupational heat exposure alone does not explain CKDu in Sri Lanka https://scholars.duke.edu/publication/1572526
 
 #### Breathing problems worsen
 
@@ -494,7 +500,7 @@ Source: Dhaka hospital records, PLOS Global Public Health, 2024: heatwaves and d
 
 #### Mental health suffers
 
-Heat is linked to more anxiety, distress and suicide, and to worse outcomes for people living with mental illness. Heat in pregnancy adds stress and anxiety, known risks for the birth. In many countries, mental health services are far from meeting the need.
+Heat is linked to more anxiety, distress and suicide, and to worse outcomes for people living with mental illness. Heat in pregnancy adds stress and anxiety, known risks for the birth. In many countries, mental health services are far from meeting the need. In a national survey of Thai adults, people whose daily life was often disrupted by heat reported poorer wellbeing; a survey like this cannot show which came first.
 
 Leads to: Sleepless hot nights (Stress and anxiety make sleep even harder.); Violence and crime rise (Frayed tempers spill over into violence.); Suicides rise (Distress that goes without support can end in self-harm.)
 
@@ -504,6 +510,8 @@ Source: WHO, 2022: Mental health and climate change, policy brief https://www.wh
 
 Source: WHO, UNICEF and UNFPA, 2023: Protecting maternal, newborn and child health from the impacts of climate change https://www.who.int/publications/i/item/9789240085350
 
+Source: Tawatsupa et al., BMJ Open, 2012: heat stress, health and wellbeing in a national cohort of Thai adults https://bmjopen.bmj.com/content/bmjopen/2/6/e001396.full.pdf
+
 #### Suicides rise
 
 In India, where one fifth of the world’s suicides occur, a 1 °C rise in a day’s temperature above 20 °C in the growing season was linked to about 70 more suicides, as the same heat cut crop yields. Warming over 30 years is estimated to account for 59,300 suicides. The findings have been debated.
@@ -512,13 +520,15 @@ Source: Carleton, PNAS, 2017: crop-damaging temperatures increase suicide rates 
 
 #### Sleepless hot nights
 
-When nights stay hot, the body has less chance to recover from the day, so the next day can start already depleted. Migrant workers in Singapore linked hot, crowded dormitories with poor sleep and tiredness on the next shift.
+When nights stay hot, the body has less chance to recover from the day, so the next day can start already depleted. Migrant workers in Singapore linked hot, crowded dormitories with poor sleep and tiredness on the next shift. A review of 11 studies finds heat linked to poorer sleep among people who work in it.
 
 Leads to: Mental health suffers (Poor sleep wears down mood and the ability to cope.); Heatstroke and heat exhaustion (Without cool nights, the body starts each day already overheated.)
 
 Source: Minor et al., One Earth, 2022: rising temperatures erode human sleep https://orbit.dtu.dk/en/publications/rising-temperatures-erode-human-sleep-globally/
 
 Source: Migrant workers in Singapore, 2023 (PMC10329802) https://pmc.ncbi.nlm.nih.gov/articles/PMC10329802/
+
+Source: Raja et al., Annals of Occupational and Environmental Medicine, 2026: heat and sleep among heat-exposed workers, a systematic review https://www.aoemj.org/journal/view.php?doi=10.35371/aoem.2026.38.e3
 
 #### Infectious diseases spread
 
@@ -604,11 +614,13 @@ Source: OECD Economics Department, Working Paper No. 1828, 2024 https://doi.org/
 
 #### Medical costs and debt
 
-Treatment, medicines and lost days are often paid for out of pocket, pushing households into debt.
+Treatment, medicines and lost days are often paid for out of pocket, pushing households into debt. In Dhaka, informal workers described paying for treatment and borrowing during heat; how long such debts last is not yet known.
 
 Leads to: Informal workers can’t stop work (Debt repayments remove any option to stop work in the heat.); Can’t afford to keep cool (Debt leaves nothing for electricity or cooling.)
 
 Source: Selvaraj, Farooqui and Karan, BMJ Open, 2018 https://bmjopen.bmj.com/content/8/5/e018020
+
+Source: IIED, 2026: health and economic impacts of heat on informal workers in urban Bangladesh https://www.iied.org/sites/default/files/pdfs/2026-08/22755iied.pdf
 
 #### Small businesses close
 
@@ -662,11 +674,13 @@ Source: UNICEF, 2025: Learning interrupted https://www.unicef.org/reports/learni
 
 #### Learning suffers in hot classrooms
 
-Studies link hotter school days to measurably lower learning and exam results.
+Studies link hotter school days to measurably lower learning and exam results. A review of seven studies across 61 countries links heat built up over months and years with poorer results, hardest on low-income students.
 
 Leads to: Lower skills and earnings (Lost learning becomes lower earnings later.)
 
 Source: Park, Goodman, Hurwitz and Smith, American Economic Journal: Economic Policy, 2020 https://www.aeaweb.org/doi/10.1257/pol.20180612
+
+Source: Vasilakopoulou et al., PLOS Climate, 2025: cumulative urban heat and learning, a systematic review https://journals.plos.org/climate/article?id=10.1371/journal.pclm.0000618
 
 #### Children pulled out of school
 
@@ -702,7 +716,7 @@ Source: Frontiers in Built Environment, 2022: Ahmedabad https://www.frontiersin.
 
 When people fall ill, schools close or water runs short, the extra caring and fetching usually falls on women and girls. In India, women already lose about 19% of their paid working hours to heat. In Chiang Rai, Thailand, older people and their families described leaning on family help to keep daily routines going in hot weather; the study also covered cold and air pollution.
 
-Leads to: Deepening inequality (Unpaid care pulls women and girls out of paid work and school.); Health systems overwhelmed (Without someone to help, reaching medicines and care during a heatwave becomes harder.)
+Leads to: Deepening inequality (Unpaid care pulls women and girls out of paid work and school.); Health systems overwhelmed (Without someone to help, reaching medicines and care during a heatwave becomes harder.); Productivity falls (Care work crowds out paid work, especially for women who work from home.)
 
 Source: Climate Resilience for All, 2023, reported by Scientific American: women bear greater burdens from extreme heat https://www.scientificamerican.com/article/women-experience-greater-burdens-from-extreme-heat
 
@@ -818,13 +832,15 @@ Source: Swiss Re Institute sigma, reported by Global Reinsurance https://www.glo
 
 #### Heat deaths under-recorded
 
-Heat is rarely written on death certificates. Most heat deaths are recorded as heart, kidney or lung failure. In India, heatwaves are declared on dry-air temperature from relatively few weather stations, which can miss humid heat where many informal workers live and work.
+Heat is rarely written on death certificates. Most heat deaths are recorded as heart, kidney or lung failure. In India, heatwaves are declared on dry-air temperature from relatively few weather stations, which can miss humid heat where many informal workers live and work. Personal sensors worn by women aged 40 to 79 in rural Tamil Nadu sometimes read more than 5 °C apart within the same hour, so area averages can misjudge who is exposed.
 
 Leads to: Heat protection underfunded (What isn’t counted isn’t funded.)
 
 Source: Down To Earth, 2024: the miscalculation in India’s heatwave mortality data https://www.downtoearth.org.in/climate-change/lost-in-the-heat-the-critical-miscalculation-in-indias-heatwave-mortality-data
 
 Source: NIUA Climate Centre for Cities, 2026: Heat Resilient Cities Framework, p. 10 https://niua.in/publication-details/Heat_Resilient_Cities_Framework
+
+Source: Deshpande et al., 2023: heat exposure among adult women in rural Tamil Nadu (PMC10785747) https://pmc.ncbi.nlm.nih.gov/articles/PMC10785747/
 
 #### Heat protection underfunded
 
@@ -1596,6 +1612,8 @@ Could help interrupt: The displacement loop
 
 In practice: Telangana’s Cool Roof Policy 2023–2028, India’s first, makes cool roofs mandatory for many kinds of building and aims to cover about 300 km² of roofs. Tamil Nadu’s heat strategy proposes making a measure of how much heat walls and roofs let in, the residential envelope transmittance value (ReTV) from India’s residential energy code, a condition in tenders for redeveloping informal settlements.
 
+Watch for: In 16 Ahmedabad homes compared over one week, most roof treatments lowered daytime indoor heat, but one coating left rooms hotter than untreated roofs. Designs differ, and night-time effects were not measured. (Vellingiri et al., 2020: cool roofs and indoor temperatures in Ahmedabad's informal settlements (PMC7227734), https://pmc.ncbi.nlm.nih.gov/articles/PMC7227734/)
+
 - Guide: Telangana’s cool roof policy: from pilot demonstration to policy (The Climate Group) https://www.theclimategroup.org/our-work/publications/telanganas-cool-roof-policy-pilot-demonstration-policy-implementation
 
 - Guide: £17.5m for research testing heat adaptations, including a trial of reflective roof coatings with a site in India (Wellcome) https://wellcome.org/insights/articles/wellcome-awards-ps175m-support-global-research-drive
@@ -1832,6 +1850,8 @@ In a study of Indian women workers, 87% of those with poor or no toilets at work
 
 In Nepal’s Madhesh Province, women cooking in hot, smoky kitchens carry a daily ‘thermal labour’ that falls hardest on women in the poorest single-room homes with little access to clean energy or credit. (Ghimire and others, Frontiers in Public Health, 2025, https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1657267/full)
 
+Personal sensors worn by women aged 40 to 79 in rural Tamil Nadu sometimes read more than 5 °C apart within the same hour, possibly from cooking on solid fuels. (Deshpande et al., 2023 (PMC10785747), https://pmc.ncbi.nlm.nih.gov/articles/PMC10785747/)
+
 What helps: Income protection in heatwaves, Social protection floors, Heat action plans, Cool, affordable housing, Violence prevention in heat planning
 
 ### Pregnant women, babies and young children
@@ -1875,6 +1895,8 @@ Held back by: Warnings in formats they can’t use, cooling centres they can’t
 Heat can worsen underlying illness, including heart disease, diabetes, asthma and mental health conditions. (WHO, 2026: Heat and health, fact sheet, https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health)
 
 In interviews across three Bangladesh locations in 2025, people with disabilities described heat making it harder to move about and to get care, and leaning on family for help. (International Journal of Disaster Risk Science, 2026, https://link.springer.com/article/10.1007/s13753-026-00778-y)
+
+Among 272 people with chronic kidney disease at a Sri Lankan hospital in 2019, the median monthly cost of haemodialysis care was LKR 38,540, including income lost by patients and carers. The study did not look at heat. (Rathnayake et al., BMC Health Services Research, 2026, https://link.springer.com/article/10.1186/s12913-026-15146-1)
 
 What helps: Heat action plans, Cooling centres and check-ins, Heat-ready health services, Free care for heat illness, Mental health in heat plans
 
