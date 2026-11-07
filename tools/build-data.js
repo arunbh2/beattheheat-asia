@@ -117,6 +117,17 @@ function checkHome(V) {
     if (!label || label.length > 40) problems.push(`SECTION_SUMMARIES: "${id}" needs a short button label`);
   });
   V.HOME_OPEN.open.forEach(id => { if (!(V.HOME_OPEN.why || {})[id]) problems.push(`HOME_OPEN: "${id}" needs its reason in why`); });
+  // one story: every open section keeps the shared anatomy (class "story", a header.story__head with an h2.story__h)
+  V.HOME_OPEN.open.forEach(id => {
+    const m = html.match(new RegExp(`<section\\b[^>]*\\bid="${id}"[^>]*>([\\s\\S]*?)</section>`)); if (!m) return;
+    if (!/\bclass="[^"]*\bstory\b/.test(m[0].slice(0, m[0].indexOf(">")))) problems.push(`index.html #${id}: an open section needs class "story" (see .story in styles.css)`);
+    if (!/<header class="story__head\b[\s\S]*?class="[^"]*\bstory__h\b/.test(m[1])) problems.push(`index.html #${id}: needs <header class="story__head"> with its headline as <h2 class="h2 story__h">`);
+  });
+  // calm by default: only these animations may loop forever (the live ticker, and loops that answer a click or show loading)
+  const LOOPS_OK = [".edge.flow", ".lever.on .lever__ring", ".ticker__track", ".ticker .ticker__track", ".atl-hw.is-now", ".lv-spin"];
+  const css = fs.readFileSync(path.join(ROOT, "styles.css"), "utf8").replace(/\/\*[\s\S]*?\*\//g, "");
+  for (const r of css.matchAll(/([^{}]+)\{([^{}]*)\}/g)) { const sel = r[1].trim(); if (!/\binfinite\b/.test(r[2])) continue;
+    if (!LOOPS_OK.includes(sel)) problems.push(`styles.css: "${sel}" loops forever; let it run a few times and rest (e.g. "3" instead of "infinite"), or add it to LOOPS_OK in tools/build-data.js if a reader's action starts it`); }
   return problems;
 }
 // How heat became visible (HEAT_VISIBILITY): every citation resolves, every source has an https link (and an archived copy

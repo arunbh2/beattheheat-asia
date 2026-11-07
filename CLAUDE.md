@@ -54,6 +54,7 @@ Every decision elevates the reader's experience (UX), the maintainer's experienc
 - Reuse the existing classes (`pg-hero`, `hub-*`, `sol-bar`, `lv-*`) and colour tokens (`--ink`, `--orange`, `--ember`, `--line`). Match the visual style.
 - IDs are stable and never renumbered. Each source has a label or title and a url.
 - Every data widget handles loading, no network, error and empty states. Add a check for any calculation or import.
+- Homepage story: each open section (`HOME_OPEN`) uses the `.story` anatomy (eyebrow, `h2.story__h`, lede, one focal point, one action, a `.story__more` fold) and its act tone. Homepage numbers sit in `data-stat` spans that the build fills from data. Only the ticker and click-driven animations loop. `build-data.js --check` enforces all three.
 - Keep each change to what was asked. Prefer targeted edits to rewrites.
 
 ## Heat action plan research (observatory)
