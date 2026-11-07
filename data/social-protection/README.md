@@ -20,7 +20,10 @@ Households appear in aggregate only. Nothing here identifies a person or a house
 - `unit_note` how the country's first administrative level is named, where it is not "state"
 - `summary`, `gaps` lists of `{ text, sources }`; `gaps` are what no public system in the checked set covers
 - `map` `{ rows: [[element, text]], misreadings: [text] }`: a minimum first map, and how a map could mislead
-- `questions` `{ id, q, have, could, scale }`: open questions (sizes are illustrative, not power calculations)
+- `questions` `{ id, steps?, q, have, could, scale }`: open questions (sizes are illustrative, not power calculations).
+  Questions with `steps` come from `research/2026-11/social-protection/step-questions.json`: one for each step of
+  access nobody has measured in that country. The page links each unmeasured step to its question; the check flags a
+  question whose step has since been measured.
 
 `schemes` one public scheme each
 - `id` `<country>-<name>` (stable, never renumbered); `level` national or state; `name`; `type` one of cash, pension,

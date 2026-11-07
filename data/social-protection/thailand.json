@@ -82,6 +82,32 @@
     "have": "Crop-relief rates, documents and procedure are published. [T5]",
     "could": "Crop-season household panel and administrative aggregate audit of declarations, assessed losses, payment dates and recovery.",
     "scale": "Illustrative: 1,000-1,500 households across several agroclimatic areas."
+   },
+   {
+    "id": "th-step-all",
+    "steps": [
+     "aware",
+     "eligible",
+     "documented",
+     "applied",
+     "enrolled",
+     "received",
+     "adequate"
+    ],
+    "q": "For older people and informal workers, which is the first step of access where support stops in a hot season?",
+    "have": "None of the sources checked measures any step of access for the schemes on this page in Thailand.",
+    "could": "A household survey that follows the old-age allowance and Section 40 through all eight steps, for the same people.",
+    "scale": "Illustrative: about 1,000 households in three provinces"
+   },
+   {
+    "id": "th-step-ontime",
+    "steps": [
+     "on time"
+    ],
+    "q": "Does crop relief after a declared disaster arrive in time to matter for the next season?",
+    "have": "None of the sources checked measures when relief reaches farmers compared with the loss.",
+    "could": "Compare declaration, claim and payment dates for crop relief across districts.",
+    "scale": "Illustrative: records from ten districts over two seasons"
    }
   ]
  },

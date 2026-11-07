@@ -34,7 +34,7 @@ module.exports = function socialProtection({ page, write, esc, hero, V, D }) {
       <ul class="sp-schemes">${f.schemes.map(s => scheme(s, f.country)).join("")}</ul>`);
   const ladder = per("ladder", f => `<ol class="sp-ladder">${T.STEPS.map(([k, name]) => { const fs = f.ladder.filter(l => l.step === k);
       return `<li class="sp-step${fs.length ? "" : " is-empty"}"><b>${esc(name)}</b>${fs.length ? fs.map(l => `<p>${esc(l.finding)} <span class="sp-meta">${esc(l.group)}. ${esc(l.limit || "")}</span></p>${srcs(l.sources)}`).join("")
-        : `<p class="sp-nc">Nobody has measured this here yet, in the sources checked.</p>`}</li>`; }).join("")}</ol>`);
+        : `<p class="sp-nc">Nobody has measured this here yet, in the sources checked.${(q => q ? ` <a href="#${esc(q.id)}">An open question about this step</a>` : "")(f.country.questions.find(q => (q.steps || []).includes(k)))}</p>`}</li>`; }).join("")}</ol>`);
   const routes = per("routes", f => f.routes.length ? `<ul class="sp-routes">${f.routes.map(r => `<li class="sp-route"><h4>${esc(r.name)} <span class="sp-meta">${esc(r.kind)}</span></h4>
       <p>${esc(r.does)} <span class="sp-meta">${esc(r.where)}</span></p>
       <div class="sp-two"><div><b>What it says about itself</b><p>${r.self_reported ? esc(r.self_reported) : `<span class="sp-nc">Nothing stated in the sources checked.</span>`}</p></div>
@@ -47,7 +47,7 @@ module.exports = function socialProtection({ page, write, esc, hero, V, D }) {
       <tbody>${f.indicators.map(x => `<tr><td>${x.url ? ext(x.url, x.indicator) : esc(x.indicator)}<span class="sp-meta">${esc(x.publisher || "")}</span></td><td>${esc(x.unit_of_place || "")}${x.year ? `, ${esc(String(x.year))}` : ""}</td><td>${yn(x.open)}</td><td>${yn(x.joinable)}</td></tr>`).join("")}</tbody></table></div>
       ${f.country.map.rows.length ? `<details class="sp-more"><summary>A first map that would hold up</summary><dl class="sp-dl">${f.country.map.rows.map(([a, b]) => `<dt>${esc(a)}</dt><dd>${esc(b)}</dd>`).join("")}</dl></details>` : ""}
       ${f.country.map.misreadings.length ? `<details class="sp-more"><summary>How it could mislead</summary><ul>${f.country.map.misreadings.map(m => `<li>${esc(m)}</li>`).join("")}</ul></details>` : ""}`);
-  const questions = per("questions", f => `<ul class="sp-questions">${f.country.questions.map(q => `<li><b>${esc(q.q)}</b><p><span class="sp-meta">What is known:</span> ${esc(q.have)}</p><p><span class="sp-meta">A study that could answer it:</span> ${esc(q.could)} <span class="sp-meta">(${esc(q.scale)})</span></p></li>`).join("")}</ul>`);
+  const questions = per("questions", f => `<ul class="sp-questions">${f.country.questions.map(q => `<li id="${esc(q.id)}">${q.steps ? `<span class="sp-meta">Unmeasured ${q.steps.length > 1 ? "steps" : "step"}: ${esc(q.steps.map(k => T.STEP_NAME[k]).join(", "))}</span> ` : ""}<b>${esc(q.q)}</b><p><span class="sp-meta">What is known:</span> ${esc(q.have)}</p><p><span class="sp-meta">A study that could answer it:</span> ${esc(q.could)} <span class="sp-meta">(${esc(q.scale)})</span></p></li>`).join("")}</ul>`);
   const evidence = SP.flatMap(f => f.evidence.map(e => ({ e, c: f.country })));
   const allSources = [...new Map(SP.flatMap(f => [...f.schemes, ...f.ladder, ...f.routes, ...f.evidence, ...f.country.summary, ...f.country.gaps].flatMap(x => x.sources || [])).map(s => [s.url, s])).values()];
 

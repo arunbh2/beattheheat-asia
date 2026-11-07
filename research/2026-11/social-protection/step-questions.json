@@ -1,0 +1,89 @@
+{
+  "about": "Open questions for the steps of access that nobody has measured, in the sources checked for each country (November 2026). 'have' restates only what the country's confirmed findings on /social-protection/ measure and do not measure; 'could' and 'scale' are our suggestions, and every scale is illustrative, not a power calculation. convert.js adds these to each country's questions with their steps, and the page links each unmeasured step to its question. Reviewed when a country's findings change: a step that becomes measured loses its question here.",
+  "questions": [
+    {
+      "country": "bd", "id": "step-adequate", "steps": ["adequate", "on time"],
+      "q": "When heat arrives, how much of a household's lost earnings and care costs does an allowance or top-up cover, and does it arrive before the hottest days?",
+      "have": "Implementer reports count households that received cash in Rajshahi and Dhaka. None of the sources checked measures how far the money went, or when it arrived compared with the heat.",
+      "could": "Follow recipient households through one hot season, recording lost work days, care costs and payment dates against heat-alert dates.",
+      "scale": "Illustrative: about 300 households in two cities over one hot season"
+    },
+    {
+      "country": "bd", "id": "step-aware", "steps": ["aware", "eligible", "documented", "applied", "enrolled"],
+      "q": "How many heat-exposed urban households know of an allowance, qualify for it, hold the documents, apply and are enrolled?",
+      "have": "None of the sources checked measures these steps for the schemes on this page in Bangladesh.",
+      "could": "A household survey in hot wards that asks the same people about each step, for the same schemes.",
+      "scale": "Illustrative: about 1,000 households in four wards"
+    },
+    {
+      "country": "in", "id": "step-adequate", "steps": ["adequate"],
+      "q": "Is what a household receives from rural work, pensions or food rations enough to cover a hot season's lost earnings and care costs?",
+      "have": "Documents, applications, enrolment, receipt and payment timing are measured for some schemes, such as fund transfer orders for rural work. No source checked measures whether support is adequate in a hot season.",
+      "could": "Compare the support received with heat-season losses in the same households, in a hot month and a cooler one.",
+      "scale": "Illustrative: about 600 households in three districts"
+    },
+    {
+      "country": "in", "id": "step-aware", "steps": ["aware", "eligible"],
+      "q": "How many informal workers exposed to heat know which schemes they could use, and how many of them qualify?",
+      "have": "Later steps are measured for some schemes; awareness and eligibility are not, in the sources checked.",
+      "could": "Pair a short awareness survey with an eligibility screen for the same workers, at worksites and markets.",
+      "scale": "Illustrative: about 800 workers in two cities"
+    },
+    {
+      "country": "id", "id": "step-ontime", "steps": ["on time", "adequate"],
+      "q": "Do cash transfers reach families before or after the hottest weeks, and is the amount enough to cover lost work?",
+      "have": "Government reports count the families paid each quarter, without payment dates set against heat or amounts set against losses.",
+      "could": "Link payment dates with heat records and a short household survey on lost work and spending.",
+      "scale": "Illustrative: about 500 families in two provinces over one year"
+    },
+    {
+      "country": "id", "id": "step-apply", "steps": ["aware", "eligible", "documented", "applied"],
+      "q": "Where do informal workers stop between hearing of worker insurance and applying for it?",
+      "have": "An evaluation in Bandung and Medan measured enrolment: registration help raised it by 3.5 percentage points and full subsidy by 18.6, while information alone had no measured effect. Awareness, documents and applications were not measured as separate steps.",
+      "could": "Follow the same workers through awareness, documents and application, with and without help to register.",
+      "scale": "Illustrative: about 1,000 workers in two cities"
+    },
+    {
+      "country": "np", "id": "step-adequate", "steps": ["adequate", "on time"],
+      "q": "Do allowances arrive on time and cover what a hot season costs older people and outdoor-worker households?",
+      "have": "Awareness of the Social Security Fund, enrolment and receipt are measured in the sources checked; the adequacy and timing of allowances in hot months are not.",
+      "could": "Record payment dates and heat-season costs for allowance households in the Tarai.",
+      "scale": "Illustrative: about 400 households in four municipalities"
+    },
+    {
+      "country": "np", "id": "step-documented", "steps": ["eligible", "documented", "applied"],
+      "q": "Among people who qualify for an allowance, how many hold the documents and have applied?",
+      "have": "In the sources checked, eligibility, documents and applications are not measured as separate steps.",
+      "could": "A records review with local governments that counts eligible people, documents held and applications made.",
+      "scale": "Illustrative: six wards in three municipalities"
+    },
+    {
+      "country": "sg", "id": "step-adequate", "steps": ["adequate", "on time"],
+      "q": "Does temporary support cover the income lost when heat cuts work, and how soon does it arrive?",
+      "have": "Counts of households receiving ComCare support and of workers receiving the Workfare Income Supplement are published; adequacy and timing against heat-related income loss are not, in the sources checked.",
+      "could": "A survey of support recipients in outdoor work that compares lost earnings in hot months with the support received and when it came.",
+      "scale": "Illustrative: about 300 households"
+    },
+    {
+      "country": "sg", "id": "step-aware", "steps": ["aware", "eligible", "documented", "applied", "enrolled"],
+      "q": "Do migrant workers know which medical and injury protections apply to heat illness, and do they start a claim?",
+      "have": "None of the sources checked measures awareness, applications or claims started among migrant workers for heat illness.",
+      "could": "Short surveys at dormitories and worker centres, with partner organisations, followed by records of claims started.",
+      "scale": "Illustrative: about 500 workers"
+    },
+    {
+      "country": "th", "id": "step-all", "steps": ["aware", "eligible", "documented", "applied", "enrolled", "received", "adequate"],
+      "q": "For older people and informal workers, which is the first step of access where support stops in a hot season?",
+      "have": "None of the sources checked measures any step of access for the schemes on this page in Thailand.",
+      "could": "A household survey that follows the old-age allowance and Section 40 through all eight steps, for the same people.",
+      "scale": "Illustrative: about 1,000 households in three provinces"
+    },
+    {
+      "country": "th", "id": "step-ontime", "steps": ["on time"],
+      "q": "Does crop relief after a declared disaster arrive in time to matter for the next season?",
+      "have": "None of the sources checked measures when relief reaches farmers compared with the loss.",
+      "could": "Compare declaration, claim and payment dates for crop relief across districts.",
+      "scale": "Illustrative: records from ten districts over two seasons"
+    }
+  ]
+}

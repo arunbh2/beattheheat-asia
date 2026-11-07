@@ -12,6 +12,8 @@ const fs = require("fs"), path = require("path");
 const HERE = __dirname, ROOT = path.join(HERE, "..", "..", ".."), OUT = path.join(ROOT, "data", "social-protection");
 const DRAFT = process.argv.includes("--draft"), INBOX = path.join(ROOT, "data", "inbox", "2026-11-social-protection");
 const read = f => { try { return JSON.parse(fs.readFileSync(f, "utf8")); } catch (e) { return null; } };
+// open questions for the steps nobody has measured (reviewed by hand; see step-questions.json)
+const STEPQ = (read(path.join(__dirname, "step-questions.json")) || { questions: [] }).questions;
 const LC = read(path.join(INBOX, "link-check.json")) || {}, EX = read(path.join(INBOX, "_excerpts.json")) || {};
 const TXT = {}; Object.values(EX).forEach(x => { TXT[x.url] = ((x.opening || "") + " " + (x.around || []).join(" ")).replace(/\s+/g, " "); });
 const ORGS = read(path.join(ROOT, "data", "core", "ORGANISATIONS.json")) || [];
@@ -101,7 +103,8 @@ for (const f of fs.readdirSync(HERE).filter(f => f.endsWith(".md") && !/^(README
   const country = { id: code, slug: c, name: c[0].toUpperCase() + c.slice(1), as_of: asOf, checked: DRAFT ? "" : new Date().toISOString().slice(0, 10),
     unit_note: (t.match(/The requested schema uses state[^\n]*/) || [""])[0],
     summary: itemsOf("A", "summary"), gaps: itemsOf("H", "gap"), map: { rows: mapRows, misreadings: bullets(section("G")).map(clean) },
-    questions: Q.map(q => ({ id: `${code}-${q.id}`, q: q.q, have: q.have, could: q.could, scale: q.scale })) };
+    questions: Q.map(q => ({ id: `${code}-${q.id}`, q: q.q, have: q.have, could: q.could, scale: q.scale }))
+      .concat(STEPQ.filter(q => q.country === code).map(q => ({ id: `${code}-${q.id}`, steps: q.steps, q: q.q, have: q.have, could: q.could, scale: q.scale }))) };
   const out = { country, schemes, ladder, evidence, routes, indicators };
   fs.writeFileSync(path.join(OUT, `${c}.json`), JSON.stringify(out, null, 1) + "\n");
   summary.push(`${country.name}: ${schemes.length}/${S.length} schemes, ${ladder.length}/${L.length} ladder findings, ${evidence.length}/${E.length} evidence, ${routes.length}/${O.length} routes, ${country.gaps.length} gaps`);

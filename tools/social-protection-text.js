@@ -6,6 +6,7 @@ const SITUATIONS = [["work", "Lost work or earnings"], ["health", "Illness or ho
   ["farm", "Farming or fishing"], ["moved", "Moved for work"], ["food", "Food"], ["disaster", "After a disaster"], ["income", "Income support"]];
 const STEPS = [["aware", "Aware"], ["eligible", "Eligible"], ["documented", "Documented"], ["applied", "Applied"], ["enrolled", "Enrolled"],
   ["received", "Received"], ["adequate", "Adequate"], ["on time", "On time"]];
+const STEP_NAME = Object.fromEntries(STEPS);
 const STATUS = { current: "Current", changed: "Changed recently", closed: "Closed", unclear: "Status unclear" };
 const PORTABLE = { yes: "Follows people who move", partly: "Partly follows people who move", no: "Does not follow people who move", unknown: "Not known whether it follows people who move" };
 const SHOCK = { yes: "Can respond to a shock", partly: "Can partly respond to a shock", no: "Not designed to respond to a shock", unknown: "Not known whether it responds to a shock" };
@@ -29,12 +30,15 @@ function md(SP, SITE) {
     f.schemes.forEach(s => out.push(`- ${s.name} (${TYPE[s.type] || s.type}, ${s.level}). Run by: ${s.run_by}. Who is eligible: ${s.who || NOT_CONFIRMED} What it gives: ${s.gives || NOT_CONFIRMED} How it is delivered: ${s.delivery || NOT_CONFIRMED} Documents: ${s.documents || NOT_CONFIRMED} ${PORTABLE[s.portable]}. ${SHOCK[s.shock_responsive]}. Payment timing: ${s.speed || NOT_CONFIRMED} Why it matters in heat: ${s.heat_relevance || NOT_CONFIRMED} Status: ${STATUS[s.status]}, as of ${date(s.status_as_of)}. Evidence: ${GRADE[s.grade]}. Sources: ${plainSrc(s.sources)}`));
     out.push(`#### Steps of access in ${c.name} (findings come from different studies of different people; they are not one funnel)`);
     STEPS.forEach(([k, name]) => { const fs = f.ladder.filter(l => l.step === k);
-      out.push(fs.length ? fs.map(l => `- ${name}: ${l.finding} (${l.group}; limit: ${l.limit}; sources: ${plainSrc(l.sources)})`).join("\n") : `- ${name}: nobody has measured this here yet, in the sources checked.`); });
+      const oq = f.country.questions.find(q => (q.steps || []).includes(k));
+      out.push(fs.length ? fs.map(l => `- ${name}: ${l.finding} (${l.group}; limit: ${l.limit}; sources: ${plainSrc(l.sources)})`).join("\n") : `- ${name}: nobody has measured this here yet, in the sources checked.${oq ? ` Open question: ${oq.q}` : ""}`); });
     if (f.routes.length) { out.push(`#### Delivery routes and organisations in ${c.name} (unranked)`);
       f.routes.forEach(r => out.push(`- ${r.name} (${r.kind}). ${r.does} Where: ${r.where}. What it says about itself: ${r.self_reported || "nothing stated"}. What independent studies found: ${r.independent || r.evaluations || "none found in the sources checked"}. Sources: ${plainSrc(r.sources)}`)); }
     if (c.gaps.length) { out.push(`#### Where no public system responds in ${c.name} (gaps in the checked scheme set, not proof that nothing exists)`);
       c.gaps.forEach(g => out.push(`- ${g.text}${g.sources.length ? ` (Sources: ${plainSrc(g.sources)})` : ""}`)); }
+    if (c.questions.length) { out.push(`#### Open questions for ${c.name} (study designs and sizes are our suggestions; sizes are illustrative)`);
+      c.questions.forEach(q => out.push(`- ${q.steps ? `[Unmeasured: ${q.steps.map(k => STEP_NAME[k]).join(", ")}] ` : ""}${q.q} What is known: ${q.have} A study that could answer it: ${q.could} (${q.scale})`)); }
   });
   return out.join("\n\n");
 }
-module.exports = { TITLE, SLUG, SITUATIONS, STEPS, STATUS, PORTABLE, SHOCK, GRADE, TYPE, NOT_CONFIRMED, date, counts, md };
+module.exports = { TITLE, SLUG, SITUATIONS, STEPS, STEP_NAME, STATUS, PORTABLE, SHOCK, GRADE, TYPE, NOT_CONFIRMED, date, counts, md };

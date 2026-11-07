@@ -121,6 +121,29 @@
     "have": "A documented allowance transfer route exists; actual seasonal continuity was not measured. [N1]",
     "could": "Phased assistance through wards, comparing aggregate transfer completion, payment interruption and travel cost.",
     "scale": "Illustrative design: 20-30 ward pairs over one renewal and payment cycle."
+   },
+   {
+    "id": "np-step-adequate",
+    "steps": [
+     "adequate",
+     "on time"
+    ],
+    "q": "Do allowances arrive on time and cover what a hot season costs older people and outdoor-worker households?",
+    "have": "Awareness of the Social Security Fund, enrolment and receipt are measured in the sources checked; the adequacy and timing of allowances in hot months are not.",
+    "could": "Record payment dates and heat-season costs for allowance households in the Tarai.",
+    "scale": "Illustrative: about 400 households in four municipalities"
+   },
+   {
+    "id": "np-step-documented",
+    "steps": [
+     "eligible",
+     "documented",
+     "applied"
+    ],
+    "q": "Among people who qualify for an allowance, how many hold the documents and have applied?",
+    "have": "In the sources checked, eligibility, documents and applications are not measured as separate steps.",
+    "could": "A records review with local governments that counts eligible people, documents held and applications made.",
+    "scale": "Illustrative: six wards in three municipalities"
    }
   ]
  },

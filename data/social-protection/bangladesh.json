@@ -146,6 +146,31 @@
     "have": "Delivery organisations describe support, but no comparable independent local effect was read. [B6, B12, B13]",
     "could": "Randomise outreach timing among consenting community clusters and track aggregate application, receipt, cost and delay.",
     "scale": "Illustrative design: 30-50 clusters over one application cycle."
+   },
+   {
+    "id": "bd-step-adequate",
+    "steps": [
+     "adequate",
+     "on time"
+    ],
+    "q": "When heat arrives, how much of a household's lost earnings and care costs does an allowance or top-up cover, and does it arrive before the hottest days?",
+    "have": "Implementer reports count households that received cash in Rajshahi and Dhaka. None of the sources checked measures how far the money went, or when it arrived compared with the heat.",
+    "could": "Follow recipient households through one hot season, recording lost work days, care costs and payment dates against heat-alert dates.",
+    "scale": "Illustrative: about 300 households in two cities over one hot season"
+   },
+   {
+    "id": "bd-step-aware",
+    "steps": [
+     "aware",
+     "eligible",
+     "documented",
+     "applied",
+     "enrolled"
+    ],
+    "q": "How many heat-exposed urban households know of an allowance, qualify for it, hold the documents, apply and are enrolled?",
+    "have": "None of the sources checked measures these steps for the schemes on this page in Bangladesh.",
+    "could": "A household survey in hot wards that asks the same people about each step, for the same schemes.",
+    "scale": "Illustrative: about 1,000 households in four wards"
    }
   ]
  },
