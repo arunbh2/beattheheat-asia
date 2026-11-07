@@ -12,6 +12,7 @@
 //   atRisk:    [{ id, fact, source: { label, url } }]                           (added to the group's "more" facts)
 //   questions: [{ id, loop, q, have, could, scale }]                            (added as open questions)
 //   evidence:  [{ title, url, first_author, venue, date, review: { cycle, finding, grade, where, sample_size?, limit } }]
+//   confirmed: { url: "exact quote" }   a source whose expected terms missed, confirmed by a quote that is in its saved text
 "use strict";
 const fs = require("fs"), path = require("path");
 const ROOT = path.join(__dirname, "..", "..", ".."), n = process.argv[2];
@@ -24,9 +25,12 @@ const write = (f, v) => fs.writeFileSync(f, ser(v) + "\n");
 const C = read(core("CONSEQUENCES")), S = read(core("SYSTEMS")), LK = read(core("LINKS")), LV = read(core("LEVERS")), AR = read(core("AT_RISK")), LO = read(core("LOOPS"));
 const nodes = new Set(["heat", ...S.map(s => s.id), ...C.map(c => c.id)]), edges = new Set(LK.map(l => l[0] + ">" + l[1]));
 const checked = (() => { try { const j = read(path.join(ROOT, "data", "inbox", "2026-11-gap-lenses", "link-check.json")); return u => ["OK", "REDIRECT", "BLOCKED"].includes(j[u]) && Object.values((j._terms || {})[u] || {}).some(Boolean); } catch (e) { return () => false; } })();
+// a source confirmed by reading the checker's saved text (patch "confirmed": { url: "exact quote" }): the quote must be in a saved record
+const EXC = ["data/inbox/2026-11-gap-lenses/_excerpts.json", "research/2026-11/health-deepening/excerpts.json"].map(f => { try { return fs.readFileSync(path.join(ROOT, f), "utf8").replace(/\\n/g, " ").replace(/\s+/g, " "); } catch (e) { return ""; } }).join(" ");
+const quotes = u => [].concat((P.confirmed || {})[u] || []), quoted = u => quotes(u).length > 0 && quotes(u).every(q => EXC.includes(q.replace(/\s+/g, " ")));
 const problems = [], done = [];
 const okSrc = (x, where) => { if (!x || !x.label || !/^https:\/\//.test(x.url || "")) problems.push(`${where}: a source needs a label and an https url`);
-  else if (!checked(x.url) && !/pubmed\.ncbi|europepmc/.test(x.url)) problems.push(`${where}: ${x.url} was not confirmed by the checker`); };
+  else if (!checked(x.url) && !quoted(x.url)) problems.push(`${where}: ${x.url} was not confirmed by the checker (no expected term found, and no "confirmed" quote that appears in its saved text)`); };
 
 (P.harms || []).forEach(h => { const c = C.find(x => x.id === h.id); if (!c) return problems.push(`harm ${h.id}: not on the map`);
   h.sources.forEach(x => okSrc(x, `harm ${h.id}`));

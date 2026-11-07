@@ -1,56 +1,202 @@
 {
   "lens": "3 slow, hidden and under-counted harms",
   "harms": [
-    { "id": "kidney", "add": "In Tamil Nadu, 7% of 352 salt pan workers had reduced kidney function on a single test, which on its own does not mean chronic disease. In a Thai cohort, men who reported long spells of heat at work were about twice as likely to report a new kidney diagnosis. In Sri Lanka, heat at work alone does not explain the kidney disease of unknown cause found among farmers.",
+    {
+      "id": "kidney",
+      "add": "In a Thai cohort, men who reported long spells of heat at work were about twice as likely to report a new kidney diagnosis. In Sri Lanka, heat at work alone does not explain the kidney disease of unknown cause found among farmers.",
       "sources": [
-        { "label": "Venugopal et al., Kidney International Reports, 2023: heat and kidney health in 352 salt pan workers, Tamil Nadu", "url": "https://www.kireports.org/article/S2468024923012664/pdf" },
-        { "label": "Tawatsupa et al., Journal of Epidemiology, 2012: occupational heat and kidney disease in the Thai Cohort Study", "url": "https://www.jstage.jst.go.jp/article/jea/22/3/22_JE20110082/_pdf/-char/en" },
-        { "label": "De Silva et al., 2022: occupational heat exposure alone does not explain CKDu in Sri Lanka", "url": "https://scholars.duke.edu/publication/1572526" }] },
-    { "id": "learning", "add": "A review of seven studies across 61 countries links heat built up over months and years with poorer results, hardest on low-income students.",
-      "sources": [{ "label": "Vasilakopoulou et al., PLOS Climate, 2025: cumulative urban heat and learning, a systematic review", "url": "https://journals.plos.org/climate/article?id=10.1371/journal.pclm.0000618" }] },
-    { "id": "productivity", "add": "In Indian factories, hot days cut output while people were at work, not only through days off.",
-      "sources": [{ "label": "Somanathan et al., Journal of Political Economy, 2021: temperature, productivity and labour supply in Indian manufacturing", "url": "https://www.journals.uchicago.edu/doi/full/10.1086%2F713733" }] },
-    { "id": "hunger", "add": "In rural India, a hot growing season was followed by poorer diets the next year among the households that already ate least, a gap that averages hide (a working paper).",
-      "sources": [{ "label": "Stainier et al., NBER working paper, 2025: hot weather, undernutrition and adaptation in rural India", "url": "https://www.nber.org/system/files/working_papers/w34047/w34047.pdf" }] },
-    { "id": "mental", "add": "In a national survey of Thai adults, people whose daily life was often disrupted by heat reported poorer wellbeing; a survey like this cannot show which came first.",
-      "sources": [{ "label": "Tawatsupa et al., BMJ Open, 2012: heat stress, health and wellbeing in a national cohort of Thai adults", "url": "https://bmjopen.bmj.com/content/bmjopen/2/6/e001396.full.pdf" }] },
-    { "id": "debt", "add": "In Dhaka, informal workers described paying for treatment and borrowing during heat; how long such debts last is not yet known.",
-      "sources": [{ "label": "IIED, 2026: health and economic impacts of heat on informal workers in urban Bangladesh", "url": "https://www.iied.org/sites/default/files/pdfs/2026-08/22755iied.pdf" }] },
-    { "id": "underreport", "add": "Personal sensors worn by women in rural Tamil Nadu sometimes read more than 5 °C apart within the same hour, so area averages can misjudge who is exposed.",
-      "sources": [{ "label": "Deshpande et al., 2023: heat exposure among adult women in rural Tamil Nadu (PMC10785747)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10785747/" }] },
-    { "id": "sleepless", "add": "A review of 11 studies finds heat linked to poorer sleep among people who work in it.",
-      "sources": [{ "label": "Raja et al., Annals of Occupational and Environmental Medicine, 2026: heat and sleep among heat-exposed workers, a systematic review", "url": "https://www.aoemj.org/journal/view.php?doi=10.35371/aoem.2026.38.e3" }] }
+        {
+          "label": "Tawatsupa et al., Journal of Epidemiology, 2012: occupational heat and kidney disease in the Thai Cohort Study",
+          "url": "https://www.jstage.jst.go.jp/article/jea/22/3/22_JE20110082/_pdf/-char/en"
+        },
+        {
+          "label": "De Silva et al., 2022: occupational heat exposure alone does not explain CKDu in Sri Lanka",
+          "url": "https://scholars.duke.edu/publication/1572526"
+        }
+      ]
+    },
+    {
+      "id": "learning",
+      "add": "A review of seven studies across 61 countries links heat built up over months and years with poorer results, hardest on low-income students.",
+      "sources": [
+        {
+          "label": "Vasilakopoulou et al., PLOS Climate, 2025: cumulative urban heat and learning, a systematic review",
+          "url": "https://journals.plos.org/climate/article?id=10.1371/journal.pclm.0000618"
+        }
+      ]
+    },
+    {
+      "id": "hunger",
+      "add": "In rural India, a hot growing season was followed by poorer diets the next year among the households that already ate least, a gap that averages hide (a working paper).",
+      "sources": [
+        {
+          "label": "Stainier et al., NBER working paper, 2025: hot weather, undernutrition and adaptation in rural India",
+          "url": "https://www.nber.org/system/files/working_papers/w34047/w34047.pdf"
+        }
+      ]
+    },
+    {
+      "id": "mental",
+      "add": "In a national survey of Thai adults, people whose daily life was often disrupted by heat reported poorer wellbeing; a survey like this cannot show which came first.",
+      "sources": [
+        {
+          "label": "Tawatsupa et al., BMJ Open, 2012: heat stress, health and wellbeing in a national cohort of Thai adults",
+          "url": "https://bmjopen.bmj.com/content/bmjopen/2/6/e001396.full.pdf"
+        }
+      ]
+    },
+    {
+      "id": "debt",
+      "add": "In Dhaka, informal workers described paying for treatment and borrowing during heat; how long such debts last is not yet known.",
+      "sources": [
+        {
+          "label": "IIED, 2026: health and economic impacts of heat on informal workers in urban Bangladesh",
+          "url": "https://www.iied.org/sites/default/files/pdfs/2026-08/22755iied.pdf"
+        }
+      ]
+    },
+    {
+      "id": "underreport",
+      "add": "Personal sensors worn by women aged 40 to 79 in rural Tamil Nadu sometimes read more than 5 °C apart within the same hour, so area averages can misjudge who is exposed.",
+      "sources": [
+        {
+          "label": "Deshpande et al., 2023: heat exposure among adult women in rural Tamil Nadu (PMC10785747)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10785747/"
+        }
+      ]
+    },
+    {
+      "id": "sleepless",
+      "add": "A review of 11 studies finds heat linked to poorer sleep among people who work in it.",
+      "sources": [
+        {
+          "label": "Raja et al., Annals of Occupational and Environmental Medicine, 2026: heat and sleep among heat-exposed workers, a systematic review",
+          "url": "https://www.aoemj.org/journal/view.php?doi=10.35371/aoem.2026.38.e3"
+        }
+      ]
+    }
   ],
   "links": [
-    ["sanitation", "kidney", "Without toilets at work, people drink less in the heat, which adds to the strain on the kidneys."],
-    ["kidney", "lost", "Kidney disease means missed work for patients and for the family members who care for them."],
-    ["harvests", "learning", "When heat cuts harvests and farm income, children's test results fall."],
-    ["harvests", "hunger", "A poor harvest leaves the households that already eat least eating less the following year."],
-    ["care", "productivity", "Care work crowds out paid work, especially for women who work from home."]
+    [
+      "sanitation",
+      "kidney",
+      "Without toilets at work, people drink less in the heat, which adds to the strain on the kidneys."
+    ],
+    [
+      "kidney",
+      "lost",
+      "Kidney disease means missed work for patients and for the family members who care for them."
+    ],
+    [
+      "harvests",
+      "learning",
+      "When heat cuts harvests and farm income, children's test results fall."
+    ],
+    [
+      "harvests",
+      "hunger",
+      "A poor harvest leaves the households that already eat least eating less the following year."
+    ],
+    [
+      "care",
+      "productivity",
+      "Care work crowds out paid work, especially for women who work from home."
+    ]
   ],
   "levers": [
-    { "id": "socialprotection", "example": "In India, the rural employment guarantee's public works jobs softened the link between hot years and children's test scores.",
-      "exampleSources": [{ "label": "Garg, Jagnani and Taraz, Journal of the Association of Environmental and Resource Economists, 2020: temperature and human capital in India", "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/710066" }] },
-    { "id": "coolhousing", "watch": [{ "text": "In 16 Ahmedabad homes compared over one week, most roof treatments lowered daytime indoor heat, but one coating left rooms hotter than untreated roofs. Designs differ, and night-time effects were not measured.",
-      "sources": [{ "label": "Vellingiri et al., 2020: cool roofs and indoor temperatures in Ahmedabad's informal settlements (PMC7227734)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7227734/" }] }] }
+    {
+      "id": "coolhousing",
+      "watch": [
+        {
+          "text": "In 16 Ahmedabad homes compared over one week, most roof treatments lowered daytime indoor heat, but one coating left rooms hotter than untreated roofs. Designs differ, and night-time effects were not measured.",
+          "sources": [
+            {
+              "label": "Vellingiri et al., 2020: cool roofs and indoor temperatures in Ahmedabad's informal settlements (PMC7227734)",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7227734/"
+            }
+          ]
+        }
+      ]
+    }
   ],
   "atRisk": [
-    { "id": "workers", "fact": "Among 352 salt pan workers in Tamil Nadu studied from 2017 to 2020, 7% had reduced kidney function on a single blood test.",
-      "source": { "label": "Kidney International Reports, 2023", "url": "https://www.kireports.org/article/S2468024923012664/pdf" } },
-    { "id": "women", "fact": "Personal sensors worn by 104 women in rural Tamil Nadu sometimes read more than 5 °C apart within the same hour.",
-      "source": { "label": "Deshpande et al., 2023 (PMC10785747)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10785747/" } },
-    { "id": "disability", "fact": "Among 272 people with chronic kidney disease at a Sri Lankan hospital in 2019, the median monthly cost of haemodialysis care was LKR 38,540, including income lost by patients and carers. The study did not look at heat.",
-      "source": { "label": "Rathnayake et al., BMC Health Services Research, 2026", "url": "https://link.springer.com/article/10.1186/s12913-026-15146-1" } }
+    {
+      "id": "women",
+      "fact": "Personal sensors worn by women aged 40 to 79 in rural Tamil Nadu sometimes read more than 5 °C apart within the same hour, possibly from cooking on solid fuels.",
+      "source": {
+        "label": "Deshpande et al., 2023 (PMC10785747)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10785747/"
+      }
+    },
+    {
+      "id": "disability",
+      "fact": "Among 272 people with chronic kidney disease at a Sri Lankan hospital in 2019, the median monthly cost of haemodialysis care was LKR 38,540, including income lost by patients and carers. The study did not look at heat.",
+      "source": {
+        "label": "Rathnayake et al., BMC Health Services Research, 2026",
+        "url": "https://link.springer.com/article/10.1186/s12913-026-15146-1"
+      }
+    }
   ],
   "questions": [
-    { "id": "q-kidney-persist", "loop": "clinic", "q": "Which repeated heat exposures lead to kidney harm that lasts beyond the hot season?", "have": "Single tests in Tamil Nadu and self-reports in Thailand raise the concern; persistent harm and other causes are hard to separate, and heat alone does not explain Sri Lanka's kidney disease of unknown cause.", "could": "Follow workers before, during and after the hot season, with personal exposure, drinking and repeat kidney tests at least three months apart.", "scale": "Illustrative: a few hundred workers over two hot seasons" },
-    { "id": "q-debt-duration", "loop": "debt", "q": "When does borrowing for treatment and lost income in a heatwave leave debt outstanding after the season?", "have": "Worker accounts from Dhaka describe borrowing; repayment over time is rarely tracked.", "could": "Keep monthly household accounts alongside illness records and local heat, with cooler months for comparison.", "scale": "Illustrative: a few hundred households over two years" },
-    { "id": "q-night-recovery", "loop": "sleep", "q": "Does a cooler night help people recover for the next day's work without adding costs they cannot afford?", "have": "Studies link heat with poorer sleep, and small roof comparisons measured daytime heat; the two have not been tested together in the region.", "could": "Try night cooling in a crossover design, measuring bedroom heat, sleep, next-day function and spending.", "scale": "Illustrative: a few hundred workers over six weeks" },
-    { "id": "q-care-time", "loop": "squeeze", "q": "How does heat shift unpaid care, housework and paid work done at home?", "have": "Surveys show heat getting in the way of housework and care competing with paid work, but little time accounting.", "could": "Collect time diaries from several household members in hot and cooler weeks, with indoor heat.", "scale": "Illustrative: two hundred households" },
-    { "id": "q-early-growth", "loop": "poverty", "q": "Does repeated heat at home affect babies' growth, once diet and infections are taken into account?", "have": "A study in Bangladesh was found but its full text could not be checked, so no effect is shown on the map.", "could": "Follow families from pregnancy into infancy with home heat, feeding, infections and measured growth.", "scale": "Illustrative: a few hundred families over two years" }
+    {
+      "id": "q-kidney-persist",
+      "loop": "clinic",
+      "q": "Which repeated heat exposures lead to kidney harm that lasts beyond the hot season?",
+      "have": "Single tests in Tamil Nadu and self-reports in Thailand raise the concern; persistent harm and other causes are hard to separate, and heat alone does not explain Sri Lanka's kidney disease of unknown cause.",
+      "could": "Follow workers before, during and after the hot season, with personal exposure, drinking and repeat kidney tests at least three months apart.",
+      "scale": "Illustrative: a few hundred workers over two hot seasons"
+    },
+    {
+      "id": "q-debt-duration",
+      "loop": "debt",
+      "q": "When does borrowing for treatment and lost income in a heatwave leave debt outstanding after the season?",
+      "have": "Worker accounts from Dhaka describe borrowing; repayment over time is rarely tracked.",
+      "could": "Keep monthly household accounts alongside illness records and local heat, with cooler months for comparison.",
+      "scale": "Illustrative: a few hundred households over two years"
+    },
+    {
+      "id": "q-night-recovery",
+      "loop": "sleep",
+      "q": "Does a cooler night help people recover for the next day's work without adding costs they cannot afford?",
+      "have": "Studies link heat with poorer sleep, and small roof comparisons measured daytime heat; the two have not been tested together in the region.",
+      "could": "Try night cooling in a crossover design, measuring bedroom heat, sleep, next-day function and spending.",
+      "scale": "Illustrative: a few hundred workers over six weeks"
+    },
+    {
+      "id": "q-care-time",
+      "loop": "squeeze",
+      "q": "How does heat shift unpaid care, housework and paid work done at home?",
+      "have": "Surveys show heat getting in the way of housework and care competing with paid work, but little time accounting.",
+      "could": "Collect time diaries from several household members in hot and cooler weeks, with indoor heat.",
+      "scale": "Illustrative: two hundred households"
+    },
+    {
+      "id": "q-early-growth",
+      "loop": "poverty",
+      "q": "Does repeated heat at home affect babies' growth, once diet and infections are taken into account?",
+      "have": "A study in Bangladesh was found but its full text could not be checked, so no effect is shown on the map.",
+      "could": "Follow families from pregnancy into infancy with home heat, feeding, infections and measured growth.",
+      "scale": "Illustrative: a few hundred families over two years"
+    }
   ],
   "evidence": [
-    { "title": "Impacts of heat on sleep quality among heat-exposed workers: a systematic review", "url": "https://www.aoemj.org/journal/view.php?doi=10.35371/aoem.2026.38.e3", "first_author": "Raja et al.", "venue": "Annals of Occupational and Environmental Medicine", "date": "2026",
-      "review": { "cycle": "sleep", "grade": "peer", "where": "Global, including Asian settings", "sample_size": "11 studies", "finding": "Across 11 studies, heat was linked to poorer sleep among people who work in it. This supports the heat and sleep part of the cycle; few studies follow heat built up over a season.", "limit": "Mostly cross-sectional studies with different measures, so the results were not pooled." } }
-  ]
+    {
+      "title": "Impacts of heat on sleep quality among heat-exposed workers: a systematic review",
+      "url": "https://www.aoemj.org/journal/view.php?doi=10.35371/aoem.2026.38.e3",
+      "first_author": "Raja et al.",
+      "venue": "Annals of Occupational and Environmental Medicine",
+      "date": "2026",
+      "review": {
+        "cycle": "sleep",
+        "grade": "peer",
+        "where": "Global, including Asian settings",
+        "sample_size": "11 studies",
+        "finding": "Across 11 studies, heat was linked to poorer sleep among people who work in it. This supports the heat and sleep part of the cycle; few studies follow heat built up over a season.",
+        "limit": "Mostly cross-sectional studies with different measures, so the results were not pooled."
+      }
+    }
+  ],
+  "confirmed": {
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10785747/": "sometimes by more than 5 °C within the same hour"
+  }
 }
