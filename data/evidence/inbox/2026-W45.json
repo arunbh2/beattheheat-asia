@@ -33,6 +33,22 @@
     "finding": "Across 11 studies, heat was linked to poorer sleep among people who work in it. This supports the heat and sleep part of the cycle; few studies follow heat built up over a season.",
     "limit": "Mostly cross-sectional studies with different measures, so the results were not pooled."
    }
+  },
+  {
+   "decision": "accept",
+   "title": "Ministry of Industry and Trade informs about power supply situation in hot season",
+   "url": "https://en.evn.com.vn/d6/news/Ministry-of-Industry-and-Trade-informs-about-power-supply-situation-in-hot-season-66-163-3527.aspx",
+   "first_author": "Vietnam Electricity",
+   "venue": "",
+   "date": "2023",
+   "review": {
+    "cycle": "energywater",
+    "grade": "official",
+    "where": "Northern Viet Nam",
+    "sample_size": "",
+    "finding": "In June 2023, heat pushed electricity demand up while low reservoirs cut the hydropower available. It shows the water to power part of the cycle during heat, not the whole loop.",
+    "limit": "The utility's own operational account; plant and transmission problems also contributed, and heat's share is not separated."
+   }
   }
  ]
 }

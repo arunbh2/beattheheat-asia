@@ -63,7 +63,7 @@
     "id": "glof",
     "sys": "nature",
     "label": "Glacial lake\noutburst floods",
-    "desc": "As glaciers retreat, meltwater pools behind loose rock and ice. When a bank gives way the lake can empty in hours. In October 2023 Sikkim’s South Lhonak lake burst after a frozen moraine collapsed into it; the flood breached the Teesta III dam, set off 45 landslides and cut the national highway. Climate change played a key role, and the lake can burst again.",
+    "desc": "As glaciers retreat, meltwater pools behind loose rock and ice. When a bank gives way the lake can empty in hours. In October 2023 Sikkim’s South Lhonak lake burst after a frozen moraine collapsed into it; the flood breached the Teesta III dam, set off 45 landslides and cut the national highway. Climate change played a key role, and the lake can burst again. Melting is one part among several: Pakistan's Shisper glacier dammed its own lake after a surge, and the 7 May 2022 outburst swept away the Hassanabad bridge.",
     "sources": [
       {
         "label": "ICIMOD, 2025: climate change played key role in the 2023 Sikkim lake outburst",
@@ -72,6 +72,10 @@
       {
         "label": "Sattar et al., Science, 2025: the Sikkim flood of October 2023",
         "url": "https://www.science.org/doi/10.1126/science.ads2659"
+      },
+      {
+        "label": "Lovell et al., Journal of Glaciology, 2024: ice-dammed lake formation and drainage at Shisper Glacier",
+        "url": "https://www.cambridge.org/core/journals/journal-of-glaciology/article/multiple-phases-of-icedammed-lake-formation-and-drainage-associated-with-a-surge-of-shisper-glacier-western-karakoram/EC032F0636796DB506AD584FA7E3961A"
       }
     ]
   },
@@ -127,7 +131,7 @@
     "id": "harvests",
     "sys": "food",
     "label": "Failing\nharvests",
-    "desc": "Heat during flowering and grain-filling cuts yields of staple crops, even when there is enough rain. Smallholders farming on rain alone, with no irrigation or savings to fall back on, are hit first.",
+    "desc": "Heat during flowering and grain-filling cuts yields of staple crops, even when there is enough rain. Smallholders farming on rain alone, with no irrigation or savings to fall back on, are hit first. Shocks can come one after another: in Pakistan in 2022, flood crop losses added to food pressures left by the summer's heat, though the heat did not cause the floods.",
     "sources": [
       {
         "label": "Lobell, Sibley and Ortiz-Monasterio, Nature Climate Change, 2012 (wheat in India)",
@@ -136,6 +140,10 @@
       {
         "label": "Peng et al., PNAS, 2004 (rice in the Philippines)",
         "url": "https://doi.org/10.1073/pnas.0403720101"
+      },
+      {
+        "label": "World Weather Attribution, 2022: extreme monsoon rainfall and flooding in Pakistan",
+        "url": "https://www.worldweatherattribution.org/climate-change-likely-increased-extreme-monsoon-rainfall-flooding-highly-vulnerable-communities-in-pakistan/"
       }
     ]
   },
@@ -251,11 +259,15 @@
     "id": "scarcity",
     "sys": "water",
     "label": "Water\nshortages",
-    "desc": "Taps run dry and wells fall just as people, crops and animals need more water to cope with the heat.",
+    "desc": "Taps run dry and wells fall just as people, crops and animals need more water to cope with the heat. Drought and salt water can leave water unusable as well as scarce: in April 2024, UNICEF estimated 73,900 households in the Mekong Delta short of water, with women and girls carrying most of the extra fetching.",
     "sources": [
       {
         "label": "World Resources Institute: Day Zero lessons from Cape Town and Chennai",
         "url": "https://www.wri.org/insights/responding-day-zero-equitably-water-crisis-lessons-cape-town-and-chennai"
+      },
+      {
+        "label": "UNICEF Viet Nam Humanitarian Situation Report No. 1, 27 April 2024 (drought)",
+        "url": "https://www.unicef.org/media/156076/file/Viet_Nam_Humanitarian_Situation_Report_No._01_%28drought%29_reporting_period__-27_April_2024.pdf"
       }
     ]
   },
@@ -368,11 +380,15 @@
     "id": "power",
     "sys": "energy",
     "label": "Power cuts and\ngrid stress",
-    "desc": "Peak demand and heat-stressed lines and transformers push grids to the edge. Outages switch off cooling when it matters most.",
+    "desc": "Peak demand and heat-stressed lines and transformers push grids to the edge. Outages switch off cooling when it matters most. Heat and low water can strike the grid together: in northern Viet Nam in June 2023, heat drove demand up while low reservoirs left only 23.7% of hydropower capacity available, with plant and transmission problems adding to the strain.",
     "sources": [
       {
         "label": "World Bank estimate, reported by AFP via The Manila Times, 2023: Vietnam’s heat-driven power crisis",
         "url": "https://manilatimes.net/2023/08/12/business/foreign-business/power-crisis-cost-vietnam-14b-wb/1904920/amp"
+      },
+      {
+        "label": "Vietnam Electricity, 7 June 2023: power supply in the hot season",
+        "url": "https://en.evn.com.vn/d6/news/Ministry-of-Industry-and-Trade-informs-about-power-supply-situation-in-hot-season-66-163-3527.aspx"
       }
     ]
   },
@@ -588,11 +604,15 @@
     "id": "deaths",
     "sys": "health",
     "label": "Heat deaths",
-    "desc": "Extreme heat kills, often quietly, through failing hearts, kidneys and lungs. Europe’s 2003 heatwave alone is estimated to have caused more than 70,000 deaths.",
+    "desc": "Extreme heat kills, often quietly, through failing hearts, kidneys and lungs. Europe’s 2003 heatwave alone is estimated to have caused more than 70,000 deaths. In Thailand, the link between air pollution and deaths was stronger on the hottest days, across 34 provinces; whether this holds elsewhere is not yet known.",
     "sources": [
       {
         "label": "Robine et al., Comptes Rendus Biologies, 2008: death toll exceeded 70,000 in Europe in summer 2003",
         "url": "https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2007.12.001/"
+      },
+      {
+        "label": "Phosri et al., International Journal of Biometeorology, 2025: air pollution, temperature and mortality in Thailand",
+        "url": "https://link.springer.com/article/10.1007/s00484-025-02913-8"
       }
     ]
   },
@@ -796,7 +816,7 @@
     "id": "hsys",
     "sys": "health",
     "label": "Health systems\noverwhelmed",
-    "desc": "Heatwaves bring surges of patients just as staff, power and supplies are under strain. In Bangladesh, people with disabilities described heat making travel, communication and reaching care harder, and many relied on family to get help.",
+    "desc": "Heatwaves bring surges of patients just as staff, power and supplies are under strain. In Bangladesh, people with disabilities described heat making travel, communication and reaching care harder, and many relied on family to get help. During an outbreak, protective clothing adds heat: health workers in southern India and Singapore reported heat symptoms while wearing it in 2020.",
     "sources": [
       {
         "label": "Context, 2024: India’s hospitals adapt to killer heat",
@@ -805,6 +825,10 @@
       {
         "label": "Interviews with people with disabilities in three Bangladesh locations, International Journal of Disaster Risk Science, 2026",
         "url": "https://link.springer.com/article/10.1007/s13753-026-00778-y"
+      },
+      {
+        "label": "Lee et al., 2020: heat stress among health workers in India and Singapore during COVID-19",
+        "url": "https://heathealth.info/wp-content/uploads/Lee-et-al.-2020-Heat-Stress-and-Thermal-Perception-amongst-Healthcare-Workers-during-the-COVID-19-Pandemic-in-India-and-Singapore.pdf"
       }
     ]
   },
@@ -956,11 +980,15 @@
     "id": "schoolclose",
     "sys": "education",
     "label": "Schools close\nin heatwaves",
-    "desc": "When classrooms become dangerous, schools shut, sometimes for weeks.",
+    "desc": "When classrooms become dangerous, schools shut, sometimes for weeks. Disasters and heat can close the same classrooms: in Cox's Bazar in 2024, storms damaged 434 learning facilities, and heat closed centres separately.",
     "sources": [
       {
         "label": "UNICEF, 2025: Learning interrupted",
         "url": "https://www.unicef.org/reports/learning-interrupted-global-snapshot-2024"
+      },
+      {
+        "label": "UNICEF Bangladesh, 2025: rebuilding education for climate and disaster resilience in Cox's Bazar",
+        "url": "https://www.unicef.org/bangladesh/en/stories/rebuilding-education-climate-and-disaster-resilience-coxs-bazar"
       }
     ]
   },
