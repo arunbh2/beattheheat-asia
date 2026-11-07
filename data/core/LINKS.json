@@ -252,5 +252,12 @@
   ["mental","suicide","Distress that goes without support can end in self-harm."],
   ["homes","gbv","Crowded, hot homes may raise tension inside them."],
   ["informal","womenwater","Many women’s workplaces have no safe toilets."],
-  ["womenwater","kidney","Dehydration at work strains the kidneys."]
+  ["womenwater","kidney","Dehydration at work strains the kidneys."],
+  ["power","homes","When the power fails, fans stop and a hot home has no way to cool down."],
+  [
+    "energypoverty",
+    "homes",
+    "Without affordable cooling or backup power, a household has fewer ways to bring indoor heat down."
+  ],
+  ["care","hsys","Without someone to help, reaching medicines and care during a heatwave becomes harder."]
 ]

@@ -280,7 +280,7 @@ Source: International Energy Agency: The Future of Cooling in Southeast Asia htt
 
 Peak demand and heat-stressed lines and transformers push grids to the edge. Outages switch off cooling when it matters most.
 
-Leads to: Diesel generators run longer (Outages drive those who can afford it to diesel.); Cold chains break (Without power, fridges for food and vaccines fail.); Health systems overwhelmed (Hospitals and clinics lose cooling and equipment when the power fails.); Water shortages (Without power, pumps and treatment plants stop.); Phone and data networks fail (Phone masts and networks fail when the power does.); Small businesses close (Shops and workshops lose power and stock.)
+Leads to: Diesel generators run longer (Outages drive those who can afford it to diesel.); Cold chains break (Without power, fridges for food and vaccines fail.); Health systems overwhelmed (Hospitals and clinics lose cooling and equipment when the power fails.); Water shortages (Without power, pumps and treatment plants stop.); Phone and data networks fail (Phone masts and networks fail when the power does.); Small businesses close (Shops and workshops lose power and stock.); Homes that trap heat (When the power fails, fans stop and a hot home has no way to cool down.)
 
 Source: World Bank estimate, reported by AFP via The Manila Times, 2023: Vietnam’s heat-driven power crisis https://manilatimes.net/2023/08/12/business/foreign-business/power-crisis-cost-vietnam-14b-wb/1904920/amp
 
@@ -320,7 +320,7 @@ Source: International Energy Agency, 2018: The Future of Cooling https://www.iea
 
 For the poorest households, fans, cooling and electricity bills are out of reach.
 
-Leads to: Heatstroke and heat exhaustion (With no way to cool down at home, heat builds up in the body.)
+Leads to: Heatstroke and heat exhaustion (With no way to cool down at home, heat builds up in the body.); Homes that trap heat (Without affordable cooling or backup power, a household has fewer ways to bring indoor heat down.)
 
 Source: Sustainable Energy for All, 2023: Chilling Prospects https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-global-access-to-cooling-gaps-2023
 
@@ -484,11 +484,13 @@ Source: WHO, UNICEF and UNFPA, 2023: Protecting maternal, newborn and child heal
 
 #### Diarrhoea in young children
 
-Warmth lets bacteria multiply in water and food. Across 26 studies, each 1 °C rise in temperature was linked to about 7% more diarrhoea, a leading cause of death in young children. Repeated bouts leave children undernourished.
+Warmth lets bacteria multiply in water and food. Across 26 studies, each 1 °C rise in temperature was linked to about 7% more diarrhoea, a leading cause of death in young children. Repeated bouts leave children undernourished. In Dhaka, hospital records from 1981 to 2010 show diarrhoea admissions among children under 5 rising by 13.9% on heatwave days; the size of the link depends on how a heatwave is defined.
 
 Leads to: Babies and young children at risk (Repeated diarrhoea leaves young children undernourished and weak.); Health systems overwhelmed (Sick children fill clinics in the hot months.)
 
 Source: Carlton et al., International Journal of Epidemiology, 2016: temperature and diarrhoeal disease, 26 studies https://pubmed.ncbi.nlm.nih.gov/26567313/
+
+Source: Dhaka hospital records, PLOS Global Public Health, 2024: heatwaves and diarrhoea admissions in children under 5 https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0003629
 
 #### Mental health suffers
 
@@ -510,11 +512,13 @@ Source: Carleton, PNAS, 2017: crop-damaging temperatures increase suicide rates 
 
 #### Sleepless hot nights
 
-When nights stay hot, the body has less chance to recover from the day, so the next day can start already depleted.
+When nights stay hot, the body has less chance to recover from the day, so the next day can start already depleted. Migrant workers in Singapore linked hot, crowded dormitories with poor sleep and tiredness on the next shift.
 
 Leads to: Mental health suffers (Poor sleep wears down mood and the ability to cope.); Heatstroke and heat exhaustion (Without cool nights, the body starts each day already overheated.)
 
 Source: Minor et al., One Earth, 2022: rising temperatures erode human sleep https://orbit.dtu.dk/en/publications/rising-temperatures-erode-human-sleep-globally/
+
+Source: Migrant workers in Singapore, 2023 (PMC10329802) https://pmc.ncbi.nlm.nih.gov/articles/PMC10329802/
 
 #### Infectious diseases spread
 
@@ -542,11 +546,13 @@ Source: A counterpoint: no loss of executive function or risk-taking at modest h
 
 #### Health systems overwhelmed
 
-Heatwaves bring surges of patients just as staff, power and supplies are under strain.
+Heatwaves bring surges of patients just as staff, power and supplies are under strain. In Bangladesh, people with disabilities described heat making travel, communication and reaching care harder, and many relied on family to get help.
 
 Leads to: Heatstroke and heat exhaustion (Overstretched services treat people later, and heat illness turns severe fast.)
 
 Source: Context, 2024: India’s hospitals adapt to killer heat https://www.context.news/climate-risks/ice-baths-and-ventilators-indias-hospitals-adapt-to-killer-heat
+
+Source: Interviews with people with disabilities in three Bangladesh locations, International Journal of Disaster Risk Science, 2026 https://link.springer.com/article/10.1007/s13753-026-00778-y
 
 ### Work and economy
 
@@ -694,11 +700,13 @@ Source: Frontiers in Built Environment, 2022: Ahmedabad https://www.frontiersin.
 
 #### Care burden falls on women and girls
 
-When people fall ill, schools close or water runs short, the extra caring and fetching usually falls on women and girls. In India, women already lose about 19% of their paid working hours to heat.
+When people fall ill, schools close or water runs short, the extra caring and fetching usually falls on women and girls. In India, women already lose about 19% of their paid working hours to heat. In Chiang Rai, Thailand, older people and their families described leaning on family help to keep daily routines going in hot weather; the study also covered cold and air pollution.
 
-Leads to: Deepening inequality (Unpaid care pulls women and girls out of paid work and school.)
+Leads to: Deepening inequality (Unpaid care pulls women and girls out of paid work and school.); Health systems overwhelmed (Without someone to help, reaching medicines and care during a heatwave becomes harder.)
 
 Source: Climate Resilience for All, 2023, reported by Scientific American: women bear greater burdens from extreme heat https://www.scientificamerican.com/article/women-experience-greater-burdens-from-extreme-heat
+
+Source: Older people and family members in Chiang Rai, Thailand, 2023 (PubMed 37372754) https://pubmed.ncbi.nlm.nih.gov/37372754/
 
 #### Older people isolated at home
 
@@ -1734,6 +1742,8 @@ Safe drinking water, handwashing and oral rehydration salts in place before the 
 
 Cuts the link: Sanitation and hygiene fail → Diarrhoea in young children. Who can act: Water authorities, Health authorities, Community and civil society groups.
 
+In practice: In 2024, Bangladesh's Directorate General of Health Services launched national guidance to protect children and pregnant women from heat, built with UNICEF.
+
 ## Who extreme heat hits hardest
 
 The same heatwave lands differently. Who is harmed depends on how exposed people are and what stands between them and safety.
@@ -1838,6 +1848,10 @@ In Tamil Nadu, among 800 pregnant women doing moderate to heavy physical work, t
 
 Across 26 studies, each 1 °C rise in temperature was linked to about 7% more diarrhoea, a leading cause of death in young children. (Carlton et al., International Journal of Epidemiology, 2016: temperature and diarrhoeal disease, 26 studies, https://pubmed.ncbi.nlm.nih.gov/26567313/)
 
+In Dhaka, diarrhoea admissions among children under 5 rose by 13.9% on heatwave days, in hospital records from 1981 to 2010. (PLOS Global Public Health, 2024, https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0003629)
+
+Among 800 pregnant women doing physical work in Tamil Nadu, 47.3% had high heat exposure at work. (Rekha et al., BJOG, 2023 (PubMed 37814395), https://pubmed.ncbi.nlm.nih.gov/37814395/)
+
 What helps: Heat-ready health services, Heat action plans, Free care for heat illness, Social protection floors, Heat-safe pregnancy and newborn care, Safe water and rehydration for young children
 
 ### Older people
@@ -1848,6 +1862,8 @@ Held back by: Living alone, limited mobility, and warnings and help that rely on
 
 Older people in a Kolkata informal settlement were 4.3 times more likely than older people in a nearby village to face dangerous heat, with a heat index of 45 °C or more, because their homes stayed hotter than the outdoors, especially at night. (Weitz, Mukhopadhyay and Das, International Journal of Biometeorology, 2022, https://pubmed.ncbi.nlm.nih.gov/35359160/)
 
+In Chiang Rai, older people and their families described changing daily routines to cope with heat, and the help families give to keep them going. (Chiang Rai study, 2023 (PubMed 37372754), https://pubmed.ncbi.nlm.nih.gov/37372754/)
+
 What helps: Cooling centres and check-ins, Heat action plans, Affordable cooling for the poorest, Count every heat death
 
 ### People with disabilities or long-term illness
@@ -1857,6 +1873,8 @@ Exposed to: Some conditions and common medicines, such as diuretics, interfere w
 Held back by: Warnings in formats they can’t use, cooling centres they can’t reach, and heat plans that rarely name their needs.
 
 Heat can worsen underlying illness, including heart disease, diabetes, asthma and mental health conditions. (WHO, 2026: Heat and health, fact sheet, https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health)
+
+In interviews across three Bangladesh locations in 2025, people with disabilities described heat making it harder to move about and to get care, and leaning on family for help. (International Journal of Disaster Risk Science, 2026, https://link.springer.com/article/10.1007/s13753-026-00778-y)
 
 What helps: Heat action plans, Cooling centres and check-ins, Heat-ready health services, Free care for heat illness, Mental health in heat plans
 

@@ -808,6 +808,13 @@
     "who": ["water","health","community"],
     "when": "season",
     "measure": "Clean water, handwashing and oral rehydration ready before the hot months",
-    "text": "Safe drinking water, handwashing and oral rehydration salts in place before the hot months, carried to families by clinics and community health workers."
+    "text": "Safe drinking water, handwashing and oral rehydration salts in place before the hot months, carried to families by clinics and community health workers.",
+    "example": "In 2024, Bangladesh's Directorate General of Health Services launched national guidance to protect children and pregnant women from heat, built with UNICEF.",
+    "exampleSources": [
+      {
+        "label": "UNICEF, 2024: new guidelines launched to protect children and pregnant women from heat in Bangladesh",
+        "url": "https://www.unicef.org/press-releases/new-guidelines-launched-protect-children-and-pregnant-women-heat-stress-bangladesh"
+      }
+    ]
   }
 ]
