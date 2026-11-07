@@ -50,5 +50,5 @@ data/core/ORGANISATIONS.json, if any), `sources`.
 ## Situations (the finder's tags)
 
 Derived in `convert.js` from a scheme's type and words, as a reader's situation, never an eligibility rule:
-`work` lost work or earnings · `health` illness or hospital costs · `older` older age · `disability` · `farm` crop or
-livestock loss · `moved` moved for work · `food` · `disaster` after a disaster · `income` income support.
+`work` lost work or earnings · `health` illness or hospital costs · `older` older age · `disability` · `farm` farming or
+fishing · `moved` moved for work · `food` · `disaster` after a disaster · `income` income support.

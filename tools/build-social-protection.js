@@ -16,7 +16,7 @@ module.exports = function socialProtection({ page, write, esc, hero, V, D }) {
 
   const scheme = (s, c) => `<li class="sp-scheme" data-country="${c.id}" data-situations="${s.situations.join(" ")}" data-shock="${s.shock_responsive}" data-portable="${s.portable}">
       <details><summary><span class="sp-scheme__name">${esc(s.name)}</span><span class="sp-scheme__by">${esc(s.run_by)}</span>
-        <span class="sp-tags"><span class="sp-tag">${esc(T.TYPE[s.type] || s.type)}</span><span class="sp-tag sp-tag--${s.status}">${esc(T.STATUS[s.status])}, as of ${esc(T.date(s.status_as_of))}</span>${s.situations.map(k => `<span class="sp-tag sp-tag--soft">${esc(sit[k])}</span>`).join("")}</span></summary>
+        <span class="sp-tags"><span class="sp-tag">${esc(T.TYPE[s.type] || s.type)}</span><span class="sp-tag sp-tag--${s.status}">${esc(T.STATUS[s.status])}, as of ${esc(T.date(s.status_as_of))}</span>${s.situations.filter(k => sit[k] !== T.TYPE[s.type]).map(k => `<span class="sp-tag sp-tag--soft">${esc(sit[k])}</span>`).join("")}</span></summary>
         <dl class="sp-dl">
           <dt>Who is eligible</dt><dd>${val(s.who)}</dd><dt>What it gives</dt><dd>${val(s.gives)}</dd>
           <dt>How it is delivered</dt><dd>${val(s.delivery)}</dd><dt>Documents</dt><dd>${val(s.documents)}</dd>
@@ -25,7 +25,8 @@ module.exports = function socialProtection({ page, write, esc, hero, V, D }) {
           <dt>How sure</dt><dd>${esc(T.GRADE[s.grade])}. ${esc(s.level === "state" ? "A state scheme; rules differ by state." : "A national scheme; local delivery can differ.")}</dd>
         </dl>${srcs(s.sources)}</details></li>`;
 
-  const country = (f, inner) => `<section class="sp-country" id="${esc(f.country.slug)}-${inner.key}" aria-labelledby="${esc(f.country.slug)}-${inner.key}-h">
+  const LABEL = { schemes: "Schemes in ", ladder: "Steps of access in ", routes: "Delivery routes in ", gaps: "Gaps in ", maps: "What a map could show for ", questions: "Open questions for " };
+  const country = (f, inner) => `<section class="sp-country" id="${esc(f.country.slug)}-${inner.key}" aria-label="${esc(LABEL[inner.key] + f.country.name)}">
       <h3 id="${esc(f.country.slug)}-${inner.key}-h" class="sp-country__h">${esc(f.country.name)}</h3>${inner.html}</section>`;
   const per = (key, fn) => SP.map(f => country(f, { key, html: fn(f) })).join("");
 

@@ -210,6 +210,28 @@
     "text": "Public support such as pensions, cash transfers and unemployment benefits that keeps households out of poverty when income stops."
   },
   {
+    "id": "shockresponsive",
+    "group": "money",
+    "term": "Shock-responsive social protection",
+    "match": "shock-responsive social protection",
+    "text": "Public support that can grow or reach more people when a shock such as a heatwave or flood arrives, often by paying early through an existing scheme's list of recipients.",
+    "source": {
+      "label": "Anticipation Hub: shock-responsive social protection simulation for anticipatory action in Rajshahi city, Bangladesh",
+      "url": "https://www.anticipation-hub.org/Documents/Reports/0_RCCC_SRSP_simulation_Rajshahi_Advocacy_brief_V3.pdf"
+    }
+  },
+  {
+    "id": "lastmilegap",
+    "group": "money",
+    "term": "Last-mile access gap",
+    "match": "last-mile access gap",
+    "text": "The distance between a scheme on paper and support in hand: people who qualify but do not know about it, lack the documents or cannot complete the steps.",
+    "source": {
+      "label": "Save the Children, 2026: ensuring access to social security allowances in Nepal, guidance for local governments",
+      "url": "https://resourcecentre.savethechildren.net/document/ensuring-access-to-social-security-allowances-in-nepal-guidance-for-local-governments-on-developing-and-implementing-a-standard-operating-procedure"
+    }
+  },
+  {
     "id": "passivecooling",
     "group": "cooling",
     "term": "Passive cooling",

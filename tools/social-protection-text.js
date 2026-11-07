@@ -3,7 +3,7 @@
 "use strict";
 const TITLE = "Who could help a household through a hot season", SLUG = "social-protection";
 const SITUATIONS = [["work", "Lost work or earnings"], ["health", "Illness or hospital costs"], ["older", "Older age"], ["disability", "Disability"],
-  ["farm", "Crop or livestock loss"], ["moved", "Moved for work"], ["food", "Food"], ["disaster", "After a disaster"], ["income", "Income support"]];
+  ["farm", "Farming or fishing"], ["moved", "Moved for work"], ["food", "Food"], ["disaster", "After a disaster"], ["income", "Income support"]];
 const STEPS = [["aware", "Aware"], ["eligible", "Eligible"], ["documented", "Documented"], ["applied", "Applied"], ["enrolled", "Enrolled"],
   ["received", "Received"], ["adequate", "Adequate"], ["on time", "On time"]];
 const STATUS = { current: "Current", changed: "Changed recently", closed: "Closed", unclear: "Status unclear" };

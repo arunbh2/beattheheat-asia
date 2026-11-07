@@ -30,13 +30,13 @@ const ENUM4 = v => ["yes", "partly", "no", "unknown"].includes(String(v).toLower
 // the finder's situations, from a scheme's type and words (a reader's situation, never an eligibility rule)
 function situations(s) {
   const w = `${s.name} ${s.who} ${s.gives} ${s.heat_relevance}`.toLowerCase(), t = s.type, out = new Set();
-  if (["public-works", "welfare-fund", "livelihood"].includes(t) || /\b(wage employment|lost (work|wages|earnings)|unemploy|work injury|employment injury|workers?'? compensation)/.test(w)) out.add("work");
+  if (["public-works", "welfare-fund"].includes(t) || /\b(wage employment|lost (work|wages|earnings)|unemploy|work injury|employment injury|workers?'? compensation)/.test(w)) out.add("work");
   if (t === "health" || /\b(hospital|health|medical|treatment|clinic|care)\b/.test(w) && t === "insurance") out.add("health");
   if (/\b(old.age|older (people|persons|adults)|elderly|senior|aged? (6\d|7\d)|(6\d|7\d) (years|and over|or older|and above))/.test(w)) out.add("older");
   if (/disab/.test(w)) out.add("disability");
   if (/\b(crop|farm|farmer|agricultur|livestock|harvest|fisher)/.test(w)) out.add("farm");
   if (["yes", "partly"].includes(ENUM4(s.portable)) || /migrant|moves? for work|inter-state|portab/.test(w)) out.add("moved");
-  if (t === "food" || /\b(food|ration|rice|grain)\b/.test(w)) out.add("food");
+  if (t === "food" || /(?<!-)\b(food|ration|rice|grain)\b/.test(w)) out.add("food");
   if (t === "relief" || /disaster|calamit|emergenc/.test(w)) out.add("disaster");
   if (!out.size || (["cash", "pension", "insurance", "credit"].includes(t) && !out.has("health") && !out.has("farm"))) out.add("income");
   return [...out];

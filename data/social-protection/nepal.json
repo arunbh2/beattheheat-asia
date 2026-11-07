@@ -1,0 +1,859 @@
+{
+ "country": {
+  "id": "np",
+  "slug": "nepal",
+  "name": "Nepal",
+  "as_of": "2026-11-06",
+  "checked": "2026-11-07",
+  "unit_note": "The requested schema uses state for the first administrative level. Here it means province; it is not a claim that the country uses states.",
+  "summary": [
+   {
+    "text": "UNCERTAIN current rule: official allowance pages and an agency budget brief differ on the general old-age threshold. The child allowance also has a budget-announced change whose receipt was not verified.",
+    "sources": [
+     {
+      "label": "Department of National ID and Civil Registration: प्राय सोधिने प्रश्नहरु : सामाजिक सुरक्षा",
+      "url": "https://www.donidcr.gov.np/pages/mostly-asked-questions--social-security-4/"
+     },
+     {
+      "label": "Department of National ID and Civil Registration: Social Security Allowance Rate",
+      "url": "https://donidcr.gov.np/pages/social-security-allowance-rate/"
+     },
+     {
+      "label": "UNICEF Nepal, 2026: Nepal Federal Budget Brief: Fiscal Year 2026/27 (2083/84 B.S.)",
+      "url": "https://www.unicef.org/nepal/media/31216/file/Federal%20Budget%20Brief-2026_UNICEF_Web%20Version.pdf.pdf"
+     }
+    ]
+   },
+   {
+    "text": "KNOWN plan: a November 2025 urban heatwave protocol identifies cash and delivery routes. No completed causal heat-transfer outcome evaluation was verified in this search.",
+    "sources": [
+     {
+      "label": "International Federation of Red Cross and Red Crescent Societies / Nepal Red Cross Society, 2025: Simplified Early Action Protocol: Nepal | Urban Heatwave",
+      "url": "https://go-api.ifrc.org/api/downloadfile/93851/sEAP2025NP02_MDRNP020"
+     }
+    ]
+   },
+   {
+    "text": "Evidence is thin on heat-related paid claims, informal-worker wage replacement, migrant access and household debt or asset recovery. Flood cash evidence offers a study design, rather than a demonstrated heat effect.",
+    "sources": [
+     {
+      "label": "Social Security Fund: अनौपचारिक क्षेत्र सामाजिक सुरक्षा योजना",
+      "url": "https://www.ssf.gov.np/list/operating-schemes/informal-sector-scheme"
+     },
+     {
+      "label": "International Federation of Red Cross and Red Crescent Societies / Nepal Red Cross Society, 2025: Simplified Early Action Protocol: Nepal | Urban Heatwave",
+      "url": "https://go-api.ifrc.org/api/downloadfile/93851/sEAP2025NP02_MDRNP020"
+     },
+     {
+      "label": "Christian et al., 2025: Fast Action for Floods: RCT Evidence on Forecast-based Cash Transfers from Bangladesh and Nepal",
+      "url": "https://bfi.uchicago.edu/wp-content/uploads/2025/11/BFI_WP_2025-140.pdf"
+     }
+    ]
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Migrant continuity: the allowance FAQ provides an administrative transfer route after a documented move; that is different from seamless access for seasonal workers away from permanent residence.",
+    "sources": [
+     {
+      "label": "Department of National ID and Civil Registration: प्राय सोधिने प्रश्नहरु : सामाजिक सुरक्षा",
+      "url": "https://www.donidcr.gov.np/pages/mostly-asked-questions--social-security-4/"
+     }
+    ]
+   },
+   {
+    "text": "Agricultural heat loss: premium support was described, but current heat-loss definitions, claims timelines and tenant-farmer access were not verified.",
+    "sources": [
+     {
+      "label": "Ministry of Finance / United Nations Development Programme, 2026: Integrated National Financing Framework Financing Strategy for Pro-Employment Economic Growth of Nepal with Action Plan",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-02/final_web_version_infs_9_feb_2026_0.pdf"
+     }
+    ]
+   },
+   {
+    "text": "Heat anticipatory cash: the urban protocol concerns selected places and planned households; it does not establish a standing nationwide public payment.",
+    "sources": [
+     {
+      "label": "International Federation of Red Cross and Red Crescent Societies / Nepal Red Cross Society, 2025: Simplified Early Action Protocol: Nepal | Urban Heatwave",
+      "url": "https://go-api.ifrc.org/api/downloadfile/93851/sEAP2025NP02_MDRNP020"
+     }
+    ]
+   },
+   {
+    "text": "Debt and asset recovery after heat: no completed heat social-protection impact evaluation was read. Statistically non-significant later flood outcomes are not a heat null result.",
+    "sources": [
+     {
+      "label": "Christian et al., 2025: Fast Action for Floods: RCT Evidence on Forecast-based Cash Transfers from Bangladesh and Nepal",
+      "url": "https://bfi.uchicago.edu/wp-content/uploads/2025/11/BFI_WP_2025-140.pdf"
+     }
+    ]
+   }
+  ],
+  "map": {
+   "rows": [],
+   "misreadings": []
+  },
+  "questions": [
+   {
+    "id": "np-heatcash",
+    "q": "Does pre-heat cash reduce lost earnings and medical spending for outdoor-worker households?",
+    "have": "An urban heat protocol exists without a completed impact evaluation in the sources read. [N12]",
+    "could": "Randomised or pre-specified phased delivery across comparable neighbourhoods, recording timing, income, care and coping costs in aggregate.",
+    "scale": "Illustrative design: 40-60 clusters over two hot seasons; power calculation before final sampling."
+   },
+   {
+    "id": "np-ssfaccess",
+    "q": "Which step limits qualifying SSF access among informal workers?",
+    "have": "Pre-launch awareness data and later registration reports describe different periods. [N7, N8]",
+    "could": "Follow a representative cohort from information through contribution qualification and benefit receipt, with anonymised aggregate reporting.",
+    "scale": "Illustrative design: 1,500-2,000 workers across several municipalities."
+   },
+   {
+    "id": "np-heatclaims",
+    "q": "How often does public insurance meet the full cost of heat-related care?",
+    "have": "Enrolment is measured; current heat-specific claims and complete costs are not. [N4, N5, N22]",
+    "could": "Prospective facility and household cost study with diagnosed heat cases, matched service records under consent, and published aggregate results only.",
+    "scale": "Illustrative design: 10-15 facilities across a hot season; case-volume check before sizing."
+   },
+   {
+    "id": "np-seasonalmigration",
+    "q": "Does a supported transfer process reduce allowance interruption after migration?",
+    "have": "A documented allowance transfer route exists; actual seasonal continuity was not measured. [N1]",
+    "could": "Phased assistance through wards, comparing aggregate transfer completion, payment interruption and travel cost.",
+    "scale": "Illustrative design: 20-30 ward pairs over one renewal and payment cycle."
+   }
+  ]
+ },
+ "schemes": [
+  {
+   "id": "np-oldage",
+   "level": "national",
+   "name": "Social Security Allowance: general older citizens",
+   "type": "pension",
+   "run_by": "Government of Nepal / local governments",
+   "who": null,
+   "gives": null,
+   "delivery": "Ward registration and bank payment.",
+   "documents": "Citizenship and application; current age and identity requirements need reconciliation.",
+   "portable": "partly",
+   "speed": "FAQ: eligibility starts the month after verification and system entry; observed bank-payment delay unknown.",
+   "shock_responsive": "no",
+   "heat_relevance": "INFERRED: regular cash can support hot-season consumption; no automatic heat top-up was verified.",
+   "status": "unclear",
+   "status_as_of": "2026-11-06",
+   "grade": "UNCERTAIN",
+   "situations": [
+    "moved",
+    "income"
+   ],
+   "sources": [
+    {
+     "label": "Department of National ID and Civil Registration: प्राय सोधिने प्रश्नहरु : सामाजिक सुरक्षा",
+     "url": "https://www.donidcr.gov.np/pages/mostly-asked-questions--social-security-4/"
+    },
+    {
+     "label": "Department of National ID and Civil Registration: Social Security Allowance Rate",
+     "url": "https://donidcr.gov.np/pages/social-security-allowance-rate/"
+    }
+   ]
+  },
+  {
+   "id": "np-specifiedoldage",
+   "level": "national",
+   "name": "Social Security Allowance: Dalit and specified-area older citizens",
+   "type": "pension",
+   "run_by": "Government of Nepal / local governments",
+   "who": null,
+   "gives": null,
+   "delivery": "Ward registration and bank payment.",
+   "documents": "Citizenship and application; category verification applies.",
+   "portable": "partly",
+   "speed": "FAQ: eligibility starts the month after verification and system entry; observed bank-payment delay unknown.",
+   "shock_responsive": "no",
+   "heat_relevance": "INFERRED: regular cash can support hot-season consumption; no automatic heat top-up was verified.",
+   "status": "current",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "older",
+    "moved",
+    "income"
+   ],
+   "sources": [
+    {
+     "label": "Department of National ID and Civil Registration: प्राय सोधिने प्रश्नहरु : सामाजिक सुरक्षा",
+     "url": "https://www.donidcr.gov.np/pages/mostly-asked-questions--social-security-4/"
+    },
+    {
+     "label": "Department of National ID and Civil Registration: Social Security Allowance Rate",
+     "url": "https://donidcr.gov.np/pages/social-security-allowance-rate/"
+    }
+   ]
+  },
+  {
+   "id": "np-singlewomen",
+   "level": "national",
+   "name": "Social Security Allowance: single women",
+   "type": "cash",
+   "run_by": "Government of Nepal / local governments",
+   "who": null,
+   "gives": null,
+   "delivery": "Ward registration and bank payment.",
+   "documents": "Citizenship and relevant marital-status evidence.",
+   "portable": "partly",
+   "speed": "FAQ: eligibility starts the month after verification and system entry; observed bank-payment delay unknown.",
+   "shock_responsive": "no",
+   "heat_relevance": "INFERRED: regular cash can support hot-season consumption; no automatic heat top-up was verified.",
+   "status": "current",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "older",
+    "moved",
+    "income"
+   ],
+   "sources": [
+    {
+     "label": "Department of National ID and Civil Registration: प्राय सोधिने प्रश्नहरु : सामाजिक सुरक्षा",
+     "url": "https://www.donidcr.gov.np/pages/mostly-asked-questions--social-security-4/"
+    },
+    {
+     "label": "Department of National ID and Civil Registration: Social Security Allowance Rate",
+     "url": "https://donidcr.gov.np/pages/social-security-allowance-rate/"
+    }
+   ]
+  },
+  {
+   "id": "np-widows",
+   "level": "national",
+   "name": "Social Security Allowance: widows",
+   "type": "cash",
+   "run_by": "Government of Nepal / local governments",
+   "who": "Widowed women; FAQ has no age minimum for this category.",
+   "gives": null,
+   "delivery": "Ward registration and bank payment.",
+   "documents": "Citizenship and spouse death registration.",
+   "portable": "partly",
+   "speed": "FAQ: eligibility starts the month after verification and system entry; observed bank-payment delay unknown.",
+   "shock_responsive": "no",
+   "heat_relevance": "INFERRED: regular cash can support hot-season consumption; no automatic heat top-up was verified.",
+   "status": "current",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "moved",
+    "income"
+   ],
+   "sources": [
+    {
+     "label": "Department of National ID and Civil Registration: प्राय सोधिने प्रश्नहरु : सामाजिक सुरक्षा",
+     "url": "https://www.donidcr.gov.np/pages/mostly-asked-questions--social-security-4/"
+    },
+    {
+     "label": "Department of National ID and Civil Registration: Social Security Allowance Rate",
+     "url": "https://donidcr.gov.np/pages/social-security-allowance-rate/"
+    }
+   ]
+  },
+  {
+   "id": "np-disabilitya",
+   "level": "national",
+   "name": "Social Security Allowance: complete disability",
+   "type": "cash",
+   "run_by": "Government of Nepal / local governments",
+   "who": "Class A red-card category.",
+   "gives": null,
+   "delivery": "Ward registration and bank payment.",
+   "documents": "Disability card; citizenship or birth registration as applicable.",
+   "portable": "partly",
+   "speed": "FAQ: eligibility starts the month after verification and system entry; observed bank-payment delay unknown.",
+   "shock_responsive": "no",
+   "heat_relevance": "INFERRED: regular cash can support hot-season consumption; no automatic heat top-up was verified.",
+   "status": "current",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "disability",
+    "moved",
+    "income"
+   ],
+   "sources": [
+    {
+     "label": "Department of National ID and Civil Registration: प्राय सोधिने प्रश्नहरु : सामाजिक सुरक्षा",
+     "url": "https://www.donidcr.gov.np/pages/mostly-asked-questions--social-security-4/"
+    },
+    {
+     "label": "Department of National ID and Civil Registration: Social Security Allowance Rate",
+     "url": "https://donidcr.gov.np/pages/social-security-allowance-rate/"
+    }
+   ]
+  },
+  {
+   "id": "np-disabilityb",
+   "level": "national",
+   "name": "Social Security Allowance: severe disability",
+   "type": "cash",
+   "run_by": "Government of Nepal / local governments",
+   "who": "Class B blue-card category.",
+   "gives": null,
+   "delivery": "Ward registration and bank payment.",
+   "documents": "Disability card; citizenship or birth registration as applicable.",
+   "portable": "partly",
+   "speed": "FAQ: eligibility starts the month after verification and system entry; observed bank-payment delay unknown.",
+   "shock_responsive": "no",
+   "heat_relevance": "INFERRED: regular cash can support hot-season consumption; no automatic heat top-up was verified.",
+   "status": "current",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "disability",
+    "moved",
+    "income"
+   ],
+   "sources": [
+    {
+     "label": "Department of National ID and Civil Registration: प्राय सोधिने प्रश्नहरु : सामाजिक सुरक्षा",
+     "url": "https://www.donidcr.gov.np/pages/mostly-asked-questions--social-security-4/"
+    },
+    {
+     "label": "Department of National ID and Civil Registration: Social Security Allowance Rate",
+     "url": "https://donidcr.gov.np/pages/social-security-allowance-rate/"
+    }
+   ]
+  },
+  {
+   "id": "np-specifiedcommunities",
+   "level": "national",
+   "name": "Social Security Allowance: endangered Indigenous nationalities",
+   "type": "cash",
+   "run_by": "Government of Nepal / local governments",
+   "who": "Listed communities in the statutory schedule.",
+   "gives": null,
+   "delivery": "Ward registration and bank payment.",
+   "documents": "Citizenship and category evidence; full current checklist unverified.",
+   "portable": "partly",
+   "speed": "FAQ: eligibility starts the month after verification and system entry; observed bank-payment delay unknown.",
+   "shock_responsive": "no",
+   "heat_relevance": "INFERRED: regular cash can support hot-season consumption; no automatic heat top-up was verified.",
+   "status": "current",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "moved",
+    "income"
+   ],
+   "sources": [
+    {
+     "label": "Department of National ID and Civil Registration: प्राय सोधिने प्रश्नहरु : सामाजिक सुरक्षा",
+     "url": "https://www.donidcr.gov.np/pages/mostly-asked-questions--social-security-4/"
+    },
+    {
+     "label": "Department of National ID and Civil Registration: Social Security Allowance Rate",
+     "url": "https://donidcr.gov.np/pages/social-security-allowance-rate/"
+    }
+   ]
+  },
+  {
+   "id": "np-childgrant",
+   "level": "national",
+   "name": "Child Nutrition Allowance",
+   "type": "cash",
+   "run_by": "Government of Nepal / local governments",
+   "who": "Under-five children in designated areas and Dalit households; category limits apply.",
+   "gives": "Official table: NPR 532 monthly; 2026/27 brief announces NPR 1,000 for Dalit children. Receipt at the revised rate not verified.",
+   "delivery": "Ward registration and bank payment.",
+   "documents": "Birth registration and parent or guardian citizenship.",
+   "portable": "partly",
+   "speed": "FAQ: eligibility starts the month after verification and system entry; observed bank-payment delay unknown.",
+   "shock_responsive": "no",
+   "heat_relevance": "INFERRED: regular cash can support hot-season consumption; no automatic heat top-up was verified.",
+   "status": "changed",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "moved",
+    "income"
+   ],
+   "sources": [
+    {
+     "label": "Department of National ID and Civil Registration: प्राय सोधिने प्रश्नहरु : सामाजिक सुरक्षा",
+     "url": "https://www.donidcr.gov.np/pages/mostly-asked-questions--social-security-4/"
+    },
+    {
+     "label": "Department of National ID and Civil Registration: Social Security Allowance Rate",
+     "url": "https://donidcr.gov.np/pages/social-security-allowance-rate/"
+    },
+    {
+     "label": "UNICEF Nepal, 2026: Nepal Federal Budget Brief: Fiscal Year 2026/27 (2083/84 B.S.)",
+     "url": "https://www.unicef.org/nepal/media/31216/file/Federal%20Budget%20Brief-2026_UNICEF_Web%20Version.pdf.pdf"
+    }
+   ]
+  },
+  {
+   "id": "np-informalssf",
+   "level": "national",
+   "name": "Social Security Fund: informal-sector scheme",
+   "type": "insurance",
+   "run_by": "Social Security Fund",
+   "who": "Eligible contributing informal workers under scheme rules.",
+   "gives": null,
+   "delivery": "SSF registration and contribution process.",
+   "documents": "Current category-specific application checklist not verified.",
+   "portable": "unknown",
+   "speed": "Actual payment time not measured in the sources read.",
+   "shock_responsive": "partly",
+   "heat_relevance": "Heat-specific claims and wage replacement were not verified; registration does not establish benefit qualification.",
+   "status": "current",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "health"
+   ],
+   "sources": [
+    {
+     "label": "Social Security Fund: अनौपचारिक क्षेत्र सामाजिक सुरक्षा योजना",
+     "url": "https://www.ssf.gov.np/list/operating-schemes/informal-sector-scheme"
+    },
+    {
+     "label": "International Labour Organization, 2025: Nepal launches national campaign to bring informal workers into social security",
+     "url": "https://www.ilo.org/resource/news/nepal-launches-national-campaign-bring-informal-workers-social-security"
+    }
+   ]
+  }
+ ],
+ "ladder": [
+  {
+   "scheme": "np-informalssf",
+   "scheme_note": "",
+   "group": "Informal workers in the urban parental-benefits survey",
+   "step": "aware",
+   "finding": "2023, before informal-sector launch: 9 percent knew of SSF.",
+   "grade": "KNOWN",
+   "limit": "Urban sample with a parental-benefits focus; pre-launch awareness is not current national awareness.",
+   "sources": [
+    {
+     "label": "World Bank, 2025: De Jure and De Facto Coverage of Parental Benefits in Nepal",
+     "url": "https://documents1.worldbank.org/curated/en/099021925113581657/pdf/P1766171d407e20f21adde1ba735b9a8b83.pdf"
+    }
+   ]
+  },
+  {
+   "scheme": "np-informalssf",
+   "scheme_note": "",
+   "group": "Women informal workers in the same survey",
+   "step": "aware",
+   "finding": "2023: 7 percent of women knew of SSF.",
+   "grade": "KNOWN",
+   "limit": "Same pre-launch and urban-sample limits.",
+   "sources": [
+    {
+     "label": "World Bank, 2025: De Jure and De Facto Coverage of Parental Benefits in Nepal",
+     "url": "https://documents1.worldbank.org/curated/en/099021925113581657/pdf/P1766171d407e20f21adde1ba735b9a8b83.pdf"
+    }
+   ]
+  },
+  {
+   "scheme": "np-informalssf",
+   "scheme_note": "",
+   "group": "Men informal workers in the same survey",
+   "step": "aware",
+   "finding": "2023: 15 percent of men knew of SSF.",
+   "grade": "KNOWN",
+   "limit": "Same pre-launch and urban-sample limits.",
+   "sources": [
+    {
+     "label": "World Bank, 2025: De Jure and De Facto Coverage of Parental Benefits in Nepal",
+     "url": "https://documents1.worldbank.org/curated/en/099021925113581657/pdf/P1766171d407e20f21adde1ba735b9a8b83.pdf"
+    }
+   ]
+  },
+  {
+   "scheme": "",
+   "scheme_note": "parentalbenefits",
+   "group": "Informal parents in the same survey",
+   "step": "received",
+   "finding": "2023 survey: only 6 percent of informal parents received cash benefits at the last birth.",
+   "grade": "KNOWN",
+   "limit": "Not heat support or current SSF receipt; childbirth may predate the survey.",
+   "sources": [
+    {
+     "label": "World Bank, 2025: De Jure and De Facto Coverage of Parental Benefits in Nepal",
+     "url": "https://documents1.worldbank.org/curated/en/099021925113581657/pdf/P1766171d407e20f21adde1ba735b9a8b83.pdf"
+    }
+   ]
+  },
+  {
+   "scheme": "np-informalssf",
+   "scheme_note": "",
+   "group": "Informal and self-employed workers",
+   "step": "enrolled",
+   "finding": "ILO report dated 24 December 2025: about 1500 informal and self-employed registrants.",
+   "grade": "INFERRED",
+   "limit": "Mixed informal and self-employed categories; no eligible population or benefit-receipt denominator.",
+   "sources": [
+    {
+     "label": "International Labour Organization, 2025: Nepal launches national campaign to bring informal workers into social security",
+     "url": "https://www.ilo.org/resource/news/nepal-launches-national-campaign-bring-informal-workers-social-security"
+    }
+   ]
+  }
+ ],
+ "evidence": [
+  {
+   "by": "Sharma et al., 2025",
+   "title": "Exploring outdoor workers’ knowledge, attitudes, practices, and perceived risks of heatwaves in Nepal",
+   "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0329557",
+   "type": "Peer-reviewed study",
+   "where": "Eight districts in five provinces",
+   "scale": "356 outdoor workers and 11 focus groups",
+   "finding": "KNOWN descriptive result: 43% had heard of heatwaves. This maps a communication gap among exposed workers; it does not estimate a social-protection effect.",
+   "effect": "unclear",
+   "limit": "Selected locations, cross-sectional design and self-reported experiences limit generalisation and causality.",
+   "sources": [
+    {
+     "label": "Sharma et al., 2025: Exploring outdoor workers’ knowledge, attitudes, practices, and perceived risks of heatwaves in Nepal",
+     "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0329557"
+    }
+   ]
+  },
+  {
+   "by": "IFRC / Nepal Red Cross Society, 2025",
+   "title": "Simplified Early Action Protocol: Nepal | Urban Heatwave",
+   "url": "https://go-api.ifrc.org/api/downloadfile/93851/sEAP2025NP02_MDRNP020",
+   "type": "Agency report",
+   "where": "Biratnagar, Nepalgunj, Dhangadi and Siddharthanagar",
+   "scale": "Plan for 1,200 households and a three-day forecast lead time",
+   "finding": "KNOWN approved plan: an urban heatwave protocol sets out cash and support activities. It supplies a possible route, with no completed impact result in the document read.",
+   "effect": "unclear",
+   "limit": "Protocol approval is not activation, receipt, a standing public entitlement or an evaluation.",
+   "sources": [
+    {
+     "label": "International Federation of Red Cross and Red Crescent Societies / Nepal Red Cross Society, 2025: Simplified Early Action Protocol: Nepal | Urban Heatwave",
+     "url": "https://go-api.ifrc.org/api/downloadfile/93851/sEAP2025NP02_MDRNP020"
+    }
+   ]
+  },
+  {
+   "by": "Christian et al., 2025",
+   "title": "Fast Action for Floods: RCT Evidence on Forecast-based Cash Transfers from Bangladesh and Nepal",
+   "url": "https://bfi.uchicago.edu/wp-content/uploads/2025/11/BFI_WP_2025-140.pdf",
+   "type": "Evaluation",
+   "where": "Nepal and Bangladesh",
+   "scale": "Randomised flood-related cash timing; country and survey-round samples differ",
+   "finding": "KNOWN trial findings, with heat applicability INFERRED: some early food-security and psychosocial outcomes improved. Later borrowing, savings and asset effects were not statistically significant.",
+   "effect": "mixed",
+   "limit": "Working paper and flood evidence; no statistically significant estimate does not establish zero effect, and it does not establish a heat effect.",
+   "sources": [
+    {
+     "label": "Christian et al., 2025: Fast Action for Floods: RCT Evidence on Forecast-based Cash Transfers from Bangladesh and Nepal",
+     "url": "https://bfi.uchicago.edu/wp-content/uploads/2025/11/BFI_WP_2025-140.pdf"
+    }
+   ]
+  }
+ ],
+ "routes": [
+  {
+   "id": "np-route-wards",
+   "name": "Ward offices and local governments",
+   "kind": "government",
+   "does": "Receive allowance applications, check documents and maintain registration and transfer processes.",
+   "where": "Nepal",
+   "self_reported": "No comparable 2026 application-to-receipt count extracted.",
+   "independent": "",
+   "evaluations": "",
+   "url": "https://www.donidcr.gov.np/pages/mostly-asked-questions--social-security-4/",
+   "org_id": "",
+   "sources": [
+    {
+     "label": "Department of National ID and Civil Registration: प्राय सोधिने प्रश्नहरु : सामाजिक सुरक्षा",
+     "url": "https://www.donidcr.gov.np/pages/mostly-asked-questions--social-security-4/"
+    }
+   ]
+  },
+  {
+   "id": "np-route-banks",
+   "name": "Banks participating in social allowance payment",
+   "kind": "financial",
+   "does": "Provide allowance accounts and collection; FAQ describes arrangements for people needing assistance.",
+   "where": "Nepal",
+   "self_reported": "No measured heat-season collection or delay total extracted.",
+   "independent": "",
+   "evaluations": "",
+   "url": "https://www.donidcr.gov.np/pages/mostly-asked-questions--social-security-4/",
+   "org_id": "",
+   "sources": [
+    {
+     "label": "Department of National ID and Civil Registration: प्राय सोधिने प्रश्नहरु : सामाजिक सुरक्षा",
+     "url": "https://www.donidcr.gov.np/pages/mostly-asked-questions--social-security-4/"
+    }
+   ]
+  },
+  {
+   "id": "np-route-hibassistants",
+   "name": "Health Insurance Board registration assistants",
+   "kind": "government",
+   "does": "Help households enrol through ward-level and household contact routes.",
+   "where": "Nepal",
+   "self_reported": "No verified assisted-enrolment or heat-claim outcome count extracted.",
+   "independent": "",
+   "evaluations": "",
+   "url": "https://hib.gov.np/faq/",
+   "org_id": "",
+   "sources": [
+    {
+     "label": "Health Insurance Board: बारम्बार सोधिने प्रश्नहरू",
+     "url": "https://hib.gov.np/faq/"
+    }
+   ]
+  },
+  {
+   "id": "np-route-nrcs",
+   "name": "Nepal Red Cross Society",
+   "kind": "civil society",
+   "does": "The heatwave protocol assigns volunteer support and cash-delivery tasks.",
+   "where": "Four protocol municipalities",
+   "self_reported": "Plan: 1,200 households; not a confirmed receipt count.",
+   "independent": "",
+   "evaluations": "",
+   "url": "https://go-api.ifrc.org/api/downloadfile/93851/sEAP2025NP02_MDRNP020",
+   "org_id": "nrcs",
+   "sources": [
+    {
+     "label": "International Federation of Red Cross and Red Crescent Societies / Nepal Red Cross Society, 2025: Simplified Early Action Protocol: Nepal | Urban Heatwave",
+     "url": "https://go-api.ifrc.org/api/downloadfile/93851/sEAP2025NP02_MDRNP020"
+    }
+   ]
+  },
+  {
+   "id": "np-route-fchv",
+   "name": "Female Community Health Volunteers",
+   "kind": "government",
+   "does": "The heat protocol includes household contact through frontline volunteers.",
+   "where": "Protocol locations",
+   "self_reported": "Planned activity only; delivered reach not verified.",
+   "independent": "",
+   "evaluations": "",
+   "url": "https://go-api.ifrc.org/api/downloadfile/93851/sEAP2025NP02_MDRNP020",
+   "org_id": "",
+   "sources": [
+    {
+     "label": "International Federation of Red Cross and Red Crescent Societies / Nepal Red Cross Society, 2025: Simplified Early Action Protocol: Nepal | Urban Heatwave",
+     "url": "https://go-api.ifrc.org/api/downloadfile/93851/sEAP2025NP02_MDRNP020"
+    }
+   ]
+  },
+  {
+   "id": "np-route-savethechildren",
+   "name": "Save the Children",
+   "kind": "civil society",
+   "does": "Publishes a local-government allowance-access guidance catalogue.",
+   "where": "Nepal",
+   "self_reported": "No independently verified navigation outcome count extracted.",
+   "independent": "",
+   "evaluations": "",
+   "url": "https://resourcecentre.savethechildren.net/document/ensuring-access-to-social-security-allowances-in-nepal-guidance-for-local-governments-on-developing-and-implementing-a-standard-operating-procedure",
+   "org_id": "savechildren",
+   "sources": [
+    {
+     "label": "Save the Children, 2026: Ensuring access to social security allowances in Nepal: Guidance for local governments on developing and implementing a standard operating procedure",
+     "url": "https://resourcecentre.savethechildren.net/document/ensuring-access-to-social-security-allowances-in-nepal-guidance-for-local-governments-on-developing-and-implementing-a-standard-operating-procedure"
+    }
+   ]
+  },
+  {
+   "id": "np-route-ssf",
+   "name": "Social Security Fund",
+   "kind": "government",
+   "does": "Operates the contributory route and participates in informal-worker outreach.",
+   "where": "Nepal",
+   "self_reported": "ILO report, 24 December 2025: about 1500 informal and self-employed registrations.",
+   "independent": "",
+   "evaluations": "",
+   "url": "https://www.ssf.gov.np/list/operating-schemes/informal-sector-scheme",
+   "org_id": "",
+   "sources": [
+    {
+     "label": "Social Security Fund: अनौपचारिक क्षेत्र सामाजिक सुरक्षा योजना",
+     "url": "https://www.ssf.gov.np/list/operating-schemes/informal-sector-scheme"
+    },
+    {
+     "label": "International Labour Organization, 2025: Nepal launches national campaign to bring informal workers into social security",
+     "url": "https://www.ilo.org/resource/news/nepal-launches-national-campaign-bring-informal-workers-social-security"
+    }
+   ]
+  }
+ ],
+ "indicators": [
+  {
+   "id": "np-hotdays",
+   "layer": "exposure",
+   "indicator": "Days with daily maximum air temperature above 40 degrees C",
+   "definition": "Proposed derivation from hourly ERA5 2 m temperature, using local calendar days and area-weighted aggregation. Threshold is an analytical choice, not an official warning threshold.",
+   "unit": "days/year",
+   "unit_of_place": "state",
+   "year": 2025,
+   "publisher": "Copernicus Climate Change Service / ECMWF",
+   "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+   "licence": "CC-BY licence displayed; retain dataset attribution",
+   "open": true,
+   "joinable": false,
+   "access": "registration",
+   "format": "other",
+   "update": "Source daily; map annual",
+   "place_code": "Grid coordinates; spatial overlay with versioned province geometry",
+   "limit": "INFERRED reanalysis; not measured personal exposure. No country values were calculated in this research."
+  },
+  {
+   "id": "np-hotnights",
+   "layer": "exposure",
+   "indicator": "Nights with daily minimum air temperature above 30 degrees C",
+   "definition": "Proposed derivation from the same hourly series, using local-day minimum as a reproducible proxy. An overnight-only definition can be substituted if documented.",
+   "unit": "days/year",
+   "unit_of_place": "state",
+   "year": 2025,
+   "publisher": "Copernicus Climate Change Service / ECMWF",
+   "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+   "licence": "CC-BY licence displayed",
+   "open": true,
+   "joinable": false,
+   "access": "registration",
+   "format": "other",
+   "update": "Source daily; map annual",
+   "place_code": "Same grid and geometry as hotdays",
+   "limit": "INFERRED; a local-day minimum is not a direct measurement of sleep conditions."
+  },
+  {
+   "id": "np-dewpoint",
+   "layer": "exposure",
+   "indicator": "Hot-season dew-point temperature",
+   "definition": "Proposed mean hourly 2 m dew-point temperature for March-June 2025, aggregated by area. This is a humidity context measure, not wet-bulb temperature or WBGT.",
+   "unit": "degrees C",
+   "unit_of_place": "state",
+   "year": 2025,
+   "publisher": "Copernicus Climate Change Service / ECMWF",
+   "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+   "licence": "CC-BY licence displayed",
+   "open": true,
+   "joinable": false,
+   "access": "registration",
+   "format": "other",
+   "update": "Source daily; map annual",
+   "place_code": "Same grid and geometry as hotdays",
+   "limit": "INFERRED; a humid-heat health threshold has not been validated here. These variables are published on a grid, not as administrative tables."
+  },
+  {
+   "id": "np-olderpeople",
+   "layer": "vulnerability",
+   "indicator": "Population aged 65 and over",
+   "definition": "Proposed sum of five-year age groups from census Individual Table 04, divided by total population. This is a demographic measure, not an allowance eligibility threshold.",
+   "unit": "percent of population",
+   "unit_of_place": "state",
+   "year": 2021,
+   "publisher": "National Statistics Office",
+   "url": "https://censusresults.nsonepal.gov.np/downloads/census-dataset",
+   "licence": "Open reuse licence not verified",
+   "open": false,
+   "joinable": false,
+   "access": "open download",
+   "format": "CSV",
+   "update": "Census cycle",
+   "place_code": "CSV code field not inspected; no shared code verified",
+   "limit": "Catalogue is open, but CSV payload and smallest published unit were not parsed. Province aggregation is proposed, not a verified output. [N14]"
+  },
+  {
+   "id": "np-disability",
+   "layer": "vulnerability",
+   "indicator": "Population by type of disability",
+   "definition": "Census Individual Table 16 uses age group and disability type; preserve the census classification and denominator.",
+   "unit": "persons and percent",
+   "unit_of_place": "state",
+   "year": 2021,
+   "publisher": "National Statistics Office",
+   "url": "https://censusresults.nsonepal.gov.np/downloads/census-dataset",
+   "licence": "Not verified",
+   "open": false,
+   "joinable": false,
+   "access": "open download",
+   "format": "CSV",
+   "update": "Census cycle",
+   "place_code": "Code field not inspected",
+   "limit": "Catalogue confirms the table, not the header, geographic grain or benefit eligibility. [N14]"
+  },
+  {
+   "id": "np-rooftype",
+   "layer": "vulnerability",
+   "indicator": "Households by roof material",
+   "definition": "Census Household Table 04 groups households by roof type; show categories rather than assign a universal heat-risk weight.",
+   "unit": "percent of households",
+   "unit_of_place": "state",
+   "year": 2021,
+   "publisher": "National Statistics Office",
+   "url": "https://censusresults.nsonepal.gov.np/downloads/census-dataset",
+   "licence": "Not verified",
+   "open": false,
+   "joinable": false,
+   "access": "open download",
+   "format": "CSV",
+   "update": "Census cycle",
+   "place_code": "Same catalogue; shared headers not verified",
+   "limit": "Material alone does not measure indoor temperature, shading, ventilation or tenure; smallest CSV unit unverified. [N14]"
+  },
+  {
+   "id": "np-insurance",
+   "layer": "coverage",
+   "indicator": "Health insurance reported by adults aged 15-49",
+   "definition": "NDHS 2022 secondary analysis, disaggregated by sex and province where reported; any insurance, not only public HIP.",
+   "unit": "percent of surveyed adults",
+   "unit_of_place": "state",
+   "year": 2022,
+   "publisher": "Discover Public Health analysis of NDHS",
+   "url": "https://link.springer.com/article/10.1186/s12982-026-01734-3",
+   "licence": "Article open access; underlying survey microdata have separate access terms",
+   "open": false,
+   "joinable": false,
+   "access": "open download",
+   "format": "other",
+   "update": "Survey or research update",
+   "place_code": "Province names in study; no official code crosswalk validated",
+   "limit": "Province structure and associations were read; province percentage table is not a prepared map extract. No paid-claim or effective-care measure. [N5]"
+  },
+  {
+   "id": "np-hipavailable",
+   "layer": "system",
+   "indicator": "Health Insurance Programme terms",
+   "definition": "Published household contribution and service-limit facts; national availability can be repeated on province geometries with clear caveats.",
+   "unit": "NPR/year",
+   "unit_of_place": "state",
+   "year": 2026,
+   "publisher": "Health Insurance Board; 2026 study",
+   "url": "https://link.springer.com/article/10.1186/s12982-026-01734-3",
+   "licence": "Create a newly authored factual table with attribution; source reuse terms are separate",
+   "open": false,
+   "joinable": false,
+   "access": "open download",
+   "format": "other",
+   "update": "Policy revision",
+   "place_code": "Curated province crosswalk; not a beneficiary registry code",
+   "limit": "Current benefit-package amendment exists; heat-specific codes and practical service access remain unverified. [N4, N5, N22]"
+  },
+  {
+   "id": "np-childrate",
+   "layer": "system",
+   "indicator": "Child Nutrition Allowance published terms",
+   "definition": "Show legacy official rate and the announced Dalit-child revision in separate fields; do not apply the revised rate to all children.",
+   "unit": "NPR/child/month",
+   "unit_of_place": "state",
+   "year": 2026,
+   "publisher": "UNICEF and Government of Nepal",
+   "url": "https://www.unicef.org/nepal/media/31216/file/Federal%20Budget%20Brief-2026_UNICEF_Web%20Version.pdf.pdf",
+   "licence": "Report licence not verified; record factual terms with attribution",
+   "open": false,
+   "joinable": false,
+   "access": "open download",
+   "format": "PDF",
+   "update": "Budget or rule revision",
+   "place_code": "Province crosswalk is insufficient for district-specific eligibility; hold finer availability",
+   "limit": "Programme categories differ geographically; revised-rate receipt is unverified. [N1, N3]"
+  }
+ ]
+}

@@ -443,6 +443,13 @@
     "when": "years",
     "measure": "Households reached by heat-season support",
     "text": "Basic income security that keeps households above the line between one hot season and the next.",
+    "example": "In Rajshahi, Bangladesh, a heatwave study found the government's Old Age Allowance suited to early cash before heat peaks, given its digitised list of recipients and nationwide reach; a simulation then tested the idea.",
+    "exampleSources": [
+      {
+        "label": "Anticipation Hub: shock-responsive social protection simulation for anticipatory action in Rajshahi city, Bangladesh",
+        "url": "https://www.anticipation-hub.org/Documents/Reports/0_RCCC_SRSP_simulation_Rajshahi_Advocacy_brief_V3.pdf"
+      }
+    ],
     "guides": [
       {
         "by": "International Labour Organization",
@@ -459,6 +466,13 @@
     "when": "season",
     "measure": "Heat illness cases treated free of charge",
     "text": "Covering emergency treatment for heat illness stops one bad day from becoming years of debt.",
+    "example": "Singapore's MediFund is a safety net for people who face financial difficulties with their remaining bills after government subsidies, insurance and MediSave; a committee at each approved institution decides the help.",
+    "exampleSources": [
+      {
+        "label": "Ministry of Health, Singapore: MediFund",
+        "url": "https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/medifund/"
+      }
+    ],
     "guides": [
       {
         "by": "National Centre for Disease Control, India",

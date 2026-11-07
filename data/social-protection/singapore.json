@@ -1,0 +1,987 @@
+{
+ "country": {
+  "id": "sg",
+  "slug": "singapore",
+  "name": "Singapore",
+  "as_of": "2026-11-06",
+  "checked": "2026-11-07",
+  "unit_note": "",
+  "summary": [
+   {
+    "text": "KNOWN heat-specific rule: qualifying work-related heat illness can support WICA claims, and specified heat-rest breaks are considered paid work. Actual heat-claim acceptance, payment time and compensation outcomes were not verified.",
+    "sources": [
+     {
+      "label": "Ministry of Manpower: Types of compensation under WICA",
+      "url": "https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation/types-of-compensation"
+     },
+     {
+      "label": "Ministry of Manpower: FAQs on Heat stress measures for outdoor work",
+      "url": "https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work/faqs-on-heat-stress-measures-for-outdoor-work"
+     },
+     {
+      "label": "Ministry of Manpower, 2025: Updated coverage of reportable and compensable occupational diseases (ODs) under WSHA and WICA",
+      "url": "https://www.mom.gov.sg/workplace-safety-and-health/od-under-wsha-and-wica"
+     }
+    ]
+   },
+   {
+    "text": "KNOWN receipt data include annual national ComCare household counts; PCP survey responses describe perceived access. Neither supplies a linked local eligible-to-received ladder for people exposed to heat.",
+    "sources": [
+     {
+      "label": "Ministry of Social and Family Development / Singapore Department of Statistics, 2026: Households Assisted Through Comcare Schemes, Annual",
+      "url": "https://data.gov.sg/datasets/d_5521441aca9643a2021417e096ea65d0/view"
+     },
+     {
+      "label": "Ministry of Manpower, 2026: Enhanced Primary Care Plan brings healthcare closer to migrant workers while lowering or maintaining costs for almost all employers",
+      "url": "https://www.mom.gov.sg/newsroom/press-releases/2026/0806-enhanced-primary-care-plan-appointment-of-new-aos"
+     }
+    ]
+   },
+   {
+    "text": "INFERRED research estimate: HeatSafe values productivity loss, without establishing observed wage deductions or the effect of benefits. No causal heat social-protection outcome or heat-specific null evaluation was opened.",
+    "sources": [
+     {
+      "label": "National University of Singapore Medicine, 2024: Heat stress causes lower fertility, productivity and reduced cognitive capacity: Project HeatSafe",
+      "url": "https://medicine.nus.edu.sg/news/heat-stress-causes-lower-fertility-productivity-and-reduced-cognitive-capacity-project-heatsafe/"
+     }
+    ]
+   },
+   {
+    "text": "KNOWN open data: station WBGT, census age structure on Master Plan 2019 geography and national ComCare receipt are publicly downloadable under the Singapore Open Data Licence. Their different geographies remain visible.",
+    "sources": [
+     {
+      "label": "Singapore Department of Statistics, 2021: Resident Population by Planning Area/Subzone of Residence, Age Group and Sex (Census of Population 2020)",
+      "url": "https://data.gov.sg/datasets/d_d95ae740c0f8961a0b10435836660ce0/view"
+     },
+     {
+      "label": "Urban Redevelopment Authority, 2025: Master Plan 2019 Planning Area Boundary (No Sea)",
+      "url": "https://data.gov.sg/datasets/d_4765db0e87b9c86336792efe8a1f7a66/view"
+     },
+     {
+      "label": "National Environment Agency, 2025: Wet Bulb Globe Temperature (WBGT) Observations",
+      "url": "https://data.gov.sg/datasets/d_87884af1f85d702d4f74c6af13b4853d/view"
+     },
+     {
+      "label": "Ministry of Social and Family Development / Singapore Department of Statistics, 2026: Households Assisted Through Comcare Schemes, Annual",
+      "url": "https://data.gov.sg/datasets/d_5521441aca9643a2021417e096ea65d0/view"
+     }
+    ]
+   },
+   {
+    "text": "Some 2026 announcements take effect later: enhanced heat requirements start December 2026 and enhanced PCP begins April 2027. Farm grants and business credit are adaptation and cashflow routes, rather than household heat-loss insurance.",
+    "sources": [
+     {
+      "label": "Ministry of Manpower, 2026: MOM Enhances Heat Stress Protection for Workers Amid Rising Heat Risks",
+      "url": "https://www.mom.gov.sg/newsroom/press-releases/2026/0828-enhancements-to-heat-stress-framework"
+     },
+     {
+      "label": "Ministry of Manpower, 2026: Enhanced Primary Care Plan brings healthcare closer to migrant workers while lowering or maintaining costs for almost all employers",
+      "url": "https://www.mom.gov.sg/newsroom/press-releases/2026/0806-enhanced-primary-care-plan-appointment-of-new-aos"
+     },
+     {
+      "label": "Enterprise Singapore, 2026: Enterprise Financing Scheme – SME Working Capital Loan",
+      "url": "https://www.enterprisesg.gov.sg/financial-support/enterprise-financing-scheme---sme-working-capital"
+     },
+     {
+      "label": "Singapore Food Agency, 2026: Agri-food Cluster Transformation (ACT) Fund",
+      "url": "https://www.sfa.gov.sg/recognition-programmes-grants/grants/agri-food-cluster-transformation-act-fund"
+     }
+    ]
+   }
+  ],
+  "gaps": [
+   {
+    "text": "Self-employed workers' lost hot-day earnings: WIS depends on qualifying work and income; a universal paid heat work-stoppage entitlement was not verified. WICA coverage of employees and covered platform work does not establish coverage of every self-employed person.",
+    "sources": [
+     {
+      "label": "Central Provident Fund Board, 2026: Workfare Income Supplement",
+      "url": "https://www.cpf.gov.sg/member/growing-your-savings/government-support/workfare-income-supplement"
+     },
+     {
+      "label": "Central Provident Fund Board, 2026: Workfare Income Supplement Employee Work Year 2026 Calculator",
+      "url": "https://www.cpf.gov.sg/member/tools-and-services/calculators/workfare-income-supplement-employee-work-year-2026-calculator"
+     },
+     {
+      "label": "Ministry of Manpower, 2025: Updated coverage of reportable and compensable occupational diseases (ODs) under WSHA and WICA",
+      "url": "https://www.mom.gov.sg/workplace-safety-and-health/od-under-wsha-and-wica"
+     }
+    ]
+   },
+   {
+    "text": "Work-related heat illness: a claim route exists, but eligibility, medical evidence and claim acceptance stand between illness and compensation. Actual heat-specific receipt was not measured in the sources read.",
+    "sources": [
+     {
+      "label": "Ministry of Manpower: Types of compensation under WICA",
+      "url": "https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation/types-of-compensation"
+     },
+     {
+      "label": "Ministry of Manpower: FAQs on Heat stress measures for outdoor work",
+      "url": "https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work/faqs-on-heat-stress-measures-for-outdoor-work"
+     }
+    ]
+   },
+   {
+    "text": "Migrant-worker healthcare: PCP eligibility excludes migrant domestic workers from this requirement, and other migrant groups have different routes. Citizen or permanent-resident health cover is not a proxy for all migrant cover.",
+    "sources": [
+     {
+      "label": "Ministry of Manpower: What is the Primary Care Plan (PCP)",
+      "url": "https://www.mom.gov.sg/primary-care-plan/what-is-pcp"
+     },
+     {
+      "label": "Ministry of Health, 2024: Managing medical bills",
+      "url": "https://www.moh.gov.sg/managing-expenses/keeping-healthcare-affordable/managing-medical-bills/"
+     }
+    ]
+   },
+   {
+    "text": "Cooling costs: U-Save reaches eligible households under housing and scheme rules; it is not a guarantee of cooling equipment, tolerable indoor temperatures or support for every tenancy.",
+    "sources": [
+     {
+      "label": "Government of Singapore, 2026: Managing Cost of Living in Singapore",
+      "url": "https://www.gov.sg/features/cost-of-living/"
+     }
+    ]
+   },
+   {
+    "text": "Agricultural loss: ACT supports farm investment and EFS-WCL supports business cashflow. Neither opened rule is crop-loss insurance or household heat-income compensation.",
+    "sources": [
+     {
+      "label": "Enterprise Singapore, 2026: Enterprise Financing Scheme – SME Working Capital Loan",
+      "url": "https://www.enterprisesg.gov.sg/financial-support/enterprise-financing-scheme---sme-working-capital"
+     },
+     {
+      "label": "Singapore Food Agency, 2026: Agri-food Cluster Transformation (ACT) Fund",
+      "url": "https://www.sfa.gov.sg/recognition-programmes-grants/grants/agri-food-cluster-transformation-act-fund"
+     }
+    ]
+   },
+   {
+    "text": "Heat-triggered public anticipatory cash, general asset-loss cover and debt relief: no standing heat-specific entitlement was verified in the public sources read. This is a bounded evidence gap, not a claim that no assistance is available.",
+    "sources": [
+     {
+      "label": "Government of Singapore, 2026: Managing Cost of Living in Singapore",
+      "url": "https://www.gov.sg/features/cost-of-living/"
+     },
+     {
+      "label": "Ministry of Manpower: Types of compensation under WICA",
+      "url": "https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation/types-of-compensation"
+     },
+     {
+      "label": "Enterprise Singapore, 2026: Enterprise Financing Scheme – SME Working Capital Loan",
+      "url": "https://www.enterprisesg.gov.sg/financial-support/enterprise-financing-scheme---sme-working-capital"
+     }
+    ]
+   }
+  ],
+  "map": {
+   "rows": [],
+   "misreadings": []
+  },
+  "questions": [
+   {
+    "id": "sg-claims",
+    "q": "How often do work-related heat illnesses move from report to accepted and paid WICA claim?",
+    "have": "Heat is recognised and benefit types are published; heat-specific process counts were not verified. [S13, S14, S15]",
+    "could": "Secure aggregate reporting of notified, filed, accepted and paid claims with time intervals and broad worker categories.",
+    "scale": "Illustrative: all available cases across several hot seasons; no individual case details published."
+   },
+   {
+    "id": "sg-pcpcost",
+    "q": "Does PCP access reduce total costs and delayed care during hot periods for covered migrant workers?",
+    "have": "A patient-experience survey exists, without a heat-specific causal comparison. [S17]",
+    "could": "Prospective hot-season facility and worker survey with pre-specified comparison periods, full care costs and aggregate results.",
+    "scale": "Illustrative: 10-15 clinics; final size based on expected heat case volume."
+   },
+   {
+    "id": "sg-restpay",
+    "q": "How consistently do workers receive and use paid heat-rest breaks?",
+    "have": "Official guidance recognises specified breaks as paid work; implementation outcomes were not verified. [S14]",
+    "could": "Confidential worker and employer survey plus aggregate work-schedule observations across heat levels, without individual tracking.",
+    "scale": "Illustrative: 40-60 worksites across several exposed sectors."
+   },
+   {
+    "id": "sg-ladder",
+    "q": "Which access steps explain non-receipt of temporary support during heat-related household income loss?",
+    "have": "National ComCare receipt counts and assisted-application routes exist. [S1, S29]",
+    "could": "Representative repeated household survey measuring awareness through on-time receipt, including explicit residency eligibility checks.",
+    "scale": "Illustrative: 1,500-2,000 households over two hot seasons."
+   }
+  ]
+ },
+ "schemes": [
+  {
+   "id": "sg-ia",
+   "level": "national",
+   "name": "ComCare Interim Assistance: 2026 enhancement",
+   "type": "relief",
+   "run_by": "Ministry of Social and Family Development",
+   "who": "Qualifying lower-income households under enhanced interim criteria.",
+   "gives": "At least S$250 monthly, up to three months, during the August-December 2026 enhancement.",
+   "delivery": "Interim assistance route; detailed application process not fully verified.",
+   "documents": "Current application checklist not verified.",
+   "portable": "unknown",
+   "speed": "Actual payment time not measured in the sources read.",
+   "shock_responsive": "partly",
+   "heat_relevance": "General temporary relief, without a verified heat trigger.",
+   "status": "changed",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "disaster"
+   ],
+   "sources": [
+    {
+     "label": "Government of Singapore, 2026: Managing Cost of Living in Singapore",
+     "url": "https://www.gov.sg/features/cost-of-living/"
+    }
+   ]
+  },
+  {
+   "id": "sg-wis",
+   "level": "national",
+   "name": "Workfare Income Supplement",
+   "type": "cash",
+   "run_by": "Central Provident Fund Board",
+   "who": "Eligible citizens aged 30+ or qualifying people with disabilities; income, property and other tests apply.",
+   "gives": "Earnings/age-dependent cash and CPF support. Employee allocation is 40% cash and 60% CPF; 2026 maximum not verified.",
+   "delivery": "Automatic employee assessment from contribution/income records; PayNow, bank or GovCash.",
+   "documents": "Employee administrative records; self-employed reporting and contributions differ.",
+   "portable": "unknown",
+   "speed": "2026 employee calculator: payment two months after month worked; actual delay not measured.",
+   "shock_responsive": "partly",
+   "heat_relevance": "INFERRED: supplements earnings, with possible gaps when heat reduces qualifying work; not a paid hot-day entitlement.",
+   "status": "current",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "disability",
+    "income"
+   ],
+   "sources": [
+    {
+     "label": "Central Provident Fund Board, 2026: Workfare Income Supplement",
+     "url": "https://www.cpf.gov.sg/member/growing-your-savings/government-support/workfare-income-supplement"
+    },
+    {
+     "label": "Central Provident Fund Board, 2026: Workfare Income Supplement Employee Work Year 2026 Calculator",
+     "url": "https://www.cpf.gov.sg/member/tools-and-services/calculators/workfare-income-supplement-employee-work-year-2026-calculator"
+    }
+   ]
+  },
+  {
+   "id": "sg-silver",
+   "level": "national",
+   "name": "Silver Support Scheme",
+   "type": "pension",
+   "run_by": "Government of Singapore / CPF administration",
+   "who": "Eligible citizens aged 65+ meeting work-history, household-income and housing tests.",
+   "gives": "S$215-S$1,080 quarterly across published bands.",
+   "delivery": "Automatic assessment; PayNow, bank or GovCash.",
+   "documents": "No application; administrative records support annual assessment.",
+   "portable": "unknown",
+   "speed": "Published quarterly advance schedule; observed payment delay not verified.",
+   "shock_responsive": "no",
+   "heat_relevance": "INFERRED: resources could help meet hot-season household costs; heat outcomes were not evaluated.",
+   "status": "current",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "older",
+    "income"
+   ],
+   "sources": [
+    {
+     "label": "Ministry of Manpower: Silver Support Scheme",
+     "url": "https://www.mom.gov.sg/employment-practices/silver-support-scheme"
+    }
+   ]
+  },
+  {
+   "id": "sg-cdc",
+   "level": "national",
+   "name": "CDC Vouchers Scheme: June 2026 tranche",
+   "type": "food",
+   "run_by": "Government of Singapore / Community Development Councils",
+   "who": "Qualifying Singaporean households; complete claiming rules not opened.",
+   "gives": "S$500 June 2026 tranche; total-year and expiry terms not verified.",
+   "delivery": "Voucher scheme; current detailed claim process not verified.",
+   "documents": "Current application checklist not verified.",
+   "portable": "unknown",
+   "speed": "Actual payment time not measured in the sources read.",
+   "shock_responsive": "partly",
+   "heat_relevance": "INFERRED: spending support can ease food costs; it is not heat-loss compensation.",
+   "status": "changed",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "food"
+   ],
+   "sources": [
+    {
+     "label": "Government of Singapore, 2026: Managing Cost of Living in Singapore",
+     "url": "https://www.gov.sg/features/cost-of-living/"
+    }
+   ]
+  },
+  {
+   "id": "sg-usave",
+   "level": "national",
+   "name": "GST Voucher / additional U-Save utility rebates",
+   "type": "cash",
+   "run_by": "Government of Singapore",
+   "who": "Eligible HDB households under scheme conditions.",
+   "gives": "Government page lists up to S$190 additional rebates in October 2026 and January 2027; tranche details unverified.",
+   "delivery": "Utility-bill rebate; not freely withdrawable household cash.",
+   "documents": "Current application checklist not verified.",
+   "portable": "unknown",
+   "speed": "Actual payment time not measured in the sources read.",
+   "shock_responsive": "partly",
+   "heat_relevance": "INFERRED: bill relief can help with cooling costs, without verifying cooling equipment or sufficient electricity access.",
+   "status": "changed",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "income"
+   ],
+   "sources": [
+    {
+     "label": "Government of Singapore, 2026: Managing Cost of Living in Singapore",
+     "url": "https://www.gov.sg/features/cost-of-living/"
+    }
+   ]
+  },
+  {
+   "id": "sg-medishield",
+   "level": "national",
+   "name": "MediShield Life",
+   "type": "health",
+   "run_by": "Ministry of Health / Central Provident Fund Board",
+   "who": "Singapore citizens and permanent residents under the lifelong scheme.",
+   "gives": "Current policy-year claim maximum S$200,000; treatment limits and patient cost sharing apply.",
+   "delivery": "Insurance payment for covered care through health-service institutions.",
+   "documents": "Current treatment claim and financial-support checklist not fully verified.",
+   "portable": "partly",
+   "speed": "Actual payment time not measured in the sources read.",
+   "shock_responsive": "partly",
+   "heat_relevance": "INFERRED: qualifying hospital treatment could cushion a heat health shock; no paid heat-claims series was read.",
+   "status": "changed",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "health",
+    "moved"
+   ],
+   "sources": [
+    {
+     "label": "Ministry of Health, 2026: MediShield Life Benefits",
+     "url": "https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/medishield-life/medishield-life-benefits/"
+    },
+    {
+     "label": "Ministry of Health, 2024: Managing medical bills",
+     "url": "https://www.moh.gov.sg/managing-expenses/keeping-healthcare-affordable/managing-medical-bills/"
+    }
+   ]
+  },
+  {
+   "id": "sg-medisave",
+   "level": "national",
+   "name": "MediSave",
+   "type": "health",
+   "run_by": "Central Provident Fund Board / Ministry of Health",
+   "who": "Citizens and permanent residents with applicable account and withdrawal eligibility.",
+   "gives": "Own medical savings under withdrawal limits; not a new public cash grant.",
+   "delivery": "Approved medical payments and insurance premiums.",
+   "documents": "Current application checklist not verified.",
+   "portable": "unknown",
+   "speed": "Actual payment time not measured in the sources read.",
+   "shock_responsive": "unknown",
+   "heat_relevance": "INFERRED: balances may help pay eligible care, while reducing savings available for later needs.",
+   "status": "current",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "health"
+   ],
+   "sources": [
+    {
+     "label": "Ministry of Health, 2024: Managing medical bills",
+     "url": "https://www.moh.gov.sg/managing-expenses/keeping-healthcare-affordable/managing-medical-bills/"
+    }
+   ]
+  },
+  {
+   "id": "sg-medifund",
+   "level": "national",
+   "name": "MediFund",
+   "type": "health",
+   "run_by": "Ministry of Health / approved institutions and MediFund Committees",
+   "who": "Subsidised citizens with difficulty paying remaining bills after other support.",
+   "gives": "Case-specific medical-bill assistance; no fixed grant.",
+   "delivery": "Medical social workers and institutional committee assessment.",
+   "documents": "Financial, health and household assessment records; full checklist varies and was not extracted.",
+   "portable": "unknown",
+   "speed": "Actual payment time not measured in the sources read.",
+   "shock_responsive": "partly",
+   "heat_relevance": "INFERRED: residual heat-related bills may qualify under assessment; actual heat approvals were not measured.",
+   "status": "current",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "health"
+   ],
+   "sources": [
+    {
+     "label": "Ministry of Health, 2024: MediFund",
+     "url": "https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/medifund/"
+    }
+   ]
+  },
+  {
+   "id": "sg-chas",
+   "level": "national",
+   "name": "Community Health Assist Scheme",
+   "type": "health",
+   "run_by": "Ministry of Health",
+   "who": "Singapore citizens; subsidy card and service categories determine support.",
+   "gives": "CHAS Blue common-illness subsidy up to S$18.50/visit; other categories differ.",
+   "delivery": "Participating GP and dental clinics.",
+   "documents": "Applicable eligibility/card and identity records; current checklist not fully verified.",
+   "portable": "partly",
+   "speed": "Actual payment time not measured in the sources read.",
+   "shock_responsive": "partly",
+   "heat_relevance": "No specific heat-diagnosis subsidy decision was verified; subsidised visits are not necessarily free.",
+   "status": "current",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "health",
+    "moved"
+   ],
+   "sources": [
+    {
+     "label": "Ministry of Health, 2025: Community Health Assist Scheme (CHAS)",
+     "url": "https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/chas/"
+    }
+   ]
+  },
+  {
+   "id": "sg-wica",
+   "level": "national",
+   "name": "Work Injury Compensation Act benefits",
+   "type": "insurance",
+   "run_by": "Ministry of Manpower / employers, platform operators and insurers as applicable",
+   "who": "Covered workers with qualifying work-related injury or occupational disease.",
+   "gives": "Medical leave wages, medical expenses up to S$53,000 or one year, and applicable incapacity/death compensation.",
+   "delivery": "Work-injury reporting, medical assessment and compensation process.",
+   "documents": "Work-relatedness, medical and employment evidence; full checklist not extracted.",
+   "portable": "unknown",
+   "speed": "Actual payment time not measured in the sources read.",
+   "shock_responsive": "yes",
+   "heat_relevance": "KNOWN rule: heat-related work illness can support a claim; actual receipt and processing by heat diagnosis were not verified.",
+   "status": "current",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "work",
+    "health"
+   ],
+   "sources": [
+    {
+     "label": "Ministry of Manpower: Types of compensation under WICA",
+     "url": "https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation/types-of-compensation"
+    },
+    {
+     "label": "Ministry of Manpower: FAQs on Heat stress measures for outdoor work",
+     "url": "https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work/faqs-on-heat-stress-measures-for-outdoor-work"
+    },
+    {
+     "label": "Ministry of Manpower, 2025: Updated coverage of reportable and compensable occupational diseases (ODs) under WSHA and WICA",
+     "url": "https://www.mom.gov.sg/workplace-safety-and-health/od-under-wsha-and-wica"
+    }
+   ]
+  },
+  {
+   "id": "sg-pcp",
+   "level": "national",
+   "name": "Primary Care Plan for eligible migrant workers",
+   "type": "health",
+   "run_by": "Ministry of Manpower / contracted Anchor Operators and employers",
+   "who": "Specified Work Permit/S Pass holders in covered dormitories or CMP sectors; domestic workers excluded from this requirement.",
+   "gives": "Primary care; current co-pay S$5 for physical consultation and S$2 telemedicine.",
+   "delivery": "Employer purchase, designated clinics, telemedicine and listed transport.",
+   "documents": "Work-pass/employer enrolment and service registration; full checklist not extracted.",
+   "portable": "partly",
+   "speed": "Actual payment time not measured in the sources read.",
+   "shock_responsive": "partly",
+   "heat_relevance": "INFERRED: acute care may help; emergency specialist/hospital bills and heat-related wage loss need separate routes.",
+   "status": "current",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "health",
+    "moved",
+    "disaster"
+   ],
+   "sources": [
+    {
+     "label": "Ministry of Manpower: What is the Primary Care Plan (PCP)",
+     "url": "https://www.mom.gov.sg/primary-care-plan/what-is-pcp"
+    },
+    {
+     "label": "Ministry of Manpower, 2026: Enhanced Primary Care Plan brings healthcare closer to migrant workers while lowering or maintaining costs for almost all employers",
+     "url": "https://www.mom.gov.sg/newsroom/press-releases/2026/0806-enhanced-primary-care-plan-appointment-of-new-aos"
+    },
+    {
+     "label": "Ministry of Manpower: Getting primary care services under the Primary Care Plan (PCP)",
+     "url": "https://www.mom.gov.sg/primary-care-plan/getting-primary-care-services"
+    }
+   ]
+  },
+  {
+   "id": "sg-efswcl",
+   "level": "national",
+   "name": "Enterprise Financing Scheme - SME Working Capital Loan",
+   "type": "credit",
+   "run_by": "Enterprise Singapore / participating financial institutions",
+   "who": "Eligible Singapore-registered enterprises with local equity and SME criteria.",
+   "gives": "Up to S$500,000 per borrower over up to five years; lender sets interest. Borrower repays 100%.",
+   "delivery": "Participating lender assessment; enterprise application system.",
+   "documents": "Business, ownership and financial records; lender-specific checklist not extracted.",
+   "portable": "unknown",
+   "speed": "Actual payment time not measured in the sources read.",
+   "shock_responsive": "partly",
+   "heat_relevance": "Business cashflow support rather than household heat insurance; government risk share is not borrower debt relief.",
+   "status": "changed",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "income"
+   ],
+   "sources": [
+    {
+     "label": "Enterprise Singapore, 2026: Enterprise Financing Scheme – SME Working Capital Loan",
+     "url": "https://www.enterprisesg.gov.sg/financial-support/enterprise-financing-scheme---sme-working-capital"
+    }
+   ]
+  },
+  {
+   "id": "sg-actfund",
+   "level": "national",
+   "name": "Agri-food Cluster Transformation Fund",
+   "type": "livelihood",
+   "run_by": "Singapore Food Agency",
+   "who": "Eligible local farms with a valid SFA farm licence and approved project.",
+   "gives": "Technology and capability grants; component-specific rates. ACT Fund 2 is available from 2026.",
+   "delivery": "Business Grants Portal with CorpPass and project assessment.",
+   "documents": "Farm licence, proposal and component-specific records.",
+   "portable": "unknown",
+   "speed": "Around 12-20 weeks to process a complete application; disbursement time not verified.",
+   "shock_responsive": "unknown",
+   "heat_relevance": "Adaptation-related farm investment support, without a verified heat crop-loss or household-income payout.",
+   "status": "changed",
+   "status_as_of": "2026-11-06",
+   "grade": "KNOWN",
+   "situations": [
+    "farm"
+   ],
+   "sources": [
+    {
+     "label": "Singapore Food Agency, 2026: Agri-food Cluster Transformation (ACT) Fund",
+     "url": "https://www.sfa.gov.sg/recognition-programmes-grants/grants/agri-food-cluster-transformation-act-fund"
+    }
+   ]
+  }
+ ],
+ "ladder": [
+  {
+   "scheme": "",
+   "scheme_note": "smta",
+   "group": "Assisted households, national",
+   "step": "received",
+   "finding": "2024: 20825 households received ComCare SMTA.",
+   "grade": "KNOWN",
+   "limit": "Household receipt, not the share of eligible households reached, persons protected or a heat subgroup.",
+   "sources": [
+    {
+     "label": "Ministry of Social and Family Development / Singapore Department of Statistics, 2026: Households Assisted Through Comcare Schemes, Annual",
+     "url": "https://data.gov.sg/datasets/d_5521441aca9643a2021417e096ea65d0/view"
+    }
+   ]
+  },
+  {
+   "scheme": "",
+   "scheme_note": "lta",
+   "group": "Assisted households, national",
+   "step": "received",
+   "finding": "2024: 3240 households received ComCare LTA.",
+   "grade": "KNOWN",
+   "limit": "Historical national series; other household members are not necessarily benefit recipients.",
+   "sources": [
+    {
+     "label": "Ministry of Social and Family Development / Singapore Department of Statistics, 2026: Households Assisted Through Comcare Schemes, Annual",
+     "url": "https://data.gov.sg/datasets/d_5521441aca9643a2021417e096ea65d0/view"
+    }
+   ]
+  },
+  {
+   "scheme": "",
+   "scheme_note": "allcomcare",
+   "group": "Households across included schemes",
+   "step": "received",
+   "finding": "2024: overall ComCare household count is 29291.",
+   "grade": "KNOWN",
+   "limit": "Scheme rows can overlap; counts are not additive and no current heat denominator is available.",
+   "sources": [
+    {
+     "label": "Ministry of Social and Family Development / Singapore Department of Statistics, 2026: Households Assisted Through Comcare Schemes, Annual",
+     "url": "https://data.gov.sg/datasets/d_5521441aca9643a2021417e096ea65d0/view"
+    }
+   ]
+  },
+  {
+   "scheme": "sg-wis",
+   "scheme_note": "",
+   "group": "Lower-income workers, cumulative",
+   "step": "received",
+   "finding": "As at February 2026, up to work year 2025: 1.13 million workers received WIS cumulatively.",
+   "grade": "KNOWN",
+   "limit": "Not annual reach, all eligible workers or people exposed to heat.",
+   "sources": [
+    {
+     "label": "Central Provident Fund Board, 2026: Workfare Income Supplement",
+     "url": "https://www.cpf.gov.sg/member/growing-your-savings/government-support/workfare-income-supplement"
+    }
+   ]
+  }
+ ],
+ "evidence": [
+  {
+   "by": "National University of Singapore Medicine, 2024",
+   "title": "Heat stress causes lower fertility, productivity and reduced cognitive capacity: Project HeatSafe",
+   "url": "https://medicine.nus.edu.sg/news/heat-stress-causes-lower-fertility-productivity-and-reduced-cognitive-capacity-project-heatsafe/",
+   "type": "Agency report",
+   "where": "Singapore",
+   "scale": "Research summary: 355 workers and 214 employers; workplace monitoring in 24 sites",
+   "finding": "INFERRED monetary valuation: productivity loss corresponded to a median S$21 per worker per hot day. This is not observed wage loss; workplace and station WBGT agreement declined as heat increased.",
+   "effect": "unclear",
+   "limit": "University research summary rather than the full underlying papers; no social-protection treatment comparison or heat-benefit effect.",
+   "sources": [
+    {
+     "label": "National University of Singapore Medicine, 2024: Heat stress causes lower fertility, productivity and reduced cognitive capacity: Project HeatSafe",
+     "url": "https://medicine.nus.edu.sg/news/heat-stress-causes-lower-fertility-productivity-and-reduced-cognitive-capacity-project-heatsafe/"
+    }
+   ]
+  },
+  {
+   "by": "Ministry of Manpower, 2026",
+   "title": "Enhanced Primary Care Plan brings healthcare closer to migrant workers while lowering or maintaining costs for almost all employers",
+   "url": "https://www.mom.gov.sg/newsroom/press-releases/2026/0806-enhanced-primary-care-plan-appointment-of-new-aos",
+   "type": "Agency report",
+   "where": "Singapore",
+   "scale": "MOM patient survey, May 2025; sample not stated in release",
+   "finding": "KNOWN agency-reported perceptions: 92% reported accessible/convenient care and over 96% satisfaction. This describes a migrant care route, without a heat-specific outcome or causal comparator.",
+   "effect": "unclear",
+   "limit": "Release gives no survey sample or full methods; new PCP provisions start April 2027 and are not evaluated 2026 effects.",
+   "sources": [
+    {
+     "label": "Ministry of Manpower, 2026: Enhanced Primary Care Plan brings healthcare closer to migrant workers while lowering or maintaining costs for almost all employers",
+     "url": "https://www.mom.gov.sg/newsroom/press-releases/2026/0806-enhanced-primary-care-plan-appointment-of-new-aos"
+    }
+   ]
+  },
+  {
+   "by": "Ministry of Manpower, current guidance",
+   "title": "FAQs on Heat stress measures for outdoor work",
+   "url": "https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work/faqs-on-heat-stress-measures-for-outdoor-work",
+   "type": "Agency report",
+   "where": "Singapore",
+   "scale": "Official heat-work and compensation guidance",
+   "finding": "KNOWN policy finding: work-related heat illness can lead to compensation claims; specified hourly heat-rest breaks are considered paid working hours. No measured paid-claim or mortality effect is stated.",
+   "effect": "unclear",
+   "limit": "Policy evidence, not an impact study or actual receipt measure; entitlement depends on covered work and claim conditions.",
+   "sources": [
+    {
+     "label": "Ministry of Manpower: FAQs on Heat stress measures for outdoor work",
+     "url": "https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work/faqs-on-heat-stress-measures-for-outdoor-work"
+    },
+    {
+     "label": "Ministry of Manpower, 2025: Updated coverage of reportable and compensable occupational diseases (ODs) under WSHA and WICA",
+     "url": "https://www.mom.gov.sg/workplace-safety-and-health/od-under-wsha-and-wica"
+    }
+   ]
+  }
+ ],
+ "routes": [
+  {
+   "id": "sg-route-cpfb",
+   "name": "Central Provident Fund Board",
+   "kind": "government",
+   "does": "Uses administrative records and payment channels for worker income support.",
+   "where": "Singapore",
+   "self_reported": "Cumulative WIS reach is reported separately in section C; not local assistance-provider impact.",
+   "independent": "",
+   "evaluations": "",
+   "url": "https://www.cpf.gov.sg/member/growing-your-savings/government-support/workfare-income-supplement",
+   "org_id": "",
+   "sources": [
+    {
+     "label": "Central Provident Fund Board, 2026: Workfare Income Supplement",
+     "url": "https://www.cpf.gov.sg/member/growing-your-savings/government-support/workfare-income-supplement"
+    }
+   ]
+  },
+  {
+   "id": "sg-route-medicalsocialworkers",
+   "name": "Medical social workers at MediFund-approved institutions",
+   "kind": "government",
+   "does": "Help assess residual medical-bill needs and financing options.",
+   "where": "Singapore",
+   "self_reported": "No heat-specific assisted-claim or timely receipt count read.",
+   "independent": "",
+   "evaluations": "",
+   "url": "https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/medifund/",
+   "org_id": "",
+   "sources": [
+    {
+     "label": "Ministry of Health, 2024: MediFund",
+     "url": "https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/medifund/"
+    }
+   ]
+  },
+  {
+   "id": "sg-route-aos",
+   "name": "Primary Care Plan Anchor Operators",
+   "kind": "government",
+   "does": "Deliver contracted primary care, clinic access, telemedicine and service links.",
+   "where": "Singapore",
+   "self_reported": "MOM reports May 2025 patient-survey perceptions; future 2027 projected reach is not included.",
+   "independent": "",
+   "evaluations": "",
+   "url": "https://www.mom.gov.sg/primary-care-plan/getting-primary-care-services",
+   "org_id": "",
+   "sources": [
+    {
+     "label": "Ministry of Manpower, 2026: Enhanced Primary Care Plan brings healthcare closer to migrant workers while lowering or maintaining costs for almost all employers",
+     "url": "https://www.mom.gov.sg/newsroom/press-releases/2026/0806-enhanced-primary-care-plan-appointment-of-new-aos"
+    },
+    {
+     "label": "Ministry of Manpower: Getting primary care services under the Primary Care Plan (PCP)",
+     "url": "https://www.mom.gov.sg/primary-care-plan/getting-primary-care-services"
+    }
+   ]
+  },
+  {
+   "id": "sg-route-healthserve",
+   "name": "HealthServe",
+   "kind": "civil society",
+   "does": "Own service pages describe free WICA and medical casework, with administrative and hospital support.",
+   "where": "Singapore migrant-worker community",
+   "self_reported": "No independently verified heat-specific reach figure extracted.",
+   "independent": "",
+   "evaluations": "",
+   "url": "https://help.healthserve.org.sg/need-help-or-advice/",
+   "org_id": "healthserve",
+   "sources": [
+    {
+     "label": "HealthServe: Need help or advice EN",
+     "url": "https://help.healthserve.org.sg/need-help-or-advice/"
+    },
+    {
+     "label": "HealthServe: Casework & Social Services",
+     "url": "https://healthserve.org.sg/casework-social-services/"
+    }
+   ]
+  },
+  {
+   "id": "sg-route-twc2",
+   "name": "Transient Workers Count Too",
+   "kind": "civil society",
+   "does": "Reports casework, social support and multilingual contact routes for migrant workers.",
+   "where": "Singapore",
+   "self_reported": "Own 2026 page: over 20,000 digital contacts yearly and about 1,500 service-station contacts.",
+   "independent": "",
+   "evaluations": "",
+   "url": "https://twc2.org.sg/helping-workers-in-need/",
+   "org_id": "twc2",
+   "sources": [
+    {
+     "label": "Transient Workers Count Too, 2026: Helping workers in need",
+     "url": "https://twc2.org.sg/helping-workers-in-need/"
+    }
+   ]
+  }
+ ],
+ "indicators": [
+  {
+   "id": "sg-wbgt",
+   "layer": "exposure",
+   "indicator": "Station WBGT observations",
+   "definition": "Published rolling 15-minute average composite measure, updated at 15-minute intervals; retain station and observation timestamp.",
+   "unit": "degrees C WBGT",
+   "unit_of_place": "city",
+   "year": 2026,
+   "publisher": "National Environment Agency",
+   "url": "https://data.gov.sg/datasets/d_87884af1f85d702d4f74c6af13b4853d/view",
+   "licence": "Singapore Open Data Licence",
+   "open": true,
+   "joinable": false,
+   "access": "open download",
+   "format": "API",
+   "update": "15 minutes",
+   "place_code": "Station identifiers and coordinates; spatial point overlay, not area code",
+   "limit": "KNOWN station observations, native point level. Not individual or workplace exposure; missing values and later corrections occur. [S28]"
+  },
+  {
+   "id": "sg-wbgtshare",
+   "layer": "exposure",
+   "indicator": "Share of valid observations classified high heat stress",
+   "definition": "Proposed station-level fraction of observations carrying the published high heat-stress category over an explicit period, with missing-data completeness shown.",
+   "unit": "percent of valid observations",
+   "unit_of_place": "city",
+   "year": 2026,
+   "publisher": "National Environment Agency; project derivation",
+   "url": "https://data.gov.sg/datasets/d_87884af1f85d702d4f74c6af13b4853d/view",
+   "licence": "Singapore Open Data Licence",
+   "open": true,
+   "joinable": false,
+   "access": "open download",
+   "format": "API",
+   "update": "Derived daily or monthly",
+   "place_code": "Same station keys as wbgt",
+   "limit": "INFERRED analytical summary; not a planning-area estimate or percentage of people harmed. No values calculated. [S28]"
+  },
+  {
+   "id": "sg-hotnightcontext",
+   "layer": "exposure",
+   "indicator": "Hot-night city context from ERA5",
+   "definition": "Proposed count of local days with minimum 2 m temperature above 28 degrees C; analytical threshold.",
+   "unit": "days/year",
+   "unit_of_place": "city",
+   "year": 2025,
+   "publisher": "Copernicus Climate Change Service / ECMWF",
+   "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+   "licence": "CC-BY licence displayed",
+   "open": true,
+   "joinable": false,
+   "access": "registration",
+   "format": "other",
+   "update": "Source daily; map annual",
+   "place_code": "Grid coordinates; city boundary overlay",
+   "limit": "INFERRED; native 0.25 degree grid is too coarse for planning-area comparisons. Do not paint neighbourhood differences from it. [S31]"
+  },
+  {
+   "id": "sg-olderresidents",
+   "layer": "vulnerability",
+   "indicator": "Resident population aged 65 and over",
+   "definition": "Sum published census five-year bands aged 65+ and divide by the same row resident total.",
+   "unit": "percent of resident population",
+   "unit_of_place": "district",
+   "year": 2020,
+   "publisher": "Singapore Department of Statistics",
+   "url": "https://data.gov.sg/datasets/d_d95ae740c0f8961a0b10435836660ce0/view",
+   "licence": "Singapore Open Data Licence",
+   "open": true,
+   "joinable": false,
+   "access": "open download",
+   "format": "CSV",
+   "update": "Census; catalogue says every ten years",
+   "place_code": "Planning-area/subzone names in table; compatible Master Plan 2019 vintage, but numeric shared code not verified",
+   "limit": "KNOWN census base with proposed calculation. Smallest published unit is subzone; district here means aggregated planning area. Non-resident workers are absent. [S26]"
+  },
+  {
+   "id": "sg-youngresidents",
+   "layer": "vulnerability",
+   "indicator": "Resident children under five",
+   "definition": "Use the published 0-4 census group divided by the same resident total, aggregated to planning area.",
+   "unit": "percent of resident population",
+   "unit_of_place": "district",
+   "year": 2020,
+   "publisher": "Singapore Department of Statistics",
+   "url": "https://data.gov.sg/datasets/d_d95ae740c0f8961a0b10435836660ce0/view",
+   "licence": "Singapore Open Data Licence",
+   "open": true,
+   "joinable": false,
+   "access": "open download",
+   "format": "CSV",
+   "update": "Census cycle",
+   "place_code": "Same names and vintage as olderresidents",
+   "limit": "No personal records; not a child-benefit eligibility count. Never add subzones and planning-area totals together. [S26]"
+  },
+  {
+   "id": "sg-comcare",
+   "layer": "coverage",
+   "indicator": "Households receiving ComCare, national",
+   "definition": "Use the annual scheme-specific and overall counts with their defined household denominator and overlap warning.",
+   "unit": "households/year",
+   "unit_of_place": "city",
+   "year": 2024,
+   "publisher": "MSF / Singapore Department of Statistics",
+   "url": "https://data.gov.sg/datasets/d_5521441aca9643a2021417e096ea65d0/view",
+   "licence": "Singapore Open Data Licence",
+   "open": true,
+   "joinable": false,
+   "access": "open download",
+   "format": "CSV",
+   "update": "Annual",
+   "place_code": "Country code SGP only; no planning-area field in this table",
+   "limit": "KNOWN receipt counts; national dashboard context, not a neighbourhood choropleth or eligible coverage rate. [S29]"
+  },
+  {
+   "id": "sg-wisreach",
+   "layer": "coverage",
+   "indicator": "Cumulative WIS recipients",
+   "definition": "Reported cumulative lower-income worker reach up to the stated work-year cutoff; no denominator is supplied.",
+   "unit": "workers, cumulative",
+   "unit_of_place": "city",
+   "year": 2026,
+   "publisher": "Central Provident Fund Board",
+   "url": "https://www.cpf.gov.sg/member/growing-your-savings/government-support/workfare-income-supplement",
+   "licence": "Source reuse terms not verified",
+   "open": false,
+   "joinable": false,
+   "access": "open download",
+   "format": "other",
+   "update": "Dated webpage update",
+   "place_code": "SGP only",
+   "limit": "National cumulative measure; cannot be spatially allocated, annualised or treated as heat-specific receipt. [S6]"
+  },
+  {
+   "id": "sg-heatclaimavailable",
+   "layer": "system",
+   "indicator": "Heat-related WICA claim route",
+   "definition": "Official recognition of work-related heat illness and qualifying compensation, with actual claims unknown.",
+   "unit": "availability and benefit conditions",
+   "unit_of_place": "city",
+   "year": 2026,
+   "publisher": "Ministry of Manpower",
+   "url": "https://www.mom.gov.sg/heat-stress-measures-for-outdoor-work/faqs-on-heat-stress-measures-for-outdoor-work",
+   "licence": "Project may publish independently written factual records; source rights remain separate",
+   "open": false,
+   "joinable": false,
+   "access": "open download",
+   "format": "other",
+   "update": "Rule or guidance revision",
+   "place_code": "SGP; national legal framework",
+   "limit": "KNOWN rule, not automatic case approval, paid receipt or full population coverage. [S13, S14, S15]"
+  },
+  {
+   "id": "sg-pcpavailable",
+   "layer": "system",
+   "indicator": "PCP scope and current service terms",
+   "definition": "Covered migrant-worker groups, clinic zones and current S$5 physical/S$2 telemedicine co-pay, with announced 2027 change separate.",
+   "unit": "service availability and SGD/visit",
+   "unit_of_place": "city",
+   "year": 2026,
+   "publisher": "Ministry of Manpower",
+   "url": "https://www.mom.gov.sg/newsroom/press-releases/2026/0806-enhanced-primary-care-plan-appointment-of-new-aos",
+   "licence": "New factual table with attribution; source rights separate",
+   "open": false,
+   "joinable": false,
+   "access": "open download",
+   "format": "other",
+   "update": "Service or policy revision",
+   "place_code": "Service zones and postal prefixes differ from planning areas; no shared code",
+   "limit": "Coverage rules do not identify all migrants, healthcare need or effective heat treatment. [S16, S17, S18]"
+  }
+ ]
+}

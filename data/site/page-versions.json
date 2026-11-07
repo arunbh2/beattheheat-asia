@@ -16,11 +16,11 @@
   "changed": "2026-10-01"
  },
  "/act/": {
-  "hash": "c2554516c19a6a33",
-  "changed": "2026-11-01"
+  "hash": "c749ea8f8a561a6b",
+  "changed": "2026-11-07"
  },
  "/actions/": {
-  "hash": "a67a3abc13a1c70e",
+  "hash": "4e6e19a6052def17",
   "changed": "2026-11-07"
  },
  "/approach/": {
@@ -156,8 +156,8 @@
   "changed": "2026-11-01"
  },
  "/glossary/": {
-  "hash": "aed7197dd2426409",
-  "changed": "2026-11-03"
+  "hash": "bd84040344a1c5e5",
+  "changed": "2026-11-07"
  },
  "/guide/": {
   "hash": "a8eb70deb31eeffe",
@@ -188,8 +188,8 @@
   "changed": "2026-11-06"
  },
  "/heat-network/": {
-  "hash": "20027934c2015a74",
-  "changed": "2026-11-06"
+  "hash": "46ae5e1f42f7e588",
+  "changed": "2026-11-07"
  },
  "/heatwaves/": {
   "hash": "a0b2e4a97acb5add",
@@ -427,12 +427,16 @@
   "hash": "8d71108086907556",
   "changed": "2026-11-03"
  },
+ "/social-protection/": {
+  "hash": "47895bd295174c29",
+  "changed": "2026-11-07"
+ },
  "/solutions/": {
   "hash": "b0d424ff93ae02f1",
   "changed": "2026-11-06"
  },
  "/sources/": {
-  "hash": "e51e2decbb44eb96",
+  "hash": "fb92acde3c1cef3a",
   "changed": "2026-11-07"
  },
  "/the-web/": {

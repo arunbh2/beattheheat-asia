@@ -44,6 +44,10 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The pa
 
 - [How heat became visible](https://beattheheat.asia/how-heat-became-visible/): when science, health, labour, finance and the UN began to notice extreme heat, and who was still missing; a graded timeline, the turning points and how heat appears in IPCC reports (also in llms-full.txt)
 
+## Social protection and heat
+
+- [Who could help a household through a hot season](https://beattheheat.asia/social-protection/): public schemes that could cushion a household through a hot season in 6 countries (Bangladesh, India, Indonesia, Nepal, Singapore, Thailand): who runs each, who is eligible, what it gives, how it is delivered, the steps of access with what is measured, delivery routes and organisations, and where no public system responds (also in llms-full.txt)
+
 ## Optional
 
 - [The whole map in one file](https://beattheheat.asia/llms-full.txt): every page above as plain text, for reading in one go
@@ -105,7 +109,7 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The pa
 
 ### The evidence
 
-- [2,177 sources](https://beattheheat.asia/sources/) cited, every one listed
+- [2,272 sources](https://beattheheat.asia/sources/) cited, every one listed
 - [71 studies graded](https://beattheheat.asia/evidence-map/) cycle by cycle, on the evidence map
 - [43 learning questions](https://beattheheat.asia/evidence-map/#questions) nobody has answered yet
 - [397 report references](https://beattheheat.asia/lancet-countdown-2026/) the Lancet Countdown 2026, in plain language
@@ -121,4 +125,4 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The pa
 
 - [98 schemes](https://beattheheat.asia/paying-when-heat-strikes/) and 36 financial instruments, and whether they paid
 - [91 businesses](https://beattheheat.asia/heat-economy/) and 77 funders in the heat economy
-- [330 organisations](https://beattheheat.asia/heat-network/) mapped, each with a profile
+- [333 organisations](https://beattheheat.asia/heat-network/) mapped, each with a profile
