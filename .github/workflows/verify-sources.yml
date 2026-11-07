@@ -15,18 +15,29 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: 22
       - name: Install pdftotext, so PDF sources can be checked
         run: sudo apt-get install -y -qq poppler-utils >/dev/null || echo "pdftotext not installed; PDF terms will read as missing"
-      - run: node tools/verify-inbox.js "${{ inputs.month }}"
+      # inputs reach the shell as variables, never as script text, and are checked before use
+      - name: Check the input
+        id: month
+        env:
+          MONTH: ${{ inputs.month }}
+        run: '[[ "$MONTH" =~ ^[0-9]{4}-[0-9]{2}(-[a-z0-9-]+)?$ ]] || { echo "::error::month must look like 2026-11 or 2026-11-topic"; exit 1; }'
+      - run: node tools/verify-inbox.js "$MONTH"
+        env:
+          MONTH: ${{ inputs.month }}
       - name: Commit the results
-        if: always()   # keep what was checked even if the run stopped early; the next run resumes from it
+        # keep what was checked even if the run stopped early (the next run resumes from it), unless the input was refused
+        if: always() && steps.month.outcome != 'failure'
+        env:
+          MONTH: ${{ inputs.month }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "data/inbox/${{ inputs.month }}"
-          git diff --cached --quiet || git commit -m "Verify sources for ${{ inputs.month }}"
+          git add "data/inbox/$MONTH"
+          git diff --cached --quiet || git commit -m "Verify sources for $MONTH"
           git push

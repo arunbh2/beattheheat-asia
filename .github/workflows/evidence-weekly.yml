@@ -24,14 +24,18 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: 22
       - name: Harvest, screen and pre-fill
         id: h
-        run: node tools/living-evidence/harvest.js --days "${{ inputs.days || '8' }}"
+        # inputs reach the shell as variables, never as script text, and are checked before use
+        run: |
+          [[ "$DAYS" =~ ^[0-9]{1,3}$ ]] || { echo "::error::days must be a whole number of days"; exit 1; }
+          node tools/living-evidence/harvest.js --days "$DAYS"
         env:
+          DAYS: ${{ inputs.days || '8' }}
           # optional and free: an OpenAlex API key (openalex.org) raises its request limit
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
       - name: Open the review pull request
