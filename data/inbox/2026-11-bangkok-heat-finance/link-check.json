@@ -1,0 +1,50 @@
+{
+ "_terms": {
+  "https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf": {
+   "Urban Heat Management Action Plan": true,
+   "Bangkok": true,
+   "BMA developed the Urban Heat Management Action Plan": true,
+   "Deputy Governor of Bangkok as chairman": true,
+   "22 indicators": true,
+   "Covering 80% of schools": true,
+   "Cool Community Centers": true,
+   "at least 2 cooling points per district": true,
+   "5,000 households/year": true,
+   "146,266,400": true,
+   "10,816,408": true,
+   "budget shortfall": true,
+   "OPEX are not always covered": true,
+   "most projects are public goods": true,
+   "best-fit financing": true,
+   "primary constraint is not climate ambition": true,
+   "pipeline of investment-ready adaptation projects": true,
+   "Introduction of climate budgeting": true,
+   "prior approval from the Cabinet": true,
+   "Not issued yet by BMA": true,
+   "discontinued in 2022": true,
+   "independent fiscal authority": true,
+   "dedicated allocations for district-level climate actions": true,
+   "Equity-based prioritization criteria": true,
+   "does not exceed THB 5 million per project": true,
+   "does not exceed 3 years": true,
+   "At least 70% of the budget": true,
+   "74.8%": true,
+   "bundled, citywide program": true,
+   "specify O&M conditions": true,
+   "concerns about electricity costs": true,
+   "metal-roof housing": true,
+   "unregistered residents": true
+  },
+  "https://www.undp.org/thailand/publications/bangkok-financing-strategy-tackling-urban-heat": {
+   "Bangkok": false,
+   "heat": false
+  },
+  "https://thailand.go.th/issue-focus-detail/bangkok-launches-304-cooling-centers-to-combat-extreme-heat": {
+   "304": true,
+   "World Bank": false
+  }
+ },
+ "https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf": "OK",
+ "https://www.undp.org/thailand/publications/bangkok-financing-strategy-tackling-urban-heat": "BLOCKED",
+ "https://thailand.go.th/issue-focus-detail/bangkok-launches-304-cooling-centers-to-combat-extreme-heat": "OK"
+}
