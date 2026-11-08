@@ -1,21 +1,29 @@
 {
- "updated": "2026-11-08T06:21:05.536Z",
+ "updated": "2026-11-08T13:41:11.038Z",
  "keepDays": 14,
  "sources": [
   {
    "name": "regional news outlets",
    "ok": true,
-   "found": 499
+   "found": 494
   },
   {
    "name": "GDELT Project",
    "ok": false,
    "found": 0,
-   "error": "HTTP 429: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic us"
+   "error": "fetch failed: UND_ERR_CONNECT_TIMEOUT"
   }
  ],
  "query": "(heatwave OR \"heat wave\" OR \"extreme heat\" OR \"heat stress\" OR heatstroke OR \"heat index\") (India OR Bangladesh OR Nepal OR \"Sri Lanka\" OR Pakistan OR Bhutan OR Maldives OR Cambodia OR Indonesia OR Philippines OR Singapore OR Thailand OR Vietnam OR Malaysia OR Myanmar OR Laos) sourcelang:english",
  "items": [
+  {
+   "title": "High daytime heat index, chilly nights logged in Pangasinan",
+   "url": "https://newsinfo.inquirer.net/2337985/high-daytime-heat-index-chilly-nights-logged-in-pangasinan",
+   "domain": "newsinfo.inquirer.net",
+   "date": "2026-11-08T14:16:00Z",
+   "place": "Philippines",
+   "via": "Inquirer"
+  },
   {
    "title": "Heatwave fuels 54% fire surge in Northern Mindanao",
    "url": "https://newsinfo.inquirer.net/2337482/heatwave-fuels-54-fire-surge-in-northern-mindanao",
@@ -111,14 +119,6 @@
    "date": "2026-10-27T18:10:38Z",
    "place": "Philippines",
    "via": "Inquirer"
-  },
-  {
-   "title": "Rising heat takes toll on Bangladesh’s garment workers",
-   "url": "https://www.eco-business.com/news/rising-heat-takes-toll-on-bangladeshs-garment-workers/",
-   "domain": "eco-business.com",
-   "date": "2026-10-25T13:02:00Z",
-   "place": "Bangladesh",
-   "via": "Eco-Business"
   }
  ]
 }

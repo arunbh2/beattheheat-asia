@@ -2,6 +2,13 @@
  "note": "Every item that has appeared on /news/. Built by tools/archive-news.js.",
  "news": [
   {
+   "title": "High daytime heat index, chilly nights logged in Pangasinan",
+   "url": "https://newsinfo.inquirer.net/2337985/high-daytime-heat-index-chilly-nights-logged-in-pangasinan",
+   "via": "Inquirer",
+   "date": "2026-11-08T14:16:00Z",
+   "place": "Philippines"
+  },
+  {
    "title": "Heatwave fuels 54% fire surge in Northern Mindanao",
    "url": "https://newsinfo.inquirer.net/2337482/heatwave-fuels-54-fire-surge-in-northern-mindanao",
    "via": "Inquirer",
@@ -1120,5 +1127,5 @@
    "issue": "2027-07-28"
   }
  ],
- "updated": "2026-11-07T13:19:14.373Z"
+ "updated": "2026-11-08T13:41:14.844Z"
 }
