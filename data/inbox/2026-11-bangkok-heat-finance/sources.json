@@ -1,0 +1,104 @@
+[
+ {
+  "id": "src-bkk-strategy",
+  "type": "source",
+  "keys": [
+   "strategy"
+  ],
+  "title": "Bangkok's Financing Strategy for Tackling Urban Heat Challenges",
+  "publisher": "UNDP and Bangkok Metropolitan Administration",
+  "year": 2026,
+  "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf",
+  "kind": "Financing strategy",
+  "where": "Bangkok",
+  "expect": [
+   "Urban Heat Management Action Plan",
+   "Bangkok",
+   "BMA developed the Urban Heat Management Action Plan",
+   "Deputy Governor of Bangkok as chairman",
+   "22 indicators",
+   "Covering 80% of schools",
+   "Cool Community Centers",
+   "at least 2 cooling points per district",
+   "5,000 households/year",
+   "146,266,400",
+   "10,816,408",
+   "budget shortfall",
+   "OPEX are not always covered",
+   "most projects are public goods",
+   "best-fit financing",
+   "primary constraint is not climate ambition",
+   "pipeline of investment-ready adaptation projects",
+   "Introduction of climate budgeting",
+   "prior approval from the Cabinet",
+   "Not issued yet by BMA",
+   "discontinued in 2022",
+   "independent fiscal authority",
+   "dedicated allocations for district-level climate actions",
+   "Equity-based prioritization criteria",
+   "does not exceed THB 5 million per project",
+   "does not exceed 3 years",
+   "At least 70% of the budget",
+   "74.8%",
+   "bundled, citywide program",
+   "specify O&M conditions",
+   "concerns about electricity costs",
+   "metal-roof housing",
+   "unregistered residents"
+  ],
+  "claims": [
+   "c-plan-owner",
+   "c-plan-targets",
+   "c-cost",
+   "c-opex-gap",
+   "c-public-goods",
+   "c-constraint",
+   "c-bonds",
+   "c-districts",
+   "c-envfund",
+   "c-bundle",
+   "c-electricity",
+   "c-metal-roof",
+   "c-unregistered"
+  ],
+  "note": "Staged from the Bangkok heat financing strategy batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-bkk-pub",
+  "type": "source",
+  "keys": [
+   "pub"
+  ],
+  "title": "Bangkok financing strategy for tackling urban heat (publication page)",
+  "publisher": "UNDP Thailand",
+  "year": 2026,
+  "url": "https://www.undp.org/thailand/publications/bangkok-financing-strategy-tackling-urban-heat",
+  "kind": "Publication page",
+  "where": "Bangkok",
+  "expect": [
+   "Bangkok",
+   "heat"
+  ],
+  "claims": [],
+  "note": "Staged from the Bangkok heat financing strategy batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-bkk-gov-th",
+  "type": "source",
+  "keys": [
+   "gov-th"
+  ],
+  "title": "Bangkok launches 304 cooling centers to combat extreme heat",
+  "publisher": "Government of Thailand",
+  "year": 2026,
+  "url": "https://thailand.go.th/issue-focus-detail/bangkok-launches-304-cooling-centers-to-combat-extreme-heat",
+  "kind": "Government news",
+  "where": "Bangkok",
+  "expect": [
+   "304",
+   "World Bank"
+  ],
+  "claims": [],
+  "note": "Staged from the Bangkok heat financing strategy batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ }
+]
