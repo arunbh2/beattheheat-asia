@@ -65,7 +65,7 @@
     "heat": "Mostly humid heat.",
     "hap": {
       "status": "plan",
-      "text": "For the 2026 hot season Bangkok opened 304 cooling centres in schools, health centres and district offices, under a heat management plan developed with the World Bank.",
+      "text": "For the 2026 hot season Bangkok opened 304 cooling centres in schools, health centres and district offices. The city’s own Urban Heat Management Action Plan for 2026 has 22 indicators and a committee chaired by a deputy governor; its targets include cooling rooms in 80% of schools and public health service centres, at least two cooling points in every district, and home visits to at least 5,000 vulnerable households a year during heat alerts. A 2026 financing strategy with UNDP costs the plan at about THB 146 million to set up and THB 10.8 million a year to run, mostly from existing city budgets, and notes that running costs are not always covered.",
       "sources": [
         {
           "label": "Government of Thailand, 2026",
@@ -74,6 +74,10 @@
         {
           "label": "World Bank, Shaping a Cooler Bangkok, 2025",
           "url": "https://www.worldbank.org/en/country/thailand/publication/shaping-a-cooler-bangkok-tackling-urban-heat-for-a-more-livable-city"
+        },
+        {
+          "label": "UNDP and Bangkok Metropolitan Administration: Bangkok's financing strategy for tackling urban heat, 2026",
+          "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf"
         }
       ]
     },
@@ -107,7 +111,7 @@
         }
       }
     ],
-    "orgs": ["homenet","bot","undp","adb"],
+    "orgs": ["bangkokmetropolitanadmin","homenet","bot","undp","adb"],
     "examples": [],
     "risk": ["workers","settlements"]
   },

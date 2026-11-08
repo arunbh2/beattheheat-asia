@@ -684,6 +684,15 @@
             "url": "https://researchportal.ukhsa.gov.uk/en/publications/public-health-effectiveness-of-cooling-centres-during-periods-of-/"
           }
         ]
+      },
+      {
+        "text": "Running costs can decide whether a cooling space keeps working. Bangkok reported that money to build is generally available but running costs are not always covered; consultation participants said some childcare centres held back from air conditioning over electricity costs.",
+        "sources": [
+          {
+            "label": "UNDP and Bangkok Metropolitan Administration: Bangkok's financing strategy for tackling urban heat, 2026",
+            "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf"
+          }
+        ]
       }
     ]
   },
@@ -695,11 +704,15 @@
     "when": "years",
     "measure": "Heat budget set aside before the season starts",
     "text": "Ring-fenced funding for heat action, set aside before the season, so protection doesn’t compete with the emergency.",
-    "example": "Since August 2026, India’s disaster response funds can pay for heatwave relief; preparing for heat is still paid for separately. In Nepal, Madhesh Province and five municipalities committed 5% of sectoral budgets to adaptation and disaster risk reduction, with support from Practical Action and Mercy Corps.",
+    "example": "Since August 2026, India’s disaster response funds can pay for heatwave relief; preparing for heat is still paid for separately. In Nepal, Madhesh Province and five municipalities committed 5% of sectoral budgets to adaptation and disaster risk reduction, with support from Practical Action and Mercy Corps. In Bangkok, a 2026 financing strategy with UNDP costs the city’s heat plan at about THB 146 million to set up and THB 10.8 million a year to run, and proposes climate budgeting so that adaptation spending can be identified and reported.",
     "exampleSources": [
       {
         "label": "CEEW, Nepal in a Warming World, 2025",
         "url": "https://www.ceew.in/publications/nepal-heat-health-action"
+      },
+      {
+        "label": "UNDP and Bangkok Metropolitan Administration: Bangkok's financing strategy for tackling urban heat, 2026",
+        "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf"
       }
     ],
     "guides": [

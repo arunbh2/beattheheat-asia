@@ -2188,7 +2188,7 @@
     "role": "asia",
     "name": "Bangkok Metropolitan Administration",
     "url": "https://www.bangkok.go.th",
-    "does": "Runs heat warnings and public cooling spaces.",
+    "does": "Runs heat warnings and public cooling spaces. Its Urban Heat Management Action Plan for 2026 has 22 indicators and a committee chaired by a deputy governor, and a 2026 financing strategy with UNDP sets out how to pay for it.",
     "levers": ["coolbydesign","coolingcentres","greencity"]
   },
   {

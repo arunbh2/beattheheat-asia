@@ -14,6 +14,7 @@
     "could": "Compare excess deaths with recorded heat deaths in a few districts, and test simple reporting changes.", "scale": "A few districts, one or two seasons" },
   { "id": "q-prevention-pays", "loop": "reactive", "status": "open",
     "history": [{ "date": "2026-10-31", "status": "open", "note": "Opened on the learning agenda" }],
+    "underway": [{ "since": "2026-11-08", "text": "Bangkok’s 2026 financing strategy costs the city’s heat plan and proposes climate budgeting to identify and report adaptation spending. Spending tagged this way over several seasons could show what a city spends before heatwaves.", "source": ["UNDP and Bangkok Metropolitan Administration: Bangkok's financing strategy for tackling urban heat, 2026", "https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf"] }],
     "q": "Does money spent on prevention before summer reduce what is spent during heatwaves?",
     "have": "One modelled estimate for Bangkok, multi-hazard estimates, and a review of heat plans as they stood in 2023.",
     "could": "Track what a city spends before and during heatwaves over several seasons, with its health and work outcomes.", "scale": "One or two cities, three seasons" },

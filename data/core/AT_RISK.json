@@ -82,6 +82,13 @@
           "label": "Scientific Reports, 2026",
           "url": "https://www.nature.com/articles/s41598-026-62477-4"
         }
+      },
+      {
+        "fact": "In consultations for Bangkok's financing strategy, participants said residents who use local services but are not registered in Bangkok mean some project budgets have to stretch to cover them.",
+        "source": {
+          "label": "UNDP and Bangkok Metropolitan Administration: Bangkok's financing strategy for tackling urban heat, 2026",
+          "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf"
+        }
       }
     ],
     "nodes": ["homes","uhi","sleepless","energypoverty"],
@@ -269,6 +276,13 @@
         "source": {
           "label": "WHO, 2015: climate and health country profile, Bhutan",
           "url": "https://cdn.who.int/media/docs/default-source/searo/wsh-och-searo/bhu-c-h-profile.pdf?sfvrsn=9b974adb_2"
+        }
+      },
+      {
+        "fact": "In consultations for Bangkok's financing strategy, participants said heat response may not reach older and bedridden people living in metal-roofed homes, who are highly affected by heat.",
+        "source": {
+          "label": "UNDP and Bangkok Metropolitan Administration: Bangkok's financing strategy for tackling urban heat, 2026",
+          "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf"
         }
       }
     ]

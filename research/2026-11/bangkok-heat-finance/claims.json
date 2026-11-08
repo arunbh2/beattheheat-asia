@@ -1,0 +1,121 @@
+{
+ "about": "Insights from 'Bangkok's Financing Strategy for Tackling Urban Heat Challenges' (UNDP with the Bangkok Metropolitan Administration, October 2026), each tied to the exact words of the strategy. stage.js turns this into data/inbox/2026-11-bangkok-heat-finance/sources.json; verify-sources.yml checks every term on its page; apply.js uses a claim only when every term it rests on was found. No individual is named; governments are not ranked. Consultation findings are reported as what participants said, not as measured facts.",
+ "sources": [
+  {
+   "key": "strategy",
+   "title": "Bangkok's Financing Strategy for Tackling Urban Heat Challenges",
+   "publisher": "UNDP and Bangkok Metropolitan Administration",
+   "year": 2026,
+   "kind": "Financing strategy",
+   "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf",
+   "expect": [
+    "Urban Heat Management Action Plan",
+    "Bangkok"
+   ]
+  },
+  {
+   "key": "pub",
+   "title": "Bangkok financing strategy for tackling urban heat (publication page)",
+   "publisher": "UNDP Thailand",
+   "year": 2026,
+   "kind": "Publication page",
+   "url": "https://www.undp.org/thailand/publications/bangkok-financing-strategy-tackling-urban-heat",
+   "expect": [
+    "Bangkok",
+    "heat"
+   ]
+  },
+  {
+   "key": "gov-th",
+   "title": "Bangkok launches 304 cooling centers to combat extreme heat",
+   "publisher": "Government of Thailand",
+   "year": 2026,
+   "kind": "Government news",
+   "url": "https://thailand.go.th/issue-focus-detail/bangkok-launches-304-cooling-centers-to-combat-extreme-heat",
+   "expect": [
+    "304",
+    "World Bank"
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "id": "c-plan-owner",
+   "where": "Bangkok city page (heat plan): replaces 'developed with the World Bank'",
+   "rests_on": [["strategy", "BMA developed the Urban Heat Management Action Plan"], ["strategy", "Deputy Governor of Bangkok as chairman"], ["strategy", "22 indicators"]],
+   "text": "The Bangkok Metropolitan Administration developed its own Urban Heat Management Action Plan for 2026, with 22 indicators and a committee chaired by a deputy governor."
+  },
+  {
+   "id": "c-plan-targets",
+   "where": "Bangkok city page (heat plan)",
+   "rests_on": [["strategy", "Covering 80% of schools"], ["strategy", "Cool Community Centers"], ["strategy", "at least 2 cooling points per district"], ["strategy", "5,000 households/year"]],
+   "text": "Its targets include cooling rooms in 80% of schools and public health service centres, at least 100 Cool Community Centers, at least two cooling points in every district, and home visits to at least 5,000 vulnerable households a year during heat alerts."
+  },
+  {
+   "id": "c-cost",
+   "where": "Bangkok city page; lever heatbudget example; learning agenda q-prevention-pays",
+   "rests_on": [["strategy", "146,266,400"], ["strategy", "10,816,408"], ["strategy", "budget shortfall"]],
+   "text": "A 2026 financing strategy with UNDP costs the plan at about THB 146 million to set up and THB 10.8 million a year to run. These are indicative costs, not a budget shortfall: the plan is mainly paid for from existing city budgets."
+  },
+  {
+   "id": "c-opex-gap",
+   "where": "Bangkok city page; lever coolingcentres watch",
+   "rests_on": [["strategy", "OPEX are not always covered"]],
+   "text": "The city reported that it generally receives enough money to build, but running costs are not always covered, which limits continuity and scaling."
+  },
+  {
+   "id": "c-public-goods",
+   "where": "Bangkok city page",
+   "rests_on": [["strategy", "most projects are public goods"], ["strategy", "best-fit financing"]],
+   "text": "Most of the plan's projects are public goods with little potential to earn revenue, so the strategy matches each to the financing that fits it, which for most means public budgets."
+  },
+  {
+   "id": "c-constraint",
+   "where": "Bangkok city page; Thailand snapshot finance",
+   "rests_on": [["strategy", "primary constraint is not climate ambition"], ["strategy", "pipeline of investment-ready adaptation projects"], ["strategy", "Introduction of climate budgeting"]],
+   "text": "The strategy finds the main constraint is not climate ambition but the conditions needed to turn priorities into finance-ready investments: there is no pipeline of investment-ready adaptation projects yet, and it proposes climate budgeting to identify and report adaptation spending."
+  },
+  {
+   "id": "c-bonds",
+   "where": "Thailand snapshot finance (BMA public budgets and capital routes)",
+   "rests_on": [["strategy", "prior approval from the Cabinet"], ["strategy", "Not issued yet by BMA"], ["strategy", "discontinued in 2022"]],
+   "text": "The city may issue bonds with prior Cabinet approval but has not yet done so, and its AA+ credit rating was discontinued in 2022."
+  },
+  {
+   "id": "c-districts",
+   "where": "Bangkok city page; Thailand snapshot finance",
+   "rests_on": [["strategy", "independent fiscal authority"], ["strategy", "dedicated allocations for district-level climate actions"], ["strategy", "Equity-based prioritization criteria"]],
+   "text": "District offices have no independent fiscal authority; the strategy proposes dedicated allocations for district climate action and criteria that steer money towards more vulnerable districts."
+  },
+  {
+   "id": "c-envfund",
+   "where": "Thailand snapshot finance (Environmental Fund route)",
+   "rests_on": [["strategy", "does not exceed THB 5 million per project"], ["strategy", "does not exceed 3 years"], ["strategy", "At least 70% of the budget"], ["strategy", "74.8%"]],
+   "text": "Under the Environmental Fund, a local government adaptation project can request up to THB 5 million for up to three years, with at least 70% of the budget spent on activities. About 74.8% of the fund's disbursements have gone to local governments."
+  },
+  {
+   "id": "c-bundle",
+   "where": "Lever coolingcentres watch; Bangkok city page",
+   "rests_on": [["strategy", "bundled, citywide program"], ["strategy", "specify O&M conditions"]],
+   "text": "The strategy suggests offering cooling facilities to sponsors as one bundled, citywide programme rather than one site at a time, with agreements that specify operation and maintenance."
+  },
+  {
+   "id": "c-electricity",
+   "where": "Lever coolingcentres watch",
+   "rests_on": [["strategy", "concerns about electricity costs"]],
+   "text": "In consultations for Bangkok's financing strategy, participants said some childcare centres could not install air conditioning because of concerns about electricity costs."
+  },
+  {
+   "id": "c-metal-roof",
+   "where": "Who is at risk: older people (more)",
+   "rests_on": [["strategy", "metal-roof housing"]],
+   "text": "In consultations for Bangkok's financing strategy, participants said heat response may not reach older and bedridden people living in metal-roofed homes, who are highly affected by heat."
+  },
+  {
+   "id": "c-unregistered",
+   "where": "Who is at risk: informal settlements (more)",
+   "rests_on": [["strategy", "unregistered residents"]],
+   "text": "In consultations for Bangkok's financing strategy, participants said residents who use local services but are not registered in Bangkok mean some project budgets have to stretch to cover them."
+  }
+ ]
+}

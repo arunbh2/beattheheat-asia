@@ -1,0 +1,145 @@
+[
+ {
+  "id": "c-plan-owner",
+  "where": "Bangkok city page (heat plan): replaces 'developed with the World Bank'",
+  "text": "The Bangkok Metropolitan Administration developed its own Urban Heat Management Action Plan for 2026, with 22 indicators and a committee chaired by a deputy governor.",
+  "sources": [
+   {
+    "label": "UNDP and Bangkok Metropolitan Administration: Bangkok's Financing Strategy for Tackling Urban Heat Challenges, 2026",
+    "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-plan-targets",
+  "where": "Bangkok city page (heat plan)",
+  "text": "Its targets include cooling rooms in 80% of schools and public health service centres, at least 100 Cool Community Centers, at least two cooling points in every district, and home visits to at least 5,000 vulnerable households a year during heat alerts.",
+  "sources": [
+   {
+    "label": "UNDP and Bangkok Metropolitan Administration: Bangkok's Financing Strategy for Tackling Urban Heat Challenges, 2026",
+    "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-cost",
+  "where": "Bangkok city page; lever heatbudget example; learning agenda q-prevention-pays",
+  "text": "A 2026 financing strategy with UNDP costs the plan at about THB 146 million to set up and THB 10.8 million a year to run. These are indicative costs, not a budget shortfall: the plan is mainly paid for from existing city budgets.",
+  "sources": [
+   {
+    "label": "UNDP and Bangkok Metropolitan Administration: Bangkok's Financing Strategy for Tackling Urban Heat Challenges, 2026",
+    "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-opex-gap",
+  "where": "Bangkok city page; lever coolingcentres watch",
+  "text": "The city reported that it generally receives enough money to build, but running costs are not always covered, which limits continuity and scaling.",
+  "sources": [
+   {
+    "label": "UNDP and Bangkok Metropolitan Administration: Bangkok's Financing Strategy for Tackling Urban Heat Challenges, 2026",
+    "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-public-goods",
+  "where": "Bangkok city page",
+  "text": "Most of the plan's projects are public goods with little potential to earn revenue, so the strategy matches each to the financing that fits it, which for most means public budgets.",
+  "sources": [
+   {
+    "label": "UNDP and Bangkok Metropolitan Administration: Bangkok's Financing Strategy for Tackling Urban Heat Challenges, 2026",
+    "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-constraint",
+  "where": "Bangkok city page; Thailand snapshot finance",
+  "text": "The strategy finds the main constraint is not climate ambition but the conditions needed to turn priorities into finance-ready investments: there is no pipeline of investment-ready adaptation projects yet, and it proposes climate budgeting to identify and report adaptation spending.",
+  "sources": [
+   {
+    "label": "UNDP and Bangkok Metropolitan Administration: Bangkok's Financing Strategy for Tackling Urban Heat Challenges, 2026",
+    "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-bonds",
+  "where": "Thailand snapshot finance (BMA public budgets and capital routes)",
+  "text": "The city may issue bonds with prior Cabinet approval but has not yet done so, and its AA+ credit rating was discontinued in 2022.",
+  "sources": [
+   {
+    "label": "UNDP and Bangkok Metropolitan Administration: Bangkok's Financing Strategy for Tackling Urban Heat Challenges, 2026",
+    "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-districts",
+  "where": "Bangkok city page; Thailand snapshot finance",
+  "text": "District offices have no independent fiscal authority; the strategy proposes dedicated allocations for district climate action and criteria that steer money towards more vulnerable districts.",
+  "sources": [
+   {
+    "label": "UNDP and Bangkok Metropolitan Administration: Bangkok's Financing Strategy for Tackling Urban Heat Challenges, 2026",
+    "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-envfund",
+  "where": "Thailand snapshot finance (Environmental Fund route)",
+  "text": "Under the Environmental Fund, a local government adaptation project can request up to THB 5 million for up to three years, with at least 70% of the budget spent on activities. About 74.8% of the fund's disbursements have gone to local governments.",
+  "sources": [
+   {
+    "label": "UNDP and Bangkok Metropolitan Administration: Bangkok's Financing Strategy for Tackling Urban Heat Challenges, 2026",
+    "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-bundle",
+  "where": "Lever coolingcentres watch; Bangkok city page",
+  "text": "The strategy suggests offering cooling facilities to sponsors as one bundled, citywide programme rather than one site at a time, with agreements that specify operation and maintenance.",
+  "sources": [
+   {
+    "label": "UNDP and Bangkok Metropolitan Administration: Bangkok's Financing Strategy for Tackling Urban Heat Challenges, 2026",
+    "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-electricity",
+  "where": "Lever coolingcentres watch",
+  "text": "In consultations for Bangkok's financing strategy, participants said some childcare centres could not install air conditioning because of concerns about electricity costs.",
+  "sources": [
+   {
+    "label": "UNDP and Bangkok Metropolitan Administration: Bangkok's Financing Strategy for Tackling Urban Heat Challenges, 2026",
+    "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-metal-roof",
+  "where": "Who is at risk: older people (more)",
+  "text": "In consultations for Bangkok's financing strategy, participants said heat response may not reach older and bedridden people living in metal-roofed homes, who are highly affected by heat.",
+  "sources": [
+   {
+    "label": "UNDP and Bangkok Metropolitan Administration: Bangkok's Financing Strategy for Tackling Urban Heat Challenges, 2026",
+    "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-unregistered",
+  "where": "Who is at risk: informal settlements (more)",
+  "text": "In consultations for Bangkok's financing strategy, participants said residents who use local services but are not registered in Bangkok mean some project budgets have to stretch to cover them.",
+  "sources": [
+   {
+    "label": "UNDP and Bangkok Metropolitan Administration: Bangkok's Financing Strategy for Tackling Urban Heat Challenges, 2026",
+    "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf"
+   }
+  ]
+ }
+]
