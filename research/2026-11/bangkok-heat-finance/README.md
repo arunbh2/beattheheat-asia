@@ -16,7 +16,11 @@ What participants said in the strategy's consultations is written as what they s
 | 4 | `gate.js` | Passes a claim only when every term it rests on was found. It writes `confirmed.json` and `dropped-after-check.json`. |
 | 5 | `apply.js` | Makes exact, formatting-preserving edits, each tied to confirmed claims. An edit for an unconfirmed claim is refused. |
 
-The Government of Thailand page on the 304 cooling centres was staged too. It was checked for "World Bank", to see whether it ties the bank to the plan. No claim rests on that page.
+The Government of Thailand page on the 304 cooling centres was staged too. It was checked for "World Bank", to see whether it ties the bank to the plan. It opened and holds "304", but not "World Bank", so the old wording had no support there. No claim rests on that page. The UNDP publication page blocked the checker; every claim rests on the PDF, which opened and held all its terms.
+
+## Result
+
+All 13 claims were confirmed, and none was set aside (`dropped-after-check.json` is empty).
 
 ## Where the claims go
 
@@ -30,7 +34,7 @@ The Government of Thailand page on the 304 cooling centres was staged too. It wa
 | Bonds possible with Cabinet approval but never issued; the credit rating discontinued in 2022 | The Thailand snapshot |
 | Districts have no fiscal authority; dedicated district allocations and equity criteria proposed | The Thailand snapshot |
 | The Environmental Fund's grant limits, and the share that reaches local governments | The Thailand snapshot |
-| Bundling cooling facilities for sponsors, with maintenance in the agreement | The cooling centres watch-out |
+| Bundling cooling facilities for sponsors, with maintenance in the agreement | The Thailand snapshot |
 | Consultation: childcare centres and electricity costs | The cooling centres watch-out |
 | Consultation: older and bedridden people in metal-roofed homes | Older people on /who-is-at-risk/ |
 | Consultation: residents not registered in Bangkok | Informal settlements on /who-is-at-risk/ |

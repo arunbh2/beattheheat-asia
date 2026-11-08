@@ -44,9 +44,9 @@ edit(["c-cost", "c-constraint"], "data/core/LEVERS.json",
   `        "url": "https://www.ceew.in/publications/nepal-heat-health-action"\n      },\n${srcText("      ")}\n    ],`);
 
 // 4. Cooling centres: running costs as a watch-out
-edit(["c-opex-gap", "c-electricity", "c-bundle"], "data/core/LEVERS.json",
+edit(["c-opex-gap", "c-electricity"], "data/core/LEVERS.json",
   `            "url": "https://researchportal.ukhsa.gov.uk/en/publications/public-health-effectiveness-of-cooling-centres-during-periods-of-/"\n          }\n        ]\n      }\n    ]`,
-  `            "url": "https://researchportal.ukhsa.gov.uk/en/publications/public-health-effectiveness-of-cooling-centres-during-periods-of-/"\n          }\n        ]\n      },\n      {\n        "text": "Running costs can decide whether a cooling space keeps working. Bangkok reported that money to build is generally available but running costs are not always covered, and consultation participants said some childcare centres held back from air conditioning over electricity costs. The city’s financing strategy suggests offering cooling facilities to sponsors as one citywide programme, with agreements that set out operation and maintenance.",\n        "sources": [\n${srcText("          ")}\n        ]\n      }\n    ]`);
+  `            "url": "https://researchportal.ukhsa.gov.uk/en/publications/public-health-effectiveness-of-cooling-centres-during-periods-of-/"\n          }\n        ]\n      },\n      {\n        "text": "Running costs can decide whether a cooling space keeps working. Bangkok reported that money to build is generally available but running costs are not always covered; consultation participants said some childcare centres held back from air conditioning over electricity costs.",\n        "sources": [\n${srcText("          ")}\n        ]\n      }\n    ]`);
 
 // 5. Who is at risk: what consultation participants said
 edit("c-metal-roof", "data/core/AT_RISK.json",
@@ -57,9 +57,9 @@ edit("c-unregistered", "data/core/AT_RISK.json",
   `          "url": "https://www.nature.com/articles/s41598-026-62477-4"\n        }\n      },\n      {\n        "fact": ${JSON.stringify(OK["c-unregistered"] && OK["c-unregistered"].text)},\n        "source": ${srcText("        ").trimStart()}\n      }\n    ],\n    "nodes": ["homes","uhi","sleepless","energypoverty"],`);
 
 // 6. Thailand snapshot: the two finance routes, made concrete (the snapshot is one line of JSON)
-edit(["c-public-goods", "c-opex-gap", "c-bonds", "c-districts", "c-constraint"], "research/2026-10/thailand_snapshot.json",
+edit(["c-public-goods", "c-opex-gap", "c-bonds", "c-districts", "c-constraint", "c-bundle"], "research/2026-10/thailand_snapshot.json",
   `"text":"UNDP/BMA strategy analyses budget and legally possible capital routes. It does not establish`,
-  `"text":"UNDP/BMA strategy analyses budget and legally possible capital routes. Most heat projects are public goods suited to public budgets; money to build is generally available, but running costs are not always covered, and there is no pipeline of investment-ready adaptation projects yet. The city may issue bonds with prior Cabinet approval but has not yet done so, and its AA+ credit rating was discontinued in 2022. District offices have no independent fiscal authority; the strategy proposes dedicated district allocations and criteria that steer money towards more vulnerable districts. It does not establish`);
+  `"text":"UNDP/BMA strategy analyses budget and legally possible capital routes. Most heat projects are public goods suited to public budgets; money to build is generally available, but running costs are not always covered, and there is no pipeline of investment-ready adaptation projects yet. The city may issue bonds with prior Cabinet approval but has not yet done so, and its AA+ credit rating was discontinued in 2022. District offices have no independent fiscal authority; the strategy proposes dedicated district allocations and criteria that steer money towards more vulnerable districts, and suggests offering cooling facilities to sponsors as one citywide programme, with agreements that set out operation and maintenance. It does not establish`);
 edit("c-envfund", "research/2026-10/thailand_snapshot.json",
   `"text":"Strategy describes a local-government adaptation proposal route under Environmental Fund guidance. Original`,
   `"text":"Strategy describes a local-government adaptation proposal route under Environmental Fund guidance: up to THB 5 million per project for up to three years, with at least 70% of the budget spent on activities. About 74.8% of the fund's disbursements have gone to local governments. Original`);

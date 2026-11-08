@@ -344,6 +344,20 @@
       "review": "Prompted by an outside review of the site; menu counts now read from each page's own data",
       "pages": [["/approach/", "How Common Shade sees heat"]], "action": ["Read how evidence is labelled", "/approach/"],
       "links": [{ "to": "page:/sources/", "why": "Every claim's source is listed with its kind.", "basis": "record" }]
+    },
+    {
+      "id": "g-bangkok-heat-finance", "kind": "evidence", "root": "institutions", "added": "2026-11-08", "pr": null,
+      "title": "What Bangkok's heat plan costs, and what stands between plans and money",
+      "why": "Bangkok's 2026 financing strategy, from UNDP and the city, costs the city's heat plan and explains why running costs, not ambition, are the gap. Each insight was tied to the strategy's own words and checked on GitHub before it reached the site, and the city page now credits the heat plan to the city itself.",
+      "places": ["thailand"], "people": ["older", "settlements"], "topics": ["heatbudget", "coolingcentres"],
+      "event": { "what": "Financing strategy published", "date": "2026-10" },
+      "finding": { "text": "Bangkok reported that money to build is generally available but running costs are not always covered", "source": ["UNDP and Bangkok Metropolitan Administration: Bangkok's financing strategy for tackling urban heat, 2026", "https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf"] },
+      "review": "Every claim checked against the strategy on GitHub; all 13 confirmed",
+      "effort": { "asked": "What does Bangkok's financing strategy add to what the site says about Bangkok and Thailand, and where else does it help?", "inbox": "data/inbox/2026-11-bangkok-heat-finance", "dropped": "research/2026-11/bangkok-heat-finance/dropped-after-check.json", "open": "Whether spending tagged as climate spending will show what a city spends before heatwaves." },
+      "pages": [["/cities/bangkok/", "Bangkok"], ["/countries/thailand/", "Thailand"], ["/evidence-map/#q-prevention-pays", "The learning agenda"]], "action": ["Read Bangkok's page", "/cities/bangkok/"],
+      "links": [{ "to": "lever:heatbudget", "why": "A costed heat plan and proposed climate budgeting add a Bangkok example to dedicated heat budgets.", "basis": "record" },
+                { "to": "lever:coolingcentres", "why": "Running costs join the watch-outs for cooling centres.", "basis": "record" },
+                { "to": "people:older", "why": "Consultation participants said heat response may not reach older and bedridden people in metal-roofed homes.", "basis": "record" }]
     }
   ]
 }

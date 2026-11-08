@@ -6,7 +6,7 @@ Common Shade is in beta, currently at beattheheat.asia. A group of organisations
 
 Text, data, films and illustrations © Common Shade contributors, shared under Creative Commons Attribution 4.0 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/): you may copy, adapt and translate them, with credit and a link to beattheheat.asia. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’ and are not covered.
 
-Interactive map: https://beattheheat.asia/ · Generated 2026-11-07
+Interactive map: https://beattheheat.asia/ · Generated 2026-11-08
 
 ## The web of extreme heat: every consequence, system by system
 
@@ -1718,6 +1718,8 @@ Could help interrupt: The invisible-deaths loop
 
 Watch for: A 2025 review found no study that measured health outcomes for people using cooling centres; in simulated heatwaves, the benefits were short-lived. That is not evidence of no benefit. (Dearman et al., UKHSA, 2025: public health effectiveness of cooling centres, a systematic review, https://researchportal.ukhsa.gov.uk/en/publications/public-health-effectiveness-of-cooling-centres-during-periods-of-/)
 
+Watch for: Running costs can decide whether a cooling space keeps working. Bangkok reported that money to build is generally available but running costs are not always covered; consultation participants said some childcare centres held back from air conditioning over electricity costs. (UNDP and Bangkok Metropolitan Administration: Bangkok's financing strategy for tackling urban heat, 2026, https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf)
+
 - Guide: The use of cooling centers to prevent heat-related illness: evidence and strategies for implementation (US Centers for Disease Control and Prevention, in the GHHIN resource library) https://heathealth.info/wp-content/uploads/cdc_47657_DS1-compressed-1.pdf
 
 - Guide: Heat Resilient Cities Framework: shade, drinking water, alerts, cool surfaces and basic public cooling first, as low-cost protection that reaches many people quickly (p. 6) (National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026) https://niua.in/publication-details/Heat_Resilient_Cities_Framework
@@ -1730,7 +1732,7 @@ Cuts the link: Public budgets strained → Heat protection underfunded. Who can 
 
 Could help interrupt: The reactive-spending loop, The protection-gap loop
 
-In practice: Since August 2026, India’s disaster response funds can pay for heatwave relief; preparing for heat is still paid for separately. In Nepal, Madhesh Province and five municipalities committed 5% of sectoral budgets to adaptation and disaster risk reduction, with support from Practical Action and Mercy Corps.
+In practice: Since August 2026, India’s disaster response funds can pay for heatwave relief; preparing for heat is still paid for separately. In Nepal, Madhesh Province and five municipalities committed 5% of sectoral budgets to adaptation and disaster risk reduction, with support from Practical Action and Mercy Corps. In Bangkok, a 2026 financing strategy with UNDP costs the city’s heat plan at about THB 146 million to set up and THB 10.8 million a year to run, and proposes climate budgeting so that adaptation spending can be identified and reported.
 
 - Guide: Finding the Finance: a guide to identifying centrally sponsored schemes to fund heat resilience (Centre for Policy Research, India) https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/
 
@@ -1876,6 +1878,8 @@ In Jakarta, dense low-income neighbourhoods act as heat islands; informal worker
 
 In a model of 16 buildings in Rajkot, air conditioner condensers on outside walls could warm the street air by more than 1 °C. (Scientific Reports, 2026, https://www.nature.com/articles/s41598-026-62477-4)
 
+In consultations for Bangkok's financing strategy, participants said residents who use local services but are not registered in Bangkok mean some project budgets have to stretch to cover them. (UNDP and Bangkok Metropolitan Administration: Bangkok's financing strategy for tackling urban heat, 2026, https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf)
+
 What helps: Cool, affordable housing, Cool nights and support, Cooling centres and check-ins, Affordable cooling for the poorest
 
 ### Workers in heat-exposed jobs
@@ -1951,6 +1955,8 @@ Older people in a Kolkata informal settlement were 4.3 times more likely than ol
 In Chiang Rai, older people and their families described changing daily routines to cope with heat, and the help families give to keep them going. (Chiang Rai study, 2023 (PubMed 37372754), https://pubmed.ncbi.nlm.nih.gov/37372754/)
 
 Bhutan's 2015 WHO profile projects about 49 heat-related deaths per 100,000 people aged 65 or over by 2080 if emissions stay high. It is a projection, not a count. (WHO, 2015: climate and health country profile, Bhutan, https://cdn.who.int/media/docs/default-source/searo/wsh-och-searo/bhu-c-h-profile.pdf?sfvrsn=9b974adb_2)
+
+In consultations for Bangkok's financing strategy, participants said heat response may not reach older and bedridden people living in metal-roofed homes, who are highly affected by heat. (UNDP and Bangkok Metropolitan Administration: Bangkok's financing strategy for tackling urban heat, 2026, https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf)
 
 What helps: Cooling centres and check-ins, Heat action plans, Affordable cooling for the poorest, Count every heat death
 
@@ -2826,7 +2832,7 @@ Each organisation is marked with its main side in a heat alliance. Demand: Holds
 
 - Directorate General of Health Services, Bangladesh (Demand): Launched national heat-illness guidelines with UNICEF support. (https://dghs.gov.bd)
 
-- Bangkok Metropolitan Administration (Demand): Runs heat warnings and public cooling spaces. (https://www.bangkok.go.th)
+- Bangkok Metropolitan Administration (Demand): Runs heat warnings and public cooling spaces. Its Urban Heat Management Action Plan for 2026 has 22 indicators and a committee chaired by a deputy governor, and a 2026 financing strategy with UNDP sets out how to pay for it. (https://www.bangkok.go.th)
 
 - PAGASA (Demand): Publishes the Philippines’ heat-index information service. (https://www.pagasa.dost.gov.ph)
 
@@ -3378,7 +3384,7 @@ Page: https://beattheheat.asia/cities/singapore/
 
 A tropical megacity where heat costs lives, livelihoods and a share of the city’s economy.
 
-Heat action plan (Heat plan in force): For the 2026 hot season Bangkok opened 304 cooling centres in schools, health centres and district offices, under a heat management plan developed with the World Bank. Sources: Government of Thailand, 2026 https://thailand.go.th/issue-focus-detail/bangkok-launches-304-cooling-centers-to-combat-extreme-heat; World Bank, Shaping a Cooler Bangkok, 2025 https://www.worldbank.org/en/country/thailand/publication/shaping-a-cooler-bangkok-tackling-urban-heat-for-a-more-livable-city
+Heat action plan (Heat plan in force): For the 2026 hot season Bangkok opened 304 cooling centres in schools, health centres and district offices. The city’s own Urban Heat Management Action Plan for 2026 has 22 indicators and a committee chaired by a deputy governor; its targets include cooling rooms in 80% of schools and public health service centres, at least two cooling points in every district, and home visits to at least 5,000 vulnerable households a year during heat alerts. A 2026 financing strategy with UNDP costs the plan at about THB 146 million to set up and THB 10.8 million a year to run, mostly from existing city budgets, and notes that running costs are not always covered. Sources: Government of Thailand, 2026 https://thailand.go.th/issue-focus-detail/bangkok-launches-304-cooling-centers-to-combat-extreme-heat; World Bank, Shaping a Cooler Bangkok, 2025 https://www.worldbank.org/en/country/thailand/publication/shaping-a-cooler-bangkok-tackling-urban-heat-for-a-more-livable-city; UNDP and Bangkok Metropolitan Administration: Bangkok's financing strategy for tackling urban heat, 2026 https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf
 
 - The poverty–heat trap: Nearly 80% of informal workers surveyed cut their hours in the heat; 75% of home-based workers lost a day’s work a month to heat illness.
 
@@ -3390,7 +3396,7 @@ Heat action plan (Heat plan in force): For the 2026 hot season Bangkok opened 30
 
 Who heat hits hardest: Workers in heat-exposed jobs; People in informal settlements
 
-Already at work: HomeNet Thailand; Bank of Thailand; United Nations Development Programme (UNDP); Asian Development Bank
+Already at work: Bangkok Metropolitan Administration; HomeNet Thailand; Bank of Thailand; United Nations Development Programme (UNDP); Asian Development Bank
 
 Page: https://beattheheat.asia/cities/bangkok/
 
@@ -5654,7 +5660,7 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 
 https://beattheheat.asia/growing/
 
-See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 31 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
+See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 32 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
 
 ### How the work behind the commons grew
 
@@ -5669,6 +5675,8 @@ Dated by the publication date of the work Common Shade draws on (1082 of 1907 wo
 - 2026 so far: 222 works published (126 with a known month), 1082 in all by the end of the period. Financing: 231; Institutions and plans: 139; Practical measures: 241; Experience: 70; Evidence: 401.
 
 ### Changes, newest first
+
+- Evidence added: What Bangkok's heat plan costs, and what stands between plans and money. Added 8 November 2026 · Financing strategy published October 2026. Why it matters (our reading): Bangkok's 2026 financing strategy, from UNDP and the city, costs the city's heat plan and explains why running costs, not ambition, are the gap. Each insight was tied to the strategy's own words and checked on GitHub before it reached the site, and the city page now credits the heat plan to the city itself. What the source says: "Bangkok reported that money to build is generally available but running costs are not always covered" (UNDP and Bangkok Metropolitan Administration: Bangkok's financing strategy for tackling urban heat, 2026 https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf) Places: Thailand. People: Older people, People in informal settlements. Topics: Dedicated heat budgets, Cooling centres and check-ins. Review: Every claim checked against the strategy on GitHub; all 13 confirmed. Next: Read Bangkok's page https://beattheheat.asia/cities/bangkok/. Connections: Dedicated heat budgets (from the site's records): A costed heat plan and proposed climate budgeting add a Bangkok example to dedicated heat budgets. Cooling centres and check-ins (from the site's records): Running costs join the watch-outs for cooling centres. Older people (from the site's records): Consultation participants said heat response may not reach older and bedridden people in metal-roofed homes. What it took to add this: The question: What does Bangkok's financing strategy add to what the site says about Bangkok and Thailand, and where else does it help? 3 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 2 confirmed, and 1 could not be (1 blocked automated reading). 0 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: Whether spending tagged as climate spending will show what a city spends before heatwaves.
 
 - Evidence added: How heat became visible: a graded timeline of when the world began to notice. Added 7 November 2026 · Events 1833 to 2026. Why it matters (our reading): Knowing when science, health, labour, finance and the UN each noticed heat shows who was still missing. Each event carries a grade, so certainty is never overstated. Places: South and Southeast Asia. People: Workers in heat-exposed jobs, Migrants, prisoners and other excluded groups. Topics: The invisible-deaths loop. Review: Every source checked; uncertain events graded, unconfirmed ones dropped and listed. Next: Read the timeline https://beattheheat.asia/how-heat-became-visible/. Connections: The invisible-deaths loop (our reading): The timeline traces how heat moved out of the cycle that kept it invisible. What it took to add this: The question: When did science, health, labour, finance and the UN begin to notice extreme heat, and who was still missing? 64 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 53 confirmed, and 11 could not be (8 blocked automated reading, 3 did not show the expected text). 16 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: Several early events stay graded uncertain because their sources could not be read.
 
@@ -5744,7 +5752,7 @@ What we have restates the limits the cited studies give themselves; what could a
 
 - How many heat deaths go uncounted, and which ways of counting close the gap? [open; open 2026-10-31] What we have: Official counts that rise partly because reporting improves, and part-season counts that show the gap but not the true toll. What could answer it: Compare excess deaths with recorded heat deaths in a few districts, and test simple reporting changes. Scale: A few districts, one or two seasons
 
-- Does money spent on prevention before summer reduce what is spent during heatwaves? [open; open 2026-10-31] What we have: One modelled estimate for Bangkok, multi-hazard estimates, and a review of heat plans as they stood in 2023. What could answer it: Track what a city spends before and during heatwaves over several seasons, with its health and work outcomes. Scale: One or two cities, three seasons
+- Does money spent on prevention before summer reduce what is spent during heatwaves? [open; open 2026-10-31] What we have: One modelled estimate for Bangkok, multi-hazard estimates, and a review of heat plans as they stood in 2023. Work under way (not yet an answer): Bangkok’s 2026 financing strategy costs the city’s heat plan and proposes climate budgeting to identify and report adaptation spending. Spending tagged this way over several seasons could show what a city spends before heatwaves. (UNDP and Bangkok Metropolitan Administration: Bangkok's financing strategy for tackling urban heat, 2026, https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf) What could answer it: Track what a city spends before and during heatwaves over several seasons, with its health and work outcomes. Scale: One or two cities, three seasons
 
 - How often does heat illness lead households to borrow, and how much? [open; open 2026-10-31] What we have: Studies of household debt that do not measure heat’s part, and an older national survey of all medicine costs. What could answer it: Follow households through a hot season with a short monthly survey of illness, costs and loans. Scale: Two countries, one season
 
