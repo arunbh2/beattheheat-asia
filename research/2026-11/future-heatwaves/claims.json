@@ -1,0 +1,18 @@
+{
+ "about": "Insights from Aglas-Leitner et al., 'Recent extreme heatwaves are no match for future events', Nature Communications 17:11456 (2026), a peer-reviewed modelling study. Its India and Pakistan region uses the 2019 heatwave as the reference event. It measures daily maximum temperature (not humid heat or nights), does not cover Southeast Asia, and does not measure health outcomes; the site's wording keeps those limits. stage.js writes data/inbox/2026-11-future-heatwaves/sources.json; verify-sources.yml checks each term; apply.js uses only confirmed claims.",
+ "sources": [
+  { "key": "paper", "title": "Recent extreme heatwaves are no match for future events", "publisher": "Nature Communications (Aglas-Leitner et al.)", "year": 2026, "kind": "Peer-reviewed modelling study",
+    "url": "https://www.nature.com/articles/s41467-026-76809-5", "expect": ["Recent extreme heatwaves are no match for future events", "India & Pakistan"] }
+ ],
+ "claims": [
+  { "id": "c-duration", "where": "Lever hap watch; learning agenda q-longer-heat",
+    "rests_on": [["paper", "between 6% and 11% of projected"], ["paper", "1-in-5 heatwaves in Europe and India & Pakistan"], ["paper", "even when strong"]],
+    "text": "Even with low emissions, 6 to 11% of future heatwaves in India and Pakistan, Europe and North Africa could outlast each region's recent record heatwave, and with high emissions close to 1 in 5 in India and Pakistan." },
+  { "id": "c-lived", "where": "Lever hap watch; learning agenda q-longer-heat",
+    "rests_on": [["paper", "well outside the recent lived experience"]],
+    "text": "A substantial share of projected heatwaves is well outside the recent lived experience." },
+  { "id": "c-reference", "where": "Learning agenda q-longer-heat",
+    "rests_on": [["paper", "India & Pakistan"], ["paper", "2019"]],
+    "text": "The study's reference event for India and Pakistan is the 2019 heatwave." }
+ ]
+}

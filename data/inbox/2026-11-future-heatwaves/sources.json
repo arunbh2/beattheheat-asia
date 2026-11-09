@@ -1,0 +1,30 @@
+[
+ {
+  "id": "src-fh-paper",
+  "type": "source",
+  "keys": [
+   "paper"
+  ],
+  "title": "Recent extreme heatwaves are no match for future events",
+  "publisher": "Nature Communications (Aglas-Leitner et al.)",
+  "year": 2026,
+  "url": "https://www.nature.com/articles/s41467-026-76809-5",
+  "kind": "Peer-reviewed modelling study",
+  "where": "India and Pakistan",
+  "expect": [
+   "Recent extreme heatwaves are no match for future events",
+   "India & Pakistan",
+   "between 6% and 11% of projected",
+   "1-in-5 heatwaves in Europe and India & Pakistan",
+   "even when strong",
+   "well outside the recent lived experience",
+   "2019"
+  ],
+  "claims": [
+   "c-duration",
+   "c-lived",
+   "c-reference"
+  ],
+  "note": "Staged from the future heatwaves study batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ }
+]
