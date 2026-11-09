@@ -1,0 +1,11 @@
+[
+ {
+  "id": "c-beat-heat",
+  "where": "Signals: COP31 watch (cooling)",
+  "text": "UNEP's Cool Coalition runs Beat the Heat, an initiative on sustainable cooling and heat resilience.",
+  "missing": [
+   "cool-beat: \"Beat the Heat\"",
+   "unep-beat: \"Beat the Heat\""
+  ]
+ }
+]

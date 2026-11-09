@@ -144,8 +144,8 @@
   "changed": "2026-11-08"
  },
  "/evidence/": {
-  "hash": "25bba089d8e44330",
-  "changed": "2026-11-07"
+  "hash": "5a5870f4be4137e7",
+  "changed": "2026-11-09"
  },
  "/finance/": {
   "hash": "e9e1e8d156d9ef55",
@@ -160,7 +160,7 @@
   "changed": "2026-11-07"
  },
  "/growing/": {
-  "hash": "ffad1aaf0f319617",
+  "hash": "5656ead780a6c10e",
   "changed": "2026-11-09"
  },
  "/guide/": {
@@ -430,6 +430,10 @@
  "/resources/heat-action-plans/india/": {
   "hash": "8d71108086907556",
   "changed": "2026-11-03"
+ },
+ "/signals/": {
+  "hash": "8fc38bdb918e1dc4",
+  "changed": "2026-11-09"
  },
  "/social-protection/": {
   "hash": "0c448ce419166dec",

@@ -6,7 +6,8 @@
 const T = require("./signals-text.js");
 module.exports = function signals({ page, write, esc, hero, V }) {
   const D = T.load();
-  const leverName = Object.fromEntries((V.LEVERS || []).map(l => [l.id, l.title]));
+  const LEV = JSON.parse(require("fs").readFileSync(require("path").join(__dirname, "..", "data", "core", "LEVERS.json"), "utf8"));
+  const leverName = Object.fromEntries((Array.isArray(LEV) ? LEV : LEV.levers || []).map(l => [l.id, l.title]));
   const ext = (u, l) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(l)}<span class="visually-hidden"> (opens in a new tab)</span></a>`;
   const ladder = s => {
     const at = D.rung[s.stage];

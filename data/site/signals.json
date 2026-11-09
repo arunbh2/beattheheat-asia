@@ -19,6 +19,23 @@
  ],
  "signals": [
   {
+   "id": "sig-cop31-2026", "group": "cop31", "kind": "gathering", "date": "2026-11-09",
+   "title": "COP31 opens in Antalya",
+   "summary": "COP31, the UN climate conference, is held in Antalya from 9 to 20 November 2026.",
+   "who": "UNFCCC", "places": ["region"], "levers": ["hap", "heatbudget", "anticipatory"],
+   "next": "Watch for heat in its outcomes on adaptation, health, finance, cooling and early warnings; each enters this page on the rung it has truly reached.",
+   "sources": [{ "label": "UNFCCC: UN Climate Change Conference, Antalya, November 2026", "url": "https://unfccc.int/cop31" }]
+  },
+  {
+   "id": "sig-belem-adaptation-indicators-2025", "group": "cop31", "kind": "commitment", "date": "2025",
+   "title": "59 Belém Adaptation Indicators to measure progress on adaptation",
+   "summary": "At the 2025 UN climate conference (CMA 7), countries adopted a set of 59 Belém Adaptation Indicators to measure progress towards the targets for adaptation; reporting on them will serve as an input to the global stocktake.",
+   "who": "Parties to the Paris Agreement (CMA 7)", "places": ["region"], "levers": ["hap", "countdeaths"],
+   "stage": "adopted", "history": [{ "date": "2025", "stage": "adopted", "note": "Adopted at CMA 7, under the Global Goal on Adaptation" }],
+   "next": "Delivered: countries in South and Southeast Asia reporting on the indicators, including those that touch heat and health.",
+   "sources": [{ "label": "UNFCCC: Global Goal on Adaptation", "url": "https://unfccc.int/topics/adaptation-and-resilience/workstreams/gga" }]
+  },
+  {
    "id": "sig-india-heatwave-calamity-2026", "group": "year", "kind": "commitment", "date": "2026-08",
    "title": "India adds heatwaves to its notified natural calamities",
    "summary": "In August 2026 India added heatwaves to its notified natural calamities, so national and state disaster response funds can pay for heatwave relief. Before, states could spend only up to 10% of their response fund on locally declared disasters such as heat. Heat mitigation projects are funded separately, from disaster mitigation funds.",

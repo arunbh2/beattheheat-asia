@@ -381,6 +381,17 @@
       "review": "A question for planners, not a factual claim; the study behind it waits for an independent source check before its figures reach the site",
       "pages": [["/plan/", "Plan a response"]], "action": ["Open the planning workbook", "/plan/"],
       "links": [{ "to": "lever:heatbudget", "why": "A longer heatwave means more days of running costs to pay for.", "basis": "editorial" }]
+    },
+    {
+      "id": "g-signals", "kind": "tool", "root": "institutions", "added": "2026-11-09", "pr": null,
+      "title": "Signals: which way heat policy is moving",
+      "why": "Announcements are the earliest sign of where heat policy is heading, but on their own they are weak evidence. Signals places each one on a ladder from announced to evaluated, starting with COP31 and this year's signals already on the site, so readers can weigh them rather than collect them.",
+      "places": ["region", "india", "bangladesh", "thailand", "singapore", "indonesia"], "people": [], "topics": ["hap", "heatbudget"],
+      "event": { "what": "COP31 opens in Antalya", "date": "2026-11-09" },
+      "review": "COP31 facts checked on GitHub against the UNFCCC's own pages; one claim set aside (Beat the Heat, whose pages blocked the check) and one not used (a presidency claim the page did not confirm); the year's signals reuse sources the site had already checked",
+      "pages": [["/signals/", "Signals"]], "action": ["Read the signals", "/signals/"],
+      "links": [{ "to": "lever:heatbudget", "why": "Several signals are promises of money; the ladder shows which have been funded.", "basis": "editorial" },
+                { "to": "lever:hap", "why": "Most signals touch heat action plans: adopted, funded or delivered.", "basis": "editorial" }]
     }
   ]
 }
