@@ -1,0 +1,42 @@
+[
+ {
+  "id": "c-duration",
+  "where": "Lever hap watch; learning agenda q-longer-heat",
+  "text": "Even with low emissions, 6 to 11% of future heatwaves in India and Pakistan, Europe and North Africa could outlast each region's recent record heatwave, and with high emissions close to 1 in 5 in India and Pakistan.",
+  "missing": [
+   "paper: \"between 6% and 11% of projected\"",
+   "paper: \"1-in-5 heatwaves in Europe and India & Pakistan\"",
+   "paper: \"even when strong\"",
+   "spdf: \"between 6% and 11% of projected\"",
+   "spdf: \"1-in-5 heatwaves in Europe and India & Pakistan\"",
+   "spdf: \"even when strong\"",
+   "npdf: \"between 6% and 11% of projected\"",
+   "npdf: \"1-in-5 heatwaves in Europe and India & Pakistan\"",
+   "npdf: \"even when strong\""
+  ]
+ },
+ {
+  "id": "c-lived",
+  "where": "Lever hap watch; learning agenda q-longer-heat",
+  "text": "A substantial share of projected heatwaves is well outside the recent lived experience.",
+  "missing": [
+   "paper: \"well outside the recent lived experience\"",
+   "spdf: \"well outside the recent lived experience\"",
+   "npdf: \"well outside the recent lived experience\"",
+   "epmc: \"well outside the recent lived experience\""
+  ]
+ },
+ {
+  "id": "c-reference",
+  "where": "Learning agenda q-longer-heat",
+  "text": "The study's reference event for India and Pakistan is the 2019 heatwave.",
+  "missing": [
+   "paper: \"India & Pakistan\"",
+   "paper: \"2019\"",
+   "spdf: \"India & Pakistan\"",
+   "spdf: \"2019\"",
+   "npdf: \"India & Pakistan\"",
+   "npdf: \"2019\""
+  ]
+ }
+]
