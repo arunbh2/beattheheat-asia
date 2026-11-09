@@ -27,6 +27,37 @@
    "sources": [{ "label": "UNFCCC: UN Climate Change Conference, Antalya, November 2026", "url": "https://unfccc.int/cop31" }]
   },
   {
+   "id": "sig-wmo-state-of-climate-2026", "group": "cop31", "kind": "finding", "date": "2026-11-09",
+   "title": "2026 will be one of the four warmest years on record",
+   "summary": "WMO's State of the Climate Update 2026, released as COP31 opened, finds that the past 12 years have each been the warmest on record and the past four the top four. The global average surface temperature for January to September 2026 was about 1.47 °C above the pre-industrial average. In early November the EU's Copernicus service said 2026 is most likely to be the second-hottest year on record.",
+   "who": "World Meteorological Organization", "places": ["region"], "levers": ["hap", "anticipatory"],
+   "next": "A finding, not a commitment: watch whether heat plans and budgets are sized for the heat these years now bring, not the heat people remember.",
+   "sources": [
+    { "label": "WMO, 2026: State of the climate in 2026 gives new meaning to phrase 'off the charts'", "url": "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts" },
+    { "label": "WMO: State of the Climate Update for COP31", "url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31" },
+    { "label": "AFP via The Korea Times, 2026: 2026 most likely to be second-hottest year on record", "url": "https://www.koreatimes.co.kr/world/20261106/2026-most-likely-to-be-second-hottest-year-on-record-eu-monitor" }
+   ]
+  },
+  {
+   "id": "sig-el-nino-2026-2027", "group": "cop31", "kind": "finding", "date": "2026-11-09",
+   "title": "El Niño set to bring more heat into 2027",
+   "summary": "By mid-August 2026 El Niño had become firmly established. WMO reports it has been intensifying since August and is expected to be the strongest on record by December, set to unleash even more heat and extreme weather well into 2027.",
+   "who": "World Meteorological Organization", "places": ["region"], "levers": ["anticipatory", "hap"],
+   "next": "What to watch: early warnings and heat plans ready for the 2027 hot season, above all in Southeast Asia, where El Niño and warming broke records in April 2016.",
+   "sources": [
+    { "label": "WMO, 2026: State of the climate in 2026 gives new meaning to phrase 'off the charts'", "url": "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts" },
+    { "label": "WMO: El Niño/La Niña Update, August 2026", "url": "https://wmo.int/node/38928" }
+   ]
+  },
+  {
+   "id": "sig-emissions-gap-2026", "group": "cop31", "kind": "finding", "date": "2026",
+   "title": "Warming will overshoot 1.5 °C: the Emissions Gap Report 2026",
+   "summary": "UNEP's Emissions Gap Report 2026, The Point of Return, finds that with global temperature rise set to exceed 1.5 °C, urgent and stringent cuts are needed to minimise the size and length of the overshoot and return to 1.5 °C by the end of the century. If current policies continue, warming could reach 2.8 °C this century; if all national pledges are delivered, 2.6 °C.",
+   "who": "UNEP, with PBL Netherlands Environmental Assessment Agency", "places": ["region"], "levers": ["hap", "heatbudget"],
+   "next": "A finding, not a commitment: watch whether adaptation plans for heat assume the warming these projections describe.",
+   "sources": [{ "label": "PBL Netherlands Environmental Assessment Agency: UNEP Emissions Gap Report 2026", "url": "https://www.pbl.nl/en/publications/unep-emissions-gap-report-2026" }]
+  },
+  {
    "id": "sig-belem-adaptation-indicators-2025", "group": "cop31", "kind": "commitment", "date": "2025",
    "title": "59 Belém Adaptation Indicators to measure progress on adaptation",
    "summary": "At the 2025 UN climate conference (CMA 7), countries adopted a set of 59 Belém Adaptation Indicators to measure progress towards the targets for adaptation; reporting on them will serve as an input to the global stocktake.",

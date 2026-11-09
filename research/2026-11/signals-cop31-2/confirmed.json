@@ -1,0 +1,79 @@
+[
+ {
+  "id": "c-wmo-147",
+  "where": "Signals: COP31 watch",
+  "text": "From January to September 2026 the global average surface temperature was about 1.47 °C above the 1850-1900 average.",
+  "sources": [
+   {
+    "label": "World Meteorological Organization: State of the climate in 2026 gives new meaning to phrase 'off the charts', 2026",
+    "url": "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts"
+   }
+  ]
+ },
+ {
+  "id": "c-wmo-four",
+  "where": "Signals: COP31 watch",
+  "text": "The past four years are the four warmest on record.",
+  "sources": [
+   {
+    "label": "World Meteorological Organization: State of the climate in 2026 gives new meaning to phrase 'off the charts', 2026",
+    "url": "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts"
+   }
+  ]
+ },
+ {
+  "id": "c-wmo-elnino-2027",
+  "where": "Signals: COP31 watch",
+  "text": "El Niño has strengthened, raising the risk of extreme heat, drought and heavy rain into 2027.",
+  "sources": [
+   {
+    "label": "World Meteorological Organization: State of the climate in 2026 gives new meaning to phrase 'off the charts', 2026",
+    "url": "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts"
+   }
+  ]
+ },
+ {
+  "id": "c-enso-established",
+  "where": "Signals: COP31 watch",
+  "text": "By mid-August 2026 El Niño had become firmly established, and it was expected to persist through December 2026 to February 2027.",
+  "sources": [
+   {
+    "label": "World Meteorological Organization: El Nino/La Nina Update (August 2026), 2026",
+    "url": "https://wmo.int/node/38928"
+   }
+  ]
+ },
+ {
+  "id": "c-unep-overshoot",
+  "where": "Signals: COP31 watch",
+  "text": "UNEP's Emissions Gap Report 2026, The Point of Return, finds that warming will now overshoot 1.5 °C, and sets out the cuts needed to keep the overshoot as small as possible and come back below it.",
+  "sources": [
+   {
+    "label": "PBL Netherlands Environmental Assessment Agency (co-author): UNEP Emissions Gap Report 2026, 2026",
+    "url": "https://www.pbl.nl/en/publications/unep-emissions-gap-report-2026"
+   }
+  ]
+ },
+ {
+  "id": "c-unep-28",
+  "where": "Signals: COP31 watch",
+  "text": "With current policies, warming could reach about 2.8 °C this century.",
+  "sources": [
+   {
+    "label": "PBL Netherlands Environmental Assessment Agency (co-author): UNEP Emissions Gap Report 2026, 2026",
+    "url": "https://www.pbl.nl/en/publications/unep-emissions-gap-report-2026"
+   }
+  ]
+ },
+ {
+  "id": "c-copernicus-second",
+  "where": "Signals: COP31 watch",
+  "text": "In early November 2026 the EU's Copernicus service said 2026 is most likely to be the second-hottest year on record.",
+  "sources": [
+   {
+    "label": "AFP, via The Korea Times: 2026 'most likely' to be second-hottest year on record: EU monitor, 2026",
+    "url": "https://www.koreatimes.co.kr/world/20261106/2026-most-likely-to-be-second-hottest-year-on-record-eu-monitor"
+   }
+  ]
+ }
+]

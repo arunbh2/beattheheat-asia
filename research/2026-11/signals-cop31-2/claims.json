@@ -1,0 +1,29 @@
+{
+ "about": "Heat-relevant insights from the opening of COP31 (9 November 2026), first read in a press report and verified here at the primary sources: WMO's State of the Climate Update for COP31 and its El Nino update, UNEP's Emissions Gap Report 2026, and Copernicus via AFP. No individual is named or quoted. Items about floods (the Nepal Loss and Damage gap) and about electrification (the host's voluntary coalition) are left out as not about heat.",
+ "sources": [
+  { "key": "wmo-pr", "title": "State of the climate in 2026 gives new meaning to phrase 'off the charts'", "publisher": "World Meteorological Organization", "year": 2026, "kind": "Press release", "url": "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts", "expect": ["COP31"] },
+  { "key": "wmo-report", "title": "State of the Climate Update for COP31", "publisher": "World Meteorological Organization", "year": 2026, "kind": "Report page", "url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31", "expect": ["COP31"] },
+  { "key": "wmo-enso", "title": "El Nino/La Nina Update (August 2026)", "publisher": "World Meteorological Organization", "year": 2026, "kind": "Official update", "url": "https://wmo.int/node/38928", "expect": ["El Niño"] },
+  { "key": "unep-egr", "title": "Emissions Gap Report 2026", "publisher": "UNEP", "year": 2026, "kind": "Report page", "url": "https://www.unep.org/resources/emissions-gap-report-2026", "expect": ["Emissions Gap Report 2026"] },
+  { "key": "pbl-egr", "title": "UNEP Emissions Gap Report 2026", "publisher": "PBL Netherlands Environmental Assessment Agency (co-author)", "year": 2026, "kind": "Publication page", "url": "https://www.pbl.nl/en/publications/unep-emissions-gap-report-2026", "expect": ["Emissions Gap"] },
+  { "key": "iisd-egr", "title": "Emissions Gap Report 2026 aims for lowest possible 1.5C overshoot", "publisher": "IISD SDG Knowledge Hub", "year": 2026, "kind": "Summary", "url": "https://sdg.iisd.org/news/emissions-gap-report-2026-aims-for-lowest-possible-15c-overshoot/", "expect": ["Emissions Gap Report 2026"] },
+  { "key": "cop-afp", "title": "2026 'most likely' to be second-hottest year on record: EU monitor", "publisher": "AFP, via The Korea Times", "year": 2026, "kind": "News (wire)", "url": "https://www.koreatimes.co.kr/world/20261106/2026-most-likely-to-be-second-hottest-year-on-record-eu-monitor", "expect": ["Copernicus"] }
+ ],
+ "claims": [
+  { "id": "c-wmo-147", "where": "Signals: COP31 watch", "rests_on": [["wmo-pr", "1.47"], ["wmo-pr", "1850"]], "alts": [[["wmo-report", "1.47"], ["wmo-report", "1850"]]],
+    "text": "From January to September 2026 the global average surface temperature was about 1.47 °C above the 1850-1900 average." },
+  { "id": "c-wmo-four", "where": "Signals: COP31 watch", "rests_on": [["wmo-pr", "four warmest"]], "alts": [[["wmo-report", "four warmest"]]],
+    "text": "The past four years are the four warmest on record." },
+  { "id": "c-wmo-elnino-2027", "where": "Signals: COP31 watch", "rests_on": [["wmo-pr", "El Niño"], ["wmo-pr", "2027"]], "alts": [[["wmo-report", "El Niño"], ["wmo-report", "2027"]]],
+    "text": "El Niño has strengthened, raising the risk of extreme heat, drought and heavy rain into 2027." },
+  { "id": "c-enso-established", "where": "Signals: COP31 watch", "rests_on": [["wmo-enso", "firmly established"]],
+    "text": "By mid-August 2026 El Niño had become firmly established, and it was expected to persist through December 2026 to February 2027." },
+  { "id": "c-unep-overshoot", "where": "Signals: COP31 watch", "rests_on": [["unep-egr", "overshoot"], ["unep-egr", "The Point of Return"]],
+    "alts": [[["pbl-egr", "overshoot"], ["pbl-egr", "Point of Return"]], [["iisd-egr", "overshoot"], ["iisd-egr", "Point of Return"]]],
+    "text": "UNEP's Emissions Gap Report 2026, The Point of Return, finds that warming will now overshoot 1.5 °C, and sets out the cuts needed to keep the overshoot as small as possible and come back below it." },
+  { "id": "c-unep-28", "where": "Signals: COP31 watch", "rests_on": [["iisd-egr", "2.8"], ["iisd-egr", "current policies"]], "alts": [[["unep-egr", "2.8"], ["unep-egr", "current policies"]], [["pbl-egr", "2.8"]]],
+    "text": "With current policies, warming could reach about 2.8 °C this century." },
+  { "id": "c-copernicus-second", "where": "Signals: COP31 watch", "rests_on": [["cop-afp", "second-hottest"], ["cop-afp", "Copernicus"]],
+    "text": "In early November 2026 the EU's Copernicus service said 2026 is most likely to be the second-hottest year on record." }
+ ]
+}
