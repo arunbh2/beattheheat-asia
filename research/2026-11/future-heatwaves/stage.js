@@ -12,7 +12,7 @@ const prev = fs.existsSync(OUT) ? Object.fromEntries(JSON.parse(fs.readFileSync(
 const by = Object.fromEntries(C.sources.map(s => [s.key, { id: "src-fh-" + s.key, type: "source", keys: [s.key], title: s.title, publisher: s.publisher,
   year: s.year, url: s.url, kind: s.kind, where: "India and Pakistan", expect: [...s.expect], claims: [] }]));
 const bad = [];
-for (const c of C.claims) for (const [k, term] of [...c.rests_on, ...(c.alt || [])]) {
+for (const c of C.claims) for (const [k, term] of [...c.rests_on, ...(c.alt || []), ...(c.alts || []).flat()]) {
   const r = by[k]; if (!r) { bad.push(`${c.id}: no source "${k}"`); continue; }
   if (!r.expect.includes(term)) r.expect.push(term);
   if (!r.claims.includes(c.id)) r.claims.push(c.id);

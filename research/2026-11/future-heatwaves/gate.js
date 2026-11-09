@@ -19,9 +19,9 @@ const test = set => { const miss = set.filter(([k, t]) => !(opens(k) && ok(k, t)
   return { pass: !miss.length, miss, used: [...new Set(set.map(([k]) => k))] }; };
 const confirmed = [], dropped = [];
 for (const c of C.claims) {
-  const a = test(c.rests_on), b = c.alt ? test(c.alt) : null, win = a.pass ? a : b && b.pass ? b : null;
+  const tries = [c.rests_on, ...(c.alt ? [c.alt] : []), ...(c.alts || [])].map(test), a = tries[0], win = tries.find(t => t.pass) || null, b = null;
   if (win) confirmed.push({ id: c.id, where: c.where, text: c.text, sources: win.used.map(k => ({ label: `${S[k].publisher}: ${S[k].title}${S[k].year ? ", " + S[k].year : ""}`, url: S[k].url })) });
-  else dropped.push({ id: c.id, where: c.where, text: c.text, missing: [...a.miss, ...(b ? b.miss : [])] });
+  else dropped.push({ id: c.id, where: c.where, text: c.text, missing: tries.flatMap(t => t.miss) });
 }
 fs.writeFileSync(path.join(HERE, "confirmed.json"), JSON.stringify(confirmed, null, 1) + "\n");
 fs.writeFileSync(path.join(HERE, "dropped-after-check.json"), JSON.stringify(dropped, null, 1) + "\n");

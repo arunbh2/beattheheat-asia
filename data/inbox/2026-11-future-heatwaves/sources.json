@@ -25,7 +25,84 @@
    "c-lived",
    "c-reference"
   ],
-  "note": "Staged from the future heatwaves study batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261108173420/https://www.nature.com/articles/s41467-026-76809-5?error=cookies_not_supported&code=e538ea48-0f08-4925-869e-26e01bc8aac4"
+  "archive": "https://web.archive.org/web/20261108173420/https://www.nature.com/articles/s41467-026-76809-5?error=cookies_not_supported&code=e538ea48-0f08-4925-869e-26e01bc8aac4",
+  "note": "Staged from the future heatwaves study batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-fh-spdf",
+  "type": "source",
+  "keys": [
+   "spdf"
+  ],
+  "title": "Recent extreme heatwaves are no match for future events (PDF)",
+  "publisher": "Springer Nature (Aglas-Leitner et al.)",
+  "year": 2026,
+  "url": "https://link.springer.com/content/pdf/10.1038/s41467-026-76809-5.pdf",
+  "kind": "Peer-reviewed modelling study (PDF)",
+  "where": "India and Pakistan",
+  "expect": [
+   "Recent extreme heatwaves are no match for future events",
+   "India & Pakistan",
+   "between 6% and 11% of projected",
+   "1-in-5 heatwaves in Europe and India & Pakistan",
+   "even when strong",
+   "well outside the recent lived experience",
+   "2019"
+  ],
+  "claims": [
+   "c-duration",
+   "c-lived",
+   "c-reference"
+  ],
+  "note": "Staged from the future heatwaves study batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-fh-npdf",
+  "type": "source",
+  "keys": [
+   "npdf"
+  ],
+  "title": "Recent extreme heatwaves are no match for future events (PDF)",
+  "publisher": "Nature Communications (Aglas-Leitner et al.)",
+  "year": 2026,
+  "url": "https://www.nature.com/articles/s41467-026-76809-5.pdf",
+  "kind": "Peer-reviewed modelling study (PDF)",
+  "where": "India and Pakistan",
+  "expect": [
+   "Recent extreme heatwaves are no match for future events",
+   "India & Pakistan",
+   "between 6% and 11% of projected",
+   "1-in-5 heatwaves in Europe and India & Pakistan",
+   "even when strong",
+   "well outside the recent lived experience",
+   "2019"
+  ],
+  "claims": [
+   "c-duration",
+   "c-lived",
+   "c-reference"
+  ],
+  "note": "Staged from the future heatwaves study batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-fh-epmc",
+  "type": "source",
+  "keys": [
+   "epmc"
+  ],
+  "title": "Recent extreme heatwaves are no match for future events (Europe PMC record)",
+  "publisher": "Europe PMC",
+  "year": 2026,
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41467-026-76809-5&resultType=core&format=json",
+  "kind": "Abstract record",
+  "where": "India and Pakistan",
+  "expect": [
+   "heatwaves",
+   "well outside the recent lived experience"
+  ],
+  "claims": [
+   "c-lived"
+  ],
+  "note": "Staged from the future heatwaves study batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
  }
 ]
