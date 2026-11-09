@@ -1,5 +1,14 @@
 {
   "note": "Compressed KB each page fetches before scrolling, recorded by tools/check-weight.js --update. A page may grow 5% (at least 8 KB) over this.",
+  "media": {
+    "maxFileMB": 8,
+    "warnTotalMB": 700,
+    "failTotalMB": 900,
+    "known": {
+      "media/social/commonshade-reel-20s.mp4": 20.2
+    },
+    "note": "Published-file budget: a tracked media file over maxFileMB fails unless listed in known (which may not grow); the total of tracked files warns at warnTotalMB and fails at failTotalMB (GitHub Pages allows 1 GB)."
+  },
   "pages": {
     "a-city-under-strain/index.html": 994,
     "a-night-in-the-heat/index.html": 800,

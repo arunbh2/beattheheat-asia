@@ -8,12 +8,18 @@
 //   node tools/check-weight.js            check every page
 //   node tools/check-weight.js --list     print each page's weight and budget, heaviest first
 //   node tools/check-weight.js --update   record today's weights as the budgets (after a deliberate change)
+// Media budget (GitHub Pages publishes every tracked file, up to 1 GB, and git keeps every version of a file for good,
+// so a heavy film costs twice: in the published site and in the history no one can trim without a force-push):
+// any tracked file in media/ over MEDIA.maxFileMB fails unless it is listed in MEDIA.known (and then it may not grow);
+// any tracked file over 50 MB fails (GitHub warns there and refuses 100 MB); the published total warns at
+// MEDIA.warnTotalMB and fails at MEDIA.failTotalMB. The limits live in data/schema/weight-budget.json under "media".
 "use strict";
 const fs = require("fs"), path = require("path"), zlib = require("zlib");
 const ROOT = path.join(__dirname, "..");
 
 const BUDGET_FILE = path.join(ROOT, "data", "schema", "weight-budget.json");
-let BUDGET = {}; try { BUDGET = JSON.parse(fs.readFileSync(BUDGET_FILE, "utf8")).pages || {}; } catch (e) {}
+let BUDGET = {}, MEDIA = {}; try { const b = JSON.parse(fs.readFileSync(BUDGET_FILE, "utf8")); BUDGET = b.pages || {}; MEDIA = b.media || {}; } catch (e) {}
+MEDIA = Object.assign({ maxFileMB: 8, warnTotalMB: 700, failTotalMB: 900, known: {} }, MEDIA);
 const allowed = kb => Math.max(Math.round(kb * 1.05), kb + 8);
 const NEW_PAGE = 160; // KB, for a page with no recorded weight yet
 
@@ -63,8 +69,34 @@ for (const page of pages) {
   if (kb > budget) problems.push(`${rel}: ${kb} KB before scrolling, over its ${budget} KB budget.`);
 }
 
+// ---- media budget: the files GitHub Pages publishes (tracked files only; untracked renders never count)
+const notes = [];
+let tracked = [];
+try { tracked = require("child_process").execFileSync("git", ["ls-files", "-z"], { cwd: ROOT, maxBuffer: 64 * 1024 * 1024 }).toString("utf8").split("\0").filter(Boolean); } catch (e) { notes.push("media budget skipped: git ls-files did not run"); }
+const MB = n => n / 1e6;
+let totalMB = 0;
+for (const rel of tracked) {
+  let n = 0; try { n = fs.statSync(path.join(ROOT, rel)).size; } catch (e) { continue; }
+  totalMB += MB(n);
+  const mb = Math.round(MB(n) * 10) / 10;
+  if (mb > 50) problems.push(`${rel}: ${mb} MB. GitHub warns over 50 MB and refuses files over 100 MB; host it elsewhere or split it.`);
+  else if (rel.startsWith("media/") && mb > MEDIA.maxFileMB) {
+    const known = MEDIA.known[rel];
+    if (known == null) problems.push(`${rel}: ${mb} MB, over the ${MEDIA.maxFileMB} MB media budget. Re-encode it for the web (e.g. ffmpeg -c:v libx264 -crf 27 -maxrate 1.6M -bufsize 3.2M -movflags +faststart -c:a aac -b:a 128k), or, if it truly needs the size, list it under media.known in data/schema/weight-budget.json.`);
+    else if (mb > known + 0.5) problems.push(`${rel}: ${mb} MB, heavier than its recorded ${known} MB (media.known). Re-encode it, or record the new size on purpose.`);
+  }
+}
+totalMB = Math.round(totalMB);
+if (tracked.length && totalMB > MEDIA.failTotalMB) problems.push(`published site: ${totalMB} MB of tracked files, over the ${MEDIA.failTotalMB} MB limit set below GitHub Pages' 1 GB. Re-encode or remove the heaviest media (node tools/check-weight.js --list shows them).`);
+else if (tracked.length && totalMB > MEDIA.warnTotalMB) notes.push(`published site: ${totalMB} MB of tracked files, past the ${MEDIA.warnTotalMB} MB warning (GitHub Pages allows 1 GB). Plan the next films lighter.`);
+if (process.argv.includes("--list") && tracked.length) {
+  const heavy = tracked.filter(r => r.startsWith("media/")).map(r => { try { return [r, fs.statSync(path.join(ROOT, r)).size]; } catch (e) { return [r, 0]; } }).sort((a, b) => b[1] - a[1]).slice(0, 10);
+  console.log(`\nPublished site: ${totalMB} MB of tracked files (warn ${MEDIA.warnTotalMB}, fail ${MEDIA.failTotalMB}). Heaviest media:`);
+  heavy.forEach(([r, n]) => console.log(`${MB(n).toFixed(1).padStart(6)} MB  ${r}`));
+}
+
 if (process.argv.includes("--update")) {
-  const out = { note: "Compressed KB each page fetches before scrolling, recorded by tools/check-weight.js --update. A page may grow 5% (at least 8 KB) over this.", pages: Object.fromEntries(rows.map(r => [r[0], r[1]]).sort((a, b) => a[0].localeCompare(b[0]))) };
+  const out = { note: "Compressed KB each page fetches before scrolling, recorded by tools/check-weight.js --update. A page may grow 5% (at least 8 KB) over this.", media: MEDIA, pages: Object.fromEntries(rows.map(r => [r[0], r[1]]).sort((a, b) => a[0].localeCompare(b[0]))) };
   fs.writeFileSync(BUDGET_FILE, JSON.stringify(out, null, 2) + "\n");
   console.log(`check-weight: recorded ${rows.length} page weights in ${path.relative(ROOT, BUDGET_FILE)}.`);
   process.exit(0);
@@ -72,4 +104,5 @@ if (process.argv.includes("--update")) {
 if (process.argv.includes("--list")) rows.sort((a, b) => b[1] - a[1]).forEach(([r, kb, b]) => console.log(`${String(kb).padStart(5)} KB  (budget ${b})  ${r}`));
 if (problems.length) { console.error(problems.join("\n")); console.error(`check-weight: ${problems.length} problem(s).`); process.exit(1); }
 const home = rows.find(r => r[0] === "index.html");
-console.log(`check-weight: ${rows.length} pages within budget${home ? `; homepage ${home[1]} KB of ${home[2]} KB` : ""}.`);
+notes.forEach(n => console.log(`check-weight: ${n}`));
+console.log(`check-weight: ${rows.length} pages within budget${home ? `; homepage ${home[1]} KB of ${home[2]} KB` : ""}; published site ${totalMB} MB of ${MEDIA.failTotalMB} MB.`);
