@@ -1,0 +1,46 @@
+[
+ {
+  "id": "c-cop31-where",
+  "where": "Signals: COP31 watch",
+  "text": "COP31, the UN climate conference, is held in Antalya, Türkiye.",
+  "sources": [
+   {
+    "label": "UNFCCC: COP31, 2026",
+    "url": "https://unfccc.int/cop31"
+   }
+  ]
+ },
+ {
+  "id": "c-cop31-month",
+  "where": "Signals: COP31 watch",
+  "text": "It runs from 9 to 20 November 2026.",
+  "sources": [
+   {
+    "label": "UNFCCC: COP31, 2026",
+    "url": "https://unfccc.int/cop31"
+   }
+  ]
+ },
+ {
+  "id": "c-un-heat-call",
+  "where": "Signals: the year's context",
+  "text": "The UN Secretary-General has issued a Call to Action on Extreme Heat.",
+  "sources": [
+   {
+    "label": "United Nations: Extreme heat: the UN Secretary-General's Call to Action, 2024",
+    "url": "https://www.un.org/en/climatechange/extreme-heat"
+   }
+  ]
+ },
+ {
+  "id": "c-gga",
+  "where": "Signals: COP31 watch (adaptation)",
+  "text": "At the 2025 UN climate conference (CMA 7), countries adopted a set of 59 Belém Adaptation Indicators to measure progress towards the targets for adaptation; reporting on them will serve as an input to the global stocktake.",
+  "sources": [
+   {
+    "label": "UNFCCC: Global Goal on Adaptation, 2025",
+    "url": "https://unfccc.int/topics/adaptation-and-resilience/workstreams/gga"
+   }
+  ]
+ }
+]

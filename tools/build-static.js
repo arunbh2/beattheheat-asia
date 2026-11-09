@@ -457,6 +457,8 @@ if (D.HEAT_VISIBILITY) md.push(VT.markdown(D.HEAT_VISIBILITY, SITE));
 const SPT = require("./social-protection-text.js");
 if ((D.SOCIAL_PROTECTION || []).length) md.push(SPT.md(D.SOCIAL_PROTECTION, SITE));
 const GT = require("./growth-text.js"); md.push(GT.md(SITE));
+// ---- signals: page by tools/build-signals.js, the same words from tools/signals-text.js ----
+md.push(require("./signals-text.js").md(SITE));
 // the learning agenda, as on /evidence-map/: each question with its dated history
 { const LQ = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "site", "learning.json"), "utf8")).questions;
   md.push(["## The learning agenda: questions the evidence has not yet answered", `${SITE}/evidence-map/`, "What we have restates the limits the cited studies give themselves; what could answer it and the scale are our suggestions. Advanced means new evidence narrows a question; it is not an answer.",

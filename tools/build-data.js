@@ -149,6 +149,40 @@ function checkWatch(V) {
 // topics come from fixed lists; every link, page and action resolves; "why" is one or two sentences; a quoted finding
 // appears word for word in the site's own records; effort files exist; nothing vague like "Learn more". Each problem
 // names the entry and the field.
+// Signals (data/site/signals.json): every signal has a kind and group from the file's own lists, a past date, a checked
+// source (label and url) and a "next" line saying what would move it; a commitment has a ladder stage and a dated
+// history whose steps climb the ladder in order and end on its stage. Each problem names the signal and the field.
+function checkSignals(V) {
+  const fs = require("fs"), path = require("path"), ROOT = path.join(__dirname, ".."), P = [], F = path.join(ROOT, "data/site/signals.json");
+  if (!fs.existsSync(F)) return P;
+  const D = JSON.parse(fs.readFileSync(F, "utf8")), today = new Date().toISOString().slice(0, 10);
+  const rung = Object.fromEntries((D.ladder || []).map((l, i) => [l.id, i]));
+  const kinds = new Set((D.kinds || []).map(k => k.id)), groups = new Set((D.groups || []).map(g => g.id));
+  const levers = new Set((V.LEVERS || []).map(l => l.id)), ids = new Set();
+  const pastDate = d => /^\d{4}(-\d{2}(-\d{2})?)?$/.test(d || "") && d.slice(0, Math.min(d.length, 10)) <= today.slice(0, d.length);
+  (D.signals || []).forEach(s => { const at = `data/site/signals.json signal ${s.id}`;
+    if (!/^sig-[a-z0-9-]+$/.test(s.id || "")) P.push(`${at}: id is sig-<words>`);
+    if (ids.has(s.id)) P.push(`${at}: id used twice`); ids.add(s.id);
+    if (!kinds.has(s.kind)) P.push(`${at}: kind must be one of ${[...kinds].join(", ")}`);
+    if (!groups.has(s.group)) P.push(`${at}: group must be one of ${[...groups].join(", ")}`);
+    if (!pastDate(s.date)) P.push(`${at}: date is YYYY, YYYY-MM or YYYY-MM-DD, not after today`);
+    for (const f of ["title", "summary", "who", "next"]) if (!s[f]) P.push(`${at}: needs "${f}"`);
+    if (!(s.sources || []).length || s.sources.some(x => !x.label || !/^https?:\/\//.test(x.url || ""))) P.push(`${at}: every source has a label and an https url (a checked one)`);
+    (s.levers || []).forEach(l => { if (!levers.has(l)) P.push(`${at}: lever "${l}" is not in LEVERS`); });
+    if (s.kind === "commitment") {
+      if (!(s.stage in rung)) P.push(`${at}: a commitment needs a stage: ${Object.keys(rung).join(", ")}`);
+      const h = s.history || [];
+      if (!h.length) P.push(`${at}: a commitment needs a history of { date, stage, note } steps`);
+      h.forEach((x, i) => { const st = `${at} history step ${i + 1}`;
+        if (!pastDate(x.date)) P.push(`${st}: date is YYYY, YYYY-MM or YYYY-MM-DD, not after today`);
+        if (!(x.stage in rung)) P.push(`${st}: stage must be on the ladder`);
+        if (i && rung[x.stage] < rung[h[i - 1].stage]) P.push(`${st}: steps climb the ladder in order (a signal that slips back gets a note, not a lower rung)`);
+        if (!x.note) P.push(`${st}: needs a short note`); });
+      if (h.length && h[h.length - 1].stage !== s.stage) P.push(`${at}: stage "${s.stage}" differs from its latest history step "${h[h.length - 1].stage}"`);
+    } else if (s.stage) P.push(`${at}: only a commitment has a ladder stage (this is a ${s.kind})`);
+  });
+  return P;
+}
 // The learning agenda (data/site/learning.json): every question has a dated history whose latest step is its status;
 // advanced and answered steps name the records that moved them and have a matching change on /growing/.
 function checkLearning(V) {
@@ -319,9 +353,9 @@ else if (mode === "--check") {
   const diff = a.names.filter(n => !deepEqual(a.values[n], b.values[n]));
   if (diff.length || a.names.length !== b.names.length) { console.error("data.js differs from data/core in:", diff.join(", ") || "block list"); process.exit(1); }
   const all = Object.assign({}, b.values, require("./data-blocks.js")());
-  failOn([...checkHope(all), ...checkHome(all), ...checkVisibility(all), ...checkWatch(all), ...checkSocialProtection(all), ...checkGrowth(all), ...checkLearning(all), ...checkCountsAndDates()]);
+  failOn([...checkHope(all), ...checkHome(all), ...checkVisibility(all), ...checkWatch(all), ...checkSocialProtection(all), ...checkGrowth(all), ...checkLearning(all), ...checkSignals(all), ...checkCountsAndDates()]);
   console.log(`data.js matches data/core (${a.names.length} blocks)`);
 } else {
-  const out = build(); const built = load(out).values; Object.assign(built, require("./data-blocks.js")()); failOn([...checkHope(built), ...checkHome(built), ...checkVisibility(built), ...checkWatch(built), ...checkSocialProtection(built), ...checkGrowth(built), ...checkLearning(built), ...checkCountsAndDates()]);   // fails loudly if the result is not valid
+  const out = build(); const built = load(out).values; Object.assign(built, require("./data-blocks.js")()); failOn([...checkHope(built), ...checkHome(built), ...checkVisibility(built), ...checkWatch(built), ...checkSocialProtection(built), ...checkGrowth(built), ...checkLearning(built), ...checkSignals(built), ...checkCountsAndDates()]);   // fails loudly if the result is not valid
   fs.writeFileSync(OUT, out); console.log(`data.js rebuilt from data/core (${out.length.toLocaleString()} characters)`);
 }

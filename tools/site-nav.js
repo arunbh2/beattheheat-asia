@@ -45,6 +45,7 @@ function crumbs(pathname, title) {
 const MARK = `<svg class="csn__mark" viewBox="0 0 26 20" aria-hidden="true"><path class="csn__canopy" d="M2.5 8 Q13 -1 23.5 8" fill="none" stroke="#F26430" stroke-width="4" stroke-linecap="round"/><path d="M6.5 7 V18.5 M19.5 7 V18.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>`;
 const CHEV = `<svg class="csn__chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1.5 L6 6.5 L11 1.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
 const MAPI = `<svg class="csn__ico" viewBox="0 0 20 20" aria-hidden="true"><path d="M2 5 L7 3 L13 5 L18 3 V15 L13 17 L7 15 L2 17 Z M7 3 V15 M13 5 V17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>`;
+const SIGI = `<svg class="csn__ico" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="2.2" fill="currentColor"/><path d="M6.2 13.8a5.4 5.4 0 0 1 0-7.6M13.8 6.2a5.4 5.4 0 0 1 0 7.6M3.6 16.4a9 9 0 0 1 0-12.8M16.4 3.6a9 9 0 0 1 0 12.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>`;
 const LENS = `<svg class="csn__ico" viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13 L18 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>`;
 
 function panel(g, cur) {
@@ -67,6 +68,7 @@ function header(pathname, title) {
         ${panel(g, cur)}</li>`).join("")}</ul>
     </nav>
     <div class="csn__tools">
+      <a class="csn__signals" href="/signals/"${pathname.startsWith("/signals/") ? ' aria-current="page"' : ""} aria-label="Signals: which way heat policy is moving">${SIGI}<span>Signals</span></a>
       <a class="csn__map" href="/#explore" aria-label="The map: every consequence of heat and how one leads to the next">${MAPI}<span>The map</span></a>
       <button type="button" class="csn__search" data-csn-search aria-label="Search the site">${LENS}<span>Search</span><kbd aria-hidden="true">/</kbd></button>
       <button type="button" class="csn__start" data-csn-paths><span class="csn__dot" aria-hidden="true"></span><span data-csn-pathlabel>Start here</span></button>
@@ -76,7 +78,7 @@ function header(pathname, title) {
   ${c.length > 1 ? `<nav class="csn__crumbs" aria-label="You are here"><ol>${c.map(([u, t], i) => i === c.length - 1 ? `<li aria-current="page">${esc(t)}</li>` : `<li><a href="${u}">${esc(t)}</a></li>`).join("")}</ol></nav>` : ""}
   <div class="csn__pathbar" data-csn-pathbar hidden></div>
   <div class="csn__sheet" id="csn-sheet" hidden>
-    <div class="csn__sheet-tools"><a class="csn__btn csn__btn--wide csn__btn--map" href="/#explore">${MAPI} Open the map</a><button type="button" class="csn__btn csn__btn--wide" data-csn-search>${LENS} Search the site</button><button type="button" class="csn__btn csn__btn--wide csn__btn--warm" data-csn-paths>Start here: choose a path by role</button></div>
+    <div class="csn__sheet-tools"><a class="csn__btn csn__btn--wide csn__btn--signals" href="/signals/">${SIGI} Signals: which way heat policy is moving</a><a class="csn__btn csn__btn--wide csn__btn--map" href="/#explore">${MAPI} Open the map</a><button type="button" class="csn__btn csn__btn--wide" data-csn-search>${LENS} Search the site</button><button type="button" class="csn__btn csn__btn--wide csn__btn--warm" data-csn-paths>Start here: choose a path by role</button></div>
     ${GROUPS.map(g => `<details class="csn__acc"${g === g0 ? " open" : ""}><summary>${esc(g.h)}${CHEV}</summary><ul>
       <li><a class="csn__acc-lead" href="${g.lead[0]}"><b>${esc(g.lead[1])}</b><small>${esc(fill(g.lead[2]))}</small></a></li>
       ${items(g).filter(i => i.tier === 1).map(i => `<li><a href="${i.u}"${i.u === cur ? ' aria-current="page"' : ""}><b>${esc(i.t)}</b><small>${esc(i.d)}</small></a></li>`).join("")}
@@ -172,6 +174,9 @@ const CSS = `html:has(.csn){scroll-padding-top:120px}
 .csn__start{border:1.5px solid #F26430;background:#F26430;color:#16202B;box-shadow:0 8px 20px -10px rgba(242,100,48,.85),inset 0 1px 0 rgba(255,255,255,.25);transition:background .2s,box-shadow .2s,transform .2s}
 .csn__start:hover{background:#FF7A45;border-color:#FF7A45;transform:translateY(-1px);box-shadow:0 12px 24px -12px rgba(242,100,48,.9)}.csn__start:focus-visible{outline:3px solid #16202B;outline-offset:2px}
 .csn__start--glow{animation:csn-glow 2.6s ease-in-out 1.2s 3}
+.csn__signals{display:inline-flex;align-items:center;gap:7px;height:40px;padding:0 14px;border-radius:999px;font-weight:700;font-size:.9rem;white-space:nowrap;text-decoration:none;background:#3DBE78;border:1.5px solid #3DBE78;color:#0C1B12;box-shadow:0 8px 20px -10px rgba(61,190,120,.8),inset 0 1px 0 rgba(255,255,255,.25);transition:background .2s,transform .2s}
+.csn__signals:hover{background:#55CF8C;border-color:#55CF8C;transform:translateY(-1px)}.csn__signals:focus-visible{outline:3px solid #fff;outline-offset:2px}.csn__signals[aria-current]{box-shadow:inset 0 0 0 2px #0C1B12}
+.csn__btn--signals{background:#3DBE78!important;border-color:#3DBE78!important;color:#0C1B12!important;font-weight:700}
 @keyframes csn-glow{0%,100%{box-shadow:0 8px 20px -10px rgba(242,100,48,.85),0 0 0 0 rgba(242,100,48,.45)}50%{box-shadow:0 8px 20px -10px rgba(242,100,48,.85),0 0 0 9px rgba(242,100,48,0)}}
 @media (prefers-reduced-motion:reduce){.csn__start--glow{animation:none}}
 .csn__dot{display:none;width:8px;height:8px;border-radius:50%;background:var(--orange)}
@@ -285,7 +290,7 @@ const CSS = `html:has(.csn){scroll-padding-top:120px}
 .csf__text{margin:12px 0 0;font-size:.8rem;color:#C9C2B6}.csf__text a,.csf__cite a{text-decoration:underline;text-decoration-color:var(--orange);text-underline-offset:3px}
 @media (max-width:1180px){.csn__search span,.csn__search kbd{display:none}.csn__search{width:40px;padding:0;justify-content:center}.csn__links{grid-template-columns:1fr}.csn__pin{grid-template-columns:minmax(0,1fr) minmax(0,1.4fr) minmax(0,.9fr)}}
 @media (max-width:960px){.csn__main{display:none}.csn__burger{display:inline-flex}.csn__in{height:58px}.csn--slim .csn__in{height:54px}}
-@media (max-width:560px){.csn__tools{gap:6px}.csn__map{width:40px;padding:0;justify-content:center}.csn__map span{display:none}.csn__start{padding:0 12px}.csn__start .csn__dot{display:none}.csn__burger{width:40px;padding:0;justify-content:center;font-size:0;gap:0}.csn__home{font-size:1.05rem}.csn__mark{width:26px}.csn-d{margin-top:4vh;max-height:88vh}.csn-d__h{font-size:1.6rem}.csp{margin:14px 12px 18px;padding:16px 18px}}
+@media (max-width:560px){.csn__tools{gap:6px}.csn__signals{width:40px;padding:0;justify-content:center}.csn__signals span{display:none}.csn__map{width:40px;padding:0;justify-content:center}.csn__map span{display:none}.csn__start{padding:0 12px}.csn__start .csn__dot{display:none}.csn__burger{width:40px;padding:0;justify-content:center;font-size:0;gap:0}.csn__home{font-size:1.05rem}.csn__mark{width:26px}.csn-d{margin-top:4vh;max-height:88vh}.csn-d__h{font-size:1.6rem}.csp{margin:14px 12px 18px;padding:16px 18px}}
 @media (max-width:419px){.csn__home>span:not(.csn-vh){display:none}}
 html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{touch-action:manipulation}button,[role=button]{-webkit-user-select:none;user-select:none}
 @media (pointer:coarse){input:not([type=checkbox]):not([type=radio]):not([type=range]),select,textarea{font-size:16px!important}}
