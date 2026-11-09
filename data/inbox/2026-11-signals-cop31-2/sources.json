@@ -1,0 +1,172 @@
+[
+ {
+  "id": "src-cop31b-wmo-pr",
+  "type": "source",
+  "keys": [
+   "wmo-pr"
+  ],
+  "title": "State of the climate in 2026 gives new meaning to phrase 'off the charts'",
+  "publisher": "World Meteorological Organization",
+  "year": 2026,
+  "url": "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts",
+  "kind": "Press release",
+  "where": "COP31",
+  "expect": [
+   "COP31",
+   "1.47",
+   "1850",
+   "four warmest",
+   "El Niño",
+   "2027"
+  ],
+  "claims": [
+   "c-wmo-147",
+   "c-wmo-four",
+   "c-wmo-elnino-2027"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31b-wmo-report",
+  "type": "source",
+  "keys": [
+   "wmo-report"
+  ],
+  "title": "State of the Climate Update for COP31",
+  "publisher": "World Meteorological Organization",
+  "year": 2026,
+  "url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31",
+  "kind": "Report page",
+  "where": "COP31",
+  "expect": [
+   "COP31",
+   "1.47",
+   "1850",
+   "four warmest",
+   "El Niño",
+   "2027"
+  ],
+  "claims": [
+   "c-wmo-147",
+   "c-wmo-four",
+   "c-wmo-elnino-2027"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31b-wmo-enso",
+  "type": "source",
+  "keys": [
+   "wmo-enso"
+  ],
+  "title": "El Nino/La Nina Update (August 2026)",
+  "publisher": "World Meteorological Organization",
+  "year": 2026,
+  "url": "https://wmo.int/node/38928",
+  "kind": "Official update",
+  "where": "COP31",
+  "expect": [
+   "El Niño",
+   "firmly established"
+  ],
+  "claims": [
+   "c-enso-established"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31b-unep-egr",
+  "type": "source",
+  "keys": [
+   "unep-egr"
+  ],
+  "title": "Emissions Gap Report 2026",
+  "publisher": "UNEP",
+  "year": 2026,
+  "url": "https://www.unep.org/resources/emissions-gap-report-2026",
+  "kind": "Report page",
+  "where": "COP31",
+  "expect": [
+   "Emissions Gap Report 2026",
+   "overshoot",
+   "The Point of Return",
+   "2.8",
+   "current policies"
+  ],
+  "claims": [
+   "c-unep-overshoot",
+   "c-unep-28"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31b-pbl-egr",
+  "type": "source",
+  "keys": [
+   "pbl-egr"
+  ],
+  "title": "UNEP Emissions Gap Report 2026",
+  "publisher": "PBL Netherlands Environmental Assessment Agency (co-author)",
+  "year": 2026,
+  "url": "https://www.pbl.nl/en/publications/unep-emissions-gap-report-2026",
+  "kind": "Publication page",
+  "where": "COP31",
+  "expect": [
+   "Emissions Gap",
+   "overshoot",
+   "Point of Return",
+   "2.8"
+  ],
+  "claims": [
+   "c-unep-overshoot",
+   "c-unep-28"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31b-iisd-egr",
+  "type": "source",
+  "keys": [
+   "iisd-egr"
+  ],
+  "title": "Emissions Gap Report 2026 aims for lowest possible 1.5C overshoot",
+  "publisher": "IISD SDG Knowledge Hub",
+  "year": 2026,
+  "url": "https://sdg.iisd.org/news/emissions-gap-report-2026-aims-for-lowest-possible-15c-overshoot/",
+  "kind": "Summary",
+  "where": "COP31",
+  "expect": [
+   "Emissions Gap Report 2026",
+   "overshoot",
+   "Point of Return",
+   "2.8",
+   "current policies"
+  ],
+  "claims": [
+   "c-unep-overshoot",
+   "c-unep-28"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31b-cop-afp",
+  "type": "source",
+  "keys": [
+   "cop-afp"
+  ],
+  "title": "2026 'most likely' to be second-hottest year on record: EU monitor",
+  "publisher": "AFP, via The Korea Times",
+  "year": 2026,
+  "url": "https://www.koreatimes.co.kr/world/20261106/2026-most-likely-to-be-second-hottest-year-on-record-eu-monitor",
+  "kind": "News (wire)",
+  "where": "COP31",
+  "expect": [
+   "Copernicus",
+   "second-hottest"
+  ],
+  "claims": [
+   "c-copernicus-second"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ }
+]
