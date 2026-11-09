@@ -663,6 +663,13 @@
     "when": "season",
     "measure": "Cooling centre visits, and check-ins on people living alone",
     "text": "Public cooling spaces, water points and check-ins on older people living alone can offer relief in a heatwave. How much they protect health depends on who can reach them, how long people stay, and how hot it is once they leave.",
+    "example": "Narayanganj's 2025 heat action plan in Bangladesh proposes cooling centres in accessible public buildings and counts their daily users as an indicator, a way to see whether people use them.",
+    "exampleSources": [
+      {
+        "label": "Narayanganj City Corporation: Heat Action Plan, 2025",
+        "url": "https://southasia.iclei.org/wp-content/uploads/2026/02/Heat-Action-Plan_Narayanganj_Final_9th-Sept_2025_compressed.pdf"
+      }
+    ],
     "guides": [
       {
         "by": "US Centers for Disease Control and Prevention, in the GHHIN resource library",

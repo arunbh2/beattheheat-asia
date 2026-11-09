@@ -1,0 +1,133 @@
+[
+ {
+  "id": "src-run-ahmedabad",
+  "type": "source",
+  "keys": [
+   "ahmedabad"
+  ],
+  "title": "Ahmedabad Heat Action Plan 2019",
+  "publisher": "Ahmedabad Municipal Corporation",
+  "year": 2019,
+  "url": "https://heathealth.info/wp-content/uploads/ahmedabad-heat-action-plan-2018.pdf",
+  "kind": "City heat action plan",
+  "where": "Ahmedabad",
+  "expect": [
+   "budget",
+   "maintenance",
+   "fund",
+   "Ahmedabad Municipal Corporation"
+  ],
+  "claims": [],
+  "note": "Staged for the reading pass of the running-costs batch: the checker saves the passages around each probe word. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20250909114551/https://heathealth.info/wp-content/uploads/ahmedabad-heat-action-plan-2018.pdf"
+ },
+ {
+  "id": "src-run-cpr-hap",
+  "type": "source",
+  "keys": [
+   "cpr-hap"
+  ],
+  "title": "How is India adapting to heatwaves? An assessment of heat action plans",
+  "publisher": "Centre for Policy Research",
+  "year": 2023,
+  "url": "https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/",
+  "kind": "Assessment of 37 heat action plans",
+  "where": "India",
+  "expect": [
+   "fund",
+   "budget",
+   "financ",
+   "heat action plans"
+  ],
+  "claims": [],
+  "note": "Staged for the reading pass of the running-costs batch: the checker saves the passages around each probe word. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261023082454/https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/"
+ },
+ {
+  "id": "src-run-cpr-finance",
+  "type": "source",
+  "keys": [
+   "cpr-finance"
+  ],
+  "title": "Finding the finance: a guide to identifying centrally sponsored schemes to fund heat resilience solutions",
+  "publisher": "Centre for Policy Research",
+  "year": 2024,
+  "url": "https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/",
+  "kind": "Guide",
+  "where": "India",
+  "expect": [
+   "centrally sponsored",
+   "fund",
+   "heat"
+  ],
+  "claims": [],
+  "note": "Staged for the reading pass of the running-costs batch: the checker saves the passages around each probe word. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20251217114801/https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/"
+ },
+ {
+  "id": "src-run-narayanganj",
+  "type": "source",
+  "keys": [
+   "narayanganj"
+  ],
+  "title": "Heat Action Plan, Narayanganj City Corporation",
+  "publisher": "Narayanganj City Corporation, with ICLEI South Asia",
+  "year": 2025,
+  "url": "https://southasia.iclei.org/wp-content/uploads/2026/02/Heat-Action-Plan_Narayanganj_Final_9th-Sept_2025_compressed.pdf",
+  "kind": "City heat action plan",
+  "where": "Bangladesh",
+  "expect": [
+   "operation and maintenance",
+   "recurring",
+   "budget",
+   "Narayanganj"
+  ],
+  "claims": [],
+  "note": "Staged for the reading pass of the running-costs batch: the checker saves the passages around each probe word. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260315113157/https://southasia.iclei.org/wp-content/uploads/2026/02/Heat-Action-Plan_Narayanganj_Final_9th-Sept_2025_compressed.pdf"
+ },
+ {
+  "id": "src-run-bd-hnap",
+  "type": "source",
+  "keys": [
+   "bd-hnap"
+  ],
+  "title": "Bangladesh Health National Adaptation Plan 2026",
+  "publisher": "Government of Bangladesh (IEDCR)",
+  "year": 2026,
+  "url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-iedcr/2026/2/9ef9325c-4d07-45ce-9159-94a51b2fce43.pdf",
+  "kind": "National health adaptation plan",
+  "where": "Bangladesh",
+  "expect": [
+   "heat",
+   "budget",
+   "recurring",
+   "operational"
+  ],
+  "claims": [],
+  "note": "Staged for the reading pass of the running-costs batch: the checker saves the passages around each probe word. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261109033241/https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-iedcr/2026/2/9ef9325c-4d07-45ce-9159-94a51b2fce43.pdf"
+ },
+ {
+  "id": "src-run-khulna",
+  "type": "source",
+  "keys": [
+   "khulna"
+  ],
+  "title": "Strengthening heat governance in Khulna, Bangladesh",
+  "publisher": "Practical Action",
+  "year": 2026,
+  "url": "https://practicalaction.org/knowledge-centre/resources/strengthening-heat-governance-in-khulna-bangladesh/",
+  "kind": "Policy brief (summary page)",
+  "where": "Bangladesh",
+  "expect": [
+   "Khulna",
+   "budget",
+   "fund",
+   "heat"
+  ],
+  "claims": [],
+  "note": "Staged for the reading pass of the running-costs batch: the checker saves the passages around each probe word. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261109033253/https://practicalaction.org/knowledge-centre/resources/strengthening-heat-governance-in-khulna-bangladesh/"
+ }
+]

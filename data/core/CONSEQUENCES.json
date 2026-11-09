@@ -1304,11 +1304,15 @@
     "id": "underfund",
     "sys": "gov",
     "label": "Heat protection\nunderfunded",
-    "desc": "Warnings, cooling centres, outreach and heat-ready services get a small share of budgets compared with floods or storms.",
+    "desc": "Warnings, cooling centres, outreach and heat-ready services get a small share of budgets compared with floods or storms. A 2023 review of 37 Indian heat action plans found them underfunded: only two cited specific sources of finance for any of their actions.",
     "sources": [
       {
         "label": "Centre for Policy Research, 2023: assessment of 37 heat action plans",
         "url": "https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/"
+      },
+      {
+        "label": "Centre for Policy Research: Finding the Finance, a guide to identifying centrally sponsored schemes to fund heat resilience",
+        "url": "https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/"
       }
     ]
   },

@@ -1,0 +1,50 @@
+[
+ {
+  "id": "c-two-of-37",
+  "where": "Cycle node 'Heat protection underfunded'",
+  "text": "A 2023 review of 37 Indian heat action plans found them underfunded: only two cited specific sources of finance for any of their actions.",
+  "sources": [
+   {
+    "label": "Centre for Policy Research: Finding the Finance, a guide to identifying centrally sponsored schemes to fund heat resilience",
+    "url": "https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/"
+   },
+   {
+    "label": "Centre for Policy Research, 2023: assessment of 37 heat action plans",
+    "url": "https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/"
+   }
+  ]
+ },
+ {
+  "id": "c-nara-costed",
+  "where": "Bangladesh snapshot: municipal and health public budgets",
+  "text": "Narayanganj's 2025 heat action plan gives each short-term action a tentative cost in taka and names potential funding sources, often development partners and NGOs.",
+  "sources": [
+   {
+    "label": "Narayanganj City Corporation: Heat Action Plan, 2025",
+    "url": "https://southasia.iclei.org/wp-content/uploads/2026/02/Heat-Action-Plan_Narayanganj_Final_9th-Sept_2025_compressed.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-nara-users",
+  "where": "Lever coolingcentres example",
+  "text": "Narayanganj's 2025 heat action plan in Bangladesh proposes cooling centres in accessible public buildings and counts their daily users as an indicator, a way to see whether people use them.",
+  "sources": [
+   {
+    "label": "Narayanganj City Corporation: Heat Action Plan, 2025",
+    "url": "https://southasia.iclei.org/wp-content/uploads/2026/02/Heat-Action-Plan_Narayanganj_Final_9th-Sept_2025_compressed.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-hnap-cost",
+  "where": "Bangladesh snapshot: municipal and health public budgets",
+  "text": "Bangladesh's Health National Adaptation Plan 2026 estimates about US$1.4 billion is needed over five years, and plans to draw on public budgets through a climate fiscal framework and on international climate funds such as the Adaptation Fund and the GCF.",
+  "sources": [
+   {
+    "label": "Government of Bangladesh: Health National Adaptation Plan 2026",
+    "url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-iedcr/2026/2/9ef9325c-4d07-45ce-9159-94a51b2fce43.pdf"
+   }
+  ]
+ }
+]
