@@ -54,7 +54,8 @@
    "c-lived",
    "c-reference"
   ],
-  "note": "Staged from the future heatwaves study batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the future heatwaves study batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261109043434/https://link.springer.com/content/pdf/10.1038/s41467-026-76809-5.pdf?error=cookies_not_supported&code=6318d164-3566-4782-9d08-50702d286574"
  },
  {
   "id": "src-fh-npdf",
@@ -82,7 +83,8 @@
    "c-lived",
    "c-reference"
   ],
-  "note": "Staged from the future heatwaves study batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the future heatwaves study batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261109043453/https://www.nature.com/articles/s41467-026-76809-5.pdf?error=cookies_not_supported&code=8bad2691-c720-41b3-895d-5985c0b9f800"
  },
  {
   "id": "src-fh-epmc",
@@ -103,6 +105,7 @@
   "claims": [
    "c-lived"
   ],
-  "note": "Staged from the future heatwaves study batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the future heatwaves study batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261109043559/https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038%2Fs41467-026-76809-5&resultType=core&format=json"
  }
 ]

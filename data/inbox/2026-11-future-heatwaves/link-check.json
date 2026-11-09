@@ -8,7 +8,32 @@
    "1-in-5 heatwaves in Europe and India & Pakistan": false,
    "even when strong": false,
    "well outside the recent lived experience": false
+  },
+  "https://link.springer.com/content/pdf/10.1038/s41467-026-76809-5.pdf": {
+   "2019": false,
+   "Recent extreme heatwaves are no match for future events": false,
+   "India & Pakistan": false,
+   "between 6% and 11% of projected": false,
+   "1-in-5 heatwaves in Europe and India & Pakistan": false,
+   "even when strong": false,
+   "well outside the recent lived experience": false
+  },
+  "https://www.nature.com/articles/s41467-026-76809-5.pdf": {
+   "2019": false,
+   "Recent extreme heatwaves are no match for future events": false,
+   "India & Pakistan": false,
+   "between 6% and 11% of projected": false,
+   "1-in-5 heatwaves in Europe and India & Pakistan": false,
+   "even when strong": false,
+   "well outside the recent lived experience": false
+  },
+  "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41467-026-76809-5&resultType=core&format=json": {
+   "heatwaves": false,
+   "well outside the recent lived experience": false
   }
  },
- "https://www.nature.com/articles/s41467-026-76809-5": "REDIRECT"
+ "https://www.nature.com/articles/s41467-026-76809-5": "REDIRECT",
+ "https://link.springer.com/content/pdf/10.1038/s41467-026-76809-5.pdf": "OK",
+ "https://www.nature.com/articles/s41467-026-76809-5.pdf": "REDIRECT",
+ "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41467-026-76809-5&resultType=core&format=json": "OK"
 }
