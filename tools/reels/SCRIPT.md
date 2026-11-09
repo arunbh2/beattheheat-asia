@@ -65,3 +65,19 @@ Two alternative openings replace scene 0 only, so the rest stays the same and th
 **Suggested caption, Reel 1:** An illustrative story. In a 2024 survey of 721 street vendors in Delhi, 49% lost income in heatwaves (Greenpeace India and National Hawkers Federation). Across five cities in Nepal and Bangladesh, heat pushed some households towards high-interest loans (Red Cross and Red Crescent, 2026). How protection could break the cycle: beattheheat.asia
 
 **Suggested caption, Reel 2:** An illustrative story, from Common Shade's access exercise. How much cooling centres protect health depends on who can reach them; a 2025 review found no study yet measuring health outcomes for users (UKHSA). Try the exercise: beattheheat.asia/intersections/
+
+## Reel 3: "Made to measure"
+
+Made with the cinecode kit (Film mode), 45 s, 1080 × 1920 at 30 fps: a tailor cuts each heat plan to the last heatwave's measurements, and the plans work until the heat outgrows the coat. Hand-made paper on a tailor's table in noon light through shutters; faceless paper hands only. The source is in `tools/reels/made-to-measure/` (`film.html`, rendered with cinecode's `make.py`; `SCRIPT.md`, `ROADMAP.md`, `shots.json`, `LICENSES.csv`). The music and every sound are written in code; the narration is the Piper LibriTTS voice (speaker 599), treated as a close voice in a small room.
+
+Only figures already checked on the site appear. The Nature Communications 2026 study on future heatwaves inspired the idea, but none of its figures are used until its source check passes.
+
+| Shot | Fact as used | Source on the site |
+|---|---|---|
+| 2 | Odisha, 1998: more than two thousand heatstroke deaths in a month | /heatwaves/#odisha1998 (Down To Earth) |
+| 3 | Odisha's first plan; recorded deaths fell to 91 the next year | /heatwaves/#odisha1998 |
+| 4 | Ahmedabad, 2010; a city plan followed (2013); an estimated 1,190 deaths a year avoided | /heatwaves/#ahmedabad2010 (Hess et al., 2018) |
+| 6 | 2022: heat arrived in March; about 30 times more likely with climate change | /heatwaves/#southasia2022 (WMO, 2022) |
+| 9 | The worst heatwave you remember isn't the worst to come. | the film's thesis, with no number |
+
+**Suggested caption:** An illustrative story. Every heat plan is cut to the last heatwave people remember. In Odisha, a plan after the 1998 heatwave cut recorded deaths to 91 the next year; Ahmedabad's city plan is estimated to avoid 1,190 deaths a year. But in 2022 the heat came in March, made about 30 times more likely by climate change (WMO). Plans need room to grow. beattheheat.asia/heatwaves/
