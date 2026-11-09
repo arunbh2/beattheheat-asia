@@ -24,7 +24,8 @@
    "c-wmo-four",
    "c-wmo-elnino-2027"
   ],
-  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261109101623/https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts"
  },
  {
   "id": "src-cop31b-wmo-report",
@@ -51,7 +52,8 @@
    "c-wmo-four",
    "c-wmo-elnino-2027"
   ],
-  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261109164031/https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"
  },
  {
   "id": "src-cop31b-wmo-enso",
@@ -72,7 +74,8 @@
   "claims": [
    "c-enso-established"
   ],
-  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261109170440/https://wmo.int/resources/publication-series/el-ninola-nina-updates/august-2026"
  },
  {
   "id": "src-cop31b-unep-egr",
@@ -121,7 +124,8 @@
    "c-unep-overshoot",
    "c-unep-28"
   ],
-  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261025110240/https://www.pbl.nl/en/publications/unep-emissions-gap-report-2026"
  },
  {
   "id": "src-cop31b-iisd-egr",
@@ -167,6 +171,7 @@
   "claims": [
    "c-copernicus-second"
   ],
-  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261109170521/https://www.koreatimes.co.kr/world/20261106/2026-most-likely-to-be-second-hottest-year-on-record-eu-monitor"
  }
 ]

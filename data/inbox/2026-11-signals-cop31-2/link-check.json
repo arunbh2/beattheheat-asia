@@ -1,0 +1,55 @@
+{
+ "_terms": {
+  "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts": {
+   "1850": true,
+   "2027": true,
+   "COP31": true,
+   "1.47": true,
+   "four warmest": true,
+   "El Niño": true
+  },
+  "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31": {
+   "1850": true,
+   "2027": true,
+   "COP31": true,
+   "1.47": true,
+   "four warmest": true,
+   "El Niño": true
+  },
+  "https://wmo.int/node/38928": {
+   "El Niño": true,
+   "firmly established": true
+  },
+  "https://www.unep.org/resources/emissions-gap-report-2026": {
+   "Emissions Gap Report 2026": false,
+   "overshoot": false,
+   "The Point of Return": false,
+   "2.8": false,
+   "current policies": false
+  },
+  "https://www.pbl.nl/en/publications/unep-emissions-gap-report-2026": {
+   "Emissions Gap": true,
+   "overshoot": true,
+   "Point of Return": true,
+   "2.8": true
+  },
+  "https://sdg.iisd.org/news/emissions-gap-report-2026-aims-for-lowest-possible-15c-overshoot/": {
+   "Emissions Gap Report 2026": false,
+   "overshoot": false,
+   "Point of Return": false,
+   "2.8": false,
+   "current policies": false
+  },
+  "https://www.koreatimes.co.kr/world/20261106/2026-most-likely-to-be-second-hottest-year-on-record-eu-monitor": {
+   "Copernicus": true,
+   "second-hottest": true
+  }
+ },
+ "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts": "OK",
+ "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31": "OK",
+ "https://wmo.int/node/38928": "OK",
+ "https://www.unep.org/resources/emissions-gap-report-2026": "FAIL",
+ "https://www.pbl.nl/en/publications/unep-emissions-gap-report-2026": "OK",
+ "https://sdg.iisd.org/news/emissions-gap-report-2026-aims-for-lowest-possible-15c-overshoot/": "BLOCKED",
+ "https://www.koreatimes.co.kr/world/20261106/2026-most-likely-to-be-second-hottest-year-on-record-eu-monitor": "OK"
+}
