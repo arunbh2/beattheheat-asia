@@ -1,0 +1,27 @@
+{
+ "about": "Does Bangkok's finding (money to build, but running costs not always covered) hold elsewhere in the region? Claims written only from the passages the reading passes saved (data/inbox/2026-11-heat-plan-running-costs and -2), then gated against the same check. Where a table's text came out jumbled, no figure is tied to a row. No absence is claimed for a whole document, since only passages were read.",
+ "sources": [
+  { "key": "cpr-hap", "inbox": "2026-11-heat-plan-running-costs", "id": "src-run-cpr-hap", "label": "Centre for Policy Research, 2023: assessment of 37 heat action plans",
+    "url": "https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/" },
+  { "key": "cpr-finance", "inbox": "2026-11-heat-plan-running-costs", "id": "src-run-cpr-finance", "label": "Centre for Policy Research: Finding the Finance, a guide to identifying centrally sponsored schemes to fund heat resilience",
+    "url": "https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/" },
+  { "key": "narayanganj", "inbox": "2026-11-heat-plan-running-costs-2", "id": "src-run-narayanganj-2", "label": "Narayanganj City Corporation: Heat Action Plan, 2025",
+    "url": "https://southasia.iclei.org/wp-content/uploads/2026/02/Heat-Action-Plan_Narayanganj_Final_9th-Sept_2025_compressed.pdf" },
+  { "key": "bd-hnap", "inbox": "2026-11-heat-plan-running-costs-2", "id": "src-run-bd-hnap-2", "label": "Government of Bangladesh: Health National Adaptation Plan 2026",
+    "url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-iedcr/2026/2/9ef9325c-4d07-45ce-9159-94a51b2fce43.pdf" }
+ ],
+ "claims": [
+  { "id": "c-two-of-37", "where": "Cycle node 'Heat protection underfunded'",
+    "rests_on": [["cpr-finance", "only two of the 37"], ["cpr-finance", "specific sources of finance"], ["cpr-hap", "HAPs are underfunded"]],
+    "text": "A 2023 review of 37 Indian heat action plans found them underfunded: only two cited specific sources of finance for any of their actions." },
+  { "id": "c-nara-costed", "where": "Bangladesh snapshot: municipal and health public budgets",
+    "rests_on": [["narayanganj", "Tentative Cost (BDT)"], ["narayanganj", "Potential Funding Sources"], ["narayanganj", "Development Partners, I/NGOs"]],
+    "text": "Narayanganj's 2025 heat action plan gives each short-term action a tentative cost in taka and names potential funding sources, often development partners and NGOs." },
+  { "id": "c-nara-users", "where": "Lever coolingcentres example",
+    "rests_on": [["narayanganj", "Establish cooling centres in accessible public buildings"], ["narayanganj", "Daily users"]],
+    "text": "Narayanganj's 2025 heat action plan in Bangladesh proposes cooling centres in accessible public buildings and counts their daily users as an indicator, a way to see whether people use them." },
+  { "id": "c-hnap-cost", "where": "Bangladesh snapshot: municipal and health public budgets",
+    "rests_on": [["bd-hnap", "US$ 1.4 billion"], ["bd-hnap", "climate fiscal framework"], ["bd-hnap", "Adaptation Fund"], ["bd-hnap", "GCF"]],
+    "text": "Bangladesh's Health National Adaptation Plan 2026 estimates about US$1.4 billion is needed over five years, and plans to draw on public budgets through a climate fiscal framework and on international climate funds such as the Adaptation Fund and the GCF." }
+ ]
+}

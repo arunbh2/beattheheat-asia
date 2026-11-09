@@ -1630,8 +1630,8 @@
   },
   {
    "url": "https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/",
-   "label": "Finding the Finance: a guide to identifying centrally sponsored schemes to fund heat resilience",
-   "root": "practical",
+   "label": "Centre for Policy Research: Finding the Finance, a guide to identifying centrally sponsored schemes to fund heat resilience",
+   "root": "evidence",
    "org": false,
    "date": "2023-12-05",
    "precision": "day",
@@ -8530,6 +8530,15 @@
    "date": "2026",
    "precision": "year",
    "how": "record"
+  },
+  {
+   "url": "https://southasia.iclei.org/wp-content/uploads/2026/02/Heat-Action-Plan_Narayanganj_Final_9th-Sept_2025_compressed.pdf",
+   "label": "Narayanganj City Corporation: Heat Action Plan, 2025",
+   "root": "practical",
+   "org": false,
+   "date": "2026-02",
+   "precision": "month",
+   "how": "url"
   },
   {
    "url": "https://spacecool.jp/en/",

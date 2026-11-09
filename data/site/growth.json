@@ -358,6 +358,19 @@
       "links": [{ "to": "lever:heatbudget", "why": "A costed heat plan and proposed climate budgeting add a Bangkok example to dedicated heat budgets.", "basis": "record" },
                 { "to": "lever:coolingcentres", "why": "Running costs join the watch-outs for cooling centres.", "basis": "record" },
                 { "to": "people:older", "why": "Consultation participants said heat response may not reach older and bedridden people in metal-roofed homes.", "basis": "record" }]
+    },
+    {
+      "id": "g-heat-plan-running-costs", "kind": "evidence", "root": "institutions", "added": "2026-11-09", "pr": null,
+      "title": "Are heat plans budgeted, or only hoped for?",
+      "why": "After Bangkok's strategy found money to build but not always to run, a reading of heat plans from India and Bangladesh showed a nearby pattern: costs and potential funders are named, but budgets that recur each season rarely are. Each claim was written from passages checked on GitHub.",
+      "places": ["india", "bangladesh"], "people": [], "topics": ["heatbudget", "coolingcentres"],
+      "event": { "what": "Reading pass across six heat plans and reviews", "date": "2026-11" },
+      "finding": { "text": "only two cited specific sources of finance for any of their actions", "source": ["Centre for Policy Research: Finding the Finance, a guide to identifying centrally sponsored schemes to fund heat resilience", "https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/"] },
+      "review": "Claims written only from checked passages; all four confirmed; two documents left out with reasons",
+      "effort": { "asked": "Does Bangkok's running-cost gap appear in other heat plans in the region?", "inbox": "data/inbox/2026-11-heat-plan-running-costs", "dropped": "research/2026-11/heat-plan-running-costs/dropped-after-check.json", "open": "Whether any city in the region budgets the running costs of its heat plan every season." },
+      "pages": [["/countries/bangladesh/", "Bangladesh"], ["/actions/", "Actions"]], "action": ["Read Bangladesh's page", "/countries/bangladesh/"],
+      "links": [{ "to": "lever:heatbudget", "why": "Few plans name where the money comes from, which is what a dedicated heat budget would fix.", "basis": "record" },
+                { "to": "lever:coolingcentres", "why": "Narayanganj counts daily users of its cooling centres.", "basis": "record" }]
     }
   ]
 }
