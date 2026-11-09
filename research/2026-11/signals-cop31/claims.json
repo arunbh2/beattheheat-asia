@@ -1,0 +1,32 @@
+{
+ "about": "COP31 and the heat-related tracks around it, for the Signals page. Every route is official where one exists; a claim passes only when one route holds all its terms. Nothing about COP31 is written from memory.",
+ "sources": [
+  { "key": "unfccc-cop31", "title": "COP31", "publisher": "UNFCCC", "year": 2026, "kind": "Official page", "url": "https://unfccc.int/cop31", "expect": ["COP31"] },
+  { "key": "unfccc-event", "title": "COP 31", "publisher": "UNFCCC", "year": 2026, "kind": "Official event page", "url": "https://unfccc.int/event/cop-31", "expect": ["COP"] },
+  { "key": "host-tr", "title": "COP31 Türkiye", "publisher": "Republic of Türkiye", "year": 2026, "kind": "Host site", "url": "https://www.cop31.gov.tr/", "expect": ["COP31"] },
+  { "key": "cop31-org", "title": "COP31", "publisher": "COP31", "year": 2026, "kind": "Conference site", "url": "https://cop31.org/", "expect": ["COP31"] },
+  { "key": "au-dcceew", "title": "COP31", "publisher": "Australian Government, DCCEEW", "year": 2026, "kind": "Government page", "url": "https://www.dcceew.gov.au/climate-change/international-commitments/cop31", "expect": ["COP31"] },
+  { "key": "wiki-cop31", "title": "2026 United Nations Climate Change Conference", "publisher": "Wikipedia", "year": 2026, "kind": "Encyclopedia (locator only)", "url": "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference", "expect": ["COP31"] },
+  { "key": "un-heat", "title": "Extreme heat: the UN Secretary-General's Call to Action", "publisher": "United Nations", "year": 2024, "kind": "Official page", "url": "https://www.un.org/en/climatechange/extreme-heat", "expect": ["heat"] },
+  { "key": "unfccc-gga", "title": "Global Goal on Adaptation", "publisher": "UNFCCC", "year": 2025, "kind": "Official page", "url": "https://unfccc.int/topics/adaptation-and-resilience/workstreams/gga", "expect": ["Global Goal on Adaptation"] },
+  { "key": "cool-beat", "title": "Beat the Heat", "publisher": "UNEP Cool Coalition", "year": 2025, "kind": "Initiative page", "url": "https://coolcoalition.org/beat-the-heat/", "expect": ["heat"] },
+  { "key": "unep-beat", "title": "Beat the Heat", "publisher": "UNEP", "year": 2025, "kind": "Initiative page", "url": "https://www.unep.org/beat-the-heat", "expect": ["heat"] }
+ ],
+ "claims": [
+  { "id": "c-cop31-where", "where": "Signals: COP31 watch", "rests_on": [["unfccc-cop31", "Antalya"]],
+    "alts": [[["unfccc-event", "Antalya"]], [["host-tr", "Antalya"]], [["cop31-org", "Antalya"]], [["au-dcceew", "Antalya"]]],
+    "text": "COP31, the UN climate conference, is held in Antalya, Türkiye." },
+  { "id": "c-cop31-month", "where": "Signals: COP31 watch", "rests_on": [["unfccc-cop31", "November 2026"]],
+    "alts": [[["unfccc-event", "November 2026"]], [["host-tr", "November 2026"]], [["cop31-org", "November 2026"]], [["au-dcceew", "November 2026"]]],
+    "text": "It takes place in November 2026." },
+  { "id": "c-cop31-australia", "where": "Signals: COP31 watch", "rests_on": [["au-dcceew", "President of Negotiations"]],
+    "alts": [[["unfccc-cop31", "President of Negotiations"]], [["host-tr", "Australia"], ["host-tr", "Antalya"]]],
+    "text": "Australia leads the negotiations, with Türkiye as host." },
+  { "id": "c-un-heat-call", "where": "Signals: the year's context", "rests_on": [["un-heat", "Call to Action on Extreme Heat"]],
+    "text": "In 2024 the UN Secretary-General issued a Call to Action on Extreme Heat." },
+  { "id": "c-gga", "where": "Signals: COP31 watch (adaptation)", "rests_on": [["unfccc-gga", "Global Goal on Adaptation"], ["unfccc-gga", "indicators"]],
+    "text": "Under the Global Goal on Adaptation, countries are working with a set of indicators to track progress on adaptation." },
+  { "id": "c-beat-heat", "where": "Signals: COP31 watch (cooling)", "rests_on": [["cool-beat", "Beat the Heat"]], "alts": [[["unep-beat", "Beat the Heat"]]],
+    "text": "UNEP's Cool Coalition runs Beat the Heat, an initiative on sustainable cooling and heat resilience." }
+ ]
+}

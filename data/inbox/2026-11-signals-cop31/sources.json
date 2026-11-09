@@ -1,0 +1,225 @@
+[
+ {
+  "id": "src-cop31-unfccc-cop31",
+  "type": "source",
+  "keys": [
+   "unfccc-cop31"
+  ],
+  "title": "COP31",
+  "publisher": "UNFCCC",
+  "year": 2026,
+  "url": "https://unfccc.int/cop31",
+  "kind": "Official page",
+  "where": "COP31",
+  "expect": [
+   "COP31",
+   "Antalya",
+   "November 2026",
+   "President of Negotiations"
+  ],
+  "claims": [
+   "c-cop31-where",
+   "c-cop31-month",
+   "c-cop31-australia"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31-unfccc-event",
+  "type": "source",
+  "keys": [
+   "unfccc-event"
+  ],
+  "title": "COP 31",
+  "publisher": "UNFCCC",
+  "year": 2026,
+  "url": "https://unfccc.int/event/cop-31",
+  "kind": "Official event page",
+  "where": "COP31",
+  "expect": [
+   "COP",
+   "Antalya",
+   "November 2026"
+  ],
+  "claims": [
+   "c-cop31-where",
+   "c-cop31-month"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31-host-tr",
+  "type": "source",
+  "keys": [
+   "host-tr"
+  ],
+  "title": "COP31 Türkiye",
+  "publisher": "Republic of Türkiye",
+  "year": 2026,
+  "url": "https://www.cop31.gov.tr/",
+  "kind": "Host site",
+  "where": "COP31",
+  "expect": [
+   "COP31",
+   "Antalya",
+   "November 2026",
+   "Australia"
+  ],
+  "claims": [
+   "c-cop31-where",
+   "c-cop31-month",
+   "c-cop31-australia"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31-cop31-org",
+  "type": "source",
+  "keys": [
+   "cop31-org"
+  ],
+  "title": "COP31",
+  "publisher": "COP31",
+  "year": 2026,
+  "url": "https://cop31.org/",
+  "kind": "Conference site",
+  "where": "COP31",
+  "expect": [
+   "COP31",
+   "Antalya",
+   "November 2026"
+  ],
+  "claims": [
+   "c-cop31-where",
+   "c-cop31-month"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31-au-dcceew",
+  "type": "source",
+  "keys": [
+   "au-dcceew"
+  ],
+  "title": "COP31",
+  "publisher": "Australian Government, DCCEEW",
+  "year": 2026,
+  "url": "https://www.dcceew.gov.au/climate-change/international-commitments/cop31",
+  "kind": "Government page",
+  "where": "COP31",
+  "expect": [
+   "COP31",
+   "Antalya",
+   "November 2026",
+   "President of Negotiations"
+  ],
+  "claims": [
+   "c-cop31-where",
+   "c-cop31-month",
+   "c-cop31-australia"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31-wiki-cop31",
+  "type": "source",
+  "keys": [
+   "wiki-cop31"
+  ],
+  "title": "2026 United Nations Climate Change Conference",
+  "publisher": "Wikipedia",
+  "year": 2026,
+  "url": "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference",
+  "kind": "Encyclopedia (locator only)",
+  "where": "COP31",
+  "expect": [
+   "COP31"
+  ],
+  "claims": [],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31-un-heat",
+  "type": "source",
+  "keys": [
+   "un-heat"
+  ],
+  "title": "Extreme heat: the UN Secretary-General's Call to Action",
+  "publisher": "United Nations",
+  "year": 2024,
+  "url": "https://www.un.org/en/climatechange/extreme-heat",
+  "kind": "Official page",
+  "where": "COP31",
+  "expect": [
+   "heat",
+   "Call to Action on Extreme Heat"
+  ],
+  "claims": [
+   "c-un-heat-call"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31-unfccc-gga",
+  "type": "source",
+  "keys": [
+   "unfccc-gga"
+  ],
+  "title": "Global Goal on Adaptation",
+  "publisher": "UNFCCC",
+  "year": 2025,
+  "url": "https://unfccc.int/topics/adaptation-and-resilience/workstreams/gga",
+  "kind": "Official page",
+  "where": "COP31",
+  "expect": [
+   "Global Goal on Adaptation",
+   "indicators"
+  ],
+  "claims": [
+   "c-gga"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31-cool-beat",
+  "type": "source",
+  "keys": [
+   "cool-beat"
+  ],
+  "title": "Beat the Heat",
+  "publisher": "UNEP Cool Coalition",
+  "year": 2025,
+  "url": "https://coolcoalition.org/beat-the-heat/",
+  "kind": "Initiative page",
+  "where": "COP31",
+  "expect": [
+   "heat",
+   "Beat the Heat"
+  ],
+  "claims": [
+   "c-beat-heat"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31-unep-beat",
+  "type": "source",
+  "keys": [
+   "unep-beat"
+  ],
+  "title": "Beat the Heat",
+  "publisher": "UNEP",
+  "year": 2025,
+  "url": "https://www.unep.org/beat-the-heat",
+  "kind": "Initiative page",
+  "where": "COP31",
+  "expect": [
+   "heat",
+   "Beat the Heat"
+  ],
+  "claims": [
+   "c-beat-heat"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ }
+]
