@@ -371,6 +371,16 @@
       "pages": [["/countries/bangladesh/", "Bangladesh"], ["/actions/", "Actions"]], "action": ["Read Bangladesh's page", "/countries/bangladesh/"],
       "links": [{ "to": "lever:heatbudget", "why": "Few plans name where the money comes from, which is what a dedicated heat budget would fix.", "basis": "record" },
                 { "to": "lever:coolingcentres", "why": "Narayanganj counts daily users of its cooling centres.", "basis": "record" }]
+    },
+    {
+      "id": "g-longer-than-record", "kind": "tool", "root": "practical", "added": "2026-11-09", "pr": null,
+      "title": "A planning question for heatwaves longer than any on record",
+      "why": "Plans and budgets are usually sized to the worst heatwave people remember, and new modelling suggests some future heatwaves will run longer. The workbook now asks whether the money and staff would last.",
+      "places": ["region"], "people": [], "topics": ["hap", "heatbudget"],
+      "event": { "what": "Workbook prompt", "date": "2026-11" },
+      "review": "A question for planners, not a factual claim; the study behind it waits for an independent source check before its figures reach the site",
+      "pages": [["/plan/", "Plan a response"]], "action": ["Open the planning workbook", "/plan/"],
+      "links": [{ "to": "lever:heatbudget", "why": "A longer heatwave means more days of running costs to pay for.", "basis": "editorial" }]
     }
   ]
 }

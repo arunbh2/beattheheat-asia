@@ -4728,6 +4728,8 @@ When money goes first to a government, cooperative or microfinance institution, 
 
 - Who pays next year’s premium and running costs?
 
+- Would the money and staff last through a heatwave longer than the worst on record?
+
 - What happens when donor money ends?
 
 - Who keeps the knowledge when staff change?
@@ -5664,23 +5666,25 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 
 https://beattheheat.asia/growing/
 
-See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 33 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
+See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 34 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
 
 ### How the work behind the commons grew
 
-Dated by the publication date of the work Common Shade draws on (1083 of 1908 works dated; 807 have no established date yet, 18 only an "online by" date; 411 links to organisations are counted apart and never dated). Common Shade began gathering this work in October 2026; the dates below are when the work was published, not when it was added.
+Dated by the publication date of the work Common Shade draws on (1084 of 1909 works dated; 807 have no established date yet, 18 only an "online by" date; 411 links to organisations are counted apart and never dated). Common Shade began gathering this work in October 2026; the dates below are when the work was published, not when it was added.
 
-- Before 2024: 467 works. Financing: 80; Institutions and plans: 67; Practical measures: 100; Experience: 19; Evidence: 201.
+- Before 2024: 467 works. Financing: 80; Institutions and plans: 67; Practical measures: 99; Experience: 19; Evidence: 202.
 
-- 2024: 194 works published (94 with a known month), 661 in all by the end of the period. Financing: 117; Institutions and plans: 93; Practical measures: 135; Experience: 38; Evidence: 278.
+- 2024: 194 works published (94 with a known month), 661 in all by the end of the period. Financing: 117; Institutions and plans: 93; Practical measures: 134; Experience: 38; Evidence: 279.
 
-- 2025: 199 works published (114 with a known month), 860 in all by the end of the period. Financing: 172; Institutions and plans: 121; Practical measures: 181; Experience: 54; Evidence: 332.
+- 2025: 199 works published (114 with a known month), 860 in all by the end of the period. Financing: 172; Institutions and plans: 121; Practical measures: 180; Experience: 54; Evidence: 333.
 
-- 2026 so far: 223 works published (127 with a known month), 1083 in all by the end of the period. Financing: 231; Institutions and plans: 139; Practical measures: 241; Experience: 70; Evidence: 402.
+- 2026 so far: 224 works published (128 with a known month), 1084 in all by the end of the period. Financing: 231; Institutions and plans: 139; Practical measures: 241; Experience: 70; Evidence: 403.
 
 ### Changes, newest first
 
 - Evidence added: Are heat plans budgeted, or only hoped for?. Added 9 November 2026 · Reading pass across six heat plans and reviews November 2026. Why it matters (our reading): After Bangkok's strategy found money to build but not always to run, a reading of heat plans from India and Bangladesh showed a nearby pattern: costs and potential funders are named, but budgets that recur each season rarely are. Each claim was written from passages checked on GitHub. What the source says: "only two cited specific sources of finance for any of their actions" (Centre for Policy Research: Finding the Finance, a guide to identifying centrally sponsored schemes to fund heat resilience https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/) Places: India, Bangladesh. Topics: Dedicated heat budgets, Cooling centres and check-ins. Review: Claims written only from checked passages; all four confirmed; two documents left out with reasons. Next: Read Bangladesh's page https://beattheheat.asia/countries/bangladesh/. Connections: Dedicated heat budgets (from the site's records): Few plans name where the money comes from, which is what a dedicated heat budget would fix. Cooling centres and check-ins (from the site's records): Narayanganj counts daily users of its cooling centres. What it took to add this: The question: Does Bangkok's running-cost gap appear in other heat plans in the region? 6 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 6 confirmed. 0 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: Whether any city in the region budgets the running costs of its heat plan every season.
+
+- Tool improved: A planning question for heatwaves longer than any on record. Added 9 November 2026 · Workbook prompt November 2026. Why it matters (our reading): Plans and budgets are usually sized to the worst heatwave people remember, and new modelling suggests some future heatwaves will run longer. The workbook now asks whether the money and staff would last. Places: South and Southeast Asia. Topics: Heat action plans, Dedicated heat budgets. Review: A question for planners, not a factual claim; the study behind it waits for an independent source check before its figures reach the site. Next: Open the planning workbook https://beattheheat.asia/plan/. Connections: Dedicated heat budgets (our reading): A longer heatwave means more days of running costs to pay for.
 
 - Evidence added: What Bangkok's heat plan costs, and what stands between plans and money. Added 8 November 2026 · Financing strategy published October 2026. Why it matters (our reading): Bangkok's 2026 financing strategy, from UNDP and the city, costs the city's heat plan and explains why running costs, not ambition, are the gap. Each insight was tied to the strategy's own words and checked on GitHub before it reached the site, and the city page now credits the heat plan to the city itself. What the source says: "Bangkok reported that money to build is generally available but running costs are not always covered" (UNDP and Bangkok Metropolitan Administration: Bangkok's financing strategy for tackling urban heat, 2026 https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf) Places: Thailand. People: Older people, People in informal settlements. Topics: Dedicated heat budgets, Cooling centres and check-ins. Review: Every claim checked against the strategy on GitHub; all 13 confirmed. Next: Read Bangkok's page https://beattheheat.asia/cities/bangkok/. Connections: Dedicated heat budgets (from the site's records): A costed heat plan and proposed climate budgeting add a Bangkok example to dedicated heat budgets. Cooling centres and check-ins (from the site's records): Running costs join the watch-outs for cooling centres. Older people (from the site's records): Consultation participants said heat response may not reach older and bedridden people in metal-roofed homes. What it took to add this: The question: What does Bangkok's financing strategy add to what the site says about Bangkok and Thailand, and where else does it help? 3 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 2 confirmed, and 1 could not be (1 blocked automated reading). 0 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: Whether spending tagged as climate spending will show what a city spends before heatwaves.
 
