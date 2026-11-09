@@ -2,6 +2,13 @@
  "note": "Every item that has appeared on /news/. Built by tools/archive-news.js.",
  "news": [
   {
+   "title": "Heat index hits 42°C in Coron, Palawan and Borongan, Eastern Samar",
+   "url": "https://newsinfo.inquirer.net/2338572/heat-index-hits-42c-in-coron-palawan-and-borongan-eastern-samar",
+   "via": "Inquirer",
+   "date": "2026-11-09T20:11:00Z",
+   "place": "Philippines"
+  },
+  {
    "title": "High daytime heat index, chilly nights logged in Pangasinan",
    "url": "https://newsinfo.inquirer.net/2337985/high-daytime-heat-index-chilly-nights-logged-in-pangasinan",
    "via": "Inquirer",
@@ -102,6 +109,30 @@
  ],
  "research": [
   {
+   "title": "Three-way circulation-soil moisture-temperature feedbacks amplify the most extreme mid-latitudinal heat waves.",
+   "url": "https://doi.org/10.1126/sciadv.aeh9111",
+   "journal": "Science advances",
+   "date": "2026-11-06",
+   "firstAuthor": "Tian Y",
+   "preprint": false
+  },
+  {
+   "title": "Recent extreme heatwaves are no match for future events.",
+   "url": "https://doi.org/10.1038/s41467-026-76809-5",
+   "journal": "Nature communications",
+   "date": "2026-11-05",
+   "firstAuthor": "Aglas-Leitner P",
+   "preprint": false
+  },
+  {
+   "title": "Evaluating nursing performance during heatwave simulations: Protocol for a repeated measures cross-over study.",
+   "url": "https://doi.org/10.1371/journal.pone.0359681",
+   "journal": "PloS one",
+   "date": "2026-11-05",
+   "firstAuthor": "Blount H",
+   "preprint": false
+  },
+  {
    "title": "500 years of May temperature variability in Balochistan reconstructed from Juniperus excelsa tree rings: heat stress, growth-collapse extremes, and implications for an endangered relict forest",
    "url": "https://doi.org/10.21203/rs.3.rs-10746072/v1",
    "journal": "Preprint",
@@ -118,6 +149,14 @@
    "preprint": false
   },
   {
+   "title": "Human Adaptation to Daytime Heat and Associated Heat-Related Symptoms Among Women.",
+   "url": "https://doi.org/10.1002/ajhb.70375",
+   "journal": "American journal of human biology : the official journal of the Human Biology Council",
+   "date": "2026-11-01",
+   "firstAuthor": "Hussain S",
+   "preprint": false
+  },
+  {
    "title": "Combining ability and heat-stress response in rice hybrids derived from mutation-derived M₆ lines.",
    "url": "https://doi.org/10.1007/s13353-026-01126-y",
    "journal": "Journal of applied genetics",
@@ -131,6 +170,14 @@
    "journal": "Journal of research in nursing : JRN",
    "date": "2026-10-28",
    "firstAuthor": "Costales KR",
+   "preprint": false
+  },
+  {
+   "title": "Ambient temperature and non-communicable disease presentations and mortality in a Pakistani ED.",
+   "url": "https://doi.org/10.1016/j.joclim.2026.100768",
+   "journal": "The journal of climate change and health",
+   "date": "2026-10-28",
+   "firstAuthor": "Saleem SG",
    "preprint": false
   },
   {
@@ -483,6 +530,14 @@
    "journal": "Nature Communications",
    "date": "2026-10-14",
    "firstAuthor": "Amitesh Sabut",
+   "preprint": false
+  },
+  {
+   "title": "Estimating excess mortality during heat waves using a causal inference framework and non-randomized time series",
+   "url": "https://europepmc.org/article/PMC/PMC13742708",
+   "journal": "medRxiv",
+   "date": "2026-10-14",
+   "firstAuthor": "",
    "preprint": false
   },
   {
@@ -1127,5 +1182,5 @@
    "issue": "2027-07-28"
   }
  ],
- "updated": "2026-11-08T13:41:14.844Z"
+ "updated": "2026-11-09T22:32:35.013Z"
 }

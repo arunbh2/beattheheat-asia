@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T06:54:15.638Z",
+ "updated": "2026-11-09T22:32:33.153Z",
  "keepDays": 14,
  "sources": [
   {
    "name": "regional news outlets",
    "ok": true,
-   "found": 492
+   "found": 500
   },
   {
    "name": "GDELT Project",
@@ -16,6 +16,14 @@
  ],
  "query": "(heatwave OR \"heat wave\" OR \"extreme heat\" OR \"heat stress\" OR heatstroke OR \"heat index\") (India OR Bangladesh OR Nepal OR \"Sri Lanka\" OR Pakistan OR Bhutan OR Maldives OR Cambodia OR Indonesia OR Philippines OR Singapore OR Thailand OR Vietnam OR Malaysia OR Myanmar OR Laos) sourcelang:english",
  "items": [
+  {
+   "title": "Heat index hits 42°C in Coron, Palawan and Borongan, Eastern Samar",
+   "url": "https://newsinfo.inquirer.net/2338572/heat-index-hits-42c-in-coron-palawan-and-borongan-eastern-samar",
+   "domain": "newsinfo.inquirer.net",
+   "date": "2026-11-09T20:11:00Z",
+   "place": "Philippines",
+   "via": "Inquirer"
+  },
   {
    "title": "High daytime heat index, chilly nights logged in Pangasinan",
    "url": "https://newsinfo.inquirer.net/2337985/high-daytime-heat-index-chilly-nights-logged-in-pangasinan",
