@@ -58,6 +58,7 @@
     "items": [
      ["/evidence-map/", "Evidence map", "How sure we are, and the questions nobody has answered yet", 1],
      ["/whats-new/", "State of the field", "What changed this month, and what to watch", 1],
+     ["/signals/", "Signals", "Announcements and commitments on heat, and how far each has got", 1],
      ["/growing/", "Watch Common Shade grow", "What we are learning, what changed, and what it took", 1],
      ["/how-heat-is-reported/", "How heat is reported", "What the coverage shows, across ten languages", 1],
      ["/news/", "Heat in the news", "Headlines and new research, refreshed automatically", 1],
