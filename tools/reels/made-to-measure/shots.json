@@ -1,0 +1,486 @@
+{
+ "title": "Made to measure",
+ "version": 1,
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "duration_frames": 1350,
+ "seed": 1998,
+ "look": "noon-shutters",
+ "shots": [
+  {
+   "id": "S01",
+   "start": 0,
+   "end": 120,
+   "location": "Tailor's table at noon",
+   "description": "Shears in a bar of sun on cream pattern paper",
+   "action": "the shears close along a chalk line",
+   "reads": [
+    {
+     "t": [
+      0.0,
+      2.0
+     ],
+     "read": "what is being cut?"
+    },
+    {
+     "t": [
+      2.0,
+      4.0
+     ],
+     "read": "a plan, cut to measure"
+    }
+   ],
+   "camera": {
+    "size": "CU",
+    "angle": "low",
+    "lens_mm": 50,
+    "move": {
+     "line": "push-in, 4 s, slow inertia, along the chalk line",
+     "type": "push-in",
+     "speed": "slow",
+     "moving_at_start": true
+    }
+   },
+   "hook": "motion from frame 1: the shears are already closing",
+   "action_from_frame_1": true,
+   "sound": "shears bite; first treadle strokes (signature)",
+   "transition": "cut",
+   "status": "planned",
+   "vo": "Every heat plan is cut to measure.",
+   "text_on_screen": []
+  },
+  {
+   "id": "S02",
+   "start": 120,
+   "end": 285,
+   "location": "Tailor's table",
+   "description": "A paper dress form tagged ODISHA 1998",
+   "action": "the tape measure wraps the form",
+   "reads": [
+    {
+     "t": [
+      0.0,
+      2.8
+     ],
+     "read": "a measurement"
+    },
+    {
+     "t": [
+      2.8,
+      5.5
+     ],
+     "read": "taken on one heatwave"
+    }
+   ],
+   "camera": {
+    "size": "MS",
+    "angle": "top-down",
+    "lens_mm": 35,
+    "move": {
+     "line": "crane-down, 5 s, slow ease-out, onto the tagged form",
+     "type": "crane-down",
+     "speed": "slow",
+     "moving_at_start": true
+    }
+   },
+   "action_from_frame_1": true,
+   "sound": "tape zip, ceiling fan",
+   "transition": "cut",
+   "status": "planned",
+   "vo": "Odisha, 1998: over two thousand died in a month.",
+   "text_on_screen": [
+    {
+     "text": "ODISHA 1998",
+     "t": [
+      0.6,
+      5.5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S03",
+   "start": 285,
+   "end": 405,
+   "location": "Dress form",
+   "description": "The coat is pinned and sewn; its last button closes",
+   "action": "pins go in, the button fastens",
+   "reads": [
+    {
+     "t": [
+      0.0,
+      2.0
+     ],
+     "read": "it fits"
+    },
+    {
+     "t": [
+      2.0,
+      4.0
+     ],
+     "read": "the plan worked"
+    }
+   ],
+   "camera": {
+    "size": "CU",
+    "angle": "eye",
+    "lens_mm": 85,
+    "move": {
+     "line": "rack-focus, 5 s, slow ease-in-out, from the button to the tag",
+     "type": "rack-focus",
+     "speed": "slow",
+     "moving_at_start": true
+    }
+   },
+   "action_from_frame_1": true,
+   "sound": "machine run, pins, a soft click",
+   "transition": "cut",
+   "status": "planned",
+   "vo": "A plan was cut. The next year: ninety one.",
+   "text_on_screen": [
+    {
+     "text": "91",
+     "t": [
+      0.6,
+      4.0
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S04",
+   "start": 405,
+   "end": 570,
+   "location": "Table, skyline behind",
+   "description": "A new pattern tagged AHMEDABAD 2010; a cut-paper skyline beyond",
+   "action": "the shears cut a city outline into the cloth",
+   "reads": [
+    {
+     "t": [
+      0.0,
+      2.8
+     ],
+     "read": "another city"
+    },
+    {
+     "t": [
+      2.8,
+      5.5
+     ],
+     "read": "another plan, another fit"
+    }
+   ],
+   "camera": {
+    "size": "WS",
+    "angle": "eye",
+    "lens_mm": 28,
+    "move": {
+     "line": "truck, 5 s, slow inertia, left past the skyline",
+     "type": "truck",
+     "speed": "slow",
+     "moving_at_start": true
+    }
+   },
+   "action_from_frame_1": true,
+   "sound": "machine, street murmur through shutters",
+   "transition": "cut",
+   "status": "planned",
+   "vo": "Ahmedabad, 2010. A city plan followed.",
+   "text_on_screen": [
+    {
+     "text": "AHMEDABAD 2010",
+     "t": [
+      0.6,
+      5.5
+     ]
+    },
+    {
+     "text": "EST. 1,190 DEATHS AVOIDED A YEAR",
+     "t": [
+      1.1,
+      5.5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S05",
+   "start": 570,
+   "end": 750,
+   "location": "Coat rail",
+   "description": "A rail of coats tagged 1998, 2003, 2010, 2015",
+   "action": "the shutter light slides fast across them as days pass",
+   "reads": [
+    {
+     "t": [
+      0.0,
+      3.0
+     ],
+     "read": "many plans"
+    },
+    {
+     "t": [
+      3.0,
+      6.0
+     ],
+     "read": "each sized to memory"
+    }
+   ],
+   "camera": {
+    "size": "MS",
+    "angle": "eye",
+    "lens_mm": 40,
+    "move": {
+     "line": "dolly, 6 s, slow inertia, along the coat rail",
+     "type": "dolly",
+     "speed": "slow",
+     "moving_at_start": true
+    }
+   },
+   "action_from_frame_1": true,
+   "sound": "machine steady, fan",
+   "transition": "cut",
+   "status": "planned",
+   "vo": "Each plan is cut to the worst heat remembered.",
+   "text_on_screen": [
+    {
+     "text": "1998",
+     "t": [
+      0.6,
+      6.0
+     ]
+    },
+    {
+     "text": "2003",
+     "t": [
+      1.1,
+      6.0
+     ]
+    },
+    {
+     "text": "2010",
+     "t": [
+      1.6,
+      6.0
+     ]
+    },
+    {
+     "text": "2015",
+     "t": [
+      2.1,
+      6.0
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S06",
+   "start": 750,
+   "end": 930,
+   "location": "Dress form",
+   "description": "Tag 2022; a paper calendar flips to MARCH; the form grows, the sleeve rides up",
+   "action": "the form swells, a seam strains",
+   "reads": [
+    {
+     "t": [
+      0.0,
+      3.0
+     ],
+     "read": "too early, too big"
+    },
+    {
+     "t": [
+      3.0,
+      6.0
+     ],
+     "read": "the heat outgrew the plan"
+    }
+   ],
+   "camera": {
+    "size": "MS",
+    "angle": "eye",
+    "lens_mm": 40,
+    "move": {
+     "line": "static, 6 s, none, the form growing into frame",
+     "type": "static",
+     "speed": "none",
+     "moving_at_start": false
+    }
+   },
+   "action_from_frame_1": true,
+   "sound": "seam creak, a rising cicada drone",
+   "transition": "cut",
+   "status": "planned",
+   "vo": "In 2022, the heat came in March.",
+   "text_on_screen": [
+    {
+     "text": "2022",
+     "t": [
+      0.6,
+      6.0
+     ]
+    },
+    {
+     "text": "MARCH",
+     "t": [
+      1.1,
+      6.0
+     ]
+    },
+    {
+     "text": "30 TIMES MORE LIKELY",
+     "t": [
+      1.6,
+      6.0
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S07",
+   "start": 930,
+   "end": 1050,
+   "location": "Dress form",
+   "description": "The coat will not close; a button pops",
+   "action": "the treadle stops; the thread snaps",
+   "reads": [
+    {
+     "t": [
+      0.0,
+      2.0
+     ],
+     "read": "it no longer fits"
+    },
+    {
+     "t": [
+      2.0,
+      4.0
+     ],
+     "read": "the turn"
+    }
+   ],
+   "camera": {
+    "size": "ECU",
+    "angle": "eye",
+    "lens_mm": 100,
+    "move": {
+     "line": "hold, 4 s, none, on the open coat",
+     "type": "hold",
+     "speed": "none",
+     "moving_at_start": false
+    }
+   },
+   "action_from_frame_1": true,
+   "sound": "silence 1 s, then the button lands",
+   "transition": "match cut",
+   "status": "planned",
+   "vo": "",
+   "text_on_screen": []
+  },
+  {
+   "id": "S08",
+   "start": 1050,
+   "end": 1230,
+   "location": "Tailor's table",
+   "description": "Paper hands chalk a new line far outside the old pattern",
+   "action": "chalk line drawn, seams let out",
+   "reads": [
+    {
+     "t": [
+      0.0,
+      3.0
+     ],
+     "read": "a new line"
+    },
+    {
+     "t": [
+      3.0,
+      6.0
+     ],
+     "read": "room to grow"
+    }
+   ],
+   "camera": {
+    "size": "WS",
+    "angle": "top-down",
+    "lens_mm": 28,
+    "move": {
+     "line": "crane-up, 6 s, slow ease-out, off the new chalk line",
+     "type": "crane-up",
+     "speed": "slow",
+     "moving_at_start": true
+    }
+   },
+   "action_from_frame_1": true,
+   "sound": "chalk scrape; the treadle returns, slower",
+   "transition": "cut",
+   "status": "planned",
+   "vo": "Tailors sewing for a child leave room to grow.",
+   "text_on_screen": []
+  },
+  {
+   "id": "S09",
+   "start": 1230,
+   "end": 1350,
+   "location": "Pattern paper",
+   "description": "The title chalked on the pattern paper, the address below",
+   "action": "the last word is chalked, the light settles",
+   "reads": [
+    {
+     "t": [
+      0.0,
+      2.0
+     ],
+     "read": "the thesis"
+    },
+    {
+     "t": [
+      2.0,
+      4.0
+     ],
+     "read": "where to act"
+    }
+   ],
+   "camera": {
+    "size": "MS",
+    "angle": "top-down",
+    "lens_mm": 35,
+    "move": {
+     "line": "hold, 4 s, none, on the chalked title",
+     "type": "hold",
+     "speed": "none",
+     "moving_at_start": false
+    }
+   },
+   "action_from_frame_1": true,
+   "sound": "one treadle stroke, then air",
+   "transition": "cut",
+   "status": "planned",
+   "vo": "",
+   "text_on_screen": [
+    {
+     "text": "The worst heatwave you remember",
+     "t": [
+      0.6,
+      4.0
+     ]
+    },
+    {
+     "text": "isn't the worst to come.",
+     "t": [
+      1.1,
+      4.0
+     ]
+    },
+    {
+     "text": "beattheheat.asia",
+     "t": [
+      1.6,
+      4.0
+     ]
+    }
+   ]
+  }
+ ]
+}
