@@ -22,7 +22,8 @@
    "c-cop31-month",
    "c-cop31-australia"
   ],
-  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261109030501/https://unfccc.int/cop31"
  },
  {
   "id": "src-cop31-unfccc-event",
@@ -45,7 +46,8 @@
    "c-cop31-where",
    "c-cop31-month"
   ],
-  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261022144209/https://unfccc.int/event/cop-31"
  },
  {
   "id": "src-cop31-host-tr",
@@ -136,7 +138,8 @@
    "COP31"
   ],
   "claims": [],
-  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261106141439/https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference"
  },
  {
   "id": "src-cop31-un-heat",
@@ -157,7 +160,8 @@
   "claims": [
    "c-un-heat-call"
   ],
-  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260827232005/https://www.un.org/en/climatechange/extreme-heat"
  },
  {
   "id": "src-cop31-unfccc-gga",
@@ -178,7 +182,8 @@
   "claims": [
    "c-gga"
   ],
-  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261029190329/https://unfccc.int/topics/adaptation-and-resilience/workstreams/gga"
  },
  {
   "id": "src-cop31-cool-beat",

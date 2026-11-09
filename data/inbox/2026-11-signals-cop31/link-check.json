@@ -1,0 +1,61 @@
+{
+ "_terms": {
+  "https://unfccc.int/cop31": {
+   "COP31": true,
+   "Antalya": true,
+   "November 2026": true,
+   "President of Negotiations": true
+  },
+  "https://unfccc.int/event/cop-31": {
+   "COP": true,
+   "Antalya": false,
+   "November 2026": false
+  },
+  "https://www.cop31.gov.tr/": {
+   "COP31": false,
+   "Antalya": false,
+   "November 2026": false,
+   "Australia": false
+  },
+  "https://cop31.org/": {
+   "COP31": false,
+   "Antalya": false,
+   "November 2026": false
+  },
+  "https://www.dcceew.gov.au/climate-change/international-commitments/cop31": {
+   "COP31": false,
+   "Antalya": false,
+   "November 2026": false,
+   "President of Negotiations": false
+  },
+  "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference": {
+   "COP31": true
+  },
+  "https://www.un.org/en/climatechange/extreme-heat": {
+   "heat": true,
+   "Call to Action on Extreme Heat": true
+  },
+  "https://unfccc.int/topics/adaptation-and-resilience/workstreams/gga": {
+   "Global Goal on Adaptation": true,
+   "indicators": true
+  },
+  "https://coolcoalition.org/beat-the-heat/": {
+   "heat": false,
+   "Beat the Heat": false
+  },
+  "https://www.unep.org/beat-the-heat": {
+   "heat": false,
+   "Beat the Heat": false
+  }
+ },
+ "https://unfccc.int/cop31": "OK",
+ "https://unfccc.int/event/cop-31": "OK",
+ "https://www.cop31.gov.tr/": "FAIL",
+ "https://cop31.org/": "FAIL",
+ "https://www.dcceew.gov.au/climate-change/international-commitments/cop31": "FAIL",
+ "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference": "OK",
+ "https://www.un.org/en/climatechange/extreme-heat": "OK",
+ "https://unfccc.int/topics/adaptation-and-resilience/workstreams/gga": "OK",
+ "https://coolcoalition.org/beat-the-heat/": "BLOCKED",
+ "https://www.unep.org/beat-the-heat": "FAIL"
+}
