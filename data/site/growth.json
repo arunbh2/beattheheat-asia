@@ -392,6 +392,18 @@
       "pages": [["/signals/", "Signals"]], "action": ["Read the signals", "/signals/"],
       "links": [{ "to": "lever:heatbudget", "why": "Several signals are promises of money; the ladder shows which have been funded.", "basis": "editorial" },
                 { "to": "lever:hap", "why": "Most signals touch heat action plans: adopted, funded or delivered.", "basis": "editorial" }]
+    },
+    {
+      "id": "g-signals-cop31-opening", "kind": "evidence", "root": "evidence", "added": "2026-11-09", "pr": null,
+      "title": "COP31 opens: the climate behind this year's heat",
+      "why": "As COP31 opened, WMO reported that 2026 will be one of the four warmest years on record and that El Niño is set to bring more heat into 2027, while UNEP's Emissions Gap Report found that warming will overshoot 1.5 °C. Each was verified at its primary source before joining the COP31 watch on Signals.",
+      "places": ["region"], "people": [], "topics": ["anticipatory", "hap"],
+      "event": { "what": "WMO State of the Climate Update 2026", "date": "2026-11-09" },
+      "finding": { "text": "The global average surface temperature for January to September 2026 was about 1.47 °C above the pre-industrial average", "source": ["WMO, 2026: State of the climate in 2026 gives new meaning to phrase 'off the charts'", "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts"] },
+      "review": "First read in a press report; every claim verified on GitHub at WMO, PBL (UNEP's co-author) and AFP; items about floods and electrification left out as not about heat",
+      "effort": { "asked": "What did the opening of COP31 say about heat, confirmed at the source?", "inbox": "data/inbox/2026-11-signals-cop31-2", "dropped": "research/2026-11/signals-cop31-2/dropped-after-check.json", "open": "How heat appears in COP31's final decisions." },
+      "pages": [["/signals/", "Signals"]], "action": ["Read the COP31 watch", "/signals/#cop31"],
+      "links": [{ "to": "lever:anticipatory", "why": "A strong El Niño into 2027 is a forecast that early action can use.", "basis": "record" }]
     }
   ]
 }
