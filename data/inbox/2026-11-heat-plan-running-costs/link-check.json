@@ -1,0 +1,45 @@
+{
+ "_terms": {
+  "https://heathealth.info/wp-content/uploads/ahmedabad-heat-action-plan-2018.pdf": {
+   "budget": false,
+   "maintenance": true,
+   "fund": true,
+   "Ahmedabad Municipal Corporation": true
+  },
+  "https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/": {
+   "fund": true,
+   "budget": false,
+   "financ": true,
+   "heat action plans": true
+  },
+  "https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/": {
+   "centrally sponsored": true,
+   "fund": true,
+   "heat": true
+  },
+  "https://southasia.iclei.org/wp-content/uploads/2026/02/Heat-Action-Plan_Narayanganj_Final_9th-Sept_2025_compressed.pdf": {
+   "operation and maintenance": false,
+   "recurring": true,
+   "budget": true,
+   "Narayanganj": true
+  },
+  "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-iedcr/2026/2/9ef9325c-4d07-45ce-9159-94a51b2fce43.pdf": {
+   "heat": true,
+   "budget": true,
+   "recurring": false,
+   "operational": true
+  },
+  "https://practicalaction.org/knowledge-centre/resources/strengthening-heat-governance-in-khulna-bangladesh/": {
+   "Khulna": true,
+   "budget": false,
+   "fund": true,
+   "heat": true
+  }
+ },
+ "https://heathealth.info/wp-content/uploads/ahmedabad-heat-action-plan-2018.pdf": "OK",
+ "https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/": "OK",
+ "https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/": "OK",
+ "https://southasia.iclei.org/wp-content/uploads/2026/02/Heat-Action-Plan_Narayanganj_Final_9th-Sept_2025_compressed.pdf": "OK",
+ "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-iedcr/2026/2/9ef9325c-4d07-45ce-9159-94a51b2fce43.pdf": "OK",
+ "https://practicalaction.org/knowledge-centre/resources/strengthening-heat-governance-in-khulna-bangladesh/": "OK"
+}
