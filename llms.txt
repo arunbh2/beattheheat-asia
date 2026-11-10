@@ -111,11 +111,11 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The pa
 
 ### The evidence
 
-- [2,278 sources](https://beattheheat.asia/sources/) cited, every one listed
+- [2,285 sources](https://beattheheat.asia/sources/) cited, every one listed
 - [71 studies graded](https://beattheheat.asia/evidence-map/) cycle by cycle, on the evidence map
 - [43 learning questions](https://beattheheat.asia/evidence-map/#questions) nobody has answered yet
 - [397 report references](https://beattheheat.asia/lancet-countdown-2026/) the Lancet Countdown 2026, in plain language
-- [142 news headlines](https://beattheheat.asia/news/) and 71 articles studied for how heat is reported
+- [149 news headlines](https://beattheheat.asia/news/) and 71 articles studied for how heat is reported
 
 ### What helps
 
