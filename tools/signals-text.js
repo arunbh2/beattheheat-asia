@@ -16,11 +16,19 @@ function load() {
   const byGroup = Object.fromEntries(D.groups.map(g => [g.id, D.signals.filter(s => s.group === g.id).sort((a, b) => String(b.date).localeCompare(String(a.date)))]));
   return Object.assign(D, { rung, kind, byGroup });
 }
+// where the tracked commitments stand: a count per rung and one sentence, shared by the page and llms-full.txt
+function standing(D) {
+  const C = D.signals.filter(s => s.kind === "commitment"), counts = D.ladder.map(l => C.filter(s => s.stage === l.id).length);
+  const top = counts.reduce((m, n, i) => n ? i : m, 0), n = C.length, w = k => k === 0 ? "none has" : k === 1 ? "1 has" : `${k} have`;
+  const line = `Of the ${n} commitments tracked so far, ${w(counts[3])} been delivered and ${w(counts[4])} been evaluated. The furthest any has climbed is "${D.ladder[top].label}".`;
+  return { counts, total: n, line };
+}
 function md(SITE) {
   const D = load(), L = [`## ${TITLE}`, `${SITE}/signals/`, LEDE, NOTE,
-    "The ladder: " + D.ladder.map(l => `${l.label} (${l.means})`).join("; ")];
+    "The ladder: " + D.ladder.map(l => `${l.label} (${l.means})`).join("; "), standing(D).line];
   for (const g of D.groups) {
     L.push(`### ${g.label}`, g.intro);
+    if (g.when) L.push(g.when + ".");
     if (g.watching) L.push("Watching: " + g.watching.join(", ") + ".");
     const list = D.byGroup[g.id];
     if (!list.length) L.push("No item has passed the check yet.");
@@ -31,4 +39,4 @@ function md(SITE) {
   }
   return L.join("\n\n");
 }
-module.exports = { TITLE, LEDE, NOTE, date, load, md };
+module.exports = { TITLE, LEDE, NOTE, date, load, standing, md };
