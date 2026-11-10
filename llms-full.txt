@@ -6,7 +6,7 @@ Common Shade is in beta, currently at beattheheat.asia. A group of organisations
 
 Text, data, films and illustrations © Common Shade contributors, shared under Creative Commons Attribution 4.0 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/): you may copy, adapt and translate them, with credit and a link to beattheheat.asia. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’ and are not covered.
 
-Interactive map: https://beattheheat.asia/ · Generated 2026-11-09
+Interactive map: https://beattheheat.asia/ · Generated 2026-11-10
 
 ## The web of extreme heat: every consequence, system by system
 
@@ -5766,9 +5766,13 @@ A signal is a step, not a score. The ladder records how far each signal has got,
 
 The ladder: Announced (Said in public. A weak signal on its own: announcements happen whether or not anything follows.); Adopted (Made formal: a plan approved, a rule changed, an office set up.); Funded (Money committed to it, whether or not the amount is public.); Delivered (Something exists that people can use: a service open, a guide published, money paid out.); Evaluated (Its results were measured and published.)
 
+Of the 8 commitments tracked so far, 1 has been delivered and none has been evaluated. The furthest any has climbed is "Delivered".
+
 ### COP31 watch
 
 What we are watching for heat at COP31. Each item is added only after its source passes the site's check, on the rung it has truly reached; almost everything at a conference starts as an announcement.
+
+Antalya, 9 to 20 November 2026.
 
 Watching: Adaptation indicators, Health, Adaptation finance, Cooling, Early warnings.
 
@@ -5776,7 +5780,7 @@ Watching: Adaptation indicators, Health, Adaptation finance, Cooling, Early warn
 
 - 2026 will be one of the four warmest years on record (Finding, 9 November 2026). WMO's State of the Climate Update 2026, released as COP31 opened, finds that the past 12 years have each been the warmest on record and the past four the top four. The global average surface temperature for January to September 2026 was about 1.47 °C above the pre-industrial average. In early November the EU's Copernicus service said 2026 is most likely to be the second-hottest year on record. What to watch: A finding, not a commitment: watch whether heat plans and budgets are sized for the heat these years now bring, not the heat people remember. Sources: WMO, 2026: State of the climate in 2026 gives new meaning to phrase 'off the charts' https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts; WMO: State of the Climate Update for COP31 https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31; AFP via The Korea Times, 2026: 2026 most likely to be second-hottest year on record https://www.koreatimes.co.kr/world/20261106/2026-most-likely-to-be-second-hottest-year-on-record-eu-monitor
 
-- El Niño set to bring more heat into 2027 (Finding, 9 November 2026). By mid-August 2026 El Niño had become firmly established. WMO reports it has been intensifying since August and is expected to be the strongest on record by December, set to unleash even more heat and extreme weather well into 2027. What to watch: What to watch: early warnings and heat plans ready for the 2027 hot season, above all in Southeast Asia, where El Niño and warming broke records in April 2016. Sources: WMO, 2026: State of the climate in 2026 gives new meaning to phrase 'off the charts' https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts; WMO: El Niño/La Niña Update, August 2026 https://wmo.int/node/38928
+- El Niño set to bring more heat into 2027 (Finding, 9 November 2026). By mid-August 2026 El Niño had become firmly established. WMO reports it has been intensifying since August and is expected to be the strongest on record by December, set to unleash even more heat and extreme weather well into 2027. What to watch: Early warnings and heat plans ready for the 2027 hot season, above all in Southeast Asia, where El Niño and warming broke records in April 2016. Sources: WMO, 2026: State of the climate in 2026 gives new meaning to phrase 'off the charts' https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts; WMO: El Niño/La Niña Update, August 2026 https://wmo.int/node/38928
 
 - Warming will overshoot 1.5 °C: the Emissions Gap Report 2026 (Finding, 2026). UNEP's Emissions Gap Report 2026, The Point of Return, finds that with global temperature rise set to exceed 1.5 °C, urgent and stringent cuts are needed to minimise the size and length of the overshoot and return to 1.5 °C by the end of the century. If current policies continue, warming could reach 2.8 °C this century; if all national pledges are delivered, 2.6 °C. What to watch: A finding, not a commitment: watch whether adaptation plans for heat assume the warming these projections describe. Sources: PBL Netherlands Environmental Assessment Agency: UNEP Emissions Gap Report 2026 https://www.pbl.nl/en/publications/unep-emissions-gap-report-2026
 

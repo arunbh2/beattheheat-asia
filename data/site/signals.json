@@ -14,7 +14,7 @@
   { "id": "guidance", "label": "Guidance", "means": "A framework or guide published for others to use." }
  ],
  "groups": [
-  { "id": "cop31", "label": "COP31 watch", "intro": "What we are watching for heat at COP31. Each item is added only after its source passes the site's check, on the rung it has truly reached; almost everything at a conference starts as an announcement.", "watching": ["Adaptation indicators", "Health", "Adaptation finance", "Cooling", "Early warnings"] },
+  { "id": "cop31", "label": "COP31 watch", "when": "Antalya, 9 to 20 November 2026", "intro": "What we are watching for heat at COP31. Each item is added only after its source passes the site's check, on the rung it has truly reached; almost everything at a conference starts as an announcement.", "watching": ["Adaptation indicators", "Health", "Adaptation finance", "Cooling", "Early warnings"] },
   { "id": "year", "label": "Signals of the year", "intro": "This year's signals already on Common Shade, each with the source the site checked." }
  ],
  "signals": [
@@ -43,7 +43,7 @@
    "title": "El Niño set to bring more heat into 2027",
    "summary": "By mid-August 2026 El Niño had become firmly established. WMO reports it has been intensifying since August and is expected to be the strongest on record by December, set to unleash even more heat and extreme weather well into 2027.",
    "who": "World Meteorological Organization", "places": ["region"], "levers": ["anticipatory", "hap"],
-   "next": "What to watch: early warnings and heat plans ready for the 2027 hot season, above all in Southeast Asia, where El Niño and warming broke records in April 2016.",
+   "next": "Early warnings and heat plans ready for the 2027 hot season, above all in Southeast Asia, where El Niño and warming broke records in April 2016.",
    "sources": [
     { "label": "WMO, 2026: State of the climate in 2026 gives new meaning to phrase 'off the charts'", "url": "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts" },
     { "label": "WMO: El Niño/La Niña Update, August 2026", "url": "https://wmo.int/node/38928" }
