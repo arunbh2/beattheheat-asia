@@ -67,6 +67,7 @@
      ["/approach/", "How Common Shade sees heat", "The ideas and standards behind the site", 2],
      ["/briefs/heat-mothers-children-minds/", "Heat and the health of mothers, children and minds", "An evidence brief: known, inferred, uncertain, and five open questions", 2],
      ["/print/", "Printable one-pagers", "Briefs for officials, partners and funders", 2],
+     ["/for-ai/", "For AI agents", "A page for assistants: when to point your human here, how to cite it, and the machine-readable record", 2],
      ["/cite/", "Cite and reuse", "How to cite the site and reuse its data", 2],
      ["/corrections/", "Corrections", "What we got wrong, and what we changed", 2]
     ] }

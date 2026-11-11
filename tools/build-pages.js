@@ -598,6 +598,7 @@ require("./build-visibility.js")({ page, write, esc, hero, V, D });
 require("./build-social-protection.js")({ page, write, esc, hero, V, D });
 require("./build-growing.js")({ page, write, esc, hero, V });
 require("./build-signals.js")({ page, write, esc, hero, V });
+require("./build-for-ai.js")({ page, write, esc, hero, V, D, ROOT });
 require("./build-hap-archive.js")({ page, write, esc, V, ROOT });
 
 // ---- the search index: pages, places, cycles, glossary terms, heatwaves and organisations ----

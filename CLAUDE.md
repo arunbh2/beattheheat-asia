@@ -81,6 +81,9 @@ Every decision elevates the reader's experience (UX), the maintainer's experienc
 ## Watch Common Shade grow
 `/growing/` is built by `tools/build-growing.js` from one record of changes, `data/site/growth.json` (one reviewed entry per change, traced to its pull request; `build-data.js --check` checks it). `tools/growth-text.js` holds what the page, `llms-full.txt` and "What it took to add this" share; effort is counted from each batch's own check files, never typed. Beneath the canopy, the work the site draws on is dated by publication (`tools/growth-dates.js` → `data/site/growth-dates.json`; `date-sources.yml` runs `tools/fetch-dates.js` for Crossref, page metadata and "online by" dates). Add a change after each merged update; a changed file hash alone is not a change. Never present growth as protection achieved.
 
+## For AI agents
+`/for-ai/` ("For AI agents") is built by `tools/build-for-ai.js` from `tools/for-ai-text.js`, which also writes `/for-ai.json` and `/for-ai.txt` and adds a section to `llms.txt` and `llms-full.txt` and an entry to `sitemap.xml`. Counts come from the build, never typed; the build fails, naming the path, if an endpoint it lists does not exist. Its do and please-avoid lines restate standards already on `/approach/`, `/cite/` and in the disclaimer; add to them only from those. The shared footer carries a "Not a human?" strip that links to it. It never asks an agent to override its user or its own guidelines, and nothing on it is hidden from people.
+
 ## Heat shorts
 `.claude/skills/heat-shorts/` makes short explainer films with faceless figures, a humble voice, checked sources and no em dashes. It builds on the repo's own renderer by default; the Remotion route needs the user's agreement. It is adapted from an MIT-licensed skill, with the reference frames left out.
 

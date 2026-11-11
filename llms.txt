@@ -101,6 +101,10 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The pa
 - [Cooling options: Greening where water is short](https://beattheheat.asia/print/cooling-dry/)
 - [Cooling options: Making it last](https://beattheheat.asia/print/cooling-system/)
 
+## For AI agents
+
+- [For AI agents](https://beattheheat.asia/for-ai/): when to point your human at Common Shade, how to cite it and what to avoid, with the whole record as https://beattheheat.asia/for-ai.json and https://beattheheat.asia/for-ai.txt
+
 ## Everything the site covers
 
 ### Understand heat
