@@ -404,6 +404,17 @@
       "effort": { "asked": "What did the opening of COP31 say about heat, confirmed at the source?", "inbox": "data/inbox/2026-11-signals-cop31-2", "dropped": "research/2026-11/signals-cop31-2/dropped-after-check.json", "open": "How heat appears in COP31's final decisions." },
       "pages": [["/signals/", "Signals"]], "action": ["Read the COP31 watch", "/signals/#cop31"],
       "links": [{ "to": "lever:anticipatory", "why": "A strong El Niño into 2027 is a forecast that early action can use.", "basis": "record" }]
+    },
+    {
+      "id": "g-for-ai", "kind": "tool", "root": "practical", "added": "2026-11-11", "pr": null,
+      "title": "A page for the AI agents that read the site",
+      "why": "More people now meet the site through an assistant than through a browser. /for-ai/ tells an assistant what Common Shade is, when it fits a person's question, how to cite it and what to avoid, and publishes the same record as JSON and plain text, so an assistant can represent the evidence as carefully as the site states it.",
+      "places": ["region"], "people": [], "topics": [],
+      "event": { "what": "Page added", "date": "2026-11-11" },
+      "review": "Written only from standards the site already publishes; every count is calculated at build time; every endpoint it lists is checked to exist; it asks nothing of an assistant that conflicts with its user's wishes",
+      "pages": [["/for-ai/", "For AI agents"]], "action": ["Read the page for AI agents", "/for-ai/"],
+      "links": [{ "to": "page:/approach/", "why": "The evidence labels and standards the page asks an assistant to pass on are explained there.", "basis": "editorial" },
+                { "to": "page:/cite/", "why": "How to cite the site, and where the open data is, is set out there.", "basis": "editorial" }]
     }
   ]
 }

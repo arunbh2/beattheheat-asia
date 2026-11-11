@@ -137,6 +137,7 @@ function footer(pathname, title, updated) {
     <div class="csf__grid">
       ${GROUPS.map(g => `<div><h2><a href="${g.hub}">${esc(g.h)}</a></h2><ul>${[g.lead, ...g.items].filter(i => (i[3] || 1) === 1).map(([u, t]) => `<li><a href="${u}"${u === cur ? ' aria-current="page"' : ""}>${esc(t)}</a></li>`).join("")}</ul></div>`).join("\n      ")}
     </div>
+    <p class="csf__ai"><b>Not a human?</b> Are you an AI agent or assistant? <a href="/for-ai/">We wrote a page just for you <span aria-hidden="true">→</span></a></p>
     <p class="csf__extra">${NAV.footer_extra.map(([u, t]) => `<a href="${u}">${esc(t)}</a>`).join("")}</p>
     <p class="csf__cite"><b>Cite this page:</b> <span data-csn-cite>Common Shade. “${esc(title)}.” ${esc(url)}. Updated ${esc(updated)}. CC BY 4.0.</span> <button type="button" class="csf__copy" data-csn-copy>Copy</button></p>
     <p class="csf__cite"><b>Spot something wrong?</b> We are building this together and will gladly correct it. <a href="/corrections/">See corrections, or suggest one</a></p>
@@ -285,6 +286,7 @@ const CSS = `html:has(.csn){scroll-padding-top:120px}
 .csf__grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:24px 32px}
 .csf li{font-size:.9rem}.csf a[aria-current]{font-weight:800;text-decoration:underline;text-decoration-color:var(--orange)}
 .csf__extra{display:flex;flex-wrap:wrap;gap:8px 22px;margin:26px 0 0;padding-top:18px;border-top:1px solid rgba(250,247,242,.18);font-size:.88rem;font-weight:700}
+.csf__ai{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center;margin:18px 0 0;padding:12px 16px;border:1px dashed rgba(250,247,242,.4);border-radius:12px;font-size:.88rem;color:#E9E3D8}.csf__ai b{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:#7DDBA6}.csf__ai a{font-weight:700;text-decoration:underline;text-decoration-color:var(--orange);text-underline-offset:3px}
 .csf__cite{margin:16px 0 0;font-size:.82rem;color:#C9C2B6;line-height:1.5}.csf__cite b{color:#FAF7F2}
 .csf__copy{margin-left:6px;border:1px solid rgba(250,247,242,.35);background:none;color:#FAF7F2!important;border-radius:6px;padding:2px 8px;font-size:.78rem!important}
 .csf__text{margin:12px 0 0;font-size:.8rem;color:#C9C2B6}.csf__text a,.csf__cite a{text-decoration:underline;text-decoration-color:var(--orange);text-underline-offset:3px}
