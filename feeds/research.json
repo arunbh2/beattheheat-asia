@@ -1,8 +1,18 @@
 {
- "updated": "2026-11-12T07:26:37.105Z",
+ "updated": "2026-11-12T20:08:55.519Z",
  "days": 120,
  "source": "Europe PMC",
  "items": [
+  {
+   "title": "Data-driven estimation of the onset of heat-related mortality in five Indian cities",
+   "journal": "Preprint",
+   "date": "2026-11-10",
+   "doi": "10.64898/2026.11.08.26367540",
+   "pmid": "",
+   "preprint": true,
+   "url": "https://doi.org/10.64898/2026.11.08.26367540",
+   "firstAuthor": "Robles Fontan MM"
+  },
   {
    "title": "Three-way circulation-soil moisture-temperature feedbacks amplify the most extreme mid-latitudinal heat waves.",
    "journal": "Science advances",
@@ -54,6 +64,16 @@
    "firstAuthor": "Hussain S"
   },
   {
+   "title": "Heat stress and coping strategies among older adults in 3 Sunbelt cities in the United States.",
+   "journal": "The journals of gerontology. Series A, Biological sciences and medical sciences",
+   "date": "2026-11-01",
+   "doi": "10.1093/gerona/glag239",
+   "pmid": "42841726",
+   "preprint": false,
+   "url": "https://doi.org/10.1093/gerona/glag239",
+   "firstAuthor": "Dassah C"
+  },
+  {
    "title": "Combining ability and heat-stress response in rice hybrids derived from mutation-derived M₆ lines.",
    "journal": "Journal of applied genetics",
    "date": "2026-10-29",
@@ -82,6 +102,26 @@
    "preprint": false,
    "url": "https://doi.org/10.1177/17449871261486792",
    "firstAuthor": "Costales KR"
+  },
+  {
+   "title": "Integrating heat stress tolerance indices based on grain yield for the selection of resilient wheat genotypes.",
+   "journal": "Frontiers in plant science",
+   "date": "2026-10-27",
+   "doi": "10.3389/fpls.2026.1949670",
+   "pmid": "43011393",
+   "preprint": false,
+   "url": "https://doi.org/10.3389/fpls.2026.1949670",
+   "firstAuthor": "Dhar N"
+  },
+  {
+   "title": "Thermophysiological responses to occupational heat stress during simulated wildland firefighting in females and males: influence of fitness and body composition.",
+   "journal": "Frontiers in physiology",
+   "date": "2026-10-27",
+   "doi": "10.3389/fphys.2026.1936332",
+   "pmid": "43011004",
+   "preprint": false,
+   "url": "https://doi.org/10.3389/fphys.2026.1936332",
+   "firstAuthor": "Gutiérrez-Arroyo J"
   },
   {
    "title": "Intraspecific competition modulates heatwave effects on male reproduction in Drosophila prolongata.",
@@ -562,46 +602,6 @@
    "preprint": false,
    "url": "https://doi.org/10.1016/j.psj.2026.107759",
    "firstAuthor": "Xie C"
-  },
-  {
-   "title": "Heat stress in cereal crops: reproductive development and grain filling.",
-   "journal": "Journal of genetics and genomics = Yi chuan xue bao",
-   "date": "2026-09-08",
-   "doi": "10.1016/j.jgg.2026.09.002",
-   "pmid": "42710655",
-   "preprint": false,
-   "url": "https://doi.org/10.1016/j.jgg.2026.09.002",
-   "firstAuthor": "Fan S"
-  },
-  {
-   "title": "Correlation between variation in ambient temperature and presentation to the emergency department for psychiatric disorders: results from an eight-year observational study",
-   "journal": "European psychiatry : the journal of the Association of European Psychiatrists",
-   "date": "2026-09-04",
-   "doi": "",
-   "pmid": "",
-   "preprint": false,
-   "url": "https://europepmc.org/article/PMC/PMC13441952",
-   "firstAuthor": "Rizzo Pesci N"
-  },
-  {
-   "title": "Daily variation in milk HSP70 in dairy cows during a heat wave.",
-   "journal": "Journal of dairy science",
-   "date": "2026-09-03",
-   "doi": "10.3168/jds.2026-28326",
-   "pmid": "42692344",
-   "preprint": false,
-   "url": "https://doi.org/10.3168/jds.2026-28326",
-   "firstAuthor": "Rakib MRH"
-  },
-  {
-   "title": "Distinct performance and ruminal adaptations to ethyl-cellulose rumen-protected methionine and guanidinoacetic acid during a heat stress challenge in lactating Holstein cows.",
-   "journal": "Journal of dairy science",
-   "date": "2026-09-03",
-   "doi": "10.3168/jds.2026-28752",
-   "pmid": "42692333",
-   "preprint": false,
-   "url": "https://doi.org/10.3168/jds.2026-28752",
-   "firstAuthor": "Mauck JD"
   }
  ]
 }

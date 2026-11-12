@@ -2,6 +2,13 @@
  "note": "Every item that has appeared on /news/. Built by tools/archive-news.js.",
  "news": [
   {
+   "title": "Dangerous heat index grips 9 areas on Thursday",
+   "url": "https://newsinfo.inquirer.net/2340468/dangerous-heat-index-grips-9-areas-on-thursday",
+   "via": "Inquirer",
+   "date": "2026-11-12T21:08:00Z",
+   "place": "Philippines"
+  },
+  {
    "title": "Heat index hits 42°C in Coron, Palawan and Borongan, Eastern Samar",
    "url": "https://newsinfo.inquirer.net/2338572/heat-index-hits-42c-in-coron-palawan-and-borongan-eastern-samar",
    "via": "Inquirer",
@@ -109,6 +116,14 @@
  ],
  "research": [
   {
+   "title": "Data-driven estimation of the onset of heat-related mortality in five Indian cities",
+   "url": "https://doi.org/10.64898/2026.11.08.26367540",
+   "journal": "Preprint",
+   "date": "2026-11-10",
+   "firstAuthor": "Robles Fontan MM",
+   "preprint": true
+  },
+  {
    "title": "Three-way circulation-soil moisture-temperature feedbacks amplify the most extreme mid-latitudinal heat waves.",
    "url": "https://doi.org/10.1126/sciadv.aeh9111",
    "journal": "Science advances",
@@ -157,6 +172,14 @@
    "preprint": false
   },
   {
+   "title": "Heat stress and coping strategies among older adults in 3 Sunbelt cities in the United States.",
+   "url": "https://doi.org/10.1093/gerona/glag239",
+   "journal": "The journals of gerontology. Series A, Biological sciences and medical sciences",
+   "date": "2026-11-01",
+   "firstAuthor": "Dassah C",
+   "preprint": false
+  },
+  {
    "title": "Combining ability and heat-stress response in rice hybrids derived from mutation-derived M₆ lines.",
    "url": "https://doi.org/10.1007/s13353-026-01126-y",
    "journal": "Journal of applied genetics",
@@ -194,6 +217,22 @@
    "journal": "Oecologia",
    "date": "2026-10-27",
    "firstAuthor": "Gupta S",
+   "preprint": false
+  },
+  {
+   "title": "Integrating heat stress tolerance indices based on grain yield for the selection of resilient wheat genotypes.",
+   "url": "https://doi.org/10.3389/fpls.2026.1949670",
+   "journal": "Frontiers in plant science",
+   "date": "2026-10-27",
+   "firstAuthor": "Dhar N",
+   "preprint": false
+  },
+  {
+   "title": "Thermophysiological responses to occupational heat stress during simulated wildland firefighting in females and males: influence of fitness and body composition.",
+   "url": "https://doi.org/10.3389/fphys.2026.1936332",
+   "journal": "Frontiers in physiology",
+   "date": "2026-10-27",
+   "firstAuthor": "Gutiérrez-Arroyo J",
    "preprint": false
   },
   {
@@ -1182,5 +1221,5 @@
    "issue": "2027-07-28"
   }
  ],
- "updated": "2026-11-09T22:32:35.013Z"
+ "updated": "2026-11-12T20:08:55.784Z"
 }
