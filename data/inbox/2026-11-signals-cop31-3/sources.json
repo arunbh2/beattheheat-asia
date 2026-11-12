@@ -21,7 +21,8 @@
    "c-aihr-launch",
    "c-un-hospitals"
   ],
-  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261112042550/https://news.un.org/en/story/2026/11/1168763"
  },
  {
   "id": "src-cop31c-who-brief",
@@ -46,7 +47,8 @@
    "c-aihr-launch",
    "c-presidency-health"
   ],
-  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261112042610/https://cdn.who.int/media/docs/default-source/climate-change/who-cop31-cch-brief.pdf"
  },
  {
   "id": "src-cop31c-who-page",
@@ -70,7 +72,8 @@
    "c-aihr-launch",
    "c-presidency-health"
   ],
-  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260813072613/https://www.who.int/teams/environment-climate-change-and-health/climate-change-and-health/advocacy-partnerships/talks/health-at-cop31"
  },
  {
   "id": "src-cop31c-hpw",
@@ -96,7 +99,8 @@
    "c-aihr-noone",
    "c-presidency-health"
   ],
-  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261112042627/https://healthpolicy-watch.news/declarations-do-not-protect-people-cop31-opens-under-pressure-to-deliver-results-over-words/"
  },
  {
   "id": "src-cop31c-ifrc-pdf",
@@ -126,7 +130,8 @@
    "c-ifrc-ewa",
    "c-wmo-pilots"
   ],
-  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261112042738/https://www.ifrc.org/sites/default/files/2026-10/IFRC%20COP31%20Call%20to%20Action.pdf"
  },
  {
   "id": "src-cop31c-ifrc-pr",
@@ -151,7 +156,8 @@
    "c-ifrc-35",
    "c-ifrc-ewa"
   ],
-  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261105022615/https://www.ifrc.org/press-release/cop31-ifrc-calls-urgent-investment-protect-worlds-most-vulnerable"
  },
  {
   "id": "src-cop31c-unep-pr",
@@ -179,7 +185,8 @@
    "c-agr-flows",
    "c-agr-triple"
   ],
-  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261110005349/https://www.unep.org/en/news-and-stories/press-release/world-heads-overshoot-15degc-adaptation-too-slow"
  },
  {
   "id": "src-cop31c-eb-agr",
@@ -207,7 +214,8 @@
    "c-agr-flows",
    "c-agr-triple"
   ],
-  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261112042748/https://www.eco-business.com/press-releases/as-world-heads-for-overshoot-of-15c-adaptation-is-too-slow/"
  },
  {
   "id": "src-cop31c-iisd-agr",
@@ -260,6 +268,7 @@
   "claims": [
    "c-wmo-pilots"
   ],
-  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260807185108/https://wmo.int/media/news/new-framework-and-toolkit-strengthens-extreme-heat-governance"
  }
 ]
