@@ -1,0 +1,462 @@
+{
+ "about": "Heat-relevant announcements from the first days of COP31 (check-in 1 of 4, 12 November 2026), found through press coverage and then tied to primary pages: WHO, UN News, IFRC, UNEP and WMO. A claim passes only when one route holds all its terms. Items that are not about heat, or are statements rather than commitments, are left out (see about-set-aside).",
+ "sources": [
+  {
+   "key": "un-news",
+   "title": "COP31 opens in Antalya: Can climate promises finally deliver results?",
+   "publisher": "UN News",
+   "year": 2026,
+   "kind": "News (UN)",
+   "url": "https://news.un.org/en/story/2026/11/1168763",
+   "expect": [
+    "Antalya"
+   ]
+  },
+  {
+   "key": "who-brief",
+   "title": "WHO COP31 climate change and health brief",
+   "publisher": "World Health Organization",
+   "year": 2026,
+   "kind": "Official brief (PDF)",
+   "url": "https://cdn.who.int/media/docs/default-source/climate-change/who-cop31-cch-brief.pdf",
+   "expect": [
+    "COP31"
+   ]
+  },
+  {
+   "key": "who-page",
+   "title": "Health at COP31",
+   "publisher": "World Health Organization",
+   "year": 2026,
+   "kind": "Official page",
+   "url": "https://www.who.int/teams/environment-climate-change-and-health/climate-change-and-health/advocacy-partnerships/talks/health-at-cop31",
+   "expect": [
+    "COP31"
+   ]
+  },
+  {
+   "key": "hpw",
+   "title": "'Declarations do not protect people': COP31 opens under pressure to deliver results over words",
+   "publisher": "Health Policy Watch",
+   "year": 2026,
+   "kind": "News",
+   "url": "https://healthpolicy-watch.news/declarations-do-not-protect-people-cop31-opens-under-pressure-to-deliver-results-over-words/",
+   "expect": [
+    "COP31"
+   ]
+  },
+  {
+   "key": "ifrc-pdf",
+   "title": "IFRC COP31 Call to Action",
+   "publisher": "International Federation of Red Cross and Red Crescent Societies",
+   "year": 2026,
+   "kind": "Call to action (PDF)",
+   "url": "https://www.ifrc.org/sites/default/files/2026-10/IFRC%20COP31%20Call%20to%20Action.pdf",
+   "expect": [
+    "COP31"
+   ]
+  },
+  {
+   "key": "ifrc-pr",
+   "title": "COP31: IFRC calls for urgent investment to protect world's most vulnerable",
+   "publisher": "International Federation of Red Cross and Red Crescent Societies",
+   "year": 2026,
+   "kind": "Press release",
+   "url": "https://www.ifrc.org/press-release/cop31-ifrc-calls-urgent-investment-protect-worlds-most-vulnerable",
+   "expect": [
+    "COP31"
+   ]
+  },
+  {
+   "key": "unep-pr",
+   "title": "As world heads for overshoot of 1.5°C, adaptation is too slow",
+   "publisher": "UNEP",
+   "year": 2026,
+   "kind": "Press release",
+   "url": "https://www.unep.org/en/news-and-stories/press-release/world-heads-overshoot-15degc-adaptation-too-slow",
+   "expect": [
+    "Adaptation Gap Report"
+   ]
+  },
+  {
+   "key": "eb-agr",
+   "title": "As world heads for overshoot of 1.5°C, adaptation is too slow (UNEP press release)",
+   "publisher": "Eco-Business (UNEP press release)",
+   "year": 2026,
+   "kind": "Press release (repost)",
+   "url": "https://www.eco-business.com/press-releases/as-world-heads-for-overshoot-of-15c-adaptation-is-too-slow/",
+   "expect": [
+    "Adaptation Gap Report"
+   ]
+  },
+  {
+   "key": "iisd-agr",
+   "title": "Growth in finance insufficient to meet needs: Adaptation Gap Report 2026",
+   "publisher": "IISD SDG Knowledge Hub",
+   "year": 2026,
+   "kind": "Summary",
+   "url": "https://sdg.iisd.org/news/growth-in-finance-insufficient-to-meet-needs-adaptation-gap-report-2026/",
+   "expect": [
+    "Adaptation Gap Report"
+   ]
+  },
+  {
+   "key": "wmo-gov",
+   "title": "New framework and toolkit strengthens extreme heat governance",
+   "publisher": "World Meteorological Organization",
+   "year": 2026,
+   "kind": "Press release",
+   "url": "https://wmo.int/media/news/new-framework-and-toolkit-strengthens-extreme-heat-governance",
+   "expect": [
+    "heat"
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "id": "c-aihr-launch",
+   "where": "Signals: COP31 watch (health)",
+   "rests_on": [
+    [
+     "who-brief",
+     "Antalya Initiative"
+    ],
+    [
+     "who-brief",
+     "voluntary"
+    ]
+   ],
+   "alts": [
+    [
+     [
+      "who-page",
+      "Antalya Initiative"
+     ],
+     [
+      "who-page",
+      "voluntary"
+     ]
+    ],
+    [
+     [
+      "un-news",
+      "Antalya Initiative"
+     ]
+    ],
+    [
+     [
+      "hpw",
+      "Antalya Initiative"
+     ],
+     [
+      "hpw",
+      "voluntary"
+     ]
+    ]
+   ],
+   "text": "COP31 opened with the launch of the Antalya Initiative, a voluntary platform for countries to share their experience of making health systems resilient to climate risks."
+  },
+  {
+   "id": "c-aihr-noone",
+   "where": "Signals: COP31 watch (health)",
+   "rests_on": [
+    [
+     "hpw",
+     "Antalya Initiative"
+    ],
+    [
+     "hpw",
+     "participation"
+    ]
+   ],
+   "text": "On the launch day no country had yet announced that it would take part."
+  },
+  {
+   "id": "c-un-hospitals",
+   "where": "Signals: COP31 watch (health)",
+   "rests_on": [
+    [
+     "un-news",
+     "hospitals"
+    ],
+    [
+     "un-news",
+     "temperatures"
+    ]
+   ],
+   "text": "A joint initiative with WHO brings climate information into public health planning: a forecast of dangerously high temperatures, for example, can help hospitals prepare for more patients."
+  },
+  {
+   "id": "c-presidency-health",
+   "where": "Signals: COP31 watch (health)",
+   "rests_on": [
+    [
+     "who-brief",
+     "Dynamic and Resilient Health Systems"
+    ],
+    [
+     "who-brief",
+     "early warning"
+    ]
+   ],
+   "alts": [
+    [
+     [
+      "who-page",
+      "Dynamic and Resilient Health Systems"
+     ]
+    ],
+    [
+     [
+      "hpw",
+      "Dynamic and Resilient Health Systems"
+     ]
+    ]
+   ],
+   "text": "The COP31 presidency has made 'Dynamic and Resilient Health Systems' a health priority, with early warning systems among its goals."
+  },
+  {
+   "id": "c-ifrc-35",
+   "where": "Signals: COP31 watch (early warnings)",
+   "rests_on": [
+    [
+     "ifrc-pdf",
+     "35%"
+    ],
+    [
+     "ifrc-pdf",
+     "early warning"
+    ],
+    [
+     "ifrc-pdf",
+     "heat"
+    ]
+   ],
+   "alts": [
+    [
+     [
+      "ifrc-pdf",
+      "35 per cent"
+     ],
+     [
+      "ifrc-pdf",
+      "early warning"
+     ],
+     [
+      "ifrc-pdf",
+      "heat"
+     ]
+    ],
+    [
+     [
+      "ifrc-pr",
+      "35%"
+     ],
+     [
+      "ifrc-pr",
+      "heat"
+     ]
+    ]
+   ],
+   "text": "IFRC's call to action for COP31 notes that only 35% of countries have reported having health early warning systems for heat-related illness."
+  },
+  {
+   "id": "c-ifrc-ewa",
+   "where": "Signals: COP31 watch (early warnings)",
+   "rests_on": [
+    [
+     "ifrc-pr",
+     "early warning"
+    ],
+    [
+     "ifrc-pr",
+     "anticipatory action"
+    ]
+   ],
+   "alts": [
+    [
+     [
+      "ifrc-pdf",
+      "early warning"
+     ],
+     [
+      "ifrc-pdf",
+      "anticipatory action"
+     ]
+    ]
+   ],
+   "text": "IFRC calls for investment in early warning systems to be matched with support for community preparedness and anticipatory action."
+  },
+  {
+   "id": "c-agr-need",
+   "where": "Signals: COP31 watch (adaptation finance)",
+   "rests_on": [
+    [
+     "unep-pr",
+     "305 billion"
+    ],
+    [
+     "unep-pr",
+     "2035"
+    ]
+   ],
+   "alts": [
+    [
+     [
+      "eb-agr",
+      "305 billion"
+     ],
+     [
+      "eb-agr",
+      "2035"
+     ]
+    ],
+    [
+     [
+      "iisd-agr",
+      "305 billion"
+     ],
+     [
+      "iisd-agr",
+      "2035"
+     ]
+    ],
+    [
+     [
+      "iisd-agr",
+      "305"
+     ],
+     [
+      "iisd-agr",
+      "2035"
+     ]
+    ]
+   ],
+   "text": "UNEP's Adaptation Gap Report 2026 estimates that developing countries need about US$305 billion a year for adaptation by 2035."
+  },
+  {
+   "id": "c-agr-flows",
+   "where": "Signals: COP31 watch (adaptation finance)",
+   "rests_on": [
+    [
+     "unep-pr",
+     "28.2"
+    ],
+    [
+     "unep-pr",
+     "31.7"
+    ]
+   ],
+   "alts": [
+    [
+     [
+      "eb-agr",
+      "28.2"
+     ],
+     [
+      "eb-agr",
+      "31.7"
+     ]
+    ],
+    [
+     [
+      "iisd-agr",
+      "28.2"
+     ],
+     [
+      "iisd-agr",
+      "31.7"
+     ]
+    ]
+   ],
+   "text": "International public adaptation finance to developing countries was about US$28 to 32 billion in 2024."
+  },
+  {
+   "id": "c-agr-triple",
+   "where": "Signals: COP31 watch (adaptation finance)",
+   "rests_on": [
+    [
+     "unep-pr",
+     "tripl"
+    ],
+    [
+     "unep-pr",
+     "20-29%"
+    ]
+   ],
+   "alts": [
+    [
+     [
+      "eb-agr",
+      "tripl"
+     ],
+     [
+      "eb-agr",
+      "20-29%"
+     ]
+    ],
+    [
+     [
+      "iisd-agr",
+      "tripl"
+     ],
+     [
+      "iisd-agr",
+      "20-29%"
+     ]
+    ],
+    [
+     [
+      "iisd-agr",
+      "tripl"
+     ],
+     [
+      "iisd-agr",
+      "20 to 29"
+     ]
+    ]
+   ],
+   "text": "Even if the COP30 aim of tripling international public adaptation finance is met, it would cover only about 20 to 29% of needs."
+  },
+  {
+   "id": "c-wmo-pilots",
+   "where": "Signals: the year",
+   "rests_on": [
+    [
+     "wmo-gov",
+     "Cambodia"
+    ],
+    [
+     "wmo-gov",
+     "Barbados"
+    ],
+    [
+     "wmo-gov",
+     "Senegal"
+    ]
+   ],
+   "alts": [
+    [
+     [
+      "ifrc-pdf",
+      "Cambodia"
+     ],
+     [
+      "ifrc-pdf",
+      "Barbados"
+     ],
+     [
+      "ifrc-pdf",
+      "Senegal"
+     ]
+    ]
+   ],
+   "text": "The Extreme Heat Risk Governance Framework and Toolkit is being piloted in 2026 in Barbados, Senegal and Cambodia."
+  }
+ ],
+ "about-set-aside": [
+  "Global Cooling Pledge and its Intergovernmental Committee on Cooling: agreed at COP30, not a COP31 outcome; context only.",
+  "A statement by the UN climate chief that the climate crisis is a health emergency: a statement, not a commitment, and it names an individual.",
+  "Pre-COP31 civil society statements on heat action plans: communities' calls, not commitments by governments."
+ ]
+}

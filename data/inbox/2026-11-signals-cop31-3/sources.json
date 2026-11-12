@@ -1,0 +1,265 @@
+[
+ {
+  "id": "src-cop31c-un-news",
+  "type": "source",
+  "keys": [
+   "un-news"
+  ],
+  "title": "COP31 opens in Antalya: Can climate promises finally deliver results?",
+  "publisher": "UN News",
+  "year": 2026,
+  "url": "https://news.un.org/en/story/2026/11/1168763",
+  "kind": "News (UN)",
+  "where": "COP31",
+  "expect": [
+   "Antalya",
+   "Antalya Initiative",
+   "hospitals",
+   "temperatures"
+  ],
+  "claims": [
+   "c-aihr-launch",
+   "c-un-hospitals"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31c-who-brief",
+  "type": "source",
+  "keys": [
+   "who-brief"
+  ],
+  "title": "WHO COP31 climate change and health brief",
+  "publisher": "World Health Organization",
+  "year": 2026,
+  "url": "https://cdn.who.int/media/docs/default-source/climate-change/who-cop31-cch-brief.pdf",
+  "kind": "Official brief (PDF)",
+  "where": "COP31",
+  "expect": [
+   "COP31",
+   "Antalya Initiative",
+   "voluntary",
+   "Dynamic and Resilient Health Systems",
+   "early warning"
+  ],
+  "claims": [
+   "c-aihr-launch",
+   "c-presidency-health"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31c-who-page",
+  "type": "source",
+  "keys": [
+   "who-page"
+  ],
+  "title": "Health at COP31",
+  "publisher": "World Health Organization",
+  "year": 2026,
+  "url": "https://www.who.int/teams/environment-climate-change-and-health/climate-change-and-health/advocacy-partnerships/talks/health-at-cop31",
+  "kind": "Official page",
+  "where": "COP31",
+  "expect": [
+   "COP31",
+   "Antalya Initiative",
+   "voluntary",
+   "Dynamic and Resilient Health Systems"
+  ],
+  "claims": [
+   "c-aihr-launch",
+   "c-presidency-health"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31c-hpw",
+  "type": "source",
+  "keys": [
+   "hpw"
+  ],
+  "title": "'Declarations do not protect people': COP31 opens under pressure to deliver results over words",
+  "publisher": "Health Policy Watch",
+  "year": 2026,
+  "url": "https://healthpolicy-watch.news/declarations-do-not-protect-people-cop31-opens-under-pressure-to-deliver-results-over-words/",
+  "kind": "News",
+  "where": "COP31",
+  "expect": [
+   "COP31",
+   "Antalya Initiative",
+   "voluntary",
+   "participation",
+   "Dynamic and Resilient Health Systems"
+  ],
+  "claims": [
+   "c-aihr-launch",
+   "c-aihr-noone",
+   "c-presidency-health"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31c-ifrc-pdf",
+  "type": "source",
+  "keys": [
+   "ifrc-pdf"
+  ],
+  "title": "IFRC COP31 Call to Action",
+  "publisher": "International Federation of Red Cross and Red Crescent Societies",
+  "year": 2026,
+  "url": "https://www.ifrc.org/sites/default/files/2026-10/IFRC%20COP31%20Call%20to%20Action.pdf",
+  "kind": "Call to action (PDF)",
+  "where": "COP31",
+  "expect": [
+   "COP31",
+   "35%",
+   "early warning",
+   "heat",
+   "35 per cent",
+   "anticipatory action",
+   "Cambodia",
+   "Barbados",
+   "Senegal"
+  ],
+  "claims": [
+   "c-ifrc-35",
+   "c-ifrc-ewa",
+   "c-wmo-pilots"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31c-ifrc-pr",
+  "type": "source",
+  "keys": [
+   "ifrc-pr"
+  ],
+  "title": "COP31: IFRC calls for urgent investment to protect world's most vulnerable",
+  "publisher": "International Federation of Red Cross and Red Crescent Societies",
+  "year": 2026,
+  "url": "https://www.ifrc.org/press-release/cop31-ifrc-calls-urgent-investment-protect-worlds-most-vulnerable",
+  "kind": "Press release",
+  "where": "COP31",
+  "expect": [
+   "COP31",
+   "35%",
+   "heat",
+   "early warning",
+   "anticipatory action"
+  ],
+  "claims": [
+   "c-ifrc-35",
+   "c-ifrc-ewa"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31c-unep-pr",
+  "type": "source",
+  "keys": [
+   "unep-pr"
+  ],
+  "title": "As world heads for overshoot of 1.5°C, adaptation is too slow",
+  "publisher": "UNEP",
+  "year": 2026,
+  "url": "https://www.unep.org/en/news-and-stories/press-release/world-heads-overshoot-15degc-adaptation-too-slow",
+  "kind": "Press release",
+  "where": "COP31",
+  "expect": [
+   "Adaptation Gap Report",
+   "305 billion",
+   "2035",
+   "28.2",
+   "31.7",
+   "tripl",
+   "20-29%"
+  ],
+  "claims": [
+   "c-agr-need",
+   "c-agr-flows",
+   "c-agr-triple"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31c-eb-agr",
+  "type": "source",
+  "keys": [
+   "eb-agr"
+  ],
+  "title": "As world heads for overshoot of 1.5°C, adaptation is too slow (UNEP press release)",
+  "publisher": "Eco-Business (UNEP press release)",
+  "year": 2026,
+  "url": "https://www.eco-business.com/press-releases/as-world-heads-for-overshoot-of-15c-adaptation-is-too-slow/",
+  "kind": "Press release (repost)",
+  "where": "COP31",
+  "expect": [
+   "Adaptation Gap Report",
+   "305 billion",
+   "2035",
+   "28.2",
+   "31.7",
+   "tripl",
+   "20-29%"
+  ],
+  "claims": [
+   "c-agr-need",
+   "c-agr-flows",
+   "c-agr-triple"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31c-iisd-agr",
+  "type": "source",
+  "keys": [
+   "iisd-agr"
+  ],
+  "title": "Growth in finance insufficient to meet needs: Adaptation Gap Report 2026",
+  "publisher": "IISD SDG Knowledge Hub",
+  "year": 2026,
+  "url": "https://sdg.iisd.org/news/growth-in-finance-insufficient-to-meet-needs-adaptation-gap-report-2026/",
+  "kind": "Summary",
+  "where": "COP31",
+  "expect": [
+   "Adaptation Gap Report",
+   "305 billion",
+   "2035",
+   "305",
+   "28.2",
+   "31.7",
+   "tripl",
+   "20-29%",
+   "20 to 29"
+  ],
+  "claims": [
+   "c-agr-need",
+   "c-agr-flows",
+   "c-agr-triple"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31c-wmo-gov",
+  "type": "source",
+  "keys": [
+   "wmo-gov"
+  ],
+  "title": "New framework and toolkit strengthens extreme heat governance",
+  "publisher": "World Meteorological Organization",
+  "year": 2026,
+  "url": "https://wmo.int/media/news/new-framework-and-toolkit-strengthens-extreme-heat-governance",
+  "kind": "Press release",
+  "where": "COP31",
+  "expect": [
+   "heat",
+   "Cambodia",
+   "Barbados",
+   "Senegal"
+  ],
+  "claims": [
+   "c-wmo-pilots"
+  ],
+  "note": "Staged from the COP31 signals batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ }
+]
