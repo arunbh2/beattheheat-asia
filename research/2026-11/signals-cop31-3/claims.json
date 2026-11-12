@@ -196,24 +196,15 @@
     ],
     [
      "who-brief",
-     "early warning"
-    ]
-   ],
-   "alts": [
-    [
-     [
-      "who-page",
-      "Dynamic and Resilient Health Systems"
-     ]
+     "surveillance"
     ],
     [
-     [
-      "hpw",
-      "Dynamic and Resilient Health Systems"
-     ]
+     "who-brief",
+     "no numerical target"
     ]
    ],
-   "text": "The COP31 presidency has made 'Dynamic and Resilient Health Systems' a health priority, with early warning systems among its goals."
+   "alts": [],
+   "text": "The COP31 presidency's action agenda includes a theme on Dynamic and Resilient Health Systems, which prioritises health systems that can anticipate, respond to and recover from climate-related shocks through preparedness, surveillance and resilient infrastructure. Unlike many other themes, it carries no numerical target for 2035."
   },
   {
    "id": "c-ifrc-35",
@@ -261,31 +252,24 @@
    "text": "IFRC's call to action for COP31 notes that only 35% of countries have reported having health early warning systems for heat-related illness."
   },
   {
-   "id": "c-ifrc-ewa",
-   "where": "Signals: COP31 watch (early warnings)",
+   "id": "c-ifrc-heat-ask",
+   "where": "Signals: COP31 watch (cooling and heat plans)",
    "rests_on": [
     [
-     "ifrc-pr",
-     "early warning"
+     "ifrc-pdf",
+     "multi-sector local action"
     ],
     [
-     "ifrc-pr",
-     "anticipatory action"
-    ]
-   ],
-   "alts": [
+     "ifrc-pdf",
+     "reduce heat risk"
+    ],
     [
-     [
-      "ifrc-pdf",
-      "early warning"
-     ],
-     [
-      "ifrc-pdf",
-      "anticipatory action"
-     ]
+     "ifrc-pdf",
+     "heat action plans"
     ]
    ],
-   "text": "IFRC calls for investment in early warning systems to be matched with support for community preparedness and anticipatory action."
+   "alts": [],
+   "text": "IFRC's call to action for COP31 asks for investment in multi-sector local action for cities and communities to reduce heat risk, from heat action plans and early warning to shock-responsive social protection and nature-based solutions."
   },
   {
    "id": "c-agr-need",
@@ -381,7 +365,7 @@
     ],
     [
      "unep-pr",
-     "20-29%"
+     "20-29 per cent"
     ]
    ],
    "alts": [
@@ -392,27 +376,7 @@
      ],
      [
       "eb-agr",
-      "20-29%"
-     ]
-    ],
-    [
-     [
-      "iisd-agr",
-      "tripl"
-     ],
-     [
-      "iisd-agr",
-      "20-29%"
-     ]
-    ],
-    [
-     [
-      "iisd-agr",
-      "tripl"
-     ],
-     [
-      "iisd-agr",
-      "20 to 29"
+      "20-29 per cent"
      ]
     ]
    ],

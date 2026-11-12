@@ -1,0 +1,112 @@
+[
+ {
+  "id": "c-aihr-launch",
+  "where": "Signals: COP31 watch (health)",
+  "text": "COP31 opened with the launch of the Antalya Initiative, a voluntary platform for countries to share their experience of making health systems resilient to climate risks.",
+  "sources": [
+   {
+    "label": "World Health Organization: WHO COP31 climate change and health brief, 2026",
+    "url": "https://cdn.who.int/media/docs/default-source/climate-change/who-cop31-cch-brief.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-aihr-noone",
+  "where": "Signals: COP31 watch (health)",
+  "text": "On the launch day no country had yet announced that it would take part.",
+  "sources": [
+   {
+    "label": "Health Policy Watch: 'Declarations do not protect people': COP31 opens under pressure to deliver results over words, 2026",
+    "url": "https://healthpolicy-watch.news/declarations-do-not-protect-people-cop31-opens-under-pressure-to-deliver-results-over-words/"
+   }
+  ]
+ },
+ {
+  "id": "c-un-hospitals",
+  "where": "Signals: COP31 watch (health)",
+  "text": "A joint initiative with WHO brings climate information into public health planning: a forecast of dangerously high temperatures, for example, can help hospitals prepare for more patients.",
+  "sources": [
+   {
+    "label": "UN News: COP31 opens in Antalya: Can climate promises finally deliver results?, 2026",
+    "url": "https://news.un.org/en/story/2026/11/1168763"
+   }
+  ]
+ },
+ {
+  "id": "c-presidency-health",
+  "where": "Signals: COP31 watch (health)",
+  "text": "The COP31 presidency's action agenda includes a theme on Dynamic and Resilient Health Systems, which prioritises health systems that can anticipate, respond to and recover from climate-related shocks through preparedness, surveillance and resilient infrastructure. Unlike many other themes, it carries no numerical target for 2035.",
+  "sources": [
+   {
+    "label": "World Health Organization: WHO COP31 climate change and health brief, 2026",
+    "url": "https://cdn.who.int/media/docs/default-source/climate-change/who-cop31-cch-brief.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-ifrc-35",
+  "where": "Signals: COP31 watch (early warnings)",
+  "text": "IFRC's call to action for COP31 notes that only 35% of countries have reported having health early warning systems for heat-related illness.",
+  "sources": [
+   {
+    "label": "International Federation of Red Cross and Red Crescent Societies: IFRC COP31 Call to Action, 2026",
+    "url": "https://www.ifrc.org/sites/default/files/2026-10/IFRC%20COP31%20Call%20to%20Action.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-ifrc-heat-ask",
+  "where": "Signals: COP31 watch (cooling and heat plans)",
+  "text": "IFRC's call to action for COP31 asks for investment in multi-sector local action for cities and communities to reduce heat risk, from heat action plans and early warning to shock-responsive social protection and nature-based solutions.",
+  "sources": [
+   {
+    "label": "International Federation of Red Cross and Red Crescent Societies: IFRC COP31 Call to Action, 2026",
+    "url": "https://www.ifrc.org/sites/default/files/2026-10/IFRC%20COP31%20Call%20to%20Action.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-agr-need",
+  "where": "Signals: COP31 watch (adaptation finance)",
+  "text": "UNEP's Adaptation Gap Report 2026 estimates that developing countries need about US$305 billion a year for adaptation by 2035.",
+  "sources": [
+   {
+    "label": "UNEP: As world heads for overshoot of 1.5°C, adaptation is too slow, 2026",
+    "url": "https://www.unep.org/en/news-and-stories/press-release/world-heads-overshoot-15degc-adaptation-too-slow"
+   }
+  ]
+ },
+ {
+  "id": "c-agr-flows",
+  "where": "Signals: COP31 watch (adaptation finance)",
+  "text": "International public adaptation finance to developing countries was about US$28 to 32 billion in 2024.",
+  "sources": [
+   {
+    "label": "UNEP: As world heads for overshoot of 1.5°C, adaptation is too slow, 2026",
+    "url": "https://www.unep.org/en/news-and-stories/press-release/world-heads-overshoot-15degc-adaptation-too-slow"
+   }
+  ]
+ },
+ {
+  "id": "c-agr-triple",
+  "where": "Signals: COP31 watch (adaptation finance)",
+  "text": "Even if the COP30 aim of tripling international public adaptation finance is met, it would cover only about 20 to 29% of needs.",
+  "sources": [
+   {
+    "label": "UNEP: As world heads for overshoot of 1.5°C, adaptation is too slow, 2026",
+    "url": "https://www.unep.org/en/news-and-stories/press-release/world-heads-overshoot-15degc-adaptation-too-slow"
+   }
+  ]
+ },
+ {
+  "id": "c-wmo-pilots",
+  "where": "Signals: the year",
+  "text": "The Extreme Heat Risk Governance Framework and Toolkit is being piloted in 2026 in Barbados, Senegal and Cambodia.",
+  "sources": [
+   {
+    "label": "World Meteorological Organization: New framework and toolkit strengthens extreme heat governance, 2026",
+    "url": "https://wmo.int/media/news/new-framework-and-toolkit-strengthens-extreme-heat-governance"
+   }
+  ]
+ }
+]
