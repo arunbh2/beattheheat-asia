@@ -26,6 +26,8 @@ Every consequence is sourced, and where the evidence is thin, the map says so.
 
 Five short acts, about fifteen minutes. Free, no sign up, and what you choose stays in your browser.
 
+An AI agent or assistant reading for someone? [Here is a page written for you](https://beattheheat.asia/for-ai/)
+
 I work as:
 
 - [a city official](#start)
