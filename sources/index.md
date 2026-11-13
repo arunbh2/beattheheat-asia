@@ -1,11 +1,11 @@
 ---
 title: "Sources and references | Common Shade"
 url: https://beattheheat.asia/sources/
-updated: 2026-11-10
+updated: 2026-11-13
 licence: CC BY 4.0
 ---
 
-> Every paper, report, dataset and organisation cited on Common Shade, in one list you can search: 2285 sources, each with where it is used on the site.
+> Every paper, report, dataset and organisation cited on Common Shade, in one list you can search: 2290 sources, each with where it is used on the site.
 
 Where does every claim come from?
 
@@ -24,7 +24,7 @@ Every claim on Common Shade links to its source. Each entry below shows who publ
 
 **Watch: Every claim, linked** · 0:26 · narrated, captions in the picture
 
-## Heat in the news 149
+## Heat in the news 154
 
 Every headline and new paper that has appeared on Heat in the news, newest first. The live page shows the latest two weeks of news and four months of research; this list keeps them all. Headlines are the outlets’ own; listing one is not an endorsement of its framing.
 
@@ -32,15 +32,19 @@ Every headline and new paper that has appeared on Heat in the news, newest first
 
 - [India among top countries with highest heatwave exposure for infants, older adults](https://www.thehindu.com/sci-tech/energy-and-environment/india-among-top-countries-with-highest-heatwave-exposure-for-infants-older-adults-report/article71634194.ece)The Hindu · India · 28 Oct 2026 · thehindu.comUsed on: Heat in the news: headlines · Lancet Countdown 2026, in plain language
 
+- [Dangerous heat index grips 9 areas on Thursday](https://newsinfo.inquirer.net/2340468/dangerous-heat-index-grips-9-areas-on-thursday)Inquirer · Philippines · 12 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
+
+- [Data-driven estimation of the onset of heat-related mortality in five Indian cities](https://doi.org/10.64898/2026.11.08.26367540)Robles Fontan MM et al. · Preprint · preprint · 10 Nov 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [3 areas under dangerous level heat index on Saturday - Pagasa](https://newsinfo.inquirer.net/2337309/3-areas-under-dangerous-level-heat-index-on-saturday-pagasa)Inquirer · Philippines · 6 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
+
+- [Extreme heat is creating a workplace health crisis in Bangladesh’s garment industry](https://news.mongabay.com/short-article/2026/11/extreme-heat-is-creating-a-workplace-health-crisis-in-bangladeshs-garment-industry/)Mongabay · Bangladesh · 6 Nov 2026 · news.mongabay.comUsed on: Heat in the news: headlines
+
 - [Heat index hits 42°C in Coron, Palawan and Borongan, Eastern Samar](https://newsinfo.inquirer.net/2338572/heat-index-hits-42c-in-coron-palawan-and-borongan-eastern-samar)Inquirer · Philippines · 9 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
 - [High daytime heat index, chilly nights logged in Pangasinan](https://newsinfo.inquirer.net/2337985/high-daytime-heat-index-chilly-nights-logged-in-pangasinan)Inquirer · Philippines · 8 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
 - [Heatwave fuels 54% fire surge in Northern Mindanao](https://newsinfo.inquirer.net/2337482/heatwave-fuels-54-fire-surge-in-northern-mindanao)Inquirer · Philippines · 7 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
-
-- [3 areas under dangerous level heat index on Saturday - Pagasa](https://newsinfo.inquirer.net/2337309/3-areas-under-dangerous-level-heat-index-on-saturday-pagasa)Inquirer · Philippines · 6 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
-
-- [Extreme heat is creating a workplace health crisis in Bangladesh’s garment industry](https://news.mongabay.com/short-article/2026/11/extreme-heat-is-creating-a-workplace-health-crisis-in-bangladeshs-garment-industry/)Mongabay · Bangladesh · 6 Nov 2026 · news.mongabay.comUsed on: Heat in the news: headlines
 
 - [Three-way circulation-soil moisture-temperature feedbacks amplify the most extreme mid-latitudinal heat waves](https://doi.org/10.1126/sciadv.aeh9111)Tian Y et al. · Science advances · 6 Nov 2026 · doi.orgUsed on: Heat in the news: new research
 
@@ -64,6 +68,8 @@ Every headline and new paper that has appeared on Heat in the news, newest first
 
 - [Human Adaptation to Daytime Heat and Associated Heat-Related Symptoms Among Women](https://doi.org/10.1002/ajhb.70375)Hussain S et al. · American journal of human biology : the official journal of the Human Biology Council · 1 Nov 2026 · doi.orgUsed on: Heat in the news: new research
 
+- [Heat stress and coping strategies among older adults in 3 Sunbelt cities in the United States](https://doi.org/10.1093/gerona/glag239)Dassah C et al. · The journals of gerontology. Series A, Biological sciences and medical sciences · 1 Nov 2026 · doi.orgUsed on: Heat in the news: new research
+
 - [Afternoon rains, high heat index forecast for ‘Undas’ in Mindanao](https://newsinfo.inquirer.net/2333512/afternoon-rains-high-heat-index-forecast-for-undas-in-mindanao)Inquirer · Philippines · 31 Oct 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
 - [Combining ability and heat-stress response in rice hybrids derived from mutation-derived M₆ lines](https://doi.org/10.1007/s13353-026-01126-y)Iqbal S et al. · Journal of applied genetics · 29 Oct 2026 · doi.orgUsed on: Heat in the news: new research
@@ -75,6 +81,10 @@ Every headline and new paper that has appeared on Heat in the news, newest first
 - [Left to cope alone: how pregnant and postpartum women and their newborns manage extreme heat in coastal Kilifi, Kenya](https://europepmc.org/article/PMC/PMC13696479)Lusambili A et al. · Frontiers in global women's health · 27 Oct 2026 · europepmc.orgUsed on: Heat in the news: new research
 
 - [Intraspecific competition modulates heatwave effects on male reproduction in Drosophila prolongata](https://doi.org/10.1007/s00442-026-06006-0)Gupta S et al. · Oecologia · 27 Oct 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [Integrating heat stress tolerance indices based on grain yield for the selection of resilient wheat genotypes](https://doi.org/10.3389/fpls.2026.1949670)Dhar N et al. · Frontiers in plant science · 27 Oct 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [Thermophysiological responses to occupational heat stress during simulated wildland firefighting in females and males: influence of fitness and body composition](https://doi.org/10.3389/fphys.2026.1936332)Gutiérrez-Arroyo J et al. · Frontiers in physiology · 27 Oct 2026 · doi.orgUsed on: Heat in the news: new research
 
 - [Projected Exposure of Canadian Children to Rare, High-Severity Heatwaves Under Continued Warming](https://doi.org/10.1029/2026gh001873)Zaerpour M et al. · GeoHealth · 26 Oct 2026 · doi.orgUsed on: Heat in the news: new research
 
