@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>What changed on Common Shade</title>
+  <subtitle>Each reviewed change to the free evidence base on extreme heat in South and Southeast Asia</subtitle>
+  <link href="https://beattheheat.asia/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://beattheheat.asia/growing/" rel="alternate" type="text/html"/>
+  <id>https://beattheheat.asia/</id>
+  <updated>2026-11-13T00:00:00Z</updated>
+  <rights>CC BY 4.0</rights>
+  <entry>
+    <title>Open files for the tools that read the web, and a privacy page</title>
+    <link href="https://beattheheat.asia/growing/#g-agent-files" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-agent-files</id>
+    <updated>2026-11-13T00:00:00Z</updated>
+    <summary>Assistants and crawlers look for a site's files at standard addresses. Common Shade now publishes an agent directory, an OpenAPI description of its open data with examples, a change feed and a Markdown twin of every page, and says plainly on one page what it keeps and what it asks other services for.</summary>
+  </entry>
+  <entry>
+    <title>A page for the AI agents that read the site</title>
+    <link href="https://beattheheat.asia/growing/#g-for-ai" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-for-ai</id>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <summary>More people now meet the site through an assistant than through a browser. /for-ai/ tells an assistant what Common Shade is, when it fits a person's question, how to cite it and what to avoid, and publishes the same record as JSON and plain text, so an assistant can represent the evidence as carefully as the site states it.</summary>
+  </entry>
+  <entry>
+    <title>Are heat plans budgeted, or only hoped for?</title>
+    <link href="https://beattheheat.asia/growing/#g-heat-plan-running-costs" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-heat-plan-running-costs</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>After Bangkok's strategy found money to build but not always to run, a reading of heat plans from India and Bangladesh showed a nearby pattern: costs and potential funders are named, but budgets that recur each season rarely are. Each claim was written from passages checked on GitHub.</summary>
+  </entry>
+  <entry>
+    <title>A planning question for heatwaves longer than any on record</title>
+    <link href="https://beattheheat.asia/growing/#g-longer-than-record" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-longer-than-record</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>Plans and budgets are usually sized to the worst heatwave people remember, and new modelling suggests some future heatwaves will run longer. The workbook now asks whether the money and staff would last.</summary>
+  </entry>
+  <entry>
+    <title>Signals: which way heat policy is moving</title>
+    <link href="https://beattheheat.asia/growing/#g-signals" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-signals</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>Announcements are the earliest sign of where heat policy is heading, but on their own they are weak evidence. Signals places each one on a ladder from announced to evaluated, starting with COP31 and this year's signals already on the site, so readers can weigh them rather than collect them.</summary>
+  </entry>
+  <entry>
+    <title>COP31 opens: the climate behind this year's heat</title>
+    <link href="https://beattheheat.asia/growing/#g-signals-cop31-opening" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-signals-cop31-opening</id>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>As COP31 opened, WMO reported that 2026 will be one of the four warmest years on record and that El Niño is set to bring more heat into 2027, while UNEP's Emissions Gap Report found that warming will overshoot 1.5 °C. Each was verified at its primary source before joining the COP31 watch on Signals.</summary>
+  </entry>
+  <entry>
+    <title>What Bangkok's heat plan costs, and what stands between plans and money</title>
+    <link href="https://beattheheat.asia/growing/#g-bangkok-heat-finance" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-bangkok-heat-finance</id>
+    <updated>2026-11-08T00:00:00Z</updated>
+    <summary>Bangkok's 2026 financing strategy, from UNDP and the city, costs the city's heat plan and explains why running costs, not ambition, are the gap. Each insight was tied to the strategy's own words and checked on GitHub before it reached the site, and the city page now credits the heat plan to the city itself.</summary>
+  </entry>
+  <entry>
+    <title>How heat became visible: a graded timeline of when the world began to notice</title>
+    <link href="https://beattheheat.asia/growing/#g-heat-visibility" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-heat-visibility</id>
+    <updated>2026-11-07T00:00:00Z</updated>
+    <summary>Knowing when science, health, labour, finance and the UN each noticed heat shows who was still missing. Each event carries a grade, so certainty is never overstated.</summary>
+  </entry>
+  <entry>
+    <title>Correction: what cooling centres and fans can and cannot do</title>
+    <link href="https://beattheheat.asia/growing/#g-correction-cooling" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-correction-cooling</id>
+    <updated>2026-11-07T00:00:00Z</updated>
+    <summary>Readers plan real protection from these pages. Saying what the evidence supports, and what it depends on, keeps a plan from resting on more than the evidence holds.</summary>
+  </entry>
+  <entry>
+    <title>Lenses on what the map was missing</title>
+    <link href="https://beattheheat.asia/growing/#g-gap-lenses" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-gap-lenses</id>
+    <updated>2026-11-07T00:00:00Z</updated>
+    <summary>The map now separates more of the people it had grouped together, adds slow and hidden harms and compound events, and shows where places differ. Each addition passed a number-by-number audit against its source.</summary>
+  </entry>
+  <entry>
+    <title>Watch for: documented side effects of actions that otherwise help</title>
+    <link href="https://beattheheat.asia/growing/#g-watch-outs" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-watch-outs</id>
+    <updated>2026-11-07T00:00:00Z</updated>
+    <summary>An action can help one group and burden another. Showing documented side effects next to each action is a revised reading of what helps, not a reason to stop.</summary>
+  </entry>
+  <entry>
+    <title>Who could help a household through a hot season, country by country</title>
+    <link href="https://beattheheat.asia/growing/#g-social-protection" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-social-protection</id>
+    <updated>2026-11-07T00:00:00Z</updated>
+    <summary>Public schemes could cushion lost work and care costs in a hot season. Setting out who runs each, what it gives and how far people get through the steps of access shows where support stops.</summary>
+  </entry>
+  <entry>
+    <title>The news page now shows what became of each paper and headline</title>
+    <link href="https://beattheheat.asia/growing/#g-news-to-evidence" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-news-to-evidence</id>
+    <updated>2026-11-07T00:00:00Z</updated>
+    <summary>Coverage and checked evidence are easy to confuse. Every paper on the news page now goes through the weekly evidence review, and each item shows whether it is on the Evidence map, in review, set aside or still waiting.</summary>
+  </entry>
+  <entry>
+    <title>Every open question now carries its own dated history</title>
+    <link href="https://beattheheat.asia/growing/#g-question-history" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-question-history</id>
+    <updated>2026-11-07T00:00:00Z</updated>
+    <summary>A question that moves is easier to trust than one that simply changes. Each step now shows when it happened, what moved it and which records did, and advanced is never shown as answered.</summary>
+  </entry>
+  <entry>
+    <title>Questions opened for every step of access nobody has measured</title>
+    <link href="https://beattheheat.asia/growing/#g-step-questions" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-step-questions</id>
+    <updated>2026-11-07T00:00:00Z</updated>
+    <summary>Many steps between a scheme on paper and support in hand are unmeasured, especially whether support is adequate and on time. Each gap now carries a question and a study that could answer it.</summary>
+  </entry>
+  <entry>
+    <title>How Singapore organises for heat, traced to its own sources</title>
+    <link href="https://beattheheat.asia/growing/#g-singapore-brief" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-singapore-brief</id>
+    <updated>2026-11-07T00:00:00Z</updated>
+    <summary>A country brief from the Southeast Asia heat-health hub described the coordination, triggers and research money behind Singapore's heat rules. Each insight was traced to the government or published source behind it, and only what those sources confirm reached the site.</summary>
+  </entry>
+  <entry>
+    <title>A rule on paper is no longer read as a result</title>
+    <link href="https://beattheheat.asia/growing/#g-official-not-effect" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-official-not-effect</id>
+    <updated>2026-11-07T00:00:00Z</updated>
+    <summary>The method grouped official records with measured findings as known. An official record can show that a rule or scheme exists; whether it was carried out or worked takes an evaluation, and the method now says so.</summary>
+  </entry>
+  <entry>
+    <title>Every harm paired with hope: the nearest places to act, or an honest gap</title>
+    <link href="https://beattheheat.asia/growing/#g-harm-hope" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-harm-hope</id>
+    <updated>2026-11-06T00:00:00Z</updated>
+    <summary>A harm without a way forward can leave a reader stuck. Each harm now points to the actions closest to it, or says plainly that none is documented yet.</summary>
+  </entry>
+  <entry>
+    <title>India's Heat Resilient Cities Framework (2026), across the site</title>
+    <link href="https://beattheheat.asia/growing/#g-niua-framework" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-niua-framework</id>
+    <updated>2026-11-03T00:00:00Z</updated>
+    <summary>The framework moves cities from emergency response towards lasting change, with the people most exposed at the centre. It now informs the glossary, the planning checklist and the cities it names.</summary>
+  </entry>
+  <entry>
+    <title>India heat action plan archive: verified plans and guidance from across India</title>
+    <link href="https://beattheheat.asia/growing/#g-hap-archive" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-hap-archive</id>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <summary>Plans are easier to learn from side by side. Each one is verified, typed and dated as printed, so a city can find a neighbour's plan and see how it changed.</summary>
+  </entry>
+  <entry>
+    <title>Heat and the health of mothers, children and minds</title>
+    <link href="https://beattheheat.asia/growing/#g-health-deepening" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-health-deepening</id>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <summary>Pregnancy, newborn health, mental health and gender-based violence were thin on the map. Adding them, with an evidence brief, makes these harms visible next to the better-known ones.</summary>
+  </entry>
+  <entry>
+    <title>A weekly evidence review, signed off by a person</title>
+    <link href="https://beattheheat.asia/growing/#g-living-evidence" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-living-evidence</id>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <summary>New studies arrive every week. A Monday harvest opens a review, and only studies a person accepts join their cycles, so the map grows without lowering its bar.</summary>
+  </entry>
+  <entry>
+    <title>How heat is reported: a bibliography of coverage in many languages</title>
+    <link href="https://beattheheat.asia/growing/#g-media" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-media</id>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <summary>Coverage shapes what decision-makers notice. Reading it together shows which harms and places get attention and which stay quiet, without judging any outlet.</summary>
+  </entry>
+  <entry>
+    <title>Correction: the site stopped telling people what to do</title>
+    <link href="https://beattheheat.asia/growing/#g-correction-voice" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-correction-voice</id>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <summary>The people closest to the heat know their places best. Describing what helps, and what it depends on, keeps the site a place to learn alongside them.</summary>
+  </entry>
+  <entry>
+    <title>Describing what we could see, never what someone did not do</title>
+    <link href="https://beattheheat.asia/growing/#g-what-we-could-see" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-what-we-could-see</id>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <summary>A gap in a record is not proof that nothing happened. The site now says what it could find and where it looked, so an absence reads as a question rather than a judgement.</summary>
+  </entry>
+  <entry>
+    <title>A learning agenda: the questions the evidence has not yet answered</title>
+    <link href="https://beattheheat.asia/growing/#g-learning-agenda" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-learning-agenda</id>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <summary>Naming what nobody knows yet is as useful as summarising what is known. Each question sits beside the cycle it belongs to, with a study that could answer it.</summary>
+  </entry>
+  <entry>
+    <title>Paying when heat strikes: insurance, pools, credit and forecast funds</title>
+    <link href="https://beattheheat.asia/growing/#g-risk-finance" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-risk-finance</id>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <summary>Whether a payout arrived, and when, matters more than whether a product exists. This section follows what is documented about each instrument paying out.</summary>
+  </entry>
+  <entry>
+    <title>The first monthly update: new plans, a regional forum and funding, October 2026</title>
+    <link href="https://beattheheat.asia/growing/#g-trial-month" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-trial-month</id>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <summary>The first month run through every check showed the pipeline can hold back what it cannot confirm. Records that only a secondary report described stayed held.</summary>
+  </entry>
+  <entry>
+    <title>Question opened: how do heat-health pilots keep their footing once funding ends?</title>
+    <link href="https://beattheheat.asia/growing/#g-question-pilots" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-question-pilots</id>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <summary>Protection that stops when a grant stops leaves people exposed again. Asking the question openly invites the people who have seen it happen to share what worked.</summary>
+  </entry>
+  <entry>
+    <title>Atlas of Asia's heat: heatwaves since 1998 and the plans that followed</title>
+    <link href="https://beattheheat.asia/growing/#g-atlas" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-atlas</id>
+    <updated>2026-10-31T00:00:00Z</updated>
+    <summary>Placing heatwaves and the plans that came after them on one map shows how protection has followed experience, place by place.</summary>
+  </entry>
+</feed>

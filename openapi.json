@@ -1,0 +1,940 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Common Shade open files",
+    "version": "2026-11-13",
+    "summary": "Read-only files about extreme heat in South and Southeast Asia.",
+    "description": "Common Shade is a static website. There is no server API: these are the open files it publishes, each a plain GET. Text, data and films are CC BY 4.0. Cite the original source of any figure as well; the sources are listed at /sources/.",
+    "license": {
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "contact": {
+      "name": "Corrections and questions",
+      "url": "https://beattheheat.asia/corrections/"
+    },
+    "termsOfService": "https://beattheheat.asia/privacy/"
+  },
+  "servers": [
+    {
+      "url": "https://beattheheat.asia",
+      "description": "Production (GitHub Pages)"
+    }
+  ],
+  "security": [],
+  "tags": [
+    {
+      "name": "data",
+      "description": "Open JSON data"
+    },
+    {
+      "name": "guides",
+      "description": "Guides to the site for AI systems, and the sitemap"
+    }
+  ],
+  "paths": {
+    "/for-ai.json": {
+      "get": {
+        "operationId": "getForAiJson",
+        "summary": "this record, structured",
+        "description": "this record, structured. A plain static file: no key, no login.",
+        "tags": [
+          "data"
+        ],
+        "responses": {
+          "200": {
+            "description": "The file.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": [
+                    "object",
+                    "array"
+                  ]
+                },
+                "example": {
+                  "name": "Common Shade",
+                  "url": "https://beattheheat.asia/",
+                  "page": "https://beattheheat.asia/for-ai/",
+                  "also_known_as": "BeatTheHeat.Asia (the name it was first published under; the site is moving to commonshade.asia)"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/for-ai.txt": {
+      "get": {
+        "operationId": "getForAiTxt",
+        "summary": "this record, in plain text for small models",
+        "description": "this record, in plain text for small models. A plain static file: no key, no login.",
+        "tags": [
+          "guides"
+        ],
+        "responses": {
+          "200": {
+            "description": "The file.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                },
+                "example": "Common Shade: for AI agents\nUpdated 2026-11-13. Human edition: https://beattheheat.asia/\n\nA free, open, non-commercial evidence base on extreme heat in South and Southeast Asia: how heat harms health, income and homes, how one harm leads to the next, what helps, and who could act and who could pay. Every claim links to its source and says how sure the evidence is.\n\nstatus: beta | cost: free | account required: no | coverage: South Asia and Southeast Asia | language: en"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/llms.txt": {
+      "get": {
+        "operationId": "getLlmsTxt",
+        "summary": "a short guide to the whole site",
+        "description": "a short guide to the whole site. A plain static file: no key, no login.",
+        "tags": [
+          "guides"
+        ],
+        "responses": {
+          "200": {
+            "description": "The file.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                },
+                "example": "# Common Shade\n\n> An interactive systems map of extreme heat in Asia: how heat ripples through 10 systems and 90 consequences, the 21 vicious cycles that make it worse, the 33 actions that could break them, and the 14 kinds of institution that hold those levers. Every claim links to its source.\n\nCommon Shade's beta platform is at beattheheat.asia and is moving to commonshade.asia; it was first published as BeatTheHeat.Asia. It is independent of the Beat the Heat initiative that UNEP's Cool Coalition runs with the COP30 Presidency.\n"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/llms-full.txt": {
+      "get": {
+        "operationId": "getLlmsFullTxt",
+        "summary": "every page of the site as one plain-text file",
+        "description": "every page of the site as one plain-text file. A plain static file: no key, no login.",
+        "tags": [
+          "guides"
+        ],
+        "responses": {
+          "200": {
+            "description": "The file.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                },
+                "example": "# Common Shade: the whole map as text\n\n> An interactive systems map of extreme heat in Asia: how heat ripples through 10 systems and 90 consequences, the 21 vicious cycles that make it worse, the 33 actions that could break them, and the 14 kinds of institution that hold those levers. Every claim links to its source.\n\nCommon Shade is in beta, currently at beattheheat.asia. A group of organisations is helping shape it as a shared endeavour for protection from extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisatio"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/sitemap.xml": {
+      "get": {
+        "operationId": "getSitemapXml",
+        "summary": "every page",
+        "description": "every page. A plain static file: no key, no login.",
+        "tags": [
+          "guides"
+        ],
+        "responses": {
+          "200": {
+            "description": "The file.",
+            "content": {
+              "application/xml": {
+                "schema": {
+                  "type": "string"
+                },
+                "example": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url><loc>https://beattheheat.asia/</loc><lastmod>2026-11-13</lastmod><priority>1.0</priority></url>\n  <url><loc>https://beattheheat.asia/a-city-under-strain/</loc><lastmod>2026-11-13</lastmod><priority>0.8</priority></url>\n  <url><loc>https://beattheheat.asia/a-night-in-the-heat/</loc><lastmod>2026-11-13</lastmod><priority>0.8</priority></url>\n  <url><loc>https://beattheheat.asia/a-week-in-the-heat/</loc><lastmod>2026-11-13</lastmod><priority>0.8</priority></url>"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/sitemap.json": {
+      "get": {
+        "operationId": "getSitemapJson",
+        "summary": "every page, with the address of its Markdown twin and the date it last changed",
+        "description": "every page, with the address of its Markdown twin and the date it last changed. A plain static file: no key, no login.",
+        "tags": [
+          "data"
+        ],
+        "responses": {
+          "200": {
+            "description": "The file.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": [
+                    "object",
+                    "array"
+                  ]
+                },
+                "example": {
+                  "name": "Common Shade",
+                  "url": "https://beattheheat.asia/",
+                  "updated": "2026-11-13",
+                  "license": "CC BY 4.0"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/openapi.json": {
+      "get": {
+        "operationId": "getOpenapiJson",
+        "summary": "OpenAPI 3.1 description of the open files, with examples",
+        "description": "OpenAPI 3.1 description of the open files, with examples. A plain static file: no key, no login.",
+        "tags": [
+          "data"
+        ],
+        "responses": {
+          "200": {
+            "description": "The file.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": [
+                    "object",
+                    "array"
+                  ]
+                },
+                "example": {
+                  "openapi": "3.1.0",
+                  "servers": [
+                    {
+                      "url": "https://beattheheat.asia",
+                      "description": "Production (GitHub Pages)"
+                    }
+                  ],
+                  "security": [],
+                  "tags": [
+                    {
+                      "name": "data",
+                      "description": "Open JSON data"
+                    },
+                    {
+                      "name": "guides",
+                      "description": "Guides to the site for AI systems, and the sitemap"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/.well-known/ard.json": {
+      "get": {
+        "operationId": "getWellKnownArdJson",
+        "summary": "the agent directory: where each machine-readable file is",
+        "description": "the agent directory: where each machine-readable file is. A plain static file: no key, no login.",
+        "tags": [
+          "data"
+        ],
+        "responses": {
+          "200": {
+            "description": "The file.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": [
+                    "object",
+                    "array"
+                  ]
+                },
+                "example": {
+                  "version": "0.91",
+                  "name": "beattheheat.asia",
+                  "description": "Agent interface directory for Common Shade, a free evidence base on extreme heat in South and Southeast Asia. A static website: open files, no server API, no login.",
+                  "openapi": "https://beattheheat.asia/openapi.json",
+                  "llmstxt": "https://beattheheat.asia/llms.txt",
+                  "llms_full": "https://beattheheat.asia/llms-full.txt",
+                  "sitemap": "https://beattheheat.asia/sitemap.xml",
+                  "sitemap_json": "https://beattheheat.asia/sitemap.json",
+                  "api_catalog": "https://beattheheat.asia/.well-known/api-catalog",
+                  "for_ai": "https://beattheheat.asia/for-ai/",
+                  "record": "https://beattheheat.asia/for-ai.json",
+                  "feed": "https://beattheheat.asia/feed.xml",
+                  "agents_txt": "https://beattheheat.asia/agents.txt",
+                  "authentication": {
+                    "type": "none",
+                    "note": "Everything is open to read; see https://beattheheat.asia/auth.md"
+                  },
+                  "license": "CC BY 4.0",
+                  "terms": "https://beattheheat.asia/terms-of-use.md",
+                  "privacy": "https://beattheheat.asia/privacy/",
+                  "security": "https://beattheheat.asia/.well-known/security.txt"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/.well-known/api-catalog": {
+      "get": {
+        "operationId": "getWellKnownApiCatalog",
+        "summary": "API catalog (RFC 9727) pointing to the OpenAPI description",
+        "description": "API catalog (RFC 9727) pointing to the OpenAPI description. A plain static file: no key, no login.",
+        "tags": [
+          "data"
+        ],
+        "responses": {
+          "200": {
+            "description": "The file.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": [
+                    "object",
+                    "array"
+                  ]
+                },
+                "example": {
+                  "linkset": [
+                    {
+                      "anchor": "https://beattheheat.asia/.well-known/api-catalog",
+                      "service-desc": [
+                        {
+                          "href": "https://beattheheat.asia/openapi.json",
+                          "type": "application/vnd.oai.openapi+json"
+                        }
+                      ],
+                      "service-doc": [
+                        {
+                          "href": "https://beattheheat.asia/for-ai/",
+                          "type": "text/html"
+                        }
+                      ],
+                      "item": [
+                        {
+                          "href": "https://beattheheat.asia/openapi.json"
+                        }
+                      ]
+                    },
+                    {
+                      "anchor": "https://beattheheat.asia/openapi.json",
+                      "service-desc": [
+                        {
+                          "href": "https://beattheheat.asia/openapi.json",
+                          "type": "application/vnd.oai.openapi+json"
+                        }
+                      ],
+                      "service-doc": [
+                        {
+                          "href": "https://beattheheat.asia/for-ai/",
+                          "type": "text/html"
+                        },
+                        {
+                          "href": "https://beattheheat.asia/llms.txt",
+                          "type": "text/plain"
+                        }
+                      ],
+                      "status": [
+                        {
+                          "href": "https://beattheheat.asia/feed.xml",
+                          "type": "application/atom+xml"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/feed.xml": {
+      "get": {
+        "operationId": "getFeedXml",
+        "summary": "Atom feed of each reviewed change to the site",
+        "description": "Atom feed of each reviewed change to the site. A plain static file: no key, no login.",
+        "tags": [
+          "guides"
+        ],
+        "responses": {
+          "200": {
+            "description": "The file.",
+            "content": {
+              "application/xml": {
+                "schema": {
+                  "type": "string"
+                },
+                "example": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<feed xmlns=\"http://www.w3.org/2005/Atom\">\n  <title>What changed on Common Shade</title>\n  <subtitle>Each reviewed change to the free evidence base on extreme heat in South and Southeast Asia</subtitle>\n  <link href=\"https://beattheheat.asia/feed.xml\" rel=\"self\" type=\"application/atom+xml\"/>\n  <link href=\"https://beattheheat.asia/growing/\" rel=\"alternate\" type=\"text/html\"/>"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/agents.txt": {
+      "get": {
+        "operationId": "getAgentsTxt",
+        "summary": "what automated readers may do here",
+        "description": "what automated readers may do here. A plain static file: no key, no login.",
+        "tags": [
+          "guides"
+        ],
+        "responses": {
+          "200": {
+            "description": "The file.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                },
+                "example": "# Common Shade: what automated readers may do here.\n# Human-readable version: https://beattheheat.asia/for-ai/ · structured: https://beattheheat.asia/for-ai.json\n\nUser-agent: *\nAllow: /\nAuthentication: none"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/terms-of-use.md": {
+      "get": {
+        "operationId": "getTermsOfUseMd",
+        "summary": "terms of reuse in plain text",
+        "description": "terms of reuse in plain text. A plain static file: no key, no login.",
+        "tags": [
+          "guides"
+        ],
+        "responses": {
+          "200": {
+            "description": "The file.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                },
+                "example": "# Terms of use\n\nCommon Shade (https://beattheheat.asia) shares what it knows freely.\n\n- **Text, data and films:** CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Reuse them, including for search, answers and training, and credit Common Shade with a link.\n- **Code:** MIT licence."
+              }
+            }
+          }
+        }
+      }
+    },
+    "/index.md": {
+      "get": {
+        "operationId": "getIndexMd",
+        "summary": "a Markdown twin of every page: add index.md to a page's address (this is the home page's)",
+        "description": "a Markdown twin of every page: add index.md to a page's address (this is the home page's). A plain static file: no key, no login.",
+        "tags": [
+          "guides"
+        ],
+        "responses": {
+          "200": {
+            "description": "The file.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                },
+                "example": "---\ntitle: \"Extreme heat is a wicked problem | Common Shade\"\nurl: https://beattheheat.asia/\nupdated: 2026-11-13\nlicence: CC BY 4.0\n---"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/core/LOOPS.json": {
+      "get": {
+        "operationId": "getDataCoreLOOPSJson",
+        "summary": "the vicious cycles",
+        "description": "the vicious cycles. A plain static file: no key, no login.",
+        "tags": [
+          "data"
+        ],
+        "responses": {
+          "200": {
+            "description": "The file.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": [
+                    "object",
+                    "array"
+                  ]
+                },
+                "example": [
+                  {
+                    "id": "global",
+                    "group": "heat",
+                    "name": "The global cooling loop",
+                    "evidence": "established",
+                    "video": "media/loops/global.mp4",
+                    "length": "0:45",
+                    "path": [
+                      "heat",
+                      "energy",
+                      "demand",
+                      "emissions"
+                    ],
+                    "summary": "Cooling powered by fossil fuels adds to the warming that makes us need more cooling."
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/core/CONSEQUENCES.json": {
+      "get": {
+        "operationId": "getDataCoreCONSEQUENCESJson",
+        "summary": "the consequences of heat",
+        "description": "the consequences of heat. A plain static file: no key, no login.",
+        "tags": [
+          "data"
+        ],
+        "responses": {
+          "200": {
+            "description": "The file.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": [
+                    "object",
+                    "array"
+                  ]
+                },
+                "example": [
+                  {
+                    "id": "droughts",
+                    "sys": "nature",
+                    "label": "Droughts",
+                    "desc": "Higher temperatures speed up evaporation, so the same rain goes less far and dry spells turn into droughts.",
+                    "sources": [
+                      {
+                        "label": "IPCC, AR6 Working Group I, Summary for Policymakers, 2021",
+                        "url": "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM.pdf"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/core/LINKS.json": {
+      "get": {
+        "operationId": "getDataCoreLINKSJson",
+        "summary": "every link between consequences",
+        "description": "every link between consequences. A plain static file: no key, no login.",
+        "tags": [
+          "data"
+        ],
+        "responses": {
+          "200": {
+            "description": "The file.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": [
+                    "object",
+                    "array"
+                  ]
+                },
+                "example": [
+                  [
+                    "droughts",
+                    "wildfires",
+                    "Parched land and vegetation burn more easily."
+                  ]
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/core/LEVERS.json": {
+      "get": {
+        "operationId": "getDataCoreLEVERSJson",
+        "summary": "the actions that break cycles, with examples, watch-outs and sources",
+        "description": "the actions that break cycles, with examples, watch-outs and sources. A plain static file: no key, no login.",
+        "tags": [
+          "data"
+        ],
+        "responses": {
+          "200": {
+            "description": "The file.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": [
+                    "object",
+                    "array"
+                  ]
+                },
+                "example": [
+                  {
+                    "id": "emissions",
+                    "edge": [
+                      "heat",
+                      "nature"
+                    ],
+                    "title": "Deep emission cuts",
+                    "who": [
+                      "nat",
+                      "intl",
+                      "funders"
+                    ],
+                    "when": "decade",
+                    "measure": "Emissions cut against the national target",
+                    "text": "Every fraction of a degree avoided weakens every loop that runs through land, ice and forests at once. It also keeps more places within the limits to adaptation, where protecting people still works.",
+                    "example": "Across 2.7 million firms in 23 advanced economies, places used to heat coped better with days of 30–35 °C, but none had adapted to days above 40 °C. Each degree avoided keeps more days below that line.",
+                    "exampleSources": [
+                      {
+                        "label": "OECD Economics Department, Working Paper No. 1828, 2024",
+                        "url": "https://doi.org/10.1787/19d94638-en"
+                      }
+                    ],
+                    "guides": [
+                      {
+                        "by": "Intergovernmental Panel on Climate Change, 2023",
+                        "title": "AR6 Synthesis Report: Climate Change 2023",
+                        "url": "https://www.ipcc.ch/report/ar6/syr/"
+                      },
+                      {
+                        "by": "OECD Economics Department, 2024",
+                        "title": "The heat is on: Heat stress, productivity and adaptation among firms",
+                        "url": "https://doi.org/10.1787/19d94638-en"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/core/CITY_PROFILES.json": {
+      "get": {
+        "operationId": "getDataCoreCITYPROFILESJson",
+        "summary": "the city profiles",
+        "description": "the city profiles. A plain static file: no key, no login.",
+        "tags": [
+          "data"
+        ],
+        "responses": {
+          "200": {
+            "description": "The file.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": [
+                    "object",
+                    "array"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/core/HEATWAVES.json": {
+      "get": {
+        "operationId": "getDataCoreHEATWAVESJson",
+        "summary": "heatwaves from 1998 to 2026",
+        "description": "heatwaves from 1998 to 2026. A plain static file: no key, no login.",
+        "tags": [
+          "data"
+        ],
+        "responses": {
+          "200": {
+            "description": "The file.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": [
+                    "object",
+                    "array"
+                  ]
+                },
+                "example": [
+                  {
+                    "id": "odisha1998",
+                    "year": 1998,
+                    "when": "May 1998",
+                    "place": "Odisha, India",
+                    "title": "The heatwave that taught Odisha to plan",
+                    "peak": "Coastal Odisha, not known for extreme heat",
+                    "deaths": 2042,
+                    "toll": "2,042 deaths from heatstroke recorded by hospitals",
+                    "what": "Heat struck a coastal state with little past experience of extreme heat, and hospitals counted more than two thousand heatstroke deaths in a single month.",
+                    "changed": "Odisha wrote its first heat action plan in 1999. The next year, recorded heat deaths fell to 91.",
+                    "nodes": [
+                      "heatstroke",
+                      "deaths"
+                    ],
+                    "sources": [
+                      {
+                        "label": "Down To Earth: how to fight heat wave the Odisha way",
+                        "url": "https://www.downtoearth.org.in/environment/how-to-fight-heat-wave-the-odisha-way-49950"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/core/ORGANISATIONS.json": {
+      "get": {
+        "operationId": "getDataCoreORGANISATIONSJson",
+        "summary": "the organisations in the heat network",
+        "description": "the organisations in the heat network. A plain static file: no key, no login.",
+        "tags": [
+          "data"
+        ],
+        "responses": {
+          "200": {
+            "description": "The file.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": [
+                    "object",
+                    "array"
+                  ]
+                },
+                "example": [
+                  {
+                    "id": "ghhin",
+                    "role": "global",
+                    "name": "Global Heat Health Information Network (WHO, WMO and NOAA)",
+                    "url": "https://heathealth.info/resource-library/",
+                    "does": "A member-driven forum of scientists, practitioners and policymakers. Its resource library gathers guidance on heat warnings, heat action plans and case studies, heat at work and heat in cities.",
+                    "levers": [
+                      "hap",
+                      "readyclinics",
+                      "anticipatory",
+                      "heatrules",
+                      "coolingcentres"
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/core/GLOSSARY.json": {
+      "get": {
+        "operationId": "getDataCoreGLOSSARYJson",
+        "summary": "the glossary",
+        "description": "the glossary. A plain static file: no key, no login.",
+        "tags": [
+          "data"
+        ],
+        "responses": {
+          "200": {
+            "description": "The file.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": [
+                    "object",
+                    "array"
+                  ]
+                },
+                "example": [
+                  {
+                    "id": "heatstroke",
+                    "group": "body",
+                    "term": "Heatstroke",
+                    "match": "heatstroke",
+                    "video": "media/glossary/heatstroke.mp4",
+                    "length": "0:32",
+                    "text": "A medical emergency. The body’s core temperature rises above about 40 °C and its cooling system fails. Without fast cooling it can kill or cause lasting organ damage.",
+                    "source": {
+                      "label": "National Centre for Disease Control, India: heat-related illnesses",
+                      "url": "https://ncdc.mohfw.gov.in/uploads/pdf/6.%20Health%20Impact%20of%20Heat_Heat%20Related%20Illnesses.pdf"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/site/signals.json": {
+      "get": {
+        "operationId": "getDataSiteSignalsJson",
+        "summary": "announcements and commitments on heat, each on the ladder from announced to evaluated",
+        "description": "announcements and commitments on heat, each on the ladder from announced to evaluated. A plain static file: no key, no login.",
+        "tags": [
+          "data"
+        ],
+        "responses": {
+          "200": {
+            "description": "The file.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": [
+                    "object",
+                    "array"
+                  ]
+                },
+                "example": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/site/learning.json": {
+      "get": {
+        "operationId": "getDataSiteLearningJson",
+        "summary": "the learning agenda: questions the evidence has not yet answered",
+        "description": "the learning agenda: questions the evidence has not yet answered. A plain static file: no key, no login.",
+        "tags": [
+          "data"
+        ],
+        "responses": {
+          "200": {
+            "description": "The file.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": [
+                    "object",
+                    "array"
+                  ]
+                },
+                "example": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/schema/records.json": {
+      "get": {
+        "operationId": "getDataSchemaRecordsJson",
+        "summary": "the rules every record follows",
+        "description": "the rules every record follows. A plain static file: no key, no login.",
+        "tags": [
+          "data"
+        ],
+        "responses": {
+          "200": {
+            "description": "The file.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": [
+                    "object",
+                    "array"
+                  ]
+                },
+                "example": {
+                  "about": "The rules every knowledge-base record must follow (data/kb/*.json and each month's data/inbox/YYYY-MM/*.json). Checked by tools/check-data.js before anything is published."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/feeds/news.json": {
+      "get": {
+        "operationId": "getFeedsNewsJson",
+        "summary": "heat headlines from the region, refreshed every six hours",
+        "description": "heat headlines from the region, refreshed every six hours. A plain static file: no key, no login.",
+        "tags": [
+          "data"
+        ],
+        "responses": {
+          "200": {
+            "description": "The file.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": [
+                    "object",
+                    "array"
+                  ]
+                },
+                "example": {
+                  "updated": "2026-11-13T06:57:58.775Z",
+                  "keepDays": 14
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/research/india-hap-archive/India_HAP_Combined_Verified.json": {
+      "get": {
+        "operationId": "getResearchIndiaHapArchiveIndiaHAPCombinedVerifiedJson",
+        "summary": "the catalogue of verified India heat action plans",
+        "description": "the catalogue of verified India heat action plans. A plain static file: no key, no login.",
+        "tags": [
+          "data"
+        ],
+        "responses": {
+          "200": {
+            "description": "The file.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": [
+                    "object",
+                    "array"
+                  ]
+                },
+                "example": [
+                  {
+                    "id": "IN-GJ-CITY-AHMEDABAD-2016",
+                    "title": "Ahmedabad Heat Action Plan: Easy Read Version",
+                    "level": "city",
+                    "state": "Gujarat",
+                    "district_or_city": "Ahmedabad",
+                    "year": "2016",
+                    "language": "English",
+                    "publisher_agency": "Ahmedabad Municipal Corporation; NRDC; partners",
+                    "pdf_url": "https://www.nrdc.org/sites/default/files/ahmedabad-heat-action-plan-2016.pdf",
+                    "alternate_url": "",
+                    "landing_page": "",
+                    "archive_org_url": "",
+                    "file_type": "PDF",
+                    "approx_pages": "",
+                    "status": "verified",
+                    "notes": "HAP; checked 2026-11-01.",
+                    "document_type": "HAP",
+                    "verification_checked": "2026-11-01"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "externalDocs": {
+    "description": "For AI agents",
+    "url": "https://beattheheat.asia/for-ai/"
+  }
+}

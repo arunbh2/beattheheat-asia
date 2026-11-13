@@ -72,7 +72,7 @@
      ["/corrections/", "Corrections", "What we got wrong, and what we changed", 2]
     ] }
  ],
- "footer_extra": [["/guide/", "How to use this site"], ["/paths/", "Paths by role"], ["/join/", "Help build Common Shade"], ["/cite/", "Cite and reuse"], ["/approach/", "How we check facts"], ["/corrections/", "Corrections"], ["/llms-full.txt", "Everything as one text file"]],
+ "footer_extra": [["/guide/", "How to use this site"], ["/paths/", "Paths by role"], ["/join/", "Help build Common Shade"], ["/cite/", "Cite and reuse"], ["/approach/", "How we check facts"], ["/corrections/", "Corrections"], ["/privacy/", "Privacy and terms"], ["/llms-full.txt", "Everything as one text file"]],
  "names": {
   "/resources/": "Resources", "/resources/heat-action-plans/": "Heat action plans", "/resources/heat-action-plans/india/": "India",
   "/heat-economy/businesses/": "Businesses", "/heat-economy/money/": "Funders and funding", "/heat-economy/opportunities/": "Ideas", "/heat-economy/conditions/": "Questions to ask", "/heat-economy/flows/": "Follow the money",

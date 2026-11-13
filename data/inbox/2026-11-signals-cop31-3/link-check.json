@@ -1,0 +1,93 @@
+{
+ "_terms": {
+  "https://news.un.org/en/story/2026/11/1168763": {
+   "Antalya": true,
+   "Antalya Initiative": true,
+   "hospitals": true,
+   "temperatures": true
+  },
+  "https://cdn.who.int/media/docs/default-source/climate-change/who-cop31-cch-brief.pdf": {
+   "COP31": true,
+   "Antalya Initiative": true,
+   "voluntary": true,
+   "Dynamic and Resilient Health Systems": true,
+   "early warning": true
+  },
+  "https://www.who.int/teams/environment-climate-change-and-health/climate-change-and-health/advocacy-partnerships/talks/health-at-cop31": {
+   "COP31": true,
+   "Antalya Initiative": false,
+   "voluntary": false,
+   "Dynamic and Resilient Health Systems": true
+  },
+  "https://healthpolicy-watch.news/declarations-do-not-protect-people-cop31-opens-under-pressure-to-deliver-results-over-words/": {
+   "COP31": true,
+   "Antalya Initiative": true,
+   "voluntary": true,
+   "participation": true,
+   "Dynamic and Resilient Health Systems": false
+  },
+  "https://www.ifrc.org/sites/default/files/2026-10/IFRC%20COP31%20Call%20to%20Action.pdf": {
+   "COP31": true,
+   "35%": true,
+   "early warning": true,
+   "heat": true,
+   "35 per cent": false,
+   "anticipatory action": true,
+   "Cambodia": false,
+   "Barbados": true,
+   "Senegal": false
+  },
+  "https://www.ifrc.org/press-release/cop31-ifrc-calls-urgent-investment-protect-worlds-most-vulnerable": {
+   "COP31": false,
+   "35%": false,
+   "heat": false,
+   "early warning": false,
+   "anticipatory action": false
+  },
+  "https://www.unep.org/en/news-and-stories/press-release/world-heads-overshoot-15degc-adaptation-too-slow": {
+   "2035": true,
+   "Adaptation Gap Report": true,
+   "305 billion": true,
+   "28.2": true,
+   "31.7": true,
+   "tripl": true,
+   "20-29%": false
+  },
+  "https://www.eco-business.com/press-releases/as-world-heads-for-overshoot-of-15c-adaptation-is-too-slow/": {
+   "2035": true,
+   "Adaptation Gap Report": true,
+   "305 billion": true,
+   "28.2": true,
+   "31.7": true,
+   "tripl": true,
+   "20-29%": false
+  },
+  "https://sdg.iisd.org/news/growth-in-finance-insufficient-to-meet-needs-adaptation-gap-report-2026/": {
+   "305": false,
+   "2035": false,
+   "Adaptation Gap Report": false,
+   "305 billion": false,
+   "28.2": false,
+   "31.7": false,
+   "tripl": false,
+   "20-29%": false,
+   "20 to 29": false
+  },
+  "https://wmo.int/media/news/new-framework-and-toolkit-strengthens-extreme-heat-governance": {
+   "heat": true,
+   "Cambodia": true,
+   "Barbados": true,
+   "Senegal": true
+  }
+ },
+ "https://news.un.org/en/story/2026/11/1168763": "OK",
+ "https://cdn.who.int/media/docs/default-source/climate-change/who-cop31-cch-brief.pdf": "OK",
+ "https://www.who.int/teams/environment-climate-change-and-health/climate-change-and-health/advocacy-partnerships/talks/health-at-cop31": "OK",
+ "https://healthpolicy-watch.news/declarations-do-not-protect-people-cop31-opens-under-pressure-to-deliver-results-over-words/": "OK",
+ "https://www.ifrc.org/sites/default/files/2026-10/IFRC%20COP31%20Call%20to%20Action.pdf": "OK",
+ "https://www.ifrc.org/press-release/cop31-ifrc-calls-urgent-investment-protect-worlds-most-vulnerable": "BLOCKED",
+ "https://www.unep.org/en/news-and-stories/press-release/world-heads-overshoot-15degc-adaptation-too-slow": "OK",
+ "https://www.eco-business.com/press-releases/as-world-heads-for-overshoot-of-15c-adaptation-is-too-slow/": "OK",
+ "https://sdg.iisd.org/news/growth-in-finance-insufficient-to-meet-needs-adaptation-gap-report-2026/": "BLOCKED",
+ "https://wmo.int/media/news/new-framework-and-toolkit-strengthens-extreme-heat-governance": "OK"
+}

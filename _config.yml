@@ -1,0 +1,4 @@
+# GitHub Pages (Jekyll) leaves out folders that start with a dot unless told to include them.
+# /.well-known/ holds the site's agent directory, security.txt and API catalog.
+include:
+  - .well-known

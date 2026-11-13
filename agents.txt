@@ -1,0 +1,16 @@
+# Common Shade: what automated readers may do here.
+# Human-readable version: https://beattheheat.asia/for-ai/ · structured: https://beattheheat.asia/for-ai.json
+
+User-agent: *
+Allow: /
+Authentication: none
+Rate: please keep to a gentle pace (a few requests a second at most)
+Licence: CC BY 4.0, credit Common Shade and cite the original source of a figure
+Training: allowed
+Search: allowed
+Answers: allowed
+Actions: none offered (read-only; nothing to buy, submit or sign)
+Guides: https://beattheheat.asia/llms.txt
+OpenAPI: https://beattheheat.asia/openapi.json
+Catalog: https://beattheheat.asia/.well-known/ard.json
+Corrections: https://beattheheat.asia/corrections/

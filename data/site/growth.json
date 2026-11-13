@@ -415,6 +415,16 @@
       "pages": [["/for-ai/", "For AI agents"]], "action": ["Read the page for AI agents", "/for-ai/"],
       "links": [{ "to": "page:/approach/", "why": "The evidence labels and standards the page asks an assistant to pass on are explained there.", "basis": "editorial" },
                 { "to": "page:/cite/", "why": "How to cite the site, and where the open data is, is set out there.", "basis": "editorial" }]
+    },
+    {
+      "id": "g-agent-files", "kind": "tool", "root": "practical", "added": "2026-11-13", "pr": null,
+      "title": "Open files for the tools that read the web, and a privacy page",
+      "why": "Assistants and crawlers look for a site's files at standard addresses. Common Shade now publishes an agent directory, an OpenAPI description of its open data with examples, a change feed and a Markdown twin of every page, and says plainly on one page what it keeps and what it asks other services for.",
+      "places": ["region"], "people": [], "topics": [],
+      "event": { "what": "Files and page added", "date": "2026-11-13" },
+      "review": "Each file lists only what exists, and a check fails naming the path if one is missing; the privacy page restates what the site's code does, with nothing added",
+      "pages": [["/privacy/", "Privacy and terms"], ["/for-ai/", "For AI agents"]], "action": ["Read what the site keeps and shares", "/privacy/"],
+      "links": [{ "to": "page:/for-ai/", "why": "The page for AI agents lists the new files.", "basis": "editorial" }]
     }
   ]
 }

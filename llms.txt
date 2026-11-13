@@ -115,11 +115,11 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The pa
 
 ### The evidence
 
-- [2,285 sources](https://beattheheat.asia/sources/) cited, every one listed
+- [2,290 sources](https://beattheheat.asia/sources/) cited, every one listed
 - [71 studies graded](https://beattheheat.asia/evidence-map/) cycle by cycle, on the evidence map
 - [43 learning questions](https://beattheheat.asia/evidence-map/#questions) nobody has answered yet
 - [397 report references](https://beattheheat.asia/lancet-countdown-2026/) the Lancet Countdown 2026, in plain language
-- [149 news headlines](https://beattheheat.asia/news/) and 71 articles studied for how heat is reported
+- [154 news headlines](https://beattheheat.asia/news/) and 71 articles studied for how heat is reported
 
 ### What helps
 
@@ -132,3 +132,11 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The pa
 - [98 schemes](https://beattheheat.asia/paying-when-heat-strikes/) and 36 financial instruments, and whether they paid
 - [91 businesses](https://beattheheat.asia/heat-economy/) and 77 funders in the heat economy
 - [334 organisations](https://beattheheat.asia/heat-network/) mapped, each with a profile
+
+## Machine-readable files
+
+- [OpenAPI description of the open files](https://beattheheat.asia/openapi.json)
+- [Agent directory](https://beattheheat.asia/.well-known/ard.json) and [API catalog](https://beattheheat.asia/.well-known/api-catalog)
+- [Atom feed of changes](https://beattheheat.asia/feed.xml), [JSON sitemap](https://beattheheat.asia/sitemap.json), [agents.txt](https://beattheheat.asia/agents.txt)
+- A Markdown twin of every page: add index.md to its address, for example https://beattheheat.asia/for-ai/index.md
+- [Privacy and terms](https://beattheheat.asia/privacy/), [terms-of-use.md](https://beattheheat.asia/terms-of-use.md), [auth.md](https://beattheheat.asia/auth.md)
