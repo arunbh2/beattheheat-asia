@@ -97,6 +97,12 @@
       "skillPath": "skills/prototype/SKILL.md",
       "computedHash": "00fb13a91dbb746e2be91ae4dd67c4cc1f9907351f2d404a0cc6c849be1ebd95"
     },
+    "refero-design": {
+      "source": "referodesign/refero_skill",
+      "sourceType": "github",
+      "skillPath": "skills/refero-design/SKILL.md",
+      "computedHash": "5145ad0b1ccd208465dcbc1127da5e0f2eb77ced9a1e5ee8e1c57eed400c0ace"
+    },
     "remove-animations": {
       "source": "emilkowalski/skills",
       "sourceType": "github",
