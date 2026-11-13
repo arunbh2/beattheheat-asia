@@ -58,6 +58,7 @@ Every decision elevates the reader's experience (UX), the maintainer's experienc
 ## Code and data conventions
 - Page scripts are IIFEs with "use strict". Builders pass their data in as `window.X` JSON. With no JavaScript, the page still shows its content.
 - Reuse the existing classes (`pg-hero`, `hub-*`, `sol-bar`, `lv-*`) and colour tokens (`--ink`, `--orange`, `--ember`, `--line`). Match the visual style.
+- **The site's own visual style decides.** Design skills (Refero, Emil Kowalski's set and others in `.claude/skills/`) advise on craft. They never override the site's existing classes, colour tokens, type, layout patterns or voice, and outside references never replace them. Where a skill and the site's style differ, the site's style wins.
 - IDs are stable and never renumbered. Each source has a label or title and a url.
 - Every data widget handles loading, no network, error and empty states. Add a check for any calculation or import.
 - A lever can carry `watch`: documented side effects, each with sources. They show as "Watch for" on the map, on /actions/ and in llms-full.txt, and `build-data.js --check` checks their format. Research batches that deepen the map use the pattern in `research/2026-11/gap-lenses/`: a patch file per batch, `audit.js` to check every number against its checked source, and `apply.js`, which refuses unconfirmed sources, missing ids and duplicates.
