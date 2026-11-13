@@ -610,6 +610,7 @@ require("./build-visibility.js")({ page, write, esc, hero, V, D });
 require("./build-social-protection.js")({ page, write, esc, hero, V, D });
 require("./build-growing.js")({ page, write, esc, hero, V });
 require("./build-signals.js")({ page, write, esc, hero, V });
+require("./build-heat-tools.js")({ page, write, esc, hero, V, D });   // before build-for-ai, which lists /heat-tools/
 require("./build-use-with-ai.js").page({ page, write, esc, hero, D });
 require("./build-for-ai.js")({ page, write, esc, hero, V, D, ROOT });
 require("./build-privacy.js")({ page, write, esc, hero });

@@ -1,0 +1,150 @@
+/* /heat-tools/: the Heat Tool Finder's own styles (built by tools/build-heat-tools.js), so no other page carries them.
+   Warm paper, charcoal text, restrained orange; the site's tokens throughout. No maps, gauges or counters. */
+.ht-wrap { padding-top: 20px; padding-bottom: 72px; }
+.ht-p { max-width: 46rem; }
+.ht-small { font-size: var(--fs-14); color: var(--grey-700); }
+.ht-note { max-width: 50rem; margin: 0 0 24px; padding: 12px 16px; border-left: 4px solid var(--orange); background: var(--sand-50); font-size: .95rem; }
+.ht-h2 { font-family: var(--font-display); font-weight: 400; font-size: clamp(1.6rem, 1.2rem + 1.8vw, 2.4rem); line-height: 1.05; text-transform: uppercase; margin: 0 0 12px; }
+.ht-h3 { font-size: 1.2rem; margin: 0 0 8px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+.ht-sec { margin-top: 48px; scroll-margin-top: calc(var(--header-h) + 24px); }
+.ht-h2:focus { outline: none; }
+
+/* the form */
+.ht-form { display: grid; gap: 16px; margin: 0 0 20px; padding: 18px; background: var(--white); border: 1px solid var(--line); border-radius: var(--r-md); box-shadow: var(--shadow-1); }
+.ht-fs { border: 0; margin: 0; padding: 0; min-width: 0; }
+.ht-fs legend { font-weight: 700; font-size: .95rem; margin-bottom: 8px; padding: 0; }
+.ht-legend { font-size: 1.1rem !important; }
+.ht-opts { display: flex; flex-wrap: wrap; gap: 6px 14px; }
+.ht-opt { display: inline-flex; align-items: center; gap: 8px; min-height: 32px; font-size: .95rem; cursor: pointer; }
+.ht-opt input { width: 18px; height: 18px; accent-color: var(--ember); margin: 0; flex: none; }
+.ht-opts--chips { gap: 8px; }
+.ht-opts--chips .ht-opt { padding: 6px 12px; border: 1.5px solid var(--line); border-radius: 999px; background: var(--canvas); font-weight: 600; min-height: 40px; }
+.ht-opts--chips .ht-opt:has(input:checked) { border-color: var(--ember); background: var(--ember-50); }
+.ht-opts--chips .ht-opt:focus-within { outline: 3px solid var(--orange); outline-offset: 2px; }
+.ht-row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2fr) minmax(0, 1fr); gap: 12px; }
+.ht-field { display: grid; gap: 4px; font-weight: 700; font-size: .9rem; }
+.ht-field select, .ht-field input { font: inherit; font-weight: 400; font-size: 1rem; min-height: 44px; padding: 8px 10px; border: 1.5px solid #B9AE9F; border-radius: var(--r-sm); background: var(--white); color: var(--ink); width: 100%; box-sizing: border-box; }
+.ht-field select:focus, .ht-field input:focus { outline: 3px solid var(--orange); outline-offset: 1px; border-color: var(--ink); }
+.ht-more summary { cursor: pointer; font-weight: 700; min-height: 40px; display: inline-flex; align-items: center; color: var(--ember-deep); }
+.ht-more__in { display: grid; gap: 16px; padding-top: 12px; }
+.ht-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 8px 16px; border-radius: 999px; border: 2px solid var(--ink); background: var(--ink); color: var(--white); font: inherit; font-weight: 700; text-decoration: none; cursor: pointer; }
+.ht-btn:hover { background: var(--ember-deep); border-color: var(--ember-deep); color: var(--white); }
+.ht-btn--quiet { background: transparent; color: var(--ink); }
+.ht-btn--quiet:hover { background: var(--sand); color: var(--ink); border-color: var(--ink); }
+.ht-btn:focus-visible, .ht-chip:focus-visible, .ht-card a:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
+#ht-more-done { justify-self: start; }
+
+/* status and chips */
+.ht-status { margin: 0 0 8px; }
+.ht-count { font-weight: 700; margin: 0 0 8px; }
+.ht-chips { list-style: none; margin: 0 0 8px; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.ht-chip { font: inherit; font-size: var(--fs-14); font-weight: 600; min-height: 32px; padding: 4px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--sand-100); color: var(--ink); cursor: pointer; }
+.ht-chip:hover { border-color: var(--ember); }
+.ht-chip--all { background: transparent; text-decoration: underline; text-underline-offset: 3px; }
+
+/* groups and cards */
+.ht-group { margin-top: 28px; }
+.ht-group__h { font-size: 1.15rem; margin: 0 0 2px; display: flex; align-items: baseline; gap: 8px; }
+.ht-group__n { font-size: var(--fs-12); font-weight: 700; color: var(--grey-700); background: var(--sand-100); border-radius: 999px; padding: 1px 8px; }
+.ht-group__note { margin: 0 0 12px; color: var(--grey-700); font-size: .92rem; max-width: 46rem; }
+.ht-group--cs { padding-top: 20px; border-top: 3px solid var(--break); }
+.ht-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); gap: 14px; }
+.ht-card { display: flex; flex-direction: column; gap: 6px; padding: 16px; background: var(--white); border: 1px solid var(--line); border-radius: var(--r-md); box-shadow: var(--shadow-1); min-width: 0; }
+.ht-card--caution { border: 2px dashed var(--ember); }
+.ht-card p { margin: 0; }
+.ht-card__meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 0 0 4px; }
+.ht-type { font-size: var(--fs-12); font-weight: 800; letter-spacing: .04em; text-transform: uppercase; color: var(--ember-deep); }
+.ht-badge { display: inline-block; font-size: var(--fs-12); font-weight: 700; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--line); background: var(--canvas); }
+.ht-badge--provisional { background: #FFF0D6; border-color: var(--amber); }
+.ht-badge--caution { background: var(--ember-50); border-color: var(--ember); color: var(--ember-deep); }
+.ht-badge--stale { background: #EFEFEF; border-color: #999; }
+.ht-card__h { font-size: 1.1rem; line-height: 1.25; margin: 0; overflow-wrap: anywhere; }
+.ht-card__h a { color: var(--ink); text-decoration: none; }
+.ht-card__h a:hover { text-decoration: underline; text-decoration-color: var(--orange); }
+.ht-card__prov { color: var(--grey-700); font-size: .92rem; }
+.ht-card__sum, .ht-card__where { font-size: .95rem; }
+.ht-card__where { color: var(--grey-700); }
+.ht-card__limit { font-size: .92rem; padding: 8px 10px; background: var(--sand-50); border-left: 3px solid var(--ember); border-radius: 0 6px 6px 0; }
+.ht-card__rev { font-size: var(--fs-12); color: var(--grey-700); }
+.ht-card__acts { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; margin-top: auto; padding-top: 6px; }
+.ht-card__go { font-weight: 700; color: var(--ink); text-decoration-color: var(--orange); text-underline-offset: 3px; min-height: 32px; display: inline-flex; align-items: center; }
+.ht-cmp { display: inline-flex; align-items: center; gap: 8px; min-height: 32px; font-weight: 600; font-size: .95rem; cursor: pointer; }
+.ht-cmp input { width: 20px; height: 20px; accent-color: var(--ember); margin: 0; }
+.ht-gap, .ht-empty { margin: 20px 0 0; padding: 14px 16px; border: 1px solid var(--line); border-radius: var(--r-md); background: var(--sand-50); max-width: 50rem; }
+.ht-empty ul { list-style: none; padding: 0; margin: 8px 0; display: grid; gap: 6px; }
+
+/* comparison */
+.ht-table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--r-md); background: var(--white); }
+.ht-table { border-collapse: collapse; width: 100%; min-width: 640px; font-size: .92rem; }
+.ht-table th, .ht-table td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+.ht-table thead th { background: var(--sand-100); font-size: 1rem; }
+.ht-table thead th .ht-small { display: block; font-weight: 400; }
+.ht-table tbody th { position: sticky; left: 0; background: var(--sand-50); width: 12rem; font-size: .85rem; z-index: 1; }
+.ht-table tr.is-limit td, .ht-stack .is-limit dd { background: #FDF3EC; }
+.ht-stack { display: none; }
+.ht-stack__jump a, .ht-steps a, .ht-srcs a, .ht-next a { color: var(--ink); text-decoration-color: var(--orange); text-underline-offset: 3px; }
+.ht-stack__card { margin-top: 14px; padding: 14px; background: var(--white); border: 1px solid var(--line); border-radius: var(--r-md); scroll-margin-top: calc(var(--header-h) + 16px); }
+.ht-stack__card h3 { margin: 0; font-size: 1.1rem; }
+.ht-cmp-acts { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 16px; }
+.ht-print { display: none; }
+.ht-dl { display: grid; gap: 8px 16px; margin: 4px 0 8px; }
+.ht-dl > div { display: grid; grid-template-columns: minmax(0, 13rem) minmax(0, 1fr); gap: 4px 16px; }
+.ht-dl dt { font-weight: 700; font-size: .92rem; }
+.ht-dl dd { margin: 0; }
+
+/* the shortlist bar: sticks to the bottom, and the page gains matching space so it never hides content or focus */
+.ht-bar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 40; background: var(--ink); color: var(--white); box-shadow: 0 -8px 24px rgba(22,32,43,.25); }
+.ht-bar.is-empty { background: none; box-shadow: none; height: 0; overflow: hidden; }
+.ht-bar__in { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; padding-top: 10px; padding-bottom: 10px; }
+.ht-bar__t { margin: 0; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.ht-bar__acts { margin: 0; display: flex; gap: 8px; align-items: center; }
+.ht-bar .ht-chip { background: rgba(255,255,255,.12); color: var(--white); border-color: rgba(255,255,255,.3); }
+.ht-bar .ht-btn { background: var(--orange); border-color: var(--orange); color: var(--ink); }
+.ht-bar .ht-btn--quiet { background: transparent; color: var(--white); border-color: rgba(255,255,255,.6); }
+.ht-bar .ht-small { color: #D8D2C8; }
+
+/* workflows */
+.ht-paths { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 16px; }
+.ht-path { padding: 18px; background: var(--white); border: 1px solid var(--line); border-top: 4px solid var(--break); border-radius: var(--r-md); scroll-margin-top: calc(var(--header-h) + 16px); }
+.ht-path:target { box-shadow: 0 0 0 3px var(--orange); }
+.ht-path__kind { margin: 0; font-size: var(--fs-12); font-weight: 800; text-transform: uppercase; letter-spacing: .04em; color: var(--break-deep); }
+.ht-path__h { margin: 4px 0 10px; font-size: 1.15rem; }
+.ht-steps { margin: 0; padding-left: 1.3rem; display: grid; gap: 12px; }
+.ht-steps p { margin: 0; font-size: .93rem; }
+.ht-step__tools { font-weight: 700; }
+.ht-step__open { color: var(--grey-700); }
+.ht-path__acts { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin: 14px 0 0; font-size: .95rem; }
+.ht-copy { font: inherit; font-size: .9rem; background: none; border: 0; padding: 4px 0; text-decoration: underline; cursor: pointer; color: var(--ink); min-height: 32px; }
+
+/* profile pages */
+.ht-banner { max-width: 50rem; padding: 12px 16px; border-radius: var(--r-sm); background: var(--sand-50); border: 1px solid var(--line); }
+.ht-banner--caution { background: var(--ember-50); border: 2px solid var(--ember); }
+.ht-banner--provisional { background: #FFF6DF; border-color: var(--amber); }
+.ht-limit-lg { max-width: 50rem; font-size: 1.05rem; padding: 12px 16px; background: var(--sand-50); border-left: 4px solid var(--ember); }
+.ht-prof__acts { display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0 0; }
+.ht-prof .ht-sec { margin-top: 32px; max-width: 54rem; }
+.ht-srcs { padding-left: 1.2rem; display: grid; gap: 8px; }
+.ht-next { padding: 16px; background: var(--break-50); border-radius: var(--r-md); }
+.ht-next .ht-h3 { border-color: rgba(23,112,58,.25); }
+
+@media (max-width: 760px) {
+  .ht-row { grid-template-columns: minmax(0, 1fr); }
+  .ht-form { padding: 14px; }
+  .ht-table-wrap { display: none; }
+  .ht-stack { display: block; }
+  .ht-dl > div { grid-template-columns: minmax(0, 1fr); }
+  .ht-bar__in { padding-top: 8px; padding-bottom: 8px; }
+  .ht-bar__t .ht-chip { display: none; }   /* on a phone the bar stays one row; each card's Compare box removes */
+  .ht-bar__in { flex-wrap: nowrap; }
+  .ht-bar .ht-btn { min-height: 40px; padding: 6px 14px; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto !important; } }
+
+/* print: only the shortlist, with source addresses, limits and review dates */
+@media print {
+  body.cs-pg > *:not(main), .csn, .ht-bar, .ht-form, .ht-status, .ht-results, #pathways, .ht-about, .ht-note, .pg-hero, .ht-table-wrap, .ht-stack, .ht-cmp-acts, .wkp-foot { display: none !important; }
+  #compare[hidden] { display: none !important; }
+  .ht-print { display: block; font-size: 11pt; }
+  .ht-print section { break-inside: avoid; margin-bottom: 12pt; }
+  body { padding: 0 !important; }
+}

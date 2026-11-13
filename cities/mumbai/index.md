@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in Mumbai: plans, cycles and who is at work | Common Shade"
 url: https://beattheheat.asia/cities/mumbai/
-updated: 2026-11-06
+updated: 2026-11-13
 licence: CC BY 4.0
 ---
 
@@ -75,6 +75,8 @@ Listing does not imply partnership, affiliation or endorsement.
 ## The national picture
 
 Plans and law, warnings, rules for heat at work, cooling, money and other cities in India: [the India country snapshot](https://beattheheat.asia/countries/india/).
+
+**Find tools for this decision.** Official warnings, heat risk and cooler places in India: compare the tools that cover it, each with its limits. [Heat Tool Finder](https://beattheheat.asia/heat-tools/?country=IN)
 
 ---
 Human edition: https://beattheheat.asia/cities/mumbai/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

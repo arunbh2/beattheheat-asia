@@ -5,7 +5,7 @@ updated: 2026-11-13
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 42 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 43 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-42 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 3 connections documented and 3 questions opened. Beneath them, 1,084 works the commons draws on carry a publication date, and 807 are still being dated.
+43 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 3 connections documented and 3 questions opened. Beneath them, 1,084 works the commons draws on carry a publication date, and 807 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -122,6 +122,27 @@ How AI is used to build the site is set out on the approach page.
 [Get an evidence pack](https://beattheheat.asia/use-with-ai/)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Evidence%20packs%20to%20use%20with%20your%20own%20AI&ref=g-use-with-ai#way-share)
+
+Tool improved · Practical measures
+
+### A Heat Tool Finder: which tool fits the decision in front of you
+
+Added 13 November 2026 · Section added 13 November 2026
+
+Why it matters our readingPeople who plan, deliver or fund heat protection often know a decision but not the tool for it. The finder sets warning services, assessments, datasets, modelling tools and guidance side by side, with what each needs, what it gives and what it cannot tell you, and three illustrative workflows that combine them.
+
+- South and Southeast Asia
+
+ReviewA researched starter catalogue: each record says how far its source was reviewed, nothing is ranked or presented as tested, links were checked on GitHub, and a check holds the filters to the catalogue's own policy.
+
+How it connects
+
+- [Plan](https://beattheheat.asia/plan/) Page · our reading
+Each tool profile ends with a next step in Common Shade's own workbench, such as Plan a response.
+
+[Find a heat tool](https://beattheheat.asia/heat-tools/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=A%20Heat%20Tool%20Finder%3A%20which%20tool%20fits%20the%20decision%20in%20front%20of%20you&ref=g-heat-tools#way-share)
 
 Tool improved · Practical measures
 
