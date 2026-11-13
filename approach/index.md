@@ -1,7 +1,7 @@
 ---
 title: "How Common Shade sees heat"
 url: https://beattheheat.asia/approach/
-updated: 2026-11-07
+updated: 2026-11-13
 licence: CC BY 4.0
 ---
 
@@ -73,6 +73,28 @@ Where the research found nothing, the site says so plainly. A gap describes what
 - **Listing is not endorsement**Organisations, businesses and funders appear because of their published work, not as partners, and never in order of merit.
 - **Checked before publishing**New research passes seven checks before it appears: structure, sourcing, evidence, tone, a reviewer’s note, consistency with what is already published, and a test of every page.
 - **Kept current, with history**The knowledge base is updated monthly. Older figures are marked as superseded, not deleted, so changes can be traced.
+
+## How AI is used on Common Shade
+
+Common Shade is built with the help of AI. This is what it does here, what it is never allowed to do, and who checks its work.
+
+- **Builds and maintains the site**An AI coding assistant (Claude Code, made by Anthropic) writes most of the scripts that build the pages, the page code and the checks, working in the site's open repository. Every change to pages and data goes through a pull request that has to pass the site's automated checks. The site owner decides what is worked on and approves what is published; the assistant merges on that approval.
+- **Researches and drafts**It searches for sources, reads documents the site owner shares, and drafts page text and data records from them. Drafts are written in the site's own careful voice, and every factual line names its source.
+- **Prepares the checks, but does not do the checking**Sources are checked by plain scripts on GitHub, not by AI: they open each page or PDF and look for the exact words a claim rests on. A claim whose words are not found is dropped and listed, never published. Each research set keeps its dropped list.
+- **Gives the films a voice**Narration uses a synthetic voice (Piper, with a LibriTTS voice under CC BY 4.0). Films made with the site's own renderer draw every scene in code, with faceless figures. Earlier background footage generated with AI was replaced by drawings made in code.
+
+### What AI is never allowed to do here
+
+- Invent a statistic, study, quote, link or source.
+- Present an illustrative number as measured, or a projection as a fact.
+- Create a person: no invented names, quotes or faces, and no synthetic people standing in for real ones.
+- Publish without the source check and the site owner's approval.
+- Rank countries, cities or organisations.
+- Run on the site for visitors: there is no chatbot, and nothing a visitor types or chooses is sent to an AI service.
+
+AI can still be wrong. The source check confirms that a source contains the words a claim rests on, not that the claim is the best reading of it. That is why every claim links to its source, evidence is labelled known, inferred or uncertain, and corrections are made in the open. [Corrections](https://beattheheat.asia/corrections/) · [All sources](https://beattheheat.asia/sources/)
+
+AI systems that read the site on someone's behalf have their own page, with how to cite it and what to avoid. [For AI agents](https://beattheheat.asia/for-ai/)
 
 ## An open collaborative
 

@@ -5666,7 +5666,7 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 
 https://beattheheat.asia/growing/
 
-See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 40 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
+See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 41 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
 
 ### How the work behind the commons grew
 
@@ -5685,6 +5685,8 @@ Dated by the publication date of the work Common Shade draws on (1084 of 1909 wo
 - Evidence added: COP31, first check-in: health, early warning and money. Added 13 November 2026 · COP31 Health Day 9 November 2026. Why it matters (our reading): In COP31's first days, heat surfaced through a voluntary health initiative, the presidency's health theme, IFRC's finding on early warning and UNEP's adaptation finance gap, rather than through negotiating text. Each was verified at its primary source before joining the COP31 watch, and the watch now says plainly what it has not found yet. What the source says: "only 35% of countries have reported having health early warning systems for heat-related illness" (International Federation of Red Cross and Red Crescent Societies: IFRC COP31 Call to Action, 2026 https://www.ifrc.org/sites/default/files/2026-10/IFRC%20COP31%20Call%20to%20Action.pdf) Places: South and Southeast Asia. Topics: Anticipatory action, Dedicated heat budgets. Review: Ten claims staged and all ten passed the GitHub check at WHO, IFRC, UNEP, WMO, UN News and Health Policy Watch; two drafts reworded to match their sources; the cooling pledge, a named official's statement and civil-society asks set aside as not COP31 commitments. Next: Read the COP31 watch https://beattheheat.asia/signals/#cop31. Connections: Anticipatory action (from the site's records): IFRC's finding is about early warning that reaches health services. What it took to add this: The question: What has COP31 said about heat so far, confirmed at the source? 10 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 8 confirmed, and 2 could not be (2 blocked automated reading). 0 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: Whether any South or Southeast Asian government makes a heat commitment at COP31.
 
 - Tool improved: A line for AI agents under the homepage's opening. Added 13 November 2026 · Homepage line added 13 November 2026. Why it matters (our reading): Assistants that read the homepage for someone now meet a short, quiet pointer to the page written for them near the top, as well as in the footer, so the guidance on citing sources and passing on evidence labels is easier to find. Places: South and Southeast Asia. Review: One line in the hero's own small type; no new script, the pop-ups untouched and the homepage weight unchanged. Next: Read the page for AI agents https://beattheheat.asia/for-ai/. Connections: For ai (our reading): The line points to the page for AI agents.
+
+- Tool improved: How AI is used on Common Shade, stated plainly. Added 13 November 2026 · Section added 13 November 2026. Why it matters (our reading): Readers deserve to know how a site that asks them to trust its sources is made. The approach page now says what AI does in building Common Shade, what it is never allowed to do, who approves what is published, and where its limits are. Places: South and Southeast Asia. Review: Written from what the repository actually does: AI drafts and builds, plain scripts check sources, the site owner approves; nothing on the site sends visitor input to an AI service. Next: Read how AI is used here https://beattheheat.asia/approach/#ai. Connections: For ai (our reading): AI systems that read the site have their own page.
 
 - Tool improved: Open files for the tools that read the web, and a privacy page. Added 13 November 2026 · Files and page added 13 November 2026. Why it matters (our reading): Assistants and crawlers look for a site's files at standard addresses. Common Shade now publishes an agent directory, an OpenAPI description of its open data with examples, a change feed and a Markdown twin of every page, and says plainly on one page what it keeps and what it asks other services for. Places: South and Southeast Asia. Review: Each file lists only what exists, and a check fails naming the path if one is missing; the privacy page restates what the site's code does, with nothing added. Next: Read what the site keeps and shares https://beattheheat.asia/privacy/. Connections: For ai (our reading): The page for AI agents lists the new files.
 
@@ -5919,6 +5921,38 @@ What we have restates the limits the cited studies give themselves; what could a
 - Does pay-per-use cold storage cut food losses and leave producers better off after fees? [open; open 2026-11-07] What we have: A pilot in Muzaffarpur, India, offered pay-per-use storage; its outcomes have not been independently checked. What could answer it: Phase access in with comparison producers, temperature logs and accounts of what producers earn after fees. Scale: Illustrative: a few hundred producers at four markets over two harvests
 
 - How long does protection last after people leave a cooling space? [open; open 2026-11-07] What we have: A review found only short-lived benefits in simulations and no real-world health outcomes for users. What could answer it: Follow consenting users and similar non-users through the rest of hot days, measuring exposure and health. Scale: Illustrative: about 150 people over six hot weeks
+
+## How AI is used on Common Shade
+
+https://beattheheat.asia/approach/#ai
+
+Common Shade is built with the help of AI. This is what it does here, what it is never allowed to do, and who checks its work.
+
+- Builds and maintains the site: An AI coding assistant (Claude Code, made by Anthropic) writes most of the scripts that build the pages, the page code and the checks, working in the site's open repository. Every change to pages and data goes through a pull request that has to pass the site's automated checks. The site owner decides what is worked on and approves what is published; the assistant merges on that approval.
+
+- Researches and drafts: It searches for sources, reads documents the site owner shares, and drafts page text and data records from them. Drafts are written in the site's own careful voice, and every factual line names its source.
+
+- Prepares the checks, but does not do the checking: Sources are checked by plain scripts on GitHub, not by AI: they open each page or PDF and look for the exact words a claim rests on. A claim whose words are not found is dropped and listed, never published. Each research set keeps its dropped list.
+
+- Gives the films a voice: Narration uses a synthetic voice (Piper, with a LibriTTS voice under CC BY 4.0). Films made with the site's own renderer draw every scene in code, with faceless figures. Earlier background footage generated with AI was replaced by drawings made in code.
+
+What AI is never allowed to do here:
+
+- Invent a statistic, study, quote, link or source.
+
+- Present an illustrative number as measured, or a projection as a fact.
+
+- Create a person: no invented names, quotes or faces, and no synthetic people standing in for real ones.
+
+- Publish without the source check and the site owner's approval.
+
+- Rank countries, cities or organisations.
+
+- Run on the site for visitors: there is no chatbot, and nothing a visitor types or chooses is sent to an AI service.
+
+AI can still be wrong. The source check confirms that a source contains the words a claim rests on, not that the claim is the best reading of it. That is why every claim links to its source, evidence is labelled known, inferred or uncertain, and corrections are made in the open.
+
+AI systems that read the site on someone's behalf have their own page, with how to cite it and what to avoid. https://beattheheat.asia/for-ai/
 
 ## For AI agents
 
