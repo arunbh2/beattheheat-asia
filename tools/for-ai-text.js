@@ -19,6 +19,7 @@ const WHEN = [
   ["who could pay for protection, and how others have paid", "Paying for protection", "/finance/"],
   ["a heat action plan in India", "India heat action plan archive", "/resources/heat-action-plans/india/"],
   ["which way heat policy and funding are moving", "Signals", "/signals/"],
+  ["which heat tool, dataset or warning service fits a decision, and its limits", "Heat Tool Finder", "/heat-tools/"],
   ["planning a response with a team", "Plan a response", "/plan/"]
 ];
 // the open data, as plain files: [path, what it is, format]
@@ -46,6 +47,7 @@ const ENDPOINTS = [
   ["/data/core/ORGANISATIONS.json", "the organisations in the heat network", "JSON"],
   ["/data/core/GLOSSARY.json", "the glossary", "JSON"],
   ["/data/site/signals.json", "announcements and commitments on heat, each on the ladder from announced to evaluated", "JSON"],
+  ["/data/heat-tools/catalogue.json", "the Heat Tool Finder catalogue: tools, datasets and warning services with their inputs, outputs, limits and review depth (never ranked)", "JSON"],
   ["/data/site/learning.json", "the learning agenda: questions the evidence has not yet answered", "JSON"],
   ["/data/schema/records.json", "the rules every record follows", "JSON"],
   ["/feeds/news.json", "heat headlines from the region, refreshed every six hours", "JSON"],

@@ -15,6 +15,13 @@
     <summary>Assistants and crawlers look for a site's files at standard addresses. Common Shade now publishes an agent directory, an OpenAPI description of its open data with examples, a change feed and a Markdown twin of every page, and says plainly on one page what it keeps and what it asks other services for.</summary>
   </entry>
   <entry>
+    <title>A Heat Tool Finder: which tool fits the decision in front of you</title>
+    <link href="https://beattheheat.asia/growing/#g-heat-tools" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-heat-tools</id>
+    <updated>2026-11-13T00:00:00Z</updated>
+    <summary>People who plan, deliver or fund heat protection often know a decision but not the tool for it. The finder sets warning services, assessments, datasets, modelling tools and guidance side by side, with what each needs, what it gives and what it cannot tell you, and three illustrative workflows that combine them.</summary>
+  </entry>
+  <entry>
     <title>A page for the AI agents that read the site</title>
     <link href="https://beattheheat.asia/growing/#g-for-ai" rel="alternate" type="text/html"/>
     <id>https://beattheheat.asia/growing/#g-for-ai</id>
@@ -209,12 +216,5 @@
     <id>https://beattheheat.asia/growing/#g-question-pilots</id>
     <updated>2026-10-31T00:00:00Z</updated>
     <summary>Protection that stops when a grant stops leaves people exposed again. Asking the question openly invites the people who have seen it happen to share what worked.</summary>
-  </entry>
-  <entry>
-    <title>Atlas of Asia's heat: heatwaves since 1998 and the plans that followed</title>
-    <link href="https://beattheheat.asia/growing/#g-atlas" rel="alternate" type="text/html"/>
-    <id>https://beattheheat.asia/growing/#g-atlas</id>
-    <updated>2026-10-31T00:00:00Z</updated>
-    <summary>Placing heatwaves and the plans that came after them on one map shows how protection has followed experience, place by place.</summary>
   </entry>
 </feed>

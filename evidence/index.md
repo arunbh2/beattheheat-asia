@@ -1,7 +1,7 @@
 ---
 title: "News and evidence"
 url: https://beattheheat.asia/evidence/
-updated: 2026-11-11
+updated: 2026-11-13
 licence: CC BY 4.0
 ---
 
@@ -34,6 +34,7 @@ What the evidence says, how sure we are, and where every claim comes from.
 - [For AI agentsA page for assistants: when to point your human here, how to cite it, and the machine-readable record](https://beattheheat.asia/for-ai/)
 - [Cite and reuseHow to cite the site and reuse its data](https://beattheheat.asia/cite/)
 - [CorrectionsWhat we got wrong, and what we changed](https://beattheheat.asia/corrections/)
+- [Heat tools, comparedWarning services, datasets and assessments side by side, with how far each was reviewed (in Act)](https://beattheheat.asia/heat-tools/)
 
 ## Paths through this group
 

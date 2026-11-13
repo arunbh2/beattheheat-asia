@@ -1,7 +1,7 @@
 ---
 title: "Paying for heat protection | Common Shade"
 url: https://beattheheat.asia/finance/
-updated: 2026-10-31
+updated: 2026-11-13
 licence: CC BY 4.0
 ---
 
@@ -37,6 +37,8 @@ What each evidence label means
 Cards and cases carry a label saying what kind of evidence they cite. It describes the evidence, not how good the action is.
 
 Prefer plain text, or printing? [The same content as one page](https://beattheheat.asia/paying-for-protection/) · [Print the one-pager](https://beattheheat.asia/print/paying-for-protection/) · [Who is investing in protection from heat](https://beattheheat.asia/heat-economy/money/)
+
+**Find tools for this decision.** Assessing hazard, future heat or financial protection for a proposal? Compare screening tools and climate data, with what each cannot show. [Heat Tool Finder](https://beattheheat.asia/heat-tools/?decision=prioritise_places,understand_future_heat,assess_finance)
 
 ---
 Human edition: https://beattheheat.asia/finance/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

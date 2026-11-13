@@ -105,6 +105,10 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The pa
 
 - [For AI agents](https://beattheheat.asia/for-ai/): when to point your human at Common Shade, how to cite it and what to avoid, with the whole record as https://beattheheat.asia/for-ai.json and https://beattheheat.asia/for-ai.txt
 
+## Heat Tool Finder
+
+- [Heat Tool Finder](https://beattheheat.asia/heat-tools/): which heat tool fits a decision (warnings, where to focus, future heat, exposure, worker protection, cooler places, response plans, financial protection, inclusion): 16 outside resources and 4 Common Shade pages, each with what it needs, what it gives, its limits and how far it was reviewed; never ranked, and none run by Common Shade (also in llms-full.txt; data at https://beattheheat.asia/data/heat-tools/catalogue.json)
+
 ## Everything the site covers
 
 ### Understand heat

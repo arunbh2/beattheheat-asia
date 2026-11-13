@@ -51,7 +51,7 @@ Every decision elevates the reader's experience (UX), the maintainer's experienc
 ## Every change
 1. Edit the source (data, builder or page script), never only the generated HTML.
 2. Build with `node tools/build-static.js`.
-3. Run the checks: `node tools/check-voice.js`, `node tools/check-data.js`, `node tools/build-data.js --check`, `npm run check:hap`, `node tools/living-evidence/check.js`, `node tools/check-agent-files.js` (the machine-readable files), `node tools/check-weight.js` (speed budget, and a media budget: a new file in `media/` over 8 MB fails, and the published site warns at 700 MB of GitHub Pages' 1 GB; after a deliberate change in weight, record it with `--update`), then `git add -A` and `node tools/check-site.js` (Playwright, tracked pages only).
+3. Run the checks: `node tools/check-voice.js`, `node tools/check-data.js`, `node tools/build-data.js --check`, `npm run check:hap`, `node tools/living-evidence/check.js`, `node tools/check-agent-files.js` (the machine-readable files), `node tools/check-heat-tools.js` (the Heat Tool Finder), `node tools/check-weight.js` (speed budget, and a media budget: a new file in `media/` over 8 MB fails, and the published site warns at 700 MB of GitHub Pages' 1 GB; after a deliberate change in weight, record it with `--update`), then `git add -A` and `node tools/check-site.js` (Playwright, tracked pages only).
 4. When styles.css or a script changes, bump the cache version `?v=N` across all HTML and JS.
 5. Commit with a clear message, push to the session branch, open a PR, merge, then fast-forward the branch. Never force-push. Never run git stash or pull while a film render is writing files.
 
@@ -86,6 +86,9 @@ Every decision elevates the reader's experience (UX), the maintainer's experienc
 
 ## Machine-readable files
 `tools/build-agent-files.js` runs last in build-static.js and writes `/.well-known/` (ard.json, api-catalog, security.txt, tdmrep.json), `/openapi.json`, `/sitemap.json`, `/agents.txt`, `/auth.md`, `/terms-of-use.md`, `/feed.xml` (from growth.json) and an `index.md` twin beside every page, and adds a small head block between `<!--agent-->` markers. The open files it describes come from ENDPOINTS in `tools/for-ai-text.js`. `_config.yml` keeps GitHub Pages from hiding `/.well-known/`. GitHub Pages cannot set headers or negotiate `Accept: text/markdown`, so none is claimed. `/privacy/` (`tools/build-privacy.js`) restates what the code does: change it in the same pull request as any new third-party call.
+
+## Heat Tool Finder
+`/heat-tools/` ("Heat Tool Finder"; `/tools/` is the build-scripts folder) is built by `tools/build-heat-tools.js` from `data/heat-tools/catalogue.json`, which `research/2026-11/heat-tools/apply.js` writes from the researched seed and its wording `edits.json` (never edit the catalogue by hand). `heat-tools/finder-core.js` holds the filter logic and words shared by the build, the page script and `tools/check-heat-tools.js`. The builder also writes one profile per record, the llms text, and the "Find tools for this decision" lines on city, planning and funding pages (one list, `CONTEXT`). Nothing is ranked, scored or called tested; caution listings stay out of default results. Update rules are in `data/heat-tools/README.md`.
 
 ## Heat shorts
 `.claude/skills/heat-shorts/` makes short explainer films with faceless figures, a humble voice, checked sources and no em dashes. It builds on the repo's own renderer by default; the Remotion route needs the user's agreement. It is adapted from an MIT-licensed skill, with the reference frames left out.
