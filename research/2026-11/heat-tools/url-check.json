@@ -1,0 +1,82 @@
+{
+ "https://cds.climate.copernicus.eu/datasets/derived-utci-historical?tab=overview": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://climateknowledgeportal.worldbank.org/download-data": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://comfort.cbe.berkeley.edu/": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://dhm.gov.np/mfd/": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://gfdrr.github.io/thinkhazardmethods/": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://heathealth.info/tools-products-and-services/": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://mausam.imd.gov.in/responsive/heatwave_guidance.php": {
+  "status": "FAIL",
+  "code": 500,
+  "archive": ""
+ },
+ "https://umep-docs.readthedocs.io/en/latest/OtherManuals/SOLWEIG.html?highlight=2022": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://www.bmd.gov.bd/web/en/warning": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://www.cdc.gov/niosh/heat-stress/communication-resources/app.html": {
+  "status": "BLOCKED",
+  "code": 403,
+  "archive": ""
+ },
+ "https://www.ceew.in/publications/mapping-climate-risks-and-impacts-of-extreme-heatwave-disaster-in-indian-districts": {
+  "status": "BLOCKED",
+  "code": 403,
+  "archive": ""
+ },
+ "https://www.climatechip.org/heat-effects-assessment-tool": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://www.ifc.org/en/pressroom/2023/ifc-recognizes-20-global-edge-champions-for-sustainable-building-commitment": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://www.weather.gov.sg/heat-stress": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://www.who.int/kazakhstan/publications/i/item/9789289062930": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
+ "https://www.who.int/news/item/22-08-2025-who-wmo-issue-new-report-and-guidance-to-protect-workers-from-increasing-heat-stress": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ }
+}
