@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in Phnom Penh: plans, cycles and who is at work | Common Shade"
 url: https://beattheheat.asia/cities/phnompenh/
-updated: 2026-11-13
+updated: 2026-11-06
 licence: CC BY 4.0
 ---
 
@@ -62,8 +62,6 @@ If something is missing or not quite right, [please tell us](https://beattheheat
 - [World Bank](https://www.worldbank.org/en/region/sar/publication/a-livable-future-protecting-jobs-and-growth-from-extreme-heat-in-south-asia-s-cities): Its 2026 report A Livable Future finds extreme heat already costs South Asia the equivalent of about 31 million full-time jobs a year, and sets out how cities can protect jobs and growth.
 
 Listing does not imply partnership, affiliation or endorsement.
-
-**Find tools for this decision.** Official warnings, heat risk and cooler places in Cambodia: compare the tools that cover it, each with its limits. [Heat Tool Finder](https://beattheheat.asia/heat-tools/?country=KH)
 
 ---
 Human edition: https://beattheheat.asia/cities/phnompenh/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

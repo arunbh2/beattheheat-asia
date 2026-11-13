@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in Bangkok: plans, cycles and who is at work | Common Shade"
 url: https://beattheheat.asia/cities/bangkok/
-updated: 2026-11-13
+updated: 2026-11-08
 licence: CC BY 4.0
 ---
 
@@ -80,8 +80,6 @@ Listing does not imply partnership, affiliation or endorsement.
 ## The national picture
 
 Plans and law, warnings, rules for heat at work, cooling, money and other cities in Thailand: [the Thailand country snapshot](https://beattheheat.asia/countries/thailand/).
-
-**Find tools for this decision.** Official warnings, heat risk and cooler places in Thailand: compare the tools that cover it, each with its limits. [Heat Tool Finder](https://beattheheat.asia/heat-tools/?country=TH)
 
 ---
 Human edition: https://beattheheat.asia/cities/bangkok/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

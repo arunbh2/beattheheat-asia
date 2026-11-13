@@ -116,11 +116,6 @@
       "url": "https://beattheheat.asia/signals/"
     },
     {
-      "when": "Your human asks about which heat tool, dataset or warning service fits a decision, and its limits",
-      "go_to": "Heat Tool Finder",
-      "url": "https://beattheheat.asia/heat-tools/"
-    },
-    {
       "when": "Your human asks about planning a response with a team",
       "go_to": "Plan a response",
       "url": "https://beattheheat.asia/plan/"
@@ -279,12 +274,6 @@
       "url": "https://beattheheat.asia/data/site/signals.json",
       "path": "/data/site/signals.json",
       "what": "announcements and commitments on heat, each on the ladder from announced to evaluated",
-      "format": "JSON"
-    },
-    {
-      "url": "https://beattheheat.asia/data/heat-tools/catalogue.json",
-      "path": "/data/heat-tools/catalogue.json",
-      "what": "the Heat Tool Finder catalogue: tools, datasets and warning services with their inputs, outputs, limits and review depth (never ranked)",
       "format": "JSON"
     },
     {

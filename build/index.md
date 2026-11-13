@@ -1,7 +1,7 @@
 ---
 title: "Build protection"
 url: https://beattheheat.asia/build/
-updated: 2026-11-13
+updated: 2026-10-01
 licence: CC BY 4.0
 ---
 
@@ -40,8 +40,6 @@ Choose a place, add actions, and see which cycles they could help interrupt, wha
 - **Saved in the address**Your package lives in the page address, so you can bookmark it or share it. Nothing is sent to us.
 
 [Practical actions](https://beattheheat.asia/practical/) · [Who holds it up](https://beattheheat.asia/who-holds-it/) · [Make it work together](https://beattheheat.asia/together/) · [Plan a response](https://beattheheat.asia/plan/)
-
-**Find tools for this decision.** Choosing where and how to cool? Compare modelling tools, assessments and inclusion checks, with their limits. [Heat Tool Finder](https://beattheheat.asia/heat-tools/?decision=design_cooling,prioritise_places,check_inclusion)
 
 ---
 Human edition: https://beattheheat.asia/build/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

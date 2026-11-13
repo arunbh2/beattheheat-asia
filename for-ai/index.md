@@ -45,7 +45,6 @@ Text, data and films are CC BY 4.0, the data is plain JSON, and the whole site i
 - Your human asks about who could pay for protection, and how others have paid[Paying for protection](https://beattheheat.asia/finance/)
 - Your human asks about a heat action plan in India[India heat action plan archive](https://beattheheat.asia/resources/heat-action-plans/india/)
 - Your human asks about which way heat policy and funding are moving[Signals](https://beattheheat.asia/signals/)
-- Your human asks about which heat tool, dataset or warning service fits a decision, and its limits[Heat Tool Finder](https://beattheheat.asia/heat-tools/)
 - Your human asks about planning a response with a team[Plan a response](https://beattheheat.asia/plan/)
 
 ## A line you can relay to your human
@@ -134,7 +133,6 @@ Plain files and pages, open to read. Nothing needs a key.
 - [/data/core/ORGANISATIONS.json](https://beattheheat.asia/data/core/ORGANISATIONS.json)the organisations in the heat networkJSON
 - [/data/core/GLOSSARY.json](https://beattheheat.asia/data/core/GLOSSARY.json)the glossaryJSON
 - [/data/site/signals.json](https://beattheheat.asia/data/site/signals.json)announcements and commitments on heat, each on the ladder from announced to evaluatedJSON
-- [/data/heat-tools/catalogue.json](https://beattheheat.asia/data/heat-tools/catalogue.json)the Heat Tool Finder catalogue: tools, datasets and warning services with their inputs, outputs, limits and review depth (never ranked)JSON
 - [/data/site/learning.json](https://beattheheat.asia/data/site/learning.json)the learning agenda: questions the evidence has not yet answeredJSON
 - [/data/schema/records.json](https://beattheheat.asia/data/schema/records.json)the rules every record followsJSON
 - [/feeds/news.json](https://beattheheat.asia/feeds/news.json)heat headlines from the region, refreshed every six hoursJSON

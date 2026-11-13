@@ -1,7 +1,7 @@
 ---
 title: "Act"
 url: https://beattheheat.asia/act/
-updated: 2026-11-13
+updated: 2026-11-07
 licence: CC BY 4.0
 ---
 
@@ -19,7 +19,6 @@ What can be done, in which setting, by whom, and what keeps it working.
 
 - [Solutions library131 ways to protect people, with evidence, cost and limitsOn the path for: Funders](https://beattheheat.asia/solutions/)
 - [Build protectionAssemble actions for one place, or sketch a portfolioOn the path for: Funders, City teams](https://beattheheat.asia/build/)
-- [Find a heat toolWhich heat tool fits the decision in front of you: compare what each needs, gives and cannot tell you](https://beattheheat.asia/heat-tools/)
 - [Plan a responseA six-step workbook for a team or a workshopOn the path for: City teams, Health](https://beattheheat.asia/plan/)
 - [Worked plansHow places in Asia turned heat risk into a planOn the path for: City teams, National](https://beattheheat.asia/worked-plans/)
 - [India heat action plan archiveVerified plans and guidance from across India, searchable](https://beattheheat.asia/resources/heat-action-plans/india/)
