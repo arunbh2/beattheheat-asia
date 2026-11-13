@@ -3776,7 +3776,7 @@ html.jn-js .jn-panel[hidden],html.jn-js .jn-panel-hint[hidden]{display:none}
 .intro__wicked-acts{display:flex;flex-wrap:wrap;align-items:center;gap:8px 18px;margin:12px 0 0}
 .intro__watch{font:inherit;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;gap:8px;padding:7px 14px 7px 8px;border-radius:999px;border:1px solid rgba(246,231,215,.4);background:transparent;color:var(--cream)}
 .intro__watch:hover,.intro__watch:focus-visible{background:var(--cream);color:var(--ink)}.intro__watch span:last-child{font-weight:400;opacity:.8}
-.intro__wicked-acts a{color:var(--cream);font-weight:600;text-decoration:underline;text-decoration-color:var(--orange);text-underline-offset:4px}
+.intro__wicked-acts a,.intro__ai a{color:var(--cream);font-weight:600;text-decoration:underline;text-decoration-color:var(--orange);text-underline-offset:4px}
 @media (max-width:899px){.intro--canopy .intro__wicked{order:2;margin-top:4px}.intro--canopy .intro__title{order:2}.intro--canopy .intro__tagline{order:3}}
 
 /* ==========================================================

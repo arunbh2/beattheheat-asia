@@ -458,6 +458,42 @@
      ]
     },
     {
+     "id": "g-for-ai-home-line",
+     "kind": "tool",
+     "root": "practical",
+     "added": "2026-11-13",
+     "pr": null,
+     "title": "A line for AI agents under the homepage's opening",
+     "why": "Assistants that read the homepage for someone now meet a short, quiet pointer to the page written for them near the top, as well as in the footer, so the guidance on citing sources and passing on evidence labels is easier to find.",
+     "places": [
+      "region"
+     ],
+     "people": [],
+     "topics": [],
+     "event": {
+      "what": "Homepage line added",
+      "date": "2026-11-13"
+     },
+     "review": "One line in the hero's own small type; no new script, the pop-ups untouched and the homepage weight unchanged",
+     "pages": [
+      [
+       "/for-ai/",
+       "For AI agents"
+      ]
+     ],
+     "action": [
+      "Read the page for AI agents",
+      "/for-ai/"
+     ],
+     "links": [
+      {
+       "to": "page:/for-ai/",
+       "why": "The line points to the page for AI agents.",
+       "basis": "editorial"
+      }
+     ]
+    },
+    {
       "id": "g-for-ai", "kind": "tool", "root": "practical", "added": "2026-11-11", "pr": null,
       "title": "A page for the AI agents that read the site",
       "why": "More people now meet the site through an assistant than through a browser. /for-ai/ tells an assistant what Common Shade is, when it fits a person's question, how to cite it and what to avoid, and publishes the same record as JSON and plain text, so an assistant can represent the evidence as carefully as the site states it.",

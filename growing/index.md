@@ -5,7 +5,7 @@ updated: 2026-11-13
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 39 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 40 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-39 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 3 connections documented and 3 questions opened. Beneath them, 1,084 works the commons draws on carry a publication date, and 807 are still being dated.
+40 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 3 connections documented and 3 questions opened. Beneath them, 1,084 works the commons draws on carry a publication date, and 807 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -58,6 +58,27 @@ IFRC's finding is about early warning that reaches health services.
 [Signals](https://beattheheat.asia/signals/)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=COP31%2C%20first%20check-in%3A%20health%2C%20early%20warning%20and%20money&ref=g-signals-cop31-checkin-1#way-share)
+
+Tool improved · Practical measures
+
+### A line for AI agents under the homepage's opening
+
+Added 13 November 2026 · Homepage line added 13 November 2026
+
+Why it matters our readingAssistants that read the homepage for someone now meet a short, quiet pointer to the page written for them near the top, as well as in the footer, so the guidance on citing sources and passing on evidence labels is easier to find.
+
+- South and Southeast Asia
+
+ReviewOne line in the hero's own small type; no new script, the pop-ups untouched and the homepage weight unchanged.
+
+How it connects
+
+- [For ai](https://beattheheat.asia/for-ai/) Page · our reading
+The line points to the page for AI agents.
+
+[Read the page for AI agents](https://beattheheat.asia/for-ai/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=A%20line%20for%20AI%20agents%20under%20the%20homepage's%20opening&ref=g-for-ai-home-line#way-share)
 
 Tool improved · Practical measures
 
