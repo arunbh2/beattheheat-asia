@@ -30,6 +30,7 @@ function md(SITE) {
     L.push(`### ${g.label}`, g.intro);
     if (g.when) L.push(g.when + ".");
     if (g.watching) L.push("Watching: " + g.watching.join(", ") + ".");
+    if (g.reading) L.push(`${g.reading.label}: ${g.reading.text}`);
     const list = D.byGroup[g.id];
     if (!list.length) L.push("No item has passed the check yet.");
     for (const s of list) L.push([`- ${s.title} (${D.kind[s.kind].label}, ${date(s.date)}${s.stage ? `; rung: ${D.ladder[D.rung[s.stage]].label}` : ""}). ${s.summary}`,

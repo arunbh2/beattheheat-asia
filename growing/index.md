@@ -5,7 +5,7 @@ updated: 2026-11-13
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 38 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 39 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,11 +13,51 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-38 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 3 connections documented and 3 questions opened. Beneath them, 1,084 works the commons draws on carry a publication date, and 807 are still being dated.
+39 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 3 connections documented and 3 questions opened. Beneath them, 1,084 works the commons draws on carry a publication date, and 807 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
 ## Updates, newest first
+
+Evidence added · Evidence
+
+### COP31, first check-in: health, early warning and money
+
+Added 13 November 2026 · COP31 Health Day 9 November 2026
+
+Why it matters our readingIn COP31's first days, heat surfaced through a voluntary health initiative, the presidency's health theme, IFRC's finding on early warning and UNEP's adaptation finance gap, rather than through negotiating text. Each was verified at its primary source before joining the COP31 watch, and the watch now says plainly what it has not found yet.
+
+What the source says quoted“only 35% of countries have reported having health early warning systems for heat-related illness”
+
+[International Federation of Red Cross and Red Crescent Societies: IFRC COP31 Call to Action, 2026 ](https://www.ifrc.org/sites/default/files/2026-10/IFRC%20COP31%20Call%20to%20Action.pdf)
+
+- South and Southeast Asia
+- Anticipatory action
+- Dedicated heat budgets
+
+ReviewTen claims staged and all ten passed the GitHub check at WHO, IFRC, UNEP, WMO, UN News and Health Policy Watch; two drafts reworded to match their sources; the cooling pledge, a named official's statement and civil-society asks set aside as not COP31 commitments. 10 checked · 8 confirmed · 2 not confirmed, each recorded.
+
+What it took to add this
+
+- **The question.** What has COP31 said about heat so far, confirmed at the source?
+- **The search.** 10 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 8 confirmed, and 2 could not be (2 blocked automated reading).
+- **What we set aside.** 0 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+
+- **What is still open.** Whether any South or Southeast Asian government makes a heat commitment at COP31.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-signals-cop31-3/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/signals-cop31-3/dropped-after-check.json)
+
+How it connects
+
+- [Anticipatory action](https://beattheheat.asia/actions/#anticipatory) Action · from the site's records
+IFRC's finding is about early warning that reaches health services.
+
+[Read the COP31 watch](https://beattheheat.asia/signals/#cop31)
+[Signals](https://beattheheat.asia/signals/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=COP31%2C%20first%20check-in%3A%20health%2C%20early%20warning%20and%20money&ref=g-signals-cop31-checkin-1#way-share)
 
 Tool improved · Practical measures
 

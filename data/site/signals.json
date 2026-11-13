@@ -14,7 +14,8 @@
   { "id": "guidance", "label": "Guidance", "means": "A framework or guide published for others to use." }
  ],
  "groups": [
-  { "id": "cop31", "label": "COP31 watch", "when": "Antalya, 9 to 20 November 2026", "intro": "What we are watching for heat at COP31. Each item is added only after its source passes the site's check, on the rung it has truly reached; almost everything at a conference starts as an announcement.", "watching": ["Adaptation indicators", "Health", "Adaptation finance", "Cooling", "Early warnings"] },
+  { "id": "cop31", "label": "COP31 watch", "when": "Antalya, 9 to 20 November 2026", "intro": "What we are watching for heat at COP31. Each item is added only after its source passes the site's check, on the rung it has truly reached; almost everything at a conference starts as an announcement.", "watching": ["Adaptation indicators", "Health", "Adaptation finance", "Cooling", "Early warnings"],
+    "reading": { "label": "A reading so far, after check-in 1 (13 November)", "text": "COP31's heat story is running through health, early warning and money, while we have so far found little on heat itself in the negotiating texts. No heat commitment by India, Bangladesh, the Philippines or Thailand has been found in the coverage yet. This is a reading of what the watch has found, not a finding, and it will be revisited at each check-in and when the conference closes." } },
   { "id": "year", "label": "Signals of the year", "intro": "This year's signals already on Common Shade, each with the source the site checked." }
  ],
  "signals": [
@@ -56,6 +57,44 @@
    "who": "UNEP, with PBL Netherlands Environmental Assessment Agency", "places": ["region"], "levers": ["hap", "heatbudget"],
    "next": "A finding, not a commitment: watch whether adaptation plans for heat assume the warming these projections describe.",
    "sources": [{ "label": "PBL Netherlands Environmental Assessment Agency: UNEP Emissions Gap Report 2026", "url": "https://www.pbl.nl/en/publications/unep-emissions-gap-report-2026" }]
+  },
+  {
+   "id": "sig-cop31-air-2026", "group": "cop31", "kind": "commitment", "date": "2026-11-09",
+   "title": "The Antalya Initiative for Health Resilience (AIR) launches on Health Day",
+   "summary": "COP31 opened with the launch of the Antalya Initiative for Health Resilience (AIR), a voluntary platform for countries to share their experience of making health systems resilient to climate risks. Health Policy Watch calls it the Antalya Initiative for Resilient Health Systems; this page uses WHO's name. On the launch day no country had yet announced that it would take part. Alongside it, a joint initiative with WHO brings climate information into public health planning: a forecast of dangerously high temperatures, for example, can help hospitals prepare for more patients.",
+   "who": "Türkiye, as COP31 host, and the World Health Organization", "places": ["region"], "levers": ["readyclinics", "hap"],
+   "stage": "announced", "history": [{ "date": "2026-11-09", "stage": "announced", "note": "Launched on Health Day, the first day of COP31; no country had yet said it would take part" }],
+   "next": "Adopted: countries saying they will take part, and sharing what has worked in protecting health from heat.",
+   "sources": [
+    { "label": "World Health Organization: WHO COP31 climate change and health brief, 2026", "url": "https://cdn.who.int/media/docs/default-source/climate-change/who-cop31-cch-brief.pdf" },
+    { "label": "Health Policy Watch, 2026: 'Declarations do not protect people': COP31 opens under pressure to deliver results over words", "url": "https://healthpolicy-watch.news/declarations-do-not-protect-people-cop31-opens-under-pressure-to-deliver-results-over-words/" },
+    { "label": "UN News, 2026: COP31 opens in Antalya: Can climate promises finally deliver results?", "url": "https://news.un.org/en/story/2026/11/1168763" }
+   ]
+  },
+  {
+   "id": "sig-cop31-health-theme-2026", "group": "cop31", "kind": "commitment", "date": "2026",
+   "title": "The presidency's health theme: Dynamic and Resilient Health Systems",
+   "summary": "The COP31 presidency's action agenda includes a theme on Dynamic and Resilient Health Systems, which prioritises health systems that can anticipate, respond to and recover from climate-related shocks through preparedness, surveillance and resilient infrastructure. Unlike many other themes, it carries no numerical target for 2035.",
+   "who": "COP31 presidency", "places": ["region"], "levers": ["readyclinics", "countdeaths"],
+   "stage": "announced", "history": [{ "date": "2026", "stage": "announced", "note": "Set out in the presidency's action agenda, without a numerical target" }],
+   "next": "Adopted: a target or a reporting route for the theme, and heat named within it.",
+   "sources": [{ "label": "World Health Organization: WHO COP31 climate change and health brief, 2026", "url": "https://cdn.who.int/media/docs/default-source/climate-change/who-cop31-cch-brief.pdf" }]
+  },
+  {
+   "id": "sig-ifrc-heat-warnings-2026", "group": "cop31", "kind": "finding", "date": "2026-10",
+   "title": "Only 35% of countries report health early warning systems for heat-related illness",
+   "summary": "IFRC's call to action for COP31 notes that only 35% of countries have reported having health early warning systems for heat-related illness. It asks for investment in multi-sector local action for cities and communities to reduce heat risk, from heat action plans and early warning to shock-responsive social protection and nature-based solutions.",
+   "who": "International Federation of Red Cross and Red Crescent Societies", "places": ["region"], "levers": ["anticipatory", "hap", "socialprotection"],
+   "next": "A finding and an ask, not a commitment: watch whether COP31 outcomes fund heat early warning that reaches health services and communities.",
+   "sources": [{ "label": "International Federation of Red Cross and Red Crescent Societies: IFRC COP31 Call to Action, 2026", "url": "https://www.ifrc.org/sites/default/files/2026-10/IFRC%20COP31%20Call%20to%20Action.pdf" }]
+  },
+  {
+   "id": "sig-adaptation-gap-2026", "group": "cop31", "kind": "finding", "date": "2026",
+   "title": "Adaptation finance covers a fraction of what is needed",
+   "summary": "UNEP's Adaptation Gap Report 2026 estimates that developing countries need about US$305 billion a year for adaptation by 2035. International public adaptation finance to developing countries was about US$28 to 32 billion in 2024. Even if the COP30 aim of tripling it is met, it would cover only about 20 to 29% of needs. The report covers adaptation as a whole, not heat alone; it bears on heat because heat plans draw on the same adaptation money.",
+   "who": "UN Environment Programme", "places": ["region"], "levers": ["heatbudget", "anticipatory"],
+   "next": "A finding, not a commitment: watch whether COP31's finance outcomes reach heat plans, and whether heat is named in them.",
+   "sources": [{ "label": "UNEP, 2026: As world heads for overshoot of 1.5°C, adaptation is too slow", "url": "https://www.unep.org/en/news-and-stories/press-release/world-heads-overshoot-15degc-adaptation-too-slow" }]
   },
   {
    "id": "sig-belem-adaptation-indicators-2025", "group": "cop31", "kind": "commitment", "date": "2025",
@@ -164,6 +203,15 @@
    "who": "National Institute of Urban Affairs, Climate Centre for Cities", "places": ["india"], "levers": ["hap", "coolbydesign"],
    "next": "Watch for cities that adopt it in their own plans.",
    "sources": [{ "label": "National Institute of Urban Affairs, 2026: Heat Resilient Cities Framework", "url": "https://niua.in/publication-details/Heat_Resilient_Cities_Framework" }]
+  },
+  {
+   "id": "sig-heat-governance-pilots-2026", "group": "year", "kind": "commitment", "date": "2026",
+   "title": "The Extreme Heat Risk Governance Framework is piloted in Cambodia, Barbados and Senegal",
+   "summary": "In 2026 the Extreme Heat Risk Governance Framework and Toolkit is being piloted in Barbados, Senegal and Cambodia, with financial support from the Climate Risk and Early Warning Systems (CREWS) initiative. The pilots test practical tools for multi-sector coordination, financing and anticipatory action.",
+   "who": "World Meteorological Organization and partners", "places": ["region", "cambodia"], "levers": ["hap", "anticipatory"],
+   "stage": "funded", "history": [{ "date": "2026", "stage": "funded", "note": "Pilots supported by the CREWS initiative" }],
+   "next": "Delivered: the pilots' results published, and what Cambodia's pilot shows for Southeast Asia.",
+   "sources": [{ "label": "World Meteorological Organization, 2026: New framework and toolkit strengthens extreme heat governance", "url": "https://wmo.int/media/news/new-framework-and-toolkit-strengthens-extreme-heat-governance" }]
   }
  ]
 }

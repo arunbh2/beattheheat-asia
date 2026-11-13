@@ -1,7 +1,7 @@
 ---
 title: "Signals: which way heat policy is moving"
 url: https://beattheheat.asia/signals/
-updated: 2026-11-10
+updated: 2026-11-13
 licence: CC BY 4.0
 ---
 
@@ -17,13 +17,13 @@ The ladder
 
 ## From promise to proof
 
-Of the 8 commitments tracked so far, 1 has been delivered and none has been evaluated. The furthest any has climbed is "Delivered".
+Of the 11 commitments tracked so far, 1 has been delivered and none has been evaluated. The furthest any has climbed is "Delivered".
 
-- 0
+- 2
 **1. Announced**Said in public. A weak signal on its own: announcements happen whether or not anything follows.
 - 4
 **2. Adopted**Made formal: a plan approved, a rule changed, an office set up.
-- 3
+- 4
 **3. Funded**Money committed to it, whether or not the amount is public.
 - 1
 **4. Delivered**Something exists that people can use: a service open, a guide published, money paid out.
@@ -39,6 +39,8 @@ Antalya, 9 to 20 November 2026
 ## COP31 watch
 
 What we are watching for heat at COP31. Each item is added only after its source passes the site's check, on the rung it has truly reached; almost everything at a conference starts as an announcement.
+
+**A reading so far, after check-in 1 (13 November).** COP31's heat story is running through health, early warning and money, while we have so far found little on heat itself in the negotiating texts. No heat commitment by India, Bangladesh, the Philippines or Thailand has been found in the coverage yet. This is a reading of what the watch has found, not a finding, and it will be revisited at each check-in and when the conference closes.
 
 Watching for heat inAdaptation indicatorsHealthAdaptation financeCoolingEarly warnings
 
@@ -87,6 +89,40 @@ Actions it touches[Anticipatory action](https://beattheheat.asia/actions/#antici
 Sources[WMO, 2026: State of the climate in 2026 gives new meaning to phrase 'off the charts'](https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts)
 [WMO: El Niño/La Niña Update, August 2026](https://wmo.int/node/38928)
 
+Commitment9 November 2026
+
+### The Antalya Initiative for Health Resilience (AIR) launches on Health Day
+
+Türkiye, as COP31 host, and the World Health Organization
+
+COP31 opened with the launch of the Antalya Initiative for Health Resilience (AIR), a voluntary platform for countries to share their experience of making health systems resilient to climate risks. Health Policy Watch calls it the Antalya Initiative for Resilient Health Systems; this page uses WHO's name. On the launch day no country had yet announced that it would take part. Alongside it, a joint initiative with WHO brings climate information into public health planning: a forecast of dangerously high temperatures, for example, can help hospitals prepare for more patients.
+
+What would move it upAdopted: countries saying they will take part, and sharing what has worked in protecting health from heat.
+
+How it has moved
+
+- 9 November 2026 **Announced** Launched on Health Day, the first day of COP31; no country had yet said it would take part
+
+Actions it touches[Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)[Heat action plans](https://beattheheat.asia/actions/#hap)
+
+Sources[World Health Organization: WHO COP31 climate change and health brief, 2026](https://cdn.who.int/media/docs/default-source/climate-change/who-cop31-cch-brief.pdf)
+[Health Policy Watch, 2026: 'Declarations do not protect people': COP31 opens under pressure to deliver results over words](https://healthpolicy-watch.news/declarations-do-not-protect-people-cop31-opens-under-pressure-to-deliver-results-over-words/)
+[UN News, 2026: COP31 opens in Antalya: Can climate promises finally deliver results?](https://news.un.org/en/story/2026/11/1168763)
+
+FindingOctober 2026
+
+### Only 35% of countries report health early warning systems for heat-related illness
+
+International Federation of Red Cross and Red Crescent Societies
+
+IFRC's call to action for COP31 notes that only 35% of countries have reported having health early warning systems for heat-related illness. It asks for investment in multi-sector local action for cities and communities to reduce heat risk, from heat action plans and early warning to shock-responsive social protection and nature-based solutions.
+
+What to watchA finding and an ask, not a commitment: watch whether COP31 outcomes fund heat early warning that reaches health services and communities.
+
+Actions it touches[Anticipatory action](https://beattheheat.asia/actions/#anticipatory)[Heat action plans](https://beattheheat.asia/actions/#hap)[Social protection floors](https://beattheheat.asia/actions/#socialprotection)
+
+Source[International Federation of Red Cross and Red Crescent Societies: IFRC COP31 Call to Action, 2026](https://www.ifrc.org/sites/default/files/2026-10/IFRC%20COP31%20Call%20to%20Action.pdf)
+
 Finding2026
 
 ### Warming will overshoot 1.5 °C: the Emissions Gap Report 2026
@@ -100,6 +136,38 @@ What to watchA finding, not a commitment: watch whether adaptation plans for hea
 Actions it touches[Heat action plans](https://beattheheat.asia/actions/#hap)[Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)
 
 Source[PBL Netherlands Environmental Assessment Agency: UNEP Emissions Gap Report 2026](https://www.pbl.nl/en/publications/unep-emissions-gap-report-2026)
+
+Commitment2026
+
+### The presidency's health theme: Dynamic and Resilient Health Systems
+
+COP31 presidency
+
+The COP31 presidency's action agenda includes a theme on Dynamic and Resilient Health Systems, which prioritises health systems that can anticipate, respond to and recover from climate-related shocks through preparedness, surveillance and resilient infrastructure. Unlike many other themes, it carries no numerical target for 2035.
+
+What would move it upAdopted: a target or a reporting route for the theme, and heat named within it.
+
+How it has moved
+
+- 2026 **Announced** Set out in the presidency's action agenda, without a numerical target
+
+Actions it touches[Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)[Count every heat death](https://beattheheat.asia/actions/#countdeaths)
+
+Source[World Health Organization: WHO COP31 climate change and health brief, 2026](https://cdn.who.int/media/docs/default-source/climate-change/who-cop31-cch-brief.pdf)
+
+Finding2026
+
+### Adaptation finance covers a fraction of what is needed
+
+UN Environment Programme
+
+UNEP's Adaptation Gap Report 2026 estimates that developing countries need about US$305 billion a year for adaptation by 2035. International public adaptation finance to developing countries was about US$28 to 32 billion in 2024. Even if the COP30 aim of tripling it is met, it would cover only about 20 to 29% of needs. The report covers adaptation as a whole, not heat alone; it bears on heat because heat plans draw on the same adaptation money.
+
+What to watchA finding, not a commitment: watch whether COP31's finance outcomes reach heat plans, and whether heat is named in them.
+
+Actions it touches[Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)[Anticipatory action](https://beattheheat.asia/actions/#anticipatory)
+
+Source[UNEP, 2026: As world heads for overshoot of 1.5°C, adaptation is too slow](https://www.unep.org/en/news-and-stories/press-release/world-heads-overshoot-15degc-adaptation-too-slow)
 
 Commitment2025
 
@@ -201,6 +269,24 @@ How it has moved
 Actions it touches[Heat action plans](https://beattheheat.asia/actions/#hap)[Anticipatory action](https://beattheheat.asia/actions/#anticipatory)
 
 Source[WMO, 2026: new initiatives launched to address extreme heat in South Asia](https://wmo.int/media/news/new-initiatives-launched-address-extreme-heat-south-asia)
+
+Commitment2026
+
+### The Extreme Heat Risk Governance Framework is piloted in Cambodia, Barbados and Senegal
+
+World Meteorological Organization and partners
+
+In 2026 the Extreme Heat Risk Governance Framework and Toolkit is being piloted in Barbados, Senegal and Cambodia, with financial support from the Climate Risk and Early Warning Systems (CREWS) initiative. The pilots test practical tools for multi-sector coordination, financing and anticipatory action.
+
+What would move it upDelivered: the pilots' results published, and what Cambodia's pilot shows for Southeast Asia.
+
+How it has moved
+
+- 2026 **Funded** Pilots supported by the CREWS initiative
+
+Actions it touches[Heat action plans](https://beattheheat.asia/actions/#hap)[Anticipatory action](https://beattheheat.asia/actions/#anticipatory)
+
+Source[World Meteorological Organization, 2026: New framework and toolkit strengthens extreme heat governance](https://wmo.int/media/news/new-framework-and-toolkit-strengthens-extreme-heat-governance)
 
 CommitmentAugust 2026
 

@@ -96,7 +96,7 @@ There is a free, open evidence base on extreme heat in South and Southeast Asia 
 
 **who_it_is_for**: city officials · health workers · unions and workers' groups · NGOs and community organisations · funders · researchers
 
-**counts**: 90 consequences · 21 vicious cycles · 33 actions · 12 city profiles · 2,290 sources · 131 solutions · 146 verified heat action plans · 15 signals
+**counts**: 90 consequences · 21 vicious cycles · 33 actions · 12 city profiles · 2,290 sources · 131 solutions · 146 verified heat action plans · 20 signals
 
 **evidence_labels**: known: Measured in a study, or set out in an official record. · inferred: Models and projections. · uncertain: Reports not yet confirmed.
 

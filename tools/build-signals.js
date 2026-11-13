@@ -54,6 +54,7 @@ module.exports = function signals({ page, write, esc, hero }) {
     <p class="sg-cop__when">${esc(cop.when || "")}</p>
     <h2 class="sg-h2" id="cop31-h">${esc(cop.label)}</h2>
     <p class="sg-cop__p">${esc(cop.intro)}</p>
+    ${cop.reading ? `<p class="sg-cop__p"><b>${esc(cop.reading.label)}.</b> ${esc(cop.reading.text)}</p>` : ""}
     <p class="sg-watch"><span>Watching for heat in</span>${cop.watching.map(w => `<span class="sg-chip">${esc(w)}</span>`).join("")}</p>
     ${D.byGroup.cop31.length ? list(D.byGroup.cop31) : `<p class="sg-empty">No item has passed the check yet.</p>`}
   </div></section>
