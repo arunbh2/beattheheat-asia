@@ -1,0 +1,2512 @@
+{
+  "schema_version": "1.0.0",
+  "research_as_of": "2026-11-10",
+  "title": "Common Shade Heat Tool Finder — researched starter catalogue",
+  "purpose": "Help people who design, deliver and fund heat protection find and compare tools, understand limits, and move into a practical plan.",
+  "scope_note": "Twenty researched profiles: sixteen external resources and four existing Common Shade resources. This is a starter catalogue, not a comprehensive market census. Public descriptions were reviewed; tools were not run, benchmarked or independently validated.",
+  "inspiration": {
+    "url": "https://www.unepfi.org/risk-centre/risk-dashboard/",
+    "observed_on": "2026-11-10",
+    "review": "Live embedded dashboard overview and Find Tools page inspected; other page names read from navigation/help.",
+    "patterns_to_adapt": [
+      "Requirements filters",
+      "Comparable tool profiles",
+      "Methodology and data transparency",
+      "Use-case navigation"
+    ],
+    "do_not_copy": [
+      "Power BI embedding",
+      "Banking asset-class emphasis",
+      "Provider database content without permission",
+      "Tool-count vanity charts"
+    ],
+    "attribution": "Inspired by UNEP FI’s approach to making risk tools easier to compare. Independently developed by Common Shade; no affiliation or endorsement."
+  },
+  "design": {
+    "route": "/tools/",
+    "name": "Heat Tool Finder",
+    "headline": "Which heat tool fits the decision in front of you?",
+    "subhead": "Find tools for warnings, risk assessment, cooling and protection planning. Compare what they need, what they produce, and where their limits matter.",
+    "navigation": "Act: Find a heat tool; contextual links from cities, planning, evidence and funding.",
+    "default_view": "Decision choices followed by compact tool cards. External resources first; Common Shade next-step tools in a separate clearly labelled group.",
+    "primary_filters": [
+      "decision",
+      "country",
+      "resource_type"
+    ],
+    "advanced_filters": [
+      "user_role",
+      "access_mode",
+      "time_horizon",
+      "heat_metric",
+      "review_status"
+    ],
+    "decisions": [
+      {
+        "id": "check_warnings",
+        "label": "Check official warnings"
+      },
+      {
+        "id": "prioritise_places",
+        "label": "Decide where to focus"
+      },
+      {
+        "id": "understand_future_heat",
+        "label": "Understand future heat"
+      },
+      {
+        "id": "analyse_exposure",
+        "label": "Analyse heat exposure"
+      },
+      {
+        "id": "protect_workers",
+        "label": "Plan worker protection"
+      },
+      {
+        "id": "design_cooling",
+        "label": "Design cooler places"
+      },
+      {
+        "id": "plan_response",
+        "label": "Build a heat response"
+      },
+      {
+        "id": "assess_finance",
+        "label": "Explore financial protection"
+      },
+      {
+        "id": "check_inclusion",
+        "label": "Check who protection misses"
+      },
+      {
+        "id": "find_resources",
+        "label": "Browse other directories"
+      }
+    ],
+    "compare": {
+      "maximum": 3,
+      "rows": [
+        "Decision supported",
+        "Resource type",
+        "Coverage and scale",
+        "Inputs needed",
+        "Outputs",
+        "Metric",
+        "Time horizon",
+        "Access and licence",
+        "What it cannot tell you",
+        "Review depth",
+        "Last checked",
+        "API / integration status"
+      ]
+    },
+    "no_ratings": true,
+    "no_composite_heat_risk_score": true,
+    "no_live_weather_in_mvp": true,
+    "card_fields": [
+      "name",
+      "provider",
+      "resource_type",
+      "summary",
+      "spatial_scale",
+      "access.mode",
+      "limitations[0]",
+      "publication.status",
+      "evidence.reviewed_on"
+    ],
+    "labels": {
+      "null": "Not verified",
+      "local_validation_unassessed": "Local validation not assessed",
+      "provisional_listing": "Source description found; further checks needed",
+      "caution_listing": "Maintenance or coverage caution",
+      "documented_listing": "Public documentation reviewed"
+    },
+    "visual_direction": "Reuse the site's actual typography and tokens. Warm paper, charcoal text and restrained orange. Prioritise readable cards and comparison rows. No opening map, decorative gauges, pie charts or animated risk counters.",
+    "disclaimer": "A navigation and comparison service. Inclusion is not endorsement or certification. Check local applicability, current source information and professional requirements before relying on a tool."
+  },
+  "filtering_policy": {
+    "within_one_facet": "OR",
+    "between_facets": "AND",
+    "country": "Explicit country coverage matches; global coverage appears in a separately labelled 'Broader tools to assess locally' group. Input-based models appear as 'Needs local inputs'. Country coverage does not imply local validation.",
+    "unknown": "Unknown values never satisfy a strict free/no-registration/API filter. Provide an explicit 'Include unverified details' toggle, off by default for strict filters.",
+    "documented": "Default browse includes documented and clearly badged provisional listings; caution listings appear only with 'Include caution listings'.",
+    "sort": "Alphabetical within applicability groups. No paid placement or hidden quality score.",
+    "empty": "Explain which filters narrowed the set; offer a user-controlled reset. Do not silently relax filters."
+  },
+  "research_protocol": {
+    "include": "Tools, datasets, official warning services, structured assessments and practical guidance with an identifiable maintainer, source URL, a heat-related decision and a clear scope.",
+    "exclude": "Generic climate news, unsupported vendor claims, inaccessible marketing-only listings lacking heat-specific documentation, abandoned software without a conspicuous caution, and duplicate versions counted as separate tools.",
+    "minimum_fields": [
+      "provider",
+      "primary_url",
+      "resource_type",
+      "decision_tags",
+      "geography",
+      "inputs",
+      "outputs",
+      "heat_metrics",
+      "limitations",
+      "reviewed_on",
+      "source_ids"
+    ],
+    "evidence_rules": [
+      "Separate provider claims from independent validation and Common Shade editorial interpretation.",
+      "Never infer open source or reusable data from free access.",
+      "Global geographic availability is not proof of validation in Asian cities or workers.",
+      "Never treat air temperature, surface temperature, heat index, WBGT and UTCI as interchangeable.",
+      "Record unknowns as null or explicit not_assessed states.",
+      "Do not copy dynamic warning values into this static catalogue.",
+      "Mark broken access as an access problem, not proof the service is discontinued.",
+      "Keep publication dates, data years, access dates and forecast validity separate."
+    ]
+  },
+  "search_log": [
+    {
+      "query": "site:unepfi.org/risk-centre/risk-dashboard \"dashboard\"",
+      "result": "Official companion descriptions found; dashboard then inspected live."
+    },
+    {
+      "query": "site:ceew.in heat risk assessment 2025 districts India",
+      "source_ids": [
+        "ceew"
+      ]
+    },
+    {
+      "query": "site:climateknowledgeportal.worldbank.org heat climate data API",
+      "source_ids": [
+        "cckp"
+      ]
+    },
+    {
+      "query": "heat stress risk tools ClimateCHIP ClimApp ILO tool HEAT-SHIELD dashboard",
+      "source_ids": [
+        "workheat",
+        "ghhin"
+      ]
+    },
+    {
+      "query": "site.thinkhazard.org extreme heat tool GFDRR",
+      "source_ids": [
+        "thinkhazard"
+      ]
+    },
+    {
+      "query": "site:who.int heat health action plans 2026 guidance",
+      "source_ids": [
+        "who_hhap",
+        "who_work"
+      ]
+    },
+    {
+      "query": "site:imd.gov.in heat wave forecast heat index",
+      "source_ids": [
+        "imd"
+      ]
+    },
+    {
+      "query": "site:cds.climate.copernicus.eu thermal comfort indices ERA5 HEAT",
+      "source_ids": [
+        "era5"
+      ]
+    },
+    {
+      "query": "site:cdc.gov niosh heat safety tool app OSHA",
+      "source_ids": [
+        "niosh"
+      ]
+    },
+    {
+      "query": "site:ifc.org EDGE app cooling energy building free tool",
+      "source_ids": [
+        "edge"
+      ]
+    },
+    {
+      "query": "site:nea.gov.sg heat stress advisory WBGT",
+      "source_ids": [
+        "sg"
+      ]
+    },
+    {
+      "query": "site:bmd.gov.bd heat wave warning",
+      "source_ids": [
+        "bmd"
+      ]
+    },
+    {
+      "query": "site:comfort.cbe.berkeley.edu thermal comfort tool documentation",
+      "source_ids": [
+        "cbe"
+      ]
+    },
+    {
+      "query": "site:umep-docs.readthedocs.io SOLWEIG urban heat tool",
+      "source_ids": [
+        "solweig"
+      ]
+    },
+    {
+      "query": "site:weather.gov.sg heat stress advisory",
+      "source_ids": [
+        "sg"
+      ]
+    },
+    {
+      "query": "site:dhm.gov.np heat wave warning bulletin Nepal",
+      "source_ids": [
+        "dhm"
+      ]
+    },
+    {
+      "query": "site:coolingtoolkit.com sustainable cooling tool assessment",
+      "result": "No sufficiently useful primary result retained."
+    }
+  ],
+  "research_backlog": [
+    {
+      "priority": 1,
+      "topic": "Country coverage",
+      "queries": [
+        "site:tmd.go.th heat index warning",
+        "site:bmkg.go.id heat thermal comfort",
+        "site:pagasa.dost.gov.ph heat index",
+        "site:nchmf.gov.vn heat warning"
+      ],
+      "why": "Add Thailand, Indonesia, Philippines and Viet Nam only after official products and definitions are checked."
+    },
+    {
+      "priority": 1,
+      "topic": "Local implementation",
+      "queries": [
+        "heat action plan monitoring evaluation toolkit India",
+        "heat vulnerability participatory mapping toolkit informal settlements Asia"
+      ],
+      "why": "Find tools for implementation, surveillance and exclusion barriers, not just meteorological exposure."
+    },
+    {
+      "priority": 1,
+      "topic": "Operational occupational assessment",
+      "queries": [
+        "heat stress WBGT occupational assessment tool validation tropical workers",
+        "ClimApp validation tropical workers heat",
+        "HEAT-SHIELD heat warning tool geographic coverage"
+      ],
+      "why": "Verify population, workload assumptions, medical boundaries and Asian availability."
+    },
+    {
+      "priority": 2,
+      "topic": "Finance and procurement",
+      "queries": [
+        "extreme heat adaptation cost benefit tool methodology Asia",
+        "heat parametric insurance basis risk modelling tool public methodology",
+        "physical climate risk extreme heat asset tool methodology licensing"
+      ],
+      "why": "Separate assessment software from insurance products and grants; do not imply available finance or verified ROI."
+    },
+    {
+      "priority": 2,
+      "topic": "Cooling evaluation",
+      "queries": [
+        "cool roof indoor heat model validation India",
+        "sustainable cooling assessment tool cost energy water thermal safety",
+        "ENVI-met heat modelling validation India methodology"
+      ],
+      "why": "Assess local validation, capex/opex assumptions, power/water needs and licensing."
+    },
+    {
+      "priority": 2,
+      "topic": "Data reuse",
+      "queries": [
+        "ThinkHazard extreme heat data licence API",
+        "World Bank CCKP data terms API",
+        "IMD API heatwave terms of use"
+      ],
+      "why": "Link out until licences, quotas, attribution and endpoint behaviour are verified."
+    }
+  ],
+  "curated_pathways": [
+    {
+      "id": "india-city",
+      "title": "An Indian city preparing its heat plan",
+      "kind": "Illustrative workflow, not an official recommendation",
+      "steps": [
+        {
+          "resource_ids": [
+            "ceew"
+          ],
+          "purpose": "Establish district context; commission finer local assessment where needed."
+        },
+        {
+          "resource_ids": [
+            "imd"
+          ],
+          "purpose": "Consult current official warnings and local activation rules."
+        },
+        {
+          "resource_ids": [
+            "who_hhap",
+            "cs_intersections"
+          ],
+          "purpose": "Review planning responsibilities and access barriers."
+        },
+        {
+          "resource_ids": [
+            "cs_plan"
+          ],
+          "purpose": "Record agreed actions, payers, triggers and follow-up."
+        }
+      ]
+    },
+    {
+      "id": "cooler-market",
+      "title": "A team considering shade for a market",
+      "kind": "Illustrative workflow",
+      "steps": [
+        {
+          "resource_ids": [
+            "solweig"
+          ],
+          "purpose": "Ask a qualified modeller to explore shade and radiant heat with local inputs."
+        },
+        {
+          "resource_ids": [
+            "cs_intersections",
+            "cs_build"
+          ],
+          "purpose": "Consider safe access, water, paid rest and who maintains protection."
+        },
+        {
+          "resource_ids": [
+            "cs_plan"
+          ],
+          "purpose": "Translate design choices into responsibilities and monitoring."
+        }
+      ]
+    },
+    {
+      "id": "funding-diligence",
+      "title": "A funder assessing a heat proposal",
+      "kind": "Illustrative workflow",
+      "steps": [
+        {
+          "resource_ids": [
+            "thinkhazard",
+            "cckp"
+          ],
+          "purpose": "Screen hazard and long-term context without claiming quantified investment returns."
+        },
+        {
+          "resource_ids": [
+            "cs_finance"
+          ],
+          "purpose": "Examine financial instrument distinctions and evidence gaps."
+        },
+        {
+          "resource_ids": [
+            "cs_plan"
+          ],
+          "purpose": "Ask who pays recurrent costs and how delivery will be checked."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "ceew",
+      "title": "CEEW district heat-risk assessment",
+      "publisher": "CEEW",
+      "url": "https://www.ceew.in/publications/mapping-climate-risks-and-impacts-of-extreme-heatwave-disaster-in-indian-districts",
+      "review_depth": "source_page_reviewed",
+      "accessed_on": "2026-11-10",
+      "scope": "Public description or selected documentation only; no complete scientific validation or live tool execution."
+    },
+    {
+      "id": "thinkhazard",
+      "title": "ThinkHazard! methodology",
+      "publisher": "GFDRR",
+      "url": "https://gfdrr.github.io/thinkhazardmethods/",
+      "review_depth": "method_documentation_reviewed",
+      "accessed_on": "2026-11-10",
+      "scope": "Public description or selected documentation only; no complete scientific validation or live tool execution."
+    },
+    {
+      "id": "workheat",
+      "title": "WorkHeat introduction",
+      "publisher": "ClimateCHIP",
+      "url": "https://www.climatechip.org/heat-effects-assessment-tool",
+      "review_depth": "source_page_reviewed",
+      "accessed_on": "2026-11-10",
+      "scope": "Public description or selected documentation only; no complete scientific validation or live tool execution."
+    },
+    {
+      "id": "cckp",
+      "title": "CCKP download and API documentation",
+      "publisher": "World Bank",
+      "url": "https://climateknowledgeportal.worldbank.org/download-data",
+      "review_depth": "official_indexed_content_reviewed",
+      "accessed_on": "2026-11-10",
+      "scope": "Public description or selected documentation only; no complete scientific validation or live tool execution."
+    },
+    {
+      "id": "era5",
+      "title": "ERA5-HEAT catalogue",
+      "publisher": "Copernicus / ECMWF",
+      "url": "https://cds.climate.copernicus.eu/datasets/derived-utci-historical?tab=overview",
+      "review_depth": "source_page_reviewed",
+      "accessed_on": "2026-11-10",
+      "scope": "Public description or selected documentation only; no complete scientific validation or live tool execution."
+    },
+    {
+      "id": "imd",
+      "title": "Heat Wave Guidance",
+      "publisher": "India Meteorological Department",
+      "url": "https://mausam.imd.gov.in/responsive/heatwave_guidance.php",
+      "review_depth": "official_indexed_content_reviewed",
+      "accessed_on": "2026-11-10",
+      "scope": "Public description or selected documentation only; no complete scientific validation or live tool execution."
+    },
+    {
+      "id": "sg",
+      "title": "Heat Stress",
+      "publisher": "Meteorological Service Singapore",
+      "url": "https://www.weather.gov.sg/heat-stress",
+      "review_depth": "source_page_reviewed",
+      "accessed_on": "2026-11-10",
+      "scope": "Public description or selected documentation only; no complete scientific validation or live tool execution."
+    },
+    {
+      "id": "bmd",
+      "title": "Warning directory",
+      "publisher": "Bangladesh Meteorological Department",
+      "url": "https://www.bmd.gov.bd/web/en/warning",
+      "review_depth": "source_page_reviewed",
+      "accessed_on": "2026-11-10",
+      "scope": "Public description or selected documentation only; no complete scientific validation or live tool execution."
+    },
+    {
+      "id": "dhm",
+      "title": "Meteorological Forecast Division",
+      "publisher": "DHM, Nepal",
+      "url": "https://dhm.gov.np/mfd/",
+      "review_depth": "official_indexed_content_reviewed",
+      "accessed_on": "2026-11-10",
+      "scope": "Public description or selected documentation only; no complete scientific validation or live tool execution."
+    },
+    {
+      "id": "cbe",
+      "title": "CBE Thermal Comfort Tool",
+      "publisher": "UC Berkeley Center for the Built Environment",
+      "url": "https://comfort.cbe.berkeley.edu/",
+      "review_depth": "source_page_reviewed",
+      "accessed_on": "2026-11-10",
+      "scope": "Public description or selected documentation only; no complete scientific validation or live tool execution."
+    },
+    {
+      "id": "solweig",
+      "title": "SOLWEIG manual",
+      "publisher": "UMEP project",
+      "url": "https://umep-docs.readthedocs.io/en/latest/OtherManuals/SOLWEIG.html?highlight=2022",
+      "review_depth": "method_documentation_reviewed",
+      "accessed_on": "2026-11-10",
+      "scope": "Public description or selected documentation only; no complete scientific validation or live tool execution."
+    },
+    {
+      "id": "edge",
+      "title": "IFC description of EDGE software",
+      "publisher": "IFC",
+      "url": "https://www.ifc.org/en/pressroom/2023/ifc-recognizes-20-global-edge-champions-for-sustainable-building-commitment",
+      "review_depth": "source_page_reviewed",
+      "accessed_on": "2026-11-10",
+      "scope": "Public description or selected documentation only; no complete scientific validation or live tool execution."
+    },
+    {
+      "id": "who_hhap",
+      "title": "Heat–health action plans: guidance, second edition",
+      "publisher": "WHO",
+      "url": "https://www.who.int/kazakhstan/publications/i/item/9789289062930",
+      "review_depth": "source_page_reviewed",
+      "accessed_on": "2026-11-10",
+      "scope": "Public description or selected documentation only; no complete scientific validation or live tool execution."
+    },
+    {
+      "id": "ghhin",
+      "title": "Tools, Products and Services",
+      "publisher": "GHHIN",
+      "url": "https://heathealth.info/tools-products-and-services/",
+      "review_depth": "source_page_reviewed",
+      "accessed_on": "2026-11-10",
+      "scope": "Public description or selected documentation only; no complete scientific validation or live tool execution."
+    },
+    {
+      "id": "niosh",
+      "title": "Heat Safety Tool App",
+      "publisher": "CDC / NIOSH",
+      "url": "https://www.cdc.gov/niosh/heat-stress/communication-resources/app.html",
+      "review_depth": "source_page_reviewed",
+      "accessed_on": "2026-11-10",
+      "scope": "Public description or selected documentation only; no complete scientific validation or live tool execution."
+    },
+    {
+      "id": "who_work",
+      "title": "Climate change and workplace heat stress: report announcement",
+      "publisher": "WHO / WMO",
+      "url": "https://www.who.int/news/item/22-08-2025-who-wmo-issue-new-report-and-guidance-to-protect-workers-from-increasing-heat-stress",
+      "review_depth": "official_indexed_content_reviewed",
+      "accessed_on": "2026-11-10",
+      "scope": "Public description or selected documentation only; no complete scientific validation or live tool execution."
+    },
+    {
+      "id": "cs_build",
+      "title": "Build protection",
+      "publisher": "Common Shade",
+      "url": "https://beattheheat.asia/build/",
+      "review_depth": "source_page_reviewed",
+      "accessed_on": "2026-11-10",
+      "scope": "Public description or selected documentation only; no complete scientific validation or live tool execution."
+    },
+    {
+      "id": "cs_plan",
+      "title": "Plan a response",
+      "publisher": "Common Shade",
+      "url": "https://beattheheat.asia/plan/",
+      "review_depth": "source_page_reviewed",
+      "accessed_on": "2026-11-10",
+      "scope": "Public description or selected documentation only; no complete scientific validation or live tool execution."
+    },
+    {
+      "id": "cs_finance",
+      "title": "Paying when heat strikes",
+      "publisher": "Common Shade",
+      "url": "https://beattheheat.asia/paying-when-heat-strikes/",
+      "review_depth": "source_page_reviewed",
+      "accessed_on": "2026-11-10",
+      "scope": "Public description or selected documentation only; no complete scientific validation or live tool execution."
+    },
+    {
+      "id": "cs_intersections",
+      "title": "Intersections",
+      "publisher": "Common Shade",
+      "url": "https://beattheheat.asia/intersections/",
+      "review_depth": "source_page_reviewed",
+      "accessed_on": "2026-11-10",
+      "scope": "Public description or selected documentation only; no complete scientific validation or live tool execution."
+    }
+  ],
+  "records": [
+    {
+      "id": "ceew",
+      "name": "CEEW District Heat Risk Assessment",
+      "provider": "CEEW",
+      "origin": "external",
+      "resource_type": "assessment",
+      "decision_tags": [
+        "prioritise_places"
+      ],
+      "user_roles": [
+        "city",
+        "funder",
+        "researcher"
+      ],
+      "summary": "District screening using hazard, exposure and vulnerability.",
+      "inputs": [
+        "Choose an Indian district."
+      ],
+      "outputs": [
+        "Published district assessment and state annexures."
+      ],
+      "geography": {
+        "country_codes": [
+          "IN"
+        ],
+        "scope": "country_specific",
+        "asia_applicability": "explicit_geographic_coverage",
+        "local_validation_countries": [],
+        "spatial_scale": "District"
+      },
+      "time_horizons": [
+        "historical"
+      ],
+      "heat_metrics": [
+        "composite_risk"
+      ],
+      "method_summary": "Composite index; published district rankings.",
+      "limitations": [
+        "District ranking does not measure street-level or individual risk. Climate and social inputs have different reference years."
+      ],
+      "access": {
+        "mode": "public_read",
+        "registration_required": false,
+        "price_amount": null,
+        "currency": null,
+        "licence": null,
+        "licence_status": "not_verified",
+        "rehosting_allowed": null
+      },
+      "technical": {
+        "api_status": "not_checked",
+        "api_docs_url": null,
+        "integration_mode": "link_out",
+        "live_execution_tested": false
+      },
+      "evidence": {
+        "review_depth": "source_page_reviewed",
+        "reviewed_on": "2026-11-10",
+        "local_validation_status": "not_assessed",
+        "source_ids": [
+          "ceew"
+        ],
+        "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+      },
+      "publication": {
+        "status": "documented_listing",
+        "featured": false,
+        "maintenance_status": "not_verified",
+        "next_review_due": "2026-12-10"
+      },
+      "links": {
+        "primary_url": "https://www.ceew.in/publications/mapping-climate-risks-and-impacts-of-extreme-heatwave-disaster-in-indian-districts",
+        "common_shade_next_step": "/build/"
+      },
+      "field_provenance": {
+        "provider_facts_source_ids": [
+          "ceew"
+        ],
+        "editorial_fields": [
+          "decision_tags",
+          "user_roles",
+          "geography.asia_applicability",
+          "limitations",
+          "links.common_shade_next_step"
+        ],
+        "unknown_fields": [
+          "access.licence",
+          "access.price_amount",
+          "geography.local_validation_countries"
+        ]
+      },
+      "follow_up_checks": [
+        "Confirm current tool entry point and access conditions.",
+        "Check local applicability and independent evaluation before recommending operational use."
+      ]
+    },
+    {
+      "id": "thinkhazard",
+      "name": "ThinkHazard! — extreme heat",
+      "provider": "GFDRR",
+      "origin": "external",
+      "resource_type": "screening_tool",
+      "decision_tags": [
+        "prioritise_places"
+      ],
+      "user_roles": [
+        "city",
+        "funder",
+        "researcher"
+      ],
+      "summary": "Screen extreme-heat hazard when scoping a project.",
+      "inputs": [
+        "Select a place and the extreme-heat hazard."
+      ],
+      "outputs": [
+        "Hazard category and planning guidance."
+      ],
+      "geography": {
+        "country_codes": [],
+        "scope": "global",
+        "asia_applicability": "editorial_relevance_not_local_validation",
+        "local_validation_countries": [],
+        "spatial_scale": "Administrative area"
+      },
+      "time_horizons": [
+        "historical"
+      ],
+      "heat_metrics": [
+        "wbgt"
+      ],
+      "method_summary": "Probabilistic hazard screening using daily maximum WBGT.",
+      "limitations": [
+        "Hazard is not full risk or a site-specific engineering assessment; do not turn its categories into work-stop thresholds."
+      ],
+      "access": {
+        "mode": "public_read",
+        "registration_required": false,
+        "price_amount": null,
+        "currency": null,
+        "licence": null,
+        "licence_status": "not_verified",
+        "rehosting_allowed": null
+      },
+      "technical": {
+        "api_status": "documented_not_tested",
+        "api_docs_url": "https://gfdrr.github.io/thinkhazardmethods/",
+        "integration_mode": "link_out",
+        "live_execution_tested": false
+      },
+      "evidence": {
+        "review_depth": "method_documentation_reviewed",
+        "reviewed_on": "2026-11-10",
+        "local_validation_status": "not_assessed",
+        "source_ids": [
+          "thinkhazard"
+        ],
+        "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+      },
+      "publication": {
+        "status": "documented_listing",
+        "featured": false,
+        "maintenance_status": "not_verified",
+        "next_review_due": "2026-12-10"
+      },
+      "links": {
+        "primary_url": "https://gfdrr.github.io/thinkhazardmethods/",
+        "common_shade_next_step": "/build/"
+      },
+      "field_provenance": {
+        "provider_facts_source_ids": [
+          "thinkhazard"
+        ],
+        "editorial_fields": [
+          "decision_tags",
+          "user_roles",
+          "geography.asia_applicability",
+          "limitations",
+          "links.common_shade_next_step"
+        ],
+        "unknown_fields": [
+          "access.licence",
+          "access.price_amount",
+          "geography.local_validation_countries"
+        ]
+      },
+      "follow_up_checks": [
+        "Confirm current tool entry point and access conditions.",
+        "Check local applicability and independent evaluation before recommending operational use."
+      ]
+    },
+    {
+      "id": "workheat",
+      "name": "ClimateCHIP WorkHeat",
+      "provider": "ClimateCHIP",
+      "origin": "external",
+      "resource_type": "modelling_tool",
+      "decision_tags": [
+        "protect_workers"
+      ],
+      "user_roles": [
+        "employer",
+        "ngo",
+        "funder",
+        "researcher"
+      ],
+      "summary": "Explore modelled heat challenges for work today and in future climates.",
+      "inputs": [
+        "Location, work type and selected period/scenario."
+      ],
+      "outputs": [
+        "Estimated days needing protective action and potential labour-output effects."
+      ],
+      "geography": {
+        "country_codes": [],
+        "scope": "global",
+        "asia_applicability": "editorial_relevance_not_local_validation",
+        "local_validation_countries": [],
+        "spatial_scale": "0.5-degree grid"
+      },
+      "time_horizons": [
+        "historical_and_future"
+      ],
+      "heat_metrics": [
+        "wbgt"
+      ],
+      "method_summary": "Climate/station inputs and occupational heat modelling.",
+      "limitations": [
+        "Modelled output losses are not measured wages. Grid estimates cannot clear an individual worker for work."
+      ],
+      "access": {
+        "mode": "unknown",
+        "registration_required": null,
+        "price_amount": null,
+        "currency": null,
+        "licence": null,
+        "licence_status": "not_verified",
+        "rehosting_allowed": null
+      },
+      "technical": {
+        "api_status": "not_checked",
+        "api_docs_url": null,
+        "integration_mode": "link_out",
+        "live_execution_tested": false
+      },
+      "evidence": {
+        "review_depth": "source_page_reviewed",
+        "reviewed_on": "2026-11-10",
+        "local_validation_status": "not_assessed",
+        "source_ids": [
+          "workheat"
+        ],
+        "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+      },
+      "publication": {
+        "status": "documented_listing",
+        "featured": false,
+        "maintenance_status": "not_verified",
+        "next_review_due": "2026-12-10"
+      },
+      "links": {
+        "primary_url": "https://www.climatechip.org/heat-effects-assessment-tool",
+        "common_shade_next_step": "/plan/"
+      },
+      "field_provenance": {
+        "provider_facts_source_ids": [
+          "workheat"
+        ],
+        "editorial_fields": [
+          "decision_tags",
+          "user_roles",
+          "geography.asia_applicability",
+          "limitations",
+          "links.common_shade_next_step"
+        ],
+        "unknown_fields": [
+          "access.licence",
+          "access.price_amount",
+          "geography.local_validation_countries"
+        ]
+      },
+      "follow_up_checks": [
+        "Confirm current tool entry point and access conditions.",
+        "Check local applicability and independent evaluation before recommending operational use."
+      ]
+    },
+    {
+      "id": "cckp",
+      "name": "World Bank Climate Change Knowledge Portal",
+      "provider": "World Bank",
+      "origin": "external",
+      "resource_type": "data_portal",
+      "decision_tags": [
+        "understand_future_heat"
+      ],
+      "user_roles": [
+        "city",
+        "funder",
+        "researcher"
+      ],
+      "summary": "Explore comparable historical climate and future scenarios.",
+      "inputs": [
+        "Geography, variable, period, scenario and ensemble statistic."
+      ],
+      "outputs": [
+        "Climate indicators, charts and downloadable data."
+      ],
+      "geography": {
+        "country_codes": [],
+        "scope": "global",
+        "asia_applicability": "editorial_relevance_not_local_validation",
+        "local_validation_countries": [],
+        "spatial_scale": "Grid and aggregated administrative areas"
+      },
+      "time_horizons": [
+        "historical_and_future"
+      ],
+      "heat_metrics": [
+        "air_temperature"
+      ],
+      "method_summary": "Observations, reanalysis and climate-model products; selection dependent.",
+      "limitations": [
+        "Scenario output is not a seasonal forecast. Retain baseline, model, scenario, resolution and uncertainty."
+      ],
+      "access": {
+        "mode": "public_read",
+        "registration_required": false,
+        "price_amount": null,
+        "currency": null,
+        "licence": null,
+        "licence_status": "not_verified",
+        "rehosting_allowed": null
+      },
+      "technical": {
+        "api_status": "documented_not_tested",
+        "api_docs_url": "https://climateknowledgeportal.worldbank.org/download-data",
+        "integration_mode": "link_out",
+        "live_execution_tested": false
+      },
+      "evidence": {
+        "review_depth": "official_indexed_content_reviewed",
+        "reviewed_on": "2026-11-10",
+        "local_validation_status": "not_assessed",
+        "source_ids": [
+          "cckp"
+        ],
+        "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+      },
+      "publication": {
+        "status": "provisional_listing",
+        "featured": false,
+        "maintenance_status": "not_verified",
+        "next_review_due": "2026-12-10"
+      },
+      "links": {
+        "primary_url": "https://climateknowledgeportal.worldbank.org/download-data",
+        "common_shade_next_step": "/build/"
+      },
+      "field_provenance": {
+        "provider_facts_source_ids": [
+          "cckp"
+        ],
+        "editorial_fields": [
+          "decision_tags",
+          "user_roles",
+          "geography.asia_applicability",
+          "limitations",
+          "links.common_shade_next_step"
+        ],
+        "unknown_fields": [
+          "access.licence",
+          "access.price_amount",
+          "geography.local_validation_countries"
+        ]
+      },
+      "follow_up_checks": [
+        "Confirm current tool entry point and access conditions.",
+        "Check local applicability and independent evaluation before recommending operational use."
+      ]
+    },
+    {
+      "id": "era5",
+      "name": "Copernicus ERA5-HEAT",
+      "provider": "Copernicus / ECMWF",
+      "origin": "external",
+      "resource_type": "dataset",
+      "decision_tags": [
+        "analyse_exposure"
+      ],
+      "user_roles": [
+        "researcher",
+        "city"
+      ],
+      "summary": "Analyse historical outdoor thermal conditions.",
+      "inputs": [
+        "Area or point, dates and variable; technical data workflow."
+      ],
+      "outputs": [
+        "UTCI and mean radiant temperature data."
+      ],
+      "geography": {
+        "country_codes": [],
+        "scope": "global_except_antarctica",
+        "asia_applicability": "editorial_relevance_not_local_validation",
+        "local_validation_countries": [],
+        "spatial_scale": "0.25-degree grid"
+      },
+      "time_horizons": [
+        "historical"
+      ],
+      "heat_metrics": [
+        "utci"
+      ],
+      "method_summary": "ERA5-derived reanalysis product.",
+      "limitations": [
+        "Reanalysis is not a local measurement; outdoor grid estimates do not describe indoor rooms or specific workloads."
+      ],
+      "access": {
+        "mode": "registration_for_data",
+        "registration_required": true,
+        "price_amount": null,
+        "currency": null,
+        "licence": null,
+        "licence_status": "not_verified",
+        "rehosting_allowed": null
+      },
+      "technical": {
+        "api_status": "not_checked",
+        "api_docs_url": null,
+        "integration_mode": "link_out",
+        "live_execution_tested": false
+      },
+      "evidence": {
+        "review_depth": "source_page_reviewed",
+        "reviewed_on": "2026-11-10",
+        "local_validation_status": "not_assessed",
+        "source_ids": [
+          "era5"
+        ],
+        "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+      },
+      "publication": {
+        "status": "documented_listing",
+        "featured": false,
+        "maintenance_status": "not_verified",
+        "next_review_due": "2026-12-10"
+      },
+      "links": {
+        "primary_url": "https://cds.climate.copernicus.eu/datasets/derived-utci-historical?tab=overview",
+        "common_shade_next_step": "/build/"
+      },
+      "field_provenance": {
+        "provider_facts_source_ids": [
+          "era5"
+        ],
+        "editorial_fields": [
+          "decision_tags",
+          "user_roles",
+          "geography.asia_applicability",
+          "limitations",
+          "links.common_shade_next_step"
+        ],
+        "unknown_fields": [
+          "access.licence",
+          "access.price_amount",
+          "geography.local_validation_countries"
+        ]
+      },
+      "follow_up_checks": [
+        "Confirm current tool entry point and access conditions.",
+        "Check local applicability and independent evaluation before recommending operational use."
+      ]
+    },
+    {
+      "id": "imd",
+      "name": "IMD Heat Wave Guidance",
+      "provider": "India Meteorological Department",
+      "origin": "external",
+      "resource_type": "warning_service",
+      "decision_tags": [
+        "check_warnings"
+      ],
+      "user_roles": [
+        "city",
+        "employer",
+        "ngo",
+        "health"
+      ],
+      "summary": "Find India's official heat bulletins and outlooks.",
+      "inputs": [
+        "Select the relevant bulletin, place and validity period."
+      ],
+      "outputs": [
+        "Official heatwave warnings, outlooks and links to experimental heat index."
+      ],
+      "geography": {
+        "country_codes": [
+          "IN"
+        ],
+        "scope": "country_specific",
+        "asia_applicability": "explicit_geographic_coverage",
+        "local_validation_countries": [],
+        "spatial_scale": "District / subdivision / station, product dependent"
+      },
+      "time_horizons": [
+        "operational"
+      ],
+      "heat_metrics": [
+        "multiple_not_interchangeable"
+      ],
+      "method_summary": "Official meteorological products; methods differ by product.",
+      "limitations": [
+        "Check issue and validity times at source. Experimental heat index is not a WBGT measurement or workplace safety clearance."
+      ],
+      "access": {
+        "mode": "public_read",
+        "registration_required": false,
+        "price_amount": null,
+        "currency": null,
+        "licence": null,
+        "licence_status": "not_verified",
+        "rehosting_allowed": null
+      },
+      "technical": {
+        "api_status": "not_checked",
+        "api_docs_url": null,
+        "integration_mode": "link_out",
+        "live_execution_tested": false
+      },
+      "evidence": {
+        "review_depth": "official_indexed_content_reviewed",
+        "reviewed_on": "2026-11-10",
+        "local_validation_status": "not_assessed",
+        "source_ids": [
+          "imd"
+        ],
+        "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+      },
+      "publication": {
+        "status": "provisional_listing",
+        "featured": false,
+        "maintenance_status": "not_verified",
+        "next_review_due": "2026-12-10"
+      },
+      "links": {
+        "primary_url": "https://mausam.imd.gov.in/responsive/heatwave_guidance.php",
+        "common_shade_next_step": "/plan/"
+      },
+      "field_provenance": {
+        "provider_facts_source_ids": [
+          "imd"
+        ],
+        "editorial_fields": [
+          "decision_tags",
+          "user_roles",
+          "geography.asia_applicability",
+          "limitations",
+          "links.common_shade_next_step"
+        ],
+        "unknown_fields": [
+          "access.licence",
+          "access.price_amount",
+          "geography.local_validation_countries"
+        ]
+      },
+      "follow_up_checks": [
+        "Confirm current tool entry point and access conditions.",
+        "Check local applicability and independent evaluation before recommending operational use."
+      ]
+    },
+    {
+      "id": "sg",
+      "name": "Singapore Heat Stress Advisory",
+      "provider": "Meteorological Service Singapore",
+      "origin": "external",
+      "resource_type": "warning_service",
+      "decision_tags": [
+        "check_warnings"
+      ],
+      "user_roles": [
+        "city",
+        "employer",
+        "ngo",
+        "health"
+      ],
+      "summary": "Consult Singapore's outdoor heat-stress readings and public advisory.",
+      "inputs": [
+        "Select sensor location and inspect observation time."
+      ],
+      "outputs": [
+        "WBGT-based heat-stress category and public advice."
+      ],
+      "geography": {
+        "country_codes": [
+          "SG"
+        ],
+        "scope": "country_specific",
+        "asia_applicability": "explicit_geographic_coverage",
+        "local_validation_countries": [],
+        "spatial_scale": "Sensor locations"
+      },
+      "time_horizons": [
+        "operational"
+      ],
+      "heat_metrics": [
+        "wbgt"
+      ],
+      "method_summary": "Sensor-based WBGT; page describes a 15-minute average.",
+      "limitations": [
+        "General-population outdoor advisory; local workplace conditions and occupational requirements need separate assessment."
+      ],
+      "access": {
+        "mode": "public_read",
+        "registration_required": false,
+        "price_amount": null,
+        "currency": null,
+        "licence": null,
+        "licence_status": "not_verified",
+        "rehosting_allowed": null
+      },
+      "technical": {
+        "api_status": "not_checked",
+        "api_docs_url": null,
+        "integration_mode": "link_out",
+        "live_execution_tested": false
+      },
+      "evidence": {
+        "review_depth": "source_page_reviewed",
+        "reviewed_on": "2026-11-10",
+        "local_validation_status": "not_assessed",
+        "source_ids": [
+          "sg"
+        ],
+        "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+      },
+      "publication": {
+        "status": "documented_listing",
+        "featured": false,
+        "maintenance_status": "not_verified",
+        "next_review_due": "2026-12-10"
+      },
+      "links": {
+        "primary_url": "https://www.weather.gov.sg/heat-stress",
+        "common_shade_next_step": "/plan/"
+      },
+      "field_provenance": {
+        "provider_facts_source_ids": [
+          "sg"
+        ],
+        "editorial_fields": [
+          "decision_tags",
+          "user_roles",
+          "geography.asia_applicability",
+          "limitations",
+          "links.common_shade_next_step"
+        ],
+        "unknown_fields": [
+          "access.licence",
+          "access.price_amount",
+          "geography.local_validation_countries"
+        ]
+      },
+      "follow_up_checks": [
+        "Confirm current tool entry point and access conditions.",
+        "Check local applicability and independent evaluation before recommending operational use."
+      ]
+    },
+    {
+      "id": "bmd",
+      "name": "BMD Heat Wave Warnings",
+      "provider": "Bangladesh Meteorological Department",
+      "origin": "external",
+      "resource_type": "warning_service",
+      "decision_tags": [
+        "check_warnings"
+      ],
+      "user_roles": [
+        "city",
+        "employer",
+        "ngo",
+        "health"
+      ],
+      "summary": "Find Bangladesh's official heat-wave warning service.",
+      "inputs": [
+        "Open the heat-wave warning from the official directory."
+      ],
+      "outputs": [
+        "Official warning bulletin when issued."
+      ],
+      "geography": {
+        "country_codes": [
+          "BD"
+        ],
+        "scope": "country_specific",
+        "asia_applicability": "explicit_geographic_coverage",
+        "local_validation_countries": [],
+        "spatial_scale": "Bulletin dependent"
+      },
+      "time_horizons": [
+        "operational"
+      ],
+      "heat_metrics": [
+        "provider_defined"
+      ],
+      "method_summary": "National meteorological warning service.",
+      "limitations": [
+        "Directory existence does not establish that an active warning exists today. Check the bulletin date, scope and validity."
+      ],
+      "access": {
+        "mode": "public_read",
+        "registration_required": false,
+        "price_amount": null,
+        "currency": null,
+        "licence": null,
+        "licence_status": "not_verified",
+        "rehosting_allowed": null
+      },
+      "technical": {
+        "api_status": "not_checked",
+        "api_docs_url": null,
+        "integration_mode": "link_out",
+        "live_execution_tested": false
+      },
+      "evidence": {
+        "review_depth": "source_page_reviewed",
+        "reviewed_on": "2026-11-10",
+        "local_validation_status": "not_assessed",
+        "source_ids": [
+          "bmd"
+        ],
+        "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+      },
+      "publication": {
+        "status": "documented_listing",
+        "featured": false,
+        "maintenance_status": "not_verified",
+        "next_review_due": "2026-12-10"
+      },
+      "links": {
+        "primary_url": "https://www.bmd.gov.bd/web/en/warning",
+        "common_shade_next_step": "/plan/"
+      },
+      "field_provenance": {
+        "provider_facts_source_ids": [
+          "bmd"
+        ],
+        "editorial_fields": [
+          "decision_tags",
+          "user_roles",
+          "geography.asia_applicability",
+          "limitations",
+          "links.common_shade_next_step"
+        ],
+        "unknown_fields": [
+          "access.licence",
+          "access.price_amount",
+          "geography.local_validation_countries"
+        ]
+      },
+      "follow_up_checks": [
+        "Confirm current tool entry point and access conditions.",
+        "Check local applicability and independent evaluation before recommending operational use."
+      ]
+    },
+    {
+      "id": "dhm",
+      "name": "Nepal DHM Weather and Heat-Wave Bulletins",
+      "provider": "DHM, Nepal",
+      "origin": "external",
+      "resource_type": "warning_service",
+      "decision_tags": [
+        "check_warnings"
+      ],
+      "user_roles": [
+        "city",
+        "employer",
+        "ngo",
+        "health"
+      ],
+      "summary": "Find Nepal's meteorological warnings and heat-wave monitoring.",
+      "inputs": [
+        "Navigate to current warnings or heat-wave monitoring."
+      ],
+      "outputs": [
+        "Official bulletins and monitoring products."
+      ],
+      "geography": {
+        "country_codes": [
+          "NP"
+        ],
+        "scope": "country_specific",
+        "asia_applicability": "explicit_geographic_coverage",
+        "local_validation_countries": [],
+        "spatial_scale": "Bulletin dependent"
+      },
+      "time_horizons": [
+        "operational"
+      ],
+      "heat_metrics": [
+        "provider_defined"
+      ],
+      "method_summary": "National meteorological warning service.",
+      "limitations": [
+        "Retrieved direct page required JavaScript; heat-wave services confirmed in indexed official text. Verify the current bulletin before relying on it."
+      ],
+      "access": {
+        "mode": "public_read",
+        "registration_required": null,
+        "price_amount": null,
+        "currency": null,
+        "licence": null,
+        "licence_status": "not_verified",
+        "rehosting_allowed": null
+      },
+      "technical": {
+        "api_status": "not_checked",
+        "api_docs_url": null,
+        "integration_mode": "link_out",
+        "live_execution_tested": false
+      },
+      "evidence": {
+        "review_depth": "official_indexed_content_reviewed",
+        "reviewed_on": "2026-11-10",
+        "local_validation_status": "not_assessed",
+        "source_ids": [
+          "dhm"
+        ],
+        "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+      },
+      "publication": {
+        "status": "provisional_listing",
+        "featured": false,
+        "maintenance_status": "not_verified",
+        "next_review_due": "2026-12-10"
+      },
+      "links": {
+        "primary_url": "https://dhm.gov.np/mfd/",
+        "common_shade_next_step": "/plan/"
+      },
+      "field_provenance": {
+        "provider_facts_source_ids": [
+          "dhm"
+        ],
+        "editorial_fields": [
+          "decision_tags",
+          "user_roles",
+          "geography.asia_applicability",
+          "limitations",
+          "links.common_shade_next_step"
+        ],
+        "unknown_fields": [
+          "access.licence",
+          "access.price_amount",
+          "geography.local_validation_countries"
+        ]
+      },
+      "follow_up_checks": [
+        "Confirm current tool entry point and access conditions.",
+        "Check local applicability and independent evaluation before recommending operational use."
+      ]
+    },
+    {
+      "id": "cbe",
+      "name": "CBE Thermal Comfort Tool",
+      "provider": "UC Berkeley Center for the Built Environment",
+      "origin": "external",
+      "resource_type": "calculator",
+      "decision_tags": [
+        "design_cooling"
+      ],
+      "user_roles": [
+        "designer",
+        "researcher",
+        "employer"
+      ],
+      "summary": "Compare indoor thermal-comfort design conditions.",
+      "inputs": [
+        "Temperature, humidity, air speed, radiation, clothing and activity, depending on method."
+      ],
+      "outputs": [
+        "Comfort-model calculations and visual comparison."
+      ],
+      "geography": {
+        "country_codes": [],
+        "scope": "input_based_not_geographic",
+        "asia_applicability": "editorial_relevance_not_local_validation",
+        "local_validation_countries": [],
+        "spatial_scale": "Room / occupant model"
+      },
+      "time_horizons": [
+        "design_scenario"
+      ],
+      "heat_metrics": [
+        "thermal_comfort"
+      ],
+      "method_summary": "Thermal comfort models and documented standards.",
+      "limitations": [
+        "Comfort predictions are not medical safety limits. Check each model's population and applicability assumptions."
+      ],
+      "access": {
+        "mode": "free_tool",
+        "registration_required": false,
+        "price_amount": null,
+        "currency": null,
+        "licence": null,
+        "licence_status": "not_verified",
+        "rehosting_allowed": null
+      },
+      "technical": {
+        "api_status": "not_checked",
+        "api_docs_url": null,
+        "integration_mode": "link_out",
+        "live_execution_tested": false
+      },
+      "evidence": {
+        "review_depth": "source_page_reviewed",
+        "reviewed_on": "2026-11-10",
+        "local_validation_status": "not_assessed",
+        "source_ids": [
+          "cbe"
+        ],
+        "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+      },
+      "publication": {
+        "status": "documented_listing",
+        "featured": false,
+        "maintenance_status": "not_verified",
+        "next_review_due": "2026-12-10"
+      },
+      "links": {
+        "primary_url": "https://comfort.cbe.berkeley.edu/",
+        "common_shade_next_step": "/build/"
+      },
+      "field_provenance": {
+        "provider_facts_source_ids": [
+          "cbe"
+        ],
+        "editorial_fields": [
+          "decision_tags",
+          "user_roles",
+          "geography.asia_applicability",
+          "limitations",
+          "links.common_shade_next_step"
+        ],
+        "unknown_fields": [
+          "access.licence",
+          "access.price_amount",
+          "geography.local_validation_countries"
+        ]
+      },
+      "follow_up_checks": [
+        "Confirm current tool entry point and access conditions.",
+        "Check local applicability and independent evaluation before recommending operational use."
+      ]
+    },
+    {
+      "id": "solweig",
+      "name": "UMEP / SOLWEIG",
+      "provider": "UMEP project",
+      "origin": "external",
+      "resource_type": "modelling_tool",
+      "decision_tags": [
+        "design_cooling"
+      ],
+      "user_roles": [
+        "designer",
+        "researcher",
+        "city"
+      ],
+      "summary": "Examine how urban form and vegetation affect radiant heat and shade.",
+      "inputs": [
+        "Urban geometry, location and meteorological inputs; QGIS/UMEP workflow."
+      ],
+      "outputs": [
+        "Modelled mean radiant temperature and shadow patterns."
+      ],
+      "geography": {
+        "country_codes": [],
+        "scope": "input_based_not_geographic",
+        "asia_applicability": "editorial_relevance_not_local_validation",
+        "local_validation_countries": [],
+        "spatial_scale": "Urban geometry / model grid"
+      },
+      "time_horizons": [
+        "design_scenario"
+      ],
+      "heat_metrics": [
+        "mean_radiant_temperature"
+      ],
+      "method_summary": "Radiation modelling in complex urban settings.",
+      "limitations": [
+        "Technical inputs and local validation are required; output is not measured air temperature or proven illness reduction."
+      ],
+      "access": {
+        "mode": "unknown",
+        "registration_required": null,
+        "price_amount": null,
+        "currency": null,
+        "licence": null,
+        "licence_status": "not_verified",
+        "rehosting_allowed": null
+      },
+      "technical": {
+        "api_status": "not_checked",
+        "api_docs_url": null,
+        "integration_mode": "link_out",
+        "live_execution_tested": false
+      },
+      "evidence": {
+        "review_depth": "method_documentation_reviewed",
+        "reviewed_on": "2026-11-10",
+        "local_validation_status": "not_assessed",
+        "source_ids": [
+          "solweig"
+        ],
+        "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+      },
+      "publication": {
+        "status": "documented_listing",
+        "featured": false,
+        "maintenance_status": "not_verified",
+        "next_review_due": "2026-12-10"
+      },
+      "links": {
+        "primary_url": "https://umep-docs.readthedocs.io/en/latest/OtherManuals/SOLWEIG.html?highlight=2022",
+        "common_shade_next_step": "/build/"
+      },
+      "field_provenance": {
+        "provider_facts_source_ids": [
+          "solweig"
+        ],
+        "editorial_fields": [
+          "decision_tags",
+          "user_roles",
+          "geography.asia_applicability",
+          "limitations",
+          "links.common_shade_next_step"
+        ],
+        "unknown_fields": [
+          "access.licence",
+          "access.price_amount",
+          "geography.local_validation_countries"
+        ]
+      },
+      "follow_up_checks": [
+        "Confirm current tool entry point and access conditions.",
+        "Check local applicability and independent evaluation before recommending operational use."
+      ]
+    },
+    {
+      "id": "edge",
+      "name": "IFC EDGE",
+      "provider": "IFC",
+      "origin": "external",
+      "resource_type": "modelling_tool",
+      "decision_tags": [
+        "design_cooling"
+      ],
+      "user_roles": [
+        "designer",
+        "funder"
+      ],
+      "summary": "Explore building resource-efficiency options, including cooling-related design.",
+      "inputs": [
+        "Building type, location and design specifications."
+      ],
+      "outputs": [
+        "Modelled resource savings; consult current software for cost outputs."
+      ],
+      "geography": {
+        "country_codes": [],
+        "scope": "provider_coverage_check",
+        "asia_applicability": "editorial_relevance_not_local_validation",
+        "local_validation_countries": [],
+        "spatial_scale": "Building"
+      },
+      "time_horizons": [
+        "design_scenario"
+      ],
+      "heat_metrics": [
+        "energy_resource_use"
+      ],
+      "method_summary": "Building efficiency modelling.",
+      "limitations": [
+        "Energy savings do not demonstrate safe indoor conditions during extreme heat. Software access and certification costs are separate."
+      ],
+      "access": {
+        "mode": "free_tool",
+        "registration_required": null,
+        "price_amount": null,
+        "currency": null,
+        "licence": null,
+        "licence_status": "not_verified",
+        "rehosting_allowed": null
+      },
+      "technical": {
+        "api_status": "not_checked",
+        "api_docs_url": null,
+        "integration_mode": "link_out",
+        "live_execution_tested": false
+      },
+      "evidence": {
+        "review_depth": "source_page_reviewed",
+        "reviewed_on": "2026-11-10",
+        "local_validation_status": "not_assessed",
+        "source_ids": [
+          "edge"
+        ],
+        "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+      },
+      "publication": {
+        "status": "documented_listing",
+        "featured": false,
+        "maintenance_status": "not_verified",
+        "next_review_due": "2026-12-10"
+      },
+      "links": {
+        "primary_url": "https://www.ifc.org/en/pressroom/2023/ifc-recognizes-20-global-edge-champions-for-sustainable-building-commitment",
+        "common_shade_next_step": "/build/"
+      },
+      "field_provenance": {
+        "provider_facts_source_ids": [
+          "edge"
+        ],
+        "editorial_fields": [
+          "decision_tags",
+          "user_roles",
+          "geography.asia_applicability",
+          "limitations",
+          "links.common_shade_next_step"
+        ],
+        "unknown_fields": [
+          "access.licence",
+          "access.price_amount",
+          "geography.local_validation_countries"
+        ]
+      },
+      "follow_up_checks": [
+        "Confirm current tool entry point and access conditions.",
+        "Check local applicability and independent evaluation before recommending operational use."
+      ]
+    },
+    {
+      "id": "who_hhap",
+      "name": "WHO Heat–Health Action Plans Guidance (2026)",
+      "provider": "WHO",
+      "origin": "external",
+      "resource_type": "guidance",
+      "decision_tags": [
+        "plan_response"
+      ],
+      "user_roles": [
+        "city",
+        "health",
+        "ngo"
+      ],
+      "summary": "Structure a coordinated heat–health action plan.",
+      "inputs": [
+        "Local institutions, vulnerable groups, services and preparedness context."
+      ],
+      "outputs": [
+        "Eight-element planning framework and action briefs."
+      ],
+      "geography": {
+        "country_codes": [],
+        "scope": "europe_adaptable",
+        "asia_applicability": "requires_contextual_adaptation",
+        "local_validation_countries": [],
+        "spatial_scale": "National / regional / local"
+      },
+      "time_horizons": [
+        "planning"
+      ],
+      "heat_metrics": [
+        "not_applicable"
+      ],
+      "method_summary": "Implementation guidance.",
+      "limitations": [
+        "Developed for WHO Europe and adaptable elsewhere; local law, climate and institutional roles must be checked."
+      ],
+      "access": {
+        "mode": "public_read",
+        "registration_required": false,
+        "price_amount": null,
+        "currency": null,
+        "licence": null,
+        "licence_status": "not_verified",
+        "rehosting_allowed": null
+      },
+      "technical": {
+        "api_status": "not_checked",
+        "api_docs_url": null,
+        "integration_mode": "link_out",
+        "live_execution_tested": false
+      },
+      "evidence": {
+        "review_depth": "source_page_reviewed",
+        "reviewed_on": "2026-11-10",
+        "local_validation_status": "not_assessed",
+        "source_ids": [
+          "who_hhap"
+        ],
+        "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+      },
+      "publication": {
+        "status": "documented_listing",
+        "featured": false,
+        "maintenance_status": "not_verified",
+        "next_review_due": "2026-12-10"
+      },
+      "links": {
+        "primary_url": "https://www.who.int/kazakhstan/publications/i/item/9789289062930",
+        "common_shade_next_step": "/plan/"
+      },
+      "field_provenance": {
+        "provider_facts_source_ids": [
+          "who_hhap"
+        ],
+        "editorial_fields": [
+          "decision_tags",
+          "user_roles",
+          "geography.asia_applicability",
+          "limitations",
+          "links.common_shade_next_step"
+        ],
+        "unknown_fields": [
+          "access.licence",
+          "access.price_amount",
+          "geography.local_validation_countries"
+        ]
+      },
+      "follow_up_checks": [
+        "Confirm current tool entry point and access conditions.",
+        "Check local applicability and independent evaluation before recommending operational use."
+      ]
+    },
+    {
+      "id": "ghhin",
+      "name": "GHHIN Heat Tool Directory",
+      "provider": "GHHIN",
+      "origin": "external",
+      "resource_type": "directory",
+      "decision_tags": [
+        "find_resources"
+      ],
+      "user_roles": [
+        "city",
+        "health",
+        "ngo",
+        "researcher"
+      ],
+      "summary": "Discover additional operational heat-health resources.",
+      "inputs": [
+        "Topic, place and context filters."
+      ],
+      "outputs": [
+        "Links to tools, products and services."
+      ],
+      "geography": {
+        "country_codes": [],
+        "scope": "multiple_regions",
+        "asia_applicability": "editorial_relevance_not_local_validation",
+        "local_validation_countries": [],
+        "spatial_scale": "Varies by listed resource"
+      },
+      "time_horizons": [
+        "multiple"
+      ],
+      "heat_metrics": [
+        "multiple_not_interchangeable"
+      ],
+      "method_summary": "Curated resource directory.",
+      "limitations": [
+        "A listing is not an independent validation. Verify each underlying resource's coverage and current operation."
+      ],
+      "access": {
+        "mode": "public_read",
+        "registration_required": false,
+        "price_amount": null,
+        "currency": null,
+        "licence": null,
+        "licence_status": "not_verified",
+        "rehosting_allowed": null
+      },
+      "technical": {
+        "api_status": "not_checked",
+        "api_docs_url": null,
+        "integration_mode": "link_out",
+        "live_execution_tested": false
+      },
+      "evidence": {
+        "review_depth": "source_page_reviewed",
+        "reviewed_on": "2026-11-10",
+        "local_validation_status": "not_assessed",
+        "source_ids": [
+          "ghhin"
+        ],
+        "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+      },
+      "publication": {
+        "status": "documented_listing",
+        "featured": false,
+        "maintenance_status": "not_verified",
+        "next_review_due": "2026-12-10"
+      },
+      "links": {
+        "primary_url": "https://heathealth.info/tools-products-and-services/",
+        "common_shade_next_step": "/build/"
+      },
+      "field_provenance": {
+        "provider_facts_source_ids": [
+          "ghhin"
+        ],
+        "editorial_fields": [
+          "decision_tags",
+          "user_roles",
+          "geography.asia_applicability",
+          "limitations",
+          "links.common_shade_next_step"
+        ],
+        "unknown_fields": [
+          "access.licence",
+          "access.price_amount",
+          "geography.local_validation_countries"
+        ]
+      },
+      "follow_up_checks": [
+        "Confirm current tool entry point and access conditions.",
+        "Check local applicability and independent evaluation before recommending operational use."
+      ]
+    },
+    {
+      "id": "niosh",
+      "name": "OSHA–NIOSH Heat Safety Tool",
+      "provider": "CDC / NIOSH",
+      "origin": "external",
+      "resource_type": "mobile_app",
+      "decision_tags": [
+        "protect_workers"
+      ],
+      "user_roles": [
+        "employer",
+        "ngo"
+      ],
+      "summary": "Understand a widely cited occupational heat-index app and its present limitations.",
+      "inputs": [
+        "Location or manually entered conditions."
+      ],
+      "outputs": [
+        "Heat index, forecasts and precautions described by the provider."
+      ],
+      "geography": {
+        "country_codes": [
+          "US"
+        ],
+        "scope": "asia_coverage_unverified",
+        "asia_applicability": "unverified",
+        "local_validation_countries": [],
+        "spatial_scale": "Location / manual conditions"
+      },
+      "time_horizons": [
+        "operational"
+      ],
+      "heat_metrics": [
+        "heat_index"
+      ],
+      "method_summary": "Heat-index screening.",
+      "limitations": [
+        "Official page says the app is not receiving updates at present. Asian forecast coverage was not verified. Do not present as an operational default."
+      ],
+      "access": {
+        "mode": "free_tool",
+        "registration_required": null,
+        "price_amount": null,
+        "currency": null,
+        "licence": null,
+        "licence_status": "not_verified",
+        "rehosting_allowed": null
+      },
+      "technical": {
+        "api_status": "not_checked",
+        "api_docs_url": null,
+        "integration_mode": "link_out",
+        "live_execution_tested": false
+      },
+      "evidence": {
+        "review_depth": "source_page_reviewed",
+        "reviewed_on": "2026-11-10",
+        "local_validation_status": "not_assessed",
+        "source_ids": [
+          "niosh"
+        ],
+        "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+      },
+      "publication": {
+        "status": "caution_listing",
+        "featured": false,
+        "maintenance_status": "provider_reports_updates_paused",
+        "next_review_due": "2026-12-10"
+      },
+      "links": {
+        "primary_url": "https://www.cdc.gov/niosh/heat-stress/communication-resources/app.html",
+        "common_shade_next_step": "/plan/"
+      },
+      "field_provenance": {
+        "provider_facts_source_ids": [
+          "niosh"
+        ],
+        "editorial_fields": [
+          "decision_tags",
+          "user_roles",
+          "geography.asia_applicability",
+          "limitations",
+          "links.common_shade_next_step"
+        ],
+        "unknown_fields": [
+          "access.licence",
+          "access.price_amount",
+          "geography.local_validation_countries"
+        ]
+      },
+      "follow_up_checks": [
+        "Confirm current tool entry point and access conditions.",
+        "Check local applicability and independent evaluation before recommending operational use."
+      ]
+    },
+    {
+      "id": "who_work",
+      "name": "WHO–WMO Workplace Heat Stress Guidance (2025)",
+      "provider": "WHO / WMO",
+      "origin": "external",
+      "resource_type": "guidance",
+      "decision_tags": [
+        "protect_workers"
+      ],
+      "user_roles": [
+        "employer",
+        "ngo",
+        "health",
+        "city"
+      ],
+      "summary": "Develop locally appropriate occupational heat-protection plans.",
+      "inputs": [
+        "Workplace exposures, tasks, workers and delivery arrangements."
+      ],
+      "outputs": [
+        "Guidance for occupational heat policy and action."
+      ],
+      "geography": {
+        "country_codes": [],
+        "scope": "global_guidance",
+        "asia_applicability": "editorial_relevance_not_local_validation",
+        "local_validation_countries": [],
+        "spatial_scale": "Workplace / sector"
+      },
+      "time_horizons": [
+        "planning"
+      ],
+      "heat_metrics": [
+        "multiple_not_interchangeable"
+      ],
+      "method_summary": "Technical guidance; this record reviews the official announcement only.",
+      "limitations": [
+        "Read the full technical report before operational use; do not extract universal productivity or safety thresholds from a press summary."
+      ],
+      "access": {
+        "mode": "public_read",
+        "registration_required": false,
+        "price_amount": null,
+        "currency": null,
+        "licence": null,
+        "licence_status": "not_verified",
+        "rehosting_allowed": null
+      },
+      "technical": {
+        "api_status": "not_checked",
+        "api_docs_url": null,
+        "integration_mode": "link_out",
+        "live_execution_tested": false
+      },
+      "evidence": {
+        "review_depth": "official_indexed_content_reviewed",
+        "reviewed_on": "2026-11-10",
+        "local_validation_status": "not_assessed",
+        "source_ids": [
+          "who_work"
+        ],
+        "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+      },
+      "publication": {
+        "status": "provisional_listing",
+        "featured": false,
+        "maintenance_status": "not_verified",
+        "next_review_due": "2026-12-10"
+      },
+      "links": {
+        "primary_url": "https://www.who.int/news/item/22-08-2025-who-wmo-issue-new-report-and-guidance-to-protect-workers-from-increasing-heat-stress",
+        "common_shade_next_step": "/plan/"
+      },
+      "field_provenance": {
+        "provider_facts_source_ids": [
+          "who_work"
+        ],
+        "editorial_fields": [
+          "decision_tags",
+          "user_roles",
+          "geography.asia_applicability",
+          "limitations",
+          "links.common_shade_next_step"
+        ],
+        "unknown_fields": [
+          "access.licence",
+          "access.price_amount",
+          "geography.local_validation_countries"
+        ]
+      },
+      "follow_up_checks": [
+        "Confirm current tool entry point and access conditions.",
+        "Check local applicability and independent evaluation before recommending operational use."
+      ]
+    },
+    {
+      "id": "cs_build",
+      "name": "Common Shade — Build protection",
+      "provider": "Common Shade",
+      "origin": "common_shade",
+      "resource_type": "planning_tool",
+      "decision_tags": [
+        "plan_response"
+      ],
+      "user_roles": [
+        "city",
+        "ngo",
+        "funder",
+        "employer"
+      ],
+      "summary": "Assemble a package of protection and explore possible system links.",
+      "inputs": [
+        "Setting and selected actions."
+      ],
+      "outputs": [
+        "Illustrative package connected to the systems map."
+      ],
+      "geography": {
+        "country_codes": [],
+        "scope": "south_southeast_asia",
+        "asia_applicability": "editorial_relevance_not_local_validation",
+        "local_validation_countries": [],
+        "spatial_scale": "Illustrative place"
+      },
+      "time_horizons": [
+        "planning"
+      ],
+      "heat_metrics": [
+        "not_applicable"
+      ],
+      "method_summary": "Editorial systems mapping.",
+      "limitations": [
+        "Highlighted cycles indicate possible connections, not quantified impact or certified protection."
+      ],
+      "access": {
+        "mode": "free_tool",
+        "registration_required": false,
+        "price_amount": null,
+        "currency": null,
+        "licence": null,
+        "licence_status": "not_verified",
+        "rehosting_allowed": null
+      },
+      "technical": {
+        "api_status": "not_checked",
+        "api_docs_url": null,
+        "integration_mode": "link_out",
+        "live_execution_tested": false
+      },
+      "evidence": {
+        "review_depth": "source_page_reviewed",
+        "reviewed_on": "2026-11-10",
+        "local_validation_status": "not_assessed",
+        "source_ids": [
+          "cs_build"
+        ],
+        "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+      },
+      "publication": {
+        "status": "documented_listing",
+        "featured": false,
+        "maintenance_status": "not_verified",
+        "next_review_due": "2026-12-10"
+      },
+      "links": {
+        "primary_url": "https://beattheheat.asia/build/",
+        "common_shade_next_step": "/plan/"
+      },
+      "field_provenance": {
+        "provider_facts_source_ids": [
+          "cs_build"
+        ],
+        "editorial_fields": [
+          "decision_tags",
+          "user_roles",
+          "geography.asia_applicability",
+          "limitations",
+          "links.common_shade_next_step"
+        ],
+        "unknown_fields": [
+          "access.licence",
+          "access.price_amount",
+          "geography.local_validation_countries"
+        ]
+      },
+      "follow_up_checks": [
+        "Confirm current tool entry point and access conditions.",
+        "Check local applicability and independent evaluation before recommending operational use."
+      ]
+    },
+    {
+      "id": "cs_plan",
+      "name": "Common Shade — Plan a response",
+      "provider": "Common Shade",
+      "origin": "common_shade",
+      "resource_type": "planning_tool",
+      "decision_tags": [
+        "plan_response"
+      ],
+      "user_roles": [
+        "city",
+        "ngo",
+        "health",
+        "employer",
+        "funder"
+      ],
+      "summary": "Translate a protection idea into a practical team workbook.",
+      "inputs": [
+        "People, actions, roles, payers, triggers and checks."
+      ],
+      "outputs": [
+        "Six-step response plan."
+      ],
+      "geography": {
+        "country_codes": [],
+        "scope": "south_southeast_asia",
+        "asia_applicability": "editorial_relevance_not_local_validation",
+        "local_validation_countries": [],
+        "spatial_scale": "Team / place"
+      },
+      "time_horizons": [
+        "planning"
+      ],
+      "heat_metrics": [
+        "not_applicable"
+      ],
+      "method_summary": "Planning workbook informed by heat-health guidance.",
+      "limitations": [
+        "Named roles are proposals until agreed; completion does not establish funding or readiness."
+      ],
+      "access": {
+        "mode": "free_tool",
+        "registration_required": false,
+        "price_amount": null,
+        "currency": null,
+        "licence": null,
+        "licence_status": "not_verified",
+        "rehosting_allowed": null
+      },
+      "technical": {
+        "api_status": "not_checked",
+        "api_docs_url": null,
+        "integration_mode": "link_out",
+        "live_execution_tested": false
+      },
+      "evidence": {
+        "review_depth": "source_page_reviewed",
+        "reviewed_on": "2026-11-10",
+        "local_validation_status": "not_assessed",
+        "source_ids": [
+          "cs_plan"
+        ],
+        "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+      },
+      "publication": {
+        "status": "documented_listing",
+        "featured": false,
+        "maintenance_status": "not_verified",
+        "next_review_due": "2026-12-10"
+      },
+      "links": {
+        "primary_url": "https://beattheheat.asia/plan/",
+        "common_shade_next_step": "/plan/"
+      },
+      "field_provenance": {
+        "provider_facts_source_ids": [
+          "cs_plan"
+        ],
+        "editorial_fields": [
+          "decision_tags",
+          "user_roles",
+          "geography.asia_applicability",
+          "limitations",
+          "links.common_shade_next_step"
+        ],
+        "unknown_fields": [
+          "access.licence",
+          "access.price_amount",
+          "geography.local_validation_countries"
+        ]
+      },
+      "follow_up_checks": [
+        "Confirm current tool entry point and access conditions.",
+        "Check local applicability and independent evaluation before recommending operational use."
+      ]
+    },
+    {
+      "id": "cs_finance",
+      "name": "Common Shade — Paying when heat strikes",
+      "provider": "Common Shade",
+      "origin": "common_shade",
+      "resource_type": "directory",
+      "decision_tags": [
+        "assess_finance"
+      ],
+      "user_roles": [
+        "funder",
+        "city",
+        "ngo"
+      ],
+      "summary": "Compare types of financial protection and inspect payout evidence.",
+      "inputs": [
+        "Geography, instrument and evidence questions."
+      ],
+      "outputs": [
+        "Scheme information and links to supporting evidence."
+      ],
+      "geography": {
+        "country_codes": [],
+        "scope": "multiple_regions",
+        "asia_applicability": "editorial_relevance_not_local_validation",
+        "local_validation_countries": [],
+        "spatial_scale": "Scheme / instrument"
+      },
+      "time_horizons": [
+        "planning"
+      ],
+      "heat_metrics": [
+        "not_applicable"
+      ],
+      "method_summary": "Curated instrument and evidence directory.",
+      "limitations": [
+        "Listing is not availability, eligibility, procurement advice or a payout guarantee."
+      ],
+      "access": {
+        "mode": "public_read",
+        "registration_required": false,
+        "price_amount": null,
+        "currency": null,
+        "licence": null,
+        "licence_status": "not_verified",
+        "rehosting_allowed": null
+      },
+      "technical": {
+        "api_status": "not_checked",
+        "api_docs_url": null,
+        "integration_mode": "link_out",
+        "live_execution_tested": false
+      },
+      "evidence": {
+        "review_depth": "source_page_reviewed",
+        "reviewed_on": "2026-11-10",
+        "local_validation_status": "not_assessed",
+        "source_ids": [
+          "cs_finance"
+        ],
+        "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+      },
+      "publication": {
+        "status": "documented_listing",
+        "featured": false,
+        "maintenance_status": "not_verified",
+        "next_review_due": "2026-12-10"
+      },
+      "links": {
+        "primary_url": "https://beattheheat.asia/paying-when-heat-strikes/",
+        "common_shade_next_step": "/paying-when-heat-strikes/"
+      },
+      "field_provenance": {
+        "provider_facts_source_ids": [
+          "cs_finance"
+        ],
+        "editorial_fields": [
+          "decision_tags",
+          "user_roles",
+          "geography.asia_applicability",
+          "limitations",
+          "links.common_shade_next_step"
+        ],
+        "unknown_fields": [
+          "access.licence",
+          "access.price_amount",
+          "geography.local_validation_countries"
+        ]
+      },
+      "follow_up_checks": [
+        "Confirm current tool entry point and access conditions.",
+        "Check local applicability and independent evaluation before recommending operational use."
+      ]
+    },
+    {
+      "id": "cs_intersections",
+      "name": "Common Shade — Intersections",
+      "provider": "Common Shade",
+      "origin": "common_shade",
+      "resource_type": "learning_exercise",
+      "decision_tags": [
+        "check_inclusion"
+      ],
+      "user_roles": [
+        "ngo",
+        "city",
+        "health",
+        "funder"
+      ],
+      "summary": "Explore who a protection package may miss.",
+      "inputs": [
+        "Choose protections and reconsider access barriers."
+      ],
+      "outputs": [
+        "Illustrative inclusion trade-offs and redesign prompts."
+      ],
+      "geography": {
+        "country_codes": [],
+        "scope": "illustrative_not_geographic",
+        "asia_applicability": "editorial_relevance_not_local_validation",
+        "local_validation_countries": [],
+        "spatial_scale": "Illustrative street"
+      },
+      "time_horizons": [
+        "planning"
+      ],
+      "heat_metrics": [
+        "not_applicable"
+      ],
+      "method_summary": "Composite-person learning exercise.",
+      "limitations": [
+        "Not a validated vulnerability score or a prediction of outcomes in a real street."
+      ],
+      "access": {
+        "mode": "free_tool",
+        "registration_required": false,
+        "price_amount": null,
+        "currency": null,
+        "licence": null,
+        "licence_status": "not_verified",
+        "rehosting_allowed": null
+      },
+      "technical": {
+        "api_status": "not_checked",
+        "api_docs_url": null,
+        "integration_mode": "link_out",
+        "live_execution_tested": false
+      },
+      "evidence": {
+        "review_depth": "source_page_reviewed",
+        "reviewed_on": "2026-11-10",
+        "local_validation_status": "not_assessed",
+        "source_ids": [
+          "cs_intersections"
+        ],
+        "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+      },
+      "publication": {
+        "status": "documented_listing",
+        "featured": false,
+        "maintenance_status": "not_verified",
+        "next_review_due": "2026-12-10"
+      },
+      "links": {
+        "primary_url": "https://beattheheat.asia/intersections/",
+        "common_shade_next_step": "/intersections/"
+      },
+      "field_provenance": {
+        "provider_facts_source_ids": [
+          "cs_intersections"
+        ],
+        "editorial_fields": [
+          "decision_tags",
+          "user_roles",
+          "geography.asia_applicability",
+          "limitations",
+          "links.common_shade_next_step"
+        ],
+        "unknown_fields": [
+          "access.licence",
+          "access.price_amount",
+          "geography.local_validation_countries"
+        ]
+      },
+      "follow_up_checks": [
+        "Confirm current tool entry point and access conditions.",
+        "Check local applicability and independent evaluation before recommending operational use."
+      ]
+    }
+  ],
+  "maintenance": {
+    "cadence": "Monthly record review; quarterly broader search. This file creates no automation.",
+    "stale_after_days": 90,
+    "operational_records": "Check link and warning-service metadata more often during heat season; actual warnings always remain at the official source.",
+    "health_check": "Link checks can flag reachability only, never validate scientific accuracy or update review dates automatically.",
+    "contributions": "Use the existing correction channel; submissions remain unpublished until editorial review.",
+    "public_metadata": [
+      "Last editorial review",
+      "Source links",
+      "Limitations",
+      "Maintenance caution",
+      "Revision history"
+    ],
+    "privacy": "No personal creator details, private contacts or institutional endorsement claims. No personal health or workplace data collection."
+  }
+}
