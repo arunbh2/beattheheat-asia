@@ -1,0 +1,42 @@
+Common Shade evidence pack: The energy-poverty trap
+Vicious cycle · https://beattheheat.asia/loops/#energypoverty · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- Explain "The energy-poverty trap" step by step, with the source for each link.
+- Who is hit hardest by this cycle, according to the pack?
+- Which actions could interrupt it, and what do they depend on?
+- What would have to be true for one of these links to fail in my place?
+- Which studies support this cycle, and what limits do they state about themselves?
+- What is still uncertain about this cycle?
+
+CONTENT
+
+The energy-poverty trap
+People who can’t afford to cool fall ill. Illness brings debt, and debt puts cooling even further out of reach.
+Evidence for the cycle as a whole: emerging.
+
+THE LINKS IN THE CYCLE
+- Can’t afford to keep cool, which leads to heatstroke and heat exhaustion: For the poorest households, fans, cooling and electricity bills are out of reach. In Delhi, low-income households used little more electricity on hot days, which the researchers read as a sign of few ways to cool. [https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-global-access-to-cooling-gaps-2023] [https://cprindia.org/journalarticles/impact-of-temperature-on-electricity-demand-evidence-from-delhi-and-indian-states/]
+- Heatstroke and heat exhaustion, which leads to medical costs and debt: When the body can no longer cool itself, heat exhaustion can tip into heatstroke: a medical emergency that can kill. India’s suspected heatstroke cases rose more than tenfold in two summers, from 4,481 in 2022 to over 48,000 in 2024. Humid heat is the most dangerous: when the wet-bulb temperature is high, sweat stops cooling the body. Many more people feel heat illness than are diagnosed with it: among women garment workers in Phnom Penh, reports of symptoms such as thirst, heavy sweating and tiredness rose from 68% in cool months to 88% in hot months. [https://rsdebate.nic.in/bitstream/123456789/750681/1/PQ_265_06082024_U1693_p358_p362.pdf] [https://link.springer.com/article/10.1186/s12889-025-22787-0]
+- Medical costs and debt, which leads to can’t afford to keep cool: Treatment, medicines and lost days are often paid for out of pocket, pushing households into debt. In Dhaka, informal workers described paying for treatment and borrowing during heat; how long such debts last is not yet known. [https://bmjopen.bmj.com/content/8/5/e018020] [https://www.iied.org/sites/default/files/pdfs/2026-08/22755iied.pdf]
+
+STUDIES BEHIND IT
+- Sustainable Energy for All, 2023: Chilling Prospects: Global Access to Cooling Gaps 2023. 1.12 billion of the rural and urban poor are at high risk because they lack access to cooling. Where: Global, with country estimates. Limit it states: Risk of lacking cooling, estimated from income, power and heat data, not a direct survey. [https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-global-access-to-cooling-gaps-2023]
+
+ACTIONS THAT COULD INTERRUPT IT
+- Free care for heat illness: Covering emergency treatment for heat illness stops one bad day from becoming years of debt.
+- Affordable cooling for the poorest: Lifeline electricity tariffs, cool roofs and cooling suited to the local heat bring safer cooling within reach of households that cannot afford it. Which kind helps depends on the climate and the person: a fan that helps in humid heat may not help in very hot, dry air. Watch for: In laboratory trials with older adults, fans slightly cooled the body in hot, humid air but raised body temperature in very hot, dry air. These were short trials, not homes. [https://pmc.ncbi.nlm.nih.gov/articles/PMC12308431/]
+
+SOURCES
+- Sustainable Energy for All, 2023: Chilling Prospects: https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-global-access-to-cooling-gaps-2023
+- Harish et al., 2020: impact of temperature on electricity demand in Delhi and Indian states: https://cprindia.org/journalarticles/impact-of-temperature-on-electricity-demand-evidence-from-delhi-and-indian-states/
+- Ministry of Health and Family Welfare, reply in India’s Rajya Sabha, 6 August 2024: https://rsdebate.nic.in/bitstream/123456789/750681/1/PQ_265_06082024_U1693_p358_p362.pdf
+- Chea et al., BMC Public Health, 2025: heat stress among women garment workers in Cambodia, cool and hot months: https://link.springer.com/article/10.1186/s12889-025-22787-0
+- Selvaraj, Farooqui and Karan, BMJ Open, 2018: https://bmjopen.bmj.com/content/8/5/e018020
+- IIED, 2026: health and economic impacts of heat on informal workers in urban Bangladesh: https://www.iied.org/sites/default/files/pdfs/2026-08/22755iied.pdf
+- Chaseling et al., 2025: older adults' responses to fan use in heat extremes (PMC12308431): https://pmc.ncbi.nlm.nih.gov/articles/PMC12308431/

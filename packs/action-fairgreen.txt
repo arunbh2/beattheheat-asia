@@ -1,0 +1,38 @@
+Common Shade evidence pack: Green without pushing people out
+Action · https://beattheheat.asia/actions/#fairgreen · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- What is "Green without pushing people out", who would carry it out, and over what time?
+- Which vicious cycles could it help interrupt, and how?
+- What does it depend on to work, and what side effects are noted?
+- What examples does the pack give, and what do their sources show?
+- How would progress be measured?
+- What would I need to find out before proposing this in my place?
+
+CONTENT
+
+Green without pushing people out
+Secure tenure, rent safeguards and designing with residents let poorer neighbourhoods gain shade and parks without losing their homes. Small, local greening that is “just green enough” protects people better than flagship projects.
+Who could act: City and local governments, National governments, Community and civil society groups.
+Over what time: years.
+How progress could be measured: Original residents still living in a greened neighbourhood five years on.
+
+EXAMPLE
+In Bangkok, the Baan Mankong programme of the Community Organizations Development Institute gives canal-side communities subsidies and cheap loans to secure land and rebuild their homes. Along Khlong Lat Phrao, where flood works needed the canal banks, communities planned their own moves and rebuilding instead of being evicted. [https://proof.csmonitor.com/Environment/2019/0703/When-a-city-of-canals-floods-what-happens-to-waterway-shantytowns]
+
+VICIOUS CYCLES IT COULD HELP INTERRUPT
+- The green-displacement loop: Green space follows wealth. When greening reaches poorer districts without protection, rents rise, residents are pushed into hotter housing, and the gap grows.
+
+GUIDES
+- Wolch, Byrne and Newell, Landscape and Urban Planning, 2014: Urban green space, public health and environmental justice: the challenge of making cities “just green enough” [https://doi.org/10.1016/j.landurbplan.2014.01.017]
+- Urban Waters Learning Network: Greening without gentrification: anti-displacement strategies for parks [https://urbanwaterslearningnetwork.org/wp-content/uploads/2019/09/Parks-Related-Anti-Displacement-Strategies-report-with-appendix.pdf]
+
+SOURCES
+- Christian Science Monitor, 2019: when a city of canals floods, what happens to waterway shantytowns?: https://proof.csmonitor.com/Environment/2019/0703/When-a-city-of-canals-floods-what-happens-to-waterway-shantytowns
+- Wolch, Byrne and Newell, Landscape and Urban Planning, 2014: Urban green space, public health and environmental justice: the challenge of making cities “just green enough”: https://doi.org/10.1016/j.landurbplan.2014.01.017
+- Urban Waters Learning Network: Greening without gentrification: anti-displacement strategies for parks: https://urbanwaterslearningnetwork.org/wp-content/uploads/2019/09/Parks-Related-Anti-Displacement-Strategies-report-with-appendix.pdf

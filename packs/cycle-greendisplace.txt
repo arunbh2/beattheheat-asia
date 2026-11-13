@@ -1,0 +1,46 @@
+Common Shade evidence pack: The green-displacement loop
+Vicious cycle · https://beattheheat.asia/loops/#greendisplace · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- Explain "The green-displacement loop" step by step, with the source for each link.
+- Who is hit hardest by this cycle, according to the pack?
+- Which actions could interrupt it, and what do they depend on?
+- What would have to be true for one of these links to fail in my place?
+- Which studies support this cycle, and what limits do they state about themselves?
+- What is still uncertain about this cycle?
+
+CONTENT
+
+The green-displacement loop
+Green space follows wealth. When greening reaches poorer districts without protection, rents rise, residents are pushed into hotter housing, and the gap grows.
+Evidence for the cycle as a whole: emerging.
+
+THE LINKS IN THE CYCLE
+- Deepening inequality, which leads to green space follows wealth: Every impact lands hardest on those with the least protection, widening gaps in health, income and opportunity. [https://www.fao.org/newsroom/detail/fao-report--heatwaves-and-floods-affect-rural-women-and-men-differently--widen-income-gap] [https://www.frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2022.874751/full]
+- Green space follows wealth, which leads to greening pushes people out: Trees and parks cluster in better-off neighbourhoods, which can pay for them and for the upkeep that keeps them alive, so poorer districts stay hotter. [https://doi.org/10.1016/j.landurbplan.2014.01.017] [https://doi.org/10.4337/9781800376762]
+- Greening pushes people out, which leads to homes that trap heat: New parks and greening can raise rents and land prices until the poorer residents they were meant to cool are pushed out, often into hotter, more crowded housing. This is green gentrification. Across 28 North American and European cities, greening in the 1990s and 2000s was followed by gentrification in 17. [https://doi.org/10.1038/s41467-022-31572-1] [https://www.researchgate.net/publication/369538102_Green_Gentrification_and_The_Value_of_Urban_Nature_Case_Study_of_Pathumwananurak_Park_Bangkok]
+- Homes that trap heat, which leads to deepening inequality: Tin roofs, poor ventilation and crowded rooms can make homes hotter inside than out, leaving nowhere safe to rest. Thin roofs cool slowly, so the worst comes at night: in low-income homes measured across South Asia, tin-roofed houses stayed warmer indoors than the outdoor air. [https://www.frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2022.874751/full] [https://www.nature.com/articles/s41597-022-01314-5]
+
+STUDIES BEHIND IT
+- Anguelovski et al., Nature Communications, 2022: Green gentrification in European and North American cities. Across 28 cities in 9 countries, greening in the 1990s and 2000s was strongly linked to gentrification between 2000 and 2016 in 17 of them. Where: 28 cities in Europe and North America. Limit it states: No Asian cities in the sample. [https://doi.org/10.1038/s41467-022-31572-1]
+- Wolch, Byrne and Newell, Landscape and Urban Planning, 2014: Urban green space, public health and environmental justice: making cities “just green enough”. Green space tends to favour wealthier neighbourhoods, and new parks meant to fix that can raise housing costs and displace the residents they were meant to help. Small, local projects are more likely to reach those who need them. Where: Mostly the United States. Limit it states: Mostly US evidence. [https://doi.org/10.1016/j.landurbplan.2014.01.017]
+- Endo, The Developing Economies, 2026: Gentrification, urban informality and displacement in Bangkok. Fieldwork on how recent gentrification in Bangkok, including green urban renewal, affects the city’s lower-income residents. Where: Bangkok, Thailand. Limit it states: Qualitative; it does not measure how many people moved. [https://onlinelibrary.wiley.com/doi/10.1111/deve.70013]
+- Chapter 3 in Nature-Based Solutions for Cities, 2023: Towards just nature-based solutions for cities. Nature-based solutions can deepen injustice when benefits flow to some and costs, including displacement, fall on others; procedural, distributional and recognition justice all need attention. Where: Global. Limit it states: A framework for justice, not a measure of harm. [https://doi.org/10.4337/9781800376762]
+
+ACTIONS THAT COULD INTERRUPT IT
+- Green without pushing people out: Secure tenure, rent safeguards and designing with residents let poorer neighbourhoods gain shade and parks without losing their homes. Small, local greening that is “just green enough” protects people better than flagship projects.
+
+SOURCES
+- FAO, 2024: heat stress widens the income gap between rural women and men: https://www.fao.org/newsroom/detail/fao-report--heatwaves-and-floods-affect-rural-women-and-men-differently--widen-income-gap
+- Frontiers in Built Environment, 2022: Ahmedabad: https://www.frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2022.874751/full
+- Wolch, Byrne and Newell, Landscape and Urban Planning, 2014: making cities “just green enough”: https://doi.org/10.1016/j.landurbplan.2014.01.017
+- Hansen et al., chapter 10 in Nature-Based Solutions for Cities, 2023: tree survival tracks municipal budgets in Santiago: https://doi.org/10.4337/9781800376762
+- Anguelovski et al., Nature Communications, 2022: green gentrification in European and North American cities: https://doi.org/10.1038/s41467-022-31572-1
+- Bangkok: a master’s thesis on Pathumwananurak Park, built where the Rong Poon community lived: https://www.researchgate.net/publication/369538102_Green_Gentrification_and_The_Value_of_Urban_Nature_Case_Study_of_Pathumwananurak_Park_Bangkok
+- Tasgaonkar et al., Scientific Data, 2022: indoor heat in low-income homes in South Asia: https://www.nature.com/articles/s41597-022-01314-5
+- Endo, The Developing Economies, 2026: Gentrification, urban informality and displacement in Bangkok: https://onlinelibrary.wiley.com/doi/10.1111/deve.70013

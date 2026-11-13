@@ -217,6 +217,12 @@
       "format": "text"
     },
     {
+      "url": "https://beattheheat.asia/use-with-ai/",
+      "path": "/use-with-ai/",
+      "what": "evidence packs: one plain-text file per country, vicious cycle and action, with starter questions",
+      "format": "HTML"
+    },
+    {
       "url": "https://beattheheat.asia/sources/",
       "path": "/sources/",
       "what": "every source the site cites, searchable",

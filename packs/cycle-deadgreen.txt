@@ -1,0 +1,40 @@
+Common Shade evidence pack: The dying-green loop
+Vicious cycle · https://beattheheat.asia/loops/#deadgreen · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- Explain "The dying-green loop" step by step, with the source for each link.
+- Who is hit hardest by this cycle, according to the pack?
+- Which actions could interrupt it, and what do they depend on?
+- What would have to be true for one of these links to fail in my place?
+- Which studies support this cycle, and what limits do they state about themselves?
+- What is still uncertain about this cycle?
+
+CONTENT
+
+The dying-green loop
+Heat and drought kill city trees. Without their shade the streets get hotter, and hotter streets kill more trees.
+Evidence for the cycle as a whole: emerging.
+
+THE LINKS IN THE CYCLE
+- City trees and parks die, which leads to urban heat islands: Heat, drought and missing upkeep kill street trees and parks just when their shade is needed. Across 164 cities, 56% of urban tree and shrub species already face temperatures beyond those in their natural range, and in hot cities such as New Delhi and Singapore every species studied is at risk. [https://www.vibrantcitieslab.com/wordpress/wp-content/uploads/2023/08/climate-change-increases-global-risk-to-urban-forests.pdf] [https://doi.org/10.4337/9781800376762]
+- Urban heat islands, which leads to city trees and parks die: Dense surfaces, little shade and waste heat keep city cores several degrees hotter than their surroundings, especially at night. This is the urban heat island effect. [https://www.thegpsc.org/sites/gpsc/files/cooling_singapore_-_digital_urban_climate_twin.pdf] [https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf]
+
+STUDIES BEHIND IT
+- Esperon-Rodriguez et al., Nature Climate Change, 2022: Climate change increases global risk to urban forests. Of 3,129 tree and shrub species in 164 cities, 56% already face temperatures beyond those in their natural range, rising to about 76% by 2050 under a mid-range warming scenario. Risk is highest in low-latitude cities such as New Delhi and Singapore. Where: 164 cities in 78 countries. Limit it states: Compares climate to each species’ natural range; trees can survive outside it with care. [https://www.vibrantcitieslab.com/wordpress/wp-content/uploads/2023/08/climate-change-increases-global-risk-to-urban-forests.pdf]
+- Hansen et al., chapter 10 in Nature-Based Solutions for Cities, 2023: Planning and maintaining nature-based solutions: Berlin, Jakarta, Melbourne and Santiago. Drought stops urban trees from cooling through transpiration. In one Berlin park more than 500 of 870 new trees died within ten years despite watering, and Berlin cut about 44,000 street trees between 2012 and 2019 while planting about 18,000. Where: Berlin, Jakarta, Melbourne and Santiago. Limit it states: The tree figures are from Berlin; Asian evidence on tree loss in heat is thinner. [https://doi.org/10.4337/9781800376762]
+- Middel et al., Bulletin of the American Meteorological Society: 50 Grades of Shade. Tree shade sharply lowers the radiant heat people feel by day, which is the cooling lost when trees die. Where: Tempe, United States. Limit it states: A desert city; humid cities gain less from shade alone, though shade still cuts radiant heat. [https://par.nsf.gov/biblio/10230332-grades-shade]
+
+ACTIONS THAT COULD INTERRUPT IT
+- Keep city trees alive: Water, healthy soil, room for roots, heat-hardy species and a running budget for upkeep keep trees alive through hotter, drier summers, so their shade lasts. Looking after existing trees comes before planting new ones.
+
+SOURCES
+- Esperon-Rodriguez et al., Nature Climate Change, 2022: climate change increases global risk to urban forests: https://www.vibrantcitieslab.com/wordpress/wp-content/uploads/2023/08/climate-change-increases-global-risk-to-urban-forests.pdf
+- Hansen et al., chapter 10 in Nature-Based Solutions for Cities, 2023: more than 500 of 870 new trees died in a Berlin park: https://doi.org/10.4337/9781800376762
+- Cooling Singapore, citing Chow and Roth, 2006: https://www.thegpsc.org/sites/gpsc/files/cooling_singapore_-_digital_urban_climate_twin.pdf
+- Tamil Nadu State Planning Commission, 2024: https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf
+- Middel et al., Bulletin of the American Meteorological Society: 50 Grades of Shade: https://par.nsf.gov/biblio/10230332-grades-shade

@@ -1,0 +1,39 @@
+Common Shade evidence pack: Free care for heat illness
+Action · https://beattheheat.asia/actions/#freecare · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- What is "Free care for heat illness", who would carry it out, and over what time?
+- Which vicious cycles could it help interrupt, and how?
+- What does it depend on to work, and what side effects are noted?
+- What examples does the pack give, and what do their sources show?
+- How would progress be measured?
+- What would I need to find out before proposing this in my place?
+
+CONTENT
+
+Free care for heat illness
+Covering emergency treatment for heat illness stops one bad day from becoming years of debt.
+Who could act: Health authorities, National governments.
+Over what time: season.
+How progress could be measured: Heat illness cases treated free of charge.
+
+EXAMPLE
+Singapore's MediFund is a safety net for people who face financial difficulties with their remaining bills after government subsidies, insurance and MediSave; a committee at each approved institution decides the help. [https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/medifund/]
+
+VICIOUS CYCLES IT COULD HELP INTERRUPT
+- The medical-debt trap: Treatment costs push families into debt. Debt removes any option to rest, and working through the heat brings more illness.
+- The energy-poverty trap: People who can’t afford to cool fall ill. Illness brings debt, and debt puts cooling even further out of reach.
+
+GUIDES
+- National Centre for Disease Control, India: Climate change and health: heat-illness guidelines, emergency cooling guidance and heat stroke units [https://ncdc.mohfw.gov.in/includes/About/CentresAndDivision/CEOH.php]
+- National Centre for Disease Control, Ministry of Health and Family Welfare, India, 2021: National Action Plan on Heat-Related Illness [https://ncdc.mohfw.gov.in/uploads/pdf/heat12.pdf]
+
+SOURCES
+- Ministry of Health, Singapore: MediFund: https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/medifund/
+- National Centre for Disease Control, India: Climate change and health: heat-illness guidelines, emergency cooling guidance and heat stroke units: https://ncdc.mohfw.gov.in/includes/About/CentresAndDivision/CEOH.php
+- National Centre for Disease Control, Ministry of Health and Family Welfare, India, 2021: National Action Plan on Heat-Related Illness: https://ncdc.mohfw.gov.in/uploads/pdf/heat12.pdf

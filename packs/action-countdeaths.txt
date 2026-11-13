@@ -1,0 +1,40 @@
+Common Shade evidence pack: Count every heat death
+Action · https://beattheheat.asia/actions/#countdeaths · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- What is "Count every heat death", who would carry it out, and over what time?
+- Which vicious cycles could it help interrupt, and how?
+- What does it depend on to work, and what side effects are noted?
+- What examples does the pack give, and what do their sources show?
+- How would progress be measured?
+- What would I need to find out before proposing this in my place?
+
+CONTENT
+
+Count every heat death
+Real-time tracking of excess deaths during heatwaves, and death certificates that record heat, make the toll visible.
+Who could act: Health authorities, Weather and climate services, National governments.
+Over what time: years.
+How progress could be measured: Recorded heat deaths compared with excess deaths.
+
+EXAMPLE
+Timor-Leste's 2026 WHO climate and health profile shows heat-related deaths and illness as not specified, rather than as zero, which keeps the gap visible. [https://cdn.who.int/media/docs/default-source/searo/hsd/country-profiles/tls-climate-change-cf-2026.pdf?download=true&sfvrsn=131a4a74_3]
+
+VICIOUS CYCLES IT COULD HELP INTERRUPT
+- The invisible-deaths loop: Heat deaths go uncounted, so heat protection goes unfunded, so more people die uncounted.
+
+GUIDES
+- National Centre for Disease Control, India, in the GHHIN resource library: Autopsy findings in heat-related deaths: guidance for recording heat as a cause [https://heathealth.info/resources/autopsy-findings-in-heat-related-deaths/]
+- National Centre for Disease Control, Ministry of Health and Family Welfare, India, 2021: National Action Plan on Heat-Related Illness [https://ncdc.mohfw.gov.in/uploads/pdf/heat12.pdf]
+- National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026: Heat Resilient Cities Framework: heat-health surveillance and records of heat illness and deaths, disaggregated by social group and neighbourhood (pp. 9-10) [https://niua.in/publication-details/Heat_Resilient_Cities_Framework]
+
+SOURCES
+- WHO, 2026: climate change country profile, Timor-Leste: https://cdn.who.int/media/docs/default-source/searo/hsd/country-profiles/tls-climate-change-cf-2026.pdf?download=true&sfvrsn=131a4a74_3
+- National Centre for Disease Control, India, in the GHHIN resource library: Autopsy findings in heat-related deaths: guidance for recording heat as a cause: https://heathealth.info/resources/autopsy-findings-in-heat-related-deaths/
+- National Centre for Disease Control, Ministry of Health and Family Welfare, India, 2021: National Action Plan on Heat-Related Illness: https://ncdc.mohfw.gov.in/uploads/pdf/heat12.pdf
+- National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026: Heat Resilient Cities Framework: heat-health surveillance and records of heat illness and deaths, disaggregated by social group and neighbourhood (pp. 9-10): https://niua.in/publication-details/Heat_Resilient_Cities_Framework

@@ -559,6 +559,7 @@ require("./build-print")().then(list => {
   }
   // after the final sitemap and navigation: the machine-readable doors, Markdown twins and head links
   require("./build-agent-files.js");
+  require("./build-use-with-ai.js").packs();   // after the Markdown twins, which the country packs reuse
 });
 console.log("Wrote", PAGES.length + CITY_PAGES.length, "pages, llms.txt, llms-full.txt, sitemap.xml and robots.txt");
 

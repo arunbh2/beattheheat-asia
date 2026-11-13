@@ -1,0 +1,41 @@
+Common Shade evidence pack: Income protection in heatwaves
+Action · https://beattheheat.asia/actions/#heatcash · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- What is "Income protection in heatwaves", who would carry it out, and over what time?
+- Which vicious cycles could it help interrupt, and how?
+- What does it depend on to work, and what side effects are noted?
+- What examples does the pack give, and what do their sources show?
+- How would progress be measured?
+- What would I need to find out before proposing this in my place?
+
+CONTENT
+
+Income protection in heatwaves
+Cash that pays out automatically when temperatures cross a danger threshold, so people can afford to stop. Triggers need careful design to limit basis risk: heat that hurts people without triggering a payout.
+Who could act: Banks, insurers and financial regulators, National governments, Worker organisations and unions.
+Over what time: years.
+How progress could be measured: Workers covered, and days from trigger to payout.
+
+EXAMPLE
+Parametric heat insurance has been piloted with women informal workers in India. [https://www.icmif.org/news_story/ibisa-launches-a-new-parametric-heat-index-product-in-india-to-protect-women-workers-from-heat-induced-wage-losses/]
+
+VICIOUS CYCLES IT COULD HELP INTERRUPT
+- The poverty–heat trap: People who can’t afford to stop working fall ill. Illness costs income, and lost income makes stopping even less affordable.
+- The displacement loop: People forced to move often land in heat-trapping housing, fall ill, lose income, fall further behind, and are forced to move again.
+
+GUIDES
+- Global Asia Insurance Partnership, 2026: Scaling Parametric Insurance in Asia: regulation, design, basis risk and why pilots stall [https://www.gaip.global/publications/scaling-parametric-insurance-in-asia/]
+- VimoSEWA, 2025: Parametric heat and rainfall insurance for informal women workers [https://www.sewainsurance.org/wp-content/uploads/2025/12/Parametric-Heat-and-Rainfall-Insurance-for-Informal-Women-Workers.pdf]
+- CGAP: Confronting the climate and health nexus: lessons from the Self-Employed Women’s Association (SEWA) [https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association]
+
+SOURCES
+- ICMIF, 2024: IBISA launches a parametric heat-index product for women workers in India: https://www.icmif.org/news_story/ibisa-launches-a-new-parametric-heat-index-product-in-india-to-protect-women-workers-from-heat-induced-wage-losses/
+- Global Asia Insurance Partnership, 2026: Scaling Parametric Insurance in Asia: regulation, design, basis risk and why pilots stall: https://www.gaip.global/publications/scaling-parametric-insurance-in-asia/
+- VimoSEWA, 2025: Parametric heat and rainfall insurance for informal women workers: https://www.sewainsurance.org/wp-content/uploads/2025/12/Parametric-Heat-and-Rainfall-Insurance-for-Informal-Women-Workers.pdf
+- CGAP: Confronting the climate and health nexus: lessons from the Self-Employed Women’s Association (SEWA): https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association

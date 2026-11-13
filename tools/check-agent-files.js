@@ -31,5 +31,15 @@ has("_config.yml") && /\.well-known/.test(read("_config.yml")) ? ok("_config.yml
 /Sitemap:/.test(read("robots.txt")) ? ok("robots.txt names the sitemap") : no("robots.txt has no Sitemap line.");
 const imgs = (home.match(/<img\b[^>]*>/g) || []).filter(t => !/\balt=/.test(t));
 imgs.length ? no(`${imgs.length} home-page image(s) have no alt attribute`) : ok("every home-page image has an alt attribute");
+// evidence packs (/packs/, tools/build-use-with-ai.js): one per country, cycle and action, each usable on its own
+{
+  const UW = require("./build-use-with-ai.js"), P = UW.list(UW.data()), all = [...P.country, ...P.cycle, ...P.action];
+  const missing = all.filter(p => !has(p.file.slice(1))), thin = all.filter(p => has(p.file.slice(1)) && !(/QUESTIONS TO START WITH/.test(read(p.file.slice(1))) && /An assistant can be wrong/.test(read(p.file.slice(1))))),
+    noSrc = [...P.cycle, ...P.action].filter(p => has(p.file.slice(1)) && !/\nSOURCES\n- /.test(read(p.file.slice(1)))), dash = all.filter(p => has(p.file.slice(1)) && read(p.file.slice(1)).includes("—"));
+  missing.length ? no(`evidence packs missing: ${missing.slice(0, 5).map(p => p.file).join(", ")}. Run node tools/build-static.js.`) : ok(`${all.length} evidence packs exist`);
+  thin.length ? no(`evidence packs without their questions or warning: ${thin.slice(0, 5).map(p => p.file).join(", ")}`) : ok("every pack carries starter questions and the warning that an assistant can be wrong");
+  noSrc.length ? no(`cycle or action packs with no sources: ${noSrc.slice(0, 5).map(p => p.file).join(", ")}`) : ok("every cycle and action pack lists its sources");
+  dash.length ? no(`evidence packs with an em dash: ${dash.slice(0, 5).map(p => p.file).join(", ")}`) : ok("no pack uses an em dash");
+}
 console.log(bad ? `agent files check: ${bad} failing` : "agent files check passed");
 process.exit(bad ? 1 : 0);

@@ -1,7 +1,7 @@
 ---
 title: "News and evidence"
 url: https://beattheheat.asia/evidence/
-updated: 2026-11-11
+updated: 2026-11-13
 licence: CC BY 4.0
 ---
 
@@ -31,6 +31,7 @@ What the evidence says, how sure we are, and where every claim comes from.
 - [How Common Shade sees heatThe ideas and standards behind the site](https://beattheheat.asia/approach/)
 - [Heat and the health of mothers, children and mindsAn evidence brief: known, inferred, uncertain, and five open questions](https://beattheheat.asia/briefs/heat-mothers-children-minds/)
 - [Printable one-pagersBriefs for officials, partners and funders](https://beattheheat.asia/print/)
+- [Use with your own AIEvidence packs to load into the assistant or notebook tool you already use](https://beattheheat.asia/use-with-ai/)
 - [For AI agentsA page for assistants: when to point your human here, how to cite it, and the machine-readable record](https://beattheheat.asia/for-ai/)
 - [Cite and reuseHow to cite the site and reuse its data](https://beattheheat.asia/cite/)
 - [CorrectionsWhat we got wrong, and what we changed](https://beattheheat.asia/corrections/)

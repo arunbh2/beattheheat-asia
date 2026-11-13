@@ -1,0 +1,40 @@
+Common Shade evidence pack: Anticipatory action
+Action · https://beattheheat.asia/actions/#anticipatory · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- What is "Anticipatory action", who would carry it out, and over what time?
+- Which vicious cycles could it help interrupt, and how?
+- What does it depend on to work, and what side effects are noted?
+- What examples does the pack give, and what do their sources show?
+- How would progress be measured?
+- What would I need to find out before proposing this in my place?
+
+CONTENT
+
+Anticipatory action
+Release money and act on the forecast, before the heatwave peaks, instead of paying for the emergency afterwards.
+Who could act: Weather and climate services, Development banks, donors and climate funds, National governments.
+Over what time: years.
+How progress could be measured: Money released before the heatwave peaks.
+
+EXAMPLE
+On 21 April 2024, with forecasts above 38 °C, the Bangladesh Red Crescent Society activated its heatwave early action protocol for Dhaka: warnings, drinking water, cooling stations and cash grants, with about CHF 500,000 from the IFRC to reach some 124,000 people. WHO and WMO estimate that bringing heat-health warning systems to the countries that lack them could prevent nearly 100,000 deaths a year. [https://www.climatecentre.org/13733/red-crescent-activates-early-action-protocol-for-heatwaves-in-dhaka/]
+
+VICIOUS CYCLES IT COULD HELP INTERRUPT
+- The reactive-spending loop: Stretched budgets skimp on prevention. Emergencies multiply, and costly emergency response stretches budgets further.
+
+GUIDES
+- IFRC, Practical Action and the Red Cross Red Crescent Climate Centre, for the Zurich Climate Resilience Alliance, 2026: Understanding the global landscape of heat early warning systems (with case studies from Bangladesh, Nepal, Pakistan, the Philippines and Vietnam) [https://www.preventionweb.net/publication/documents-and-publications/understanding-global-landscape-heat-early-warning-systems]
+- Zurich Climate Resilience Alliance: Early warning systems: resources [https://zcralliance.org/resources-ews/]
+- Council on Energy, Environment and Water (CEEW), 2026: Thriving in a Warming World: climate intelligence for extreme heat [https://www.ceew.in/sites/default/files/ceew-thriving-warming-world-climate-intelligence-extreme-heat.pdf]
+
+SOURCES
+- Red Cross Red Crescent Climate Centre, 2024: https://www.climatecentre.org/13733/red-crescent-activates-early-action-protocol-for-heatwaves-in-dhaka/
+- IFRC, Practical Action and the Red Cross Red Crescent Climate Centre, for the Zurich Climate Resilience Alliance, 2026: Understanding the global landscape of heat early warning systems (with case studies from Bangladesh, Nepal, Pakistan, the Philippines and Vietnam): https://www.preventionweb.net/publication/documents-and-publications/understanding-global-landscape-heat-early-warning-systems
+- Zurich Climate Resilience Alliance: Early warning systems: resources: https://zcralliance.org/resources-ews/
+- Council on Energy, Environment and Water (CEEW), 2026: Thriving in a Warming World: climate intelligence for extreme heat: https://www.ceew.in/sites/default/files/ceew-thriving-warming-world-climate-intelligence-extreme-heat.pdf

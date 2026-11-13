@@ -5666,7 +5666,7 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 
 https://beattheheat.asia/growing/
 
-See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 41 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
+See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 42 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
 
 ### How the work behind the commons grew
 
@@ -5687,6 +5687,8 @@ Dated by the publication date of the work Common Shade draws on (1084 of 1909 wo
 - Tool improved: A line for AI agents under the homepage's opening. Added 13 November 2026 · Homepage line added 13 November 2026. Why it matters (our reading): Assistants that read the homepage for someone now meet a short, quiet pointer to the page written for them near the top, as well as in the footer, so the guidance on citing sources and passing on evidence labels is easier to find. Places: South and Southeast Asia. Review: One line in the hero's own small type; no new script, the pop-ups untouched and the homepage weight unchanged. Next: Read the page for AI agents https://beattheheat.asia/for-ai/. Connections: For ai (our reading): The line points to the page for AI agents.
 
 - Tool improved: How AI is used on Common Shade, stated plainly. Added 13 November 2026 · Section added 13 November 2026. Why it matters (our reading): Readers deserve to know how a site that asks them to trust its sources is made. The approach page now says what AI does in building Common Shade, what it is never allowed to do, who approves what is published, and where its limits are. Places: South and Southeast Asia. Review: Written from what the repository actually does: AI drafts and builds, plain scripts check sources, the site owner approves; nothing on the site sends visitor input to an AI service. Next: Read how AI is used here https://beattheheat.asia/approach/#ai. Connections: For ai (our reading): AI systems that read the site have their own page.
+
+- Tool improved: Evidence packs to use with your own AI. Added 13 November 2026 · Page and packs added 13 November 2026. Why it matters (our reading): Many readers already think with an AI assistant or notebook tool, and the site itself runs none. Each country, vicious cycle and action is now one plain-text pack of the site's own words and sources, with questions to start from and a plain warning that the sources, not the assistant, are the authority. Places: South and Southeast Asia. Review: Packs are built from the site's own records at every build, country packs word for word from their snapshots; a check fails if a pack is missing, lacks its questions, warning or sources, or uses an em dash. Actions with no example on the map say so. Next: Get an evidence pack https://beattheheat.asia/use-with-ai/. Connections: Approach (our reading): How AI is used to build the site is set out on the approach page.
 
 - Tool improved: Open files for the tools that read the web, and a privacy page. Added 13 November 2026 · Files and page added 13 November 2026. Why it matters (our reading): Assistants and crawlers look for a site's files at standard addresses. Common Shade now publishes an agent directory, an OpenAPI description of its open data with examples, a change feed and a Markdown twin of every page, and says plainly on one page what it keeps and what it asks other services for. Places: South and Southeast Asia. Review: Each file lists only what exists, and a check fails naming the path if one is missing; the privacy page restates what the site's code does, with nothing added. Next: Read what the site keeps and shares https://beattheheat.asia/privacy/. Connections: For ai (our reading): The page for AI agents lists the new files.
 
@@ -5953,6 +5955,24 @@ What AI is never allowed to do here:
 AI can still be wrong. The source check confirms that a source contains the words a claim rests on, not that the claim is the best reading of it. That is why every claim links to its source, evidence is labelled known, inferred or uncertain, and corrections are made in the open.
 
 AI systems that read the site on someone's behalf have their own page, with how to cite it and what to avoid. https://beattheheat.asia/for-ai/
+
+## Use Common Shade with your own AI
+
+https://beattheheat.asia/use-with-ai/
+
+Bring the evidence into the assistant or notebook tool you already use. Each pack is one plain-text file of the site's own words and sources, for one country, one vicious cycle or one action, with questions to start from.
+
+- Load a pack into a notebook tool: Notebook tools that answer only from the files you give them are a good fit. Add one pack, or a few, and ask your questions there.
+
+- Ask an assistant grounded in it: Paste the pack, or attach it, and ask the assistant to answer only from the pack and to name the source behind each point.
+
+- Check the answer against the sources: Every pack ends with its sources. Open the ones an answer rests on. Each pack also carries the evidence labels: known, inferred or uncertain.
+
+An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+
+Packs are plain files on this site. Loading one into an AI service sends its text to that service under that service's terms; Common Shade sends nothing about you anywhere.
+
+Packs: 7 countries, 21 vicious cycles and 33 actions, each at https://beattheheat.asia/packs/<kind>-<id>.txt, for example https://beattheheat.asia/packs/cycle-global.txt
 
 ## For AI agents
 

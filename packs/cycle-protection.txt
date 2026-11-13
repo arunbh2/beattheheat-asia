@@ -1,0 +1,41 @@
+Common Shade evidence pack: The protection-gap loop
+Vicious cycle · https://beattheheat.asia/loops/#protection · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- Explain "The protection-gap loop" step by step, with the source for each link.
+- Who is hit hardest by this cycle, according to the pack?
+- Which actions could interrupt it, and what do they depend on?
+- What would have to be true for one of these links to fail in my place?
+- Which studies support this cycle, and what limits do they state about themselves?
+- What is still uncertain about this cycle?
+
+CONTENT
+
+The protection-gap loop
+As insurers retreat, public budgets absorb the losses, protection is cut, and the risk drives insurers further away.
+Evidence for the cycle as a whole: emerging.
+
+THE LINKS IN THE CYCLE
+- Insurance losses and retreat, which leads to public budgets strained: Rising losses push premiums up and insurers out, leaving more people and businesses unprotected. [https://www.globalreinsurance.com/home/swiss-re-sigma-protection-gap-laid-bare-as-asian-cat-losses-hit-65bn/1458440.article]
+- Public budgets strained, which leads to heat protection underfunded: Repairs, emergency response, lost tax revenue and relief payments all drain public money. [https://openknowledge.worldbank.org/entities/publication/d8ba6f53-d778-47d2-b4a6-37dff7db2466/full]
+- Heat protection underfunded, which leads to insurance losses and retreat: Warnings, cooling centres, outreach and heat-ready services get a small share of budgets compared with floods or storms. A 2023 review of 37 Indian heat action plans found them underfunded: only two cited specific sources of finance for any of their actions. [https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/] [https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/]
+
+STUDIES BEHIND IT
+- Swiss Re Institute sigma, reported by Global Reinsurance: Protection gap laid bare as Asian cat losses hit $65bn. Only about 8% of Asia’s US$65 billion in natural catastrophe losses in 2025 was insured. The rest fell on households, businesses and governments. Where: Asia. Limit it states: Covers all natural catastrophes, not heat alone; heat losses are rarely insured at all. [https://www.globalreinsurance.com/home/swiss-re-sigma-protection-gap-laid-bare-as-asian-cat-losses-hit-65bn/1458440.article]
+- Global Asia Insurance Partnership, 2026: Climate Change & Insurance: Physical risks on the insurance industry. In developing markets with low insurance cover, the protection gap is driven by unaffordable premiums, limited awareness and weak distribution, and heat’s drag on growth and household incomes could shrink the customer base further. Where: Asia. Limit it states: A qualitative assessment; it does not measure the whole cycle in any one place. [https://www.gaip.global/publications/physical-risks-on-the-insurance-industry/]
+
+ACTIONS THAT COULD INTERRUPT IT
+- Dedicated heat budgets: Ring-fenced funding for heat action, set aside before the season, so protection doesn’t compete with the emergency.
+- Shared risk pools: Public–private insurance and regional risk pools keep cover available and spread losses beyond any one budget.
+
+SOURCES
+- Swiss Re Institute sigma, reported by Global Reinsurance: https://www.globalreinsurance.com/home/swiss-re-sigma-protection-gap-laid-bare-as-asian-cat-losses-hit-65bn/1458440.article
+- Park and Rubinyi, World Bank, 2026: heat deaths in Bangkok cost more than its public health budget: https://openknowledge.worldbank.org/entities/publication/d8ba6f53-d778-47d2-b4a6-37dff7db2466/full
+- Centre for Policy Research, 2023: assessment of 37 heat action plans: https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/
+- Centre for Policy Research: Finding the Finance, a guide to identifying centrally sponsored schemes to fund heat resilience: https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/
+- Global Asia Insurance Partnership, 2026: Climate Change & Insurance: Physical risks on the insurance industry: https://www.gaip.global/publications/physical-risks-on-the-insurance-industry/

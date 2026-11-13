@@ -1,0 +1,39 @@
+Common Shade evidence pack: Power that doesn’t need water
+Action · https://beattheheat.asia/actions/#drypower · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- What is "Power that doesn’t need water", who would carry it out, and over what time?
+- Which vicious cycles could it help interrupt, and how?
+- What does it depend on to work, and what side effects are noted?
+- What examples does the pack give, and what do their sources show?
+- How would progress be measured?
+- What would I need to find out before proposing this in my place?
+
+CONTENT
+
+Power that doesn’t need water
+Solar and wind use very little water, and dry cooling protects thermal plants when rivers run low or warm.
+Who could act: Utilities and energy regulators, National governments.
+Over what time: decade.
+How progress could be measured: Power capacity added that needs little or no water.
+
+EXAMPLE
+None recorded yet.
+
+VICIOUS CYCLES IT COULD HELP INTERRUPT
+- The energy–water loop: Water systems need power and power plants need water. In a heatwave, each failure deepens the other.
+
+SOURCES
+- None recorded for this action yet: no example or guide is on the map for it.
+
+SOURCES FOR THE CYCLES IT COULD HELP INTERRUPT
+- World Bank estimate, reported by AFP via The Manila Times, 2023: Vietnam’s heat-driven power crisis: https://manilatimes.net/2023/08/12/business/foreign-business/power-crisis-cost-vietnam-14b-wb/1904920/amp
+- Vietnam Electricity, 7 June 2023: power supply in the hot season: https://en.evn.com.vn/d6/news/Ministry-of-Industry-and-Trade-informs-about-power-supply-situation-in-hot-season-66-163-3527.aspx
+- World Resources Institute: Day Zero lessons from Cape Town and Chennai: https://www.wri.org/insights/responding-day-zero-equitably-water-crisis-lessons-cape-town-and-chennai
+- UNICEF Viet Nam Humanitarian Situation Report No. 1, 27 April 2024 (drought): https://www.unicef.org/media/156076/file/Viet_Nam_Humanitarian_Situation_Report_No._01_%28drought%29_reporting_period__-27_April_2024.pdf
+- World Resources Institute, 2018: https://www.wri.org/insights/40-indias-thermal-power-plants-are-water-scarce-areas-threatening-shutdowns

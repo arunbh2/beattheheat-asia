@@ -1,0 +1,41 @@
+Common Shade evidence pack: The groundwater loop
+Vicious cycle · https://beattheheat.asia/loops/#pumping · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- Explain "The groundwater loop" step by step, with the source for each link.
+- Who is hit hardest by this cycle, according to the pack?
+- Which actions could interrupt it, and what do they depend on?
+- What would have to be true for one of these links to fail in my place?
+- Which studies support this cycle, and what limits do they state about themselves?
+- What is still uncertain about this cycle?
+
+CONTENT
+
+The groundwater loop
+Dry fields need more water, so farmers pump harder, aquifers fall and the shortage deepens.
+Evidence for the cycle as a whole: established.
+
+THE LINKS IN THE CYCLE
+- Water shortages, which leads to irrigation demand soars: Taps run dry and wells fall just as people, crops and animals need more water to cope with the heat. Drought and salt water can leave water unusable as well as scarce: in April 2024, UNICEF estimated 73,900 households in the Mekong Delta short of water, with women and girls carrying most of the extra fetching. [https://www.wri.org/insights/responding-day-zero-equitably-water-crisis-lessons-cape-town-and-chennai] [https://www.unicef.org/media/156076/file/Viet_Nam_Humanitarian_Situation_Report_No._01_%28drought%29_reporting_period__-27_April_2024.pdf]
+- Irrigation demand soars, which leads to groundwater over-pumped: Hot, dry fields need far more water to keep crops alive. Watering fields cools the air but makes it more humid, which can raise the humid heat that farmworkers feel. [https://www.nature.com/articles/nature08238] [https://impact.ornl.gov/en/publications/moist-heat-stress-extremes-in-india-enhanced-by-irrigation/]
+- Groundwater over-pumped, which leads to water shortages: Farmers and cities pump deeper and harder, draining aquifers faster than rain can refill them. In India, warming is linked to more pumping for irrigation and faster groundwater loss, leaving less in reserve for the next hot season. [https://www.nature.com/articles/nature08238] [https://www.ars.usda.gov/research/publications/publication/?seqNo115=387051]
+
+STUDIES BEHIND IT
+- Minderhoud et al., Environmental Research Communications, 2020: Groundwater extraction may drown mega-delta. Groundwater pumping has sped up the sinking of the Mekong delta, to more than 2.5 cm a year in some areas. Where: Mekong delta, Vietnam. Limit it states: Sinking rates vary across the delta; the top rate is not everywhere. [https://iopscience.iop.org/article/10.1088/2515-7620/ab5e21]
+- Rodell, Velicogna and Famiglietti, Nature, 2009: Satellite-based estimates of groundwater depletion in India. Satellites show Rajasthan, Punjab and Haryana lost 109 km³ of groundwater between 2002 and 2008, mainly to irrigation, while rainfall stayed close to normal. Where: Rajasthan, Punjab and Haryana, India. Limit it states: An older period; it measures water lost, not the heat link itself. [https://www.nature.com/articles/nature08238]
+
+ACTIONS THAT COULD INTERRUPT IT
+- Smart irrigation and groundwater rules: Drip irrigation, metering, aquifer recharge and fair pumping rules keep wells from running dry. Watch for: Watering fields cools the air but makes it more humid, which can raise the humid heat that farmworkers feel. Saving water and protecting workers are worth checking together. [https://impact.ornl.gov/en/publications/moist-heat-stress-extremes-in-india-enhanced-by-irrigation/]
+
+SOURCES
+- World Resources Institute: Day Zero lessons from Cape Town and Chennai: https://www.wri.org/insights/responding-day-zero-equitably-water-crisis-lessons-cape-town-and-chennai
+- UNICEF Viet Nam Humanitarian Situation Report No. 1, 27 April 2024 (drought): https://www.unicef.org/media/156076/file/Viet_Nam_Humanitarian_Situation_Report_No._01_%28drought%29_reporting_period__-27_April_2024.pdf
+- Rodell, Velicogna and Famiglietti, Nature, 2009: https://www.nature.com/articles/nature08238
+- Mishra et al., 2020: moist heat stress extremes in India enhanced by irrigation: https://impact.ornl.gov/en/publications/moist-heat-stress-extremes-in-india-enhanced-by-irrigation/
+- Bhattarai et al., 2023: warming temperatures exacerbate groundwater depletion rates in India (USDA record): https://www.ars.usda.gov/research/publications/publication/?seqNo115=387051
+- Minderhoud et al., Environmental Research Communications, 2020: Groundwater extraction may drown mega-delta: https://iopscience.iop.org/article/10.1088/2515-7620/ab5e21

@@ -1,0 +1,40 @@
+Common Shade evidence pack: Dedicated heat budgets
+Action · https://beattheheat.asia/actions/#heatbudget · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- What is "Dedicated heat budgets", who would carry it out, and over what time?
+- Which vicious cycles could it help interrupt, and how?
+- What does it depend on to work, and what side effects are noted?
+- What examples does the pack give, and what do their sources show?
+- How would progress be measured?
+- What would I need to find out before proposing this in my place?
+
+CONTENT
+
+Dedicated heat budgets
+Ring-fenced funding for heat action, set aside before the season, so protection doesn’t compete with the emergency.
+Who could act: National governments, City and local governments, Development banks, donors and climate funds.
+Over what time: years.
+How progress could be measured: Heat budget set aside before the season starts.
+
+EXAMPLE
+Since August 2026, India’s disaster response funds can pay for heatwave relief; preparing for heat is still paid for separately. In Nepal, Madhesh Province and five municipalities committed 5% of sectoral budgets to adaptation and disaster risk reduction, with support from Practical Action and Mercy Corps. In Bangkok, a 2026 financing strategy with UNDP costs the city’s heat plan at about THB 146 million to set up and THB 10.8 million a year to run, and proposes climate budgeting so that adaptation spending can be identified and reported. [https://www.ceew.in/publications/nepal-heat-health-action] [https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf]
+
+VICIOUS CYCLES IT COULD HELP INTERRUPT
+- The reactive-spending loop: Stretched budgets skimp on prevention. Emergencies multiply, and costly emergency response stretches budgets further.
+- The protection-gap loop: As insurers retreat, public budgets absorb the losses, protection is cut, and the risk drives insurers further away.
+
+GUIDES
+- Centre for Policy Research, India: Finding the Finance: a guide to identifying centrally sponsored schemes to fund heat resilience [https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/]
+- Centre for Policy Research, India, 2023: How is India adapting to heatwaves? An assessment of 37 heat action plans [https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/]
+
+SOURCES
+- CEEW, Nepal in a Warming World, 2025: https://www.ceew.in/publications/nepal-heat-health-action
+- UNDP and Bangkok Metropolitan Administration: Bangkok's financing strategy for tackling urban heat, 2026: https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf
+- Centre for Policy Research, India: Finding the Finance: a guide to identifying centrally sponsored schemes to fund heat resilience: https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/
+- Centre for Policy Research, India, 2023: How is India adapting to heatwaves? An assessment of 37 heat action plans: https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/

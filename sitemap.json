@@ -187,7 +187,7 @@
     {
       "url": "https://beattheheat.asia/evidence/",
       "markdown": "https://beattheheat.asia/evidence/index.md",
-      "updated": "2026-11-11"
+      "updated": "2026-11-13"
     },
     {
       "url": "https://beattheheat.asia/finance/",
@@ -588,6 +588,11 @@
       "url": "https://beattheheat.asia/understand/",
       "markdown": "https://beattheheat.asia/understand/index.md",
       "updated": "2026-11-07"
+    },
+    {
+      "url": "https://beattheheat.asia/use-with-ai/",
+      "markdown": "https://beattheheat.asia/use-with-ai/index.md",
+      "updated": "2026-10-01"
     },
     {
       "url": "https://beattheheat.asia/whats-new/",

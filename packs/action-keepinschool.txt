@@ -1,0 +1,38 @@
+Common Shade evidence pack: Keep children in school
+Action · https://beattheheat.asia/actions/#keepinschool · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- What is "Keep children in school", who would carry it out, and over what time?
+- Which vicious cycles could it help interrupt, and how?
+- What does it depend on to work, and what side effects are noted?
+- What examples does the pack give, and what do their sources show?
+- How would progress be measured?
+- What would I need to find out before proposing this in my place?
+
+CONTENT
+
+Keep children in school
+Cash transfers, school meals and heat-ready classrooms and timetables keep children learning through hot seasons.
+Who could act: Schools and education authorities, National governments.
+Over what time: season.
+How progress could be measured: Attendance and drop-outs during the heat season.
+
+EXAMPLE
+When heat closes schools, children lose more than lessons: consultations for Tamil Nadu’s heat strategy found that long breaks cost children in schools serving marginalised groups their midday meals. India’s school meal scheme can keep serving meals through the summer holidays in areas declared drought-hit, as Odisha did in 27 districts in a year when a forecast heatwave also extended school closures. In the Philippines, heat helped drive the return to a June school start, keeping classes out of the hottest months, April and May. [https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf] [https://www.thequint.com/news/hot-news/met-dept-predicts-severe-heatwave-odisha-extends-school-holidays] [https://newsinfo.inquirer.net/1940232/deped-all-set-for-june-school-opening-in-25]
+
+VICIOUS CYCLES IT COULD HELP INTERRUPT
+- The lost-schooling loop: Children pulled out of school earn less as adults, and poorer families pull more children out of school.
+
+GUIDES
+- UNICEF, 2026: Learning Interrupted: global snapshot of climate-related school disruptions [https://www.unicef.org/reports/learning-interrupted]
+
+SOURCES
+- Tamil Nadu State Planning Commission, Beating the Heat: Tamil Nadu Heat Mitigation Strategy, 2024: https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf
+- The Quint: Odisha extends school holidays and keeps midday meals going: https://www.thequint.com/news/hot-news/met-dept-predicts-severe-heatwave-odisha-extends-school-holidays
+- Inquirer: DepEd all set for June school opening in 2025: https://newsinfo.inquirer.net/1940232/deped-all-set-for-june-school-opening-in-25
+- UNICEF, 2026: Learning Interrupted: global snapshot of climate-related school disruptions: https://www.unicef.org/reports/learning-interrupted

@@ -1,0 +1,38 @@
+Common Shade evidence pack: Shared risk pools
+Action · https://beattheheat.asia/actions/#riskpools · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- What is "Shared risk pools", who would carry it out, and over what time?
+- Which vicious cycles could it help interrupt, and how?
+- What does it depend on to work, and what side effects are noted?
+- What examples does the pack give, and what do their sources show?
+- How would progress be measured?
+- What would I need to find out before proposing this in my place?
+
+CONTENT
+
+Shared risk pools
+Public–private insurance and regional risk pools keep cover available and spread losses beyond any one budget.
+Who could act: Banks, insurers and financial regulators, National governments, Development banks, donors and climate funds.
+Over what time: years.
+How progress could be measured: Share of heat losses covered by pooled risk.
+
+EXAMPLE
+Regional risk pools such as the African Risk Capacity and the Caribbean’s CCRIF share disaster risk across countries. [https://blogs.worldbank.org/en/psd/sovereign-catastrophe-risk-pools-15-years-and-still-more-come]
+
+VICIOUS CYCLES IT COULD HELP INTERRUPT
+- The protection-gap loop: As insurers retreat, public budgets absorb the losses, protection is cut, and the risk drives insurers further away.
+
+GUIDES
+- Global Asia Insurance Partnership, 2026: Scaling Parametric Insurance in Asia: regulation, design, basis risk and why pilots stall [https://www.gaip.global/publications/scaling-parametric-insurance-in-asia/]
+- UNDP: Global Shield against Climate Risks in Pakistan: pre-arranged finance for climate shocks [https://www.undp.org/pakistan/projects/global-shield-against-climate-risks]
+
+SOURCES
+- World Bank: sovereign catastrophe risk pools, 15 years on: https://blogs.worldbank.org/en/psd/sovereign-catastrophe-risk-pools-15-years-and-still-more-come
+- Global Asia Insurance Partnership, 2026: Scaling Parametric Insurance in Asia: regulation, design, basis risk and why pilots stall: https://www.gaip.global/publications/scaling-parametric-insurance-in-asia/
+- UNDP: Global Shield against Climate Risks in Pakistan: pre-arranged finance for climate shocks: https://www.undp.org/pakistan/projects/global-shield-against-climate-risks

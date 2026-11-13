@@ -1,0 +1,44 @@
+Common Shade evidence pack: Cooling centres and check-ins
+Action · https://beattheheat.asia/actions/#coolingcentres · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- What is "Cooling centres and check-ins", who would carry it out, and over what time?
+- Which vicious cycles could it help interrupt, and how?
+- What does it depend on to work, and what side effects are noted?
+- What examples does the pack give, and what do their sources show?
+- How would progress be measured?
+- What would I need to find out before proposing this in my place?
+
+CONTENT
+
+Cooling centres and check-ins
+Public cooling spaces, water points and check-ins on older people living alone can offer relief in a heatwave. How much they protect health depends on who can reach them, how long people stay, and how hot it is once they leave.
+Who could act: City and local governments, Community and civil society groups, Health authorities.
+Over what time: season.
+How progress could be measured: Cooling centre visits, and check-ins on people living alone.
+
+EXAMPLE
+Narayanganj's 2025 heat action plan in Bangladesh proposes cooling centres in accessible public buildings and counts their daily users as an indicator, a way to see whether people use them. [https://southasia.iclei.org/wp-content/uploads/2026/02/Heat-Action-Plan_Narayanganj_Final_9th-Sept_2025_compressed.pdf]
+
+WATCH FOR
+- A 2025 review found no study that measured health outcomes for people using cooling centres; in simulated heatwaves, the benefits were short-lived. That is not evidence of no benefit. [https://researchportal.ukhsa.gov.uk/en/publications/public-health-effectiveness-of-cooling-centres-during-periods-of-/]
+- Running costs can decide whether a cooling space keeps working. Bangkok reported that money to build is generally available but running costs are not always covered; consultation participants said some childcare centres held back from air conditioning over electricity costs. [https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf]
+
+VICIOUS CYCLES IT COULD HELP INTERRUPT
+- The invisible-deaths loop: Heat deaths go uncounted, so heat protection goes unfunded, so more people die uncounted.
+
+GUIDES
+- US Centers for Disease Control and Prevention, in the GHHIN resource library: The use of cooling centers to prevent heat-related illness: evidence and strategies for implementation [https://heathealth.info/wp-content/uploads/cdc_47657_DS1-compressed-1.pdf]
+- National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026: Heat Resilient Cities Framework: shade, drinking water, alerts, cool surfaces and basic public cooling first, as low-cost protection that reaches many people quickly (p. 6) [https://niua.in/publication-details/Heat_Resilient_Cities_Framework]
+
+SOURCES
+- Narayanganj City Corporation: Heat Action Plan, 2025: https://southasia.iclei.org/wp-content/uploads/2026/02/Heat-Action-Plan_Narayanganj_Final_9th-Sept_2025_compressed.pdf
+- Dearman et al., UKHSA, 2025: public health effectiveness of cooling centres, a systematic review: https://researchportal.ukhsa.gov.uk/en/publications/public-health-effectiveness-of-cooling-centres-during-periods-of-/
+- UNDP and Bangkok Metropolitan Administration: Bangkok's financing strategy for tackling urban heat, 2026: https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf
+- US Centers for Disease Control and Prevention, in the GHHIN resource library: The use of cooling centers to prevent heat-related illness: evidence and strategies for implementation: https://heathealth.info/wp-content/uploads/cdc_47657_DS1-compressed-1.pdf
+- National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026: Heat Resilient Cities Framework: shade, drinking water, alerts, cool surfaces and basic public cooling first, as low-cost protection that reaches many people quickly (p. 6): https://niua.in/publication-details/Heat_Resilient_Cities_Framework

@@ -5,7 +5,7 @@ updated: 2026-11-13
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 41 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 42 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-41 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 3 connections documented and 3 questions opened. Beneath them, 1,084 works the commons draws on carry a publication date, and 807 are still being dated.
+42 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 3 connections documented and 3 questions opened. Beneath them, 1,084 works the commons draws on carry a publication date, and 807 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -101,6 +101,27 @@ AI systems that read the site have their own page.
 [How Common Shade sees heat](https://beattheheat.asia/approach/)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=How%20AI%20is%20used%20on%20Common%20Shade%2C%20stated%20plainly&ref=g-ai-use#way-share)
+
+Tool improved · Practical measures
+
+### Evidence packs to use with your own AI
+
+Added 13 November 2026 · Page and packs added 13 November 2026
+
+Why it matters our readingMany readers already think with an AI assistant or notebook tool, and the site itself runs none. Each country, vicious cycle and action is now one plain-text pack of the site's own words and sources, with questions to start from and a plain warning that the sources, not the assistant, are the authority.
+
+- South and Southeast Asia
+
+ReviewPacks are built from the site's own records at every build, country packs word for word from their snapshots; a check fails if a pack is missing, lacks its questions, warning or sources, or uses an em dash. Actions with no example on the map say so.
+
+How it connects
+
+- [Approach](https://beattheheat.asia/approach/) Page · our reading
+How AI is used to build the site is set out on the approach page.
+
+[Get an evidence pack](https://beattheheat.asia/use-with-ai/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Evidence%20packs%20to%20use%20with%20your%20own%20AI&ref=g-use-with-ai#way-share)
 
 Tool improved · Practical measures
 

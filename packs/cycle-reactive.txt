@@ -1,0 +1,46 @@
+Common Shade evidence pack: The reactive-spending loop
+Vicious cycle · https://beattheheat.asia/loops/#reactive · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- Explain "The reactive-spending loop" step by step, with the source for each link.
+- Who is hit hardest by this cycle, according to the pack?
+- Which actions could interrupt it, and what do they depend on?
+- What would have to be true for one of these links to fail in my place?
+- Which studies support this cycle, and what limits do they state about themselves?
+- What is still uncertain about this cycle?
+
+CONTENT
+
+The reactive-spending loop
+Stretched budgets skimp on prevention. Emergencies multiply, and costly emergency response stretches budgets further.
+Evidence for the cycle as a whole: emerging.
+
+THE LINKS IN THE CYCLE
+- Public budgets strained, which leads to heat protection underfunded: Repairs, emergency response, lost tax revenue and relief payments all drain public money. [https://openknowledge.worldbank.org/entities/publication/d8ba6f53-d778-47d2-b4a6-37dff7db2466/full]
+- Heat protection underfunded, which leads to emergency services stretched: Warnings, cooling centres, outreach and heat-ready services get a small share of budgets compared with floods or storms. A 2023 review of 37 Indian heat action plans found them underfunded: only two cited specific sources of finance for any of their actions. [https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/] [https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/]
+- Emergency services stretched, which leads to public budgets strained: Ambulances, fire crews and emergency rooms are swamped all at once. [https://indiaenvironmentportal.org.in/news-clippings/10000-heat-emergencies-in-15-days]
+
+STUDIES BEHIND IT
+- Park and Rubinyi, World Bank working paper, 2026: Urban heat, mortality, and economic costs: evidence from Bangkok, Thailand. About 593 deaths a year in Bangkok in 2016–18 were attributable to heat. Valued at 0.1–0.7% of the city’s economy, the upper estimate exceeds the city’s 2020 public health budget. Where: Bangkok, Thailand. Limit it states: An estimate from a statistical model; the value depends on how a life is priced. [https://openknowledge.worldbank.org/entities/publication/d8ba6f53-d778-47d2-b4a6-37dff7db2466/full]
+- Global Commission on Adaptation, 2019: Adapt Now: A Global Call for Leadership on Climate Resilience. US$800 million spent on early warning systems in developing countries could avoid US$3–16 billion in losses every year. Where: Developing countries. Limit it states: A broad benefit estimate covering many hazards, not heat alone. [https://openknowledge.worldbank.org/entities/publication/7713887e-5c0c-5fce-9dd0-c18a8875736c]
+- UNEP and GRID-Arendal, 2022: Spreading like Wildfire. Direct response typically gets over half of wildfire spending, while planning and prevention get less than 1%. Where: Global. Limit it states: About wildfire budgets; we use it as a pattern for heat. [https://www.unep.org/resources/report/spreading-wildfire-rising-threat-extraordinary-landscape-fires]
+- Centre for Policy Research, 2023: How is India adapting to heatwaves? An assessment of heat action plans. Of 37 heat action plans reviewed, 11 discussed funding, and 8 of those simply asked departments to find their own money. Only two included a vulnerability assessment. Where: India. Limit it states: Plans as of 2023; several have been updated since. [https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/]
+- Ministry of Home Affairs, reply in India’s Lok Sabha, reported by Down To Earth, 2026: India updates disaster list to include heatwaves and lightning after Finance Commission push. In August 2026 India added heatwaves to its notified natural calamities, so national and state disaster response funds can pay for heatwave relief. Before, states could spend only up to 10% of their response fund on locally declared disasters such as heat. Heat mitigation projects are funded separately, from disaster mitigation funds. Where: India. Limit it states: A rule change; how money flows in practice is still to be seen. [https://www.downtoearth.org.in/climate-change/india-updates-disaster-list-to-include-heatwaves-and-lightning-after-finance-commission-push]
+
+ACTIONS THAT COULD INTERRUPT IT
+- Dedicated heat budgets: Ring-fenced funding for heat action, set aside before the season, so protection doesn’t compete with the emergency.
+- Anticipatory action: Release money and act on the forecast, before the heatwave peaks, instead of paying for the emergency afterwards.
+
+SOURCES
+- Park and Rubinyi, World Bank, 2026: heat deaths in Bangkok cost more than its public health budget: https://openknowledge.worldbank.org/entities/publication/d8ba6f53-d778-47d2-b4a6-37dff7db2466/full
+- Centre for Policy Research, 2023: assessment of 37 heat action plans: https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/
+- Centre for Policy Research: Finding the Finance, a guide to identifying centrally sponsored schemes to fund heat resilience: https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/
+- Times of India via India Environment Portal, 2018: 10,000 heat emergencies in 15 days in Ahmedabad: https://indiaenvironmentportal.org.in/news-clippings/10000-heat-emergencies-in-15-days
+- Global Commission on Adaptation, 2019: Adapt Now: A Global Call for Leadership on Climate Resilience: https://openknowledge.worldbank.org/entities/publication/7713887e-5c0c-5fce-9dd0-c18a8875736c
+- UNEP and GRID-Arendal, 2022: Spreading like Wildfire: https://www.unep.org/resources/report/spreading-wildfire-rising-threat-extraordinary-landscape-fires
+- Ministry of Home Affairs, reply in India’s Lok Sabha, reported by Down To Earth, 2026: India updates disaster list to include heatwaves and lightning after Finance Commission push: https://www.downtoearth.org.in/climate-change/india-updates-disaster-list-to-include-heatwaves-and-lightning-after-finance-commission-push

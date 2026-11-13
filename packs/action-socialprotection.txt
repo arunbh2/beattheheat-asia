@@ -1,0 +1,36 @@
+Common Shade evidence pack: Social protection floors
+Action · https://beattheheat.asia/actions/#socialprotection · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- What is "Social protection floors", who would carry it out, and over what time?
+- Which vicious cycles could it help interrupt, and how?
+- What does it depend on to work, and what side effects are noted?
+- What examples does the pack give, and what do their sources show?
+- How would progress be measured?
+- What would I need to find out before proposing this in my place?
+
+CONTENT
+
+Social protection floors
+Basic income security that keeps households above the line between one hot season and the next.
+Who could act: National governments, Development banks, donors and climate funds.
+Over what time: years.
+How progress could be measured: Households reached by heat-season support.
+
+EXAMPLE
+In Rajshahi, Bangladesh, a heatwave study found the government's Old Age Allowance suited to early cash before heat peaks, given its digitised list of recipients and nationwide reach; a simulation then tested the idea. [https://www.anticipation-hub.org/Documents/Reports/0_RCCC_SRSP_simulation_Rajshahi_Advocacy_brief_V3.pdf]
+
+VICIOUS CYCLES IT COULD HELP INTERRUPT
+- The poverty–heat trap: People who can’t afford to stop working fall ill. Illness costs income, and lost income makes stopping even less affordable.
+
+GUIDES
+- International Labour Organization: Addressing the impacts of extreme heat through social protection [https://www.ilo.org/resource/article/addressing-impacts-extreme-heat-through-social-protection]
+
+SOURCES
+- Anticipation Hub: shock-responsive social protection simulation for anticipatory action in Rajshahi city, Bangladesh: https://www.anticipation-hub.org/Documents/Reports/0_RCCC_SRSP_simulation_Rajshahi_Advocacy_brief_V3.pdf
+- International Labour Organization: Addressing the impacts of extreme heat through social protection: https://www.ilo.org/resource/article/addressing-impacts-extreme-heat-through-social-protection
