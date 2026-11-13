@@ -1,0 +1,40 @@
+Common Shade evidence pack: The farm-debt loop
+Vicious cycle · https://beattheheat.asia/loops/#farmdebt · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- Explain "The farm-debt loop" step by step, with the source for each link.
+- Who is hit hardest by this cycle, according to the pack?
+- Which actions could interrupt it, and what do they depend on?
+- What would have to be true for one of these links to fail in my place?
+- Which studies support this cycle, and what limits do they state about themselves?
+- What is still uncertain about this cycle?
+
+CONTENT
+
+The farm-debt loop
+A failed harvest pushes farmers into debt. Debt leaves less for seed, water and fertiliser, so the next harvest fails more easily.
+Evidence for the cycle as a whole: emerging.
+
+THE LINKS IN THE CYCLE
+- Failing harvests, which leads to farmers fall into debt: Heat during flowering and grain-filling cuts yields of staple crops, even when there is enough rain. Smallholders farming on rain alone, with no irrigation or savings to fall back on, are hit first. Shocks can come one after another: in Pakistan in 2022, flood crop losses added to food pressures left by the summer's heat, though the heat did not cause the floods. [https://fsi.stanford.edu/node/26622] [https://doi.org/10.1073/pnas.0403720101] [https://www.worldweatherattribution.org/climate-change-likely-increased-extreme-monsoon-rainfall-flooding-highly-vulnerable-communities-in-pakistan/]
+- Farmers fall into debt, which leads to failing harvests: After a failed season, farmers borrow at high interest or sell livestock, land and seed to get by. [https://pmc.ncbi.nlm.nih.gov/articles/PMC5565417/] [https://www.kcl.ac.uk/news/new-study-finds-that-microfinance-is-exacerbating-climate-precarity-and-harm-in-cambodia]
+
+STUDIES BEHIND IT
+- Carleton, PNAS, 2017: Crop-damaging temperatures increase suicide rates in India. Heat raises suicide rates in India only during the growing season, when it also cuts crop yields, pointing to farm income losses. The findings have been debated. Where: India. Limit it states: An association that has been debated; it does not prove debt is the cause. [https://pmc.ncbi.nlm.nih.gov/articles/PMC5565417/]
+- Lobell, Sibley and Ortiz-Monasterio, Nature Climate Change, 2012: Extreme heat effects on wheat senescence in India. Days above 34 °C make wheat in northern India age early, and crop models may underestimate yield losses at +2 °C by as much as 50%. Where: Northern India. Limit it states: About wheat only; it shows how models can miss losses. [https://fsi.stanford.edu/node/26622]
+- Peng et al., PNAS, 2004: Rice yields decline with higher night temperature from global warming. At the International Rice Research Institute’s farm in the Philippines, rice yields fell by about 10% for each 1 °C rise in growing-season night temperature, while daytime highs had little effect. Where: Los Baños, Philippines. Limit it states: One site; later studies find varied effects across regions. [https://doi.org/10.1073/pnas.0403720101]
+
+ACTIONS THAT COULD INTERRUPT IT
+- Crop insurance and fair credit: Crop insurance that pays out after a heat-hit season, affordable credit and heat-tolerant seed stop one bad harvest becoming a debt trap.
+
+SOURCES
+- Lobell, Sibley and Ortiz-Monasterio, Nature Climate Change, 2012 (wheat in India): https://fsi.stanford.edu/node/26622
+- Peng et al., PNAS, 2004 (rice in the Philippines): https://doi.org/10.1073/pnas.0403720101
+- World Weather Attribution, 2022: extreme monsoon rainfall and flooding in Pakistan: https://www.worldweatherattribution.org/climate-change-likely-increased-extreme-monsoon-rainfall-flooding-highly-vulnerable-communities-in-pakistan/
+- Carleton, PNAS, 2017: https://pmc.ncbi.nlm.nih.gov/articles/PMC5565417/
+- King’s College London, 2023: microfinance and climate shocks in Cambodia: https://www.kcl.ac.uk/news/new-study-finds-that-microfinance-is-exacerbating-climate-precarity-and-harm-in-cambodia

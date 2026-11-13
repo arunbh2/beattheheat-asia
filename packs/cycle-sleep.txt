@@ -1,0 +1,47 @@
+Common Shade evidence pack: The sleepless-nights loop
+Vicious cycle · https://beattheheat.asia/loops/#sleep · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- Explain "The sleepless-nights loop" step by step, with the source for each link.
+- Who is hit hardest by this cycle, according to the pack?
+- Which actions could interrupt it, and what do they depend on?
+- What would have to be true for one of these links to fail in my place?
+- Which studies support this cycle, and what limits do they state about themselves?
+- What is still uncertain about this cycle?
+
+CONTENT
+
+The sleepless-nights loop
+Hot nights wreck sleep. Poor sleep frays mental health, and stress makes sleep harder still.
+Evidence for the cycle as a whole: established.
+
+THE LINKS IN THE CYCLE
+- Sleepless hot nights, which leads to mental health suffers: When nights stay hot, the body has less chance to recover from the day, so the next day can start already depleted. Migrant workers in Singapore linked hot, crowded dormitories with poor sleep and tiredness on the next shift. A review of 11 studies finds heat linked to poorer sleep among people who work in it. [https://orbit.dtu.dk/en/publications/rising-temperatures-erode-human-sleep-globally/] [https://pmc.ncbi.nlm.nih.gov/articles/PMC10329802/] [https://www.aoemj.org/journal/view.php?doi=10.35371/aoem.2026.38.e3]
+- Mental health suffers, which leads to sleepless hot nights: Heat is linked to more anxiety, distress and suicide, and to worse outcomes for people living with mental illness. Heat in pregnancy adds stress and anxiety, known risks for the birth. In many countries, mental health services are far from meeting the need. In a national survey of Thai adults, people whose daily life was often disrupted by heat reported poorer wellbeing; a survey like this cannot show which came first. [https://www.imperial.ac.uk/news/246058/rising-temperatures-associated-with-poorer-mental/] [https://www.who.int/publications/i/item/9789240045125] [https://www.who.int/publications/i/item/9789240085350] [https://bmjopen.bmj.com/content/bmjopen/2/6/e001396.full.pdf]
+
+STUDIES BEHIND IT
+- National Environment Agency, Singapore, 2024: Singapore’s Third National Climate Change Study (V3). Singapore averaged 76 warm nights a year (above 26.3 °C) over the last 40 years; by the end of the century such nights could occur on most nights of the year. Where: Singapore. Limit it states: End-of-century figures depend on the emissions scenario. [https://www.nea.gov.sg/media/news/news/index/latest-climate-projections-for-singapore-show-intensifying-urban-heat-and-more-wet-dry-extremes]
+- Minor et al., One Earth, 2022: Rising temperatures erode human sleep globally. Data from 47,628 people in 68 countries shows hot nights shorten sleep, with bigger losses for older people and in lower-income countries. Where: 68 countries. Limit it states: Most wearers live in higher-income countries; the poorest, who sleep hottest, are under-represented. [https://orbit.dtu.dk/en/publications/rising-temperatures-erode-human-sleep-globally/]
+- Thompson et al., The Lancet Planetary Health, 2023 (summary by Imperial College London): Ambient temperature and mental health: a systematic review and meta-analysis. A review of 114 studies links higher temperatures with poorer mental health, including higher suicide rates. Where: Global. Limit it states: Shows an association, not proof of cause. [https://www.imperial.ac.uk/news/246058/rising-temperatures-associated-with-poorer-mental/]
+- Council on Energy, Environment and Water (CEEW), 2025: How Extreme Heat is Impacting India: Assessing District-level Heat Risk. Over the last decade, nearly 70% of India’s districts gained five or more very warm nights each summer, while only about 28% saw a similar rise in very hot days. Mumbai gained 15 very warm nights a summer, and Bengaluru 11. Where: India, by district. Limit it states: Based on reanalysis data, which can miss very local differences. [https://www.ceew.in/sites/default/files/ceew-how-extreme-heat-is-impacting-india-final-web-file.pdf]
+- Tamil Nadu State Planning Commission, 2024: Beating the Heat: Tamil Nadu Heat Mitigation Strategy. Tamil Nadu’s summer minimum temperatures have risen by about 0.75 °C since the 1980s, and about 56% of its people now live where summer nights are warmer than the 1981–2011 average. Where: Tamil Nadu, India. Limit it states: State-level averages; neighbourhoods differ. [https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf]
+
+ACTIONS THAT COULD INTERRUPT IT
+- Cool nights and support: Cooling centres open at night, shaded and ventilated homes, and mental-health support during the hot season.
+
+SOURCES
+- Minor et al., One Earth, 2022: rising temperatures erode human sleep: https://orbit.dtu.dk/en/publications/rising-temperatures-erode-human-sleep-globally/
+- Migrant workers in Singapore, 2023 (PMC10329802): https://pmc.ncbi.nlm.nih.gov/articles/PMC10329802/
+- Raja et al., Annals of Occupational and Environmental Medicine, 2026: heat and sleep among heat-exposed workers, a systematic review: https://www.aoemj.org/journal/view.php?doi=10.35371/aoem.2026.38.e3
+- Thompson et al., The Lancet Planetary Health, 2023, summarised by Imperial College London: https://www.imperial.ac.uk/news/246058/rising-temperatures-associated-with-poorer-mental/
+- WHO, 2022: Mental health and climate change, policy brief: https://www.who.int/publications/i/item/9789240045125
+- WHO, UNICEF and UNFPA, 2023: Protecting maternal, newborn and child health from the impacts of climate change: https://www.who.int/publications/i/item/9789240085350
+- Tawatsupa et al., BMJ Open, 2012: heat stress, health and wellbeing in a national cohort of Thai adults: https://bmjopen.bmj.com/content/bmjopen/2/6/e001396.full.pdf
+- National Environment Agency, Singapore, 2024: Singapore’s Third National Climate Change Study (V3): https://www.nea.gov.sg/media/news/news/index/latest-climate-projections-for-singapore-show-intensifying-urban-heat-and-more-wet-dry-extremes
+- Council on Energy, Environment and Water (CEEW), 2025: How Extreme Heat is Impacting India: Assessing District-level Heat Risk: https://www.ceew.in/sites/default/files/ceew-how-extreme-heat-is-impacting-india-final-web-file.pdf
+- Tamil Nadu State Planning Commission, 2024: Beating the Heat: Tamil Nadu Heat Mitigation Strategy: https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf

@@ -36,6 +36,7 @@ const ENDPOINTS = [
   ["/agents.txt", "what automated readers may do here", "text"],
   ["/terms-of-use.md", "terms of reuse in plain text", "text"],
   ["/index.md", "a Markdown twin of every page: add index.md to a page's address (this is the home page's)", "text"],
+  ["/use-with-ai/", "evidence packs: one plain-text file per country, vicious cycle and action, with starter questions", "HTML"],
   ["/sources/", "every source the site cites, searchable", "HTML"],
   ["/data/core/LOOPS.json", "the vicious cycles", "JSON"],
   ["/data/core/CONSEQUENCES.json", "the consequences of heat", "JSON"],

@@ -1,0 +1,41 @@
+Common Shade evidence pack: Heat-ready health services
+Action · https://beattheheat.asia/actions/#readyclinics · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- What is "Heat-ready health services", who would carry it out, and over what time?
+- Which vicious cycles could it help interrupt, and how?
+- What does it depend on to work, and what side effects are noted?
+- What examples does the pack give, and what do their sources show?
+- How would progress be measured?
+- What would I need to find out before proposing this in my place?
+
+CONTENT
+
+Heat-ready health services
+Cooling, backup power, surge plans and trained frontline workers keep clinics working through heatwaves.
+Who could act: Health authorities, Development banks, donors and climate funds.
+Over what time: season.
+How progress could be measured: Health facilities with heat protocols, trained staff and cooling.
+
+EXAMPLE
+On Assam’s Brahmaputra river islands, boat clinics run by C-NES with the National Health Mission switched from diesel to solar power, so lights, fans and vaccine fridges keep working and emergencies can be seen after dark. Tamil Nadu’s heat strategy proposes a simple step for mothers: screen for heat risk in the check-ups of the state’s pregnancy scheme, which has run in various forms since 1987. [https://www.eco-business.com/news/brahmaputra-boat-clinic-goes-solar-powering-up-rural-healthcare/] [https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf]
+
+VICIOUS CYCLES IT COULD HELP INTERRUPT
+- The overwhelmed-clinic loop: Heat illness floods clinics. Overwhelmed clinics treat people later, and more cases become severe.
+
+GUIDES
+- National Centre for Disease Control, Ministry of Health and Family Welfare, India, 2021: National Action Plan on Heat-Related Illness [https://ncdc.mohfw.gov.in/uploads/pdf/heat12.pdf]
+- National Centre for Disease Control, India: Climate change and health: heat-illness guidelines, emergency cooling guidance and heat stroke units [https://ncdc.mohfw.gov.in/includes/About/CentresAndDivision/CEOH.php]
+- Council on Energy, Environment and Water (CEEW), for the GHHIN South Asia hub, 2026: India in a Warming World: Strengthening Heat-Health Action [https://www.ceew.in/publications/india-heat-health-action]
+
+SOURCES
+- Thomson Reuters Foundation, via Eco-Business: Brahmaputra boat clinic goes solar: https://www.eco-business.com/news/brahmaputra-boat-clinic-goes-solar-powering-up-rural-healthcare/
+- Tamil Nadu State Planning Commission, Beating the Heat: Tamil Nadu Heat Mitigation Strategy, 2024: https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf
+- National Centre for Disease Control, Ministry of Health and Family Welfare, India, 2021: National Action Plan on Heat-Related Illness: https://ncdc.mohfw.gov.in/uploads/pdf/heat12.pdf
+- National Centre for Disease Control, India: Climate change and health: heat-illness guidelines, emergency cooling guidance and heat stroke units: https://ncdc.mohfw.gov.in/includes/About/CentresAndDivision/CEOH.php
+- Council on Energy, Environment and Water (CEEW), for the GHHIN South Asia hub, 2026: India in a Warming World: Strengthening Heat-Health Action: https://www.ceew.in/publications/india-heat-health-action

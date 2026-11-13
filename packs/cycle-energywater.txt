@@ -1,0 +1,41 @@
+Common Shade evidence pack: The energy–water loop
+Vicious cycle · https://beattheheat.asia/loops/#energywater · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- Explain "The energy–water loop" step by step, with the source for each link.
+- Who is hit hardest by this cycle, according to the pack?
+- Which actions could interrupt it, and what do they depend on?
+- What would have to be true for one of these links to fail in my place?
+- Which studies support this cycle, and what limits do they state about themselves?
+- What is still uncertain about this cycle?
+
+CONTENT
+
+The energy–water loop
+Water systems need power and power plants need water. In a heatwave, each failure deepens the other.
+Evidence for the cycle as a whole: established.
+
+THE LINKS IN THE CYCLE
+- Power cuts and grid stress, which leads to water shortages: Peak demand and heat-stressed lines and transformers push grids to the edge. Outages switch off cooling when it matters most. Heat and low water can strike the grid together: in northern Viet Nam in June 2023, heat drove demand up while low reservoirs left only 23.7% of hydropower capacity available, with plant and transmission problems adding to the strain. [https://manilatimes.net/2023/08/12/business/foreign-business/power-crisis-cost-vietnam-14b-wb/1904920/amp] [https://en.evn.com.vn/d6/news/Ministry-of-Industry-and-Trade-informs-about-power-supply-situation-in-hot-season-66-163-3527.aspx]
+- Water shortages, which leads to power plants cut output: Taps run dry and wells fall just as people, crops and animals need more water to cope with the heat. Drought and salt water can leave water unusable as well as scarce: in April 2024, UNICEF estimated 73,900 households in the Mekong Delta short of water, with women and girls carrying most of the extra fetching. [https://www.wri.org/insights/responding-day-zero-equitably-water-crisis-lessons-cape-town-and-chennai] [https://www.unicef.org/media/156076/file/Viet_Nam_Humanitarian_Situation_Report_No._01_%28drought%29_reporting_period__-27_April_2024.pdf]
+- Power plants cut output, which leads to power cuts and grid stress: Coal, gas and nuclear plants need cool water. When rivers run low or warm, they have to produce less. [https://www.wri.org/insights/40-indias-thermal-power-plants-are-water-scarce-areas-threatening-shutdowns]
+
+STUDIES BEHIND IT
+- World Bank estimate, reported by AFP via The Manila Times, 2023: Power crisis cost Vietnam $1.4B. Heatwaves in May and June 2023 pushed up demand while hydropower reservoirs ran low, and rolling blackouts hit northern Vietnam. The World Bank’s early estimate put the cost at about US$1.4 billion, roughly 0.3% of GDP. Where: Northern Vietnam. Limit it states: An early estimate reported in the press; drought and demand both played a part. [https://manilatimes.net/2023/08/12/business/foreign-business/power-crisis-cost-vietnam-14b-wb/1904920/amp]
+- World Resources Institute, 2018: 40% of India’s thermal power plants are in water-scarce areas, threatening shutdowns. 14 of India’s 20 largest thermal utilities shut down at least once for lack of water between 2013 and 2016. Water shortages cost 14 TWh of power in 2016. Where: India. Limit it states: Data from before 2017; plants and water rules have changed since. [https://www.wri.org/insights/40-indias-thermal-power-plants-are-water-scarce-areas-threatening-shutdowns]
+
+ACTIONS THAT COULD INTERRUPT IT
+- Power that doesn’t need water: Solar and wind use very little water, and dry cooling protects thermal plants when rivers run low or warm.
+- Backup power for water: Solar pumps and backup supply keep water flowing when the grid fails.
+
+SOURCES
+- World Bank estimate, reported by AFP via The Manila Times, 2023: Vietnam’s heat-driven power crisis: https://manilatimes.net/2023/08/12/business/foreign-business/power-crisis-cost-vietnam-14b-wb/1904920/amp
+- Vietnam Electricity, 7 June 2023: power supply in the hot season: https://en.evn.com.vn/d6/news/Ministry-of-Industry-and-Trade-informs-about-power-supply-situation-in-hot-season-66-163-3527.aspx
+- World Resources Institute: Day Zero lessons from Cape Town and Chennai: https://www.wri.org/insights/responding-day-zero-equitably-water-crisis-lessons-cape-town-and-chennai
+- UNICEF Viet Nam Humanitarian Situation Report No. 1, 27 April 2024 (drought): https://www.unicef.org/media/156076/file/Viet_Nam_Humanitarian_Situation_Report_No._01_%28drought%29_reporting_period__-27_April_2024.pdf
+- World Resources Institute, 2018: https://www.wri.org/insights/40-indias-thermal-power-plants-are-water-scarce-areas-threatening-shutdowns

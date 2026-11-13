@@ -1,0 +1,45 @@
+Common Shade evidence pack: The heat credit squeeze
+Vicious cycle · https://beattheheat.asia/loops/#squeeze · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- Explain "The heat credit squeeze" step by step, with the source for each link.
+- Who is hit hardest by this cycle, according to the pack?
+- Which actions could interrupt it, and what do they depend on?
+- What would have to be true for one of these links to fail in my place?
+- Which studies support this cycle, and what limits do they state about themselves?
+- What is still uncertain about this cycle?
+
+CONTENT
+
+The heat credit squeeze
+Heat empties shops and small firms miss repayments. Banks tighten credit, so firms can’t afford to adapt, and the next heatwave hits harder.
+Evidence for the cycle as a whole: emerging.
+
+THE LINKS IN THE CYCLE
+- Small businesses close, which leads to loan repayments slip: Street vendors, workshops and shops lose customers, stock and power, and many shut for good. [https://doi.org/10.1787/19d94638-en] [https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/]
+- Loan repayments slip, which leads to borrowing costs rise: When heat cuts sales, harvests or wages, small firms and households fall behind on loans, and lenders collect less. [https://cepr.org/voxeu/columns/heatwaves-ripple-financial-system] [https://www.business-standard.com/finance/news/micro-loan-asset-quality-deteriorates-in-april-june-quarter-sa-dhan-124082700721_1.html]
+- Borrowing costs rise, which leads to small businesses close: Lenders and rating agencies increasingly price climate risk into borrowing. After heat shocks, banks have charged small firms more, asked for more collateral and lent less. [https://cepr.org/voxeu/columns/heatwaves-ripple-financial-system]
+
+STUDIES BEHIND IT
+- OECD Economics Department, Working Paper No. 1828, 2024: The heat is on: Heat stress, productivity and adaptation among firms. Across 2.7 million firms in 23 advanced economies, heat cut the productivity of small firms while medium and large firms showed no loss, and the largest grew revenue about 0.6 points faster than small firms after hot years. Losses lasted up to two years. Restaurants and hotels were hit hard, partly through lower demand. Where: 23 advanced economies. Limit it states: Rich economies; small informal firms in Asia are not covered. [https://doi.org/10.1787/19d94638-en]
+- Aguilar-Gomez et al., summarised in VoxEU, 2024: Heatwaves ripple into the financial system. Loan-level bank data from Mexico show that ten extra days of extreme heat in a quarter raise small-business loan delinquency by about 4%, mainly among firms that depend on local customers. Banks then raise rates, ask for more collateral and lend less for two to three quarters. Where: Mexico. Limit it states: Outside Asia; how Asian banks respond is not yet measured. [https://cepr.org/voxeu/columns/heatwaves-ripple-financial-system]
+- Sa-Dhan, reported by Business Standard, 2024: Micro-loan asset quality deteriorates in April–June quarter. India’s microfinance industry body said loan quality worsened in April–June 2024, partly because heatwaves cut borrowers’ incomes and lenders’ collections. Where: India. Limit it states: Heat is one named cause among several, not measured on its own. [https://www.business-standard.com/finance/news/micro-loan-asset-quality-deteriorates-in-april-june-quarter-sa-dhan-124082700721_1.html]
+- King’s College London, 2023: New study finds that microfinance is exacerbating climate precarity and harm in Cambodia. A caution for lenders: in Cambodia, researchers found that borrowing to get through climate shocks often delayed the harm rather than removing it, leaving households more indebted for the next shock. Where: Cambodia. Limit it states: About climate shocks in general, not heat alone. [https://www.kcl.ac.uk/news/new-study-finds-that-microfinance-is-exacerbating-climate-precarity-and-harm-in-cambodia]
+- Greenpeace India and National Hawkers Federation, 2024: Heatwave Havoc: the toll on Delhi’s street vendors. Of 721 Delhi street vendors surveyed in April and May 2024, 80% saw fewer customers during heatwaves and 49% lost income. Where: Delhi, India. Limit it states: Self-reported, from one city in one season. [https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/]
+- Federation of Automobile Dealers Associations, reported by Orissa Post, 2024: Passenger vehicle retail sales dip 7% in June as heatwave curtails showroom visits. Car dealers said heat cut showroom footfall by about 15% in June 2024, leaving them with 62–67 days of unsold stock against a recommended three weeks. A sign of where to look; the link to their loans is not yet measured. Where: India. Limit it states: Dealers’ own account; the link to their loans is not measured. [https://www.orissapost.com/passenger-vehicle-retail-sales-dip-7-in-june-as-heatwave-curtails-showroom-visits/amp/]
+
+ACTIONS THAT COULD INTERRUPT IT
+- Heat-smart lending: Lenders and regulators keep credit flowing through a heatwave: repayment holidays triggered by heat alerts, credit lines kept open, and loans for shade, cooling and cold storage, so a hot season does not become a debt spiral.
+
+SOURCES
+- OECD Economics Department, Working Paper No. 1828, 2024: https://doi.org/10.1787/19d94638-en
+- Greenpeace India and National Hawkers Federation, 2024: https://www.greenpeace.org/india/en/press/16737/new-report-by-greenpeace-india-and-national-hawkers-federation-reveals-harsh-heatwave-toll-on-street-vendors/
+- Aguilar-Gomez et al., summarised in VoxEU, 2024: https://cepr.org/voxeu/columns/heatwaves-ripple-financial-system
+- Sa-Dhan, reported by Business Standard, 2024: https://www.business-standard.com/finance/news/micro-loan-asset-quality-deteriorates-in-april-june-quarter-sa-dhan-124082700721_1.html
+- King’s College London, 2023: New study finds that microfinance is exacerbating climate precarity and harm in Cambodia: https://www.kcl.ac.uk/news/new-study-finds-that-microfinance-is-exacerbating-climate-precarity-and-harm-in-cambodia
+- Federation of Automobile Dealers Associations, reported by Orissa Post, 2024: Passenger vehicle retail sales dip 7% in June as heatwave curtails showroom visits: https://www.orissapost.com/passenger-vehicle-retail-sales-dip-7-in-june-as-heatwave-curtails-showroom-visits/amp/

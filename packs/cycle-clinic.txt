@@ -1,0 +1,42 @@
+Common Shade evidence pack: The overwhelmed-clinic loop
+Vicious cycle · https://beattheheat.asia/loops/#clinic · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- Explain "The overwhelmed-clinic loop" step by step, with the source for each link.
+- Who is hit hardest by this cycle, according to the pack?
+- Which actions could interrupt it, and what do they depend on?
+- What would have to be true for one of these links to fail in my place?
+- Which studies support this cycle, and what limits do they state about themselves?
+- What is still uncertain about this cycle?
+
+CONTENT
+
+The overwhelmed-clinic loop
+Heat illness floods clinics. Overwhelmed clinics treat people later, and more cases become severe.
+Evidence for the cycle as a whole: emerging.
+
+THE LINKS IN THE CYCLE
+- Heatstroke and heat exhaustion, which leads to health systems overwhelmed: When the body can no longer cool itself, heat exhaustion can tip into heatstroke: a medical emergency that can kill. India’s suspected heatstroke cases rose more than tenfold in two summers, from 4,481 in 2022 to over 48,000 in 2024. Humid heat is the most dangerous: when the wet-bulb temperature is high, sweat stops cooling the body. Many more people feel heat illness than are diagnosed with it: among women garment workers in Phnom Penh, reports of symptoms such as thirst, heavy sweating and tiredness rose from 68% in cool months to 88% in hot months. [https://rsdebate.nic.in/bitstream/123456789/750681/1/PQ_265_06082024_U1693_p358_p362.pdf] [https://link.springer.com/article/10.1186/s12889-025-22787-0]
+- Health systems overwhelmed, which leads to heatstroke and heat exhaustion: Heatwaves bring surges of patients just as staff, power and supplies are under strain. In Bangladesh, people with disabilities described heat making travel, communication and reaching care harder, and many relied on family to get help. During an outbreak, protective clothing adds heat: health workers in southern India and Singapore reported heat symptoms while wearing it in 2020. [https://www.context.news/climate-risks/ice-baths-and-ventilators-indias-hospitals-adapt-to-killer-heat] [https://link.springer.com/article/10.1007/s13753-026-00778-y] [https://heathealth.info/wp-content/uploads/Lee-et-al.-2020-Heat-Stress-and-Thermal-Perception-amongst-Healthcare-Workers-during-the-COVID-19-Pandemic-in-India-and-Singapore.pdf]
+
+STUDIES BEHIND IT
+- Lancet Countdown, The Lancet, 2024: The 2024 report of the Lancet Countdown on health and climate change. Heat-related deaths among people over 65 reached a record 167% above the 1990s level in 2023. Where: Global. Limit it states: A global figure; it does not give Asia’s share. [https://doi.org/10.1016/S0140-6736(24)01822-1]
+- Hess et al., Journal of Environmental and Public Health, 2018: Pilot evaluation of the impact of India’s first heat action plan on all-cause mortality. After Ahmedabad’s heat action plan prepared hospitals and warned the public, an estimated 1,190 deaths a year were avoided. Where: Ahmedabad, India. Limit it states: A pilot evaluation; other changes over the same years could explain part of the drop. [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6236972/]
+
+ACTIONS THAT COULD INTERRUPT IT
+- Heat action plans: Early warnings, public cooling spaces and outreach to the people most at risk prevent illness before it reaches hospital.
+- Heat-ready health services: Cooling, backup power, surge plans and trained frontline workers keep clinics working through heatwaves.
+
+SOURCES
+- Ministry of Health and Family Welfare, reply in India’s Rajya Sabha, 6 August 2024: https://rsdebate.nic.in/bitstream/123456789/750681/1/PQ_265_06082024_U1693_p358_p362.pdf
+- Chea et al., BMC Public Health, 2025: heat stress among women garment workers in Cambodia, cool and hot months: https://link.springer.com/article/10.1186/s12889-025-22787-0
+- Context, 2024: India’s hospitals adapt to killer heat: https://www.context.news/climate-risks/ice-baths-and-ventilators-indias-hospitals-adapt-to-killer-heat
+- Interviews with people with disabilities in three Bangladesh locations, International Journal of Disaster Risk Science, 2026: https://link.springer.com/article/10.1007/s13753-026-00778-y
+- Lee et al., 2020: heat stress among health workers in India and Singapore during COVID-19: https://heathealth.info/wp-content/uploads/Lee-et-al.-2020-Heat-Stress-and-Thermal-Perception-amongst-Healthcare-Workers-during-the-COVID-19-Pandemic-in-India-and-Singapore.pdf
+- Lancet Countdown, The Lancet, 2024: The 2024 report of the Lancet Countdown on health and climate change: https://doi.org/10.1016/S0140-6736(24)01822-1
+- Hess et al., Journal of Environmental and Public Health, 2018: Pilot evaluation of the impact of India’s first heat action plan on all-cause mortality: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6236972/

@@ -1,0 +1,44 @@
+Common Shade evidence pack: Heat-smart lending
+Action · https://beattheheat.asia/actions/#heatlending · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- What is "Heat-smart lending", who would carry it out, and over what time?
+- Which vicious cycles could it help interrupt, and how?
+- What does it depend on to work, and what side effects are noted?
+- What examples does the pack give, and what do their sources show?
+- How would progress be measured?
+- What would I need to find out before proposing this in my place?
+
+CONTENT
+
+Heat-smart lending
+Lenders and regulators keep credit flowing through a heatwave: repayment holidays triggered by heat alerts, credit lines kept open, and loans for shade, cooling and cold storage, so a hot season does not become a debt spiral.
+Who could act: Banks, insurers and financial regulators, National governments, Development banks, donors and climate funds.
+Over what time: years.
+How progress could be measured: Borrowers given repayment holidays or extra credit during heatwaves, and loan arrears after the season.
+
+EXAMPLE
+India’s banks can already reschedule loans and pause repayments in areas hit by notified natural calamities, under a 2018 Reserve Bank of India direction. India added heatwaves to its notified calamities in 2026; whether that relief now reaches heat-hit borrowers is worth asking your bank. Southeast Asia has the same machinery for floods and storms. In the Philippines, banks in areas under a state of calamity can give borrowers up to six months’ grace with no penalties. Indonesia’s regulator let banks restructure Rp12.58 trillion of loans for 237,083 borrowers after the 2025 Sumatra floods, and Vietnam let lenders reschedule debts hit by Typhoon Yagi until 2027. None of these rules yet names heat as a trigger. [https://www.philstar.com/business/2025/10/27/2482726/bsp-expands-calamity-relief-banks-borrowers] [https://finansial.bisnis.com/read/20260127/90/1947681/ojk-nilai-restrukturisasi-kredit-bagi-korban-bencana-sumatra-capai-rp1258-triliun] [https://vietnamnews.vn/economy/1688781/banks-allowed-to-extend-debt-repayment-for-typhoon-yagi-affected-customers-to-2027.html]
+
+VICIOUS CYCLES IT COULD HELP INTERRUPT
+- The heat credit squeeze: Heat empties shops and small firms miss repayments. Banks tighten credit, so firms can’t afford to adapt, and the next heatwave hits harder.
+
+GUIDES
+- Reserve Bank of India, 2018: Master Direction: Relief measures by banks in areas affected by natural calamities [https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10478]
+- Shonchoy and others, IDE-JETRO: Seasonal flexible microcredit in Bangladesh: repayment adjusted to the lean season did not raise default [https://www.ide.go.jp/English/Publish/Reports/Dp/460.html]
+- Sustainable Banking and Finance Network (regulators and banking associations from emerging markets): Policy library: environmental, social and climate risk rules for banks, country by country [https://www.sbfnetwork.org/]
+- Center for Financial Inclusion, 2023: Inclusive finance and extreme heat: how small loans and parametric insurance can help people through deadly heatwaves [https://centerforfinancialinclusion.org/inclusive-finance-and-extreme-heat-how-small-loans-and-parametric-insurance-can-help-vulnerable-populations-manage-through-deadly-heat-waves]
+
+SOURCES
+- Philstar: BSP expands calamity relief for banks and borrowers, 2025: https://www.philstar.com/business/2025/10/27/2482726/bsp-expands-calamity-relief-banks-borrowers
+- Bisnis.com: OJK loan restructuring for Sumatra disaster victims reaches Rp12.58 trillion, 2026: https://finansial.bisnis.com/read/20260127/90/1947681/ojk-nilai-restrukturisasi-kredit-bagi-korban-bencana-sumatra-capai-rp1258-triliun
+- Viet Nam News: banks allowed to extend debt repayment for Typhoon Yagi-affected customers to 2027: https://vietnamnews.vn/economy/1688781/banks-allowed-to-extend-debt-repayment-for-typhoon-yagi-affected-customers-to-2027.html
+- Reserve Bank of India, 2018: Master Direction: Relief measures by banks in areas affected by natural calamities: https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10478
+- Shonchoy and others, IDE-JETRO: Seasonal flexible microcredit in Bangladesh: repayment adjusted to the lean season did not raise default: https://www.ide.go.jp/English/Publish/Reports/Dp/460.html
+- Sustainable Banking and Finance Network (regulators and banking associations from emerging markets): Policy library: environmental, social and climate risk rules for banks, country by country: https://www.sbfnetwork.org/
+- Center for Financial Inclusion, 2023: Inclusive finance and extreme heat: how small loans and parametric insurance can help people through deadly heatwaves: https://centerforfinancialinclusion.org/inclusive-finance-and-extreme-heat-how-small-loans-and-parametric-insurance-can-help-vulnerable-populations-manage-through-deadly-heat-waves

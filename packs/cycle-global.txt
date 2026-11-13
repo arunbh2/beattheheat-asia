@@ -1,0 +1,40 @@
+Common Shade evidence pack: The global cooling loop
+Vicious cycle · https://beattheheat.asia/loops/#global · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- Explain "The global cooling loop" step by step, with the source for each link.
+- Who is hit hardest by this cycle, according to the pack?
+- Which actions could interrupt it, and what do they depend on?
+- What would have to be true for one of these links to fail in my place?
+- Which studies support this cycle, and what limits do they state about themselves?
+- What is still uncertain about this cycle?
+
+CONTENT
+
+The global cooling loop
+Cooling powered by fossil fuels adds to the warming that makes us need more cooling.
+Evidence for the cycle as a whole: established.
+
+THE LINKS IN THE CYCLE
+- heat
+- energy
+- Cooling demand peaks, which leads to emissions from cooling rise: As temperatures climb, so does the demand for fans and air conditioning, pushing electricity use to new peaks. Air conditioners push their heat outside: in a model of city blocks in Rajkot, condensers on outside walls could warm the street air by more than 1 °C and raise cooling demand further. [https://www.iea.org/reports/the-future-of-cooling] [https://www.iea.org/reports/the-future-of-cooling-in-southeast-asia] [https://www.nature.com/articles/s41598-026-62477-4]
+- Emissions from cooling rise: Most cooling still runs on fossil-fuelled power and refrigerants that warm the planet. Refrigeration adds emissions through the power it uses and the refrigerants that leak, set against the food losses it avoids. [https://www.iea.org/reports/the-future-of-cooling] [https://wedocs.unep.org/bitstreams/e3f8b701-b044-46b9-9deb-8afad6967607/download]
+
+STUDIES BEHIND IT
+- International Energy Agency, 2019: The Future of Cooling in Southeast Asia. Southeast Asia’s air conditioners could rise from 40 million in 2017 to 300 million in 2040, half of them in Indonesia. Without more efficient units, cooling could drive as much as 30% of the region’s peak electricity demand. Where: Southeast Asia. Limit it states: A projection to 2040 under stated policies, not a forecast; it changes with efficiency rules. [https://www.iea.org/reports/the-future-of-cooling-in-southeast-asia]
+- International Energy Agency, 2018: The Future of Cooling. The world’s stock of air conditioners is set to grow from 1.6 billion to 5.6 billion by 2050, and the energy they use to triple, unless efficiency improves. Where: Global. Limit it states: A projection to 2050 that assumes current trends; better efficiency changes it. [https://www.iea.org/reports/the-future-of-cooling]
+
+ACTIONS THAT COULD INTERRUPT IT
+- Clean, efficient cooling: Efficient appliances, clean power and low-warming refrigerants break the link between keeping cool and heating the planet.
+
+SOURCES
+- International Energy Agency, 2018: The Future of Cooling: https://www.iea.org/reports/the-future-of-cooling
+- International Energy Agency: The Future of Cooling in Southeast Asia: https://www.iea.org/reports/the-future-of-cooling-in-southeast-asia
+- Verma et al., Scientific Reports, 2026: air conditioner waste heat in hypothetical urban blocks, Rajkot: https://www.nature.com/articles/s41598-026-62477-4
+- UNEP and FAO, 2022: sustainable food cold chains: https://wedocs.unep.org/bitstreams/e3f8b701-b044-46b9-9deb-8afad6967607/download

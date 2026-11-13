@@ -1,0 +1,39 @@
+Common Shade evidence pack: Smart irrigation and groundwater rules
+Action · https://beattheheat.asia/actions/#irrigate · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- What is "Smart irrigation and groundwater rules", who would carry it out, and over what time?
+- Which vicious cycles could it help interrupt, and how?
+- What does it depend on to work, and what side effects are noted?
+- What examples does the pack give, and what do their sources show?
+- How would progress be measured?
+- What would I need to find out before proposing this in my place?
+
+CONTENT
+
+Smart irrigation and groundwater rules
+Drip irrigation, metering, aquifer recharge and fair pumping rules keep wells from running dry.
+Who could act: Farmers’ organisations and agriculture agencies, Water authorities.
+Over what time: years.
+How progress could be measured: Groundwater levels over time.
+
+EXAMPLE
+None recorded yet.
+
+WATCH FOR
+- Watering fields cools the air but makes it more humid, which can raise the humid heat that farmworkers feel. Saving water and protecting workers are worth checking together. [https://impact.ornl.gov/en/publications/moist-heat-stress-extremes-in-india-enhanced-by-irrigation/]
+
+VICIOUS CYCLES IT COULD HELP INTERRUPT
+- The groundwater loop: Dry fields need more water, so farmers pump harder, aquifers fall and the shortage deepens.
+
+GUIDES
+- Council on Energy, Environment and Water (CEEW): Atal Bhujal Yojana: India’s scheme for community-led groundwater management [https://www.ceew.in/publications/atal-bhujal-yojana-scheme-for-sustainable-participatory-groundwater-resources-management]
+
+SOURCES
+- Mishra et al., 2020: moist heat stress extremes in India enhanced by irrigation: https://impact.ornl.gov/en/publications/moist-heat-stress-extremes-in-india-enhanced-by-irrigation/
+- Council on Energy, Environment and Water (CEEW): Atal Bhujal Yojana: India’s scheme for community-led groundwater management: https://www.ceew.in/publications/atal-bhujal-yojana-scheme-for-sustainable-participatory-groundwater-resources-management

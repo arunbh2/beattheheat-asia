@@ -1,0 +1,36 @@
+Common Shade evidence pack: Clean, efficient cooling
+Action · https://beattheheat.asia/actions/#cleancool · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- What is "Clean, efficient cooling", who would carry it out, and over what time?
+- Which vicious cycles could it help interrupt, and how?
+- What does it depend on to work, and what side effects are noted?
+- What examples does the pack give, and what do their sources show?
+- How would progress be measured?
+- What would I need to find out before proposing this in my place?
+
+CONTENT
+
+Clean, efficient cooling
+Efficient appliances, clean power and low-warming refrigerants break the link between keeping cool and heating the planet.
+Who could act: National governments, Utilities and energy regulators, International bodies.
+Over what time: years.
+How progress could be measured: Share of new air conditioners meeting efficiency standards.
+
+EXAMPLE
+The Kigali Amendment to the Montreal Protocol (2016) commits countries to phase down the most climate-warming refrigerants. [https://sdg.iisd.org/news/kigali-amendment-enters-into-force-bringing-promise-of-reduced-global-warming/]
+
+VICIOUS CYCLES IT COULD HELP INTERRUPT
+- The global cooling loop: Cooling powered by fossil fuels adds to the warming that makes us need more cooling.
+
+GUIDES
+- Ministry of Environment, Forest and Climate Change, India, 2019: India Cooling Action Plan [https://ozonecell.nic.in/home-page/resource-informations/reports-publications/india-cooling-action-plan/]
+
+SOURCES
+- UNEP, reported by IISD: Kigali Amendment enters into force: https://sdg.iisd.org/news/kigali-amendment-enters-into-force-bringing-promise-of-reduced-global-warming/
+- Ministry of Environment, Forest and Climate Change, India, 2019: India Cooling Action Plan: https://ozonecell.nic.in/home-page/resource-informations/reports-publications/india-cooling-action-plan/

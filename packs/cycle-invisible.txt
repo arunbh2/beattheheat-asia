@@ -1,0 +1,53 @@
+Common Shade evidence pack: The invisible-deaths loop
+Vicious cycle · https://beattheheat.asia/loops/#invisible · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- Explain "The invisible-deaths loop" step by step, with the source for each link.
+- Who is hit hardest by this cycle, according to the pack?
+- Which actions could interrupt it, and what do they depend on?
+- What would have to be true for one of these links to fail in my place?
+- Which studies support this cycle, and what limits do they state about themselves?
+- What is still uncertain about this cycle?
+
+CONTENT
+
+The invisible-deaths loop
+Heat deaths go uncounted, so heat protection goes unfunded, so more people die uncounted.
+Evidence for the cycle as a whole: emerging.
+
+THE LINKS IN THE CYCLE
+- Heat deaths, which leads to heat deaths under-recorded: Extreme heat kills, often quietly, through failing hearts, kidneys and lungs. Europe’s 2003 heatwave alone is estimated to have caused more than 70,000 deaths. In Thailand, the link between air pollution and deaths was stronger on the hottest days, across 34 provinces; whether this holds elsewhere is not yet known. [https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2007.12.001/] [https://link.springer.com/article/10.1007/s00484-025-02913-8]
+- Heat deaths under-recorded, which leads to heat protection underfunded: Heat is rarely written on death certificates. Most heat deaths are recorded as heart, kidney or lung failure. In India, heatwaves are declared on dry-air temperature from relatively few weather stations, which can miss humid heat where many informal workers live and work. Personal sensors worn by women aged 40 to 79 in rural Tamil Nadu sometimes read more than 5 °C apart within the same hour, so area averages can misjudge who is exposed. Timor-Leste's 2026 WHO climate and health profile lists heat-related deaths and illness as not specified: an empty field, not a zero. [https://www.downtoearth.org.in/climate-change/lost-in-the-heat-the-critical-miscalculation-in-indias-heatwave-mortality-data] [https://niua.in/publication-details/Heat_Resilient_Cities_Framework] [https://pmc.ncbi.nlm.nih.gov/articles/PMC10785747/] [https://cdn.who.int/media/docs/default-source/searo/hsd/country-profiles/tls-climate-change-cf-2026.pdf?download=true&sfvrsn=131a4a74_3]
+- Heat protection underfunded, which leads to heat deaths: Warnings, cooling centres, outreach and heat-ready services get a small share of budgets compared with floods or storms. A 2023 review of 37 Indian heat action plans found them underfunded: only two cited specific sources of finance for any of their actions. [https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/] [https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/]
+
+STUDIES BEHIND IT
+- Ministry of Health and Family Welfare, reply in India’s Rajya Sabha, 6 August 2024: Heat-related illness surveillance, 2021 to July 2024 (Unstarred Question 1693). Suspected heatstroke cases rose from 4,481 in 2022 to 48,385 by 28 July 2024, while confirmed heatstroke deaths rose only from 33 to 185. Where: India. Limit it states: Counts what gets reported; reporting improves over time, so part of the rise is better counting. [https://rsdebate.nic.in/bitstream/123456789/750681/1/PQ_265_06082024_U1693_p358_p362.pdf]
+- Associated Press via PBS NewsHour, 2024: India likely undercounts heat-related deaths, tempering its response, officials say. In 2020, India’s crime records bureau recorded 530 heatstroke deaths while the disaster agency recorded four. Different systems count differently, which makes the full toll hard to see. Where: India. Limit it states: Compares two official counts in one year. [https://www.pbs.org/newshour/world/india-likely-undercounts-heat-related-deaths-tempering-its-response-officials-say]
+- Down To Earth, 2024: Lost in the heat: the critical miscalculation in India’s heatwave mortality data. Death certificates usually record only the immediate cause, such as heart failure, so heat as the trigger goes unrecorded. Where: India. Limit it states: Describes how deaths are recorded; it does not estimate the missing number. [https://www.downtoearth.org.in/climate-change/lost-in-the-heat-the-critical-miscalculation-in-indias-heatwave-mortality-data]
+- Ministry of Home Affairs, reply in India’s Lok Sabha, reported by Down To Earth, 2026: India updates disaster list to include heatwaves and lightning after Finance Commission push. Between 1 March and 26 July 2026, India’s heat surveillance, covering more than 51,000 reporting units, logged 4,853 heatstroke cases but only 20 heatstroke deaths. Where: India. Limit it states: A part-season count; it shows the gap, not the true toll. [https://www.downtoearth.org.in/climate-change/india-updates-disaster-list-to-include-heatwaves-and-lightning-after-finance-commission-push]
+- NUS Project HeatSafe, 2024: Heat stress reduces productivity among workers in Singapore. Monitors at 24 indoor and outdoor workplaces in Singapore found workers could face more heat stress than nearby national weather stations reported. Where: Singapore. Limit it states: One city; site conditions vary. [https://medicine.nus.edu.sg/wp-content/uploads/2024/03/PRESS-RELEASE_Project-HeatSafe-18MAR2024-FOR-IMMEDIATE-RELEASE.pdf]
+
+ACTIONS THAT COULD INTERRUPT IT
+- Count every heat death: Real-time tracking of excess deaths during heatwaves, and death certificates that record heat, make the toll visible.
+- Cooling centres and check-ins: Public cooling spaces, water points and check-ins on older people living alone can offer relief in a heatwave. How much they protect health depends on who can reach them, how long people stay, and how hot it is once they leave. Watch for: A 2025 review found no study that measured health outcomes for people using cooling centres; in simulated heatwaves, the benefits were short-lived. That is not evidence of no benefit. [https://researchportal.ukhsa.gov.uk/en/publications/public-health-effectiveness-of-cooling-centres-during-periods-of-/] Watch for: Running costs can decide whether a cooling space keeps working. Bangkok reported that money to build is generally available but running costs are not always covered; consultation participants said some childcare centres held back from air conditioning over electricity costs. [https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf]
+
+SOURCES
+- Robine et al., Comptes Rendus Biologies, 2008: death toll exceeded 70,000 in Europe in summer 2003: https://comptes-rendus.academie-sciences.fr/biologies/articles/en/10.1016/j.crvi.2007.12.001/
+- Phosri et al., International Journal of Biometeorology, 2025: air pollution, temperature and mortality in Thailand: https://link.springer.com/article/10.1007/s00484-025-02913-8
+- Down To Earth, 2024: the miscalculation in India’s heatwave mortality data: https://www.downtoearth.org.in/climate-change/lost-in-the-heat-the-critical-miscalculation-in-indias-heatwave-mortality-data
+- NIUA Climate Centre for Cities, 2026: Heat Resilient Cities Framework, p. 10: https://niua.in/publication-details/Heat_Resilient_Cities_Framework
+- Deshpande et al., 2023: heat exposure among adult women in rural Tamil Nadu (PMC10785747): https://pmc.ncbi.nlm.nih.gov/articles/PMC10785747/
+- WHO, 2026: climate change country profile, Timor-Leste: https://cdn.who.int/media/docs/default-source/searo/hsd/country-profiles/tls-climate-change-cf-2026.pdf?download=true&sfvrsn=131a4a74_3
+- Centre for Policy Research, 2023: assessment of 37 heat action plans: https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/
+- Centre for Policy Research: Finding the Finance, a guide to identifying centrally sponsored schemes to fund heat resilience: https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/
+- Ministry of Health and Family Welfare, reply in India’s Rajya Sabha, 6 August 2024: Heat-related illness surveillance, 2021 to July 2024 (Unstarred Question 1693): https://rsdebate.nic.in/bitstream/123456789/750681/1/PQ_265_06082024_U1693_p358_p362.pdf
+- Associated Press via PBS NewsHour, 2024: India likely undercounts heat-related deaths, tempering its response, officials say: https://www.pbs.org/newshour/world/india-likely-undercounts-heat-related-deaths-tempering-its-response-officials-say
+- Ministry of Home Affairs, reply in India’s Lok Sabha, reported by Down To Earth, 2026: India updates disaster list to include heatwaves and lightning after Finance Commission push: https://www.downtoearth.org.in/climate-change/india-updates-disaster-list-to-include-heatwaves-and-lightning-after-finance-commission-push
+- NUS Project HeatSafe, 2024: Heat stress reduces productivity among workers in Singapore: https://medicine.nus.edu.sg/wp-content/uploads/2024/03/PRESS-RELEASE_Project-HeatSafe-18MAR2024-FOR-IMMEDIATE-RELEASE.pdf
+- Dearman et al., UKHSA, 2025: public health effectiveness of cooling centres, a systematic review: https://researchportal.ukhsa.gov.uk/en/publications/public-health-effectiveness-of-cooling-centres-during-periods-of-/
+- UNDP and Bangkok Metropolitan Administration: Bangkok's financing strategy for tackling urban heat, 2026: https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf

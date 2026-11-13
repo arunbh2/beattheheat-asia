@@ -1,0 +1,43 @@
+Common Shade evidence pack: The cooling trap
+Vicious cycle · https://beattheheat.asia/loops/#cooling · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- Explain "The cooling trap" step by step, with the source for each link.
+- Who is hit hardest by this cycle, according to the pack?
+- Which actions could interrupt it, and what do they depend on?
+- What would have to be true for one of these links to fail in my place?
+- Which studies support this cycle, and what limits do they state about themselves?
+- What is still uncertain about this cycle?
+
+CONTENT
+
+The cooling trap
+Air conditioning heats the street, and a hotter city needs even more air conditioning.
+Evidence for the cycle as a whole: established.
+
+THE LINKS IN THE CYCLE
+- Cooling demand peaks, which leads to urban heat islands: As temperatures climb, so does the demand for fans and air conditioning, pushing electricity use to new peaks. Air conditioners push their heat outside: in a model of city blocks in Rajkot, condensers on outside walls could warm the street air by more than 1 °C and raise cooling demand further. [https://www.iea.org/reports/the-future-of-cooling] [https://www.iea.org/reports/the-future-of-cooling-in-southeast-asia] [https://www.nature.com/articles/s41598-026-62477-4]
+- Urban heat islands, which leads to cooling demand peaks: Dense surfaces, little shade and waste heat keep city cores several degrees hotter than their surroundings, especially at night. This is the urban heat island effect. [https://www.thegpsc.org/sites/gpsc/files/cooling_singapore_-_digital_urban_climate_twin.pdf] [https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf]
+
+STUDIES BEHIND IT
+- Salamanca et al., Journal of Geophysical Research, 2014 (summary by Arizona State University): Excess heat from air conditioners causes higher nighttime temperatures. In a Phoenix heatwave, waste heat from air conditioners raised night-time air temperatures by more than 1 °C in parts of the city. Where: Phoenix, United States. Limit it states: A desert city outside Asia; the size of the effect in humid Asian cities is not measured here. [https://news.asu.edu/content/excess-heat-air-conditioners-causes-higher-nighttime-temperatures]
+- International Energy Agency, 2018: The Future of Cooling. China, India and Indonesia are expected to account for half of the world’s air conditioners by 2050. Where: Global. Limit it states: A projection to 2050 that assumes current trends. [https://www.iea.org/reports/the-future-of-cooling]
+- Tamil Nadu State Planning Commission, 2024: Beating the Heat: Tamil Nadu Heat Mitigation Strategy. Chennai’s built-up area more than doubled between 2000 and 2020, and night-time land surface temperatures in its urban areas run about 2 °C higher than on its peri-urban edges. Where: Chennai and Tamil Nadu, India. Limit it states: Land surface temperature, not the air temperature people breathe; the two differ. [https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf]
+- Cooling Singapore, citing Chow and Roth, 2006: Cooling Singapore: digital urban climate twin. Singapore’s commercial centre has measured up to about 7 °C warmer than its outskirts on calm, clear nights. Where: Singapore. Limit it states: The 7 °C is a maximum on calm, clear nights, not a typical night. [https://www.thegpsc.org/sites/gpsc/files/cooling_singapore_-_digital_urban_climate_twin.pdf]
+
+ACTIONS THAT COULD INTERRUPT IT
+- Cool by design: Shading, ventilation, reflective roofs and efficient cooling cut the need for air conditioning, and the waste heat it dumps outside.
+- Green, cool cities: Trees, water, cool roofs and cool pavements lower city temperatures and flatten peak demand.
+
+SOURCES
+- International Energy Agency, 2018: The Future of Cooling: https://www.iea.org/reports/the-future-of-cooling
+- International Energy Agency: The Future of Cooling in Southeast Asia: https://www.iea.org/reports/the-future-of-cooling-in-southeast-asia
+- Verma et al., Scientific Reports, 2026: air conditioner waste heat in hypothetical urban blocks, Rajkot: https://www.nature.com/articles/s41598-026-62477-4
+- Cooling Singapore, citing Chow and Roth, 2006: https://www.thegpsc.org/sites/gpsc/files/cooling_singapore_-_digital_urban_climate_twin.pdf
+- Tamil Nadu State Planning Commission, 2024: https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf
+- Salamanca et al., Journal of Geophysical Research, 2014 (summary by Arizona State University): Excess heat from air conditioners causes higher nighttime temperatures: https://news.asu.edu/content/excess-heat-air-conditioners-causes-higher-nighttime-temperatures

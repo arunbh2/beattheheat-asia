@@ -1,0 +1,45 @@
+Common Shade evidence pack: The lost-schooling loop
+Vicious cycle · https://beattheheat.asia/loops/#school · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- Explain "The lost-schooling loop" step by step, with the source for each link.
+- Who is hit hardest by this cycle, according to the pack?
+- Which actions could interrupt it, and what do they depend on?
+- What would have to be true for one of these links to fail in my place?
+- Which studies support this cycle, and what limits do they state about themselves?
+- What is still uncertain about this cycle?
+
+CONTENT
+
+The lost-schooling loop
+Children pulled out of school earn less as adults, and poorer families pull more children out of school.
+Evidence for the cycle as a whole: emerging.
+
+THE LINKS IN THE CYCLE
+- Children pulled out of school, which leads to lower skills and earnings: When families are squeezed, children, often girls, leave school to work, care or fetch water. [https://hdl.handle.net/10568/180558]
+- Lower skills and earnings, which leads to deepening inequality: Learning lost today becomes lower skills and lower earnings for a lifetime. [https://www.ideasforindia.in/topics/environment/temperature-and-human-capital-in-india]
+- Deepening inequality, which leads to children pulled out of school: Every impact lands hardest on those with the least protection, widening gaps in health, income and opportunity. [https://www.fao.org/newsroom/detail/fao-report--heatwaves-and-floods-affect-rural-women-and-men-differently--widen-income-gap] [https://www.frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2022.874751/full]
+
+STUDIES BEHIND IT
+- Park, Goodman, Hurwitz and Smith, American Economic Journal: Economic Policy, 2020: Heat and Learning. Without air conditioning, each 1 °F hotter school year cuts that year’s learning by about 1%, and the losses fall hardest on disadvantaged students. Where: United States. Limit it states: US schools and tests; the size of the effect in Asian classrooms is not known. [https://www.aeaweb.org/doi/10.1257/pol.20180612]
+- UNICEF, 2025: Learning interrupted: global snapshot of climate-related school disruptions in 2024. Heatwaves disrupted schooling for an estimated 171 million students in 2024. South Asia was the most affected region. Where: Global, by region. Limit it states: Counts students affected by closures or shorter days, not learning lost. [https://www.unicef.org/reports/learning-interrupted-global-snapshot-2024]
+- AFP via Malay Mail, April 2024: Thousands of Philippine schools suspend in-person classes due to heat. In early April 2024, 5,288 schools across the Philippines switched to remote learning as the heat index reached danger levels, affecting more than 3.6 million students. Where: Philippines. Limit it states: A snapshot of one week, from official figures quoted in the press. [https://www.malaymail.com/news/world/2024/04/05/thousands-of-philippine-schools-suspend-in-person-classes-due-to-heat-says-education-dept/127511]
+- NBC News, 2024: Extreme heat forces school closures across Asia, affecting millions of students. Bangladesh closed schools for about 33 million children in its April 2024 heatwave, and Cambodia cut the school day by two hours. Where: Bangladesh and Cambodia. Limit it states: News figures from official announcements. [https://www.nbcnews.com/news/world/schools-close-extreme-heat-philippines-bangladesh-asia-rcna149485]
+
+ACTIONS THAT COULD INTERRUPT IT
+- Keep children in school: Cash transfers, school meals and heat-ready classrooms and timetables keep children learning through hot seasons.
+
+SOURCES
+- Bakhtiar and Karim, IFPRI, 2025: extreme heat, schooling and child labour in rural Bangladesh: https://hdl.handle.net/10568/180558
+- Garg, Jagnani and Taraz, 2020, summarised by Ideas for India: temperature and human capital in India: https://www.ideasforindia.in/topics/environment/temperature-and-human-capital-in-india
+- FAO, 2024: heat stress widens the income gap between rural women and men: https://www.fao.org/newsroom/detail/fao-report--heatwaves-and-floods-affect-rural-women-and-men-differently--widen-income-gap
+- Frontiers in Built Environment, 2022: Ahmedabad: https://www.frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2022.874751/full
+- Park, Goodman, Hurwitz and Smith, American Economic Journal: Economic Policy, 2020: Heat and Learning: https://www.aeaweb.org/doi/10.1257/pol.20180612
+- UNICEF, 2025: Learning interrupted: global snapshot of climate-related school disruptions in 2024: https://www.unicef.org/reports/learning-interrupted-global-snapshot-2024
+- AFP via Malay Mail, April 2024: Thousands of Philippine schools suspend in-person classes due to heat: https://www.malaymail.com/news/world/2024/04/05/thousands-of-philippine-schools-suspend-in-person-classes-due-to-heat-says-education-dept/127511
+- NBC News, 2024: Extreme heat forces school closures across Asia, affecting millions of students: https://www.nbcnews.com/news/world/schools-close-extreme-heat-philippines-bangladesh-asia-rcna149485

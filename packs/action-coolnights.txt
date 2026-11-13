@@ -1,0 +1,37 @@
+Common Shade evidence pack: Cool nights and support
+Action · https://beattheheat.asia/actions/#coolnights · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- What is "Cool nights and support", who would carry it out, and over what time?
+- Which vicious cycles could it help interrupt, and how?
+- What does it depend on to work, and what side effects are noted?
+- What examples does the pack give, and what do their sources show?
+- How would progress be measured?
+- What would I need to find out before proposing this in my place?
+
+CONTENT
+
+Cool nights and support
+Cooling centres open at night, shaded and ventilated homes, and mental-health support during the hot season.
+Who could act: City and local governments, Health authorities, Community and civil society groups.
+Over what time: season.
+How progress could be measured: Night-time indoor temperatures in target homes.
+
+EXAMPLE
+None recorded yet.
+
+VICIOUS CYCLES IT COULD HELP INTERRUPT
+- The sleepless-nights loop: Hot nights wreck sleep. Poor sleep frays mental health, and stress makes sleep harder still.
+
+GUIDES
+- WHO Regional Office for Europe, 2025: How summer heat affects health, and how to keep cool, including cooling homes at night [https://www.who.int/europe/news/item/23-06-2025-how-summer-heat-impacts-health-and-how-to--keepcool]
+- Wellcome: Climate and mental health: uncovering how heat affects anxiety, depression and psychosis [https://wellcome.org/research-funding/schemes/climate-and-mental-health-award-uncovering-mechanisms-between-heat-and]
+
+SOURCES
+- WHO Regional Office for Europe, 2025: How summer heat affects health, and how to keep cool, including cooling homes at night: https://www.who.int/europe/news/item/23-06-2025-how-summer-heat-impacts-health-and-how-to--keepcool
+- Wellcome: Climate and mental health: uncovering how heat affects anxiety, depression and psychosis: https://wellcome.org/research-funding/schemes/climate-and-mental-health-award-uncovering-mechanisms-between-heat-and

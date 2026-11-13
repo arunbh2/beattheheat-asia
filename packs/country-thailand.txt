@@ -1,0 +1,503 @@
+Common Shade evidence pack: Thailand
+Country · https://beattheheat.asia/countries/thailand/ · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- What does extreme heat already do to people in Thailand, according to this pack, and how sure is each point?
+- Which plans, warnings and rules for heat exist in Thailand, and which have been evaluated?
+- Who could act on heat in Thailand, and who could pay?
+- What does this pack say is still unknown or unmeasured in Thailand?
+- If I work in one city in Thailand, which parts of this pack apply, and what would I still need to find out locally?
+- Which sources would I read first to check the strongest claim here?
+
+CONTENT
+
+> Extreme heat in Thailand: plans, warnings, rules at work, cooling, money for protection, cities, programmes and who is working on it.
+
+Country snapshot
+
+# Thailand
+
+Heat, the plans and rules that shape protection, the organisations at work, and where a shared effort could help. Researched in October 2026.
+
+**Watch: Thailand and heat** · 0:42 · narrated, captions in the picture
+
+**How to read this.** Facts link to their sources; anything marked proposed or inferred is the researchers’ suggestion, not a commitment by anyone named. Gaps are gaps in what we found, not faults.
+
+## Heat context
+
+**Climate:** Official guidance or data Monsoonal climate: hot-humid exposure especially Bangkok/southern lowlands, with seasonally drier intense heat inland; evaluate humidity by season and time rather than treating Thailand as one cooling climate. [TMD Thailand annual climate summary 2024 ](https://www.tmd.go.th/media/climate/climate-annual/%E0%B8%AA%E0%B8%A3%E0%B8%9B%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9B-2567.pdf) · [ADB Thailand heat policy and solutions report ](https://www.adb.org/sites/default/files/publication/1155851/heat-crisis-thailand-southeast-asia.pdf) **Night heat:** Measured in a study 1970–2024 analysis finds growing independent hot-night and compound hot-event exposure; station-district coverage does not establish every city’s bedroom conditions. [Hot-day, hot-night and compound-event trends in Thailand ](https://he01.tci-thaijo.org/index.php/AIHD-MU/article/view/279655) **Temperature record:** Official guidance or data **Value:** 28.5 **Unit:** °C annual mean dry-bulb temperature **Period:** 2024 **Place:** Thailand national station summary **Sample:** TMD station aggregate; exact station count not reported in reviewed summary **Baseline:** **Period:** 1991–2020 **Value:** 27.4 **Unit:** °C **Anomaly:** 1.1 [TMD Thailand annual climate summary 2024 ](https://www.tmd.go.th/media/climate/climate-annual/%E0%B8%AA%E0%B8%A3%E0%B8%9B%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9B-2567.pdf)
+
+## Plans
+
+- Official guidance or data WHO2026 profile lists Health National Adaptation Plan Phase1(2021–2030) as approved and under revision. It marks a heat-health plan present for 2025 while its note describes further national plan development as forthcoming. Final standalone HHAP text, adoption date and legal instrument not verified. [WHO Thailand climate-and-health country profile ](https://cdn.who.int/media/docs/default-source/searo/hsd/country-profiles/tha-climate-change-cf-2026.pdf?download=true&sfvrsn=1cc6f20a_3)
+- Reported, not evaluated Bangkok 2026 urban-heat response is reported, but February BMA account describes submitting a draft for approval; October UNDP strategy references the urban-heat plan. Signed adoption instrument and final annexes not retrieved. [BMA urban-heat preparation and warning levels ](https://webportal.bangkok.go.th/environmentbma/page/sub/6671/ข่าวประชาสัมพันธ์/0/info/511488/-กทม.เดินหน้าแผนจัดการความร้อนเมืองปี2569พบจุดเสี่ยงทั่วกรุง379จุดย้ำเตือนภัยความร้อน4ระดับ) · [Bangkok heat-financing strategy ](https://www.undp.org/thailand/publications/bangkok-financing-strategy-tackling-urban-heat)
+- Reported, not evaluated September 2026 AIT/Vital Strategies account describes development of an integrated evidence-based Bangkok HHAP and roadmap. This is distinct from seasonal cooling-centre response. [AIT/Vital Strategies/BMA heat-health-plan development ](https://ait.ac.th/2026/09/ait-vital-strategies-and-bma-advance-bangkok-heat-health-action-plan/)
+- Official guidance or data ADB2026 suggests a national HAP roadmap; an external recommended roadmap is not an adopted government obligation. [ADB Thailand heat policy and solutions report ](https://www.adb.org/sites/default/files/publication/1155851/heat-crisis-thailand-southeast-asia.pdf)
+
+## Who is responsible
+
+- **Institution:** Department of Health / Ministry of Public Health **Institution type:** health **Role:** Heat-health risk information, HNAP and planning [WHO Thailand climate-and-health country profile ](https://cdn.who.int/media/docs/default-source/searo/hsd/country-profiles/tha-climate-change-cf-2026.pdf?download=true&sfvrsn=1cc6f20a_3)
+- **Institution:** Thai Meteorological Department **Institution type:** met **Role:** Meteorological observations and Heat Index inputs [TMD Thailand annual climate summary 2024 ](https://www.tmd.go.th/media/climate/climate-annual/%E0%B8%AA%E0%B8%A3%E0%B8%9B%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9B-2567.pdf) · [WHO Thailand climate-and-health country profile ](https://cdn.who.int/media/docs/default-source/searo/hsd/country-profiles/tha-climate-change-cf-2026.pdf?download=true&sfvrsn=1cc6f20a_3)
+- **Institution:** BMA environment/health departments and district offices **Institution type:** city **Role:** City heat response and departmental coordination; exact accepted HHAP roles require final plan [BMA urban-heat preparation and warning levels ](https://webportal.bangkok.go.th/environmentbma/page/sub/6671/ข่าวประชาสัมพันธ์/0/info/511488/-กทม.เดินหน้าแผนจัดการความร้อนเมืองปี2569พบจุดเสี่ยงทั่วกรุง379จุดย้ำเตือนภัยความร้อน4ระดับ) · [Government account of Bangkok cooling centres ](https://thailand.go.th/issue-focus-detail/bangkok-launches-304-cooling-centers-to-combat-extreme-heat?hl=en) · [AIT/Vital Strategies/BMA heat-health-plan development ](https://ait.ac.th/2026/09/ait-vital-strategies-and-bma-advance-bangkok-heat-health-action-plan/)
+- **Institution:** Department of Labour Protection and Welfare **Institution type:** nat **Role:** Occupational regulation and inspection framework [Thai heat/light/noise occupational regulation ](https://osh.labour.go.th/wp-content/uploads/2026/02/17102559.pdf) · [Department of Labour Protection and Welfare legal resource page ](https://osh.labour.go.th/ร้อน-แสง-เสียง-2559/)
+- **Institution:** DEDE / EGAT / DIW **Institution type:** utilities **Role:** Distinct efficiency, labelling and refrigerant-policy functions; not one agency EGAT Label No.5 label update (no longer online) · [Thailand Kigali ratification and national ozone unit ](https://ozone.unep.org/countries/profile/tha) · [RAC NAMA Thailand project history ](https://www.green-cooling-initiative.org/about-us/our-projects/rac-nama-thailand)
+
+## Warnings
+
+- Official guidance or data WHO documents DOH/TMD heat-health information integration, with a shift to Heat Index in 2025, official dashboards and risk communication. Offline receipt and uniform local activation/finance arrangements not verified. [WHO Thailand climate-and-health country profile ](https://cdn.who.int/media/docs/default-source/searo/hsd/country-profiles/tha-climate-change-cf-2026.pdf?download=true&sfvrsn=1cc6f20a_3)
+- Reported, not evaluated BMA publishes colour-coded Heat Index guidance. Heat Index, WBGT, dry-bulb air temperature and satellite land-surface temperature cannot safely be interchanged. [BMA urban-heat preparation and warning levels ](https://webportal.bangkok.go.th/environmentbma/page/sub/6671/ข่าวประชาสัมพันธ์/0/info/511488/-กทม.เดินหน้าแผนจัดการความร้อนเมืองปี2569พบจุดเสี่ยงทั่วกรุง379จุดย้ำเตือนภัยความร้อน4ระดับ)
+
+## Rules for heat at work
+
+**Legal basis:** Official guidance or data Ministerial Regulation on occupational heat/light/noise B.E.2559(2016), under the Occupational Safety, Health and Environment Act B.E.2554(2011), published17October 2016. Current labour authority provides text and measurement notifications; full later-amendment audit not completed. [Thai heat/light/noise occupational regulation ](https://osh.labour.go.th/wp-content/uploads/2026/02/17102559.pdf) · [Department of Labour Protection and Welfare legal resource page ](https://osh.labour.go.th/ร้อน-แสง-เสียง-2559/) **Limits:**
+- **Workload:** light **Value:** 34 **Unit:** °C WBGT
+- **Workload:** moderate **Value:** 32 **Unit:** °C WBGT
+- **Workload:** heavy **Value:** 30 **Unit:** °C WBGT
+
+**Measurement:** Law defines average WBGT during the hottest two hours of normal work, with workload classes; obtain qualified assessment for the specific task. **Legal controls:** Warning signs, engineering correction and documentation; workload controls where engineering cannot meet standard. **Limit sources:** [Thai heat/light/noise occupational regulation ](https://osh.labour.go.th/wp-content/uploads/2026/02/17102559.pdf) **Caveat:** These are statutory WBGT limits, not a universal ambient-temperature stop-work rule, proof of universal physiological safety or automatic entitlement for all self-employed workers. Paid rest and enforcement would be worth verifying locally. **Research:** Measured in a study Thai observational construction/foundry study found heat strain among some workers even under compliant conditions; do not interpret compliance as a guarantee. [Occupational heat standard and worker strain study ](https://pubmed.ncbi.nlm.nih.gov/33732537/)
+
+## Cooling and buildings
+
+- Official guidance or data ADB discusses heat-policy options and passive/active cooling. Detailed BEC scope and current amendments require direct DEDE/legal verification because DEDE pages returned502; no numerical building-coverage threshold presented as verified here. [ADB Thailand heat policy and solutions report ](https://www.adb.org/sites/default/files/publication/1155851/heat-crisis-thailand-southeast-asia.pdf)
+- Official guidance or data EGAT Label No.5 provides a current route to compare certified equipment; updated stars introduced 2024. Check the exact model and operating assumptions. EGAT Label No.5 label update (no longer online) · [EGAT current consumer and certified-product route ](https://labelno5.egat.co.th/)
+- Official guidance or data UNEP treaty record lists Thailand Kigali ratification3April 2024 and HFC licensing; DIW national ozone unit is the counterpart. A treaty commitment does not verify a particular appliance refrigerant or servicing practice. [Thailand Kigali ratification and national ozone unit ](https://ozone.unep.org/countries/profile/tha)
+
+## Money for protection
+
+- **BMA public budgets and grant/concessional pathways** Official guidance or data UNDP/BMA strategy analyses budget and legally possible capital routes. Most heat projects are public goods suited to public budgets; money to build is generally available, but running costs are not always covered, and there is no pipeline of investment-ready adaptation projects yet. The city may issue bonds with prior Cabinet approval but has not yet done so, and its AA+ credit rating was discontinued in 2022. District offices have no independent fiscal authority; the strategy proposes dedicated district allocations and criteria that steer money towards more vulnerable districts, and suggests offering cooling facilities to sponsors as one citywide programme, with agreements that set out operation and maintenance. It does not establish that every route has been used for heat or that Common Shade is eligible. [Bangkok heat-financing strategy - full report ](https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf) **Access:** Agency budget/project preparation and relevant approvals; no open small-collaborative application verified.
+- **Environmental Fund adaptation route** Official guidance or data Strategy describes a local-government adaptation proposal route under Environmental Fund guidance: up to THB 5 million per project for up to three years, with at least 70% of the budget spent on activities. About 74.8% of the fund's disbursements have gone to local governments. Original current call and project eligibility need confirmation. [Bangkok heat-financing strategy - full report ](https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf) **Access:** Explore jointly with eligible public counterpart; not an automatic NGO entitlement.
+- **Historical RAC NAMA fund** Reported, not evaluated GIZ factsheet documents EGAT-managed mechanisms for producers, users and training/testing. Historical phase closed; not presented as a current call. [RAC NAMA Thailand project history ](https://www.green-cooling-initiative.org/about-us/our-projects/rac-nama-thailand) · [RAC NAMA fund mechanism factsheet ](https://www.giz.de/de/downloads/RAC%20NAMA%20fund_FINAL.pdf) **Access:** Historical learning case; current access not verified.
+- **EGAT Cooling Innovation Fund** Reported, not evaluated 2022 primary successor account describes fund and technical support focus; current eligibility and allocations not verified. [Cooling Innovation Fund successor account ](https://mitigation-action.org/news/cooling-innovation-fund-delegation-shares-funds-progress-with-the-nama-facility-as-part-of-study-trip/) **Access:** Confirm with EGAT/GIZ; no current open route assumed.
+- **Bangkok health/worker research collaborations** Reported, not evaluated BMA/AIT/Vital Strategies and HomeNet/WIEGO work offer research/delivery relationships, not verified open grant mechanisms. [AIT/Vital Strategies/BMA heat-health-plan development ](https://ait.ac.th/2026/09/ait-vital-strategies-and-bma-advance-bangkok-heat-health-action-plan/) · [HomeNet Thailand/WIEGO Bangkok heat study ](https://www.wiego.org/research-library-publications/climate-change-and-heat-stress-impacts-bangkok-thailand/) **Access:** Proposed contribution to existing work, subject to invitation and fit.
+
+## Costs
+
+**Currency:** THB **Note:** No transferable local installed package quotation verified. Missing is not zero; fund budgets and foregone wages are not intervention unit costs.
+
+## Gaps in what we found
+
+- No consistent national city exposure ranking verified.
+- Signed final heat-plan adoption instruments and annexes not retrieved.
+- Comparable indoor/night heat, worker income, migrant/disability access, centre opening/access and recurrent budgets insufficient in collected evidence.
+- Nationwide heat-triggered cash/insurance benefits, current grant calls and city unit costs not verified.
+
+## Ways to help (proposed)
+
+- Worker-informed warning-to-action protocol with HomeNet/WIEGO and relevant city/employer counterparts.
+- Test cooling-centre accessibility, actual hours, power/water and night coverage with BMA.
+- Support costed municipal portfolios and public-service maintenance arrangements.
+- Seek qualified worker heat measurement and operating changes alongside compliance.
+
+## Known, inferred, uncertain
+
+**Known:** Official warnings, employer regulation, Bangkok services and research partnerships documented. **Inferred:** Common Shade can connect them through practical accountability and operating finance. **Uncertain:** Final adoption, local reach, programme outcomes and current applicant eligibility.
+
+## Paying when heat strikes
+
+The layers of money we found for heat in Thailand, from the systems that reach people to risk shared with insurers: Contingent finance, Social protection. Each is shown with how it is released, how it reaches people, and what we could not find.
+
+[See Thailand, layer by layer](https://beattheheat.asia/paying-when-heat-strikes/#country-thailand)
+
+## Cities
+
+### Bangkok
+
+**Heat context:** **Climate:** Hot-humid urban setting; assess hot nights and occupied-room conditions. **Basis:** Contextual researcher interpretation, not a measured citywide humidity series. [World Bank Shaping a Cooler Bangkok ](https://www.worldbank.org/en/country/thailand/publication/shaping-a-cooler-bangkok-tackling-urban-heat-for-a-more-livable-city) · [HomeNet Thailand/WIEGO Bangkok heat study ](https://www.wiego.org/research-library-publications/climate-change-and-heat-stress-impacts-bangkok-thailand/) **Night heat:** Comparable city-specific occupied-room/night series not verified; national hot-night trend is not a city measurement.
+
+**Official heat plans:** Reported, not evaluated Seasonal response and centres reported; newer integrated HHAP/roadmap in development. Signed final adoption instrument not verified. [BMA urban-heat preparation and warning levels ](https://webportal.bangkok.go.th/environmentbma/page/sub/6671/ข่าวประชาสัมพันธ์/0/info/511488/-กทม.เดินหน้าแผนจัดการความร้อนเมืองปี2569พบจุดเสี่ยงทั่วกรุง379จุดย้ำเตือนภัยความร้อน4ระดับ) · [Government account of Bangkok cooling centres ](https://thailand.go.th/issue-focus-detail/bangkok-launches-304-cooling-centers-to-combat-extreme-heat?hl=en) · [AIT/Vital Strategies/BMA heat-health-plan development ](https://ait.ac.th/2026/09/ait-vital-strategies-and-bma-advance-bangkok-heat-health-action-plan/)
+
+**Agencies responsible:** **Documented:**
+- BMA Environment Department
+- BMA health services and district offices
+
+**Proposed counterparts:**
+- Municipal planning, public health and building authorities
+- Provincial public-health and labour-protection offices
+- TMD local/regional station
+- School, market, water and electricity service operators
+- Locally identified worker/community representatives
+
+**Caveat:** Proposed coordination roles are not claims of accepted membership or delegated heat authority. [BMA urban-heat preparation and warning levels ](https://webportal.bangkok.go.th/environmentbma/page/sub/6671/ข่าวประชาสัมพันธ์/0/info/511488/-กทม.เดินหน้าแผนจัดการความร้อนเมืองปี2569พบจุดเสี่ยงทั่วกรุง379จุดย้ำเตือนภัยความร้อน4ระดับ) · [Government account of Bangkok cooling centres ](https://thailand.go.th/issue-focus-detail/bangkok-launches-304-cooling-centers-to-combat-extreme-heat?hl=en) · [AIT/Vital Strategies/BMA heat-health-plan development ](https://ait.ac.th/2026/09/ait-vital-strategies-and-bma-advance-bangkok-heat-health-action-plan/)
+
+**Warnings:** **National reference:** country.warning_systems **Local trigger:** Bangkok publishes Heat Index bands; elsewhere city-specific validated action threshold not verified. **Reach:** Offline, migrant-language, disability and isolated-person reach require testing.
+
+**Rules for heat at work:** **Reference:** country.occupational_heat_rules **Local inspection and paid rest:** Not verified; national law not a guarantee of universal local coverage.
+
+**Cooling and buildings:** **Reference:** country.cooling_and_building_policy **Local specific rule:** Not verified; check local building control and property class. **Suitability:** Shade/solar-gain reduction and active cooling need local assessment; avoid prescribing evaporation in humid exposure without field appraisal.
+
+**Money for protection:** **Costs:** **Currency:** THB **Note:** No transferable local installed package quotation verified. Missing is not zero; fund budgets and foregone wages are not intervention unit costs. **Local heat budget:** Not verified **Reference:** country.finance_mechanisms; BMA-specific powers cannot safely be transferred to other municipalities.
+
+**Gaps in what we found:**
+- Adopted local plan, budget execution, monitoring, delivered reach and independent health/income effects not fully established.
+
+**A place to start (proposed):** Link warnings and centres to paid/rest income arrangements, market shade, clinic access and trusted worker feedback.
+
+**Known, inferred, uncertain:** **Known:** Urban-heat analysis and worker research; both include model/measurement limitations. **Inferred:** Link warnings and centres to paid/rest income arrangements, market shade, clinic access and trusted worker feedback. **Uncertain:** Local climate/health exposure, authority, costs, reach and outcome effectiveness.
+
+**Boundary:** Special administrative area; district risk is not identical to entire metropolitan region
+
+**Selection status:** Documented heat-concern case; national most-exposed ranking not verified.
+
+**Selection basis:** Measured in a study Urban-heat analysis and worker research; both include model/measurement limitations. [World Bank Shaping a Cooler Bangkok ](https://www.worldbank.org/en/country/thailand/publication/shaping-a-cooler-bangkok-tackling-urban-heat-for-a-more-livable-city) · [HomeNet Thailand/WIEGO Bangkok heat study ](https://www.wiego.org/research-library-publications/climate-change-and-heat-stress-impacts-bangkok-thailand/)
+
+**Tradeoffs to assess:**
+- Peak load, bills, outages and critical-service fallback
+- Refrigerant safety and servicing, water demand and maintenance
+- Tenure/rent displacement, gendered care and household affordability
+- Worker pay, disability access, language and migrant inclusion
+- Actual people-level heat exposure rather than surface-temperature proxy
+
+### Chiang Mai
+
+**Heat context:** **Climate:** Seasonally drier inland heat, humid monsoon periods; investigate heat and smoke jointly. **Basis:** Contextual researcher interpretation, not a measured citywide humidity series. [TMD Thailand annual climate summary 2024 ](https://www.tmd.go.th/media/climate/climate-annual/%E0%B8%AA%E0%B8%A3%E0%B8%9B%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9B-2567.pdf) · [ADB Thailand heat policy and solutions report ](https://www.adb.org/sites/default/files/publication/1155851/heat-crisis-thailand-southeast-asia.pdf) · [Chiang Mai public-health heat warning ](https://radiochiangmai.prd.go.th/th/content/category/detail/id/57/iid/485432) **Night heat:** Comparable city-specific occupied-room/night series not verified; national hot-night trend is not a city measurement.
+
+**Official heat plans:** Reported, not evaluated Regional Disease Control Office1 heat communication verified; municipal adopted HAP not retrieved. [Chiang Mai public-health heat warning ](https://radiochiangmai.prd.go.th/th/content/category/detail/id/57/iid/485432)
+
+**Agencies responsible:** **Documented:**
+- Disease Control Office1 regional communication
+
+**Proposed counterparts:**
+- Municipal planning, public health and building authorities
+- Provincial public-health and labour-protection offices
+- TMD local/regional station
+- School, market, water and electricity service operators
+- Locally identified worker/community representatives
+
+**Caveat:** Proposed coordination roles are not claims of accepted membership or delegated heat authority. [Chiang Mai public-health heat warning ](https://radiochiangmai.prd.go.th/th/content/category/detail/id/57/iid/485432)
+
+**Warnings:** **National reference:** country.warning_systems **Local trigger:** Bangkok publishes Heat Index bands; elsewhere city-specific validated action threshold not verified. **Reach:** Offline, migrant-language, disability and isolated-person reach require testing.
+
+**Rules for heat at work:** **Reference:** country.occupational_heat_rules **Local inspection and paid rest:** Not verified; national law not a guarantee of universal local coverage.
+
+**Cooling and buildings:** **Reference:** country.cooling_and_building_policy **Local specific rule:** Not verified; check local building control and property class. **Suitability:** Shade/solar-gain reduction and active cooling need local assessment; avoid prescribing evaporation in humid exposure without field appraisal.
+
+**Money for protection:** **Costs:** **Currency:** THB **Note:** No transferable local installed package quotation verified. Missing is not zero; fund budgets and foregone wages are not intervention unit costs. **Local heat budget:** Not verified **Reference:** country.finance_mechanisms; BMA-specific powers cannot safely be transferred to other municipalities.
+
+**Gaps in what we found:**
+- Adopted local plan, budget execution, monitoring, delivered reach and independent health/income effects not fully established.
+
+**A place to start (proposed):** Test health warnings, usable cooler indoor spaces and outdoor-worker protection; assess air quality before ventilation decisions.
+
+**Known, inferred, uncertain:** **Known:** TMD urban-district record and official regional health warning; ADB highlights urban heat. **Inferred:** Test health warnings, usable cooler indoor spaces and outdoor-worker protection; assess air quality before ventilation decisions. **Uncertain:** Local climate/health exposure, authority, costs, reach and outcome effectiveness.
+
+**Boundary:** Municipality / Mueang district / wider province are best kept distinct
+
+**Selection status:** Documented heat-concern case; national most-exposed ranking not verified.
+
+**Selection basis:** Official guidance or data TMD urban-district record and official regional health warning; ADB highlights urban heat. [TMD Thailand annual climate summary 2024 ](https://www.tmd.go.th/media/climate/climate-annual/%E0%B8%AA%E0%B8%A3%E0%B8%9B%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9B-2567.pdf) · [ADB Thailand heat policy and solutions report ](https://www.adb.org/sites/default/files/publication/1155851/heat-crisis-thailand-southeast-asia.pdf) · [Chiang Mai public-health heat warning ](https://radiochiangmai.prd.go.th/th/content/category/detail/id/57/iid/485432)
+
+**Tradeoffs to assess:**
+- Peak load, bills, outages and critical-service fallback
+- Refrigerant safety and servicing, water demand and maintenance
+- Tenure/rent displacement, gendered care and household affordability
+- Worker pay, disability access, language and migrant inclusion
+- Actual people-level heat exposure rather than surface-temperature proxy
+
+### Lampang
+
+**Heat context:** **Climate:** Seasonally drier northern setting; do not extrapolate daily humidity or night recovery. **Basis:** Contextual researcher interpretation, not a measured citywide humidity series. [TMD Thailand annual climate summary 2024 ](https://www.tmd.go.th/media/climate/climate-annual/%E0%B8%AA%E0%B8%A3%E0%B8%9B%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9B-2567.pdf) · Thai government 2026 seasonal heat communication (no longer online) **Night heat:** Comparable city-specific occupied-room/night series not verified; national hot-night trend is not a city measurement.
+
+**Official heat plans:** Official guidance or data Provincial risk communication documented nationally; adopted city HAP not retrieved. Thai government 2026 seasonal heat communication (no longer online)
+
+**Agencies responsible:** **Proposed counterparts:**
+- Municipal planning, public health and building authorities
+- Provincial public-health and labour-protection offices
+- TMD local/regional station
+- School, market, water and electricity service operators
+- Locally identified worker/community representatives
+
+**Caveat:** Proposed coordination roles are not claims of accepted membership or delegated heat authority. Thai government 2026 seasonal heat communication (no longer online)
+
+**Warnings:** **National reference:** country.warning_systems **Local trigger:** Bangkok publishes Heat Index bands; elsewhere city-specific validated action threshold not verified. **Reach:** Offline, migrant-language, disability and isolated-person reach require testing.
+
+**Rules for heat at work:** **Reference:** country.occupational_heat_rules **Local inspection and paid rest:** Not verified; national law not a guarantee of universal local coverage.
+
+**Cooling and buildings:** **Reference:** country.cooling_and_building_policy **Local specific rule:** Not verified; check local building control and property class. **Suitability:** Shade/solar-gain reduction and active cooling need local assessment; avoid prescribing evaporation in humid exposure without field appraisal.
+
+**Money for protection:** **Costs:** **Currency:** THB **Note:** No transferable local installed package quotation verified. Missing is not zero; fund budgets and foregone wages are not intervention unit costs. **Local heat budget:** Not verified **Reference:** country.finance_mechanisms; BMA-specific powers cannot safely be transferred to other municipalities.
+
+**Gaps in what we found:**
+- Adopted local plan, budget execution, monitoring, delivered reach and independent health/income effects not fully established.
+
+**A place to start (proposed):** Assess occupied-room night conditions, schools/clinics and maintainable low-water shade/roof options.
+
+**Known, inferred, uncertain:** **Known:** TMD lists a Mueang Lampang record in May 2024; the national Thoen extreme is deliberately not assigned to the city. **Inferred:** Assess occupied-room night conditions, schools/clinics and maintainable low-water shade/roof options. **Uncertain:** Local climate/health exposure, authority, costs, reach and outcome effectiveness.
+
+**Boundary:** City/Mueang district; not Thoen district elsewhere in Lampang province
+
+**Selection status:** Documented heat-concern case; national most-exposed ranking not verified.
+
+**Selection basis:** Official guidance or data TMD lists a Mueang Lampang record in May 2024; the national Thoen extreme is deliberately not assigned to the city. [TMD Thailand annual climate summary 2024 ](https://www.tmd.go.th/media/climate/climate-annual/%E0%B8%AA%E0%B8%A3%E0%B8%9B%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9B-2567.pdf) · Thai government 2026 seasonal heat communication (no longer online)
+
+**Tradeoffs to assess:**
+- Peak load, bills, outages and critical-service fallback
+- Refrigerant safety and servicing, water demand and maintenance
+- Tenure/rent displacement, gendered care and household affordability
+- Worker pay, disability access, language and migrant inclusion
+- Actual people-level heat exposure rather than surface-temperature proxy
+
+### Mae Sot
+
+**Heat context:** **Climate:** Inland monsoonal setting; dry-season solar exposure and humid periods require separate assessment. **Basis:** Contextual researcher interpretation, not a measured citywide humidity series. [TMD Thailand annual climate summary 2024 ](https://www.tmd.go.th/media/climate/climate-annual/%E0%B8%AA%E0%B8%A3%E0%B8%9B%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9B-2567.pdf) **Night heat:** Comparable city-specific occupied-room/night series not verified; national hot-night trend is not a city measurement.
+
+**Official heat plans:** Official guidance or data Adopted municipal HAP, validated local health trigger and funded service protocol not retrieved. [TMD Thailand annual climate summary 2024 ](https://www.tmd.go.th/media/climate/climate-annual/%E0%B8%AA%E0%B8%A3%E0%B8%9B%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9B-2567.pdf)
+
+**Agencies responsible:** **Proposed counterparts:**
+- Municipal planning, public health and building authorities
+- Provincial public-health and labour-protection offices
+- TMD local/regional station
+- School, market, water and electricity service operators
+- Locally identified worker/community representatives
+
+**Caveat:** Proposed coordination roles are not claims of accepted membership or delegated heat authority. [TMD Thailand annual climate summary 2024 ](https://www.tmd.go.th/media/climate/climate-annual/%E0%B8%AA%E0%B8%A3%E0%B8%9B%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9B-2567.pdf)
+
+**Warnings:** **National reference:** country.warning_systems **Local trigger:** Bangkok publishes Heat Index bands; elsewhere city-specific validated action threshold not verified. **Reach:** Offline, migrant-language, disability and isolated-person reach require testing.
+
+**Rules for heat at work:** **Reference:** country.occupational_heat_rules **Local inspection and paid rest:** Not verified; national law not a guarantee of universal local coverage.
+
+**Cooling and buildings:** **Reference:** country.cooling_and_building_policy **Local specific rule:** Not verified; check local building control and property class. **Suitability:** Shade/solar-gain reduction and active cooling need local assessment; avoid prescribing evaporation in humid exposure without field appraisal.
+
+**Money for protection:** **Costs:** **Currency:** THB **Note:** No transferable local installed package quotation verified. Missing is not zero; fund budgets and foregone wages are not intervention unit costs. **Local heat budget:** Not verified **Reference:** country.finance_mechanisms; BMA-specific powers cannot safely be transferred to other municipalities.
+
+**Gaps in what we found:**
+- Adopted local plan, budget execution, monitoring, delivered reach and independent health/income effects not fully established.
+
+**A place to start (proposed):** Investigate multilingual worker communication and exposure/income barriers with locally identified worker representatives.
+
+**Known, inferred, uncertain:** **Known:** TMD lists a Mae Sot station hot-month record; not a nationally ranked city exposure estimate. **Inferred:** Investigate multilingual worker communication and exposure/income barriers with locally identified worker representatives. **Uncertain:** Local climate/health exposure, authority, costs, reach and outcome effectiveness.
+
+**Boundary:** Municipality and Mae Sot district in Tak; not Tak city or whole province
+
+**Selection status:** Documented heat-concern case; national most-exposed ranking not verified.
+
+**Selection basis:** Official guidance or data TMD lists a Mae Sot station hot-month record; not a nationally ranked city exposure estimate. [TMD Thailand annual climate summary 2024 ](https://www.tmd.go.th/media/climate/climate-annual/%E0%B8%AA%E0%B8%A3%E0%B8%9B%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9B-2567.pdf)
+
+**Tradeoffs to assess:**
+- Peak load, bills, outages and critical-service fallback
+- Refrigerant safety and servicing, water demand and maintenance
+- Tenure/rent displacement, gendered care and household affordability
+- Worker pay, disability access, language and migrant inclusion
+- Actual people-level heat exposure rather than surface-temperature proxy
+
+### Khon Kaen
+
+**Heat context:** **Climate:** Northeastern inland heat; seasonal dryness and humidity vary. **Basis:** Contextual researcher interpretation, not a measured citywide humidity series. [TMD Thailand annual climate summary 2024 ](https://www.tmd.go.th/media/climate/climate-annual/%E0%B8%AA%E0%B8%A3%E0%B8%9B%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9B-2567.pdf) **Night heat:** Comparable city-specific occupied-room/night series not verified; national hot-night trend is not a city measurement.
+
+**Official heat plans:** Official guidance or data Adopted municipal HAP and specific city operating budget not retrieved. [TMD Thailand annual climate summary 2024 ](https://www.tmd.go.th/media/climate/climate-annual/%E0%B8%AA%E0%B8%A3%E0%B8%9B%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9B-2567.pdf)
+
+**Agencies responsible:** **Proposed counterparts:**
+- Municipal planning, public health and building authorities
+- Provincial public-health and labour-protection offices
+- TMD local/regional station
+- School, market, water and electricity service operators
+- Locally identified worker/community representatives
+
+**Caveat:** Proposed coordination roles are not claims of accepted membership or delegated heat authority. [TMD Thailand annual climate summary 2024 ](https://www.tmd.go.th/media/climate/climate-annual/%E0%B8%AA%E0%B8%A3%E0%B8%9B%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9B-2567.pdf)
+
+**Warnings:** **National reference:** country.warning_systems **Local trigger:** Bangkok publishes Heat Index bands; elsewhere city-specific validated action threshold not verified. **Reach:** Offline, migrant-language, disability and isolated-person reach require testing.
+
+**Rules for heat at work:** **Reference:** country.occupational_heat_rules **Local inspection and paid rest:** Not verified; national law not a guarantee of universal local coverage.
+
+**Cooling and buildings:** **Reference:** country.cooling_and_building_policy **Local specific rule:** Not verified; check local building control and property class. **Suitability:** Shade/solar-gain reduction and active cooling need local assessment; avoid prescribing evaporation in humid exposure without field appraisal.
+
+**Money for protection:** **Costs:** **Currency:** THB **Note:** No transferable local installed package quotation verified. Missing is not zero; fund budgets and foregone wages are not intervention unit costs. **Local heat budget:** Not verified **Reference:** country.finance_mechanisms; BMA-specific powers cannot safely be transferred to other municipalities.
+
+**Gaps in what we found:**
+- Adopted local plan, budget execution, monitoring, delivered reach and independent health/income effects not fully established.
+
+**A place to start (proposed):** Test market/workplace rest-shade-water access and connect health warnings to clinics and service owners.
+
+**Known, inferred, uncertain:** **Known:** TMD2024 table documents a Mueang station hot-season record. **Inferred:** Test market/workplace rest-shade-water access and connect health warnings to clinics and service owners. **Uncertain:** Local climate/health exposure, authority, costs, reach and outcome effectiveness.
+
+**Boundary:** Municipality/Mueang district; Tha Phra agricultural station not interchangeable with town
+
+**Selection status:** Documented heat-concern case; national most-exposed ranking not verified.
+
+**Selection basis:** Official guidance or data TMD2024 table documents a Mueang station hot-season record. [TMD Thailand annual climate summary 2024 ](https://www.tmd.go.th/media/climate/climate-annual/%E0%B8%AA%E0%B8%A3%E0%B8%9B%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9B-2567.pdf)
+
+**Tradeoffs to assess:**
+- Peak load, bills, outages and critical-service fallback
+- Refrigerant safety and servicing, water demand and maintenance
+- Tenure/rent displacement, gendered care and household affordability
+- Worker pay, disability access, language and migrant inclusion
+- Actual people-level heat exposure rather than surface-temperature proxy
+
+### Ubon Ratchathani
+
+**Heat context:** **Climate:** Northeastern monsoonal heat; water constraints and humid episodes require local checks. **Basis:** Contextual researcher interpretation, not a measured citywide humidity series. [TMD Thailand annual climate summary 2024 ](https://www.tmd.go.th/media/climate/climate-annual/%E0%B8%AA%E0%B8%A3%E0%B8%9B%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9B-2567.pdf) **Night heat:** Comparable city-specific occupied-room/night series not verified; national hot-night trend is not a city measurement.
+
+**Official heat plans:** Official guidance or data Adopted municipal HAP, automatic cash trigger and ring-fenced heat budget not verified. [TMD Thailand annual climate summary 2024 ](https://www.tmd.go.th/media/climate/climate-annual/%E0%B8%AA%E0%B8%A3%E0%B8%9B%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9B-2567.pdf)
+
+**Agencies responsible:** **Proposed counterparts:**
+- Municipal planning, public health and building authorities
+- Provincial public-health and labour-protection offices
+- TMD local/regional station
+- School, market, water and electricity service operators
+- Locally identified worker/community representatives
+
+**Caveat:** Proposed coordination roles are not claims of accepted membership or delegated heat authority. [TMD Thailand annual climate summary 2024 ](https://www.tmd.go.th/media/climate/climate-annual/%E0%B8%AA%E0%B8%A3%E0%B8%9B%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9B-2567.pdf)
+
+**Warnings:** **National reference:** country.warning_systems **Local trigger:** Bangkok publishes Heat Index bands; elsewhere city-specific validated action threshold not verified. **Reach:** Offline, migrant-language, disability and isolated-person reach require testing.
+
+**Rules for heat at work:** **Reference:** country.occupational_heat_rules **Local inspection and paid rest:** Not verified; national law not a guarantee of universal local coverage.
+
+**Cooling and buildings:** **Reference:** country.cooling_and_building_policy **Local specific rule:** Not verified; check local building control and property class. **Suitability:** Shade/solar-gain reduction and active cooling need local assessment; avoid prescribing evaporation in humid exposure without field appraisal.
+
+**Money for protection:** **Costs:** **Currency:** THB **Note:** No transferable local installed package quotation verified. Missing is not zero; fund budgets and foregone wages are not intervention unit costs. **Local heat budget:** Not verified **Reference:** country.finance_mechanisms; BMA-specific powers cannot safely be transferred to other municipalities.
+
+**Gaps in what we found:**
+- Adopted local plan, budget execution, monitoring, delivered reach and independent health/income effects not fully established.
+
+**A place to start (proposed):** Develop costed market, school and clinic protection with local health/planning teams; assess livelihood continuity.
+
+**Known, inferred, uncertain:** **Known:** TMD documents Mueang hot-season record; adjacent-district observations not assigned to city. **Inferred:** Develop costed market, school and clinic protection with local health/planning teams; assess livelihood continuity. **Uncertain:** Local climate/health exposure, authority, costs, reach and outcome effectiveness.
+
+**Boundary:** Municipality/Mueang district; Warin Chamrap station treated separately
+
+**Selection status:** Documented heat-concern case; national most-exposed ranking not verified.
+
+**Selection basis:** Official guidance or data TMD documents Mueang hot-season record; adjacent-district observations not assigned to city. [TMD Thailand annual climate summary 2024 ](https://www.tmd.go.th/media/climate/climate-annual/%E0%B8%AA%E0%B8%A3%E0%B8%9B%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9B-2567.pdf)
+
+**Tradeoffs to assess:**
+- Peak load, bills, outages and critical-service fallback
+- Refrigerant safety and servicing, water demand and maintenance
+- Tenure/rent displacement, gendered care and household affordability
+- Worker pay, disability access, language and migrant inclusion
+- Actual people-level heat exposure rather than surface-temperature proxy
+
+### Nakhon Ratchasima (Korat)
+
+**Heat context:** **Climate:** Inland plateau/monsoonal context; local humidity, water and work exposure need measurement. **Basis:** Contextual researcher interpretation, not a measured citywide humidity series. [TMD Thailand annual climate summary 2024 ](https://www.tmd.go.th/media/climate/climate-annual/%E0%B8%AA%E0%B8%A3%E0%B8%9B%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9B-2567.pdf) **Night heat:** Comparable city-specific occupied-room/night series not verified; national hot-night trend is not a city measurement.
+
+**Official heat plans:** Official guidance or data Adopted municipal HAP and local heat-specific building mandate not retrieved. [TMD Thailand annual climate summary 2024 ](https://www.tmd.go.th/media/climate/climate-annual/%E0%B8%AA%E0%B8%A3%E0%B8%9B%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9B-2567.pdf)
+
+**Agencies responsible:** **Proposed counterparts:**
+- Municipal planning, public health and building authorities
+- Provincial public-health and labour-protection offices
+- TMD local/regional station
+- School, market, water and electricity service operators
+- Locally identified worker/community representatives
+
+**Caveat:** Proposed coordination roles are not claims of accepted membership or delegated heat authority. [TMD Thailand annual climate summary 2024 ](https://www.tmd.go.th/media/climate/climate-annual/%E0%B8%AA%E0%B8%A3%E0%B8%9B%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9B-2567.pdf)
+
+**Warnings:** **National reference:** country.warning_systems **Local trigger:** Bangkok publishes Heat Index bands; elsewhere city-specific validated action threshold not verified. **Reach:** Offline, migrant-language, disability and isolated-person reach require testing.
+
+**Rules for heat at work:** **Reference:** country.occupational_heat_rules **Local inspection and paid rest:** Not verified; national law not a guarantee of universal local coverage.
+
+**Cooling and buildings:** **Reference:** country.cooling_and_building_policy **Local specific rule:** Not verified; check local building control and property class. **Suitability:** Shade/solar-gain reduction and active cooling need local assessment; avoid prescribing evaporation in humid exposure without field appraisal.
+
+**Money for protection:** **Costs:** **Currency:** THB **Note:** No transferable local installed package quotation verified. Missing is not zero; fund budgets and foregone wages are not intervention unit costs. **Local heat budget:** Not verified **Reference:** country.finance_mechanisms; BMA-specific powers cannot safely be transferred to other municipalities.
+
+**Gaps in what we found:**
+- Adopted local plan, budget execution, monitoring, delivered reach and independent health/income effects not fully established.
+
+**A place to start (proposed):** Prepare workplace/public-building retrofit and recovery packages, with monitoring and operating budgets.
+
+**Known, inferred, uncertain:** **Known:** TMD documents Mueang hot-season record; provincial readings not treated as uniform city exposure. **Inferred:** Prepare workplace/public-building retrofit and recovery packages, with monitoring and operating budgets. **Uncertain:** Local climate/health exposure, authority, costs, reach and outcome effectiveness.
+
+**Boundary:** Municipality/Mueang district; Pak Chong and Chok Chai are separate locations
+
+**Selection status:** Documented heat-concern case; national most-exposed ranking not verified.
+
+**Selection basis:** Official guidance or data TMD documents Mueang hot-season record; provincial readings not treated as uniform city exposure. [TMD Thailand annual climate summary 2024 ](https://www.tmd.go.th/media/climate/climate-annual/%E0%B8%AA%E0%B8%A3%E0%B8%9B%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9B-2567.pdf)
+
+**Tradeoffs to assess:**
+- Peak load, bills, outages and critical-service fallback
+- Refrigerant safety and servicing, water demand and maintenance
+- Tenure/rent displacement, gendered care and household affordability
+- Worker pay, disability access, language and migrant inclusion
+- Actual people-level heat exposure rather than surface-temperature proxy
+
+### Hat Yai
+
+**Heat context:** **Climate:** Southern humid setting; useful comparator to inland hot-dry-season conditions. **Basis:** Contextual researcher interpretation, not a measured citywide humidity series. [TMD Thailand annual climate summary 2024 ](https://www.tmd.go.th/media/climate/climate-annual/%E0%B8%AA%E0%B8%A3%E0%B8%9B%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9B-2567.pdf) **Night heat:** Comparable city-specific occupied-room/night series not verified; national hot-night trend is not a city measurement.
+
+**Official heat plans:** Official guidance or data Adopted municipal HAP or verified cooled-refuge network not retrieved. [TMD Thailand annual climate summary 2024 ](https://www.tmd.go.th/media/climate/climate-annual/%E0%B8%AA%E0%B8%A3%E0%B8%9B%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9B-2567.pdf)
+
+**Agencies responsible:** **Proposed counterparts:**
+- Municipal planning, public health and building authorities
+- Provincial public-health and labour-protection offices
+- TMD local/regional station
+- School, market, water and electricity service operators
+- Locally identified worker/community representatives
+
+**Caveat:** Proposed coordination roles are not claims of accepted membership or delegated heat authority. [TMD Thailand annual climate summary 2024 ](https://www.tmd.go.th/media/climate/climate-annual/%E0%B8%AA%E0%B8%A3%E0%B8%9B%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9B-2567.pdf)
+
+**Warnings:** **National reference:** country.warning_systems **Local trigger:** Bangkok publishes Heat Index bands; elsewhere city-specific validated action threshold not verified. **Reach:** Offline, migrant-language, disability and isolated-person reach require testing.
+
+**Rules for heat at work:** **Reference:** country.occupational_heat_rules **Local inspection and paid rest:** Not verified; national law not a guarantee of universal local coverage.
+
+**Cooling and buildings:** **Reference:** country.cooling_and_building_policy **Local specific rule:** Not verified; check local building control and property class. **Suitability:** Shade/solar-gain reduction and active cooling need local assessment; avoid prescribing evaporation in humid exposure without field appraisal.
+
+**Money for protection:** **Costs:** **Currency:** THB **Note:** No transferable local installed package quotation verified. Missing is not zero; fund budgets and foregone wages are not intervention unit costs. **Local heat budget:** Not verified **Reference:** country.finance_mechanisms; BMA-specific powers cannot safely be transferred to other municipalities.
+
+**Gaps in what we found:**
+- Adopted local plan, budget execution, monitoring, delivered reach and independent health/income effects not fully established.
+
+**A place to start (proposed):** Assess humidity-appropriate cooling and heat/flood service continuity, with accessibility and outage checks.
+
+**Known, inferred, uncertain:** **Known:** TMD records a Hat Yai hot-season extreme; included for humid-heat context, not claimed a top-eight national rank. **Inferred:** Assess humidity-appropriate cooling and heat/flood service continuity, with accessibility and outage checks. **Uncertain:** Local climate/health exposure, authority, costs, reach and outcome effectiveness.
+
+**Boundary:** Municipality/district in Songkhla; not Songkhla city or entire province
+
+**Selection status:** Documented heat-concern case; national most-exposed ranking not verified.
+
+**Selection basis:** Official guidance or data TMD records a Hat Yai hot-season extreme; included for humid-heat context, not claimed a top-eight national rank. [TMD Thailand annual climate summary 2024 ](https://www.tmd.go.th/media/climate/climate-annual/%E0%B8%AA%E0%B8%A3%E0%B8%9B%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%9B-2567.pdf)
+
+**Tradeoffs to assess:**
+- Peak load, bills, outages and critical-service fallback
+- Refrigerant safety and servicing, water demand and maintenance
+- Tenure/rent displacement, gendered care and household affordability
+- Worker pay, disability access, language and migrant inclusion
+- Actual people-level heat exposure rather than surface-temperature proxy
+
+## Programmes
+
+- Official guidance or data **DOH/TMD Heat-Health Surveillance and Warning Systems** **Costs:** **Currency:** THB **Note:** No transferable local installed package quotation verified. Missing is not zero; fund budgets and foregone wages are not intervention unit costs. **Known, inferred, uncertain:** **Known:** Connects meteorological information with health recommendations. **Inferred:** Could inform practical shared protection. **Uncertain:** Local offline reach, automatic finance triggers and actual action completion not established. **Implementation stage:** National integration and 2025 Heat Index shift documented. [WHO Thailand climate-and-health country profile ](https://cdn.who.int/media/docs/default-source/searo/hsd/country-profiles/tha-climate-change-cf-2026.pdf?download=true&sfvrsn=1cc6f20a_3) **Description:** Connects meteorological information with health recommendations. **Health or income effect:** No independently evaluated causal programme effect verified in this snapshot. **Limits:** Local offline reach, automatic finance triggers and actual action completion not established.
+- Reported, not evaluated **BKK Cooling Centers / Cooling Spots** **Costs:** **Currency:** THB **Note:** No transferable local installed package quotation verified. Missing is not zero; fund budgets and foregone wages are not intervention unit costs. **Known, inferred, uncertain:** **Known:** Uses public buildings and public-space cooling/water services. **Inferred:** Could inform practical shared protection. **Uncertain:** Number announced is not audited usage, opening hours, accessibility or outcome. Zero incremental energy not verified. **Implementation stage:** Government reports seasonal provision in 2026. [Government account of Bangkok cooling centres ](https://thailand.go.th/issue-focus-detail/bangkok-launches-304-cooling-centers-to-combat-extreme-heat?hl=en) **Description:** Uses public buildings and public-space cooling/water services. **Health or income effect:** No independently evaluated causal programme effect verified in this snapshot. **Limits:** Number announced is not audited usage, opening hours, accessibility or outcome. Zero incremental energy not verified.
+- Design concept **Bangkok integrated evidence-based HHAP and implementation roadmap** **Costs:** **Currency:** THB **Note:** No transferable local installed package quotation verified. Missing is not zero; fund budgets and foregone wages are not intervention unit costs. **Known, inferred, uncertain:** **Known:** Planned risk mapping, targeted interventions and institutional procedures. **Inferred:** Could inform practical shared protection. **Uncertain:** No final adopted document or completed pilot results verified; design label does not negate preparatory meetings. **Implementation stage:** Development announced September 2026; pilots proposed. [AIT/Vital Strategies/BMA heat-health-plan development ](https://ait.ac.th/2026/09/ait-vital-strategies-and-bma-advance-bangkok-heat-health-action-plan/) **Description:** Planned risk mapping, targeted interventions and institutional procedures. **Health or income effect:** No independently evaluated causal programme effect verified in this snapshot. **Limits:** No final adopted document or completed pilot results verified; design label does not negate preparatory meetings.
+- Official guidance or data **Bangkok heat-financing strategy** **Costs:** **Currency:** THB **Note:** No transferable local installed package quotation verified. Missing is not zero; fund budgets and foregone wages are not intervention unit costs. **Known, inferred, uncertain:** **Known:** Matches adaptation projects with public/grant/concessional/private capital as appropriate. **Inferred:** Could inform practical shared protection. **Uncertain:** Strategy is not proof of funded project, issued heat bond or open NGO grant. **Implementation stage:** Published October 2026; routes and roadmap assessed. [Bangkok heat-financing strategy ](https://www.undp.org/thailand/publications/bangkok-financing-strategy-tackling-urban-heat) · [Bangkok heat-financing strategy - full report ](https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf) **Description:** Matches adaptation projects with public/grant/concessional/private capital as appropriate. **Health or income effect:** No independently evaluated causal programme effect verified in this snapshot. **Limits:** Strategy is not proof of funded project, issued heat bond or open NGO grant.
+- Measured in a study **HomeNet Thailand/WIEGO informal-worker heat research** **Costs:** **Currency:** THB **Note:** No transferable local installed package quotation verified. Missing is not zero; fund budgets and foregone wages are not intervention unit costs. **Known, inferred, uncertain:** **Known:** Documents home-based worker and vendor experiences of heat, work, care and infrastructure. **Inferred:** Could inform practical shared protection. **Uncertain:** Self-reported/recall outcomes, not causal evaluation of protection or representative national prevalence. **Implementation stage:** Bangkok survey/qualitative research 2025; brief publishedOctober 2025. [HomeNet Thailand/WIEGO Bangkok heat study ](https://www.wiego.org/research-library-publications/climate-change-and-heat-stress-impacts-bangkok-thailand/) · [HomeNet Thailand/WIEGO policy brief33 PDF ](https://www.wiego.org/wp-content/uploads/2025/10/WIEGO-Policy-Brief-33-Climate-Change-and-Heat-Stress.pdf) **Description:** Documents home-based worker and vendor experiences of heat, work, care and infrastructure. **Health or income effect:** No independently evaluated causal programme effect verified in this snapshot. **Limits:** Self-reported/recall outcomes, not causal evaluation of protection or representative national prevalence.
+- Reported, not evaluated **Working under heat - Bangkok worker education** **Costs:** **Currency:** THB **Note:** No transferable local installed package quotation verified. Missing is not zero; fund budgets and foregone wages are not intervention unit costs. **Known, inferred, uncertain:** **Known:** Practical worker-facing communication and organising resource. **Inferred:** Could inform practical shared protection. **Uncertain:** Update historic legal references and independently appraise advice; no universal fan threshold reproduced. **Implementation stage:** Resource published 2025. [Worker-facing Bangkok heat guide ](https://www.wiego.org/advocacy-worker-education-resources/working-under-heat/) **Description:** Practical worker-facing communication and organising resource. **Health or income effect:** No independently evaluated causal programme effect verified in this snapshot. **Limits:** Update historic legal references and independently appraise advice; no universal fan threshold reproduced.
+- Reported, not evaluated **Thailand RAC NAMA / RAC NAMA Fund** **Costs:** **Currency:** THB **Note:** No transferable local installed package quotation verified. Missing is not zero; fund budgets and foregone wages are not intervention unit costs. **Known, inferred, uncertain:** **Known:** Revolving/sub-grant/technical mechanisms for efficient natural-refrigerant cooling. **Inferred:** Could inform practical shared protection. **Uncertain:** Historical mechanism, not current funding call; technical/financial outputs are not heat-health impact. **Implementation stage:** Historical phase endedJuly 2021. [RAC NAMA Thailand project history ](https://www.green-cooling-initiative.org/about-us/our-projects/rac-nama-thailand) · [RAC NAMA fund mechanism factsheet ](https://www.giz.de/de/downloads/RAC%20NAMA%20fund_FINAL.pdf) **Description:** Revolving/sub-grant/technical mechanisms for efficient natural-refrigerant cooling. **Health or income effect:** No independently evaluated causal programme effect verified in this snapshot. **Limits:** Historical mechanism, not current funding call; technical/financial outputs are not heat-health impact.
+- Reported, not evaluated **EGAT Cooling Innovation Fund** **Costs:** **Currency:** THB **Note:** No transferable local installed package quotation verified. Missing is not zero; fund budgets and foregone wages are not intervention unit costs. **Known, inferred, uncertain:** **Known:** Training, demonstration, testing and cooling innovation support. **Inferred:** Could inform practical shared protection. **Uncertain:** Do not present historical announcement as current open opportunity. **Implementation stage:** Successor arrangement describedAugust 2022;2026 operation/access not verified. [Cooling Innovation Fund successor account ](https://mitigation-action.org/news/cooling-innovation-fund-delegation-shares-funds-progress-with-the-nama-facility-as-part-of-study-trip/) **Description:** Training, demonstration, testing and cooling innovation support. **Health or income effect:** No independently evaluated causal programme effect verified in this snapshot. **Limits:** Do not present historical announcement as current open opportunity.
+- Official guidance or data **EGAT Label No.5** **Costs:** **Currency:** THB **Note:** No transferable local installed package quotation verified. Missing is not zero; fund budgets and foregone wages are not intervention unit costs. **Known, inferred, uncertain:** **Known:** Equipment efficiency-information route for consumers and procurers. **Inferred:** Could inform practical shared protection. **Uncertain:** Label alone does not establish affordable access, clinical protection or appropriate refrigerant. **Implementation stage:** Updated label introducedJanuary 2024; current consumer site available. EGAT Label No.5 label update (no longer online) · [EGAT current consumer and certified-product route ](https://labelno5.egat.co.th/) **Description:** Equipment efficiency-information route for consumers and procurers. **Health or income effect:** No independently evaluated causal programme effect verified in this snapshot. **Limits:** Label alone does not establish affordable access, clinical protection or appropriate refrigerant.
+- Measured in a study **Shaping a Cooler Bangkok** **Costs:** **Currency:** THB **Note:** No transferable local installed package quotation verified. Missing is not zero; fund budgets and foregone wages are not intervention unit costs. **Known, inferred, uncertain:** **Known:** Urban-heat analysis to inform city action. **Inferred:** Could inform practical shared protection. **Uncertain:** Future health/wage effects are modelled, not observed intervention benefits; full report size blocked retrieval. **Implementation stage:** Original assessment summary published 2025. [World Bank Shaping a Cooler Bangkok ](https://www.worldbank.org/en/country/thailand/publication/shaping-a-cooler-bangkok-tackling-urban-heat-for-a-more-livable-city) **Description:** Urban-heat analysis to inform city action. **Health or income effect:** No independently evaluated causal programme effect verified in this snapshot. **Limits:** Future health/wage effects are modelled, not observed intervention benefits; full report size blocked retrieval.
+
+## Who is working on it
+
+Listing does not imply partnership, endorsement or ranking.
+
+- **[Arçelik Hitachi Home Appliances Sales (Thailand) Ltd. ](https://www.hitachi-homeappliances.com/th-en/products/air-conditioners/)** Markets AC models locally; vendor catalogue with declared label ratings.
+- **[Asian Development Bank ](https://www.adb.org/)** Published 2026 Thailand heat-policy roadmap; a publication is not a financing commitment.
+- **[Asian Institute of Technology ](https://ait.ac.th/)** Technical/research partner for Bangkok HHAP.
+- **[Bangkok Metropolitan Administration ](https://www.bangkok.go.th/)** Urban heat response, cooling provision and plan development.
+- **[Department of Alternative Energy Development and Efficiency ](https://www.dede.go.th/)** Building/efficiency counterpart and historical RAC programme partner.
+- **[Department of Climate Change and Environment - Climate Change and Environmental Research Center ](https://www.dcce.go.th/)** Author institution of 2026 hot-extreme/population-exposure research.
+- **[Department of Disease Control / Disease Control Office1 ](https://www.ddc.moph.go.th/)** Regional Chiang Mai heat-health communication documented.
+- **[Department of Health, Ministry of Public Health ](https://anamai.moph.go.th/)** Heat-health surveillance, risk communication and adaptation planning.
+- **[Department of Industrial Works - National Ozone Unit ](https://www.diw.go.th/)** UNEP lists national ozone/HFC-policy counterpart.
+- **[Department of Labour Protection and Welfare ](https://osh.labour.go.th/)** Publishes occupational heat law and measurement framework.
+- **[Electricity Generating Authority of Thailand ](https://www.egat.co.th/)** Operates labelling and historically hosted cooling-finance mechanisms.
+- **[GIZ Proklima / Green Cooling Initiative ](https://www.green-cooling-initiative.org/)** Implemented Thai RAC cooling transition and finance support.
+- **[HomeNet Thailand ](https://www.homenetthailand.org/)** Worker-led evidence and practical heat communication with WIEGO.
+- **[Mahidol University - occupational/public-health researchers ](https://www.mahidol.ac.th/)** Thai worker-strain study author institution.
+- **[Mitigation Action Facility (formerly NAMA Facility) ](https://mitigation-action.org/)** Supported historical Thai cooling transformation mechanism.
+- **[Ramkhamhaeng University - regional climate/renewable energy research centre ](https://www.ru.ac.th/)** Author affiliation for 2026 hot-extreme analysis.
+- **[Thai Meteorological Department ](https://www.tmd.go.th/)** Official observations and heat-information inputs.
+- **[UNDP Thailand ](https://www.undp.org/thailand)** Co-developed Bangkok heat-financing strategy with BMA.
+- **[University of Phayao - atmospheric pollution and climate research ](https://www.up.ac.th/)** Author affiliation for hot-extreme research.
+- **[Vital Strategies / Partnership for Healthy Cities ](https://www.vitalstrategies.org/)** Supports Bangkok evidence-based heat-health planning.
+- **[WHO Thailand ](https://www.who.int/thailand)** Country-profile and national heat-health planning support documented.
+- **[Women in Informal Employment: Globalizing and Organizing (WIEGO) ](https://www.wiego.org/)** Bangkok informal-worker research and education resources.
+- **[World Bank - Thailand urban-heat research ](https://www.worldbank.org/en/country/thailand)** Published Bangkok urban-heat assessment; no specific heat grant or finance eligibility inferred.
+
+Other snapshots: [Bangladesh](https://beattheheat.asia/countries/bangladesh/) · [India](https://beattheheat.asia/countries/india/) · [Indonesia](https://beattheheat.asia/countries/indonesia/) · [Nepal](https://beattheheat.asia/countries/nepal/) · [Philippines](https://beattheheat.asia/countries/philippines/) · [Sri Lanka](https://beattheheat.asia/countries/sri-lanka/) · [Solutions library](https://beattheheat.asia/solutions/)
+
+---
+Human edition: https://beattheheat.asia/countries/thailand/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

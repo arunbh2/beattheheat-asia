@@ -1,0 +1,47 @@
+Common Shade evidence pack: The displacement loop
+Vicious cycle · https://beattheheat.asia/loops/#displacement · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- Explain "The displacement loop" step by step, with the source for each link.
+- Who is hit hardest by this cycle, according to the pack?
+- Which actions could interrupt it, and what do they depend on?
+- What would have to be true for one of these links to fail in my place?
+- Which studies support this cycle, and what limits do they state about themselves?
+- What is still uncertain about this cycle?
+
+CONTENT
+
+The displacement loop
+People forced to move often land in heat-trapping housing, fall ill, lose income, fall further behind, and are forced to move again.
+Evidence for the cycle as a whole: emerging.
+
+THE LINKS IN THE CYCLE
+- Forced migration, which leads to homes that trap heat: When land, work and water fail, families may be forced to move, often into cities that are hotter still. [https://www.worldbank.org/en/news/press-release/2021/09/13/climate-change-could-force-216-million-people-to-migrate-within-their-own-countries-by-2050]
+- Homes that trap heat, which leads to heatstroke and heat exhaustion: Tin roofs, poor ventilation and crowded rooms can make homes hotter inside than out, leaving nowhere safe to rest. Thin roofs cool slowly, so the worst comes at night: in low-income homes measured across South Asia, tin-roofed houses stayed warmer indoors than the outdoor air. [https://www.frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2022.874751/full] [https://www.nature.com/articles/s41597-022-01314-5]
+- Heatstroke and heat exhaustion, which leads to lost work hours and wages: When the body can no longer cool itself, heat exhaustion can tip into heatstroke: a medical emergency that can kill. India’s suspected heatstroke cases rose more than tenfold in two summers, from 4,481 in 2022 to over 48,000 in 2024. Humid heat is the most dangerous: when the wet-bulb temperature is high, sweat stops cooling the body. Many more people feel heat illness than are diagnosed with it: among women garment workers in Phnom Penh, reports of symptoms such as thirst, heavy sweating and tiredness rose from 68% in cool months to 88% in hot months. [https://rsdebate.nic.in/bitstream/123456789/750681/1/PQ_265_06082024_U1693_p358_p362.pdf] [https://link.springer.com/article/10.1186/s12889-025-22787-0]
+- Lost work hours and wages, which leads to deepening inequality: The International Labour Organization projects that heat stress could cut 2.2% of all working hours worldwide by 2030, the equivalent of 80 million full-time jobs. [https://www.ilo.org/resource/news/increase-heat-stress-predicted-bring-productivity-loss-equivalent-80]
+- Deepening inequality, which leads to forced migration: Every impact lands hardest on those with the least protection, widening gaps in health, income and opportunity. [https://www.fao.org/newsroom/detail/fao-report--heatwaves-and-floods-affect-rural-women-and-men-differently--widen-income-gap] [https://www.frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2022.874751/full]
+
+STUDIES BEHIND IT
+- World Bank, 2021: Groundswell Part II. Without action, as many as 49 million people in East Asia and the Pacific could become internal climate migrants by 2050. Where: East Asia and the Pacific. Limit it states: A worst-case scenario to 2050; covers all climate drivers, not heat alone. [https://www.worldbank.org/en/news/press-release/2021/09/13/climate-change-could-force-216-million-people-to-migrate-within-their-own-countries-by-2050]
+- World Bank, 2021: Groundswell Part 2: Acting on Internal Climate Migration. Without action, climate change could force up to 216 million people to move within their own countries by 2050, including about 40 million in South Asia. Where: Six world regions. Limit it states: A worst-case scenario to 2050; covers all climate drivers, not heat alone. [https://openknowledge.worldbank.org/handle/10986/36248]
+
+ACTIONS THAT COULD INTERRUPT IT
+- Income protection in heatwaves: Cash that pays out automatically when temperatures cross a danger threshold, so people can afford to stop. Triggers need careful design to limit basis risk: heat that hurts people without triggering a payout.
+- Cool, affordable housing: Upgrading informal settlements with ventilation, shade and cool roofs, and planning homes for people who arrive. Watch for: In 16 Ahmedabad homes compared over one week, most roof treatments lowered daytime indoor heat, but one coating left rooms hotter than untreated roofs. Designs differ, and night-time effects were not measured. [https://pmc.ncbi.nlm.nih.gov/articles/PMC7227734/]
+
+SOURCES
+- World Bank, 2021: Groundswell Part II: https://www.worldbank.org/en/news/press-release/2021/09/13/climate-change-could-force-216-million-people-to-migrate-within-their-own-countries-by-2050
+- Frontiers in Built Environment, 2022: Ahmedabad informal settlements up to 7.6 °C hotter: https://www.frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2022.874751/full
+- Tasgaonkar et al., Scientific Data, 2022: indoor heat in low-income homes in South Asia: https://www.nature.com/articles/s41597-022-01314-5
+- Ministry of Health and Family Welfare, reply in India’s Rajya Sabha, 6 August 2024: https://rsdebate.nic.in/bitstream/123456789/750681/1/PQ_265_06082024_U1693_p358_p362.pdf
+- Chea et al., BMC Public Health, 2025: heat stress among women garment workers in Cambodia, cool and hot months: https://link.springer.com/article/10.1186/s12889-025-22787-0
+- International Labour Organization, 2019: heat stress predicted to cost the equivalent of 80 million jobs: https://www.ilo.org/resource/news/increase-heat-stress-predicted-bring-productivity-loss-equivalent-80
+- FAO, 2024: heat stress widens the income gap between rural women and men: https://www.fao.org/newsroom/detail/fao-report--heatwaves-and-floods-affect-rural-women-and-men-differently--widen-income-gap
+- World Bank, 2021: Groundswell Part 2: Acting on Internal Climate Migration: https://openknowledge.worldbank.org/handle/10986/36248
+- Vellingiri et al., 2020: cool roofs and indoor temperatures in Ahmedabad's informal settlements (PMC7227734): https://pmc.ncbi.nlm.nih.gov/articles/PMC7227734/

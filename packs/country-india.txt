@@ -1,0 +1,474 @@
+Common Shade evidence pack: India
+Country · https://beattheheat.asia/countries/india/ · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- What does extreme heat already do to people in India, according to this pack, and how sure is each point?
+- Which plans, warnings and rules for heat exist in India, and which have been evaluated?
+- Who could act on heat in India, and who could pay?
+- What does this pack say is still unknown or unmeasured in India?
+- If I work in one city in India, which parts of this pack apply, and what would I still need to find out locally?
+- Which sources would I read first to check the strongest claim here?
+
+CONTENT
+
+> Extreme heat in India: plans, warnings, rules at work, cooling, money for protection, cities, programmes and who is working on it.
+
+Country snapshot
+
+# India
+
+Heat, the plans and rules that shape protection, the organisations at work, and where a shared effort could help. Researched in October 2026.
+
+**Watch: India and heat** · 0:47 · narrated, captions in the picture
+
+**How to read this.** Facts link to their sources; anything marked proposed or inferred is the researchers’ suggestion, not a commitment by anyone named. Gaps are gaps in what we found, not faults.
+
+## Heat context
+
+**Summary:** India spans hot-dry, composite and hot-humid contexts. District composite risk, daytime weather alerts, humid heat, night heat and indoor exposure are different measures.
+
+## Official plans and authority
+
+**Every plan on file:** the [India heat action plan archive](https://beattheheat.asia/resources/heat-action-plans/india/) lists 146 verified documents (85 standalone heat action plans, 37 heat-health plans inside wider climate-and-health plans, 1 national plan and 23 guidance documents), with a link to each PDF.
+
+**Description:** National guidance, state/district/local HAPs and health-sector plans operate through different institutional/legal routes. Publication alone is not a separately enforceable heat entitlement. **Current rules check:** Central OSH Rules 2026 are notified, not a draft. Check appropriate-government, sector and state implementation.
+
+## Warning system
+
+**Description:** IMD meteorological guidance informs health and local response. Separate forecast, action and financial payout triggers; household receipt not verified.
+
+## Cooling and buildings
+
+**Description:** ICAP workstreams, BEE building/retrofit resources and Telangana cool-roof policy provide entry points; local notification, compliance and affordability require checks.
+
+## Money for protection
+
+- **SDRF/NDRF response** **Access:** Government route; applicable assistance norms and authoritative copy to confirm **Opportunity status:** Guidelines verified; not an open collaborative grant
+- **SDMF/NDMF mitigation** **Access:** State-led eligible project preparation/appraisal; no automatic NGO eligibility **Opportunity status:** Framework verified; city heat allocations/releases not verified
+- **NPCCHH/NHM district PIP** **Access:** District/state health planning and sanction **Opportunity status:** Guidance verified; specific approvals/releases not verified
+- **Municipal climate budgeting** **Access:** Municipal planning and budget cycle **Opportunity status:** Mumbai process described; heat-specific allocation/release not established
+- **Heat Index Cover for SEWA-associated workers** **Access:** Historical programme-specific enrolment; current eligibility not verified **Opportunity status:** FY2025 insurer report; no open 2026 opportunity established
+
+## Known, inferred, uncertain
+
+**Known:** Primary plans, guidance and selected studies exist as documented. **Inferred:** Place-based coordination and project preparation could connect currently separate protection functions. **Uncertain:** A comparable national city exposure ranking, current ward delivery, lifecycle costs, complete heat mortality, enforcement and disbursement.
+
+## Paying when heat strikes
+
+The layers of money we found for heat in India, from the systems that reach people to risk shared with insurers: Budgets and reserves, Insurance, pools and bonds, Social protection. Each is shown with how it is released, how it reaches people, and what we could not find.
+
+[See India, layer by layer](https://beattheheat.asia/paying-when-heat-strikes/#country-india)
+
+## Cities
+
+### Ahmedabad
+
+**Heat context:** **Description:** Hot inland setting; seasonal humidity changes require local assessment. **Night heat:** Include overnight indoor and outdoor measurements in local assessment; no comparable current city-wide indoor/night exposure series verified here. **Trend note:** Use national/district and local-plan evidence at its stated scale; no comparable current municipal time-series trend estimate is reproduced here. **Climate description basis:** Broad contextual description, not a formal climate-zone classification; seasonal conditions need local validation.
+
+**Plans:** **Verified description:** Ahmedabad HAP collaboration and retrospective research verified; current signed 2026 plan/version not retrieved. **Legal status:** Administrative/policy or state health planning instrument as described; plan publication is not proof every action is legally enforceable. **Implementation verified:** false
+
+**Warning system:** **Source:** IMD plus state/district/municipal dissemination arrangements **Last mile reach:** Not verified; test radio, local-language announcements, worker groups and door-to-door routes as proposed design, not existing universal coverage.
+
+**Rules for heat at work:** **Local order verified:** false **Note:** Obtain current state/sector orders, jurisdiction and wage/rest terms; do not import a different state’s timetable.
+
+**Cooling and buildings:** **Note:** Check actual state/local notifications, building ownership and retrofit permissions before specifying compliance.
+
+**Money for protection:** **Local allocations or releases verified:** false **Note:** Screen eligible project costs separately from staffing, electricity and upkeep; budget route is not a grant offer.
+
+**Country code:** IN
+
+**State or ut:** Gujarat
+
+**Selection basis:** Documented heat-health action and observational programme research.
+
+**Responsible actor ids:**
+- amc
+- iiphg
+- nrdc
+- mht
+
+**Proposed collaboration:** **Interpretation:** Pair ward housing/work protection with accountable warnings and mortality analysis.
+
+**Evidence gaps:**
+- Current shelter/roof coverage, tenant inclusion and recurrent costs not verified.
+- No common national municipality-level exposure ranking verified.
+
+**Evidence:**
+- Measured in a study City-specific source supports the narrower description recorded; implementation not assumed. [Hess et al.: Ahmedabad HAP mortality analysis ](https://pubmed.ncbi.nlm.nih.gov/30515228/)
+- Reported, not evaluated City-specific source supports the narrower description recorded; implementation not assumed. [IIPHG: Deepening and Expanding Heat Health Action in India ](https://iiphg.edu.in/key-projects-updated/)
+
+### Delhi
+
+**Heat context:** **Description:** Strong pre-monsoon daytime heat, with changing humidity during the season. **Night heat:** Include overnight indoor and outdoor measurements in local assessment; no comparable current city-wide indoor/night exposure series verified here. **Trend note:** Use national/district and local-plan evidence at its stated scale; no comparable current municipal time-series trend estimate is reproduced here. **Climate description basis:** Broad contextual description, not a formal climate-zone classification; seasonal conditions need local validation.
+
+**Plans:** **Verified description:** Delhi HAP 2025 verified in DDMA register; Delhi NCT is not synonymous with NDMC or the wider NCR. **Legal status:** Administrative/policy or state health planning instrument as described; plan publication is not proof every action is legally enforceable. **Implementation verified:** false
+
+**Warning system:** **Source:** IMD plus state/district/municipal dissemination arrangements **Last mile reach:** Not verified; test radio, local-language announcements, worker groups and door-to-door routes as proposed design, not existing universal coverage.
+
+**Rules for heat at work:** **Local order verified:** false **Note:** Obtain current state/sector orders, jurisdiction and wage/rest terms; do not import a different state’s timetable.
+
+**Cooling and buildings:** **Note:** Check actual state/local notifications, building ownership and retrofit permissions before specifying compliance.
+
+**Money for protection:** **Local allocations or releases verified:** false **Note:** Screen eligible project costs separately from staffing, electricity and upkeep; budget route is not a grant offer.
+
+**Country code:** IN
+
+**State or ut:** National Capital Territory of Delhi
+
+**Selection basis:** Official UT heat plan and national district-risk evidence.
+
+**Responsible actor ids:**
+- ddma
+
+**Proposed collaboration:** **Interpretation:** Pilot an action-owner-budget register across one district and worker setting.
+
+**Evidence gaps:**
+- Current department compliance and service reach not independently verified.
+- No common national municipality-level exposure ranking verified.
+
+**Evidence:**
+- Official guidance or data City-specific source supports the narrower description recorded; implementation not assumed. [Delhi Heat Action Plan 2025 ](https://ddma.delhi.gov.in/sites/default/files/ddma/generic_multiple_files/hap_delhi_21.4.25_3.pdf)
+- Official guidance or data City-specific source supports the narrower description recorded; implementation not assumed. [DDMA plan register ](https://ddma.delhi.gov.in/ddma/ddma-plan-home)
+- Measured in a study City-specific source supports the narrower description recorded; implementation not assumed. [CEEW: How Extreme Heat Is Impacting India ](https://www.ceew.in/publications/mapping-climate-risks-and-impacts-of-extreme-heatwave-disaster-in-indian-districts)
+
+### Nagpur
+
+**Heat context:** **Description:** Hot inland summer setting; seasonal transition matters for cooling design. **Night heat:** Include overnight indoor and outdoor measurements in local assessment; no comparable current city-wide indoor/night exposure series verified here. **Trend note:** Use national/district and local-plan evidence at its stated scale; no comparable current municipal time-series trend estimate is reproduced here. **Climate description basis:** Broad contextual description, not a formal climate-zone classification; seasonal conditions need local validation.
+
+**Plans:** **Verified description:** 2021 city climate plan describes 2019 heat actions; no current signed 2026 municipal HAP retrieved. **Legal status:** Administrative/policy or state health planning instrument as described; plan publication is not proof every action is legally enforceable. **Implementation verified:** false
+
+**Warning system:** **Source:** IMD plus state/district/municipal dissemination arrangements **Last mile reach:** Not verified; test radio, local-language announcements, worker groups and door-to-door routes as proposed design, not existing universal coverage.
+
+**Rules for heat at work:** **Local order verified:** false **Note:** Obtain current state/sector orders, jurisdiction and wage/rest terms; do not import a different state’s timetable.
+
+**Cooling and buildings:** **Note:** Check actual state/local notifications, building ownership and retrofit permissions before specifying compliance.
+
+**Money for protection:** **Local allocations or releases verified:** false **Note:** Screen eligible project costs separately from staffing, electricity and upkeep; budget route is not a grant offer.
+
+**Country code:** IN
+
+**State or ut:** Maharashtra
+
+**Selection basis:** City climate plan documents heat stress and historical HAP activities.
+
+**Responsible actor ids:**
+- nmc
+- iclei
+
+**Proposed collaboration:** **Interpretation:** Update shelter/water inventory and add operating/maintenance duties before the next hot season.
+
+**Evidence gaps:**
+- Historical counts cannot be reused as a current service directory.
+- No common national municipality-level exposure ranking verified.
+
+**Evidence:**
+- Official guidance or data City-specific source supports the narrower description recorded; implementation not assumed. [Climate Resilient City Action Plan: Nagpur ](https://www.mahascac.in/uploads/reports/ClimateResilientCityActionPlanNagpur.pdf)
+
+### Hyderabad
+
+**Heat context:** **Description:** Hot inland Deccan setting; dry-season conditions cannot safely be assumed year-round. **Night heat:** Include overnight indoor and outdoor measurements in local assessment; no comparable current city-wide indoor/night exposure series verified here. **Trend note:** Use national/district and local-plan evidence at its stated scale; no comparable current municipal time-series trend estimate is reproduced here. **Climate description basis:** Broad contextual description, not a formal climate-zone classification; seasonal conditions need local validation.
+
+**Plans:** **Verified description:** State cool-roof policy 2023–2028 verified; current city HAP not retrieved. **Legal status:** Administrative/policy or state health planning instrument as described; plan publication is not proof every action is legally enforceable. **Implementation verified:** false
+
+**Warning system:** **Source:** IMD plus state/district/municipal dissemination arrangements **Last mile reach:** Not verified; test radio, local-language announcements, worker groups and door-to-door routes as proposed design, not existing universal coverage.
+
+**Rules for heat at work:** **Local order verified:** false **Note:** Obtain current state/sector orders, jurisdiction and wage/rest terms; do not import a different state’s timetable.
+
+**Cooling and buildings:** **Note:** Check actual state/local notifications, building ownership and retrofit permissions before specifying compliance.
+
+**Money for protection:** **Local allocations or releases verified:** false **Note:** Screen eligible project costs separately from staffing, electricity and upkeep; budget route is not a grant offer.
+
+**Country code:** IN
+
+**State or ut:** Telangana
+
+**Selection basis:** Official cool-roof policy describes Hyderabad pilot activity.
+
+**Responsible actor ids:**
+- ghmc
+- maud
+
+**Proposed collaboration:** **Interpretation:** Design a tenant-inclusive roof retrofit with measured indoor results and a recoating budget.
+
+**Evidence gaps:**
+- Exact current mandatory scope, installation quality and achieved coverage need checking.
+- No common national municipality-level exposure ranking verified.
+
+**Evidence:**
+- Official guidance or data City-specific source supports the narrower description recorded; implementation not assumed. [Telangana Cool Roof Policy 2023–2028 ](https://telangana.gov.in/wp-content/uploads/2023/05/Telangana-Cool-Roof-Policy-2023-2028.pdf)
+- Measured in a study City-specific source supports the narrower description recorded; implementation not assumed. [CEEW: How Extreme Heat Is Impacting India ](https://www.ceew.in/publications/mapping-climate-risks-and-impacts-of-extreme-heatwave-disaster-in-indian-districts)
+
+### Chennai
+
+**Heat context:** **Description:** Humid coastal heat: local plan examines heat, humidity and urban form. **Night heat:** Include overnight indoor and outdoor measurements in local assessment; no comparable current city-wide indoor/night exposure series verified here. **Trend note:** Use national/district and local-plan evidence at its stated scale; no comparable current municipal time-series trend estimate is reproduced here. **Climate description basis:** Broad contextual description, not a formal climate-zone classification; seasonal conditions need local validation.
+
+**Plans:** **Verified description:** Chennai HAP 2025 and Tamil Nadu State HAP 2026 verified; GCC action geography cannot fairly be conflated with the entire metropolitan region. **Legal status:** Administrative/policy or state health planning instrument as described; plan publication is not proof every action is legally enforceable. **Implementation verified:** false
+
+**Warning system:** **Source:** IMD plus state/district/municipal dissemination arrangements **Last mile reach:** Not verified; test radio, local-language announcements, worker groups and door-to-door routes as proposed design, not existing universal coverage.
+
+**Rules for heat at work:** **Local order verified:** false **Note:** Obtain current state/sector orders, jurisdiction and wage/rest terms; do not import a different state’s timetable.
+
+**Cooling and buildings:** **Note:** Check actual state/local notifications, building ownership and retrofit permissions before specifying compliance.
+
+**Money for protection:** **Local allocations or releases verified:** false **Note:** Screen eligible project costs separately from staffing, electricity and upkeep; budget route is not a grant offer.
+
+**Country code:** IN
+
+**State or ut:** Tamil Nadu
+
+**Selection basis:** 2025 city plan has ward-risk analysis and sits within 2026 state framework.
+
+**Responsible actor ids:**
+- gcc
+- tnsdma
+- ceew
+
+**Proposed collaboration:** **Interpretation:** Connect ward risk to clinics, home-based workers, school readiness and explicit owners/payments.
+
+**Evidence gaps:**
+- Indicative financing is not a sanctioned city heat budget.
+- No common national municipality-level exposure ranking verified.
+
+**Evidence:**
+- Official guidance or data City-specific source supports the narrower description recorded; implementation not assumed. [Chennai City Heat Action Plan 2025 ](https://beta-tnsmart.rimes.int/assets/ActionPlan_District/HAP_dist_pdfs/Updated_HAP_Chennai.pdf)
+- Official guidance or data City-specific source supports the narrower description recorded; implementation not assumed. [Tamil Nadu State Heat Action Plan 2026 ](https://beta-tnsmart.rimes.int/assets/ActionPlan_District/TN_State_Heat_Action_Plan_2026_09june.pdf)
+
+### Mumbai
+
+**Heat context:** **Description:** Humid coastal setting with heat retained in dense built areas. **Night heat:** Include overnight indoor and outdoor measurements in local assessment; no comparable current city-wide indoor/night exposure series verified here. **Trend note:** Use national/district and local-plan evidence at its stated scale; no comparable current municipal time-series trend estimate is reproduced here. **Climate description basis:** Broad contextual description, not a formal climate-zone classification; seasonal conditions need local validation.
+
+**Plans:** **Verified description:** BMC heat-risk pathway and climate-budgeting note verified; stand-alone current municipal HAP not retrieved. **Legal status:** Administrative/policy or state health planning instrument as described; plan publication is not proof every action is legally enforceable. **Implementation verified:** false
+
+**Warning system:** **Source:** IMD plus state/district/municipal dissemination arrangements **Last mile reach:** Not verified; test radio, local-language announcements, worker groups and door-to-door routes as proposed design, not existing universal coverage.
+
+**Rules for heat at work:** **Local order verified:** false **Note:** Obtain current state/sector orders, jurisdiction and wage/rest terms; do not import a different state’s timetable.
+
+**Cooling and buildings:** **Note:** Check actual state/local notifications, building ownership and retrofit permissions before specifying compliance.
+
+**Money for protection:** **Local allocations or releases verified:** false **Note:** Screen eligible project costs separately from staffing, electricity and upkeep; budget route is not a grant offer.
+
+**Country code:** IN
+
+**State or ut:** Maharashtra
+
+**Selection basis:** BMC building heat-risk analysis and climate-budget work.
+
+**Responsible actor ids:**
+- bmc
+- c40
+- wri
+
+**Proposed collaboration:** **Interpretation:** Turn one hotspot’s building proposals into a costed, maintainable public/low-income retrofit package.
+
+**Evidence gaps:**
+- Surface heat does not establish indoor exposure or clinical benefit; climate-tagged budgets need component-level checking.
+- No common national municipality-level exposure ranking verified.
+
+**Evidence:**
+- Measured in a study City-specific source supports the narrower description recorded; implementation not assumed. [Mumbai building-sector heat-risk implementation pathways: summary ](https://portal.mcgm.gov.in/irj/go/km/docs/documents/Environment/Climate/Mumbai%20Heat%20Risk-%20Summary.pdf)
+- Official guidance or data City-specific source supports the narrower description recorded; implementation not assumed. [BMC Environment and Climate Change portal ](https://portal.mcgm.gov.in/irj/portal/anonymous/qlenvironment)
+- Reported, not evaluated City-specific source supports the narrower description recorded; implementation not assumed. [BMC climate budgeting note ](https://portal.mcgm.gov.in/irj/go/km/docs/documents/Environment/Climate/Climate%20budgeting.pdf)
+
+### Kolkata
+
+**Heat context:** **Description:** Humid urban heat; state health plan discusses Kolkata’s urban heat island. **Night heat:** Include overnight indoor and outdoor measurements in local assessment; no comparable current city-wide indoor/night exposure series verified here. **Trend note:** Use national/district and local-plan evidence at its stated scale; no comparable current municipal time-series trend estimate is reproduced here. **Climate description basis:** Broad contextual description, not a formal climate-zone classification; seasonal conditions need local validation.
+
+**Plans:** **Verified description:** West Bengal climate-health plan verified; separate current Kolkata municipal HAP not verified. **Legal status:** Administrative/policy or state health planning instrument as described; plan publication is not proof every action is legally enforceable. **Implementation verified:** false
+
+**Warning system:** **Source:** IMD plus state/district/municipal dissemination arrangements **Last mile reach:** Not verified; test radio, local-language announcements, worker groups and door-to-door routes as proposed design, not existing universal coverage.
+
+**Rules for heat at work:** **Local order verified:** false **Note:** Obtain current state/sector orders, jurisdiction and wage/rest terms; do not import a different state’s timetable.
+
+**Cooling and buildings:** **Note:** Check actual state/local notifications, building ownership and retrofit permissions before specifying compliance.
+
+**Money for protection:** **Local allocations or releases verified:** false **Note:** Screen eligible project costs separately from staffing, electricity and upkeep; budget route is not a grant offer.
+
+**Country code:** IN
+
+**State or ut:** West Bengal
+
+**Selection basis:** Heat chapter specifically discusses Kolkata; not a national exposure rank.
+
+**Responsible actor ids:**
+- wbhealth
+
+**Proposed collaboration:** **Interpretation:** Explore a health-led ward partnership addressing humid/night heat and people isolated at home.
+
+**Evidence gaps:**
+- Current city lead, funded action plan and household reach need confirmation.
+- No common national municipality-level exposure ranking verified.
+
+**Evidence:**
+- Official guidance or data City-specific source supports the narrower description recorded; implementation not assumed. [West Bengal State Action Plan on Climate Change and Human Health ](https://ncdc.mohfw.gov.in/uploads/pdf/state32.pdf)
+
+### Bhubaneswar
+
+**Heat context:** **Description:** Hot eastern city; humid conditions and seasonal transitions would ideally enter local assessment. **Night heat:** Include overnight indoor and outdoor measurements in local assessment; no comparable current city-wide indoor/night exposure series verified here. **Trend note:** Use national/district and local-plan evidence at its stated scale; no comparable current municipal time-series trend estimate is reproduced here. **Climate description basis:** Broad contextual description, not a formal climate-zone classification; seasonal conditions need local validation.
+
+**Plans:** **Verified description:** Odisha 2022–2027 climate-health plan verified; current separate city HAP not retrieved. **Legal status:** Administrative/policy or state health planning instrument as described; plan publication is not proof every action is legally enforceable. **Implementation verified:** false
+
+**Warning system:** **Source:** IMD plus state/district/municipal dissemination arrangements **Last mile reach:** Not verified; test radio, local-language announcements, worker groups and door-to-door routes as proposed design, not existing universal coverage.
+
+**Rules for heat at work:** **Local order verified:** false **Note:** Obtain current state/sector orders, jurisdiction and wage/rest terms; do not import a different state’s timetable.
+
+**Cooling and buildings:** **Note:** Check actual state/local notifications, building ownership and retrofit permissions before specifying compliance.
+
+**Money for protection:** **Local allocations or releases verified:** false **Note:** Screen eligible project costs separately from staffing, electricity and upkeep; budget route is not a grant offer.
+
+**Country code:** IN
+
+**State or ut:** Odisha
+
+**Selection basis:** Listed among heat-prone places in Odisha’s state climate-health plan.
+
+**Responsible actor ids:**
+- odhealth
+- osdma
+- iiphb
+
+**Proposed collaboration:** **Interpretation:** Link facility readiness and local heat alerts with labour/community feedback in a defined ward.
+
+**Evidence gaps:**
+- Current municipal roles, labour circulars and implementation expenditures need local verification.
+- No common national municipality-level exposure ranking verified.
+
+**Evidence:**
+- Official guidance or data City-specific source supports the narrower description recorded; implementation not assumed. [Odisha State Action Plan on Climate Change and Human Health ](https://ncdc.mohfw.gov.in/uploads/pdf/state22.pdf)
+- Measured in a study City-specific source supports the narrower description recorded; implementation not assumed. [CEEW: How Extreme Heat Is Impacting India ](https://www.ceew.in/publications/mapping-climate-risks-and-impacts-of-extreme-heatwave-disaster-in-indian-districts)
+
+## Programmes
+
+- **Summer 2026 heat-health preparedness and IHIP reporting** **Costs:** **Note:** Not verified: comparable intervention lifecycle costs and dated FX. a blank is not zero. No generic national price used. **Countries:**
+- IN
+
+Official guidance or data Preparedness and daily heatstroke/death/emergency-attendance reporting instructions. [NCDC advisory for State Health Departments, summer 2026 ](https://ncdc.mohfw.gov.in/uploads/pdf/1.%20Heat%20wave%20advisory%20for%20State%20Health%20department_2026.pdf) **Operational phase:** issued advisory **Limitations:** Reporting instruction does not demonstrate complete ascertainment or delivery.
+- **IMD heat-wave warning guidance** **Costs:** **Note:** Not verified: comparable intervention lifecycle costs and dated FX. a blank is not zero. No generic national price used. **Countries:**
+- IN
+
+Official guidance or data Meteorological heat-wave guidance supports public response planning. [IMD heat-wave FAQ ](https://mausam.imd.gov.in/pdfs/heatcolduser/FAQ_heat_wave.pdf) **Operational phase:** official definitions/guidance **Limitations:** Not a universal occupational limit, indoor exposure measure or automatic payout.
+- **OSH Central Rules 2026: applicable thermal working conditions** **Costs:** **Note:** Not verified: comparable intervention lifecycle costs and dated FX. a blank is not zero. No generic national price used. **Countries:**
+- IN
+
+Official guidance or data Sector-specific ventilation/temperature and heat controls appear in notified Central Rules. [Occupational Safety, Health and Working Conditions (Central) Rules 2026 ](https://www.labour.gov.in/static/uploads/2026/05/ee246f790cad0b8e99c3828f34fa09a6.pdf) **Operational phase:** notified rules **Limitations:** Check appropriate government, establishment/sector coverage and state rules; paid leave or universal WBGT ceiling not inferred.
+- **SDRF/NDRF heatwave recognition in 2026–31 guidelines** **Costs:** **Note:** Not verified: comparable intervention lifecycle costs and dated FX. a blank is not zero. No generic national price used. **Countries:**
+- IN
+
+Official guidance or data Rendered response guidelines list heatwave among notified disasters. [MHA policy and guidelines register ](https://www.mha.gov.in/index.php/policies-guidelines) · [MHA SDRF/NDRF operational guidelines, 2026–31 ](https://www.mha.gov.in/files/policies_guidelines_document/OperationalGuidelinesforAdministrationoftheSDRFandNDRFbasedontherecommendationsofSixteenthFinanceCommission2026-27to2030-31.pdf) **Operational phase:** 2026–31 guidelines listed/issued **Limitations:** Verify authoritative copy, assistance category and current norms; no automatic compensation, NGO access or release inferred.
+- **SDMF/NDMF heat mitigation route** **Costs:** **Note:** Not verified: comparable intervention lifecycle costs and dated FX. a blank is not zero. No generic national price used. **Countries:**
+- IN
+
+Official guidance or data SDMF section 7.1 includes heatwave mitigation; state-led risk assessment and planning route. [MHA SDMF/NDMF operational guidelines, 2026–31 ](https://www.mha.gov.in/files/policies_guidelines_document/OperationalGuidelinesforAdministrationoftheStateDisasterMitigationFundandNationalDisasterMitigationFundbasedontherecommendationsofSixteenthFinanceCommission2026-27to2030-31.pdf) **Operational phase:** 2026–31 guidelines **Limitations:** Eligibility is not sanction or disbursement; routine operating costs and each project component require screening.
+- **India Cooling Action Plan and sector workstreams** **Costs:** **Note:** Not verified: comparable intervention lifecycle costs and dated FX. a blank is not zero. No generic national price used. **Countries:**
+- IN
+
+Official guidance or data Official ICAP index includes space cooling, cold chains, servicing and low-GWP research. [Ozone Cell: India Cooling Action Plan and implementation reports ](https://ozonecell.nic.in/home-page/india-cooling-action-plan/) **Operational phase:** national policy/implementation resources **Limitations:** Plan recommendations are not statutory universal entitlements or measured deployment.
+- **ENS/ECSBC and climate-specific retrofit resources** **Costs:** **Note:** Not verified: comparable intervention lifecycle costs and dated FX. a blank is not zero. No generic national price used. **Countries:**
+- IN
+
+Official guidance or data BEE catalogue lists 2024 codes and retrofit guidance. [BEE reports and studies: ENS/ECSBC 2024 and retrofit resources ](https://www.beeindia.gov.in/show_content.php?lang=1&level=1&lid=436&ls_id=359) **Operational phase:** published national resources **Limitations:** Current state/local notification and full code requirements not audited; energy compliance alone does not prove safe indoor conditions.
+- **Delhi Heat Action Plan 2025** **Costs:** **Note:** Not verified: comparable intervention lifecycle costs and dated FX. a blank is not zero. No generic national price used. **Countries:**
+- IN
+
+Official guidance or data Cross-department planning, preparedness, response and district implementation template. [Delhi Heat Action Plan 2025 ](https://ddma.delhi.gov.in/sites/default/files/ddma/generic_multiple_files/hap_delhi_21.4.25_3.pdf) · [DDMA plan register ](https://ddma.delhi.gov.in/ddma/ddma-plan-home) **Operational phase:** published plan **Limitations:** Publication does not verify funds, implementation or coverage of informal workers.
+- **Tamil Nadu State Heat Action Plan 2026** **Costs:** **Note:** Not verified: comparable intervention lifecycle costs and dated FX. a blank is not zero. No generic national price used. **Countries:**
+- IN
+
+Official guidance or data State heat-risk, response, institutional and financing framework. [Tamil Nadu State Heat Action Plan 2026 ](https://beta-tnsmart.rimes.int/assets/ActionPlan_District/TN_State_Heat_Action_Plan_2026_09june.pdf) **Operational phase:** published plan **Limitations:** Some embedded funding descriptions predate July 2026 national guidance; budgets/releases unverified.
+- **Chennai City Heat Action Plan 2025** **Costs:** **Note:** Not verified: comparable intervention lifecycle costs and dated FX. a blank is not zero. No generic national price used. **Countries:**
+- IN
+
+Official guidance or data Ward risk analysis, action responsibilities, commissioner-led task force and indicative financing. [Chennai City Heat Action Plan 2025 ](https://beta-tnsmart.rimes.int/assets/ActionPlan_District/HAP_dist_pdfs/Updated_HAP_Chennai.pdf) **Operational phase:** published city plan **Limitations:** Mapped/modelled risk is not observed ward health outcome; indicative funding sources are subject to eligibility and approval.
+- **Telangana Cool Roof Policy 2023–2028** **Costs:** **Note:** Not verified: comparable intervention lifecycle costs and dated FX. a blank is not zero. No generic national price used. **Countries:**
+- IN
+
+Official guidance or data Policy builds on a government-described Hyderabad pilot and sets an adoption framework. [Telangana Cool Roof Policy 2023–2028 ](https://telangana.gov.in/wp-content/uploads/2023/05/Telangana-Cool-Roof-Policy-2023-2028.pdf) **Operational phase:** policy period 2023–2028 **Limitations:** Pilot description is reported, not independent efficacy evaluation. Coverage, exact current mandate, tenants and coating maintenance need verification.
+- **Nagpur historical HAP activities within city climate plan** **Costs:** **Note:** Not verified: comparable intervention lifecycle costs and dated FX. a blank is not zero. No generic national price used. **Countries:**
+- IN
+
+Reported, not evaluated City plan records shelters, drinking water, outreach and coordination activities. [Climate Resilient City Action Plan: Nagpur ](https://www.mahascac.in/uploads/reports/ClimateResilientCityActionPlanNagpur.pdf) **Operational phase:** 2019 activity account published 2021 **Limitations:** Historical account; current location, opening hours, accessibility, water quality and maintenance not verified.
+- **Mumbai building heat-risk assessment and implementation pathways** **Costs:** **Note:** Not verified: comparable intervention lifecycle costs and dated FX. a blank is not zero. No generic national price used. **Countries:**
+- IN
+
+Measured in a study Heat hotspot analysis informs proposed building retrofit and institutional actions. [Mumbai building-sector heat-risk implementation pathways: summary ](https://portal.mcgm.gov.in/irj/go/km/docs/documents/Environment/Climate/Mumbai%20Heat%20Risk-%20Summary.pdf) **Operational phase:** assessment plus proposed pathways **Limitations:** Surface-temperature mapping and weather data do not directly measure personal/indoor exposure; no completed retrofit outcome established.
+- **Mumbai climate budgeting** **Costs:** **Note:** Not verified: comparable intervention lifecycle costs and dated FX. a blank is not zero. No generic national price used. **Countries:**
+- IN
+
+Reported, not evaluated BMC describes C40 pilot/WRI India technical support for climate-budget integration. [BMC climate budgeting note ](https://portal.mcgm.gov.in/irj/go/km/docs/documents/Environment/Climate/Climate%20budgeting.pdf) **Operational phase:** official description of budget integration **Limitations:** Climate tagging is not a ring-fenced heat allocation or proof of additional money/release.
+- **Odisha climate-health plan: heat chapter** **Costs:** **Note:** Not verified: comparable intervention lifecycle costs and dated FX. a blank is not zero. No generic national price used. **Countries:**
+- IN
+
+Official guidance or data Heat preparedness, workforce training, surveillance and district/clinical roles. [Odisha State Action Plan on Climate Change and Human Health ](https://ncdc.mohfw.gov.in/uploads/pdf/state22.pdf) **Operational phase:** 2022–2027 planning period **Limitations:** State framework, not evidence of a current stand-alone Bhubaneswar HAP or full delivery.
+- **West Bengal climate-health plan: heat chapter** **Costs:** **Note:** Not verified: comparable intervention lifecycle costs and dated FX. a blank is not zero. No generic national price used. **Countries:**
+- IN
+
+Official guidance or data Plan discusses Kolkata urban heat and heat-health response. [West Bengal State Action Plan on Climate Change and Human Health ](https://ncdc.mohfw.gov.in/uploads/pdf/state32.pdf) **Operational phase:** 2022–2027 planning period **Limitations:** State climate-health budgets include multiple hazards; no Kolkata-specific heat allocation or release established.
+- **Ahmedabad HAP observational mortality analysis** **Costs:** **Note:** Not verified: comparable intervention lifecycle costs and dated FX. a blank is not zero. No generic national price used. **Countries:**
+- IN
+
+Measured in a study Pre/post mortality analysis of 2014–2015 versus 2007–2010. [Hess et al.: Ahmedabad HAP mortality analysis ](https://pubmed.ncbi.nlm.nih.gov/30515228/) **Operational phase:** 2018 retrospective research **Limitations:** Ecological association with modelled counterfactual; implementing institutions are co-authors; not an independent causal evaluation.
+- **Ahmedabad informal women workers and housing adaptations study** **Costs:** **Note:** Not verified: comparable intervention lifecycle costs and dated FX. a blank is not zero. No generic national price used. **Countries:**
+- IN
+
+Measured in a study Small study examines heat, income and adaptations among women in Bapalaal Kadiyani Chaali. [Hot Take: Cool Roofs - Ahmedabad women workers ](https://www.mahilahousingtrust.org/wp-content/uploads/2024/04/Hot-Take-Cool-Roof-Research-Study-Report-2024.pdf) **Operational phase:** 2024 publication; 2022 income recall **Limitations:** Qualitative/recall and correlational evidence; no independently instrumented cooling effect or causal income gain established.
+- **NPCCHH district PIP planning for climate-resilient facilities** **Costs:** **Note:** Not verified: comparable intervention lifecycle costs and dated FX. a blank is not zero. No generic national price used. **Countries:**
+- IN
+
+Official guidance or data District/state health route for cost estimates and eligible facility resilience proposals. [NPCCHH district PIP guidance, FY2026–27 and FY2027–28 ](https://ncdc.mohfw.gov.in/uploads/pdf/1-NPCCHH-PIP%20Guidance%20document%202026-27%20%202027-28.pdf) **Operational phase:** FY2026–27 / FY2027–28 guidance **Limitations:** Approval, allocation, release and expenditure require separate verification; not an open NGO grant.
+- **Gurugram commercial cooling-as-a-service transaction** **Costs:** **Note:** Not verified: comparable intervention lifecycle costs and dated FX. a blank is not zero. No generic national price used. **Countries:**
+- IN
+
+Reported, not evaluated Tabreed announced acquisition/expansion of existing cooling infrastructure with Tata Realty. [Tabreed: India district-cooling transaction with Tata Realty ](https://www.tabreed.ae/news/tabreed-enters-its-first-district-cooling-transaction-india-through-strategic-alliance-tata) **Operational phase:** 2023 company transaction announcement **Limitations:** Commercial campus example, not universal district-cooling suitability or measured savings; current commissioning, tariff, water/refrigerant and outage performance not audited.
+- **SEWA-associated women workers: ICICI Lombard Heat Index Cover** **Costs:** **Note:** Not verified: comparable intervention lifecycle costs and dated FX. a blank is not zero. No generic national price used. **Countries:**
+- IN
+
+Reported, not evaluated Insurer reports parametric heat-income cover in Gujarat, Rajasthan and Maharashtra. [ICICI Lombard ESG report FY2025: Heat Index Cover case study ](https://www.icicilombard.com/docs/default-source/esg/icici-lombard-esg-report-fy2025.pdf) **Operational phase:** FY2025 insurer account; historical cover period **Limitations:** Full contract/trigger grids, premium support, exclusions, basis risk and current enrolment not verified. Insurance claim counts are not evidence of avoided illness or adequate income replacement.
+
+## Who is working on it
+
+Listing does not imply partnership, endorsement or ranking.
+
+- **[Ministry of Home Affairs - Disaster Management Division ](https://www.mha.gov.in/index.php/policies-guidelines)** Issues national disaster response/mitigation funding guidelines.
+- **[National Disaster Management Authority ](https://beta-tnsmart.rimes.int/assets/ActionPlan_District/TN_State_Heat_Action_Plan_2026_09june.pdf)** National heat guidance is referenced in current state and city planning.
+- **[India Meteorological Department ](https://mausam.imd.gov.in/pdfs/heatcolduser/FAQ_heat_wave.pdf)** Defines and communicates heat-wave meteorological guidance.
+- **[NCDC - Centre for Climate Change and Health / NPCCHH ](https://ncdc.mohfw.gov.in/uploads/pdf/1.%20Heat%20wave%20advisory%20for%20State%20Health%20department_2026.pdf)** Provides heat-health preparedness, surveillance and district planning guidance.
+- **[Ministry of Labour and Employment ](https://www.labour.gov.in/static/uploads/2026/05/ee246f790cad0b8e99c3828f34fa09a6.pdf)** Notified OSH Central Rules 2026 with sector-specific temperature and heat controls.
+- **[MoEFCC Ozone Cell ](https://ozonecell.nic.in/home-page/india-cooling-action-plan/)** Hosts ICAP and its sector implementation recommendations.
+- **[Bureau of Energy Efficiency ](https://www.beeindia.gov.in/show_content.php?lang=1&level=1&lid=436&ls_id=359)** Publishes cooling, retrofit and building-code resources.
+- **[Ahmedabad Municipal Corporation ](https://pubmed.ncbi.nlm.nih.gov/30515228/)** Co-developed the Ahmedabad HAP and associated heat response.
+- **[Indian Institute of Public Health Gandhinagar ](https://pubmed.ncbi.nlm.nih.gov/30515228/)** Research and implementation partner in Ahmedabad heat-health action.
+- **[Natural Resources Defense Council - India heat work ](https://pubmed.ncbi.nlm.nih.gov/30515228/)** Documented Ahmedabad heat-action partner.
+- **[Council on Energy, Environment and Water ](https://www.ceew.in/publications/mapping-climate-risks-and-impacts-of-extreme-heatwave-disaster-in-indian-districts)** Maps district heat risks and prepared Chennai heat-risk analysis with TNDRRA.
+- **[Delhi Disaster Management Authority ](https://ddma.delhi.gov.in/sites/default/files/ddma/generic_multiple_files/hap_delhi_21.4.25_3.pdf)** Publishes the Delhi HAP and assigns cross-department responsibilities.
+- **[Tamil Nadu State Disaster Management Authority / TNDRRA ](https://beta-tnsmart.rimes.int/assets/ActionPlan_District/TN_State_Heat_Action_Plan_2026_09june.pdf)** Leads state and city heat planning.
+- **[Greater Chennai Corporation ](https://beta-tnsmart.rimes.int/assets/ActionPlan_District/HAP_dist_pdfs/Updated_HAP_Chennai.pdf)** Chennai HAP assigns municipal implementation and coordination roles.
+- **[Regional Integrated Multi-Hazard Early Warning System - TN-SMART interface ](https://beta-tnsmart.rimes.int/index.php/Action_plan/HeatWave)** Hosts the reviewed TN-SMART heat-plan catalogue.
+- **[Telangana Municipal Administration and Urban Development Department ](https://telangana.gov.in/wp-content/uploads/2023/05/Telangana-Cool-Roof-Policy-2023-2028.pdf)** Government policy describes its Hyderabad cool-roof pilot role.
+- **[Greater Hyderabad Municipal Corporation ](https://telangana.gov.in/wp-content/uploads/2023/05/Telangana-Cool-Roof-Policy-2023-2028.pdf)** Named in the official cool-roof policy pilot account.
+- **[Nagpur Municipal Corporation ](https://www.mahascac.in/uploads/reports/ClimateResilientCityActionPlanNagpur.pdf)** City climate plan documents historical heat preparedness and shelters/water activities.
+- **[ICLEI South Asia ](https://www.mahascac.in/uploads/reports/ClimateResilientCityActionPlanNagpur.pdf)** Prepared Nagpur climate-resilient city action plan under Urban LEDS II.
+- **[UN-Habitat - Urban LEDS II ](https://www.mahascac.in/uploads/reports/ClimateResilientCityActionPlanNagpur.pdf)** Named supporting programme partner for Nagpur city planning.
+- **[European Commission - Urban LEDS II support ](https://www.mahascac.in/uploads/reports/ClimateResilientCityActionPlanNagpur.pdf)** Named funder of the project that produced the Nagpur plan.
+- **[Brihanmumbai Municipal Corporation - Environment and Climate Change Department ](https://portal.mcgm.gov.in/irj/go/km/docs/documents/Environment/Climate/Mumbai%20Heat%20Risk-%20Summary.pdf)** Hosts building heat-risk pathway and climate-budgeting work.
+- **[C40 Cities - Mumbai climate-budget support ](https://portal.mcgm.gov.in/irj/go/km/docs/documents/Environment/Climate/Climate%20budgeting.pdf)** Named in BMC climate-budgeting pilot account.
+- **[WRI India - Mumbai climate-budget support ](https://portal.mcgm.gov.in/irj/go/km/docs/documents/Environment/Climate/Climate%20budgeting.pdf)** Named technical-support organisation in BMC climate-budgeting note.
+- **[Odisha Health and Family Welfare / NPCCHH state team ](https://ncdc.mohfw.gov.in/uploads/pdf/state22.pdf)** State climate-health plan contains heat preparedness and surveillance roles.
+- **[Odisha State Disaster Management Authority ](https://ncdc.mohfw.gov.in/uploads/pdf/state22.pdf)** Named in preparation of Odisha climate-health plan.
+- **[Indian Institute of Public Health Bhubaneswar ](https://ncdc.mohfw.gov.in/uploads/pdf/state22.pdf)** Named technical support in Odisha climate-health plan.
+- **[West Bengal Health and Family Welfare / NPCCHH state team ](https://ncdc.mohfw.gov.in/uploads/pdf/state32.pdf)** State plan discusses Kolkata heat and heat-health action.
+- **[Mahila Housing Trust ](https://www.mahilahousingtrust.org/wp-content/uploads/2024/04/Hot-Take-Cool-Roof-Research-Study-Report-2024.pdf)** Documents informal women workers, housing and heat adaptations in Ahmedabad.
+- **[Sustainable Futures Collaborative ](https://www.sustainablefutures.org/publication/is-india-ready-for-a-warming-world-how-heat-resilience-measures-are-being-implemented-for-11-of-indias-urban-population-in-some-of-its-most-at-risk-cities/)** Studies heat-action implementation and institutional constraints across Indian cities.
+- **[Centre for Policy Research - 2023 HAP assessment ](https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/)** Published a historical review of heat action plan design.
+- **[National Central Cooling Company PJSC - Tabreed ](https://www.tabreed.ae/news/tabreed-enters-its-first-district-cooling-transaction-india-through-strategic-alliance-tata)** Announced commercial cooling-as-a-service transaction at Gurugram Intellion Park.
+- **[Tata Realty and Infrastructure Limited ](https://www.tabreed.ae/news/tabreed-enters-its-first-district-cooling-transaction-india-through-strategic-alliance-tata)** Named commercial real-estate counterparty in Tabreed’s Gurugram announcement.
+- **[ICICI Lombard General Insurance Company Limited ](https://www.icicilombard.com/docs/default-source/esg/icici-lombard-esg-report-fy2025.pdf)** Reports Heat Index Cover for SEWA-associated women workers in three Indian states.
+- **[Self-Employed Women’s Association - SEWA ](https://www.icicilombard.com/docs/default-source/esg/icici-lombard-esg-report-fy2025.pdf)** Named worker-organisation collaborator in insurer’s Heat Index Cover case study.
+
+Other snapshots: [Bangladesh](https://beattheheat.asia/countries/bangladesh/) · [Indonesia](https://beattheheat.asia/countries/indonesia/) · [Nepal](https://beattheheat.asia/countries/nepal/) · [Philippines](https://beattheheat.asia/countries/philippines/) · [Sri Lanka](https://beattheheat.asia/countries/sri-lanka/) · [Thailand](https://beattheheat.asia/countries/thailand/) · [Solutions library](https://beattheheat.asia/solutions/)
+
+---
+Human edition: https://beattheheat.asia/countries/india/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

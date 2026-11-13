@@ -1,0 +1,620 @@
+Common Shade evidence pack: Philippines
+Country · https://beattheheat.asia/countries/philippines/ · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- What does extreme heat already do to people in Philippines, according to this pack, and how sure is each point?
+- Which plans, warnings and rules for heat exist in Philippines, and which have been evaluated?
+- Who could act on heat in Philippines, and who could pay?
+- What does this pack say is still unknown or unmeasured in Philippines?
+- If I work in one city in Philippines, which parts of this pack apply, and what would I still need to find out locally?
+- Which sources would I read first to check the strongest claim here?
+
+CONTENT
+
+> Extreme heat in Philippines: plans, warnings, rules at work, cooling, money for protection, cities, programmes and who is working on it.
+
+Country snapshot
+
+# Philippines
+
+Heat, the plans and rules that shape protection, the organisations at work, and where a shared effort could help. Researched in October 2026.
+
+**Watch: The Philippines and heat** · 0:40 · narrated, captions in the picture
+
+**How to read this.** Facts link to their sources; anything marked proposed or inferred is the researchers’ suggestion, not a commitment by anyone named. Gaps are gaps in what we found, not faults.
+
+## Heat context
+
+**Climate:** Predominantly tropical maritime and humid. A hot dry rainfall season is not equivalent to a low-humidity hot-dry climate. Conditions vary by location and season. **Seasonality:** PAGASA identifies a generally hot dry season in March–May; this is not a guarantee of safe temperatures in other months. **Night heat:** The National Adaptation Plan describes rising maximum and minimum temperatures, with minimum temperatures rising faster over the period discussed. Indoor night exposure is not measured by satellite surface temperature or a daytime station heat index. **Trend scope:** NAP climate discussion uses historical records, including 1951–2020 anomalies relative to 1991–2020; no historical trend is labelled a 2026 local measurement. **Evidence:**
+- Official guidance or data **Kind:** measured PAGASA describes high humidity and the broad seasonal pattern. **Source:** [PAGASA climate of the Philippines ](https://www.pagasa.dost.gov.ph/information/climate-philippines)
+- Official guidance or data **Kind:** measured NAP discusses rising daytime and nighttime temperature indicators; no city-specific change rate extrapolated here. **Source:** [Philippine National Adaptation Plan 2023–2050 ](https://www.climate.gov.ph/public/ckfinder/userfiles/files/Knowledge/PH%20NAP%202023-2050.pdf)
+
+## Plans and legal basis
+
+- Official guidance or data **National Adaptation Plan 2023–2050** **Published fact:** The national adaptation framework includes increased-temperature risks and sectoral responses; it is broader than a dedicated heat action plan. **Legal limit:** A strategic plan is not by itself proof of an appropriation, binding local operating trigger or completed intervention. [Philippine National Adaptation Plan 2023–2050 ](https://www.climate.gov.ph/public/ckfinder/userfiles/files/Knowledge/PH%20NAP%202023-2050.pdf)
+- Official guidance or data **Local disaster-management responsibilities** **Published fact:** RA 10121 establishes local DRRM offices and planning/resource-management responsibilities. **Legal limit:** 2010 law is background legal context only here, not heat-outcome evidence. A heat-specific spend or action still needs an applicable approved local plan and budget. Current local-finance interpretation is checked separately. [Republic Act 10121, disaster management law ](https://lawphil.net/statutes/repacts/ra2010/ra_10121_2010.html) · [DILG 2026 legal opinion on LDRRMF purposes ](https://sibugaylegal.region9.dilg.gov.ph/opinions/39-2026-utilization-of-local-disaster-risk-reduction-and-management-fund-ldrrmf-42ee7e1e31)
+- Official guidance or data **DOH Department Memorandum 2025-0114** **Published fact:** The DOH bureau resource identifies interim guidelines dated 7 March 2025 and a facility service-continuity annex; a DOH statement carried by PIA describes preparedness, cooling/hydration and monitoring measures. **Legal limit:** Bureau index and public statement reviewed; full signed memorandum/annexes were not retrieved. No clinical protocol, new medical entitlement or exact national operating trigger is extracted. [DOH HFDB interim heat guidance ](https://sites.google.com/view/doh-hfdb/2025-q1-updates/dm-2025-0114) · [DOH statement via Philippine Information Agency ](https://pia.gov.ph/press-release/doh-naglabas-ng-updated-na-mga-guideline-sa-pag-iwas-at-pagkilos-laban-sa-mga-matinding-epekto-ng-init-sa-kalusugan/)
+- Reported, not evaluated **Quezon City heat-action governance** **Published fact:** The June 2026 city announcement describes a Heat Action Team, departmental chief heat-action responsibilities and development of a comprehensive heat action plan. **Legal limit:** Announcement verified; final adopted plan, signed constituting instrument and itemised recurring budget were not verified. Do not report the plan as fully enacted or evaluated. [Quezon City Heat Action Team ](https://quezoncity.gov.ph/qc-beefs-up-action-vs-extreme-heat-designates-chief-heat-action-officers/)
+- Reported, not evaluated **DepEd Memorandum 064, series 2026** **Published fact:** An official schools-division page dated 27 October 2026 circulates the memorandum titled Anticipatory Action, Preparedness, and Protective Measures for the 2026–2027 Super El Niño. **Legal limit:** Circulation/title verified; full operative text was not retrieved. Specific 2026 thresholds, schoolwork suspensions and interaction with earlier orders would be worth checking before operational use. [DepEd Division circulation of memorandum 064 2026 ](https://www.depedsanpablo.com/deped-memorandum-no-064-s-2026-anticipatory-action-preparedness-and-protective-measures-for-the-2026-2027-super-el-nino/)
+
+## Warnings
+
+**Known, inferred, uncertain:** **Known:** Public information services exist. **Inferred:** Link alerts to named staff, services and spending authority. **Uncertain:** Current reach, uptime, local calibration, household reception and action completion. **National:** PAGASA publishes heat-index information; DOST describes the iHeatMAP platform and localised heat information. **Metric limit:** Heat index combines air temperature and humidity. It is not air temperature, indoor temperature, land-surface temperature or WBGT. Do not replace worksite exposure assessment with one public index. **Last mile:** Online dissemination is documented. Reliable reach to people without smartphones, language/accessibility coverage, message receipt and funded action are not established by platform availability. **Local example:** QC has local heat-action arrangements; a C40 roadmap brief describes its iRISE-UP context. Exact current local trigger documents still need confirmation. [DOST iHeatMAP service explanation ](https://dost.gov.ph/knowledge-resources/news/86-2025-news/3971-iheatmap-an-online-monitoring-guide-for-heat-index.html) · [PAGASA heat guidance and monitoring release ](https://www.pagasa.dost.gov.ph/press-release/174) · [C40 Quezon City cooling roadmap RFP ](https://www.c40.org/wp-content/uploads/2025/05/QC-RfP-Cooling-roadmap-development.pdf)
+
+## Who is responsible
+
+- **Institutions:**
+- met
+
+**Responsibility:** Heat-index information and meteorological advice. [DOST iHeatMAP service explanation ](https://dost.gov.ph/knowledge-resources/news/86-2025-news/3971-iheatmap-an-online-monitoring-guide-for-heat-index.html)
+- **Institutions:**
+- health
+
+**Responsibility:** Health-system preparedness, service continuity and health communications. [DOH HFDB interim heat guidance ](https://sites.google.com/view/doh-hfdb/2025-q1-updates/dm-2025-0114) · [DOH statement via Philippine Information Agency ](https://pia.gov.ph/press-release/doh-naglabas-ng-updated-na-mga-guideline-sa-pag-iwas-at-pagkilos-laban-sa-mga-matinding-epekto-ng-init-sa-kalusugan/)
+- **Institutions:**
+- nat
+- employers
+- workers
+
+**Responsibility:** Occupational safety duties and employer/worker heat-risk management; private-sector coverage and actual employment arrangements matter. [Republic Act 11058, occupational safety and health ](https://lawphil.net/statutes/repacts/ra2018/ra_11058_2018.html) · [PMAP circulation of DOLE signed advisory 20-2026 ](https://pmap.org.ph/circular-no-2026-070-labor-advisory-no-20-series-of-2026-guidelines-on-the-prevention-and-management-of-heat-stress-during-el-nino-and-other-periods-of-extreme-heat/)
+- **Institutions:**
+- city
+- community
+
+**Responsibility:** Local protection planning and community delivery; only named documented activities are treated as implemented. [Quezon City Heat Action Team ](https://quezoncity.gov.ph/qc-beefs-up-action-vs-extreme-heat-designates-chief-heat-action-officers/) · [IFRC Philippines mid-year report 2025 ](https://go-api.ifrc.org/api/downloadfile/90159/Philippines_INP_MYR_2025)
+- **Institutions:**
+- schools
+
+**Responsibility:** Learning safety/continuity and local school implementation; confirm current instructions. [DepEd Division circulation of memorandum 064 2026 ](https://www.depedsanpablo.com/deped-memorandum-no-064-s-2026-anticipatory-action-preparedness-and-protective-measures-for-the-2026-2027-super-el-nino/) · [Tuguegarao blended learning implementation via PIA ](https://pia.gov.ph/news/tuguegarao-city-rolls-out-blended-learning-amid-high-heat-index/)
+- **Institutions:**
+- utilities
+- nat
+
+**Responsibility:** Appliance/building requirements; technical applicability does not imply universal protection in informal housing. [DOE 2024 AC labelling guidance legal deposit index ](https://naro.law.upd.edu.ph/search?agency=department-of-energy&layout=cards&page=4) · [Philippine Green Building Code 2015 original document via ADB ](https://lpr.adb.org/sites/default/files/resource/555/philippine-green-building-code.pdf.pdf)
+- **Institutions:**
+- funders
+- nat
+
+**Responsibility:** Adaptation project appraisal and public finance access; not an automatic heat grant. [CCC People’s Survival Fund ](https://climate.gov.ph/peoples-survival-fund)
+
+## Rules for heat at work
+
+**Known, inferred, uncertain:** **Known:** General OSH statute and recent advisory circulation. **Inferred:** Worker-verified implementation and inspection can connect work protection to income resilience. **Uncertain:** Full 2026 operative texts, enforcement, informal-worker coverage and claims experience. **Binding background:** RA 11058 (2018) establishes private-sector OSH duties and worker rights, including duties to manage hazardous conditions; it excludes the public sector from its stated coverage. **Recent update:** PMAP circulated Labor Advisory 20, series 2026, on 27 October. Its accessible account describes workplace-specific risk assessment, rest/water/cooling and adjusting unsafe work. **Verification boundary:** DOLE live pages and original signed advisory were not retrieved. PMAP is an employer association describing its own circulation, not an independent legal determination. No new numeric threshold, wage entitlement, universal stop-work rule or exact WBGT limit is asserted here. **Income and voice:** Whether rest is paid, which contractors/platform workers are covered, how grievances work and how protection is inspected need instrument- and workplace-specific verification. [Republic Act 11058, occupational safety and health ](https://lawphil.net/statutes/repacts/ra2018/ra_11058_2018.html) · [PMAP circulation of DOLE signed advisory 20-2026 ](https://pmap.org.ph/circular-no-2026-070-labor-advisory-no-20-series-of-2026-guidelines-on-the-prevention-and-management-of-heat-stress-during-el-nino-and-other-periods-of-extreme-heat/) **Evidence status:** reported
+
+## Cooling and buildings
+
+- Official guidance or data **Philippine Green Building Code (2015)** **Fact:** The original code, retrieved from ADB’s legal repository, covers envelope, ventilation, roof insulation, colour and mechanical systems for qualifying buildings. **Limit:** Coverage is conditional on occupancy/size and other rules; do not assume it covers every existing low-income dwelling. No cooling effect or health benefit is inferred from compliance alone. [Philippine Green Building Code 2015 original document via ADB ](https://lpr.adb.org/sites/default/files/resource/555/philippine-green-building-code.pdf.pdf)
+- Official guidance or data **DOE appliance labelling/performance framework** **Fact:** The UP National Administrative Register search record lists 2024 AC labelling guidance and amendments to PELP/MEPP instruments. **Limit:** Legal-deposit/index evidence establishes listed instruments, not every operative threshold, enforcement rate or appliance performance. Full latest texts and approved labels would be worth checking for procurement. [DOE 2024 AC labelling guidance legal deposit index ](https://naro.law.upd.edu.ph/search?agency=department-of-energy&layout=cards&page=4)
+- Reported, not evaluated **Quezon City Green Building Code update** **Fact:** City government reports a November 2025 code launch aligned with its climate plan and national framework. **Limit:** Announcement reviewed; full current ordinance, transition provisions and local enforcement not verified. [QC Green Building Code launch ](https://quezoncity.gov.ph/quezon-city-launches-landmark-green-building-code-to-accelerate-climate-action/)
+- Reported, not evaluated **Refrigerant transition and servicing** **Fact:** UNIDO reports 2026 work with DENR/Philippine Ozone Desk on HCFC phase-out, future Kigali implementation and technical capacity for alternatives. **Limit:** Do not conflate ozone-depleting HCFC phase-out with HFC phase-down. Equipment-specific refrigerant/GWP, charge limits, safety and recovery arrangements would be worth verifying. No refrigerant retrofit is prescribed. [UNIDO Philippines cooling programme 2026 ](https://www.unido.org/news/unido-supports-philippines-advancing-sustainable-cooling)
+
+## Cooling design options
+
+- Design concept **Envelope, shade and ventilation** **Costs:** **Currency:** PHP **Note:** No comparable local lifecycle cost quote verified. No USD or FX conversion is invented; a fund envelope is not a unit intervention cost. **Type:** passive **Evidence scope:** Researcher design interpretation, not a measured performance claim or endorsement. **Mechanism:** Reduce solar/radiant gain and use available air movement; ventilation would ideally consider outdoor heat, air quality and clinical infection-control needs. **Suits:** both **Suits why:** Relevant in either climate; humid conditions limit what ventilation alone can achieve. **Tradeoffs and upkeep:** Roof strength/typhoon wind, fire, damp, safe access, tenancy permission and maintenance. **Source context:** [Philippine Green Building Code 2015 original document via ADB ](https://lpr.adb.org/sites/default/files/resource/555/philippine-green-building-code.pdf.pdf)
+- Design concept **Efficient fans as a complementary option** **Costs:** **Currency:** PHP **Note:** No comparable local lifecycle cost quote verified. No USD or FX conversion is invented; a fund envelope is not a unit intervention cost. **Type:** active **Evidence scope:** Researcher design interpretation, not a measured performance claim or endorsement. **Mechanism:** Move air around people rather than refrigerate the room. **Suits:** both **Suits why:** Benefit is conditional on humidity, air temperature, workload and vulnerability; not a universal safe-use prescription. **Tradeoffs and upkeep:** No power means no electric fan; repair and safe wiring matter. Do not infer illness prevention from comfort. **Source context:** [Philippine National Adaptation Plan 2023–2050 ](https://www.climate.gov.ph/public/ckfinder/userfiles/files/Knowledge/PH%20NAP%202023-2050.pdf)
+- Design concept **Targeted air-conditioned refuges** **Costs:** **Currency:** PHP **Note:** No comparable local lifecycle cost quote verified. No USD or FX conversion is invented; a fund envelope is not a unit intervention cost. **Type:** active **Evidence scope:** Researcher design interpretation, not a measured performance claim or endorsement. **Mechanism:** Provide a cooled indoor area; actual humidity control and heat-load performance would be worth checking. **Suits:** both **Suits why:** Refrigeration can cool in either climate; hot-humid design requires latent-load/humidity assessment. **Tradeoffs and upkeep:** Peak electricity, refrigerant leakage/GWP, street waste heat (loop cooling), outage vulnerability, queues, access and recurring cost. **Source context:** [QC library cooling centres ](https://quezoncity.gov.ph/qcpl-libraries-as-cooling-centers/)
+- Design concept **Maintained trees and public shade** **Costs:** **Currency:** PHP **Note:** No comparable local lifecycle cost quote verified. No USD or FX conversion is invented; a fund envelope is not a unit intervention cost. **Type:** passive **Evidence scope:** Researcher design interpretation, not a measured performance claim or endorsement. **Mechanism:** Intercept solar radiation and, where conditions permit, support evapotranspiration. **Suits:** both **Suits why:** Shade is useful in dry and humid settings; water, canopy and airflow influence results. **Tradeoffs and upkeep:** Water scarcity, storm damage, root space, irrigation upkeep, displacement and inaccessible paths; protect tenure and users. **Source context:** [Philippine Green Building Code 2015 original document via ADB ](https://lpr.adb.org/sites/default/files/resource/555/philippine-green-building-code.pdf.pdf)
+- Design concept **Evaporative cooling screening** **Costs:** **Currency:** PHP **Note:** No comparable local lifecycle cost quote verified. No USD or FX conversion is invented; a fund envelope is not a unit intervention cost. **Type:** active **Evidence scope:** Researcher design interpretation, not a measured performance claim or endorsement. **Mechanism:** Water evaporation can reduce dry-bulb temperature when sufficient evaporative potential exists. **Suits:** hot-dry **Suits why:** High humidity limits evaporation; no blanket recommendation for Philippine humid settings. **Tradeoffs and upkeep:** Additional humidity, water use, hygiene, indoor moisture and electrical/maintenance needs. Not a verified national programme. **Source context:** [PAGASA climate of the Philippines ](https://www.pagasa.dost.gov.ph/information/climate-philippines)
+
+## Money for protection
+
+- Official guidance or data **People’s Survival Fund** **Role:** Public adaptation project-finance mechanism for LGUs and qualified local/community organisations. **Heat connection:** A costed heat-protection proposal could be explored where adaptation eligibility, local risk evidence and application requirements are met; this is an inference, not a verified heat award. **Access:** CCC’s page describes proposals, work/financial plan and local planning/risk documents; confirm the current PSF Board Secretariat process and organisation accreditation. **Opportunity status:** Current call availability and heat-project eligibility not verified. **Currency:** PHP **Budget limit:** No national envelope presented as available money for this proposal. [CCC People’s Survival Fund ](https://climate.gov.ph/peoples-survival-fund)
+- Official guidance or data **LGU DRRM and General Fund budgeting** **Role:** Budgeted local preparedness/mitigation alongside recurring service expenditure. **Heat connection:** Heat services require a lawful cost classification and approved local plan; do not assume any DRRM balance can finance any heat activity. **Access:** Local planning/budget offices and legal/accounting review. **Opportunity status:** Project-specific appropriation not verified. **Currency:** PHP **Budget limit:** The 2026 DILG repository abstract distinguishes some capital improvements from routine maintenance; full opinion would be worth reviewing before treating a cost as eligible. [Republic Act 10121, disaster management law ](https://lawphil.net/statutes/repacts/ra2010/ra_10121_2010.html) · [DILG 2026 legal opinion on LDRRMF purposes ](https://sibugaylegal.region9.dilg.gov.ph/opinions/39-2026-utilization-of-local-disaster-risk-reduction-and-management-fund-ldrrmf-42ee7e1e31)
+- Reported, not evaluated **City partnership and technical preparation** **Role:** Project preparation and city-to-city technical support. **Heat connection:** C40’s QC cooling-roadmap RFP and the city’s accelerator participation identify technical planning routes. **Access:** City and programme partnerships; no continuing open consultancy or grant call assumed. **Opportunity status:** Historical RFP / announced collaboration; current access not verified. **Budget limit:** A network or RFP is not a standing fund available to every applicant. [C40 Quezon City cooling roadmap RFP ](https://www.c40.org/wp-content/uploads/2025/05/QC-RfP-Cooling-roadmap-development.pdf) · [Quezon City urban heat accelerator participation ](https://quezoncity.gov.ph/quezon-city-joins-global-effort-vs-deadly-extreme-heat/)
+
+## What costs we could verify
+
+**Currency:** PHP **Note:** No comparable local lifecycle cost quote verified. No USD or FX conversion is invented; a fund envelope is not a unit intervention cost.
+
+## Gaps in what we found
+
+- A consolidated, adopted national heat action plan with operational triggers, institutional mandates and itemised recurring finance was not verified; sectoral guidance and local initiatives were found.
+- Final adopted heat plans and heat-specific budget lines for most selected cities were not verified.
+- No independent outcome evaluation of the selected cooling-centre or awareness programmes was verified.
+- Indoor/night exposure, unpaid care, wage continuity, disability access and migrant/informal-worker reach remain incompletely documented in the reviewed sources.
+- No comparable local upfront/running/upkeep prices, poorest-quintile affordability assessment or heat-specific parametric policy wording verified.
+- No named worker-led or disability-led implementation partner was verified in this focused collection. This is not a claim that none exists.
+
+## Ways to help (proposed)
+
+- Design concept **QC service-delivery learning partnership** **Idea:** Invite city/library/health teams and users to examine actual access, opening hours, outages, cooling and recurring costs; publish failures and adaptations as well as outputs. [Quezon City Heat Action Team ](https://quezoncity.gov.ph/qc-beefs-up-action-vs-extreme-heat-designates-chief-heat-action-officers/) · [QC library cooling centres ](https://quezoncity.gov.ph/qcpl-libraries-as-cooling-centers/)
+- Design concept **Warning-to-action protocol with offline delivery** **Idea:** Work with PAGASA/local DRRM and community partners on who receives a message, who acts, with what authority and money; measure reach and completed protection rather than downloads. [DOST iHeatMAP service explanation ](https://dost.gov.ph/knowledge-resources/news/86-2025-news/3971-iheatmap-an-online-monitoring-guide-for-heat-index.html) · [IFRC Philippines mid-year report 2025 ](https://go-api.ifrc.org/api/downloadfile/90159/Philippines_INP_MYR_2025)
+- Design concept **Worker protection and income implementation** **Idea:** Bring employers, worker representatives, DOLE/OSH practitioners and local services together to verify current instruments and paid-rest practice; avoid surveillance or targets that increase unsafe workloads. [Republic Act 11058, occupational safety and health ](https://lawphil.net/statutes/repacts/ra2018/ra_11058_2018.html) · [PMAP circulation of DOLE signed advisory 20-2026 ](https://pmap.org.ph/circular-no-2026-070-labor-advisory-no-20-series-of-2026-guidelines-on-the-prevention-and-management-of-heat-stress-during-el-nino-and-other-periods-of-extreme-heat/)
+- Design concept **Costed public cooling portfolio** **Idea:** Prepare a small portfolio of homes, schools and health services with climate-appropriate design, permissions, procurement and separate capital/recurrent budgets before seeking finance. [Philippine Green Building Code 2015 original document via ADB ](https://lpr.adb.org/sites/default/files/resource/555/philippine-green-building-code.pdf.pdf) · [CCC People’s Survival Fund ](https://climate.gov.ph/peoples-survival-fund)
+
+## Fairness and delivery checks
+
+Design concept **Scope:** Researcher checks for local co-design, not measured claims about every Philippine programme. **Checks:**
+- Include women and unpaid caregivers when schedules, access and household costs change.
+- Confirm accessible travel, entrances, toilets, seating and communication with disabled and older users; a designation does not establish accessibility.
+- Check whether renters can authorise roof work and whether improvements raise rents or displace users.
+- Include migrants, outdoor/informal workers and people without smartphones or cooling at home; verify who is actually reached.
+- Protect wage continuity and worker voice; do not use monitoring for surveillance, retaliation or unsafe output targets.
+- Budget drinking water, cleaning, servicing, electricity and replacement; account for outages and competing water use.
+
+[QC library cooling centres ](https://quezoncity.gov.ph/qcpl-libraries-as-cooling-centers/) · [Republic Act 11058, occupational safety and health ](https://lawphil.net/statutes/repacts/ra2018/ra_11058_2018.html) · [IFRC Philippines mid-year report 2025 ](https://go-api.ifrc.org/api/downloadfile/90159/Philippines_INP_MYR_2025)
+
+## How the cities were chosen
+
+**Cities selected:** 8 **Rule:** Combine named historical high population-exposure cities with a locally evidenced urban implementation case and regional heat-information/response and PAGASA station-extreme cases. **Historical research:** 2020 study covers 139 cities, largely using 2014–2016 hot-dry-season land-surface data and 2015 population indicators. Its exposure component is population density; it is not a current thermometer ranking. **City list limit:** These eight are evidence-selected priorities, not a verified national top-eight ranking in 2026. No comparable current dataset combining humidity, indoor/night heat, people exposed and vulnerability was verified. **Geographic limit:** Selected cases cover Luzon/Metro Manila and Mindanao; Visayas city coverage remains incomplete. That does not establish lower heat risk or less activity there. **Source:** [2020 Philippine city heat-health risk study ](https://www.nature.com/articles/s41467-020-15218-8)
+
+## Limits of this research
+
+**Primary document access:** Several DOLE/DOE/DepEd pages blocked direct retrieval. Recent DOLE advisory content is limited to accessible PMAP circulation; recent school memorandum content is limited to an official division circulation page. **Not verified:** [source ](https://dole.gov.ph/labor-advisory/) · [source ](https://www.depedsanpablo.com/deped-memorandum-no-064-s-2026-anticipatory-action-preparedness-and-protective-measures-for-the-2026-2027-super-el-nino/) · [source ](https://sites.google.com/view/doh-hfdb/2025-q1-updates/dm-2025-0114) · [source ](https://naro.law.upd.edu.ph/search?agency=department-of-energy&layout=cards&page=4) · [source ](https://www.climate.gov.ph/public/ckfinder/userfiles/files/Knowledge/PH%20NAP%202023-2050.pdf) **Date checked:** 2026-10-28
+
+## Known, inferred, uncertain
+
+**Known:** Sources establish a humid heat context, national sectoral instruments and documented local programmes. **Inferred:** Protection can improve when warning, work rules, accessible cooling, health readiness and budgets are combined. **Uncertain:** Current city ranking, final plan adoption, legal details of very recent instruments, implementation and outcomes.
+
+## Paying when heat strikes
+
+The layers of money we found for heat in Philippines, from the systems that reach people to risk shared with insurers: Contingent finance, Budgets and reserves, Insurance, pools and bonds, Social protection. Each is shown with how it is released, how it reaches people, and what we could not find.
+
+[See Philippines, layer by layer](https://beattheheat.asia/paying-when-heat-strikes/#country-philippines)
+
+## Cities
+
+### Manila
+
+**Heat context:** Humid tropical heat with seasonal/local variation; indoor, night and worksite conditions need local measurements.
+
+**Official heat plan:** **Detail:** A final adopted city heat action plan, legal instrument and itemised recurring budget were not verified in this review. This does not establish absence.
+
+**Agencies responsible:** **Mandated route:** City/LGU DRRM planning arrangements under RA 10121, plus health, schools, planning/engineering, utilities and employers within their own mandates. **Local delivery limit:** Specific local commitments outside the documented examples are proposed routes, not verified operational assignments. [Republic Act 10121, disaster management law ](https://lawphil.net/statutes/repacts/ra2010/ra_10121_2010.html)
+
+**Warnings:** **Verified national route:** PAGASA heat-index information and DOST-described iHeatMAP. **Local protocol:** Local thresholds, offline channels, current duty roster and financed protective actions not verified. [DOST iHeatMAP service explanation ](https://dost.gov.ph/knowledge-resources/news/86-2025-news/3971-iheatmap-an-online-monitoring-guide-for-heat-index.html)
+
+**Rules for heat at work:** **National reference:** RA 11058 for covered private-sector workplaces; verify current advisory text and applicability before using operational rules. **City specific rule:** Not verified [Republic Act 11058, occupational safety and health ](https://lawphil.net/statutes/repacts/ra2018/ra_11058_2018.html) · [PMAP circulation of DOLE signed advisory 20-2026 ](https://pmap.org.ph/circular-no-2026-070-labor-advisory-no-20-series-of-2026-guidelines-on-the-prevention-and-management-of-heat-stress-during-el-nino-and-other-periods-of-extreme-heat/)
+
+**Cooling and buildings:** **National reference:** Philippine Green Building Code applies to qualifying buildings; local permit and current appliance requirements require checking. **City specific requirements:** Not verified [Philippine Green Building Code 2015 original document via ADB ](https://lpr.adb.org/sites/default/files/resource/555/philippine-green-building-code.pdf.pdf)
+
+**Money for protection:** **Potential routes:** Approved LGU budgets and eligible adaptation project routes, subject to legal/appraisal conditions; no heat earmark inferred. [CCC People’s Survival Fund ](https://climate.gov.ph/peoples-survival-fund) · [DILG 2026 legal opinion on LDRRMF purposes ](https://sibugaylegal.region9.dilg.gov.ph/opinions/39-2026-utilization-of-local-disaster-risk-reduction-and-management-fund-ldrrmf-42ee7e1e31)
+
+**Costs:** **Currency:** PHP **Note:** No comparable local lifecycle cost quote verified. No USD or FX conversion is invented; a fund envelope is not a unit intervention cost.
+
+**Gaps in what we found:**
+- Historical index; not current heat-index or indoor measurements.
+- Neighbourhood indoor/night exposure, disability access, wage protection and recurring maintenance cost require verification.
+
+**Known, inferred, uncertain:** **Known:** The 2020 national analysis classified Manila’s historical population-exposure index very high. **Inferred:** The proposed entry point follows from the documented exposure/response evidence. **Uncertain:** Current operational readiness, effects, local adoption, reach and costs.
+
+**Region:** National Capital Region
+
+**Selection basis:** The 2020 national analysis classified Manila’s historical population-exposure index very high.
+
+**Selection not a rank:** true
+
+**Evidence:**
+- Measured in a study **Kind:** modelled The 2020 national analysis classified Manila’s historical population-exposure index very high. **Source:** [2020 Philippine city heat-health risk study ](https://www.nature.com/articles/s41467-020-15218-8)
+
+**Proposed collaboration entry:** Dense-city assessment, including indoor/night exposure and accessible shade, is a proposed entry point.
+
+### Caloocan
+
+**Heat context:** Humid tropical heat with seasonal/local variation; indoor, night and worksite conditions need local measurements.
+
+**Official heat plan:** **Detail:** A final adopted city heat action plan, legal instrument and itemised recurring budget were not verified in this review. This does not establish absence.
+
+**Agencies responsible:** **Mandated route:** City/LGU DRRM planning arrangements under RA 10121, plus health, schools, planning/engineering, utilities and employers within their own mandates. **Local delivery limit:** Specific local commitments outside the documented examples are proposed routes, not verified operational assignments. [Republic Act 10121, disaster management law ](https://lawphil.net/statutes/repacts/ra2010/ra_10121_2010.html)
+
+**Warnings:** **Verified national route:** PAGASA heat-index information and DOST-described iHeatMAP. **Local protocol:** Local thresholds, offline channels, current duty roster and financed protective actions not verified. [DOST iHeatMAP service explanation ](https://dost.gov.ph/knowledge-resources/news/86-2025-news/3971-iheatmap-an-online-monitoring-guide-for-heat-index.html)
+
+**Rules for heat at work:** **National reference:** RA 11058 for covered private-sector workplaces; verify current advisory text and applicability before using operational rules. **City specific rule:** Not verified [Republic Act 11058, occupational safety and health ](https://lawphil.net/statutes/repacts/ra2018/ra_11058_2018.html) · [PMAP circulation of DOLE signed advisory 20-2026 ](https://pmap.org.ph/circular-no-2026-070-labor-advisory-no-20-series-of-2026-guidelines-on-the-prevention-and-management-of-heat-stress-during-el-nino-and-other-periods-of-extreme-heat/)
+
+**Cooling and buildings:** **National reference:** Philippine Green Building Code applies to qualifying buildings; local permit and current appliance requirements require checking. **City specific requirements:** Not verified [Philippine Green Building Code 2015 original document via ADB ](https://lpr.adb.org/sites/default/files/resource/555/philippine-green-building-code.pdf.pdf)
+
+**Money for protection:** **Potential routes:** Approved LGU budgets and eligible adaptation project routes, subject to legal/appraisal conditions; no heat earmark inferred. [CCC People’s Survival Fund ](https://climate.gov.ph/peoples-survival-fund) · [DILG 2026 legal opinion on LDRRMF purposes ](https://sibugaylegal.region9.dilg.gov.ph/opinions/39-2026-utilization-of-local-disaster-risk-reduction-and-management-fund-ldrrmf-42ee7e1e31)
+
+**Costs:** **Currency:** PHP **Note:** No comparable local lifecycle cost quote verified. No USD or FX conversion is invented; a fund envelope is not a unit intervention cost.
+
+**Gaps in what we found:**
+- Historical exposure category is density-based; current local programme implementation not verified.
+- Neighbourhood indoor/night exposure, disability access, wage protection and recurring maintenance cost require verification.
+
+**Known, inferred, uncertain:** **Known:** The same study classified Caloocan’s historical population-exposure index high. **Inferred:** The proposed entry point follows from the documented exposure/response evidence. **Uncertain:** Current operational readiness, effects, local adoption, reach and costs.
+
+**Region:** National Capital Region
+
+**Selection basis:** The same study classified Caloocan’s historical population-exposure index high.
+
+**Selection not a rank:** true
+
+**Evidence:**
+- Measured in a study **Kind:** modelled The same study classified Caloocan’s historical population-exposure index high. **Source:** [2020 Philippine city heat-health risk study ](https://www.nature.com/articles/s41467-020-15218-8)
+
+**Proposed collaboration entry:** Investigate neighbourhood and worker/housing protection with the LGU and community representatives.
+
+### Mandaluyong
+
+**Heat context:** Humid tropical heat with seasonal/local variation; indoor, night and worksite conditions need local measurements.
+
+**Official heat plan:** **Detail:** A final adopted city heat action plan, legal instrument and itemised recurring budget were not verified in this review. This does not establish absence.
+
+**Agencies responsible:** **Mandated route:** City/LGU DRRM planning arrangements under RA 10121, plus health, schools, planning/engineering, utilities and employers within their own mandates. **Local delivery limit:** Specific local commitments outside the documented examples are proposed routes, not verified operational assignments. [Republic Act 10121, disaster management law ](https://lawphil.net/statutes/repacts/ra2010/ra_10121_2010.html)
+
+**Warnings:** **Verified national route:** PAGASA heat-index information and DOST-described iHeatMAP. **Local protocol:** Local thresholds, offline channels, current duty roster and financed protective actions not verified. [DOST iHeatMAP service explanation ](https://dost.gov.ph/knowledge-resources/news/86-2025-news/3971-iheatmap-an-online-monitoring-guide-for-heat-index.html)
+
+**Rules for heat at work:** **National reference:** RA 11058 for covered private-sector workplaces; verify current advisory text and applicability before using operational rules. **City specific rule:** Not verified [Republic Act 11058, occupational safety and health ](https://lawphil.net/statutes/repacts/ra2018/ra_11058_2018.html) · [PMAP circulation of DOLE signed advisory 20-2026 ](https://pmap.org.ph/circular-no-2026-070-labor-advisory-no-20-series-of-2026-guidelines-on-the-prevention-and-management-of-heat-stress-during-el-nino-and-other-periods-of-extreme-heat/)
+
+**Cooling and buildings:** **National reference:** Philippine Green Building Code applies to qualifying buildings; local permit and current appliance requirements require checking. **City specific requirements:** Not verified [Philippine Green Building Code 2015 original document via ADB ](https://lpr.adb.org/sites/default/files/resource/555/philippine-green-building-code.pdf.pdf)
+
+**Money for protection:** **Potential routes:** Approved LGU budgets and eligible adaptation project routes, subject to legal/appraisal conditions; no heat earmark inferred. [CCC People’s Survival Fund ](https://climate.gov.ph/peoples-survival-fund) · [DILG 2026 legal opinion on LDRRMF purposes ](https://sibugaylegal.region9.dilg.gov.ph/opinions/39-2026-utilization-of-local-disaster-risk-reduction-and-management-fund-ldrrmf-42ee7e1e31)
+
+**Costs:** **Currency:** PHP **Note:** No comparable local lifecycle cost quote verified. No USD or FX conversion is invented; a fund envelope is not a unit intervention cost.
+
+**Gaps in what we found:**
+- Historical index cannot determine 2026 individual or worksite risk.
+- Neighbourhood indoor/night exposure, disability access, wage protection and recurring maintenance cost require verification.
+
+**Known, inferred, uncertain:** **Known:** The same study classified Mandaluyong’s historical population-exposure index high. **Inferred:** The proposed entry point follows from the documented exposure/response evidence. **Uncertain:** Current operational readiness, effects, local adoption, reach and costs.
+
+**Region:** National Capital Region
+
+**Selection basis:** The same study classified Mandaluyong’s historical population-exposure index high.
+
+**Selection not a rank:** true
+
+**Evidence:**
+- Measured in a study **Kind:** modelled The same study classified Mandaluyong’s historical population-exposure index high. **Source:** [2020 Philippine city heat-health risk study ](https://www.nature.com/articles/s41467-020-15218-8)
+
+**Proposed collaboration entry:** Investigate tenant/worker needs and publicly accessible protection across neighbourhood boundaries.
+
+### Quezon City
+
+**Heat context:** Humid tropical heat with seasonal/local variation; indoor, night and worksite conditions need local measurements.
+
+**Official heat plan:** **Detail:** June 2026 city account describes the Heat Action Team and comprehensive plan development. [Quezon City Heat Action Team ](https://quezoncity.gov.ph/qc-beefs-up-action-vs-extreme-heat-designates-chief-heat-action-officers/)
+
+**Agencies responsible:** **Mandated route:** City/LGU DRRM planning arrangements under RA 10121, plus health, schools, planning/engineering, utilities and employers within their own mandates. **Local delivery limit:** Specific local commitments outside the documented examples are proposed routes, not verified operational assignments. [Republic Act 10121, disaster management law ](https://lawphil.net/statutes/repacts/ra2010/ra_10121_2010.html)
+
+**Warnings:** **Verified national route:** PAGASA heat-index information and DOST-described iHeatMAP. **Local protocol:** Local thresholds, offline channels, current duty roster and financed protective actions not verified. [DOST iHeatMAP service explanation ](https://dost.gov.ph/knowledge-resources/news/86-2025-news/3971-iheatmap-an-online-monitoring-guide-for-heat-index.html)
+
+**Rules for heat at work:** **National reference:** RA 11058 for covered private-sector workplaces; verify current advisory text and applicability before using operational rules. **City specific rule:** Not verified [Republic Act 11058, occupational safety and health ](https://lawphil.net/statutes/repacts/ra2018/ra_11058_2018.html) · [PMAP circulation of DOLE signed advisory 20-2026 ](https://pmap.org.ph/circular-no-2026-070-labor-advisory-no-20-series-of-2026-guidelines-on-the-prevention-and-management-of-heat-stress-during-el-nino-and-other-periods-of-extreme-heat/)
+
+**Cooling and buildings:** **National reference:** Philippine Green Building Code applies to qualifying buildings; local permit and current appliance requirements require checking. **City specific requirements:** 2025 city code launch reported; full operative ordinance not reviewed. [Philippine Green Building Code 2015 original document via ADB ](https://lpr.adb.org/sites/default/files/resource/555/philippine-green-building-code.pdf.pdf) · [QC Green Building Code launch ](https://quezoncity.gov.ph/quezon-city-launches-landmark-green-building-code-to-accelerate-climate-action/)
+
+**Money for protection:** **Potential routes:** Approved LGU budgets and eligible adaptation project routes, subject to legal/appraisal conditions; no heat earmark inferred. [CCC People’s Survival Fund ](https://climate.gov.ph/peoples-survival-fund) · [DILG 2026 legal opinion on LDRRMF purposes ](https://sibugaylegal.region9.dilg.gov.ph/opinions/39-2026-utilization-of-local-disaster-risk-reduction-and-management-fund-ldrrmf-42ee7e1e31)
+
+**Costs:** **Currency:** PHP **Note:** No comparable local lifecycle cost quote verified. No USD or FX conversion is invented; a fund envelope is not a unit intervention cost.
+
+**Gaps in what we found:**
+- Selection reflects documented heat response and urban risk, not a claim that QC has the highest current national index.
+- Neighbourhood indoor/night exposure, disability access, wage protection and recurring maintenance cost require verification.
+
+**Known, inferred, uncertain:** **Known:** City sources document recent heat-action governance and a library cooling-centre offer. **Inferred:** The proposed entry point follows from the documented exposure/response evidence. **Uncertain:** Current operational readiness, effects, local adoption, reach and costs.
+
+**Region:** National Capital Region
+
+**Selection basis:** City sources document recent heat-action governance and a library cooling-centre offer.
+
+**Selection not a rank:** true
+
+**Evidence:**
+- Reported, not evaluated **Kind:** claimed City sources document recent heat-action governance and a library cooling-centre offer. **Source:** [Quezon City Heat Action Team ](https://quezoncity.gov.ph/qc-beefs-up-action-vs-extreme-heat-designates-chief-heat-action-officers/)
+
+**Notable programme ids:**
+- ph-qc-team
+- ph-qc-cooling
+- ph-qc-green
+- ph-c40
+
+**Local actors verified:**
+- ph-qc
+
+**Proposed collaboration entry:** A potential place to study warning, public cooling, health surveillance, building policy and operating budgets together.
+
+### Dagupan
+
+**Heat context:** Humid tropical heat with seasonal/local variation; indoor, night and worksite conditions need local measurements.
+
+**Official heat plan:** **Detail:** A final adopted city heat action plan, legal instrument and itemised recurring budget were not verified in this review. This does not establish absence.
+
+**Agencies responsible:** **Mandated route:** City/LGU DRRM planning arrangements under RA 10121, plus health, schools, planning/engineering, utilities and employers within their own mandates. **Local delivery limit:** Specific local commitments outside the documented examples are proposed routes, not verified operational assignments. [Republic Act 10121, disaster management law ](https://lawphil.net/statutes/repacts/ra2010/ra_10121_2010.html)
+
+**Warnings:** **Verified national route:** PAGASA heat-index information and DOST-described iHeatMAP. **Local protocol:** Local thresholds, offline channels, current duty roster and financed protective actions not verified. [DOST iHeatMAP service explanation ](https://dost.gov.ph/knowledge-resources/news/86-2025-news/3971-iheatmap-an-online-monitoring-guide-for-heat-index.html)
+
+**Rules for heat at work:** **National reference:** RA 11058 for covered private-sector workplaces; verify current advisory text and applicability before using operational rules. **City specific rule:** Not verified [Republic Act 11058, occupational safety and health ](https://lawphil.net/statutes/repacts/ra2018/ra_11058_2018.html) · [PMAP circulation of DOLE signed advisory 20-2026 ](https://pmap.org.ph/circular-no-2026-070-labor-advisory-no-20-series-of-2026-guidelines-on-the-prevention-and-management-of-heat-stress-during-el-nino-and-other-periods-of-extreme-heat/)
+
+**Cooling and buildings:** **National reference:** Philippine Green Building Code applies to qualifying buildings; local permit and current appliance requirements require checking. **City specific requirements:** Not verified [Philippine Green Building Code 2015 original document via ADB ](https://lpr.adb.org/sites/default/files/resource/555/philippine-green-building-code.pdf.pdf)
+
+**Money for protection:** **Potential routes:** Approved LGU budgets and eligible adaptation project routes, subject to legal/appraisal conditions; no heat earmark inferred. [CCC People’s Survival Fund ](https://climate.gov.ph/peoples-survival-fund) · [DILG 2026 legal opinion on LDRRMF purposes ](https://sibugaylegal.region9.dilg.gov.ph/opinions/39-2026-utilization-of-local-disaster-risk-reduction-and-management-fund-ldrrmf-42ee7e1e31)
+
+**Costs:** **Currency:** PHP **Note:** No comparable local lifecycle cost quote verified. No USD or FX conversion is invented; a fund envelope is not a unit intervention cost.
+
+**Gaps in what we found:**
+- A five-day station series is insufficient to establish annual citywide exposure rank.
+- Neighbourhood indoor/night exposure, disability access, wage protection and recurring maintenance cost require verification.
+
+**Known, inferred, uncertain:** **Known:** PAGASA’s archived March 2026 computed heat-index summary includes the Dagupan station; this provides a recent regional heat-information case. **Inferred:** The proposed entry point follows from the documented exposure/response evidence. **Uncertain:** Current operational readiness, effects, local adoption, reach and costs.
+
+**Region:** Pangasinan, Luzon
+
+**Selection basis:** PAGASA’s archived March 2026 computed heat-index summary includes the Dagupan station; this provides a recent regional heat-information case.
+
+**Selection not a rank:** true
+
+**Evidence:**
+- Official guidance or data **Kind:** measured PAGASA’s archived March 2026 computed heat-index summary includes the Dagupan station; this provides a recent regional heat-information case. **Source:** [PAGASA five-day computed heat-index summary, 29 March 2026 ](https://pubfiles.pagasa.dost.gov.ph/iaas/heat_index/HighestHeatIndex_ObsOnly_20260329.png)
+- Official guidance or data **Kind:** measured PAGASA’s 2026 presentation also identifies a historical Dagupan station extreme dated 9 May 2016; no extreme magnitude is adopted as a current air temperature. **Source:** [PAGASA heat-index climate forum presentation ](https://pubfiles.pagasa.dost.gov.ph/climps/climateforum/special_lecture.pdf)
+
+**Proposed collaboration entry:** Investigate forecast-to-action, exposed market/work settings and water/power continuity with local authorities.
+
+### Tuguegarao
+
+**Heat context:** Humid tropical heat with seasonal/local variation; indoor, night and worksite conditions need local measurements.
+
+**Official heat plan:** **Detail:** A final adopted city heat action plan, legal instrument and itemised recurring budget were not verified in this review. This does not establish absence.
+
+**Agencies responsible:** **Mandated route:** City/LGU DRRM planning arrangements under RA 10121, plus health, schools, planning/engineering, utilities and employers within their own mandates. **Local delivery limit:** Specific local commitments outside the documented examples are proposed routes, not verified operational assignments. [Republic Act 10121, disaster management law ](https://lawphil.net/statutes/repacts/ra2010/ra_10121_2010.html)
+
+**Warnings:** **Verified national route:** PAGASA heat-index information and DOST-described iHeatMAP. **Local protocol:** Local thresholds, offline channels, current duty roster and financed protective actions not verified. [DOST iHeatMAP service explanation ](https://dost.gov.ph/knowledge-resources/news/86-2025-news/3971-iheatmap-an-online-monitoring-guide-for-heat-index.html)
+
+**Rules for heat at work:** **National reference:** RA 11058 for covered private-sector workplaces; verify current advisory text and applicability before using operational rules. **City specific rule:** Not verified [Republic Act 11058, occupational safety and health ](https://lawphil.net/statutes/repacts/ra2018/ra_11058_2018.html) · [PMAP circulation of DOLE signed advisory 20-2026 ](https://pmap.org.ph/circular-no-2026-070-labor-advisory-no-20-series-of-2026-guidelines-on-the-prevention-and-management-of-heat-stress-during-el-nino-and-other-periods-of-extreme-heat/)
+
+**Cooling and buildings:** **National reference:** Philippine Green Building Code applies to qualifying buildings; local permit and current appliance requirements require checking. **City specific requirements:** Not verified [Philippine Green Building Code 2015 original document via ADB ](https://lpr.adb.org/sites/default/files/resource/555/philippine-green-building-code.pdf.pdf)
+
+**Money for protection:** **Potential routes:** Approved LGU budgets and eligible adaptation project routes, subject to legal/appraisal conditions; no heat earmark inferred. [CCC People’s Survival Fund ](https://climate.gov.ph/peoples-survival-fund) · [DILG 2026 legal opinion on LDRRMF purposes ](https://sibugaylegal.region9.dilg.gov.ph/opinions/39-2026-utilization-of-local-disaster-risk-reduction-and-management-fund-ldrrmf-42ee7e1e31)
+
+**Costs:** **Currency:** PHP **Note:** No comparable local lifecycle cost quote verified. No USD or FX conversion is invented; a fund envelope is not a unit intervention cost.
+
+**Gaps in what we found:**
+- Airport/station conditions are not representative of every neighbourhood or building.
+- Neighbourhood indoor/night exposure, disability access, wage protection and recurring maintenance cost require verification.
+
+**Known, inferred, uncertain:** **Known:** CAAP identifies Tuguegarao among heat-affected airport locations; PIA documents a local school response in 2024. **Inferred:** The proposed entry point follows from the documented exposure/response evidence. **Uncertain:** Current operational readiness, effects, local adoption, reach and costs.
+
+**Region:** Cagayan, Luzon
+
+**Selection basis:** CAAP identifies Tuguegarao among heat-affected airport locations; PIA documents a local school response in 2024.
+
+**Selection not a rank:** true
+
+**Evidence:**
+- Official guidance or data **Kind:** claimed CAAP identifies Tuguegarao among heat-affected airport locations; PIA documents a local school response in 2024. **Source:** [CAAP heat preparations and Tuguegarao exposure ](https://www.caap.gov.ph/%F0%9D%90%82%F0%9D%90%80%F0%9D%90%80%F0%9D%90%8F-%F0%9D%90%94%F0%9D%90%AB%F0%9D%90%A0%F0%9D%90%9E%F0%9D%90%AC-%F0%9D%90%93%F0%9D%90%AB%F0%9D%90%9A%F0%9D%90%AF%F0%9D%90%9E%F0%9D%90%A5%F0%9D%90%9E/)
+- Reported, not evaluated **Kind:** claimed PIA documents a time-limited 2024 school blended-learning response; not assumed current. **Source:** [Tuguegarao blended learning implementation via PIA ](https://pia.gov.ph/news/tuguegarao-city-rolls-out-blended-learning-amid-high-heat-index/)
+
+**Notable programme ids:**
+- ph-tug-school
+
+**Proposed collaboration entry:** Build on the documented school-response experience to examine classroom conditions, continuity and household impacts.
+
+### Cotabato City
+
+**Heat context:** Humid tropical heat with seasonal/local variation; indoor, night and worksite conditions need local measurements.
+
+**Official heat plan:** **Detail:** A final adopted city heat action plan, legal instrument and itemised recurring budget were not verified in this review. This does not establish absence.
+
+**Agencies responsible:** **Mandated route:** City/LGU DRRM planning arrangements under RA 10121, plus health, schools, planning/engineering, utilities and employers within their own mandates. **Local delivery limit:** Specific local commitments outside the documented examples are proposed routes, not verified operational assignments. [Republic Act 10121, disaster management law ](https://lawphil.net/statutes/repacts/ra2010/ra_10121_2010.html)
+
+**Warnings:** **Verified national route:** PAGASA heat-index information and DOST-described iHeatMAP. **Local protocol:** Local thresholds, offline channels, current duty roster and financed protective actions not verified. [DOST iHeatMAP service explanation ](https://dost.gov.ph/knowledge-resources/news/86-2025-news/3971-iheatmap-an-online-monitoring-guide-for-heat-index.html)
+
+**Rules for heat at work:** **National reference:** RA 11058 for covered private-sector workplaces; verify current advisory text and applicability before using operational rules. **City specific rule:** Not verified [Republic Act 11058, occupational safety and health ](https://lawphil.net/statutes/repacts/ra2018/ra_11058_2018.html) · [PMAP circulation of DOLE signed advisory 20-2026 ](https://pmap.org.ph/circular-no-2026-070-labor-advisory-no-20-series-of-2026-guidelines-on-the-prevention-and-management-of-heat-stress-during-el-nino-and-other-periods-of-extreme-heat/)
+
+**Cooling and buildings:** **National reference:** Philippine Green Building Code applies to qualifying buildings; local permit and current appliance requirements require checking. **City specific requirements:** Not verified [Philippine Green Building Code 2015 original document via ADB ](https://lpr.adb.org/sites/default/files/resource/555/philippine-green-building-code.pdf.pdf)
+
+**Money for protection:** **Potential routes:** Approved LGU budgets and eligible adaptation project routes, subject to legal/appraisal conditions; no heat earmark inferred. [CCC People’s Survival Fund ](https://climate.gov.ph/peoples-survival-fund) · [DILG 2026 legal opinion on LDRRMF purposes ](https://sibugaylegal.region9.dilg.gov.ph/opinions/39-2026-utilization-of-local-disaster-risk-reduction-and-management-fund-ldrrmf-42ee7e1e31)
+
+**Costs:** **Currency:** PHP **Note:** No comparable local lifecycle cost quote verified. No USD or FX conversion is invented; a fund envelope is not a unit intervention cost.
+
+**Gaps in what we found:**
+- A station extreme over a partial season is not citywide annual exposure or a measure of local response readiness.
+- Neighbourhood indoor/night exposure, disability access, wage protection and recurring maintenance cost require verification.
+
+**Known, inferred, uncertain:** **Known:** PAGASA’s April 2026 climate-forum presentation includes Cotabato City among high station heat-index observations during 1 March–21 April 2026. **Inferred:** The proposed entry point follows from the documented exposure/response evidence. **Uncertain:** Current operational readiness, effects, local adoption, reach and costs.
+
+**Region:** Mindanao
+
+**Selection basis:** PAGASA’s April 2026 climate-forum presentation includes Cotabato City among high station heat-index observations during 1 March–21 April 2026.
+
+**Selection not a rank:** true
+
+**Evidence:**
+- Official guidance or data **Kind:** measured PAGASA’s April 2026 climate-forum presentation includes Cotabato City among high station heat-index observations during 1 March–21 April 2026. **Source:** [PAGASA heat-index climate forum presentation ](https://pubfiles.pagasa.dost.gov.ph/climps/climateforum/special_lecture.pdf)
+
+**Proposed collaboration entry:** Investigate local warning-to-action, health/school readiness and affordable protection with the relevant city and BARMM institutions.
+
+### Butuan City
+
+**Heat context:** Humid tropical heat with seasonal/local variation; indoor, night and worksite conditions need local measurements.
+
+**Official heat plan:** **Detail:** A final adopted city heat action plan, legal instrument and itemised recurring budget were not verified in this review. This does not establish absence.
+
+**Agencies responsible:** **Mandated route:** City/LGU DRRM planning arrangements under RA 10121, plus health, schools, planning/engineering, utilities and employers within their own mandates. **Local delivery limit:** Specific local commitments outside the documented examples are proposed routes, not verified operational assignments. [Republic Act 10121, disaster management law ](https://lawphil.net/statutes/repacts/ra2010/ra_10121_2010.html)
+
+**Warnings:** **Verified national route:** PAGASA heat-index information and DOST-described iHeatMAP. **Local protocol:** Local thresholds, offline channels, current duty roster and financed protective actions not verified. [DOST iHeatMAP service explanation ](https://dost.gov.ph/knowledge-resources/news/86-2025-news/3971-iheatmap-an-online-monitoring-guide-for-heat-index.html)
+
+**Rules for heat at work:** **National reference:** RA 11058 for covered private-sector workplaces; verify current advisory text and applicability before using operational rules. **City specific rule:** Not verified [Republic Act 11058, occupational safety and health ](https://lawphil.net/statutes/repacts/ra2018/ra_11058_2018.html) · [PMAP circulation of DOLE signed advisory 20-2026 ](https://pmap.org.ph/circular-no-2026-070-labor-advisory-no-20-series-of-2026-guidelines-on-the-prevention-and-management-of-heat-stress-during-el-nino-and-other-periods-of-extreme-heat/)
+
+**Cooling and buildings:** **National reference:** Philippine Green Building Code applies to qualifying buildings; local permit and current appliance requirements require checking. **City specific requirements:** Not verified [Philippine Green Building Code 2015 original document via ADB ](https://lpr.adb.org/sites/default/files/resource/555/philippine-green-building-code.pdf.pdf)
+
+**Money for protection:** **Potential routes:** Approved LGU budgets and eligible adaptation project routes, subject to legal/appraisal conditions; no heat earmark inferred. [CCC People’s Survival Fund ](https://climate.gov.ph/peoples-survival-fund) · [DILG 2026 legal opinion on LDRRMF purposes ](https://sibugaylegal.region9.dilg.gov.ph/opinions/39-2026-utilization-of-local-disaster-risk-reduction-and-management-fund-ldrrmf-42ee7e1e31)
+
+**Costs:** **Currency:** PHP **Note:** No comparable local lifecycle cost quote verified. No USD or FX conversion is invented; a fund envelope is not a unit intervention cost.
+
+**Gaps in what we found:**
+- Historical computed heat-index extremes need method scrutiny; very high heat-index values are not literal air temperatures or current citywide readings.
+- Neighbourhood indoor/night exposure, disability access, wage protection and recurring maintenance cost require verification.
+
+**Known, inferred, uncertain:** **Known:** The same PAGASA presentation identifies Butuan among historical March–May station heat-index extremes, with the event dated 25 May 2020. **Inferred:** The proposed entry point follows from the documented exposure/response evidence. **Uncertain:** Current operational readiness, effects, local adoption, reach and costs.
+
+**Region:** Agusan del Norte, Mindanao
+
+**Selection basis:** The same PAGASA presentation identifies Butuan among historical March–May station heat-index extremes, with the event dated 25 May 2020.
+
+**Selection not a rank:** true
+
+**Evidence:**
+- Official guidance or data **Kind:** measured The same PAGASA presentation identifies Butuan among historical March–May station heat-index extremes, with the event dated 25 May 2020. **Source:** [PAGASA heat-index climate forum presentation ](https://pubfiles.pagasa.dost.gov.ph/climps/climateforum/special_lecture.pdf)
+
+**Proposed collaboration entry:** Investigate market/work protection and indoor/night measurements, alongside the legal and operating route for services.
+
+## Programmes
+
+- **PAGASA heat-index / iHeatMAP service** **Costs:** **Currency:** PHP **Note:** No comparable local lifecycle cost quote verified. No USD or FX conversion is invented; a fund envelope is not a unit intervention cost. **Known, inferred, uncertain:** **Known:** DOST’s April 2025 account describes localised heat-index monitoring and prediction. **Inferred:** Potential usefulness depends on delivery, inclusion and upkeep. **Uncertain:** Current reach, actual use, costs, effect and applicable local conditions. **Countries:**
+- PH
+
+**Places:**
+- PH
+
+**Institutional owner:** PAGASA **Evidence:**
+- Official guidance or data **Kind:** claimed DOST’s April 2025 account describes localised heat-index monitoring and prediction. **Source:** [DOST iHeatMAP service explanation ](https://dost.gov.ph/knowledge-resources/news/86-2025-news/3971-iheatmap-an-online-monitoring-guide-for-heat-index.html)
+
+**Current status:** Official service description reviewed; live map endpoint failed retrieval. No live reading or uptime claim. **Published fact:** DOST’s April 2025 account describes localised heat-index monitoring and prediction. **Researcher interpretation:** Can inform local protection design; listing does not establish the proposed mechanism or an independent health outcome.
+- **DOH heat-health preparedness** **Costs:** **Currency:** PHP **Note:** No comparable local lifecycle cost quote verified. No USD or FX conversion is invented; a fund envelope is not a unit intervention cost. **Known, inferred, uncertain:** **Known:** DOH bureau index identifies March 2025 interim guidance and a service-continuity annex. **Inferred:** Potential usefulness depends on delivery, inclusion and upkeep. **Uncertain:** Current reach, actual use, costs, effect and applicable local conditions. **Countries:**
+- PH
+
+**Places:**
+- PH
+
+**Institutional owner:** DOH **Evidence:**
+- Official guidance or data **Kind:** claimed DOH bureau index identifies March 2025 interim guidance and a service-continuity annex. **Source:** [DOH HFDB interim heat guidance ](https://sites.google.com/view/doh-hfdb/2025-q1-updates/dm-2025-0114)
+
+**Current status:** Guidance identified; full annex and implementation/evaluation not verified. **Published fact:** DOH bureau index identifies March 2025 interim guidance and a service-continuity annex. **Researcher interpretation:** Can inform local protection design; listing does not establish the proposed mechanism or an independent health outcome.
+- **Quezon City Heat Action Team** **Costs:** **Currency:** PHP **Note:** No comparable local lifecycle cost quote verified. No USD or FX conversion is invented; a fund envelope is not a unit intervention cost. **Known, inferred, uncertain:** **Known:** City’s June 2026 account assigns planning, response and health-surveillance responsibilities. **Inferred:** Potential usefulness depends on delivery, inclusion and upkeep. **Uncertain:** Current reach, actual use, costs, effect and applicable local conditions. **Countries:**
+- PH
+
+**Places:**
+- Quezon City
+
+**Institutional owner:** Quezon City **Evidence:**
+- Reported, not evaluated **Kind:** claimed City’s June 2026 account assigns planning, response and health-surveillance responsibilities. **Source:** [Quezon City Heat Action Team ](https://quezoncity.gov.ph/qc-beefs-up-action-vs-extreme-heat-designates-chief-heat-action-officers/)
+
+**Current status:** Team reported; full adopted HAP, signed instrument and recurring budget not verified. **Published fact:** City’s June 2026 account assigns planning, response and health-surveillance responsibilities. **Researcher interpretation:** Can inform local protection design; listing does not establish the proposed mechanism or an independent health outcome.
+- **QC community libraries as cooling centres** **Costs:** **Currency:** PHP **Note:** No comparable local lifecycle cost quote verified. No USD or FX conversion is invented; a fund envelope is not a unit intervention cost. **Known, inferred, uncertain:** **Known:** May 2026 city notice designates 32 air-conditioned libraries, with published Monday–Friday 08:00–17:00 hours. **Inferred:** Potential usefulness depends on delivery, inclusion and upkeep. **Uncertain:** Current reach, actual use, costs, effect and applicable local conditions. **Countries:**
+- PH
+
+**Places:**
+- Quezon City
+
+**Institutional owner:** Quezon City Public Library / city government **Evidence:**
+- Reported, not evaluated **Kind:** claimed May 2026 city notice designates 32 air-conditioned libraries, with published Monday–Friday 08:00–17:00 hours. **Source:** [QC library cooling centres ](https://quezoncity.gov.ph/qcpl-libraries-as-cooling-centers/)
+
+**Current status:** Published capacity/offer is not verified attendance, disability access, outage resilience or measured health benefit; hours are worth reconfirming. **Published fact:** May 2026 city notice designates 32 air-conditioned libraries, with published Monday–Friday 08:00–17:00 hours. **Researcher interpretation:** Can inform local protection design; listing does not establish the proposed mechanism or an independent health outcome.
+- **QC 2025 green-building code launch** **Costs:** **Currency:** PHP **Note:** No comparable local lifecycle cost quote verified. No USD or FX conversion is invented; a fund envelope is not a unit intervention cost. **Known, inferred, uncertain:** **Known:** City reports a November 2025 code launch aligned with climate planning. **Inferred:** Potential usefulness depends on delivery, inclusion and upkeep. **Uncertain:** Current reach, actual use, costs, effect and applicable local conditions. **Countries:**
+- PH
+
+**Places:**
+- Quezon City
+
+**Institutional owner:** Quezon City **Evidence:**
+- Reported, not evaluated **Kind:** claimed City reports a November 2025 code launch aligned with climate planning. **Source:** [QC Green Building Code launch ](https://quezoncity.gov.ph/quezon-city-launches-landmark-green-building-code-to-accelerate-climate-action/)
+
+**Current status:** Announcement reviewed; full ordinance and enforcement not verified. **Published fact:** City reports a November 2025 code launch aligned with climate planning. **Researcher interpretation:** Can inform local protection design; listing does not establish the proposed mechanism or an independent health outcome.
+- **2026 national school preparedness memorandum circulation** **Costs:** **Currency:** PHP **Note:** No comparable local lifecycle cost quote verified. No USD or FX conversion is invented; a fund envelope is not a unit intervention cost. **Known, inferred, uncertain:** **Known:** San Pablo schools-division page circulates DepEd Memorandum 064, series 2026. **Inferred:** Potential usefulness depends on delivery, inclusion and upkeep. **Uncertain:** Current reach, actual use, costs, effect and applicable local conditions. **Countries:**
+- PH
+
+**Places:**
+- PH
+
+**Institutional owner:** DepEd **Evidence:**
+- Reported, not evaluated **Kind:** claimed San Pablo schools-division page circulates DepEd Memorandum 064, series 2026. **Source:** [DepEd Division circulation of memorandum 064 2026 ](https://www.depedsanpablo.com/deped-memorandum-no-064-s-2026-anticipatory-action-preparedness-and-protective-measures-for-the-2026-2027-super-el-nino/)
+
+**Current status:** Title/circulation verified only; do not implement thresholds from media summaries. **Published fact:** San Pablo schools-division page circulates DepEd Memorandum 064, series 2026. **Researcher interpretation:** Can inform local protection design; listing does not establish the proposed mechanism or an independent health outcome.
+- **Tuguegarao time-limited blended learning response** **Costs:** **Currency:** PHP **Note:** No comparable local lifecycle cost quote verified. No USD or FX conversion is invented; a fund envelope is not a unit intervention cost. **Known, inferred, uncertain:** **Known:** PIA describes a local board decision for blended learning during April–May 2024. **Inferred:** Potential usefulness depends on delivery, inclusion and upkeep. **Uncertain:** Current reach, actual use, costs, effect and applicable local conditions. **Countries:**
+- PH
+
+**Places:**
+- Tuguegarao
+
+**Institutional owner:** Tuguegarao local school and health boards **Evidence:**
+- Reported, not evaluated **Kind:** claimed PIA describes a local board decision for blended learning during April–May 2024. **Source:** [Tuguegarao blended learning implementation via PIA ](https://pia.gov.ph/news/tuguegarao-city-rolls-out-blended-learning-amid-high-heat-index/)
+
+**Current status:** Historical response, not verified current schedule or an independently evaluated learning/health intervention. **Published fact:** PIA describes a local board decision for blended learning during April–May 2024. **Researcher interpretation:** Can inform local protection design; listing does not establish the proposed mechanism or an independent health outcome.
+- **PRC / IFRC REACH heat work** **Costs:** **Currency:** PHP **Note:** No comparable local lifecycle cost quote verified. No USD or FX conversion is invented; a fund envelope is not a unit intervention cost. **Known, inferred, uncertain:** **Known:** IFRC’s 2025 report documents community resilience training and heat-awareness work in communities and schools. **Inferred:** Potential usefulness depends on delivery, inclusion and upkeep. **Uncertain:** Current reach, actual use, costs, effect and applicable local conditions. **Countries:**
+- PH
+
+**Places:**
+- Quezon City
+- Marikina
+- Rizal
+- Cebu
+
+**Institutional owner:** PRC with IFRC and Zurich Climate Resilience Alliance **Evidence:**
+- Reported, not evaluated **Kind:** claimed IFRC’s 2025 report documents community resilience training and heat-awareness work in communities and schools. **Source:** [IFRC Philippines mid-year report 2025 ](https://go-api.ifrc.org/api/downloadfile/90159/Philippines_INP_MYR_2025)
+
+**Current status:** Implementer report; outputs and reach claims are not independently evaluated prevention outcomes. **Published fact:** IFRC’s 2025 report documents community resilience training and heat-awareness work in communities and schools. **Researcher interpretation:** Can inform local protection design; listing does not establish the proposed mechanism or an independent health outcome.
+- **HEATMAP-PH** **Costs:** **Currency:** PHP **Note:** No comparable local lifecycle cost quote verified. No USD or FX conversion is invented; a fund envelope is not a unit intervention cost. **Known, inferred, uncertain:** **Known:** SCO project page describes satellite/socioeconomic mapping, a planned heat-vulnerability portal and later ground sensors. **Inferred:** Potential usefulness depends on delivery, inclusion and upkeep. **Uncertain:** Current reach, actual use, costs, effect and applicable local conditions. **Countries:**
+- PH
+
+**Places:**
+- Manila
+- Makati
+- Quezon City
+
+**Institutional owner:** SCO Philippines and named project partners **Evidence:**
+- Design concept **Kind:** claimed SCO project page describes satellite/socioeconomic mapping, a planned heat-vulnerability portal and later ground sensors. **Source:** [PhilSA HEATMAP-PH project ](https://www.spaceclimateobservatory.org/heatmap-ph)
+
+**Current status:** Project design and component maps are described; completed portal/sensor deployment and operational validation not verified. **Published fact:** SCO project page describes satellite/socioeconomic mapping, a planned heat-vulnerability portal and later ground sensors. **Researcher interpretation:** Can inform local protection design; listing does not establish the proposed mechanism or an independent health outcome.
+- **UNIDO / DENR cooling-sector transition** **Costs:** **Currency:** PHP **Note:** No comparable local lifecycle cost quote verified. No USD or FX conversion is invented; a fund envelope is not a unit intervention cost. **Known, inferred, uncertain:** **Known:** UNIDO reports an August 2026 launch/technical mission on phase-out, safer alternatives and servicing capacity. **Inferred:** Potential usefulness depends on delivery, inclusion and upkeep. **Uncertain:** Current reach, actual use, costs, effect and applicable local conditions. **Countries:**
+- PH
+
+**Places:**
+- PH
+
+**Institutional owner:** DENR Philippine Ozone Desk / UNIDO **Evidence:**
+- Reported, not evaluated **Kind:** claimed UNIDO reports an August 2026 launch/technical mission on phase-out, safer alternatives and servicing capacity. **Source:** [UNIDO Philippines cooling programme 2026 ](https://www.unido.org/news/unido-supports-philippines-advancing-sustainable-cooling)
+
+**Current status:** Programme activity reported; equipment-specific refrigerant/GWP and beneficiary affordability not verified. **Published fact:** UNIDO reports an August 2026 launch/technical mission on phase-out, safer alternatives and servicing capacity. **Researcher interpretation:** Can inform local protection design; listing does not establish the proposed mechanism or an independent health outcome.
+- **QC cooling roadmap and city-network participation** **Costs:** **Currency:** PHP **Note:** No comparable local lifecycle cost quote verified. No USD or FX conversion is invented; a fund envelope is not a unit intervention cost. **Known, inferred, uncertain:** **Known:** C40 published a cooling-roadmap RFP; QC reports participation in the Cool Cities Accelerator. **Inferred:** Potential usefulness depends on delivery, inclusion and upkeep. **Uncertain:** Current reach, actual use, costs, effect and applicable local conditions. **Countries:**
+- PH
+
+**Places:**
+- Quezon City
+
+**Institutional owner:** QC / C40 **Evidence:**
+- Reported, not evaluated **Kind:** claimed C40 published a cooling-roadmap RFP; QC reports participation in the Cool Cities Accelerator. **Source:** [C40 Quezon City cooling roadmap RFP ](https://www.c40.org/wp-content/uploads/2025/05/QC-RfP-Cooling-roadmap-development.pdf)
+- Reported, not evaluated **Kind:** claimed City reports participation in the C40 Cool Cities Accelerator. **Source:** [Quezon City urban heat accelerator participation ](https://quezoncity.gov.ph/quezon-city-joins-global-effort-vs-deadly-extreme-heat/)
+
+**Current status:** Historical preparation route, not verified current open funding or completed outcomes. **Published fact:** C40 published a cooling-roadmap RFP; QC reports participation in the Cool Cities Accelerator. **Researcher interpretation:** Can inform local protection design; listing does not establish the proposed mechanism or an independent health outcome.
+- **National city heat-health risk analysis (2020 publication)** **Costs:** **Currency:** PHP **Note:** No comparable local lifecycle cost quote verified. No USD or FX conversion is invented; a fund envelope is not a unit intervention cost. **Known, inferred, uncertain:** **Known:** The study analyses 139 cities using historical surface, population and social indicators; high exposure and overall risk are different components. **Inferred:** Potential usefulness depends on delivery, inclusion and upkeep. **Uncertain:** Current reach, actual use, costs, effect and applicable local conditions. **Countries:**
+- PH
+
+**Places:**
+- PH
+
+**Institutional owner:** Research authors/institutions identified in the original paper **Evidence:**
+- Measured in a study **Kind:** modelled The study analyses 139 cities using historical surface, population and social indicators; high exposure and overall risk are different components. **Source:** [2020 Philippine city heat-health risk study ](https://www.nature.com/articles/s41467-020-15218-8)
+
+**Current status:** Historical composite risk assessment, not current measurement or an intervention evaluation. Mortality inputs include pre-2015 background data; thresholds are not transferable clinical limits. **Published fact:** The study analyses 139 cities using historical surface, population and social indicators; high exposure and overall risk are different components. **Researcher interpretation:** Can inform local protection design; listing does not establish the proposed mechanism or an independent health outcome.
+- **PSF adaptation proposal mechanism** **Costs:** **Currency:** PHP **Note:** No comparable local lifecycle cost quote verified. No USD or FX conversion is invented; a fund envelope is not a unit intervention cost. **Known, inferred, uncertain:** **Known:** CCC describes eligible adaptation project preparation and submission requirements. **Inferred:** Potential usefulness depends on delivery, inclusion and upkeep. **Uncertain:** Current reach, actual use, costs, effect and applicable local conditions. **Countries:**
+- PH
+
+**Places:**
+- PH
+
+**Institutional owner:** PSF Board / Secretariat; CCC information route **Evidence:**
+- Official guidance or data **Kind:** claimed CCC describes eligible adaptation project preparation and submission requirements. **Source:** [CCC People’s Survival Fund ](https://climate.gov.ph/peoples-survival-fund)
+
+**Current status:** Adaptation-finance route; no selected city heat grant, open call or available allocation verified. **Published fact:** CCC describes eligible adaptation project preparation and submission requirements. **Researcher interpretation:** Can inform local protection design; listing does not establish the proposed mechanism or an independent health outcome.
+
+## Who is working on it
+
+Listing does not imply partnership, endorsement or ranking.
+
+- **[DOST–PAGASA ](https://www.pagasa.dost.gov.ph/)** Provides heat-index information; DOST describes its localised iHeatMAP service.
+- **[Department of Health ](https://doh.gov.ph/)** DOH resources identify 2025 heat-impact guidelines and facility continuity planning.
+- **[Department of Labor and Employment ](https://dole.gov.ph/)** The 2018 OSH law sets the protection framework; PMAP confirms circulation of new 2026 heat guidance. Full new advisory not reviewed.
+- **[Department of Education ](https://www.deped.gov.ph/)** A schools division circulates the 2026 El Niño preparedness/protection memorandum; exact operating rules need the full document.
+- **[Department of Energy ](https://www.doe.gov.ph/)** Legal-deposit records list AC labelling and performance framework instruments.
+- **[Department of Public Works and Highways ](https://www.dpwh.gov.ph/)** Its Green Building Code addresses cooling-related envelope and systems requirements for qualifying buildings.
+- **[Climate Change Commission ](https://climate.gov.ph/)** Publishes the NAP and provides PSF adaptation-finance information.
+- **[People’s Survival Fund / Board route ](https://climate.gov.ph/peoples-survival-fund)** Provides an adaptation project-finance mechanism; no heat-specific award is asserted in this review.
+- **[Quezon City Government ](https://quezoncity.gov.ph/)** Reports a Heat Action Team and library cooling centres, alongside building-code and city-network activity.
+- **[Philippine Red Cross ](https://redcross.org.ph/)** PRC publishes heat-emergency communications; IFRC documents REACH heat-awareness and community work.
+- **[International Federation of Red Cross and Red Crescent Societies ](https://www.ifrc.org/)** Its 2025 Philippines report documents REACH heat awareness and community resilience work.
+- **[Zurich Climate Resilience Alliance ](https://zcralliance.org/)** The alliance’s Philippines page describes urban heat/flood resilience work through PRC.
+- **[C40 Cities ](https://www.c40.org/)** Published a QC cooling-roadmap RFP; city government reports accelerator participation.
+- **[Philippine Space Agency ](https://philsa.gov.ph/)** Listed as a HEATMAP-PH project partner in a project accepted in May 2026.
+- **[Adamson University STARlab ](https://www.adamson.edu.ph/)** Named in the HEATMAP-PH partner list for heat-risk mapping work.
+- **[Komunidad Global Pte. Ltd. ](https://www.komunidad.global/)** IFRC names Komunidad among coordination partners in early-warning work; CTCN identifies it as a private-sector climate-data organisation active in the Philippines.
+- **[People Management Association of the Philippines ](https://pmap.org.ph/)** Circulated a 27 October 2026 account of DOLE’s new heat advisory to members.
+
+Other snapshots: [Bangladesh](https://beattheheat.asia/countries/bangladesh/) · [India](https://beattheheat.asia/countries/india/) · [Indonesia](https://beattheheat.asia/countries/indonesia/) · [Nepal](https://beattheheat.asia/countries/nepal/) · [Sri Lanka](https://beattheheat.asia/countries/sri-lanka/) · [Thailand](https://beattheheat.asia/countries/thailand/) · [Solutions library](https://beattheheat.asia/solutions/)
+
+---
+Human edition: https://beattheheat.asia/countries/philippines/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

@@ -1,0 +1,49 @@
+Common Shade evidence pack: Heat action plans
+Action · https://beattheheat.asia/actions/#hap · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- What is "Heat action plans", who would carry it out, and over what time?
+- Which vicious cycles could it help interrupt, and how?
+- What does it depend on to work, and what side effects are noted?
+- What examples does the pack give, and what do their sources show?
+- How would progress be measured?
+- What would I need to find out before proposing this in my place?
+
+CONTENT
+
+Heat action plans
+Early warnings, public cooling spaces and outreach to the people most at risk prevent illness before it reaches hospital.
+Who could act: City and local governments, Health authorities, Weather and climate services.
+Over what time: season.
+How progress could be measured: Hours from heat alert to a coordinated response.
+
+EXAMPLE
+Ahmedabad launched South Asia’s first city heat action plan in 2013; by June 2026, India had more than 250. In Nepal, Dhangadhi, which passes 40 °C every year, published a heat action plan in 2025 with the Nepal Red Cross Society. In Bangladesh, Practical Action is working with communities and local authorities in Khulna to build a heat early warning system that responds to them, where none existed before. [https://www.climatecentre.org/publications/16234/dhangadhi-heat-action-plan-2025/] [https://practicalaction.org/news-stories/living-in-a-hotter-world-a-mission-to-find-hidden-urban-hotspots/]
+
+VICIOUS CYCLES IT COULD HELP INTERRUPT
+- The overwhelmed-clinic loop: Heat illness floods clinics. Overwhelmed clinics treat people later, and more cases become severe.
+
+GUIDES
+- GHHIN, UNDRR and WMO, 2025 (first edition): Extreme Heat Risk Governance Framework and Toolkit: a self-assessment of how ready institutions are, and how to plan, act and learn [https://heathealth.info/resources/heat-gov-framework/]
+- Global Heat Health Information Network (GHHIN): Heat action plans and case studies, including Indian cities [https://heathealth.info/heat-action-plans-and-case-studies/]
+- The Nature Conservancy and partners, 2019: Heat Action Planning Guide for Neighborhoods of Greater Phoenix: planning heat action with residents [https://globalfutures.asu.edu/sustainable-cities/wp-content/uploads/sites/17/2023/09/Phoenix-Arizona-Heat-Action-Plan.pdf]
+- WHO and WMO, 2015, in the GHHIN resource library: Heatwaves and health: guidance on warning-system development [https://heathealth.info/resources/heatwaves-and-health-guidance-on-warning-system-development/]
+- Council on Energy, Environment and Water (CEEW), 2025: How Extreme Heat is Impacting India: district-level heat risk for all 734 districts, to target plans [https://www.ceew.in/sites/default/files/ceew-how-extreme-heat-is-impacting-india-final-web-file.pdf]
+- Council on Energy, Environment and Water (CEEW): How can heat action plans make Thane a heat-resilient city? [https://www.ceew.in/publications/how-can-thane-city-tackle-heatwaves-risks-with-heat-action-plan]
+- National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026: Heat Resilient Cities Framework: a yearly city intervention plan, and a long-term heat resilience perspective that extends a city's heat action plan (pp. 1, 3-4, 10) [https://niua.in/publication-details/Heat_Resilient_Cities_Framework]
+
+SOURCES
+- Red Cross Red Crescent Climate Centre: Dhangadhi Heat Action Plan 2025: https://www.climatecentre.org/publications/16234/dhangadhi-heat-action-plan-2025/
+- Practical Action: Living in a Hotter World: https://practicalaction.org/news-stories/living-in-a-hotter-world-a-mission-to-find-hidden-urban-hotspots/
+- GHHIN, UNDRR and WMO, 2025 (first edition): Extreme Heat Risk Governance Framework and Toolkit: a self-assessment of how ready institutions are, and how to plan, act and learn: https://heathealth.info/resources/heat-gov-framework/
+- Global Heat Health Information Network (GHHIN): Heat action plans and case studies, including Indian cities: https://heathealth.info/heat-action-plans-and-case-studies/
+- The Nature Conservancy and partners, 2019: Heat Action Planning Guide for Neighborhoods of Greater Phoenix: planning heat action with residents: https://globalfutures.asu.edu/sustainable-cities/wp-content/uploads/sites/17/2023/09/Phoenix-Arizona-Heat-Action-Plan.pdf
+- WHO and WMO, 2015, in the GHHIN resource library: Heatwaves and health: guidance on warning-system development: https://heathealth.info/resources/heatwaves-and-health-guidance-on-warning-system-development/
+- Council on Energy, Environment and Water (CEEW), 2025: How Extreme Heat is Impacting India: district-level heat risk for all 734 districts, to target plans: https://www.ceew.in/sites/default/files/ceew-how-extreme-heat-is-impacting-india-final-web-file.pdf
+- Council on Energy, Environment and Water (CEEW): How can heat action plans make Thane a heat-resilient city?: https://www.ceew.in/publications/how-can-thane-city-tackle-heatwaves-risks-with-heat-action-plan
+- National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026: Heat Resilient Cities Framework: a yearly city intervention plan, and a long-term heat resilience perspective that extends a city's heat action plan (pp. 1, 3-4, 10): https://niua.in/publication-details/Heat_Resilient_Cities_Framework

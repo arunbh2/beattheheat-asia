@@ -1,0 +1,536 @@
+Common Shade evidence pack: Nepal
+Country · https://beattheheat.asia/countries/nepal/ · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- What does extreme heat already do to people in Nepal, according to this pack, and how sure is each point?
+- Which plans, warnings and rules for heat exist in Nepal, and which have been evaluated?
+- Who could act on heat in Nepal, and who could pay?
+- What does this pack say is still unknown or unmeasured in Nepal?
+- If I work in one city in Nepal, which parts of this pack apply, and what would I still need to find out locally?
+- Which sources would I read first to check the strongest claim here?
+
+CONTENT
+
+> Extreme heat in Nepal: plans, warnings, rules at work, cooling, money for protection, cities, programmes and who is working on it.
+
+Country snapshot
+
+# Nepal
+
+Heat, the plans and rules that shape protection, the organisations at work, and where a shared effort could help. Researched in October 2026.
+
+**Watch: Nepal and heat** · 0:41 · narrated, captions in the picture
+
+**How to read this.** Facts link to their sources; anything marked proposed or inferred is the researchers’ suggestion, not a commitment by anyone named. Gaps are gaps in what we found, not faults.
+
+## Heat context
+
+**Climate:** Official guidance or data Terai lowland heat includes seasonally drier pre-monsoon exposure and humid monsoon conditions. Climate suitability would be worth assessing at the actual place, season and task. [DHM post-monsoon precipitation and temperature summary, 2024 ](https://www.dhm.gov.np/uploads/dhm/climateService/ON_2024-Preliminary_precipitation_and_temperature_summary.pdf) · [Dhangadhi Heat Action Plan ](https://www.climatecentre.org/wp-content/uploads/Dhangadhi-Heat-Action-Plan-2025.pdf) · [RAIN heat early-action implementation account ](https://nepal.peopleinneed.net/en/from-forecast-to-early-action-how-the-rain-programme-acted-on-rising-heat-13033gp) **Trends:** Reported, not evaluated National synthesis describes intensifying heat concern in the Terai and increasing exposure elsewhere. DHM2024 post-monsoon report documents above-normal southern minimum temperatures; this seasonal observation is not a long-term trend estimate. [Living with Heat in Nepal - original publisher overview ](https://www.ceew.in/publications/nepal-heat-health-action) · [DHM post-monsoon precipitation and temperature summary, 2024 ](https://www.dhm.gov.np/uploads/dhm/climateService/ON_2024-Preliminary_precipitation_and_temperature_summary.pdf) **Night heat:** Official guidance or data Dhangadhi plan describes reduced night-time recovery in monsoon months. Comparable occupied-bedroom night records across all eight cities not verified. [Dhangadhi Heat Action Plan ](https://www.climatecentre.org/wp-content/uploads/Dhangadhi-Heat-Action-Plan-2025.pdf) **Measurement caution:** Keep dry-bulb air temperature, Heat Index, WBGT, land-surface and occupied-room temperature separate. No national exposure rank assigned.
+
+## Official heat plans
+
+- Official guidance or data NDRRMA2024 plan sets responsible/supporting agencies for warnings, water, health, schools, electricity and workplaces. [NDRRMA national heatwave action plan 2024 ](https://dpnet.org.np/uploads/files/heatwave_eng_webpublish%202026-01-20%2005-39-23.pdf)
+- Official guidance or data An additional preparedness/early-action/rapid-response heat plan is catalogued as 2025 and references BS2082; selected Nepali text reviewed, with extraction limits. [NDRRMA preparedness, early action and rapid response heat plan ](https://dpnet.org.np/uploads/files/Extreme_Heat_Wave_%E0%A4%AA%E0%A4%B0%E0%A4%A4%E0%A4%95%E0%A4%B0%E0%A4%AF_%E0%A4%95%E0%A4%B0%E0%A4%AF%E0%A4%AF%E0%A4%9C%E0%A4%A8%202026-01-20%2004-25-19.pdf)
+- Official guidance or data Government Bara office lists a heat-and-drought preparedness/early-action/rapid-response plan BS2083. CEEW/GHHIN describes the 2026 national plan and anticipatory-action framework. Current full national text, signed adoption decision, annexes and finance rules not fully retrieved. [Bara District Administration Office listing of heat-and-drought plan BS2083 ](https://daobara.moha.gov.np/en/post/ata-yathha-ka-gara-ma-va-ta-ha-va-ka-lhara-l-heat-wave-ra-khada-ra-ka-l-ga-pa-ra) · [Living with Heat in Nepal - report ](https://www.ceew.in/sites/default/files/ceew-nepal-warming-world-heat-health-action.pdf)
+- Official guidance or data Nepalgunj 2023 and Dhangadhi 2025 HAPs are published. Biratnagar/Siddharthanagar planning is reported by NRCS, but final municipal texts and appropriation decisions not retrieved. [Nepalgunj Heat Action Plan ](https://preparecenter.org/wp-content/uploads/2023/07/Nepalgunj-Heat-Action-Plan-2023.pdf) · [Dhangadhi Heat Action Plan ](https://www.climatecentre.org/wp-content/uploads/Dhangadhi-Heat-Action-Plan-2025.pdf) · [NRCS Leading Change Through Heat Action leaflet ](https://preparecenter.org/wp-content/uploads/2025/05/Nepal-Heat-Action-Leaflet-Aug24.pdf)
+
+## Legal basis
+
+Official guidance or data DRRM Act 2017 expressly includes heat wave under natural disaster and establishes multilevel disaster arrangements and funds. A published HAP does not by itself establish a new offence, entitlement or budget release. [Disaster Risk Reduction and Management Act 2017 ](https://faolex.fao.org/docs/pdf/NEP228597.pdf)
+
+## Agencies responsible
+
+- **NDRRMA / Ministry of Home Affairs** **Institution type:** nat **Function:** National DRRM framework and heat coordination [NDRRMA national heatwave action plan 2024 ](https://dpnet.org.np/uploads/files/heatwave_eng_webpublish%202026-01-20%2005-39-23.pdf) · [Disaster Risk Reduction and Management Act 2017 ](https://faolex.fao.org/docs/pdf/NEP228597.pdf)
+- **DHM / meteorological authority** **Institution type:** met **Function:** Weather observations, forecasts and heat bulletins [DHM post-monsoon precipitation and temperature summary, 2024 ](https://www.dhm.gov.np/uploads/dhm/climateService/ON_2024-Preliminary_precipitation_and_temperature_summary.pdf) · [DHM heat and cold wave monitoring archive ](https://dhm.gov.np/climate-services/heat-and-cold-wave-monitoring)
+- **Municipal executives, LDMCs, wards and LEOCs** **Institution type:** city **Function:** Local planning, communication and protection delivery; confirm accepted current mandates [Nepalgunj Heat Action Plan ](https://preparecenter.org/wp-content/uploads/2023/07/Nepalgunj-Heat-Action-Plan-2023.pdf) · [Dhangadhi Heat Action Plan ](https://www.climatecentre.org/wp-content/uploads/Dhangadhi-Heat-Action-Plan-2025.pdf) · [Disaster Risk Reduction and Management Act 2017 ](https://faolex.fao.org/docs/pdf/NEP228597.pdf)
+- **District disaster management committees / administration** **Institution type:** nat **Function:** District coordination and supporting arrangements [NDRRMA national heatwave action plan 2024 ](https://dpnet.org.np/uploads/files/heatwave_eng_webpublish%202026-01-20%2005-39-23.pdf) · [Disaster Risk Reduction and Management Act 2017 ](https://faolex.fao.org/docs/pdf/NEP228597.pdf)
+- **Health offices, municipal health units and hospitals** **Institution type:** health **Function:** Preparedness, referral and reporting; current clinical protocols not fully appraised [NDRRMA national heatwave action plan 2024 ](https://dpnet.org.np/uploads/files/heatwave_eng_webpublish%202026-01-20%2005-39-23.pdf) · [NRCS/municipal anticipatory action in Nepalgunj ](https://redcross.eu/projects/how-the-nepal-red-cross-society-and-communities-in-nepalgunj-are-getting-ahead-of-extreme-heat)
+- **Department of Labour and Occupational Safety / labour offices and employers** **Institution type:** nat **Function:** Workplace safety and heat-specific standard publication; technical schedule and local enforcement require confirmation [Labour Act 2017 English translation ](https://image.mfa.go.th/mfa/0/5bdN9SBnCZ/File_PDF/The-Labor-Act-2017-2074.pdf) · [Workplace maximum heat-level standard BS2082 - official publication record ](https://dolos.gov.np/content/25/maximum-heat-levels--standards--for-workplaces--2082/)
+- **NEA, water operators and education authorities** **Institution type:** utilities **Function:** Distinct continuity/service functions in heat plans; not a single agency or accepted Common Shade partnership [NDRRMA national heatwave action plan 2024 ](https://dpnet.org.np/uploads/files/heatwave_eng_webpublish%202026-01-20%2005-39-23.pdf) · [Nepalgunj Heat Action Plan ](https://preparecenter.org/wp-content/uploads/2023/07/Nepalgunj-Heat-Action-Plan-2023.pdf)
+
+## Warnings
+
+**Documented:** Official guidance or data DHM provides heat monitoring/bulletins; municipalities and humanitarian partners connect forecasts with local action. RIMES/DHM held a national heat impact-based forecasting demonstration workshop inJuly 2026. [DHM heat and cold wave monitoring archive ](https://dhm.gov.np/climate-services/heat-and-cold-wave-monitoring) · [DHM/RIMES national heat impact-based forecasting demonstration workshop ](https://www.rimes.int/rimes-supports-nepals-national-demonstration-of-ibf-for-heat-extremes/) **Channels:** Reported, not evaluated RAIN reports FCHV visits, radio and public announcements in Bajika/Maithili; municipal/Red Cross arrangements include non-smartphone communication. [RAIN heat early-action implementation account ](https://nepal.peopleinneed.net/en/from-forecast-to-early-action-how-the-rain-programme-acted-on-rising-heat-13033gp) · [NRCS/municipal anticipatory action in Nepalgunj ](https://redcross.eu/projects/how-the-nepal-red-cross-society-and-communities-in-nepalgunj-are-getting-ahead-of-extreme-heat) **Thresholds:** Official guidance or data Dhangadhi HAP proposes daily maximum Heat Index40.1°C for two consecutive days or41.6°C for one or more days, derived from 1979–2023 ERA5 weather analysis. Mortality gaps/low variance prevented local epidemiological modelling. Confirm version/metric/forecast product and authorisation before operation. [Dhangadhi Heat Action Plan ](https://www.climatecentre.org/wp-content/uploads/Dhangadhi-Heat-Action-Plan-2025.pdf) **Cash trigger:** No universal nationwide heat-triggered social-protection or insurance payout entitlement verified. **Limits:** National percentile bulletin, local Heat Index proposal and a funding protocol are distinct triggers. No live alert or universally safe temperature supplied.
+
+## Rules for heat at work
+
+**Law:** Official guidance or data Labour Act 2017 sections68–69 require workplace safety/health policy and employer protections; sections75–77 address reporting and immediate danger procedures. Primary English translation reviewed, not a current legal opinion. [Labour Act 2017 English translation ](https://image.mfa.go.th/mfa/0/5bdN9SBnCZ/File_PDF/The-Labor-Act-2017-2074.pdf) **Heat directions:** Official guidance or data NDRRMA2024 action plan directs factories/workshops to provide protective conditions including ventilation, water and rest. Health-insurance wording is a planning direction, not evidence of parametric payout coverage. [NDRRMA national heatwave action plan 2024 ](https://dpnet.org.np/uploads/files/heatwave_eng_webpublish%202026-01-20%2005-39-23.pdf) **Heat specific standard:** Official guidance or data Department of Labour and Occupational Safety officially lists the workplace maximum heat-level standard BS2082. Existence verified; full technical schedule, measurement conditions and current legal implementation details not independently appraised. [Workplace maximum heat-level standard BS2082 - official publication record ](https://dolos.gov.np/content/25/maximum-heat-levels--standards--for-workplaces--2082/) **Numeric WBGT limit verification:** Numerical schedule not verified from primary text; standard existence is verified. Do not infer absence of heat rules or import foreign-country thresholds. **Paid rest and coverage:** Heat-specific paid-rest entitlement, self-employed coverage, enforcement and current technical schedules require verification. **Worker evidence:** Measured in a study Original cross-sectional study documents outdoor-worker heat awareness, practices and perceived risks. It is not a measured productivity-loss or clinical intervention study. [Outdoor workers heat knowledge, attitudes and practices study ](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0329557)
+
+## Cooling and buildings
+
+- Official guidance or data EU BEEN project and consortium promote climate-responsive design, retrofits, skills and municipal policy. Listed project period endedJanuary 2026; current extension and municipality-specific enforceable by-laws not verified. [EU Building Energy Efficiency in Nepal project ](https://international-partnerships.ec.europa.eu/policies/programming/projects/building-energy-efficiency-nepal-been_en) · [BEEN implementer and consortium description ](https://been.minergynepal.com/what-is-been/)
+- Official guidance or data Nepal is listed in the Global Cooling Pledge. Publication of a current national cooling plan or equivalent and binding thermal-performance requirements not verified in this review. [Global Cooling Pledge participant register and commitments ](https://www.cop28.com/en/global-cooling-pledge-for-cop28)
+- Official guidance or data UNEP treaty register lists Nepal Kigali ratification6August 2025. Verify appliance efficiency, refrigerant safety, technician competency and lifecycle management separately. [UNEP Nepal treaty and ozone profile ](https://ozone.unep.org/countries/profile/npl)
+
+## Money for protection
+
+- **Public disaster-management funds and municipal sector budgets** [Disaster Risk Reduction and Management Act 2017 ](https://faolex.fao.org/docs/pdf/NEP228597.pdf) **Access:** Via authorised public counterpart and applicable fund/budget rules; no open NGO entitlement. **Limits:** Act sections22–23 establish funds. Central fund excludes regular administration; do not assume it pays all permanent core/maintenance costs. Actual local heat allocations/releases not verified.
+- **IFRC-DREF heat anticipatory action** [NRCS/municipal anticipatory action in Nepalgunj ](https://redcross.eu/projects/how-the-nepal-red-cross-society-and-communities-in-nepalgunj-are-getting-ahead-of-extreme-heat) · [Living with Heat in Nepal - report ](https://www.ceew.in/sites/default/files/ceew-nepal-warming-world-heat-health-action.pdf) **Access:** Through NRCS/IFRC approved processes; no direct Common Shade application route verified. **Limits:** Programme account identifies DREF. sEAP2025NP02 full file inaccessible; exact approval, budget, activation and payment records excluded from verified fields.
+- **RAIN** [RAIN heat early-action implementation account ](https://nepal.peopleinneed.net/en/from-forecast-to-early-action-how-the-rain-programme-acted-on-rising-heat-13033gp) · [FCDO RAIN programme registry ](https://devtracker.fcdo.gov.uk/programme/GB-GOV-1-400018/summary) **Access:** Contribute through existing programme/municipal relationships subject to agreement; not an open call. **Limits:** Implementation status verified. Programme aims on shock-responsive protection do not prove heat cash transfers were paid.
+- **ZCRA-backed heat and education work** [Practical Action school cooling and heat learning pilot ](https://zcralliance.org/blogs/international-youth-day/) · [Madhesh public-school heat perception study ](https://www.mercycorps.org/sites/default/files/2025-05/heat-study-final-report-jun-2025.pdf) **Access:** Existing member/implementer relationships; no unsolicited grant route established. **Limits:** Do not label alliance a directly accessible pooled fund or equate project activity with evaluated health impact.
+- **BEEN** [EU Building Energy Efficiency in Nepal project ](https://international-partnerships.ec.europa.eu/policies/programming/projects/building-energy-efficiency-nepal-been_en) · [BEEN implementer and consortium description ](https://been.minergynepal.com/what-is-been/) **Access:** Historical project/consortium learning; extension and current finance products not verified. **Limits:** Finance-product targets are not a verified available loan. Do not prescribe debt for non-revenue public protection.
+
+## Costs
+
+**Currency:** NPR **Verification:** Not verified **Note:** No comparable installed/operating package costs verified. a blank is not zero; programme budgets are not household unit prices.
+
+## Gaps in what we found
+
+- National all-city comparative exposure ranking not verified.
+- Current national plan and framework full text/adoption/finance annexes incomplete.
+- Comparable indoor/night exposure, health surveillance and worker income outcomes limited in collected evidence.
+- Specific municipal heat budgets, paid rest, current building standards and current finance eligibility require confirmation.
+
+## Known, inferred, uncertain
+
+**Known:** Plans, warnings, pilots and research are documented. **Inferred:** Common Shade could connect seasonal action to lasting public/worker protection. **Uncertain:** Authority in final current documents, sustained financing, delivered reach and independent effects.
+
+## Paying when heat strikes
+
+The layers of money we found for heat in Nepal, from the systems that reach people to risk shared with insurers: Contingent finance, Budgets and reserves, Anticipatory action. Each is shown with how it is released, how it reaches people, and what we could not find.
+
+[See Nepal, layer by layer](https://beattheheat.asia/paying-when-heat-strikes/#country-nepal)
+
+## Cities
+
+### Nepalgunj / Nepalganj
+
+**Heat context:** **Suits:** Both hot-dry-season and hot-humid exposure require assessment. **Reason:** Terai monsoon seasonality; use local humidity, solar gain, occupied-room and task data. No universal city humidity class inferred. **Night heat:** Comparable occupied-room hot-night series not verified. [Nepalgunj Heat Action Plan ](https://preparecenter.org/wp-content/uploads/2023/07/Nepalgunj-Heat-Action-Plan-2023.pdf) · [NRCS/municipal anticipatory action in Nepalgunj ](https://redcross.eu/projects/how-the-nepal-red-cross-society-and-communities-in-nepalgunj-are-getting-ahead-of-extreme-heat)
+
+**Official heat plans:** Official guidance or data Published 2023 HAP; implementation described in Movement account. [Nepalgunj Heat Action Plan ](https://preparecenter.org/wp-content/uploads/2023/07/Nepalgunj-Heat-Action-Plan-2023.pdf) · [NRCS/municipal anticipatory action in Nepalgunj ](https://redcross.eu/projects/how-the-nepal-red-cross-society-and-communities-in-nepalgunj-are-getting-ahead-of-extreme-heat)
+
+**Legal basis:** **National reference:** country.legal_basis **Local adoption and budget:** Signed current municipal decision, applicable by-laws and appropriation require confirmation.
+
+**Agencies responsible:** **Documented actor ids:**
+- nepalgunj
+- nrcs
+- rccc
+
+**Proposed counterparts:**
+- Municipal executive, LDMC and LEOC
+- District administration/DDMC and health office
+- Ward committees, schools and local health facilities
+- Water and NEA service operators
+- Worker/community/disability/women representatives and employers
+
+**Caveat:** Proposed counterparts are functional roles, not confirmed participation or delegated heat authority.
+
+**Warnings:** **National reference:** country.warnings **Local trigger:** Current authorised city-specific action/finance trigger not verified. **Non smartphone route:** Plans/partner accounts describe channels; actual last-mile receipt requires verification.
+
+**Rules for heat at work:** **Reference:** country.occupational_heat_rules **Local enforcement and paid rest:** Not verified
+
+**Cooling and buildings:** **Reference:** country.cooling_building_policy **Current local thermal code:** Not verified **Design caution:** Shade/solar-gain reduction, ventilation, efficient active cooling and outage fallback would ideally suit actual humidity, air quality, tenure and structural/fire conditions.
+
+**Money for protection:** **Costs:** **Currency:** NPR **Verification:** Not verified **Note:** No comparable installed/operating package costs verified. a blank is not zero; programme budgets are not household unit prices. **Reference:** country.finance_mechanisms **Local heat budget and release:** Not verified
+
+**A place to start (proposed):** Pair municipal plan with actual cooling/water uptime, worker access, night recovery and recurrent budgets.
+
+**Known, inferred, uncertain:** **Known:** Published 2023 HAP; implementation described in Movement account. **Inferred:** Pair municipal plan with actual cooling/water uptime, worker access, night recovery and recurrent budgets. **Uncertain:** Actual local service reach, exposure reduction, sustained financing and independent health/income benefit.
+
+**Province:** Lumbini
+
+**Boundary:** Municipality, Banke district and Khajura station are different units.
+
+**Selection basis:** Official guidance or data Documented Terai heat-concern case, supported by city planning/implementation or official station observations. Not a verified national top-eight rank. [Nepalgunj Heat Action Plan ](https://preparecenter.org/wp-content/uploads/2023/07/Nepalgunj-Heat-Action-Plan-2023.pdf) · [NRCS/municipal anticipatory action in Nepalgunj ](https://redcross.eu/projects/how-the-nepal-red-cross-society-and-communities-in-nepalgunj-are-getting-ahead-of-extreme-heat)
+
+**Tradeoffs to check:**
+- Electricity bills, peak demand, outages and refrigerant lifecycle
+- Water availability/quality, shade maintenance and flood resilience
+- Gendered unpaid care and volunteer labour; disability/language/tenure access
+- Rent increases, displacement and green gentrification
+- Worker pay, permission to rest and safe transport to refuges
+
+### Dhangadhi
+
+**Heat context:** **Suits:** Both hot-dry-season and hot-humid exposure require assessment. **Reason:** Terai monsoon seasonality; use local humidity, solar gain, occupied-room and task data. No universal city humidity class inferred. **Night heat:** Dhangadhi HAP describes monsoon night recovery constraints. [Dhangadhi Heat Action Plan ](https://www.climatecentre.org/wp-content/uploads/Dhangadhi-Heat-Action-Plan-2025.pdf) · [Dhangadhi plan release and community research account ](https://www.climatecentre.org/15480/heat-action-day-2025-red-cross-assists-another-nepalese-city-with-action-plan/)
+
+**Official heat plans:** Official guidance or data Published 2025 HAP with proposed Heat Index triggers; epidemiological validation not established. [Dhangadhi Heat Action Plan ](https://www.climatecentre.org/wp-content/uploads/Dhangadhi-Heat-Action-Plan-2025.pdf) · [Dhangadhi plan release and community research account ](https://www.climatecentre.org/15480/heat-action-day-2025-red-cross-assists-another-nepalese-city-with-action-plan/)
+
+**Legal basis:** **National reference:** country.legal_basis **Local adoption and budget:** Signed current municipal decision, applicable by-laws and appropriation require confirmation.
+
+**Agencies responsible:** **Documented actor ids:**
+- dhangadhi
+- nrcs
+- rccc
+
+**Proposed counterparts:**
+- Municipal executive, LDMC and LEOC
+- District administration/DDMC and health office
+- Ward committees, schools and local health facilities
+- Water and NEA service operators
+- Worker/community/disability/women representatives and employers
+
+**Caveat:** Proposed counterparts are functional roles, not confirmed participation or delegated heat authority.
+
+**Warnings:** **National reference:** country.warnings **Local trigger:** HAP proposal based on ERA5 Heat Index; do not substitute air temperature or treat as health-validated. **Non smartphone route:** Plans/partner accounts describe channels; actual last-mile receipt requires verification.
+
+**Rules for heat at work:** **Reference:** country.occupational_heat_rules **Local enforcement and paid rest:** Not verified
+
+**Cooling and buildings:** **Reference:** country.cooling_building_policy **Current local thermal code:** Not verified **Design caution:** Shade/solar-gain reduction, ventilation, efficient active cooling and outage fallback would ideally suit actual humidity, air quality, tenure and structural/fire conditions.
+
+**Money for protection:** **Costs:** **Currency:** NPR **Verification:** Not verified **Note:** No comparable installed/operating package costs verified. a blank is not zero; programme budgets are not household unit prices. **Reference:** country.finance_mechanisms **Local heat budget and release:** Not verified
+
+**A place to start (proposed):** Test warning receipt and ability to act, with women, informal workers, schools and night-time exposure.
+
+**Known, inferred, uncertain:** **Known:** Published 2025 HAP with proposed Heat Index triggers; epidemiological validation not established. **Inferred:** Test warning receipt and ability to act, with women, informal workers, schools and night-time exposure. **Uncertain:** Actual local service reach, exposure reduction, sustained financing and independent health/income benefit.
+
+**Province:** Sudurpashchim
+
+**Boundary:** Sub-metropolitan boundary, Kailali district and ERA5 gridcell exposure are not interchangeable.
+
+**Selection basis:** Official guidance or data Documented Terai heat-concern case, supported by city planning/implementation or official station observations. Not a verified national top-eight rank. [Dhangadhi Heat Action Plan ](https://www.climatecentre.org/wp-content/uploads/Dhangadhi-Heat-Action-Plan-2025.pdf) · [Dhangadhi plan release and community research account ](https://www.climatecentre.org/15480/heat-action-day-2025-red-cross-assists-another-nepalese-city-with-action-plan/)
+
+**Tradeoffs to check:**
+- Electricity bills, peak demand, outages and refrigerant lifecycle
+- Water availability/quality, shade maintenance and flood resilience
+- Gendered unpaid care and volunteer labour; disability/language/tenure access
+- Rent increases, displacement and green gentrification
+- Worker pay, permission to rest and safe transport to refuges
+
+### Siddharthanagar / Bhairahawa
+
+**Heat context:** **Suits:** Both hot-dry-season and hot-humid exposure require assessment. **Reason:** Terai monsoon seasonality; use local humidity, solar gain, occupied-room and task data. No universal city humidity class inferred. **Night heat:** Comparable occupied-room hot-night series not verified. [NRCS Leading Change Through Heat Action leaflet ](https://preparecenter.org/wp-content/uploads/2025/05/Nepal-Heat-Action-Leaflet-Aug24.pdf) · [IHRR heat anticipatory-action institutionalisation study ](https://ihrr.org.np/project/Capacities,%20Gaps%20and%20Opportunities%20in%20Institutionalization%20of%20Heat%20Anticipatory%20Action%20in%20Nepal) · [DHM post-monsoon precipitation and temperature summary, 2024 ](https://www.dhm.gov.np/uploads/dhm/climateService/ON_2024-Preliminary_precipitation_and_temperature_summary.pdf)
+
+**Official heat plans:** Reported, not evaluated NRCS reports planning/validation; final municipal text and appropriation not retrieved. [NRCS Leading Change Through Heat Action leaflet ](https://preparecenter.org/wp-content/uploads/2025/05/Nepal-Heat-Action-Leaflet-Aug24.pdf) · [IHRR heat anticipatory-action institutionalisation study ](https://ihrr.org.np/project/Capacities,%20Gaps%20and%20Opportunities%20in%20Institutionalization%20of%20Heat%20Anticipatory%20Action%20in%20Nepal) · [DHM post-monsoon precipitation and temperature summary, 2024 ](https://www.dhm.gov.np/uploads/dhm/climateService/ON_2024-Preliminary_precipitation_and_temperature_summary.pdf)
+
+**Legal basis:** **National reference:** country.legal_basis **Local adoption and budget:** Signed current municipal decision, applicable by-laws and appropriation require confirmation.
+
+**Agencies responsible:** **Documented actor ids:**
+- siddharthanagar
+- nrcs
+- ihrr
+
+**Proposed counterparts:**
+- Municipal executive, LDMC and LEOC
+- District administration/DDMC and health office
+- Ward committees, schools and local health facilities
+- Water and NEA service operators
+- Worker/community/disability/women representatives and employers
+
+**Caveat:** Proposed counterparts are functional roles, not confirmed participation or delegated heat authority.
+
+**Warnings:** **National reference:** country.warnings **Local trigger:** Current authorised city-specific action/finance trigger not verified. **Non smartphone route:** Plans/partner accounts describe channels; actual last-mile receipt requires verification.
+
+**Rules for heat at work:** **Reference:** country.occupational_heat_rules **Local enforcement and paid rest:** Not verified
+
+**Cooling and buildings:** **Reference:** country.cooling_building_policy **Current local thermal code:** Not verified **Design caution:** Shade/solar-gain reduction, ventilation, efficient active cooling and outage fallback would ideally suit actual humidity, air quality, tenure and structural/fire conditions.
+
+**Money for protection:** **Costs:** **Currency:** NPR **Verification:** Not verified **Note:** No comparable installed/operating package costs verified. a blank is not zero; programme budgets are not household unit prices. **Reference:** country.finance_mechanisms **Local heat budget and release:** Not verified
+
+**A place to start (proposed):** Verify plan ownership; cost market/worker protection and public-building cooling with upkeep.
+
+**Known, inferred, uncertain:** **Known:** NRCS reports planning/validation; final municipal text and appropriation not retrieved. **Inferred:** Verify plan ownership; cost market/worker protection and public-building cooling with upkeep. **Uncertain:** Actual local service reach, exposure reduction, sustained financing and independent health/income benefit.
+
+**Province:** Lumbini
+
+**Boundary:** Municipality, airport station and Rupandehi district are best kept distinct.
+
+**Selection basis:** Reported, not evaluated Documented Terai heat-concern case, supported by city planning/implementation or official station observations. Not a verified national top-eight rank. [NRCS Leading Change Through Heat Action leaflet ](https://preparecenter.org/wp-content/uploads/2025/05/Nepal-Heat-Action-Leaflet-Aug24.pdf) · [IHRR heat anticipatory-action institutionalisation study ](https://ihrr.org.np/project/Capacities,%20Gaps%20and%20Opportunities%20in%20Institutionalization%20of%20Heat%20Anticipatory%20Action%20in%20Nepal) · [DHM post-monsoon precipitation and temperature summary, 2024 ](https://www.dhm.gov.np/uploads/dhm/climateService/ON_2024-Preliminary_precipitation_and_temperature_summary.pdf)
+
+**Tradeoffs to check:**
+- Electricity bills, peak demand, outages and refrigerant lifecycle
+- Water availability/quality, shade maintenance and flood resilience
+- Gendered unpaid care and volunteer labour; disability/language/tenure access
+- Rent increases, displacement and green gentrification
+- Worker pay, permission to rest and safe transport to refuges
+
+### Biratnagar
+
+**Heat context:** **Suits:** Both hot-dry-season and hot-humid exposure require assessment. **Reason:** Terai monsoon seasonality; use local humidity, solar gain, occupied-room and task data. No universal city humidity class inferred. **Night heat:** Comparable occupied-room hot-night series not verified. [NRCS Leading Change Through Heat Action leaflet ](https://preparecenter.org/wp-content/uploads/2025/05/Nepal-Heat-Action-Leaflet-Aug24.pdf) · [IHRR heat anticipatory-action institutionalisation study ](https://ihrr.org.np/project/Capacities,%20Gaps%20and%20Opportunities%20in%20Institutionalization%20of%20Heat%20Anticipatory%20Action%20in%20Nepal) · [DHM post-monsoon precipitation and temperature summary, 2024 ](https://www.dhm.gov.np/uploads/dhm/climateService/ON_2024-Preliminary_precipitation_and_temperature_summary.pdf)
+
+**Official heat plans:** Reported, not evaluated NRCS reports heat planning; final municipal text, adopted trigger and budget not retrieved. [NRCS Leading Change Through Heat Action leaflet ](https://preparecenter.org/wp-content/uploads/2025/05/Nepal-Heat-Action-Leaflet-Aug24.pdf) · [IHRR heat anticipatory-action institutionalisation study ](https://ihrr.org.np/project/Capacities,%20Gaps%20and%20Opportunities%20in%20Institutionalization%20of%20Heat%20Anticipatory%20Action%20in%20Nepal) · [DHM post-monsoon precipitation and temperature summary, 2024 ](https://www.dhm.gov.np/uploads/dhm/climateService/ON_2024-Preliminary_precipitation_and_temperature_summary.pdf)
+
+**Legal basis:** **National reference:** country.legal_basis **Local adoption and budget:** Signed current municipal decision, applicable by-laws and appropriation require confirmation.
+
+**Agencies responsible:** **Documented actor ids:**
+- biratnagar
+- nrcs
+- ihrr
+
+**Proposed counterparts:**
+- Municipal executive, LDMC and LEOC
+- District administration/DDMC and health office
+- Ward committees, schools and local health facilities
+- Water and NEA service operators
+- Worker/community/disability/women representatives and employers
+
+**Caveat:** Proposed counterparts are functional roles, not confirmed participation or delegated heat authority.
+
+**Warnings:** **National reference:** country.warnings **Local trigger:** Current authorised city-specific action/finance trigger not verified. **Non smartphone route:** Plans/partner accounts describe channels; actual last-mile receipt requires verification.
+
+**Rules for heat at work:** **Reference:** country.occupational_heat_rules **Local enforcement and paid rest:** Not verified
+
+**Cooling and buildings:** **Reference:** country.cooling_building_policy **Current local thermal code:** Not verified **Design caution:** Shade/solar-gain reduction, ventilation, efficient active cooling and outage fallback would ideally suit actual humidity, air quality, tenure and structural/fire conditions.
+
+**Money for protection:** **Costs:** **Currency:** NPR **Verification:** Not verified **Note:** No comparable installed/operating package costs verified. a blank is not zero; programme budgets are not household unit prices. **Reference:** country.finance_mechanisms **Local heat budget and release:** Not verified
+
+**A place to start (proposed):** Link warnings, industrial/outdoor work, clinics and income protection with actual task exposure.
+
+**Known, inferred, uncertain:** **Known:** NRCS reports heat planning; final municipal text, adopted trigger and budget not retrieved. **Inferred:** Link warnings, industrial/outdoor work, clinics and income protection with actual task exposure. **Uncertain:** Actual local service reach, exposure reduction, sustained financing and independent health/income benefit.
+
+**Province:** Koshi
+
+**Boundary:** Metropolitan area, airport station and Morang district differ.
+
+**Selection basis:** Reported, not evaluated Documented Terai heat-concern case, supported by city planning/implementation or official station observations. Not a verified national top-eight rank. [NRCS Leading Change Through Heat Action leaflet ](https://preparecenter.org/wp-content/uploads/2025/05/Nepal-Heat-Action-Leaflet-Aug24.pdf) · [IHRR heat anticipatory-action institutionalisation study ](https://ihrr.org.np/project/Capacities,%20Gaps%20and%20Opportunities%20in%20Institutionalization%20of%20Heat%20Anticipatory%20Action%20in%20Nepal) · [DHM post-monsoon precipitation and temperature summary, 2024 ](https://www.dhm.gov.np/uploads/dhm/climateService/ON_2024-Preliminary_precipitation_and_temperature_summary.pdf)
+
+**Tradeoffs to check:**
+- Electricity bills, peak demand, outages and refrigerant lifecycle
+- Water availability/quality, shade maintenance and flood resilience
+- Gendered unpaid care and volunteer labour; disability/language/tenure access
+- Rent increases, displacement and green gentrification
+- Worker pay, permission to rest and safe transport to refuges
+
+### Birgunj / Birganj
+
+**Heat context:** **Suits:** Both hot-dry-season and hot-humid exposure require assessment. **Reason:** Terai monsoon seasonality; use local humidity, solar gain, occupied-room and task data. No universal city humidity class inferred. **Night heat:** Comparable occupied-room hot-night series not verified. [DHM post-monsoon precipitation and temperature summary, 2024 ](https://www.dhm.gov.np/uploads/dhm/climateService/ON_2024-Preliminary_precipitation_and_temperature_summary.pdf)
+
+**Official heat plans:** Official guidance or data DHM station evidence; adopted city-specific HAP and heat budget not retrieved. [DHM post-monsoon precipitation and temperature summary, 2024 ](https://www.dhm.gov.np/uploads/dhm/climateService/ON_2024-Preliminary_precipitation_and_temperature_summary.pdf)
+
+**Legal basis:** **National reference:** country.legal_basis **Local adoption and budget:** Signed current municipal decision, applicable by-laws and appropriation require confirmation.
+
+**Agencies responsible:** **Documented actor ids:**
+- dhm
+
+**Proposed counterparts:**
+- Municipal executive, LDMC and LEOC
+- District administration/DDMC and health office
+- Ward committees, schools and local health facilities
+- Water and NEA service operators
+- Worker/community/disability/women representatives and employers
+
+**Caveat:** Proposed counterparts are functional roles, not confirmed participation or delegated heat authority.
+
+**Warnings:** **National reference:** country.warnings **Local trigger:** Current authorised city-specific action/finance trigger not verified. **Non smartphone route:** Plans/partner accounts describe channels; actual last-mile receipt requires verification.
+
+**Rules for heat at work:** **Reference:** country.occupational_heat_rules **Local enforcement and paid rest:** Not verified
+
+**Cooling and buildings:** **Reference:** country.cooling_building_policy **Current local thermal code:** Not verified **Design caution:** Shade/solar-gain reduction, ventilation, efficient active cooling and outage fallback would ideally suit actual humidity, air quality, tenure and structural/fire conditions.
+
+**Money for protection:** **Costs:** **Currency:** NPR **Verification:** Not verified **Note:** No comparable installed/operating package costs verified. a blank is not zero; programme budgets are not household unit prices. **Reference:** country.finance_mechanisms **Local heat budget and release:** Not verified
+
+**A place to start (proposed):** Explore market/transport and workplace protection with locally identified worker and municipal counterparts.
+
+**Known, inferred, uncertain:** **Known:** DHM station evidence; adopted city-specific HAP and heat budget not retrieved. **Inferred:** Explore market/transport and workplace protection with locally identified worker and municipal counterparts. **Uncertain:** Actual local service reach, exposure reduction, sustained financing and independent health/income benefit.
+
+**Province:** Madhesh
+
+**Boundary:** DHM station and metropolitan exposure not identical; Parsa district includes other places.
+
+**Selection basis:** Official guidance or data Documented Terai heat-concern case, supported by city planning/implementation or official station observations. Not a verified national top-eight rank. [DHM post-monsoon precipitation and temperature summary, 2024 ](https://www.dhm.gov.np/uploads/dhm/climateService/ON_2024-Preliminary_precipitation_and_temperature_summary.pdf)
+
+**Tradeoffs to check:**
+- Electricity bills, peak demand, outages and refrigerant lifecycle
+- Water availability/quality, shade maintenance and flood resilience
+- Gendered unpaid care and volunteer labour; disability/language/tenure access
+- Rent increases, displacement and green gentrification
+- Worker pay, permission to rest and safe transport to refuges
+
+### Janakpurdham / Janakpur
+
+**Heat context:** **Suits:** Both hot-dry-season and hot-humid exposure require assessment. **Reason:** Terai monsoon seasonality; use local humidity, solar gain, occupied-room and task data. No universal city humidity class inferred. **Night heat:** Comparable occupied-room hot-night series not verified. [DHM post-monsoon precipitation and temperature summary, 2024 ](https://www.dhm.gov.np/uploads/dhm/climateService/ON_2024-Preliminary_precipitation_and_temperature_summary.pdf)
+
+**Official heat plans:** Official guidance or data DHM station evidence; adopted city-specific HAP and operating arrangements not retrieved. [DHM post-monsoon precipitation and temperature summary, 2024 ](https://www.dhm.gov.np/uploads/dhm/climateService/ON_2024-Preliminary_precipitation_and_temperature_summary.pdf)
+
+**Legal basis:** **National reference:** country.legal_basis **Local adoption and budget:** Signed current municipal decision, applicable by-laws and appropriation require confirmation.
+
+**Agencies responsible:** **Documented actor ids:**
+- dhm
+
+**Proposed counterparts:**
+- Municipal executive, LDMC and LEOC
+- District administration/DDMC and health office
+- Ward committees, schools and local health facilities
+- Water and NEA service operators
+- Worker/community/disability/women representatives and employers
+
+**Caveat:** Proposed counterparts are functional roles, not confirmed participation or delegated heat authority.
+
+**Warnings:** **National reference:** country.warnings **Local trigger:** Current authorised city-specific action/finance trigger not verified. **Non smartphone route:** Plans/partner accounts describe channels; actual last-mile receipt requires verification.
+
+**Rules for heat at work:** **Reference:** country.occupational_heat_rules **Local enforcement and paid rest:** Not verified
+
+**Cooling and buildings:** **Reference:** country.cooling_building_policy **Current local thermal code:** Not verified **Design caution:** Shade/solar-gain reduction, ventilation, efficient active cooling and outage fallback would ideally suit actual humidity, air quality, tenure and structural/fire conditions.
+
+**Money for protection:** **Costs:** **Currency:** NPR **Verification:** Not verified **Note:** No comparable installed/operating package costs verified. a blank is not zero; programme budgets are not household unit prices. **Reference:** country.finance_mechanisms **Local heat budget and release:** Not verified
+
+**A place to start (proposed):** Explore shaded public routes/queues and school/clinic cooling, with water and operating-budget checks.
+
+**Known, inferred, uncertain:** **Known:** DHM station evidence; adopted city-specific HAP and operating arrangements not retrieved. **Inferred:** Explore shaded public routes/queues and school/clinic cooling, with water and operating-budget checks. **Uncertain:** Actual local service reach, exposure reduction, sustained financing and independent health/income benefit.
+
+**Province:** Madhesh
+
+**Boundary:** Airport station, sub-metropolitan boundary and Dhanusha district differ.
+
+**Selection basis:** Official guidance or data Documented Terai heat-concern case, supported by city planning/implementation or official station observations. Not a verified national top-eight rank. [DHM post-monsoon precipitation and temperature summary, 2024 ](https://www.dhm.gov.np/uploads/dhm/climateService/ON_2024-Preliminary_precipitation_and_temperature_summary.pdf)
+
+**Tradeoffs to check:**
+- Electricity bills, peak demand, outages and refrigerant lifecycle
+- Water availability/quality, shade maintenance and flood resilience
+- Gendered unpaid care and volunteer labour; disability/language/tenure access
+- Rent increases, displacement and green gentrification
+- Worker pay, permission to rest and safe transport to refuges
+
+### Gaur
+
+**Heat context:** **Suits:** Both hot-dry-season and hot-humid exposure require assessment. **Reason:** Terai monsoon seasonality; use local humidity, solar gain, occupied-room and task data. No universal city humidity class inferred. **Night heat:** Comparable occupied-room hot-night series not verified. [RAIN heat early-action implementation account ](https://nepal.peopleinneed.net/en/from-forecast-to-early-action-how-the-rain-programme-acted-on-rising-heat-13033gp)
+
+**Official heat plans:** Reported, not evaluated RAIN reportsJune 2025 early action and LDMC coordination; signed municipal HAP not retrieved. [RAIN heat early-action implementation account ](https://nepal.peopleinneed.net/en/from-forecast-to-early-action-how-the-rain-programme-acted-on-rising-heat-13033gp)
+
+**Legal basis:** **National reference:** country.legal_basis **Local adoption and budget:** Signed current municipal decision, applicable by-laws and appropriation require confirmation.
+
+**Agencies responsible:** **Documented actor ids:**
+- pin
+- dca
+
+**Proposed counterparts:**
+- Municipal executive, LDMC and LEOC
+- District administration/DDMC and health office
+- Ward committees, schools and local health facilities
+- Water and NEA service operators
+- Worker/community/disability/women representatives and employers
+
+**Caveat:** Proposed counterparts are functional roles, not confirmed participation or delegated heat authority.
+
+**Warnings:** **National reference:** country.warnings **Local trigger:** Current authorised city-specific action/finance trigger not verified. **Non smartphone route:** RAIN reports FCHV, local radio and public announcements.
+
+**Rules for heat at work:** **Reference:** country.occupational_heat_rules **Local enforcement and paid rest:** Not verified
+
+**Cooling and buildings:** **Reference:** country.cooling_building_policy **Current local thermal code:** Not verified **Design caution:** Shade/solar-gain reduction, ventilation, efficient active cooling and outage fallback would ideally suit actual humidity, air quality, tenure and structural/fire conditions.
+
+**Money for protection:** **Costs:** **Currency:** NPR **Verification:** Not verified **Note:** No comparable installed/operating package costs verified. a blank is not zero; programme budgets are not household unit prices. **Reference:** country.finance_mechanisms **Local heat budget and release:** Not verified
+
+**A place to start (proposed):** Build on reported FCHV/radio/water action; add verified authorisation, worker agency and operating finance.
+
+**Known, inferred, uncertain:** **Known:** RAIN reportsJune 2025 early action and LDMC coordination; signed municipal HAP not retrieved. **Inferred:** Build on reported FCHV/radio/water action; add verified authorisation, worker agency and operating finance. **Uncertain:** Actual local service reach, exposure reduction, sustained financing and independent health/income benefit.
+
+**Province:** Madhesh
+
+**Boundary:** Municipality, local observation and Rautahat district are best distinguished.
+
+**Selection basis:** Reported, not evaluated Documented Terai heat-concern case, supported by city planning/implementation or official station observations. Not a verified national top-eight rank. [RAIN heat early-action implementation account ](https://nepal.peopleinneed.net/en/from-forecast-to-early-action-how-the-rain-programme-acted-on-rising-heat-13033gp)
+
+**Tradeoffs to check:**
+- Electricity bills, peak demand, outages and refrigerant lifecycle
+- Water availability/quality, shade maintenance and flood resilience
+- Gendered unpaid care and volunteer labour; disability/language/tenure access
+- Rent increases, displacement and green gentrification
+- Worker pay, permission to rest and safe transport to refuges
+
+### Jaleshwar / Jaleshwor / Jaleshowr
+
+**Heat context:** **Suits:** Both hot-dry-season and hot-humid exposure require assessment. **Reason:** Terai monsoon seasonality; use local humidity, solar gain, occupied-room and task data. No universal city humidity class inferred. **Night heat:** DHM Jaleshwor station has elevated seasonal minimum temperature in 2024 report. [RAIN heat early-action implementation account ](https://nepal.peopleinneed.net/en/from-forecast-to-early-action-how-the-rain-programme-acted-on-rising-heat-13033gp) · [DHM post-monsoon precipitation and temperature summary, 2024 ](https://www.dhm.gov.np/uploads/dhm/climateService/ON_2024-Preliminary_precipitation_and_temperature_summary.pdf)
+
+**Official heat plans:** Reported, not evaluated RAIN reportsJune 2025 water/outreach; DHM documents local station night-temperature concern; signed HAP not retrieved. [RAIN heat early-action implementation account ](https://nepal.peopleinneed.net/en/from-forecast-to-early-action-how-the-rain-programme-acted-on-rising-heat-13033gp) · [DHM post-monsoon precipitation and temperature summary, 2024 ](https://www.dhm.gov.np/uploads/dhm/climateService/ON_2024-Preliminary_precipitation_and_temperature_summary.pdf)
+
+**Legal basis:** **National reference:** country.legal_basis **Local adoption and budget:** Signed current municipal decision, applicable by-laws and appropriation require confirmation.
+
+**Agencies responsible:** **Documented actor ids:**
+- pin
+- dca
+
+**Proposed counterparts:**
+- Municipal executive, LDMC and LEOC
+- District administration/DDMC and health office
+- Ward committees, schools and local health facilities
+- Water and NEA service operators
+- Worker/community/disability/women representatives and employers
+
+**Caveat:** Proposed counterparts are functional roles, not confirmed participation or delegated heat authority.
+
+**Warnings:** **National reference:** country.warnings **Local trigger:** Current authorised city-specific action/finance trigger not verified. **Non smartphone route:** RAIN reports FCHV, local radio and public announcements.
+
+**Rules for heat at work:** **Reference:** country.occupational_heat_rules **Local enforcement and paid rest:** Not verified
+
+**Cooling and buildings:** **Reference:** country.cooling_building_policy **Current local thermal code:** Not verified **Design caution:** Shade/solar-gain reduction, ventilation, efficient active cooling and outage fallback would ideally suit actual humidity, air quality, tenure and structural/fire conditions.
+
+**Money for protection:** **Costs:** **Currency:** NPR **Verification:** Not verified **Note:** No comparable installed/operating package costs verified. a blank is not zero; programme budgets are not household unit prices. **Reference:** country.finance_mechanisms **Local heat budget and release:** Not verified
+
+**A place to start (proposed):** Connect night recovery, water access, school continuity and care-work protection with local services.
+
+**Known, inferred, uncertain:** **Known:** RAIN reportsJune 2025 water/outreach; DHM documents local station night-temperature concern; signed HAP not retrieved. **Inferred:** Connect night recovery, water access, school continuity and care-work protection with local services. **Uncertain:** Actual local service reach, exposure reduction, sustained financing and independent health/income benefit.
+
+**Province:** Madhesh
+
+**Boundary:** Municipality and Mahottari district differ; retain alternate spellings for source matching.
+
+**Selection basis:** Reported, not evaluated Documented Terai heat-concern case, supported by city planning/implementation or official station observations. Not a verified national top-eight rank. [RAIN heat early-action implementation account ](https://nepal.peopleinneed.net/en/from-forecast-to-early-action-how-the-rain-programme-acted-on-rising-heat-13033gp) · [DHM post-monsoon precipitation and temperature summary, 2024 ](https://www.dhm.gov.np/uploads/dhm/climateService/ON_2024-Preliminary_precipitation_and_temperature_summary.pdf)
+
+**Tradeoffs to check:**
+- Electricity bills, peak demand, outages and refrigerant lifecycle
+- Water availability/quality, shade maintenance and flood resilience
+- Gendered unpaid care and volunteer labour; disability/language/tenure access
+- Rent increases, displacement and green gentrification
+- Worker pay, permission to rest and safe transport to refuges
+
+## Programmes
+
+- Official guidance or data **NDRRMA national heat action plan 2024** **Costs:** **Currency:** NPR **Verification:** Not verified **Note:** No comparable installed/operating package costs verified. a blank is not zero; programme budgets are not household unit prices. **Known, inferred, uncertain:** **Known:** Assigns warning, service and workplace responsibilities. **Inferred:** Could inform shared protection and delivery. **Uncertain:** Directions are not proof of funding/execution; use current successor before operation. **Stage:** Published primary plan; successor exists. [NDRRMA national heatwave action plan 2024 ](https://dpnet.org.np/uploads/files/heatwave_eng_webpublish%202026-01-20%2005-39-23.pdf) **Does:** Assigns warning, service and workplace responsibilities. **Constraints:** Directions are not proof of funding/execution; use current successor before operation.
+- Official guidance or data **Heat-and-drought national planning BS2083/2026** **Costs:** **Currency:** NPR **Verification:** Not verified **Note:** No comparable installed/operating package costs verified. a blank is not zero; programme budgets are not household unit prices. **Known, inferred, uncertain:** **Known:** Government listing and source synthesis document newer national planning. **Inferred:** Could inform shared protection and delivery. **Uncertain:** Adoption instrument, full annexes, budget and current national framework text need verification. **Stage:** Official government title listed; full current plan not appraised. [Bara District Administration Office listing of heat-and-drought plan BS2083 ](https://daobara.moha.gov.np/en/post/ata-yathha-ka-gara-ma-va-ta-ha-va-ka-lhara-l-heat-wave-ra-khada-ra-ka-l-ga-pa-ra) · [Living with Heat in Nepal - report ](https://www.ceew.in/sites/default/files/ceew-nepal-warming-world-heat-health-action.pdf) **Does:** Government listing and source synthesis document newer national planning. **Constraints:** Adoption instrument, full annexes, budget and current national framework text need verification.
+- Official guidance or data **Nepalgunj municipal HAP** **Costs:** **Currency:** NPR **Verification:** Not verified **Note:** No comparable installed/operating package costs verified. a blank is not zero; programme budgets are not household unit prices. **Known, inferred, uncertain:** **Known:** Seasonal coordination and longer-term heat protection framework. **Inferred:** Could inform shared protection and delivery. **Uncertain:** No facility-by-facility 2026 operating audit or independent health effect verified. **Stage:** Published 2023 plan; later implementation reported. [Nepalgunj Heat Action Plan ](https://preparecenter.org/wp-content/uploads/2023/07/Nepalgunj-Heat-Action-Plan-2023.pdf) · [NRCS/municipal anticipatory action in Nepalgunj ](https://redcross.eu/projects/how-the-nepal-red-cross-society-and-communities-in-nepalgunj-are-getting-ahead-of-extreme-heat) **Does:** Seasonal coordination and longer-term heat protection framework. **Constraints:** No facility-by-facility 2026 operating audit or independent health effect verified.
+- Official guidance or data **Dhangadhi municipal HAP** **Costs:** **Currency:** NPR **Verification:** Not verified **Note:** No comparable installed/operating package costs verified. a blank is not zero; programme budgets are not household unit prices. **Known, inferred, uncertain:** **Known:** Community-informed planning, climate analysis and proposed heat triggers. **Inferred:** Could inform shared protection and delivery. **Uncertain:** ERA5-based proposals not health-validated; current adoption/budget and delivered reach to confirm. **Stage:** Published 2025. [Dhangadhi Heat Action Plan ](https://www.climatecentre.org/wp-content/uploads/Dhangadhi-Heat-Action-Plan-2025.pdf) · [Dhangadhi plan release and community research account ](https://www.climatecentre.org/15480/heat-action-day-2025-red-cross-assists-another-nepalese-city-with-action-plan/) **Does:** Community-informed planning, climate analysis and proposed heat triggers. **Constraints:** ERA5-based proposals not health-validated; current adoption/budget and delivered reach to confirm.
+- Reported, not evaluated **Four-city NRCS heat action** **Costs:** **Currency:** NPR **Verification:** Not verified **Note:** No comparable installed/operating package costs verified. a blank is not zero; programme budgets are not household unit prices. **Known, inferred, uncertain:** **Known:** Planning, communication, water/cooling and roof demonstrations in four cities. **Inferred:** Could inform shared protection and delivery. **Uncertain:** Reported demonstrations, not verified indoor-temperature/health benefit. City-level roof allocation unclear. **Stage:** 2023–2024 activities described; later sources corroborate expansion. [NRCS Leading Change Through Heat Action leaflet ](https://preparecenter.org/wp-content/uploads/2025/05/Nepal-Heat-Action-Leaflet-Aug24.pdf) **Does:** Planning, communication, water/cooling and roof demonstrations in four cities. **Constraints:** Reported demonstrations, not verified indoor-temperature/health benefit. City-level roof allocation unclear.
+- Reported, not evaluated **NRCS/IFRC heat anticipatory arrangements** **Costs:** **Currency:** NPR **Verification:** Not verified **Note:** No comparable installed/operating package costs verified. a blank is not zero; programme budgets are not household unit prices. **Known, inferred, uncertain:** **Known:** Links forecast readiness and early-action finance through Movement arrangements. **Inferred:** Could inform shared protection and delivery. **Uncertain:** No verified budget/approval/activation records from full protocol; no general public eligibility. **Stage:** DREF financing described; exact approved protocol file inaccessible. [NRCS/municipal anticipatory action in Nepalgunj ](https://redcross.eu/projects/how-the-nepal-red-cross-society-and-communities-in-nepalgunj-are-getting-ahead-of-extreme-heat) · [Living with Heat in Nepal - report ](https://www.ceew.in/sites/default/files/ceew-nepal-warming-world-heat-health-action.pdf) **Does:** Links forecast readiness and early-action finance through Movement arrangements. **Constraints:** No verified budget/approval/activation records from full protocol; no general public eligibility.
+- Reported, not evaluated **RAIN heat early action** **Costs:** **Currency:** NPR **Verification:** Not verified **Note:** No comparable installed/operating package costs verified. a blank is not zero; programme budgets are not household unit prices. **Known, inferred, uncertain:** **Known:** Water, FCHV outreach and local-language messaging in Gaur, Siraha and Jaleshwar. **Inferred:** Could inform shared protection and delivery. **Uncertain:** Implementer account; no independently evaluated health/income effect. Social protection aim not proof of heat cash payments. **Stage:** June 2025 implementation; registry status Implementation. [RAIN heat early-action implementation account ](https://nepal.peopleinneed.net/en/from-forecast-to-early-action-how-the-rain-programme-acted-on-rising-heat-13033gp) · [FCDO RAIN programme registry ](https://devtracker.fcdo.gov.uk/programme/GB-GOV-1-400018/summary) **Does:** Water, FCHV outreach and local-language messaging in Gaur, Siraha and Jaleshwar. **Constraints:** Implementer account; no independently evaluated health/income effect. Social protection aim not proof of heat cash payments.
+- Reported, not evaluated **Practical Action school cooling and heat learning** **Costs:** **Currency:** NPR **Verification:** Not verified **Note:** No comparable installed/operating package costs verified. a blank is not zero; programme budgets are not household unit prices. **Known, inferred, uncertain:** **Known:** Roof coating, sensors and student learning in western Terai schools. **Inferred:** Could inform shared protection and delivery. **Uncertain:** Public blog lacks protocol/dataset/baseline completeness for independently assessing effect; numeric cooling claims omitted. **Stage:** Pilot implemented 2025–2026. [Practical Action school cooling and heat learning pilot ](https://zcralliance.org/blogs/international-youth-day/) **Does:** Roof coating, sensors and student learning in western Terai schools. **Constraints:** Public blog lacks protocol/dataset/baseline completeness for independently assessing effect; numeric cooling claims omitted.
+- Measured in a study **Madhesh public-school heat perception research** **Costs:** **Currency:** NPR **Verification:** Not verified **Note:** No comparable installed/operating package costs verified. a blank is not zero; programme budgets are not household unit prices. **Known, inferred, uncertain:** **Known:** School-management perception data and qualitative evidence. **Inferred:** Could inform shared protection and delivery. **Uncertain:** Not a classroom physiological/learning intervention evaluation; internal subgroup counts inconsistent. **Stage:** Survey February 2025; publishedJune 2025. [Madhesh public-school heat perception study ](https://www.mercycorps.org/sites/default/files/2025-05/heat-study-final-report-jun-2025.pdf) **Does:** School-management perception data and qualitative evidence. **Constraints:** Not a classroom physiological/learning intervention evaluation; internal subgroup counts inconsistent.
+- Reported, not evaluated **Heat anticipatory-action institutionalisation assessment** **Costs:** **Currency:** NPR **Verification:** Not verified **Note:** No comparable installed/operating package costs verified. a blank is not zero; programme budgets are not household unit prices. **Known, inferred, uncertain:** **Known:** Institutional/capacity review focused on four Terai cities. **Inferred:** Could inform shared protection and delivery. **Uncertain:** Project summary reviewed, not underlying completed research findings. **Stage:** Past project February–September 2025. [IHRR heat anticipatory-action institutionalisation study ](https://ihrr.org.np/project/Capacities,%20Gaps%20and%20Opportunities%20in%20Institutionalization%20of%20Heat%20Anticipatory%20Action%20in%20Nepal) **Does:** Institutional/capacity review focused on four Terai cities. **Constraints:** Project summary reviewed, not underlying completed research findings.
+- Reported, not evaluated **Lumbini heat fiscal and socioeconomic assessment** **Costs:** **Currency:** NPR **Verification:** Not verified **Note:** No comparable installed/operating package costs verified. a blank is not zero; programme budgets are not household unit prices. **Known, inferred, uncertain:** **Known:** Public record of assessment supporting public investment and preparedness. **Inferred:** Could inform shared protection and delivery. **Uncertain:** Final report, numerical losses, methods and public adoption not verified. **Stage:** Past project May–September 2026. [IHRR/FEED Lumbini fiscal and socioeconomic heat assessment ](https://ihrr.org.np/project/assessment-of-fiscal-economic-loss-and-socioeconomic-impacts-of-heatwaves-in-lumbini-provinceassessment-of-fiscal-economic-loss-and-socioeconomic-impacts-of-heatwaves-in-lumbini-province) **Does:** Public record of assessment supporting public investment and preparedness. **Constraints:** Final report, numerical losses, methods and public adoption not verified.
+- Reported, not evaluated **DHM/RIMES heat impact-based forecasting demonstration** **Costs:** **Currency:** NPR **Verification:** Not verified **Note:** No comparable installed/operating package costs verified. a blank is not zero; programme budgets are not household unit prices. **Known, inferred, uncertain:** **Known:** Cross-sector co-production of warning and action arrangements. **Inferred:** Could inform shared protection and delivery. **Uncertain:** Workshop not evidence of completed national operational coverage or improved outcomes. **Stage:** National workshopJuly 2026; operational demonstration development. [DHM/RIMES national heat impact-based forecasting demonstration workshop ](https://www.rimes.int/rimes-supports-nepals-national-demonstration-of-ibf-for-heat-extremes/) **Does:** Cross-sector co-production of warning and action arrangements. **Constraints:** Workshop not evidence of completed national operational coverage or improved outcomes.
+- Reported, not evaluated **Building Energy Efficiency in Nepal (BEEN)** **Costs:** **Currency:** NPR **Verification:** Not verified **Note:** No comparable installed/operating package costs verified. a blank is not zero; programme budgets are not household unit prices. **Known, inferred, uncertain:** **Known:** Climate-responsive building design, retrofits, skills and policy development. **Inferred:** Could inform shared protection and delivery. **Uncertain:** Design/finance targets not delivered results; binding local by-laws, extension and products to verify. **Stage:** Listed donor project period ended2January 2026. [EU Building Energy Efficiency in Nepal project ](https://international-partnerships.ec.europa.eu/policies/programming/projects/building-energy-efficiency-nepal-been_en) · [BEEN implementer and consortium description ](https://been.minergynepal.com/what-is-been/) **Does:** Climate-responsive building design, retrofits, skills and policy development. **Constraints:** Design/finance targets not delivered results; binding local by-laws, extension and products to verify.
+- Measured in a study **Outdoor-worker heat KAP research** **Costs:** **Currency:** NPR **Verification:** Not verified **Note:** No comparable installed/operating package costs verified. a blank is not zero; programme budgets are not household unit prices. **Known, inferred, uncertain:** **Known:** Cross-sectional heat knowledge/practice/perception research across occupations. **Inferred:** Could inform shared protection and delivery. **Uncertain:** Self-report/association, not clinical intervention effects or representative national exposure. **Stage:** Original study publishedAugust 2025. [Outdoor workers heat knowledge, attitudes and practices study ](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0329557) **Does:** Cross-sectional heat knowledge/practice/perception research across occupations. **Constraints:** Self-report/association, not clinical intervention effects or representative national exposure.
+- Official guidance or data **Workplace maximum heat-level standard BS2082** **Costs:** **Currency:** NPR **Verification:** Not verified **Note:** No comparable installed/operating package costs verified. a blank is not zero; programme budgets are not household unit prices. **Known, inferred, uncertain:** **Known:** Heat-specific workplace standard is published by the labour safety department. **Inferred:** Could inform shared protection and delivery. **Uncertain:** Do not infer numerical limits, measurement method, paid rest, scope or enforcement from news or metadata alone. **Stage:** Official publication record verified; full technical schedule not appraised. [Workplace maximum heat-level standard BS2082 - official publication record ](https://dolos.gov.np/content/25/maximum-heat-levels--standards--for-workplaces--2082/) **Does:** Heat-specific workplace standard is published by the labour safety department. **Constraints:** Do not infer numerical limits, measurement method, paid rest, scope or enforcement from news or metadata alone.
+
+## Who is working on it
+
+Listing does not imply partnership, endorsement or ranking.
+
+- **[Aasaman Nepal ](https://www.mercycorps.org/sites/default/files/2025-05/heat-study-final-report-jun-2025.pdf)** Named study partner for Madhesh schools research.
+- **[American Red Cross / Global Disaster Preparedness Center ](https://preparecenter.org/)** Documented partner in NRCS heat work and client for institutionalisation study.
+- **[BEE Group ](https://zcralliance.org/blogs/international-youth-day/)** Named local implementer in school heat pilot.
+- **[Biratnagar Metropolitan City ](https://biratnagarmun.gov.np/)** NRCS reports heat-action planning and activities.
+- **[British Red Cross ](https://www.redcross.org.uk/)** Supported Dhangadhi HAP research.
+- **[Community Self Reliance Centre Nepal ](https://csrcnepal.org/)** RAIN implementing partner named in heat account; individual activity allocation not established.
+- **[Council on Energy, Environment and Water / GHHIN South Asia Hub ](https://www.ceew.in/publications/nepal-heat-health-action)** Published 2026 Nepal heat-health synthesis through South Asia Hub.
+- **[DanChurchAid ](https://www.danchurchaid.org/)** RAIN co-lead named by heat implementer.
+- **[Department of Hydrology and Meteorology (DHM; current site uses Nepal Meteorological Department) ](https://dhm.gov.np/)** Publishes official climate data and heat information.
+- **[Department of Labour and Occupational Safety ](https://dolos.gov.np/)** Officially publishes workplace maximum heat-level standard BS2082.
+- **[Dhangadhi Sub-Metropolitan City ](https://dhangadhimun.gov.np/)** Published 2025 HAP and community-informed planning.
+- **[European Union - SWITCH-Asia / BEEN ](https://international-partnerships.ec.europa.eu/policies/programming/projects/building-energy-efficiency-nepal-been_en)** Funded historical BEEN project.
+- **[Finnish Red Cross ](https://www.redcross.fi/)** Supported Nepalgunj plan development and subsequent heat initiatives.
+- **[Forum for Energy and Environment Development (FEED Pvt. Ltd.) ](https://ihrr.org.np/project/assessment-of-fiscal-economic-loss-and-socioeconomic-impacts-of-heatwaves-in-lumbini-provinceassessment-of-fiscal-economic-loss-and-socioeconomic-impacts-of-heatwaves-in-lumbini-province)** Implementer named for Lumbini heat assessment.
+- **[Group for Technical Assistance researchers ](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0329557)** Author affiliations in original outdoor-worker heat study.
+- **[Health Foundation Nepal researchers ](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0329557)** Author affiliation in original outdoor-worker heat study.
+- **[Institute of Himalayan Risk Reduction ](https://ihrr.org.np/)** Heat institutionalisation and Lumbini fiscal-study technical work.
+- **[International Federation of Red Cross and Red Crescent Societies ](https://www.ifrc.org/)** Supports Nepal heat action and DREF-related arrangements; HEWS assessment source.
+- **[Kathmandu University Hospital / Dhulikhel Hospital researchers ](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0329557)** Author affiliations in original outdoor-worker heat study.
+- **[Local Initiatives for Biodiversity, Research and Development (LI-BIRD) ](https://libird.org/)** RAIN implementing partner; specific heat task allocation not established.
+- **[Mercy Corps Nepal ](https://www.mercycorps.org/)** Published Madhesh public-school heat perception study.
+- **[MinErgy Pvt Ltd Nepal ](https://been.minergynepal.com/)** Nepal partner in BEEN climate-responsive buildings consortium.
+- **[Ministry of Health and Population / Department of Health Services ](https://mohp.gov.np/)** Health authorities and local health offices are named in heat response arrangements.
+- **[National Disaster Risk Reduction and Management Authority ](https://ndrrma.gov.np/)** National heat-action planning and DRRM functions.
+- **[Nepal Electricity Authority ](https://www.nea.org.np/)** National plan assigns power-continuity responsibilities.
+- **[Nepal Red Cross Society ](https://nrcs.org/)** Heat planning, outreach, demonstrations and anticipatory arrangements in Terai cities.
+- **[Nepalgunj Sub-Metropolitan City ](https://nepalgunjmun.gov.np/)** Published 2023 municipal HAP; later Movement accounts describe implementation.
+- **[PESWAN Kanchanpur ](https://zcralliance.org/blogs/international-youth-day/)** Named local implementer in school heat learning/pilot.
+- **[People in Need Nepal ](https://nepal.peopleinneed.net/en/)** RAIN lead and author of 2025 heat early-action account.
+- **[Practical Action Nepal ](https://practicalaction.org/)** School cooling/heat learning and supported Lumbini heat assessment.
+- **[Prerana ](https://prerana.org.np/)** RAIN implementing partner named in heat account.
+- **[Red Cross Red Crescent Climate Centre ](https://www.climatecentre.org/)** Technical author/support for city heat plans.
+- **[Regional Integrated Multi-Hazard Early Warning System (RIMES) ](https://www.rimes.int/)** Supported DHM heat IBF national demonstration workshopJuly 2026.
+- **[Siddharthanagar Municipality ](https://siddharthanagarmun.gov.np/)** NRCS reports heat-action planning and activities.
+- **[UK Foreign, Commonwealth and Development Office - RAIN ](https://devtracker.fcdo.gov.uk/programme/GB-GOV-1-400018/summary)** Verified RAIN funding/accountability role.
+- **[UK Met Office ](https://www.metoffice.gov.uk/)** RAIN technical partner named in heat-action account.
+- **[University of Innsbruck - BEEN consortium ](https://www.uibk.ac.at/en/)** BEEN consortium lead.
+- **[Youth Innovation Lab ](https://youthinnovationlab.org/)** RAIN implementing partner named in heat account.
+- **[Zurich Climate Resilience Alliance ](https://zcralliance.org/)** Supports documented Nepal school heat work and warning-system learning.
+
+Other snapshots: [Bangladesh](https://beattheheat.asia/countries/bangladesh/) · [India](https://beattheheat.asia/countries/india/) · [Indonesia](https://beattheheat.asia/countries/indonesia/) · [Philippines](https://beattheheat.asia/countries/philippines/) · [Sri Lanka](https://beattheheat.asia/countries/sri-lanka/) · [Thailand](https://beattheheat.asia/countries/thailand/) · [Solutions library](https://beattheheat.asia/solutions/)
+
+---
+Human edition: https://beattheheat.asia/countries/nepal/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

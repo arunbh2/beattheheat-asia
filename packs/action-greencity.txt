@@ -1,0 +1,41 @@
+Common Shade evidence pack: Green, cool cities
+Action · https://beattheheat.asia/actions/#greencity · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- What is "Green, cool cities", who would carry it out, and over what time?
+- Which vicious cycles could it help interrupt, and how?
+- What does it depend on to work, and what side effects are noted?
+- What examples does the pack give, and what do their sources show?
+- How would progress be measured?
+- What would I need to find out before proposing this in my place?
+
+CONTENT
+
+Green, cool cities
+Trees, water, cool roofs and cool pavements lower city temperatures and flatten peak demand.
+Who could act: City and local governments, Community and civil society groups.
+Over what time: years.
+How progress could be measured: Tree canopy and shaded street length in hotspot wards.
+
+EXAMPLE
+Cooling Singapore, a research programme across agencies, models where heat builds up street by street to test which mix of greenery, materials and layout cools each district best. Indian cities and states such as Ahmedabad and Telangana have run programmes that paint roofs to reflect sunlight. The Green Tamil Nadu Mission aims to raise the state’s forest and tree cover from 23.8% to 33% of its land by 2030–31. [https://www.thegpsc.org/sites/gpsc/files/cooling_singapore_-_digital_urban_climate_twin.pdf] [https://tnpcb.gov.in/PDF/About_Us/Announcementgos/GoNo_215_101123.pdf]
+
+VICIOUS CYCLES IT COULD HELP INTERRUPT
+- The cooling trap: Air conditioning heats the street, and a hotter city needs even more air conditioning.
+
+GUIDES
+- Zurich Climate Resilience Alliance: Urban heat: resources and partner networks [https://zcralliance.org/resources-urban-heat/]
+- Kabisch, Korn, Stadler and Bonn (eds), Springer, 2017, open access: Nature-Based Solutions to Climate Change Adaptation in Urban Areas [https://doi.org/10.1007/978-3-319-56091-5]
+- Global Heat Health Information Network (GHHIN): Heat in the city: guidance and resources for urban heat [https://heathealth.info/in-the-city/]
+
+SOURCES
+- Cooling Singapore: digital urban climate twin: https://www.thegpsc.org/sites/gpsc/files/cooling_singapore_-_digital_urban_climate_twin.pdf
+- Tamil Nadu Pollution Control Board, G.O. 215, 2023: the Green Tamil Nadu Mission target: https://tnpcb.gov.in/PDF/About_Us/Announcementgos/GoNo_215_101123.pdf
+- Zurich Climate Resilience Alliance: Urban heat: resources and partner networks: https://zcralliance.org/resources-urban-heat/
+- Kabisch, Korn, Stadler and Bonn (eds), Springer, 2017, open access: Nature-Based Solutions to Climate Change Adaptation in Urban Areas: https://doi.org/10.1007/978-3-319-56091-5
+- Global Heat Health Information Network (GHHIN): Heat in the city: guidance and resources for urban heat: https://heathealth.info/in-the-city/

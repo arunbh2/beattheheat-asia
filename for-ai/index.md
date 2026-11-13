@@ -123,6 +123,7 @@ Plain files and pages, open to read. Nothing needs a key.
 - [/agents.txt](https://beattheheat.asia/agents.txt)what automated readers may do heretext
 - [/terms-of-use.md](https://beattheheat.asia/terms-of-use.md)terms of reuse in plain texttext
 - [/index.md](https://beattheheat.asia/index.md)a Markdown twin of every page: add index.md to a page's address (this is the home page's)text
+- [/use-with-ai/](https://beattheheat.asia/use-with-ai/)evidence packs: one plain-text file per country, vicious cycle and action, with starter questionsHTML
 - [/sources/](https://beattheheat.asia/sources/)every source the site cites, searchableHTML
 - [/data/core/LOOPS.json](https://beattheheat.asia/data/core/LOOPS.json)the vicious cyclesJSON
 - [/data/core/CONSEQUENCES.json](https://beattheheat.asia/data/core/CONSEQUENCES.json)the consequences of heatJSON

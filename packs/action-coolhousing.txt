@@ -1,0 +1,43 @@
+Common Shade evidence pack: Cool, affordable housing
+Action · https://beattheheat.asia/actions/#coolhousing · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- What is "Cool, affordable housing", who would carry it out, and over what time?
+- Which vicious cycles could it help interrupt, and how?
+- What does it depend on to work, and what side effects are noted?
+- What examples does the pack give, and what do their sources show?
+- How would progress be measured?
+- What would I need to find out before proposing this in my place?
+
+CONTENT
+
+Cool, affordable housing
+Upgrading informal settlements with ventilation, shade and cool roofs, and planning homes for people who arrive.
+Who could act: City and local governments, Development banks, donors and climate funds, Community and civil society groups.
+Over what time: decade.
+How progress could be measured: Homes fitted with cool roofs or insulation.
+
+EXAMPLE
+Telangana’s Cool Roof Policy 2023–2028, India’s first, makes cool roofs mandatory for many kinds of building and aims to cover about 300 km² of roofs. Tamil Nadu’s heat strategy proposes making a measure of how much heat walls and roofs let in, the residential envelope transmittance value (ReTV) from India’s residential energy code, a condition in tenders for redeveloping informal settlements. [https://www.nrdc.org/bio/prima-madan/telangana-announces-groundbreaking-cool-roof-policy] [https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf]
+
+WATCH FOR
+- In 16 Ahmedabad homes compared over one week, most roof treatments lowered daytime indoor heat, but one coating left rooms hotter than untreated roofs. Designs differ, and night-time effects were not measured. [https://pmc.ncbi.nlm.nih.gov/articles/PMC7227734/]
+
+VICIOUS CYCLES IT COULD HELP INTERRUPT
+- The displacement loop: People forced to move often land in heat-trapping housing, fall ill, lose income, fall further behind, and are forced to move again.
+
+GUIDES
+- The Climate Group: Telangana’s cool roof policy: from pilot demonstration to policy [https://www.theclimategroup.org/our-work/publications/telanganas-cool-roof-policy-pilot-demonstration-policy-implementation]
+- Wellcome: £17.5m for research testing heat adaptations, including a trial of reflective roof coatings with a site in India [https://wellcome.org/insights/articles/wellcome-awards-ps175m-support-global-research-drive]
+
+SOURCES
+- NRDC: Telangana announces a groundbreaking cool roof policy: https://www.nrdc.org/bio/prima-madan/telangana-announces-groundbreaking-cool-roof-policy
+- Tamil Nadu State Planning Commission, Beating the Heat: Tamil Nadu Heat Mitigation Strategy, 2024: https://spc.tn.gov.in/wp-content/uploads/Heat_Mitigation_Strategy.pdf
+- Vellingiri et al., 2020: cool roofs and indoor temperatures in Ahmedabad's informal settlements (PMC7227734): https://pmc.ncbi.nlm.nih.gov/articles/PMC7227734/
+- The Climate Group: Telangana’s cool roof policy: from pilot demonstration to policy: https://www.theclimategroup.org/our-work/publications/telanganas-cool-roof-policy-pilot-demonstration-policy-implementation
+- Wellcome: £17.5m for research testing heat adaptations, including a trial of reflective roof coatings with a site in India: https://wellcome.org/insights/articles/wellcome-awards-ps175m-support-global-research-drive

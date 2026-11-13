@@ -1,0 +1,45 @@
+Common Shade evidence pack: The medical-debt trap
+Vicious cycle · https://beattheheat.asia/loops/#debt · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- Explain "The medical-debt trap" step by step, with the source for each link.
+- Who is hit hardest by this cycle, according to the pack?
+- Which actions could interrupt it, and what do they depend on?
+- What would have to be true for one of these links to fail in my place?
+- Which studies support this cycle, and what limits do they state about themselves?
+- What is still uncertain about this cycle?
+
+CONTENT
+
+The medical-debt trap
+Treatment costs push families into debt. Debt removes any option to rest, and working through the heat brings more illness.
+Evidence for the cycle as a whole: emerging.
+
+THE LINKS IN THE CYCLE
+- Heatstroke and heat exhaustion, which leads to medical costs and debt: When the body can no longer cool itself, heat exhaustion can tip into heatstroke: a medical emergency that can kill. India’s suspected heatstroke cases rose more than tenfold in two summers, from 4,481 in 2022 to over 48,000 in 2024. Humid heat is the most dangerous: when the wet-bulb temperature is high, sweat stops cooling the body. Many more people feel heat illness than are diagnosed with it: among women garment workers in Phnom Penh, reports of symptoms such as thirst, heavy sweating and tiredness rose from 68% in cool months to 88% in hot months. [https://rsdebate.nic.in/bitstream/123456789/750681/1/PQ_265_06082024_U1693_p358_p362.pdf] [https://link.springer.com/article/10.1186/s12889-025-22787-0]
+- Medical costs and debt, which leads to informal workers can’t stop work: Treatment, medicines and lost days are often paid for out of pocket, pushing households into debt. In Dhaka, informal workers described paying for treatment and borrowing during heat; how long such debts last is not yet known. [https://bmjopen.bmj.com/content/8/5/e018020] [https://www.iied.org/sites/default/files/pdfs/2026-08/22755iied.pdf]
+- Informal workers can’t stop work, which leads to heatstroke and heat exhaustion: Without paid leave, contracts or savings, stopping work means losing the day’s income. So people keep working through dangerous heat. About three in four Indian workers, some 380 million people, depend on heat-exposed work. Around 90% of India's workers, and 80% in urban Delhi, work informally. [https://www.downtoearth.org.in/climate-change/heatwaves-in-india-could-soon-break-human-survivability-limit-says-world-bank-analysis-86431] [https://niua.in/publication-details/Heat_Resilient_Cities_Framework]
+
+STUDIES BEHIND IT
+- Human Rights Watch, 2025: Microfinance debt in Cambodia. Cambodia’s average microloan was over US$5,800 in 2024, more than four times the country’s median annual income per person. Where: Cambodia. Limit it states: Shows how heavy debt is; it does not measure the part heat plays. [https://www.hrw.org/report/2025/09/24/debt-traps/predatory-microfinance-loans-and-exploitation-of-cambodias-indigenous]
+- Selvaraj, Farooqui and Karan, BMJ Open, 2018: Quantifying the financial burden of households’ out-of-pocket payments on medicines in India. Medicine costs alone were catastrophic for 11.2% of Indian households in 2011–12, about 29 million households. Where: India. Limit it states: Older data on all medicine costs, not heat illness alone. [https://bmjopen.bmj.com/content/8/5/e018020]
+- American Red Cross, Red Cross Red Crescent Climate Centre, Nepal Red Cross Society and Bangladesh Red Crescent Society, 2026: The lived experiences of vulnerable populations in the context of extreme heat: five cities in Nepal and Bangladesh. In a survey of more than 2,000 residents of five cities, heat harmed health, cut incomes and working hours, and pushed some households towards high-interest loans. Women and people with disabilities faced the hardest trade-offs between health, work and care. Where: Five cities in Nepal and Bangladesh. Limit it states: Reported experiences; it does not measure how often loans followed heat. [https://www.climatecentre.org/publications/17312/the-lived-experiences-of-vulnerable-populations-in-the-context-of-extreme-heat-a-comprehensive-narrative-report-based-on-survey-data-from-five-cities-in-nepal-and-bangladesh/]
+
+ACTIONS THAT COULD INTERRUPT IT
+- Heat-safe work: Rest, shade and water during dangerous heat, with paid breaks so that stopping work doesn’t mean losing pay.
+- Free care for heat illness: Covering emergency treatment for heat illness stops one bad day from becoming years of debt.
+
+SOURCES
+- Ministry of Health and Family Welfare, reply in India’s Rajya Sabha, 6 August 2024: https://rsdebate.nic.in/bitstream/123456789/750681/1/PQ_265_06082024_U1693_p358_p362.pdf
+- Chea et al., BMC Public Health, 2025: heat stress among women garment workers in Cambodia, cool and hot months: https://link.springer.com/article/10.1186/s12889-025-22787-0
+- Selvaraj, Farooqui and Karan, BMJ Open, 2018: https://bmjopen.bmj.com/content/8/5/e018020
+- IIED, 2026: health and economic impacts of heat on informal workers in urban Bangladesh: https://www.iied.org/sites/default/files/pdfs/2026-08/22755iied.pdf
+- World Bank, 2022, reported by Down To Earth: https://www.downtoearth.org.in/climate-change/heatwaves-in-india-could-soon-break-human-survivability-limit-says-world-bank-analysis-86431
+- NIUA Climate Centre for Cities, 2026: Heat Resilient Cities Framework, p. 8, citing WIEGO's statistical profile of informal workers in India: https://niua.in/publication-details/Heat_Resilient_Cities_Framework
+- Human Rights Watch, 2025: Microfinance debt in Cambodia: https://www.hrw.org/report/2025/09/24/debt-traps/predatory-microfinance-loans-and-exploitation-of-cambodias-indigenous
+- American Red Cross, Red Cross Red Crescent Climate Centre, Nepal Red Cross Society and Bangladesh Red Crescent Society, 2026: The lived experiences of vulnerable populations in the context of extreme heat: five cities in Nepal and Bangladesh: https://www.climatecentre.org/publications/17312/the-lived-experiences-of-vulnerable-populations-in-the-context-of-extreme-heat-a-comprehensive-narrative-report-based-on-survey-data-from-five-cities-in-nepal-and-bangladesh/

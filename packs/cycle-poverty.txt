@@ -1,0 +1,50 @@
+Common Shade evidence pack: The poverty–heat trap
+Vicious cycle · https://beattheheat.asia/loops/#poverty · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- Explain "The poverty–heat trap" step by step, with the source for each link.
+- Who is hit hardest by this cycle, according to the pack?
+- Which actions could interrupt it, and what do they depend on?
+- What would have to be true for one of these links to fail in my place?
+- Which studies support this cycle, and what limits do they state about themselves?
+- What is still uncertain about this cycle?
+
+CONTENT
+
+The poverty–heat trap
+People who can’t afford to stop working fall ill. Illness costs income, and lost income makes stopping even less affordable.
+Evidence for the cycle as a whole: established.
+
+THE LINKS IN THE CYCLE
+- Informal workers can’t stop work, which leads to heatstroke and heat exhaustion: Without paid leave, contracts or savings, stopping work means losing the day’s income. So people keep working through dangerous heat. About three in four Indian workers, some 380 million people, depend on heat-exposed work. Around 90% of India's workers, and 80% in urban Delhi, work informally. [https://www.downtoearth.org.in/climate-change/heatwaves-in-india-could-soon-break-human-survivability-limit-says-world-bank-analysis-86431] [https://niua.in/publication-details/Heat_Resilient_Cities_Framework]
+- Heatstroke and heat exhaustion, which leads to lost work hours and wages: When the body can no longer cool itself, heat exhaustion can tip into heatstroke: a medical emergency that can kill. India’s suspected heatstroke cases rose more than tenfold in two summers, from 4,481 in 2022 to over 48,000 in 2024. Humid heat is the most dangerous: when the wet-bulb temperature is high, sweat stops cooling the body. Many more people feel heat illness than are diagnosed with it: among women garment workers in Phnom Penh, reports of symptoms such as thirst, heavy sweating and tiredness rose from 68% in cool months to 88% in hot months. [https://rsdebate.nic.in/bitstream/123456789/750681/1/PQ_265_06082024_U1693_p358_p362.pdf] [https://link.springer.com/article/10.1186/s12889-025-22787-0]
+- Lost work hours and wages, which leads to informal workers can’t stop work: The International Labour Organization projects that heat stress could cut 2.2% of all working hours worldwide by 2030, the equivalent of 80 million full-time jobs. [https://www.ilo.org/resource/news/increase-heat-stress-predicted-bring-productivity-loss-equivalent-80]
+
+STUDIES BEHIND IT
+- WIEGO and HomeNet Thailand, 2025: Climate change and heat stress: impacts on home-based workers and street vendors in Bangkok. In a survey of informal workers in Bangkok, nearly 80% had cut their hours because of heat, and 75% of home-based workers lost at least one day of work a month to their own or a family member’s heat illness. Where: Bangkok, Thailand. Limit it states: Self-reported, from workers in one city. [https://www.wiego.org/wp-content/uploads/2025/10/WIEGO-Policy-Brief-33-Climate-Change-and-Heat-Stress.pdf]
+- OECD Economics Department, Working Paper No. 1828, 2024: The heat is on: Heat stress, productivity and adaptation among firms. Across 2.7 million firms in 23 advanced economies, including Japan and Korea, ten extra days above 35 °C cut yearly labour productivity by 0.3%, and over 1.5% above 40 °C. Very humid places lost 0.75%, more than double the average. Korea has already lost about 0.15% of productivity to added heat since the early 2000s. Where: 23 advanced economies, including Japan and Korea. Limit it states: Rich economies with formal firms; informal work in South and Southeast Asia is not covered. [https://doi.org/10.1787/19d94638-en]
+- World Bank, 2022, reported by Down To Earth: Climate Investment Opportunities in India’s Cooling Sector. Up to three-quarters of India’s workforce, about 380 million people, depend on heat-exposed labour, work that produces nearly half of the country’s GDP. Where: India. Limit it states: A broad estimate of heat-exposed work, not a count of workers harmed. [https://www.downtoearth.org.in/climate-change/heatwaves-in-india-could-soon-break-human-survivability-limit-says-world-bank-analysis-86431]
+- International Labour Organization, 2019: Working on a warmer planet. Heat stress is projected to cost 2.2% of all working hours by 2030, equal to 80 million full-time jobs. South Asia is among the worst hit, losing about 5% of working hours. Where: Global, with regional figures. Limit it states: A projection to 2030 at about 1.5 °C of warming. [https://www.ilo.org/resource/news/increase-heat-stress-predicted-bring-productivity-loss-equivalent-80]
+- Lancet Countdown, The Lancet, 2024: The 2024 report of the Lancet Countdown on health and climate change. Heat exposure put a record 512 billion potential labour hours at risk in 2023, with potential income losses of US$835 billion. Where: Global. Limit it states: Potential hours and income at risk, not hours actually lost. [https://doi.org/10.1016/S0140-6736(24)01822-1]
+- World Bank, 2025: An Unsustainable Life: the impact of heat on health and the economy of Bangladesh. Heat-related illness cost Bangladesh 250 million workdays in 2024, worth up to US$1.78 billion, about 0.4% of GDP. Since 1980 the ‘feels-like’ temperature has risen by 4.5 °C. Where: Bangladesh. Limit it states: Combines survey and modelling; the money value is an upper estimate. [https://www.worldbank.org/en/news/press-release/2025/09/16/bangladesh-faces-health-and-economic-risks-from-rising-temperature-world-bank]
+
+ACTIONS THAT COULD INTERRUPT IT
+- Heat-safe work: Rest, shade and water during dangerous heat, with paid breaks so that stopping work doesn’t mean losing pay.
+- Income protection in heatwaves: Cash that pays out automatically when temperatures cross a danger threshold, so people can afford to stop. Triggers need careful design to limit basis risk: heat that hurts people without triggering a payout.
+- Social protection floors: Basic income security that keeps households above the line between one hot season and the next.
+
+SOURCES
+- World Bank, 2022, reported by Down To Earth: https://www.downtoearth.org.in/climate-change/heatwaves-in-india-could-soon-break-human-survivability-limit-says-world-bank-analysis-86431
+- NIUA Climate Centre for Cities, 2026: Heat Resilient Cities Framework, p. 8, citing WIEGO's statistical profile of informal workers in India: https://niua.in/publication-details/Heat_Resilient_Cities_Framework
+- Ministry of Health and Family Welfare, reply in India’s Rajya Sabha, 6 August 2024: https://rsdebate.nic.in/bitstream/123456789/750681/1/PQ_265_06082024_U1693_p358_p362.pdf
+- Chea et al., BMC Public Health, 2025: heat stress among women garment workers in Cambodia, cool and hot months: https://link.springer.com/article/10.1186/s12889-025-22787-0
+- International Labour Organization, 2019: heat stress predicted to cost the equivalent of 80 million jobs: https://www.ilo.org/resource/news/increase-heat-stress-predicted-bring-productivity-loss-equivalent-80
+- WIEGO and HomeNet Thailand, 2025: Climate change and heat stress: impacts on home-based workers and street vendors in Bangkok: https://www.wiego.org/wp-content/uploads/2025/10/WIEGO-Policy-Brief-33-Climate-Change-and-Heat-Stress.pdf
+- OECD Economics Department, Working Paper No. 1828, 2024: The heat is on: Heat stress, productivity and adaptation among firms: https://doi.org/10.1787/19d94638-en
+- Lancet Countdown, The Lancet, 2024: The 2024 report of the Lancet Countdown on health and climate change: https://doi.org/10.1016/S0140-6736(24)01822-1
+- World Bank, 2025: An Unsustainable Life: the impact of heat on health and the economy of Bangladesh: https://www.worldbank.org/en/news/press-release/2025/09/16/bangladesh-faces-health-and-economic-risks-from-rising-temperature-world-bank

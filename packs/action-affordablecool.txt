@@ -1,0 +1,43 @@
+Common Shade evidence pack: Affordable cooling for the poorest
+Action · https://beattheheat.asia/actions/#affordablecool · built 2026-11-13
+Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
+
+HOW TO USE THIS PACK
+Load it into a notebook tool, or give it to an assistant and ask it to answer only from this pack and to name the source behind each point. An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.
+Evidence labels used across Common Shade: known (measured in a study or set out in an official record), inferred (models and projections), uncertain (reports not yet confirmed).
+
+QUESTIONS TO START WITH
+- What is "Affordable cooling for the poorest", who would carry it out, and over what time?
+- Which vicious cycles could it help interrupt, and how?
+- What does it depend on to work, and what side effects are noted?
+- What examples does the pack give, and what do their sources show?
+- How would progress be measured?
+- What would I need to find out before proposing this in my place?
+
+CONTENT
+
+Affordable cooling for the poorest
+Lifeline electricity tariffs, cool roofs and cooling suited to the local heat bring safer cooling within reach of households that cannot afford it. Which kind helps depends on the climate and the person: a fan that helps in humid heat may not help in very hot, dry air.
+Who could act: Utilities and energy regulators, City and local governments, National governments.
+Over what time: years.
+How progress could be measured: Low-income homes with affordable cooling.
+
+EXAMPLE
+None recorded yet.
+
+WATCH FOR
+- In laboratory trials with older adults, fans slightly cooled the body in hot, humid air but raised body temperature in very hot, dry air. These were short trials, not homes. [https://pmc.ncbi.nlm.nih.gov/articles/PMC12308431/]
+
+VICIOUS CYCLES IT COULD HELP INTERRUPT
+- The energy-poverty trap: People who can’t afford to cool fall ill. Illness brings debt, and debt puts cooling even further out of reach.
+
+GUIDES
+- Sustainable Energy for All, 2023: Chilling Prospects: Global Access to Cooling Gaps 2023 [https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-global-access-to-cooling-gaps-2023]
+- Sustainable Energy for All: Chilling Prospects Special: Gender and Access to Cooling [https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-special-gender]
+- National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026: Heat Resilient Cities Framework: cooling access treated as a public service and a question of energy justice, including for tenants and informal settlements (pp. 8-9) [https://niua.in/publication-details/Heat_Resilient_Cities_Framework]
+
+SOURCES
+- Chaseling et al., 2025: older adults' responses to fan use in heat extremes (PMC12308431): https://pmc.ncbi.nlm.nih.gov/articles/PMC12308431/
+- Sustainable Energy for All, 2023: Chilling Prospects: Global Access to Cooling Gaps 2023: https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-global-access-to-cooling-gaps-2023
+- Sustainable Energy for All: Chilling Prospects Special: Gender and Access to Cooling: https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-special-gender
+- National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026: Heat Resilient Cities Framework: cooling access treated as a public service and a question of energy justice, including for tenants and informal settlements (pp. 8-9): https://niua.in/publication-details/Heat_Resilient_Cities_Framework

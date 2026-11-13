@@ -144,15 +144,15 @@
   "changed": "2026-11-08"
  },
  "/evidence/": {
-  "hash": "515e11d2e2d44fcb",
-  "changed": "2026-11-11"
+  "hash": "6c7a4597c571aad1",
+  "changed": "2026-11-13"
  },
  "/finance/": {
   "hash": "e9e1e8d156d9ef55",
   "changed": "2026-10-31"
  },
  "/for-ai/": {
-  "hash": "79828768a9303d2a",
+  "hash": "a20ccfb220da7dfc",
   "changed": "2026-11-13"
  },
  "/fund/": {
@@ -164,7 +164,7 @@
   "changed": "2026-11-07"
  },
  "/growing/": {
-  "hash": "c143abb95bf9706f",
+  "hash": "97cba309b6931d1b",
   "changed": "2026-11-13"
  },
  "/guide/": {
@@ -466,6 +466,10 @@
  "/understand/": {
   "hash": "12ffb1acea6e933d",
   "changed": "2026-11-07"
+ },
+ "/use-with-ai/": {
+  "hash": "06d7530c0bb7fee0",
+  "changed": "2026-10-01"
  },
  "/whats-new/": {
   "hash": "88db622abfabfa2a",

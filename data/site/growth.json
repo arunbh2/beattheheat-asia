@@ -530,6 +530,42 @@
      ]
     },
     {
+     "id": "g-use-with-ai",
+     "kind": "tool",
+     "root": "practical",
+     "added": "2026-11-13",
+     "pr": null,
+     "title": "Evidence packs to use with your own AI",
+     "why": "Many readers already think with an AI assistant or notebook tool, and the site itself runs none. Each country, vicious cycle and action is now one plain-text pack of the site's own words and sources, with questions to start from and a plain warning that the sources, not the assistant, are the authority.",
+     "places": [
+      "region"
+     ],
+     "people": [],
+     "topics": [],
+     "event": {
+      "what": "Page and packs added",
+      "date": "2026-11-13"
+     },
+     "review": "Packs are built from the site's own records at every build, country packs word for word from their snapshots; a check fails if a pack is missing, lacks its questions, warning or sources, or uses an em dash. Actions with no example on the map say so",
+     "pages": [
+      [
+       "/use-with-ai/",
+       "Use Common Shade with your own AI"
+      ]
+     ],
+     "action": [
+      "Get an evidence pack",
+      "/use-with-ai/"
+     ],
+     "links": [
+      {
+       "to": "page:/approach/",
+       "why": "How AI is used to build the site is set out on the approach page.",
+       "basis": "editorial"
+      }
+     ]
+    },
+    {
       "id": "g-for-ai", "kind": "tool", "root": "practical", "added": "2026-11-11", "pr": null,
       "title": "A page for the AI agents that read the site",
       "why": "More people now meet the site through an assistant than through a browser. /for-ai/ tells an assistant what Common Shade is, when it fits a person's question, how to cite it and what to avoid, and publishes the same record as JSON and plain text, so an assistant can represent the evidence as carefully as the site states it.",
