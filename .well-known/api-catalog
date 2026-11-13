@@ -1,0 +1,49 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://beattheheat.asia/.well-known/api-catalog",
+      "service-desc": [
+        {
+          "href": "https://beattheheat.asia/openapi.json",
+          "type": "application/vnd.oai.openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://beattheheat.asia/for-ai/",
+          "type": "text/html"
+        }
+      ],
+      "item": [
+        {
+          "href": "https://beattheheat.asia/openapi.json"
+        }
+      ]
+    },
+    {
+      "anchor": "https://beattheheat.asia/openapi.json",
+      "service-desc": [
+        {
+          "href": "https://beattheheat.asia/openapi.json",
+          "type": "application/vnd.oai.openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://beattheheat.asia/for-ai/",
+          "type": "text/html"
+        },
+        {
+          "href": "https://beattheheat.asia/llms.txt",
+          "type": "text/plain"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://beattheheat.asia/feed.xml",
+          "type": "application/atom+xml"
+        }
+      ]
+    }
+  ]
+}

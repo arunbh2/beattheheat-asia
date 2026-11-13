@@ -1,0 +1,23 @@
+{
+  "version": "0.91",
+  "name": "beattheheat.asia",
+  "description": "Agent interface directory for Common Shade, a free evidence base on extreme heat in South and Southeast Asia. A static website: open files, no server API, no login.",
+  "openapi": "https://beattheheat.asia/openapi.json",
+  "llmstxt": "https://beattheheat.asia/llms.txt",
+  "llms_full": "https://beattheheat.asia/llms-full.txt",
+  "sitemap": "https://beattheheat.asia/sitemap.xml",
+  "sitemap_json": "https://beattheheat.asia/sitemap.json",
+  "api_catalog": "https://beattheheat.asia/.well-known/api-catalog",
+  "for_ai": "https://beattheheat.asia/for-ai/",
+  "record": "https://beattheheat.asia/for-ai.json",
+  "feed": "https://beattheheat.asia/feed.xml",
+  "agents_txt": "https://beattheheat.asia/agents.txt",
+  "authentication": {
+    "type": "none",
+    "note": "Everything is open to read; see https://beattheheat.asia/auth.md"
+  },
+  "license": "CC BY 4.0",
+  "terms": "https://beattheheat.asia/terms-of-use.md",
+  "privacy": "https://beattheheat.asia/privacy/",
+  "security": "https://beattheheat.asia/.well-known/security.txt"
+}

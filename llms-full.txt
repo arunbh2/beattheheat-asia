@@ -6,7 +6,7 @@ Common Shade is in beta, currently at beattheheat.asia. A group of organisations
 
 Text, data, films and illustrations © Common Shade contributors, shared under Creative Commons Attribution 4.0 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/): you may copy, adapt and translate them, with credit and a link to beattheheat.asia. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’ and are not covered.
 
-Interactive map: https://beattheheat.asia/ · Generated 2026-11-11
+Interactive map: https://beattheheat.asia/ · Generated 2026-11-13
 
 ## The web of extreme heat: every consequence, system by system
 
@@ -5666,7 +5666,7 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 
 https://beattheheat.asia/growing/
 
-See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 37 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
+See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 38 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
 
 ### How the work behind the commons grew
 
@@ -5681,6 +5681,8 @@ Dated by the publication date of the work Common Shade draws on (1084 of 1909 wo
 - 2026 so far: 224 works published (128 with a known month), 1084 in all by the end of the period. Financing: 231; Institutions and plans: 139; Practical measures: 241; Experience: 70; Evidence: 403.
 
 ### Changes, newest first
+
+- Tool improved: Open files for the tools that read the web, and a privacy page. Added 13 November 2026 · Files and page added 13 November 2026. Why it matters (our reading): Assistants and crawlers look for a site's files at standard addresses. Common Shade now publishes an agent directory, an OpenAPI description of its open data with examples, a change feed and a Markdown twin of every page, and says plainly on one page what it keeps and what it asks other services for. Places: South and Southeast Asia. Review: Each file lists only what exists, and a check fails naming the path if one is missing; the privacy page restates what the site's code does, with nothing added. Next: Read what the site keeps and shares https://beattheheat.asia/privacy/. Connections: For ai (our reading): The page for AI agents lists the new files.
 
 - Tool improved: A page for the AI agents that read the site. Added 11 November 2026 · Page added 11 November 2026. Why it matters (our reading): More people now meet the site through an assistant than through a browser. /for-ai/ tells an assistant what Common Shade is, when it fits a person's question, how to cite it and what to avoid, and publishes the same record as JSON and plain text, so an assistant can represent the evidence as carefully as the site states it. Places: South and Southeast Asia. Review: Written only from standards the site already publishes; every count is calculated at build time; every endpoint it lists is checked to exist; it asks nothing of an assistant that conflicts with its user's wishes. Next: Read the page for AI agents https://beattheheat.asia/for-ai/. Connections: Approach (our reading): The evidence labels and standards the page asks an assistant to pass on are explained there. Cite (our reading): How to cite the site, and where the open data is, is set out there.
 

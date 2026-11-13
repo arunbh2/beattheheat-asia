@@ -5,7 +5,7 @@
   "also_known_as": "BeatTheHeat.Asia (the name it was first published under; the site is moving to commonshade.asia)",
   "summary": "A free, open, non-commercial evidence base on extreme heat in South and Southeast Asia: how heat harms health, income and homes, how one harm leads to the next, what helps, and who could act and who could pay. Every claim links to its source and says how sure the evidence is.",
   "status": "beta",
-  "updated": "2026-11-11",
+  "updated": "2026-11-13",
   "cost": "free",
   "account_required": false,
   "visitor_data": "What a visitor chooses stays in their own browser.",
@@ -167,6 +167,54 @@
       "path": "/sitemap.xml",
       "what": "every page",
       "format": "XML"
+    },
+    {
+      "url": "https://beattheheat.asia/sitemap.json",
+      "path": "/sitemap.json",
+      "what": "every page, with the address of its Markdown twin and the date it last changed",
+      "format": "JSON"
+    },
+    {
+      "url": "https://beattheheat.asia/openapi.json",
+      "path": "/openapi.json",
+      "what": "OpenAPI 3.1 description of the open files, with examples",
+      "format": "JSON"
+    },
+    {
+      "url": "https://beattheheat.asia/.well-known/ard.json",
+      "path": "/.well-known/ard.json",
+      "what": "the agent directory: where each machine-readable file is",
+      "format": "JSON"
+    },
+    {
+      "url": "https://beattheheat.asia/.well-known/api-catalog",
+      "path": "/.well-known/api-catalog",
+      "what": "API catalog (RFC 9727) pointing to the OpenAPI description",
+      "format": "JSON"
+    },
+    {
+      "url": "https://beattheheat.asia/feed.xml",
+      "path": "/feed.xml",
+      "what": "Atom feed of each reviewed change to the site",
+      "format": "XML"
+    },
+    {
+      "url": "https://beattheheat.asia/agents.txt",
+      "path": "/agents.txt",
+      "what": "what automated readers may do here",
+      "format": "text"
+    },
+    {
+      "url": "https://beattheheat.asia/terms-of-use.md",
+      "path": "/terms-of-use.md",
+      "what": "terms of reuse in plain text",
+      "format": "text"
+    },
+    {
+      "url": "https://beattheheat.asia/index.md",
+      "path": "/index.md",
+      "what": "a Markdown twin of every page: add index.md to a page's address (this is the home page's)",
+      "format": "text"
     },
     {
       "url": "https://beattheheat.asia/sources/",

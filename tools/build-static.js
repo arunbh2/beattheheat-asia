@@ -529,6 +529,7 @@ fs.writeFileSync(path.join(ROOT, "robots.txt"), `# Common Shade welcomes search 
 
 User-agent: *
 Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
 
 ${BOTS.map(b => `User-agent: ${b}\nAllow: /`).join("\n\n")}
 
@@ -556,6 +557,8 @@ require("./build-print")().then(list => {
       urls.sort().map(u => `  <url><loc>${SITE}/${u}</loc><lastmod>${TODAY}</lastmod><priority>${pri(u)}</priority></url>`).join("\n") + "\n</urlset>\n");
     console.log("sitemap:", urls.length, "pages");
   }
+  // after the final sitemap and navigation: the machine-readable doors, Markdown twins and head links
+  require("./build-agent-files.js");
 });
 console.log("Wrote", PAGES.length + CITY_PAGES.length, "pages, llms.txt, llms-full.txt, sitemap.xml and robots.txt");
 
