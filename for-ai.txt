@@ -26,8 +26,8 @@ COUNTS (calculated at build time)
 - businesses: 91
 - funders: 77
 - organisations: 334
-- signals: 15
-- commitments tracked: 8
+- signals: 20
+- commitments tracked: 11
 
 EVIDENCE LABELS
 - known: Measured in a study, or set out in an official record.

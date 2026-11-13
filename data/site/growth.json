@@ -406,6 +406,58 @@
       "links": [{ "to": "lever:anticipatory", "why": "A strong El Niño into 2027 is a forecast that early action can use.", "basis": "record" }]
     },
     {
+     "id": "g-signals-cop31-checkin-1",
+     "kind": "evidence",
+     "root": "evidence",
+     "added": "2026-11-13",
+     "pr": null,
+     "title": "COP31, first check-in: health, early warning and money",
+     "why": "In COP31's first days, heat surfaced through a voluntary health initiative, the presidency's health theme, IFRC's finding on early warning and UNEP's adaptation finance gap, rather than through negotiating text. Each was verified at its primary source before joining the COP31 watch, and the watch now says plainly what it has not found yet.",
+     "places": [
+      "region"
+     ],
+     "people": [],
+     "topics": [
+      "anticipatory",
+      "heatbudget"
+     ],
+     "event": {
+      "what": "COP31 Health Day",
+      "date": "2026-11-09"
+     },
+     "finding": {
+      "text": "only 35% of countries have reported having health early warning systems for heat-related illness",
+      "source": [
+       "International Federation of Red Cross and Red Crescent Societies: IFRC COP31 Call to Action, 2026",
+       "https://www.ifrc.org/sites/default/files/2026-10/IFRC%20COP31%20Call%20to%20Action.pdf"
+      ]
+     },
+     "review": "Ten claims staged and all ten passed the GitHub check at WHO, IFRC, UNEP, WMO, UN News and Health Policy Watch; two drafts reworded to match their sources; the cooling pledge, a named official's statement and civil-society asks set aside as not COP31 commitments",
+     "effort": {
+      "asked": "What has COP31 said about heat so far, confirmed at the source?",
+      "inbox": "data/inbox/2026-11-signals-cop31-3",
+      "dropped": "research/2026-11/signals-cop31-3/dropped-after-check.json",
+      "open": "Whether any South or Southeast Asian government makes a heat commitment at COP31."
+     },
+     "pages": [
+      [
+       "/signals/",
+       "Signals"
+      ]
+     ],
+     "action": [
+      "Read the COP31 watch",
+      "/signals/#cop31"
+     ],
+     "links": [
+      {
+       "to": "lever:anticipatory",
+       "why": "IFRC's finding is about early warning that reaches health services.",
+       "basis": "record"
+      }
+     ]
+    },
+    {
       "id": "g-for-ai", "kind": "tool", "root": "practical", "added": "2026-11-11", "pr": null,
       "title": "A page for the AI agents that read the site",
       "why": "More people now meet the site through an assistant than through a browser. /for-ai/ tells an assistant what Common Shade is, when it fits a person's question, how to cite it and what to avoid, and publishes the same record as JSON and plain text, so an assistant can represent the evidence as carefully as the site states it.",
