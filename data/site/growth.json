@@ -494,6 +494,42 @@
      ]
     },
     {
+     "id": "g-ai-use",
+     "kind": "tool",
+     "root": "practical",
+     "added": "2026-11-13",
+     "pr": null,
+     "title": "How AI is used on Common Shade, stated plainly",
+     "why": "Readers deserve to know how a site that asks them to trust its sources is made. The approach page now says what AI does in building Common Shade, what it is never allowed to do, who approves what is published, and where its limits are.",
+     "places": [
+      "region"
+     ],
+     "people": [],
+     "topics": [],
+     "event": {
+      "what": "Section added",
+      "date": "2026-11-13"
+     },
+     "review": "Written from what the repository actually does: AI drafts and builds, plain scripts check sources, the site owner approves; nothing on the site sends visitor input to an AI service",
+     "pages": [
+      [
+       "/approach/",
+       "How Common Shade sees heat"
+      ]
+     ],
+     "action": [
+      "Read how AI is used here",
+      "/approach/#ai"
+     ],
+     "links": [
+      {
+       "to": "page:/for-ai/",
+       "why": "AI systems that read the site have their own page.",
+       "basis": "editorial"
+      }
+     ]
+    },
+    {
       "id": "g-for-ai", "kind": "tool", "root": "practical", "added": "2026-11-11", "pr": null,
       "title": "A page for the AI agents that read the site",
       "why": "More people now meet the site through an assistant than through a browser. /for-ai/ tells an assistant what Common Shade is, when it fits a person's question, how to cite it and what to avoid, and publishes the same record as JSON and plain text, so an assistant can represent the evidence as carefully as the site states it.",

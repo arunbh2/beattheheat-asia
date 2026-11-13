@@ -84,6 +84,9 @@ Every decision elevates the reader's experience (UX), the maintainer's experienc
 ## For AI agents
 `/for-ai/` ("For AI agents") is built by `tools/build-for-ai.js` from `tools/for-ai-text.js`, which also writes `/for-ai.json` and `/for-ai.txt` and adds a section to `llms.txt` and `llms-full.txt` and an entry to `sitemap.xml`. Counts come from the build, never typed; the build fails, naming the path, if an endpoint it lists does not exist. Its do and please-avoid lines restate standards already on `/approach/`, `/cite/` and in the disclaimer; add to them only from those. The shared footer carries a "Not a human?" strip that links to it. It never asks an agent to override its user or its own guidelines, and nothing on it is hidden from people.
 
+## How AI is used
+`/approach/#ai` ("How AI is used on Common Shade") and its section in `llms-full.txt` come from `tools/ai-use-text.js`. Keep it true to what the repository does, and change it in the same pull request as any change to how AI is used (for example a new kind of generated media).
+
 ## Machine-readable files
 `tools/build-agent-files.js` runs last in build-static.js and writes `/.well-known/` (ard.json, api-catalog, security.txt, tdmrep.json), `/openapi.json`, `/sitemap.json`, `/agents.txt`, `/auth.md`, `/terms-of-use.md`, `/feed.xml` (from growth.json) and an `index.md` twin beside every page, and adds a small head block between `<!--agent-->` markers. The open files it describes come from ENDPOINTS in `tools/for-ai-text.js`. `_config.yml` keeps GitHub Pages from hiding `/.well-known/`. GitHub Pages cannot set headers or negotiate `Accept: text/markdown`, so none is claimed. `/privacy/` (`tools/build-privacy.js`) restates what the code does: change it in the same pull request as any new third-party call.
 

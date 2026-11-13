@@ -121,6 +121,7 @@ const STANDARDS = [
   ["Checked before publishing", "New research passes seven checks before it appears: structure, sourcing, evidence, tone, a reviewer’s note, consistency with what is already published, and a test of every page."],
   ["Kept current, with history", "The knowledge base is updated monthly. Older figures are marked as superseded, not deleted, so changes can be traced."],
 ];
+const AIU = require("./ai-use-text.js");
 write("approach", page("approach", "How Common Shade sees heat", "The ideas behind Common Shade, and the standards every page follows: sourced, honest about evidence, careful in tone, and kept current.",
   `${hero("News and evidence", "How Common Shade sees heat", "A shared map for everyone working to protect people from extreme heat in South and Southeast Asia. These are the ideas it is built on, and the standards it holds itself to.")}
     <section class="container hub">
@@ -128,9 +129,20 @@ write("approach", page("approach", "How Common Shade sees heat", "The ideas behi
       <ol class="idea-list">${IDEAS.map(([h, p, u, t], i) => `<li><span class="path-n">${i + 1}</span><div><h3>${esc(h)}</h3><p>${esc(p)}</p><p class="path-read"><a href="${u}">${esc(t)} <span aria-hidden="true">→</span></a></p></div></li>`).join("")}</ol>
       <h2 class="hub-h" id="standards">How we check facts</h2>
       <ul class="hub-grid hub-grid--plain">${STANDARDS.map(([h, p]) => `<li class="std"><b>${esc(h)}</b><span>${esc(p)}</span></li>`).join("")}</ul>
+      <h2 class="hub-h" id="ai">${esc(AIU.TITLE)}</h2>
+      <p class="hub-p">${esc(AIU.LEDE)}</p>
+      <ul class="hub-grid hub-grid--plain">${AIU.DOES.map(([h, p]) => `<li class="std"><b>${esc(h)}</b><span>${esc(p)}</span></li>`).join("")}</ul>
+      <h3 class="hub-h">What AI is never allowed to do here</h3>
+      <ul class="hub-p">${AIU.NEVER.map(x => `<li>${esc(x)}</li>`).join("")}</ul>
+      <p class="hub-p">${esc(AIU.LIMITS)} <a href="/corrections/">Corrections</a> · <a href="/sources/">All sources</a></p>
+      <p class="hub-p">${esc(AIU.AGENTS)} <a href="/for-ai/">For AI agents</a></p>
       <h2 class="hub-h">An open collaborative</h2>
       <p class="hub-p">Common Shade is free to use, share and adapt under CC BY 4.0. It grows with the people who use it: corrections, studies, plans and data are welcome, and contributions are credited. <a href="/join/">Help build Common Shade</a> · <a href="/cite/">Cite and reuse</a></p>
     </section>`));
+
+{ const f = path.join(ROOT, "llms-full.txt"); let t = fs.readFileSync(f, "utf8"); const i = t.indexOf("## " + AIU.TITLE);
+  if (i >= 0) { const j = t.indexOf("\n## ", i + 5); t = t.slice(0, i) + (j >= 0 ? t.slice(j + 1) : ""); }
+  fs.writeFileSync(f, t.replace(/\n*$/, "\n\n") + AIU.md(SITE) + "\n"); }
 
 const PEOPLE = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "people.json"), "utf8"));
 // ---- Evidence map: how sure we are, cycle by cycle; where evidence is stronger than the funding we traced; the learning agenda ----

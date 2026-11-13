@@ -5,7 +5,7 @@ updated: 2026-11-13
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 40 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 41 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-40 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 3 connections documented and 3 questions opened. Beneath them, 1,084 works the commons draws on carry a publication date, and 807 are still being dated.
+41 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 3 connections documented and 3 questions opened. Beneath them, 1,084 works the commons draws on carry a publication date, and 807 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -79,6 +79,28 @@ The line points to the page for AI agents.
 [Read the page for AI agents](https://beattheheat.asia/for-ai/)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=A%20line%20for%20AI%20agents%20under%20the%20homepage's%20opening&ref=g-for-ai-home-line#way-share)
+
+Tool improved · Practical measures
+
+### How AI is used on Common Shade, stated plainly
+
+Added 13 November 2026 · Section added 13 November 2026
+
+Why it matters our readingReaders deserve to know how a site that asks them to trust its sources is made. The approach page now says what AI does in building Common Shade, what it is never allowed to do, who approves what is published, and where its limits are.
+
+- South and Southeast Asia
+
+ReviewWritten from what the repository actually does: AI drafts and builds, plain scripts check sources, the site owner approves; nothing on the site sends visitor input to an AI service.
+
+How it connects
+
+- [For ai](https://beattheheat.asia/for-ai/) Page · our reading
+AI systems that read the site have their own page.
+
+[Read how AI is used here](https://beattheheat.asia/approach/#ai)
+[How Common Shade sees heat](https://beattheheat.asia/approach/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=How%20AI%20is%20used%20on%20Common%20Shade%2C%20stated%20plainly&ref=g-ai-use#way-share)
 
 Tool improved · Practical measures
 
