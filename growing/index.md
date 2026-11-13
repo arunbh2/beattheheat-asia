@@ -5,7 +5,7 @@ updated: 2026-11-13
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 43 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 44 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-43 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 3 connections documented and 3 questions opened. Beneath them, 1,084 works the commons draws on carry a publication date, and 807 are still being dated.
+44 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 3 connections documented and 3 questions opened. Beneath them, 1,084 works the commons draws on carry a publication date, and 807 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -165,6 +165,28 @@ The page for AI agents lists the new files.
 [For AI agents](https://beattheheat.asia/for-ai/)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Open%20files%20for%20the%20tools%20that%20read%20the%20web%2C%20and%20a%20privacy%20page&ref=g-agent-files#way-share)
+
+Tool improved · Practical measures
+
+### Pages arrive a little sooner, and long lists open faster
+
+Added 13 November 2026 · Speed changes made 13 November 2026
+
+Why it matters our readingA page of the site now starts loading the moment a reader presses on a link to it, and the longest lists lay out only the cards near the screen. On a slowed phone the solutions list opened in about 830 ms instead of 1,120 ms.
+
+- South and Southeast Asia
+
+ReviewMeasured before and after on a throttled phone profile; prefetch only, never prerender, so visit counts stay true; pages over 1 MB and files are left out; find in page, deep links and the keyboard focus ring checked.
+
+How it connects
+
+- [Solutions](https://beattheheat.asia/solutions/) Page · our reading
+The solutions list is one of the long lists that now opens faster.
+
+[Open the solutions library](https://beattheheat.asia/solutions/)
+[Paying when heat strikes](https://beattheheat.asia/paying-when-heat-strikes/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Pages%20arrive%20a%20little%20sooner%2C%20and%20long%20lists%20open%20faster&ref=g-faster-pages#way-share)
 
 Tool improved · Practical measures
 

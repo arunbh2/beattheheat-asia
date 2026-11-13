@@ -50,6 +50,13 @@
     <summary>Assistants and crawlers look for a site's files at standard addresses. Common Shade now publishes an agent directory, an OpenAPI description of its open data with examples, a change feed and a Markdown twin of every page, and says plainly on one page what it keeps and what it asks other services for.</summary>
   </entry>
   <entry>
+    <title>Pages arrive a little sooner, and long lists open faster</title>
+    <link href="https://beattheheat.asia/growing/#g-faster-pages" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-faster-pages</id>
+    <updated>2026-11-13T00:00:00Z</updated>
+    <summary>A page of the site now starts loading the moment a reader presses on a link to it, and the longest lists lay out only the cards near the screen. On a slowed phone the solutions list opened in about 830 ms instead of 1,120 ms.</summary>
+  </entry>
+  <entry>
     <title>A page for the AI agents that read the site</title>
     <link href="https://beattheheat.asia/growing/#g-for-ai" rel="alternate" type="text/html"/>
     <id>https://beattheheat.asia/growing/#g-for-ai</id>
@@ -209,12 +216,5 @@
     <id>https://beattheheat.asia/growing/#g-correction-voice</id>
     <updated>2026-10-31T00:00:00Z</updated>
     <summary>The people closest to the heat know their places best. Describing what helps, and what it depends on, keeps the site a place to learn alongside them.</summary>
-  </entry>
-  <entry>
-    <title>Describing what we could see, never what someone did not do</title>
-    <link href="https://beattheheat.asia/growing/#g-what-we-could-see" rel="alternate" type="text/html"/>
-    <id>https://beattheheat.asia/growing/#g-what-we-could-see</id>
-    <updated>2026-10-31T00:00:00Z</updated>
-    <summary>A gap in a record is not proof that nothing happened. The site now says what it could find and where it looked, so an absence reads as a question rather than a judgement.</summary>
   </entry>
 </feed>
