@@ -1,7 +1,7 @@
 ---
 title: "Plan a response to extreme heat | Common Shade"
 url: https://beattheheat.asia/plan/
-updated: 2026-10-01
+updated: 2026-11-13
 licence: CC BY 4.0
 ---
 
@@ -63,6 +63,8 @@ Tick what you expect to get in the way. Each one adds what has moved it elsewher
 
 6 Check it against WHO’s eight core elements
 WHO/Europe’s 2026 guidance sets out eight elements that working heat-health action plans share. This check updates as you fill in the steps above. To assess how ready your institutions are to deliver, run the self-assessment in the [Extreme Heat Risk Governance Framework and Toolkit ](https://heathealth.info/resources/heat-gov-framework/) (GHHIN, UNDRR and WMO, 2025) as a facilitated workshop; it is a first edition, written mainly for national governments.
+
+**Find tools for this decision.** Before you name triggers and payers, compare the warning services, assessments and guidance that could inform them, with what each cannot tell you. [Heat Tool Finder](https://beattheheat.asia/heat-tools/?decision=check_warnings,prioritise_places,plan_response)
 
 ---
 Human edition: https://beattheheat.asia/plan/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

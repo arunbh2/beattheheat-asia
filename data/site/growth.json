@@ -566,6 +566,42 @@
      ]
     },
     {
+     "id": "g-heat-tools",
+     "kind": "tool",
+     "root": "practical",
+     "added": "2026-11-13",
+     "pr": null,
+     "title": "A Heat Tool Finder: which tool fits the decision in front of you",
+     "why": "People who plan, deliver or fund heat protection often know a decision but not the tool for it. The finder sets warning services, assessments, datasets, modelling tools and guidance side by side, with what each needs, what it gives and what it cannot tell you, and three illustrative workflows that combine them.",
+     "places": [
+      "region"
+     ],
+     "people": [],
+     "topics": [],
+     "event": {
+      "what": "Section added",
+      "date": "2026-11-13"
+     },
+     "review": "A researched starter catalogue: each record says how far its source was reviewed, nothing is ranked or presented as tested, links were checked on GitHub, and a check holds the filters to the catalogue's own policy",
+     "pages": [
+      [
+       "/heat-tools/",
+       "Heat Tool Finder"
+      ]
+     ],
+     "action": [
+      "Find a heat tool",
+      "/heat-tools/"
+     ],
+     "links": [
+      {
+       "to": "page:/plan/",
+       "why": "Each tool profile ends with a next step in Common Shade's own workbench, such as Plan a response.",
+       "basis": "editorial"
+      }
+     ]
+    },
+    {
       "id": "g-for-ai", "kind": "tool", "root": "practical", "added": "2026-11-11", "pr": null,
       "title": "A page for the AI agents that read the site",
       "why": "More people now meet the site through an assistant than through a browser. /for-ai/ tells an assistant what Common Shade is, when it fits a person's question, how to cite it and what to avoid, and publishes the same record as JSON and plain text, so an assistant can represent the evidence as carefully as the site states it.",

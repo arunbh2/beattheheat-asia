@@ -1,7 +1,7 @@
 ---
 title: "Paying when heat strikes"
 url: https://beattheheat.asia/paying-when-heat-strikes/
-updated: 2026-11-01
+updated: 2026-11-13
 licence: CC BY 4.0
 ---
 
@@ -5747,6 +5747,8 @@ Listing is not endorsement and is not financial, insurance or investment advice.
 Something here wrong, out of date or unfair? We would be grateful to [hear it](https://beattheheat.asia/corrections/), and we will correct it in the open.
 
 [Paying for protection](https://beattheheat.asia/finance/) · [Follow the money](https://beattheheat.asia/heat-economy/flows/) · [The protection-gap loop](https://beattheheat.asia/loops/#protection) · [The reactive-spending loop](https://beattheheat.asia/loops/#reactive) · [Countries](https://beattheheat.asia/countries/)
+
+**Find tools for this decision.** Assessing hazard, future heat or financial protection for a proposal? Compare screening tools and climate data, with what each cannot show. [Heat Tool Finder](https://beattheheat.asia/heat-tools/?decision=prioritise_places,understand_future_heat,assess_finance)
 
 ---
 Human edition: https://beattheheat.asia/paying-when-heat-strikes/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt
