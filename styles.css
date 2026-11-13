@@ -2966,6 +2966,8 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 .sol-gh span { font-family: var(--font-body); font-size: .9rem; color: var(--grey-700); vertical-align: middle; margin-left: 6px; }
 .sol-gp { max-width: 70ch; color: var(--grey-700); margin: 0 0 18px; }
 .sol { border: 1px solid var(--line); border-radius: var(--r-md); background: #fff; margin: 0 0 10px; transition: box-shadow .2s var(--ease-out, ease); }
+/* long lists: cards beyond the first screen are laid out only as they near the view (size estimate = median card at 390px) */
+.sol-group .sol:nth-of-type(n+4) { content-visibility: auto; contain-intrinsic-size: auto 220px; overflow-clip-margin: 6px; }   /* room for the focus ring */
 .sol[hidden] { display: none; }
 .sol[open] { box-shadow: var(--shadow-2); }
 .sol > summary { list-style: none; cursor: pointer; padding: 16px 44px 16px 18px; position: relative; display: grid; gap: 6px; }
@@ -3240,7 +3242,7 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 .refs__n { font-family: var(--font-body); font-size: .85rem; font-weight: 600; vertical-align: middle; }
 .refs__note { font-size: .92rem; max-width: 70ch; margin: 6px 0 18px; }
 .refs__list { gap: 0; border-top: 1px solid var(--rule); }
-.refs__list li { position: relative; display: grid; gap: 3px; padding: 12px 0 13px; border-bottom: 1px solid var(--rule-soft); content-visibility: auto; contain-intrinsic-size: auto 72px; }
+.refs__list li { position: relative; display: grid; gap: 3px; padding: 12px 0 13px; border-bottom: 1px solid var(--rule-soft); content-visibility: auto; contain-intrinsic-size: auto 140px; }
 .refs__list li:has(.refs__no) { padding-left: 46px; }
 .refs__no { position: absolute; left: 0; top: 13px; width: 34px; text-align: right; font-size: .78rem; font-weight: 600; color: var(--grey-500); font-variant-numeric: tabular-nums; }
 .refs__list .refs__t { max-width: 82ch; font-family: var(--font-serif); font-weight: 500; font-size: 1.04rem; line-height: 1.4; color: var(--ink); text-decoration: none; }
@@ -3857,6 +3859,7 @@ html.jn-js .jn-panel[hidden],html.jn-js .jn-panel-hint[hidden]{display:none}
 .rf-count{font-weight:700;margin:10px 2px}
 .rf-cards{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;align-items:start}
 .rf-card{background:#fff;border:1px solid var(--line);border-radius:16px;transition:box-shadow .25s,border-color .25s,transform .25s}
+.rf-card:nth-of-type(n+4){content-visibility:auto;contain-intrinsic-size:auto 165px}
 .rf-card:hover{box-shadow:var(--shadow-2);transform:translateY(-1px)}.rf-card.is-flash{border-color:var(--orange);box-shadow:0 0 0 4px rgba(242,100,48,.25)}
 .rf-card details[open]{border-radius:16px}.rf-card:has(details[open]){grid-column:1/-1;transform:none}
 .rf-card summary{list-style:none;cursor:pointer;padding:16px 18px;display:grid;gap:7px}.rf-card summary::-webkit-details-marker{display:none}

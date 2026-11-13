@@ -4,7 +4,10 @@
 //   /openapi.json (OpenAPI 3.1, the open data files as read-only GETs, with examples), /sitemap.json, /agents.txt, /auth.md,
 //   /terms-of-use.md, /feed.xml (Atom, from data/site/growth.json), and a Markdown twin (index.md) beside every page in sitemap.xml.
 // It also adds one small block to the head of every page (between <!--agent--> markers, safe to run again): the Markdown
-// twin, the feed, the colour scheme, the referrer policy and the date the page last changed.
+// twin, the feed, the colour scheme, the referrer policy, the date the page last changed, and speculation rules that start
+// fetching a page of this site the moment a reader presses on a link to it (prefetch only, never prerender: no script of the
+// next page runs early, so visit counts stay true). Pages over 1 MB and files are left out, so a cancelled tap costs little
+// data. Browsers without support, and Chrome with Data Saver on, ignore the rules.
 // GitHub Pages cannot set HTTP headers, negotiate content (Accept: text/markdown) or run a server, so none of that is claimed
 // here; the twins are the static answer. Runs last in tools/build-static.js, after build-nav.js.
 "use strict";
@@ -39,9 +42,11 @@ function toMd(html) {
   return dec(s).replace(/[ \t]+\n/g, "\n").replace(/\n[ \t]+/g, "\n").replace(/[ \t]{2,}/g, " ").replace(/\n-[ ]?\n+(#+ )?/g, (_, h) => "\n- " + (h ? "" : "")).replace(/\n{3,}/g, "\n\n").trim();
 }
 let twins = 0;
+const HEAVY = pages.filter(u => u !== "/" && fs.statSync(fileOf(u)).size > 1e6).map(u => u + "*");
+const PREFETCH = `<script type="speculationrules">${JSON.stringify({ prefetch: [{ where: { and: [{ href_matches: "/*" }, { not: { href_matches: ["/*.*", ...HEAVY] } }, { not: { selector_matches: "[download],[target=_blank],[rel~=nofollow]" } }] }, eagerness: "conservative" }] })}</script>`;
 const head = (u, html) => {
   const ver = VERS[u] ? VERS[u].changed : TODAY;
-  return `<!--agent--><link rel="alternate" type="text/markdown" href="${u}index.md"><link rel="alternate" type="application/atom+xml" title="What changed on Common Shade" href="/feed.xml">${u === "/" ? `<link rel="api-catalog" href="/.well-known/api-catalog">` : ""}<meta name="color-scheme" content="light"><meta name="referrer" content="strict-origin-when-cross-origin"><meta property="article:modified_time" content="${ver}"><!--/agent-->`;
+  return `<!--agent--><link rel="alternate" type="text/markdown" href="${u}index.md"><link rel="alternate" type="application/atom+xml" title="What changed on Common Shade" href="/feed.xml">${u === "/" ? `<link rel="api-catalog" href="/.well-known/api-catalog">` : ""}<meta name="color-scheme" content="light"><meta name="referrer" content="strict-origin-when-cross-origin"><meta property="article:modified_time" content="${ver}">${PREFETCH}<!--/agent-->`;
 };
 for (const u of pages) {
   const f = fileOf(u); let html = fs.readFileSync(f, "utf8");

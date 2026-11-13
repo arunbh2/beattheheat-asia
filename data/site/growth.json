@@ -621,6 +621,16 @@
       "review": "Each file lists only what exists, and a check fails naming the path if one is missing; the privacy page restates what the site's code does, with nothing added",
       "pages": [["/privacy/", "Privacy and terms"], ["/for-ai/", "For AI agents"]], "action": ["Read what the site keeps and shares", "/privacy/"],
       "links": [{ "to": "page:/for-ai/", "why": "The page for AI agents lists the new files.", "basis": "editorial" }]
+    },
+    {
+      "id": "g-faster-pages", "kind": "tool", "root": "practical", "added": "2026-11-13", "pr": null,
+      "title": "Pages arrive a little sooner, and long lists open faster",
+      "why": "A page of the site now starts loading the moment a reader presses on a link to it, and the longest lists lay out only the cards near the screen. On a slowed phone the solutions list opened in about 830 ms instead of 1,120 ms.",
+      "places": ["region"], "people": [], "topics": [],
+      "event": { "what": "Speed changes made", "date": "2026-11-13" },
+      "review": "Measured before and after on a throttled phone profile; prefetch only, never prerender, so visit counts stay true; pages over 1 MB and files are left out; find in page, deep links and the keyboard focus ring checked",
+      "pages": [["/solutions/", "Solutions"], ["/paying-when-heat-strikes/", "Paying when heat strikes"]], "action": ["Open the solutions library", "/solutions/"],
+      "links": [{ "to": "page:/solutions/", "why": "The solutions list is one of the long lists that now opens faster.", "basis": "editorial" }]
     }
   ]
 }
