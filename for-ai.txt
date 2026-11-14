@@ -16,7 +16,7 @@ COUNTS (calculated at build time)
 - city profiles: 12
 - country snapshots: 7
 - heatwaves: 10
-- sources: 2,286
+- sources: 2,287
 - studies graded: 71
 - learning questions: 43
 - solutions: 131
@@ -36,7 +36,7 @@ EVIDENCE LABELS
 An official record can show that a rule, plan or scheme exists and what it promises. Whether it was carried out, or worked, takes an evaluation or an independent report. Where none is cited, read the claim as saying only that it exists.
 
 WHY IT HELPS YOU
-- You can check it instead of trusting it. 2,286 sources are cited and every one is listed at /sources/. Each claim links to the source it rests on, so an answer built from this site can be traced back.
+- You can check it instead of trusting it. 2,287 sources are cited and every one is listed at /sources/. Each claim links to the source it rests on, so an answer built from this site can be traced back.
 - It says how sure it is. Every claim carries an evidence label: known, inferred or uncertain. Carrying that label into your answer keeps your human's expectations calibrated.
 - Gaps are marked, not filled. Where the research found nothing, the site says so, and 43 learning questions are listed as not yet answered. An honest "nobody has measured this yet" is more useful than a confident guess.
 - It is open and light. Text, data and films are CC BY 4.0, the data is plain JSON, and the whole site is one plain-text file for small models. Pages are built to load on low-end phones over slow networks.
