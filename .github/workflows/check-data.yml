@@ -1,9 +1,9 @@
 name: Check the knowledge base
 on:
   push:
-    paths: ["data/**", "tools/living-evidence/**", "tools/hap-archive.js", "tools/check-hap-archive.js", "research/india-hap-archive/**", "tools/build-data.js", "tools/check-data.js", "tools/check-voice.js", "data.js", "**/*.html"]
+    paths: ["data/**", "tools/living-evidence/**", "tools/hap-archive.js", "tools/check-hap-archive.js", "research/india-hap-archive/**", "tools/build-data.js", "tools/check-data.js", "tools/check-voice.js", "data.js", "**/*.html", "**/*.css", "script.js", "tools/site-nav.js", "tools/check-stripes.js", "tools/stripe-rules.js", ".github/workflows/check-data.yml"]
   pull_request:
-    paths: ["data/**", "tools/living-evidence/**", "tools/hap-archive.js", "tools/check-hap-archive.js", "research/india-hap-archive/**", "tools/build-data.js", "tools/check-data.js", "tools/check-voice.js", "data.js", "**/*.html"]
+    paths: ["data/**", "tools/living-evidence/**", "tools/hap-archive.js", "tools/check-hap-archive.js", "research/india-hap-archive/**", "tools/build-data.js", "tools/check-data.js", "tools/check-voice.js", "data.js", "**/*.html", "**/*.css", "script.js", "tools/site-nav.js", "tools/check-stripes.js", "tools/stripe-rules.js", ".github/workflows/check-data.yml"]
 # the check only reads: pull requests and pushes get a read-only token, not written into the checkout
 permissions:
   contents: read
@@ -23,3 +23,5 @@ jobs:
         run: node tools/check-voice.js
       - name: the weekly evidence review queue is complete where accepted
         run: node tools/living-evidence/check.js
+      - name: no accent stripes down one edge of cards or notes
+        run: node tools/check-stripes.js
