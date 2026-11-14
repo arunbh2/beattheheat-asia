@@ -2,7 +2,7 @@
 .gw-page [hidden] { display: none !important; }
 .gw-page { padding-bottom: 64px; }
 .gw-sum { font-size: 1.05rem; max-width: 62ch; margin: 28px 0 18px; }
-.gw-note { font-size: .92rem; color: var(--ink-soft, #4a5560); max-width: 70ch; border-left: 3px solid var(--line, #e2ddd3); padding-left: 12px; margin: 18px 0 26px; }
+.gw-note { font-size: .92rem; color: var(--ink-soft, #4a5560); max-width: 70ch; margin: 18px 0 26px; border:1px solid var(--line,#E6DFD4); border-color:color-mix(in srgb,var(--line, #e2ddd3) 34%,var(--line,#E6DFD4)); background:color-mix(in srgb,var(--line, #e2ddd3) 7%,transparent); padding:10px 14px; border-radius:var(--r-sm,10px); }
 .gw-doors { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
 .gw-door { display: flex; flex-direction: column; gap: 4px; padding: 16px 18px; border: 1px solid var(--line, #e2ddd3); border-radius: 12px; background: #fff; color: var(--ink, #16202B); text-decoration: none; min-height: 44px; }
 .gw-door b { font-size: 1.08rem; }
@@ -34,7 +34,7 @@
 .gw-lab { display: block; font-size: .78rem; font-weight: 700; text-transform: uppercase; letter-spacing: .03em; margin-bottom: 2px; }
 .gw-lab__q { font-weight: 500; text-transform: none; letter-spacing: 0; font-style: italic; }
 .gw-why { margin: 0 0 12px; }
-.gw-finding { margin: 0 0 12px; padding: 10px 14px; border-left: 3px solid var(--ember, #D7263D); background: #fbf8f3; }
+.gw-finding { margin: 0 0 12px; padding: 10px 14px; border-left: 2px solid #C9BFB1; background: #fbf8f3; }
 .gw-finding p { margin: 2px 0 6px; font-family: var(--serif, Georgia, serif); }
 .gw-finding cite { font-style: normal; font-size: .88rem; }
 .gw-chips { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; padding: 0; margin: 0 0 12px; }

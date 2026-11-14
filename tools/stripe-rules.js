@@ -8,11 +8,11 @@ const KEEP = [
   ["rule", [".stats", ".toolbar", ".panel__h", ".lgroup__h", ".web-list", "=.site-footer", ".refs__group h2", ".fin-table", ".fa-when", ".sg-h3", ".cool-trap", ".atrisk__barriers li", ".traits li", ".method__grid", ".sg-step__l"]],
   ["heading rule", ["h2"]],
   // drawings: legend samples, timeline and step connectors, progress tracks, icons
-  ["legend or drawing", [".key__line", ".conn__type", ".gw-ico", ".gw-key", ".wayin__stop", ".jn-steps", ".rf-rib", ".sg-track", ".hv-list"]],
+  ["legend or drawing", [".key__line", ".wk-key", ".conn__type", ".gw-ico", ".gw-key", ".wayin__stop", ".jn-steps", ".rf-rib", ".sg-track", ".hv-list"]],
   // states that tell a reader where they are or what is chosen
-  ["state", [".header-nav", ".csn__gb", ".bp-card.is-on", ".csn-d__res", ".csn__links", ":focus", "[aria-current]", ":target"]],
+  ["state", [".header-nav", ".is-also", ".site-menu", ".csn__gb", ".bp-card.is-on", ".csn-d__res", ".csn__links", ":focus", "[aria-current", ":target"]],
   // the pop-ups are not touched (the owner's standing rule)
-  ["pop-up", [".csx__g", ".csp", ".csx"]]
+  ["pop-up", [".csx__g", ".csp", ".csx", ".invite"]]
 ];
 const QUOTE = [".he-quote", ".cite-box", ".fa-relay blockquote", ".gw-finding", ".hv-q", "blockquote"];
 // whole files that are out of scope: printed handouts keep side markers (they survive black-and-white printing), films

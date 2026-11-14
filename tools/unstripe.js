@@ -55,12 +55,14 @@ for (const rel of FILES) {
 }
 // pass 2: variants that recolour one side of a changed card (a type colour, an empty state, a hover) recolour the whole
 // hairline instead, so no one-sided coloured edge is left behind
-const bases = new Set([...log.map(l => ((l.split("  ")[1] || "").match(/\.[a-z][\w-]*/i) || [])[0]).filter(Boolean), ...want.map(w => (w.match(/^\.[a-z][\w-]*/i) || [])[0]).filter(Boolean)]);
+const lastClass = sel => ((sel.split(/[\s>+~]+/).filter(Boolean).pop() || "").match(/\.[a-z][\w-]*/i) || [])[0];
+const bases = new Set([...log.map(l => lastClass(l.split("  ")[1] || "")).filter(Boolean), ...want.map(w => (w.match(/^\.[a-z][\w-]*/i) || [])[0]).filter(Boolean)]);
 for (const rel of FILES) {
   const f = path.join(ROOT, rel); let t = dry ? files[rel] : fs.readFileSync(f, "utf8"); const before = t;
   t = t.replace(/([^{}]{1,600})\{([^{}]{0,2000})\}/g, (all, selRaw, body) => {
     const sel = selRaw.replace(/\/\*[\s\S]*?\*\//g, "").replace(/\s+/g, " ").trim();
-    if (keepReason(sel, rel) || ![...bases].some(c => new RegExp(c.replace(".", "\\.") + "(--[\\w-]+)?(?![\\w-])").test(sel))) return all;
+    const last = sel.split(",").map(x => x.trim().split(/[\s>+~]+/).filter(Boolean).pop() || "");
+    if (keepReason(sel, rel) || !last.some(l => [...bases].some(c => new RegExp("^[\\w-]*" + c.replace(".", "\\.") + "(--[\\w-]+)?(?![\\w-])").test(l)))) return all;
     if (!/border-(left|right|top|bottom)-color\s*:/.test(body)) return all;
     const nb = body.replace(/border-(left|right|top|bottom)-color\s*:\s*([^;}]+)/g, (m, side, c) => /:hover|:focus/.test(sel) ? `border-color:${c.trim()}` : `border-color:color-mix(in srgb,${c.trim()} 34%,var(--line,#E6DFD4))`);
     if (nb !== body) { log.push(`${rel}  ${sel.slice(-70)}  variant recoloured all round`); changed++; }
