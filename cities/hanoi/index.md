@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in Hanoi: plans, cycles and who is at work | Common Shade"
 url: https://beattheheat.asia/cities/hanoi/
-updated: 2026-11-13
+updated: 2026-11-14
 licence: CC BY 4.0
 ---
 
@@ -55,6 +55,8 @@ If something is missing or not quite right, [please tell us](https://beattheheat
 Listing does not imply partnership, affiliation or endorsement.
 
 **Find tools for this decision.** Official warnings, heat risk and cooler places in Vietnam: compare the tools that cover it, each with its limits. [Heat Tool Finder](https://beattheheat.asia/heat-tools/?country=VN)
+
+**Who is already working here.** Organisations whose listed heat work is in Viet Nam, by the part each plays. [The heat network](https://beattheheat.asia/heat-network/?country=VN)
 
 ---
 Human edition: https://beattheheat.asia/cities/hanoi/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

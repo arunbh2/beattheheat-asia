@@ -611,6 +611,7 @@ require("./build-social-protection.js")({ page, write, esc, hero, V, D });
 require("./build-growing.js")({ page, write, esc, hero, V });
 require("./build-signals.js")({ page, write, esc, hero, V });
 require("./build-heat-tools.js")({ page, write, esc, hero, V, D });   // before build-for-ai, which lists /heat-tools/
+require("./build-heat-network.js").context({ D, esc });   // "Who is already working here" on country and city pages
 require("./build-use-with-ai.js").page({ page, write, esc, hero, D });
 require("./build-for-ai.js")({ page, write, esc, hero, V, D, ROOT });
 require("./build-privacy.js")({ page, write, esc, hero });
@@ -635,7 +636,7 @@ function searchIndex() {
   D.GLOSSARY.forEach(g => add(`/glossary/#${g.id}`, g.term, g.text, "Glossary", 2, "term definition"));
   D.HEATWAVES.forEach(h => add(`/heatwaves/#${h.id}`, h.title || h.place, `${h.when || ""} ${h.place || ""}`.trim(), "Heatwaves", 1.5, "heatwave"));
   (D.HEAT_VISIBILITY ? D.HEAT_VISIBILITY.events : []).forEach(e => add(`/how-heat-became-visible/#${e.id}`, e.title, `${e.date.slice(0, 4)} ${e.place || ""}`.trim(), "How heat became visible", 1, "event"));
-  D.ORGANISATIONS.forEach(o => add(`/heat-network/#${o.role || ""}`, o.name, o.does || "", "Organisations", 1, "organisation"));
+  D.ORGANISATIONS.forEach(o => add(`/heat-network/#org-${o.id}`, o.name, o.does || "", "Organisations", 1, "organisation"));
   NAVJ.groups.forEach(g => add(g.hub, g.h, g.intro, "Pages", 3.5));
   PATHS.paths.forEach(p => add(`/paths/${p.id}/`, `Path: ${p.label}`, p.card, "Paths by role", 3, "path role"));
   fs.writeFileSync(path.join(ROOT, "search-index.json"), JSON.stringify(out));

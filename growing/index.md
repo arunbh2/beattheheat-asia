@@ -1,11 +1,11 @@
 ---
 title: "Watch Common Shade grow"
 url: https://beattheheat.asia/growing/
-updated: 2026-11-13
+updated: 2026-11-14
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 44 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 45 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,11 +13,32 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-44 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 3 connections documented and 3 questions opened. Beneath them, 1,084 works the commons draws on carry a publication date, and 807 are still being dated.
+45 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 3 connections documented and 3 questions opened. Beneath them, 1,084 works the commons draws on carry a publication date, and 807 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
 ## Updates, newest first
+
+Tool improved · Institutions and plans
+
+### The heat network can be narrowed by place, action and part played
+
+Added 14 November 2026 · Finder added to the list 14 November 2026
+
+Why it matters our readingA reader can now ask who works on one action in one place, and each listing says what kind of body it is, where its listed work is and whether its link answered a check. Where nothing is listed for a place, the page says not found yet.
+
+- South and Southeast Asia
+
+ReviewPlaces are read from each listing’s own words, with reviewed corrections kept beside them; every link was opened by a check on GitHub and those that did not answer are listed, not rewritten; nothing is ranked.
+
+How it connects
+
+- [Heat network](https://beattheheat.asia/heat-network/) Page · our reading
+The finder is on the heat network page.
+
+[Find who works where](https://beattheheat.asia/heat-network/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=The%20heat%20network%20can%20be%20narrowed%20by%20place%2C%20action%20and%20part%20played&ref=g-heat-network-finder#way-share)
 
 Evidence added · Evidence
 

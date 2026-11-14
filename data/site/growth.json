@@ -631,6 +631,16 @@
       "review": "Measured before and after on a throttled phone profile; prefetch only, never prerender, so visit counts stay true; pages over 1 MB and files are left out; find in page, deep links and the keyboard focus ring checked",
       "pages": [["/solutions/", "Solutions"], ["/paying-when-heat-strikes/", "Paying when heat strikes"]], "action": ["Open the solutions library", "/solutions/"],
       "links": [{ "to": "page:/solutions/", "why": "The solutions list is one of the long lists that now opens faster.", "basis": "editorial" }]
+    },
+    {
+      "id": "g-heat-network-finder", "kind": "tool", "root": "institutions", "added": "2026-11-14", "pr": null,
+      "title": "The heat network can be narrowed by place, action and part played",
+      "why": "A reader can now ask who works on one action in one place, and each listing says what kind of body it is, where its listed work is and whether its link answered a check. Where nothing is listed for a place, the page says not found yet.",
+      "places": ["region"], "people": [], "topics": [],
+      "event": { "what": "Finder added to the list", "date": "2026-11-14" },
+      "review": "Places are read from each listing’s own words, with reviewed corrections kept beside them; every link was opened by a check on GitHub and those that did not answer are listed, not rewritten; nothing is ranked",
+      "pages": [["/heat-network/", "The heat network"]], "action": ["Find who works where", "/heat-network/"],
+      "links": [{ "to": "page:/heat-network/", "why": "The finder is on the heat network page.", "basis": "editorial" }]
     }
   ]
 }

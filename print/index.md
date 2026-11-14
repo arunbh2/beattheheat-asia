@@ -1,7 +1,7 @@
 ---
 title: "Printable one-pagers | Common Shade"
 url: https://beattheheat.asia/print/
-updated: 2026-11-13
+updated: 2026-11-14
 licence: CC BY 4.0
 ---
 
@@ -61,7 +61,7 @@ Single A4 pages from the map, for meetings, briefings and noticeboards. Each one
 
 Common Shade is in beta, currently at beattheheat.asia. A group of organisations is helping shape it as a shared endeavour for protection from extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement.
 
-© Common Shade contributors. Shared under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): copy, adapt, translate and share, with credit and a link to beattheheat.asia. Sources cited remain their owners’. Generated 2026-11-13.
+© Common Shade contributors. Shared under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): copy, adapt, translate and share, with credit and a link to beattheheat.asia. Sources cited remain their owners’. Generated 2026-11-14.
 
 ---
 Human edition: https://beattheheat.asia/print/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

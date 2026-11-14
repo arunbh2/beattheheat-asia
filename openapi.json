@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "Common Shade open files",
-    "version": "2026-11-13",
+    "version": "2026-11-14",
     "summary": "Read-only files about extreme heat in South and Southeast Asia.",
     "description": "Common Shade is a static website. There is no server API: these are the open files it publishes, each a plain GET. Text, data and films are CC BY 4.0. Cite the original source of any figure as well; the sources are listed at /sources/.",
     "license": {
@@ -80,7 +80,7 @@
                 "schema": {
                   "type": "string"
                 },
-                "example": "Common Shade: for AI agents\nUpdated 2026-11-13. Human edition: https://beattheheat.asia/\n\nA free, open, non-commercial evidence base on extreme heat in South and Southeast Asia: how heat harms health, income and homes, how one harm leads to the next, what helps, and who could act and who could pay. Every claim links to its source and says how sure the evidence is.\n\nstatus: beta | cost: free | account required: no | coverage: South Asia and Southeast Asia | language: en"
+                "example": "Common Shade: for AI agents\nUpdated 2026-11-14. Human edition: https://beattheheat.asia/\n\nA free, open, non-commercial evidence base on extreme heat in South and Southeast Asia: how heat harms health, income and homes, how one harm leads to the next, what helps, and who could act and who could pay. Every claim links to its source and says how sure the evidence is.\n\nstatus: beta | cost: free | account required: no | coverage: South Asia and Southeast Asia | language: en"
               }
             }
           }
@@ -149,7 +149,7 @@
                 "schema": {
                   "type": "string"
                 },
-                "example": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url><loc>https://beattheheat.asia/</loc><lastmod>2026-11-13</lastmod><priority>1.0</priority></url>\n  <url><loc>https://beattheheat.asia/a-city-under-strain/</loc><lastmod>2026-11-13</lastmod><priority>0.8</priority></url>\n  <url><loc>https://beattheheat.asia/a-night-in-the-heat/</loc><lastmod>2026-11-13</lastmod><priority>0.8</priority></url>\n  <url><loc>https://beattheheat.asia/a-week-in-the-heat/</loc><lastmod>2026-11-13</lastmod><priority>0.8</priority></url>"
+                "example": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url><loc>https://beattheheat.asia/</loc><lastmod>2026-11-14</lastmod><priority>1.0</priority></url>\n  <url><loc>https://beattheheat.asia/a-city-under-strain/</loc><lastmod>2026-11-14</lastmod><priority>0.8</priority></url>\n  <url><loc>https://beattheheat.asia/a-night-in-the-heat/</loc><lastmod>2026-11-14</lastmod><priority>0.8</priority></url>\n  <url><loc>https://beattheheat.asia/a-week-in-the-heat/</loc><lastmod>2026-11-14</lastmod><priority>0.8</priority></url>"
               }
             }
           }
@@ -178,7 +178,7 @@
                 "example": {
                   "name": "Common Shade",
                   "url": "https://beattheheat.asia/",
-                  "updated": "2026-11-13",
+                  "updated": "2026-11-14",
                   "license": "CC BY 4.0"
                 }
               }
@@ -439,7 +439,7 @@
                 "schema": {
                   "type": "string"
                 },
-                "example": "---\ntitle: \"Extreme heat is a wicked problem | Common Shade\"\nurl: https://beattheheat.asia/\nupdated: 2026-11-13\nlicence: CC BY 4.0\n---"
+                "example": "---\ntitle: \"Extreme heat is a wicked problem | Common Shade\"\nurl: https://beattheheat.asia/\nupdated: 2026-11-14\nlicence: CC BY 4.0\n---"
               }
             }
           }
@@ -736,6 +736,69 @@
         }
       }
     },
+    "/data/core/ORG_FACETS.json": {
+      "get": {
+        "operationId": "getDataCoreORGFACETSJson",
+        "summary": "for each organisation: where its listed work is, what kind of body it is, and when its link last answered a check",
+        "description": "for each organisation: where its listed work is, what kind of body it is, and when its link last answered a check. A plain static file: no key, no login.",
+        "tags": [
+          "data"
+        ],
+        "responses": {
+          "200": {
+            "description": "The file.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": [
+                    "object",
+                    "array"
+                  ]
+                },
+                "example": {
+                  "ghhin": {
+                    "countries": [],
+                    "type": "network",
+                    "scale": "global",
+                    "link": "work",
+                    "checked": "2026-11-14"
+                  },
+                  "ilo": {
+                    "countries": [],
+                    "type": "multilateral",
+                    "scale": "global",
+                    "link": "work",
+                    "checked": "2026-11-14"
+                  },
+                  "unicef": {
+                    "countries": [],
+                    "type": "multilateral",
+                    "scale": "global",
+                    "link": "work",
+                    "checked": "2026-11-14"
+                  },
+                  "zcra": {
+                    "countries": [
+                      "BD",
+                      "PK",
+                      "NP",
+                      "PH",
+                      "VN"
+                    ],
+                    "basis": "text",
+                    "type": "network",
+                    "scale": "multi-country",
+                    "link": "work",
+                    "year": 2026,
+                    "linkStatus": "blocked"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/data/core/GLOSSARY.json": {
       "get": {
         "operationId": "getDataCoreGLOSSARYJson",
@@ -907,7 +970,7 @@
                   ]
                 },
                 "example": {
-                  "updated": "2026-11-13T06:57:58.775Z",
+                  "updated": "2026-11-13T19:53:52.309Z",
                   "keepDays": 14
                 }
               }

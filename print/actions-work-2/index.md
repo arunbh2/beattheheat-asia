@@ -1,7 +1,7 @@
 ---
 title: "Practical actions: Outdoor and hot workplaces (2 of 2) | Common Shade one-pager"
 url: https://beattheheat.asia/print/actions-work-2/
-updated: 2026-11-13
+updated: 2026-11-14
 licence: CC BY 4.0
 ---
 
@@ -98,7 +98,7 @@ Costs, where shown, are rough Indian planning ranges from the site’s cooling o
 
 Common Shade is in beta, currently at beattheheat.asia. A group of organisations is helping shape it as a shared endeavour for protection from extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement.
 
-**Licence:** © Common Shade contributors. Shared under Creative Commons Attribution 4.0 (CC BY 4.0, creativecommons.org/licenses/by/4.0): you may copy, adapt, translate and share this sheet, with credit to Common Shade and a link to beattheheat.asia. Sources cited remain their owners’. Printed from the map’s data on 2026-11-13; check the live page for updates.
+**Licence:** © Common Shade contributors. Shared under Creative Commons Attribution 4.0 (CC BY 4.0, creativecommons.org/licenses/by/4.0): you may copy, adapt, translate and share this sheet, with credit to Common Shade and a link to beattheheat.asia. Sources cited remain their owners’. Printed from the map’s data on 2026-11-14; check the live page for updates.
 
 Scan for the live page
 

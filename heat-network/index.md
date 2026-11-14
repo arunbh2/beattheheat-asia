@@ -1,7 +1,7 @@
 ---
 title: "Organisations working on extreme heat | Common Shade"
 url: https://beattheheat.asia/heat-network/
-updated: 2026-11-08
+updated: 2026-11-14
 licence: CC BY 4.0
 ---
 
@@ -24,367 +24,1006 @@ Organisations already at work, by the part they play.
 **Watch: The heat network** · 0:32 · narrated, captions in the picture
 
 [Open the interactive network](https://beattheheat.asia/#network)
+
+Choose a place, an action, a part played or a kind of organisation to narrow the list. A place is where the listed work is, as each listing describes it; it is not where an organisation has its office. The list shows what this site has found so far, so a short list for a place describes this list, not that place.
+
+How to read a listing
+
 Each organisation is marked with its main side in a heat alliance. Demand: Holds the need or the duty to protect people: governments and public agencies, employers, and organisations of the workers and communities affected. Supply: Provides what protection needs: technology, services and delivery on the ground, insurance, lending and grants, research and data. Platform: Connects demand and supply: networks, alliances and conveners, and the bodies that set shared rules or standards for a market. Many play more than one part; this is the main one.
 
-[Download the whole list as a spreadsheet (CSV)](https://beattheheat.asia/heat-network/heat-network.csv)
+Every link was opened by an automated check on 14 November 2026. A listing says so where its link did not answer, where the site turned the check away, or where the link opens only a homepage.
+
+[Download the whole list as a spreadsheet (CSV)](https://beattheheat.asia/heat-network/heat-network.csv). Something missing or out of date? [Tell us](https://beattheheat.asia/join/) or see [corrections](https://beattheheat.asia/corrections/).
 
 ## Global networks and organisations
 
 - [Global Heat Health Information Network (WHO, WMO and NOAA)](https://heathealth.info/resource-library/) (Platform): A member-driven forum of scientists, practitioners and policymakers. Its resource library gathers guidance on heat warnings, heat action plans and case studies, heat at work and heat in cities.
+Network or allianceGlobal
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics), [Anticipatory action](https://beattheheat.asia/actions/#anticipatory), [Heat-safe work](https://beattheheat.asia/actions/#heatrules), [Cooling centres and check-ins](https://beattheheat.asia/actions/#coolingcentres)
 - [International Labour Organization](https://www.ilo.org/resource/news/increase-heat-stress-predicted-bring-productivity-loss-equivalent-80) (Platform): Sets out the evidence and standards for protecting workers from heat stress.
+UN or multilateral bodyGlobal
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [UNICEF](https://www.unicef.org/reports/learning-interrupted-global-snapshot-2024) (Platform): Tracks how heatwaves and other climate hazards disrupt children’s schooling.
+UN or multilateral bodyGlobal
+Works on: [Keep children in school](https://beattheheat.asia/actions/#keepinschool)
 - [Zurich Climate Resilience Alliance](https://zcralliance.org/resources/?q=heat) (Platform): An alliance of humanitarian, development and research partners with Zurich Insurance Group. In 2024 it expanded from floods to extreme heat, with work in countries including Bangladesh and Nepal. Its 2026 study of heat early warning systems covered eight countries, among them Bangladesh, Nepal, Pakistan, the Philippines and Vietnam.
+Network or allianceBangladesh, Pakistan, Nepal, Philippines, Viet NamLink not confirmed: the site turned the check away
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Anticipatory action](https://beattheheat.asia/actions/#anticipatory), [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)
 - [Heat Resilience Action (HERA), formerly Climate Resilience for All](https://heranow.org/resources/as-extreme-heat-threats-grow-can-heat-insurance-offer-protection/) (Platform): Works on extreme heat with a focus on women and low-income communities. With SEWA and Swiss Re, it combined insurance payouts and cash for lost income after India’s 2024 heatwaves.
+Non-profit organisationIndia
+Works on: [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash), [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [UNEP Cool Coalition](https://coolcoalition.org) (Platform): A global network for clean, efficient cooling and cooler cities. With the COP30 Presidency, it runs Beat the Heat, an initiative supporting cities in the Global South with heat assessments and cooling action.
+Network or allianceGlobalLink not confirmed: the site turned the check away
+Works on: [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool), [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [Red Cross Red Crescent Climate Centre](https://preparecenter.org/resource/heatwave-guide-for-cities) (Supply): Wrote the Heatwave Guide for Cities with more than 25 partners, covering how cities prepare for, respond to and learn from heatwaves.
+Red Cross or Red CrescentGlobal
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Cooling centres and check-ins](https://beattheheat.asia/actions/#coolingcentres)
 - [Sustainable Energy for All](https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-global-access-to-cooling-gaps-2023) (Platform): Measures who lacks access to cooling through its Chilling Prospects series.
+Non-profit organisationGlobal
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool)
 - [International Energy Agency](https://www.iea.org/reports/the-future-of-cooling) (Platform): Analyses cooling demand and how efficiency standards can cut it.
+UN or multilateral bodyGlobalLink not confirmed: the site turned the check away
+Works on: [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool)
 - [Practical Action](https://practicalaction.org/news-stories/zurich-climate-resilience-alliance-to-expand-focus-on-destructive-extreme-heat/) (Supply): Connects heat risk intelligence, local action, practical technology, institutions and finance, following a Sense → Decide → Act → Sustain logic. In Nepal, Dhangadhi’s heat action plan links temperature, humidity and health data, hotspot mapping and community views to thresholds and set municipal responses. In Bangladesh, heat is being built into early warning and livelihood work. A partner in the Zurich Climate Resilience Alliance.
+Non-profit organisationBangladesh, Nepal
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget), [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [People’s Courage International](https://www.weforum.org/organizations/peoples-courage-international/) (Supply): Works on safe migration and labour protection for migrant workers in South and Southeast Asia. Its Migrants Resilience Collaborative supports more than seven million households.
+Non-profit organisationAcross the regionLink not confirmed: the site turned the check away
+Works on: [Social protection floors](https://beattheheat.asia/actions/#socialprotection)
 - [World Bank](https://www.worldbank.org/en/region/sar/publication/a-livable-future-protecting-jobs-and-growth-from-extreme-heat-in-south-asia-s-cities) (Supply): Its 2026 report A Livable Future finds extreme heat already costs South Asia the equivalent of about 31 million full-time jobs a year, and sets out how cities can protect jobs and growth.
+UN or multilateral bodyAcross the region
+Works on: [Green, cool cities](https://beattheheat.asia/actions/#greencity), [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)
 - [World Meteorological Organization](https://wmo.int/node/38332) (Platform): With WHO, runs the South Asia Climate–Health Desk with India’s meteorological agencies, turning weather and climate information into health protection.
+UN or multilateral bodyIndia
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [C40 Cities](https://www.deccanherald.com/india/karnataka/bengaluru/bengaluru-joins-global-coalition-to-beat-extreme-heat-3786724) (Platform): Its Cool Cities Accelerator brings together cities including Ahmedabad, Bengaluru, Mumbai and Singapore on early warnings, building standards and tree cover.
+Network or allianceIndia, SingaporeLink opens a page by someone else
+Works on: [Green, cool cities](https://beattheheat.asia/actions/#greencity), [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Vital Strategies](https://www.nationthailand.com/pr-news/40071201) (Supply): Through the Partnership for Healthy Cities, supports Bangkok to pilot heat-health action in high-risk districts: outdoor worker protection, cooling spaces and drinking water.
+Non-profit organisationThailandLink opens a page by someone else
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules), [Cooling centres and check-ins](https://beattheheat.asia/actions/#coolingcentres)
 - [Global Buildings Performance Network](https://gbpn.org/news-gbpn-sharpens-its-focus-decarbonising-housing-india-and-south-east-asia) (Supply): Works on residential building codes in India and Southeast Asia, where demand for cooling homes is rising fastest.
+Network or allianceIndia
+Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
 - [Start Network](https://startnetwork.org/news-and-blogs/getting-ahead-deadly-heat) (Platform): Its members run heatwave anticipatory action in Pakistan, releasing funds automatically when forecasts cross agreed triggers.
+Network or alliancePakistan
+Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory)
 - [Mercy Corps](https://europe.mercycorps.org/sites/default/files/2025-09/too-hot-to-ignore.pdf) (Supply): A Zurich Climate Resilience Alliance partner leading work on extreme heat in Nepal, where the southern plains passed 40 °C on 50 days in 2024.
+Non-profit organisationNepal
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Anticipatory action](https://beattheheat.asia/actions/#anticipatory)
 - [United Nations Development Programme (UNDP)](https://www.undp.org/thailand/publications/bangkok-financing-strategy-tackling-urban-heat) (Platform): Helps governments connect heat resilience with health systems, urban planning and finance. Its work includes a financing strategy for tackling urban heat in Bangkok.
+UN or multilateral bodyThailandLink not confirmed: the site turned the check away
+Works on: [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)
 - [UN-Habitat](https://unhabitat.org/handbook-on-urban-heat-management-in-the-global-south) (Platform): Develops guidance on urban heat management, helping cities combine planning, building design, green infrastructure and cooling to protect vulnerable residents.
+UN or multilateral bodyGlobal
+Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [UN Office for Disaster Risk Reduction (UNDRR)](https://www.undrr.org/our-work/extreme-heat-resilience) (Platform): Helps governments strengthen heat risk governance through practical assessment tools, coordinated planning and investment across sectors and levels of government.
+UN or multilateral bodyGlobalLink not confirmed: the site turned the check away
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)
 - [Resilient Cities Network](https://resilientcitiesnetwork.org/heat-stays-in-peoples-homes/) (Platform): Works with cities and communities on heat resilience, including indoor heat monitoring and locally designed cooling in Southeast Asian cities.
+Network or allianceAcross the regionLink not confirmed: the site turned the check away
+Works on: [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [ICLEI South Asia](https://southasia.iclei.org/news/extreme-heat-new-knowledge-products-highlight-need-to-build-resilience-adaptation/) (Platform): Supports cities with heat risk assessments, heat action plans, urban greening and preparedness tools in India, Nepal and Bangladesh.
+Network or allianceIndia, Bangladesh, Nepal
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [United Cities and Local Governments Asia-Pacific (UCLG ASPAC)](https://uclg-aspac.org/turning-the-heat-into-action-how-iloilo-city-and-coxs-bazar-respond-to-urban-heat/) (Platform): Provides technical assistance for urban heat resilience, including work with Iloilo City in the Philippines and Cox’s Bazar in Bangladesh.
+Network or allianceBangladesh, Philippines
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Women in Informal Employment: Globalizing and Organizing (WIEGO)](https://www.wiego.org/research-library-publications/working-heat-street-vendors-delhi-india/) (Demand): Documents how heat affects informal workers’ health and earnings, and develops worker education, policy recommendations and protection guidance with local organisations.
+Worker organisationGlobal
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules), [Social protection floors](https://beattheheat.asia/actions/#socialprotection)
 - [International Federation of Red Cross and Red Crescent Societies (IFRC)](https://www.ifrc.org/get-involved/campaign-us/heat-action-day) (Platform): Mobilises national societies and communities to prepare for heatwaves and reach people at risk, including through its global Heat Action Day campaign.
+Red Cross or Red CrescentGlobalLink not confirmed: the site turned the check away
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Cooling centres and check-ins](https://beattheheat.asia/actions/#coolingcentres)
 - [Climate and Development Knowledge Network (CDKN)](https://cdkn.org/project/urban-health-and-climate-resilience-in-india) (Platform): Supports locally relevant climate knowledge and partnerships, including heat early warning, urban health resilience and preparedness planning in India.
+Network or allianceIndia
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [United for Efficiency (UNEP-led)](https://united4efficiency.org/project/asean/) (Platform): Helps countries strengthen appliance efficiency policies and standards, including work across Southeast Asia on efficient, climate-friendly air conditioning.
+UN or multilateral bodyAcross the region
+Works on: [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool)
 - [Humanity & Inclusion (HI)](https://www.hi-canada.org/sn_uploads/Disability-Inclusive-approaches-to-climate-action_1.pdf) (Supply): Sets out disability-inclusive approaches to climate action, including accessible early warnings, which people with disabilities often lack. A heat-specific programme in Asia is not confirmed.
+Non-profit organisationAcross the region
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Human Rights Watch](https://www.hrw.org/news/2023/06/30/extreme-heat-signals-need-inclusive-climate-action) (Supply): Documents how extreme heat endangers older people and people with disabilities, and how heat and climate plans leave them out.
+Non-profit organisationGlobal
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Count every heat death](https://beattheheat.asia/actions/#countdeaths)
 - [World Health Organization](https://www.who.int) (Platform): Supports Indonesian heat-health coordination and publishes occupational heat guidance with WMO.
+UN or multilateral bodyIndonesiaLink opens the homepage only
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
 - [The Conduit Foundation](https://www.conduitfoundation.org.uk/) (Platform): Develops an urban-heat workstream connecting city leaders and finance.
+Non-profit organisationGlobalLink opens the homepage only
+Works on: [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget), [Heat-smart lending](https://beattheheat.asia/actions/#heatlending)
 - [International Union of Food, Agricultural, Hotel, Restaurant, Catering, Tobacco and Allied Workers’ Associations (IUF)](https://www.iuf.org) (Demand): Calls for negotiated heat protection covering migrant, seasonal and informal workers.
+Worker organisationGlobalLink opens the homepage only
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [Food and Agriculture Organization of the United Nations](https://www.fao.org) (Platform): Co-produced the extreme heat and agriculture report.
+UN or multilateral bodyGlobalLink opens the homepage only
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules), [Smart irrigation and groundwater rules](https://beattheheat.asia/actions/#irrigate), [Keep water in the soil](https://beattheheat.asia/actions/#soilwater)
 - [ICLEI: Local Governments for Sustainability](https://iclei.org) (Platform): Supports urban heat governance and heat-relevant planning tools.
+Network or allianceGlobalLink opens the homepage only
+Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [UN Environment Programme](https://www.unep.org) (Platform): Convenes heat-resilience and sustainable-cooling initiatives.
+UN or multilateral bodyGlobalLink opens the homepage only
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
 - [Freetown City Council](https://fcc.gov.sl) (Demand): Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation.
+City or district governmentSierra LeoneLink opens the homepage only
+Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [City of Athens](https://www.cityofathens.gr) (Demand): Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation.
+City or district governmentGreeceLink not confirmed: the site turned the check away
+Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [International Organization for Standardization](https://www.iso.org) (Platform): Publishes the WBGT-based occupational heat-stress screening standard.
+Standards bodyGlobalLink not confirmed: the site turned the check away
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 
 ## Governments and regional bodies in Asia
 
 - [National Disaster Management Authority, India](https://ndma.gov.in) (Demand): Issues national guidance for state and city heat action plans.
+Government bodyIndiaLink did not answer the last check
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [National Disaster Risk Reduction and Management Authority, Nepal](https://english.onlinekhabar.com/reassessing-nepals-heat-wave-response-lessons-from-2024-and-the-way-forward.html) (Demand): Issued Nepal’s first federal heat plan in 2024.
+Government bodyNepalLink opens a page by someone else
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Ahmedabad Municipal Corporation, with IIPH Gandhinagar and NRDC](https://www.nrdc.org/press-releases/new-evidence-shows-pioneering-heat-action-plan-helps-millions-avoid-killer-heat) (Demand): Launched South Asia’s first heat action plan in 2013: early warnings, public outreach and training for medical staff.
+City or district governmentIndiaLink not confirmed: the site turned the check away
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
 - [Dhaka North City Corporation](https://www.dhakatribune.com/bangladesh/310693/arsht-rock-bangladesh%E2%80%99s-first-chief-heat-officer) (Demand): Appointed Asia’s first Chief Heat Officer in 2023, focused on cooling the poorest neighbourhoods.
+City or district governmentBangladeshLink not confirmed: the site turned the check away
+Works on: [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [Nepal Red Cross Society](https://www.climatecentre.org/publications/16234/dhangadhi-heat-action-plan-2025/) (Supply): Published the Dhangadhi Heat Action Plan in 2025 with the Climate Centre, setting out when and where to act before and during heatwave days in a city that passes 40 °C every year.
+Red Cross or Red CrescentNepal
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Anticipatory action](https://beattheheat.asia/actions/#anticipatory)
 - [Department of Education, Philippines](https://newsinfo.inquirer.net/1940232/deped-all-set-for-june-school-opening-in-25) (Demand): Lets school heads suspend in-person classes when the heat index is dangerous, and moved the school year back to a June start to keep classes out of the hottest months.
+Government bodyPhilippinesLink not confirmed: the site turned the check away
+Works on: [Keep children in school](https://beattheheat.asia/actions/#keepinschool)
 - [Bangladesh Red Crescent Society](https://www.atachcommunity.com/our-impact/case-studies/bangladesh-early-action-protocol-for-heat-events/) (Supply): Runs an early action protocol for heat, first activated in April 2024 during Dhaka’s longest recorded heatwave.
+Red Cross or Red CrescentBangladeshLink opens a page by someone else
+Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory), [Cooling centres and check-ins](https://beattheheat.asia/actions/#coolingcentres)
 - [ICIMOD](https://www.downtoearth.org.in/climate-change/existing-solutions-could-slash-soot-emissions-by-80-by-2030-icimod) (Platform): Monitors the Himalaya’s snow and ice, and helps brick kilns switch to cleaner technology that cuts the soot darkening the glaciers.
+UN or multilateral bodyIndiaLink opens a page by someone else
+Works on: [Cut black carbon](https://beattheheat.asia/actions/#blackcarbon)
 - [Asian Development Bank](https://www.preventionweb.net/publication/beating-heat-investing-pro-poor-solutions-urban-resilience) (Supply): Supports heat resilience in Asian cities, including technical assistance on heat stress among women and girls in Bangladesh, Cambodia, Pakistan, Sri Lanka and Tajikistan. Its 2026 report on the heat crisis in Thailand and Southeast Asia calls for mobilising public and private finance, and proposes a heat action plan for Thailand.
+UN or multilateral bodyBangladesh, Pakistan, Sri Lanka, Thailand, CambodiaLink not confirmed: the site turned the check away
+Works on: [Green, cool cities](https://beattheheat.asia/actions/#greencity), [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget), [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [UN ESCAP](https://unescap.org/our-work/environment-development/cities-for-a-sustainable-future/addressing-urban-extreme-heat) (Platform): Helps fast-growing cities in South and Southeast Asia plan for extreme urban heat, working with Iloilo City and Cox’s Bazar.
+UN or multilateral bodyBangladesh, Philippines
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [India Meteorological Department and IITM Pune](https://wmo.int/node/38332) (Demand): Issue India’s heatwave forecasts and work with WHO and WMO on the South Asia Climate–Health Desk.
+Weather serviceIndia
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Anticipatory action](https://beattheheat.asia/actions/#anticipatory)
 - [PAGASA, Philippines](https://www.gmanetwork.com/regionaltv/news/115185/pagasa-urges-public-to-brace-for-more-intense-heat/story/) (Demand): Issues heat index warnings with danger levels that local governments use to decide when to suspend classes.
+Weather servicePhilippinesLink opens a page by someone else
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Ministry of Manpower, Singapore](https://www.mom.gov.sg/newsroom/press-releases/2023/1024-enhanced-measures-to-reduce-heat-stress-for-outdoor-workers) (Demand): Requires hourly wet-bulb globe temperature (WBGT) checks on outdoor worksites, shaded rest breaks when heat stress is high, and time for new workers to acclimatise, and enforces the rules.
+Government bodySingapore
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [National Centre for Disease Control, India](https://ncdc.mohfw.gov.in/includes/About/CentresAndDivision/CEOH.php) (Demand): Leads heat-health guidance, training and surveillance through India’s National Programme on Climate Change and Human Health.
+Health bodyIndia
+Works on: [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics), [Count every heat death](https://beattheheat.asia/actions/#countdeaths)
 - [National Environment Agency, Singapore](https://www.nea.gov.sg/media/news/news/index/new-heat-stress-advisory-launched-to-guide-public-on-minimising-risk-of-heat-related-illnesses) (Demand): Issues public heat stress advisories through myENV and weather services, so people can adjust outdoor activity as heat rises.
+Government bodySingapore
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Hong Kong Observatory](https://www.hko.gov.hk/en/wservice/warning/coldhot.htm) (Demand): Issues very hot weather warnings with protective advice, including for people more vulnerable to heat.
+Weather serviceHong Kong
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Thai Meteorological Department](https://hpc.tmd.go.th/NCEP2/) (Demand): Publishes heat index forecasts and works with health authorities to help people respond to dangerous heat and humidity.
+Weather serviceThailand
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Provincial Disaster Management Authority, Sindh (Pakistan)](https://reliefweb.int/report/pakistan/pdma-sindh-situation-report-heatwave-2024-28-june-2024) (Demand): Coordinated the 2024 heatwave response across rural Sindh: by late June, 40 humanitarian partners ran 294 heat stabilisation camps, with awareness sessions and transport to heatstroke centres.
+Government bodyPakistanLink opens a page by someone else
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
 - [India Meteorological Department](https://mausam.imd.gov.in) (Demand): Issues impact-based heat forecasts and seasonal heatwave outlooks.
+Weather serviceIndiaLink opens the homepage only
+Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory), [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Ministry of Health, Indonesia](https://kemkes.go.id) (Demand): Co-launched KATALIS-HEAT for heat-health assessment and cross-sector action.
+Health bodyIndonesiaLink opens the homepage only
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
 - [Ministry of Environment, Indonesia](https://kemenlh.go.id) (Demand): Collaborates in Indonesia’s KATALIS-HEAT initiative.
+Government bodyIndonesiaLink opens the homepage only
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
 - [BMKG: Indonesia](https://www.bmkg.go.id) (Demand): Provides meteorological collaboration for KATALIS-HEAT.
+Weather serviceIndonesiaLink opens the homepage only
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
 - [Varanasi Municipal Corporation](https://nnvns.org.in/) (Demand): Launched a city heat action plan with technical and community partners.
+City or district governmentIndiaLink opens the homepage only
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)
 - [Churu District Administration](https://churu.rajasthan.gov.in) (Demand): Launched a local heat action plan with technical partners.
+City or district governmentIndiaLink did not answer the last check
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)
 - [Ahmedabad Municipal Corporation](https://ahmedabadcity.gov.in) (Demand): Developed and implemented Ahmedabad’s heat action plan with public-health partners.
+City or district governmentIndiaLink did not answer the last check
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)
 - [Dhangadhi Sub-Metropolitan City](https://dhangadhimun.gov.np) (Demand): Published a municipal heat action plan with Red Cross support.
+City or district governmentNepalLink opens the homepage only
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)
 - [Department of Hydrology and Meteorology, Nepal](https://www.dhm.gov.np) (Demand): Provided forecasts used to activate RAIN’s heat early action.
+Weather serviceNepalLink opens the homepage only
+Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory), [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Pakistan Meteorological Department](https://www.pmd.gov.pk) (Demand): Contributed meteorological expertise to Sindh’s heat-planning consultation.
+Weather servicePakistanLink not confirmed: the site turned the check away
+Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory), [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Department of Meteorology, Sri Lanka](https://meteo.gov.lk) (Demand): Issues warm-weather advisories distinguishing heat index from air temperature.
+Weather serviceSri LankaLink did not answer the last check
+Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory), [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Central Environmental Authority, Sri Lanka](https://www.cea.lk) (Demand): Contributed expertise to a heat-stress and air-quality coordination session.
+Government bodySri LankaLink opens the homepage only
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [Ministry of Labour and Employment, India](https://labour.gov.in) (Demand): Issued coordinated heat-protection directions for workers and labour agencies.
+Government bodyIndiaLink opens the homepage only
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [Employees’ State Insurance Corporation](https://www.esic.gov.in) (Demand): Was directed to prepare heatstroke help desks and supplies at its facilities.
+Government bodyIndiaLink did not answer the last check
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
 - [Kerala State Disaster Management Authority](https://sdma.kerala.gov.in) (Demand): Maintains a heat-action register covering budgets, local plans and sector actions.
+Government bodyIndiaLink opens the homepage only
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)
 - [Department of Agriculture Development and Farmers’ Welfare, Kerala](https://keralaagriculture.gov.in) (Demand): Received mitigation funding for heat impacts on cardamom farmers.
+Government bodyIndiaLink did not answer the last check
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules), [Smart irrigation and groundwater rules](https://beattheheat.asia/actions/#irrigate), [Keep water in the soil](https://beattheheat.asia/actions/#soilwater)
 - [General Education Department, Kerala](https://generaleducation.kerala.gov.in) (Demand): Introduced school water bells as part of heat protection.
+Government bodyIndiaLink did not answer the last check
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing), [Keep children in school](https://beattheheat.asia/actions/#keepinschool)
 - [Energy Management Centre, Kerala](https://www.keralaenergy.gov.in) (Demand): Launched the Cool Anganwadi initiative.
+Government bodyIndiaLink did not answer the last check
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing), [Keep children in school](https://beattheheat.asia/actions/#keepinschool)
 - [Ministry of Jal Shakti, India](https://jalshakti.gov.in) (Demand): Issued advice on maintaining water-service delivery during heatwaves.
+Government bodyIndiaLink opens the homepage only
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Backup power for water](https://beattheheat.asia/actions/#pumpbackup)
 - [Bangladesh Meteorological Department](https://www.bmd.gov.bd) (Demand): Provides heatwave data used in Bangladesh Red Crescent early action.
+Weather serviceBangladeshLink opens the homepage only
+Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory), [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Directorate General of Health Services, Bangladesh](https://dghs.gov.bd) (Demand): Launched national heat-illness guidelines with UNICEF support.
+Health bodyBangladeshLink opens the homepage only
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
 - [Bangkok Metropolitan Administration](https://www.bangkok.go.th) (Demand): Runs heat warnings and public cooling spaces. Its Urban Heat Management Action Plan for 2026 has 22 indicators and a committee chaired by a deputy governor, and a 2026 financing strategy with UNDP sets out how to pay for it.
+City or district governmentThailandLink not confirmed: the site turned the check away
+Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Cooling centres and check-ins](https://beattheheat.asia/actions/#coolingcentres), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [PAGASA](https://www.pagasa.dost.gov.ph) (Demand): Publishes the Philippines’ heat-index information service.
+Weather servicePhilippinesLink opens the homepage only
+Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory), [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Global Heat Health Information Network, Southeast Asia Hub](https://heathealth.info/southeastasia/) (Platform): Based in Singapore, shares heat-health evidence and practice across the region; Philanthropy Asia Alliance supports its work in countries including Indonesia and Thailand.
+Network or allianceThailand, Indonesia, Singapore
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Ministry of Sustainability and the Environment, Singapore](https://www.mse.gov.sg/latest-news/speech-by-sms-janil-puthucheary-committee-of-supply-2026/) (Demand): Coordinates heat resilience and sustainable cooling policy. In March 2026 it set up a Heat Resilience Policy Office to coordinate action across agencies, oversee research and draft a heat resilience action plan, and announced a S$40 million ‘Adapting to Heat Impacts’ funding initiative for research on heat impacts and community heat resilience, within its RIE2030 Heat Resilience R&D Programme.
+Government bodySingapore
+Works on: [Cooling centres and check-ins](https://beattheheat.asia/actions/#coolingcentres), [Heat action plans](https://beattheheat.asia/actions/#hap), [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)
 - [Workplace Safety and Health Council, Singapore](https://www.tal.sg/wshc) (Demand): Publishes implementation guidance for workplace heat protection.
+Government bodySingapore
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [Sentosa Development Corporation](https://www.sentosa.gov.sg) (Demand): Develops public cooling nodes and a cooling roadmap on Sentosa.
+Government bodySingaporeLink opens the homepage only
+Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [Housing & Development Board, Singapore](https://www.hdb.gov.sg) (Demand): Partners on residential centralised cooling at Tengah.
+Government bodySingaporeLink not confirmed: the site turned the check away
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing), [Cool nights and support](https://beattheheat.asia/actions/#coolnights)
 - [Building and Construction Authority, Singapore](https://www1.bca.gov.sg) (Demand): Supports Go25 and building-operator guidance on efficient cooling.
+Government bodySingaporeLink opens the homepage only
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
 - [Urban Redevelopment Authority, Singapore](https://www.ura.gov.sg) (Demand): Uses urban-climate modelling and planning to address heat.
+Government bodySingaporeLink opens the homepage only
+Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [Bruhat Bengaluru Mahanagara Palike / Bengaluru city government](https://bbmp.gov.in) (Demand): Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation.
+City or district governmentIndiaLink did not answer the last check
+Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [Jakarta Provincial Government](https://www.jakarta.go.id) (Demand): Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation.
+City or district governmentIndonesiaLink did not answer the last check
+Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [Quezon City Government](https://quezoncity.gov.ph) (Demand): Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation.
+City or district governmentPhilippinesLink opens the homepage only
+Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [Brihanmumbai Municipal Corporation](https://portal.mcgm.gov.in) (Demand): Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation.
+City or district governmentIndiaLink opens the homepage only
+Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [Karachi Metropolitan Corporation](https://www.kmc.gos.pk) (Demand): Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation.
+City or district governmentPakistanLink opens the homepage only
+Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [Bureau of Energy Efficiency, India](https://beeindia.gov.in) (Platform): Administers efficiency labels covering air conditioners, fans and refrigeration.
+Standards bodyIndiaLink opens the homepage only
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
 - [Delhi Disaster Management Authority](https://ddma.delhi.gov.in) (Demand): Coordinates Delhi’s heat action planning and partner responsibilities.
+Government bodyIndiaLink opens the homepage only
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)
 - [Delhi Jal Board](https://delhijalboard.delhi.gov.in) (Demand): Reports drinking-water preparedness and targeted extra tankers for heat-affected areas.
+Government bodyIndiaLink opens the homepage only
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Backup power for water](https://beattheheat.asia/actions/#pumpbackup)
 - [Delhi Urban Shelter Improvement Board](https://delhishelterboard.in) (Demand): Provides heat-season shelter arrangements and public shelter information.
+Government bodyIndiaLink opens the homepage only
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing), [Cool nights and support](https://beattheheat.asia/actions/#coolnights)
 
 ## Research and evidence
 
 - [Council on Energy, Environment and Water (CEEW)](https://www.ceew.in/publications?field_focus_area_tid=All&field_pub_type_tid=All&field_authors_target_id_selective=All&title=heat) (Supply): Assessed heat risk in all 734 districts of India in 2025, finding 57% of districts, home to three in four Indians, at high or very high risk. Its 2026 heat-health reports for the GHHIN South Asia hub cover India, Nepal, Bangladesh and Bhutan, and it helped Thane build its heat action plan.
+Research bodyIndia, Bangladesh, Nepal, BhutanLink not confirmed: the site turned the check away
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics), [Anticipatory action](https://beattheheat.asia/actions/#anticipatory), [Smart irrigation and groundwater rules](https://beattheheat.asia/actions/#irrigate)
 - [Lancet Countdown](https://doi.org/10.1016/S0140-6736(24)01822-1) (Supply): Tracks heat deaths, lost working hours and other health impacts of climate change every year.
+Research bodyPlace not stated in the listing
+Works on: [Count every heat death](https://beattheheat.asia/actions/#countdeaths)
 - [NUS Heat Resilience & Performance Centre](https://medicine.nus.edu.sg/newsletters/issue54/dossier/nus-centre-designated-southeast-asia-hub-for-global-heat-health-info-exchange) (Platform): Hosts the Southeast Asia Hub of the Global Heat Health Information Network, bringing governments and partners together on heat and health.
+Research bodySingapore
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [Cornell Global Labor Institute](https://www.ilr.cornell.edu/global-labor-institute/higher-ground-fashions-climate-breakdown) (Supply): With Schroders, mapped heat and flood risk in garment hubs including Dhaka, Hanoi, Ho Chi Minh City and Phnom Penh, and found few fashion brands require heat protection in their supplier codes.
+Research bodyBangladesh, Viet Nam, Cambodia
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [International Rice Research Institute (IRRI)](https://doi.org/10.1073/pnas.0403720101) (Supply): Showed from its Philippine farm that warmer nights cut rice yields, and breeds rice that copes better with heat.
+Research bodyPhilippinesLink not confirmed: the site turned the check away
+Works on: [Crop insurance and fair credit](https://beattheheat.asia/actions/#farmcredit)
 - [icddr,b](https://www.rockefellerfoundation.org/perspective/who-owns-the-response-to-heat-in-bangladesh-everyone-does/) (Supply): Works with Bangladesh’s Department of Agricultural Extension and others on HeatShield, which helps farmers cope with extreme heat.
+Research bodyBangladeshLink opens a page by someone else
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [BRAC James P Grant School of Public Health](https://www.ceew.in/sites/default/files/ceew-sfc-nrdc-unescap-brac-jpgsph-ghhin-countries-synthesis-press-release.pdf) (Supply): Part of a South Asian partnership with CEEW, NRDC, UN ESCAP and the Global Heat Health Information Network assessing heat-health action across countries.
+Research bodyIndia
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [IISER Pune](https://wmo.int/node/38332) (Supply): Leads the South Asia Scientific Research Consortium on how heat affects different populations, with Rockefeller Foundation support.
+Research bodyIndia
 - [International Institute for Environment and Development (IIED)](https://www.iied.org/node/83215) (Supply): Has researched the health and economic toll of heat stress on informal workers in urban Bangladesh.
+Research bodyBangladesh
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [Heat and Health Research Centre, University of Sydney](https://www.sydney.edu.au/news-opinion/news/2025/10/21/garment-factories-are-sweltering--these-simple-fixes-could-keep-.html) (Supply): Tested low-cost cooling for Bangladeshi garment workers: fans, drinking water and reflective roofs recovered much of the 12–15% output lost to heat.
+Research bodyBangladesh
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
 - [Salata Institute, Harvard University](https://salatainstitute.harvard.edu/wp-content/uploads/2026/04/April-2026-Critical-Perspectives-on-Extreme-Heat-in-India_web.pdf) (Supply): Published Critical Perspectives on Extreme Heat in India in 2026, covering heat action plans, insurance and informal work.
+Research bodyIndia
 - [WRI India](https://india.mongabay.com/2025/04/safeguarding-indian-cities-from-heat-in-conversation-with-sudeshna-chatterjee-interview/) (Supply): Works on heat mitigation planning with Indian cities, including greening and cooling pilots in Kochi and Mumbai and the Bengaluru Heat Collective.
+Research bodyIndiaLink opens a page by someone else
+Works on: [Green, cool cities](https://beattheheat.asia/actions/#greencity), [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Good Business Lab](https://lirneasia.net/futureworksasia/projects/heat-health-and-gender/) (Supply): Researching heat, health and gender in India’s and Bangladesh’s garment sector, 2025–2027.
+Research bodyIndia, Bangladesh
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [Integrated Research and Action for Development (IRADe)](https://irade.org/) (Supply): Develops heat hotspot assessments and gender-sensitive heat action plans in India, Bangladesh and Sri Lanka.
+Research bodyIndia, Bangladesh, Sri LankaLink opens the homepage only
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Indian Institute for Human Settlements (IIHS)](https://iihs.co.in/publication/evaluating-indoor-thermal-resilience-of-passive-and-low-power-cooling-shelters-for-outdoor-workers-in-india/) (Supply): Researches urban heat and tests passive and low-energy cooling shelters that give outdoor workers safe places to rest and recover.
+Research bodyIndiaLink not confirmed: the site turned the check away
+Works on: [Cooling centres and check-ins](https://beattheheat.asia/actions/#coolingcentres), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
 - [Center for Study of Science, Technology and Policy (CSTEP)](https://cstep.in/projects/building-heat-resilience-in-indias-growing-urbanscapes-bhrigu/) (Supply): Builds heat intelligence and decision-support tools for Indian cities, including the BHRIGU National Heat Insights Explorer.
+Research bodyIndia
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [The Energy and Resources Institute (TERI)](https://www.teriin.org/project/sheetal-alliance-sustainable-habitat-energy-efficiency-and-thermal-comfort-all-cooling) (Supply): Researches thermal comfort, efficient buildings and sustainable cooling, combining passive design with better cooling equipment.
+Research bodyPlace not stated in the listing
+Works on: [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
 - [Sustainable Futures Collaborative](https://www.sustainablefutures.org/blog/beyond-heat-action-plans-inclusive-heat-policy-needs-grounded-research-and-collaborative-action/) (Supply): Studies heat action plans and their implementation gaps, and how policy, finance and social protection can make heat resilience last.
+Research bodyPlace not stated in the listing
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Social protection floors](https://beattheheat.asia/actions/#socialprotection)
 - [Karachi Urban Lab](https://www.karachiurbanlab.com/projects/cool-infrastructures-life-with-heat-in-the-off-grid-city.html) (Supply): Researches how low-income residents and informal workers in Karachi live with heat, including access to shade, cooling, water and reliable infrastructure.
+Research bodyPakistan
+Works on: [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing)
 - [Singapore Management University, Urban Institute](https://cityperspectives.smu.edu.sg/wcs-2026/pages/research/cooling-singapore-solutions-for-a-heat-resilient-city.html) (Supply): Studies urban heat vulnerability and cooling through the Cooling Singapore collaboration, linking neighbourhood conditions to climate-sensitive planning.
+Research bodySingapore
+Works on: [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [Hong Kong University of Science and Technology (HKUST)](https://researchportal.hkust.edu.hk/en/publications/evaluating-energy-and-microclimate-impacts-of-passive-and-high-ef/) (Supply): Researches urban heat, ventilation, tree canopy and building cooling in dense cities.
+Research bodyHong Kong
+Works on: [Green, cool cities](https://beattheheat.asia/actions/#greencity), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
 - [London School of Hygiene & Tropical Medicine](https://www.lshtm.ac.uk/newsevents/news/2024/tackling-premature-births-face-climate-change) (Supply): Researches heat-related health risks and adaptation, including ways to protect pregnant women and newborns, with partners in Africa and Pakistan.
+Research bodyPakistanLink not confirmed: the site turned the check away
+Works on: [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
 - [Sri Ramachandra Institute of Higher Education and Research](https://iqac.sriramachandra.edu.in/iqacreq/sdg13/environmental-education-measures-1332evd2.pdf) (Supply): Studies occupational heat exposure among workers in India, including physiological strain, dehydration, kidney health and productivity.
+Research bodyIndiaLink did not answer the last check
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [CEPT University, Centre for Advanced Research in Building Science and Energy](https://rmi.org/resources/bringing-super-efficient-air-conditioners-to-the-market/) (Supply): Tests building and cooling performance, including work with RMI on air conditioners that cool efficiently in real heat and humidity.
+Research bodyPlace not stated in the listing
+Works on: [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool)
 - [Heat Island Group, Lawrence Berkeley National Laboratory](https://heatisland.lbl.gov/index.php/cool-science) (Supply): Researches reflective roofs and pavements, urban trees and other measures that cool buildings and cities while cutting energy use.
+Research bodyPlace not stated in the listing
+Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [Heat Policy Innovation Hub, Duke University](https://climate.duke.edu/annual-report/items/heat-policy-innovation-hub/) (Platform): Brings researchers, governments and communities together on heat policy, including adaptable heat action planning tools.
+Research bodyPlace not stated in the listing
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [CIMMYT (International Maize and Wheat Improvement Center)](https://www.cimmyt.org/projects/heat-stress-tolerant-maize-for-asia/) (Supply): Breeds heat-tolerant maize for rainfed smallholder farms with national research institutes and seed companies. Hybrids are now grown in Bangladesh, Bhutan, India, Nepal and Pakistan.
+Research bodyIndia, Bangladesh, Pakistan, Nepal, Bhutan
+Works on: [Keep water in the soil](https://beattheheat.asia/actions/#soilwater)
 - [ICRISAT](https://www.icrisat.org/key-impacts/climate-action) (Supply): Improves the heat and drought tolerance of dryland crops such as pearl millet, sorghum and chickpea, which feed rainfed farming households across South Asia.
+Research bodyAcross the region
+Works on: [Keep water in the soil](https://beattheheat.asia/actions/#soilwater)
 - [Nature Conservation Foundation](https://www.ceab.csic.es/en/?p=17541) (Supply): Has monitored Lakshadweep’s reefs since 1998 and links their decline to repeated marine heatwaves, with consequences for island fishing communities.
+Research bodyPlace not stated in the listing
 - [BRAC University: James P Grant School of Public Health](https://bracjpgsph.org) (Supply): Contributes heat-health country evidence to the South Asia hub.
+Research bodyAcross the regionLink not confirmed: the site turned the check away
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
 - [Indian Institute of Tropical Meteorology](https://www.tropmet.res.in) (Platform): Hosts the South Asia Climate and Health Desk linked to the heat-health hub.
+Weather serviceIndiaLink opens the homepage only
+Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory), [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Universitas Indonesia](https://www.ui.ac.id) (Supply): Serves as a local implementing partner in KATALIS-HEAT.
+Research bodyIndonesiaLink did not answer the last check
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
 - [Hasanuddin University](https://www.unhas.ac.id) (Supply): Serves as a local implementing partner in KATALIS-HEAT.
+Research bodyIndonesiaLink did not answer the last check
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
 - [Diponegoro University](https://www.undip.ac.id) (Supply): Serves as a local implementing partner in KATALIS-HEAT.
+Research bodyIndonesiaLink opens the homepage only
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
 - [Asian Institute of Technology](https://ait.ac.th) (Supply): Leads CLARE-ASEAN, including named urban-heat research projects.
+Research bodyThailandLink not confirmed: the site turned the check away
+Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [Universiti Kebangsaan Malaysia](https://www.ukm.my) (Supply): Partners through its Malay World institute in Be-Housing heat research.
+Research bodyMalaysiaLink opens the homepage only
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing), [Cool nights and support](https://beattheheat.asia/actions/#coolnights)
 - [Thailand Environment Institute](https://www.tei.or.th) (Supply): Leads HAMR heat-adaptation research in three Mekong cities.
+Research bodyThailandLink opens the homepage only
+Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [RMIT University Vietnam](https://www.rmit.edu.vn) (Supply): Partners in HAMR urban-heat adaptation research.
+Research bodyViet NamLink opens the homepage only
+Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [Royal University of Phnom Penh](https://www.rupp.edu.kh) (Supply): Partners in HAMR urban-heat adaptation research.
+Research bodyCambodiaLink opens the homepage only
+Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [Indian Institute of Public Health Gandhinagar](https://iiphg.edu.in) (Supply): Provides public-health support for city heat action planning.
+Research bodyIndiaLink opens the homepage only
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
 - [Institute of Himalayan Risk Reduction](https://ihrr.org.np) (Supply): Assessed institutions and opportunities for heat anticipatory action in Nepal.
+Research bodyNepalLink opens the homepage only
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [UK Met Office](https://www.metoffice.gov.uk) (Supply): Serves as a technical partner to Nepal’s RAIN anticipatory-action programme.
+Weather serviceNepalLink opens the homepage only
+Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory), [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Aga Khan University](https://www.aku.edu) (Supply): Develops heat education and locally led city heat action plans.
+Research bodyPlace not stated in the listingLink opens the homepage only
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
 - [National Building Research Organisation, Sri Lanka](https://www.nbro.gov.lk) (Supply): Contributed expertise to a heat-stress and air-quality coordination session.
+Research bodySri LankaLink opens the homepage only
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing), [Cool nights and support](https://beattheheat.asia/actions/#coolnights)
 - [Sattva Consulting](https://www.sattva.co.in) (Supply): Co-produced a landscape of Indian urban heat challenges and actors.
+Research bodyIndiaLink opens the homepage only
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [St John’s Medical College Hospital](https://www.stjohns.in) (Supply): Contributes community-health expertise to domestic-worker heat preparedness.
+Health bodyIndiaLink opens the homepage only
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
 - [GeoHazards International](https://www.geohaz.org) (Supply): Co-produced Kerala heat analysis.
+Research bodyIndiaLink opens the homepage only
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [Woodwell Climate Research Center](https://www.woodwellclimate.org) (Supply): Co-produced Kerala heat analysis.
+Research bodyIndiaLink opens the homepage only
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [Singapore-ETH Centre](https://sec.ethz.ch) (Supply): Participates in Cooling Singapore 2.0 urban-climate modelling.
+Research bodySingaporeLink opens the homepage only
+Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [Singapore Management University](https://www.smu.edu.sg) (Supply): Participates in Cooling Singapore 2.0 urban-climate modelling.
+Research bodySingaporeLink opens the homepage only
+Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [Singapore-MIT Alliance for Research and Technology](https://smart.mit.edu) (Supply): Participates in Cooling Singapore 2.0 urban-climate modelling.
+Network or allianceSingaporeLink opens the homepage only
+Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [TUMCREATE](https://www.tum-create.edu.sg) (Supply): Participates in Cooling Singapore 2.0 urban-climate modelling.
+Research bodySingaporeLink opens the homepage only
+Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [Cambridge CARES](https://www.cares.cam.ac.uk) (Supply): Participates in Cooling Singapore 2.0 urban-climate modelling.
+Research bodySingaporeLink opens the homepage only
+Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [CGAP](https://www.cgap.org) (Supply): Analyses SEWA’s heat-finance evolution, including insurance and donor-funded cash.
+Research bodyPlace not stated in the listingLink opens the homepage only
+Works on: [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash), [Shared risk pools](https://beattheheat.asia/actions/#riskpools), [Social protection floors](https://beattheheat.asia/actions/#socialprotection)
 - [International Food Policy Research Institute](https://www.ifpri.org) (Supply): Received an announced grant to develop heat-resilient finance for street food vendors in South Asia.
+Research bodyAcross the regionLink opens the homepage only
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Heat-smart lending](https://beattheheat.asia/actions/#heatlending)
 - [MicroSave Consulting](https://www.microsave.net) (Supply): Received an announced grant for municipal heat capability and civil society engagement.
+Research bodyPlace not stated in the listingLink opens the homepage only
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)
 - [International Livestock Research Institute](https://www.ilri.org) (Supply): Developed cattle heat-stress research using a digital twin.
+Research bodyPlace not stated in the listingLink opens the homepage only
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules), [Smart irrigation and groundwater rules](https://beattheheat.asia/actions/#irrigate), [Keep water in the soil](https://beattheheat.asia/actions/#soilwater)
 - [University of Thessaly: FAME Laboratory](https://www.uth.gr) (Supply): Collected occupational heat-strain and mitigation evidence in Qatar.
+Research bodyPlace not stated in the listingLink opens the homepage only
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [Tsinghua University](https://www.tsinghua.edu.cn) (Supply): Partnered on a winning climate-friendly cooling prototype tested in India.
+Research bodyIndiaLink opens the homepage only
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
 - [Alliance for an Energy Efficient Economy](https://aeee.in) (Supply): Helped administer the Global Cooling Prize.
+Network or allianceIndiaLink opens the homepage only
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
 - [CEPT University](https://cept.ac.in) (Supply): Helped administer the Global Cooling Prize.
+Research bodyIndiaLink opens the homepage only
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
 - [La Isla Network](https://laislanetwork.org) (Supply): Develops occupational heat-protection research and rest-shade-hydration programmes.
+Network or alliancePlace not stated in the listingLink opens the homepage only
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 
 ## Working on the ground
 
 - [Self Employed Women’s Association (SEWA)](https://www.swissre.com/our-business/public-sector-solutions/insights/parametric-structure-for-sewa-in-south-east-asia.html) (Demand): Protects women informal workers’ income in heatwaves. After the May 2024 heatwaves, more than 46,000 members received insurance payouts.
+Worker organisationIndiaLink not confirmed: the site turned the check away
+Works on: [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash)
 - [Mahila Housing Trust](https://citizenmatters.in/new-cool-roof-solutions-heat-in-informal-settlements/) (Supply): Cools homes in informal settlements with reflective and modular roofs, and runs heat income insurance for women workers.
+Non-profit organisationIndia
+Works on: [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing), [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash)
 - [ADRA India](https://adraindia.org/anticipatory-heatwave-response-in-2025/) (Supply): Ran an anticipatory heatwave response in 2025 with national and district authorities.
+Non-profit organisationIndia
+Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory)
 - [HomeNet Thailand](https://www.wiego.org/research-library-publications/climate-change-and-heat-stress-impacts-bangkok-thailand/) (Demand): With WIEGO, surveyed more than 1,000 informal workers in Bangkok on heat: nearly 80% had cut their hours. A trusted link between workers and authorities.
+Worker organisationThailand
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules), [Social protection floors](https://beattheheat.asia/actions/#socialprotection)
 - [All India Disaster Mitigation Institute (AIDMI)](https://aidmi.org/key-resources-on-extreme-heat-cooling/) (Supply): An Ahmedabad-based institute that helps Indian states, districts and cities turn heat warnings into local action. It supports local heat action planning, surveyed 121 street vendors, auto drivers and construction and domestic workers in Lucknow on how heat hits their work, offers Afat Vimo disaster microinsurance to low-income families, and runs a regular southasiadisasters.net series on extreme heat.
+Non-profit organisationIndia
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)
 - [SEEDS](https://www.seedsindia.org/portfolio/partnering-to-strengthen-climate-resilience/) (Supply): Combines building-level heat risk mapping, community preparedness and affordable cool roofs for vulnerable urban settlements in India.
+Non-profit organisationIndia
+Works on: [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing), [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [SELCO Foundation](https://selcofoundation.org/built-environments/) (Supply): Develops sustainable energy and cooling for underserved communities, including thermally comfortable buildings, cool roofs and decentralised cold storage.
+Non-profit organisationPlace not stated in the listing
+Works on: [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing), [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool)
 - [HeatWatch India](https://cooling-centres.heatwatch.in/about) (Supply): Focuses on heat and worker protection through research, heat exposure mapping, practical education and a public directory of cooling centres.
+Non-profit organisationIndia
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules), [Cooling centres and check-ins](https://beattheheat.asia/actions/#coolingcentres)
 - [Chintan Environmental Research and Action Group](https://www.chintan-india.org/wp-content/uploads/2025/05/HEAT-SOLUTIONS-FOR-WEB-final.pdf) (Supply): Works with waste picker communities on heat awareness, hotspot mapping and practical ways to cut heat exposure at home and at work.
+Non-profit organisationPlace not stated in the listing
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [Hasiru Dala](https://hasirudala.in/wp-content/uploads/2025/08/HW-HD-report_final.pdf) (Demand): Works with waste workers in Bengaluru to document heat-related health and income losses and press for water, shade, safer housing and workplace protection.
+Worker organisationIndia
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [Janpahal](https://www.wiego.org/advocacy-worker-education-resources/working-under-heat-delhi/) (Demand): Works with informal worker organisations and WIEGO on heat protection, worker education and policy dialogue for street vendors.
+Worker organisationPlace not stated in the listing
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [Jan Sahas](https://indiaclimatecollaborative.org/blog/centering-workers-in-heat-resilience-from-lived-experience-to-systemic-action) (Supply): Works with migrant and informal workers on community-led heat resilience, and funds premiums for a temperature-triggered heat cover with Go Digit and K.M. Dastur.
+Non-profit organisationIndia
+Works on: [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash), [Social protection floors](https://beattheheat.asia/actions/#socialprotection), [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing)
 - [Save the Children International](https://www.savethechildren.net/news/heat-stricken-bangladesh-extends-school-closures) (Supply): Addresses heat risks to children through awareness, drinking water and advocacy on education and health, including heat-related school closures in Bangladesh.
+Non-profit organisationBangladeshLink not confirmed: the site turned the check away
+Works on: [Keep children in school](https://beattheheat.asia/actions/#keepinschool)
 - [Watershed Organisation Trust (WOTR)](https://cdkn.org/story/heat-health-advisories-rural-india-learning-during-pandemic-era) (Supply): Sends heat-health advisories by SMS to farmers, farm labourers and rural job-scheme workers in drought-prone Marathwada, built with the India Meteorological Department, alongside its watershed work.
+Non-profit organisationIndia
+Works on: [Keep water in the soil](https://beattheheat.asia/actions/#soilwater), [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [BRAC](https://bracusa.org/bangladesh_heat_emergency/) (Supply): In Bangladesh’s April 2024 heat emergency, mobilised 50,000 community health workers to raise awareness, with a focus on families with pregnant women, and is piloting heat-reduction ideas in urban informal settlements.
+Non-profit organisationBangladesh
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
 - [HelpAge International](https://helpage.org/tags/bangladesh) (Supply): Works with older people’s associations in Bangladesh and Pakistan on disaster risk, including heatwaves and early warning, and speaks up for older farm labourers and street vendors exposed to heat.
+Non-profit organisationBangladesh, Pakistan
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Centre for Disability in Development (CDD), with CBM](https://www.cbm.org/) (Supply): Runs disability-inclusive disaster risk and climate adaptation in Bangladesh, including coastal sub-districts, where heatwaves are among the hazards. A heat-specific programme is not confirmed.
+Non-profit organisationBangladeshLink did not answer the last check
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Rujak Center for Urban Studies](https://rujak.org) (Supply): Leads Be-Housing research on urban-poor housing and heat adaptation.
+Non-profit organisationPlace not stated in the listingLink opens the homepage only
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing), [Cool nights and support](https://beattheheat.asia/actions/#coolnights)
 - [Kota Kita Foundation](https://kotakita.org) (Supply): Partners in Be-Housing research on urban-poor settlements and heat adaptation.
+Non-profit organisationPlace not stated in the listingLink opens the homepage only
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing), [Cool nights and support](https://beattheheat.asia/actions/#coolnights)
 - [Shri Kashi Vishwanath Temple Trust](https://shrikashivishwanath.org) (Demand): Participated in the Varanasi heat action plan launch.
+Non-profit organisationIndiaLink opens the homepage only
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)
 - [HomeNet South Asia](https://hnsatrust.org/) (Demand): Brings home-based-worker perspectives to heat and climate policy dialogue.
+Worker organisationAcross the regionLink opens the homepage only
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing), [Cool nights and support](https://beattheheat.asia/actions/#coolnights)
 - [British Red Cross](https://www.redcross.org.uk) (Supply): Supported research and preparation for Dhangadhi’s heat action plan.
+Red Cross or Red CrescentNepalLink opens the homepage only
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)
 - [American Red Cross](https://www.redcross.org) (Supply): Collaborated in the Bangladesh/Nepal heat lived-experience study.
+Red Cross or Red CrescentBangladesh, NepalLink opens the homepage only
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [People in Need](https://www.peopleinneed.net) (Supply): Led RAIN heat early action using forecasts and locally delivered protection.
+Non-profit organisationNepalLink opens the homepage only
+Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory), [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [DanChurchAid](https://www.danchurchaid.org) (Supply): Co-led RAIN, which activated heat early-action procedures in Nepal.
+Non-profit organisationNepalLink opens the homepage only
+Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory), [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Community Self Reliance Centre](https://csrcnepal.org) (Supply): Named implementing partner in RAIN, which activated heat early-action procedures.
+Non-profit organisationNepalLink opens the homepage only
+Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory), [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Local Initiatives for Biodiversity, Research and Development (LI-BIRD)](https://libird.org) (Supply): Named implementing partner in RAIN, which activated heat early-action procedures.
+Non-profit organisationNepalLink did not answer the last check
+Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory), [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Youth Innovation Lab](https://youthinnovationlab.org) (Supply): Named implementing partner in RAIN, which activated heat early-action procedures.
+Non-profit organisationNepalLink opens the homepage only
+Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory), [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Sindh Integrated Emergency and Health Services](https://siehs.org) (Supply): Participated in Sindh’s heat-management coordination consultation.
+Health bodyPakistanLink opens the homepage only
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
 - [Sri Lanka Red Cross Society](https://www.redcross.lk) (Supply): Convened heat-stress and air-quality response discussions.
+Red Cross or Red CrescentSri LankaLink opens the homepage only
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)
 - [Médecins Sans Frontières: South Asia](https://msfsouthasia.org) (Supply): Contributed to Sri Lanka’s heat-stress and air-quality coordination session.
+Non-profit organisationSri LankaLink opens the homepage only
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
 - [StreetNet International](https://streetnet.org.za) (Demand): Brings street-vendor perspectives to heat and climate policy dialogue.
+Worker organisationPlace not stated in the listingLink opens the homepage only
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [Bengaluru Sustainability Forum](https://www.bengalurusustainabilityforum.org) (Platform): Supports a domestic-worker heat research and training project.
+Network or allianceIndiaLink opens the homepage only
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [HeatWatch Foundation](https://www.heatwatch.in) (Supply): Develops domestic-worker heat research, training and public storytelling.
+Non-profit organisationIndiaLink opens the homepage only
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [HelpAge India](https://www.helpageindia.org) (Supply): Researches older people’s heat exposure, housing and care barriers.
+Non-profit organisationIndiaLink opens the homepage only
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
 - [Dawat-e-Islami: FGRF](https://www.dawateislami.net) (Supply): Reports volunteer-run heat relief camps offering drinking water and related support.
+Non-profit organisationPlace not stated in the listingLink opens the homepage only
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
 - [Build Change](https://buildchange.org) (Supply): Pairs heat-resilient housing retrofits with microfinance and technical support.
+Non-profit organisationIndonesiaLink opens the homepage only
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing), [Cool nights and support](https://beattheheat.asia/actions/#coolnights)
 - [Disability Rights UK](https://www.disabilityrightsuk.org) (Demand): Launched an accessible survey on disabled people’s experiences of heatwaves.
+Non-profit organisationPlace not stated in the listingLink not confirmed: the site turned the check away
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
 - [Haqdarshak](https://www.haqdarshak.com/) (Supply): Helps people and small businesses in India find and apply for welfare schemes, through trained field agents and, as it describes itself, a database of over 5,000 benefit programmes.
+Non-profit organisationIndiaLink opens the homepage only
+Works on: [Social protection floors](https://beattheheat.asia/actions/#socialprotection)
 - [HealthServe](https://help.healthserve.org.sg/need-help-or-advice/) (Supply): Helps migrant workers in Singapore with medical issues and work injury claims under the Work Injury Compensation Act, with a 24-hour helpline; its casework and social services are free.
+Non-profit organisationSingaporeLink not confirmed: the site turned the check away
+Works on: [Social protection floors](https://beattheheat.asia/actions/#socialprotection), [Free care for heat illness](https://beattheheat.asia/actions/#freecare)
 - [Transient Workers Count Too (TWC2)](https://twc2.org.sg/helping-workers-in-need/) (Supply): Helps low-wage migrant workers in Singapore who are in trouble; it says over 20,000 contact it digitally each year and about 1,500 come in person.
+Non-profit organisationSingapore
+Works on: [Social protection floors](https://beattheheat.asia/actions/#socialprotection)
 
 ## Cooling solutions
 
 - [CLASP](https://www.clasp.ngo/about/insights/making-efficient-affordable-fans-the-standard-in-india/) (Supply): Helps governments and manufacturers make cooling appliances more efficient and affordable, including efficient fans in India.
+Non-profit organisationIndia
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool)
 - [RMI](https://rmi.org/resources/reshaping-the-future-of-heating-and-cooling/) (Supply): Advances efficient air conditioning, passive cooling and reflective roofs through research, field demonstrations and innovation support.
+Non-profit organisationPlace not stated in the listing
+Works on: [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
 - [Cool Roof Rating Council](https://coolroofs.org/news/new-cool-surfaces-toolkit-site-provides-public-with-resources-and-knowledge-base) (Platform): Provides technical guidance on reflective roofs, walls and pavements that reduce building heat.
+Standards bodyPlace not stated in the listing
+Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
 - [Ecozen](https://www.ecozensolutions.com/ecofrost) (Supply): Makes solar-powered cold rooms that help farmers keep produce from spoiling where power is unreliable.
+CompanyPlace not stated in the listing
 - [Tarutium Global Consulting (formerly TARU Leading Edge)](https://tarutium.com/hydro-meteorological-resilient-action-plans/) (Supply): Provides climate risk and resilience planning, including urban heat assessment and heatwave management guidance.
+CompanyPlace not stated in the listing
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Alluvium](https://alluviumconsulting.com.au/) (Supply): Partners in HAMR urban-heat adaptation research.
+CompanyPlace not stated in the listingLink opens the homepage only
+Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [cBalance](https://cbalance.in) (Supply): Co-designed and installed low-carbon cooling with women in low-income neighbourhoods.
+CompanyIndiaLink opens the homepage only
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing), [Cool nights and support](https://beattheheat.asia/actions/#coolnights)
 - [SP Group](https://www.spgroup.com.sg) (Supply): Operates district and residential centralised cooling and develops a Bangkok system.
+CompanyThailandLink opens the homepage only
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
 - [Banpu NEXT](https://www.banpunext.co.th) (Supply): Partners with SP Group on Bangkok district cooling.
+CompanyThailandLink not confirmed: the site turned the check away
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
 - [Singapore Green Building Council](https://www.sgbc.sg) (Supply): Co-leads Go25 to reduce building overcooling.
+Network or allianceSingaporeLink opens the homepage only
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
 - [Daikin](https://www.daikin.com) (Supply): Co-developed a winning climate-friendly cooling prototype.
+CompanyPlace not stated in the listingLink opens the homepage only
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
 - [Gree Electric Appliances](https://global.gree.com) (Supply): Co-developed a winning climate-friendly cooling prototype.
+CompanyPlace not stated in the listingLink opens the homepage only
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
 - [Nikken Sekkei](https://www.nikken.co.jp) (Supply): Partnered on a winning climate-friendly cooling prototype tested in India.
+CompanyIndiaLink opens the homepage only
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
 - [Godrej Enterprises: Appliances](https://www.godrejenterprises.com) (Supply): Developed a finalist cooling prototype with an Indian technology partner.
+CompanyIndiaLink opens the homepage only
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
 - [A.T.E. Enterprises](https://www.ategroup.com) (Supply): Partnered in Godrej’s cooling-prize finalist team.
+CompanyPlace not stated in the listingLink did not answer the last check
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
 - [Indian Hotels Company Limited](https://www.ihcltata.com) (Demand): Named adopter or technology partner selected for IFC’s hotel space-cooling pilots.
+CompanyIndiaLink not confirmed: the site turned the check away
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
 - [BSES Delhi distribution utilities](https://www.bsesdelhi.com) (Supply): Report summer grid preparedness, critical-facility protection and efficient-appliance replacement.
+CompanyIndiaLink opens the homepage only
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
 - [Nippon Paint India](https://nipponpaint.co.in) (Supply): Lists a reflective roof-coating product for the Indian market.
+CompanyIndiaLink opens the homepage only
+Works on: [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
 
 ## Insurance and finance
 
 - [Atlantic Council Climate Resilience Center (formerly Arsht-Rock)](https://onebillionresilient.org/project/extreme-heat-protection-initiative/) (Platform): Places Chief Heat Officers in cities, and with SEWA tested the world’s first parametric insurance for extreme heat in 2023.
+Non-profit organisationPlace not stated in the listing
+Works on: [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash), [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Swiss Re](https://www.swissre.com/our-business/public-sector-solutions/insights/parametric-structure-for-sewa-in-south-east-asia.html) (Supply): Designed heat insurance for SEWA members with payout triggers set for each of 23 locations’ own climate.
+Insurer, lender or finance bodyPlace not stated in the listingLink not confirmed: the site turned the check away
+Works on: [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash)
 - [IBISA](https://www.icmif.org/news_story/ibisa-launches-a-new-parametric-heat-index-product-in-india-to-protect-women-workers-from-heat-induced-wage-losses/) (Supply): Launched a parametric heat-index product in Ahmedabad in 2024 that pays women workers when heat cuts their working hours, and Ushma Kavach, which protects dairy farmers against heat-stress losses.
+Insurer, lender or finance bodyIndiaLink not confirmed: the site turned the check away
+Works on: [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash), [Crop insurance and fair credit](https://beattheheat.asia/actions/#farmcredit)
 - [ICICI Lombard](https://www.icmif.org/news_story/ibisa-launches-a-new-parametric-heat-index-product-in-india-to-protect-women-workers-from-heat-induced-wage-losses/) (Supply): Carries the risk on heat insurance for women workers in India, including IBISA’s heat-index product.
+Insurer, lender or finance bodyIndiaLink not confirmed: the site turned the check away
+Works on: [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash)
 - [Howden](https://www.howdengroup.com/uk-en/news-insights/article-name/parametric-insurance-for-extreme-heat-protecting-people-in-a-warming-world) (Supply): Insurance broker working on parametric heat insurance and catastrophe bonds that give local governments and relief organisations money to act during heatwaves.
+Insurer, lender or finance bodyPlace not stated in the listingLink did not answer the last check
+Works on: [Shared risk pools](https://beattheheat.asia/actions/#riskpools), [Anticipatory action](https://beattheheat.asia/actions/#anticipatory)
 - [Climate Policy Initiative](https://www.climatepolicyinitiative.org/financing-indias-heat-resilience/) (Supply): Analyses how heat resilience in India is financed, and where money is missing.
+Research bodyIndia
+Works on: [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)
 - [International Finance Corporation (IFC)](https://www.ifc.org/en/what-we-do/programs-projects/sustainable-cooling) (Supply): Supports private investment in sustainable cooling, including district cooling, cooling-as-a-service and temperature-controlled food supply chains.
+UN or multilateral bodyPlace not stated in the listing
+Works on: [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool)
 - [Basel Agency for Sustainable Energy (BASE)](https://energy-base.org/wp-content/uploads/2020/03/10.CaaS_Instrument-Analysis-Paper_FINAL_09.17.19.pdf) (Supply): Develops financing models for sustainable cooling, such as cooling-as-a-service, where customers pay for cooling and providers own and maintain the equipment.
+Insurer, lender or finance bodyPlace not stated in the listing
+Works on: [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool), [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool)
 - [Blue Marble](https://www.transre.com/what-we-do/blue-marble-microinsurance/) (Supply): Designs insurance for underserved communities, including the extreme heat income insurance pilot developed with SEWA and Arsht-Rock in India.
+Insurer, lender or finance bodyIndia
+Works on: [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash)
 - [CelsiusPro Group, including Global Parametrics](https://www.celsiuspro.com/news-1/livestream-replay-uninsurable-how-the-natural-disaster-fund-contributes-to-close-the-protection-gap) (Supply): Develops parametric protection; Global Parametrics manages Natural Disaster Fund risk capacity used for heat insurance for women informal workers in India.
+Insurer, lender or finance bodyIndia
+Works on: [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash), [Shared risk pools](https://beattheheat.asia/actions/#riskpools)
 - [K.M. Dastur Insurance and Reinsurance Brokers](https://www.linkedin.com/posts/godigit_digitinsurance-heatinsurance-parametricinsurance-activity-7341758644490764288-StEd) (Supply): Indian broker and partner, with Go Digit and Jan Sahas, in a temperature-triggered heat cover that pays migrant workers automatically.
+Insurer, lender or finance bodyIndia
+Works on: [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash)
 - [Go Digit General Insurance](https://www.linkedin.com/posts/godigit_digitinsurance-heatinsurance-parametricinsurance-activity-7341758644490764288-StEd) (Supply): Indian insurer offering temperature-triggered heat cover for workers, with Jan Sahas and K.M. Dastur, and heat protection with Mahila Housing Trust.
+Insurer, lender or finance bodyIndia
+Works on: [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash)
 - [WTW (Willis)](https://www.wtwco.com/en-hk/solutions/services/parametric-solutions) (Supply): Structures parametric programmes in Asia-Pacific that pay on defined triggers. Heat is a stated application; no specific Asian heat programme is documented yet.
+Insurer, lender or finance bodyAcross the regionLink not confirmed: the site turned the check away
 - [Aon](https://www.aon.com/en/insights/articles/parametric-can-help-mitigate-extreme-heat-risks-for-contractors-in-emea) (Supply): Advises on parametric risk transfer, including temperature-triggered cover for heat delays and losses. Its published heat example is outside Asia.
+Insurer, lender or finance bodyAcross the region
 - [Marsh](https://www.marsh.com/th/en/services/risk-consulting/insights/el-nino-climate-data-centre-business-interruption-asia.html) (Supply): Structures parametric cover in Asia using temperature, rainfall and water triggers, for example for data-centre disruption.
+Insurer, lender or finance bodyAcross the region
 - [Munich Re](https://www.munichre.com/en/solutions/for-industry-clients/parametric-solutions.html) (Supply): Reinsurer offering parametric and weather-risk solutions, including for heat and water stress affecting industry.
+Insurer, lender or finance bodyPlace not stated in the listing
+Works on: [Shared risk pools](https://beattheheat.asia/actions/#riskpools)
 - [Hannover Re](https://www.hannover-re.com/1979241/sustainability-report-2022.pdf) (Supply): Reinsurer that supports the Natural Disaster Fund and reports developing flood and heatwave covers.
+Insurer, lender or finance bodyPlace not stated in the listing
+Works on: [Shared risk pools](https://beattheheat.asia/actions/#riskpools)
 - [SCOR](https://www.scor.com/en/news/launch-heat-stress-protect-insurance-protect-dairy-income-climate-change) (Supply): Reinsurer that helped develop Heat Stress Protect for dairy income; that heat case is outside Asia.
+Insurer, lender or finance bodyAcross the region
+Works on: [Crop insurance and fair credit](https://beattheheat.asia/actions/#farmcredit)
 - [General Insurance Corporation of India (GIC Re)](https://www.gicre.in/en/business) (Supply): India’s state reinsurer, backing crop and weather-based insurance schemes. A heat-income product is not confirmed.
+Insurer, lender or finance bodyIndia
+Works on: [Crop insurance and fair credit](https://beattheheat.asia/actions/#farmcredit), [Shared risk pools](https://beattheheat.asia/actions/#riskpools)
 - [HDFC ERGO General Insurance](https://www.hdfcergo.com/commercial-insurance/weather-insurance) (Supply): Indian insurer with weather-index cover that uses rainfall and temperature indices. A worker heat-income product is not confirmed.
+Insurer, lender or finance bodyIndia
+Works on: [Crop insurance and fair credit](https://beattheheat.asia/actions/#farmcredit)
 - [AXA Climate](https://www.axa.com/commitments/axa-climate) (Supply): Combines parametric insurance with climate science and adaptation advice, with teams in New Delhi, Hong Kong and Shanghai. A worker heat programme is not confirmed.
+Insurer, lender or finance bodyIndia, Hong Kong
+Works on: [Crop insurance and fair credit](https://beattheheat.asia/actions/#farmcredit)
 - [MSIG (Mitsui Sumitomo Insurance)](https://www.msig-asia.com/sustainability) (Supply): Offers parametric drought cover for farmers in Vietnam, powered by Hillridge, and has weather-index cover that includes heat stress in Australia.
+Insurer, lender or finance bodyViet Nam, Australia
+Works on: [Crop insurance and fair credit](https://beattheheat.asia/actions/#farmcredit)
 - [Tokio Marine Group](https://www.tokiomarinehd.com/en/news_insights/ni42.html) (Supply): Japanese insurer supporting disaster risk schemes and parametric payouts. A heat-specific product is not confirmed.
+Insurer, lender or finance bodyJapan
 - [Generali Global Corporate & Commercial](https://www.generaliglobalcorporate.com/media/press-releases/all/2026/Descartes-and-Generali-Global-Corporate-Commercial-renew-long-term-strategic-partnership-to-reinforce-their-global-leadership-in-parametric-insurance.html) (Supply): Provides underwriting capacity for parametric climate cover with Descartes. A specific Asian heat offering is not established.
+Insurer, lender or finance bodyPlace not stated in the listing
 - [Descartes Underwriting](https://descartesunderwriting.com/solutions/extreme-temperatures) (Supply): Parametric underwriter with explicit extreme-temperature cover for companies and public bodies.
+Insurer, lender or finance bodyPlace not stated in the listing
+Works on: [Shared risk pools](https://beattheheat.asia/actions/#riskpools)
 - [Arbol](https://www.arbol.io/products/temperature-risk-solutions) (Supply): Builds parametric temperature and dairy heat-stress products; its high-temperature cover is US-focused.
+Insurer, lender or finance bodyPlace not stated in the listing
+Works on: [Crop insurance and fair credit](https://beattheheat.asia/actions/#farmcredit)
 - [Weather Risk Management Services (WRMS)](https://wrmsglobal.com/securisk/) (Supply): India-based climate risk specialist whose platform designs and runs parametric products with temperature triggers. A worker heat programme is not confirmed.
+Insurer, lender or finance bodyIndia
+Works on: [Crop insurance and fair credit](https://beattheheat.asia/actions/#farmcredit)
 - [Hillridge Technology](https://www.hillridge.com.au/faqs) (Supply): Connects farmers with weather-index underwriters, including high-temperature cover; powers MSIG’s drought cover in Vietnam.
+Insurer, lender or finance bodyViet Nam
+Works on: [Crop insurance and fair credit](https://beattheheat.asia/actions/#farmcredit)
 - [Raincoat](https://www.raincoat.com/climate-insurance-101) (Supply): Climate insurance platform for event-based protection. A heat product is not confirmed.
+Insurer, lender or finance bodyPlace not stated in the listing
 - [Pula](https://www.pula-advisors.com/productsandservices) (Supply): Agricultural insurance specialist working across Africa and Asia, including index-based products. A standalone heat product is not confirmed.
+Insurer, lender or finance bodyAcross the region
+Works on: [Crop insurance and fair credit](https://beattheheat.asia/actions/#farmcredit)
 - [OKO](https://oko.finance/products/) (Supply): Crop insurance technology using satellite weather data and mobile channels, mainly in Africa. A heat product is not confirmed.
+Insurer, lender or finance bodyPlace not stated in the listing
+Works on: [Crop insurance and fair credit](https://beattheheat.asia/actions/#farmcredit)
 - [ACRE Africa](https://www.acreafrica.com/downloads/acre-africa-profile.pdf) (Supply): Develops index microinsurance and climate information for smallholder farmers in Africa. A heat product is not confirmed.
+Insurer, lender or finance bodyPlace not stated in the listing
+Works on: [Crop insurance and fair credit](https://beattheheat.asia/actions/#farmcredit)
 - [FloodFlash](https://floodflash.co/parametric-underwriting-at-floodflash/) (Supply): Parametric flood specialist using property-level sensors. No heat product identified; listed as a model of sensor-triggered cover.
+Insurer, lender or finance bodyPlace not stated in the listing
 - [SEADRIF Insurance Company](https://seadrif.org) (Supply): Announced a regional extreme-heat insurance accelerator with HERA.
+Insurer, lender or finance bodyPlace not stated in the listingLink opens the homepage only
+Works on: [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash), [Shared risk pools](https://beattheheat.asia/actions/#riskpools)
 - [ICICI Lombard General Insurance](https://www.icicilombard.com) (Supply): Acts as primary insurer for SEWA’s parametric heat protection.
+Insurer, lender or finance bodyIndiaLink not confirmed: the site turned the check away
+Works on: [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash), [Shared risk pools](https://beattheheat.asia/actions/#riskpools)
 - [StepChange](https://www.stepchange.earth) (Supply): Received an announced grant for heat-risk data and SME adaptation-finance pilots in South Asia.
+Insurer, lender or finance bodyAcross the regionLink opens the homepage only
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Heat-smart lending](https://beattheheat.asia/actions/#heatlending)
 - [African Risk Capacity Limited](https://www.arc.int) (Supply): Received an announced grant to pilot parametric heat protection within social transfers in Malawi.
+Insurer, lender or finance bodyPlace not stated in the listingLink opens the homepage only
+Works on: [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash), [Shared risk pools](https://beattheheat.asia/actions/#riskpools)
 - [Cities Climate Finance Leadership Alliance](https://citiesclimatefinance.org) (Platform): Co-organises training connecting extreme heat risk and urban finance.
+Network or alliancePlace not stated in the listingLink opens the homepage only
+Works on: [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget), [Heat-smart lending](https://beattheheat.asia/actions/#heatlending)
 
 ## Banks, regulators and microfinance
 
 - [Monetary Authority of Singapore](https://www.mas.gov.sg/news/media-releases/2023/mas-launches-worlds-first-multi-sector-transition-taxonomy) (Platform): Its 2020 environmental risk guidelines expect banks to assess physical climate risk, including through scenario analysis and stress tests. Its Singapore-Asia Taxonomy (2023) covers emission cuts only, so there are no criteria yet for finance that helps people adapt to heat.
+Government bodySingapore
+Works on: [Heat-smart lending](https://beattheheat.asia/actions/#heatlending)
 - [Bank of Thailand](https://www.bot.or.th/en/financial-innovation/sustainable-finance/green/FIPCS-internalizing_environmental_and_climate_change.html) (Platform): A 2023 policy statement asks banks to build environmental and climate risk into governance, strategy, risk management and disclosure. It has worked with the World Bank on assessing physical climate risk in Thai banks’ loan books.
+Government bodyThailand
+Works on: [Heat-smart lending](https://beattheheat.asia/actions/#heatlending)
 - [Otoritas Jasa Keuangan (Financial Services Authority), Indonesia](https://ojk.go.id/en/Publikasi/Roadmap-dan-Pedoman/Perbankan/Pages/The-2026-Banking-Climate-Risk-Management-and-Scenario-Analysis-CRMS-Guideline.aspx) (Platform): Its climate risk guideline for banks (2024, refined in 2026) includes data on Indonesia’s physical climate hazards. A 2022 rule lets banks restructure loans for borrowers in areas it designates as disaster-hit: after the 2025 Sumatra floods, Rp12.58 trillion for 237,083 borrowers. Heat has not yet been designated.
+Government bodyIndonesia
+Works on: [Heat-smart lending](https://beattheheat.asia/actions/#heatlending), [Anticipatory action](https://beattheheat.asia/actions/#anticipatory)
 - [Bangko Sentral ng Pilipinas](https://www.philstar.com/business/2025/10/27/2482726/bsp-expands-calamity-relief-banks-borrowers) (Platform): Since 2021, banks must check whether a borrower’s collateral or income is exposed to climate hazards. In areas under a state of calamity, banks can give borrowers up to six months’ grace with no interest on interest or penalties, longer for farm loans. It also eased rules for lenders in drought-hit areas during the 2015–16 El Niño.
+Government bodyPhilippines
+Works on: [Heat-smart lending](https://beattheheat.asia/actions/#heatlending)
 - [State Bank of Vietnam](https://vietnamnews.vn/economy/1688781/banks-allowed-to-extend-debt-repayment-for-typhoon-yagi-affected-customers-to-2027.html) (Platform): Requires banks to assess environmental risk before lending to projects (since 2023). After Typhoon Yagi in 2024, it let lenders reschedule repayments for affected borrowers across 26 provinces, with final repayment allowed until the end of 2027.
+Government bodyViet NamLink not confirmed: the site turned the check away
+Works on: [Heat-smart lending](https://beattheheat.asia/actions/#heatlending)
 - [Bangladesh Bank](https://www.bssnews.net/news/391823) (Platform): Steers credit to farmers after climate shocks through its refinancing schemes. In June 2026 it told banks to prioritise farmers hit by heavy rain. Heat is not yet among the shocks that trigger this support.
+Government bodyBangladeshLink not confirmed: the site turned the check away
+Works on: [Heat-smart lending](https://beattheheat.asia/actions/#heatlending), [Crop insurance and fair credit](https://beattheheat.asia/actions/#farmcredit)
 - [Nepal Rastra Bank](https://www.nrb.org.np/) (Platform): Sets environmental and social risk rules for banks (2018), and since October 2024 a green finance taxonomy that sorts lending into green, amber and red.
+Government bodyNepalLink opens the homepage only
+Works on: [Heat-smart lending](https://beattheheat.asia/actions/#heatlending)
 - [Reserve Bank of India](https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10478) (Platform): Its 2018 directions let banks reschedule loans and pause repayments in areas hit by notified calamities, which in India now include heatwaves. A 2024 draft framework would require banks to disclose their climate-related financial risks.
+Government bodyIndia
+Works on: [Heat-smart lending](https://beattheheat.asia/actions/#heatlending)
 - [Sustainable Banking and Finance Network](https://www.sbfnetwork.org/) (Platform): A network of financial regulators and banking associations from emerging markets, supported by IFC. Its policy library holds the climate and environmental risk rules of central banks across South and Southeast Asia.
+Network or allianceAcross the regionLink opens the homepage only
+Works on: [Heat-smart lending](https://beattheheat.asia/actions/#heatlending)
 - [KOMIDA, with Build Change (Indonesia)](https://www.globalinnovation.fund/investments/build-change-2) (Supply): One of Indonesia’s largest microfinance institutions, piloting small home-improvement loans for climate adaptation with Build Change, aimed at women earning under US$5 a day and paired with digital advice.
+Insurer, lender or finance bodyIndonesia
+Works on: [Heat-smart lending](https://beattheheat.asia/actions/#heatlending), [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing)
 - [Center for Financial Inclusion](https://centerforfinancialinclusion.org/inclusive-finance-and-extreme-heat-how-small-loans-and-parametric-insurance-can-help-vulnerable-populations-manage-through-deadly-heat-waves) (Supply): Researches how small loans and parametric insurance can help low-income people get through heatwaves.
+Insurer, lender or finance bodyPlace not stated in the listing
+Works on: [Heat-smart lending](https://beattheheat.asia/actions/#heatlending), [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash)
 - [KOMIDA](https://mitradhuafa.com) (Supply): Offers incremental housing adaptation loans with heat retrofit support.
+Insurer, lender or finance bodyIndonesiaLink opens the homepage only
+Works on: [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing), [Heat-smart lending](https://beattheheat.asia/actions/#heatlending)
 
 ## Philanthropy and funders
 
 - [Prudence Foundation](https://www.prudentialplc.com/en/newsroom/company-news/2024/prudential-advances-climate-resilience-efforts-in-asia-and-africa-with-us-million-investment-to-address-impacts-of-climate-change-on-health/) (Supply): Funds heat-health early warnings for women informal workers in India, sent mainly over WhatsApp and reaching 50,000 women, and research with the Red Cross Red Crescent on heat, humidity and health.
+FunderIndia
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash)
 - [Philanthropy Asia Alliance](https://www.eco-business.com/press-releases/philanthropy-asia-alliance-supports-southeast-asia-heat-health-hub-to-scale-coordinated-action-on-extreme-heat/) (Platform): Backs the Southeast Asia Heat Health Hub, the first regional hub of the Global Heat Health Information Network, and convenes funders on heat resilience.
+FunderAcross the region
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Temasek Trust (through Temasek Foundation)](https://www.temasektrust.org.sg/what-we-do/impact-hub/article-details/the-liveability-challenge-2025-passive-cooling-hydrogen-storage-innovations) (Supply): Its Liveability Challenge funds cooling innovations for extreme heat, such as passive cooling paints.
+FunderSingapore
+Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool)
 - [Rohini Nilekani Philanthropies](https://rohininilekaniphilanthropies.org/resources/alliance-magazine-a-heat-justice-compass-for-philanthropic-action/) (Supply): Funds heat work in India, including Prayas Energy and Health Group’s work with street vendors and construction workers, and CEEW’s district heat risk assessment.
+FunderIndia
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules), [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [HT Parekh Foundation](https://indiaclimatecollaborative.org/blog/climate-funder-ht-parekh-foundation-on-heat) (Supply): Its flagship ReVIVE programme tackles urban heat in India’s smaller cities through research, cooling solutions, demonstration projects and policy advocacy.
+FunderIndia
+Works on: [Green, cool cities](https://beattheheat.asia/actions/#greencity), [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Rainmatter Foundation](https://rainmatter.org/blog/tag/heat/) (Supply): Funds climate and environment work in India. Its partners’ heat work includes heatwave workshops that help journalists and health experts report on extreme heat.
+FunderIndiaLink did not answer the last check
 - [Climate & Health Funders Coalition](https://wellcome.org/engagement-and-advocacy/advocacy-and-partnerships/climate-health-funders-coalition) (Platform): Launched at COP30 with US$300 million in initial funding. Extreme heat is a core priority. Members include CIFF, the Gates Foundation, Philanthropy Asia Alliance, the Rockefeller Foundation and Wellcome.
+FunderAcross the region
 - [Children’s Investment Fund Foundation](https://climateworks.org/press-release/statement-on-the-united-nations-secretary-generals-call-to-action-for-extreme-heat/) (Supply): A member of the Climate & Health Funders Coalition, focused on the growing danger extreme heat poses to pregnant mothers, infants and children.
+FunderPlace not stated in the listing
 - [ClimateWorks Foundation](https://www.climateworks.org/blog/meet-the-grantees-from-our-global-call-for-extreme-heat-solutions/) (Supply): Its Adaptation & Resilience Fund made extreme heat its first focus, awarding US$9.3 million for parametric insurance, adaptive social protection, heat action plans and early warnings.
+FunderPlace not stated in the listing
+Works on: [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash), [Social protection floors](https://beattheheat.asia/actions/#socialprotection), [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [The Rockefeller Foundation](https://wmo.int/node/38332) (Supply): Funds the South Asia Climate–Health Desk with Wellcome and a heat research consortium at IISER Pune, and supported C40’s Cool Cities Accelerator.
+FunderIndia
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Wellcome](https://wellcome.org/our-priorities/climate-and-health/extreme-heat) (Supply): Funds research on extreme heat and health: £17.5 million to test heat adaptations such as cool roofs, with a trial site in India; £17 million across nine projects on heat in pregnancy and early childhood; and work on heat and mental health. With The Rockefeller Foundation it committed US$11.5 million to the WHO–WMO Climate and Health Joint Programme.
+FunderIndia
+Works on: [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing), [Cool nights and support](https://beattheheat.asia/actions/#coolnights), [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
 - [Laudes Foundation](https://icccad.net/programmes/just-transition/capacitating-garment-workers/) (Supply): Funds a three-year project with ICCCAD that builds Bangladeshi garment workers’ capacity on climate change, including heat stress, and on labour rights.
+FunderBangladesh
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [International Development Research Centre (IDRC)](https://idrc-crdi.ca/en/what-we-do/projects-we-support/project/climate-adaptive-action-plans-manage-heat-stress-indian) (Supply): Funds applied heat research, including gender-sensitive heat action planning in India and studies of heat’s impact on informal workers.
+FunderIndia
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [IKEA Foundation](https://www.ikeafoundation.org/campaign-26) (Supply): Supports solar-powered cooling that helps farmers preserve food and reduce waste as extreme heat becomes more common.
+FunderPlace not stated in the listing
 - [Swiss Capacity Building Facility (SCBF)](https://www.scbf.ch/projects?665a6c47_page=2) (Supply): Supports inclusive financial services, including income protection against extreme heat and rainfall for women in India’s informal sector.
+FunderIndia
+Works on: [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash)
 - [Howden Foundation](https://www.howdenfoundation.com/news/frontline-voices-her-resilience-india) (Supply): Funds HERA’s work in India combining early warnings, direct cash and parametric insurance for women exposed to extreme heat.
+FunderIndia
+Works on: [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash), [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [India Climate Collaborative](https://indiaclimatecollaborative.org/blog/mumbai-climate-week-through-conversations-on-urban-resilience) (Platform): Connects philanthropy, researchers and practitioners on heat resilience, sharing evidence on implementation gaps, worker protection and financing.
+FunderIndia
 - [Clean Cooling Collaborative (ClimateWorks Foundation)](https://www.cleancoolingcollaborative.org/) (Platform): Mobilises philanthropy for efficient, climate-friendly cooling, including access to cooling and passive design.
+FunderPlace not stated in the listingLink opens the homepage only
+Works on: [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool), [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool)
 - [Novo Nordisk Foundation](https://novonordiskfonden.dk/en/grant/nexa-lighthouse-call-protecting-people-with-cardiometabolic-diseases-from-the-impacts-of-heat-in-south-asia/) (Supply): Its Nexa Lighthouse call funds protection from heat for people with heart and metabolic diseases in South Asia (open until 17 November 2026), and a 2027 challenge programme on heat and hypertension.
+FunderAcross the region
+Works on: [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics), [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [EarthON Foundation](https://earthonfoundation.org/greenovation-urban-climate-resilience-challenge/) (Supply): Its Greenovation challenge gives awards to Indian ventures for cool roofs, passive and community cooling, and heat-safe livelihoods.
+FunderIndia
+Works on: [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing), [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [Ramboll Foundation](https://www.ramboll.com/news/unep-cop30-presidency-and-ramboll-partner-to-tackle-the-threat-of-urban-heating) (Supply): Funds urban heat tools and research, including a DKK 1.18 million grant for an urban heat and flooding tool and radiant-cooling research. Funding for Asian applicants is not confirmed.
+FunderPlace not stated in the listing
+Works on: [Green, cool cities](https://beattheheat.asia/actions/#greencity), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
 - [National Research Foundation, Singapore](https://medicine.nus.edu.sg/wp-content/uploads/2024/03/PRESS-RELEASE_Project-HeatSafe-18MAR2024-FOR-IMMEDIATE-RELEASE.pdf) (Supply): Funds Project HeatSafe, which studies heat, health and productivity among workers in Singapore and partner countries including Vietnam and Cambodia, and Cooling Singapore.
+Government bodyViet Nam, Cambodia, Singapore
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [Research Grants Council, Hong Kong](https://www.cuhk.edu.hk/research/SED/Projects/Research_b2_health%20risk.html) (Supply): Has funded community heat-risk planning and, in 2025, real-time heat-health warnings for older adults in Hong Kong.
+Government bodyHong Kong
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Research Council of Norway](https://www.cicero.oslo.no/en/articles/will-develop-advanced-early-warning-and-decision-support-systems-for-heat-and-air-pollution-delhi-and-kolkata) (Supply): Co-funds COPE, a research project building early warnings for combined heat and air pollution in Delhi and Kolkata.
+Government bodyIndia
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Anticipatory action](https://beattheheat.asia/actions/#anticipatory)
 - [U.S. National Science Foundation](https://www.cicero.oslo.no/en/articles/will-develop-advanced-early-warning-and-decision-support-systems-for-heat-and-air-pollution-delhi-and-kolkata) (Supply): A named co-funder of COPE, the four-year heat and air-pollution early warning research project in Delhi and Kolkata.
+Government bodyIndia
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Asia-Pacific Network for Global Change Research (APN)](https://www.apn-gcr.org/wp-content/uploads/2025/11/CBA2021-07SY-Magotra-Final-Report-_APN.docx-1.pdf) (Supply): Funds regional research and capacity building, including a US$40,000 grant for gender-sensitive heat action policies in South Asia and newer work on urban heat in Southeast Asian cities.
+FunderAcross the region
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [National Institute for Health and Care Research (NIHR)](https://ghrcentre-ncdec.nihr.ac.uk/project/heat-exposure-adaptation-tools-protecting-vulnerable-g/) (Supply): Funds HEAT-PROTECT in Andhra Pradesh (2023–2027), building heat adaptation into primary healthcare for vulnerable groups.
+Government bodyIndia
+Works on: [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics), [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Indian Council of Medical Research (ICMR)](https://www.icmr.gov.in/) (Supply): Funds medical research including a 2025 study of heat-health risk communication among construction workers, manual labourers and street vendors.
+Government bodyIndiaLink opens the homepage only
+Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules), [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Swiss National Science Foundation (SNSF)](https://www.snf.ch/media/en/sMJbvJyKnKsYuNTK/call_doc_SNSF-MoES_2026.pdf) (Supply): Runs a joint 2026 call with India’s Ministry of Earth Sciences on mountain hazards that explicitly covers heatwaves and their links to forests and horticulture.
+Government bodyIndia
 - [Ministry of Earth Sciences, Government of India](https://www.snf.ch/media/en/sMJbvJyKnKsYuNTK/call_doc_SNSF-MoES_2026.pdf) (Supply): Funds the Indian side of the 2026 Indo-Swiss mountain-hazards research call, which includes how heatwaves are changing.
+Government bodyIndia
 - [Department of Science and Technology, Government of India](https://dst.gov.in/building-energy-efficiency-research-initiative-beri) (Supply): Funds research on low-energy cooling and better building envelopes, and backed the Global Cooling Prize, whose winners were announced in 2021.
+Government bodyIndia
+Works on: [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
 - [Higher Education Commission, Pakistan](https://web.uaf.edu.pk/UploadFiles/UAFAnualReport/4381f032-04fb-4a85-9f2d-8e0adc426a54.pdf) (Supply): Funded heat-resistant soybean breeding at the University of Agriculture Faisalabad (2022–2025), with a demonstration running to 2027.
+Government bodyPakistan
 - [The Lemelson Foundation](https://www.lemelson.org/winners-of-the-global-cooling-prize-announced/) (Supply): Supported the Global Cooling Prize, which in 2021 rewarded room air conditioners with far lower climate impact, aimed first at India.
+FunderIndia
+Works on: [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool)
 - [The Hong Kong Jockey Club Charities Trust](https://www.cpr.cuhk.edu.hk/en/press/jockey-club-beat-the-heat-project-helps-elderly-stay-safe-and-healthy-during-extreme-heat/) (Supply): Funds the three-year Jockey Club Beat the Heat project (from 2024), which assesses risk and gives personal protection and community support to vulnerable older people in Hong Kong.
+FunderHong Kong
+Works on: [Cooling centres and check-ins](https://beattheheat.asia/actions/#coolingcentres), [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Poul Due Jensen Foundation (Grundfos Foundation)](https://www.pdjf.dk/en/article/new-community-engagement-grants-march-2025/) (Supply): Funds water access, including €120,000 for urban poor communities in the Philippines. Heat-specific funding is not confirmed.
+FunderPhilippines
 - [Robert Bosch Stiftung](https://bosch-stiftung.de/en/story/climate-mobility-times-global-upheaval) (Supply): Supports quick, community-led adaptation grants through the Climate Communities Adaptation Facility, and work on climate and migration. Heat-specific funding in Asia is not confirmed.
+FunderAcross the region
 - [A.T.E. Chandra Foundation](https://www.atecf.org/water-and-agriculture) (Supply): Funds the revival of village waterbodies with communities, NGOs and government, starting in drought-hit Marathwada and now in 11 Indian states. Heat-specific funding is not confirmed.
+FunderIndia
+Works on: [Keep water in the soil](https://beattheheat.asia/actions/#soilwater), [Smart irrigation and groundwater rules](https://beattheheat.asia/actions/#irrigate)
 - [DCM Shriram Foundation](https://www.dcmshriramfoundation.org/programs/khushali-paryavaran) (Supply): Funds watershed work in Rajasthan with Tarun Bharat Sangh and an AgWater challenge on farm water use and farmer resilience. Heat-specific funding is not confirmed.
+FunderIndia
+Works on: [Keep water in the soil](https://beattheheat.asia/actions/#soilwater), [Smart irrigation and groundwater rules](https://beattheheat.asia/actions/#irrigate)
 - [Cipla Foundation](https://www.cipla.com/csr/cipla-foundation/environmental-sustainability.html) (Supply): Funds watershed partnerships with MYRADA and BAIF in five Indian states, with water-user groups that maintain the structures. Heat-specific funding is not confirmed.
+FunderIndia
+Works on: [Keep water in the soil](https://beattheheat.asia/actions/#soilwater)
 - [Dharampal Satyapal Limited (DS Group) CSR](https://www.dsgroup.com/front/img/disclosures/List-of-Projects/List%20of%20Projects%202025-26.pdf) (Supply): Funds Water Economic Zones in Rajasthan and Madhya Pradesh through local partners. Heat-specific funding is not confirmed.
+FunderIndiaLink not confirmed: the site turned the check away
+Works on: [Keep water in the soil](https://beattheheat.asia/actions/#soilwater)
 - [HDFC Life (Swabhimaan CSR)](https://www.hdfclife.com/hdfc-careers/csr.html) (Supply): Funds city forests and waterbody revival in Sikkim, Maharashtra and Gujarat alongside livelihoods and health work. Heat-specific funding is not confirmed.
+FunderIndia
+Works on: [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [CIMB Foundation](https://www.cimbfoundation.com/collaborate-with-us/grant-application-form.html) (Supply): Gives grants to registered organisations working with Malaysian communities, including a gravity-fed water programme in Sabah; applications are accepted October to December. Heat-specific funding is not confirmed.
+FunderMalaysia
 - [Yayasan PETRONAS](https://www.yayasanpetronas.com.my/request-for-proposal-community-based-disaster-risk-management-cbdrm/) (Supply): Funds community-based disaster risk management in Malaysia through implementing partners. Heat-specific funding is not confirmed.
+FunderMalaysia
+Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory)
 - [Nusantara Fund (Dana Nusantara)](https://nusantarafund.org/en/program/mosintuwu-community/) (Supply): Funds Indigenous peoples and local communities in Indonesia directly, such as protecting water sources in Central Sulawesi. Heat-specific funding is not confirmed.
+FunderIndonesia
 - [Women’s Fund Asia](https://www.womensfundasia.org/strengthening-feminist-movements/) (Supply): Gives flexible and core grants to women-led and feminist groups in 22 Asian countries and territories, covering labour rights, environmental justice and women-led climate adaptation. Heat-specific funding is not confirmed.
+FunderAcross the regionLink not confirmed: the site turned the check away
 - [Tewa, Nepal Women’s Fund](https://annualreport.bothends.org/nepalese-women-lead-local-advocacy-on-climate-change/) (Supply): Makes small grants to grassroots women’s groups in Nepal; one won municipal funding for irrigation after training on climate budgets. Heat-specific funding is not confirmed.
+FunderNepal
+Works on: [Smart irrigation and groundwater rules](https://beattheheat.asia/actions/#irrigate), [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)
 - [Mama Cash](https://www.mamacash.org/resources/our-agenda-at-cop30-scaling-up-funding-for-feminist-locally-led-adaptation/) (Supply): A participatory funder of feminist movements and a member of GAGGA, which gives core, multi-year funding to women-led community groups, including in Nepal, India and Indonesia. Heat-specific funding is not confirmed.
+FunderIndia, Nepal, Indonesia
 - [Both ENDS](https://prc.org.np/publications/) (Supply): Supports environmental-justice partners, including grants for local climate governance and gender budgeting in Nepal. Heat-specific funding is not confirmed.
+FunderNepal
+Works on: [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)
 - [Global Fund for Community Foundations](https://globalfundcommunityfoundations.org/what-we-do/grants/grants-awarded/) (Supply): Funds community philanthropy and local funds in India, Nepal, Indonesia, the Philippines and Cambodia, including climate resilience. Heat-specific funding is not confirmed.
+FunderIndia, Nepal, Philippines, Indonesia, Cambodia
 - [DOEN Foundation](https://efficiencyforaccess.org/updates/global-leap-awards-announces-winners-and-finalists-of-the-2022-off-grid-cold-chain-challenge/) (Supply): Co-funded the 2022 Global LEAP Off-Grid Cold Chain Challenge, which included Indian finalists keeping produce cool off the grid.
+FunderIndia
 - [Good Energies Foundation](https://efficiencyforaccess.org/updates/global-leap-awards-announces-winners-and-finalists-of-the-2022-off-grid-cold-chain-challenge/) (Supply): Co-funded the 2022 Global LEAP Off-Grid Cold Chain Challenge, which included Indian finalists keeping produce cool off the grid.
+FunderIndia
 - [Henry Luce Foundation](https://hluce.org/new-lucesea-grants-address-growing-impact-climate-change-and-importance-community-histories/) (Supply): Gave US$945,000 in 2022 for research on vulnerable deltas in Southeast Asia: climate, water pollution and social change. Heat-specific funding is not confirmed.
+FunderAcross the region
 - [MetLife Foundation](https://www.metlife.com.np/content/dam/metlifecom/np/homepage/en/about-metlife/media-downloads/pres-release/press-articles/MetLife_Foundation_Supports_WWF_JEEWAN_Project.pdf) (Supply): Gave US$120,000 to WWF Nepal’s JEEWAN project in Bardiya, combining new livelihoods with nature-based flood protection. Heat-specific funding is not confirmed.
+FunderNepal
 - [Stone Family Foundation](https://www.stonefamilyfoundation.org.uk/water-to-the-home/who-we-work-with/) (Supply): Finances household water services in Cambodia, with grants, loans and technical support for water operators. Heat-specific funding is not confirmed.
+FunderCambodia
 - [The Waterloo Foundation](https://waterloofoundation.org.uk/world-development-water-and-sanitation-small-projects-supported/) (Supply): Funds reliable safe water in Nepal’s schools and the upkeep of water services. Heat-specific funding is not confirmed.
+FunderNepal
 - [Fondation SUEZ](https://56q2bbylxfnk.optimytool.com/fr) (Supply): Funds access to water, sanitation and hygiene, with India, Bangladesh and the Philippines among eligible countries. Heat-specific funding is not confirmed.
+FunderIndia, Bangladesh, PhilippinesLink not confirmed: the site turned the check away
 - [Halton Foundation](https://foundation.halton.com/) (Supply): Gives research grants of up to US$30,000 a year on indoor environments, explicitly including thermal comfort, with no geographic limits. The next round opens 1 July 2027.
+FunderPlace not stated in the listingLink opens the homepage only
+Works on: [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing)
 - [Takeda (Global CSR Program)](https://www.takeda.com/newsroom/newsreleases/2025/takeda-employees-vote-csr-collaborations/) (Supply): Funds climate-resilient health systems, including about US$7.1 million with UNOPS in Bangladesh and US$8.4 million with Vitamin Angels in Indonesia. Heat-specific funding is not confirmed.
+FunderBangladesh, Indonesia
+Works on: [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
 - [Danone Communities](https://www.danonecommunities.com/naandi-community-water-services/) (Supply): Invests patiently in affordable drinking-water enterprises such as Naandi Community Water Services in India. Heat-specific funding is not confirmed.
+FunderIndia
 - [Fondation Botnar](https://www.fondationbotnar.org/project/urban-futures/) (Supply): Funds Urban Futures, linking young people’s wellbeing and climate-resilient food systems in intermediary cities, including in Indonesia. Heat-specific funding is not confirmed.
+FunderIndonesia
 - [OPEC Fund for International Development](https://www.adb.org/who-we-are/partners/ofid/overview) (Supply): Lends and gives technical assistance for water security and services in Asia, including US$100 million for water security in Sri Lanka in 2025. Heat-specific funding is not confirmed.
+UN or multilateral bodySri Lanka
 - [Tata Trusts](https://www.tatatrusts.org) (Supply): Supports climate-smart Patan heat protection with women’s community groups.
+FunderPlace not stated in the listingLink opens the homepage only
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing), [Cool nights and support](https://beattheheat.asia/actions/#coolnights)
 - [Global Resilience Partnership](https://www.globalresiliencepartnership.org) (Platform): Supported MHT’s heat-inclusive community resilience programme in South Asia.
+FunderAcross the regionLink opens the homepage only
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing), [Cool nights and support](https://beattheheat.asia/actions/#coolnights)
 - [Ashden](https://ashden.org) (Supply): Funded community-designed cooling through its Fair Cooling Fund.
+FunderPlace not stated in the listingLink opens the homepage only
+Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing), [Cool nights and support](https://beattheheat.asia/actions/#coolnights)
 - [H T Parekh Foundation](https://www.htparekhfoundation.com) (Supply): Supports heat intelligence and co-produced an urban-heat landscape report.
+FunderIndiaLink opens the homepage only
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [UK Foreign, Commonwealth and Development Office](https://www.gov.uk/government/organisations/foreign-commonwealth-development-office) (Supply): Funds the RAIN programme that activated heat early action in Nepal.
+FunderNepal
+Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)
 - [Global Environment Facility](https://www.thegef.org) (Supply): Backs the Nature for Cooling Challenge through a grant.
+FunderPlace not stated in the listingLink opens the homepage only
+Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory), [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash), [Heat-smart lending](https://beattheheat.asia/actions/#heatlending), [Shared risk pools](https://beattheheat.asia/actions/#riskpools)
 
 ---
 Human edition: https://beattheheat.asia/heat-network/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

@@ -206,7 +206,7 @@ const checkFor = (key, label) => `<aside class="cs-check" data-check="${key}" da
       ${v.example ? `<p><strong>In practice:</strong> ${esc(v.example)}</p>${srcs(v.exampleSources)}` : ""}
       ${(v.watch || []).map(w => `<p><strong>Watch for:</strong> ${esc(w.text)}</p>${srcs(w.sources)}`).join("")}
       ${(v.guides || []).length ? `<h3>Practical guides</h3><ul>${v.guides.map(g => `<li>${ext(g.url, g.title)} <span class="meta">${esc(g.by)}</span></li>`).join("")}</ul>` : ""}
-      <p class="meta"><a href="/#break-${v.id}">See it on the map</a></p>`;
+      <p class="meta"><a href="/#break-${v.id}">See it on the map</a>${D.ORGANISATIONS.some(o => (o.levers || []).includes(v.id)) ? ` · <a href="/heat-network/?action=${v.id}">Who works on this</a>` : ""}</p>`;
     m.push(`### ${v.title}`, v.text, `Cuts the link: ${name(v.edge[0])} → ${name(v.edge[1])}. Who can act: ${who.join(", ")}.`, ls.length ? `Could help interrupt: ${ls.map(l => l.name).join(", ")}` : "",
       v.example ? `In practice: ${v.example}` : "", ...(v.watch || []).map(w => `Watch for: ${w.text} (${w.sources.map(x => `${x.label}, ${x.url}`).join("; ")})`), ...(v.guides || []).map(g => `- Guide: ${g.title} (${g.by}) ${g.url}`));
   });
@@ -322,17 +322,11 @@ const hapFor = name => HAPA.docs.filter(d => d.district_or_city === name || (d.s
   const missing = D.ORGANISATIONS.filter(o => !D.ORG_SIDE[o.id]).map(o => o.id);
   if (missing.length) throw new Error("ORG_SIDE has no side for: " + missing.join(", "));
   const sidesIntro = `Each organisation is marked with its main side in a heat alliance. ${D.ORG_SIDES.map(x => `${x.name}: ${x.text}`).join(" ")} Many play more than one part; this is the main one.`;
-  let h = `<p>${esc(sidesIntro)}</p><p><a href="/heat-network/heat-network.csv" download>Download the whole list as a spreadsheet (CSV)</a></p>`, m = [`## ${p.title}`, intro, sidesIntro];
-  D.ORG_ROLES.forEach(r => { const os = D.ORGANISATIONS.filter(o => o.role === r.id); if (!os.length) return;
-    h += `<h2 id="${r.id}">${esc(r.name)}</h2><ul>${os.map(o => `<li>${ext(o.url, o.name)} <span class="meta">(${esc(sideName(o.id))})</span>: ${esc(o.does)}</li>`).join("")}</ul>`;
-    m.push(`### ${r.name}`, ...os.map(o => `- ${o.name} (${sideName(o.id)}): ${o.does} (${o.url})`)); });
-  // the same list as a spreadsheet, for mapping and alliance design: one row per organisation
-  const cell = v => /[",\r\n]/.test(String(v)) ? `"${String(v).replace(/"/g, '""')}"` : String(v);
-  const roleName = id => (D.ORG_ROLES.find(r => r.id === id) || {}).name || "";
-  const leverTitle = id => (D.LEVERS.find(v => v.id === id) || {}).title || "";
-  const rows = [["Organisation", "Side", "Group on the site", "What it does", "Levers it works on", "Link"],
-    ...D.ORGANISATIONS.map(o => [o.name, sideName(o.id), roleName(o.role), o.does, (o.levers || []).map(leverTitle).filter(Boolean).join("; "), o.url])];
-  fs.writeFileSync(path.join(ROOT, "heat-network", "heat-network.csv"), "\uFEFF" + rows.map(r => r.map(cell).join(",")).join("\r\n") + "\r\n");
+  // the list, its filters, the Markdown and the spreadsheet all come from tools/build-heat-network.js
+  const HNV = (fs.readFileSync(path.join(ROOT, "index.html"), "utf8").match(/\?v=(\d+)/) || [])[1] || "1";   // the site's cache version
+  const HN = require("./build-heat-network.js").body({ D, esc, ext, V: HNV });
+  const h = HN.h, m = [`## ${p.title}`, intro, ...HN.m];
+  fs.writeFileSync(path.join(ROOT, "heat-network", "heat-network.csv"), HN.csv);
   out[p.slug] = page(p, intro, h); md.push(m.join("\n\n"));
 }
 

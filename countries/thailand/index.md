@@ -1,7 +1,7 @@
 ---
 title: "Thailand: heat country snapshot"
 url: https://beattheheat.asia/countries/thailand/
-updated: 2026-11-08
+updated: 2026-11-14
 licence: CC BY 4.0
 ---
 
@@ -487,6 +487,8 @@ Listing does not imply partnership, endorsement or ranking.
 - **[World Bank - Thailand urban-heat research ](https://www.worldbank.org/en/country/thailand)** Published Bangkok urban-heat assessment; no specific heat grant or finance eligibility inferred.
 
 Other snapshots: [Bangladesh](https://beattheheat.asia/countries/bangladesh/) · [India](https://beattheheat.asia/countries/india/) · [Indonesia](https://beattheheat.asia/countries/indonesia/) · [Nepal](https://beattheheat.asia/countries/nepal/) · [Philippines](https://beattheheat.asia/countries/philippines/) · [Sri Lanka](https://beattheheat.asia/countries/sri-lanka/) · [Solutions library](https://beattheheat.asia/solutions/)
+
+**Who is already working here.** Organisations whose listed heat work is in Thailand, by the part each plays. [The heat network](https://beattheheat.asia/heat-network/?country=TH)
 
 ---
 Human edition: https://beattheheat.asia/countries/thailand/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

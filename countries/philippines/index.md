@@ -1,7 +1,7 @@
 ---
 title: "Philippines: heat country snapshot"
 url: https://beattheheat.asia/countries/philippines/
-updated: 2026-11-06
+updated: 2026-11-14
 licence: CC BY 4.0
 ---
 
@@ -604,6 +604,8 @@ Listing does not imply partnership, endorsement or ranking.
 - **[People Management Association of the Philippines ](https://pmap.org.ph/)** Circulated a 27 October 2026 account of DOLE’s new heat advisory to members.
 
 Other snapshots: [Bangladesh](https://beattheheat.asia/countries/bangladesh/) · [India](https://beattheheat.asia/countries/india/) · [Indonesia](https://beattheheat.asia/countries/indonesia/) · [Nepal](https://beattheheat.asia/countries/nepal/) · [Sri Lanka](https://beattheheat.asia/countries/sri-lanka/) · [Thailand](https://beattheheat.asia/countries/thailand/) · [Solutions library](https://beattheheat.asia/solutions/)
+
+**Who is already working here.** Organisations whose listed heat work is in Philippines, by the part each plays. [The heat network](https://beattheheat.asia/heat-network/?country=PH)
 
 ---
 Human edition: https://beattheheat.asia/countries/philippines/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

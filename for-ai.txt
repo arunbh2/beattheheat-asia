@@ -1,5 +1,5 @@
 Common Shade: for AI agents
-Updated 2026-11-13. Human edition: https://beattheheat.asia/
+Updated 2026-11-14. Human edition: https://beattheheat.asia/
 
 A free, open, non-commercial evidence base on extreme heat in South and Southeast Asia: how heat harms health, income and homes, how one harm leads to the next, what helps, and who could act and who could pay. Every claim links to its source and says how sure the evidence is.
 
@@ -93,6 +93,7 @@ ENDPOINTS
 - https://beattheheat.asia/data/core/CITY_PROFILES.json (JSON): the city profiles
 - https://beattheheat.asia/data/core/HEATWAVES.json (JSON): heatwaves from 1998 to 2026
 - https://beattheheat.asia/data/core/ORGANISATIONS.json (JSON): the organisations in the heat network
+- https://beattheheat.asia/data/core/ORG_FACETS.json (JSON): for each organisation: where its listed work is, what kind of body it is, and when its link last answered a check
 - https://beattheheat.asia/data/core/GLOSSARY.json (JSON): the glossary
 - https://beattheheat.asia/data/site/signals.json (JSON): announcements and commitments on heat, each on the ladder from announced to evaluated
 - https://beattheheat.asia/data/heat-tools/catalogue.json (JSON): the Heat Tool Finder catalogue: tools, datasets and warning services with their inputs, outputs, limits and review depth (never ranked)

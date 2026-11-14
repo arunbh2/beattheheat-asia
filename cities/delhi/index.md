@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in Delhi: plans, cycles and who is at work | Common Shade"
 url: https://beattheheat.asia/cities/delhi/
-updated: 2026-11-13
+updated: 2026-11-14
 licence: CC BY 4.0
 ---
 
@@ -85,6 +85,8 @@ Listing does not imply partnership, affiliation or endorsement.
 Plans and law, warnings, rules for heat at work, cooling, money and other cities in India: [the India country snapshot](https://beattheheat.asia/countries/india/).
 
 **Find tools for this decision.** Official warnings, heat risk and cooler places in India: compare the tools that cover it, each with its limits. [Heat Tool Finder](https://beattheheat.asia/heat-tools/?country=IN)
+
+**Who is already working here.** Organisations whose listed heat work is in India, by the part each plays. [The heat network](https://beattheheat.asia/heat-network/?country=IN)
 
 ---
 Human edition: https://beattheheat.asia/cities/delhi/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

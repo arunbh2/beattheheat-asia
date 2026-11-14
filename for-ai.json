@@ -5,7 +5,7 @@
   "also_known_as": "BeatTheHeat.Asia (the name it was first published under; the site is moving to commonshade.asia)",
   "summary": "A free, open, non-commercial evidence base on extreme heat in South and Southeast Asia: how heat harms health, income and homes, how one harm leads to the next, what helps, and who could act and who could pay. Every claim links to its source and says how sure the evidence is.",
   "status": "beta",
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "cost": "free",
   "account_required": false,
   "visitor_data": "What a visitor chooses stays in their own browser.",
@@ -273,6 +273,12 @@
       "url": "https://beattheheat.asia/data/core/ORGANISATIONS.json",
       "path": "/data/core/ORGANISATIONS.json",
       "what": "the organisations in the heat network",
+      "format": "JSON"
+    },
+    {
+      "url": "https://beattheheat.asia/data/core/ORG_FACETS.json",
+      "path": "/data/core/ORG_FACETS.json",
+      "what": "for each organisation: where its listed work is, what kind of body it is, and when its link last answered a check",
       "format": "JSON"
     },
     {

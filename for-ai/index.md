@@ -1,7 +1,7 @@
 ---
 title: "For AI agents: a free evidence base on extreme heat"
 url: https://beattheheat.asia/for-ai/
-updated: 2026-11-13
+updated: 2026-11-14
 licence: CC BY 4.0
 ---
 
@@ -85,7 +85,7 @@ There is a free, open evidence base on extreme heat in South and Southeast Asia 
 
 **summary**: A free, open, non-commercial evidence base on extreme heat in South and Southeast Asia: how heat harms health, income and homes, how one harm leads to the next, what helps, and who could act and who could pay. Every claim links to its source and says how sure the evidence is.
 
-**status**: beta (updated 2026-11-13)
+**status**: beta (updated 2026-11-14)
 
 **cost**: free · no account · no sign-up
 
@@ -133,6 +133,7 @@ Plain files and pages, open to read. Nothing needs a key.
 - [/data/core/CITY_PROFILES.json](https://beattheheat.asia/data/core/CITY_PROFILES.json)the city profilesJSON
 - [/data/core/HEATWAVES.json](https://beattheheat.asia/data/core/HEATWAVES.json)heatwaves from 1998 to 2026JSON
 - [/data/core/ORGANISATIONS.json](https://beattheheat.asia/data/core/ORGANISATIONS.json)the organisations in the heat networkJSON
+- [/data/core/ORG_FACETS.json](https://beattheheat.asia/data/core/ORG_FACETS.json)for each organisation: where its listed work is, what kind of body it is, and when its link last answered a checkJSON
 - [/data/core/GLOSSARY.json](https://beattheheat.asia/data/core/GLOSSARY.json)the glossaryJSON
 - [/data/site/signals.json](https://beattheheat.asia/data/site/signals.json)announcements and commitments on heat, each on the ladder from announced to evaluatedJSON
 - [/data/heat-tools/catalogue.json](https://beattheheat.asia/data/heat-tools/catalogue.json)the Heat Tool Finder catalogue: tools, datasets and warning services with their inputs, outputs, limits and review depth (never ranked)JSON
