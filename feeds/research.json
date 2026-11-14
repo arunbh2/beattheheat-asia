@@ -1,8 +1,18 @@
 {
- "updated": "2026-11-13T19:53:53.223Z",
+ "updated": "2026-11-14T06:45:37.313Z",
  "days": 120,
  "source": "Europe PMC",
  "items": [
+  {
+   "title": "Pre-monsoon heatwave trends and ENSO-dryness associations in Rajshahi, Bangladesh",
+   "journal": "Preprint",
+   "date": "2026-11-13",
+   "doi": "10.21203/rs.3.rs-11397313/v1",
+   "pmid": "",
+   "preprint": true,
+   "url": "https://doi.org/10.21203/rs.3.rs-11397313/v1",
+   "firstAuthor": "Pranto FS"
+  },
   {
    "title": "Data-driven estimation of the onset of heat-related mortality in five Indian cities",
    "journal": "Preprint",
@@ -11,7 +21,7 @@
    "pmid": "",
    "preprint": true,
    "url": "https://doi.org/10.64898/2026.11.08.26367540",
-   "firstAuthor": "Robles Fontan MM"
+   "firstAuthor": "Robles Fontán MM"
   },
   {
    "title": "Three-way circulation-soil moisture-temperature feedbacks amplify the most extreme mid-latitudinal heat waves.",
@@ -592,16 +602,6 @@
    "preprint": false,
    "url": "https://doi.org/10.1080/0886022x.2026.2727744",
    "firstAuthor": "Wang S."
-  },
-  {
-   "title": "Intended reduction in formulated net energy density and associated changes in diet composition improved growth performance and breast meat yield in broiler chickens under both cyclic heat stress and thermoneutral conditions.",
-   "journal": "Poultry science",
-   "date": "2026-09-12",
-   "doi": "10.1016/j.psj.2026.107759",
-   "pmid": "42800449",
-   "preprint": false,
-   "url": "https://doi.org/10.1016/j.psj.2026.107759",
-   "firstAuthor": "Xie C"
   }
  ]
 }
