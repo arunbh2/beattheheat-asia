@@ -64,7 +64,7 @@
 .ht-card__prov { color: var(--grey-700); font-size: .92rem; }
 .ht-card__sum, .ht-card__where { font-size: .95rem; }
 .ht-card__where { color: var(--grey-700); }
-.ht-card__limit { font-size: .92rem; padding: 8px 10px; background: var(--sand-50); border-radius:6px; border:1px solid var(--line,#E6DFD4); border-color:color-mix(in srgb,var(--ember) 34%,var(--line,#E6DFD4)); }
+.ht-card__limit { font-size: .92rem; padding: 8px 10px; background: var(--sand-50); border-radius:var(--r-sm); border:1px solid var(--line,#E6DFD4); border-color:color-mix(in srgb,var(--ember) 34%,var(--line,#E6DFD4)); }
 .ht-card__rev { font-size: var(--fs-12); color: var(--grey-700); }
 .ht-card__acts { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; margin-top: auto; padding-top: 6px; }
 .ht-card__go { font-weight: 700; color: var(--ink); text-decoration-color: var(--orange); text-underline-offset: 3px; min-height: 32px; display: inline-flex; align-items: center; }
