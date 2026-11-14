@@ -153,7 +153,7 @@ const CSS = `html:has(.csn){scroll-padding-top:120px}
 :where(.csn,.csn-d,.csf,.csp) button{font:inherit;color:inherit;cursor:pointer}
 .csn__in{max-width:1280px;margin:0 auto;padding:0 clamp(16px,3vw,32px);height:64px;display:flex;align-items:center;gap:12px;transition:height .2s ease}
 .csn--slim .csn__in{height:56px}
-.csn__home{display:inline-flex;align-items:center;gap:10px;font-family:Anton,Impact,"Arial Narrow",sans-serif;font-size:1.18rem;letter-spacing:.06em;text-decoration:none;white-space:nowrap;margin-right:clamp(8px,2vw,28px)!important}
+.csn__home{display:inline-flex;align-items:center;gap:10px;min-height:44px;min-width:44px;font-family:Anton,Impact,"Arial Narrow",sans-serif;font-size:1.18rem;letter-spacing:.06em;text-decoration:none;white-space:nowrap;margin-right:clamp(8px,2vw,28px)!important}
 .csn__mark{width:30px;height:23px;color:var(--ink);flex:none}
 .csn__main{flex:1;min-width:0;height:100%}
 .csn__groups{list-style:none;margin:0;padding:0;display:flex;align-items:center;gap:2px;height:100%}
@@ -278,6 +278,9 @@ const CSS = `html:has(.csn){scroll-padding-top:120px}
 .csf a{color:#FAF7F2;text-decoration:none}.csf a:hover{text-decoration:underline;text-decoration-color:var(--orange);text-underline-offset:3px}
 .csf h2{margin:0 0 10px!important;padding:0!important;border:0!important;font-family:inherit!important;font-size:.75rem!important;font-weight:700!important;letter-spacing:.08em;text-transform:uppercase;color:#C9C2B6!important}
 .csf h2 a{color:#C9C2B6}
+/* tap areas (interaction audit, November 2026): footer links grow their touch area without moving anything */
+.csf h2 a,.csf li a{display:block;position:relative}.csf h2 a::after,.csf li a::after{content:"";position:absolute;inset:-4px 0}
+.csf__up,.csf__ai a,.csf__extra a{position:relative}.csf__up::after,.csf__ai a::after,.csf__extra a::after{content:"";position:absolute;inset:-12px -4px}
 .csf ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
 .csf__in{max-width:1280px;margin:0 auto;padding:36px clamp(16px,3vw,32px) 32px}
 .csf__top{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 18px;padding-bottom:20px;margin-bottom:22px;border-bottom:1px solid rgba(250,247,242,.18);font-size:.9rem;color:#C9C2B6}

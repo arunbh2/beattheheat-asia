@@ -4301,3 +4301,13 @@ html:not(.rf-js) .rf-co-tabs{display:none}
 .cs-note { --note: var(--note-info); background: var(--sand-50); background: color-mix(in srgb, var(--note) 7%, var(--canvas)); border: 1px solid var(--line); border-color: color-mix(in srgb, var(--note) 34%, var(--line)); border-radius: var(--r-sm); padding: var(--pad-compact); }
 .cs-note--limit { --note: var(--note-limit); } .cs-note--watch { --note: var(--note-watch); } .cs-note--example { --note: var(--note-example); }
 .cs-note__label { display: block; margin: 0 0 4px; font-size: var(--fs-12); font-weight: 700; letter-spacing: var(--label-track); text-transform: uppercase; color: var(--grey-700); }
+
+/* Tap areas (interaction audit, November 2026): standalone text links and text buttons get a touch area about 44px
+   tall from an invisible layer, so nothing moves. tools/check-targets.js keeps every standalone target at 24px or more. */
+.intro__wicked-acts a, .act-link, .act__quiet, .lrow__toggle, .foot-close__go, .act-exit p a { position: relative; }
+.intro__wicked-acts a::after, .act-link::after, .act__quiet::after, .lrow__toggle::after, .foot-close__go::after, .act-exit p a::after { content: ""; position: absolute; inset: -10px -4px; }
+/* Stacked source and jump links: a 4px invisible layer above and below brings each to a 24px tap area without moving
+   anything. Every summary is at least 24px tall. */
+.sol-src a, .sol-srcs a, .sol-ul a, .sol-f p a, .sol-jump a, .path-read a, .rf-src a, .evm-q dd a, .evm-studies a, .fl-u-go, .org__name a, .ep-flag a, .hv-t a, .he-breaks a, td > a { position: relative; }
+.sol-src a::after, .sol-srcs a::after, .sol-ul a::after, .sol-f p a::after, .sol-jump a::after, .path-read a::after, .rf-src a::after, .evm-q dd a::after, .evm-studies a::after, .fl-u-go::after, .org__name a::after, .ep-flag a::after, .hv-t a::after, .he-breaks a::after, td > a::after { content: ""; position: absolute; inset: -4px -2px; }
+summary { min-height: 24px; }
