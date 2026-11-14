@@ -1,7 +1,7 @@
 ---
 title: "How to use this site | Common Shade"
 url: https://beattheheat.asia/guide/
-updated: 2026-10-01
+updated: 2026-11-14
 licence: CC BY 4.0
 ---
 

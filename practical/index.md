@@ -1,7 +1,7 @@
 ---
 title: "Find practical actions against extreme heat | Common Shade"
 url: https://beattheheat.asia/practical/
-updated: 2026-10-31
+updated: 2026-11-14
 licence: CC BY 4.0
 ---
 

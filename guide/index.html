@@ -19,11 +19,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Newsreader:ital,wght@0,400;0,500;1,400&display=swap">
-  <link rel="stylesheet" href="/styles.css?v=214">
+  <link rel="stylesheet" href="/styles.css?v=215">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"How to use this site","url":"https://beattheheat.asia/guide/","isPartOf":{"@type":"WebSite","name":"Common Shade","url":"https://beattheheat.asia/"},"license":"https://creativecommons.org/licenses/by/4.0/"}</script>
-  <script src="/data.js?v=214" defer></script>
-  <script src="/guide.js?v=214" defer></script>
-  <script src="/join.js?v=214" defer></script>
+  <script src="/data.js?v=215" defer></script>
+  <script src="/guide.js?v=215" defer></script>
+  <script src="/join.js?v=215" defer></script>
+
+
 
 
 
@@ -278,12 +280,12 @@ html:has(> body > .ticker:not([hidden])) { --tk-h: 34px; }
   .ticker .ticker__track { animation: ticker var(--ticker-dur, 60s) linear infinite !important; }
   .ticker.is-paused .ticker__track, .ticker:has(:focus-visible) .ticker__track { animation-play-state: paused !important; }
 }
-.ticker__lv { margin-left: 6px; padding: 1px 7px; border-radius: 999px; font-size: var(--fs-12); font-weight: 800; background: #F2C14E; color: #16202B; }
-.ticker__lv--1 { background: #F26430; color: #16202B; }
+.ticker__lv { margin-left: 6px; padding: 1px 7px; border-radius: 999px; font-size: var(--fs-12); font-weight: 800; background: #F2C14E; color: var(--ink); }
+.ticker__lv--1 { background: var(--orange); color: var(--ink); }
 .ticker__lv--2 { background: #D7263D; color: #fff; }</style><noscript><style>.csn__gb,.csn__tools{display:none!important}.csn__gl{display:inline-flex;align-items:center;height:40px;padding:0 14px;font-weight:700}@media (max-width:960px){.csn__main{display:block!important}}</style></noscript><!--/csn-->
-<!--agent--><link rel="alternate" type="text/markdown" href="/guide/index.md"><link rel="alternate" type="application/atom+xml" title="What changed on Common Shade" href="/feed.xml"><meta name="color-scheme" content="light"><meta name="referrer" content="strict-origin-when-cross-origin"><meta property="article:modified_time" content="2026-10-01"><script type="speculationrules">{"prefetch":[{"where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/*.*","/solutions/*","/sources/*"]}},{"not":{"selector_matches":"[download],[target=_blank],[rel~=nofollow]"}}]},"eagerness":"conservative"}]}</script><!--/agent-->
+<!--agent--><link rel="alternate" type="text/markdown" href="/guide/index.md"><link rel="alternate" type="application/atom+xml" title="What changed on Common Shade" href="/feed.xml"><meta name="color-scheme" content="light"><meta name="referrer" content="strict-origin-when-cross-origin"><meta property="article:modified_time" content="2026-11-14"><script type="speculationrules">{"prefetch":[{"where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/*.*","/solutions/*","/sources/*"]}},{"not":{"selector_matches":"[download],[target=_blank],[rel~=nofollow]"}}]},"eagerness":"conservative"}]}</script><!--/agent-->
 </head>
-<body data-page="guide" data-changed="2026-10-01">
+<body data-page="guide" data-changed="2026-11-14">
   <a class="skip-link" href="#guide-title">Skip to the guide</a>
     <!--csn--><div class="ticker" id="cs-ticker" role="region" aria-label="Live temperatures in Asian cities" hidden>
   <a class="ticker__k" href="/#heat-now"><span class="ticker__dot" aria-hidden="true"></span>Live</a>
@@ -536,7 +538,7 @@ $$("[data-check]").forEach(function(box){var key=box.getAttribute("data-check"),
     if(form)window.open(form,"_blank","noopener");remember({a:"no",d:today});done(thanksNo)})})}});
 /* copy the citation */
 $$("[data-csn-copy]").forEach(function(b){b.addEventListener("click",function(){var t=$("[data-csn-cite]").textContent;(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){b.textContent="Copied"},function(){b.textContent="Select and copy"})})});
-})();</script><script src="/ticker.js?v=214" defer></script><script>addEventListener("load",function(){setTimeout(function(){["/everything.js?v=214"].forEach(function(s){var e=document.createElement("script");e.src=s;document.body.appendChild(e)})},2500)})</script><!--/csn-->
+})();</script><script src="/ticker.js?v=215" defer></script><script>addEventListener("load",function(){setTimeout(function(){["/everything.js?v=215"].forEach(function(s){var e=document.createElement("script");e.src=s;document.body.appendChild(e)})},2500)})</script><!--/csn-->
 <footer class="wkp-foot">
     <div class="container"><p>Text and data: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0<span class="visually-hidden"> (opens in a new tab)</span></a>. <a href="/">Back to the map of extreme heat</a></p></div>
   </footer>
