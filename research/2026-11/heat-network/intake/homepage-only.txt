@@ -1,0 +1,114 @@
+# Listings whose link opens only a homepage (112). For section E: find the page on the same organisation's site that shows the heat work described.
+# Name | current link | what the listing says it does
+UNEP Cool Coalition | https://coolcoalition.org | A global network for clean, efficient cooling and cooler cities. With the COP30 Presidency, it runs Beat the Heat, an initiative supporting cities in the Global South with heat assessments and cooling action.
+National Disaster Management Authority, India | https://ndma.gov.in | Issues national guidance for state and city heat action plans.
+Integrated Research and Action for Development (IRADe) | https://irade.org/ | Develops heat hotspot assessments and gender-sensitive heat action plans in India, Bangladesh and Sri Lanka.
+Clean Cooling Collaborative (ClimateWorks Foundation) | https://www.cleancoolingcollaborative.org/ | Mobilises philanthropy for efficient, climate-friendly cooling, including access to cooling and passive design.
+Centre for Disability in Development (CDD), with CBM | https://www.cbm.org/ | Runs disability-inclusive disaster risk and climate adaptation in Bangladesh, including coastal sub-districts, where heatwaves are among the hazards. A heat-specific programme is not confirmed.
+Indian Council of Medical Research (ICMR) | https://www.icmr.gov.in/ | Funds medical research including a 2025 study of heat-health risk communication among construction workers, manual labourers and street vendors.
+Halton Foundation | https://foundation.halton.com/ | Gives research grants of up to US$30,000 a year on indoor environments, explicitly including thermal comfort, with no geographic limits. The next round opens 1 July 2027.
+Nepal Rastra Bank | https://www.nrb.org.np/ | Sets environmental and social risk rules for banks (2018), and since October 2024 a green finance taxonomy that sorts lending into green, amber and red.
+Sustainable Banking and Finance Network | https://www.sbfnetwork.org/ | A network of financial regulators and banking associations from emerging markets, supported by IFC. Its policy library holds the climate and environmental risk rules of central banks across South and Southeast Asia.
+BRAC University: James P Grant School of Public Health | https://bracjpgsph.org | Contributes heat-health country evidence to the South Asia hub.
+Indian Institute of Tropical Meteorology | https://www.tropmet.res.in | Hosts the South Asia Climate and Health Desk linked to the heat-health hub.
+India Meteorological Department | https://mausam.imd.gov.in | Issues impact-based heat forecasts and seasonal heatwave outlooks.
+Ministry of Health, Indonesia | https://kemkes.go.id | Co-launched KATALIS-HEAT for heat-health assessment and cross-sector action.
+Ministry of Environment, Indonesia | https://kemenlh.go.id | Collaborates in Indonesia’s KATALIS-HEAT initiative.
+BMKG: Indonesia | https://www.bmkg.go.id | Provides meteorological collaboration for KATALIS-HEAT.
+Universitas Indonesia | https://www.ui.ac.id | Serves as a local implementing partner in KATALIS-HEAT.
+Hasanuddin University | https://www.unhas.ac.id | Serves as a local implementing partner in KATALIS-HEAT.
+Diponegoro University | https://www.undip.ac.id | Serves as a local implementing partner in KATALIS-HEAT.
+SEADRIF Insurance Company | https://seadrif.org | Announced a regional extreme-heat insurance accelerator with HERA.
+Asian Institute of Technology | https://ait.ac.th | Leads CLARE-ASEAN, including named urban-heat research projects.
+Rujak Center for Urban Studies | https://rujak.org | Leads Be-Housing research on urban-poor housing and heat adaptation.
+Universiti Kebangsaan Malaysia | https://www.ukm.my | Partners through its Malay World institute in Be-Housing heat research.
+Kota Kita Foundation | https://kotakita.org | Partners in Be-Housing research on urban-poor settlements and heat adaptation.
+Thailand Environment Institute | https://www.tei.or.th | Leads HAMR heat-adaptation research in three Mekong cities.
+RMIT University Vietnam | https://www.rmit.edu.vn | Partners in HAMR urban-heat adaptation research.
+Alluvium | https://alluviumconsulting.com.au/ | Partners in HAMR urban-heat adaptation research.
+Royal University of Phnom Penh | https://www.rupp.edu.kh | Partners in HAMR urban-heat adaptation research.
+Varanasi Municipal Corporation | https://nnvns.org.in/ | Launched a city heat action plan with technical and community partners.
+Churu District Administration | https://churu.rajasthan.gov.in | Launched a local heat action plan with technical partners.
+Shri Kashi Vishwanath Temple Trust | https://shrikashivishwanath.org | Participated in the Varanasi heat action plan launch.
+Ahmedabad Municipal Corporation | https://ahmedabadcity.gov.in | Developed and implemented Ahmedabad’s heat action plan with public-health partners.
+Tata Trusts | https://www.tatatrusts.org | Supports climate-smart Patan heat protection with women’s community groups.
+Global Resilience Partnership | https://www.globalresiliencepartnership.org | Supported MHT’s heat-inclusive community resilience programme in South Asia.
+HomeNet South Asia | https://hnsatrust.org/ | Brings home-based-worker perspectives to heat and climate policy dialogue.
+Dhangadhi Sub-Metropolitan City | https://dhangadhimun.gov.np | Published a municipal heat action plan with Red Cross support.
+British Red Cross | https://www.redcross.org.uk | Supported research and preparation for Dhangadhi’s heat action plan.
+American Red Cross | https://www.redcross.org | Collaborated in the Bangladesh/Nepal heat lived-experience study.
+Institute of Himalayan Risk Reduction | https://ihrr.org.np | Assessed institutions and opportunities for heat anticipatory action in Nepal.
+People in Need | https://www.peopleinneed.net | Led RAIN heat early action using forecasts and locally delivered protection.
+DanChurchAid | https://www.danchurchaid.org | Co-led RAIN, which activated heat early-action procedures in Nepal.
+Community Self Reliance Centre | https://csrcnepal.org | Named implementing partner in RAIN, which activated heat early-action procedures.
+Local Initiatives for Biodiversity, Research and Development (LI-BIRD) | https://libird.org | Named implementing partner in RAIN, which activated heat early-action procedures.
+Youth Innovation Lab | https://youthinnovationlab.org | Named implementing partner in RAIN, which activated heat early-action procedures.
+UK Met Office | https://www.metoffice.gov.uk | Serves as a technical partner to Nepal’s RAIN anticipatory-action programme.
+Aga Khan University | https://www.aku.edu | Develops heat education and locally led city heat action plans.
+Pakistan Meteorological Department | https://www.pmd.gov.pk | Contributed meteorological expertise to Sindh’s heat-planning consultation.
+Sindh Integrated Emergency and Health Services | https://siehs.org | Participated in Sindh’s heat-management coordination consultation.
+Sri Lanka Red Cross Society | https://www.redcross.lk | Convened heat-stress and air-quality response discussions.
+Department of Meteorology, Sri Lanka | https://meteo.gov.lk | Issues warm-weather advisories distinguishing heat index from air temperature.
+Central Environmental Authority, Sri Lanka | https://www.cea.lk | Contributed expertise to a heat-stress and air-quality coordination session.
+National Building Research Organisation, Sri Lanka | https://www.nbro.gov.lk | Contributed expertise to a heat-stress and air-quality coordination session.
+Médecins Sans Frontières: South Asia | https://msfsouthasia.org | Contributed to Sri Lanka’s heat-stress and air-quality coordination session.
+cBalance | https://cbalance.in | Co-designed and installed low-carbon cooling with women in low-income neighbourhoods.
+The Conduit Foundation | https://www.conduitfoundation.org.uk/ | Develops an urban-heat workstream connecting city leaders and finance.
+StreetNet International | https://streetnet.org.za | Brings street-vendor perspectives to heat and climate policy dialogue.
+H T Parekh Foundation | https://www.htparekhfoundation.com | Supports heat intelligence and co-produced an urban-heat landscape report.
+Sattva Consulting | https://www.sattva.co.in | Co-produced a landscape of Indian urban heat challenges and actors.
+Bengaluru Sustainability Forum | https://www.bengalurusustainabilityforum.org | Supports a domestic-worker heat research and training project.
+HeatWatch Foundation | https://www.heatwatch.in | Develops domestic-worker heat research, training and public storytelling.
+St John’s Medical College Hospital | https://www.stjohns.in | Contributes community-health expertise to domestic-worker heat preparedness.
+Dawat-e-Islami: FGRF | https://www.dawateislami.net | Reports volunteer-run heat relief camps offering drinking water and related support.
+Employees’ State Insurance Corporation | https://www.esic.gov.in | Was directed to prepare heatstroke help desks and supplies at its facilities.
+Department of Agriculture Development and Farmers’ Welfare, Kerala | https://keralaagriculture.gov.in | Received mitigation funding for heat impacts on cardamom farmers.
+General Education Department, Kerala | https://generaleducation.kerala.gov.in | Introduced school water bells as part of heat protection.
+Energy Management Centre, Kerala | https://www.keralaenergy.gov.in | Launched the Cool Anganwadi initiative.
+GeoHazards International | https://www.geohaz.org | Co-produced Kerala heat analysis.
+Woodwell Climate Research Center | https://www.woodwellclimate.org | Co-produced Kerala heat analysis.
+Ministry of Jal Shakti, India | https://jalshakti.gov.in | Issued advice on maintaining water-service delivery during heatwaves.
+Bangkok Metropolitan Administration | https://www.bangkok.go.th | Runs heat warnings and public cooling spaces. Its Urban Heat Management Action Plan for 2026 has 22 indicators and a committee chaired by a deputy governor, and a 2026 financing strategy with UNDP sets out how to pay for it.
+Sentosa Development Corporation | https://www.sentosa.gov.sg | Develops public cooling nodes and a cooling roadmap on Sentosa.
+SP Group | https://www.spgroup.com.sg | Operates district and residential centralised cooling and develops a Bangkok system.
+Housing & Development Board, Singapore | https://www.hdb.gov.sg | Partners on residential centralised cooling at Tengah.
+Banpu NEXT | https://www.banpunext.co.th | Partners with SP Group on Bangkok district cooling.
+Building and Construction Authority, Singapore | https://www1.bca.gov.sg | Supports Go25 and building-operator guidance on efficient cooling.
+Singapore-ETH Centre | https://sec.ethz.ch | Participates in Cooling Singapore 2.0 urban-climate modelling.
+Singapore Management University | https://www.smu.edu.sg | Participates in Cooling Singapore 2.0 urban-climate modelling.
+Singapore-MIT Alliance for Research and Technology | https://smart.mit.edu | Participates in Cooling Singapore 2.0 urban-climate modelling.
+TUMCREATE | https://www.tum-create.edu.sg | Participates in Cooling Singapore 2.0 urban-climate modelling.
+Cambridge CARES | https://www.cares.cam.ac.uk | Participates in Cooling Singapore 2.0 urban-climate modelling.
+ICICI Lombard General Insurance | https://www.icicilombard.com | Acts as primary insurer for SEWA’s parametric heat protection.
+KOMIDA | https://mitradhuafa.com | Offers incremental housing adaptation loans with heat retrofit support.
+International Food Policy Research Institute | https://www.ifpri.org | Received an announced grant to develop heat-resilient finance for street food vendors in South Asia.
+StepChange | https://www.stepchange.earth | Received an announced grant for heat-risk data and SME adaptation-finance pilots in South Asia.
+MicroSave Consulting | https://www.microsave.net | Received an announced grant for municipal heat capability and civil society engagement.
+African Risk Capacity Limited | https://www.arc.int | Received an announced grant to pilot parametric heat protection within social transfers in Malawi.
+International Livestock Research Institute | https://www.ilri.org | Developed cattle heat-stress research using a digital twin.
+Food and Agriculture Organization of the United Nations | https://www.fao.org | Co-produced the extreme heat and agriculture report.
+University of Thessaly: FAME Laboratory | https://www.uth.gr | Collected occupational heat-strain and mitigation evidence in Qatar.
+Cities Climate Finance Leadership Alliance | https://citiesclimatefinance.org | Co-organises training connecting extreme heat risk and urban finance.
+Global Environment Facility | https://www.thegef.org | Backs the Nature for Cooling Challenge through a grant.
+Bruhat Bengaluru Mahanagara Palike / Bengaluru city government | https://bbmp.gov.in | Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation.
+Jakarta Provincial Government | https://www.jakarta.go.id | Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation.
+Brihanmumbai Municipal Corporation | https://portal.mcgm.gov.in | Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation.
+Karachi Metropolitan Corporation | https://www.kmc.gos.pk | Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation.
+Freetown City Council | https://fcc.gov.sl | Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation.
+City of Athens | https://www.cityofathens.gr | Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation.
+Daikin | https://www.daikin.com | Co-developed a winning climate-friendly cooling prototype.
+Gree Electric Appliances | https://global.gree.com | Co-developed a winning climate-friendly cooling prototype.
+Tsinghua University | https://www.tsinghua.edu.cn | Partnered on a winning climate-friendly cooling prototype tested in India.
+Nikken Sekkei | https://www.nikken.co.jp | Partnered on a winning climate-friendly cooling prototype tested in India.
+Godrej Enterprises: Appliances | https://www.godrejenterprises.com | Developed a finalist cooling prototype with an Indian technology partner.
+A.T.E. Enterprises | https://www.ategroup.com | Partnered in Godrej’s cooling-prize finalist team.
+Alliance for an Energy Efficient Economy | https://aeee.in | Helped administer the Global Cooling Prize.
+CEPT University | https://cept.ac.in | Helped administer the Global Cooling Prize.
+Indian Hotels Company Limited | https://www.ihcltata.com | Named adopter or technology partner selected for IFC’s hotel space-cooling pilots.
+International Organization for Standardization | https://www.iso.org | Publishes the WBGT-based occupational heat-stress screening standard.
+Disability Rights UK | https://www.disabilityrightsuk.org | Launched an accessible survey on disabled people’s experiences of heatwaves.
+Delhi Jal Board | https://delhijalboard.delhi.gov.in | Reports drinking-water preparedness and targeted extra tankers for heat-affected areas.
+BSES Delhi distribution utilities | https://www.bsesdelhi.com | Report summer grid preparedness, critical-facility protection and efficient-appliance replacement.
+Delhi Urban Shelter Improvement Board | https://delhishelterboard.in | Provides heat-season shelter arrangements and public shelter information.
+Nippon Paint India | https://nipponpaint.co.in | Lists a reflective roof-coating product for the Indian market.
+Haqdarshak | https://www.haqdarshak.com/ | Helps people and small businesses in India find and apply for welfare schemes, through trained field agents and, as it describes itself, a database of over 5,000 benefit programmes.

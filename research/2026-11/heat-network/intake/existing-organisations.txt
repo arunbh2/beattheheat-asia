@@ -1,0 +1,336 @@
+# Organisations already on Common Shade's heat network (334), as of 14 November 2026.
+# Do not return these as new. Name | where its listed work is | kind
+Global Heat Health Information Network (WHO, WMO and NOAA) | Global | Network or alliance
+International Labour Organization | Global | UN or multilateral body
+UNICEF | Global | UN or multilateral body
+Zurich Climate Resilience Alliance | Bangladesh, Pakistan, Nepal, Philippines, Viet Nam | Network or alliance
+Heat Resilience Action (HERA), formerly Climate Resilience for All | India | Non-profit organisation
+UNEP Cool Coalition | Global | Network or alliance
+Red Cross Red Crescent Climate Centre | Global | Red Cross or Red Crescent
+Sustainable Energy for All | Global | Non-profit organisation
+International Energy Agency | Global | UN or multilateral body
+National Disaster Management Authority, India | India | Government body
+National Disaster Risk Reduction and Management Authority, Nepal | Nepal | Government body
+Ahmedabad Municipal Corporation, with IIPH Gandhinagar and NRDC | India | City or district government
+Dhaka North City Corporation | Bangladesh | City or district government
+Nepal Red Cross Society | Nepal | Red Cross or Red Crescent
+Department of Education, Philippines | Philippines | Government body
+Bangladesh Red Crescent Society | Bangladesh | Red Cross or Red Crescent
+ICIMOD | India | UN or multilateral body
+Asian Development Bank | Bangladesh, Pakistan, Sri Lanka, Thailand, Cambodia | UN or multilateral body
+UN ESCAP | Bangladesh, Philippines | UN or multilateral body
+India Meteorological Department and IITM Pune | India | Weather service
+PAGASA, Philippines | Philippines | Weather service
+Ministry of Manpower, Singapore | Singapore | Government body
+National Centre for Disease Control, India | India | Health body
+National Environment Agency, Singapore | Singapore | Government body
+Hong Kong Observatory | Hong Kong | Weather service
+Thai Meteorological Department | Thailand | Weather service
+Council on Energy, Environment and Water (CEEW) | India, Bangladesh, Nepal, Bhutan | Research body
+Lancet Countdown | Place not stated in the listing | Research body
+NUS Heat Resilience & Performance Centre | Singapore | Research body
+Cornell Global Labor Institute | Bangladesh, Viet Nam, Cambodia | Research body
+International Rice Research Institute (IRRI) | Philippines | Research body
+icddr,b | Bangladesh | Research body
+BRAC James P Grant School of Public Health | India | Research body
+IISER Pune | India | Research body
+International Institute for Environment and Development (IIED) | Bangladesh | Research body
+Heat and Health Research Centre, University of Sydney | Bangladesh | Research body
+Salata Institute, Harvard University | India | Research body
+WRI India | India | Research body
+Good Business Lab | India, Bangladesh | Research body
+Integrated Research and Action for Development (IRADe) | India, Bangladesh, Sri Lanka | Research body
+Indian Institute for Human Settlements (IIHS) | India | Research body
+Center for Study of Science, Technology and Policy (CSTEP) | India | Research body
+The Energy and Resources Institute (TERI) | Place not stated in the listing | Research body
+Sustainable Futures Collaborative | Place not stated in the listing | Research body
+Karachi Urban Lab | Pakistan | Research body
+Singapore Management University, Urban Institute | Singapore | Research body
+Hong Kong University of Science and Technology (HKUST) | Hong Kong | Research body
+London School of Hygiene & Tropical Medicine | Pakistan | Research body
+Sri Ramachandra Institute of Higher Education and Research | India | Research body
+CEPT University, Centre for Advanced Research in Building Science and Energy | Place not stated in the listing | Research body
+Heat Island Group, Lawrence Berkeley National Laboratory | Place not stated in the listing | Research body
+Heat Policy Innovation Hub, Duke University | Place not stated in the listing | Research body
+Practical Action | Bangladesh, Nepal | Non-profit organisation
+People’s Courage International | Across the region | Non-profit organisation
+World Bank | Across the region | UN or multilateral body
+World Meteorological Organization | India | UN or multilateral body
+C40 Cities | India, Singapore | Network or alliance
+Vital Strategies | Thailand | Non-profit organisation
+Global Buildings Performance Network | India | Network or alliance
+Start Network | Pakistan | Network or alliance
+Mercy Corps | Nepal | Non-profit organisation
+United Nations Development Programme (UNDP) | Thailand | UN or multilateral body
+UN-Habitat | Global | UN or multilateral body
+UN Office for Disaster Risk Reduction (UNDRR) | Global | UN or multilateral body
+Resilient Cities Network | Across the region | Network or alliance
+ICLEI South Asia | India, Bangladesh, Nepal | Network or alliance
+United Cities and Local Governments Asia-Pacific (UCLG ASPAC) | Bangladesh, Philippines | Network or alliance
+Women in Informal Employment: Globalizing and Organizing (WIEGO) | Global | Worker organisation
+International Federation of Red Cross and Red Crescent Societies (IFRC) | Global | Red Cross or Red Crescent
+Climate and Development Knowledge Network (CDKN) | India | Network or alliance
+United for Efficiency (UNEP-led) | Across the region | UN or multilateral body
+Self Employed Women’s Association (SEWA) | India | Worker organisation
+Mahila Housing Trust | India | Non-profit organisation
+ADRA India | India | Non-profit organisation
+HomeNet Thailand | Thailand | Worker organisation
+All India Disaster Mitigation Institute (AIDMI) | India | Non-profit organisation
+SEEDS | India | Non-profit organisation
+SELCO Foundation | Place not stated in the listing | Non-profit organisation
+HeatWatch India | India | Non-profit organisation
+Chintan Environmental Research and Action Group | Place not stated in the listing | Non-profit organisation
+Hasiru Dala | India | Worker organisation
+Janpahal | Place not stated in the listing | Worker organisation
+Jan Sahas | India | Non-profit organisation
+Save the Children International | Bangladesh | Non-profit organisation
+CLASP | India | Non-profit organisation
+RMI | Place not stated in the listing | Non-profit organisation
+Cool Roof Rating Council | Place not stated in the listing | Standards body
+Ecozen | Place not stated in the listing | Company
+Tarutium Global Consulting (formerly TARU Leading Edge) | Place not stated in the listing | Company
+Atlantic Council Climate Resilience Center (formerly Arsht-Rock) | Place not stated in the listing | Non-profit organisation
+Swiss Re | Place not stated in the listing | Insurer, lender or finance body
+IBISA | India | Insurer, lender or finance body
+ICICI Lombard | India | Insurer, lender or finance body
+Howden | Place not stated in the listing | Insurer, lender or finance body
+Climate Policy Initiative | India | Research body
+International Finance Corporation (IFC) | Place not stated in the listing | UN or multilateral body
+Basel Agency for Sustainable Energy (BASE) | Place not stated in the listing | Insurer, lender or finance body
+Blue Marble | India | Insurer, lender or finance body
+CelsiusPro Group, including Global Parametrics | India | Insurer, lender or finance body
+K.M. Dastur Insurance and Reinsurance Brokers | India | Insurer, lender or finance body
+Go Digit General Insurance | India | Insurer, lender or finance body
+WTW (Willis) | Across the region | Insurer, lender or finance body
+Aon | Across the region | Insurer, lender or finance body
+Marsh | Across the region | Insurer, lender or finance body
+Munich Re | Place not stated in the listing | Insurer, lender or finance body
+Hannover Re | Place not stated in the listing | Insurer, lender or finance body
+SCOR | Across the region | Insurer, lender or finance body
+General Insurance Corporation of India (GIC Re) | India | Insurer, lender or finance body
+HDFC ERGO General Insurance | India | Insurer, lender or finance body
+AXA Climate | India, Hong Kong | Insurer, lender or finance body
+MSIG (Mitsui Sumitomo Insurance) | Viet Nam, Australia | Insurer, lender or finance body
+Tokio Marine Group | Japan | Insurer, lender or finance body
+Generali Global Corporate & Commercial | Place not stated in the listing | Insurer, lender or finance body
+Descartes Underwriting | Place not stated in the listing | Insurer, lender or finance body
+Arbol | Place not stated in the listing | Insurer, lender or finance body
+Weather Risk Management Services (WRMS) | India | Insurer, lender or finance body
+Hillridge Technology | Viet Nam | Insurer, lender or finance body
+Raincoat | Place not stated in the listing | Insurer, lender or finance body
+Pula | Across the region | Insurer, lender or finance body
+OKO | Place not stated in the listing | Insurer, lender or finance body
+ACRE Africa | Place not stated in the listing | Insurer, lender or finance body
+FloodFlash | Place not stated in the listing | Insurer, lender or finance body
+Prudence Foundation | India | Funder
+Philanthropy Asia Alliance | Across the region | Funder
+Temasek Trust (through Temasek Foundation) | Singapore | Funder
+Rohini Nilekani Philanthropies | India | Funder
+HT Parekh Foundation | India | Funder
+Rainmatter Foundation | India | Funder
+Climate & Health Funders Coalition | Across the region | Funder
+Children’s Investment Fund Foundation | Place not stated in the listing | Funder
+ClimateWorks Foundation | Place not stated in the listing | Funder
+The Rockefeller Foundation | India | Funder
+Wellcome | India | Funder
+Laudes Foundation | Bangladesh | Funder
+International Development Research Centre (IDRC) | India | Funder
+IKEA Foundation | Place not stated in the listing | Funder
+Swiss Capacity Building Facility (SCBF) | India | Funder
+Howden Foundation | India | Funder
+India Climate Collaborative | India | Funder
+Clean Cooling Collaborative (ClimateWorks Foundation) | Place not stated in the listing | Funder
+CIMMYT (International Maize and Wheat Improvement Center) | India, Bangladesh, Pakistan, Nepal, Bhutan | Research body
+ICRISAT | Across the region | Research body
+Watershed Organisation Trust (WOTR) | India | Non-profit organisation
+BRAC | Bangladesh | Non-profit organisation
+HelpAge International | Bangladesh, Pakistan | Non-profit organisation
+Provincial Disaster Management Authority, Sindh (Pakistan) | Pakistan | Government body
+Nature Conservation Foundation | Place not stated in the listing | Research body
+Centre for Disability in Development (CDD), with CBM | Bangladesh | Non-profit organisation
+Humanity & Inclusion (HI) | Across the region | Non-profit organisation
+Human Rights Watch | Global | Non-profit organisation
+Novo Nordisk Foundation | Across the region | Funder
+EarthON Foundation | India | Funder
+Ramboll Foundation | Place not stated in the listing | Funder
+National Research Foundation, Singapore | Viet Nam, Cambodia, Singapore | Government body
+Research Grants Council, Hong Kong | Hong Kong | Government body
+Research Council of Norway | India | Government body
+U.S. National Science Foundation | India | Government body
+Asia-Pacific Network for Global Change Research (APN) | Across the region | Funder
+National Institute for Health and Care Research (NIHR) | India | Government body
+Indian Council of Medical Research (ICMR) | India | Government body
+Swiss National Science Foundation (SNSF) | India | Government body
+Ministry of Earth Sciences, Government of India | India | Government body
+Department of Science and Technology, Government of India | India | Government body
+Higher Education Commission, Pakistan | Pakistan | Government body
+The Lemelson Foundation | India | Funder
+The Hong Kong Jockey Club Charities Trust | Hong Kong | Funder
+Poul Due Jensen Foundation (Grundfos Foundation) | Philippines | Funder
+Robert Bosch Stiftung | Across the region | Funder
+A.T.E. Chandra Foundation | India | Funder
+DCM Shriram Foundation | India | Funder
+Cipla Foundation | India | Funder
+Dharampal Satyapal Limited (DS Group) CSR | India | Funder
+HDFC Life (Swabhimaan CSR) | India | Funder
+CIMB Foundation | Malaysia | Funder
+Yayasan PETRONAS | Malaysia | Funder
+Nusantara Fund (Dana Nusantara) | Indonesia | Funder
+Women’s Fund Asia | Across the region | Funder
+Tewa, Nepal Women’s Fund | Nepal | Funder
+Mama Cash | India, Nepal, Indonesia | Funder
+Both ENDS | Nepal | Funder
+Global Fund for Community Foundations | India, Nepal, Philippines, Indonesia, Cambodia | Funder
+DOEN Foundation | India | Funder
+Good Energies Foundation | India | Funder
+Henry Luce Foundation | Across the region | Funder
+MetLife Foundation | Nepal | Funder
+Stone Family Foundation | Cambodia | Funder
+The Waterloo Foundation | Nepal | Funder
+Fondation SUEZ | India, Bangladesh, Philippines | Funder
+Halton Foundation | Place not stated in the listing | Funder
+Takeda (Global CSR Program) | Bangladesh, Indonesia | Funder
+Danone Communities | India | Funder
+Fondation Botnar | Indonesia | Funder
+OPEC Fund for International Development | Sri Lanka | UN or multilateral body
+Monetary Authority of Singapore | Singapore | Government body
+Bank of Thailand | Thailand | Government body
+Otoritas Jasa Keuangan (Financial Services Authority), Indonesia | Indonesia | Government body
+Bangko Sentral ng Pilipinas | Philippines | Government body
+State Bank of Vietnam | Viet Nam | Government body
+Bangladesh Bank | Bangladesh | Government body
+Nepal Rastra Bank | Nepal | Government body
+Reserve Bank of India | India | Government body
+Sustainable Banking and Finance Network | Across the region | Network or alliance
+KOMIDA, with Build Change (Indonesia) | Indonesia | Insurer, lender or finance body
+Center for Financial Inclusion | Place not stated in the listing | Insurer, lender or finance body
+BRAC University: James P Grant School of Public Health | Across the region | Research body
+Indian Institute of Tropical Meteorology | India | Weather service
+India Meteorological Department | India | Weather service
+World Health Organization | Indonesia | UN or multilateral body
+Ministry of Health, Indonesia | Indonesia | Health body
+Ministry of Environment, Indonesia | Indonesia | Government body
+BMKG: Indonesia | Indonesia | Weather service
+Universitas Indonesia | Indonesia | Research body
+Hasanuddin University | Indonesia | Research body
+Diponegoro University | Indonesia | Research body
+SEADRIF Insurance Company | Place not stated in the listing | Insurer, lender or finance body
+Asian Institute of Technology | Thailand | Research body
+Rujak Center for Urban Studies | Place not stated in the listing | Non-profit organisation
+Universiti Kebangsaan Malaysia | Malaysia | Research body
+Kota Kita Foundation | Place not stated in the listing | Non-profit organisation
+Thailand Environment Institute | Thailand | Research body
+RMIT University Vietnam | Viet Nam | Research body
+Alluvium | Place not stated in the listing | Company
+Royal University of Phnom Penh | Cambodia | Research body
+Indian Institute of Public Health Gandhinagar | India | Research body
+Varanasi Municipal Corporation | India | City or district government
+Churu District Administration | India | City or district government
+Shri Kashi Vishwanath Temple Trust | India | Non-profit organisation
+Ahmedabad Municipal Corporation | India | City or district government
+Tata Trusts | Place not stated in the listing | Funder
+Global Resilience Partnership | Across the region | Funder
+HomeNet South Asia | Across the region | Worker organisation
+Dhangadhi Sub-Metropolitan City | Nepal | City or district government
+British Red Cross | Nepal | Red Cross or Red Crescent
+American Red Cross | Bangladesh, Nepal | Red Cross or Red Crescent
+Institute of Himalayan Risk Reduction | Nepal | Research body
+People in Need | Nepal | Non-profit organisation
+DanChurchAid | Nepal | Non-profit organisation
+Community Self Reliance Centre | Nepal | Non-profit organisation
+Local Initiatives for Biodiversity, Research and Development (LI-BIRD) | Nepal | Non-profit organisation
+Youth Innovation Lab | Nepal | Non-profit organisation
+Department of Hydrology and Meteorology, Nepal | Nepal | Weather service
+UK Met Office | Nepal | Weather service
+Aga Khan University | Place not stated in the listing | Research body
+Pakistan Meteorological Department | Pakistan | Weather service
+Sindh Integrated Emergency and Health Services | Pakistan | Health body
+Sri Lanka Red Cross Society | Sri Lanka | Red Cross or Red Crescent
+Department of Meteorology, Sri Lanka | Sri Lanka | Weather service
+Central Environmental Authority, Sri Lanka | Sri Lanka | Government body
+National Building Research Organisation, Sri Lanka | Sri Lanka | Research body
+Médecins Sans Frontières: South Asia | Sri Lanka | Non-profit organisation
+Ashden | Place not stated in the listing | Funder
+cBalance | India | Company
+The Conduit Foundation | Global | Non-profit organisation
+StreetNet International | Place not stated in the listing | Worker organisation
+International Union of Food, Agricultural, Hotel, Restaurant, Catering, Tobacco and Allied Workers’ Associations (IUF) | Global | Worker organisation
+H T Parekh Foundation | India | Funder
+Sattva Consulting | India | Research body
+Bengaluru Sustainability Forum | India | Network or alliance
+HeatWatch Foundation | India | Non-profit organisation
+St John’s Medical College Hospital | India | Health body
+HelpAge India | India | Non-profit organisation
+Dawat-e-Islami: FGRF | Place not stated in the listing | Non-profit organisation
+Ministry of Labour and Employment, India | India | Government body
+Employees’ State Insurance Corporation | India | Government body
+Kerala State Disaster Management Authority | India | Government body
+Department of Agriculture Development and Farmers’ Welfare, Kerala | India | Government body
+General Education Department, Kerala | India | Government body
+Energy Management Centre, Kerala | India | Government body
+GeoHazards International | India | Research body
+Woodwell Climate Research Center | India | Research body
+Ministry of Jal Shakti, India | India | Government body
+Bangladesh Meteorological Department | Bangladesh | Weather service
+Directorate General of Health Services, Bangladesh | Bangladesh | Health body
+Bangkok Metropolitan Administration | Thailand | City or district government
+PAGASA | Philippines | Weather service
+Global Heat Health Information Network, Southeast Asia Hub | Thailand, Indonesia, Singapore | Network or alliance
+Ministry of Sustainability and the Environment, Singapore | Singapore | Government body
+Workplace Safety and Health Council, Singapore | Singapore | Government body
+Sentosa Development Corporation | Singapore | Government body
+SP Group | Thailand | Company
+Housing & Development Board, Singapore | Singapore | Government body
+Banpu NEXT | Thailand | Company
+Singapore Green Building Council | Singapore | Network or alliance
+Building and Construction Authority, Singapore | Singapore | Government body
+Urban Redevelopment Authority, Singapore | Singapore | Government body
+Singapore-ETH Centre | Singapore | Research body
+Singapore Management University | Singapore | Research body
+Singapore-MIT Alliance for Research and Technology | Singapore | Network or alliance
+TUMCREATE | Singapore | Research body
+Cambridge CARES | Singapore | Research body
+ICICI Lombard General Insurance | India | Insurer, lender or finance body
+CGAP | Place not stated in the listing | Research body
+Build Change | Indonesia | Non-profit organisation
+KOMIDA | Indonesia | Insurer, lender or finance body
+International Food Policy Research Institute | Across the region | Research body
+StepChange | Across the region | Insurer, lender or finance body
+MicroSave Consulting | Place not stated in the listing | Research body
+African Risk Capacity Limited | Place not stated in the listing | Insurer, lender or finance body
+International Livestock Research Institute | Place not stated in the listing | Research body
+Food and Agriculture Organization of the United Nations | Global | UN or multilateral body
+UK Foreign, Commonwealth and Development Office | Nepal | Funder
+University of Thessaly: FAME Laboratory | Place not stated in the listing | Research body
+ICLEI: Local Governments for Sustainability | Global | Network or alliance
+Cities Climate Finance Leadership Alliance | Place not stated in the listing | Network or alliance
+UN Environment Programme | Global | UN or multilateral body
+Global Environment Facility | Place not stated in the listing | Funder
+Bruhat Bengaluru Mahanagara Palike / Bengaluru city government | India | City or district government
+Jakarta Provincial Government | Indonesia | City or district government
+Quezon City Government | Philippines | City or district government
+Brihanmumbai Municipal Corporation | India | City or district government
+Karachi Metropolitan Corporation | Pakistan | City or district government
+Freetown City Council | Sierra Leone | City or district government
+City of Athens | Greece | City or district government
+Daikin | Place not stated in the listing | Company
+Gree Electric Appliances | Place not stated in the listing | Company
+Tsinghua University | India | Research body
+Nikken Sekkei | India | Company
+Godrej Enterprises: Appliances | India | Company
+A.T.E. Enterprises | Place not stated in the listing | Company
+Alliance for an Energy Efficient Economy | India | Network or alliance
+CEPT University | India | Research body
+Indian Hotels Company Limited | India | Company
+International Organization for Standardization | Global | Standards body
+Bureau of Energy Efficiency, India | India | Standards body
+Disability Rights UK | Place not stated in the listing | Non-profit organisation
+La Isla Network | Place not stated in the listing | Network or alliance
+Delhi Disaster Management Authority | India | Government body
+Delhi Jal Board | India | Government body
+BSES Delhi distribution utilities | India | Company
+Delhi Urban Shelter Improvement Board | India | Government body
+Nippon Paint India | India | Company
+Haqdarshak | India | Non-profit organisation
+HealthServe | Singapore | Non-profit organisation
+Transient Workers Count Too (TWC2) | Singapore | Non-profit organisation
