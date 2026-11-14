@@ -127,23 +127,23 @@ Works on: [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Human Rights Watch](https://www.hrw.org/news/2023/06/30/extreme-heat-signals-need-inclusive-climate-action) (Supply): Documents how extreme heat endangers older people and people with disabilities, and how heat and climate plans leave them out.
 Non-profit organisationGlobal
 Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Count every heat death](https://beattheheat.asia/actions/#countdeaths)
-- [World Health Organization](https://www.who.int) (Platform): Supports Indonesian heat-health coordination and publishes occupational heat guidance with WMO.
-UN or multilateral bodyIndonesiaLink opens the homepage only
+- [World Health Organization](https://www.who.int/news/item/22-08-2025-who-wmo-issue-new-report-and-guidance-to-protect-workers-from-increasing-heat-stress) (Platform): Supports Indonesian heat-health coordination and publishes occupational heat guidance with WMO.
+UN or multilateral bodyIndonesia
 Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
 - [The Conduit Foundation](https://www.conduitfoundation.org.uk/) (Platform): Develops an urban-heat workstream connecting city leaders and finance.
 Non-profit organisationGlobalLink opens the homepage only
 Works on: [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget), [Heat-smart lending](https://beattheheat.asia/actions/#heatlending)
-- [International Union of Food, Agricultural, Hotel, Restaurant, Catering, Tobacco and Allied Workers’ Associations (IUF)](https://www.iuf.org) (Demand): Calls for negotiated heat protection covering migrant, seasonal and informal workers.
-Worker organisationGlobalLink opens the homepage only
+- [International Union of Food, Agricultural, Hotel, Restaurant, Catering, Tobacco and Allied Workers’ Associations (IUF)](https://www.iuf.org/news/iuf-call-to-action-on-extreme-heat/) (Demand): Calls for negotiated heat protection covering migrant, seasonal and informal workers.
+Worker organisationGlobal
 Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [Food and Agriculture Organization of the United Nations](https://www.fao.org) (Platform): Co-produced the extreme heat and agriculture report.
 UN or multilateral bodyGlobalLink opens the homepage only
 Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules), [Smart irrigation and groundwater rules](https://beattheheat.asia/actions/#irrigate), [Keep water in the soil](https://beattheheat.asia/actions/#soilwater)
-- [ICLEI: Local Governments for Sustainability](https://iclei.org) (Platform): Supports urban heat governance and heat-relevant planning tools.
-Network or allianceGlobalLink opens the homepage only
+- [ICLEI: Local Governments for Sustainability](https://iclei.org/heat-action-day/) (Platform): Supports urban heat governance and heat-relevant planning tools.
+Network or allianceGlobal
 Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
-- [UN Environment Programme](https://www.unep.org) (Platform): Convenes heat-resilience and sustainable-cooling initiatives.
-UN or multilateral bodyGlobalLink opens the homepage only
+- [UN Environment Programme](https://www.unep.org/interactives/beat-the-heat/) (Platform): Convenes heat-resilience and sustainable-cooling initiatives.
+UN or multilateral bodyGlobal
 Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
 - [Freetown City Council](https://fcc.gov.sl) (Demand): Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation.
 City or district governmentSierra LeoneLink opens the homepage only
@@ -235,8 +235,8 @@ Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Dedicated
 - [Dhangadhi Sub-Metropolitan City](https://dhangadhimun.gov.np) (Demand): Published a municipal heat action plan with Red Cross support.
 City or district governmentNepalLink opens the homepage only
 Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)
-- [Department of Hydrology and Meteorology, Nepal](https://www.dhm.gov.np) (Demand): Provided forecasts used to activate RAIN’s heat early action.
-Weather serviceNepalLink opens the homepage only
+- [Department of Hydrology and Meteorology, Nepal](https://dhm.gov.np/climate-services/heat-and-cold-wave-monitoring) (Demand): Publishes hot day and heat wave bulletins, and provided the forecasts used to activate RAIN’s heat early action.
+Weather serviceNepal
 Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory), [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Pakistan Meteorological Department](https://www.pmd.gov.pk) (Demand): Contributed meteorological expertise to Sindh’s heat-planning consultation.
 Weather servicePakistanLink not confirmed: the site turned the check away
@@ -247,14 +247,14 @@ Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory),
 - [Central Environmental Authority, Sri Lanka](https://www.cea.lk) (Demand): Contributed expertise to a heat-stress and air-quality coordination session.
 Government bodySri LankaLink opens the homepage only
 Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
-- [Ministry of Labour and Employment, India](https://labour.gov.in) (Demand): Issued coordinated heat-protection directions for workers and labour agencies.
-Government bodyIndiaLink opens the homepage only
+- [Ministry of Labour and Employment, India](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2256186&reg=3&lang=1) (Demand): Issued coordinated heat-protection directions for workers and labour agencies.
+Government bodyIndiaLink opens a page by someone else
 Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [Employees’ State Insurance Corporation](https://www.esic.gov.in) (Demand): Was directed to prepare heatstroke help desks and supplies at its facilities.
 Government bodyIndiaLink did not answer the last check
 Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
-- [Kerala State Disaster Management Authority](https://sdma.kerala.gov.in) (Demand): Maintains a heat-action register covering budgets, local plans and sector actions.
-Government bodyIndiaLink opens the homepage only
+- [Kerala State Disaster Management Authority](https://sdma.kerala.gov.in/heat-actions/) (Demand): Maintains a heat-action register covering budgets, local plans and sector actions.
+Government bodyIndia
 Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)
 - [Department of Agriculture Development and Farmers’ Welfare, Kerala](https://keralaagriculture.gov.in) (Demand): Received mitigation funding for heat impacts on cardamom farmers.
 Government bodyIndiaLink did not answer the last check
@@ -268,17 +268,17 @@ Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/
 - [Ministry of Jal Shakti, India](https://jalshakti.gov.in) (Demand): Issued advice on maintaining water-service delivery during heatwaves.
 Government bodyIndiaLink opens the homepage only
 Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Backup power for water](https://beattheheat.asia/actions/#pumpbackup)
-- [Bangladesh Meteorological Department](https://www.bmd.gov.bd) (Demand): Provides heatwave data used in Bangladesh Red Crescent early action.
-Weather serviceBangladeshLink opens the homepage only
+- [Bangladesh Meteorological Department](https://live8.bmd.gov.bd/p/Heat-Wave-Warning) (Demand): Publishes heat wave warnings, and provides the heatwave data used in Bangladesh Red Crescent early action.
+Weather serviceBangladesh
 Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory), [Heat action plans](https://beattheheat.asia/actions/#hap)
-- [Directorate General of Health Services, Bangladesh](https://dghs.gov.bd) (Demand): Launched national heat-illness guidelines with UNICEF support.
-Health bodyBangladeshLink opens the homepage only
+- [Directorate General of Health Services, Bangladesh](https://www.unicef.org/press-releases/new-guidelines-launched-protect-children-and-pregnant-women-heat-stress-bangladesh) (Demand): Launched national heat-illness guidelines with UNICEF support.
+Health bodyBangladeshLink opens a page by someone else
 Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
 - [Bangkok Metropolitan Administration](https://www.bangkok.go.th) (Demand): Runs heat warnings and public cooling spaces. Its Urban Heat Management Action Plan for 2026 has 22 indicators and a committee chaired by a deputy governor, and a 2026 financing strategy with UNDP sets out how to pay for it.
 City or district governmentThailandLink not confirmed: the site turned the check away
 Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Cooling centres and check-ins](https://beattheheat.asia/actions/#coolingcentres), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
-- [PAGASA](https://www.pagasa.dost.gov.ph) (Demand): Publishes the Philippines’ heat-index information service.
-Weather servicePhilippinesLink opens the homepage only
+- [PAGASA](https://www.pagasa.dost.gov.ph/press-release/174) (Demand): Publishes the Philippines’ heat-index information service, including iHeatMap, an online map of the heat index launched in 2025.
+Weather servicePhilippines
 Works on: [Anticipatory action](https://beattheheat.asia/actions/#anticipatory), [Heat action plans](https://beattheheat.asia/actions/#hap)
 - [Global Heat Health Information Network, Southeast Asia Hub](https://heathealth.info/southeastasia/) (Platform): Based in Singapore, shares heat-health evidence and practice across the region; Philanthropy Asia Alliance supports its work in countries including Indonesia and Thailand.
 Network or allianceThailand, Indonesia, Singapore
@@ -298,8 +298,8 @@ Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/
 - [Building and Construction Authority, Singapore](https://www1.bca.gov.sg) (Demand): Supports Go25 and building-operator guidance on efficient cooling.
 Government bodySingaporeLink opens the homepage only
 Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
-- [Urban Redevelopment Authority, Singapore](https://www.ura.gov.sg) (Demand): Uses urban-climate modelling and planning to address heat.
-Government bodySingaporeLink opens the homepage only
+- [Urban Redevelopment Authority, Singapore](https://www.ura.gov.sg/Corporate/Get-Involved/Plan-Our-Future-SG/Innovative-Urban-Solutions/Heat-resilient-city) (Demand): Uses urban-climate modelling and planning to address heat.
+Government bodySingapore
 Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [Bruhat Bengaluru Mahanagara Palike / Bengaluru city government](https://bbmp.gov.in) (Demand): Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation.
 City or district governmentIndiaLink did not answer the last check
@@ -307,8 +307,8 @@ Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Gre
 - [Jakarta Provincial Government](https://www.jakarta.go.id) (Demand): Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation.
 City or district governmentIndonesiaLink did not answer the last check
 Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
-- [Quezon City Government](https://quezoncity.gov.ph) (Demand): Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation.
-City or district governmentPhilippinesLink opens the homepage only
+- [Quezon City Government](https://quezoncity.gov.ph/quezon-city-joins-global-effort-vs-deadly-extreme-heat/) (Demand): Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation.
+City or district governmentPhilippines
 Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
 - [Brihanmumbai Municipal Corporation](https://portal.mcgm.gov.in) (Demand): Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation.
 City or district governmentIndiaLink opens the homepage only
@@ -316,11 +316,11 @@ Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Gre
 - [Karachi Metropolitan Corporation](https://www.kmc.gos.pk) (Demand): Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation.
 City or district governmentPakistanLink opens the homepage only
 Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
-- [Bureau of Energy Efficiency, India](https://beeindia.gov.in) (Platform): Administers efficiency labels covering air conditioners, fans and refrigeration.
-Standards bodyIndiaLink opens the homepage only
+- [Bureau of Energy Efficiency, India](https://beeindia.gov.in/show_content.php?lang=1&level=1&ls_id=198&lid=322) (Platform): Administers efficiency labels covering air conditioners, fans and refrigeration.
+Standards bodyIndia
 Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
-- [Delhi Disaster Management Authority](https://ddma.delhi.gov.in) (Demand): Coordinates Delhi’s heat action planning and partner responsibilities.
-Government bodyIndiaLink opens the homepage only
+- [Delhi Disaster Management Authority](https://ddma.delhi.gov.in/ddma/ddma-plan-home) (Demand): Coordinates Delhi’s heat action planning and partner responsibilities.
+Government bodyIndia
 Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget)
 - [Delhi Jal Board](https://delhijalboard.delhi.gov.in) (Demand): Reports drinking-water preparedness and targeted extra tankers for heat-affected areas.
 Government bodyIndiaLink opens the homepage only
@@ -445,8 +445,8 @@ Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Gre
 - [Royal University of Phnom Penh](https://www.rupp.edu.kh) (Supply): Partners in HAMR urban-heat adaptation research.
 Research bodyCambodiaLink opens the homepage only
 Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
-- [Indian Institute of Public Health Gandhinagar](https://iiphg.edu.in) (Supply): Provides public-health support for city heat action planning.
-Research bodyIndiaLink opens the homepage only
+- [Indian Institute of Public Health Gandhinagar](https://iiphg.edu.in/scientific-publications-heat-health-activities/) (Supply): Provides public-health support for city heat action planning.
+Research bodyIndia
 Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
 - [Institute of Himalayan Risk Reduction](https://ihrr.org.np) (Supply): Assessed institutions and opportunities for heat anticipatory action in Nepal.
 Research bodyNepalLink opens the homepage only
@@ -487,8 +487,8 @@ Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Gre
 - [Cambridge CARES](https://www.cares.cam.ac.uk) (Supply): Participates in Cooling Singapore 2.0 urban-climate modelling.
 Research bodySingaporeLink opens the homepage only
 Works on: [Cool by design](https://beattheheat.asia/actions/#coolbydesign), [Green, cool cities](https://beattheheat.asia/actions/#greencity)
-- [CGAP](https://www.cgap.org) (Supply): Analyses SEWA’s heat-finance evolution, including insurance and donor-funded cash.
-Research bodyPlace not stated in the listingLink opens the homepage only
+- [CGAP](https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association) (Supply): Analyses SEWA’s heat-finance evolution, including insurance and donor-funded cash.
+Research bodyPlace not stated in the listing
 Works on: [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash), [Shared risk pools](https://beattheheat.asia/actions/#riskpools), [Social protection floors](https://beattheheat.asia/actions/#socialprotection)
 - [International Food Policy Research Institute](https://www.ifpri.org) (Supply): Received an announced grant to develop heat-resilient finance for street food vendors in South Asia.
 Research bodyAcross the regionLink opens the homepage only
@@ -511,8 +511,8 @@ Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/
 - [CEPT University](https://cept.ac.in) (Supply): Helped administer the Global Cooling Prize.
 Research bodyIndiaLink opens the homepage only
 Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
-- [La Isla Network](https://laislanetwork.org) (Supply): Develops occupational heat-protection research and rest-shade-hydration programmes.
-Network or alliancePlace not stated in the listingLink opens the homepage only
+- [La Isla Network](https://laislanetwork.org/prevent-heat-stress/) (Supply): Develops occupational heat-protection research and rest-shade-hydration programmes.
+Network or alliancePlace not stated in the listing
 Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 
 ## Working on the ground
@@ -619,14 +619,14 @@ Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 - [HeatWatch Foundation](https://www.heatwatch.in) (Supply): Develops domestic-worker heat research, training and public storytelling.
 Non-profit organisationIndiaLink opens the homepage only
 Works on: [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
-- [HelpAge India](https://www.helpageindia.org) (Supply): Researches older people’s heat exposure, housing and care barriers.
-Non-profit organisationIndiaLink opens the homepage only
+- [HelpAge India](https://www.helpageindia.org/climate-resilient-ageing-report) (Supply): Researches older people’s heat exposure, housing and care barriers.
+Non-profit organisationIndia
 Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
 - [Dawat-e-Islami: FGRF](https://www.dawateislami.net) (Supply): Reports volunteer-run heat relief camps offering drinking water and related support.
 Non-profit organisationPlace not stated in the listingLink opens the homepage only
 Works on: [Heat action plans](https://beattheheat.asia/actions/#hap), [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics)
-- [Build Change](https://buildchange.org) (Supply): Pairs heat-resilient housing retrofits with microfinance and technical support.
-Non-profit organisationIndonesiaLink opens the homepage only
+- [Build Change](https://buildchange.org/extreme-heat-climate-resilient-housing-for-low-income-women-in-indonesia) (Supply): Pairs heat-resilient housing retrofits with microfinance and technical support.
+Non-profit organisationIndonesia
 Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing), [Cool nights and support](https://beattheheat.asia/actions/#coolnights)
 - [Disability Rights UK](https://www.disabilityrightsuk.org) (Demand): Launched an accessible survey on disabled people’s experiences of heatwaves.
 Non-profit organisationPlace not stated in the listingLink not confirmed: the site turned the check away
@@ -669,8 +669,8 @@ Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/
 - [Banpu NEXT](https://www.banpunext.co.th) (Supply): Partners with SP Group on Bangkok district cooling.
 CompanyThailandLink not confirmed: the site turned the check away
 Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
-- [Singapore Green Building Council](https://www.sgbc.sg) (Supply): Co-leads Go25 to reduce building overcooling.
-Network or allianceSingaporeLink opens the homepage only
+- [Singapore Green Building Council](https://www.sgbc.sg/get-involved/go-25/) (Supply): Co-leads Go25 to reduce building overcooling.
+Network or allianceSingapore
 Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool), [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
 - [Daikin](https://www.daikin.com) (Supply): Co-developed a winning climate-friendly cooling prototype.
 CompanyPlace not stated in the listingLink opens the homepage only
@@ -1012,8 +1012,8 @@ Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/
 - [Global Resilience Partnership](https://www.globalresiliencepartnership.org) (Platform): Supported MHT’s heat-inclusive community resilience programme in South Asia.
 FunderAcross the regionLink opens the homepage only
 Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing), [Cool nights and support](https://beattheheat.asia/actions/#coolnights)
-- [Ashden](https://ashden.org) (Supply): Funded community-designed cooling through its Fair Cooling Fund.
-FunderPlace not stated in the listingLink opens the homepage only
+- [Ashden](https://ashden.org/fair-cooling-fund/) (Supply): Funded community-designed cooling through its Fair Cooling Fund.
+FunderPlace not stated in the listing
 Works on: [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool), [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing), [Cool nights and support](https://beattheheat.asia/actions/#coolnights)
 - [H T Parekh Foundation](https://www.htparekhfoundation.com) (Supply): Supports heat intelligence and co-produced an urban-heat landscape report.
 FunderIndiaLink opens the homepage only

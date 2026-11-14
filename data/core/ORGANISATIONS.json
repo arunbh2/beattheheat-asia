@@ -1659,7 +1659,7 @@
     "id": "worldhealthorganization",
     "role": "global",
     "name": "World Health Organization",
-    "url": "https://www.who.int",
+    "url": "https://www.who.int/news/item/22-08-2025-who-wmo-issue-new-report-and-guidance-to-protect-workers-from-increasing-heat-stress",
     "does": "Supports Indonesian heat-health coordination and publishes occupational heat guidance with WMO.",
     "levers": ["hap","readyclinics"]
   },
@@ -1787,7 +1787,7 @@
     "id": "indianinstituteofpublich",
     "role": "research",
     "name": "Indian Institute of Public Health Gandhinagar",
-    "url": "https://iiphg.edu.in",
+    "url": "https://iiphg.edu.in/scientific-publications-heat-health-activities/",
     "does": "Provides public-health support for city heat action planning.",
     "levers": ["hap","readyclinics"]
   },
@@ -1923,8 +1923,8 @@
     "id": "departmentofhydrologyand",
     "role": "asia",
     "name": "Department of Hydrology and Meteorology, Nepal",
-    "url": "https://www.dhm.gov.np",
-    "does": "Provided forecasts used to activate RAIN’s heat early action.",
+    "url": "https://dhm.gov.np/climate-services/heat-and-cold-wave-monitoring",
+    "does": "Publishes hot day and heat wave bulletins, and provided the forecasts used to activate RAIN’s heat early action.",
     "levers": ["anticipatory","hap"]
   },
   {
@@ -2003,7 +2003,7 @@
     "id": "ashden",
     "role": "funders",
     "name": "Ashden",
-    "url": "https://ashden.org",
+    "url": "https://ashden.org/fair-cooling-fund/",
     "does": "Funded community-designed cooling through its Fair Cooling Fund.",
     "levers": ["affordablecool","coolhousing","coolnights"]
   },
@@ -2035,7 +2035,7 @@
     "id": "internationalunionoffood",
     "role": "global",
     "name": "International Union of Food, Agricultural, Hotel, Restaurant, Catering, Tobacco and Allied Workers’ Associations (IUF)",
-    "url": "https://www.iuf.org",
+    "url": "https://www.iuf.org/news/iuf-call-to-action-on-extreme-heat/",
     "does": "Calls for negotiated heat protection covering migrant, seasonal and informal workers.",
     "levers": ["heatrules"]
   },
@@ -2083,7 +2083,7 @@
     "id": "helpageindia",
     "role": "ground",
     "name": "HelpAge India",
-    "url": "https://www.helpageindia.org",
+    "url": "https://www.helpageindia.org/climate-resilient-ageing-report",
     "does": "Researches older people’s heat exposure, housing and care barriers.",
     "levers": ["hap","readyclinics"]
   },
@@ -2099,7 +2099,7 @@
     "id": "ministryoflabourandemplo",
     "role": "asia",
     "name": "Ministry of Labour and Employment, India",
-    "url": "https://labour.gov.in",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2256186&reg=3&lang=1",
     "does": "Issued coordinated heat-protection directions for workers and labour agencies.",
     "levers": ["heatrules"]
   },
@@ -2115,7 +2115,7 @@
     "id": "keralastatedisastermanag",
     "role": "asia",
     "name": "Kerala State Disaster Management Authority",
-    "url": "https://sdma.kerala.gov.in",
+    "url": "https://sdma.kerala.gov.in/heat-actions/",
     "does": "Maintains a heat-action register covering budgets, local plans and sector actions.",
     "levers": ["hap","heatbudget"]
   },
@@ -2171,15 +2171,15 @@
     "id": "bangladeshmeteorological",
     "role": "asia",
     "name": "Bangladesh Meteorological Department",
-    "url": "https://www.bmd.gov.bd",
-    "does": "Provides heatwave data used in Bangladesh Red Crescent early action.",
+    "url": "https://live8.bmd.gov.bd/p/Heat-Wave-Warning",
+    "does": "Publishes heat wave warnings, and provides the heatwave data used in Bangladesh Red Crescent early action.",
     "levers": ["anticipatory","hap"]
   },
   {
     "id": "directorategeneralofheal",
     "role": "asia",
     "name": "Directorate General of Health Services, Bangladesh",
-    "url": "https://dghs.gov.bd",
+    "url": "https://www.unicef.org/press-releases/new-guidelines-launched-protect-children-and-pregnant-women-heat-stress-bangladesh",
     "does": "Launched national heat-illness guidelines with UNICEF support.",
     "levers": ["hap","readyclinics"]
   },
@@ -2195,8 +2195,8 @@
     "id": "pagasa2",
     "role": "asia",
     "name": "PAGASA",
-    "url": "https://www.pagasa.dost.gov.ph",
-    "does": "Publishes the Philippines’ heat-index information service.",
+    "url": "https://www.pagasa.dost.gov.ph/press-release/174",
+    "does": "Publishes the Philippines’ heat-index information service, including iHeatMap, an online map of the heat index launched in 2025.",
     "levers": ["anticipatory","hap"]
   },
   {
@@ -2259,7 +2259,7 @@
     "id": "singaporegreenbuildingco",
     "role": "cooling",
     "name": "Singapore Green Building Council",
-    "url": "https://www.sgbc.sg",
+    "url": "https://www.sgbc.sg/get-involved/go-25/",
     "does": "Co-leads Go25 to reduce building overcooling.",
     "levers": ["affordablecool","cleancool","coolbydesign"]
   },
@@ -2275,7 +2275,7 @@
     "id": "urbanredevelopmentauthor",
     "role": "asia",
     "name": "Urban Redevelopment Authority, Singapore",
-    "url": "https://www.ura.gov.sg",
+    "url": "https://www.ura.gov.sg/Corporate/Get-Involved/Plan-Our-Future-SG/Innovative-Urban-Solutions/Heat-resilient-city",
     "does": "Uses urban-climate modelling and planning to address heat.",
     "levers": ["coolbydesign","greencity"]
   },
@@ -2331,7 +2331,7 @@
     "id": "cgap",
     "role": "research",
     "name": "CGAP",
-    "url": "https://www.cgap.org",
+    "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association",
     "does": "Analyses SEWA’s heat-finance evolution, including insurance and donor-funded cash.",
     "levers": ["heatcash","riskpools","socialprotection"]
   },
@@ -2339,7 +2339,7 @@
     "id": "buildchange",
     "role": "ground",
     "name": "Build Change",
-    "url": "https://buildchange.org",
+    "url": "https://buildchange.org/extreme-heat-climate-resilient-housing-for-low-income-women-in-indonesia",
     "does": "Pairs heat-resilient housing retrofits with microfinance and technical support.",
     "levers": ["affordablecool","coolhousing","coolnights"]
   },
@@ -2419,7 +2419,7 @@
     "id": "icleilocalgovernmentsfor",
     "role": "global",
     "name": "ICLEI: Local Governments for Sustainability",
-    "url": "https://iclei.org",
+    "url": "https://iclei.org/heat-action-day/",
     "does": "Supports urban heat governance and heat-relevant planning tools.",
     "levers": ["coolbydesign","greencity"]
   },
@@ -2435,7 +2435,7 @@
     "id": "unenvironmentprogramme",
     "role": "global",
     "name": "UN Environment Programme",
-    "url": "https://www.unep.org",
+    "url": "https://www.unep.org/interactives/beat-the-heat/",
     "does": "Convenes heat-resilience and sustainable-cooling initiatives.",
     "levers": ["affordablecool","cleancool","coolbydesign"]
   },
@@ -2467,7 +2467,7 @@
     "id": "quezoncitygovernment",
     "role": "asia",
     "name": "Quezon City Government",
-    "url": "https://quezoncity.gov.ph",
+    "url": "https://quezoncity.gov.ph/quezon-city-joins-global-effort-vs-deadly-extreme-heat/",
     "does": "Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation.",
     "levers": ["coolbydesign","greencity"]
   },
@@ -2587,7 +2587,7 @@
     "id": "bureauofenergyefficiency",
     "role": "asia",
     "name": "Bureau of Energy Efficiency, India",
-    "url": "https://beeindia.gov.in",
+    "url": "https://beeindia.gov.in/show_content.php?lang=1&level=1&ls_id=198&lid=322",
     "does": "Administers efficiency labels covering air conditioners, fans and refrigeration.",
     "levers": ["affordablecool","cleancool","coolbydesign"]
   },
@@ -2603,7 +2603,7 @@
     "id": "laislanetwork",
     "role": "research",
     "name": "La Isla Network",
-    "url": "https://laislanetwork.org",
+    "url": "https://laislanetwork.org/prevent-heat-stress/",
     "does": "Develops occupational heat-protection research and rest-shade-hydration programmes.",
     "levers": ["heatrules"]
   },
@@ -2611,7 +2611,7 @@
     "id": "delhidisastermanagementa",
     "role": "asia",
     "name": "Delhi Disaster Management Authority",
-    "url": "https://ddma.delhi.gov.in",
+    "url": "https://ddma.delhi.gov.in/ddma/ddma-plan-home",
     "does": "Coordinates Delhi’s heat action planning and partner responsibilities.",
     "levers": ["hap","heatbudget"]
   },

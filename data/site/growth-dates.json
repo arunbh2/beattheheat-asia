@@ -405,6 +405,12 @@
    "org": true
   },
   {
+   "url": "https://ashden.org/fair-cooling-fund/",
+   "label": "Ashden",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://ashden.org/fair-cooling-fund/cbalance/",
    "label": "Ashden Fair Cooling Fund and cBalance",
    "root": "institutions",
@@ -621,6 +627,12 @@
    "org": false
   },
   {
+   "url": "https://beeindia.gov.in/show_content.php?lang=1&level=1&ls_id=198&lid=322",
+   "label": "Bureau of Energy Efficiency, India",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://beeindia.gov.in/show_content.php?lang=1&level=2&lid=328&ls_id=202",
    "label": "BEE residential building code official page",
    "root": "financing",
@@ -799,7 +811,7 @@
   },
   {
    "url": "https://buildchange.org/extreme-heat-climate-resilient-housing-for-low-income-women-in-indonesia",
-   "label": "Build Change/KOMIDA heat adaptation lending",
+   "label": "Build Change",
    "root": "institutions",
    "org": true
   },
@@ -1797,6 +1809,12 @@
    "org": true
   },
   {
+   "url": "https://ddma.delhi.gov.in/ddma/ddma-plan-home",
+   "label": "Delhi Disaster Management Authority",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://ddma.delhi.gov.in/sites/default/files/ddma/generic_multiple_files/hap_delhi_21.4.25_3.pdf",
    "label": "Heat Wave Action Plan for Delhi",
    "root": "institutions",
@@ -1870,6 +1888,12 @@
    "date": "2026",
    "precision": "year",
    "how": "record"
+  },
+  {
+   "url": "https://dhm.gov.np/climate-services/heat-and-cold-wave-monitoring",
+   "label": "Department of Hydrology and Meteorology, Nepal",
+   "root": "institutions",
+   "org": true
   },
   {
    "url": "https://digitallibrary.un.org/nanna/record/3893122/files/SYR_AR5_FINAL_full.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0",
@@ -5107,6 +5131,12 @@
   },
   {
    "url": "https://iclei.org",
+   "label": "ICLEI - Local Governments for Sustainability",
+   "root": "institutions",
+   "org": true
+  },
+  {
+   "url": "https://iclei.org/heat-action-day/",
    "label": "ICLEI: Local Governments for Sustainability",
    "root": "institutions",
    "org": true
@@ -5210,6 +5240,12 @@
   {
    "url": "https://iiphg.edu.in/key-projects-updated/",
    "label": "IIPHG heat action project account",
+   "root": "institutions",
+   "org": true
+  },
+  {
+   "url": "https://iiphg.edu.in/scientific-publications-heat-health-activities/",
+   "label": "Indian Institute of Public Health Gandhinagar",
    "root": "institutions",
    "org": true
   },
@@ -5766,6 +5802,12 @@
    "org": true
   },
   {
+   "url": "https://laislanetwork.org/prevent-heat-stress/",
+   "label": "La Isla Network",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://lancetcountdown.org/wp-content/uploads/2024/10/Lancet-Countdown-2024_INDIA.pdf",
    "label": "Lancet Countdown, India data sheet, 2024",
    "root": "evidence",
@@ -5915,6 +5957,12 @@
   {
    "url": "https://lirneasia.net/futureworksasia/projects/heat-health-and-gender/",
    "label": "Good Business Lab",
+   "root": "institutions",
+   "org": true
+  },
+  {
+   "url": "https://live8.bmd.gov.bd/p/Heat-Wave-Warning",
+   "label": "Bangladesh Meteorological Department",
    "root": "institutions",
    "org": true
   },
@@ -7890,6 +7938,12 @@
    "how": "meta"
   },
   {
+   "url": "https://quezoncity.gov.ph/quezon-city-joins-global-effort-vs-deadly-extreme-heat/",
+   "label": "Quezon City Government",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://quezoncity.gov.ph/wp-content/uploads/2026/10/CONTRACT-GS-2609036.pdf",
    "label": "Quezon City contract GS-2609036 for heat action plan and pilot interventions, October 2026",
    "root": "financing",
@@ -8242,8 +8296,8 @@
   },
   {
    "url": "https://sdma.kerala.gov.in/heat-actions/",
-   "label": "Government of Kerala / KSDMA / DDMAs",
-   "root": "financing",
+   "label": "Kerala State Disaster Management Authority",
+   "root": "institutions",
    "org": false,
    "date": "2026-04-27",
    "precision": "day",
@@ -12102,6 +12156,12 @@
    "org": true
   },
   {
+   "url": "https://www.helpageindia.org/climate-resilient-ageing-report",
+   "label": "HelpAge India",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://www.helpageindia.org/news/helpage-india-launches-national-research-report-climate-resilient-ageing-ensuring-care-dignity-agency",
    "label": "HelpAge India heat and ageing research",
    "root": "institutions",
@@ -12940,7 +13000,7 @@
   },
   {
    "url": "https://www.iuf.org/news/iuf-call-to-action-on-extreme-heat/",
-   "label": "IUF extreme-heat call to action",
+   "label": "International Union of Food, Agricultural, Hotel, Restaurant, Catering, Tobacco and Allied Workers’ Associations (IUF)",
    "root": "institutions",
    "org": true
   },
@@ -14274,6 +14334,12 @@
    "org": true
   },
   {
+   "url": "https://www.pagasa.dost.gov.ph/press-release/174",
+   "label": "PAGASA",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://www.pagasa.dost.gov.ph/weather/heat-index",
    "label": "PAGASA: heat index",
    "root": "evidence",
@@ -14438,6 +14504,12 @@
   {
    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2247522&lang=1&reg=3",
    "label": "IMD heat forecasts and NDMA planning support",
+   "root": "institutions",
+   "org": true
+  },
+  {
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2256186&reg=3&lang=1",
+   "label": "Ministry of Labour and Employment, India",
    "root": "institutions",
    "org": true
   },
@@ -15136,6 +15208,12 @@
   },
   {
    "url": "https://www.sgbc.sg",
+   "label": "Singapore Green Building Council",
+   "root": "institutions",
+   "org": true
+  },
+  {
+   "url": "https://www.sgbc.sg/get-involved/go-25/",
    "label": "Singapore Green Building Council",
    "root": "institutions",
    "org": true
@@ -16161,6 +16239,12 @@
    "org": true
   },
   {
+   "url": "https://www.unep.org/interactives/beat-the-heat/",
+   "label": "UN Environment Programme",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://www.unep.org/ozonaction/news/news/unep-builds-regional-expertise-competency-based-assessment-good-servicing-practices-rac",
    "label": "UNEP regional competency certification for RAC servicing",
    "root": "financing",
@@ -16450,6 +16534,12 @@
   },
   {
    "url": "https://www.ura.gov.sg",
+   "label": "Urban Redevelopment Authority, Singapore",
+   "root": "institutions",
+   "org": true
+  },
+  {
+   "url": "https://www.ura.gov.sg/Corporate/Get-Involved/Plan-Our-Future-SG/Innovative-Urban-Solutions/Heat-resilient-city",
    "label": "Urban Redevelopment Authority, Singapore",
    "root": "institutions",
    "org": true

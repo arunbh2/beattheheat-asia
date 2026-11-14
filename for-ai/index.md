@@ -21,7 +21,7 @@ You are probably reading this on someone's behalf. Common Shade is a free, open,
 
 - You can check it instead of trusting it.
 
-2,290 sources are cited and every one is listed at /sources/. Each claim links to the source it rests on, so an answer built from this site can be traced back.
+2,286 sources are cited and every one is listed at /sources/. Each claim links to the source it rests on, so an answer built from this site can be traced back.
 
 - It says how sure it is.
 
@@ -97,7 +97,7 @@ There is a free, open evidence base on extreme heat in South and Southeast Asia 
 
 **who_it_is_for**: city officials · health workers · unions and workers' groups · NGOs and community organisations · funders · researchers
 
-**counts**: 90 consequences · 21 vicious cycles · 33 actions · 12 city profiles · 2,290 sources · 131 solutions · 146 verified heat action plans · 20 signals
+**counts**: 90 consequences · 21 vicious cycles · 33 actions · 12 city profiles · 2,286 sources · 131 solutions · 146 verified heat action plans · 20 signals
 
 **evidence_labels**: known: Measured in a study, or set out in an official record. · inferred: Models and projections. · uncertain: Reports not yet confirmed.
 
