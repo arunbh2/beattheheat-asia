@@ -53,7 +53,7 @@
 .ht-card--caution { border: 2px dashed var(--ember); }
 .ht-card p { margin: 0; }
 .ht-card__meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 0 0 4px; }
-.ht-type { font-size: var(--fs-12); font-weight: 800; letter-spacing: .04em; text-transform: uppercase; color: var(--ember-deep); }
+.ht-type { font-size: var(--fs-12); font-weight: 700; letter-spacing: var(--label-track); text-transform: uppercase; color: var(--ember-deep); }
 .ht-badge { display: inline-block; font-size: var(--fs-12); font-weight: 700; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--line); background: var(--canvas); }
 .ht-badge--provisional { background: #FFF0D6; border-color: var(--amber); }
 .ht-badge--caution { background: var(--ember-50); border-color: var(--ember); color: var(--ember-deep); }
@@ -107,7 +107,7 @@
 .ht-paths { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 16px; }
 .ht-path { padding: 18px; background: var(--white); border: 1px solid var(--line); border-radius: var(--r-md); scroll-margin-top: calc(var(--header-h) + 16px); }
 .ht-path:target { box-shadow: 0 0 0 3px var(--orange); }
-.ht-path__kind { margin: 0; font-size: var(--fs-12); font-weight: 800; text-transform: uppercase; letter-spacing: .04em; color: var(--break-deep); }
+.ht-path__kind { margin: 0; font-size: var(--fs-12); font-weight: 700; text-transform: uppercase; letter-spacing: var(--label-track); color: var(--break-deep); }
 .ht-path__h { margin: 4px 0 10px; font-size: 1.15rem; }
 .ht-steps { margin: 0; padding-left: 1.3rem; display: grid; gap: 12px; }
 .ht-steps p { margin: 0; font-size: .93rem; }

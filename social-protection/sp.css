@@ -44,7 +44,7 @@
 .sp-ladder { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 8px; }
 .sp-step { padding: var(--pad-compact); background: var(--white); border-radius:var(--r-sm); border:1px solid var(--line,#E6DFD4); border-color:color-mix(in srgb,var(--break) 34%,var(--line,#E6DFD4)); }
 .sp-step.is-empty { border-color:color-mix(in srgb,var(--line) 34%,var(--line,#E6DFD4)); background: transparent; }
-.sp-step > b { display: block; text-transform: uppercase; letter-spacing: .1em; font-size: .75rem; }
+.sp-step > b { display: block; text-transform: uppercase; letter-spacing: var(--label-track); font-size: var(--fs-12); }
 .sp-step p { margin: 4px 0 0; }
 .sp-route { padding: 14px 0; border-bottom: 1px solid var(--line); }
 .sp-route h4 { margin: 0; font-size: 1.05rem; }
