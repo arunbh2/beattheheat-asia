@@ -58,6 +58,9 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 
+/* links: the house style everywhere a feature does not set its own, never the browser's default blue. Text takes the
+   colour around it (ink on light, cream on dark) with an orange underline. */
+a { color: inherit; text-decoration-color: var(--orange); text-underline-offset: 3px; }
 /* small print never drops below the 12px floor (tools/type-rules.js) */
 small { font-size: max(var(--fs-12), .85em); }
 html { -webkit-text-size-adjust: 100%; scroll-padding-top: calc(var(--header-h) + var(--tk-h, 0px)); }
@@ -3484,14 +3487,14 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 .fl-callout{background:var(--ink,#16202B);color:#fff;border-radius:var(--r-md);padding: var(--pad-roomy);max-width:820px}
 .fl-callout a{color:#fff}.fl-callout p{margin:0 0 10px;line-height: 1.55}.fl-callout p:last-child{margin:0}
 .fl-big{font-family:var(--font-display,Anton),sans-serif;font-size:clamp(1.6rem,3.4vw,2.4rem);}.fl-big span{font-family:inherit;font-size:.5em;opacity:.7;text-transform:uppercase}
-.fl-callout--soft{background:#fff;color:inherit;border:1px dashed #c9c2b8}
+.fl-callout--soft{background:#fff;color:inherit;border:1px dashed #c9c2b8}.fl-callout--soft a{color:var(--ink)}
 @media (max-width:760px){.fl-stages{display:none}}
 
 /* ---- Evidence map ---- */
 .evm-key{list-style:none;display:flex;flex-wrap:wrap;gap:8px 18px;padding:0;margin:0 0 14px;font-size: var(--fs-14);color:var(--muted,#5b6670)}
 .evm-key li{display:flex;align-items:center;gap:6px}
 .evm-sq{display:inline-grid;place-items:center;width:18px;height:18px;border-radius:4px;font-size: var(--fs-12);font-weight:800;color:#fff;font-style:normal;text-decoration:none;flex:none}
-.evm-sq--peer{background:#1f6f4a}.evm-sq--official{background:#2f5d8a}.evm-sq--model{background:#fff;border:2px dashed #2f5d8a;color:#2f5d8a}.evm-sq--other{background:#b08a3e}.evm-sq--news{background:#c9c2b8;color:#16202B}
+.evm-sq--peer{background:#1f6f4a}.evm-sq--official{background:#2f5d8a}.evm-sq--model{background:#fff;border:2px dashed #2f5d8a;color:#2f5d8a}.evm-sq--other{background:#8A5A00}.evm-sq--news{background:#c9c2b8;color:#16202B}
 .evm-asia{display:inline-grid;place-items:center;width:18px;height:18px;border-radius:4px;font-size: var(--fs-12);font-weight:800;font-style:normal;background:var(--ink,#16202B);color:#fff}
 .evm-rows{display:grid;gap:8px;margin:0 0 36px}
 .evm-row{background:#fff;border:1px solid var(--line,#e2ddd5);border-radius:var(--r-md)}
@@ -3504,7 +3507,7 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 .evm-body{padding:14px 16px 16px}.evm-body>p{margin:0 0 10px}
 .evm-studies{list-style:none;margin:0 0 10px;padding:0;display:grid;gap:10px}.evm-studies li{line-height: 1.55}
 .evm-g{font-size: var(--fs-12);font-weight:700;text-transform:uppercase;letter-spacing: var(--label-track);padding:2px 7px;border-radius:4px;color:#fff;background:#5b6670}
-.evm-g--peer{background:#1f6f4a}.evm-g--official{background:#2f5d8a}.evm-g--model{background:#fff;color:#2f5d8a;border:1px dashed #2f5d8a}.evm-g--other{background:#b08a3e}.evm-g--news{background:#c9c2b8;color:#16202B}
+.evm-g--peer{background:#1f6f4a}.evm-g--official{background:#2f5d8a}.evm-g--model{background:#fff;color:#2f5d8a;border:1px dashed #2f5d8a}.evm-g--other{background:#8A5A00}.evm-g--news{background:#c9c2b8;color:#16202B}
 .evm-limit{font-size: var(--fs-14);color:var(--muted,#5b6670)}.evm-qlink{font-size: var(--fs-14)}
 .evm-fly{display:grid;gap:4px;margin:10px 0 12px;max-width:980px}
 .evm-fly-h,.evm-fly-r{display:grid;grid-template-columns:1fr minmax(170px,1.1fr) 1fr;gap:12px;align-items:center}
