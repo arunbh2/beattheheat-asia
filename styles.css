@@ -605,7 +605,7 @@ button { font: inherit; color: inherit; }
 @media (max-width: 1099px) {
   .panel { position: fixed; left: 0; right: 0; bottom: 0; z-index: 60;
     max-height: 52vh; overflow: auto;
-    padding: 26px var(--gutter) calc(28px + env(safe-area-inset-bottom)); border-radius: var(--r-md) 16px 0 0;
+    padding: 26px var(--gutter) calc(28px + env(safe-area-inset-bottom)); border-radius: var(--r-md) var(--r-md) 0 0;
     box-shadow: 0 -12px 40px rgba(22,32,43,.25);
     transform: translateY(105%); visibility: hidden;
     transition: transform .35s ease, visibility 0s linear .35s; border:1px solid var(--line,#E6DFD4); border-color:color-mix(in srgb,var(--orange) 34%,var(--line,#E6DFD4)); }
@@ -2287,7 +2287,7 @@ body:not([data-page="plan"]) a[href^="#plan-"]::after, body:not([data-page="plan
 .pl-sms { position: sticky; top: 16px; }
 .pl-sms__k { font-size: .7rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: var(--break); margin-bottom: 8px; }
 .pl-sms__phone { padding: 22px 14px 26px; border-radius: var(--r-lg); background: #16202B; box-shadow: var(--shadow-2); }
-.pl-sms__b { padding: var(--pad-compact); border-radius: var(--r-md) 16px 16px 4px; background: #E9EEF2; color: var(--ink); font-size: .9rem; line-height: 1.45; }
+.pl-sms__b { padding: var(--pad-compact); border-radius: var(--r-md) var(--r-md) var(--r-md) 4px; background: #E9EEF2; color: var(--ink); font-size: .9rem; line-height: 1.45; }
 .pl-ct { margin-top: 16px; padding: clamp(14px, 3vw, 22px); border-radius: var(--r-md); background: #111A23; color: var(--canvas); }
 .pl-ct h3 { font-family: var(--font-display); font-weight: 400; font-size: clamp(1.4rem, 1.1rem + 1.2vw, 2rem); text-transform: uppercase; margin: 2px 0 6px; }
 .pl-ct .pl-ct__k { color: #F6A27C; }
@@ -4283,3 +4283,13 @@ html:not(.rf-js) .rf-co-tabs{display:none}
   .fa-ep li { grid-template-columns: 1fr; } .fa-fmt { text-align: left; }
   .fa-relay { padding: 18px; } .fa-human { padding: 18px; }
 }
+
+/* ---------- Shared shapes for cards, notes, rows and panels ----------
+   Use these for new work instead of a new one-off class (tools/card-rules.js holds the scale; tools/check-cards.js
+   keeps to it). A note always carries a text label for its meaning; colour is never the only signal. */
+.cs-card { background: var(--white); border: 1px solid var(--line); border-radius: var(--r-md); padding: var(--pad-std); }
+.cs-row { border: 1px solid var(--line); border-radius: var(--r-sm); padding: var(--pad-compact); }
+.cs-panel { background: var(--ink); color: var(--canvas); border-radius: var(--r-lg); padding: var(--pad-roomy); }
+.cs-note { --note: var(--note-info); background: var(--sand-50); background: color-mix(in srgb, var(--note) 7%, var(--canvas)); border: 1px solid var(--line); border-color: color-mix(in srgb, var(--note) 34%, var(--line)); border-radius: var(--r-sm); padding: var(--pad-compact); }
+.cs-note--limit { --note: var(--note-limit); } .cs-note--watch { --note: var(--note-watch); } .cs-note--example { --note: var(--note-example); }
+.cs-note__label { display: block; margin: 0 0 4px; font-size: var(--fs-12); font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--grey-700); }
