@@ -3,11 +3,11 @@
 .hv-notes { margin: 0; padding-left: 1.1rem; color: var(--grey-700); font-size: .95rem; display: grid; gap: 6px; max-width: 46rem; }
 .hv-jump { margin-top: 14px; font-weight: 600; }
 .hv-eras, .hv-turns, .hv-list, .hv-ipcc { list-style: none; margin: 18px 0 0; padding: 0; display: grid; gap: 14px; }
-.hv-era, .hv-turn, .hv-row-ipcc { padding: 16px 18px; border: 1.5px solid var(--line); border-radius: var(--r-sm); background: var(--canvas); }
+.hv-era, .hv-turn, .hv-row-ipcc { padding: var(--pad-std); border: 1.5px solid var(--line); border-radius: var(--r-sm); background: var(--canvas); }
 .hv-era h3, .hv-turn h3, .hv-row-ipcc h3 { margin: 2px 0 6px; font-size: 1.1rem; line-height: 1.3; }
 .hv-era p, .hv-turn p { margin: 0 0 8px; max-width: 46rem; }
 .hv-span { font-size: .8rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; color: var(--ember); margin: 0; }
-.hv-missing { border:1px solid var(--line,#E6DFD4); border-color:color-mix(in srgb,var(--orange) 34%,var(--line,#E6DFD4)); background:color-mix(in srgb,var(--orange) 7%,transparent); padding:10px 14px; border-radius:var(--r-sm,10px); }
+.hv-missing { border:1px solid var(--line,#E6DFD4); border-color:color-mix(in srgb,var(--orange) 34%,var(--line,#E6DFD4)); background:color-mix(in srgb,var(--orange) 7%,transparent); padding: var(--pad-compact); border-radius:var(--r-sm,10px); }
 .hv-missing b { display: block; font-size: .85rem; letter-spacing: .03em; }
 .hv-close { margin-top: 16px; max-width: 46rem; font-weight: 600; }
 .hv-sec a { color: inherit; text-decoration-color: var(--orange); text-underline-offset: 3px; }
@@ -64,7 +64,7 @@
 .hv-row-ipcc dd { margin: 2px 0 0; }
 .hv-sec .hub-p + .hub-p { margin-top: 10px; }
 .hv-unread { margin-top: 14px; font-size: .92rem; color: var(--grey-700); max-width: 46rem; }
-.hv-limits { margin-top: 10px; border: 1.5px solid var(--line); border-radius: var(--r-sm); padding: 10px 14px; }
+.hv-limits { margin-top: 10px; border: 1.5px solid var(--line); border-radius: var(--r-sm); padding: var(--pad-compact); }
 .hv-limits summary { cursor: pointer; font-weight: 700; min-height: 32px; }
 .hv-limits ul { margin: 10px 0 0; padding-left: 1.1rem; display: grid; gap: 8px; }
 @media (min-width: 900px) { .hv-eras, .hv-turns, .hv-ipcc { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
