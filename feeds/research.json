@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T06:45:37.313Z",
+ "updated": "2026-11-14T18:19:30.466Z",
  "days": 120,
  "source": "Europe PMC",
  "items": [
@@ -142,6 +142,16 @@
    "preprint": false,
    "url": "https://doi.org/10.1007/s00442-026-06006-0",
    "firstAuthor": "Gupta S"
+  },
+  {
+   "title": "Genome-Wide Identification and In Silico Characterization of the Salt Overly Sensitive 3/Calcineurin B-like ( GhSOS3 ) Gene Family in Upland Cotton ( Gossypium hirsutum L.) and Expression Profiling of Two Members Under Drought, Salt and Heat Stress.",
+   "journal": "International journal of molecular sciences",
+   "date": "2026-10-26",
+   "doi": "10.3390/ijms27219561",
+   "pmid": "43027812",
+   "preprint": false,
+   "url": "https://doi.org/10.3390/ijms27219561",
+   "firstAuthor": "Iqra L"
   },
   {
    "title": "Projected Exposure of Canadian Children to Rare, High-Severity Heatwaves Under Continued Warming.",
@@ -592,16 +602,6 @@
    "preprint": false,
    "url": "https://doi.org/10.1016/j.vas.2026.100871",
    "firstAuthor": "Ahmadifar E"
-  },
-  {
-   "title": "Occupational heatstroke-induced acute kidney injury: a narrative review of mechanisms, biomarkers, and the timing of blood purification initiation.",
-   "journal": "Renal failure",
-   "date": "2026-09-14",
-   "doi": "10.1080/0886022x.2026.2727744",
-   "pmid": "42734065",
-   "preprint": false,
-   "url": "https://doi.org/10.1080/0886022x.2026.2727744",
-   "firstAuthor": "Wang S."
   }
  ]
 }
