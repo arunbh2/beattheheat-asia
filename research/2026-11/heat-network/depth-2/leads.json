@@ -1,0 +1,11 @@
+[
+ {"id":"departmentofhydrologyand","url":"https://dhm.gov.np/climate-services/heat-and-cold-wave-monitoring","expect":["Heat"],"does":"Publishes hot day and heat wave bulletins, and provided the forecasts used to activate RAIN’s heat early action."},
+ {"id":"quezoncitygovernment","url":"https://quezoncity.gov.ph/quezon-city-joins-global-effort-vs-deadly-extreme-heat/","expect":["extreme heat","Cool Cities"]},
+ {"id":"urbanredevelopmentauthor","url":"https://www.ura.gov.sg/Corporate/Get-Involved/Plan-Our-Future-SG/Innovative-Urban-Solutions/Heat-resilient-city","expect":["Heat"]},
+ {"id":"sentosadevelopmentcorpor","url":"https://www.sentosa.gov.sg/files/resources/news/20251007_Cooling_Sentosa_Media_Release__For_upload_.pdf","expect":["Cooling Sentosa"]},
+ {"id":"laislanetwork","url":"https://laislanetwork.org/prevent-heat-stress/","expect":["heat stress","shade"]},
+ {"id":"cgap","url":"https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association","expect":["SEWA","heat"]},
+ {"id":"buildchange","url":"https://buildchange.org/extreme-heat-climate-resilient-housing-for-low-income-women-in-indonesia","expect":["KOMIDA","heat"]},
+ {"id":"ashden","url":"https://ashden.org/fair-cooling-fund/","expect":["Fair Cooling Fund"]},
+ {"id":"indianinstituteofpublich","url":"https://iiphg.edu.in/scientific-publications-heat-health-activities/","expect":["Heat"]}
+]

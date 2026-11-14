@@ -17,6 +17,8 @@ cp.execFileSync("node", [path.join(HERE, "facets-draft.js")], { stdio: "ignore" 
 const ORGS = J(path.join(CORE, "ORGANISATIONS.json")), ids = new Set(ORGS.map(o => o.id));
 const draft = J(path.join(HERE, "facets-draft.json")), edits = J(path.join(HERE, "facets-edits.json"));
 const links = has("url-check.json") ? J(path.join(HERE, "url-check.json")) : {};
+// deeper links that passed the check on GitHub (depth-apply.js): their page opened and held the staged words on that date
+const deeper = has("depth-applied.json") ? J(path.join(HERE, "depth-applied.json")) : {};
 const DAY = process.argv[2] || (has("url-check.json") ? fs.statSync(path.join(HERE, "url-check.json")).mtime.toISOString().slice(0, 10) : "");
 const bad = [];
 for (const id of Object.keys(edits)) if (!ids.has(id)) bad.push(`facets-edits.json: "${id}" is not an organisation id`);
@@ -28,8 +30,10 @@ for (const o of ORGS) {
   f.type = e.type || d.type;
   f.scale = e.scale || (f.type === "city" ? "city" : e.countries ? (e.countries.length > 1 ? "multi-country" : d.scale === "subnational" ? d.scale : "country") : d.scale);
   f.link = d.link; if (d.year) f.year = d.year;
-  const L = links[o.url];
-  if (L && (L.status === "OK" || L.status === "REDIRECT")) f.checked = DAY; else if (L) { f.linkStatus = L.status === "BLOCKED" ? "blocked" : "fail"; failures.push({ id: o.id, name: o.name, url: o.url, status: L.status, code: L.code }); }
+  const dp = deeper[o.id] && deeper[o.id].url === o.url ? deeper[o.id] : null;
+  if (dp && dp.link) f.link = dp.link;
+  const L = dp ? { status: "OK" } : links[o.url];
+  if (dp) f.checked = dp.checked; else if (L && (L.status === "OK" || L.status === "REDIRECT")) f.checked = DAY; else if (L) { f.linkStatus = L.status === "BLOCKED" ? "blocked" : "fail"; failures.push({ id: o.id, name: o.name, url: o.url, status: L.status, code: L.code }); }
   f.countries.forEach(c => { if (!N.COUNTRY[c]) bad.push(`${o.id}: country code "${c}" is not in network-core.js COUNTRY`); });
   if (!N.SCALE[f.scale]) bad.push(`${o.id}: scale "${f.scale}" is not in network-core.js SCALE`);
   if (!N.TYPE[f.type]) bad.push(`${o.id}: type "${f.type}" is not in network-core.js TYPE`);
