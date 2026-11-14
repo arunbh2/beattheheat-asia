@@ -5,7 +5,7 @@ const fs = require("fs"), path = require("path");
 const ROOT = path.join(__dirname, "..", ".."), SITE = require("./site");
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const len = t => `${Math.floor(t / 60)}:${String(Math.round(t % 60)).padStart(2, "0")}`;
-const CSS = `<style>.cs-ex{margin:24px 0 30px;max-width:860px}.cs-ex video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#16202B;border-radius:14px}.cs-ex figcaption{margin-top:8px;font-size:.88rem;line-height:1.45;color:#5E6570}.cs-ex figcaption b{color:#16202B}</style>`;
+const CSS = `<style>.cs-ex{margin:24px 0 30px;max-width:860px}.cs-ex video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#16202B;border-radius:14px}.cs-ex figcaption{margin-top:8px;font-size:.88rem;line-height:1.45;color:inherit;opacity:.82}.cs-ex figcaption b{color:inherit}</style>`;
 let n = 0;
 for (const f of SITE) {
   const timing = path.join(__dirname, f.id + ".timing.json"), mp4 = path.join(ROOT, "media", "explainers", f.id + ".mp4"), page = path.join(ROOT, f.page);
