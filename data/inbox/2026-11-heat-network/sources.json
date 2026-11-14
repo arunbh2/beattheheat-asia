@@ -1,0 +1,270 @@
+[
+ {
+  "id": "hn-ndma",
+  "type": "source",
+  "batch": "depth-1",
+  "org": "ndma",
+  "title": "National Disaster Management Authority, India: the page that shows its heat work",
+  "publisher": "National Disaster Management Authority, India",
+  "url": "https://ndma.gov.in/Natural-Hazards/Heat-Wave",
+  "expect": [
+   "Heat Wave"
+  ],
+  "note": "Staged from the heat network depth batch to check the page opens and holds these terms before the listing links to it. Not published from the inbox."
+ },
+ {
+  "id": "hn-indiameteorologicaldepar",
+  "type": "source",
+  "batch": "depth-1",
+  "org": "indiameteorologicaldepar",
+  "title": "India Meteorological Department: the page that shows its heat work",
+  "publisher": "India Meteorological Department",
+  "url": "https://mausam.imd.gov.in/responsive/heatwave_guidance.php",
+  "expect": [
+   "Heat Wave"
+  ],
+  "note": "Staged from the heat network depth batch to check the page opens and holds these terms before the listing links to it. Not published from the inbox."
+ },
+ {
+  "id": "hn-pakistanmeteorologicalde",
+  "type": "source",
+  "batch": "depth-1",
+  "org": "pakistanmeteorologicalde",
+  "title": "Pakistan Meteorological Department: the page that shows its heat work",
+  "publisher": "Pakistan Meteorological Department",
+  "url": "https://rmc-punjab.pmd.gov.pk/heatwave-update",
+  "expect": [
+   "Heatwave"
+  ],
+  "note": "Staged from the heat network depth batch to check the page opens and holds these terms before the listing links to it. Not published from the inbox."
+ },
+ {
+  "id": "hn-bangladeshmeteorological",
+  "type": "source",
+  "batch": "depth-1",
+  "org": "bangladeshmeteorological",
+  "title": "Bangladesh Meteorological Department: the page that shows its heat work",
+  "publisher": "Bangladesh Meteorological Department",
+  "url": "https://live8.bmd.gov.bd/p/Heat-Wave-Warning",
+  "expect": [
+   "Heat Wave"
+  ],
+  "note": "Staged from the heat network depth batch to check the page opens and holds these terms before the listing links to it. Not published from the inbox."
+ },
+ {
+  "id": "hn-pagasa2",
+  "type": "source",
+  "batch": "depth-1",
+  "org": "pagasa2",
+  "title": "PAGASA: the page that shows its heat work",
+  "publisher": "PAGASA",
+  "url": "https://www.pagasa.dost.gov.ph/press-release/174",
+  "expect": [
+   "iHeatMap",
+   "heat index",
+   "2025"
+  ],
+  "note": "Staged from the heat network depth batch to check the page opens and holds these terms before the listing links to it. Not published from the inbox."
+ },
+ {
+  "id": "hn-keralastatedisastermanag",
+  "type": "source",
+  "batch": "depth-1",
+  "org": "keralastatedisastermanag",
+  "title": "Kerala State Disaster Management Authority: the page that shows its heat work",
+  "publisher": "Kerala State Disaster Management Authority",
+  "url": "https://sdma.kerala.gov.in/heat-actions/",
+  "expect": [
+   "Heat"
+  ],
+  "note": "Staged from the heat network depth batch to check the page opens and holds these terms before the listing links to it. Not published from the inbox."
+ },
+ {
+  "id": "hn-delhidisastermanagementa",
+  "type": "source",
+  "batch": "depth-1",
+  "org": "delhidisastermanagementa",
+  "title": "Delhi Disaster Management Authority: the page that shows its heat work",
+  "publisher": "Delhi Disaster Management Authority",
+  "url": "https://ddma.delhi.gov.in/ddma/ddma-plan-home",
+  "expect": [
+   "Heat"
+  ],
+  "note": "Staged from the heat network depth batch to check the page opens and holds these terms before the listing links to it. Not published from the inbox."
+ },
+ {
+  "id": "hn-worldhealthorganization",
+  "type": "source",
+  "batch": "depth-1",
+  "org": "worldhealthorganization",
+  "title": "World Health Organization: the page that shows its heat work",
+  "publisher": "World Health Organization",
+  "url": "https://www.who.int/news/item/22-08-2025-who-wmo-issue-new-report-and-guidance-to-protect-workers-from-increasing-heat-stress",
+  "expect": [
+   "heat stress",
+   "WMO"
+  ],
+  "note": "Staged from the heat network depth batch to check the page opens and holds these terms before the listing links to it. Not published from the inbox."
+ },
+ {
+  "id": "hn-departmentofmeteorologys",
+  "type": "source",
+  "batch": "depth-1",
+  "org": "departmentofmeteorologys",
+  "title": "Department of Meteorology, Sri Lanka: the page that shows its heat work",
+  "publisher": "Department of Meteorology, Sri Lanka",
+  "url": "https://meteo.gov.lk/pdfs/heat_pdf.pdf",
+  "expect": [
+   "Heat"
+  ],
+  "note": "Staged from the heat network depth batch to check the page opens and holds these terms before the listing links to it. Not published from the inbox."
+ },
+ {
+  "id": "hn-ministryoflabourandemplo",
+  "type": "source",
+  "batch": "depth-1",
+  "org": "ministryoflabourandemplo",
+  "title": "Ministry of Labour and Employment, India: the page that shows its heat work",
+  "publisher": "Ministry of Labour and Employment, India",
+  "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2256186&reg=3&lang=1",
+  "expect": [
+   "Heatwave",
+   "Labour"
+  ],
+  "note": "Staged from the heat network depth batch to check the page opens and holds these terms before the listing links to it. Not published from the inbox."
+ },
+ {
+  "id": "hn-foodandagricultureorgani",
+  "type": "source",
+  "batch": "depth-1",
+  "org": "foodandagricultureorgani",
+  "title": "Food and Agriculture Organization of the United Nations: the page that shows its heat work",
+  "publisher": "Food and Agriculture Organization of the United Nations",
+  "url": "https://openknowledge.fao.org/handle/20.500.14283/cd9394en",
+  "expect": [
+   "Extreme heat and agriculture"
+  ],
+  "note": "Staged from the heat network depth batch to check the page opens and holds these terms before the listing links to it. Not published from the inbox."
+ },
+ {
+  "id": "hn-internationalorganizatio",
+  "type": "source",
+  "batch": "depth-1",
+  "org": "internationalorganizatio",
+  "title": "International Organization for Standardization: the page that shows its heat work",
+  "publisher": "International Organization for Standardization",
+  "url": "https://www.iso.org/standard/67188.html",
+  "expect": [
+   "7243",
+   "WBGT"
+  ],
+  "note": "Staged from the heat network depth batch to check the page opens and holds these terms before the listing links to it. Not published from the inbox."
+ },
+ {
+  "id": "hn-housingdevelopmentboards",
+  "type": "source",
+  "batch": "depth-1",
+  "org": "housingdevelopmentboards",
+  "title": "Housing & Development Board, Singapore: the page that shows its heat work",
+  "publisher": "Housing & Development Board, Singapore",
+  "url": "https://www.hdb.gov.sg/hdb-pulse/news/2026/hdb-awards-new-centralised-cooling-system-contract-to-keppel-for-9-bto-projects-in-tengah",
+  "expect": [
+   "Tengah",
+   "Cooling"
+  ],
+  "note": "Staged from the heat network depth batch to check the page opens and holds these terms before the listing links to it. Not published from the inbox."
+ },
+ {
+  "id": "hn-singaporegreenbuildingco",
+  "type": "source",
+  "batch": "depth-1",
+  "org": "singaporegreenbuildingco",
+  "title": "Singapore Green Building Council: the page that shows its heat work",
+  "publisher": "Singapore Green Building Council",
+  "url": "https://www.sgbc.sg/get-involved/go-25/",
+  "expect": [
+   "Go 25"
+  ],
+  "note": "Staged from the heat network depth batch to check the page opens and holds these terms before the listing links to it. Not published from the inbox."
+ },
+ {
+  "id": "hn-unenvironmentprogramme",
+  "type": "source",
+  "batch": "depth-1",
+  "org": "unenvironmentprogramme",
+  "title": "UN Environment Programme: the page that shows its heat work",
+  "publisher": "UN Environment Programme",
+  "url": "https://www.unep.org/interactives/beat-the-heat/",
+  "expect": [
+   "Beat the Heat"
+  ],
+  "note": "Staged from the heat network depth batch to check the page opens and holds these terms before the listing links to it. Not published from the inbox."
+ },
+ {
+  "id": "hn-directorategeneralofheal",
+  "type": "source",
+  "batch": "depth-1",
+  "org": "directorategeneralofheal",
+  "title": "Directorate General of Health Services, Bangladesh: the page that shows its heat work",
+  "publisher": "Directorate General of Health Services, Bangladesh",
+  "url": "https://www.unicef.org/press-releases/new-guidelines-launched-protect-children-and-pregnant-women-heat-stress-bangladesh",
+  "expect": [
+   "Directorate General of Health Services",
+   "heat"
+  ],
+  "note": "Staged from the heat network depth batch to check the page opens and holds these terms before the listing links to it. Not published from the inbox."
+ },
+ {
+  "id": "hn-icleilocalgovernmentsfor",
+  "type": "source",
+  "batch": "depth-1",
+  "org": "icleilocalgovernmentsfor",
+  "title": "ICLEI: Local Governments for Sustainability: the page that shows its heat work",
+  "publisher": "ICLEI: Local Governments for Sustainability",
+  "url": "https://iclei.org/heat-action-day/",
+  "expect": [
+   "Heat Action Day"
+  ],
+  "note": "Staged from the heat network depth batch to check the page opens and holds these terms before the listing links to it. Not published from the inbox."
+ },
+ {
+  "id": "hn-helpageindia",
+  "type": "source",
+  "batch": "depth-1",
+  "org": "helpageindia",
+  "title": "HelpAge India: the page that shows its heat work",
+  "publisher": "HelpAge India",
+  "url": "https://www.helpageindia.org/climate-resilient-ageing-report",
+  "expect": [
+   "Climate Resilient Ageing"
+  ],
+  "note": "Staged from the heat network depth batch to check the page opens and holds these terms before the listing links to it. Not published from the inbox."
+ },
+ {
+  "id": "hn-internationalunionoffood",
+  "type": "source",
+  "batch": "depth-1",
+  "org": "internationalunionoffood",
+  "title": "International Union of Food, Agricultural, Hotel, Restaurant, Catering, Tobacco and Allied Workers’ Associations (IUF): the page that shows its heat work",
+  "publisher": "International Union of Food, Agricultural, Hotel, Restaurant, Catering, Tobacco and Allied Workers’ Associations (IUF)",
+  "url": "https://www.iuf.org/news/iuf-call-to-action-on-extreme-heat/",
+  "expect": [
+   "Extreme Heat"
+  ],
+  "note": "Staged from the heat network depth batch to check the page opens and holds these terms before the listing links to it. Not published from the inbox."
+ },
+ {
+  "id": "hn-bureauofenergyefficiency",
+  "type": "source",
+  "batch": "depth-1",
+  "org": "bureauofenergyefficiency",
+  "title": "Bureau of Energy Efficiency, India: the page that shows its heat work",
+  "publisher": "Bureau of Energy Efficiency, India",
+  "url": "https://beeindia.gov.in/show_content.php?lang=1&level=1&ls_id=198&lid=322",
+  "expect": [
+   "Labelling",
+   "Air Conditioner"
+  ],
+  "note": "Staged from the heat network depth batch to check the page opens and holds these terms before the listing links to it. Not published from the inbox."
+ }
+]
