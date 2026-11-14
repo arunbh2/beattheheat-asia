@@ -165,7 +165,7 @@
 .csp__leave{border:0;background:none;padding:0;color:var(--grey);text-decoration:underline;font-size:.88rem}
 .csf{margin-top:56px;background:#16202B;color:#FAF7F2;max-width:none!important;padding:0!important}
 .csf a{color:#FAF7F2;text-decoration:none}.csf a:hover{text-decoration:underline;text-decoration-color:var(--orange);text-underline-offset:3px}
-.csf h2{margin:0 0 10px!important;padding:0!important;border:0!important;font-family:inherit!important;font-size:.72rem!important;font-weight:800!important;letter-spacing:.14em;text-transform:uppercase;color:#C9C2B6!important}
+.csf h2{margin:0 0 10px!important;padding:0!important;border:0!important;font-family:inherit!important;font-size:.75rem!important;font-weight:700!important;letter-spacing:.08em;text-transform:uppercase;color:#C9C2B6!important}
 .csf h2 a{color:#C9C2B6}
 .csf ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
 .csf__in{max-width:1280px;margin:0 auto;padding:36px clamp(16px,3vw,32px) 32px}
@@ -190,7 +190,7 @@ html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{
 /* the calm ending, the "changed since" note, the one-minute check, a composite person, where this happens */
 .cse{padding:clamp(40px,7vw,80px) clamp(16px,4vw,32px);background:linear-gradient(180deg,rgba(250,247,242,0),#F3EEE7 40%);text-align:center;font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;color:#16202B}
 .cse__in{max-width:640px;margin:0 auto}.cse__mark{width:96px;height:32px;color:#16202B;margin:0 auto 10px;display:block}
-.cse__k{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#7A6F63;margin:14px 0 4px}
+.cse__k{font-size:.75rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#7A6F63;margin:14px 0 4px}
 .cse__t{font-family:Anton,Impact,"Arial Narrow",sans-serif;text-transform:uppercase;font-size:clamp(1.3rem,1rem + 1.4vw,1.9rem);line-height:1.1;margin:0 0 6px}
 .cse__q{margin:0 auto;font-family:Newsreader,Georgia,serif;font-size:clamp(1.05rem,.95rem + .5vw,1.3rem);line-height:1.5;color:#39424D;max-width:56ch}
 .cse__acts{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 18px;margin:22px 0 6px;align-items:center}
@@ -223,7 +223,7 @@ html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{
 .ticker[hidden] { display: none; }
 /* the ticker stays on top while the page scrolls; everything that sits under the header moves down by its height while it shows */
 html:has(> body > .ticker:not([hidden])) { --tk-h: 34px; }
-.ticker__k { flex: none; display: inline-flex; align-items: center; gap: 6px; color: var(--canvas); font-weight: 800; letter-spacing: .14em; text-transform: uppercase; font-size: .68rem; text-decoration: none; }
+.ticker__k { flex: none; display: inline-flex; align-items: center; gap: 6px; color: var(--canvas); font-weight: 700; letter-spacing: var(--label-track); text-transform: uppercase; font-size: var(--fs-12); text-decoration: none; }
 .ticker__dot { width: 8px; height: 8px; border-radius: 50%; background: #E0442B; box-shadow: 0 0 0 3px rgba(224,68,43,.25); }
 .ticker__view { flex: 1; min-width: 0; overflow: hidden; -webkit-mask-image: linear-gradient(90deg, transparent, #000 24px, #000 calc(100% - 24px), transparent); mask-image: linear-gradient(90deg, transparent, #000 24px, #000 calc(100% - 24px), transparent); }
 .ticker__track { display: flex; width: max-content; animation: ticker var(--ticker-dur, 60s) linear infinite; }
@@ -237,9 +237,9 @@ html:has(> body > .ticker:not([hidden])) { --tk-h: 34px; }
 .ticker__set a:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; }
 .ticker__pin { width: 9px; height: 9px; border-radius: 50%; flex: none; box-shadow: 0 0 0 1.5px rgba(250,247,242,.55); }
 .ticker__f { color: #B9C2CC; }
-.ticker__hot { margin-left: 6px; padding: 1px 7px; border-radius: 999px; background: #A93A1C; color: #fff; font-size: .66rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.ticker__hot { margin-left: 6px; padding: 1px 7px; border-radius: 999px; background: #A93A1C; color: #fff; font-size: var(--fs-12); font-weight: 700; letter-spacing: var(--label-track); text-transform: uppercase; }
 .ticker__more a { color: #F7B79C; font-weight: 700; }
-.ticker__pause { flex: none; min-height: 26px; padding: 2px 10px; border-radius: 999px; border: 1px solid rgba(250,247,242,.35); background: none; color: var(--canvas); font: inherit; font-size: .7rem; font-weight: 700; cursor: pointer; }
+.ticker__pause { flex: none; min-height: 26px; padding: 2px 10px; border-radius: 999px; border: 1px solid rgba(250,247,242,.35); background: none; color: var(--canvas); font: inherit; font-size: var(--fs-12); font-weight: 700; cursor: pointer; }
 .ticker__pause:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; }
 @keyframes ticker { to { transform: translateX(-50%); } }
 @media (max-width: 640px) { .ticker__f { display: none; } .ticker__k { letter-spacing: .1em; } }
@@ -249,7 +249,7 @@ html:has(> body > .ticker:not([hidden])) { --tk-h: 34px; }
   .ticker .ticker__track { animation: ticker var(--ticker-dur, 60s) linear infinite !important; }
   .ticker.is-paused .ticker__track, .ticker:has(:focus-visible) .ticker__track { animation-play-state: paused !important; }
 }
-.ticker__lv { margin-left: 6px; padding: 1px 7px; border-radius: 999px; font-size: .66rem; font-weight: 800; letter-spacing: .04em; background: #F2C14E; color: #16202B; }
+.ticker__lv { margin-left: 6px; padding: 1px 7px; border-radius: 999px; font-size: var(--fs-12); font-weight: 800; letter-spacing: .04em; background: #F2C14E; color: #16202B; }
 .ticker__lv--1 { background: #F26430; color: #16202B; }
 .ticker__lv--2 { background: #D7263D; color: #fff; }</style><noscript><style>.csn__gb,.csn__tools{display:none!important}.csn__gl{display:inline-flex;align-items:center;height:40px;padding:0 14px;font-weight:700}@media (max-width:960px){.csn__main{display:block!important}}</style></noscript><!--/csn-->
 <!--agent--><link rel="alternate" type="text/markdown" href="/practical-actions/index.md"><link rel="alternate" type="application/atom+xml" title="What changed on Common Shade" href="/feed.xml"><meta name="color-scheme" content="light"><meta name="referrer" content="strict-origin-when-cross-origin"><meta property="article:modified_time" content="2026-11-06"><script type="speculationrules">{"prefetch":[{"where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/*.*","/solutions/*","/sources/*"]}},{"not":{"selector_matches":"[download],[target=_blank],[rel~=nofollow]"}}]},"eagerness":"conservative"}]}</script><!--/agent-->
@@ -570,7 +570,7 @@ $$("[data-check]").forEach(function(box){var key=box.getAttribute("data-check"),
     if(form)window.open(form,"_blank","noopener");remember({a:"no",d:today});done(thanksNo)})})}});
 /* copy the citation */
 $$("[data-csn-copy]").forEach(function(b){b.addEventListener("click",function(){var t=$("[data-csn-cite]").textContent;(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){b.textContent="Copied"},function(){b.textContent="Select and copy"})})});
-})();</script><script src="/ticker.js?v=210" defer></script><script>addEventListener("load",function(){setTimeout(function(){["/join.js?v=210","/everything.js?v=210"].forEach(function(s){var e=document.createElement("script");e.src=s;document.body.appendChild(e)})},2500)})</script><!--/csn-->
+})();</script><script src="/ticker.js?v=211" defer></script><script>addEventListener("load",function(){setTimeout(function(){["/join.js?v=211","/everything.js?v=211"].forEach(function(s){var e=document.createElement("script");e.src=s;document.body.appendChild(e)})},2500)})</script><!--/csn-->
 <footer><p>Common Shade is in beta, currently at beattheheat.asia. A group of organisations is helping shape it as a shared endeavour for protection from extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement. Every claim links to its source; where the evidence is still emerging, the map says so.</p><p>Text, data, films and illustrations © Common Shade contributors, shared under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>: copy, adapt and translate them, with credit and a link to beattheheat.asia. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’.</p><p>Generated from the map’s data on 2026-11-14. The whole map as plain text: <a href="/llms-full.txt">llms-full.txt</a>.</p></footer>
 </body>
 </html>
