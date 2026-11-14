@@ -42,8 +42,8 @@
 .sp-count { margin: 0; font-size: .9rem; color: var(--grey-700); }
 .sp-empty { padding: 14px 16px; background: var(--sand-50); border-radius: var(--r-sm); }
 .sp-ladder { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 8px; }
-.sp-step { padding: 10px 14px; border-left: 4px solid var(--break); background: var(--white); border-radius: 0 var(--r-sm) var(--r-sm) 0; }
-.sp-step.is-empty { border-left-color: var(--line); background: transparent; }
+.sp-step { padding: 10px 14px; background: var(--white); border-radius:var(--r-sm); border:1px solid var(--line,#E6DFD4); border-color:color-mix(in srgb,var(--break) 34%,var(--line,#E6DFD4)); }
+.sp-step.is-empty { border-color:color-mix(in srgb,var(--line) 34%,var(--line,#E6DFD4)); background: transparent; }
 .sp-step > b { display: block; text-transform: uppercase; letter-spacing: .1em; font-size: .75rem; }
 .sp-step p { margin: 4px 0 0; }
 .sp-route { padding: 14px 0; border-bottom: 1px solid var(--line); }

@@ -324,7 +324,7 @@ html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{
 .cs-check label{font-size:.88rem;font-weight:600;display:block}.cs-check p{margin:6px 0;line-height:1.55}.cs-check .cs-check__small{font-size:.82rem;color:#5E6570}
 .cs-where{display:inline-flex;align-items:center;gap:8px;margin:6px 0 14px;font-weight:600;font-size:.95rem}
 .cs-where svg{width:18px;height:18px;flex:none}
-.cs-person{display:grid;grid-template-columns:56px 1fr;gap:14px;align-items:start;margin:12px 0 14px;padding:14px 16px;background:#fff;border-left:3px solid #F26430;border-radius:0 12px 12px 0}
+.cs-person{display:grid;grid-template-columns:56px 1fr;gap:14px;align-items:start;margin:12px 0 14px;padding:14px 16px;background:#fff;border-radius:12px;border:1px solid var(--line,#E6DFD4);border-color:color-mix(in srgb,#F26430 34%,var(--line,#E6DFD4))}
 .cs-person svg{width:56px;height:56px;color:#16202B}
 .cs-person b{display:block;font-size:.95rem;margin-bottom:2px}.cs-person p{margin:0;line-height:1.55}.cs-person small{display:block;margin-top:6px;font-size:.78rem;color:#7A6F63}
 @media (prefers-reduced-motion:reduce){.csn__canopy,.cs-tip{transition:none}}
