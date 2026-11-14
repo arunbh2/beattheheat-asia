@@ -17,7 +17,7 @@ const PAD_MAP = { "10px 12px": "compact", "10px 14px": "compact", "12px 14px": "
 // files in scope, and what is never touched: the pop-ups (the owner's rule), the site menu, print handouts and films
 const FILES = ["styles.css", "growing/growing.css", "heat-tools/heat-tools.css", "social-protection/sp.css", "how-heat-became-visible/visibility.css", "heat-network/network.css"];
 const SKIP_SEL = [".invite", ".csx", ".csp", ".csn", ".cs-tip", ".site-menu", "@font-face"];
-const skip = sel => SKIP_SEL.some(s => sel.includes(s));
+const skip = sel => SKIP_SEL.some(s => sel.includes(s)) || sel.includes(":root");
 // things that float over the page or draw a real object keep their shadow: map controls and pins, the phone mock-up
 const KEEP_SHADOW = [".zoom", ".mx-pin", ".pl-sms__phone", ".sol-bar", ".ht-bar"];
 module.exports = { RADIUS, COLOUR, PAD, PAD_MAP, FILES, SKIP_SEL, KEEP_SHADOW, skip };

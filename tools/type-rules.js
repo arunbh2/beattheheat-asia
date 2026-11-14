@@ -26,7 +26,7 @@ function leading(v) { if (v < 1) return null; if (v < 1.3) return "1.15"; if (v 
 const FILES = ["styles.css", "growing/growing.css", "heat-tools/heat-tools.css", "social-protection/sp.css", "how-heat-became-visible/visibility.css", "heat-network/network.css"];
 // never touched: the map and its drawn labels, the site menu, the pop-ups, print and films
 const SKIP = /(^|[\s,.#>-])(svg|text|tspan|node|edge|map|zoom|key__|legend|tick|axis|chart|csn|csx|csp|invite|cs-tip|site-menu|visually-hidden|sr-only|ticker|brand|wordmark)\b|@font-face|^:root|^@/i;
-const skip = sel => SKIP.test(sel);
+const skip = sel => SKIP.test(sel) || sel.includes(":root");
 // section headings (22px) and subheadings and card titles (18px) that were set in Anton or Newsreader, moved to Hanken
 // bold by tools/heading-voice.js. The homepage's story heads and components keep Anton; page titles (h1) keep Anton.
 const HEADINGS = {

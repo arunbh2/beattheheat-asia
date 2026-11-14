@@ -1,7 +1,7 @@
 ---
 title: "Make it work together: protection in a place | Common Shade"
 url: https://beattheheat.asia/together/
-updated: 2026-10-01
+updated: 2026-11-14
 licence: CC BY 4.0
 ---
 
