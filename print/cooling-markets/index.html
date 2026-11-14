@@ -315,7 +315,7 @@ html:has(> body > .ticker:not([hidden])) { --tk-h: 34px; }
   </div>
   <nav class="csn__crumbs" aria-label="You are here"><ol><li><a href="/">Home</a></li><li><a href="/evidence/">News and evidence</a></li><li><a href="/print/">Printable one-pagers</a></li><li aria-current="page">Cooling options: Markets and street vending</li></ol></nav>
   <div class="csn__pathbar" data-csn-pathbar hidden></div>
-  <div class="csn__sheet" id="csn-sheet" hidden>
+  <div class="csn__sheet" id="csn-sheet" role="region" aria-label="Menu" hidden>
     <div class="csn__sheet-tools"><a class="csn__btn csn__btn--wide csn__btn--signals" href="/signals/"><svg class="csn__ico" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="2.2" fill="currentColor"/><path d="M6.2 13.8a5.4 5.4 0 0 1 0-7.6M13.8 6.2a5.4 5.4 0 0 1 0 7.6M3.6 16.4a9 9 0 0 1 0-12.8M16.4 3.6a9 9 0 0 1 0 12.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg> Signals: which way heat policy is moving</a><a class="csn__btn csn__btn--wide csn__btn--map" href="/#explore"><svg class="csn__ico" viewBox="0 0 20 20" aria-hidden="true"><path d="M2 5 L7 3 L13 5 L18 3 V15 L13 17 L7 15 L2 17 Z M7 3 V15 M13 5 V17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg> Open the map</a><button type="button" class="csn__btn csn__btn--wide" data-csn-search><svg class="csn__ico" viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13 L18 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg> Search the site</button><button type="button" class="csn__btn csn__btn--wide csn__btn--warm" data-csn-paths>Start here: choose a path by role</button></div>
     <details class="csn__acc"><summary>Understand heat<svg class="csn__chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1.5 L6 6.5 L11 1.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></summary><ul>
       <li><a class="csn__acc-lead" href="/#explore"><b>The map</b><small>Every consequence of heat, how each leads to the next, and where the cycles can break.</small></a></li>
@@ -335,7 +335,7 @@ html:has(> body > .ticker:not([hidden])) { --tk-h: 34px; }
       <li><a class="csn__hub" href="/evidence/">Everything in News and evidence <span aria-hidden="true">→</span></a></li></ul></details>
   </div>
   <dialog class="csn-d" id="csn-search-d" aria-label="Search the site"><form method="dialog" class="csn-d__bar"><label class="csn-vh" for="csn-q">Search the site</label><svg class="csn__ico" viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13 13 L18 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg><input id="csn-q" type="search" placeholder="Search: a city, a term, a solution, a funder…" autocomplete="off"><button class="csn-d__x" aria-label="Close search">Esc</button></form><p class="csn-d__hint" id="csn-hint">Pages, places, cycles and the glossary. Use ↑ ↓ and Enter.</p><ul class="csn-d__res" id="csn-res" role="listbox" aria-label="Results"></ul></dialog>
-  <dialog class="csn-d csn-d--paths" id="csn-paths-d" aria-labelledby="csn-paths-h"><form method="dialog"><button class="csn-d__x csn-d__x--top" aria-label="Close">Close</button></form><div id="csn-paths-body"></div></dialog>
+  <dialog class="csn-d csn-d--paths" id="csn-paths-d" aria-labelledby="csn-paths-h" aria-label="Start here: choose a path"><form method="dialog"><button class="csn-d__x csn-d__x--top" aria-label="Close">Close</button></form><div id="csn-paths-body"></div></dialog>
 </header><!--/csn-->
 <nav class="tools" aria-label="Page tools"><button type="button" onclick="window.print()">Print or save as PDF</button><a href="/#cool-markets">Open the live page</a><a href="/print/">All one-pagers</a></nav>
 <main id="main" class="sheet"><div class="fit">
@@ -389,7 +389,11 @@ document.addEventListener("click",function(e){if(open&&!e.target.closest(".csn__
 $$(".csn__panel").forEach(function(p){p.addEventListener("focusout",function(e){if(open&&e.relatedTarget&&!e.relatedTarget.closest(".csn__groups"))close()})});
 /* phone menu */
 var bur=$(".csn__burger"),sheet=$("#csn-sheet");
-function sheetSet(v){sheet.hidden=!v;bur.setAttribute("aria-expanded",String(v));document.documentElement.style.overflow=v?"hidden":"";document.documentElement.style.setProperty("--csn-h",H.getBoundingClientRect().height+"px")}
+// the phone menu covers the page, so while it is open the page behind is inert (no Tab, tap or screen-reader swipe
+// reaches it), focus moves to the menu's first item, and Tab from its last item comes back to the Menu button
+function sheetSet(v){sheet.hidden=!v;bur.setAttribute("aria-expanded",String(v));document.documentElement.style.overflow=v?"hidden":"";document.documentElement.style.setProperty("--csn-h",H.getBoundingClientRect().height+"px");
+ [].forEach.call(document.body.children,function(k){if(k===H||k.contains(H)||k.tagName==="SCRIPT")return;if(v){if(!k.inert){k.inert=true;k.setAttribute("data-csn-inert","")}}else if(k.hasAttribute("data-csn-inert")){k.inert=false;k.removeAttribute("data-csn-inert")}});
+ if(v){var f=sheet.querySelector("a[href],button,summary");if(f)f.focus()}}
 if(bur)bur.addEventListener("click",function(){sheetSet(sheet.hidden)});
 // never leave the page locked: close the phone menu when the screen widens past it (a tablet turning, a window resizing),
 // and when a page comes back from the browser's history
@@ -397,6 +401,7 @@ if(sheet&&window.matchMedia){var wide=matchMedia("(min-width: 961px)");var fit=f
 window.addEventListener("pageshow",function(){if(sheet&&!sheet.hidden)sheetSet(false);else document.documentElement.style.overflow=""});
 document.addEventListener("keydown",function(e){if(e.key==="Escape"&&sheet&&!sheet.hidden){sheetSet(false);bur.focus()}});
 if(sheet)sheet.addEventListener("click",function(e){if(e.target.closest("a"))sheetSet(false)});
+if(sheet)sheet.addEventListener("keydown",function(e){if(e.key!=="Tab"||e.shiftKey)return;var f=[].filter.call(sheet.querySelectorAll("a[href],button,summary"),function(x){var d=x.closest("details:not([open])");return x.offsetParent&&(!d||x.parentNode===d)});if(f.length&&document.activeElement===f[f.length-1]){e.preventDefault();bur.focus()}});
 /* search: the index loads the first time it is opened */
 var sd=$("#csn-search-d"),q=$("#csn-q"),res=$("#csn-res"),idx=null,sel=-1;
 function openSearch(){if(!sd||!sd.showModal)return location.href="/sources/";sheetSet(false);close();sd.showModal();q.value="";q.focus();res.innerHTML="";sel=-1;
