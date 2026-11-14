@@ -3796,9 +3796,9 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [UNDP Zimbabwe last-mile solar health infrastructure &nbsp;](https://www.undp.org/zimbabwe/blog/last-mile-good-business-smart-infrastructure-every-place-zimbabwe)undp.orgUsed on: Solutions library
 
-- [UNEP and FAO, 2022: sustainable food cold chains](https://wedocs.unep.org/bitstreams/e3f8b701-b044-46b9-9deb-8afad6967607/download)wedocs.unep.orgUsed on: The web
-
 - [UNEP and FAO, 2022: Sustainable Food Cold Chains (526 million tonnes of food lost for lack of refrigeration)](https://www.unep.org/resources/report/sustainable-food-cold-chains-opportunities-challenges-and-way-forward)unep.orgUsed on: Glossary · The web
+
+- [UNEP and FAO, 2022: sustainable food cold chains (full report, download)](https://wedocs.unep.org/bitstreams/e3f8b701-b044-46b9-9deb-8afad6967607/download)wedocs.unep.orgUsed on: The web
 
 - [UNEP and GRID-Arendal, 2022: Spreading like wildfire](https://www.unep.org/resources/report/spreading-wildfire-rising-threat-extraordinary-landscape-fires)unep.orgUsed on: Actions · The web · Vicious cycles
 
