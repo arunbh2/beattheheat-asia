@@ -1,7 +1,7 @@
 ---
 title: "The web of extreme heat: every consequence, system by system | Common Shade"
 url: https://beattheheat.asia/the-web/
-updated: 2026-11-09
+updated: 2026-11-14
 licence: CC BY 4.0
 ---
 
@@ -191,7 +191,7 @@ Without cool storage, more of every harvest rots between field and plate. Cold s
 
 Leads to: Food price spikes (Losses after harvest push up prices.); Diarrhoea in young children (Food that spoils in the heat makes children ill.); Emissions from cooling rise (Food that rots carries an emissions cost of its own.)
 
-Sources: [UNEP and FAO, 2022: Sustainable Food Cold Chains (526 million tonnes of food lost for lack of refrigeration)](https://www.unep.org/resources/report/sustainable-food-cold-chains-opportunities-challenges-and-way-forward) · [UNEP and FAO, 2022: sustainable food cold chains](https://wedocs.unep.org/bitstreams/e3f8b701-b044-46b9-9deb-8afad6967607/download)
+Sources: [UNEP and FAO, 2022: Sustainable Food Cold Chains (526 million tonnes of food lost for lack of refrigeration)](https://www.unep.org/resources/report/sustainable-food-cold-chains-opportunities-challenges-and-way-forward) · [UNEP and FAO, 2022: sustainable food cold chains (full report, download)](https://wedocs.unep.org/bitstreams/e3f8b701-b044-46b9-9deb-8afad6967607/download)
 
 [See it on the map](https://beattheheat.asia/#spoilage)
 
@@ -369,7 +369,7 @@ Most cooling still runs on fossil-fuelled power and refrigerants that warm the p
 
 Leads to: Extreme heat (Emissions add to the warming that drives demand for cooling.)
 
-Sources: [International Energy Agency, 2018: The Future of Cooling](https://www.iea.org/reports/the-future-of-cooling) · [UNEP and FAO, 2022: sustainable food cold chains](https://wedocs.unep.org/bitstreams/e3f8b701-b044-46b9-9deb-8afad6967607/download)
+Sources: [International Energy Agency, 2018: The Future of Cooling](https://www.iea.org/reports/the-future-of-cooling) · [UNEP and FAO, 2022: sustainable food cold chains (full report, download)](https://wedocs.unep.org/bitstreams/e3f8b701-b044-46b9-9deb-8afad6967607/download)
 
 [See it on the map](https://beattheheat.asia/#emissions)
 

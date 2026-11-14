@@ -358,7 +358,7 @@ Start here
 
 Answer two questions and the site will suggest a short path, with how long each stop takes and what you will leave with.
 
-[How to use this site ↗](https://beattheheat.asia/guide/) · [Print the workshop guide ↗](https://beattheheat.asia/print/workshop-guide/) · [Community version ↗](https://beattheheat.asia/print/community-workshop-guide/)
+[How to use this site →](https://beattheheat.asia/guide/) · [Print the workshop guide ↗](https://beattheheat.asia/print/workshop-guide/) · [Community version ↗](https://beattheheat.asia/print/community-workshop-guide/)
 
 **Stopping here?** Protection lasts when someone permits it, pays for it, delivers it and checks it.
 

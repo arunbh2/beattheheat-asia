@@ -37,4 +37,4 @@ SOURCES
 - International Energy Agency, 2018: The Future of Cooling: https://www.iea.org/reports/the-future-of-cooling
 - International Energy Agency: The Future of Cooling in Southeast Asia: https://www.iea.org/reports/the-future-of-cooling-in-southeast-asia
 - Verma et al., Scientific Reports, 2026: air conditioner waste heat in hypothetical urban blocks, Rajkot: https://www.nature.com/articles/s41598-026-62477-4
-- UNEP and FAO, 2022: sustainable food cold chains: https://wedocs.unep.org/bitstreams/e3f8b701-b044-46b9-9deb-8afad6967607/download
+- UNEP and FAO, 2022: sustainable food cold chains (full report, download): https://wedocs.unep.org/bitstreams/e3f8b701-b044-46b9-9deb-8afad6967607/download
