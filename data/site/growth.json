@@ -641,6 +641,16 @@
       "review": "Places are read from each listing’s own words, with reviewed corrections kept beside them; every link was opened by a check on GitHub and those that did not answer are listed, not rewritten; nothing is ranked",
       "pages": [["/heat-network/", "The heat network"]], "action": ["Find who works where", "/heat-network/"],
       "links": [{ "to": "page:/heat-network/", "why": "The finder is on the heat network page.", "basis": "editorial" }]
+    },
+    {
+      "id": "g-heat-network-depth-1", "kind": "connection", "root": "institutions", "added": "2026-11-14", "pr": null,
+      "title": "Listings in the heat network now open on the heat work itself",
+      "why": "A first set of listings that linked only to an organisation’s homepage now link to the page that shows its heat work, such as a warning service, a plan or a report. Each new link was opened and read by a check before it replaced the old one.",
+      "places": ["region"], "people": [], "topics": [],
+      "event": { "what": "Links deepened", "date": "2026-11-14" },
+      "review": "A link was used only if its page opened and held the words staged for it; the ones that did not pass are listed with the reason and keep their old link",
+      "pages": [["/heat-network/", "The heat network"]], "action": ["Open the heat network", "/heat-network/"],
+      "links": [{ "to": "page:/heat-network/", "why": "The deeper links are on the heat network page.", "basis": "editorial" }]
     }
   ]
 }

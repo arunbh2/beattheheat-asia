@@ -1,0 +1,22 @@
+[
+ {"id":"ndma","url":"https://ndma.gov.in/Natural-Hazards/Heat-Wave","expect":["Heat Wave"]},
+ {"id":"indiameteorologicaldepar","url":"https://mausam.imd.gov.in/responsive/heatwave_guidance.php","expect":["Heat Wave"]},
+ {"id":"pakistanmeteorologicalde","url":"https://rmc-punjab.pmd.gov.pk/heatwave-update","expect":["Heatwave"],"does":"Publishes heatwave updates through its Punjab regional centre, and contributed meteorological expertise to Sindh’s heat-planning consultation."},
+ {"id":"bangladeshmeteorological","url":"https://live8.bmd.gov.bd/p/Heat-Wave-Warning","expect":["Heat Wave"],"does":"Publishes heat wave warnings, and provides the heatwave data used in Bangladesh Red Crescent early action."},
+ {"id":"pagasa2","url":"https://www.pagasa.dost.gov.ph/press-release/174","expect":["iHeatMap","heat index","2025"],"does":"Publishes the Philippines’ heat-index information service, including iHeatMap, an online map of the heat index launched in 2025."},
+ {"id":"keralastatedisastermanag","url":"https://sdma.kerala.gov.in/heat-actions/","expect":["Heat"]},
+ {"id":"delhidisastermanagementa","url":"https://ddma.delhi.gov.in/ddma/ddma-plan-home","expect":["Heat"]},
+ {"id":"worldhealthorganization","url":"https://www.who.int/news/item/22-08-2025-who-wmo-issue-new-report-and-guidance-to-protect-workers-from-increasing-heat-stress","expect":["heat stress","WMO"]},
+ {"id":"departmentofmeteorologys","url":"https://meteo.gov.lk/pdfs/heat_pdf.pdf","expect":["Heat"]},
+ {"id":"ministryoflabourandemplo","url":"https://www.pib.gov.in/PressReleasePage.aspx?PRID=2256186&reg=3&lang=1","expect":["Heatwave","Labour"],"link":"third"},
+ {"id":"foodandagricultureorgani","url":"https://openknowledge.fao.org/handle/20.500.14283/cd9394en","expect":["Extreme heat and agriculture"]},
+ {"id":"internationalorganizatio","url":"https://www.iso.org/standard/67188.html","expect":["7243","WBGT"]},
+ {"id":"housingdevelopmentboards","url":"https://www.hdb.gov.sg/hdb-pulse/news/2026/hdb-awards-new-centralised-cooling-system-contract-to-keppel-for-9-bto-projects-in-tengah","expect":["Tengah","Cooling"]},
+ {"id":"singaporegreenbuildingco","url":"https://www.sgbc.sg/get-involved/go-25/","expect":["Go 25"]},
+ {"id":"unenvironmentprogramme","url":"https://www.unep.org/interactives/beat-the-heat/","expect":["Beat the Heat"]},
+ {"id":"directorategeneralofheal","url":"https://www.unicef.org/press-releases/new-guidelines-launched-protect-children-and-pregnant-women-heat-stress-bangladesh","expect":["Directorate General of Health Services","heat"],"link":"third"},
+ {"id":"icleilocalgovernmentsfor","url":"https://iclei.org/heat-action-day/","expect":["Heat Action Day"]},
+ {"id":"helpageindia","url":"https://www.helpageindia.org/climate-resilient-ageing-report","expect":["Climate Resilient Ageing"]},
+ {"id":"internationalunionoffood","url":"https://www.iuf.org/news/iuf-call-to-action-on-extreme-heat/","expect":["Extreme Heat"]},
+ {"id":"bureauofenergyefficiency","url":"https://beeindia.gov.in/show_content.php?lang=1&level=1&ls_id=198&lid=322","expect":["Labelling","Air Conditioner"]}
+]

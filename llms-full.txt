@@ -2742,17 +2742,17 @@ Every link was opened by an automated check on 14 November 2026. A listing says 
 
 - Human Rights Watch (Supply; Non-profit organisation; Global): Documents how extreme heat endangers older people and people with disabilities, and how heat and climate plans leave them out. (https://www.hrw.org/news/2023/06/30/extreme-heat-signals-need-inclusive-climate-action)
 
-- World Health Organization (Platform; UN or multilateral body; Indonesia): Supports Indonesian heat-health coordination and publishes occupational heat guidance with WMO. (https://www.who.int)
+- World Health Organization (Platform; UN or multilateral body; Indonesia): Supports Indonesian heat-health coordination and publishes occupational heat guidance with WMO. (https://www.who.int/news/item/22-08-2025-who-wmo-issue-new-report-and-guidance-to-protect-workers-from-increasing-heat-stress)
 
 - The Conduit Foundation (Platform; Non-profit organisation; Global): Develops an urban-heat workstream connecting city leaders and finance. (https://www.conduitfoundation.org.uk/)
 
-- International Union of Food, Agricultural, Hotel, Restaurant, Catering, Tobacco and Allied Workers’ Associations (IUF) (Demand; Worker organisation; Global): Calls for negotiated heat protection covering migrant, seasonal and informal workers. (https://www.iuf.org)
+- International Union of Food, Agricultural, Hotel, Restaurant, Catering, Tobacco and Allied Workers’ Associations (IUF) (Demand; Worker organisation; Global): Calls for negotiated heat protection covering migrant, seasonal and informal workers. (https://www.iuf.org/news/iuf-call-to-action-on-extreme-heat/)
 
 - Food and Agriculture Organization of the United Nations (Platform; UN or multilateral body; Global): Co-produced the extreme heat and agriculture report. (https://www.fao.org)
 
-- ICLEI: Local Governments for Sustainability (Platform; Network or alliance; Global): Supports urban heat governance and heat-relevant planning tools. (https://iclei.org)
+- ICLEI: Local Governments for Sustainability (Platform; Network or alliance; Global): Supports urban heat governance and heat-relevant planning tools. (https://iclei.org/heat-action-day/)
 
-- UN Environment Programme (Platform; UN or multilateral body; Global): Convenes heat-resilience and sustainable-cooling initiatives. (https://www.unep.org)
+- UN Environment Programme (Platform; UN or multilateral body; Global): Convenes heat-resilience and sustainable-cooling initiatives. (https://www.unep.org/interactives/beat-the-heat/)
 
 - Freetown City Council (Demand; City or district government; Sierra Leone): Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation. (https://fcc.gov.sl)
 
@@ -2814,7 +2814,7 @@ Every link was opened by an automated check on 14 November 2026. A listing says 
 
 - Dhangadhi Sub-Metropolitan City (Demand; City or district government; Nepal): Published a municipal heat action plan with Red Cross support. (https://dhangadhimun.gov.np)
 
-- Department of Hydrology and Meteorology, Nepal (Demand; Weather service; Nepal): Provided forecasts used to activate RAIN’s heat early action. (https://www.dhm.gov.np)
+- Department of Hydrology and Meteorology, Nepal (Demand; Weather service; Nepal): Publishes hot day and heat wave bulletins, and provided the forecasts used to activate RAIN’s heat early action. (https://dhm.gov.np/climate-services/heat-and-cold-wave-monitoring)
 
 - Pakistan Meteorological Department (Demand; Weather service; Pakistan): Contributed meteorological expertise to Sindh’s heat-planning consultation. (https://www.pmd.gov.pk)
 
@@ -2822,11 +2822,11 @@ Every link was opened by an automated check on 14 November 2026. A listing says 
 
 - Central Environmental Authority, Sri Lanka (Demand; Government body; Sri Lanka): Contributed expertise to a heat-stress and air-quality coordination session. (https://www.cea.lk)
 
-- Ministry of Labour and Employment, India (Demand; Government body; India): Issued coordinated heat-protection directions for workers and labour agencies. (https://labour.gov.in)
+- Ministry of Labour and Employment, India (Demand; Government body; India): Issued coordinated heat-protection directions for workers and labour agencies. (https://www.pib.gov.in/PressReleasePage.aspx?PRID=2256186&reg=3&lang=1)
 
 - Employees’ State Insurance Corporation (Demand; Government body; India): Was directed to prepare heatstroke help desks and supplies at its facilities. (https://www.esic.gov.in)
 
-- Kerala State Disaster Management Authority (Demand; Government body; India): Maintains a heat-action register covering budgets, local plans and sector actions. (https://sdma.kerala.gov.in)
+- Kerala State Disaster Management Authority (Demand; Government body; India): Maintains a heat-action register covering budgets, local plans and sector actions. (https://sdma.kerala.gov.in/heat-actions/)
 
 - Department of Agriculture Development and Farmers’ Welfare, Kerala (Demand; Government body; India): Received mitigation funding for heat impacts on cardamom farmers. (https://keralaagriculture.gov.in)
 
@@ -2836,13 +2836,13 @@ Every link was opened by an automated check on 14 November 2026. A listing says 
 
 - Ministry of Jal Shakti, India (Demand; Government body; India): Issued advice on maintaining water-service delivery during heatwaves. (https://jalshakti.gov.in)
 
-- Bangladesh Meteorological Department (Demand; Weather service; Bangladesh): Provides heatwave data used in Bangladesh Red Crescent early action. (https://www.bmd.gov.bd)
+- Bangladesh Meteorological Department (Demand; Weather service; Bangladesh): Publishes heat wave warnings, and provides the heatwave data used in Bangladesh Red Crescent early action. (https://live8.bmd.gov.bd/p/Heat-Wave-Warning)
 
-- Directorate General of Health Services, Bangladesh (Demand; Health body; Bangladesh): Launched national heat-illness guidelines with UNICEF support. (https://dghs.gov.bd)
+- Directorate General of Health Services, Bangladesh (Demand; Health body; Bangladesh): Launched national heat-illness guidelines with UNICEF support. (https://www.unicef.org/press-releases/new-guidelines-launched-protect-children-and-pregnant-women-heat-stress-bangladesh)
 
 - Bangkok Metropolitan Administration (Demand; City or district government; Thailand): Runs heat warnings and public cooling spaces. Its Urban Heat Management Action Plan for 2026 has 22 indicators and a committee chaired by a deputy governor, and a 2026 financing strategy with UNDP sets out how to pay for it. (https://www.bangkok.go.th)
 
-- PAGASA (Demand; Weather service; Philippines): Publishes the Philippines’ heat-index information service. (https://www.pagasa.dost.gov.ph)
+- PAGASA (Demand; Weather service; Philippines): Publishes the Philippines’ heat-index information service, including iHeatMap, an online map of the heat index launched in 2025. (https://www.pagasa.dost.gov.ph/press-release/174)
 
 - Global Heat Health Information Network, Southeast Asia Hub (Platform; Network or alliance; Thailand, Indonesia, Singapore): Based in Singapore, shares heat-health evidence and practice across the region; Philanthropy Asia Alliance supports its work in countries including Indonesia and Thailand. (https://heathealth.info/southeastasia/)
 
@@ -2856,21 +2856,21 @@ Every link was opened by an automated check on 14 November 2026. A listing says 
 
 - Building and Construction Authority, Singapore (Demand; Government body; Singapore): Supports Go25 and building-operator guidance on efficient cooling. (https://www1.bca.gov.sg)
 
-- Urban Redevelopment Authority, Singapore (Demand; Government body; Singapore): Uses urban-climate modelling and planning to address heat. (https://www.ura.gov.sg)
+- Urban Redevelopment Authority, Singapore (Demand; Government body; Singapore): Uses urban-climate modelling and planning to address heat. (https://www.ura.gov.sg/Corporate/Get-Involved/Plan-Our-Future-SG/Innovative-Urban-Solutions/Heat-resilient-city)
 
 - Bruhat Bengaluru Mahanagara Palike / Bengaluru city government (Demand; City or district government; India): Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation. (https://bbmp.gov.in)
 
 - Jakarta Provincial Government (Demand; City or district government; Indonesia): Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation. (https://www.jakarta.go.id)
 
-- Quezon City Government (Demand; City or district government; Philippines): Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation. (https://quezoncity.gov.ph)
+- Quezon City Government (Demand; City or district government; Philippines): Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation. (https://quezoncity.gov.ph/quezon-city-joins-global-effort-vs-deadly-extreme-heat/)
 
 - Brihanmumbai Municipal Corporation (Demand; City or district government; India): Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation. (https://portal.mcgm.gov.in)
 
 - Karachi Metropolitan Corporation (Demand; City or district government; Pakistan): Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation. (https://www.kmc.gos.pk)
 
-- Bureau of Energy Efficiency, India (Platform; Standards body; India): Administers efficiency labels covering air conditioners, fans and refrigeration. (https://beeindia.gov.in)
+- Bureau of Energy Efficiency, India (Platform; Standards body; India): Administers efficiency labels covering air conditioners, fans and refrigeration. (https://beeindia.gov.in/show_content.php?lang=1&level=1&ls_id=198&lid=322)
 
-- Delhi Disaster Management Authority (Demand; Government body; India): Coordinates Delhi’s heat action planning and partner responsibilities. (https://ddma.delhi.gov.in)
+- Delhi Disaster Management Authority (Demand; Government body; India): Coordinates Delhi’s heat action planning and partner responsibilities. (https://ddma.delhi.gov.in/ddma/ddma-plan-home)
 
 - Delhi Jal Board (Demand; Government body; India): Reports drinking-water preparedness and targeted extra tankers for heat-affected areas. (https://delhijalboard.delhi.gov.in)
 
@@ -2956,7 +2956,7 @@ Every link was opened by an automated check on 14 November 2026. A listing says 
 
 - Royal University of Phnom Penh (Supply; Research body; Cambodia): Partners in HAMR urban-heat adaptation research. (https://www.rupp.edu.kh)
 
-- Indian Institute of Public Health Gandhinagar (Supply; Research body; India): Provides public-health support for city heat action planning. (https://iiphg.edu.in)
+- Indian Institute of Public Health Gandhinagar (Supply; Research body; India): Provides public-health support for city heat action planning. (https://iiphg.edu.in/scientific-publications-heat-health-activities/)
 
 - Institute of Himalayan Risk Reduction (Supply; Research body; Nepal): Assessed institutions and opportunities for heat anticipatory action in Nepal. (https://ihrr.org.np)
 
@@ -2984,7 +2984,7 @@ Every link was opened by an automated check on 14 November 2026. A listing says 
 
 - Cambridge CARES (Supply; Research body; Singapore): Participates in Cooling Singapore 2.0 urban-climate modelling. (https://www.cares.cam.ac.uk)
 
-- CGAP (Supply; Research body; Place not stated in the listing): Analyses SEWA’s heat-finance evolution, including insurance and donor-funded cash. (https://www.cgap.org)
+- CGAP (Supply; Research body; Place not stated in the listing): Analyses SEWA’s heat-finance evolution, including insurance and donor-funded cash. (https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association)
 
 - International Food Policy Research Institute (Supply; Research body; Across the region): Received an announced grant to develop heat-resilient finance for street food vendors in South Asia. (https://www.ifpri.org)
 
@@ -3000,7 +3000,7 @@ Every link was opened by an automated check on 14 November 2026. A listing says 
 
 - CEPT University (Supply; Research body; India): Helped administer the Global Cooling Prize. (https://cept.ac.in)
 
-- La Isla Network (Supply; Network or alliance; Place not stated in the listing): Develops occupational heat-protection research and rest-shade-hydration programmes. (https://laislanetwork.org)
+- La Isla Network (Supply; Network or alliance; Place not stated in the listing): Develops occupational heat-protection research and rest-shade-hydration programmes. (https://laislanetwork.org/prevent-heat-stress/)
 
 ### Working on the ground
 
@@ -3072,11 +3072,11 @@ Every link was opened by an automated check on 14 November 2026. A listing says 
 
 - HeatWatch Foundation (Supply; Non-profit organisation; India): Develops domestic-worker heat research, training and public storytelling. (https://www.heatwatch.in)
 
-- HelpAge India (Supply; Non-profit organisation; India): Researches older people’s heat exposure, housing and care barriers. (https://www.helpageindia.org)
+- HelpAge India (Supply; Non-profit organisation; India): Researches older people’s heat exposure, housing and care barriers. (https://www.helpageindia.org/climate-resilient-ageing-report)
 
 - Dawat-e-Islami: FGRF (Supply; Non-profit organisation; Place not stated in the listing): Reports volunteer-run heat relief camps offering drinking water and related support. (https://www.dawateislami.net)
 
-- Build Change (Supply; Non-profit organisation; Indonesia): Pairs heat-resilient housing retrofits with microfinance and technical support. (https://buildchange.org)
+- Build Change (Supply; Non-profit organisation; Indonesia): Pairs heat-resilient housing retrofits with microfinance and technical support. (https://buildchange.org/extreme-heat-climate-resilient-housing-for-low-income-women-in-indonesia)
 
 - Disability Rights UK (Demand; Non-profit organisation; Place not stated in the listing): Launched an accessible survey on disabled people’s experiences of heatwaves. (https://www.disabilityrightsuk.org)
 
@@ -3106,7 +3106,7 @@ Every link was opened by an automated check on 14 November 2026. A listing says 
 
 - Banpu NEXT (Supply; Company; Thailand): Partners with SP Group on Bangkok district cooling. (https://www.banpunext.co.th)
 
-- Singapore Green Building Council (Supply; Network or alliance; Singapore): Co-leads Go25 to reduce building overcooling. (https://www.sgbc.sg)
+- Singapore Green Building Council (Supply; Network or alliance; Singapore): Co-leads Go25 to reduce building overcooling. (https://www.sgbc.sg/get-involved/go-25/)
 
 - Daikin (Supply; Company; Place not stated in the listing): Co-developed a winning climate-friendly cooling prototype. (https://www.daikin.com)
 
@@ -3356,7 +3356,7 @@ Every link was opened by an automated check on 14 November 2026. A listing says 
 
 - Global Resilience Partnership (Platform; Funder; Across the region): Supported MHT’s heat-inclusive community resilience programme in South Asia. (https://www.globalresiliencepartnership.org)
 
-- Ashden (Supply; Funder; Place not stated in the listing): Funded community-designed cooling through its Fair Cooling Fund. (https://ashden.org)
+- Ashden (Supply; Funder; Place not stated in the listing): Funded community-designed cooling through its Fair Cooling Fund. (https://ashden.org/fair-cooling-fund/)
 
 - H T Parekh Foundation (Supply; Funder; India): Supports heat intelligence and co-produced an urban-heat landscape report. (https://www.htparekhfoundation.com)
 
@@ -5670,11 +5670,11 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 
 https://beattheheat.asia/growing/
 
-See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 45 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
+See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 46 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
 
 ### How the work behind the commons grew
 
-Dated by the publication date of the work Common Shade draws on (1084 of 1909 works dated; 807 have no established date yet, 18 only an "online by" date; 411 links to organisations are counted apart and never dated). Common Shade began gathering this work in October 2026; the dates below are when the work was published, not when it was added.
+Dated by the publication date of the work Common Shade draws on (1084 of 1909 works dated; 807 have no established date yet, 18 only an "online by" date; 426 links to organisations are counted apart and never dated). Common Shade began gathering this work in October 2026; the dates below are when the work was published, not when it was added.
 
 - Before 2024: 467 works. Financing: 80; Institutions and plans: 67; Practical measures: 99; Experience: 19; Evidence: 202.
 
@@ -5682,11 +5682,13 @@ Dated by the publication date of the work Common Shade draws on (1084 of 1909 wo
 
 - 2025: 199 works published (114 with a known month), 860 in all by the end of the period. Financing: 172; Institutions and plans: 121; Practical measures: 180; Experience: 54; Evidence: 333.
 
-- 2026 so far: 224 works published (128 with a known month), 1084 in all by the end of the period. Financing: 231; Institutions and plans: 139; Practical measures: 241; Experience: 70; Evidence: 403.
+- 2026 so far: 224 works published (128 with a known month), 1084 in all by the end of the period. Financing: 230; Institutions and plans: 140; Practical measures: 241; Experience: 70; Evidence: 403.
 
 ### Changes, newest first
 
 - Tool improved: The heat network can be narrowed by place, action and part played. Added 14 November 2026 · Finder added to the list 14 November 2026. Why it matters (our reading): A reader can now ask who works on one action in one place, and each listing says what kind of body it is, where its listed work is and whether its link answered a check. Where nothing is listed for a place, the page says not found yet. Places: South and Southeast Asia. Review: Places are read from each listing’s own words, with reviewed corrections kept beside them; every link was opened by a check on GitHub and those that did not answer are listed, not rewritten; nothing is ranked. Next: Find who works where https://beattheheat.asia/heat-network/. Connections: Heat network (our reading): The finder is on the heat network page.
+
+- Connection documented: Listings in the heat network now open on the heat work itself. Added 14 November 2026 · Links deepened 14 November 2026. Why it matters (our reading): A first set of listings that linked only to an organisation’s homepage now link to the page that shows its heat work, such as a warning service, a plan or a report. Each new link was opened and read by a check before it replaced the old one. Places: South and Southeast Asia. Review: A link was used only if its page opened and held the words staged for it; the ones that did not pass are listed with the reason and keep their old link. Next: Open the heat network https://beattheheat.asia/heat-network/. Connections: Heat network (our reading): The deeper links are on the heat network page.
 
 - Evidence added: COP31, first check-in: health, early warning and money. Added 13 November 2026 · COP31 Health Day 9 November 2026. Why it matters (our reading): In COP31's first days, heat surfaced through a voluntary health initiative, the presidency's health theme, IFRC's finding on early warning and UNEP's adaptation finance gap, rather than through negotiating text. Each was verified at its primary source before joining the COP31 watch, and the watch now says plainly what it has not found yet. What the source says: "only 35% of countries have reported having health early warning systems for heat-related illness" (International Federation of Red Cross and Red Crescent Societies: IFRC COP31 Call to Action, 2026 https://www.ifrc.org/sites/default/files/2026-10/IFRC%20COP31%20Call%20to%20Action.pdf) Places: South and Southeast Asia. Topics: Anticipatory action, Dedicated heat budgets. Review: Ten claims staged and all ten passed the GitHub check at WHO, IFRC, UNEP, WMO, UN News and Health Policy Watch; two drafts reworded to match their sources; the cooling pledge, a named official's statement and civil-society asks set aside as not COP31 commitments. Next: Read the COP31 watch https://beattheheat.asia/signals/#cop31. Connections: Anticipatory action (from the site's records): IFRC's finding is about early warning that reaches health services. What it took to add this: The question: What has COP31 said about heat so far, confirmed at the source? 10 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 8 confirmed, and 2 could not be (2 blocked automated reading). 0 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: Whether any South or Southeast Asian government makes a heat commitment at COP31.
 

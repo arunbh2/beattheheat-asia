@@ -152,7 +152,7 @@
   "changed": "2026-11-13"
  },
  "/for-ai/": {
-  "hash": "450c75d2b9c55adf",
+  "hash": "77b91781e7c377b8",
   "changed": "2026-11-14"
  },
  "/fund/": {
@@ -164,7 +164,7 @@
   "changed": "2026-11-07"
  },
  "/growing/": {
-  "hash": "945e316385156c8d",
+  "hash": "bbb69a56dd2477b3",
   "changed": "2026-11-14"
  },
  "/guide/": {
@@ -196,7 +196,7 @@
   "changed": "2026-11-06"
  },
  "/heat-network/": {
-  "hash": "8d31fe3fc7ccdb55",
+  "hash": "0cff516c39a45c42",
   "changed": "2026-11-14"
  },
  "/heat-tools/": {
@@ -536,8 +536,8 @@
   "changed": "2026-11-06"
  },
  "/sources/": {
-  "hash": "23525f9e7e530e32",
-  "changed": "2026-11-13"
+  "hash": "694bb7cea000e51f",
+  "changed": "2026-11-14"
  },
  "/the-web/": {
   "hash": "9e4cbfc1931d024a",

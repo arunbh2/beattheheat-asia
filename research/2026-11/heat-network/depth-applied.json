@@ -1,0 +1,188 @@
+{
+ "bangladeshmeteorological": {
+  "was": "https://www.bmd.gov.bd",
+  "url": "https://live8.bmd.gov.bd/p/Heat-Wave-Warning",
+  "checked": "2026-11-14",
+  "found": [
+   "Heat Wave"
+  ],
+  "wasDoes": "Provides heatwave data used in Bangladesh Red Crescent early action.",
+  "does": "Publishes heat wave warnings, and provides the heatwave data used in Bangladesh Red Crescent early action."
+ },
+ "pagasa2": {
+  "was": "https://www.pagasa.dost.gov.ph",
+  "url": "https://www.pagasa.dost.gov.ph/press-release/174",
+  "checked": "2026-11-14",
+  "found": [
+   "iHeatMap",
+   "heat index",
+   "2025"
+  ],
+  "wasDoes": "Publishes the Philippines’ heat-index information service.",
+  "does": "Publishes the Philippines’ heat-index information service, including iHeatMap, an online map of the heat index launched in 2025."
+ },
+ "keralastatedisastermanag": {
+  "was": "https://sdma.kerala.gov.in",
+  "url": "https://sdma.kerala.gov.in/heat-actions/",
+  "checked": "2026-11-14",
+  "found": [
+   "Heat"
+  ]
+ },
+ "delhidisastermanagementa": {
+  "was": "https://ddma.delhi.gov.in",
+  "url": "https://ddma.delhi.gov.in/ddma/ddma-plan-home",
+  "checked": "2026-11-14",
+  "found": [
+   "Heat"
+  ]
+ },
+ "worldhealthorganization": {
+  "was": "https://www.who.int",
+  "url": "https://www.who.int/news/item/22-08-2025-who-wmo-issue-new-report-and-guidance-to-protect-workers-from-increasing-heat-stress",
+  "checked": "2026-11-14",
+  "found": [
+   "heat stress",
+   "WMO"
+  ]
+ },
+ "ministryoflabourandemplo": {
+  "was": "https://labour.gov.in",
+  "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2256186&reg=3&lang=1",
+  "checked": "2026-11-14",
+  "found": [
+   "Heatwave",
+   "Labour"
+  ],
+  "link": "third"
+ },
+ "singaporegreenbuildingco": {
+  "was": "https://www.sgbc.sg",
+  "url": "https://www.sgbc.sg/get-involved/go-25/",
+  "checked": "2026-11-14",
+  "found": [
+   "Go 25"
+  ]
+ },
+ "unenvironmentprogramme": {
+  "was": "https://www.unep.org",
+  "url": "https://www.unep.org/interactives/beat-the-heat/",
+  "checked": "2026-11-14",
+  "found": [
+   "Beat the Heat"
+  ]
+ },
+ "directorategeneralofheal": {
+  "was": "https://dghs.gov.bd",
+  "url": "https://www.unicef.org/press-releases/new-guidelines-launched-protect-children-and-pregnant-women-heat-stress-bangladesh",
+  "checked": "2026-11-14",
+  "found": [
+   "Directorate General of Health Services",
+   "heat"
+  ],
+  "link": "third"
+ },
+ "icleilocalgovernmentsfor": {
+  "was": "https://iclei.org",
+  "url": "https://iclei.org/heat-action-day/",
+  "checked": "2026-11-14",
+  "found": [
+   "Heat Action Day"
+  ]
+ },
+ "helpageindia": {
+  "was": "https://www.helpageindia.org",
+  "url": "https://www.helpageindia.org/climate-resilient-ageing-report",
+  "checked": "2026-11-14",
+  "found": [
+   "Climate Resilient Ageing"
+  ]
+ },
+ "internationalunionoffood": {
+  "was": "https://www.iuf.org",
+  "url": "https://www.iuf.org/news/iuf-call-to-action-on-extreme-heat/",
+  "checked": "2026-11-14",
+  "found": [
+   "Extreme Heat"
+  ]
+ },
+ "bureauofenergyefficiency": {
+  "was": "https://beeindia.gov.in",
+  "url": "https://beeindia.gov.in/show_content.php?lang=1&level=1&ls_id=198&lid=322",
+  "checked": "2026-11-14",
+  "found": [
+   "Labelling",
+   "Air Conditioner"
+  ]
+ },
+ "departmentofhydrologyand": {
+  "was": "https://www.dhm.gov.np",
+  "url": "https://dhm.gov.np/climate-services/heat-and-cold-wave-monitoring",
+  "checked": "2026-11-14",
+  "found": [
+   "Heat"
+  ],
+  "wasDoes": "Provided forecasts used to activate RAIN’s heat early action.",
+  "does": "Publishes hot day and heat wave bulletins, and provided the forecasts used to activate RAIN’s heat early action."
+ },
+ "quezoncitygovernment": {
+  "was": "https://quezoncity.gov.ph",
+  "url": "https://quezoncity.gov.ph/quezon-city-joins-global-effort-vs-deadly-extreme-heat/",
+  "checked": "2026-11-14",
+  "found": [
+   "extreme heat",
+   "Cool Cities"
+  ]
+ },
+ "urbanredevelopmentauthor": {
+  "was": "https://www.ura.gov.sg",
+  "url": "https://www.ura.gov.sg/Corporate/Get-Involved/Plan-Our-Future-SG/Innovative-Urban-Solutions/Heat-resilient-city",
+  "checked": "2026-11-14",
+  "found": [
+   "Heat"
+  ]
+ },
+ "laislanetwork": {
+  "was": "https://laislanetwork.org",
+  "url": "https://laislanetwork.org/prevent-heat-stress/",
+  "checked": "2026-11-14",
+  "found": [
+   "heat stress",
+   "shade"
+  ]
+ },
+ "cgap": {
+  "was": "https://www.cgap.org",
+  "url": "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association",
+  "checked": "2026-11-14",
+  "found": [
+   "SEWA",
+   "heat"
+  ]
+ },
+ "buildchange": {
+  "was": "https://buildchange.org",
+  "url": "https://buildchange.org/extreme-heat-climate-resilient-housing-for-low-income-women-in-indonesia",
+  "checked": "2026-11-14",
+  "found": [
+   "KOMIDA",
+   "heat"
+  ]
+ },
+ "ashden": {
+  "was": "https://ashden.org",
+  "url": "https://ashden.org/fair-cooling-fund/",
+  "checked": "2026-11-14",
+  "found": [
+   "Fair Cooling Fund"
+  ]
+ },
+ "indianinstituteofpublich": {
+  "was": "https://iiphg.edu.in",
+  "url": "https://iiphg.edu.in/scientific-publications-heat-health-activities/",
+  "checked": "2026-11-14",
+  "found": [
+   "Heat"
+  ]
+ }
+}

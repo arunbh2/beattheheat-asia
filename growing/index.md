@@ -5,7 +5,7 @@ updated: 2026-11-14
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 45 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 46 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-45 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 3 connections documented and 3 questions opened. Beneath them, 1,084 works the commons draws on carry a publication date, and 807 are still being dated.
+46 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 4 connections documented and 3 questions opened. Beneath them, 1,084 works the commons draws on carry a publication date, and 807 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -39,6 +39,27 @@ The finder is on the heat network page.
 [Find who works where](https://beattheheat.asia/heat-network/)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=The%20heat%20network%20can%20be%20narrowed%20by%20place%2C%20action%20and%20part%20played&ref=g-heat-network-finder#way-share)
+
+Connection documented · Institutions and plans
+
+### Listings in the heat network now open on the heat work itself
+
+Added 14 November 2026 · Links deepened 14 November 2026
+
+Why it matters our readingA first set of listings that linked only to an organisation’s homepage now link to the page that shows its heat work, such as a warning service, a plan or a report. Each new link was opened and read by a check before it replaced the old one.
+
+- South and Southeast Asia
+
+ReviewA link was used only if its page opened and held the words staged for it; the ones that did not pass are listed with the reason and keep their old link.
+
+How it connects
+
+- [Heat network](https://beattheheat.asia/heat-network/) Page · our reading
+The deeper links are on the heat network page.
+
+[Open the heat network](https://beattheheat.asia/heat-network/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Listings%20in%20the%20heat%20network%20now%20open%20on%20the%20heat%20work%20itself&ref=g-heat-network-depth-1#way-share)
 
 Evidence added · Evidence
 
@@ -1397,10 +1418,10 @@ Steps toward protection this year: [Bangkok opens 304 cooling centres](https://b
 - Evidence403
 - Experience70
 - Practical measures241
-- Institutions and plans139
-- Financing231
+- Institutions and plans140
+- Financing230
 
-Not yet dated: 807 works whose records carry no date, and 18 known only to have been online by a certain date. 411 links to organisations are counted apart and never dated. History before October 2026 is reconstructed only from these publication dates; Common Shade's own record of changes begins on 23 October 2026.
+Not yet dated: 807 works whose records carry no date, and 18 known only to have been online by a certain date. 426 links to organisations are counted apart and never dated. History before October 2026 is reconstructed only from these publication dates; Common Shade's own record of changes begins on 23 October 2026.
 
 ## What we've revised
 

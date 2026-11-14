@@ -15,6 +15,13 @@
     <summary>A reader can now ask who works on one action in one place, and each listing says what kind of body it is, where its listed work is and whether its link answered a check. Where nothing is listed for a place, the page says not found yet.</summary>
   </entry>
   <entry>
+    <title>Listings in the heat network now open on the heat work itself</title>
+    <link href="https://beattheheat.asia/growing/#g-heat-network-depth-1" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-heat-network-depth-1</id>
+    <updated>2026-11-14T00:00:00Z</updated>
+    <summary>A first set of listings that linked only to an organisation’s homepage now link to the page that shows its heat work, such as a warning service, a plan or a report. Each new link was opened and read by a check before it replaced the old one.</summary>
+  </entry>
+  <entry>
     <title>COP31, first check-in: health, early warning and money</title>
     <link href="https://beattheheat.asia/growing/#g-signals-cop31-checkin-1" rel="alternate" type="text/html"/>
     <id>https://beattheheat.asia/growing/#g-signals-cop31-checkin-1</id>
@@ -209,12 +216,5 @@
     <id>https://beattheheat.asia/growing/#g-living-evidence</id>
     <updated>2026-11-01T00:00:00Z</updated>
     <summary>New studies arrive every week. A Monday harvest opens a review, and only studies a person accepts join their cycles, so the map grows without lowering its bar.</summary>
-  </entry>
-  <entry>
-    <title>How heat is reported: a bibliography of coverage in many languages</title>
-    <link href="https://beattheheat.asia/growing/#g-media" rel="alternate" type="text/html"/>
-    <id>https://beattheheat.asia/growing/#g-media</id>
-    <updated>2026-10-31T00:00:00Z</updated>
-    <summary>Coverage shapes what decision-makers notice. Reading it together shows which harms and places get attention and which stay quiet, without judging any outlet.</summary>
   </entry>
 </feed>

@@ -1,0 +1,42 @@
+[
+ {
+  "id": "ndma",
+  "url": "https://ndma.gov.in/Natural-Hazards/Heat-Wave",
+  "why": "the page did not open for the check (FAIL)"
+ },
+ {
+  "id": "indiameteorologicaldepar",
+  "url": "https://mausam.imd.gov.in/responsive/heatwave_guidance.php",
+  "why": "the page did not open for the check (FAIL)"
+ },
+ {
+  "id": "pakistanmeteorologicalde",
+  "url": "https://rmc-punjab.pmd.gov.pk/heatwave-update",
+  "why": "the page did not open for the check (BLOCKED)"
+ },
+ {
+  "id": "departmentofmeteorologys",
+  "url": "https://meteo.gov.lk/pdfs/heat_pdf.pdf",
+  "why": "the page did not open for the check (FAIL)"
+ },
+ {
+  "id": "foodandagricultureorgani",
+  "url": "https://openknowledge.fao.org/handle/20.500.14283/cd9394en",
+  "why": "the page opened but these words were not found on it: Extreme heat and agriculture"
+ },
+ {
+  "id": "internationalorganizatio",
+  "url": "https://www.iso.org/standard/67188.html",
+  "why": "the page did not open for the check (BLOCKED)"
+ },
+ {
+  "id": "housingdevelopmentboards",
+  "url": "https://www.hdb.gov.sg/hdb-pulse/news/2026/hdb-awards-new-centralised-cooling-system-contract-to-keppel-for-9-bto-projects-in-tengah",
+  "why": "the page did not open for the check (BLOCKED)"
+ },
+ {
+  "id": "sentosadevelopmentcorpor",
+  "url": "https://www.sentosa.gov.sg/files/resources/news/20251007_Cooling_Sentosa_Media_Release__For_upload_.pdf",
+  "why": "the page did not open for the check (FAIL)"
+ }
+]
