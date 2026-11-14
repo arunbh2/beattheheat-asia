@@ -3,14 +3,14 @@
 .ht-wrap { padding-top: 20px; padding-bottom: 72px; }
 .ht-p { max-width: 46rem; }
 .ht-small { font-size: var(--fs-14); color: var(--grey-700); }
-.ht-note { max-width: 50rem; margin: 0 0 24px; padding: 12px 16px; background: var(--sand-50); font-size: .95rem; border:1px solid var(--line,#E6DFD4); border-color:color-mix(in srgb,var(--orange) 34%,var(--line,#E6DFD4)); border-radius:var(--r-sm,10px); }
+.ht-note { max-width: 50rem; margin: 0 0 24px; padding: var(--pad-compact); background: var(--sand-50); font-size: .95rem; border:1px solid var(--line,#E6DFD4); border-color:color-mix(in srgb,var(--orange) 34%,var(--line,#E6DFD4)); border-radius:var(--r-sm,10px); }
 .ht-h2 { font-family: var(--font-display); font-weight: 400; font-size: clamp(1.6rem, 1.2rem + 1.8vw, 2.4rem); line-height: 1.05; text-transform: uppercase; margin: 0 0 12px; }
 .ht-h3 { font-size: 1.2rem; margin: 0 0 8px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
 .ht-sec { margin-top: 48px; scroll-margin-top: calc(var(--header-h) + 24px); }
 .ht-h2:focus { outline: none; }
 
 /* the form */
-.ht-form { display: grid; gap: 16px; margin: 0 0 20px; padding: 18px; background: var(--white); border: 1px solid var(--line); border-radius: var(--r-md); box-shadow: var(--shadow-1); }
+.ht-form { display: grid; gap: 16px; margin: 0 0 20px; padding: 18px; background: var(--white); border: 1px solid var(--line); border-radius: var(--r-md); }
 .ht-fs { border: 0; margin: 0; padding: 0; min-width: 0; }
 .ht-fs legend { font-weight: 700; font-size: .95rem; margin-bottom: 8px; padding: 0; }
 .ht-legend { font-size: 1.1rem !important; }
@@ -49,7 +49,7 @@
 .ht-group__note { margin: 0 0 12px; color: var(--grey-700); font-size: .92rem; max-width: 46rem; }
 .ht-group--cs { padding-top: 20px; border:1px solid var(--line,#E6DFD4); border-color:color-mix(in srgb,var(--break) 34%,var(--line,#E6DFD4)); border-radius:var(--r-sm,10px); }
 .ht-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); gap: 14px; }
-.ht-card { display: flex; flex-direction: column; gap: 6px; padding: 16px; background: var(--white); border: 1px solid var(--line); border-radius: var(--r-md); box-shadow: var(--shadow-1); min-width: 0; }
+.ht-card { display: flex; flex-direction: column; gap: 6px; padding: 16px; background: var(--white); border: 1px solid var(--line); border-radius: var(--r-md); min-width: 0; }
 .ht-card--caution { border: 2px dashed var(--ember); }
 .ht-card p { margin: 0; }
 .ht-card__meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 0 0 4px; }
@@ -70,7 +70,7 @@
 .ht-card__go { font-weight: 700; color: var(--ink); text-decoration-color: var(--orange); text-underline-offset: 3px; min-height: 32px; display: inline-flex; align-items: center; }
 .ht-cmp { display: inline-flex; align-items: center; gap: 8px; min-height: 32px; font-weight: 600; font-size: .95rem; cursor: pointer; }
 .ht-cmp input { width: 20px; height: 20px; accent-color: var(--ember); margin: 0; }
-.ht-gap, .ht-empty { margin: 20px 0 0; padding: 14px 16px; border: 1px solid var(--line); border-radius: var(--r-md); background: var(--sand-50); max-width: 50rem; }
+.ht-gap, .ht-empty { margin: 20px 0 0; padding: var(--pad-compact); border: 1px solid var(--line); border-radius: var(--r-md); background: var(--sand-50); max-width: 50rem; }
 .ht-empty ul { list-style: none; padding: 0; margin: 8px 0; display: grid; gap: 6px; }
 
 /* comparison */
@@ -117,10 +117,10 @@
 .ht-copy { font: inherit; font-size: .9rem; background: none; border: 0; padding: 4px 0; text-decoration: underline; cursor: pointer; color: var(--ink); min-height: 32px; }
 
 /* profile pages */
-.ht-banner { max-width: 50rem; padding: 12px 16px; border-radius: var(--r-sm); background: var(--sand-50); border: 1px solid var(--line); }
+.ht-banner { max-width: 50rem; padding: var(--pad-compact); border-radius: var(--r-sm); background: var(--sand-50); border: 1px solid var(--line); }
 .ht-banner--caution { background: var(--ember-50); border: 2px solid var(--ember); }
 .ht-banner--provisional { background: #FFF6DF; border-color: var(--amber); }
-.ht-limit-lg { max-width: 50rem; font-size: 1.05rem; padding: 12px 16px; background: var(--sand-50); border:1px solid var(--line,#E6DFD4); border-color:color-mix(in srgb,var(--ember) 34%,var(--line,#E6DFD4)); border-radius:var(--r-sm,10px); }
+.ht-limit-lg { max-width: 50rem; font-size: 1.05rem; padding: var(--pad-compact); background: var(--sand-50); border:1px solid var(--line,#E6DFD4); border-color:color-mix(in srgb,var(--ember) 34%,var(--line,#E6DFD4)); border-radius:var(--r-sm,10px); }
 .ht-prof__acts { display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0 0; }
 .ht-prof .ht-sec { margin-top: 32px; max-width: 54rem; }
 .ht-srcs { padding-left: 1.2rem; display: grid; gap: 8px; }

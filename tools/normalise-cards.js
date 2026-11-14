@@ -28,7 +28,11 @@ for (const rel of R.FILES) {
     if (step("colours")) b = b.replace(/#[0-9a-fA-F]{6}\b/g, h => { const to = R.COLOUR[h.toLowerCase()]; if (!to) return h; note("colour", sel); return to; });
     if (step("shadows")) {
       const floats = /position\s*:\s*(fixed|sticky)/.test(b) || /:hover|:focus|is-open|is-on|\[open\]|dialog|popover|::backdrop|tooltip|tip\b|bar\b|-bar|__bar/.test(sel);
-      if (!floats) b = b.replace(/box-shadow\s*:\s*var\(--shadow-[12]\)/g, m => { note("shadow", sel); return "box-shadow: none"; });
+      if (!floats && !R.KEEP_SHADOW.some(k => sel.includes(k)) && /box-shadow\s*:\s*var\(--shadow-[12]\)/.test(b)) {
+        note("shadow", sel);
+        b = b.replace(/\s*box-shadow\s*:\s*var\(--shadow-[12]\)\s*;?/g, ";").replace(/^;/, "");
+        if (!/(^|[;{\s])border\s*:/.test(b)) b = b.replace(/\s*;?\s*$/, "; border: 1px solid var(--line) ");   // the shadow was its only outline
+      }
     }
     if (step("padding") && isBox) b = b.replace(/(^|[;{\s])padding\s*:\s*([^;}]+)/, (m, pre, v) => {
       const k = R.PAD_MAP[v.trim()]; if (!k) return m; note("padding", sel); return `${pre}padding: ${R.PAD[k]}`;
