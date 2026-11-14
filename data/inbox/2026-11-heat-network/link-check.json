@@ -1,13 +1,13 @@
 {
  "_terms": {
   "https://ndma.gov.in/Natural-Hazards/Heat-Wave": {
-   "Heat Wave": false
+   "Heat Wave": true
   },
   "https://mausam.imd.gov.in/responsive/heatwave_guidance.php": {
    "Heat Wave": false
   },
   "https://rmc-punjab.pmd.gov.pk/heatwave-update": {
-   "Heatwave": false
+   "Heatwave": true
   },
   "https://live8.bmd.gov.bd/p/Heat-Wave-Warning": {
    "Heat Wave": true
@@ -67,6 +67,37 @@
   "https://beeindia.gov.in/show_content.php?lang=1&level=1&ls_id=198&lid=322": {
    "Labelling": true,
    "Air Conditioner": true
+  },
+  "https://dhm.gov.np/climate-services/heat-and-cold-wave-monitoring": {
+   "Heat": true
+  },
+  "https://quezoncity.gov.ph/quezon-city-joins-global-effort-vs-deadly-extreme-heat/": {
+   "extreme heat": true,
+   "Cool Cities": true
+  },
+  "https://www.ura.gov.sg/Corporate/Get-Involved/Plan-Our-Future-SG/Innovative-Urban-Solutions/Heat-resilient-city": {
+   "Heat": true
+  },
+  "https://www.sentosa.gov.sg/files/resources/news/20251007_Cooling_Sentosa_Media_Release__For_upload_.pdf": {
+   "Cooling Sentosa": false
+  },
+  "https://laislanetwork.org/prevent-heat-stress/": {
+   "heat stress": true,
+   "shade": true
+  },
+  "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association": {
+   "SEWA": true,
+   "heat": true
+  },
+  "https://buildchange.org/extreme-heat-climate-resilient-housing-for-low-income-women-in-indonesia": {
+   "KOMIDA": true,
+   "heat": true
+  },
+  "https://ashden.org/fair-cooling-fund/": {
+   "Fair Cooling Fund": true
+  },
+  "https://iiphg.edu.in/scientific-publications-heat-health-activities/": {
+   "Heat": true
   }
  },
  "https://ndma.gov.in/Natural-Hazards/Heat-Wave": "FAIL",
@@ -88,5 +119,14 @@
  "https://iclei.org/heat-action-day/": "OK",
  "https://www.helpageindia.org/climate-resilient-ageing-report": "OK",
  "https://www.iuf.org/news/iuf-call-to-action-on-extreme-heat/": "OK",
- "https://beeindia.gov.in/show_content.php?lang=1&level=1&ls_id=198&lid=322": "OK"
+ "https://beeindia.gov.in/show_content.php?lang=1&level=1&ls_id=198&lid=322": "OK",
+ "https://dhm.gov.np/climate-services/heat-and-cold-wave-monitoring": "OK",
+ "https://quezoncity.gov.ph/quezon-city-joins-global-effort-vs-deadly-extreme-heat/": "OK",
+ "https://www.ura.gov.sg/Corporate/Get-Involved/Plan-Our-Future-SG/Innovative-Urban-Solutions/Heat-resilient-city": "OK",
+ "https://www.sentosa.gov.sg/files/resources/news/20251007_Cooling_Sentosa_Media_Release__For_upload_.pdf": "FAIL",
+ "https://laislanetwork.org/prevent-heat-stress/": "OK",
+ "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association": "OK",
+ "https://buildchange.org/extreme-heat-climate-resilient-housing-for-low-income-women-in-indonesia": "OK",
+ "https://ashden.org/fair-cooling-fund/": "OK",
+ "https://iiphg.edu.in/scientific-publications-heat-health-activities/": "OK"
 }
