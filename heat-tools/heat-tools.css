@@ -4,7 +4,7 @@
 .ht-p { max-width: 46rem; }
 .ht-small { font-size: var(--fs-14); color: var(--grey-700); }
 .ht-note { max-width: 50rem; margin: 0 0 24px; padding: var(--pad-compact); background: var(--sand-50); font-size: var(--fs-16); border:1px solid var(--line,#E6DFD4); border-color:color-mix(in srgb,var(--orange) 34%,var(--line,#E6DFD4)); border-radius:var(--r-sm,10px); }
-.ht-h2 { font-family: var(--font-display); font-weight: 400; font-size: clamp(1.6rem, 1.2rem + 1.8vw, 2.4rem); line-height: 1.15; text-transform: uppercase; margin: 0 0 12px; }
+.ht-h2 { font-family: var(--font-body); font-weight: 700; font-size: var(--fs-22); line-height: 1.15; text-transform: none; margin: 0 0 12px; }
 .ht-h3 { font-size: var(--fs-18); margin: 0 0 8px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
 .ht-sec { margin-top: 48px; scroll-margin-top: calc(var(--header-h) + 24px); }
 .ht-h2:focus { outline: none; }

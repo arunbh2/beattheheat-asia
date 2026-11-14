@@ -27,4 +27,10 @@ const FILES = ["styles.css", "growing/growing.css", "heat-tools/heat-tools.css",
 // never touched: the map and its drawn labels, the site menu, the pop-ups, print and films
 const SKIP = /(^|[\s,.#>-])(svg|text|tspan|node|edge|map|zoom|key__|legend|tick|axis|chart|csn|csx|csp|invite|cs-tip|site-menu|visually-hidden|sr-only|ticker|brand|wordmark)\b|@font-face|^:root|^@/i;
 const skip = sel => SKIP.test(sel);
-module.exports = { TOKENS, step, leading, FILES, SKIP, skip };
+// section headings (22px) and subheadings and card titles (18px) that were set in Anton or Newsreader, moved to Hanken
+// bold by tools/heading-voice.js. The homepage's story heads and components keep Anton; page titles (h1) keep Anton.
+const HEADINGS = {
+  22: [".hub-h", ".lv-h", ".wk-h", ".wk-h--wide", ".fa-h2", ".ht-h2", ".pm__h", ".mx-h", ".sg-h2", ".sp-h2", ".tg-h", ".sof-h", ".join-h", ".he-start__h", ".sol-gh", ".he-shelf", ".cty-s h2", ".br-s h2", ".guide-sec h2", ".who-head h2", ".cool__h", ".atrisk__h", ".cool-value__h", ".refs__group h2", ".he-shelf--big"],
+  18: [".md-h3", ".cty-s h3", ".cty-city h3", ".lv-card h3", ".rf-co h3", ".pl-ct h3", ".hap-doc__t", ".org__name", ".evm-q h3", ".sof-card h3", ".tg-outside h3", ".rf-side h3", ".rf-rib__s h3", ".bp-ct h3", ".he-role h3", ".sg-h", ".he-aud__card h3", ".he-seg h3", ".lc-reader h3", ".sol-pkg h3"]
+};
+module.exports = { TOKENS, step, leading, FILES, SKIP, skip, HEADINGS };

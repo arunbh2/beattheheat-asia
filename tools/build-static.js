@@ -106,8 +106,8 @@ function page(p, intro, body, extraLd) {
     header .home{font-weight:800;letter-spacing:.04em;text-decoration:none}
     nav a{margin-right:12px}
     h1{font-family:Anton,Impact,"Arial Narrow",sans-serif;font-weight:400;text-transform:uppercase;font-size:clamp(2rem,1.5rem + 3vw,3.2rem);line-height:1.02;margin:28px 0 10px}
-    h2{font-size:1.35rem;margin:34px 0 6px;border-top:2px solid #16202B;padding-top:14px}
-    h3{font-size:1.05rem;margin:22px 0 4px}
+    h2{font-size:1.375rem;margin:34px 0 6px;border-top:2px solid #16202B;padding-top:14px}
+    h3{font-size:1.125rem;margin:22px 0 4px}
     .lede{font-size:1.1rem;color:#39424D}
     .src,.meta{font-size:.85rem;color:#5E6570}
     .cta{display:inline-block;margin:14px 0;padding:10px 18px;border-radius:999px;background:#F26430;color:#16202B;font-weight:800;text-decoration:none}
