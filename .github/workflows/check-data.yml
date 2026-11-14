@@ -23,3 +23,5 @@ jobs:
         run: node tools/check-voice.js
       - name: the weekly evidence review queue is complete where accepted
         run: node tools/living-evidence/check.js
+      - name: no accent stripes down one edge of cards or notes
+        run: node tools/check-stripes.js
