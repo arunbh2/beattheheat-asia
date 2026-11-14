@@ -1,0 +1,293 @@
+{
+ "uclg": {
+  "type": "network",
+  "why": "a membership network by its own name or description"
+ },
+ "icleilocalgovernmentsfor": {
+  "type": "network",
+  "why": "a membership network by its own name or description"
+ },
+ "coolcoalition": {
+  "type": "network",
+  "why": "a membership network by its own name or description"
+ },
+ "base": {
+  "type": "finance",
+  "why": "listed for financing models"
+ },
+ "cfi": {
+  "type": "finance",
+  "why": "listed for financing models"
+ },
+ "clasp": {
+  "type": "ngo",
+  "why": "a non-profit, not a company or agency"
+ },
+ "rmi": {
+  "type": "ngo",
+  "why": "a non-profit, not a company or agency"
+ },
+ "seforall": {
+  "type": "ngo",
+  "why": "a non-profit, not a company or agency"
+ },
+ "crc": {
+  "type": "ngo",
+  "why": "a non-profit, not a company or agency"
+ },
+ "theconduitfoundation": {
+  "type": "ngo",
+  "why": "a non-profit, not a company or agency"
+ },
+ "crrc": {
+  "type": "standards",
+  "why": "rates and publishes product performance"
+ },
+ "paa": {
+  "type": "funder",
+  "why": "listed for the funding it gives"
+ },
+ "chfc": {
+  "type": "funder",
+  "why": "listed for the funding it gives"
+ },
+ "apn": {
+  "type": "funder",
+  "why": "listed for the funding it gives"
+ },
+ "globalresiliencepartners": {
+  "type": "funder",
+  "why": "listed for the funding it gives"
+ },
+ "cpi": {
+  "type": "research",
+  "why": "listed for analysis"
+ },
+ "cgap": {
+  "type": "research",
+  "why": "listed for analysis"
+ },
+ "microsaveconsulting": {
+  "type": "research",
+  "why": "listed for analysis"
+ },
+ "sattvaconsulting": {
+  "type": "research",
+  "why": "listed for analysis"
+ },
+ "ifc": {
+  "type": "multilateral",
+  "why": "an international finance institution"
+ },
+ "opecfund": {
+  "type": "multilateral",
+  "why": "an international finance institution"
+ },
+ "mas": {
+  "type": "government",
+  "why": "a central bank or financial regulator"
+ },
+ "bot": {
+  "type": "government",
+  "why": "a central bank or financial regulator"
+ },
+ "ojk": {
+  "type": "government",
+  "why": "a central bank or financial regulator"
+ },
+ "bsp": {
+  "type": "government",
+  "why": "a central bank or financial regulator; the organisation's own name",
+  "countries": [
+   "PH"
+  ]
+ },
+ "sbv": {
+  "type": "government",
+  "why": "a central bank or financial regulator"
+ },
+ "bangladeshbank": {
+  "type": "government",
+  "why": "a central bank or financial regulator"
+ },
+ "nrb": {
+  "type": "government",
+  "why": "a central bank or financial regulator"
+ },
+ "rbi": {
+  "type": "government",
+  "why": "a central bank or financial regulator"
+ },
+ "moes": {
+  "type": "government",
+  "why": "a public research funder"
+ },
+ "dst": {
+  "type": "government",
+  "why": "a public research funder"
+ },
+ "icmr": {
+  "type": "government",
+  "why": "a public research funder"
+ },
+ "nrfsg": {
+  "type": "government",
+  "why": "a public research funder"
+ },
+ "rgchk": {
+  "type": "government",
+  "why": "a public research funder"
+ },
+ "hecpk": {
+  "type": "government",
+  "why": "a public research funder"
+ },
+ "nihr": {
+  "type": "government",
+  "why": "a public research funder"
+ },
+ "nsf": {
+  "type": "government",
+  "why": "a public research funder"
+ },
+ "forskningsradet": {
+  "type": "government",
+  "why": "a public research funder"
+ },
+ "snsf": {
+  "type": "government",
+  "why": "a public research funder"
+ },
+ "singaporegreenbuildingco": {
+  "type": "network",
+  "why": "a membership body"
+ },
+ "allianceforanenergyeffic": {
+  "type": "network",
+  "why": "a membership body"
+ },
+ "indianinstituteoftropica": {
+  "type": "weather",
+  "why": "a meteorological institute"
+ },
+ "ukmetoffice": {
+  "type": "weather",
+  "why": "a meteorological institute"
+ },
+ "stjohnsmedicalcollegehos": {
+  "type": "health",
+  "why": "a health service"
+ },
+ "sindhintegratedemergency": {
+  "type": "health",
+  "why": "a health service"
+ },
+ "bsesdelhidistributionuti": {
+  "type": "company",
+  "why": "a utility"
+ },
+ "spgroup": {
+  "type": "company",
+  "why": "a utility"
+ },
+ "tarutium": {
+  "type": "company",
+  "why": "a consultancy"
+ },
+ "alluvium": {
+  "type": "company",
+  "why": "a consultancy"
+ },
+ "shrikashivishwanathtempl": {
+  "type": "ngo",
+  "why": "a faith-based trust"
+ },
+ "dawateislamifgrf": {
+  "type": "ngo",
+  "why": "a faith-based trust"
+ },
+ "worldhealthorganization": {
+  "type": "multilateral",
+  "why": "a UN agency"
+ },
+ "wmo": {
+  "type": "multilateral",
+  "why": "a UN agency"
+ },
+ "climatecentre": {
+  "type": "redcross",
+  "why": "part of the Red Cross Red Crescent Movement"
+ },
+ "britishredcross": {
+  "type": "redcross",
+  "why": "part of the Red Cross Red Crescent Movement"
+ },
+ "americanredcross": {
+  "type": "redcross",
+  "why": "part of the Red Cross Red Crescent Movement"
+ },
+ "employeesstateinsurancec": {
+  "type": "government",
+  "why": "a public social insurance body"
+ },
+ "sewa": {
+  "countries": [
+   "IN"
+  ],
+  "why": "placed by another record on this list (HERA: India's 2024 heatwaves)"
+ },
+ "jansahas": {
+  "countries": [
+   "IN"
+  ],
+  "why": "placed by another record on this list (K.M. Dastur: an Indian partnership)"
+ },
+ "icicilombardgeneralinsur": {
+  "countries": [
+   "IN"
+  ],
+  "why": "the same insurer as the record icicilombard, which names India"
+ },
+ "htparekhfoundation": {
+  "countries": [
+   "IN"
+  ],
+  "why": "the same foundation as the record htparekh, which names India"
+ },
+ "komida2": {
+  "countries": [
+   "ID"
+  ],
+  "why": "placed by another record on this list (KOMIDA, with Build Change: Indonesia)"
+ },
+ "buildchange": {
+  "countries": [
+   "ID"
+  ],
+  "why": "placed by another record on this list (KOMIDA, with Build Change: Indonesia)"
+ },
+ "peopleinneed": {
+  "countries": [
+   "NP"
+  ],
+  "why": "RAIN is placed in Nepal by other records on this list"
+ },
+ "communityselfreliancecen": {
+  "countries": [
+   "NP"
+  ],
+  "why": "RAIN is placed in Nepal by other records on this list"
+ },
+ "localinitiativesforbiodi": {
+  "countries": [
+   "NP"
+  ],
+  "why": "RAIN is placed in Nepal by other records on this list"
+ },
+ "youthinnovationlab": {
+  "countries": [
+   "NP"
+  ],
+  "why": "RAIN is placed in Nepal by other records on this list"
+ }
+}

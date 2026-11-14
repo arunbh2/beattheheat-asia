@@ -1,7 +1,7 @@
 ---
 title: "Nepal: heat country snapshot"
 url: https://beattheheat.asia/countries/nepal/
-updated: 2026-11-06
+updated: 2026-11-14
 licence: CC BY 4.0
 ---
 
@@ -520,6 +520,8 @@ Listing does not imply partnership, endorsement or ranking.
 - **[Zurich Climate Resilience Alliance ](https://zcralliance.org/)** Supports documented Nepal school heat work and warning-system learning.
 
 Other snapshots: [Bangladesh](https://beattheheat.asia/countries/bangladesh/) · [India](https://beattheheat.asia/countries/india/) · [Indonesia](https://beattheheat.asia/countries/indonesia/) · [Philippines](https://beattheheat.asia/countries/philippines/) · [Sri Lanka](https://beattheheat.asia/countries/sri-lanka/) · [Thailand](https://beattheheat.asia/countries/thailand/) · [Solutions library](https://beattheheat.asia/solutions/)
+
+**Who is already working here.** Organisations whose listed heat work is in Nepal, by the part each plays. [The heat network](https://beattheheat.asia/heat-network/?country=NP)
 
 ---
 Human edition: https://beattheheat.asia/countries/nepal/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

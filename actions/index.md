@@ -1,7 +1,7 @@
 ---
 title: "Actions that break the vicious cycles of extreme heat | Common Shade"
 url: https://beattheheat.asia/actions/
-updated: 2026-11-09
+updated: 2026-11-14
 licence: CC BY 4.0
 ---
 
@@ -50,7 +50,7 @@ Sources: [UNEP, reported by IISD: Kigali Amendment enters into force](https://sd
 
 - [India Cooling Action Plan](https://ozonecell.nic.in/home-page/resource-informations/reports-publications/india-cooling-action-plan/) Ministry of Environment, Forest and Climate Change, India, 2019
 
-[See it on the map](https://beattheheat.asia/#break-cleancool)
+[See it on the map](https://beattheheat.asia/#break-cleancool) · [Who works on this](https://beattheheat.asia/heat-network/?action=cleancool)
 
 ## Keep water in the soil
 
@@ -60,7 +60,7 @@ Cuts the link: Drying soils → Extreme heat. How soon it works: 1–3 years. Wh
 
 **Could help interrupt:** [The dry-soil loop](https://beattheheat.asia/loops/#soil)
 
-[See it on the map](https://beattheheat.asia/#break-soilwater)
+[See it on the map](https://beattheheat.asia/#break-soilwater) · [Who works on this](https://beattheheat.asia/heat-network/?action=soilwater)
 
 ## Cut black carbon
 
@@ -74,7 +74,7 @@ Cuts the link: Glacier and snow melt → Extreme heat. How soon it works: 1–3 
 
 - [Cleaner brick production: a natural-draught zig-zag kiln case study](https://www.ccacoalition.org/resources/cleaner-brick-production-case-study-2-production-bricks-through-natural-draft-zigzag-kiln) Climate and Clean Air Coalition
 
-[See it on the map](https://beattheheat.asia/#break-blackcarbon)
+[See it on the map](https://beattheheat.asia/#break-blackcarbon) · [Who works on this](https://beattheheat.asia/heat-network/?action=blackcarbon)
 
 ## Fire-smart landscapes
 
@@ -103,7 +103,7 @@ Cuts the link: Cooling demand peaks → Urban heat islands. How soon it works: A
 - [Heat in the city: guidance and resources for urban heat](https://heathealth.info/in-the-city/) Global Heat Health Information Network (GHHIN)
 - [Heat Resilient Cities Framework: heat stress mitigation built into housing, mobility, water systems and building norms (pp. 6-8)](https://niua.in/publication-details/Heat_Resilient_Cities_Framework) National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026
 
-[See it on the map](https://beattheheat.asia/#break-coolbydesign)
+[See it on the map](https://beattheheat.asia/#break-coolbydesign) · [Who works on this](https://beattheheat.asia/heat-network/?action=coolbydesign)
 
 ## Green, cool cities
 
@@ -123,7 +123,7 @@ Sources: [Cooling Singapore: digital urban climate twin](https://www.thegpsc.org
 - [Nature-Based Solutions to Climate Change Adaptation in Urban Areas](https://doi.org/10.1007/978-3-319-56091-5) Kabisch, Korn, Stadler and Bonn (eds), Springer, 2017, open access
 - [Heat in the city: guidance and resources for urban heat](https://heathealth.info/in-the-city/) Global Heat Health Information Network (GHHIN)
 
-[See it on the map](https://beattheheat.asia/#break-greencity)
+[See it on the map](https://beattheheat.asia/#break-greencity) · [Who works on this](https://beattheheat.asia/heat-network/?action=greencity)
 
 ## Keep city trees alive
 
@@ -184,7 +184,7 @@ Cuts the link: Power cuts and grid stress → Water shortages. How soon it works
 
 - [Climate-resilient water safety plans: managing health risks associated with climate variability and change](https://www.who.int/publications/i/item/9789241512794) World Health Organization, 2017
 
-[See it on the map](https://beattheheat.asia/#break-pumpbackup)
+[See it on the map](https://beattheheat.asia/#break-pumpbackup) · [Who works on this](https://beattheheat.asia/heat-network/?action=pumpbackup)
 
 ## Smart irrigation and groundwater rules
 
@@ -202,7 +202,7 @@ Sources: [Mishra et al., 2020: moist heat stress extremes in India enhanced by i
 
 - [Atal Bhujal Yojana: India’s scheme for community-led groundwater management](https://www.ceew.in/publications/atal-bhujal-yojana-scheme-for-sustainable-participatory-groundwater-resources-management) Council on Energy, Environment and Water (CEEW)
 
-[See it on the map](https://beattheheat.asia/#break-irrigate)
+[See it on the map](https://beattheheat.asia/#break-irrigate) · [Who works on this](https://beattheheat.asia/heat-network/?action=irrigate)
 
 ## Crop insurance and fair credit
 
@@ -216,7 +216,7 @@ Cuts the link: Failing harvests → Farmers fall into debt. How soon it works: 1
 
 - [Pradhan Mantri Fasal Bima Yojana, India’s national crop insurance scheme](https://pmfby.gov.in/) Ministry of Agriculture and Farmers Welfare, India
 
-[See it on the map](https://beattheheat.asia/#break-farmcredit)
+[See it on the map](https://beattheheat.asia/#break-farmcredit) · [Who works on this](https://beattheheat.asia/heat-network/?action=farmcredit)
 
 ## Heat action plans
 
@@ -240,7 +240,7 @@ Sources: [Red Cross Red Crescent Climate Centre: Dhangadhi Heat Action Plan 2025
 - [How can heat action plans make Thane a heat-resilient city?](https://www.ceew.in/publications/how-can-thane-city-tackle-heatwaves-risks-with-heat-action-plan) Council on Energy, Environment and Water (CEEW)
 - [Heat Resilient Cities Framework: a yearly city intervention plan, and a long-term heat resilience perspective that extends a city's heat action plan (pp. 1, 3-4, 10)](https://niua.in/publication-details/Heat_Resilient_Cities_Framework) National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026
 
-[See it on the map](https://beattheheat.asia/#break-hap)
+[See it on the map](https://beattheheat.asia/#break-hap) · [Who works on this](https://beattheheat.asia/heat-network/?action=hap)
 
 ## Heat-ready health services
 
@@ -260,7 +260,7 @@ Sources: [Thomson Reuters Foundation, via Eco-Business: Brahmaputra boat clinic 
 - [Climate change and health: heat-illness guidelines, emergency cooling guidance and heat stroke units](https://ncdc.mohfw.gov.in/includes/About/CentresAndDivision/CEOH.php) National Centre for Disease Control, India
 - [India in a Warming World: Strengthening Heat-Health Action](https://www.ceew.in/publications/india-heat-health-action) Council on Energy, Environment and Water (CEEW), for the GHHIN South Asia hub, 2026
 
-[See it on the map](https://beattheheat.asia/#break-readyclinics)
+[See it on the map](https://beattheheat.asia/#break-readyclinics) · [Who works on this](https://beattheheat.asia/heat-network/?action=readyclinics)
 
 ## Heat-safe work
 
@@ -279,7 +279,7 @@ Sources: [Singapore Ministry of Manpower, 2023](https://www.mom.gov.sg/newsroom/
 - [Heat at work: the first joint global guidance on workplace heat stress](https://heathealth.info/at-work/) WHO and WMO, in the GHHIN resource library
 - [Heat Resilient Cities Framework: occupational heat protection for informal workers indoors and out, and who carries duties where there is no single employer (pp. 4, 8)](https://niua.in/publication-details/Heat_Resilient_Cities_Framework) National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026
 
-[See it on the map](https://beattheheat.asia/#break-heatrules)
+[See it on the map](https://beattheheat.asia/#break-heatrules) · [Who works on this](https://beattheheat.asia/heat-network/?action=heatrules)
 
 ## Income protection in heatwaves
 
@@ -299,7 +299,7 @@ Sources: [ICMIF, 2024: IBISA launches a parametric heat-index product for women 
 - [Parametric heat and rainfall insurance for informal women workers](https://www.sewainsurance.org/wp-content/uploads/2025/12/Parametric-Heat-and-Rainfall-Insurance-for-Informal-Women-Workers.pdf) VimoSEWA, 2025
 - [Confronting the climate and health nexus: lessons from the Self-Employed Women’s Association (SEWA)](https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association) CGAP
 
-[See it on the map](https://beattheheat.asia/#break-heatcash)
+[See it on the map](https://beattheheat.asia/#break-heatcash) · [Who works on this](https://beattheheat.asia/heat-network/?action=heatcash)
 
 ## Social protection floors
 
@@ -317,7 +317,7 @@ Sources: [Anticipation Hub: shock-responsive social protection simulation for an
 
 - [Addressing the impacts of extreme heat through social protection](https://www.ilo.org/resource/article/addressing-impacts-extreme-heat-through-social-protection) International Labour Organization
 
-[See it on the map](https://beattheheat.asia/#break-socialprotection)
+[See it on the map](https://beattheheat.asia/#break-socialprotection) · [Who works on this](https://beattheheat.asia/heat-network/?action=socialprotection)
 
 ## Free care for heat illness
 
@@ -336,7 +336,7 @@ Sources: [Ministry of Health, Singapore: MediFund](https://www.moh.gov.sg/managi
 - [Climate change and health: heat-illness guidelines, emergency cooling guidance and heat stroke units](https://ncdc.mohfw.gov.in/includes/About/CentresAndDivision/CEOH.php) National Centre for Disease Control, India
 - [National Action Plan on Heat-Related Illness](https://ncdc.mohfw.gov.in/uploads/pdf/heat12.pdf) National Centre for Disease Control, Ministry of Health and Family Welfare, India, 2021
 
-[See it on the map](https://beattheheat.asia/#break-freecare)
+[See it on the map](https://beattheheat.asia/#break-freecare) · [Who works on this](https://beattheheat.asia/heat-network/?action=freecare)
 
 ## Affordable cooling for the poorest
 
@@ -356,7 +356,7 @@ Sources: [Chaseling et al., 2025: older adults' responses to fan use in heat ext
 - [Chilling Prospects Special: Gender and Access to Cooling](https://www.seforall.org/our-work/research-analysis/chilling-prospects-series/chilling-prospects-special-gender) Sustainable Energy for All
 - [Heat Resilient Cities Framework: cooling access treated as a public service and a question of energy justice, including for tenants and informal settlements (pp. 8-9)](https://niua.in/publication-details/Heat_Resilient_Cities_Framework) National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026
 
-[See it on the map](https://beattheheat.asia/#break-affordablecool)
+[See it on the map](https://beattheheat.asia/#break-affordablecool) · [Who works on this](https://beattheheat.asia/heat-network/?action=affordablecool)
 
 ## Cool, affordable housing
 
@@ -379,7 +379,7 @@ Sources: [Vellingiri et al., 2020: cool roofs and indoor temperatures in Ahmedab
 - [Telangana’s cool roof policy: from pilot demonstration to policy](https://www.theclimategroup.org/our-work/publications/telanganas-cool-roof-policy-pilot-demonstration-policy-implementation) The Climate Group
 - [£17.5m for research testing heat adaptations, including a trial of reflective roof coatings with a site in India](https://wellcome.org/insights/articles/wellcome-awards-ps175m-support-global-research-drive) Wellcome
 
-[See it on the map](https://beattheheat.asia/#break-coolhousing)
+[See it on the map](https://beattheheat.asia/#break-coolhousing) · [Who works on this](https://beattheheat.asia/heat-network/?action=coolhousing)
 
 ## Keep children in school
 
@@ -397,7 +397,7 @@ Sources: [Tamil Nadu State Planning Commission, Beating the Heat: Tamil Nadu Hea
 
 - [Learning Interrupted: global snapshot of climate-related school disruptions](https://www.unicef.org/reports/learning-interrupted) UNICEF, 2026
 
-[See it on the map](https://beattheheat.asia/#break-keepinschool)
+[See it on the map](https://beattheheat.asia/#break-keepinschool) · [Who works on this](https://beattheheat.asia/heat-network/?action=keepinschool)
 
 ## Cool nights and support
 
@@ -412,7 +412,7 @@ Cuts the link: Sleepless hot nights → Mental health suffers. How soon it works
 - [How summer heat affects health, and how to keep cool, including cooling homes at night](https://www.who.int/europe/news/item/23-06-2025-how-summer-heat-impacts-health-and-how-to--keepcool) WHO Regional Office for Europe, 2025
 - [Climate and mental health: uncovering how heat affects anxiety, depression and psychosis](https://wellcome.org/research-funding/schemes/climate-and-mental-health-award-uncovering-mechanisms-between-heat-and) Wellcome
 
-[See it on the map](https://beattheheat.asia/#break-coolnights)
+[See it on the map](https://beattheheat.asia/#break-coolnights) · [Who works on this](https://beattheheat.asia/heat-network/?action=coolnights)
 
 ## Count every heat death
 
@@ -432,7 +432,7 @@ Sources: [WHO, 2026: climate change country profile, Timor-Leste](https://cdn.wh
 - [National Action Plan on Heat-Related Illness](https://ncdc.mohfw.gov.in/uploads/pdf/heat12.pdf) National Centre for Disease Control, Ministry of Health and Family Welfare, India, 2021
 - [Heat Resilient Cities Framework: heat-health surveillance and records of heat illness and deaths, disaggregated by social group and neighbourhood (pp. 9-10)](https://niua.in/publication-details/Heat_Resilient_Cities_Framework) National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026
 
-[See it on the map](https://beattheheat.asia/#break-countdeaths)
+[See it on the map](https://beattheheat.asia/#break-countdeaths) · [Who works on this](https://beattheheat.asia/heat-network/?action=countdeaths)
 
 ## Cooling centres and check-ins
 
@@ -459,7 +459,7 @@ Sources: [UNDP and Bangkok Metropolitan Administration: Bangkok's financing stra
 - [The use of cooling centers to prevent heat-related illness: evidence and strategies for implementation](https://heathealth.info/wp-content/uploads/cdc_47657_DS1-compressed-1.pdf) US Centers for Disease Control and Prevention, in the GHHIN resource library
 - [Heat Resilient Cities Framework: shade, drinking water, alerts, cool surfaces and basic public cooling first, as low-cost protection that reaches many people quickly (p. 6)](https://niua.in/publication-details/Heat_Resilient_Cities_Framework) National Institute of Urban Affairs, Climate Centre for Cities (C-Cube), 2026
 
-[See it on the map](https://beattheheat.asia/#break-coolingcentres)
+[See it on the map](https://beattheheat.asia/#break-coolingcentres) · [Who works on this](https://beattheheat.asia/heat-network/?action=coolingcentres)
 
 ## Dedicated heat budgets
 
@@ -478,7 +478,7 @@ Sources: [CEEW, Nepal in a Warming World, 2025](https://www.ceew.in/publications
 - [Finding the Finance: a guide to identifying centrally sponsored schemes to fund heat resilience](https://cprindia.org/workingpapers/finding-the-finance-a-guide-to-identifying-centrally-sponsored-schemes-to-fund-heat-resilience-solutions/) Centre for Policy Research, India
 - [How is India adapting to heatwaves? An assessment of 37 heat action plans](https://cprindia.org/briefsreports/how-is-india-adapting-to-heatwaves-an-assessment-of-heat-action-plans-with-insights-for-transformative-climate-action/) Centre for Policy Research, India, 2023
 
-[See it on the map](https://beattheheat.asia/#break-heatbudget)
+[See it on the map](https://beattheheat.asia/#break-heatbudget) · [Who works on this](https://beattheheat.asia/heat-network/?action=heatbudget)
 
 ## Anticipatory action
 
@@ -498,7 +498,7 @@ Sources: [Red Cross Red Crescent Climate Centre, 2024](https://www.climatecentre
 - [Early warning systems: resources](https://zcralliance.org/resources-ews/) Zurich Climate Resilience Alliance
 - [Thriving in a Warming World: climate intelligence for extreme heat](https://www.ceew.in/sites/default/files/ceew-thriving-warming-world-climate-intelligence-extreme-heat.pdf) Council on Energy, Environment and Water (CEEW), 2026
 
-[See it on the map](https://beattheheat.asia/#break-anticipatory)
+[See it on the map](https://beattheheat.asia/#break-anticipatory) · [Who works on this](https://beattheheat.asia/heat-network/?action=anticipatory)
 
 ## Heat-smart lending
 
@@ -519,7 +519,7 @@ Sources: [Philstar: BSP expands calamity relief for banks and borrowers, 2025](h
 - [Policy library: environmental, social and climate risk rules for banks, country by country](https://www.sbfnetwork.org/) Sustainable Banking and Finance Network (regulators and banking associations from emerging markets)
 - [Inclusive finance and extreme heat: how small loans and parametric insurance can help people through deadly heatwaves](https://centerforfinancialinclusion.org/inclusive-finance-and-extreme-heat-how-small-loans-and-parametric-insurance-can-help-vulnerable-populations-manage-through-deadly-heat-waves) Center for Financial Inclusion, 2023
 
-[See it on the map](https://beattheheat.asia/#break-heatlending)
+[See it on the map](https://beattheheat.asia/#break-heatlending) · [Who works on this](https://beattheheat.asia/heat-network/?action=heatlending)
 
 ## Shared risk pools
 
@@ -538,7 +538,7 @@ Sources: [World Bank: sovereign catastrophe risk pools, 15 years on](https://blo
 - [Scaling Parametric Insurance in Asia: regulation, design, basis risk and why pilots stall](https://www.gaip.global/publications/scaling-parametric-insurance-in-asia/) Global Asia Insurance Partnership, 2026
 - [Global Shield against Climate Risks in Pakistan: pre-arranged finance for climate shocks](https://www.undp.org/pakistan/projects/global-shield-against-climate-risks) UNDP
 
-[See it on the map](https://beattheheat.asia/#break-riskpools)
+[See it on the map](https://beattheheat.asia/#break-riskpools) · [Who works on this](https://beattheheat.asia/heat-network/?action=riskpools)
 
 ## Heat-safe pregnancy and newborn care
 

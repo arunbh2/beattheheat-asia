@@ -46,6 +46,7 @@ const ENDPOINTS = [
   ["/data/core/CITY_PROFILES.json", "the city profiles", "JSON"],
   ["/data/core/HEATWAVES.json", "heatwaves from 1998 to 2026", "JSON"],
   ["/data/core/ORGANISATIONS.json", "the organisations in the heat network", "JSON"],
+  ["/data/core/ORG_FACETS.json", "for each organisation: where its listed work is, what kind of body it is, and when its link last answered a check", "JSON"],
   ["/data/core/GLOSSARY.json", "the glossary", "JSON"],
   ["/data/site/signals.json", "announcements and commitments on heat, each on the ladder from announced to evaluated", "JSON"],
   ["/data/heat-tools/catalogue.json", "the Heat Tool Finder catalogue: tools, datasets and warning services with their inputs, outputs, limits and review depth (never ranked)", "JSON"],

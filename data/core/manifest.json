@@ -177,6 +177,13 @@
   "inside": []
  },
  {
+  "name": "ORG_FACETS",
+  "file": "ORG_FACETS.json",
+  "notes": "/* ---------- 31c. THE HEAT NETWORK FINDER: facts about each organisation ---------- */\n// For /heat-network/: where each organisation’s listed work is (countries, scale), what kind of body it is (type), what its link shows\n// (work, home or third) and when that link last answered a check on GitHub (checked). Do not edit by hand: it is written by\n// research/2026-11/heat-network/apply.js from the record’s own words, reviewed edits and the link check, and checked by\n// tools/check-heat-network.js. Build-only (\"browser\": false): it is not in data.js, so no homepage visitor downloads it.",
+  "inside": [],
+  "browser": false
+ },
+ {
   "name": "ORG_SIDE",
   "file": "ORG_SIDE.json",
   "notes": "",
