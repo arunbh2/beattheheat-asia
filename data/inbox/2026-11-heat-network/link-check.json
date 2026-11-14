@@ -1,0 +1,92 @@
+{
+ "_terms": {
+  "https://ndma.gov.in/Natural-Hazards/Heat-Wave": {
+   "Heat Wave": false
+  },
+  "https://mausam.imd.gov.in/responsive/heatwave_guidance.php": {
+   "Heat Wave": false
+  },
+  "https://rmc-punjab.pmd.gov.pk/heatwave-update": {
+   "Heatwave": false
+  },
+  "https://live8.bmd.gov.bd/p/Heat-Wave-Warning": {
+   "Heat Wave": true
+  },
+  "https://www.pagasa.dost.gov.ph/press-release/174": {
+   "2025": true,
+   "iHeatMap": true,
+   "heat index": true
+  },
+  "https://sdma.kerala.gov.in/heat-actions/": {
+   "Heat": true
+  },
+  "https://ddma.delhi.gov.in/ddma/ddma-plan-home": {
+   "Heat": true
+  },
+  "https://www.who.int/news/item/22-08-2025-who-wmo-issue-new-report-and-guidance-to-protect-workers-from-increasing-heat-stress": {
+   "heat stress": true,
+   "WMO": true
+  },
+  "https://meteo.gov.lk/pdfs/heat_pdf.pdf": {
+   "Heat": false
+  },
+  "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2256186&reg=3&lang=1": {
+   "Heatwave": true,
+   "Labour": true
+  },
+  "https://openknowledge.fao.org/handle/20.500.14283/cd9394en": {
+   "Extreme heat and agriculture": false
+  },
+  "https://www.iso.org/standard/67188.html": {
+   "7243": false,
+   "WBGT": false
+  },
+  "https://www.hdb.gov.sg/hdb-pulse/news/2026/hdb-awards-new-centralised-cooling-system-contract-to-keppel-for-9-bto-projects-in-tengah": {
+   "Tengah": true,
+   "Cooling": true
+  },
+  "https://www.sgbc.sg/get-involved/go-25/": {
+   "Go 25": true
+  },
+  "https://www.unep.org/interactives/beat-the-heat/": {
+   "Beat the Heat": true
+  },
+  "https://www.unicef.org/press-releases/new-guidelines-launched-protect-children-and-pregnant-women-heat-stress-bangladesh": {
+   "Directorate General of Health Services": true,
+   "heat": true
+  },
+  "https://iclei.org/heat-action-day/": {
+   "Heat Action Day": true
+  },
+  "https://www.helpageindia.org/climate-resilient-ageing-report": {
+   "Climate Resilient Ageing": true
+  },
+  "https://www.iuf.org/news/iuf-call-to-action-on-extreme-heat/": {
+   "Extreme Heat": true
+  },
+  "https://beeindia.gov.in/show_content.php?lang=1&level=1&ls_id=198&lid=322": {
+   "Labelling": true,
+   "Air Conditioner": true
+  }
+ },
+ "https://ndma.gov.in/Natural-Hazards/Heat-Wave": "FAIL",
+ "https://mausam.imd.gov.in/responsive/heatwave_guidance.php": "FAIL",
+ "https://rmc-punjab.pmd.gov.pk/heatwave-update": "BLOCKED",
+ "https://live8.bmd.gov.bd/p/Heat-Wave-Warning": "OK",
+ "https://www.pagasa.dost.gov.ph/press-release/174": "OK",
+ "https://sdma.kerala.gov.in/heat-actions/": "OK",
+ "https://ddma.delhi.gov.in/ddma/ddma-plan-home": "OK",
+ "https://www.who.int/news/item/22-08-2025-who-wmo-issue-new-report-and-guidance-to-protect-workers-from-increasing-heat-stress": "OK",
+ "https://meteo.gov.lk/pdfs/heat_pdf.pdf": "FAIL",
+ "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2256186&reg=3&lang=1": "OK",
+ "https://openknowledge.fao.org/handle/20.500.14283/cd9394en": "OK",
+ "https://www.iso.org/standard/67188.html": "BLOCKED",
+ "https://www.hdb.gov.sg/hdb-pulse/news/2026/hdb-awards-new-centralised-cooling-system-contract-to-keppel-for-9-bto-projects-in-tengah": "BLOCKED",
+ "https://www.sgbc.sg/get-involved/go-25/": "OK",
+ "https://www.unep.org/interactives/beat-the-heat/": "OK",
+ "https://www.unicef.org/press-releases/new-guidelines-launched-protect-children-and-pregnant-women-heat-stress-bangladesh": "OK",
+ "https://iclei.org/heat-action-day/": "OK",
+ "https://www.helpageindia.org/climate-resilient-ageing-report": "OK",
+ "https://www.iuf.org/news/iuf-call-to-action-on-extreme-heat/": "OK",
+ "https://beeindia.gov.in/show_content.php?lang=1&level=1&ls_id=198&lid=322": "OK"
+}
