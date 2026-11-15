@@ -119,7 +119,7 @@ What it took to add this
 - **The search.** 66 sources were gathered for checking.
 
 - **The checking.** Each source was opened and read for the terms and numbers it was cited for: 56 confirmed, and 10 could not be (2 blocked automated reading, 4 did not respond, 4 did not show the expected text).
-- **What we set aside.** 33 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+- **What we set aside.** 34 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
 
 - **What is still open.** Whether a fuller method that also uses sun and wind can be added without a new service.
 
@@ -155,7 +155,7 @@ What it took to add this
 - **The search.** 66 sources were gathered for checking.
 
 - **The checking.** Each source was opened and read for the terms and numbers it was cited for: 56 confirmed, and 10 could not be (2 blocked automated reading, 4 did not respond, 4 did not show the expected text).
-- **What we set aside.** 11 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+- **What we set aside.** 12 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
 
 - **What is still open.** Whether Kolkata, Chennai and Hyderabad publish city heat action plans of their own.
 
@@ -191,7 +191,7 @@ What it took to add this
 - **The search.** 66 sources were gathered for checking.
 
 - **The checking.** Each source was opened and read for the terms and numbers it was cited for: 56 confirmed, and 10 could not be (2 blocked automated reading, 4 did not respond, 4 did not show the expected text).
-- **What we set aside.** 11 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+- **What we set aside.** 12 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
 
 - **What is still open.** Whether Quezon City's heat action team publishes a city heat action plan, and whether Chiang Mai's haze plans come to cover heat.
 
@@ -209,11 +209,11 @@ Know something that would improve this? [Share evidence, experience or a correct
 
 Tool improved · Institutions and plans
 
-### A heat briefing on every city page, and Bangkok's 50 districts side by side
+### A heat briefing on every city page, and districts side by side in five cities
 
 Added 15 November 2026 · City briefing and district picture added 15 November 2026
 
-Why it matters our readingEvery city page now says what a checked study finds heat costs there, or that no checked estimate has been found yet, and lists the actions that could break its vicious cycles by how soon they could act; Bangkok's page also shows its districts side by side, from modelled residents and ages to mapped hospitals, built-up ground and park area, with each figure's limits beside it.
+Why it matters our readingEvery city page now says what a checked study finds heat costs there, or that no checked estimate has been found yet, and lists the actions that could break its vicious cycles by how soon they could act; Bangkok, Delhi, Jakarta, Phnom Penh and Ho Chi Minh City also show their districts side by side, from modelled residents and ages to mapped hospitals, built-up ground and park area, with each figure's limits beside it.
 
 - South and Southeast Asia
 - Thailand
@@ -229,9 +229,9 @@ What it took to add this
 - **The search.** 66 sources were gathered for checking.
 
 - **The checking.** Each source was opened and read for the terms and numbers it was cited for: 56 confirmed, and 10 could not be (2 blocked automated reading, 4 did not respond, 4 did not show the expected text).
-- **What we set aside.** 33 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+- **What we set aside.** 34 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
 
-- **What is still open.** Which other cities have open district outlines good enough to repeat this.
+- **What is still open.** Hanoi is held back until its city and district outlines line up; which other cities have open outlines good enough to repeat this.
 
 See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-city-heat/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/city-heat/BUILD_BRIEF.md)
 
@@ -243,7 +243,7 @@ Built-up ground and park area are what cooler design changes.
 [See Bangkok's districts](https://beattheheat.asia/cities/bangkok/#districts)
 [Bangkok](https://beattheheat.asia/cities/bangkok/)
 
-Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=A%20heat%20briefing%20on%20every%20city%20page%2C%20and%20Bangkok's%2050%20districts%20side%20by%20side&ref=g-city-brief-districts#way-share)
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=A%20heat%20briefing%20on%20every%20city%20page%2C%20and%20districts%20side%20by%20side%20in%20five%20cities&ref=g-city-brief-districts#way-share)
 
 Connection documented · Evidence
 
