@@ -32,6 +32,115 @@
   "https://api-open.data.gov.sg/v2/real-time/api/weather?api=wbgt": {
    "wbgt": true,
    "heatStress": true
+  },
+  "https://heathealth.info/wp-content/uploads/Action-plan-heat-Wave-West-Bengal-.pdf": {
+   "Heat Wave": true,
+   "Municipal": true
+  },
+  "https://cansouthasia.net/kolkata-climate-action-plan-kcap-released-for-stakeholder-consultation/": {
+   "Heat Action Plan": true,
+   "Kolkata Climate Action Plan": true
+  },
+  "https://www.cseindia.org/urban-heat-stress-Kolkata.pdf": {
+   "Kolkata": true,
+   "humidity": true,
+   "heat index": true
+  },
+  "https://cseindia.org/content/downloadreports/12195": {
+   "Kolkata": true,
+   "night": true
+  },
+  "https://india.mongabay.com/2022/09/health-effects-of-heat-stress-will-intensify-disproportionately-without-ambitious-efforts/": {
+   "Kolkata": true,
+   "Chennai": true,
+   "discomfort": true
+  },
+  "https://aidmi.org/?p=5718": {
+   "Kolkata": true,
+   "informal": true
+  },
+  "https://www.dtnext.in/news/tamilnadu/as-summer-approaches-tamil-nadu-readies-heatwave-action-plan-to-prevent-deaths-823240": {
+   "heat": true,
+   "Chennai": true
+  },
+  "https://www.dtnext.in/amp/story/news/chennai/gcc-partners-with-ceew-to-boost-citys-extreme-heat-resilience": {
+   "CEEW": true,
+   "ward": true
+  },
+  "https://scroll.in/article/1082029/rising-humidity-is-dangerous-and-its-making-indias-hot-summers-worse": {
+   "Chennai": true,
+   "6.3": true
+  },
+  "https://www.downtoearth.org.in/climate-change/new-study-sheds-light-on-indoor-nighttime-heat-retention-in-indian-homes": {
+   "34": true,
+   "Chennai": true
+  },
+  "https://thesouthfirst.com/health/how-chennai-is-racing-to-build-heatstroke-wards-as-temperature-soars/": {
+   "heatstroke": true,
+   "Chennai": true
+  },
+  "https://thesouthfirst.com/tamilnadu/work-slows-but-survival-cannot-extreme-heat-drives-tamil-nadus-outdoor-labourers-to-brink/": {
+   "90.3": true,
+   "wage": true
+  },
+  "https://www.deccanherald.com/india/telangana-adopts-cool-roof-policy-to-reduce-heat-stress-in-buildings-1206440.html": {
+   "Cool Roof": true,
+   "Hyderabad": false
+  },
+  "https://www.nrdc.org/press-releases/hyderabad-promotes-cool-roofs-protect-citizens-extreme-heat": {
+   "Hyderabad": false,
+   "cool roof": false
+  },
+  "https://www.thehansindia.com/telangana/telangana-rolls-out-heatwave-action-plan-2025-967782": {
+   "2025": true,
+   "Heatwave Action Plan": true
+  },
+  "https://www.deccanchronicle.com/southern-states/telangana/ghmc-rolls-out-summer-heatwave-plan-1952197": {
+   "40": false,
+   "GHMC": true
+  },
+  "https://telanganatoday.com/telangana-rolls-out-heatwave-action-plan-schools-to-implement-water-bells-cooling-centres-set-up": {
+   "cooling centres": true,
+   "Hyderabad": true
+  },
+  "https://citizenmatters.in/bengaluru-failed-to-beat-the-heat-how-localised-approach-could-help-in-the-future/": {
+   "heat action plan": true,
+   "ward": true
+  },
+  "https://www.deccanherald.com/india/karnataka/plans-sans-action-heatwaves-bake-unprepared-india-3448166": {
+   "2013": false,
+   "Karnataka": true
+  },
+  "https://www.downtoearth.org.in/climate-change/beyond-the-thermometer-bengalurus-race-to-modernise-ignored-climate-now-its-residents-are-paying-the-price": {
+   "Bengaluru": true,
+   "lakes": true
+  },
+  "https://www.cseindia.org/urban-heat-stress-tracker-bengaluru-12197": {
+   "Bengaluru": true,
+   "heat": true
+  },
+  "https://www.theweek.in/wire-updates/national/2025/09/02/ces10-od-heat-action-plan.html": {
+   "Integrated Heat and Cooling Action Plan": false,
+   "Bhubaneswar": false
+  },
+  "https://odishatv.in/news/odisha/bhubaneswar-to-face-extreme-heat-sevenfold-rise-in-ac-demand-by-2050-bmc-unveils-action-plan-271303": {
+   "2050": true,
+   "sevenfold": true
+  },
+  "https://www.orissapost.com/first-integrated-heat-and-cooling-action-plan-for-bhubaneswar-released/": {
+   "iFOREST": true,
+   "Bhubaneswar": true
+  },
+  "https://heathealth.info/wp-content/uploads/Bhubaneswar-Heat-Action-Plan.pdf": {
+   "Bhubaneswar": true,
+   "Heat": true
+  },
+  "https://sambadenglish.com/odisha-bmc-readying-action-plan-to-tackle-heatwave": {
+   "BMC": true,
+   "heat": true
+  },
+  "https://mausam.imd.gov.in/": {
+   "India Meteorological Department": true
   }
  },
  "http://www.bom.gov.au/info/thermal_stress/": "OK",
@@ -40,5 +149,32 @@
  "https://pubmed.ncbi.nlm.nih.gov/22673363/": "OK",
  "https://open-meteo.com/en/docs": "OK",
  "https://api.open-meteo.com/v1/forecast?latitude=1.35,13.75&longitude=103.82,100.5&current=temperature_2m,relative_humidity_2m&hourly=temperature_2m,relative_humidity_2m&timezone=auto&forecast_days=4": "OK",
- "https://api-open.data.gov.sg/v2/real-time/api/weather?api=wbgt": "OK"
+ "https://api-open.data.gov.sg/v2/real-time/api/weather?api=wbgt": "OK",
+ "https://heathealth.info/wp-content/uploads/Action-plan-heat-Wave-West-Bengal-.pdf": "OK",
+ "https://cansouthasia.net/kolkata-climate-action-plan-kcap-released-for-stakeholder-consultation/": "OK",
+ "https://www.cseindia.org/urban-heat-stress-Kolkata.pdf": "OK",
+ "https://cseindia.org/content/downloadreports/12195": "REDIRECT",
+ "https://india.mongabay.com/2022/09/health-effects-of-heat-stress-will-intensify-disproportionately-without-ambitious-efforts/": "OK",
+ "https://aidmi.org/?p=5718": "OK",
+ "https://www.dtnext.in/news/tamilnadu/as-summer-approaches-tamil-nadu-readies-heatwave-action-plan-to-prevent-deaths-823240": "OK",
+ "https://www.dtnext.in/amp/story/news/chennai/gcc-partners-with-ceew-to-boost-citys-extreme-heat-resilience": "OK",
+ "https://scroll.in/article/1082029/rising-humidity-is-dangerous-and-its-making-indias-hot-summers-worse": "OK",
+ "https://www.downtoearth.org.in/climate-change/new-study-sheds-light-on-indoor-nighttime-heat-retention-in-indian-homes": "OK",
+ "https://thesouthfirst.com/health/how-chennai-is-racing-to-build-heatstroke-wards-as-temperature-soars/": "OK",
+ "https://thesouthfirst.com/tamilnadu/work-slows-but-survival-cannot-extreme-heat-drives-tamil-nadus-outdoor-labourers-to-brink/": "OK",
+ "https://www.deccanherald.com/india/telangana-adopts-cool-roof-policy-to-reduce-heat-stress-in-buildings-1206440.html": "OK",
+ "https://www.nrdc.org/press-releases/hyderabad-promotes-cool-roofs-protect-citizens-extreme-heat": "BLOCKED",
+ "https://www.thehansindia.com/telangana/telangana-rolls-out-heatwave-action-plan-2025-967782": "OK",
+ "https://www.deccanchronicle.com/southern-states/telangana/ghmc-rolls-out-summer-heatwave-plan-1952197": "OK",
+ "https://telanganatoday.com/telangana-rolls-out-heatwave-action-plan-schools-to-implement-water-bells-cooling-centres-set-up": "OK",
+ "https://citizenmatters.in/bengaluru-failed-to-beat-the-heat-how-localised-approach-could-help-in-the-future/": "OK",
+ "https://www.deccanherald.com/india/karnataka/plans-sans-action-heatwaves-bake-unprepared-india-3448166": "OK",
+ "https://www.downtoearth.org.in/climate-change/beyond-the-thermometer-bengalurus-race-to-modernise-ignored-climate-now-its-residents-are-paying-the-price": "OK",
+ "https://www.cseindia.org/urban-heat-stress-tracker-bengaluru-12197": "OK",
+ "https://www.theweek.in/wire-updates/national/2025/09/02/ces10-od-heat-action-plan.html": "OK",
+ "https://odishatv.in/news/odisha/bhubaneswar-to-face-extreme-heat-sevenfold-rise-in-ac-demand-by-2050-bmc-unveils-action-plan-271303": "OK",
+ "https://www.orissapost.com/first-integrated-heat-and-cooling-action-plan-for-bhubaneswar-released/": "FAIL",
+ "https://heathealth.info/wp-content/uploads/Bhubaneswar-Heat-Action-Plan.pdf": "OK",
+ "https://sambadenglish.com/odisha-bmc-readying-action-plan-to-tackle-heatwave": "OK",
+ "https://mausam.imd.gov.in/": "OK"
 }
