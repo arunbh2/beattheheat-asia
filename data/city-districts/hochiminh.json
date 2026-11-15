@@ -1,0 +1,310 @@
+{
+ "city": "hochiminh",
+ "name": "Ho Chi Minh City",
+ "generated": "2026-11-15",
+ "parent": "Ho Chi Minh",
+ "sources": [
+  {
+   "id": "outlines",
+   "name": "geoBoundaries district outlines (ADM2)",
+   "source": "OCHA ROAP, Government of Viet Nam",
+   "licence": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+   "year": "2020",
+   "url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/VNM/ADM2/geoBoundaries-VNM-ADM2.geojson"
+  },
+  {
+   "id": "worldpop",
+   "name": "WorldPop, Global2 constrained age and sex structures, release R2025A, 100 m: Viet Nam - Age and Sex Structures",
+   "year": "2025",
+   "licence": "CC BY 4.0",
+   "doi": "10.5258/SOTON/WP00841",
+   "url": "https://hub.worldpop.org/geodata/summary?id=83167"
+  },
+  {
+   "id": "worldcover",
+   "name": "ESA WorldCover 10 m 2021 v200 (built from Copernicus Sentinel-1 and Sentinel-2 data)",
+   "year": 2021,
+   "licence": "CC BY 4.0",
+   "url": "https://esa-worldcover.org/"
+  },
+  {
+   "id": "osm",
+   "name": "OpenStreetMap contributors, through the Overpass API",
+   "year": "2026-11-15",
+   "licence": "ODbL 1.0",
+   "url": "https://www.openstreetmap.org/copyright"
+  }
+ ],
+ "grid_m": 100,
+ "districts": [
+  {
+   "id": "81297802B93683261125538",
+   "name": "Binh Chanh",
+   "area_km2": 249.42,
+   "residents": 736298,
+   "older_pct": 6.9,
+   "hospitals": 6,
+   "clinics": 7,
+   "built_pct": 24.6,
+   "park_pct": 0.2
+  },
+  {
+   "id": "81297802B42527210401893",
+   "name": "Binh Tan",
+   "area_km2": 52.1,
+   "residents": 827133,
+   "older_pct": 6.9,
+   "hospitals": 9,
+   "clinics": 15,
+   "built_pct": 73.8,
+   "park_pct": 0.5
+  },
+  {
+   "id": "81297802B74412015974526",
+   "name": "Binh Thanh",
+   "area_km2": 20.89,
+   "residents": 524878,
+   "older_pct": 6.9,
+   "hospitals": 5,
+   "clinics": 4,
+   "built_pct": 65.7,
+   "park_pct": 1.8
+  },
+  {
+   "id": "81297802B7702852417854",
+   "name": "Can Gio",
+   "area_km2": 655.62,
+   "residents": 75270,
+   "older_pct": 6.9,
+   "hospitals": 1,
+   "clinics": 3,
+   "built_pct": 1.5,
+   "park_pct": 0
+  },
+  {
+   "id": "81297802B99873561685500",
+   "name": "Cu Chi",
+   "area_km2": 435.51,
+   "residents": 486813,
+   "older_pct": 6.9,
+   "hospitals": 4,
+   "clinics": 7,
+   "built_pct": 15.8,
+   "park_pct": 0.3
+  },
+  {
+   "id": "81297802B93588362587103",
+   "name": "Go Vap",
+   "area_km2": 19.83,
+   "residents": 712382,
+   "older_pct": 6.9,
+   "hospitals": 5,
+   "clinics": 8,
+   "built_pct": 88.4,
+   "park_pct": 3.1
+  },
+  {
+   "id": "81297802B64363050509880",
+   "name": "Hoc Mon",
+   "area_km2": 104.29,
+   "residents": 569326,
+   "older_pct": 6.9,
+   "hospitals": 1,
+   "clinics": 4,
+   "built_pct": 40.6,
+   "park_pct": 0.1
+  },
+  {
+   "id": "81297802B80984092880643",
+   "name": "Nha Be",
+   "area_km2": 100.66,
+   "residents": 217777,
+   "older_pct": 6.9,
+   "hospitals": 1,
+   "clinics": 1,
+   "built_pct": 17.8,
+   "park_pct": 0.1
+  },
+  {
+   "id": "81297802B72603937188235",
+   "name": "Phu Nhuan",
+   "area_km2": 4.87,
+   "residents": 173271,
+   "older_pct": 6.9,
+   "hospitals": 5,
+   "clinics": 5,
+   "built_pct": 89.6,
+   "park_pct": 3
+  },
+  {
+   "id": "81297802B34545275526363",
+   "name": "Quan 1",
+   "area_km2": 7.75,
+   "residents": 146469,
+   "older_pct": 6.9,
+   "hospitals": 11,
+   "clinics": 19,
+   "built_pct": 81.7,
+   "park_pct": 7.2
+  },
+  {
+   "id": "81297802B93335721036450",
+   "name": "Quan 10",
+   "area_km2": 5.74,
+   "residents": 251167,
+   "older_pct": 6.9,
+   "hospitals": 12,
+   "clinics": 7,
+   "built_pct": 92.3,
+   "park_pct": 4.4
+  },
+  {
+   "id": "81297802B37641712637141",
+   "name": "Quan 11",
+   "area_km2": 5.16,
+   "residents": 221628,
+   "older_pct": 6.9,
+   "hospitals": 3,
+   "clinics": 6,
+   "built_pct": 90.4,
+   "park_pct": 0.3
+  },
+  {
+   "id": "81297802B78652503258302",
+   "name": "Quan 12",
+   "area_km2": 52.96,
+   "residents": 652800,
+   "older_pct": 6.9,
+   "hospitals": 3,
+   "clinics": 4,
+   "built_pct": 69.2,
+   "park_pct": 0.2
+  },
+  {
+   "id": "81297802B76466747653960",
+   "name": "Quan 2",
+   "area_km2": 50.15,
+   "residents": 190201,
+   "older_pct": 6.9,
+   "hospitals": 5,
+   "clinics": 8,
+   "built_pct": 38.5,
+   "park_pct": 1.1
+  },
+  {
+   "id": "81297802B4427483692725",
+   "name": "Quan 3",
+   "area_km2": 4.96,
+   "residents": 203937,
+   "older_pct": 6.9,
+   "hospitals": 6,
+   "clinics": 7,
+   "built_pct": 93.1,
+   "park_pct": 0.8
+  },
+  {
+   "id": "81297802B29563104023098",
+   "name": "Quan 4",
+   "area_km2": 4.14,
+   "residents": 184741,
+   "older_pct": 6.9,
+   "hospitals": 3,
+   "clinics": 6,
+   "built_pct": 82.6,
+   "park_pct": 2.6
+  },
+  {
+   "id": "81297802B17569327634169",
+   "name": "Quan 5",
+   "area_km2": 4.28,
+   "residents": 164890,
+   "older_pct": 6.9,
+   "hospitals": 22,
+   "clinics": 66,
+   "built_pct": 93.6,
+   "park_pct": 1.7
+  },
+  {
+   "id": "81297802B35379290873600",
+   "name": "Quan 6",
+   "area_km2": 7.14,
+   "residents": 245521,
+   "older_pct": 6.9,
+   "hospitals": 1,
+   "clinics": 7,
+   "built_pct": 94.7,
+   "park_pct": 3.3
+  },
+  {
+   "id": "81297802B84259990428862",
+   "name": "Quan 7",
+   "area_km2": 35.44,
+   "residents": 379468,
+   "older_pct": 6.9,
+   "hospitals": 12,
+   "clinics": 5,
+   "built_pct": 55.1,
+   "park_pct": 2
+  },
+  {
+   "id": "81297802B52284124086366",
+   "name": "Quan 8",
+   "area_km2": 19.21,
+   "residents": 446404,
+   "older_pct": 6.9,
+   "hospitals": 5,
+   "clinics": 7,
+   "built_pct": 69.5,
+   "park_pct": 0.3
+  },
+  {
+   "id": "81297802B54605917200404",
+   "name": "Quan 9",
+   "area_km2": 114.32,
+   "residents": 416981,
+   "older_pct": 6.9,
+   "hospitals": 5,
+   "clinics": 2,
+   "built_pct": 32,
+   "park_pct": 0.4
+  },
+  {
+   "id": "81297802B72151759297882",
+   "name": "Tan Binh",
+   "area_km2": 22.48,
+   "residents": 496349,
+   "older_pct": 6.9,
+   "hospitals": 7,
+   "clinics": 4,
+   "built_pct": 72.6,
+   "park_pct": 0.7
+  },
+  {
+   "id": "81297802B97138813252769",
+   "name": "Tan Phu",
+   "area_km2": 16.05,
+   "residents": 513588,
+   "older_pct": 6.9,
+   "hospitals": 3,
+   "clinics": 6,
+   "built_pct": 91.6,
+   "park_pct": 2
+  },
+  {
+   "id": "81297802B1678031067910",
+   "name": "Thu Duc",
+   "area_km2": 48.22,
+   "residents": 621500,
+   "older_pct": 6.9,
+   "hospitals": 6,
+   "clinics": 9,
+   "built_pct": 72,
+   "park_pct": 0.3
+  }
+ ],
+ "totals": {
+  "residents_in_districts": 9458791,
+  "residents_in_city": 9458791,
+  "districts": 24
+ }
+}

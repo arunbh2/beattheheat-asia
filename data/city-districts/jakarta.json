@@ -1,0 +1,101 @@
+{
+ "city": "jakarta",
+ "name": "Jakarta",
+ "generated": "2026-11-15",
+ "parent": "Jakarta Special Capital Region",
+ "sources": [
+  {
+   "id": "outlines",
+   "name": "geoBoundaries district outlines (ADM2)",
+   "source": "Badan Pusat Statistik (BPS - Statistics Indonesia), World Food Programme, OCHA ROAP",
+   "licence": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+   "year": "2020",
+   "url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/IDN/ADM2/geoBoundaries-IDN-ADM2.geojson"
+  },
+  {
+   "id": "worldpop",
+   "name": "WorldPop, Global2 constrained age and sex structures, release R2025A, 1 km, UN-adjusted: Indonesia - Age and Sex Structures",
+   "year": "2025",
+   "licence": "CC BY 4.0",
+   "doi": "10.5258/SOTON/WP00842",
+   "url": "https://hub.worldpop.org/geodata/summary?id=97071"
+  },
+  {
+   "id": "worldcover",
+   "name": "ESA WorldCover 10 m 2021 v200 (built from Copernicus Sentinel-1 and Sentinel-2 data)",
+   "year": 2021,
+   "licence": "CC BY 4.0",
+   "url": "https://esa-worldcover.org/"
+  },
+  {
+   "id": "osm",
+   "name": "OpenStreetMap contributors, through the Overpass API",
+   "year": "2026-11-15",
+   "licence": "ODbL 1.0",
+   "url": "https://www.openstreetmap.org/copyright"
+  }
+ ],
+ "grid_m": 1000,
+ "districts": [
+  {
+   "id": "22746128B58252967349746",
+   "name": "Kota Jakarta Barat",
+   "area_km2": 126.01,
+   "residents": 2551654,
+   "older_pct": 6.3,
+   "hospitals": 48,
+   "clinics": 306,
+   "built_pct": 84.6,
+   "park_pct": 0.5
+  },
+  {
+   "id": "22746128B21128962092426",
+   "name": "Kota Jakarta Pusat",
+   "area_km2": 48.09,
+   "residents": 1150470,
+   "older_pct": 7.6,
+   "hospitals": 61,
+   "clinics": 225,
+   "built_pct": 88.2,
+   "park_pct": 2.8
+  },
+  {
+   "id": "22746128B93686700937380",
+   "name": "Kota Jakarta Selatan",
+   "area_km2": 145.44,
+   "residents": 2360090,
+   "older_pct": 6.5,
+   "hospitals": 88,
+   "clinics": 398,
+   "built_pct": 80.5,
+   "park_pct": 1.4
+  },
+  {
+   "id": "22746128B5353616278909",
+   "name": "Kota Jakarta Timur",
+   "area_km2": 185.46,
+   "residents": 3111621,
+   "older_pct": 6,
+   "hospitals": 80,
+   "clinics": 383,
+   "built_pct": 77.4,
+   "park_pct": 1.8
+  },
+  {
+   "id": "22746128B85966169947265",
+   "name": "Kota Jakarta Utara",
+   "area_km2": 140.87,
+   "residents": 1849647,
+   "older_pct": 6.1,
+   "hospitals": 57,
+   "clinics": 382,
+   "built_pct": 73,
+   "park_pct": 0.8
+  }
+ ],
+ "totals": {
+  "residents_in_districts": 11023482,
+  "residents_in_city": 11023482,
+  "districts": 5
+ }
+}
