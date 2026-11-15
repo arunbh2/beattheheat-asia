@@ -128,8 +128,8 @@
    "sevenfold": true
   },
   "https://www.orissapost.com/first-integrated-heat-and-cooling-action-plan-for-bhubaneswar-released/": {
-   "iFOREST": true,
-   "Bhubaneswar": true
+   "iFOREST": false,
+   "Bhubaneswar": false
   },
   "https://heathealth.info/wp-content/uploads/Bhubaneswar-Heat-Action-Plan.pdf": {
    "Bhubaneswar": true,
@@ -237,6 +237,39 @@
   "https://www.chiangraitimes.com/weather/northern-thailand-temperature-expected-to-exceed-42c/": {
    "42": true,
    "Chiang Mai": true
+  },
+  "https://doi.org/10.1016/j.scitotenv.2024.177864": {
+   "shade": true,
+   "Singapore": true
+  },
+  "https://voiddeck.science.edu.sg/street-shade": {
+   "0.8": false,
+   "3.1": false
+  },
+  "https://ink.library.smu.edu.sg/cis_research/430": {
+   "2.21": true,
+   "1.69": true
+  },
+  "https://journals.ashs.org/downloadpdf/view/journals/hortsci/45/1/article-p83.pdf": {
+   "0.64": false,
+   "2.52": false
+  },
+  "https://doi.org/10.1016/j.ufug.2013.03.002": {
+   "street trees": false,
+   "Bangalore": false
+  },
+  "https://archived.atree.org/node/824": {
+   "street trees": false,
+   "temperature": false
+  },
+  "https://www.osti.gov/servlets/purl/1026804": {
+   "14": true,
+   "26": true,
+   "Hyderabad": true
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7227734": {
+   "Ahmedabad": true,
+   "indoor": true
   }
  },
  "http://www.bom.gov.au/info/thermal_stress/": "OK",
@@ -269,7 +302,7 @@
  "https://www.cseindia.org/urban-heat-stress-tracker-bengaluru-12197": "OK",
  "https://www.theweek.in/wire-updates/national/2025/09/02/ces10-od-heat-action-plan.html": "OK",
  "https://odishatv.in/news/odisha/bhubaneswar-to-face-extreme-heat-sevenfold-rise-in-ac-demand-by-2050-bmc-unveils-action-plan-271303": "OK",
- "https://www.orissapost.com/first-integrated-heat-and-cooling-action-plan-for-bhubaneswar-released/": "OK",
+ "https://www.orissapost.com/first-integrated-heat-and-cooling-action-plan-for-bhubaneswar-released/": "FAIL",
  "https://heathealth.info/wp-content/uploads/Bhubaneswar-Heat-Action-Plan.pdf": "OK",
  "https://sambadenglish.com/odisha-bmc-readying-action-plan-to-tackle-heatwave": "OK",
  "https://mausam.imd.gov.in/": "OK",
@@ -296,5 +329,13 @@
  "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/04/01/chiang-mai-set-for-disaster-declaration-after-four-days-of-soaring-pm25-levels": "OK",
  "https://www.chiangmaicitylife.com/citynews/general/air-quality-in-chiang-mai-begins-to-affect-public-health-as-pm2-5-levels-rise/": "OK",
  "https://chiangmaicitylife.com/citynews/health/health-office-warns-of-heat-stroke": "REDIRECT",
- "https://www.chiangraitimes.com/weather/northern-thailand-temperature-expected-to-exceed-42c/": "OK"
+ "https://www.chiangraitimes.com/weather/northern-thailand-temperature-expected-to-exceed-42c/": "OK",
+ "https://doi.org/10.1016/j.scitotenv.2024.177864": "REDIRECT",
+ "https://voiddeck.science.edu.sg/street-shade": "FAIL",
+ "https://ink.library.smu.edu.sg/cis_research/430": "OK",
+ "https://journals.ashs.org/downloadpdf/view/journals/hortsci/45/1/article-p83.pdf": "OK",
+ "https://doi.org/10.1016/j.ufug.2013.03.002": "REDIRECT",
+ "https://archived.atree.org/node/824": "FAIL",
+ "https://www.osti.gov/servlets/purl/1026804": "OK",
+ "https://pmc.ncbi.nlm.nih.gov/articles/PMC7227734": "OK"
 }
