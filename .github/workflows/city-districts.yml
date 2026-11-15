@@ -1,0 +1,52 @@
+# The district job for city pages (tools/city-districts/run.js): reads open district outlines, WorldPop, ESA WorldCover and
+# OpenStreetMap on GitHub, never in a visitor's browser. "discover" prints what each source offers and writes nothing;
+# "build" writes data/city-districts/<city>.json and commits it back. The only package, geotiff, is pinned and installed
+# for this job alone (not added to package.json or to any page). Run by hand.
+name: City districts
+on:
+  workflow_dispatch:
+    inputs:
+      city:
+        description: City id in tools/city-districts/cities.json
+        required: true
+        default: bangkok
+      mode:
+        description: discover or build
+        required: true
+        default: discover
+permissions:
+  contents: write
+jobs:
+  districts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 22
+      # inputs reach the shell as variables, never as script text, and are checked before use
+      - name: Check the inputs
+        env:
+          CITY: ${{ inputs.city }}
+          MODE: ${{ inputs.mode }}
+        run: '[[ "$CITY" =~ ^[a-z]+$ && "$MODE" =~ ^(discover|build)$ ]] || { echo "::error::city must be lowercase letters and mode discover or build"; exit 1; }'
+      - name: Install geotiff for this job only (pinned)
+        run: npm install --no-save --no-package-lock --prefix tools/city-districts geotiff@2.1.3
+      - name: Geometry tests
+        run: node tools/check-city-districts.js --geometry-only
+      - run: node tools/city-districts/run.js "$CITY" "$MODE"
+        env:
+          CITY: ${{ inputs.city }}
+          MODE: ${{ inputs.mode }}
+      - name: Check and commit the result
+        if: inputs.mode == 'build'
+        env:
+          CITY: ${{ inputs.city }}
+        run: |
+          node tools/check-city-districts.js
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "data/city-districts/$CITY.json"
+          git diff --cached --quiet || git commit -m "City districts for $CITY"
+          git push
