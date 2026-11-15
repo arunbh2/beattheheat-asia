@@ -90,8 +90,10 @@ function assign(gr, districts) { const find = G.index(districts), out = new Int1
   if (!wp) throw new Error("set worldpop.alias and worldpop.entry in tools/city-districts/cities.json from a discover run first");
   const D = O.districts, n = D.length, R = D.map(d => ({ id: d.id, name: d.name, area_km2: +G.multiKm2(d.multi).toFixed(2), residents: 0, older: 0, hospitals: 0, clinics: 0, cells: 0, built: 0, park: 0 }));
   // residents and 65+: every age and sex band on one shared grid
-  const files = (wp.files || []).filter(f => /_(f|m)_\d+_/.test(f) && /\.tif$/.test(f)), band = f => +f.match(/_(?:f|m)_(\d+)_/)[1];
-  if (files.length < 30) throw new Error("expected about 36 age and sex rasters, found " + files.length);
+  // both sexes together ("_t_"), one raster per age band (00, 01, 05 ... 90); 65 and over are the bands from 65 up
+  const files = (wp.files || []).filter(f => /_t_\d+_/.test(f) && /\.tif$/.test(f)), band = f => +f.match(/_t_(\d+)_/)[1];
+  if (files.length < 15) throw new Error("expected about 20 age-band rasters for both sexes, found " + files.length);
+  log(`WorldPop: ${files.length} age bands, ${files.filter(f => band(f) >= 65).length} of them 65 and over`);
   let grid = null, owner = null, inCity = 0;
   for (const f of files) { const r = await raster(f, 0); if (!grid) { grid = r; owner = assign(r, D); }
     if (r.w !== grid.w || r.h !== grid.h) throw new Error("WorldPop rasters do not share one grid: " + f);
@@ -106,7 +108,7 @@ function assign(gr, districts) { const find = G.index(districts), out = new Int1
   const out = { city: CITY, name: CFG.name, generated: new Date().toISOString().slice(0, 10), parent: O.parent,
     sources: [
       { id: "outlines", name: "geoBoundaries district outlines (ADM2)", source: O.meta.source, licence: O.meta.licence, year: O.meta.year, url: O.meta.url },
-      { id: "worldpop", name: wp.title, year: wp.popyear, licence: wp.license || "CC BY 4.0", doi: wp.doi || "", url: `https://hub.worldpop.org/geodata/summary?id=${wp.id}` },
+      { id: "worldpop", name: `WorldPop, Global2 constrained age and sex structures, ${CFG.worldpop.alias.includes("R25A") ? "release R2025A" : CFG.worldpop.alias}, 100 m: ${wp.title}`, year: wp.popyear, licence: "CC BY 4.0", doi: wp.doi || "", url: `https://hub.worldpop.org/geodata/summary?id=${wp.id}` },
       { id: "worldcover", name: "ESA WorldCover 10 m 2021 v200 (built from Copernicus Sentinel-1 and Sentinel-2 data)", year: 2021, licence: "CC BY 4.0", url: "https://esa-worldcover.org/" },
       { id: "osm", name: "OpenStreetMap contributors, through the Overpass API", year: o.when, licence: "ODbL 1.0", url: "https://www.openstreetmap.org/copyright" }],
     districts: R.map(r => ({ id: r.id, name: r.name, area_km2: r.area_km2, residents: Math.round(r.residents), older_pct: r.residents ? +(100 * r.older / r.residents).toFixed(1) : null,

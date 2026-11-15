@@ -1,4 +1,4 @@
 {
  "about": "Cities the district job (tools/city-districts/run.js) can build. bbox: [west, south, east, north] with a margin. adm1Match: the province or region name in geoBoundaries ADM1 whose districts (ADM2) make up the city. osmArea: the ISO 3166-2 code of the city's area in OpenStreetMap. worldpop.alias and worldpop.entry are chosen after a discover run and recorded here, so every build reads the same product.",
- "bangkok": { "name": "Bangkok", "iso3": "THA", "adm1Match": "Bangkok", "osmArea": "TH-10", "bbox": [100.30, 13.46, 100.98, 13.98], "worldpop": { "alias": "G2_CN_Age_R25A_100m", "entry": "" } }
+ "bangkok": { "name": "Bangkok", "iso3": "THA", "adm1Match": "Bangkok", "osmArea": "TH-10", "bbox": [100.30, 13.46, 100.98, 13.98], "worldpop": { "alias": "G2_CN_Age_R25A_100m", "entry": "83423" } }
 }
