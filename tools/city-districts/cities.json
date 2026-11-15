@@ -1,5 +1,5 @@
 {
- "about": "Cities the district job (tools/city-districts/run.js) can build. bbox: [west, south, east, north] with a margin; districts whose inside point falls outside it are left out (for example offshore islands). parent: the geoBoundaries level and name whose units at the child level make up the city. osmArea: the ISO 3166-2 code of the city's area in OpenStreetMap. worldpop: the product alias and year (or a pinned entry id), recorded so every build reads the same product.",
+ "about": "Cities the district job (tools/city-districts/run.js) can build. bbox: [west, south, east, north] with a margin; districts whose inside point falls outside it are left out (for example offshore islands). parent: the geoBoundaries level and name whose units at the child level make up the city. osmArea: the ISO 3166-2 code of the city's area in OpenStreetMap. worldpop: the product alias and year (or a pinned entry id), recorded so every build reads the same product. expect: the number of districts the city is known to have in this outline's year; the check fails if the job finds a different number.",
  "bangkok": {
   "name": "Bangkok",
   "iso3": "THA",
@@ -19,7 +19,8 @@
    "level": "ADM1",
    "match": "Bangkok"
   },
-  "child": "ADM2"
+  "child": "ADM2",
+  "expect": 50
  },
  "hanoi": {
   "name": "Hanoi",
@@ -40,7 +41,8 @@
    "alias": "G2_CN_Age_R25A_100m",
    "entry": "",
    "year": 2025
-  }
+  },
+  "expect": 30
  },
  "hochiminh": {
   "name": "Ho Chi Minh City",
@@ -61,7 +63,8 @@
    "alias": "G2_CN_Age_R25A_100m",
    "entry": "",
    "year": 2025
-  }
+  },
+  "expect": 24
  },
  "phnompenh": {
   "name": "Phnom Penh",
@@ -82,7 +85,8 @@
    "alias": "G2_CN_Age_R25A_100m",
    "entry": "",
    "year": 2025
-  }
+  },
+  "expect": 12
  },
  "delhi": {
   "name": "Delhi",
@@ -103,7 +107,8 @@
    "alias": "G2_CN_Age_R25A_1km",
    "entry": "",
    "year": 2025
-  }
+  },
+  "expect": 11
  },
  "jakarta": {
   "name": "Jakarta",
@@ -124,6 +129,7 @@
    "alias": "G2_CN_Age_R25A_1km",
    "entry": "",
    "year": 2025
-  }
+  },
+  "expect": 5
  }
 }

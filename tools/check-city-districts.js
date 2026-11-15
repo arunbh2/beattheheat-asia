@@ -33,6 +33,8 @@ if (!process.argv.includes("--geometry-only")) {
     if (Math.abs(d.totals.residents_in_districts - d.totals.residents_in_city) > 0.001 * d.totals.residents_in_city + 10) fail(`${at}: residents counted in districts (${d.totals.residents_in_districts}) differ from those counted in the city (${d.totals.residents_in_city})`);
     for (const s of d.sources || []) if (!s.name || !s.licence || !s.year || !/^https:\/\//.test(s.url || "")) fail(`${at}: source "${s.id}" needs a name, licence, year and https link`);
     if ((d.sources || []).length < 4) fail(`${at}: expected four sources (outlines, WorldPop, WorldCover, OpenStreetMap)`);
+    const cfg = JSON.parse(fs.readFileSync(path.join(__dirname, "city-districts", "cities.json"), "utf8"))[f.replace(/\.json$/, "")];
+    if (cfg && cfg.expect && d.districts.length !== cfg.expect) fail(`${at}: ${d.districts.length} districts, but the city has ${cfg.expect} (tools/city-districts/cities.json "expect"); check which outlines were taken in or left out`);
   }
   if (!fails.length) console.log(`city districts check passed: geometry tests, ${files.length} city file(s)`);
 } else if (!fails.length) console.log("city districts geometry tests passed");

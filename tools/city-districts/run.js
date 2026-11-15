@@ -16,7 +16,12 @@ const UA = "CommonShade-district-job/1.0 (+https://beattheheat.asia/approach/)";
 const log = (...a) => console.log(...a);
 async function getJSON(u, opt = {}) { for (let k = 0; k < 4; k++) { try { const r = await fetch(u, { headers: { "User-Agent": UA }, ...opt }); if (r.ok) return await r.json(); log(`  ${r.status} ${u}`); } catch (e) { log(`  ${e.message} ${u}`); } await new Promise(z => setTimeout(z, 4000 * (k + 1))); } throw new Error("could not fetch " + u); }
 
-// 1. district outlines: geoBoundaries ADM2 inside the ADM1 unit named adm1Match
+// the share of a district's area that lies inside the parent outline, from a grid of points over the district (outlines from
+// different sources do not line up exactly, so a district counts as part of the city when most of it lies inside)
+function share(multi, P) { const b = G.bbox(multi); let n = 0, k = 0;
+  for (let i = 0; i < 30; i++) for (let j = 0; j < 30; j++) { const x = b[0] + (b[2] - b[0]) * (i + .5) / 30, y = b[1] + (b[3] - b[1]) * (j + .5) / 30; if (G.inMulti(x, y, multi)) { n++; if (G.inMulti(x, y, P)) k++; } }
+  return n ? k / n : 0; }
+// 1. district outlines: geoBoundaries at the child level, inside the parent unit named in cities.json
 async function outlines() {
   const m2 = await getJSON(`https://www.geoboundaries.org/api/current/gbOpen/${CFG.iso3}/${CFG.child}/`), m1 = await getJSON(`https://www.geoboundaries.org/api/current/gbOpen/${CFG.iso3}/${CFG.parent.level}/`);
   const meta = k => ({ id: k.boundaryID, source: k.boundarySource, licence: k.boundaryLicense, licenceDetail: k.licenseDetail, licenceSource: k.licenseSource, year: k.boundaryYearRepresented, updated: k.sourceDataUpdateDate, build: k.buildDate, url: k.gjDownloadURL });
@@ -26,7 +31,7 @@ async function outlines() {
   if (!parent) throw new Error(`no ${CFG.parent.level} unit matching "${CFG.parent.match}"; names: ${g1.features.map(f => f.properties.shapeName).join(", ")}`);
   const P = G.toMulti(parent.geometry);
   const districts = g2.features.map(f => ({ id: f.properties.shapeID, name: f.properties.shapeName, multi: G.toMulti(f.geometry) }))
-    .filter(d => { const p = G.interiorPoint(d.multi); return p && G.inMulti(p[0], p[1], P) && G.inBox(p[0], p[1], CFG.bbox); });
+    .filter(d => { const p = G.interiorPoint(d.multi); return p && G.inBox(p[0], p[1], CFG.bbox) && share(d.multi, P) >= 0.5; });
   log(`districts inside ${parent.properties.shapeName}: ${districts.length}`); log("  " + districts.map(d => d.name).join(", "));
   return { districts, meta: meta(m2), parent: parent.properties.shapeName };
 }
