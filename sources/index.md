@@ -5,7 +5,7 @@ updated: 2026-11-15
 licence: CC BY 4.0
 ---
 
-> Every paper, report, dataset and organisation cited on Common Shade, in one list you can search: 2289 sources, each with where it is used on the site.
+> Every paper, report, dataset and organisation cited on Common Shade, in one list you can search: 2290 sources, each with where it is used on the site.
 
 Where does every claim come from?
 
@@ -24,7 +24,7 @@ Every claim on Common Shade links to its source. Each entry below shows who publ
 
 **Watch: Every claim, linked** · 0:26 · narrated, captions in the picture
 
-## Heat in the news 155
+## Heat in the news 156
 
 Every headline and new paper that has appeared on Heat in the news, newest first. The live page shows the latest two weeks of news and four months of research; this list keeps them all. Headlines are the outlets’ own; listing one is not an endorsement of its framing.
 
@@ -91,6 +91,8 @@ Every headline and new paper that has appeared on Heat in the news, newest first
 - [Projected Exposure of Canadian Children to Rare, High-Severity Heatwaves Under Continued Warming](https://doi.org/10.1029/2026gh001873)Zaerpour M et al. · GeoHealth · 26 Oct 2026 · doi.orgUsed on: Heat in the news: new research
 
 - [Efek Heat Stress terhadap Kesehatan pada Pekerja Pertanian: Tinjauan Literatur Sistematis](https://doi.org/10.56211/pubhealth.v5i2.1828)Salwa Fitriana Chantika et al. · PubHealth Jurnal Kesehatan Masyarakat · 26 Oct 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [Genome-Wide Identification and In Silico Characterization of the Salt Overly Sensitive 3/Calcineurin B-like ( GhSOS3 ) Gene Family in Upland Cotton ( Gossypium hirsutum L.) and Expression Profiling of Two Members Under Drought, Salt and Heat Stress](https://doi.org/10.3390/ijms27219561)Iqra L et al. · International journal of molecular sciences · 26 Oct 2026 · doi.orgUsed on: Heat in the news: new research
 
 - [Rising heat takes toll on Bangladesh’s garment workers](https://www.eco-business.com/news/rising-heat-takes-toll-on-bangladeshs-garment-workers/)Eco-Business · Bangladesh · 25 Oct 2026 · eco-business.comUsed on: Heat in the news: headlines
 

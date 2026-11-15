@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T06:45:35.679Z",
+ "updated": "2026-11-14T22:36:51.272Z",
  "keepDays": 14,
  "sources": [
   {
@@ -101,14 +101,6 @@
    "url": "https://newsinfo.inquirer.net/2334943/44c-heat-index-recorded-in-3-areas-on-nov-2",
    "domain": "newsinfo.inquirer.net",
    "date": "2026-11-02T19:09:00Z",
-   "place": "Philippines",
-   "via": "Inquirer"
-  },
-  {
-   "title": "Afternoon rains, high heat index forecast for ‘Undas’ in Mindanao",
-   "url": "https://newsinfo.inquirer.net/2333512/afternoon-rains-high-heat-index-forecast-for-undas-in-mindanao",
-   "domain": "newsinfo.inquirer.net",
-   "date": "2026-10-31T11:47:25Z",
    "place": "Philippines",
    "via": "Inquirer"
   }
