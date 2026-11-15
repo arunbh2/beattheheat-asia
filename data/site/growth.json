@@ -737,6 +737,18 @@
       "pages": [["/signals/", "Signals"], ["/actions/", "Actions"]], "action": ["See the signals", "/signals/"],
       "links": [{ "to": "lever:heatrules", "why": "Three of the new signals are rules for heat-safe work.", "basis": "record" },
                 { "to": "lever:heatcash", "why": "The new Watch for notes sit on income protection in heatwaves.", "basis": "record" }]
+    },
+    {
+      "id": "g-city-heat-history", "kind": "tool", "root": "evidence", "added": "2026-11-15", "pr": null,
+      "title": "Heat over time on the Bangkok and Kolkata pages",
+      "why": "The Bangkok and Kolkata pages now show how each city's own weather station record has changed since 1991: nights and days in the hottest tenth for that place, and the hottest day of each year, with a trend only where a test finds one and a regional model line beside it for context. Cities without a long enough station record show no trend.",
+      "places": ["thailand", "india"], "people": ["older", "workers"], "topics": ["anticipatory", "coolbydesign"],
+      "event": { "what": "Heat over time added", "date": "2026-11-15" },
+      "review": "Daily station records read from NOAA on GitHub by a job anyone can rerun; years with too many missing days are left out as gaps; an independent review set the completeness rules and led to the regional model being shown only as background, because it leaves out the city's own heat",
+      "effort": { "asked": "Has this city's own heat changed over the past thirty years, by a measure a reader can check?", "inbox": "data/inbox/2026-11-city-heat", "dropped": "research/2026-11/city-heat/BUILD_BRIEF.md",
+                  "open": "Which other cities have a station record complete enough to repeat this." },
+      "pages": [["/cities/bangkok/", "Bangkok"], ["/cities/kolkata/", "Kolkata"]], "action": ["See Bangkok's heat over time", "/cities/bangkok/#history"],
+      "links": [{ "to": "lever:anticipatory", "why": "More warm nights and hot days are what early warning is planned around.", "basis": "editorial" }]
     }
   ]
 }

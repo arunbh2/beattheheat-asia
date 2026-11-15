@@ -5,7 +5,7 @@ updated: 2026-11-15
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 53 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 54 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-53 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,112 works the commons draws on carry a publication date, and 808 are still being dated.
+54 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,112 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -284,6 +284,45 @@ The new Watch for notes sit on income protection in heatwaves.
 [Actions](https://beattheheat.asia/actions/)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=New%20signals%20from%20Asia%20on%20heat%20at%20work%2C%20and%20lessons%20on%20heat%20insurance%20on%20the%20map&ref=g-heat-signals-asia-2026#way-share)
+
+Tool improved · Evidence
+
+### Heat over time on the Bangkok and Kolkata pages
+
+Added 15 November 2026 · Heat over time added 15 November 2026
+
+Why it matters our readingThe Bangkok and Kolkata pages now show how each city's own weather station record has changed since 1991: nights and days in the hottest tenth for that place, and the hottest day of each year, with a trend only where a test finds one and a regional model line beside it for context. Cities without a long enough station record show no trend.
+
+- Thailand
+- India
+- Older people
+- Workers in heat-exposed jobs
+- Anticipatory action
+- Cool by design
+
+ReviewDaily station records read from NOAA on GitHub by a job anyone can rerun; years with too many missing days are left out as gaps; an independent review set the completeness rules and led to the regional model being shown only as background, because it leaves out the city's own heat. 71 checked · 62 confirmed · 9 not confirmed, each recorded.
+
+What it took to add this
+
+- **The question.** Has this city's own heat changed over the past thirty years, by a measure a reader can check?
+- **The search.** 71 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 62 confirmed, and 9 could not be (2 blocked automated reading, 3 did not respond, 4 did not show the expected text).
+- **What we set aside.** 34 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+
+- **What is still open.** Which other cities have a station record complete enough to repeat this.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-city-heat/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/city-heat/BUILD_BRIEF.md)
+
+How it connects
+
+- [Anticipatory action](https://beattheheat.asia/actions/#anticipatory) Action · our reading
+More warm nights and hot days are what early warning is planned around.
+
+[See Bangkok's heat over time](https://beattheheat.asia/cities/bangkok/#history)
+[Bangkok](https://beattheheat.asia/cities/bangkok/)[Kolkata](https://beattheheat.asia/cities/kolkata/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Heat%20over%20time%20on%20the%20Bangkok%20and%20Kolkata%20pages&ref=g-city-heat-history#way-share)
 
 Tool improved · Institutions and plans
 

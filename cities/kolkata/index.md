@@ -38,6 +38,76 @@ Sources: [Australian Bureau of Meteorology: Thermal comfort observations, about 
 
 The week’s forecast is on [the interactive map](https://beattheheat.asia/#city-kolkata). How much climate change shaped today’s heat: [Climate Shift Index map, Climate Central](https://csi.climatecentral.org/).
 
+## Heat over time, 1991 to 2025
+
+How this city's heat has changed against its own past, year by year: nights and days hotter than this place's hottest tenth since the record began, and the hottest day of each year.
+
+From the daily record of the Netaji Subhash Chandra Bose International weather station, as summarised by NOAA from the station's own reports (32 of 35 years complete enough to count; the rest are left out as gaps).
+
+### Warm nights
+
+nights warmer than 27.2 °C, the warmest tenth of nights here
+
+**a clear rise: about 14 more nights a decade (95% range 8 to 20 a decade).**
+
+The model reconstruction for the surrounding region (ERA5-Land, which has no buildings or paved ground and so leaves out the city's own heat): leaning upward, not clear.
+
+### Hot days
+
+days hotter than 36.7 °C, the hottest tenth of days here
+
+**leaning upward, not clear: about 4 more days a decade (95% range -1 to 10 a decade).**
+
+The model reconstruction for the surrounding region (ERA5-Land, which has no buildings or paved ground and so leaves out the city's own heat): no clear change.
+
+### Hottest day of the year
+
+the highest daily maximum recorded in each year
+
+**no clear change.**
+
+The model reconstruction for the surrounding region (ERA5-Land, which has no buildings or paved ground and so leaves out the city's own heat): no clear change.
+
+The figures year by year
+
+Year | Warm nights | Hot days | Hottest day of the year |
+1991 | 31 | 13 | 38.6 °C |
+1992 | 17 | 35 | 40.2 °C |
+1993 | 13 | 7 | 39.6 °C |
+1994 | 22 | 23 | 41.2 °C |
+1995 | 39 | 46 | 41.2 °C |
+1997 | 10 | 24 | 41.6 °C |
+1998 | 22 | 31 | 42 °C |
+1999 | 14 | 30 | 40 °C |
+2000 | 9 | 13 | 38 °C |
+2001 | 7 | 23 | 39 °C |
+2002 | 23 | 35 | 44 °C |
+2003 | 28 | 40 | 40 °C |
+2004 | 29 | 45 | 41 °C |
+2005 | 35 | 42 | 41 °C |
+2006 | 32 | 33 | 40.4 °C |
+2007 | 42 | 32 | 39.5 °C |
+2008 | 5 | 41 | 40 °C |
+2009 | 29 | 61 | 42 °C |
+2010 | 52 | 65 | 41 °C |
+2011 | 29 | 24 | 38.7 °C |
+2012 | 46 | 62 | 41.3 °C |
+2013 | 24 | 41 | 40 °C |
+2014 | 66 | 68 | 41.3 °C |
+2015 | 43 | 36 | 40 °C |
+2016 | 77 | 38 | 43 °C |
+2017 | 33 | 34 | 39 °C |
+2018 | 25 | 33 | 41 °C |
+2019 | 41 | 39 | 40 °C |
+2020 | 66 | 22 | 39 °C |
+2021 | 84 | 32 | 40.2 °C |
+2022 | 44 | 18 | 41 °C |
+2023 | 61 | 47 | 42 °C |
+
+A single station shows how one site has changed against its own past. It is not a comparison between cities, and the station may sit at an airport or in open ground, so streets nearby can be hotter. Strong El Niño years, such as 2016 and 2023 to 2024, bring hotter years in much of the region, and warm years near the end of a record tilt a trend upward.
+
+Trend: Sen's slope with its 95% range, and a Mann-Kendall test: "a clear rise" where the test is under 5%, "leaning upward, not clear" between 5% and 20%, otherwise "no clear change". Index definitions follow the ETCCDI (TN90p, TX90p, TXx), counted against this city's whole record. Sources: [NOAA Global Surface Summary of the Day (GSOD), station gsod:42809099999](https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-summary-of-the-day&stations=42809099999&dataTypes=MAX,MIN&startDate=1991-01-01&endDate=2025-12-31&units=metric&format=json&includeStationName=true&includeStationLocation=1) (Public domain (US Government work)); [Open-Meteo Historical Weather API, ERA5-Land reanalysis (Copernicus Climate Change Service)](https://open-meteo.com/en/docs/historical-weather-api) (CC BY 4.0). Generated 2026-11-15.
+
 ## What heat costs here, and what could be done
 
 ### What a checked study says heat costs here

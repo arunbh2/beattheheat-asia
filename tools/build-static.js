@@ -378,10 +378,10 @@ function cityHistory(c) {
   if (!fs.existsSync(f)) return { html: "", md: [] };
   const d = JSON.parse(fs.readFileSync(f, "utf8")), title = CHW.title(d.period[0], d.period[1]);
   if (!d.station) return { html: `<h2 id="history">${esc(title)}</h2><p>${esc(CHW.none)}</p>`, md: [`${title}: ${CHW.none}`] };
-  const S0 = d.station, Y = S0.years, B = d.background, md = [`${title}: ${CHW.lede} ${CHW.station(S0.name, S0.valid_years, S0.of)}`];
+  const S0 = Object.assign({}, d.station, { name: String(d.station.name || "").replace(/,\s*[A-Z]{2}$/, "").toLowerCase().replace(/\b([a-z])/g, m => m.toUpperCase()) }), Y = S0.years, B = d.background, md = [`${title}: ${CHW.lede} ${CHW.station(S0.name, S0.valid_years, S0.of)}`];
   const thr = { warm_nights: S0.thresholds.warm_night_c, hot_days: S0.thresholds.hot_day_c, hottest: null };
   const say = (k, t) => { const M = CHW.measures[k], v = Math.abs(t.per_decade), r = t.range;
-    return t.words === "no clear change" ? `${t.words}.` : `${t.words}: about ${k === "hottest" ? v.toFixed(1) : Math.round(v)} ${t.per_decade >= 0 ? M.per : M.less} (95% range ${r[0]} to ${r[1]} a decade).`; };
+    return t.words === "no clear change" ? `${t.words}.` : `${t.words}: about ${k === "hottest" ? v.toFixed(1) : Math.round(v)} ${t.per_decade >= 0 ? M.per : M.less} (95% range ${k === "hottest" ? (+r[0]).toFixed(1) : Math.round(r[0])} to ${k === "hottest" ? (+r[1]).toFixed(1) : Math.round(r[1])} a decade).`; };
   const y0 = d.period[0], y1 = d.period[1], span = y1 - y0 + 1;
   const chart = k => { const vs = Y.map(y => y[k]), lo = k === "hottest" ? Math.floor(Math.min(...vs)) - 1 : 0, hi = Math.ceil(Math.max(...vs)), W = 320, H = 110, bw = W / span;
     const bars = Y.map(y => { const h = Math.max(1, (y[k] - lo) / (hi - lo || 1) * (H - 20)); return `<rect x="${((y.year - y0) * bw + 0.5).toFixed(1)}" y="${(H - 14 - h).toFixed(1)}" width="${(bw - 1).toFixed(1)}" height="${h.toFixed(1)}" fill="#B8401A"/>`; }).join("");
