@@ -128,8 +128,8 @@
    "sevenfold": true
   },
   "https://www.orissapost.com/first-integrated-heat-and-cooling-action-plan-for-bhubaneswar-released/": {
-   "iFOREST": false,
-   "Bhubaneswar": false
+   "iFOREST": true,
+   "Bhubaneswar": true
   },
   "https://heathealth.info/wp-content/uploads/Bhubaneswar-Heat-Action-Plan.pdf": {
    "Bhubaneswar": true,
@@ -243,8 +243,8 @@
    "Singapore": true
   },
   "https://voiddeck.science.edu.sg/street-shade": {
-   "0.8": false,
-   "3.1": false
+   "0.8": true,
+   "3.1": true
   },
   "https://ink.library.smu.edu.sg/cis_research/430": {
    "2.21": true,
@@ -270,6 +270,26 @@
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC7227734": {
    "Ahmedabad": true,
    "indoor": true
+  },
+  "https://open-meteo.com/en/docs/historical-weather-api": {
+   "ERA5": true,
+   "historical": true
+  },
+  "https://open-meteo.com/en/licence": {
+   "CC BY 4.0": true
+  },
+  "https://archive-api.open-meteo.com/v1/archive?latitude=13.75&longitude=100.5&start_date=2002-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,precipitation_sum&timezone=auto&models=era5": {
+   "temperature_2m_min": true,
+   "2025-12-31": true
+  },
+  "https://etccdi.pacificclimate.org/list_27_indices.shtml": {
+   "TN90p": true,
+   "TX90p": true,
+   "CDD": true
+  },
+  "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels": {
+   "ERA5": true,
+   "reanalysis": true
   }
  },
  "http://www.bom.gov.au/info/thermal_stress/": "OK",
@@ -302,7 +322,7 @@
  "https://www.cseindia.org/urban-heat-stress-tracker-bengaluru-12197": "OK",
  "https://www.theweek.in/wire-updates/national/2025/09/02/ces10-od-heat-action-plan.html": "OK",
  "https://odishatv.in/news/odisha/bhubaneswar-to-face-extreme-heat-sevenfold-rise-in-ac-demand-by-2050-bmc-unveils-action-plan-271303": "OK",
- "https://www.orissapost.com/first-integrated-heat-and-cooling-action-plan-for-bhubaneswar-released/": "FAIL",
+ "https://www.orissapost.com/first-integrated-heat-and-cooling-action-plan-for-bhubaneswar-released/": "OK",
  "https://heathealth.info/wp-content/uploads/Bhubaneswar-Heat-Action-Plan.pdf": "OK",
  "https://sambadenglish.com/odisha-bmc-readying-action-plan-to-tackle-heatwave": "OK",
  "https://mausam.imd.gov.in/": "OK",
@@ -337,5 +357,10 @@
  "https://doi.org/10.1016/j.ufug.2013.03.002": "REDIRECT",
  "https://archived.atree.org/node/824": "FAIL",
  "https://www.osti.gov/servlets/purl/1026804": "OK",
- "https://pmc.ncbi.nlm.nih.gov/articles/PMC7227734": "OK"
+ "https://pmc.ncbi.nlm.nih.gov/articles/PMC7227734": "OK",
+ "https://open-meteo.com/en/docs/historical-weather-api": "OK",
+ "https://open-meteo.com/en/licence": "OK",
+ "https://archive-api.open-meteo.com/v1/archive?latitude=13.75&longitude=100.5&start_date=2002-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,precipitation_sum&timezone=auto&models=era5": "OK",
+ "https://etccdi.pacificclimate.org/list_27_indices.shtml": "OK",
+ "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels": "OK"
 }
