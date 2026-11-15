@@ -18,7 +18,8 @@
    "compact"
   ],
   "where": "COP31",
-  "note": "Staged from COP31 Signals check-in 2 to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from COP31 Signals check-in 2 to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261110005542/https://cop31.tr/news-detail/cop31-launches-antalya-compact-for-energy-efficient-buildings"
  },
  {
   "id": "src-cop31d-compact-lexis",
@@ -40,7 +41,8 @@
    "compact-lexis"
   ],
   "where": "COP31",
-  "note": "Staged from COP31 Signals check-in 2 to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from COP31 Signals check-in 2 to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261115042558/https://www.lexisnexis.co.uk/legal/news/cop31-presidency-launches-antalya-compact-for-energy-efficient-buildings"
  },
  {
   "id": "src-cop31d-compact-ed",
@@ -61,7 +63,8 @@
    "compact-ed"
   ],
   "where": "COP31",
-  "note": "Staged from COP31 Signals check-in 2 to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from COP31 Signals check-in 2 to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261115042623/https://energydigital.com/news/cop31-turkiye-tables-energy-efficient-buildings-framework"
  },
  {
   "id": "src-cop31d-cool-ministerial",
@@ -83,7 +86,8 @@
    "cool-ministerial"
   ],
   "where": "COP31",
-  "note": "Staged from COP31 Signals check-in 2 to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from COP31 Signals check-in 2 to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261115042649/https://coolcoalition.org/media-center/events/resilient-cities-buildings-and-cooling-pavilion/cool-coalition-cop31"
  },
  {
   "id": "src-cop31d-unep-events",
@@ -104,6 +108,7 @@
    "unep-events"
   ],
   "where": "COP31",
-  "note": "Staged from COP31 Signals check-in 2 to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from COP31 Signals check-in 2 to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261111184751/https://www.unep.org/en/events/conference/unep-un-climate-change-conference-unfccc-cop-31"
  }
 ]
