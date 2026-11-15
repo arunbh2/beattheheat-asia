@@ -32,7 +32,8 @@ const ghcnUrl = id => `https://www.ncei.noaa.gov/access/services/data/v1?dataset
 async function station(cid) {
   const gsod = cid.startsWith("gsod:"), id = gsod ? cid.slice(5) : cid, u = gsod ? gsodUrl(id) : ghcnUrl(id);
   const rows = await get(u); if (!Array.isArray(rows) || !rows.length) return { id: cid, ok: false, why: "no data" };
-  const num = v => { if (v == null || v === "") return null; const x = +String(v).trim(); return isFinite(x) && x > -60 && x < 60 ? x : null; };
+  // GHCN-Daily comes back in °C; the Global Summary of the Day in °F whatever the request says (9999.9 marks a missing value)
+  const num = v => { if (v == null || v === "") return null; let x = +String(v).replace(/[^0-9.\-]/g, ""); if (!isFinite(x) || x >= 9999) return null; if (gsod) x = (x - 32) * 5 / 9; return x > -60 && x < 60 ? x : null; };
   const days = rows.map(r => ({ date: r.DATE, tmax: num(gsod ? r.MAX : r.TMAX), tmin: num(gsod ? r.MIN : r.TMIN) }));
   if (MODE === "discover") { const both = days.filter(d => d.tmax != null && d.tmin != null).length; console.log(`  ${cid}: ${rows.length} rows, ${both} days with both values; sample ${JSON.stringify(rows[Math.floor(rows.length / 2)])}`); }
   const all = []; for (let y = Y0; y <= Y1; y++) all.push(y);
