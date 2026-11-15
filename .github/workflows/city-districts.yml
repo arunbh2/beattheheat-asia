@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       city:
-        description: City id in tools/city-districts/cities.json
+        description: City ids in tools/city-districts/cities.json, separated by commas
         required: true
         default: bangkok
       mode:
@@ -19,7 +19,7 @@ permissions:
 jobs:
   districts:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
@@ -30,7 +30,7 @@ jobs:
         env:
           CITY: ${{ inputs.city }}
           MODE: ${{ inputs.mode }}
-        run: '[[ "$CITY" =~ ^[a-z]+$ && "$MODE" =~ ^(discover|build)$ ]] || { echo "::error::city must be lowercase letters and mode discover or build"; exit 1; }'
+        run: '[[ "$CITY" =~ ^[a-z]+(,[a-z]+)*$ && "$MODE" =~ ^(discover|build)$ ]] || { echo "::error::city must be lowercase ids separated by commas and mode discover or build"; exit 1; }'
       - name: Install geotiff for this job only (pinned)
         run: npm install --no-save --no-package-lock --prefix tools/city-districts geotiff@2.1.3
       - name: Geometry tests
@@ -47,6 +47,6 @@ jobs:
           node tools/check-city-districts.js
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "data/city-districts/$CITY.json"
+          git add data/city-districts/
           git diff --cached --quiet || git commit -m "City districts for $CITY"
           git push

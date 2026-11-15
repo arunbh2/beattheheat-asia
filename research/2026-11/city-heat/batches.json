@@ -13,5 +13,8 @@
   "surabaya",
   "quezoncity",
   "chiangmai"
- ]
+ ],
+ "districts_held": {
+  "hanoi": "geoBoundaries' Hanoi outline (OpenStreetMap, 2017) and its district outlines (another source) do not line up: the job found 32 districts, not 30, even when a district has to lie mostly inside the city. Held back until matching outlines are found."
+ }
 }

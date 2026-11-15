@@ -69,15 +69,36 @@
       side.innerHTML = '<p class="atl-k2"><i class="atl-k atl-k--ms"></i>' + esc(KIND[m.kind] || "Milestone") + " · " + m.year + "</p><h3>" + esc(m.title) + '</h3><p class="atl-muted">' + esc(m.place) + "</p><p>" + esc(m.text) + '</p><p class="atl-src">Source: ' + ext(m.source) + "</p>" +
         (m.link ? '<p><a href="' + esc(m.link[0]) + '">' + esc(m.link[1]) + ' <span aria-hidden="true">→</span></a></p>' : "");
     } else {
-      var c = f.e, t = S.live && S.live[c.id];
-      side.innerHTML = '<p class="atl-k2"><i class="atl-k atl-k--city"></i>' + esc(c.c) + "</p><h3>" + esc(c.n) + "</h3>" +
+      var c = f.e, t = S.live && S.live[c.id], o = S.cmp && A.cities.find(function (x) { return x.id === S.cmp; });
+      side.innerHTML = '<p class="atl-k2"><i class="atl-k atl-k--city"></i>' + esc(c.c) + "</p><h3>" + esc(c.n) + "</h3>" + (c.tag ? '<p class="atl-muted">' + esc(c.tag) + "</p>" : "") +
         '<p class="atl-st atl-st--' + esc(c.st) + '">' + esc(A.hap[c.st] || "") + "</p><p>" + esc(c.tx) + "</p>" +
         (t ? '<p class="atl-live"><b>' + Math.round(t.t) + "°C</b> now, feels like " + Math.round(t.a) + '°C. <span class="atl-muted">' + esc(A.note) + "</span></p>" : "") +
-        (c.warn ? '<p class="atl-src">Official warnings: ' + ext(c.warn) + "</p>" : "") + '<p><a href="/cities/#' + c.id + '">Read the city profile <span aria-hidden="true">→</span></a></p>';
+        (c.loops.length ? '<p><b>Vicious cycles tied to it.</b> ' + c.loops.map(function (l) { return '<a href="/loops/#' + esc(l[0]) + '">' + esc(l[1]) + "</a>"; }).join(" · ") + "</p>" : "") +
+        "<p><b>Already at work here.</b> " + (c.orgs ? c.orgs + " organisation" + (c.orgs === 1 ? "" : "s") + ' listed. <a href="/cities/' + c.id + '/#orgs">See who</a>' : 'Not found yet in <a href="/heat-network/">the heat network</a>; this describes the list, not the city.') + "</p>" +
+        (c.sp ? '<p><a href="/social-protection/">Who could help a household through a hot season in ' + esc(c.c) + ' <span aria-hidden="true">→</span></a></p>' : "") +
+        (c.warn ? '<p class="atl-src">Official warnings: ' + ext(c.warn) + "</p>" : "") +
+        '<p><a href="/cities/' + c.id + '/">Read the full city page <span aria-hidden="true">→</span></a><br><a href="/cities/' + c.id + '/#heat-today">Heat today and the next three days <span aria-hidden="true">→</span></a>' +
+        (c.dist ? '<br><a href="/cities/' + c.id + '/#districts">Its districts side by side <span aria-hidden="true">→</span></a>' : "") + "</p>" +
+        '<p><label class="atl-cmp">Compare with <select data-cmp><option value="">Choose a city</option>' + A.cities.filter(function (x) { return x.id !== c.id; }).slice().sort(function (a, b) { return a.n.localeCompare(b.n); })
+          .map(function (x) { return '<option value="' + x.id + '"' + (S.cmp === x.id ? " selected" : "") + ">" + esc(x.n) + "</option>"; }).join("") + "</select></label></p>" +
+        (o ? compare(c, o) : "");
     }
     if (S.sel) side.insertAdjacentHTML("beforeend", '<button type="button" class="fl-clear" data-back>Back to ' + S.y + "</button>");
     side.querySelectorAll("[data-open]").forEach(function (b) { b.addEventListener("click", function () { S.sel = b.dataset.open; draw(); panel(); }); });
-    var bk = side.querySelector("[data-back]"); if (bk) bk.addEventListener("click", function () { S.sel = null; draw(); panel(); });
+    var bk = side.querySelector("[data-back]"); if (bk) bk.addEventListener("click", function () { S.sel = null; S.cmp = null; draw(); panel(); });
+    var cs = side.querySelector("[data-cmp]"); if (cs) cs.addEventListener("change", function () { S.cmp = cs.value || null;
+      try { history.replaceState(null, "", location.pathname + location.search + (S.cmp ? "#compare-" + S.sel + "-" + S.cmp : "#city-" + S.sel)); } catch (e) {}
+      panel(); var t = side.querySelector(".atl-cmpt"); if (t) t.scrollIntoView({ block: "nearest" }); });
+  }
+  // two cities side by side, from the same records; the pair is kept in the address so it can be shared
+  function compare(a, b) {
+    var row = function (k, f) { return "<tr><th scope=\"row\">" + k + "</th><td>" + f(a) + "</td><td>" + f(b) + "</td></tr>"; }, live = function (c) { var t = S.live && S.live[c.id]; return t ? "feels like " + Math.round(t.a) + "°C" : "–"; };
+    return '<table class="atl-cmpt"><caption class="visually-hidden">' + esc(a.n) + " and " + esc(b.n) + ' side by side</caption><thead><tr><td></td><th scope="col">' + esc(a.n) + '</th><th scope="col">' + esc(b.n) + "</th></tr></thead><tbody>" +
+      row("Heat plan", function (c) { return esc(A.hap[c.st] || "–"); }) +
+      row("Vicious cycles tied to it", function (c) { return c.loops.length ? c.loops.map(function (l) { return esc(l[1]); }).join("<br>") : "–"; }) +
+      row("Organisations listed", function (c) { return c.orgs ? String(c.orgs) : "Not found yet"; }) +
+      row("District picture", function (c) { return c.dist ? '<a href="/cities/' + c.id + '/#districts">Yes</a>' : "Not yet"; }) +
+      (S.live ? row("Right now", live) : "") + "</tbody></table>" + '<p class="atl-muted">Side by side, never ranked: each city faces its own heat and builds from where it is.</p>';
   }
   // a city label that would overlap one already shown is hidden (the selected city goes first); its point stays
   function labels() {
@@ -116,6 +137,8 @@
   function fromHash() {
     var h = decodeURIComponent(location.hash.slice(1)); if (!h) return false;
     var y = h.match(/^year-(\d{4})$/); if (y) { setYear(+y[1]); return true; }
+    var cm = h.match(/^compare-([a-z]+)-([a-z]+)$/), has = function (id) { return A.cities.some(function (x) { return x.id === id; }); };
+    if (cm && has(cm[1]) && has(cm[2])) { layer.city = true; var cb2 = document.querySelector('[data-layer="city"]'); if (cb2) cb2.checked = true; S.y = A.y1; S.sel = cm[1]; S.cmp = cm[2]; draw(); panel(); return true; }
     var c = h.match(/^city-([a-z]+)$/);
     if (c && A.cities.some(function (x) { return x.id === c[1]; })) {
       layer.city = true; var cb = document.querySelector('[data-layer="city"]'); if (cb) cb.checked = true;

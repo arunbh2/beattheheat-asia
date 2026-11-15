@@ -304,7 +304,13 @@ const PEOPLE = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "peopl
   const missing = D.HEATWAVES.filter(h => !HWPOS[h.id]).map(h => h.id);
   if (missing.length) throw new Error("atlas: no map position for heatwave " + missing.join(", "));
   const ATL_LEFT = new Set(["bengaluru", "kolkata"]);   // labels drawn to the left of their point, where a neighbour sits to the right
-  const CITIES = D.LIVE_CITIES.map(c => { const p = D.CITY_PROFILES.find(x => x.id === c.id) || { hap: {} }; return { id: c.id, n: c.name, c: c.country, lat: c.lat, lon: c.lon, lb: ATL_LEFT.has(c.id) ? 1 : 0, st: p.hap.status, tx: p.hap.text, warn: c.warn ? [c.warn.label, c.warn.url] : null }; });
+  // each city's place panel reuses the city page's own records: plan, cycles, who is at work, household help, district picture
+  const SPC = new Set((D.SOCIAL_PROTECTION || []).map(x => x.country && x.country.name).filter(Boolean));
+  const CITIES = D.LIVE_CITIES.map(c => { const p = D.CITY_PROFILES.find(x => x.id === c.id) || { hap: {}, loops: [], orgs: [] };
+    return { id: c.id, n: c.name, c: c.country, lat: c.lat, lon: c.lon, lb: ATL_LEFT.has(c.id) ? 1 : 0, st: p.hap.status, tx: p.hap.text, warn: c.warn ? [c.warn.label, c.warn.url] : null,
+      tag: p.tagline || "", loops: (p.loops || []).map(x => { const l = D.LOOPS.find(q => q.id === x.id); return l ? [l.id, l.name] : null; }).filter(Boolean),
+      orgs: (p.orgs || []).filter(id => D.ORGANISATIONS.some(o => o.id === id)).length, sp: SPC.has(c.country) ? 1 : 0,
+      dist: fs.existsSync(path.join(ROOT, "data", "city-districts", c.id + ".json")) ? 1 : 0 }; });
   const ATL = { hw: HW, ms: MS, cities: CITIES, hap: D.CITY_HAP, note: D.LIVE_NOTE, y0: 1998, y1: Math.max(...HW.map(h => h.y), ...MS.map(m => m.year)) };
   write("atlas", page("atlas", "Atlas of Asia's heat", `Where, and when, heat has changed what places do: ${HW.length} heatwaves since 1998 and the plans, rules and roles that followed, on a drawn map of South and Southeast Asia.`,
     `${hero("Understand heat", "Atlas of Asia’s heat", "Where, and when, heat has changed what places do. Drag the timeline, or press play, to watch heatwaves arrive and the plans that came after.")}
@@ -325,6 +331,7 @@ const PEOPLE = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "peopl
         <div class="atl-track"><input type="range" min="${ATL.y0}" max="${ATL.y1}" step="1" value="${ATL.y1}" data-atl-range aria-label="Year"><div class="atl-ticks" data-atl-ticks aria-hidden="true"></div></div>
       </div>
       <nav class="atl-list" aria-label="Every heatwave on the map"><h2 class="atl-list__h">Every heatwave on the map</h2><ul>${HW.slice().sort((a, b) => a.y - b.y).map(h => `<li><a href="#${esc(h.id)}"><b>${esc(String(h.y))}</b> ${esc(h.place)}</a></li>`).join("")}</ul></nav>
+      <nav class="atl-list" aria-label="Every city on the map"><h2 class="atl-list__h">Every city on the map</h2><ul>${CITIES.slice().sort((a, b) => a.n.localeCompare(b.n)).map(c => `<li><a href="#city-${esc(c.id)}"><b>${esc(c.n)}</b> ${esc(c.c)}</a></li>`).join("")}</ul></nav>
       <noscript><p class="hub-p">The Atlas needs JavaScript. <a href="/heatwaves/">Heatwaves that shaped Asia</a> and <a href="/worked-plans/">Worked plans</a> tell the same story as text.</p></noscript>
       <h2 class="hub-h">How to read this</h2>
       <ul class="hub-grid hub-grid--plain">

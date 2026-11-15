@@ -48,7 +48,7 @@ Heat deaths, about 593 a year, cost up to 0.7% of the city’s economy: more tha
 
 ### What could be done
 
-Actions that break the vicious cycles tied to this city, grouped by how soon they could act. Options, not instructions; each links to its evidence and to any side effects to watch for.
+Actions that break the vicious cycles tied to this city, grouped by how soon they could act. Options, not instructions; each links to its evidence and to any side effects to watch for. What shade, parks and reflective roofs have been measured to do in Asian cities: [what has been measured, and where](https://beattheheat.asia/cooling-options/#measured).
 
 **This hot season:** [Heat-safe work](https://beattheheat.asia/actions/#heatrules) · [Cool nights and support](https://beattheheat.asia/actions/#coolnights)
 
@@ -67,7 +67,7 @@ The table needs JavaScript. The figures are in the data file: [Bangkok districts
 - Hospitals are those OpenStreetMap volunteers have mapped so far, not every hospital that exists. Clinics are left out: far more exist than are mapped, so a count would mostly measure mapping.
 - Park area counts only land mapped as parks in OpenStreetMap, as a share of each district's area. It leaves out farmland, orchards, temple grounds, canal-side trees and private gardens, so it is not a measure of all green space.
 - Built-up ground is the share of land mapped as built-up in ESA WorldCover (2021, 10 m), built from Copernicus Sentinel satellite data.
-- Figures use the district outlines named below and grids of about 100 m and 50 m, so small districts carry more error.
+- Figures use the district outlines named below, a population grid of about 100 m and a land grid of about 50 m, so small districts carry more error.
 - Today's heat-stress estimate above is for the city as a whole: the weather model's grid is wider than a district, so no district-level daily heat is shown.
 
 Sources: [geoBoundaries district outlines (ADM2)](https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/THA/ADM2/geoBoundaries-THA-ADM2.geojson) (2019, Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)) · [WorldPop, Global2 constrained age and sex structures, release R2025A, 100 m: Thailand - Age and Sex Structures](https://hub.worldpop.org/geodata/summary?id=83423) (2025, CC BY 4.0) · [ESA WorldCover 10 m 2021 v200 (built from Copernicus Sentinel-1 and Sentinel-2 data)](https://esa-worldcover.org/) (2021, CC BY 4.0) · [OpenStreetMap contributors, through the Overpass API](https://www.openstreetmap.org/copyright) (2026-11-15, ODbL 1.0). Generated 2026-11-15.

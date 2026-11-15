@@ -146,7 +146,7 @@
    "Kolkata Climate Action Plan"
   ],
   "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261019121556/https://cansouthasia.net/kolkata-climate-action-plan-kcap-released-for-stakeholder-consultation/"
+  "archive": "https://web.archive.org/web/20261115164503/https://cansouthasia.net/kolkata-climate-action-plan-kcap-released-for-stakeholder-consultation/"
  },
  {
   "id": "ch-kol-cse-2022",
@@ -387,8 +387,7 @@
    "cooling centres",
    "Hyderabad"
   ],
-  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260416074452/https://telanganatoday.com/telangana-rolls-out-heatwave-action-plan-schools-to-implement-water-bells-cooling-centres-set-up"
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
  },
  {
   "id": "ch-blr-cm",
@@ -419,8 +418,7 @@
    "Karnataka",
    "2013"
   ],
-  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20250717002413/https://www.deccanherald.com/india/karnataka/plans-sans-action-heatwaves-bake-unprepared-india-3448166"
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
  },
  {
   "id": "ch-blr-dte",
@@ -435,7 +433,8 @@
    "Bengaluru",
    "lakes"
   ],
-  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261115110929/https://www.downtoearth.org.in/climate-change/beyond-the-thermometer-bengalurus-race-to-modernise-ignored-climate-now-its-residents-are-paying-the-price"
  },
  {
   "id": "ch-blr-cse",
@@ -561,7 +560,8 @@
    "heatwave",
    "2030"
   ],
-  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260811212856/https://en.vneconomy.vn/hcmc-unveils-climate-change-response-plan-to-2030-vision-to-2050.htm"
  },
  {
   "id": "ch-hcm-rmit",
@@ -576,7 +576,8 @@
    "Ho Chi Minh City",
    "24"
   ],
-  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261115164929/https://www.rmit.edu.vn/news/all-news/2026/oct/a-new-heat-map-helps-vietnam-prepare-cities-for-a-warmer-future"
  },
  {
   "id": "ch-hcm-workers",
@@ -654,7 +655,8 @@
    "heat",
    "Chattogram"
   ],
-  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261115165016/https://www.thedailystar.net/news/bangladesh/news/patients-heat-related-diseases-the-rise-ctg-3587946"
  },
  {
   "id": "ch-ctg-ccn",
@@ -797,8 +799,7 @@
    "Heat Action Team",
    "Heat Action Plan"
   ],
-  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260713011110/https://mb.com.ph/2026/06/03/qc-forms-heat-action-team-vs-climate-threats"
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
  },
  {
   "id": "ch-qc-libraries",
@@ -927,5 +928,131 @@
   ],
   "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
   "archive": "https://web.archive.org/web/20260915030943/https://www.chiangraitimes.com/weather/northern-thailand-temperature-expected-to-exceed-42c/"
+ },
+ {
+  "id": "ch-m-sg-shade",
+  "type": "source",
+  "step": 5,
+  "title": "Harnessing street shade to mitigate heat stress: an in-situ parallel investigation under extreme heat conditions in tropical Singapore",
+  "publisher": "Science of the Total Environment",
+  "year": 2024,
+  "url": "https://doi.org/10.1016/j.scitotenv.2024.177864",
+  "kind": "Study",
+  "expect": [
+   "shade",
+   "Singapore"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-m-sg-shade-summary",
+  "type": "source",
+  "step": 5,
+  "title": "Which street shade actually keeps you cool?",
+  "publisher": "Void Deck, Science Centre Singapore",
+  "year": 2025,
+  "url": "https://voiddeck.science.edu.sg/street-shade",
+  "kind": "Research summary",
+  "expect": [
+   "0.8",
+   "3.1"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260313210144/https://voiddeck.science.edu.sg/street-shade/"
+ },
+ {
+  "id": "ch-m-sg-park",
+  "type": "source",
+  "step": 5,
+  "title": "Park cool island modifications to assess radiative cooling of a tropical urban park",
+  "publisher": "Scientific Reports (via SMU repository)",
+  "year": 2025,
+  "url": "https://ink.library.smu.edu.sg/cis_research/430",
+  "kind": "Study",
+  "expect": [
+   "2.21",
+   "1.69"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260609172818/https://ink.library.smu.edu.sg/cis_research/430/"
+ },
+ {
+  "id": "ch-m-taipei-trees",
+  "type": "source",
+  "step": 5,
+  "title": "Cooling effect of shade trees with different characteristics in a subtropical urban park",
+  "publisher": "HortScience",
+  "year": 2010,
+  "url": "https://journals.ashs.org/downloadpdf/view/journals/hortsci/45/1/article-p83.pdf",
+  "kind": "Study",
+  "expect": [
+   "0.64",
+   "2.52"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20250630070324/https://journals.ashs.org/downloadpdf/view/journals/hortsci/45/1/article-p83.pdf"
+ },
+ {
+  "id": "ch-m-blr-trees",
+  "type": "source",
+  "step": 5,
+  "title": "Effect of street trees on microclimate and air pollution in a tropical city",
+  "publisher": "Urban Forestry and Urban Greening",
+  "year": 2013,
+  "url": "https://doi.org/10.1016/j.ufug.2013.03.002",
+  "kind": "Study",
+  "expect": [
+   "street trees",
+   "Bangalore"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-m-blr-trees-atree",
+  "type": "source",
+  "step": 5,
+  "title": "Effect of street trees on microclimate and air pollution in a tropical city (ATREE record)",
+  "publisher": "ATREE",
+  "year": 2013,
+  "url": "https://archived.atree.org/node/824",
+  "kind": "Research record",
+  "expect": [
+   "street trees",
+   "temperature"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-m-hyd-roofs",
+  "type": "source",
+  "step": 5,
+  "title": "Cool roofs and white coatings: measured cooling energy savings in Hyderabad, India",
+  "publisher": "Lawrence Berkeley National Laboratory and IIIT Hyderabad",
+  "year": 2011,
+  "url": "https://www.osti.gov/servlets/purl/1026804",
+  "kind": "Report or study",
+  "expect": [
+   "Hyderabad",
+   "14",
+   "26"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20250209041455/https://www.osti.gov/servlets/purl/1026804"
+ },
+ {
+  "id": "ch-m-amd-roofs",
+  "type": "source",
+  "step": 5,
+  "title": "Combating climate change-induced heat stress: assessing cool roofs and its impact on the indoor ambient temperature of the households in the urban slums of Ahmedabad",
+  "publisher": "Indian Journal of Occupational and Environmental Medicine",
+  "year": 2020,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7227734",
+  "kind": "Study",
+  "expect": [
+   "Ahmedabad",
+   "indoor"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260510024613/https://pmc.ncbi.nlm.nih.gov/articles/PMC7227734/"
  }
 ]

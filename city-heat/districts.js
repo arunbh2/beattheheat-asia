@@ -6,7 +6,7 @@
   "use strict";
   var C = window.CITY_DISTRICTS, box = document.querySelector("[data-city-districts]");
   if (!C || !box) return;
-  var det = box.closest("details"), rows = null, key = "name", dir = 1, mid = {};
+  var det = box.closest("details"), rows = null, key = "name", dir = 1, mid = {}, flat = null;
   // the table's own styles arrive with this script, which loads only when the reader opens the list
   if (!document.getElementById("cd-css")) { var st = document.createElement("style"); st.id = "cd-css"; st.textContent = ".cd-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}.cd table{border-collapse:collapse;font-size:.875rem;min-width:640px}.cd th,.cd td{text-align:right;padding:6px 8px;border-top:1px solid #E6DFD4;white-space:nowrap}.cd th:first-child,.cd td:first-child{text-align:left}.cd th button{font:inherit;font-weight:700;background:none;border:0;padding:6px 0;min-height:24px;cursor:pointer;color:inherit;text-decoration:underline;text-decoration-color:#F26430;text-underline-offset:3px}.cd .up{color:#16202B;font-weight:700}.cd .dn{color:#5E6570}.cd small{display:block;font-size:.75rem;color:#5E6570}"; document.head.appendChild(st); }
   var esc = function (s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); };
@@ -27,7 +27,8 @@
     var s = rows.slice().sort(function (a, b) { var x = a[key], y = b[key]; if (key === "name") return dir * String(x).localeCompare(String(y)); return dir * ((x == null ? -1 : x) - (y == null ? -1 : y)); });
     box.innerHTML = '<div class="cd-wrap"><table><caption class="visually-hidden">' + esc(C.n) + ' districts, sortable by any column</caption><thead><tr>' +
       C.cols.map(function (c) { var on = c[0] === key; return '<th scope="col"' + (on ? ' aria-sort="' + (dir > 0 ? "ascending" : "descending") + '"' : "") + '><button type="button" data-k="' + c[0] + '">' + esc(c[1]) + (on ? (dir > 0 ? " ↑" : " ↓") : "") + '</button></th>'; }).join("") +
-      '</tr></thead><tbody>' + s.map(function (r) { return '<tr>' + C.cols.map(function (c) { return cell(r, c[0]); }).join("") + '</tr>'; }).join("") + '</tbody></table></div>';
+      '</tr></thead><tbody>' + s.map(function (r) { return '<tr>' + C.cols.map(function (c) { return cell(r, c[0]); }).join("") + '</tr>'; }).join("") + '</tbody></table></div>' +
+      (flat != null ? '<p>The age column is left out here: the population model gives every district the same share aged 65 and over (about ' + flat + '%), spread from one larger census figure, so it cannot tell the districts apart.</p>' : "");
   }
   function load() {
     if (rows) return;
@@ -36,6 +37,10 @@
     fetch(C.url).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (d) {
       rows = (d.districts || []).slice();
       if (!rows.length) { box.innerHTML = "<p>No district figures for this city yet.</p>"; return; }
+      // where the model gives every district the same age mix, a column of identical figures would look like a finding; it is left out
+      var ages = rows.map(function (r) { return r.older_pct; }).filter(function (v) { return v != null; });
+      flat = ages.length && Math.max.apply(null, ages) - Math.min.apply(null, ages) < 1 ? Math.round(ages[0]) : null;
+      if (flat != null) C.cols = C.cols.filter(function (c) { return c[0] !== "older_pct"; });
       C.cols.forEach(function (c) { if (c[0] !== "name") mid[c[0]] = median(c[0]); });
       draw();
     }).catch(function () { rows = null; box.innerHTML = '<p>The district figures could not be loaded just now. <a href="' + esc(C.url.split("?")[0]) + '">Open the data file</a>.</p>'; });

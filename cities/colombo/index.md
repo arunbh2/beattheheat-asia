@@ -48,7 +48,7 @@ No checked estimate found yet for this city.
 
 ### What could be done
 
-Actions that break the vicious cycles tied to this city, grouped by how soon they could act. Options, not instructions; each links to its evidence and to any side effects to watch for.
+Actions that break the vicious cycles tied to this city, grouped by how soon they could act. Options, not instructions; each links to its evidence and to any side effects to watch for. What shade, parks and reflective roofs have been measured to do in Asian cities: [what has been measured, and where](https://beattheheat.asia/cooling-options/#measured).
 
 **This hot season:** [Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 

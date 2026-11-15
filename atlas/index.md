@@ -1,7 +1,7 @@
 ---
 title: "Atlas of Asia's heat"
 url: https://beattheheat.asia/atlas/
-updated: 2026-11-01
+updated: 2026-11-15
 licence: CC BY 4.0
 ---
 
