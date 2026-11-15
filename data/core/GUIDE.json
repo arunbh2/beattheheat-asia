@@ -73,7 +73,7 @@
     },
     "now": {
       "title": "See today’s heat",
-      "does": "Live readings for twelve Asian cities, with national warning levels.",
+      "does": "Live readings for Asian cities on the site, with national warning levels.",
       "time": "1 min",
       "take": "what heat looks like today",
       "href": "#heat-now"
@@ -94,7 +94,7 @@
     },
     "city": {
       "title": "Look up a city",
-      "does": "Heat, plans and cycles in twelve Asian cities.",
+      "does": "Heat, plans and cycles in Asian cities across the region.",
       "time": "3 min",
       "take": "where one city stands",
       "href": "#city"

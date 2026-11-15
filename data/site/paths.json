@@ -16,7 +16,7 @@
     {
      "url": "/cities/",
      "q": "Where is the need?",
-     "why": "Twelve cities and what heat is doing in each, with the plans already in place.",
+     "why": "{cities} cities and what heat is doing in each, with the plans already in place.",
      "read": [
       [
        "#dhaka",
@@ -121,7 +121,7 @@
     {
      "url": "/cities/",
      "q": "What is heat doing in our city?",
-     "why": "Twelve city profiles: the kind of heat, the plan in place and the cycles at work.",
+     "why": "{cities} city profiles: the kind of heat, the plan in place and the cycles at work.",
      "read": [],
      "do": [
       "/countries/",

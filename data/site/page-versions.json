@@ -52,8 +52,8 @@
   "changed": "2026-11-01"
  },
  "/cities/": {
-  "hash": "d74738c01b6b4e68",
-  "changed": "2026-11-06"
+  "hash": "bc99dc0804ec8df2",
+  "changed": "2026-11-15"
  },
  "/cities/ahmedabad/": {
   "hash": "65fdd119d17be03f",
@@ -200,7 +200,7 @@
   "changed": "2026-11-06"
  },
  "/heat-network/": {
-  "hash": "3a1c76bf85f20934",
+  "hash": "ea6c3ff521844c3c",
   "changed": "2026-11-15"
  },
  "/heat-tools/": {
@@ -328,8 +328,8 @@
   "changed": "2026-10-31"
  },
  "/paths/city/": {
-  "hash": "439663720aba7665",
-  "changed": "2026-10-31"
+  "hash": "b36e4cfc5b046a5b",
+  "changed": "2026-11-15"
  },
  "/paths/community/": {
   "hash": "e128884ae82d0456",
@@ -340,8 +340,8 @@
   "changed": "2026-10-01"
  },
  "/paths/funder/": {
-  "hash": "bbe1381b3b126000",
-  "changed": "2026-11-07"
+  "hash": "5c8baede2a1a2f78",
+  "changed": "2026-11-15"
  },
  "/paths/health/": {
   "hash": "7515e4902dde7982",
@@ -552,8 +552,8 @@
   "changed": "2026-11-14"
  },
  "/understand/": {
-  "hash": "12ffb1acea6e933d",
-  "changed": "2026-11-07"
+  "hash": "06b66c188c2b6113",
+  "changed": "2026-11-15"
  },
  "/use-with-ai/": {
   "hash": "06d7530c0bb7fee0",

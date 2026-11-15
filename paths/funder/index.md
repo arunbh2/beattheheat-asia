@@ -1,7 +1,7 @@
 ---
 title: "Funders and philanthropy: a path through Common Shade"
 url: https://beattheheat.asia/paths/funder/
-updated: 2026-11-07
+updated: 2026-11-15
 licence: CC BY 4.0
 ---
 
@@ -19,7 +19,7 @@ Where support could matter most, what works, and who could carry it to people.
 
 ## [Where is the need?](https://beattheheat.asia/cities/)
 
-Twelve cities and what heat is doing in each, with the plans already in place.
+12 cities and what heat is doing in each, with the plans already in place.
 
 **Read first:** [Dhaka](https://beattheheat.asia/cities/#dhaka) · [Delhi](https://beattheheat.asia/cities/#delhi)
 

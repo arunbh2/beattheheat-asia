@@ -1,7 +1,7 @@
 ---
 title: "City and local government: a path through Common Shade"
 url: https://beattheheat.asia/paths/city/
-updated: 2026-10-31
+updated: 2026-11-15
 licence: CC BY 4.0
 ---
 
@@ -19,7 +19,7 @@ Your city’s heat, the actions that fit, and a plan your team can run.
 
 ## [What is heat doing in our city?](https://beattheheat.asia/cities/)
 
-Twelve city profiles: the kind of heat, the plan in place and the cycles at work.
+12 city profiles: the kind of heat, the plan in place and the cycles at work.
 
 **Then:** [See your country’s snapshot](https://beattheheat.asia/countries/)
 

@@ -305,7 +305,7 @@ const PEOPLE = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "peopl
   if (missing.length) throw new Error("atlas: no map position for heatwave " + missing.join(", "));
   const CITIES = D.LIVE_CITIES.map(c => { const p = D.CITY_PROFILES.find(x => x.id === c.id) || { hap: {} }; return { id: c.id, n: c.name, c: c.country, lat: c.lat, lon: c.lon, st: p.hap.status, tx: p.hap.text, warn: c.warn ? [c.warn.label, c.warn.url] : null }; });
   const ATL = { hw: HW, ms: MS, cities: CITIES, hap: D.CITY_HAP, note: D.LIVE_NOTE, y0: 1998, y1: Math.max(...HW.map(h => h.y), ...MS.map(m => m.year)) };
-  write("atlas", page("atlas", "Atlas of Asia's heat", "Where, and when, heat has changed what places do: ten heatwaves since 1998 and the plans, rules and roles that followed, on a drawn map of South and Southeast Asia.",
+  write("atlas", page("atlas", "Atlas of Asia's heat", `Where, and when, heat has changed what places do: ${HW.length} heatwaves since 1998 and the plans, rules and roles that followed, on a drawn map of South and Southeast Asia.`,
     `${hero("Understand heat", "Atlas of Asia’s heat", "Where, and when, heat has changed what places do. Drag the timeline, or press play, to watch heatwaves arrive and the plans that came after.")}
     <section class="container hub atl" data-atl>
       <div class="atl-layers" role="group" aria-label="Show on the map">
