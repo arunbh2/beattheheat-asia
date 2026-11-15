@@ -23,8 +23,8 @@ function measures(days, base) {
   return { thresholds: t, years: out };
 }
 // Sen's slope: the median of all pairwise slopes
-function senSlope(ys) { const s = []; for (let i = 0; i < ys.length; i++) for (let j = i + 1; j < ys.length; j++) if (ys[i] != null && ys[j] != null) s.push((ys[j] - ys[i]) / (j - i));
-  return percentile(s, 50); }
+function pairs(ys, xs) { const s = []; for (let i = 0; i < ys.length; i++) for (let j = i + 1; j < ys.length; j++) if (ys[i] != null && ys[j] != null) s.push((ys[j] - ys[i]) / ((xs ? xs[j] - xs[i] : j - i) || 1)); return s; }
+function senSlope(ys, xs) { return percentile(pairs(ys, xs), 50); }
 // Mann-Kendall test with the tie correction; two-sided p from the normal approximation
 function mannKendall(ys) {
   const x = ys.filter(v => v != null), n = x.length; let S = 0;
@@ -38,14 +38,18 @@ function mannKendall(ys) {
 function phi(z) { const t = 1 / (1 + 0.2316419 * Math.abs(z)), d = 0.3989422804014327 * Math.exp(-z * z / 2);
   const p = d * t * (0.31938153 + t * (-0.356563782 + t * (1.781477937 + t * (-1.821255978 + t * 1.330274429)))); return z >= 0 ? 1 - p : p; }
 // the 95% range of Sen's slope (Gilbert 1987): ranks of the sorted pairwise slopes either side of the median
-function senRange(ys) { const s = []; for (let i = 0; i < ys.length; i++) for (let j = i + 1; j < ys.length; j++) if (ys[i] != null && ys[j] != null) s.push((ys[j] - ys[i]) / (j - i));
+function senRange(ys, xs) { const s = pairs(ys, xs);
   s.sort((a, b) => a - b); const N = s.length, n = ys.filter(v => v != null).length; if (!N) return null;
   const ties = {}; ys.filter(v => v != null).forEach(v => { ties[v] = (ties[v] || 0) + 1; });
   const V = (n * (n - 1) * (2 * n + 5) - Object.values(ties).reduce((a, t) => a + t * (t - 1) * (2 * t + 5), 0)) / 18, C = 1.96 * Math.sqrt(V);
   const lo = Math.max(0, Math.round((N - C) / 2) - 1), hi = Math.min(N - 1, Math.round((N + C) / 2));
   return [s[lo], s[hi]]; }
 // a trend in plain words: the slope per decade, its 95% range and how sure the test is (three tiers, so weak signals are not oversold)
-function trend(ys) { const sl = senSlope(ys), mk = mannKendall(ys), r = senRange(ys), dec = sl == null ? null : sl * 10;
+function trend(ys, xs) { const sl = senSlope(ys, xs), mk = mannKendall(ys), r = senRange(ys, xs), dec = sl == null ? null : sl * 10;
   const words = mk.p < 0.05 ? (dec > 0 ? "a clear rise" : "a clear fall") : mk.p < 0.2 ? (dec > 0 ? "leaning upward, not clear" : "leaning downward, not clear") : "no clear change";
   return { per_decade: dec == null ? null : +dec.toFixed(2), range: r ? [+(r[0] * 10).toFixed(2), +(r[1] * 10).toFixed(2)] : null, p: +mk.p.toFixed(3), words }; }
-module.exports = { percentile, byYear, measures, senSlope, senRange, mannKendall, phi, trend };
+// a station year counts when at most 15 days and no more than 3 days in any month are missing, for both TMAX and TMIN
+function validYear(days, year) { const dim = m => new Date(Date.UTC(year, m, 0)).getUTCDate(), ok = new Set(days.filter(d => d.tmax != null && d.tmin != null).map(d => d.date));
+  let miss = 0; for (let m = 1; m <= 12; m++) { let mm = 0; for (let dd = 1; dd <= dim(m); dd++) { const k = `${year}-${String(m).padStart(2, "0")}-${String(dd).padStart(2, "0")}`; if (!ok.has(k)) mm++; } if (mm > 3) return false; miss += mm; }
+  return miss <= 15; }
+module.exports = { validYear, pairs,  percentile, byYear, measures, senSlope, senRange, mannKendall, phi, trend };

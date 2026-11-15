@@ -1,5 +1,6 @@
 # Heat over time for city pages (tools/city-history/run.js): reads the Open-Meteo Historical Weather API (ERA5-Land, free, no
-# account) on GitHub, never in a visitor's browser, and commits data/city-history/<id>.json. No packages. Run by hand.
+# account) and NOAA GHCN-Daily station records (public domain, no account) on GitHub, never in a visitor's browser, and commits
+# data/city-history/<id>.json. discover prints each candidate station's completeness and writes nothing. No packages. Run by hand.
 name: City heat history
 on:
   workflow_dispatch:
@@ -8,6 +9,10 @@ on:
         description: City ids separated by commas, or all
         required: true
         default: bangkok,kolkata
+      mode:
+        description: discover (station completeness only) or build
+        required: true
+        default: discover
 permissions:
   contents: write
 jobs:
@@ -22,13 +27,16 @@ jobs:
       - name: Check the input
         env:
           CITIES: ${{ inputs.cities }}
-        run: '[[ "$CITIES" =~ ^(all|[a-z]+(,[a-z]+)*)$ ]] || { echo "::error::cities must be lowercase ids separated by commas, or all"; exit 1; }'
+          MODE: ${{ inputs.mode }}
+        run: '[[ "$CITIES" =~ ^(all|[a-z]+(,[a-z]+)*)$ && "$MODE" =~ ^(discover|build)$ ]] || { echo "::error::cities must be lowercase ids separated by commas, or all; mode discover or build"; exit 1; }'
       - name: Statistics tests
         run: node tools/check-city-history.js --stats-only
-      - run: node tools/city-history/run.js "$CITIES"
+      - run: node tools/city-history/run.js "$CITIES" "$MODE"
         env:
           CITIES: ${{ inputs.cities }}
+          MODE: ${{ inputs.mode }}
       - name: Check and commit
+        if: inputs.mode == 'build'
         env:
           CITIES: ${{ inputs.cities }}
         run: |

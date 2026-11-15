@@ -1,0 +1,5 @@
+{
+ "about": "Candidate weather stations per city in NOAA's Global Historical Climatology Network Daily (GHCN-Daily, public domain), tried in order. A station is used only if it passes the completeness rules in tools/city-history/run.js; otherwise the city shows no trend. IDs come from an advisor's recollection and are confirmed (or refused) by the job's discover run against the NCEI Access Data Service.",
+ "bangkok": ["TH000048455", "TH000048456"],
+ "kolkata": ["IN024141800", "IN024141500"]
+}

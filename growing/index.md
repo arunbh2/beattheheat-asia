@@ -111,14 +111,14 @@ Why it matters our readingEach city page now shows an estimated heat stress (WBG
 - Heat action plans
 - Heat-safe work
 
-ReviewThe method, its limits and the data sources each opened on GitHub with every term found; on the day of the check the estimate for Singapore read higher than every measured station, as the method's own caveats lead one to expect in cloud. 71 checked · 56 confirmed · 10 not confirmed, each recorded.
+ReviewThe method, its limits and the data sources each opened on GitHub with every term found; on the day of the check the estimate for Singapore read higher than every measured station, as the method's own caveats lead one to expect in cloud. 71 checked · 62 confirmed · 9 not confirmed, each recorded.
 
 What it took to add this
 
 - **The question.** How hot will it feel to work outdoors in this city today and over the next three days, and what is that based on?
 - **The search.** 71 sources were gathered for checking.
 
-- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 56 confirmed, and 10 could not be (2 blocked automated reading, 4 did not respond, 4 did not show the expected text).
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 62 confirmed, and 9 could not be (2 blocked automated reading, 3 did not respond, 4 did not show the expected text).
 - **What we set aside.** 34 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
 
 - **What is still open.** Whether a fuller method that also uses sun and wind can be added without a new service.
@@ -147,14 +147,14 @@ Why it matters our readingKolkata, Chennai, Hyderabad, Bengaluru and Bhubaneswar
 - Workers in heat-exposed jobs
 - Heat action plans
 
-Review27 sources staged and opened on GitHub; 21 passed with every term found and only those are cited; six failed or were blocked and nothing rests on them. 71 checked · 56 confirmed · 10 not confirmed, each recorded.
+Review27 sources staged and opened on GitHub; 21 passed with every term found and only those are cited; six failed or were blocked and nothing rests on them. 71 checked · 62 confirmed · 9 not confirmed, each recorded.
 
 What it took to add this
 
 - **The question.** What is heat doing in India's big cities beyond Delhi, Mumbai and Ahmedabad, and what plans are in place?
 - **The search.** 71 sources were gathered for checking.
 
-- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 56 confirmed, and 10 could not be (2 blocked automated reading, 4 did not respond, 4 did not show the expected text).
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 62 confirmed, and 9 could not be (2 blocked automated reading, 3 did not respond, 4 did not show the expected text).
 - **What we set aside.** 12 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
 
 - **What is still open.** Whether Kolkata, Chennai and Hyderabad publish city heat action plans of their own.
@@ -183,14 +183,14 @@ Why it matters our readingHo Chi Minh City, Chattogram, Surabaya, Quezon City an
 - Workers in heat-exposed jobs
 - Heat action plans
 
-Review24 sources staged and opened on GitHub; 18 passed with every term found and only those are cited; six failed or were blocked and nothing rests on them. 71 checked · 56 confirmed · 10 not confirmed, each recorded.
+Review24 sources staged and opened on GitHub; 18 passed with every term found and only those are cited; six failed or were blocked and nothing rests on them. 71 checked · 62 confirmed · 9 not confirmed, each recorded.
 
 What it took to add this
 
 - **The question.** What is heat doing in big cities beyond the capitals, and what plans are in place?
 - **The search.** 71 sources were gathered for checking.
 
-- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 56 confirmed, and 10 could not be (2 blocked automated reading, 4 did not respond, 4 did not show the expected text).
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 62 confirmed, and 9 could not be (2 blocked automated reading, 3 did not respond, 4 did not show the expected text).
 - **What we set aside.** 12 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
 
 - **What is still open.** Whether Quezon City's heat action team publishes a city heat action plan, and whether Chiang Mai's haze plans come to cover heat.
@@ -221,14 +221,14 @@ Why it matters our readingEvery city page now says what a checked study finds he
 - Heat action plans
 - Cool by design
 
-ReviewDistrict outlines, WorldPop, ESA WorldCover and OpenStreetMap read on GitHub by a job anyone can rerun; district areas add up to within half a percent of Bangkok's area; an independent review led to clinics being left out and stronger wording on modelled residents and park area. 71 checked · 56 confirmed · 10 not confirmed, each recorded.
+ReviewDistrict outlines, WorldPop, ESA WorldCover and OpenStreetMap read on GitHub by a job anyone can rerun; district areas add up to within half a percent of Bangkok's area; an independent review led to clinics being left out and stronger wording on modelled residents and park area. 71 checked · 62 confirmed · 9 not confirmed, each recorded.
 
 What it took to add this
 
 - **The question.** Inside a city, where do many people, and many older people, live with little park space, much built-up ground and few hospitals nearby?
 - **The search.** 71 sources were gathered for checking.
 
-- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 56 confirmed, and 10 could not be (2 blocked automated reading, 4 did not respond, 4 did not show the expected text).
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 62 confirmed, and 9 could not be (2 blocked automated reading, 3 did not respond, 4 did not show the expected text).
 - **What we set aside.** 34 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
 
 - **What is still open.** Hanoi is held back until its city and district outlines line up; which other cities have open outlines good enough to repeat this.

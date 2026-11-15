@@ -16,12 +16,13 @@ const M = S.measures([{ date: "2001-01-01", tmax: 30, tmin: 20 }, { date: "2001-
 if (M.years.length !== 2 || M.years[0].hottest !== 40) fail("measures: wrong yearly grouping or hottest day");
 if (!process.argv.includes("--stats-only")) {
   const DIR = path.join(ROOT, "data", "city-history"), files = fs.existsSync(DIR) ? fs.readdirSync(DIR).filter(f => f.endsWith(".json")) : [];
-  for (const f of files) { const d = JSON.parse(fs.readFileSync(path.join(DIR, f), "utf8")), at = "data/city-history/" + f;
-    const n = d.period[1] - d.period[0] + 1;
-    if (d.years.length < n - 1) fail(`${at}: ${d.years.length} years of ${n}`);
-    for (const y of d.years) { if (!(y.warm_nights >= 0 && y.warm_nights <= 366 && y.hot_days >= 0 && y.hot_days <= 366)) fail(`${at}: ${y.year} counts out of range`); if (!(y.hottest > 0 && y.hottest < 60)) fail(`${at}: ${y.year} hottest day ${y.hottest} °C is not plausible`); }
-    for (const k of ["warm_nights", "hot_days", "hottest"]) if (!d.trends[k] || !d.trends[k].words) fail(`${at}: no trend words for ${k}`);
-    if (d.model !== "era5_land" || !d.grid || d.grid.lat == null) fail(`${at}: the model and grid cell are not recorded`);
+  for (const f of files) { const d = JSON.parse(fs.readFileSync(path.join(DIR, f), "utf8")), at = "data/city-history/" + f, n = d.period[1] - d.period[0] + 1;
+    const part = (x, name, min) => { if (x.years.length < min) fail(`${at}: ${name} has ${x.years.length} years, fewer than ${min}`);
+      for (const y of x.years) { if (!(y.warm_nights >= 0 && y.warm_nights <= 366 && y.hot_days >= 0 && y.hot_days <= 366)) fail(`${at}: ${name} ${y.year} counts out of range`); if (!(y.hottest > 0 && y.hottest < 60)) fail(`${at}: ${name} ${y.year} hottest day ${y.hottest} °C is not plausible`); }
+      for (const k of ["warm_nights", "hot_days", "hottest"]) if (!x.trends[k] || !x.trends[k].words) fail(`${at}: ${name} has no trend words for ${k}`); };
+    if (!d.background || d.background.model !== "era5_land" || !d.background.grid) fail(`${at}: the background reanalysis, its model and grid cell are not recorded`); else part(d.background, "background", n - 1);
+    if (d.station) { part(d.station, "station", Math.ceil(0.8 * n)); if (!d.station.id || !d.station.source) fail(`${at}: the station has no id or source`); }
+    if (!Array.isArray(d.tried)) fail(`${at}: the stations tried are not listed`);
   }
   if (!fails.length) console.log(`city history check passed: statistics tests, ${files.length} city file(s)`);
 } else if (!fails.length) console.log("city history statistics tests passed");
