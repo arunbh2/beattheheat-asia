@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-50 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,086 works the commons draws on carry a publication date, and 808 are still being dated.
+50 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,086 works the commons draws on carry a publication date, and 807 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -119,7 +119,7 @@ What it took to add this
 - **The search.** 7 sources were gathered for checking.
 
 - **The checking.** Each source was opened and read for the terms and numbers it was cited for: 7 confirmed.
-- **What we set aside.** 29 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+- **What we set aside.** 31 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
 
 - **What is still open.** Whether a fuller method that also uses sun and wind can be added without a new service.
 
@@ -1577,7 +1577,7 @@ Steps toward protection this year: [Bangkok opens 304 cooling centres](https://b
 - Institutions and plans140
 - Financing229
 
-Not yet dated: 808 works whose records carry no date, and 18 known only to have been online by a certain date. 426 links to organisations are counted apart and never dated. History before October 2026 is reconstructed only from these publication dates; Common Shade's own record of changes begins on 23 October 2026.
+Not yet dated: 807 works whose records carry no date, and 19 known only to have been online by a certain date. 426 links to organisations are counted apart and never dated. History before October 2026 is reconstructed only from these publication dates; Common Shade's own record of changes begins on 23 October 2026.
 
 ## What we've revised
 

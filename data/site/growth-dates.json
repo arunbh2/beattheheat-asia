@@ -33,7 +33,10 @@
    "url": "http://www.bom.gov.au/info/thermal_stress/",
    "label": "Australian Bureau of Meteorology: Thermal comfort observations, about the approximation to the WBGT",
    "root": "evidence",
-   "org": false
+   "org": false,
+   "date": "2005-07-24",
+   "precision": "day",
+   "how": "online"
   },
   {
    "url": "http://www.theraintree.co.in",
