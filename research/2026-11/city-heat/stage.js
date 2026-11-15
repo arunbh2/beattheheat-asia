@@ -70,6 +70,15 @@ const R = [
   S("cm-cleanair", 2, "Air quality in Chiang Mai begins to affect public health as PM2.5 levels rise", "Chiang Mai CityLife", 2026, "https://www.chiangmaicitylife.com/citynews/general/air-quality-in-chiang-mai-begins-to-affect-public-health-as-pm2-5-levels-rise/", ["PM2.5", "Chiang Mai"], "News report"),
   S("cm-heatstroke", 2, "Health office warns of heat stroke", "Chiang Mai CityLife", 2025, "https://chiangmaicitylife.com/citynews/health/health-office-warns-of-heat-stroke", ["heat stroke", "Chiang Mai"], "News report"),
   S("cm-42", 2, "Northern Thailand temperature expected to exceed 42C", "Chiang Rai Times", 2025, "https://www.chiangraitimes.com/weather/northern-thailand-temperature-expected-to-exceed-42c/", ["Chiang Mai", "42"], "News report"),
+  // step 5: what has been measured, and where (single-site field measurements of shade, trees and reflective roofs in Asian cities)
+  S("m-sg-shade", 5, "Harnessing street shade to mitigate heat stress: an in-situ parallel investigation under extreme heat conditions in tropical Singapore", "Science of the Total Environment", 2024, "https://doi.org/10.1016/j.scitotenv.2024.177864", ["shade", "Singapore"], "Study"),
+  S("m-sg-shade-summary", 5, "Which street shade actually keeps you cool?", "Void Deck, Science Centre Singapore", 2025, "https://voiddeck.science.edu.sg/street-shade", ["0.8", "3.1"], "Research summary"),
+  S("m-sg-park", 5, "Park cool island modifications to assess radiative cooling of a tropical urban park", "Scientific Reports (via SMU repository)", 2025, "https://ink.library.smu.edu.sg/cis_research/430", ["2.21", "1.69"], "Study"),
+  S("m-taipei-trees", 5, "Cooling effect of shade trees with different characteristics in a subtropical urban park", "HortScience", 2010, "https://journals.ashs.org/downloadpdf/view/journals/hortsci/45/1/article-p83.pdf", ["0.64", "2.52"], "Study"),
+  S("m-blr-trees", 5, "Effect of street trees on microclimate and air pollution in a tropical city", "Urban Forestry and Urban Greening", 2013, "https://doi.org/10.1016/j.ufug.2013.03.002", ["street trees", "Bangalore"], "Study"),
+  S("m-blr-trees-atree", 5, "Effect of street trees on microclimate and air pollution in a tropical city (ATREE record)", "ATREE", 2013, "https://archived.atree.org/node/824", ["street trees", "temperature"], "Research record"),
+  S("m-hyd-roofs", 5, "Cool roofs and white coatings: measured cooling energy savings in Hyderabad, India", "Lawrence Berkeley National Laboratory and IIIT Hyderabad", 2011, "https://www.osti.gov/servlets/purl/1026804", ["Hyderabad", "14", "26"], "Report or study"),
+  S("m-amd-roofs", 5, "Combating climate change-induced heat stress: assessing cool roofs and its impact on the indoor ambient temperature of the households in the urban slums of Ahmedabad", "Indian Journal of Occupational and Environmental Medicine", 2020, "https://pmc.ncbi.nlm.nih.gov/articles/PMC7227734", ["Ahmedabad", "indoor"], "Study"),
 ];
 const ids = new Set(); for (const r of R) { if (ids.has(r.id)) throw new Error("duplicate id " + r.id); ids.add(r.id); }
 fs.mkdirSync(OUT, { recursive: true });
