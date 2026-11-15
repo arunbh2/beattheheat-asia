@@ -1,5 +1,9 @@
 {
  "http://pfigshare-u-files.s3.amazonaws.com/10206825/GuidetoDimensionsDataApproach.pdf": null,
+ "http://www.bom.gov.au/info/thermal_stress/": {
+  "date": "2005-07-24",
+  "how": "online"
+ },
  "http://www.theraintree.co.in": {
   "date": "2018-09-30",
   "how": "online"
@@ -2273,6 +2277,10 @@
   "how": "meta"
  },
  "https://www.johnsoncontrols.com/hvac-equipment": null,
+ "https://www.jstage.jst.go.jp/article/indhealth/50/4/50_MS1352/_pdf": {
+  "date": "2018-10-31",
+  "how": "online"
+ },
  "https://www.jstage.jst.go.jp/article/indhealth/51/1/51_2012-0166/_article": {
   "date": "2013",
   "how": "meta"

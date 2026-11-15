@@ -678,6 +678,18 @@
       "links": [{ "to": "lever:coolbydesign", "why": "The Compact's building codes and renovation bear on how hot homes and workplaces get.", "basis": "record" }]
     },
     {
+      "id": "g-city-heat-today", "kind": "tool", "root": "institutions", "added": "2026-11-15", "pr": null,
+      "title": "Heat today and the next three days on every city page",
+      "why": "Each city page now shows an estimated heat stress (WBGT) for now and a daily peak for four days, from forecast temperature and humidity, with the method's limits stated beside it and the official warning service one tap away.",
+      "places": ["region"], "people": ["workers"], "topics": ["hap", "heatrules"],
+      "event": { "what": "City heat estimate added", "date": "2026-11-15" },
+      "review": "The method, its limits and the data sources each opened on GitHub with every term found; on the day of the check the estimate for Singapore read higher than every measured station, as the method's own caveats lead one to expect in cloud",
+      "effort": { "asked": "How hot will it feel to work outdoors in this city today and over the next three days, and what is that based on?", "inbox": "data/inbox/2026-11-city-heat", "dropped": "research/2026-11/city-heat/BUILD_BRIEF.md",
+                  "open": "Whether a fuller method that also uses sun and wind can be added without a new service." },
+      "pages": [["/cities/", "Cities"]], "action": ["See a city", "/cities/bangkok/#heat-today"],
+      "links": [{ "to": "lever:heatrules", "why": "Rules for heat at work are usually set in WBGT, the measure the estimate approximates.", "basis": "editorial" }]
+    },
+    {
       "id": "g-heat-signals-asia-2026", "kind": "connection", "root": "evidence", "added": "2026-11-15", "pr": null,
       "title": "New signals from Asia on heat at work, and lessons on heat insurance on the map",
       "why": "Signals now follow Singapore's mandatory heat measures, the Philippines' new heat stress and compensation guidelines, South Korea's first emergency heatwave warning, a survey of outdoor workers in Viet Nam and the World Bank's report on heat in South Asia's cities. Income protection on the map now notes two lessons from India's first heat insurance for informal women workers.",

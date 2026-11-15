@@ -31,3 +31,5 @@ jobs:
         run: node tools/check-type.js
       - name: colours keep their meanings, and links their house style
         run: node tools/check-colours.js
+      - name: City heat estimate (formula against its checked source, worked values, city pages)
+        run: node tools/check-city-heat.js

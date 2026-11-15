@@ -1,0 +1,44 @@
+{
+ "_terms": {
+  "http://www.bom.gov.au/info/thermal_stress/": {
+   "0.567": true,
+   "0.393": true,
+   "3.94": true,
+   "6.105": true,
+   "17.27": true,
+   "237.7": true
+  },
+  "http://www.bom.gov.au/info/thermal_stress/#approximation": {
+   "light wind": true,
+   "radiation": true
+  },
+  "https://www.jstage.jst.go.jp/article/indhealth/50/4/50_MS1352/_pdf": {
+   "Bureau of Meteorology": true,
+   "WBGT": true
+  },
+  "https://pubmed.ncbi.nlm.nih.gov/22673363/": {
+   "WBGT": true,
+   "meteorological": true
+  },
+  "https://open-meteo.com/en/docs": {
+   "relative_humidity_2m": true,
+   "temperature_2m": true,
+   "hourly": true
+  },
+  "https://api.open-meteo.com/v1/forecast?latitude=1.35,13.75&longitude=103.82,100.5&current=temperature_2m,relative_humidity_2m&hourly=temperature_2m,relative_humidity_2m&timezone=auto&forecast_days=4": {
+   "relative_humidity_2m": true,
+   "utc_offset_seconds": true
+  },
+  "https://api-open.data.gov.sg/v2/real-time/api/weather?api=wbgt": {
+   "wbgt": true,
+   "heatStress": true
+  }
+ },
+ "http://www.bom.gov.au/info/thermal_stress/": "OK",
+ "http://www.bom.gov.au/info/thermal_stress/#approximation": "OK",
+ "https://www.jstage.jst.go.jp/article/indhealth/50/4/50_MS1352/_pdf": "OK",
+ "https://pubmed.ncbi.nlm.nih.gov/22673363/": "OK",
+ "https://open-meteo.com/en/docs": "OK",
+ "https://api.open-meteo.com/v1/forecast?latitude=1.35,13.75&longitude=103.82,100.5&current=temperature_2m,relative_humidity_2m&hourly=temperature_2m,relative_humidity_2m&timezone=auto&forecast_days=4": "OK",
+ "https://api-open.data.gov.sg/v2/real-time/api/weather?api=wbgt": "OK"
+}

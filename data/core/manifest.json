@@ -515,6 +515,11 @@
   ]
  },
  {
+  "name": "LIVE_WBGT",
+  "file": "LIVE_WBGT.json",
+  "notes": "// Estimated heat stress (WBGT) on city pages and the homepage city view: the words shared by city-heat/city-heat.js, script.js and\n// llms-full.txt. The calculation is in city-heat/heat-core.js; tools/check-city-heat.js checks it. Sources checked in data/inbox/2026-11-city-heat/."
+ },
+ {
   "name": "LIVE_FINGERPRINT",
   "file": "LIVE_FINGERPRINT.json",
   "notes": "// Climate change's fingerprint: Climate Central's Climate Shift Index (CSI) and its June–August 2026 analysis.\n// Climate Central allows use of its data for educational and non-commercial purposes with credit; we link to its\n// map rather than copy it, and restate its published figures in our own words.",

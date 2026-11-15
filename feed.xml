@@ -22,6 +22,13 @@
     <summary>The COP31 Presidency's Antalya Compact for Energy Efficient Buildings joins the COP31 watch at its first rung, announced, as it is open for countries to endorse. Its actions include the electrification of heating and cooling.</summary>
   </entry>
   <entry>
+    <title>Heat today and the next three days on every city page</title>
+    <link href="https://beattheheat.asia/growing/#g-city-heat-today" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-city-heat-today</id>
+    <updated>2026-11-15T00:00:00Z</updated>
+    <summary>Each city page now shows an estimated heat stress (WBGT) for now and a daily peak for four days, from forecast temperature and humidity, with the method's limits stated beside it and the official warning service one tap away.</summary>
+  </entry>
+  <entry>
     <title>New signals from Asia on heat at work, and lessons on heat insurance on the map</title>
     <link href="https://beattheheat.asia/growing/#g-heat-signals-asia-2026" rel="alternate" type="text/html"/>
     <id>https://beattheheat.asia/growing/#g-heat-signals-asia-2026</id>
@@ -209,12 +216,5 @@
     <id>https://beattheheat.asia/growing/#g-harm-hope</id>
     <updated>2026-11-06T00:00:00Z</updated>
     <summary>A harm without a way forward can leave a reader stuck. Each harm now points to the actions closest to it, or says plainly that none is documented yet.</summary>
-  </entry>
-  <entry>
-    <title>India's Heat Resilient Cities Framework (2026), across the site</title>
-    <link href="https://beattheheat.asia/growing/#g-niua-framework" rel="alternate" type="text/html"/>
-    <id>https://beattheheat.asia/growing/#g-niua-framework</id>
-    <updated>2026-11-03T00:00:00Z</updated>
-    <summary>The framework moves cities from emergency response towards lasting change, with the people most exposed at the centre. It now informs the glossary, the planning checklist and the cities it names.</summary>
   </entry>
 </feed>
