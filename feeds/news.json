@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-15T06:50:56.914Z",
+ "updated": "2026-11-15T18:58:57.841Z",
  "keepDays": 14,
  "sources": [
   {
    "name": "regional news outlets",
    "ok": true,
-   "found": 502
+   "found": 496
   },
   {
    "name": "GDELT Project",
@@ -16,6 +16,22 @@
  ],
  "query": "(heatwave OR \"heat wave\" OR \"extreme heat\" OR \"heat stress\" OR heatstroke OR \"heat index\") (India OR Bangladesh OR Nepal OR \"Sri Lanka\" OR Pakistan OR Bhutan OR Maldives OR Cambodia OR Indonesia OR Philippines OR Singapore OR Thailand OR Vietnam OR Malaysia OR Myanmar OR Laos) sourcelang:english",
  "items": [
+  {
+   "title": "Puerto Princesa heat index to hit 45°C Monday",
+   "url": "https://newsinfo.inquirer.net/2341794/puerto-princesa-heat-index-to-hit-45c-monday",
+   "domain": "newsinfo.inquirer.net",
+   "date": "2026-11-15T19:42:55Z",
+   "place": "Philippines",
+   "via": "Inquirer"
+  },
+  {
+   "title": "Heat index in parts of Eastern Visayas expected to increase",
+   "url": "https://newsinfo.inquirer.net/2341684/heat-index-in-parts-of-eastern-visayas-expected-to-increase",
+   "domain": "newsinfo.inquirer.net",
+   "date": "2026-11-15T13:05:30Z",
+   "place": "Philippines",
+   "via": "Inquirer"
+  },
   {
    "title": "Dangerous heat index grips 9 areas on Thursday",
    "url": "https://newsinfo.inquirer.net/2340468/dangerous-heat-index-grips-9-areas-on-thursday",

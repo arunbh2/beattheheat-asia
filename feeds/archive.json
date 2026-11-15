@@ -2,6 +2,20 @@
  "note": "Every item that has appeared on /news/. Built by tools/archive-news.js.",
  "news": [
   {
+   "title": "Puerto Princesa heat index to hit 45°C Monday",
+   "url": "https://newsinfo.inquirer.net/2341794/puerto-princesa-heat-index-to-hit-45c-monday",
+   "via": "Inquirer",
+   "date": "2026-11-15T19:42:55Z",
+   "place": "Philippines"
+  },
+  {
+   "title": "Heat index in parts of Eastern Visayas expected to increase",
+   "url": "https://newsinfo.inquirer.net/2341684/heat-index-in-parts-of-eastern-visayas-expected-to-increase",
+   "via": "Inquirer",
+   "date": "2026-11-15T13:05:30Z",
+   "place": "Philippines"
+  },
+  {
    "title": "Dangerous heat index grips 9 areas on Thursday",
    "url": "https://newsinfo.inquirer.net/2340468/dangerous-heat-index-grips-9-areas-on-thursday",
    "via": "Inquirer",
@@ -122,6 +136,14 @@
    "date": "2026-11-13",
    "firstAuthor": "Pranto FS",
    "preprint": true
+  },
+  {
+   "title": "Decoupling of cryogenic N 2 porosity and ambient-temperature CO 2 uptake in PVA-GTMAC-functionalized biomass carbon.",
+   "url": "https://doi.org/10.1039/d6ra08327g",
+   "journal": "RSC advances",
+   "date": "2026-11-13",
+   "firstAuthor": "Ngo HL",
+   "preprint": false
   },
   {
    "title": "Data-driven estimation of the onset of heat-related mortality in five Indian cities",
@@ -1237,5 +1259,5 @@
    "issue": "2027-07-28"
   }
  ],
- "updated": "2026-11-14T18:19:30.581Z"
+ "updated": "2026-11-15T18:59:00.158Z"
 }

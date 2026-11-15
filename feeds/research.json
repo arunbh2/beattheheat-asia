@@ -1,8 +1,18 @@
 {
- "updated": "2026-11-15T06:51:00.829Z",
+ "updated": "2026-11-15T18:59:00.071Z",
  "days": 120,
  "source": "Europe PMC",
  "items": [
+  {
+   "title": "Decoupling of cryogenic N 2 porosity and ambient-temperature CO 2 uptake in PVA-GTMAC-functionalized biomass carbon.",
+   "journal": "RSC advances",
+   "date": "2026-11-13",
+   "doi": "10.1039/d6ra08327g",
+   "pmid": "43032311",
+   "preprint": false,
+   "url": "https://doi.org/10.1039/d6ra08327g",
+   "firstAuthor": "Ngo HL"
+  },
   {
    "title": "Pre-monsoon heatwave trends and ENSO-dryness associations in Rajshahi, Bangladesh",
    "journal": "Preprint",
@@ -144,7 +154,7 @@
    "firstAuthor": "Gupta S"
   },
   {
-   "title": "Genome-Wide Identification and In Silico Characterization of the Salt Overly Sensitive 3/Calcineurin B-like ( GhSOS3 ) Gene Family in Upland Cotton ( Gossypium hirsutum L.) and Expression Profiling of Two Members Under Drought, Salt and Heat Stress.",
+   "title": "Genome-Wide Identification and In Silico Characterization of the Salt Overly Sensitive 3/Calcineurin B-like (&lt;i&gt;GhSOS3&lt;/i&gt;) Gene Family in Upland Cotton (&lt;i&gt;Gossypium hirsutum&lt;/i&gt; L.) and Expression Profiling of Two Members Under Drought, Salt and Heat Stress.",
    "journal": "International journal of molecular sciences",
    "date": "2026-10-26",
    "doi": "10.3390/ijms27219561",
@@ -592,16 +602,6 @@
    "preprint": false,
    "url": "https://doi.org/10.3390/foods15183246",
    "firstAuthor": "Zhou Y"
-  },
-  {
-   "title": "&lt;i&gt;Aspergillus niger&lt;/i&gt;-fermented watermelon rind enhances growth, immunity, and heat stress resilience in Asian seabass ( &lt;b&gt;&lt;i&gt;Lates calcarifer&lt;/i&gt;&lt;/b&gt; ).",
-   "journal": "Veterinary and animal science",
-   "date": "2026-09-14",
-   "doi": "10.1016/j.vas.2026.100871",
-   "pmid": "42780938",
-   "preprint": false,
-   "url": "https://doi.org/10.1016/j.vas.2026.100871",
-   "firstAuthor": "Ahmadifar E"
   }
  ]
 }
