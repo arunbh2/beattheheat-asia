@@ -16,8 +16,7 @@
    "17.27",
    "237.7"
   ],
-  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261020000911/https://www.bom.gov.au/info/thermal_stress/"
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
  },
  {
   "id": "ch-bom-wbgt-light-wind",
@@ -32,8 +31,7 @@
    "light wind",
    "radiation"
   ],
-  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261020000911/https://www.bom.gov.au/info/thermal_stress/"
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
  },
  {
   "id": "ch-lemke-2012",
@@ -48,8 +46,7 @@
    "Bureau of Meteorology",
    "WBGT"
   ],
-  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260904180914/https://www.jstage.jst.go.jp/article/indhealth/50/4/50_MS1352/_pdf"
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
  },
  {
   "id": "ch-lemke-2012-pubmed",
@@ -64,8 +61,7 @@
    "WBGT",
    "meteorological"
   ],
-  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261017191611/https://pubmed.ncbi.nlm.nih.gov/22673363/"
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
  },
  {
   "id": "ch-om-docs",
@@ -81,8 +77,7 @@
    "temperature_2m",
    "hourly"
   ],
-  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261104045842/https://open-meteo.com/en/docs"
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
  },
  {
   "id": "ch-om-sample",
@@ -97,8 +92,7 @@
    "relative_humidity_2m",
    "utc_offset_seconds"
   ],
-  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261115061600/https://api.open-meteo.com/v1/forecast?latitude=1.35,13.75&longitude=103.82,100.5&current=temperature_2m,relative_humidity_2m&hourly=temperature_2m,relative_humidity_2m&timezone=auto&forecast_days=4"
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
  },
  {
   "id": "ch-sg-wbgt-sample",
@@ -113,7 +107,412 @@
    "wbgt",
    "heatStress"
   ],
-  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261115061621/https://api-open.data.gov.sg/v2/real-time/api/weather?api=wbgt"
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-kol-wb-hap",
+  "type": "source",
+  "step": 2,
+  "title": "Action plan on heat wave, West Bengal, 2023",
+  "publisher": "Department of Disaster Management and Civil Defence, West Bengal",
+  "year": 2023,
+  "url": "https://heathealth.info/wp-content/uploads/Action-plan-heat-Wave-West-Bengal-.pdf",
+  "kind": "Plan",
+  "expect": [
+   "Heat Wave",
+   "Municipal"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-kol-kcap",
+  "type": "source",
+  "step": 2,
+  "title": "Kolkata Climate Action Plan (KCAP) released for stakeholder consultation",
+  "publisher": "Climate Action Network South Asia",
+  "year": 2025,
+  "url": "https://cansouthasia.net/kolkata-climate-action-plan-kcap-released-for-stakeholder-consultation/",
+  "kind": "News report",
+  "expect": [
+   "Heat Action Plan",
+   "Kolkata Climate Action Plan"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-kol-cse-2022",
+  "type": "source",
+  "step": 2,
+  "title": "Urban heat stress: Kolkata",
+  "publisher": "Centre for Science and Environment",
+  "year": 2022,
+  "url": "https://www.cseindia.org/urban-heat-stress-Kolkata.pdf",
+  "kind": "Report or study",
+  "expect": [
+   "Kolkata",
+   "humidity",
+   "heat index"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-kol-cse-tracker",
+  "type": "source",
+  "step": 2,
+  "title": "Urban heat stress tracker: Kolkata",
+  "publisher": "Centre for Science and Environment",
+  "year": 2024,
+  "url": "https://cseindia.org/content/downloadreports/12195",
+  "kind": "Report or study",
+  "expect": [
+   "Kolkata",
+   "night"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-kol-mongabay",
+  "type": "source",
+  "step": 2,
+  "title": "Health effects of heat stress will intensify disproportionately without ambitious efforts",
+  "publisher": "Mongabay India",
+  "year": 2022,
+  "url": "https://india.mongabay.com/2022/09/health-effects-of-heat-stress-will-intensify-disproportionately-without-ambitious-efforts/",
+  "kind": "News report",
+  "expect": [
+   "Kolkata",
+   "Chennai",
+   "discomfort"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-kol-aidmi",
+  "type": "source",
+  "step": 2,
+  "title": "Informal workers and rising heat in Kolkata",
+  "publisher": "All India Disaster Mitigation Institute",
+  "year": 2026,
+  "url": "https://aidmi.org/?p=5718",
+  "kind": "Report or study",
+  "expect": [
+   "Kolkata",
+   "informal"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-che-tn-hap",
+  "type": "source",
+  "step": 2,
+  "title": "As summer approaches, Tamil Nadu readies heatwave action plan to prevent deaths",
+  "publisher": "DT Next",
+  "year": 2026,
+  "url": "https://www.dtnext.in/news/tamilnadu/as-summer-approaches-tamil-nadu-readies-heatwave-action-plan-to-prevent-deaths-823240",
+  "kind": "News report",
+  "expect": [
+   "heat",
+   "Chennai"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-che-ceew",
+  "type": "source",
+  "step": 2,
+  "title": "GCC partners with CEEW to boost city's extreme heat resilience",
+  "publisher": "DT Next",
+  "year": 2025,
+  "url": "https://www.dtnext.in/amp/story/news/chennai/gcc-partners-with-ceew-to-boost-citys-extreme-heat-resilience",
+  "kind": "News report",
+  "expect": [
+   "CEEW",
+   "ward"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-che-humid",
+  "type": "source",
+  "step": 2,
+  "title": "Rising humidity is dangerous, and it's making India's hot summers worse",
+  "publisher": "Scroll",
+  "year": 2025,
+  "url": "https://scroll.in/article/1082029/rising-humidity-is-dangerous-and-its-making-indias-hot-summers-worse",
+  "kind": "News report",
+  "expect": [
+   "Chennai",
+   "6.3"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-che-night",
+  "type": "source",
+  "step": 2,
+  "title": "New study sheds light on indoor night-time heat retention in Indian homes",
+  "publisher": "Down To Earth",
+  "year": 2026,
+  "url": "https://www.downtoearth.org.in/climate-change/new-study-sheds-light-on-indoor-nighttime-heat-retention-in-indian-homes",
+  "kind": "News report",
+  "expect": [
+   "Chennai",
+   "34"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-che-wards",
+  "type": "source",
+  "step": 2,
+  "title": "How Chennai is racing to build heatstroke wards as temperature soars",
+  "publisher": "The South First",
+  "year": 2026,
+  "url": "https://thesouthfirst.com/health/how-chennai-is-racing-to-build-heatstroke-wards-as-temperature-soars/",
+  "kind": "News report",
+  "expect": [
+   "heatstroke",
+   "Chennai"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-che-workers",
+  "type": "source",
+  "step": 2,
+  "title": "Work slows but survival cannot: extreme heat drives Tamil Nadu's outdoor labourers to the brink",
+  "publisher": "The South First",
+  "year": 2026,
+  "url": "https://thesouthfirst.com/tamilnadu/work-slows-but-survival-cannot-extreme-heat-drives-tamil-nadus-outdoor-labourers-to-brink/",
+  "kind": "News report",
+  "expect": [
+   "90.3",
+   "wage"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-hyd-coolroof",
+  "type": "source",
+  "step": 2,
+  "title": "Telangana adopts cool roof policy to reduce heat stress in buildings",
+  "publisher": "Deccan Herald",
+  "year": 2023,
+  "url": "https://www.deccanherald.com/india/telangana-adopts-cool-roof-policy-to-reduce-heat-stress-in-buildings-1206440.html",
+  "kind": "News report",
+  "expect": [
+   "Cool Roof",
+   "Hyderabad"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-hyd-nrdc",
+  "type": "source",
+  "step": 2,
+  "title": "Hyderabad promotes cool roofs to protect citizens from extreme heat",
+  "publisher": "Natural Resources Defense Council",
+  "year": 2017,
+  "url": "https://www.nrdc.org/press-releases/hyderabad-promotes-cool-roofs-protect-citizens-extreme-heat",
+  "kind": "Press release",
+  "expect": [
+   "Hyderabad",
+   "cool roof"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-hyd-ts-hap",
+  "type": "source",
+  "step": 2,
+  "title": "Telangana rolls out Heatwave Action Plan 2025",
+  "publisher": "The Hans India",
+  "year": 2025,
+  "url": "https://www.thehansindia.com/telangana/telangana-rolls-out-heatwave-action-plan-2025-967782",
+  "kind": "News report",
+  "expect": [
+   "Heatwave Action Plan",
+   "2025"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-hyd-ghmc",
+  "type": "source",
+  "step": 2,
+  "title": "GHMC rolls out summer heatwave plan",
+  "publisher": "Deccan Chronicle",
+  "year": 2025,
+  "url": "https://www.deccanchronicle.com/southern-states/telangana/ghmc-rolls-out-summer-heatwave-plan-1952197",
+  "kind": "News report",
+  "expect": [
+   "GHMC",
+   "40"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-hyd-2026",
+  "type": "source",
+  "step": 2,
+  "title": "Telangana rolls out heatwave action plan: schools to implement water bells, cooling centres set up",
+  "publisher": "Telangana Today",
+  "year": 2026,
+  "url": "https://telanganatoday.com/telangana-rolls-out-heatwave-action-plan-schools-to-implement-water-bells-cooling-centres-set-up",
+  "kind": "News report",
+  "expect": [
+   "cooling centres",
+   "Hyderabad"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-blr-cm",
+  "type": "source",
+  "step": 2,
+  "title": "Bengaluru failed to beat the heat: why ward-level action plans are urgent",
+  "publisher": "Citizen Matters",
+  "year": 2025,
+  "url": "https://citizenmatters.in/bengaluru-failed-to-beat-the-heat-how-localised-approach-could-help-in-the-future/",
+  "kind": "News report",
+  "expect": [
+   "heat action plan",
+   "ward"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-blr-dh",
+  "type": "source",
+  "step": 2,
+  "title": "Plans sans action: heatwaves bake unprepared India",
+  "publisher": "Deccan Herald",
+  "year": 2025,
+  "url": "https://www.deccanherald.com/india/karnataka/plans-sans-action-heatwaves-bake-unprepared-india-3448166",
+  "kind": "News report",
+  "expect": [
+   "Karnataka",
+   "2013"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-blr-dte",
+  "type": "source",
+  "step": 2,
+  "title": "Beyond the thermometer: Bengaluru's race to modernise ignored climate",
+  "publisher": "Down To Earth",
+  "year": 2025,
+  "url": "https://www.downtoearth.org.in/climate-change/beyond-the-thermometer-bengalurus-race-to-modernise-ignored-climate-now-its-residents-are-paying-the-price",
+  "kind": "News report",
+  "expect": [
+   "Bengaluru",
+   "lakes"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-blr-cse",
+  "type": "source",
+  "step": 2,
+  "title": "Urban heat stress tracker: Bengaluru",
+  "publisher": "Centre for Science and Environment",
+  "year": 2024,
+  "url": "https://www.cseindia.org/urban-heat-stress-tracker-bengaluru-12197",
+  "kind": "Report or study",
+  "expect": [
+   "Bengaluru",
+   "heat"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-bbs-week",
+  "type": "source",
+  "step": 2,
+  "title": "First integrated heat and cooling action plan for Bhubaneswar released",
+  "publisher": "The Week (PTI)",
+  "year": 2025,
+  "url": "https://www.theweek.in/wire-updates/national/2025/09/02/ces10-od-heat-action-plan.html",
+  "kind": "News report",
+  "expect": [
+   "Integrated Heat and Cooling Action Plan",
+   "Bhubaneswar"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-bbs-otv",
+  "type": "source",
+  "step": 2,
+  "title": "Bhubaneswar to face extreme heat, sevenfold rise in AC demand by 2050: BMC unveils action plan",
+  "publisher": "OdishaTV",
+  "year": 2025,
+  "url": "https://odishatv.in/news/odisha/bhubaneswar-to-face-extreme-heat-sevenfold-rise-in-ac-demand-by-2050-bmc-unveils-action-plan-271303",
+  "kind": "News report",
+  "expect": [
+   "sevenfold",
+   "2050"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-bbs-post",
+  "type": "source",
+  "step": 2,
+  "title": "First integrated heat and cooling action plan for Bhubaneswar released",
+  "publisher": "Orissa Post",
+  "year": 2025,
+  "url": "https://www.orissapost.com/first-integrated-heat-and-cooling-action-plan-for-bhubaneswar-released/",
+  "kind": "News report",
+  "expect": [
+   "iFOREST",
+   "Bhubaneswar"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-bbs-2020",
+  "type": "source",
+  "step": 2,
+  "title": "Heat wave action plan, Bhubaneswar city",
+  "publisher": "Bhubaneswar Municipal Corporation",
+  "year": 2020,
+  "url": "https://heathealth.info/wp-content/uploads/Bhubaneswar-Heat-Action-Plan.pdf",
+  "kind": "Plan",
+  "expect": [
+   "Bhubaneswar",
+   "Heat"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-bbs-sambad",
+  "type": "source",
+  "step": 2,
+  "title": "Odisha: BMC readying action plan to tackle heatwave",
+  "publisher": "Sambad English",
+  "year": 2025,
+  "url": "https://sambadenglish.com/odisha-bmc-readying-action-plan-to-tackle-heatwave",
+  "kind": "News report",
+  "expect": [
+   "BMC",
+   "heat"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-imd-heat",
+  "type": "source",
+  "step": 2,
+  "title": "Heat wave warnings",
+  "publisher": "India Meteorological Department",
+  "year": 2026,
+  "url": "https://mausam.imd.gov.in/",
+  "kind": "Government page",
+  "expect": [
+   "India Meteorological Department"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
  }
 ]
