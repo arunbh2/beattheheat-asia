@@ -56,16 +56,18 @@ function validYear(days, year) { const dim = m => new Date(Date.UTC(year, m, 0))
 function pettitt(ys) { const x = ys.filter(v => v != null), n = x.length; let K = 0, at = -1;
   for (let t = 0; t < n - 1; t++) { let U = 0; for (let i = 0; i <= t; i++) for (let j = t + 1; j < n; j++) U += Math.sign(x[j] - x[i]); if (Math.abs(U) > K) { K = Math.abs(U); at = t; } }
   return { at, K, p: Math.min(1, 2 * Math.exp(-6 * K * K / (n * n * n + n * n))) }; }
-// a change at the station: run on the yearly station-minus-model difference, which cancels the weather both share. A break counts
-// only when Pettitt's test is under 5%, the step is at least 0.5 °C and one step fits the difference clearly better than a steady
-// drift (so a gradual urban warming is not mistaken for a move); an independent review set these limits
-function stationBreak(diff, xs) { const n = diff.length; if (n < 10) return { broken: false };
+// a change at the station: run on the yearly station-minus-model difference, which cancels the weather both share. For daily
+// maxima ("tmax") a break counts when Pettitt's test is under 1% and the step is at least 0.5 °C: a city growing around a station
+// moves its days far less than that, so a daytime shift this size points to the station or the model. For minima ("tmin") a break
+// counts only when the test is under 5%, the step is at least 0.5 °C and one step fits clearly better than a steady drift, because
+// nights do warm gradually as a city grows. An independent review set these limits.
+function stationBreak(diff, xs, kind) { const n = diff.length; if (n < 10) return { broken: false };
   const P = pettitt(diff), mean = a => a.reduce((s, v) => s + v, 0) / a.length;
   const a = diff.slice(0, P.at + 1), b = diff.slice(P.at + 1); if (!a.length || !b.length) return { broken: false, p: +P.p.toFixed(3) };
   const step = mean(b) - mean(a), sse = (arr, f) => arr.reduce((s, v, i) => s + (v - f(i)) ** 2, 0);
   const ma = mean(a), mb = mean(b), sseStep = sse(a, () => ma) + sse(b, () => mb);
   const mx = mean(xs), my = mean(diff), sxx = xs.reduce((s, v) => s + (v - mx) ** 2, 0), slope = xs.reduce((s, v, i) => s + (v - mx) * (diff[i] - my), 0) / (sxx || 1);
   const sseLine = diff.reduce((s, v, i) => s + (v - (my + slope * (xs[i] - mx))) ** 2, 0);
-  const broken = P.p < 0.05 && Math.abs(step) >= 0.5 && sseStep < 0.8 * sseLine;
+  const broken = kind === "tmax" ? P.p < 0.01 && Math.abs(step) >= 0.5 : P.p < 0.05 && Math.abs(step) >= 0.5 && sseStep < 0.8 * sseLine;
   return { broken, year: xs[P.at + 1], step: +step.toFixed(2), p: +P.p.toFixed(3) }; }
 module.exports = { pettitt, stationBreak, validYear, pairs,  percentile, byYear, measures, senSlope, senRange, mannKendall, phi, trend };

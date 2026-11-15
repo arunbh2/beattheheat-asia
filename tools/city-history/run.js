@@ -61,7 +61,7 @@ async function station(cid) {
       const ymean = (ds, k) => { const m = {}; for (const x of ds) { if (x[k] == null) continue; const y = +x.date.slice(0, 4); (m[y] = m[y] || []).push(x[k]); } return m; };
       const brk = k => { if (!st) return null; const a = ymean(st.days, k), b = ymean(rdays, k), xs = st.valid.filter(y => a[y] && b[y]);
         const av = y => a[y].reduce((s, v) => s + v, 0) / a[y].length, bv = y => b[y].reduce((s, v) => s + v, 0) / b[y].length;
-        return S.stationBreak(xs.map(y => av(y) - bv(y)), xs); };
+        return S.stationBreak(xs.map(y => av(y) - bv(y)), xs, k); };
       const km = st && st.lat != null ? Math.round(6371 * 2 * Math.asin(Math.sqrt(Math.sin((st.lat - c.lat) * Math.PI / 360) ** 2 + Math.cos(c.lat * Math.PI / 180) * Math.cos(st.lat * Math.PI / 180) * Math.sin((st.lon - c.lon) * Math.PI / 360) ** 2))) : null;
       const out = { city: id, name: c.name, generated: new Date().toISOString().slice(0, 10), period: [Y0, Y1], tried,
         station: st ? Object.assign({ id: st.id, name: st.name, lat: st.lat, lon: st.lon, elevation_m: st.elevation_m, valid_years: st.valid_years, of: st.of, km_from_centre: km, change: { tmax: brk("tmax"), tmin: brk("tmin") },

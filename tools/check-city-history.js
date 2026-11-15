@@ -16,9 +16,10 @@ const M = S.measures([{ date: "2001-01-01", tmax: 30, tmin: 20 }, { date: "2001-
 if (M.years.length !== 2 || M.years[0].hottest !== 40) fail("measures: wrong yearly grouping or hottest day");
 const xs30 = Array.from({ length: 30 }, (_, i) => 1991 + i), wob = i => [0.1, -0.1, 0.05, -0.05, 0][i % 5];
 const stepped = xs30.map((y, i) => (y >= 2006 ? 1 : 0) + wob(i)), drift = xs30.map((y, i) => i * 0.04 + wob(i));
-const sb = S.stationBreak(stepped, xs30); if (!sb.broken || sb.year !== 2006) fail("stationBreak: a 1 °C step in 2006 is not found");
-if (S.stationBreak(drift, xs30).broken) fail("stationBreak: a steady drift is mistaken for a change at the station");
-if (S.stationBreak(xs30.map((y, i) => wob(i)), xs30).broken) fail("stationBreak: noise reads as a change at the station");
+const sb = S.stationBreak(stepped, xs30, "tmin"); if (!S.stationBreak(stepped, xs30, "tmax").broken) fail("stationBreak: a 1 °C daytime step is not found"); if (!sb.broken || sb.year !== 2006) fail("stationBreak: a 1 °C step in 2006 is not found");
+if (S.stationBreak(drift, xs30, "tmin").broken) fail("stationBreak: a steady night-time drift is mistaken for a change at the station");
+if (S.stationBreak(xs30.map((y, i) => i * 0.01 + wob(i)), xs30, "tmax").broken) fail("stationBreak: a small daytime drift is mistaken for a change at the station");
+if (S.stationBreak(xs30.map((y, i) => wob(i)), xs30, "tmax").broken) fail("stationBreak: noise reads as a change at the station");
 if (!process.argv.includes("--stats-only")) {
   const DIR = path.join(ROOT, "data", "city-history"), files = fs.existsSync(DIR) ? fs.readdirSync(DIR).filter(f => f.endsWith(".json")) : [];
   for (const f of files) { const d = JSON.parse(fs.readFileSync(path.join(DIR, f), "utf8")), at = "data/city-history/" + f, n = d.period[1] - d.period[0] + 1;
