@@ -5,7 +5,7 @@ updated: 2026-11-15
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 48 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 49 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-48 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,085 works the commons draws on carry a publication date, and 807 are still being dated.
+49 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,085 works the commons draws on carry a publication date, and 807 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -61,6 +61,42 @@ The brief sits in the social protection section, beside the scheme finder.
 [Who could help a household](https://beattheheat.asia/social-protection/)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=A%20policy%20brief%20on%20heat-ready%20social%20security%2C%20with%20examples%20from%20across%20Asia&ref=g-heat-ready-social-security#way-share)
+
+Evidence added · Evidence
+
+### COP31, second check-in: a compact on cooler, more efficient buildings
+
+Added 15 November 2026 · COP31 check-in 15 November 2026
+
+Why it matters our readingThe COP31 Presidency's Antalya Compact for Energy Efficient Buildings joins the COP31 watch at its first rung, announced, as it is open for countries to endorse. Its actions include the electrification of heating and cooling.
+
+- South and Southeast Asia
+- Cool by design
+- Clean, efficient cooling
+
+ReviewFive sources staged; three passed the GitHub check at the COP31 Presidency, LexisNexis and UNEP; two pages blocked the check and nothing rests on them. 5 checked · 3 confirmed · 2 not confirmed, each recorded.
+
+What it took to add this
+
+- **The question.** What has COP31 added on heat since the first check-in, confirmed at the source?
+- **The search.** 5 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 3 confirmed, and 2 could not be (2 blocked automated reading).
+- **What we set aside.** 10 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+
+- **What is still open.** Which countries endorse the Compact, and what the Cooling Ministerial on 16 November agrees.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-signals-cop31-4/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/signals-cop31-4/dropped-after-check.json)
+
+How it connects
+
+- [Cool by design](https://beattheheat.asia/actions/#coolbydesign) Action · from the site's records
+The Compact's building codes and renovation bear on how hot homes and workplaces get.
+
+[Read the COP31 watch](https://beattheheat.asia/signals/#cop31)
+[Signals](https://beattheheat.asia/signals/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=COP31%2C%20second%20check-in%3A%20a%20compact%20on%20cooler%2C%20more%20efficient%20buildings&ref=g-signals-cop31-checkin-2#way-share)
 
 Connection documented · Evidence
 

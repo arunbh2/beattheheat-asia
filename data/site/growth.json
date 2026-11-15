@@ -666,6 +666,18 @@
                 { "to": "page:/social-protection/", "why": "The brief sits in the social protection section, beside the scheme finder.", "basis": "editorial" }]
     },
     {
+      "id": "g-signals-cop31-checkin-2", "kind": "evidence", "root": "evidence", "added": "2026-11-15", "pr": null,
+      "title": "COP31, second check-in: a compact on cooler, more efficient buildings",
+      "why": "The COP31 Presidency's Antalya Compact for Energy Efficient Buildings joins the COP31 watch at its first rung, announced, as it is open for countries to endorse. Its actions include the electrification of heating and cooling.",
+      "places": ["region"], "people": [], "topics": ["coolbydesign", "cleancool"],
+      "event": { "what": "COP31 check-in", "date": "2026-11-15" },
+      "review": "Five sources staged; three passed the GitHub check at the COP31 Presidency, LexisNexis and UNEP; two pages blocked the check and nothing rests on them",
+      "effort": { "asked": "What has COP31 added on heat since the first check-in, confirmed at the source?", "inbox": "data/inbox/2026-11-signals-cop31-4", "dropped": "research/2026-11/signals-cop31-4/dropped-after-check.json",
+                  "open": "Which countries endorse the Compact, and what the Cooling Ministerial on 16 November agrees." },
+      "pages": [["/signals/", "Signals"]], "action": ["Read the COP31 watch", "/signals/#cop31"],
+      "links": [{ "to": "lever:coolbydesign", "why": "The Compact's building codes and renovation bear on how hot homes and workplaces get.", "basis": "record" }]
+    },
+    {
       "id": "g-heat-signals-asia-2026", "kind": "connection", "root": "evidence", "added": "2026-11-15", "pr": null,
       "title": "New signals from Asia on heat at work, and lessons on heat insurance on the map",
       "why": "Signals now follow Singapore's mandatory heat measures, the Philippines' new heat stress and compensation guidelines, South Korea's first emergency heatwave warning, a survey of outdoor workers in Viet Nam and the World Bank's report on heat in South Asia's cities. Income protection on the map now notes two lessons from India's first heat insurance for informal women workers.",
