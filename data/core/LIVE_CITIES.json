@@ -59,6 +59,7 @@
     "id": "delhi",
     "name": "Delhi",
     "country": "India",
+    "state": "Delhi",
     "lat": 28.61,
     "lon": 77.21,
     "warn": {
@@ -92,6 +93,7 @@
     "id": "mumbai",
     "name": "Mumbai",
     "country": "India",
+    "state": "Maharashtra",
     "lat": 19.08,
     "lon": 72.88,
     "warn": {
@@ -103,6 +105,7 @@
     "id": "ahmedabad",
     "name": "Ahmedabad",
     "country": "India",
+    "state": "Gujarat",
     "lat": 23.02,
     "lon": 72.57,
     "warn": {

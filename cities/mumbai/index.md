@@ -71,7 +71,7 @@ If something is missing or not quite right, [please tell us](https://beattheheat
 
 ## Heat action plans on file
 
-The [India heat action plan archive](https://beattheheat.asia/resources/heat-action-plans/india/) has no verified document for Mumbai yet; plans for its state and national guidance are there.
+The [India heat action plan archive](https://beattheheat.asia/resources/heat-action-plans/india/) has no verified document for Mumbai itself yet. It holds 2 state-level plans for Maharashtra, which cover the city: [see the Maharashtra plans](https://beattheheat.asia/resources/heat-action-plans/india/?state=Maharashtra&level=state).
 
 ## A worked plan to learn from
 

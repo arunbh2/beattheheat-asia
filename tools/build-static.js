@@ -108,6 +108,7 @@ function page(p, intro, body, extraLd) {
     h1{font-family:Anton,Impact,"Arial Narrow",sans-serif;font-weight:400;text-transform:uppercase;font-size:clamp(2rem,1.5rem + 3vw,3.2rem);line-height:1.02;margin:28px 0 10px}
     h2{font-size:1.375rem;margin:34px 0 6px;border-top:2px solid #16202B;padding-top:14px}
     h3{font-size:1.125rem;margin:22px 0 4px}
+    h3>a{display:inline-block;min-height:24px}
     .lede{font-size:1.1rem;color:#39424D}
     .src,.meta{font-size:.85rem;color:#5E6570}
     .cta{display:inline-block;margin:14px 0;padding:10px 18px;border-radius:999px;background:#F26430;color:#16202B;font-weight:800;text-decoration:none}
@@ -282,6 +283,11 @@ const checkFor = (key, label) => `<aside class="cs-check" data-check="${key}" da
 // the India heat action plan archive (research/india-hap-archive/), for links from worked plans and Indian city pages
 const HAPA = require("./hap-archive.js").load();
 const hapFor = name => HAPA.docs.filter(d => d.district_or_city === name || (d.state === name && !d.district_or_city));
+// an Indian city with no plan of its own on file points to its state's plans in the archive, where there are any
+const hapState = c => {
+  const st = c.state ? HAPA.docs.filter(d => d.state === c.state && d.level === "state") : [], all = `<a href="/resources/heat-action-plans/india/">India heat action plan archive</a>`;
+  return `<h2>Heat action plans on file</h2><p>The ${all} has no verified document for ${esc(c.name)} itself yet.${st.length ? ` It holds ${st.length} state-level ${st.length === 1 ? "plan" : "plans"} for ${esc(c.state)}, which ${st.length === 1 ? "covers" : "cover"} the city: <a href="/resources/heat-action-plans/india/?state=${encodeURIComponent(c.state)}&amp;level=state">see the ${esc(c.state)} ${st.length === 1 ? "plan" : "plans"}</a>.` : " Plans for its state and national guidance are there."}</p>`;
+};
 // worked plans
 {
   const p = PAGES[5], intro = "How places in Asia have turned heat risk into a plan: what happened, what they decided, what changed, and who leads each action.";
@@ -368,7 +374,7 @@ const SNAP_SLUG = { Bangladesh: "bangladesh", India: "india", Indonesia: "indone
       ${checkFor("city-" + cp.id, c.name)}
       ${recentFor(["city-" + cp.id, "country-" + (SNAP_SLUG[c.country] || c.country.toLowerCase().replace(/\s+/g, "-"))])}
       <h2>Who heat hits hardest here</h2><ul>${risks.map(g => `<li><a href="/who-is-at-risk/#${g.id}">${esc(g.name)}</a></li>`).join("")}</ul>
-      ${c.country === "India" ? (n => n ? `<h2>Heat action plans on file</h2><p>${n} ${n === 1 ? "document" : "documents"} for ${esc(c.name)} in the <a href="/resources/heat-action-plans/india/?q=${encodeURIComponent(c.name)}">India heat action plan archive</a>, with a link to each PDF.</p>` : `<h2>Heat action plans on file</h2><p>The <a href="/resources/heat-action-plans/india/">India heat action plan archive</a> has no verified document for ${esc(c.name)} yet; plans for its state and national guidance are there.</p>`)(hapFor(c.name).length) : ""}
+      ${c.country === "India" ? (n => n ? `<h2>Heat action plans on file</h2><p>${n} ${n === 1 ? "document" : "documents"} for ${esc(c.name)} in the <a href="/resources/heat-action-plans/india/?q=${encodeURIComponent(c.name)}">India heat action plan archive</a>, with a link to each PDF.</p>` : hapState(c))(hapFor(c.name).length) : ""}
       ${exs.length ? `<h2>A worked plan to learn from</h2>${exs.map(x => `<p><a href="/worked-plans/#${x.id}">${esc(x.title)}</a> (${esc(x.place)}, ${esc(x.year)})</p>`).join("")}` : ""}
       <h2>Already at work here</h2><ul>${orgs.map(o => `<li>${ext(o.url, o.name)}: ${esc(o.does)}</li>`).join("")}</ul><p class="meta">Listing does not imply partnership, affiliation or endorsement.</p>
       ${SNAP_SLUG[c.country] ? `<h2>The national picture</h2><p>Plans and law, warnings, rules for heat at work, cooling, money and other cities in ${esc(c.country)}: <a href="/countries/${SNAP_SLUG[c.country]}/">the ${esc(c.country)} country snapshot</a>.</p>` : ""}`;
