@@ -29,7 +29,7 @@ What is heat doing in our city?
 
 What extreme heat is doing in 17 Asian cities: whether each has a heat plan, the vicious cycles the evidence ties to it, who is hit hardest and who is already at work.
 
-**Watch: Twelve cities** · 0:33 · narrated, captions in the picture
+**Watch: The first twelve cities** · 0:33 · narrated, captions in the picture
 
 [Open the interactive city view](https://beattheheat.asia/#city)
 

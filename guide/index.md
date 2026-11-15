@@ -1,7 +1,7 @@
 ---
 title: "How to use this site | Common Shade"
 url: https://beattheheat.asia/guide/
-updated: 2026-11-14
+updated: 2026-11-15
 licence: CC BY 4.0
 ---
 
@@ -18,7 +18,7 @@ Common Shade maps how extreme heat harms health, income and homes across Asia, a
 
 ## The site in four parts
 
-**Understand**The web of consequences, the vicious cycles, a day in a heatwave, today’s heat, twelve cities, past heatwaves and who heat hits hardest.
+**Understand**The web of consequences, the vicious cycles, a day in a heatwave, today’s heat, city pages, past heatwaves and who heat hits hardest.
 
 **Act**Practical actions by setting, cooling options, paying for protection, who can act, why action stalls and who is already at work.
 

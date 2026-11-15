@@ -11,8 +11,8 @@ for (const f of SITE) {
   const timing = path.join(__dirname, f.id + ".timing.json"), mp4 = path.join(ROOT, "media", "explainers", f.id + ".mp4"), page = path.join(ROOT, f.page);
   if (!fs.existsSync(timing) || !fs.existsSync(mp4) || !fs.existsSync(page)) continue;
   const T = JSON.parse(fs.readFileSync(timing, "utf8"));
-  const block = `<!--explainer-->${CSS}<figure class="cs-ex"><video controls playsinline preload="none" width="1920" height="1080" poster="/media/explainers/${f.id}.jpg" aria-label="${esc(f.term)}: an explainer film with captions in the picture">` +
-    `<source src="/media/explainers/${f.id}.mp4" type="video/mp4"></video><figcaption><b>Watch: ${esc(f.term)}</b> · ${len(T.total)} · narrated, captions in the picture</figcaption></figure><!--/explainer-->`;
+  const block = `<!--explainer-->${CSS}<figure class="cs-ex"><video controls playsinline preload="none" width="1920" height="1080" poster="/media/explainers/${f.id}.jpg" aria-label="${esc(f.watch || f.term)}: an explainer film with captions in the picture">` +
+    `<source src="/media/explainers/${f.id}.mp4" type="video/mp4"></video><figcaption><b>Watch: ${esc(f.watch || f.term)}</b> · ${len(T.total)} · narrated, captions in the picture</figcaption></figure><!--/explainer-->`;
   let s = fs.readFileSync(page, "utf8").replace(/\n*<!--explainer-->[\s\S]*?<!--\/explainer-->\n*/g, "");
   const h = s.indexOf("</h1>"); if (h < 0) continue;
   let at;

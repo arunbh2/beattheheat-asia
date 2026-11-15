@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-51 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,098 works the commons draws on carry a publication date, and 808 are still being dated.
+51 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,099 works the commons draws on carry a publication date, and 807 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -1591,7 +1591,7 @@ Steps toward protection this year: [Nepal adopts a national plan of action on he
 
 - 2025
 
-206 works published, 115 of them with a known month; 869 in all by the end of the year. 24 of the verified Indian heat action plans carry this year.
+206 works published, 120 of them with a known month; 869 in all by the end of the year. 24 of the verified Indian heat action plans carry this year.
 
 Steps toward protection this year: [Delhi launches its 2025 Heat Action Plan](https://beattheheat.asia/atlas/).
 
@@ -1603,17 +1603,17 @@ Steps toward protection this year: [Delhi launches its 2025 Heat Action Plan](ht
 
 - 2026 so far
 
-229 works published, 128 of them with a known month; 1,098 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
+230 works published, 134 of them with a known month; 1,099 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
 
 Steps toward protection this year: [Bangkok opens 304 cooling centres](https://beattheheat.asia/atlas/); [The first Global Heat Forum, in Bangkok](https://beattheheat.asia/atlas/); [Bangladesh’s first urban heatwave action plan, for Narayanganj](https://beattheheat.asia/atlas/).
 
 - Evidence404
-- Experience84
+- Experience85
 - Practical measures243
 - Institutions and plans138
 - Financing229
 
-Not yet dated: 808 works whose records carry no date, and 19 known only to have been online by a certain date. 426 links to organisations are counted apart and never dated. History before October 2026 is reconstructed only from these publication dates; Common Shade's own record of changes begins on 23 October 2026.
+Not yet dated: 807 works whose records carry no date, and 19 known only to have been online by a certain date. 426 links to organisations are counted apart and never dated. History before October 2026 is reconstructed only from these publication dates; Common Shade's own record of changes begins on 23 October 2026.
 
 ## What we've revised
 

@@ -72,7 +72,8 @@ module.exports = [
     END("Cool rooms close to home, open when they’re needed.") ] },
 
   // ---- other pages with no film ----
-  { id: "cities", term: "Twelve cities", page: "cities/index.html", label: "Twelve cities", url: "beattheheat.asia/cities", scenes: [
+  // watch: the caption on the page, where it differs from the film's own title (the film covers the first twelve cities; the page now has more)
+  { id: "cities", term: "Twelve cities", watch: "The first twelve cities", page: "cities/index.html", label: "Twelve cities", url: "beattheheat.asia/cities", scenes: [
     { type: "hook", q: "Twelve cities. *Twelve different summers.*", say: ["Twelve Asian cities. Twelve different summers."] },
     { type: "show", title: "Where the heat plans stand", sub: "From our October 2026 research. A plan not found is a gap in what we found.", say: ["In four, a heat plan is in force.", "In five, parts are in place.", "In three, we found no published city plan yet."],
       d: { kind: "bars", max: 5, rows: [{ label: "Heat plan in force", n: 4, count: 4, color: "var(--green)", at: 0 }, { label: "Parts in place", n: 5, count: 5, at: 1 }, { label: "No published plan found", n: 3, count: 3, color: "var(--ink)", at: 2 }] } },
