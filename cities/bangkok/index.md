@@ -44,7 +44,7 @@ The week’s forecast is on [the interactive map](https://beattheheat.asia/#city
 
 How this city's heat has changed against its own past, year by year: nights and days hotter than this place's hottest tenth since the record began, and the hottest day of each year.
 
-From the daily record of the Bangkok Metropolis weather station, as summarised by NOAA from the station's own reports (29 of 35 years complete enough to count; the rest are left out as gaps).
+From the daily record of the Bangkok Metropolis weather station, about 7 km from the city centre, as summarised by NOAA from the station's own reports (29 of 35 years complete enough to count; the rest are left out as gaps).
 
 ### Warm nights
 
@@ -58,7 +58,7 @@ The model reconstruction for the surrounding region (ERA5-Land, which has no bui
 
 days hotter than 36 °C, the hottest tenth of days here
 
-**a clear rise: about 13 more days a decade (95% range 6 to 22 a decade).**
+**no trend shown: the station's record shifts by about 0.7 °C against the regional model from 2006, which points to a change at the station (a move, new instruments or a change in reporting) rather than in the weather.**
 
 The model reconstruction for the surrounding region (ERA5-Land, which has no buildings or paved ground and so leaves out the city's own heat): no clear change.
 
@@ -66,7 +66,7 @@ The model reconstruction for the surrounding region (ERA5-Land, which has no bui
 
 the highest daily maximum recorded in each year
 
-**a clear rise: about 0.7 °C warmer a decade (95% range 0.3 to 1.0 a decade).**
+**no trend shown: the station's record shifts by about 0.7 °C against the regional model from 2006, which points to a change at the station (a move, new instruments or a change in reporting) rather than in the weather.**
 
 The model reconstruction for the surrounding region (ERA5-Land, which has no buildings or paved ground and so leaves out the city's own heat): leaning downward, not clear.
 
@@ -103,9 +103,9 @@ Year | Warm nights | Hot days | Hottest day of the year |
 2022 | 42 | 46 | 39.2 °C |
 2023 | 99 | 75 | 41 °C |
 
-A single station shows how one site has changed against its own past. It is not a comparison between cities, and the station may sit at an airport or in open ground, so streets nearby can be hotter. Strong El Niño years, such as 2016 and 2023 to 2024, bring hotter years in much of the region, and warm years near the end of a record tilt a trend upward.
+A single station shows how one site has changed against its own past. Each count is measured against this station's own record, so it is not a comparison between cities, and the station may sit at an airport or in open ground, so streets nearby can be hotter. Warm nights at a station can also rise as the city grows around it, which is part of the city's own heat. Humidity is not included, so these figures show temperature alone; in humid cities the heat felt in the body can rise even where temperature changes little. Strong El Niño years, such as 2016 and 2023 to 2024, bring hotter years in much of the region, and warm years near the end of a record tilt a trend upward.
 
-Trend: Sen's slope with its 95% range, and a Mann-Kendall test: "a clear rise" where the test is under 5%, "leaning upward, not clear" between 5% and 20%, otherwise "no clear change". Index definitions follow the ETCCDI (TN90p, TX90p, TXx), counted against this city's whole record. Sources: [NOAA Global Surface Summary of the Day (GSOD), station gsod:48455099999](https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-summary-of-the-day&stations=48455099999&dataTypes=MAX,MIN&startDate=1991-01-01&endDate=2025-12-31&units=metric&format=json&includeStationName=true&includeStationLocation=1) (Public domain (US Government work)); [Open-Meteo Historical Weather API, ERA5-Land reanalysis (Copernicus Climate Change Service)](https://open-meteo.com/en/docs/historical-weather-api) (CC BY 4.0). Generated 2026-11-15.
+Trend: Sen's slope with its 95% range, and a Mann-Kendall test: "a clear rise" where the test is under 5%, "leaning upward, not clear" between 5% and 20%, otherwise "no clear change". Index definitions follow the ETCCDI (TN90p, TX90p, TXx), counted against this city's whole record. A change at the station is checked by comparing its yearly mean maximum and minimum with the regional model: for daily maxima, a step of at least 0.5 °C (Pettitt's test under 1%) means hot days and the hottest day show no trend; for minima, the same step (test under 5%) withdraws warm nights only where it fits clearly better than a steady drift, because nights warm gradually as a city grows. Sources: [NOAA Global Surface Summary of the Day (GSOD), station gsod:48455099999](https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-summary-of-the-day&stations=48455099999&dataTypes=MAX,MIN&startDate=1991-01-01&endDate=2025-12-31&units=metric&format=json&includeStationName=true&includeStationLocation=1) (Public domain (US Government work)); [Open-Meteo Historical Weather API, ERA5-Land reanalysis (Copernicus Climate Change Service)](https://open-meteo.com/en/docs/historical-weather-api) (CC BY 4.0). Generated 2026-11-15.
 
 ## What heat costs here, and what could be done
 

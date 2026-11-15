@@ -13,7 +13,7 @@
 // Mann-Kendall test, in three tiers of words. Rainfall is left out (the model's tropical rain is unreliable).
 "use strict";
 const fs = require("fs"), path = require("path"), vm = require("vm"), S = require("./stats.js");
-const ROOT = path.join(__dirname, "..", ".."), Y0 = 1991, Y1 = 2025, MODEL = "era5_land";
+const ROOT = path.join(__dirname, "..", ".."), Y0 = 1991, Y1 = 2025, MODEL = "era5_land", MAXKM = 35;
 const ctx = {}; vm.createContext(ctx); vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + ";this.C=LIVE_CITIES", ctx);
 const arg = process.argv[2] || "bangkok,kolkata", MODE = process.argv[3] || "build", STATIONS = JSON.parse(fs.readFileSync(path.join(__dirname, "stations.json"), "utf8")), ids = arg === "all" ? ctx.C.map(c => c.id) : arg.split(",");
 const UA = "CommonShade-city-history/1.0 (+https://beattheheat.asia/approach/)";
@@ -49,20 +49,28 @@ async function station(cid) {
       const tried = []; let st = null;
       for (const sid of STATIONS[id] || []) { const r = await station(sid); tried.push({ id: sid, name: r.name || "", ok: r.ok, why: r.why || "" });
         console.log(`${id} station ${sid} ${r.name || ""}: ${r.ok ? "passes" : "does not pass"}${r.valid_years != null ? ` (${r.valid_years} of ${r.of} years complete, ${r.first_decade} in the first decade, ${r.last_decade} in the last)` : ` (${r.why})`}`);
+        if (r.ok && r.lat != null) { const d = 6371 * 2 * Math.asin(Math.sqrt(Math.sin((r.lat - c.lat) * Math.PI / 360) ** 2 + Math.cos(c.lat * Math.PI / 180) * Math.cos(r.lat * Math.PI / 180) * Math.sin((r.lon - c.lon) * Math.PI / 360) ** 2));
+          if (d > MAXKM) { r.ok = false; r.why = `${Math.round(d)} km from the city centre (limit ${MAXKM})`; tried[tried.length - 1] = { id: sid, name: r.name, ok: false, why: r.why }; console.log(`  ${r.why}`); } }
         if (r.ok && !st) st = r; }
       if (MODE === "discover") continue;
       const u = `https://archive-api.open-meteo.com/v1/archive?latitude=${c.lat}&longitude=${c.lon}&start_date=${Y0}-01-01&end_date=${Y1}-12-31&daily=temperature_2m_max,temperature_2m_min&timezone=auto&models=${MODEL}`;
       const j = await get(u), d = j.daily || {};
       const rdays = (d.time || []).map((t, i) => ({ date: t, tmax: d.temperature_2m_max[i], tmin: d.temperature_2m_min[i] })).filter(x => x.tmax != null && x.tmin != null);
       const allYears = []; for (let y = Y0; y <= Y1; y++) allYears.push(y);
+      // the check for a change at the station: yearly mean maximum and minimum, station minus model, in the station's valid years
+      const ymean = (ds, k) => { const m = {}; for (const x of ds) { if (x[k] == null) continue; const y = +x.date.slice(0, 4); (m[y] = m[y] || []).push(x[k]); } return m; };
+      const brk = k => { if (!st) return null; const a = ymean(st.days, k), b = ymean(rdays, k), xs = st.valid.filter(y => a[y] && b[y]);
+        const av = y => a[y].reduce((s, v) => s + v, 0) / a[y].length, bv = y => b[y].reduce((s, v) => s + v, 0) / b[y].length;
+        return S.stationBreak(xs.map(y => av(y) - bv(y)), xs, k); };
+      const km = st && st.lat != null ? Math.round(6371 * 2 * Math.asin(Math.sqrt(Math.sin((st.lat - c.lat) * Math.PI / 360) ** 2 + Math.cos(c.lat * Math.PI / 180) * Math.cos(st.lat * Math.PI / 180) * Math.sin((st.lon - c.lon) * Math.PI / 360) ** 2))) : null;
       const out = { city: id, name: c.name, generated: new Date().toISOString().slice(0, 10), period: [Y0, Y1], tried,
-        station: st ? Object.assign({ id: st.id, name: st.name, lat: st.lat, lon: st.lon, elevation_m: st.elevation_m, valid_years: st.valid_years, of: st.of,
+        station: st ? Object.assign({ id: st.id, name: st.name, lat: st.lat, lon: st.lon, elevation_m: st.elevation_m, valid_years: st.valid_years, of: st.of, km_from_centre: km, change: { tmax: brk("tmax"), tmin: brk("tmin") },
           source: { name: st.gsod ? "NOAA Global Surface Summary of the Day (GSOD)" : "NOAA Global Historical Climatology Network Daily (GHCN-Daily)", licence: "Public domain (US Government work)", url: st.url } }, summarise(st.days, st.valid)) : null,
         background: Object.assign({ model: MODEL, grid: { lat: j.latitude, lon: j.longitude, elevation_m: j.elevation },
           source: { name: "Open-Meteo Historical Weather API, ERA5-Land reanalysis (Copernicus Climate Change Service)", licence: "CC BY 4.0", url: "https://open-meteo.com/en/docs/historical-weather-api" } }, summarise(rdays, allYears)) };
       fs.mkdirSync(path.join(ROOT, "data", "city-history"), { recursive: true });
       fs.writeFileSync(path.join(ROOT, "data", "city-history", id + ".json"), JSON.stringify(out, null, 1) + "\n");
-      console.log(`${id}: station ${st ? st.id + " warm nights " + out.station.trends.warm_nights.words + " (" + out.station.trends.warm_nights.per_decade + "/decade)" : "none passed"}; background warm nights ${out.background.trends.warm_nights.words}`);
+      console.log(`${id}: station ${st ? st.id + " warm nights " + out.station.trends.warm_nights.words + " (" + out.station.trends.warm_nights.per_decade + "/decade)" : "none passed"}${st ? `; change check tmax ${JSON.stringify(out.station.change.tmax)} tmin ${JSON.stringify(out.station.change.tmin)}; ${km} km from the centre` : ""}; background warm nights ${out.background.trends.warm_nights.words}`);
       await new Promise(z => setTimeout(z, 3000));
     } catch (e) { bad++; console.error(`FAILED ${id}: ${e.message}`); } }
   if (bad) process.exit(1);

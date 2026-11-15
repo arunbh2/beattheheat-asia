@@ -40,6 +40,21 @@
   "elevation_m": 4.87,
   "valid_years": 32,
   "of": 35,
+  "km_from_centre": 13,
+  "change": {
+   "tmax": {
+    "broken": false,
+    "year": 2016,
+    "step": -0.19,
+    "p": 0.293
+   },
+   "tmin": {
+    "broken": false,
+    "year": 2013,
+    "step": 0.47,
+    "p": 0.018
+   }
+  },
   "source": {
    "name": "NOAA Global Surface Summary of the Day (GSOD)",
    "licence": "Public domain (US Government work)",

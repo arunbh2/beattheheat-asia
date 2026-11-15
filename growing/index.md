@@ -5,7 +5,7 @@ updated: 2026-11-15
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 54 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 55 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-54 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,112 works the commons draws on carry a publication date, and 808 are still being dated.
+55 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,112 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -323,6 +323,49 @@ More warm nights and hot days are what early warning is planned around.
 [Bangkok](https://beattheheat.asia/cities/bangkok/)[Kolkata](https://beattheheat.asia/cities/kolkata/)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Heat%20over%20time%20on%20the%20Bangkok%20and%20Kolkata%20pages&ref=g-city-heat-history#way-share)
+
+Tool improved · Evidence
+
+### Heat over time on every city page, with a check for changes at the station
+
+Added 15 November 2026 · Heat over time extended 15 November 2026
+
+Why it matters our readingEvery city page now carries Heat over time: from a weather station record near the centre where one is complete enough, and otherwise saying that no station record complete enough has been found yet. A new check compares each station with the regional model and withdraws a trend where the record shifts in a way that points to a change at the station, so a move or new instruments is not shown as a change in the weather.
+
+- South and Southeast Asia
+- India
+- Thailand
+- Philippines
+- Indonesia
+- Singapore
+- Older people
+- Workers in heat-exposed jobs
+- Anticipatory action
+- Cool by design
+
+ReviewDaily station records read from NOAA on GitHub by a job anyone can rerun; an independent review set the check for changes at the station, and that check led to a correction on the Bangkok page. 71 checked · 62 confirmed · 9 not confirmed, each recorded.
+
+What it took to add this
+
+- **The question.** Which cities have a station record long and steady enough to show how their heat has changed?
+- **The search.** 71 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 62 confirmed, and 9 could not be (2 blocked automated reading, 3 did not respond, 4 did not show the expected text).
+- **What we set aside.** 34 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+
+- **What is still open.** Records for Ahmedabad, Chattogram, Colombo, Dhaka, Kathmandu, Phnom Penh, Quezon City and Surabaya; whether national weather services publish longer series than NOAA holds.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-city-heat/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/city-heat/BUILD_BRIEF.md)
+
+How it connects
+
+- [Anticipatory action](https://beattheheat.asia/actions/#anticipatory) Action · our reading
+More warm nights and hot days are what early warning is planned around.
+
+[See the cities](https://beattheheat.asia/cities/)
+[Corrections](https://beattheheat.asia/corrections/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Heat%20over%20time%20on%20every%20city%20page%2C%20with%20a%20check%20for%20changes%20at%20the%20station&ref=g-city-heat-history-all#way-share)
 
 Tool improved · Institutions and plans
 

@@ -40,6 +40,10 @@ Sources: [Australian Bureau of Meteorology: Thermal comfort observations, about 
 
 The week’s forecast is on [the interactive map](https://beattheheat.asia/#city-dhaka). How much climate change shaped today’s heat: [Climate Shift Index map, Climate Central](https://csi.climatecentral.org/).
 
+## Heat over time, 1991 to 2025
+
+No checked station record found yet for this city. The model reconstruction alone leaves out the built-up city, so no trend is shown.
+
 ## What heat costs here, and what could be done
 
 ### What a checked study says heat costs here

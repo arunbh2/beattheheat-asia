@@ -1,5 +1,5 @@
 {
- "about": "Candidate weather stations per city in NOAA's Global Historical Climatology Network Daily (GHCN-Daily, public domain), tried in order. A station is used only if it passes the completeness rules in tools/city-history/run.js; otherwise the city shows no trend. IDs come from an advisor's recollection and are confirmed (or refused) by the job's discover run against the NCEI Access Data Service. A candidate written gsod:<id> reads NOAA's Global Summary of the Day instead.",
+ "about": "Candidate weather stations per city in NOAA's Global Historical Climatology Network Daily (GHCN-Daily, public domain), tried in order. A station is used only if it passes the completeness rules in tools/city-history/run.js; otherwise the city shows no trend. IDs come from an advisor's recollection and are confirmed (or refused) by the job's discover run against the NCEI Access Data Service. A candidate written gsod:<id> reads NOAA's Global Summary of the Day instead. GSOD ids are written as the WMO number plus 099999 and confirmed by name in the discover run. A station more than 35 km from the city centre is not used, and a city never borrows a neighbour's station.",
  "bangkok": [
   "TH000048455",
   "TH000048456",
@@ -11,5 +11,79 @@
   "IN024141500",
   "gsod:42809099999",
   "gsod:42807099999"
+ ],
+ "ahmedabad": [
+  "gsod:42647099999"
+ ],
+ "bengaluru": [
+  "gsod:43295099999",
+  "gsod:43296099999"
+ ],
+ "bhubaneswar": [
+  "gsod:42971099999"
+ ],
+ "chattogram": [
+  "gsod:41978099999",
+  "gsod:41977099999"
+ ],
+ "chennai": [
+  "gsod:43279099999",
+  "gsod:43278099999"
+ ],
+ "chiangmai": [
+  "gsod:48327099999"
+ ],
+ "colombo": [
+  "gsod:43466099999",
+  "gsod:43467099999",
+  "gsod:43450099999"
+ ],
+ "delhi": [
+  "gsod:42182099999",
+  "gsod:42181099999"
+ ],
+ "dhaka": [
+  "gsod:41923099999",
+  "gsod:41922099999"
+ ],
+ "hanoi": [
+  "gsod:48820099999",
+  "gsod:48819099999"
+ ],
+ "hochiminh": [
+  "gsod:48900099999"
+ ],
+ "hyderabad": [
+  "gsod:43128099999"
+ ],
+ "jakarta": [
+  "gsod:96745099999",
+  "gsod:96747099999",
+  "gsod:96749099999"
+ ],
+ "kathmandu": [
+  "gsod:44454099999"
+ ],
+ "manila": [
+  "gsod:98429099999",
+  "gsod:98425099999"
+ ],
+ "mumbai": [
+  "gsod:43003099999",
+  "gsod:43057099999"
+ ],
+ "phnompenh": [
+  "gsod:48991099999"
+ ],
+ "quezoncity": [
+  "gsod:98430099999"
+ ],
+ "singapore": [
+  "gsod:48698099999",
+  "gsod:48694099999"
+ ],
+ "surabaya": [
+  "gsod:96935099999",
+  "gsod:96933099999"
  ]
 }

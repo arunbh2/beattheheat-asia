@@ -1,0 +1,543 @@
+{
+ "city": "singapore",
+ "name": "Singapore",
+ "generated": "2026-11-15",
+ "period": [
+  1991,
+  2025
+ ],
+ "tried": [
+  {
+   "id": "gsod:48698099999",
+   "name": "SINGAPORE CHANGI INTERNATIONAL, SN",
+   "ok": true,
+   "why": ""
+  },
+  {
+   "id": "gsod:48694099999",
+   "name": "PAYA LEBAR, SN",
+   "ok": false,
+   "why": "24 of 35 years complete (needs 28), 1 in the first decade and 8 in the last (needs 5 each)"
+  }
+ ],
+ "station": {
+  "id": "gsod:48698099999",
+  "name": "SINGAPORE CHANGI INTERNATIONAL, SN",
+  "lat": 1.350189,
+  "lon": 103.994433,
+  "elevation_m": 6.7,
+  "valid_years": 33,
+  "of": 35,
+  "km_from_centre": 19,
+  "change": {
+   "tmax": {
+    "broken": false,
+    "year": 2011,
+    "step": -0.38,
+    "p": 0.004
+   },
+   "tmin": {
+    "broken": false,
+    "year": 2014,
+    "step": 0.13,
+    "p": 0.478
+   }
+  },
+  "source": {
+   "name": "NOAA Global Surface Summary of the Day (GSOD)",
+   "licence": "Public domain (US Government work)",
+   "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-summary-of-the-day&stations=48698099999&dataTypes=MAX,MIN&startDate=1991-01-01&endDate=2025-12-31&units=metric&format=json&includeStationName=true&includeStationLocation=1"
+  },
+  "thresholds": {
+   "warm_night_c": 26.4,
+   "hot_day_c": 33.1
+  },
+  "years": [
+   {
+    "year": 1991,
+    "warm_nights": 26,
+    "hot_days": 27,
+    "hottest": 37.6
+   },
+   {
+    "year": 1992,
+    "warm_nights": 6,
+    "hot_days": 24,
+    "hottest": 34.5
+   },
+   {
+    "year": 1993,
+    "warm_nights": 22,
+    "hot_days": 5,
+    "hottest": 33.9
+   },
+   {
+    "year": 1994,
+    "warm_nights": 25,
+    "hot_days": 11,
+    "hottest": 35.1
+   },
+   {
+    "year": 1995,
+    "warm_nights": 15,
+    "hot_days": 29,
+    "hottest": 34.1
+   },
+   {
+    "year": 1996,
+    "warm_nights": 20,
+    "hot_days": 25,
+    "hottest": 34.4
+   },
+   {
+    "year": 1997,
+    "warm_nights": 57,
+    "hot_days": 111,
+    "hottest": 39.6
+   },
+   {
+    "year": 1998,
+    "warm_nights": 50,
+    "hot_days": 95,
+    "hottest": 37.9
+   },
+   {
+    "year": 1999,
+    "warm_nights": 14,
+    "hot_days": 20,
+    "hottest": 37
+   },
+   {
+    "year": 2000,
+    "warm_nights": 14,
+    "hot_days": 27,
+    "hottest": 34.3
+   },
+   {
+    "year": 2001,
+    "warm_nights": 19,
+    "hot_days": 22,
+    "hottest": 34
+   },
+   {
+    "year": 2002,
+    "warm_nights": 39,
+    "hot_days": 65,
+    "hottest": 34.8
+   },
+   {
+    "year": 2003,
+    "warm_nights": 36,
+    "hot_days": 34,
+    "hottest": 34.3
+   },
+   {
+    "year": 2004,
+    "warm_nights": 39,
+    "hot_days": 56,
+    "hottest": 35.1
+   },
+   {
+    "year": 2005,
+    "warm_nights": 33,
+    "hot_days": 78,
+    "hottest": 35.4
+   },
+   {
+    "year": 2006,
+    "warm_nights": 26,
+    "hot_days": 31,
+    "hottest": 34.6
+   },
+   {
+    "year": 2007,
+    "warm_nights": 19,
+    "hot_days": 16,
+    "hottest": 34
+   },
+   {
+    "year": 2008,
+    "warm_nights": 22,
+    "hot_days": 15,
+    "hottest": 34.1
+   },
+   {
+    "year": 2009,
+    "warm_nights": 29,
+    "hot_days": 42,
+    "hottest": 35
+   },
+   {
+    "year": 2010,
+    "warm_nights": 19,
+    "hot_days": 79,
+    "hottest": 35.5
+   },
+   {
+    "year": 2011,
+    "warm_nights": 16,
+    "hot_days": 13,
+    "hottest": 35.3
+   },
+   {
+    "year": 2012,
+    "warm_nights": 18,
+    "hot_days": 3,
+    "hottest": 34
+   },
+   {
+    "year": 2013,
+    "warm_nights": 22,
+    "hot_days": 33,
+    "hottest": 35.2
+   },
+   {
+    "year": 2014,
+    "warm_nights": 47,
+    "hot_days": 40,
+    "hottest": 34.5
+   },
+   {
+    "year": 2015,
+    "warm_nights": 90,
+    "hot_days": 43,
+    "hottest": 34.4
+   },
+   {
+    "year": 2016,
+    "warm_nights": 78,
+    "hot_days": 72,
+    "hottest": 35
+   },
+   {
+    "year": 2017,
+    "warm_nights": 42,
+    "hot_days": 4,
+    "hottest": 34
+   },
+   {
+    "year": 2018,
+    "warm_nights": 59,
+    "hot_days": 17,
+    "hottest": 35
+   },
+   {
+    "year": 2019,
+    "warm_nights": 105,
+    "hot_days": 36,
+    "hottest": 35
+   },
+   {
+    "year": 2020,
+    "warm_nights": 44,
+    "hot_days": 18,
+    "hottest": 34
+   },
+   {
+    "year": 2021,
+    "warm_nights": 31,
+    "hot_days": 7,
+    "hottest": 34
+   },
+   {
+    "year": 2022,
+    "warm_nights": 23,
+    "hot_days": 31,
+    "hottest": 35.4
+   },
+   {
+    "year": 2023,
+    "warm_nights": 65,
+    "hot_days": 26,
+    "hottest": 35
+   }
+  ],
+  "trends": {
+   "warm_nights": {
+    "per_decade": 7.67,
+    "range": [
+     1.67,
+     15
+    ],
+    "p": 0.014,
+    "words": "a clear rise"
+   },
+   "hot_days": {
+    "per_decade": -1.84,
+    "range": [
+     -10,
+     5.17
+    ],
+    "p": 0.745,
+    "words": "no clear change"
+   },
+   "hottest": {
+    "per_decade": -0.05,
+    "range": [
+     -0.41,
+     0.16
+    ],
+    "p": 0.473,
+    "words": "no clear change"
+   }
+  }
+ },
+ "background": {
+  "model": "era5_land",
+  "grid": {
+   "lat": 1.4000015,
+   "lon": 103.80002,
+   "elevation_m": 39
+  },
+  "source": {
+   "name": "Open-Meteo Historical Weather API, ERA5-Land reanalysis (Copernicus Climate Change Service)",
+   "licence": "CC BY 4.0",
+   "url": "https://open-meteo.com/en/docs/historical-weather-api"
+  },
+  "thresholds": {
+   "warm_night_c": 26.1,
+   "hot_day_c": 29.8
+  },
+  "years": [
+   {
+    "year": 1991,
+    "warm_nights": 33,
+    "hot_days": 19,
+    "hottest": 30.4
+   },
+   {
+    "year": 1992,
+    "warm_nights": 10,
+    "hot_days": 9,
+    "hottest": 30.9
+   },
+   {
+    "year": 1993,
+    "warm_nights": 16,
+    "hot_days": 4,
+    "hottest": 30.2
+   },
+   {
+    "year": 1994,
+    "warm_nights": 15,
+    "hot_days": 2,
+    "hottest": 30.4
+   },
+   {
+    "year": 1995,
+    "warm_nights": 25,
+    "hot_days": 7,
+    "hottest": 30.3
+   },
+   {
+    "year": 1996,
+    "warm_nights": 26,
+    "hot_days": 3,
+    "hottest": 30
+   },
+   {
+    "year": 1997,
+    "warm_nights": 28,
+    "hot_days": 6,
+    "hottest": 30
+   },
+   {
+    "year": 1998,
+    "warm_nights": 40,
+    "hot_days": 61,
+    "hottest": 30.9
+   },
+   {
+    "year": 1999,
+    "warm_nights": 9,
+    "hot_days": 6,
+    "hottest": 30.2
+   },
+   {
+    "year": 2000,
+    "warm_nights": 19,
+    "hot_days": 11,
+    "hottest": 30.4
+   },
+   {
+    "year": 2001,
+    "warm_nights": 26,
+    "hot_days": 2,
+    "hottest": 30
+   },
+   {
+    "year": 2002,
+    "warm_nights": 28,
+    "hot_days": 12,
+    "hottest": 30.5
+   },
+   {
+    "year": 2003,
+    "warm_nights": 40,
+    "hot_days": 27,
+    "hottest": 30.5
+   },
+   {
+    "year": 2004,
+    "warm_nights": 37,
+    "hot_days": 31,
+    "hottest": 30.7
+   },
+   {
+    "year": 2005,
+    "warm_nights": 43,
+    "hot_days": 55,
+    "hottest": 32.2
+   },
+   {
+    "year": 2006,
+    "warm_nights": 21,
+    "hot_days": 24,
+    "hottest": 31.6
+   },
+   {
+    "year": 2007,
+    "warm_nights": 18,
+    "hot_days": 4,
+    "hottest": 30.2
+   },
+   {
+    "year": 2008,
+    "warm_nights": 12,
+    "hot_days": 1,
+    "hottest": 29.9
+   },
+   {
+    "year": 2009,
+    "warm_nights": 40,
+    "hot_days": 32,
+    "hottest": 30.8
+   },
+   {
+    "year": 2010,
+    "warm_nights": 23,
+    "hot_days": 67,
+    "hottest": 31.6
+   },
+   {
+    "year": 2011,
+    "warm_nights": 16,
+    "hot_days": 7,
+    "hottest": 30.7
+   },
+   {
+    "year": 2012,
+    "warm_nights": 19,
+    "hot_days": 8,
+    "hottest": 30.2
+   },
+   {
+    "year": 2013,
+    "warm_nights": 20,
+    "hot_days": 36,
+    "hottest": 30.8
+   },
+   {
+    "year": 2014,
+    "warm_nights": 29,
+    "hot_days": 74,
+    "hottest": 31.9
+   },
+   {
+    "year": 2015,
+    "warm_nights": 36,
+    "hot_days": 15,
+    "hottest": 30.6
+   },
+   {
+    "year": 2016,
+    "warm_nights": 60,
+    "hot_days": 61,
+    "hottest": 30.9
+   },
+   {
+    "year": 2017,
+    "warm_nights": 39,
+    "hot_days": 16,
+    "hottest": 31.2
+   },
+   {
+    "year": 2018,
+    "warm_nights": 46,
+    "hot_days": 29,
+    "hottest": 30.9
+   },
+   {
+    "year": 2019,
+    "warm_nights": 60,
+    "hot_days": 65,
+    "hottest": 31.9
+   },
+   {
+    "year": 2020,
+    "warm_nights": 33,
+    "hot_days": 56,
+    "hottest": 31.1
+   },
+   {
+    "year": 2021,
+    "warm_nights": 40,
+    "hot_days": 37,
+    "hottest": 32.1
+   },
+   {
+    "year": 2022,
+    "warm_nights": 30,
+    "hot_days": 58,
+    "hottest": 30.8
+   },
+   {
+    "year": 2023,
+    "warm_nights": 62,
+    "hot_days": 71,
+    "hottest": 31.3
+   },
+   {
+    "year": 2024,
+    "warm_nights": 62,
+    "hot_days": 83,
+    "hottest": 31.5
+   },
+   {
+    "year": 2025,
+    "warm_nights": 52,
+    "hot_days": 55,
+    "hottest": 31.3
+   }
+  ],
+  "trends": {
+   "warm_nights": {
+    "per_decade": 9.06,
+    "range": [
+     4.29,
+     14.09
+    ],
+    "p": 0,
+    "words": "a clear rise"
+   },
+   "hot_days": {
+    "per_decade": 16.11,
+    "range": [
+     8,
+     22.73
+    ],
+    "p": 0,
+    "words": "a clear rise"
+   },
+   "hottest": {
+    "per_decade": 0.33,
+    "range": [
+     0.2,
+     0.48
+    ],
+    "p": 0,
+    "words": "a clear rise"
+   }
+  }
+ }
+}
