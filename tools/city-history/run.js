@@ -25,15 +25,20 @@ function summarise(days, years) {
     years: yrs.map(y => ({ year: y.year, warm_nights: y.warm_nights, hot_days: y.hot_days, hottest: +y.hottest.toFixed(1) })),
     trends: { warm_nights: S.trend(ser("warm_nights"), xs), hot_days: S.trend(ser("hot_days"), xs), hottest: S.trend(ser("hottest"), xs) } };
 }
-async function station(id) {
-  const u = `https://www.ncei.noaa.gov/access/services/data/v1?dataset=daily-summaries&stations=${id}&dataTypes=TMAX,TMIN&startDate=${Y0}-01-01&endDate=${Y1}-12-31&units=metric&format=json&includeStationName=true&includeStationLocation=1`;
-  const rows = await get(u); if (!Array.isArray(rows) || !rows.length) return { id, ok: false, why: "no data" };
-  const days = rows.map(r => ({ date: r.DATE, tmax: r.TMAX != null && r.TMAX !== "" ? +r.TMAX : null, tmin: r.TMIN != null && r.TMIN !== "" ? +r.TMIN : null }));
+// a candidate is a GHCN-Daily id, or "gsod:<id>" for NOAA's Global Summary of the Day (daily maximum and minimum from the hourly
+// reports stations send; often more complete for Asian airports, but a summary of reports rather than a thermometer's own extremes)
+const gsodUrl = id => `https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-summary-of-the-day&stations=${id}&dataTypes=MAX,MIN&startDate=${Y0}-01-01&endDate=${Y1}-12-31&units=metric&format=json&includeStationName=true&includeStationLocation=1`;
+const ghcnUrl = id => `https://www.ncei.noaa.gov/access/services/data/v1?dataset=daily-summaries&stations=${id}&dataTypes=TMAX,TMIN&startDate=${Y0}-01-01&endDate=${Y1}-12-31&units=metric&format=json&includeStationName=true&includeStationLocation=1`;
+async function station(cid) {
+  const gsod = cid.startsWith("gsod:"), id = gsod ? cid.slice(5) : cid, u = gsod ? gsodUrl(id) : ghcnUrl(id);
+  const rows = await get(u); if (!Array.isArray(rows) || !rows.length) return { id: cid, ok: false, why: "no data" };
+  const num = v => { if (v == null || v === "") return null; const x = +String(v).trim(); return isFinite(x) && x > -60 && x < 60 ? x : null; };
+  const days = rows.map(r => ({ date: r.DATE, tmax: num(gsod ? r.MAX : r.TMAX), tmin: num(gsod ? r.MIN : r.TMIN) }));
   const all = []; for (let y = Y0; y <= Y1; y++) all.push(y);
   const valid = all.filter(y => S.validYear(days.filter(d => d.date.startsWith(y + "-")), y));
   const first = valid.filter(y => y < Y0 + 10).length, last = valid.filter(y => y > Y1 - 10).length, need = Math.ceil(0.8 * all.length);
   const ok = valid.length >= need && first >= 5 && last >= 5;
-  return { id, ok, name: rows[0].NAME || "", lat: rows[0].LATITUDE != null ? +rows[0].LATITUDE : null, lon: rows[0].LONGITUDE != null ? +rows[0].LONGITUDE : null, elevation_m: rows[0].ELEVATION != null ? +rows[0].ELEVATION : null,
+  return { id: cid, gsod, url: u, ok, name: rows[0].NAME || "", lat: rows[0].LATITUDE != null ? +rows[0].LATITUDE : null, lon: rows[0].LONGITUDE != null ? +rows[0].LONGITUDE : null, elevation_m: rows[0].ELEVATION != null ? +rows[0].ELEVATION : null,
     valid_years: valid.length, of: all.length, first_decade: first, last_decade: last, why: ok ? "" : `${valid.length} of ${all.length} years complete (needs ${need}), ${first} in the first decade and ${last} in the last (needs 5 each)`, days, valid };
 }
 (async () => { let bad = 0;
@@ -50,7 +55,7 @@ async function station(id) {
       const allYears = []; for (let y = Y0; y <= Y1; y++) allYears.push(y);
       const out = { city: id, name: c.name, generated: new Date().toISOString().slice(0, 10), period: [Y0, Y1], tried,
         station: st ? Object.assign({ id: st.id, name: st.name, lat: st.lat, lon: st.lon, elevation_m: st.elevation_m, valid_years: st.valid_years, of: st.of,
-          source: { name: "NOAA Global Historical Climatology Network Daily (GHCN-Daily)", licence: "Public domain (US Government work)", url: `https://www.ncei.noaa.gov/access/services/data/v1?dataset=daily-summaries&stations=${st.id}&dataTypes=TMAX,TMIN&startDate=${Y0}-01-01&endDate=${Y1}-12-31&units=metric&format=json` } }, summarise(st.days, st.valid)) : null,
+          source: { name: st.gsod ? "NOAA Global Surface Summary of the Day (GSOD)" : "NOAA Global Historical Climatology Network Daily (GHCN-Daily)", licence: "Public domain (US Government work)", url: st.url } }, summarise(st.days, st.valid)) : null,
         background: Object.assign({ model: MODEL, grid: { lat: j.latitude, lon: j.longitude, elevation_m: j.elevation },
           source: { name: "Open-Meteo Historical Weather API, ERA5-Land reanalysis (Copernicus Climate Change Service)", licence: "CC BY 4.0", url: "https://open-meteo.com/en/docs/historical-weather-api" } }, summarise(rdays, allYears)) };
       fs.mkdirSync(path.join(ROOT, "data", "city-history"), { recursive: true });
