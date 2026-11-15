@@ -1,7 +1,7 @@
 ---
 title: "Act"
 url: https://beattheheat.asia/act/
-updated: 2026-11-13
+updated: 2026-11-15
 licence: CC BY 4.0
 ---
 
@@ -34,6 +34,7 @@ What can be done, in which setting, by whom, and what keeps it working.
 - [A city under strainPower, water, clinics and trees through a heatwaveOn the path for: City teams](https://beattheheat.asia/a-city-under-strain/)
 - [A week in the heatFollow one worker’s money through a heatwaveOn the path for: Employers](https://beattheheat.asia/a-week-in-the-heat/)
 - [Who could help a householdPublic schemes that could cushion a hot season, country by country](https://beattheheat.asia/social-protection/)
+- [Heat-ready social securityA policy brief: how social security could cushion lost work in the heat, with examples from Asia](https://beattheheat.asia/briefs/heat-ready-social-security/)
 - [Practical actions, as textEvery action card in plain textOn the path for: Health, Employers](https://beattheheat.asia/practical-actions/)
 - [Actions that break the cyclesThe 33 levers, as text](https://beattheheat.asia/actions/)
 

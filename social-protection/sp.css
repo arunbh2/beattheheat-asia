@@ -69,3 +69,4 @@
   .sp-table td:nth-child(3)::before { content: "Open licence: "; font-weight: 700; } .sp-table td:nth-child(4)::before { content: "Shared place code: "; font-weight: 700; }
 }
 .sp-took { padding-left: 20px; display: grid; gap: 8px; max-width: 76ch; }
+.sp-brief { max-width: 46rem; margin: 0 0 20px; }

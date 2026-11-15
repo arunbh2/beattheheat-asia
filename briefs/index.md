@@ -1,7 +1,7 @@
 ---
 title: "Evidence briefs"
 url: https://beattheheat.asia/briefs/
-updated: 2026-10-01
+updated: 2026-11-15
 licence: CC BY 4.0
 ---
 
@@ -14,6 +14,7 @@ News and evidence
 Short, citable briefs on one question at a time: what is known, what is inferred, what is still uncertain, and the research that could answer it. Free to use under CC BY 4.0.
 
 - [Heat and the health of mothers, children and mindsPregnancy, newborns and young children, mental health and suicide, violence against women, and women at work in South and Southeast Asia. November 2026.](https://beattheheat.asia/briefs/heat-mothers-children-minds/)
+- [Heat-ready social securityA policy brief: wage support when heat stops work, cash that moves with the warning, welfare funds and public works, help at home, and prevention, with examples from Asia and elsewhere.](https://beattheheat.asia/briefs/heat-ready-social-security/)
 
 More briefs will follow. For a whole-site summary each month, see [State of the field](https://beattheheat.asia/whats-new/); for printable one-pagers, see [Printable one-pagers](https://beattheheat.asia/print/).
 

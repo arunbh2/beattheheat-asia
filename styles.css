@@ -4311,3 +4311,13 @@ html:not(.rf-js) .rf-co-tabs{display:none}
 .sol-src a, .sol-srcs a, .sol-ul a, .sol-f p a, .sol-jump a, .path-read a, .rf-src a, .evm-q dd a, .evm-studies a, .fl-u-go, .org__name a, .ep-flag a, .hv-t a, .he-breaks a, td > a { position: relative; }
 .sol-src a::after, .sol-srcs a::after, .sol-ul a::after, .sol-f p a::after, .sol-jump a::after, .path-read a::after, .rf-src a::after, .evm-q dd a::after, .evm-studies a::after, .fl-u-go::after, .org__name a::after, .ep-flag a::after, .hv-t a::after, .he-breaks a::after, td > a::after { content: ""; position: absolute; inset: -4px -2px; }
 summary { min-height: 24px; }
+/* policy briefs: region labels on examples (Asia, Elsewhere, Global), example lists, traps and the options table */
+.br-reg { display: inline-block; margin-right: 4px; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--line); background: #fff; font-family: var(--font-body); font-size: var(--fs-12); font-weight: 700; letter-spacing: var(--label-track); text-transform: uppercase; color: var(--grey-700); vertical-align: 1px; }
+.br-reg--asia { border-color: color-mix(in srgb, var(--orange) 34%, var(--line)); background: var(--sand-50); color: var(--ink); }
+.br-ex { list-style: none; margin: 12px 0; padding: 0; display: grid; gap: 10px; }
+.br-ex li { padding: var(--pad-compact); background: #fff; border: 1px solid var(--line); border-radius: var(--r-md); }
+.br-traps { padding-left: 22px; } .br-traps li { margin: 8px 0; }
+.br-tablewrap { overflow-x: auto; margin-top: 12px; }
+.br-table { width: 100%; border-collapse: collapse; font-size: var(--fs-14); line-height: 1.5; }
+.br-table th, .br-table td { padding: 10px 12px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+.br-table th { font-size: var(--fs-12); letter-spacing: var(--label-track); text-transform: uppercase; color: var(--grey-700); }

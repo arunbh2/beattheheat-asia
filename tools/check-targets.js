@@ -1,7 +1,7 @@
 // Common Shade: touch targets. Renders every page in the sitemap at 390px (a phone) and checks each standalone link,
 // button and control against WCAG 2.2 target size (2.5.8, AA): its tap area is at least 24 by 24px, or a 24px circle on
 // its centre touches no other target. The tap area counts an invisible ::after layer (the site's way to grow a target
-// without moving anything: position absolute, negative inset). Links inside a sentence, unstyled native checkboxes and
+// without moving anything: position absolute, negative inset). Links inside a sentence (footnote numbers included), unstyled native checkboxes and
 // radios, the drawn map points (the map's nodes, the Atlas markers, each also listed as text) and the pop-ups are exempt, as WCAG allows or as the owner decided. Needs a local server:
 // python3 -m http.server 8765, then
 //   node tools/check-targets.js [--base http://localhost:8765] [--page /] [--list]
@@ -21,7 +21,8 @@ const urls = only ? [only] : [...fs.readFileSync(path.join(ROOT, "sitemap.xml"),
     try { await p.goto(BASE + u, { waitUntil: "load", timeout: 30000 }); await p.waitForTimeout(150); } catch (e) { continue; }
     const r = await p.evaluate(() => {
       const TEXT = /^(P|LI|SPAN|SMALL|FIGCAPTION|TD|DD|DT|EM|B|STRONG|CITE|Q|LABEL|BLOCKQUOTE)$/;
-      const inSentence = e => { const s = getComputedStyle(e).display; if (!/^inline/.test(s) || /flex|grid/.test(s)) return false; const t = e.parentElement; if (!t || !TEXT.test(t.tagName)) return false;
+      const inSentence = e => { const s = getComputedStyle(e).display; if (!/^inline/.test(s) || /flex|grid/.test(s)) return false; let t = e.parentElement; if (t && t.tagName === "SUP") t = t.parentElement;   // a footnote number inside a sentence
+        if (!t || !TEXT.test(t.tagName)) return false;
         return t.textContent.replace(/\s+/g, " ").trim().length > e.textContent.replace(/\s+/g, " ").trim().length + 3; };
       const box = e => { const r = e.getBoundingClientRect(); let L = r.left, T = r.top, R = r.right, B = r.bottom; const s = getComputedStyle(e, "::after");
         if (s.content !== "none" && s.position === "absolute") { const v = k => parseFloat(s[k]); if (!isNaN(v("top"))) T = Math.min(T, r.top + v("top")); if (!isNaN(v("bottom"))) B = Math.max(B, r.bottom - v("bottom")); if (!isNaN(v("left"))) L = Math.min(L, r.left + v("left")); if (!isNaN(v("right"))) R = Math.max(R, r.right - v("right")); }

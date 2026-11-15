@@ -6,7 +6,7 @@ Common Shade is in beta, currently at beattheheat.asia. A group of organisations
 
 Text, data, films and illustrations © Common Shade contributors, shared under Creative Commons Attribution 4.0 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/): you may copy, adapt and translate them, with credit and a link to beattheheat.asia. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’ and are not covered.
 
-Interactive map: https://beattheheat.asia/ · Generated 2026-11-14
+Interactive map: https://beattheheat.asia/ · Generated 2026-11-15
 
 ## The web of extreme heat: every consequence, system by system
 
@@ -5670,7 +5670,7 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 
 https://beattheheat.asia/growing/
 
-See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 46 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
+See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 47 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
 
 ### How the work behind the commons grew
 
@@ -5685,6 +5685,8 @@ Dated by the publication date of the work Common Shade draws on (1084 of 1909 wo
 - 2026 so far: 224 works published (128 with a known month), 1084 in all by the end of the period. Financing: 230; Institutions and plans: 140; Practical measures: 241; Experience: 70; Evidence: 403.
 
 ### Changes, newest first
+
+- Evidence added: A policy brief on heat-ready social security, with examples from across Asia. Added 15 November 2026 · Side event on extreme heat at the Committee on Social Development, Bangkok 13 November 2026. Why it matters (our reading): When heat stops work, a day off can mean a day without pay. The brief sets out five ways social security could cushion that choice, with examples from China, Singapore, Japan, South Korea, Hong Kong, the Philippines, the United Arab Emirates, India, Thailand and Viet Nam, examples from elsewhere labelled as such, the traps to avoid and options step by step. Places: South and Southeast Asia, India, Thailand, Singapore. People: Workers in heat-exposed jobs, Women whose livelihoods are held back by unequal access. Topics: Social protection floors, The poverty–heat trap. Review: Every figure traced to a public source and opened by a check on GitHub; sources that did not pass, field stories and figures without a public source are held back and listed. Next: Read the policy brief https://beattheheat.asia/briefs/heat-ready-social-security/. Connections: Social protection floors (our reading): The brief sets out how the social protection lever could respond to heat. Social protection (our reading): The brief sits in the social protection section, beside the scheme finder. What it took to add this: The question: How could social security protect income and health when it is too hot to work, and what do countries in Asia already do? 47 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 37 confirmed, and 10 could not be (5 blocked automated reading, 5 did not show the expected text). 3 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: Several figures from the session wait for a public source.
 
 - Tool improved: The heat network can be narrowed by place, action and part played. Added 14 November 2026 · Finder added to the list 14 November 2026. Why it matters (our reading): A reader can now ask who works on one action in one place, and each listing says what kind of body it is, where its listed work is and whether its link answered a check. Where nothing is listed for a place, the page says not found yet. Places: South and Southeast Asia. Review: Places are read from each listing’s own words, with reviewed corrections kept beside them; every link was opened by a check on GitHub and those that did not answer are listed, not rewritten; nothing is ranked. Next: Find who works where https://beattheheat.asia/heat-network/. Connections: Heat network (our reading): The finder is on the heat network page.
 
