@@ -79,6 +79,12 @@ const R = [
   S("m-blr-trees-atree", 5, "Effect of street trees on microclimate and air pollution in a tropical city (ATREE record)", "ATREE", 2013, "https://archived.atree.org/node/824", ["street trees", "temperature"], "Research record"),
   S("m-hyd-roofs", 5, "Cool roofs and white coatings: measured cooling energy savings in Hyderabad, India", "Lawrence Berkeley National Laboratory and IIIT Hyderabad", 2011, "https://www.osti.gov/servlets/purl/1026804", ["Hyderabad", "14", "26"], "Report or study"),
   S("m-amd-roofs", 5, "Combating climate change-induced heat stress: assessing cool roofs and its impact on the indoor ambient temperature of the households in the urban slums of Ahmedabad", "Indian Journal of Occupational and Environmental Medicine", 2020, "https://pmc.ncbi.nlm.nih.gov/articles/PMC7227734", ["Ahmedabad", "indoor"], "Study"),
+  // heat over time (after step 5): the historical record, the index definitions and the licence
+  S("h-om-docs", 6, "Historical Weather API documentation", "Open-Meteo", 2026, "https://open-meteo.com/en/docs/historical-weather-api", ["ERA5", "historical"], "Data documentation"),
+  S("h-om-licence", 6, "Licence", "Open-Meteo", 2026, "https://open-meteo.com/en/licence", ["CC BY 4.0"], "Data licence"),
+  S("h-om-sample", 6, "Historical weather for Bangkok, 2002 to 2025 (daily)", "Open-Meteo", 2026, "https://archive-api.open-meteo.com/v1/archive?latitude=13.75&longitude=100.5&start_date=2002-01-01&end_date=2025-12-31&daily=temperature_2m_max,temperature_2m_min,precipitation_sum&timezone=auto&models=era5", ["temperature_2m_min", "2025-12-31"], "Data sample"),
+  S("h-etccdi", 6, "Definitions of the 27 core climate extremes indices", "Expert Team on Climate Change Detection and Indices (ETCCDI)", 2013, "https://etccdi.pacificclimate.org/list_27_indices.shtml", ["TN90p", "TX90p", "CDD"], "Method"),
+  S("h-era5", 6, "ERA5 hourly data on single levels from 1940 to present", "Copernicus Climate Change Service", 2026, "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels", ["ERA5", "reanalysis"], "Data documentation"),
 ];
 const ids = new Set(); for (const r of R) { if (ids.has(r.id)) throw new Error("duplicate id " + r.id); ids.add(r.id); }
 fs.mkdirSync(OUT, { recursive: true });
