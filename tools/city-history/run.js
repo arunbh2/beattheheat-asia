@@ -34,6 +34,7 @@ async function station(cid) {
   const rows = await get(u); if (!Array.isArray(rows) || !rows.length) return { id: cid, ok: false, why: "no data" };
   const num = v => { if (v == null || v === "") return null; const x = +String(v).trim(); return isFinite(x) && x > -60 && x < 60 ? x : null; };
   const days = rows.map(r => ({ date: r.DATE, tmax: num(gsod ? r.MAX : r.TMAX), tmin: num(gsod ? r.MIN : r.TMIN) }));
+  if (MODE === "discover") { const both = days.filter(d => d.tmax != null && d.tmin != null).length; console.log(`  ${cid}: ${rows.length} rows, ${both} days with both values; sample ${JSON.stringify(rows[Math.floor(rows.length / 2)])}`); }
   const all = []; for (let y = Y0; y <= Y1; y++) all.push(y);
   const valid = all.filter(y => S.validYear(days.filter(d => d.date.startsWith(y + "-")), y));
   const first = valid.filter(y => y < Y0 + 10).length, last = valid.filter(y => y > Y1 - 10).length, need = Math.ceil(0.8 * all.length);
