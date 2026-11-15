@@ -8,24 +8,25 @@
 // Method notes and limits are written into the output, and tools/check-city-districts.js checks it.
 "use strict";
 const fs = require("fs"), path = require("path"), G = require("./geo.js");
-const ROOT = path.join(__dirname, "..", ".."), [CITY, MODE = "discover"] = process.argv.slice(2);
-const CFG = JSON.parse(fs.readFileSync(path.join(__dirname, "cities.json"), "utf8"))[CITY];
-if (!CFG) { console.error(`no city "${CITY}" in tools/city-districts/cities.json`); process.exit(2); }
+const ROOT = path.join(__dirname, "..", ".."), [LIST, MODE = "discover"] = process.argv.slice(2), ALL = JSON.parse(fs.readFileSync(path.join(__dirname, "cities.json"), "utf8"));
+const CITIES = String(LIST || "").split(",").filter(Boolean); let CITY = "", CFG = null;
+for (const c of CITIES) if (!ALL[c] || c === "about") { console.error(`no city "${c}" in tools/city-districts/cities.json`); process.exit(2); }
+const norm = x => String(x || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/đ/gi, "d").toLowerCase();
 const UA = "CommonShade-district-job/1.0 (+https://beattheheat.asia/approach/)";
 const log = (...a) => console.log(...a);
 async function getJSON(u, opt = {}) { for (let k = 0; k < 4; k++) { try { const r = await fetch(u, { headers: { "User-Agent": UA }, ...opt }); if (r.ok) return await r.json(); log(`  ${r.status} ${u}`); } catch (e) { log(`  ${e.message} ${u}`); } await new Promise(z => setTimeout(z, 4000 * (k + 1))); } throw new Error("could not fetch " + u); }
 
 // 1. district outlines: geoBoundaries ADM2 inside the ADM1 unit named adm1Match
 async function outlines() {
-  const m2 = await getJSON(`https://www.geoboundaries.org/api/current/gbOpen/${CFG.iso3}/ADM2/`), m1 = await getJSON(`https://www.geoboundaries.org/api/current/gbOpen/${CFG.iso3}/ADM1/`);
+  const m2 = await getJSON(`https://www.geoboundaries.org/api/current/gbOpen/${CFG.iso3}/${CFG.child}/`), m1 = await getJSON(`https://www.geoboundaries.org/api/current/gbOpen/${CFG.iso3}/${CFG.parent.level}/`);
   const meta = k => ({ id: k.boundaryID, source: k.boundarySource, licence: k.boundaryLicense, licenceDetail: k.licenseDetail, licenceSource: k.licenseSource, year: k.boundaryYearRepresented, updated: k.sourceDataUpdateDate, build: k.buildDate, url: k.gjDownloadURL });
   log("geoBoundaries ADM2:", JSON.stringify(meta(m2))); log("geoBoundaries ADM1:", JSON.stringify(meta(m1)));
   const g1 = await getJSON(m1.gjDownloadURL), g2 = await getJSON(m2.gjDownloadURL);
-  const parent = g1.features.find(f => (f.properties.shapeName || "").toLowerCase().includes(CFG.adm1Match.toLowerCase()));
-  if (!parent) throw new Error(`no ADM1 unit matching "${CFG.adm1Match}"; names: ${g1.features.map(f => f.properties.shapeName).join(", ")}`);
+  const parent = g1.features.find(f => norm(f.properties.shapeName).includes(norm(CFG.parent.match)));
+  if (!parent) throw new Error(`no ${CFG.parent.level} unit matching "${CFG.parent.match}"; names: ${g1.features.map(f => f.properties.shapeName).join(", ")}`);
   const P = G.toMulti(parent.geometry);
   const districts = g2.features.map(f => ({ id: f.properties.shapeID, name: f.properties.shapeName, multi: G.toMulti(f.geometry) }))
-    .filter(d => { const p = G.interiorPoint(d.multi); return p && G.inMulti(p[0], p[1], P); });
+    .filter(d => { const p = G.interiorPoint(d.multi); return p && G.inMulti(p[0], p[1], P) && G.inBox(p[0], p[1], CFG.bbox); });
   log(`districts inside ${parent.properties.shapeName}: ${districts.length}`); log("  " + districts.map(d => d.name).join(", "));
   return { districts, meta: meta(m2), parent: parent.properties.shapeName };
 }
@@ -36,7 +37,7 @@ async function worldpopEntry() {
   if (!CFG.worldpop.alias) return null;
   const e = await getJSON(`https://hub.worldpop.org/rest/data/age_structures/${CFG.worldpop.alias}?iso3=${CFG.iso3}`);
   for (const d of e.data || []) log(`  entry ${d.id}: ${d.title} | year ${d.popyear} | ${(d.files || []).length} files | doi ${d.doi || ""} | licence ${d.license || ""} | first file ${(d.files || [])[0] || ""}`);
-  return (e.data || []).find(d => String(d.id) === String(CFG.worldpop.entry)) || null;
+  return (e.data || []).find(d => CFG.worldpop.entry ? String(d.id) === String(CFG.worldpop.entry) : +d.popyear === +CFG.worldpop.year) || null;
 }
 // 3. OpenStreetMap through Overpass: health facilities (points or the centre of a shape) and park shapes
 async function overpass(q) {
@@ -80,7 +81,8 @@ function assign(gr, districts) { const find = G.index(districts), out = new Int1
   for (let j = 0; j < gr.h; j++) { const y = gr.lat(j); for (let i = 0; i < gr.w; i++) { const x = gr.lon(i); for (const k of find(x, y)) if (G.inMulti(x, y, districts[k].multi)) { out[j * gr.w + i] = k; break; } } }
   return out; }
 
-(async () => {
+async function city() {
+  log(`\n===== ${CFG.name} (${CITY}) =====`);
   const O = await outlines(), wp = await worldpopEntry();
   const wcTiles = [...new Set([[CFG.bbox[1], CFG.bbox[0]], [CFG.bbox[3], CFG.bbox[2]], [CFG.bbox[1], CFG.bbox[2]], [CFG.bbox[3], CFG.bbox[0]]].map(([la, lo]) => { const a = Math.floor(la / 3) * 3, o = Math.floor(lo / 3) * 3; return `${a < 0 ? "S" : "N"}${String(Math.abs(a)).padStart(2, "0")}${o < 0 ? "W" : "E"}${String(Math.abs(o)).padStart(3, "0")}`; }))];
   const wcURL = t => `https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_${t}_Map.tif`;
@@ -88,10 +90,10 @@ function assign(gr, districts) { const find = G.index(districts), out = new Int1
   if (MODE === "discover") {
     for (const t of wcTiles) { const r = await fetch(wcURL(t), { method: "HEAD", headers: { "User-Agent": UA } }); log(`  ${t}: ${r.status} ${r.headers.get("content-length") || ""} bytes`); }
     const o = await osm(); log("health kinds:", JSON.stringify(o.health.reduce((m, e) => (m[e.kind] = (m[e.kind] || 0) + 1, m), {})));
-    if (wp) log("chosen WorldPop entry:", wp.title, (wp.files || []).slice(0, 40).join("\n  "));
+    if (wp) log(`chosen WorldPop entry ${wp.id} (${wp.popyear}): ${wp.title}; ${(wp.files || []).filter(f => /_t_/.test(f)).length} both-sexes files, e.g. ${(wp.files || []).find(f => /_t_65_/.test(f)) || ""}`);
     log("discover done; nothing written"); return;
   }
-  if (!wp) throw new Error("set worldpop.alias and worldpop.entry in tools/city-districts/cities.json from a discover run first");
+  if (!wp) throw new Error(`no WorldPop entry for ${CFG.worldpop.alias} ${CFG.worldpop.year || CFG.worldpop.entry}; run discover`);
   const D = O.districts, n = D.length, R = D.map(d => ({ id: d.id, name: d.name, area_km2: +G.multiKm2(d.multi).toFixed(2), residents: 0, older: 0, hospitals: 0, clinics: 0, cells: 0, built: 0, park: 0 }));
   // residents and 65+: every age and sex band on one shared grid
   // both sexes together ("_t_"), one raster per age band (00, 01, 05 ... 90); 65 and over are the bands from 65 up
@@ -112,13 +114,18 @@ function assign(gr, districts) { const find = G.index(districts), out = new Int1
   const out = { city: CITY, name: CFG.name, generated: new Date().toISOString().slice(0, 10), parent: O.parent,
     sources: [
       { id: "outlines", name: "geoBoundaries district outlines (ADM2)", source: O.meta.source, licence: O.meta.licence, year: O.meta.year, url: O.meta.url },
-      { id: "worldpop", name: `WorldPop, Global2 constrained age and sex structures, ${CFG.worldpop.alias.includes("R25A") ? "release R2025A" : CFG.worldpop.alias}, 100 m: ${wp.title}`, year: wp.popyear, licence: "CC BY 4.0", doi: wp.doi || "", url: `https://hub.worldpop.org/geodata/summary?id=${wp.id}` },
+      { id: "worldpop", name: `WorldPop, Global2 constrained age and sex structures, release R2025A, ${/_1km_/.test(files[0]) ? "1 km" : "100 m"}: ${wp.title}`, year: wp.popyear, licence: "CC BY 4.0", doi: wp.doi || "", url: `https://hub.worldpop.org/geodata/summary?id=${wp.id}` },
       { id: "worldcover", name: "ESA WorldCover 10 m 2021 v200 (built from Copernicus Sentinel-1 and Sentinel-2 data)", year: 2021, licence: "CC BY 4.0", url: "https://esa-worldcover.org/" },
       { id: "osm", name: "OpenStreetMap contributors, through the Overpass API", year: o.when, licence: "ODbL 1.0", url: "https://www.openstreetmap.org/copyright" }],
+    grid_m: /_1km_/.test(files[0]) ? 1000 : 100,
     districts: R.map(r => ({ id: r.id, name: r.name, area_km2: r.area_km2, residents: Math.round(r.residents), older_pct: r.residents ? +(100 * r.older / r.residents).toFixed(1) : null,
       hospitals: r.hospitals, clinics: r.clinics, built_pct: r.cells ? +(100 * r.built / r.cells).toFixed(1) : null, park_pct: r.cells ? +(100 * r.park / r.cells).toFixed(1) : null })),
     totals: { residents_in_districts: Math.round(R.reduce((a, r) => a + r.residents, 0)), residents_in_city: Math.round(inCity), districts: n } };
   fs.mkdirSync(path.join(ROOT, "data", "city-districts"), { recursive: true });
   fs.writeFileSync(path.join(ROOT, "data", "city-districts", CITY + ".json"), JSON.stringify(out, null, 1) + "\n");
-  log(`wrote data/city-districts/${CITY}.json: ${n} districts, ${out.totals.residents_in_districts} residents`);
-})().catch(e => { console.error("FAILED: " + (e.stack || e.message)); process.exit(1); });
+  log(`wrote data/city-districts/${CITY}.json: ${n} districts, ${out.totals.residents_in_districts} residents, area ${R.reduce((a, r) => a + r.area_km2, 0).toFixed(0)} km2`);
+}
+(async () => { let bad = 0;
+  for (const c of CITIES) { CITY = c; CFG = ALL[c]; try { await city(); } catch (e) { bad++; console.error(`FAILED ${c}: ` + (e.stack || e.message)); } }
+  if (bad) process.exit(1);
+})();

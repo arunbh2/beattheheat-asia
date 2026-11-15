@@ -373,13 +373,14 @@ function cityDistricts(c) {
   if (!fs.existsSync(f)) return { html: "", md: [] };
   const d = JSON.parse(fs.readFileSync(f, "utf8")), url = `/data/city-districts/${c.id}.json`, n = d.districts.length;
   const src = d.sources.map(s => `${ext(s.url, s.name)} (${esc(String(s.year))}, ${esc(s.licence)})`).join(" · ");
+  const limits = CD.limits.map(x => x.replace("{grid}", d.grid_m === 1000 ? "1 km" : "100 m"));
   const data = { id: c.id, url: url + "?v=" + CHV, n, cols: CD.cols, above: CD.above, below: CD.below };
   const html = `<h2 id="districts">${esc(CD.title)}</h2><p>${esc(CD.lede)}</p>
       <details class="cd"><summary>${esc(CD.open(n))}</summary><div class="cd-body" data-city-districts><p>${esc(CD.noJs)} <a href="${url}">${esc(c.name)} districts (JSON)</a>.</p></div></details>
-      <ul class="meta">${CD.limits.map(x => `<li>${esc(x)}</li>`).join("")}</ul><p class="src">Sources: ${src}. Generated ${esc(d.generated)}.</p>
+      <ul class="meta">${limits.map(x => `<li>${esc(x)}</li>`).join("")}</ul><p class="src">Sources: ${src}. Generated ${esc(d.generated)}.</p>
       <style>.cd{margin:10px 0}.cd summary{cursor:pointer;font-weight:700;min-height:24px;padding:6px 0}</style>
       <script>window.CITY_DISTRICTS=${JSON.stringify(data).replace(/</g, "\\u003c")};(function(){var d=document.querySelector("details.cd");if(!d)return;var go=function(){if(!d.open||go.done)return;go.done=1;var s=document.createElement("script");s.src="/city-heat/districts.js?v=${CHV}";document.head.appendChild(s);};d.addEventListener("toggle",go);go();})();</script>`;
-  const md = [`${CD.title}: ${n} districts, each with estimated residents, the share aged 65 and over, hospitals mapped in OpenStreetMap, built-up share and park area share, side by side and never ranked. Data: ${SITE}${url}. Limits: ${CD.limits.join(" ")}`];
+  const md = [`${CD.title}: ${n} districts, each with estimated residents, the share aged 65 and over, hospitals mapped in OpenStreetMap, built-up share and park area share, side by side and never ranked. Data: ${SITE}${url}. Limits: ${limits.join(" ")}`];
   return { html, md };
 }
 

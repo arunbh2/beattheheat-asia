@@ -14,7 +14,7 @@ module.exports = {
     "Hospitals are those OpenStreetMap volunteers have mapped so far, not every hospital that exists. Clinics are left out: far more exist than are mapped, so a count would mostly measure mapping.",
     "Park area counts only land mapped as parks in OpenStreetMap, as a share of each district's area. It leaves out farmland, orchards, temple grounds, canal-side trees and private gardens, so it is not a measure of all green space.",
     "Built-up ground is the share of land mapped as built-up in ESA WorldCover (2021, 10 m), built from Copernicus Sentinel satellite data.",
-    "Figures use the district outlines named below and grids of about 100 m and 50 m, so small districts carry more error.",
+    "Figures use the district outlines named below, a population grid of about {grid} and a land grid of about 50 m, so small districts carry more error.",
     "Today's heat-stress estimate above is for the city as a whole: the weather model's grid is wider than a district, so no district-level daily heat is shown."
   ],
   briefTitle: "What heat costs here, and what could be done",

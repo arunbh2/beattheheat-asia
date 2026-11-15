@@ -1,4 +1,129 @@
 {
- "about": "Cities the district job (tools/city-districts/run.js) can build. bbox: [west, south, east, north] with a margin. adm1Match: the province or region name in geoBoundaries ADM1 whose districts (ADM2) make up the city. osmArea: the ISO 3166-2 code of the city's area in OpenStreetMap. worldpop.alias and worldpop.entry are chosen after a discover run and recorded here, so every build reads the same product.",
- "bangkok": { "name": "Bangkok", "iso3": "THA", "adm1Match": "Bangkok", "osmArea": "TH-10", "bbox": [100.30, 13.46, 100.98, 13.98], "worldpop": { "alias": "G2_CN_Age_R25A_100m", "entry": "83423" } }
+ "about": "Cities the district job (tools/city-districts/run.js) can build. bbox: [west, south, east, north] with a margin; districts whose inside point falls outside it are left out (for example offshore islands). parent: the geoBoundaries level and name whose units at the child level make up the city. osmArea: the ISO 3166-2 code of the city's area in OpenStreetMap. worldpop: the product alias and year (or a pinned entry id), recorded so every build reads the same product.",
+ "bangkok": {
+  "name": "Bangkok",
+  "iso3": "THA",
+  "osmArea": "TH-10",
+  "bbox": [
+   100.3,
+   13.46,
+   100.98,
+   13.98
+  ],
+  "worldpop": {
+   "alias": "G2_CN_Age_R25A_100m",
+   "entry": "83423",
+   "year": 2025
+  },
+  "parent": {
+   "level": "ADM1",
+   "match": "Bangkok"
+  },
+  "child": "ADM2"
+ },
+ "hanoi": {
+  "name": "Hanoi",
+  "iso3": "VNM",
+  "parent": {
+   "level": "ADM1",
+   "match": "Ha Noi"
+  },
+  "child": "ADM2",
+  "osmArea": "VN-HN",
+  "bbox": [
+   105.26,
+   20.54,
+   106.04,
+   21.4
+  ],
+  "worldpop": {
+   "alias": "G2_CN_Age_R25A_100m",
+   "entry": "",
+   "year": 2025
+  }
+ },
+ "hochiminh": {
+  "name": "Ho Chi Minh City",
+  "iso3": "VNM",
+  "parent": {
+   "level": "ADM1",
+   "match": "Ho Chi Minh"
+  },
+  "child": "ADM2",
+  "osmArea": "VN-SG",
+  "bbox": [
+   106.34,
+   10.36,
+   107.04,
+   11.18
+  ],
+  "worldpop": {
+   "alias": "G2_CN_Age_R25A_100m",
+   "entry": "",
+   "year": 2025
+  }
+ },
+ "phnompenh": {
+  "name": "Phnom Penh",
+  "iso3": "KHM",
+  "parent": {
+   "level": "ADM1",
+   "match": "Phnom Penh"
+  },
+  "child": "ADM2",
+  "osmArea": "KH-12",
+  "bbox": [
+   104.68,
+   11.38,
+   105.06,
+   11.76
+  ],
+  "worldpop": {
+   "alias": "G2_CN_Age_R25A_100m",
+   "entry": "",
+   "year": 2025
+  }
+ },
+ "delhi": {
+  "name": "Delhi",
+  "iso3": "IND",
+  "parent": {
+   "level": "ADM1",
+   "match": "Delhi"
+  },
+  "child": "ADM2",
+  "osmArea": "IN-DL",
+  "bbox": [
+   76.82,
+   28.39,
+   77.36,
+   28.9
+  ],
+  "worldpop": {
+   "alias": "G2_CN_Age_R25A_1km",
+   "entry": "",
+   "year": 2025
+  }
+ },
+ "jakarta": {
+  "name": "Jakarta",
+  "iso3": "IDN",
+  "parent": {
+   "level": "ADM1",
+   "match": "Jakarta"
+  },
+  "child": "ADM2",
+  "osmArea": "ID-JK",
+  "bbox": [
+   106.66,
+   -6.4,
+   107.0,
+   -6.06
+  ],
+  "worldpop": {
+   "alias": "G2_CN_Age_R25A_1km",
+   "entry": "",
+   "year": 2025
+  }
+ }
 }
