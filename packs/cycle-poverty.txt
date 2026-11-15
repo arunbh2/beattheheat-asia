@@ -35,7 +35,7 @@ STUDIES BEHIND IT
 
 ACTIONS THAT COULD INTERRUPT IT
 - Heat-safe work: Rest, shade and water during dangerous heat, with paid breaks so that stopping work doesn’t mean losing pay.
-- Income protection in heatwaves: Cash that pays out automatically when temperatures cross a danger threshold, so people can afford to stop. Triggers need careful design to limit basis risk: heat that hurts people without triggering a payout.
+- Income protection in heatwaves: Cash that pays out automatically when temperatures cross a danger threshold, so people can afford to stop. Triggers need careful design to limit basis risk: heat that hurts people without triggering a payout. Watch for: A payout trigger set too high can pay nothing: the first year of a heat insurance scheme for informal women workers in India paid nothing for that reason, until the threshold was redesigned. [https://www.kpbs.org/news/health/2025/07/16/on-super-hot-days-this-insurance-plan-pays-out-cash-for-lost-wages] [https://social-justice-coalition.ilo.org/sites/default/files/2026-06/SEWAs%20journey%20towards%20climate%20resilience%20final%20-%20ILO%20Case%20Study%20.pdf] Watch for: Payouts that take weeks to arrive weaken the link between the heat and the help. [https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association]
 - Social protection floors: Basic income security that keeps households above the line between one hot season and the next.
 
 SOURCES
@@ -48,3 +48,6 @@ SOURCES
 - OECD Economics Department, Working Paper No. 1828, 2024: The heat is on: Heat stress, productivity and adaptation among firms: https://doi.org/10.1787/19d94638-en
 - Lancet Countdown, The Lancet, 2024: The 2024 report of the Lancet Countdown on health and climate change: https://doi.org/10.1016/S0140-6736(24)01822-1
 - World Bank, 2025: An Unsustainable Life: the impact of heat on health and the economy of Bangladesh: https://www.worldbank.org/en/news/press-release/2025/09/16/bangladesh-faces-health-and-economic-risks-from-rising-temperature-world-bank
+- NPR (via KPBS), 2025: On super hot days, this insurance plan pays out cash for lost wages: https://www.kpbs.org/news/health/2025/07/16/on-super-hot-days-this-insurance-plan-pays-out-cash-for-lost-wages
+- International Labour Organization, 2026: SEWA's journey towards climate resilience (ILO case study): https://social-justice-coalition.ilo.org/sites/default/files/2026-06/SEWAs%20journey%20towards%20climate%20resilience%20final%20-%20ILO%20Case%20Study%20.pdf
+- CGAP, 2026: Confronting the climate and health nexus: lessons from SEWA: https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association

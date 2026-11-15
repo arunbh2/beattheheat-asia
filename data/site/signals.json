@@ -212,6 +212,49 @@
    "stage": "funded", "history": [{ "date": "2026", "stage": "funded", "note": "Pilots supported by the CREWS initiative" }],
    "next": "Delivered: the pilots' results published, and what Cambodia's pilot shows for Southeast Asia.",
    "sources": [{ "label": "World Meteorological Organization, 2026: New framework and toolkit strengthens extreme heat governance", "url": "https://wmo.int/media/news/new-framework-and-toolkit-strengthens-extreme-heat-governance" }]
+  },
+  {
+   "id": "sig-singapore-mandatory-heat-measures-2026", "group": "year", "kind": "commitment", "date": "2026-08-28",
+   "title": "Singapore makes heat stress measures mandatory for outdoor work from 1 December 2026",
+   "summary": "The Ministry of Manpower announced on 28 August 2026 that enhanced heat stress measures, including drinking water, become mandatory for outdoor work from 1 December 2026, giving employers three months to prepare. Measures that had been recommended become requirements.",
+   "who": "Ministry of Manpower, Singapore", "places": ["singapore"], "levers": ["heatrules"],
+   "stage": "adopted", "history": [{ "date": "2026-08-28", "stage": "adopted", "note": "Enhancements to the heat stress framework announced, to take effect on 1 December 2026" }],
+   "next": "Delivered: the measures in force from 1 December 2026, and inspections reporting how workplaces meet them.",
+   "sources": [{ "label": "Ministry of Manpower, Singapore, 2026: Enhancements to heat stress framework (from 1 December 2026)", "url": "https://www.mom.gov.sg/newsroom/press-releases/2026/0828-enhancements-to-heat-stress-framework" }, { "label": "Rajah & Tann Asia, 2026: Heat stress management framework to be enhanced from 1 December 2026", "url": "https://www.rajahtannasia.com/viewpoints/heat-stress-management-framework-to-be-enhanced-from-1-december-2026/" }]
+  },
+  {
+   "id": "sig-philippines-heat-stress-advisories-2026", "group": "year", "kind": "commitment", "date": "2026-10-27",
+   "title": "The Philippines issues guidelines on heat stress at work and on compensation for heat illness",
+   "summary": "In October 2026 the Department of Labor and Employment issued guidelines requiring employers to protect workers from heat stress during El Niño, and set out how heat stress and heat-related illness at work are compensated.",
+   "who": "Department of Labor and Employment, Philippines", "places": ["region"], "levers": ["heatrules", "heatcash"],
+   "stage": "adopted", "history": [{ "date": "2026-10-24", "stage": "adopted", "note": "Guidelines on compensation for heat-related illness issued" }, { "date": "2026-10-27", "stage": "adopted", "note": "Workplace heat stress guidelines issued" }],
+   "next": "Delivered: workplaces applying the guidelines, and compensation claims for heat illness being filed and paid.",
+   "sources": [{ "label": "Daily Tribune, 2026: DOLE issues workplace heat stress guidelines", "url": "https://tribune.net.ph/2026/10/27/dole-issues-workplace-heat-stress-guidelines" }, { "label": "Daily Tribune, 2026: DOLE sets compensation rules for heat-related illnesses", "url": "https://tribune.net.ph/2026/10/24/dole-sets-compensation-rules-for-heat-related-illnesses" }]
+  },
+  {
+   "id": "sig-korea-heat-emergency-warning-2026", "group": "year", "kind": "commitment", "date": "2026-07-12",
+   "title": "South Korea issues its first emergency heatwave warning under a new rating system",
+   "summary": "In July 2026 South Korea's weather service issued its first emergency heatwave warning, the top level of a new rating system, during a summer of record tropical nights. Workplaces added longer lunches and more breaks.",
+   "who": "Korea Meteorological Administration", "places": ["region"], "levers": ["heatrules", "coolnights"],
+   "stage": "delivered", "history": [{ "date": "2026-07-12", "stage": "delivered", "note": "First emergency heatwave warning issued under the new system" }],
+   "next": "Evaluated: a published review of whether the new warning level changed what people, employers and services did.",
+   "sources": [{ "label": "The Jakarta Post, 2026: South Korea issues first emergency heatwave warning under new rating system", "url": "https://thejakartapost.com/world/2026/07/12/south-korea-issues-first-emergency-heatwave-warning-under-new-rating-system" }, { "label": "Korea JoongAng Daily, 2026: No relief, even after dark: record tropical nights add to Korea's heat crisis", "url": "https://www.koreajoongangdaily.com/korea/no-relief-even-after-dark-record-tropical-nights-add-to-koreas-heat-crisis/12810767" }, { "label": "The Star, 2026: Longer lunches, more breaks as Korea's workplaces battle heat", "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/07/longer-lunches-more-breaks-as-koreas-workplaces-battle-heat" }]
+  },
+  {
+   "id": "sig-viet-nam-outdoor-workers-2026", "group": "year", "kind": "finding", "date": "2026-06",
+   "title": "Nearly all outdoor workers surveyed in Viet Nam's two largest cities report heat-related health problems",
+   "summary": "A 2026 study with UNDP surveyed 734 outdoor workers in Hanoi and Ho Chi Minh City; 94% reported at least one heat-related health problem while working during heatwaves.",
+   "who": "National Economics University with UNDP Viet Nam", "places": ["region"], "levers": ["socialprotection", "heatcash"],
+   "next": "A finding, not a commitment: watch whether Viet Nam's labour and social protection rules add heat, as the study suggests.",
+   "sources": [{ "label": "Ministry of Agriculture and Environment, Viet Nam, 2026: 94% of outdoor workers report heat-related health problems: UNDP report", "url": "https://en.mae.gov.vn/94-of-outdoor-workers-report-heatrelated-health-problems-undp-report-9432.htm" }]
+  },
+  {
+   "id": "sig-world-bank-livable-future-2026", "group": "year", "kind": "finding", "date": "2026-07-29",
+   "title": "World Bank: extreme heat already costs jobs and growth in South Asia's cities",
+   "summary": "The World Bank's report A Livable Future, published on 29 July 2026, finds extreme heat emerging as a major threat to jobs, productivity and growth across South Asia, and sets out how cities can protect them.",
+   "who": "World Bank", "places": ["region"], "levers": ["greencity", "heatrules"],
+   "next": "A finding, not a commitment: watch whether city budgets in South Asia take up the report's measures.",
+   "sources": [{ "label": "World Bank, 2026: A livable future: protecting jobs and growth from extreme heat in South Asia's cities", "url": "https://www.worldbank.org/en/region/sar/publication/a-livable-future-protecting-jobs-and-growth-from-extreme-heat-in-south-asia-s-cities" }]
   }
  ]
 }

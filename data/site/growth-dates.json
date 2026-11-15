@@ -8524,8 +8524,8 @@
   },
   {
    "url": "https://social-justice-coalition.ilo.org/sites/default/files/2026-06/SEWAs%20journey%20towards%20climate%20resilience%20final%20-%20ILO%20Case%20Study%20.pdf",
-   "label": "ICICI Lombard",
-   "root": "financing",
+   "label": "International Labour Organization, 2026: SEWA's journey towards climate resilience (ILO case study)",
+   "root": "practical",
    "org": false,
    "date": "2026-06",
    "precision": "month",
@@ -13177,6 +13177,15 @@
    "date": "2021-06-23",
    "precision": "day",
    "how": "meta"
+  },
+  {
+   "url": "https://www.kpbs.org/news/health/2025/07/16/on-super-hot-days-this-insurance-plan-pays-out-cash-for-lost-wages",
+   "label": "NPR (via KPBS), 2025: On super hot days, this insurance plan pays out cash for lost wages",
+   "root": "practical",
+   "org": false,
+   "date": "2025-07-16",
+   "precision": "day",
+   "how": "url"
   },
   {
    "url": "https://www.ksat.com/health/2025/06/07/how-an-innovative-portable-shelter-could-help-indias-outdoor-workers-beat-the-heat/",

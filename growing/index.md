@@ -5,7 +5,7 @@ updated: 2026-11-15
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 47 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 48 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-47 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 4 connections documented and 3 questions opened. Beneath them, 1,084 works the commons draws on carry a publication date, and 807 are still being dated.
+48 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,085 works the commons draws on carry a publication date, and 807 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -61,6 +61,46 @@ The brief sits in the social protection section, beside the scheme finder.
 [Who could help a household](https://beattheheat.asia/social-protection/)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=A%20policy%20brief%20on%20heat-ready%20social%20security%2C%20with%20examples%20from%20across%20Asia&ref=g-heat-ready-social-security#way-share)
+
+Connection documented · Evidence
+
+### New signals from Asia on heat at work, and lessons on heat insurance on the map
+
+Added 15 November 2026 · Signals added 15 November 2026
+
+Why it matters our readingSignals now follow Singapore's mandatory heat measures, the Philippines' new heat stress and compensation guidelines, South Korea's first emergency heatwave warning, a survey of outdoor workers in Viet Nam and the World Bank's report on heat in South Asia's cities. Income protection on the map now notes two lessons from India's first heat insurance for informal women workers.
+
+- South and Southeast Asia
+- Singapore
+- Workers in heat-exposed jobs
+- Heat-safe work
+- Income protection in heatwaves
+
+ReviewEvery source opened by a check on GitHub with its terms found, in the same batch as the policy brief. 47 checked · 37 confirmed · 10 not confirmed, each recorded.
+
+What it took to add this
+
+- **The question.** Which commitments and findings on heat at work in Asia could the site follow?
+- **The search.** 47 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 37 confirmed, and 10 could not be (5 blocked automated reading, 5 did not show the expected text).
+- **What we set aside.** 3 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+
+- **What is still open.** Whether each commitment moves up the ladder.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-csd9-heat/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/csd9-heat/ledger.md)
+
+How it connects
+
+- [Heat-safe work](https://beattheheat.asia/actions/#heatrules) Action · from the site's records
+Three of the new signals are rules for heat-safe work.
+- [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash) Action · from the site's records
+The new Watch for notes sit on income protection in heatwaves.
+
+[See the signals](https://beattheheat.asia/signals/)
+[Actions](https://beattheheat.asia/actions/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=New%20signals%20from%20Asia%20on%20heat%20at%20work%2C%20and%20lessons%20on%20heat%20insurance%20on%20the%20map&ref=g-heat-signals-asia-2026#way-share)
 
 Tool improved · Institutions and plans
 
@@ -1442,27 +1482,27 @@ Steps toward protection this year: [Nepal adopts a national plan of action on he
 
 - 2025
 
-199 works published, 114 of them with a known month; 860 in all by the end of the year. 24 of the verified Indian heat action plans carry this year.
+200 works published, 115 of them with a known month; 861 in all by the end of the year. 24 of the verified Indian heat action plans carry this year.
 
 Steps toward protection this year: [Delhi launches its 2025 Heat Action Plan](https://beattheheat.asia/atlas/).
 
 - Evidence333
 - Experience54
-- Practical measures180
+- Practical measures181
 - Institutions and plans121
 - Financing172
 
 - 2026 so far
 
-224 works published, 128 of them with a known month; 1,084 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
+224 works published, 128 of them with a known month; 1,085 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
 
 Steps toward protection this year: [Bangkok opens 304 cooling centres](https://beattheheat.asia/atlas/); [The first Global Heat Forum, in Bangkok](https://beattheheat.asia/atlas/); [Bangladesh’s first urban heatwave action plan, for Narayanganj](https://beattheheat.asia/atlas/).
 
 - Evidence403
 - Experience70
-- Practical measures241
+- Practical measures243
 - Institutions and plans140
-- Financing230
+- Financing229
 
 Not yet dated: 807 works whose records carry no date, and 18 known only to have been online by a certain date. 426 links to organisations are counted apart and never dated. History before October 2026 is reconstructed only from these publication dates; Common Shade's own record of changes begins on 23 October 2026.
 
