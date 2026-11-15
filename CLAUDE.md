@@ -108,6 +108,9 @@ Every decision elevates the reader's experience (UX), the maintainer's experienc
 ## Heat network
 `/heat-network/` ("Organisations working on extreme heat") lists `data/core/ORGANISATIONS.json` with filters by place, action, part played and kind. `tools/build-heat-network.js` writes the list, the spreadsheet, the llms text and the "Who is already working here" lines on country and city pages; `tools/build-static.js` owns the page shell. Place, kind and link facts live in the build-only `ORG_FACETS`, written by `research/2026-11/heat-network/apply.js` from each record's own words, reviewed `facets-edits.json` and the link check (never edit it by hand); a new organisation needs a rerun of it. `heat-network/network-core.js` holds the words and filter rules shared by the build, the page script and `tools/check-heat-network.js`. A place is where the listed work is, never an office. Nothing is ranked; an empty result reads "Not found yet" and describes the list, not the place. The plan for ties, the coverage grid and growth is in `research/2026-11/heat-network/BUILD_BRIEF.md`.
 
+## City heat briefing, more cities and the Atlas (planned)
+The approved plan for a daily heat-stress estimate on city pages, ten more cities, a district risk picture, Atlas place panels and layers, and a possible what-if view is in `research/2026-11/city-heat/BUILD_BRIEF.md`. It lists the decisions already made, what to ask the owner before doing, and the order of work. Follow it step by step.
+
 ## Heat shorts
 `.claude/skills/heat-shorts/` makes short explainer films with faceless figures, a humble voice, checked sources and no em dashes. It builds on the repo's own renderer by default; the Remotion route needs the user's agreement. It is adapted from an MIT-licensed skill, with the reference frames left out.
 
