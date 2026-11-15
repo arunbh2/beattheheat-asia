@@ -1,0 +1,109 @@
+[
+ {
+  "id": "src-cop31d-compact",
+  "title": "COP31 launches Antalya Compact for Energy Efficient Buildings",
+  "publisher": "COP31 Presidency",
+  "year": 2026,
+  "url": "https://cop31.tr/news-detail/cop31-launches-antalya-compact-for-energy-efficient-buildings",
+  "kind": "Official (COP31 Presidency)",
+  "expect": [
+   "Antalya Compact",
+   "buildings"
+  ],
+  "claims": [
+   "c-compact-launch"
+  ],
+  "type": "source",
+  "keys": [
+   "compact"
+  ],
+  "where": "COP31",
+  "note": "Staged from COP31 Signals check-in 2 to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31d-compact-lexis",
+  "title": "COP31 Presidency launches Antalya Compact for Energy Efficient Buildings",
+  "publisher": "LexisNexis",
+  "year": 2026,
+  "url": "https://www.lexisnexis.co.uk/legal/news/cop31-presidency-launches-antalya-compact-for-energy-efficient-buildings",
+  "kind": "News",
+  "expect": [
+   "Antalya Compact",
+   "2035"
+  ],
+  "claims": [
+   "c-compact-launch",
+   "c-compact-target"
+  ],
+  "type": "source",
+  "keys": [
+   "compact-lexis"
+  ],
+  "where": "COP31",
+  "note": "Staged from COP31 Signals check-in 2 to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31d-compact-ed",
+  "title": "COP31: Türkiye tables energy-efficient buildings framework",
+  "publisher": "Energy Digital",
+  "year": 2026,
+  "url": "https://energydigital.com/news/cop31-turkiye-tables-energy-efficient-buildings-framework",
+  "kind": "News",
+  "expect": [
+   "Antalya Compact",
+   "cooling"
+  ],
+  "claims": [
+   "c-compact-cooling"
+  ],
+  "type": "source",
+  "keys": [
+   "compact-ed"
+  ],
+  "where": "COP31",
+  "note": "Staged from COP31 Signals check-in 2 to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31d-cool-ministerial",
+  "title": "Cool Coalition at COP31",
+  "publisher": "Cool Coalition (UNEP)",
+  "year": 2026,
+  "url": "https://coolcoalition.org/media-center/events/resilient-cities-buildings-and-cooling-pavilion/cool-coalition-cop31",
+  "kind": "Event page (UNEP-led coalition)",
+  "expect": [
+   "Cooling Ministerial",
+   "Heat Resilience Roadmap",
+   "COP32"
+  ],
+  "claims": [
+   "c-ministerial-scheduled"
+  ],
+  "type": "source",
+  "keys": [
+   "cool-ministerial"
+  ],
+  "where": "COP31",
+  "note": "Staged from COP31 Signals check-in 2 to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-cop31d-unep-events",
+  "title": "UNEP at the UN Climate Change Conference (UNFCCC COP 31)",
+  "publisher": "UNEP",
+  "year": 2026,
+  "url": "https://www.unep.org/en/events/conference/unep-un-climate-change-conference-unfccc-cop-31",
+  "kind": "Event page (UN)",
+  "expect": [
+   "Cooling Ministerial",
+   "16 November"
+  ],
+  "claims": [
+   "c-ministerial-scheduled"
+  ],
+  "type": "source",
+  "keys": [
+   "unep-events"
+  ],
+  "where": "COP31",
+  "note": "Staged from COP31 Signals check-in 2 to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ }
+]
