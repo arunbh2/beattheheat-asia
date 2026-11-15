@@ -1,15 +1,15 @@
 ---
-title: "Extreme heat in 17 Asian cities | Common Shade"
+title: "Extreme heat in 22 Asian cities | Common Shade"
 url: https://beattheheat.asia/cities/
 updated: 2026-11-15
 licence: CC BY 4.0
 ---
 
-> What extreme heat is doing in 17 Asian cities: whether each has a heat plan, the vicious cycles the evidence ties to it, who is hit hardest and who is already at work.
+> What extreme heat is doing in 22 Asian cities: whether each has a heat plan, the vicious cycles the evidence ties to it, who is hit hardest and who is already at work.
 
 Where is the need?
 
-17 cities and what heat is doing in each, with the plans already in place.
+22 cities and what heat is doing in each, with the plans already in place.
 
 **Read first:** [Dhaka](#dhaka) · [Delhi](#delhi)
 
@@ -19,15 +19,15 @@ Where is the need?
 
 What is heat doing in our city?
 
-17 city profiles: the kind of heat, the plan in place and the cycles at work.
+22 city profiles: the kind of heat, the plan in place and the cycles at work.
 
 **Then:** [See your country’s snapshot](https://beattheheat.asia/countries/)
 
 [Next stop: What happens to our power, water and clinics?](https://beattheheat.asia/a-city-under-strain/)
 
-# Extreme heat in 17 Asian cities
+# Extreme heat in 22 Asian cities
 
-What extreme heat is doing in 17 Asian cities: whether each has a heat plan, the vicious cycles the evidence ties to it, who is hit hardest and who is already at work.
+What extreme heat is doing in 22 Asian cities: whether each has a heat plan, the vicious cycles the evidence ties to it, who is hit hardest and who is already at work.
 
 **Watch: The first twelve cities** · 0:33 · narrated, captions in the picture
 
@@ -134,6 +134,36 @@ Heat plan: No published city heat plan found. Cycles tied to it: The dying-green
 An eastern state capital that has paired its heat plan with a plan for cooling demand.
 
 Heat plan: Heat plan in force. Cycles tied to it: The cooling trap, The poverty–heat trap.
+
+## [Ho Chi Minh City, Vietnam](https://beattheheat.asia/cities/hochiminh/)
+
+Viet Nam’s largest city, where heat radiates from crowded streets onto people who work outdoors.
+
+Heat plan: Parts in place, no full plan found. Cycles tied to it: The poverty–heat trap, The dying-green loop.
+
+## [Chattogram, Bangladesh](https://beattheheat.asia/cities/chattogram/)
+
+Bangladesh’s port city, which had the country’s highest climate-driven heat exposure in a recent summer.
+
+Heat plan: No published city heat plan found. Cycles tied to it: The overwhelmed-clinic loop, The energy-poverty trap.
+
+## [Surabaya, Indonesia](https://beattheheat.asia/cities/surabaya/)
+
+Indonesia’s second city, long known for its heat, which put in public parks where others put in buildings.
+
+Heat plan: No published city heat plan found. Cycles tied to it: The dying-green loop, The green-displacement loop.
+
+## [Quezon City, Philippines](https://beattheheat.asia/cities/quezoncity/)
+
+A Metro Manila city that has set up its own heat action team and opened libraries as cooling centres.
+
+Heat plan: Parts in place, no full plan found. Cycles tied to it: The energy-poverty trap, The energy–water loop.
+
+## [Chiang Mai, Thailand](https://beattheheat.asia/cities/chiangmai/)
+
+A northern Thai city where the hottest weeks of the year arrive with the haze season.
+
+Heat plan: No published city heat plan found. Cycles tied to it: The wildfire loop.
 
 ---
 Human edition: https://beattheheat.asia/cities/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

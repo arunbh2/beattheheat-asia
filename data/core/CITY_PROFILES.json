@@ -754,5 +754,189 @@
     "orgs": [],
     "examples": [],
     "risk": ["women","workers"]
+  },
+  {
+    "id": "hochiminh",
+    "tagline": "Viet Nam’s largest city, where heat radiates from crowded streets onto people who work outdoors.",
+    "heat": "Mostly humid heat.",
+    "hap": {
+      "status": "building",
+      "text": "In July 2026 the city approved an action plan for climate change response to 2030, with a vision to 2050, which aims to strengthen its capacity against heatwaves, droughts, heavy rain, flooding and rising seas. No standalone city heat action plan found.",
+      "sources": [
+        {
+          "label": "VnEconomy, 2026: HCMC unveils climate change response plan to 2030",
+          "url": "https://en.vneconomy.vn/hcmc-unveils-climate-change-response-plan-to-2030-vision-to-2050.htm"
+        }
+      ]
+    },
+    "loops": [
+      {
+        "id": "poverty",
+        "why": "Of 734 outdoor workers surveyed in Hanoi and Ho Chi Minh City, 94% reported at least one heat-related health problem while working during heatwaves.",
+        "src": {
+          "label": "Ministry of Agriculture and Environment, Viet Nam, 2026",
+          "url": "https://en.mae.gov.vn/94-of-outdoor-workers-report-heatrelated-health-problems-undp-report-9432.htm"
+        }
+      },
+      {
+        "id": "deadgreen",
+        "why": "Modelling found that more green and permeable surfaces in the most built-up areas could cut heatwave days in the city’s hotspots by up to 24 days.",
+        "src": {
+          "label": "RMIT University Vietnam, 2026",
+          "url": "https://www.rmit.edu.vn/news/all-news/2026/oct/a-new-heat-map-helps-vietnam-prepare-cities-for-a-warmer-future"
+        }
+      }
+    ],
+    "orgs": ["cornellgli"],
+    "examples": [],
+    "risk": ["workers","settlements","older"]
+  },
+  {
+    "id": "chattogram",
+    "tagline": "Bangladesh’s port city, which had the country’s highest climate-driven heat exposure in a recent summer.",
+    "heat": "Mostly humid coastal heat.",
+    "hap": {
+      "status": "none",
+      "text": "No published city heat action plan found. In a recent summer the city had 59 risky heat days, the country’s highest climate-driven heat exposure. During heatwaves, Bangladesh Red Crescent volunteers in the city have handed out cold drinks to outdoor workers, rickshaw drivers and traffic police.",
+      "sources": [
+        {
+          "label": "The Daily Star, 2025",
+          "url": "https://www.thedailystar.net/environment/news/nearly-6-crore-bangladeshis-endured-risky-heat-summer-3988886"
+        },
+        {
+          "label": "Red Cross Red Crescent Climate Centre: Bangladesh Red Crescent heat response",
+          "url": "https://www.climatecentre.org/?p=13733"
+        }
+      ]
+    },
+    "loops": [
+      {
+        "id": "clinic",
+        "why": "A mild heatwave in April 2024 brought a rise in fever, cough and diarrhoea, seen in private clinics and the medicine ward of Chittagong Medical College Hospital.",
+        "src": {
+          "label": "The Daily Star, 2024",
+          "url": "https://www.thedailystar.net/node/3587946"
+        }
+      },
+      {
+        "id": "energypoverty",
+        "why": "Across Bangladesh, households facing heat spend large sums on fans, refrigerators and air conditioners, and more on cooler travel, straining their budgets.",
+        "src": {
+          "label": "Climate Home News, 2025",
+          "url": "https://www.climatechangenews.com/2025/08/29/bangladesh-heatwaves-hit-health-hard-making-life-a-costly-business/"
+        }
+      }
+    ],
+    "orgs": [],
+    "examples": [],
+    "risk": ["workers","settlements"]
+  },
+  {
+    "id": "surabaya",
+    "tagline": "Indonesia’s second city, long known for its heat, which put in public parks where others put in buildings.",
+    "heat": "Mostly humid heat.",
+    "hap": {
+      "status": "none",
+      "text": "No published city heat action plan found. Indonesia’s meteorology agency counts Surabaya among the 20% of the country’s cities with the highest land surface temperatures.",
+      "sources": [
+        {
+          "label": "BMKG (Indonesia's meteorology agency), 2024",
+          "url": "https://www.bmkg.go.id/siaran-pers/cuaca-di-kota-semakin-panas-bmkg-ajak-generasi-muda-mitigasi-urban-heat-island"
+        }
+      ]
+    },
+    "loops": [
+      {
+        "id": "deadgreen",
+        "why": "The city added public parks where others added buildings, and has seen cooling, economic and creative benefits.",
+        "src": {
+          "label": "360info, 2022",
+          "url": "https://360info.org/surabayas-antidote-to-the-rise-of-concrete-jungles/"
+        }
+      },
+      {
+        "id": "greendisplace",
+        "why": "A policy report on Surabaya’s kampungs notes that greening and other cooling measures tend to benefit wealthier groups first, and looks at small-scale cooling for dense kampungs.",
+        "src": {
+          "label": "Center for Southeast Asian Studies, Kyoto University, 2025",
+          "url": "https://kyoto.cseas.kyoto-u.ac.jp/wp-content/uploads/2025/03/FINAL20250214_G5GR.pdf"
+        }
+      }
+    ],
+    "orgs": [],
+    "examples": [],
+    "risk": ["settlements","workers"]
+  },
+  {
+    "id": "quezoncity",
+    "tagline": "A Metro Manila city that has set up its own heat action team and opened libraries as cooling centres.",
+    "heat": "Mostly humid heat.",
+    "hap": {
+      "status": "building",
+      "text": "In June 2026 the city government set up a City Heat Action Team and designated chief heat action officers. Through the C40 Cool Cities Accelerator it has committed to clear heat action leadership, a stronger early warning system and wider access to cooling during heat emergencies within two years. 32 air-conditioned community libraries serve as cooling centres.",
+      "sources": [
+        {
+          "label": "Quezon City Government, 2026: QC beefs up action vs extreme heat",
+          "url": "https://quezoncity.gov.ph/qc-beefs-up-action-vs-extreme-heat-designates-chief-heat-action-officers/"
+        },
+        {
+          "label": "Zurich Climate Resilience Alliance, 2026: heat early warning in the Philippines",
+          "url": "https://preparecenter.org/wp-content/uploads/2026/08/ZCRA_Philippines-HEWS-case-study.pdf"
+        },
+        {
+          "label": "Quezon City Government, 2026: QCPL libraries as cooling centers",
+          "url": "https://quezoncity.gov.ph/qcpl-libraries-as-cooling-centers/"
+        }
+      ]
+    },
+    "loops": [
+      {
+        "id": "energypoverty",
+        "why": "Heat indices averaged 42 to 44 °C in 2024 and 2025, and extreme heat drives up electricity use that strains family budgets.",
+        "src": {
+          "label": "Quezon City Government, 2026: QC beefs up action vs extreme heat",
+          "url": "https://quezoncity.gov.ph/qc-beefs-up-action-vs-extreme-heat-designates-chief-heat-action-officers/"
+        }
+      },
+      {
+        "id": "energywater",
+        "why": "Prolonged dry periods strain water access and raise the cost of essential goods and services.",
+        "src": {
+          "label": "Quezon City Government, 2026: QC beefs up action vs extreme heat",
+          "url": "https://quezoncity.gov.ph/qc-beefs-up-action-vs-extreme-heat-designates-chief-heat-action-officers/"
+        }
+      }
+    ],
+    "orgs": ["quezoncitygovernment"],
+    "examples": [],
+    "risk": ["older","disability"]
+  },
+  {
+    "id": "chiangmai",
+    "tagline": "A northern Thai city where the hottest weeks of the year arrive with the haze season.",
+    "heat": "Mostly dry heat.",
+    "hap": {
+      "status": "none",
+      "text": "No published city heat action plan found. In May 2026 temperatures in Chiang Mai and other northern provinces were forecast to reach 40 °C, and health officials urged people to avoid long periods outdoors.",
+      "sources": [
+        {
+          "label": "The Star, 2026: Chiangmai set for 40 deg C days",
+          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/05/03/thailands-chiangmai-set-for-40-deg-c-days-while-heavy-rainfall-expected-in-phuket-krabi"
+        }
+      ]
+    },
+    "loops": [
+      {
+        "id": "fire",
+        "why": "In April 2026 Chiang Mai moved towards a disaster declaration after four days of soaring PM2.5; health advice in the hottest weeks covers both heat and haze.",
+        "src": {
+          "label": "The Star, 2026",
+          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/04/01/chiang-mai-set-for-disaster-declaration-after-four-days-of-soaring-pm25-levels"
+        }
+      }
+    ],
+    "orgs": [],
+    "examples": [],
+    "risk": ["older","workers"]
   }
 ]

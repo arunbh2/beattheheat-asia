@@ -194,5 +194,60 @@
       "label": "India Meteorological Department",
       "url": "https://mausam.imd.gov.in/"
     }
+  },
+  {
+    "id": "hochiminh",
+    "name": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "lat": 10.82,
+    "lon": 106.63,
+    "warn": {
+      "label": "National Centre for Hydro-Meteorological Forecasting",
+      "url": "https://nchmf.gov.vn/"
+    }
+  },
+  {
+    "id": "chattogram",
+    "name": "Chattogram",
+    "country": "Bangladesh",
+    "lat": 22.36,
+    "lon": 91.78,
+    "warn": {
+      "label": "Bangladesh Meteorological Department",
+      "url": "https://www.bmd.gov.bd/"
+    }
+  },
+  {
+    "id": "surabaya",
+    "name": "Surabaya",
+    "country": "Indonesia",
+    "lat": -7.25,
+    "lon": 112.75,
+    "warn": {
+      "label": "BMKG",
+      "url": "https://www.bmkg.go.id/"
+    }
+  },
+  {
+    "id": "quezoncity",
+    "name": "Quezon City",
+    "country": "Philippines",
+    "lat": 14.68,
+    "lon": 121.04,
+    "warn": {
+      "label": "PAGASA heat index",
+      "url": "https://www.pagasa.dost.gov.ph/weather/heat-index"
+    }
+  },
+  {
+    "id": "chiangmai",
+    "name": "Chiang Mai",
+    "country": "Thailand",
+    "lat": 18.79,
+    "lon": 98.98,
+    "warn": {
+      "label": "Thai Meteorological Department",
+      "url": "https://www.tmd.go.th/"
+    }
   }
 ]

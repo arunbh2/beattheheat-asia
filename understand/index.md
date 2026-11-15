@@ -19,7 +19,7 @@ What extreme heat does, where, to whom, and how one harm leads to the next.
 
 - [Breaking the cycles21 vicious cycles, and where they can be cut](https://beattheheat.asia/#loops)
 - [Who heat hits hardestSame heatwave, different barriersOn the path for: Health, Communities](https://beattheheat.asia/who-is-at-risk/)
-- [CitiesHeat, plans and cycles in 17 citiesOn the path for: Funders, City teams](https://beattheheat.asia/cities/)
+- [CitiesHeat, plans and cycles in 22 citiesOn the path for: Funders, City teams](https://beattheheat.asia/cities/)
 - [Countries7 national snapshots: plans, rules and moneyOn the path for: National](https://beattheheat.asia/countries/)
 - [Atlas of Asia’s heatHeatwaves since 1998 and the plans that followed, on a map](https://beattheheat.asia/atlas/)
 - [IntersectionsSame heat, different lives: a note and a game](https://beattheheat.asia/intersections/)
@@ -31,7 +31,7 @@ What extreme heat does, where, to whom, and how one harm leads to the next.
 - [A day in a heatwaveEight hours, seven places across Asia](https://beattheheat.asia/#day)
 - [The web of heatEvery consequence, system by system, as textOn the path for: Research](https://beattheheat.asia/the-web/)
 - [Vicious cyclesEach cycle, its evidence and what breaks it, as text](https://beattheheat.asia/loops/)
-- [Heat right nowLive readings for 17 cities](https://beattheheat.asia/#heat-now)
+- [Heat right nowLive readings for 22 cities](https://beattheheat.asia/#heat-now)
 
 ## Paths through this group
 

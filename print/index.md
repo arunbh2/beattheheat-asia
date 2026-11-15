@@ -52,6 +52,11 @@ Single A4 pages from the map, for meetings, briefings and noticeboards. Each one
 - [Extreme heat in Hyderabad](https://beattheheat.asia/print/city-hyderabad/)City officials, partners and funders
 - [Extreme heat in Bengaluru](https://beattheheat.asia/print/city-bengaluru/)City officials, partners and funders
 - [Extreme heat in Bhubaneswar](https://beattheheat.asia/print/city-bhubaneswar/)City officials, partners and funders
+- [Extreme heat in Ho Chi Minh City](https://beattheheat.asia/print/city-hochiminh/)City officials, partners and funders
+- [Extreme heat in Chattogram](https://beattheheat.asia/print/city-chattogram/)City officials, partners and funders
+- [Extreme heat in Surabaya](https://beattheheat.asia/print/city-surabaya/)City officials, partners and funders
+- [Extreme heat in Quezon City](https://beattheheat.asia/print/city-quezoncity/)City officials, partners and funders
+- [Extreme heat in Chiang Mai](https://beattheheat.asia/print/city-chiangmai/)City officials, partners and funders
 
 ## Cooling options, by place
 

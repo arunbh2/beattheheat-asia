@@ -66,6 +66,15 @@
    "how": "record"
   },
   {
+   "url": "https://360info.org/surabayas-antidote-to-the-rise-of-concrete-jungles/",
+   "label": "360info, 2022",
+   "root": "experience",
+   "org": false,
+   "date": "2022",
+   "precision": "year",
+   "how": "label"
+  },
+  {
    "url": "https://56q2bbylxfnk.optimytool.com/fr",
    "label": "Fondation SUEZ",
    "root": "institutions",
@@ -4197,6 +4206,15 @@
    "how": "label"
   },
   {
+   "url": "https://en.mae.gov.vn/94-of-outdoor-workers-report-heatrelated-health-problems-undp-report-9432.htm",
+   "label": "Ministry of Agriculture and Environment, Viet Nam, 2026",
+   "root": "experience",
+   "org": false,
+   "date": "2026",
+   "precision": "year",
+   "how": "label"
+  },
+  {
    "url": "https://en.prothomalo.com/environment/climate-change/qq8g2g85o8",
    "label": "Bangladesh, 3 other South Asian countries launch new initiative to tackle extreme heat",
    "root": "evidence",
@@ -4213,6 +4231,15 @@
    "date": "2024-04-20",
    "precision": "day",
    "how": "meta"
+  },
+  {
+   "url": "https://en.vneconomy.vn/hcmc-unveils-climate-change-response-plan-to-2030-vision-to-2050.htm",
+   "label": "VnEconomy, 2026: HCMC unveils climate change response plan to 2030",
+   "root": "experience",
+   "org": false,
+   "date": "2026",
+   "precision": "year",
+   "how": "label"
   },
   {
    "url": "https://energy-base.org/wp-content/uploads/2020/03/10.CaaS_Instrument-Analysis-Paper_FINAL_09.17.19.pdf",
@@ -5806,6 +5833,15 @@
    "date": "2026",
    "precision": "year",
    "how": "label"
+  },
+  {
+   "url": "https://kyoto.cseas.kyoto-u.ac.jp/wp-content/uploads/2025/03/FINAL20250214_G5GR.pdf",
+   "label": "Center for Southeast Asian Studies, Kyoto University, 2025",
+   "root": "experience",
+   "org": false,
+   "date": "2025-03",
+   "precision": "month",
+   "how": "url"
   },
   {
    "url": "https://labour.delhi.gov.in/",
@@ -7638,6 +7674,15 @@
    "how": "url"
   },
   {
+   "url": "https://preparecenter.org/wp-content/uploads/2026/08/ZCRA_Philippines-HEWS-case-study.pdf",
+   "label": "Zurich Climate Resilience Alliance, 2026: heat early warning in the Philippines",
+   "root": "experience",
+   "org": false,
+   "date": "2026-08",
+   "precision": "month",
+   "how": "url"
+  },
+  {
    "url": "https://presidency.gov.mv/Press/Article/34780?term=0",
    "label": "Maldives Monetary Authority",
    "root": "financing",
@@ -7981,6 +8026,15 @@
    "date": "2026-06-03",
    "precision": "day",
    "how": "meta"
+  },
+  {
+   "url": "https://quezoncity.gov.ph/qcpl-libraries-as-cooling-centers/",
+   "label": "Quezon City Government, 2026: QCPL libraries as cooling centers",
+   "root": "experience",
+   "org": false,
+   "date": "2026",
+   "precision": "year",
+   "how": "label"
   },
   {
    "url": "https://quezoncity.gov.ph/quezon-city-joins-global-effort-vs-deadly-extreme-heat/",
@@ -10251,6 +10305,15 @@
    "org": false
   },
   {
+   "url": "https://www.bmkg.go.id/siaran-pers/cuaca-di-kota-semakin-panas-bmkg-ajak-generasi-muda-mitigasi-urban-heat-island",
+   "label": "BMKG (Indonesia's meteorology agency), 2024",
+   "root": "experience",
+   "org": false,
+   "date": "2024",
+   "precision": "year",
+   "how": "label"
+  },
+  {
    "url": "https://www.bnm.gov.my/perlindungan-tenang",
    "label": "Bank Negara Malaysia",
    "root": "financing",
@@ -10932,6 +10995,12 @@
    "org": true
   },
   {
+   "url": "https://www.climatecentre.org/?p=13733",
+   "label": "Red Cross Red Crescent Climate Centre: Bangladesh Red Crescent heat response",
+   "root": "experience",
+   "org": false
+  },
+  {
    "url": "https://www.climatecentre.org/publications/16234/dhangadhi-heat-action-plan-2025/",
    "label": "Red Cross Red Crescent Climate Centre: Dhangadhi Heat Action Plan 2025",
    "root": "practical",
@@ -10964,6 +11033,15 @@
    "root": "evidence",
    "org": false,
    "date": "2025-02-28",
+   "precision": "day",
+   "how": "url"
+  },
+  {
+   "url": "https://www.climatechangenews.com/2025/08/29/bangladesh-heatwaves-hit-health-hard-making-life-a-costly-business/",
+   "label": "Climate Home News, 2025",
+   "root": "experience",
+   "org": false,
+   "date": "2025-08-29",
    "precision": "day",
    "how": "url"
   },
@@ -15051,6 +15129,15 @@
    "org": true
   },
   {
+   "url": "https://www.rmit.edu.vn/news/all-news/2026/oct/a-new-heat-map-helps-vietnam-prepare-cities-for-a-warmer-future",
+   "label": "RMIT University Vietnam, 2026",
+   "root": "experience",
+   "org": false,
+   "date": "2026",
+   "precision": "year",
+   "how": "label"
+  },
+  {
    "url": "https://www.rockefellerfoundation.org",
    "label": "Rockefeller Foundation",
    "root": "institutions",
@@ -15870,6 +15957,24 @@
    "how": "label"
   },
   {
+   "url": "https://www.thedailystar.net/environment/news/nearly-6-crore-bangladeshis-endured-risky-heat-summer-3988886",
+   "label": "The Daily Star, 2025",
+   "root": "experience",
+   "org": false,
+   "date": "2025",
+   "precision": "year",
+   "how": "label"
+  },
+  {
+   "url": "https://www.thedailystar.net/node/3587946",
+   "label": "The Daily Star, 2024",
+   "root": "experience",
+   "org": false,
+   "date": "2024",
+   "precision": "year",
+   "how": "label"
+  },
+  {
    "url": "https://www.thegef.org",
    "label": "Global Environment Facility",
    "root": "institutions",
@@ -16078,6 +16183,24 @@
    "date": "2016-04-19",
    "precision": "day",
    "how": "meta"
+  },
+  {
+   "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/04/01/chiang-mai-set-for-disaster-declaration-after-four-days-of-soaring-pm25-levels",
+   "label": "The Star, 2026",
+   "root": "experience",
+   "org": false,
+   "date": "2026-04-01",
+   "precision": "day",
+   "how": "url"
+  },
+  {
+   "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/05/03/thailands-chiangmai-set-for-40-deg-c-days-while-heavy-rainfall-expected-in-phuket-krabi",
+   "label": "The Star, 2026: Chiangmai set for 40 deg C days",
+   "root": "experience",
+   "org": false,
+   "date": "2026-05-03",
+   "precision": "day",
+   "how": "url"
   },
   {
    "url": "https://www.third-derivative.org/blog/d3-incoming-general-cohort-25-3-newsbrief",
