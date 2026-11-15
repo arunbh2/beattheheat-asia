@@ -12,6 +12,10 @@
   "date": "2026-07-22",
   "how": "meta"
  },
+ "https://360info.org/surabayas-antidote-to-the-rise-of-concrete-jungles/": {
+  "date": "2022-02-27",
+  "how": "meta"
+ },
  "https://accurantinternational.com/": {
   "date": "2021-11-24",
   "how": "online"
@@ -853,12 +857,20 @@
  "https://ember-energy.org/data/#all": null,
  "https://en.codi.or.th/baan-mankong-city-wide-upgrading/": null,
  "https://en.evn.com.vn/d6/news/Ministry-of-Industry-and-Trade-informs-about-power-supply-situation-in-hot-season-66-163-3527.aspx": null,
+ "https://en.mae.gov.vn/94-of-outdoor-workers-report-heatrelated-health-problems-undp-report-9432.htm": {
+  "date": "2026-07-13",
+  "how": "online"
+ },
  "https://en.prothomalo.com/environment/climate-change/qq8g2g85o8": {
   "date": "2026-10-08",
   "how": "meta"
  },
  "https://en.prothomalo.com/environment/lsjp2c74gu": {
   "date": "2024-04-20",
+  "how": "meta"
+ },
+ "https://en.vneconomy.vn/hcmc-unveils-climate-change-response-plan-to-2030-vision-to-2050.htm": {
+  "date": "2026-07-23",
   "how": "meta"
  },
  "https://energy.prayaspune.org/our-work/article-and-blog/parametric-insurance-for-extreme-heat": {
@@ -1434,6 +1446,10 @@
   "date": "2026-06-03",
   "how": "meta"
  },
+ "https://quezoncity.gov.ph/qcpl-libraries-as-cooling-centers/": {
+  "date": "2026-05-13",
+  "how": "meta"
+ },
  "https://rbi.org.in/": null,
  "https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10478": null,
  "https://reetech.com.vn/": null,
@@ -1833,6 +1849,10 @@
   "how": "meta"
  },
  "https://www.bmkg.go.id/": null,
+ "https://www.bmkg.go.id/siaran-pers/cuaca-di-kota-semakin-panas-bmkg-ajak-generasi-muda-mitigasi-urban-heat-island": {
+  "date": "2025-03-16",
+  "how": "online"
+ },
  "https://www.bnm.gov.my/perlindungan-tenang": null,
  "https://www.bpjsketenagakerjaan.go.id/Bukan-Penerima-Upah.html": null,
  "https://www.bpjsketenagakerjaan.go.id/jaminan-kehilangan-pekerjaan.html": null,
@@ -1936,6 +1956,7 @@
  "https://www.climate-x.com/articles/press-releases/series-a": null,
  "https://www.climatecentral.org/climate-matters/risky-summer-heat": null,
  "https://www.climatecentre.org/13733/red-crescent-activates-early-action-protocol-for-heatwaves-in-dhaka/": null,
+ "https://www.climatecentre.org/?p=13733": null,
  "https://www.climatecentre.org/publications/16234/dhangadhi-heat-action-plan-2025/": null,
  "https://www.climatecentre.org/publications/17312/the-lived-experiences-of-vulnerable-populations-in-the-context-of-extreme-heat-a-comprehensive-narrative-report-based-on-survey-data-from-five-cities-in-nepal-and-bangladesh/": null,
  "https://www.climatecentre.org/wp-content/uploads/Dhangadhi-Heat-Action-Plan-2025.pdf": null,
@@ -2618,6 +2639,7 @@
   "how": "meta"
  },
  "https://www.rma.org.bt/bank/laws_bylaws.jsp": null,
+ "https://www.rmit.edu.vn/news/all-news/2026/oct/a-new-heat-map-helps-vietnam-prepare-cities-for-a-warmer-future": null,
  "https://www.rockefellerfoundation.org/perspective/who-owns-the-response-to-heat-in-bangladesh-everyone-does/": {
   "date": "2026-02-23",
   "how": "meta"
@@ -2726,6 +2748,11 @@
  "https://www.thecatalystfund.com/insights/why-we-invested-in-keep-it-cool-a-startup-providing-solar-cold-chain-solutions-in-east-africa": null,
  "https://www.theclimategroup.org/our-work/publications/telanganas-cool-roof-policy-pilot-demonstration-policy-implementation": null,
  "https://www.thedailystar.net/business/news/small-businesses-daily-earners-scorched-heatwave-3594581": null,
+ "https://www.thedailystar.net/environment/news/nearly-6-crore-bangladeshis-endured-risky-heat-summer-3988886": {
+  "date": "2025-09-18",
+  "how": "online"
+ },
+ "https://www.thedailystar.net/node/3587946": null,
  "https://www.thegef.org/": null,
  "https://www.thegef.org/projects-operations/projects/10370": null,
  "https://www.thegef.org/projects-operations/projects/11960": null,
