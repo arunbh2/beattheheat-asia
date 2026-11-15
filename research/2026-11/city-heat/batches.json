@@ -1,5 +1,17 @@
 {
  "about": "Cities added in step 2 of BUILD_BRIEF.md. Every source their profiles cite must be staged in data/inbox/2026-11-city-heat/ and have passed verify-sources.yml with every term found; tools/check-city-heat.js enforces it.",
- "A": ["kolkata", "chennai", "hyderabad", "bengaluru", "bhubaneswar"],
- "B": []
+ "A": [
+  "kolkata",
+  "chennai",
+  "hyderabad",
+  "bengaluru",
+  "bhubaneswar"
+ ],
+ "B": [
+  "hochiminh",
+  "chattogram",
+  "surabaya",
+  "quezoncity",
+  "chiangmai"
+ ]
 }

@@ -141,6 +141,102 @@
   },
   "https://mausam.imd.gov.in/": {
    "India Meteorological Department": true
+  },
+  "https://en.vneconomy.vn/hcmc-unveils-climate-change-response-plan-to-2030-vision-to-2050.htm": {
+   "2030": true,
+   "heatwave": true
+  },
+  "https://www.rmit.edu.vn/news/all-news/2026/oct/a-new-heat-map-helps-vietnam-prepare-cities-for-a-warmer-future": {
+   "24": true,
+   "Ho Chi Minh City": true
+  },
+  "https://en.mae.gov.vn/94-of-outdoor-workers-report-heatrelated-health-problems-undp-report-9432.htm": {
+   "94": true,
+   "734": true
+  },
+  "https://news.tuoitre.vn/under-scorching-heat-ho-chi-minh-citys-outdoor-workers-adapt-to-survive-103260405154353278.htm": {
+   "outdoor workers": true,
+   "heat": true
+  },
+  "https://www.thegpsc.org/sites/gpsc/files/1._vietnam.pdf": {
+   "heat": true,
+   "Ho Chi Minh": false
+  },
+  "https://www.thedailystar.net/environment/news/nearly-6-crore-bangladeshis-endured-risky-heat-summer-3988886": {
+   "59": true,
+   "Chattogram": true
+  },
+  "https://www.thedailystar.net/node/3587946": {
+   "heat": true,
+   "Chattogram": true
+  },
+  "https://www.climatechangenews.com/2025/08/29/bangladesh-heatwaves-hit-health-hard-making-life-a-costly-business/": {
+   "Chattogram": true,
+   "heat": true
+  },
+  "https://www.urbanet.info/bangladsh-cities-tackle-urban-heat/": {
+   "Narayanganj": false,
+   "Heat Action Plan": false
+  },
+  "https://www.climatecentre.org/?p=13733": {
+   "Chattogram": true,
+   "heat": true
+  },
+  "https://preparecenter.org/wp-content/uploads/2026/04/IFRC-RCCC-Heat-perception-report-Indonesia-Surabaya_V2.pdf": {
+   "93": false,
+   "Surabaya": false
+  },
+  "https://www.bmkg.go.id/siaran-pers/cuaca-di-kota-semakin-panas-bmkg-ajak-generasi-muda-mitigasi-urban-heat-island": {
+   "Surabaya": true,
+   "Heat Island": true
+  },
+  "https://kyoto.cseas.kyoto-u.ac.jp/wp-content/uploads/2025/03/FINAL20250214_G5GR.pdf": {
+   "Surabaya": true,
+   "kampung": true
+  },
+  "https://360info.org/surabayas-antidote-to-the-rise-of-concrete-jungles/": {
+   "Surabaya": true,
+   "green": true
+  },
+  "https://quezoncity.gov.ph/qc-beefs-up-action-vs-extreme-heat-designates-chief-heat-action-officers/": {
+   "Heat Action": true,
+   "Quezon City": true
+  },
+  "https://mb.com.ph/2026/06/03/qc-forms-heat-action-team-vs-climate-threats": {
+   "Heat Action Team": false,
+   "Heat Action Plan": false
+  },
+  "https://quezoncity.gov.ph/qcpl-libraries-as-cooling-centers/": {
+   "cooling center": true,
+   "librar": true
+  },
+  "https://quezoncity.gov.ph/qc-leads-national-push-vs-extreme-heat-convenes-first-urban-heat-and-drought-summit/": {
+   "46": true,
+   "heat index": false
+  },
+  "https://preparecenter.org/wp-content/uploads/2026/08/ZCRA_Philippines-HEWS-case-study.pdf": {
+   "Quezon City": true,
+   "heat": true
+  },
+  "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/05/03/thailands-chiangmai-set-for-40-deg-c-days-while-heavy-rainfall-expected-in-phuket-krabi": {
+   "40": true,
+   "Chiang": true
+  },
+  "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/04/01/chiang-mai-set-for-disaster-declaration-after-four-days-of-soaring-pm25-levels": {
+   "PM2.5": true,
+   "disaster": true
+  },
+  "https://www.chiangmaicitylife.com/citynews/general/air-quality-in-chiang-mai-begins-to-affect-public-health-as-pm2-5-levels-rise/": {
+   "PM2.5": true,
+   "Chiang Mai": true
+  },
+  "https://chiangmaicitylife.com/citynews/health/health-office-warns-of-heat-stroke": {
+   "heat stroke": true,
+   "Chiang Mai": true
+  },
+  "https://www.chiangraitimes.com/weather/northern-thailand-temperature-expected-to-exceed-42c/": {
+   "42": true,
+   "Chiang Mai": true
   }
  },
  "http://www.bom.gov.au/info/thermal_stress/": "OK",
@@ -173,8 +269,32 @@
  "https://www.cseindia.org/urban-heat-stress-tracker-bengaluru-12197": "OK",
  "https://www.theweek.in/wire-updates/national/2025/09/02/ces10-od-heat-action-plan.html": "OK",
  "https://odishatv.in/news/odisha/bhubaneswar-to-face-extreme-heat-sevenfold-rise-in-ac-demand-by-2050-bmc-unveils-action-plan-271303": "OK",
- "https://www.orissapost.com/first-integrated-heat-and-cooling-action-plan-for-bhubaneswar-released/": "FAIL",
+ "https://www.orissapost.com/first-integrated-heat-and-cooling-action-plan-for-bhubaneswar-released/": "OK",
  "https://heathealth.info/wp-content/uploads/Bhubaneswar-Heat-Action-Plan.pdf": "OK",
  "https://sambadenglish.com/odisha-bmc-readying-action-plan-to-tackle-heatwave": "OK",
- "https://mausam.imd.gov.in/": "OK"
+ "https://mausam.imd.gov.in/": "OK",
+ "https://en.vneconomy.vn/hcmc-unveils-climate-change-response-plan-to-2030-vision-to-2050.htm": "OK",
+ "https://www.rmit.edu.vn/news/all-news/2026/oct/a-new-heat-map-helps-vietnam-prepare-cities-for-a-warmer-future": "OK",
+ "https://en.mae.gov.vn/94-of-outdoor-workers-report-heatrelated-health-problems-undp-report-9432.htm": "OK",
+ "https://news.tuoitre.vn/under-scorching-heat-ho-chi-minh-citys-outdoor-workers-adapt-to-survive-103260405154353278.htm": "OK",
+ "https://www.thegpsc.org/sites/gpsc/files/1._vietnam.pdf": "OK",
+ "https://www.thedailystar.net/environment/news/nearly-6-crore-bangladeshis-endured-risky-heat-summer-3988886": "OK",
+ "https://www.thedailystar.net/node/3587946": "OK",
+ "https://www.climatechangenews.com/2025/08/29/bangladesh-heatwaves-hit-health-hard-making-life-a-costly-business/": "OK",
+ "https://www.urbanet.info/bangladsh-cities-tackle-urban-heat/": "OK",
+ "https://www.climatecentre.org/?p=13733": "OK",
+ "https://preparecenter.org/wp-content/uploads/2026/04/IFRC-RCCC-Heat-perception-report-Indonesia-Surabaya_V2.pdf": "FAIL",
+ "https://www.bmkg.go.id/siaran-pers/cuaca-di-kota-semakin-panas-bmkg-ajak-generasi-muda-mitigasi-urban-heat-island": "OK",
+ "https://kyoto.cseas.kyoto-u.ac.jp/wp-content/uploads/2025/03/FINAL20250214_G5GR.pdf": "OK",
+ "https://360info.org/surabayas-antidote-to-the-rise-of-concrete-jungles/": "OK",
+ "https://quezoncity.gov.ph/qc-beefs-up-action-vs-extreme-heat-designates-chief-heat-action-officers/": "OK",
+ "https://mb.com.ph/2026/06/03/qc-forms-heat-action-team-vs-climate-threats": "BLOCKED",
+ "https://quezoncity.gov.ph/qcpl-libraries-as-cooling-centers/": "OK",
+ "https://quezoncity.gov.ph/qc-leads-national-push-vs-extreme-heat-convenes-first-urban-heat-and-drought-summit/": "OK",
+ "https://preparecenter.org/wp-content/uploads/2026/08/ZCRA_Philippines-HEWS-case-study.pdf": "OK",
+ "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/05/03/thailands-chiangmai-set-for-40-deg-c-days-while-heavy-rainfall-expected-in-phuket-krabi": "OK",
+ "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/04/01/chiang-mai-set-for-disaster-declaration-after-four-days-of-soaring-pm25-levels": "OK",
+ "https://www.chiangmaicitylife.com/citynews/general/air-quality-in-chiang-mai-begins-to-affect-public-health-as-pm2-5-levels-rise/": "OK",
+ "https://chiangmaicitylife.com/citynews/health/health-office-warns-of-heat-stroke": "REDIRECT",
+ "https://www.chiangraitimes.com/weather/northern-thailand-temperature-expected-to-exceed-42c/": "OK"
 }

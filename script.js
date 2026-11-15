@@ -2950,13 +2950,13 @@
   // so they add nothing to the first view of the homepage
   let CITIES = [], cityById = {}, profilesPromise = null, cityDrawn = false, cityWanted = null;
   function loadProfiles() {
-    if (!profilesPromise) profilesPromise = fetch("/cities/profiles.json?v=223").then(r => { if (!r.ok) throw new Error("profiles " + r.status); return r.json(); })
+    if (!profilesPromise) profilesPromise = fetch("/cities/profiles.json?v=224").then(r => { if (!r.ok) throw new Error("profiles " + r.status); return r.json(); })
       .then(list => { CITIES = Array.isArray(list) ? list.filter(p => LIVE.some(c => c.id === p.id)) : []; cityById = Object.fromEntries(CITIES.map(p => [p.id, p])); if (!CITIES.length) throw new Error("no profiles"); return CITIES; })
       .catch(e => { profilesPromise = null; throw e; });
     return profilesPromise;
   }
   const MAPBOX = { lon0: 64, lon1: 129, lat0: -12, lat1: 34 };   // matches images/asia-map.svg (1000 × 721)
-  const LABEL_LEFT = new Set(["manila", "delhi", "bangkok", "kolkata", "bengaluru"]), LABEL_BELOW = new Set(["phnompenh", "bhubaneswar"]);
+  const LABEL_LEFT = new Set(["manila", "delhi", "bangkok", "kolkata", "bengaluru", "chiangmai"]), LABEL_BELOW = new Set(["phnompenh", "bhubaneswar"]);
   const HEAT_STOPS = [[0, [61, 191, 174]], [0.45, [245, 166, 35]], [0.7, [242, 100, 48]], [1, [215, 38, 61]]];
   function heatColor(v) {
     const t = clamp01((v - 20) / 35);

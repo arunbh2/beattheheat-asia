@@ -19,7 +19,7 @@ Your city’s heat, the actions that fit, and a plan your team can run.
 
 ## [What is heat doing in our city?](https://beattheheat.asia/cities/)
 
-17 city profiles: the kind of heat, the plan in place and the cycles at work.
+22 city profiles: the kind of heat, the plan in place and the cycles at work.
 
 **Then:** [See your country’s snapshot](https://beattheheat.asia/countries/)
 

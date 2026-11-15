@@ -65,7 +65,7 @@
    "meteorological"
   ],
   "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261017191611/https://pubmed.ncbi.nlm.nih.gov/22673363/"
+  "archive": "https://web.archive.org/web/20261115110702/https://pubmed.ncbi.nlm.nih.gov/22673363/"
  },
  {
   "id": "ch-om-docs",
@@ -82,7 +82,7 @@
    "hourly"
   ],
   "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20261104045842/https://open-meteo.com/en/docs"
+  "archive": "https://web.archive.org/web/20261115110729/https://open-meteo.com/en/docs"
  },
  {
   "id": "ch-om-sample",
@@ -435,8 +435,7 @@
    "Bengaluru",
    "lakes"
   ],
-  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
-  "archive": "https://web.archive.org/web/20260616214433/https://www.downtoearth.org.in/climate-change/beyond-the-thermometer-bengalurus-race-to-modernise-ignored-climate-now-its-residents-are-paying-the-price"
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
  },
  {
   "id": "ch-blr-cse",
@@ -548,5 +547,385 @@
   ],
   "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
   "archive": "https://web.archive.org/web/20261102055935/https://mausam.imd.gov.in/"
+ },
+ {
+  "id": "ch-hcm-plan",
+  "type": "source",
+  "step": 2,
+  "title": "HCMC unveils climate change response plan to 2030, vision to 2050",
+  "publisher": "VnEconomy",
+  "year": 2026,
+  "url": "https://en.vneconomy.vn/hcmc-unveils-climate-change-response-plan-to-2030-vision-to-2050.htm",
+  "kind": "News report",
+  "expect": [
+   "heatwave",
+   "2030"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-hcm-rmit",
+  "type": "source",
+  "step": 2,
+  "title": "A new heat map helps Vietnam prepare cities for a warmer future",
+  "publisher": "RMIT University Vietnam",
+  "year": 2026,
+  "url": "https://www.rmit.edu.vn/news/all-news/2026/oct/a-new-heat-map-helps-vietnam-prepare-cities-for-a-warmer-future",
+  "kind": "Report or study",
+  "expect": [
+   "Ho Chi Minh City",
+   "24"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-hcm-workers",
+  "type": "source",
+  "step": 2,
+  "title": "94% of outdoor workers report heat-related health problems: UNDP report",
+  "publisher": "Ministry of Agriculture and Environment, Viet Nam",
+  "year": 2026,
+  "url": "https://en.mae.gov.vn/94-of-outdoor-workers-report-heatrelated-health-problems-undp-report-9432.htm",
+  "kind": "Government page",
+  "expect": [
+   "734",
+   "94"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261115023557/https://en.mae.gov.vn/94-of-outdoor-workers-report-heatrelated-health-problems-undp-report-9432.htm"
+ },
+ {
+  "id": "ch-hcm-tuoitre",
+  "type": "source",
+  "step": 2,
+  "title": "Under scorching heat, Ho Chi Minh City's outdoor workers adapt to survive",
+  "publisher": "Tuoi Tre News",
+  "year": 2026,
+  "url": "https://news.tuoitre.vn/under-scorching-heat-ho-chi-minh-citys-outdoor-workers-adapt-to-survive-103260405154353278.htm",
+  "kind": "News report",
+  "expect": [
+   "outdoor workers",
+   "heat"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260827003804/https://news.tuoitre.vn/under-scorching-heat-ho-chi-minh-citys-outdoor-workers-adapt-to-survive-103260405154353278.htm"
+ },
+ {
+  "id": "ch-hcm-gpsc",
+  "type": "source",
+  "step": 2,
+  "title": "Ho Chi Minh City: urban heat (Global Platform for Sustainable Cities)",
+  "publisher": "Global Platform for Sustainable Cities",
+  "year": 2023,
+  "url": "https://www.thegpsc.org/sites/gpsc/files/1._vietnam.pdf",
+  "kind": "Presentation",
+  "expect": [
+   "heat",
+   "Ho Chi Minh"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-ctg-ds",
+  "type": "source",
+  "step": 2,
+  "title": "Nearly 6 crore Bangladeshis endured risky heat this summer",
+  "publisher": "The Daily Star",
+  "year": 2025,
+  "url": "https://www.thedailystar.net/environment/news/nearly-6-crore-bangladeshis-endured-risky-heat-summer-3988886",
+  "kind": "News report",
+  "expect": [
+   "Chattogram",
+   "59"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260310183044/https://www.thedailystar.net/environment/news/nearly-6-crore-bangladeshis-endured-risky-heat-summer-3988886"
+ },
+ {
+  "id": "ch-ctg-patients",
+  "type": "source",
+  "step": 2,
+  "title": "Patients with heat-related diseases on the rise in Ctg",
+  "publisher": "The Daily Star",
+  "year": 2024,
+  "url": "https://www.thedailystar.net/node/3587946",
+  "kind": "News report",
+  "expect": [
+   "heat",
+   "Chattogram"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-ctg-ccn",
+  "type": "source",
+  "step": 2,
+  "title": "Bangladesh heatwaves hit health hard, making life a costly business",
+  "publisher": "Climate Home News",
+  "year": 2025,
+  "url": "https://www.climatechangenews.com/2025/08/29/bangladesh-heatwaves-hit-health-hard-making-life-a-costly-business/",
+  "kind": "News report",
+  "expect": [
+   "Chattogram",
+   "heat"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20250927061835/https://www.climatechangenews.com/2025/08/29/bangladesh-heatwaves-hit-health-hard-making-life-a-costly-business/"
+ },
+ {
+  "id": "ch-ctg-urbanet",
+  "type": "source",
+  "step": 2,
+  "title": "Facing the heat: how cities in Bangladesh are tackling urban heat risk",
+  "publisher": "Urbanet",
+  "year": 2025,
+  "url": "https://www.urbanet.info/bangladsh-cities-tackle-urban-heat/",
+  "kind": "News report",
+  "expect": [
+   "Narayanganj",
+   "Heat Action Plan"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260617103113/https://www.urbanet.info/bangladsh-cities-tackle-urban-heat/"
+ },
+ {
+  "id": "ch-ctg-rcrc",
+  "type": "source",
+  "step": 2,
+  "title": "Bangladesh Red Crescent heat response in Chattogram",
+  "publisher": "Red Cross Red Crescent Climate Centre",
+  "year": 2024,
+  "url": "https://www.climatecentre.org/?p=13733",
+  "kind": "News report",
+  "expect": [
+   "Chattogram",
+   "heat"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261115111138/https://www.climatecentre.org/13733/red-crescent-activates-early-action-protocol-for-heatwaves-in-dhaka/"
+ },
+ {
+  "id": "ch-sby-ifrc",
+  "type": "source",
+  "step": 2,
+  "title": "Heat perception report: Surabaya, Indonesia",
+  "publisher": "IFRC and Red Cross Red Crescent Climate Centre",
+  "year": 2026,
+  "url": "https://preparecenter.org/wp-content/uploads/2026/04/IFRC-RCCC-Heat-perception-report-Indonesia-Surabaya_V2.pdf",
+  "kind": "Report or study",
+  "expect": [
+   "Surabaya",
+   "93"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260520195125/https://preparecenter.org/wp-content/uploads/2026/04/IFRC-RCCC-Heat-perception-report-Indonesia-Surabaya_V2.pdf"
+ },
+ {
+  "id": "ch-sby-bmkg",
+  "type": "source",
+  "step": 2,
+  "title": "Cuaca di kota semakin panas: BMKG ajak generasi muda mitigasi urban heat island",
+  "publisher": "BMKG",
+  "year": 2025,
+  "url": "https://www.bmkg.go.id/siaran-pers/cuaca-di-kota-semakin-panas-bmkg-ajak-generasi-muda-mitigasi-urban-heat-island",
+  "kind": "Government page",
+  "expect": [
+   "Surabaya",
+   "Heat Island"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261115111208/https://www.bmkg.go.id/siaran-pers/cuaca-di-kota-semakin-panas-bmkg-ajak-generasi-muda-mitigasi-urban-heat-island"
+ },
+ {
+  "id": "ch-sby-kyoto",
+  "type": "source",
+  "step": 2,
+  "title": "Heat mitigation in Surabaya's kampungs (policy report)",
+  "publisher": "Center for Southeast Asian Studies, Kyoto University",
+  "year": 2025,
+  "url": "https://kyoto.cseas.kyoto-u.ac.jp/wp-content/uploads/2025/03/FINAL20250214_G5GR.pdf",
+  "kind": "Report or study",
+  "expect": [
+   "Surabaya",
+   "kampung"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20250713074649/https://kyoto.cseas.kyoto-u.ac.jp/wp-content/uploads/2025/03/FINAL20250214_G5GR.pdf"
+ },
+ {
+  "id": "ch-sby-360",
+  "type": "source",
+  "step": 2,
+  "title": "Surabaya's antidote to the rise of concrete jungles",
+  "publisher": "360info",
+  "year": 2024,
+  "url": "https://360info.org/surabayas-antidote-to-the-rise-of-concrete-jungles/",
+  "kind": "News report",
+  "expect": [
+   "Surabaya",
+   "green"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20250808073012/https://360info.org/surabayas-antidote-to-the-rise-of-concrete-jungles/"
+ },
+ {
+  "id": "ch-qc-cho",
+  "type": "source",
+  "step": 2,
+  "title": "QC beefs up action vs extreme heat, designates chief heat action officers",
+  "publisher": "Quezon City Government",
+  "year": 2026,
+  "url": "https://quezoncity.gov.ph/qc-beefs-up-action-vs-extreme-heat-designates-chief-heat-action-officers/",
+  "kind": "Government page",
+  "expect": [
+   "Heat Action",
+   "Quezon City"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260808103154/https://quezoncity.gov.ph/qc-beefs-up-action-vs-extreme-heat-designates-chief-heat-action-officers/"
+ },
+ {
+  "id": "ch-qc-hat",
+  "type": "source",
+  "step": 2,
+  "title": "QC forms heat action team vs climate threats",
+  "publisher": "Manila Bulletin",
+  "year": 2026,
+  "url": "https://mb.com.ph/2026/06/03/qc-forms-heat-action-team-vs-climate-threats",
+  "kind": "News report",
+  "expect": [
+   "Heat Action Team",
+   "Heat Action Plan"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260713011110/https://mb.com.ph/2026/06/03/qc-forms-heat-action-team-vs-climate-threats"
+ },
+ {
+  "id": "ch-qc-libraries",
+  "type": "source",
+  "step": 2,
+  "title": "QCPL libraries as cooling centers",
+  "publisher": "Quezon City Government",
+  "year": 2025,
+  "url": "https://quezoncity.gov.ph/qcpl-libraries-as-cooling-centers/",
+  "kind": "Government page",
+  "expect": [
+   "cooling center",
+   "librar"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260606021822/https://quezoncity.gov.ph/qcpl-libraries-as-cooling-centers/"
+ },
+ {
+  "id": "ch-qc-summit",
+  "type": "source",
+  "step": 2,
+  "title": "QC leads national push vs extreme heat, convenes first urban heat and drought summit",
+  "publisher": "Quezon City Government",
+  "year": 2026,
+  "url": "https://quezoncity.gov.ph/qc-leads-national-push-vs-extreme-heat-convenes-first-urban-heat-and-drought-summit/",
+  "kind": "Government page",
+  "expect": [
+   "46",
+   "heat index"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260512061748/https://quezoncity.gov.ph/qc-leads-national-push-vs-extreme-heat-convenes-first-urban-heat-and-drought-summit/"
+ },
+ {
+  "id": "ch-qc-hews",
+  "type": "source",
+  "step": 2,
+  "title": "Heat early warning in the Philippines (case study)",
+  "publisher": "IFRC Global Disaster Preparedness Center",
+  "year": 2026,
+  "url": "https://preparecenter.org/wp-content/uploads/2026/08/ZCRA_Philippines-HEWS-case-study.pdf",
+  "kind": "Report or study",
+  "expect": [
+   "Quezon City",
+   "heat"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261115111242/https://preparecenter.org/wp-content/uploads/2026/08/ZCRA_Philippines-HEWS-case-study.pdf"
+ },
+ {
+  "id": "ch-cm-40",
+  "type": "source",
+  "step": 2,
+  "title": "Thailand's Chiangmai set for 40 deg C days",
+  "publisher": "The Star",
+  "year": 2026,
+  "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/05/03/thailands-chiangmai-set-for-40-deg-c-days-while-heavy-rainfall-expected-in-phuket-krabi",
+  "kind": "News report",
+  "expect": [
+   "Chiang",
+   "40"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260503181048/https://www.thestar.com.my/aseanplus/aseanplus-news/2026/05/03/thailands-chiangmai-set-for-40-deg-c-days-while-heavy-rainfall-expected-in-phuket-krabi"
+ },
+ {
+  "id": "ch-cm-haze",
+  "type": "source",
+  "step": 2,
+  "title": "Chiang Mai set for disaster declaration after four days of soaring PM2.5 levels",
+  "publisher": "The Star",
+  "year": 2026,
+  "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/04/01/chiang-mai-set-for-disaster-declaration-after-four-days-of-soaring-pm25-levels",
+  "kind": "News report",
+  "expect": [
+   "PM2.5",
+   "disaster"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260416223737/https://www.thestar.com.my/aseanplus/aseanplus-news/2026/04/01/chiang-mai-set-for-disaster-declaration-after-four-days-of-soaring-pm25-levels"
+ },
+ {
+  "id": "ch-cm-cleanair",
+  "type": "source",
+  "step": 2,
+  "title": "Air quality in Chiang Mai begins to affect public health as PM2.5 levels rise",
+  "publisher": "Chiang Mai CityLife",
+  "year": 2026,
+  "url": "https://www.chiangmaicitylife.com/citynews/general/air-quality-in-chiang-mai-begins-to-affect-public-health-as-pm2-5-levels-rise/",
+  "kind": "News report",
+  "expect": [
+   "PM2.5",
+   "Chiang Mai"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260714220803/https://www.chiangmaicitylife.com/citynews/general/air-quality-in-chiang-mai-begins-to-affect-public-health-as-pm2-5-levels-rise/"
+ },
+ {
+  "id": "ch-cm-heatstroke",
+  "type": "source",
+  "step": 2,
+  "title": "Health office warns of heat stroke",
+  "publisher": "Chiang Mai CityLife",
+  "year": 2025,
+  "url": "https://chiangmaicitylife.com/citynews/health/health-office-warns-of-heat-stroke",
+  "kind": "News report",
+  "expect": [
+   "heat stroke",
+   "Chiang Mai"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260711140831/https://www.chiangmaicitylife.com/citynews/health/health-office-warns-of-heat-stroke/"
+ },
+ {
+  "id": "ch-cm-42",
+  "type": "source",
+  "step": 2,
+  "title": "Northern Thailand temperature expected to exceed 42C",
+  "publisher": "Chiang Rai Times",
+  "year": 2025,
+  "url": "https://www.chiangraitimes.com/weather/northern-thailand-temperature-expected-to-exceed-42c/",
+  "kind": "News report",
+  "expect": [
+   "Chiang Mai",
+   "42"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260915030943/https://www.chiangraitimes.com/weather/northern-thailand-temperature-expected-to-exceed-42c/"
  }
 ]

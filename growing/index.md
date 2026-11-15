@@ -5,7 +5,7 @@ updated: 2026-11-15
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 51 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 52 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-51 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,099 works the commons draws on carry a publication date, and 807 are still being dated.
+52 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,112 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -111,14 +111,14 @@ Why it matters our readingEach city page now shows an estimated heat stress (WBG
 - Heat action plans
 - Heat-safe work
 
-ReviewThe method, its limits and the data sources each opened on GitHub with every term found; on the day of the check the estimate for Singapore read higher than every measured station, as the method's own caveats lead one to expect in cloud. 34 checked · 31 confirmed · 3 not confirmed, each recorded.
+ReviewThe method, its limits and the data sources each opened on GitHub with every term found; on the day of the check the estimate for Singapore read higher than every measured station, as the method's own caveats lead one to expect in cloud. 58 checked · 53 confirmed · 5 not confirmed, each recorded.
 
 What it took to add this
 
 - **The question.** How hot will it feel to work outdoors in this city today and over the next three days, and what is that based on?
-- **The search.** 34 sources were gathered for checking.
+- **The search.** 58 sources were gathered for checking.
 
-- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 31 confirmed, and 3 could not be (1 blocked automated reading, 1 did not respond, 1 did not show the expected text).
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 53 confirmed, and 5 could not be (2 blocked automated reading, 1 did not respond, 2 did not show the expected text).
 - **What we set aside.** 31 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
 
 - **What is still open.** Whether a fuller method that also uses sun and wind can be added without a new service.
@@ -147,15 +147,15 @@ Why it matters our readingKolkata, Chennai, Hyderabad, Bengaluru and Bhubaneswar
 - Workers in heat-exposed jobs
 - Heat action plans
 
-Review27 sources staged and opened on GitHub; 21 passed with every term found and only those are cited; six failed or were blocked and nothing rests on them. 34 checked · 31 confirmed · 3 not confirmed, each recorded.
+Review27 sources staged and opened on GitHub; 21 passed with every term found and only those are cited; six failed or were blocked and nothing rests on them. 58 checked · 53 confirmed · 5 not confirmed, each recorded.
 
 What it took to add this
 
 - **The question.** What is heat doing in India's big cities beyond Delhi, Mumbai and Ahmedabad, and what plans are in place?
-- **The search.** 34 sources were gathered for checking.
+- **The search.** 58 sources were gathered for checking.
 
-- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 31 confirmed, and 3 could not be (1 blocked automated reading, 1 did not respond, 1 did not show the expected text).
-- **What we set aside.** 6 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 53 confirmed, and 5 could not be (2 blocked automated reading, 1 did not respond, 2 did not show the expected text).
+- **What we set aside.** 11 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
 
 - **What is still open.** Whether Kolkata, Chennai and Hyderabad publish city heat action plans of their own.
 
@@ -170,6 +170,42 @@ Each new city's page records where its heat plan stands.
 [Cities](https://beattheheat.asia/cities/)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Five%20more%20Indian%20cities%2C%20Kolkata%20first&ref=g-cities-batch-a#way-share)
+
+Evidence added · Institutions and plans
+
+### Five more cities across Southeast Asia and Bangladesh, Ho Chi Minh City first
+
+Added 15 November 2026 · City pages added 15 November 2026
+
+Why it matters our readingHo Chi Minh City, Chattogram, Surabaya, Quezon City and Chiang Mai now have city pages, each with its heat plan status as a checked document shows it, the vicious cycles the evidence ties to it and today's heat-stress estimate.
+
+- South and Southeast Asia
+- Workers in heat-exposed jobs
+- Heat action plans
+
+Review24 sources staged and opened on GitHub; 18 passed with every term found and only those are cited; six failed or were blocked and nothing rests on them. 58 checked · 53 confirmed · 5 not confirmed, each recorded.
+
+What it took to add this
+
+- **The question.** What is heat doing in big cities beyond the capitals, and what plans are in place?
+- **The search.** 58 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 53 confirmed, and 5 could not be (2 blocked automated reading, 1 did not respond, 2 did not show the expected text).
+- **What we set aside.** 11 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+
+- **What is still open.** Whether Quezon City's heat action team publishes a city heat action plan, and whether Chiang Mai's haze plans come to cover heat.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-city-heat/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/city-heat/batches.json)
+
+How it connects
+
+- [Heat action plans](https://beattheheat.asia/actions/#hap) Action · from the site's records
+Each new city's page records where its heat plan stands.
+
+[Read Ho Chi Minh City](https://beattheheat.asia/cities/hochiminh/)
+[Cities](https://beattheheat.asia/cities/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Five%20more%20cities%20across%20Southeast%20Asia%20and%20Bangladesh%2C%20Ho%20Chi%20Minh%20City%20first&ref=g-cities-batch-b#way-share)
 
 Connection documented · Evidence
 
@@ -1569,51 +1605,51 @@ Common Shade began gathering in October 2026. The work it draws on is much older
 
 - Before 2024
 
-469 works published before 2024 form the roots the commons stands on.
+470 works published before 2024 form the roots the commons stands on.
 
 - Evidence203
-- Experience22
+- Experience23
 - Practical measures99
 - Institutions and plans65
 - Financing80
 
 - 2024
 
-194 works published, 94 of them with a known month; 663 in all by the end of the year. 25 of the verified Indian heat action plans carry this year.
+196 works published, 94 of them with a known month; 666 in all by the end of the year. 25 of the verified Indian heat action plans carry this year.
 
 Steps toward protection this year: [Nepal adopts a national plan of action on heat waves](https://beattheheat.asia/atlas/); [Thane plans ward by ward](https://beattheheat.asia/atlas/); [Tamil Nadu builds a state-wide heat network](https://beattheheat.asia/atlas/).
 
 - Evidence280
-- Experience41
+- Experience44
 - Practical measures134
 - Institutions and plans91
 - Financing117
 
 - 2025
 
-206 works published, 120 of them with a known month; 869 in all by the end of the year. 24 of the verified Indian heat action plans carry this year.
+209 works published, 122 of them with a known month; 875 in all by the end of the year. 24 of the verified Indian heat action plans carry this year.
 
 Steps toward protection this year: [Delhi launches its 2025 Heat Action Plan](https://beattheheat.asia/atlas/).
 
 - Evidence334
-- Experience63
+- Experience69
 - Practical measures181
 - Institutions and plans119
 - Financing172
 
 - 2026 so far
 
-230 works published, 134 of them with a known month; 1,099 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
+237 works published, 137 of them with a known month; 1,112 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
 
 Steps toward protection this year: [Bangkok opens 304 cooling centres](https://beattheheat.asia/atlas/); [The first Global Heat Forum, in Bangkok](https://beattheheat.asia/atlas/); [Bangladesh’s first urban heatwave action plan, for Narayanganj](https://beattheheat.asia/atlas/).
 
 - Evidence404
-- Experience85
+- Experience98
 - Practical measures243
 - Institutions and plans138
 - Financing229
 
-Not yet dated: 807 works whose records carry no date, and 19 known only to have been online by a certain date. 426 links to organisations are counted apart and never dated. History before October 2026 is reconstructed only from these publication dates; Common Shade's own record of changes begins on 23 October 2026.
+Not yet dated: 808 works whose records carry no date, and 19 known only to have been online by a certain date. 426 links to organisations are counted apart and never dated. History before October 2026 is reconstructed only from these publication dates; Common Shade's own record of changes begins on 23 October 2026.
 
 ## What we've revised
 
