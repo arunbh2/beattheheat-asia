@@ -241,7 +241,7 @@ Your city
 ## Pick a city.
 See what heat is doing there.
 
-Twelve cities, one view each: today’s heat and the week ahead, whether the city has a heat plan, the vicious cycles the evidence ties to it, who is hit hardest, and who is already at work. Every claim links to its source.
+One view for each city: today’s heat and the week ahead, whether the city has a heat plan, the vicious cycles the evidence ties to it, who is hit hardest, and who is already at work. Every claim links to its source.
 
 Heatwaves that shaped Asia
 

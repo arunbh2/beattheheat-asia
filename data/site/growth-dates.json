@@ -205,9 +205,9 @@
    "label": "All India Disaster Mitigation Institute, 2026",
    "root": "experience",
    "org": false,
-   "date": "2026",
-   "precision": "year",
-   "how": "label"
+   "date": "2026-02-12",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://aidmi.org/blog/parametric-insurance-and-extreme-heat-sewas-experience/",
@@ -1387,9 +1387,9 @@
    "label": "Citizen Matters, 2025: Bengaluru failed to beat the heat",
    "root": "experience",
    "org": false,
-   "date": "2025",
-   "precision": "year",
-   "how": "label"
+   "date": "2025-05-28",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://citizenmatters.in/city-buzz-five-things-you-must-know-about-the-delhi-heat-action-plan",
@@ -7105,9 +7105,9 @@
    "label": "OdishaTV, 2025: Bhubaneswar Municipal Corporation unveils heat and cooling action plan",
    "root": "experience",
    "org": false,
-   "date": "2025",
-   "precision": "year",
-   "how": "label"
+   "date": "2025-09-03",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://ojk.go.id/en/Publikasi/Roadmap-dan-Pedoman/Perbankan/Pages/The-2026-Banking-Climate-Risk-Management-and-Scenario-Analysis-CRMS-Guideline.aspx",
@@ -8838,7 +8838,10 @@
    "url": "https://telanganatoday.com/telangana-rolls-out-heatwave-action-plan-schools-to-implement-water-bells-cooling-centres-set-up",
    "label": "Telangana Today: Telangana rolls out heatwave action plan",
    "root": "experience",
-   "org": false
+   "org": false,
+   "date": "2026-04-16",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://temasekfoundation.org.sg/news/media-releases/metha8-and-yama-win-s-1m-each-to-scale-methanol-to-power-and-carbon-capture-technologies-at-asia-s-largest-crowdsourcing-platform-for-climate-solutions",
@@ -8944,18 +8947,18 @@
    "label": "The South First, 2026",
    "root": "experience",
    "org": false,
-   "date": "2026",
-   "precision": "year",
-   "how": "label"
+   "date": "2026-05-16",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://thesouthfirst.com/tamilnadu/work-slows-but-survival-cannot-extreme-heat-drives-tamil-nadus-outdoor-labourers-to-brink/",
    "label": "The South First, 2026",
    "root": "experience",
    "org": false,
-   "date": "2026",
-   "precision": "year",
-   "how": "label"
+   "date": "2026-06-03",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://thethaiger.com/news/world/indonesia-adopts-cool-roofs-to-combat-heatwaves-and-reduce-energy-costs",
@@ -11314,9 +11317,9 @@
    "label": "Down To Earth, 2025",
    "root": "experience",
    "org": false,
-   "date": "2025",
-   "precision": "year",
-   "how": "label"
+   "date": "2025-06-05",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.downtoearth.org.in/climate-change/existing-solutions-could-slash-soot-emissions-by-80-by-2030-icimod",
@@ -11356,9 +11359,9 @@
    "label": "Down To Earth, 2026",
    "root": "experience",
    "org": false,
-   "date": "2026",
-   "precision": "year",
-   "how": "label"
+   "date": "2026-05-13",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.downtoearth.org.in/environment/how-to-fight-heat-wave-the-odisha-way-49950",
@@ -11401,9 +11404,9 @@
    "label": "DT Next, 2026: GCC partners with CEEW to boost city's extreme heat resilience",
    "root": "experience",
    "org": false,
-   "date": "2026",
-   "precision": "year",
-   "how": "label"
+   "date": "2026-07-28",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.dtnext.in/news/chennai/after-50-years-siva-vishnu-pond-rejuvenated-for-rs-36-lakh-by-chennai-corporation-796892",
@@ -11419,9 +11422,9 @@
    "label": "DT Next, 2025: Tamil Nadu readies heatwave action plan",
    "root": "experience",
    "org": false,
-   "date": "2025",
-   "precision": "year",
-   "how": "label"
+   "date": "2025-02-16",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.dulux.com.sg/en/about-us",
@@ -16012,9 +16015,9 @@
    "label": "The Hans India, 2025: Telangana rolls out Heatwave Action Plan 2025",
    "root": "experience",
    "org": false,
-   "date": "2025",
-   "precision": "year",
-   "how": "label"
+   "date": "2025-05-02",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://www.thehitavada.com//Encyc/2026/5/11/green-nets-at-city-squares-relief-measure-or-another-half-planned-half-planned-civic-experiment.html",
