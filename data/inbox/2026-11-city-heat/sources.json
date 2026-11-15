@@ -1,0 +1,112 @@
+[
+ {
+  "id": "ch-bom-wbgt",
+  "type": "source",
+  "step": 1,
+  "title": "Thermal comfort observations: about the approximation to the WBGT",
+  "publisher": "Australian Bureau of Meteorology",
+  "year": 2010,
+  "url": "http://www.bom.gov.au/info/thermal_stress/",
+  "kind": "Method",
+  "expect": [
+   "0.567",
+   "0.393",
+   "3.94",
+   "6.105",
+   "17.27",
+   "237.7"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-bom-wbgt-light-wind",
+  "type": "source",
+  "step": 1,
+  "title": "Thermal comfort observations: the approximation's assumptions",
+  "publisher": "Australian Bureau of Meteorology",
+  "year": 2010,
+  "url": "http://www.bom.gov.au/info/thermal_stress/#approximation",
+  "kind": "Method",
+  "expect": [
+   "light wind",
+   "radiation"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-lemke-2012",
+  "type": "source",
+  "step": 1,
+  "title": "Calculating workplace WBGT from meteorological data: a tool for climate change assessment",
+  "publisher": "Industrial Health (Lemke and Kjellstrom)",
+  "year": 2012,
+  "url": "https://www.jstage.jst.go.jp/article/indhealth/50/4/50_MS1352/_pdf",
+  "kind": "Study",
+  "expect": [
+   "Bureau of Meteorology",
+   "WBGT"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-lemke-2012-pubmed",
+  "type": "source",
+  "step": 1,
+  "title": "Calculating workplace WBGT from meteorological data: a tool for climate change assessment (PubMed record)",
+  "publisher": "Industrial Health (Lemke and Kjellstrom)",
+  "year": 2012,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/22673363/",
+  "kind": "Study",
+  "expect": [
+   "WBGT",
+   "meteorological"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-om-docs",
+  "type": "source",
+  "step": 1,
+  "title": "Weather forecast API documentation",
+  "publisher": "Open-Meteo",
+  "year": 2026,
+  "url": "https://open-meteo.com/en/docs",
+  "kind": "Data documentation",
+  "expect": [
+   "relative_humidity_2m",
+   "temperature_2m",
+   "hourly"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-om-sample",
+  "type": "source",
+  "step": 1,
+  "title": "Weather forecast API: hourly temperature and humidity for Singapore and Bangkok",
+  "publisher": "Open-Meteo",
+  "year": 2026,
+  "url": "https://api.open-meteo.com/v1/forecast?latitude=1.35,13.75&longitude=103.82,100.5&current=temperature_2m,relative_humidity_2m&hourly=temperature_2m,relative_humidity_2m&timezone=auto&forecast_days=4",
+  "kind": "Data sample",
+  "expect": [
+   "relative_humidity_2m",
+   "utc_offset_seconds"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ },
+ {
+  "id": "ch-sg-wbgt-sample",
+  "type": "source",
+  "step": 1,
+  "title": "Real-time wet-bulb globe temperature, Singapore",
+  "publisher": "National Environment Agency via data.gov.sg",
+  "year": 2026,
+  "url": "https://api-open.data.gov.sg/v2/real-time/api/weather?api=wbgt",
+  "kind": "Data sample",
+  "expect": [
+   "wbgt",
+   "heatStress"
+  ],
+  "note": "Staged for the city heat briefing to check the page opens and holds these terms before the site uses it. Not published from the inbox."
+ }
+]
