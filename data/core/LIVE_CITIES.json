@@ -134,5 +134,65 @@
       "label": "Ministry of Water Resources and Meteorology",
       "url": "https://www.mowram.gov.kh/"
     }
+  },
+  {
+    "id": "kolkata",
+    "name": "Kolkata",
+    "country": "India",
+    "state": "West Bengal",
+    "lat": 22.57,
+    "lon": 88.36,
+    "warn": {
+      "label": "India Meteorological Department",
+      "url": "https://mausam.imd.gov.in/"
+    }
+  },
+  {
+    "id": "chennai",
+    "name": "Chennai",
+    "country": "India",
+    "state": "Tamil Nadu",
+    "lat": 13.08,
+    "lon": 80.27,
+    "warn": {
+      "label": "India Meteorological Department",
+      "url": "https://mausam.imd.gov.in/"
+    }
+  },
+  {
+    "id": "hyderabad",
+    "name": "Hyderabad",
+    "country": "India",
+    "state": "Telangana",
+    "lat": 17.39,
+    "lon": 78.49,
+    "warn": {
+      "label": "India Meteorological Department",
+      "url": "https://mausam.imd.gov.in/"
+    }
+  },
+  {
+    "id": "bengaluru",
+    "name": "Bengaluru",
+    "country": "India",
+    "state": "Karnataka",
+    "lat": 12.97,
+    "lon": 77.59,
+    "warn": {
+      "label": "India Meteorological Department",
+      "url": "https://mausam.imd.gov.in/"
+    }
+  },
+  {
+    "id": "bhubaneswar",
+    "name": "Bhubaneswar",
+    "country": "India",
+    "state": "Odisha",
+    "lat": 20.3,
+    "lon": 85.82,
+    "warn": {
+      "label": "India Meteorological Department",
+      "url": "https://mausam.imd.gov.in/"
+    }
   }
 ]

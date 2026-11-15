@@ -550,5 +550,209 @@
     "orgs": ["escap","adb","worldbank"],
     "examples": [],
     "risk": ["workers","settlements"]
+  },
+  {
+    "id": "kolkata",
+    "tagline": "A humid delta megacity where the heat index runs far above the thermometer.",
+    "heat": "Mostly humid heat.",
+    "hap": {
+      "status": "building",
+      "text": "West Bengal’s heat wave action plan gives municipal corporations and local bodies the task of preparing and carrying out heat wave action plans. The Kolkata Climate Action Plan, released by the Kolkata Municipal Corporation for consultation in June 2025, lists a city-wide heat action plan among its priority actions. No standalone city heat action plan found.",
+      "sources": [
+        {
+          "label": "Department of Disaster Management and Civil Defence, West Bengal: Action plan on heat wave",
+          "url": "https://heathealth.info/wp-content/uploads/Action-plan-heat-Wave-West-Bengal-.pdf"
+        },
+        {
+          "label": "Climate Action Network South Asia, 2025: Kolkata Climate Action Plan released for stakeholder consultation",
+          "url": "https://cansouthasia.net/kolkata-climate-action-plan-kcap-released-for-stakeholder-consultation/"
+        }
+      ]
+    },
+    "loops": [
+      {
+        "id": "invisible",
+        "why": "Kolkata’s daily average heat index usually runs 6 to 12 °C above the air temperature, but India’s heatwave criteria leave out humidity, so the danger of humid heat goes unreported.",
+        "src": {
+          "label": "Centre for Science and Environment, 2022",
+          "url": "https://www.cseindia.org/urban-heat-stress-Kolkata.pdf"
+        }
+      },
+      {
+        "id": "poverty",
+        "why": "Street vendors and other informal workers are caught between health risks and lost income as the city’s heat islands intensify.",
+        "src": {
+          "label": "All India Disaster Mitigation Institute, 2026",
+          "url": "https://aidmi.org/?p=5718"
+        }
+      }
+    ],
+    "orgs": ["forskningsradet","nsf"],
+    "examples": [],
+    "risk": ["workers","settlements"]
+  },
+  {
+    "id": "chennai",
+    "tagline": "One of India’s hottest and most humid big cities, where homes stay hot long after sunset.",
+    "heat": "Mostly humid coastal heat.",
+    "hap": {
+      "status": "building",
+      "text": "In 2025 Tamil Nadu began preparing heatwave action plans for its major cities, including Chennai. In July 2026 the Greater Chennai Corporation and the Council on Energy, Environment and Water agreed to set up a unit to identify and prioritise heat measures across heat-vulnerable wards and zones. No published city heat action plan found.",
+      "sources": [
+        {
+          "label": "DT Next, 2025: Tamil Nadu readies heatwave action plan",
+          "url": "https://www.dtnext.in/news/tamilnadu/as-summer-approaches-tamil-nadu-readies-heatwave-action-plan-to-prevent-deaths-823240"
+        },
+        {
+          "label": "DT Next, 2026: GCC partners with CEEW to boost city's extreme heat resilience",
+          "url": "https://www.dtnext.in/amp/story/news/chennai/gcc-partners-with-ceew-to-boost-citys-extreme-heat-resilience"
+        }
+      ]
+    },
+    "loops": [
+      {
+        "id": "sleep",
+        "why": "In 50 low- and middle-income homes tracked from October 2025 to April 2026, indoor temperatures rarely fell below 31 °C and often stayed above 34 °C for hours after sunset.",
+        "src": {
+          "label": "Down To Earth, 2026",
+          "url": "https://www.downtoearth.org.in/climate-change/new-study-sheds-light-on-indoor-nighttime-heat-retention-in-indian-homes"
+        }
+      },
+      {
+        "id": "clinic",
+        "why": "For the 2026 hot season, government hospitals set up dedicated heatstroke wards with ICU beds, hydration counters and rapid cooling.",
+        "src": {
+          "label": "The South First, 2026",
+          "url": "https://thesouthfirst.com/health/how-chennai-is-racing-to-build-heatstroke-wards-as-temperature-soars/"
+        }
+      },
+      {
+        "id": "poverty",
+        "why": "Across 11 districts of Tamil Nadu, 90.3% of the outdoor workers in a large study reported at least one symptom of heat illness.",
+        "src": {
+          "label": "The South First, 2026",
+          "url": "https://thesouthfirst.com/tamilnadu/work-slows-but-survival-cannot-extreme-heat-drives-tamil-nadus-outdoor-labourers-to-brink/"
+        }
+      }
+    ],
+    "orgs": [],
+    "examples": ["tamilnadu"],
+    "risk": ["workers","settlements"]
+  },
+  {
+    "id": "hyderabad",
+    "tagline": "A fast-growing Deccan city in a state that classes heatwaves as a disaster.",
+    "heat": "Mostly dry heat.",
+    "hap": {
+      "status": "building",
+      "text": "Telangana classes heatwaves as a state-specific disaster. Its Heatwave Action Plan 2025 includes strategies for Hyderabad and a heat stress and vulnerability assessment for all 33 districts, and the state’s heatwave plan opens malls, public buildings and religious places as water points and cooling centres. No standalone city heat action plan found.",
+      "sources": [
+        {
+          "label": "The Hans India, 2025: Telangana rolls out Heatwave Action Plan 2025",
+          "url": "https://www.thehansindia.com/telangana/telangana-rolls-out-heatwave-action-plan-2025-967782"
+        },
+        {
+          "label": "Telangana Today: Telangana rolls out heatwave action plan",
+          "url": "https://telanganatoday.com/telangana-rolls-out-heatwave-action-plan-schools-to-implement-water-bells-cooling-centres-set-up"
+        }
+      ]
+    },
+    "loops": [
+      {
+        "id": "poverty",
+        "why": "During heat alerts, Telangana’s plan moves outdoor work out of the hours from 12 noon to 3 pm.",
+        "src": {
+          "label": "Telangana Today: Telangana rolls out heatwave action plan",
+          "url": "https://telanganatoday.com/telangana-rolls-out-heatwave-action-plan-schools-to-implement-water-bells-cooling-centres-set-up"
+        }
+      },
+      {
+        "id": "school",
+        "why": "Telangana’s plan sets water bells in schools, avoids open-air classes and closes anganwadi centres by 11 am.",
+        "src": {
+          "label": "Telangana Today: Telangana rolls out heatwave action plan",
+          "url": "https://telanganatoday.com/telangana-rolls-out-heatwave-action-plan-schools-to-implement-water-bells-cooling-centres-set-up"
+        }
+      }
+    ],
+    "orgs": [],
+    "examples": [],
+    "risk": ["workers","excluded"]
+  },
+  {
+    "id": "bengaluru",
+    "tagline": "A plateau city that has lost most of its tree cover and lakes as it has grown and warmed.",
+    "heat": "Mostly dry heat.",
+    "hap": {
+      "status": "none",
+      "text": "No published city heat action plan found. Researchers have called for ward-level heat action plans; the state plans for Karnataka cover the city.",
+      "sources": [
+        {
+          "label": "Citizen Matters, 2025: Bengaluru failed to beat the heat",
+          "url": "https://citizenmatters.in/bengaluru-failed-to-beat-the-heat-how-localised-approach-could-help-in-the-future/"
+        }
+      ]
+    },
+    "loops": [
+      {
+        "id": "deadgreen",
+        "why": "Bengaluru’s green cover fell from 68% in 1973 to about 6%, and more than 79% of its waterbodies have vanished or been encroached upon.",
+        "src": {
+          "label": "Down To Earth, 2025",
+          "url": "https://www.downtoearth.org.in/climate-change/beyond-the-thermometer-bengalurus-race-to-modernise-ignored-climate-now-its-residents-are-paying-the-price"
+        }
+      },
+      {
+        "id": "clinic",
+        "why": "160 urban primary health centres serve 198 municipal wards: fewer than one per ward.",
+        "src": {
+          "label": "Citizen Matters, 2025: Bengaluru failed to beat the heat",
+          "url": "https://citizenmatters.in/bengaluru-failed-to-beat-the-heat-how-localised-approach-could-help-in-the-future/"
+        }
+      }
+    ],
+    "orgs": ["hasirudala","bengalurusustainabilityf","bruhatbengalurumahanagar","c40","wriindia"],
+    "examples": [],
+    "risk": ["workers","settlements"]
+  },
+  {
+    "id": "bhubaneswar",
+    "tagline": "An eastern state capital that has paired its heat plan with a plan for cooling demand.",
+    "heat": "Mostly humid heat.",
+    "hap": {
+      "status": "plan",
+      "text": "In September 2025 the Bhubaneswar Municipal Corporation and the think tank iFOREST launched the city’s first Integrated Heat and Cooling Action Plan, which addresses heat stress and cooling demand together. An earlier climate-adaptive heat action plan, prepared with IRADe, the Indian Institute of Public Health and the Odisha State Disaster Management Authority, mapped heat hotspots ward by ward.",
+      "sources": [
+        {
+          "label": "OdishaTV, 2025: Bhubaneswar Municipal Corporation unveils heat and cooling action plan",
+          "url": "https://odishatv.in/news/odisha/bhubaneswar-to-face-extreme-heat-sevenfold-rise-in-ac-demand-by-2050-bmc-unveils-action-plan-271303"
+        },
+        {
+          "label": "Bhubaneswar Municipal Corporation and IRADe: Heat wave action plan, Bhubaneswar city",
+          "url": "https://heathealth.info/wp-content/uploads/Bhubaneswar-Heat-Action-Plan.pdf"
+        }
+      ]
+    },
+    "loops": [
+      {
+        "id": "cooling",
+        "why": "The city’s heat and cooling plan expects demand for air conditioning to rise sevenfold by 2050.",
+        "src": {
+          "label": "OdishaTV, 2025: Bhubaneswar Municipal Corporation unveils heat and cooling action plan",
+          "url": "https://odishatv.in/news/odisha/bhubaneswar-to-face-extreme-heat-sevenfold-rise-in-ac-demand-by-2050-bmc-unveils-action-plan-271303"
+        }
+      },
+      {
+        "id": "poverty",
+        "why": "The city’s heat plan found poor working women more vulnerable to heat stress, with dehydration among women who lack drinking water at work.",
+        "src": {
+          "label": "Bhubaneswar Municipal Corporation and IRADe: Heat wave action plan, Bhubaneswar city",
+          "url": "https://heathealth.info/wp-content/uploads/Bhubaneswar-Heat-Action-Plan.pdf"
+        }
+      }
+    ],
+    "orgs": [],
+    "examples": [],
+    "risk": ["women","workers"]
   }
 ]

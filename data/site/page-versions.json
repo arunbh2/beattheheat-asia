@@ -52,7 +52,7 @@
   "changed": "2026-11-01"
  },
  "/cities/": {
-  "hash": "bc99dc0804ec8df2",
+  "hash": "cd9c8c63900cd68c",
   "changed": "2026-11-15"
  },
  "/cities/ahmedabad/": {
@@ -62,6 +62,18 @@
  "/cities/bangkok/": {
   "hash": "7bf32b7c1c39c49c",
   "changed": "2026-11-15"
+ },
+ "/cities/bengaluru/": {
+  "hash": "2853556fb69958cd",
+  "changed": "2026-10-01"
+ },
+ "/cities/bhubaneswar/": {
+  "hash": "c6da6d22ed98bf00",
+  "changed": "2026-10-01"
+ },
+ "/cities/chennai/": {
+  "hash": "6b0039b2bf4959ff",
+  "changed": "2026-10-01"
  },
  "/cities/colombo/": {
   "hash": "6ca3506ca65c3114",
@@ -79,6 +91,10 @@
   "hash": "3fc0837b3b8e69d8",
   "changed": "2026-11-15"
  },
+ "/cities/hyderabad/": {
+  "hash": "7eb008d733c4ec40",
+  "changed": "2026-10-01"
+ },
  "/cities/jakarta/": {
   "hash": "ba2d403718e30029",
   "changed": "2026-11-15"
@@ -86,6 +102,10 @@
  "/cities/kathmandu/": {
   "hash": "bb121fea87192099",
   "changed": "2026-11-15"
+ },
+ "/cities/kolkata/": {
+  "hash": "7248f00126ff8df3",
+  "changed": "2026-10-01"
  },
  "/cities/manila/": {
   "hash": "b9d83b9b64cd6b22",
@@ -156,7 +176,7 @@
   "changed": "2026-11-13"
  },
  "/for-ai/": {
-  "hash": "635916e7f82a4779",
+  "hash": "aebe653520c5c057",
   "changed": "2026-11-15"
  },
  "/fund/": {
@@ -168,7 +188,7 @@
   "changed": "2026-11-07"
  },
  "/growing/": {
-  "hash": "c5edf3800b292148",
+  "hash": "93b90a3cd0e35d3d",
   "changed": "2026-11-15"
  },
  "/guide/": {
@@ -200,7 +220,7 @@
   "changed": "2026-11-06"
  },
  "/heat-network/": {
-  "hash": "eab87f6ba854f448",
+  "hash": "541abca5ad27e813",
   "changed": "2026-11-15"
  },
  "/heat-tools/": {
@@ -328,7 +348,7 @@
   "changed": "2026-10-31"
  },
  "/paths/city/": {
-  "hash": "b36e4cfc5b046a5b",
+  "hash": "fa8a971f384a7425",
   "changed": "2026-11-15"
  },
  "/paths/community/": {
@@ -340,7 +360,7 @@
   "changed": "2026-10-01"
  },
  "/paths/funder/": {
-  "hash": "5c8baede2a1a2f78",
+  "hash": "26dbfbaaeb12a837",
   "changed": "2026-11-15"
  },
  "/paths/health/": {
@@ -372,7 +392,7 @@
   "changed": "2026-11-14"
  },
  "/print/": {
-  "hash": "9b0fcc38acb3f913",
+  "hash": "b3577f14e56b5212",
   "changed": "2026-11-15"
  },
  "/print/actions-clinics/": {
@@ -411,6 +431,18 @@
   "hash": "59dfc55cb48aa468",
   "changed": "2026-11-15"
  },
+ "/print/city-bengaluru/": {
+  "hash": "9f6daa74641cefc6",
+  "changed": "2026-10-01"
+ },
+ "/print/city-bhubaneswar/": {
+  "hash": "f96380bfdc6a4b1d",
+  "changed": "2026-10-01"
+ },
+ "/print/city-chennai/": {
+  "hash": "ac1a76527d9f7a33",
+  "changed": "2026-10-01"
+ },
  "/print/city-colombo/": {
   "hash": "2db3fc73c107574b",
   "changed": "2026-11-15"
@@ -427,6 +459,10 @@
   "hash": "f221220a60c3cc04",
   "changed": "2026-11-15"
  },
+ "/print/city-hyderabad/": {
+  "hash": "1db795fcf3e66a19",
+  "changed": "2026-10-01"
+ },
  "/print/city-jakarta/": {
   "hash": "c853c3b2c2bcb4cd",
   "changed": "2026-11-15"
@@ -434,6 +470,10 @@
  "/print/city-kathmandu/": {
   "hash": "81a56c40dfe1703a",
   "changed": "2026-11-15"
+ },
+ "/print/city-kolkata/": {
+  "hash": "a7f30c8b5759358e",
+  "changed": "2026-10-01"
  },
  "/print/city-manila/": {
   "hash": "587473b00d7a916b",
@@ -540,7 +580,7 @@
   "changed": "2026-11-06"
  },
  "/sources/": {
-  "hash": "1a407600d89f0e26",
+  "hash": "4375eecdfcde809c",
   "changed": "2026-11-15"
  },
  "/the-web/": {
@@ -552,7 +592,7 @@
   "changed": "2026-11-14"
  },
  "/understand/": {
-  "hash": "06b66c188c2b6113",
+  "hash": "f69b84ad4cb485e8",
   "changed": "2026-11-15"
  },
  "/use-with-ai/": {

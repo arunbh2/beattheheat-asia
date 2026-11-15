@@ -690,6 +690,18 @@
       "links": [{ "to": "lever:heatrules", "why": "Rules for heat at work are usually set in WBGT, the measure the estimate approximates.", "basis": "editorial" }]
     },
     {
+      "id": "g-cities-batch-a", "kind": "evidence", "root": "institutions", "added": "2026-11-15", "pr": null,
+      "title": "Five more Indian cities, Kolkata first",
+      "why": "Kolkata, Chennai, Hyderabad, Bengaluru and Bhubaneswar now have city pages: each with its heat plan status as a checked document shows it, the vicious cycles the evidence ties to it, today's heat-stress estimate and, where the city has no plan of its own, a link to its state's plans.",
+      "places": ["india"], "people": ["workers"], "topics": ["hap"],
+      "event": { "what": "City pages added", "date": "2026-11-15" },
+      "review": "27 sources staged and opened on GitHub; 21 passed with every term found and only those are cited; six failed or were blocked and nothing rests on them",
+      "effort": { "asked": "What is heat doing in India's big cities beyond Delhi, Mumbai and Ahmedabad, and what plans are in place?", "inbox": "data/inbox/2026-11-city-heat", "dropped": "research/2026-11/city-heat/batches.json",
+                  "open": "Whether Kolkata, Chennai and Hyderabad publish city heat action plans of their own." },
+      "pages": [["/cities/", "Cities"]], "action": ["Read Kolkata", "/cities/kolkata/"],
+      "links": [{ "to": "lever:hap", "why": "Each new city's page records where its heat plan stands.", "basis": "record" }]
+    },
+    {
       "id": "g-heat-signals-asia-2026", "kind": "connection", "root": "evidence", "added": "2026-11-15", "pr": null,
       "title": "New signals from Asia on heat at work, and lessons on heat insurance on the map",
       "why": "Signals now follow Singapore's mandatory heat measures, the Philippines' new heat stress and compensation guidelines, South Korea's first emergency heatwave warning, a survey of outdoor workers in Viet Nam and the World Bank's report on heat in South Asia's cities. Income protection on the map now notes two lessons from India's first heat insurance for informal women workers.",

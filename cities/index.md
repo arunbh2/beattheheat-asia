@@ -1,15 +1,15 @@
 ---
-title: "Extreme heat in 12 Asian cities | Common Shade"
+title: "Extreme heat in 17 Asian cities | Common Shade"
 url: https://beattheheat.asia/cities/
 updated: 2026-11-15
 licence: CC BY 4.0
 ---
 
-> What extreme heat is doing in 12 Asian cities: whether each has a heat plan, the vicious cycles the evidence ties to it, who is hit hardest and who is already at work.
+> What extreme heat is doing in 17 Asian cities: whether each has a heat plan, the vicious cycles the evidence ties to it, who is hit hardest and who is already at work.
 
 Where is the need?
 
-12 cities and what heat is doing in each, with the plans already in place.
+17 cities and what heat is doing in each, with the plans already in place.
 
 **Read first:** [Dhaka](#dhaka) · [Delhi](#delhi)
 
@@ -19,15 +19,15 @@ Where is the need?
 
 What is heat doing in our city?
 
-12 city profiles: the kind of heat, the plan in place and the cycles at work.
+17 city profiles: the kind of heat, the plan in place and the cycles at work.
 
 **Then:** [See your country’s snapshot](https://beattheheat.asia/countries/)
 
 [Next stop: What happens to our power, water and clinics?](https://beattheheat.asia/a-city-under-strain/)
 
-# Extreme heat in 12 Asian cities
+# Extreme heat in 17 Asian cities
 
-What extreme heat is doing in 12 Asian cities: whether each has a heat plan, the vicious cycles the evidence ties to it, who is hit hardest and who is already at work.
+What extreme heat is doing in 17 Asian cities: whether each has a heat plan, the vicious cycles the evidence ties to it, who is hit hardest and who is already at work.
 
 **Watch: Twelve cities** · 0:33 · narrated, captions in the picture
 
@@ -104,6 +104,36 @@ Heat plan: Parts in place, no full plan found. Cycles tied to it: The cooling tr
 A fast-growing capital of garment factories and metal roofs, where the hot season peaks before the rains.
 
 Heat plan: No published city heat plan found. Cycles tied to it: The cooling trap, The poverty–heat trap, The lost-schooling loop.
+
+## [Kolkata, India](https://beattheheat.asia/cities/kolkata/)
+
+A humid delta megacity where the heat index runs far above the thermometer.
+
+Heat plan: Parts in place, no full plan found. Cycles tied to it: The invisible-deaths loop, The poverty–heat trap.
+
+## [Chennai, India](https://beattheheat.asia/cities/chennai/)
+
+One of India’s hottest and most humid big cities, where homes stay hot long after sunset.
+
+Heat plan: Parts in place, no full plan found. Cycles tied to it: The sleepless-nights loop, The overwhelmed-clinic loop, The poverty–heat trap.
+
+## [Hyderabad, India](https://beattheheat.asia/cities/hyderabad/)
+
+A fast-growing Deccan city in a state that classes heatwaves as a disaster.
+
+Heat plan: Parts in place, no full plan found. Cycles tied to it: The poverty–heat trap, The lost-schooling loop.
+
+## [Bengaluru, India](https://beattheheat.asia/cities/bengaluru/)
+
+A plateau city that has lost most of its tree cover and lakes as it has grown and warmed.
+
+Heat plan: No published city heat plan found. Cycles tied to it: The dying-green loop, The overwhelmed-clinic loop.
+
+## [Bhubaneswar, India](https://beattheheat.asia/cities/bhubaneswar/)
+
+An eastern state capital that has paired its heat plan with a plan for cooling demand.
+
+Heat plan: Heat plan in force. Cycles tied to it: The cooling trap, The poverty–heat trap.
 
 ---
 Human edition: https://beattheheat.asia/cities/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

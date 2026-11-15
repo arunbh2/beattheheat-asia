@@ -68,6 +68,18 @@ for (const u of [D.LIVE_WBGT.method.url, D.LIVE_WBGT.review.url]) {
   else if (!/^(OK|REDIRECT)$/.test(st) || r.expect.some(t => !terms[t])) fail(`LIVE_WBGT cites ${u}, which did not pass the source check (${st})`);
 }
 
+// 7. cities added in step 2 cite only sources that passed the check
+const PROFILES = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "core", "CITY_PROFILES.json"), "utf8"));
+const BATCH = JSON.parse(fs.readFileSync(path.join(ROOT, "research", "2026-11", "city-heat", "batches.json"), "utf8"));
+const passed = u => { const r = src.find(x => x.url === u), t = (links._terms || {})[u] || {}; return r && /^(OK|REDIRECT)$/.test(links[u]) && r.expect.every(x => t[x]); };
+for (const id of [...BATCH.A, ...BATCH.B]) {
+  const p = PROFILES.find(x => x.id === id), c = D.LIVE_CITIES.find(x => x.id === id);
+  if (!p || !c) { fail(`${id}: listed in research/2026-11/city-heat/batches.json but missing from CITY_PROFILES or LIVE_CITIES`); continue; }
+  for (const s of [...p.hap.sources, ...p.loops.map(l => l.src).filter(Boolean)]) if (!passed(s.url)) fail(`${id}: cites ${s.url}, which has not passed the source check in data/inbox/2026-11-city-heat/`);
+  if (c.lat < -12 || c.lat > 34 || c.lon < 64 || c.lon > 129) fail(`${id}: ${c.lat}, ${c.lon} is outside the drawn map (latitude -12 to 34, longitude 64 to 129)`);
+  if (c.country === "India" && !c.state) fail(`${id}: an Indian city needs a state (the archive's state name) so its page can point to the state's plans`);
+}
+
 (async () => {
   if (process.argv.includes("--live") || process.env.GITHUB_ACTIONS) {
     try {
@@ -81,5 +93,5 @@ for (const u of [D.LIVE_WBGT.method.url, D.LIVE_WBGT.review.url]) {
     } catch (err) { console.log("  information: live comparison skipped (" + err.message + ")"); }
   }
   if (fails.length) { console.log(fails.map(x => "  FAIL " + x).join("\n")); console.log(`city heat check: ${fails.length} problem(s)`); process.exit(1); }
-  console.log(`city heat check passed: formula matches its checked source, worked values, script.js copies agree, ${D.LIVE_CITIES.length} city pages carry the block`);
+  console.log(`city heat check passed: formula matches its checked source, worked values, script.js copies agree, ${D.LIVE_CITIES.length} city pages carry the block, new cities cite only checked sources`);
 })();

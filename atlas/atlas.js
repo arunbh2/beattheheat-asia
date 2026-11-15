@@ -35,11 +35,12 @@
     });
     if (layer.city || layer.live) A.cities.forEach(function (c) {
       var t = S.live && S.live[c.id];
-      html += '<button type="button" class="atl-city atl-city--' + esc(layer.city ? c.st : "live") + (S.sel === c.id ? " is-sel" : "") + '" style="left:' + X(c.lon) + "%;top:" + Y(c.lat) + '%" data-id="' + c.id + '" aria-label="' + esc(c.n) + '"><span>' + esc(c.n) + (layer.live && t ? " · " + Math.round(t.t) + "°" : "") + "</span></button>";
+      html += '<button type="button" class="atl-city atl-city--' + esc(layer.city ? c.st : "live") + (c.lb ? " atl-city--left" : "") + (S.sel === c.id ? " is-sel" : "") + '" style="left:' + X(c.lon) + "%;top:" + Y(c.lat) + '%" data-id="' + c.id + '" aria-label="' + esc(c.n) + '"><span>' + esc(c.n) + (layer.live && t ? " · " + Math.round(t.t) + "°" : "") + "</span></button>";
     });
     map.querySelectorAll(".atl-hw,.atl-ms,.atl-city").forEach(function (n) { n.remove(); });
     map.insertAdjacentHTML("beforeend", html);
     map.querySelectorAll("[data-id]").forEach(function (b) { b.addEventListener("click", function () { S.sel = b.dataset.id; draw(); panel(); }); });
+    labels();
     var ev = events(y);
     yearEl.textContent = y;
     lineEl.textContent = ev.length ? ev.map(function (x) { return x.t; }).join(" · ") : "No heatwave or milestone in our research for this year.";
@@ -78,6 +79,15 @@
     side.querySelectorAll("[data-open]").forEach(function (b) { b.addEventListener("click", function () { S.sel = b.dataset.open; draw(); panel(); }); });
     var bk = side.querySelector("[data-back]"); if (bk) bk.addEventListener("click", function () { S.sel = null; draw(); panel(); });
   }
+  // a city label that would overlap one already shown is hidden (the selected city goes first); its point stays
+  function labels() {
+    var shown = [], hit = function (a, q) { return a.left < q.right && q.left < a.right && a.top < q.bottom && q.top < a.bottom; };
+    [].slice.call(map.querySelectorAll(".atl-city")).sort(function (a, b) { return b.classList.contains("is-sel") - a.classList.contains("is-sel"); }).forEach(function (n) {
+      n.classList.remove("atl-city--nolab"); var s = n.querySelector("span"); if (!s || !s.offsetParent) return;
+      var r = s.getBoundingClientRect(); if (shown.some(function (q) { return hit(q, r); })) n.classList.add("atl-city--nolab"); else shown.push(r);
+    });
+  }
+  var rz = 0; window.addEventListener("resize", function () { clearTimeout(rz); rz = setTimeout(labels, 150); });
   function setYear(y) { S.y = Math.max(A.y0, Math.min(A.y1, y)); S.sel = null; draw(); panel(); }
   range.addEventListener("input", function () { stop(); setYear(+range.value); });
   ticks.addEventListener("click", function (ev) { var r = ticks.getBoundingClientRect(); stop(); setYear(Math.round(A.y0 + (ev.clientX - r.left) / r.width * (A.y1 - A.y0))); });

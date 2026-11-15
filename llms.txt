@@ -20,7 +20,7 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The pa
 - [Worked plans](https://beattheheat.asia/worked-plans/): Worked heat action plans from Asia
 - [Glossary](https://beattheheat.asia/glossary/): Plain-language glossary of extreme heat
 - [Heat network](https://beattheheat.asia/heat-network/): Organisations working on extreme heat
-- [Cities](https://beattheheat.asia/cities/): Extreme heat in 12 Asian cities
+- [Cities](https://beattheheat.asia/cities/): Extreme heat in 17 Asian cities
 - [Heatwaves](https://beattheheat.asia/heatwaves/): Heatwaves that shaped South and Southeast Asia, 1998 to 2026
 - [Practical actions](https://beattheheat.asia/practical-actions/): Practical actions against extreme heat, by setting
 - [Paying for protection](https://beattheheat.asia/paying-for-protection/): Paying for heat protection: who pays, how money arrives, and whether it lasts
@@ -39,6 +39,11 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The pa
 - [Ahmedabad](https://beattheheat.asia/cities/ahmedabad/): Extreme heat in Ahmedabad: plans, cycles and who is at work
 - [Colombo](https://beattheheat.asia/cities/colombo/): Extreme heat in Colombo: plans, cycles and who is at work
 - [Phnom Penh](https://beattheheat.asia/cities/phnompenh/): Extreme heat in Phnom Penh: plans, cycles and who is at work
+- [Kolkata](https://beattheheat.asia/cities/kolkata/): Extreme heat in Kolkata: plans, cycles and who is at work
+- [Chennai](https://beattheheat.asia/cities/chennai/): Extreme heat in Chennai: plans, cycles and who is at work
+- [Hyderabad](https://beattheheat.asia/cities/hyderabad/): Extreme heat in Hyderabad: plans, cycles and who is at work
+- [Bengaluru](https://beattheheat.asia/cities/bengaluru/): Extreme heat in Bengaluru: plans, cycles and who is at work
+- [Bhubaneswar](https://beattheheat.asia/cities/bhubaneswar/): Extreme heat in Bhubaneswar: plans, cycles and who is at work
 
 ## How heat became visible
 
@@ -83,6 +88,11 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The pa
 - [Extreme heat in Ahmedabad](https://beattheheat.asia/print/city-ahmedabad/)
 - [Extreme heat in Colombo](https://beattheheat.asia/print/city-colombo/)
 - [Extreme heat in Phnom Penh](https://beattheheat.asia/print/city-phnompenh/)
+- [Extreme heat in Kolkata](https://beattheheat.asia/print/city-kolkata/)
+- [Extreme heat in Chennai](https://beattheheat.asia/print/city-chennai/)
+- [Extreme heat in Hyderabad](https://beattheheat.asia/print/city-hyderabad/)
+- [Extreme heat in Bengaluru](https://beattheheat.asia/print/city-bengaluru/)
+- [Extreme heat in Bhubaneswar](https://beattheheat.asia/print/city-bhubaneswar/)
 - [Lessons from Asia’s heatwaves, 1998–2026](https://beattheheat.asia/print/heatwaves/)
 - [Paying for heat protection](https://beattheheat.asia/print/paying-for-protection/)
 - [Practical actions: Outdoor and hot workplaces (1 of 2)](https://beattheheat.asia/print/actions-work/)
@@ -114,12 +124,12 @@ The interactive map is at https://beattheheat.asia/ and needs JavaScript. The pa
 ### Understand heat
 
 - [90 consequences mapped](https://beattheheat.asia/) with 21 vicious cycles and 33 ways to break them
-- [12 city profiles](https://beattheheat.asia/cities/) and 7 country snapshots
+- [17 city profiles](https://beattheheat.asia/cities/) and 7 country snapshots
 - [10 heatwaves](https://beattheheat.asia/heatwaves/) that shaped South and Southeast Asia
 
 ### The evidence
 
-- [2,292 sources](https://beattheheat.asia/sources/) cited, every one listed
+- [2,307 sources](https://beattheheat.asia/sources/) cited, every one listed
 - [71 studies graded](https://beattheheat.asia/evidence-map/) cycle by cycle, on the evidence map
 - [43 learning questions](https://beattheheat.asia/evidence-map/#questions) nobody has answered yet
 - [397 report references](https://beattheheat.asia/lancet-countdown-2026/) the Lancet Countdown 2026, in plain language

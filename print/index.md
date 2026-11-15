@@ -47,6 +47,11 @@ Single A4 pages from the map, for meetings, briefings and noticeboards. Each one
 - [Extreme heat in Ahmedabad](https://beattheheat.asia/print/city-ahmedabad/)City officials, partners and funders
 - [Extreme heat in Colombo](https://beattheheat.asia/print/city-colombo/)City officials, partners and funders
 - [Extreme heat in Phnom Penh](https://beattheheat.asia/print/city-phnompenh/)City officials, partners and funders
+- [Extreme heat in Kolkata](https://beattheheat.asia/print/city-kolkata/)City officials, partners and funders
+- [Extreme heat in Chennai](https://beattheheat.asia/print/city-chennai/)City officials, partners and funders
+- [Extreme heat in Hyderabad](https://beattheheat.asia/print/city-hyderabad/)City officials, partners and funders
+- [Extreme heat in Bengaluru](https://beattheheat.asia/print/city-bengaluru/)City officials, partners and funders
+- [Extreme heat in Bhubaneswar](https://beattheheat.asia/print/city-bhubaneswar/)City officials, partners and funders
 
 ## Cooling options, by place
 
