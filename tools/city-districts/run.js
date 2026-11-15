@@ -114,7 +114,7 @@ async function city() {
   const out = { city: CITY, name: CFG.name, generated: new Date().toISOString().slice(0, 10), parent: O.parent,
     sources: [
       { id: "outlines", name: "geoBoundaries district outlines (ADM2)", source: O.meta.source, licence: O.meta.licence, year: O.meta.year, url: O.meta.url },
-      { id: "worldpop", name: `WorldPop, Global2 constrained age and sex structures, release R2025A, ${/_1km_/.test(files[0]) ? "1 km" : "100 m"}: ${wp.title}`, year: wp.popyear, licence: "CC BY 4.0", doi: wp.doi || "", url: `https://hub.worldpop.org/geodata/summary?id=${wp.id}` },
+      { id: "worldpop", name: `WorldPop, Global2 constrained age and sex structures, release R2025A, ${/_1km_/.test(files[0]) ? "1 km" : "100 m"}${/_UA_/.test(files[0]) ? ", UN-adjusted" : ""}: ${wp.title}`, year: wp.popyear, licence: "CC BY 4.0", doi: wp.doi || "", url: `https://hub.worldpop.org/geodata/summary?id=${wp.id}` },
       { id: "worldcover", name: "ESA WorldCover 10 m 2021 v200 (built from Copernicus Sentinel-1 and Sentinel-2 data)", year: 2021, licence: "CC BY 4.0", url: "https://esa-worldcover.org/" },
       { id: "osm", name: "OpenStreetMap contributors, through the Overpass API", year: o.when, licence: "ODbL 1.0", url: "https://www.openstreetmap.org/copyright" }],
     grid_m: /_1km_/.test(files[0]) ? 1000 : 100,
