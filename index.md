@@ -230,7 +230,7 @@ The same heat lands differently in every city. Choose yours, see its heat today 
 Heat right now
 
 ## It is happening
-today, in 12 Asian cities.
+today, in 17 Asian cities.
 
 Want to see what this week’s forecast would switch on? Set your alert levels in step 4 of [Plan a response](https://beattheheat.asia/plan/#plan-step-4) and pick a city.
 

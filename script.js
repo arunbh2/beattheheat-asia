@@ -2946,10 +2946,17 @@
 
   /* ======================= YOUR CITY ======================= */
   // a map of the live cities and, for the one picked, its heat now, its plan, the cycles turning there and who is at work
-  const CITIES = typeof CITY_PROFILES !== "undefined" ? CITY_PROFILES : [];
-  const cityById = Object.fromEntries(CITIES.map(p => [p.id, p]));
+  // the profiles load from /cities/profiles.json only when a reader nears the section (or follows a link to a city),
+  // so they add nothing to the first view of the homepage
+  let CITIES = [], cityById = {}, profilesPromise = null, cityDrawn = false, cityWanted = null;
+  function loadProfiles() {
+    if (!profilesPromise) profilesPromise = fetch("/cities/profiles.json?v=223").then(r => { if (!r.ok) throw new Error("profiles " + r.status); return r.json(); })
+      .then(list => { CITIES = Array.isArray(list) ? list.filter(p => LIVE.some(c => c.id === p.id)) : []; cityById = Object.fromEntries(CITIES.map(p => [p.id, p])); if (!CITIES.length) throw new Error("no profiles"); return CITIES; })
+      .catch(e => { profilesPromise = null; throw e; });
+    return profilesPromise;
+  }
   const MAPBOX = { lon0: 64, lon1: 129, lat0: -12, lat1: 34 };   // matches images/asia-map.svg (1000 × 721)
-  const LABEL_LEFT = new Set(["manila", "delhi", "bangkok"]), LABEL_BELOW = new Set(["phnompenh"]);
+  const LABEL_LEFT = new Set(["manila", "delhi", "bangkok", "kolkata", "bengaluru"]), LABEL_BELOW = new Set(["phnompenh", "bhubaneswar"]);
   const HEAT_STOPS = [[0, [61, 191, 174]], [0.45, [245, 166, 35]], [0.7, [242, 100, 48]], [1, [215, 38, 61]]];
   function heatColor(v) {
     const t = clamp01((v - 20) / 35);
@@ -3034,13 +3041,32 @@
         </div>
         <div class="cp__card">
           <p class="cp__k">Already at work here <span>${orgs.length}</span></p>
-          <ul class="cp__orgs">${orgs.map(o => `<li>${extLink(o.url, o.name)}<p>${esc(o.does)}</p></li>`).join("")}</ul>
+          ${orgs.length ? `<ul class="cp__orgs">${orgs.map(o => `<li>${extLink(o.url, o.name)}<p>${esc(o.does)}</p></li>`).join("")}</ul>` : `<p class="cp__note">Not found yet: the heat network lists no organisation whose work is in ${esc(c.name)}. This describes the list, not the city. <a href="/heat-network/">The heat network</a></p>`}
           <p class="cp__note">Listing does not imply partnership, affiliation or endorsement.</p>
         </div>
       </div>
       <p class="cp__foot">Share this city: <a href="#city-${p.id}">beattheheat.asia/#city-${p.id}</a> · <a href="/cities/${p.id}/">Read it as a page</a> · ${printLink(`city-${p.id}`, `Print a one-page brief for ${c.name}`)} · ${printLink("dry-and-humid-heat", "Print: dry and humid heat")}</p>`;
   }
 
+  // each label takes the first side of its dot (its preferred side, then right, left, below, above) that stays inside the map
+  // and clear of other labels and pins; where none is clear the label is hidden (the city buttons below still name every
+  // city). The selected city goes first, so its label always shows.
+  function placeLabels() {
+    const map = document.getElementById("city-map"); if (!map || !map.offsetWidth) return;
+    const dots = [...map.querySelectorAll(".cm__dot")], m = map.getBoundingClientRect(), placed = [];
+    const side = (d, t) => { d.classList.remove("cm__dot--left", "cm__dot--below", "cm__dot--above"); if (t !== "right") d.classList.add("cm__dot--" + t); };
+    dots.forEach(d => { d.classList.remove("cm__dot--nolab"); side(d, "right"); });
+    const pins = dots.map(d => d.querySelector(".cm__pin").getBoundingClientRect());
+    const hit = (a, q) => a.left < q.right && q.left < a.right && a.top < q.bottom && q.top < a.bottom;
+    dots.slice().sort((a, b) => b.classList.contains("is-on") - a.classList.contains("is-on")).forEach(d => {
+      const id = d.dataset.city, pref = LABEL_LEFT.has(id) ? "left" : LABEL_BELOW.has(id) ? "below" : "right";
+      const ok = [pref, "right", "left", "below", "above"].filter((t, i, a) => a.indexOf(t) === i).some(t => { side(d, t);
+        const l = d.querySelector(".cm__lab").getBoundingClientRect();
+        if (l.left < m.left || l.right > m.right || l.top < m.top || l.bottom > m.bottom || placed.some(r => hit(r, l)) || pins.some((q, i) => dots[i] !== d && hit(q, l))) return false;
+        placed.push(l); return true; });
+      if (!ok) { side(d, pref); if (d.classList.contains("is-on")) placed.push(d.querySelector(".cm__lab").getBoundingClientRect()); else d.classList.add("cm__dot--nolab"); }
+    });
+  }
   function cityDots() {
     const map = document.getElementById("city-map"); if (!map) return;
     map.querySelectorAll(".cm__dot").forEach(b => {
@@ -3050,9 +3076,11 @@
       b.classList.toggle("is-on", id === cityNow);
     });
     document.querySelectorAll("#city-picks [data-city]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.city === cityNow)));
+    placeLabels();
   }
 
   function showCity(id, focus) {
+    if (!cityDrawn) { cityWanted = id; renderCity(true); return; }
     if (!cityById[id]) return;
     cityNow = id; renderCityPanel(id); cityDots(); track("city-" + id);
     if (focus) { const h = document.querySelector("#city-panel .cp__name"); if (h) { h.tabIndex = -1; h.focus({ preventScroll: true });
@@ -3088,9 +3116,19 @@
       pause.setAttribute("aria-pressed", String(on)); pause.textContent = on ? "Play" : "Pause"; bar.classList.toggle("is-paused", on); });
   }
 
-  function renderCity() {
+  function renderCity(now) {
+    const sec = document.getElementById("city"), map = document.getElementById("city-map"), panel = document.getElementById("city-panel");
+    if (!sec || !map || !LIVE.length || renderCity.started) return;
+    const hash = decodeURIComponent(location.hash.slice(1));
+    const go = () => { if (renderCity.started) return; renderCity.started = true;
+      if (panel) panel.innerHTML = `<p class="cp__none">Loading the cities…</p>`;
+      loadProfiles().then(drawCity, () => { renderCity.started = false; if (panel) panel.innerHTML = `<p class="cp__none">The city profiles could not be loaded just now. <a href="/cities/">Read each city as a page</a>.</p>`; }); };
+    if (now || hash.startsWith("city-") || !("IntersectionObserver" in window)) go();
+    else { const io = new IntersectionObserver(es => { if (es.some(e => e.isIntersecting)) { io.disconnect(); go(); } }, { rootMargin: "1200px 0px" }); io.observe(sec); }
+  }
+  function drawCity() {
     const sec = document.getElementById("city"), map = document.getElementById("city-map"), picks = document.getElementById("city-picks");
-    if (!sec || !map || !CITIES.length) return;
+    cityDrawn = true;
     const pos = c => ({ x: (c.lon - MAPBOX.lon0) / (MAPBOX.lon1 - MAPBOX.lon0) * 100, y: (MAPBOX.lat1 - c.lat) / (MAPBOX.lat1 - MAPBOX.lat0) * 100 });
     map.innerHTML = `<img src="images/asia-map.svg" alt="" class="cm__base" width="1000" height="721">` + CITIES.map(p => {
       const c = LIVE.find(x => x.id === p.id); if (!c) return ""; const q = pos(c);
@@ -3098,6 +3136,7 @@
         <span class="cm__pin"></span><span class="cm__lab">${esc(c.name)}<span class="cm__v"></span></span></button>`;
     }).join("");
     picks.innerHTML = CITIES.map(p => { const c = LIVE.find(x => x.id === p.id); return c ? `<li><button type="button" data-city="${p.id}" aria-pressed="false">${esc(c.name)}<span class="cp__pill cp__pill--${p.hap.status}" title="${esc(CITY_HAP[p.hap.status])}"></span></button></li>` : ""; }).join("");
+    let rz = 0; window.addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(placeLabels, 150); });
     const legend = document.getElementById("city-legend");
     if (legend) legend.innerHTML = Object.entries(CITY_HAP).map(([k, v]) => `<li><span class="cp__pill cp__pill--${k}" aria-hidden="true"></span>${esc(v)}</li>`).join("");
     sec.addEventListener("click", ev => {
@@ -3105,9 +3144,10 @@
       const ex = ev.target.closest("[data-city-example]");
       if (ex) { loadExample(ex.dataset.cityExample); }
     });
-    const hash = decodeURIComponent(location.hash.slice(1));
-    showCity(hash.startsWith("city-") && cityById[hash.slice(5)] ? hash.slice(5) : CITIES[0].id);
-    if (hash.startsWith("city-") && cityById[hash.slice(5)]) setTimeout(() => sec.scrollIntoView({ block: "start" }), 50);
+    const hash = decodeURIComponent(location.hash.slice(1)), want = cityWanted && cityById[cityWanted] ? cityWanted : hash.startsWith("city-") && cityById[hash.slice(5)] ? hash.slice(5) : null;
+    showCity(want || CITIES[0].id, !!cityWanted);
+    if (want && !cityWanted) setTimeout(() => sec.scrollIntoView({ block: "start" }), 50);
+    cityWanted = null;
     const load = () => liveFetch().then(data => { cityLive = data; renderCityPanel(cityNow); cityDots(); }, () => { cityLive = { cities: {} }; renderCityPanel(cityNow); cityDots(); });
     if ("IntersectionObserver" in window) { const io = new IntersectionObserver(es => { if (es.some(e => e.isIntersecting)) { io.disconnect(); load(); } }, { rootMargin: "800px 0px" }); io.observe(sec); }
     else load();

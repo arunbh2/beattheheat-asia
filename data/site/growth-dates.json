@@ -201,6 +201,15 @@
    "org": true
   },
   {
+   "url": "https://aidmi.org/?p=5718",
+   "label": "All India Disaster Mitigation Institute, 2026",
+   "root": "experience",
+   "org": false,
+   "date": "2026",
+   "precision": "year",
+   "how": "label"
+  },
+  {
    "url": "https://aidmi.org/blog/parametric-insurance-and-extreme-heat-sewas-experience/",
    "label": "AIDMI (2025), Parametric Insurance and Extreme Heat: SEWA's Experience",
    "root": "financing",
@@ -876,6 +885,15 @@
    "how": "meta"
   },
   {
+   "url": "https://cansouthasia.net/kolkata-climate-action-plan-kcap-released-for-stakeholder-consultation/",
+   "label": "Climate Action Network South Asia, 2025: Kolkata Climate Action Plan released for stakeholder consultation",
+   "root": "experience",
+   "org": false,
+   "date": "2025",
+   "precision": "year",
+   "how": "label"
+  },
+  {
    "url": "https://carbonmajors.org/briefing/Carbon-Majors-2024-Data-Update-35466",
    "label": "",
    "root": "evidence",
@@ -1363,6 +1381,15 @@
    "label": "Cities Climate Finance Leadership Alliance",
    "root": "institutions",
    "org": true
+  },
+  {
+   "url": "https://citizenmatters.in/bengaluru-failed-to-beat-the-heat-how-localised-approach-could-help-in-the-future/",
+   "label": "Citizen Matters, 2025: Bengaluru failed to beat the heat",
+   "root": "experience",
+   "org": false,
+   "date": "2025",
+   "precision": "year",
+   "how": "label"
   },
   {
    "url": "https://citizenmatters.in/city-buzz-five-things-you-must-know-about-the-delhi-heat-action-plan",
@@ -4831,8 +4858,8 @@
   },
   {
    "url": "https://heathealth.info/wp-content/uploads/Action-plan-heat-Wave-West-Bengal-.pdf",
-   "label": "Action Plan on Heat Wave: West Bengal",
-   "root": "institutions",
+   "label": "Department of Disaster Management and Civil Defence, West Bengal: Action plan on heat wave",
+   "root": "experience",
    "org": false,
    "date": "2023",
    "precision": "year",
@@ -4840,8 +4867,8 @@
   },
   {
    "url": "https://heathealth.info/wp-content/uploads/Bhubaneswar-Heat-Action-Plan.pdf",
-   "label": "Heat Wave Action Plan: Bhubaneswar City",
-   "root": "institutions",
+   "label": "Bhubaneswar Municipal Corporation and IRADe: Heat wave action plan, Bhubaneswar city",
+   "root": "experience",
    "org": false,
    "date": "2020",
    "precision": "year",
@@ -7074,6 +7101,15 @@
    "org": false
   },
   {
+   "url": "https://odishatv.in/news/odisha/bhubaneswar-to-face-extreme-heat-sevenfold-rise-in-ac-demand-by-2050-bmc-unveils-action-plan-271303",
+   "label": "OdishaTV, 2025: Bhubaneswar Municipal Corporation unveils heat and cooling action plan",
+   "root": "experience",
+   "org": false,
+   "date": "2025",
+   "precision": "year",
+   "how": "label"
+  },
+  {
    "url": "https://ojk.go.id/en/Publikasi/Roadmap-dan-Pedoman/Perbankan/Pages/The-2026-Banking-Climate-Risk-Management-and-Scenario-Analysis-CRMS-Guideline.aspx",
    "label": "Otoritas Jasa Keuangan (Financial Services Authority), Indonesia",
    "root": "institutions",
@@ -8799,6 +8835,12 @@
    "how": "url"
   },
   {
+   "url": "https://telanganatoday.com/telangana-rolls-out-heatwave-action-plan-schools-to-implement-water-bells-cooling-centres-set-up",
+   "label": "Telangana Today: Telangana rolls out heatwave action plan",
+   "root": "experience",
+   "org": false
+  },
+  {
    "url": "https://temasekfoundation.org.sg/news/media-releases/metha8-and-yama-win-s-1m-each-to-scale-methanol-to-power-and-carbon-capture-technologies-at-asia-s-largest-crowdsourcing-platform-for-climate-solutions",
    "label": "Temasek Foundation 2026 awards",
    "root": "financing",
@@ -8896,6 +8938,24 @@
    "label": "Raintree Family Office",
    "root": "financing",
    "org": false
+  },
+  {
+   "url": "https://thesouthfirst.com/health/how-chennai-is-racing-to-build-heatstroke-wards-as-temperature-soars/",
+   "label": "The South First, 2026",
+   "root": "experience",
+   "org": false,
+   "date": "2026",
+   "precision": "year",
+   "how": "label"
+  },
+  {
+   "url": "https://thesouthfirst.com/tamilnadu/work-slows-but-survival-cannot-extreme-heat-drives-tamil-nadus-outdoor-labourers-to-brink/",
+   "label": "The South First, 2026",
+   "root": "experience",
+   "org": false,
+   "date": "2026",
+   "precision": "year",
+   "how": "label"
   },
   {
    "url": "https://thethaiger.com/news/world/indonesia-adopts-cool-roofs-to-combat-heatwaves-and-reduce-energy-costs",
@@ -11067,6 +11127,15 @@
    "org": false
   },
   {
+   "url": "https://www.cseindia.org/urban-heat-stress-Kolkata.pdf",
+   "label": "Centre for Science and Environment, 2022",
+   "root": "experience",
+   "org": false,
+   "date": "2022",
+   "precision": "year",
+   "how": "label"
+  },
+  {
    "url": "https://www.cuhk.edu.hk/research/SED/Projects/Research_b2_health%20risk.html",
    "label": "Research Grants Council, Hong Kong",
    "root": "institutions",
@@ -11241,6 +11310,15 @@
    "org": true
   },
   {
+   "url": "https://www.downtoearth.org.in/climate-change/beyond-the-thermometer-bengalurus-race-to-modernise-ignored-climate-now-its-residents-are-paying-the-price",
+   "label": "Down To Earth, 2025",
+   "root": "experience",
+   "org": false,
+   "date": "2025",
+   "precision": "year",
+   "how": "label"
+  },
+  {
    "url": "https://www.downtoearth.org.in/climate-change/existing-solutions-could-slash-soot-emissions-by-80-by-2030-icimod",
    "label": "ICIMOD",
    "root": "institutions",
@@ -11270,6 +11348,15 @@
    "root": "experience",
    "org": false,
    "date": "2024",
+   "precision": "year",
+   "how": "label"
+  },
+  {
+   "url": "https://www.downtoearth.org.in/climate-change/new-study-sheds-light-on-indoor-nighttime-heat-retention-in-indian-homes",
+   "label": "Down To Earth, 2026",
+   "root": "experience",
+   "org": false,
+   "date": "2026",
    "precision": "year",
    "how": "label"
   },
@@ -11310,6 +11397,15 @@
    "org": true
   },
   {
+   "url": "https://www.dtnext.in/amp/story/news/chennai/gcc-partners-with-ceew-to-boost-citys-extreme-heat-resilience",
+   "label": "DT Next, 2026: GCC partners with CEEW to boost city's extreme heat resilience",
+   "root": "experience",
+   "org": false,
+   "date": "2026",
+   "precision": "year",
+   "how": "label"
+  },
+  {
    "url": "https://www.dtnext.in/news/chennai/after-50-years-siva-vishnu-pond-rejuvenated-for-rs-36-lakh-by-chennai-corporation-796892",
    "label": "Chennai: one pond restored for ₹36 lakh",
    "root": "practical",
@@ -11317,6 +11413,15 @@
    "date": "2024-07-26",
    "precision": "day",
    "how": "meta"
+  },
+  {
+   "url": "https://www.dtnext.in/news/tamilnadu/as-summer-approaches-tamil-nadu-readies-heatwave-action-plan-to-prevent-deaths-823240",
+   "label": "DT Next, 2025: Tamil Nadu readies heatwave action plan",
+   "root": "experience",
+   "org": false,
+   "date": "2025",
+   "precision": "year",
+   "how": "label"
   },
   {
    "url": "https://www.dulux.com.sg/en/about-us",
@@ -15901,6 +16006,15 @@
    "date": "2024",
    "precision": "year",
    "how": "record"
+  },
+  {
+   "url": "https://www.thehansindia.com/telangana/telangana-rolls-out-heatwave-action-plan-2025-967782",
+   "label": "The Hans India, 2025: Telangana rolls out Heatwave Action Plan 2025",
+   "root": "experience",
+   "org": false,
+   "date": "2025",
+   "precision": "year",
+   "how": "label"
   },
   {
    "url": "https://www.thehitavada.com//Encyc/2026/5/11/green-nets-at-city-squares-relief-measure-or-another-half-planned-half-planned-civic-experiment.html",

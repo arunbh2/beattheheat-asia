@@ -634,12 +634,13 @@
  {
   "name": "CITY_PROFILES",
   "file": "CITY_PROFILES.json",
-  "notes": "",
+  "notes": "// City profiles. Build-only (\"browser\": false): builders read it from data/core; the homepage city view loads /cities/profiles.json\n// (written by tools/build-static.js) only when a reader nears it, so the profiles add no weight to the first view.",
   "inside": [
    "/* ---------- 26. HEATWAVES THAT SHAPED ASIA ---------- */",
    "// Major South and Southeast Asian heatwaves, oldest first. deaths: the recorded toll used for the chart (recorded tolls",
    "// undercount heat deaths, so treat them as a floor); null where no solid count exists; atLeast: the sources say \"more than\" or \"at least\". nodes: map consequences to visit."
-  ]
+  ],
+  "browser": false
  },
  {
   "name": "HEATWAVES",

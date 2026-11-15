@@ -17,7 +17,7 @@ const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + `
 ;Object.assign(this, { SYSTEMS, CONSEQUENCES, LINKS, LOOP_GROUPS, LOOPS, INSTITUTIONS, LEVERS, LOOP_PLACES, EVIDENCE, ORG_ROLES,
   ORGANISATIONS, GLOSSARY_GROUPS, GLOSSARY, WORKED_EXAMPLES, AT_RISK, AT_RISK_BARRIERS, STALLS, COOL_PLACES, COOL_TRAPS,
-  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, COOL_FX, COOL_REGION, HOME_HEATS, STRAIN, COOL_ASK, PLAN_GROUPS, PLAN_MECHANISMS, PLAN_MECH_NOTE, MCR2030, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL, LIVE_CITIES, CITY_PROFILES, CITY_HAP, LIVE_WBGT, LIVE_LEVELS, LIVE_SOURCES, HEATWAVES, HEATWAVES_NOTE, ACTION_SETTINGS, ACTION_LINES, ACTION_JOURNEYS, FINANCE, EVIDENCE_STATUS, ACTION_HORIZONS, HEAT_WEEK, MARKET_EXPLORER, LOOP_SOLUTIONS, ORG_SIDES, ORG_SIDE });`, ctx);
+  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, COOL_FX, COOL_REGION, HOME_HEATS, STRAIN, COOL_ASK, PLAN_GROUPS, PLAN_MECHANISMS, PLAN_MECH_NOTE, MCR2030, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL, LIVE_CITIES, CITY_HAP, LIVE_WBGT, LIVE_LEVELS, LIVE_SOURCES, HEATWAVES, HEATWAVES_NOTE, ACTION_SETTINGS, ACTION_LINES, ACTION_JOURNEYS, FINANCE, EVIDENCE_STATUS, ACTION_HORIZONS, HEAT_WEEK, MARKET_EXPLORER, LOOP_SOLUTIONS, ORG_SIDES, ORG_SIDE });`, ctx);
 Object.assign(ctx, require("./data-blocks.js")());   // plus build-only blocks (not in data.js)
 const D = ctx, TODAY = new Date().toISOString().slice(0, 10);
 // ---- the homepage's numbers: each [data-stat] holds a plain-HTML fallback (what readers see with no JavaScript, and what
@@ -376,7 +376,7 @@ const SNAP_SLUG = { Bangladesh: "bangladesh", India: "india", Indonesia: "indone
       <h2>Who heat hits hardest here</h2><ul>${risks.map(g => `<li><a href="/who-is-at-risk/#${g.id}">${esc(g.name)}</a></li>`).join("")}</ul>
       ${c.country === "India" ? (n => n ? `<h2>Heat action plans on file</h2><p>${n} ${n === 1 ? "document" : "documents"} for ${esc(c.name)} in the <a href="/resources/heat-action-plans/india/?q=${encodeURIComponent(c.name)}">India heat action plan archive</a>, with a link to each PDF.</p>` : hapState(c))(hapFor(c.name).length) : ""}
       ${exs.length ? `<h2>A worked plan to learn from</h2>${exs.map(x => `<p><a href="/worked-plans/#${x.id}">${esc(x.title)}</a> (${esc(x.place)}, ${esc(x.year)})</p>`).join("")}` : ""}
-      <h2>Already at work here</h2><ul>${orgs.map(o => `<li>${ext(o.url, o.name)}: ${esc(o.does)}</li>`).join("")}</ul><p class="meta">Listing does not imply partnership, affiliation or endorsement.</p>
+      <h2>Already at work here</h2>${orgs.length ? `<ul>${orgs.map(o => `<li>${ext(o.url, o.name)}: ${esc(o.does)}</li>`).join("")}</ul>` : `<p>Not found yet: the heat network lists no organisation whose work is in this city. This describes the list, not the city. <a href="/heat-network/">The heat network</a></p>`}<p class="meta">Listing does not imply partnership, affiliation or endorsement.</p>
       ${SNAP_SLUG[c.country] ? `<h2>The national picture</h2><p>Plans and law, warnings, rules for heat at work, cooling, money and other cities in ${esc(c.country)}: <a href="/countries/${SNAP_SLUG[c.country]}/">the ${esc(c.country)} country snapshot</a>.</p>` : ""}`;
     const cpPage = { slug: `cities/${cp.id}`, title: `Extreme heat in ${c.name}: plans, cycles and who is at work`, short: c.name, parent: p };
     const cIntro = `${cp.tagline} Heat plan: ${status.toLowerCase()}.`;
@@ -384,9 +384,11 @@ const SNAP_SLUG = { Bangladesh: "bangladesh", India: "india", Indonesia: "indone
     out[cpPage.slug] = page(cpPage, cIntro, body, [{ "@context": "https://schema.org", "@type": "City", name: c.name, containedInPlace: { "@type": "Country", name: c.country },
       geo: { "@type": "GeoCoordinates", latitude: c.lat, longitude: c.lon }, url }]);
     m.push(`### ${c.name}, ${c.country}`, cp.tagline, `Heat action plan (${status}): ${cp.hap.text} Sources: ${cp.hap.sources.map(s => `${s.label} ${s.url}`).join("; ")}`, `${D.LIVE_WBGT.title}: the page shows ${D.LIVE_WBGT.name.toLowerCase()} now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: ${c.warn.label} ${c.warn.url}`,
-      ...loops.map(x => `- ${x.l.name}: ${x.why}`), `Who heat hits hardest: ${risks.map(g => g.name).join("; ")}`, `Already at work: ${orgs.map(o => o.name).join("; ")}`, `Page: ${url}`);
+      ...loops.map(x => `- ${x.l.name}: ${x.why}`), `Who heat hits hardest: ${risks.map(g => g.name).join("; ")}`, `Already at work: ${orgs.length ? orgs.map(o => o.name).join("; ") : "Not found yet: the heat network lists no organisation whose work is in this city. This describes the list, not the city."}`, `Page: ${url}`);
   });
   out[p.slug] = page(p, intro, h); md.push(m.join("\n\n"));
+  // the homepage city view loads this only when a reader nears it (script.js, loadProfiles)
+  fs.writeFileSync(path.join(ROOT, "cities", "profiles.json"), JSON.stringify(D.CITY_PROFILES));
 }
 
 // heatwaves timeline

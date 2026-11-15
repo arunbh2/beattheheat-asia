@@ -85,6 +85,21 @@
       "updated": "2026-11-15"
     },
     {
+      "url": "https://beattheheat.asia/cities/bengaluru/",
+      "markdown": "https://beattheheat.asia/cities/bengaluru/index.md",
+      "updated": "2026-10-01"
+    },
+    {
+      "url": "https://beattheheat.asia/cities/bhubaneswar/",
+      "markdown": "https://beattheheat.asia/cities/bhubaneswar/index.md",
+      "updated": "2026-10-01"
+    },
+    {
+      "url": "https://beattheheat.asia/cities/chennai/",
+      "markdown": "https://beattheheat.asia/cities/chennai/index.md",
+      "updated": "2026-10-01"
+    },
+    {
       "url": "https://beattheheat.asia/cities/colombo/",
       "markdown": "https://beattheheat.asia/cities/colombo/index.md",
       "updated": "2026-11-15"
@@ -105,6 +120,11 @@
       "updated": "2026-11-15"
     },
     {
+      "url": "https://beattheheat.asia/cities/hyderabad/",
+      "markdown": "https://beattheheat.asia/cities/hyderabad/index.md",
+      "updated": "2026-10-01"
+    },
+    {
       "url": "https://beattheheat.asia/cities/jakarta/",
       "markdown": "https://beattheheat.asia/cities/jakarta/index.md",
       "updated": "2026-11-15"
@@ -113,6 +133,11 @@
       "url": "https://beattheheat.asia/cities/kathmandu/",
       "markdown": "https://beattheheat.asia/cities/kathmandu/index.md",
       "updated": "2026-11-15"
+    },
+    {
+      "url": "https://beattheheat.asia/cities/kolkata/",
+      "markdown": "https://beattheheat.asia/cities/kolkata/index.md",
+      "updated": "2026-10-01"
     },
     {
       "url": "https://beattheheat.asia/cities/manila/",
@@ -520,6 +545,21 @@
       "updated": "2026-11-15"
     },
     {
+      "url": "https://beattheheat.asia/print/city-bengaluru/",
+      "markdown": "https://beattheheat.asia/print/city-bengaluru/index.md",
+      "updated": "2026-10-01"
+    },
+    {
+      "url": "https://beattheheat.asia/print/city-bhubaneswar/",
+      "markdown": "https://beattheheat.asia/print/city-bhubaneswar/index.md",
+      "updated": "2026-10-01"
+    },
+    {
+      "url": "https://beattheheat.asia/print/city-chennai/",
+      "markdown": "https://beattheheat.asia/print/city-chennai/index.md",
+      "updated": "2026-10-01"
+    },
+    {
       "url": "https://beattheheat.asia/print/city-colombo/",
       "markdown": "https://beattheheat.asia/print/city-colombo/index.md",
       "updated": "2026-11-15"
@@ -540,6 +580,11 @@
       "updated": "2026-11-15"
     },
     {
+      "url": "https://beattheheat.asia/print/city-hyderabad/",
+      "markdown": "https://beattheheat.asia/print/city-hyderabad/index.md",
+      "updated": "2026-10-01"
+    },
+    {
       "url": "https://beattheheat.asia/print/city-jakarta/",
       "markdown": "https://beattheheat.asia/print/city-jakarta/index.md",
       "updated": "2026-11-15"
@@ -548,6 +593,11 @@
       "url": "https://beattheheat.asia/print/city-kathmandu/",
       "markdown": "https://beattheheat.asia/print/city-kathmandu/index.md",
       "updated": "2026-11-15"
+    },
+    {
+      "url": "https://beattheheat.asia/print/city-kolkata/",
+      "markdown": "https://beattheheat.asia/print/city-kolkata/index.md",
+      "updated": "2026-10-01"
     },
     {
       "url": "https://beattheheat.asia/print/city-manila/",

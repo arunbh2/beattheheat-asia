@@ -10,7 +10,8 @@ const fs = require("fs"), path = require("path"), vm = require("vm");
 const ROOT = path.join(__dirname, ".."), SITE = "https://beattheheat.asia";
 const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") +
-  ";Object.assign(this,{CONSEQUENCES,LOOPS,LEVERS,ORGANISATIONS,CITY_PROFILES,HEATWAVES,GUIDE})", ctx);
+  ";Object.assign(this,{CONSEQUENCES,LOOPS,LEVERS,ORGANISATIONS,HEATWAVES,GUIDE})", ctx);
+Object.assign(ctx, require("./data-blocks.js")());   // plus build-only blocks (not in data.js)
 const D = ctx, C = require("./site-counts.js").all();
 const NEED = ["sources", "studies", "learningQuestions", "lancetReferences", "newsSources", "mediaArticles", "solutions", "hapVerified",
   "schemes", "instruments", "businesses", "funders", "countries"];

@@ -29,6 +29,13 @@
     <summary>Each city page now shows an estimated heat stress (WBGT) for now and a daily peak for four days, from forecast temperature and humidity, with the method's limits stated beside it and the official warning service one tap away.</summary>
   </entry>
   <entry>
+    <title>Five more Indian cities, Kolkata first</title>
+    <link href="https://beattheheat.asia/growing/#g-cities-batch-a" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-cities-batch-a</id>
+    <updated>2026-11-15T00:00:00Z</updated>
+    <summary>Kolkata, Chennai, Hyderabad, Bengaluru and Bhubaneswar now have city pages: each with its heat plan status as a checked document shows it, the vicious cycles the evidence ties to it, today's heat-stress estimate and, where the city has no plan of its own, a link to its state's plans.</summary>
+  </entry>
+  <entry>
     <title>New signals from Asia on heat at work, and lessons on heat insurance on the map</title>
     <link href="https://beattheheat.asia/growing/#g-heat-signals-asia-2026" rel="alternate" type="text/html"/>
     <id>https://beattheheat.asia/growing/#g-heat-signals-asia-2026</id>
@@ -209,12 +216,5 @@
     <id>https://beattheheat.asia/growing/#g-official-not-effect</id>
     <updated>2026-11-07T00:00:00Z</updated>
     <summary>The method grouped official records with measured findings as known. An official record can show that a rule or scheme exists; whether it was carried out or worked takes an evaluation, and the method now says so.</summary>
-  </entry>
-  <entry>
-    <title>Every harm paired with hope: the nearest places to act, or an honest gap</title>
-    <link href="https://beattheheat.asia/growing/#g-harm-hope" rel="alternate" type="text/html"/>
-    <id>https://beattheheat.asia/growing/#g-harm-hope</id>
-    <updated>2026-11-06T00:00:00Z</updated>
-    <summary>A harm without a way forward can leave a reader stuck. Each harm now points to the actions closest to it, or says plainly that none is documented yet.</summary>
   </entry>
 </feed>

@@ -34,10 +34,10 @@
     "consequences": 90,
     "vicious_cycles": 21,
     "actions": 33,
-    "city_profiles": 12,
+    "city_profiles": 17,
     "country_snapshots": 7,
     "heatwaves": 10,
-    "sources": 2292,
+    "sources": 2307,
     "studies_graded": 71,
     "learning_questions": 43,
     "solutions": 131,
@@ -59,7 +59,7 @@
   "why_it_helps_you": [
     {
       "title": "You can check it instead of trusting it.",
-      "text": "2,292 sources are cited and every one is listed at /sources/. Each claim links to the source it rests on, so an answer built from this site can be traced back."
+      "text": "2,307 sources are cited and every one is listed at /sources/. Each claim links to the source it rests on, so an answer built from this site can be traced back."
     },
     {
       "title": "It says how sure it is.",

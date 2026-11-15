@@ -12,8 +12,9 @@ const ROOT = path.join(__dirname, ".."), SITE = "https://beattheheat.asia";
 let QR = null; try { QR = require("qrcode"); } catch (e) { /* optional */ }
 const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + `
-;Object.assign(this, { HOME_HEATS, GLOSSARY, GUIDE, LIVE_CITIES, CITY_PROFILES, CITY_HAP, LOOPS, LEVERS, ORGANISATIONS, WORKED_EXAMPLES, AT_RISK,
+;Object.assign(this, { HOME_HEATS, GLOSSARY, GUIDE, LIVE_CITIES, CITY_HAP, LOOPS, LEVERS, ORGANISATIONS, WORKED_EXAMPLES, AT_RISK,
   HEATWAVES, HEATWAVES_NOTE, COOL_PLACES, COOL_TRAPS, COOL_COST_NOTE, COOL_FX, STALLS, LIVE_FINGERPRINT, LOOP_STAKES, STRAIN, COOL_ASK, ACTION_SETTINGS, ACTION_LINES, INSTITUTIONS, FINANCE, EVIDENCE_STATUS });`, ctx);
+Object.assign(ctx, require("./data-blocks.js")());   // plus build-only blocks (not in data.js)
 const D = ctx, TODAY = new Date().toISOString().slice(0, 10);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const short = u => String(u).replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "");
@@ -268,7 +269,7 @@ async function build() {
         ${loops.map(x => `<tr><td><b>${esc(x.l.name)}</b></td><td>${esc(x.why)}</td><td>${loopLevers(x.l).length ? esc(loopLevers(x.l)[0].title) : ""}</td></tr>`).join("")}</table>
       <div class="cols" style="margin-top:2px"><div><h2>Who heat hits hardest here</h2><ul class="tight">${risks.map(r => `<li>${esc(r.name)}</li>`).join("")}</ul>
           ${exs.length ? `<h2>A worked plan to learn from</h2><p>${exs.map(x => `<b>${esc(x.title)}</b> (${esc(x.place)}, ${esc(x.year)})`).join("; ")}</p>` : ""}</div>
-        <div><h2>Already at work here</h2><ul class="tight">${orgs.map(o => `<li>${esc(o.name)}</li>`).join("")}</ul><p style="font-size:7.5pt;color:#5E6570">Listing does not imply partnership, affiliation or endorsement.</p></div></div>
+        <div><h2>Already at work here</h2>${orgs.length ? `<ul class="tight">${orgs.map(o => `<li>${esc(o.name)}</li>`).join("")}</ul>` : `<p>Not found yet in the heat network's list.</p>`}<p style="font-size:7.5pt;color:#5E6570">Listing does not imply partnership, affiliation or endorsement.</p></div></div>
       <h2>Four questions for ${esc(c.name)}’s heat plan</h2>
       <ul class="check cols"><li>Is it funded, with a named owner?</li><li>Does it assess who is most vulnerable, and where they live?</li><li>Does it have legal backing, so departments are required to act?</li><li>Does it count indoor and night-time heat, not only daytime highs?</li></ul>
       <p style="margin-top:6px"><b>Official warnings:</b> ${esc(c.warn.label)} · <b>Today’s heat and the week ahead:</b> beattheheat.asia/#city-${cp.id}</p>`;

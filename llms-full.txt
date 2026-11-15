@@ -3368,9 +3368,9 @@ Every link was opened by an automated check on 14 November 2026. A listing says 
 
 - Global Environment Facility (Supply; Funder; Place not stated in the listing): Backs the Nature for Cooling Challenge through a grant. (https://www.thegef.org)
 
-## Extreme heat in 12 Asian cities
+## Extreme heat in 17 Asian cities
 
-What extreme heat is doing in 12 Asian cities: whether each has a heat plan, the vicious cycles the evidence ties to it, who is hit hardest and who is already at work.
+What extreme heat is doing in 17 Asian cities: whether each has a heat plan, the vicious cycles the evidence ties to it, who is hit hardest and who is already at work.
 
 ### Singapore, Singapore
 
@@ -3613,6 +3613,98 @@ Who heat hits hardest: Workers in heat-exposed jobs; People in informal settleme
 Already at work: UN ESCAP; Asian Development Bank; World Bank
 
 Page: https://beattheheat.asia/cities/phnompenh/
+
+### Kolkata, India
+
+A humid delta megacity where the heat index runs far above the thermometer.
+
+Heat action plan (Parts in place, no full plan found): West Bengal’s heat wave action plan gives municipal corporations and local bodies the task of preparing and carrying out heat wave action plans. The Kolkata Climate Action Plan, released by the Kolkata Municipal Corporation for consultation in June 2025, lists a city-wide heat action plan among its priority actions. No standalone city heat action plan found. Sources: Department of Disaster Management and Civil Defence, West Bengal: Action plan on heat wave https://heathealth.info/wp-content/uploads/Action-plan-heat-Wave-West-Bengal-.pdf; Climate Action Network South Asia, 2025: Kolkata Climate Action Plan released for stakeholder consultation https://cansouthasia.net/kolkata-climate-action-plan-kcap-released-for-stakeholder-consultation/
+
+Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: India Meteorological Department https://mausam.imd.gov.in/
+
+- The invisible-deaths loop: Kolkata’s daily average heat index usually runs 6 to 12 °C above the air temperature, but India’s heatwave criteria leave out humidity, so the danger of humid heat goes unreported.
+
+- The poverty–heat trap: Street vendors and other informal workers are caught between health risks and lost income as the city’s heat islands intensify.
+
+Who heat hits hardest: Workers in heat-exposed jobs; People in informal settlements
+
+Already at work: Research Council of Norway; U.S. National Science Foundation
+
+Page: https://beattheheat.asia/cities/kolkata/
+
+### Chennai, India
+
+One of India’s hottest and most humid big cities, where homes stay hot long after sunset.
+
+Heat action plan (Parts in place, no full plan found): In 2025 Tamil Nadu began preparing heatwave action plans for its major cities, including Chennai. In July 2026 the Greater Chennai Corporation and the Council on Energy, Environment and Water agreed to set up a unit to identify and prioritise heat measures across heat-vulnerable wards and zones. No published city heat action plan found. Sources: DT Next, 2025: Tamil Nadu readies heatwave action plan https://www.dtnext.in/news/tamilnadu/as-summer-approaches-tamil-nadu-readies-heatwave-action-plan-to-prevent-deaths-823240; DT Next, 2026: GCC partners with CEEW to boost city's extreme heat resilience https://www.dtnext.in/amp/story/news/chennai/gcc-partners-with-ceew-to-boost-citys-extreme-heat-resilience
+
+Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: India Meteorological Department https://mausam.imd.gov.in/
+
+- The sleepless-nights loop: In 50 low- and middle-income homes tracked from October 2025 to April 2026, indoor temperatures rarely fell below 31 °C and often stayed above 34 °C for hours after sunset.
+
+- The overwhelmed-clinic loop: For the 2026 hot season, government hospitals set up dedicated heatstroke wards with ICU beds, hydration counters and rapid cooling.
+
+- The poverty–heat trap: Across 11 districts of Tamil Nadu, 90.3% of the outdoor workers in a large study reported at least one symptom of heat illness.
+
+Who heat hits hardest: Workers in heat-exposed jobs; People in informal settlements
+
+Already at work: Not found yet: the heat network lists no organisation whose work is in this city. This describes the list, not the city.
+
+Page: https://beattheheat.asia/cities/chennai/
+
+### Hyderabad, India
+
+A fast-growing Deccan city in a state that classes heatwaves as a disaster.
+
+Heat action plan (Parts in place, no full plan found): Telangana classes heatwaves as a state-specific disaster. Its Heatwave Action Plan 2025 includes strategies for Hyderabad and a heat stress and vulnerability assessment for all 33 districts, and the state’s heatwave plan opens malls, public buildings and religious places as water points and cooling centres. No standalone city heat action plan found. Sources: The Hans India, 2025: Telangana rolls out Heatwave Action Plan 2025 https://www.thehansindia.com/telangana/telangana-rolls-out-heatwave-action-plan-2025-967782; Telangana Today: Telangana rolls out heatwave action plan https://telanganatoday.com/telangana-rolls-out-heatwave-action-plan-schools-to-implement-water-bells-cooling-centres-set-up
+
+Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: India Meteorological Department https://mausam.imd.gov.in/
+
+- The poverty–heat trap: During heat alerts, Telangana’s plan moves outdoor work out of the hours from 12 noon to 3 pm.
+
+- The lost-schooling loop: Telangana’s plan sets water bells in schools, avoids open-air classes and closes anganwadi centres by 11 am.
+
+Who heat hits hardest: Workers in heat-exposed jobs; Migrants, prisoners and other excluded groups
+
+Already at work: Not found yet: the heat network lists no organisation whose work is in this city. This describes the list, not the city.
+
+Page: https://beattheheat.asia/cities/hyderabad/
+
+### Bengaluru, India
+
+A plateau city that has lost most of its tree cover and lakes as it has grown and warmed.
+
+Heat action plan (No published city heat plan found): No published city heat action plan found. Researchers have called for ward-level heat action plans; the state plans for Karnataka cover the city. Sources: Citizen Matters, 2025: Bengaluru failed to beat the heat https://citizenmatters.in/bengaluru-failed-to-beat-the-heat-how-localised-approach-could-help-in-the-future/
+
+Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: India Meteorological Department https://mausam.imd.gov.in/
+
+- The dying-green loop: Bengaluru’s green cover fell from 68% in 1973 to about 6%, and more than 79% of its waterbodies have vanished or been encroached upon.
+
+- The overwhelmed-clinic loop: 160 urban primary health centres serve 198 municipal wards: fewer than one per ward.
+
+Who heat hits hardest: Workers in heat-exposed jobs; People in informal settlements
+
+Already at work: Hasiru Dala; Bengaluru Sustainability Forum; Bruhat Bengaluru Mahanagara Palike / Bengaluru city government; C40 Cities; WRI India
+
+Page: https://beattheheat.asia/cities/bengaluru/
+
+### Bhubaneswar, India
+
+An eastern state capital that has paired its heat plan with a plan for cooling demand.
+
+Heat action plan (Heat plan in force): In September 2025 the Bhubaneswar Municipal Corporation and the think tank iFOREST launched the city’s first Integrated Heat and Cooling Action Plan, which addresses heat stress and cooling demand together. An earlier climate-adaptive heat action plan, prepared with IRADe, the Indian Institute of Public Health and the Odisha State Disaster Management Authority, mapped heat hotspots ward by ward. Sources: OdishaTV, 2025: Bhubaneswar Municipal Corporation unveils heat and cooling action plan https://odishatv.in/news/odisha/bhubaneswar-to-face-extreme-heat-sevenfold-rise-in-ac-demand-by-2050-bmc-unveils-action-plan-271303; Bhubaneswar Municipal Corporation and IRADe: Heat wave action plan, Bhubaneswar city https://heathealth.info/wp-content/uploads/Bhubaneswar-Heat-Action-Plan.pdf
+
+Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: India Meteorological Department https://mausam.imd.gov.in/
+
+- The cooling trap: The city’s heat and cooling plan expects demand for air conditioning to rise sevenfold by 2050.
+
+- The poverty–heat trap: The city’s heat plan found poor working women more vulnerable to heat stress, with dehydration among women who lack drinking water at work.
+
+Who heat hits hardest: Women whose livelihoods are held back by unequal access; Workers in heat-exposed jobs
+
+Already at work: Not found yet: the heat network lists no organisation whose work is in this city. This describes the list, not the city.
+
+Page: https://beattheheat.asia/cities/bhubaneswar/
 
 ## Heatwaves that shaped South and Southeast Asia, 1998 to 2026
 
@@ -5698,19 +5790,19 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 
 https://beattheheat.asia/growing/
 
-See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 50 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
+See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 51 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
 
 ### How the work behind the commons grew
 
-Dated by the publication date of the work Common Shade draws on (1086 of 1912 works dated; 807 have no established date yet, 19 only an "online by" date; 426 links to organisations are counted apart and never dated). Common Shade began gathering this work in October 2026; the dates below are when the work was published, not when it was added.
+Dated by the publication date of the work Common Shade draws on (1098 of 1925 works dated; 808 have no established date yet, 19 only an "online by" date; 426 links to organisations are counted apart and never dated). Common Shade began gathering this work in October 2026; the dates below are when the work was published, not when it was added.
 
-- Before 2024: 468 works. Financing: 80; Institutions and plans: 67; Practical measures: 99; Experience: 19; Evidence: 203.
+- Before 2024: 469 works. Financing: 80; Institutions and plans: 65; Practical measures: 99; Experience: 22; Evidence: 203.
 
-- 2024: 194 works published (94 with a known month), 662 in all by the end of the period. Financing: 117; Institutions and plans: 93; Practical measures: 134; Experience: 38; Evidence: 280.
+- 2024: 194 works published (94 with a known month), 663 in all by the end of the period. Financing: 117; Institutions and plans: 91; Practical measures: 134; Experience: 41; Evidence: 280.
 
-- 2025: 200 works published (115 with a known month), 862 in all by the end of the period. Financing: 172; Institutions and plans: 121; Practical measures: 181; Experience: 54; Evidence: 334.
+- 2025: 206 works published (115 with a known month), 869 in all by the end of the period. Financing: 172; Institutions and plans: 119; Practical measures: 181; Experience: 63; Evidence: 334.
 
-- 2026 so far: 224 works published (128 with a known month), 1086 in all by the end of the period. Financing: 229; Institutions and plans: 140; Practical measures: 243; Experience: 70; Evidence: 404.
+- 2026 so far: 229 works published (128 with a known month), 1098 in all by the end of the period. Financing: 229; Institutions and plans: 138; Practical measures: 243; Experience: 84; Evidence: 404.
 
 ### Changes, newest first
 
@@ -5718,7 +5810,9 @@ Dated by the publication date of the work Common Shade draws on (1086 of 1912 wo
 
 - Evidence added: COP31, second check-in: a compact on cooler, more efficient buildings. Added 15 November 2026 · COP31 check-in 15 November 2026. Why it matters (our reading): The COP31 Presidency's Antalya Compact for Energy Efficient Buildings joins the COP31 watch at its first rung, announced, as it is open for countries to endorse. Its actions include the electrification of heating and cooling. Places: South and Southeast Asia. Topics: Cool by design, Clean, efficient cooling. Review: Five sources staged; three passed the GitHub check at the COP31 Presidency, LexisNexis and UNEP; two pages blocked the check and nothing rests on them. Next: Read the COP31 watch https://beattheheat.asia/signals/#cop31. Connections: Cool by design (from the site's records): The Compact's building codes and renovation bear on how hot homes and workplaces get. What it took to add this: The question: What has COP31 added on heat since the first check-in, confirmed at the source? 5 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 3 confirmed, and 2 could not be (2 blocked automated reading). 10 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: Which countries endorse the Compact, and what the Cooling Ministerial on 16 November agrees.
 
-- Tool improved: Heat today and the next three days on every city page. Added 15 November 2026 · City heat estimate added 15 November 2026. Why it matters (our reading): Each city page now shows an estimated heat stress (WBGT) for now and a daily peak for four days, from forecast temperature and humidity, with the method's limits stated beside it and the official warning service one tap away. Places: South and Southeast Asia. People: Workers in heat-exposed jobs. Topics: Heat action plans, Heat-safe work. Review: The method, its limits and the data sources each opened on GitHub with every term found; on the day of the check the estimate for Singapore read higher than every measured station, as the method's own caveats lead one to expect in cloud. Next: See a city https://beattheheat.asia/cities/bangkok/#heat-today. Connections: Heat-safe work (our reading): Rules for heat at work are usually set in WBGT, the measure the estimate approximates. What it took to add this: The question: How hot will it feel to work outdoors in this city today and over the next three days, and what is that based on? 7 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 7 confirmed. 31 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: Whether a fuller method that also uses sun and wind can be added without a new service.
+- Tool improved: Heat today and the next three days on every city page. Added 15 November 2026 · City heat estimate added 15 November 2026. Why it matters (our reading): Each city page now shows an estimated heat stress (WBGT) for now and a daily peak for four days, from forecast temperature and humidity, with the method's limits stated beside it and the official warning service one tap away. Places: South and Southeast Asia. People: Workers in heat-exposed jobs. Topics: Heat action plans, Heat-safe work. Review: The method, its limits and the data sources each opened on GitHub with every term found; on the day of the check the estimate for Singapore read higher than every measured station, as the method's own caveats lead one to expect in cloud. Next: See a city https://beattheheat.asia/cities/bangkok/#heat-today. Connections: Heat-safe work (our reading): Rules for heat at work are usually set in WBGT, the measure the estimate approximates. What it took to add this: The question: How hot will it feel to work outdoors in this city today and over the next three days, and what is that based on? 34 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 31 confirmed, and 3 could not be (1 blocked automated reading, 1 did not respond, 1 did not show the expected text). 31 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: Whether a fuller method that also uses sun and wind can be added without a new service.
+
+- Evidence added: Five more Indian cities, Kolkata first. Added 15 November 2026 · City pages added 15 November 2026. Why it matters (our reading): Kolkata, Chennai, Hyderabad, Bengaluru and Bhubaneswar now have city pages: each with its heat plan status as a checked document shows it, the vicious cycles the evidence ties to it, today's heat-stress estimate and, where the city has no plan of its own, a link to its state's plans. Places: India. People: Workers in heat-exposed jobs. Topics: Heat action plans. Review: 27 sources staged and opened on GitHub; 21 passed with every term found and only those are cited; six failed or were blocked and nothing rests on them. Next: Read Kolkata https://beattheheat.asia/cities/kolkata/. Connections: Heat action plans (from the site's records): Each new city's page records where its heat plan stands. What it took to add this: The question: What is heat doing in India's big cities beyond Delhi, Mumbai and Ahmedabad, and what plans are in place? 34 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 31 confirmed, and 3 could not be (1 blocked automated reading, 1 did not respond, 1 did not show the expected text). 6 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: Whether Kolkata, Chennai and Hyderabad publish city heat action plans of their own.
 
 - Connection documented: New signals from Asia on heat at work, and lessons on heat insurance on the map. Added 15 November 2026 · Signals added 15 November 2026. Why it matters (our reading): Signals now follow Singapore's mandatory heat measures, the Philippines' new heat stress and compensation guidelines, South Korea's first emergency heatwave warning, a survey of outdoor workers in Viet Nam and the World Bank's report on heat in South Asia's cities. Income protection on the map now notes two lessons from India's first heat insurance for informal women workers. Places: South and Southeast Asia, Singapore. People: Workers in heat-exposed jobs. Topics: Heat-safe work, Income protection in heatwaves. Review: Every source opened by a check on GitHub with its terms found, in the same batch as the policy brief. Next: See the signals https://beattheheat.asia/signals/. Connections: Heat-safe work (from the site's records): Three of the new signals are rules for heat-safe work. Income protection in heatwaves (from the site's records): The new Watch for notes sit on income protection in heatwaves. What it took to add this: The question: Which commitments and findings on heat at work in Asia could the site follow? 47 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 37 confirmed, and 10 could not be (5 blocked automated reading, 5 did not show the expected text). 3 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: Whether each commitment moves up the ladder.
 

@@ -19,7 +19,7 @@ Where support could matter most, what works, and who could carry it to people.
 
 ## [Where is the need?](https://beattheheat.asia/cities/)
 
-12 cities and what heat is doing in each, with the plans already in place.
+17 cities and what heat is doing in each, with the plans already in place.
 
 **Read first:** [Dhaka](https://beattheheat.asia/cities/#dhaka) · [Delhi](https://beattheheat.asia/cities/#delhi)
 
