@@ -1,7 +1,7 @@
 ---
-title: "Extreme heat in twelve Asian cities | Common Shade"
+title: "Extreme heat in 12 Asian cities | Common Shade"
 url: https://beattheheat.asia/cities/
-updated: 2026-11-06
+updated: 2026-11-15
 licence: CC BY 4.0
 ---
 
@@ -9,7 +9,7 @@ licence: CC BY 4.0
 
 Where is the need?
 
-Twelve cities and what heat is doing in each, with the plans already in place.
+12 cities and what heat is doing in each, with the plans already in place.
 
 **Read first:** [Dhaka](#dhaka) · [Delhi](#delhi)
 
@@ -19,13 +19,13 @@ Twelve cities and what heat is doing in each, with the plans already in place.
 
 What is heat doing in our city?
 
-Twelve city profiles: the kind of heat, the plan in place and the cycles at work.
+12 city profiles: the kind of heat, the plan in place and the cycles at work.
 
 **Then:** [See your country’s snapshot](https://beattheheat.asia/countries/)
 
 [Next stop: What happens to our power, water and clinics?](https://beattheheat.asia/a-city-under-strain/)
 
-# Extreme heat in twelve Asian cities
+# Extreme heat in 12 Asian cities
 
 What extreme heat is doing in 12 Asian cities: whether each has a heat plan, the vicious cycles the evidence ties to it, who is hit hardest and who is already at work.
 

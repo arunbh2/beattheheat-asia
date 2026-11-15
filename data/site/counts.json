@@ -1,6 +1,7 @@
 {
  "atRisk": 10,
  "businesses": 91,
+ "cities": 12,
  "countries": 7,
  "funders": 77,
  "fundingTraced": 52,
@@ -15,6 +16,7 @@
  "lancetReferences": 397,
  "learningQuestions": 43,
  "levers": 33,
+ "loops": 21,
  "mediaArticles": 71,
  "newsSources": 156,
  "organisations": 334,

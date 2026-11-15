@@ -5,7 +5,7 @@ updated: 2026-11-01
 licence: CC BY 4.0
 ---
 
-> Where, and when, heat has changed what places do: ten heatwaves since 1998 and the plans, rules and roles that followed, on a drawn map of South and Southeast Asia.
+> Where, and when, heat has changed what places do: 10 heatwaves since 1998 and the plans, rules and roles that followed, on a drawn map of South and Southeast Asia.
 
 Understand heat
 

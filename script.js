@@ -961,7 +961,7 @@
       <p class="fp-box__season">${esc(F.season)}</p>
       <ul class="fp-box__facts">${F.facts.map(f => `<li><b>${esc(f.n)}</b> ${esc(f.text)}</li>`).join("")}</ul>
       <p class="panel__src">${esc(F.defn)} Source: ${extLink(F.source.url, F.source.label)}</p>
-      <p class="fp-box__go"><a href="#heat-now">See today’s heat in twelve cities</a> · ${extLink(F.map.url, "Today’s Climate Shift Index")}</p></div>`;
+      <p class="fp-box__go"><a href="#heat-now">See today’s heat in ${typeof LIVE_CITIES !== "undefined" ? LIVE_CITIES.length + " " : ""}cities</a> · ${extLink(F.map.url, "Today’s Climate Shift Index")}</p></div>`;
   }
 
   // a harm with no lever of its own still ends with somewhere to act: the nearest levers on its chain (HARM_HOPE,
@@ -1594,7 +1594,7 @@
   function renderPlanLive() {
     const box = document.getElementById("plan-live-out"); if (!box) return;
     const city = LIVE.find(c => c.id === plan.liveCity);
-    if (!city) { box.innerHTML = `<p class="plan-step__hint">Pick one of the twelve cities in “Heat right now” to see which days this week would reach your alert levels.</p>`; return; }
+    if (!city) { box.innerHTML = `<p class="plan-step__hint">Pick one of the ${typeof LIVE_CITIES !== "undefined" ? LIVE_CITIES.length + " " : ""}cities in “Heat right now” to see which days this week would reach your alert levels.</p>`; return; }
     const t = trig(), num = v => { const m = String(v || "").replace(",", ".").match(/-?\d+(\.\d+)?/); return m ? parseFloat(m[0]) : NaN; };
     const lv = LEVELS.map(l => ({ l, thr: num(t[l.id]) })).filter(x => isFinite(x.thr)).sort((a, b) => a.thr - b.thr);
     const feels = t.basis === "index" || t.basis === "wbgt";
@@ -2945,7 +2945,7 @@
   function nowMore() { const d = document.getElementById("now-more"); if (d) d.hidden = false; }
 
   /* ======================= YOUR CITY ======================= */
-  // a map of the twelve live cities and, for the one picked, its heat now, its plan, the cycles turning there and who is at work
+  // a map of the live cities and, for the one picked, its heat now, its plan, the cycles turning there and who is at work
   const CITIES = typeof CITY_PROFILES !== "undefined" ? CITY_PROFILES : [];
   const cityById = Object.fromEntries(CITIES.map(p => [p.id, p]));
   const MAPBOX = { lon0: 64, lon1: 129, lat0: -12, lat1: 34 };   // matches images/asia-map.svg (1000 × 721)
