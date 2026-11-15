@@ -1,0 +1,178 @@
+{
+ "city": "phnompenh",
+ "name": "Phnom Penh",
+ "generated": "2026-11-15",
+ "parent": "Phnom Penh",
+ "sources": [
+  {
+   "id": "outlines",
+   "name": "geoBoundaries district outlines (ADM2)",
+   "source": "Open Development Mekong, Open Development Cambodia",
+   "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "year": "2014",
+   "url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/KHM/ADM2/geoBoundaries-KHM-ADM2.geojson"
+  },
+  {
+   "id": "worldpop",
+   "name": "WorldPop, Global2 constrained age and sex structures, release R2025A, 100 m: Cambodia - Age and Sex Structures",
+   "year": "2025",
+   "licence": "CC BY 4.0",
+   "doi": "10.5258/SOTON/WP00841",
+   "url": "https://hub.worldpop.org/geodata/summary?id=80543"
+  },
+  {
+   "id": "worldcover",
+   "name": "ESA WorldCover 10 m 2021 v200 (built from Copernicus Sentinel-1 and Sentinel-2 data)",
+   "year": 2021,
+   "licence": "CC BY 4.0",
+   "url": "https://esa-worldcover.org/"
+  },
+  {
+   "id": "osm",
+   "name": "OpenStreetMap contributors, through the Overpass API",
+   "year": "2026-11-15",
+   "licence": "ODbL 1.0",
+   "url": "https://www.openstreetmap.org/copyright"
+  }
+ ],
+ "grid_m": 100,
+ "districts": [
+  {
+   "id": "14789045B33698683582262",
+   "name": "Chamkar Mon",
+   "area_km2": 11.21,
+   "residents": 160586,
+   "older_pct": 6.3,
+   "hospitals": 9,
+   "clinics": 34,
+   "built_pct": 86.5,
+   "park_pct": 0.9
+  },
+  {
+   "id": "14789045B63307875451806",
+   "name": "Doun Penh",
+   "area_km2": 7.72,
+   "residents": 181154,
+   "older_pct": 6.3,
+   "hospitals": 12,
+   "clinics": 38,
+   "built_pct": 67.7,
+   "park_pct": 1.7
+  },
+  {
+   "id": "14789045B12201712082665",
+   "name": "Prampir Meakkakra",
+   "area_km2": 2.21,
+   "residents": 83054,
+   "older_pct": 6.3,
+   "hospitals": 8,
+   "clinics": 22,
+   "built_pct": 97.9,
+   "park_pct": 0.3
+  },
+  {
+   "id": "14789045B87565610199894",
+   "name": "Tuol Kouk",
+   "area_km2": 8,
+   "residents": 170078,
+   "older_pct": 6.3,
+   "hospitals": 10,
+   "clinics": 16,
+   "built_pct": 94.9,
+   "park_pct": 0.1
+  },
+  {
+   "id": "14789045B25120607736063",
+   "name": "Dangkao",
+   "area_km2": 114.66,
+   "residents": 180741,
+   "older_pct": 6.3,
+   "hospitals": 5,
+   "clinics": 0,
+   "built_pct": 20.1,
+   "park_pct": 0
+  },
+  {
+   "id": "14789045B35009780503232",
+   "name": "Mean Chey",
+   "area_km2": 28.74,
+   "residents": 317461,
+   "older_pct": 6.3,
+   "hospitals": 3,
+   "clinics": 4,
+   "built_pct": 61.2,
+   "park_pct": 0
+  },
+  {
+   "id": "14789045B60405895501285",
+   "name": "Russey Keo",
+   "area_km2": 23.81,
+   "residents": 305735,
+   "older_pct": 6.3,
+   "hospitals": 7,
+   "clinics": 10,
+   "built_pct": 56.4,
+   "park_pct": 0
+  },
+  {
+   "id": "14789045B60283384180487",
+   "name": "Saensokh",
+   "area_km2": 53.92,
+   "residents": 221486,
+   "older_pct": 6.3,
+   "hospitals": 4,
+   "clinics": 8,
+   "built_pct": 48.6,
+   "park_pct": 0.1
+  },
+  {
+   "id": "14789045B97702071431855",
+   "name": "Pur SenChey",
+   "area_km2": 148.59,
+   "residents": 339753,
+   "older_pct": 6.3,
+   "hospitals": 6,
+   "clinics": 8,
+   "built_pct": 31.6,
+   "park_pct": 0
+  },
+  {
+   "id": "14789045B54201472344592",
+   "name": "Chraoy Chongvar",
+   "area_km2": 85.78,
+   "residents": 186050,
+   "older_pct": 6.3,
+   "hospitals": 5,
+   "clinics": 2,
+   "built_pct": 13,
+   "park_pct": 0.1
+  },
+  {
+   "id": "14789045B33152667021058",
+   "name": "Praek Pnov",
+   "area_km2": 115.84,
+   "residents": 219881,
+   "older_pct": 6.3,
+   "hospitals": 5,
+   "clinics": 0,
+   "built_pct": 9.3,
+   "park_pct": 0
+  },
+  {
+   "id": "14789045B58474594002009",
+   "name": "Chbar Ampov",
+   "area_km2": 87.12,
+   "residents": 192071,
+   "older_pct": 6.3,
+   "hospitals": 8,
+   "clinics": 7,
+   "built_pct": 20.1,
+   "park_pct": 0.2
+  }
+ ],
+ "totals": {
+  "residents_in_districts": 2558049,
+  "residents_in_city": 2558049,
+  "districts": 12
+ }
+}

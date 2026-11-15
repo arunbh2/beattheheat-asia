@@ -1,0 +1,167 @@
+{
+ "city": "delhi",
+ "name": "Delhi",
+ "generated": "2026-11-15",
+ "parent": "Delhi",
+ "sources": [
+  {
+   "id": "outlines",
+   "name": "geoBoundaries district outlines (ADM2)",
+   "source": "Pathways Data Pvt. Ltd., lgdirectory.gov.in",
+   "licence": "Open Data Commons Open Database License 1.0",
+   "year": "2021",
+   "url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/IND/ADM2/geoBoundaries-IND-ADM2.geojson"
+  },
+  {
+   "id": "worldpop",
+   "name": "WorldPop, Global2 constrained age and sex structures, release R2025A, 1 km, UN-adjusted: India - Age and Sex Structures",
+   "year": "2025",
+   "licence": "CC BY 4.0",
+   "doi": "10.5258/SOTON/WP00842",
+   "url": "https://hub.worldpop.org/geodata/summary?id=97055"
+  },
+  {
+   "id": "worldcover",
+   "name": "ESA WorldCover 10 m 2021 v200 (built from Copernicus Sentinel-1 and Sentinel-2 data)",
+   "year": 2021,
+   "licence": "CC BY 4.0",
+   "url": "https://esa-worldcover.org/"
+  },
+  {
+   "id": "osm",
+   "name": "OpenStreetMap contributors, through the Overpass API",
+   "year": "2026-11-15",
+   "licence": "ODbL 1.0",
+   "url": "https://www.openstreetmap.org/copyright"
+  }
+ ],
+ "grid_m": 1000,
+ "districts": [
+  {
+   "id": "76128533B71353370080255",
+   "name": "North West",
+   "area_km2": 158.79,
+   "residents": 2143274,
+   "older_pct": 5.4,
+   "hospitals": 50,
+   "clinics": 68,
+   "built_pct": 37.8,
+   "park_pct": 2.2
+  },
+  {
+   "id": "76128533B58262202014972",
+   "name": "New Delhi",
+   "area_km2": 171.34,
+   "residents": 2840885,
+   "older_pct": 5.4,
+   "hospitals": 42,
+   "clinics": 70,
+   "built_pct": 44.4,
+   "park_pct": 3.2
+  },
+  {
+   "id": "76128533B72485933575946",
+   "name": "East",
+   "area_km2": 66.11,
+   "residents": 1638201,
+   "older_pct": 5.4,
+   "hospitals": 59,
+   "clinics": 58,
+   "built_pct": 64,
+   "park_pct": 4.7
+  },
+  {
+   "id": "76128533B53136419849111",
+   "name": "South West",
+   "area_km2": 269.58,
+   "residents": 2142573,
+   "older_pct": 5.4,
+   "hospitals": 63,
+   "clinics": 43,
+   "built_pct": 24.1,
+   "park_pct": 1.5
+  },
+  {
+   "id": "76128533B68379889579232",
+   "name": "West",
+   "area_km2": 134.29,
+   "residents": 3195238,
+   "older_pct": 5.4,
+   "hospitals": 118,
+   "clinics": 59,
+   "built_pct": 67.6,
+   "park_pct": 4.3
+  },
+  {
+   "id": "76128533B97089774514948",
+   "name": "South",
+   "area_km2": 151.53,
+   "residents": 1602293,
+   "older_pct": 5.4,
+   "hospitals": 50,
+   "clinics": 62,
+   "built_pct": 26.8,
+   "park_pct": 2.6
+  },
+  {
+   "id": "76128533B45574198291616",
+   "name": "North ",
+   "area_km2": 289.85,
+   "residents": 3362825,
+   "older_pct": 5.4,
+   "hospitals": 87,
+   "clinics": 90,
+   "built_pct": 34.8,
+   "park_pct": 1.9
+  },
+  {
+   "id": "76128533B9976625304286",
+   "name": "North East",
+   "area_km2": 38.86,
+   "residents": 658927,
+   "older_pct": 5.5,
+   "hospitals": 14,
+   "clinics": 4,
+   "built_pct": 42.7,
+   "park_pct": 0.4
+  },
+  {
+   "id": "76128533B1420136949169",
+   "name": "South East",
+   "area_km2": 105.67,
+   "residents": 2379682,
+   "older_pct": 5.4,
+   "hospitals": 90,
+   "clinics": 76,
+   "built_pct": 55.9,
+   "park_pct": 8.4
+  },
+  {
+   "id": "76128533B19832024635761",
+   "name": "Central",
+   "area_km2": 75.43,
+   "residents": 1687323,
+   "older_pct": 5.4,
+   "hospitals": 59,
+   "clinics": 49,
+   "built_pct": 58.1,
+   "park_pct": 3.8
+  },
+  {
+   "id": "76128533B81419063387740",
+   "name": "Shahdara",
+   "area_km2": 26.66,
+   "residents": 855429,
+   "older_pct": 5.4,
+   "hospitals": 22,
+   "clinics": 17,
+   "built_pct": 79.2,
+   "park_pct": 3.8
+  }
+ ],
+ "totals": {
+  "residents_in_districts": 22506651,
+  "residents_in_city": 22506651,
+  "districts": 11
+ }
+}
