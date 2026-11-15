@@ -57,6 +57,13 @@
     <summary>Signals now follow Singapore's mandatory heat measures, the Philippines' new heat stress and compensation guidelines, South Korea's first emergency heatwave warning, a survey of outdoor workers in Viet Nam and the World Bank's report on heat in South Asia's cities. Income protection on the map now notes two lessons from India's first heat insurance for informal women workers.</summary>
   </entry>
   <entry>
+    <title>Heat over time on the Bangkok and Kolkata pages</title>
+    <link href="https://beattheheat.asia/growing/#g-city-heat-history" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-city-heat-history</id>
+    <updated>2026-11-15T00:00:00Z</updated>
+    <summary>The Bangkok and Kolkata pages now show how each city's own weather station record has changed since 1991: nights and days in the hottest tenth for that place, and the hottest day of each year, with a trend only where a test finds one and a regional model line beside it for context. Cities without a long enough station record show no trend.</summary>
+  </entry>
+  <entry>
     <title>The heat network can be narrowed by place, action and part played</title>
     <link href="https://beattheheat.asia/growing/#g-heat-network-finder" rel="alternate" type="text/html"/>
     <id>https://beattheheat.asia/growing/#g-heat-network-finder</id>
@@ -209,12 +216,5 @@
     <id>https://beattheheat.asia/growing/#g-question-history</id>
     <updated>2026-11-07T00:00:00Z</updated>
     <summary>A question that moves is easier to trust than one that simply changes. Each step now shows when it happened, what moved it and which records did, and advanced is never shown as answered.</summary>
-  </entry>
-  <entry>
-    <title>Questions opened for every step of access nobody has measured</title>
-    <link href="https://beattheheat.asia/growing/#g-step-questions" rel="alternate" type="text/html"/>
-    <id>https://beattheheat.asia/growing/#g-step-questions</id>
-    <updated>2026-11-07T00:00:00Z</updated>
-    <summary>Many steps between a scheme on paper and support in hand are unmeasured, especially whether support is adequate and on time. Each gap now carries a question and a study that could answer it.</summary>
   </entry>
 </feed>

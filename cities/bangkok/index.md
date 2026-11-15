@@ -40,6 +40,73 @@ Sources: [Australian Bureau of Meteorology: Thermal comfort observations, about 
 
 The week’s forecast is on [the interactive map](https://beattheheat.asia/#city-bangkok). How much climate change shaped today’s heat: [Climate Shift Index map, Climate Central](https://csi.climatecentral.org/).
 
+## Heat over time, 1991 to 2025
+
+How this city's heat has changed against its own past, year by year: nights and days hotter than this place's hottest tenth since the record began, and the hottest day of each year.
+
+From the daily record of the Bangkok Metropolis weather station, as summarised by NOAA from the station's own reports (29 of 35 years complete enough to count; the rest are left out as gaps).
+
+### Warm nights
+
+nights warmer than 27.7 °C, the warmest tenth of nights here
+
+**a clear rise: about 12 more nights a decade (95% range 4 to 19 a decade).**
+
+The model reconstruction for the surrounding region (ERA5-Land, which has no buildings or paved ground and so leaves out the city's own heat): no clear change.
+
+### Hot days
+
+days hotter than 36 °C, the hottest tenth of days here
+
+**a clear rise: about 13 more days a decade (95% range 6 to 22 a decade).**
+
+The model reconstruction for the surrounding region (ERA5-Land, which has no buildings or paved ground and so leaves out the city's own heat): no clear change.
+
+### Hottest day of the year
+
+the highest daily maximum recorded in each year
+
+**a clear rise: about 0.7 °C warmer a decade (95% range 0.3 to 1.0 a decade).**
+
+The model reconstruction for the surrounding region (ERA5-Land, which has no buildings or paved ground and so leaves out the city's own heat): leaning downward, not clear.
+
+The figures year by year
+
+Year | Warm nights | Hot days | Hottest day of the year |
+1993 | 17 | 21 | 38.4 °C |
+1994 | 7 | 20 | 38 °C |
+1996 | 13 | 17 | 37.9 °C |
+1997 | 33 | 27 | 37.4 °C |
+1998 | 74 | 37 | 38.8 °C |
+1999 | 13 | 13 | 38.5 °C |
+2000 | 14 | 7 | 37.1 °C |
+2001 | 34 | 17 | 37.4 °C |
+2002 | 19 | 14 | 38 °C |
+2003 | 39 | 24 | 38.6 °C |
+2004 | 30 | 36 | 39.4 °C |
+2005 | 39 | 23 | 38.1 °C |
+2006 | 33 | 27 | 39.8 °C |
+2007 | 27 | 57 | 38.6 °C |
+2008 | 13 | 25 | 38.1 °C |
+2009 | 11 | 37 | 39.4 °C |
+2010 | 54 | 81 | 39.7 °C |
+2011 | 5 | 12 | 39.2 °C |
+2012 | 35 | 54 | 40 °C |
+2013 | 42 | 65 | 40.1 °C |
+2014 | 54 | 66 | 39.1 °C |
+2015 | 40 | 58 | 39.8 °C |
+2017 | 32 | 36 | 39.1 °C |
+2018 | 26 | 7 | 38.7 °C |
+2019 | 59 | 46 | 40 °C |
+2020 | 58 | 63 | 39 °C |
+2021 | 42 | 33 | 38.4 °C |
+2022 | 42 | 46 | 39.2 °C |
+2023 | 99 | 75 | 41 °C |
+
+A single station shows how one site has changed against its own past. It is not a comparison between cities, and the station may sit at an airport or in open ground, so streets nearby can be hotter. Strong El Niño years, such as 2016 and 2023 to 2024, bring hotter years in much of the region, and warm years near the end of a record tilt a trend upward.
+
+Trend: Sen's slope with its 95% range, and a Mann-Kendall test: "a clear rise" where the test is under 5%, "leaning upward, not clear" between 5% and 20%, otherwise "no clear change". Index definitions follow the ETCCDI (TN90p, TX90p, TXx), counted against this city's whole record. Sources: [NOAA Global Surface Summary of the Day (GSOD), station gsod:48455099999](https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-summary-of-the-day&stations=48455099999&dataTypes=MAX,MIN&startDate=1991-01-01&endDate=2025-12-31&units=metric&format=json&includeStationName=true&includeStationLocation=1) (Public domain (US Government work)); [Open-Meteo Historical Weather API, ERA5-Land reanalysis (Copernicus Climate Change Service)](https://open-meteo.com/en/docs/historical-weather-api) (CC BY 4.0). Generated 2026-11-15.
+
 ## What heat costs here, and what could be done
 
 ### What a checked study says heat costs here
