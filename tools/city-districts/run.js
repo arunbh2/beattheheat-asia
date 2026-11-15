@@ -32,10 +32,10 @@ async function outlines() {
 // 2. WorldPop: list the age-structure products and this country's entries (discover), or read the chosen entry's files (build)
 async function worldpopEntry() {
   const list = await getJSON("https://hub.worldpop.org/rest/data/age_structures");
-  log("WorldPop age_structures products:"); for (const d of list.data || []) log(`  ${d.alias}: ${d.title}`);
+  log("WorldPop age_structures products:"); for (const d of list.data || []) log(`  ${d.alias}: ${d.title || d.name || ""}`);
   if (!CFG.worldpop.alias) return null;
   const e = await getJSON(`https://hub.worldpop.org/rest/data/age_structures/${CFG.worldpop.alias}?iso3=${CFG.iso3}`);
-  for (const d of e.data || []) log(`  entry ${d.id}: ${d.title} | year ${d.popyear} | ${(d.files || []).length} files | doi ${d.doi || ""} | licence ${d.license || ""}`);
+  for (const d of e.data || []) log(`  entry ${d.id}: ${d.title} | year ${d.popyear} | ${(d.files || []).length} files | doi ${d.doi || ""} | licence ${d.license || ""} | first file ${(d.files || [])[0] || ""}`);
   return (e.data || []).find(d => String(d.id) === String(CFG.worldpop.entry)) || null;
 }
 // 3. OpenStreetMap through Overpass: health facilities (points or the centre of a shape) and park shapes
