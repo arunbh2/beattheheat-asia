@@ -269,7 +269,7 @@ async function build() {
         ${loops.map(x => `<tr><td><b>${esc(x.l.name)}</b></td><td>${esc(x.why)}</td><td>${loopLevers(x.l).length ? esc(loopLevers(x.l)[0].title) : ""}</td></tr>`).join("")}</table>
       <div class="cols" style="margin-top:2px"><div><h2>Who heat hits hardest here</h2><ul class="tight">${risks.map(r => `<li>${esc(r.name)}</li>`).join("")}</ul>
           ${exs.length ? `<h2>A worked plan to learn from</h2><p>${exs.map(x => `<b>${esc(x.title)}</b> (${esc(x.place)}, ${esc(x.year)})`).join("; ")}</p>` : ""}</div>
-        <div><h2>Already at work here</h2><ul class="tight">${orgs.map(o => `<li>${esc(o.name)}</li>`).join("")}</ul><p style="font-size:7.5pt;color:#5E6570">Listing does not imply partnership, affiliation or endorsement.</p></div></div>
+        <div><h2>Already at work here</h2>${orgs.length ? `<ul class="tight">${orgs.map(o => `<li>${esc(o.name)}</li>`).join("")}</ul>` : `<p>Not found yet in the heat network's list.</p>`}<p style="font-size:7.5pt;color:#5E6570">Listing does not imply partnership, affiliation or endorsement.</p></div></div>
       <h2>Four questions for ${esc(c.name)}’s heat plan</h2>
       <ul class="check cols"><li>Is it funded, with a named owner?</li><li>Does it assess who is most vulnerable, and where they live?</li><li>Does it have legal backing, so departments are required to act?</li><li>Does it count indoor and night-time heat, not only daytime highs?</li></ul>
       <p style="margin-top:6px"><b>Official warnings:</b> ${esc(c.warn.label)} · <b>Today’s heat and the week ahead:</b> beattheheat.asia/#city-${cp.id}</p>`;

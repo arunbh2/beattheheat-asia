@@ -3041,7 +3041,7 @@
         </div>
         <div class="cp__card">
           <p class="cp__k">Already at work here <span>${orgs.length}</span></p>
-          <ul class="cp__orgs">${orgs.map(o => `<li>${extLink(o.url, o.name)}<p>${esc(o.does)}</p></li>`).join("")}</ul>
+          ${orgs.length ? `<ul class="cp__orgs">${orgs.map(o => `<li>${extLink(o.url, o.name)}<p>${esc(o.does)}</p></li>`).join("")}</ul>` : `<p class="cp__note">Not found yet: the heat network lists no organisation whose work is in ${esc(c.name)}. This describes the list, not the city. <a href="/heat-network/">The heat network</a></p>`}
           <p class="cp__note">Listing does not imply partnership, affiliation or endorsement.</p>
         </div>
       </div>
