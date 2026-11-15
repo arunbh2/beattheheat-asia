@@ -352,6 +352,37 @@ function cityHeat(c) {
       <script>window.CITY_HEAT=${JSON.stringify(data).replace(/</g, "\\u003c")};</script><script src="/city-heat/heat-core.js?v=${CHV}" defer></script><script src="/city-heat/city-heat.js?v=${CHV}" defer></script>`;
 }
 
+// the city heat briefing (step 3 of research/2026-11/city-heat/BUILD_BRIEF.md): what a checked study says heat costs the
+// city (only where the profile names a loop whose reason carries a checked figure, "cost"), and the actions that break the
+// city's vicious cycles, grouped by how soon they could act. Words in tools/city-districts/words.js.
+const CD = require("./city-districts/words.js");
+function cityBrief(cp) {
+  const costLoop = cp.cost ? cp.loops.find(x => x.id === cp.cost && x.src) : null;
+  if (cp.cost && !costLoop) throw new Error(`CITY_PROFILES ${cp.id}: cost names "${cp.cost}", which is not one of its loops with a source`);
+  const ids = new Set(); cp.loops.forEach(x => { const l = D.LOOPS.find(q => q.id === x.id); if (l) loopLevers(l).forEach(v => ids.add(v.id)); });
+  const groups = Object.keys(CD.when).map(k => [k, D.LEVERS.filter(v => ids.has(v.id) && v.when === k)]).filter(g => g[1].length);
+  const html = `<h2 id="brief">${esc(CD.briefTitle)}</h2><h3>${esc(CD.cost)}</h3><p>${costLoop ? `${esc(costLoop.why)} <span class="src">Source: ${ext(costLoop.src.url, costLoop.src.label)}</span>` : esc(CD.noCost)}</p>
+      <h3>${esc(CD.options)}</h3><p class="meta">${esc(CD.optionsLede)}</p>${groups.length ? groups.map(([k, vs]) => `<p><strong>${esc(CD.when[k])}:</strong> ${vs.map(v => `<a href="/actions/#${v.id}">${esc(v.title)}</a>${v.watch && v.watch.length ? ` <span class="meta">(${esc(CD.watch.toLowerCase())})</span>` : ""}`).join(" · ")}</p>`).join("") : `<p>Not found yet.</p>`}`;
+  const md = [`${CD.cost}: ${costLoop ? `${costLoop.why} (${costLoop.src.label}, ${costLoop.src.url})` : CD.noCost}`, `${CD.options}: ${groups.map(([k, vs]) => `${CD.when[k]}: ${vs.map(v => v.title).join("; ")}`).join(". ") || "Not found yet."}`];
+  return { html, md };
+}
+// the district picture, where a city has one (data/city-districts/<id>.json, written by the district job): a table that
+// loads only when opened (city-heat/districts.js); with no JavaScript, a link to the data file
+function cityDistricts(c) {
+  const f = path.join(ROOT, "data", "city-districts", c.id + ".json");
+  if (!fs.existsSync(f)) return { html: "", md: [] };
+  const d = JSON.parse(fs.readFileSync(f, "utf8")), url = `/data/city-districts/${c.id}.json`, n = d.districts.length;
+  const src = d.sources.map(s => `${ext(s.url, s.name)} (${esc(String(s.year))}, ${esc(s.licence)})`).join(" · ");
+  const data = { id: c.id, url: url + "?v=" + CHV, n, cols: CD.cols, above: CD.above, below: CD.below };
+  const html = `<h2 id="districts">${esc(CD.title)}</h2><p>${esc(CD.lede)}</p>
+      <details class="cd"><summary>${esc(CD.open(n))}</summary><div class="cd-body" data-city-districts><p>${esc(CD.noJs)} <a href="${url}">${esc(c.name)} districts (JSON)</a>.</p></div></details>
+      <ul class="meta">${CD.limits.map(x => `<li>${esc(x)}</li>`).join("")}</ul><p class="src">Sources: ${src}. Generated ${esc(d.generated)}.</p>
+      <style>.cd{margin:10px 0}.cd summary{cursor:pointer;font-weight:700;min-height:24px;padding:6px 0}.cd-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}.cd table{border-collapse:collapse;font-size:.875rem;min-width:640px}.cd th,.cd td{text-align:right;padding:6px 8px;border-top:1px solid #E6DFD4;white-space:nowrap}.cd th:first-child,.cd td:first-child{text-align:left}.cd th button{font:inherit;font-weight:700;background:none;border:0;padding:6px 0;min-height:24px;cursor:pointer;color:inherit;text-decoration:underline;text-decoration-color:#F26430;text-underline-offset:3px}.cd .up{color:#16202B;font-weight:700}.cd .dn{color:#5E6570}.cd small{display:block;font-size:.75rem;color:#5E6570}</style>
+      <script>window.CITY_DISTRICTS=${JSON.stringify(data).replace(/</g, "\\u003c")};</script><script src="/city-heat/districts.js?v=${CHV}" defer></script>`;
+  const md = [`${CD.title}: ${n} districts, each with estimated residents, the share aged 65 and over, hospitals and clinics mapped in OpenStreetMap, built-up share and park area share, side by side and never ranked. Data: ${SITE}${url}. Limits: ${CD.limits.join(" ")}`];
+  return { html, md };
+}
+
 // cities: an index page and one page per city
 const CITY_PAGES = [];
 // cities whose country has a snapshot on /countries/ (tools/build-solutions.js) link to it
@@ -370,6 +401,7 @@ const SNAP_SLUG = { Bangladesh: "bangladesh", India: "india", Indonesia: "indone
     h += `<h2 id="${cp.id}"><a href="/cities/${cp.id}/">${esc(c.name)}, ${esc(c.country)}</a></h2><p>${esc(cp.tagline)}</p><p class="meta">Heat plan: ${esc(status)}. Cycles tied to it: ${esc(loops.map(x => x.l.name).join(", "))}.</p>`;
     const body = `<a class="cs-where" href="/atlas/#city-${cp.id}">${PIN}Where this happens: ${esc(c.name)} on the Atlas <span aria-hidden="true">→</span></a>${cp.heat ? `<p><strong>Heat type:</strong> ${esc(cp.heat)} <a href="/glossary/#dryhumid">Dry heat and humid heat, explained</a>.</p>` : ""}<h2>Heat action plan: ${esc(status)}</h2><p>${esc(cp.hap.text)}</p><p class="src">Sources: ${cp.hap.sources.map(s => ext(s.url, s.label)).join(" · ")}</p>
       ${cityHeat(c)}<p>The week’s forecast is on <a href="/#city-${cp.id}">the interactive map</a>. ${D.LIVE_FINGERPRINT ? `How much climate change shaped today’s heat: ${ext(D.LIVE_FINGERPRINT.map.url, D.LIVE_FINGERPRINT.map.label)}.` : ""}</p>
+      ${cityBrief(cp).html}${cityDistricts(c).html}
       <h2>Vicious cycles the evidence ties to ${esc(c.name)}</h2>${loops.map(x => `<h3><a href="/loops/#${x.l.id}">${esc(x.l.name)}</a></h3><p>${esc(x.why)}${x.src ? ` <span class="src">Source: ${ext(x.src.url, x.src.label)}</span>` : ""}</p><p class="meta">${esc(x.l.summary)} <a href="/#loop-${x.l.id}">Follow it on the map</a>.</p>`).join("")}
       ${checkFor("city-" + cp.id, c.name)}
       ${recentFor(["city-" + cp.id, "country-" + (SNAP_SLUG[c.country] || c.country.toLowerCase().replace(/\s+/g, "-"))])}
@@ -383,7 +415,7 @@ const SNAP_SLUG = { Bangladesh: "bangladesh", India: "india", Indonesia: "indone
     CITY_PAGES.push(cpPage);
     out[cpPage.slug] = page(cpPage, cIntro, body, [{ "@context": "https://schema.org", "@type": "City", name: c.name, containedInPlace: { "@type": "Country", name: c.country },
       geo: { "@type": "GeoCoordinates", latitude: c.lat, longitude: c.lon }, url }]);
-    m.push(`### ${c.name}, ${c.country}`, cp.tagline, `Heat action plan (${status}): ${cp.hap.text} Sources: ${cp.hap.sources.map(s => `${s.label} ${s.url}`).join("; ")}`, `${D.LIVE_WBGT.title}: the page shows ${D.LIVE_WBGT.name.toLowerCase()} now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: ${c.warn.label} ${c.warn.url}`,
+    m.push(`### ${c.name}, ${c.country}`, cp.tagline, `Heat action plan (${status}): ${cp.hap.text} Sources: ${cp.hap.sources.map(s => `${s.label} ${s.url}`).join("; ")}`, ...cityBrief(cp).md, ...cityDistricts(c).md, `${D.LIVE_WBGT.title}: the page shows ${D.LIVE_WBGT.name.toLowerCase()} now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: ${c.warn.label} ${c.warn.url}`,
       ...loops.map(x => `- ${x.l.name}: ${x.why}`), `Who heat hits hardest: ${risks.map(g => g.name).join("; ")}`, `Already at work: ${orgs.length ? orgs.map(o => o.name).join("; ") : "Not found yet: the heat network lists no organisation whose work is in this city. This describes the list, not the city."}`, `Page: ${url}`);
   });
   out[p.slug] = page(p, intro, h); md.push(m.join("\n\n"));

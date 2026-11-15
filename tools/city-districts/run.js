@@ -63,8 +63,12 @@ async function osm() {
 }
 // 4. rasters: geotiff, read only the window over the city
 async function raster(url, step) {
-  const { fromUrl } = await import("geotiff");
-  const img = await (await fromUrl(url)).getImage(), [ox, oy] = img.getOrigin(), [rx, ry] = img.getResolution(), b = CFG.bbox;
+  const { fromUrl, fromArrayBuffer } = await import("geotiff");
+  // read only the window over the city where the server allows partial reads; otherwise download the file whole
+  let tif; try { tif = await fromUrl(url); await tif.getImage(); } catch (e) {
+    log(`  partial reads refused (${e.message}); downloading ${path.basename(url)} whole`);
+    const r = await fetch(url, { headers: { "User-Agent": UA } }); if (!r.ok) throw new Error(`${r.status} for ${url}`); tif = await fromArrayBuffer(await r.arrayBuffer()); }
+  const img = await tif.getImage(), [ox, oy] = img.getOrigin(), [rx, ry] = img.getResolution(), b = CFG.bbox;
   const x0 = Math.max(0, Math.floor((b[0] - ox) / rx)), x1 = Math.min(img.getWidth(), Math.ceil((b[2] - ox) / rx)), y0 = Math.max(0, Math.floor((b[3] - oy) / ry)), y1 = Math.min(img.getHeight(), Math.ceil((b[1] - oy) / ry));
   const w = x1 - x0, h = y1 - y0, sw = step ? Math.ceil(w / step) : w, sh = step ? Math.ceil(h / step) : h;
   const data = (await img.readRasters({ window: [x0, y0, x1, y1], samples: [0], width: sw, height: sh, resampleMethod: "nearest" }))[0];
@@ -117,4 +121,4 @@ function assign(gr, districts) { const find = G.index(districts), out = new Int1
   fs.mkdirSync(path.join(ROOT, "data", "city-districts"), { recursive: true });
   fs.writeFileSync(path.join(ROOT, "data", "city-districts", CITY + ".json"), JSON.stringify(out, null, 1) + "\n");
   log(`wrote data/city-districts/${CITY}.json: ${n} districts, ${out.totals.residents_in_districts} residents`);
-})().catch(e => { console.error("FAILED: " + e.message); process.exit(1); });
+})().catch(e => { console.error("FAILED: " + (e.stack || e.message)); process.exit(1); });

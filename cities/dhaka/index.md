@@ -40,6 +40,22 @@ Sources: [Australian Bureau of Meteorology: Thermal comfort observations, about 
 
 The week’s forecast is on [the interactive map](https://beattheheat.asia/#city-dhaka). How much climate change shaped today’s heat: [Climate Shift Index map, Climate Central](https://csi.climatecentral.org/).
 
+## What heat costs here, and what could be done
+
+### What a checked study says heat costs here
+
+No checked estimate found yet for this city.
+
+### What could be done
+
+Actions that break the vicious cycles tied to this city, grouped by how soon they could act. Options, not instructions; each links to its evidence and to any side effects to watch for.
+
+**This hot season:** [Heat-safe work](https://beattheheat.asia/actions/#heatrules) · [Free care for heat illness](https://beattheheat.asia/actions/#freecare) · [Keep children in school](https://beattheheat.asia/actions/#keepinschool)
+
+**Over the next few years:** [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash) (watch for side effects) · [Social protection floors](https://beattheheat.asia/actions/#socialprotection) · [Affordable cooling for the poorest](https://beattheheat.asia/actions/#affordablecool) (watch for side effects)
+
+**Over a decade:** [Cool, affordable housing](https://beattheheat.asia/actions/#coolhousing) (watch for side effects)
+
 ## Vicious cycles the evidence ties to Dhaka
 
 ### [The poverty–heat trap](https://beattheheat.asia/loops/#poverty)

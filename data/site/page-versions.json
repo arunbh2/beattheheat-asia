@@ -56,92 +56,92 @@
   "changed": "2026-11-15"
  },
  "/cities/ahmedabad/": {
-  "hash": "65fdd119d17be03f",
+  "hash": "878005f7aef1d939",
   "changed": "2026-11-15"
  },
  "/cities/bangkok/": {
-  "hash": "7bf32b7c1c39c49c",
+  "hash": "b615037a84d11f32",
   "changed": "2026-11-15"
  },
  "/cities/bengaluru/": {
-  "hash": "2853556fb69958cd",
-  "changed": "2026-10-01"
+  "hash": "0a7045fca1a3ec39",
+  "changed": "2026-11-15"
  },
  "/cities/bhubaneswar/": {
-  "hash": "c6da6d22ed98bf00",
-  "changed": "2026-10-01"
+  "hash": "c5424f555ae5c184",
+  "changed": "2026-11-15"
  },
  "/cities/chattogram/": {
-  "hash": "6b447070607259ac",
-  "changed": "2026-10-01"
+  "hash": "7f14ddd26fca1b0c",
+  "changed": "2026-11-15"
  },
  "/cities/chennai/": {
-  "hash": "6b0039b2bf4959ff",
-  "changed": "2026-10-01"
+  "hash": "c7b6e65f2106d38d",
+  "changed": "2026-11-15"
  },
  "/cities/chiangmai/": {
-  "hash": "232f158b3e2ce883",
-  "changed": "2026-10-01"
+  "hash": "3ba170a89aa32dc1",
+  "changed": "2026-11-15"
  },
  "/cities/colombo/": {
-  "hash": "6ca3506ca65c3114",
+  "hash": "a6c7210ca339796d",
   "changed": "2026-11-15"
  },
  "/cities/delhi/": {
-  "hash": "fd1d9ac070fd5d02",
+  "hash": "22176edd9ccc0f87",
   "changed": "2026-11-15"
  },
  "/cities/dhaka/": {
-  "hash": "213a9b3956e32dda",
+  "hash": "9e070f87f6ad3f6e",
   "changed": "2026-11-15"
  },
  "/cities/hanoi/": {
-  "hash": "3fc0837b3b8e69d8",
+  "hash": "6d5bdeb07d195c15",
   "changed": "2026-11-15"
  },
  "/cities/hochiminh/": {
-  "hash": "a8a80c35d9b6a07f",
-  "changed": "2026-10-01"
+  "hash": "c4f1eb2d4e7b4b86",
+  "changed": "2026-11-15"
  },
  "/cities/hyderabad/": {
-  "hash": "7eb008d733c4ec40",
-  "changed": "2026-10-01"
+  "hash": "4476ac8c89da27c0",
+  "changed": "2026-11-15"
  },
  "/cities/jakarta/": {
-  "hash": "ba2d403718e30029",
+  "hash": "4e016b3caa0d308b",
   "changed": "2026-11-15"
  },
  "/cities/kathmandu/": {
-  "hash": "bb121fea87192099",
+  "hash": "927bf8b97bea60da",
   "changed": "2026-11-15"
  },
  "/cities/kolkata/": {
-  "hash": "7248f00126ff8df3",
-  "changed": "2026-10-01"
+  "hash": "fc27a399642cac26",
+  "changed": "2026-11-15"
  },
  "/cities/manila/": {
-  "hash": "b9d83b9b64cd6b22",
+  "hash": "53ef7901268dc7d0",
   "changed": "2026-11-15"
  },
  "/cities/mumbai/": {
-  "hash": "8a17b80ce6540832",
+  "hash": "86467915597a6da6",
   "changed": "2026-11-15"
  },
  "/cities/phnompenh/": {
-  "hash": "27d3985b6a8626bf",
+  "hash": "03dc72551b69beb1",
   "changed": "2026-11-15"
  },
  "/cities/quezoncity/": {
-  "hash": "4ac5a263babdf57f",
-  "changed": "2026-10-01"
+  "hash": "336d98dab5957c97",
+  "changed": "2026-11-15"
  },
  "/cities/singapore/": {
-  "hash": "819bb0b95ea90ccd",
+  "hash": "8993c5c4c947be0c",
   "changed": "2026-11-15"
  },
  "/cities/surabaya/": {
-  "hash": "e9bde62f3ed2b7d6",
-  "changed": "2026-10-01"
+  "hash": "d0a23a164543af32",
+  "changed": "2026-11-15"
  },
  "/cooling-options/": {
   "hash": "d0ef31f5aa5c60c6",
@@ -208,7 +208,7 @@
   "changed": "2026-11-07"
  },
  "/growing/": {
-  "hash": "d79ba671fee5a2c6",
+  "hash": "332451ebf012fd69",
   "changed": "2026-11-15"
  },
  "/guide/": {

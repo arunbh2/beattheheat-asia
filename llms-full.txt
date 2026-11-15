@@ -3378,6 +3378,10 @@ A city-state with hot nights, dense towers and an early national heat stress adv
 
 Heat action plan (Heat plan in force): Singapore launched a national Heat Stress Advisory in July 2023. It rates heat stress as low, moderate or high from the wet-bulb globe temperature, and tells people what to do at each level. Since March 2025 a heatwave is declared when the daily maximum reaches at least 35 °C and the daily mean at least 29 °C for three days in a row; a taskforce of 37 public agencies then opens air-conditioned cooling spaces in community centres. In March 2026 a Heat Resilience Policy Office was set up to coordinate action across agencies, oversee research and draft a heat resilience action plan. Sources: Ministry of Sustainability and the Environment, 2023 https://mse.gov.sg/latest-news/press-release-heat-stress-advisory; Malay Mail: Singapore’s heatwave response plan, 2025 https://www.malaymail.com/news/singapore/2025/03/20/singapore-rolls-out-cooling-measures-as-heatwave-response-plan-unveiled/170163; Ministry of Sustainability and the Environment: Committee of Supply speech, 2026 https://www.mse.gov.sg/latest-news/speech-by-sms-janil-puthucheary-committee-of-supply-2026/
 
+What a checked study says heat costs here: No checked estimate found yet for this city.
+
+What could be done: This hot season: Cool nights and support; Cooling centres and check-ins. Over the next few years: Green, cool cities; Keep city trees alive; Count every heat death. Over a decade: Cool by design
+
 Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: Meteorological Service Singapore https://www.weather.gov.sg/
 
 - The sleepless-nights loop: Singapore has averaged 76 warm nights a year over four decades; by 2100 they could come on most nights.
@@ -3399,6 +3403,10 @@ Page: https://beattheheat.asia/cities/singapore/
 A tropical megacity where heat costs lives, livelihoods and a share of the city’s economy.
 
 Heat action plan (Heat plan in force): For the 2026 hot season Bangkok opened 304 cooling centres in schools, health centres and district offices. The city’s own Urban Heat Management Action Plan for 2026 has 22 indicators and a committee chaired by a deputy governor; its targets include cooling rooms in 80% of schools and public health service centres, at least two cooling points in every district, and home visits to at least 5,000 vulnerable households a year during heat alerts. A 2026 financing strategy with UNDP costs the plan at about THB 146 million to set up and THB 10.8 million a year to run, mostly from existing city budgets, and notes that running costs are not always covered. Sources: Government of Thailand, 2026 https://thailand.go.th/issue-focus-detail/bangkok-launches-304-cooling-centers-to-combat-extreme-heat; World Bank, Shaping a Cooler Bangkok, 2025 https://www.worldbank.org/en/country/thailand/publication/shaping-a-cooler-bangkok-tackling-urban-heat-for-a-more-livable-city; UNDP and Bangkok Metropolitan Administration: Bangkok's financing strategy for tackling urban heat, 2026 https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf
+
+What a checked study says heat costs here: Heat deaths, about 593 a year, cost up to 0.7% of the city’s economy: more than its 2020 public health budget. (Park and Rubinyi, World Bank working paper, 2026, https://openknowledge.worldbank.org/entities/publication/d8ba6f53-d778-47d2-b4a6-37dff7db2466/full)
+
+What could be done: This hot season: Heat-safe work; Cool nights and support. Over the next few years: Green without pushing people out; Income protection in heatwaves; Social protection floors; Dedicated heat budgets; Anticipatory action
 
 Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: Thai Meteorological Department https://www.tmd.go.th/
 
@@ -3422,6 +3430,10 @@ A fast-growing northern capital whose power and water strain together in the hea
 
 Heat action plan (No published city heat plan found): No city heat action plan found. From 2018 to 2021 the Viet Nam Red Cross ran an early-action plan for heatwaves in 15 of Hanoi’s wards, triggered by a heat-index forecast. Sources: Anticipation Hub https://www.anticipation-hub.org/experience/anticipatory-action-in-the-world/vietnam/fbf-ready-reducing-heat-waves-impacts-on-the-vulnerable-populations-of-hanoi
 
+What a checked study says heat costs here: No checked estimate found yet for this city.
+
+What could be done: Over the next few years: Clean, efficient cooling; Backup power for water. Over a decade: Power that doesn’t need water
+
 Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: National Centre for Hydro-Meteorological Forecasting https://nchmf.gov.vn/
 
 - The energy–water loop: In May and June 2023 heat drove demand up as hydropower reservoirs ran low; blackouts in the north cost about US$1.4 billion.
@@ -3439,6 +3451,10 @@ Page: https://beattheheat.asia/cities/hanoi/
 A dense, humid metropolis where heat closes schools and pushes the heat index into danger.
 
 Heat action plan (Parts in place, no full plan found): In Metro Manila, Quezon City has set up a city Heat Action Team, named chief heat action officers and opened 32 libraries as cooling centres. Its full heat action plan is still being developed. Sources: Quezon City Government https://quezoncity.gov.ph/qc-beefs-up-action-vs-extreme-heat-designates-chief-heat-action-officers/
+
+What a checked study says heat costs here: No checked estimate found yet for this city.
+
+What could be done: This hot season: Keep children in school. Over the next few years: Green, cool cities; Crop insurance and fair credit. Over a decade: Cool by design
 
 Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: PAGASA heat index https://www.pagasa.dost.gov.ph/weather/heat-index
 
@@ -3460,6 +3476,10 @@ A sinking, sprawling capital in the country where half of Southeast Asia’s air
 
 Heat action plan (Parts in place, no full plan found): No standalone heat action plan found. Jakarta’s Climate Action Plan 2021–2050 aims to reduce its vulnerability to extreme heat, and in October 2025 the governor told health facilities to prepare for heat illness. Sources: C40 Cities, 2025 https://www.c40.org/wp-content/uploads/2025/09/RfP_RF_Jakarta.pdf; Antara, 2025 https://www.antaranews.com/berita/5178905/pramono-instruksikan-mitigasi-dampak-cuaca-panas-ekstrem-di-jakarta
 
+What a checked study says heat costs here: No checked estimate found yet for this city.
+
+What could be done: Over the next few years: Clean, efficient cooling; Fire-smart landscapes; Keep city trees alive. Over a decade: Deep emission cuts
+
 Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: BMKG https://www.bmkg.go.id/
 
 - The global cooling loop: Half of Southeast Asia’s projected 300 million air conditioners in 2040 could be in Indonesia.
@@ -3479,6 +3499,10 @@ Page: https://beattheheat.asia/cities/jakarta/
 A capital of extreme pre-monsoon heat, street trade and falling groundwater.
 
 Heat action plan (Heat plan in force): Delhi launched its 2025 Heat Action Plan in April 2025, with graded heat alerts, cooling shelters, 3,000 water points and heatstroke units in hospitals. Experts have recommended legal backing and dedicated funds to strengthen it. Sources: Business Today, 2025 https://www.businesstoday.in/amp/india/story/imd-predicts-heatwave-conditions-in-april-delhi-govt-launches-action-plan-472890-2025-04-21; Citizen Matters https://citizenmatters.in/city-buzz-five-things-you-must-know-about-the-delhi-heat-action-plan
+
+What a checked study says heat costs here: No checked estimate found yet for this city.
+
+What could be done: This hot season: Cooling centres and check-ins. Over the next few years: Keep city trees alive; Smart irrigation and groundwater rules; Count every heat death; Heat-smart lending
 
 Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: India Meteorological Department https://mausam.imd.gov.in/
 
@@ -3502,6 +3526,10 @@ One of the world’s densest cities, where heat costs workdays and fills tin-roo
 
 Heat action plan (Parts in place, no full plan found): Dhaka North City Corporation appointed Asia’s first Chief Heat Officer in 2023. No city heat action plan found yet. Sources: Arsht-Rock Resilience Center, 2023 https://onebillionresilient.org/2023/05/03/bushra-afreen-dhaka-chief-heat-officer/
 
+What a checked study says heat costs here: No checked estimate found yet for this city.
+
+What could be done: This hot season: Heat-safe work; Free care for heat illness; Keep children in school. Over the next few years: Income protection in heatwaves; Social protection floors; Affordable cooling for the poorest. Over a decade: Cool, affordable housing
+
 Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: Bangladesh Meteorological Department https://www.bmd.gov.bd/
 
 - The poverty–heat trap: Heat-related illness cost Bangladesh 250 million workdays in 2024, worth up to US$1.78 billion.
@@ -3524,6 +3552,10 @@ A valley city warming fast, below the Himalayan ice that feeds South Asia’s ri
 
 Heat action plan (No published city heat plan found): No city heat action plan found. Nepal adopted a national plan of action on heat waves in 2024, and Nepalgunj, in the plains, wrote the country’s first local heat action plan in 2023. Sources: Onlinekhabar, 2025 https://english.onlinekhabar.com/reassessing-nepals-heat-wave-response-lessons-from-2024-and-the-way-forward.html; Nepalgunj Heat Action Plan, 2023 https://preparecenter.org/wp-content/uploads/2023/07/Nepalgunj-Heat-Action-Plan-2023.pdf
 
+What a checked study says heat costs here: No checked estimate found yet for this city.
+
+What could be done: This hot season: Heat-safe work; Free care for heat illness. Over the next few years: Cut black carbon. Over a decade: Deep emission cuts
+
 Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: Department of Hydrology and Meteorology https://www.mfd.gov.np/
 
 - The melting-ice loop: The Hindu Kush Himalaya’s glaciers lost ice 65% faster in the 2010s, and could lose 30–50% of their volume by 2100.
@@ -3541,6 +3573,10 @@ Page: https://beattheheat.asia/cities/kathmandu/
 A coastal megacity where the nights are heating faster than the days.
 
 Heat action plan (Parts in place, no full plan found): Mumbai’s 2022 Climate Action Plan names urban heat as a priority, and the city is working with C40 on heat-health protocols for its hospitals. No standalone city heat action plan found. Sources: Citizen Matters https://citizenmatters.in/mcap-climate-change-heat-mumbai/; C40 Cities, 2026 https://www.c40.org/wp-content/uploads/2026/07/RfP-Heat-Health-protocols-for-Mumbai.pdf
+
+What a checked study says heat costs here: No checked estimate found yet for this city.
+
+What could be done: This hot season: Free care for heat illness; Cool nights and support; Cooling centres and check-ins. Over the next few years: Affordable cooling for the poorest; Count every heat death
 
 Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: India Meteorological Department https://mausam.imd.gov.in/
 
@@ -3562,6 +3598,10 @@ Where South Asia’s first heat action plan began, and where its results were me
 
 Heat action plan (Heat plan in force): Ahmedabad launched South Asia’s first heat action plan in 2013, after a 2010 heatwave caused an estimated 1,344 excess deaths. An estimated 1,190 deaths a year were later avoided. Sources: Hess et al., Journal of Environmental and Public Health, 2018 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6236972/
 
+What a checked study says heat costs here: No checked estimate found yet for this city.
+
+What could be done: This hot season: Heat action plans; Heat-ready health services; Heat-safe work; Cooling centres and check-ins. Over the next few years: Income protection in heatwaves; Social protection floors; Count every heat death
+
 Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: India Meteorological Department https://mausam.imd.gov.in/
 
 - The overwhelmed-clinic loop: The plan prepared hospitals and warned the public before heat peaked.
@@ -3582,6 +3622,10 @@ A coastal capital where humid heat meets crowded markets, harbours and fish land
 
 Heat action plan (Parts in place, no full plan found): Colombo Municipal Council, with the Department of Meteorology and SLYCAN Trust, has worked on guidelines for a gender-sensitive heat action plan. The Department of Meteorology issues heat index advisories. No adopted city heat plan found yet. Sources: APN and SLYCAN Trust, 2022 https://www.apn-gcr.org/publication/colombo-municipal-council-sri-lanka-integrating-heat-stress-management-into-climate-policies-and-guidelines-for-gender-sensitive-heat-action-plans-in-sri-lanka/; News 1st, 2024 https://english.newsfirst.lk/2024/03/04/heat-advisory-issued-by-sri-lanka-s-met-dept
 
+What a checked study says heat costs here: No checked estimate found yet for this city.
+
+What could be done: This hot season: Heat-safe work. Over the next few years: Green, cool cities; Income protection in heatwaves; Social protection floors. Over a decade: Cool by design
+
 Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: Department of Meteorology, Sri Lanka https://www.meteo.gov.lk/
 
 - The cooling trap: A University of Colombo study found a pronounced urban heat island, as green space gives way to concrete and asphalt.
@@ -3599,6 +3643,10 @@ Page: https://beattheheat.asia/cities/colombo/
 A fast-growing capital of garment factories and metal roofs, where the hot season peaks before the rains.
 
 Heat action plan (No published city heat plan found): A proposal with the Ministry of Water Resources and Meteorology and Phnom Penh Capital Hall would develop a heat action plan for the city, with thresholds and response protocols. No adopted city heat plan found yet. Sources: National Committee for Sub-National Democratic Development https://library.ncdd.gov.kh/detail/17224/download
+
+What a checked study says heat costs here: No checked estimate found yet for this city.
+
+What could be done: This hot season: Heat-safe work; Keep children in school. Over the next few years: Green, cool cities; Income protection in heatwaves; Social protection floors. Over a decade: Cool by design
 
 Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: Ministry of Water Resources and Meteorology https://www.mowram.gov.kh/
 
@@ -3620,6 +3668,10 @@ A humid delta megacity where the heat index runs far above the thermometer.
 
 Heat action plan (Parts in place, no full plan found): West Bengal’s heat wave action plan gives municipal corporations and local bodies the task of preparing and carrying out heat wave action plans. The Kolkata Climate Action Plan, released by the Kolkata Municipal Corporation for consultation in June 2025, lists a city-wide heat action plan among its priority actions. No standalone city heat action plan found. Sources: Department of Disaster Management and Civil Defence, West Bengal: Action plan on heat wave https://heathealth.info/wp-content/uploads/Action-plan-heat-Wave-West-Bengal-.pdf; Climate Action Network South Asia, 2025: Kolkata Climate Action Plan released for stakeholder consultation https://cansouthasia.net/kolkata-climate-action-plan-kcap-released-for-stakeholder-consultation/
 
+What a checked study says heat costs here: No checked estimate found yet for this city.
+
+What could be done: This hot season: Heat-safe work; Cooling centres and check-ins. Over the next few years: Income protection in heatwaves; Social protection floors; Count every heat death
+
 Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: India Meteorological Department https://mausam.imd.gov.in/
 
 - The invisible-deaths loop: Kolkata’s daily average heat index usually runs 6 to 12 °C above the air temperature, but India’s heatwave criteria leave out humidity, so the danger of humid heat goes unreported.
@@ -3637,6 +3689,10 @@ Page: https://beattheheat.asia/cities/kolkata/
 One of India’s hottest and most humid big cities, where homes stay hot long after sunset.
 
 Heat action plan (Parts in place, no full plan found): In 2025 Tamil Nadu began preparing heatwave action plans for its major cities, including Chennai. In July 2026 the Greater Chennai Corporation and the Council on Energy, Environment and Water agreed to set up a unit to identify and prioritise heat measures across heat-vulnerable wards and zones. No published city heat action plan found. Sources: DT Next, 2025: Tamil Nadu readies heatwave action plan https://www.dtnext.in/news/tamilnadu/as-summer-approaches-tamil-nadu-readies-heatwave-action-plan-to-prevent-deaths-823240; DT Next, 2026: GCC partners with CEEW to boost city's extreme heat resilience https://www.dtnext.in/amp/story/news/chennai/gcc-partners-with-ceew-to-boost-citys-extreme-heat-resilience
+
+What a checked study says heat costs here: No checked estimate found yet for this city.
+
+What could be done: This hot season: Heat action plans; Heat-ready health services; Heat-safe work; Cool nights and support. Over the next few years: Income protection in heatwaves; Social protection floors
 
 Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: India Meteorological Department https://mausam.imd.gov.in/
 
@@ -3658,6 +3714,10 @@ A fast-growing Deccan city in a state that classes heatwaves as a disaster.
 
 Heat action plan (Parts in place, no full plan found): Telangana classes heatwaves as a state-specific disaster. Its Heatwave Action Plan 2025 includes strategies for Hyderabad and a heat stress and vulnerability assessment for all 33 districts, and the state’s heatwave plan opens malls, public buildings and religious places as water points and cooling centres. No standalone city heat action plan found. Sources: The Hans India, 2025: Telangana rolls out Heatwave Action Plan 2025 https://www.thehansindia.com/telangana/telangana-rolls-out-heatwave-action-plan-2025-967782; Telangana Today: Telangana rolls out heatwave action plan https://telanganatoday.com/telangana-rolls-out-heatwave-action-plan-schools-to-implement-water-bells-cooling-centres-set-up
 
+What a checked study says heat costs here: No checked estimate found yet for this city.
+
+What could be done: This hot season: Heat-safe work; Keep children in school. Over the next few years: Income protection in heatwaves; Social protection floors
+
 Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: India Meteorological Department https://mausam.imd.gov.in/
 
 - The poverty–heat trap: During heat alerts, Telangana’s plan moves outdoor work out of the hours from 12 noon to 3 pm.
@@ -3675,6 +3735,10 @@ Page: https://beattheheat.asia/cities/hyderabad/
 A plateau city that has lost most of its tree cover and lakes as it has grown and warmed.
 
 Heat action plan (No published city heat plan found): No published city heat action plan found. Researchers have called for ward-level heat action plans; the state plans for Karnataka cover the city. Sources: Citizen Matters, 2025: Bengaluru failed to beat the heat https://citizenmatters.in/bengaluru-failed-to-beat-the-heat-how-localised-approach-could-help-in-the-future/
+
+What a checked study says heat costs here: No checked estimate found yet for this city.
+
+What could be done: This hot season: Heat action plans; Heat-ready health services. Over the next few years: Keep city trees alive
 
 Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: India Meteorological Department https://mausam.imd.gov.in/
 
@@ -3694,6 +3758,10 @@ An eastern state capital that has paired its heat plan with a plan for cooling d
 
 Heat action plan (Heat plan in force): In September 2025 the Bhubaneswar Municipal Corporation and the think tank iFOREST launched the city’s first Integrated Heat and Cooling Action Plan, which addresses heat stress and cooling demand together. An earlier climate-adaptive heat action plan, prepared with IRADe, the Indian Institute of Public Health and the Odisha State Disaster Management Authority, mapped heat hotspots ward by ward. Sources: OdishaTV, 2025: Bhubaneswar Municipal Corporation unveils heat and cooling action plan https://odishatv.in/news/odisha/bhubaneswar-to-face-extreme-heat-sevenfold-rise-in-ac-demand-by-2050-bmc-unveils-action-plan-271303; Bhubaneswar Municipal Corporation and IRADe: Heat wave action plan, Bhubaneswar city https://heathealth.info/wp-content/uploads/Bhubaneswar-Heat-Action-Plan.pdf
 
+What a checked study says heat costs here: No checked estimate found yet for this city.
+
+What could be done: This hot season: Heat-safe work. Over the next few years: Green, cool cities; Income protection in heatwaves; Social protection floors. Over a decade: Cool by design
+
 Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: India Meteorological Department https://mausam.imd.gov.in/
 
 - The cooling trap: The city’s heat and cooling plan expects demand for air conditioning to rise sevenfold by 2050.
@@ -3711,6 +3779,10 @@ Page: https://beattheheat.asia/cities/bhubaneswar/
 Viet Nam’s largest city, where heat radiates from crowded streets onto people who work outdoors.
 
 Heat action plan (Parts in place, no full plan found): In July 2026 the city approved an action plan for climate change response to 2030, with a vision to 2050, which aims to strengthen its capacity against heatwaves, droughts, heavy rain, flooding and rising seas. No standalone city heat action plan found. Sources: VnEconomy, 2026: HCMC unveils climate change response plan to 2030 https://en.vneconomy.vn/hcmc-unveils-climate-change-response-plan-to-2030-vision-to-2050.htm
+
+What a checked study says heat costs here: No checked estimate found yet for this city.
+
+What could be done: This hot season: Heat-safe work. Over the next few years: Keep city trees alive; Income protection in heatwaves; Social protection floors
 
 Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: National Centre for Hydro-Meteorological Forecasting https://nchmf.gov.vn/
 
@@ -3730,6 +3802,10 @@ Bangladesh’s port city, which had the country’s highest climate-driven heat 
 
 Heat action plan (No published city heat plan found): No published city heat action plan found. In a recent summer the city had 59 risky heat days, the country’s highest climate-driven heat exposure. During heatwaves, Bangladesh Red Crescent volunteers in the city have handed out cold drinks to outdoor workers, rickshaw drivers and traffic police. Sources: The Daily Star, 2025 https://www.thedailystar.net/environment/news/nearly-6-crore-bangladeshis-endured-risky-heat-summer-3988886; Red Cross Red Crescent Climate Centre: Bangladesh Red Crescent heat response https://www.climatecentre.org/?p=13733
 
+What a checked study says heat costs here: No checked estimate found yet for this city.
+
+What could be done: This hot season: Heat action plans; Heat-ready health services; Free care for heat illness. Over the next few years: Affordable cooling for the poorest
+
 Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: Bangladesh Meteorological Department https://www.bmd.gov.bd/
 
 - The overwhelmed-clinic loop: A mild heatwave in April 2024 brought a rise in fever, cough and diarrhoea, seen in private clinics and the medicine ward of Chittagong Medical College Hospital.
@@ -3747,6 +3823,10 @@ Page: https://beattheheat.asia/cities/chattogram/
 Indonesia’s second city, long known for its heat, which put in public parks where others put in buildings.
 
 Heat action plan (No published city heat plan found): No published city heat action plan found. Indonesia’s meteorology agency counts Surabaya among the 20% of the country’s cities with the highest land surface temperatures. Sources: BMKG (Indonesia's meteorology agency), 2024 https://www.bmkg.go.id/siaran-pers/cuaca-di-kota-semakin-panas-bmkg-ajak-generasi-muda-mitigasi-urban-heat-island
+
+What a checked study says heat costs here: No checked estimate found yet for this city.
+
+What could be done: Over the next few years: Keep city trees alive; Green without pushing people out
 
 Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: BMKG https://www.bmkg.go.id/
 
@@ -3766,6 +3846,10 @@ A Metro Manila city that has set up its own heat action team and opened librarie
 
 Heat action plan (Parts in place, no full plan found): In June 2026 the city government set up a City Heat Action Team and designated chief heat action officers. Through the C40 Cool Cities Accelerator it has committed to clear heat action leadership, a stronger early warning system and wider access to cooling during heat emergencies within two years. 32 air-conditioned community libraries serve as cooling centres. Sources: Quezon City Government, 2026: QC beefs up action vs extreme heat https://quezoncity.gov.ph/qc-beefs-up-action-vs-extreme-heat-designates-chief-heat-action-officers/; Zurich Climate Resilience Alliance, 2026: heat early warning in the Philippines https://preparecenter.org/wp-content/uploads/2026/08/ZCRA_Philippines-HEWS-case-study.pdf; Quezon City Government, 2026: QCPL libraries as cooling centers https://quezoncity.gov.ph/qcpl-libraries-as-cooling-centers/
 
+What a checked study says heat costs here: No checked estimate found yet for this city.
+
+What could be done: This hot season: Free care for heat illness. Over the next few years: Backup power for water; Affordable cooling for the poorest. Over a decade: Power that doesn’t need water
+
 Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: PAGASA heat index https://www.pagasa.dost.gov.ph/weather/heat-index
 
 - The energy-poverty trap: Heat indices averaged 42 to 44 °C in 2024 and 2025, and extreme heat drives up electricity use that strains family budgets.
@@ -3783,6 +3867,10 @@ Page: https://beattheheat.asia/cities/quezoncity/
 A northern Thai city where the hottest weeks of the year arrive with the haze season.
 
 Heat action plan (No published city heat plan found): No published city heat action plan found. In May 2026 temperatures in Chiang Mai and other northern provinces were forecast to reach 40 °C, and health officials urged people to avoid long periods outdoors. Sources: The Star, 2026: Chiangmai set for 40 deg C days https://www.thestar.com.my/aseanplus/aseanplus-news/2026/05/03/thailands-chiangmai-set-for-40-deg-c-days-while-heavy-rainfall-expected-in-phuket-krabi
+
+What a checked study says heat costs here: No checked estimate found yet for this city.
+
+What could be done: Over the next few years: Fire-smart landscapes. Over a decade: Deep emission cuts
 
 Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: Thai Meteorological Department https://www.tmd.go.th/
 
@@ -5898,7 +5986,7 @@ Dated by the publication date of the work Common Shade draws on (1112 of 1939 wo
 
 - Evidence added: COP31, second check-in: a compact on cooler, more efficient buildings. Added 15 November 2026 · COP31 check-in 15 November 2026. Why it matters (our reading): The COP31 Presidency's Antalya Compact for Energy Efficient Buildings joins the COP31 watch at its first rung, announced, as it is open for countries to endorse. Its actions include the electrification of heating and cooling. Places: South and Southeast Asia. Topics: Cool by design, Clean, efficient cooling. Review: Five sources staged; three passed the GitHub check at the COP31 Presidency, LexisNexis and UNEP; two pages blocked the check and nothing rests on them. Next: Read the COP31 watch https://beattheheat.asia/signals/#cop31. Connections: Cool by design (from the site's records): The Compact's building codes and renovation bear on how hot homes and workplaces get. What it took to add this: The question: What has COP31 added on heat since the first check-in, confirmed at the source? 5 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 3 confirmed, and 2 could not be (2 blocked automated reading). 10 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: Which countries endorse the Compact, and what the Cooling Ministerial on 16 November agrees.
 
-- Tool improved: Heat today and the next three days on every city page. Added 15 November 2026 · City heat estimate added 15 November 2026. Why it matters (our reading): Each city page now shows an estimated heat stress (WBGT) for now and a daily peak for four days, from forecast temperature and humidity, with the method's limits stated beside it and the official warning service one tap away. Places: South and Southeast Asia. People: Workers in heat-exposed jobs. Topics: Heat action plans, Heat-safe work. Review: The method, its limits and the data sources each opened on GitHub with every term found; on the day of the check the estimate for Singapore read higher than every measured station, as the method's own caveats lead one to expect in cloud. Next: See a city https://beattheheat.asia/cities/bangkok/#heat-today. Connections: Heat-safe work (our reading): Rules for heat at work are usually set in WBGT, the measure the estimate approximates. What it took to add this: The question: How hot will it feel to work outdoors in this city today and over the next three days, and what is that based on? 58 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 53 confirmed, and 5 could not be (2 blocked automated reading, 1 did not respond, 2 did not show the expected text). 31 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: Whether a fuller method that also uses sun and wind can be added without a new service.
+- Tool improved: Heat today and the next three days on every city page. Added 15 November 2026 · City heat estimate added 15 November 2026. Why it matters (our reading): Each city page now shows an estimated heat stress (WBGT) for now and a daily peak for four days, from forecast temperature and humidity, with the method's limits stated beside it and the official warning service one tap away. Places: South and Southeast Asia. People: Workers in heat-exposed jobs. Topics: Heat action plans, Heat-safe work. Review: The method, its limits and the data sources each opened on GitHub with every term found; on the day of the check the estimate for Singapore read higher than every measured station, as the method's own caveats lead one to expect in cloud. Next: See a city https://beattheheat.asia/cities/bangkok/#heat-today. Connections: Heat-safe work (our reading): Rules for heat at work are usually set in WBGT, the measure the estimate approximates. What it took to add this: The question: How hot will it feel to work outdoors in this city today and over the next three days, and what is that based on? 58 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 53 confirmed, and 5 could not be (2 blocked automated reading, 1 did not respond, 2 did not show the expected text). 33 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: Whether a fuller method that also uses sun and wind can be added without a new service.
 
 - Evidence added: Five more Indian cities, Kolkata first. Added 15 November 2026 · City pages added 15 November 2026. Why it matters (our reading): Kolkata, Chennai, Hyderabad, Bengaluru and Bhubaneswar now have city pages: each with its heat plan status as a checked document shows it, the vicious cycles the evidence ties to it, today's heat-stress estimate and, where the city has no plan of its own, a link to its state's plans. Places: India. People: Workers in heat-exposed jobs. Topics: Heat action plans. Review: 27 sources staged and opened on GitHub; 21 passed with every term found and only those are cited; six failed or were blocked and nothing rests on them. Next: Read Kolkata https://beattheheat.asia/cities/kolkata/. Connections: Heat action plans (from the site's records): Each new city's page records where its heat plan stands. What it took to add this: The question: What is heat doing in India's big cities beyond Delhi, Mumbai and Ahmedabad, and what plans are in place? 58 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 53 confirmed, and 5 could not be (2 blocked automated reading, 1 did not respond, 2 did not show the expected text). 11 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: Whether Kolkata, Chennai and Hyderabad publish city heat action plans of their own.
 

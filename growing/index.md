@@ -119,7 +119,7 @@ What it took to add this
 - **The search.** 58 sources were gathered for checking.
 
 - **The checking.** Each source was opened and read for the terms and numbers it was cited for: 53 confirmed, and 5 could not be (2 blocked automated reading, 1 did not respond, 2 did not show the expected text).
-- **What we set aside.** 31 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+- **What we set aside.** 33 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
 
 - **What is still open.** Whether a fuller method that also uses sun and wind can be added without a new service.
 
@@ -1639,7 +1639,7 @@ Steps toward protection this year: [Delhi launches its 2025 Heat Action Plan](ht
 
 - 2026 so far
 
-237 works published, 137 of them with a known month; 1,112 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
+237 works published, 139 of them with a known month; 1,112 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
 
 Steps toward protection this year: [Bangkok opens 304 cooling centres](https://beattheheat.asia/atlas/); [The first Global Heat Forum, in Bangkok](https://beattheheat.asia/atlas/); [Bangladesh’s first urban heatwave action plan, for Narayanganj](https://beattheheat.asia/atlas/).
 

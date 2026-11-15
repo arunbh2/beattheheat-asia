@@ -40,6 +40,20 @@ Sources: [Australian Bureau of Meteorology: Thermal comfort observations, about 
 
 The week’s forecast is on [the interactive map](https://beattheheat.asia/#city-bangkok). How much climate change shaped today’s heat: [Climate Shift Index map, Climate Central](https://csi.climatecentral.org/).
 
+## What heat costs here, and what could be done
+
+### What a checked study says heat costs here
+
+Heat deaths, about 593 a year, cost up to 0.7% of the city’s economy: more than its 2020 public health budget. Source: [Park and Rubinyi, World Bank working paper, 2026](https://openknowledge.worldbank.org/entities/publication/d8ba6f53-d778-47d2-b4a6-37dff7db2466/full)
+
+### What could be done
+
+Actions that break the vicious cycles tied to this city, grouped by how soon they could act. Options, not instructions; each links to its evidence and to any side effects to watch for.
+
+**This hot season:** [Heat-safe work](https://beattheheat.asia/actions/#heatrules) · [Cool nights and support](https://beattheheat.asia/actions/#coolnights)
+
+**Over the next few years:** [Green without pushing people out](https://beattheheat.asia/actions/#fairgreen) · [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash) (watch for side effects) · [Social protection floors](https://beattheheat.asia/actions/#socialprotection) · [Dedicated heat budgets](https://beattheheat.asia/actions/#heatbudget) · [Anticipatory action](https://beattheheat.asia/actions/#anticipatory)
+
 ## Vicious cycles the evidence ties to Bangkok
 
 ### [The poverty–heat trap](https://beattheheat.asia/loops/#poverty)

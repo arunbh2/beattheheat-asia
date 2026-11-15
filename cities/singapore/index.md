@@ -40,6 +40,22 @@ Sources: [Australian Bureau of Meteorology: Thermal comfort observations, about 
 
 The week’s forecast is on [the interactive map](https://beattheheat.asia/#city-singapore). How much climate change shaped today’s heat: [Climate Shift Index map, Climate Central](https://csi.climatecentral.org/).
 
+## What heat costs here, and what could be done
+
+### What a checked study says heat costs here
+
+No checked estimate found yet for this city.
+
+### What could be done
+
+Actions that break the vicious cycles tied to this city, grouped by how soon they could act. Options, not instructions; each links to its evidence and to any side effects to watch for.
+
+**This hot season:** [Cool nights and support](https://beattheheat.asia/actions/#coolnights) · [Cooling centres and check-ins](https://beattheheat.asia/actions/#coolingcentres) (watch for side effects)
+
+**Over the next few years:** [Green, cool cities](https://beattheheat.asia/actions/#greencity) · [Keep city trees alive](https://beattheheat.asia/actions/#keepgreen) · [Count every heat death](https://beattheheat.asia/actions/#countdeaths)
+
+**Over a decade:** [Cool by design](https://beattheheat.asia/actions/#coolbydesign)
+
 ## Vicious cycles the evidence ties to Singapore
 
 ### [The sleepless-nights loop](https://beattheheat.asia/loops/#sleep)
