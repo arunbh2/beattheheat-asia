@@ -651,6 +651,19 @@
       "review": "A link was used only if its page opened and held the words staged for it; the ones that did not pass are listed with the reason and keep their old link",
       "pages": [["/heat-network/", "The heat network"]], "action": ["Open the heat network", "/heat-network/"],
       "links": [{ "to": "page:/heat-network/", "why": "The deeper links are on the heat network page.", "basis": "editorial" }]
+    },
+    {
+      "id": "g-heat-ready-social-security", "kind": "evidence", "root": "practical", "added": "2026-11-15", "pr": null,
+      "title": "A policy brief on heat-ready social security, with examples from across Asia",
+      "why": "When heat stops work, a day off can mean a day without pay. The brief sets out five ways social security could cushion that choice, with examples from China, Singapore, Japan, South Korea, Hong Kong, the Philippines, the United Arab Emirates, India, Thailand and Viet Nam, examples from elsewhere labelled as such, the traps to avoid and options step by step.",
+      "places": ["region", "india", "thailand", "singapore"], "people": ["workers", "women"], "topics": ["socialprotection", "poverty"],
+      "event": { "what": "Side event on extreme heat at the Committee on Social Development, Bangkok", "date": "2026-11-13" },
+      "review": "Every figure traced to a public source and opened by a check on GitHub; sources that did not pass, field stories and figures without a public source are held back and listed",
+      "effort": { "asked": "How could social security protect income and health when it is too hot to work, and what do countries in Asia already do?", "inbox": "data/inbox/2026-11-csd9-heat", "dropped": "research/2026-11/csd9-heat/ledger.md",
+                  "open": "Several figures from the session wait for a public source." },
+      "pages": [["/briefs/heat-ready-social-security/", "Policy brief"], ["/social-protection/", "Who could help a household"]], "action": ["Read the policy brief", "/briefs/heat-ready-social-security/"],
+      "links": [{ "to": "lever:socialprotection", "why": "The brief sets out how the social protection lever could respond to heat.", "basis": "editorial" },
+                { "to": "page:/social-protection/", "why": "The brief sits in the social protection section, beside the scheme finder.", "basis": "editorial" }]
     }
   ]
 }

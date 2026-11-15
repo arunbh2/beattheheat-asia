@@ -1,7 +1,7 @@
 ---
 title: "Who could help a household through a hot season"
 url: https://beattheheat.asia/social-protection/
-updated: 2026-11-07
+updated: 2026-11-15
 licence: CC BY 4.0
 ---
 
@@ -14,6 +14,8 @@ Act
 Heat cuts the hours people can safely work and brings costs for care. Public schemes can cushion part of that shock. 55 schemes in 6 countries, what is known about who they reach, and where nothing responds.
 
 **This is not an eligibility check.** Rules change often and differ by place, so each scheme shows the date its status applies to; check with the scheme before relying on it. Households appear here only in aggregate.
+
+**Policy brief:** [Heat-ready social security](https://beattheheat.asia/briefs/heat-ready-social-security/). Five ways social security could cushion lost work and costs in the heat, with examples from Asia and elsewhere, the traps to avoid and options step by step.
 
 ## Find support
 

@@ -1,11 +1,11 @@
 ---
 title: "Watch Common Shade grow"
 url: https://beattheheat.asia/growing/
-updated: 2026-11-14
+updated: 2026-11-15
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 46 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 47 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,11 +13,54 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-46 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 4 connections documented and 3 questions opened. Beneath them, 1,084 works the commons draws on carry a publication date, and 807 are still being dated.
+47 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 4 connections documented and 3 questions opened. Beneath them, 1,084 works the commons draws on carry a publication date, and 807 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
 ## Updates, newest first
+
+Evidence added · Practical measures
+
+### A policy brief on heat-ready social security, with examples from across Asia
+
+Added 15 November 2026 · Side event on extreme heat at the Committee on Social Development, Bangkok 13 November 2026
+
+Why it matters our readingWhen heat stops work, a day off can mean a day without pay. The brief sets out five ways social security could cushion that choice, with examples from China, Singapore, Japan, South Korea, Hong Kong, the Philippines, the United Arab Emirates, India, Thailand and Viet Nam, examples from elsewhere labelled as such, the traps to avoid and options step by step.
+
+- South and Southeast Asia
+- India
+- Thailand
+- Singapore
+- Workers in heat-exposed jobs
+- Women whose livelihoods are held back by unequal access
+- Social protection floors
+- The poverty–heat trap
+
+ReviewEvery figure traced to a public source and opened by a check on GitHub; sources that did not pass, field stories and figures without a public source are held back and listed. 47 checked · 37 confirmed · 10 not confirmed, each recorded.
+
+What it took to add this
+
+- **The question.** How could social security protect income and health when it is too hot to work, and what do countries in Asia already do?
+- **The search.** 47 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 37 confirmed, and 10 could not be (5 blocked automated reading, 5 did not show the expected text).
+- **What we set aside.** 3 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+
+- **What is still open.** Several figures from the session wait for a public source.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-csd9-heat/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/csd9-heat/ledger.md)
+
+How it connects
+
+- [Social protection floors](https://beattheheat.asia/actions/#socialprotection) Action · our reading
+The brief sets out how the social protection lever could respond to heat.
+- [Social protection](https://beattheheat.asia/social-protection/) Page · our reading
+The brief sits in the social protection section, beside the scheme finder.
+
+[Read the policy brief](https://beattheheat.asia/briefs/heat-ready-social-security/)
+[Who could help a household](https://beattheheat.asia/social-protection/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=A%20policy%20brief%20on%20heat-ready%20social%20security%2C%20with%20examples%20from%20across%20Asia&ref=g-heat-ready-social-security#way-share)
 
 Tool improved · Institutions and plans
 

@@ -5,8 +5,15 @@
   <link href="https://beattheheat.asia/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://beattheheat.asia/growing/" rel="alternate" type="text/html"/>
   <id>https://beattheheat.asia/</id>
-  <updated>2026-11-14T00:00:00Z</updated>
+  <updated>2026-11-15T00:00:00Z</updated>
   <rights>CC BY 4.0</rights>
+  <entry>
+    <title>A policy brief on heat-ready social security, with examples from across Asia</title>
+    <link href="https://beattheheat.asia/growing/#g-heat-ready-social-security" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-heat-ready-social-security</id>
+    <updated>2026-11-15T00:00:00Z</updated>
+    <summary>When heat stops work, a day off can mean a day without pay. The brief sets out five ways social security could cushion that choice, with examples from China, Singapore, Japan, South Korea, Hong Kong, the Philippines, the United Arab Emirates, India, Thailand and Viet Nam, examples from elsewhere labelled as such, the traps to avoid and options step by step.</summary>
+  </entry>
   <entry>
     <title>The heat network can be narrowed by place, action and part played</title>
     <link href="https://beattheheat.asia/growing/#g-heat-network-finder" rel="alternate" type="text/html"/>
@@ -209,12 +216,5 @@
     <id>https://beattheheat.asia/growing/#g-health-deepening</id>
     <updated>2026-11-01T00:00:00Z</updated>
     <summary>Pregnancy, newborn health, mental health and gender-based violence were thin on the map. Adding them, with an evidence brief, makes these harms visible next to the better-known ones.</summary>
-  </entry>
-  <entry>
-    <title>A weekly evidence review, signed off by a person</title>
-    <link href="https://beattheheat.asia/growing/#g-living-evidence" rel="alternate" type="text/html"/>
-    <id>https://beattheheat.asia/growing/#g-living-evidence</id>
-    <updated>2026-11-01T00:00:00Z</updated>
-    <summary>New studies arrive every week. A Monday harvest opens a review, and only studies a person accepts join their cycles, so the map grows without lowering its bar.</summary>
   </entry>
 </feed>
