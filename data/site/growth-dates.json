@@ -30,6 +30,12 @@
    "org": false
   },
   {
+   "url": "http://www.bom.gov.au/info/thermal_stress/",
+   "label": "Australian Bureau of Meteorology: Thermal comfort observations, about the approximation to the WBGT",
+   "root": "evidence",
+   "org": false
+  },
+  {
    "url": "http://www.theraintree.co.in",
    "label": "Raintree Family Office official site",
    "root": "financing",
@@ -13051,6 +13057,15 @@
    "date": "2017-06",
    "precision": "month",
    "how": "url"
+  },
+  {
+   "url": "https://www.jstage.jst.go.jp/article/indhealth/50/4/50_MS1352/_pdf",
+   "label": "Lemke and Kjellstrom, 2012: Calculating workplace WBGT from meteorological data, Industrial Health",
+   "root": "evidence",
+   "org": false,
+   "date": "2012",
+   "precision": "year",
+   "how": "label"
   },
   {
    "url": "https://www.jstage.jst.go.jp/article/indhealth/51/1/51_2012-0166/_article",

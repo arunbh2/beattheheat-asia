@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in Hanoi: plans, cycles and who is at work | Common Shade"
 url: https://beattheheat.asia/cities/hanoi/
-updated: 2026-11-14
+updated: 2026-11-15
 licence: CC BY 4.0
 ---
 
@@ -22,9 +22,23 @@ No city heat action plan found. From 2018 to 2021 the Viet Nam Red Cross ran an 
 
 Sources: [Anticipation Hub](https://www.anticipation-hub.org/experience/anticipatory-action-in-the-world/vietnam/fbf-ready-reducing-heat-waves-impacts-on-the-vulnerable-populations-of-hanoi)
 
-## Heat today
+## Heat today and the next three days
 
-Live readings and the week’s forecast are on [the interactive map](https://beattheheat.asia/#city-hanoi). Official warnings: [National Centre for Hydro-Meteorological Forecasting](https://nchmf.gov.vn/). How much climate change shaped today’s heat: [Climate Shift Index map, Climate Central](https://csi.climatecentral.org/).
+Today’s readings and the three-day outlook load here with JavaScript on. Official warnings: [National Centre for Hydro-Meteorological Forecasting](https://nchmf.gov.vn/).
+
+How the estimate is made
+
+Wet-bulb globe temperature (WBGT) is the heat-stress index used in international and national standards for heat at work.
+
+The figure here is our estimate for the city as a whole, calculated from forecast air temperature and humidity with the Australian Bureau of Meteorology's simplified formula. That formula assumes fairly strong sun and light wind, and leaves out changes in sun and wind. In cloudy or windy weather, and at night or early in the morning, it is likely to read higher than a measured value.
+
+It is not a measurement and not an official warning. No heat-stress level is shown beside the estimate: published WBGT levels are for measured values.
+
+Researchers comparing methods recommend a fuller calculation for outdoor work, which also uses sun and wind; this page does not use it yet.
+
+Sources: [Australian Bureau of Meteorology: Thermal comfort observations, about the approximation to the WBGT](http://www.bom.gov.au/info/thermal_stress/) · [Lemke and Kjellstrom, 2012: Calculating workplace WBGT from meteorological data, Industrial Health](https://www.jstage.jst.go.jp/article/indhealth/50/4/50_MS1352/_pdf) · [Weather data by Open-Meteo.com](https://open-meteo.com/)
+
+The week’s forecast is on [the interactive map](https://beattheheat.asia/#city-hanoi). How much climate change shaped today’s heat: [Climate Shift Index map, Climate Central](https://csi.climatecentral.org/).
 
 ## Vicious cycles the evidence ties to Hanoi
 

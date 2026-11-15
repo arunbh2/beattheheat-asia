@@ -56,52 +56,52 @@
   "changed": "2026-11-06"
  },
  "/cities/ahmedabad/": {
-  "hash": "274e5185ca7f95de",
-  "changed": "2026-11-14"
+  "hash": "65fdd119d17be03f",
+  "changed": "2026-11-15"
  },
  "/cities/bangkok/": {
-  "hash": "1ac95669009548c9",
-  "changed": "2026-11-14"
+  "hash": "7bf32b7c1c39c49c",
+  "changed": "2026-11-15"
  },
  "/cities/colombo/": {
-  "hash": "7937e2d6e6db62b3",
-  "changed": "2026-11-14"
+  "hash": "6ca3506ca65c3114",
+  "changed": "2026-11-15"
  },
  "/cities/delhi/": {
-  "hash": "fce4dd9daab14bb2",
-  "changed": "2026-11-14"
+  "hash": "fd1d9ac070fd5d02",
+  "changed": "2026-11-15"
  },
  "/cities/dhaka/": {
-  "hash": "b9035440bd0a3e29",
-  "changed": "2026-11-14"
+  "hash": "213a9b3956e32dda",
+  "changed": "2026-11-15"
  },
  "/cities/hanoi/": {
-  "hash": "777aa88f53a07196",
-  "changed": "2026-11-14"
+  "hash": "3fc0837b3b8e69d8",
+  "changed": "2026-11-15"
  },
  "/cities/jakarta/": {
-  "hash": "542fd5881f6c42f7",
-  "changed": "2026-11-14"
+  "hash": "ba2d403718e30029",
+  "changed": "2026-11-15"
  },
  "/cities/kathmandu/": {
-  "hash": "3c3ef54e01c68d21",
-  "changed": "2026-11-14"
+  "hash": "bb121fea87192099",
+  "changed": "2026-11-15"
  },
  "/cities/manila/": {
-  "hash": "58e5a2acd267ac97",
-  "changed": "2026-11-14"
+  "hash": "b9d83b9b64cd6b22",
+  "changed": "2026-11-15"
  },
  "/cities/mumbai/": {
-  "hash": "36e08ade08078f2a",
-  "changed": "2026-11-14"
+  "hash": "159070d47ee860a9",
+  "changed": "2026-11-15"
  },
  "/cities/phnompenh/": {
-  "hash": "4705713c989e15af",
-  "changed": "2026-11-14"
+  "hash": "27d3985b6a8626bf",
+  "changed": "2026-11-15"
  },
  "/cities/singapore/": {
-  "hash": "b7c67f5268c0f2e8",
-  "changed": "2026-11-14"
+  "hash": "819bb0b95ea90ccd",
+  "changed": "2026-11-15"
  },
  "/cooling-options/": {
   "hash": "d0ef31f5aa5c60c6",
@@ -156,7 +156,7 @@
   "changed": "2026-11-13"
  },
  "/for-ai/": {
-  "hash": "75f39039d97a0659",
+  "hash": "635916e7f82a4779",
   "changed": "2026-11-15"
  },
  "/fund/": {
@@ -168,7 +168,7 @@
   "changed": "2026-11-07"
  },
  "/growing/": {
-  "hash": "573626abf75d9d08",
+  "hash": "7974c87e676f3477",
   "changed": "2026-11-15"
  },
  "/guide/": {
@@ -200,7 +200,7 @@
   "changed": "2026-11-06"
  },
  "/heat-network/": {
-  "hash": "81a0ec0d4eb78624",
+  "hash": "3a1c76bf85f20934",
   "changed": "2026-11-15"
  },
  "/heat-tools/": {
@@ -512,8 +512,8 @@
   "changed": "2026-11-15"
  },
  "/privacy/": {
-  "hash": "3c22d5dd46220d94",
-  "changed": "2026-10-01"
+  "hash": "38c71be20a24e110",
+  "changed": "2026-11-15"
  },
  "/resources/": {
   "hash": "0becc9b96a51b90b",
@@ -540,7 +540,7 @@
   "changed": "2026-11-06"
  },
  "/sources/": {
-  "hash": "c763559f825fdd25",
+  "hash": "ee934af7ee4f53b8",
   "changed": "2026-11-15"
  },
  "/the-web/": {

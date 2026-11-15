@@ -13,7 +13,7 @@ module.exports = function privacy({ page, write, esc, hero }) {
     <h2 class="hub-h">What the site asks other services for</h2>
     <dl class="hub-p">
       ${row("Page counts", "A cookieless counter (GoatCounter) records that a page was opened and, in broad terms, the kind of screen and where the visit came from. It uses no cookies, builds no profile and does not follow people between sites.")}
-      ${row("Live temperature", "The live temperature strip asks Open-Meteo, and for Singapore data.gov.sg, for the current weather of a city. Those services see the request, as any website does.")}
+      ${row("Live temperature", "The live temperature strip, the homepage city view and each city page ask Open-Meteo, and for Singapore data.gov.sg, for the current weather and the next few days’ forecast of a city. Those services see the request, as any website does.")}
       ${row("Fonts", "Fonts load from Google Fonts. Google sees the request for them.")}
       ${row("The join form", "The form on the Help build Common Shade page is a Microsoft Forms embed. Anything typed into it goes to Microsoft Forms under its own terms, and nowhere else.")}
     </dl>

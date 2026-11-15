@@ -2842,20 +2842,24 @@
     if (livePromise) return livePromise;
     try { const c = JSON.parse(localStorage.getItem(LIVE_KEY) || "null"); if (c && Date.now() - c.at < LIVE_TTL && c.cities) return (livePromise = Promise.resolve(c)); } catch (e) {}
     const q = "https://api.open-meteo.com/v1/forecast?latitude=" + LIVE.map(c => c.lat).join(",") + "&longitude=" + LIVE.map(c => c.lon).join(",") +
-      "&current=temperature_2m,apparent_temperature,relative_humidity_2m&daily=temperature_2m_max,apparent_temperature_max&timezone=auto&forecast_days=7";
+      "&current=temperature_2m,apparent_temperature,relative_humidity_2m&daily=temperature_2m_max,apparent_temperature_max&hourly=temperature_2m,relative_humidity_2m&timezone=auto&forecast_days=7";
     const model = fetch(q).then(r => { if (!r.ok) throw new Error("model " + r.status); return r.json(); }).then(j => Array.isArray(j) ? j : [j]);
     const wbgt = LIVE.some(c => c.wbgt) ? fetch("https://api-open.data.gov.sg/v2/real-time/api/weather?api=wbgt").then(r => r.ok ? r.json() : null).then(j => j && parseWbgt(j)).catch(() => null) : Promise.resolve(null);
     livePromise = Promise.all([model, wbgt]).then(([m, w]) => {
       const out = { at: Date.now(), cities: {}, wbgt: w };
       LIVE.forEach((c, i) => { const d = m[i]; if (!d || !d.current || !d.daily) return;
         out.cities[c.id] = { time: d.current.time, offset: d.utc_offset_seconds, t: d.current.temperature_2m, feels: d.current.apparent_temperature, rh: d.current.relative_humidity_2m,
-          days: (d.daily.time || []).map((dt, k) => ({ date: dt, max: d.daily.temperature_2m_max[k], feelsMax: d.daily.apparent_temperature_max[k] })) }; });
+          days: (d.daily.time || []).map((dt, k) => ({ date: dt, max: d.daily.temperature_2m_max[k], feelsMax: d.daily.apparent_temperature_max[k], wbgt: wbgtPeak(d.hourly, dt) })) }; });
       if (!Object.keys(out.cities).length) throw new Error("no data");
       try { localStorage.setItem(LIVE_KEY, JSON.stringify(out)); } catch (e) {}
       return out;
     }).catch(e => { setTimeout(() => { livePromise = null; }, 120000); throw e; }); // wait two minutes before trying again
     return livePromise;
   }
+  // estimated heat stress (WBGT): the Bureau of Meteorology's approximation, a copy of wbgt() in city-heat/heat-core.js (tools/check-city-heat.js compares them)
+  const wbgtEst = (t, rh) => 0.567 * t + 0.393 * (rh / 100 * 6.105 * Math.exp(17.27 * t / (237.7 + t))) + 3.94;
+  // the highest estimated WBGT in one local day, from the hourly forecast; null if the hours are missing
+  function wbgtPeak(h, date) { let m = null; if (h && h.time) h.time.forEach((t, i) => { const T = h.temperature_2m[i], R = h.relative_humidity_2m[i]; if (String(t).slice(0, 10) === date && T != null && R != null) { const w = wbgtEst(T, R); if (m === null || w > m) m = w; } }); return m; }
   const liveCredit = () => typeof LIVE_SOURCES === "undefined" ? "" : `${extLink(LIVE_SOURCES.model.url, LIVE_SOURCES.model.label)} (${esc(LIVE_SOURCES.model.licence)})`;
 
   const FP = typeof LIVE_FINGERPRINT !== "undefined" ? LIVE_FINGERPRINT : null;
@@ -2973,6 +2977,14 @@
       <figcaption>Feels-like maximum, next 7 days (°C)</figcaption></figure>`;
   }
 
+  // estimated heat stress now and the next days' estimated peaks, with the city page that explains the estimate
+  function cityWbgt(id, d) {
+    if (typeof LIVE_WBGT === "undefined" || d.t == null || d.rh == null) return "";
+    const pk = (d.days || []).slice(0, 4).map((x, i) => ({ x, i })).filter(o => o.x.wbgt != null);
+    const day = (x, i) => i === 0 ? "today" : new Date(x.date + "T12:00:00Z").toLocaleDateString("en-GB", { weekday: "short", timeZone: "UTC" });
+    return `<p class="cp__f">${esc(LIVE_WBGT.name)}: <b>${wbgtEst(d.t, d.rh).toFixed(1)} °C</b> now${pk.length ? `; estimated peaks ${pk.map(o => `${day(o.x, o.i)} ${Math.round(o.x.wbgt)}`).join(", ")} °C` : ""}. Not a warning. <a href="/cities/${id}/#heat-today">How it is estimated</a></p>`;
+  }
+
   function renderCityPanel(id) {
     const p = cityById[id], c = LIVE.find(x => x.id === id), box = document.getElementById("city-panel");
     if (!p || !c || !box) return;
@@ -2990,7 +3002,7 @@
         <div class="cp__card cp__now">
           <p class="cp__k">Right now</p>
           ${ok ? `<p class="cp__t" style="--heat:${heatColor(d.feels)}">${Math.round(d.t)}<span> °C</span></p>
-            <p class="cp__f">Feels like <b>${deg(d.feels)}</b> · humidity ${Math.round(d.rh)}%</p>${cityForecast(d)}`
+            <p class="cp__f">Feels like <b>${deg(d.feels)}</b> · humidity ${Math.round(d.rh)}%</p>${cityWbgt(id, d)}${cityForecast(d)}`
             : `<p class="cp__none">${cityLive ? "Live reading unavailable just now." : "Loading live readings…"}</p>`}
           ${p.heat ? `<p class="cp__heat"><b>Heat type</b> ${gloss(p.heat)}</p>${watchButton("dryhumid", "Dry heat and humid heat, explained", "watch-btn cp__watch")}` : ""}
           <p class="cp__links">Official warnings: ${extLink(c.warn.url, c.warn.label)}${FP ? ` · ${extLink(FP.map.url, FP.cardLink)}` : ""}</p>

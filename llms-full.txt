@@ -3378,6 +3378,8 @@ A city-state with hot nights, dense towers and an early national heat stress adv
 
 Heat action plan (Heat plan in force): Singapore launched a national Heat Stress Advisory in July 2023. It rates heat stress as low, moderate or high from the wet-bulb globe temperature, and tells people what to do at each level. Since March 2025 a heatwave is declared when the daily maximum reaches at least 35 °C and the daily mean at least 29 °C for three days in a row; a taskforce of 37 public agencies then opens air-conditioned cooling spaces in community centres. In March 2026 a Heat Resilience Policy Office was set up to coordinate action across agencies, oversee research and draft a heat resilience action plan. Sources: Ministry of Sustainability and the Environment, 2023 https://mse.gov.sg/latest-news/press-release-heat-stress-advisory; Malay Mail: Singapore’s heatwave response plan, 2025 https://www.malaymail.com/news/singapore/2025/03/20/singapore-rolls-out-cooling-measures-as-heatwave-response-plan-unveiled/170163; Ministry of Sustainability and the Environment: Committee of Supply speech, 2026 https://www.mse.gov.sg/latest-news/speech-by-sms-janil-puthucheary-committee-of-supply-2026/
 
+Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: Meteorological Service Singapore https://www.weather.gov.sg/
+
 - The sleepless-nights loop: Singapore has averaged 76 warm nights a year over four decades; by 2100 they could come on most nights.
 
 - The cooling trap: The commercial centre has measured up to about 7 °C warmer than the outskirts on calm, clear nights.
@@ -3397,6 +3399,8 @@ Page: https://beattheheat.asia/cities/singapore/
 A tropical megacity where heat costs lives, livelihoods and a share of the city’s economy.
 
 Heat action plan (Heat plan in force): For the 2026 hot season Bangkok opened 304 cooling centres in schools, health centres and district offices. The city’s own Urban Heat Management Action Plan for 2026 has 22 indicators and a committee chaired by a deputy governor; its targets include cooling rooms in 80% of schools and public health service centres, at least two cooling points in every district, and home visits to at least 5,000 vulnerable households a year during heat alerts. A 2026 financing strategy with UNDP costs the plan at about THB 146 million to set up and THB 10.8 million a year to run, mostly from existing city budgets, and notes that running costs are not always covered. Sources: Government of Thailand, 2026 https://thailand.go.th/issue-focus-detail/bangkok-launches-304-cooling-centers-to-combat-extreme-heat; World Bank, Shaping a Cooler Bangkok, 2025 https://www.worldbank.org/en/country/thailand/publication/shaping-a-cooler-bangkok-tackling-urban-heat-for-a-more-livable-city; UNDP and Bangkok Metropolitan Administration: Bangkok's financing strategy for tackling urban heat, 2026 https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf
+
+Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: Thai Meteorological Department https://www.tmd.go.th/
 
 - The poverty–heat trap: Nearly 80% of informal workers surveyed cut their hours in the heat; 75% of home-based workers lost a day’s work a month to heat illness.
 
@@ -3418,6 +3422,8 @@ A fast-growing northern capital whose power and water strain together in the hea
 
 Heat action plan (No published city heat plan found): No city heat action plan found. From 2018 to 2021 the Viet Nam Red Cross ran an early-action plan for heatwaves in 15 of Hanoi’s wards, triggered by a heat-index forecast. Sources: Anticipation Hub https://www.anticipation-hub.org/experience/anticipatory-action-in-the-world/vietnam/fbf-ready-reducing-heat-waves-impacts-on-the-vulnerable-populations-of-hanoi
 
+Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: National Centre for Hydro-Meteorological Forecasting https://nchmf.gov.vn/
+
 - The energy–water loop: In May and June 2023 heat drove demand up as hydropower reservoirs ran low; blackouts in the north cost about US$1.4 billion.
 
 - The global cooling loop: Southeast Asia’s air conditioners could rise from 40 million to 300 million by 2040.
@@ -3433,6 +3439,8 @@ Page: https://beattheheat.asia/cities/hanoi/
 A dense, humid metropolis where heat closes schools and pushes the heat index into danger.
 
 Heat action plan (Parts in place, no full plan found): In Metro Manila, Quezon City has set up a city Heat Action Team, named chief heat action officers and opened 32 libraries as cooling centres. Its full heat action plan is still being developed. Sources: Quezon City Government https://quezoncity.gov.ph/qc-beefs-up-action-vs-extreme-heat-designates-chief-heat-action-officers/
+
+Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: PAGASA heat index https://www.pagasa.dost.gov.ph/weather/heat-index
 
 - The lost-schooling loop: In April 2024, 5,288 schools in the Philippines moved to remote learning, affecting more than 3.6 million students.
 
@@ -3452,6 +3460,8 @@ A sinking, sprawling capital in the country where half of Southeast Asia’s air
 
 Heat action plan (Parts in place, no full plan found): No standalone heat action plan found. Jakarta’s Climate Action Plan 2021–2050 aims to reduce its vulnerability to extreme heat, and in October 2025 the governor told health facilities to prepare for heat illness. Sources: C40 Cities, 2025 https://www.c40.org/wp-content/uploads/2025/09/RfP_RF_Jakarta.pdf; Antara, 2025 https://www.antaranews.com/berita/5178905/pramono-instruksikan-mitigasi-dampak-cuaca-panas-ekstrem-di-jakarta
 
+Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: BMKG https://www.bmkg.go.id/
+
 - The global cooling loop: Half of Southeast Asia’s projected 300 million air conditioners in 2040 could be in Indonesia.
 
 - The wildfire loop: Indonesia’s 2015 forest and peat fires cost an estimated US$16.1 billion.
@@ -3469,6 +3479,8 @@ Page: https://beattheheat.asia/cities/jakarta/
 A capital of extreme pre-monsoon heat, street trade and falling groundwater.
 
 Heat action plan (Heat plan in force): Delhi launched its 2025 Heat Action Plan in April 2025, with graded heat alerts, cooling shelters, 3,000 water points and heatstroke units in hospitals. Experts have recommended legal backing and dedicated funds to strengthen it. Sources: Business Today, 2025 https://www.businesstoday.in/amp/india/story/imd-predicts-heatwave-conditions-in-april-delhi-govt-launches-action-plan-472890-2025-04-21; Citizen Matters https://citizenmatters.in/city-buzz-five-things-you-must-know-about-the-delhi-heat-action-plan
+
+Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: India Meteorological Department https://mausam.imd.gov.in/
 
 - The heat credit squeeze: Of 721 Delhi street vendors surveyed in 2024, 80% saw fewer customers in heatwaves and 49% lost income.
 
@@ -3490,6 +3502,8 @@ One of the world’s densest cities, where heat costs workdays and fills tin-roo
 
 Heat action plan (Parts in place, no full plan found): Dhaka North City Corporation appointed Asia’s first Chief Heat Officer in 2023. No city heat action plan found yet. Sources: Arsht-Rock Resilience Center, 2023 https://onebillionresilient.org/2023/05/03/bushra-afreen-dhaka-chief-heat-officer/
 
+Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: Bangladesh Meteorological Department https://www.bmd.gov.bd/
+
 - The poverty–heat trap: Heat-related illness cost Bangladesh 250 million workdays in 2024, worth up to US$1.78 billion.
 
 - The energy-poverty trap: Tin-roofed informal settlements trap heat for people who can’t afford to cool.
@@ -3510,6 +3524,8 @@ A valley city warming fast, below the Himalayan ice that feeds South Asia’s ri
 
 Heat action plan (No published city heat plan found): No city heat action plan found. Nepal adopted a national plan of action on heat waves in 2024, and Nepalgunj, in the plains, wrote the country’s first local heat action plan in 2023. Sources: Onlinekhabar, 2025 https://english.onlinekhabar.com/reassessing-nepals-heat-wave-response-lessons-from-2024-and-the-way-forward.html; Nepalgunj Heat Action Plan, 2023 https://preparecenter.org/wp-content/uploads/2023/07/Nepalgunj-Heat-Action-Plan-2023.pdf
 
+Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: Department of Hydrology and Meteorology https://www.mfd.gov.np/
+
 - The melting-ice loop: The Hindu Kush Himalaya’s glaciers lost ice 65% faster in the 2010s, and could lose 30–50% of their volume by 2100.
 
 - The medical-debt trap: In five cities in Nepal and Bangladesh, heat cut incomes and pushed some households towards high-interest loans.
@@ -3525,6 +3541,8 @@ Page: https://beattheheat.asia/cities/kathmandu/
 A coastal megacity where the nights are heating faster than the days.
 
 Heat action plan (Parts in place, no full plan found): Mumbai’s 2022 Climate Action Plan names urban heat as a priority, and the city is working with C40 on heat-health protocols for its hospitals. No standalone city heat action plan found. Sources: Citizen Matters https://citizenmatters.in/mcap-climate-change-heat-mumbai/; C40 Cities, 2026 https://www.c40.org/wp-content/uploads/2026/07/RfP-Heat-Health-protocols-for-Mumbai.pdf
+
+Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: India Meteorological Department https://mausam.imd.gov.in/
 
 - The sleepless-nights loop: Mumbai gained 15 very warm nights a summer over the last decade.
 
@@ -3544,6 +3562,8 @@ Where South Asia’s first heat action plan began, and where its results were me
 
 Heat action plan (Heat plan in force): Ahmedabad launched South Asia’s first heat action plan in 2013, after a 2010 heatwave caused an estimated 1,344 excess deaths. An estimated 1,190 deaths a year were later avoided. Sources: Hess et al., Journal of Environmental and Public Health, 2018 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6236972/
 
+Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: India Meteorological Department https://mausam.imd.gov.in/
+
 - The overwhelmed-clinic loop: The plan prepared hospitals and warned the public before heat peaked.
 
 - The poverty–heat trap: Up to three-quarters of India’s workforce depends on heat-exposed work.
@@ -3562,6 +3582,8 @@ A coastal capital where humid heat meets crowded markets, harbours and fish land
 
 Heat action plan (Parts in place, no full plan found): Colombo Municipal Council, with the Department of Meteorology and SLYCAN Trust, has worked on guidelines for a gender-sensitive heat action plan. The Department of Meteorology issues heat index advisories. No adopted city heat plan found yet. Sources: APN and SLYCAN Trust, 2022 https://www.apn-gcr.org/publication/colombo-municipal-council-sri-lanka-integrating-heat-stress-management-into-climate-policies-and-guidelines-for-gender-sensitive-heat-action-plans-in-sri-lanka/; News 1st, 2024 https://english.newsfirst.lk/2024/03/04/heat-advisory-issued-by-sri-lanka-s-met-dept
 
+Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: Department of Meteorology, Sri Lanka https://www.meteo.gov.lk/
+
 - The cooling trap: A University of Colombo study found a pronounced urban heat island, as green space gives way to concrete and asphalt.
 
 - The poverty–heat trap: Heat advisories ask people to work in the shade; market and fish workers who sell in the open often cannot.
@@ -3577,6 +3599,8 @@ Page: https://beattheheat.asia/cities/colombo/
 A fast-growing capital of garment factories and metal roofs, where the hot season peaks before the rains.
 
 Heat action plan (No published city heat plan found): A proposal with the Ministry of Water Resources and Meteorology and Phnom Penh Capital Hall would develop a heat action plan for the city, with thresholds and response protocols. No adopted city heat plan found yet. Sources: National Committee for Sub-National Democratic Development https://library.ncdd.gov.kh/detail/17224/download
+
+Heat today and the next three days: the page shows estimated heat stress (wbgt) now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: Ministry of Water Resources and Meteorology https://www.mowram.gov.kh/
 
 - The cooling trap: UN ESCAP projects that the urban heat island could add 2 °C to 7 °C on top of global warming in Phnom Penh.
 
@@ -5674,25 +5698,27 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 
 https://beattheheat.asia/growing/
 
-See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 49 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
+See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 50 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
 
 ### How the work behind the commons grew
 
-Dated by the publication date of the work Common Shade draws on (1085 of 1910 works dated; 807 have no established date yet, 18 only an "online by" date; 426 links to organisations are counted apart and never dated). Common Shade began gathering this work in October 2026; the dates below are when the work was published, not when it was added.
+Dated by the publication date of the work Common Shade draws on (1086 of 1912 works dated; 808 have no established date yet, 18 only an "online by" date; 426 links to organisations are counted apart and never dated). Common Shade began gathering this work in October 2026; the dates below are when the work was published, not when it was added.
 
-- Before 2024: 467 works. Financing: 80; Institutions and plans: 67; Practical measures: 99; Experience: 19; Evidence: 202.
+- Before 2024: 468 works. Financing: 80; Institutions and plans: 67; Practical measures: 99; Experience: 19; Evidence: 203.
 
-- 2024: 194 works published (94 with a known month), 661 in all by the end of the period. Financing: 117; Institutions and plans: 93; Practical measures: 134; Experience: 38; Evidence: 279.
+- 2024: 194 works published (94 with a known month), 662 in all by the end of the period. Financing: 117; Institutions and plans: 93; Practical measures: 134; Experience: 38; Evidence: 280.
 
-- 2025: 200 works published (115 with a known month), 861 in all by the end of the period. Financing: 172; Institutions and plans: 121; Practical measures: 181; Experience: 54; Evidence: 333.
+- 2025: 200 works published (115 with a known month), 862 in all by the end of the period. Financing: 172; Institutions and plans: 121; Practical measures: 181; Experience: 54; Evidence: 334.
 
-- 2026 so far: 224 works published (128 with a known month), 1085 in all by the end of the period. Financing: 229; Institutions and plans: 140; Practical measures: 243; Experience: 70; Evidence: 403.
+- 2026 so far: 224 works published (128 with a known month), 1086 in all by the end of the period. Financing: 229; Institutions and plans: 140; Practical measures: 243; Experience: 70; Evidence: 404.
 
 ### Changes, newest first
 
 - Evidence added: A policy brief on heat-ready social security, with examples from across Asia. Added 15 November 2026 · Side event on extreme heat at the Committee on Social Development, Bangkok 13 November 2026. Why it matters (our reading): When heat stops work, a day off can mean a day without pay. The brief sets out five ways social security could cushion that choice, with examples from China, Singapore, Japan, South Korea, Hong Kong, the Philippines, the United Arab Emirates, India, Thailand and Viet Nam, examples from elsewhere labelled as such, the traps to avoid and options step by step. Places: South and Southeast Asia, India, Thailand, Singapore. People: Workers in heat-exposed jobs, Women whose livelihoods are held back by unequal access. Topics: Social protection floors, The poverty–heat trap. Review: Every figure traced to a public source and opened by a check on GitHub; sources that did not pass, field stories and figures without a public source are held back and listed. Next: Read the policy brief https://beattheheat.asia/briefs/heat-ready-social-security/. Connections: Social protection floors (our reading): The brief sets out how the social protection lever could respond to heat. Social protection (our reading): The brief sits in the social protection section, beside the scheme finder. What it took to add this: The question: How could social security protect income and health when it is too hot to work, and what do countries in Asia already do? 47 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 37 confirmed, and 10 could not be (5 blocked automated reading, 5 did not show the expected text). 3 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: Several figures from the session wait for a public source.
 
 - Evidence added: COP31, second check-in: a compact on cooler, more efficient buildings. Added 15 November 2026 · COP31 check-in 15 November 2026. Why it matters (our reading): The COP31 Presidency's Antalya Compact for Energy Efficient Buildings joins the COP31 watch at its first rung, announced, as it is open for countries to endorse. Its actions include the electrification of heating and cooling. Places: South and Southeast Asia. Topics: Cool by design, Clean, efficient cooling. Review: Five sources staged; three passed the GitHub check at the COP31 Presidency, LexisNexis and UNEP; two pages blocked the check and nothing rests on them. Next: Read the COP31 watch https://beattheheat.asia/signals/#cop31. Connections: Cool by design (from the site's records): The Compact's building codes and renovation bear on how hot homes and workplaces get. What it took to add this: The question: What has COP31 added on heat since the first check-in, confirmed at the source? 5 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 3 confirmed, and 2 could not be (2 blocked automated reading). 10 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: Which countries endorse the Compact, and what the Cooling Ministerial on 16 November agrees.
+
+- Tool improved: Heat today and the next three days on every city page. Added 15 November 2026 · City heat estimate added 15 November 2026. Why it matters (our reading): Each city page now shows an estimated heat stress (WBGT) for now and a daily peak for four days, from forecast temperature and humidity, with the method's limits stated beside it and the official warning service one tap away. Places: South and Southeast Asia. People: Workers in heat-exposed jobs. Topics: Heat action plans, Heat-safe work. Review: The method, its limits and the data sources each opened on GitHub with every term found; on the day of the check the estimate for Singapore read higher than every measured station, as the method's own caveats lead one to expect in cloud. Next: See a city https://beattheheat.asia/cities/bangkok/#heat-today. Connections: Heat-safe work (our reading): Rules for heat at work are usually set in WBGT, the measure the estimate approximates. What it took to add this: The question: How hot will it feel to work outdoors in this city today and over the next three days, and what is that based on? 7 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 7 confirmed. 29 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: Whether a fuller method that also uses sun and wind can be added without a new service.
 
 - Connection documented: New signals from Asia on heat at work, and lessons on heat insurance on the map. Added 15 November 2026 · Signals added 15 November 2026. Why it matters (our reading): Signals now follow Singapore's mandatory heat measures, the Philippines' new heat stress and compensation guidelines, South Korea's first emergency heatwave warning, a survey of outdoor workers in Viet Nam and the World Bank's report on heat in South Asia's cities. Income protection on the map now notes two lessons from India's first heat insurance for informal women workers. Places: South and Southeast Asia, Singapore. People: Workers in heat-exposed jobs. Topics: Heat-safe work, Income protection in heatwaves. Review: Every source opened by a check on GitHub with its terms found, in the same batch as the policy brief. Next: See the signals https://beattheheat.asia/signals/. Connections: Heat-safe work (from the site's records): Three of the new signals are rules for heat-safe work. Income protection in heatwaves (from the site's records): The new Watch for notes sit on income protection in heatwaves. What it took to add this: The question: Which commitments and findings on heat at work in Asia could the site follow? 47 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 37 confirmed, and 10 could not be (5 blocked automated reading, 5 did not show the expected text). 3 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: Whether each commitment moves up the ladder.
 

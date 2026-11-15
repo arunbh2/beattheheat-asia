@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in Bangkok: plans, cycles and who is at work | Common Shade"
 url: https://beattheheat.asia/cities/bangkok/
-updated: 2026-11-14
+updated: 2026-11-15
 licence: CC BY 4.0
 ---
 
@@ -22,9 +22,23 @@ For the 2026 hot season Bangkok opened 304 cooling centres in schools, health ce
 
 Sources: [Government of Thailand, 2026](https://thailand.go.th/issue-focus-detail/bangkok-launches-304-cooling-centers-to-combat-extreme-heat) · [World Bank, Shaping a Cooler Bangkok, 2025](https://www.worldbank.org/en/country/thailand/publication/shaping-a-cooler-bangkok-tackling-urban-heat-for-a-more-livable-city) · [UNDP and Bangkok Metropolitan Administration: Bangkok's financing strategy for tackling urban heat, 2026](https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf)
 
-## Heat today
+## Heat today and the next three days
 
-Live readings and the week’s forecast are on [the interactive map](https://beattheheat.asia/#city-bangkok). Official warnings: [Thai Meteorological Department](https://www.tmd.go.th/). How much climate change shaped today’s heat: [Climate Shift Index map, Climate Central](https://csi.climatecentral.org/).
+Today’s readings and the three-day outlook load here with JavaScript on. Official warnings: [Thai Meteorological Department](https://www.tmd.go.th/).
+
+How the estimate is made
+
+Wet-bulb globe temperature (WBGT) is the heat-stress index used in international and national standards for heat at work.
+
+The figure here is our estimate for the city as a whole, calculated from forecast air temperature and humidity with the Australian Bureau of Meteorology's simplified formula. That formula assumes fairly strong sun and light wind, and leaves out changes in sun and wind. In cloudy or windy weather, and at night or early in the morning, it is likely to read higher than a measured value.
+
+It is not a measurement and not an official warning. No heat-stress level is shown beside the estimate: published WBGT levels are for measured values.
+
+Researchers comparing methods recommend a fuller calculation for outdoor work, which also uses sun and wind; this page does not use it yet.
+
+Sources: [Australian Bureau of Meteorology: Thermal comfort observations, about the approximation to the WBGT](http://www.bom.gov.au/info/thermal_stress/) · [Lemke and Kjellstrom, 2012: Calculating workplace WBGT from meteorological data, Industrial Health](https://www.jstage.jst.go.jp/article/indhealth/50/4/50_MS1352/_pdf) · [Weather data by Open-Meteo.com](https://open-meteo.com/)
+
+The week’s forecast is on [the interactive map](https://beattheheat.asia/#city-bangkok). How much climate change shaped today’s heat: [Climate Shift Index map, Climate Central](https://csi.climatecentral.org/).
 
 ## Vicious cycles the evidence ties to Bangkok
 

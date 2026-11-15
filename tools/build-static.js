@@ -17,7 +17,7 @@ const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + `
 ;Object.assign(this, { SYSTEMS, CONSEQUENCES, LINKS, LOOP_GROUPS, LOOPS, INSTITUTIONS, LEVERS, LOOP_PLACES, EVIDENCE, ORG_ROLES,
   ORGANISATIONS, GLOSSARY_GROUPS, GLOSSARY, WORKED_EXAMPLES, AT_RISK, AT_RISK_BARRIERS, STALLS, COOL_PLACES, COOL_TRAPS,
-  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, COOL_FX, COOL_REGION, HOME_HEATS, STRAIN, COOL_ASK, PLAN_GROUPS, PLAN_MECHANISMS, PLAN_MECH_NOTE, MCR2030, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL, LIVE_CITIES, CITY_PROFILES, CITY_HAP, HEATWAVES, HEATWAVES_NOTE, ACTION_SETTINGS, ACTION_LINES, ACTION_JOURNEYS, FINANCE, EVIDENCE_STATUS, ACTION_HORIZONS, HEAT_WEEK, MARKET_EXPLORER, LOOP_SOLUTIONS, ORG_SIDES, ORG_SIDE });`, ctx);
+  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, COOL_FX, COOL_REGION, HOME_HEATS, STRAIN, COOL_ASK, PLAN_GROUPS, PLAN_MECHANISMS, PLAN_MECH_NOTE, MCR2030, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL, LIVE_CITIES, CITY_PROFILES, CITY_HAP, LIVE_WBGT, LIVE_LEVELS, LIVE_SOURCES, HEATWAVES, HEATWAVES_NOTE, ACTION_SETTINGS, ACTION_LINES, ACTION_JOURNEYS, FINANCE, EVIDENCE_STATUS, ACTION_HORIZONS, HEAT_WEEK, MARKET_EXPLORER, LOOP_SOLUTIONS, ORG_SIDES, ORG_SIDE });`, ctx);
 Object.assign(ctx, require("./data-blocks.js")());   // plus build-only blocks (not in data.js)
 const D = ctx, TODAY = new Date().toISOString().slice(0, 10);
 // ---- the homepage's numbers: each [data-stat] holds a plain-HTML fallback (what readers see with no JavaScript, and what
@@ -330,6 +330,22 @@ const hapFor = name => HAPA.docs.filter(d => d.district_or_city === name || (d.s
   out[p.slug] = page(p, intro, h); md.push(m.join("\n\n"));
 }
 
+// heat today and the next three days on each city page: an estimate of heat stress (WBGT) filled in the browser by
+// city-heat/city-heat.js from Open-Meteo, with the words in LIVE_WBGT. With no JavaScript the official warning link stays.
+const CHV = (fs.readFileSync(path.join(ROOT, "index.html"), "utf8").match(/\?v=(\d+)/) || [])[1] || "1";
+const CH_CSS = `<style>.ch{margin:10px 0 6px;padding:14px 16px;border:1px solid #E6DFD4;border-radius:12px;background:#fff}.ch-msg{margin:0}.ch-k{margin:0;font-size:.75rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#5E6570}.ch-v{margin:2px 0 0;font-size:2.4rem;font-weight:800;line-height:1.15}.ch-v span{font-size:1rem;font-weight:700}.ch-n{margin:0;font-weight:700}.ch-air{margin:2px 0 8px;font-size:.875rem;color:#5E6570}.ch-meas,.ch-lv{margin:8px 0;font-size:.875rem}.ch-days{width:100%;border-collapse:collapse;margin:10px 0;font-size:.875rem}.ch-days caption{text-align:left;font-weight:700;margin-bottom:4px}.ch-days th,.ch-days td{text-align:left;padding:6px 8px 6px 0;border-top:1px solid #E6DFD4;vertical-align:top}.ch-h{color:#5E6570}.ch-note,.ch-src{margin:6px 0 0;font-size:.875rem;color:#5E6570}.ch-how{margin:8px 0}.ch-how summary{cursor:pointer;font-weight:700;min-height:24px}.visually-hidden{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}</style>`;
+function cityHeat(c) {
+  const W = D.LIVE_WBGT, LV = D.LIVE_LEVELS[c.country];
+  const levels = LV && (!LV.only || LV.only.includes(c.id)) ? LV : null;
+  const credit = `Sources: ${ext(D.LIVE_SOURCES.model.url, D.LIVE_SOURCES.model.label)} (${esc(D.LIVE_SOURCES.model.licence)})${c.wbgt ? ` · ${ext(D.LIVE_SOURCES.wbgt.url, D.LIVE_SOURCES.wbgt.label)}` : ""} · <a href="#ch-how">How the estimate is made</a>`;
+  const data = { id: c.id, name: c.name, lat: c.lat, lon: c.lon, wbgt: !!c.wbgt, warn: c.warn, levels, credit, words: { name: W.name, noLevel: W.noLevel, not: W.not } };
+  return `<h2 id="heat-today">${esc(W.title)}</h2>${CH_CSS}
+      <div class="ch" data-city-heat aria-live="polite"><p class="ch-msg">Today’s readings and the three-day outlook load here with JavaScript on. Official warnings: ${ext(c.warn.url, c.warn.label)}.</p></div>
+      <details class="ch-how" id="ch-how"><summary>How the estimate is made</summary><p>${esc(W.what)}</p><p>${esc(W.how)}</p><p>${esc(W.not)} ${esc(W.noLevel)}</p><p>${esc(W.fuller)}</p>
+        <p class="src">Sources: ${ext(W.method.url, W.method.label)} · ${ext(W.review.url, W.review.label)} · ${ext(D.LIVE_SOURCES.model.url, D.LIVE_SOURCES.model.label)}</p></details>
+      <script>window.CITY_HEAT=${JSON.stringify(data).replace(/</g, "\\u003c")};</script><script src="/city-heat/heat-core.js?v=${CHV}" defer></script><script src="/city-heat/city-heat.js?v=${CHV}" defer></script>`;
+}
+
 // cities: an index page and one page per city
 const CITY_PAGES = [];
 // cities whose country has a snapshot on /countries/ (tools/build-solutions.js) link to it
@@ -347,7 +363,7 @@ const SNAP_SLUG = { Bangladesh: "bangladesh", India: "india", Indonesia: "indone
     const status = D.CITY_HAP[cp.hap.status];
     h += `<h2 id="${cp.id}"><a href="/cities/${cp.id}/">${esc(c.name)}, ${esc(c.country)}</a></h2><p>${esc(cp.tagline)}</p><p class="meta">Heat plan: ${esc(status)}. Cycles tied to it: ${esc(loops.map(x => x.l.name).join(", "))}.</p>`;
     const body = `<a class="cs-where" href="/atlas/#city-${cp.id}">${PIN}Where this happens: ${esc(c.name)} on the Atlas <span aria-hidden="true">→</span></a>${cp.heat ? `<p><strong>Heat type:</strong> ${esc(cp.heat)} <a href="/glossary/#dryhumid">Dry heat and humid heat, explained</a>.</p>` : ""}<h2>Heat action plan: ${esc(status)}</h2><p>${esc(cp.hap.text)}</p><p class="src">Sources: ${cp.hap.sources.map(s => ext(s.url, s.label)).join(" · ")}</p>
-      <h2>Heat today</h2><p>Live readings and the week’s forecast are on <a href="/#city-${cp.id}">the interactive map</a>. Official warnings: ${ext(c.warn.url, c.warn.label)}. ${D.LIVE_FINGERPRINT ? `How much climate change shaped today’s heat: ${ext(D.LIVE_FINGERPRINT.map.url, D.LIVE_FINGERPRINT.map.label)}.` : ""}</p>
+      ${cityHeat(c)}<p>The week’s forecast is on <a href="/#city-${cp.id}">the interactive map</a>. ${D.LIVE_FINGERPRINT ? `How much climate change shaped today’s heat: ${ext(D.LIVE_FINGERPRINT.map.url, D.LIVE_FINGERPRINT.map.label)}.` : ""}</p>
       <h2>Vicious cycles the evidence ties to ${esc(c.name)}</h2>${loops.map(x => `<h3><a href="/loops/#${x.l.id}">${esc(x.l.name)}</a></h3><p>${esc(x.why)}${x.src ? ` <span class="src">Source: ${ext(x.src.url, x.src.label)}</span>` : ""}</p><p class="meta">${esc(x.l.summary)} <a href="/#loop-${x.l.id}">Follow it on the map</a>.</p>`).join("")}
       ${checkFor("city-" + cp.id, c.name)}
       ${recentFor(["city-" + cp.id, "country-" + (SNAP_SLUG[c.country] || c.country.toLowerCase().replace(/\s+/g, "-"))])}
@@ -361,7 +377,7 @@ const SNAP_SLUG = { Bangladesh: "bangladesh", India: "india", Indonesia: "indone
     CITY_PAGES.push(cpPage);
     out[cpPage.slug] = page(cpPage, cIntro, body, [{ "@context": "https://schema.org", "@type": "City", name: c.name, containedInPlace: { "@type": "Country", name: c.country },
       geo: { "@type": "GeoCoordinates", latitude: c.lat, longitude: c.lon }, url }]);
-    m.push(`### ${c.name}, ${c.country}`, cp.tagline, `Heat action plan (${status}): ${cp.hap.text} Sources: ${cp.hap.sources.map(s => `${s.label} ${s.url}`).join("; ")}`,
+    m.push(`### ${c.name}, ${c.country}`, cp.tagline, `Heat action plan (${status}): ${cp.hap.text} Sources: ${cp.hap.sources.map(s => `${s.label} ${s.url}`).join("; ")}`, `${D.LIVE_WBGT.title}: the page shows ${D.LIVE_WBGT.name.toLowerCase()} now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: ${c.warn.label} ${c.warn.url}`,
       ...loops.map(x => `- ${x.l.name}: ${x.why}`), `Who heat hits hardest: ${risks.map(g => g.name).join("; ")}`, `Already at work: ${orgs.map(o => o.name).join("; ")}`, `Page: ${url}`);
   });
   out[p.slug] = page(p, intro, h); md.push(m.join("\n\n"));

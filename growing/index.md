@@ -5,7 +5,7 @@ updated: 2026-11-15
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 49 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 50 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-49 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,085 works the commons draws on carry a publication date, and 807 are still being dated.
+50 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,086 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -97,6 +97,43 @@ The Compact's building codes and renovation bear on how hot homes and workplaces
 [Signals](https://beattheheat.asia/signals/)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=COP31%2C%20second%20check-in%3A%20a%20compact%20on%20cooler%2C%20more%20efficient%20buildings&ref=g-signals-cop31-checkin-2#way-share)
+
+Tool improved · Institutions and plans
+
+### Heat today and the next three days on every city page
+
+Added 15 November 2026 · City heat estimate added 15 November 2026
+
+Why it matters our readingEach city page now shows an estimated heat stress (WBGT) for now and a daily peak for four days, from forecast temperature and humidity, with the method's limits stated beside it and the official warning service one tap away.
+
+- South and Southeast Asia
+- Workers in heat-exposed jobs
+- Heat action plans
+- Heat-safe work
+
+ReviewThe method, its limits and the data sources each opened on GitHub with every term found; on the day of the check the estimate for Singapore read higher than every measured station, as the method's own caveats lead one to expect in cloud. 7 checked · 7 confirmed.
+
+What it took to add this
+
+- **The question.** How hot will it feel to work outdoors in this city today and over the next three days, and what is that based on?
+- **The search.** 7 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 7 confirmed.
+- **What we set aside.** 29 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+
+- **What is still open.** Whether a fuller method that also uses sun and wind can be added without a new service.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-city-heat/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/city-heat/BUILD_BRIEF.md)
+
+How it connects
+
+- [Heat-safe work](https://beattheheat.asia/actions/#heatrules) Action · our reading
+Rules for heat at work are usually set in WBGT, the measure the estimate approximates.
+
+[See a city](https://beattheheat.asia/cities/bangkok/#heat-today)
+[Cities](https://beattheheat.asia/cities/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Heat%20today%20and%20the%20next%20three%20days%20on%20every%20city%20page&ref=g-city-heat-today#way-share)
 
 Connection documented · Evidence
 
@@ -1496,9 +1533,9 @@ Common Shade began gathering in October 2026. The work it draws on is much older
 
 - Before 2024
 
-467 works published before 2024 form the roots the commons stands on.
+468 works published before 2024 form the roots the commons stands on.
 
-- Evidence202
+- Evidence203
 - Experience19
 - Practical measures99
 - Institutions and plans67
@@ -1506,11 +1543,11 @@ Common Shade began gathering in October 2026. The work it draws on is much older
 
 - 2024
 
-194 works published, 94 of them with a known month; 661 in all by the end of the year. 25 of the verified Indian heat action plans carry this year.
+194 works published, 94 of them with a known month; 662 in all by the end of the year. 25 of the verified Indian heat action plans carry this year.
 
 Steps toward protection this year: [Nepal adopts a national plan of action on heat waves](https://beattheheat.asia/atlas/); [Thane plans ward by ward](https://beattheheat.asia/atlas/); [Tamil Nadu builds a state-wide heat network](https://beattheheat.asia/atlas/).
 
-- Evidence279
+- Evidence280
 - Experience38
 - Practical measures134
 - Institutions and plans93
@@ -1518,11 +1555,11 @@ Steps toward protection this year: [Nepal adopts a national plan of action on he
 
 - 2025
 
-200 works published, 115 of them with a known month; 861 in all by the end of the year. 24 of the verified Indian heat action plans carry this year.
+200 works published, 115 of them with a known month; 862 in all by the end of the year. 24 of the verified Indian heat action plans carry this year.
 
 Steps toward protection this year: [Delhi launches its 2025 Heat Action Plan](https://beattheheat.asia/atlas/).
 
-- Evidence333
+- Evidence334
 - Experience54
 - Practical measures181
 - Institutions and plans121
@@ -1530,17 +1567,17 @@ Steps toward protection this year: [Delhi launches its 2025 Heat Action Plan](ht
 
 - 2026 so far
 
-224 works published, 128 of them with a known month; 1,085 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
+224 works published, 128 of them with a known month; 1,086 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
 
 Steps toward protection this year: [Bangkok opens 304 cooling centres](https://beattheheat.asia/atlas/); [The first Global Heat Forum, in Bangkok](https://beattheheat.asia/atlas/); [Bangladesh’s first urban heatwave action plan, for Narayanganj](https://beattheheat.asia/atlas/).
 
-- Evidence403
+- Evidence404
 - Experience70
 - Practical measures243
 - Institutions and plans140
 - Financing229
 
-Not yet dated: 807 works whose records carry no date, and 18 known only to have been online by a certain date. 426 links to organisations are counted apart and never dated. History before October 2026 is reconstructed only from these publication dates; Common Shade's own record of changes begins on 23 October 2026.
+Not yet dated: 808 works whose records carry no date, and 18 known only to have been online by a certain date. 426 links to organisations are counted apart and never dated. History before October 2026 is reconstructed only from these publication dates; Common Shade's own record of changes begins on 23 October 2026.
 
 ## What we've revised
 

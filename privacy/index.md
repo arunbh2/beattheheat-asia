@@ -1,7 +1,7 @@
 ---
 title: "Privacy and terms"
 url: https://beattheheat.asia/privacy/
-updated: 2026-10-01
+updated: 2026-11-15
 licence: CC BY 4.0
 ---
 
@@ -21,7 +21,7 @@ There are no accounts and no sign-up. What you choose on the site, such as a map
 
 **Page counts**: A cookieless counter (GoatCounter) records that a page was opened and, in broad terms, the kind of screen and where the visit came from. It uses no cookies, builds no profile and does not follow people between sites.
 
-**Live temperature**: The live temperature strip asks Open-Meteo, and for Singapore data.gov.sg, for the current weather of a city. Those services see the request, as any website does.
+**Live temperature**: The live temperature strip, the homepage city view and each city page ask Open-Meteo, and for Singapore data.gov.sg, for the current weather and the next few days’ forecast of a city. Those services see the request, as any website does.
 
 **Fonts**: Fonts load from Google Fonts. Google sees the request for them.
 
