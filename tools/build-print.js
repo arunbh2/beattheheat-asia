@@ -12,8 +12,9 @@ const ROOT = path.join(__dirname, ".."), SITE = "https://beattheheat.asia";
 let QR = null; try { QR = require("qrcode"); } catch (e) { /* optional */ }
 const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + `
-;Object.assign(this, { HOME_HEATS, GLOSSARY, GUIDE, LIVE_CITIES, CITY_PROFILES, CITY_HAP, LOOPS, LEVERS, ORGANISATIONS, WORKED_EXAMPLES, AT_RISK,
+;Object.assign(this, { HOME_HEATS, GLOSSARY, GUIDE, LIVE_CITIES, CITY_HAP, LOOPS, LEVERS, ORGANISATIONS, WORKED_EXAMPLES, AT_RISK,
   HEATWAVES, HEATWAVES_NOTE, COOL_PLACES, COOL_TRAPS, COOL_COST_NOTE, COOL_FX, STALLS, LIVE_FINGERPRINT, LOOP_STAKES, STRAIN, COOL_ASK, ACTION_SETTINGS, ACTION_LINES, INSTITUTIONS, FINANCE, EVIDENCE_STATUS });`, ctx);
+Object.assign(ctx, require("./data-blocks.js")());   // plus build-only blocks (not in data.js)
 const D = ctx, TODAY = new Date().toISOString().slice(0, 10);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const short = u => String(u).replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "");

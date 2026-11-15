@@ -320,8 +320,6 @@ Every headline and new paper that has appeared on Heat in the news, newest first
 
 - [Assessing Urban Heat Stress and Thermal Vulnerability in Colombo Using Remote Sensing and Spatial Statistics for Sustainable Urban Planning](https://doi.org/10.21203/rs.3.rs-10481036/v1)Hettikankanama H et al. · Preprint · preprint · 28 Aug 2026 · doi.orgUsed on: Heat in the news: new research
 
-- [Discover Hazards, 2026](https://doi.org/10.1007/s44475-026-00075-8)Pingku Chandra Barman et al. · Discover Hazards · 25 Oct 2026 · doi.orgUsed on: Find practical actions · Heat in the news: new research
-
 - [Quantitative trait loci associated with improved fruit yield under heat-stress conditions in fresh-market tomato](https://doi.org/10.3389/fpls.2026.1919895)Thapa B et al. · Frontiers in plant science · 27 Aug 2026 · doi.orgUsed on: Heat in the news: new research
 
 - [Heat stress responses and thermoregulatory dynamics in Murrah buffalo calves assessed by infrared thermography](https://doi.org/10.1007/s00484-026-03307-0)Kumari R et al. · International journal of biometeorology · 27 Aug 2026 · doi.orgUsed on: Heat in the news: new research
@@ -332,9 +330,11 @@ Every headline and new paper that has appeared on Heat in the news, newest first
 
 - [Effects of a 3-day simulated heatwave on physiological and functional outcomes in older adults in Canada: a single-site randomised crossover trial](https://doi.org/10.1016/j.lanplh.2026.101517)Meade RD et al. · The Lancet. Planetary health · doi.orgUsed on: Heat in the news: new research
 
-- [Frontiers in Climate, 2026 (model study)](https://doi.org/10.3389/fclim.2026.1843008)Jacqueline Muthoni Mbugua et al. · Frontiers in Climate · 14 Oct 2026 · doi.orgUsed on: Find practical actions · Heat in the news: new research
-
 - [Philippine Daily Inquirer, October 2026](https://newsinfo.inquirer.net/2331096/dole-orders-safety-measures-for-riders-amid-extreme-heat)Inquirer · Philippines · 27 Oct 2026 · newsinfo.inquirer.netUsed on: Find practical actions · Heat in the news: headlines
+
+- [Discover Hazards, 2026](https://doi.org/10.1007/s44475-026-00075-8)Pingku Chandra Barman et al. · Discover Hazards · 25 Oct 2026 · doi.orgUsed on: Find practical actions · Heat in the news: new research
+
+- [Frontiers in Climate, 2026 (model study)](https://doi.org/10.3389/fclim.2026.1843008)Jacqueline Muthoni Mbugua et al. · Frontiers in Climate · 14 Oct 2026 · doi.orgUsed on: Find practical actions · Heat in the news: new research
 
 - [Preprint, not yet peer reviewed: prenatal extreme heat and newborn deaths in Bangladesh, 2015–2025 (medRxiv, 2026)](https://doi.org/10.64898/2026.10.23.26366352)Hoque SMAU et al. · Preprint · preprint · 26 Oct 2026 · doi.orgUsed on: Heat in the news: new research · The web
 
@@ -2740,8 +2740,6 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [Disaster Risk Reduction and Management Act 2017 &nbsp;](https://faolex.fao.org/docs/pdf/NEP228597.pdf)faolex.fao.orgUsed on: Nepal snapshot
 
-- [Diurnal asymmetry in heat stress intensification across Bangladesh, 1985–2024 &nbsp;](https://journals.plos.org/climate/article?id=10.1371/journal.pclm.0000848)journals.plos.orgUsed on: Bangladesh snapshot
-
 - [djsn.go.id](https://djsn.go.id/berita/peluncuran-program-nadi-jkn-untuk-menjaga-keaktifan-kepersertaan)djsn.go.idUsed on: Who could help a household through a hot season
 
 - [DOEN Foundation](https://efficiencyforaccess.org/updates/global-leap-awards-announces-winners-and-finalists-of-the-2022-off-grid-cold-chain-challenge/)efficiencyforaccess.orgUsed on: The heat economy: money and support · The heat network
@@ -2749,8 +2747,6 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 - [Down To Earth, 2024: the miscalculation in India’s heatwave mortality data](https://www.downtoearth.org.in/climate-change/lost-in-the-heat-the-critical-miscalculation-in-indias-heatwave-mortality-data)downtoearth.org.inUsed on: Actions · The web · Your city
 
 - [Down To Earth: how to fight heat wave the Odisha way](https://www.downtoearth.org.in/environment/how-to-fight-heat-wave-the-odisha-way-49950)downtoearth.org.inUsed on: Heatwaves that shaped Asia
-
-- [Dzyuban et al., Public transit infrastructure and heat perceptions &nbsp;](https://pmc.ncbi.nlm.nih.gov/articles/PMC8807448/)pmc.ncbi.nlm.nih.govUsed on: Solutions library
 
 - [Early warning systems: resources](https://zcralliance.org/resources-ews/)zcralliance.orgUsed on: Actions
 
@@ -2764,18 +2760,6 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [Eco-Business: Heatwave fee for Asia's gig workers does little to cool climate stress](https://www.eco-business.com/news/heatwave-fee-for-asias-gig-workers-does-little-to-cool-climate-stress/)eco-business.comUsed on: Who heat hits hardest
 
-- [EEA Climate-ADAPT, OASIS case study &nbsp;](https://climate-adapt.eea.europa.eu/en/metadata/case-studies/paris-oasis-schoolyard-programme-france)climate-adapt.eea.europa.euUsed on: Solutions library
-
-- [EESL Annual ReportFY2021–22 &nbsp;](https://eeslindia.org/wp-content/uploads/2022/09/Annual-Report-FY-2021-22.pdf)eeslindia.orgUsed on: Solutions library
-
-- [EESL Mart BLDC fan listing, checked27October2026 &nbsp;](https://eeslmart.in/fan)eeslmart.inUsed on: Solutions library
-
-- [EESL Mart product FAQ &nbsp;](https://eeslmart.in/faq)eeslmart.inUsed on: Solutions library
-
-- [Efficiency for Access/CLASP Pakistan fan testing &nbsp;](https://efficiencyforaccess.org/updates/off-grid-fan-quality-testing-in-pakistan/)efficiencyforaccess.orgUsed on: Solutions library
-
-- [EMA/SP thermal-storage pilot announcement and existing tank demand response &nbsp;](https://www.spgroup.com.sg/about-us/media-resources/news-and-media-releases/EMA-and-SP-Group-to-pilot-thermal-energy-storage-system-at-electricity-substation)spgroup.com.sgUsed on: Solutions library
-
 - [The emergence of heat and humidity too severe for human tolerance](https://pmc.ncbi.nlm.nih.gov/articles/PMC7209987/)pmc.ncbi.nlm.nih.govUsed on: How heat became visible
 
 - [Encyclopaedia Britannica: India–Pakistan heat wave of 2015](https://www.britannica.com/print/article/2028529)britannica.comUsed on: Heatwaves that shaped Asia
@@ -2784,13 +2768,7 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [e-Shram FAQs, Ministry of Labour and Employment, India](https://eshram.gov.in/faqs)eshram.gov.inUsed on: Plan a response · Who could help a household through a hot season
 
-- [ESMAP Primer for Space Cooling &nbsp;](https://documents1.worldbank.org/curated/en/131281601358070522/pdf/Primer-for-Space-Cooling.pdf)documents1.worldbank.orgUsed on: Solutions library
-
 - [Esperon-Rodriguez et al., Nature Climate Change, 2022: climate change increases global risk to urban forests](https://www.vibrantcitieslab.com/wordpress/wp-content/uploads/2023/08/climate-change-increases-global-risk-to-urban-forests.pdf)vibrantcitieslab.comUsed on: Actions · Glossary · The web · Vicious cycles · Your city
-
-- [ETH/Singapore 3for2 demonstrator &nbsp;](https://systems.arch.ethz.ch/3for2-beyond-efficiency)systems.arch.ethz.chUsed on: Solutions library
-
-- [EU Building Energy Efficiency in Nepal project &nbsp;](https://international-partnerships.ec.europa.eu/policies/programming/projects/building-energy-efficiency-nepal-been_en)international-partnerships.ec.europa.euUsed on: Nepal snapshot
 
 - [European Climate Adaptation Platform: evaluating the Dutch heatwave plan](https://climate-adapt.eea.europa.eu/en/metadata/case-studies/evaluating-the-effectiveness-of-the-dutch-national-heatwave-plan)climate-adapt.eea.europa.euUsed on: Plan a response
 
@@ -2800,21 +2778,15 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [Exploring outdoor workers’ knowledge, attitudes, practices, and perceived risks of heatwaves in Nepal](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0329557)journals.plos.orgUsed on: Nepal snapshot · Who could help a household through a hot season
 
-- [External window shading load analysis, Erbil &nbsp;](https://pmc.ncbi.nlm.nih.gov/articles/PMC12749944/)pmc.ncbi.nlm.nih.govUsed on: Solutions library
-
 - [Extreme heat and rainfall, glacier loss and record ocean heat impact Asia in 2025](https://public.wmo.int/news/media-centre/extreme-heat-and-rainfall-glacier-loss-and-record-ocean-heat-impact-asia-2025)public.wmo.intUsed on: How heat became visible
 
 - [Extreme heat forces school closures across Asia, affecting millions of students](https://www.nbcnews.com/news/world/schools-close-extreme-heat-philippines-bangladesh-asia-rcna149485)nbcnews.comUsed on: Actions · Find practical actions · Glossary · Heatwaves that shaped Asia · Plan a response · Your city
-
-- [Extreme heat is not just a climate problem - Khulna &nbsp;](https://practicalaction.org/news-stories/extreme-heat-not-just-climate-problem/)practicalaction.orgUsed on: Bangladesh snapshot
 
 - [Extreme Heat Risk Governance Framework and Toolkit: a self-assessment of how ready institutions are, and how to plan, act and learn](https://heathealth.info/resources/heat-gov-framework/)heathealth.infoUsed on: Actions · Plan a response
 
 - [FAO, 2024: heat stress widens the income gap between rural women and men](https://www.fao.org/newsroom/detail/fao-report--heatwaves-and-floods-affect-rural-women-and-men-differently--widen-income-gap)fao.orgUsed on: A day in a heatwave · The web · Who heat hits hardest
 
 - [FAO: food loss and waste in fish value chains, Sri Lanka](https://www.fao.org/flw-in-fish-value-chains/projects/sri-lanka/multidimensional-solutions-strategy/en)fao.orgUsed on: A week in the heat
-
-- [FCDO RAIN programme registry &nbsp;](https://devtracker.fcdo.gov.uk/programme/GB-GOV-1-400018/summary)devtracker.fcdo.gov.ukUsed on: Nepal snapshot
 
 - [file.portal.gov.bd](https://file.portal.gov.bd/uploads/e5e7ab98-01a1-4201-aed7-938bac247de3/659/fea/716/659fea716a8f4036787088.pdf)file.portal.gov.bdUsed on: Who could help a household through a hot season
 
@@ -2823,8 +2795,6 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 - [Financing heat resilience](https://www.undrr.org/publication/documents-and-publications/financing-heat-resilience)undrr.orgUsed on: How heat became visible
 
 - [First global forum for heat and health](https://www.preventionweb.net/event/first-global-forum-heat-and-health)preventionweb.netUsed on: How heat became visible
-
-- [France voluntary communal heat-vulnerability register &nbsp;](https://www.service-public.gouv.fr/particuliers/actualites/A14978)service-public.gouv.frUsed on: Solutions library
 
 - [Free et al., Science, 2019: warming has already cut fisheries productivity, by 15–35% in five regions including East Asian seas](https://www.climatechangepost.com/news/ocean-warming-already-decreased-global-marine-fisheries-production/)climatechangepost.comUsed on: The web
 
@@ -2844,31 +2814,7 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [Ghatak et al., 2017: the role of local heating in the 2015 Indian heat wave (NASA abstract)](https://ntrs.nasa.gov/citations/20180003614)ntrs.nasa.govUsed on: The web
 
-- [GHHIN South Asia Hub country assessments launch &nbsp;](https://www.ceew.in/press-releases/unprecedented-el-ni%C3%B1o-builds-india-bangladesh-nepal-and-bhutan-join-forces-heat-and)ceew.inUsed on: Bangladesh snapshot
-
 - [Ghimire and others, Frontiers in Public Health, 2025](https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1657267/full)frontiersin.orgUsed on: Cooling options · Find practical actions · Glossary · Who heat hits hardest
-
-- [GIFT City engineer: district cooling and stratified water tank &nbsp;](https://www.rehva.eu/rehva-journal/chapter/indias-first-district-cooling-system-at-gift-city)rehva.euUsed on: Solutions library
-
-- [GIFT City official district-cooling description &nbsp;](https://www.giftgujarat.in/infrastructure/dcs)giftgujarat.inUsed on: Solutions library
-
-- [GIZ Climate- and Environmentally-friendly Solar Cooling Technology Solutions &nbsp;](https://www.green-cooling-initiative.org/fileadmin/Publications/2025_Solar_Cooling_Solutions.pdf)green-cooling-initiative.orgUsed on: Solutions library
-
-- [GIZ cooling-sector mitigation guidance &nbsp;](https://www.giz.de/de/downloads/giz2022-en-proklima-raising-ambition-in-ndcs-through-holistic-mitigation-approaches-in-the-cooling-sector.pdf)giz.deUsed on: Solutions library
-
-- [GIZ/EPA Ghana R290 technician and equipment programme &nbsp;](https://www.green-cooling-initiative.org/news-media/news/news-detail/2024/12/18/green-cooling-in-ghana-advancing-sustainable-refrigeration)green-cooling-initiative.orgUsed on: Solutions library
-
-- [GIZ India good service practice training &nbsp;](https://www.green-cooling-initiative.org/news-media/news/news-detail/2024/12/04/giz-proklima-drives-sustainable-practices-in-indias-rac-sector)green-cooling-initiative.orgUsed on: Solutions library
-
-- [GIZ project report: PV-powered R290 chiller, Accra &nbsp;](https://www.green-cooling-initiative.org/news-media/news/news-detail/2024/10/29/first-r290-air-conditioning-chiller-in-africa)green-cooling-initiative.orgUsed on: Solutions library
-
-- [GIZ Proklima: Solar Cooling for Industry and Commerce, Jordan &nbsp;](https://www.esmap.org/sites/default/files/events-files/Int%20Conf%20Sust%20Cooling/Philipp%20Denzinger-Solar%20Cooling%20Jordan%20GIZ%20Proklima_optimized%20.pdf)esmap.orgUsed on: Solutions library
-
-- [GIZ/UBA R290 Split AC Resource Guide v 2.02 &nbsp;](https://www.green-cooling-initiative.org/fileadmin/R290_Split_Air_Conditioners_Resource_Guide__Update_2025_/ResourceGuide_R290_Split_AC_update.pdf)green-cooling-initiative.orgUsed on: Solutions library
-
-- [GIZ WE4F technical guidelines, AR6 refrigerant table &nbsp;](https://www.green-cooling-initiative.org/fileadmin/user_upload/220509_WE4F_broschure_cold_rooms_Compress.pdf)green-cooling-initiative.orgUsed on: Solutions library
-
-- [Global Cooling Pledge participant register and commitments &nbsp;](https://www.cop28.com/en/global-cooling-pledge-for-cop28)cop28.comUsed on: Nepal snapshot
 
 - [Global Environment Facility](https://www.thegef.org)thegef.orgUsed on: The heat economy: money and support · The heat network
 
@@ -2886,13 +2832,7 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [Government of India, 2026: Notes on Demands for Grants, 2026-2027](https://www.indiabudget.gov.in/doc/eb/sbe1.pdf)indiabudget.gov.inUsed on: Who could help a household through a hot season
 
-- [Government of India, building codes published for state adoption &nbsp;](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2118327&amp;lang=2&amp;reg=48)pib.gov.inUsed on: Solutions library
-
-- [Government of India, ICAP launch &nbsp;](https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1568328&amp;lang=2&amp;reg=48)pib.gov.inUsed on: Solutions library
-
 - [Government of Singapore, 2026: Managing Cost of Living in Singapore](https://www.gov.sg/features/cost-of-living/)gov.sgUsed on: Who could help a household through a hot season
-
-- [Government of Telangana, issued orders register &nbsp;](https://buildnow.telangana.gov.in/go-and-act/)buildnow.telangana.gov.inUsed on: Solutions library
 
 - [Government of Thailand, 2026](https://thailand.go.th/issue-focus-detail/bangkok-launches-304-cooling-centers-to-combat-extreme-heat)thailand.go.thUsed on: Your city
 
@@ -2910,25 +2850,13 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [Groundwater extraction may drown mega-delta](https://iopscience.iop.org/article/10.1088/2515-7620/ab5e21)iopscience.iop.orgUsed on: Actions · Vicious cycles
 
-- [Guidelines launched to protect children and pregnant women from heat stress &nbsp;](https://www.unicef.org/bangladesh/en/press-releases/new-guidelines-launched-protect-children-and-pregnant-women-heat-stress-bangladesh)unicef.orgUsed on: Bangladesh snapshot
-
-- [Guo et al.: Experimental investigation of convective heat transfer for night ventilation &nbsp;](https://vbn.aau.dk/en/publications/experimental-investigation-of-convective-heat-transfer-for-night--2/)vbn.aau.dkUsed on: Solutions library
-
-- [Hamdi et al.: Experimental study of earth-to-air heat exchanger in arid zone &nbsp;](https://www.iieta.org/download/file/fid/4326)iieta.orgUsed on: Solutions library
-
 - [Hammond et al., Nature Communications, 2022: a hotter-drought fingerprint for tree die-off](https://doi.org/10.1038/s41467-022-29289-2)doi.orgUsed on: The web
 
 - [Hansen et al., chapter 10 in Nature-Based Solutions for Cities, 2023: more than 500 of 870 new trees died in a Berlin park](https://doi.org/10.4337/9781800376762)doi.orgUsed on: Actions · Cooling options · Find practical actions · Glossary · The web · market explorer
 
 - [Hansson et al., Annals of Work Exposures and Health, 2024](https://doi.org/10.1093/annweh/wxae007)doi.orgUsed on: Find practical actions
 
-- [Hansson et al. rest-shade-hydration-hygiene cohort &nbsp;](https://portal.research.lu.se/en/publications/rest-shade-hydration-and-hygiene-for-the-prevention-of-kidney-inj/)portal.research.lu.seUsed on: Solutions library
-
-- [Hansson et al., RSHH cohort, Nicaragua, 2025 &nbsp;](https://pubmed.ncbi.nlm.nih.gov/40803826/)pubmed.ncbi.nlm.nih.govUsed on: Solutions library · The heat economy: what could come up
-
 - [HAPIE: tracking heat action plan implementation, 2026](https://preparecenter.org/wp-content/uploads/2026/08/HAPIE.pdf)preparecenter.orgUsed on: Plan a response
-
-- [Haque et al., organic and synthetic mulch, coastal Bangladesh, 2025 &nbsp;](https://link.springer.com/article/10.1007/s44447-025-00051-6)link.springer.comUsed on: Solutions library
 
 - [Harish et al., 2020: impact of temperature on electricity demand in Delhi and Indian states](https://cprindia.org/journalarticles/impact-of-temperature-on-electricity-demand-evidence-from-delhi-and-indian-states/)cprindia.orgUsed on: The web
 
@@ -2954,8 +2882,6 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [Heat-health action plans: guidance](https://www.who.int/publications/i/item/9789289071918)who.intUsed on: How heat became visible
 
-- [Heat-Health Adaptation Plan for Bangladesh workshop &nbsp;](https://bracjpgsph.org/index.php/impact/events/heat-health-adaptation-plan-for-bangladesh)bracjpgsph.orgUsed on: Bangladesh snapshot
-
 - [Heat in the city: guidance and resources for urban heat](https://heathealth.info/in-the-city/)heathealth.infoUsed on: Actions
 
 - [Heat-Related Emergency Department Visits During the Northwestern Heat Wave — United States, June 2021](https://www.cdc.gov/mmwr/volumes/70/wr/mm7029e1.htm)cdc.govUsed on: How heat became visible
@@ -2968,25 +2894,11 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [Heat stress reduces productivity among workers in Singapore](https://medicine.nus.edu.sg/wp-content/uploads/2024/03/PRESS-RELEASE_Project-HeatSafe-18MAR2024-FOR-IMMEDIATE-RELEASE.pdf)medicine.nus.edu.sgUsed on: A week in the heat · Actions · Find practical actions · Plan a response · The heat network · Weather, work and the person · Who heat hits hardest · Your city
 
-- [Heat-transfer analysis of stratified chilled-water storage tank &nbsp;](https://iieta.org/node/19733)iieta.orgUsed on: Solutions library
-
 - [Heatwaves and health: guidance on warning-system development](https://heathealth.info/resources/heatwaves-and-health-guidance-on-warning-system-development/)heathealth.infoUsed on: Actions
 
 - [Heatwaves and Health: Guidance on Warning-System Development](https://cdn.who.int/media/docs/default-source/climate-change/heat-waves-and-health---guidance-on-warning-system-development.pdf?download=true&sfvrsn=e4813084_2)cdn.who.intUsed on: How heat became visible
 
-- [Hecht et al.: existing Singapore vertical greenery field research &nbsp;](https://research-portal.uu.nl/en/publications/rocks-and-walls-biodiversity-and-temperature-regulation-of-natura/)research-portal.uu.nlUsed on: Solutions library
-
-- [Hedayat et al.: Wind flow patterns in ancient wind catchers, Mortaz house &nbsp;](https://www.magiran.com/paper/2134226/wind-flow-patterns-in-ancient-wind-catchers-of-yazd-based-on-a-long-term-measurement-case-study-mortaz-house?lang=en)magiran.comUsed on: Solutions library
-
-- [Hema et al. accepted manuscript &nbsp;](https://research.dial.uclouvain.be/bitstreams/831fbd10-e3bc-4823-bd97-361b400aacca/download)research.dial.uclouvain.beUsed on: Solutions library
-
-- [Hema et al.: compressed-earth wall experiment &nbsp;](https://research.dial.uclouvain.be/entities/publication/8792b0ab-c5ce-4be2-bd7e-33b3e6ed3b59)research.dial.uclouvain.beUsed on: Solutions library
-
-- [Hess et al., Ahmedabad HAP mortality study &nbsp;](https://pmc.ncbi.nlm.nih.gov/articles/PMC6236972/)pmc.ncbi.nlm.nih.govUsed on: Solutions library
-
 - [The Himalayan Times](https://thehimalayantimes.com/health/health-insurance-board-clarifies-opd-limit-total-coverage-unchanged)thehimalayantimes.comUsed on: A week in the heat
-
-- [Historic England: Cooling a country house &nbsp;](https://historicengland.org.uk/images-books/publications/adapting-historic-buildings-energy-carbon-efficiency-advice-note-18/case-study-cooling-country-house/)historicengland.org.ukUsed on: Solutions library
 
 - [The Hitavada, 11 May 2026](https://www.thehitavada.com//Encyc/2026/5/11/green-nets-at-city-squares-relief-measure-or-another-half-planned-half-planned-civic-experiment.html)thehitavada.comUsed on: Cooling options · Find practical actions
 
@@ -3006,17 +2918,11 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [HRD Asia: 78 worksites found non-compliant](https://www.hcamag.com/asia/specialisation/employment-law/more-than-75-worksites-found-non-compliant-with-singapores-enhanced-heat-stress-measures-report/499570)hcamag.comUsed on: A week in the heat · Actions · Plan a response
 
-- [HSE Thermal comfort: environmental and personal factors &nbsp;](https://www.hse.gov.uk/temperature/thermal/index.htm)hse.gov.ukUsed on: Solutions library
-
 - [hub.worldpop.org](https://hub.worldpop.org/geodata/summary?id=81578)hub.worldpop.orgUsed on: Who could help a household through a hot season
 
 - [hub.worldpop.org](https://hub.worldpop.org/geodata/summary?id=50547)hub.worldpop.orgUsed on: Who could help a household through a hot season
 
 - [Human Health](https://www-iam.nies.go.jp/aim/india0210/cc_papers/ipccreports/climate_change_2001/working_group2/WG2_09.pdf)www-iam.nies.go.jpUsed on: How heat became visible
-
-- [Humanity Insured: MHT heat coverage support &nbsp;](https://humanityinsured.org/stories/mahila-housing-trust/)humanityinsured.orgUsed on: Solutions library
-
-- [IBPSA 2021 Jaali thermal/visual optimisation study &nbsp;](https://publications.ibpsa.org/conference/paper/?id=bs2021_30453)publications.ibpsa.orgUsed on: Solutions library
 
 - [ICICI Lombard General Insurance](https://www.icicilombard.com)icicilombard.comUsed on: The heat economy: businesses · The heat network
 
@@ -3028,37 +2934,19 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [IDEAS, via Databoks, 2025](https://databoks.katadata.co.id/en/employment/statistics/682bff44af745/how-much-do-online-motorcycle-taxi-drivers-earn-daily-in-jabodetabek)databoks.katadata.co.idUsed on: A week in the heat
 
-- [IEA SHC Solar Heat Worldwide 2022: commissioned solar cooling systems &nbsp;](https://www.iea-shc.org/Data/Sites/1/publications/2022-IEA_SHC-Solar_Heat_Worldwide-3.pdf)iea-shc.orgUsed on: Solutions library
-
 - [IFC, 2019: The Dirty Footprint of the Broken Grid (20–30 million back-up generator sites)](https://www.ifc.org/en/pressroom/2019/new-ifc-study-details-environmental-economic-health-costs-of-fossil-fuel-generators)ifc.orgUsed on: Glossary · The web
-
-- [IHRR heat anticipatory-action institutionalisation study &nbsp;](https://ihrr.org.np/project/Capacities,%20Gaps%20and%20Opportunities%20in%20Institutionalization%20of%20Heat%20Anticipatory%20Action%20in%20Nepal)ihrr.org.npUsed on: Nepal snapshot
 
 - [IIED, 2026](https://www.iied.org/sites/default/files/pdfs/2026-02/22697iied.pdf)iied.orgUsed on: Cooling options
 
 - [IIED, 2026: health and economic impacts of heat on informal workers in urban Bangladesh](https://www.iied.org/sites/default/files/pdfs/2026-08/22755iied.pdf)iied.orgUsed on: Bangladesh snapshot · The web
 
-- [IIT Bombay research account: wall-material CFD &nbsp;](https://iitb.ac.in/research-highlight/choosing-wall-materials-cooler-homes-using-computational-methods)iitb.ac.inUsed on: Solutions library
-
 - [ILO, 2026: impacts of heat stress on jobs and productivity in the Maldives](https://www.ilo.org/sites/default/files/2026-10/MALDIVES_Study_Oct27.pdf)ilo.orgUsed on: The web
-
-- [ILO explanation of Qatar heat legislation &nbsp;](https://www.ilo.org/resource/news/new-legislation-qatar-provides-greater-protection-workers-heat-stress)ilo.orgUsed on: Solutions library
-
-- [ILO Qatar labour reform implementation &nbsp;](https://webapps.ilo.org/infostories/en-GB/Stories/Country-Focus/world-cup-qatar.html)webapps.ilo.orgUsed on: Solutions library
 
 - [ILO social protection brief](https://un.social-protection.org/gimi/Media.action?id=18733)un.social-protection.orgUsed on: A week in the heat
 
-- [ILO/University of Thessaly: occupational heat-strain study Qatar &nbsp;](https://www.ilo.org/sites/default/files/wcmsp5/groups/public/@arabstates/@ro-beirut/documents/publication/wcms_723545.pdf)ilo.orgUsed on: Solutions library
-
-- [Impacts of the 2024 heatwave on marginalised groups in Khulna &nbsp;](https://practicalaction.org/knowledge-centre/resources/impacts-of-the-2024-heatwave-on-marginalized-groups-in-khulna/)practicalaction.orgUsed on: Bangladesh snapshot
-
 - [Inclusive finance and extreme heat: how small loans and parametric insurance can help people through deadly heatwaves](https://centerforfinancialinclusion.org/inclusive-finance-and-extreme-heat-how-small-loans-and-parametric-insurance-can-help-vulnerable-populations-manage-through-deadly-heat-waves)centerforfinancialinclusion.orgUsed on: Actions · The heat network
 
-- [Independent mid-term review of EESL market-transformation project &nbsp;](https://open.unep.org/docs/gef/MTRTE/9258_2021_MTR_India_EESL.pdf)open.unep.orgUsed on: Solutions library
-
 - [India Cooling Action Plan](https://ozonecell.nic.in/home-page/resource-informations/reports-publications/india-cooling-action-plan/)ozonecell.nic.inUsed on: Actions
-
-- [India health-facility heat preparedness guidance &nbsp;](https://ncdc.mohfw.gov.in/uploads/resource/1769333208_4_Strengthening-Health-Systems-Preparedness-for-Heat-Related-Illnesses-HRI-in-India_180423.pdf)ncdc.mohfw.gov.inUsed on: Solutions library
 
 - [India in a Warming World: Strengthening Heat-Health Action](https://www.ceew.in/publications/india-heat-health-action)ceew.inUsed on: Actions
 
@@ -3069,10 +2957,6 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 - [India Meteorological Department: heatwave definitions](https://mausam.imd.gov.in/pdfs/heatcolduser/Definition.pdf)mausam.imd.gov.inUsed on: Plan a response
 
 - [India Meteorological Department: Yearly Gridded Maximum Temperature (1.0 x 1.0) data Binary File](https://imdpune.gov.in/cmpg/Griddata/Max_1_Bin.html)imdpune.gov.inUsed on: Who could help a household through a hot season
-
-- [India Ministry of Power summer/heatwave supply measures &nbsp;](https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&amp;reg=48&amp;relid=256180)pib.gov.inUsed on: Solutions library
-
-- [India NHM free drugs and diagnostics mechanism &nbsp;](https://nhm.gov.in/collections/index1.php?lang=1&amp;level=2&amp;lid=192&amp;sublinkid=1218)nhm.gov.inUsed on: Solutions library
 
 - [Indian Institute for Human Settlements (IIHS)](https://iihs.co.in/publication/evaluating-indoor-thermal-resilience-of-passive-and-low-power-cooling-shelters-for-outdoor-workers-in-india/)iihs.co.inUsed on: Solutions library · The heat network
 
@@ -3124,13 +3008,9 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [Jakarta Provincial Government](https://www.jakarta.go.id)jakarta.go.idUsed on: Indonesia snapshot · The heat network
 
-- [Jareemit and Srivanit, market shade and tree canopy field trial &nbsp;](https://www.mdpi.com/2071-1050/14/8/4653)mdpi.comUsed on: Solutions library
-
 - [jdih.kemensos.go.id](https://jdih.kemensos.go.id/detail/keputusan-menteri-sosial-republik-indonesia-nomor-33huk2026-wt8GReCOMq)jdih.kemensos.go.idUsed on: Who could help a household through a hot season
 
 - [Jones et al., World Bank Policy Research Working Paper 10960, 2024](https://ideas.repec.org/p/wbk/wbrwps/10960.html)ideas.repec.orgUsed on: Cooling options
-
-- [Joshi et al., Indore overhang heat-balance analysis &nbsp;](https://nopr.niscpr.res.in/handle/123456789/60741)nopr.niscpr.res.inUsed on: Solutions library
 
 - [J-PAL: Enrolling Informal Sector Workers in National Health Insurance in Indonesia](https://www.povertyactionlab.org/evaluation/enrolling-informal-sector-workers-national-health-insurance-indonesia)povertyactionlab.orgUsed on: Who could help a household through a hot season
 
@@ -3138,25 +3018,11 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [July 12-15, 1995 Deadly Heat Wave](https://www.weather.gov/mkx/1995_heat-wave)weather.govUsed on: How heat became visible
 
-- [Kaer case study: 1 Elpro Business Park, Pune &nbsp;](https://www.kaer.com/_files/ugd/130f5b_cfedf0c4b1514d0abeaed44fac5d42c7.pdf)kaer.comUsed on: Solutions library
-
-- [Kaer published cooling-as-a-service model &nbsp;](https://www.kaer.com/services)kaer.comUsed on: Solutions library · The heat economy: businesses · The heat economy: what makes markets work
-
-- [Kamal et al., shade materials for calves, 2016 &nbsp;](https://epubs.icar.org.in/index.php/IJAnS/article/view/55027)epubs.icar.org.inUsed on: Solutions library
-
 - [Kantipur, 2026](https://ekantipur.com/news/2026/05/24/en/temperatures-exceed-40-degrees-celsius-in-western-tarai-normal-life-affected-by-heatwave-38-16.html)ekantipur.comUsed on: A week in the heat
 
 - [The Kathmandu Post, 2026](https://kathmandupost.com/money/2026/07/30/extreme-heat-threatens-nepal-s-economy-as-warming-accelerates)kathmandupost.comUsed on: A week in the heat
 
-- [Keegan, Taylor and Kirby, field-aged TPO roofs &nbsp;](https://iibec.org/publication-post/testing-field-aged-tpo-roofs-demonstrating-real-world-performance/)iibec.orgUsed on: Solutions library
-
 - [Ken Research: Philippines cool roof market](https://www.kenresearch.com/philippines-cool-roof-market)kenresearch.comUsed on: Cooling options
-
-- [Kent/Schiavon et al., author presentation of Singapore 2023 study &nbsp;](https://cbe.berkeley.edu/wp-content/uploads/2023/12/Schiavon-2023-Energy-Comfort-ZNE-Office-Singapore.pdf)cbe.berkeley.eduUsed on: Solutions library
-
-- [Khanna et al., multitier agroforestry, Indian Journal of Agroforestry 2026 &nbsp;](https://epubs.icar.org.in/index.php/IJA/article/download/174495/66469/531438)epubs.icar.org.inUsed on: Solutions library
-
-- [Khapte et al., protected cultivation in Jodhpur, 2021 &nbsp;](https://journal.agrimetassociation.org/index.php/jam/article/view/25)journal.agrimetassociation.orgUsed on: Solutions library
 
 - [Kidney International Reports, 2023: heat stress and kidney health in Tamil Nadu salt-pan workers](https://doi.org/10.1016/j.ekir.2023.04.011)doi.orgUsed on: Glossary · The web · Why action stalls
 
@@ -3166,49 +3032,25 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [Kumar, 2024: water security through the Tata Power DDL RO water plants](https://www.researchgate.net/publication/384892155_WATER_SECURITY_THROUGH_CORPORATE_SOCIAL_RESPONSIBILITY_A_CASE_STUDY_OF_RO_WATER_PLANTS_BY_TATA_POWER_DDL)researchgate.netUsed on: Find practical actions
 
-- [Kumar et al., freeze-preventive vaccine carriers in Nepal &nbsp;](https://pubmed.ncbi.nlm.nih.gov/35243322/)pubmed.ncbi.nlm.nih.govUsed on: Solutions library
-
-- [Labour Act 2017 English translation &nbsp;](https://image.mfa.go.th/mfa/0/5bdN9SBnCZ/File_PDF/The-Labor-Act-2017-2074.pdf)image.mfa.go.thUsed on: Nepal snapshot
-
 - [Lancet Countdown 2024, India data sheet: infants faced 7.7 heatwave days a year](https://lancetcountdown.org/wp-content/uploads/2024/10/Lancet-Countdown-2024_INDIA.pdf)lancetcountdown.orgUsed on: Glossary · The web · Who heat hits hardest
 
 - [Lancet Countdown 2024, summarised by Wellcome: heatwaves and droughts linked to 151 million more people facing food insecurity](https://wellcome.org/insights/articles/wellcome-responds-2024-report-lancet-countdown-health-and-climate-change)wellcome.orgUsed on: The web
-
-- [Lawin and Zakaria, small-scale roof field study &nbsp;](https://periodical.uthm.edu.my/index.php/rtcebe/article/view/5894)periodical.uthm.edu.myUsed on: Solutions library
-
-- [LBNL Cool Walls research programme &nbsp;](https://heatisland.lbl.gov/index.php/projects/cool-walls)heatisland.lbl.govUsed on: Solutions library
 
 - [Learning Interrupted: global snapshot of climate-related school disruptions](https://www.unicef.org/reports/learning-interrupted)unicef.orgUsed on: Actions
 
 - [Lee et al., 2020: heat stress among health workers in India and Singapore during COVID-19](https://heathealth.info/wp-content/uploads/Lee-et-al.-2020-Heat-Stress-and-Thermal-Perception-amongst-Healthcare-Workers-during-the-COVID-19-Pandemic-in-India-and-Singapore.pdf)heathealth.infoUsed on: The web
 
-- [Leng et al.: Field Investigation of Indoor Thermal Performance in Malaysia Air-Welled Terraced House &nbsp;](https://ijbes.utm.my/index.php/ijbes/article/view/388)ijbes.utm.myUsed on: Solutions library
-
-- [Li et al., Singapore radiant/all-air crossover study &nbsp;](https://collaborate.princeton.edu/en/publications/comparison-of-the-environmental-energy-and-thermal-comfort-perfor/)collaborate.princeton.eduUsed on: Solutions library
-
-- [Lin et al., Street spatial structure, Taipei &nbsp;](https://www.mdpi.com/1999-4907/15/12/2221)mdpi.comUsed on: Solutions library
-
 - [link.springer.com](https://link.springer.com/article/10.1186/s12982-026-01734-3)link.springer.comUsed on: Who could help a household through a hot season
 
-- [Lipare et al.: intermittent-pumping roof pond &nbsp;](https://eudl.eu/pdf/10.4108/eai.16-5-2020.2304098)eudl.euUsed on: Solutions library
-
-- [Liu et al., perforated dew-point cooler model &nbsp;](https://www.nature.com/articles/s41598-025-85253-2)nature.comUsed on: Solutions library
-
 - [The lived experiences of vulnerable populations in the context of extreme heat: five cities in Nepal and Bangladesh](https://www.climatecentre.org/publications/17312/the-lived-experiences-of-vulnerable-populations-in-the-context-of-extreme-heat-a-comprehensive-narrative-report-based-on-survey-data-from-five-cities-in-nepal-and-bangladesh/)climatecentre.orgUsed on: Actions · Your city
-
-- [Living with Heat in Nepal - report &nbsp;](https://www.ceew.in/sites/default/files/ceew-nepal-warming-world-heat-health-action.pdf)ceew.inUsed on: Nepal snapshot
 
 - [Lobell, Sibley and Ortiz-Monasterio, Nature Climate Change, 2012 (wheat in India)](https://fsi.stanford.edu/node/26622)fsi.stanford.eduUsed on: Actions · The web
 
 - [Local Initiatives for Biodiversity, Research and Development (LI-BIRD)](https://libird.org)libird.orgUsed on: Nepal snapshot · The heat network
 
-- [Locally Led Adaptation Framework dissemination &nbsp;](https://www.undp.org/bangladesh/press-releases/locally-led-adaptation-framework-launched-boost-climate-resilience)undp.orgUsed on: Bangladesh snapshot
-
 - [Lovell et al., Journal of Glaciology, 2024: ice-dammed lake formation and drainage at Shisper Glacier](https://www.cambridge.org/core/journals/journal-of-glaciology/article/multiple-phases-of-icedammed-lake-formation-and-drainage-associated-with-a-surge-of-shisper-glacier-western-karakoram/EC032F0636796DB506AD584FA7E3961A)cambridge.orgUsed on: The web
 
 - [Mach et al., Nature, 2019, summarised by Stanford University](https://news.stanford.edu/stories/2019/06/climate-change-cause-armed-conflict)news.stanford.eduUsed on: The web
-
-- [Madhesh public-school heat perception study &nbsp;](https://www.mercycorps.org/sites/default/files/2025-05/heat-study-final-report-jun-2025.pdf)mercycorps.orgUsed on: Nepal snapshot
 
 - [Maharashtra Food, Civil Supplies and Consumer Protection Department: National Food Security Act, 2013](https://s3e21e4e58ad9ab56e8a4634046da90113.s3waas.gov.in/national-food-security-act-2013/)s3e21e4e58ad9ab56e8a4634046da90113.s3waas.gov.inUsed on: Who could help a household through a hot season
 
@@ -3220,23 +3062,11 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [Malay Mail: Singapore’s heatwave response plan, 2025](https://www.malaymail.com/news/singapore/2025/03/20/singapore-rolls-out-cooling-measures-as-heatwave-response-plan-unveiled/170163)malaymail.comUsed on: Plan a response · Your city
 
-- [Manavvi and Milosevic, Chasing cool, Roorkee &nbsp;](https://research.wur.nl/en/publications/chasing-cool-unveiling-the-influence-of-green-blue-features-on-ou/)research.wur.nlUsed on: Solutions library
-
-- [Manila Bulletin, 2024](https://mb.com.ph/2024/3/31/dep-ed-confirms-suspension-of-classes-in-several-areas-due-to-severe-heat)mb.com.phUsed on: A week in the heat
-
-- [The Manila Times, 2024](https://manilatimes.net/2024/03/24/news/national/dole-protect-workers-from-heat-stress/1938252)manilatimes.netUsed on: A week in the heat
-
 - [Master Direction: Relief measures by banks in areas affected by natural calamities](https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10478)rbi.org.inUsed on: Actions · The heat network
 
 - [Masuda et al., 2021: warming from tropical deforestation reduces worker productivity (PMC7952402)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7952402/)pmc.ncbi.nlm.nih.govUsed on: The web · Who heat hits hardest
 
-- [McGirr et al. Indoor heat and acute symptom reporting, Chakaria &nbsp;](https://link.springer.com/article/10.1186/s12889-025-21597-8)link.springer.comUsed on: Solutions library
-
-- [McManus et al., Shade matters, 2026 &nbsp;](https://link.springer.com/article/10.1007/s00484-025-03063-7)link.springer.comUsed on: Solutions library
-
 - [MCR2030, Urban Heat Risk Management Resource Package, 2025](https://mcr2030.undrr.org/publication/urban-heat-risk-management-resource-package)mcr2030.undrr.orgUsed on: Plan a response
-
-- [Meade et al.: laboratory cooling-centre simulation &nbsp;](https://doi.org/10.1289/ehp11651)doi.orgUsed on: Solutions library
 
 - [Meghalaya Building and Other Construction Workers Welfare Board: Frequently Asked Questions](https://megbocwwb.gov.in/faqs)megbocwwb.gov.inUsed on: Who could help a household through a hot season
 
@@ -3248,27 +3078,11 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [Metro TV News](https://www.metrotvnews.com/read/KXyCWwmW-target-30-ruang-terbuka-hijau-jakarta-dikejar-hingga-2045)metrotvnews.comUsed on: Cooling options
 
-- [MHA parliamentary answer on heat notification and funding &nbsp;](https://sansad.in/getFile/lsapps/loksabhaquestions/annex/188/AU2541_Ql0SOe.pdf?source=lsapps)sansad.inUsed on: Solutions library
-
-- [MHT climate adaptation livelihood update &nbsp;](https://www.mahilahousingtrust.org/wp-content/uploads/2024/03/March-Update-Climate-Adaptation-of-Inclusive-Livelihood-Programmes.pdf)mahilahousingtrust.orgUsed on: Solutions library
-
-- [MHT climate-resilience practice &nbsp;](https://www.mahilahousingtrust.org/practice-areas/building-climate-resilience-and-energy-efficiency/)mahilahousingtrust.orgUsed on: Solutions library
-
-- [MHT microlending for habitat improvement &nbsp;](https://www.mahilahousingtrust.org/practice-areas/microlending-for-habitat-improvement/)mahilahousingtrust.orgUsed on: Solutions library
-
-- [Miami-Dade FY2024–25 adopted budget, RER &nbsp;](https://www.miamidade.gov/resources/budget/adopted/fy2024-25/regulatory-and-economic-resources.pdf)miamidade.govUsed on: Solutions library
-
 - [Microfinance debt in Cambodia](https://www.hrw.org/report/2025/09/24/debt-traps/predatory-microfinance-loans-and-exploitation-of-cambodias-indigenous)hrw.orgUsed on: Actions · Vicious cycles
-
-- [Microsphere-polymer radiative-cooling film experiment &nbsp;](https://link.springer.com/article/10.1186/s43074-025-00198-z)link.springer.comUsed on: Solutions library
 
 - [Migrant workers in Singapore, 2023 (PMC10329802)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10329802/)pmc.ncbi.nlm.nih.govUsed on: The web
 
 - [The Migration Story](https://themigrationstory.com/?p=19496)themigrationstory.comUsed on: Find practical actions
-
-- [Miller et al., Energy and Buildings 2021 field study &nbsp;](https://acris.aalto.fi/ws/portalfiles/portal/67401543/ENG_Miller_et_al_Cooling_energy_savings_Energy_and_Buildings.pdf)acris.aalto.fiUsed on: Solutions library
-
-- [Ministry listing - draft National Cooling Plan up to 2035 &nbsp;](https://moef.gov.bd/pages/static-pages/694032e535ce18e1c056404a)moef.gov.bdUsed on: Bangladesh snapshot
 
 - [Ministry of Environment, Indonesia](https://kemenlh.go.id)kemenlh.go.idUsed on: Indonesia snapshot · The heat network
 
@@ -3299,8 +3113,6 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 - [Ministry of Labour, 2026: Over 500,000 Section 40 Insured Persons Rejoice Following Labour Minister’s Drive to Enhance Social Security Benefits Aligned with Current Economic Conditions: Outpatient Medical Compensation Increased from 50 to 200 Baht/Visit; Maximum Income Compensation for Disability Cases Raised from 1,000 to 3,000 Baht](https://www.mol.go.th/en/news/over-500000-section-40-insured-persons-rejoice-following-labour-ministers-drive-to-enhance-social-security-benefits-aligned-with-current-economic-conditions-outpatient-medical-compensation-increased-from-50-to-200-baht-visit-maximum-income-compensation-for-disability-cases-raised-from-1000-to-3000-baht)mol.go.thUsed on: Who could help a household through a hot season
 
 - [Ministry of Labour and Employment, 2025: Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)](https://www.labour.gov.in/static/uploads/2025/06/2e7e01b90e6358cb82f396615fc87a94.pdf)labour.gov.inUsed on: Who could help a household through a hot season
-
-- [Ministry of Labour and Employment legislative information &nbsp;](https://mole.gov.bd/pages/legislative-informations)mole.gov.bdUsed on: Bangladesh snapshot
 
 - [Ministry of Labour and Employment: Schemes](https://eshram.gov.in/Schemes)eshram.gov.inUsed on: Who could help a household through a hot season
 
@@ -3346,18 +3158,6 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [Mishra et al., 2020: moist heat stress extremes in India enhanced by irrigation](https://impact.ornl.gov/en/publications/moist-heat-stress-extremes-in-india-enhanced-by-irrigation/)impact.ornl.govUsed on: Actions · The web
 
-- [MIT D-Lab: brick cooling chambers &nbsp;](https://d-lab.mit.edu/research/evaporative-cooling-vegetable-preservation/brick-cooling-chambers)d-lab.mit.eduUsed on: Solutions library
-
-- [MIT D-Lab: dissemination in rural Uganda &nbsp;](https://d-lab.mit.edu/news-blog/blog/disseminating-evaporative-cooling-technologies-rural-uganda)d-lab.mit.eduUsed on: Solutions library
-
-- [MIT D-Lab: piloting in western India &nbsp;](https://d-lab.mit.edu/news-blog/blog/piloting-evaporative-cooling-technologies-western-india)d-lab.mit.eduUsed on: Solutions library
-
-- [MIT D-Lab/World Vegetable Center evaluation, Mali &nbsp;](https://d-lab.mit.edu/resources/publications/evaporative-cooling-technologies-improved-vegetable-storage-mali)d-lab.mit.eduUsed on: Solutions library
-
-- [Mittal Institute/MNIT Jaipur radiant-barrier project account &nbsp;](https://mittalsouthasiainstitute.harvard.edu/2025/11/ultra-low-cost-solutions-for-overheating-and-sleep-disruption/)mittalsouthasiainstitute.harvard.eduUsed on: Solutions library
-
-- [MNIT/ISHRAE EvapCal design tool &nbsp;](https://mnit.ac.in/cee/downloads/EvapCal_MNIT.pdf)mnit.ac.inUsed on: Solutions library
-
 - [Mongabay, 2024](https://news.mongabay.com/2024/09/bangkok-turns-to-urban-forests-to-beat-worsening-floods/)news.mongabay.comUsed on: Cooling options
 
 - [Mongabay, 2026](https://news.mongabay.com/short-article/2026/05/climate-change-triples-chance-of-deadly-2026-south-asia-pre-monsoon-heatwave-report/)news.mongabay.comUsed on: Heatwaves that shaped Asia
@@ -3372,15 +3172,11 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [Mothership, 2024](https://mothership.sg/2024/04/bangkok-feels-like-52-c/)mothership.sgUsed on: A week in the heat
 
-- [Muna et al., Bangladesh clinic false-ceiling modelling &nbsp;](https://link.springer.com/article/10.1007/s43937-026-00196-7)link.springer.comUsed on: Solutions library
-
 - [Narayanganj City Corporation: Heat Action Plan, 2025](https://southasia.iclei.org/wp-content/uploads/2026/02/Heat-Action-Plan_Narayanganj_Final_9th-Sept_2025_compressed.pdf)southasia.iclei.orgUsed on: Actions · Bangladesh snapshot
 
 - [NASA Earth Observatory, 2016](https://earthobservatory.nasa.gov/NaturalHazards/view.php?id=87981)earthobservatory.nasa.govUsed on: Heatwaves that shaped Asia
 
 - [National Action Plan on Heat-Related Illness](https://ncdc.mohfw.gov.in/uploads/pdf/heat12.pdf)ncdc.mohfw.gov.inUsed on: Actions
-
-- [National Adaptation Plan of Bangladesh 2023–2050 &nbsp;](https://www.undp.org/bangladesh/publications/national-adaptation-plan-bangladesh-2023-2050)undp.orgUsed on: Bangladesh snapshot
 
 - [National Centre for Disease Control, India: heat-related illnesses](https://ncdc.mohfw.gov.in/uploads/pdf/6.%20Health%20Impact%20of%20Heat_Heat%20Related%20Illnesses.pdf)ncdc.mohfw.gov.inUsed on: Glossary
 
@@ -3390,13 +3186,281 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [National Disaster Risk Reduction and Management Authority, Nepal](https://english.onlinekhabar.com/reassessing-nepals-heat-wave-response-lessons-from-2024-and-the-way-forward.html)english.onlinekhabar.comUsed on: The heat network · Your city
 
-- [National Guideline on Heat-Related Illness &nbsp;](https://heathealth.info/wp-content/uploads/National-Guideline-on-Heat-Related-Illness_FINAL.pdf)heathealth.infoUsed on: Bangladesh snapshot
-
 - [National Legal Services Authority and local legal services institutions](https://nalsa.gov.in/legal-aid/)nalsa.gov.inUsed on: Who could help a household through a hot season
 
 - [National University of Singapore Medicine, 2024: Heat stress causes lower fertility, productivity and reduced cognitive capacity: Project HeatSafe](https://medicine.nus.edu.sg/news/heat-stress-causes-lower-fertility-productivity-and-reduced-cognitive-capacity-project-heatsafe/)medicine.nus.edu.sgUsed on: Who could help a household through a hot season
 
 - [Nature-Based Solutions to Climate Change Adaptation in Urban Areas](https://doi.org/10.1007/978-3-319-56091-5)doi.orgUsed on: Actions · Cooling options
+
+- [Nepalgunj Heat Action Plan, 2023](https://preparecenter.org/wp-content/uploads/2023/07/Nepalgunj-Heat-Action-Plan-2023.pdf)preparecenter.orgUsed on: Nepal snapshot · Your city
+
+- [Network Rail: buckled rails in summer heat](https://www.networkrail.co.uk/running-the-railway/looking-after-the-railway/delays-explained/buckled-rail-and-summer-heat)networkrail.co.ukUsed on: Glossary · The web
+
+- [News 1st, 2024](https://english.newsfirst.lk/2024/03/04/heat-advisory-issued-by-sri-lanka-s-met-dept)english.newsfirst.lkUsed on: A week in the heat · Your city
+
+- [The News Minute](https://www.thenewsminute.com/tamil-nadu/chennai-civic-body-ramps-up-pond-restoration-rainwater-harvesting-parks-ahead-of-monsoon)thenewsminute.comUsed on: Cooling options
+
+- [New South Asia Heat and Health Hub launched to strengthen regional response to extreme heat](https://heathealth.info/news/south-asia-hub-launched/)heathealth.infoUsed on: How heat became visible
+
+- [nha.gov.in](https://nha.gov.in/img/resources/English_FAQs_related_to_the_benefits_for_senior_citizens.pdf)nha.gov.inUsed on: Who could help a household through a hot season
+
+- [nhso.gdcatalog.go.th](https://nhso.gdcatalog.go.th/en/dataset/dataset-rg_13_01)nhso.gdcatalog.go.thUsed on: Who could help a household through a hot season
+
+- [Nippon Paint India](https://nipponpaint.co.in)nipponpaint.co.inUsed on: The heat economy: businesses · The heat network
+
+- [NIUA Climate Centre for Cities, 2026: Heat Resilient Cities Framework, p. 8, citing WIEGO's statistical profile of informal workers in India](https://niua.in/publication-details/Heat_Resilient_Cities_Framework)niua.inUsed on: Actions · Glossary · Plan a response · The web
+
+- [NOAA and International Coral Reef Initiative, reported by Scientific American, 2025](https://www.scientificamerican.com/article/worst-coral-mass-bleaching-on-record-caused-by-warming-oceans)scientificamerican.comUsed on: The web
+
+- [Northumbria University: cool coatings for all HDB estates by 2030](https://researchportal.northumbria.ac.uk/en/impacts/feb-2025-cool-roof-coating-to-be-applied-to-all-hdb-estates-of-si/)researchportal.northumbria.ac.ukUsed on: Cooling options
+
+- [NPR, 16 July 2025: on super hot days, this insurance plan pays out cash for lost wages](https://www.npr.org/sections/goats-and-soda/2025/07/16/g-s1-76948/hot-temperatures-insurance-gig-workers-india)npr.orgUsed on: A week in the heat · Paying for protection
+
+- [NPR (via KPBS), 2025: On super hot days, this insurance plan pays out cash for lost wages](https://www.kpbs.org/news/health/2025/07/16/on-super-hot-days-this-insurance-plan-pays-out-cash-for-lost-wages)kpbs.orgUsed on: Actions
+
+- [NRDC: community-led cool roofs in four Indian cities](https://www.nrdc.org/bio/anjali-jaiswal/cool-roofs-community-led-initiatives-four-indian-cities)nrdc.orgUsed on: Cooling options
+
+- [NRDC: Telangana announces a groundbreaking cool roof policy](https://www.nrdc.org/bio/prima-madan/telangana-announces-groundbreaking-cool-roof-policy)nrdc.orgUsed on: Actions
+
+- [NRDC: the plan’s components and cool roofs](https://www.nrdc.org/press-releases/ahmedabads-pioneering-plan-now-shielding-millions-killer-heat)nrdc.orgUsed on: Make it work together · Plan a response
+
+- [nsds.bbs.gov.bd](https://nsds.bbs.gov.bd/storage/files/1/Publications/BBS_Preliminary_Census_2022.pdf)nsds.bbs.gov.bdUsed on: Who could help a household through a hot season
+
+- [OECD Economics Department, Working Paper No. 1828, 2024](https://doi.org/10.1787/19d94638-en)doi.orgUsed on: Actions · Glossary · Home page · The web · Weather, work and the person · Who heat hits hardest · Why action stalls
+
+- [Older people and family members in Chiang Rai, Thailand, 2023 (PubMed 37372754)](https://pubmed.ncbi.nlm.nih.gov/37372754/)pubmed.ncbi.nlm.nih.govUsed on: The web · Who heat hits hardest
+
+- [One Billion Resilient, 2023](https://onebillionresilient.org/2023/05/03/bushra-afreen-dhaka-chief-heat-officer/)onebillionresilient.orgUsed on: Glossary · How heat became visible · Plan a response · Your city
+
+- [Opening address at GHHIN Southeast Asia Heat Health Forum - SMS Koh Poh Koon](https://www.mse.gov.sg/latest-news/opening-address-by-sms-koh-poh-koon-ghhin-heat-health-forum/)mse.gov.sgUsed on: How heat became visible
+
+- [Orissa Post, 2024: heat cut showroom footfall](https://www.orissapost.com/passenger-vehicle-retail-sales-dip-7-in-june-as-heatwave-curtails-showroom-visits/amp/)orissapost.comUsed on: Actions · The web
+
+- [PAGASA heat guidance and monitoring release &nbsp;](https://www.pagasa.dost.gov.ph/press-release/174)pagasa.dost.gov.phUsed on: Philippines snapshot · The heat network
+
+- [PAGASA: heat index](https://www.pagasa.dost.gov.ph/weather/heat-index)pagasa.dost.gov.phUsed on: A week in the heat · Glossary · Heat right now
+
+- [Parametric heat and rainfall insurance for informal women workers](https://www.sewainsurance.org/wp-content/uploads/2025/12/Parametric-Heat-and-Rainfall-Insurance-for-Informal-Women-Workers.pdf)sewainsurance.orgUsed on: Actions
+
+- [Park and Rubinyi, World Bank, 2026: heat deaths in Bangkok cost more than its public health budget](https://openknowledge.worldbank.org/entities/publication/d8ba6f53-d778-47d2-b4a6-37dff7db2466/full)openknowledge.worldbank.orgUsed on: Actions · The web · Vicious cycles · Your city
+
+- [Park, Goodman, Hurwitz and Smith, American Economic Journal: Economic Policy, 2020](https://www.aeaweb.org/doi/10.1257/pol.20180612)aeaweb.orgUsed on: Actions · Find practical actions · The web
+
+- [Pattaya Mail, 2025](https://www.pattayamail.com/news/thai-government-expands-social-security-section-40-benefits-for-over-500000-informal-workers-533510)pattayamail.comUsed on: A week in the heat
+
+- [Peng et al., PNAS, 2004 (rice in the Philippines)](https://doi.org/10.1073/pnas.0403720101)doi.orgUsed on: Actions · Glossary · The heat network · The web · Vicious cycles · Who heat hits hardest · Your city
+
+- [People’s Courage International, 2025: emergency response to the heatwave crisis in South and Southeast Asia](https://www.peoplescourageinternational.org/pdfs/Emergency%20response%20to%20heat%20wave%20crisis%20in%20South%20and%20Southeast%20Asia.pdf)peoplescourageinternational.orgUsed on: A week in the heat · Find practical actions · market explorer
+
+- [People’s Courage International: Hot Cities Make Hard Work Harder, a study with workers in Delhi, Kathmandu, Dhaka, Jakarta and Quezon City](https://www.ccacoalition.org/events/hot-cities-make-hard-work-harder-strengthening-health-and-livelihood-resilience-informal-workers-south-and-southeast-asian-cities)ccacoalition.orgUsed on: Find practical actions
+
+- [Philanthropy Asia Alliance](https://www.eco-business.com/press-releases/philanthropy-asia-alliance-supports-southeast-asia-heat-health-hub-to-scale-coordinated-action-on-extreme-heat/)eco-business.comUsed on: The heat economy: money and support · The heat network
+
+- [Diurnal asymmetry in heat stress intensification across Bangladesh, 1985–2024 &nbsp;](https://journals.plos.org/climate/article?id=10.1371/journal.pclm.0000848)journals.plos.orgUsed on: Bangladesh snapshot
+
+- [Dzyuban et al., Public transit infrastructure and heat perceptions &nbsp;](https://pmc.ncbi.nlm.nih.gov/articles/PMC8807448/)pmc.ncbi.nlm.nih.govUsed on: Solutions library
+
+- [EEA Climate-ADAPT, OASIS case study &nbsp;](https://climate-adapt.eea.europa.eu/en/metadata/case-studies/paris-oasis-schoolyard-programme-france)climate-adapt.eea.europa.euUsed on: Solutions library
+
+- [EESL Annual ReportFY2021–22 &nbsp;](https://eeslindia.org/wp-content/uploads/2022/09/Annual-Report-FY-2021-22.pdf)eeslindia.orgUsed on: Solutions library
+
+- [EESL Mart BLDC fan listing, checked27October2026 &nbsp;](https://eeslmart.in/fan)eeslmart.inUsed on: Solutions library
+
+- [EESL Mart product FAQ &nbsp;](https://eeslmart.in/faq)eeslmart.inUsed on: Solutions library
+
+- [Efficiency for Access/CLASP Pakistan fan testing &nbsp;](https://efficiencyforaccess.org/updates/off-grid-fan-quality-testing-in-pakistan/)efficiencyforaccess.orgUsed on: Solutions library
+
+- [EMA/SP thermal-storage pilot announcement and existing tank demand response &nbsp;](https://www.spgroup.com.sg/about-us/media-resources/news-and-media-releases/EMA-and-SP-Group-to-pilot-thermal-energy-storage-system-at-electricity-substation)spgroup.com.sgUsed on: Solutions library
+
+- [ESMAP Primer for Space Cooling &nbsp;](https://documents1.worldbank.org/curated/en/131281601358070522/pdf/Primer-for-Space-Cooling.pdf)documents1.worldbank.orgUsed on: Solutions library
+
+- [ETH/Singapore 3for2 demonstrator &nbsp;](https://systems.arch.ethz.ch/3for2-beyond-efficiency)systems.arch.ethz.chUsed on: Solutions library
+
+- [EU Building Energy Efficiency in Nepal project &nbsp;](https://international-partnerships.ec.europa.eu/policies/programming/projects/building-energy-efficiency-nepal-been_en)international-partnerships.ec.europa.euUsed on: Nepal snapshot
+
+- [External window shading load analysis, Erbil &nbsp;](https://pmc.ncbi.nlm.nih.gov/articles/PMC12749944/)pmc.ncbi.nlm.nih.govUsed on: Solutions library
+
+- [Extreme heat is not just a climate problem - Khulna &nbsp;](https://practicalaction.org/news-stories/extreme-heat-not-just-climate-problem/)practicalaction.orgUsed on: Bangladesh snapshot
+
+- [FCDO RAIN programme registry &nbsp;](https://devtracker.fcdo.gov.uk/programme/GB-GOV-1-400018/summary)devtracker.fcdo.gov.ukUsed on: Nepal snapshot
+
+- [France voluntary communal heat-vulnerability register &nbsp;](https://www.service-public.gouv.fr/particuliers/actualites/A14978)service-public.gouv.frUsed on: Solutions library
+
+- [GHHIN South Asia Hub country assessments launch &nbsp;](https://www.ceew.in/press-releases/unprecedented-el-ni%C3%B1o-builds-india-bangladesh-nepal-and-bhutan-join-forces-heat-and)ceew.inUsed on: Bangladesh snapshot
+
+- [GIFT City engineer: district cooling and stratified water tank &nbsp;](https://www.rehva.eu/rehva-journal/chapter/indias-first-district-cooling-system-at-gift-city)rehva.euUsed on: Solutions library
+
+- [GIFT City official district-cooling description &nbsp;](https://www.giftgujarat.in/infrastructure/dcs)giftgujarat.inUsed on: Solutions library
+
+- [GIZ Climate- and Environmentally-friendly Solar Cooling Technology Solutions &nbsp;](https://www.green-cooling-initiative.org/fileadmin/Publications/2025_Solar_Cooling_Solutions.pdf)green-cooling-initiative.orgUsed on: Solutions library
+
+- [GIZ cooling-sector mitigation guidance &nbsp;](https://www.giz.de/de/downloads/giz2022-en-proklima-raising-ambition-in-ndcs-through-holistic-mitigation-approaches-in-the-cooling-sector.pdf)giz.deUsed on: Solutions library
+
+- [GIZ/EPA Ghana R290 technician and equipment programme &nbsp;](https://www.green-cooling-initiative.org/news-media/news/news-detail/2024/12/18/green-cooling-in-ghana-advancing-sustainable-refrigeration)green-cooling-initiative.orgUsed on: Solutions library
+
+- [GIZ India good service practice training &nbsp;](https://www.green-cooling-initiative.org/news-media/news/news-detail/2024/12/04/giz-proklima-drives-sustainable-practices-in-indias-rac-sector)green-cooling-initiative.orgUsed on: Solutions library
+
+- [GIZ project report: PV-powered R290 chiller, Accra &nbsp;](https://www.green-cooling-initiative.org/news-media/news/news-detail/2024/10/29/first-r290-air-conditioning-chiller-in-africa)green-cooling-initiative.orgUsed on: Solutions library
+
+- [GIZ Proklima: Solar Cooling for Industry and Commerce, Jordan &nbsp;](https://www.esmap.org/sites/default/files/events-files/Int%20Conf%20Sust%20Cooling/Philipp%20Denzinger-Solar%20Cooling%20Jordan%20GIZ%20Proklima_optimized%20.pdf)esmap.orgUsed on: Solutions library
+
+- [GIZ/UBA R290 Split AC Resource Guide v 2.02 &nbsp;](https://www.green-cooling-initiative.org/fileadmin/R290_Split_Air_Conditioners_Resource_Guide__Update_2025_/ResourceGuide_R290_Split_AC_update.pdf)green-cooling-initiative.orgUsed on: Solutions library
+
+- [GIZ WE4F technical guidelines, AR6 refrigerant table &nbsp;](https://www.green-cooling-initiative.org/fileadmin/user_upload/220509_WE4F_broschure_cold_rooms_Compress.pdf)green-cooling-initiative.orgUsed on: Solutions library
+
+- [Global Cooling Pledge participant register and commitments &nbsp;](https://www.cop28.com/en/global-cooling-pledge-for-cop28)cop28.comUsed on: Nepal snapshot
+
+- [Government of India, building codes published for state adoption &nbsp;](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2118327&amp;lang=2&amp;reg=48)pib.gov.inUsed on: Solutions library
+
+- [Government of India, ICAP launch &nbsp;](https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1568328&amp;lang=2&amp;reg=48)pib.gov.inUsed on: Solutions library
+
+- [Government of Telangana, issued orders register &nbsp;](https://buildnow.telangana.gov.in/go-and-act/)buildnow.telangana.gov.inUsed on: Solutions library
+
+- [Guidelines launched to protect children and pregnant women from heat stress &nbsp;](https://www.unicef.org/bangladesh/en/press-releases/new-guidelines-launched-protect-children-and-pregnant-women-heat-stress-bangladesh)unicef.orgUsed on: Bangladesh snapshot
+
+- [Guo et al.: Experimental investigation of convective heat transfer for night ventilation &nbsp;](https://vbn.aau.dk/en/publications/experimental-investigation-of-convective-heat-transfer-for-night--2/)vbn.aau.dkUsed on: Solutions library
+
+- [Hamdi et al.: Experimental study of earth-to-air heat exchanger in arid zone &nbsp;](https://www.iieta.org/download/file/fid/4326)iieta.orgUsed on: Solutions library
+
+- [Hansson et al. rest-shade-hydration-hygiene cohort &nbsp;](https://portal.research.lu.se/en/publications/rest-shade-hydration-and-hygiene-for-the-prevention-of-kidney-inj/)portal.research.lu.seUsed on: Solutions library
+
+- [Hansson et al., RSHH cohort, Nicaragua, 2025 &nbsp;](https://pubmed.ncbi.nlm.nih.gov/40803826/)pubmed.ncbi.nlm.nih.govUsed on: Solutions library · The heat economy: what could come up
+
+- [Haque et al., organic and synthetic mulch, coastal Bangladesh, 2025 &nbsp;](https://link.springer.com/article/10.1007/s44447-025-00051-6)link.springer.comUsed on: Solutions library
+
+- [Heat-Health Adaptation Plan for Bangladesh workshop &nbsp;](https://bracjpgsph.org/index.php/impact/events/heat-health-adaptation-plan-for-bangladesh)bracjpgsph.orgUsed on: Bangladesh snapshot
+
+- [Heat-transfer analysis of stratified chilled-water storage tank &nbsp;](https://iieta.org/node/19733)iieta.orgUsed on: Solutions library
+
+- [Hecht et al.: existing Singapore vertical greenery field research &nbsp;](https://research-portal.uu.nl/en/publications/rocks-and-walls-biodiversity-and-temperature-regulation-of-natura/)research-portal.uu.nlUsed on: Solutions library
+
+- [Hedayat et al.: Wind flow patterns in ancient wind catchers, Mortaz house &nbsp;](https://www.magiran.com/paper/2134226/wind-flow-patterns-in-ancient-wind-catchers-of-yazd-based-on-a-long-term-measurement-case-study-mortaz-house?lang=en)magiran.comUsed on: Solutions library
+
+- [Hema et al. accepted manuscript &nbsp;](https://research.dial.uclouvain.be/bitstreams/831fbd10-e3bc-4823-bd97-361b400aacca/download)research.dial.uclouvain.beUsed on: Solutions library
+
+- [Hema et al.: compressed-earth wall experiment &nbsp;](https://research.dial.uclouvain.be/entities/publication/8792b0ab-c5ce-4be2-bd7e-33b3e6ed3b59)research.dial.uclouvain.beUsed on: Solutions library
+
+- [Hess et al., Ahmedabad HAP mortality study &nbsp;](https://pmc.ncbi.nlm.nih.gov/articles/PMC6236972/)pmc.ncbi.nlm.nih.govUsed on: Solutions library
+
+- [Historic England: Cooling a country house &nbsp;](https://historicengland.org.uk/images-books/publications/adapting-historic-buildings-energy-carbon-efficiency-advice-note-18/case-study-cooling-country-house/)historicengland.org.ukUsed on: Solutions library
+
+- [HSE Thermal comfort: environmental and personal factors &nbsp;](https://www.hse.gov.uk/temperature/thermal/index.htm)hse.gov.ukUsed on: Solutions library
+
+- [Humanity Insured: MHT heat coverage support &nbsp;](https://humanityinsured.org/stories/mahila-housing-trust/)humanityinsured.orgUsed on: Solutions library
+
+- [IBPSA 2021 Jaali thermal/visual optimisation study &nbsp;](https://publications.ibpsa.org/conference/paper/?id=bs2021_30453)publications.ibpsa.orgUsed on: Solutions library
+
+- [IEA SHC Solar Heat Worldwide 2022: commissioned solar cooling systems &nbsp;](https://www.iea-shc.org/Data/Sites/1/publications/2022-IEA_SHC-Solar_Heat_Worldwide-3.pdf)iea-shc.orgUsed on: Solutions library
+
+- [IHRR heat anticipatory-action institutionalisation study &nbsp;](https://ihrr.org.np/project/Capacities,%20Gaps%20and%20Opportunities%20in%20Institutionalization%20of%20Heat%20Anticipatory%20Action%20in%20Nepal)ihrr.org.npUsed on: Nepal snapshot
+
+- [IIT Bombay research account: wall-material CFD &nbsp;](https://iitb.ac.in/research-highlight/choosing-wall-materials-cooler-homes-using-computational-methods)iitb.ac.inUsed on: Solutions library
+
+- [ILO explanation of Qatar heat legislation &nbsp;](https://www.ilo.org/resource/news/new-legislation-qatar-provides-greater-protection-workers-heat-stress)ilo.orgUsed on: Solutions library
+
+- [ILO Qatar labour reform implementation &nbsp;](https://webapps.ilo.org/infostories/en-GB/Stories/Country-Focus/world-cup-qatar.html)webapps.ilo.orgUsed on: Solutions library
+
+- [ILO/University of Thessaly: occupational heat-strain study Qatar &nbsp;](https://www.ilo.org/sites/default/files/wcmsp5/groups/public/@arabstates/@ro-beirut/documents/publication/wcms_723545.pdf)ilo.orgUsed on: Solutions library
+
+- [Impacts of the 2024 heatwave on marginalised groups in Khulna &nbsp;](https://practicalaction.org/knowledge-centre/resources/impacts-of-the-2024-heatwave-on-marginalized-groups-in-khulna/)practicalaction.orgUsed on: Bangladesh snapshot
+
+- [Independent mid-term review of EESL market-transformation project &nbsp;](https://open.unep.org/docs/gef/MTRTE/9258_2021_MTR_India_EESL.pdf)open.unep.orgUsed on: Solutions library
+
+- [India health-facility heat preparedness guidance &nbsp;](https://ncdc.mohfw.gov.in/uploads/resource/1769333208_4_Strengthening-Health-Systems-Preparedness-for-Heat-Related-Illnesses-HRI-in-India_180423.pdf)ncdc.mohfw.gov.inUsed on: Solutions library
+
+- [India Ministry of Power summer/heatwave supply measures &nbsp;](https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&amp;reg=48&amp;relid=256180)pib.gov.inUsed on: Solutions library
+
+- [India NHM free drugs and diagnostics mechanism &nbsp;](https://nhm.gov.in/collections/index1.php?lang=1&amp;level=2&amp;lid=192&amp;sublinkid=1218)nhm.gov.inUsed on: Solutions library
+
+- [Jareemit and Srivanit, market shade and tree canopy field trial &nbsp;](https://www.mdpi.com/2071-1050/14/8/4653)mdpi.comUsed on: Solutions library
+
+- [Joshi et al., Indore overhang heat-balance analysis &nbsp;](https://nopr.niscpr.res.in/handle/123456789/60741)nopr.niscpr.res.inUsed on: Solutions library
+
+- [Kaer case study: 1 Elpro Business Park, Pune &nbsp;](https://www.kaer.com/_files/ugd/130f5b_cfedf0c4b1514d0abeaed44fac5d42c7.pdf)kaer.comUsed on: Solutions library
+
+- [Kaer published cooling-as-a-service model &nbsp;](https://www.kaer.com/services)kaer.comUsed on: Solutions library · The heat economy: businesses · The heat economy: what makes markets work
+
+- [Kamal et al., shade materials for calves, 2016 &nbsp;](https://epubs.icar.org.in/index.php/IJAnS/article/view/55027)epubs.icar.org.inUsed on: Solutions library
+
+- [Keegan, Taylor and Kirby, field-aged TPO roofs &nbsp;](https://iibec.org/publication-post/testing-field-aged-tpo-roofs-demonstrating-real-world-performance/)iibec.orgUsed on: Solutions library
+
+- [Kent/Schiavon et al., author presentation of Singapore 2023 study &nbsp;](https://cbe.berkeley.edu/wp-content/uploads/2023/12/Schiavon-2023-Energy-Comfort-ZNE-Office-Singapore.pdf)cbe.berkeley.eduUsed on: Solutions library
+
+- [Khanna et al., multitier agroforestry, Indian Journal of Agroforestry 2026 &nbsp;](https://epubs.icar.org.in/index.php/IJA/article/download/174495/66469/531438)epubs.icar.org.inUsed on: Solutions library
+
+- [Khapte et al., protected cultivation in Jodhpur, 2021 &nbsp;](https://journal.agrimetassociation.org/index.php/jam/article/view/25)journal.agrimetassociation.orgUsed on: Solutions library
+
+- [Kumar et al., freeze-preventive vaccine carriers in Nepal &nbsp;](https://pubmed.ncbi.nlm.nih.gov/35243322/)pubmed.ncbi.nlm.nih.govUsed on: Solutions library
+
+- [Labour Act 2017 English translation &nbsp;](https://image.mfa.go.th/mfa/0/5bdN9SBnCZ/File_PDF/The-Labor-Act-2017-2074.pdf)image.mfa.go.thUsed on: Nepal snapshot
+
+- [Lawin and Zakaria, small-scale roof field study &nbsp;](https://periodical.uthm.edu.my/index.php/rtcebe/article/view/5894)periodical.uthm.edu.myUsed on: Solutions library
+
+- [LBNL Cool Walls research programme &nbsp;](https://heatisland.lbl.gov/index.php/projects/cool-walls)heatisland.lbl.govUsed on: Solutions library
+
+- [Leng et al.: Field Investigation of Indoor Thermal Performance in Malaysia Air-Welled Terraced House &nbsp;](https://ijbes.utm.my/index.php/ijbes/article/view/388)ijbes.utm.myUsed on: Solutions library
+
+- [Li et al., Singapore radiant/all-air crossover study &nbsp;](https://collaborate.princeton.edu/en/publications/comparison-of-the-environmental-energy-and-thermal-comfort-perfor/)collaborate.princeton.eduUsed on: Solutions library
+
+- [Lin et al., Street spatial structure, Taipei &nbsp;](https://www.mdpi.com/1999-4907/15/12/2221)mdpi.comUsed on: Solutions library
+
+- [Lipare et al.: intermittent-pumping roof pond &nbsp;](https://eudl.eu/pdf/10.4108/eai.16-5-2020.2304098)eudl.euUsed on: Solutions library
+
+- [Liu et al., perforated dew-point cooler model &nbsp;](https://www.nature.com/articles/s41598-025-85253-2)nature.comUsed on: Solutions library
+
+- [Living with Heat in Nepal - report &nbsp;](https://www.ceew.in/sites/default/files/ceew-nepal-warming-world-heat-health-action.pdf)ceew.inUsed on: Nepal snapshot
+
+- [Locally Led Adaptation Framework dissemination &nbsp;](https://www.undp.org/bangladesh/press-releases/locally-led-adaptation-framework-launched-boost-climate-resilience)undp.orgUsed on: Bangladesh snapshot
+
+- [Madhesh public-school heat perception study &nbsp;](https://www.mercycorps.org/sites/default/files/2025-05/heat-study-final-report-jun-2025.pdf)mercycorps.orgUsed on: Nepal snapshot
+
+- [Manavvi and Milosevic, Chasing cool, Roorkee &nbsp;](https://research.wur.nl/en/publications/chasing-cool-unveiling-the-influence-of-green-blue-features-on-ou/)research.wur.nlUsed on: Solutions library
+
+- [Manila Bulletin, 2024](https://mb.com.ph/2024/3/31/dep-ed-confirms-suspension-of-classes-in-several-areas-due-to-severe-heat)mb.com.phUsed on: A week in the heat
+
+- [The Manila Times, 2024](https://manilatimes.net/2024/03/24/news/national/dole-protect-workers-from-heat-stress/1938252)manilatimes.netUsed on: A week in the heat
+
+- [McGirr et al. Indoor heat and acute symptom reporting, Chakaria &nbsp;](https://link.springer.com/article/10.1186/s12889-025-21597-8)link.springer.comUsed on: Solutions library
+
+- [McManus et al., Shade matters, 2026 &nbsp;](https://link.springer.com/article/10.1007/s00484-025-03063-7)link.springer.comUsed on: Solutions library
+
+- [Meade et al.: laboratory cooling-centre simulation &nbsp;](https://doi.org/10.1289/ehp11651)doi.orgUsed on: Solutions library
+
+- [MHA parliamentary answer on heat notification and funding &nbsp;](https://sansad.in/getFile/lsapps/loksabhaquestions/annex/188/AU2541_Ql0SOe.pdf?source=lsapps)sansad.inUsed on: Solutions library
+
+- [MHT climate adaptation livelihood update &nbsp;](https://www.mahilahousingtrust.org/wp-content/uploads/2024/03/March-Update-Climate-Adaptation-of-Inclusive-Livelihood-Programmes.pdf)mahilahousingtrust.orgUsed on: Solutions library
+
+- [MHT climate-resilience practice &nbsp;](https://www.mahilahousingtrust.org/practice-areas/building-climate-resilience-and-energy-efficiency/)mahilahousingtrust.orgUsed on: Solutions library
+
+- [MHT microlending for habitat improvement &nbsp;](https://www.mahilahousingtrust.org/practice-areas/microlending-for-habitat-improvement/)mahilahousingtrust.orgUsed on: Solutions library
+
+- [Miami-Dade FY2024–25 adopted budget, RER &nbsp;](https://www.miamidade.gov/resources/budget/adopted/fy2024-25/regulatory-and-economic-resources.pdf)miamidade.govUsed on: Solutions library
+
+- [Microsphere-polymer radiative-cooling film experiment &nbsp;](https://link.springer.com/article/10.1186/s43074-025-00198-z)link.springer.comUsed on: Solutions library
+
+- [Miller et al., Energy and Buildings 2021 field study &nbsp;](https://acris.aalto.fi/ws/portalfiles/portal/67401543/ENG_Miller_et_al_Cooling_energy_savings_Energy_and_Buildings.pdf)acris.aalto.fiUsed on: Solutions library
+
+- [Ministry listing - draft National Cooling Plan up to 2035 &nbsp;](https://moef.gov.bd/pages/static-pages/694032e535ce18e1c056404a)moef.gov.bdUsed on: Bangladesh snapshot
+
+- [Ministry of Labour and Employment legislative information &nbsp;](https://mole.gov.bd/pages/legislative-informations)mole.gov.bdUsed on: Bangladesh snapshot
+
+- [MIT D-Lab: brick cooling chambers &nbsp;](https://d-lab.mit.edu/research/evaporative-cooling-vegetable-preservation/brick-cooling-chambers)d-lab.mit.eduUsed on: Solutions library
+
+- [MIT D-Lab: dissemination in rural Uganda &nbsp;](https://d-lab.mit.edu/news-blog/blog/disseminating-evaporative-cooling-technologies-rural-uganda)d-lab.mit.eduUsed on: Solutions library
+
+- [MIT D-Lab: piloting in western India &nbsp;](https://d-lab.mit.edu/news-blog/blog/piloting-evaporative-cooling-technologies-western-india)d-lab.mit.eduUsed on: Solutions library
+
+- [MIT D-Lab/World Vegetable Center evaluation, Mali &nbsp;](https://d-lab.mit.edu/resources/publications/evaporative-cooling-technologies-improved-vegetable-storage-mali)d-lab.mit.eduUsed on: Solutions library
+
+- [Mittal Institute/MNIT Jaipur radiant-barrier project account &nbsp;](https://mittalsouthasiainstitute.harvard.edu/2025/11/ultra-low-cost-solutions-for-overheating-and-sleep-disruption/)mittalsouthasiainstitute.harvard.eduUsed on: Solutions library
+
+- [MNIT/ISHRAE EvapCal design tool &nbsp;](https://mnit.ac.in/cee/downloads/EvapCal_MNIT.pdf)mnit.ac.inUsed on: Solutions library
+
+- [Muna et al., Bangladesh clinic false-ceiling modelling &nbsp;](https://link.springer.com/article/10.1007/s43937-026-00196-7)link.springer.comUsed on: Solutions library
+
+- [National Adaptation Plan of Bangladesh 2023–2050 &nbsp;](https://www.undp.org/bangladesh/publications/national-adaptation-plan-bangladesh-2023-2050)undp.orgUsed on: Bangladesh snapshot
+
+- [National Guideline on Heat-Related Illness &nbsp;](https://heathealth.info/wp-content/uploads/National-Guideline-on-Heat-Related-Illness_FINAL.pdf)heathealth.infoUsed on: Bangladesh snapshot
 
 - [Nazir et al.: Windcatchers as a Green Ventilation Device, Hyderabad &nbsp;](https://journals.sagepub.com/doi/10.1177/00219096241230486)journals.sagepub.comUsed on: Solutions library
 
@@ -3410,43 +3474,17 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [NEA, tick ratings &nbsp;](https://www.nea.gov.sg/our-services/climate-change-energy-efficiency/energy-efficiency/household-sector/tick-rating)nea.gov.sgUsed on: Solutions library
 
-- [Nepalgunj Heat Action Plan, 2023](https://preparecenter.org/wp-content/uploads/2023/07/Nepalgunj-Heat-Action-Plan-2023.pdf)preparecenter.orgUsed on: Nepal snapshot · Your city
-
-- [Network Rail: buckled rails in summer heat](https://www.networkrail.co.uk/running-the-railway/looking-after-the-railway/delays-explained/buckled-rail-and-summer-heat)networkrail.co.ukUsed on: Glossary · The web
-
-- [News 1st, 2024](https://english.newsfirst.lk/2024/03/04/heat-advisory-issued-by-sri-lanka-s-met-dept)english.newsfirst.lkUsed on: A week in the heat · Your city
-
-- [The News Minute](https://www.thenewsminute.com/tamil-nadu/chennai-civic-body-ramps-up-pond-restoration-rainwater-harvesting-parks-ahead-of-monsoon)thenewsminute.comUsed on: Cooling options
-
-- [New South Asia Heat and Health Hub launched to strengthen regional response to extreme heat](https://heathealth.info/news/south-asia-hub-launched/)heathealth.infoUsed on: How heat became visible
-
 - [Nguyen et al., green facade on Hanoi tube house &nbsp;](https://jfde.eu/index.php/jfde/article/view/183)jfde.euUsed on: Solutions library
 
-- [nha.gov.in](https://nha.gov.in/img/resources/English_FAQs_related_to_the_benefits_for_senior_citizens.pdf)nha.gov.inUsed on: Who could help a household through a hot season
-
 - [NHAI heatwave workforce protocols &nbsp;](https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&amp;reg=48&amp;relid=288341)pib.gov.inUsed on: Solutions library
-
-- [nhso.gdcatalog.go.th](https://nhso.gdcatalog.go.th/en/dataset/dataset-rg_13_01)nhso.gdcatalog.go.thUsed on: Who could help a household through a hot season
 
 - [NIOSH Heat Safety Tool App and WBGT limitations &nbsp;](https://www.cdc.gov/niosh/heat-stress/communication-resources/app.html)cdc.govUsed on: Solutions library
 
 - [NIOSH Workplace recommendations &nbsp;](https://www.cdc.gov/niosh/heat-stress/recommendations/index.html)cdc.govUsed on: Solutions library
 
-- [Nippon Paint India](https://nipponpaint.co.in)nipponpaint.co.inUsed on: The heat economy: businesses · The heat network
-
-- [NIUA Climate Centre for Cities, 2026: Heat Resilient Cities Framework, p. 8, citing WIEGO's statistical profile of informal workers in India](https://niua.in/publication-details/Heat_Resilient_Cities_Framework)niua.inUsed on: Actions · Glossary · Plan a response · The web
-
-- [NOAA and International Coral Reef Initiative, reported by Scientific American, 2025](https://www.scientificamerican.com/article/worst-coral-mass-bleaching-on-record-caused-by-warming-oceans)scientificamerican.comUsed on: The web
-
-- [Northumbria University: cool coatings for all HDB estates by 2030](https://researchportal.northumbria.ac.uk/en/impacts/feb-2025-cool-roof-coating-to-be-applied-to-all-hdb-estates-of-si/)researchportal.northumbria.ac.ukUsed on: Cooling options
-
 - [NParks, Bishan-Ang Mo Kio Park &nbsp;](https://www.nparks.gov.sg/visit/parks/park-detail/bishan-ang-mo-kio-park/)nparks.gov.sgUsed on: Solutions library
 
 - [NParks, East Coast Park &nbsp;](https://www.nparks.gov.sg/visit/parks/park-detail/east-coast-park/)nparks.gov.sgUsed on: Solutions library
-
-- [NPR, 16 July 2025: on super hot days, this insurance plan pays out cash for lost wages](https://www.npr.org/sections/goats-and-soda/2025/07/16/g-s1-76948/hot-temperatures-insurance-gig-workers-india)npr.orgUsed on: A week in the heat · Paying for protection
-
-- [NPR (via KPBS), 2025: On super hot days, this insurance plan pays out cash for lost wages](https://www.kpbs.org/news/health/2025/07/16/on-super-hot-days-this-insurance-plan-pays-out-cash-for-lost-wages)kpbs.orgUsed on: Actions
 
 - [NRCS Leading Change Through Heat Action leaflet &nbsp;](https://preparecenter.org/wp-content/uploads/2025/05/Nepal-Heat-Action-Leaflet-Aug24.pdf)preparecenter.orgUsed on: Nepal snapshot
 
@@ -3454,15 +3492,7 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [NRDC/ASCI/IIIT-H cool-roof FAQ &nbsp;](https://www.nrdc.org/sites/default/files/india-cool-roofs-faq-20200527.pdf)nrdc.orgUsed on: Solutions library
 
-- [NRDC: community-led cool roofs in four Indian cities](https://www.nrdc.org/bio/anjali-jaiswal/cool-roofs-community-led-initiatives-four-indian-cities)nrdc.orgUsed on: Cooling options
-
 - [NRDC: Keeping It Cool, July 2019 programme factsheet &nbsp;](https://www.nrdc.org/sites/default/files/keeping-it-cool-roofs-india-fs.pdf)nrdc.orgUsed on: Solutions library
-
-- [NRDC: Telangana announces a groundbreaking cool roof policy](https://www.nrdc.org/bio/prima-madan/telangana-announces-groundbreaking-cool-roof-policy)nrdc.orgUsed on: Actions
-
-- [NRDC: the plan’s components and cool roofs](https://www.nrdc.org/press-releases/ahmedabads-pioneering-plan-now-shielding-millions-killer-heat)nrdc.orgUsed on: Make it work together · Plan a response
-
-- [nsds.bbs.gov.bd](https://nsds.bbs.gov.bd/storage/files/1/Publications/BBS_Preliminary_Census_2022.pdf)nsds.bbs.gov.bdUsed on: Who could help a household through a hot season
 
 - [NYC Comptroller Brooklyn library preparedness audit &nbsp;](https://comptroller.nyc.gov/wp-content/uploads/2025/07/SR24-082A.pdf)comptroller.nyc.govUsed on: Solutions library
 
@@ -3470,45 +3500,15 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [O’Connor et al., JAMA2024 fan crossover trial &nbsp;](https://jamanetwork.com/journals/jama/fullarticle/2825091)jamanetwork.comUsed on: Solutions library
 
-- [OECD Economics Department, Working Paper No. 1828, 2024](https://doi.org/10.1787/19d94638-en)doi.orgUsed on: Actions · Glossary · Home page · The web · Weather, work and the person · Who heat hits hardest · Why action stalls
-
-- [Older people and family members in Chiang Rai, Thailand, 2023 (PubMed 37372754)](https://pubmed.ncbi.nlm.nih.gov/37372754/)pubmed.ncbi.nlm.nih.govUsed on: The web · Who heat hits hardest
-
-- [One Billion Resilient, 2023](https://onebillionresilient.org/2023/05/03/bushra-afreen-dhaka-chief-heat-officer/)onebillionresilient.orgUsed on: Glossary · How heat became visible · Plan a response · Your city
-
-- [Opening address at GHHIN Southeast Asia Heat Health Forum - SMS Koh Poh Koon](https://www.mse.gov.sg/latest-news/opening-address-by-sms-koh-poh-koon-ghhin-heat-health-forum/)mse.gov.sgUsed on: How heat became visible
-
-- [Orissa Post, 2024: heat cut showroom footfall](https://www.orissapost.com/passenger-vehicle-retail-sales-dip-7-in-june-as-heatwave-curtails-showroom-visits/amp/)orissapost.comUsed on: Actions · The web
-
 - [Ouachita Electric CEO testimony, Missouri Public Service Commission &nbsp;](https://efis.psc.mo.gov/Document/Display/65703)efis.psc.mo.govUsed on: Solutions library
 
-- [PAGASA heat guidance and monitoring release &nbsp;](https://www.pagasa.dost.gov.ph/press-release/174)pagasa.dost.gov.phUsed on: Philippines snapshot · The heat network
-
-- [PAGASA: heat index](https://www.pagasa.dost.gov.ph/weather/heat-index)pagasa.dost.gov.phUsed on: A week in the heat · Glossary · Heat right now
-
-- [Parametric heat and rainfall insurance for informal women workers](https://www.sewainsurance.org/wp-content/uploads/2025/12/Parametric-Heat-and-Rainfall-Insurance-for-Informal-Women-Workers.pdf)sewainsurance.orgUsed on: Actions
-
-- [Park and Rubinyi, World Bank, 2026: heat deaths in Bangkok cost more than its public health budget](https://openknowledge.worldbank.org/entities/publication/d8ba6f53-d778-47d2-b4a6-37dff7db2466/full)openknowledge.worldbank.orgUsed on: Actions · The web · Vicious cycles · Your city
-
-- [Park, Goodman, Hurwitz and Smith, American Economic Journal: Economic Policy, 2020](https://www.aeaweb.org/doi/10.1257/pol.20180612)aeaweb.orgUsed on: Actions · Find practical actions · The web
-
 - [PATH field evaluation of freeze-preventive vaccine carriers &nbsp;](https://media.path.org/documents/Phase_2_Report._FPVC_Project._Nepal.pdf)media.path.orgUsed on: Solutions library
-
-- [Pattaya Mail, 2025](https://www.pattayamail.com/news/thai-government-expands-social-security-section-40-benefits-for-over-500000-informal-workers-533510)pattayamail.comUsed on: A week in the heat
 
 - [Pawar et al., Singapore window-film simulation &nbsp;](https://portal.fis.tum.de/en/publications/impact-of-solar-insulation-film-on-the-cooling-load-of-an-office-/)portal.fis.tum.deUsed on: Solutions library
 
 - [PDMA Sindh heatwave SOP2025, NDMA Pakistan host &nbsp;](https://www.ndma.gov.pk/storage/guidelines/March2025/tlhzTl9tvzQvvkrSjFnj.pdf)ndma.gov.pkUsed on: Solutions library
 
-- [Peng et al., PNAS, 2004 (rice in the Philippines)](https://doi.org/10.1073/pnas.0403720101)doi.orgUsed on: Actions · Glossary · The heat network · The web · Vicious cycles · Who heat hits hardest · Your city
-
 - [People in Need: Nepal RAIN heat early action &nbsp;](https://nepal.peopleinneed.net/en/from-forecast-to-early-action-how-the-rain-programme-acted-on-rising-heat-13033gp)nepal.peopleinneed.netUsed on: Nepal snapshot · Solutions library
-
-- [People’s Courage International, 2025: emergency response to the heatwave crisis in South and Southeast Asia](https://www.peoplescourageinternational.org/pdfs/Emergency%20response%20to%20heat%20wave%20crisis%20in%20South%20and%20Southeast%20Asia.pdf)peoplescourageinternational.orgUsed on: A week in the heat · Find practical actions · market explorer
-
-- [People’s Courage International: Hot Cities Make Hard Work Harder, a study with workers in Delhi, Kathmandu, Dhaka, Jakarta and Quezon City](https://www.ccacoalition.org/events/hot-cities-make-hard-work-harder-strengthening-health-and-livelihood-resilience-informal-workers-south-and-southeast-asian-cities)ccacoalition.orgUsed on: Find practical actions
-
-- [Philanthropy Asia Alliance](https://www.eco-business.com/press-releases/philanthropy-asia-alliance-supports-southeast-asia-heat-health-hub-to-scale-coordinated-action-on-extreme-heat/)eco-business.comUsed on: The heat economy: money and support · The heat network
 
 - [PhilHealth heat illness benefit and primary care notice &nbsp;](https://www.philhealth.gov.ph/news/up/article/2024/news_6642d522e6c98.php)philhealth.gov.phUsed on: Solutions library
 

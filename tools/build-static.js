@@ -17,7 +17,7 @@ const ctx = {}; vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + `
 ;Object.assign(this, { SYSTEMS, CONSEQUENCES, LINKS, LOOP_GROUPS, LOOPS, INSTITUTIONS, LEVERS, LOOP_PLACES, EVIDENCE, ORG_ROLES,
   ORGANISATIONS, GLOSSARY_GROUPS, GLOSSARY, WORKED_EXAMPLES, AT_RISK, AT_RISK_BARRIERS, STALLS, COOL_PLACES, COOL_TRAPS,
-  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, COOL_FX, COOL_REGION, HOME_HEATS, STRAIN, COOL_ASK, PLAN_GROUPS, PLAN_MECHANISMS, PLAN_MECH_NOTE, MCR2030, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL, LIVE_CITIES, CITY_PROFILES, CITY_HAP, LIVE_WBGT, LIVE_LEVELS, LIVE_SOURCES, HEATWAVES, HEATWAVES_NOTE, ACTION_SETTINGS, ACTION_LINES, ACTION_JOURNEYS, FINANCE, EVIDENCE_STATUS, ACTION_HORIZONS, HEAT_WEEK, MARKET_EXPLORER, LOOP_SOLUTIONS, ORG_SIDES, ORG_SIDE });`, ctx);
+  COOL_EVIDENCE, COOL_VALUE, COOL_READING, COOL_COST_NOTE, COOL_FX, COOL_REGION, HOME_HEATS, STRAIN, COOL_ASK, PLAN_GROUPS, PLAN_MECHANISMS, PLAN_MECH_NOTE, MCR2030, LIVE_FINGERPRINT, LOOP_STAKES, STAKES_LABEL, LIVE_CITIES, CITY_HAP, LIVE_WBGT, LIVE_LEVELS, LIVE_SOURCES, HEATWAVES, HEATWAVES_NOTE, ACTION_SETTINGS, ACTION_LINES, ACTION_JOURNEYS, FINANCE, EVIDENCE_STATUS, ACTION_HORIZONS, HEAT_WEEK, MARKET_EXPLORER, LOOP_SOLUTIONS, ORG_SIDES, ORG_SIDE });`, ctx);
 Object.assign(ctx, require("./data-blocks.js")());   // plus build-only blocks (not in data.js)
 const D = ctx, TODAY = new Date().toISOString().slice(0, 10);
 // ---- the homepage's numbers: each [data-stat] holds a plain-HTML fallback (what readers see with no JavaScript, and what
@@ -387,6 +387,8 @@ const SNAP_SLUG = { Bangladesh: "bangladesh", India: "india", Indonesia: "indone
       ...loops.map(x => `- ${x.l.name}: ${x.why}`), `Who heat hits hardest: ${risks.map(g => g.name).join("; ")}`, `Already at work: ${orgs.map(o => o.name).join("; ")}`, `Page: ${url}`);
   });
   out[p.slug] = page(p, intro, h); md.push(m.join("\n\n"));
+  // the homepage city view loads this only when a reader nears it (script.js, loadProfiles)
+  fs.writeFileSync(path.join(ROOT, "cities", "profiles.json"), JSON.stringify(D.CITY_PROFILES));
 }
 
 // heatwaves timeline

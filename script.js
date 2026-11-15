@@ -2946,8 +2946,15 @@
 
   /* ======================= YOUR CITY ======================= */
   // a map of the live cities and, for the one picked, its heat now, its plan, the cycles turning there and who is at work
-  const CITIES = typeof CITY_PROFILES !== "undefined" ? CITY_PROFILES : [];
-  const cityById = Object.fromEntries(CITIES.map(p => [p.id, p]));
+  // the profiles load from /cities/profiles.json only when a reader nears the section (or follows a link to a city),
+  // so they add nothing to the first view of the homepage
+  let CITIES = [], cityById = {}, profilesPromise = null, cityDrawn = false, cityWanted = null;
+  function loadProfiles() {
+    if (!profilesPromise) profilesPromise = fetch("/cities/profiles.json?v=221").then(r => { if (!r.ok) throw new Error("profiles " + r.status); return r.json(); })
+      .then(list => { CITIES = Array.isArray(list) ? list.filter(p => LIVE.some(c => c.id === p.id)) : []; cityById = Object.fromEntries(CITIES.map(p => [p.id, p])); if (!CITIES.length) throw new Error("no profiles"); return CITIES; })
+      .catch(e => { profilesPromise = null; throw e; });
+    return profilesPromise;
+  }
   const MAPBOX = { lon0: 64, lon1: 129, lat0: -12, lat1: 34 };   // matches images/asia-map.svg (1000 × 721)
   const LABEL_LEFT = new Set(["manila", "delhi", "bangkok"]), LABEL_BELOW = new Set(["phnompenh"]);
   const HEAT_STOPS = [[0, [61, 191, 174]], [0.45, [245, 166, 35]], [0.7, [242, 100, 48]], [1, [215, 38, 61]]];
@@ -3053,6 +3060,7 @@
   }
 
   function showCity(id, focus) {
+    if (!cityDrawn) { cityWanted = id; renderCity(true); return; }
     if (!cityById[id]) return;
     cityNow = id; renderCityPanel(id); cityDots(); track("city-" + id);
     if (focus) { const h = document.querySelector("#city-panel .cp__name"); if (h) { h.tabIndex = -1; h.focus({ preventScroll: true });
@@ -3088,9 +3096,19 @@
       pause.setAttribute("aria-pressed", String(on)); pause.textContent = on ? "Play" : "Pause"; bar.classList.toggle("is-paused", on); });
   }
 
-  function renderCity() {
+  function renderCity(now) {
+    const sec = document.getElementById("city"), map = document.getElementById("city-map"), panel = document.getElementById("city-panel");
+    if (!sec || !map || !LIVE.length || renderCity.started) return;
+    const hash = decodeURIComponent(location.hash.slice(1));
+    const go = () => { if (renderCity.started) return; renderCity.started = true;
+      if (panel) panel.innerHTML = `<p class="cp__none">Loading the cities…</p>`;
+      loadProfiles().then(drawCity, () => { renderCity.started = false; if (panel) panel.innerHTML = `<p class="cp__none">The city profiles could not be loaded just now. <a href="/cities/">Read each city as a page</a>.</p>`; }); };
+    if (now || hash.startsWith("city-") || !("IntersectionObserver" in window)) go();
+    else { const io = new IntersectionObserver(es => { if (es.some(e => e.isIntersecting)) { io.disconnect(); go(); } }, { rootMargin: "1200px 0px" }); io.observe(sec); }
+  }
+  function drawCity() {
     const sec = document.getElementById("city"), map = document.getElementById("city-map"), picks = document.getElementById("city-picks");
-    if (!sec || !map || !CITIES.length) return;
+    cityDrawn = true;
     const pos = c => ({ x: (c.lon - MAPBOX.lon0) / (MAPBOX.lon1 - MAPBOX.lon0) * 100, y: (MAPBOX.lat1 - c.lat) / (MAPBOX.lat1 - MAPBOX.lat0) * 100 });
     map.innerHTML = `<img src="images/asia-map.svg" alt="" class="cm__base" width="1000" height="721">` + CITIES.map(p => {
       const c = LIVE.find(x => x.id === p.id); if (!c) return ""; const q = pos(c);
@@ -3105,9 +3123,10 @@
       const ex = ev.target.closest("[data-city-example]");
       if (ex) { loadExample(ex.dataset.cityExample); }
     });
-    const hash = decodeURIComponent(location.hash.slice(1));
-    showCity(hash.startsWith("city-") && cityById[hash.slice(5)] ? hash.slice(5) : CITIES[0].id);
-    if (hash.startsWith("city-") && cityById[hash.slice(5)]) setTimeout(() => sec.scrollIntoView({ block: "start" }), 50);
+    const hash = decodeURIComponent(location.hash.slice(1)), want = cityWanted && cityById[cityWanted] ? cityWanted : hash.startsWith("city-") && cityById[hash.slice(5)] ? hash.slice(5) : null;
+    showCity(want || CITIES[0].id, !!cityWanted);
+    if (want && !cityWanted) setTimeout(() => sec.scrollIntoView({ block: "start" }), 50);
+    cityWanted = null;
     const load = () => liveFetch().then(data => { cityLive = data; renderCityPanel(cityNow); cityDots(); }, () => { cityLive = { cities: {} }; renderCityPanel(cityNow); cityDots(); });
     if ("IntersectionObserver" in window) { const io = new IntersectionObserver(es => { if (es.some(e => e.isIntersecting)) { io.disconnect(); load(); } }, { rootMargin: "800px 0px" }); io.observe(sec); }
     else load();

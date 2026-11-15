@@ -111,12 +111,12 @@ Why it matters our readingEach city page now shows an estimated heat stress (WBG
 - Heat action plans
 - Heat-safe work
 
-ReviewThe method, its limits and the data sources each opened on GitHub with every term found; on the day of the check the estimate for Singapore read higher than every measured station, as the method's own caveats lead one to expect in cloud. 7 checked · 7 confirmed.
+ReviewThe method, its limits and the data sources each opened on GitHub with every term found; on the day of the check the estimate for Singapore read higher than every measured station, as the method's own caveats lead one to expect in cloud. 34 checked · 7 confirmed.
 
 What it took to add this
 
 - **The question.** How hot will it feel to work outdoors in this city today and over the next three days, and what is that based on?
-- **The search.** 7 sources were gathered for checking.
+- **The search.** 34 sources were gathered for checking.
 
 - **The checking.** Each source was opened and read for the terms and numbers it was cited for: 7 confirmed.
 - **What we set aside.** 31 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.

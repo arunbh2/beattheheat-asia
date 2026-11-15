@@ -11,7 +11,7 @@ const PATHS = NAV.PATHS;
 const esc = s => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const V = (fs.readFileSync(path.join(ROOT, "index.html"), "utf8").match(/styles\.css\?v=(\d+)/) || [, "1"])[1];
 const ctx = {}; vm.createContext(ctx);
-vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + ";this.D={GLOSSARY,LOOPS,LIVE_CITIES,CITY_PROFILES,HEATWAVES,ORGANISATIONS,ORG_ROLES,SYSTEMS,EVIDENCE,LEVERS,PACKAGES,INSTITUTIONS,ACTION_SETTINGS,ACTION_HORIZONS,EVIDENCE_STATUS,LOOP_GROUPS,CITY_HAP,LIVE_NOTE,AT_RISK,CONSEQUENCES,LOOP_STAKES}", ctx);
+vm.runInContext(fs.readFileSync(path.join(ROOT, "data.js"), "utf8") + ";this.D={GLOSSARY,LOOPS,LIVE_CITIES,HEATWAVES,ORGANISATIONS,ORG_ROLES,SYSTEMS,EVIDENCE,LEVERS,PACKAGES,INSTITUTIONS,ACTION_SETTINGS,ACTION_HORIZONS,EVIDENCE_STATUS,LOOP_GROUPS,CITY_HAP,LIVE_NOTE,AT_RISK,CONSEQUENCES,LOOP_STAKES}", ctx);
 const D = Object.assign(ctx.D, require("./data-blocks.js")());   // plus build-only blocks (not in data.js)
 // published knowledge-base records (data/kb), so each month's verified research reaches the pages that draw it
 const KB_DIR = path.join(ROOT, "data", "kb");
