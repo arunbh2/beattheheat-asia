@@ -1,7 +1,7 @@
 ---
 title: "Cooling options by place, and what keeps them working | Common Shade"
 url: https://beattheheat.asia/cooling-options/
-updated: 2026-11-01
+updated: 2026-11-15
 licence: CC BY 4.0
 ---
 
@@ -265,6 +265,16 @@ Sources: [Guerry et al., chapter 12 in Nature-Based Solutions for Cities, 2023](
 - [Urban Planet: Knowledge towards Sustainable Cities](https://doi.org/10.1017/9781316647554) Elmqvist et al. (eds), Cambridge University Press, 2018 Ways of knowing cities from sociology and political science to ecology and engineering, with contributions from architects, journalists, artists and activists.
 - [Resilient Urban Futures](https://doi.org/10.1007/978-3-030-63131-4) Hamstead, Iwaniec, McPhearson et al. (eds), Springer, 2021 How nine cities in Latin America and the United States used participatory visioning with residents to imagine resilient futures.
 - [The State of Cities Climate Finance](https://www.climatepolicyinitiative.org/publication/the-state-of-cities-climate-finance/) Cities Climate Finance Leadership Alliance, Climate Policy Initiative and World Bank, 2021 Maps the money: less than 10% of climate finance reaching cities goes to adaptation and resilience, and too little climate investment reaches cities in developing countries, singling out fast-urbanising South and Southeast Asia and Sub-Saharan Africa.
+
+## What has been measured, and where
+
+Field measurements of shade, parks and reflective roofs in Asian cities, each with the conditions it was measured in. These are measurements from single sites. No checked estimate yet exists for what they would add up to across a city, so none is shown.
+
+What | Where | When and how | What was measured | What it found |
+Street shade | Singapore | One extremely hot afternoon, 20 pairs of sunlit and shaded sites in a high-density district | Air temperature, mean radiant temperature and felt heat (UTCI), shaded against sunlit | On average 0.8 °C lower air temperature, 10.0 °C lower mean radiant temperature and 3.1 °C lower UTCI under shade. Source: [Science of the Total Environment, 2024](https://doi.org/10.1016/j.scitotenv.2024.177864) |
+A park | Singapore | January to December 2022, sensors in a park and its surrounding urban area | Air temperature in the park against the surrounding area | The park was cooler through the day and night: about 2.21 °C by day and 1.69 °C at night on average. Source: [Scientific Reports, 2025](https://ink.library.smu.edu.sg/cis_research/430) |
+Reflective roofs | Hyderabad | Measured on individual commercial buildings | Air-conditioning energy use before and after whitening the roof | Whitening previously black roofs cut air-conditioning energy by 14 to 26%; white coating on bare concrete roofs, by 10 to 19% (an estimate from the same study). Source: [Lawrence Berkeley National Laboratory and IIIT Hyderabad, 2011](https://www.osti.gov/servlets/purl/1026804) |
+Cool roofs in low-income homes | Ahmedabad | 16 slum households, 4 to 10 October 2017, after the monsoon | Indoor temperature under four roof treatments (including reflective white paint and insulation) against tin, asbestos-cement and concrete roofs | The checked text describes the method, not the figures; see the study for its results. Source: [Indian Journal of Occupational and Environmental Medicine, 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7227734) |
 
 ---
 Human edition: https://beattheheat.asia/cooling-options/ · Corrections: https://beattheheat.asia/corrections/ · All pages as one file: https://beattheheat.asia/llms-full.txt

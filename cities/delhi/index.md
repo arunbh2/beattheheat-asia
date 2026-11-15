@@ -48,11 +48,29 @@ No checked estimate found yet for this city.
 
 ### What could be done
 
-Actions that break the vicious cycles tied to this city, grouped by how soon they could act. Options, not instructions; each links to its evidence and to any side effects to watch for.
+Actions that break the vicious cycles tied to this city, grouped by how soon they could act. Options, not instructions; each links to its evidence and to any side effects to watch for. What shade, parks and reflective roofs have been measured to do in Asian cities: [what has been measured, and where](https://beattheheat.asia/cooling-options/#measured).
 
 **This hot season:** [Cooling centres and check-ins](https://beattheheat.asia/actions/#coolingcentres) (watch for side effects)
 
 **Over the next few years:** [Keep city trees alive](https://beattheheat.asia/actions/#keepgreen) · [Smart irrigation and groundwater rules](https://beattheheat.asia/actions/#irrigate) (watch for side effects) · [Count every heat death](https://beattheheat.asia/actions/#countdeaths) · [Heat-smart lending](https://beattheheat.asia/actions/#heatlending)
+
+## Inside the city: districts side by side
+
+Where many people, and many older people, live with little park space, much built-up ground and few hospitals nearby. Each measure sits beside the others, marked above or below the city's middle district; nothing is ranked or scored, and the table can be sorted by any column.
+
+Show the 11 districts
+
+The table needs JavaScript. The figures are in the data file: [Delhi districts (JSON)](https://beattheheat.asia/data/city-districts/delhi.json).
+
+- Residents are modelled estimates from WorldPop, not counts, and can differ widely from registration figures, partly because many people live in a city without being registered there. The model's spread of people within the city may overstate some districts and understate others, including the dense old centre. Please read each figure as a rough order of size.
+- The age mix is modelled from wider-area statistics, so differences between districts may be smoother or sharper than in reality. Shares are rounded to whole numbers.
+- Hospitals are those OpenStreetMap volunteers have mapped so far, not every hospital that exists. Clinics are left out: far more exist than are mapped, so a count would mostly measure mapping.
+- Park area counts only land mapped as parks in OpenStreetMap, as a share of each district's area. It leaves out farmland, orchards, temple grounds, canal-side trees and private gardens, so it is not a measure of all green space.
+- Built-up ground is the share of land mapped as built-up in ESA WorldCover (2021, 10 m), built from Copernicus Sentinel satellite data.
+- Figures use the district outlines named below, a population grid of about 1 km and a land grid of about 50 m, so small districts carry more error.
+- Today's heat-stress estimate above is for the city as a whole: the weather model's grid is wider than a district, so no district-level daily heat is shown.
+
+Sources: [geoBoundaries district outlines (ADM2)](https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/IND/ADM2/geoBoundaries-IND-ADM2.geojson) (2021, Open Data Commons Open Database License 1.0) · [WorldPop, Global2 constrained age and sex structures, release R2025A, 1 km, UN-adjusted: India - Age and Sex Structures](https://hub.worldpop.org/geodata/summary?id=97055) (2025, CC BY 4.0) · [ESA WorldCover 10 m 2021 v200 (built from Copernicus Sentinel-1 and Sentinel-2 data)](https://esa-worldcover.org/) (2021, CC BY 4.0) · [OpenStreetMap contributors, through the Overpass API](https://www.openstreetmap.org/copyright) (2026-11-15, ODbL 1.0). Generated 2026-11-15.
 
 ## Vicious cycles the evidence ties to Delhi
 

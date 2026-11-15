@@ -278,6 +278,10 @@ const checkFor = (key, label) => `<aside class="cs-check" data-check="${key}" da
     "### Four heats in a home", D.HOME_HEATS.intro, ...D.HOME_HEATS.heats.map(h => `- ${h.name}: ${h.text}${h.source ? ` (${h.source.label}, ${h.source.url})` : ""}`),
     `At night: ${D.HOME_HEATS.night.text} (${D.HOME_HEATS.night.source.label}, ${D.HOME_HEATS.night.source.url})`, ...D.HOME_HEATS.facts.map(f => `- ${f.n} ${f.text} (${f.source.url})`),
     D.HOME_HEATS.nuance.text, `For heat plans: ${D.HOME_HEATS.plans}`);
+  // what has been measured, and where (tools/city-districts/measured.js): single-site field measurements, never added up
+  { const M = require("./city-districts/measured.js"), R = M.rows();
+    h += `<h2 id="measured">${esc(M.WORDS.title)}</h2><p>${esc(M.WORDS.lede)}</p><div style="overflow-x:auto"><table style="border-collapse:collapse;font-size:.875rem;min-width:640px"><thead><tr>${M.WORDS.cols.map(c => `<th scope="col" style="text-align:left;padding:6px 8px 6px 0;border-top:1px solid #E6DFD4">${esc(c)}</th>`).join("")}</tr></thead><tbody>${R.map(r => `<tr>${[r.measure, r.place, r.when, r.measured].map(v => `<td style="vertical-align:top;padding:6px 8px 6px 0;border-top:1px solid #E6DFD4">${esc(v)}</td>`).join("")}<td style="vertical-align:top;padding:6px 8px 6px 0;border-top:1px solid #E6DFD4">${esc(r.found)} <span class="src">Source: ${ext(r.url, r.label)}</span></td></tr>`).join("")}</tbody></table></div>`;
+    m.push(`### ${M.WORDS.title}`, M.WORDS.lede, ...R.map(r => `- ${r.measure}, ${r.place} (${r.when}). Measured: ${r.measured}. Found: ${r.found} Source: ${r.label}, ${r.url}`)); }
   out[p.slug] = page(p, intro, h); md.push(m.join("\n\n"));
 }
 // the India heat action plan archive (research/india-hap-archive/), for links from worked plans and Indian city pages
@@ -362,7 +366,7 @@ function cityBrief(cp) {
   const ids = new Set(); cp.loops.forEach(x => { const l = D.LOOPS.find(q => q.id === x.id); if (l) loopLevers(l).forEach(v => ids.add(v.id)); });
   const groups = Object.keys(CD.when).map(k => [k, D.LEVERS.filter(v => ids.has(v.id) && v.when === k)]).filter(g => g[1].length);
   const html = `<h2 id="brief">${esc(CD.briefTitle)}</h2><h3>${esc(CD.cost)}</h3><p>${costLoop ? `${esc(costLoop.why)} <span class="src">Source: ${ext(costLoop.src.url, costLoop.src.label)}</span>` : esc(CD.noCost)}</p>
-      <h3>${esc(CD.options)}</h3><p class="meta">${esc(CD.optionsLede)}</p>${groups.length ? groups.map(([k, vs]) => `<p><strong>${esc(CD.when[k])}:</strong> ${vs.map(v => `<a href="/actions/#${v.id}">${esc(v.title)}</a>${v.watch && v.watch.length ? ` <span class="meta">(${esc(CD.watch.toLowerCase())})</span>` : ""}`).join(" · ")}</p>`).join("") : `<p>Not found yet.</p>`}`;
+      <h3>${esc(CD.options)}</h3><p class="meta">${esc(CD.optionsLede)} What shade, parks and reflective roofs have been measured to do in Asian cities: <a href="/cooling-options/#measured">what has been measured, and where</a>.</p>${groups.length ? groups.map(([k, vs]) => `<p><strong>${esc(CD.when[k])}:</strong> ${vs.map(v => `<a href="/actions/#${v.id}">${esc(v.title)}</a>${v.watch && v.watch.length ? ` <span class="meta">(${esc(CD.watch.toLowerCase())})</span>` : ""}`).join(" · ")}</p>`).join("") : `<p>Not found yet.</p>`}`;
   const md = [`${CD.cost}: ${costLoop ? `${costLoop.why} (${costLoop.src.label}, ${costLoop.src.url})` : CD.noCost}`, `${CD.options}: ${groups.map(([k, vs]) => `${CD.when[k]}: ${vs.map(v => v.title).join("; ")}`).join(". ") || "Not found yet."}`];
   return { html, md };
 }
