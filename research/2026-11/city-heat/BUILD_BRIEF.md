@@ -26,6 +26,7 @@ unpublished session transcript.
 - **No AI service.** The briefing is assembled by fixed rules from the site's own checked records. The site runs no
   AI and has no budget for one.
 - **Order of work**: the five steps in section 5, one after another, each as its own pull request or small set.
+- **No heat-stress level beside the WBGT estimate** (owner's decision after step 1, 15 November 2026). The estimate reads high in cloudy or windy weather and at night, so published WBGT levels appear only beside measured values (Singapore). New cities follow the same rule; the country's existing heat-index or daily-high estimate (`LIVE_LEVELS`) still shows where it applies.
 
 ## 3. Stop and ask the owner before doing any of these
 
