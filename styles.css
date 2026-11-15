@@ -3636,7 +3636,9 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 .atl-city{width:12px;height:12px;border-radius:50%;background:#fff;border:3px solid var(--ink);z-index:3}
 .atl-city--plan{border-color:var(--break)}.atl-city--building{border-color:#b08a3e}.atl-city--none{border-color:#8a939b}.atl-city--live{border-color:var(--ink);background:var(--ink)}
 .atl-city span{position:absolute;left:12px;top:50%;transform:translateY(-50%);white-space:nowrap;font-size: var(--fs-12);font-weight:700;color:var(--ink);background:rgba(250,247,242,.88);padding:1px 5px;border-radius:4px;pointer-events:none}
-.atl-city--left span{left:auto;right:12px}.atl-city--nolab span{visibility:hidden}
+.atl-city--left span{left:auto;right:12px}
+.atl-cmp{display:flex;flex-direction:column;gap:4px;font-weight:700;font-size:var(--fs-14)}.atl-cmp select{min-height:44px;font:inherit;font-weight:400;padding:6px 10px;border:1px solid var(--line-strong);border-radius:var(--r-sm);background:#fff;color:var(--ink)}
+.atl-cmpt{width:100%;border-collapse:collapse;font-size:var(--fs-14);margin:8px 0}.atl-cmpt th,.atl-cmpt td{text-align:left;vertical-align:top;padding:6px 6px 6px 0;border-top:1px solid var(--line)}.atl-cmpt thead th{font-weight:700}.atl-city--nolab span{visibility:hidden}
 .atl-city.is-sel{box-shadow:0 0 0 3px rgba(22,32,43,.25)}
 .atl-hw:focus-visible,.atl-ms:focus-visible,.atl-city:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
 .atl-year{display:flex;align-items:baseline;gap:14px;margin:12px 4px 2px;min-height:2.6em}
