@@ -1,0 +1,40 @@
+# Heat over time for city pages (tools/city-history/run.js): reads the Open-Meteo Historical Weather API (ERA5-Land, free, no
+# account) on GitHub, never in a visitor's browser, and commits data/city-history/<id>.json. No packages. Run by hand.
+name: City heat history
+on:
+  workflow_dispatch:
+    inputs:
+      cities:
+        description: City ids separated by commas, or all
+        required: true
+        default: bangkok,kolkata
+permissions:
+  contents: write
+jobs:
+  history:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 22
+      - name: Check the input
+        env:
+          CITIES: ${{ inputs.cities }}
+        run: '[[ "$CITIES" =~ ^(all|[a-z]+(,[a-z]+)*)$ ]] || { echo "::error::cities must be lowercase ids separated by commas, or all"; exit 1; }'
+      - name: Statistics tests
+        run: node tools/check-city-history.js --stats-only
+      - run: node tools/city-history/run.js "$CITIES"
+        env:
+          CITIES: ${{ inputs.cities }}
+      - name: Check and commit
+        env:
+          CITIES: ${{ inputs.cities }}
+        run: |
+          node tools/check-city-history.js
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/city-history/
+          git diff --cached --quiet || git commit -m "City heat history for $CITIES"
+          git push

@@ -370,6 +370,30 @@ function cityBrief(cp) {
   const md = [`${CD.cost}: ${costLoop ? `${costLoop.why} (${costLoop.src.label}, ${costLoop.src.url})` : CD.noCost}`, `${CD.options}: ${groups.map(([k, vs]) => `${CD.when[k]}: ${vs.map(v => v.title).join("; ")}`).join(". ") || "Not found yet."}`];
   return { html, md };
 }
+// heat over time, where a city has data/city-history/<id>.json (written by .github/workflows/city-history.yml): three small
+// bar charts drawn here as SVG (no script), each with its trend in words, a table of years, and the caveats beneath
+const CHW = require("./city-history/words.js");
+function cityHistory(c) {
+  const f = path.join(ROOT, "data", "city-history", c.id + ".json");
+  if (!fs.existsSync(f)) return { html: "", md: [] };
+  const d = JSON.parse(fs.readFileSync(f, "utf8")), Y = d.years, md = [CHW.title(d.period[0], d.period[1]) + ": " + CHW.lede];
+  const thr = { warm_nights: d.thresholds.warm_night_c, hot_days: d.thresholds.hot_day_c, hottest: null };
+  const say = (k, t) => { const M = CHW.measures[k], v = Math.abs(t.per_decade), r = t.range;
+    return t.words === "no clear change" ? `${t.words}.` : `${t.words}: about ${k === "hottest" ? v.toFixed(1) : Math.round(v)} ${t.per_decade >= 0 ? M.per : M.less} (95% range ${r[0]} to ${r[1]} a decade).`; };
+  const chart = k => { const vs = Y.map(y => y[k]), lo = k === "hottest" ? Math.floor(Math.min(...vs)) - 1 : 0, hi = Math.ceil(Math.max(...vs)), W = 320, H = 110, bw = W / vs.length;
+    const bars = vs.map((v, i) => { const h = Math.max(1, (v - lo) / (hi - lo || 1) * (H - 20)); return `<rect x="${(i * bw + 0.5).toFixed(1)}" y="${(H - 14 - h).toFixed(1)}" width="${(bw - 1).toFixed(1)}" height="${h.toFixed(1)}" fill="#B8401A"/>`; }).join("");
+    const label = `${CHW.measures[k].name}, ${Y[0].year} to ${Y[Y.length - 1].year}: from ${vs[0]} to ${vs[vs.length - 1]} ${CHW.measures[k].unit}; highest ${Math.max(...vs)} in ${Y[vs.indexOf(Math.max(...vs))].year}`;
+    return `<svg viewBox="0 0 ${W} ${H}" width="100%" style="max-width:480px;display:block" role="img" aria-label="${esc(label)}">${bars}<text x="0" y="${H - 2}" font-size="10" fill="#5E6570">${Y[0].year}</text><text x="${W}" y="${H - 2}" font-size="10" fill="#5E6570" text-anchor="end">${Y[Y.length - 1].year}</text><text x="0" y="9" font-size="10" fill="#5E6570">${hi}${k === "hottest" ? " °C" : ""}</text></svg>`; };
+  let h = `<h2 id="history">${esc(CHW.title(d.period[0], d.period[1]))}</h2><p>${esc(CHW.lede)}</p>`;
+  for (const k of Object.keys(CHW.measures)) { const M = CHW.measures[k], t = d.trends[k];
+    h += `<h3>${esc(M.name)}</h3><p class="meta">${esc(M.what(thr[k]))}</p>${chart(k)}<p><strong>${esc(say(k, t))}</strong></p>`;
+    md.push(`${M.name} (${M.what(thr[k])}): ${say(k, t)} By year: ${Y.map(y => `${y.year} ${y[k]}`).join(", ")}.`); }
+  h += `<details><summary>${esc(CHW.table)}</summary><div style="overflow-x:auto"><table style="border-collapse:collapse;font-size:.875rem"><thead><tr><th scope="col" style="text-align:left;padding:4px 10px 4px 0">Year</th>${Object.values(CHW.measures).map(M => `<th scope="col" style="text-align:right;padding:4px 10px 4px 0">${esc(M.name)}</th>`).join("")}</tr></thead><tbody>${Y.map(y => `<tr><td style="padding:2px 10px 2px 0">${y.year}</td><td style="text-align:right;padding:2px 10px 2px 0">${y.warm_nights}</td><td style="text-align:right;padding:2px 10px 2px 0">${y.hot_days}</td><td style="text-align:right;padding:2px 10px 2px 0">${y.hottest} °C</td></tr>`).join("")}</tbody></table></div></details>
+      <p class="meta">${esc(CHW.caveat)} ${esc(CHW.enso)}</p><p class="src">${esc(CHW.method)} Source: ${ext(d.source.url, d.source.name)} (${esc(d.source.licence)}); grid cell ${d.grid.lat}, ${d.grid.lon}, ${d.grid.elevation_m} m. Generated ${esc(d.generated)}.</p>`;
+  md.push(`Caveat: ${CHW.caveat} ${CHW.enso} ${CHW.method} Source: ${d.source.name}, ${d.source.url}.`);
+  return { html: h, md };
+}
+
 // the district picture, where a city has one (data/city-districts/<id>.json, written by the district job): a table that
 // loads only when opened (city-heat/districts.js); with no JavaScript, a link to the data file
 function cityDistricts(c) {
@@ -406,7 +430,7 @@ const SNAP_SLUG = { Bangladesh: "bangladesh", India: "india", Indonesia: "indone
     h += `<h2 id="${cp.id}"><a href="/cities/${cp.id}/">${esc(c.name)}, ${esc(c.country)}</a></h2><p>${esc(cp.tagline)}</p><p class="meta">Heat plan: ${esc(status)}. Cycles tied to it: ${esc(loops.map(x => x.l.name).join(", "))}.</p>`;
     const body = `<a class="cs-where" href="/atlas/#city-${cp.id}">${PIN}Where this happens: ${esc(c.name)} on the Atlas <span aria-hidden="true">→</span></a>${cp.heat ? `<p><strong>Heat type:</strong> ${esc(cp.heat)} <a href="/glossary/#dryhumid">Dry heat and humid heat, explained</a>.</p>` : ""}<h2>Heat action plan: ${esc(status)}</h2><p>${esc(cp.hap.text)}</p><p class="src">Sources: ${cp.hap.sources.map(s => ext(s.url, s.label)).join(" · ")}</p>
       ${cityHeat(c)}<p>The week’s forecast is on <a href="/#city-${cp.id}">the interactive map</a>. ${D.LIVE_FINGERPRINT ? `How much climate change shaped today’s heat: ${ext(D.LIVE_FINGERPRINT.map.url, D.LIVE_FINGERPRINT.map.label)}.` : ""}</p>
-      ${cityBrief(cp).html}${cityDistricts(c).html}
+      ${cityHistory(c).html}${cityBrief(cp).html}${cityDistricts(c).html}
       <h2>Vicious cycles the evidence ties to ${esc(c.name)}</h2>${loops.map(x => `<h3><a href="/loops/#${x.l.id}">${esc(x.l.name)}</a></h3><p>${esc(x.why)}${x.src ? ` <span class="src">Source: ${ext(x.src.url, x.src.label)}</span>` : ""}</p><p class="meta">${esc(x.l.summary)} <a href="/#loop-${x.l.id}">Follow it on the map</a>.</p>`).join("")}
       ${checkFor("city-" + cp.id, c.name)}
       ${recentFor(["city-" + cp.id, "country-" + (SNAP_SLUG[c.country] || c.country.toLowerCase().replace(/\s+/g, "-"))])}
@@ -420,7 +444,7 @@ const SNAP_SLUG = { Bangladesh: "bangladesh", India: "india", Indonesia: "indone
     CITY_PAGES.push(cpPage);
     out[cpPage.slug] = page(cpPage, cIntro, body, [{ "@context": "https://schema.org", "@type": "City", name: c.name, containedInPlace: { "@type": "Country", name: c.country },
       geo: { "@type": "GeoCoordinates", latitude: c.lat, longitude: c.lon }, url }]);
-    m.push(`### ${c.name}, ${c.country}`, cp.tagline, `Heat action plan (${status}): ${cp.hap.text} Sources: ${cp.hap.sources.map(s => `${s.label} ${s.url}`).join("; ")}`, ...cityBrief(cp).md, ...cityDistricts(c).md, `${D.LIVE_WBGT.title}: the page shows ${D.LIVE_WBGT.name.toLowerCase()} now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: ${c.warn.label} ${c.warn.url}`,
+    m.push(`### ${c.name}, ${c.country}`, cp.tagline, `Heat action plan (${status}): ${cp.hap.text} Sources: ${cp.hap.sources.map(s => `${s.label} ${s.url}`).join("; ")}`, ...cityHistory(c).md, ...cityBrief(cp).md, ...cityDistricts(c).md, `${D.LIVE_WBGT.title}: the page shows ${D.LIVE_WBGT.name.toLowerCase()} now and an estimated daily peak for today and the next three days, calculated in the browser from Open-Meteo. Official warnings: ${c.warn.label} ${c.warn.url}`,
       ...loops.map(x => `- ${x.l.name}: ${x.why}`), `Who heat hits hardest: ${risks.map(g => g.name).join("; ")}`, `Already at work: ${orgs.length ? orgs.map(o => o.name).join("; ") : "Not found yet: the heat network lists no organisation whose work is in this city. This describes the list, not the city."}`, `Page: ${url}`);
   });
   out[p.slug] = page(p, intro, h); md.push(m.join("\n\n"));
