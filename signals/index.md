@@ -1,7 +1,7 @@
 ---
 title: "Signals: which way heat policy is moving"
 url: https://beattheheat.asia/signals/
-updated: 2026-11-13
+updated: 2026-11-15
 licence: CC BY 4.0
 ---
 
@@ -17,15 +17,15 @@ The ladder
 
 ## From promise to proof
 
-Of the 11 commitments tracked so far, 1 has been delivered and none has been evaluated. The furthest any has climbed is "Delivered".
+Of the 14 commitments tracked so far, 2 have been delivered and none has been evaluated. The furthest any has climbed is "Delivered".
 
 - 2
 **1. Announced**Said in public. A weak signal on its own: announcements happen whether or not anything follows.
-- 4
+- 6
 **2. Adopted**Made formal: a plan approved, a rule changed, an office set up.
 - 4
 **3. Funded**Money committed to it, whether or not the amount is public.
-- 1
+- 2
 **4. Delivered**Something exists that people can use: a service open, a guide published, money paid out.
 - 0
 **5. Evaluated**Its results were measured and published.
@@ -195,6 +195,26 @@ This year's signals already on Common Shade, each with the source the site check
 
 ### Commitments, furthest along first
 
+Commitment12 July 2026
+
+### South Korea issues its first emergency heatwave warning under a new rating system
+
+Korea Meteorological Administration
+
+In July 2026 South Korea's weather service issued its first emergency heatwave warning, the top level of a new rating system, during a summer of record tropical nights. Workplaces added longer lunches and more breaks.
+
+What would move it upEvaluated: a published review of whether the new warning level changed what people, employers and services did.
+
+How it has moved
+
+- 12 July 2026 **Delivered** First emergency heatwave warning issued under the new system
+
+Actions it touches[Heat-safe work](https://beattheheat.asia/actions/#heatrules)[Cool nights and support](https://beattheheat.asia/actions/#coolnights)
+
+Sources[The Jakarta Post, 2026: South Korea issues first emergency heatwave warning under new rating system](https://thejakartapost.com/world/2026/07/12/south-korea-issues-first-emergency-heatwave-warning-under-new-rating-system)
+[Korea JoongAng Daily, 2026: No relief, even after dark: record tropical nights add to Korea's heat crisis](https://www.koreajoongangdaily.com/korea/no-relief-even-after-dark-record-tropical-nights-add-to-koreas-heat-crisis/12810767)
+[The Star, 2026: Longer lunches, more breaks as Korea's workplaces battle heat](https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/07/longer-lunches-more-breaks-as-koreas-workplaces-battle-heat)
+
 Commitment2026
 
 ### Bangkok's heat plan opens 304 cooling centres
@@ -288,6 +308,45 @@ Actions it touches[Heat action plans](https://beattheheat.asia/actions/#hap)[Ant
 
 Source[World Meteorological Organization, 2026: New framework and toolkit strengthens extreme heat governance](https://wmo.int/media/news/new-framework-and-toolkit-strengthens-extreme-heat-governance)
 
+Commitment27 October 2026
+
+### The Philippines issues guidelines on heat stress at work and on compensation for heat illness
+
+Department of Labor and Employment, Philippines
+
+In October 2026 the Department of Labor and Employment issued guidelines requiring employers to protect workers from heat stress during El Niño, and set out how heat stress and heat-related illness at work are compensated.
+
+What would move it upDelivered: workplaces applying the guidelines, and compensation claims for heat illness being filed and paid.
+
+How it has moved
+
+- 24 October 2026 **Adopted** Guidelines on compensation for heat-related illness issued
+- 27 October 2026 **Adopted** Workplace heat stress guidelines issued
+
+Actions it touches[Heat-safe work](https://beattheheat.asia/actions/#heatrules)[Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash)
+
+Sources[Daily Tribune, 2026: DOLE issues workplace heat stress guidelines](https://tribune.net.ph/2026/10/27/dole-issues-workplace-heat-stress-guidelines)
+[Daily Tribune, 2026: DOLE sets compensation rules for heat-related illnesses](https://tribune.net.ph/2026/10/24/dole-sets-compensation-rules-for-heat-related-illnesses)
+
+Commitment28 August 2026
+
+### Singapore makes heat stress measures mandatory for outdoor work from 1 December 2026
+
+Ministry of Manpower, Singapore
+
+The Ministry of Manpower announced on 28 August 2026 that enhanced heat stress measures, including drinking water, become mandatory for outdoor work from 1 December 2026, giving employers three months to prepare. Measures that had been recommended become requirements.
+
+What would move it upDelivered: the measures in force from 1 December 2026, and inspections reporting how workplaces meet them.
+
+How it has moved
+
+- 28 August 2026 **Adopted** Enhancements to the heat stress framework announced, to take effect on 1 December 2026
+
+Actions it touches[Heat-safe work](https://beattheheat.asia/actions/#heatrules)
+
+Sources[Ministry of Manpower, Singapore, 2026: Enhancements to heat stress framework (from 1 December 2026)](https://www.mom.gov.sg/newsroom/press-releases/2026/0828-enhancements-to-heat-stress-framework)
+[Rajah & Tann Asia, 2026: Heat stress management framework to be enhanced from 1 December 2026](https://www.rajahtannasia.com/viewpoints/heat-stress-management-framework-to-be-enhanced-from-1-december-2026/)
+
 CommitmentAugust 2026
 
 ### India adds heatwaves to its notified natural calamities
@@ -359,6 +418,34 @@ What to watchWatch for the roadmap's investments to become funded commitments.
 Actions it touches[Heat action plans](https://beattheheat.asia/actions/#hap)[Anticipatory action](https://beattheheat.asia/actions/#anticipatory)
 
 Source[ClimateWorks Foundation, 2026: Global Heat Forum gathers 600 leaders](https://www.climateworks.org/press-release/global-heat-forum-gathers-600-leaders-to-scale-investment-for-extreme-heat-action/)
+
+Finding29 July 2026
+
+### World Bank: extreme heat already costs jobs and growth in South Asia's cities
+
+World Bank
+
+The World Bank's report A Livable Future, published on 29 July 2026, finds extreme heat emerging as a major threat to jobs, productivity and growth across South Asia, and sets out how cities can protect them.
+
+What to watchA finding, not a commitment: watch whether city budgets in South Asia take up the report's measures.
+
+Actions it touches[Green, cool cities](https://beattheheat.asia/actions/#greencity)[Heat-safe work](https://beattheheat.asia/actions/#heatrules)
+
+Source[World Bank, 2026: A livable future: protecting jobs and growth from extreme heat in South Asia's cities](https://www.worldbank.org/en/region/sar/publication/a-livable-future-protecting-jobs-and-growth-from-extreme-heat-in-south-asia-s-cities)
+
+FindingJune 2026
+
+### Nearly all outdoor workers surveyed in Viet Nam's two largest cities report heat-related health problems
+
+National Economics University with UNDP Viet Nam
+
+A 2026 study with UNDP surveyed 734 outdoor workers in Hanoi and Ho Chi Minh City; 94% reported at least one heat-related health problem while working during heatwaves.
+
+What to watchA finding, not a commitment: watch whether Viet Nam's labour and social protection rules add heat, as the study suggests.
+
+Actions it touches[Social protection floors](https://beattheheat.asia/actions/#socialprotection)[Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash)
+
+Source[Ministry of Agriculture and Environment, Viet Nam, 2026: 94% of outdoor workers report heat-related health problems: UNDP report](https://en.mae.gov.vn/94-of-outdoor-workers-report-heatrelated-health-problems-undp-report-9432.htm)
 
 FindingMay 2026
 

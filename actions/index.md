@@ -1,7 +1,7 @@
 ---
 title: "Actions that break the vicious cycles of extreme heat | Common Shade"
 url: https://beattheheat.asia/actions/
-updated: 2026-11-14
+updated: 2026-11-15
 licence: CC BY 4.0
 ---
 
@@ -292,6 +292,14 @@ Cuts the link: Heatstroke and heat exhaustion → Lost work hours and wages. How
 **In practice:** Parametric heat insurance has been piloted with women informal workers in India.
 
 Sources: [ICMIF, 2024: IBISA launches a parametric heat-index product for women workers in India](https://www.icmif.org/news_story/ibisa-launches-a-new-parametric-heat-index-product-in-india-to-protect-women-workers-from-heat-induced-wage-losses/)
+
+**Watch for:** A payout trigger set too high can pay nothing: the first year of a heat insurance scheme for informal women workers in India paid nothing for that reason, until the threshold was redesigned.
+
+Sources: [NPR (via KPBS), 2025: On super hot days, this insurance plan pays out cash for lost wages](https://www.kpbs.org/news/health/2025/07/16/on-super-hot-days-this-insurance-plan-pays-out-cash-for-lost-wages) · [International Labour Organization, 2026: SEWA's journey towards climate resilience (ILO case study)](https://social-justice-coalition.ilo.org/sites/default/files/2026-06/SEWAs%20journey%20towards%20climate%20resilience%20final%20-%20ILO%20Case%20Study%20.pdf)
+
+**Watch for:** Payouts that take weeks to arrive weaken the link between the heat and the help.
+
+Sources: [CGAP, 2026: Confronting the climate and health nexus: lessons from SEWA](https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association)
 
 ### Practical guides
 

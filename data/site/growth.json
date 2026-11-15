@@ -664,6 +664,19 @@
       "pages": [["/briefs/heat-ready-social-security/", "Policy brief"], ["/social-protection/", "Who could help a household"]], "action": ["Read the policy brief", "/briefs/heat-ready-social-security/"],
       "links": [{ "to": "lever:socialprotection", "why": "The brief sets out how the social protection lever could respond to heat.", "basis": "editorial" },
                 { "to": "page:/social-protection/", "why": "The brief sits in the social protection section, beside the scheme finder.", "basis": "editorial" }]
+    },
+    {
+      "id": "g-heat-signals-asia-2026", "kind": "connection", "root": "evidence", "added": "2026-11-15", "pr": null,
+      "title": "New signals from Asia on heat at work, and lessons on heat insurance on the map",
+      "why": "Signals now follow Singapore's mandatory heat measures, the Philippines' new heat stress and compensation guidelines, South Korea's first emergency heatwave warning, a survey of outdoor workers in Viet Nam and the World Bank's report on heat in South Asia's cities. Income protection on the map now notes two lessons from India's first heat insurance for informal women workers.",
+      "places": ["region", "singapore"], "people": ["workers"], "topics": ["heatrules", "heatcash"],
+      "event": { "what": "Signals added", "date": "2026-11-15" },
+      "review": "Every source opened by a check on GitHub with its terms found, in the same batch as the policy brief",
+      "effort": { "asked": "Which commitments and findings on heat at work in Asia could the site follow?", "inbox": "data/inbox/2026-11-csd9-heat", "dropped": "research/2026-11/csd9-heat/ledger.md",
+                  "open": "Whether each commitment moves up the ladder." },
+      "pages": [["/signals/", "Signals"], ["/actions/", "Actions"]], "action": ["See the signals", "/signals/"],
+      "links": [{ "to": "lever:heatrules", "why": "Three of the new signals are rules for heat-safe work.", "basis": "record" },
+                { "to": "lever:heatcash", "why": "The new Watch for notes sit on income protection in heatwaves.", "basis": "record" }]
     }
   ]
 }
