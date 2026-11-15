@@ -377,9 +377,9 @@ function cityDistricts(c) {
   const html = `<h2 id="districts">${esc(CD.title)}</h2><p>${esc(CD.lede)}</p>
       <details class="cd"><summary>${esc(CD.open(n))}</summary><div class="cd-body" data-city-districts><p>${esc(CD.noJs)} <a href="${url}">${esc(c.name)} districts (JSON)</a>.</p></div></details>
       <ul class="meta">${CD.limits.map(x => `<li>${esc(x)}</li>`).join("")}</ul><p class="src">Sources: ${src}. Generated ${esc(d.generated)}.</p>
-      <style>.cd{margin:10px 0}.cd summary{cursor:pointer;font-weight:700;min-height:24px;padding:6px 0}.cd-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}.cd table{border-collapse:collapse;font-size:.875rem;min-width:640px}.cd th,.cd td{text-align:right;padding:6px 8px;border-top:1px solid #E6DFD4;white-space:nowrap}.cd th:first-child,.cd td:first-child{text-align:left}.cd th button{font:inherit;font-weight:700;background:none;border:0;padding:6px 0;min-height:24px;cursor:pointer;color:inherit;text-decoration:underline;text-decoration-color:#F26430;text-underline-offset:3px}.cd .up{color:#16202B;font-weight:700}.cd .dn{color:#5E6570}.cd small{display:block;font-size:.75rem;color:#5E6570}</style>
-      <script>window.CITY_DISTRICTS=${JSON.stringify(data).replace(/</g, "\\u003c")};</script><script src="/city-heat/districts.js?v=${CHV}" defer></script>`;
-  const md = [`${CD.title}: ${n} districts, each with estimated residents, the share aged 65 and over, hospitals and clinics mapped in OpenStreetMap, built-up share and park area share, side by side and never ranked. Data: ${SITE}${url}. Limits: ${CD.limits.join(" ")}`];
+      <style>.cd{margin:10px 0}.cd summary{cursor:pointer;font-weight:700;min-height:24px;padding:6px 0}</style>
+      <script>window.CITY_DISTRICTS=${JSON.stringify(data).replace(/</g, "\\u003c")};(function(){var d=document.querySelector("details.cd");if(!d)return;var go=function(){if(!d.open||go.done)return;go.done=1;var s=document.createElement("script");s.src="/city-heat/districts.js?v=${CHV}";document.head.appendChild(s);};d.addEventListener("toggle",go);go();})();</script>`;
+  const md = [`${CD.title}: ${n} districts, each with estimated residents, the share aged 65 and over, hospitals mapped in OpenStreetMap, built-up share and park area share, side by side and never ranked. Data: ${SITE}${url}. Limits: ${CD.limits.join(" ")}`];
   return { html, md };
 }
 

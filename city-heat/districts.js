@@ -7,13 +7,15 @@
   var C = window.CITY_DISTRICTS, box = document.querySelector("[data-city-districts]");
   if (!C || !box) return;
   var det = box.closest("details"), rows = null, key = "name", dir = 1, mid = {};
+  // the table's own styles arrive with this script, which loads only when the reader opens the list
+  if (!document.getElementById("cd-css")) { var st = document.createElement("style"); st.id = "cd-css"; st.textContent = ".cd-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}.cd table{border-collapse:collapse;font-size:.875rem;min-width:640px}.cd th,.cd td{text-align:right;padding:6px 8px;border-top:1px solid #E6DFD4;white-space:nowrap}.cd th:first-child,.cd td:first-child{text-align:left}.cd th button{font:inherit;font-weight:700;background:none;border:0;padding:6px 0;min-height:24px;cursor:pointer;color:inherit;text-decoration:underline;text-decoration-color:#F26430;text-underline-offset:3px}.cd .up{color:#16202B;font-weight:700}.cd .dn{color:#5E6570}.cd small{display:block;font-size:.75rem;color:#5E6570}"; document.head.appendChild(st); }
   var esc = function (s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); };
   var show = {
     residents: function (v) { return v == null ? "–" : v < 1000 ? "under 1,000" : "about " + (Math.round(v / 1000) * 1000).toLocaleString("en"); },
     older_pct: function (v) { return v == null ? "–" : Math.round(v) + "%"; },
     built_pct: function (v) { return v == null ? "–" : Math.round(v) + "%"; },
     park_pct: function (v) { return v == null ? "–" : v > 0 && v < 1 ? "under 1%" : Math.round(v) + "%"; },
-    hospitals: function (v) { return String(v); }, clinics: function (v) { return String(v); }
+    hospitals: function (v) { return String(v); }
   };
   function median(k) { var a = rows.map(function (r) { return r[k]; }).filter(function (v) { return v != null; }).sort(function (x, y) { return x - y; }); var n = a.length; return n ? (n % 2 ? a[(n - 1) / 2] : (a[n / 2 - 1] + a[n / 2]) / 2) : null; }
   function cell(r, k) {

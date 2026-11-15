@@ -5,7 +5,7 @@ updated: 2026-11-15
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 52 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 53 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-52 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,112 works the commons draws on carry a publication date, and 808 are still being dated.
+53 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,112 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -206,6 +206,44 @@ Each new city's page records where its heat plan stands.
 [Cities](https://beattheheat.asia/cities/)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Five%20more%20cities%20across%20Southeast%20Asia%20and%20Bangladesh%2C%20Ho%20Chi%20Minh%20City%20first&ref=g-cities-batch-b#way-share)
+
+Tool improved · Institutions and plans
+
+### A heat briefing on every city page, and Bangkok's 50 districts side by side
+
+Added 15 November 2026 · City briefing and district picture added 15 November 2026
+
+Why it matters our readingEvery city page now says what a checked study finds heat costs there, or that no checked estimate has been found yet, and lists the actions that could break its vicious cycles by how soon they could act; Bangkok's page also shows its districts side by side, from modelled residents and ages to mapped hospitals, built-up ground and park area, with each figure's limits beside it.
+
+- South and Southeast Asia
+- Thailand
+- Older people
+- Heat action plans
+- Cool by design
+
+ReviewDistrict outlines, WorldPop, ESA WorldCover and OpenStreetMap read on GitHub by a job anyone can rerun; district areas add up to within half a percent of Bangkok's area; an independent review led to clinics being left out and stronger wording on modelled residents and park area. 58 checked · 53 confirmed · 5 not confirmed, each recorded.
+
+What it took to add this
+
+- **The question.** Inside a city, where do many people, and many older people, live with little park space, much built-up ground and few hospitals nearby?
+- **The search.** 58 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 53 confirmed, and 5 could not be (2 blocked automated reading, 1 did not respond, 2 did not show the expected text).
+- **What we set aside.** 33 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+
+- **What is still open.** Which other cities have open district outlines good enough to repeat this.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-city-heat/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/city-heat/BUILD_BRIEF.md)
+
+How it connects
+
+- [Cool by design](https://beattheheat.asia/actions/#coolbydesign) Action · our reading
+Built-up ground and park area are what cooler design changes.
+
+[See Bangkok's districts](https://beattheheat.asia/cities/bangkok/#districts)
+[Bangkok](https://beattheheat.asia/cities/bangkok/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=A%20heat%20briefing%20on%20every%20city%20page%2C%20and%20Bangkok's%2050%20districts%20side%20by%20side&ref=g-city-brief-districts#way-share)
 
 Connection documented · Evidence
 
