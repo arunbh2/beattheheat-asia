@@ -1,5 +1,5 @@
 {
- "about": "Candidate weather stations per city in NOAA's Global Historical Climatology Network Daily (GHCN-Daily, public domain), tried in order. A station is used only if it passes the completeness rules in tools/city-history/run.js; otherwise the city shows no trend. IDs come from an advisor's recollection and are confirmed (or refused) by the job's discover run against the NCEI Access Data Service. A candidate written gsod:<id> reads NOAA's Global Summary of the Day instead.",
+ "about": "Candidate weather stations per city in NOAA's Global Historical Climatology Network Daily (GHCN-Daily, public domain), tried in order. A station is used only if it passes the completeness rules in tools/city-history/run.js; otherwise the city shows no trend. IDs come from an advisor's recollection and are confirmed (or refused) by the job's discover run against the NCEI Access Data Service. A candidate written gsod:<id> reads NOAA's Global Summary of the Day instead. GSOD ids are written as the WMO number plus 099999 and confirmed by name in the discover run. A station more than 35 km from the city centre is not used, and a city never borrows a neighbour's station.",
  "bangkok": [
   "TH000048455",
   "TH000048456",
@@ -35,6 +35,7 @@
  ],
  "colombo": [
   "gsod:43466099999",
+  "gsod:43467099999",
   "gsod:43450099999"
  ],
  "delhi": [
@@ -53,11 +54,11 @@
   "gsod:48900099999"
  ],
  "hyderabad": [
-  "gsod:43128099999",
-  "gsod:43125099999"
+  "gsod:43128099999"
  ],
  "jakarta": [
   "gsod:96745099999",
+  "gsod:96747099999",
   "gsod:96749099999"
  ],
  "kathmandu": [
@@ -75,8 +76,7 @@
   "gsod:48991099999"
  ],
  "quezoncity": [
-  "gsod:98430099999",
-  "gsod:98429099999"
+  "gsod:98430099999"
  ],
  "singapore": [
   "gsod:48698099999",

@@ -378,9 +378,11 @@ function cityHistory(c) {
   if (!fs.existsSync(f)) return { html: "", md: [] };
   const d = JSON.parse(fs.readFileSync(f, "utf8")), title = CHW.title(d.period[0], d.period[1]);
   if (!d.station) return { html: `<h2 id="history">${esc(title)}</h2><p>${esc(CHW.none)}</p>`, md: [`${title}: ${CHW.none}`] };
-  const S0 = Object.assign({}, d.station, { name: String(d.station.name || "").replace(/,\s*[A-Z]{2}$/, "").toLowerCase().replace(/\b([a-z])/g, m => m.toUpperCase()) }), Y = S0.years, B = d.background, md = [`${title}: ${CHW.lede} ${CHW.station(S0.name, S0.valid_years, S0.of)}`];
+  const S0 = Object.assign({}, d.station, { name: String(d.station.name || "").replace(/,\s*[A-Z]{2}$/, "").toLowerCase().replace(/\b([a-z])/g, m => m.toUpperCase()) }), Y = S0.years, B = d.background, md = [`${title}: ${CHW.lede} ${CHW.station(S0.name, S0.valid_years, S0.of, S0.km_from_centre, /international|airport/i.test(d.station.name || ""))}`];
   const thr = { warm_nights: S0.thresholds.warm_night_c, hot_days: S0.thresholds.hot_day_c, hottest: null };
-  const say = (k, t) => { const M = CHW.measures[k], v = Math.abs(t.per_decade), r = t.range;
+  const cg = S0.change || {}, brk = k => cg[k === "warm_nights" ? "tmin" : "tmax"];
+  const say = (k, t) => { const M = CHW.measures[k], v = Math.abs(t.per_decade), r = t.range, b = brk(k);
+    if (b && b.broken) return CHW.changed(b.year, b.step);
     return t.words === "no clear change" ? `${t.words}.` : `${t.words}: about ${k === "hottest" ? v.toFixed(1) : Math.round(v)} ${t.per_decade >= 0 ? M.per : M.less} (95% range ${k === "hottest" ? (+r[0]).toFixed(1) : Math.round(r[0])} to ${k === "hottest" ? (+r[1]).toFixed(1) : Math.round(r[1])} a decade).`; };
   const y0 = d.period[0], y1 = d.period[1], span = y1 - y0 + 1;
   const chart = k => { const vs = Y.map(y => y[k]), lo = k === "hottest" ? Math.floor(Math.min(...vs)) - 1 : 0, hi = Math.ceil(Math.max(...vs)), W = 320, H = 110, bw = W / span;
@@ -388,13 +390,13 @@ function cityHistory(c) {
     const top = Y[vs.indexOf(Math.max(...vs))].year;
     const label = `${CHW.measures[k].name} at the ${S0.name} station, ${y0} to ${y1}, ${Y.length} complete years: from ${vs[0]} in ${Y[0].year} to ${vs[vs.length - 1]} in ${Y[Y.length - 1].year} ${CHW.measures[k].unit}; highest ${Math.max(...vs)} in ${top}`;
     return `<svg viewBox="0 0 ${W} ${H}" width="100%" style="max-width:480px;display:block" role="img" aria-label="${esc(label)}">${bars}<text x="0" y="${H - 2}" font-size="10" fill="#5E6570">${y0}</text><text x="${W}" y="${H - 2}" font-size="10" fill="#5E6570" text-anchor="end">${y1}</text><text x="0" y="9" font-size="10" fill="#5E6570">${hi}${k === "hottest" ? " °C" : ""}</text></svg>`; };
-  let h = `<h2 id="history">${esc(title)}</h2><p>${esc(CHW.lede)}</p><p class="meta">${esc(CHW.station(S0.name, S0.valid_years, S0.of))}</p>`;
+  let h = `<h2 id="history">${esc(title)}</h2><p>${esc(CHW.lede)}</p><p class="meta">${esc(CHW.station(S0.name, S0.valid_years, S0.of, S0.km_from_centre, /international|airport/i.test(d.station.name || "")))}</p>`;
   for (const k of Object.keys(CHW.measures)) { const M = CHW.measures[k], t = S0.trends[k];
     h += `<h3>${esc(M.name)}</h3><p class="meta">${esc(M.what(thr[k]))}</p>${chart(k)}<p><strong>${esc(say(k, t))}</strong></p><p class="meta">${esc(CHW.background)}: ${esc(B.trends[k].words)}.</p>`;
     md.push(`${M.name} (${M.what(thr[k])}): ${say(k, t)} ${CHW.background}: ${B.trends[k].words}. By year: ${Y.map(y => `${y.year} ${y[k]}`).join(", ")}.`); }
   h += `<details><summary>${esc(CHW.table)}</summary><div style="overflow-x:auto"><table style="border-collapse:collapse;font-size:.875rem"><thead><tr><th scope="col" style="text-align:left;padding:4px 10px 4px 0">Year</th>${Object.values(CHW.measures).map(M => `<th scope="col" style="text-align:right;padding:4px 10px 4px 0">${esc(M.name)}</th>`).join("")}</tr></thead><tbody>${Y.map(y => `<tr><td style="padding:2px 10px 2px 0">${y.year}</td><td style="text-align:right;padding:2px 10px 2px 0">${y.warm_nights}</td><td style="text-align:right;padding:2px 10px 2px 0">${y.hot_days}</td><td style="text-align:right;padding:2px 10px 2px 0">${y.hottest} °C</td></tr>`).join("")}</tbody></table></div></details>
-      <p class="meta">${esc(CHW.caveat)} ${esc(CHW.enso)}</p><p class="src">${esc(CHW.method)} Sources: ${ext(S0.source.url, S0.source.name + ", station " + S0.id)} (${esc(S0.source.licence)}); ${ext(B.source.url, B.source.name)} (${esc(B.source.licence)}). Generated ${esc(d.generated)}.</p>`;
-  md.push(`Caveat: ${CHW.caveat} ${CHW.enso} ${CHW.method} Sources: ${S0.source.name} station ${S0.id}; ${B.source.name}.`);
+      <p class="meta">${esc(CHW.caveat)} ${esc(CHW.humidity)} ${esc(CHW.enso)}</p><p class="src">${esc(CHW.method)} Sources: ${ext(S0.source.url, S0.source.name + ", station " + S0.id)} (${esc(S0.source.licence)}); ${ext(B.source.url, B.source.name)} (${esc(B.source.licence)}). Generated ${esc(d.generated)}.</p>`;
+  md.push(`Caveat: ${CHW.caveat} ${CHW.humidity} ${CHW.enso} ${CHW.method} Sources: ${S0.source.name} station ${S0.id}; ${B.source.name}.`);
   return { html: h, md };
 }
 
