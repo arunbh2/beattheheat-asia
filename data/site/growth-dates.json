@@ -70,9 +70,9 @@
    "label": "360info, 2022",
    "root": "experience",
    "org": false,
-   "date": "2022",
-   "precision": "year",
-   "how": "label"
+   "date": "2022-02-27",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://56q2bbylxfnk.optimytool.com/fr",
@@ -4237,9 +4237,9 @@
    "label": "VnEconomy, 2026: HCMC unveils climate change response plan to 2030",
    "root": "experience",
    "org": false,
-   "date": "2026",
-   "precision": "year",
-   "how": "label"
+   "date": "2026-07-23",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://energy-base.org/wp-content/uploads/2020/03/10.CaaS_Instrument-Analysis-Paper_FINAL_09.17.19.pdf",
@@ -8032,9 +8032,9 @@
    "label": "Quezon City Government, 2026: QCPL libraries as cooling centers",
    "root": "experience",
    "org": false,
-   "date": "2026",
-   "precision": "year",
-   "how": "label"
+   "date": "2026-05-13",
+   "precision": "day",
+   "how": "meta"
   },
   {
    "url": "https://quezoncity.gov.ph/quezon-city-joins-global-effort-vs-deadly-extreme-heat/",

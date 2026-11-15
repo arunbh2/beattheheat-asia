@@ -32,10 +32,10 @@ async function outlines() {
 // 2. WorldPop: list the age-structure products and this country's entries (discover), or read the chosen entry's files (build)
 async function worldpopEntry() {
   const list = await getJSON("https://hub.worldpop.org/rest/data/age_structures");
-  log("WorldPop age_structures products:"); for (const d of list.data || []) log(`  ${d.alias}: ${d.title}`);
+  log("WorldPop age_structures products:"); for (const d of list.data || []) log(`  ${d.alias}: ${d.title || d.name || ""}`);
   if (!CFG.worldpop.alias) return null;
   const e = await getJSON(`https://hub.worldpop.org/rest/data/age_structures/${CFG.worldpop.alias}?iso3=${CFG.iso3}`);
-  for (const d of e.data || []) log(`  entry ${d.id}: ${d.title} | year ${d.popyear} | ${(d.files || []).length} files | doi ${d.doi || ""} | licence ${d.license || ""}`);
+  for (const d of e.data || []) log(`  entry ${d.id}: ${d.title} | year ${d.popyear} | ${(d.files || []).length} files | doi ${d.doi || ""} | licence ${d.license || ""} | first file ${(d.files || [])[0] || ""}`);
   return (e.data || []).find(d => String(d.id) === String(CFG.worldpop.entry)) || null;
 }
 // 3. OpenStreetMap through Overpass: health facilities (points or the centre of a shape) and park shapes
@@ -63,8 +63,12 @@ async function osm() {
 }
 // 4. rasters: geotiff, read only the window over the city
 async function raster(url, step) {
-  const { fromUrl } = await import("geotiff");
-  const img = await (await fromUrl(url)).getImage(), [ox, oy] = img.getOrigin(), [rx, ry] = img.getResolution(), b = CFG.bbox;
+  const { fromUrl, fromArrayBuffer } = await import("geotiff");
+  // read only the window over the city where the server allows partial reads; otherwise download the file whole
+  let tif; try { tif = await fromUrl(url); await tif.getImage(); } catch (e) {
+    log(`  partial reads refused (${e.message}); downloading ${path.basename(url)} whole`);
+    const r = await fetch(url, { headers: { "User-Agent": UA } }); if (!r.ok) throw new Error(`${r.status} for ${url}`); tif = await fromArrayBuffer(await r.arrayBuffer()); }
+  const img = await tif.getImage(), [ox, oy] = img.getOrigin(), [rx, ry] = img.getResolution(), b = CFG.bbox;
   const x0 = Math.max(0, Math.floor((b[0] - ox) / rx)), x1 = Math.min(img.getWidth(), Math.ceil((b[2] - ox) / rx)), y0 = Math.max(0, Math.floor((b[3] - oy) / ry)), y1 = Math.min(img.getHeight(), Math.ceil((b[1] - oy) / ry));
   const w = x1 - x0, h = y1 - y0, sw = step ? Math.ceil(w / step) : w, sh = step ? Math.ceil(h / step) : h;
   const data = (await img.readRasters({ window: [x0, y0, x1, y1], samples: [0], width: sw, height: sh, resampleMethod: "nearest" }))[0];
@@ -90,8 +94,10 @@ function assign(gr, districts) { const find = G.index(districts), out = new Int1
   if (!wp) throw new Error("set worldpop.alias and worldpop.entry in tools/city-districts/cities.json from a discover run first");
   const D = O.districts, n = D.length, R = D.map(d => ({ id: d.id, name: d.name, area_km2: +G.multiKm2(d.multi).toFixed(2), residents: 0, older: 0, hospitals: 0, clinics: 0, cells: 0, built: 0, park: 0 }));
   // residents and 65+: every age and sex band on one shared grid
-  const files = (wp.files || []).filter(f => /_(f|m)_\d+_/.test(f) && /\.tif$/.test(f)), band = f => +f.match(/_(?:f|m)_(\d+)_/)[1];
-  if (files.length < 30) throw new Error("expected about 36 age and sex rasters, found " + files.length);
+  // both sexes together ("_t_"), one raster per age band (00, 01, 05 ... 90); 65 and over are the bands from 65 up
+  const files = (wp.files || []).filter(f => /_t_\d+_/.test(f) && /\.tif$/.test(f)), band = f => +f.match(/_t_(\d+)_/)[1];
+  if (files.length < 15) throw new Error("expected about 20 age-band rasters for both sexes, found " + files.length);
+  log(`WorldPop: ${files.length} age bands, ${files.filter(f => band(f) >= 65).length} of them 65 and over`);
   let grid = null, owner = null, inCity = 0;
   for (const f of files) { const r = await raster(f, 0); if (!grid) { grid = r; owner = assign(r, D); }
     if (r.w !== grid.w || r.h !== grid.h) throw new Error("WorldPop rasters do not share one grid: " + f);
@@ -106,7 +112,7 @@ function assign(gr, districts) { const find = G.index(districts), out = new Int1
   const out = { city: CITY, name: CFG.name, generated: new Date().toISOString().slice(0, 10), parent: O.parent,
     sources: [
       { id: "outlines", name: "geoBoundaries district outlines (ADM2)", source: O.meta.source, licence: O.meta.licence, year: O.meta.year, url: O.meta.url },
-      { id: "worldpop", name: wp.title, year: wp.popyear, licence: wp.license || "CC BY 4.0", doi: wp.doi || "", url: `https://hub.worldpop.org/geodata/summary?id=${wp.id}` },
+      { id: "worldpop", name: `WorldPop, Global2 constrained age and sex structures, ${CFG.worldpop.alias.includes("R25A") ? "release R2025A" : CFG.worldpop.alias}, 100 m: ${wp.title}`, year: wp.popyear, licence: "CC BY 4.0", doi: wp.doi || "", url: `https://hub.worldpop.org/geodata/summary?id=${wp.id}` },
       { id: "worldcover", name: "ESA WorldCover 10 m 2021 v200 (built from Copernicus Sentinel-1 and Sentinel-2 data)", year: 2021, licence: "CC BY 4.0", url: "https://esa-worldcover.org/" },
       { id: "osm", name: "OpenStreetMap contributors, through the Overpass API", year: o.when, licence: "ODbL 1.0", url: "https://www.openstreetmap.org/copyright" }],
     districts: R.map(r => ({ id: r.id, name: r.name, area_km2: r.area_km2, residents: Math.round(r.residents), older_pct: r.residents ? +(100 * r.older / r.residents).toFixed(1) : null,
@@ -115,4 +121,4 @@ function assign(gr, districts) { const find = G.index(districts), out = new Int1
   fs.mkdirSync(path.join(ROOT, "data", "city-districts"), { recursive: true });
   fs.writeFileSync(path.join(ROOT, "data", "city-districts", CITY + ".json"), JSON.stringify(out, null, 1) + "\n");
   log(`wrote data/city-districts/${CITY}.json: ${n} districts, ${out.totals.residents_in_districts} residents`);
-})().catch(e => { console.error("FAILED: " + e.message); process.exit(1); });
+})().catch(e => { console.error("FAILED: " + (e.stack || e.message)); process.exit(1); });

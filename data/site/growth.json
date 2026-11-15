@@ -714,6 +714,18 @@
       "links": [{ "to": "lever:hap", "why": "Each new city's page records where its heat plan stands.", "basis": "record" }]
     },
     {
+      "id": "g-city-brief-districts", "kind": "tool", "root": "institutions", "added": "2026-11-15", "pr": null,
+      "title": "A heat briefing on every city page, and Bangkok's 50 districts side by side",
+      "why": "Every city page now says what a checked study finds heat costs there, or that no checked estimate has been found yet, and lists the actions that could break its vicious cycles by how soon they could act; Bangkok's page also shows its districts side by side, from modelled residents and ages to mapped hospitals, built-up ground and park area, with each figure's limits beside it.",
+      "places": ["region", "thailand"], "people": ["older"], "topics": ["hap", "coolbydesign"],
+      "event": { "what": "City briefing and district picture added", "date": "2026-11-15" },
+      "review": "District outlines, WorldPop, ESA WorldCover and OpenStreetMap read on GitHub by a job anyone can rerun; district areas add up to within half a percent of Bangkok's area; an independent review led to clinics being left out and stronger wording on modelled residents and park area",
+      "effort": { "asked": "Inside a city, where do many people, and many older people, live with little park space, much built-up ground and few hospitals nearby?", "inbox": "data/inbox/2026-11-city-heat", "dropped": "research/2026-11/city-heat/BUILD_BRIEF.md",
+                  "open": "Which other cities have open district outlines good enough to repeat this." },
+      "pages": [["/cities/bangkok/", "Bangkok"]], "action": ["See Bangkok's districts", "/cities/bangkok/#districts"],
+      "links": [{ "to": "lever:coolbydesign", "why": "Built-up ground and park area are what cooler design changes.", "basis": "editorial" }]
+    },
+    {
       "id": "g-heat-signals-asia-2026", "kind": "connection", "root": "evidence", "added": "2026-11-15", "pr": null,
       "title": "New signals from Asia on heat at work, and lessons on heat insurance on the map",
       "why": "Signals now follow Singapore's mandatory heat measures, the Philippines' new heat stress and compensation guidelines, South Korea's first emergency heatwave warning, a survey of outdoor workers in Viet Nam and the World Bank's report on heat in South Asia's cities. Income protection on the map now notes two lessons from India's first heat insurance for informal women workers.",

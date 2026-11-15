@@ -33,3 +33,5 @@ jobs:
         run: node tools/check-colours.js
       - name: City heat estimate (formula against its checked source, worked values, city pages)
         run: node tools/check-city-heat.js
+      - name: City districts (geometry tests and the district files)
+        run: node tools/check-city-districts.js

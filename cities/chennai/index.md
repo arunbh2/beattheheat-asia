@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in Chennai: plans, cycles and who is at work | Common Shade"
 url: https://beattheheat.asia/cities/chennai/
-updated: 2026-10-01
+updated: 2026-11-15
 licence: CC BY 4.0
 ---
 
@@ -37,6 +37,20 @@ Researchers comparing methods recommend a fuller calculation for outdoor work, w
 Sources: [Australian Bureau of Meteorology: Thermal comfort observations, about the approximation to the WBGT](http://www.bom.gov.au/info/thermal_stress/) · [Lemke and Kjellstrom, 2012: Calculating workplace WBGT from meteorological data, Industrial Health](https://www.jstage.jst.go.jp/article/indhealth/50/4/50_MS1352/_pdf) · [Weather data by Open-Meteo.com](https://open-meteo.com/)
 
 The week’s forecast is on [the interactive map](https://beattheheat.asia/#city-chennai). How much climate change shaped today’s heat: [Climate Shift Index map, Climate Central](https://csi.climatecentral.org/).
+
+## What heat costs here, and what could be done
+
+### What a checked study says heat costs here
+
+No checked estimate found yet for this city.
+
+### What could be done
+
+Actions that break the vicious cycles tied to this city, grouped by how soon they could act. Options, not instructions; each links to its evidence and to any side effects to watch for.
+
+**This hot season:** [Heat action plans](https://beattheheat.asia/actions/#hap) · [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics) · [Heat-safe work](https://beattheheat.asia/actions/#heatrules) · [Cool nights and support](https://beattheheat.asia/actions/#coolnights)
+
+**Over the next few years:** [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash) (watch for side effects) · [Social protection floors](https://beattheheat.asia/actions/#socialprotection)
 
 ## Vicious cycles the evidence ties to Chennai
 

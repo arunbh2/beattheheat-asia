@@ -40,6 +40,20 @@ Sources: [Australian Bureau of Meteorology: Thermal comfort observations, about 
 
 The week’s forecast is on [the interactive map](https://beattheheat.asia/#city-jakarta). How much climate change shaped today’s heat: [Climate Shift Index map, Climate Central](https://csi.climatecentral.org/).
 
+## What heat costs here, and what could be done
+
+### What a checked study says heat costs here
+
+No checked estimate found yet for this city.
+
+### What could be done
+
+Actions that break the vicious cycles tied to this city, grouped by how soon they could act. Options, not instructions; each links to its evidence and to any side effects to watch for.
+
+**Over the next few years:** [Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool) · [Fire-smart landscapes](https://beattheheat.asia/actions/#firesmart) · [Keep city trees alive](https://beattheheat.asia/actions/#keepgreen)
+
+**Over a decade:** [Deep emission cuts](https://beattheheat.asia/actions/#emissions)
+
 ## Vicious cycles the evidence ties to Jakarta
 
 ### [The global cooling loop](https://beattheheat.asia/loops/#global)
