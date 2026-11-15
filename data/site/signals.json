@@ -72,6 +72,18 @@
    ]
   },
   {
+   "id": "sig-cop31-antalya-compact-2026", "group": "cop31", "kind": "commitment", "date": "2026-10-29",
+   "title": "The Antalya Compact for Energy Efficient Buildings opens for endorsement",
+   "summary": "Ahead of the conference, the COP31 Presidency launched the Antalya Compact for Energy Efficient Buildings, which aims for a 25% cut in the operational energy intensity of buildings worldwide by 2035, compared with 2020. Its actions include stronger energy codes, faster renovation and the electrification of heating and cooling. It covers buildings and energy as a whole, not heat alone; it bears on heat because cooler, more efficient buildings ease the indoor heat people live and work in, and the cost of cooling them.",
+   "who": "COP31 Presidency", "places": ["region"], "levers": ["coolbydesign", "cleancool"],
+   "stage": "announced", "history": [{ "date": "2026-10-29", "stage": "announced", "note": "Launched by the COP31 Presidency ahead of the conference and opened for endorsement by all Parties" }],
+   "next": "Adopted: countries endorsing the Compact, and building codes in South and Southeast Asia that name cooling and indoor heat.",
+   "sources": [
+    { "label": "COP31 Presidency, 2026: COP31 launches Antalya Compact for Energy Efficient Buildings", "url": "https://cop31.tr/news-detail/cop31-launches-antalya-compact-for-energy-efficient-buildings" },
+    { "label": "LexisNexis, 2026: COP31 Presidency launches Antalya Compact for energy efficient buildings", "url": "https://www.lexisnexis.co.uk/legal/news/cop31-presidency-launches-antalya-compact-for-energy-efficient-buildings" }
+   ]
+  },
+  {
    "id": "sig-cop31-health-theme-2026", "group": "cop31", "kind": "commitment", "date": "2026",
    "title": "The presidency's health theme: Dynamic and Resilient Health Systems",
    "summary": "The COP31 presidency's action agenda includes a theme on Dynamic and Resilient Health Systems, which prioritises health systems that can anticipate, respond to and recover from climate-related shocks through preparedness, surveillance and resilient infrastructure. Unlike many other themes, it carries no numerical target for 2035.",

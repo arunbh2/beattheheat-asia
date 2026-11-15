@@ -1,0 +1,30 @@
+{
+ "_terms": {
+  "https://cop31.tr/news-detail/cop31-launches-antalya-compact-for-energy-efficient-buildings": {
+   "Antalya Compact": true,
+   "buildings": true
+  },
+  "https://www.lexisnexis.co.uk/legal/news/cop31-presidency-launches-antalya-compact-for-energy-efficient-buildings": {
+   "2035": true,
+   "Antalya Compact": true
+  },
+  "https://energydigital.com/news/cop31-turkiye-tables-energy-efficient-buildings-framework": {
+   "Antalya Compact": false,
+   "cooling": false
+  },
+  "https://coolcoalition.org/media-center/events/resilient-cities-buildings-and-cooling-pavilion/cool-coalition-cop31": {
+   "Cooling Ministerial": false,
+   "Heat Resilience Roadmap": false,
+   "COP32": false
+  },
+  "https://www.unep.org/en/events/conference/unep-un-climate-change-conference-unfccc-cop-31": {
+   "Cooling Ministerial": true,
+   "16 November": true
+  }
+ },
+ "https://cop31.tr/news-detail/cop31-launches-antalya-compact-for-energy-efficient-buildings": "OK",
+ "https://www.lexisnexis.co.uk/legal/news/cop31-presidency-launches-antalya-compact-for-energy-efficient-buildings": "OK",
+ "https://energydigital.com/news/cop31-turkiye-tables-energy-efficient-buildings-framework": "BLOCKED",
+ "https://coolcoalition.org/media-center/events/resilient-cities-buildings-and-cooling-pavilion/cool-coalition-cop31": "BLOCKED",
+ "https://www.unep.org/en/events/conference/unep-un-climate-change-conference-unfccc-cop-31": "OK"
+}

@@ -17,9 +17,9 @@ The ladder
 
 ## From promise to proof
 
-Of the 14 commitments tracked so far, 2 have been delivered and none has been evaluated. The furthest any has climbed is "Delivered".
+Of the 15 commitments tracked so far, 2 have been delivered and none has been evaluated. The furthest any has climbed is "Delivered".
 
-- 2
+- 3
 **1. Announced**Said in public. A weak signal on its own: announcements happen whether or not anything follows.
 - 6
 **2. Adopted**Made formal: a plan approved, a rule changed, an office set up.
@@ -108,6 +108,25 @@ Actions it touches[Heat-ready health services](https://beattheheat.asia/actions/
 Sources[World Health Organization: WHO COP31 climate change and health brief, 2026](https://cdn.who.int/media/docs/default-source/climate-change/who-cop31-cch-brief.pdf)
 [Health Policy Watch, 2026: 'Declarations do not protect people': COP31 opens under pressure to deliver results over words](https://healthpolicy-watch.news/declarations-do-not-protect-people-cop31-opens-under-pressure-to-deliver-results-over-words/)
 [UN News, 2026: COP31 opens in Antalya: Can climate promises finally deliver results?](https://news.un.org/en/story/2026/11/1168763)
+
+Commitment29 October 2026
+
+### The Antalya Compact for Energy Efficient Buildings opens for endorsement
+
+COP31 Presidency
+
+Ahead of the conference, the COP31 Presidency launched the Antalya Compact for Energy Efficient Buildings, which aims for a 25% cut in the operational energy intensity of buildings worldwide by 2035, compared with 2020. Its actions include stronger energy codes, faster renovation and the electrification of heating and cooling. It covers buildings and energy as a whole, not heat alone; it bears on heat because cooler, more efficient buildings ease the indoor heat people live and work in, and the cost of cooling them.
+
+What would move it upAdopted: countries endorsing the Compact, and building codes in South and Southeast Asia that name cooling and indoor heat.
+
+How it has moved
+
+- 29 October 2026 **Announced** Launched by the COP31 Presidency ahead of the conference and opened for endorsement by all Parties
+
+Actions it touches[Cool by design](https://beattheheat.asia/actions/#coolbydesign)[Clean, efficient cooling](https://beattheheat.asia/actions/#cleancool)
+
+Sources[COP31 Presidency, 2026: COP31 launches Antalya Compact for Energy Efficient Buildings](https://cop31.tr/news-detail/cop31-launches-antalya-compact-for-energy-efficient-buildings)
+[LexisNexis, 2026: COP31 Presidency launches Antalya Compact for energy efficient buildings](https://www.lexisnexis.co.uk/legal/news/cop31-presidency-launches-antalya-compact-for-energy-efficient-buildings)
 
 FindingOctober 2026
 
