@@ -64,6 +64,13 @@
     <summary>The Bangkok and Kolkata pages now show how each city's own weather station record has changed since 1991: nights and days in the hottest tenth for that place, and the hottest day of each year, with a trend only where a test finds one and a regional model line beside it for context. Cities without a long enough station record show no trend.</summary>
   </entry>
   <entry>
+    <title>Heat over time on every city page, with a check for changes at the station</title>
+    <link href="https://beattheheat.asia/growing/#g-city-heat-history-all" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-city-heat-history-all</id>
+    <updated>2026-11-15T00:00:00Z</updated>
+    <summary>Every city page now carries Heat over time: from a weather station record near the centre where one is complete enough, and otherwise saying that no station record complete enough has been found yet. A new check compares each station with the regional model and withdraws a trend where the record shifts in a way that points to a change at the station, so a move or new instruments is not shown as a change in the weather.</summary>
+  </entry>
+  <entry>
     <title>The heat network can be narrowed by place, action and part played</title>
     <link href="https://beattheheat.asia/growing/#g-heat-network-finder" rel="alternate" type="text/html"/>
     <id>https://beattheheat.asia/growing/#g-heat-network-finder</id>
@@ -209,12 +216,5 @@
     <id>https://beattheheat.asia/growing/#g-news-to-evidence</id>
     <updated>2026-11-07T00:00:00Z</updated>
     <summary>Coverage and checked evidence are easy to confuse. Every paper on the news page now goes through the weekly evidence review, and each item shows whether it is on the Evidence map, in review, set aside or still waiting.</summary>
-  </entry>
-  <entry>
-    <title>Every open question now carries its own dated history</title>
-    <link href="https://beattheheat.asia/growing/#g-question-history" rel="alternate" type="text/html"/>
-    <id>https://beattheheat.asia/growing/#g-question-history</id>
-    <updated>2026-11-07T00:00:00Z</updated>
-    <summary>A question that moves is easier to trust than one that simply changes. Each step now shows when it happened, what moved it and which records did, and advanced is never shown as answered.</summary>
   </entry>
 </feed>

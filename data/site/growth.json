@@ -749,6 +749,18 @@
                   "open": "Which other cities have a station record complete enough to repeat this." },
       "pages": [["/cities/bangkok/", "Bangkok"], ["/cities/kolkata/", "Kolkata"]], "action": ["See Bangkok's heat over time", "/cities/bangkok/#history"],
       "links": [{ "to": "lever:anticipatory", "why": "More warm nights and hot days are what early warning is planned around.", "basis": "editorial" }]
+    },
+    {
+      "id": "g-city-heat-history-all", "kind": "tool", "root": "evidence", "added": "2026-11-15", "pr": null,
+      "title": "Heat over time on every city page, with a check for changes at the station",
+      "why": "Every city page now carries Heat over time: from a weather station record near the centre where one is complete enough, and otherwise saying that no station record complete enough has been found yet. A new check compares each station with the regional model and withdraws a trend where the record shifts in a way that points to a change at the station, so a move or new instruments is not shown as a change in the weather.",
+      "places": ["region", "india", "thailand", "philippines", "indonesia", "singapore"], "people": ["older", "workers"], "topics": ["anticipatory", "coolbydesign"],
+      "event": { "what": "Heat over time extended", "date": "2026-11-15" },
+      "review": "Daily station records read from NOAA on GitHub by a job anyone can rerun; an independent review set the check for changes at the station, and that check led to a correction on the Bangkok page",
+      "effort": { "asked": "Which cities have a station record long and steady enough to show how their heat has changed?", "inbox": "data/inbox/2026-11-city-heat", "dropped": "research/2026-11/city-heat/BUILD_BRIEF.md",
+                  "open": "Records for Ahmedabad, Chattogram, Colombo, Dhaka, Kathmandu, Phnom Penh, Quezon City and Surabaya; whether national weather services publish longer series than NOAA holds." },
+      "pages": [["/cities/", "Cities"], ["/corrections/", "Corrections"]], "action": ["See the cities", "/cities/"],
+      "links": [{ "to": "lever:anticipatory", "why": "More warm nights and hot days are what early warning is planned around.", "basis": "editorial" }]
     }
   ]
 }

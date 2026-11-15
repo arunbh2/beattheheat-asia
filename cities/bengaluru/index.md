@@ -38,6 +38,73 @@ Sources: [Australian Bureau of Meteorology: Thermal comfort observations, about 
 
 The week’s forecast is on [the interactive map](https://beattheheat.asia/#city-bengaluru). How much climate change shaped today’s heat: [Climate Shift Index map, Climate Central](https://csi.climatecentral.org/).
 
+## Heat over time, 1991 to 2025
+
+How this city's heat has changed against its own past, year by year: nights and days hotter than this place's hottest tenth since the record began, and the hottest day of each year.
+
+From the daily record of the Bangalore weather station, about 1 km from the city centre, as summarised by NOAA from the station's own reports (29 of 35 years complete enough to count; the rest are left out as gaps).
+
+### Warm nights
+
+nights warmer than 22.1 °C, the warmest tenth of nights here
+
+**a clear rise: about 6 more nights a decade (95% range 0 to 11 a decade).**
+
+The model reconstruction for the surrounding region (ERA5-Land, which has no buildings or paved ground and so leaves out the city's own heat): no clear change.
+
+### Hot days
+
+days hotter than 34.4 °C, the hottest tenth of days here
+
+**leaning upward, not clear: about 6 more days a decade (95% range -1 to 14 a decade).**
+
+The model reconstruction for the surrounding region (ERA5-Land, which has no buildings or paved ground and so leaves out the city's own heat): no clear change.
+
+### Hottest day of the year
+
+the highest daily maximum recorded in each year
+
+**no clear change.**
+
+The model reconstruction for the surrounding region (ERA5-Land, which has no buildings or paved ground and so leaves out the city's own heat): no clear change.
+
+The figures year by year
+
+Year | Warm nights | Hot days | Hottest day of the year |
+1991 | 32 | 33 | 36.6 °C |
+1993 | 30 | 30 | 37.8 °C |
+1994 | 29 | 34 | 38.5 °C |
+1995 | 20 | 10 | 38.3 °C |
+1997 | 18 | 16 | 36.4 °C |
+1998 | 56 | 48 | 37.4 °C |
+1999 | 16 | 25 | 38.4 °C |
+2000 | 17 | 17 | 37.7 °C |
+2001 | 33 | 20 | 36.5 °C |
+2002 | 44 | 35 | 36.5 °C |
+2003 | 54 | 47 | 38.1 °C |
+2004 | 27 | 28 | 37 °C |
+2005 | 30 | 27 | 37.4 °C |
+2006 | 27 | 18 | 37 °C |
+2007 | 32 | 35 | 38 °C |
+2008 | 17 | 30 | 36.9 °C |
+2009 | 26 | 37 | 37 °C |
+2010 | 43 | 40 | 37.6 °C |
+2012 | 38 | 55 | 37.5 °C |
+2013 | 46 | 59 | 37.6 °C |
+2014 | 47 | 62 | 36.7 °C |
+2015 | 31 | 23 | 36.5 °C |
+2016 | 65 | 56 | 39.2 °C |
+2017 | 43 | 58 | 37.2 °C |
+2018 | 31 | 11 | 35.2 °C |
+2019 | 60 | 56 | 37 °C |
+2020 | 42 | 33 | 36.4 °C |
+2022 | 28 | 26 | 36.7 °C |
+2023 | 47 | 28 | 38.6 °C |
+
+A single station shows how one site has changed against its own past. Each count is measured against this station's own record, so it is not a comparison between cities, and the station may sit at an airport or in open ground, so streets nearby can be hotter. Warm nights at a station can also rise as the city grows around it, which is part of the city's own heat. Humidity is not included, so these figures show temperature alone; in humid cities the heat felt in the body can rise even where temperature changes little. Strong El Niño years, such as 2016 and 2023 to 2024, bring hotter years in much of the region, and warm years near the end of a record tilt a trend upward.
+
+Trend: Sen's slope with its 95% range, and a Mann-Kendall test: "a clear rise" where the test is under 5%, "leaning upward, not clear" between 5% and 20%, otherwise "no clear change". Index definitions follow the ETCCDI (TN90p, TX90p, TXx), counted against this city's whole record. A change at the station is checked by comparing its yearly mean maximum and minimum with the regional model: for daily maxima, a step of at least 0.5 °C (Pettitt's test under 1%) means hot days and the hottest day show no trend; for minima, the same step (test under 5%) withdraws warm nights only where it fits clearly better than a steady drift, because nights warm gradually as a city grows. Sources: [NOAA Global Surface Summary of the Day (GSOD), station gsod:43295099999](https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-summary-of-the-day&stations=43295099999&dataTypes=MAX,MIN&startDate=1991-01-01&endDate=2025-12-31&units=metric&format=json&includeStationName=true&includeStationLocation=1) (Public domain (US Government work)); [Open-Meteo Historical Weather API, ERA5-Land reanalysis (Copernicus Climate Change Service)](https://open-meteo.com/en/docs/historical-weather-api) (CC BY 4.0). Generated 2026-11-15.
+
 ## What heat costs here, and what could be done
 
 ### What a checked study says heat costs here

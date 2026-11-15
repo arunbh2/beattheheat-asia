@@ -1,7 +1,7 @@
 ---
 title: "Corrections"
 url: https://beattheheat.asia/corrections/
-updated: 2026-11-07
+updated: 2026-11-15
 licence: CC BY 4.0
 ---
 
@@ -34,6 +34,14 @@ The page changes, the change is listed below, and older figures are kept as supe
 [Suggest a correction](https://beattheheat.asia/join/#join-form)
 
 ## What we have corrected
+
+- 15 November 2026 · Bangkok city page (Heat over time)
+
+**What was wrong.** For part of a day, the Bangkok page said its weather station shows a clear rise in hot days and in the hottest day of each year.
+
+**What changed.** A new check compares each station with the regional model. Bangkok's daytime record shifts by about 0.7 °C against the model from 2006, which points to a change at the station rather than in the weather, so hot days and the hottest day now show their chart with no trend. The station's readings are not in doubt, and the rise in warm nights still stands.
+
+We are sorry. A trend that cannot be told apart from a change at the station was shown as a clear rise before that check existed.
 
 - 7 November 2026 · Cooling centres and check-ins (an action on the map), Affordable cooling for the poorest (an action on the map)
 

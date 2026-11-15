@@ -38,6 +38,76 @@ Sources: [Australian Bureau of Meteorology: Thermal comfort observations, about 
 
 The week’s forecast is on [the interactive map](https://beattheheat.asia/#city-hochiminh). How much climate change shaped today’s heat: [Climate Shift Index map, Climate Central](https://csi.climatecentral.org/).
 
+## Heat over time, 1991 to 2025
+
+How this city's heat has changed against its own past, year by year: nights and days hotter than this place's hottest tenth since the record began, and the hottest day of each year.
+
+From the daily record of the Tansonnhat International weather station, an airport about 2 km from the city centre, as summarised by NOAA from the station's own reports (32 of 35 years complete enough to count; the rest are left out as gaps).
+
+### Warm nights
+
+nights warmer than 26 °C, the warmest tenth of nights here
+
+**no trend shown: the station's record shifts by about 1.0 °C against the regional model from 2014, which points to a change at the station (a move, new instruments or a change in reporting) rather than in the weather.**
+
+The model reconstruction for the surrounding region (ERA5-Land, which has no buildings or paved ground and so leaves out the city's own heat): a clear rise.
+
+### Hot days
+
+days hotter than 35.2 °C, the hottest tenth of days here
+
+**no clear change.**
+
+The model reconstruction for the surrounding region (ERA5-Land, which has no buildings or paved ground and so leaves out the city's own heat): no clear change.
+
+### Hottest day of the year
+
+the highest daily maximum recorded in each year
+
+**leaning downward, not clear: about 0.3 °C cooler a decade (95% range -0.7 to 0.0 a decade).**
+
+The model reconstruction for the surrounding region (ERA5-Land, which has no buildings or paved ground and so leaves out the city's own heat): no clear change.
+
+The figures year by year
+
+Year | Warm nights | Hot days | Hottest day of the year |
+1991 | 19 | 28 | 39.4 °C |
+1992 | 26 | 38 | 38.4 °C |
+1993 | 14 | 23 | 36.6 °C |
+1994 | 6 | 30 | 38.1 °C |
+1995 | 25 | 36 | 39.8 °C |
+1996 | 15 | 21 | 37.6 °C |
+1997 | 13 | 24 | 37.5 °C |
+1998 | 55 | 101 | 39.4 °C |
+1999 | 2 | 13 | 37.1 °C |
+2000 | 4 | 5 | 35.5 °C |
+2001 | 29 | 37 | 37.5 °C |
+2002 | 42 | 66 | 38.5 °C |
+2003 | 20 | 64 | 38.4 °C |
+2004 | 24 | 52 | 38.5 °C |
+2005 | 18 | 58 | 38.2 °C |
+2006 | 4 | 33 | 37.2 °C |
+2007 | 14 | 38 | 37.8 °C |
+2008 | 5 | 8 | 37.2 °C |
+2009 | 2 | 25 | 37.1 °C |
+2010 | 33 | 69 | 38.7 °C |
+2011 | 0 | 13 | 36.4 °C |
+2012 | 7 | 27 | 36.5 °C |
+2013 | 23 | 33 | 38 °C |
+2014 | 34 | 53 | 38 °C |
+2015 | 57 | 39 | 38 °C |
+2016 | 69 | 50 | 38 °C |
+2017 | 40 | 9 | 37 °C |
+2018 | 40 | 17 | 37 °C |
+2019 | 73 | 38 | 38 °C |
+2020 | 70 | 48 | 38 °C |
+2022 | 45 | 10 | 36 °C |
+2023 | 84 | 33 | 38 °C |
+
+A single station shows how one site has changed against its own past. Each count is measured against this station's own record, so it is not a comparison between cities, and the station may sit at an airport or in open ground, so streets nearby can be hotter. Warm nights at a station can also rise as the city grows around it, which is part of the city's own heat. Humidity is not included, so these figures show temperature alone; in humid cities the heat felt in the body can rise even where temperature changes little. Strong El Niño years, such as 2016 and 2023 to 2024, bring hotter years in much of the region, and warm years near the end of a record tilt a trend upward.
+
+Trend: Sen's slope with its 95% range, and a Mann-Kendall test: "a clear rise" where the test is under 5%, "leaning upward, not clear" between 5% and 20%, otherwise "no clear change". Index definitions follow the ETCCDI (TN90p, TX90p, TXx), counted against this city's whole record. A change at the station is checked by comparing its yearly mean maximum and minimum with the regional model: for daily maxima, a step of at least 0.5 °C (Pettitt's test under 1%) means hot days and the hottest day show no trend; for minima, the same step (test under 5%) withdraws warm nights only where it fits clearly better than a steady drift, because nights warm gradually as a city grows. Sources: [NOAA Global Surface Summary of the Day (GSOD), station gsod:48900099999](https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-summary-of-the-day&stations=48900099999&dataTypes=MAX,MIN&startDate=1991-01-01&endDate=2025-12-31&units=metric&format=json&includeStationName=true&includeStationLocation=1) (Public domain (US Government work)); [Open-Meteo Historical Weather API, ERA5-Land reanalysis (Copernicus Climate Change Service)](https://open-meteo.com/en/docs/historical-weather-api) (CC BY 4.0). Generated 2026-11-15.
+
 ## What heat costs here, and what could be done
 
 ### What a checked study says heat costs here
