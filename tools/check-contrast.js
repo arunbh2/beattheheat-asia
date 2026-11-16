@@ -12,12 +12,13 @@ const BASE = a.includes("--base") ? a[a.indexOf("--base") + 1] : "http://localho
 const urls = [...fs.readFileSync(path.join(ROOT, "sitemap.xml"), "utf8").matchAll(/<loc>https:\/\/beattheheat\.asia([^<]*)<\/loc>/g)].map(m => m[1]).filter(u => u.endsWith("/") && !u.startsWith("/print/"));
 const lum = c => { const v = c.slice(0, 3).map(x => { x /= 255; return x <= .03928 ? x / 12.92 : Math.pow((x + .055) / 1.055, 2.4); }); return .2126 * v[0] + .7152 * v[1] + .0722 * v[2]; };
 const ratio = (x, y) => { const p = lum(x), q = lum(y); return (Math.max(p, q) + .05) / (Math.min(p, q) + .05); };
+const unopened = [];   // pages that did not load: a stopped server must fail the check, never pass it with nothing measured
 (async () => {
   const b = await chromium.launch(), c = await b.newContext({ viewport: { width: 390, height: 844 }, reducedMotion: "reduce" });
   await c.addInitScript(() => { try { sessionStorage.setItem("cs-invite-seen", "1"); } catch (e) {} });
   const p = await c.newPage(), fails = []; let measured = 0, sampled = 0;
   for (const u of urls) {
-    try { await p.goto(BASE + u, { waitUntil: "load", timeout: 30000 }); await p.waitForTimeout(150); } catch (e) { continue; }
+    try { await p.goto(BASE + u, { waitUntil: "load", timeout: 30000 }); await p.waitForTimeout(150); } catch (e) { unopened.push(u); continue; }
     const r = await p.evaluate(() => {
       const parse = s => { const m = s.match(/rgba?\(([\d.]+),\s*([\d.]+),\s*([\d.]+)(?:,\s*([\d.]+))?\)/); if (m) return [+m[1], +m[2], +m[3], m[4] === undefined ? 1 : +m[4]];
         const n = s.match(/color\(srgb ([\d.]+) ([\d.]+) ([\d.]+)(?: \/ ([\d.]+))?\)/); return n ? [n[1] * 255, n[2] * 255, n[3] * 255, n[4] === undefined ? 1 : +n[4]] : null; };
@@ -61,6 +62,7 @@ const ratio = (x, y) => { const p = lum(x), q = lum(y); return (Math.max(p, q) +
   }
   await b.close();
   if (a.includes("--list") || fails.length) console.log(fails.map(x => "  FAIL " + x).join("\n"));
+  if (unopened.length) { await b.close().catch(() => {}); console.log(`${unopened.length === urls.length ? "No page could be opened" : unopened.length + " of " + urls.length + " pages could not be opened"} at ${BASE}${unopened.length < urls.length ? " (" + unopened.slice(0, 5).join(", ") + (unopened.length > 5 ? ", ..." : "") + ")" : ""}. Start the local server from the repository root with python3 -m http.server 8765, or run node tools/check-all.js, which starts it.`); process.exit(1); }
   console.log(fails.length ? `contrast check: ${fails.length} text element(s) below WCAG AA` : `contrast check passed: ${measured} text elements on ${urls.length} pages meet WCAG AA (${sampled} measured from pixels)`);
   process.exit(fails.length ? 1 : 0);
 })();

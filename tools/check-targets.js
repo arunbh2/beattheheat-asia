@@ -13,12 +13,13 @@ const ROOT = path.join(__dirname, ".."), a = process.argv.slice(2);
 const BASE = a.includes("--base") ? a[a.indexOf("--base") + 1] : "http://localhost:8765";
 const only = a.includes("--page") ? a[a.indexOf("--page") + 1] : null;
 const urls = only ? [only] : [...fs.readFileSync(path.join(ROOT, "sitemap.xml"), "utf8").matchAll(/<loc>https:\/\/beattheheat\.asia([^<]*)<\/loc>/g)].map(m => m[1]).filter(u => u.endsWith("/") && !u.startsWith("/print/"));
+const unopened = [];   // pages that did not load: a stopped server must fail the check, never pass it with nothing measured
 (async () => {
   const b = await chromium.launch(), c = await b.newContext({ viewport: { width: 390, height: 844 }, hasTouch: true, isMobile: true, reducedMotion: "reduce" });
   await c.addInitScript(() => { try { sessionStorage.setItem("cs-invite-seen", "1"); } catch (e) {} });
   const p = await c.newPage(), fails = []; let checked = 0, small = 0;
   for (const u of urls) {
-    try { await p.goto(BASE + u, { waitUntil: "load", timeout: 30000 }); await p.waitForTimeout(150); } catch (e) { continue; }
+    try { await p.goto(BASE + u, { waitUntil: "load", timeout: 30000 }); await p.waitForTimeout(150); } catch (e) { unopened.push(u); continue; }
     const r = await p.evaluate(() => {
       const TEXT = /^(P|LI|SPAN|SMALL|FIGCAPTION|TD|DD|DT|EM|B|STRONG|CITE|Q|LABEL|BLOCKQUOTE)$/;
       const inSentence = e => { const s = getComputedStyle(e).display; if (!/^inline/.test(s) || /flex|grid/.test(s)) return false; let t = e.parentElement; if (t && t.tagName === "SUP") t = t.parentElement;   // a footnote number inside a sentence
@@ -49,6 +50,7 @@ const urls = only ? [only] : [...fs.readFileSync(path.join(ROOT, "sitemap.xml"),
   }
   await b.close();
   if (fails.length) console.log(fails.map(x => "  FAIL " + x).join("\n") + "\n  fix: give it a tap area of at least 24px, with min-height or an invisible ::after layer (position: absolute; inset: -10px -4px), as in styles.css \"Tap areas\"");
+  if (unopened.length) { await b.close().catch(() => {}); console.log(`${unopened.length === urls.length ? "No page could be opened" : unopened.length + " of " + urls.length + " pages could not be opened"} at ${BASE}${unopened.length < urls.length ? " (" + unopened.slice(0, 5).join(", ") + (unopened.length > 5 ? ", ..." : "") + ")" : ""}. Start the local server from the repository root with python3 -m http.server 8765, or run node tools/check-all.js, which starts it.`); process.exit(1); }
   console.log(fails.length ? `target check: ${fails.length} touch target(s) under 24px and too close to their neighbours` : `target check passed: ${checked} standalone touch targets on ${urls.length} page(s) meet WCAG 2.2 target size (${small} under 24px are spaced far enough apart)`);
   process.exit(fails.length ? 1 : 0);
 })();
