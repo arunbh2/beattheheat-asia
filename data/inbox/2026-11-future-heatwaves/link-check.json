@@ -31,10 +31,20 @@
    "heatwaves": true,
    "pmcid": true,
    "well outside the recent lived experience": true
+  },
+  "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13740290/fullTextXML": {
+   "2019": true,
+   "Recent extreme heatwaves are no match for future events": true,
+   "India & Pakistan": true,
+   "between 6% and 11% of projected": true,
+   "1-in-5 heatwaves in Europe and India & Pakistan": true,
+   "even when strong": true,
+   "well outside the recent lived experience": true
   }
  },
  "https://www.nature.com/articles/s41467-026-76809-5": "REDIRECT",
  "https://link.springer.com/content/pdf/10.1038/s41467-026-76809-5.pdf": "OK",
  "https://www.nature.com/articles/s41467-026-76809-5.pdf": "REDIRECT",
- "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41467-026-76809-5&resultType=core&format=json": "OK"
+ "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41467-026-76809-5&resultType=core&format=json": "OK",
+ "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13740290/fullTextXML": "OK"
 }
