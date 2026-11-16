@@ -16,6 +16,12 @@ const fs = require("fs"), path = require("path"), M = require("./media-model.js"
 const ROOT = M.ROOT, SITE = "https://beattheheat.asia", SLUG = "how-heat-is-reported", ED = M.ED;
 const CSV = path.join(M.DIR, "extreme-heat-journalism-2018-2026.csv");
 const { records: R, collection: COLL } = M.records(), S = M.stats(), F = M.facets(), BY = Object.fromEntries(R.map(r => [r.id, r]));
+// the link check (verify-urls.yml writes research/2026-11/media-rebuild/link-status.json); its date is the commit that wrote it
+const LSF = path.join(ROOT, "research", "2026-11", "media-rebuild", "link-status.json");
+const LINKS = fs.existsSync(LSF) ? JSON.parse(fs.readFileSync(LSF, "utf8")) : null;
+const LDATE = LINKS ? (() => { try { return require("child_process").execFileSync("git", ["log", "-1", "--format=%cs", "--", LSF], { cwd: ROOT }).toString().trim(); } catch (e) { return ""; } })() || new Date().toISOString().slice(0, 10) : "";
+const linkOf = u => { if (!LINKS) return null; const v = LINKS[u]; if (!v) return null; const st = typeof v === "string" ? v : v.status; const code = typeof v === "object" ? String(v.code) : "";
+  return { st: st === "OK" || st === "REDIRECT" ? "opened" : st === "BLOCKED" || (st === "FAIL" && code === "timeout") ? "limited" : "notopen", archive: typeof v === "object" ? v.archive || "" : "" }; };
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const ext = (u, t) => `<a href="${esc(u)}" target="_blank" rel="noopener">${t}<span class="visually-hidden"> (opens in a new tab)</span></a>`;
 const go = (href, t) => `<a href="${href}">${esc(t)}&nbsp;<span aria-hidden="true">→</span></a>`;
@@ -67,7 +73,7 @@ const EXJ = Object.fromEntries(M.pilot().filter(a => a.exemplar).map(a => [a.id,
 // ---- pieces ----
 const langName = c => LANG[c] || c;
 const titleHtml = (r, tag = "span") => `<${tag} lang="${esc(r.language)}" dir="auto">${esc(r.title)}</${tag}>`;
-const trLabel = r => r.translation === "researcher" ? "Reviewer’s translation: not authorised by the publisher; native-language review pending" : r.translation === "not-recorded" ? "No English translation recorded" : "";
+const trLabel = r => r.translation === "researcher" ? `Working translation, not yet reviewed by a speaker of ${langName(r.language)}` : r.translation === "not-recorded" ? "No English translation recorded" : "";
 const enLine = r => r.language !== "en" ? `<p class="hr-en"><span lang="en">${r.title_en ? `English: ${esc(r.title_en)}` : "No English title recorded"}</span> <span class="hr-tr">${esc(trLabel(r))}</span></p>` : "";
 const meta = r => [r.outlet + (r.original_outlet ? ` (from ${r.original_outlet})` : ""), fdate(r), r.places.join(", "), langName(r.language), r.format ? FMT[r.format] + (r.format_basis === "the collection's link type" ? " (from the link type)" : "") : "Format not recorded"].map(esc).join(" · ");
 const badges = r => r.collections.map(c => `<span class="hr-b hr-b--${c}">${esc(COLLS[c].short)}</span>`).join("") + `<span class="hr-b hr-b--depth">${esc(DEPTH[r.depth].label)}</span>`;
@@ -83,6 +89,7 @@ const recHtml = r => `<li class="hr-rec" id="rec-${esc(r.id)}" ${dataAttrs(r)}>
     <p class="hr-meta">${meta(r)}</p>
     ${r.summary ? `<p class="hr-sum">${esc(r.summary)}</p>` : ""}${r.angle ? `<p class="hr-angle"><span class="hr-k">Story angle, as listed</span> ${esc(r.angle)}</p>` : ""}
     ${r.syndication ? `<p class="hr-note">${esc(r.syndication)}</p>` : ""}${r.collections.length > 1 ? `<p class="hr-note">In both collections (listed as ${esc(r.aliases.join(", "))} in the curated collection); counted once as a record.</p>` : ""}
+    ${(() => { const l = linkOf(r.url); if (!l || l.st === "opened") return ""; return `<p class="hr-note">${l.st === "limited" ? `Link: could not be checked automatically on ${esc(fdate({ precision: "day", date: LDATE }))} (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser.` : `Link: did not open in an automated check on ${esc(fdate({ precision: "day", date: LDATE }))}; it may be moved or temporarily down.`}${l.archive ? ` ${ext(l.archive, "Archived copy")}` : ""}</p>`; })()}
     ${trailHtml(r)}
     <p class="hr-acts"><a class="hr-mini" href="#rec-${esc(r.id)}" data-hr-link>Link</a>${r.trail ? `<button type="button" class="hr-mini" data-hr-pick="${esc(r.id)}" aria-pressed="false" hidden>Add to comparison</button>` : ""}</p></li>`;
 const recRef = id => { const r = BY[id]; return `<a href="#rec-${esc(id)}" class="hr-ref">${titleHtml(r)}</a> <span class="hr-meta">${esc(r.outlet)} · ${esc(fdate(r))} · ${esc(langName(r.language))}</span>`; };
@@ -155,6 +162,7 @@ const explorer = `<section class="hr-s" id="explore" aria-labelledby="explore-h"
    <p class="hr-tools"><button type="button" class="hr-btn" data-hr-reset>Reset</button><button type="button" class="hr-btn" data-hr-share>Copy a link to this view</button><button type="button" class="hr-btn" data-hr-csv>Download these results (CSV)</button><span class="hr-said" role="status" aria-live="polite"></span></p>
   </form>
   <p class="hr-downloads">Downloads: <a href="/${SLUG}/records.csv" download>all ${S.unique} records (CSV)</a> · <a href="/${SLUG}/records.json">the same as JSON</a> · <a href="/${SLUG}/extreme-heat-journalism-2018-2026.csv" download>the curated collection as first published (CSV)</a>. Every article is also in ${go("/sources/#media", "Sources and references")}</p>
+  <p class="hr-note" id="links-checked">${LINKS ? (() => { const c = { opened: 0, limited: 0, notopen: 0 }; R.forEach(r => { const l = linkOf(r.url); if (l) c[l.st]++; }); return `Links last checked automatically on ${esc(fdate({ precision: "day", date: LDATE }))}: ${c.opened} opened, ${c.limited} could not be checked automatically (publishers that limit automated visits, need a subscription or did not answer in time), and ${c.notopen} did not open. Opened means the page answered; its content was not re-read.`; })() : "Links were last checked automatically on 30 October 2026, for the curated collection."}</p>
   <div class="hr-empty" id="hr-empty" hidden><p><b>No records match all of these filters.</b> A missing combination describes these collections, not reporting in that place or language.</p><p><button type="button" class="hr-btn" data-hr-undo>Remove the last filter</button> <button type="button" class="hr-btn" data-hr-reset>Reset all filters</button></p></div>
   <div class="hr-cmp" id="hr-cmp" hidden aria-live="polite"></div>
   <ul class="hr-list" id="hr-list">${R.map(recHtml).join("\n")}</ul>
@@ -199,6 +207,7 @@ const K = ED.kit;
 const develop = `<section class="hr-s" id="develop" aria-labelledby="develop-h">
   <h2 id="develop-h">Develop a reporting question</h2>
   <p class="hr-lede">${esc(K.note)}</p>
+  <p class="hr-note">The questions and kinds of record here were drafted with AI assistance and reviewed by the site’s maintainer: suggestions, not findings.</p>
   <form class="hr-kit" id="hr-kit" hidden>
    <div class="hr-fgrid">
     <div class="hr-f"><label for="kit-topic">Topic</label><select id="kit-topic">${K.topics.map(t => `<option value="${t.id}">${esc(t.label)}</option>`).join("")}</select></div>
@@ -231,9 +240,10 @@ const method = `<section class="hr-s" id="method" aria-labelledby="method-h">
   <dl class="hr-dl hr-dl--method">
    ${Object.entries(COLLS).map(([k, c]) => `<div><dt>${esc(c.label)}</dt><dd>${esc(c.method)} Depth of review: ${esc(DEPTH[c.depth].label.toLowerCase())}. ${esc(DEPTH[c.depth].note)}</dd></div>`).join("")}
    <div><dt>Counting</dt><dd>${S.memberships} publication records (${S.collection} in the collection, ${S.pilot} in the pilot) make ${S.unique} unique records: ${S.both} stories appear in both, matched by their address. A check for near-identical headlines found no other copy of the same story; syndicated copies are noted on their record. Counts on this page say whether they count the collection, the pilot or unique records.</dd></div>
-   <div><dt>Translation</dt><dd>${of(S.pTranslated, P)} pilot headlines are in a national language, each with the reviewer’s English translation, which the publisher has not authorised and a native speaker has not yet reviewed. Original titles are shown first, in their own script and direction.</dd></div>
+   <div><dt>Translation</dt><dd>${of(S.pTranslated, P)} pilot headlines are in a national language. Each has a working English translation that the publisher has not authorised and a speaker of the language has not yet reviewed. Original titles are shown first, in their own script and direction. <a href="/research/2026-11/media-rebuild/translation-review.csv" download>The translations to review (CSV)</a>. If you read one of these languages, you can <a href="/join/#join-form">offer a review through the join form</a> (a Microsoft Forms page; see <a href="/privacy/">Privacy</a>). A reviewed translation is credited in aggregate, as “reviewed by one speaker of the language”, with no names published.</dd></div>
+   <div><dt>Second coding</dt><dd>The pilot was coded by one coder with AI assistance, so its codes stay provisional. <a href="/research/2026-10/media/pilot/second-coding-protocol.md">A protocol for a human second coder</a> is proposed, not scheduled.</dd></div>
   </dl>
-  <details class="hr-more"><summary>Coding definitions</summary><dl class="hr-dl">${ED.definitions.map(([t, d]) => `<div><dt>${esc(t)}</dt><dd>${esc(d)}</dd></div>`).join("")}<div><dt>Reporting trail states</dt><dd>${Object.values(ED.trail_states).map(esc).join("; ")}. ${esc(ED.trail_note)}</dd></div></dl><p class="hr-note">${esc(ED.codebook_gap)}</p></details>
+  <details class="hr-more"><summary>Coding definitions</summary><dl class="hr-dl">${ED.definitions.map(([t, d]) => `<div><dt>${esc(t)}</dt><dd>${esc(d)}</dd></div>`).join("")}<div><dt>Reporting trail states</dt><dd>${Object.values(ED.trail_states).map(esc).join("; ")}. ${esc(ED.trail_note)}</dd></div></dl><p class="hr-note">${esc(ED.codebook_gap)} <a href="/research/2026-10/media/pilot/working-definitions-as-applied.md">Working definitions, as applied in the pilot records</a>: written after coding from the codes and evidence notes, not the original codebook.</p></details>
   <details class="hr-more"><summary>About this reading, and what it is not</summary><p>This is an editorial reading, not a claim that nobody has reported how protection is organised; several journalists have covered heat’s human and economic effects in depth. The collection was curated in October 2026, and the searches captured more of 2024’s prominent reporting, so the counts describe the collection, not all coverage. Patterns come from headlines, descriptions and selected full texts, not a formal content analysis; any stronger research claim would need a sampling method and a second coder. Headlines are the outlets’ own; listing an article is not an endorsement of its framing. Nothing here scores or ranks outlets, countries or languages.</p>
    <p>A link check on 30 October 2026 opened the collection’s links: some publishers block automated checks or ask for payment, and every article was kept. Articles and headlines belong to their publishers and authors; this page links to them and quotes only short passages from the review’s own notes.</p></details>
  </section>`;
@@ -293,18 +303,47 @@ const COLS = [["id", r => r.id], ["also_listed_as", r => r.aliases.join(" ")], [
   ["language", r => langName(r.language)], ["outlet", r => r.outlet], ["original_outlet", r => r.original_outlet || ""], ["date", r => r.date], ["date_precision", r => r.precision], ["places", r => r.places.join("; ")],
   ["format", r => r.format ? FMT[r.format] : "Not recorded"], ["format_basis", r => r.format_basis || ""], ["story_angle", r => r.angle || ""], ["summary", r => r.summary || ""],
   ["organisation_of_protection_described", r => r.organised === null ? "Not assessed" : r.organised ? "yes" : "no"], ["follow_up", r => r.followup === null ? "Not assessed" : r.followup ? "yes" : "no"],
-  ["affected_people_speak", r => r.voice === null ? "Not assessed" : r.voice ? "yes" : "no"], ["cycles", r => r.loops.join(" ")], ["url", r => r.url]];
+  ["affected_people_speak", r => r.voice === null ? "Not assessed" : r.voice ? "yes" : "no"], ["cycles", r => r.depth !== "full" ? "Not assessed" : r.loops.join(" ")],
+  ["informal_work", r => r.depth !== "full" ? "Not assessed" : r.pops.workers ? "yes" : "no"], ["women_or_care", r => r.depth !== "full" ? "Not assessed" : r.pops.women ? "yes" : "no"],
+  ["link_check", r => { const l = linkOf(r.url); return !l ? "Not checked" : l.st === "opened" ? `Opened ${LDATE}` : l.st === "limited" ? `Could not be checked automatically ${LDATE}` : `Did not open ${LDATE}`; }], ["archived_copy", r => (linkOf(r.url) || {}).archive || ""], ["url", r => r.url]];
 const csvCell = v => /[",\n]/.test(String(v)) ? `"${String(v).replace(/"/g, '""')}"` : String(v);
 const csv = [COLS.map(c => c[0]).join(","), ...R.map(r => COLS.map(c => csvCell(c[1](r))).join(","))].join("\n") + "\n";
 const json = { about: `How heat is reported: ${S.unique} unique records from ${S.memberships} publication records in two collections. Pilot codes are provisional (one coder, AI-assisted). Fields a source does not record are null. CC BY 4.0 for Common Shade's own fields; titles and articles belong to their publishers.`,
   generated: new Date().toISOString().slice(0, 10), collections: COLLS, depths: DEPTH, trail_states: ED.trail_states,
-  records: R.map(r => Object.assign({}, r, { trail: r.trail ? r.trail.map(t => ({ k: t.k, label: t.label, state: t.state, text: t.text, basis: t.basis })) : null })) };
+  link_check: LINKS ? { date: LDATE, note: "Opened means the page answered an automated request; its content was not re-read." } : null,
+  records: R.map(r => Object.assign({}, r, { assessed: r.depth === "full" ? "full text, provisional coding" : "listing depth: content not assessed", link: linkOf(r.url), trail: r.trail ? r.trail.map(t => ({ k: t.k, label: t.label, state: t.state, text: t.text, basis: t.basis })) : null })) };
 
 fs.mkdirSync(path.join(ROOT, SLUG), { recursive: true });
 fs.writeFileSync(path.join(ROOT, SLUG, "index.html"), html);
 fs.copyFileSync(CSV, path.join(ROOT, SLUG, "extreme-heat-journalism-2018-2026.csv"));
 fs.writeFileSync(path.join(ROOT, SLUG, "records.csv"), csv);
 fs.writeFileSync(path.join(ROOT, SLUG, "records.json"), JSON.stringify(json, null, 1) + "\n");
+// working definitions, as applied: generated from the pilot records, never written by hand (the original codebook is not here)
+{
+  const PA = M.pilot(), cnt = f => { const m = {}; PA.forEach(a => [].concat(a[f]).forEach(v => { const k = String(v); m[k] = (m[k] || 0) + 1; })); return Object.entries(m).sort((x, y) => y[1] - x[1]); };
+  // evidence notes as written, the most specific first (a note covering fewer codes); only the record id is given, because
+  // passage locations can name people quoted in an article, and the site names no individuals
+  const notes = f => { const all = []; PA.forEach(a => (a.notes.evidence || []).filter(e => (e.fields || []).includes(f)).forEach(e => all.push([e.note, a.id, e.fields.length])));
+    all.sort((x, y) => x[2] - y[2]); const m = new Map(); all.forEach(([n, id]) => { if (!m.has(n) && m.size < 3) m.set(n, id); }); return [...m.entries()]; };
+  const FIELDS = [["missing_middle", "Organisation of protection (shown on the page as \"described\" for levels 2 and 3)"], ["followup", "Follow-up"], ["voice_of_affected", "Affected people speak"], ["informal_work", "Informal work"], ["gender_or_care", "Women and care"],
+    ["loop_ids", "Cycle on the map"], ["format", "Format"], ["frame_primary", "Main frame"], ["frames_secondary", "Other frames"], ["actors_quoted", "Who is quoted"], ["data_used", "Data used"], ["humidity_mentioned", "Humidity mentioned"], ["solutions_depth", "Depth on solutions (not shown on the page)"]];
+  const defs = Object.fromEntries(ED.definitions);
+  const out = ["# Working definitions, as applied in the pilot records", "",
+    "Written after coding, from the codes and evidence notes each record carries. The pilot's original codebook was not available, so this file describes how codes were applied, not the method as designed. Generated by tools/build-media.js from research/2026-10/media/pilot/articles.json; do not edit by hand.", "",
+    `Records: ${PA.length}, each read in full and coded once with AI assistance, without a second coder. Every code is provisional.`, ""];
+  for (const [f, label] of FIELDS) {
+    out.push(`## ${label} (\`${f}\`)`, "");
+    const d = { missing_middle: defs["Organisation of protection described"], followup: defs["Follow-up"], voice_of_affected: defs["Affected people speak"], informal_work: defs["Informal work; women and care"], gender_or_care: defs["Informal work; women and care"], loop_ids: defs["Cycle on the map"] }[f];
+    if (d) out.push(`As used on the page: ${d}`, "");
+    out.push(`Values in the records: ${cnt(f).map(([v, n]) => `${v} (${n})`).join(", ")}.`, "");
+    const ns = notes(f); if (ns.length) { out.push("Evidence notes as written (with the record they come from):", ""); ns.forEach(([n, w]) => out.push(`- ${n} (${w})`)); out.push(""); }
+  }
+  fs.writeFileSync(path.join(M.DIR, "pilot", "working-definitions-as-applied.md"), out.join("\n"));
+  // the translations to review: one row per translated headline, with blank columns for a speaker of the language
+  const TR = R.filter(r => r.translation === "researcher");
+  fs.writeFileSync(path.join(ROOT, "research", "2026-11", "media-rebuild", "translation-review.csv"), ["id,language,original_title,working_english_translation,url,reviewed_translation,reviewer_notes,reviewed_on",
+    ...TR.map(r => [r.id, langName(r.language), r.title, r.title_en, r.url, "", "", ""].map(csvCell).join(","))].join("\n") + "\n");
+}
 // the collection as other builders read it (Sources and references, Growing): unchanged shape
 const ARTS = COLL.map(a => ({ year: a.year, pub: a.outlet, title: a.title, geo: a.places.join("; "), angle: a.angle, url: a.url, type: a.link_type })).sort((a, b) => b.year - a.year || a.pub.localeCompare(b.pub));
 fs.writeFileSync(path.join(M.DIR, "articles.json"), JSON.stringify(ARTS, null, 1) + "\n");

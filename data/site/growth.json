@@ -792,7 +792,7 @@
       "event": { "what": "How heat is reported rebuilt around an explorer", "date": "2026-11-16" },
       "review": "Every record and comparison drawn from the two existing collections with no new article coding; comparison quotes checked against the reviewed fields; two stories found in both collections now counted once",
       "effort": { "asked": "Does reporting on heat follow protection from a named responsibility, through money and delivery, to results?", "inbox": "research/2026-10/media/pilot", "dropped": "research/2026-11/media-rebuild/README.md",
-                  "open": "Native-language review of the pilot's translated headlines, a second coder, and the pilot's full codebook." },
+                  "open": "A speaker's review of each translated headline (the review sheet is published), a human second coder (a protocol is proposed, not scheduled), and the pilot's original codebook (working definitions as applied are published instead)." },
       "pages": [["/how-heat-is-reported/", "How heat is reported"]], "action": ["Find reporting", "/how-heat-is-reported/#explore"],
       "links": [{ "to": "lever:heatcash", "why": "Two reviewed stories on heat insurance for informal women workers are compared side by side.", "basis": "record" }]
     }
