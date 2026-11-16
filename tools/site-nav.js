@@ -175,8 +175,8 @@ const CSS = `html:has(.csn){scroll-padding-top:120px}
 .csn__start{border:1.5px solid #F26430;background:#F26430;color:#16202B;transition:background .2s,box-shadow .2s,transform .2s}
 .csn__start:hover{background:#FF7A45;border-color:#FF7A45;transform:translateY(-1px);box-shadow:0 12px 24px -12px rgba(242,100,48,.9)}.csn__start:focus-visible{outline:3px solid #16202B;outline-offset:2px}
 .csn__start--glow{animation:csn-glow 2.6s ease-in-out 1.2s 3}
-.csn__signals{display:inline-flex;align-items:center;gap:7px;height:40px;padding:0 14px;border-radius:999px;font-weight:700;font-size:.9rem;white-space:nowrap;text-decoration:none;background:transparent;border:1.5px solid #16202B;color:#16202B;transition:background .2s,color .2s,transform .2s}
-.csn a.csn__signals:hover{background:#16202B;color:#FAF7F2;transform:translateY(-1px)}.csn__signals:focus-visible{outline:3px solid #F26430;outline-offset:2px}.csn__signals[aria-current]{box-shadow:inset 0 0 0 2px #16202B}
+.csn__signals{display:inline-flex;align-items:center;gap:7px;height:40px;padding:0 14px;border-radius:999px;font-weight:700;font-size:.9rem;white-space:nowrap;text-decoration:none;background:#3DBE78;border:1.5px solid #3DBE78;color:#0C1B12;transition:background .2s,transform .2s}
+.csn a.csn__signals{color:#0C1B12}.csn a.csn__signals:hover{background:#55CF8C;border-color:#55CF8C;transform:translateY(-1px)}.csn__signals:focus-visible{outline:3px solid #16202B;outline-offset:2px}.csn__signals[aria-current]{box-shadow:inset 0 0 0 2px #0C1B12}
 .csn__btn--signals{background:#3DBE78!important;border-color:#3DBE78!important;color:#0C1B12!important;font-weight:700}
 @keyframes csn-glow{0%,100%{box-shadow:0 8px 20px -10px rgba(242,100,48,.85),0 0 0 0 rgba(242,100,48,.45)}50%{box-shadow:0 8px 20px -10px rgba(242,100,48,.85),0 0 0 9px rgba(242,100,48,0)}}
 @media (prefers-reduced-motion:reduce){.csn__start--glow{animation:none}}

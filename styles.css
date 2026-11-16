@@ -4371,3 +4371,31 @@ summary { min-height: 24px; }
 @media (min-width: 900px) and (max-height: 820px) {
   .intro--canopy .intro__proof, .intro--canopy .intro__trust { display: block; }
 }
+
+/* ---------- Homepage headings and density (November 2026, the owner's request) ----------
+   Headings: the display face stays on the opening title, the head of each story (h2.story__h) and the epilogue. Section heads
+   in folded rows, the text version and panels take the section-heading role (Hanken bold 22); headings inside a section take
+   the subheading role (Hanken bold 18), in sentence case. Figures set in the display face are numbers, not headings, and stay.
+   Surfaces: every band is canvas except the opening, the role door and "happening today", which are ink. Each act opens with
+   a stronger rule and the full 64px of space; every other band is divided by a hairline. Spacing comes from --s-1 to --s-8. */
+main .pd-fold > .container > h2, main .pd-fold:not(.pd-is-open) > .container > h2, .text-version > .container > h2, #explore .panel__title {
+  font-family: var(--font-body); font-weight: 700; text-transform: none; letter-spacing: 0; font-size: var(--fs-22); line-height: 1.15; }
+#at-risk h3, #wicked h3, .feeds-link b, #day .hour__title, .lgroup__h, .leverage__h, .stall__name, .toolkit__h, .text-version summary, .story__handoff-line {
+  font-family: var(--font-body); font-weight: 700; text-transform: none; letter-spacing: 0; font-size: var(--fs-18); line-height: 1.4; }
+.lgroup__h { border-bottom-width: 1px; }
+/* one surface; hairlines between bands; a stronger rule where an act begins */
+.atrisk, .loops, .practical, .network, .epilogue, .explorer, .text-version { background: var(--canvas); }
+.epilogue { background-image: none; }
+.now { background: var(--ink); border-top-color: var(--ink); }
+.act { padding-top: var(--s-8); border-top: 1px solid var(--line-strong); }
+.act-exit__in { padding-top: var(--s-4); padding-bottom: var(--s-4); }
+/* one rhythm: 48px around a story on phones, 64px on wider screens */
+.story, .atrisk.story, .practical.story, .epilogue, .text-version { padding-top: var(--s-7); padding-bottom: var(--s-7); }
+.explorer.story { padding-top: var(--s-6); }
+.loops.story { padding-bottom: 0; }
+@media (min-width: 900px) { .story, .atrisk.story, .practical.story, .epilogue, .text-version { padding-top: var(--s-8); padding-bottom: var(--s-8); } .explorer.story { padding-top: var(--s-7); } .loops.story { padding-bottom: 0; } }
+/* folded rows: tighter, and a run of them reads as one list */
+.pd-fold:not(.pd-is-open) { padding-top: var(--s-4); padding-bottom: var(--s-4); }
+.pd-fold:not(.pd-is-open) + .pd-fold:not(.pd-is-open) { border-top-color: var(--line); }
+/* the 2-line summary is the same paragraph the opened row shows in full, so nothing is lost by opening it */
+.pd-fold:not(.pd-is-open) .pd-open { margin-top: var(--s-3); min-height: 44px; }
