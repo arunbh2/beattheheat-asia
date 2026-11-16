@@ -784,6 +784,17 @@
                   "open": "The Philippines advisory texts behind the November edition have not been located; the edition says so." },
       "pages": [["/whats-new/", "State of the field"], ["/whats-new/2026-11/", "November 2026 edition"], ["/whats-new/2026-10/", "October 2026 edition"]], "action": ["Read State of the field", "/whats-new/"],
       "links": [{ "to": "lever:heatrules", "why": "The October edition's opportunity concerns heat-safe work, with what the evidence supports and what the funding trace cannot see.", "basis": "record" }]
+    },
+    { "id": "g-how-heat-is-reported-explorer", "kind": "tool", "root": "evidence", "added": "2026-11-16", "pr": null,
+      "title": "How heat is reported: one explorer over both collections, with each reviewed article's reporting trail",
+      "why": "The page now explains how a multilingual pilot complicated its first reading, and lets readers find every article across countries, languages and collections, see what the review found in each, compare stories on the same protection and build a source-linked reporting question. Missing information reads not recorded or not assessed, never as a failure.",
+      "places": ["region"], "people": ["workers"], "topics": ["heatrules", "heatcash"],
+      "event": { "what": "How heat is reported rebuilt around an explorer", "date": "2026-11-16" },
+      "review": "Every record and comparison drawn from the two existing collections with no new article coding; comparison quotes checked against the reviewed fields; two stories found in both collections now counted once",
+      "effort": { "asked": "Does reporting on heat follow protection from a named responsibility, through money and delivery, to results?", "inbox": "research/2026-10/media/pilot", "dropped": "research/2026-11/media-rebuild/README.md",
+                  "open": "Native-language review of the pilot's translated headlines, a second coder, and the pilot's full codebook." },
+      "pages": [["/how-heat-is-reported/", "How heat is reported"]], "action": ["Find reporting", "/how-heat-is-reported/#explore"],
+      "links": [{ "to": "lever:heatcash", "why": "Two reviewed stories on heat insurance for informal women workers are compared side by side.", "basis": "record" }]
     }
   ]
 }

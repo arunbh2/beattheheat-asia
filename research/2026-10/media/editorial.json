@@ -1,0 +1,165 @@
+{
+ "about": "Editorial layer for /how-heat-is-reported/ (tools/build-media.js). Article facts stay in the two canonical sources: the curated collection (extreme-heat-journalism-2018-2026.csv) and the pilot review (pilot/articles.json, pilot/exemplars.json). This file holds only what those sources do not: definitions, which records serve as examples, Common Shade's suggested follow-up questions, comparisons whose every cell quotes a reviewed field, and the question kit. Drafted 16 November 2026; reviewed by merging its pull request. Suggested questions are starting points, never findings.",
+ "reviewed": "2026-11-16",
+ "collections": {
+  "collection": {
+   "label": "Curated collection",
+   "short": "Collection",
+   "method": "Gathered in October 2026 by searching for prominent English-language reporting on heat in South and Southeast Asia. The searches captured more of 2024's prominent reporting, and some countries not at all.",
+   "depth": "listing",
+   "source": "research/2026-10/media/extreme-heat-journalism-2018-2026.csv"
+  },
+  "pilot": {
+   "label": "Multilingual pilot review",
+   "short": "Pilot",
+   "method": "Found in October 2026 by searching for reporting on work and protection in the countries and languages the collection missed, then read one by one. Chosen to see what such reporting can look like, not how common it is.",
+   "depth": "full",
+   "source": "research/2026-10/media/pilot/articles.json"
+  }
+ },
+ "depths": {
+  "listing": { "label": "Headline and listing", "note": "Headline, outlet, year, place and a short story angle written by the curator. The full text was not coded; patterns drawn from it rest on headlines, descriptions and some full texts not recorded one by one." },
+  "full": { "label": "Full text, provisional coding", "note": "The full article was opened and read, and coded once with AI assistance, without a second coder. Every code cites the passage it rests on. Treat the codes as provisional until reviewed." }
+ },
+ "trail_states": {
+  "described": "Described in the reviewed material",
+  "unknown": "Explicitly reported as unknown",
+  "not_found": "Not found in the reviewed material",
+  "not_assessed": "Not assessed"
+ },
+ "trail_note": "These describe what the review found in the article, not what happened in the world. \"Not found\" means the reviewer did not find it in the text read, not that a journalist left something out or that an institution failed. \"Not assessed\" means the review did not look.",
+ "formats": {
+  "news": "News report",
+  "feature": "Feature",
+  "investigation": "Investigation",
+  "explainer": "Explainer",
+  "data story": "Data story",
+  "opinion": "Opinion or commentary",
+  "podcast": "Podcast"
+ },
+ "frames": {
+  "emergency": "an emergency",
+  "lost_work": "lost work and income",
+  "inequality": "inequality",
+  "science_attribution": "climate science and attribution",
+  "politics": "politics",
+  "fragmented_responsibility": "responsibility split between institutions",
+  "other": "another angle"
+ },
+ "definitions": [
+  ["Organisation of protection described", "The pilot's code for an article that names who acts and explains how help is delivered, paid for or followed up, at more than a passing mention (the codebook's levels 2 and 3). Levels 0 and 1 mean the reviewer did not find that depth in the text read."],
+  ["Follow-up", "The article revisits a specific earlier promise, action or incident."],
+  ["Affected people speak", "A worker, vendor, parent or resident directly affected describes heat in their own words, not only through officials or experts."],
+  ["Informal work; women and care", "A passage in the reviewed text concerns informal work, or gender and unpaid care, under the codebook's definition."],
+  ["Cycle on the map", "The pilot's provisional link between the article and a vicious cycle on Common Shade's map."],
+  ["Publication record and story", "A publication record is one listing of one URL. The same story can appear in both collections, or under another outlet's name as syndicated copy. Counts on this page say which they count."]
+ ],
+ "codebook_gap": "The pilot's full codebook is not in the repository. The definitions above are taken from the codes and the evidence notes each record carries.",
+ "examples": [
+  { "id": "pk-karachi-roles-2024", "h": "Who does what in a city", "group": "institutional", "followup": "Months later, which of the assigned tasks were carried out, by which agency, and what did the control room record?" },
+  { "id": "lk-school-directive-2024", "h": "How guidance reaches a school", "group": "institutional", "followup": "Did the guidance reach schools in time, and what could principals change without extra resources?" },
+  { "id": "ph-labour-day-2024", "h": "Pay during a heat absence", "group": "institutional", "followup": "How many collective agreements include paid heat absence, and who covers the cost where none applies?" },
+  { "id": "th-outdoor-rights-2025", "h": "Who heat rules cover", "group": "institutional", "followup": "What does the ministerial regulation say about platform and outdoor workers, and how is it enforced?" },
+  { "id": "kh-measured-factory-2026", "h": "Workers measuring the heat", "group": "follows", "followup": "What do published inspection records and buyer audits show about cooling budgets in the factories named?" },
+  { "id": "kh-factory-enforcement-2026", "h": "From fainting incidents to inspection", "group": "follows", "followup": "What did the corrective orders require, and were inspection findings published afterwards?" },
+  { "id": "mm-power-workers-2024", "h": "Power supply and factory heat", "group": "follows", "followup": "How do the electricity agreements allocate supply in a heatwave, and who decides which loads are cut first?" },
+  { "id": "in-insurance-followup-2025", "h": "Going back to an insurance pilot", "group": "follows", "followup": "What do programme records show about premiums, payouts and members who stayed or left after the redesign?" },
+  { "id": "in-insurance-design-2026", "h": "How a heat-insurance trigger is set", "group": "follows", "followup": "What would a regulator's review of heat-index triggers look for, and who would publish it?" },
+  { "id": "in-deaths-commentary-2023", "h": "Why heat deaths are hard to count", "group": "follows", "followup": "How do death registration rules in one state record heat, and how do the counts feed emergency budgets?" }
+ ],
+ "comparisons": [
+  {
+   "id": "insurance",
+   "h": "Two stories on heat insurance for informal women workers in India",
+   "why": "Both follow the same kind of protection, a heat-index insurance for informal workers, from different angles: one returns to a pilot and its members, the other explains how the trigger is set.",
+   "records": ["in-insurance-followup-2025", "in-insurance-design-2026"],
+   "rows": [
+    { "label": "Contributions and premiums", "cells": {
+      "in-insurance-followup-2025": { "state": "described", "quote": "premium contributions", "field": "mm_evidence" },
+      "in-insurance-design-2026": { "state": "described", "quote": "premium subsidy", "field": "mm_evidence" } } },
+    { "label": "Trigger design", "cells": {
+      "in-insurance-followup-2025": { "state": "described", "quote": "failed pilot triggers, redesign", "field": "mm_evidence" },
+      "in-insurance-design-2026": { "state": "described", "quote": "insurer trigger decisions", "field": "mm_evidence" } } },
+    { "label": "Payments made", "cells": {
+      "in-insurance-followup-2025": { "state": "described", "quote": "payouts, including worker accounts of using support", "field": "mm_evidence" },
+      "in-insurance-design-2026": { "state": "described", "quote": "changed payouts", "field": "mm_evidence" } } },
+    { "label": "What remains unresolved", "cells": {
+      "in-insurance-followup-2025": { "state": "described", "quote": "Reported premiums and payouts require programme documentation before reuse as independent impact evidence.", "field": "notes.number_caution" },
+      "in-insurance-design-2026": { "state": "described", "quote": "whether easier payout triggers still offer enough income protection", "field": "summary_plain" } } }
+   ]
+  },
+  {
+   "id": "factories",
+   "h": "Two stories on heat in Cambodia's garment factories",
+   "why": "Both follow protection inside factories: one with workers measuring the heat, the other from fainting incidents to official orders.",
+   "records": ["kh-measured-factory-2026", "kh-factory-enforcement-2026"],
+   "rows": [
+    { "label": "Evidence of exposure", "cells": {
+      "kh-measured-factory-2026": { "state": "described", "quote": "worker measurements", "field": "mm_evidence" },
+      "kh-factory-enforcement-2026": { "state": "described", "quote": "Fainting cases", "field": "mm_evidence" } } },
+    { "label": "Money for cooling", "cells": {
+      "kh-measured-factory-2026": { "state": "unknown", "quote": "unpublished cooling budgets", "field": "mm_evidence" },
+      "kh-factory-enforcement-2026": { "state": "described", "quote": "Factories are asked to improve conditions; actual expenditure not disclosed.", "field": "exemplar.who_pays" } } },
+    { "label": "Rules and enforcement", "cells": {
+      "kh-measured-factory-2026": { "state": "described", "quote": "regulatory gaps", "field": "mm_evidence" },
+      "kh-factory-enforcement-2026": { "state": "described", "quote": "official corrective orders, challenges enforcement", "field": "mm_evidence" } } },
+    { "label": "What remains unresolved", "cells": {
+      "kh-measured-factory-2026": { "state": "described", "quote": "Story’s terminology mixes wet-bulb and heat-index discussion; do not reuse it as WBGT guidance.", "field": "notes.metric_caution" },
+      "kh-factory-enforcement-2026": { "state": "described", "quote": "Completed inspection findings are not established.", "field": "exemplar.who_checks" } } }
+   ]
+  }
+ ],
+ "kit": {
+  "note": "A starting point for an investigation, built from the records on this page and Common Shade's own pages. It suggests kinds of records and perspectives to look for; it does not name documents that exist or people to interview, and its question is not a finding.",
+  "populations": {
+   "any": { "label": "People most exposed", "text": "people most exposed to heat" },
+   "workers": { "label": "Outdoor and informal workers", "text": "outdoor and informal workers", "match": "workers" },
+   "women": { "label": "Women and carers", "text": "women and carers", "match": "women" },
+   "children": { "label": "Children and schools", "text": "children and schools", "match": "children" }
+  },
+  "topics": [
+   { "id": "work", "label": "Heat at work",
+     "q": "In {place}, who is responsible for protecting {pop} from heat at work, what resources pay for that protection, and what public record would show whether it reaches them?",
+     "loops": ["poverty", "protection"], "angle": "work|worker|labour|factory|outdoor|productiv|wage",
+     "links": [["/actions/#heatrules", "Heat-safe work"], ["/loops/#poverty", "The poverty cycle"], ["/signals/", "Signals: rules on heat at work"]],
+     "seek": ["Labour inspection reports, orders or guidance on heat", "Employer, buyer or platform policies on rest, water, shade and pay", "Collective agreements that mention heat", "Budget lines for occupational safety in the heat action plan"],
+     "voices": ["Workers, including subcontracted and migrant workers", "Unions and worker organisations", "Employers and buyers", "Labour inspectors", "Occupational health researchers"],
+     "verify": ["Whether a rule is in force, scheduled or proposed", "Which workers it covers by employment status", "Whether reported figures come from measurement, a survey or a model", "Who could confirm that measures were carried out"] },
+   { "id": "income", "label": "Income when heat stops work",
+     "q": "In {place}, when heat stops work for {pop}, what replaces lost income, who pays for it, and what records show payments reaching people?",
+     "loops": ["poverty", "debt"], "angle": "insur|income|wage|earn|cash|social",
+     "links": [["/social-protection/", "Who could help a household through a hot season"], ["/paying-when-heat-strikes/", "Paying when heat strikes"], ["/briefs/heat-ready-social-security/", "Heat-ready social security"], ["/actions/#heatcash", "Cash support in the heat"]],
+     "seek": ["Programme rules and eligibility criteria", "Payout or claim records published by the programme or insurer", "Trigger and threshold documents for any index insurance", "Social protection budget and spending reports"],
+     "voices": ["People who received, or did not receive, support", "Programme staff and implementing organisations", "Insurers and risk modellers", "Regulators", "Researchers who evaluate the programme"],
+     "verify": ["Whether figures on premiums and payouts come from programme documents", "Whether an evaluation tested what changed because of the support", "Who funds premiums, and for how long"] },
+   { "id": "schools", "label": "Schools and children",
+     "q": "In {place}, how does heat guidance reach {pop}, who decides on closures or changed hours, and what resources support learning in the heat?",
+     "loops": ["school"], "angle": "school|child|educat|student",
+     "links": [["/loops/#school", "The school cycle"], ["/actions/#keepinschool", "Keeping children learning in the heat"]],
+     "seek": ["Education ministry or district circulars on heat", "School calendars and records of closures or changed hours", "Budgets for classroom cooling, water or shade"],
+     "voices": ["Teachers and principals", "Parents and carers", "Students, with care and consent", "Education and health officials"],
+     "verify": ["Which schools a directive covers", "Whether closures were applied, and for how long", "What learning time was lost or made up"] },
+   { "id": "health", "label": "Health services and warnings",
+     "q": "In {place}, how do heat warnings turn into action for {pop}, which services prepare, and what records show who was reached?",
+     "loops": ["clinic", "reactive"], "angle": "health|hospital|warning|death|mortal|clinic",
+     "links": [["/actions/#readyclinics", "Heat-ready health services"], ["/actions/#hap", "Heat action plans"], ["/actions/#anticipatory", "Acting before the heat"], ["/loops/#clinic", "The clinic cycle"]],
+     "seek": ["The heat action plan, its triggers and named agencies", "Warning bulletins and who received them", "Hospital or clinic records of heat illness, where published", "After-action reviews of a heatwave"],
+     "voices": ["Health workers", "Emergency and disaster officials", "Residents in the areas warned", "Meteorological services"],
+     "verify": ["Whether a plan was activated, and when", "How heat illness is recorded", "Whether figures are counts, estimates or projections"] },
+   { "id": "power", "label": "Power and water in the heat",
+     "q": "In {place}, who decides how power and water are shared during a heatwave, and how does that affect {pop}?",
+     "loops": ["energywater", "energypoverty"], "angle": "power|electric|grid|energy|water|coal|air-condition",
+     "links": [["/loops/#energywater", "The power and water cycle"], ["/actions/#pumpbackup", "Backup for water pumps"], ["/actions/#drypower", "Power that needs less water"]],
+     "seek": ["Load-shedding schedules and utility notices", "Electricity supply agreements and tariff decisions", "Water supply schedules during heatwaves"],
+     "voices": ["Households and workers affected by cuts", "Utility and regulator staff", "Factory managers and unions", "Energy researchers"],
+     "verify": ["Whether cuts were planned or emergency", "Which areas and users were prioritised", "Whether competing accounts of payments or outages are attributed"] },
+   { "id": "counting", "label": "Counting heat's toll",
+     "q": "In {place}, how are heat-related deaths and illness among {pop} recorded, and how do those records shape the resources that follow?",
+     "loops": ["invisible"], "angle": "death|mortal|data|count",
+     "links": [["/actions/#countdeaths", "Counting heat deaths"], ["/loops/#invisible", "The invisible-harm cycle"]],
+     "seek": ["Death registration rules and forms", "Health surveillance reports on heat illness", "Excess mortality studies for a heatwave"],
+     "voices": ["Registrars and health statisticians", "Doctors and health workers", "Families, with care and consent", "Epidemiologists"],
+     "verify": ["What a count includes and leaves out", "Whether a figure is a count or an estimate", "The period and place it covers"] }
+  ]
+ }
+}
