@@ -15,9 +15,20 @@
 
   // ---- address ----
   function read() {
-    var h = decodeURIComponent(location.hash.slice(1)), m;
+    var h = "", m; try { h = decodeURIComponent(location.hash.slice(1)); } catch (e) { return; }
     if ((m = h.match(/^place=([a-z]+):?(.*)$/)) && SET[m[1]]) { S.mode = "place"; S.set = m[1]; S.picks = m[2].split(",").map(function (x) { return m[1] + ":" + x; }).filter(function (id) { return C[id]; }); }
     else if ((m = h.match(/^folio=(.*)$/))) { S.mode = "folio"; S.folio = {}; m[1].split(",").forEach(function (x) { var p = x.split("~"); if (C[p[0]]) S.folio[p[0]] = RN[p[1]] ? p[1] : defRole(C[p[0]]); }); }
+  }
+  // carry the chosen actions into Plan a response: each card sits under one change the plan works with, so two cards can share a line
+  function toPlan(ids) {
+    var lv = {}, keys;
+    ids.forEach(function (id) { (lv[C[id].lv] = lv[C[id].lv] || []).push(id); });
+    keys = Object.keys(lv);
+    var shared = keys.filter(function (l) { return lv[l].length > 1; }).map(function (l) { return "“" + esc(B.levers[l] || l) + "”"; });
+    return '<p><a class="btn btn--sm" href="/plan/?cards=' + ids.join(",") + '#plan-step-3">Carry these actions into a plan</a></p><p class="bp-note">' +
+      (keys.length < ids.length ? ids.length + " actions become " + keys.length + (keys.length === 1 ? " line" : " lines") + " in the plan, because the plan works with the change each action makes, and some share one: " + shared.join(", ") + ". "
+        : "Each becomes a line in the plan, where you set who leads, who pays and how you will know it works. ") +
+      "Anything already in your plan stays as it is.</p>";
   }
   function save() {
     var h = S.mode === "place" ? "place=" + S.set + ":" + S.picks.map(function (id) { return id.split(":")[1]; }).join(",")
@@ -73,7 +84,7 @@
       '<h3 class="bp-h">What could stop it</h3><ul class="bp-ul">' + picks.map(function (id) { return "<li><b>" + esc(C[id].t) + ":</b> " + esc(C[id].stop) + "</li>"; }).join("") + "</ul>" +
       '<h3 class="bp-h">What it does not reach yet</h3>' + (R.gap.length ? '<p class="bp-note">Within reach of this place but not in the package: ' + R.gap.length + (R.gap.length === 1 ? " cycle" : " cycles") + ". Other actions on the shelf could reach " + (R.gap.length === 1 ? "it" : "them") + ".</p><ul class=\"bp-ul\">" + R.gap.map(loopLi).join("") + "</ul>" : '<p class="bp-note">The package reaches every cycle that actions in this place can reach.</p>') +
       '<details class="bp-miss"><summary>' + R.beyond.length + " cycles sit beyond this place</summary><p class=\"bp-note\">Such as the heat itself, or rules and budgets set elsewhere: they need partners beyond this place.</p><ul>" + R.beyond.map(loopLi).join("") + "</ul></details>" +
-      '<div class="bp-acts"><button type="button" data-copy>Copy a link to this package</button><button type="button" data-print>Print a summary</button><button type="button" data-clear>Start again</button></div>'
+      '<h3 class="bp-h">Take it further</h3>' + toPlan(picks) + '<div class="bp-acts"><button type="button" data-copy>Copy a link to this package</button><button type="button" data-print>Print a summary</button><button type="button" data-clear>Start again</button></div>'
       : '<p class="bp-empty">Add actions from the shelf to see which cycles they could help interrupt, what they depend on and who acts.</p><button type="button" class="bp-start" data-start>Start with one action for each problem people here report</button>' + ring({});
     app.innerHTML = '<h2 class="bp-step"><span>1</span> Choose a place</h2>' + tiles + '<p class="bp-intro">' + esc(s.i) + "</p>" +
       '<div class="bp-grid"><div class="bp-shelf"><h2 class="bp-step"><span>2</span> Add actions</h2>' + cards + '</div><aside class="bp-sheet" aria-label="Your package"><h2 class="bp-step"><span>3</span> Your package <em>' + picks.length + "</em></h2>" + sheet + "</aside></div>" +
@@ -114,7 +125,7 @@
         (lean.length ? '<p class="bp-flag">Most pieces depend on ' + lean.map(function (w) { return esc((B.inst[w[0]] || w[0]).toLowerCase()); }).join(" and ") + ". If they cannot act, much of the portfolio waits: a relationship worth investing in early.</p>" : "") +
         '<h3 class="bp-h">What it would learn</h3><p class="bp-note">' + unev.length + " of " + ids.length + " pieces have not yet been measured in a study or independently evaluated. Building evaluation into them would add to what the field knows. <a href=\"/evidence-map/#questions\">Questions nobody has answered yet</a></p>" +
         '<h3 class="bp-h">What would need to be true for it to last</h3><ul class="bp-ul">' + ids.map(function (id) { return "<li><b>" + esc(C[id].t) + ":</b> someone keeps paying for " + esc(C[id].run.charAt(0).toLowerCase() + C[id].run.slice(1)) + "</li>"; }).join("") + "</ul>" +
-        '<div class="bp-acts"><button type="button" data-copy>Copy a link to this portfolio</button><button type="button" data-print>Print a summary</button><button type="button" data-clear>Start again</button></div>';
+        '<h3 class="bp-h">Take it further</h3>' + toPlan(ids) + '<div class="bp-acts"><button type="button" data-copy>Copy a link to this portfolio</button><button type="button" data-print>Print a summary</button><button type="button" data-clear>Start again</button></div>';
     }
     app.innerHTML = '<p class="bp-intro">For funders and programme teams: a sketch of a few grants across places and roles, to see what the whole reaches and what it leans on. It does not recommend any organisation.</p>' +
       '<div class="bp-grid"><div class="bp-shelf"><h2 class="bp-step"><span>1</span> Choose actions and roles</h2>' + rows + '</div><aside class="bp-sheet" aria-label="Your portfolio"><h2 class="bp-step"><span>2</span> The portfolio <em>' + ids.length + "</em></h2>" + out + "</aside></div>";

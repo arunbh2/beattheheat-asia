@@ -5,7 +5,7 @@ updated: 2026-11-16
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 60 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 61 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-60 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,114 works the commons draws on carry a publication date, and 808 are still being dated.
+61 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,114 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -198,6 +198,30 @@ A second watch-out, on humid heat in Southeast Asia.
 [Heat action plans](https://beattheheat.asia/actions/#hap)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Humid%20heat%20in%20Southeast%20Asia%2C%20beside%20the%20longer%20heatwaves&ref=g-sea-humid-heat#way-share)
+
+Tool improved · Practical measures
+
+### Actions chosen in Build protection now carry into a plan
+
+Added 16 November 2026 · Build protection and Plan a response joined up 16 November 2026
+
+Why it matters our readingA reader chose paid rest breaks in Build protection, followed the link to Plan a response and found an empty plan. The actions now carry across and join whatever the plan already holds, without replacing any notes, and each line says which actions it came from.
+
+- South and Southeast Asia
+- Workers in heat-exposed jobs
+- Heat-safe work
+
+ReviewTested in a browser: three actions carried across, notes typed, the evidence and finance pages visited, and the same three actions and notes found on return.
+
+How it connects
+
+- [Heat-safe work](https://beattheheat.asia/actions/#heatrules) Action · from the site's records
+Paid rest breaks, the action that showed the gap, now arrive in the plan under heat-safe work.
+
+[Build a package](https://beattheheat.asia/build/)
+[Plan a response](https://beattheheat.asia/plan/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Actions%20chosen%20in%20Build%20protection%20now%20carry%20into%20a%20plan&ref=g-build-to-plan#way-share)
 
 Evidence added · Practical measures
 

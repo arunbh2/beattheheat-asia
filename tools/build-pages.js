@@ -270,6 +270,7 @@ const PEOPLE = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "peopl
         <li class="std"><b>Evidence shown for every piece</b><span>Each action carries its evidence level, from design concept to independently evaluated, with its source.</span></li>
         <li class="std"><b>No recommendations</b><span>The portfolio view shows balance and blind spots. It never recommends an organisation or a grantee.</span></li>
         <li class="std"><b>Saved in the address</b><span>Your package lives in the page address, so you can bookmark it or share it. Nothing is sent to us.</span></li>
+        <li class="std"><b>Carried into a plan</b><span>"Carry these actions into a plan" adds them to Plan a response, which keeps its plan in your browser. Anything already in that plan stays as it is, and each line says which actions it came from.</span></li>
       </ul>
       <p class="hub-p"><a href="/practical/">Practical actions</a> · <a href="/who-holds-it/">Who holds it up</a> · <a href="/together/">Make it work together</a> · <a href="/plan/">Plan a response</a></p>
     </section>

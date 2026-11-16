@@ -44,8 +44,8 @@
   "changed": "2026-11-15"
  },
  "/build/": {
-  "hash": "7ad566c08b1f58b5",
-  "changed": "2026-11-13"
+  "hash": "01880e0755477fe1",
+  "changed": "2026-11-16"
  },
  "/cite/": {
   "hash": "e46dd7a9943d0482",
@@ -208,7 +208,7 @@
   "changed": "2026-11-07"
  },
  "/growing/": {
-  "hash": "aec2e2565d70623d",
+  "hash": "073a0f037d5cffe6",
   "changed": "2026-11-16"
  },
  "/guide/": {
@@ -240,7 +240,7 @@
   "changed": "2026-11-06"
  },
  "/heat-network/": {
-  "hash": "e7aad95eb3f95be1",
+  "hash": "973bdff4ac584bfa",
   "changed": "2026-11-16"
  },
  "/heat-tools/": {
