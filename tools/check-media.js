@@ -62,6 +62,9 @@ const csv = read("how-heat-is-reported/records.csv").trim().split("\n"); ok(csv.
 const J = JSON.parse(read("how-heat-is-reported/records.json") || "{}"); ok(J.records && J.records.length === S.unique, "records.json holds every unique record");
 ok(read("how-heat-is-reported/extreme-heat-journalism-2018-2026.csv") === read("research/2026-10/media/extreme-heat-journalism-2018-2026.csv"), "the collection CSV download matches its source");
 ok(read("llms.txt").includes(`how ${S.unique} news articles`), "llms.txt states the record count from the records");
+// ---- old anchors: links made to the page before the November 2026 rebuild still land ----
+const OLD_ANCHORS = ["dots", "bibliography", "languages", "collection", "patterns", "middle", "systems", "pilot-list", "questions", "layers"];
+for (const a of OLD_ANCHORS) ok(html.includes(`id="${a}"`), `page: the old anchor #${a} still lands (links made before the rebuild use it)`);
 // ---- the gaps, made visible ----
 const WD = read("research/2026-10/media/pilot/working-definitions-as-applied.md");
 ok(/^# Working definitions, as applied in the pilot records/.test(WD) && /original codebook was not available/.test(WD), "working-definitions-as-applied.md is built and says it is not the original codebook");
