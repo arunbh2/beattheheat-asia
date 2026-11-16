@@ -1,7 +1,7 @@
 ---
 title: "Corrections"
 url: https://beattheheat.asia/corrections/
-updated: 2026-11-15
+updated: 2026-11-16
 licence: CC BY 4.0
 ---
 
@@ -34,6 +34,14 @@ The page changes, the change is listed below, and older figures are kept as supe
 [Suggest a correction](https://beattheheat.asia/join/#join-form)
 
 ## What we have corrected
+
+- 16 November 2026 · State of the field, October 2026
+
+**What was wrong.** The October 2026 edition listed Bangladesh's first urban heatwave action plan, for Narayanganj, among the month's new records without its date, so it read as an October development.
+
+**What changed.** The plan records its approval on 22 September 2025; October 2026 is when Bangladesh's heat and health assessment reported it. The edition now gives both dates, and keeps its first text unchanged below the revision log.
+
+We are sorry. A reader planning around this could have taken an older plan for a new one.
 
 - 15 November 2026 · Bangkok city page (Heat over time)
 

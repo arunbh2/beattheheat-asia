@@ -85,22 +85,8 @@ for (const p of PATHS.paths) {
       <p class="hub-p"><a href="/paths/">All paths</a></p></section>`));
 }
 
-// ---- State of the field: written each month from data/kb/_changes.json ----
-const changesF = path.join(ROOT, "data", "kb", "_changes.json");
-const changes = fs.existsSync(changesF) ? JSON.parse(fs.readFileSync(changesF, "utf8")) : [];
-const BRIEFS = path.join(ROOT, "data", "site", "briefs");
-const briefs = fs.existsSync(BRIEFS) ? fs.readdirSync(BRIEFS).filter(f => f.endsWith(".json")).sort().reverse().map(f => JSON.parse(fs.readFileSync(path.join(BRIEFS, f), "utf8"))) : [];
-const brief = b => `<article class="sof">
-      <p class="eyebrow">${esc(b.month_label)}</p><h2 class="sof-h">${esc(b.headline)}</h2>
-      <div class="sof-grid">${(b.sections || []).map(s => `<section class="sof-card"><p class="sof-k">${esc(s.k)}</p><h3>${esc(s.h)}</h3><p>${esc(s.p)}</p>${s.links ? `<p class="sof-links">${s.links.map(([u, t]) => `<a href="${esc(u)}">${esc(t)}</a>`).join(" · ")}</p>` : ""}</section>`).join("")}</div>
-      ${b.note ? `<p class="hub-p">${esc(b.note)}</p>` : ""}</article>`;
-write("whats-new", page("whats-new", "State of the field", "A monthly note on extreme heat in South and Southeast Asia: where money moved, what the evidence added, which questions grew in importance, and what changed on Common Shade.",
-  `${hero("News and evidence", "State of the field", "Each month: where money for protection moved, one opportunity the evidence supports, one question worth answering, and what changed here. Written from the knowledge base, under the same rules as everything else: careful, sourced, and clear about what is known, inferred or uncertain.")}
-    <section class="container hub">
-      ${briefs.length ? briefs.map(brief).join("") : `<div class="sof-empty"><p class="eyebrow">Coming next</p><h2 class="sof-h">The first brief arrives with the first monthly update</h2><p>Until then, the latest additions are listed below.</p></div>`}
-      <h2 class="hub-h">What changed in the knowledge base</h2>
-      ${changes.length ? `<ul class="sof-log">${changes.map(c => `<li><b>${esc(c.month)}</b>: ${c.published.length} new or updated ${c.published.length === 1 ? "record" : "records"}${c.held ? `, ${c.held} held back for checking` : ""}. ${c.published.slice(0, 6).map(r => esc(r.title)).join("; ")}${c.published.length > 6 ? "…" : ""}</li>`).join("")}</ul>` : `<p class="hub-p">No monthly updates yet. Records will appear here as they pass the site’s seven checks.</p>`}
-    </section>`));
+// ---- State of the field: one page per published edition, the latest on /whats-new/ (tools/build-sof.js) ----
+require("./build-sof.js")({ page, write, esc, hero, V });
 
 // ---- How Common Shade sees heat ----
 const IDEAS = [

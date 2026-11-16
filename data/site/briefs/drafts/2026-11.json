@@ -1,0 +1,381 @@
+{
+ "schema": 2,
+ "id": "2026-11",
+ "status": "draft",
+ "period": {
+  "from": "2026-11-01",
+  "to": "2026-11-30"
+ },
+ "cutoff": "2026-11-15",
+ "review_note": "Draft prepared from records checked by 15 November 2026, for editorial review. Not published. The Philippines item rests on secondary reports; consider holding it until the advisory text is located.",
+ "argument": {
+  "headline": "A heat rule for outdoor work is scheduled to take effect; whether rules reach workers is not yet visible",
+  "claim": "Singapore's heat stress measures for outdoor work, announced on 28 August 2026, are scheduled to become mandatory on 1 December 2026. Two further developments on heat at work were reviewed this month, but rest on secondary reports. None of this yet shows whether rules are applied on worksites, or whom they reach.",
+  "rests_on": "One rule checked against its original source, one set of guidelines known only from news reports, and one survey reported by a ministry. Three items do not make a regional trend; they show where evidence of implementation would need to come from."
+ },
+ "opening": "This month's most consequential date falls just after the cut-off: on 1 December 2026, heat stress measures for outdoor work in Singapore move from advice to requirement. The Philippines issued workplace heat guidelines and compensation rules in October, though their text was not located among the sources checked. A survey in Viet Nam's two largest cities shows why the question matters. What none of these sources can yet show is whether the rules are applied, and whether they reach subcontracted and migrant workers.",
+ "developments": [
+  {
+   "id": "singapore-rule",
+   "h": "Singapore's heat stress measures for outdoor work become mandatory on 1 December",
+   "gist": "Announced on 28 August 2026 and scheduled to take effect on 1 December 2026; the date alone will not show compliance.",
+   "occurred": {
+    "date": "2026-08-28",
+    "what": "Announced; scheduled to take effect on 1 December 2026"
+   },
+   "reviewed": "2026-11-15",
+   "signals": "sig-singapore-mandatory-heat-measures-2026",
+   "claimed_step": "effective",
+   "why_here": "Announced in August, before this edition's period, and first reviewed by Common Shade on 15 November 2026. It is included because it takes effect two weeks after the cut-off, which makes it the month's most consequential date.",
+   "claims": [
+    {
+     "says": "The Ministry of Manpower announced on 28 August 2026 enhancements to its heat stress framework that take effect on 1 December 2026.",
+     "source": "mom",
+     "establishes": "The announcement and the effective date. It does not establish how compliance will be inspected or reported."
+    },
+    {
+     "says": "A legal update describes the measures, including drinking water, as mandatory for outdoor work from 1 December 2026.",
+     "source": "rajah-tann",
+     "establishes": "What the measures include, as read by a law firm. It is a secondary account, not the legal text."
+    }
+   ],
+   "reading": "A requirement, rather than advice, can give workers, worker organisations and inspectors a common standard to refer to. Its value will show in how it is applied, which no source can show before 1 December.",
+   "limits": [
+    "An effective date is not compliance.",
+    "How the measures reach subcontracted and migrant workers is not assessed in the sources checked."
+   ],
+   "would_change": "Inspection or enforcement reports after 1 December 2026, and the legal text that sets the duties.",
+   "links": [
+    [
+     "/signals/#sig-singapore-mandatory-heat-measures-2026",
+     "The Signals record"
+    ],
+    [
+     "/actions/#heatrules",
+     "Heat-safe work"
+    ]
+   ]
+  },
+  {
+   "id": "philippines-guidelines",
+   "h": "The Philippines issues heat stress guidelines and compensation rules, as reported",
+   "gist": "Reported on 24 and 27 October 2026; the advisory texts were not located among the sources checked.",
+   "occurred": {
+    "date": "2026-10-27",
+    "what": "Guidelines reported issued (compensation rules on 24 October, workplace guidelines on 27 October)"
+   },
+   "reviewed": "2026-11-15",
+   "signals": "sig-philippines-heat-stress-advisories-2026",
+   "claimed_step": "adopted",
+   "why_here": "Issued in late October and first reviewed by Common Shade in November. Included because it adds compensation for heat illness to workplace rules, a step beyond prevention.",
+   "claims": [
+    {
+     "says": "The Department of Labor and Employment issued guidelines requiring employers to protect workers from heat stress during El Niño.",
+     "source": "tribune-guidelines",
+     "establishes": "That a news report describes the guidelines. The advisory text itself, its coverage and its effective date are not verified."
+    },
+    {
+     "says": "The Department set out how heat stress and heat-related illness at work are compensated.",
+     "source": "tribune-compensation",
+     "establishes": "That a news report describes the rules. Claims filed or paid are not verified."
+    }
+   ],
+   "reading": "Compensation rules would mean heat illness at work is recognised as a work injury, which matters for workers' income when heat stops work. That reading depends on the text, which has not been seen.",
+   "limits": [
+    "Both items rest on news reports; the original advisories were not located among the sources checked.",
+    "Guidelines are not implementation, and compensation rules are not compensation paid."
+   ],
+   "would_change": "The advisory texts, and compensation claims for heat illness being filed and paid.",
+   "links": [
+    [
+     "/signals/#sig-philippines-heat-stress-advisories-2026",
+     "The Signals record"
+    ],
+    [
+     "/briefs/heat-ready-social-security/",
+     "Heat-ready social security"
+    ]
+   ]
+  },
+  {
+   "id": "viet-nam-survey",
+   "h": "A survey of outdoor workers in Viet Nam shows why the question matters",
+   "gist": "A 2026 survey in Hanoi and Ho Chi Minh City, reported by a ministry, found most outdoor workers report a heat-related health problem during heatwaves; it is a finding, not a rule.",
+   "occurred": {
+    "date": "2026-06",
+    "what": "Survey reported"
+   },
+   "reviewed": "2026-11-15",
+   "signals": "sig-viet-nam-outdoor-workers-2026",
+   "why_here": "Reported in June 2026 and first reviewed by Common Shade in November. Included as context for the rules above: it describes the exposure the rules address, in two of the region's largest cities.",
+   "claims": [
+    {
+     "says": "A 2026 study with UNDP surveyed 734 outdoor workers in Hanoi and Ho Chi Minh City; 94% reported at least one heat-related health problem while working during heatwaves.",
+     "source": "ministry",
+     "establishes": "What workers reported, as summarised by a ministry. The answers are self-reported, and how workers were sampled is not known until the original study is read."
+    }
+   ],
+   "reading": "Self-reported problems at this scale suggest the exposure that workplace rules address is common in large cities, not confined to a few trades.",
+   "limits": [
+    "A secondary summary of the study, not the study itself.",
+    "Self-reported health problems are not diagnoses, and the sample may not represent all outdoor workers."
+   ],
+   "would_change": "The original study, with its sampling and questions, and whether Viet Nam's labour or social protection rules add heat.",
+   "links": [
+    [
+     "/signals/#sig-viet-nam-outdoor-workers-2026",
+     "The Signals record"
+    ],
+    [
+     "/cities/hochiminh/",
+     "Ho Chi Minh City"
+    ]
+   ]
+  }
+ ],
+ "opportunity": {
+  "h": "Making a workplace heat rule checkable",
+  "gist": "A rule's value shows in how it is applied; published inspection findings on heat would let workers, employers and funders see that, and no source checked shows such findings yet.",
+  "problem": "Outdoor workers covered by new heat rules, including subcontracted and migrant workers who may be hardest to reach.",
+  "mechanism": "Published inspection or enforcement findings on heat measures, by sector and by type of employment, so a rule's reach can be seen.",
+  "claims": [
+   {
+    "says": "How compliance with Singapore's measures will be inspected and reported is not set out in the sources checked.",
+    "source": "mom",
+    "establishes": "That the announcement sets the duties and the date. It does not describe reporting."
+   },
+   {
+    "says": "For the Philippines guidelines, the advisory texts, coverage and effective dates were not located among the sources checked.",
+    "source": "tribune-guidelines",
+    "establishes": "Only that a news report describes the guidelines."
+   }
+  ],
+  "limits": [
+   "Inspection records show what inspectors find, not every workplace.",
+   "Publishing findings depends on the inspectorate's own rules and capacity."
+  ],
+  "roles": {
+   "proposal": true,
+   "note": "A possible arrangement, for discussion. No organisation has agreed to it.",
+   "authorise": "The authorities that set workplace rules",
+   "deliver": "Labour inspectorates, with employers' and workers' organisations",
+   "finance": "Public budgets, with philanthropy or research funding for an independent review",
+   "maintain": "Labour inspectorates and worker organisations"
+  },
+  "dependency": "Whether inspection findings are recorded by sector and type of employment, and can be published.",
+  "next_check": "Ask the labour inspectorate where you work whether heat measures are part of its inspections, and whether its findings are published.",
+  "links": [
+   [
+    "/actions/#heatrules",
+    "Heat-safe work"
+   ],
+   [
+    "/briefs/heat-ready-social-security/",
+    "Heat-ready social security"
+   ],
+   [
+    "/heat-tools/",
+    "Heat Tool Finder"
+   ]
+  ]
+ },
+ "question": {
+  "h": "What public record would show whether a heat rule at work reaches the workers it covers?",
+  "q": "When a heat rule for outdoor work takes effect, what public record would show whether it reaches subcontracted and migrant workers?",
+  "why_now": "A rule takes effect in Singapore on 1 December, and guidelines were reported in the Philippines in October. The first months after a rule takes effect are when a record of its reach is cheapest to start.",
+  "known": "The rules and their dates are known from an official announcement and from news reports. Most outdoor workers surveyed in Viet Nam's two largest cities report heat-related health problems.",
+  "unknown": "How compliance is inspected and recorded, and whether records distinguish subcontracted and migrant workers.",
+  "decision": "Whether worker organisations, inspectorates and funders invest in monitoring a rule's reach, and what that monitoring records.",
+  "would_help": "An account from an inspectorate of how heat is inspected, or an independent review of a rule's first season, recording who is covered (our suggestion).",
+  "claims": [
+   {
+    "says": "How compliance will be inspected and reported, and how far the measures reach subcontracted and migrant workers, are not assessed in the sources checked.",
+    "source": "mom",
+    "establishes": "Only that the announcement does not set this out."
+   }
+  ],
+  "revisits": {
+   "edition": "2026-10",
+   "q": "How do heat-health pilots in Southeast Asia keep their institutional footing once their first funding ends?",
+   "new_evidence": "None was added to the knowledge base by the cut-off.",
+   "changed": "No: the reading in October stands.",
+   "unresolved": "Which parts of a pilot continue after the first grant, and who pays for them."
+  },
+  "links": [
+   [
+    "/signals/#sig-singapore-mandatory-heat-measures-2026",
+    "The Singapore record"
+   ]
+  ]
+ },
+ "watch": [
+  {
+   "what": "Singapore's measures after 1 December 2026",
+   "evidence": "Inspection or enforcement reports, and the legal text",
+   "link": [
+    "/signals/#sig-singapore-mandatory-heat-measures-2026",
+    "Signals"
+   ]
+  },
+  {
+   "what": "The Philippines advisories",
+   "evidence": "The advisory texts, with coverage and effective dates",
+   "link": [
+    "/signals/#sig-philippines-heat-stress-advisories-2026",
+    "Signals"
+   ]
+  },
+  {
+   "what": "COP31's outcome on health and heat",
+   "evidence": "The closing synthesis on Signals, written only after review",
+   "link": [
+    "/signals/#cop31",
+    "The COP31 watch"
+   ]
+  }
+ ],
+ "audiences": [
+  {
+   "who": "city",
+   "q": "Which outdoor workers does your city employ or contract, and would they be covered by a national heat rule?"
+  },
+  {
+   "who": "workers",
+   "q": "When a heat rule takes effect, who will workers tell if it is not applied, and is that recorded?"
+  },
+  {
+   "who": "funders",
+   "q": "Would support for an independent review of a heat rule's first season show more than support for another pilot?"
+  },
+  {
+   "who": "researchers",
+   "q": "What would an inspection record need to hold to show a rule's reach by type of employment?"
+  }
+ ],
+ "platform": {
+  "p": "Signals now tracks each commitment deliverable by deliverable, with what the evidence confirms. Every city page has heat today and heat over time, with a check that withdrew Bangkok's daytime trends after a change at the station. A policy brief sets out how social security could cushion lost work in the heat.",
+  "links": [
+   [
+    "/signals/",
+    "Signals"
+   ],
+   [
+    "/briefs/heat-ready-social-security/",
+    "Heat-ready social security"
+   ],
+   [
+    "/corrections/",
+    "Corrections"
+   ]
+  ]
+ },
+ "sources": {
+  "mom": {
+   "origin": "signals:sig-singapore-mandatory-heat-measures-2026/mom",
+   "date": "2026-08-28",
+   "publisher": "Ministry of Manpower, Singapore",
+   "added": "2026-11-15",
+   "title": "Ministry of Manpower, Singapore, 2026: Enhancements to heat stress framework (from 1 December 2026)",
+   "url": "https://www.mom.gov.sg/newsroom/press-releases/2026/0828-enhancements-to-heat-stress-framework",
+   "type": "original",
+   "archive": "",
+   "check": {
+    "kind": "content",
+    "checked": "2026-11-15",
+    "batch": "2026-11-csd9-heat",
+    "status": "OK",
+    "found": [
+     "1 December 2026",
+     "drinking water"
+    ],
+    "missing": []
+   },
+   "fp": "273b276bcaed"
+  },
+  "rajah-tann": {
+   "origin": "signals:sig-singapore-mandatory-heat-measures-2026/rajah-tann",
+   "date": "2026",
+   "added": "2026-11-15",
+   "title": "Rajah & Tann Asia, 2026: Heat stress management framework to be enhanced from 1 December 2026",
+   "url": "https://www.rajahtannasia.com/viewpoints/heat-stress-management-framework-to-be-enhanced-from-1-december-2026/",
+   "type": "secondary",
+   "archive": "",
+   "check": {
+    "kind": "content",
+    "checked": "2026-11-15",
+    "batch": "2026-11-csd9-heat",
+    "status": "OK",
+    "found": [
+     "1 December 2026",
+     "drinking water"
+    ],
+    "missing": []
+   },
+   "fp": "273b276bcaed"
+  },
+  "tribune-guidelines": {
+   "origin": "signals:sig-philippines-heat-stress-advisories-2026/tribune-guidelines",
+   "date": "2026-10-27",
+   "added": "2026-11-15",
+   "title": "Daily Tribune, 2026: DOLE issues workplace heat stress guidelines",
+   "url": "https://tribune.net.ph/2026/10/27/dole-issues-workplace-heat-stress-guidelines",
+   "type": "secondary",
+   "archive": "",
+   "check": {
+    "kind": "content",
+    "checked": "2026-11-15",
+    "batch": "2026-11-csd9-heat",
+    "status": "OK",
+    "found": [
+     "heat",
+     "Labor Advisory"
+    ],
+    "missing": []
+   },
+   "fp": "854161c0ab78"
+  },
+  "tribune-compensation": {
+   "origin": "signals:sig-philippines-heat-stress-advisories-2026/tribune-compensation",
+   "date": "2026-10-24",
+   "added": "2026-11-15",
+   "title": "Daily Tribune, 2026: DOLE sets compensation rules for heat-related illnesses",
+   "url": "https://tribune.net.ph/2026/10/24/dole-sets-compensation-rules-for-heat-related-illnesses",
+   "type": "secondary",
+   "archive": "",
+   "check": {
+    "kind": "content",
+    "checked": "2026-11-15",
+    "batch": "2026-11-csd9-heat",
+    "status": "OK",
+    "found": [
+     "heat",
+     "compensation"
+    ],
+    "missing": []
+   },
+   "fp": "854161c0ab78"
+  },
+  "ministry": {
+   "origin": "signals:sig-viet-nam-outdoor-workers-2026/ministry",
+   "date": "2026",
+   "added": "2026-11-15",
+   "title": "Ministry of Agriculture and Environment, Viet Nam, 2026: 94% of outdoor workers report heat-related health problems: UNDP report",
+   "url": "https://en.mae.gov.vn/94-of-outdoor-workers-report-heatrelated-health-problems-undp-report-9432.htm",
+   "type": "secondary",
+   "archive": "",
+   "check": {
+    "kind": "content",
+    "checked": "2026-11-15",
+    "batch": "2026-11-city-heat",
+    "status": "OK",
+    "found": [
+     "94",
+     "734"
+    ],
+    "missing": []
+   },
+   "fp": "d99fca3f6e37"
+  }
+ },
+ "revisions": []
+}

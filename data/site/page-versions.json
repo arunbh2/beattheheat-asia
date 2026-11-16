@@ -148,8 +148,8 @@
   "changed": "2026-11-15"
  },
  "/corrections/": {
-  "hash": "d348c46c36d6a2d0",
-  "changed": "2026-11-15"
+  "hash": "a5f220db2b9e22fa",
+  "changed": "2026-11-16"
  },
  "/countries/": {
   "hash": "b3ffff3feb63ee0e",
@@ -208,7 +208,7 @@
   "changed": "2026-11-07"
  },
  "/growing/": {
-  "hash": "f3dd5836a5633f99",
+  "hash": "5ee8a4338c536e48",
   "changed": "2026-11-16"
  },
  "/guide/": {
@@ -240,7 +240,7 @@
   "changed": "2026-11-06"
  },
  "/heat-network/": {
-  "hash": "2b13fe64281d949c",
+  "hash": "b5104e24629113ea",
   "changed": "2026-11-16"
  },
  "/heat-tools/": {
@@ -640,8 +640,12 @@
   "changed": "2026-10-01"
  },
  "/whats-new/": {
-  "hash": "88db622abfabfa2a",
-  "changed": "2026-10-31"
+  "hash": "8416da20b5543628",
+  "changed": "2026-11-16"
+ },
+ "/whats-new/2026-10/": {
+  "hash": "387b812b0067fae5",
+  "changed": "2026-11-16"
  },
  "/who-holds-it/": {
   "hash": "f0f46ef81076c17d",

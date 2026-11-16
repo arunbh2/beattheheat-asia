@@ -1,6 +1,9 @@
 {
  "about": "The public corrections log. Newest first. Each entry says what was wrong, what changed and where, in plain words, with an apology where one is owed. Entries are never removed. The monthly update adds an entry for any knowledge-base record that carries a 'correction' note.",
  "entries": [
+  { "date": "2026-11-16", "where": ["State of the field, October 2026"], "what": "The October 2026 edition listed Bangladesh's first urban heatwave action plan, for Narayanganj, among the month's new records without its date, so it read as an October development.",
+    "change": "The plan records its approval on 22 September 2025; October 2026 is when Bangladesh's heat and health assessment reported it. The edition now gives both dates, and keeps its first text unchanged below the revision log.",
+    "sorry": "We are sorry. A reader planning around this could have taken an older plan for a new one." },
   { "date": "2026-11-15", "where": ["Bangkok city page (Heat over time)"], "what": "For part of a day, the Bangkok page said its weather station shows a clear rise in hot days and in the hottest day of each year.",
     "change": "A new check compares each station with the regional model. Bangkok's daytime record shifts by about 0.7 °C against the model from 2006, which points to a change at the station rather than in the weather, so hot days and the hottest day now show their chart with no trend. The station's readings are not in doubt, and the rise in warm nights still stands.",
     "sorry": "We are sorry. A trend that cannot be told apart from a change at the station was shown as a clear rise before that check existed." },

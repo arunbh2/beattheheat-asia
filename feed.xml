@@ -15,6 +15,13 @@
     <summary>Each commitment on Signals is now tracked deliverable by deliverable, so an office, a research fund and a future plan no longer share one status, and every milestone names its sources, what each establishes and whether the site's source check confirmed it. Secondary reports and pages that only opened are shown as such, nothing missing is called failed, and a filtered view can be shared, saved, printed or downloaded.</summary>
   </entry>
   <entry>
+    <title>State of the field becomes a dated, sourced monthly briefing with an archive</title>
+    <link href="https://beattheheat.asia/growing/#g-state-of-the-field-editions" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-state-of-the-field-editions</id>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <summary>Each edition now makes one argument and states what it rests on, keeps apart when something happened and when Common Shade reviewed it, and shows for every claim its source, what that source establishes and what it does not. Editions keep what they said at publication, corrections are dated in the edition and on the corrections page, and each edition has a stable link, a print layout and a Markdown briefing.</summary>
+  </entry>
+  <entry>
     <title>A policy brief on heat-ready social security, with examples from across Asia</title>
     <link href="https://beattheheat.asia/growing/#g-heat-ready-social-security" rel="alternate" type="text/html"/>
     <id>https://beattheheat.asia/growing/#g-heat-ready-social-security</id>
@@ -209,12 +216,5 @@
     <id>https://beattheheat.asia/growing/#g-watch-outs</id>
     <updated>2026-11-07T00:00:00Z</updated>
     <summary>An action can help one group and burden another. Showing documented side effects next to each action is a revised reading of what helps, not a reason to stop.</summary>
-  </entry>
-  <entry>
-    <title>Who could help a household through a hot season, country by country</title>
-    <link href="https://beattheheat.asia/growing/#g-social-protection" rel="alternate" type="text/html"/>
-    <id>https://beattheheat.asia/growing/#g-social-protection</id>
-    <updated>2026-11-07T00:00:00Z</updated>
-    <summary>Public schemes could cushion lost work and care costs in a hot season. Setting out who runs each, what it gives and how far people get through the steps of access shows where support stops.</summary>
   </entry>
 </feed>

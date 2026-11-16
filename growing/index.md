@@ -5,7 +5,7 @@ updated: 2026-11-16
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 56 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 57 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-56 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,112 works the commons draws on carry a publication date, and 808 are still being dated.
+57 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,112 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -54,6 +54,43 @@ Several tracked rules concern heat at work, each now with its effective date and
 [See Signals](https://beattheheat.asia/signals/)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Signals%20now%20shows%20what%20the%20evidence%20confirms%20for%20each%20promise&ref=g-signals-evidence-records#way-share)
+
+Tool improved · Evidence
+
+### State of the field becomes a dated, sourced monthly briefing with an archive
+
+Added 16 November 2026 · State of the field rebuilt as dated editions 16 November 2026
+
+Why it matters our readingEach edition now makes one argument and states what it rests on, keeps apart when something happened and when Common Shade reviewed it, and shows for every claim its source, what that source establishes and what it does not. Editions keep what they said at publication, corrections are dated in the edition and on the corrections page, and each edition has a stable link, a print layout and a Markdown briefing.
+
+- South and Southeast Asia
+- Workers in heat-exposed jobs
+- Heat-safe work
+- Dedicated heat budgets
+
+ReviewThe October edition re-described from its own checked records with no new claims, its first text kept unchanged; one correction found and logged; an independent review of the edition model; the rules tested on fixtures. 5 checked · 5 confirmed.
+
+What it took to add this
+
+- **The question.** What does a monthly briefing on heat need, so a reader can trust it, trace it and act on it?
+- **The search.** 5 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 5 confirmed.
+- **What we set aside.** 13 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+
+- **What is still open.** The November edition is a draft awaiting the owner's review; the Philippines advisory texts have not been located.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-10/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/sof-rebuild/README.md)
+
+How it connects
+
+- [Heat-safe work](https://beattheheat.asia/actions/#heatrules) Action · from the site's records
+The October edition's opportunity concerns heat-safe work, with what the evidence supports and what the funding trace cannot see.
+
+[Read State of the field](https://beattheheat.asia/whats-new/)
+[October 2026 edition](https://beattheheat.asia/whats-new/2026-10/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=State%20of%20the%20field%20becomes%20a%20dated%2C%20sourced%20monthly%20briefing%20with%20an%20archive&ref=g-state-of-the-field-editions#way-share)
 
 Evidence added · Practical measures
 

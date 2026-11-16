@@ -109,7 +109,7 @@ function pathCards(pathname) {
 
 // the latest State of the field brief, so returning readers can be told, once, that a new one is out
 const BRIEFS_DIR = path.join(__dirname, "..", "data", "site", "briefs");
-const BRIEF = fs.existsSync(BRIEFS_DIR) ? (fs.readdirSync(BRIEFS_DIR).filter(f => /^\d{4}-\d{2}\.json$/.test(f)).sort().pop() || "").replace(".json", "") : "";
+const BRIEF = fs.existsSync(BRIEFS_DIR) ? (fs.readdirSync(BRIEFS_DIR).filter(f => /^\d{4}-\d{2}\.json$/.test(f) && JSON.parse(fs.readFileSync(path.join(BRIEFS_DIR, f), "utf8")).status !== "draft").sort().pop() || "").replace(".json", "") : "";
 const BRIEF_LABEL = BRIEF ? new Date(BRIEF + "-01T00:00:00Z").toLocaleDateString("en-GB", { month: "long", year: "numeric", timeZone: "UTC" }) : "";
 // one next step after any page: the next page in its menu group, or the group's hub
 function nextOf(pathname) {

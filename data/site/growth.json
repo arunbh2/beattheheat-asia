@@ -773,6 +773,17 @@
                   "open": "The original texts behind records that rest on secondary reports, and content checks for sources that have only been opened." },
       "pages": [["/signals/", "Signals"]], "action": ["See Signals", "/signals/"],
       "links": [{ "to": "lever:heatrules", "why": "Several tracked rules concern heat at work, each now with its effective date and evidence.", "basis": "record" }]
+    },
+    { "id": "g-state-of-the-field-editions", "kind": "tool", "root": "evidence", "added": "2026-11-16", "pr": null,
+      "title": "State of the field becomes a dated, sourced monthly briefing with an archive",
+      "why": "Each edition now makes one argument and states what it rests on, keeps apart when something happened and when Common Shade reviewed it, and shows for every claim its source, what that source establishes and what it does not. Editions keep what they said at publication, corrections are dated in the edition and on the corrections page, and each edition has a stable link, a print layout and a Markdown briefing.",
+      "places": ["region"], "people": ["workers"], "topics": ["heatrules", "heatbudget"],
+      "event": {"what": "State of the field rebuilt as dated editions", "date": "2026-11-16"},
+      "review": "The October edition re-described from its own checked records with no new claims, its first text kept unchanged; one correction found and logged; an independent review of the edition model; the rules tested on fixtures",
+      "effort": { "asked": "What does a monthly briefing on heat need, so a reader can trust it, trace it and act on it?", "inbox": "data/inbox/2026-10", "dropped": "research/2026-11/sof-rebuild/README.md",
+                  "open": "The November edition is a draft awaiting the owner's review; the Philippines advisory texts have not been located." },
+      "pages": [["/whats-new/", "State of the field"], ["/whats-new/2026-10/", "October 2026 edition"]], "action": ["Read State of the field", "/whats-new/"],
+      "links": [{ "to": "lever:heatrules", "why": "The October edition's opportunity concerns heat-safe work, with what the evidence supports and what the funding trace cannot see.", "basis": "record" }]
     }
   ]
 }

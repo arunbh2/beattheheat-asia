@@ -104,14 +104,20 @@ Run `node tools/merge-inbox.js <month>` (with `PW` set to the Playwright path fo
 
 If gate 7 fails, nothing is published: fix the cause and run it again. If a cycle's evidence changes in a way that touches its composite person (`data/site/people.json`), update the story so it stays true to the evidence: a role, never a name, and no figures of its own.
 
-## 10. Write the State of the field brief
-Write `data/site/briefs/<month>.json` (see `2026-10.json`). It has four short sections, each linking to the pages that show it:
-1. where philanthropic money moved;
-2. one opportunity the evidence supports;
-3. one question that grew in importance;
-4. what changed on Common Shade, including studies added through the weekly review and documents added to the archive.
-
-Keep it calm, citable and humble, with no asks. Rebuild (`node tools/build-static.js`).
+## 10. Draft the State of the field edition
+State of the field is a monthly briefing built around one argument, not a summary of everything added. See the State of the field section in `CLAUDE.md`.
+1. `node tools/sof-review.js new <month>` writes a draft in `data/site/briefs/drafts/`. Fill it from checked records only (the knowledge base and `data/site/signals.json`), citing each source by origin (`kb:<id>`, `signals:<sig-id>/<source-id>` or `site:/path/#anchor`).
+2. Write one central argument with what it rests on, then up to three developments, one opportunity, one open question, a forward look, one question each for the readers it concerns, and a short note on Common Shade with a link to /growing/. Leave out any section the evidence cannot support.
+3. Keep the dates apart. For every development, give when it happened or was published (`occurred`) and when Common Shade reviewed it (`reviewed`). Anything outside the reporting period needs `why_here`.
+4. For every claim, name its source and what it establishes and does not.
+   - A "not found" claim states what was searched.
+   - A source that was not content-checked is marked `unverified`.
+   - Keep these distinctions: announced versus received; commitment versus implementation; a study versus proof at scale; a gap in traced funding versus no funding.
+5. Mark proposed roles in the opportunity `proposal: true` and keep them generic, never naming an organisation as if it had agreed.
+6. If the edition revisits an earlier edition's question, give the new evidence and say whether the reading changed. Never manufacture continuity.
+7. Run `node tools/sof-review.js snapshot <month>` and `node tools/sof-review.js check <month>`. Read the preview in `research/sof-preview/whats-new/<month>/` (git-ignored). Then hand the draft to the owner for review.
+8. Publish only once the owner approves, with `node tools/sof-review.js publish <month> <date> "<approver role>"`. A month passing never creates an edition.
+9. To correct a published edition, add a dated `revisions` entry (`correction`, with a gist) and an entry in `data/site/corrections.json`, then `node tools/sof-review.js seal <month>`. Never edit a published edition silently; `node tools/check-sof.js` fails if one changes without a sealed revision.
 
 ## 11. Ship
 Bump the cache version (`?v=N`) if styles or scripts changed. Then run:
@@ -120,6 +126,7 @@ Bump the cache version (`?v=N`) if styles or scripts changed. Then run:
 - `node tools/build-data.js --check`
 - `npm run check:hap`
 - `node tools/living-evidence/check.js`
+- `node tools/check-sof.js`
 - `git add -A`, then `node tools/check-site.js`
 
 Commit with a clear message, open a pull request, merge it once the checks pass, and fast-forward the branch to `main`. Never force-push.
