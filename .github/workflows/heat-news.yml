@@ -25,8 +25,8 @@ jobs:
       - run: node tools/fetch-research.js
       - run: node tools/archive-news.js
       - run: node tools/news-status.js
-      - name: Rebuild the sources page with the archive (and its agent head block, which check-agent-files.js needs)
-        run: node tools/build-sources.js && node tools/build-nav.js && node tools/build-agent-files.js
+      - name: Rebuild the sources page with the archive (with its explainer film and agent head block, as build-static.js adds them)
+        run: node tools/build-sources.js && node tools/build-nav.js && node tools/shorts/embed.js && node tools/explainers/embed.js && node tools/build-agent-files.js
       - name: Commit the feed if it changed
         run: |
           if git diff --quiet -- feeds sources && [ -z "$(git ls-files --others --exclude-standard feeds)" ]; then echo "No change"; exit 0; fi
