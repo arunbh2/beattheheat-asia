@@ -2,6 +2,20 @@
  "note": "Every item that has appeared on /news/. Built by tools/archive-news.js.",
  "news": [
   {
+   "title": "3 areas recorded ‘dangerous’ heat index on Monday, Nov. 16",
+   "url": "https://newsinfo.inquirer.net/2342293/3-areas-recorded-dangerous-heat-index-on-monday-nov-16",
+   "via": "Inquirer",
+   "date": "2026-11-16T19:07:08Z",
+   "place": "Philippines"
+  },
+  {
+   "title": "Rising preterm births in Bangladesh linked to extreme heat, research suggests",
+   "url": "https://news.mongabay.com/2026/11/rising-preterm-births-in-bangladesh-linked-to-extreme-heat-research-suggests/",
+   "via": "Mongabay",
+   "date": "2026-11-16T11:28:28Z",
+   "place": "Bangladesh"
+  },
+  {
    "title": "Puerto Princesa heat index to hit 45°C Monday",
    "url": "https://newsinfo.inquirer.net/2341794/puerto-princesa-heat-index-to-hit-45c-monday",
    "via": "Inquirer",
@@ -231,6 +245,14 @@
    "journal": "The journal of climate change and health",
    "date": "2026-10-28",
    "firstAuthor": "Saleem SG",
+   "preprint": false
+  },
+  {
+   "title": "Fractional restoration of heat stress induced mitochondrial dysfunction in thermotolerant HepG2 cells.",
+   "url": "https://doi.org/10.1016/j.crphys.2026.100193",
+   "journal": "Current research in physiology",
+   "date": "2026-10-28",
+   "firstAuthor": "Gupta A",
    "preprint": false
   },
   {
@@ -1259,5 +1281,5 @@
    "issue": "2027-07-28"
   }
  ],
- "updated": "2026-11-15T18:59:00.158Z"
+ "updated": "2026-11-16T22:20:53.431Z"
 }
