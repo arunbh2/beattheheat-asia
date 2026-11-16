@@ -817,6 +817,15 @@
                   "open": "Whether heat plans in Southeast Asia trigger on humid heat measures, and how long the longest humid heatwaves could last." },
       "pages": [["/actions/#hap", "Heat action plans"], ["/evidence-map/#q-longer-heat", "The open question"]], "action": ["See the open question", "/evidence-map/#q-longer-heat"],
       "links": [{ "to": "lever:hap", "why": "A second watch-out, on humid heat in Southeast Asia.", "basis": "record" }]
+    },
+    { "id": "g-build-to-plan", "kind": "tool", "root": "practical", "added": "2026-11-16", "pr": null,
+      "title": "Actions chosen in Build protection now carry into a plan",
+      "why": "A reader chose paid rest breaks in Build protection, followed the link to Plan a response and found an empty plan. The actions now carry across and join whatever the plan already holds, without replacing any notes, and each line says which actions it came from.",
+      "places": ["region"], "people": ["workers"], "topics": ["heatrules"],
+      "event": { "what": "Build protection and Plan a response joined up", "date": "2026-11-16" },
+      "review": "Tested in a browser: three actions carried across, notes typed, the evidence and finance pages visited, and the same three actions and notes found on return",
+      "pages": [["/build/", "Build protection"], ["/plan/", "Plan a response"]], "action": ["Build a package", "/build/"],
+      "links": [{ "to": "lever:heatrules", "why": "Paid rest breaks, the action that showed the gap, now arrive in the plan under heat-safe work.", "basis": "record" }]
     }
   ]
 }

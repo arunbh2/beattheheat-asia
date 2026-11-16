@@ -1,7 +1,7 @@
 ---
 title: "Build protection"
 url: https://beattheheat.asia/build/
-updated: 2026-11-13
+updated: 2026-11-16
 licence: CC BY 4.0
 ---
 
@@ -38,6 +38,8 @@ Choose a place, add actions, and see which cycles they could help interrupt, wha
 - **No recommendations**The portfolio view shows balance and blind spots. It never recommends an organisation or a grantee.
 
 - **Saved in the address**Your package lives in the page address, so you can bookmark it or share it. Nothing is sent to us.
+
+- **Carried into a plan**"Carry these actions into a plan" adds them to Plan a response, which keeps its plan in your browser. Anything already in that plan stays as it is, and each line says which actions it came from.
 
 [Practical actions](https://beattheheat.asia/practical/) · [Who holds it up](https://beattheheat.asia/who-holds-it/) · [Make it work together](https://beattheheat.asia/together/) · [Plan a response](https://beattheheat.asia/plan/)
 

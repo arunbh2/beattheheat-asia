@@ -1454,8 +1454,11 @@
   const EXAMPLES = typeof WORKED_EXAMPLES !== "undefined" ? WORKED_EXAMPLES : [];
   const STALL_LIST = typeof STALLS !== "undefined" ? STALLS : [];
   const PLAN_KEY = "bth-plan-v1";
-  let plan = { place: "", group: "", levers: [], rows: {}, example: null, stalls: [], triggers: {}, review: "", exposure: [], finance: {}, reviewLog: {} };
-  try { const saved = JSON.parse(localStorage.getItem(PLAN_KEY) || "null"); if (saved && Array.isArray(saved.levers)) plan = Object.assign(plan, saved); if (!Array.isArray(plan.stalls)) plan.stalls = []; if (!plan.triggers || typeof plan.triggers !== "object") plan.triggers = {}; if (!Array.isArray(plan.exposure)) plan.exposure = []; if (!plan.finance || typeof plan.finance !== "object") plan.finance = {}; } catch (e) {}
+  // an action no longer in the data is set aside (its notes stay in storage, under plan.retired) rather than breaking the plan
+  function retireUnknown() { const gone = plan.levers.filter(id => !leverById[id]); if (!gone.length) return;
+    plan.retired = [...new Set([...(Array.isArray(plan.retired) ? plan.retired : []), ...gone])]; plan.levers = plan.levers.filter(id => leverById[id]); }
+  let plan = { place: "", group: "", levers: [], rows: {}, example: null, stalls: [], triggers: {}, review: "", exposure: [], finance: {}, reviewLog: {}, origins: {} };
+  try { const saved = JSON.parse(localStorage.getItem(PLAN_KEY) || "null"); if (saved && Array.isArray(saved.levers)) plan = Object.assign(plan, saved); if (!Array.isArray(plan.stalls)) plan.stalls = []; if (!plan.triggers || typeof plan.triggers !== "object") plan.triggers = {}; if (!Array.isArray(plan.exposure)) plan.exposure = []; if (!plan.finance || typeof plan.finance !== "object") plan.finance = {}; if (!plan.origins || typeof plan.origins !== "object" || Array.isArray(plan.origins)) plan.origins = {}; retireUnknown(); } catch (e) {}
   const savePlan = () => { try { localStorage.setItem(PLAN_KEY, JSON.stringify(plan)); } catch (e) {} if (!PLAN_PAGE) renderPlanLaunch(); };
   const PHASES = typeof PLAN_PHASES !== "undefined" ? PLAN_PHASES : [], PHASE_DEF = typeof PLAN_PHASE_DEFAULT !== "undefined" ? PLAN_PHASE_DEFAULT : {};
   const phaseById = Object.fromEntries(PHASES.map(x => [x.id, x]));
@@ -1529,12 +1532,14 @@
 
   function renderPlanRows() {
     const box = document.getElementById("plan-rows"); if (!box) return;
-    if (!plan.levers.length) { box.innerHTML = `<p class="plan-step__hint">Choose at least one action above.</p>`; return; }
-    box.innerHTML = plan.levers.map(id => {
+    const live = plan.levers.filter(id => leverById[id]);
+    if (!live.length) { box.innerHTML = `<p class="plan-step__hint">Choose at least one action above.</p>`; return; }
+    box.innerHTML = live.map(id => {
       const v = leverById[id], r = planRow(id);
       const leads = [...new Set([...(v.who || []), ...INSTITUTIONS.map(i => i.id)])];
       return `<div class="plan-row" data-pl-row="${id}">
         <p class="plan-row__title">${esc(v.title)} ${whenTag(v)}${LADDER.length ? ladderDots(rowCounts(r)) : ""}</p>
+        ${originText(id) ? `<p class="plan-step__hint plan-row__wide">${esc(originText(id))}</p>` : ""}
         <label>Who leads <select data-pl-field="lead">${leads.map(i => `<option value="${i}"${r.lead === i ? " selected" : ""}>${esc(instById[i].name)}${(v.who || []).includes(i) ? "" : " (not usual)"}</option>`).join("")}</select></label>
         <label>Who pays <select data-pl-field="payer">${PAYERS.map(p => `<option${r.payer === p ? " selected" : ""}>${esc(p)}</option>`).join("")}</select></label>
         ${PHASES.length ? `<label>When it happens <select data-pl-field="phase">${PHASES.map(x => `<option value="${x.id}"${r.phase === x.id ? " selected" : ""}>${esc(x.name)}</option>`).join("")}</select></label>` : ""}
@@ -1839,8 +1844,8 @@
   function planText() {
     const g = PG.find(x => x.id === plan.group), L = [];
     L.push("HEAT RESPONSE PLAN", `Place: ${plan.place || "(not set)"}`, `People at risk: ${g ? g.name : "(not set)"}`, `Made with the Common Shade systems map: ${location.origin + location.pathname}`, "");
-    plan.levers.forEach((id, i) => { const v = leverById[id], r = planRow(id);
-      L.push(`${i + 1}. ${v.title} [${WHEN[v.when] || ""}]`, `   Leads: ${instById[r.lead] ? instById[r.lead].name : "-"}`, `   Pays: ${r.payer}`, `   When: ${phaseById[r.phase] ? phaseById[r.phase].name : "-"}`, `   How we will know: ${r.measure || v.measure || "-"}`);
+    plan.levers.filter(id => leverById[id]).forEach((id, i) => { const v = leverById[id], r = planRow(id);
+      L.push(`${i + 1}. ${v.title} [${WHEN[v.when] || ""}]`, ...(originText(id) ? [`   ${originText(id)}`] : []), `   Leads: ${instById[r.lead] ? instById[r.lead].name : "-"}`, `   Pays: ${r.payer}`, `   When: ${phaseById[r.phase] ? phaseById[r.phase].name : "-"}`, `   How we will know: ${r.measure || v.measure || "-"}`);
       if (LADDER.length) L.push(`   Where it stands: ${LADDER[lRank(rowCounts(r))].name}${r.ev ? ` (shown by: ${r.ev})` : ""}`);
       if (isAsset(id)) L.push(`   Kept working by: ${r.upkeep || "(not set)"}`);
       DELIVER.forEach(f => L.push(`   ${f.name}: ${(r.deliver || {})[f.id] || "(not set)"}`)); });
@@ -1888,8 +1893,8 @@
       .read a{color:#16202B;text-decoration-color:#F26430;text-underline-offset:3px}.read .by{color:#5E6570;font-size:12.5px}.read .u{display:none}
       .print{position:fixed;top:16px;right:16px;padding:10px 18px;border-radius:999px;border:0;background:#F26430;font-weight:700;cursor:pointer}
       @media print{.print{display:none}body{margin:0}.read .u{display:block;color:#5E6570;font-size:11px;word-break:break-all}h2{break-after:avoid}.read h3{break-after:avoid}}`;
-    const rows = plan.levers.map(id => { const v = leverById[id], r = planRow(id);
-      return `<tr><td><strong>${h(v.title)}</strong><br><span class="note">${h(WHEN[v.when] || "")}</span>${isAsset(id) ? `<br><span class="${(r.upkeep || "").trim() ? "note" : "gap"}">Kept working by: ${h(r.upkeep || "not set")}</span>` : ""}${DELIVER.filter(f => (r.deliver || {})[f.id]).map(f => `<br><span class="note">${h(f.name)}: ${h(r.deliver[f.id])}</span>`).join("")}${LADDER.length ? `<br><span class="${lRank(rowCounts(r)) >= lRank("agreed") ? "note" : "gap"}">Where it stands: ${h(LADDER[lRank(rowCounts(r))].name)}${r.ev ? ` (${h(r.ev)})` : ""}</span>` : ""}</td><td>${h(phaseById[r.phase] ? phaseById[r.phase].name : "")}</td><td>${h(instById[r.lead] ? instById[r.lead].name : "")}</td><td class="${r.payer === "Not decided yet" ? "gap" : ""}">${h(r.payer)}</td><td>${h(r.measure || v.measure || "")}</td></tr>`; }).join("");
+    const rows = plan.levers.filter(id => leverById[id]).map(id => { const v = leverById[id], r = planRow(id);
+      return `<tr><td><strong>${h(v.title)}</strong><br><span class="note">${h(WHEN[v.when] || "")}</span>${originText(id) ? `<br><span class="note">${h(originText(id))}</span>` : ""}${isAsset(id) ? `<br><span class="${(r.upkeep || "").trim() ? "note" : "gap"}">Kept working by: ${h(r.upkeep || "not set")}</span>` : ""}${DELIVER.filter(f => (r.deliver || {})[f.id]).map(f => `<br><span class="note">${h(f.name)}: ${h(r.deliver[f.id])}</span>`).join("")}${LADDER.length ? `<br><span class="${lRank(rowCounts(r)) >= lRank("agreed") ? "note" : "gap"}">Where it stands: ${h(LADDER[lRank(rowCounts(r))].name)}${r.ev ? ` (${h(r.ev)})` : ""}</span>` : ""}</td><td>${h(phaseById[r.phase] ? phaseById[r.phase].name : "")}</td><td>${h(instById[r.lead] ? instById[r.lead].name : "")}</td><td class="${r.payer === "Not decided yet" ? "gap" : ""}">${h(r.payer)}</td><td>${h(r.measure || v.measure || "")}</td></tr>`; }).join("");
     const html = `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Heat response plan: ${h(plan.place || "draft")}</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Newsreader:ital,wght@0,400;0,500;1,400&display=swap"><style>${css}</style></head><body>
       <button class="print" onclick="window.print()">Print or save as PDF</button>
       <p class="k">Heat response plan · draft</p><h1>${h(plan.place || "Our place")}</h1>
@@ -1933,7 +1938,7 @@
     const ex = EXAMPLES.find(x => x.id === id); if (!ex) return;
     if (!PLAN_PAGE) { goToPlan("plan-story", "?example=" + id); return; }
     track("plan-example-" + id);
-    plan = { place: ex.place, group: ex.group, levers: ex.actions.map(a => a.lever), rows: {}, example: ex.id, stalls: [], triggers: Object.assign({}, ex.triggers || {}), review: "", exposure: [], finance: {}, reviewLog: {} };
+    plan = { place: ex.place, group: ex.group, levers: ex.actions.map(a => a.lever), rows: {}, example: ex.id, stalls: [], triggers: Object.assign({}, ex.triggers || {}), review: "", exposure: [], finance: {}, reviewLog: {}, origins: {} };
     ex.actions.forEach(a => { plan.rows[a.lever] = { lead: a.lead, payer: a.payer, measure: a.measure, phase: a.phase || PHASE_DEF[a.lever] || "year" }; });
     savePlan(); renderPlan();
     document.getElementById("plan-story").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" });
@@ -2013,6 +2018,7 @@
       } else if (t.dataset.plLever) {
         const id = t.dataset.plLever;
         plan.levers = t.checked ? [...plan.levers.filter(x => x !== id), id] : plan.levers.filter(x => x !== id);
+        if (!t.checked && plan.origins) delete plan.origins[id];
         changed();
       } else if (t.dataset.plStall) {
         const id = t.dataset.plStall;
@@ -2051,7 +2057,7 @@
       else if (act === "link") { const u = planStartLink(); track("plan-link");
         navigator.clipboard.writeText(u).then(() => { if (status) status.textContent = "Link copied. Whoever opens it starts a plan with this place, group and actions (not your notes, owners or money)."; }, () => { if (status) status.textContent = u; }); }
       else if (act === "copy") navigator.clipboard.writeText(planText()).then(() => { if (status) status.textContent = "Plan copied. Paste it into an email or document."; }, () => { if (status) status.textContent = "Couldn’t copy. Use “Open a printable plan” instead."; });
-      else if (act === "clear") { plan = { place: "", group: "", levers: [], rows: {}, example: null, stalls: [], triggers: {}, review: "", exposure: [], finance: {}, reviewLog: {} }; savePlan(); renderPlan(); }
+      else if (act === "clear") { plan = { place: "", group: "", levers: [], rows: {}, example: null, stalls: [], triggers: {}, review: "", exposure: [], finance: {}, reviewLog: {}, origins: {} }; savePlan(); renderPlan(); }
     });
   })();
 
@@ -2950,7 +2956,7 @@
   // so they add nothing to the first view of the homepage
   let CITIES = [], cityById = {}, profilesPromise = null, cityDrawn = false, cityWanted = null;
   function loadProfiles() {
-    if (!profilesPromise) profilesPromise = fetch("/cities/profiles.json?v=236").then(r => { if (!r.ok) throw new Error("profiles " + r.status); return r.json(); })
+    if (!profilesPromise) profilesPromise = fetch("/cities/profiles.json?v=237").then(r => { if (!r.ok) throw new Error("profiles " + r.status); return r.json(); })
       .then(list => { CITIES = Array.isArray(list) ? list.filter(p => LIVE.some(c => c.id === p.id)) : []; cityById = Object.fromEntries(CITIES.map(p => [p.id, p])); if (!CITIES.length) throw new Error("no profiles"); return CITIES; })
       .catch(e => { profilesPromise = null; throw e; });
     return profilesPromise;
@@ -3353,8 +3359,8 @@
   const goToPlan = (hash, query) => { track("plan-open"); const w = window.open(PLAN_URL + (query || "") + (hash ? "#" + hash : ""), PLAN_TAB); if (w) try { w.focus(); } catch (e) {} };
   function readPlan(raw) {
     try { const saved = JSON.parse(raw || "null"); if (!saved || !Array.isArray(saved.levers)) return false;
-      plan = Object.assign({ place: "", group: "", levers: [], rows: {}, example: null, stalls: [], triggers: {}, review: "", exposure: [], finance: {}, reviewLog: {} }, saved);
-      if (!Array.isArray(plan.stalls)) plan.stalls = []; if (!plan.triggers || typeof plan.triggers !== "object") plan.triggers = {}; return true; } catch (e) { return false; }
+      plan = Object.assign({ place: "", group: "", levers: [], rows: {}, example: null, stalls: [], triggers: {}, review: "", exposure: [], finance: {}, reviewLog: {}, origins: {} }, saved);
+      if (!Array.isArray(plan.stalls)) plan.stalls = []; if (!plan.triggers || typeof plan.triggers !== "object") plan.triggers = {}; if (!plan.origins || typeof plan.origins !== "object" || Array.isArray(plan.origins)) plan.origins = {}; retireUnknown(); return true; } catch (e) { return false; }
   }
   // a link that starts a plan with this place, group and actions; never carries notes, owners or money
   function planStartLink(place = plan.place, group = plan.group, levers = plan.levers) {
@@ -3363,6 +3369,31 @@
     return `${location.origin}${PLAN_URL}?${q.toString()}`;
   }
   const suggestedFor = g => ((PG.find(x => x.id === g) || {}).levers || []).slice();
+  // actions carried in from Build protection (/build/?cards=): each card sits under one lever; added to the plan, never replacing it
+  let cardMap = null;
+  const cardsById = () => cardMap || (cardMap = new Map((typeof ACTION_SETTINGS !== "undefined" ? ACTION_SETTINGS : []).flatMap(st => (st.cards || []).map(c => [st.id + ":" + c.id, { lever: c.lever, title: c.title, set: st.short || st.name }]))));
+  const originText = id => { const o = ((plan.origins || {})[id] || []).map(c => cardsById().get(c)).filter(Boolean);
+    return o.length ? `From Build protection: ${o.map(c => `${c.title} (${c.set})`).join("; ")}` : ""; };
+  function addCards(ids) {
+    const map = cardsById(), before = JSON.stringify(plan.origins || {}), added = [], had = [];
+    plan.origins = plan.origins || {};
+    ids.forEach(id => { const c = map.get(id); if (!c || !leverById[c.lever]) return;
+      const o = Object.prototype.hasOwnProperty.call(plan.origins, c.lever) ? plan.origins[c.lever] : (plan.origins[c.lever] = []);
+      if (!o.includes(id)) o.push(id);
+      if (!plan.levers.includes(c.lever)) { plan.levers.push(c.lever); planRow(c.lever); added.push(c.lever); }
+      else if (!added.includes(c.lever) && !had.includes(c.lever)) had.push(c.lever); });
+    if (!added.length && !had.length) return;
+    savePlan(); let kept = false; try { kept = localStorage.getItem(PLAN_KEY) === JSON.stringify(plan); } catch (e) {}
+    renderPlan(); track("plan-from-build");
+    const box = document.getElementById("plan-rows"); if (!box) return;
+    let note = document.getElementById("plan-carried");
+    if (!note) { note = document.createElement("div"); note.id = "plan-carried"; note.className = "cs-note cs-note--example"; note.setAttribute("role", "status"); box.before(note); }
+    note.innerHTML = `<p class="cs-note__label">From Build protection</p><p>${added.length ? `Added ${plural(added.length, "action")} to your plan.` : "Nothing new to add."}${had.length ? ` ${plural(had.length, "action was", "actions were")} already in it; ${had.length === 1 ? "its" : "their"} notes are unchanged.` : ""}${kept ? "" : " This browser is not keeping the plan, so copy it as text before leaving the page."}</p>${added.length ? `<button type="button" class="btn btn--sm btn--ghost" data-pl-undo-cards>Undo</button>` : ""}`;
+    const undo = note.querySelector("[data-pl-undo-cards]");
+    if (undo) undo.addEventListener("click", () => { plan.levers = plan.levers.filter(x => !added.includes(x)); added.forEach(x => { delete plan.rows[x]; });
+      try { plan.origins = JSON.parse(before); } catch (e) { plan.origins = {}; } savePlan(); renderPlan();
+      note.innerHTML = `<p class="cs-note__label">From Build protection</p><p>Undone. Your plan is as it was.</p>`; });
+  }
   // the launcher on the map: one line saying what the plan holds so far
   function renderPlanLaunch() {
     const box = document.getElementById("plan-launch-sum"); if (!box) return;
@@ -3415,7 +3446,7 @@
       const same = plan.place === qPlace && plan.group === qGroup && qActs.every(id => plan.levers.includes(id));
       const has = plan.levers.length || plan.place;
       if (!same && (!has || window.confirm(`Start a new plan${qPlace ? " for " + qPlace : ""}? The plan you have started will be replaced.`))) {
-        plan = { place: qPlace, group: qGroup, levers: qActs.length ? qActs : (qGroup ? suggestedFor(qGroup) : []), rows: {}, example: null, stalls: [], triggers: {}, review: "", exposure: [], finance: {}, reviewLog: {} };
+        plan = { place: qPlace, group: qGroup, levers: qActs.length ? qActs : (qGroup ? suggestedFor(qGroup) : []), rows: {}, example: null, stalls: [], triggers: {}, review: "", exposure: [], finance: {}, reviewLog: {}, origins: {} };
         savePlan(); renderPlan(); track("plan-prefill");
       }
       try { history.replaceState(null, "", location.pathname + location.hash); } catch (e) {}
@@ -3423,6 +3454,10 @@
     if (ex && EXAMPLES.some(x => x.id === ex)) {
       const has = plan.levers.length || plan.place;
       if (!has || plan.example === ex || window.confirm("Replace the plan you have started with this worked example?")) loadExample(ex);
+      try { history.replaceState(null, "", location.pathname + location.hash); } catch (e) {}
+    }
+    if (q.has("cards")) {
+      addCards([...new Set((q.get("cards") || "").split(",").slice(0, 40))].filter(id => /^[a-z]+:[a-z0-9-]+$/.test(id)));
       try { history.replaceState(null, "", location.pathname + location.hash); } catch (e) {}
     }
     const h = decodeURIComponent(location.hash.slice(1)), t = h && document.getElementById(h); if (t) t.scrollIntoView({ block: "start" });
