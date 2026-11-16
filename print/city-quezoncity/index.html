@@ -75,17 +75,17 @@ footer p + p { margin-top: 2px; } footer b { color: #16202B; }
 .csn__search:hover{border-color:var(--ink)}
 .csn__search kbd{font:600 .72rem/1 inherit;padding:3px 6px;border:1px solid var(--line);border-radius:6px;color:var(--grey);background:var(--canvas)}
 .csn__ico{width:16px;height:16px;flex:none}
-.csn__start{border:1.5px solid #F26430;background:#F26430;color:#16202B;box-shadow:0 8px 20px -10px rgba(242,100,48,.85),inset 0 1px 0 rgba(255,255,255,.25);transition:background .2s,box-shadow .2s,transform .2s}
+.csn__start{border:1.5px solid #F26430;background:#F26430;color:#16202B;transition:background .2s,box-shadow .2s,transform .2s}
 .csn__start:hover{background:#FF7A45;border-color:#FF7A45;transform:translateY(-1px);box-shadow:0 12px 24px -12px rgba(242,100,48,.9)}.csn__start:focus-visible{outline:3px solid #16202B;outline-offset:2px}
 .csn__start--glow{animation:csn-glow 2.6s ease-in-out 1.2s 3}
-.csn__signals{display:inline-flex;align-items:center;gap:7px;height:40px;padding:0 14px;border-radius:999px;font-weight:700;font-size:.9rem;white-space:nowrap;text-decoration:none;background:#3DBE78;border:1.5px solid #3DBE78;color:#0C1B12;box-shadow:0 8px 20px -10px rgba(61,190,120,.8),inset 0 1px 0 rgba(255,255,255,.25);transition:background .2s,transform .2s}
-.csn__signals:hover{background:#55CF8C;border-color:#55CF8C;transform:translateY(-1px)}.csn__signals:focus-visible{outline:3px solid #fff;outline-offset:2px}.csn__signals[aria-current]{box-shadow:inset 0 0 0 2px #0C1B12}
+.csn__signals{display:inline-flex;align-items:center;gap:7px;height:40px;padding:0 14px;border-radius:999px;font-weight:700;font-size:.9rem;white-space:nowrap;text-decoration:none;background:transparent;border:1.5px solid #16202B;color:#16202B;transition:background .2s,color .2s,transform .2s}
+.csn a.csn__signals:hover{background:#16202B;color:#FAF7F2;transform:translateY(-1px)}.csn__signals:focus-visible{outline:3px solid #F26430;outline-offset:2px}.csn__signals[aria-current]{box-shadow:inset 0 0 0 2px #16202B}
 .csn__btn--signals{background:#3DBE78!important;border-color:#3DBE78!important;color:#0C1B12!important;font-weight:700}
 @keyframes csn-glow{0%,100%{box-shadow:0 8px 20px -10px rgba(242,100,48,.85),0 0 0 0 rgba(242,100,48,.45)}50%{box-shadow:0 8px 20px -10px rgba(242,100,48,.85),0 0 0 9px rgba(242,100,48,0)}}
 @media (prefers-reduced-motion:reduce){.csn__start--glow{animation:none}}
 .csn__dot{display:none;width:8px;height:8px;border-radius:50%;background:var(--orange)}
-.csn__map{display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 14px;border-radius:999px;font-weight:700;font-size:.9rem;white-space:nowrap;text-decoration:none;color:#1F7A70;background:#E7F2F0;border:1.5px solid #1F7A70;transition:background .2s,color .2s,transform .2s}
-.csn__map:hover{background:#1F7A70;color:#fff;transform:translateY(-1px)}.csn__map:focus-visible{outline:3px solid #16202B;outline-offset:2px}
+.csn__map{display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 14px;border-radius:999px;font-weight:700;font-size:.9rem;white-space:nowrap;text-decoration:none;color:#16202B;background:transparent;border:1.5px solid #16202B;transition:background .2s,color .2s,transform .2s}
+.csn a.csn__map:hover{background:#16202B;color:#FAF7F2;transform:translateY(-1px)}.csn__map:focus-visible{outline:3px solid #16202B;outline-offset:2px}
 .csn__btn--map{color:#1F7A70;border-color:#1F7A70;background:#E7F2F0}
 .csn--onpath .csn__dot{background:#16202B}
 .csn--onpath .csn__dot{display:inline-block}
@@ -198,9 +198,8 @@ footer p + p { margin-top: 2px; } footer b { color: #16202B; }
 .csf__text{margin:12px 0 0;font-size:.8rem;color:#C9C2B6}.csf__text a,.csf__cite a{text-decoration:underline;text-decoration-color:var(--orange);text-underline-offset:3px}
 @media (max-width:1180px){.csn__search span,.csn__search kbd{display:none}.csn__search{width:40px;padding:0;justify-content:center}.csn__links{grid-template-columns:1fr}.csn__pin{grid-template-columns:minmax(0,1fr) minmax(0,1.4fr) minmax(0,.9fr)}}
 @media (max-width:960px){.csn__main{display:none}.csn__burger{display:inline-flex}.csn__in{height:58px}.csn--slim .csn__in{height:54px}}
-@media (max-width:560px){.csn__tools{gap:6px}.csn__signals{padding:0 12px;gap:6px}.csn__search{display:none}.csn__map{width:40px;padding:0;justify-content:center}.csn__map span{display:none}.csn__start{padding:0 12px}.csn__start .csn__dot{display:none}.csn__burger{width:40px;padding:0;justify-content:center;font-size:0;gap:0}.csn__home{font-size:1.05rem}.csn__mark{width:26px}.csn-d{margin-top:4vh;max-height:88vh}.csn-d__h{font-size:1.6rem}.csp{margin:14px 12px 18px;padding:16px 18px}}
-@media (max-width:359px){.csn__signals{width:40px;padding:0;justify-content:center}.csn__signals span{display:none}}
-@media (max-width:419px){.csn__home>span:not(.csn-vh){display:none}}
+@media (max-width:560px){.csn__tools{gap:8px}.csn__signals,.csn__map,.csn__search{display:none}.csn__start{padding:0 12px}.csn__start .csn__dot{display:none}.csn__burger{width:40px;padding:0;justify-content:center;font-size:0;gap:0}.csn__home{font-size:1.05rem}.csn__mark{width:26px}.csn-d{margin-top:4vh;max-height:88vh}.csn-d__h{font-size:1.6rem}.csp{margin:14px 12px 18px;padding:16px 18px}}
+@media (max-width:339px){.csn__home>span:not(.csn-vh){display:none}}
 html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{touch-action:manipulation}button,[role=button]{-webkit-user-select:none;user-select:none}
 @media (pointer:coarse){input:not([type=checkbox]):not([type=radio]):not([type=range]),select,textarea{font-size:16px!important}}
 @media (prefers-reduced-motion:reduce){.csn__panel,.csn__sheet,.csn-d[open]{animation:none}.csn__in,.csn__chev{transition:none}}
@@ -269,9 +268,9 @@ html:has(> body > .ticker:not([hidden])) { --tk-h: 34px; }
 .ticker__lv { margin-left: 6px; padding: 1px 7px; border-radius: 999px; font-size: var(--fs-12); font-weight: 800; background: #F2C14E; color: var(--ink); }
 .ticker__lv--1 { background: var(--orange); color: var(--ink); }
 .ticker__lv--2 { background: #D7263D; color: #fff; }</style><noscript><style>.csn__gb,.csn__tools{display:none!important}.csn__gl{display:inline-flex;align-items:center;height:40px;padding:0 14px;font-weight:700}@media (max-width:960px){.csn__main{display:block!important}}</style></noscript><!--/csn-->
-<!--agent--><link rel="alternate" type="text/markdown" href="/print/city-quezoncity/index.md"><link rel="alternate" type="application/atom+xml" title="What changed on Common Shade" href="/feed.xml"><meta name="color-scheme" content="light"><meta name="referrer" content="strict-origin-when-cross-origin"><meta property="article:modified_time" content="2026-10-01"><script type="speculationrules">{"prefetch":[{"where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/*.*","/solutions/*","/sources/*"]}},{"not":{"selector_matches":"[download],[target=_blank],[rel~=nofollow]"}}]},"eagerness":"conservative"}]}</script><!--/agent-->
+<!--agent--><link rel="alternate" type="text/markdown" href="/print/city-quezoncity/index.md"><link rel="alternate" type="application/atom+xml" title="What changed on Common Shade" href="/feed.xml"><meta name="color-scheme" content="light"><meta name="referrer" content="strict-origin-when-cross-origin"><meta property="article:modified_time" content="2026-11-16"><script type="speculationrules">{"prefetch":[{"where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/*.*","/solutions/*","/sources/*"]}},{"not":{"selector_matches":"[download],[target=_blank],[rel~=nofollow]"}}]},"eagerness":"conservative"}]}</script><!--/agent-->
 </head>
-<body data-changed="2026-10-01">
+<body data-changed="2026-11-16">
 <!--csn--><a class="csn-skip" href="#main">Skip to the content</a><!--/csn-->
 <!--csn--><div class="ticker" id="cs-ticker" role="region" aria-label="Live temperatures in Asian cities" hidden>
   <a class="ticker__k" href="/#heat-now"><span class="ticker__dot" aria-hidden="true"></span>Live</a>
@@ -500,12 +499,12 @@ $$("[data-check]").forEach(function(box){var key=box.getAttribute("data-check"),
     if(form)window.open(form,"_blank","noopener");remember({a:"no",d:today});done(thanksNo)})})}});
 /* copy the citation */
 $$("[data-csn-copy]").forEach(function(b){b.addEventListener("click",function(){var t=$("[data-csn-cite]").textContent;(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){b.textContent="Copied"},function(){b.textContent="Select and copy"})})});
-})();</script><script src="/ticker.js?v=227" defer></script><script>addEventListener("load",function(){setTimeout(function(){["/join.js?v=227","/everything.js?v=227"].forEach(function(s){var e=document.createElement("script");e.src=s;document.body.appendChild(e)})},2500)})</script><!--/csn-->
+})();</script><script src="/ticker.js?v=228" defer></script><script>addEventListener("load",function(){setTimeout(function(){["/join.js?v=228","/everything.js?v=228"].forEach(function(s){var e=document.createElement("script");e.src=s;document.body.appendChild(e)})},2500)})</script><!--/csn-->
 <footer>
     <div>
       <p><b>Common Shade</b> · A living map of extreme heat in South and Southeast Asia, updated as the evidence grows. Live page: beattheheat.asia/#city-quezoncity</p>
       <p>Common Shade is in beta, currently at beattheheat.asia. A group of organisations is helping shape it as a shared endeavour for protection from extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement.</p>
-      <p><b>Licence:</b> © Common Shade contributors. Shared under Creative Commons Attribution 4.0 (CC BY 4.0, creativecommons.org/licenses/by/4.0): you may copy, adapt, translate and share this sheet, with credit to Common Shade and a link to beattheheat.asia. Sources cited remain their owners’. Printed from the map’s data on 2026-11-15; check the live page for updates.</p>
+      <p><b>Licence:</b> © Common Shade contributors. Shared under Creative Commons Attribution 4.0 (CC BY 4.0, creativecommons.org/licenses/by/4.0): you may copy, adapt, translate and share this sheet, with credit to Common Shade and a link to beattheheat.asia. Sources cited remain their owners’. Printed from the map’s data on 2026-11-16; check the live page for updates.</p>
     </div>
     <div class="qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29" shape-rendering="crispEdges"><path fill="#FAF7F2" d="M0 0h29v29H0z"/><path stroke="#16202B" d="M0 0.5h7m1 0h3m2 0h1m2 0h5m1 0h7M0 1.5h1m5 0h1m1 0h1m4 0h1m2 0h2m4 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m6 0h1m1 0h1m2 0h1m3 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h2m1 0h4m2 0h1m2 0h1m1 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m2 0h1m1 0h2m1 0h4m1 0h1m2 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m3 0h1m5 0h1m2 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h2m1 0h2m2 0h1m1 0h2m1 0h1M0 8.5h1m1 0h2m1 0h3m2 0h2m2 0h2m1 0h1m1 0h1m2 0h1m2 0h1m1 0h2M0 9.5h1m1 0h1m1 0h2m5 0h3m2 0h5m1 0h3m3 0h1M1 10.5h2m2 0h5m1 0h2m1 0h1m1 0h1m1 0h1m1 0h2m1 0h1m2 0h2M7 11.5h1m1 0h6m3 0h1m1 0h1m1 0h2m4 0h1M0 12.5h1m1 0h1m3 0h2m2 0h2m1 0h3m1 0h3m3 0h1m1 0h2M0 13.5h3m1 0h1m2 0h2m3 0h1m2 0h3m1 0h2m1 0h1m3 0h3M1 14.5h1m4 0h5m2 0h2m2 0h1m1 0h1m3 0h1m2 0h3M0 15.5h1m1 0h4m3 0h1m2 0h1m2 0h2m3 0h2m2 0h1m2 0h1M0 16.5h7m3 0h4m2 0h1m1 0h1m2 0h1m1 0h3m1 0h1M1 17.5h5m2 0h1m1 0h3m1 0h2m4 0h1m2 0h1m1 0h3M0 18.5h1m1 0h5m4 0h1m3 0h4m1 0h1m2 0h2m1 0h1M2 19.5h1m2 0h1m2 0h1m2 0h2m4 0h2m1 0h2m4 0h1M1 20.5h3m1 0h3m1 0h1m3 0h1m3 0h10M8 21.5h4m1 0h1m2 0h3m1 0h1m3 0h5M0 22.5h7m1 0h1m1 0h1m2 0h1m2 0h2m1 0h2m1 0h1m1 0h2m1 0h1M0 23.5h1m5 0h1m1 0h1m1 0h3m5 0h1m1 0h1m3 0h2m1 0h2M0 24.5h1m1 0h3m1 0h1m2 0h1m2 0h1m1 0h1m2 0h1m2 0h5m1 0h3M0 25.5h1m1 0h3m1 0h1m1 0h1m1 0h2m1 0h3m1 0h5m1 0h3m2 0h1M0 26.5h1m1 0h3m1 0h1m1 0h1m3 0h3m3 0h1m4 0h1m2 0h1m1 0h1M0 27.5h1m5 0h1m2 0h4m2 0h1m2 0h1m1 0h3m2 0h1m1 0h1M0 28.5h7m1 0h1m1 0h1m1 0h2m1 0h2m1 0h3m2 0h1m3 0h1"/></svg>
 <p>Scan for the live page</p></div>

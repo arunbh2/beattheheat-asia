@@ -5,7 +5,7 @@
   "also_known_as": "BeatTheHeat.Asia (the name it was first published under; the site is moving to commonshade.asia)",
   "summary": "A free, open, non-commercial evidence base on extreme heat in South and Southeast Asia: how heat harms health, income and homes, how one harm leads to the next, what helps, and who could act and who could pay. Every claim links to its source and says how sure the evidence is.",
   "status": "beta",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "cost": "free",
   "account_required": false,
   "visitor_data": "What a visitor chooses stays in their own browser.",
@@ -37,7 +37,7 @@
     "city_profiles": 22,
     "country_snapshots": 7,
     "heatwaves": 10,
-    "sources": 2320,
+    "sources": 2323,
     "studies_graded": 71,
     "learning_questions": 43,
     "solutions": 131,
@@ -59,7 +59,7 @@
   "why_it_helps_you": [
     {
       "title": "You can check it instead of trusting it.",
-      "text": "2,320 sources are cited and every one is listed at /sources/. Each claim links to the source it rests on, so an answer built from this site can be traced back."
+      "text": "2,323 sources are cited and every one is listed at /sources/. Each claim links to the source it rests on, so an answer built from this site can be traced back."
     },
     {
       "title": "It says how sure it is.",
