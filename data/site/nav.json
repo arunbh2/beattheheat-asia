@@ -35,6 +35,7 @@
      ["/a-night-in-the-heat/", "A night in the heat", "Care and health through a hot night and a clinic visit", 2],
      ["/a-city-under-strain/", "A city under strain", "Power, water, clinics and trees through a heatwave", 2],
      ["/a-week-in-the-heat/", "A week in the heat", "Follow one worker’s money through a heatwave", 2],
+     ["/heat-assembly/", "The Heat Assembly", "A game for one person or a group: who could use heat protection, and why", 2],
      ["/social-protection/", "Who could help a household", "Public schemes that could cushion a hot season, country by country", 2],
      ["/briefs/heat-ready-social-security/", "Heat-ready social security", "A policy brief: how social security could cushion lost work in the heat, with examples from Asia", 2],
      ["/practical-actions/", "Practical actions, as text", "Every action card in plain text", 2],
@@ -80,6 +81,6 @@
  "names": {
   "/resources/": "Resources", "/resources/heat-action-plans/": "Heat action plans", "/resources/heat-action-plans/india/": "India",
   "/heat-economy/businesses/": "Businesses", "/heat-economy/money/": "Funders and funding", "/heat-economy/opportunities/": "Ideas", "/heat-economy/conditions/": "Questions to ask", "/heat-economy/flows/": "Follow the money",
-  "/understand/": "Understand heat", "/act/": "Act", "/fund/": "Fund and build", "/evidence/": "News and evidence", "/paths/": "Paths by role", "/corrections/": "Corrections", "/evidence-map/": "Evidence map", "/who-holds-it/": "Who holds it up", "/build/": "Build protection", "/heat-tools/": "Heat Tool Finder", "/atlas/": "Atlas", "/live-through-a-heatwave/": "Live through a heatwave", "/intersections/": "Intersections", "/paying-when-heat-strikes/": "Paying when heat strikes"
+  "/heat-assembly/": "The Heat Assembly", "/understand/": "Understand heat", "/act/": "Act", "/fund/": "Fund and build", "/evidence/": "News and evidence", "/paths/": "Paths by role", "/corrections/": "Corrections", "/evidence-map/": "Evidence map", "/who-holds-it/": "Who holds it up", "/build/": "Build protection", "/heat-tools/": "Heat Tool Finder", "/atlas/": "Atlas", "/live-through-a-heatwave/": "Live through a heatwave", "/intersections/": "Intersections", "/paying-when-heat-strikes/": "Paying when heat strikes"
  }
 }
