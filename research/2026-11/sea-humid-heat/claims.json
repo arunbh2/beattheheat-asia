@@ -1,5 +1,5 @@
 {
- "about": "Studies of humid heat stress in Southeast Asia, set beside the future heatwaves study (which measures daily maximum temperature in India and Pakistan and does not cover Southeast Asia). First pass: Europe PMC records, to find each study's open full text. stage.js writes data/inbox/2026-11-sea-humid-heat/sources.json; verify-sources.yml checks each term; apply.js uses only confirmed claims.",
+ "about": "Insights from 'Widespread heat stress will become the norm in a warming Southeast Asia', Scientific Reports (2025), DOI 10.1038/s41598-025-28817-6, open access in Europe PMC as PMC12756238. It projects humid heat stress (UTCI and WBGT) across Southeast Asia at 3-hourly resolution under low- and high-emissions scenarios, with population exposure; these are projections, not measurements, and the site's wording keeps that. Set beside the future heatwaves study, which measures daily maximum temperature in India and Pakistan and does not cover Southeast Asia. A second candidate (Earth's Future, 2021) had no Europe PMC record and was not used. stage.js writes data/inbox/2026-11-sea-humid-heat/sources.json; verify-sources.yml checks each term; apply.js uses only confirmed claims.",
  "sources": [
   {
    "key": "sr-epmc",
@@ -8,17 +8,113 @@
    "year": 2025,
    "kind": "Abstract record",
    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41598-025-28817-6&resultType=core&format=json",
-   "expect": ["pmcid", "Southeast Asia", "heat stress", "UTCI", "hours"]
+   "expect": [
+    "pmcid",
+    "Southeast Asia",
+    "heat stress"
+   ]
   },
   {
-   "key": "ef-epmc",
-   "title": "Heatwaves in Southeast Asia and Their Changes in a Warmer World (Europe PMC record)",
-   "publisher": "Europe PMC (Earth's Future, 2021)",
-   "year": 2021,
-   "kind": "Abstract record",
-   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1029/2021EF001992&resultType=core&format=json",
-   "expect": ["pmcid", "Southeast Asia", "heatwave", "duration"]
+   "key": "sr-ft",
+   "title": "Widespread heat stress will become the norm in a warming Southeast Asia (Europe PMC full text, PMC12756238)",
+   "publisher": "Europe PMC (Scientific Reports)",
+   "year": 2025,
+   "kind": "Peer-reviewed modelling study (open-access full text)",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12756238/fullTextXML",
+   "expect": [
+    "Widespread heat stress will become the norm in a warming Southeast Asia"
+   ]
   }
  ],
- "claims": []
+ "claims": [
+  {
+   "id": "c-week",
+   "where": "Lever hap watch; learning agenda q-longer-heat",
+   "text": "Across Southeast Asia, people exposed to at least a week in a row of extreme humid heat stress (WBGT) could rise from 0.1 million to 7 to 17 million under low- and high-emissions scenarios.",
+   "rests_on": [
+    [
+     "sr-epmc",
+     "at least one consecutive week of extreme UTCI"
+    ],
+    [
+     "sr-epmc",
+     "extreme WBGT exposure increases from 0.1 million to 7–17 million"
+    ]
+   ],
+   "alts": [
+    [
+     [
+      "sr-ft",
+      "at least one consecutive week of extreme UTCI"
+     ],
+     [
+      "sr-ft",
+      "extreme WBGT exposure increases from 0.1 million to 7–17 million"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "c-hours",
+   "where": "Lever hap watch",
+   "text": "Continental Southeast Asia, including Myanmar, Thailand and Cambodia, faces 6 to 9 hours of severe heat stress a day in peak months.",
+   "rests_on": [
+    [
+     "sr-epmc",
+     "Continental Southeast Asia, including Myanmar, Thailand, and Cambodia"
+    ],
+    [
+     "sr-epmc",
+     "with 6–9 hours of severe heat stress per day during peak months"
+    ]
+   ],
+   "alts": [
+    [
+     [
+      "sr-ft",
+      "Continental Southeast Asia, including Myanmar, Thailand, and Cambodia"
+     ],
+     [
+      "sr-ft",
+      "with 6–9 hours of severe heat stress per day during peak months"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "c-method",
+   "where": "Lever hap watch (how the study measures)",
+   "text": "The study projects humid heat stress with WBGT and UTCI at 3-hourly resolution, under low- and high-emissions scenarios.",
+   "rests_on": [
+    [
+     "sr-epmc",
+     "Wet-Bulb Globe Temperature (WBGT)"
+    ],
+    [
+     "sr-epmc",
+     "under low- and high-emissions scenarios"
+    ],
+    [
+     "sr-epmc",
+     "3-hourly temporal resolution"
+    ]
+   ],
+   "alts": [
+    [
+     [
+      "sr-ft",
+      "Wet-Bulb Globe Temperature (WBGT)"
+     ],
+     [
+      "sr-ft",
+      "under low- and high-emissions scenarios"
+     ],
+     [
+      "sr-ft",
+      "3-hourly temporal resolution"
+     ]
+    ]
+   ]
+  }
+ ]
 }
