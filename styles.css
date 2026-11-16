@@ -1105,7 +1105,7 @@ button { font: inherit; color: inherit; }
 .plan-summary { padding: var(--pad-roomy); border-radius: var(--r-sm); background: var(--ink); color: var(--canvas); }
 .plan-summary__k { font-size: var(--fs-12); font-weight: 700; letter-spacing: var(--label-track); text-transform: uppercase; color: var(--amber); }
 .plan-summary h3, .plan-summary h2 { margin: 4px 0 12px; font-size: var(--fs-18); }
-.plan-summary__stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 12px; }
+.plan-summary__stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-bottom: 12px; }
 .plan-summary__stats p { font-size: var(--fs-12); color: rgba(250,247,242,.8); }
 .plan-summary__stats strong { display: block; font-family: var(--font-display); font-weight: 400; font-size: 2rem; line-height: 1.15; color: var(--canvas); }
 .plan-summary__line { margin-top: 6px; font-size: var(--fs-14); color: rgba(250,247,242,.88); }
@@ -3521,7 +3521,7 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 .evm-fly-l i{display:block;height:12px;background:var(--break);border-radius:3px 0 0 3px;min-width:2px}.evm-fly-rt i{display:block;height:12px;background:var(--orange,#F26430);border-radius:0 3px 3px 0;min-width:2px}
 .evm-fly-l b,.evm-fly-rt b{font-size: var(--fs-14);min-width:1.4em;text-align:center}
 .evm-fly-n{font-size: var(--fs-14);font-weight:600;text-align:center;line-height: 1.4}.evm-fly-n em{display:block;font-style:normal;font-size: var(--fs-12);font-weight:700;color:#9a4a12;}
-.evm-qs{list-style:none;margin:0 0 14px;padding:0;display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.evm-qs{list-style:none;margin:0 0 14px;padding:0;display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
 .evm-q{background:#fff;border:1px solid var(--line,#E6DFD4);border-radius:var(--r-md);padding: var(--pad-std);scroll-margin-top:90px;}
 .evm-q h3{font-size: var(--fs-18);line-height: 1.15;margin:4px 0 10px; font-family: var(--font-body); text-transform: none; font-weight: 700 }.evm-q-k{font-size: var(--fs-14);color:var(--muted,#5E6570);margin:0}.evm-q-h{font-size: var(--fs-14);color:var(--muted,#5E6570);margin:-4px 0 10px}
 .evm-q dl{margin:0;display:grid;gap:4px}.evm-q dt{font-size: var(--fs-12);font-weight:700;letter-spacing: var(--label-track);text-transform:uppercase;color:var(--muted,#5E6570);margin-top:6px}.evm-q dd{margin:0;line-height: 1.55;font-size: var(--fs-16)}
@@ -3696,7 +3696,7 @@ html:not(.jn-js) .jn-panel{margin-bottom:12px}html:not(.jn-js) .jn-panel-hint{di
 .jn-root[aria-pressed="true"]::before{background:var(--break,#17703A) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3.5 8.5l3 3 6-7' fill='none' stroke='white' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/14px no-repeat;border-color:var(--break,#17703A)}
 .jn-root:focus-visible{outline:3px solid var(--orange);outline-offset:2px}
 .jn-root b{font-size: var(--fs-16)}.jn-root span{font-size: var(--fs-14);color:var(--grey-700,#39424D);line-height: 1.55}
-.jn-fits{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px}
+.jn-fits{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:10px}
 .jn-fit{background:var(--white,#fff);border-radius:var(--r-md);padding: var(--pad-std);animation:jn-in .25s ease-out;border:1px solid var(--line,#E6DFD4);border-color:color-mix(in srgb,var(--break,#17703A) 34%,var(--line,#E6DFD4))}
 .jn-fit p{margin:0 0 6px;line-height:1.55;color:var(--grey-700,#39424D)}.jn-fit__h{font-weight:700;color:var(--ink)!important}
 .jn-fit__go a{font-weight:600;color:var(--ink);text-decoration-color:var(--orange);text-underline-offset:3px}
@@ -3869,7 +3869,7 @@ html.jn-js .jn-panel[hidden],html.jn-js .jn-panel-hint[hidden]{display:none}
 .rf-f:hover{border-color:var(--ink)}.rf-f.is-on{background:var(--ink);border-color:var(--ink);color:#fff}.rf-f:focus-visible{outline:3px solid var(--amber);outline-offset:2px}
 .rf-only{display:flex;align-items:center;gap:8px;font-size: var(--fs-14);cursor:pointer}.rf-only input{accent-color:var(--ink);width:16px;height:16px}
 .rf-count{font-weight:700;margin:10px 2px}
-.rf-cards{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;align-items:start}
+.rf-cards{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:12px;align-items:start}
 .rf-card{background:#fff;border:1px solid var(--line);border-radius:var(--r-md);transition:box-shadow .25s,border-color .25s,transform .25s}
 .rf-card:nth-of-type(n+4){content-visibility:auto;contain-intrinsic-size:auto 165px}
 .rf-card:hover{box-shadow:var(--shadow-2);transform:translateY(-1px)}.rf-card.is-flash{border-color:var(--orange);box-shadow:0 0 0 4px rgba(242,100,48,.25)}
@@ -3911,7 +3911,7 @@ html.jn-js .jn-panel[hidden],html.jn-js .jn-panel-hint[hidden]{display:none}
 .rf-lat li{background:#fff;border-radius:var(--r-md);padding: var(--pad-compact);display:grid;gap:3px;font-size: var(--fs-14);border:1px solid var(--line,#E6DFD4);border-color:color-mix(in srgb,var(--blue) 34%,var(--line,#E6DFD4))}.rf-lat small{color:var(--grey-500);line-height:1.4}
 
 /* seven hard things */
-.rf-hard{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+.rf-hard{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,320px),1fr));gap:12px}
 .rf-hard li{display:flex;gap:14px;background:#fff;border:1px solid var(--line);border-radius:var(--r-md);padding: var(--pad-std)}.rf-hard h3{font-size: var(--fs-16);margin:2px 0 6px;line-height: 1.4}.rf-hard p{font-size: var(--fs-14);line-height: 1.55;margin:0 0 6px}
 
 /* country by country */
@@ -3937,9 +3937,9 @@ html:not(.rf-js) .rf-co-tabs{display:none}
 .rf-more li span{display:block;color:var(--grey-500);font-size: var(--fs-14);line-height:1.4}
 
 /* evidence, knowledge, data */
-.rf-eff{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.rf-eff{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:12px}
 .rf-eff li{background:#fff;border:1px solid var(--line);border-radius:var(--r-md);padding: var(--pad-std)}.rf-eff h3{font-size: var(--fs-16);margin:8px 0 4px;line-height: 1.4}.rf-eff p{font-size: var(--fs-14);line-height: 1.55;margin:0 0 6px}
-.rf-kiu{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px}
+.rf-kiu{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,320px),1fr));gap:14px}
 .rf-kiu article{background:#fff;border-radius:var(--r-md);padding: var(--pad-roomy)}.rf-kiu h3{font-size: var(--fs-16);margin:0 0 8px}.rf-kiu>article>p{font-size: var(--fs-14);line-height:1.55;color:var(--grey-700)}
 .rf-kiu dl{margin:10px 0 0;display:grid;gap:6px}.rf-kiu dt{font-size: var(--fs-12);font-weight: 700;letter-spacing: var(--label-track);text-transform:uppercase}.rf-kiu dd{margin:0 0 4px;font-size: var(--fs-14);line-height: 1.55}
 .rf-kiu dt.k{color:var(--break-deep)}.rf-kiu dt.i{color:var(--blue)}.rf-kiu dt.u{color:#8a6a2a}
@@ -4399,3 +4399,27 @@ main .pd-fold > .container > h2, main .pd-fold:not(.pd-is-open) > .container > h
 .pd-fold:not(.pd-is-open) + .pd-fold:not(.pd-is-open) { border-top-color: var(--line); }
 /* the 2-line summary is the same paragraph the opened row shows in full, so nothing is lost by opening it */
 .pd-fold:not(.pd-is-open) .pd-open { margin-top: var(--s-3); min-height: 44px; }
+
+/* ---------- Reflow at large text: grids and wrapping rows (November 2026) ----------
+   A grid or flex item defaults to min-width:auto, so one wide item can stretch its column past the screen when text is
+   enlarged on a narrow phone. These let the items shrink to the column instead; nothing changes at normal sizes. */
+:is(.sg-list, .sg-card, .gw-cards, .evm-rows, .rf-cards, .lc-list, .atl-grid, .bp-sets, .plan-summary__stats, .join-together > .container, .toolbar, .hv-filters) > * { min-width: 0; }
+.sol > summary > * { min-width: 0; }
+.chip, .fl-bar > * { min-width: 0; max-width: 100%; }
+.bp-sets > button b { overflow-wrap: anywhere; }
+:is(.sg-meta, .atl-year, .site-footer__brand) { flex-wrap: wrap; }
+:is(.sg-meta, .atl-year, .site-footer__brand, .bp-sets > button, .evm-row > summary, .rf-card summary, .gw-find, .gw-q) > * { min-width: 0; }
+.fl-sel select { max-width: 100%; }
+.lc-ind { white-space: normal; max-width: 100%; }
+.evm-chip, .rf-chip { white-space: normal; max-width: 100%; }
+.web-list summary > *, .rf-hard li > *, .gw-fields > * { min-width: 0; overflow-wrap: anywhere; }
+.sys__name { min-width: 0; overflow-wrap: anywhere; }
+.gw-q input { width: 100%; min-width: 0; box-sizing: border-box; }
+.md-layers li { grid-template-columns: 2.2rem minmax(0, 1fr) minmax(0, auto); }
+.md-layers a { white-space: normal; }
+.atl-ticks span:first-child { transform: none; align-items: flex-start; }
+.atl-ticks span:last-child { transform: translateX(-100%); align-items: flex-end; }
+/* the same long-word rule the shared header carries, for pages that open without it (focus-mode paths) */
+body { overflow-wrap: break-word; }
+h1, h2, h3, h4, .pg-h1 { overflow-wrap: anywhere; hyphens: auto; }
+

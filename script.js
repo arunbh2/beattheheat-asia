@@ -2950,7 +2950,7 @@
   // so they add nothing to the first view of the homepage
   let CITIES = [], cityById = {}, profilesPromise = null, cityDrawn = false, cityWanted = null;
   function loadProfiles() {
-    if (!profilesPromise) profilesPromise = fetch("/cities/profiles.json?v=229").then(r => { if (!r.ok) throw new Error("profiles " + r.status); return r.json(); })
+    if (!profilesPromise) profilesPromise = fetch("/cities/profiles.json?v=230").then(r => { if (!r.ok) throw new Error("profiles " + r.status); return r.json(); })
       .then(list => { CITIES = Array.isArray(list) ? list.filter(p => LIVE.some(c => c.id === p.id)) : []; cityById = Object.fromEntries(CITIES.map(p => [p.id, p])); if (!CITIES.length) throw new Error("no profiles"); return CITIES; })
       .catch(e => { profilesPromise = null; throw e; });
     return profilesPromise;
@@ -3323,7 +3323,7 @@
     document.getElementById("web-list").innerHTML = SYSTEMS.map(s => {
       const items = nodes.filter(n => n.sys === s.id && n.kind === "leaf");
       return `<details class="sys" style="--c:${s.color}">
-        <summary><span class="dot"></span>${esc(plain(s))} <span class="sys__count">${items.length}</span></summary>
+        <summary><span class="dot"></span><span class="sys__name">${esc(plain(s))}</span> <span class="sys__count">${items.length}</span></summary>
         <ul>${items.map(n => {
           const outs = n.out.filter(e => e.type !== "hub");
           return `<li>

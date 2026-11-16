@@ -1,5 +1,6 @@
 // Gate 7: the built site works. Serves the repository locally and opens every page at phone and desktop width,
-// failing on script errors, sideways scrolling or pages that do not load.
+// failing on script errors, sideways scrolling or pages that do not load; a third pass opens each page at 320px with text at
+// 200% and fails on sideways scrolling alone (WCAG 1.4.10 reflow).
 //   node tools/check-site.js            all pages
 //   node tools/check-site.js glossary/  pages whose path starts with these prefixes
 // Needs Playwright with Chromium (PW=path to the playwright module, if it is not installed locally).
@@ -17,19 +18,22 @@ const server = http.createServer((req, res) => {
 });
 server.listen(0, async () => {
   const port = server.address().port, { chromium } = require(process.env.PW || "playwright"), b = await chromium.launch(), bad = [];
-  for (const w of [375, 1280]) {
+  // the third pass is reflow (WCAG 1.4.10): a 320px phone with text at 200%, where only sideways scrolling is checked
+  for (const [w, big] of [[375, false], [1280, false], [320, true]]) {
     const p = await b.newPage({ viewport: { width: w, height: 800 } }); let errs = [];
+    if (big) await p.addInitScript(() => document.addEventListener("DOMContentLoaded", () => { document.documentElement.style.fontSize = "32px"; }));
     p.on("pageerror", e => errs.push(e.message)); await p.route(/^https?:\/\/(?!127\.0\.0\.1)/, r => r.abort());   // nothing leaves this machine
     for (const pg of pages) { errs = [];
       const r = await p.goto(`http://127.0.0.1:${port}/${pg}`, { waitUntil: "load" }).catch(e => ({ status: () => 0 }));
       const ov = await p.evaluate(() => document.documentElement.scrollWidth - innerWidth).catch(() => 0);
       // on a phone, nothing large may capture touch: a swipe that lands on it would stop the page from scrolling
-      const trap = w > 500 ? "" : await p.evaluate(() => { const A = innerWidth * innerHeight; for (const e of document.querySelectorAll("body *")) { const t = getComputedStyle(e).touchAction;
+      const trap = w > 500 || big ? "" : await p.evaluate(() => { const A = innerWidth * innerHeight; for (const e of document.querySelectorAll("body *")) { const t = getComputedStyle(e).touchAction;
         if (t === "none" || t === "pinch-zoom" || (t.includes("pan-x") && !t.includes("pan-y"))) { const r = e.getBoundingClientRect(); if (r.width * r.height > 0.3 * A) return `${e.tagName.toLowerCase()}${e.className && typeof e.className === "string" ? "." + e.className.split(" ")[0] : ""} (touch-action: ${t})`; } } return ""; }).catch(() => "");
-      if (!r || r.status() !== 200 || ov > 1 || trap || errs.length) bad.push(`${w}px /${pg}: ${r && r.status() !== 200 ? "status " + r.status() + " " : ""}${ov > 1 ? "scrolls sideways " + ov + "px " : ""}${trap ? "blocks scrolling on touch: " + trap + " " : ""}${errs.join(" | ")}`); }
+      if (big) { errs = []; }
+      if (!r || r.status() !== 200 || ov > 1 || trap || errs.length) bad.push(`${w}px${big ? " with text at 200%" : ""} /${pg}: ${r && r.status() !== 200 ? "status " + r.status() + " " : ""}${ov > 1 ? "scrolls sideways " + ov + "px " : ""}${trap ? "blocks scrolling on touch: " + trap + " " : ""}${errs.join(" | ")}`); }
     await p.close();
   }
   await b.close(); server.close();
-  bad.forEach(x => console.log("FAIL", x)); console.log(`site check: ${pages.length} pages at two widths, ${bad.length} problems`);
+  bad.forEach(x => console.log("FAIL", x)); console.log(`site check: ${pages.length} pages at two widths and at 320px with text at 200%, ${bad.length} problems`);
   process.exit(bad.length ? 1 : 0);
 });

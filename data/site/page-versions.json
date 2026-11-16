@@ -240,7 +240,7 @@
   "changed": "2026-11-06"
  },
  "/heat-network/": {
-  "hash": "b326614a3689c861",
+  "hash": "b1e4a5de6e5c3d95",
   "changed": "2026-11-16"
  },
  "/heat-tools/": {
@@ -392,8 +392,8 @@
   "changed": "2026-10-31"
  },
  "/paying-for-protection/": {
-  "hash": "793d244385f9a235",
-  "changed": "2026-11-09"
+  "hash": "a1153fcdfdcb19ee",
+  "changed": "2026-11-16"
  },
  "/paying-when-heat-strikes/": {
   "hash": "1e04bab979f6fa91",

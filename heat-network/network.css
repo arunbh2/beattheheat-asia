@@ -2,7 +2,7 @@
    the page also reads well before the shared stylesheet arrives. */
 .hn-form { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px 14px; align-items: end; margin: 22px 0 10px; padding: 16px; background: var(--white, #fff); border: 1px solid var(--line, #E6DFD4); border-radius: var(--r-md, 14px); }
 .hn-form[hidden] { display: none; }
-.hn-field { display: grid; gap: 4px; font-weight: 700; font-size: var(--fs-14); }
+.hn-field { display: grid; grid-template-columns: minmax(0, 1fr); min-width: 0; gap: 4px; font-weight: 700; font-size: var(--fs-14); }
 .hn-field select, .hn-field input { font: inherit; font-weight: 400; font-size: var(--fs-16); min-height: 44px; padding: 8px 10px; border: 1.5px solid #B9AE9F; border-radius: var(--r-sm, 10px); background: var(--white, #fff); color: var(--ink, #16202B); width: 100%; min-width: 0; box-sizing: border-box; }
 .hn-field select:focus, .hn-field input:focus { outline: 3px solid var(--orange, #F26430); outline-offset: 1px; border-color: var(--ink, #16202B); }
 .hn-field--q { grid-column: 1 / -1; }

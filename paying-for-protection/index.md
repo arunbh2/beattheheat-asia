@@ -1,7 +1,7 @@
 ---
 title: "Paying for heat protection: who pays, how money arrives, and whether it lasts | Common Shade"
 url: https://beattheheat.asia/paying-for-protection/
-updated: 2026-11-09
+updated: 2026-11-16
 licence: CC BY 4.0
 ---
 
