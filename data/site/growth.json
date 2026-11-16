@@ -826,6 +826,15 @@
       "review": "Tested in a browser: three actions carried across, notes typed, the evidence and finance pages visited, and the same three actions and notes found on return",
       "pages": [["/build/", "Build protection"], ["/plan/", "Plan a response"]], "action": ["Build a package", "/build/"],
       "links": [{ "to": "lever:heatrules", "why": "Paid rest breaks, the action that showed the gap, now arrive in the plan under heat-safe work.", "basis": "record" }]
+    },
+    { "id": "g-heat-assembly", "kind": "tool", "root": "experience", "added": "2026-11-16", "pr": null,
+      "title": "The Heat Assembly: a game about who can use heat protection",
+      "why": "A shaded hall can be paid for and open, and still be out of reach for a porter who would lose a paid turn by leaving the queue. Played alone or around a table over four rounds of heat, the game makes funded, open and usable different things, shows each person's outcome without a score, and lets players replay one decision to see whose day changes.",
+      "places": ["region"], "people": ["workers", "women"], "topics": ["heatrules", "coolingcentres"],
+      "event": { "what": "The Heat Assembly published as a game for one person or a group", "date": "2026-11-16" },
+      "review": "Every path through the rules was walked: none reaches every break without someone losing money. A solo game and a shared-device game were played in a browser, with keyboard-only play, a narrow phone at 200% text and reduced motion checked",
+      "pages": [["/heat-assembly/", "The Heat Assembly"], ["/live-through-a-heatwave/", "Live through a heatwave"]], "action": ["Play the game", "/heat-assembly/"],
+      "links": [{ "to": "lever:heatrules", "why": "A break that costs a paid turn is the game's opening problem.", "basis": "record" }]
     }
   ]
 }

@@ -545,6 +545,8 @@ if ((D.SOCIAL_PROTECTION || []).length) md.push(SPT.md(D.SOCIAL_PROTECTION, SITE
 const GT = require("./growth-text.js"); md.push(GT.md(SITE));
 // ---- signals: page by tools/build-signals.js, the same words from tools/signals-text.js ----
 md.push(require("./signals-text.js").md(SITE));
+// ---- The Heat Assembly: page and game by tools/build-heat-assembly.js, the same words from tools/heat-assembly-text.js ----
+md.push(require("./build-heat-assembly.js").md(D, SITE));
 // ---- State of the field: the latest published edition and the archive, from tools/sof-text.js ----
 md.push(require("./sof-text.js").llms(SITE));
 // the learning agenda, as on /evidence-map/: each question with its dated history

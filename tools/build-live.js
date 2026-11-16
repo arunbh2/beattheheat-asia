@@ -31,7 +31,8 @@ module.exports = function live({ page, write, hero, esc, V, D, ROOT }) {
     `${hero("Understand heat", "Live through a heatwave", "Heat reaches people through their work, their homes and bodies, and the systems everyone depends on. Choose whose heatwave to follow: each takes about five minutes, and each ends with what could protect people at scale.")}
     <section class="container hub"><ul class="lv-three">${THREE.map(card3).join("")}</ul>
       <p class="hub-p">Each is a teaching exercise built from the evidence on this site, with composite, drawn people. None predicts what will happen to a real person or place.</p>
-      <p class="hub-p"><a href="/who-is-at-risk/">Who heat hits hardest</a> · <a href="/practical/">Practical actions by setting</a> · <a href="/#loops">The vicious cycles</a></p></section>`));
+      <p class="hub-p"><a href="/who-is-at-risk/">Who heat hits hardest</a> · <a href="/practical/">Practical actions by setting</a> · <a href="/#loops">The vicious cycles</a></p></section>
+    ${require("./build-heat-assembly.js").embed({ esc, V })}`));
 
   // ---------- A night in the heat ----------
   const AR = id => (D.AT_RISK || []).find(x => x.id === id) || {};

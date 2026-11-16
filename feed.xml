@@ -50,6 +50,13 @@
     <summary>A reader chose paid rest breaks in Build protection, followed the link to Plan a response and found an empty plan. The actions now carry across and join whatever the plan already holds, without replacing any notes, and each line says which actions it came from.</summary>
   </entry>
   <entry>
+    <title>The Heat Assembly: a game about who can use heat protection</title>
+    <link href="https://beattheheat.asia/growing/#g-heat-assembly" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-heat-assembly</id>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <summary>A shaded hall can be paid for and open, and still be out of reach for a porter who would lose a paid turn by leaving the queue. Played alone or around a table over four rounds of heat, the game makes funded, open and usable different things, shows each person's outcome without a score, and lets players replay one decision to see whose day changes.</summary>
+  </entry>
+  <entry>
     <title>A policy brief on heat-ready social security, with examples from across Asia</title>
     <link href="https://beattheheat.asia/growing/#g-heat-ready-social-security" rel="alternate" type="text/html"/>
     <id>https://beattheheat.asia/growing/#g-heat-ready-social-security</id>
@@ -209,12 +216,5 @@
     <id>https://beattheheat.asia/growing/#g-signals-cop31-opening</id>
     <updated>2026-11-09T00:00:00Z</updated>
     <summary>As COP31 opened, WMO reported that 2026 will be one of the four warmest years on record and that El Niño is set to bring more heat into 2027, while UNEP's Emissions Gap Report found that warming will overshoot 1.5 °C. Each was verified at its primary source before joining the COP31 watch on Signals.</summary>
-  </entry>
-  <entry>
-    <title>What Bangkok's heat plan costs, and what stands between plans and money</title>
-    <link href="https://beattheheat.asia/growing/#g-bangkok-heat-finance" rel="alternate" type="text/html"/>
-    <id>https://beattheheat.asia/growing/#g-bangkok-heat-finance</id>
-    <updated>2026-11-08T00:00:00Z</updated>
-    <summary>Bangkok's 2026 financing strategy, from UNDP and the city, costs the city's heat plan and explains why running costs, not ambition, are the gap. Each insight was tied to the strategy's own words and checked on GitHub before it reached the site, and the city page now credits the heat plan to the city itself.</summary>
   </entry>
 </feed>

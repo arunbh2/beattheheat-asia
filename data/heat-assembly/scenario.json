@@ -1,0 +1,69 @@
+{
+  "note": "The Heat Assembly: numbers and rules of play for /heat-assembly/. Every magnitude here is a game mechanic, not a measurement. The words live in tools/heat-assembly-text.js; the rules that use these numbers live in heat-assembly/engine.js. Changing a number here can change the lesson: run node tools/check-heat-assembly.js, whose design guards fail if one path starts to help everyone.",
+  "v": 1,
+  "budget": 3,
+  "rota": 2,
+  "reserve": { "max": 3, "keep": 1 },
+  "prices": { "cover": 1, "relief": 1, "water": 1, "evening": 1, "hire": 2 },
+  "reliefBlocks": { "2": 2, "3": 1, "4": 2 },
+  "hireBlocks": 1,
+  "people": [
+    { "id": "tara", "kind": "queue", "start": 2, "own": 2 },
+    { "id": "jeevan", "kind": "dayrate", "start": 2, "own": 0 },
+    { "id": "noor", "kind": "home", "start": 1, "own": 0 },
+    { "id": "kiran", "kind": "stall", "start": 3, "own": 1 },
+    { "id": "hira", "kind": "mobility", "start": 2, "own": 1 }
+  ],
+  "roles": ["workers", "market", "municipal", "coordinator"],
+  "staff": [
+    { "id": "caretaker", "cap": { "day": 2, "night": 1 }, "services": ["hall", "child", "water"] },
+    { "id": "attendant", "cap": { "day": 1, "night": 1 }, "services": ["hall", "child", "water"] }
+  ],
+  "extraServices": ["hall", "water"],
+  "rounds": [
+    { "n": 1, "kind": "forecast", "blocks": [] },
+    { "n": 2, "kind": "day", "blocks": ["midday", "afternoon"] },
+    { "n": 3, "kind": "night", "blocks": ["evening", "morning"] },
+    { "n": 4, "kind": "day", "blocks": ["midday", "afternoon"] }
+  ],
+  "blockServices": {
+    "midday": ["hall", "child", "water"],
+    "afternoon": ["hall", "child", "water"],
+    "evening": ["hall"],
+    "morning": ["child", "water"]
+  },
+  "steps": [
+    { "round": 1, "t": "queue" },
+    { "round": 1, "t": "money" },
+    { "round": 2, "t": "predict" },
+    { "round": 2, "t": "roster" },
+    { "round": 2, "t": "prep" },
+    { "round": 3, "t": "evening" },
+    { "round": 3, "t": "roster" },
+    { "round": 3, "t": "prep" },
+    { "round": 4, "t": "hire" },
+    { "round": 4, "t": "roster" },
+    { "round": 4, "t": "cover" }
+  ],
+  "consents": {
+    "queue": ["market", "workers"],
+    "coverRota": ["workers", "market"],
+    "coverPaid": ["municipal", "market"],
+    "relief": ["municipal", "coordinator"],
+    "water": ["municipal", "coordinator", "market"],
+    "evening": ["municipal", "coordinator"],
+    "hire": ["municipal", "coordinator"],
+    "roster": ["coordinator"]
+  },
+  "sources": [
+    { "id": "piece-rate", "record": "ACTION_SETTINGS", "card": "work:breaks", "field": "stops" },
+    { "id": "cannot-leave", "record": "ACTION_SETTINGS", "card": "neighbourhoods:centres", "field": "stops" },
+    { "id": "station", "record": "ACTION_SETTINGS", "card": "work:station", "field": "stops" },
+    { "id": "hot-day-cost", "record": "HEAT_WEEK", "list": "evidence", "index": 0 },
+    { "id": "vendors", "record": "HEAT_WEEK", "list": "evidence", "index": 1 },
+    { "id": "cut-hours", "record": "HEAT_WEEK", "list": "evidence", "index": 2 },
+    { "id": "early-money", "record": "ACTION_SETTINGS", "card": "summer:ready", "field": "stops" },
+    { "id": "in-time", "record": "PLACE_SIM", "list": "evidence", "index": 3 },
+    { "id": "no-health-claim", "record": "LEVERS", "lever": "coolingcentres", "list": "watch", "index": 0 }
+  ]
+}
