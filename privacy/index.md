@@ -1,7 +1,7 @@
 ---
 title: "Privacy and terms"
 url: https://beattheheat.asia/privacy/
-updated: 2026-11-15
+updated: 2026-11-16
 licence: CC BY 4.0
 ---
 
@@ -24,6 +24,8 @@ There are no accounts and no sign-up. What you choose on the site, such as a map
 **Live temperature**: The live temperature strip, the homepage city view and each city page ask Open-Meteo, and for Singapore data.gov.sg, for the current weather and the next few days’ forecast of a city. Those services see the request, as any website does.
 
 **Fonts**: Fonts load from Google Fonts. Google sees the request for them.
+
+**Recent research**: Heat in the news asks Europe PMC, an open archive of research papers, for papers on heat in Asia from the last few months. The search is set by the page, so nothing you type is sent. Europe PMC sees the request, as any website does. The answer is kept in your browser for six hours, and if Europe PMC does not reply, the page shows a copy saved on the site.
 
 **The join form**: The form on the Help build Common Shade page is a Microsoft Forms embed. Anything typed into it goes to Microsoft Forms under its own terms, and nowhere else.
 

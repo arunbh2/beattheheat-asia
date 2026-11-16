@@ -35,6 +35,14 @@ The page changes, the change is listed below, and older figures are kept as supe
 
 ## What we have corrected
 
+- 16 November 2026 · Privacy and terms
+
+**What was wrong.** The privacy page listed the outside services the site asks, and said nothing else was sent anywhere. It left out one: Heat in the news asks Europe PMC, an open archive of research papers, for recent papers on heat in Asia.
+
+**What changed.** The page now describes that request. The search is set by the page, so nothing a visitor types is sent; Europe PMC sees the request, as any website does, and the answer is kept in the browser for six hours.
+
+We are sorry. A privacy page has to be complete to be trusted, and this one was not.
+
 - 16 November 2026 · State of the field, October 2026
 
 **What was wrong.** The October 2026 edition listed Bangladesh's first urban heatwave action plan, for Narayanganj, among the month's new records without its date, so it read as an October development.

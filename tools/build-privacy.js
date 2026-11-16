@@ -1,7 +1,8 @@
 // Common Shade: /privacy/, "Privacy and terms". What the site does and does not do with a visitor's data, in plain words,
 // and the terms of reuse. Facts here restate what the code does: choices stay in the browser (localStorage, the URL),
-// cookieless counts (GoatCounter), live temperature from Open-Meteo and data.gov.sg, fonts from Google Fonts, and the
-// Microsoft Forms embed on /join/. If any of those change, change this page in the same pull request.
+// cookieless counts (GoatCounter), live temperature from Open-Meteo and data.gov.sg, fonts from Google Fonts, recent papers
+// from Europe PMC on /news/ (news.js, a fixed search), and the Microsoft Forms embed on /join/. If any of those change,
+// change this page in the same pull request.
 // The same terms are written as /terms-of-use.md by tools/build-agent-files.js. Called by build-pages.js.
 "use strict";
 module.exports = function privacy({ page, write, esc, hero }) {
@@ -15,6 +16,7 @@ module.exports = function privacy({ page, write, esc, hero }) {
       ${row("Page counts", "A cookieless counter (GoatCounter) records that a page was opened and, in broad terms, the kind of screen and where the visit came from. It uses no cookies, builds no profile and does not follow people between sites.")}
       ${row("Live temperature", "The live temperature strip, the homepage city view and each city page ask Open-Meteo, and for Singapore data.gov.sg, for the current weather and the next few days’ forecast of a city. Those services see the request, as any website does.")}
       ${row("Fonts", "Fonts load from Google Fonts. Google sees the request for them.")}
+      ${row("Recent research", "Heat in the news asks Europe PMC, an open archive of research papers, for papers on heat in Asia from the last few months. The search is set by the page, so nothing you type is sent. Europe PMC sees the request, as any website does. The answer is kept in your browser for six hours, and if Europe PMC does not reply, the page shows a copy saved on the site.")}
       ${row("The join form", "The form on the Help build Common Shade page is a Microsoft Forms embed. Anything typed into it goes to Microsoft Forms under its own terms, and nowhere else.")}
     </dl>
     <p class="hub-p">Nothing else is sent anywhere. The site has no advertising, no social-media widgets and no tracking pixels.</p>
