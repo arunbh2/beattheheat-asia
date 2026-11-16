@@ -1927,7 +1927,7 @@ Steps toward protection this year: [Nepal adopts a national plan of action on he
 
 - 2025
 
-210 works published, 122 of them with a known month; 876 in all by the end of the year. 24 of the verified Indian heat action plans carry this year.
+210 works published, 123 of them with a known month; 876 in all by the end of the year. 24 of the verified Indian heat action plans carry this year.
 
 Steps toward protection this year: [Delhi launches its 2025 Heat Action Plan](https://beattheheat.asia/atlas/); [Bangladesh’s first urban heatwave action plan, for Narayanganj](https://beattheheat.asia/atlas/).
 

@@ -3196,9 +3196,9 @@
    "label": "Scientific Reports, 2025: widespread heat stress will become the norm in a warming Southeast Asia (open access; Europe PMC PMC12756238)",
    "root": "practical",
    "org": false,
-   "date": "2025",
-   "precision": "year",
-   "how": "label"
+   "date": "2025-12-29",
+   "precision": "day",
+   "how": "crossref"
   },
   {
    "url": "https://doi.org/10.1038/s41893-024-01294-x",

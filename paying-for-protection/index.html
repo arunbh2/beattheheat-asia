@@ -73,7 +73,7 @@
 @media (prefers-reduced-motion:reduce){.csn__start--glow{animation:none}}
 .csn__dot{display:none;width:8px;height:8px;border-radius:50%;background:var(--orange)}
 .csn__map{display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 14px;border-radius:999px;font-weight:700;font-size:.9rem;white-space:nowrap;text-decoration:none;color:#16202B;background:transparent;border:1.5px solid #16202B;transition:background .2s,color .2s,transform .2s}
-.csn a.csn__map:hover{background:#16202B;color:#FAF7F2;transform:translateY(-1px)}.csn__map:focus-visible{outline:3px solid #16202B;outline-offset:2px}
+.csn a.csn__map:hover{background:#16202B;color:#FAF7F2;transform:translateY(-1px)}@media (hover:none),(pointer:coarse){.csn__start:hover,.csn a.csn__signals:hover,.csn a.csn__map:hover{transform:none}}.csn__map:focus-visible{outline:3px solid #16202B;outline-offset:2px}
 .csn__btn--map{color:#1F7A70;border-color:#1F7A70;background:#E7F2F0}
 .csn--onpath .csn__dot{background:#16202B}
 .csn--onpath .csn__dot{display:inline-block}
@@ -518,7 +518,7 @@ $$("[data-check]").forEach(function(box){var key=box.getAttribute("data-check"),
     if(form)window.open(form,"_blank","noopener");remember({a:"no",d:today});done(thanksNo)})})}});
 /* copy the citation */
 $$("[data-csn-copy]").forEach(function(b){b.addEventListener("click",function(){var t=$("[data-csn-cite]").textContent;(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){b.textContent="Copied"},function(){b.textContent="Select and copy"})})});
-})();</script><script src="/ticker.js?v=235" defer></script><script>addEventListener("load",function(){setTimeout(function(){["/join.js?v=235","/everything.js?v=235"].forEach(function(s){var e=document.createElement("script");e.src=s;document.body.appendChild(e)})},2500)})</script><!--/csn-->
+})();</script><script src="/ticker.js?v=236" defer></script><script>addEventListener("load",function(){setTimeout(function(){["/join.js?v=236","/everything.js?v=236"].forEach(function(s){var e=document.createElement("script");e.src=s;document.body.appendChild(e)})},2500)})</script><!--/csn-->
 <footer><p>Common Shade is in beta, currently at beattheheat.asia. A group of organisations is helping shape it as a shared endeavour for protection from extreme heat. It is an independent, work-in-progress project, not an official publication of any one organisation. Listing an organisation does not imply its partnership, affiliation or endorsement. Every claim links to its source; where the evidence is still emerging, the map says so.</p><p>Text, data, films and illustrations © Common Shade contributors, shared under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>: copy, adapt and translate them, with credit and a link to beattheheat.asia. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’.</p><p>Generated from the map’s data on 2026-11-16. The whole map as plain text: <a href="/llms-full.txt">llms-full.txt</a>.</p></footer>
 </body>
 </html>
