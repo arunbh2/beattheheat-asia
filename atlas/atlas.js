@@ -66,7 +66,7 @@
         '<p><b>What came after.</b> ' + esc(e.changed) + '</p><p class="atl-src">Source: ' + ext(e.src) + '</p><p><a href="/heatwaves/#' + e.id + '">Read it on Heatwaves that shaped Asia <span aria-hidden="true">→</span></a></p>';
     } else if (f.k === "ms") {
       var m = f.e;
-      side.innerHTML = '<p class="atl-k2"><i class="atl-k atl-k--ms"></i>' + esc(KIND[m.kind] || "Milestone") + " · " + m.year + "</p><h3>" + esc(m.title) + '</h3><p class="atl-muted">' + esc(m.place) + "</p><p>" + esc(m.text) + '</p><p class="atl-src">Source: ' + ext(m.source) + "</p>" +
+      side.innerHTML = '<p class="atl-k2"><i class="atl-k atl-k--ms"></i>' + esc(KIND[m.kind] || "Milestone") + " · " + esc(m.when || String(m.year)) + "</p><h3>" + esc(m.title) + '</h3><p class="atl-muted">' + esc(m.place) + "</p><p>" + esc(m.text) + '</p><p class="atl-src">Source: ' + ext(m.source) + "</p>" +
         (m.link ? '<p><a href="' + esc(m.link[0]) + '">' + esc(m.link[1]) + ' <span aria-hidden="true">→</span></a></p>' : "");
     } else {
       var c = f.e, t = S.live && S.live[c.id], o = S.cmp && A.cities.find(function (x) { return x.id === S.cmp; });

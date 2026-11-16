@@ -39,7 +39,7 @@ The page changes, the change is listed below, and older figures are kept as supe
 
 **What was wrong.** The October 2026 edition listed Bangladesh's first urban heatwave action plan, for Narayanganj, among the month's new records without its date, so it read as an October development.
 
-**What changed.** The plan records its approval on 22 September 2025; October 2026 is when Bangladesh's heat and health assessment reported it. The edition now gives both dates, and keeps its first text unchanged below the revision log.
+**What changed.** The plan records its approval on 22 September 2025; October 2026 is when Bangladesh's heat and health assessment reported it. The edition now gives both dates, and keeps its first text below the revision log. The Atlas now dates the plan to 22 September 2025, reported October 2026.
 
 We are sorry. A reader planning around this could have taken an older plan for a new one.
 
@@ -58,6 +58,14 @@ We are sorry. A trend that cannot be told apart from a change at the station was
 **What changed.** Both now say what the evidence supports and what it depends on. Cooling spaces can offer relief; how much they protect health depends on who can reach them, how long people stay, and the heat after they leave. Fans help in some conditions and not others, so cooling is matched to the local heat.
 
 We are sorry. Readers plan real protection on these words, and they deserve the limits as well as the promise.
+
+- November 2026 · Bangladesh’s first urban heatwave action plan, for Narayanganj
+
+**What was wrong.** The Atlas placed Bangladesh’s first urban heatwave action plan, for Narayanganj, in October 2026, when it was reported. The plan records its approval on 22 September 2025.
+
+**What changed.** Narayanganj City Corporation approved Bangladesh’s first urban heatwave action plan on 22 September 2025, as the plan itself records. Bangladesh’s first heat and health assessment, released in October 2026, reported it, alongside national guidelines for heat-related illness and a public campaign, “Beat the Heat”.
+
+We are sorry. A plan approved in 2025 appeared on the Atlas as a 2026 step.
 
 - 31 October 2026 · Across the site
 

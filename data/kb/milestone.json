@@ -29,8 +29,9 @@
   "id": "ms-narayanganj-heat-plan-2026",
   "type": "milestone",
   "title": "Bangladesh’s first urban heatwave action plan, for Narayanganj",
-  "summary": "Bangladesh’s first heat and health assessment, released in October 2026, reports that the country’s first urban heatwave action plan has been developed for Narayanganj, alongside national guidelines for heat-related illness and a public campaign, “Beat the Heat”.",
-  "date": "2026-10",
+  "summary": "Narayanganj City Corporation approved Bangladesh’s first urban heatwave action plan on 22 September 2025, as the plan itself records. Bangladesh’s first heat and health assessment, released in October 2026, reported it, alongside national guidelines for heat-related illness and a public campaign, “Beat the Heat”.",
+  "date": "2025-09-22",
+  "reported": "2026-10",
   "kind": "plan",
   "lat": 23.62,
   "lon": 90.5,
@@ -51,6 +52,9 @@
   "checked": "2026-10-31",
   "status": "current",
   "added": "2026-10",
-  "changed": "2026-10"
+  "changed": "2026-11",
+  "signals": "sig-narayanganj-hap",
+  "correction": "The Atlas placed Bangladesh’s first urban heatwave action plan, for Narayanganj, in October 2026, when it was reported. The plan records its approval on 22 September 2025.",
+  "sorry": "We are sorry. A plan approved in 2025 appeared on the Atlas as a 2026 step."
  }
 ]

@@ -112,7 +112,7 @@ Every decision elevates the reader's experience (UX), the maintainer's experienc
   - Sources that were not content-checked are marked.
   - No step may go further than the linked Signals record shows.
 - **Sources are snapshots** (`node tools/sof-review.js snapshot`): title, date, url, the source check at the time and a fingerprint of the record. A later change to the knowledge base shows beside the edition; it is never written into it.
-- **Preserved at publication.** `data/site/briefs/_ledger.json` holds each published edition's hash at its latest revision. A change needs a dated revision, plus a /corrections/ entry for a correction, then `seal`. The October 2026 edition keeps its first text in `as_published`.
+- **Preserved at publication.** `data/site/briefs/_ledger.json` holds each published edition's hash at its latest revision. A change needs a dated revision, plus a /corrections/ entry for a correction, then `seal`. The October 2026 edition keeps its first text in `as_published` (one funder's name removed on 16 November 2026, marked where it was).
 - **Workflow:** `node tools/sof-review.js new | snapshot | check | publish | seal` (step 10 of `/monthly-heat-update`). AI may prepare drafts; the owner approves every edition.
 - The baseline and results of the November 2026 rebuild are in `research/2026-11/sof-rebuild/README.md`.
 

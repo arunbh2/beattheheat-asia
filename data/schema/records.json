@@ -53,7 +53,7 @@
   "milestone": {
    "about": "A dated change: a plan adopted, a rule notified, a role created, a heatwave recorded.",
    "required": ["date", "kind"],
-   "optional": "lat and lon (approximate) to place it on the Atlas",
+   "optional": "lat and lon (approximate) to place it on the Atlas; reported (YYYY-MM) when the change was reported later than it happened, shown beside the date; signals (a Signals record id) where the change is tracked on /signals/",
    "kinds": ["plan", "law", "rule", "role", "programme", "heatwave", "finance"]
   },
   "trigger": {
