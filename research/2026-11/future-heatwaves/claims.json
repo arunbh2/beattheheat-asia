@@ -45,7 +45,8 @@
    "kind": "Abstract record",
    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41467-026-76809-5&resultType=core&format=json",
    "expect": [
-    "heatwaves"
+    "heatwaves",
+    "pmcid"
    ]
   }
  ],
