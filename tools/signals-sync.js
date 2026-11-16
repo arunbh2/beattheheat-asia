@@ -67,8 +67,10 @@ for (const s of D.signals) if (s.kind === "commitment" && s.deliverables) {
 }
 const nextS = ser(D), nextC = JSON.stringify(C, null, 1) + "\n";
 const curS = fs.readFileSync(F, "utf8"), curC = fs.existsSync(FC) ? fs.readFileSync(FC, "utf8") : "";
-// in --check mode, check dates are compared without the commit dates (a fresh clone may lack history)
-const strip = s => s.replace(/"checked": "[^"]*"/g, "");
+// in --check mode, check records are compared without their commit dates, and without the order those dates give them:
+// a shallow clone (as on GitHub) dates every record by its one commit, which reorders records that share a URL
+const strip = s => { if (!s) return ""; const J = JSON.parse(s);
+  return JSON.stringify(Object.keys(J.urls || {}).sort().map(u => [u, J.urls[u].map(r => { const o = Object.assign({}, r); delete o.checked; return JSON.stringify(o); }).sort()])); };
 if (CHECK) {
   const bad = [];
   if (nextS !== curS) bad.push("data/site/signals.json: stage, history or formatting differ from what the deliverables give");
