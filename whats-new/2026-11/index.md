@@ -1,7 +1,7 @@
 ---
 title: "State of the field: November 2026"
 url: https://beattheheat.asia/whats-new/2026-11/
-updated: 2026-10-01
+updated: 2026-11-16
 licence: CC BY 4.0
 ---
 
@@ -255,9 +255,13 @@ Signals now tracks each commitment deliverable by deliverable, with what the evi
 
 27 October 2026 · Secondary report · At this edition: Content checked 15 November 2026
 
+The record this came from has changed since this edition: [see the current record](https://beattheheat.asia/signals/#sig-philippines-heat-stress-advisories-2026).
+
 - [Daily Tribune, 2026: DOLE sets compensation rules for heat-related illnesses](https://tribune.net.ph/2026/10/24/dole-sets-compensation-rules-for-heat-related-illnesses)
 
 24 October 2026 · Secondary report · At this edition: Content checked 15 November 2026
+
+The record this came from has changed since this edition: [see the current record](https://beattheheat.asia/signals/#sig-philippines-heat-stress-advisories-2026).
 
 - [Ministry of Agriculture and Environment, Viet Nam, 2026: 94% of outdoor workers report heat-related health problems: UNDP report](https://en.mae.gov.vn/94-of-outdoor-workers-report-heatrelated-health-problems-undp-report-9432.htm)
 
