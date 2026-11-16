@@ -1,0 +1,24 @@
+{
+ "about": "Studies of humid heat stress in Southeast Asia, set beside the future heatwaves study (which measures daily maximum temperature in India and Pakistan and does not cover Southeast Asia). First pass: Europe PMC records, to find each study's open full text. stage.js writes data/inbox/2026-11-sea-humid-heat/sources.json; verify-sources.yml checks each term; apply.js uses only confirmed claims.",
+ "sources": [
+  {
+   "key": "sr-epmc",
+   "title": "Widespread heat stress will become the norm in a warming Southeast Asia (Europe PMC record)",
+   "publisher": "Europe PMC (Scientific Reports, 2025)",
+   "year": 2025,
+   "kind": "Abstract record",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41598-025-28817-6&resultType=core&format=json",
+   "expect": ["pmcid", "Southeast Asia", "heat stress", "UTCI", "hours"]
+  },
+  {
+   "key": "ef-epmc",
+   "title": "Heatwaves in Southeast Asia and Their Changes in a Warmer World (Europe PMC record)",
+   "publisher": "Europe PMC (Earth's Future, 2021)",
+   "year": 2021,
+   "kind": "Abstract record",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1029/2021EF001992&resultType=core&format=json",
+   "expect": ["pmcid", "Southeast Asia", "heatwave", "duration"]
+  }
+ ],
+ "claims": []
+}

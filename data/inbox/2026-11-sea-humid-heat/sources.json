@@ -1,0 +1,45 @@
+[
+ {
+  "id": "src-sh-sr-epmc",
+  "type": "source",
+  "keys": [
+   "sr-epmc"
+  ],
+  "title": "Widespread heat stress will become the norm in a warming Southeast Asia (Europe PMC record)",
+  "publisher": "Europe PMC (Scientific Reports, 2025)",
+  "year": 2025,
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41598-025-28817-6&resultType=core&format=json",
+  "kind": "Abstract record",
+  "where": "Southeast Asia",
+  "expect": [
+   "pmcid",
+   "Southeast Asia",
+   "heat stress",
+   "UTCI",
+   "hours"
+  ],
+  "claims": [],
+  "note": "Staged from the Southeast Asia humid heat study batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-sh-ef-epmc",
+  "type": "source",
+  "keys": [
+   "ef-epmc"
+  ],
+  "title": "Heatwaves in Southeast Asia and Their Changes in a Warmer World (Europe PMC record)",
+  "publisher": "Europe PMC (Earth's Future, 2021)",
+  "year": 2021,
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1029/2021EF001992&resultType=core&format=json",
+  "kind": "Abstract record",
+  "where": "Southeast Asia",
+  "expect": [
+   "pmcid",
+   "Southeast Asia",
+   "heatwave",
+   "duration"
+  ],
+  "claims": [],
+  "note": "Staged from the Southeast Asia humid heat study batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ }
+]
