@@ -1,0 +1,150 @@
+{
+ "week": "2026-W47",
+ "harvested": "2026-11-16T11:27:30.432Z",
+ "window": {
+  "from": "2026-11-08",
+  "to": "2026-11-16"
+ },
+ "sources": {
+  "europepmc": {
+   "ok": true,
+   "found": 3
+  },
+  "crossref": {
+   "ok": true,
+   "found": 103
+  },
+  "arxiv": {
+   "ok": true,
+   "found": 0
+  },
+  "openalex": {
+   "ok": true,
+   "found": 100
+  },
+  "worldbank": {
+   "ok": true,
+   "found": 0
+  },
+  "newsfeed": {
+   "ok": true,
+   "found": 142
+  },
+  "who": {
+   "ok": true,
+   "found": 50
+  }
+ },
+ "counts": {
+  "found": 398,
+  "distinct": 336,
+  "new": 221,
+  "kept": 2,
+  "set_aside": 219,
+  "news_page_no_abstract": 59
+ },
+ "candidates": [
+  {
+   "key": "doi:10.64898/2026.11.08.26367540",
+   "title": "Data-driven estimation of the onset of heat-related mortality in five Indian cities",
+   "url": "https://doi.org/10.64898/2026.11.08.26367540",
+   "doi": "10.64898/2026.11.08.26367540",
+   "date": "2026-11-10",
+   "venue": "medRxiv",
+   "kind": "preprint",
+   "first_author": "Robles Fontán MM",
+   "found_in": [
+    "Preprint via Europe PMC",
+    "Common Shade news page"
+   ],
+   "streams": [
+    "heat-health"
+   ],
+   "suggested": {
+    "sample_size": null,
+    "geography": {
+     "value": "South Asia; Ahmedabad; Chennai; Delhi; Kolkata; Mumbai",
+     "quote": ""
+    },
+    "agro_climatic_zone": null,
+    "effect_size_c": null,
+    "effect_size_pct": null,
+    "unit_cost": null,
+    "failure_modes": null,
+    "design": [
+     "time-series",
+     "modelling"
+    ],
+    "cycles": [
+     "invisible"
+    ]
+   },
+   "decision": "pending",
+   "review": {
+    "cycle": "",
+    "finding": "",
+    "grade": "",
+    "where": "",
+    "sample_size": "",
+    "effect_size": "",
+    "unit_cost": "",
+    "agro_climatic_zone": "",
+    "failure_modes": "",
+    "limit": "",
+    "note": ""
+   }
+  },
+  {
+   "key": "doi:10.1016/j.joclim.2026.100768",
+   "title": "Ambient temperature and non-communicable disease presentations and mortality in a Pakistani ED.",
+   "url": "https://doi.org/10.1016/j.joclim.2026.100768",
+   "doi": "10.1016/j.joclim.2026.100768",
+   "date": "2026-10-28",
+   "venue": "The journal of climate change and health",
+   "kind": "article",
+   "first_author": "Saleem",
+   "found_in": [
+    "Common Shade news page"
+   ],
+   "streams": [
+    "heat-health"
+   ],
+   "suggested": {
+    "sample_size": null,
+    "geography": {
+     "value": "Pakistan; Karachi",
+     "quote": ""
+    },
+    "agro_climatic_zone": null,
+    "effect_size_c": {
+     "value": "31 °C",
+     "quote": "Autoregressive Distributed Lag (ARDL) models evaluated the delayed effect of extreme heat (≥31 °C) on daily mortality rates."
+    },
+    "effect_size_pct": null,
+    "unit_cost": null,
+    "failure_modes": null,
+    "design": [
+     "time-series",
+     "review"
+    ],
+    "cycles": [
+     "clinic"
+    ]
+   },
+   "decision": "pending",
+   "review": {
+    "cycle": "",
+    "finding": "",
+    "grade": "",
+    "where": "",
+    "sample_size": "",
+    "effect_size": "",
+    "unit_cost": "",
+    "agro_climatic_zone": "",
+    "failure_modes": "",
+    "limit": "",
+    "note": ""
+   }
+  }
+ ]
+}
