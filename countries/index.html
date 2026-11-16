@@ -14,7 +14,7 @@
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2316202B'/%3E%3Cpath d='M5 14 Q16 4 27 14' fill='none' stroke='%23F26430' stroke-width='4.5' stroke-linecap='round'/%3E%3Cpath d='M9 13 V27 M23 13 V27' stroke='%23F6E7D7' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Newsreader:ital,wght@0,400;0,500;1,400&display=swap">
-  <link rel="stylesheet" href="/styles.css?v=228">
+  <link rel="stylesheet" href="/styles.css?v=229">
 <!--csn--><style id="csn-css">html:has(.csn){scroll-padding-top:120px}
 .csn,.csf,.csn-d,.csp{--ink:#16202B;--ink2:#39424D;--grey:#5E6570;--canvas:#FAF7F2;--sand:#F2E7D9;--line:#E6DFD4;--orange:#F26430;--ember:#B8401A;--green:#17703A;font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);line-height:1.4}
 .csn{position:sticky;top:var(--tk-h,0px);z-index:60;margin:0!important;padding:0!important;max-width:none!important;display:block!important;background:rgba(250,247,242,.96);border-bottom:1px solid var(--line);-webkit-backdrop-filter:saturate(1.2) blur(10px);backdrop-filter:saturate(1.2) blur(10px)}
@@ -44,8 +44,8 @@
 .csn__start{border:1.5px solid #F26430;background:#F26430;color:#16202B;transition:background .2s,box-shadow .2s,transform .2s}
 .csn__start:hover{background:#FF7A45;border-color:#FF7A45;transform:translateY(-1px);box-shadow:0 12px 24px -12px rgba(242,100,48,.9)}.csn__start:focus-visible{outline:3px solid #16202B;outline-offset:2px}
 .csn__start--glow{animation:csn-glow 2.6s ease-in-out 1.2s 3}
-.csn__signals{display:inline-flex;align-items:center;gap:7px;height:40px;padding:0 14px;border-radius:999px;font-weight:700;font-size:.9rem;white-space:nowrap;text-decoration:none;background:transparent;border:1.5px solid #16202B;color:#16202B;transition:background .2s,color .2s,transform .2s}
-.csn a.csn__signals:hover{background:#16202B;color:#FAF7F2;transform:translateY(-1px)}.csn__signals:focus-visible{outline:3px solid #F26430;outline-offset:2px}.csn__signals[aria-current]{box-shadow:inset 0 0 0 2px #16202B}
+.csn__signals{display:inline-flex;align-items:center;gap:7px;height:40px;padding:0 14px;border-radius:999px;font-weight:700;font-size:.9rem;white-space:nowrap;text-decoration:none;background:#3DBE78;border:1.5px solid #3DBE78;color:#0C1B12;transition:background .2s,transform .2s}
+.csn a.csn__signals{color:#0C1B12}.csn a.csn__signals:hover{background:#55CF8C;border-color:#55CF8C;transform:translateY(-1px)}.csn__signals:focus-visible{outline:3px solid #16202B;outline-offset:2px}.csn__signals[aria-current]{box-shadow:inset 0 0 0 2px #0C1B12}
 .csn__btn--signals{background:#3DBE78!important;border-color:#3DBE78!important;color:#0C1B12!important;font-weight:700}
 @keyframes csn-glow{0%,100%{box-shadow:0 8px 20px -10px rgba(242,100,48,.85),0 0 0 0 rgba(242,100,48,.45)}50%{box-shadow:0 8px 20px -10px rgba(242,100,48,.85),0 0 0 9px rgba(242,100,48,0)}}
 @media (prefers-reduced-motion:reduce){.csn__start--glow{animation:none}}
@@ -473,7 +473,7 @@ $$("[data-check]").forEach(function(box){var key=box.getAttribute("data-check"),
     if(form)window.open(form,"_blank","noopener");remember({a:"no",d:today});done(thanksNo)})})}});
 /* copy the citation */
 $$("[data-csn-copy]").forEach(function(b){b.addEventListener("click",function(){var t=$("[data-csn-cite]").textContent;(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){b.textContent="Copied"},function(){b.textContent="Select and copy"})})});
-})();</script><script src="/ticker.js?v=228" defer></script><script>addEventListener("load",function(){setTimeout(function(){["/join.js?v=228","/everything.js?v=228"].forEach(function(s){var e=document.createElement("script");e.src=s;document.body.appendChild(e)})},2500)})</script><!--/csn-->
+})();</script><script src="/ticker.js?v=229" defer></script><script>addEventListener("load",function(){setTimeout(function(){["/join.js?v=229","/everything.js?v=229"].forEach(function(s){var e=document.createElement("script");e.src=s;document.body.appendChild(e)})},2500)})</script><!--/csn-->
 <footer class="wkp-foot"><div class="container">
     <p>From a structured rapid evidence map compiled in October 2026, not an exhaustive systematic review. Listing a solution, programme or organisation does not imply endorsement, partnership or ranking. Every source links to its publisher; links that failed our check are left out. Text: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0<span class="visually-hidden"> (opens in a new tab)</span></a>. <a href="/sources/">All sources</a> · <a href="/">Back to the map</a></p>
   </div></footer>
