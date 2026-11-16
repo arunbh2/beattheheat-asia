@@ -1,11 +1,11 @@
 ---
 title: "Evidence map"
 url: https://beattheheat.asia/evidence-map/
-updated: 2026-11-08
+updated: 2026-11-16
 licence: CC BY 4.0
 ---
 
-> How sure we are, cycle by cycle: 71 studies graded by kind, where evidence looks stronger than the funding we traced, and 43 questions nobody has answered yet.
+> How sure we are, cycle by cycle: 71 studies graded by kind, where evidence looks stronger than the funding we traced, and 44 questions nobody has answered yet.
 
 What is still unknown?
 
@@ -1069,6 +1069,18 @@ Opened 7 November 2026. [How the commons is growing](https://beattheheat.asia/gr
 **What could answer it (our suggestion)**: Follow consenting users and similar non-users through the rest of hot days, measuring exposure and health.
 
 **Scale**: Illustrative: about 150 people over six hot weeks
+
+- The reactive-spending loop · Uncertain
+
+### Can heat plans, budgets and cooling spaces keep running through a heatwave longer than any on record?
+
+Opened 16 November 2026. [How the commons is growing](https://beattheheat.asia/growing/)
+
+**What we have**: A 2026 modelling study projects that some future heatwaves in India and Pakistan could outlast the 2019 heatwave, the region’s reference event, even with low emissions. [The studies](#ev-reactive)
+
+**What could answer it (our suggestion)**: Test one city’s plan, budget and staffing against a heatwave twice as long as its worst on record, with each department that would run it.
+
+**Scale**: Illustrative: one city, a two-day exercise with each lead department
 
 - The reactive-spending loop · Uncertain
 

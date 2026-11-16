@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Common Shade: applies the confirmed future-heatwaves claims. Each edit names the claims it carries and is refused
 // unless gate.js confirmed them. Exact string replacements keep each file's formatting; a missing or repeated target
-// stops the run. The workbook prompt is a question, not a claim, and rides on c-duration.
+// stops the run. The workbook prompt shipped earlier (PR 226) and is not part of this run.
 //   node research/2026-11/future-heatwaves/gate.js && node research/2026-11/future-heatwaves/apply.js
 "use strict";
 const fs = require("fs"), path = require("path");
@@ -21,19 +21,18 @@ function edit(claims, f, from, to) {
 // 1. Heat action plans: a watch-out on plans sized to the worst heatwave in memory
 const WATCH = "Plans are often sized to the worst heatwave in memory. A 2026 modelling study found that even with low emissions, 6 to 11% of future heatwaves in India and Pakistan, Europe and North Africa could outlast each region’s recent record heatwave; with high emissions, close to 1 in 5 in India and Pakistan.";
 if (WATCH.length > 320) problems.push(`watch text is ${WATCH.length} characters; the limit is 320`);
+// anchored on the heat action plan lever's own source title, because the closing lines are shared with two other levers
+const HAP_END = `extends a city's heat action plan (pp. 1, 3-4, 10)",\n        "url": "https://niua.in/publication-details/Heat_Resilient_Cities_Framework"\n      }\n    ]`;
 edit(["c-duration", "c-lived"], "data/core/LEVERS.json",
-  `        "url": "https://niua.in/publication-details/Heat_Resilient_Cities_Framework"\n      }\n    ]\n  },`,
-  `        "url": "https://niua.in/publication-details/Heat_Resilient_Cities_Framework"\n      }\n    ],\n    "watch": [\n      {\n        "text": ${JSON.stringify(WATCH)},\n        "sources": [\n          {\n            "label": ${JSON.stringify(LABEL)},\n            "url": ${JSON.stringify(URL)}\n          }\n        ]\n      }\n    ]\n  },`);
+  `${HAP_END}\n  },`,
+  `${HAP_END},\n    "watch": [\n      {\n        "text": ${JSON.stringify(WATCH)},\n        "sources": [\n          {\n            "label": ${JSON.stringify(LABEL)},\n            "url": ${JSON.stringify(URL)}\n          }\n        ]\n      }\n    ]\n  },`);
 
-// 2. Planning workbook: will it survive the next season?
-edit("c-duration", "data/core/FINANCE.json",
-  `"Who pays next year’s premium and running costs?",`,
-  `"Who pays next year’s premium and running costs?", "Would the money and staff last through a heatwave longer than the worst on record?",`);
+// 2. (The planning workbook prompt shipped earlier, in PR 226, so it is not applied here.)
 
 // 3. Learning agenda: a new open question
 edit(["c-duration", "c-lived", "c-reference"], "data/site/learning.json",
   `    "could": "Follow consenting users and similar non-users through the rest of hot days, measuring exposure and health.", "scale": "Illustrative: about 150 people over six hot weeks" }\n ]`,
-  `    "could": "Follow consenting users and similar non-users through the rest of hot days, measuring exposure and health.", "scale": "Illustrative: about 150 people over six hot weeks" },\n  { "id": "q-longer-heat", "loop": "reactive", "status": "open",\n    "history": [{ "date": "2026-11-09", "status": "open", "note": "Opened on the learning agenda" }],\n    "q": "Can heat plans, budgets and cooling spaces keep running through a heatwave longer than any on record?",\n    "have": "A 2026 modelling study projects that some future heatwaves in India and Pakistan will outlast the 2019 heatwave even with low emissions, and Bangkok reports that running costs are not always covered.",\n    "could": "Test one city’s plan, budget and staffing against a heatwave twice as long as its worst on record, with each department that would run it.", "scale": "Illustrative: one city, a two-day exercise with each lead department" }\n ]`);
+  `    "could": "Follow consenting users and similar non-users through the rest of hot days, measuring exposure and health.", "scale": "Illustrative: about 150 people over six hot weeks" },\n  { "id": "q-longer-heat", "loop": "reactive", "status": "open",\n    "history": [{ "date": "2026-11-16", "status": "open", "note": "Opened on the learning agenda" }],\n    "q": "Can heat plans, budgets and cooling spaces keep running through a heatwave longer than any on record?",\n    "have": "A 2026 modelling study projects that some future heatwaves in India and Pakistan could outlast the 2019 heatwave, the region\u2019s reference event, even with low emissions.",\n    "could": "Test one city’s plan, budget and staffing against a heatwave twice as long as its worst on record, with each department that would run it.", "scale": "Illustrative: one city, a two-day exercise with each lead department" }\n ]`);
 
 if (problems.length) { console.error("Nothing written:\n  " + problems.join("\n  ")); process.exit(1); }
 for (const [f, t] of Object.entries(files)) { JSON.parse(t); fs.writeFileSync(path.join(ROOT, f), t); }

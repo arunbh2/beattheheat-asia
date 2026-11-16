@@ -37,9 +37,9 @@
     "city_profiles": 22,
     "country_snapshots": 7,
     "heatwaves": 10,
-    "sources": 2340,
+    "sources": 2341,
     "studies_graded": 71,
-    "learning_questions": 43,
+    "learning_questions": 44,
     "solutions": 131,
     "heat_action_plans_verified": 146,
     "schemes": 98,
@@ -59,7 +59,7 @@
   "why_it_helps_you": [
     {
       "title": "You can check it instead of trusting it.",
-      "text": "2,340 sources are cited and every one is listed at /sources/. Each claim links to the source it rests on, so an answer built from this site can be traced back."
+      "text": "2,341 sources are cited and every one is listed at /sources/. Each claim links to the source it rests on, so an answer built from this site can be traced back."
     },
     {
       "title": "It says how sure it is.",
@@ -67,7 +67,7 @@
     },
     {
       "title": "Gaps are marked, not filled.",
-      "text": "Where the research found nothing, the site says so, and 43 learning questions are listed as not yet answered. An honest \"nobody has measured this yet\" is more useful than a confident guess."
+      "text": "Where the research found nothing, the site says so, and 44 learning questions are listed as not yet answered. An honest \"nobody has measured this yet\" is more useful than a confident guess."
     },
     {
       "title": "It is open and light.",
