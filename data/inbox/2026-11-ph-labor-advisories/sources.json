@@ -1,0 +1,125 @@
+[
+ {
+  "id": "phla-bwc-list",
+  "type": "source",
+  "region": "asia",
+  "title": "Labor advisories (issuances list)",
+  "publisher": "Bureau of Working Conditions, Department of Labor and Employment",
+  "year": 2026,
+  "url": "https://bwc.dole.gov.ph/issuances/labor-advisories/",
+  "kind": "Government page",
+  "expect": [
+   "Labor Advisory No. 20",
+   "Labor Advisory No. 19",
+   "Heat Stress",
+   "Compensability"
+  ],
+  "note": "Staged to check the Philippines' October 2026 labour advisories on heat against their sources before the site uses them. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20221001084513/https://bwc.dole.gov.ph/issuances/labor-advisories"
+ },
+ {
+  "id": "phla-dole-news",
+  "type": "source",
+  "region": "asia",
+  "title": "DOLE outlines new protocols to protect workers amid El Nino",
+  "publisher": "Department of Labor and Employment",
+  "year": 2026,
+  "url": "https://dole.gov.ph/news/dole-outlines-new-protocols-to-protect-workers-amid-el-nino/",
+  "kind": "Government press release",
+  "expect": [
+   "Labor Advisory No. 20",
+   "heat index",
+   "heat stress",
+   "HIRAC",
+   "flexible work",
+   "PAGASA"
+  ],
+  "note": "Staged to check the Philippines' October 2026 labour advisories on heat against their sources before the site uses them. Not published from the inbox."
+ },
+ {
+  "id": "phla-pia",
+  "type": "source",
+  "region": "asia",
+  "title": "Heat-related illnesses may qualify for workers' compensation",
+  "publisher": "Philippine Information Agency",
+  "year": 2026,
+  "url": "https://pia.gov.ph/news/luzon/ncr/heat-related-illnesses-may-qualify-for-workers-compensation",
+  "kind": "Government news agency report",
+  "expect": [
+   "compensation",
+   "heat",
+   "Labor Advisory No. 19",
+   "rhabdomyolysis",
+   "syncope"
+  ],
+  "note": "Staged to check the Philippines' October 2026 labour advisories on heat against their sources before the site uses them. Not published from the inbox."
+ },
+ {
+  "id": "phla-newswatch",
+  "type": "source",
+  "region": "asia",
+  "title": "DOLE releases advisory on safety protocols during El Nino",
+  "publisher": "NewsWatch Plus",
+  "year": 2026,
+  "url": "https://www.newswatchplus.ph/2026/10/28/dole-releases-advisory-on-safety-protocols-during-el-nino/",
+  "kind": "News report",
+  "expect": [
+   "heat index",
+   "flexible work",
+   "52"
+  ],
+  "note": "Staged to check the Philippines' October 2026 labour advisories on heat against their sources before the site uses them. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261116220937/https://www.newswatchplus.ph/2026/10/28/dole-releases-advisory-on-safety-protocols-during-el-nino/"
+ },
+ {
+  "id": "phla-sunstar",
+  "type": "source",
+  "region": "asia",
+  "title": "Workers who fall ill from heat amid El Nino may qualify for benefits",
+  "publisher": "SunStar Cebu",
+  "year": 2026,
+  "url": "https://www.sunstar.com.ph/cebu/dole-workers-who-fall-ill-from-heat-amid-el-ni%C3%B1o-may-qualify-for-benefits",
+  "kind": "News report",
+  "expect": [
+   "rhabdomyolysis",
+   "syncope",
+   "Employees' Compensation"
+  ],
+  "note": "Staged to check the Philippines' October 2026 labour advisories on heat against their sources before the site uses them. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261105065817/https://www.sunstar.com.ph/cebu/dole-workers-who-fall-ill-from-heat-amid-el-ni%C3%B1o-may-qualify-for-benefits"
+ },
+ {
+  "id": "phla-bmirror",
+  "type": "source",
+  "region": "asia",
+  "title": "Beat the heat, DOLE expands compensation list",
+  "publisher": "BusinessMirror",
+  "year": 2026,
+  "url": "https://businessmirror.com.ph/2026/10/26/beat-the-heat-dole-expands-compensation-list/",
+  "kind": "News report",
+  "expect": [
+   "rhabdomyolysis",
+   "syncope",
+   "compensation"
+  ],
+  "note": "Staged to check the Philippines' October 2026 labour advisories on heat against their sources before the site uses them. Not published from the inbox."
+ },
+ {
+  "id": "phla-pmap",
+  "type": "source",
+  "region": "asia",
+  "title": "Circular 2026-070: Labor Advisory No. 20, series of 2026",
+  "publisher": "People Management Association of the Philippines",
+  "year": 2026,
+  "url": "https://pmap.org.ph/circular-no-2026-070-labor-advisory-no-20-series-of-2026-guidelines-on-the-prevention-and-management-of-heat-stress-during-el-nino-and-other-periods-of-extreme-heat/",
+  "kind": "Association circular (reading aid, not cited)",
+  "expect": [
+   "Labor Advisory No. 20",
+   "heat stress",
+   "Series of 2023",
+   "repeal"
+  ],
+  "note": "Staged to check the Philippines' October 2026 labour advisories on heat against their sources before the site uses them. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261116221016/https://pmap.org.ph/circular-no-2026-070-labor-advisory-no-20-series-of-2026-guidelines-on-the-prevention-and-management-of-heat-stress-during-el-nino-and-other-periods-of-extreme-heat/"
+ }
+]

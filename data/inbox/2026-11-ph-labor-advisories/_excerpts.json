@@ -1,0 +1,115 @@
+{
+ "phla-bwc-list": {
+  "url": "https://bwc.dole.gov.ph/issuances/labor-advisories/",
+  "status": "BLOCKED",
+  "http": 403,
+  "archive": "https://web.archive.org/web/20221001084513/https://bwc.dole.gov.ph/issuances/labor-advisories",
+  "title": "",
+  "found": {
+   "Labor Advisory No. 20": false,
+   "Labor Advisory No. 19": false,
+   "Heat Stress": false,
+   "Compensability": false
+  },
+  "around": [],
+  "opening": ""
+ },
+ "phla-dole-news": {
+  "url": "https://dole.gov.ph/news/dole-outlines-new-protocols-to-protect-workers-amid-el-nino/",
+  "status": "BLOCKED",
+  "http": 403,
+  "archive": "",
+  "title": "",
+  "found": {
+   "Labor Advisory No. 20": false,
+   "heat index": false,
+   "heat stress": false,
+   "HIRAC": false,
+   "flexible work": false,
+   "PAGASA": false
+  },
+  "around": [],
+  "opening": ""
+ },
+ "phla-pia": {
+  "url": "https://pia.gov.ph/news/luzon/ncr/heat-related-illnesses-may-qualify-for-workers-compensation",
+  "status": "BLOCKED",
+  "http": 403,
+  "archive": "",
+  "title": "",
+  "found": {
+   "compensation": false,
+   "heat": false,
+   "Labor Advisory No. 19": false,
+   "rhabdomyolysis": false,
+   "syncope": false
+  },
+  "around": [],
+  "opening": ""
+ },
+ "phla-newswatch": {
+  "url": "https://www.newswatchplus.ph/2026/10/28/dole-releases-advisory-on-safety-protocols-during-el-nino/",
+  "status": "OK",
+  "http": 200,
+  "archive": "https://web.archive.org/web/20261116220937/https://www.newswatchplus.ph/2026/10/28/dole-releases-advisory-on-safety-protocols-during-el-nino/",
+  "title": "DOLE releases advisory on safety protocols during El Niño - newswatchplus.ph",
+  "found": {
+   "52": true,
+   "heat index": true,
+   "flexible work": true
+  },
+  "around": [
+   "ng El Niño By Nash Villena No Comments 2 Mins Read October 28, 2026 7:17 pm Share this Article Metro Manila, Philippines – The Department of Labor and Employment (DOLE) released a labor advisory on Tuesday, Oct. 27, outlining safety protocols for workers in times of extreme heat. Labor Advisory No. 20 seeks to guide employers in safeguarding their workers from heat-related illnesses due to the ongoing El Niño event. Employers are required to conduct and document hazard and risk assessments to address heat stress and El Niño-related workplace risks. They should also monitor weather conditions, heat index data, and five-day heat index forecasts. The DOLE also directed employers to ensure compliance with government contributions and track work-related heat illnesses in medical logs and annual medical reports. In addition, the Labor Department provided heat index-based guidelines for employers ranging from caution to extreme danger levels. Caution level heat index (27°C–32°C) requires the availability of safe drinking water, ventilated break spots, and regular hydration among workers; extreme caution level (33°C–41°C) entails routine rest and the supply of appropriate protective gear; danger level (42°C–51°C) prompts the implementation of flexible work arrangements to limit heat exposure; and extreme danger levels (52°C and higher) necessitate re-evaluation of tasks and possible rescheduling or work relocation. Last week, DOLE issued Labor Advisory No. 19, centered on workers’ compensation for heat-related illnesses. ADVERTISEMENT Share this Article Tagged: Top Stories Previous Article UAAP: Late Bahay, Alas triples carry Ateneo past hot-shooting NU Next Article ‘Don’t panic’ over peso decline Marcos Nash Villena Digital Journalist Other News ASEAN signs digital marketplace, strengthens trade November 16, 2026 UN chief calls for global AI safety rules in ASEAN Summit November 16, 2026 Jollibee to open 35 stores in Australia over next five years November 16, 2026 ASEAN, China fail to finalize South China Sea code due to lack of ... November 16, 2026 ASEAN 2026 opening ‘generally peaceful’ — PNP November 15, 2026 Marcos creates national council for AI governance, development November 15, 2026 Latest "
+  ],
+  "opening": "DOLE releases advisory on safety protocols during El Niño - newswatchplus.ph Skip to content Search for: Search Home News Pulse Features Videos Community CNN Philippines Archive Home News Pulse Features Videos Community CNN Philippines Archive Manila 32 °C November 17, 2026 Home Trailblazers Travel Entertainment Culture Food PULSE Picks Home Trailblazers Travel Entertainment Culture Food PULSE Picks Home / News / DOLE releases advisory on safety protocols during El Niño DOLE releases advisory on safety protocols during El Niño By Nash Villena No Comments 2 Mins Read October 28, 2026 7:17 pm Share this Article Metro Manila, Philippines – The Department of Labor and Employment (DOLE) released a labor advisory on Tuesday, Oct. 27, outlining safety protocols for workers in times of extreme heat. Labor Advisory No. 20 seeks to guide employers in safeguarding their workers from heat-related illnesses due to the ongoing El Niño event. Employers are required to conduct and document hazard and risk assessments to address heat stress and El Niño-related workplace risks. They should also monitor weather conditions, heat index data, and five-day heat index forecasts. The DOLE also directed employers to ensure compliance with government contributions and track work-related heat illnesses in medical logs and annual medical reports. In addition, the Labor Department provided heat index-based guidelines for employers ranging from caution to extreme danger levels. Caution level heat index (27"
+ },
+ "phla-sunstar": {
+  "url": "https://www.sunstar.com.ph/cebu/dole-workers-who-fall-ill-from-heat-amid-el-ni%C3%B1o-may-qualify-for-benefits",
+  "status": "OK",
+  "http": 200,
+  "archive": "https://web.archive.org/web/20261105065817/https://www.sunstar.com.ph/cebu/dole-workers-who-fall-ill-from-heat-amid-el-ni%C3%B1o-may-qualify-for-benefits",
+  "title": "DOLE: Heat-Sick Workers May Get Compensation Amid El Niño",
+  "found": {
+   "rhabdomyolysis": true,
+   "syncope": true,
+   "Employees' Compensation": true
+  },
+  "around": [
+   "id. El Niño in Cebu In Cebu, the province is experiencing the effects of a strong to very strong El Niño, with drier conditions expected in the coming months. The Philippine Atmospheric, Geophysical and Astronomical Services Administration (Pagasa) Visayas earlier said Cebu may experience below-normal to way-below-normal rainfall from November 2026 to March 2027, while drought conditions may develop from January to March. The dry conditions could persist until June 2027, depending on how El Niño develops. Who is covered The guidelines apply to outdoor and indoor workers who are covered by the Employees’ Compensation Program (ECP) through the Social Security System and the Government Service Insurance System, and who are exposed, or may reasonably be expected to be exposed, to excessive heat at work. Heat stroke, heat cramps and heat exhaustion remain compensable under existing ECP rules. Other heat-related illnesses may also qualify, including heat syncope (fainting and dizziness), heat rash (bungang araw), rhabdomyolysis (muscle damage), neurological disorders that affect normal nervous system function and dehydration that leads to kidney injury. Proving the link To determine whether an illness is work-related, authorities may consider the nature of the worker’s job, workplace conditions, duration and intensity of heat exposure, protective clothing and equipment, preventive measures and other relevant circumstances. Pagasa’s heat index classifications may be used as supporting evidence of workplace heat conditions. Employer duties Dole requires employers to keep records of work-related heat illnesses and to help affected workers or their beneficiaries file compensation claims. Records that may support a claim include occupational safety and health documents, workplace temperature measurements, work schedules, physical workload and work-rest arrangements, preventive measures and witness statements. Employers must also follow existing reporting rules, including submitting a Work Accident/Illness Report when required. The Employees’ Compensation Commission, through its Regional Extension Units, and Dole regional offices and attached agencies will provide technical assistance in implementing the guidelines. Employers, workers, unions, safety and health committees, and occupational safety and health personnel are encouraged to strengthen measures against heat-related illnesses, report incidents and arrange medical referrals. / DPC Show Comments Trending 27-storey tower planned for Larsian Katlene O. Cacho-Laurejas Nov 15, 2026 Osmeña files rap vs BRT Cherry Ann Virador Nov 14, 2026 P4B CCLEX link to bypass SRP Cherry Ann Virador Nov 14, 2026 Fuel prices to roll back again on November 17 Third Anne Peralta-Malonzo 14 hours ago Just in Raliyesta, PNP nagubot atol sa lihok protesta Arnold Y. Bustamante 9 hours ago No papers, no pay Cherry Ann Virador 9 hours ago Cebu PB seeks recovery plan for struggling reade",
+   " of Cebu Sinulog 2026 Election 2025 Pasigarbo Palarong Pambansa TagdaKo Board Exam Results OSAEC Watch Cebu Dole: Workers who fall ill from heat amid El Niño may qualify for benefits Department of Labor and Employment Denise Mae P. Codis Published on : Oct 26, 2026, 11:01 am Copied Summary DOLE Secretary Francis Tolentino signed Labor Advisory 19, Series of 2026, setting guidelines to document, report, and compensate heat-related workplace illnesses during El Niño. The rules cover indoor and outdoor ECP-covered workers, allowing claims for heat stroke, heat exhaustion, heat cramps, heat rash, rhabdomyolysis, dehydration-led kidney injury, and neurological disorders. Employers must maintain records of heat exposure and safety measures, submit required illness reports, and assist affected workers or beneficiaries in filing ECP compensation claims. THE Department of Labor and Employment (Dole) has set guidelines for preventing, documenting and reporting heat-related illnesses at work, and for determining when affected workers may qualify for compensation. Dole Secretary Francis Tolentino signed Labor Advisory 19, Series of 2026, on Oct. 23 in response to the health and safety risks posed by the El Niño phenomenon and other periods of extreme heat. The guidelines are in line with a directive from President Ferdinand Marcos Jr. to protect Filipino workers amid climate-related challenges. “Through the guidelines, Dole seeks to strengthen awareness of occupational heat-related risks"
+  ],
+  "opening": "DOLE: Heat-Sick Workers May Get Compensation Amid El Niño Home Bacolod Cebu Davao Iloilo Manila Pampanga Tacloban Zamboanga SuperBalita SuperBalita SuperBalita Cebu SuperBalita Davao Specials Specials Videos Best of Cebu Sinulog 2026 Election 2025 Pasigarbo Palarong Pambansa TagdaKo Board Exam Results OSAEC Watch Cebu Dole: Workers who fall ill from heat amid El Niño may qualify for benefits Department of Labor and Employment Denise Mae P. Codis Published on : Oct 26, 2026, 11:01 am Copied Summary DOLE Secretary Francis Tolentino signed Labor Advisory 19, Series of 2026, setting guidelines to document, report, and compensate heat-related workplace illnesses during El Niño. The rules cover indoor and outdoor ECP-covered workers, allowing claims for heat stroke, heat exhaustion, heat cramps, heat rash, rhabdomyolysis, dehydration-led kidney injury, and neurological disorders. Employers must maintain records of heat exposure and safety measures, submit required illness reports, and assist affected workers or beneficiaries in filing ECP compensation claims. THE Department of Labor and Employment (Dole) has set guidelines for preventing, documenting and reporting heat-related illnesses at work, and for determining when affected workers may qualify for compensation. Dole Secretary Francis Tolentino signed Labor Advisory 19, Series of 2026, on Oct. 23 in response to the health and safety risks posed by the El Niño phenomenon and other periods of extreme heat. The guidelines are in l"
+ },
+ "phla-bmirror": {
+  "url": "https://businessmirror.com.ph/2026/10/26/beat-the-heat-dole-expands-compensation-list/",
+  "status": "BLOCKED",
+  "http": 403,
+  "archive": "",
+  "title": "",
+  "found": {
+   "rhabdomyolysis": false,
+   "syncope": false,
+   "compensation": false
+  },
+  "around": [],
+  "opening": ""
+ },
+ "phla-pmap": {
+  "url": "https://pmap.org.ph/circular-no-2026-070-labor-advisory-no-20-series-of-2026-guidelines-on-the-prevention-and-management-of-heat-stress-during-el-nino-and-other-periods-of-extreme-heat/",
+  "status": "OK",
+  "http": 200,
+  "archive": "https://web.archive.org/web/20261116221016/https://pmap.org.ph/circular-no-2026-070-labor-advisory-no-20-series-of-2026-guidelines-on-the-prevention-and-management-of-heat-stress-during-el-nino-and-other-periods-of-extreme-heat/",
+  "title": "CIRCULAR NO. : 2026 - 070 - Labor Advisory No. 20, Series of 2026 Guidelines on the Prevention and Management of Heat Stress During El Niño and Other Periods of Extreme Heat | People Management Association of the Philippines",
+  "found": {
+   "Labor Advisory No. 20": true,
+   "heat stress": true,
+   "Series of 2023": false,
+   "repeal": false
+  },
+  "around": [
+   "agazine PMAP Awards PMAP E-Directory PMAP Election Position Papers and Conceptual Frameworks President s Report Uncategorized Updates on COVID-19 Webinars Products 2025 PMAP Salary & Benefits Survey Reports 60,000.00 + VAT Job Posting - Gold Package 11,607.14 + VAT Job Posting - Silver Package 4,464.29 + VAT Job Posting - Bronze Package 1,339.29 + VAT 2023 PMAP Salary & Benefits Survey Reports 60,000.00 + VAT 2021 PMAP Salary & Benefits Survey Reports 30,000.00 + VAT Light 100.00 + VAT Kapwa 336.00 + VAT 2016 COLBAR Index 30,000.00 + VAT See All Categories Home HR News CIRCULAR NO. : 2026 070 Labor Advisory No. 20, Series of 2026 Guidelines on the Prevention and Management of Heat Stress During El Niño and Other Periods of Extreme Heat LET’S KEEP IN TOUCH! We’d love to keep you updated with our latest news! We promise we’ll never spam. Take a look at our Privacy Policy for more details. First Name * Last Name * Email Address * Subscribe Please do not fill in this field. People Management Association of the Philippines PMAP Center, 670 Lee Street Addition Hills, Mandaluyong City Tel : +63 (2) 8288-9478 Email : pmap@pmap.org.ph HR Today 2023 Audited FInancial Statement of PMAP Engagement Survey HR News Labor Policy Reforms and Industrial Relations LPRIR Announcements and Advisories 2025 People Manager Magazine PMAP Awards PMAP E-Directory PMAP Election Position Papers and Conceptual Frameworks Uncategorized Updates on COVID-19 Webinars SOCIAL MEDIA Facebook YouTube Instagram LinkedIn X Contact Us PMAP©2002 - All rights reserved",
+   "Run End ******************* --> CIRCULAR NO. : 2026 - 070 - Labor Advisory No. 20, Series of 2026 Guidelines on the Prevention and Management of Heat Stress During El Niño and Other Periods of Extreme Heat | People Management Association of the Philippines Skip to content 0 About About PMAP Advocacies Partnerships Chapters Sponsorship HRM Foundation Contact Us Membership Membership Benefits Membership Directory Individual Corporate Advocate Update your membership HR Today HR Today People Manager Magazine Center for Research Publications Labor Policy Reforms and Industrial Relations Services Job posting Online Store Awards PMAP Awards Makatao Awards Learning AIHRM Programs The AIHRM Training Accreditation Webinars The PSOF Training Events Training Events Annual Conference My Account Checkout Cart Memberships Login / Register 0 CIRCULAR NO. : 2026 070 Labor Advisory No. 20, Series of 2026 Guidelines on the Prevention and Management of Heat Stress During El Niño and Other Periods of Extreme Heat CIRCULAR NO. : 2026 070 TO : PMAP MEMBERS DATE : 27 October 2026 SUBJECT : Labor Advisory No. 20, Series of 2026 Guidelines on the Prevention and Management of Heat Stress During El Niño and Other Periods of Extreme Heat Dear PMAPer, The Department of Labor and Employment (DOLE) has issued Labor Advisory No. 20, Series of 2026, providing guidelines on preventing and managing heat stress during El Niño and other periods of extreme heat. The advisory covers private-sector employers and workers and calls for workplace-specific assessments of heat-related risks, including those caused by water shortages, power interruptions, and reduced ventilation or cooling. The advisory outlines measures based on heat-risk levels, including providing safe drinking water and suitable rest areas, setting work-rest schedules, and moving strenuous tasks to cooler hours. Flexible work arrangements may be used when heat exposure is high, while work may need to be suspended, relocated, or rescheduled if serious risks cannot be adequately controlled. Employers are also expected to prepare for heat-related emergencies, while workers should follow safety measures and promptly report symptoms or unsafe conditions. For reference, you may read and download the advisory below: This post is"
+  ],
+  "opening": "Run End ******************* --> CIRCULAR NO. : 2026 - 070 - Labor Advisory No. 20, Series of 2026 Guidelines on the Prevention and Management of Heat Stress During El Niño and Other Periods of Extreme Heat | People Management Association of the Philippines Skip to content 0 About About PMAP Advocacies Partnerships Chapters Sponsorship HRM Foundation Contact Us Membership Membership Benefits Membership Directory Individual Corporate Advocate Update your membership HR Today HR Today People Manager Magazine Center for Research Publications Labor Policy Reforms and Industrial Relations Services Job posting Online Store Awards PMAP Awards Makatao Awards Learning AIHRM Programs The AIHRM Training Accreditation Webinars The PSOF Training Events Training Events Annual Conference My Account Checkout Cart Memberships Login / Register 0 CIRCULAR NO. : 2026 070 Labor Advisory No. 20, Series of 2026 Guidelines on the Prevention and Management of Heat Stress During El Niño and Other Periods of Extreme Heat CIRCULAR NO. : 2026 070 TO : PMAP MEMBERS DATE : 27 October 2026 SUBJECT : Labor Advisory No. 20, Series of 2026 Guidelines on the Prevention and Management of Heat Stress During El Niño and Other Periods of Extreme Heat Dear PMAPer, The Department of Labor and Employment (DOLE) has issued Labor Advisory No. 20, Series of 2026, providing guidelines on preventing and managing heat stress during El Niño and other periods of extreme heat. The advisory covers private-sector employers and wor"
+ }
+}

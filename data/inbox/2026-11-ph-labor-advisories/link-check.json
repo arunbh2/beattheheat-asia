@@ -1,0 +1,53 @@
+{
+ "_terms": {
+  "https://bwc.dole.gov.ph/issuances/labor-advisories/": {
+   "Labor Advisory No. 20": false,
+   "Labor Advisory No. 19": false,
+   "Heat Stress": false,
+   "Compensability": false
+  },
+  "https://dole.gov.ph/news/dole-outlines-new-protocols-to-protect-workers-amid-el-nino/": {
+   "Labor Advisory No. 20": false,
+   "heat index": false,
+   "heat stress": false,
+   "HIRAC": false,
+   "flexible work": false,
+   "PAGASA": false
+  },
+  "https://pia.gov.ph/news/luzon/ncr/heat-related-illnesses-may-qualify-for-workers-compensation": {
+   "compensation": false,
+   "heat": false,
+   "Labor Advisory No. 19": false,
+   "rhabdomyolysis": false,
+   "syncope": false
+  },
+  "https://www.newswatchplus.ph/2026/10/28/dole-releases-advisory-on-safety-protocols-during-el-nino/": {
+   "52": true,
+   "heat index": true,
+   "flexible work": true
+  },
+  "https://www.sunstar.com.ph/cebu/dole-workers-who-fall-ill-from-heat-amid-el-ni%C3%B1o-may-qualify-for-benefits": {
+   "rhabdomyolysis": true,
+   "syncope": true,
+   "Employees' Compensation": true
+  },
+  "https://businessmirror.com.ph/2026/10/26/beat-the-heat-dole-expands-compensation-list/": {
+   "rhabdomyolysis": false,
+   "syncope": false,
+   "compensation": false
+  },
+  "https://pmap.org.ph/circular-no-2026-070-labor-advisory-no-20-series-of-2026-guidelines-on-the-prevention-and-management-of-heat-stress-during-el-nino-and-other-periods-of-extreme-heat/": {
+   "Labor Advisory No. 20": true,
+   "heat stress": true,
+   "Series of 2023": false,
+   "repeal": false
+  }
+ },
+ "https://bwc.dole.gov.ph/issuances/labor-advisories/": "BLOCKED",
+ "https://dole.gov.ph/news/dole-outlines-new-protocols-to-protect-workers-amid-el-nino/": "BLOCKED",
+ "https://pia.gov.ph/news/luzon/ncr/heat-related-illnesses-may-qualify-for-workers-compensation": "BLOCKED",
+ "https://www.newswatchplus.ph/2026/10/28/dole-releases-advisory-on-safety-protocols-during-el-nino/": "OK",
+ "https://www.sunstar.com.ph/cebu/dole-workers-who-fall-ill-from-heat-amid-el-ni%C3%B1o-may-qualify-for-benefits": "OK",
+ "https://businessmirror.com.ph/2026/10/26/beat-the-heat-dole-expands-compensation-list/": "BLOCKED",
+ "https://pmap.org.ph/circular-no-2026-070-labor-advisory-no-20-series-of-2026-guidelines-on-the-prevention-and-management-of-heat-stress-during-el-nino-and-other-periods-of-extreme-heat/": "OK"
+}

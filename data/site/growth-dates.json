@@ -14382,6 +14382,15 @@
    "org": false
   },
   {
+   "url": "https://www.newswatchplus.ph/2026/10/28/dole-releases-advisory-on-safety-protocols-during-el-nino/",
+   "label": "NewsWatch Plus, 2026: DOLE releases advisory on safety protocols during El Niño (reports Labor Advisory No. 20)",
+   "root": "practical",
+   "org": false,
+   "date": "2026-10-28",
+   "precision": "day",
+   "how": "url"
+  },
+  {
    "url": "https://www.nia.gov.np/law/directive",
    "label": "",
    "root": "financing",
