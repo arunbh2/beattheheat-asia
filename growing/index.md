@@ -5,7 +5,7 @@ updated: 2026-11-16
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 57 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 58 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-57 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,112 works the commons draws on carry a publication date, and 808 are still being dated.
+58 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,112 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -91,6 +91,41 @@ The October edition's opportunity concerns heat-safe work, with what the evidenc
 [November 2026 edition](https://beattheheat.asia/whats-new/2026-11/)[October 2026 edition](https://beattheheat.asia/whats-new/2026-10/)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=State%20of%20the%20field%20becomes%20a%20dated%2C%20sourced%20monthly%20briefing%20with%20an%20archive&ref=g-state-of-the-field-editions#way-share)
+
+Tool improved · Evidence
+
+### How heat is reported: one explorer over both collections, with each reviewed article's reporting trail
+
+Added 16 November 2026 · How heat is reported rebuilt around an explorer 16 November 2026
+
+Why it matters our readingThe page now explains how a multilingual pilot complicated its first reading, and lets readers find every article across countries, languages and collections, see what the review found in each, compare stories on the same protection and build a source-linked reporting question. Missing information reads not recorded or not assessed, never as a failure.
+
+- South and Southeast Asia
+- Workers in heat-exposed jobs
+- Heat-safe work
+- Income protection in heatwaves
+
+ReviewEvery record and comparison drawn from the two existing collections with no new article coding; comparison quotes checked against the reviewed fields; two stories found in both collections now counted once.
+
+What it took to add this
+
+- **The question.** Does reporting on heat follow protection from a named responsibility, through money and delivery, to results?
+
+- **What we set aside.** 21 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+
+- **What is still open.** Native-language review of the pilot's translated headlines, a second coder, and the pilot's full codebook.
+
+See for yourself: [what was set aside, and why](https://beattheheat.asia/research/2026-11/media-rebuild/README.md)
+
+How it connects
+
+- [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash) Action · from the site's records
+Two reviewed stories on heat insurance for informal women workers are compared side by side.
+
+[Find reporting](https://beattheheat.asia/how-heat-is-reported/#explore)
+[How heat is reported](https://beattheheat.asia/how-heat-is-reported/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=How%20heat%20is%20reported%3A%20one%20explorer%20over%20both%20collections%2C%20with%20each%20reviewed%20article's%20reporting%20trail&ref=g-how-heat-is-reported-explorer#way-share)
 
 Evidence added · Practical measures
 

@@ -1,0 +1,6264 @@
+{
+ "about": "How heat is reported: 101 unique records from 103 publication records in two collections. Pilot codes are provisional (one coder, AI-assisted). Fields a source does not record are null. CC BY 4.0 for Common Shade's own fields; titles and articles belong to their publishers.",
+ "generated": "2026-11-16",
+ "collections": {
+  "collection": {
+   "label": "Curated collection",
+   "short": "Collection",
+   "method": "Gathered in October 2026 by searching for prominent English-language reporting on heat in South and Southeast Asia. The searches captured more of 2024's prominent reporting, and some countries not at all.",
+   "depth": "listing",
+   "source": "research/2026-10/media/extreme-heat-journalism-2018-2026.csv"
+  },
+  "pilot": {
+   "label": "Multilingual pilot review",
+   "short": "Pilot",
+   "method": "Found in October 2026 by searching for reporting on work and protection in the countries and languages the collection missed, then read one by one. Chosen to see what such reporting can look like, not how common it is.",
+   "depth": "full",
+   "source": "research/2026-10/media/pilot/articles.json"
+  }
+ },
+ "depths": {
+  "listing": {
+   "label": "Headline and listing",
+   "note": "Headline, outlet, year, place and a short story angle written by the curator. The full text was not coded; patterns drawn from it rest on headlines, descriptions and some full texts not recorded one by one."
+  },
+  "full": {
+   "label": "Full text, provisional coding",
+   "note": "The full article was opened and read, and coded once with AI assistance, without a second coder. Every code cites the passage it rests on. Treat the codes as provisional until reviewed."
+  }
+ },
+ "trail_states": {
+  "described": "Described in the reviewed material",
+  "unknown": "Explicitly reported as unknown",
+  "not_found": "Not found in the reviewed material",
+  "not_assessed": "Not assessed"
+ },
+ "records": [
+  {
+   "id": "id-health-warning-2026",
+   "aliases": [
+    "n01"
+   ],
+   "url": "https://www.antaranews.com/berita/5801589/pakar-its-ingatkan-risiko-kesehatan-akibat-gelombang-panas",
+   "collections": [
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "Pakar ITS ingatkan risiko kesehatan akibat gelombang panas",
+   "title_en": "ITS experts warn of health risks from heatwaves",
+   "translation": "researcher",
+   "language": "id",
+   "language_basis": "the article",
+   "outlet": "ANTARA News",
+   "original_outlet": null,
+   "date": "2026-10-21",
+   "precision": "day",
+   "year": 2026,
+   "places": [
+    "Indonesia"
+   ],
+   "format": "news",
+   "format_basis": "pilot coding",
+   "angle": null,
+   "link_type": null,
+   "summary": "Doctors describe physical and mental-health risks from heat. The article includes humid conditions, sleep and unequal access to cooling.",
+   "loops": [
+    "sleep",
+    "energypoverty",
+    "clinic"
+   ],
+   "organised": false,
+   "followup": false,
+   "voice": false,
+   "budget": false,
+   "pops": {
+    "workers": false,
+    "women": false,
+    "children": false
+   },
+   "outlet_type": "wire service",
+   "syndication": null,
+   "checked": "2026-10-31",
+   "exemplar": false,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as an emergency, also another angle. Cites temperature.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "described",
+     "text": "Quoted: health worker. No directly affected person quoted under the codebook's definition.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record; the protection note below covers it where present.",
+     "basis": null
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "not_found",
+     "text": "Doctors’ advice: Individual precautions are described; no organisation of public protection or funding is explained.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "not_found",
+     "text": "No specific earlier promise or intervention revisited in the reviewed text.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "not_assessed",
+     "text": "No caution recorded.",
+     "basis": null
+    }
+   ]
+  },
+  {
+   "id": "ph-work-advisory-2026",
+   "aliases": [],
+   "url": "https://www.gmanetwork.com/news/balitambayan/trending/1006565/matinding-init-puwede-bang-gamiting-dahilan-ng-manggagawa-para-di-pumasok-sa-trabaho/story/",
+   "collections": [
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "Matinding init, puwede bang gamiting dahilan ng manggagawa para 'di pumasok sa trabaho?",
+   "title_en": "Can workers use extreme heat as a reason not to report for work?",
+   "translation": "researcher",
+   "language": "tl",
+   "language_basis": "the article",
+   "outlet": "GMA News / Balitambayan",
+   "original_outlet": null,
+   "date": "2026-10-20",
+   "precision": "day",
+   "year": 2026,
+   "places": [
+    "Philippines"
+   ],
+   "format": "news",
+   "format_basis": "pilot coding",
+   "angle": null,
+   "link_type": null,
+   "summary": "A labour official explains planned heat-related work guidance. The report also describes compensation channels for work-related injuries.",
+   "loops": [
+    "poverty",
+    "debt",
+    "protection"
+   ],
+   "organised": true,
+   "followup": false,
+   "voice": false,
+   "budget": false,
+   "pops": {
+    "workers": false,
+    "women": false,
+    "children": false
+   },
+   "outlet_type": "broadcaster website",
+   "syndication": null,
+   "checked": "2026-10-31",
+   "exemplar": false,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as lost work and income. Cites temperature, heat index.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "described",
+     "text": "Quoted: national official. No directly affected person quoted under the codebook's definition.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record; the protection note below covers it where present.",
+     "basis": null
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "described",
+     "text": "Delivery-rider and compensation sections: Describes forthcoming refusal guidance and reimbursement through SSS/GSIS-linked employee compensation.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "not_found",
+     "text": "No specific earlier promise or intervention revisited in the reviewed text.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "not_assessed",
+     "text": "No caution recorded.",
+     "basis": null
+    }
+   ]
+  },
+  {
+   "id": "kh-measured-factory-2026",
+   "aliases": [],
+   "url": "https://mekongindependent.com/2026/10/heat-stress-growing-with-targets-strain-on-workers/",
+   "collections": [
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "Heat stress growing with targets, strain on workers",
+   "title_en": null,
+   "translation": "not-needed",
+   "language": "en",
+   "language_basis": "the article",
+   "outlet": "Mekong Independent",
+   "original_outlet": null,
+   "date": "2026-10-01",
+   "precision": "day",
+   "year": 2026,
+   "places": [
+    "Cambodia"
+   ],
+   "format": "investigation",
+   "format_basis": "pilot coding",
+   "angle": null,
+   "link_type": null,
+   "summary": "Workers help measure factory heat while reporters examine rules and employer responses. The investigation links production pressure with practical limits on cooling.",
+   "loops": [
+    "poverty",
+    "clinic",
+    "cooling",
+    "reactive"
+   ],
+   "organised": true,
+   "followup": true,
+   "voice": true,
+   "budget": true,
+   "pops": {
+    "workers": true,
+    "women": true,
+    "children": false
+   },
+   "outlet_type": "investigative/nonprofit newsroom",
+   "syndication": "Also published at https://pulitzercenter.org/stories/heat-stress-growing-targets-strain-workers",
+   "checked": "2026-10-31",
+   "exemplar": true,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as responsibility split between institutions, also inequality and lost work and income and cooling. Cites temperature, heat index, budget figures.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "described",
+     "text": "Quoted: worker, employer or business, scientist. Affected people speak in their own words.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "described",
+     "text": "Managers control equipment and production; public bodies set rules.",
+     "basis": "reviewer's note"
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "unknown",
+     "text": "Factory describes infrastructure spending; actual budget is not disclosed.",
+     "basis": "reviewer's note"
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "described",
+     "text": "Why-is-it-still-hot section: Combines worker measurements, regulatory gaps, factory response and unpublished cooling budgets to examine protection delivery.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "described",
+     "text": "Reporters compare measurements and worker accounts with employer statements and regulatory documents.",
+     "basis": "reviewer's note"
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "described",
+     "text": "Revisits an earlier action or incident.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "described",
+     "text": "On heat measures: Story’s terminology mixes wet-bulb and heat-index discussion; do not reuse it as WBGT guidance.",
+     "basis": "reviewer's caution"
+    }
+   ]
+  },
+  {
+   "id": "bd-wages-study-2026",
+   "aliases": [],
+   "url": "https://www.prothomalo.com/amp/story/bangladesh/kg2t6n67kw",
+   "collections": [
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "তাপপ্রবাহে শ্রমিকের মজুরি ক্ষতি বছরে ৭৭ হাজার কোটি টাকা",
+   "title_en": "Workers’ annual wage losses from heatwaves reach 77,000 crore taka",
+   "translation": "researcher",
+   "language": "bn",
+   "language_basis": "the article",
+   "outlet": "প্রথম আলো",
+   "original_outlet": null,
+   "date": "2026-08-11",
+   "precision": "day",
+   "year": 2026,
+   "places": [
+    "Bangladesh"
+   ],
+   "format": "feature",
+   "format_basis": "pilot coding",
+   "angle": null,
+   "link_type": null,
+   "summary": "A rickshaw worker’s experience introduces research on lost earnings. The article distinguishes different national loss estimates and describes proposed protections.",
+   "loops": [
+    "poverty",
+    "debt",
+    "sleep",
+    "reactive"
+   ],
+   "organised": true,
+   "followup": false,
+   "voice": true,
+   "budget": true,
+   "pops": {
+    "workers": true,
+    "women": false,
+    "children": false
+   },
+   "outlet_type": "national daily",
+   "syndication": null,
+   "checked": "2026-10-31",
+   "exemplar": false,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as lost work and income, also inequality. Cites temperature, heat index, lost hours or wages, budget figures.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "described",
+     "text": "Quoted: worker, scientist, health worker, union or worker group. Affected people speak in their own words.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record; the protection note below covers it where present.",
+     "basis": null
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "described",
+     "text": "Cites budget figures.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "described",
+     "text": "Legal-gap and support-package sections: Explains proposed heat-triggered cash and protection costs, but does not audit an operating programme.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "not_found",
+     "text": "No specific earlier promise or intervention revisited in the reviewed text.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "not_assessed",
+     "text": "No caution recorded.",
+     "basis": null
+    }
+   ]
+  },
+  {
+   "id": "my-chronic-heat-2026",
+   "aliases": [],
+   "url": "https://bernama.com/bm/tintaminda/news.php?id=2588367",
+   "collections": [
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "Strok Haba Bukan Lagi Bermusim",
+   "title_en": "Heatstroke is no longer seasonal",
+   "translation": "researcher",
+   "language": "ms",
+   "language_basis": "the article",
+   "outlet": "BERNAMA / Tinta Minda",
+   "original_outlet": null,
+   "date": "2026-08-05",
+   "precision": "day",
+   "year": 2026,
+   "places": [
+    "Malaysia"
+   ],
+   "format": "opinion",
+   "format_basis": "pilot coding",
+   "angle": null,
+   "link_type": null,
+   "summary": "The commentary treats heat as a continuing workplace and public-health risk. It proposes monitoring and prevention beyond occasional drinking-water advice.",
+   "loops": [
+    "invisible",
+    "school",
+    "reactive"
+   ],
+   "organised": true,
+   "followup": false,
+   "voice": false,
+   "budget": false,
+   "pops": {
+    "workers": false,
+    "women": false,
+    "children": true
+   },
+   "outlet_type": "wire service",
+   "syndication": null,
+   "checked": "2026-10-31",
+   "exemplar": false,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as another angle, also lost work and income and climate science and attribution. Cites temperature, deaths.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "not_found",
+     "text": "No quoted speakers identified in the reviewed text.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record; the protection note below covers it where present.",
+     "basis": null
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "described",
+     "text": "Policy section: Proposes employer monitoring, worker warnings, school guidelines and recurring training; these remain recommendations.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "not_found",
+     "text": "No specific earlier promise or intervention revisited in the reviewed text.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "not_assessed",
+     "text": "No caution recorded.",
+     "basis": null
+    }
+   ]
+  },
+  {
+   "id": "vn-social-protection-2026",
+   "aliases": [],
+   "url": "https://www.vietnamplus.vn/nang-nong-cuc-doan-thach-thuc-an-sinh-xa-hoi-moi-doi-voi-nguoi-lao-dong-post1120365.vnp",
+   "collections": [
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "Nắng nóng cực đoan: Thách thức an sinh xã hội mới đối với người lao động",
+   "title_en": "Extreme heat: a new social-protection challenge for workers",
+   "translation": "researcher",
+   "language": "vi",
+   "language_basis": "the article",
+   "outlet": "VietnamPlus",
+   "original_outlet": null,
+   "date": "2026-06-25",
+   "precision": "day",
+   "year": 2026,
+   "places": [
+    "Viet Nam"
+   ],
+   "format": "explainer",
+   "format_basis": "pilot coding",
+   "angle": null,
+   "link_type": null,
+   "summary": "Research findings connect outdoor heat exposure with gaps in social protection. The article sets out proposed responsibilities and prioritises women and migrants.",
+   "loops": [
+    "poverty",
+    "sleep",
+    "protection",
+    "reactive"
+   ],
+   "organised": true,
+   "followup": false,
+   "voice": true,
+   "budget": false,
+   "pops": {
+    "workers": true,
+    "women": true,
+    "children": false
+   },
+   "outlet_type": "wire service",
+   "syndication": null,
+   "checked": "2026-10-31",
+   "exemplar": false,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as inequality, also lost work and income. Cites temperature, heat index, lost hours or wages.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "described",
+     "text": "Quoted: worker. Affected people speak in their own words.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record; the protection note below covers it where present.",
+     "basis": null
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "described",
+     "text": "Four-pillars section: Proposes local cooling infrastructure, forecast-linked financial support and linked worker records; these are recommendations, not implemented benefits.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "not_found",
+     "text": "No specific earlier promise or intervention revisited in the reviewed text.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "not_assessed",
+     "text": "No caution recorded.",
+     "basis": null
+    }
+   ]
+  },
+  {
+   "id": "np-kathmandu-2026",
+   "aliases": [],
+   "url": "https://kathmandupost.com/money/2026/05/28/adverse-weather-adds-to-informal-workers-stress-in-kathmandu",
+   "collections": [
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "Adverse weather adds to informal workers’ stress in Kathmandu",
+   "title_en": null,
+   "translation": "not-needed",
+   "language": "en",
+   "language_basis": "the article",
+   "outlet": "The Kathmandu Post",
+   "original_outlet": null,
+   "date": "2026-05-28",
+   "precision": "day",
+   "year": 2026,
+   "places": [
+    "Nepal"
+   ],
+   "format": "feature",
+   "format_basis": "pilot coding",
+   "angle": null,
+   "link_type": null,
+   "summary": "Migrant workers describe hotter workplaces and sleeping spaces in Kathmandu. A research report places those experiences alongside gaps in protection.",
+   "loops": [
+    "poverty",
+    "sleep",
+    "displacement"
+   ],
+   "organised": false,
+   "followup": false,
+   "voice": true,
+   "budget": false,
+   "pops": {
+    "workers": true,
+    "women": false,
+    "children": false
+   },
+   "outlet_type": "national daily",
+   "syndication": null,
+   "checked": "2026-10-31",
+   "exemplar": false,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as lost work and income, also inequality. Cites temperature, lost hours or wages.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "described",
+     "text": "Quoted: worker, NGO. Affected people speak in their own words.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record; the protection note below covers it where present.",
+     "basis": null
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "not_found",
+     "text": "Closing policy-gap discussion: Describes missing safeguards, but does not identify a body organising or paying for heat protection.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "not_found",
+     "text": "No specific earlier promise or intervention revisited in the reviewed text.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "not_assessed",
+     "text": "No caution recorded.",
+     "basis": null
+    }
+   ]
+  },
+  {
+   "id": "np-households-2026",
+   "aliases": [],
+   "url": "https://ekantipur.com/news/2026/05/27/the-heat-wave-reaches-the-poors-stove-00-04.html",
+   "collections": [
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "गर्मीको मार विपन्नको चुलोसम्म",
+   "title_en": "Heat reaches poor households’ cooking pots",
+   "translation": "researcher",
+   "language": "ne",
+   "language_basis": "the article",
+   "outlet": "कान्तिपुर",
+   "original_outlet": null,
+   "date": "2026-05-27",
+   "precision": "day",
+   "year": 2026,
+   "places": [
+    "Nepal"
+   ],
+   "format": "feature",
+   "format_basis": "pilot coding",
+   "angle": null,
+   "link_type": null,
+   "summary": "Workers describe shrinking sales and difficulty feeding their families during heat. Household debt makes stopping work harder.",
+   "loops": [
+    "poverty",
+    "debt",
+    "school",
+    "sleep"
+   ],
+   "organised": false,
+   "followup": false,
+   "voice": true,
+   "budget": false,
+   "pops": {
+    "workers": true,
+    "women": true,
+    "children": true
+   },
+   "outlet_type": "national daily",
+   "syndication": null,
+   "checked": "2026-10-31",
+   "exemplar": false,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as lost work and income, also inequality. Cites temperature, lost hours or wages.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "described",
+     "text": "Quoted: worker. Affected people speak in their own words.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record; the protection note below covers it where present.",
+     "basis": null
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "not_found",
+     "text": "Opening: Local governments close or reschedule schools; worker passages describe household costs without an organised income-protection mechanism.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "not_found",
+     "text": "No specific earlier promise or intervention revisited in the reviewed text.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "not_assessed",
+     "text": "No caution recorded.",
+     "basis": null
+    }
+   ]
+  },
+  {
+   "id": "kh-informal-finance-2026",
+   "aliases": [],
+   "url": "https://www.cambodianess.com/article/extreme-heat-leaves-cambodias-informal-workers-exposed-without-financial-protection",
+   "collections": [
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "Extreme Heat Leaves Cambodia’s Informal Workers Exposed Without Financial Protection",
+   "title_en": null,
+   "translation": "not-needed",
+   "language": "en",
+   "language_basis": "the article",
+   "outlet": "Cambodianess",
+   "original_outlet": null,
+   "date": "2026-05-25",
+   "precision": "day",
+   "year": 2026,
+   "places": [
+    "Cambodia"
+   ],
+   "format": "feature",
+   "format_basis": "pilot coding",
+   "angle": null,
+   "link_type": null,
+   "summary": "Informal workers explain why health cover does not replace lost income. The story examines benefit rules and obstacles to joining social protection.",
+   "loops": [
+    "poverty",
+    "debt",
+    "protection"
+   ],
+   "organised": true,
+   "followup": false,
+   "voice": true,
+   "budget": false,
+   "pops": {
+    "workers": true,
+    "women": true,
+    "children": false
+   },
+   "outlet_type": "national digital news",
+   "syndication": null,
+   "checked": "2026-10-31",
+   "exemplar": false,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as inequality, also lost work and income and responsibility split between institutions. Cites temperature.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "described",
+     "text": "Quoted: worker, national official, union or worker group. Affected people speak in their own words.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record; the protection note below covers it where present.",
+     "basis": null
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "described",
+     "text": "NSSF passages: Explains worker contributions, healthcare coverage, lost-income exclusion and registration barriers; asks ministry about additional protection.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "not_found",
+     "text": "No specific earlier promise or intervention revisited in the reviewed text.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "not_assessed",
+     "text": "No caution recorded.",
+     "basis": null
+    }
+   ]
+  },
+  {
+   "id": "np-warning-2026",
+   "aliases": [],
+   "url": "https://ekantipur.com/news/2026/05/23/hot-winds-increasing-risk-to-public-life-in-western-nepal-47-56.html",
+   "collections": [
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "तराईमा तातो हावाको लहर, घरमै बस्न सुझाव",
+   "title_en": "Heatwave in the Tarai; advice to stay at home",
+   "translation": "researcher",
+   "language": "ne",
+   "language_basis": "the article",
+   "outlet": "कान्तिपुर",
+   "original_outlet": "रासस (RSS)",
+   "date": "2026-05-23",
+   "precision": "day",
+   "year": 2026,
+   "places": [
+    "Nepal"
+   ],
+   "format": "news",
+   "format_basis": "pilot coding",
+   "angle": null,
+   "link_type": null,
+   "summary": "The report relays a heat warning for western Nepal. It names the issuing agencies and gives protective advice.",
+   "loops": [
+    "clinic",
+    "reactive"
+   ],
+   "organised": false,
+   "followup": false,
+   "voice": false,
+   "budget": false,
+   "pops": {
+    "workers": false,
+    "women": false,
+    "children": false
+   },
+   "outlet_type": "national daily",
+   "syndication": null,
+   "checked": "2026-10-31",
+   "exemplar": false,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as an emergency. Cites temperature.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "not_found",
+     "text": "No quoted speakers identified in the reviewed text.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record; the protection note below covers it where present.",
+     "basis": null
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "not_found",
+     "text": "Body ¶1–4: Disaster authority names warning districts and requests preparedness; no allocation or delivery process explained.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "not_found",
+     "text": "No specific earlier promise or intervention revisited in the reviewed text.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "not_assessed",
+     "text": "No caution recorded.",
+     "basis": null
+    }
+   ]
+  },
+  {
+   "id": "in-insurance-design-2026",
+   "aliases": [],
+   "url": "https://www.downtoearth.org.in/climate-change/can-parametric-insurance-really-put-a-price-on-extreme-heat-and-protect-indias-informal-workers-from-its-growing-economic-toll",
+   "collections": [
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "Can parametric insurance really put a price on extreme heat - and protect India’s informal workers from its growing economic toll?",
+   "title_en": null,
+   "translation": "not-needed",
+   "language": "en",
+   "language_basis": "the article",
+   "outlet": "Down To Earth",
+   "original_outlet": null,
+   "date": "2026-05-22",
+   "precision": "day",
+   "year": 2026,
+   "places": [
+    "India"
+   ],
+   "format": "explainer",
+   "format_basis": "pilot coding",
+   "angle": null,
+   "link_type": null,
+   "summary": "The article explains heat-insurance design and who supports premiums. It examines whether easier payout triggers still offer enough income protection.",
+   "loops": [
+    "poverty",
+    "protection",
+    "reactive"
+   ],
+   "organised": true,
+   "followup": true,
+   "voice": false,
+   "budget": false,
+   "pops": {
+    "workers": true,
+    "women": true,
+    "children": false
+   },
+   "outlet_type": "environmental newsroom",
+   "syndication": null,
+   "checked": "2026-10-31",
+   "exemplar": true,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as inequality, also lost work and income. Cites temperature.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "described",
+     "text": "Quoted: NGO, scientist. No directly affected person quoted under the codebook's definition.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "described",
+     "text": "Insurers and risk modellers set parameters; implementing organisations negotiate changes.",
+     "basis": "reviewer's note"
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "described",
+     "text": "Women contribute to premiums; programme subsidy covers part, as reported.",
+     "basis": "reviewer's note"
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "described",
+     "text": "How-it-works and limits sections: Traces premium subsidy, insurer trigger decisions, changed payouts and calls for regulatory review.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "described",
+     "text": "Researchers test assumptions and call for regulatory scrutiny; no completed regulator audit is shown.",
+     "basis": "reviewer's note"
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "described",
+     "text": "Revisits an earlier action or incident.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "not_assessed",
+     "text": "No caution recorded.",
+     "basis": null
+    }
+   ]
+  },
+  {
+   "id": "kh-factory-enforcement-2026",
+   "aliases": [],
+   "url": "https://cambodianess.com/article/unionists-demand-action-as-factory-extreme-heat-drives-workers-to-collapse",
+   "collections": [
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "Unionists Demand Action as Factory Extreme Heat Drives Workers to Collapse",
+   "title_en": null,
+   "translation": "not-needed",
+   "language": "en",
+   "language_basis": "the article",
+   "outlet": "Cambodianess",
+   "original_outlet": "Thmey Thmey",
+   "date": "2026-03-16",
+   "precision": "day",
+   "year": 2026,
+   "places": [
+    "Cambodia"
+   ],
+   "format": "news",
+   "format_basis": "pilot coding",
+   "angle": null,
+   "link_type": null,
+   "summary": "The story returns to factory fainting incidents and official responses. Union voices connect cooling instructions with inspection and enforcement.",
+   "loops": [
+    "poverty",
+    "clinic",
+    "reactive"
+   ],
+   "organised": true,
+   "followup": true,
+   "voice": false,
+   "budget": false,
+   "pops": {
+    "workers": false,
+    "women": true,
+    "children": false
+   },
+   "outlet_type": "national digital news",
+   "syndication": null,
+   "checked": "2026-10-31",
+   "exemplar": true,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as responsibility split between institutions, also lost work and income and cooling. Cites temperature.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "described",
+     "text": "Quoted: union or worker group, scientist. No directly affected person quoted under the codebook's definition.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "described",
+     "text": "Labour authorities issue orders; employers implement; unions call for stronger inspections.",
+     "basis": "reviewer's note"
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "described",
+     "text": "Factories are asked to improve conditions; actual expenditure not disclosed.",
+     "basis": "reviewer's note"
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "described",
+     "text": "Fainting cases and inspection section: Reports official corrective orders, challenges enforcement and seeks ministry clarification after incidents.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "described",
+     "text": "Unions question compliance; ministry clarification is sought. Completed inspection findings are not established.",
+     "basis": "reviewer's note"
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "described",
+     "text": "Revisits an earlier action or incident.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "not_assessed",
+     "text": "No caution recorded.",
+     "basis": null
+    }
+   ]
+  },
+  {
+   "id": "b28",
+   "url": "https://apnews.com/article/eab8494242ecfdc108e12685535a4df3",
+   "title": "Climate-Driven Heat in India's Textile Factories Stifles Workers but Coolers and Ventilation Help",
+   "outlet": "Associated Press",
+   "year": 2026,
+   "date": "2026",
+   "precision": "year",
+   "places": [
+    "India"
+   ],
+   "angle": "Manufacturing and worker adaptation",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b29",
+   "url": "https://apnews.com/article/d090f23b5b6a30fdde339a656e7ceddf",
+   "title": "What Living in One of the World's Hottest Towns Feels Like",
+   "outlet": "Associated Press",
+   "year": 2026,
+   "date": "2026",
+   "precision": "year",
+   "places": [
+    "India"
+   ],
+   "angle": "Lived experience of heat",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b00",
+   "url": "https://www.business-standard.com/world-news/why-rising-night-time-temperatures-pose-a-growing-risk-to-cities-126060300133_1.html",
+   "title": "Megacity Heatwaves Are Now a Fatal Nightmare",
+   "outlet": "Business Standard / Bloomberg Opinion",
+   "year": 2026,
+   "date": "2026",
+   "precision": "year",
+   "places": [
+    "India",
+    "South & Southeast Asia"
+   ],
+   "angle": "Nighttime heat; megacity planning",
+   "link_type": "Bloomberg Opinion, syndicated",
+   "format": "opinion",
+   "format_basis": "the collection's link type",
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b01",
+   "url": "https://economictimes.indiatimes.com/industry/energy/power/india-is-blocking-a-cheap-way-to-beat-the-heat-wave-one-tweak-in-ac-can-lower-costs/articleshow/130743913.cms",
+   "title": "India Is Blocking a Cheap Way to Beat the Heat Wave",
+   "outlet": "Economic Times / Bloomberg Opinion",
+   "year": 2026,
+   "date": "2026",
+   "precision": "year",
+   "places": [
+    "India"
+   ],
+   "angle": "Air-conditioning; refrigerants; regulation",
+   "link_type": "Bloomberg Opinion, syndicated",
+   "format": "opinion",
+   "format_basis": "the collection's link type",
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b30",
+   "url": "https://www.ft.com/content/78774f5b-058e-4731-99a2-cc2710a457e5",
+   "title": "India's Sweltering Nights Expose Power Crunch",
+   "outlet": "Financial Times",
+   "year": 2026,
+   "date": "2026",
+   "precision": "year",
+   "places": [
+    "India"
+   ],
+   "angle": "Nighttime heat, electricity demand",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b31",
+   "url": "https://www.hindustantimes.com/india-news/extreme-heat-to-test-india-s-power-and-water-supply-this-summer-101774575097062-amp.html",
+   "title": "Extreme Heat to Test India's Power and Water Supply This Summer",
+   "outlet": "Reuters / Hindustan Times",
+   "year": 2026,
+   "date": "2026",
+   "precision": "year",
+   "places": [
+    "India"
+   ],
+   "angle": "Energy, water and demand",
+   "link_type": "Reuters syndication",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b32",
+   "url": "https://www.theguardian.com/world/2026/jul/29/extreme-heat-deaths-india-climate-crisis-environment",
+   "title": "The Heat Took Him from Me: India's Death Toll Rises Amid Escalating Heat Crisis",
+   "outlet": "The Guardian",
+   "year": 2026,
+   "date": "2026",
+   "precision": "year",
+   "places": [
+    "India"
+   ],
+   "angle": "Mortality, heat-health systems",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b33",
+   "url": "https://www.theguardian.com/environment/2026/jul/20/extreme-heat-india-outdoor-workers-poverty",
+   "title": "When I Get Home, My Whole Body Aches: Extreme Heat Saps Health and Wages of India's Poorest Workers",
+   "outlet": "The Guardian",
+   "year": 2026,
+   "date": "2026",
+   "precision": "year",
+   "places": [
+    "India"
+   ],
+   "angle": "Worker wages and occupational heat",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b34",
+   "url": "https://www.japantimes.co.jp/environment/2026/06/15/climate-change/delhi-heat-workers-health-wages/",
+   "title": "Laboring Under Delhi's Harsh Heat, Workers Must Choose Health or Wages",
+   "outlet": "The New York Times / Japan Times",
+   "year": 2026,
+   "date": "2026",
+   "precision": "year",
+   "places": [
+    "India"
+   ],
+   "angle": "Worker wages, heat-health tradeoff",
+   "link_type": "NYT syndication",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b11",
+   "url": "https://www.straitstimes.com/world/asia-faces-major-risks-of-extreme-weather-conditions-from-super-el-nino-insurer-says",
+   "title": "Asia Faces Major Risks of Extreme Weather Conditions from Super El Niño, Insurer Says",
+   "outlet": "The Straits Times",
+   "year": 2026,
+   "date": "2026",
+   "precision": "year",
+   "places": [
+    "Asia"
+   ],
+   "angle": "Insurer risk; heatwaves",
+   "link_type": "Original reporting",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b12",
+   "url": "https://www.straitstimes.com/asia/el-ninos-wrath-brace-yourself-for-impact/",
+   "title": "El Niño's Wrath: Brace Yourself for Impact",
+   "outlet": "The Straits Times",
+   "year": 2026,
+   "date": "2026",
+   "precision": "year",
+   "places": [
+    "Asia",
+    "Southeast Asia"
+   ],
+   "angle": "El Niño; heatwaves; drought",
+   "link_type": "Original reporting",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b13",
+   "url": "https://www.straitstimes.com/opinion/hotter-hazier-and-higher-food-prices-el-ninos-sting-in-the-tail-has-yet-to-arrive",
+   "title": "Hotter, Hazier and Higher Food Prices: El Niño's Sting in the Tail Has Yet to Arrive",
+   "outlet": "The Straits Times",
+   "year": 2026,
+   "date": "2026",
+   "precision": "year",
+   "places": [
+    "Southeast Asia"
+   ],
+   "angle": "El Niño; regional resilience",
+   "link_type": "Commentary",
+   "format": "opinion",
+   "format_basis": "the collection's link type",
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b14",
+   "url": "https://www.straitstimes.com/singapore/environment/how-can-singapore-beat-the-heat-and-high-electricity-prices-without-aircon",
+   "title": "How Can Singapore Beat the Heat and High Electricity Prices Without Aircon?",
+   "outlet": "The Straits Times",
+   "year": 2026,
+   "date": "2026",
+   "precision": "year",
+   "places": [
+    "Singapore"
+   ],
+   "angle": "National adaptation plan; cooling choices",
+   "link_type": "Podcast",
+   "format": "podcast",
+   "format_basis": "the collection's link type",
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "id-garment-adaptation-2025",
+   "aliases": [],
+   "url": "https://m.antaranews.com/amp/berita/5297722/adaptasi-iklim-melindungi-perempuan-menjaga-produktivitas-nasional",
+   "collections": [
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "Adaptasi iklim: melindungi perempuan, menjaga produktivitas nasional",
+   "title_en": "Climate adaptation: protecting women, maintaining national productivity",
+   "translation": "researcher",
+   "language": "id",
+   "language_basis": "the article",
+   "outlet": "ANTARA News",
+   "original_outlet": null,
+   "date": "2025-12-10",
+   "precision": "day",
+   "year": 2025,
+   "places": [
+    "Indonesia"
+   ],
+   "format": "opinion",
+   "format_basis": "pilot coding",
+   "angle": null,
+   "link_type": null,
+   "summary": "A CARE Indonesia leader describes factory adaptation through a gender network. The commentary explains why company finances affect whether measures spread.",
+   "loops": [
+    "poverty",
+    "cooling",
+    "reactive"
+   ],
+   "organised": true,
+   "followup": false,
+   "voice": false,
+   "budget": false,
+   "pops": {
+    "workers": false,
+    "women": true,
+    "children": false
+   },
+   "outlet_type": "wire service",
+   "syndication": null,
+   "checked": "2026-10-31",
+   "exemplar": false,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as inequality, also lost work and income and responsibility split between institutions. Cites no figures.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "not_found",
+     "text": "No quoted speakers identified in the reviewed text.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record; the protection note below covers it where present.",
+     "basis": null
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "described",
+     "text": "GEN examples: Factories fund hydration, ventilation and cooler lactation rooms; author explains cost and regulatory constraints.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "not_found",
+     "text": "No specific earlier promise or intervention revisited in the reviewed text.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "described",
+     "text": "The author's role: Author identifies himself as CEO of CARE Indonesia; programme descriptions are attributed practitioner claims.",
+     "basis": "reviewer's caution"
+    }
+   ]
+  },
+  {
+   "id": "in-insurance-followup-2025",
+   "aliases": [],
+   "url": "https://www.ipsnews.net/2025/06/rising-temperatures-rising-inequalities-how-a-new-insurance-protects-indias-poorest-women/",
+   "collections": [
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "Rising Temperatures, Rising Inequalities: How a New Insurance Protects India’s Poorest Women",
+   "title_en": null,
+   "translation": "not-needed",
+   "language": "en",
+   "language_basis": "the article",
+   "outlet": "Inter Press Service",
+   "original_outlet": null,
+   "date": "2025-06-26",
+   "precision": "day",
+   "year": 2025,
+   "places": [
+    "India"
+   ],
+   "format": "feature",
+   "format_basis": "pilot coding",
+   "angle": null,
+   "link_type": null,
+   "summary": "The feature revisits an insurance pilot that initially paid nothing. It explains redesign and hears from women about what payments help cover.",
+   "loops": [
+    "poverty",
+    "debt",
+    "protection",
+    "sleep"
+   ],
+   "organised": true,
+   "followup": true,
+   "voice": true,
+   "budget": false,
+   "pops": {
+    "workers": true,
+    "women": true,
+    "children": false
+   },
+   "outlet_type": "international nonprofit wire",
+   "syndication": null,
+   "checked": "2026-10-31",
+   "exemplar": true,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as inequality, also lost work and income. Cites temperature, lost hours or wages.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "described",
+     "text": "Quoted: worker, union or worker group, NGO. Affected people speak in their own words.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "described",
+     "text": "SEWA and insurance partners redesign thresholds and assistance.",
+     "basis": "reviewer's note"
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "described",
+     "text": "Member contributions and programme support are described; whole long-term financing is not independently audited.",
+     "basis": "reviewer's note"
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "described",
+     "text": "Insurance section: Revisits failed pilot triggers, redesign, premium contributions and payouts, including worker accounts of using support.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "described",
+     "text": "Reporters revisit previous results and hear worker experiences; a causal impact evaluation is not presented.",
+     "basis": "reviewer's note"
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "described",
+     "text": "Revisits an earlier action or incident.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "described",
+     "text": "On figures: Reported premiums and payouts require programme documentation before reuse as independent impact evidence. Funding of the article: Publisher says feature supported by Open Society Foundations.",
+     "basis": "reviewer's caution"
+    }
+   ]
+  },
+  {
+   "id": "th-outdoor-rights-2025",
+   "aliases": [],
+   "url": "https://policywatch.thaipbs.or.th/article/environment-48",
+   "collections": [
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "“แรงงานกลางแจ้ง” ไร้กฎหมายคุ้มครอง จากวิกฤตโลกร้อน",
+   "title_en": "Outdoor workers lack legal protection against the global-heating crisis",
+   "translation": "researcher",
+   "language": "th",
+   "language_basis": "the article",
+   "outlet": "Thai PBS / Policy Watch",
+   "original_outlet": null,
+   "date": "2025-04-29",
+   "precision": "day",
+   "year": 2025,
+   "places": [
+    "Thailand"
+   ],
+   "format": "explainer",
+   "format_basis": "pilot coding",
+   "angle": null,
+   "link_type": null,
+   "summary": "A delivery rider explains changing working hours during heat. The explainer examines how employment status affects access to protection.",
+   "loops": [
+    "poverty",
+    "protection"
+   ],
+   "organised": true,
+   "followup": false,
+   "voice": true,
+   "budget": false,
+   "pops": {
+    "workers": true,
+    "women": true,
+    "children": false
+   },
+   "outlet_type": "broadcaster website",
+   "syndication": null,
+   "checked": "2026-10-31",
+   "exemplar": false,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as inequality, also lost work and income and responsibility split between institutions. Cites temperature, deaths.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "described",
+     "text": "Quoted: worker. Affected people speak in their own words.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record; the protection note below covers it where present.",
+     "basis": null
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "described",
+     "text": "Thailand-law section: Explains employer heat-control duties and article’s claimed gap for outdoor and platform workers; links a ministerial regulation.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "not_found",
+     "text": "No specific earlier promise or intervention revisited in the reviewed text.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "described",
+     "text": "On the law: Headline/legal gap recorded as article framing; not a current legal conclusion from this review.",
+     "basis": "reviewer's caution"
+    }
+   ]
+  },
+  {
+   "id": "b35",
+   "url": "https://apnews.com/article/937e51730d6962b05658b5e4a49abfa7",
+   "title": "In One Indian City, Reflective Paint and Bus Stop Sprinklers Offer Relief from Killer Heat",
+   "outlet": "Associated Press",
+   "year": 2025,
+   "date": "2025",
+   "precision": "year",
+   "places": [
+    "India"
+   ],
+   "angle": "Local cooling solutions",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b36",
+   "url": "https://www.channelnewsasia.com/today/big-read/climate-change-rising-heat-resilience-adaptation-5319426",
+   "title": "From Fungi Tiles to S$400 Cooling Vests: How Can Singapore Keep Its Cool?",
+   "outlet": "Channel NewsAsia",
+   "year": 2025,
+   "date": "2025",
+   "precision": "year",
+   "places": [
+    "Singapore"
+   ],
+   "angle": "Innovative cooling solutions",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b02",
+   "url": "https://www.channelnewsasia.com/commentary/global-warming-heatwave-energy-air-con-breaking-5296471",
+   "title": "Heatwaves and Jellyfish Are Causing the Grid to Wilt",
+   "outlet": "CNA / Bloomberg Opinion",
+   "year": 2025,
+   "date": "2025",
+   "precision": "year",
+   "places": [
+    "Global",
+    "Asia implications"
+   ],
+   "angle": "Grid reliability; heat and energy",
+   "link_type": "Bloomberg Opinion, syndicated",
+   "format": "opinion",
+   "format_basis": "the collection's link type",
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b37",
+   "url": "https://www.reuters.com/sustainability/climate-energy/majority-indian-districts-face-high-heatwave-risk-study-shows-2025-05-20/",
+   "title": "Majority of Indian Districts Face High Heatwave Risk, Study Shows",
+   "outlet": "Reuters",
+   "year": 2025,
+   "date": "2025",
+   "precision": "year",
+   "places": [
+    "India"
+   ],
+   "angle": "Climate risk mapping",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b15",
+   "url": "https://www.straitstimes.com/singapore/early-action-plans-for-heat-a-priority-for-red-cross-and-red-crescent-network",
+   "title": "Early Action Plans for Heat a Priority for Red Cross and Red Crescent Network",
+   "outlet": "The Straits Times",
+   "year": 2025,
+   "date": "2025",
+   "precision": "year",
+   "places": [
+    "Asia-Pacific"
+   ],
+   "angle": "Anticipatory action; heat plans",
+   "link_type": "Original reporting",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b16",
+   "url": "https://www.straitstimes.com/singapore/environment/how-we-can-beat-the-heat-in-singapore",
+   "title": "How We Can Beat the Heat in Singapore",
+   "outlet": "The Straits Times",
+   "year": 2025,
+   "date": "2025",
+   "precision": "year",
+   "places": [
+    "Singapore"
+   ],
+   "angle": "Heat health; adaptation",
+   "link_type": "Podcast",
+   "format": "podcast",
+   "format_basis": "the collection's link type",
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b17",
+   "url": "https://www.straitstimes.com/world/paris-agreement-dials-down-climate-risks-but-danger-from-heat-is-growing",
+   "title": "Paris Agreement Dials Down Climate Risks, but Danger from Heat Is Growing",
+   "outlet": "The Straits Times",
+   "year": 2025,
+   "date": "2025",
+   "precision": "year",
+   "places": [
+    "Global",
+    "Asia implications"
+   ],
+   "angle": "Heat projections; adaptation",
+   "link_type": "Original reporting",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b18",
+   "url": "https://www.straitstimes.com/singapore/environment/red-alert-why-is-the-red-cross-so-concerned-about-heat-in-the-asia-pacific",
+   "title": "Red Alert! Majority in Asia-Pacific at Increasing Risk from Heatwaves",
+   "outlet": "The Straits Times",
+   "year": 2025,
+   "date": "2025",
+   "precision": "year",
+   "places": [
+    "Asia-Pacific"
+   ],
+   "angle": "Red Cross; heat risk",
+   "link_type": "Podcast",
+   "format": "podcast",
+   "format_basis": "the collection's link type",
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b38",
+   "url": "https://asianews.network/degrees-of-danger-beating-the-heat-in-southeast-asia/",
+   "title": "Degrees of Danger: Beating the Heat in Southeast Asia",
+   "outlet": "The Straits Times / Asia News Network",
+   "year": 2025,
+   "date": "2025",
+   "precision": "year",
+   "places": [
+    "Southeast Asia"
+   ],
+   "angle": "Heat risks and adaptation",
+   "link_type": "Syndication",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "kh-cool-season-2024",
+   "aliases": [],
+   "url": "https://www.cambodianess.com/article/cambodia-its-cooler-now-but-locals-worry-about-the-heatwaves-ahead",
+   "collections": [
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "Cambodia: It’s Cooler Now, But Locals Worry About the Heatwaves Ahead",
+   "title_en": null,
+   "translation": "not-needed",
+   "language": "en",
+   "language_basis": "the article",
+   "outlet": "Cambodianess",
+   "original_outlet": "Reporting ASEAN",
+   "date": "2024-12-23",
+   "precision": "day",
+   "year": 2024,
+   "places": [
+    "Cambodia"
+   ],
+   "format": "feature",
+   "format_basis": "pilot coding",
+   "angle": null,
+   "link_type": null,
+   "summary": "During cooler weather, residents look back on the heatwave and prepare for its return. Workers explain why available shade is not always accessible.",
+   "loops": [
+    "poverty",
+    "deadgreen",
+    "energypoverty",
+    "reactive"
+   ],
+   "organised": true,
+   "followup": true,
+   "voice": true,
+   "budget": false,
+   "pops": {
+    "workers": true,
+    "women": true,
+    "children": false
+   },
+   "outlet_type": "regional nonprofit newsroom",
+   "syndication": null,
+   "checked": "2026-10-31",
+   "exemplar": false,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as inequality, also cooling and lost work and income. Cites temperature, lost hours or wages.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "described",
+     "text": "Quoted: worker, national official, scientist, international agency. Affected people speak in their own words.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record; the protection note below covers it where present.",
+     "basis": null
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "described",
+     "text": "City and greening sections: Names emergency teams and tree provision; worker interviews reveal limits on access to privately controlled shade.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "described",
+     "text": "Revisits an earlier action or incident.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "described",
+     "text": "On health advice: A participant’s shower belief is not reproduced as health guidance.",
+     "basis": "reviewer's caution"
+    }
+   ]
+  },
+  {
+   "id": "mm-power-workers-2024",
+   "aliases": [],
+   "url": "https://www.rfa.org/english/myanmar/2024/11/27/myanmar-energy-crisis/",
+   "collections": [
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "Myanmar’s worsening power woes leave factory workers in dangerous heat",
+   "title_en": null,
+   "translation": "not-needed",
+   "language": "en",
+   "language_basis": "the article",
+   "outlet": "Radio Free Asia",
+   "original_outlet": null,
+   "date": "2024-11-27",
+   "precision": "day",
+   "year": 2024,
+   "places": [
+    "Myanmar"
+   ],
+   "format": "feature",
+   "format_basis": "pilot coding",
+   "angle": null,
+   "link_type": null,
+   "summary": "The report connects factory heat with power shortages and electricity agreements. Union complaints sit alongside competing explanations and a request for response.",
+   "loops": [
+    "energywater",
+    "poverty",
+    "school",
+    "energypoverty"
+   ],
+   "organised": true,
+   "followup": true,
+   "voice": false,
+   "budget": false,
+   "pops": {
+    "workers": false,
+    "women": false,
+    "children": true
+   },
+   "outlet_type": "international broadcaster Asian service",
+   "syndication": null,
+   "checked": "2026-10-31",
+   "exemplar": true,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as responsibility split between institutions, also lost work and income and inequality. Cites temperature.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "described",
+     "text": "Quoted: union or worker group, national official, NGO. No directly affected person quoted under the codebook's definition.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "described",
+     "text": "Electricity authorities and plant operators affect supply; factories control indoor protection.",
+     "basis": "reviewer's note"
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "described",
+     "text": "Power tariffs and investment are discussed; disputed payment claims remain attributed.",
+     "basis": "reviewer's note"
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "described",
+     "text": "Power-contract and worker-complaint sections: Relates tariff-payment disputes, plant outages and union complaints to factory protection; competing accounts retained.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "described",
+     "text": "Union complaints, cited documents and requests for response are used; allegations are not adjudicated.",
+     "basis": "reviewer's note"
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "described",
+     "text": "Revisits an earlier action or incident. Returns to earlier power agreements and plant suspension, rather than a matched heat-event follow-up.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "not_assessed",
+     "text": "No caution recorded.",
+     "basis": null
+    }
+   ]
+  },
+  {
+   "id": "my-workplace-law-2024",
+   "aliases": [],
+   "url": "https://www.astroawani.com/berita-malaysia/majikan-pekerja-perlu-ambil-langkah-keselamatan-hadapi-perubahan-cuaca-477284",
+   "collections": [
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "Majikan, pekerja perlu ambil langkah keselamatan hadapi perubahan cuaca",
+   "title_en": "Employers and workers should take safety measures for changing weather",
+   "translation": "researcher",
+   "language": "ms",
+   "language_basis": "the article",
+   "outlet": "Astro Awani",
+   "original_outlet": "Bernama",
+   "date": "2024-07-03",
+   "precision": "day",
+   "year": 2024,
+   "places": [
+    "Malaysia"
+   ],
+   "format": "news",
+   "format_basis": "pilot coding",
+   "angle": null,
+   "link_type": null,
+   "summary": "The report links weather-related workplace risks with employer responsibilities. It explains a risk-assessment route and available technical assistance.",
+   "loops": [
+    "poverty",
+    "protection"
+   ],
+   "organised": true,
+   "followup": false,
+   "voice": false,
+   "budget": false,
+   "pops": {
+    "workers": false,
+    "women": false,
+    "children": false
+   },
+   "outlet_type": "wire republication",
+   "syndication": null,
+   "checked": "2026-10-31",
+   "exemplar": false,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as another angle, also lost work and income. Cites no figures.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "described",
+     "text": "Quoted: national official. No directly affected person quoted under the codebook's definition.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record; the protection note below covers it where present.",
+     "basis": null
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "described",
+     "text": "HIRARC and law paragraphs: Links employer risk assessment, NIOSH assistance and statutory responsibilities; no inspection outcomes reported.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "not_found",
+     "text": "No specific earlier promise or intervention revisited in the reviewed text.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "not_assessed",
+     "text": "No caution recorded.",
+     "basis": null
+    }
+   ]
+  },
+  {
+   "id": "np-poverty-2024",
+   "aliases": [],
+   "url": "https://ekantipur.com/news/2024/06/01/the-maximum-temperature-is-43-degrees-but-what-is-the-heat-for-the-poor-57-49.html",
+   "collections": [
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "अधिकतम तापक्रम ४३ डिग्री, तर, गरिबलाई केको गर्मी !",
+   "title_en": "Maximum temperature 43 degrees, but what respite from heat for the poor?",
+   "translation": "researcher",
+   "language": "ne",
+   "language_basis": "the article",
+   "outlet": "कान्तिपुर",
+   "original_outlet": null,
+   "date": "2024-06-01",
+   "precision": "day",
+   "year": 2024,
+   "places": [
+    "Nepal"
+   ],
+   "format": "feature",
+   "format_basis": "pilot coding",
+   "angle": null,
+   "link_type": null,
+   "summary": "Brick workers, repairers and vendors explain why they keep working in dangerous heat. Family expenses limit their choices.",
+   "loops": [
+    "poverty",
+    "school",
+    "sleep",
+    "debt"
+   ],
+   "organised": false,
+   "followup": false,
+   "voice": true,
+   "budget": false,
+   "pops": {
+    "workers": true,
+    "women": true,
+    "children": true
+   },
+   "outlet_type": "national daily",
+   "syndication": null,
+   "checked": "2026-10-31",
+   "exemplar": false,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as inequality, also lost work and income. Cites temperature, lost hours or wages.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "described",
+     "text": "Quoted: worker, employer or business. Affected people speak in their own words.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record; the protection note below covers it where present.",
+     "basis": null
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "not_found",
+     "text": "Worker portraits and closing advice: No body organising or financing worker heat protection is identified.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "not_found",
+     "text": "No specific earlier promise or intervention revisited in the reviewed text.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "not_assessed",
+     "text": "No caution recorded.",
+     "basis": null
+    }
+   ]
+  },
+  {
+   "id": "mm-deaths-2024",
+   "aliases": [],
+   "url": "https://www.rfa.org/english/news/myanmar/myanmar-heat-05202024065347.html",
+   "collections": [
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "Heat wave kills 100 in Myanmar, mostly infants and elderly",
+   "title_en": null,
+   "translation": "not-needed",
+   "language": "en",
+   "language_basis": "the article",
+   "outlet": "Radio Free Asia",
+   "original_outlet": null,
+   "date": "2024-05-20",
+   "precision": "day",
+   "year": 2024,
+   "places": [
+    "Myanmar"
+   ],
+   "format": "news",
+   "format_basis": "pilot coding",
+   "angle": null,
+   "link_type": null,
+   "summary": "Aid groups describe deaths during extreme heat and power shortages. The story attributes the toll to those groups rather than presenting a verified register.",
+   "loops": [
+    "invisible",
+    "clinic",
+    "energypoverty"
+   ],
+   "organised": true,
+   "followup": false,
+   "voice": true,
+   "budget": false,
+   "pops": {
+    "workers": false,
+    "women": false,
+    "children": false
+   },
+   "outlet_type": "international broadcaster Asian service",
+   "syndication": null,
+   "checked": "2026-10-31",
+   "exemplar": false,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as an emergency, also inequality. Cites temperature, deaths.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "described",
+     "text": "Quoted: NGO, community member. Affected people speak in their own words.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record; the protection note below covers it where present.",
+     "basis": null
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "described",
+     "text": "Relief-group passages: Names organisations providing funeral assistance and health ministry prevention response, alongside limits of available information.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "not_found",
+     "text": "No specific earlier promise or intervention revisited in the reviewed text.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "not_assessed",
+     "text": "No caution recorded.",
+     "basis": null
+    }
+   ]
+  },
+  {
+   "id": "region-attribution-2024",
+   "aliases": [
+    "b52"
+   ],
+   "url": "https://interaksyon.philstar.com/politics-issues/2024/05/15/275525/asias-extreme-april-heat-worsened-by-climate-change-scientists-say/",
+   "collections": [
+    "collection",
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "Asia’s extreme April heat worsened by climate change, scientists say",
+   "title_en": null,
+   "translation": "not-needed",
+   "language": "en",
+   "language_basis": "the article",
+   "outlet": "Interaksyon",
+   "original_outlet": "Reuters",
+   "date": "2024-05-15",
+   "precision": "day",
+   "year": 2024,
+   "places": [
+    "Philippines",
+    "India",
+    "Thailand",
+    "Viet Nam",
+    "Myanmar",
+    "Lao PDR",
+    "Asia",
+    "Southeast Asia"
+   ],
+   "format": "news",
+   "format_basis": "pilot coding",
+   "angle": "Heat attribution",
+   "link_type": "Reuters syndication",
+   "summary": "An attribution report links regional heat with climate change and unequal exposure. It calls for protection without explaining an operating delivery mechanism.",
+   "loops": [
+    "global",
+    "poverty",
+    "school"
+   ],
+   "organised": false,
+   "followup": false,
+   "voice": false,
+   "budget": false,
+   "pops": {
+    "workers": false,
+    "women": false,
+    "children": true
+   },
+   "outlet_type": "wire republication",
+   "syndication": null,
+   "checked": "2026-10-31",
+   "exemplar": false,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as climate science and attribution, also an emergency and inequality. Cites temperature, deaths.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "described",
+     "text": "Quoted: scientist, NGO. No directly affected person quoted under the codebook's definition.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record; the protection note below covers it where present.",
+     "basis": null
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "not_found",
+     "text": "Adaptation closing: Calls for heat action plans, without specifying financing or delivery arrangements.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "not_found",
+     "text": "No specific earlier promise or intervention revisited in the reviewed text.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "not_assessed",
+     "text": "No caution recorded.",
+     "basis": null
+    }
+   ]
+  },
+  {
+   "id": "pk-karachi-roles-2024",
+   "aliases": [],
+   "url": "https://www.urdupoint.com/daily/livenews/2024-05-06/news-4007727.html",
+   "collections": [
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "کمشنر کراچی کی زیر صدارت اجلاس ،ہیٹ اسٹروک کی صورتحال سے نمٹنے کے لئے مختلف شہری اداروں کو ذمہ داریاں تفویض",
+   "title_en": "Karachi commissioner’s meeting assigns city agencies responsibilities for responding to heatstroke",
+   "translation": "researcher",
+   "language": "ur",
+   "language_basis": "the article",
+   "outlet": "UrduPoint",
+   "original_outlet": "این این آئی (NNI)",
+   "date": "2024-05-06",
+   "precision": "day",
+   "year": 2024,
+   "places": [
+    "Pakistan"
+   ],
+   "format": "news",
+   "format_basis": "pilot coding",
+   "angle": null,
+   "link_type": null,
+   "summary": "A Karachi meeting assigns heat-response tasks across city services. It explains proposed coordination without checking subsequent delivery.",
+   "loops": [
+    "energywater",
+    "clinic",
+    "school",
+    "reactive"
+   ],
+   "organised": true,
+   "followup": false,
+   "voice": false,
+   "budget": false,
+   "pops": {
+    "workers": false,
+    "women": false,
+    "children": true
+   },
+   "outlet_type": "wire republication",
+   "syndication": null,
+   "checked": "2026-10-31",
+   "exemplar": false,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as an emergency. Cites no figures.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "not_found",
+     "text": "No quoted speakers identified in the reviewed text.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record; the protection note below covers it where present.",
+     "basis": null
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "described",
+     "text": "Meeting account: Assigns municipal water points, health wards, utility supply and ambulance lists to named agencies and a control room.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "not_found",
+     "text": "No specific earlier promise or intervention revisited in the reviewed text.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "not_assessed",
+     "text": "No caution recorded.",
+     "basis": null
+    }
+   ]
+  },
+  {
+   "id": "kh-school-2024",
+   "aliases": [],
+   "url": "https://cambodianess.com/article/classes-cut-short-in-scorching-heat",
+   "collections": [
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "Classes Cut Short in Scorching Heat",
+   "title_en": null,
+   "translation": "not-needed",
+   "language": "en",
+   "language_basis": "the article",
+   "outlet": "Cambodianess",
+   "original_outlet": null,
+   "date": "2024-05-01",
+   "precision": "day",
+   "year": 2024,
+   "places": [
+    "Cambodia"
+   ],
+   "format": "news",
+   "format_basis": "pilot coding",
+   "angle": null,
+   "link_type": null,
+   "summary": "School principals describe adapting schedules and seeking extra drinking water. The report connects national instructions with decisions at individual schools.",
+   "loops": [
+    "school",
+    "reactive"
+   ],
+   "organised": true,
+   "followup": false,
+   "voice": false,
+   "budget": false,
+   "pops": {
+    "workers": false,
+    "women": false,
+    "children": true
+   },
+   "outlet_type": "national digital news",
+   "syndication": null,
+   "checked": "2026-10-31",
+   "exemplar": false,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as an emergency, also inequality. Cites temperature, deaths.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "described",
+     "text": "Quoted: national official, community member. No directly affected person quoted under the codebook's definition.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record; the protection note below covers it where present.",
+     "basis": null
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "described",
+     "text": "Principal interviews: Describes closure discretion and parents donating drinking water when school provision is insufficient.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "not_found",
+     "text": "No specific earlier promise or intervention revisited in the reviewed text.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "not_assessed",
+     "text": "No caution recorded.",
+     "basis": null
+    }
+   ]
+  },
+  {
+   "id": "ph-labour-day-2024",
+   "aliases": [],
+   "url": "https://manilatoday.net/labor-day-2024-ipagtanggol-ang-kabuhayan-panawagan-ng-mga-manggagawa/",
+   "collections": [
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "Labor Day 2024: Ipagtanggol ang kabuhayan, panawagan ng mga manggagawa, tsuper, partner-riders",
+   "title_en": "Labor Day 2024: workers, drivers and partner-riders call to defend livelihoods",
+   "translation": "researcher",
+   "language": "tl",
+   "language_basis": "the article",
+   "outlet": "Manila Today",
+   "original_outlet": null,
+   "date": "2024-05-01",
+   "precision": "day",
+   "year": 2024,
+   "places": [
+    "Philippines"
+   ],
+   "format": "news",
+   "format_basis": "pilot coding",
+   "angle": null,
+   "link_type": null,
+   "summary": "Labour Day coverage includes demands for heat protection alongside wages. It explains how collective bargaining relates to pay during heat absences.",
+   "loops": [
+    "poverty",
+    "protection"
+   ],
+   "organised": true,
+   "followup": false,
+   "voice": false,
+   "budget": false,
+   "pops": {
+    "workers": false,
+    "women": false,
+    "children": false
+   },
+   "outlet_type": "local/labour newsroom",
+   "syndication": null,
+   "checked": "2026-10-31",
+   "exemplar": false,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as politics, also lost work and income and inequality. Cites lost hours or wages.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "described",
+     "text": "Quoted: union or worker group. No directly affected person quoted under the codebook's definition.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record; the protection note below covers it where present.",
+     "basis": null
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "described",
+     "text": "Occupational-safety section: Explains that heat absences remain unpaid unless a worker–company collective agreement changes the arrangement.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "not_found",
+     "text": "No specific earlier promise or intervention revisited in the reviewed text.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "not_assessed",
+     "text": "No caution recorded.",
+     "basis": null
+    }
+   ]
+  },
+  {
+   "id": "my-risk-review-2024",
+   "aliases": [],
+   "url": "https://berita.rtm.gov.my/nasional/senarai-berita-nasional/senarai-artikel/penilaian-risiko-di-tempat-kerja-perlu-disemak-semula-misha/",
+   "collections": [
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "Penilaian risiko di tempat kerja perlu disemak semula – MISHA",
+   "title_en": "Workplace risk assessment should be reviewed - MISHA",
+   "translation": "researcher",
+   "language": "ms",
+   "language_basis": "the article",
+   "outlet": "Berita RTM",
+   "original_outlet": null,
+   "date": "2024-04-28",
+   "precision": "day",
+   "year": 2024,
+   "places": [
+    "Malaysia"
+   ],
+   "format": "news",
+   "format_basis": "pilot coding",
+   "angle": null,
+   "link_type": null,
+   "summary": "A safety association calls for renewed workplace risk assessment during extreme heat. Construction workers are identified as exposed, but do not speak.",
+   "loops": [
+    "poverty",
+    "reactive"
+   ],
+   "organised": false,
+   "followup": false,
+   "voice": false,
+   "budget": false,
+   "pops": {
+    "workers": false,
+    "women": false,
+    "children": false
+   },
+   "outlet_type": "broadcaster website",
+   "syndication": null,
+   "checked": "2026-10-31",
+   "exemplar": false,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as another angle, also lost work and income. Cites no figures.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "described",
+     "text": "Quoted: NGO. No directly affected person quoted under the codebook's definition.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record; the protection note below covers it where present.",
+     "basis": null
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "not_found",
+     "text": "Complete body: MISHA calls on employers to review risk controls, without detailing an implementation or financing process.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "not_found",
+     "text": "No specific earlier promise or intervention revisited in the reviewed text.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "not_assessed",
+     "text": "No caution recorded.",
+     "basis": null
+    }
+   ]
+  },
+  {
+   "id": "vn-data-2024",
+   "aliases": [],
+   "url": "https://vnexpress.net/chuoi-ngay-nang-nong-dai-ky-luc-o-sai-gon-4739003.html",
+   "collections": [
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "Chuỗi ngày nắng nóng dài kỷ lục ở Sài Gòn",
+   "title_en": "Record-long run of hot days in Saigon",
+   "translation": "researcher",
+   "language": "vi",
+   "language_basis": "the article",
+   "outlet": "VnExpress",
+   "original_outlet": null,
+   "date": "2024-04-27",
+   "precision": "day",
+   "year": 2024,
+   "places": [
+    "Viet Nam"
+   ],
+   "format": "data story",
+   "format_basis": "pilot coding",
+   "angle": null,
+   "link_type": null,
+   "summary": "The story compares the duration of southern Viet Nam’s heat with earlier years. Its methods note identifies weather stations and missing observations.",
+   "loops": [
+    "global"
+   ],
+   "organised": false,
+   "followup": false,
+   "voice": false,
+   "budget": false,
+   "pops": {
+    "workers": false,
+    "women": false,
+    "children": false
+   },
+   "outlet_type": "national digital news",
+   "syndication": null,
+   "checked": "2026-10-31",
+   "exemplar": false,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as climate science and attribution, also an emergency. Cites temperature.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "described",
+     "text": "Quoted: scientist. No directly affected person quoted under the codebook's definition.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record; the protection note below covers it where present.",
+     "basis": null
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "not_found",
+     "text": "Data and forecast sections: Weather trends are analysed; no protection organiser or payer is identified.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "not_found",
+     "text": "No specific earlier promise or intervention revisited in the reviewed text.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "not_assessed",
+     "text": "No caution recorded.",
+     "basis": null
+    }
+   ]
+  },
+  {
+   "id": "la-schools-2024",
+   "aliases": [],
+   "url": "https://laotiantimes.com/2024/04/26/lao-government-advises-heat-safety-measures-for-schools-amid-sweltering-temperatures/",
+   "collections": [
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "Lao Government Advises Heat Safety Measures for Schools Amid Sweltering Temperatures",
+   "title_en": null,
+   "translation": "not-needed",
+   "language": "en",
+   "language_basis": "the article",
+   "outlet": "Laotian Times",
+   "original_outlet": null,
+   "date": "2024-04-26",
+   "precision": "day",
+   "year": 2024,
+   "places": [
+    "Lao PDR"
+   ],
+   "format": "news",
+   "format_basis": "pilot coding",
+   "angle": null,
+   "link_type": null,
+   "summary": "The report explains school options under an education ministry notice. It also records public requests for cooling in disadvantaged schools.",
+   "loops": [
+    "school",
+    "reactive"
+   ],
+   "organised": true,
+   "followup": false,
+   "voice": false,
+   "budget": false,
+   "pops": {
+    "workers": false,
+    "women": false,
+    "children": true
+   },
+   "outlet_type": "national digital news",
+   "syndication": null,
+   "checked": "2026-10-31",
+   "exemplar": false,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as an emergency. Cites temperature.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "described",
+     "text": "Quoted: community member. No directly affected person quoted under the codebook's definition.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record; the protection note below covers it where present.",
+     "basis": null
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "described",
+     "text": "Notice paragraph: Education ministry delegates cancellations, rescheduling and compensatory lessons to Vientiane educational institutions.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "not_found",
+     "text": "No specific earlier promise or intervention revisited in the reviewed text.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "not_assessed",
+     "text": "No caution recorded.",
+     "basis": null
+    }
+   ]
+  },
+  {
+   "id": "mm-water-power-2024",
+   "aliases": [],
+   "url": "https://elevenmyanmar.com/news/heatwave-and-power-outages-intensify-water-woes-in-thaton-and-surrounding-areas",
+   "collections": [
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "Heatwave and power outages intensify water woes in Thaton and surrounding areas",
+   "title_en": null,
+   "translation": "not-needed",
+   "language": "en",
+   "language_basis": "the article",
+   "outlet": "Eleven Media Group",
+   "original_outlet": null,
+   "date": "2024-04-23",
+   "precision": "day",
+   "year": 2024,
+   "places": [
+    "Myanmar"
+   ],
+   "format": "news",
+   "format_basis": "pilot coding",
+   "angle": null,
+   "link_type": null,
+   "summary": "Residents link drinking-water shortages to heat and electricity cuts. The report identifies relief providers and the dependence of wells on power.",
+   "loops": [
+    "energywater",
+    "pumping",
+    "reactive"
+   ],
+   "organised": true,
+   "followup": false,
+   "voice": true,
+   "budget": false,
+   "pops": {
+    "workers": false,
+    "women": false,
+    "children": false
+   },
+   "outlet_type": "national daily",
+   "syndication": null,
+   "checked": "2026-10-31",
+   "exemplar": false,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as an emergency, also inequality. Cites no figures.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "described",
+     "text": "Quoted: NGO, community member. Affected people speak in their own words.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record; the protection note below covers it where present.",
+     "basis": null
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "described",
+     "text": "Final paragraph: Fire Services Department and social associations deliver water; residents explain why functioning wells cannot operate without power.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "not_found",
+     "text": "No specific earlier promise or intervention revisited in the reviewed text.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "not_assessed",
+     "text": "No caution recorded.",
+     "basis": null
+    }
+   ]
+  },
+  {
+   "id": "lk-school-reminder-2024",
+   "aliases": [],
+   "url": "https://vnews.lk/%E0%B6%85%E0%B6%B0%E0%B7%92%E0%B6%9A-%E0%B6%8B%E0%B6%AB%E0%B7%94%E0%B7%83%E0%B7%94%E0%B6%B8-%E0%B6%B4%E0%B7%85%E0%B7%8F%E0%B6%AD%E0%B7%8A-05%E0%B6%A7-%E0%B6%B6%E0%B6%BD%E0%B6%B4%E0%B7%8F%E0%B6%BA%E0%B7%92/",
+   "collections": [
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "අධික උණුසුම පළාත් 05ට බලපායි",
+   "title_en": "Extreme heat affects five provinces",
+   "translation": "researcher",
+   "language": "si",
+   "language_basis": "the article",
+   "outlet": "වී News",
+   "original_outlet": null,
+   "date": "2024-03-14",
+   "precision": "day",
+   "year": 2024,
+   "places": [
+    "Sri Lanka"
+   ],
+   "format": "news",
+   "format_basis": "pilot coding",
+   "angle": null,
+   "link_type": null,
+   "summary": "The brief returns to earlier school heat guidance after reported non-compliance. It does not trace inspections, sanctions or school resources.",
+   "loops": [
+    "school",
+    "reactive"
+   ],
+   "organised": false,
+   "followup": true,
+   "voice": false,
+   "budget": false,
+   "pops": {
+    "workers": false,
+    "women": false,
+    "children": true
+   },
+   "outlet_type": "broadcaster website",
+   "syndication": null,
+   "checked": "2026-10-31",
+   "exemplar": false,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as an emergency, also responsibility split between institutions. Cites no figures.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "not_found",
+     "text": "No quoted speakers identified in the reviewed text.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record; the protection note below covers it where present.",
+     "basis": null
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "not_found",
+     "text": "Final two paragraphs: Ministry reports some schools disregarded earlier guidance and repeats its instructions; no inspection or funding process explained.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "described",
+     "text": "Revisits an earlier action or incident.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "not_assessed",
+     "text": "No caution recorded.",
+     "basis": null
+    }
+   ]
+  },
+  {
+   "id": "lk-school-directive-2024",
+   "aliases": [],
+   "url": "https://dasathalankanews.com/%E0%B6%85%E0%B6%B0%E0%B7%92%E0%B6%9A-%E0%B6%8B%E0%B7%82%E0%B7%8A%E0%B6%AB%E0%B6%AD%E0%B7%8A%E0%B6%BA-%E0%B6%87%E0%B6%AD%E0%B7%92-%E0%B6%85%E0%B7%80%E0%B7%83%E0%B7%8A%E0%B6%AE%E0%B7%8F%E0%B7%80/",
+   "collections": [
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "අධික උෂ්ණත්වය ඇති අවස්ථාවේ පාසල් සිසුන් එළිමහනේ රැඳවීමෙන් වළකින්න",
+   "title_en": "Avoid keeping schoolchildren outdoors during high temperatures",
+   "translation": "researcher",
+   "language": "si",
+   "language_basis": "the article",
+   "outlet": "Dasatha Lanka News",
+   "original_outlet": null,
+   "date": "2024-02-28",
+   "precision": "day",
+   "year": 2024,
+   "places": [
+    "Sri Lanka"
+   ],
+   "format": "news",
+   "format_basis": "pilot coding",
+   "angle": null,
+   "link_type": null,
+   "summary": "Schools are told to avoid outdoor activities during high heat. The brief identifies the administrative chain carrying the instruction.",
+   "loops": [
+    "school",
+    "reactive"
+   ],
+   "organised": true,
+   "followup": false,
+   "voice": false,
+   "budget": false,
+   "pops": {
+    "workers": false,
+    "women": false,
+    "children": true
+   },
+   "outlet_type": "broadcaster website",
+   "syndication": null,
+   "checked": "2026-10-31",
+   "exemplar": false,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as an emergency. Cites no figures.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "not_found",
+     "text": "No quoted speakers identified in the reviewed text.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record; the protection note below covers it where present.",
+     "basis": null
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "described",
+     "text": "Final paragraph: Education ministry routes joint health guidance through provincial and zonal directors to school principals.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "not_found",
+     "text": "No specific earlier promise or intervention revisited in the reviewed text.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "not_assessed",
+     "text": "No caution recorded.",
+     "basis": null
+    }
+   ]
+  },
+  {
+   "id": "vn-street-work-2024",
+   "aliases": [],
+   "url": "https://tuoitre.vn/nld/lao-dong-vat-va-muu-sinh-duoi-nang-nong-38-do-c-196240224090130229.htm",
+   "collections": [
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "Lao động vất vả mưu sinh dưới nắng nóng 38 độ C",
+   "title_en": "Workers struggle to earn a living in 38-degree heat",
+   "translation": "researcher",
+   "language": "vi",
+   "language_basis": "the article",
+   "outlet": "Báo Người Lao Động (Tuổi Trẻ-hosted page)",
+   "original_outlet": "Báo Người Lao Động",
+   "date": "2024-02-24",
+   "precision": "day",
+   "year": 2024,
+   "places": [
+    "Viet Nam"
+   ],
+   "format": "feature",
+   "format_basis": "pilot coding",
+   "angle": null,
+   "link_type": null,
+   "summary": "Street sellers and transport workers describe working through heat to preserve income. Their accounts connect fewer customers with personal coping costs.",
+   "loops": [
+    "poverty",
+    "energypoverty"
+   ],
+   "organised": false,
+   "followup": false,
+   "voice": true,
+   "budget": false,
+   "pops": {
+    "workers": true,
+    "women": true,
+    "children": false
+   },
+   "outlet_type": "national daily",
+   "syndication": "Publisher branding and credited NLĐO copy; hosted under Tuổi Trẻ /nld/. Related-news box excluded.",
+   "checked": "2026-10-31",
+   "exemplar": false,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as lost work and income, also inequality. Cites temperature, lost hours or wages.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "described",
+     "text": "Quoted: worker. Affected people speak in their own words.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record; the protection note below covers it where present.",
+     "basis": null
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "not_found",
+     "text": "Worker portraits: Shade and drinking water are personal coping measures; no protection delivery or funding body is identified.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "not_assessed",
+     "text": "Not coded separately for this record.",
+     "basis": null
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "not_found",
+     "text": "No specific earlier promise or intervention revisited in the reviewed text.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "not_assessed",
+     "text": "No caution recorded.",
+     "basis": null
+    }
+   ]
+  },
+  {
+   "id": "b39",
+   "url": "https://www.aljazeera.com/features/2024/7/4/im-in-hell-how-rising-heat-is-amplifying-indias-social-divides",
+   "title": "I'm in Hell: How Rising Heat Is Amplifying India's Social Divides",
+   "outlet": "Al Jazeera",
+   "year": 2024,
+   "date": "2024",
+   "precision": "year",
+   "places": [
+    "India"
+   ],
+   "angle": "Social inequality and extreme heat",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b40",
+   "url": "https://www.aljazeera.com/news/2024/5/14/india-election-will-a-forty-five-degree-heat-wave-affect-who-voters-choose",
+   "title": "Unbearable: Will 45C Heatwaves Affect Who India Chooses in Election?",
+   "outlet": "Al Jazeera",
+   "year": 2024,
+   "date": "2024",
+   "precision": "year",
+   "places": [
+    "India"
+   ],
+   "angle": "Heat and elections",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b41",
+   "url": "https://www.aljazeera.com/news/2024/6/15/working-in-hellfire-gig-workers-bear-the-brunt-of-indias-heatwave",
+   "title": "Working in Hellfire: Gig Workers Bear the Brunt of India's Heatwave",
+   "outlet": "Al Jazeera",
+   "year": 2024,
+   "date": "2024",
+   "precision": "year",
+   "places": [
+    "India"
+   ],
+   "angle": "Gig workers and heat",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b42",
+   "url": "https://apnews.com/article/09f26a8b18628960952cf8ec9fc02fbe",
+   "title": "A Scorching Heat Wave Kills 14 in India Ahead of a Final Round of Election Voting",
+   "outlet": "Associated Press",
+   "year": 2024,
+   "date": "2024",
+   "precision": "year",
+   "places": [
+    "India"
+   ],
+   "angle": "Mortality and elections",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b43",
+   "url": "https://apnews.com/article/880f26e3b8eeb066d2db2308502783d2",
+   "title": "Extreme Heat in India Has Killed More Than 100 People in the Past Three and a Half Months",
+   "outlet": "Associated Press",
+   "year": 2024,
+   "date": "2024",
+   "precision": "year",
+   "places": [
+    "India"
+   ],
+   "angle": "Heat mortality",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b44",
+   "url": "https://apnews.com/article/e13a4a5f2c4de870269b36d5de570aa5",
+   "title": "From Flooding in Brazil and Houston to Brutal Heat in Asia, Extreme Weather Seems Nearly Everywhere",
+   "outlet": "Associated Press",
+   "year": 2024,
+   "date": "2024",
+   "precision": "year",
+   "places": [
+    "Asia",
+    "Global"
+   ],
+   "angle": "Extreme heat and climate disruption",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b45",
+   "url": "https://apnews.com/article/90fefbcae1e9a1de6faf108aa90cc076",
+   "title": "Philippine Students Told to Stay Home as Southeast Asia Swelters in Prolonged Heat Wave",
+   "outlet": "Associated Press",
+   "year": 2024,
+   "date": "2024",
+   "precision": "year",
+   "places": [
+    "Philippines",
+    "Southeast Asia"
+   ],
+   "angle": "Schools, regional warnings",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b46",
+   "url": "https://businessoffashion-businessoffashion-prod.web.arc-cdn.net/articles/sustainability/fashion-sustainability-heatwave-asia-manufacturing-workers-rights/",
+   "title": "What Happens When It's Too Hot to Make Fashion?",
+   "outlet": "Business of Fashion",
+   "year": 2024,
+   "date": "2024",
+   "precision": "year",
+   "places": [
+    "Asia",
+    "Manufacturing"
+   ],
+   "angle": "Global apparel supply chains and worker heat",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b03",
+   "url": "https://www.channelnewsasia.com/commentary/india-hot-weather-heatstroke-deaths-unlivable-election-modi-bjp-4376916",
+   "title": "India's Scorching Heat Is Making It Unlivable",
+   "outlet": "CNA / Bloomberg Opinion",
+   "year": 2024,
+   "date": "2024",
+   "precision": "year",
+   "places": [
+    "India"
+   ],
+   "angle": "Growth; work; industrial prospects",
+   "link_type": "Bloomberg Opinion, syndicated",
+   "format": "opinion",
+   "format_basis": "the collection's link type",
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b47",
+   "url": "https://www.ft.com/content/d5a5bc1f-e225-4397-b99f-56c62b00366d",
+   "title": "Learning to Live with 50C Temperatures",
+   "outlet": "Financial Times",
+   "year": 2024,
+   "date": "2024",
+   "precision": "year",
+   "places": [
+    "Gulf",
+    "South Asian migrant workers"
+   ],
+   "angle": "Migrant workers, extreme heat, adaptation",
+   "link_type": "Comparative (outside primary geography)",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b48",
+   "url": "https://www.lemonde.fr/en/environment/article/2024/04/23/southeast-asia-hit-by-extreme-heat-wave_6669258_114.html",
+   "title": "Southeast Asia Hit by Extreme Heat Wave",
+   "outlet": "Le Monde",
+   "year": 2024,
+   "date": "2024",
+   "precision": "year",
+   "places": [
+    "Southeast Asia"
+   ],
+   "angle": "Region-wide heat extremes",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b04",
+   "url": "https://www.ndtvprofit.com/business/india-election-extreme-heat-is-keeping-voters-away-9995138",
+   "title": "How Can India Hold Elections When It's Too Hot to Vote?",
+   "outlet": "NDTV Profit / Bloomberg Opinion",
+   "year": 2024,
+   "date": "2024",
+   "precision": "year",
+   "places": [
+    "India"
+   ],
+   "angle": "Heat and democracy; public systems",
+   "link_type": "Bloomberg Opinion, syndicated",
+   "format": "opinion",
+   "format_basis": "the collection's link type",
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b49",
+   "url": "https://www.reuters.com/world/india/heatwave-kills-dozens-indias-capital-reports-times-india-2024-06-20/",
+   "title": "Heatwave Kills Dozens of Homeless in India's Capital, Group Says",
+   "outlet": "Reuters",
+   "year": 2024,
+   "date": "2024",
+   "precision": "year",
+   "places": [
+    "India"
+   ],
+   "angle": "Homelessness and heat mortality",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b50",
+   "url": "https://www.reuters.com/world/india/indias-heat-delhi-labourers-toil-red-hot-conditions-2024-05-23/",
+   "title": "In India's Heat, Delhi Labourers Toil in Red Hot Conditions",
+   "outlet": "Reuters",
+   "year": 2024,
+   "date": "2024",
+   "precision": "year",
+   "places": [
+    "India"
+   ],
+   "angle": "Construction and informal workers",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b51",
+   "url": "https://www.reuters.com/world/india/scorching-heatwave-indias-rajasthan-kills-nine-2024-05-24/",
+   "title": "South Asia Faces Extreme Weather with Heatwave in India, Cyclone in Bangladesh",
+   "outlet": "Reuters",
+   "year": 2024,
+   "date": "2024",
+   "precision": "year",
+   "places": [
+    "India",
+    "Bangladesh"
+   ],
+   "angle": "Concurrent regional hazards",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b53",
+   "url": "https://theprint.in/world/heat-wave-in-southeast-asia-closes-schools-triggers-health-alerts/2061903/",
+   "title": "Heat Wave in Southeast Asia Closes Schools, Triggers Health Alerts",
+   "outlet": "Reuters / ThePrint",
+   "year": 2024,
+   "date": "2024",
+   "precision": "year",
+   "places": [
+    "Southeast Asia"
+   ],
+   "angle": "Education and public health",
+   "link_type": "Reuters syndication",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b54",
+   "url": "https://www.scmp.com/week-asia/health-environment/article/3261584/southeast-asias-brutal-heatwave-daily-life-and-agriculture-endangered-rising-temperatures",
+   "title": "Southeast Asia's Brutal Heatwave: Daily Life and Agriculture Endangered",
+   "outlet": "South China Morning Post",
+   "year": 2024,
+   "date": "2024",
+   "precision": "year",
+   "places": [
+    "Southeast Asia"
+   ],
+   "angle": "Agriculture, health, daily life",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b55",
+   "url": "https://www.theguardian.com/environment/article/2024/may/04/inside-an-oven-how-life-in-south-east-asia-is-a-struggle-amid-sweltering-heat",
+   "title": "Inside an Oven: Sweltering Heat Ravages Crops and Takes Lives in Southeast Asia",
+   "outlet": "The Guardian",
+   "year": 2024,
+   "date": "2024",
+   "precision": "year",
+   "places": [
+    "Southeast Asia"
+   ],
+   "angle": "Agriculture and livelihoods",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b56",
+   "url": "https://www.theguardian.com/environment/2024/apr/04/schools-close-and-crops-wither-as-historic-heatwave-hits-south-east-asia",
+   "title": "Schools Close and Crops Wither as Historic Heatwave Hits Southeast Asia",
+   "outlet": "The Guardian",
+   "year": 2024,
+   "date": "2024",
+   "precision": "year",
+   "places": [
+    "Southeast Asia"
+   ],
+   "angle": "Education, agriculture",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b57",
+   "url": "https://www.theguardian.com/world/article/2024/may/30/unliveable-delhis-residents-struggle-to-cope-in-record-breaking-heat",
+   "title": "Unliveable: Delhi's Residents Struggle to Cope in Record-Breaking Heat",
+   "outlet": "The Guardian",
+   "year": 2024,
+   "date": "2024",
+   "precision": "year",
+   "places": [
+    "India"
+   ],
+   "angle": "Urban heat and inequality",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b58",
+   "url": "https://www.theguardian.com/world/2024/apr/26/asia-heatwaves-philippines-bangladesh-india",
+   "title": "Wave of Exceptionally Hot Weather Scorches South and Southeast Asia",
+   "outlet": "The Guardian",
+   "year": 2024,
+   "date": "2024",
+   "precision": "year",
+   "places": [
+    "India",
+    "Southeast Asia",
+    "Bangladesh"
+   ],
+   "angle": "Regional heatwave",
+   "link_type": "Original / agency",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b19",
+   "url": "https://www.straitstimes.com/singapore/can-outdoor-workers-in-singapore-beat-the-heat",
+   "title": "Hot and Bothered: Can Singapore's Outdoor Workers Beat the Rising Heat?",
+   "outlet": "The Straits Times",
+   "year": 2024,
+   "date": "2024",
+   "precision": "year",
+   "places": [
+    "Singapore"
+   ],
+   "angle": "Occupational heat; workers",
+   "link_type": "Original reporting",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b20",
+   "url": "https://www.straitstimes.com/opinion/keeping-your-cool-is-going-to-get-tougher-in-the-tropics",
+   "title": "Keeping Your Cool Is Going to Get Tougher in the Tropics",
+   "outlet": "The Straits Times",
+   "year": 2024,
+   "date": "2024",
+   "precision": "year",
+   "places": [
+    "Singapore",
+    "Southeast Asia"
+   ],
+   "angle": "Humid heat; everyday protection",
+   "link_type": "Commentary",
+   "format": "opinion",
+   "format_basis": "the collection's link type",
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b21",
+   "url": "https://www.straitstimes.com/singapore/mentally-you-just-have-to-push-through-delivery-riders-endure-longer-hours-hotter-days",
+   "title": "Mentally, You Just Have to Push Through: Delivery Riders Endure Longer Hours, Hotter Days",
+   "outlet": "The Straits Times",
+   "year": 2024,
+   "date": "2024",
+   "precision": "year",
+   "places": [
+    "Singapore"
+   ],
+   "angle": "Delivery gig work; earnings",
+   "link_type": "Original reporting",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b22",
+   "url": "https://www.straitstimes.com/singapore/the-dangers-of-heat-stress-a-sudden-strike-or-a-slow-burn",
+   "title": "The Dangers of Heat Stress: A Sudden Strike or a Slow Burn",
+   "outlet": "The Straits Times",
+   "year": 2024,
+   "date": "2024",
+   "precision": "year",
+   "places": [
+    "Singapore"
+   ],
+   "angle": "Heat health; chronic exposure",
+   "link_type": "Original reporting",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b23",
+   "url": "https://www.straitstimes.com/world/the-human-body-versus-scorching-heat-which-will-win-the-race",
+   "title": "The Human Body Versus Scorching Heat: Which Will Win the Race?",
+   "outlet": "The Straits Times",
+   "year": 2024,
+   "date": "2024",
+   "precision": "year",
+   "places": [
+    "Global",
+    "Southeast Asia implications"
+   ],
+   "angle": "Heat physiology; adaptation",
+   "link_type": "Commentary",
+   "format": "opinion",
+   "format_basis": "the collection's link type",
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b24",
+   "url": "https://www.straitstimes.com/singapore/too-hot-to-handle-rising-temperatures-pose-growing-risk-for-port-workers",
+   "title": "Too Hot to Handle? Rising Temperatures Pose Growing Risk for Port Workers",
+   "outlet": "The Straits Times",
+   "year": 2024,
+   "date": "2024",
+   "precision": "year",
+   "places": [
+    "Singapore"
+   ],
+   "angle": "Ports; worker safety; productivity",
+   "link_type": "Original reporting",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b59",
+   "url": "https://www.washingtonpost.com/world/2024/05/31/india-heat-deaths/",
+   "title": "Deaths Mount and Water Rationed as India Faces Record Heat",
+   "outlet": "The Washington Post",
+   "year": 2024,
+   "date": "2024",
+   "precision": "year",
+   "places": [
+    "India"
+   ],
+   "angle": "Water access, extreme heat",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b60",
+   "url": "https://www.washingtonpost.com/climate-solutions/interactive/2024/air-conditioning-humidity-hotter-summers-solutions/",
+   "title": "How to Build an AC That Will Get the World Through Hotter Summers",
+   "outlet": "The Washington Post",
+   "year": 2024,
+   "date": "2024",
+   "precision": "year",
+   "places": [
+    "India",
+    "Global"
+   ],
+   "angle": "Cooling technology",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b61",
+   "url": "https://www.washingtonpost.com/weather/2024/04/30/southeast-asia-heat-india-thailand-philippines/",
+   "title": "Southeast Asia Is Enduring a Brutal, Record-Setting Heat Wave",
+   "outlet": "The Washington Post",
+   "year": 2024,
+   "date": "2024",
+   "precision": "year",
+   "places": [
+    "Southeast Asia"
+   ],
+   "angle": "Meteorology and heat extremes",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b62",
+   "url": "https://www.washingtonpost.com/weather/2024/05/29/record-heat-delhi-india-climate-survival/",
+   "title": "Unbearable Heat in Delhi Is Testing Limits of Human Survival",
+   "outlet": "The Washington Post",
+   "year": 2024,
+   "date": "2024",
+   "precision": "year",
+   "places": [
+    "India"
+   ],
+   "angle": "Climate risk, health",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "in-deaths-commentary-2023",
+   "aliases": [
+    "b06"
+   ],
+   "url": "https://www.channelnewsasia.com/commentary/india-deadly-heatwave-extreme-weather-climate-change-healthcare-3579621",
+   "collections": [
+    "collection",
+    "pilot"
+   ],
+   "depth": "full",
+   "title": "Commentary: India has no idea how many people its heatwaves are killing",
+   "title_en": null,
+   "translation": "not-needed",
+   "language": "en",
+   "language_basis": "the article",
+   "outlet": "CNA",
+   "original_outlet": "Bloomberg Opinion",
+   "date": "2023-06-23",
+   "precision": "day",
+   "year": 2023,
+   "places": [
+    "India"
+   ],
+   "format": "opinion",
+   "format_basis": "pilot coding",
+   "angle": "Heat mortality; public health data",
+   "link_type": "Bloomberg Opinion, syndicated",
+   "summary": "The commentary examines why heat deaths are difficult to count. It links missing records with decisions about whom emergency services protect.",
+   "loops": [
+    "invisible",
+    "clinic",
+    "reactive"
+   ],
+   "organised": true,
+   "followup": true,
+   "voice": false,
+   "budget": false,
+   "pops": {
+    "workers": false,
+    "women": true,
+    "children": false
+   },
+   "outlet_type": "broadcaster opinion republication",
+   "syndication": null,
+   "checked": "2026-10-31",
+   "exemplar": true,
+   "trail": [
+    {
+     "k": "harm",
+     "label": "Harm or exposure reported",
+     "state": "described",
+     "text": "Framed mainly as responsibility split between institutions, also an emergency and inequality. Cites temperature, deaths.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "voices",
+     "label": "Whose experience is included",
+     "state": "not_found",
+     "text": "No quoted speakers identified in the reviewed text.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "responsible",
+     "label": "Who is described as responsible",
+     "state": "described",
+     "text": "Registration and health systems determine what can be counted and acted upon.",
+     "basis": "reviewer's note"
+    },
+    {
+     "k": "resources",
+     "label": "Funding or resources mentioned",
+     "state": "described",
+     "text": "No specific budget payer traced.",
+     "basis": "reviewer's note"
+    },
+    {
+     "k": "delivery",
+     "label": "How protection is organised or delivered",
+     "state": "described",
+     "text": "Unrecorded-deaths section: Connects death certification and registration gaps with the limits of excess-mortality estimates and emergency resource decisions.",
+     "basis": "reviewer's note on the passage"
+    },
+    {
+     "k": "checks",
+     "label": "Who checks, and how",
+     "state": "described",
+     "text": "Commentary compares published records and mortality methods; not an original field investigation.",
+     "basis": "reviewer's note"
+    },
+    {
+     "k": "followup",
+     "label": "Follow-up or outcomes reported",
+     "state": "described",
+     "text": "Revisits an earlier action or incident.",
+     "basis": "pilot coding"
+    },
+    {
+     "k": "open",
+     "label": "What it leaves open, or a caution on reuse",
+     "state": "described",
+     "text": "Scope: China and COVID examples are comparisons; India remains country focus.",
+     "basis": "reviewer's caution"
+    }
+   ]
+  },
+  {
+   "id": "b05",
+   "url": "https://www.business-standard.com/amp/world-news/a-torrid-summer-rise-in-power-demand-risks-stalling-asia-s-climate-goals-123050400118_1.html",
+   "title": "A Torrid Summer Risks Stalling Asia's Climate Goals",
+   "outlet": "Business Standard / Bloomberg Opinion",
+   "year": 2023,
+   "date": "2023",
+   "precision": "year",
+   "places": [
+    "Asia"
+   ],
+   "angle": "Electricity demand; coal; heat",
+   "link_type": "Bloomberg Opinion, syndicated",
+   "format": "opinion",
+   "format_basis": "the collection's link type",
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b07",
+   "url": "https://www.ndtv.com/opinion/india-is-encouraging-the-heatwaves-that-will-cripple-it-3937443/amp/1",
+   "title": "India Is Encouraging the Heatwaves That Will Cripple It",
+   "outlet": "NDTV / Bloomberg Opinion",
+   "year": 2023,
+   "date": "2023",
+   "precision": "year",
+   "places": [
+    "India"
+   ],
+   "angle": "Energy policy; climate vulnerability",
+   "link_type": "Bloomberg Opinion, syndicated",
+   "format": "opinion",
+   "format_basis": "the collection's link type",
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b08",
+   "url": "https://www.ndtvprofit.com/world/climate-change-homes-need-to-be-batteries-to-beat-summer-power-crisis-10013316",
+   "title": "To Beat the Heat, We'll Need to Turn Our Homes Into Batteries",
+   "outlet": "NDTV Profit / Bloomberg Opinion",
+   "year": 2023,
+   "date": "2023",
+   "precision": "year",
+   "places": [
+    "South & Southeast Asia",
+    "Global"
+   ],
+   "angle": "Home cooling; energy; adaptation",
+   "link_type": "Bloomberg Opinion, syndicated",
+   "format": "opinion",
+   "format_basis": "the collection's link type",
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b63",
+   "url": "https://www.thejakartapost.com/paper/2023/06/02/asia-climate-woes-mount-as-heat-shatters-may-records",
+   "title": "Asia Climate Woes Mount as Heat Shatters May Records",
+   "outlet": "Reuters / Jakarta Post",
+   "year": 2023,
+   "date": "2023",
+   "precision": "year",
+   "places": [
+    "Asia"
+   ],
+   "angle": "Regional heat extremes",
+   "link_type": "Reuters syndication",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b64",
+   "url": "https://www.theguardian.com/world/2023/dec/05/india-unstoppable-need-air-conditioners",
+   "title": "A Matter of Survival: India's Unstoppable Need for Air Conditioners",
+   "outlet": "The Guardian",
+   "year": 2023,
+   "date": "2023",
+   "precision": "year",
+   "places": [
+    "India"
+   ],
+   "angle": "Cooling justice and demand",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b65",
+   "url": "https://www.theguardian.com/weather/2023/apr/19/severe-heatwave-asia-deaths-schools-close-india-china",
+   "title": "Severe Heatwave Engulfs Asia Causing Deaths and Forcing Schools to Close",
+   "outlet": "The Guardian",
+   "year": 2023,
+   "date": "2023",
+   "precision": "year",
+   "places": [
+    "India",
+    "Asia"
+   ],
+   "angle": "Public health, schools",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b25",
+   "url": "https://www.straitstimes.com/singapore/it-s-getting-hot-in-singapore-but-how-hot",
+   "title": "It's Getting Hot in Singapore. But How Hot?",
+   "outlet": "The Straits Times",
+   "year": 2023,
+   "date": "2023",
+   "precision": "year",
+   "places": [
+    "Singapore"
+   ],
+   "angle": "Urban heat; historical trends",
+   "link_type": "Original reporting",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b66",
+   "url": "https://www.washingtonpost.com/world/2023/08/31/extreme-heat-indoor-work-asia/",
+   "title": "Amid Record Heat, Even Indoor Factory Workers Enter Dangerous Terrain",
+   "outlet": "The Washington Post",
+   "year": 2023,
+   "date": "2023",
+   "precision": "year",
+   "places": [
+    "Thailand",
+    "Southeast Asia"
+   ],
+   "angle": "Manufacturing and indoor heat",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b67",
+   "url": "https://www.washingtonpost.com/climate-environment/interactive/2023/india-deadly-extreme-heat-poverty/",
+   "title": "The Inequality of Heat",
+   "outlet": "The Washington Post",
+   "year": 2023,
+   "date": "2023",
+   "precision": "year",
+   "places": [
+    "India"
+   ],
+   "angle": "Heat inequality and urban poverty",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b09",
+   "url": "https://www.ndtv.com/opinion/indias-heatwaves-are-testing-the-limits-of-human-survival-2943822",
+   "title": "India's Heatwaves Are Testing the Limits of Human Survival",
+   "outlet": "NDTV / Bloomberg Opinion",
+   "year": 2022,
+   "date": "2022",
+   "precision": "year",
+   "places": [
+    "India",
+    "South Asia"
+   ],
+   "angle": "Wet-bulb heat; human survival",
+   "link_type": "Bloomberg Opinion, syndicated",
+   "format": "opinion",
+   "format_basis": "the collection's link type",
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b10",
+   "url": "https://www.ndtvprofit.com/business/the-climate-is-growing-hot-enough-to-kill-as-humid-heatwaves-intensify-10098465",
+   "title": "When the Weather Gets Hot Enough to Kill",
+   "outlet": "NDTV Profit / Bloomberg Opinion",
+   "year": 2022,
+   "date": "2022",
+   "precision": "year",
+   "places": [
+    "South Asia",
+    "Global"
+   ],
+   "angle": "Humid heat; physiological limits",
+   "link_type": "Bloomberg Opinion, syndicated",
+   "format": "opinion",
+   "format_basis": "the collection's link type",
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b68",
+   "url": "https://www.theguardian.com/world/2022/may/21/india-wheat-farmers-40c-heat-food-security",
+   "title": "India's Wheat Farmers Count Cost of 40C Heat",
+   "outlet": "The Guardian",
+   "year": 2022,
+   "date": "2022",
+   "precision": "year",
+   "places": [
+    "India"
+   ],
+   "angle": "Food security, agriculture",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b26",
+   "url": "https://www.straitstimes.com/asia/east-asia/east-asia-faces-increase-in-heatwaves-urgent-need-to-adapt-study-finds",
+   "title": "East Asia Faces Increase in Heatwaves, Urgent Need to Adapt, Study Finds",
+   "outlet": "The Straits Times",
+   "year": 2022,
+   "date": "2022",
+   "precision": "year",
+   "places": [
+    "East Asia"
+   ],
+   "angle": "Dry and humid heat; adaptation",
+   "link_type": "Original reporting",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b69",
+   "url": "https://www.washingtonpost.com/world/2022/05/09/india-heat-wave-climate-change/",
+   "title": "India Tries to Adapt to Extreme Heat but Is Paying a Heavy Price",
+   "outlet": "The Washington Post",
+   "year": 2022,
+   "date": "2022",
+   "precision": "year",
+   "places": [
+    "India"
+   ],
+   "angle": "Adaptation policy and economy",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b70",
+   "url": "https://www.washingtonpost.com/world/interactive/2022/india-extreme-heat-climate-change/",
+   "title": "What It's Like to Toil in India's Dangerous, Unrelenting Heat",
+   "outlet": "The Washington Post",
+   "year": 2022,
+   "date": "2022",
+   "precision": "year",
+   "places": [
+    "India"
+   ],
+   "angle": "Occupational heat, worker exposure",
+   "link_type": "Original",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  },
+  {
+   "id": "b27",
+   "url": "https://www.straitstimes.com/world/too-hot-to-handle-heatwaves-cause-death-and-destruction-in-northern-hemisphere",
+   "title": "Too Hot to Handle: Heatwaves Cause Death and Destruction in Northern Hemisphere",
+   "outlet": "The Straits Times",
+   "year": 2018,
+   "date": "2018",
+   "precision": "year",
+   "places": [
+    "East Asia",
+    "Global"
+   ],
+   "angle": "Heatwave impacts",
+   "link_type": "Original reporting",
+   "format": null,
+   "format_basis": null,
+   "language": "en",
+   "language_basis": "the listed headline",
+   "aliases": [],
+   "collections": [
+    "collection"
+   ],
+   "depth": "listing",
+   "title_en": null,
+   "translation": "not-needed",
+   "original_outlet": null,
+   "summary": null,
+   "loops": [],
+   "organised": null,
+   "followup": null,
+   "voice": null,
+   "budget": null,
+   "pops": {
+    "workers": null,
+    "women": null,
+    "children": null
+   },
+   "outlet_type": null,
+   "syndication": null,
+   "checked": null,
+   "exemplar": false,
+   "trail": null
+  }
+ ]
+}
