@@ -1,6 +1,9 @@
 {
  "about": "The public corrections log. Newest first. Each entry says what was wrong, what changed and where, in plain words, with an apology where one is owed. Entries are never removed. The monthly update adds an entry for any knowledge-base record that carries a 'correction' note.",
  "entries": [
+  { "date": "2026-11-16", "where": ["Privacy and terms"], "what": "The privacy page listed the outside services the site asks, and said nothing else was sent anywhere. It left out one: Heat in the news asks Europe PMC, an open archive of research papers, for recent papers on heat in Asia.",
+    "change": "The page now describes that request. The search is set by the page, so nothing a visitor types is sent; Europe PMC sees the request, as any website does, and the answer is kept in the browser for six hours.",
+    "sorry": "We are sorry. A privacy page has to be complete to be trusted, and this one was not." },
   { "date": "2026-11-16", "where": ["State of the field, October 2026"], "what": "The October 2026 edition listed Bangladesh's first urban heatwave action plan, for Narayanganj, among the month's new records without its date, so it read as an October development.",
     "change": "The plan records its approval on 22 September 2025; October 2026 is when Bangladesh's heat and health assessment reported it. The edition now gives both dates, and keeps its first text below the revision log. The Atlas now dates the plan to 22 September 2025, reported October 2026.",
     "sorry": "We are sorry. A reader planning around this could have taken an older plan for a new one." },
