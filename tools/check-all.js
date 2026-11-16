@@ -18,6 +18,9 @@ const fs = require("fs"), path = require("path"), http = require("http"), { spaw
 const { CHECKS, EXCLUDED } = require("./checks.js");
 const ROOT = path.join(__dirname, ".."), PORT = 8765, a = process.argv.slice(2), has = f => a.includes(f);
 const val = f => { const i = a.indexOf(f); return i > -1 ? a[i + 1] : null; };
+// on GitHub Actions: each check in its own folded log group, failures and notes as annotations, a table in the run summary
+const GH = !!process.env.GITHUB_ACTIONS, gh = s => { if (GH) console.log(s); };
+const ghText = s => String(s).replace(/%/g, "%25").replace(/\r/g, "%0D").replace(/\n/g, "%0A");
 
 if (has("--list")) {
   for (const c of CHECKS) console.log(`${c.name.padEnd(16)} ${c.cmd}${c.server ? "  [needs server]" : ""}${c.slow ? "  [slow]" : ""}\n${" ".repeat(17)}${c.guards}`);
@@ -65,7 +68,7 @@ process.on("SIGINT", () => { stop(); process.exit(130); });
     }
     for (const c of run) {
       const s = Date.now();
-      process.stdout.write(`${c.name.padEnd(16)} `);
+      if (GH) gh(`::group::${c.name}: ${c.cmd}`); else process.stdout.write(`${c.name.padEnd(16)} `);
       const p = spawnSync(c.cmd, { cwd: ROOT, shell: true, encoding: "utf8", maxBuffer: 256 * 1024 * 1024, env: Object.assign({}, process.env, { FORCE_COLOR: "0" }) });
       const out = ((p.stdout || "") + (p.stderr || "")).trim(), lines = out.split("\n").filter(l => l.trim()), last = (lines[lines.length - 1] || "").trim();
       let state = p.status === 0 ? "pass" : "fail";
@@ -73,7 +76,11 @@ process.on("SIGINT", () => { stop(); process.exit(130); });
       if (state !== "fail" && c.tracked && untracked.length) state = "incomplete";
       const secs = ((Date.now() - s) / 1000).toFixed(1);
       results.push({ c, state, last, lines, secs });
-      console.log(`${state.padEnd(16)} ${secs.padStart(6)}s  ${last.slice(0, 110)}`);
+      if (GH) { console.log(out); gh("::endgroup::"); console.log(`${c.name.padEnd(16)} ${state.padEnd(16)} ${secs.padStart(6)}s  ${last.slice(0, 110)}`); }
+      else console.log(`${state.padEnd(16)} ${secs.padStart(6)}s  ${last.slice(0, 110)}`);
+      if (state === "fail") gh(`::error title=${c.name} failed::${ghText(lines.slice(-6).join("\n"))}%0ARerun: ${c.cmd}`);
+      if (state === "pass with notes") gh(`::warning title=${c.name} passed with notes::${ghText(lines.filter(l => /^\s*(note|warn|warning)\b|\bBLOCKED\b/i.test(l)).slice(0, 5).join("\n"))}`);
+      if (state === "incomplete") gh(`::error title=${c.name} incomplete::untracked pages were skipped`);
       if (state === "fail" && has("--bail")) break;
     }
     // the summary
@@ -82,6 +89,7 @@ process.on("SIGINT", () => { stop(); process.exit(130); });
     if (inc.length) console.log(`\n--- site: incomplete. ${untracked.length} untracked page${untracked.length > 1 ? "s" : ""} would be skipped (${untracked.slice(0, 5).join(", ")}${untracked.length > 5 ? ", ..." : ""}). Stage them (git add -A, or --stage), then run the site check again.`);
     const counts = ["pass", "pass with notes", "fail", "incomplete"].map(s => [s, results.filter(r => r.state === s).length]).filter(([, n]) => n).map(([s, n]) => `${n} ${s}`).join(", ");
     console.log(`\ncheck-all: ${counts}${skipped.length ? `, ${skipped.length} skipped (${skipped.map(c => c.name).join(", ")})` : ""} in ${((Date.now() - t0) / 1000).toFixed(0)}s.${partial || skipped.length ? " A partial run, not a full pass." : ""}`);
+    if (GH && process.env.GITHUB_STEP_SUMMARY) fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `### Checks${partial ? " (a partial run: " + (has("--fast") ? "the browser checks run locally" : "selected checks") + ")" : ""}\n\n| Check | Result | Time | Last line |\n|---|---|---|---|\n${results.map(r => `| ${r.c.name} | ${r.state} | ${r.secs}s | ${r.last.replace(/\|/g, "/").slice(0, 120)} |`).join("\n")}\n`);
     if (has("--build")) { const st = execFileSync("git", ["status", "--short"], { cwd: ROOT }).toString().split("\n").filter(Boolean); if (st.length) console.log(`The build left ${st.length} changed file${st.length > 1 ? "s" : ""} (git status --short).`); }
     process.exitCode = fails.length || inc.length ? 1 : 0;
   } finally { stop(); }
