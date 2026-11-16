@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T06:49:54.677Z",
+ "updated": "2026-11-16T22:20:53.284Z",
  "days": 120,
  "source": "Europe PMC",
  "items": [
@@ -102,6 +102,16 @@
    "preprint": false,
    "url": "https://doi.org/10.1007/s13353-026-01126-y",
    "firstAuthor": "Iqbal S"
+  },
+  {
+   "title": "Fractional restoration of heat stress induced mitochondrial dysfunction in thermotolerant HepG2 cells.",
+   "journal": "Current research in physiology",
+   "date": "2026-10-28",
+   "doi": "10.1016/j.crphys.2026.100193",
+   "pmid": "43036716",
+   "preprint": false,
+   "url": "https://doi.org/10.1016/j.crphys.2026.100193",
+   "firstAuthor": "Gupta A"
   },
   {
    "title": "Ambient temperature and non-communicable disease presentations and mortality in a Pakistani ED.",
@@ -592,16 +602,6 @@
    "preprint": false,
    "url": "https://doi.org/10.1016/j.jsams.2026.09.007",
    "firstAuthor": "Li H"
-  },
-  {
-   "title": "Application of Gelatin/Chitosan Films Loaded with Seaweed Extract of Ready-to-Eat Sea Cucumbers Preservation During Ambient-Temperature Storage.",
-   "journal": "Foods (Basel, Switzerland)",
-   "date": "2026-09-14",
-   "doi": "10.3390/foods15183246",
-   "pmid": "42794031",
-   "preprint": false,
-   "url": "https://doi.org/10.3390/foods15183246",
-   "firstAuthor": "Zhou Y"
   }
  ]
 }
