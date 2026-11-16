@@ -5,7 +5,7 @@ updated: 2026-11-16
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 59 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 60 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-59 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,113 works the commons draws on carry a publication date, and 808 are still being dated.
+60 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,114 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -162,6 +162,42 @@ A watch-out on plans sized to the worst heatwave in memory.
 [Heat action plans](https://beattheheat.asia/actions/#hap)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Heat%20plans%20and%20the%20heatwave%20longer%20than%20any%20on%20record&ref=g-future-heatwaves#way-share)
+
+Evidence added · Evidence
+
+### Humid heat in Southeast Asia, beside the longer heatwaves
+
+Added 16 November 2026 · Scientific Reports, 2025: widespread heat stress will become the norm in a warming Southeast Asia 2025
+
+Why it matters our readingA 2025 study measuring humid heat stress across Southeast Asia, checked against its open full text, projects that far more people could face a week or more of extreme humid heat, with 6 to 9 hours of severe heat stress a day in Myanmar, Thailand and Cambodia in peak months. It sits beside the study of longer heatwaves, which covers daily maximum temperature in India and Pakistan only.
+
+- South and Southeast Asia
+- Workers in heat-exposed jobs
+- Heat action plans
+
+ReviewThree claims, each found word for word in the Europe PMC full text; a second candidate study had no open record and was not used. 2 checked · 2 confirmed · 1 not confirmed, each recorded.
+
+What it took to add this
+
+- **The question.** Does humid heat in Southeast Asia make heat last longer for the body than temperature alone shows?
+- **The search.** 2 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 2 confirmed, and 1 could not be (1 did not show the expected text).
+- **What we set aside.** 0 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+
+- **What is still open.** Whether heat plans in Southeast Asia trigger on humid heat measures, and how long the longest humid heatwaves could last.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-sea-humid-heat/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/sea-humid-heat/dropped-after-check.json)
+
+How it connects
+
+- [Heat action plans](https://beattheheat.asia/actions/#hap) Action · from the site's records
+A second watch-out, on humid heat in Southeast Asia.
+
+[See the open question](https://beattheheat.asia/evidence-map/#q-longer-heat)
+[Heat action plans](https://beattheheat.asia/actions/#hap)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Humid%20heat%20in%20Southeast%20Asia%2C%20beside%20the%20longer%20heatwaves&ref=g-sea-humid-heat#way-share)
 
 Evidence added · Practical measures
 
@@ -1891,25 +1927,25 @@ Steps toward protection this year: [Nepal adopts a national plan of action on he
 
 - 2025
 
-209 works published, 122 of them with a known month; 875 in all by the end of the year. 24 of the verified Indian heat action plans carry this year.
+210 works published, 122 of them with a known month; 876 in all by the end of the year. 24 of the verified Indian heat action plans carry this year.
 
 Steps toward protection this year: [Delhi launches its 2025 Heat Action Plan](https://beattheheat.asia/atlas/); [Bangladesh’s first urban heatwave action plan, for Narayanganj](https://beattheheat.asia/atlas/).
 
 - Evidence334
 - Experience69
-- Practical measures181
+- Practical measures182
 - Institutions and plans119
 - Financing172
 
 - 2026 so far
 
-238 works published, 139 of them with a known month; 1,113 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
+238 works published, 139 of them with a known month; 1,114 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
 
 Steps toward protection this year: [Bangkok opens 304 cooling centres](https://beattheheat.asia/atlas/); [The first Global Heat Forum, in Bangkok](https://beattheheat.asia/atlas/).
 
 - Evidence404
 - Experience98
-- Practical measures244
+- Practical measures245
 - Institutions and plans138
 - Financing229
 

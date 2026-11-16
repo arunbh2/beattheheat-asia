@@ -1,0 +1,30 @@
+{
+ "_terms": {
+  "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41598-025-28817-6&resultType=core&format=json": {
+   "pmcid": true,
+   "Southeast Asia": true,
+   "heat stress": true,
+   "UTCI": true,
+   "hours": true
+  },
+  "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1029/2021EF001992&resultType=core&format=json": {
+   "pmcid": false,
+   "Southeast Asia": false,
+   "heatwave": false,
+   "duration": false
+  },
+  "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12756238/fullTextXML": {
+   "Widespread heat stress will become the norm in a warming Southeast Asia": true,
+   "at least one consecutive week of extreme UTCI": true,
+   "extreme WBGT exposure increases from 0.1 million to 7–17 million": true,
+   "Continental Southeast Asia, including Myanmar, Thailand, and Cambodia": true,
+   "with 6–9 hours of severe heat stress per day during peak months": true,
+   "Wet-Bulb Globe Temperature (WBGT)": true,
+   "under low- and high-emissions scenarios": true,
+   "3-hourly temporal resolution": true
+  }
+ },
+ "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41598-025-28817-6&resultType=core&format=json": "OK",
+ "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1029/2021EF001992&resultType=core&format=json": "OK",
+ "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12756238/fullTextXML": "OK"
+}

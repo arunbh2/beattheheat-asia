@@ -806,6 +806,17 @@
                   "open": "Humid heat, nights and Southeast Asia, which the study does not cover." },
       "pages": [["/actions/#hap", "Heat action plans"], ["/evidence-map/#q-longer-heat", "The open question"]], "action": ["See the open question", "/evidence-map/#q-longer-heat"],
       "links": [{ "to": "lever:hap", "why": "A watch-out on plans sized to the worst heatwave in memory.", "basis": "record" }]
+    },
+    { "id": "g-sea-humid-heat", "kind": "evidence", "root": "evidence", "added": "2026-11-16", "pr": null,
+      "title": "Humid heat in Southeast Asia, beside the longer heatwaves",
+      "why": "A 2025 study measuring humid heat stress across Southeast Asia, checked against its open full text, projects that far more people could face a week or more of extreme humid heat, with 6 to 9 hours of severe heat stress a day in Myanmar, Thailand and Cambodia in peak months. It sits beside the study of longer heatwaves, which covers daily maximum temperature in India and Pakistan only.",
+      "places": ["region"], "people": ["workers"], "topics": ["hap"],
+      "event": { "what": "Scientific Reports, 2025: widespread heat stress will become the norm in a warming Southeast Asia", "date": "2025" },
+      "review": "Three claims, each found word for word in the Europe PMC full text; a second candidate study had no open record and was not used",
+      "effort": { "asked": "Does humid heat in Southeast Asia make heat last longer for the body than temperature alone shows?", "inbox": "data/inbox/2026-11-sea-humid-heat", "dropped": "research/2026-11/sea-humid-heat/dropped-after-check.json",
+                  "open": "Whether heat plans in Southeast Asia trigger on humid heat measures, and how long the longest humid heatwaves could last." },
+      "pages": [["/actions/#hap", "Heat action plans"], ["/evidence-map/#q-longer-heat", "The open question"]], "action": ["See the open question", "/evidence-map/#q-longer-heat"],
+      "links": [{ "to": "lever:hap", "why": "A second watch-out, on humid heat in Southeast Asia.", "basis": "record" }]
     }
   ]
 }

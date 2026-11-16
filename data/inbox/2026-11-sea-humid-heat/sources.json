@@ -1,0 +1,64 @@
+[
+ {
+  "id": "src-sh-sr-epmc",
+  "type": "source",
+  "keys": [
+   "sr-epmc"
+  ],
+  "title": "Widespread heat stress will become the norm in a warming Southeast Asia (Europe PMC record)",
+  "publisher": "Europe PMC (Scientific Reports, 2025)",
+  "year": 2025,
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41598-025-28817-6&resultType=core&format=json",
+  "kind": "Abstract record",
+  "where": "Southeast Asia",
+  "expect": [
+   "pmcid",
+   "Southeast Asia",
+   "heat stress",
+   "at least one consecutive week of extreme UTCI",
+   "extreme WBGT exposure increases from 0.1 million to 7–17 million",
+   "Continental Southeast Asia, including Myanmar, Thailand, and Cambodia",
+   "with 6–9 hours of severe heat stress per day during peak months",
+   "Wet-Bulb Globe Temperature (WBGT)",
+   "under low- and high-emissions scenarios",
+   "3-hourly temporal resolution"
+  ],
+  "claims": [
+   "c-week",
+   "c-hours",
+   "c-method"
+  ],
+  "archive": "https://web.archive.org/web/20261116131036/https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038%2Fs41598-025-28817-6&resultType=core&format=json",
+  "note": "Staged from the Southeast Asia humid heat study batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+ },
+ {
+  "id": "src-sh-sr-ft",
+  "type": "source",
+  "keys": [
+   "sr-ft"
+  ],
+  "title": "Widespread heat stress will become the norm in a warming Southeast Asia (Europe PMC full text, PMC12756238)",
+  "publisher": "Europe PMC (Scientific Reports)",
+  "year": 2025,
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12756238/fullTextXML",
+  "kind": "Peer-reviewed modelling study (open-access full text)",
+  "where": "Southeast Asia",
+  "expect": [
+   "Widespread heat stress will become the norm in a warming Southeast Asia",
+   "at least one consecutive week of extreme UTCI",
+   "extreme WBGT exposure increases from 0.1 million to 7–17 million",
+   "Continental Southeast Asia, including Myanmar, Thailand, and Cambodia",
+   "with 6–9 hours of severe heat stress per day during peak months",
+   "Wet-Bulb Globe Temperature (WBGT)",
+   "under low- and high-emissions scenarios",
+   "3-hourly temporal resolution"
+  ],
+  "claims": [
+   "c-week",
+   "c-hours",
+   "c-method"
+  ],
+  "note": "Staged from the Southeast Asia humid heat study batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261116131345/https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12756238/fullTextXML"
+ }
+]
