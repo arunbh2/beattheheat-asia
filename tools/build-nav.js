@@ -17,7 +17,7 @@ const TICKER = `<div class="ticker" id="cs-ticker" role="region" aria-label="Liv
   <button type="button" class="ticker__pause" id="cs-ticker-pause" aria-pressed="false">Pause</button>
 </div>
 `;
-const NOSCRIPT = `<noscript><style>.csn__gb,.csn__tools{display:none!important}.csn__gl{display:inline-flex;align-items:center;height:40px;padding:0 14px;font-weight:700}@media (max-width:960px){.csn__main{display:block!important}}</style></noscript>`;
+const NOSCRIPT = `<noscript><style>.csn__gb,.csn__tools{display:none!important}.csn__gl{display:inline-flex;align-items:center;height:40px;padding:0 14px;font-weight:700}@media (max-width:960px){.csn__main{display:block!important;flex:1 0 100%;height:auto}.csn__groups{flex-wrap:wrap;height:auto}.csn__groups>li{height:auto}}</style></noscript>`;
 const UPDATED = new Date().toLocaleDateString("en-GB", { month: "long", year: "numeric" });
 const SKIP = new Set(["node_modules", ".git", "research", "tools", "docs", "images", "media", "feeds"]);
 
