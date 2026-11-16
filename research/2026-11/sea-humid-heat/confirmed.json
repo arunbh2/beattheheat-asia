@@ -1,0 +1,35 @@
+[
+ {
+  "id": "c-week",
+  "where": "Lever hap watch; learning agenda q-longer-heat",
+  "text": "Across Southeast Asia, people exposed to at least a week in a row of extreme humid heat stress (WBGT) could rise from 0.1 million to 7 to 17 million under low- and high-emissions scenarios.",
+  "sources": [
+   {
+    "label": "Europe PMC (Scientific Reports, 2025): Widespread heat stress will become the norm in a warming Southeast Asia (Europe PMC record), 2025",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41598-025-28817-6&resultType=core&format=json"
+   }
+  ]
+ },
+ {
+  "id": "c-hours",
+  "where": "Lever hap watch",
+  "text": "Continental Southeast Asia, including Myanmar, Thailand and Cambodia, faces 6 to 9 hours of severe heat stress a day in peak months.",
+  "sources": [
+   {
+    "label": "Europe PMC (Scientific Reports, 2025): Widespread heat stress will become the norm in a warming Southeast Asia (Europe PMC record), 2025",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41598-025-28817-6&resultType=core&format=json"
+   }
+  ]
+ },
+ {
+  "id": "c-method",
+  "where": "Lever hap watch (how the study measures)",
+  "text": "The study projects humid heat stress with WBGT and UTCI at 3-hourly resolution, under low- and high-emissions scenarios.",
+  "sources": [
+   {
+    "label": "Europe PMC (Scientific Reports, 2025): Widespread heat stress will become the norm in a warming Southeast Asia (Europe PMC record), 2025",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41598-025-28817-6&resultType=core&format=json"
+   }
+  ]
+ }
+]

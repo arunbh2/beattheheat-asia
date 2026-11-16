@@ -216,7 +216,7 @@
   { "id": "q-longer-heat", "loop": "reactive", "status": "open",
     "history": [{ "date": "2026-11-16", "status": "open", "note": "Opened on the learning agenda" }],
     "q": "Can heat plans, budgets and cooling spaces keep running through a heatwave longer than any on record?",
-    "have": "A 2026 modelling study projects that some future heatwaves in India and Pakistan could outlast the 2019 heatwave, the region’s reference event, even with low emissions.",
+    "have": "A 2026 modelling study projects that some future heatwaves in India and Pakistan could outlast the 2019 heatwave, the region’s reference event, even with low emissions. A 2025 study projects that far more people in Southeast Asia could face a week or more of extreme humid heat stress.",
     "could": "Test one city’s plan, budget and staffing against a heatwave twice as long as its worst on record, with each department that would run it.", "scale": "Illustrative: one city, a two-day exercise with each lead department" }
  ]
 }

@@ -1076,7 +1076,7 @@ Opened 7 November 2026. [How the commons is growing](https://beattheheat.asia/gr
 
 Opened 16 November 2026. [How the commons is growing](https://beattheheat.asia/growing/)
 
-**What we have**: A 2026 modelling study projects that some future heatwaves in India and Pakistan could outlast the 2019 heatwave, the region’s reference event, even with low emissions. [The studies](#ev-reactive)
+**What we have**: A 2026 modelling study projects that some future heatwaves in India and Pakistan could outlast the 2019 heatwave, the region’s reference event, even with low emissions. A 2025 study projects that far more people in Southeast Asia could face a week or more of extreme humid heat stress. [The studies](#ev-reactive)
 
 **What could answer it (our suggestion)**: Test one city’s plan, budget and staffing against a heatwave twice as long as its worst on record, with each department that would run it.
 

@@ -29,7 +29,7 @@ STUDIES BEHIND IT
 - Hess et al., Journal of Environmental and Public Health, 2018: Pilot evaluation of the impact of India’s first heat action plan on all-cause mortality. After Ahmedabad’s heat action plan prepared hospitals and warned the public, an estimated 1,190 deaths a year were avoided. Where: Ahmedabad, India. Limit it states: A pilot evaluation; other changes over the same years could explain part of the drop. [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6236972/]
 
 ACTIONS THAT COULD INTERRUPT IT
-- Heat action plans: Early warnings, public cooling spaces and outreach to the people most at risk prevent illness before it reaches hospital. Watch for: Plans are often sized to the worst heatwave in memory. A 2026 modelling study found that even with low emissions, 6 to 11% of future heatwaves in India and Pakistan, Europe and North Africa could outlast each region’s recent record heatwave; with high emissions, close to 1 in 5 in India and Pakistan. [https://www.nature.com/articles/s41467-026-76809-5]
+- Heat action plans: Early warnings, public cooling spaces and outreach to the people most at risk prevent illness before it reaches hospital. Watch for: Plans are often sized to the worst heatwave in memory. A 2026 modelling study found that even with low emissions, 6 to 11% of future heatwaves in India and Pakistan, Europe and North Africa could outlast each region’s recent record heatwave; with high emissions, close to 1 in 5 in India and Pakistan. [https://www.nature.com/articles/s41467-026-76809-5] Watch for: Humid heat is a separate test. A 2025 study using WBGT and UTCI projects that people in Southeast Asia exposed to at least a week in a row of extreme WBGT could rise from 0.1 million to 7 to 17 million, and that Myanmar, Thailand and Cambodia face 6 to 9 hours of severe heat stress a day in peak months. [https://doi.org/10.1038/s41598-025-28817-6]
 - Heat-ready health services: Cooling, backup power, surge plans and trained frontline workers keep clinics working through heatwaves.
 
 SOURCES
@@ -41,3 +41,4 @@ SOURCES
 - Lancet Countdown, The Lancet, 2024: The 2024 report of the Lancet Countdown on health and climate change: https://doi.org/10.1016/S0140-6736(24)01822-1
 - Hess et al., Journal of Environmental and Public Health, 2018: Pilot evaluation of the impact of India’s first heat action plan on all-cause mortality: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6236972/
 - Aglas-Leitner et al., Nature Communications, 2026: recent extreme heatwaves are no match for future events: https://www.nature.com/articles/s41467-026-76809-5
+- Scientific Reports, 2025: widespread heat stress will become the norm in a warming Southeast Asia (open access; Europe PMC PMC12756238): https://doi.org/10.1038/s41598-025-28817-6

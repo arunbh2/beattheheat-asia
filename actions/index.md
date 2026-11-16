@@ -233,6 +233,10 @@ Sources: [Red Cross Red Crescent Climate Centre: Dhangadhi Heat Action Plan 2025
 
 Sources: [Aglas-Leitner et al., Nature Communications, 2026: recent extreme heatwaves are no match for future events](https://www.nature.com/articles/s41467-026-76809-5)
 
+**Watch for:** Humid heat is a separate test. A 2025 study using WBGT and UTCI projects that people in Southeast Asia exposed to at least a week in a row of extreme WBGT could rise from 0.1 million to 7 to 17 million, and that Myanmar, Thailand and Cambodia face 6 to 9 hours of severe heat stress a day in peak months.
+
+Sources: [Scientific Reports, 2025: widespread heat stress will become the norm in a warming Southeast Asia (open access; Europe PMC PMC12756238)](https://doi.org/10.1038/s41598-025-28817-6)
+
 ### Practical guides
 
 - [Extreme Heat Risk Governance Framework and Toolkit: a self-assessment of how ready institutions are, and how to plan, act and learn](https://heathealth.info/resources/heat-gov-framework/) GHHIN, UNDRR and WMO, 2025 (first edition)
