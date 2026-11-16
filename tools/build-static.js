@@ -516,7 +516,7 @@ const SNAP_SLUG = { Bangladesh: "bangladesh", India: "india", Indonesia: "indone
 {
   const p = PAGES[11], F = D.FINANCE, intro = F.intro;
   const src = x => ext(x.url, x.label);
-  let h = `<h2>What needs paying for, and when is the money needed?</h2><table><thead><tr><th>Need</th><th>Route to look into</th><th>The question to answer</th></tr></thead><tbody>${F.needs.map(n => `<tr><td>${esc(n.need)}</td><td>${esc(n.route)}</td><td>${esc(n.ask)}</td></tr>`).join("")}</tbody></table><p class="meta">${esc(F.needsNote)}</p>
+  let h = `<h2>What needs paying for, and when is the money needed?</h2><div role="region" aria-label="What needs paying for, the route to look into and the question to answer" tabindex="0" style="overflow-x:auto;max-width:100%"><table><thead><tr><th>Need</th><th>Route to look into</th><th>The question to answer</th></tr></thead><tbody>${F.needs.map(n => `<tr><td>${esc(n.need)}</td><td>${esc(n.route)}</td><td>${esc(n.ask)}</td></tr>`).join("")}</tbody></table></div><p class="meta">${esc(F.needsNote)}</p>
     <h2>Three triggers, not one</h2><ul>${F.triggers.map(t => `<li><strong>${esc(t.name)}:</strong> ${esc(t.does)} ${esc(t.who)}.</li>`).join("")}</ul><p>${esc(F.triggersNote)}</p>
     <h2>${esc(F.basis.q)}</h2><ul>${F.basis.kinds.map(k => `<li><strong>${esc(k.name)}.</strong> ${esc(k.text)}</li>`).join("")}</ul><p><strong>${esc(F.basis.ask)}</strong> ${esc(F.basis.note)} ${src(F.basis.source)}</p>
     <h2>From trigger to protection</h2><ol>${F.pathway.steps.map(x => `<li>${esc(x)}</li>`).join("")}</ol><p>${esc(F.pathway.note)} ${src(F.pathway.source)}</p>

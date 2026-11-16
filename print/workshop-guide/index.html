@@ -218,7 +218,7 @@ footer p + p { margin-top: 2px; } footer b { color: #16202B; }
 .csf__cite [data-csn-cite]{overflow-wrap:anywhere}
 /* reflow at large text, on every page: a single long word (a title in the display face, a web address, a figure with its unit)
    wraps only when it does not fit a line, so nothing changes at normal sizes; headings may hyphenate */
-body{overflow-wrap:break-word}h1,h2,h3,h4,.pg-h1{overflow-wrap:anywhere;hyphens:auto}a,td,th,li,dd,figcaption,.chip{overflow-wrap:anywhere}
+body{overflow-wrap:break-word}h1,h2,h3,h4,.pg-h1{overflow-wrap:anywhere;hyphens:auto}a,li,dd,figcaption,.chip{overflow-wrap:anywhere}select,input,textarea{max-width:100%}td,th,td a,th a{overflow-wrap:break-word}
 html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{touch-action:manipulation}button,[role=button]{-webkit-user-select:none;user-select:none}
 @media (pointer:coarse){input:not([type=checkbox]):not([type=radio]):not([type=range]),select,textarea{font-size:16px!important}}
 @media (prefers-reduced-motion:reduce){.csn__panel,.csn__sheet,.csn-d[open]{animation:none}.csn__in,.csn__chev{transition:none}}
@@ -526,7 +526,7 @@ $$("[data-check]").forEach(function(box){var key=box.getAttribute("data-check"),
     if(form)window.open(form,"_blank","noopener");remember({a:"no",d:today});done(thanksNo)})})}});
 /* copy the citation */
 $$("[data-csn-copy]").forEach(function(b){b.addEventListener("click",function(){var t=$("[data-csn-cite]").textContent;(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){b.textContent="Copied"},function(){b.textContent="Select and copy"})})});
-})();</script><script src="/ticker.js?v=229" defer></script><script>addEventListener("load",function(){setTimeout(function(){["/join.js?v=229","/everything.js?v=229"].forEach(function(s){var e=document.createElement("script");e.src=s;document.body.appendChild(e)})},2500)})</script><!--/csn-->
+})();</script><script src="/ticker.js?v=230" defer></script><script>addEventListener("load",function(){setTimeout(function(){["/join.js?v=230","/everything.js?v=230"].forEach(function(s){var e=document.createElement("script");e.src=s;document.body.appendChild(e)})},2500)})</script><!--/csn-->
 <footer>
     <div>
       <p><b>Common Shade</b> · A living map of extreme heat in South and Southeast Asia, updated as the evidence grows. Live page: beattheheat.asia/guide</p>
