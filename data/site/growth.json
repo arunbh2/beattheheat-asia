@@ -835,6 +835,17 @@
       "review": "Every path through the rules was walked: none reaches every break without someone losing money. A solo game and a shared-device game were played in a browser, with keyboard-only play, a narrow phone at 200% text and reduced motion checked",
       "pages": [["/heat-assembly/", "The Heat Assembly"], ["/live-through-a-heatwave/", "Live through a heatwave"]], "action": ["Play the game", "/heat-assembly/"],
       "links": [{ "to": "lever:heatrules", "why": "A break that costs a paid turn is the game's opening problem.", "basis": "record" }]
+    },
+    { "id": "g-ph-labor-advisories-reports", "kind": "evidence", "root": "institutions", "added": "2026-11-16", "pr": null,
+      "title": "The Philippines' heat advisories: two more checked reports, and the open question named",
+      "why": "Two news reports, checked word for word, add detail to the Philippines' October 2026 labour advisories on heat: duties that step up with the same four heat index levels the site already shows, and compensation for heat stroke, cramps and exhaustion, with other heat illnesses that may also qualify where the link to work is shown. The advisory texts themselves were not read, because the department's pages turn away automated checks, so the record still says so.",
+      "places": ["philippines"], "people": ["workers"], "topics": ["heatrules"],
+      "event": { "what": "Labor Advisories No. 19 and No. 20, series of 2026", "date": "2026-10" },
+      "review": "Seven sources staged; two news reports opened with every term found; the department's own pages and one other report were blocked, and are listed as not read",
+      "effort": { "asked": "Can the Philippines' heat advisories be checked against their own texts?", "inbox": "data/inbox/2026-11-ph-labor-advisories",
+                  "open": "The advisory texts: whether further illnesses are compensable now or under review, and whether the 2026 advisory replaces the 2023 one." },
+      "pages": [["/signals/", "Signals"], ["/plan/", "Plan a response"]], "action": ["See the record on Signals", "/signals/"],
+      "links": [{ "to": "lever:heatrules", "why": "Employers' duties tied to public heat index levels.", "basis": "record" }]
     }
   ]
 }

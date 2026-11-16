@@ -20,8 +20,19 @@ News reports differ. Some say five further conditions (heat syncope, heat rash, 
 - Two explainer sites found by search: leads only; their claims conflict with each other.
 - PAGASA's heat index page: staged only once its exact URL is in hand.
 
+## Results of pass 1 (16 November 2026)
+- **Blocked:** the Department's issuances list, its press release, the government news agency's report and one newspaper returned 403 to GitHub's checker, as to this session (a bot check), and their archived copies held none of the terms.
+- **Opened, all terms found:** NewsWatch Plus on Labor Advisory No. 20 ("heat index", "flexible work", "52") and SunStar Cebu on Labor Advisory No. 19 ("rhabdomyolysis", "syncope", "Employees' Compensation"). The HR association's circular opened, but its text holds only the advisory's title ("Series of 2023" and "repeal" not found).
+- **What they settle:**
+  - The four heat index bands reported for the advisory (27-32, 33-41, 42-51, 52 and above) match the levels already on the site (`PLAN_TRIGGER_BASES` `index`). No correction is needed.
+  - On Labor Advisory No. 19, the checked report says heat stroke, heat cramps and heat exhaustion remain compensable, and other heat-related illnesses "may also qualify" where the link to work is shown. The site uses that wording, as reported, and keeps "reports differ" as an unknown until the advisory text is read.
+- **Applied:**
+  - the two checked reports as secondary evidence on the Signals record's existing milestones (states derived: reported by secondary sources)
+  - updated unknowns on the record
+  - one sentence in `PLAN_TRIGGER_BASES` `index` tying employers' duties to the same levels, as reported
+
 ## Decisions (16 November 2026, recommended by the advisory review and taken by Claude for the owner's approval)
-1. **Official links.** Claude names the pages and GitHub's source check reads them. DOLE's sites turn away automated requests (a bot check), so the two advisory PDF links come from the owner, copied from the Bureau of Working Conditions' issuances page in a browser, for pass 2. No PDF link is guessed. The check falls back to an archived copy where a page is blocked.
+1. **Official texts.** Pass 1 showed that DOLE's sites turn away every automated reader, on GitHub as well as in this session. A link alone therefore cannot get the originals checked. The owner downloads the two advisories in a browser from the Bureau of Working Conditions' issuances page. Claude then reads them with pdftotext and records each claim against the text in this ledger. No PDF link is guessed, and the site's bot check is not bypassed.
 2. **Philippines social protection.** Do it, as its own pull request in the existing `2026-11-social-protection` batch, once Labor Advisory No. 19 has been read (the Employees' Compensation record depends on it) and at least eight public schemes each have an official page. Until then it is held, with the candidate scheme list in this folder's notes.
 3. **The 2023 line on the paid rest breaks card.** In scope, on one condition: it changes only if the read text of Labor Advisory No. 20 names the 2023 advisory as replaced. Then the sentence is edited in place with the document's own verb, its source is kept, and the 2026 advisory is added as a new example. If the text is silent, the line stays: it is true as dated.
 

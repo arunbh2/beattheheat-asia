@@ -257,11 +257,14 @@ Evidence, history and what is not known
 
 - [Daily Tribune, 2026: DOLE issues workplace heat stress guidelines](https://tribune.net.ph/2026/10/27/dole-issues-workplace-heat-stress-guidelines) Secondary
 Reports the Department of Labor and Employment issuing a labour advisory on heat stress. reported: checked 15 November 2026 for “heat”, “Labor Advisory”
+- [NewsWatch Plus, 2026: DOLE releases advisory on safety protocols during El Niño](https://www.newswatchplus.ph/2026/10/28/dole-releases-advisory-on-safety-protocols-during-el-nino/) Secondary
+Reports Labor Advisory No. 20, released on 27 October: employers document hazard and risk assessments, follow heat index forecasts, and take steps that rise with four heat index levels, with flexible work arrangements at the danger level and a re-evaluation of tasks at extreme danger. reported: checked 16 November 2026 for “heat index”, “flexible work”, “52”
 
 Not known yet
 
-- The advisory text itself: not located among the sources checked
+- The advisory text itself: not read; the Department’s pages turn away automated checks
 - Its effective date and coverage: not verified
+- Whether it replaces the 2023 labour advisory on heat stress: not verified
 
 What would change this recordThe advisory text, and workplaces applying it.
 
@@ -271,15 +274,18 @@ What would change this recordThe advisory text, and workplaces applying it.
 
 - [Daily Tribune, 2026: DOLE sets compensation rules for heat-related illnesses](https://tribune.net.ph/2026/10/24/dole-sets-compensation-rules-for-heat-related-illnesses) Secondary
 Reports the Department setting compensation rules for heat-related illness. reported: checked 15 November 2026 for “heat”, “compensation”
+- [SunStar Cebu, 2026: workers who fall ill from heat amid El Niño may qualify for benefits](https://www.sunstar.com.ph/cebu/dole-workers-who-fall-ill-from-heat-amid-el-ni%C3%B1o-may-qualify-for-benefits) Secondary
+Reports that heat stroke, heat cramps and heat exhaustion remain compensable under the Employees’ Compensation Program, and that other heat-related illnesses, including heat syncope and rhabdomyolysis, may also qualify where the link to work is shown. reported: checked 16 November 2026 for “rhabdomyolysis”, “syncope”, “Employees' Compensation”
 
 Not known yet
 
-- The rules' text: not located among the sources checked
+- The advisory text itself: not read; the Department’s pages turn away automated checks
+- Whether further conditions are covered now or still under review: reports differ, and the advisory text was not read
 - Claims filed or paid: not verified
 
 What would change this recordCompensation claims for heat illness being filed and paid.
 
-ReviewRecord last reviewed 16 November 2026. Sources last checked 15 November 2026. Next review due 16 February 2027. [What a review covers](#sg-method)
+ReviewRecord last reviewed 16 November 2026. Sources last checked 16 November 2026. Next review due 16 February 2027. [What a review covers](#sg-method)
 
 Explore on Common Shade[Philippines](https://beattheheat.asia/countries/philippines/)[Heat-safe work](https://beattheheat.asia/actions/#heatrules)[Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash)[Who heat hits hardest](https://beattheheat.asia/who-is-at-risk/)
 

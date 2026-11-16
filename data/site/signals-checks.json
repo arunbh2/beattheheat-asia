@@ -473,6 +473,19 @@
     }
    }
   ],
+  "https://www.newswatchplus.ph/2026/10/28/dole-releases-advisory-on-safety-protocols-during-el-nino/": [
+   {
+    "kind": "content",
+    "batch": "2026-11-ph-labor-advisories",
+    "checked": "2026-11-16",
+    "status": "OK",
+    "terms": {
+     "52": true,
+     "heat index": true,
+     "flexible work": true
+    }
+   }
+  ],
   "https://www.pbl.nl/en/publications/unep-emissions-gap-report-2026": [
    {
     "kind": "content",
@@ -496,6 +509,19 @@
     "terms": {
      "1 December 2026": true,
      "drinking water": true
+    }
+   }
+  ],
+  "https://www.sunstar.com.ph/cebu/dole-workers-who-fall-ill-from-heat-amid-el-ni%C3%B1o-may-qualify-for-benefits": [
+   {
+    "kind": "content",
+    "batch": "2026-11-ph-labor-advisories",
+    "checked": "2026-11-16",
+    "status": "OK",
+    "terms": {
+     "rhabdomyolysis": true,
+     "syncope": true,
+     "Employees' Compensation": true
     }
    }
   ],

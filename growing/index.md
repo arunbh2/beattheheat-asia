@@ -5,7 +5,7 @@ updated: 2026-11-16
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 62 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 63 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-62 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,114 works the commons draws on carry a publication date, and 808 are still being dated.
+63 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,115 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -248,6 +248,41 @@ A break that costs a paid turn is the game's opening problem.
 [Live through a heatwave](https://beattheheat.asia/live-through-a-heatwave/)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=The%20Heat%20Assembly%3A%20a%20game%20about%20who%20can%20use%20heat%20protection&ref=g-heat-assembly#way-share)
+
+Evidence added · Institutions and plans
+
+### The Philippines' heat advisories: two more checked reports, and the open question named
+
+Added 16 November 2026 · Labor Advisories No. 19 and No. 20, series of 2026 October 2026
+
+Why it matters our readingTwo news reports, checked word for word, add detail to the Philippines' October 2026 labour advisories on heat: duties that step up with the same four heat index levels the site already shows, and compensation for heat stroke, cramps and exhaustion, with other heat illnesses that may also qualify where the link to work is shown. The advisory texts themselves were not read, because the department's pages turn away automated checks, so the record still says so.
+
+- Philippines
+- Workers in heat-exposed jobs
+- Heat-safe work
+
+ReviewSeven sources staged; two news reports opened with every term found; the department's own pages and one other report were blocked, and are listed as not read. 7 checked · 3 confirmed · 4 not confirmed, each recorded.
+
+What it took to add this
+
+- **The question.** Can the Philippines' heat advisories be checked against their own texts?
+- **The search.** 7 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 3 confirmed, and 4 could not be (4 blocked automated reading).
+
+- **What is still open.** The advisory texts: whether further illnesses are compensable now or under review, and whether the 2026 advisory replaces the 2023 one.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-ph-labor-advisories/link-check.json)
+
+How it connects
+
+- [Heat-safe work](https://beattheheat.asia/actions/#heatrules) Action · from the site's records
+Employers' duties tied to public heat index levels.
+
+[See the record on Signals](https://beattheheat.asia/signals/)
+[Plan a response](https://beattheheat.asia/plan/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=The%20Philippines'%20heat%20advisories%3A%20two%20more%20checked%20reports%2C%20and%20the%20open%20question%20named&ref=g-ph-labor-advisories-reports#way-share)
 
 Evidence added · Practical measures
 
@@ -1989,13 +2024,13 @@ Steps toward protection this year: [Delhi launches its 2025 Heat Action Plan](ht
 
 - 2026 so far
 
-238 works published, 139 of them with a known month; 1,114 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
+239 works published, 140 of them with a known month; 1,115 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
 
 Steps toward protection this year: [Bangkok opens 304 cooling centres](https://beattheheat.asia/atlas/); [The first Global Heat Forum, in Bangkok](https://beattheheat.asia/atlas/).
 
 - Evidence404
 - Experience98
-- Practical measures245
+- Practical measures246
 - Institutions and plans138
 - Financing229
 
