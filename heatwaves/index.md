@@ -1,7 +1,7 @@
 ---
 title: "Heatwaves that shaped South and Southeast Asia, 1998 to 2026 | Common Shade"
 url: https://beattheheat.asia/heatwaves/
-updated: 2026-11-06
+updated: 2026-11-16
 licence: CC BY 4.0
 ---
 

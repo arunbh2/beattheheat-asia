@@ -1,7 +1,7 @@
 ---
 title: "Nepal: heat country snapshot"
 url: https://beattheheat.asia/countries/nepal/
-updated: 2026-11-14
+updated: 2026-11-16
 licence: CC BY 4.0
 ---
 

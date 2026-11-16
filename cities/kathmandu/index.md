@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in Kathmandu: plans, cycles and who is at work | Common Shade"
 url: https://beattheheat.asia/cities/kathmandu/
-updated: 2026-11-15
+updated: 2026-11-16
 licence: CC BY 4.0
 ---
 

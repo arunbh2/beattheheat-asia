@@ -1,7 +1,7 @@
 ---
 title: "Sri Lanka: heat country snapshot"
 url: https://beattheheat.asia/countries/sri-lanka/
-updated: 2026-11-14
+updated: 2026-11-16
 licence: CC BY 4.0
 ---
 

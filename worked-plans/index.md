@@ -1,7 +1,7 @@
 ---
 title: "Worked heat action plans from Asia | Common Shade"
 url: https://beattheheat.asia/worked-plans/
-updated: 2026-11-07
+updated: 2026-11-16
 licence: CC BY 4.0
 ---
 

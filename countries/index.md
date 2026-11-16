@@ -1,7 +1,7 @@
 ---
 title: "Country snapshots"
 url: https://beattheheat.asia/countries/
-updated: 2026-11-06
+updated: 2026-11-16
 licence: CC BY 4.0
 ---
 

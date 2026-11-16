@@ -1,7 +1,7 @@
 ---
 title: "Funding and support for protection from heat"
 url: https://beattheheat.asia/heat-economy/money/
-updated: 2026-11-07
+updated: 2026-11-16
 licence: CC BY 4.0
 ---
 
