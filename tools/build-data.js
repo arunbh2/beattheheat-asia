@@ -149,38 +149,91 @@ function checkWatch(V) {
 // topics come from fixed lists; every link, page and action resolves; "why" is one or two sentences; a quoted finding
 // appears word for word in the site's own records; effort files exist; nothing vague like "Learn more". Each problem
 // names the entry and the field.
-// Signals (data/site/signals.json): every signal has a kind and group from the file's own lists, a past date, a checked
-// source (label and url) and a "next" line saying what would move it; a commitment has a ladder stage and a dated
-// history whose steps climb the ladder in order and end on its stage. Each problem names the signal and the field.
+// Signals (data/site/signals.json, model in tools/signals-model.js): every signal has a kind and group from the file's own
+// lists, a past date, a display place, heat relevance (explicit, or interpreted with a note), a review date and a due date,
+// and sources with stable ids, a type (original or secondary) and an https url. A commitment is tracked deliverable by
+// deliverable: each has a type, dated milestones from the step list, and evidence naming one of the signal's sources and
+// what it establishes. Only an "effective" milestone may carry a future date, marked scheduled; an evaluation states its
+// findings. Findings, gatherings and guidance carry no deliverables or stage. The legacy stage and history are derived
+// (node tools/signals-sync.js). Each problem names the signal and the field.
 function checkSignals(V) {
   const fs = require("fs"), path = require("path"), ROOT = path.join(__dirname, ".."), P = [], F = path.join(ROOT, "data/site/signals.json");
   if (!fs.existsSync(F)) return P;
-  const D = JSON.parse(fs.readFileSync(F, "utf8")), today = new Date().toISOString().slice(0, 10);
-  const rung = Object.fromEntries((D.ladder || []).map((l, i) => [l.id, i]));
+  const SM = require("./signals-model.js"), FC = path.join(ROOT, "data/site/signals-checks.json");
+  const D = JSON.parse(fs.readFileSync(F, "utf8")), C = fs.existsSync(FC) ? JSON.parse(fs.readFileSync(FC, "utf8")) : { urls: {} }, today = new Date().toISOString().slice(0, 10);
   const kinds = new Set((D.kinds || []).map(k => k.id)), groups = new Set((D.groups || []).map(g => g.id));
-  const levers = new Set((V.LEVERS || []).map(l => l.id)), ids = new Set();
-  const pastDate = d => /^\d{4}(-\d{2}(-\d{2})?)?$/.test(d || "") && d.slice(0, Math.min(d.length, 10)) <= today.slice(0, d.length);
+  const levers = new Set((V.LEVERS || []).map(l => l.id)), people = new Set((Array.isArray(V.AT_RISK) ? V.AT_RISK : Object.values(V.AT_RISK || {})).map(r => r.id)), ids = new Set();
+  const okDate = d => /^\d{4}(-\d{2}(-\d{2})?)?$/.test(d || "");
+  const pastDate = d => okDate(d) && d.slice(0, Math.min(d.length, 10)) <= today.slice(0, d.length);
   (D.signals || []).forEach(s => { const at = `data/site/signals.json signal ${s.id}`;
     if (!/^sig-[a-z0-9-]+$/.test(s.id || "")) P.push(`${at}: id is sig-<words>`);
     if (ids.has(s.id)) P.push(`${at}: id used twice`); ids.add(s.id);
     if (!kinds.has(s.kind)) P.push(`${at}: kind must be one of ${[...kinds].join(", ")}`);
     if (!groups.has(s.group)) P.push(`${at}: group must be one of ${[...groups].join(", ")}`);
     if (!pastDate(s.date)) P.push(`${at}: date is YYYY, YYYY-MM or YYYY-MM-DD, not after today`);
-    for (const f of ["title", "summary", "who", "next"]) if (!s[f]) P.push(`${at}: needs "${f}"`);
-    if (!(s.sources || []).length || s.sources.some(x => !x.label || !/^https?:\/\//.test(x.url || ""))) P.push(`${at}: every source has a label and an https url (a checked one)`);
+    for (const f of ["title", "summary", "who", "next", "where"]) if (!s[f]) P.push(`${at}: needs "${f}"`);
+    const sid = new Set();
+    if (!(s.sources || []).length) P.push(`${at}: needs at least one checked source`);
+    (s.sources || []).forEach((x, i) => { const st = `${at} source ${i + 1}`;
+      if (!/^[a-z0-9-]+$/.test(x.id || "")) P.push(`${st}: needs a stable id (lowercase words); evidence points to it`);
+      if (sid.has(x.id)) P.push(`${st}: id "${x.id}" used twice in this signal`); sid.add(x.id);
+      if (!["original", "secondary"].includes(x.type)) P.push(`${st}: type is "original" (from the actor) or "secondary" (news, legal updates, accounts by others)`);
+      if (!x.label || !/^https?:\/\//.test(x.url || "")) P.push(`${st}: needs a label and an https url`); });
     (s.levers || []).forEach(l => { if (!levers.has(l)) P.push(`${at}: lever "${l}" is not in LEVERS`); });
+    (s.populations || []).forEach(p => { if (!people.has(p)) P.push(`${at}: population "${p}" is not in AT_RISK`); });
+    const r = s.relevance || {};
+    if (!["explicit", "interpreted"].includes(r.basis)) P.push(`${at}: relevance.basis is "explicit" (the source names heat) or "interpreted"`);
+    if (r.basis === "interpreted" && !r.note) P.push(`${at}: an interpreted heat link needs relevance.note saying it is Common Shade's reading`);
+    const rv = s.review || {};
+    if (!pastDate(rv.reviewed)) P.push(`${at}: review.reviewed is the date the record was last reviewed (not after today)`);
+    if (!okDate(rv.due) || SM.key(rv.due) < SM.key(rv.reviewed)) P.push(`${at}: review.due is a date after review.reviewed`);
+    (s.corrections || []).forEach((c, i) => { if (!pastDate(c.date) || !c.note) P.push(`${at} correction ${i + 1}: a correction by Common Shade needs a past date and a note (it is also logged on /corrections/)`); });
+    if (s.reading) { for (const f of ["changed", "matters", "decisions", "uncertain", "examine"]) if (!s.reading[f]) P.push(`${at}: reading needs "${f}"`);
+      if (!pastDate(s.reading.reviewed)) P.push(`${at}: reading.reviewed is the date the interpretation was reviewed`); }
+    const evCheck = (e, st) => { if (!sid.has(e.source)) P.push(`${st}: evidence names source "${e.source}", which this signal does not list`);
+      if (!e.establishes) P.push(`${st}: evidence needs "establishes": what this source shows for this step`);
+      if (e.terms && (!Array.isArray(e.terms) || e.terms.some(t => typeof t !== "string" || !t))) P.push(`${st}: evidence terms are the words the source check found`); };
     if (s.kind === "commitment") {
-      if (!(s.stage in rung)) P.push(`${at}: a commitment needs a stage: ${Object.keys(rung).join(", ")}`);
-      const h = s.history || [];
-      if (!h.length) P.push(`${at}: a commitment needs a history of { date, stage, note } steps`);
-      h.forEach((x, i) => { const st = `${at} history step ${i + 1}`;
-        if (!pastDate(x.date)) P.push(`${st}: date is YYYY, YYYY-MM or YYYY-MM-DD, not after today`);
-        if (!(x.stage in rung)) P.push(`${st}: stage must be on the ladder`);
-        if (i && rung[x.stage] < rung[h[i - 1].stage]) P.push(`${st}: steps climb the ladder in order (a signal that slips back gets a note, not a lower rung)`);
-        if (!x.note) P.push(`${st}: needs a short note`); });
-      if (h.length && h[h.length - 1].stage !== s.stage) P.push(`${at}: stage "${s.stage}" differs from its latest history step "${h[h.length - 1].stage}"`);
-    } else if (s.stage) P.push(`${at}: only a commitment has a ladder stage (this is a ${s.kind})`);
+      if (!(s.deliverables || []).length) P.push(`${at}: a commitment is tracked by deliverables: [{ id, what, type, milestones, unknown, next }]`);
+      const dids = new Set();
+      (s.deliverables || []).forEach(d => { const dt = `${at} deliverable ${d.id}`;
+        if (!/^d-[a-z0-9-]+$/.test(d.id || "")) P.push(`${dt}: id is d-<words>, stable once published`);
+        if (dids.has(d.id)) P.push(`${dt}: id used twice`); dids.add(d.id);
+        if (!d.what) P.push(`${dt}: needs "what": the specific promise or deliverable`);
+        if (!SM.TYPES[d.type]) P.push(`${dt}: type must be one of ${Object.keys(SM.TYPES).join(", ")}`);
+        if (!d.next) P.push(`${dt}: needs "next": the evidence that would change this record`);
+        if (!Array.isArray(d.unknown)) P.push(`${dt}: needs "unknown": what remains not verified, not disclosed or not assessed`);
+        if (!(d.milestones || []).length) P.push(`${dt}: needs at least one milestone`);
+        const mids = new Set();
+        (d.milestones || []).forEach(m => { const mt = `${dt} milestone ${m.id}`;
+          if (!/^m-[a-z0-9-]+$/.test(m.id || "")) P.push(`${mt}: id is m-<words>, stable once published`);
+          if (mids.has(m.id)) P.push(`${mt}: id used twice in this deliverable`); mids.add(m.id);
+          if (!SM.STEPS[m.step]) P.push(`${mt}: step must be one of ${Object.keys(SM.STEPS).join(", ")}`);
+          if (m.scheduled) { if (m.step !== "effective") P.push(`${mt}: only an "effective" milestone may be scheduled`); if (!okDate(m.date)) P.push(`${mt}: needs a date`); }
+          else if (!pastDate(m.date)) P.push(`${mt}: date is not after today (a future effective date is marked "scheduled": true)`);
+          if (m.step === "evaluated" && !SM.FINDINGS[m.findings]) P.push(`${mt}: an evaluation states its findings: ${Object.keys(SM.FINDINGS).join(", ")}`);
+          if (m.step !== "evaluated" && m.findings) P.push(`${mt}: only an evaluation has findings`);
+          if (SM.STEPS[m.step] && SM.TYPES[d.type] && !SM.TYPES[d.type].rungs.includes(SM.STEPS[m.step].rung)) P.push(`${mt}: a ${d.type} does not use the "${SM.STEPS[m.step].rung}" step; change the type or the step`);
+          if (!m.note) P.push(`${mt}: needs a short note`);
+          if (!(m.evidence || []).length) P.push(`${mt}: needs evidence: [{ source, establishes, terms }]`);
+          (m.evidence || []).forEach((e, i) => evCheck(e, `${mt} evidence ${i + 1}`)); });
+        (d.events || []).forEach((e, i) => { const et = `${dt} event ${i + 1}`;
+          if (!SM.EVENTS[e.step]) P.push(`${et}: step must be one of ${Object.keys(SM.EVENTS).join(", ")}`);
+          if (!pastDate(e.date)) P.push(`${et}: date is not after today`); if (!e.note) P.push(`${et}: needs a note`);
+          if (!(e.evidence || []).length) P.push(`${et}: a change in the world needs evidence, like a milestone`);
+          (e.evidence || []).forEach((x, j) => evCheck(x, `${et} evidence ${j + 1}`)); });
+        (d.facts || []).forEach((f, i) => { if (!f.text || !(f.evidence || []).length) P.push(`${dt} fact ${i + 1}: needs text and evidence`); (f.evidence || []).forEach((x, j) => evCheck(x, `${dt} fact ${i + 1} evidence ${j + 1}`)); });
+        (d.conflicts || []).forEach((c, i) => { if (!c.note || !(c.sources || []).length || c.sources.some(x => !sid.has(x))) P.push(`${dt} conflict ${i + 1}: needs a note and the ids of the sources that differ`); }); });
+      const g = SM.legacy(s, C, today);
+      if (s.stage !== g.stage || JSON.stringify(s.history) !== JSON.stringify(g.history)) P.push(`${at}: stage and history are derived from the deliverables; run node tools/signals-sync.js`);
+    } else if (s.stage || s.history || s.deliverables) P.push(`${at}: only a commitment has deliverables, a stage or a history (this is a ${s.kind}); findings, gatherings and guidance do not climb the ladder`);
   });
+  (D.groups || []).forEach(g => { const at = `data/site/signals.json group ${g.id}`;
+    (g.checkins || []).forEach((c, i) => { const ct = `${at} check-in ${i + 1}`;
+      if (!pastDate(c.date)) P.push(`${ct}: date is not after today`); if (!c.label) P.push(`${ct}: needs a label`);
+      (c.added || []).forEach(a => { const s = (D.signals || []).find(x => x.id === a); if (!s) P.push(`${ct}: added "${a}" is not a signal`); else if (s.group !== g.id) P.push(`${ct}: "${a}" belongs to group ${s.group}`); }); });
+    if (g.checkins && !okDate(g.cutoff)) P.push(`${at}: an event watch with check-ins states its review cut-off ("cutoff")`);
+    if (g.synthesis && (!g.synthesis.text || !pastDate(g.synthesis.reviewed))) P.push(`${at}: a closing synthesis needs text and the date it was reviewed`); });
   return P;
 }
 // The learning agenda (data/site/learning.json): every question has a dated history whose latest step is its status;

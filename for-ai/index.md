@@ -135,7 +135,8 @@ Plain files and pages, open to read. Nothing needs a key.
 - [/data/core/ORGANISATIONS.json](https://beattheheat.asia/data/core/ORGANISATIONS.json)the organisations in the heat networkJSON
 - [/data/core/ORG_FACETS.json](https://beattheheat.asia/data/core/ORG_FACETS.json)for each organisation: where its listed work is, what kind of body it is, and when its link last answered a checkJSON
 - [/data/core/GLOSSARY.json](https://beattheheat.asia/data/core/GLOSSARY.json)the glossaryJSON
-- [/data/site/signals.json](https://beattheheat.asia/data/site/signals.json)announcements and commitments on heat, each on the ladder from announced to evaluatedJSON
+- [/data/site/signals.json](https://beattheheat.asia/data/site/signals.json)developments on heat; commitments tracked deliverable by deliverable, with dated milestones, the source for each and what it establishesJSON
+- [/data/site/signals-checks.json](https://beattheheat.asia/data/site/signals-checks.json)the source-check records behind Signals: for each cited url, the content and link checks and the terms foundJSON
 - [/data/heat-tools/catalogue.json](https://beattheheat.asia/data/heat-tools/catalogue.json)the Heat Tool Finder catalogue: tools, datasets and warning services with their inputs, outputs, limits and review depth (never ranked)JSON
 - [/data/site/learning.json](https://beattheheat.asia/data/site/learning.json)the learning agenda: questions the evidence has not yet answeredJSON
 - [/data/schema/records.json](https://beattheheat.asia/data/schema/records.json)the rules every record followsJSON

@@ -14,7 +14,7 @@
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2316202B'/%3E%3Cpath d='M5 14 Q16 4 27 14' fill='none' stroke='%23F26430' stroke-width='4.5' stroke-linecap='round'/%3E%3Cpath d='M9 13 V27 M23 13 V27' stroke='%23F6E7D7' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Newsreader:ital,wght@0,400;0,500;1,400&display=swap">
-  <link rel="stylesheet" href="/styles.css?v=230">
+  <link rel="stylesheet" href="/styles.css?v=231">
 <!--csn--><style id="csn-css">html:has(.csn){scroll-padding-top:calc(var(--csn-h,64px) + var(--tk-h,0px) + 16px)}
 .csn,.csf,.csn-d,.csp{--ink:#16202B;--ink2:#39424D;--grey:#5E6570;--canvas:#FAF7F2;--sand:#F2E7D9;--line:#E6DFD4;--orange:#F26430;--ember:#B8401A;--green:#17703A;font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);line-height:1.4}
 .csn{position:sticky;top:var(--tk-h,0px);z-index:60;margin:0!important;padding:0!important;max-width:none!important;display:block!important;background:rgba(250,247,242,.96);border-bottom:1px solid var(--line);-webkit-backdrop-filter:saturate(1.2) blur(10px);backdrop-filter:saturate(1.2) blur(10px)}
@@ -183,8 +183,8 @@
 .csn--f9 .csn__home{white-space:normal;line-height:1;max-width:100%;font-size:min(1.05rem,8vw)}
 .csf__cite [data-csn-cite]{overflow-wrap:anywhere}
 /* reflow at large text, on every page: a single long word (a title in the display face, a web address, a figure with its unit)
-   wraps only when it does not fit a line, so nothing changes at normal sizes; headings may hyphenate */
-body{overflow-wrap:break-word}h1,h2,h3,h4,.pg-h1{overflow-wrap:anywhere;hyphens:auto}a,li,dd,figcaption,.chip{overflow-wrap:anywhere}select,input,textarea{max-width:100%}td,th,td a,th a{overflow-wrap:break-word}
+   wraps only when it does not fit a line, so nothing changes at normal sizes */
+body{overflow-wrap:break-word}h1,h2,h3,h4,.pg-h1{overflow-wrap:anywhere}a,li,dd,figcaption,.chip{overflow-wrap:anywhere}select,input,textarea{max-width:100%}td,th,td a,th a{overflow-wrap:break-word}
 html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{touch-action:manipulation}button,[role=button]{-webkit-user-select:none;user-select:none}
 @media (pointer:coarse){input:not([type=checkbox]):not([type=radio]):not([type=range]),select,textarea{font-size:16px!important}}
 @media (prefers-reduced-motion:reduce){.csn__panel,.csn__sheet,.csn-d[open]{animation:none}.csn__in,.csn__chev{transition:none}}
@@ -1735,7 +1735,7 @@ $$("[data-check]").forEach(function(box){var key=box.getAttribute("data-check"),
     if(form)window.open(form,"_blank","noopener");remember({a:"no",d:today});done(thanksNo)})})}});
 /* copy the citation */
 $$("[data-csn-copy]").forEach(function(b){b.addEventListener("click",function(){var t=$("[data-csn-cite]").textContent;(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){b.textContent="Copied"},function(){b.textContent="Select and copy"})})});
-})();</script><script src="/ticker.js?v=230" defer></script><script>addEventListener("load",function(){setTimeout(function(){["/join.js?v=230","/everything.js?v=230"].forEach(function(s){var e=document.createElement("script");e.src=s;document.body.appendChild(e)})},2500)})</script><!--/csn-->
+})();</script><script src="/ticker.js?v=231" defer></script><script>addEventListener("load",function(){setTimeout(function(){["/join.js?v=231","/everything.js?v=231"].forEach(function(s){var e=document.createElement("script");e.src=s;document.body.appendChild(e)})},2500)})</script><!--/csn-->
 <footer class="wkp-foot"><div class="container">
     <p>Gathered from public sources in October 2026. Being listed does not imply endorsement, partnership or ranking, and nothing here is financial advice. Every source links to its publisher; links that no longer work are left out. Text: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0<span class="visually-hidden"> (opens in a new tab)</span></a>. <a href="/sources/">All sources</a> · <a href="/heat-economy/#data">Download the data</a></p>
   </div></footer>

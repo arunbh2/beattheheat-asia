@@ -314,8 +314,8 @@ const CSS = `html:has(.csn){scroll-padding-top:calc(var(--csn-h,64px) + var(--tk
 .csn--f9 .csn__home{white-space:normal;line-height:1;max-width:100%;font-size:min(1.05rem,8vw)}
 .csf__cite [data-csn-cite]{overflow-wrap:anywhere}
 /* reflow at large text, on every page: a single long word (a title in the display face, a web address, a figure with its unit)
-   wraps only when it does not fit a line, so nothing changes at normal sizes; headings may hyphenate */
-body{overflow-wrap:break-word}h1,h2,h3,h4,.pg-h1{overflow-wrap:anywhere;hyphens:auto}a,li,dd,figcaption,.chip{overflow-wrap:anywhere}select,input,textarea{max-width:100%}td,th,td a,th a{overflow-wrap:break-word}
+   wraps only when it does not fit a line, so nothing changes at normal sizes */
+body{overflow-wrap:break-word}h1,h2,h3,h4,.pg-h1{overflow-wrap:anywhere}a,li,dd,figcaption,.chip{overflow-wrap:anywhere}select,input,textarea{max-width:100%}td,th,td a,th a{overflow-wrap:break-word}
 html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{touch-action:manipulation}button,[role=button]{-webkit-user-select:none;user-select:none}
 @media (pointer:coarse){input:not([type=checkbox]):not([type=radio]):not([type=range]),select,textarea{font-size:16px!important}}
 @media (prefers-reduced-motion:reduce){.csn__panel,.csn__sheet,.csn-d[open]{animation:none}.csn__in,.csn__chev{transition:none}}

@@ -290,7 +290,13 @@
     {
       "url": "https://beattheheat.asia/data/site/signals.json",
       "path": "/data/site/signals.json",
-      "what": "announcements and commitments on heat, each on the ladder from announced to evaluated",
+      "what": "developments on heat; commitments tracked deliverable by deliverable, with dated milestones, the source for each and what it establishes",
+      "format": "JSON"
+    },
+    {
+      "url": "https://beattheheat.asia/data/site/signals-checks.json",
+      "path": "/data/site/signals-checks.json",
+      "what": "the source-check records behind Signals: for each cited url, the content and link checks and the terms found",
       "format": "JSON"
     },
     {

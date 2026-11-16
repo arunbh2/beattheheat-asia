@@ -842,8 +842,34 @@
     "/data/site/signals.json": {
       "get": {
         "operationId": "getDataSiteSignalsJson",
-        "summary": "announcements and commitments on heat, each on the ladder from announced to evaluated",
-        "description": "announcements and commitments on heat, each on the ladder from announced to evaluated. A plain static file: no key, no login.",
+        "summary": "developments on heat; commitments tracked deliverable by deliverable, with dated milestones, the source for each and what it establishes",
+        "description": "developments on heat; commitments tracked deliverable by deliverable, with dated milestones, the source for each and what it establishes. A plain static file: no key, no login.",
+        "tags": [
+          "data"
+        ],
+        "responses": {
+          "200": {
+            "description": "The file.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": [
+                    "object",
+                    "array"
+                  ]
+                },
+                "example": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/site/signals-checks.json": {
+      "get": {
+        "operationId": "getDataSiteSignalsChecksJson",
+        "summary": "the source-check records behind Signals: for each cited url, the content and link checks and the terms found",
+        "description": "the source-check records behind Signals: for each cited url, the content and link checks and the terms found. A plain static file: no key, no login.",
         "tags": [
           "data"
         ],

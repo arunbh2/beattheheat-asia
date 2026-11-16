@@ -95,7 +95,8 @@ ENDPOINTS
 - https://beattheheat.asia/data/core/ORGANISATIONS.json (JSON): the organisations in the heat network
 - https://beattheheat.asia/data/core/ORG_FACETS.json (JSON): for each organisation: where its listed work is, what kind of body it is, and when its link last answered a check
 - https://beattheheat.asia/data/core/GLOSSARY.json (JSON): the glossary
-- https://beattheheat.asia/data/site/signals.json (JSON): announcements and commitments on heat, each on the ladder from announced to evaluated
+- https://beattheheat.asia/data/site/signals.json (JSON): developments on heat; commitments tracked deliverable by deliverable, with dated milestones, the source for each and what it establishes
+- https://beattheheat.asia/data/site/signals-checks.json (JSON): the source-check records behind Signals: for each cited url, the content and link checks and the terms found
 - https://beattheheat.asia/data/heat-tools/catalogue.json (JSON): the Heat Tool Finder catalogue: tools, datasets and warning services with their inputs, outputs, limits and review depth (never ranked)
 - https://beattheheat.asia/data/site/learning.json (JSON): the learning agenda: questions the evidence has not yet answered
 - https://beattheheat.asia/data/schema/records.json (JSON): the rules every record follows
