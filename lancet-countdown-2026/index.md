@@ -1,7 +1,7 @@
 ---
 title: "The Lancet Countdown 2026, for extreme heat in Asia"
 url: https://beattheheat.asia/lancet-countdown-2026/
-updated: 2026-11-06
+updated: 2026-11-16
 licence: CC BY 4.0
 ---
 

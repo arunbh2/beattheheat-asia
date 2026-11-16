@@ -1,7 +1,7 @@
 ---
 title: "Solutions library"
 url: https://beattheheat.asia/solutions/
-updated: 2026-11-06
+updated: 2026-11-16
 licence: CC BY 4.0
 ---
 

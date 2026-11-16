@@ -5,7 +5,7 @@ updated: 2026-11-16
 licence: CC BY 4.0
 ---
 
-> Every paper, report, dataset and organisation cited on Common Shade, in one list you can search: 2343 sources, each with where it is used on the site.
+> Every paper, report, dataset and organisation cited on Common Shade, in one list you can search: 2346 sources, each with where it is used on the site.
 
 Where does every claim come from?
 
@@ -24,59 +24,63 @@ Every claim on Common Shade links to its source. Each entry below shows who publ
 
 **Watch: Every claim, linked** · 0:26 · narrated, captions in the picture
 
-## Heat in the news 159
+## Heat in the news 162
 
 Every headline and new paper that has appeared on Heat in the news, newest first. The live page shows the latest two weeks of news and four months of research; this list keeps them all. Headlines are the outlets’ own; listing one is not an endorsement of its framing.
 
-- [Climate-linked heat deaths rise 36% since Paris Agreement](https://www.hindustantimes.com/india-news/climatelinked-heat-deaths-rise-36-since-paris-agreement-india-also-affected-lancet-101793153952423.html)Hindustan Times · India · 28 Oct 2026 · hindustantimes.comUsed on: Heat in the news: headlines · Lancet Countdown 2026, in plain language
-
-- [Data-driven estimation of the onset of heat-related mortality in five Indian cities](https://doi.org/10.64898/2026.11.08.26367540)Robles Fontan MM et al. · Preprint · preprint · 10 Nov 2026 · doi.orgUsed on: Heat in the news: new research
-
-- [Decoupling of cryogenic N 2 porosity and ambient-temperature CO 2 uptake in PVA-GTMAC-functionalized biomass carbon](https://doi.org/10.1039/d6ra08327g)Ngo HL et al. · RSC advances · 13 Nov 2026 · doi.orgUsed on: Heat in the news: new research
-
-- [India among top countries with highest heatwave exposure for infants, older adults](https://www.thehindu.com/sci-tech/energy-and-environment/india-among-top-countries-with-highest-heatwave-exposure-for-infants-older-adults-report/article71634194.ece)The Hindu · India · 28 Oct 2026 · thehindu.comUsed on: Heat in the news: headlines · Lancet Countdown 2026, in plain language
-
-- [Heat index in parts of Eastern Visayas expected to increase](https://newsinfo.inquirer.net/2341684/heat-index-in-parts-of-eastern-visayas-expected-to-increase)Inquirer · Philippines · 15 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
-
-- [Pre-monsoon heatwave trends and ENSO-dryness associations in Rajshahi, Bangladesh](https://doi.org/10.21203/rs.3.rs-11397313/v1)Pranto FS et al. · Preprint · preprint · 13 Nov 2026 · doi.orgUsed on: Heat in the news: new research
-
-- [Dangerous heat index grips 9 areas on Thursday](https://newsinfo.inquirer.net/2340468/dangerous-heat-index-grips-9-areas-on-thursday)Inquirer · Philippines · 12 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
-
-- [Heat index hits 42°C in Coron, Palawan and Borongan, Eastern Samar](https://newsinfo.inquirer.net/2338572/heat-index-hits-42c-in-coron-palawan-and-borongan-eastern-samar)Inquirer · Philippines · 9 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
-
-- [High daytime heat index, chilly nights logged in Pangasinan](https://newsinfo.inquirer.net/2337985/high-daytime-heat-index-chilly-nights-logged-in-pangasinan)Inquirer · Philippines · 8 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
-
-- [Heatwave fuels 54% fire surge in Northern Mindanao](https://newsinfo.inquirer.net/2337482/heatwave-fuels-54-fire-surge-in-northern-mindanao)Inquirer · Philippines · 7 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
+- [3 areas recorded ‘dangerous’ heat index on Monday, Nov. 16](https://newsinfo.inquirer.net/2342293/3-areas-recorded-dangerous-heat-index-on-monday-nov-16)Inquirer · Philippines · 16 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
 - [3 areas under dangerous level heat index on Saturday - Pagasa](https://newsinfo.inquirer.net/2337309/3-areas-under-dangerous-level-heat-index-on-saturday-pagasa)Inquirer · Philippines · 6 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
-- [Extreme heat is creating a workplace health crisis in Bangladesh’s garment industry](https://news.mongabay.com/short-article/2026/11/extreme-heat-is-creating-a-workplace-health-crisis-in-bangladeshs-garment-industry/)Mongabay · Bangladesh · 6 Nov 2026 · news.mongabay.comUsed on: Heat in the news: headlines
+- [44°C heat index recorded in 3 areas on Monday, Nov. 2](https://newsinfo.inquirer.net/2334943/44c-heat-index-recorded-in-3-areas-on-nov-2)Inquirer · Philippines · 2 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
+
+- [Climate-linked heat deaths rise 36% since Paris Agreement](https://www.hindustantimes.com/india-news/climatelinked-heat-deaths-rise-36-since-paris-agreement-india-also-affected-lancet-101793153952423.html)Hindustan Times · India · 28 Oct 2026 · hindustantimes.comUsed on: Heat in the news: headlines · Lancet Countdown 2026, in plain language
+
+- [India among top countries with highest heatwave exposure for infants, older adults](https://www.thehindu.com/sci-tech/energy-and-environment/india-among-top-countries-with-highest-heatwave-exposure-for-infants-older-adults-report/article71634194.ece)The Hindu · India · 28 Oct 2026 · thehindu.comUsed on: Heat in the news: headlines · Lancet Countdown 2026, in plain language
+
+- [Dangerous heat index grips 9 areas on Thursday](https://newsinfo.inquirer.net/2340468/dangerous-heat-index-grips-9-areas-on-thursday)Inquirer · Philippines · 12 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
 - [Dangerous heat index expected in 3 areas on Friday – Pagasa](https://newsinfo.inquirer.net/2336795/dangerous-heat-index-expected-in-3-areas-on-friday-pagasa)Inquirer · Philippines · 5 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
 - [Butuan experiences scorching 42-45°C heat index for second straight day](https://newsinfo.inquirer.net/2336102/butuan-experiences-scorching-42-45c-heat-index-for-second-straight-day)Inquirer · Philippines · 4 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
-- [44°C heat index recorded in 3 areas on Monday, Nov. 2](https://newsinfo.inquirer.net/2334943/44c-heat-index-recorded-in-3-areas-on-nov-2)Inquirer · Philippines · 2 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
+- [Decoupling of cryogenic N 2 porosity and ambient-temperature CO 2 uptake in PVA-GTMAC-functionalized biomass carbon](https://doi.org/10.1039/d6ra08327g)Ngo HL et al. · RSC advances · 13 Nov 2026 · doi.orgUsed on: Heat in the news: new research
 
-- [Afternoon rains, high heat index forecast for ‘Undas’ in Mindanao](https://newsinfo.inquirer.net/2333512/afternoon-rains-high-heat-index-forecast-for-undas-in-mindanao)Inquirer · Philippines · 31 Oct 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
+- [Data-driven estimation of the onset of heat-related mortality in five Indian cities](https://doi.org/10.64898/2026.11.08.26367540)Robles Fontan MM et al. · Preprint · preprint · 10 Nov 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [High daytime heat index, chilly nights logged in Pangasinan](https://newsinfo.inquirer.net/2337985/high-daytime-heat-index-chilly-nights-logged-in-pangasinan)Inquirer · Philippines · 8 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
+
+- [Evaluating nursing performance during heatwave simulations: Protocol for a repeated measures cross-over study](https://doi.org/10.1371/journal.pone.0359681)Blount H et al. · PloS one · 5 Nov 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [Rising preterm births in Bangladesh linked to extreme heat, research suggests](https://news.mongabay.com/2026/11/rising-preterm-births-in-bangladesh-linked-to-extreme-heat-research-suggests/)Mongabay · Bangladesh · 16 Nov 2026 · news.mongabay.comUsed on: Heat in the news: headlines
 
 - [Puerto Princesa heat index to hit 45°C Monday](https://newsinfo.inquirer.net/2341794/puerto-princesa-heat-index-to-hit-45c-monday)Inquirer · Philippines · 15 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
+
+- [Heat index in parts of Eastern Visayas expected to increase](https://newsinfo.inquirer.net/2341684/heat-index-in-parts-of-eastern-visayas-expected-to-increase)Inquirer · Philippines · 15 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
+
+- [Pre-monsoon heatwave trends and ENSO-dryness associations in Rajshahi, Bangladesh](https://doi.org/10.21203/rs.3.rs-11397313/v1)Pranto FS et al. · Preprint · preprint · 13 Nov 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [Heat index hits 42°C in Coron, Palawan and Borongan, Eastern Samar](https://newsinfo.inquirer.net/2338572/heat-index-hits-42c-in-coron-palawan-and-borongan-eastern-samar)Inquirer · Philippines · 9 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
+
+- [Heatwave fuels 54% fire surge in Northern Mindanao](https://newsinfo.inquirer.net/2337482/heatwave-fuels-54-fire-surge-in-northern-mindanao)Inquirer · Philippines · 7 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
+
+- [Extreme heat is creating a workplace health crisis in Bangladesh’s garment industry](https://news.mongabay.com/short-article/2026/11/extreme-heat-is-creating-a-workplace-health-crisis-in-bangladeshs-garment-industry/)Mongabay · Bangladesh · 6 Nov 2026 · news.mongabay.comUsed on: Heat in the news: headlines
 
 - [Three-way circulation-soil moisture-temperature feedbacks amplify the most extreme mid-latitudinal heat waves](https://doi.org/10.1126/sciadv.aeh9111)Tian Y et al. · Science advances · 6 Nov 2026 · doi.orgUsed on: Heat in the news: new research
 
 - [Recent extreme heatwaves are no match for future events](https://doi.org/10.1038/s41467-026-76809-5)Aglas-Leitner P et al. · Nature communications · 5 Nov 2026 · doi.orgUsed on: Heat in the news: new research
 
-- [Evaluating nursing performance during heatwave simulations: Protocol for a repeated measures cross-over study](https://doi.org/10.1371/journal.pone.0359681)Blount H et al. · PloS one · 5 Nov 2026 · doi.orgUsed on: Heat in the news: new research
-
 - [WALANG PASOK: Class suspensions on Thursday due to high heat index](https://newsinfo.inquirer.net/2336167/walang-pasok-class-suspensions-on-thursday-due-to-high-heat-index)Inquirer · Philippines · 4 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
-- [500 years of May temperature variability in Balochistan reconstructed from Juniperus excelsa tree rings: heat stress, growth-collapse extremes, and implications for an endangered relict forest](https://doi.org/10.21203/rs.3.rs-10746072/v1)Majeed M et al. · Preprint · preprint · 2 Nov 2026 · doi.orgUsed on: Heat in the news: new research
-
-- [Heat-Related Illnesses in India: Focus on Fluid-Electrolyte Management](https://europepmc.org/article/PMC/PMC13722842)Kalra S et al. · Cureus · 1 Nov 2026 · europepmc.orgUsed on: Heat in the news: new research
+- [Afternoon rains, high heat index forecast for ‘Undas’ in Mindanao](https://newsinfo.inquirer.net/2333512/afternoon-rains-high-heat-index-forecast-for-undas-in-mindanao)Inquirer · Philippines · 31 Oct 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
 - [Rising heat takes toll on Bangladesh’s garment workers](https://www.eco-business.com/news/rising-heat-takes-toll-on-bangladeshs-garment-workers/)Eco-Business · Bangladesh · 25 Oct 2026 · eco-business.comUsed on: Heat in the news: headlines
 
 - [Walang Pasok: Class suspensions on Friday (Nov. 6) due to high heat index](https://newsinfo.inquirer.net/2336740/walang-pasok-class-suspensions-on-friday-nov-6-due-to-high-heat-index)Inquirer · Philippines · 5 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
+
+- [500 years of May temperature variability in Balochistan reconstructed from Juniperus excelsa tree rings: heat stress, growth-collapse extremes, and implications for an endangered relict forest](https://doi.org/10.21203/rs.3.rs-10746072/v1)Majeed M et al. · Preprint · preprint · 2 Nov 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [Heat-Related Illnesses in India: Focus on Fluid-Electrolyte Management](https://europepmc.org/article/PMC/PMC13722842)Kalra S et al. · Cureus · 1 Nov 2026 · europepmc.orgUsed on: Heat in the news: new research
 
 - [Human Adaptation to Daytime Heat and Associated Heat-Related Symptoms Among Women](https://doi.org/10.1002/ajhb.70375)Hussain S et al. · American journal of human biology : the official journal of the Human Biology Council · 1 Nov 2026 · doi.orgUsed on: Heat in the news: new research
 
@@ -87,6 +91,8 @@ Every headline and new paper that has appeared on Heat in the news, newest first
 - [Heat exposure and perceived academic functioning among nursing students in a tropical higher education setting: a qualitative study](https://doi.org/10.1177/17449871261486792)Costales KR et al. · Journal of research in nursing : JRN · 28 Oct 2026 · doi.orgUsed on: Heat in the news: new research
 
 - [Ambient temperature and non-communicable disease presentations and mortality in a Pakistani ED](https://doi.org/10.1016/j.joclim.2026.100768)Saleem SG et al. · The journal of climate change and health · 28 Oct 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [Fractional restoration of heat stress induced mitochondrial dysfunction in thermotolerant HepG2 cells](https://doi.org/10.1016/j.crphys.2026.100193)Gupta A et al. · Current research in physiology · 28 Oct 2026 · doi.orgUsed on: Heat in the news: new research
 
 - [Left to cope alone: how pregnant and postpartum women and their newborns manage extreme heat in coastal Kilifi, Kenya](https://europepmc.org/article/PMC/PMC13696479)Lusambili A et al. · Frontiers in global women's health · 27 Oct 2026 · europepmc.orgUsed on: Heat in the news: new research
 
@@ -350,66 +356,6 @@ Every headline and new paper that has appeared on Heat in the news, newest first
 
 News articles on extreme heat in South and Southeast Asia, read on How heat is reported: 71 from a curated bibliography (2018 to 2026, newest first), then 32 from a pilot review in ten languages, each opened and checked in October 2026. Several are syndicated columns or wire stories. Headlines are the outlets’ own; listing one is not an endorsement of its framing.
 
-- [Heat Wave in Southeast Asia Closes Schools, Triggers Health Alerts](https://theprint.in/world/heat-wave-in-southeast-asia-closes-schools-triggers-health-alerts/2061903/)Reuters / ThePrint · 2024 · theprint.inUsed on: How heat is reported
-
-- [Southeast Asia's Brutal Heatwave: Daily Life and Agriculture Endangered](https://www.scmp.com/week-asia/health-environment/article/3261584/southeast-asias-brutal-heatwave-daily-life-and-agriculture-endangered-rising-temperatures)South China Morning Post · 2024 · scmp.comUsed on: How heat is reported
-
-- [Inside an Oven: Sweltering Heat Ravages Crops and Takes Lives in Southeast Asia](https://www.theguardian.com/environment/article/2024/may/04/inside-an-oven-how-life-in-south-east-asia-is-a-struggle-amid-sweltering-heat)The Guardian · 2024 · theguardian.comUsed on: How heat is reported
-
-- [Schools Close and Crops Wither as Historic Heatwave Hits Southeast Asia](https://www.theguardian.com/environment/2024/apr/04/schools-close-and-crops-wither-as-historic-heatwave-hits-south-east-asia)The Guardian · 2024 · theguardian.comUsed on: How heat is reported
-
-- [Unliveable: Delhi's Residents Struggle to Cope in Record-Breaking Heat](https://www.theguardian.com/world/article/2024/may/30/unliveable-delhis-residents-struggle-to-cope-in-record-breaking-heat)The Guardian · 2024 · theguardian.comUsed on: How heat is reported
-
-- [Wave of Exceptionally Hot Weather Scorches South and Southeast Asia](https://www.theguardian.com/world/2024/apr/26/asia-heatwaves-philippines-bangladesh-india)The Guardian · 2024 · theguardian.comUsed on: How heat is reported
-
-- [Hot and Bothered: Can Singapore's Outdoor Workers Beat the Rising Heat?](https://www.straitstimes.com/singapore/can-outdoor-workers-in-singapore-beat-the-heat)The Straits Times · 2024 · straitstimes.comUsed on: How heat is reported
-
-- [Keeping Your Cool Is Going to Get Tougher in the Tropics](https://www.straitstimes.com/opinion/keeping-your-cool-is-going-to-get-tougher-in-the-tropics)The Straits Times · 2024 · straitstimes.comUsed on: How heat is reported
-
-- [Mentally, You Just Have to Push Through: Delivery Riders Endure Longer Hours, Hotter Days](https://www.straitstimes.com/singapore/mentally-you-just-have-to-push-through-delivery-riders-endure-longer-hours-hotter-days)The Straits Times · 2024 · straitstimes.comUsed on: How heat is reported
-
-- [The Dangers of Heat Stress: A Sudden Strike or a Slow Burn](https://www.straitstimes.com/singapore/the-dangers-of-heat-stress-a-sudden-strike-or-a-slow-burn)The Straits Times · 2024 · straitstimes.comUsed on: How heat is reported
-
-- [The Human Body Versus Scorching Heat: Which Will Win the Race?](https://www.straitstimes.com/world/the-human-body-versus-scorching-heat-which-will-win-the-race)The Straits Times · 2024 · straitstimes.comUsed on: How heat is reported
-
-- [Too Hot to Handle? Rising Temperatures Pose Growing Risk for Port Workers](https://www.straitstimes.com/singapore/too-hot-to-handle-rising-temperatures-pose-growing-risk-for-port-workers)The Straits Times · 2024 · straitstimes.comUsed on: How heat is reported
-
-- [Deaths Mount and Water Rationed as India Faces Record Heat](https://www.washingtonpost.com/world/2024/05/31/india-heat-deaths/)The Washington Post · 2024 · washingtonpost.comUsed on: How heat is reported
-
-- [How to Build an AC That Will Get the World Through Hotter Summers](https://www.washingtonpost.com/climate-solutions/interactive/2024/air-conditioning-humidity-hotter-summers-solutions/)The Washington Post · 2024 · washingtonpost.comUsed on: How heat is reported
-
-- [Southeast Asia Is Enduring a Brutal, Record-Setting Heat Wave](https://www.washingtonpost.com/weather/2024/04/30/southeast-asia-heat-india-thailand-philippines/)The Washington Post · 2024 · washingtonpost.comUsed on: How heat is reported
-
-- [Unbearable Heat in Delhi Is Testing Limits of Human Survival](https://www.washingtonpost.com/weather/2024/05/29/record-heat-delhi-india-climate-survival/)The Washington Post · 2024 · washingtonpost.comUsed on: How heat is reported
-
-- [A Torrid Summer Risks Stalling Asia's Climate Goals](https://www.business-standard.com/amp/world-news/a-torrid-summer-rise-in-power-demand-risks-stalling-asia-s-climate-goals-123050400118_1.html)Business Standard / Bloomberg Opinion · 2023 · business-standard.comUsed on: How heat is reported
-
-- [Commentary: India has no idea how many people its heatwaves are killing](https://www.channelnewsasia.com/commentary/india-deadly-heatwave-extreme-weather-climate-change-healthcare-3579621)CNA / Bloomberg Opinion · 2023 · channelnewsasia.comUsed on: How heat is reported
-
-- [India Is Encouraging the Heatwaves That Will Cripple It](https://www.ndtv.com/opinion/india-is-encouraging-the-heatwaves-that-will-cripple-it-3937443/amp/1)NDTV / Bloomberg Opinion · 2023 · ndtv.comUsed on: How heat is reported
-
-- [To Beat the Heat, We'll Need to Turn Our Homes Into Batteries](https://www.ndtvprofit.com/world/climate-change-homes-need-to-be-batteries-to-beat-summer-power-crisis-10013316)NDTV Profit / Bloomberg Opinion · 2023 · ndtvprofit.comUsed on: How heat is reported
-
-- [Asia Climate Woes Mount as Heat Shatters May Records](https://www.thejakartapost.com/paper/2023/06/02/asia-climate-woes-mount-as-heat-shatters-may-records)Reuters / Jakarta Post · 2023 · thejakartapost.comUsed on: How heat is reported
-
-- [A Matter of Survival: India's Unstoppable Need for Air Conditioners](https://www.theguardian.com/world/2023/dec/05/india-unstoppable-need-air-conditioners)The Guardian · 2023 · theguardian.comUsed on: How heat is reported
-
-- [Severe Heatwave Engulfs Asia Causing Deaths and Forcing Schools to Close](https://www.theguardian.com/weather/2023/apr/19/severe-heatwave-asia-deaths-schools-close-india-china)The Guardian · 2023 · theguardian.comUsed on: How heat is reported
-
-- [It's Getting Hot in Singapore. But How Hot?](https://www.straitstimes.com/singapore/it-s-getting-hot-in-singapore-but-how-hot)The Straits Times · 2023 · straitstimes.comUsed on: How heat is reported
-
-- [Amid Record Heat, Even Indoor Factory Workers Enter Dangerous Terrain](https://www.washingtonpost.com/world/2023/08/31/extreme-heat-indoor-work-asia/)The Washington Post · 2023 · washingtonpost.comUsed on: How heat is reported
-
-- [The Inequality of Heat](https://www.washingtonpost.com/climate-environment/interactive/2023/india-deadly-extreme-heat-poverty/)The Washington Post · 2023 · washingtonpost.comUsed on: How heat is reported
-
-- [India's Heatwaves Are Testing the Limits of Human Survival](https://www.ndtv.com/opinion/indias-heatwaves-are-testing-the-limits-of-human-survival-2943822)NDTV / Bloomberg Opinion · 2022 · ndtv.comUsed on: How heat is reported
-
-- [When the Weather Gets Hot Enough to Kill](https://www.ndtvprofit.com/business/the-climate-is-growing-hot-enough-to-kill-as-humid-heatwaves-intensify-10098465)NDTV Profit / Bloomberg Opinion · 2022 · ndtvprofit.comUsed on: How heat is reported
-
-- [India's Wheat Farmers Count Cost of 40C Heat](https://www.theguardian.com/world/2022/may/21/india-wheat-farmers-40c-heat-food-security)The Guardian · 2022 · theguardian.comUsed on: How heat is reported
-
-- [East Asia Faces Increase in Heatwaves, Urgent Need to Adapt, Study Finds](https://www.straitstimes.com/asia/east-asia/east-asia-faces-increase-in-heatwaves-urgent-need-to-adapt-study-finds)The Straits Times · 2022 · straitstimes.comUsed on: How heat is reported
-
 - [Climate-Driven Heat in India's Textile Factories Stifles Workers but Coolers and Ventilation Help](https://apnews.com/article/eab8494242ecfdc108e12685535a4df3)Associated Press · 2026 · apnews.comUsed on: How heat is reported
 
 - [What Living in One of the World's Hottest Towns Feels Like](https://apnews.com/article/d090f23b5b6a30fdde339a656e7ceddf)Associated Press · 2026 · apnews.comUsed on: How heat is reported
@@ -507,6 +453,66 @@ News articles on extreme heat in South and Southeast Asia, read on How heat is r
 - [South Asia Faces Extreme Weather with Heatwave in India, Cyclone in Bangladesh](https://www.reuters.com/world/india/scorching-heatwave-indias-rajasthan-kills-nine-2024-05-24/)Reuters · 2024 · reuters.comUsed on: How heat is reported
 
 - [Asia’s extreme April heat worsened by climate change, scientists say](https://interaksyon.philstar.com/politics-issues/2024/05/15/275525/asias-extreme-april-heat-worsened-by-climate-change-scientists-say/)Reuters / Philstar · 2024 · interaksyon.philstar.comUsed on: How heat is reported
+
+- [Heat Wave in Southeast Asia Closes Schools, Triggers Health Alerts](https://theprint.in/world/heat-wave-in-southeast-asia-closes-schools-triggers-health-alerts/2061903/)Reuters / ThePrint · 2024 · theprint.inUsed on: How heat is reported
+
+- [Southeast Asia's Brutal Heatwave: Daily Life and Agriculture Endangered](https://www.scmp.com/week-asia/health-environment/article/3261584/southeast-asias-brutal-heatwave-daily-life-and-agriculture-endangered-rising-temperatures)South China Morning Post · 2024 · scmp.comUsed on: How heat is reported
+
+- [Inside an Oven: Sweltering Heat Ravages Crops and Takes Lives in Southeast Asia](https://www.theguardian.com/environment/article/2024/may/04/inside-an-oven-how-life-in-south-east-asia-is-a-struggle-amid-sweltering-heat)The Guardian · 2024 · theguardian.comUsed on: How heat is reported
+
+- [Schools Close and Crops Wither as Historic Heatwave Hits Southeast Asia](https://www.theguardian.com/environment/2024/apr/04/schools-close-and-crops-wither-as-historic-heatwave-hits-south-east-asia)The Guardian · 2024 · theguardian.comUsed on: How heat is reported
+
+- [Unliveable: Delhi's Residents Struggle to Cope in Record-Breaking Heat](https://www.theguardian.com/world/article/2024/may/30/unliveable-delhis-residents-struggle-to-cope-in-record-breaking-heat)The Guardian · 2024 · theguardian.comUsed on: How heat is reported
+
+- [Wave of Exceptionally Hot Weather Scorches South and Southeast Asia](https://www.theguardian.com/world/2024/apr/26/asia-heatwaves-philippines-bangladesh-india)The Guardian · 2024 · theguardian.comUsed on: How heat is reported
+
+- [Hot and Bothered: Can Singapore's Outdoor Workers Beat the Rising Heat?](https://www.straitstimes.com/singapore/can-outdoor-workers-in-singapore-beat-the-heat)The Straits Times · 2024 · straitstimes.comUsed on: How heat is reported
+
+- [Keeping Your Cool Is Going to Get Tougher in the Tropics](https://www.straitstimes.com/opinion/keeping-your-cool-is-going-to-get-tougher-in-the-tropics)The Straits Times · 2024 · straitstimes.comUsed on: How heat is reported
+
+- [Mentally, You Just Have to Push Through: Delivery Riders Endure Longer Hours, Hotter Days](https://www.straitstimes.com/singapore/mentally-you-just-have-to-push-through-delivery-riders-endure-longer-hours-hotter-days)The Straits Times · 2024 · straitstimes.comUsed on: How heat is reported
+
+- [The Dangers of Heat Stress: A Sudden Strike or a Slow Burn](https://www.straitstimes.com/singapore/the-dangers-of-heat-stress-a-sudden-strike-or-a-slow-burn)The Straits Times · 2024 · straitstimes.comUsed on: How heat is reported
+
+- [The Human Body Versus Scorching Heat: Which Will Win the Race?](https://www.straitstimes.com/world/the-human-body-versus-scorching-heat-which-will-win-the-race)The Straits Times · 2024 · straitstimes.comUsed on: How heat is reported
+
+- [Too Hot to Handle? Rising Temperatures Pose Growing Risk for Port Workers](https://www.straitstimes.com/singapore/too-hot-to-handle-rising-temperatures-pose-growing-risk-for-port-workers)The Straits Times · 2024 · straitstimes.comUsed on: How heat is reported
+
+- [Deaths Mount and Water Rationed as India Faces Record Heat](https://www.washingtonpost.com/world/2024/05/31/india-heat-deaths/)The Washington Post · 2024 · washingtonpost.comUsed on: How heat is reported
+
+- [How to Build an AC That Will Get the World Through Hotter Summers](https://www.washingtonpost.com/climate-solutions/interactive/2024/air-conditioning-humidity-hotter-summers-solutions/)The Washington Post · 2024 · washingtonpost.comUsed on: How heat is reported
+
+- [Southeast Asia Is Enduring a Brutal, Record-Setting Heat Wave](https://www.washingtonpost.com/weather/2024/04/30/southeast-asia-heat-india-thailand-philippines/)The Washington Post · 2024 · washingtonpost.comUsed on: How heat is reported
+
+- [Unbearable Heat in Delhi Is Testing Limits of Human Survival](https://www.washingtonpost.com/weather/2024/05/29/record-heat-delhi-india-climate-survival/)The Washington Post · 2024 · washingtonpost.comUsed on: How heat is reported
+
+- [A Torrid Summer Risks Stalling Asia's Climate Goals](https://www.business-standard.com/amp/world-news/a-torrid-summer-rise-in-power-demand-risks-stalling-asia-s-climate-goals-123050400118_1.html)Business Standard / Bloomberg Opinion · 2023 · business-standard.comUsed on: How heat is reported
+
+- [Commentary: India has no idea how many people its heatwaves are killing](https://www.channelnewsasia.com/commentary/india-deadly-heatwave-extreme-weather-climate-change-healthcare-3579621)CNA / Bloomberg Opinion · 2023 · channelnewsasia.comUsed on: How heat is reported
+
+- [India Is Encouraging the Heatwaves That Will Cripple It](https://www.ndtv.com/opinion/india-is-encouraging-the-heatwaves-that-will-cripple-it-3937443/amp/1)NDTV / Bloomberg Opinion · 2023 · ndtv.comUsed on: How heat is reported
+
+- [To Beat the Heat, We'll Need to Turn Our Homes Into Batteries](https://www.ndtvprofit.com/world/climate-change-homes-need-to-be-batteries-to-beat-summer-power-crisis-10013316)NDTV Profit / Bloomberg Opinion · 2023 · ndtvprofit.comUsed on: How heat is reported
+
+- [Asia Climate Woes Mount as Heat Shatters May Records](https://www.thejakartapost.com/paper/2023/06/02/asia-climate-woes-mount-as-heat-shatters-may-records)Reuters / Jakarta Post · 2023 · thejakartapost.comUsed on: How heat is reported
+
+- [A Matter of Survival: India's Unstoppable Need for Air Conditioners](https://www.theguardian.com/world/2023/dec/05/india-unstoppable-need-air-conditioners)The Guardian · 2023 · theguardian.comUsed on: How heat is reported
+
+- [Severe Heatwave Engulfs Asia Causing Deaths and Forcing Schools to Close](https://www.theguardian.com/weather/2023/apr/19/severe-heatwave-asia-deaths-schools-close-india-china)The Guardian · 2023 · theguardian.comUsed on: How heat is reported
+
+- [It's Getting Hot in Singapore. But How Hot?](https://www.straitstimes.com/singapore/it-s-getting-hot-in-singapore-but-how-hot)The Straits Times · 2023 · straitstimes.comUsed on: How heat is reported
+
+- [Amid Record Heat, Even Indoor Factory Workers Enter Dangerous Terrain](https://www.washingtonpost.com/world/2023/08/31/extreme-heat-indoor-work-asia/)The Washington Post · 2023 · washingtonpost.comUsed on: How heat is reported
+
+- [The Inequality of Heat](https://www.washingtonpost.com/climate-environment/interactive/2023/india-deadly-extreme-heat-poverty/)The Washington Post · 2023 · washingtonpost.comUsed on: How heat is reported
+
+- [India's Heatwaves Are Testing the Limits of Human Survival](https://www.ndtv.com/opinion/indias-heatwaves-are-testing-the-limits-of-human-survival-2943822)NDTV / Bloomberg Opinion · 2022 · ndtv.comUsed on: How heat is reported
+
+- [When the Weather Gets Hot Enough to Kill](https://www.ndtvprofit.com/business/the-climate-is-growing-hot-enough-to-kill-as-humid-heatwaves-intensify-10098465)NDTV Profit / Bloomberg Opinion · 2022 · ndtvprofit.comUsed on: How heat is reported
+
+- [India's Wheat Farmers Count Cost of 40C Heat](https://www.theguardian.com/world/2022/may/21/india-wheat-farmers-40c-heat-food-security)The Guardian · 2022 · theguardian.comUsed on: How heat is reported
+
+- [East Asia Faces Increase in Heatwaves, Urgent Need to Adapt, Study Finds](https://www.straitstimes.com/asia/east-asia/east-asia-faces-increase-in-heatwaves-urgent-need-to-adapt-study-finds)The Straits Times · 2022 · straitstimes.comUsed on: How heat is reported
 
 - [India Tries to Adapt to Extreme Heat but Is Paying a Heavy Price](https://www.washingtonpost.com/world/2022/05/09/india-heat-wave-climate-change/)The Washington Post · 2022 · washingtonpost.comUsed on: How heat is reported
 
@@ -1522,8 +1528,6 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [Coral-reef insurance prototype &nbsp;](https://www.undp.org/indonesia/press-releases/indonesia-launches-practical-toolkit-coral-reef-insurance-strengthen-resilience-usd-550-million-coastal-economy)undp.orgUsed on: Indonesia snapshot
 
-- [Das and Somanathan, Environmental Research Letters, 2024](https://heathealth.info/resources/heat-causes-large-earnings-losses-for-informal-sector-workers-in-india/)heathealth.infoUsed on: How heat is reported
-
 - [Delhi Heat Action Plan 2025 &nbsp;](https://ddma.delhi.gov.in/sites/default/files/ddma/generic_multiple_files/hap_delhi_21.4.25_3.pdf)ddma.delhi.gov.inUsed on: India snapshot
 
 - [Department of Alternative Energy Development and Efficiency &nbsp;](https://www.dede.go.th/)dede.go.thUsed on: Thailand snapshot
@@ -2160,6 +2164,178 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [Warm Weather Advisory issued 25 April 2026 &nbsp;](https://www.dmc.gov.lk/images/dmcreports/Warm_Weather_Advisory_at_1530hrs_on_25__1777112500.pdf)dmc.gov.lkUsed on: Sri Lanka snapshot
 
+- [Website &nbsp;](https://www.dulux.com.sg/en/products/dulux-weathershield-roof)dulux.com.sgUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.asianpaints.com/waterproofing-products/smartcare-damp-proof-ultra.html)asianpaints.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.bergerpaints.com/products/waterproofing/homeshield-roof-kool-and-seal)bergerpaints.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.i2cool.com/)i2cool.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.drfixit.co.in/search/results?q=Roofseal)drfixit.co.inUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://spacecool.jp/en/)spacecool.jpUsed on: The heat economy: businesses · The heat economy: money and support
+
+- [Website &nbsp;](https://www.greenjams.org/)greenjams.orgUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://gush.earth/)gush.earthUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.saint-gobain.co.in/)saint-gobain.co.inUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://atomberg.com/)atomberg.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.bajajelectricals.com/)bajajelectricals.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.crompton.co.in/)crompton.co.inUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://havells.com/)havells.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://khind.com.my/)khind.com.myUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://orientelectric.com/)orientelectric.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.usha.com/)usha.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.vguard.in/)vguard.inUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://superfan.in/)superfan.inUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.ambiator.com/)ambiator.comUsed on: The heat economy: businesses · The heat economy: money and support
+
+- [Website &nbsp;](https://www.coolant.co/)coolant.coUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.munters.com/en-gb/)munters.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.oxycom.com/)oxycom.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.seeleyinternational.com/)seeleyinternational.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://shop.symphonylimited.com/)shop.symphonylimited.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://bluefrontierac.com/)bluefrontierac.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.bluestarindia.com/)bluestarindia.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.carrier.com/commercial/en/in/)carrier.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://daikinindia.com/)daikinindia.comUsed on: The heat economy: businesses · The heat economy: money and support
+
+- [Website &nbsp;](https://www.dawlance.com.pk/air-conditioners)dawlance.com.pkUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.haier.com/in/)haier.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.johnsoncontrols.com/hvac-equipment)johnsoncontrols.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.lg.com/in/air-conditioners/)lg.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.midea.com/global)midea.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://in.mitsubishielectric.com/en/products-solutions/air-conditioning/)in.mitsubishielectric.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.panasonic.com/in/consumer/air-conditioners.html)panasonic.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://reetech.com.vn/)reetech.com.vnUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.trane.com/commercial/asia-pacific/in/en.html)trane.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.voltas.com/)voltas.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://waltonbd.com/air-conditioner)waltonbd.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.engie-sea.com/)engie-sea.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.tabreed.ae/)tabreed.aeUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://smartjoules.co.in/)smartjoules.co.inUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.spgroup.com.sg/sustainable-energy-solutions/district-cooling-and-heating)spgroup.com.sgUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://coldspace.id/)coldspace.idUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://coolcrop.in/)coolcrop.inUsed on: The heat economy: businesses · The heat economy: money and support
+
+- [Website &nbsp;](https://ddsolar.in/)ddsolar.inUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.godrejenterprises.com/commercial-appliances)godrejenterprises.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.inficold.com/products/solar-cold-storage)inficold.comUsed on: The heat economy: businesses · The heat economy: money and support
+
+- [Website &nbsp;](https://www.inspirafarms.com/)inspirafarms.comUsed on: The heat economy: businesses · The heat economy: money and support
+
+- [Website &nbsp;](https://keepitcool.africa/)keepitcool.africaUsed on: The heat economy: businesses · The heat economy: money and support
+
+- [Website &nbsp;](https://www.koolboks.com/)koolboks.comUsed on: The heat economy: businesses · The heat economy: money and support
+
+- [Website &nbsp;](https://www.kooltecheng.com/refrigeration-equipment/)kooltecheng.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.newleafdynamic.com/)newleafdynamic.comUsed on: The heat economy: businesses · The heat economy: money and support
+
+- [Website &nbsp;](https://paxel.co/id/home)paxel.coUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.phaesun.com/)phaesun.comUsed on: The heat economy: businesses · The heat economy: money and support
+
+- [Website &nbsp;](https://promethean-power.com/about-us/)promethean-power.comUsed on: The heat economy: businesses · The heat economy: money and support
+
+- [Website &nbsp;](https://rukart.co/)rukart.coUsed on: The heat economy: businesses · The heat economy: money and support
+
+- [Website &nbsp;](https://sokofresh.co.ke/)sokofresh.co.keUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://sundanzer.com/)sundanzer.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://superkul.id/)superkul.idUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.tan90thermal.com/)tan90thermal.comUsed on: The heat economy: businesses · The heat economy: money and support
+
+- [Website &nbsp;](https://tessol.in/tertiary-distribution-solutions/)tessol.inUsed on: The heat economy: businesses · The heat economy: money and support
+
+- [Website &nbsp;](https://www.ezcooldown.com/)ezcooldown.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.qoreperformance.com/)qoreperformance.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://techniche-intl.com/)techniche-intl.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://bodytrak.co/)bodytrak.coUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://epicorebiosystems.com/)epicorebiosystems.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://kestrelinstruments.com/kestrel-5400-heat-stress-tracker)kestrelinstruments.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://tsi.com/indoor-environments/products/heat-stress-monitors)tsi.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.climate-x.com/)climate-x.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.jupiterintel.com/)jupiterintel.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://support.tomorrow.io/hc/en-us/articles/38449597664532-Wet-Bulb-Globe-Temperature-WBGT-Premium-Layer)support.tomorrow.ioUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://xdi.systems/)xdi.systemsUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.bmedicalsystems.com/en/)bmedicalsystems.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://coolfinity.com/)coolfinity.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://dulas.org.uk/solar-refrigeration-for-hiv-aids-programmes-in-nigeriasolar/)dulas.org.ukUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.75f.io/)75f.ioUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://azendian.com/)azendian.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://bbp.sg/)bbp.sgUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://beebryte.com/)beebryte.comUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.sensorflow.co/)sensorflow.coUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.skycoolsystems.com/)skycoolsystems.comUsed on: The heat economy: businesses · The heat economy: money and support
+
+- [Website &nbsp;](https://climate.axa/)climate.axaUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.ibisa.network/en)ibisa.networkUsed on: The heat economy: businesses
+
+- [Website &nbsp;](https://www.swissre.com/our-business/public-sector-solutions/case-studies/india-extreme-heat-cover.html)swissre.comUsed on: The heat economy: businesses
+
+- [West Bengal State Action Plan on Climate Change and Human Health &nbsp;](https://ncdc.mohfw.gov.in/uploads/pdf/state32.pdf)ncdc.mohfw.gov.inUsed on: India snapshot
+
 - [Archived copy](https://web.archive.org/web/20260722064045/https://ekantipur.com/news/2026/05/27/the-heat-wave-reaches-the-poors-stove-00-04.html)web.archive.orgUsed on: How heat is reported
 
 - [Archived copy](https://web.archive.org/web/20260719140856/https://ekantipur.com/news/2026/05/23/hot-winds-increasing-risk-to-public-life-in-western-nepal-47-56.html)web.archive.orgUsed on: How heat is reported
@@ -2169,6 +2345,8 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 - [Archived copy](https://web.archive.org/web/20240825084518/https://ekantipur.com/news/2024/06/01/the-maximum-temperature-is-43-degrees-but-what-is-the-heat-for-the-poor-57-49.html)web.archive.orgUsed on: How heat is reported
 
 - [Archived copy](https://web.archive.org/web/20240528073813/https://www.reuters.com/world/india/indias-heat-delhi-labourers-toil-red-hot-conditions-2024-05-23/)web.archive.orgUsed on: How heat is reported
+
+- [Das and Somanathan, Environmental Research Letters, 2024](https://heathealth.info/resources/heat-causes-large-earnings-losses-for-informal-sector-workers-in-india/)heathealth.infoUsed on: How heat is reported
 
 - [IIED’s 2026 study](https://www.iied.org/22755iied)iied.orgUsed on: How heat is reported
 
@@ -3854,176 +4032,6 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [Website &nbsp;](https://www.ecozensolutions.com/ecofrost)ecozensolutions.comUsed on: The heat economy: businesses · The heat economy: money and support · The heat network
 
-- [Website &nbsp;](https://www.dulux.com.sg/en/products/dulux-weathershield-roof)dulux.com.sgUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.asianpaints.com/waterproofing-products/smartcare-damp-proof-ultra.html)asianpaints.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.bergerpaints.com/products/waterproofing/homeshield-roof-kool-and-seal)bergerpaints.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.i2cool.com/)i2cool.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.drfixit.co.in/search/results?q=Roofseal)drfixit.co.inUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://spacecool.jp/en/)spacecool.jpUsed on: The heat economy: businesses · The heat economy: money and support
-
-- [Website &nbsp;](https://www.greenjams.org/)greenjams.orgUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://gush.earth/)gush.earthUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.saint-gobain.co.in/)saint-gobain.co.inUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://atomberg.com/)atomberg.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.bajajelectricals.com/)bajajelectricals.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.crompton.co.in/)crompton.co.inUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://havells.com/)havells.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://khind.com.my/)khind.com.myUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://orientelectric.com/)orientelectric.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.usha.com/)usha.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.vguard.in/)vguard.inUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://superfan.in/)superfan.inUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.ambiator.com/)ambiator.comUsed on: The heat economy: businesses · The heat economy: money and support
-
-- [Website &nbsp;](https://www.coolant.co/)coolant.coUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.munters.com/en-gb/)munters.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.oxycom.com/)oxycom.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.seeleyinternational.com/)seeleyinternational.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://shop.symphonylimited.com/)shop.symphonylimited.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://bluefrontierac.com/)bluefrontierac.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.bluestarindia.com/)bluestarindia.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.carrier.com/commercial/en/in/)carrier.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://daikinindia.com/)daikinindia.comUsed on: The heat economy: businesses · The heat economy: money and support
-
-- [Website &nbsp;](https://www.dawlance.com.pk/air-conditioners)dawlance.com.pkUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.haier.com/in/)haier.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.johnsoncontrols.com/hvac-equipment)johnsoncontrols.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.lg.com/in/air-conditioners/)lg.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.midea.com/global)midea.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://in.mitsubishielectric.com/en/products-solutions/air-conditioning/)in.mitsubishielectric.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.panasonic.com/in/consumer/air-conditioners.html)panasonic.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://reetech.com.vn/)reetech.com.vnUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.trane.com/commercial/asia-pacific/in/en.html)trane.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.voltas.com/)voltas.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://waltonbd.com/air-conditioner)waltonbd.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.engie-sea.com/)engie-sea.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.tabreed.ae/)tabreed.aeUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://smartjoules.co.in/)smartjoules.co.inUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.spgroup.com.sg/sustainable-energy-solutions/district-cooling-and-heating)spgroup.com.sgUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://coldspace.id/)coldspace.idUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://coolcrop.in/)coolcrop.inUsed on: The heat economy: businesses · The heat economy: money and support
-
-- [Website &nbsp;](https://ddsolar.in/)ddsolar.inUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.godrejenterprises.com/commercial-appliances)godrejenterprises.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.inficold.com/products/solar-cold-storage)inficold.comUsed on: The heat economy: businesses · The heat economy: money and support
-
-- [Website &nbsp;](https://www.inspirafarms.com/)inspirafarms.comUsed on: The heat economy: businesses · The heat economy: money and support
-
-- [Website &nbsp;](https://keepitcool.africa/)keepitcool.africaUsed on: The heat economy: businesses · The heat economy: money and support
-
-- [Website &nbsp;](https://www.koolboks.com/)koolboks.comUsed on: The heat economy: businesses · The heat economy: money and support
-
-- [Website &nbsp;](https://www.kooltecheng.com/refrigeration-equipment/)kooltecheng.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.newleafdynamic.com/)newleafdynamic.comUsed on: The heat economy: businesses · The heat economy: money and support
-
-- [Website &nbsp;](https://paxel.co/id/home)paxel.coUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.phaesun.com/)phaesun.comUsed on: The heat economy: businesses · The heat economy: money and support
-
-- [Website &nbsp;](https://promethean-power.com/about-us/)promethean-power.comUsed on: The heat economy: businesses · The heat economy: money and support
-
-- [Website &nbsp;](https://rukart.co/)rukart.coUsed on: The heat economy: businesses · The heat economy: money and support
-
-- [Website &nbsp;](https://sokofresh.co.ke/)sokofresh.co.keUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://sundanzer.com/)sundanzer.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://superkul.id/)superkul.idUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.tan90thermal.com/)tan90thermal.comUsed on: The heat economy: businesses · The heat economy: money and support
-
-- [Website &nbsp;](https://tessol.in/tertiary-distribution-solutions/)tessol.inUsed on: The heat economy: businesses · The heat economy: money and support
-
-- [Website &nbsp;](https://www.ezcooldown.com/)ezcooldown.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.qoreperformance.com/)qoreperformance.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://techniche-intl.com/)techniche-intl.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://bodytrak.co/)bodytrak.coUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://epicorebiosystems.com/)epicorebiosystems.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://kestrelinstruments.com/kestrel-5400-heat-stress-tracker)kestrelinstruments.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://tsi.com/indoor-environments/products/heat-stress-monitors)tsi.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.climate-x.com/)climate-x.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.jupiterintel.com/)jupiterintel.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://support.tomorrow.io/hc/en-us/articles/38449597664532-Wet-Bulb-Globe-Temperature-WBGT-Premium-Layer)support.tomorrow.ioUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://xdi.systems/)xdi.systemsUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.bmedicalsystems.com/en/)bmedicalsystems.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://coolfinity.com/)coolfinity.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://dulas.org.uk/solar-refrigeration-for-hiv-aids-programmes-in-nigeriasolar/)dulas.org.ukUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.75f.io/)75f.ioUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://azendian.com/)azendian.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://bbp.sg/)bbp.sgUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://beebryte.com/)beebryte.comUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.sensorflow.co/)sensorflow.coUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.skycoolsystems.com/)skycoolsystems.comUsed on: The heat economy: businesses · The heat economy: money and support
-
-- [Website &nbsp;](https://climate.axa/)climate.axaUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.ibisa.network/en)ibisa.networkUsed on: The heat economy: businesses
-
-- [Website &nbsp;](https://www.swissre.com/our-business/public-sector-solutions/case-studies/india-extreme-heat-cover.html)swissre.comUsed on: The heat economy: businesses
-
 - [Wee and Lee, Pharmacological Reviews (summary by NUS Medicine, 2023)](https://medicine.nus.edu.sg/news/medications-for-chronic-diseases-affect-the-bodys-ability-to-regulate-body-temperature-keep-cool)medicine.nus.edu.sgUsed on: Weather, work and the person
 
 - [Wegman et al., WRS intervention, El Salvador, 2018 &nbsp;](https://www.sjweh.fi/article/3659)sjweh.fiUsed on: Solutions library
@@ -4031,8 +4039,6 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 - [Weitz, Mukhopadhyay and Das, International Journal of Biometeorology, 2022](https://pubmed.ncbi.nlm.nih.gov/35359160/)pubmed.ncbi.nlm.nih.govUsed on: Glossary · Who heat hits hardest
 
 - [Wellcome](https://wellcome.org/our-priorities/climate-and-health/extreme-heat)wellcome.orgUsed on: Home page · The heat network
-
-- [West Bengal State Action Plan on Climate Change and Human Health &nbsp;](https://ncdc.mohfw.gov.in/uploads/pdf/state32.pdf)ncdc.mohfw.gov.inUsed on: India snapshot
 
 - [Wet-bulb globe temperature: National Environment Agency, Singapore, via data.gov.sg](https://data.gov.sg/datasets/d_87884af1f85d702d4f74c6af13b4853d/view)data.gov.sgUsed on: Heat right now · Who could help a household through a hot season
 

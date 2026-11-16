@@ -233,11 +233,11 @@ CommitmentLatest development 27 October 2026
 
 Department of Labor and Employment, Philippines Philippines
 
-In October 2026 the Department of Labor and Employment issued guidelines requiring employers to protect workers from heat stress during El Niño, and set out how heat stress and heat-related illness at work are compensated.
+In October 2026 the Department of Labor and Employment issued a labour advisory setting out steps for employers as the heat index rises during El Niño and other periods of extreme heat, and a second advisory on when heat-related illness at work may be compensated.
 
 What is tracked (2 deliverables)
 
-#### Guidelines requiring employers to protect workers from heat stress Rule or guideline
+#### Labour advisory on preventing and managing heat stress at work Rule or guideline
 
 - AdoptedAdopted, 27 October 2026: reported
 
@@ -251,7 +251,7 @@ Announced: no separate evidence recorded. Delivered: not verified in the sources
 
 Evidence, history and what is not known
 
-#### Guidelines requiring employers to protect workers from heat stress
+#### Labour advisory on preventing and managing heat stress at work
 
 - 27 October 2026 **Adopted**. Workplace heat stress guidelines issued
 
@@ -262,15 +262,16 @@ Reports Labor Advisory No. 20, released on 27 October: employers document hazard
 
 Not known yet
 
-- The advisory text itself: not read; the Department’s pages turn away automated checks
-- Its effective date and coverage: not verified
-- Whether it replaces the 2023 labour advisory on heat stress: not verified
+- The advisory text: read from a copy supplied by the site owner, a scan; not checked automatically, as the Department's pages turn away automated readers
+- Its effective date: the copy read states none
+- Whether it replaces the 2023 labour advisory on heat stress: the copy read does not mention it
+- Coverage, as read: private-sector employers and workers; not verified against a checked source
 
 What would change this recordThe advisory text, and workplaces applying it.
 
 #### Rules on compensation for heat stress and heat-related illness at work
 
-- 24 October 2026 **Adopted**. Guidelines on compensation for heat-related illness issued
+- 24 October 2026 **Adopted**. Guidelines on compensation for heat-related illness issued; the copy read is stamped 23 October 2026
 
 - [Daily Tribune, 2026: DOLE sets compensation rules for heat-related illnesses](https://tribune.net.ph/2026/10/24/dole-sets-compensation-rules-for-heat-related-illnesses) Secondary
 Reports the Department setting compensation rules for heat-related illness. reported: checked 15 November 2026 for “heat”, “compensation”
@@ -279,11 +280,12 @@ Reports that heat stroke, heat cramps and heat exhaustion remain compensable und
 
 Not known yet
 
-- The advisory text itself: not read; the Department’s pages turn away automated checks
-- Whether further conditions are covered now or still under review: reports differ, and the advisory text was not read
+- The advisory text: read from a copy supplied by the site owner; not checked automatically, as the Department's pages turn away automated readers
+- Five further conditions: as read, the advisory recognises them as associated with extreme heat, and the Employees' Compensation Commission resolution attached to it places them under technical review for possible inclusion; news reports differ
+- Other heat-related illnesses: as read, may be compensable where working conditions raised the risk, shown by substantial evidence
 - Claims filed or paid: not verified
 
-What would change this recordCompensation claims for heat illness being filed and paid.
+What would change this recordThe technical review's recommendation, and compensation claims for heat illness being filed and paid.
 
 ReviewRecord last reviewed 16 November 2026. Sources last checked 16 November 2026. Next review due 16 February 2027. [What a review covers](#sg-method)
 

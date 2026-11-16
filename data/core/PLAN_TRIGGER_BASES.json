@@ -21,7 +21,7 @@
   {
     "id": "index",
     "name": "Heat index (‘feels like’: temperature and humidity)",
-    "eg": "The Philippines warns at four levels: caution at 27–32 °C, extreme caution at 33–41 °C, danger at 42–51 °C, and extreme danger at 52 °C or more. Schools can suspend classes at danger levels. A labour advisory of October 2026 ties employers’ duties to the same levels, as reported: drinking water and ventilated rest spots from caution, routine rest from extreme caution, flexible work arrangements at danger, and a re-evaluation of tasks, with possible rescheduling or relocation, at extreme danger.",
+    "eg": "The Philippines warns at four levels: caution at 27–32 °C, extreme caution at 33–41 °C, danger at 42–51 °C, and extreme danger at 52 °C or more. Schools can suspend classes at danger levels. A labour advisory of October 2026 ties employers’ duties to the same levels, as reported: drinking water and ventilated rest spots from caution, routine rest from extreme caution, flexible work arrangements at danger, and a reassessment of the work, with possible rescheduling or relocation, at extreme danger.",
     "sources": [
       {
         "label": "GMA News on PAGASA’s heat index levels",

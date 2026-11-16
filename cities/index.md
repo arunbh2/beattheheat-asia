@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in 22 Asian cities | Common Shade"
 url: https://beattheheat.asia/cities/
-updated: 2026-11-15
+updated: 2026-11-16
 licence: CC BY 4.0
 ---
 

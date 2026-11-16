@@ -31,6 +31,44 @@ News reports differ. Some say five further conditions (heat syncope, heat rash, 
   - updated unknowns on the record
   - one sentence in `PLAN_TRIGGER_BASES` `index` tying employers' duties to the same levels, as reported
 
+## Pass 2 (16 November 2026): the texts, read from copies the owner downloaded in a browser
+Both copies came from the Bureau of Working Conditions' issuances page. Labor Advisory No. 19 was read with pdftotext (the scanner's text layer). Labor Advisory No. 20 is an image scan with no text layer, and was read by eye; its signature block is blacked out in the copy. Neither copy can be checked automatically, so the site's evidence states stay "reported by secondary sources", and the record names the read as such.
+
+**Labor Advisory No. 19, s. 2026** (stamped 23 October 2026)
+- **Section 1:** it covers workers in the Employees' Compensation Program (SSS and GSIS members) exposed to excessive heat, outdoor and indoor.
+- **Section 2:** heat stroke, heat cramps and heat exhaustion "may be compensable". Other heat-related illnesses "may likewise be compensable, provided that the worker's working conditions increased his or her risk".
+- **Section 2, the five conditions:** heat syncope, heat rash, rhabdomyolysis, dehydration resulting in kidney injury, and neurological disorders "are recognized as illnesses associated with extreme heat conditions", under ECC Board Resolution No. 26-10-40 (22 October 2026).
+- **The attached resolution:** it recognises them "subject to technical review for possible inclusion under the Employees' Compensation Program", and creates a Technical Review Panel to recommend a policy.
+- **Section 4:** PAGASA heat index classifications "may be considered as supporting evidence".
+- **Section 5:** employers keep records and help workers file claims; the supporting records include the HIRAC.
+- **Section 6:** the worker "must prove by substantial evidence" that work "materially contributed".
+- **What this settles:** both camps of news reports were partly right. The five conditions are recognised as associated with extreme heat, and their formal inclusion is under technical review. Meanwhile any heat illness may be compensable where work raised the risk. The vendor guide's "also recognised" was incomplete.
+
+**Labor Advisory No. 20, s. 2026** (stamped 27 October 2026)
+- **Section 1:** all private-sector employers and workers. The public sector follows a separate joint circular and administrative order.
+- **Section 2:** a documented HIRAC, made in consultation with workers. Forecasts are checked against workplace measurements, and the HIRAC is updated on PAGASA advisories and changed conditions.
+- **Section 3:** the same four bands as published.
+  - Caution (27-32 °C): water, shaded rest areas, uniforms, reminders, training.
+  - Extreme caution (33-41 °C): structured rest-shift-hydration cycles, cool-down areas with active cooling, a buddy system, PPE, high-exertion tasks moved to cooler hours, first-aiders.
+  - Danger (42-51 °C): flexible work arrangements, made "with the concurrence of affected workers", for example avoiding outdoor work from 12:00 to 3:00 p.m. Total working hours are kept, and the arrangements "shall not substitute for necessary workplace controls".
+  - Extreme danger (52 °C and above): the work is reassessed, and suspended, relocated, rescheduled or substantially modified where the risk cannot be adequately controlled. "Continuity of service shall not justify exposing workers to imminent danger."
+- **Section 6:** SSS enrolment "regardless of the nature of engagement".
+- **Section 8:** heat illnesses are recorded in medical logs and the Annual Medical Report, and a Work Accident/Illness Report goes in within 24 hours for serious incidents.
+- **Section 9:** employers and workers are "enjoined to observe" the guidelines. Violations of mandatory OSH standards fall under RA 11058.
+- **Not in the text:** no effective-date clause, no repeal or supersede clause, and no mention of the 2023 advisory.
+
+**Outcomes**
+- **Question 3 is decided: no edit.** The 2023 line on the paid rest breaks card stays, because Labor Advisory No. 20 does not mention it.
+- **Question 2:** the condition on Labor Advisory No. 19 is met. What remains is official pages for eight schemes.
+- **Applied:**
+  - the Signals summary reworded to the documents' own force (an advisory "setting out steps")
+  - unknowns that state what was read and what remains open, including the technical review
+  - the 23 October stamp noted, with the date left at the checked 24 October
+  - "reassessment of the work" in the trigger basis, which the checked report also supports
+- **Held back:** the El Niño forecast footnote, officials' names, any effective date, "now compensable", "replaces the 2023 advisory", and the danger-level details that rest only on the unchecked scan.
+
+**Open for the owner:** whether to host an unaltered copy of Labor Advisory No. 19 on the site, so the check can read it. Its evidence would then read "checked against an original", although the checker would be reading a copy the site supplied.
+
 ## Decisions (16 November 2026, recommended by the advisory review and taken by Claude for the owner's approval)
 1. **Official texts.** Pass 1 showed that DOLE's sites turn away every automated reader, on GitHub as well as in this session. A link alone therefore cannot get the originals checked. The owner downloads the two advisories in a browser from the Bureau of Working Conditions' issuances page. Claude then reads them with pdftotext and records each claim against the text in this ledger. No PDF link is guessed, and the site's bot check is not bypassed.
 2. **Philippines social protection.** Do it, as its own pull request in the existing `2026-11-social-protection` batch, once Labor Advisory No. 19 has been read (the Employees' Compensation record depends on it) and at least eight public schemes each have an official page. Until then it is held, with the candidate scheme list in this folder's notes.

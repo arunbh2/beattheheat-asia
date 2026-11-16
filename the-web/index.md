@@ -1,7 +1,7 @@
 ---
 title: "The web of extreme heat: every consequence, system by system | Common Shade"
 url: https://beattheheat.asia/the-web/
-updated: 2026-11-14
+updated: 2026-11-16
 licence: CC BY 4.0
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in Jakarta: plans, cycles and who is at work | Common Shade"
 url: https://beattheheat.asia/cities/jakarta/
-updated: 2026-11-15
+updated: 2026-11-16
 licence: CC BY 4.0
 ---
 
