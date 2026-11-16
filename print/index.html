@@ -424,10 +424,10 @@ var today=new Date().toISOString().slice(0,10);
 /* changed since your last visit, and a new monthly brief */
 (function(){var visits=load("cs-visits",{}),last=visits[here],changed=document.body.getAttribute("data-changed")||"",notes=[];
  if(last&&changed&&changed>last)notes.push('<span>Updated since your last visit</span><a href="/whats-new/">See what changed this month</a>');
- var brief="2026-10";
+ var brief="2026-11";
  /* the monthly brief: on every page of every visit (site owner's choice), resting for the rest of a visit once answered */
  var briefRest;try{briefRest=sessionStorage.getItem("cs-brief-rest")}catch(e){}
- if(brief&&!briefRest&&here!=="/whats-new/")notes.push('<span>New: the October 2026 State of the field</span><a href="/whats-new/" data-csn-briefread>Read it</a><button type="button" data-csn-dismiss>Not now</button>');
+ if(brief&&!briefRest&&here!=="/whats-new/")notes.push('<span>New: the November 2026 State of the field</span><a href="/whats-new/" data-csn-briefread>Read it</a><button type="button" data-csn-dismiss>Not now</button>');
  if(here==="/whats-new/"&&brief)save("cs-brief-seen",brief);
  visits[here]=today;save("cs-visits",visits);
  if(!notes.length)return;var bar=document.createElement("div");bar.className="csn-new";bar.setAttribute("role","status");bar.innerHTML=notes.join(" ");

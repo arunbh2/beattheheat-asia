@@ -78,7 +78,7 @@ What it took to add this
 - **The checking.** Each source was opened and read for the terms and numbers it was cited for: 5 confirmed.
 - **What we set aside.** 13 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
 
-- **What is still open.** The November edition is a draft awaiting the owner's review; the Philippines advisory texts have not been located.
+- **What is still open.** The Philippines advisory texts behind the November edition have not been located; the edition says so.
 
 See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-10/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/sof-rebuild/README.md)
 
@@ -88,7 +88,7 @@ How it connects
 The October edition's opportunity concerns heat-safe work, with what the evidence supports and what the funding trace cannot see.
 
 [Read State of the field](https://beattheheat.asia/whats-new/)
-[October 2026 edition](https://beattheheat.asia/whats-new/2026-10/)
+[November 2026 edition](https://beattheheat.asia/whats-new/2026-11/)[October 2026 edition](https://beattheheat.asia/whats-new/2026-10/)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=State%20of%20the%20field%20becomes%20a%20dated%2C%20sourced%20monthly%20briefing%20with%20an%20archive&ref=g-state-of-the-field-editions#way-share)
 

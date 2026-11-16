@@ -377,11 +377,11 @@ html:has(> body > .ticker:not([hidden])) { --tk-h: 34px; }
       <details class="gw-took"><summary>What it took to add this</summary><ol class="gw-steps">
         <li><b>The question.</b> What does a monthly briefing on heat need, so a reader can trust it, trace it and act on it?</li><li><b>The search.</b> 5 sources were gathered for checking.</li>
         <li><b>The checking.</b> Each source was opened and read for the terms and numbers it was cited for: 5 confirmed.</li><li><b>What we set aside.</b> 13 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.</li>
-        <li><b>What is still open.</b> The November edition is a draft awaiting the owner's review; the Philippines advisory texts have not been located.</li></ol>
+        <li><b>What is still open.</b> The Philippines advisory texts behind the November edition have not been located; the edition says so.</li></ol>
         <p class="gw-files">See for yourself: <a href="/data/inbox/2026-10/link-check.json">the check results</a> · <a href="/research/2026-11/sof-rebuild/README.md">what was set aside, and why</a></p></details>
       <details class="gw-conn"><summary>How it connects</summary><ul><li><a href="/actions/#heatrules">Heat-safe work</a> <span class="gw-meta">Action · from the site's records</span><br>The October edition's opportunity concerns heat-safe work, with what the evidence supports and what the funding trace cannot see.</li></ul></details>
       <div class="gw-acts"><a class="gw-btn" href="/whats-new/">Read State of the field<span aria-hidden="true"> →</span></a>
-        <a class="gw-alt" href="/whats-new/2026-10/">October 2026 edition</a>
+        <a class="gw-alt" href="/whats-new/2026-11/">November 2026 edition</a><a class="gw-alt" href="/whats-new/2026-10/">October 2026 edition</a>
         <button type="button" class="gw-alt gw-show" data-show="g-state-of-the-field-editions" hidden>Show in the canopy</button></div>
       <p class="gw-improve">Know something that would improve this? <a href="/join/?about=State%20of%20the%20field%20becomes%20a%20dated%2C%20sourced%20monthly%20briefing%20with%20an%20archive&amp;ref=g-state-of-the-field-editions#way-share">Share evidence, experience or a correction</a></p>
     </article><article class="gw-card" id="g-heat-ready-social-security" data-kind="evidence" data-root="practical" data-added="2026-11-15" data-places="region india thailand singapore" data-people="workers women" data-topics="socialprotection poverty" tabindex="-1">
@@ -1422,10 +1422,10 @@ var today=new Date().toISOString().slice(0,10);
 /* changed since your last visit, and a new monthly brief */
 (function(){var visits=load("cs-visits",{}),last=visits[here],changed=document.body.getAttribute("data-changed")||"",notes=[];
  if(last&&changed&&changed>last)notes.push('<span>Updated since your last visit</span><a href="/whats-new/">See what changed this month</a>');
- var brief="2026-10";
+ var brief="2026-11";
  /* the monthly brief: on every page of every visit (site owner's choice), resting for the rest of a visit once answered */
  var briefRest;try{briefRest=sessionStorage.getItem("cs-brief-rest")}catch(e){}
- if(brief&&!briefRest&&here!=="/whats-new/")notes.push('<span>New: the October 2026 State of the field</span><a href="/whats-new/" data-csn-briefread>Read it</a><button type="button" data-csn-dismiss>Not now</button>');
+ if(brief&&!briefRest&&here!=="/whats-new/")notes.push('<span>New: the November 2026 State of the field</span><a href="/whats-new/" data-csn-briefread>Read it</a><button type="button" data-csn-dismiss>Not now</button>');
  if(here==="/whats-new/"&&brief)save("cs-brief-seen",brief);
  visits[here]=today;save("cs-visits",visits);
  if(!notes.length)return;var bar=document.createElement("div");bar.className="csn-new";bar.setAttribute("role","status");bar.innerHTML=notes.join(" ");

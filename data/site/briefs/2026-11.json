@@ -1,13 +1,12 @@
 {
  "schema": 2,
  "id": "2026-11",
- "status": "draft",
+ "status": "published",
  "period": {
   "from": "2026-11-01",
-  "to": "2026-11-30"
+  "to": "2026-11-15"
  },
  "cutoff": "2026-11-15",
- "review_note": "Draft prepared from records checked by 15 November 2026, for editorial review. Not published. The Philippines item rests on secondary reports; consider holding it until the advisory text is located.",
  "argument": {
   "headline": "A heat rule for outdoor work is scheduled to take effect; whether rules reach workers is not yet visible",
   "claim": "Singapore's heat stress measures for outdoor work, announced on 28 August 2026, are scheduled to become mandatory on 1 December 2026. Two further developments on heat at work were reviewed this month, but rest on secondary reports. None of this yet shows whether rules are applied on worksites, or whom they reach.",
@@ -377,5 +376,13 @@
    "fp": "d99fca3f6e37"
   }
  },
- "revisions": []
+ "revisions": [
+  {
+   "date": "2026-11-16",
+   "kind": "published",
+   "note": "First published."
+  }
+ ],
+ "published": "2026-11-16",
+ "approved": "Site owner, by approving publication and merging the pull request"
 }

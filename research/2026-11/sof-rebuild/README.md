@@ -38,9 +38,9 @@ The brief: make /whats-new/ the monthly briefing that helps someone working on h
   - the roles are kept generic
 
 ## November 2026
-A draft (`data/site/briefs/drafts/2026-11.json`, cut-off 15 November 2026) awaits the owner's review. It rests on:
+Drafted for review, then published on 16 November 2026 at the owner's instruction. Its reporting period was set to 1 to 15 November 2026 to match the evidence cut-off, so the edition does not claim days that had not yet happened. It rests on:
 - one rule checked against its original source (Singapore, scheduled to take effect on 1 December 2026)
-- guidelines known only from news reports (the Philippines; the advisory texts were not located)
+- guidelines known only from news reports (the Philippines; the advisory texts were not located, and the edition says so)
 - a survey reported by a ministry (Viet Nam)
 
 It revisits October's question honestly: no new evidence by the cut-off.

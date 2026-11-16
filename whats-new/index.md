@@ -5,7 +5,7 @@ updated: 2026-11-16
 licence: CC BY 4.0
 ---
 
-> State of the field, October 2026: Support announced for the work between institutions, with amounts and delivery still to show. A monthly briefing on extreme heat in South and Southeast Asia, with its sources and dates.
+> State of the field, November 2026: A heat rule for outdoor work is scheduled to take effect; whether rules reach workers is not yet visible. A monthly briefing on extreme heat in South and Southeast Asia, with its sources and dates.
 
 News and evidence
 
@@ -13,157 +13,157 @@ News and evidence
 
 A monthly briefing on heat resilience in South and Southeast Asia: one argument about what changed, what the evidence establishes, what it could mean for decisions, and what to watch next.
 
-Latest published editionOctober 2026
+Latest published editionNovember 2026
 
-## Support announced for the work between institutions, with amounts and delivery still to show
+## A heat rule for outdoor work is scheduled to take effect; whether rules reach workers is not yet visible
 
-**Reporting period**: 1 to 31 October 2026
+**Reporting period**: 1 to 15 November 2026
 
-**Evidence cut-off**: 31 October 2026
+**Evidence cut-off**: 15 November 2026
 
-**Published**: 31 October 2026
-
-**Revised**: [16 November 2026](#revisions)
-
-Corrected 16 November 2026Narayanganj's heat plan was approved on 22 September 2025; October 2026 is when it was reported. [What changed](#revisions)
+**Published**: 16 November 2026
 
 ### The argument
 
-Two philanthropic announcements this year name support for shared evidence and coordination across institutions, the roles our funding trace found thinnest. Both are announcements: neither amount was disclosed, and no payment has been verified.
+Singapore's heat stress measures for outdoor work, announced on 28 August 2026, are scheduled to become mandatory on 1 December 2026. Two further developments on heat at work were reviewed this month, but rest on secondary reports. None of this yet shows whether rules are applied on worksites, or whom they reach.
 
-**What this rests on.** Two announcements found in public sources up to 31 October 2026, one from February and one from October. Two announcements are a signal worth following, not evidence of a regional trend. Our funding trace covers public announcements, mostly investment in businesses; public budgets and employers' own spending are not in it.
+**What this rests on.** One rule checked against its original source, one set of guidelines known only from news reports, and one survey reported by a ministry. Three items do not make a regional trend; they show where evidence of implementation would need to come from.
 
-The first Global Heat Forum met in Bangkok from 6 to 9 October 2026 and released the first country heat and health assessments for Bangladesh, Bhutan, India and Nepal. Two days later, support was announced for the next stage of the Southeast Asia Heat Health Hub. Read beside a February announcement for South Asia that Common Shade first reviewed this month, both name support for the coordinating and evidence work that sits between health agencies, weather services and cities. This edition sets out what each source establishes, and what it does not.
+This month's most consequential date falls just after the cut-off: on 1 December 2026, heat stress measures for outdoor work in Singapore move from advice to requirement. The Philippines issued workplace heat guidelines and compensation rules in October, though their text was not located among the sources checked. A survey in Viet Nam's two largest cities shows why the question matters. What none of these sources can yet show is whether the rules are applied, and whether they reach subcontracted and migrant workers.
 
 ### In brief
 
-- [Support announced for the Southeast Asia Heat Health Hub's next stage](#dev-sea-hub): Announced on 8 October 2026, with heat-health work named in Indonesia and Thailand for 2027; the amount was not disclosed.
-- [A February announcement for South Asia, first reviewed this month](#dev-south-asia-desk): Announced on 20 February 2026 and added to Common Shade in October: a climate-health desk and a research consortium on heat-risk thresholds; amounts were not disclosed.
-- [The Global Heat Forum, and a city heat plan reported for Bangladesh](#dev-forum-assessments): The Forum (6 to 9 October 2026) released four country heat and health assessments; Bangladesh's reports Narayanganj's heat action plan, which the plan itself records as approved on 22 September 2025.
-- [Opportunity](#opportunity): Heat-safe work: solutions measured in studies, little funding traced.
-- [Open question](#question): How do heat-health pilots in Southeast Asia keep their institutional footing once their first funding ends?
+- [Singapore's heat stress measures for outdoor work become mandatory on 1 December](#dev-singapore-rule): Announced on 28 August 2026 and scheduled to take effect on 1 December 2026; the date alone will not show compliance.
+- [The Philippines issues heat stress guidelines and compensation rules, as reported](#dev-philippines-guidelines): Reported on 24 and 27 October 2026; the advisory texts were not located among the sources checked.
+- [A survey of outdoor workers in Viet Nam shows why the question matters](#dev-viet-nam-survey): A 2026 survey in Hanoi and Ho Chi Minh City, reported by a ministry, found most outdoor workers report a heat-related health problem during heatwaves; it is a finding, not a rule.
+- [Opportunity](#opportunity): Making a workplace heat rule checkable.
+- [Open question](#question): When a heat rule for outdoor work takes effect, what public record would show whether it reaches subcontracted and migrant workers?
 
-[Download the briefing (.md)](https://beattheheat.asia/whats-new/2026-10/briefing.md)
+[Download the briefing (.md)](https://beattheheat.asia/whats-new/2026-11/briefing.md)
 
 ### Developments worth understanding [#](#developments)
 
-#### Support announced for the Southeast Asia Heat Health Hub's next stage
+#### Singapore's heat stress measures for outdoor work become mandatory on 1 December
 
-**Happened** 8 October 2026 · Announced**Reviewed by Common Shade** 31 October 2026
+**Happened** 28 August 2026 · Announced; scheduled to take effect on 1 December 2026**Reviewed by Common Shade** 15 November 2026Outside this edition's period
 
-Common Shade's reading Regional sharing of heat-health evidence gains support for a further stage, with named work in two countries. It is one of the coordinating roles that our trace of where money goes found thinnest.
+**Why it is in this edition.** Announced in August, before this edition's period, and first reviewed by Common Shade on 15 November 2026. It is included because it takes effect two weeks after the cut-off, which makes it the month's most consequential date.
 
-What the sources establish, the limits, and what would change this
-
-- Philanthropy Asia Alliance announced support for the next stage of the Global Heat Health Information Network's Southeast Asia Hub, including heat-health work in Indonesia (Makassar and two more cities) and Thailand in 2027, and preparations for a second Southeast Asia Heat Health Forum. The amount was not disclosed. [[1]](#src-paa)
-
-**What this establishes.** That the support was announced, and the places it names. It does not establish an amount, a period, or that money has been committed or paid.
-
-Original source, 8 October 2026 · Content checked 31 October 2026
-
-Limits
-
-- An announcement is not money received: the amount, the period and any payment are not disclosed.
-- No application route was verified; this is not an open funding call.
-
-What would strengthen or change this reading
-
-A published amount or grant agreement, and heat-health work starting in the named cities in 2027.
-
-[The Signals record](https://beattheheat.asia/signals/#sig-sea-heat-health-hub-2026)[The role money plays](https://beattheheat.asia/heat-economy/flows/#roles)
-
-#### A February announcement for South Asia, first reviewed this month
-
-**Happened** 20 February 2026 · Announced**Reviewed by Common Shade** 31 October 2026Outside this edition's period
-
-**Why it is in this edition.** It was announced in February 2026, before this edition's period, and Common Shade first reviewed and added it in October 2026. It is included because, read beside the Hub announcement, it names support for the same kind of role. It is not an October event.
-
-Common Shade's reading Support for shared heat-risk thresholds and evidence across South Asia, a role that sits between health agencies and weather services rather than inside either.
+Common Shade's reading A requirement, rather than advice, can give workers, worker organisations and inspectors a common standard to refer to. Its value will show in how it is applied, which no source can show before 1 December.
 
 What the sources establish, the limits, and what would change this
 
-- The World Meteorological Organization reported on 20 February 2026 that two philanthropic foundations fund a South Asia Climate-Health Desk under the WHO-WMO Climate and Health Joint Programme, and a South Asia Scientific Research Consortium, through a grant to IISER Pune, to develop tailored heat-risk thresholds. Amounts were not disclosed. The funders are named in the funding record. [[2]](#src-wmo)
+- The Ministry of Manpower announced on 28 August 2026 enhancements to its heat stress framework that take effect on 1 December 2026. [[1]](#src-mom)
 
-**What this establishes.** That the funding was announced, and for what. It does not establish amounts, that money has been paid, or that thresholds have been published.
+**What this establishes.** The announcement and the effective date. It does not establish how compliance will be inspected or reported.
 
-Secondary report, 20 February 2026 · Content checked 31 October 2026
+Original source, 28 August 2026 · Content checked 15 November 2026
+
+- A legal update describes the measures, including drinking water, as mandatory for outdoor work from 1 December 2026. [[2]](#src-rajah-tann)
+
+**What this establishes.** What the measures include, as read by a law firm. It is a secondary account, not the legal text.
+
+Secondary report, 2026 · Content checked 15 November 2026
 
 Limits
 
-- Amounts were not disclosed, and money committed or paid is not verified.
-- The source is a report by one of the bodies hosting the desk, not the funders' own grant records.
+- An effective date is not compliance.
+- How the measures reach subcontracted and migrant workers is not assessed in the sources checked.
 
 What would strengthen or change this reading
 
-Tailored heat-risk thresholds published for use in warnings, and the consortium's first published research.
+Inspection or enforcement reports after 1 December 2026, and the legal text that sets the duties.
 
-[The Signals record](https://beattheheat.asia/signals/#sig-south-asia-climate-health-desk-2026)[Follow the money](https://beattheheat.asia/heat-economy/flows/)
+[The Signals record](https://beattheheat.asia/signals/#sig-singapore-mandatory-heat-measures-2026)[Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 
-#### The Global Heat Forum, and a city heat plan reported for Bangladesh
+#### The Philippines issues heat stress guidelines and compensation rules, as reported
 
-**Happened** 6 October 2026 · The Forum opened (6 to 9 October 2026)**Reviewed by Common Shade** 31 October 2026
+**Happened** 27 October 2026 · Guidelines reported issued (compensation rules on 24 October, workplace guidelines on 27 October)**Reviewed by Common Shade** 15 November 2026Outside this edition's period
 
-Common Shade's reading A gathering and four assessments are steps in shared understanding, not protection delivered. The Narayanganj plan matters as a first city plan in Bangladesh; it is older than this edition, and whether its actions have budget lines is not verified.
+**Why it is in this edition.** Issued in late October and first reviewed by Common Shade in November. Included because it adds compensation for heat illness to workplace rules, a step beyond prevention.
+
+Common Shade's reading Compensation rules would mean heat illness at work is recognised as a work injury, which matters for workers' income when heat stops work. That reading depends on the text, which has not been seen.
 
 What the sources establish, the limits, and what would change this
 
-- Nearly 600 scientists, business leaders, philanthropists and health experts met in Bangkok from 6 to 9 October 2026. The Forum released the first country-level heat and health assessments for Bangladesh, Bhutan, India and Nepal, and a roadmap for investment and action on extreme heat. [[3]](#src-climateworks)
+- The Department of Labor and Employment issued guidelines requiring employers to protect workers from heat stress during El Niño. [[3]](#src-tribune-guidelines)
 
-**What this establishes.** That the Forum took place and released the assessments and a roadmap. A roadmap is not funding, and the source is a press release from an organiser.
+**What this establishes.** That a news report describes the guidelines. The advisory text itself, its coverage and its effective date are not verified.
 
-Secondary report, 6 October 2026 · Content checked 31 October 2026
+Secondary report, 27 October 2026 · Content checked 15 November 2026
 
-- Bangladesh's heat and health assessment, released at the Forum, notes the country's first urban heatwave action plan, for Narayanganj, alongside national guidelines on heat-related illness and a public campaign. [[4]](#src-prothomalo)
+- The Department set out how heat stress and heat-related illness at work are compensated. [[4]](#src-tribune-compensation)
 
-**What this establishes.** That the assessment reports the plan. It does not date the plan.
+**What this establishes.** That a news report describes the rules. Claims filed or paid are not verified.
 
-Secondary report, 8 October 2026 · Content checked 31 October 2026
-
-- The plan itself records its approval by Narayanganj City Corporation on 22 September 2025, and gives each short-term action a tentative cost with potential funding sources. [[5]](#src-ncc-plan)
-
-**What this establishes.** That the plan is a 2025 development, reported in October 2026. Costs and potential funders in a plan are not budget lines. The approval date was read from the plan's front matter by a reviewer; the site's automated check confirmed the plan's text but did not test the date.
-
-Original source, 22 September 2025 · Content checked 9 November 2026
+Secondary report, 24 October 2026 · Content checked 15 November 2026
 
 Limits
 
-- Some reports described a four-country initiative or coalition. Established sources describe four country assessments, so that framing was held back.
-- The Narayanganj plan was approved in September 2025; October 2026 is when it was reported, not when it happened.
+- Both items rest on news reports; the original advisories were not located among the sources checked.
+- Guidelines are not implementation, and compensation rules are not compensation paid.
 
 What would strengthen or change this reading
 
-Budget lines for the Narayanganj plan's actions, and the Forum roadmap's investments becoming funded commitments.
+The advisory texts, and compensation claims for heat illness being filed and paid.
 
-[The Forum on Signals](https://beattheheat.asia/signals/#sig-global-heat-forum-2026)[The Narayanganj plan on Signals](https://beattheheat.asia/signals/#sig-narayanganj-hap)[Corrections](https://beattheheat.asia/corrections/)
+[The Signals record](https://beattheheat.asia/signals/#sig-philippines-heat-stress-advisories-2026)[Heat-ready social security](https://beattheheat.asia/briefs/heat-ready-social-security/)
+
+#### A survey of outdoor workers in Viet Nam shows why the question matters
+
+**Happened** June 2026 · Survey reported**Reviewed by Common Shade** 15 November 2026Outside this edition's period
+
+**Why it is in this edition.** Reported in June 2026 and first reviewed by Common Shade in November. Included as context for the rules above: it describes the exposure the rules address, in two of the region's largest cities.
+
+Common Shade's reading Self-reported problems at this scale suggest the exposure that workplace rules address is common in large cities, not confined to a few trades.
+
+What the sources establish, the limits, and what would change this
+
+- A 2026 study with UNDP surveyed 734 outdoor workers in Hanoi and Ho Chi Minh City; 94% reported at least one heat-related health problem while working during heatwaves. [[5]](#src-ministry)
+
+**What this establishes.** What workers reported, as summarised by a ministry. The answers are self-reported, and how workers were sampled is not known until the original study is read.
+
+Secondary report, 2026 · Content checked 15 November 2026
+
+Limits
+
+- A secondary summary of the study, not the study itself.
+- Self-reported health problems are not diagnoses, and the sample may not represent all outdoor workers.
+
+What would strengthen or change this reading
+
+The original study, with its sampling and questions, and whether Viet Nam's labour or social protection rules add heat.
+
+[The Signals record](https://beattheheat.asia/signals/#sig-viet-nam-outdoor-workers-2026)[Ho Chi Minh City](https://beattheheat.asia/cities/hochiminh/)
 
 ### An opportunity the evidence supports [#](#opportunity)
 
-#### Heat-safe work: solutions measured in studies, little funding traced
+#### Making a workplace heat rule checkable
 
-Several solutions for safer work in the heat have been measured in a study, while our trace found no funding announcements for them; much of this work is paid from public budgets and by employers, which the trace cannot see.
+A rule's value shows in how it is applied; published inspection findings on heat would let workers, employers and funders see that, and no source checked shows such findings yet.
 
-**The problem**: Outdoor and indoor workers exposed to heat during working hours, and the pay and health they lose to it.
+**The problem**: Outdoor workers covered by new heat rules, including subcontracted and migrant workers who may be hardest to reach.
 
-**What to examine**: The solutions grouped under the heat-safe work action: measures at the workplace, set or encouraged by workplace rules.
+**What to examine**: Published inspection or enforcement findings on heat measures, by sector and by type of employment, so a rule's reach can be seen.
 
 The evidence and its limits
 
-- Solutions for safer work in the heat in the library have been measured in a study or independently evaluated, as shown on the evidence map. [[6]](#src-evidence-map)
+- How compliance with Singapore's measures will be inspected and reported is not set out in the sources checked. [[1]](#src-mom)
 
-**What this establishes.** That studies exist for these solutions in some settings. It does not establish that they work at scale or in every place.
+**What this establishes.** That the announcement sets the duties and the date. It does not describe reporting.
 
-Common Shade's own analysis, 31 October 2026 · Common Shade's own page
+Original source, 28 August 2026 · Content checked 15 November 2026
 
-- Not found Our funding trace found no funding announcements for heat-safe work. [[7]](#src-funding-trace)
+- For the Philippines guidelines, the advisory texts, coverage and effective dates were not located among the sources checked. [[3]](#src-tribune-guidelines)
 
-**What this establishes.** A gap in traced funding, not an absence of funding. **What was searched.** Public funding announcements traced by Common Shade up to 31 October 2026, mostly investment in businesses. Public budgets and employers' own spending are not covered.
+**What this establishes.** Only that a news report describes the guidelines.
 
-Common Shade's own analysis, 31 October 2026 · Common Shade's own page
+Secondary report, 27 October 2026 · Content checked 15 November 2026
 
 Limits
 
-- A study in one setting is not proof of effect at scale.
-- The trace cannot see public budgets or employers' spending, where much of this work is paid for.
+- Inspection records show what inspectors find, not every workplace.
+- Publishing findings depends on the inspectorate's own rules and capacity.
 
 Who could take part A proposal
 
@@ -171,129 +171,107 @@ A possible arrangement, for discussion. No organisation has agreed to it.
 
 **Authorise**: The authorities that set workplace rules
 
-**Deliver**: Employers, with worker organisations
+**Deliver**: Labour inspectorates, with employers' and workers' organisations
 
-**Finance**: Employers and public budgets, with philanthropy for evaluation
+**Finance**: Public budgets, with philanthropy or research funding for an independent review
 
 **Maintain**: Labour inspectorates and worker organisations
 
-**The main unresolved dependency**: Whether public budgets and employers already pay for this work, which the funding trace cannot see.
+**The main unresolved dependency**: Whether inspection findings are recorded by sector and type of employment, and can be published.
 
-**A next question to check locally**: Ask the labour authority, or a large employer of outdoor workers near you, which heat measures are budgeted and who pays for them.
+**A next question to check locally**: Ask the labour inspectorate where you work whether heat measures are part of its inspections, and whether its findings are published.
 
-[Stronger evidence, little funding traced](https://beattheheat.asia/evidence-map/#stronger)[Heat-safe work](https://beattheheat.asia/actions/#heatrules)[Who holds it up](https://beattheheat.asia/who-holds-it/)
+[Heat-safe work](https://beattheheat.asia/actions/#heatrules)[Heat-ready social security](https://beattheheat.asia/briefs/heat-ready-social-security/)[Heat Tool Finder](https://beattheheat.asia/heat-tools/)
 
 ### A question that matters for action [#](#question)
 
-#### What keeps a heat-health pilot going after its first grant?
+#### What public record would show whether a heat rule at work reaches the workers it covers?
 
-How do heat-health pilots in Southeast Asia keep their institutional footing once their first funding ends?
+When a heat rule for outdoor work takes effect, what public record would show whether it reaches subcontracted and migrant workers?
 
-**Why it matters now**: The support announced this month is for a next stage. Whether earlier pilots continued once funding ended bears on how such stages are designed.
+**Why it matters now**: A rule takes effect in Singapore on 1 December, and guidelines were reported in the Philippines in October. The first months after a rule takes effect are when a record of its reach is cheapest to start.
 
-**What is known**: A funder's own account of Southeast Asia notes that successful heat-health pilots often lose their institutional footing once funding ends. It is a single account, labelled uncertain.
+**What is known**: The rules and their dates are known from an official announcement and from news reports. Most outdoor workers surveyed in Viet Nam's two largest cities report heat-related health problems.
 
-**What is not known**: Which parts of a pilot continue, who pays for them, and why some stop.
+**What is not known**: How compliance is inspected and recorded, and whether records distinguish subcontracted and migrant workers.
 
-**Which decision depends on it**: How funders and public agencies design grants and hand-overs, for example whether a grant plans for running costs after it ends.
+**Which decision depends on it**: Whether worker organisations, inspectorates and funders invest in monitoring a rule's reach, and what that monitoring records.
 
-**What could answer it**: Following five to eight heat-health pilots for two years after their first funding, recording who kept which part going and why (our suggestion).
+**What could answer it**: An account from an inspectorate of how heat is inspected, or an independent review of a rule's first season, recording who is covered (our suggestion).
 
 The source behind what is known
 
-- A successful pilot often loses its institutional footing once funding ends, according to a funder's own account of the region. [[1]](#src-paa)
+- How compliance will be inspected and reported, and how far the measures reach subcontracted and migrant workers, are not assessed in the sources checked. [[1]](#src-mom)
 
-**What this establishes.** That one funder describes this pattern. It is not a study.
+**What this establishes.** Only that the announcement does not set this out.
 
-Original source, 8 October 2026 · Content checked 31 October 2026
+Original source, 28 August 2026 · Content checked 15 November 2026
 
-[The question on the evidence map](https://beattheheat.asia/evidence-map/#q-pilots-after-funding)[Sketch a portfolio](https://beattheheat.asia/build/)
+Revisiting the October 2026 question[How do heat-health pilots in Southeast Asia keep their institutional footing once their first funding ends?](https://beattheheat.asia/whats-new/2026-10/#question)
+
+**New evidence**: None was added to the knowledge base by the cut-off.
+
+**Did the reading change?**: No: the reading in October stands.
+
+**Still unresolved**: Which parts of a pilot continue after the first grant, and who pays for them.
+
+[The Singapore record](https://beattheheat.asia/signals/#sig-singapore-mandatory-heat-measures-2026)
 
 ### What to watch [#](#watch)
 
-- **Amounts and agreements for both announcements**Evidence that would matter: A published amount, grant agreement or annual report entry. [Signals](https://beattheheat.asia/signals/#sig-sea-heat-health-hub-2026)
-- **Heat-health work starting in Indonesia and Thailand in 2027**Evidence that would matter: Work under way in the named cities, with who runs it. [Signals](https://beattheheat.asia/signals/#sig-sea-heat-health-hub-2026)
-- **The Forum roadmap**Evidence that would matter: Investments named in it becoming funded commitments. [Signals](https://beattheheat.asia/signals/#sig-global-heat-forum-2026)
+- **Singapore's measures after 1 December 2026**Evidence that would matter: Inspection or enforcement reports, and the legal text. [Signals](https://beattheheat.asia/signals/#sig-singapore-mandatory-heat-measures-2026)
+- **The Philippines advisories**Evidence that would matter: The advisory texts, with coverage and effective dates. [Signals](https://beattheheat.asia/signals/#sig-philippines-heat-stress-advisories-2026)
+- **COP31's outcome on health and heat**Evidence that would matter: The closing synthesis on Signals, written only after review. [The COP31 watch](https://beattheheat.asia/signals/#cop31)
 
 ### For your work [#](#readers)
 
 One question each, drawn from this edition's evidence.
 
-**City and public-service teams**: Does your city's heat plan name a budget line for each action, and who holds it? Narayanganj's plan gives tentative costs and potential funders, which is a first step.
+**City and public-service teams**: Which outdoor workers does your city employ or contract, and would they be covered by a national heat rule?
 
-**Worker and community organisations**: Which heat measures at work are already paid for by employers or public budgets where you work? Our funding trace cannot see them.
+**Worker and community organisations**: When a heat rule takes effect, who will workers tell if it is not applied, and is that recorded?
 
-**Funders and philanthropic institutions**: Where support is announced for a next stage, what would show that the earlier stage continued once its first grant ended?
+**Funders and philanthropic institutions**: Would support for an independent review of a heat rule's first season show more than support for another pilot?
 
-**Researchers and ecosystem builders**: Could a two-year follow-up of a handful of heat-health pilots answer this edition's question, and who holds the records it would need?
+**Researchers and ecosystem builders**: What would an inspection record need to hold to show a rule's reach by type of employment?
 
 ### On Common Shade this month [#](#common-shade)
 
-The first monthly update to pass every check: new records joined the knowledge base and two were held back. New sections included the Atlas, the Evidence map, Follow the money, Who holds it up, Build protection, a public corrections log, Paying when heat strikes, and two simulations beside A week in the heat.
+Signals now tracks each commitment deliverable by deliverable, with what the evidence confirms. Every city page has heat today and heat over time, with a check that withdrew Bangkok's daytime trends after a change at the station. A policy brief sets out how social security could cushion lost work in the heat.
 
-[The Atlas](https://beattheheat.asia/atlas/)[Paying when heat strikes](https://beattheheat.asia/paying-when-heat-strikes/)[Live through a heatwave](https://beattheheat.asia/live-through-a-heatwave/)[The full record of changes, on Growing](https://beattheheat.asia/growing/)
+[Signals](https://beattheheat.asia/signals/)[Heat-ready social security](https://beattheheat.asia/briefs/heat-ready-social-security/)[Corrections](https://beattheheat.asia/corrections/)[The full record of changes, on Growing](https://beattheheat.asia/growing/)
 
 ### Sources [#](#sources)
 
-- [Philanthropy Asia Alliance supports Southeast Asia Heat Health Hub to scale coordinated action on extreme heat](https://www.eco-business.com/press-releases/philanthropy-asia-alliance-supports-southeast-asia-heat-health-hub-to-scale-coordinated-action-on-extreme-heat/), Philanthropy Asia Alliance, via Eco-Business
+- [Ministry of Manpower, Singapore, 2026: Enhancements to heat stress framework (from 1 December 2026)](https://www.mom.gov.sg/newsroom/press-releases/2026/0828-enhancements-to-heat-stress-framework)
 
-8 October 2026 · Original source · At this edition: Content checked 31 October 2026 · Checked again 7 November 2026 · [Archived copy](https://web.archive.org/web/20261031093344/https://www.eco-business.com/press-releases/philanthropy-asia-alliance-supports-southeast-asia-heat-health-hub-to-scale-coordinated-action-on-extreme-heat/)
+28 August 2026 · Original source · At this edition: Content checked 15 November 2026
 
-- [New initiatives launched to address extreme heat in South Asia](https://wmo.int/media/news/new-initiatives-launched-address-extreme-heat-south-asia), World Meteorological Organization
+- [Rajah & Tann Asia, 2026: Heat stress management framework to be enhanced from 1 December 2026](https://www.rajahtannasia.com/viewpoints/heat-stress-management-framework-to-be-enhanced-from-1-december-2026/)
 
-20 February 2026 · Secondary report · At this edition: Content checked 31 October 2026 · [Archived copy](https://web.archive.org/web/20260801014412/https://wmo.int/media/news/new-initiatives-launched-address-extreme-heat-south-asia)
+2026 · Secondary report · At this edition: Content checked 15 November 2026
 
-- [Global Heat Forum gathers 600 leaders to scale investment for extreme heat action](https://www.climateworks.org/press-release/global-heat-forum-gathers-600-leaders-to-scale-investment-for-extreme-heat-action/), ClimateWorks Foundation
+- [Daily Tribune, 2026: DOLE issues workplace heat stress guidelines](https://tribune.net.ph/2026/10/27/dole-issues-workplace-heat-stress-guidelines)
 
-6 October 2026 · Secondary report · At this edition: Content checked 31 October 2026 · [Archived copy](https://web.archive.org/web/20261007123528/https://www.climateworks.org/press-release/global-heat-forum-gathers-600-leaders-to-scale-investment-for-extreme-heat-action/)
+27 October 2026 · Secondary report · At this edition: Content checked 15 November 2026
 
-- [Bangladesh, 3 other South Asian countries launch new initiative to tackle extreme heat](https://en.prothomalo.com/environment/climate-change/qq8g2g85o8), Prothom Alo
+- [Daily Tribune, 2026: DOLE sets compensation rules for heat-related illnesses](https://tribune.net.ph/2026/10/24/dole-sets-compensation-rules-for-heat-related-illnesses)
 
-8 October 2026 · Secondary report · At this edition: Content checked 31 October 2026 · [Archived copy](https://web.archive.org/web/20261010212259/https://en.prothomalo.com/environment/climate-change/qq8g2g85o8)
+24 October 2026 · Secondary report · At this edition: Content checked 15 November 2026
 
-- [Narayanganj City Corporation: Heat Action Plan, 2025](https://southasia.iclei.org/wp-content/uploads/2026/02/Heat-Action-Plan_Narayanganj_Final_9th-Sept_2025_compressed.pdf)
+- [Ministry of Agriculture and Environment, Viet Nam, 2026: 94% of outdoor workers report heat-related health problems: UNDP report](https://en.mae.gov.vn/94-of-outdoor-workers-report-heatrelated-health-problems-undp-report-9432.htm)
 
-22 September 2025 · Original source · At this edition: Content checked 9 November 2026
-
-- [Common Shade: Stronger evidence, little funding traced](https://beattheheat.asia/evidence-map/#stronger)
-
-31 October 2026 · Common Shade's own analysis · At this edition: Common Shade's own page
-
-- [Common Shade: Follow the money (the funding trace)](https://beattheheat.asia/heat-economy/flows/)
-
-31 October 2026 · Common Shade's own analysis · At this edition: Common Shade's own page
+2026 · Secondary report · At this edition: Content checked 15 November 2026
 
 ### Revisions and corrections [#](#revisions)
 
-- 31 October 2026 · Published
+- 16 November 2026 · Published
 
-First published, in the earlier four-part format.
-
-- 16 November 2026 · Correction
-
-The first text listed Bangladesh's first urban heatwave action plan, for Narayanganj, among October's new records without its date, which read as an October development. The plan records its approval on 22 September 2025; October 2026 is when Bangladesh's heat and health assessment reported it. The edition now says so. [Corrections page](https://beattheheat.asia/corrections/#log)
-
-- 16 November 2026 · Revision
-
-Rewritten in the new edition format from the same checked records: a central argument with its limits, dates for each development, what each source establishes and does not, a decision brief, questions for different readers and a forward look. The February announcement is now marked as first reviewed in October, not as an October event. The plan's own record was added as a source. The text as first published is kept below.
-
-The text as first published
-
-The text as first published on 31 October 2026, kept unchanged. It used the earlier four-part format.
-
-**The field gathers, and the connecting work finds support**
-
-**Where philanthropic money moved: Toward the work that connects.** Two announcements this year support the parts of protection that sit between institutions: a South Asia climate–health desk and research consortium (The Rockefeller Foundation and Wellcome), and the next stage of the Southeast Asia Heat Health Hub, with work in Indonesia and Thailand (Philanthropy Asia Alliance). Both are field-building and evidence roles, the ones our trace of funding found thinnest. Amounts were not disclosed.
-
-**An opportunity the evidence supports: Heat-safe work.** Six solutions for safer work in the heat have been measured in a study, yet our trace found no funding announcements for them. Much of this work is paid from public budgets and employers, which the trace does not cover, so this is a question worth asking rather than a gap we can confirm.
-
-**A question that grew in importance: What keeps a pilot going after its first grant?.** A funder’s own account of Southeast Asia notes that successful heat-health pilots often lose their footing once funding ends. We have added it to the learning agenda, sized for a two-year study of a handful of pilots.
-
-**What changed on Common Shade: The first month through every check.** Nine new records passed all seven checks, including Bangladesh’s first urban heatwave action plan, for Narayanganj, and the first Global Heat Forum in Bangkok. Two were held back: a report of a four-country coalition that established sources describe instead as four country assessments. New this month: the Atlas, the Evidence map, Follow the money, Who holds it up, Build protection, a public corrections log and, from new research on risk finance, Paying when heat strikes, where insurance, pools, credit and forecast funds for heat are each asked whether they paid, and when. Two simulations now sit beside A week in the heat, so care, health and city systems get the same attention as work: A night in the heat and A city under strain, with 25 new short films on older people, pregnancy, babies, clinics, power, water, trees and more.
-
-Written from the knowledge base, under the same checks as every page: sourced, labelled known, inferred or uncertain, and open to correction.
+First published.
 
 ## All editions
+
+- [November 2026A heat rule for outdoor work is scheduled to take effect; whether rules reach workers is not yet visible](https://beattheheat.asia/whats-new/2026-11/)Reporting period 1 to 15 November 2026 · Evidence cut-off 15 November 2026 · Published 16 November 2026
 
 - [October 2026Support announced for the work between institutions, with amounts and delivery still to show](https://beattheheat.asia/whats-new/2026-10/)Reporting period 1 to 31 October 2026 · Evidence cut-off 31 October 2026 · Published 31 October 2026 · Revised 16 November 2026 · Corrected
 

@@ -781,8 +781,8 @@
       "event": {"what": "State of the field rebuilt as dated editions", "date": "2026-11-16"},
       "review": "The October edition re-described from its own checked records with no new claims, its first text kept unchanged; one correction found and logged; an independent review of the edition model; the rules tested on fixtures",
       "effort": { "asked": "What does a monthly briefing on heat need, so a reader can trust it, trace it and act on it?", "inbox": "data/inbox/2026-10", "dropped": "research/2026-11/sof-rebuild/README.md",
-                  "open": "The November edition is a draft awaiting the owner's review; the Philippines advisory texts have not been located." },
-      "pages": [["/whats-new/", "State of the field"], ["/whats-new/2026-10/", "October 2026 edition"]], "action": ["Read State of the field", "/whats-new/"],
+                  "open": "The Philippines advisory texts behind the November edition have not been located; the edition says so." },
+      "pages": [["/whats-new/", "State of the field"], ["/whats-new/2026-11/", "November 2026 edition"], ["/whats-new/2026-10/", "October 2026 edition"]], "action": ["Read State of the field", "/whats-new/"],
       "links": [{ "to": "lever:heatrules", "why": "The October edition's opportunity concerns heat-safe work, with what the evidence supports and what the funding trace cannot see.", "basis": "record" }]
     }
   ]

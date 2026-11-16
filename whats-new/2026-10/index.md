@@ -11,9 +11,9 @@ State of the field
 
 # State of the field: October 2026
 
-The latest published edition. Its stable link stays the same when newer editions appear.
+An earlier edition, kept as published. [The latest edition](https://beattheheat.asia/whats-new/)
 
-Latest published editionOctober 2026
+Earlier editionOctober 2026
 
 ## Support announced for the work between institutions, with amounts and delivery still to show
 
