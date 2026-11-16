@@ -1822,7 +1822,7 @@ Steps toward protection this year: [Nepal adopts a national plan of action on he
 
 209 works published, 122 of them with a known month; 875 in all by the end of the year. 24 of the verified Indian heat action plans carry this year.
 
-Steps toward protection this year: [Delhi launches its 2025 Heat Action Plan](https://beattheheat.asia/atlas/).
+Steps toward protection this year: [Delhi launches its 2025 Heat Action Plan](https://beattheheat.asia/atlas/); [Bangladesh’s first urban heatwave action plan, for Narayanganj](https://beattheheat.asia/atlas/).
 
 - Evidence334
 - Experience69
@@ -1834,7 +1834,7 @@ Steps toward protection this year: [Delhi launches its 2025 Heat Action Plan](ht
 
 237 works published, 139 of them with a known month; 1,112 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
 
-Steps toward protection this year: [Bangkok opens 304 cooling centres](https://beattheheat.asia/atlas/); [The first Global Heat Forum, in Bangkok](https://beattheheat.asia/atlas/); [Bangladesh’s first urban heatwave action plan, for Narayanganj](https://beattheheat.asia/atlas/).
+Steps toward protection this year: [Bangkok opens 304 cooling centres](https://beattheheat.asia/atlas/); [The first Global Heat Forum, in Bangkok](https://beattheheat.asia/atlas/).
 
 - Evidence404
 - Experience98

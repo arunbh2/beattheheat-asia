@@ -149,6 +149,7 @@ The full record of changes: https://beattheheat.asia/growing/
 - 31 October 2026, published: First published, in the earlier four-part format.
 - 16 November 2026, correction: The first text listed Bangladesh's first urban heatwave action plan, for Narayanganj, among October's new records without its date, which read as an October development. The plan records its approval on 22 September 2025; October 2026 is when Bangladesh's heat and health assessment reported it. The edition now says so.
 - 16 November 2026, revision: Rewritten in the new edition format from the same checked records: a central argument with its limits, dates for each development, what each source establishes and does not, a decision brief, questions for different readers and a forward look. The February announcement is now marked as first reviewed in October, not as an October event. The plan's own record was added as a source. The text as first published is kept below.
+- 16 November 2026, revision: One funder's name was removed from the text as first published, in line with the site's rule for evidence briefs; the removal is marked where it was. The funding record still names every funder.
 
 ---
 Common Shade, CC BY 4.0. Written from checked records; Common Shade's reading is labelled as interpretation. Corrections: https://beattheheat.asia/corrections/

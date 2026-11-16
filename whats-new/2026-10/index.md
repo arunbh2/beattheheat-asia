@@ -277,13 +277,17 @@ The first text listed Bangladesh's first urban heatwave action plan, for Narayan
 
 Rewritten in the new edition format from the same checked records: a central argument with its limits, dates for each development, what each source establishes and does not, a decision brief, questions for different readers and a forward look. The February announcement is now marked as first reviewed in October, not as an October event. The plan's own record was added as a source. The text as first published is kept below.
 
+- 16 November 2026 · Revision
+
+One funder's name was removed from the text as first published, in line with the site's rule for evidence briefs; the removal is marked where it was. The funding record still names every funder.
+
 The text as first published
 
-The text as first published on 31 October 2026, kept unchanged. It used the earlier four-part format.
+The text as first published on 31 October 2026, unchanged except for one funder's name, removed on 16 November 2026 (see the revision log). It used the earlier four-part format.
 
 **The field gathers, and the connecting work finds support**
 
-**Where philanthropic money moved: Toward the work that connects.** Two announcements this year support the parts of protection that sit between institutions: a South Asia climate–health desk and research consortium (The Rockefeller Foundation and Wellcome), and the next stage of the Southeast Asia Heat Health Hub, with work in Indonesia and Thailand (Philanthropy Asia Alliance). Both are field-building and evidence roles, the ones our trace of funding found thinnest. Amounts were not disclosed.
+**Where philanthropic money moved: Toward the work that connects.** Two announcements this year support the parts of protection that sit between institutions: a South Asia climate–health desk and research consortium (The Rockefeller Foundation and [a second funder, name removed on 16 November 2026; named in the funding record]), and the next stage of the Southeast Asia Heat Health Hub, with work in Indonesia and Thailand (Philanthropy Asia Alliance). Both are field-building and evidence roles, the ones our trace of funding found thinnest. Amounts were not disclosed.
 
 **An opportunity the evidence supports: Heat-safe work.** Six solutions for safer work in the heat have been measured in a study, yet our trace found no funding announcements for them. Much of this work is paid from public budgets and employers, which the trace does not cover, so this is a question worth asking rather than a gap we can confirm.
 

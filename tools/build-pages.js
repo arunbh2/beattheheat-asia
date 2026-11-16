@@ -281,10 +281,12 @@ const PEOPLE = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "peopl
   // approximate centres for each heatwave on the drawn map, and how wide an area it covered (map units)
   const HWPOS = { odisha1998: [20.5, 85.0, 3], ap2003: [16.5, 80.0, 3], ahmedabad2010: [23.0, 72.6, 2], southasia2015: [24.5, 74.0, 7], sea2016: [15.5, 101.5, 6],
     southasia2022: [28.0, 73.5, 7], asia2023: [20.0, 95.0, 9], asia2024: [18.0, 92.0, 12], india2024: [27.0, 78.5, 5], southasia2026: [27.0, 73.0, 7] };
+  const fmtDay = d => { const m = String(d).match(/^(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?$/); if (!m) return String(d); const M = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]; return [m[3] ? +m[3] : "", m[2] ? M[+m[2] - 1] : "", m[1]].filter(Boolean).join(" "); };
   const KINDMAP = { plan: "plan", law: "rule", rule: "rule", role: "role", programme: "programme", finance: "programme" };
   const MS = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site", "milestones.json"), "utf8")).milestones
     .concat(KB.filter(r => r.type === "milestone" && r.lat != null && r.lon != null && KINDMAP[r.kind]).map(r => ({ id: r.id, year: +String(r.date).slice(0, 4), kind: KINDMAP[r.kind],
-      place: (r.places || []).map(PLACE).join(", "), lat: r.lat, lon: r.lon, title: r.title, text: r.summary, source: srcOf(r), link: ["/whats-new/", "What changed this month"] })));
+      when: `${fmtDay(r.date)}${r.reported ? ` (reported ${fmtDay(r.reported)})` : ""}`,
+      place: (r.places || []).map(PLACE).join(", "), lat: r.lat, lon: r.lon, title: r.title, text: r.summary, source: srcOf(r), link: r.signals ? [`/signals/#${r.signals}`, "Follow it on Signals"] : ["/whats-new/", "State of the field"] })));
   const HW = D.HEATWAVES.filter(h => HWPOS[h.id]).map(h => ({ id: h.id, y: h.year, when: h.when, place: h.place, t: h.title, toll: h.toll, what: h.what, changed: h.changed,
     src: h.sources && h.sources[0] ? [h.sources[0].label, h.sources[0].url] : null, lat: HWPOS[h.id][0], lon: HWPOS[h.id][1], r: HWPOS[h.id][2] }));
   const missing = D.HEATWAVES.filter(h => !HWPOS[h.id]).map(h => h.id);

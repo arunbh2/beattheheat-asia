@@ -50,15 +50,15 @@ if (cmd === "new") {
   Object.assign(e, { status: "published", published: date, approved: who }); e.revisions = [{ date, kind: "published", note: "First published." }, ...(e.revisions || []).filter(r => r.kind !== "published")];
   const bad = M.validate(e); if (bad.length) die("Not published:\n" + bad.map(b => "  - " + b).join("\n"));
   save(path.join(M.DIR, id + ".json"), e); fs.unlinkSync(f);
-  const L = led(); L[id] = [{ date, hash: M.hash(e) }]; saveLed(L);
+  const L = led(); L[id] = [{ date, revisions: 0, hash: M.hash(e) }]; saveLed(L);
   console.log(`published ${id} (${date}). Rebuild (node tools/build-static.js), run node tools/check-sof.js, and open a pull request: merging is the sign-off`);
 } else if (cmd === "seal") {
   const f = path.join(M.DIR, id + ".json"); if (!fs.existsSync(f)) die(`no published edition ${id}`);
   const e = JSON.parse(fs.readFileSync(f, "utf8")), L = led(), rows = L[id] || [], h = M.hash(e), last = rows[rows.length - 1];
   if (last && last.hash === h) { console.log(`${id} is already sealed at ${last.date}`); process.exit(0); }
-  const rev = (e.revisions || []).filter(r => r.kind !== "published").map(r => r.date).sort().pop();
-  if (!rev || (last && rev <= last.date)) die(`${id} has changed since ${last ? last.date : "publication"} without a new revision: add an entry to "revisions" (kind revision or correction, dated today, saying what changed), and a /corrections/ entry for a correction`);
-  rows.push({ date: rev, hash: h }); L[id] = rows; saveLed(L); console.log(`${id} sealed at its ${rev} revision`);
+  const revs = (e.revisions || []).filter(r => r.kind !== "published"), rev = revs.map(r => r.date).sort().pop();
+  if (!rev || (last && revs.length <= (last.revisions || 0))) die(`${id} has changed since ${last ? last.date : "publication"} without a new revision: add an entry to "revisions" (kind revision or correction, dated today, saying what changed), and a /corrections/ entry for a correction`);
+  rows.push({ date: rev, revisions: revs.length, hash: h }); L[id] = rows; saveLed(L); console.log(`${id} sealed at its ${rev} revision`);
 } else {
   console.log(fs.readFileSync(__filename, "utf8").split("\n").slice(1, 15).map(l => l.replace(/^\/\/ ?/, "")).join("\n"));
 }

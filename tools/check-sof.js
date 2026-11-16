@@ -28,7 +28,9 @@ for (const e of pub) {
   const rows = L[e.id] || [], last = rows[rows.length - 1], rev = M.revised(e) || e.published;
   ok(last, `${e.id}: no entry in data/site/briefs/_ledger.json (node tools/sof-review.js seal ${e.id})`);
   if (last) { ok(last.hash === M.hash(e), `${e.id}: the edition has changed since it was sealed on ${last.date}. Add a dated entry to "revisions" saying what changed (a correction also goes on /corrections/), then node tools/sof-review.js seal ${e.id}`);
-    ok(last.date === rev, `${e.id}: the latest revision (${rev}) is not the one sealed (${last.date}); run node tools/sof-review.js seal ${e.id}`); }
+    ok(last.date === rev, `${e.id}: the latest revision (${rev}) is not the one sealed (${last.date}); run node tools/sof-review.js seal ${e.id}`);
+    const nrev = (e.revisions || []).filter(r => r.kind !== "published").length;
+    ok(last.revisions === undefined || last.revisions === nrev, `${e.id}: ${nrev} revisions, but the ledger sealed ${last.revisions}; run node tools/sof-review.js seal ${e.id}`); }
 }
 // ---- corrections are also on the corrections page ----
 const CORR = JSON.parse(read("data/site/corrections.json")).entries, corrPage = read("corrections/index.html");
