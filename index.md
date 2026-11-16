@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat is a wicked problem | Common Shade"
 url: https://beattheheat.asia/
-updated: 2026-11-15
+updated: 2026-11-16
 licence: CC BY 4.0
 ---
 
@@ -13,16 +13,16 @@ No single cause. No single owner. No finish line.
 
 [What makes it wicked?](#wicked)
 
-Shade is something we hold up together.
-
 Understand how heat harms people, choose protection for your place, and work out who could act and who could pay.
-
-A free, sourced journey through how extreme heat harms health, income and homes across South and Southeast Asia, how one harm leads to the next, and what helps. Built with, and for, the people working on it.
 
 Every consequence is sourced, and where the evidence is thin, the map says so.
 
 [Begin the journey ](#act-1)
 [Find a short path for your role](#start)
+
+Shade is something we hold up together.
+
+A free, sourced journey through how extreme heat harms health, income and homes across South and Southeast Asia, how one harm leads to the next, and what helps. Built with, and for, the people working on it.
 
 Five short acts, about fifteen minutes. Free, no sign up, and what you choose stays in your browser.
 

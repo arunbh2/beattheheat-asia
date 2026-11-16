@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Newsreader:ital,wght@0,400;0,500;1,400&display=swap">
 
-  <link rel="stylesheet" href="styles.css?v=227">
+  <link rel="stylesheet" href="styles.css?v=228">
 
   <script type="application/ld+json">
   {
@@ -111,12 +111,14 @@
   }
   </script>
   <link rel="alternate" type="text/plain" href="/llms-full.txt" title="The whole map as plain text">
-  <script src="data.js?v=227" defer></script>
-  <script src="script.js?v=227" defer></script>
-  <script src="heatweek.js?v=227" defer></script>
-  <script src="guide.js?v=227" defer></script>
-  <script src="journey.js?v=227" defer></script>
-  <script src="/join.js?v=227" defer></script>
+  <script src="data.js?v=228" defer></script>
+  <script src="script.js?v=228" defer></script>
+  <script src="heatweek.js?v=228" defer></script>
+  <script src="guide.js?v=228" defer></script>
+  <script src="journey.js?v=228" defer></script>
+  <script src="/join.js?v=228" defer></script>
+
+
 
 
 
@@ -224,17 +226,17 @@
 .csn__search:hover{border-color:var(--ink)}
 .csn__search kbd{font:600 .72rem/1 inherit;padding:3px 6px;border:1px solid var(--line);border-radius:6px;color:var(--grey);background:var(--canvas)}
 .csn__ico{width:16px;height:16px;flex:none}
-.csn__start{border:1.5px solid #F26430;background:#F26430;color:#16202B;box-shadow:0 8px 20px -10px rgba(242,100,48,.85),inset 0 1px 0 rgba(255,255,255,.25);transition:background .2s,box-shadow .2s,transform .2s}
+.csn__start{border:1.5px solid #F26430;background:#F26430;color:#16202B;transition:background .2s,box-shadow .2s,transform .2s}
 .csn__start:hover{background:#FF7A45;border-color:#FF7A45;transform:translateY(-1px);box-shadow:0 12px 24px -12px rgba(242,100,48,.9)}.csn__start:focus-visible{outline:3px solid #16202B;outline-offset:2px}
 .csn__start--glow{animation:csn-glow 2.6s ease-in-out 1.2s 3}
-.csn__signals{display:inline-flex;align-items:center;gap:7px;height:40px;padding:0 14px;border-radius:999px;font-weight:700;font-size:.9rem;white-space:nowrap;text-decoration:none;background:#3DBE78;border:1.5px solid #3DBE78;color:#0C1B12;box-shadow:0 8px 20px -10px rgba(61,190,120,.8),inset 0 1px 0 rgba(255,255,255,.25);transition:background .2s,transform .2s}
-.csn__signals:hover{background:#55CF8C;border-color:#55CF8C;transform:translateY(-1px)}.csn__signals:focus-visible{outline:3px solid #fff;outline-offset:2px}.csn__signals[aria-current]{box-shadow:inset 0 0 0 2px #0C1B12}
+.csn__signals{display:inline-flex;align-items:center;gap:7px;height:40px;padding:0 14px;border-radius:999px;font-weight:700;font-size:.9rem;white-space:nowrap;text-decoration:none;background:transparent;border:1.5px solid #16202B;color:#16202B;transition:background .2s,color .2s,transform .2s}
+.csn a.csn__signals:hover{background:#16202B;color:#FAF7F2;transform:translateY(-1px)}.csn__signals:focus-visible{outline:3px solid #F26430;outline-offset:2px}.csn__signals[aria-current]{box-shadow:inset 0 0 0 2px #16202B}
 .csn__btn--signals{background:#3DBE78!important;border-color:#3DBE78!important;color:#0C1B12!important;font-weight:700}
 @keyframes csn-glow{0%,100%{box-shadow:0 8px 20px -10px rgba(242,100,48,.85),0 0 0 0 rgba(242,100,48,.45)}50%{box-shadow:0 8px 20px -10px rgba(242,100,48,.85),0 0 0 9px rgba(242,100,48,0)}}
 @media (prefers-reduced-motion:reduce){.csn__start--glow{animation:none}}
 .csn__dot{display:none;width:8px;height:8px;border-radius:50%;background:var(--orange)}
-.csn__map{display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 14px;border-radius:999px;font-weight:700;font-size:.9rem;white-space:nowrap;text-decoration:none;color:#1F7A70;background:#E7F2F0;border:1.5px solid #1F7A70;transition:background .2s,color .2s,transform .2s}
-.csn__map:hover{background:#1F7A70;color:#fff;transform:translateY(-1px)}.csn__map:focus-visible{outline:3px solid #16202B;outline-offset:2px}
+.csn__map{display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 14px;border-radius:999px;font-weight:700;font-size:.9rem;white-space:nowrap;text-decoration:none;color:#16202B;background:transparent;border:1.5px solid #16202B;transition:background .2s,color .2s,transform .2s}
+.csn a.csn__map:hover{background:#16202B;color:#FAF7F2;transform:translateY(-1px)}.csn__map:focus-visible{outline:3px solid #16202B;outline-offset:2px}
 .csn__btn--map{color:#1F7A70;border-color:#1F7A70;background:#E7F2F0}
 .csn--onpath .csn__dot{background:#16202B}
 .csn--onpath .csn__dot{display:inline-block}
@@ -347,9 +349,8 @@
 .csf__text{margin:12px 0 0;font-size:.8rem;color:#C9C2B6}.csf__text a,.csf__cite a{text-decoration:underline;text-decoration-color:var(--orange);text-underline-offset:3px}
 @media (max-width:1180px){.csn__search span,.csn__search kbd{display:none}.csn__search{width:40px;padding:0;justify-content:center}.csn__links{grid-template-columns:1fr}.csn__pin{grid-template-columns:minmax(0,1fr) minmax(0,1.4fr) minmax(0,.9fr)}}
 @media (max-width:960px){.csn__main{display:none}.csn__burger{display:inline-flex}.csn__in{height:58px}.csn--slim .csn__in{height:54px}}
-@media (max-width:560px){.csn__tools{gap:6px}.csn__signals{padding:0 12px;gap:6px}.csn__search{display:none}.csn__map{width:40px;padding:0;justify-content:center}.csn__map span{display:none}.csn__start{padding:0 12px}.csn__start .csn__dot{display:none}.csn__burger{width:40px;padding:0;justify-content:center;font-size:0;gap:0}.csn__home{font-size:1.05rem}.csn__mark{width:26px}.csn-d{margin-top:4vh;max-height:88vh}.csn-d__h{font-size:1.6rem}.csp{margin:14px 12px 18px;padding:16px 18px}}
-@media (max-width:359px){.csn__signals{width:40px;padding:0;justify-content:center}.csn__signals span{display:none}}
-@media (max-width:419px){.csn__home>span:not(.csn-vh){display:none}}
+@media (max-width:560px){.csn__tools{gap:8px}.csn__signals,.csn__map,.csn__search{display:none}.csn__start{padding:0 12px}.csn__start .csn__dot{display:none}.csn__burger{width:40px;padding:0;justify-content:center;font-size:0;gap:0}.csn__home{font-size:1.05rem}.csn__mark{width:26px}.csn-d{margin-top:4vh;max-height:88vh}.csn-d__h{font-size:1.6rem}.csp{margin:14px 12px 18px;padding:16px 18px}}
+@media (max-width:339px){.csn__home>span:not(.csn-vh){display:none}}
 html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{touch-action:manipulation}button,[role=button]{-webkit-user-select:none;user-select:none}
 @media (pointer:coarse){input:not([type=checkbox]):not([type=radio]):not([type=range]),select,textarea{font-size:16px!important}}
 @media (prefers-reduced-motion:reduce){.csn__panel,.csn__sheet,.csn-d[open]{animation:none}.csn__in,.csn__chev{transition:none}}
@@ -384,7 +385,7 @@ html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{
 .cs-person b{display:block;font-size:.95rem;margin-bottom:2px}.cs-person p{margin:0;line-height:1.55}.cs-person small{display:block;margin-top:6px;font-size:.78rem;color:#7A6F63}
 @media (prefers-reduced-motion:reduce){.csn__canopy,.cs-tip{transition:none}}
 @media print{.csn,.csf,.csn-skip,.ticker,.csp,.csn-d,.cse,.csn-new,.cs-check{display:none!important}}</style><noscript><style>.csn__gb,.csn__tools{display:none!important}.csn__gl{display:inline-flex;align-items:center;height:40px;padding:0 14px;font-weight:700}@media (max-width:960px){.csn__main{display:block!important}}</style></noscript><!--/csn-->
-<!--agent--><link rel="alternate" type="text/markdown" href="/index.md"><link rel="alternate" type="application/atom+xml" title="What changed on Common Shade" href="/feed.xml"><link rel="api-catalog" href="/.well-known/api-catalog"><meta name="color-scheme" content="light"><meta name="referrer" content="strict-origin-when-cross-origin"><meta property="article:modified_time" content="2026-11-15"><script type="speculationrules">{"prefetch":[{"where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/*.*","/solutions/*","/sources/*"]}},{"not":{"selector_matches":"[download],[target=_blank],[rel~=nofollow]"}}]},"eagerness":"conservative"}]}</script><!--/agent-->
+<!--agent--><link rel="alternate" type="text/markdown" href="/index.md"><link rel="alternate" type="application/atom+xml" title="What changed on Common Shade" href="/feed.xml"><link rel="api-catalog" href="/.well-known/api-catalog"><meta name="color-scheme" content="light"><meta name="referrer" content="strict-origin-when-cross-origin"><meta property="article:modified_time" content="2026-11-16"><script type="speculationrules">{"prefetch":[{"where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/*.*","/solutions/*","/sources/*"]}},{"not":{"selector_matches":"[download],[target=_blank],[rel~=nofollow]"}}]},"eagerness":"conservative"}]}</script><!--/agent-->
 </head>
 
 <body id="home-top">
@@ -483,35 +484,28 @@ html{-webkit-tap-highlight-color:transparent}button,[role=button],summary,label{
             <p class="intro__wicked-line">No single cause. No single owner. No finish line.</p>
             <p class="intro__wicked-acts"><button type="button" class="intro__watch" data-act="film" aria-haspopup="dialog"><span class="play-icon" aria-hidden="true"></span>Watch why <span>(1:41)</span></button><a href="#wicked">What makes it wicked?</a></p>
           </div>
-          <p class="intro__tagline">Shade is something we hold up together.</p>
           <p class="intro__promise">Understand how heat harms people, choose protection for your place, and work out who could act and who could pay.</p>
-          <p class="intro__lede">A free, sourced journey through how extreme heat harms health, income and homes across South and Southeast Asia, how one harm leads to the next, and what helps. Built with, and for, the people working on it.</p>
           <p class="intro__proof">Every consequence is sourced, and where the evidence is thin, the map says so.</p>
           <div class="intro__cta">
             <a class="btn btn--hero" href="#act-1">Begin the journey&nbsp;<span aria-hidden="true">↓</span></a>
             <a class="btn btn--route" href="#start">Find a short path for your role</a>
           </div>
           <p class="intro__resume" data-resume hidden></p>
+          <p class="intro__tagline">Shade is something we hold up together.</p>
+          <p class="intro__lede">A free, sourced journey through how extreme heat harms health, income and homes across South and Southeast Asia, how one harm leads to the next, and what helps. Built with, and for, the people working on it.</p>
           <p class="intro__trust">Five short acts, about fifteen minutes. Free, no sign&nbsp;up, and what you choose stays in your browser.</p>
           <p class="intro__trust intro__ai">An AI agent or assistant reading for someone? <a href="/for-ai/">Here is a page written for you <span aria-hidden="true">→</span></a></p>
         </div>
         <div class="intro__art">
         <svg class="hero-scene" viewBox="0 0 640 440" aria-hidden="true" focusable="false">
-          <defs>
-            <radialGradient id="hs-sun"><stop offset="0" stop-color="#F5A623" stop-opacity=".9"/><stop offset=".3" stop-color="#F26430" stop-opacity=".4"/><stop offset="1" stop-color="#F26430" stop-opacity="0"/></radialGradient>
-            <radialGradient id="hs-ground"><stop offset="0" stop-color="#F26430" stop-opacity=".5"/><stop offset="1" stop-color="#F26430" stop-opacity="0"/></radialGradient>
-          </defs>
-          <circle class="hs-sun" cx="566" cy="44" r="160" fill="url(#hs-sun)"/>
-          <circle class="hs-sun" cx="566" cy="44" r="26" fill="#F6E7D7"/>
-          <g class="hs-haze" fill="none" stroke="#F6E7D7" stroke-width="2" stroke-linecap="round" opacity=".2"><path d="M8 214 q18 -8 36 0 t36 0"/><path d="M572 236 q18 -8 36 0 t36 0"/><path d="M0 262 q14 -6 28 0 t28 0"/></g>
-          <ellipse class="hs-ground" cx="320" cy="404" rx="330" ry="44" fill="url(#hs-ground)"/>
-          <ellipse class="hs-shade" cx="320" cy="403" rx="232" ry="13" fill="#0A0F15"/>
+                    <circle class="hs-sun" cx="566" cy="44" r="26" fill="#FAF7F2"/>
+          <g class="hs-haze" fill="none" stroke="#FAF7F2" stroke-width="2" stroke-linecap="round" opacity=".2"><path d="M8 214 q18 -8 36 0 t36 0"/><path d="M572 236 q18 -8 36 0 t36 0"/><path d="M0 262 q14 -6 28 0 t28 0"/></g>
+          <ellipse class="hs-shade" cx="320" cy="403" rx="232" ry="13" fill="#FAF7F2" opacity=".12"/>
           <path class="hs-canopy" d="M40 150 Q320 70 600 150 L600 170 Q320 92 40 170 Z" fill="#F26430"/>
-          <path class="hs-canopy" d="M40 170 Q320 92 600 170" fill="none" stroke="#B9431B" stroke-width="3"/>
-          <g class="hs-figs" fill="none" stroke="#F6E7D7" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+          <g class="hs-figs" fill="none" stroke="#FAF7F2" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
             <g class="hs-fig" style="--i:0"><line x1="92" y1="167" x2="92" y2="400"/><circle cx="122" cy="250" r="15"/><path d="M122 265 V328 M122 328 L107 400 M122 328 L137 400 M122 282 L92 264 M122 292 L92 288"/></g><g class="hs-fig" style="--i:1"><line x1="196" y1="149" x2="196" y2="400"/><circle cx="226" cy="250" r="15"/><path d="M226 265 V328 M226 328 L211 400 M226 328 L241 400 M226 282 L196 264 M226 292 L196 288"/></g><g class="hs-fig" style="--i:2"><line x1="444" y1="149" x2="444" y2="400"/><circle cx="414" cy="250" r="15"/><path d="M414 265 V328 M414 328 L399 400 M414 328 L429 400 M414 282 L444 264 M414 292 L444 288"/></g><g class="hs-fig" style="--i:3"><line x1="548" y1="167" x2="548" y2="400"/><circle cx="518" cy="250" r="15"/><path d="M518 265 V328 M518 328 L503 400 M518 328 L533 400 M518 282 L548 264 M518 292 L548 288"/></g><g class="hs-fig" style="--i:4"><path d="M262 352 H360 M272 352 V400 M350 352 V400"/><circle cx="292" cy="292" r="15"/><path d="M292 307 V350 M292 350 L322 350 L322 400 M292 318 L314 334 L326 296 M326 296 V400"/></g><g class="hs-fig" style="--i:5"><circle cx="352" cy="318" r="11"/><path d="M352 329 V364 M352 364 L344 400 M352 364 L360 400 M352 340 L330 344 M352 340 L368 356"/></g>
           </g>
-          <line x1="24" y1="400" x2="616" y2="400" stroke="#F6E7D7" stroke-width="2" stroke-linecap="round" opacity=".3"/>
+          <line x1="24" y1="400" x2="616" y2="400" stroke="#FAF7F2" stroke-width="2" stroke-linecap="round" opacity=".3"/>
         </svg>
         </div>
       </div>
@@ -1268,7 +1262,7 @@ $$("[data-check]").forEach(function(box){var key=box.getAttribute("data-check"),
     if(form)window.open(form,"_blank","noopener");remember({a:"no",d:today});done(thanksNo)})})}});
 /* copy the citation */
 $$("[data-csn-copy]").forEach(function(b){b.addEventListener("click",function(){var t=$("[data-csn-cite]").textContent;(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){b.textContent="Copied"},function(){b.textContent="Select and copy"})})});
-})();</script><script>addEventListener("load",function(){setTimeout(function(){["/everything.js?v=227"].forEach(function(s){var e=document.createElement("script");e.src=s;document.body.appendChild(e)})},2500)})</script><!--/csn-->
+})();</script><script>addEventListener("load",function(){setTimeout(function(){["/everything.js?v=228"].forEach(function(s){var e=document.createElement("script");e.src=s;document.body.appendChild(e)})},2500)})</script><!--/csn-->
 <footer class="site-footer">
     <p class="site-footer__brand"><span class="wordmark__mark" aria-hidden="true"></span>COMMON SHADE <span class="beta-tag">Beta</span></p>
     <p class="site-footer__tagline">Protection from extreme heat, built together.</p>
