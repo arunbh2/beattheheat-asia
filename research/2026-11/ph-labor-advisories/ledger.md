@@ -67,7 +67,7 @@ Both copies came from the Bureau of Working Conditions' issuances page. Labor Ad
   - "reassessment of the work" in the trigger basis, which the checked report also supports
 - **Held back:** the El Niño forecast footnote, officials' names, any effective date, "now compensable", "replaces the 2023 advisory", and the danger-level details that rest only on the unchecked scan.
 
-**Open for the owner:** whether to host an unaltered copy of Labor Advisory No. 19 on the site, so the check can read it. Its evidence would then read "checked against an original", although the checker would be reading a copy the site supplied.
+**Decided by the owner (16 November 2026): no copy is hosted.** The site does not host Labor Advisory No. 19 or No. 20. The evidence keeps the label "reported by secondary sources", and the record says the texts were read from copies the owner supplied. If DOLE's pages become readable by the source check, the originals can be staged then.
 
 ## Decisions (16 November 2026, recommended by the advisory review and taken by Claude for the owner's approval)
 1. **Official texts.** Pass 1 showed that DOLE's sites turn away every automated reader, on GitHub as well as in this session. A link alone therefore cannot get the originals checked. The owner downloads the two advisories in a browser from the Bureau of Working Conditions' issuances page. Claude then reads them with pdftotext and records each claim against the text in this ledger. No PDF link is guessed, and the site's bot check is not bypassed.
