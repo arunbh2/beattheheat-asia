@@ -212,6 +212,11 @@
     "history": [{ "date": "2026-11-07", "status": "open", "note": "Opened on the learning agenda" }],
     "q": "How long does protection last after people leave a cooling space?",
     "have": "A review found only short-lived benefits in simulations and no real-world health outcomes for users.",
-    "could": "Follow consenting users and similar non-users through the rest of hot days, measuring exposure and health.", "scale": "Illustrative: about 150 people over six hot weeks" }
+    "could": "Follow consenting users and similar non-users through the rest of hot days, measuring exposure and health.", "scale": "Illustrative: about 150 people over six hot weeks" },
+  { "id": "q-longer-heat", "loop": "reactive", "status": "open",
+    "history": [{ "date": "2026-11-16", "status": "open", "note": "Opened on the learning agenda" }],
+    "q": "Can heat plans, budgets and cooling spaces keep running through a heatwave longer than any on record?",
+    "have": "A 2026 modelling study projects that some future heatwaves in India and Pakistan could outlast the 2019 heatwave, the region’s reference event, even with low emissions.",
+    "could": "Test one city’s plan, budget and staffing against a heatwave twice as long as its worst on record, with each department that would run it.", "scale": "Illustrative: one city, a two-day exercise with each lead department" }
  ]
 }

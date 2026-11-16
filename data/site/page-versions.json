@@ -20,8 +20,8 @@
   "changed": "2026-11-15"
  },
  "/actions/": {
-  "hash": "3e93d5161d73dc15",
-  "changed": "2026-11-15"
+  "hash": "41f991e0fc496629",
+  "changed": "2026-11-16"
  },
  "/approach/": {
   "hash": "2040a696148f5f12",
@@ -56,28 +56,28 @@
   "changed": "2026-11-15"
  },
  "/cities/ahmedabad/": {
-  "hash": "b9d6070a7b23cac0",
-  "changed": "2026-11-15"
+  "hash": "5cdba437e658d6aa",
+  "changed": "2026-11-16"
  },
  "/cities/bangkok/": {
   "hash": "db17fcf2382fbf9d",
   "changed": "2026-11-15"
  },
  "/cities/bengaluru/": {
-  "hash": "c0121c60a6b2d046",
-  "changed": "2026-11-15"
+  "hash": "ceb4bb79f1814c00",
+  "changed": "2026-11-16"
  },
  "/cities/bhubaneswar/": {
   "hash": "362d0fe3686e72cf",
   "changed": "2026-11-15"
  },
  "/cities/chattogram/": {
-  "hash": "cf2dca511a414c42",
-  "changed": "2026-11-15"
+  "hash": "ae4f91bf23b29e45",
+  "changed": "2026-11-16"
  },
  "/cities/chennai/": {
-  "hash": "1e3796a65c500afe",
-  "changed": "2026-11-15"
+  "hash": "fe7dedfb6e12ea2f",
+  "changed": "2026-11-16"
  },
  "/cities/chiangmai/": {
   "hash": "35129756b893290a",
@@ -184,8 +184,8 @@
   "changed": "2026-11-14"
  },
  "/evidence-map/": {
-  "hash": "cd7bacc6b0e793b9",
-  "changed": "2026-11-08"
+  "hash": "aab82d41e2c82d2b",
+  "changed": "2026-11-16"
  },
  "/evidence/": {
   "hash": "46eee269728aa492",
@@ -196,7 +196,7 @@
   "changed": "2026-11-13"
  },
  "/for-ai/": {
-  "hash": "8c11a8d1dbdae0f3",
+  "hash": "49d3d9142f318ea3",
   "changed": "2026-11-16"
  },
  "/fund/": {
@@ -208,7 +208,7 @@
   "changed": "2026-11-07"
  },
  "/growing/": {
-  "hash": "707c156813bf2ee8",
+  "hash": "9043c8ed03f81cef",
   "changed": "2026-11-16"
  },
  "/guide/": {
@@ -620,7 +620,7 @@
   "changed": "2026-11-06"
  },
  "/sources/": {
-  "hash": "f33808705f2be619",
+  "hash": "d72acb36ae4ed582",
   "changed": "2026-11-16"
  },
  "/the-web/": {

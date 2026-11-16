@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in Chennai: plans, cycles and who is at work | Common Shade"
 url: https://beattheheat.asia/cities/chennai/
-updated: 2026-11-15
+updated: 2026-11-16
 licence: CC BY 4.0
 ---
 
@@ -119,7 +119,7 @@ No checked estimate found yet for this city.
 
 Actions that break the vicious cycles tied to this city, grouped by how soon they could act. Options, not instructions; each links to its evidence and to any side effects to watch for. What shade, parks and reflective roofs have been measured to do in Asian cities: [what has been measured, and where](https://beattheheat.asia/cooling-options/#measured).
 
-**This hot season:** [Heat action plans](https://beattheheat.asia/actions/#hap) · [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics) · [Heat-safe work](https://beattheheat.asia/actions/#heatrules) · [Cool nights and support](https://beattheheat.asia/actions/#coolnights)
+**This hot season:** [Heat action plans](https://beattheheat.asia/actions/#hap) (watch for side effects) · [Heat-ready health services](https://beattheheat.asia/actions/#readyclinics) · [Heat-safe work](https://beattheheat.asia/actions/#heatrules) · [Cool nights and support](https://beattheheat.asia/actions/#coolnights)
 
 **Over the next few years:** [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash) (watch for side effects) · [Social protection floors](https://beattheheat.asia/actions/#socialprotection)
 

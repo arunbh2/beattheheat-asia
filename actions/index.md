@@ -1,7 +1,7 @@
 ---
 title: "Actions that break the vicious cycles of extreme heat | Common Shade"
 url: https://beattheheat.asia/actions/
-updated: 2026-11-15
+updated: 2026-11-16
 licence: CC BY 4.0
 ---
 
@@ -229,6 +229,9 @@ Cuts the link: Heatstroke and heat exhaustion → Health systems overwhelmed. Ho
 **In practice:** Ahmedabad launched South Asia’s first city heat action plan in 2013; by June 2026, India had more than 250. In Nepal, Dhangadhi, which passes 40 °C every year, published a heat action plan in 2025 with the Nepal Red Cross Society. In Bangladesh, Practical Action is working with communities and local authorities in Khulna to build a heat early warning system that responds to them, where none existed before.
 
 Sources: [Red Cross Red Crescent Climate Centre: Dhangadhi Heat Action Plan 2025](https://www.climatecentre.org/publications/16234/dhangadhi-heat-action-plan-2025/) ·
+**Watch for:** Plans are often sized to the worst heatwave in memory. A 2026 modelling study found that even with low emissions, 6 to 11% of future heatwaves in India and Pakistan, Europe and North Africa could outlast each region’s recent record heatwave; with high emissions, close to 1 in 5 in India and Pakistan.
+
+Sources: [Aglas-Leitner et al., Nature Communications, 2026: recent extreme heatwaves are no match for future events](https://www.nature.com/articles/s41467-026-76809-5)
 
 ### Practical guides
 

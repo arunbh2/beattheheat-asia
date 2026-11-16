@@ -45,7 +45,20 @@
    "kind": "Abstract record",
    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41467-026-76809-5&resultType=core&format=json",
    "expect": [
-    "heatwaves"
+    "heatwaves",
+    "pmcid"
+   ]
+  },
+  {
+   "key": "eft",
+   "title": "Recent extreme heatwaves are no match for future events (Europe PMC full text, PMC13740290)",
+   "publisher": "Europe PMC (Aglas-Leitner et al., Nature Communications)",
+   "year": 2026,
+   "kind": "Peer-reviewed modelling study (open-access full text)",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13740290/fullTextXML",
+   "expect": [
+    "Recent extreme heatwaves are no match for future events",
+    "India & Pakistan"
    ]
   }
  ],
@@ -96,6 +109,20 @@
       "npdf",
       "even when strong"
      ]
+    ],
+    [
+     [
+      "eft",
+      "between 6% and 11% of projected"
+     ],
+     [
+      "eft",
+      "1-in-5 heatwaves in Europe and India & Pakistan"
+     ],
+     [
+      "eft",
+      "even when strong"
+     ]
     ]
    ]
   },
@@ -125,6 +152,12 @@
     [
      [
       "epmc",
+      "well outside the recent lived experience"
+     ]
+    ],
+    [
+     [
+      "eft",
       "well outside the recent lived experience"
      ]
     ]
@@ -162,6 +195,16 @@
      ],
      [
       "npdf",
+      "2019"
+     ]
+    ],
+    [
+     [
+      "eft",
+      "India & Pakistan"
+     ],
+     [
+      "eft",
       "2019"
      ]
     ]

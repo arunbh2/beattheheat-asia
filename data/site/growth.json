@@ -795,6 +795,17 @@
                   "open": "A speaker's review of each translated headline (the review sheet is published), a human second coder (a protocol is proposed, not scheduled), and the pilot's original codebook (working definitions as applied are published instead)." },
       "pages": [["/how-heat-is-reported/", "How heat is reported"]], "action": ["Find reporting", "/how-heat-is-reported/#explore"],
       "links": [{ "to": "lever:heatcash", "why": "Two reviewed stories on heat insurance for informal women workers are compared side by side.", "basis": "record" }]
+    },
+    { "id": "g-future-heatwaves", "kind": "evidence", "root": "evidence", "added": "2026-11-16", "pr": null,
+      "title": "Heat plans and the heatwave longer than any on record",
+      "why": "A 2026 modelling study, checked against its open full text, finds that some future heatwaves in India and Pakistan could outlast the region's recent record even with low emissions. The heat action plan action now carries that as something to watch for, and the learning agenda asks whether plans, budgets and cooling spaces could keep running through one.",
+      "places": ["india"], "people": ["workers"], "topics": ["hap"],
+      "event": { "what": "Aglas-Leitner et al., Nature Communications 17:11456", "date": "2026-11" },
+      "review": "Three claims, each confirmed word for word in the Europe PMC full text after the publisher's pages blocked automated checks; no claim dropped",
+      "effort": { "asked": "Could a heat plan sized to the worst heatwave in memory last through a longer one?", "inbox": "data/inbox/2026-11-future-heatwaves", "dropped": "research/2026-11/future-heatwaves/dropped-after-check.json",
+                  "open": "Humid heat, nights and Southeast Asia, which the study does not cover." },
+      "pages": [["/actions/#hap", "Heat action plans"], ["/evidence-map/#q-longer-heat", "The open question"]], "action": ["See the open question", "/evidence-map/#q-longer-heat"],
+      "links": [{ "to": "lever:hap", "why": "A watch-out on plans sized to the worst heatwave in memory.", "basis": "record" }]
     }
   ]
 }

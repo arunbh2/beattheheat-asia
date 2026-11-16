@@ -5,7 +5,7 @@ updated: 2026-11-16
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 58 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 59 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-58 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,112 works the commons draws on carry a publication date, and 808 are still being dated.
+59 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,113 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -126,6 +126,42 @@ Two reviewed stories on heat insurance for informal women workers are compared s
 [How heat is reported](https://beattheheat.asia/how-heat-is-reported/)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=How%20heat%20is%20reported%3A%20one%20explorer%20over%20both%20collections%2C%20with%20each%20reviewed%20article's%20reporting%20trail&ref=g-how-heat-is-reported-explorer#way-share)
+
+Evidence added · Evidence
+
+### Heat plans and the heatwave longer than any on record
+
+Added 16 November 2026 · Aglas-Leitner et al., Nature Communications 17:11456 November 2026
+
+Why it matters our readingA 2026 modelling study, checked against its open full text, finds that some future heatwaves in India and Pakistan could outlast the region's recent record even with low emissions. The heat action plan action now carries that as something to watch for, and the learning agenda asks whether plans, budgets and cooling spaces could keep running through one.
+
+- India
+- Workers in heat-exposed jobs
+- Heat action plans
+
+ReviewThree claims, each confirmed word for word in the Europe PMC full text after the publisher's pages blocked automated checks; no claim dropped. 5 checked · 4 confirmed · 1 not confirmed, each recorded.
+
+What it took to add this
+
+- **The question.** Could a heat plan sized to the worst heatwave in memory last through a longer one?
+- **The search.** 5 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 4 confirmed, and 1 could not be (1 did not show the expected text).
+- **What we set aside.** 0 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+
+- **What is still open.** Humid heat, nights and Southeast Asia, which the study does not cover.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-future-heatwaves/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/future-heatwaves/dropped-after-check.json)
+
+How it connects
+
+- [Heat action plans](https://beattheheat.asia/actions/#hap) Action · from the site's records
+A watch-out on plans sized to the worst heatwave in memory.
+
+[See the open question](https://beattheheat.asia/evidence-map/#q-longer-heat)
+[Heat action plans](https://beattheheat.asia/actions/#hap)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Heat%20plans%20and%20the%20heatwave%20longer%20than%20any%20on%20record&ref=g-future-heatwaves#way-share)
 
 Evidence added · Practical measures
 
@@ -1447,7 +1483,7 @@ Know something that would improve this? [Share evidence, experience or a correct
 
 Question opened · Evidence
 
-### A learning agenda: the questions the evidence has not yet answered (42 questions)
+### A learning agenda: the questions the evidence has not yet answered (43 questions)
 
 Added 31 October 2026 · Questions drawn from the limits studies state: dates vary; each source shows its own
 
@@ -1867,13 +1903,13 @@ Steps toward protection this year: [Delhi launches its 2025 Heat Action Plan](ht
 
 - 2026 so far
 
-237 works published, 139 of them with a known month; 1,112 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
+238 works published, 139 of them with a known month; 1,113 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
 
 Steps toward protection this year: [Bangkok opens 304 cooling centres](https://beattheheat.asia/atlas/); [The first Global Heat Forum, in Bangkok](https://beattheheat.asia/atlas/).
 
 - Evidence404
 - Experience98
-- Practical measures243
+- Practical measures244
 - Institutions and plans138
 - Financing229
 

@@ -14136,6 +14136,15 @@
    "org": false
   },
   {
+   "url": "https://www.nature.com/articles/s41467-026-76809-5",
+   "label": "Aglas-Leitner et al., Nature Communications, 2026: recent extreme heatwaves are no match for future events",
+   "root": "practical",
+   "org": false,
+   "date": "2026",
+   "precision": "year",
+   "how": "label"
+  },
+  {
    "url": "https://www.nature.com/articles/s41597-022-01314-5",
    "label": "Tasgaonkar et al., Scientific Data, 2022",
    "root": "practical",
