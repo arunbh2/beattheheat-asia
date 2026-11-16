@@ -1,11 +1,11 @@
 ---
 title: "Watch Common Shade grow"
 url: https://beattheheat.asia/growing/
-updated: 2026-11-15
+updated: 2026-11-16
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 55 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 56 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,11 +13,47 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-55 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,112 works the commons draws on carry a publication date, and 808 are still being dated.
+56 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,112 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
 ## Updates, newest first
+
+Tool improved · Evidence
+
+### Signals now shows what the evidence confirms for each promise
+
+Added 16 November 2026 · Signals rebuilt around evidence 16 November 2026
+
+Why it matters our readingEach commitment on Signals is now tracked deliverable by deliverable, so an office, a research fund and a future plan no longer share one status, and every milestone names its sources, what each establishes and whether the site's source check confirmed it. Secondary reports and pages that only opened are shown as such, nothing missing is called failed, and a filtered view can be shared, saved, printed or downloaded.
+
+- South and Southeast Asia
+- Workers in heat-exposed jobs
+- Heat-safe work
+- Dedicated heat budgets
+
+ReviewEvery existing record re-described from its own text and the site's check records, with no new claims; an independent review of the tracking model; the edge cases tested on fixtures. 10 checked · 5 confirmed · 5 not confirmed, each recorded.
+
+What it took to add this
+
+- **The question.** For each promise on Signals, what does the evidence actually confirm, and what would show the next step?
+- **The search.** 10 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 5 confirmed, and 5 could not be (1 blocked automated reading, 4 did not respond).
+- **What we set aside.** 5 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+
+- **What is still open.** The original texts behind records that rest on secondary reports, and content checks for sources that have only been opened.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-signals-cop31/link-check.json) · [what was set aside, and why](https://beattheheat.asia/research/2026-11/signals-cop31/dropped-after-check.json)
+
+How it connects
+
+- [Heat-safe work](https://beattheheat.asia/actions/#heatrules) Action · from the site's records
+Several tracked rules concern heat at work, each now with its effective date and evidence.
+
+[See Signals](https://beattheheat.asia/signals/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Signals%20now%20shows%20what%20the%20evidence%20confirms%20for%20each%20promise&ref=g-signals-evidence-records#way-share)
 
 Evidence added · Practical measures
 

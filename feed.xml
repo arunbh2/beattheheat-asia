@@ -5,8 +5,15 @@
   <link href="https://beattheheat.asia/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://beattheheat.asia/growing/" rel="alternate" type="text/html"/>
   <id>https://beattheheat.asia/</id>
-  <updated>2026-11-15T00:00:00Z</updated>
+  <updated>2026-11-16T00:00:00Z</updated>
   <rights>CC BY 4.0</rights>
+  <entry>
+    <title>Signals now shows what the evidence confirms for each promise</title>
+    <link href="https://beattheheat.asia/growing/#g-signals-evidence-records" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-signals-evidence-records</id>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <summary>Each commitment on Signals is now tracked deliverable by deliverable, so an office, a research fund and a future plan no longer share one status, and every milestone names its sources, what each establishes and whether the site's source check confirmed it. Secondary reports and pages that only opened are shown as such, nothing missing is called failed, and a filtered view can be shared, saved, printed or downloaded.</summary>
+  </entry>
   <entry>
     <title>A policy brief on heat-ready social security, with examples from across Asia</title>
     <link href="https://beattheheat.asia/growing/#g-heat-ready-social-security" rel="alternate" type="text/html"/>
@@ -209,12 +216,5 @@
     <id>https://beattheheat.asia/growing/#g-social-protection</id>
     <updated>2026-11-07T00:00:00Z</updated>
     <summary>Public schemes could cushion lost work and care costs in a hot season. Setting out who runs each, what it gives and how far people get through the steps of access shows where support stops.</summary>
-  </entry>
-  <entry>
-    <title>The news page now shows what became of each paper and headline</title>
-    <link href="https://beattheheat.asia/growing/#g-news-to-evidence" rel="alternate" type="text/html"/>
-    <id>https://beattheheat.asia/growing/#g-news-to-evidence</id>
-    <updated>2026-11-07T00:00:00Z</updated>
-    <summary>Coverage and checked evidence are easy to confuse. Every paper on the news page now goes through the weekly evidence review, and each item shows whether it is on the Evidence map, in review, set aside or still waiting.</summary>
   </entry>
 </feed>

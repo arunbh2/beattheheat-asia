@@ -761,6 +761,18 @@
                   "open": "Records for Ahmedabad, Chattogram, Colombo, Dhaka, Kathmandu, Phnom Penh, Quezon City and Surabaya; whether national weather services publish longer series than NOAA holds." },
       "pages": [["/cities/", "Cities"], ["/corrections/", "Corrections"]], "action": ["See the cities", "/cities/"],
       "links": [{ "to": "lever:anticipatory", "why": "More warm nights and hot days are what early warning is planned around.", "basis": "editorial" }]
+    },
+    {
+      "id": "g-signals-evidence-records", "kind": "tool", "root": "evidence", "added": "2026-11-16", "pr": null,
+      "title": "Signals now shows what the evidence confirms for each promise",
+      "why": "Each commitment on Signals is now tracked deliverable by deliverable, so an office, a research fund and a future plan no longer share one status, and every milestone names its sources, what each establishes and whether the site's source check confirmed it. Secondary reports and pages that only opened are shown as such, nothing missing is called failed, and a filtered view can be shared, saved, printed or downloaded.",
+      "places": ["region"], "people": ["workers"], "topics": ["heatrules", "heatbudget"],
+      "event": { "what": "Signals rebuilt around evidence", "date": "2026-11-16" },
+      "review": "Every existing record re-described from its own text and the site's check records, with no new claims; an independent review of the tracking model; the edge cases tested on fixtures",
+      "effort": { "asked": "For each promise on Signals, what does the evidence actually confirm, and what would show the next step?", "inbox": "data/inbox/2026-11-signals-cop31", "dropped": "research/2026-11/signals-cop31/dropped-after-check.json",
+                  "open": "The original texts behind records that rest on secondary reports, and content checks for sources that have only been opened." },
+      "pages": [["/signals/", "Signals"]], "action": ["See Signals", "/signals/"],
+      "links": [{ "to": "lever:heatrules", "why": "Several tracked rules concern heat at work, each now with its effective date and evidence.", "basis": "record" }]
     }
   ]
 }

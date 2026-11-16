@@ -1,272 +1,855 @@
 {
  "about": "Signals: announcements, commitments, gatherings and findings that show which way heat policy and practice are moving in South and Southeast Asia. A commitment climbs a ladder (announced, adopted, funded, delivered, evaluated) and each move is dated in its history; an announcement is a weak signal, and each rung is stronger evidence that change is real. Every signal reuses a source the site has already checked, or passed its own check (research/2026-11/signals-cop31/). The ladder records how far each signal has got, never how well an institution performs. Checked by build-data.js --check.",
  "ladder": [
-  { "id": "announced", "label": "Announced", "means": "Said in public. A weak signal on its own: announcements happen whether or not anything follows." },
-  { "id": "adopted", "label": "Adopted", "means": "Made formal: a plan approved, a rule changed, an office set up." },
-  { "id": "funded", "label": "Funded", "means": "Money committed to it, whether or not the amount is public." },
-  { "id": "delivered", "label": "Delivered", "means": "Something exists that people can use: a service open, a guide published, money paid out." },
-  { "id": "evaluated", "label": "Evaluated", "means": "Its results were measured and published." }
+  {"id":"announced","label":"Announced","means":"Said in public. A weak signal on its own: announcements happen whether or not anything follows."},
+  {"id":"adopted","label":"Adopted","means":"Made formal: a plan approved, a rule changed, an office set up."},
+  {"id":"funded","label":"Funded","means":"Money committed to it, whether or not the amount is public."},
+  {"id":"delivered","label":"Delivered","means":"Something exists that people can use: a service open, a guide published, money paid out."},
+  {"id":"evaluated","label":"Evaluated","means":"Its results were measured and published."}
  ],
  "kinds": [
-  { "id": "commitment", "label": "Commitment", "means": "Something an institution has promised or started; it climbs the ladder." },
-  { "id": "gathering", "label": "Gathering", "means": "A conference or forum where the field meets; what it produces may become commitments." },
-  { "id": "finding", "label": "Finding", "means": "New science that changes how heat is understood." },
-  { "id": "guidance", "label": "Guidance", "means": "A framework or guide published for others to use." }
+  {"id":"commitment","label":"Commitment","means":"Something an institution has promised or started; it climbs the ladder."},
+  {"id":"gathering","label":"Gathering","means":"A conference or forum where the field meets; what it produces may become commitments."},
+  {"id":"finding","label":"Finding","means":"New science that changes how heat is understood."},
+  {"id":"guidance","label":"Guidance","means":"A framework or guide published for others to use."}
  ],
  "groups": [
-  { "id": "cop31", "label": "COP31 watch", "when": "Antalya, 9 to 20 November 2026", "intro": "What we are watching for heat at COP31. Each item is added only after its source passes the site's check, on the rung it has truly reached; almost everything at a conference starts as an announcement.", "watching": ["Adaptation indicators", "Health", "Adaptation finance", "Cooling", "Early warnings"],
-    "reading": { "label": "A reading so far, after check-in 1 (13 November)", "text": "COP31's heat story is running through health, early warning and money, while we have so far found little on heat itself in the negotiating texts. No heat commitment by India, Bangladesh, the Philippines or Thailand has been found in the coverage yet. This is a reading of what the watch has found, not a finding, and it will be revisited at each check-in and when the conference closes." } },
-  { "id": "year", "label": "Signals of the year", "intro": "This year's signals already on Common Shade, each with the source the site checked." }
+  {
+   "id": "cop31",
+   "label": "COP31 watch",
+   "when": "Antalya, 9 to 20 November 2026",
+   "intro": "What we are watching for heat at COP31. Each item is added only after its source passes the site's check, on the rung it has truly reached; almost everything at a conference starts as an announcement.",
+   "watching": ["Adaptation indicators","Health","Adaptation finance","Cooling","Early warnings"],
+   "reading": {"label":"A reading so far, after check-in 1 (13 November)","text":"COP31's heat story is running through health, early warning and money, while we have so far found little on heat itself in the negotiating texts. No heat commitment by India, Bangladesh, the Philippines or Thailand has been found in the coverage yet. This is a reading of what the watch has found, not a finding, and it will be revisited at each check-in and when the conference closes."},
+   "scope": "Heat in COP31's announcements and outcomes on adaptation, health, finance, cooling and early warnings, including launches shortly before the conference. Each item enters only after its source passes the site's check.",
+   "cutoff": "2026-11-15",
+   "checkins": [
+    {"date":"2026-11-09","label":"Opening","added":["sig-cop31-2026","sig-wmo-state-of-climate-2026","sig-el-nino-2026-2027","sig-emissions-gap-2026","sig-belem-adaptation-indicators-2025"],"note":"The conference, the year's climate findings and the adaptation indicators it builds on."},
+    {"date":"2026-11-13","label":"Check-in 1","added":["sig-cop31-air-2026","sig-cop31-health-theme-2026","sig-ifrc-heat-warnings-2026","sig-adaptation-gap-2026"],"note":"Health and finance: the health platform launched on Health Day, the presidency's health theme, and two calls for money and warnings."},
+    {"date":"2026-11-15","label":"Check-in 2","added":["sig-cop31-antalya-compact-2026"],"note":"A buildings compact launched before the conference, added at the announced step."}
+   ],
+   "synthesis": null
+  },
+  {
+   "id": "year",
+   "label": "Signals of the year",
+   "intro": "This year's signals already on Common Shade, each with the source the site checked."
+  }
  ],
  "signals": [
   {
-   "id": "sig-cop31-2026", "group": "cop31", "kind": "gathering", "date": "2026-11-09",
+   "id": "sig-cop31-2026",
+   "group": "cop31",
+   "kind": "gathering",
+   "date": "2026-11-09",
    "title": "COP31 opens in Antalya",
    "summary": "COP31, the UN climate conference, is held in Antalya from 9 to 20 November 2026.",
-   "who": "UNFCCC", "places": ["region"], "levers": ["hap", "heatbudget", "anticipatory"],
+   "who": "UNFCCC",
+   "places": ["region"],
+   "levers": ["hap","heatbudget","anticipatory"],
    "next": "Watch for heat in its outcomes on adaptation, health, finance, cooling and early warnings; each enters this page on the rung it has truly reached.",
-   "sources": [{ "label": "UNFCCC: UN Climate Change Conference, Antalya, November 2026", "url": "https://unfccc.int/cop31" }]
+   "sources": [
+    {"id":"unfccc","type":"original","label":"UNFCCC: UN Climate Change Conference, Antalya, November 2026","url":"https://unfccc.int/cop31"}
+   ],
+   "where": "Global (UN climate process)",
+   "relevance": {"basis":"interpreted","note":"The conference covers climate change broadly; following it for heat is Common Shade's choice."},
+   "review": {"reviewed":"2026-11-16","due":"2026-11-27"}
   },
   {
-   "id": "sig-wmo-state-of-climate-2026", "group": "cop31", "kind": "finding", "date": "2026-11-09",
+   "id": "sig-wmo-state-of-climate-2026",
+   "group": "cop31",
+   "kind": "finding",
+   "date": "2026-11-09",
    "title": "2026 will be one of the four warmest years on record",
    "summary": "WMO's State of the Climate Update 2026, released as COP31 opened, finds that the past 12 years have each been the warmest on record and the past four the top four. The global average surface temperature for January to September 2026 was about 1.47 °C above the pre-industrial average. In early November the EU's Copernicus service said 2026 is most likely to be the second-hottest year on record.",
-   "who": "World Meteorological Organization", "places": ["region"], "levers": ["hap", "anticipatory"],
+   "who": "World Meteorological Organization",
+   "places": ["region"],
+   "levers": ["hap","anticipatory"],
    "next": "A finding, not a commitment: watch whether heat plans and budgets are sized for the heat these years now bring, not the heat people remember.",
    "sources": [
-    { "label": "WMO, 2026: State of the climate in 2026 gives new meaning to phrase 'off the charts'", "url": "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts" },
-    { "label": "WMO: State of the Climate Update for COP31", "url": "https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31" },
-    { "label": "AFP via The Korea Times, 2026: 2026 most likely to be second-hottest year on record", "url": "https://www.koreatimes.co.kr/world/20261106/2026-most-likely-to-be-second-hottest-year-on-record-eu-monitor" }
-   ]
+    {"id":"wmo-press","type":"original","label":"WMO, 2026: State of the climate in 2026 gives new meaning to phrase 'off the charts'","url":"https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts"},
+    {"id":"wmo-report","type":"original","label":"WMO: State of the Climate Update for COP31","url":"https://wmo.int/resources/publication-series/state-of-climate-update-cop/state-of-climate-update-cop31"},
+    {"id":"afp","type":"secondary","label":"AFP via The Korea Times, 2026: 2026 most likely to be second-hottest year on record","url":"https://www.koreatimes.co.kr/world/20261106/2026-most-likely-to-be-second-hottest-year-on-record-eu-monitor"}
+   ],
+   "where": "Global",
+   "relevance": {"basis":"explicit"},
+   "review": {"reviewed":"2026-11-16","due":"2026-11-27"}
   },
   {
-   "id": "sig-el-nino-2026-2027", "group": "cop31", "kind": "finding", "date": "2026-11-09",
+   "id": "sig-el-nino-2026-2027",
+   "group": "cop31",
+   "kind": "finding",
+   "date": "2026-11-09",
    "title": "El Niño set to bring more heat into 2027",
    "summary": "By mid-August 2026 El Niño had become firmly established. WMO reports it has been intensifying since August and is expected to be the strongest on record by December, set to unleash even more heat and extreme weather well into 2027.",
-   "who": "World Meteorological Organization", "places": ["region"], "levers": ["anticipatory", "hap"],
+   "who": "World Meteorological Organization",
+   "places": ["region"],
+   "levers": ["anticipatory","hap"],
    "next": "Early warnings and heat plans ready for the 2027 hot season, above all in Southeast Asia, where El Niño and warming broke records in April 2016.",
    "sources": [
-    { "label": "WMO, 2026: State of the climate in 2026 gives new meaning to phrase 'off the charts'", "url": "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts" },
-    { "label": "WMO: El Niño/La Niña Update, August 2026", "url": "https://wmo.int/node/38928" }
-   ]
+    {"id":"wmo-press","type":"original","label":"WMO, 2026: State of the climate in 2026 gives new meaning to phrase 'off the charts'","url":"https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts"},
+    {"id":"wmo-enso","type":"original","label":"WMO: El Niño/La Niña Update, August 2026","url":"https://wmo.int/node/38928"}
+   ],
+   "where": "Global",
+   "relevance": {"basis":"explicit"},
+   "review": {"reviewed":"2026-11-16","due":"2026-11-27"}
   },
   {
-   "id": "sig-emissions-gap-2026", "group": "cop31", "kind": "finding", "date": "2026",
+   "id": "sig-emissions-gap-2026",
+   "group": "cop31",
+   "kind": "finding",
+   "date": "2026",
    "title": "Warming will overshoot 1.5 °C: the Emissions Gap Report 2026",
    "summary": "UNEP's Emissions Gap Report 2026, The Point of Return, finds that with global temperature rise set to exceed 1.5 °C, urgent and stringent cuts are needed to minimise the size and length of the overshoot and return to 1.5 °C by the end of the century. If current policies continue, warming could reach 2.8 °C this century; if all national pledges are delivered, 2.6 °C.",
-   "who": "UNEP, with PBL Netherlands Environmental Assessment Agency", "places": ["region"], "levers": ["hap", "heatbudget"],
+   "who": "UNEP, with PBL Netherlands Environmental Assessment Agency",
+   "places": ["region"],
+   "levers": ["hap","heatbudget"],
    "next": "A finding, not a commitment: watch whether adaptation plans for heat assume the warming these projections describe.",
-   "sources": [{ "label": "PBL Netherlands Environmental Assessment Agency: UNEP Emissions Gap Report 2026", "url": "https://www.pbl.nl/en/publications/unep-emissions-gap-report-2026" }]
+   "sources": [
+    {"id":"pbl","type":"original","label":"PBL Netherlands Environmental Assessment Agency: UNEP Emissions Gap Report 2026","url":"https://www.pbl.nl/en/publications/unep-emissions-gap-report-2026"}
+   ],
+   "where": "Global",
+   "relevance": {"basis":"interpreted","note":"A projection of warming; what it means for heat exposure is Common Shade's reading."},
+   "review": {"reviewed":"2026-11-16","due":"2026-11-27"}
   },
   {
-   "id": "sig-cop31-air-2026", "group": "cop31", "kind": "commitment", "date": "2026-11-09",
+   "id": "sig-cop31-air-2026",
+   "group": "cop31",
+   "kind": "commitment",
+   "date": "2026-11-09",
    "title": "The Antalya Initiative for Health Resilience (AIR) launches on Health Day",
    "summary": "COP31 opened with the launch of the Antalya Initiative for Health Resilience (AIR), a voluntary platform for countries to share their experience of making health systems resilient to climate risks. Health Policy Watch calls it the Antalya Initiative for Resilient Health Systems; this page uses WHO's name. On the launch day no country had yet announced that it would take part. Alongside it, a joint initiative with WHO brings climate information into public health planning: a forecast of dangerously high temperatures, for example, can help hospitals prepare for more patients.",
-   "who": "Türkiye, as COP31 host, and the World Health Organization", "places": ["region"], "levers": ["readyclinics", "hap"],
-   "stage": "announced", "history": [{ "date": "2026-11-09", "stage": "announced", "note": "Launched on Health Day, the first day of COP31; no country had yet said it would take part" }],
+   "who": "Türkiye, as COP31 host, and the World Health Organization",
+   "places": ["region"],
+   "levers": ["readyclinics","hap"],
+   "stage": "announced",
+   "history": [
+    {"date":"2026-11-09","stage":"announced","note":"Launched on Health Day, the first day of COP31"}
+   ],
    "next": "Adopted: countries saying they will take part, and sharing what has worked in protecting health from heat.",
    "sources": [
-    { "label": "World Health Organization: WHO COP31 climate change and health brief, 2026", "url": "https://cdn.who.int/media/docs/default-source/climate-change/who-cop31-cch-brief.pdf" },
-    { "label": "Health Policy Watch, 2026: 'Declarations do not protect people': COP31 opens under pressure to deliver results over words", "url": "https://healthpolicy-watch.news/declarations-do-not-protect-people-cop31-opens-under-pressure-to-deliver-results-over-words/" },
-    { "label": "UN News, 2026: COP31 opens in Antalya: Can climate promises finally deliver results?", "url": "https://news.un.org/en/story/2026/11/1168763" }
-   ]
+    {"id":"who","type":"original","label":"World Health Organization: WHO COP31 climate change and health brief, 2026","url":"https://cdn.who.int/media/docs/default-source/climate-change/who-cop31-cch-brief.pdf"},
+    {"id":"hpw","type":"secondary","label":"Health Policy Watch, 2026: 'Declarations do not protect people': COP31 opens under pressure to deliver results over words","url":"https://healthpolicy-watch.news/declarations-do-not-protect-people-cop31-opens-under-pressure-to-deliver-results-over-words/"},
+    {"id":"un-news","type":"secondary","label":"UN News, 2026: COP31 opens in Antalya: Can climate promises finally deliver results?","url":"https://news.un.org/en/story/2026/11/1168763"}
+   ],
+   "where": "Global (UN climate process)",
+   "relevance": {"basis":"interpreted","note":"The platform concerns climate risks to health in general; heat is one of those risks in UN News' account, not a stated focus."},
+   "deliverables": [
+    {
+     "id": "d-platform",
+     "what": "The Antalya Initiative for Health Resilience, a voluntary platform for countries to share their experience",
+     "type": "platform",
+     "milestones": [
+      {"id":"m-launched","step":"announced","date":"2026-11-09","note":"Launched on Health Day, the first day of COP31","evidence":[{"source":"who","establishes":"WHO's COP31 brief describes the Antalya Initiative as a voluntary platform launched at COP31.","terms":["Antalya Initiative","voluntary"]},{"source":"hpw","establishes":"Reports that on the launch day no country had yet announced that it would take part.","terms":["Antalya Initiative","participation"]}]}
+     ],
+     "unknown": ["Which countries take part: none found in the sources checked as of the last review","What the platform will produce, and any funding: not disclosed in the sources checked"],
+     "next": "A country announcing that it will take part, or the platform's first published output."
+    }
+   ],
+   "review": {"reviewed":"2026-11-16","due":"2026-11-27"}
   },
   {
-   "id": "sig-cop31-antalya-compact-2026", "group": "cop31", "kind": "commitment", "date": "2026-10-29",
+   "id": "sig-cop31-antalya-compact-2026",
+   "group": "cop31",
+   "kind": "commitment",
+   "date": "2026-10-29",
    "title": "The Antalya Compact for Energy Efficient Buildings opens for endorsement",
    "summary": "Ahead of the conference, the COP31 Presidency launched the Antalya Compact for Energy Efficient Buildings, which aims for a 25% cut in the operational energy intensity of buildings worldwide by 2035, compared with 2020. Its actions include stronger energy codes, faster renovation and the electrification of heating and cooling. It covers buildings and energy as a whole, not heat alone; it bears on heat because cooler, more efficient buildings ease the indoor heat people live and work in, and the cost of cooling them.",
-   "who": "COP31 Presidency", "places": ["region"], "levers": ["coolbydesign", "cleancool"],
-   "stage": "announced", "history": [{ "date": "2026-10-29", "stage": "announced", "note": "Launched by the COP31 Presidency ahead of the conference and opened for endorsement by all Parties" }],
+   "who": "COP31 Presidency",
+   "places": ["region"],
+   "levers": ["coolbydesign","cleancool"],
+   "stage": "announced",
+   "history": [
+    {"date":"2026-10-29","stage":"announced","note":"Launched by the COP31 Presidency ahead of the conference and opened for endorsement"}
+   ],
    "next": "Adopted: countries endorsing the Compact, and building codes in South and Southeast Asia that name cooling and indoor heat.",
    "sources": [
-    { "label": "COP31 Presidency, 2026: COP31 launches Antalya Compact for Energy Efficient Buildings", "url": "https://cop31.tr/news-detail/cop31-launches-antalya-compact-for-energy-efficient-buildings" },
-    { "label": "LexisNexis, 2026: COP31 Presidency launches Antalya Compact for energy efficient buildings", "url": "https://www.lexisnexis.co.uk/legal/news/cop31-presidency-launches-antalya-compact-for-energy-efficient-buildings" }
-   ]
+    {"id":"presidency","type":"original","label":"COP31 Presidency, 2026: COP31 launches Antalya Compact for Energy Efficient Buildings","url":"https://cop31.tr/news-detail/cop31-launches-antalya-compact-for-energy-efficient-buildings"},
+    {"id":"lexisnexis","type":"secondary","label":"LexisNexis, 2026: COP31 Presidency launches Antalya Compact for energy efficient buildings","url":"https://www.lexisnexis.co.uk/legal/news/cop31-presidency-launches-antalya-compact-for-energy-efficient-buildings"}
+   ],
+   "where": "Global (UN climate process)",
+   "relevance": {"basis":"interpreted","note":"The checked text concerns the energy use of buildings; the link to cooling and indoor heat is Common Shade's reading."},
+   "deliverables": [
+    {
+     "id": "d-compact",
+     "what": "The Antalya Compact for Energy Efficient Buildings, open for endorsement by Parties",
+     "type": "platform",
+     "milestones": [
+      {"id":"m-launched","step":"announced","date":"2026-10-29","note":"Launched by the COP31 Presidency ahead of the conference and opened for endorsement","evidence":[{"source":"presidency","establishes":"The COP31 Presidency's own announcement of the Compact for buildings.","terms":["Antalya Compact","buildings"]},{"source":"lexisnexis","establishes":"Reports the Compact and its 2035 aim.","terms":["Antalya Compact","2035"]}]}
+     ],
+     "unknown": ["Which Parties have endorsed it: not verified","Whether it names cooling or indoor heat: not verified"],
+     "next": "Endorsements by countries in South and Southeast Asia, and building codes there that name cooling and indoor heat."
+    }
+   ],
+   "review": {"reviewed":"2026-11-16","due":"2026-11-27"}
   },
   {
-   "id": "sig-cop31-health-theme-2026", "group": "cop31", "kind": "commitment", "date": "2026",
+   "id": "sig-cop31-health-theme-2026",
+   "group": "cop31",
+   "kind": "commitment",
+   "date": "2026",
    "title": "The presidency's health theme: Dynamic and Resilient Health Systems",
    "summary": "The COP31 presidency's action agenda includes a theme on Dynamic and Resilient Health Systems, which prioritises health systems that can anticipate, respond to and recover from climate-related shocks through preparedness, surveillance and resilient infrastructure. Unlike many other themes, it carries no numerical target for 2035.",
-   "who": "COP31 presidency", "places": ["region"], "levers": ["readyclinics", "countdeaths"],
-   "stage": "announced", "history": [{ "date": "2026", "stage": "announced", "note": "Set out in the presidency's action agenda, without a numerical target" }],
+   "who": "COP31 presidency",
+   "places": ["region"],
+   "levers": ["readyclinics","countdeaths"],
+   "stage": "announced",
+   "history": [
+    {"date":"2026","stage":"announced","note":"Set out in the presidency's action agenda, without a numerical target"}
+   ],
    "next": "Adopted: a target or a reporting route for the theme, and heat named within it.",
-   "sources": [{ "label": "World Health Organization: WHO COP31 climate change and health brief, 2026", "url": "https://cdn.who.int/media/docs/default-source/climate-change/who-cop31-cch-brief.pdf" }]
+   "sources": [
+    {"id":"who","type":"original","label":"World Health Organization: WHO COP31 climate change and health brief, 2026","url":"https://cdn.who.int/media/docs/default-source/climate-change/who-cop31-cch-brief.pdf"}
+   ],
+   "where": "Global (UN climate process)",
+   "relevance": {"basis":"interpreted","note":"The theme concerns climate shocks to health systems; whether it names heat was not verified."},
+   "deliverables": [
+    {
+     "id": "d-theme",
+     "what": "A theme on Dynamic and Resilient Health Systems in the COP31 presidency's action agenda",
+     "type": "framework",
+     "milestones": [
+      {"id":"m-set-out","step":"announced","date":"2026","note":"Set out in the presidency's action agenda, without a numerical target","evidence":[{"source":"who","establishes":"WHO's COP31 brief names the theme in the presidency's action agenda.","terms":["Dynamic and Resilient Health Systems"]}]}
+     ],
+     "unknown": ["A target or reporting route: none found in the sources checked","Whether heat is named within the theme: not verified"],
+     "next": "A target or a reporting route for the theme, with heat named in it."
+    }
+   ],
+   "review": {"reviewed":"2026-11-16","due":"2026-11-27"}
   },
   {
-   "id": "sig-ifrc-heat-warnings-2026", "group": "cop31", "kind": "finding", "date": "2026-10",
+   "id": "sig-ifrc-heat-warnings-2026",
+   "group": "cop31",
+   "kind": "finding",
+   "date": "2026-10",
    "title": "Only 35% of countries report health early warning systems for heat-related illness",
    "summary": "IFRC's call to action for COP31 notes that only 35% of countries have reported having health early warning systems for heat-related illness. It asks for investment in multi-sector local action for cities and communities to reduce heat risk, from heat action plans and early warning to shock-responsive social protection and nature-based solutions.",
-   "who": "International Federation of Red Cross and Red Crescent Societies", "places": ["region"], "levers": ["anticipatory", "hap", "socialprotection"],
+   "who": "International Federation of Red Cross and Red Crescent Societies",
+   "places": ["region"],
+   "levers": ["anticipatory","hap","socialprotection"],
    "next": "A finding and an ask, not a commitment: watch whether COP31 outcomes fund heat early warning that reaches health services and communities.",
-   "sources": [{ "label": "International Federation of Red Cross and Red Crescent Societies: IFRC COP31 Call to Action, 2026", "url": "https://www.ifrc.org/sites/default/files/2026-10/IFRC%20COP31%20Call%20to%20Action.pdf" }]
+   "sources": [
+    {"id":"ifrc","type":"original","label":"International Federation of Red Cross and Red Crescent Societies: IFRC COP31 Call to Action, 2026","url":"https://www.ifrc.org/sites/default/files/2026-10/IFRC%20COP31%20Call%20to%20Action.pdf"}
+   ],
+   "where": "Global",
+   "relevance": {"basis":"explicit"},
+   "review": {"reviewed":"2026-11-16","due":"2026-11-27"}
   },
   {
-   "id": "sig-adaptation-gap-2026", "group": "cop31", "kind": "finding", "date": "2026",
+   "id": "sig-adaptation-gap-2026",
+   "group": "cop31",
+   "kind": "finding",
+   "date": "2026",
    "title": "Adaptation finance covers a fraction of what is needed",
    "summary": "UNEP's Adaptation Gap Report 2026 estimates that developing countries need about US$305 billion a year for adaptation by 2035. International public adaptation finance to developing countries was about US$28 to 32 billion in 2024. Even if the COP30 aim of tripling it is met, it would cover only about 20 to 29% of needs. The report covers adaptation as a whole, not heat alone; it bears on heat because heat plans draw on the same adaptation money.",
-   "who": "UN Environment Programme", "places": ["region"], "levers": ["heatbudget", "anticipatory"],
+   "who": "UN Environment Programme",
+   "places": ["region"],
+   "levers": ["heatbudget","anticipatory"],
    "next": "A finding, not a commitment: watch whether COP31's finance outcomes reach heat plans, and whether heat is named in them.",
-   "sources": [{ "label": "UNEP, 2026: As world heads for overshoot of 1.5°C, adaptation is too slow", "url": "https://www.unep.org/en/news-and-stories/press-release/world-heads-overshoot-15degc-adaptation-too-slow" }]
+   "sources": [
+    {"id":"unep","type":"original","label":"UNEP, 2026: As world heads for overshoot of 1.5°C, adaptation is too slow","url":"https://www.unep.org/en/news-and-stories/press-release/world-heads-overshoot-15degc-adaptation-too-slow"}
+   ],
+   "where": "Developing countries",
+   "relevance": {"basis":"interpreted","note":"The figures are for adaptation finance as a whole; no share for heat is given, and none is implied here."},
+   "review": {"reviewed":"2026-11-16","due":"2026-11-27"}
   },
   {
-   "id": "sig-belem-adaptation-indicators-2025", "group": "cop31", "kind": "commitment", "date": "2025",
+   "id": "sig-belem-adaptation-indicators-2025",
+   "group": "cop31",
+   "kind": "commitment",
+   "date": "2025",
    "title": "59 Belém Adaptation Indicators to measure progress on adaptation",
    "summary": "At the 2025 UN climate conference (CMA 7), countries adopted a set of 59 Belém Adaptation Indicators to measure progress towards the targets for adaptation; reporting on them will serve as an input to the global stocktake.",
-   "who": "Parties to the Paris Agreement (CMA 7)", "places": ["region"], "levers": ["hap", "countdeaths"],
-   "stage": "adopted", "history": [{ "date": "2025", "stage": "adopted", "note": "Adopted at CMA 7, under the Global Goal on Adaptation" }],
+   "who": "Parties to the Paris Agreement (CMA 7)",
+   "places": ["region"],
+   "levers": ["hap","countdeaths"],
+   "stage": "adopted",
+   "history": [
+    {"date":"2025","stage":"adopted","note":"Adopted at CMA 7, under the Global Goal on Adaptation"}
+   ],
    "next": "Delivered: countries in South and Southeast Asia reporting on the indicators, including those that touch heat and health.",
-   "sources": [{ "label": "UNFCCC: Global Goal on Adaptation", "url": "https://unfccc.int/topics/adaptation-and-resilience/workstreams/gga" }]
+   "sources": [
+    {"id":"unfccc","type":"original","label":"UNFCCC: Global Goal on Adaptation","url":"https://unfccc.int/topics/adaptation-and-resilience/workstreams/gga"}
+   ],
+   "where": "Global (UN climate process)",
+   "relevance": {"basis":"interpreted","note":"The indicators measure adaptation in general; which of them bear on heat was not assessed."},
+   "deliverables": [
+    {
+     "id": "d-indicators",
+     "what": "59 Belém Adaptation Indicators to measure progress on adaptation",
+     "type": "framework",
+     "milestones": [
+      {"id":"m-adopted","step":"adopted","date":"2025","note":"Adopted at CMA 7, under the Global Goal on Adaptation","evidence":[{"source":"unfccc","establishes":"UNFCCC's Global Goal on Adaptation page describes the indicators adopted at CMA 7.","terms":["Global Goal on Adaptation","indicators"]}]}
+     ],
+     "unknown": ["Which indicators bear on heat: not assessed","Reporting against them by countries in South and Southeast Asia: not verified"],
+     "next": "Countries in South and Southeast Asia reporting on the indicators, including any that touch heat and health."
+    }
+   ],
+   "review": {"reviewed":"2026-11-16","due":"2026-11-27"}
   },
   {
-   "id": "sig-india-heatwave-calamity-2026", "group": "year", "kind": "commitment", "date": "2026-08",
+   "id": "sig-india-heatwave-calamity-2026",
+   "group": "year",
+   "kind": "commitment",
+   "date": "2026-08",
    "title": "India adds heatwaves to its notified natural calamities",
    "summary": "In August 2026 India added heatwaves to its notified natural calamities, so national and state disaster response funds can pay for heatwave relief. Before, states could spend only up to 10% of their response fund on locally declared disasters such as heat. Heat mitigation projects are funded separately, from disaster mitigation funds.",
-   "who": "Government of India", "places": ["india"], "levers": ["heatbudget", "anticipatory"],
-   "stage": "adopted", "history": [{ "date": "2026-08", "stage": "adopted", "note": "A rule change, reported from a reply in India's Lok Sabha" }],
+   "who": "Government of India",
+   "places": ["india"],
+   "levers": ["heatbudget","anticipatory"],
+   "stage": "adopted",
+   "history": [
+    {"date":"2026-08","stage":"adopted","note":"A rule change, reported from a reply in India's Lok Sabha"}
+   ],
    "next": "Funded and delivered: heatwave relief paid from a state or national response fund, and reported.",
-   "sources": [{ "label": "Down To Earth, 2026: India updates disaster list to include heatwaves and lightning", "url": "https://www.downtoearth.org.in/climate-change/india-updates-disaster-list-to-include-heatwaves-and-lightning-after-finance-commission-push" }]
+   "sources": [
+    {"id":"dte","type":"secondary","label":"Down To Earth, 2026: India updates disaster list to include heatwaves and lightning","url":"https://www.downtoearth.org.in/climate-change/india-updates-disaster-list-to-include-heatwaves-and-lightning-after-finance-commission-push"}
+   ],
+   "where": "India",
+   "relevance": {"basis":"explicit"},
+   "deliverables": [
+    {
+     "id": "d-calamity",
+     "what": "Heatwaves added to India's notified natural calamities, so disaster response funds can pay for heatwave relief",
+     "type": "rule",
+     "milestones": [
+      {"id":"m-added","step":"adopted","date":"2026-08","note":"A rule change, reported from a reply in India's Lok Sabha","evidence":[{"source":"dte","establishes":"Reports the change, citing a reply in the Lok Sabha."}]}
+     ],
+     "unknown": ["The official notification or order: not located among the sources checked","Heatwave relief paid from a response fund: not verified"],
+     "next": "The official notification or order, and a state reporting heatwave relief paid from its response fund."
+    }
+   ],
+   "reading": {"changed":"As reported, heatwaves joined India's notified natural calamities in August 2026, so national and state disaster response funds can pay for heatwave relief.","matters":"Relief for heat could then use the same channels as floods and cyclones, rather than a capped share of state funds for locally declared disasters.","decisions":"State disaster plans and budgets; what counts as heatwave relief; how heat deaths and losses are recorded so that relief can be claimed.","uncertain":"The official notification was not located among the sources checked, and no relief paid for heatwaves has been verified.","examine":"The notification or order itself, and a state reporting heatwave relief paid from its response fund.","reviewed":"2026-11-16"},
+   "review": {"reviewed":"2026-11-16","due":"2027-02-16"}
   },
   {
-   "id": "sig-global-heat-forum-2026", "group": "year", "kind": "gathering", "date": "2026-10-06",
+   "id": "sig-global-heat-forum-2026",
+   "group": "year",
+   "kind": "gathering",
+   "date": "2026-10-06",
    "title": "The first Global Heat Forum, in Bangkok",
    "summary": "Nearly 600 scientists, business leaders, philanthropists and health experts met in Bangkok from 6 to 9 October 2026. The Forum released the first country-level heat and health assessments for Bangladesh, Bhutan, India and Nepal, and a roadmap for investment and action on extreme heat.",
-   "who": "Global Heat Forum", "places": ["thailand", "region"], "levers": ["hap", "anticipatory"],
+   "who": "Global Heat Forum",
+   "places": ["thailand","region"],
+   "levers": ["hap","anticipatory"],
    "next": "Watch for the roadmap's investments to become funded commitments.",
-   "sources": [{ "label": "ClimateWorks Foundation, 2026: Global Heat Forum gathers 600 leaders", "url": "https://www.climateworks.org/press-release/global-heat-forum-gathers-600-leaders-to-scale-investment-for-extreme-heat-action/" }]
+   "sources": [
+    {"id":"climateworks","type":"secondary","label":"ClimateWorks Foundation, 2026: Global Heat Forum gathers 600 leaders","url":"https://www.climateworks.org/press-release/global-heat-forum-gathers-600-leaders-to-scale-investment-for-extreme-heat-action/"}
+   ],
+   "where": "Bangkok, Thailand (a global forum)",
+   "relevance": {"basis":"explicit"},
+   "review": {"reviewed":"2026-11-16","due":"2027-02-16"}
   },
   {
-   "id": "sig-narayanganj-hap", "group": "year", "kind": "commitment", "date": "2025-09-22",
+   "id": "sig-narayanganj-hap",
+   "group": "year",
+   "kind": "commitment",
+   "date": "2025-09-22",
    "title": "Bangladesh's first urban heatwave action plan, for Narayanganj",
    "summary": "Narayanganj City Corporation's heat action plan was approved on 22 September 2025 and published in 2026. It gives each short-term action a tentative cost in taka and names potential funding sources, often development partners and NGOs.",
-   "who": "Narayanganj City Corporation", "places": ["bangladesh"], "levers": ["hap", "coolingcentres"],
-   "stage": "adopted", "history": [{ "date": "2025-09-22", "stage": "adopted", "note": "Approved by the city corporation" }],
+   "who": "Narayanganj City Corporation",
+   "places": ["bangladesh"],
+   "levers": ["hap","coolingcentres"],
+   "stage": "adopted",
+   "history": [
+    {"date":"2025-09-22","stage":"adopted","note":"Approved by the city corporation; published in 2026"},
+    {"date":"2025-09-22","stage":"announced","note":"Proposed in the approved plan"}
+   ],
    "next": "Funded: budget lines for its actions, from the city or its partners.",
    "sources": [
-    { "label": "Narayanganj City Corporation: Heat Action Plan, 2025", "url": "https://southasia.iclei.org/wp-content/uploads/2026/02/Heat-Action-Plan_Narayanganj_Final_9th-Sept_2025_compressed.pdf" },
-    { "label": "Prothom Alo, 2026: Bangladesh's first urban heatwave action plan", "url": "https://en.prothomalo.com/environment/climate-change/qq8g2g85o8" }
-   ]
+    {"id":"plan","type":"original","label":"Narayanganj City Corporation: Heat Action Plan, 2025","url":"https://southasia.iclei.org/wp-content/uploads/2026/02/Heat-Action-Plan_Narayanganj_Final_9th-Sept_2025_compressed.pdf"},
+    {"id":"prothom-alo","type":"secondary","label":"Prothom Alo, 2026: Bangladesh's first urban heatwave action plan","url":"https://en.prothomalo.com/environment/climate-change/qq8g2g85o8"}
+   ],
+   "where": "Narayanganj, Bangladesh",
+   "relevance": {"basis":"explicit"},
+   "deliverables": [
+    {
+     "id": "d-plan",
+     "what": "Narayanganj City Corporation's heat action plan",
+     "type": "plan",
+     "milestones": [
+      {"id":"m-approved","step":"adopted","date":"2025-09-22","note":"Approved by the city corporation; published in 2026","evidence":[{"source":"plan","establishes":"The plan itself, which gives each short-term action a tentative cost and names potential funding sources.","terms":["Narayanganj","budget"]},{"source":"prothom-alo","establishes":"Reports it as Bangladesh's first urban heatwave action plan.","terms":["Narayanganj","heat"]}]}
+     ],
+     "unknown": ["Budget lines for its actions, from the city or its partners: not verified"],
+     "next": "Budget lines for its actions, from the city or its partners."
+    },
+    {
+     "id": "d-cooling",
+     "what": "Cooling centres in accessible public buildings, proposed in the plan",
+     "type": "service",
+     "milestones": [
+      {"id":"m-proposed","step":"announced","date":"2025-09-22","note":"Proposed in the approved plan","evidence":[{"source":"plan","establishes":"The plan proposes cooling centres in accessible public buildings.","terms":["Narayanganj"]}]}
+     ],
+     "unknown": ["Whether any cooling centre has opened: not verified"],
+     "next": "A cooling centre named in the plan opening, with where and when."
+    }
+   ],
+   "review": {"reviewed":"2026-11-16","due":"2027-02-16"}
   },
   {
-   "id": "sig-bangladesh-hnap-2026", "group": "year", "kind": "commitment", "date": "2026-03-31",
+   "id": "sig-bangladesh-hnap-2026",
+   "group": "year",
+   "kind": "commitment",
+   "date": "2026-03-31",
    "title": "Bangladesh adopts its Health National Adaptation Plan",
    "summary": "Bangladesh adopted its Health National Adaptation Plan 2026. It estimates about US$1.4 billion is needed over five years, and plans to draw on public budgets through a climate fiscal framework and on international climate funds such as the Adaptation Fund and the GCF.",
-   "who": "Government of Bangladesh", "places": ["bangladesh"], "levers": ["readyclinics", "heatbudget"],
-   "stage": "adopted", "history": [{ "date": "2026-03-31", "stage": "adopted", "note": "Launched and adopted" }],
+   "who": "Government of Bangladesh",
+   "places": ["bangladesh"],
+   "levers": ["readyclinics","heatbudget"],
+   "stage": "adopted",
+   "history": [
+    {"date":"2026-03-31","stage":"adopted","note":"Launched and adopted"}
+   ],
    "next": "Funded: money committed against its five-year costing.",
    "sources": [
-    { "label": "UNFPA Bangladesh, 2026: adoption of the Health National Adaptation Plan", "url": "https://bangladesh.un.org/en/313192-unfpa-welcomes-bangladesh%E2%80%99s-adoption-health-national-adaptation-plan-safeguard-health" },
-    { "label": "Government of Bangladesh: Health National Adaptation Plan 2026", "url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-iedcr/2026/2/9ef9325c-4d07-45ce-9159-94a51b2fce43.pdf" }
-   ]
+    {"id":"unfpa","type":"secondary","label":"UNFPA Bangladesh, 2026: adoption of the Health National Adaptation Plan","url":"https://bangladesh.un.org/en/313192-unfpa-welcomes-bangladesh%E2%80%99s-adoption-health-national-adaptation-plan-safeguard-health"},
+    {"id":"plan","type":"original","label":"Government of Bangladesh: Health National Adaptation Plan 2026","url":"https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-iedcr/2026/2/9ef9325c-4d07-45ce-9159-94a51b2fce43.pdf"}
+   ],
+   "where": "Bangladesh",
+   "relevance": {"basis":"explicit"},
+   "deliverables": [
+    {
+     "id": "d-plan",
+     "what": "Bangladesh's Health National Adaptation Plan 2026",
+     "type": "plan",
+     "milestones": [
+      {"id":"m-adopted","step":"adopted","date":"2026-03-31","note":"Launched and adopted","evidence":[{"source":"unfpa","establishes":"Reports the plan's adoption."},{"source":"plan","establishes":"The published plan document from the Government of Bangladesh, with its costing and financing strategies.","terms":["HNAP Financing Strategies","Costing of HNAP"]}]}
+     ],
+     "unknown": ["Money committed against its five-year costing of about US$1.4 billion: not verified"],
+     "next": "Money committed against its five-year costing."
+    }
+   ],
+   "review": {"reviewed":"2026-11-16","due":"2027-02-16"}
   },
   {
-   "id": "sig-bangkok-heat-plan-2026", "group": "year", "kind": "commitment", "date": "2026",
+   "id": "sig-bangkok-heat-plan-2026",
+   "group": "year",
+   "kind": "commitment",
+   "date": "2026",
    "title": "Bangkok's heat plan opens 304 cooling centres",
    "summary": "For the 2026 hot season Bangkok opened 304 cooling centres in schools, health centres and district offices. The city's own Urban Heat Management Action Plan for 2026 has 22 indicators, and a 2026 financing strategy with UNDP costs it at about THB 146 million to set up and THB 10.8 million a year to run, noting that running costs are not always covered.",
-   "who": "Bangkok Metropolitan Administration", "places": ["thailand"], "levers": ["coolingcentres", "hap", "heatbudget"],
-   "stage": "delivered", "history": [{ "date": "2026", "stage": "adopted", "note": "The city's Urban Heat Management Action Plan for 2026" }, { "date": "2026", "stage": "delivered", "note": "304 cooling centres open for the hot season" }],
+   "who": "Bangkok Metropolitan Administration",
+   "places": ["thailand"],
+   "levers": ["coolingcentres","hap","heatbudget"],
+   "stage": "delivered",
+   "history": [
+    {"date":"2026","stage":"adopted","note":"The city's own plan for 2026, with 22 indicators"},
+    {"date":"2026","stage":"delivered","note":"304 cooling centres open in schools, health centres and district offices"},
+    {"date":"2026","stage":"announced","note":"Set as targets in the plan"}
+   ],
    "next": "Evaluated: who used the cooling centres, and with what result.",
    "sources": [
-    { "label": "Government of Thailand, 2026: Bangkok launches 304 cooling centers", "url": "https://thailand.go.th/issue-focus-detail/bangkok-launches-304-cooling-centers-to-combat-extreme-heat" },
-    { "label": "UNDP and Bangkok Metropolitan Administration: Bangkok's financing strategy for tackling urban heat, 2026", "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf" }
-   ]
+    {"id":"thai-gov","type":"original","label":"Government of Thailand, 2026: Bangkok launches 304 cooling centers","url":"https://thailand.go.th/issue-focus-detail/bangkok-launches-304-cooling-centers-to-combat-extreme-heat"},
+    {"id":"strategy","type":"original","label":"UNDP and Bangkok Metropolitan Administration: Bangkok's financing strategy for tackling urban heat, 2026","url":"https://www.undp.org/sites/g/files/zskgke326/files/2026-10/en-undp-bma_financial_strategy_on_urban_heat.pdf"}
+   ],
+   "where": "Bangkok, Thailand",
+   "relevance": {"basis":"explicit"},
+   "deliverables": [
+    {
+     "id": "d-plan",
+     "what": "Bangkok's Urban Heat Management Action Plan for 2026",
+     "type": "plan",
+     "milestones": [
+      {"id":"m-developed","step":"adopted","date":"2026","note":"The city's own plan for 2026, with 22 indicators","evidence":[{"source":"strategy","establishes":"The UNDP and BMA financing strategy states that the city developed the plan, with 22 indicators.","terms":["BMA developed the Urban Heat Management Action Plan","22 indicators"]}]}
+     ],
+     "facts": [{"text":"A 2026 financing strategy with UNDP costs the plan at about THB 146 million to set up and THB 10.8 million a year to run.","evidence":[{"source":"strategy","establishes":"States both figures.","terms":["146,266,400","10,816,408"]}]},{"text":"The city reports that money to build is generally available, but running costs are not always covered.","evidence":[{"source":"strategy","establishes":"States that running costs are not always covered.","terms":["OPEX are not always covered"]}]}],
+     "unknown": ["Whether running costs for the plan are funded for 2027: not verified"],
+     "next": "A budget line for the plan's running costs."
+    },
+    {
+     "id": "d-cooling",
+     "what": "304 cooling centres for the 2026 hot season",
+     "type": "service",
+     "milestones": [
+      {"id":"m-open","step":"delivered","date":"2026","note":"304 cooling centres open in schools, health centres and district offices","evidence":[{"source":"thai-gov","establishes":"The Government of Thailand reports Bangkok opening 304 cooling centres.","terms":["304"]}]}
+     ],
+     "unknown": ["Who used the cooling centres: not verified","Any evaluation: none found in the sources checked"],
+     "next": "Who used the cooling centres, and with what result."
+    },
+    {
+     "id": "d-targets",
+     "what": "The plan's targets, including cooling rooms in 80% of schools and public health service centres",
+     "type": "plan",
+     "milestones": [
+      {"id":"m-set","step":"announced","date":"2026","note":"Set as targets in the plan","evidence":[{"source":"strategy","establishes":"Lists the targets, including cooling rooms covering 80% of schools and Cool Community Centers.","terms":["Covering 80% of schools","Cool Community Centers"]}]}
+     ],
+     "unknown": ["Progress against the targets: not verified"],
+     "next": "A progress report against the plan's 22 indicators."
+    }
+   ],
+   "reading": {"changed":"Bangkok has its own heat plan for 2026, costed to set up and to run, and opened 304 cooling centres for the hot season.","matters":"The city reports that running costs are not always covered, so whether protection lasts beyond one season depends on recurring money.","decisions":"How the city and its partners fund running costs; where cooling centres sit and when they open; how use is counted.","uncertain":"Who used the cooling centres, progress against the plan's targets, and funding for running costs are not verified.","examine":"Use figures for the cooling centres, a progress report against the 22 indicators, and a budget line for running costs.","reviewed":"2026-11-16"},
+   "review": {"reviewed":"2026-11-16","due":"2027-02-16"}
   },
   {
-   "id": "sig-singapore-heat-office-2026", "group": "year", "kind": "commitment", "date": "2026-03",
+   "id": "sig-singapore-heat-office-2026",
+   "group": "year",
+   "kind": "commitment",
+   "date": "2026-03",
    "title": "Singapore sets up a Heat Resilience Policy Office and funds heat research",
    "summary": "In March 2026 a Heat Resilience Policy Office was set up to coordinate action across agencies, oversee research and draft a heat resilience action plan. A S$40 million 'Adapting to Heat Impacts' funding initiative supports research on heat impacts and community heat resilience.",
-   "who": "Ministry of Sustainability and the Environment, Singapore", "places": ["singapore"], "levers": ["hap"],
-   "stage": "funded", "history": [{ "date": "2026-03", "stage": "adopted", "note": "The office is set up" }, { "date": "2026-03", "stage": "funded", "note": "S$40 million research initiative" }],
+   "who": "Ministry of Sustainability and the Environment, Singapore",
+   "places": ["singapore"],
+   "levers": ["hap"],
+   "stage": "funded",
+   "history": [
+    {"date":"2026-03","stage":"adopted","note":"The office is set up"},
+    {"date":"2026-03","stage":"funded","note":"S$40 million research initiative announced"},
+    {"date":"2026-03","stage":"announced","note":"Named as work for the new office"}
+   ],
    "next": "Delivered: the heat resilience action plan the office is drafting.",
-   "sources": [{ "label": "Ministry of Sustainability and the Environment, Singapore: Committee of Supply 2026", "url": "https://www.mse.gov.sg/latest-news/speech-by-sms-janil-puthucheary-committee-of-supply-2026/" }]
+   "sources": [
+    {"id":"msse","type":"original","label":"Ministry of Sustainability and the Environment, Singapore: Committee of Supply 2026","url":"https://www.mse.gov.sg/latest-news/speech-by-sms-janil-puthucheary-committee-of-supply-2026/"}
+   ],
+   "where": "Singapore",
+   "relevance": {"basis":"explicit"},
+   "deliverables": [
+    {
+     "id": "d-office",
+     "what": "The Heat Resilience Policy Office, to coordinate action across agencies and oversee research",
+     "type": "office",
+     "milestones": [
+      {"id":"m-set-up","step":"adopted","date":"2026-03","note":"The office is set up","evidence":[{"source":"msse","establishes":"The Ministry's speech announces the office and its role.","terms":["Heat Resilience Policy Office","coordinate action, oversee research"]}]}
+     ],
+     "unknown": ["The office's staffing and budget: not disclosed in the passages checked"],
+     "next": "The office's first published work."
+    },
+    {
+     "id": "d-funding",
+     "what": "S$40 million 'Adapting to Heat Impacts' research funding initiative",
+     "type": "funding",
+     "milestones": [
+      {"id":"m-announced","step":"funding-announced","date":"2026-03","note":"S$40 million research initiative announced","evidence":[{"source":"msse","establishes":"The Ministry's speech announces the initiative and its amount.","terms":["Adapting to Heat Impacts","$40 million"]}]}
+     ],
+     "unknown": ["Awards made or money paid out: not verified","An application route: not verified"],
+     "next": "Awards made under the initiative."
+    },
+    {
+     "id": "d-plan",
+     "what": "A heat resilience action plan, to be drafted by the office",
+     "type": "plan",
+     "milestones": [
+      {"id":"m-promised","step":"announced","date":"2026-03","note":"Named as work for the new office","evidence":[{"source":"msse","establishes":"The speech names the Heat Resilience Action Plan as work for the office.","terms":["Heat Resilience Action Plan"]}]}
+     ],
+     "unknown": ["A publication date: not verified"],
+     "next": "The published action plan."
+    }
+   ],
+   "reading": {"changed":"Three separate things: a policy office set up in March 2026, a S$40 million research funding initiative, and an action plan the office is to draft.","matters":"A standing office and dedicated research money can make heat an ongoing responsibility across agencies rather than a seasonal one.","decisions":"Agencies whose work the action plan may cover; researchers following heat impacts in Singapore. No application route was verified, and this is not a funding call.","uncertain":"How much of the S$40 million has been awarded or paid, and when the action plan will be published, are not verified.","examine":"The published action plan, and awards made under the funding initiative.","reviewed":"2026-11-16"},
+   "review": {"reviewed":"2026-11-16","due":"2027-02-16"}
   },
   {
-   "id": "sig-south-asia-climate-health-desk-2026", "group": "year", "kind": "commitment", "date": "2026-02-20",
+   "id": "sig-south-asia-climate-health-desk-2026",
+   "group": "year",
+   "kind": "commitment",
+   "date": "2026-02-20",
    "title": "A South Asia climate-health desk and a heat research consortium",
    "summary": "Announced on 20 February 2026: The Rockefeller Foundation and Wellcome fund a South Asia Climate-Health Desk under the WHO-WMO Climate and Health Joint Programme, and a South Asia Scientific Research Consortium, through a Rockefeller grant to IISER Pune, to develop tailored heat-risk thresholds. Amounts were not disclosed.",
-   "who": "The Rockefeller Foundation and Wellcome", "places": ["region"], "levers": ["hap", "anticipatory"],
-   "stage": "funded", "history": [{ "date": "2026-02-20", "stage": "funded", "note": "Funding announced; amounts not disclosed" }],
+   "who": "The Rockefeller Foundation and Wellcome",
+   "places": ["region"],
+   "levers": ["hap","anticipatory"],
+   "stage": "funded",
+   "history": [
+    {"date":"2026-02-20","stage":"funded","note":"Funding announced; amounts not disclosed"},
+    {"date":"2026-02-20","stage":"funded","note":"Funding announced; amounts not disclosed"}
+   ],
    "next": "Delivered: tailored heat-risk thresholds published for use in warnings.",
-   "sources": [{ "label": "WMO, 2026: new initiatives launched to address extreme heat in South Asia", "url": "https://wmo.int/media/news/new-initiatives-launched-address-extreme-heat-south-asia" }]
+   "sources": [
+    {"id":"wmo","type":"secondary","label":"WMO, 2026: new initiatives launched to address extreme heat in South Asia","url":"https://wmo.int/media/news/new-initiatives-launched-address-extreme-heat-south-asia"}
+   ],
+   "where": "South Asia",
+   "relevance": {"basis":"explicit"},
+   "deliverables": [
+    {
+     "id": "d-desk",
+     "what": "A South Asia Climate-Health Desk under the WHO-WMO Climate and Health Joint Programme",
+     "type": "funding",
+     "milestones": [
+      {"id":"m-announced","step":"funding-announced","date":"2026-02-20","note":"Funding announced; amounts not disclosed","amount":{"disclosed":false},"evidence":[{"source":"wmo","establishes":"WMO reports the desk among new initiatives on extreme heat in South Asia.","terms":["South Asia","heat"]}]}
+     ],
+     "unknown": ["The amount: not disclosed","Money committed or paid: not verified"],
+     "next": "Tailored heat-risk thresholds published for use in warnings."
+    },
+    {
+     "id": "d-consortium",
+     "what": "A South Asia Scientific Research Consortium",
+     "type": "funding",
+     "milestones": [
+      {"id":"m-announced","step":"funding-announced","date":"2026-02-20","note":"Funding announced; amounts not disclosed","amount":{"disclosed":false},"evidence":[{"source":"wmo","establishes":"WMO reports the consortium among the same initiatives.","terms":["South Asia","heat"]}]}
+     ],
+     "unknown": ["The amount: not disclosed","Money committed or paid: not verified"],
+     "next": "The consortium's first published research."
+    }
+   ],
+   "review": {"reviewed":"2026-11-16","due":"2027-02-16"}
   },
   {
-   "id": "sig-sea-heat-health-hub-2026", "group": "year", "kind": "commitment", "date": "2026-10-08",
+   "id": "sig-sea-heat-health-hub-2026",
+   "group": "year",
+   "kind": "commitment",
+   "date": "2026-10-08",
    "title": "Support for the Southeast Asia Heat Health Hub's next stage",
    "summary": "Announced on 8 October 2026: support for the next stage of the Global Heat Health Information Network's Southeast Asia Hub, including funding for heat-health work in Indonesia (Makassar and two more cities) and Thailand in 2027, and preparations for a second Southeast Asia Heat Health Forum. The amount was not disclosed.",
-   "who": "Philanthropy Asia Alliance", "places": ["indonesia", "thailand"], "levers": ["hap", "readyclinics"],
-   "stage": "funded", "history": [{ "date": "2026-10-08", "stage": "funded", "note": "Funding announced; amount not disclosed" }],
+   "who": "Philanthropy Asia Alliance",
+   "places": ["indonesia","thailand"],
+   "levers": ["hap","readyclinics"],
+   "stage": "funded",
+   "history": [
+    {"date":"2026-10-08","stage":"funded","note":"Funding announced; amount not disclosed"}
+   ],
    "next": "Delivered: heat-health work under way in Indonesia and Thailand in 2027.",
-   "sources": [{ "label": "Philanthropy Asia Alliance, via Eco-Business, 2026", "url": "https://www.eco-business.com/press-releases/philanthropy-asia-alliance-supports-southeast-asia-heat-health-hub-to-scale-coordinated-action-on-extreme-heat/" }]
+   "sources": [
+    {"id":"paa","type":"original","label":"Philanthropy Asia Alliance, via Eco-Business, 2026","url":"https://www.eco-business.com/press-releases/philanthropy-asia-alliance-supports-southeast-asia-heat-health-hub-to-scale-coordinated-action-on-extreme-heat/"}
+   ],
+   "where": "Indonesia and Thailand",
+   "relevance": {"basis":"explicit"},
+   "deliverables": [
+    {
+     "id": "d-hub",
+     "what": "The next stage of the Southeast Asia Heat Health Hub, including heat-health work in Indonesia and Thailand in 2027",
+     "type": "funding",
+     "milestones": [
+      {"id":"m-announced","step":"funding-announced","date":"2026-10-08","note":"Funding announced; amount not disclosed","amount":{"disclosed":false},"evidence":[{"source":"paa","establishes":"The Philanthropy Asia Alliance announcement names support for the Hub, with work in Indonesia and Thailand.","terms":["Philanthropy Asia Alliance","Hub","Indonesia","Thailand"]}]}
+     ],
+     "unknown": ["The amount and period: not disclosed","Money committed or paid: not verified","An application route: not verified"],
+     "next": "Heat-health work under way in Indonesia and Thailand in 2027."
+    }
+   ],
+   "reading": {"changed":"Philanthropy Asia Alliance announced support for the next stage of the Southeast Asia Heat Health Hub, including heat-health work in Indonesia and Thailand in 2027.","matters":"Regional sharing of heat-health evidence gains support for a further stage, with named country work.","decisions":"Health agencies and cities in Indonesia and Thailand planning heat-health work for 2027.","uncertain":"The amount, the period, and whether money has been committed or paid are not disclosed; no application route was verified, and this is not an open funding opportunity.","examine":"A published amount or grant agreement, and work starting in the named cities in 2027.","reviewed":"2026-11-16"},
+   "review": {"reviewed":"2026-11-16","due":"2027-01-16"}
   },
   {
-   "id": "sig-south-asia-pre-monsoon-2026", "group": "year", "kind": "finding", "date": "2026-05",
+   "id": "sig-south-asia-pre-monsoon-2026",
+   "group": "year",
+   "kind": "finding",
+   "date": "2026-05",
    "title": "April's pre-monsoon heatwave was made three times more likely",
    "summary": "Fifteen days of heat in late April 2026 pushed India's electricity demand to a record and brought farm drought to more than a million square kilometres. Scientists found climate change made it three times more likely, and that April heat like this now returns about every five years.",
-   "who": "World Weather Attribution", "places": ["india", "region"], "levers": ["hap", "anticipatory"],
+   "who": "World Weather Attribution",
+   "places": ["india","region"],
+   "levers": ["hap","anticipatory"],
    "next": "A finding, not a commitment: watch whether plans are sized to heat that now returns about every five years.",
    "sources": [
-    { "label": "World Weather Attribution, 2026", "url": "https://www.worldweatherattribution.org/climate-change-exposes-hundreds-of-millions-to-longer-and-deadlier-pre-monsoon-heat-in-south-asia/" },
-    { "label": "Mongabay, 2026", "url": "https://news.mongabay.com/short-article/2026/05/climate-change-triples-chance-of-deadly-2026-south-asia-pre-monsoon-heatwave-report/" }
-   ]
+    {"id":"wwa","type":"original","label":"World Weather Attribution, 2026","url":"https://www.worldweatherattribution.org/climate-change-exposes-hundreds-of-millions-to-longer-and-deadlier-pre-monsoon-heat-in-south-asia/"},
+    {"id":"mongabay","type":"secondary","label":"Mongabay, 2026","url":"https://news.mongabay.com/short-article/2026/05/climate-change-triples-chance-of-deadly-2026-south-asia-pre-monsoon-heatwave-report/"}
+   ],
+   "where": "India and South Asia",
+   "relevance": {"basis":"explicit"},
+   "review": {"reviewed":"2026-11-16","due":"2027-05-16"}
   },
   {
-   "id": "sig-niua-heat-resilient-cities-2026", "group": "year", "kind": "guidance", "date": "2026",
+   "id": "sig-niua-heat-resilient-cities-2026",
+   "group": "year",
+   "kind": "guidance",
+   "date": "2026",
    "title": "India's Heat Resilient Cities Framework",
    "summary": "India's National Institute of Urban Affairs published a Heat Resilient Cities Framework: a yearly city intervention plan, and a long-term heat resilience perspective.",
-   "who": "National Institute of Urban Affairs, Climate Centre for Cities", "places": ["india"], "levers": ["hap", "coolbydesign"],
+   "who": "National Institute of Urban Affairs, Climate Centre for Cities",
+   "places": ["india"],
+   "levers": ["hap","coolbydesign"],
    "next": "Watch for cities that adopt it in their own plans.",
-   "sources": [{ "label": "National Institute of Urban Affairs, 2026: Heat Resilient Cities Framework", "url": "https://niua.in/publication-details/Heat_Resilient_Cities_Framework" }]
+   "sources": [
+    {"id":"niua","type":"original","label":"National Institute of Urban Affairs, 2026: Heat Resilient Cities Framework","url":"https://niua.in/publication-details/Heat_Resilient_Cities_Framework"}
+   ],
+   "where": "India",
+   "relevance": {"basis":"explicit"},
+   "review": {"reviewed":"2026-11-16","due":"2027-05-16"}
   },
   {
-   "id": "sig-heat-governance-pilots-2026", "group": "year", "kind": "commitment", "date": "2026",
+   "id": "sig-heat-governance-pilots-2026",
+   "group": "year",
+   "kind": "commitment",
+   "date": "2026",
    "title": "The Extreme Heat Risk Governance Framework is piloted in Cambodia, Barbados and Senegal",
    "summary": "In 2026 the Extreme Heat Risk Governance Framework and Toolkit is being piloted in Barbados, Senegal and Cambodia, with financial support from the Climate Risk and Early Warning Systems (CREWS) initiative. The pilots test practical tools for multi-sector coordination, financing and anticipatory action.",
-   "who": "World Meteorological Organization and partners", "places": ["region", "cambodia"], "levers": ["hap", "anticipatory"],
-   "stage": "funded", "history": [{ "date": "2026", "stage": "funded", "note": "Pilots supported by the CREWS initiative" }],
+   "who": "World Meteorological Organization and partners",
+   "places": ["region","cambodia"],
+   "levers": ["hap","anticipatory"],
+   "stage": "delivered",
+   "history": [
+    {"date":"2026","stage":"funded","note":"Pilots supported by the CREWS initiative"},
+    {"date":"2026","stage":"delivered","note":"Being piloted in 2026 in three countries"}
+   ],
    "next": "Delivered: the pilots' results published, and what Cambodia's pilot shows for Southeast Asia.",
-   "sources": [{ "label": "World Meteorological Organization, 2026: New framework and toolkit strengthens extreme heat governance", "url": "https://wmo.int/media/news/new-framework-and-toolkit-strengthens-extreme-heat-governance" }]
+   "sources": [
+    {"id":"wmo","type":"original","label":"World Meteorological Organization, 2026: New framework and toolkit strengthens extreme heat governance","url":"https://wmo.int/media/news/new-framework-and-toolkit-strengthens-extreme-heat-governance"}
+   ],
+   "where": "Barbados, Senegal and Cambodia",
+   "relevance": {"basis":"explicit"},
+   "deliverables": [
+    {
+     "id": "d-pilots",
+     "what": "Pilots of the Extreme Heat Risk Governance Framework and Toolkit in Barbados, Senegal and Cambodia",
+     "type": "platform",
+     "milestones": [
+      {"id":"m-funding","step":"funding-announced","date":"2026","note":"Pilots supported by the CREWS initiative","evidence":[{"source":"wmo","establishes":"The record states support from the Climate Risk and Early Warning Systems (CREWS) initiative; this was not among the terms the source check looked for.","terms":["CREWS"]}]},
+      {"id":"m-piloting","step":"delivered-partial","date":"2026","note":"Being piloted in 2026 in three countries","evidence":[{"source":"wmo","establishes":"WMO reports the framework being piloted in 2026 in Barbados, Senegal and Cambodia.","terms":["Cambodia","Barbados","Senegal"]}]}
+     ],
+     "unknown": ["The pilots' results: not published in the sources checked","The amount of CREWS support: not verified"],
+     "next": "The pilots' results published, and what Cambodia's pilot shows for Southeast Asia."
+    }
+   ],
+   "review": {"reviewed":"2026-11-16","due":"2027-02-16"}
   },
   {
-   "id": "sig-singapore-mandatory-heat-measures-2026", "group": "year", "kind": "commitment", "date": "2026-08-28",
+   "id": "sig-singapore-mandatory-heat-measures-2026",
+   "group": "year",
+   "kind": "commitment",
+   "date": "2026-08-28",
    "title": "Singapore makes heat stress measures mandatory for outdoor work from 1 December 2026",
    "summary": "The Ministry of Manpower announced on 28 August 2026 that enhanced heat stress measures, including drinking water, become mandatory for outdoor work from 1 December 2026, giving employers three months to prepare. Measures that had been recommended become requirements.",
-   "who": "Ministry of Manpower, Singapore", "places": ["singapore"], "levers": ["heatrules"],
-   "stage": "adopted", "history": [{ "date": "2026-08-28", "stage": "adopted", "note": "Enhancements to the heat stress framework announced, to take effect on 1 December 2026" }],
+   "who": "Ministry of Manpower, Singapore",
+   "places": ["singapore"],
+   "levers": ["heatrules"],
+   "stage": "adopted",
+   "history": [
+    {"date":"2026-08-28","stage":"adopted","note":"Enhancements to the heat stress framework announced"}
+   ],
    "next": "Delivered: the measures in force from 1 December 2026, and inspections reporting how workplaces meet them.",
-   "sources": [{ "label": "Ministry of Manpower, Singapore, 2026: Enhancements to heat stress framework (from 1 December 2026)", "url": "https://www.mom.gov.sg/newsroom/press-releases/2026/0828-enhancements-to-heat-stress-framework" }, { "label": "Rajah & Tann Asia, 2026: Heat stress management framework to be enhanced from 1 December 2026", "url": "https://www.rajahtannasia.com/viewpoints/heat-stress-management-framework-to-be-enhanced-from-1-december-2026/" }]
+   "sources": [
+    {"id":"mom","type":"original","label":"Ministry of Manpower, Singapore, 2026: Enhancements to heat stress framework (from 1 December 2026)","url":"https://www.mom.gov.sg/newsroom/press-releases/2026/0828-enhancements-to-heat-stress-framework"},
+    {"id":"rajah-tann","type":"secondary","label":"Rajah & Tann Asia, 2026: Heat stress management framework to be enhanced from 1 December 2026","url":"https://www.rajahtannasia.com/viewpoints/heat-stress-management-framework-to-be-enhanced-from-1-december-2026/"}
+   ],
+   "where": "Singapore",
+   "populations": ["workers"],
+   "relevance": {"basis":"explicit"},
+   "deliverables": [
+    {
+     "id": "d-rule",
+     "what": "Mandatory heat stress measures for outdoor work, including drinking water",
+     "type": "rule",
+     "milestones": [
+      {"id":"m-announced","step":"adopted","date":"2026-08-28","note":"Enhancements to the heat stress framework announced","evidence":[{"source":"mom","establishes":"The Ministry of Manpower announced the enhancements on 28 August 2026.","terms":["28 August 2026"]},{"source":"rajah-tann","establishes":"A legal update describing the measures, including drinking water, from 1 December 2026.","terms":["1 December 2026","drinking water"]}]},
+      {"id":"m-effective","step":"effective","date":"2026-12-01","scheduled":true,"note":"The measures become mandatory; this date alone does not show compliance","evidence":[{"source":"mom","establishes":"States that the measures take effect on 1 December 2026.","terms":["1 December 2026"]}]}
+     ],
+     "unknown": ["How compliance will be inspected and reported: not assessed in this record","Implementation after 1 December 2026: not yet possible to verify"],
+     "next": "Inspection or enforcement reports after 1 December 2026."
+    }
+   ],
+   "reading": {"changed":"Heat stress measures for outdoor work, including drinking water, move from advice to requirements, announced on 28 August 2026 to apply from 1 December 2026.","matters":"A requirement, rather than advice, can give workers, worker organisations and inspectors a common standard to refer to.","decisions":"How employers prepare before 1 December; how worker organisations explain the new duties; what inspections cover.","uncertain":"How compliance will be inspected and reported, and how far the measures reach subcontracted and migrant workers, are not assessed in this record.","examine":"Inspection or enforcement reports after 1 December 2026, and the legal text that sets the duties.","reviewed":"2026-11-16"},
+   "review": {"reviewed":"2026-11-16","due":"2026-12-02"}
   },
   {
-   "id": "sig-philippines-heat-stress-advisories-2026", "group": "year", "kind": "commitment", "date": "2026-10-27",
+   "id": "sig-philippines-heat-stress-advisories-2026",
+   "group": "year",
+   "kind": "commitment",
+   "date": "2026-10-27",
    "title": "The Philippines issues guidelines on heat stress at work and on compensation for heat illness",
    "summary": "In October 2026 the Department of Labor and Employment issued guidelines requiring employers to protect workers from heat stress during El Niño, and set out how heat stress and heat-related illness at work are compensated.",
-   "who": "Department of Labor and Employment, Philippines", "places": ["region"], "levers": ["heatrules", "heatcash"],
-   "stage": "adopted", "history": [{ "date": "2026-10-24", "stage": "adopted", "note": "Guidelines on compensation for heat-related illness issued" }, { "date": "2026-10-27", "stage": "adopted", "note": "Workplace heat stress guidelines issued" }],
+   "who": "Department of Labor and Employment, Philippines",
+   "places": ["philippines"],
+   "levers": ["heatrules","heatcash"],
+   "stage": "adopted",
+   "history": [
+    {"date":"2026-10-24","stage":"adopted","note":"Guidelines on compensation for heat-related illness issued"},
+    {"date":"2026-10-27","stage":"adopted","note":"Workplace heat stress guidelines issued"}
+   ],
    "next": "Delivered: workplaces applying the guidelines, and compensation claims for heat illness being filed and paid.",
-   "sources": [{ "label": "Daily Tribune, 2026: DOLE issues workplace heat stress guidelines", "url": "https://tribune.net.ph/2026/10/27/dole-issues-workplace-heat-stress-guidelines" }, { "label": "Daily Tribune, 2026: DOLE sets compensation rules for heat-related illnesses", "url": "https://tribune.net.ph/2026/10/24/dole-sets-compensation-rules-for-heat-related-illnesses" }]
+   "sources": [
+    {"id":"tribune-guidelines","type":"secondary","label":"Daily Tribune, 2026: DOLE issues workplace heat stress guidelines","url":"https://tribune.net.ph/2026/10/27/dole-issues-workplace-heat-stress-guidelines"},
+    {"id":"tribune-compensation","type":"secondary","label":"Daily Tribune, 2026: DOLE sets compensation rules for heat-related illnesses","url":"https://tribune.net.ph/2026/10/24/dole-sets-compensation-rules-for-heat-related-illnesses"}
+   ],
+   "where": "Philippines",
+   "populations": ["workers"],
+   "relevance": {"basis":"explicit"},
+   "deliverables": [
+    {
+     "id": "d-guidelines",
+     "what": "Guidelines requiring employers to protect workers from heat stress",
+     "type": "rule",
+     "milestones": [
+      {"id":"m-issued","step":"adopted","date":"2026-10-27","note":"Workplace heat stress guidelines issued","evidence":[{"source":"tribune-guidelines","establishes":"Reports the Department of Labor and Employment issuing a labour advisory on heat stress.","terms":["heat","Labor Advisory"]}]}
+     ],
+     "unknown": ["The advisory text itself: not located among the sources checked","Its effective date and coverage: not verified"],
+     "next": "The advisory text, and workplaces applying it."
+    },
+    {
+     "id": "d-compensation",
+     "what": "Rules on compensation for heat stress and heat-related illness at work",
+     "type": "rule",
+     "milestones": [
+      {"id":"m-issued","step":"adopted","date":"2026-10-24","note":"Guidelines on compensation for heat-related illness issued","evidence":[{"source":"tribune-compensation","establishes":"Reports the Department setting compensation rules for heat-related illness.","terms":["heat","compensation"]}]}
+     ],
+     "unknown": ["The rules' text: not located among the sources checked","Claims filed or paid: not verified"],
+     "next": "Compensation claims for heat illness being filed and paid."
+    }
+   ],
+   "review": {"reviewed":"2026-11-16","due":"2027-02-16"}
   },
   {
-   "id": "sig-korea-heat-emergency-warning-2026", "group": "year", "kind": "commitment", "date": "2026-07-12",
+   "id": "sig-korea-heat-emergency-warning-2026",
+   "group": "year",
+   "kind": "commitment",
+   "date": "2026-07-12",
    "title": "South Korea issues its first emergency heatwave warning under a new rating system",
    "summary": "In July 2026 South Korea's weather service issued its first emergency heatwave warning, the top level of a new rating system, during a summer of record tropical nights. Workplaces added longer lunches and more breaks.",
-   "who": "Korea Meteorological Administration", "places": ["region"], "levers": ["heatrules", "coolnights"],
-   "stage": "delivered", "history": [{ "date": "2026-07-12", "stage": "delivered", "note": "First emergency heatwave warning issued under the new system" }],
+   "who": "Korea Meteorological Administration",
+   "places": ["region"],
+   "levers": ["heatrules","coolnights"],
+   "stage": "delivered",
+   "history": [
+    {"date":"2026-07-12","stage":"delivered","note":"First emergency heatwave warning issued under the new system"}
+   ],
    "next": "Evaluated: a published review of whether the new warning level changed what people, employers and services did.",
-   "sources": [{ "label": "The Jakarta Post, 2026: South Korea issues first emergency heatwave warning under new rating system", "url": "https://thejakartapost.com/world/2026/07/12/south-korea-issues-first-emergency-heatwave-warning-under-new-rating-system" }, { "label": "Korea JoongAng Daily, 2026: No relief, even after dark: record tropical nights add to Korea's heat crisis", "url": "https://www.koreajoongangdaily.com/korea/no-relief-even-after-dark-record-tropical-nights-add-to-koreas-heat-crisis/12810767" }, { "label": "The Star, 2026: Longer lunches, more breaks as Korea's workplaces battle heat", "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/07/longer-lunches-more-breaks-as-koreas-workplaces-battle-heat" }]
+   "sources": [
+    {"id":"jakarta-post","type":"secondary","label":"The Jakarta Post, 2026: South Korea issues first emergency heatwave warning under new rating system","url":"https://thejakartapost.com/world/2026/07/12/south-korea-issues-first-emergency-heatwave-warning-under-new-rating-system"},
+    {"id":"joongang","type":"secondary","label":"Korea JoongAng Daily, 2026: No relief, even after dark: record tropical nights add to Korea's heat crisis","url":"https://www.koreajoongangdaily.com/korea/no-relief-even-after-dark-record-tropical-nights-add-to-koreas-heat-crisis/12810767"},
+    {"id":"the-star","type":"secondary","label":"The Star, 2026: Longer lunches, more breaks as Korea's workplaces battle heat","url":"https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/07/longer-lunches-more-breaks-as-koreas-workplaces-battle-heat"}
+   ],
+   "where": "South Korea",
+   "populations": ["workers"],
+   "relevance": {"basis":"explicit"},
+   "deliverables": [
+    {
+     "id": "d-warning",
+     "what": "An emergency level at the top of a new heatwave warning system",
+     "type": "service",
+     "milestones": [
+      {"id":"m-first","step":"delivered","date":"2026-07-12","note":"First emergency heatwave warning issued under the new system","evidence":[{"source":"jakarta-post","establishes":"Reports the first emergency heatwave warning.","terms":["emergency","38"]}]}
+     ],
+     "facts": [{"text":"Workplaces added longer lunches and more breaks.","evidence":[{"source":"the-star","establishes":"Reports longer lunches and more breaks at work.","terms":["break","heat"]}]}],
+     "unknown": ["When the new rating system was adopted: not verified","Any review of its effect: none found in the sources checked"],
+     "next": "A published review of whether the new warning level changed what people, employers and services did."
+    }
+   ],
+   "review": {"reviewed":"2026-11-16","due":"2027-02-16"}
   },
   {
-   "id": "sig-viet-nam-outdoor-workers-2026", "group": "year", "kind": "finding", "date": "2026-06",
+   "id": "sig-viet-nam-outdoor-workers-2026",
+   "group": "year",
+   "kind": "finding",
+   "date": "2026-06",
    "title": "Nearly all outdoor workers surveyed in Viet Nam's two largest cities report heat-related health problems",
    "summary": "A 2026 study with UNDP surveyed 734 outdoor workers in Hanoi and Ho Chi Minh City; 94% reported at least one heat-related health problem while working during heatwaves.",
-   "who": "National Economics University with UNDP Viet Nam", "places": ["region"], "levers": ["socialprotection", "heatcash"],
+   "who": "National Economics University with UNDP Viet Nam",
+   "places": ["region"],
+   "levers": ["socialprotection","heatcash"],
    "next": "A finding, not a commitment: watch whether Viet Nam's labour and social protection rules add heat, as the study suggests.",
-   "sources": [{ "label": "Ministry of Agriculture and Environment, Viet Nam, 2026: 94% of outdoor workers report heat-related health problems: UNDP report", "url": "https://en.mae.gov.vn/94-of-outdoor-workers-report-heatrelated-health-problems-undp-report-9432.htm" }]
+   "sources": [
+    {"id":"ministry","type":"secondary","label":"Ministry of Agriculture and Environment, Viet Nam, 2026: 94% of outdoor workers report heat-related health problems: UNDP report","url":"https://en.mae.gov.vn/94-of-outdoor-workers-report-heatrelated-health-problems-undp-report-9432.htm"}
+   ],
+   "where": "Hanoi and Ho Chi Minh City, Viet Nam",
+   "populations": ["workers"],
+   "relevance": {"basis":"explicit"},
+   "review": {"reviewed":"2026-11-16","due":"2027-05-16"}
   },
   {
-   "id": "sig-world-bank-livable-future-2026", "group": "year", "kind": "finding", "date": "2026-07-29",
+   "id": "sig-world-bank-livable-future-2026",
+   "group": "year",
+   "kind": "finding",
+   "date": "2026-07-29",
    "title": "World Bank: extreme heat already costs jobs and growth in South Asia's cities",
    "summary": "The World Bank's report A Livable Future, published on 29 July 2026, finds extreme heat emerging as a major threat to jobs, productivity and growth across South Asia, and sets out how cities can protect them.",
-   "who": "World Bank", "places": ["region"], "levers": ["greencity", "heatrules"],
+   "who": "World Bank",
+   "places": ["region"],
+   "levers": ["greencity","heatrules"],
    "next": "A finding, not a commitment: watch whether city budgets in South Asia take up the report's measures.",
-   "sources": [{ "label": "World Bank, 2026: A livable future: protecting jobs and growth from extreme heat in South Asia's cities", "url": "https://www.worldbank.org/en/region/sar/publication/a-livable-future-protecting-jobs-and-growth-from-extreme-heat-in-south-asia-s-cities" }]
+   "sources": [
+    {"id":"world-bank","type":"original","label":"World Bank, 2026: A livable future: protecting jobs and growth from extreme heat in South Asia's cities","url":"https://www.worldbank.org/en/region/sar/publication/a-livable-future-protecting-jobs-and-growth-from-extreme-heat-in-south-asia-s-cities"}
+   ],
+   "where": "South Asia",
+   "populations": ["workers"],
+   "relevance": {"basis":"explicit"},
+   "review": {"reviewed":"2026-11-16","due":"2027-05-16"}
   }
  ]
 }
