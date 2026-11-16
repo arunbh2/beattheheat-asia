@@ -3393,7 +3393,7 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 .hub { padding-bottom: 32px; }
 .hub-h { font-family: var(--font-body); font-weight: 700; text-transform: none; font-size: var(--fs-22); margin: 44px 0 14px; }
 .hub-p { max-width: 70ch; line-height: 1.55; color: var(--grey-700, #39424D); }
-.hub-p a, .path-read a, .sof-links a { font-weight: 700; color: var(--ink); text-decoration-color: var(--orange); text-underline-offset: 3px; }
+.hub-p a, .path-read a { font-weight: 700; color: var(--ink); text-decoration-color: var(--orange); text-underline-offset: 3px; }
 .hub-lead { display: grid; gap: 10px; padding: clamp(24px, 4vw, 36px); border-radius: var(--r-lg); background: var(--ink); color: var(--canvas); text-decoration: none; position: relative; overflow: hidden; max-width: 760px; }
 .hub-lead::before { content: ""; position: absolute; right: -60px; top: -80px; width: 280px; height: 280px; border-radius: 50%; background: radial-gradient(circle, rgba(242,100,48,.4), transparent 70%); }
 .hub-lead .eyebrow { color: #F6A27C; margin: 0; }
@@ -3425,13 +3425,103 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 .path-stop h2 a { color: var(--ink); text-decoration-color: var(--orange); text-underline-offset: 4px; }
 .path-stop p, .idea-list p { margin: 0 0 6px; line-height: 1.55; color: var(--grey-700, #39424D); }
 .path-stop--end .path-n { background: var(--green, #17703A); color: #fff; }
-.sof { padding: clamp(22px, 3vw, 32px); border-radius: var(--r-lg); background: #fff; border: 1px solid var(--line); margin: 0 0 24px; }
-.sof-h { font-family: var(--font-body); font-weight: 700; text-transform: none; font-size: var(--fs-22); line-height: 1.15; margin: 6px 0 18px; }
-.sof-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 14px; }
-.sof-card { padding: var(--pad-roomy); border-radius: var(--r-md); background: var(--canvas); }
-.sof-k { margin: 0 0 6px; font-size: var(--fs-12); font-weight: 700; letter-spacing: var(--label-track); text-transform: uppercase; color: var(--ember, #B8401A); }
-.sof-card h3 { margin: 0 0 6px; font-size: var(--fs-18); font-family: var(--font-body); text-transform: none; font-weight: 700 } .sof-card p { margin: 0 0 6px; line-height: 1.55; }
-.sof-empty { padding: 28px; border-radius: var(--r-lg); border: 1.5px dashed var(--line); background: #fff; }
+.sof-wrap { padding-top: var(--s-5); padding-bottom: var(--s-7); }
+.sof-wrap > * { max-width: 760px; }
+.sof-role { margin: 0 0 var(--s-6); font-size: var(--fs-14); line-height: 1.5; color: var(--grey-700); }
+.sof-role a, .sof-links a, .sof-s a, .sof-head a, .sof-brief a, .sof-arch a b, .sof-pager a { color: var(--ink); text-decoration-color: var(--orange); text-underline-offset: 3px; }
+.sof-ed { margin: 0 0 var(--s-7); }
+.sof-head { padding-bottom: var(--s-5); border-bottom: 1px solid var(--line-strong); }
+.sof-ed-k { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2) var(--s-3); margin: 0 0 var(--s-3); font-size: var(--fs-12); font-weight: 700; letter-spacing: var(--label-track); text-transform: uppercase; color: var(--grey-700); }
+.sof-badge { display: inline-block; padding: 2px 8px; border-radius: 999px; background: var(--ink); color: var(--canvas); }
+.sof-badge--old { background: var(--white); color: var(--ink); border: 1px solid var(--line-strong); }
+.sof-badge--draft { background: var(--white); color: var(--ink); border: 1px dashed var(--ink); }
+.sof-h { margin: 0 0 var(--s-4); font-family: var(--font-body); font-size: var(--fs-22); font-weight: 700; line-height: 1.15; text-transform: none; }
+.sof-dates { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr)); gap: var(--s-3) var(--s-4); margin: 0 0 var(--s-4); }
+.sof-dates div { min-width: 0; }
+.sof-dates dt, .sof-k, .sof-lh, .sof-rl, .sof-dl dt { font-size: var(--fs-12); font-weight: 700; letter-spacing: var(--label-track); text-transform: uppercase; color: var(--grey-700); line-height: 1.4; }
+.sof-dates dd { margin: 2px 0 0; font-size: var(--fs-14); line-height: 1.4; font-weight: 600; }
+.sof-corr, .sof-stale { margin: var(--s-3) 0 0; font-size: var(--fs-14); line-height: 1.5; }
+.sof-arg { margin: var(--s-5) 0; padding: var(--pad-roomy); border-radius: var(--r-lg); background: var(--ink); color: var(--canvas); }
+.sof-arg .sof-k { margin: 0 0 var(--s-2); color: rgba(250,247,242,.78); }
+.sof-claim-lede { margin: 0 0 var(--s-4); font-family: var(--font-serif); font-size: var(--fs-22); line-height: 1.4; }
+.sof-rests { margin: 0; font-size: var(--fs-14); line-height: 1.5; color: rgba(250,247,242,.78); }
+.sof-rests b { color: var(--canvas); }
+.sof-open { margin: 0 0 var(--s-5); line-height: 1.55; }
+.sof-brief { margin: 0 0 var(--s-5); padding: var(--pad-std); border: 1px solid var(--line); border-radius: var(--r-md); background: var(--white); }
+.sof-brief .sof-k { margin: 0 0 var(--s-2); }
+.sof-brief ul { margin: 0 0 var(--s-4); padding-left: 1.1em; line-height: 1.55; }
+.sof-brief li + li { margin-top: var(--s-2); }
+.sof-tools { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2); }
+.sof-btn { display: inline-flex; align-items: center; min-height: 40px; padding: 0 var(--s-4); border: 1px solid var(--line-strong); border-radius: 999px; background: var(--white); color: var(--ink); font: inherit; font-size: var(--fs-14); font-weight: 700; line-height: 1.4; text-decoration: none; cursor: pointer; }
+.sof-btn:hover { border-color: var(--ink); }
+.sof-btn:focus-visible, .sof-anchor:focus-visible, .sof-ev summary:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
+.sof-said { font-size: var(--fs-14); color: var(--grey-700); }
+.sof-said:empty { display: none; }
+.sof-toc { display: flex; flex-wrap: wrap; gap: var(--s-2) var(--s-4); align-items: baseline; margin: 0 0 var(--s-6); padding: var(--s-3) 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); font-size: var(--fs-14); line-height: 1.4; }
+.sof-toc a { display: inline-block; padding: 4px 0; color: var(--ink); text-decoration-color: var(--orange); text-underline-offset: 3px; }
+.sof-s { margin: 0 0 var(--s-6); scroll-margin-top: 96px; }
+.sof-sh { display: flex; align-items: baseline; gap: var(--s-2); margin: 0 0 var(--s-4); padding-top: var(--s-4); border-top: 1px solid var(--line-strong); font-family: var(--font-body); font-size: var(--fs-22); font-weight: 700; line-height: 1.15; text-transform: none; }
+.sof-anchor { position: relative; color: var(--grey-500) !important; font-size: var(--fs-16); text-decoration: none; }
+.sof-anchor::after { content: ""; position: absolute; inset: -10px -8px; }
+.sof-anchor:hover { color: var(--ink) !important; }
+.sof-s h4, .sof-dev h4 { margin: 0 0 var(--s-2); font-family: var(--font-body); font-size: var(--fs-18); font-weight: 700; line-height: 1.15; text-transform: none; }
+.sof-s p, .sof-s li { line-height: 1.55; }
+.sof-dev { padding: 0 0 var(--s-5); margin: 0 0 var(--s-5); border-bottom: 1px solid var(--line); scroll-margin-top: 96px; }
+.sof-dev:last-child { border-bottom: 0; margin-bottom: 0; }
+.sof-when { display: flex; flex-wrap: wrap; gap: var(--s-1) var(--s-4); margin: 0 0 var(--s-3); font-size: var(--fs-14); line-height: 1.4; color: var(--grey-700); }
+.sof-when b { color: var(--ink); }
+.sof-tag, .sof-flag { display: inline-block; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--amber); background: color-mix(in srgb, var(--amber) 10%, var(--white)); color: var(--ink); font-size: var(--fs-12); font-weight: 700; letter-spacing: 0; text-transform: none; line-height: 1.4; }
+.sof-why { margin: 0 0 var(--s-3); font-size: var(--fs-14); line-height: 1.5; }
+.sof-reading { margin: 0 0 var(--s-3); }
+.sof-rl { display: block; margin: 0 0 2px; }
+.sof-ev { margin: var(--s-3) 0; border: 1px solid var(--line); border-radius: var(--r-sm); background: var(--white); }
+.sof-ev > summary { position: relative; min-height: 44px; display: flex; align-items: center; padding: var(--s-2) var(--s-4) var(--s-2) 36px; font-size: var(--fs-14); font-weight: 700; line-height: 1.4; cursor: pointer; list-style: none; }
+.sof-ev > summary::-webkit-details-marker { display: none; }
+.sof-ev > summary::before { content: "+"; position: absolute; left: 14px; font-weight: 700; color: var(--orange); }
+.sof-ev[open] > summary::before { content: "\2212"; }
+.sof-ev > :not(summary) { margin-left: var(--s-4); margin-right: var(--s-4); }
+.sof-ev > :last-child { margin-bottom: var(--s-4); }
+.sof-claims { margin: var(--s-2) var(--s-4) var(--s-3); padding-left: 1.2em; }
+.sof-claim + .sof-claim { margin-top: var(--s-3); }
+.sof-claim p { margin: 0 0 4px; }
+.sof-est { font-size: var(--fs-14); line-height: 1.5; }
+.sof-src { margin: 0; font-size: var(--fs-14); line-height: 1.5; color: var(--grey-700); }
+.sof-ref { font-size: var(--fs-14); font-weight: 700; color: var(--ink); text-decoration-color: var(--orange); }
+.sof-lh { margin: var(--s-3) 0 4px; }
+.sof-limits { padding-left: 1.2em; margin-top: 0; }
+.sof-links { display: flex; flex-wrap: wrap; gap: var(--s-1) var(--s-4); margin: var(--s-3) 0 0; font-size: var(--fs-14); font-weight: 700; line-height: 1.4; }
+.sof-links a { display: inline-block; padding: 4px 0; }
+.sof-dl { display: grid; gap: var(--s-3); margin: var(--s-3) 0; }
+.sof-dl dd { margin: 2px 0 0; line-height: 1.55; }
+.sof-dl--roles, .sof-dl--aud { grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); }
+.sof-dl--roles div, .sof-dl--aud div { padding: var(--pad-compact); border: 1px solid var(--line); border-radius: var(--r-sm); background: var(--white); min-width: 0; }
+.sof-roles { margin: var(--s-4) 0; }
+.sof-roles .sof-lh { display: flex; flex-wrap: wrap; gap: var(--s-2); align-items: center; }
+.sof-note { font-size: var(--fs-14); line-height: 1.5; color: var(--grey-700); }
+.sof-q { margin: 0 0 var(--s-3); font-family: var(--font-serif); font-size: var(--fs-18); line-height: 1.4; }
+.sof-revisit { margin: var(--s-4) 0; }
+.sof-revisit p { margin: 0; }
+.sof-watch { list-style: none; margin: 0; padding: 0; }
+.sof-watch li { display: grid; gap: 2px; padding: var(--s-3) 0; border-bottom: 1px solid var(--line); }
+.sof-watch span { font-size: var(--fs-14); line-height: 1.5; color: var(--grey-700); }
+.sof-s--quiet p { font-size: var(--fs-14); line-height: 1.5; }
+.sof-srcs, .sof-revs { padding-left: 1.4em; }
+.sof-srcs li, .sof-revs li { margin: 0 0 var(--s-3); scroll-margin-top: 96px; }
+.sof-srcs li:target { outline: 2px solid var(--orange); outline-offset: 4px; border-radius: 2px; }
+.sof-srcs p, .sof-revs p { margin: 0; overflow-wrap: anywhere; }
+.sof-moved { font-size: var(--fs-14); line-height: 1.5; font-weight: 700; }
+.sof-asp p { font-size: var(--fs-14); line-height: 1.5; }
+.sof-archive { margin: var(--s-7) 0 var(--s-6); }
+.sof-arch { list-style: none; margin: 0; padding: 0; }
+.sof-arch li { padding: var(--s-3) 0; border-bottom: 1px solid var(--line); }
+.sof-arch a { display: grid; gap: 2px; color: var(--ink); text-decoration: none; }
+.sof-arch a b { text-decoration: underline; }
+.sof-arch a span { line-height: 1.4; }
+.sof-pager { display: flex; flex-wrap: wrap; gap: var(--s-2) var(--s-4); margin: var(--s-6) 0; padding-top: var(--s-4); border-top: 1px solid var(--line); font-size: var(--fs-14); font-weight: 700; }
+.sof-pager a, .sof-pager span { display: inline-block; padding: 4px 0; }
+.sof-method { margin: var(--s-5) 0; }
+.sof-method ul { padding-left: 1.2em; line-height: 1.55; }
+@media print { .csn, .csf, .cse, .csp, .skip-link, .wkp-foot, .sof-tools, .sof-toc, .sof-anchor, .sof-pager, .sof-method, .sof-role, .sof-archive, #kb-log, #kb-log + .sof-log, .pg-hero .pg-lede { display: none !important; } .sof-wrap { padding: 0; } .sof-wrap > * { max-width: none; } .sof-arg { background: none; color: var(--ink); border: 1px solid var(--ink); } .sof-arg .sof-k, .sof-rests { color: var(--ink); } .sof-ev { border: 0; } .sof-ev > summary::before { content: none; } .sof-ev > summary { padding-left: 0; min-height: 0; } .sof-ev > :not(summary) { margin-left: 0; } .sof-dev, .sof-claim, .sof-srcs li { break-inside: avoid; } .sof-sh { break-after: avoid; } .sof-srcs a[href^="http"]::after { content: " (" attr(href) ")"; font-size: var(--fs-12); overflow-wrap: anywhere; } }
 .sof-log { line-height: 1.55; max-width: 80ch; }
 .cite-box { margin: 0 0 16px; padding: 18px 22px; border-left: 2px solid #C9BFB1; background: #fff; border-radius: 0 var(--r-md) var(--r-md) 0; font-size: var(--fs-16); line-height: 1.55; max-width: 760px; }
 

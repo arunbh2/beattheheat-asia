@@ -545,6 +545,8 @@ if ((D.SOCIAL_PROTECTION || []).length) md.push(SPT.md(D.SOCIAL_PROTECTION, SITE
 const GT = require("./growth-text.js"); md.push(GT.md(SITE));
 // ---- signals: page by tools/build-signals.js, the same words from tools/signals-text.js ----
 md.push(require("./signals-text.js").md(SITE));
+// ---- State of the field: the latest published edition and the archive, from tools/sof-text.js ----
+md.push(require("./sof-text.js").llms(SITE));
 // the learning agenda, as on /evidence-map/: each question with its dated history
 { const LQ = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "site", "learning.json"), "utf8")).questions;
   md.push(["## The learning agenda: questions the evidence has not yet answered", `${SITE}/evidence-map/`, "What we have restates the limits the cited studies give themselves; what could answer it and the scale are our suggestions. Advanced means new evidence narrows a question; it is not an answer.",
@@ -606,6 +608,7 @@ fs.writeFileSync(path.join(ROOT, "sitemap.xml"), `<?xml version="1.0" encoding="
   <url><loc>${SITE}/join/</loc><lastmod>${TODAY}</lastmod><priority>0.7</priority></url>
   <url><loc>${SITE}/news/</loc><lastmod>${TODAY}</lastmod><priority>0.7</priority></url>
 ${[...PAGES, ...CITY_PAGES].map(p => `  <url><loc>${SITE}/${p.slug}/</loc><lastmod>${TODAY}</lastmod><priority>0.8</priority></url>`).join("\n")}
+${require("./sof-model.js").published().map(e => `  <url><loc>${SITE}/whats-new/${e.id}/</loc><lastmod>${(require("./sof-model.js").revised(e) || e.published)}</lastmod><priority>0.6</priority></url>`).join("\n")}
 </urlset>
 `);
 const BOTS = ["Googlebot", "Bingbot", "Google-Extended", "GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot", "Claude-User", "PerplexityBot", "Perplexity-User", "Applebot", "Applebot-Extended", "CCBot", "DuckDuckBot", "Meta-ExternalAgent"];

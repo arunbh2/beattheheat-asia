@@ -192,7 +192,7 @@
     {
       "url": "https://beattheheat.asia/corrections/",
       "markdown": "https://beattheheat.asia/corrections/index.md",
-      "updated": "2026-11-15"
+      "updated": "2026-11-16"
     },
     {
       "url": "https://beattheheat.asia/countries/",
@@ -807,7 +807,17 @@
     {
       "url": "https://beattheheat.asia/whats-new/",
       "markdown": "https://beattheheat.asia/whats-new/index.md",
-      "updated": "2026-10-31"
+      "updated": "2026-11-16"
+    },
+    {
+      "url": "https://beattheheat.asia/whats-new/2026-10/",
+      "markdown": "https://beattheheat.asia/whats-new/2026-10/index.md",
+      "updated": "2026-11-16"
+    },
+    {
+      "url": "https://beattheheat.asia/whats-new/2026-11/",
+      "markdown": "https://beattheheat.asia/whats-new/2026-11/index.md",
+      "updated": "2026-10-01"
     },
     {
       "url": "https://beattheheat.asia/who-holds-it/",

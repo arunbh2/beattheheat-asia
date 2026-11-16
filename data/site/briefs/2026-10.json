@@ -1,16 +1,49 @@
 {
- "month": "2026-10",
- "month_label": "October 2026",
- "headline": "The field gathers, and the connecting work finds support",
- "sections": [
+ "schema": 2,
+ "id": "2026-10",
+ "status": "published",
+ "period": {
+  "from": "2026-10-01",
+  "to": "2026-10-31"
+ },
+ "cutoff": "2026-10-31",
+ "published": "2026-10-31",
+ "approved": "Site owner, by merging the pull request",
+ "argument": {
+  "headline": "Support announced for the work between institutions, with amounts and delivery still to show",
+  "claim": "Two philanthropic announcements this year name support for shared evidence and coordination across institutions, the roles our funding trace found thinnest. Both are announcements: neither amount was disclosed, and no payment has been verified.",
+  "rests_on": "Two announcements found in public sources up to 31 October 2026, one from February and one from October. Two announcements are a signal worth following, not evidence of a regional trend. Our funding trace covers public announcements, mostly investment in businesses; public budgets and employers' own spending are not in it."
+ },
+ "opening": "The first Global Heat Forum met in Bangkok from 6 to 9 October 2026 and released the first country heat and health assessments for Bangladesh, Bhutan, India and Nepal. Two days later, support was announced for the next stage of the Southeast Asia Heat Health Hub. Read beside a February announcement for South Asia that Common Shade first reviewed this month, both name support for the coordinating and evidence work that sits between health agencies, weather services and cities. This edition sets out what each source establishes, and what it does not.",
+ "developments": [
   {
-   "k": "Where philanthropic money moved",
-   "h": "Toward the work that connects",
-   "p": "Two announcements this year support the parts of protection that sit between institutions: a South Asia climate–health desk and research consortium (The Rockefeller Foundation and Wellcome), and the next stage of the Southeast Asia Heat Health Hub, with work in Indonesia and Thailand (Philanthropy Asia Alliance). Both are field-building and evidence roles, the ones our trace of funding found thinnest. Amounts were not disclosed.",
+   "id": "sea-hub",
+   "h": "Support announced for the Southeast Asia Heat Health Hub's next stage",
+   "gist": "Announced on 8 October 2026, with heat-health work named in Indonesia and Thailand for 2027; the amount was not disclosed.",
+   "occurred": {
+    "date": "2026-10-08",
+    "what": "Announced"
+   },
+   "reviewed": "2026-10-31",
+   "signals": "sig-sea-heat-health-hub-2026",
+   "claimed_step": "funding-announced",
+   "claims": [
+    {
+     "says": "Philanthropy Asia Alliance announced support for the next stage of the Global Heat Health Information Network's Southeast Asia Hub, including heat-health work in Indonesia (Makassar and two more cities) and Thailand in 2027, and preparations for a second Southeast Asia Heat Health Forum. The amount was not disclosed.",
+     "source": "paa",
+     "establishes": "That the support was announced, and the places it names. It does not establish an amount, a period, or that money has been committed or paid."
+    }
+   ],
+   "reading": "Regional sharing of heat-health evidence gains support for a further stage, with named work in two countries. It is one of the coordinating roles that our trace of where money goes found thinnest.",
+   "limits": [
+    "An announcement is not money received: the amount, the period and any payment are not disclosed.",
+    "No application route was verified; this is not an open funding call."
+   ],
+   "would_change": "A published amount or grant agreement, and heat-health work starting in the named cities in 2027.",
    "links": [
     [
-     "/heat-economy/flows/",
-     "Follow the money"
+     "/signals/#sig-sea-heat-health-hub-2026",
+     "The Signals record"
     ],
     [
      "/heat-economy/flows/#roles",
@@ -19,58 +52,456 @@
    ]
   },
   {
-   "k": "An opportunity the evidence supports",
-   "h": "Heat-safe work",
-   "p": "Six solutions for safer work in the heat have been measured in a study, yet our trace found no funding announcements for them. Much of this work is paid from public budgets and employers, which the trace does not cover, so this is a question worth asking rather than a gap we can confirm.",
+   "id": "south-asia-desk",
+   "h": "A February announcement for South Asia, first reviewed this month",
+   "gist": "Announced on 20 February 2026 and added to Common Shade in October: a climate-health desk and a research consortium on heat-risk thresholds; amounts were not disclosed.",
+   "occurred": {
+    "date": "2026-02-20",
+    "what": "Announced"
+   },
+   "reviewed": "2026-10-31",
+   "signals": "sig-south-asia-climate-health-desk-2026",
+   "claimed_step": "funding-announced",
+   "why_here": "It was announced in February 2026, before this edition's period, and Common Shade first reviewed and added it in October 2026. It is included because, read beside the Hub announcement, it names support for the same kind of role. It is not an October event.",
+   "claims": [
+    {
+     "says": "The World Meteorological Organization reported on 20 February 2026 that two philanthropic foundations fund a South Asia Climate-Health Desk under the WHO-WMO Climate and Health Joint Programme, and a South Asia Scientific Research Consortium, through a grant to IISER Pune, to develop tailored heat-risk thresholds. Amounts were not disclosed. The funders are named in the funding record.",
+     "source": "wmo",
+     "establishes": "That the funding was announced, and for what. It does not establish amounts, that money has been paid, or that thresholds have been published."
+    }
+   ],
+   "reading": "Support for shared heat-risk thresholds and evidence across South Asia, a role that sits between health agencies and weather services rather than inside either.",
+   "limits": [
+    "Amounts were not disclosed, and money committed or paid is not verified.",
+    "The source is a report by one of the bodies hosting the desk, not the funders' own grant records."
+   ],
+   "would_change": "Tailored heat-risk thresholds published for use in warnings, and the consortium's first published research.",
    "links": [
     [
-     "/evidence-map/#stronger",
-     "Stronger evidence, little funding traced"
+     "/signals/#sig-south-asia-climate-health-desk-2026",
+     "The Signals record"
     ],
     [
-     "/who-holds-it/#heatrules",
-     "Who holds it up"
+     "/heat-economy/flows/",
+     "Follow the money"
     ]
    ]
   },
   {
-   "k": "A question that grew in importance",
-   "h": "What keeps a pilot going after its first grant?",
-   "p": "A funder’s own account of Southeast Asia notes that successful heat-health pilots often lose their footing once funding ends. We have added it to the learning agenda, sized for a two-year study of a handful of pilots.",
+   "id": "forum-assessments",
+   "h": "The Global Heat Forum, and a city heat plan reported for Bangladesh",
+   "gist": "The Forum (6 to 9 October 2026) released four country heat and health assessments; Bangladesh's reports Narayanganj's heat action plan, which the plan itself records as approved on 22 September 2025.",
+   "occurred": {
+    "date": "2026-10-06",
+    "what": "The Forum opened (6 to 9 October 2026)"
+   },
+   "reviewed": "2026-10-31",
+   "signals": "sig-global-heat-forum-2026",
+   "claims": [
+    {
+     "says": "Nearly 600 scientists, business leaders, philanthropists and health experts met in Bangkok from 6 to 9 October 2026. The Forum released the first country-level heat and health assessments for Bangladesh, Bhutan, India and Nepal, and a roadmap for investment and action on extreme heat.",
+     "source": "climateworks",
+     "establishes": "That the Forum took place and released the assessments and a roadmap. A roadmap is not funding, and the source is a press release from an organiser."
+    },
+    {
+     "says": "Bangladesh's heat and health assessment, released at the Forum, notes the country's first urban heatwave action plan, for Narayanganj, alongside national guidelines on heat-related illness and a public campaign.",
+     "source": "prothomalo",
+     "establishes": "That the assessment reports the plan. It does not date the plan."
+    },
+    {
+     "says": "The plan itself records its approval by Narayanganj City Corporation on 22 September 2025, and gives each short-term action a tentative cost with potential funding sources.",
+     "source": "ncc-plan",
+     "establishes": "That the plan is a 2025 development, reported in October 2026. Costs and potential funders in a plan are not budget lines. The approval date was read from the plan's front matter by a reviewer; the site's automated check confirmed the plan's text but did not test the date."
+    }
+   ],
+   "reading": "A gathering and four assessments are steps in shared understanding, not protection delivered. The Narayanganj plan matters as a first city plan in Bangladesh; it is older than this edition, and whether its actions have budget lines is not verified.",
+   "limits": [
+    "Some reports described a four-country initiative or coalition. Established sources describe four country assessments, so that framing was held back.",
+    "The Narayanganj plan was approved in September 2025; October 2026 is when it was reported, not when it happened."
+   ],
+   "would_change": "Budget lines for the Narayanganj plan's actions, and the Forum roadmap's investments becoming funded commitments.",
    "links": [
     [
-     "/evidence-map/#q-pilots-after-funding",
-     "The question"
+     "/signals/#sig-global-heat-forum-2026",
+     "The Forum on Signals"
     ],
     [
-     "/build/",
-     "Sketch a portfolio"
-    ]
-   ]
-  },
-  {
-   "k": "What changed on Common Shade",
-   "h": "The first month through every check",
-   "p": "Nine new records passed all seven checks, including Bangladesh’s first urban heatwave action plan, for Narayanganj, and the first Global Heat Forum in Bangkok. Two were held back: a report of a four-country coalition that established sources describe instead as four country assessments. New this month: the Atlas, the Evidence map, Follow the money, Who holds it up, Build protection, a public corrections log and, from new research on risk finance, Paying when heat strikes, where insurance, pools, credit and forecast funds for heat are each asked whether they paid, and when. Two simulations now sit beside A week in the heat, so care, health and city systems get the same attention as work: A night in the heat and A city under strain, with 25 new short films on older people, pregnancy, babies, clinics, power, water, trees and more.",
-   "links": [
-    [
-     "/atlas/",
-     "The Atlas"
+     "/signals/#sig-narayanganj-hap",
+     "The Narayanganj plan on Signals"
     ],
     [
      "/corrections/",
      "Corrections"
-    ],
-    [
-     "/paying-when-heat-strikes/",
-     "Paying when heat strikes"
-    ],
-    [
-     "/live-through-a-heatwave/",
-     "Live through a heatwave"
     ]
    ]
   }
  ],
- "note": "Written from the knowledge base, under the same checks as every page: sourced, labelled known, inferred or uncertain, and open to correction."
+ "opportunity": {
+  "h": "Heat-safe work: solutions measured in studies, little funding traced",
+  "gist": "Several solutions for safer work in the heat have been measured in a study, while our trace found no funding announcements for them; much of this work is paid from public budgets and by employers, which the trace cannot see.",
+  "problem": "Outdoor and indoor workers exposed to heat during working hours, and the pay and health they lose to it.",
+  "mechanism": "The solutions grouped under the heat-safe work action: measures at the workplace, set or encouraged by workplace rules.",
+  "claims": [
+   {
+    "says": "Solutions for safer work in the heat in the library have been measured in a study or independently evaluated, as shown on the evidence map.",
+    "source": "evidence-map",
+    "establishes": "That studies exist for these solutions in some settings. It does not establish that they work at scale or in every place."
+   },
+   {
+    "kind": "not-found",
+    "says": "Our funding trace found no funding announcements for heat-safe work.",
+    "source": "funding-trace",
+    "searched": "Public funding announcements traced by Common Shade up to 31 October 2026, mostly investment in businesses. Public budgets and employers' own spending are not covered.",
+    "establishes": "A gap in traced funding, not an absence of funding."
+   }
+  ],
+  "limits": [
+   "A study in one setting is not proof of effect at scale.",
+   "The trace cannot see public budgets or employers' spending, where much of this work is paid for."
+  ],
+  "roles": {
+   "proposal": true,
+   "note": "A possible arrangement, for discussion. No organisation has agreed to it.",
+   "authorise": "The authorities that set workplace rules",
+   "deliver": "Employers, with worker organisations",
+   "finance": "Employers and public budgets, with philanthropy for evaluation",
+   "maintain": "Labour inspectorates and worker organisations"
+  },
+  "dependency": "Whether public budgets and employers already pay for this work, which the funding trace cannot see.",
+  "next_check": "Ask the labour authority, or a large employer of outdoor workers near you, which heat measures are budgeted and who pays for them.",
+  "links": [
+   [
+    "/evidence-map/#stronger",
+    "Stronger evidence, little funding traced"
+   ],
+   [
+    "/actions/#heatrules",
+    "Heat-safe work"
+   ],
+   [
+    "/who-holds-it/",
+    "Who holds it up"
+   ]
+  ]
+ },
+ "question": {
+  "h": "What keeps a heat-health pilot going after its first grant?",
+  "q": "How do heat-health pilots in Southeast Asia keep their institutional footing once their first funding ends?",
+  "why_now": "The support announced this month is for a next stage. Whether earlier pilots continued once funding ended bears on how such stages are designed.",
+  "known": "A funder's own account of Southeast Asia notes that successful heat-health pilots often lose their institutional footing once funding ends. It is a single account, labelled uncertain.",
+  "unknown": "Which parts of a pilot continue, who pays for them, and why some stop.",
+  "decision": "How funders and public agencies design grants and hand-overs, for example whether a grant plans for running costs after it ends.",
+  "would_help": "Following five to eight heat-health pilots for two years after their first funding, recording who kept which part going and why (our suggestion).",
+  "claims": [
+   {
+    "says": "A successful pilot often loses its institutional footing once funding ends, according to a funder's own account of the region.",
+    "source": "paa",
+    "establishes": "That one funder describes this pattern. It is not a study."
+   }
+  ],
+  "links": [
+   [
+    "/evidence-map/#q-pilots-after-funding",
+    "The question on the evidence map"
+   ],
+   [
+    "/build/",
+    "Sketch a portfolio"
+   ]
+  ]
+ },
+ "watch": [
+  {
+   "what": "Amounts and agreements for both announcements",
+   "evidence": "A published amount, grant agreement or annual report entry",
+   "link": [
+    "/signals/#sig-sea-heat-health-hub-2026",
+    "Signals"
+   ]
+  },
+  {
+   "what": "Heat-health work starting in Indonesia and Thailand in 2027",
+   "evidence": "Work under way in the named cities, with who runs it",
+   "link": [
+    "/signals/#sig-sea-heat-health-hub-2026",
+    "Signals"
+   ]
+  },
+  {
+   "what": "The Forum roadmap",
+   "evidence": "Investments named in it becoming funded commitments",
+   "link": [
+    "/signals/#sig-global-heat-forum-2026",
+    "Signals"
+   ]
+  }
+ ],
+ "audiences": [
+  {
+   "who": "city",
+   "q": "Does your city's heat plan name a budget line for each action, and who holds it? Narayanganj's plan gives tentative costs and potential funders, which is a first step."
+  },
+  {
+   "who": "workers",
+   "q": "Which heat measures at work are already paid for by employers or public budgets where you work? Our funding trace cannot see them."
+  },
+  {
+   "who": "funders",
+   "q": "Where support is announced for a next stage, what would show that the earlier stage continued once its first grant ended?"
+  },
+  {
+   "who": "researchers",
+   "q": "Could a two-year follow-up of a handful of heat-health pilots answer this edition's question, and who holds the records it would need?"
+  }
+ ],
+ "platform": {
+  "p": "The first monthly update to pass every check: new records joined the knowledge base and two were held back. New sections included the Atlas, the Evidence map, Follow the money, Who holds it up, Build protection, a public corrections log, Paying when heat strikes, and two simulations beside A week in the heat.",
+  "links": [
+   [
+    "/atlas/",
+    "The Atlas"
+   ],
+   [
+    "/paying-when-heat-strikes/",
+    "Paying when heat strikes"
+   ],
+   [
+    "/live-through-a-heatwave/",
+    "Live through a heatwave"
+   ]
+  ]
+ },
+ "sources": {
+  "paa": {
+   "origin": "kb:src-ecobusiness-paa-sea-heat-hub-2026",
+   "date": "2026-10-08",
+   "added": "2026-10-31",
+   "title": "Philanthropy Asia Alliance supports Southeast Asia Heat Health Hub to scale coordinated action on extreme heat",
+   "publisher": "Philanthropy Asia Alliance, via Eco-Business",
+   "url": "https://www.eco-business.com/press-releases/philanthropy-asia-alliance-supports-southeast-asia-heat-health-hub-to-scale-coordinated-action-on-extreme-heat/",
+   "archive": "https://web.archive.org/web/20261031093344/https://www.eco-business.com/press-releases/philanthropy-asia-alliance-supports-southeast-asia-heat-health-hub-to-scale-coordinated-action-on-extreme-heat/",
+   "type": "original",
+   "check": {
+    "kind": "content",
+    "checked": "2026-10-31",
+    "batch": "2026-10",
+    "status": "OK",
+    "found": [
+     "Philanthropy Asia Alliance",
+     "Heat Health"
+    ],
+    "missing": []
+   },
+   "fp": "27fec807ec06"
+  },
+  "wmo": {
+   "origin": "kb:src-wmo-south-asia-heat-initiatives-2026",
+   "date": "2026-02-20",
+   "type": "secondary",
+   "added": "2026-10-31",
+   "title": "New initiatives launched to address extreme heat in South Asia",
+   "publisher": "World Meteorological Organization",
+   "url": "https://wmo.int/media/news/new-initiatives-launched-address-extreme-heat-south-asia",
+   "archive": "https://web.archive.org/web/20260801014412/https://wmo.int/media/news/new-initiatives-launched-address-extreme-heat-south-asia",
+   "check": {
+    "kind": "content",
+    "checked": "2026-10-31",
+    "batch": "2026-10",
+    "status": "OK",
+    "found": [
+     "South Asia",
+     "heat"
+    ],
+    "missing": []
+   },
+   "fp": "47d775af0caf"
+  },
+  "climateworks": {
+   "origin": "kb:src-climateworks-global-heat-forum-2026",
+   "date": "2026-10-06",
+   "added": "2026-10-31",
+   "title": "Global Heat Forum gathers 600 leaders to scale investment for extreme heat action",
+   "publisher": "ClimateWorks Foundation",
+   "url": "https://www.climateworks.org/press-release/global-heat-forum-gathers-600-leaders-to-scale-investment-for-extreme-heat-action/",
+   "archive": "https://web.archive.org/web/20261007123528/https://www.climateworks.org/press-release/global-heat-forum-gathers-600-leaders-to-scale-investment-for-extreme-heat-action/",
+   "type": "secondary",
+   "check": {
+    "kind": "content",
+    "checked": "2026-10-31",
+    "batch": "2026-10",
+    "status": "OK",
+    "found": [
+     "Global Heat Forum",
+     "Bangkok"
+    ],
+    "missing": []
+   },
+   "fp": "4a610bf64f92"
+  },
+  "prothomalo": {
+   "origin": "kb:src-prothomalo-narayanganj-heat-plan-2026",
+   "date": "2026-10-08",
+   "added": "2026-10-31",
+   "title": "Bangladesh, 3 other South Asian countries launch new initiative to tackle extreme heat",
+   "publisher": "Prothom Alo",
+   "url": "https://en.prothomalo.com/environment/climate-change/qq8g2g85o8",
+   "archive": "https://web.archive.org/web/20261010212259/https://en.prothomalo.com/environment/climate-change/qq8g2g85o8",
+   "type": "secondary",
+   "check": {
+    "kind": "content",
+    "checked": "2026-10-31",
+    "batch": "2026-10",
+    "status": "OK",
+    "found": [
+     "Narayanganj",
+     "heat"
+    ],
+    "missing": []
+   },
+   "fp": "4faf6db05ad1"
+  },
+  "ncc-plan": {
+   "origin": "signals:sig-narayanganj-hap/plan",
+   "date": "2025-09-22",
+   "added": "2026-11-16",
+   "publisher": "Narayanganj City Corporation",
+   "title": "Narayanganj City Corporation: Heat Action Plan, 2025",
+   "url": "https://southasia.iclei.org/wp-content/uploads/2026/02/Heat-Action-Plan_Narayanganj_Final_9th-Sept_2025_compressed.pdf",
+   "type": "original",
+   "archive": "",
+   "check": {
+    "kind": "content",
+    "checked": "2026-11-09",
+    "batch": "2026-11-heat-plan-running-costs",
+    "status": "OK",
+    "found": [
+     "recurring",
+     "budget",
+     "Narayanganj"
+    ],
+    "missing": [
+     "operation and maintenance"
+    ]
+   },
+   "fp": "3d3d3de6b999"
+  },
+  "evidence-map": {
+   "origin": "site:/evidence-map/#stronger",
+   "title": "Common Shade: Stronger evidence, little funding traced",
+   "date": "2026-10-31",
+   "type": "own",
+   "added": "2026-10-31",
+   "url": "/evidence-map/#stronger",
+   "check": {
+    "kind": "site"
+   },
+   "fp": null
+  },
+  "funding-trace": {
+   "origin": "site:/heat-economy/flows/",
+   "title": "Common Shade: Follow the money (the funding trace)",
+   "date": "2026-10-31",
+   "type": "own",
+   "added": "2026-10-31",
+   "url": "/heat-economy/flows/",
+   "check": {
+    "kind": "site"
+   },
+   "fp": null
+  }
+ },
+ "as_published": {
+  "note": "The text as first published on 31 October 2026, kept unchanged. It used the earlier four-part format.",
+  "headline": "The field gathers, and the connecting work finds support",
+  "sections": [
+   {
+    "k": "Where philanthropic money moved",
+    "h": "Toward the work that connects",
+    "p": "Two announcements this year support the parts of protection that sit between institutions: a South Asia climate–health desk and research consortium (The Rockefeller Foundation and Wellcome), and the next stage of the Southeast Asia Heat Health Hub, with work in Indonesia and Thailand (Philanthropy Asia Alliance). Both are field-building and evidence roles, the ones our trace of funding found thinnest. Amounts were not disclosed.",
+    "links": [
+     [
+      "/heat-economy/flows/",
+      "Follow the money"
+     ],
+     [
+      "/heat-economy/flows/#roles",
+      "The role money plays"
+     ]
+    ]
+   },
+   {
+    "k": "An opportunity the evidence supports",
+    "h": "Heat-safe work",
+    "p": "Six solutions for safer work in the heat have been measured in a study, yet our trace found no funding announcements for them. Much of this work is paid from public budgets and employers, which the trace does not cover, so this is a question worth asking rather than a gap we can confirm.",
+    "links": [
+     [
+      "/evidence-map/#stronger",
+      "Stronger evidence, little funding traced"
+     ],
+     [
+      "/who-holds-it/#heatrules",
+      "Who holds it up"
+     ]
+    ]
+   },
+   {
+    "k": "A question that grew in importance",
+    "h": "What keeps a pilot going after its first grant?",
+    "p": "A funder’s own account of Southeast Asia notes that successful heat-health pilots often lose their footing once funding ends. We have added it to the learning agenda, sized for a two-year study of a handful of pilots.",
+    "links": [
+     [
+      "/evidence-map/#q-pilots-after-funding",
+      "The question"
+     ],
+     [
+      "/build/",
+      "Sketch a portfolio"
+     ]
+    ]
+   },
+   {
+    "k": "What changed on Common Shade",
+    "h": "The first month through every check",
+    "p": "Nine new records passed all seven checks, including Bangladesh’s first urban heatwave action plan, for Narayanganj, and the first Global Heat Forum in Bangkok. Two were held back: a report of a four-country coalition that established sources describe instead as four country assessments. New this month: the Atlas, the Evidence map, Follow the money, Who holds it up, Build protection, a public corrections log and, from new research on risk finance, Paying when heat strikes, where insurance, pools, credit and forecast funds for heat are each asked whether they paid, and when. Two simulations now sit beside A week in the heat, so care, health and city systems get the same attention as work: A night in the heat and A city under strain, with 25 new short films on older people, pregnancy, babies, clinics, power, water, trees and more.",
+    "links": [
+     [
+      "/atlas/",
+      "The Atlas"
+     ],
+     [
+      "/corrections/",
+      "Corrections"
+     ],
+     [
+      "/paying-when-heat-strikes/",
+      "Paying when heat strikes"
+     ],
+     [
+      "/live-through-a-heatwave/",
+      "Live through a heatwave"
+     ]
+    ]
+   }
+  ],
+  "closing": "Written from the knowledge base, under the same checks as every page: sourced, labelled known, inferred or uncertain, and open to correction."
+ },
+ "revisions": [
+  {
+   "date": "2026-10-31",
+   "kind": "published",
+   "note": "First published, in the earlier four-part format."
+  },
+  {
+   "date": "2026-11-16",
+   "kind": "correction",
+   "id": "c-sof-2026-10-narayanganj",
+   "gist": "Narayanganj's heat plan was approved on 22 September 2025; October 2026 is when it was reported.",
+   "note": "The first text listed Bangladesh's first urban heatwave action plan, for Narayanganj, among October's new records without its date, which read as an October development. The plan records its approval on 22 September 2025; October 2026 is when Bangladesh's heat and health assessment reported it. The edition now says so."
+  },
+  {
+   "date": "2026-11-16",
+   "kind": "revision",
+   "note": "Rewritten in the new edition format from the same checked records: a central argument with its limits, dates for each development, what each source establishes and does not, a decision brief, questions for different readers and a forward look. The February announcement is now marked as first reviewed in October, not as an October event. The plan's own record was added as a source. The text as first published is kept below."
+  }
+ ]
 }

@@ -1,0 +1,64 @@
+#!/usr/bin/env node
+// Common Shade: the editorial workflow for State of the field. Nothing here publishes on its own: an edition reaches the
+// site only through a reviewed pull request, and the commands refuse what the rules do not allow.
+//   node tools/sof-review.js new <YYYY-MM>              start a draft in data/site/briefs/drafts/<YYYY-MM>.json
+//   node tools/sof-review.js snapshot <YYYY-MM>         fill each cited source from its record (title, url, date, type)
+//                                                       and freeze what the source check holds for it on the cut-off
+//                                                       (or on the date it was added, if later)
+//   node tools/sof-review.js check <YYYY-MM>            validate a draft or edition (the same rules as tools/check-sof.js)
+//   node tools/sof-review.js publish <YYYY-MM> <date> "<approver role>"
+//                                                       move a draft to data/site/briefs/, dated, and seal its hash
+//   node tools/sof-review.js seal <YYYY-MM>             after a dated revision or correction to a published edition,
+//                                                       record its new hash in data/site/briefs/_ledger.json
+// AI may prepare drafts and snapshots; a person reviews every edition before it is published, and corrections are listed
+// on /corrections/ (data/site/corrections.json) as well as in the edition.
+"use strict";
+const fs = require("fs"), path = require("path"), M = require("./sof-model.js");
+const [cmd, id, ...rest] = process.argv.slice(2), die = m => { console.error(m); process.exit(1); };
+const today = new Date().toISOString().slice(0, 10);
+const fileOf = id => [path.join(M.DIR, id + ".json"), path.join(M.DRAFTS, id + ".json")].find(f => fs.existsSync(f));
+const save = (f, e) => { const o = Object.assign({}, e); delete o._file; fs.writeFileSync(f, JSON.stringify(o, null, 1) + "\n"); };
+const led = () => M.ledger(), saveLed = L => fs.writeFileSync(M.LEDGER, JSON.stringify(L, null, 1) + "\n");
+if (cmd && cmd !== "new" && !/^\d{4}-\d{2}$/.test(id || "")) die("give the edition id, YYYY-MM");
+if (cmd === "new") {
+  if (!/^\d{4}-\d{2}$/.test(id || "")) die("give the edition id, YYYY-MM");
+  if (fileOf(id)) die(`${id} already exists`);
+  const [y, m] = id.split("-").map(Number), last = new Date(Date.UTC(y, m, 0)).toISOString().slice(0, 10);
+  fs.mkdirSync(M.DRAFTS, { recursive: true });
+  save(path.join(M.DRAFTS, id + ".json"), { schema: 2, id, status: "draft", period: { from: `${id}-01`, to: last }, cutoff: last,
+    argument: { headline: "", claim: "", rests_on: "" }, opening: "", developments: [], opportunity: null, question: null, watch: [], audiences: [],
+    platform: { p: "", links: [] }, sources: {}, revisions: [] });
+  console.log(`wrote data/site/briefs/drafts/${id}.json. Write from checked records only (data/kb, data/site/signals.json); cite each source by origin ("kb:<id>", "signals:<sig-id>/<source-id>" or "site:/path/#anchor"), then: node tools/sof-review.js snapshot ${id}`);
+} else if (cmd === "snapshot") {
+  const f = fileOf(id) || die(`no edition ${id}`), e = JSON.parse(fs.readFileSync(f, "utf8"));
+  if (e.status === "published") console.log("note: a published edition changes only with a dated revision; run seal afterwards");
+  for (const [k, s] of Object.entries(e.sources || {})) {
+    const by = [e.cutoff, s.added].filter(Boolean).sort().pop();
+    try { const before = JSON.stringify(s.check || null); e.sources[k] = M.snapshot(s, by); console.log(`  ${k}: ${e.sources[k].type}, ${M.CHECK[e.sources[k].check.kind]}${before !== JSON.stringify(e.sources[k].check) ? " (updated)" : ""}`); }
+    catch (x) { die(`  ${k}: ${x.message}`); }
+  }
+  save(f, e); console.log(`snapshot saved for ${id}`);
+} else if (cmd === "check") {
+  const f = fileOf(id) || die(`no edition ${id}`), bad = M.validate(JSON.parse(fs.readFileSync(f, "utf8")));
+  if (bad.length) die("Not ready:\n" + bad.map(b => "  - " + b).join("\n")); console.log(`${id} passes the edition rules`);
+} else if (cmd === "publish") {
+  const [date, who] = rest, f = path.join(M.DRAFTS, id + ".json");
+  if (!fs.existsSync(f)) die(`no draft ${id}`);
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(date || "")) die("give the publication date, YYYY-MM-DD");
+  if (!who) die("give the approver as a role (for example \"Site owner\"): a person approves every edition");
+  const e = JSON.parse(fs.readFileSync(f, "utf8"));
+  Object.assign(e, { status: "published", published: date, approved: who }); e.revisions = [{ date, kind: "published", note: "First published." }, ...(e.revisions || []).filter(r => r.kind !== "published")];
+  const bad = M.validate(e); if (bad.length) die("Not published:\n" + bad.map(b => "  - " + b).join("\n"));
+  save(path.join(M.DIR, id + ".json"), e); fs.unlinkSync(f);
+  const L = led(); L[id] = [{ date, hash: M.hash(e) }]; saveLed(L);
+  console.log(`published ${id} (${date}). Rebuild (node tools/build-static.js), run node tools/check-sof.js, and open a pull request: merging is the sign-off`);
+} else if (cmd === "seal") {
+  const f = path.join(M.DIR, id + ".json"); if (!fs.existsSync(f)) die(`no published edition ${id}`);
+  const e = JSON.parse(fs.readFileSync(f, "utf8")), L = led(), rows = L[id] || [], h = M.hash(e), last = rows[rows.length - 1];
+  if (last && last.hash === h) { console.log(`${id} is already sealed at ${last.date}`); process.exit(0); }
+  const rev = (e.revisions || []).filter(r => r.kind !== "published").map(r => r.date).sort().pop();
+  if (!rev || (last && rev <= last.date)) die(`${id} has changed since ${last ? last.date : "publication"} without a new revision: add an entry to "revisions" (kind revision or correction, dated today, saying what changed), and a /corrections/ entry for a correction`);
+  rows.push({ date: rev, hash: h }); L[id] = rows; saveLed(L); console.log(`${id} sealed at its ${rev} revision`);
+} else {
+  console.log(fs.readFileSync(__filename, "utf8").split("\n").slice(1, 15).map(l => l.replace(/^\/\/ ?/, "")).join("\n"));
+}

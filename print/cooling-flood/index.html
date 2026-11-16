@@ -479,10 +479,10 @@ var today=new Date().toISOString().slice(0,10);
 /* changed since your last visit, and a new monthly brief */
 (function(){var visits=load("cs-visits",{}),last=visits[here],changed=document.body.getAttribute("data-changed")||"",notes=[];
  if(last&&changed&&changed>last)notes.push('<span>Updated since your last visit</span><a href="/whats-new/">See what changed this month</a>');
- var brief="2026-10";
+ var brief="2026-11";
  /* the monthly brief: on every page of every visit (site owner's choice), resting for the rest of a visit once answered */
  var briefRest;try{briefRest=sessionStorage.getItem("cs-brief-rest")}catch(e){}
- if(brief&&!briefRest&&here!=="/whats-new/")notes.push('<span>New: the October 2026 State of the field</span><a href="/whats-new/" data-csn-briefread>Read it</a><button type="button" data-csn-dismiss>Not now</button>');
+ if(brief&&!briefRest&&here!=="/whats-new/")notes.push('<span>New: the November 2026 State of the field</span><a href="/whats-new/" data-csn-briefread>Read it</a><button type="button" data-csn-dismiss>Not now</button>');
  if(here==="/whats-new/"&&brief)save("cs-brief-seen",brief);
  visits[here]=today;save("cs-visits",visits);
  if(!notes.length)return;var bar=document.createElement("div");bar.className="csn-new";bar.setAttribute("role","status");bar.innerHTML=notes.join(" ");
@@ -529,7 +529,7 @@ $$("[data-check]").forEach(function(box){var key=box.getAttribute("data-check"),
     if(form)window.open(form,"_blank","noopener");remember({a:"no",d:today});done(thanksNo)})})}});
 /* copy the citation */
 $$("[data-csn-copy]").forEach(function(b){b.addEventListener("click",function(){var t=$("[data-csn-cite]").textContent;(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){b.textContent="Copied"},function(){b.textContent="Select and copy"})})});
-})();</script><script src="/ticker.js?v=231" defer></script><script>addEventListener("load",function(){setTimeout(function(){["/join.js?v=231","/everything.js?v=231"].forEach(function(s){var e=document.createElement("script");e.src=s;document.body.appendChild(e)})},2500)})</script><!--/csn-->
+})();</script><script src="/ticker.js?v=232" defer></script><script>addEventListener("load",function(){setTimeout(function(){["/join.js?v=232","/everything.js?v=232"].forEach(function(s){var e=document.createElement("script");e.src=s;document.body.appendChild(e)})},2500)})</script><!--/csn-->
 <footer>
     <div>
       <p><b>Common Shade</b> · A living map of extreme heat in South and Southeast Asia, updated as the evidence grows. Live page: beattheheat.asia/#cool-flood</p>

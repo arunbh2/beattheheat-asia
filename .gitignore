@@ -9,3 +9,6 @@ media/mapguide/*.voice.wav
 media/reels/*.voice.wav
 media/reels/*.music.wav
 media/mapguide/*.music.wav
+
+# State of the field draft previews (tools/build-sof.js): never published
+research/sof-preview/
