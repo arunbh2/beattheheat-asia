@@ -110,11 +110,13 @@ Every record from both collections, once each: 101 unique records from 103 publi
 
 Downloads: [all 101 records (CSV)](https://beattheheat.asia/how-heat-is-reported/records.csv) · [the same as JSON](https://beattheheat.asia/how-heat-is-reported/records.json) · [the curated collection as first published (CSV)](https://beattheheat.asia/how-heat-is-reported/extreme-heat-journalism-2018-2026.csv). Every article is also in [Sources and references ](https://beattheheat.asia/sources/#media)
 
+Links last checked automatically on 16 November 2026: 68 opened, 33 could not be checked automatically (publishers that limit automated visits, need a subscription or did not answer in time), and 0 did not open. Opened means the page answered; its content was not re-read.
+
 - PilotFull text, provisional coding
 
 ### [Pakar ITS ingatkan risiko kesehatan akibat gelombang panas](https://www.antaranews.com/berita/5801589/pakar-its-ingatkan-risiko-kesehatan-akibat-gelombang-panas)
 
-English: ITS experts warn of health risks from heatwaves Reviewer’s translation: not authorised by the publisher; native-language review pending
+English: ITS experts warn of health risks from heatwaves Working translation, not yet reviewed by a speaker of Indonesian
 
 ANTARA News · 21 October 2026 · Indonesia · Indonesian · News report
 
@@ -148,7 +150,7 @@ What the article reports is not evidence of impact. Research the article cites w
 
 ### [Matinding init, puwede bang gamiting dahilan ng manggagawa para 'di pumasok sa trabaho?](https://www.gmanetwork.com/news/balitambayan/trending/1006565/matinding-init-puwede-bang-gamiting-dahilan-ng-manggagawa-para-di-pumasok-sa-trabaho/story/)
 
-English: Can workers use extreme heat as a reason not to report for work? Reviewer’s translation: not authorised by the publisher; native-language review pending
+English: Can workers use extreme heat as a reason not to report for work? Working translation, not yet reviewed by a speaker of Filipino
 
 GMA News / Balitambayan · 20 October 2026 · Philippines · Filipino · News report
 
@@ -216,7 +218,7 @@ What the article reports is not evidence of impact. Research the article cites w
 
 ### [তাপপ্রবাহে শ্রমিকের মজুরি ক্ষতি বছরে ৭৭ হাজার কোটি টাকা](https://www.prothomalo.com/amp/story/bangladesh/kg2t6n67kw)
 
-English: Workers’ annual wage losses from heatwaves reach 77,000 crore taka Reviewer’s translation: not authorised by the publisher; native-language review pending
+English: Workers’ annual wage losses from heatwaves reach 77,000 crore taka Working translation, not yet reviewed by a speaker of Bengali
 
 প্রথম আলো · 11 August 2026 · Bangladesh · Bengali · Feature
 
@@ -250,7 +252,7 @@ What the article reports is not evidence of impact. Research the article cites w
 
 ### [Strok Haba Bukan Lagi Bermusim](https://bernama.com/bm/tintaminda/news.php?id=2588367)
 
-English: Heatstroke is no longer seasonal Reviewer’s translation: not authorised by the publisher; native-language review pending
+English: Heatstroke is no longer seasonal Working translation, not yet reviewed by a speaker of Malay
 
 BERNAMA / Tinta Minda · 5 August 2026 · Malaysia · Malay · Opinion or commentary
 
@@ -284,7 +286,7 @@ What the article reports is not evidence of impact. Research the article cites w
 
 ### [Nắng nóng cực đoan: Thách thức an sinh xã hội mới đối với người lao động](https://www.vietnamplus.vn/nang-nong-cuc-doan-thach-thuc-an-sinh-xa-hoi-moi-doi-voi-nguoi-lao-dong-post1120365.vnp)
 
-English: Extreme heat: a new social-protection challenge for workers Reviewer’s translation: not authorised by the publisher; native-language review pending
+English: Extreme heat: a new social-protection challenge for workers Working translation, not yet reviewed by a speaker of Vietnamese
 
 VietnamPlus · 25 June 2026 · Viet Nam · Vietnamese · Explainer
 
@@ -350,11 +352,13 @@ What the article reports is not evidence of impact. Research the article cites w
 
 ### [गर्मीको मार विपन्नको चुलोसम्म](https://ekantipur.com/news/2026/05/27/the-heat-wave-reaches-the-poors-stove-00-04.html)
 
-English: Heat reaches poor households’ cooking pots Reviewer’s translation: not authorised by the publisher; native-language review pending
+English: Heat reaches poor households’ cooking pots Working translation, not yet reviewed by a speaker of Nepali
 
 कान्तिपुर · 27 May 2026 · Nepal · Nepali · Feature
 
 Workers describe shrinking sales and difficulty feeding their families during heat. Household debt makes stopping work harder.
+
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser. [Archived copy](https://web.archive.org/web/20260722064045/https://ekantipur.com/news/2026/05/27/the-heat-wave-reaches-the-poors-stove-00-04.html)
 
 Reporting trail: what the review found
 
@@ -416,11 +420,13 @@ What the article reports is not evidence of impact. Research the article cites w
 
 ### [तराईमा तातो हावाको लहर, घरमै बस्न सुझाव](https://ekantipur.com/news/2026/05/23/hot-winds-increasing-risk-to-public-life-in-western-nepal-47-56.html)
 
-English: Heatwave in the Tarai; advice to stay at home Reviewer’s translation: not authorised by the publisher; native-language review pending
+English: Heatwave in the Tarai; advice to stay at home Working translation, not yet reviewed by a speaker of Nepali
 
 कान्तिपुर (from रासस (RSS)) · 23 May 2026 · Nepal · Nepali · News report
 
 The report relays a heat warning for western Nepal. It names the issuing agencies and gives protective advice.
+
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser. [Archived copy](https://web.archive.org/web/20260719140856/https://ekantipur.com/news/2026/05/23/hot-winds-increasing-risk-to-public-life-in-western-nepal-47-56.html)
 
 Reporting trail: what the review found
 
@@ -518,6 +524,8 @@ Associated Press · 2026 (year only recorded) · India · English · Format not 
 
 Story angle, as listed Manufacturing and worker adaptation
 
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser.
+
 [Link](#rec-b28)
 
 - CollectionHeadline and listing
@@ -527,6 +535,8 @@ Story angle, as listed Manufacturing and worker adaptation
 Associated Press · 2026 (year only recorded) · India · English · Format not recorded
 
 Story angle, as listed Lived experience of heat
+
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser.
 
 [Link](#rec-b29)
 
@@ -557,6 +567,8 @@ Story angle, as listed Air-conditioning; refrigerants; regulation
 Financial Times · 2026 (year only recorded) · India · English · Format not recorded
 
 Story angle, as listed Nighttime heat, electricity demand
+
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser.
 
 [Link](#rec-b30)
 
@@ -644,7 +656,7 @@ Story angle, as listed National adaptation plan; cooling choices
 
 ### [Adaptasi iklim: melindungi perempuan, menjaga produktivitas nasional](https://m.antaranews.com/amp/berita/5297722/adaptasi-iklim-melindungi-perempuan-menjaga-produktivitas-nasional)
 
-English: Climate adaptation: protecting women, maintaining national productivity Reviewer’s translation: not authorised by the publisher; native-language review pending
+English: Climate adaptation: protecting women, maintaining national productivity Working translation, not yet reviewed by a speaker of Indonesian
 
 ANTARA News · 10 December 2025 · Indonesia · Indonesian · Opinion or commentary
 
@@ -710,7 +722,7 @@ What the article reports is not evidence of impact. Research the article cites w
 
 ### [“แรงงานกลางแจ้ง” ไร้กฎหมายคุ้มครอง จากวิกฤตโลกร้อน](https://policywatch.thaipbs.or.th/article/environment-48)
 
-English: Outdoor workers lack legal protection against the global-heating crisis Reviewer’s translation: not authorised by the publisher; native-language review pending
+English: Outdoor workers lack legal protection against the global-heating crisis Working translation, not yet reviewed by a speaker of Thai
 
 Thai PBS / Policy Watch · 29 April 2025 · Thailand · Thai · Explainer
 
@@ -748,6 +760,8 @@ Associated Press · 2025 (year only recorded) · India · English · Format not 
 
 Story angle, as listed Local cooling solutions
 
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser.
+
 [Link](#rec-b35)
 
 - CollectionHeadline and listing
@@ -777,6 +791,8 @@ Story angle, as listed Grid reliability; heat and energy
 Reuters · 2025 (year only recorded) · India · English · Format not recorded
 
 Story angle, as listed Climate risk mapping
+
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser.
 
 [Link](#rec-b37)
 
@@ -827,6 +843,8 @@ Story angle, as listed Red Cross; heat risk
 The Straits Times / Asia News Network · 2025 (year only recorded) · Southeast Asia · English · Format not recorded
 
 Story angle, as listed Heat risks and adaptation
+
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser. [Archived copy](https://web.archive.org/web/20250723232351/https://asianews.network/degrees-of-danger-beating-the-heat-in-southeast-asia/)
 
 [Link](#rec-b38)
 
@@ -898,7 +916,7 @@ What the article reports is not evidence of impact. Research the article cites w
 
 ### [Majikan, pekerja perlu ambil langkah keselamatan hadapi perubahan cuaca](https://www.astroawani.com/berita-malaysia/majikan-pekerja-perlu-ambil-langkah-keselamatan-hadapi-perubahan-cuaca-477284)
 
-English: Employers and workers should take safety measures for changing weather Reviewer’s translation: not authorised by the publisher; native-language review pending
+English: Employers and workers should take safety measures for changing weather Working translation, not yet reviewed by a speaker of Malay
 
 Astro Awani (from Bernama) · 3 July 2024 · Malaysia · Malay · News report
 
@@ -932,11 +950,13 @@ What the article reports is not evidence of impact. Research the article cites w
 
 ### [अधिकतम तापक्रम ४३ डिग्री, तर, गरिबलाई केको गर्मी !](https://ekantipur.com/news/2024/06/01/the-maximum-temperature-is-43-degrees-but-what-is-the-heat-for-the-poor-57-49.html)
 
-English: Maximum temperature 43 degrees, but what respite from heat for the poor? Reviewer’s translation: not authorised by the publisher; native-language review pending
+English: Maximum temperature 43 degrees, but what respite from heat for the poor? Working translation, not yet reviewed by a speaker of Nepali
 
 कान्तिपुर · 1 June 2024 · Nepal · Nepali · Feature
 
 Brick workers, repairers and vendors explain why they keep working in dangerous heat. Family expenses limit their choices.
+
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser. [Archived copy](https://web.archive.org/web/20240825084518/https://ekantipur.com/news/2024/06/01/the-maximum-temperature-is-43-degrees-but-what-is-the-heat-for-the-poor-57-49.html)
 
 Reporting trail: what the review found
 
@@ -1034,11 +1054,13 @@ What the article reports is not evidence of impact. Research the article cites w
 
 ### [کمشنر کراچی کی زیر صدارت اجلاس ،ہیٹ اسٹروک کی صورتحال سے نمٹنے کے لئے مختلف شہری اداروں کو ذمہ داریاں تفویض](https://www.urdupoint.com/daily/livenews/2024-05-06/news-4007727.html)
 
-English: Karachi commissioner’s meeting assigns city agencies responsibilities for responding to heatstroke Reviewer’s translation: not authorised by the publisher; native-language review pending
+English: Karachi commissioner’s meeting assigns city agencies responsibilities for responding to heatstroke Working translation, not yet reviewed by a speaker of Urdu
 
 UrduPoint (from این این آئی (NNI)) · 6 May 2024 · Pakistan · Urdu · News report
 
 A Karachi meeting assigns heat-response tasks across city services. It explains proposed coordination without checking subsequent delivery.
+
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser.
 
 Reporting trail: what the review found
 
@@ -1100,7 +1122,7 @@ What the article reports is not evidence of impact. Research the article cites w
 
 ### [Labor Day 2024: Ipagtanggol ang kabuhayan, panawagan ng mga manggagawa, tsuper, partner-riders](https://manilatoday.net/labor-day-2024-ipagtanggol-ang-kabuhayan-panawagan-ng-mga-manggagawa/)
 
-English: Labor Day 2024: workers, drivers and partner-riders call to defend livelihoods Reviewer’s translation: not authorised by the publisher; native-language review pending
+English: Labor Day 2024: workers, drivers and partner-riders call to defend livelihoods Working translation, not yet reviewed by a speaker of Filipino
 
 Manila Today · 1 May 2024 · Philippines · Filipino · News report
 
@@ -1134,7 +1156,7 @@ What the article reports is not evidence of impact. Research the article cites w
 
 ### [Penilaian risiko di tempat kerja perlu disemak semula – MISHA](https://berita.rtm.gov.my/nasional/senarai-berita-nasional/senarai-artikel/penilaian-risiko-di-tempat-kerja-perlu-disemak-semula-misha/)
 
-English: Workplace risk assessment should be reviewed - MISHA Reviewer’s translation: not authorised by the publisher; native-language review pending
+English: Workplace risk assessment should be reviewed - MISHA Working translation, not yet reviewed by a speaker of Malay
 
 Berita RTM · 28 April 2024 · Malaysia · Malay · News report
 
@@ -1168,7 +1190,7 @@ What the article reports is not evidence of impact. Research the article cites w
 
 ### [Chuỗi ngày nắng nóng dài kỷ lục ở Sài Gòn](https://vnexpress.net/chuoi-ngay-nang-nong-dai-ky-luc-o-sai-gon-4739003.html)
 
-English: Record-long run of hot days in Saigon Reviewer’s translation: not authorised by the publisher; native-language review pending
+English: Record-long run of hot days in Saigon Working translation, not yet reviewed by a speaker of Vietnamese
 
 VnExpress · 27 April 2024 · Viet Nam · Vietnamese · Data story
 
@@ -1238,6 +1260,8 @@ Eleven Media Group · 23 April 2024 · Myanmar · English · News report
 
 Residents link drinking-water shortages to heat and electricity cuts. The report identifies relief providers and the dependence of wells on power.
 
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser. [Archived copy](https://web.archive.org/web/20240423054409/https://elevenmyanmar.com/news/heatwave-and-power-outages-intensify-water-woes-in-thaton-and-surrounding-areas)
+
 Reporting trail: what the review found
 
 Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
@@ -1266,7 +1290,7 @@ What the article reports is not evidence of impact. Research the article cites w
 
 ### [අධික උණුසුම පළාත් 05ට බලපායි](https://vnews.lk/%E0%B6%85%E0%B6%B0%E0%B7%92%E0%B6%9A-%E0%B6%8B%E0%B6%AB%E0%B7%94%E0%B7%83%E0%B7%94%E0%B6%B8-%E0%B6%B4%E0%B7%85%E0%B7%8F%E0%B6%AD%E0%B7%8A-05%E0%B6%A7-%E0%B6%B6%E0%B6%BD%E0%B6%B4%E0%B7%8F%E0%B6%BA%E0%B7%92/)
 
-English: Extreme heat affects five provinces Reviewer’s translation: not authorised by the publisher; native-language review pending
+English: Extreme heat affects five provinces Working translation, not yet reviewed by a speaker of Sinhala
 
 වී News · 14 March 2024 · Sri Lanka · Sinhala · News report
 
@@ -1300,7 +1324,7 @@ What the article reports is not evidence of impact. Research the article cites w
 
 ### [අධික උෂ්ණත්වය ඇති අවස්ථාවේ පාසල් සිසුන් එළිමහනේ රැඳවීමෙන් වළකින්න](https://dasathalankanews.com/%E0%B6%85%E0%B6%B0%E0%B7%92%E0%B6%9A-%E0%B6%8B%E0%B7%82%E0%B7%8A%E0%B6%AB%E0%B6%AD%E0%B7%8A%E0%B6%BA-%E0%B6%87%E0%B6%AD%E0%B7%92-%E0%B6%85%E0%B7%80%E0%B7%83%E0%B7%8A%E0%B6%AE%E0%B7%8F%E0%B7%80/)
 
-English: Avoid keeping schoolchildren outdoors during high temperatures Reviewer’s translation: not authorised by the publisher; native-language review pending
+English: Avoid keeping schoolchildren outdoors during high temperatures Working translation, not yet reviewed by a speaker of Sinhala
 
 Dasatha Lanka News · 28 February 2024 · Sri Lanka · Sinhala · News report
 
@@ -1334,7 +1358,7 @@ What the article reports is not evidence of impact. Research the article cites w
 
 ### [Lao động vất vả mưu sinh dưới nắng nóng 38 độ C](https://tuoitre.vn/nld/lao-dong-vat-va-muu-sinh-duoi-nang-nong-38-do-c-196240224090130229.htm)
 
-English: Workers struggle to earn a living in 38-degree heat Reviewer’s translation: not authorised by the publisher; native-language review pending
+English: Workers struggle to earn a living in 38-degree heat Working translation, not yet reviewed by a speaker of Vietnamese
 
 Báo Người Lao Động (Tuổi Trẻ-hosted page) (from Báo Người Lao Động) · 24 February 2024 · Viet Nam · Vietnamese · Feature
 
@@ -1404,6 +1428,8 @@ Associated Press · 2024 (year only recorded) · India · English · Format not 
 
 Story angle, as listed Mortality and elections
 
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser.
+
 [Link](#rec-b42)
 
 - CollectionHeadline and listing
@@ -1413,6 +1439,8 @@ Story angle, as listed Mortality and elections
 Associated Press · 2024 (year only recorded) · India · English · Format not recorded
 
 Story angle, as listed Heat mortality
+
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser.
 
 [Link](#rec-b43)
 
@@ -1424,6 +1452,8 @@ Associated Press · 2024 (year only recorded) · Asia, Global · English · Form
 
 Story angle, as listed Extreme heat and climate disruption
 
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser.
+
 [Link](#rec-b44)
 
 - CollectionHeadline and listing
@@ -1433,6 +1463,8 @@ Story angle, as listed Extreme heat and climate disruption
 Associated Press · 2024 (year only recorded) · Philippines, Southeast Asia · English · Format not recorded
 
 Story angle, as listed Schools, regional warnings
+
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser.
 
 [Link](#rec-b45)
 
@@ -1464,6 +1496,8 @@ Financial Times · 2024 (year only recorded) · Gulf, South Asian migrant worker
 
 Story angle, as listed Migrant workers, extreme heat, adaptation
 
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser.
+
 [Link](#rec-b47)
 
 - CollectionHeadline and listing
@@ -1484,6 +1518,8 @@ NDTV Profit / Bloomberg Opinion · 2024 (year only recorded) · India · English
 
 Story angle, as listed Heat and democracy; public systems
 
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser.
+
 [Link](#rec-b04)
 
 - CollectionHeadline and listing
@@ -1493,6 +1529,8 @@ Story angle, as listed Heat and democracy; public systems
 Reuters · 2024 (year only recorded) · India · English · Format not recorded
 
 Story angle, as listed Homelessness and heat mortality
+
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser.
 
 [Link](#rec-b49)
 
@@ -1504,6 +1542,8 @@ Reuters · 2024 (year only recorded) · India · English · Format not recorded
 
 Story angle, as listed Construction and informal workers
 
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser. [Archived copy](https://web.archive.org/web/20240528073813/https://www.reuters.com/world/india/indias-heat-delhi-labourers-toil-red-hot-conditions-2024-05-23/)
+
 [Link](#rec-b50)
 
 - CollectionHeadline and listing
@@ -1513,6 +1553,8 @@ Story angle, as listed Construction and informal workers
 Reuters · 2024 (year only recorded) · India, Bangladesh · English · Format not recorded
 
 Story angle, as listed Concurrent regional hazards
+
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser. [Archived copy](https://web.archive.org/web/20240610171553/https://www.reuters.com/world/india/scorching-heatwave-indias-rajasthan-kills-nine-2024-05-24/)
 
 [Link](#rec-b51)
 
@@ -1533,6 +1575,8 @@ Story angle, as listed Education and public health
 South China Morning Post · 2024 (year only recorded) · Southeast Asia · English · Format not recorded
 
 Story angle, as listed Agriculture, health, daily life
+
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser. [Archived copy](https://web.archive.org/web/20251006142458/https://www.scmp.com/week-asia/health-environment/article/3261584/southeast-asias-brutal-heatwave-daily-life-and-agriculture-endangered-rising-temperatures)
 
 [Link](#rec-b54)
 
@@ -1644,6 +1688,8 @@ The Washington Post · 2024 (year only recorded) · India · English · Format n
 
 Story angle, as listed Water access, extreme heat
 
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser. [Archived copy](https://web.archive.org/web/20250725074841/https://www.washingtonpost.com/world/2024/05/31/india-heat-deaths/)
+
 [Link](#rec-b59)
 
 - CollectionHeadline and listing
@@ -1653,6 +1699,8 @@ Story angle, as listed Water access, extreme heat
 The Washington Post · 2024 (year only recorded) · India, Global · English · Format not recorded
 
 Story angle, as listed Cooling technology
+
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser. [Archived copy](https://web.archive.org/web/20250724153217/https://www.washingtonpost.com/climate-solutions/interactive/2024/air-conditioning-humidity-hotter-summers-solutions/)
 
 [Link](#rec-b60)
 
@@ -1664,6 +1712,8 @@ The Washington Post · 2024 (year only recorded) · Southeast Asia · English ·
 
 Story angle, as listed Meteorology and heat extremes
 
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser. [Archived copy](https://web.archive.org/web/20250726224902/https://www.washingtonpost.com/weather/2024/04/30/southeast-asia-heat-india-thailand-philippines/)
+
 [Link](#rec-b61)
 
 - CollectionHeadline and listing
@@ -1673,6 +1723,8 @@ Story angle, as listed Meteorology and heat extremes
 The Washington Post · 2024 (year only recorded) · India · English · Format not recorded
 
 Story angle, as listed Climate risk, health
+
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser. [Archived copy](https://web.archive.org/web/20240620095842/https://www.washingtonpost.com/weather/2024/05/29/record-heat-delhi-india-climate-survival/)
 
 [Link](#rec-b62)
 
@@ -1730,6 +1782,8 @@ NDTV / Bloomberg Opinion · 2023 (year only recorded) · India · English · Opi
 
 Story angle, as listed Energy policy; climate vulnerability
 
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser. [Archived copy](https://web.archive.org/web/20240822121446/https://www.ndtv.com/opinion/india-is-encouraging-the-heatwaves-that-will-cripple-it-3937443/amp/1)
+
 [Link](#rec-b07)
 
 - CollectionHeadline and listing
@@ -1739,6 +1793,8 @@ Story angle, as listed Energy policy; climate vulnerability
 NDTV Profit / Bloomberg Opinion · 2023 (year only recorded) · South & Southeast Asia, Global · English · Opinion or commentary (from the link type)
 
 Story angle, as listed Home cooling; energy; adaptation
+
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser.
 
 [Link](#rec-b08)
 
@@ -1790,6 +1846,8 @@ The Washington Post · 2023 (year only recorded) · Thailand, Southeast Asia · 
 
 Story angle, as listed Manufacturing and indoor heat
 
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser.
+
 [Link](#rec-b66)
 
 - CollectionHeadline and listing
@@ -1799,6 +1857,8 @@ Story angle, as listed Manufacturing and indoor heat
 The Washington Post · 2023 (year only recorded) · India · English · Format not recorded
 
 Story angle, as listed Heat inequality and urban poverty
+
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser. [Archived copy](https://web.archive.org/web/20250724120835/https://www.washingtonpost.com/climate-environment/interactive/2023/india-deadly-extreme-heat-poverty/)
 
 [Link](#rec-b67)
 
@@ -1810,6 +1870,8 @@ NDTV / Bloomberg Opinion · 2022 (year only recorded) · India, South Asia · En
 
 Story angle, as listed Wet-bulb heat; human survival
 
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser. [Archived copy](https://web.archive.org/web/20250505102021/https://www.ndtv.com/opinion/indias-heatwaves-are-testing-the-limits-of-human-survival-2943822)
+
 [Link](#rec-b09)
 
 - CollectionHeadline and listing
@@ -1819,6 +1881,8 @@ Story angle, as listed Wet-bulb heat; human survival
 NDTV Profit / Bloomberg Opinion · 2022 (year only recorded) · South Asia, Global · English · Opinion or commentary (from the link type)
 
 Story angle, as listed Humid heat; physiological limits
+
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser.
 
 [Link](#rec-b10)
 
@@ -1850,6 +1914,8 @@ The Washington Post · 2022 (year only recorded) · India · English · Format n
 
 Story angle, as listed Adaptation policy and economy
 
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser. [Archived copy](https://web.archive.org/web/20230329110532/https://www.washingtonpost.com/world/2022/05/09/india-heat-wave-climate-change/)
+
 [Link](#rec-b69)
 
 - CollectionHeadline and listing
@@ -1859,6 +1925,8 @@ Story angle, as listed Adaptation policy and economy
 The Washington Post · 2022 (year only recorded) · India · English · Format not recorded
 
 Story angle, as listed Occupational heat, worker exposure
+
+Link: could not be checked automatically on 16 November 2026 (the publisher limits automated visits, needs a subscription or did not answer in time); it may open in a browser. [Archived copy](https://web.archive.org/web/20250722225809/https://www.washingtonpost.com/world/interactive/2022/india-extreme-heat-climate-change/)
 
 [Link](#rec-b70)
 
@@ -1882,7 +1950,7 @@ Institutional detail
 
 [کمشنر کراچی کی زیر صدارت اجلاس ،ہیٹ اسٹروک کی صورتحال سے نمٹنے کے لئے مختلف شہری اداروں کو ذمہ داریاں تفویض](#rec-pk-karachi-roles-2024) UrduPoint · 6 May 2024 · Urdu
 
-English: Karachi commissioner’s meeting assigns city agencies responsibilities for responding to heatstroke Reviewer’s translation: not authorised by the publisher; native-language review pending
+English: Karachi commissioner’s meeting assigns city agencies responsibilities for responding to heatstroke Working translation, not yet reviewed by a speaker of Urdu
 
 **What it reports (reviewed summary)**: A Karachi meeting assigns heat-response tasks across city services. It explains proposed coordination without checking subsequent delivery.
 
@@ -1911,7 +1979,7 @@ Institutional detail
 
 [අධික උෂ්ණත්වය ඇති අවස්ථාවේ පාසල් සිසුන් එළිමහනේ රැඳවීමෙන් වළකින්න](#rec-lk-school-directive-2024) Dasatha Lanka News · 28 February 2024 · Sinhala
 
-English: Avoid keeping schoolchildren outdoors during high temperatures Reviewer’s translation: not authorised by the publisher; native-language review pending
+English: Avoid keeping schoolchildren outdoors during high temperatures Working translation, not yet reviewed by a speaker of Sinhala
 
 **What it reports (reviewed summary)**: Schools are told to avoid outdoor activities during high heat. The brief identifies the administrative chain carrying the instruction.
 
@@ -1940,7 +2008,7 @@ Institutional detail
 
 [Labor Day 2024: Ipagtanggol ang kabuhayan, panawagan ng mga manggagawa, tsuper, partner-riders](#rec-ph-labour-day-2024) Manila Today · 1 May 2024 · Filipino
 
-English: Labor Day 2024: workers, drivers and partner-riders call to defend livelihoods Reviewer’s translation: not authorised by the publisher; native-language review pending
+English: Labor Day 2024: workers, drivers and partner-riders call to defend livelihoods Working translation, not yet reviewed by a speaker of Filipino
 
 **What it reports (reviewed summary)**: Labour Day coverage includes demands for heat protection alongside wages. It explains how collective bargaining relates to pay during heat absences.
 
@@ -1969,7 +2037,7 @@ Institutional detail
 
 [“แรงงานกลางแจ้ง” ไร้กฎหมายคุ้มครอง จากวิกฤตโลกร้อน](#rec-th-outdoor-rights-2025) Thai PBS / Policy Watch · 29 April 2025 · Thai
 
-English: Outdoor workers lack legal protection against the global-heating crisis Reviewer’s translation: not authorised by the publisher; native-language review pending
+English: Outdoor workers lack legal protection against the global-heating crisis Working translation, not yet reviewed by a speaker of Thai
 
 **What it reports (reviewed summary)**: A delivery rider explains changing working hours during heat. The explainer examines how employment status affects access to protection.
 
@@ -2206,6 +2274,8 @@ Choose “Add to comparison” on any record read in full to compare up to three
 
 A starting point for an investigation, built from the records on this page and Common Shade's own pages. It suggests kinds of records and perspectives to look for; it does not name documents that exist or people to interview, and its question is not a finding.
 
+The questions and kinds of record here were drafted with AI assistance and reviewed by the site’s maintainer: suggestions, not findings.
+
 - **Heat at work.** In the place you report on, who is responsible for protecting people most exposed to heat from heat at work, what resources pay for that protection, and what public record would show whether it reaches them?
 - **Income when heat stops work.** In the place you report on, when heat stops work for people most exposed to heat, what replaces lost income, who pays for it, and what records show payments reaching people?
 - **Schools and children.** In the place you report on, how does heat guidance reach people most exposed to heat, who decides on closures or changed hours, and what resources support learning in the heat?
@@ -2267,7 +2337,9 @@ Every link between a harm and a response on Common Shade is a question someone c
 
 **Counting**: 103 publication records (71 in the collection, 32 in the pilot) make 101 unique records: 2 stories appear in both, matched by their address. A check for near-identical headlines found no other copy of the same story; syndicated copies are noted on their record. Counts on this page say whether they count the collection, the pilot or unique records.
 
-**Translation**: 18 of 32 pilot headlines are in a national language, each with the reviewer’s English translation, which the publisher has not authorised and a native speaker has not yet reviewed. Original titles are shown first, in their own script and direction.
+**Translation**: 18 of 32 pilot headlines are in a national language. Each has a working English translation that the publisher has not authorised and a speaker of the language has not yet reviewed. Original titles are shown first, in their own script and direction. [The translations to review (CSV)](https://beattheheat.asia/research/2026-11/media-rebuild/translation-review.csv). If you read one of these languages, you can [offer a review through the join form](https://beattheheat.asia/join/#join-form) (a Microsoft Forms page; see [Privacy](https://beattheheat.asia/privacy/)). A reviewed translation is credited in aggregate, as “reviewed by one speaker of the language”, with no names published.
+
+**Second coding**: The pilot was coded by one coder with AI assistance, so its codes stay provisional. [A protocol for a human second coder](https://beattheheat.asia/research/2026-10/media/pilot/second-coding-protocol.md) is proposed, not scheduled.
 
 Coding definitions
 
@@ -2285,7 +2357,7 @@ Coding definitions
 
 **Reporting trail states**: Described in the reviewed material; Explicitly reported as unknown; Not found in the reviewed material; Not assessed. These describe what the review found in the article, not what happened in the world. "Not found" means the reviewer did not find it in the text read, not that a journalist left something out or that an institution failed. "Not assessed" means the review did not look.
 
-The pilot's full codebook is not in the repository. The definitions above are taken from the codes and the evidence notes each record carries.
+The pilot's full codebook is not in the repository. The definitions above are taken from the codes and the evidence notes each record carries. [Working definitions, as applied in the pilot records](https://beattheheat.asia/research/2026-10/media/pilot/working-definitions-as-applied.md): written after coding from the codes and evidence notes, not the original codebook.
 
 About this reading, and what it is not
 

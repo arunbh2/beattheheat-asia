@@ -33,6 +33,10 @@
   "not_found": "Not found in the reviewed material",
   "not_assessed": "Not assessed"
  },
+ "link_check": {
+  "date": "2026-11-16",
+  "note": "Opened means the page answered an automated request; its content was not re-read."
+ },
  "records": [
   {
    "id": "id-health-warning-2026",
@@ -137,7 +141,12 @@
      "text": "No caution recorded.",
      "basis": null
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20261031214840/https://www.antaranews.com/berita/5801589/pakar-its-ingatkan-risiko-kesehatan-akibat-gelombang-panas"
+   }
   },
   {
    "id": "ph-work-advisory-2026",
@@ -240,7 +249,12 @@
      "text": "No caution recorded.",
      "basis": null
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20261116043906/https://www.gmanetwork.com/news/balitambayan/trending/1006565/matinding-init-puwede-bang-gamiting-dahilan-ng-manggagawa-para-di-pumasok-sa-trabaho/story/"
+   }
   },
   {
    "id": "kh-measured-factory-2026",
@@ -344,7 +358,12 @@
      "text": "On heat measures: Story’s terminology mixes wet-bulb and heat-index discussion; do not reuse it as WBGT guidance.",
      "basis": "reviewer's caution"
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20261005035316/https://mekongindependent.com/2026/10/heat-stress-growing-with-targets-strain-on-workers/"
+   }
   },
   {
    "id": "bd-wages-study-2026",
@@ -448,7 +467,12 @@
      "text": "No caution recorded.",
      "basis": null
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20260823082839/https://www.prothomalo.com/amp/story/bangladesh/kg2t6n67kw"
+   }
   },
   {
    "id": "my-chronic-heat-2026",
@@ -551,7 +575,12 @@
      "text": "No caution recorded.",
      "basis": null
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "opened",
+    "archive": ""
+   }
   },
   {
    "id": "vn-social-protection-2026",
@@ -655,7 +684,12 @@
      "text": "No caution recorded.",
      "basis": null
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20260626095632/https://www.vietnamplus.vn/nang-nong-cuc-doan-thach-thuc-an-sinh-xa-hoi-moi-doi-voi-nguoi-lao-dong-post1120365.vnp"
+   }
   },
   {
    "id": "np-kathmandu-2026",
@@ -758,7 +792,12 @@
      "text": "No caution recorded.",
      "basis": null
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20260609220458/https://kathmandupost.com/money/2026/05/28/adverse-weather-adds-to-informal-workers-stress-in-kathmandu"
+   }
   },
   {
    "id": "np-households-2026",
@@ -862,7 +901,12 @@
      "text": "No caution recorded.",
      "basis": null
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "limited",
+    "archive": "https://web.archive.org/web/20260722064045/https://ekantipur.com/news/2026/05/27/the-heat-wave-reaches-the-poors-stove-00-04.html"
+   }
   },
   {
    "id": "kh-informal-finance-2026",
@@ -965,7 +1009,12 @@
      "text": "No caution recorded.",
      "basis": null
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20260525230615/https://cambodianess.com/article/extreme-heat-leaves-cambodias-informal-workers-exposed-without-financial-protection"
+   }
   },
   {
    "id": "np-warning-2026",
@@ -1067,7 +1116,12 @@
      "text": "No caution recorded.",
      "basis": null
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "limited",
+    "archive": "https://web.archive.org/web/20260719140856/https://ekantipur.com/news/2026/05/23/hot-winds-increasing-risk-to-public-life-in-western-nepal-47-56.html"
+   }
   },
   {
    "id": "in-insurance-design-2026",
@@ -1170,7 +1224,12 @@
      "text": "No caution recorded.",
      "basis": null
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20260627224113/https://www.downtoearth.org.in/climate-change/can-parametric-insurance-really-put-a-price-on-extreme-heat-and-protect-indias-informal-workers-from-its-growing-economic-toll"
+   }
   },
   {
    "id": "kh-factory-enforcement-2026",
@@ -1273,7 +1332,12 @@
      "text": "No caution recorded.",
      "basis": null
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20260316195608/https://cambodianess.com/article/unionists-demand-action-as-factory-extreme-heat-drives-workers-to-collapse"
+   }
   },
   {
    "id": "b28",
@@ -1315,7 +1379,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "limited",
+    "archive": ""
+   }
   },
   {
    "id": "b29",
@@ -1357,7 +1426,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "limited",
+    "archive": ""
+   }
   },
   {
    "id": "b00",
@@ -1400,7 +1474,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": ""
+   }
   },
   {
    "id": "b01",
@@ -1442,7 +1521,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20260519160421/https://economictimes.indiatimes.com/industry/energy/power/india-is-blocking-a-cheap-way-to-beat-the-heat-wave-one-tweak-in-ac-can-lower-costs/articleshow/130743913.cms"
+   }
   },
   {
    "id": "b30",
@@ -1484,7 +1568,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "limited",
+    "archive": ""
+   }
   },
   {
    "id": "b31",
@@ -1526,7 +1615,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20260327031630/https://www.hindustantimes.com/india-news/extreme-heat-to-test-india-s-power-and-water-supply-this-summer-101774575097062-amp.html"
+   }
   },
   {
    "id": "b32",
@@ -1568,7 +1662,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": ""
+   }
   },
   {
    "id": "b33",
@@ -1610,7 +1709,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": ""
+   }
   },
   {
    "id": "b34",
@@ -1652,7 +1756,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": ""
+   }
   },
   {
    "id": "b11",
@@ -1694,7 +1803,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20260922034732/https://www.straitstimes.com/world/asia-faces-major-risks-of-extreme-weather-conditions-from-super-el-nino-insurer-says"
+   }
   },
   {
    "id": "b12",
@@ -1737,7 +1851,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20260927055249/https://www.straitstimes.com/asia/el-ninos-wrath-brace-yourself-for-impact"
+   }
   },
   {
    "id": "b13",
@@ -1779,7 +1898,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": ""
+   }
   },
   {
    "id": "b14",
@@ -1821,7 +1945,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20260420100643/https://www.straitstimes.com/singapore/environment/how-can-singapore-beat-the-heat-and-high-electricity-prices-without-aircon"
+   }
   },
   {
    "id": "id-garment-adaptation-2025",
@@ -1924,7 +2053,12 @@
      "text": "The author's role: Author identifies himself as CEO of CARE Indonesia; programme descriptions are attributed practitioner claims.",
      "basis": "reviewer's caution"
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20260205035451/https://m.antaranews.com/amp/berita/5297722/adaptasi-iklim-melindungi-perempuan-menjaga-produktivitas-nasional"
+   }
   },
   {
    "id": "in-insurance-followup-2025",
@@ -2028,7 +2162,12 @@
      "text": "On figures: Reported premiums and payouts require programme documentation before reuse as independent impact evidence. Funding of the article: Publisher says feature supported by Open Society Foundations.",
      "basis": "reviewer's caution"
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20260627032023/https://www.ipsnews.net/2025/06/rising-temperatures-rising-inequalities-how-a-new-insurance-protects-indias-poorest-women/"
+   }
   },
   {
    "id": "th-outdoor-rights-2025",
@@ -2130,7 +2269,12 @@
      "text": "On the law: Headline/legal gap recorded as article framing; not a current legal conclusion from this review.",
      "basis": "reviewer's caution"
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20260309113633/https://policywatch.thaipbs.or.th/article/environment-48"
+   }
   },
   {
    "id": "b35",
@@ -2172,7 +2316,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "limited",
+    "archive": ""
+   }
   },
   {
    "id": "b36",
@@ -2214,7 +2363,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20260806162535/https://www.channelnewsasia.com/today/big-read/climate-change-rising-heat-resilience-adaptation-5319426"
+   }
   },
   {
    "id": "b02",
@@ -2257,7 +2411,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20251202134628/https://www.channelnewsasia.com/commentary/global-warming-heatwave-energy-air-con-breaking-5296471"
+   }
   },
   {
    "id": "b37",
@@ -2299,7 +2458,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "limited",
+    "archive": ""
+   }
   },
   {
    "id": "b15",
@@ -2341,7 +2505,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20251113224426/https://www.straitstimes.com/singapore/early-action-plans-for-heat-a-priority-for-red-cross-and-red-crescent-network"
+   }
   },
   {
    "id": "b16",
@@ -2383,7 +2552,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20250909133456/https://www.straitstimes.com/singapore/environment/how-we-can-beat-the-heat-in-singapore"
+   }
   },
   {
    "id": "b17",
@@ -2426,7 +2600,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20260329173603/https://www.straitstimes.com/world/paris-agreement-dials-down-climate-risks-but-danger-from-heat-is-growing"
+   }
   },
   {
    "id": "b18",
@@ -2468,7 +2647,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20251113232459/https://www.straitstimes.com/singapore/environment/red-alert-why-is-the-red-cross-so-concerned-about-heat-in-the-asia-pacific"
+   }
   },
   {
    "id": "b38",
@@ -2510,7 +2694,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "limited",
+    "archive": "https://web.archive.org/web/20250723232351/https://asianews.network/degrees-of-danger-beating-the-heat-in-southeast-asia/"
+   }
   },
   {
    "id": "kh-cool-season-2024",
@@ -2614,7 +2803,12 @@
      "text": "On health advice: A participant’s shower belief is not reproduced as health guidance.",
      "basis": "reviewer's caution"
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20241223052516/https://cambodianess.com/article/cambodia-its-cooler-now-but-locals-worry-about-the-heatwaves-ahead"
+   }
   },
   {
    "id": "mm-power-workers-2024",
@@ -2718,7 +2912,12 @@
      "text": "No caution recorded.",
      "basis": null
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20260422023752/https://www.rfa.org/english/myanmar/2024/11/27/myanmar-energy-crisis/"
+   }
   },
   {
    "id": "my-workplace-law-2024",
@@ -2820,7 +3019,12 @@
      "text": "No caution recorded.",
      "basis": null
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20240702204922/https://www.astroawani.com/berita-malaysia/majikan-pekerja-perlu-ambil-langkah-keselamatan-hadapi-perubahan-cuaca-477284"
+   }
   },
   {
    "id": "np-poverty-2024",
@@ -2924,7 +3128,12 @@
      "text": "No caution recorded.",
      "basis": null
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "limited",
+    "archive": "https://web.archive.org/web/20240825084518/https://ekantipur.com/news/2024/06/01/the-maximum-temperature-is-43-degrees-but-what-is-the-heat-for-the-poor-57-49.html"
+   }
   },
   {
    "id": "mm-deaths-2024",
@@ -3027,7 +3236,12 @@
      "text": "No caution recorded.",
      "basis": null
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20251207043627/https://www.rfa.org/english/news/myanmar/myanmar-heat-05202024065347.html"
+   }
   },
   {
    "id": "region-attribution-2024",
@@ -3140,7 +3354,12 @@
      "text": "No caution recorded.",
      "basis": null
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20250418044716/https://interaksyon.philstar.com/politics-issues/2024/05/15/275525/asias-extreme-april-heat-worsened-by-climate-change-scientists-say/"
+   }
   },
   {
    "id": "pk-karachi-roles-2024",
@@ -3244,7 +3463,12 @@
      "text": "No caution recorded.",
      "basis": null
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "limited",
+    "archive": ""
+   }
   },
   {
    "id": "kh-school-2024",
@@ -3346,7 +3570,12 @@
      "text": "No caution recorded.",
      "basis": null
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20240723182542/https://www.cambodianess.com/article/classes-cut-short-in-scorching-heat"
+   }
   },
   {
    "id": "ph-labour-day-2024",
@@ -3448,7 +3677,12 @@
      "text": "No caution recorded.",
      "basis": null
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20251113231045/https://manilatoday.net/labor-day-2024-ipagtanggol-ang-kabuhayan-panawagan-ng-mga-manggagawa/"
+   }
   },
   {
    "id": "my-risk-review-2024",
@@ -3550,7 +3784,12 @@
      "text": "No caution recorded.",
      "basis": null
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20250513042751/https://berita.rtm.gov.my/nasional/senarai-berita-nasional/senarai-artikel/penilaian-risiko-di-tempat-kerja-perlu-disemak-semula-misha"
+   }
   },
   {
    "id": "vn-data-2024",
@@ -3651,7 +3890,12 @@
      "text": "No caution recorded.",
      "basis": null
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20250408234718/https://vnexpress.net/chuoi-ngay-nang-nong-dai-ky-luc-o-sai-gon-4739003.html"
+   }
   },
   {
    "id": "la-schools-2024",
@@ -3753,7 +3997,12 @@
      "text": "No caution recorded.",
      "basis": null
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20260617194003/https://laotiantimes.com/2024/04/26/lao-government-advises-heat-safety-measures-for-schools-amid-sweltering-temperatures/"
+   }
   },
   {
    "id": "mm-water-power-2024",
@@ -3856,7 +4105,12 @@
      "text": "No caution recorded.",
      "basis": null
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "limited",
+    "archive": "https://web.archive.org/web/20240423054409/https://elevenmyanmar.com/news/heatwave-and-power-outages-intensify-water-woes-in-thaton-and-surrounding-areas"
+   }
   },
   {
    "id": "lk-school-reminder-2024",
@@ -3958,7 +4212,12 @@
      "text": "No caution recorded.",
      "basis": null
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "opened",
+    "archive": ""
+   }
   },
   {
    "id": "lk-school-directive-2024",
@@ -4060,7 +4319,12 @@
      "text": "No caution recorded.",
      "basis": null
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "opened",
+    "archive": ""
+   }
   },
   {
    "id": "vn-street-work-2024",
@@ -4162,7 +4426,12 @@
      "text": "No caution recorded.",
      "basis": null
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "opened",
+    "archive": ""
+   }
   },
   {
    "id": "b39",
@@ -4204,7 +4473,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20260420230236/https://www.aljazeera.com/features/2024/7/4/im-in-hell-how-rising-heat-is-amplifying-indias-social-divides"
+   }
   },
   {
    "id": "b40",
@@ -4246,7 +4520,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20260811133149/https://www.aljazeera.com/news/2024/5/14/india-election-will-a-forty-five-degree-heat-wave-affect-who-voters-choose"
+   }
   },
   {
    "id": "b41",
@@ -4288,7 +4567,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20261029055308/https://www.aljazeera.com/news/2024/6/15/working-in-hellfire-gig-workers-bear-the-brunt-of-indias-heatwave"
+   }
   },
   {
    "id": "b42",
@@ -4330,7 +4614,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "limited",
+    "archive": ""
+   }
   },
   {
    "id": "b43",
@@ -4372,7 +4661,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "limited",
+    "archive": ""
+   }
   },
   {
    "id": "b44",
@@ -4415,7 +4709,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "limited",
+    "archive": ""
+   }
   },
   {
    "id": "b45",
@@ -4458,7 +4757,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "limited",
+    "archive": ""
+   }
   },
   {
    "id": "b46",
@@ -4501,7 +4805,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": ""
+   }
   },
   {
    "id": "b03",
@@ -4543,7 +4852,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20250512051239/https://www.channelnewsasia.com/commentary/india-hot-weather-heatstroke-deaths-unlivable-election-modi-bjp-4376916"
+   }
   },
   {
    "id": "b47",
@@ -4586,7 +4900,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "limited",
+    "archive": ""
+   }
   },
   {
    "id": "b48",
@@ -4628,7 +4947,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20250725091635/https://www.lemonde.fr/en/environment/article/2024/04/23/southeast-asia-hit-by-extreme-heat-wave_6669258_114.html"
+   }
   },
   {
    "id": "b04",
@@ -4670,7 +4994,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "limited",
+    "archive": ""
+   }
   },
   {
    "id": "b49",
@@ -4712,7 +5041,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "limited",
+    "archive": ""
+   }
   },
   {
    "id": "b50",
@@ -4754,7 +5088,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "limited",
+    "archive": "https://web.archive.org/web/20240528073813/https://www.reuters.com/world/india/indias-heat-delhi-labourers-toil-red-hot-conditions-2024-05-23/"
+   }
   },
   {
    "id": "b51",
@@ -4797,7 +5136,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "limited",
+    "archive": "https://web.archive.org/web/20240610171553/https://www.reuters.com/world/india/scorching-heatwave-indias-rajasthan-kills-nine-2024-05-24/"
+   }
   },
   {
    "id": "b53",
@@ -4839,7 +5183,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20240429105502/https://theprint.in/world/heat-wave-in-southeast-asia-closes-schools-triggers-health-alerts/2061903/"
+   }
   },
   {
    "id": "b54",
@@ -4881,7 +5230,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "limited",
+    "archive": "https://web.archive.org/web/20251006142458/https://www.scmp.com/week-asia/health-environment/article/3261584/southeast-asias-brutal-heatwave-daily-life-and-agriculture-endangered-rising-temperatures"
+   }
   },
   {
    "id": "b55",
@@ -4923,7 +5277,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": ""
+   }
   },
   {
    "id": "b56",
@@ -4965,7 +5324,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": ""
+   }
   },
   {
    "id": "b57",
@@ -5007,7 +5371,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": ""
+   }
   },
   {
    "id": "b58",
@@ -5051,7 +5420,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": ""
+   }
   },
   {
    "id": "b19",
@@ -5093,7 +5467,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20260614014916/https://www.straitstimes.com/singapore/can-outdoor-workers-in-singapore-beat-the-heat"
+   }
   },
   {
    "id": "b20",
@@ -5136,7 +5515,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20251111023258/https://www.straitstimes.com/opinion/keeping-your-cool-is-going-to-get-tougher-in-the-tropics"
+   }
   },
   {
    "id": "b21",
@@ -5178,7 +5562,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20260214060352/https://www.straitstimes.com/singapore/mentally-you-just-have-to-push-through-delivery-riders-endure-longer-hours-hotter-days"
+   }
   },
   {
    "id": "b22",
@@ -5220,7 +5609,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": ""
+   }
   },
   {
    "id": "b23",
@@ -5263,7 +5657,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20260611044753/https://www.straitstimes.com/world/the-human-body-versus-scorching-heat-which-will-win-the-race"
+   }
   },
   {
    "id": "b24",
@@ -5305,7 +5704,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20260420040918/https://www.straitstimes.com/singapore/too-hot-to-handle-rising-temperatures-pose-growing-risk-for-port-workers"
+   }
   },
   {
    "id": "b59",
@@ -5347,7 +5751,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "limited",
+    "archive": "https://web.archive.org/web/20250725074841/https://www.washingtonpost.com/world/2024/05/31/india-heat-deaths/"
+   }
   },
   {
    "id": "b60",
@@ -5390,7 +5799,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "limited",
+    "archive": "https://web.archive.org/web/20250724153217/https://www.washingtonpost.com/climate-solutions/interactive/2024/air-conditioning-humidity-hotter-summers-solutions/"
+   }
   },
   {
    "id": "b61",
@@ -5432,7 +5846,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "limited",
+    "archive": "https://web.archive.org/web/20250726224902/https://www.washingtonpost.com/weather/2024/04/30/southeast-asia-heat-india-thailand-philippines/"
+   }
   },
   {
    "id": "b62",
@@ -5474,7 +5893,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "limited",
+    "archive": "https://web.archive.org/web/20240620095842/https://www.washingtonpost.com/weather/2024/05/29/record-heat-delhi-india-climate-survival/"
+   }
   },
   {
    "id": "in-deaths-commentary-2023",
@@ -5580,7 +6004,12 @@
      "text": "Scope: China and COVID examples are comparisons; India remains country focus.",
      "basis": "reviewer's caution"
     }
-   ]
+   ],
+   "assessed": "full text, provisional coding",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20260812034408/https://www.channelnewsasia.com/commentary/india-deadly-heatwave-extreme-weather-climate-change-healthcare-3579621"
+   }
   },
   {
    "id": "b05",
@@ -5622,7 +6051,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": ""
+   }
   },
   {
    "id": "b07",
@@ -5664,7 +6098,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "limited",
+    "archive": "https://web.archive.org/web/20240822121446/https://www.ndtv.com/opinion/india-is-encouraging-the-heatwaves-that-will-cripple-it-3937443/amp/1"
+   }
   },
   {
    "id": "b08",
@@ -5707,7 +6146,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "limited",
+    "archive": ""
+   }
   },
   {
    "id": "b63",
@@ -5749,7 +6193,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": ""
+   }
   },
   {
    "id": "b64",
@@ -5791,7 +6240,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": ""
+   }
   },
   {
    "id": "b65",
@@ -5834,7 +6288,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": ""
+   }
   },
   {
    "id": "b25",
@@ -5876,7 +6335,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20251108105412/https://www.straitstimes.com/singapore/it-s-getting-hot-in-singapore-but-how-hot"
+   }
   },
   {
    "id": "b66",
@@ -5919,7 +6383,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "limited",
+    "archive": ""
+   }
   },
   {
    "id": "b67",
@@ -5961,7 +6430,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "limited",
+    "archive": "https://web.archive.org/web/20250724120835/https://www.washingtonpost.com/climate-environment/interactive/2023/india-deadly-extreme-heat-poverty/"
+   }
   },
   {
    "id": "b09",
@@ -6004,7 +6478,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "limited",
+    "archive": "https://web.archive.org/web/20250505102021/https://www.ndtv.com/opinion/indias-heatwaves-are-testing-the-limits-of-human-survival-2943822"
+   }
   },
   {
    "id": "b10",
@@ -6047,7 +6526,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "limited",
+    "archive": ""
+   }
   },
   {
    "id": "b68",
@@ -6089,7 +6573,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": ""
+   }
   },
   {
    "id": "b26",
@@ -6131,7 +6620,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20221130014006/https://www.straitstimes.com/asia/east-asia/east-asia-faces-increase-in-heatwaves-urgent-need-to-adapt-study-finds"
+   }
   },
   {
    "id": "b69",
@@ -6173,7 +6667,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "limited",
+    "archive": "https://web.archive.org/web/20230329110532/https://www.washingtonpost.com/world/2022/05/09/india-heat-wave-climate-change/"
+   }
   },
   {
    "id": "b70",
@@ -6215,7 +6714,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "limited",
+    "archive": "https://web.archive.org/web/20250722225809/https://www.washingtonpost.com/world/interactive/2022/india-extreme-heat-climate-change/"
+   }
   },
   {
    "id": "b27",
@@ -6258,7 +6762,12 @@
    "syndication": null,
    "checked": null,
    "exemplar": false,
-   "trail": null
+   "trail": null,
+   "assessed": "listing depth: content not assessed",
+   "link": {
+    "st": "opened",
+    "archive": "https://web.archive.org/web/20260216001018/https://www.straitstimes.com/world/too-hot-to-handle-heatwaves-cause-death-and-destruction-in-northern-hemisphere"
+   }
   }
  ]
 }

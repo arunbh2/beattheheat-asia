@@ -24,8 +24,8 @@
   "changed": "2026-11-15"
  },
  "/approach/": {
-  "hash": "63876495ead07525",
-  "changed": "2026-11-13"
+  "hash": "2040a696148f5f12",
+  "changed": "2026-11-16"
  },
  "/atlas/": {
   "hash": "4de8675d65ddeb61",
@@ -196,7 +196,7 @@
   "changed": "2026-11-13"
  },
  "/for-ai/": {
-  "hash": "72e412e6f7678c28",
+  "hash": "8c11a8d1dbdae0f3",
   "changed": "2026-11-16"
  },
  "/fund/": {
@@ -208,7 +208,7 @@
   "changed": "2026-11-07"
  },
  "/growing/": {
-  "hash": "b1ac2a2d97bf432e",
+  "hash": "707c156813bf2ee8",
   "changed": "2026-11-16"
  },
  "/guide/": {
@@ -240,7 +240,7 @@
   "changed": "2026-11-06"
  },
  "/heat-network/": {
-  "hash": "842ef9fcd66bee79",
+  "hash": "9359dac7b563c81b",
   "changed": "2026-11-16"
  },
  "/heat-tools/": {
@@ -336,7 +336,7 @@
   "changed": "2026-11-06"
  },
  "/how-heat-is-reported/": {
-  "hash": "74834331e48bd314",
+  "hash": "10da5779522e4738",
   "changed": "2026-11-16"
  },
  "/intersections/": {
@@ -620,7 +620,7 @@
   "changed": "2026-11-06"
  },
  "/sources/": {
-  "hash": "996f0250cdcb7334",
+  "hash": "f33808705f2be619",
   "changed": "2026-11-16"
  },
  "/the-web/": {

@@ -62,5 +62,18 @@ const csv = read("how-heat-is-reported/records.csv").trim().split("\n"); ok(csv.
 const J = JSON.parse(read("how-heat-is-reported/records.json") || "{}"); ok(J.records && J.records.length === S.unique, "records.json holds every unique record");
 ok(read("how-heat-is-reported/extreme-heat-journalism-2018-2026.csv") === read("research/2026-10/media/extreme-heat-journalism-2018-2026.csv"), "the collection CSV download matches its source");
 ok(read("llms.txt").includes(`how ${S.unique} news articles`), "llms.txt states the record count from the records");
+// ---- the gaps, made visible ----
+const WD = read("research/2026-10/media/pilot/working-definitions-as-applied.md");
+ok(/^# Working definitions, as applied in the pilot records/.test(WD) && /original codebook was not available/.test(WD), "working-definitions-as-applied.md is built and says it is not the original codebook");
+for (const f of ["missing_middle", "followup", "voice_of_affected", "informal_work", "gender_or_care", "loop_ids", "format"]) ok(WD.includes("(`" + f + "`)"), `working definitions: a section for ${f}, a code shown on the page`);
+for (const p of P) for (const e of (p.notes.evidence || [])) if (/[A-Z][a-z]+, [A-Z][a-z]+/.test(e.location || "")) ok(!WD.includes(e.location), `working definitions: passage location of ${p.id} left out (it can name people)`);
+ok(/proposed, not scheduled/i.test(read("research/2026-10/media/pilot/second-coding-protocol.md")), "second-coding-protocol.md exists and says it is proposed, not scheduled");
+const TR = read("research/2026-11/media-rebuild/translation-review.csv").trim().split("\n"); ok(TR.length - 1 === S.pTranslated, `translation-review.csv lists the ${S.pTranslated} translated headlines`);
+ok(!/native-language review pending/.test(html) && (html.match(/Working translation, not yet reviewed by a speaker of /g) || []).length >= S.pTranslated, "page: translated titles say they are not yet reviewed by a speaker of the language");
+const LS = read("research/2026-11/media-rebuild/link-status.json");
+if (LS) { const L = JSON.parse(LS); ok(R.every(r => L[r.url]), "link check: every record's URL has a result"); ok(/id="links-checked">Links last checked automatically on /.test(html) && !/\bverified\b/i.test((html.match(/id="links-checked">[^<]*/) || [""])[0]), "page: states when links were last checked, as opened, never verified"); }
+ok(csv.slice(1).filter(l => /Not assessed/.test(l)).length >= S.unique - S.pilot, "records.csv says \"Not assessed\" for records read at listing depth, rather than leaving blanks");
+ok(/drafted with AI assistance and reviewed by the site’s maintainer: suggestions, not findings/.test(html), "page: the question kit says it was drafted with AI and reviewed, as suggestions");
+ok(/Helps code news articles/.test(read("tools/ai-use-text.js")), "How AI is used covers the AI-assisted coding of the pilot");
 if (fails.length) { console.log(fails.map(f => "  FAIL " + f).join("\n")); process.exit(1); }
 console.log(`how heat is reported check passed: ${S.unique} unique records (${S.collection} + ${S.pilot}, ${S.both} in both), comparisons quote their records, kit links resolve, page figures match, downloads complete`);

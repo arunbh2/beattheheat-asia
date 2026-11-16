@@ -5,7 +5,7 @@ updated: 2026-11-16
 licence: CC BY 4.0
 ---
 
-> Every paper, report, dataset and organisation cited on Common Shade, in one list you can search: 2323 sources, each with where it is used on the site.
+> Every paper, report, dataset and organisation cited on Common Shade, in one list you can search: 2340 sources, each with where it is used on the site.
 
 Where does every claim come from?
 
@@ -28,13 +28,19 @@ Every claim on Common Shade links to its source. Each entry below shows who publ
 
 Every headline and new paper that has appeared on Heat in the news, newest first. The live page shows the latest two weeks of news and four months of research; this list keeps them all. Headlines are the outlets’ own; listing one is not an endorsement of its framing.
 
-- [Pre-monsoon heatwave trends and ENSO-dryness associations in Rajshahi, Bangladesh](https://doi.org/10.21203/rs.3.rs-11397313/v1)Pranto FS et al. · Preprint · preprint · 13 Nov 2026 · doi.orgUsed on: Heat in the news: new research
+- [Climate-linked heat deaths rise 36% since Paris Agreement](https://www.hindustantimes.com/india-news/climatelinked-heat-deaths-rise-36-since-paris-agreement-india-also-affected-lancet-101793153952423.html)Hindustan Times · India · 28 Oct 2026 · hindustantimes.comUsed on: Heat in the news: headlines · Lancet Countdown 2026, in plain language
+
+- [India among top countries with highest heatwave exposure for infants, older adults](https://www.thehindu.com/sci-tech/energy-and-environment/india-among-top-countries-with-highest-heatwave-exposure-for-infants-older-adults-report/article71634194.ece)The Hindu · India · 28 Oct 2026 · thehindu.comUsed on: Heat in the news: headlines · Lancet Countdown 2026, in plain language
+
+- [Data-driven estimation of the onset of heat-related mortality in five Indian cities](https://doi.org/10.64898/2026.11.08.26367540)Robles Fontan MM et al. · Preprint · preprint · 10 Nov 2026 · doi.orgUsed on: Heat in the news: new research
 
 - [Decoupling of cryogenic N 2 porosity and ambient-temperature CO 2 uptake in PVA-GTMAC-functionalized biomass carbon](https://doi.org/10.1039/d6ra08327g)Ngo HL et al. · RSC advances · 13 Nov 2026 · doi.orgUsed on: Heat in the news: new research
 
-- [Dangerous heat index grips 9 areas on Thursday](https://newsinfo.inquirer.net/2340468/dangerous-heat-index-grips-9-areas-on-thursday)Inquirer · Philippines · 12 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
+- [Heat index in parts of Eastern Visayas expected to increase](https://newsinfo.inquirer.net/2341684/heat-index-in-parts-of-eastern-visayas-expected-to-increase)Inquirer · Philippines · 15 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
-- [Data-driven estimation of the onset of heat-related mortality in five Indian cities](https://doi.org/10.64898/2026.11.08.26367540)Robles Fontan MM et al. · Preprint · preprint · 10 Nov 2026 · doi.orgUsed on: Heat in the news: new research
+- [Pre-monsoon heatwave trends and ENSO-dryness associations in Rajshahi, Bangladesh](https://doi.org/10.21203/rs.3.rs-11397313/v1)Pranto FS et al. · Preprint · preprint · 13 Nov 2026 · doi.orgUsed on: Heat in the news: new research
+
+- [Dangerous heat index grips 9 areas on Thursday](https://newsinfo.inquirer.net/2340468/dangerous-heat-index-grips-9-areas-on-thursday)Inquirer · Philippines · 12 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
 - [Heat index hits 42°C in Coron, Palawan and Borongan, Eastern Samar](https://newsinfo.inquirer.net/2338572/heat-index-hits-42c-in-coron-palawan-and-borongan-eastern-samar)Inquirer · Philippines · 9 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
@@ -46,17 +52,17 @@ Every headline and new paper that has appeared on Heat in the news, newest first
 
 - [Extreme heat is creating a workplace health crisis in Bangladesh’s garment industry](https://news.mongabay.com/short-article/2026/11/extreme-heat-is-creating-a-workplace-health-crisis-in-bangladeshs-garment-industry/)Mongabay · Bangladesh · 6 Nov 2026 · news.mongabay.comUsed on: Heat in the news: headlines
 
-- [Climate-linked heat deaths rise 36% since Paris Agreement](https://www.hindustantimes.com/india-news/climatelinked-heat-deaths-rise-36-since-paris-agreement-india-also-affected-lancet-101793153952423.html)Hindustan Times · India · 28 Oct 2026 · hindustantimes.comUsed on: Heat in the news: headlines · Lancet Countdown 2026, in plain language
-
-- [India among top countries with highest heatwave exposure for infants, older adults](https://www.thehindu.com/sci-tech/energy-and-environment/india-among-top-countries-with-highest-heatwave-exposure-for-infants-older-adults-report/article71634194.ece)The Hindu · India · 28 Oct 2026 · thehindu.comUsed on: Heat in the news: headlines · Lancet Countdown 2026, in plain language
-
-- [Three-way circulation-soil moisture-temperature feedbacks amplify the most extreme mid-latitudinal heat waves](https://doi.org/10.1126/sciadv.aeh9111)Tian Y et al. · Science advances · 6 Nov 2026 · doi.orgUsed on: Heat in the news: new research
-
 - [Dangerous heat index expected in 3 areas on Friday – Pagasa](https://newsinfo.inquirer.net/2336795/dangerous-heat-index-expected-in-3-areas-on-friday-pagasa)Inquirer · Philippines · 5 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
-- [Heat index in parts of Eastern Visayas expected to increase](https://newsinfo.inquirer.net/2341684/heat-index-in-parts-of-eastern-visayas-expected-to-increase)Inquirer · Philippines · 15 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
+- [Butuan experiences scorching 42-45°C heat index for second straight day](https://newsinfo.inquirer.net/2336102/butuan-experiences-scorching-42-45c-heat-index-for-second-straight-day)Inquirer · Philippines · 4 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
-- [Walang Pasok: Class suspensions on Friday (Nov. 6) due to high heat index](https://newsinfo.inquirer.net/2336740/walang-pasok-class-suspensions-on-friday-nov-6-due-to-high-heat-index)Inquirer · Philippines · 5 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
+- [44°C heat index recorded in 3 areas on Monday, Nov. 2](https://newsinfo.inquirer.net/2334943/44c-heat-index-recorded-in-3-areas-on-nov-2)Inquirer · Philippines · 2 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
+
+- [Afternoon rains, high heat index forecast for ‘Undas’ in Mindanao](https://newsinfo.inquirer.net/2333512/afternoon-rains-high-heat-index-forecast-for-undas-in-mindanao)Inquirer · Philippines · 31 Oct 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
+
+- [Puerto Princesa heat index to hit 45°C Monday](https://newsinfo.inquirer.net/2341794/puerto-princesa-heat-index-to-hit-45c-monday)Inquirer · Philippines · 15 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
+
+- [Three-way circulation-soil moisture-temperature feedbacks amplify the most extreme mid-latitudinal heat waves](https://doi.org/10.1126/sciadv.aeh9111)Tian Y et al. · Science advances · 6 Nov 2026 · doi.orgUsed on: Heat in the news: new research
 
 - [Recent extreme heatwaves are no match for future events](https://doi.org/10.1038/s41467-026-76809-5)Aglas-Leitner P et al. · Nature communications · 5 Nov 2026 · doi.orgUsed on: Heat in the news: new research
 
@@ -64,19 +70,17 @@ Every headline and new paper that has appeared on Heat in the news, newest first
 
 - [WALANG PASOK: Class suspensions on Thursday due to high heat index](https://newsinfo.inquirer.net/2336167/walang-pasok-class-suspensions-on-thursday-due-to-high-heat-index)Inquirer · Philippines · 4 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
-- [Butuan experiences scorching 42-45°C heat index for second straight day](https://newsinfo.inquirer.net/2336102/butuan-experiences-scorching-42-45c-heat-index-for-second-straight-day)Inquirer · Philippines · 4 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
-
-- [44°C heat index recorded in 3 areas on Monday, Nov. 2](https://newsinfo.inquirer.net/2334943/44c-heat-index-recorded-in-3-areas-on-nov-2)Inquirer · Philippines · 2 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
-
 - [500 years of May temperature variability in Balochistan reconstructed from Juniperus excelsa tree rings: heat stress, growth-collapse extremes, and implications for an endangered relict forest](https://doi.org/10.21203/rs.3.rs-10746072/v1)Majeed M et al. · Preprint · preprint · 2 Nov 2026 · doi.orgUsed on: Heat in the news: new research
 
 - [Heat-Related Illnesses in India: Focus on Fluid-Electrolyte Management](https://europepmc.org/article/PMC/PMC13722842)Kalra S et al. · Cureus · 1 Nov 2026 · europepmc.orgUsed on: Heat in the news: new research
 
+- [Rising heat takes toll on Bangladesh’s garment workers](https://www.eco-business.com/news/rising-heat-takes-toll-on-bangladeshs-garment-workers/)Eco-Business · Bangladesh · 25 Oct 2026 · eco-business.comUsed on: Heat in the news: headlines
+
+- [Walang Pasok: Class suspensions on Friday (Nov. 6) due to high heat index](https://newsinfo.inquirer.net/2336740/walang-pasok-class-suspensions-on-friday-nov-6-due-to-high-heat-index)Inquirer · Philippines · 5 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
+
 - [Human Adaptation to Daytime Heat and Associated Heat-Related Symptoms Among Women](https://doi.org/10.1002/ajhb.70375)Hussain S et al. · American journal of human biology : the official journal of the Human Biology Council · 1 Nov 2026 · doi.orgUsed on: Heat in the news: new research
 
 - [Heat stress and coping strategies among older adults in 3 Sunbelt cities in the United States](https://doi.org/10.1093/gerona/glag239)Dassah C et al. · The journals of gerontology. Series A, Biological sciences and medical sciences · 1 Nov 2026 · doi.orgUsed on: Heat in the news: new research
-
-- [Afternoon rains, high heat index forecast for ‘Undas’ in Mindanao](https://newsinfo.inquirer.net/2333512/afternoon-rains-high-heat-index-forecast-for-undas-in-mindanao)Inquirer · Philippines · 31 Oct 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
 - [Combining ability and heat-stress response in rice hybrids derived from mutation-derived M₆ lines](https://doi.org/10.1007/s13353-026-01126-y)Iqbal S et al. · Journal of applied genetics · 29 Oct 2026 · doi.orgUsed on: Heat in the news: new research
 
@@ -98,8 +102,6 @@ Every headline and new paper that has appeared on Heat in the news, newest first
 
 - [Genome-Wide Identification and In Silico Characterization of the Salt Overly Sensitive 3/Calcineurin B-like ( GhSOS3 ) Gene Family in Upland Cotton ( Gossypium hirsutum L.) and Expression Profiling of Two Members Under Drought, Salt and Heat Stress](https://doi.org/10.3390/ijms27219561)Iqra L et al. · International journal of molecular sciences · 26 Oct 2026 · doi.orgUsed on: Heat in the news: new research
 
-- [Rising heat takes toll on Bangladesh’s garment workers](https://www.eco-business.com/news/rising-heat-takes-toll-on-bangladeshs-garment-workers/)Eco-Business · Bangladesh · 25 Oct 2026 · eco-business.comUsed on: Heat in the news: headlines
-
 - [Heat stress intensification and workforce exposure over the Indian region](https://doi.org/10.1007/s11600-026-02062-5)AKANKSHA SINHA et al. · Acta Geophysica · 25 Oct 2026 · doi.orgUsed on: Heat in the news: new research
 
 - [Climate-induced extreme heat associated with suicide risk mediated by poor sleep and emotional dysregulation: A nationally representative panel study from Bangladesh](https://doi.org/10.1016/j.envres.2026.125991)Wahid SS et al. · Environmental research · 24 Oct 2026 · doi.orgUsed on: Heat in the news: new research
@@ -109,8 +111,6 @@ Every headline and new paper that has appeared on Heat in the news, newest first
 - [The Impact of Heatwave Exposure and Climate Change on Maternal Health and Pregnancy Outcomes: A Public Health Review](https://doi.org/10.69855/mgj.v3i3.887)Muhammad Iqbal et al. · Miracle Get Journal · 24 Oct 2026 · doi.orgUsed on: Heat in the news: new research
 
 - [Heat stress risks to dairy cattle welfare and milk production in Goiás, Brazil under high-resolution climate change scenarios](https://doi.org/10.1016/j.agsy.2026.105027)N.C.R. Ferreira et al. · Agricultural Systems · 23 Oct 2026 · doi.orgUsed on: Heat in the news: new research
-
-- [Puerto Princesa heat index to hit 45°C Monday](https://newsinfo.inquirer.net/2341794/puerto-princesa-heat-index-to-hit-45c-monday)Inquirer · Philippines · 15 Nov 2026 · newsinfo.inquirer.netUsed on: Heat in the news: headlines
 
 - [Extreme Heat and Food Price Inflation in The United Arab Emirates](https://doi.org/10.54878/3f34ax59)Advika Gupta et al. · Emirati Journal of Business Economics & Social Studies · 23 Oct 2026 · doi.orgUsed on: Heat in the news: new research
 
@@ -350,82 +350,6 @@ Every headline and new paper that has appeared on Heat in the news, newest first
 
 News articles on extreme heat in South and Southeast Asia, read on How heat is reported: 71 from a curated bibliography (2018 to 2026, newest first), then 32 from a pilot review in ten languages, each opened and checked in October 2026. Several are syndicated columns or wire stories. Headlines are the outlets’ own; listing one is not an endorsement of its framing.
 
-- [Climate-Driven Heat in India's Textile Factories Stifles Workers but Coolers and Ventilation Help](https://apnews.com/article/eab8494242ecfdc108e12685535a4df3)Associated Press · 2026 · apnews.comUsed on: How heat is reported
-
-- [What Living in One of the World's Hottest Towns Feels Like](https://apnews.com/article/d090f23b5b6a30fdde339a656e7ceddf)Associated Press · 2026 · apnews.comUsed on: How heat is reported
-
-- [Megacity Heatwaves Are Now a Fatal Nightmare](https://www.business-standard.com/world-news/why-rising-night-time-temperatures-pose-a-growing-risk-to-cities-126060300133_1.html)Business Standard / Bloomberg Opinion · 2026 · business-standard.comUsed on: How heat is reported
-
-- [India Is Blocking a Cheap Way to Beat the Heat Wave](https://economictimes.indiatimes.com/industry/energy/power/india-is-blocking-a-cheap-way-to-beat-the-heat-wave-one-tweak-in-ac-can-lower-costs/articleshow/130743913.cms)Economic Times / Bloomberg Opinion · 2026 · economictimes.indiatimes.comUsed on: How heat is reported
-
-- [India's Sweltering Nights Expose Power Crunch](https://www.ft.com/content/78774f5b-058e-4731-99a2-cc2710a457e5)Financial Times · 2026 · ft.comUsed on: How heat is reported
-
-- [Extreme Heat to Test India's Power and Water Supply This Summer](https://www.hindustantimes.com/india-news/extreme-heat-to-test-india-s-power-and-water-supply-this-summer-101774575097062-amp.html)Reuters / Hindustan Times · 2026 · hindustantimes.comUsed on: How heat is reported
-
-- [The Heat Took Him from Me: India's Death Toll Rises Amid Escalating Heat Crisis](https://www.theguardian.com/world/2026/jul/29/extreme-heat-deaths-india-climate-crisis-environment)The Guardian · 2026 · theguardian.comUsed on: How heat is reported
-
-- [When I Get Home, My Whole Body Aches: Extreme Heat Saps Health and Wages of India's Poorest Workers](https://www.theguardian.com/environment/2026/jul/20/extreme-heat-india-outdoor-workers-poverty)The Guardian · 2026 · theguardian.comUsed on: How heat is reported
-
-- [Laboring Under Delhi's Harsh Heat, Workers Must Choose Health or Wages](https://www.japantimes.co.jp/environment/2026/06/15/climate-change/delhi-heat-workers-health-wages/)The New York Times / Japan Times · 2026 · japantimes.co.jpUsed on: How heat is reported
-
-- [Asia Faces Major Risks of Extreme Weather Conditions from Super El Niño, Insurer Says](https://www.straitstimes.com/world/asia-faces-major-risks-of-extreme-weather-conditions-from-super-el-nino-insurer-says)The Straits Times · 2026 · straitstimes.comUsed on: How heat is reported
-
-- [El Niño's Wrath: Brace Yourself for Impact](https://www.straitstimes.com/asia/el-ninos-wrath-brace-yourself-for-impact/)The Straits Times · 2026 · straitstimes.comUsed on: How heat is reported
-
-- [Hotter, Hazier and Higher Food Prices: El Niño's Sting in the Tail Has Yet to Arrive](https://www.straitstimes.com/opinion/hotter-hazier-and-higher-food-prices-el-ninos-sting-in-the-tail-has-yet-to-arrive)The Straits Times · 2026 · straitstimes.comUsed on: How heat is reported
-
-- [How Can Singapore Beat the Heat and High Electricity Prices Without Aircon?](https://www.straitstimes.com/singapore/environment/how-can-singapore-beat-the-heat-and-high-electricity-prices-without-aircon)The Straits Times · 2026 · straitstimes.comUsed on: How heat is reported
-
-- [In One Indian City, Reflective Paint and Bus Stop Sprinklers Offer Relief from Killer Heat](https://apnews.com/article/937e51730d6962b05658b5e4a49abfa7)Associated Press · 2025 · apnews.comUsed on: How heat is reported
-
-- [From Fungi Tiles to S$400 Cooling Vests: How Can Singapore Keep Its Cool?](https://www.channelnewsasia.com/today/big-read/climate-change-rising-heat-resilience-adaptation-5319426)Channel NewsAsia · 2025 · channelnewsasia.comUsed on: How heat is reported
-
-- [Heatwaves and Jellyfish Are Causing the Grid to Wilt](https://www.channelnewsasia.com/commentary/global-warming-heatwave-energy-air-con-breaking-5296471)CNA / Bloomberg Opinion · 2025 · channelnewsasia.comUsed on: How heat is reported
-
-- [Majority of Indian Districts Face High Heatwave Risk, Study Shows](https://www.reuters.com/sustainability/climate-energy/majority-indian-districts-face-high-heatwave-risk-study-shows-2025-05-20/)Reuters · 2025 · reuters.comUsed on: How heat is reported
-
-- [Early Action Plans for Heat a Priority for Red Cross and Red Crescent Network](https://www.straitstimes.com/singapore/early-action-plans-for-heat-a-priority-for-red-cross-and-red-crescent-network)The Straits Times · 2025 · straitstimes.comUsed on: How heat is reported
-
-- [How We Can Beat the Heat in Singapore](https://www.straitstimes.com/singapore/environment/how-we-can-beat-the-heat-in-singapore)The Straits Times · 2025 · straitstimes.comUsed on: How heat is reported
-
-- [Paris Agreement Dials Down Climate Risks, but Danger from Heat Is Growing](https://www.straitstimes.com/world/paris-agreement-dials-down-climate-risks-but-danger-from-heat-is-growing)The Straits Times · 2025 · straitstimes.comUsed on: How heat is reported
-
-- [Red Alert! Majority in Asia-Pacific at Increasing Risk from Heatwaves](https://www.straitstimes.com/singapore/environment/red-alert-why-is-the-red-cross-so-concerned-about-heat-in-the-asia-pacific)The Straits Times · 2025 · straitstimes.comUsed on: How heat is reported
-
-- [Degrees of Danger: Beating the Heat in Southeast Asia](https://asianews.network/degrees-of-danger-beating-the-heat-in-southeast-asia/)The Straits Times / Asia News Network · 2025 · asianews.networkUsed on: How heat is reported
-
-- [I'm in Hell: How Rising Heat Is Amplifying India's Social Divides](https://www.aljazeera.com/features/2024/7/4/im-in-hell-how-rising-heat-is-amplifying-indias-social-divides)Al Jazeera · 2024 · aljazeera.comUsed on: How heat is reported
-
-- [Unbearable: Will 45C Heatwaves Affect Who India Chooses in Election?](https://www.aljazeera.com/news/2024/5/14/india-election-will-a-forty-five-degree-heat-wave-affect-who-voters-choose)Al Jazeera · 2024 · aljazeera.comUsed on: How heat is reported
-
-- [Working in Hellfire: Gig Workers Bear the Brunt of India's Heatwave](https://www.aljazeera.com/news/2024/6/15/working-in-hellfire-gig-workers-bear-the-brunt-of-indias-heatwave)Al Jazeera · 2024 · aljazeera.comUsed on: How heat is reported
-
-- [A Scorching Heat Wave Kills 14 in India Ahead of a Final Round of Election Voting](https://apnews.com/article/09f26a8b18628960952cf8ec9fc02fbe)Associated Press · 2024 · apnews.comUsed on: How heat is reported
-
-- [Extreme Heat in India Has Killed More Than 100 People in the Past Three and a Half Months](https://apnews.com/article/880f26e3b8eeb066d2db2308502783d2)Associated Press · 2024 · apnews.comUsed on: How heat is reported
-
-- [From Flooding in Brazil and Houston to Brutal Heat in Asia, Extreme Weather Seems Nearly Everywhere](https://apnews.com/article/e13a4a5f2c4de870269b36d5de570aa5)Associated Press · 2024 · apnews.comUsed on: How heat is reported
-
-- [Philippine Students Told to Stay Home as Southeast Asia Swelters in Prolonged Heat Wave](https://apnews.com/article/90fefbcae1e9a1de6faf108aa90cc076)Associated Press · 2024 · apnews.comUsed on: How heat is reported
-
-- [What Happens When It's Too Hot to Make Fashion?](https://businessoffashion-businessoffashion-prod.web.arc-cdn.net/articles/sustainability/fashion-sustainability-heatwave-asia-manufacturing-workers-rights/)Business of Fashion · 2024 · businessoffashion-businessoffashion-prod.web.arc-cdn.netUsed on: How heat is reported
-
-- [India's Scorching Heat Is Making It Unlivable](https://www.channelnewsasia.com/commentary/india-hot-weather-heatstroke-deaths-unlivable-election-modi-bjp-4376916)CNA / Bloomberg Opinion · 2024 · channelnewsasia.comUsed on: How heat is reported
-
-- [Learning to Live with 50C Temperatures](https://www.ft.com/content/d5a5bc1f-e225-4397-b99f-56c62b00366d)Financial Times · 2024 · ft.comUsed on: How heat is reported
-
-- [Southeast Asia Hit by Extreme Heat Wave](https://www.lemonde.fr/en/environment/article/2024/04/23/southeast-asia-hit-by-extreme-heat-wave_6669258_114.html)Le Monde · 2024 · lemonde.frUsed on: How heat is reported
-
-- [How Can India Hold Elections When It's Too Hot to Vote?](https://www.ndtvprofit.com/business/india-election-extreme-heat-is-keeping-voters-away-9995138)NDTV Profit / Bloomberg Opinion · 2024 · ndtvprofit.comUsed on: How heat is reported
-
-- [Heatwave Kills Dozens of Homeless in India's Capital, Group Says](https://www.reuters.com/world/india/heatwave-kills-dozens-indias-capital-reports-times-india-2024-06-20/)Reuters · 2024 · reuters.comUsed on: How heat is reported
-
-- [In India's Heat, Delhi Labourers Toil in Red Hot Conditions](https://www.reuters.com/world/india/indias-heat-delhi-labourers-toil-red-hot-conditions-2024-05-23/)Reuters · 2024 · reuters.comUsed on: How heat is reported
-
-- [South Asia Faces Extreme Weather with Heatwave in India, Cyclone in Bangladesh](https://www.reuters.com/world/india/scorching-heatwave-indias-rajasthan-kills-nine-2024-05-24/)Reuters · 2024 · reuters.comUsed on: How heat is reported
-
-- [Asia’s extreme April heat worsened by climate change, scientists say](https://interaksyon.philstar.com/politics-issues/2024/05/15/275525/asias-extreme-april-heat-worsened-by-climate-change-scientists-say/)Reuters / Philstar · 2024 · interaksyon.philstar.comUsed on: How heat is reported
-
 - [Heat Wave in Southeast Asia Closes Schools, Triggers Health Alerts](https://theprint.in/world/heat-wave-in-southeast-asia-closes-schools-triggers-health-alerts/2061903/)Reuters / ThePrint · 2024 · theprint.inUsed on: How heat is reported
 
 - [Southeast Asia's Brutal Heatwave: Daily Life and Agriculture Endangered](https://www.scmp.com/week-asia/health-environment/article/3261584/southeast-asias-brutal-heatwave-daily-life-and-agriculture-endangered-rising-temperatures)South China Morning Post · 2024 · scmp.comUsed on: How heat is reported
@@ -486,11 +410,43 @@ News articles on extreme heat in South and Southeast Asia, read on How heat is r
 
 - [East Asia Faces Increase in Heatwaves, Urgent Need to Adapt, Study Finds](https://www.straitstimes.com/asia/east-asia/east-asia-faces-increase-in-heatwaves-urgent-need-to-adapt-study-finds)The Straits Times · 2022 · straitstimes.comUsed on: How heat is reported
 
-- [India Tries to Adapt to Extreme Heat but Is Paying a Heavy Price](https://www.washingtonpost.com/world/2022/05/09/india-heat-wave-climate-change/)The Washington Post · 2022 · washingtonpost.comUsed on: How heat is reported
+- [Climate-Driven Heat in India's Textile Factories Stifles Workers but Coolers and Ventilation Help](https://apnews.com/article/eab8494242ecfdc108e12685535a4df3)Associated Press · 2026 · apnews.comUsed on: How heat is reported
 
-- [What It's Like to Toil in India's Dangerous, Unrelenting Heat](https://www.washingtonpost.com/world/interactive/2022/india-extreme-heat-climate-change/)The Washington Post · 2022 · washingtonpost.comUsed on: How heat is reported
+- [What Living in One of the World's Hottest Towns Feels Like](https://apnews.com/article/d090f23b5b6a30fdde339a656e7ceddf)Associated Press · 2026 · apnews.comUsed on: How heat is reported
 
-- [Too Hot to Handle: Heatwaves Cause Death and Destruction in Northern Hemisphere](https://www.straitstimes.com/world/too-hot-to-handle-heatwaves-cause-death-and-destruction-in-northern-hemisphere)The Straits Times · 2018 · straitstimes.comUsed on: How heat is reported
+- [Megacity Heatwaves Are Now a Fatal Nightmare](https://www.business-standard.com/world-news/why-rising-night-time-temperatures-pose-a-growing-risk-to-cities-126060300133_1.html)Business Standard / Bloomberg Opinion · 2026 · business-standard.comUsed on: How heat is reported
+
+- [India Is Blocking a Cheap Way to Beat the Heat Wave](https://economictimes.indiatimes.com/industry/energy/power/india-is-blocking-a-cheap-way-to-beat-the-heat-wave-one-tweak-in-ac-can-lower-costs/articleshow/130743913.cms)Economic Times / Bloomberg Opinion · 2026 · economictimes.indiatimes.comUsed on: How heat is reported
+
+- [India's Sweltering Nights Expose Power Crunch](https://www.ft.com/content/78774f5b-058e-4731-99a2-cc2710a457e5)Financial Times · 2026 · ft.comUsed on: How heat is reported
+
+- [Extreme Heat to Test India's Power and Water Supply This Summer](https://www.hindustantimes.com/india-news/extreme-heat-to-test-india-s-power-and-water-supply-this-summer-101774575097062-amp.html)Reuters / Hindustan Times · 2026 · hindustantimes.comUsed on: How heat is reported
+
+- [The Heat Took Him from Me: India's Death Toll Rises Amid Escalating Heat Crisis](https://www.theguardian.com/world/2026/jul/29/extreme-heat-deaths-india-climate-crisis-environment)The Guardian · 2026 · theguardian.comUsed on: How heat is reported
+
+- [When I Get Home, My Whole Body Aches: Extreme Heat Saps Health and Wages of India's Poorest Workers](https://www.theguardian.com/environment/2026/jul/20/extreme-heat-india-outdoor-workers-poverty)The Guardian · 2026 · theguardian.comUsed on: How heat is reported
+
+- [Laboring Under Delhi's Harsh Heat, Workers Must Choose Health or Wages](https://www.japantimes.co.jp/environment/2026/06/15/climate-change/delhi-heat-workers-health-wages/)The New York Times / Japan Times · 2026 · japantimes.co.jpUsed on: How heat is reported
+
+- [Asia Faces Major Risks of Extreme Weather Conditions from Super El Niño, Insurer Says](https://www.straitstimes.com/world/asia-faces-major-risks-of-extreme-weather-conditions-from-super-el-nino-insurer-says)The Straits Times · 2026 · straitstimes.comUsed on: How heat is reported
+
+- [El Niño's Wrath: Brace Yourself for Impact](https://www.straitstimes.com/asia/el-ninos-wrath-brace-yourself-for-impact/)The Straits Times · 2026 · straitstimes.comUsed on: How heat is reported
+
+- [Hotter, Hazier and Higher Food Prices: El Niño's Sting in the Tail Has Yet to Arrive](https://www.straitstimes.com/opinion/hotter-hazier-and-higher-food-prices-el-ninos-sting-in-the-tail-has-yet-to-arrive)The Straits Times · 2026 · straitstimes.comUsed on: How heat is reported
+
+- [How Can Singapore Beat the Heat and High Electricity Prices Without Aircon?](https://www.straitstimes.com/singapore/environment/how-can-singapore-beat-the-heat-and-high-electricity-prices-without-aircon)The Straits Times · 2026 · straitstimes.comUsed on: How heat is reported
+
+- [In One Indian City, Reflective Paint and Bus Stop Sprinklers Offer Relief from Killer Heat](https://apnews.com/article/937e51730d6962b05658b5e4a49abfa7)Associated Press · 2025 · apnews.comUsed on: How heat is reported
+
+- [From Fungi Tiles to S$400 Cooling Vests: How Can Singapore Keep Its Cool?](https://www.channelnewsasia.com/today/big-read/climate-change-rising-heat-resilience-adaptation-5319426)Channel NewsAsia · 2025 · channelnewsasia.comUsed on: How heat is reported
+
+- [Heatwaves and Jellyfish Are Causing the Grid to Wilt](https://www.channelnewsasia.com/commentary/global-warming-heatwave-energy-air-con-breaking-5296471)CNA / Bloomberg Opinion · 2025 · channelnewsasia.comUsed on: How heat is reported
+
+- [Majority of Indian Districts Face High Heatwave Risk, Study Shows](https://www.reuters.com/sustainability/climate-energy/majority-indian-districts-face-high-heatwave-risk-study-shows-2025-05-20/)Reuters · 2025 · reuters.comUsed on: How heat is reported
+
+- [Early Action Plans for Heat a Priority for Red Cross and Red Crescent Network](https://www.straitstimes.com/singapore/early-action-plans-for-heat-a-priority-for-red-cross-and-red-crescent-network)The Straits Times · 2025 · straitstimes.comUsed on: How heat is reported
+
+- [Paris Agreement Dials Down Climate Risks, but Danger from Heat Is Growing](https://www.straitstimes.com/world/paris-agreement-dials-down-climate-risks-but-danger-from-heat-is-growing)The Straits Times · 2025 · straitstimes.comUsed on: How heat is reported
 
 - [Pakar ITS ingatkan risiko kesehatan akibat gelombang panas](https://www.antaranews.com/berita/5801589/pakar-its-ingatkan-risiko-kesehatan-akibat-gelombang-panas)ANTARA News · 2026 · Indonesian · antaranews.comUsed on: How heat is reported
 
@@ -508,15 +464,55 @@ News articles on extreme heat in South and Southeast Asia, read on How heat is r
 
 - [गर्मीको मार विपन्नको चुलोसम्म](https://ekantipur.com/news/2026/05/27/the-heat-wave-reaches-the-poors-stove-00-04.html)कान्तिपुर · 2026 · Nepali · ekantipur.comUsed on: How heat is reported
 
+- [How We Can Beat the Heat in Singapore](https://www.straitstimes.com/singapore/environment/how-we-can-beat-the-heat-in-singapore)The Straits Times · 2025 · straitstimes.comUsed on: How heat is reported
+
 - [Extreme Heat Leaves Cambodia’s Informal Workers Exposed Without Financial Protection](https://www.cambodianess.com/article/extreme-heat-leaves-cambodias-informal-workers-exposed-without-financial-protection)Cambodianess · 2026 · English · cambodianess.comUsed on: How heat is reported
 
 - [तराईमा तातो हावाको लहर, घरमै बस्न सुझाव](https://ekantipur.com/news/2026/05/23/hot-winds-increasing-risk-to-public-life-in-western-nepal-47-56.html)कान्तिपुर · 2026 · Nepali · ekantipur.comUsed on: How heat is reported
 
+- [Adaptasi iklim: melindungi perempuan, menjaga produktivitas nasional](https://m.antaranews.com/amp/berita/5297722/adaptasi-iklim-melindungi-perempuan-menjaga-produktivitas-nasional)ANTARA News · 2025 · Indonesian · m.antaranews.comUsed on: How heat is reported
+
+- [Red Alert! Majority in Asia-Pacific at Increasing Risk from Heatwaves](https://www.straitstimes.com/singapore/environment/red-alert-why-is-the-red-cross-so-concerned-about-heat-in-the-asia-pacific)The Straits Times · 2025 · straitstimes.comUsed on: How heat is reported
+
+- [Degrees of Danger: Beating the Heat in Southeast Asia](https://asianews.network/degrees-of-danger-beating-the-heat-in-southeast-asia/)The Straits Times / Asia News Network · 2025 · asianews.networkUsed on: How heat is reported
+
+- [I'm in Hell: How Rising Heat Is Amplifying India's Social Divides](https://www.aljazeera.com/features/2024/7/4/im-in-hell-how-rising-heat-is-amplifying-indias-social-divides)Al Jazeera · 2024 · aljazeera.comUsed on: How heat is reported
+
+- [Unbearable: Will 45C Heatwaves Affect Who India Chooses in Election?](https://www.aljazeera.com/news/2024/5/14/india-election-will-a-forty-five-degree-heat-wave-affect-who-voters-choose)Al Jazeera · 2024 · aljazeera.comUsed on: How heat is reported
+
+- [Working in Hellfire: Gig Workers Bear the Brunt of India's Heatwave](https://www.aljazeera.com/news/2024/6/15/working-in-hellfire-gig-workers-bear-the-brunt-of-indias-heatwave)Al Jazeera · 2024 · aljazeera.comUsed on: How heat is reported
+
+- [A Scorching Heat Wave Kills 14 in India Ahead of a Final Round of Election Voting](https://apnews.com/article/09f26a8b18628960952cf8ec9fc02fbe)Associated Press · 2024 · apnews.comUsed on: How heat is reported
+
+- [Extreme Heat in India Has Killed More Than 100 People in the Past Three and a Half Months](https://apnews.com/article/880f26e3b8eeb066d2db2308502783d2)Associated Press · 2024 · apnews.comUsed on: How heat is reported
+
+- [From Flooding in Brazil and Houston to Brutal Heat in Asia, Extreme Weather Seems Nearly Everywhere](https://apnews.com/article/e13a4a5f2c4de870269b36d5de570aa5)Associated Press · 2024 · apnews.comUsed on: How heat is reported
+
+- [Philippine Students Told to Stay Home as Southeast Asia Swelters in Prolonged Heat Wave](https://apnews.com/article/90fefbcae1e9a1de6faf108aa90cc076)Associated Press · 2024 · apnews.comUsed on: How heat is reported
+
+- [What Happens When It's Too Hot to Make Fashion?](https://businessoffashion-businessoffashion-prod.web.arc-cdn.net/articles/sustainability/fashion-sustainability-heatwave-asia-manufacturing-workers-rights/)Business of Fashion · 2024 · businessoffashion-businessoffashion-prod.web.arc-cdn.netUsed on: How heat is reported
+
+- [India's Scorching Heat Is Making It Unlivable](https://www.channelnewsasia.com/commentary/india-hot-weather-heatstroke-deaths-unlivable-election-modi-bjp-4376916)CNA / Bloomberg Opinion · 2024 · channelnewsasia.comUsed on: How heat is reported
+
+- [Learning to Live with 50C Temperatures](https://www.ft.com/content/d5a5bc1f-e225-4397-b99f-56c62b00366d)Financial Times · 2024 · ft.comUsed on: How heat is reported
+
+- [Southeast Asia Hit by Extreme Heat Wave](https://www.lemonde.fr/en/environment/article/2024/04/23/southeast-asia-hit-by-extreme-heat-wave_6669258_114.html)Le Monde · 2024 · lemonde.frUsed on: How heat is reported
+
+- [How Can India Hold Elections When It's Too Hot to Vote?](https://www.ndtvprofit.com/business/india-election-extreme-heat-is-keeping-voters-away-9995138)NDTV Profit / Bloomberg Opinion · 2024 · ndtvprofit.comUsed on: How heat is reported
+
+- [Heatwave Kills Dozens of Homeless in India's Capital, Group Says](https://www.reuters.com/world/india/heatwave-kills-dozens-indias-capital-reports-times-india-2024-06-20/)Reuters · 2024 · reuters.comUsed on: How heat is reported
+
+- [In India's Heat, Delhi Labourers Toil in Red Hot Conditions](https://www.reuters.com/world/india/indias-heat-delhi-labourers-toil-red-hot-conditions-2024-05-23/)Reuters · 2024 · reuters.comUsed on: How heat is reported
+
+- [South Asia Faces Extreme Weather with Heatwave in India, Cyclone in Bangladesh](https://www.reuters.com/world/india/scorching-heatwave-indias-rajasthan-kills-nine-2024-05-24/)Reuters · 2024 · reuters.comUsed on: How heat is reported
+
+- [Asia’s extreme April heat worsened by climate change, scientists say](https://interaksyon.philstar.com/politics-issues/2024/05/15/275525/asias-extreme-april-heat-worsened-by-climate-change-scientists-say/)Reuters / Philstar · 2024 · interaksyon.philstar.comUsed on: How heat is reported
+
+- [India Tries to Adapt to Extreme Heat but Is Paying a Heavy Price](https://www.washingtonpost.com/world/2022/05/09/india-heat-wave-climate-change/)The Washington Post · 2022 · washingtonpost.comUsed on: How heat is reported
+
 - [Can parametric insurance really put a price on extreme heat - and protect India’s informal workers from its growing economic toll?](https://www.downtoearth.org.in/climate-change/can-parametric-insurance-really-put-a-price-on-extreme-heat-and-protect-indias-informal-workers-from-its-growing-economic-toll)Down To Earth · 2026 · English · downtoearth.org.inUsed on: How heat is reported
 
 - [Unionists Demand Action as Factory Extreme Heat Drives Workers to Collapse](https://cambodianess.com/article/unionists-demand-action-as-factory-extreme-heat-drives-workers-to-collapse)Cambodianess · 2026 · English · cambodianess.comUsed on: How heat is reported
-
-- [Adaptasi iklim: melindungi perempuan, menjaga produktivitas nasional](https://m.antaranews.com/amp/berita/5297722/adaptasi-iklim-melindungi-perempuan-menjaga-produktivitas-nasional)ANTARA News · 2025 · Indonesian · m.antaranews.comUsed on: How heat is reported
 
 - [Rising Temperatures, Rising Inequalities: How a New Insurance Protects India’s Poorest Women](https://www.ipsnews.net/2025/06/rising-temperatures-rising-inequalities-how-a-new-insurance-protects-indias-poorest-women/)Inter Press Service · 2025 · English · ipsnews.netUsed on: How heat is reported
 
@@ -533,6 +529,10 @@ News articles on extreme heat in South and Southeast Asia, read on How heat is r
 - [Heat wave kills 100 in Myanmar, mostly infants and elderly](https://www.rfa.org/english/news/myanmar/myanmar-heat-05202024065347.html)Radio Free Asia · 2024 · English · rfa.orgUsed on: How heat is reported
 
 - [کمشنر کراچی کی زیر صدارت اجلاس ،ہیٹ اسٹروک کی صورتحال سے نمٹنے کے لئے مختلف شہری اداروں کو ذمہ داریاں تفویض](https://www.urdupoint.com/daily/livenews/2024-05-06/news-4007727.html)UrduPoint · 2024 · Urdu · urdupoint.comUsed on: How heat is reported
+
+- [What It's Like to Toil in India's Dangerous, Unrelenting Heat](https://www.washingtonpost.com/world/interactive/2022/india-extreme-heat-climate-change/)The Washington Post · 2022 · washingtonpost.comUsed on: How heat is reported
+
+- [Too Hot to Handle: Heatwaves Cause Death and Destruction in Northern Hemisphere](https://www.straitstimes.com/world/too-hot-to-handle-heatwaves-cause-death-and-destruction-in-northern-hemisphere)The Straits Times · 2018 · straitstimes.comUsed on: How heat is reported
 
 - [Labor Day 2024: Ipagtanggol ang kabuhayan, panawagan ng mga manggagawa, tsuper, partner-riders](https://manilatoday.net/labor-day-2024-ipagtanggol-ang-kabuhayan-panawagan-ng-mga-manggagawa/)Manila Today · 2024 · Filipino · manilatoday.netUsed on: How heat is reported
 
@@ -1278,8 +1278,6 @@ The 2026 report of the Lancet Countdown on health and climate change, its append
 
 - 363[Chelotti N, Dasandi N, Jankin Mikhaylov S (2022). Do intergovernmental organizations have a socialization effect on member state preferences? Int Stud Q 66: sqab069.](https://doi.org/10.1093/isq/sqab069)doi.orgUsed on: Lancet Countdown 2026, in plain language
 
-- 13[Climate & Health Funders Coalition](https://wellcome.org/engagement-and-advocacy/advocacy-and-partnerships/climate-health-funders-coalition)wellcome.orgUsed on: Lancet Countdown 2026, in plain language · The heat network
-
 - 364[Dasandi N, Graham H, Lampard P, et al. (2021). Engagement with health in national climate change commitments under the Paris Agreement. Lancet Planet Health 5: e93–e101.](https://doi.org/10.1016/S2542-5196(20)30302-8)doi.orgUsed on: Lancet Countdown 2026, in plain language
 
 - 365[Vogt-Schilb A, Hallegatte S (2017). Climate policies and nationally determined contributions. WIREs Energy Environ 6: e256.](https://scholar.google.com/scholar?q=Vogt-Schilb%20A%2C%20Hallegatte%20S.%20Climate%20policies%20and%20nationally%20determined%20contributions.%20WIREs%20Energy%20Environ%206%3A%20e256.)search on Google ScholarUsed on: Lancet Countdown 2026, in plain language
@@ -1301,6 +1299,8 @@ The 2026 report of the Lancet Countdown on health and climate change, its append
 - 373[Lewandowski S, Ullrich A (2023). Measures to reduce corporate GHG emissions: taxonomy and cluster analysis. J Environ Manage 325: 116437.](https://doi.org/10.1016/j.jenvman.2022.116437)doi.orgUsed on: Lancet Countdown 2026, in plain language
 
 - 374[Carbon Majors (2026). Carbon Majors 2024 data update.](https://carbonmajors.org/briefing/Carbon-Majors-2024-Data-Update-35466)carbonmajors.orgUsed on: Lancet Countdown 2026, in plain language
+
+- 13[Climate & Health Funders Coalition](https://wellcome.org/engagement-and-advocacy/advocacy-and-partnerships/climate-health-funders-coalition)wellcome.orgUsed on: Lancet Countdown 2026, in plain language · The heat network
 
 - 375[Gayle D (2025). Banking industry’s net zero alliance shuts down amid faltering climate commitments. The Guardian.](https://www.theguardian.com/business/2025/oct/03/banking-industry-net-zero-alliance-shuts-down-climate-nzba)theguardian.comUsed on: Lancet Countdown 2026, in plain language
 
@@ -1340,7 +1340,7 @@ The 2026 report of the Lancet Countdown on health and climate change, its append
 
 - 397[United Nations (2025). Counting what counts: a compass of progress for people and planet. High-level expert group on beyond GDP.](https://www.un.org/sites/un2.un.org/files/high-level_expert_group_on_beyond_gdp_final_report.pdf)un.orgUsed on: Lancet Countdown 2026, in plain language
 
-## Research, reports and guidance 1395
+## Research, reports and guidance 1412
 
 Papers, reports, guidance, news and datasets cited as evidence anywhere on the site.
 
@@ -2302,13 +2302,61 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [West Bengal State Action Plan on Climate Change and Human Health &nbsp;](https://ncdc.mohfw.gov.in/uploads/pdf/state32.pdf)ncdc.mohfw.gov.inUsed on: India snapshot
 
+- [WHO Thailand climate-and-health country profile &nbsp;](https://cdn.who.int/media/docs/default-source/searo/hsd/country-profiles/tha-climate-change-cf-2026.pdf?download=true&amp;sfvrsn=1cc6f20a_3)cdn.who.intUsed on: Thailand snapshot
+
+- [WHO Thailand &nbsp;](https://www.who.int/thailand)who.intUsed on: Thailand snapshot
+
+- [WIND Ventures &nbsp;](https://www.wind.vc/)wind.vcUsed on: The heat economy: money and support
+
+- [Women in Informal Employment: Globalizing and Organizing (WIEGO) &nbsp;](https://www.wiego.org/)wiego.orgUsed on: Thailand snapshot
+
+- [Worker-facing Bangkok heat guide &nbsp;](https://www.wiego.org/advocacy-worker-education-resources/working-under-heat/)wiego.orgUsed on: Thailand snapshot
+
+- [Workplace health and safety under climate stress in Sri Lankan apparel SMEs &nbsp;](https://pmc.ncbi.nlm.nih.gov/articles/PMC12903649/)pmc.ncbi.nlm.nih.govUsed on: Sri Lanka snapshot
+
+- [World Bank City Climate Finance Gap Fund &nbsp;](https://www.worldbank.org/en/programs/gap-fund/overview)worldbank.orgUsed on: The heat economy: what could come up
+
+- [Archived copy](https://web.archive.org/web/20240610171553/https://www.reuters.com/world/india/scorching-heatwave-indias-rajasthan-kills-nine-2024-05-24/)web.archive.orgUsed on: How heat is reported
+
+- [Archived copy](https://web.archive.org/web/20251006142458/https://www.scmp.com/week-asia/health-environment/article/3261584/southeast-asias-brutal-heatwave-daily-life-and-agriculture-endangered-rising-temperatures)web.archive.orgUsed on: How heat is reported
+
+- [Archived copy](https://web.archive.org/web/20250725074841/https://www.washingtonpost.com/world/2024/05/31/india-heat-deaths/)web.archive.orgUsed on: How heat is reported
+
+- [Archived copy](https://web.archive.org/web/20250724153217/https://www.washingtonpost.com/climate-solutions/interactive/2024/air-conditioning-humidity-hotter-summers-solutions/)web.archive.orgUsed on: How heat is reported
+
+- [Archived copy](https://web.archive.org/web/20250726224902/https://www.washingtonpost.com/weather/2024/04/30/southeast-asia-heat-india-thailand-philippines/)web.archive.orgUsed on: How heat is reported
+
+- [Archived copy](https://web.archive.org/web/20240620095842/https://www.washingtonpost.com/weather/2024/05/29/record-heat-delhi-india-climate-survival/)web.archive.orgUsed on: How heat is reported
+
+- [Archived copy](https://web.archive.org/web/20240822121446/https://www.ndtv.com/opinion/india-is-encouraging-the-heatwaves-that-will-cripple-it-3937443/amp/1)web.archive.orgUsed on: How heat is reported
+
+- [Archived copy](https://web.archive.org/web/20250724120835/https://www.washingtonpost.com/climate-environment/interactive/2023/india-deadly-extreme-heat-poverty/)web.archive.orgUsed on: How heat is reported
+
+- [Archived copy](https://web.archive.org/web/20250505102021/https://www.ndtv.com/opinion/indias-heatwaves-are-testing-the-limits-of-human-survival-2943822)web.archive.orgUsed on: How heat is reported
+
+- [Archived copy](https://web.archive.org/web/20230329110532/https://www.washingtonpost.com/world/2022/05/09/india-heat-wave-climate-change/)web.archive.orgUsed on: How heat is reported
+
+- [Archived copy](https://web.archive.org/web/20250722225809/https://www.washingtonpost.com/world/interactive/2022/india-extreme-heat-climate-change/)web.archive.orgUsed on: How heat is reported
+
 - [Das and Somanathan, Environmental Research Letters, 2024](https://heathealth.info/resources/heat-causes-large-earnings-losses-for-informal-sector-workers-in-india/)heathealth.infoUsed on: How heat is reported
+
+- [Archived copy](https://web.archive.org/web/20260722064045/https://ekantipur.com/news/2026/05/27/the-heat-wave-reaches-the-poors-stove-00-04.html)web.archive.orgUsed on: How heat is reported
+
+- [Archived copy](https://web.archive.org/web/20260719140856/https://ekantipur.com/news/2026/05/23/hot-winds-increasing-risk-to-public-life-in-western-nepal-47-56.html)web.archive.orgUsed on: How heat is reported
+
+- [Archived copy](https://web.archive.org/web/20250723232351/https://asianews.network/degrees-of-danger-beating-the-heat-in-southeast-asia/)web.archive.orgUsed on: How heat is reported
+
+- [Archived copy](https://web.archive.org/web/20240825084518/https://ekantipur.com/news/2024/06/01/the-maximum-temperature-is-43-degrees-but-what-is-the-heat-for-the-poor-57-49.html)web.archive.orgUsed on: How heat is reported
+
+- [Archived copy](https://web.archive.org/web/20240528073813/https://www.reuters.com/world/india/indias-heat-delhi-labourers-toil-red-hot-conditions-2024-05-23/)web.archive.orgUsed on: How heat is reported
 
 - [IIED’s 2026 study](https://www.iied.org/22755iied)iied.orgUsed on: How heat is reported
 
+- [nearly 80% of surveyed workers](https://www.wiego.org/advocacy-worker-education-resources/too-hot-to-work-home-based-workers-street-vendors-bangkok/)wiego.orgUsed on: How heat is reported
+
 - [OECD Development Centre](https://www.oecd.org/en/publications/securing-the-livelihoods-of-informal-economy-workers-in-times-of-global-changes_7b0d17a9-en/full-report/informal-workers-and-emerging-risks-in-the-era-of-environmental-degradation-and-climate-change_3e3c5b34.html)oecd.orgUsed on: How heat is reported
 
-- [nearly 80% of surveyed workers](https://www.wiego.org/advocacy-worker-education-resources/too-hot-to-work-home-based-workers-street-vendors-bangkok/)wiego.orgUsed on: How heat is reported
+- [Archived copy](https://web.archive.org/web/20240423054409/https://elevenmyanmar.com/news/heatwave-and-power-outages-intensify-water-woes-in-thaton-and-surrounding-areas)web.archive.orgUsed on: How heat is reported
 
 - [Abdullah et al., Abu Dhabi window shutter simulation &nbsp;](https://research.uaeu.ac.ae/en/publications/thermal-performance-evaluation-of-window-shutters-for-residential/)research.uaeu.ac.aeUsed on: Solutions library
 
@@ -2795,10 +2843,6 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 - [EESL Mart BLDC fan listing, checked27October2026 &nbsp;](https://eeslmart.in/fan)eeslmart.inUsed on: Solutions library
 
 - [EESL Mart product FAQ &nbsp;](https://eeslmart.in/faq)eeslmart.inUsed on: Solutions library
-
-- [WHO Thailand climate-and-health country profile &nbsp;](https://cdn.who.int/media/docs/default-source/searo/hsd/country-profiles/tha-climate-change-cf-2026.pdf?download=true&amp;sfvrsn=1cc6f20a_3)cdn.who.intUsed on: Thailand snapshot
-
-- [WHO Thailand &nbsp;](https://www.who.int/thailand)who.intUsed on: Thailand snapshot
 
 - [Efficiency for Access/CLASP Pakistan fan testing &nbsp;](https://efficiencyforaccess.org/updates/off-grid-fan-quality-testing-in-pakistan/)efficiencyforaccess.orgUsed on: Solutions library
 
@@ -3914,8 +3958,6 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [UNICEF Viet Nam Humanitarian Situation Report No. 1, 27 April 2024 (drought)](https://www.unicef.org/media/156076/file/Viet_Nam_Humanitarian_Situation_Report_No._01_%28drought%29_reporting_period__-27_April_2024.pdf)unicef.orgUsed on: The web · Who heat hits hardest
 
-- [WIND Ventures &nbsp;](https://www.wind.vc/)wind.vcUsed on: The heat economy: money and support
-
 - [United Nations Development Programme (UNDP)](https://www.undp.org/thailand/publications/bangkok-financing-strategy-tackling-urban-heat)undp.orgUsed on: Thailand snapshot · The heat network
 
 - [United Nations Framework Convention on Climate Change](https://unfccc.int/resource/docs/convkp/conveng.pdf)unfccc.intUsed on: How heat became visible
@@ -4036,12 +4078,6 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [Wolch, Byrne and Newell, Landscape and Urban Planning, 2014: making cities “just green enough”](https://doi.org/10.1016/j.landurbplan.2014.01.017)doi.orgUsed on: Actions · Glossary · The web
 
-- [Women in Informal Employment: Globalizing and Organizing (WIEGO) &nbsp;](https://www.wiego.org/)wiego.orgUsed on: Thailand snapshot
-
-- [Worker-facing Bangkok heat guide &nbsp;](https://www.wiego.org/advocacy-worker-education-resources/working-under-heat/)wiego.orgUsed on: Thailand snapshot
-
-- [Workplace health and safety under climate stress in Sri Lankan apparel SMEs &nbsp;](https://pmc.ncbi.nlm.nih.gov/articles/PMC12903649/)pmc.ncbi.nlm.nih.govUsed on: Sri Lanka snapshot
-
 - [Workplace maximum heat-level standard BS2082 - official publication record &nbsp;](https://dolos.gov.np/content/25/maximum-heat-levels--standards--for-workplaces--2082/)dolos.gov.npUsed on: Nepal snapshot
 
 - [World Bank, 2021: Groundswell Part II](https://www.worldbank.org/en/news/press-release/2021/09/13/climate-change-could-force-216-million-people-to-migrate-within-their-own-countries-by-2050)worldbank.orgUsed on: Actions · The web · Vicious cycles
@@ -4051,8 +4087,6 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 - [World Bank, 2025: De Jure and De Facto Coverage of Parental Benefits in Nepal](https://documents1.worldbank.org/curated/en/099021925113581657/pdf/P1766171d407e20f21adde1ba735b9a8b83.pdf)documents1.worldbank.orgUsed on: Who could help a household through a hot season
 
 - [World Bank and GPSC: the Haizhu wetland assessment, 2022](https://www.thegpsc.org/sites/gpsc/files/haizhu_wetland_report_fin.pdf)thegpsc.orgUsed on: Cooling options
-
-- [World Bank City Climate Finance Gap Fund &nbsp;](https://www.worldbank.org/en/programs/gap-fund/overview)worldbank.orgUsed on: The heat economy: what could come up
 
 - [World Bank estimate, reported by AFP via The Manila Times, 2023: Vietnam’s heat-driven power crisis](https://manilatimes.net/2023/08/12/business/foreign-business/power-crisis-cost-vietnam-14b-wb/1904920/amp)manilatimes.netUsed on: Actions · Glossary · The web · Vicious cycles · Your city
 

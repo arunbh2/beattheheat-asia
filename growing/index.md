@@ -111,9 +111,9 @@ What it took to add this
 
 - **The question.** Does reporting on heat follow protection from a named responsibility, through money and delivery, to results?
 
-- **What we set aside.** 21 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
+- **What we set aside.** 27 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason.
 
-- **What is still open.** Native-language review of the pilot's translated headlines, a second coder, and the pilot's full codebook.
+- **What is still open.** A speaker's review of each translated headline (the review sheet is published), a human second coder (a protocol is proposed, not scheduled), and the pilot's original codebook (working definitions as applied are published instead).
 
 See for yourself: [what was set aside, and why](https://beattheheat.asia/research/2026-11/media-rebuild/README.md)
 

@@ -133,6 +133,11 @@ Every decision elevates the reader's experience (UX), the maintainer's experienc
   - No scores, rankings or comparisons of countries or languages.
 - **Downloads:** `records.csv` and `records.json` (every unique record), the collection CSV as first published, a filtered CSV built in the browser from `records.csv`, and a Markdown reporting brief. The explorer's filters, comparison (`cmp`) and kit (`kit`) live in the address.
 - **Old anchors still land:** `#dots`, `#bibliography`, `#languages`, `#collection`, `#patterns`, `#middle`, `#systems` and `#pilot-list`.
+- **What stays open, and how it shows:**
+  - Links: `verify-urls.yml` on `research/2026-11/media-rebuild/urls.txt` writes `link-status.json`. The page says "opened" or "could not be checked automatically" (never "verified" or "dead") and dates the check from that file's commit.
+  - Translations: national-language titles read "working translation, not yet reviewed by a speaker of [language]". `translation-review.csv` is the sheet for volunteers, whose reviews come in through the join form and are credited in aggregate, with no names.
+  - Codebook: `pilot/working-definitions-as-applied.md` is generated from the records (never by hand). It cites record ids, not passage locations, which can name people.
+  - Second coding: `pilot/second-coding-protocol.md` is proposed, not scheduled. No AI pass stands in for a second coder.
 - **Check:** `node tools/check-media.js`. The baseline and results of the November 2026 rebuild are in `research/2026-11/media-rebuild/README.md`.
 
 ## Watch Common Shade grow
