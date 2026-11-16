@@ -5,7 +5,7 @@ updated: 2026-11-16
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 61 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 62 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-61 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,114 works the commons draws on carry a publication date, and 808 are still being dated.
+62 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,114 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -222,6 +222,32 @@ Paid rest breaks, the action that showed the gap, now arrive in the plan under h
 [Plan a response](https://beattheheat.asia/plan/)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Actions%20chosen%20in%20Build%20protection%20now%20carry%20into%20a%20plan&ref=g-build-to-plan#way-share)
+
+Tool improved · Experience
+
+### The Heat Assembly: a game about who can use heat protection
+
+Added 16 November 2026 · The Heat Assembly published as a game for one person or a group 16 November 2026
+
+Why it matters our readingA shaded hall can be paid for and open, and still be out of reach for a porter who would lose a paid turn by leaving the queue. Played alone or around a table over four rounds of heat, the game makes funded, open and usable different things, shows each person's outcome without a score, and lets players replay one decision to see whose day changes.
+
+- South and Southeast Asia
+- Workers in heat-exposed jobs
+- Women whose livelihoods are held back by unequal access
+- Heat-safe work
+- Cooling centres and check-ins
+
+ReviewEvery path through the rules was walked: none reaches every break without someone losing money. A solo game and a shared-device game were played in a browser, with keyboard-only play, a narrow phone at 200% text and reduced motion checked.
+
+How it connects
+
+- [Heat-safe work](https://beattheheat.asia/actions/#heatrules) Action · from the site's records
+A break that costs a paid turn is the game's opening problem.
+
+[Play the game](https://beattheheat.asia/heat-assembly/)
+[Live through a heatwave](https://beattheheat.asia/live-through-a-heatwave/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=The%20Heat%20Assembly%3A%20a%20game%20about%20who%20can%20use%20heat%20protection&ref=g-heat-assembly#way-share)
 
 Evidence added · Practical measures
 

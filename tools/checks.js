@@ -23,6 +23,7 @@ const CHECKS = [
   { name: "signals-sync", cmd: "node tools/signals-sync.js --check", guards: "Signals' derived fields and check records are up to date" },
   { name: "sof", cmd: "node tools/check-sof.js", guards: "State of the field: edition rules, sealed ledger, drafts kept off the site" },
   { name: "media", cmd: "node tools/check-media.js", guards: "How heat is reported: unique records, quotes, links, downloads" },
+  { name: "heat-assembly", cmd: "node tools/check-heat-assembly.js", guards: "The Heat Assembly: budget, staff and consent rules, delayed effects, replay, the lesson's design guards, words and sources" },
   { name: "stripes", cmd: "node tools/check-stripes.js", guards: "no accent stripes outside the allowed list" },
   { name: "cards", cmd: "node tools/check-cards.js", guards: "the shared card scale" },
   { name: "type", cmd: "node tools/check-type.js", guards: "the type scale and the 12px floor" },

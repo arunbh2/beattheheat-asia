@@ -601,6 +601,8 @@ fs.writeFileSync(path.join(ROOT, "404.html"), page("", "Page not found", "This p
 
 // ---- Live through a heatwave: three simulations of equal weight (tools/build-live.js) ----
 require("./build-live.js")({ page, write, hero, esc, V, D, ROOT });
+// ---- The Heat Assembly: a game about who can use heat protection (tools/build-heat-assembly.js) ----
+require("./build-heat-assembly.js")({ page, write, hero, esc, V, D, ROOT });
 require("./build-brief-health.js")({ page, write, esc, D, ROOT });
 require("./build-brief-social-security.js")({ page, write, esc, ROOT });
 require("./build-intersections.js")({ page, write, esc, V, D });
