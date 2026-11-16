@@ -19,7 +19,8 @@
    "hours"
   ],
   "claims": [],
-  "note": "Staged from the Southeast Asia humid heat study batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the Southeast Asia humid heat study batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261116131036/https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038%2Fs41598-025-28817-6&resultType=core&format=json"
  },
  {
   "id": "src-sh-ef-epmc",
@@ -40,6 +41,7 @@
    "duration"
   ],
   "claims": [],
-  "note": "Staged from the Southeast Asia humid heat study batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the Southeast Asia humid heat study batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261116131128/https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1029%2F2021EF001992&resultType=core&format=json"
  }
 ]

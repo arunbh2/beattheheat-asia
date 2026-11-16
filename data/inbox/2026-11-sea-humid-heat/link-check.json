@@ -1,0 +1,19 @@
+{
+ "_terms": {
+  "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41598-025-28817-6&resultType=core&format=json": {
+   "pmcid": true,
+   "Southeast Asia": true,
+   "heat stress": true,
+   "UTCI": true,
+   "hours": true
+  },
+  "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1029/2021EF001992&resultType=core&format=json": {
+   "pmcid": false,
+   "Southeast Asia": false,
+   "heatwave": false,
+   "duration": false
+  }
+ },
+ "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41598-025-28817-6&resultType=core&format=json": "OK",
+ "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1029/2021EF001992&resultType=core&format=json": "OK"
+}
