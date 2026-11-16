@@ -73,7 +73,7 @@ const CSS = `.csx{width:min(1060px,calc(100vw - 24px));max-height:calc(100dvh - 
 .csx__map{display:grid;grid-template-columns:84px minmax(0,1fr);gap:14px;align-items:center;margin-top:4px;padding:10px;border-radius:16px;background:#F26430;color:#16202B;text-decoration:none;box-shadow:0 14px 30px -14px rgba(242,100,48,.8);transition:transform .2s,background-color .2s}
 .csx__map img{display:block;width:84px;height:84px;object-fit:cover;border-radius:10px;background:#F2E7D9}
 .csx__map b{display:block;font-size:1.15rem;font-weight:800}.csx__map small{display:block;font-size:.82rem;line-height:1.3;margin-top:2px}
-.csx__map:hover{background:#FF7A45;transform:translateY(-2px)}
+.csx__map:hover{background:#FF7A45;transform:translateY(-2px)}@media (hover:none),(pointer:coarse){.csx__map:hover{transform:none}}
 .csx__ways{display:grid;gap:8px;margin-top:auto;padding-top:6px}
 .csx__ways a{display:flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:6px 10px;border-radius:999px;font-weight:800;font-size:.86rem;line-height:1.2;text-align:center;text-decoration:none}
 .csx__sig{background:#3DBE78;color:#0C1B12}.csx__sig:hover{background:#55CF8C}

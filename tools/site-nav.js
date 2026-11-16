@@ -184,7 +184,7 @@ const CSS = `html:has(.csn){scroll-padding-top:calc(var(--csn-h,64px) + var(--tk
 @media (prefers-reduced-motion:reduce){.csn__start--glow{animation:none}}
 .csn__dot{display:none;width:8px;height:8px;border-radius:50%;background:var(--orange)}
 .csn__map{display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 14px;border-radius:999px;font-weight:700;font-size:.9rem;white-space:nowrap;text-decoration:none;color:#16202B;background:transparent;border:1.5px solid #16202B;transition:background .2s,color .2s,transform .2s}
-.csn a.csn__map:hover{background:#16202B;color:#FAF7F2;transform:translateY(-1px)}.csn__map:focus-visible{outline:3px solid #16202B;outline-offset:2px}
+.csn a.csn__map:hover{background:#16202B;color:#FAF7F2;transform:translateY(-1px)}@media (hover:none),(pointer:coarse){.csn__start:hover,.csn a.csn__signals:hover,.csn a.csn__map:hover{transform:none}}.csn__map:focus-visible{outline:3px solid #16202B;outline-offset:2px}
 .csn__btn--map{color:#1F7A70;border-color:#1F7A70;background:#E7F2F0}
 .csn--onpath .csn__dot{background:#16202B}
 .csn--onpath .csn__dot{display:inline-block}

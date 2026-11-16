@@ -383,7 +383,7 @@ button { font: inherit; color: inherit; }
 
 .map { position: relative; }
 .map__stage {
-  position: relative; height: clamp(560px, calc(100vh - 96px), 960px);
+  position: relative; height: clamp(560px, calc(100vh - 96px), 960px); height: clamp(560px, calc(100svh - 96px), 960px);
   border-radius: var(--r-sm); overflow: hidden; border: 1px solid var(--line);
   background: radial-gradient(circle at 50% 50%, #FFFFFF 0%, #FFFFFF 55%, #FBF7F1 100%);
 }
@@ -606,7 +606,7 @@ button { font: inherit; color: inherit; }
   .guide { display: none; }
   .explorer__layout { grid-template-columns: minmax(0, 1fr) 350px; align-items: start; gap: 28px; }
   .panel { position: sticky; top: calc(var(--header-h) + var(--tk-h, 0px) + 16px);
-    max-height: calc(100vh - var(--header-h) - var(--tk-h, 0px) - 32px); overflow: auto;
+    max-height: calc(100vh - var(--header-h) - var(--tk-h, 0px) - 32px); max-height: calc(100dvh - var(--header-h) - var(--tk-h, 0px) - 32px); overflow: auto;
     padding: 20px 22px 24px; border-radius: var(--r-sm); border: 1px solid var(--line); }
 }
 
@@ -1125,7 +1125,7 @@ button { font: inherit; color: inherit; }
 .play-icon { display: inline-grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--orange); }
 .play-icon::before { content: ""; margin-left: 3px; border-style: solid; border-width: 6px 0 6px 10px; border-color: transparent transparent transparent var(--ink); }
 
-.film { width: min(1080px, calc(100vw - 24px)); max-width: none; max-height: calc(100vh - 24px); padding: 0; border: 0; border-radius: var(--r-md); background: var(--ink); color: var(--canvas); box-shadow: 0 30px 80px rgba(0,0,0,.45); }
+.film { width: min(1080px, calc(100vw - 24px)); max-width: none; max-height: calc(100vh - 24px); max-height: calc(100dvh - 24px); padding: 0; border: 0; border-radius: var(--r-md); background: var(--ink); color: var(--canvas); box-shadow: 0 30px 80px rgba(0,0,0,.45); }
 .film::backdrop { background: rgba(22,32,43,.82); }
 .film__inner { padding: 14px clamp(12px, 2vw, 20px) 16px; }
 .film__head { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
@@ -3623,7 +3623,7 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 .who-disc{font-size: var(--fs-14);color:var(--muted,#5E6570);margin:0 0 18px;max-width:80ch}
 .who-grid{display:grid;grid-template-columns:230px minmax(0,1fr) 270px;gap:22px;align-items:start;margin:0 0 40px}
 .who-sel{display:none}.who-sel select{font:inherit;width:100%;padding:9px 10px;border:1px solid var(--line,#E6DFD4);border-radius:var(--r-sm);background:#fff}
-.who-list{position:sticky;top:84px;max-height:calc(100vh - 100px);overflow:auto;padding-right:4px}
+.who-list{position:sticky;top:84px;max-height:calc(100vh - 100px);max-height:calc(100dvh - 100px);overflow:auto;padding-right:4px}
 .who-gh{font-size: var(--fs-12);font-weight:700;letter-spacing: var(--label-track);text-transform:uppercase;color:var(--muted,#5E6570);margin:14px 0 6px}.who-gh:first-child{margin-top:0}
 .who-list ul,.who-also{list-style:none;margin:0;padding:0;display:grid;gap:2px}
 .who-list button,.who-also button{font:inherit;font-size: var(--fs-14);text-align:left;width:100%;cursor:pointer;background:none;border:0;border-radius:var(--r-sm);padding:6px 10px;color:inherit;border-left:3px solid transparent}
@@ -3675,7 +3675,7 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 .bp-card details{font-size: var(--fs-14);margin:4px 0 8px}.bp-card summary{cursor:pointer;color:var(--muted,#5E6570)}.bp-card details p{margin:6px 0}
 .bp-add{font:inherit;font-size: var(--fs-14);font-weight:600;cursor:pointer;border:1px solid var(--ink,#16202B);background:#fff;border-radius:999px;padding:6px 14px;color:inherit}
 .bp-add[aria-pressed="true"]{background:var(--break);border-color:var(--break);color:#fff}
-.bp-sheet{position:sticky;top:84px;background:#fff;border:1px solid var(--line,#E6DFD4);border-radius:var(--r-md);padding:18px;max-height:calc(100vh - 100px);overflow:auto}
+.bp-sheet{position:sticky;top:84px;background:#fff;border:1px solid var(--line,#E6DFD4);border-radius:var(--r-md);padding:18px;max-height:calc(100vh - 100px);max-height:calc(100dvh - 100px);overflow:auto}
 .bp-h{font-size: var(--fs-12);font-weight:700;letter-spacing: var(--label-track);text-transform:uppercase;color:var(--muted,#5E6570);margin:18px 0 8px;display:flex;justify-content:space-between}
 .bp-h span{color:var(--break);letter-spacing:0;text-transform:none;font-size: var(--fs-14)}
 .bp-ring{display:grid;gap:8px}.bp-rg p{margin:0 0 4px;font-size: var(--fs-12);color:var(--muted,#5E6570)}
@@ -4051,9 +4051,21 @@ html:not(.rf-js) .rf-co-tabs{display:none}
   .btn--hero:hover, .door:hover, .wk-person:hover, .wk-card:hover, .tg-launch:hover, .wayin__opt:hover, .toolkit__card:hover,
   .section-link a:hover, .mx-card:hover, .cty-index a:hover, .he-stat:hover, .hub-card:hover, .jn-way:hover, .act-card:hover,
   .rf-card:hover, .csn__start:hover, .csn__map:hover { transform: none; }
-  .intro--canopy .btn--hero:hover span, .foot-close__go:hover span { transform: none; }
+  .intro--canopy .btn--hero:hover span, .foot-close__go:hover span, .act-exit a:hover span { transform: none; }
   .cm__dot:hover .cm__pin, .mx-pin:hover span { transform: none; }
 }
+
+/* ---------- Touch screens: inputs at 16px, so a phone does not zoom the page when one is focused (zoom itself stays on) ---------- */
+@media (pointer: coarse) {
+  .who-select select, .pathfinder select, .wk-share__url input, .tg-body input[type="text"], .tg-body textarea, .tg-body select,
+  .pl-cap textarea, .pl-point input, .pl-point select, .pl-cp__row input, .pl-fb input, .pl-fb select,
+  .fl-sel select, .bp-fr select { font-size: var(--fs-16); }
+}
+
+/* ---------- Press feedback: a button answers when a finger lands, not when it lifts ---------- */
+.btn { transition: background-color .2s, color .2s, border-color .2s, transform .12s var(--ease-out, ease-out); }
+.btn:active:not(:disabled) { transform: scale(.97); }
+button { -webkit-user-select: none; user-select: none; }
 
 /* ==========================================================
    Live through a heatwave: the three simulations (/live-through-a-heatwave/, /a-night-in-the-heat/, /a-city-under-strain/)
