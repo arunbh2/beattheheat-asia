@@ -1,0 +1,28 @@
+{
+ "_terms": {
+  "https://chc.ucsb.edu/node/499": {
+   "CHIRTS-ERA5": true,
+   "Heat Index": true,
+   "latency": true,
+   "WBGT": true
+  },
+  "https://www.chc.ucsb.edu/node/404": {
+   "CHIRTS": true,
+   "Heat Monitor": false,
+   "80th percentile": false
+  },
+  "https://chc.ucsb.edu/node/418": {
+   "CHIRTS": true,
+   "CHIRTS-ERA5": false,
+   "experimental": false
+  },
+  "https://www.chc.ucsb.edu/data": {
+   "CHIRTS": true,
+   "CHIRTS-ERA5": true
+  }
+ },
+ "https://chc.ucsb.edu/node/499": "OK",
+ "https://www.chc.ucsb.edu/node/404": "OK",
+ "https://chc.ucsb.edu/node/418": "OK",
+ "https://www.chc.ucsb.edu/data": "OK"
+}

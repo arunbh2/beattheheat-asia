@@ -20,7 +20,8 @@
   "claims": [
    "p-product"
   ],
-  "note": "Staged from the CHIRTS-ERA5 Heat Tool Finder batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the CHIRTS-ERA5 Heat Tool Finder batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260921113010/https://chc.ucsb.edu/node/499"
  },
  {
   "id": "src-chirts-chc-404",
@@ -42,7 +43,8 @@
   "claims": [
    "p-monitor"
   ],
-  "note": "Staged from the CHIRTS-ERA5 Heat Tool Finder batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the CHIRTS-ERA5 Heat Tool Finder batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261003233331/https://www.chc.ucsb.edu/node/404"
  },
  {
   "id": "src-chirts-chc-418",
@@ -64,7 +66,8 @@
   "claims": [
    "p-418"
   ],
-  "note": "Staged from the CHIRTS-ERA5 Heat Tool Finder batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the CHIRTS-ERA5 Heat Tool Finder batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261117012016/https://chc.ucsb.edu/node/418"
  },
  {
   "id": "src-chirts-chc-data",
@@ -85,6 +88,7 @@
   "claims": [
    "p-data"
   ],
-  "note": "Staged from the CHIRTS-ERA5 Heat Tool Finder batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox."
+  "note": "Staged from the CHIRTS-ERA5 Heat Tool Finder batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261115031810/https://www.chc.ucsb.edu/data"
  }
 ]
