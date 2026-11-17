@@ -208,7 +208,7 @@
   "changed": "2026-11-07"
  },
  "/growing/": {
-  "hash": "54842e98e9cdebbe",
+  "hash": "147c2e89ea170d12",
   "changed": "2026-11-17"
  },
  "/guide/": {
@@ -248,8 +248,8 @@
   "changed": "2026-11-16"
  },
  "/heat-tools/": {
-  "hash": "b141368f9e455840",
-  "changed": "2026-10-01"
+  "hash": "1ed03f5d2d1d5690",
+  "changed": "2026-11-17"
  },
  "/heat-tools/bmd/": {
   "hash": "21db7d1f60659ee9",
@@ -266,6 +266,10 @@
  "/heat-tools/ceew/": {
   "hash": "efdb3d3a3222ab88",
   "changed": "2026-10-01"
+ },
+ "/heat-tools/chirts_era5/": {
+  "hash": "b36a7adc080c4166",
+  "changed": "2026-11-17"
  },
  "/heat-tools/cs_build/": {
   "hash": "ea02ee431a18510c",

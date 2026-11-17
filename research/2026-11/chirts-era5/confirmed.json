@@ -1,0 +1,46 @@
+[
+ {
+  "id": "r-variables",
+  "where": "Heat Tool Finder record chirts_era5",
+  "text": "Daily maximum and minimum temperature, heat index and wet bulb globe temperature.",
+  "sources": [
+   {
+    "label": "UC Santa Barbara Climate Hazards Center: CHIRTS-ERA5 (data overview)",
+    "url": "https://chc.ucsb.edu/node/499"
+   }
+  ]
+ },
+ {
+  "id": "r-latency",
+  "where": "Heat Tool Finder record chirts_era5",
+  "text": "Updated with ERA5 reanalysis after a short delay (latency).",
+  "sources": [
+   {
+    "label": "UC Santa Barbara Climate Hazards Center: CHIRTS-ERA5 (data overview)",
+    "url": "https://chc.ucsb.edu/node/499"
+   }
+  ]
+ },
+ {
+  "id": "r-formats",
+  "where": "Heat Tool Finder record chirts_era5",
+  "text": "Files in GeoTIFF and NetCDF.",
+  "sources": [
+   {
+    "label": "UC Santa Barbara Climate Hazards Center: CHIRTS-ERA5 (data overview)",
+    "url": "https://chc.ucsb.edu/node/499"
+   }
+  ]
+ },
+ {
+  "id": "r-listed",
+  "where": "Heat Tool Finder record chirts_era5",
+  "text": "Listed on the CHC data sets page.",
+  "sources": [
+   {
+    "label": "UC Santa Barbara Climate Hazards Center: Data Sets",
+    "url": "https://www.chc.ucsb.edu/data"
+   }
+  ]
+ }
+]

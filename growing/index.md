@@ -5,7 +5,7 @@ updated: 2026-11-17
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 64 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 65 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-64 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,116 works the commons draws on carry a publication date, and 808 are still being dated.
+65 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,116 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -46,6 +46,33 @@ See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-1
 [See drying soils on the map](https://beattheheat.asia/#drysoil)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Dry%20soils%20and%20heat%20arriving%20together%2C%20from%20a%20daily%20global%20record&ref=g-compound-dry-hot#way-share)
+
+Tool improved · Evidence
+
+### A daily heat data set covering the region, in the Heat Tool Finder
+
+Added 17 November 2026 · Climate Hazards Center: CHIRTS-ERA5 data set November 2026
+
+Why it matters our readingThe Heat Tool Finder now lists CHIRTS-ERA5 from the Climate Hazards Center, a quasi-global daily grid of maximum and minimum temperature, heat index and WBGT, checked against the provider's own page. It is listed as an estimate for analysts, not tested and not locally validated, with its licence not yet verified.
+
+- South and Southeast Asia
+
+ReviewNine terms found on the provider's page; the start year and the Heat Monitor were not found there and are left out; a blog finding on ERA5 reading cool in hot extremes is held until its address is supplied. 2 checked · 4 confirmed.
+
+What it took to add this
+
+- **The question.** Can a new daily heat data set help readers in South and Southeast Asia, and what does it claim about other data?
+- **The search.** 2 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 4 confirmed.
+
+- **What is still open.** Whether ERA5 reads cool in hot extremes in Southern Asia, from the blog once its address is in hand.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-chirts-era5/link-check.json)
+
+[Open the listing](https://beattheheat.asia/heat-tools/chirts_era5/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=A%20daily%20heat%20data%20set%20covering%20the%20region%2C%20in%20the%20Heat%20Tool%20Finder&ref=g-chirts-era5#way-share)
 
 Tool improved · Evidence
 
@@ -2052,7 +2079,7 @@ Steps toward protection this year: [Delhi launches its 2025 Heat Action Plan](ht
 
 - 2026 so far
 
-240 works published, 140 of them with a known month; 1,116 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
+240 works published, 141 of them with a known month; 1,116 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
 
 Steps toward protection this year: [Bangkok opens 304 cooling centres](https://beattheheat.asia/atlas/); [The first Global Heat Forum, in Bangkok](https://beattheheat.asia/atlas/).
 

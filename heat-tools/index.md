@@ -1,7 +1,7 @@
 ---
 title: "Heat Tool Finder: which heat tool fits your decision"
 url: https://beattheheat.asia/heat-tools/
-updated: 2026-10-01
+updated: 2026-11-17
 licence: CC BY 4.0
 ---
 
@@ -15,7 +15,7 @@ Find tools for warnings, risk assessment, cooling and protection planning. Compa
 
 A navigation and comparison service. Inclusion is not endorsement or certification. Check local applicability, current source information and professional requirements before relying on a tool. It is not a weather feed, a risk score or a complete list, and Common Shade has not run any of these tools itself.
 
-15 outside resources and 4 Common Shade pages, in groups by how they apply.
+16 outside resources and 4 Common Shade pages, in groups by how they apply.
 
 ### Country services and assessments 5
 
@@ -101,9 +101,25 @@ Public description reviewed · 2026-11-10
 
 [View profile](https://beattheheat.asia/heat-tools/sg/)
 
-### Broader tools to assess locally 7
+### Broader tools to assess locally 8
 
 Global or multi-region coverage. Not validated for a particular place in Asia: check it against local conditions.
+
+DatasetPublic documentation reviewed
+
+#### [CHIRTS-ERA5 daily temperature and heat data](https://beattheheat.asia/heat-tools/chirts_era5/)
+
+UC Santa Barbara Climate Hazards Center
+
+**Helps you:** analyse heat exposure. Analyse recent and past daily heat across a quasi-global high-resolution grid.
+
+Global · High-resolution grid · Free to read
+
+**Important limit:** A gridded estimate built partly from reanalysis, not a local measurement; outdoor grid values do not describe indoor rooms or specific workloads.
+
+Public description reviewed · 2026-11-17
+
+[View profile](https://beattheheat.asia/heat-tools/chirts_era5/)
 
 Tool: modellingPublic documentation reviewed
 
@@ -445,7 +461,7 @@ Illustrative workflow
 
 ## How this catalogue works
 
-It lists 16 outside resources and 4 Common Shade pages, researched up to 2026-11-10. That number describes this starter catalogue only, not the size of the field or how well heat protection works.
+It lists 17 outside resources and 4 Common Shade pages, researched up to 2026-11-10. That number describes this starter catalogue only, not the size of the field or how well heat protection works.
 
 **Public description reviewed**: The provider's public description was read.
 
