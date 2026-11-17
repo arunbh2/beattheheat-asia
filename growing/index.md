@@ -142,6 +142,29 @@ Early warning systems reported by more countries.
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=The%20year's%20climate%20findings%3A%20India's%20April%20heat%2C%20early%20warnings%20and%20El%20Ni%C3%B1o's%20health%20risks&ref=g-wmo-soc-heat#way-share)
 
+Tool improved · Practical measures
+
+### A drawing beside Heat-safe work: the cooling vest
+
+Added 17 November 2026 · Drawing added 17 November 2026
+
+Why it matters our readingHeat-safe work on the actions page now has an illustrative drawing beside its watch-out: an outdoor cleaner sweeping in the heat puts on a cooling vest from its stand, then hangs it back up. It adds no new claim; the checked sentence and its source stay above it, and the drawing loads only when a reader presses play.
+
+- South and Southeast Asia
+- Workers in heat-exposed jobs
+- Heat-safe work
+
+ReviewDrawn to the checked watch-out only: no second figure, a blank badge, the heat easing only slightly; checked for broken poses and reduced motion.
+
+How it connects
+
+- [Heat-safe work](https://beattheheat.asia/actions/#heatrules) Action · our reading
+An illustrative drawing of its watch-out.
+
+[See the drawing](https://beattheheat.asia/actions/#heatrules)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=A%20drawing%20beside%20Heat-safe%20work%3A%20the%20cooling%20vest&ref=g-scene-cooling-vest#way-share)
+
 Tool improved · Evidence
 
 ### Signals now shows what the evidence confirms for each promise
@@ -860,28 +883,6 @@ Know something that would improve this? [Share evidence, experience or a correct
 
 Tool improved · Practical measures
 
-### How AI is used on Common Shade, stated plainly
-
-Added 13 November 2026 · Section added 13 November 2026
-
-Why it matters our readingReaders deserve to know how a site that asks them to trust its sources is made. The approach page now says what AI does in building Common Shade, what it is never allowed to do, who approves what is published, and where its limits are.
-
-- South and Southeast Asia
-
-ReviewWritten from what the repository actually does: AI drafts and builds, plain scripts check sources, the site owner approves; nothing on the site sends visitor input to an AI service.
-
-How it connects
-
-- [For ai](https://beattheheat.asia/for-ai/) Page · our reading
-AI systems that read the site have their own page.
-
-[Read how AI is used here](https://beattheheat.asia/approach/#ai)
-[How Common Shade sees heat](https://beattheheat.asia/approach/)
-
-Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=How%20AI%20is%20used%20on%20Common%20Shade%2C%20stated%20plainly&ref=g-ai-use#way-share)
-
-Tool improved · Practical measures
-
 ### Evidence packs to use with your own AI
 
 Added 13 November 2026 · Page and packs added 13 November 2026
@@ -891,11 +892,6 @@ Why it matters our readingMany readers already think with an AI assistant or not
 - South and Southeast Asia
 
 ReviewPacks are built from the site's own records at every build, country packs word for word from their snapshots; a check fails if a pack is missing, lacks its questions, warning or sources, or uses an em dash. Actions with no example on the map say so.
-
-How it connects
-
-- [Approach](https://beattheheat.asia/approach/) Page · our reading
-How AI is used to build the site is set out on the approach page.
 
 [Get an evidence pack](https://beattheheat.asia/use-with-ai/)
 

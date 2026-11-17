@@ -1,7 +1,7 @@
 ---
 title: "Use Common Shade with your own AI"
 url: https://beattheheat.asia/use-with-ai/
-updated: 2026-10-01
+updated: 2026-11-17
 licence: CC BY 4.0
 ---
 
@@ -19,7 +19,7 @@ Bring the evidence into the assistant or notebook tool you already use. Each pac
 
 **An assistant can be wrong, even with a good pack in front of it. The sources in each pack are the authority: check any answer you rely on against them.**
 
-Packs are plain files on this site. Loading one into an AI service sends its text to that service under that service's terms; Common Shade sends nothing about you anywhere. For the whole site at once, there is [one plain-text file](https://beattheheat.asia/llms-full.txt). How AI is used to build Common Shade is set out on [How Common Shade sees heat](https://beattheheat.asia/approach/#ai).
+Packs are plain files on this site. Loading one into an AI service sends its text to that service under that service's terms; Common Shade sends nothing about you anywhere. For the whole site at once, there is [one plain-text file](https://beattheheat.asia/llms-full.txt).
 
 ## Countries (7)
 

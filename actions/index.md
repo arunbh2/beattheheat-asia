@@ -285,6 +285,8 @@ Sources: [Singapore Ministry of Manpower, 2023](https://www.mom.gov.sg/newsroom/
 
 Sources: [Oxfam America, Politics of Poverty, 2026: the unequal burden of extreme heat at work](https://politicsofpoverty.oxfamamerica.org/the-unequal-burden-of-extreme-heat-at-work/)
 
+Illustrative drawing of the watch-out above: an outdoor cleaner sweeping in the heat puts on a cooling vest from its stand, then hangs it back up.
+
 ### Practical guides
 
 - [Heat at work: the first joint global guidance on workplace heat stress](https://heathealth.info/at-work/) WHO and WMO, in the GHHIN resource library

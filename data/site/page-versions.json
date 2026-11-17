@@ -1,4 +1,8 @@
 {
+ "/.agents/skills/stick-scene/site/": {
+  "hash": "8f7caeca0429bc3f",
+  "changed": "2026-10-01"
+ },
  "/404/": {
   "hash": "4559f59cb33f750f",
   "changed": "2026-10-01"
@@ -20,12 +24,12 @@
   "changed": "2026-11-16"
  },
  "/actions/": {
-  "hash": "1354ac722f063bbf",
+  "hash": "9683e2617d7838e6",
   "changed": "2026-11-17"
  },
  "/approach/": {
-  "hash": "2040a696148f5f12",
-  "changed": "2026-11-16"
+  "hash": "3fe5d256f86bbe6c",
+  "changed": "2026-11-17"
  },
  "/atlas/": {
   "hash": "4de8675d65ddeb61",
@@ -208,7 +212,7 @@
   "changed": "2026-11-07"
  },
  "/growing/": {
-  "hash": "aa54cf0f74a90fe0",
+  "hash": "ac3bb13c36e47adf",
   "changed": "2026-11-17"
  },
  "/guide/": {
@@ -644,8 +648,8 @@
   "changed": "2026-11-15"
  },
  "/use-with-ai/": {
-  "hash": "06d7530c0bb7fee0",
-  "changed": "2026-10-01"
+  "hash": "b1b604513cefb53b",
+  "changed": "2026-11-17"
  },
  "/whats-new/": {
   "hash": "ded9f095a1f5c5b8",

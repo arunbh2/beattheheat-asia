@@ -494,42 +494,6 @@
      ]
     },
     {
-     "id": "g-ai-use",
-     "kind": "tool",
-     "root": "practical",
-     "added": "2026-11-13",
-     "pr": null,
-     "title": "How AI is used on Common Shade, stated plainly",
-     "why": "Readers deserve to know how a site that asks them to trust its sources is made. The approach page now says what AI does in building Common Shade, what it is never allowed to do, who approves what is published, and where its limits are.",
-     "places": [
-      "region"
-     ],
-     "people": [],
-     "topics": [],
-     "event": {
-      "what": "Section added",
-      "date": "2026-11-13"
-     },
-     "review": "Written from what the repository actually does: AI drafts and builds, plain scripts check sources, the site owner approves; nothing on the site sends visitor input to an AI service",
-     "pages": [
-      [
-       "/approach/",
-       "How Common Shade sees heat"
-      ]
-     ],
-     "action": [
-      "Read how AI is used here",
-      "/approach/#ai"
-     ],
-     "links": [
-      {
-       "to": "page:/for-ai/",
-       "why": "AI systems that read the site have their own page.",
-       "basis": "editorial"
-      }
-     ]
-    },
-    {
      "id": "g-use-with-ai",
      "kind": "tool",
      "root": "practical",
@@ -557,13 +521,7 @@
       "Get an evidence pack",
       "/use-with-ai/"
      ],
-     "links": [
-      {
-       "to": "page:/approach/",
-       "why": "How AI is used to build the site is set out on the approach page.",
-       "basis": "editorial"
-      }
-     ]
+     "links": []
     },
     {
      "id": "g-heat-tools",
@@ -894,6 +852,16 @@
                   "open": "How many people in Southeast Asia were exposed to extreme heat in 2026, and whether early warning systems reach people working outdoors." },
       "pages": [["/signals/", "Signals"]], "action": ["See the records on Signals", "/signals/"],
       "links": [{ "to": "lever:anticipatory", "why": "Early warning systems reported by more countries.", "basis": "record" }]
+    },
+    {
+      "id": "g-scene-cooling-vest", "kind": "tool", "root": "practical", "added": "2026-11-17", "pr": null,
+      "title": "A drawing beside Heat-safe work: the cooling vest",
+      "why": "Heat-safe work on the actions page now has an illustrative drawing beside its watch-out: an outdoor cleaner sweeping in the heat puts on a cooling vest from its stand, then hangs it back up. It adds no new claim; the checked sentence and its source stay above it, and the drawing loads only when a reader presses play.",
+      "places": ["region"], "people": ["workers"], "topics": ["heatrules"],
+      "event": { "what": "Drawing added", "date": "2026-11-17" },
+      "review": "Drawn to the checked watch-out only: no second figure, a blank badge, the heat easing only slightly; checked for broken poses and reduced motion",
+      "pages": [["/actions/#heatrules", "Heat-safe work"]], "action": ["See the drawing", "/actions/#heatrules"],
+      "links": [{ "to": "lever:heatrules", "why": "An illustrative drawing of its watch-out.", "basis": "editorial" }]
     }
   ]
 }

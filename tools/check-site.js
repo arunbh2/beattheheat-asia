@@ -9,7 +9,7 @@ const http = require("http"), fs = require("fs"), path = require("path"), { exec
 const ROOT = path.join(__dirname, "..");
 const TYPES = { ".html": "text/html", ".js": "text/javascript", ".css": "text/css", ".json": "application/json", ".svg": "image/svg+xml", ".png": "image/png", ".jpg": "image/jpeg", ".mp4": "video/mp4", ".vtt": "text/vtt", ".woff2": "font/woff2", ".ttf": "font/ttf", ".xml": "application/xml", ".txt": "text/plain" };
 const pages = execFileSync("git", ["ls-files", "*index.html"], { cwd: ROOT }).toString().split("\n").filter(Boolean)
-  .filter(f => !f.startsWith("print/") && !f.startsWith("tools/")).map(f => f.replace(/index\.html$/, ""))
+  .filter(f => !f.startsWith("print/") && !f.startsWith("tools/") && !/^\.(agents|claude)\//.test(f)).map(f => f.replace(/index\.html$/, ""))
   .filter(p => process.argv.length < 3 || process.argv.slice(2).some(x => p.startsWith(x)));
 const server = http.createServer((req, res) => {
   let f = path.join(ROOT, decodeURIComponent(req.url.split("?")[0])); if (f.endsWith("/")) f += "index.html";
