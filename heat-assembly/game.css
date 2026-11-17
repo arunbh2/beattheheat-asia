@@ -34,7 +34,7 @@
 .ha-actions { display: flex; flex-wrap: wrap; gap: var(--s-2); }
 .ha-actions .btn { min-height: 44px; }
 .ha-err { padding: var(--pad-compact); border: 1px solid var(--line-strong); border-radius: var(--r-sm); background: var(--sand-50); font-weight: 700; }
-.ha-flag { font-weight: 700; color: var(--ink); text-decoration: underline; text-decoration-color: var(--ember); text-underline-offset: 3px; }
+.ha-flag { font-weight: 700; color: var(--ink); text-decoration-line: underline; text-decoration-thickness: 2px; text-decoration-color: var(--ember); text-underline-offset: 3px; }
 .ha-plain { margin: 0; padding-left: 1.2em; line-height: 1.55; }
 .ha-plain li { margin: 0 0 var(--s-1); }
 .ha-replies li.is-no { font-weight: 600; }

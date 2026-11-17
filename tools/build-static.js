@@ -100,7 +100,7 @@ function page(p, intro, body, extraLd) {
   <link rel="alternate" type="text/plain" href="${SITE}/llms-full.txt" title="The whole map as plain text">
   <style>
     body{margin:0;font-family:"Hanken Grotesk","Segoe UI",Roboto,Arial,sans-serif;color:#16202B;background:#FAF7F2;line-height:1.55}
-    a{color:#16202B;text-decoration-color:#F26430;text-underline-offset:3px}
+    a{color:#16202B;text-decoration-color:#F26430;text-decoration-thickness:2px;text-underline-offset:3px}
     header,main,footer{max-width:900px;margin:0 auto;padding:0 20px}
     header{padding-top:22px;display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;font-size:.9rem}
     header .home{font-weight:800;letter-spacing:.04em;text-decoration:none}
