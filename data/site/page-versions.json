@@ -24,7 +24,7 @@
   "changed": "2026-11-16"
  },
  "/actions/": {
-  "hash": "9683e2617d7838e6",
+  "hash": "2cc0632171db3257",
   "changed": "2026-11-17"
  },
  "/approach/": {
@@ -212,7 +212,7 @@
   "changed": "2026-11-07"
  },
  "/growing/": {
-  "hash": "ac3bb13c36e47adf",
+  "hash": "7d1b39c76990341e",
   "changed": "2026-11-17"
  },
  "/guide/": {
@@ -220,8 +220,8 @@
   "changed": "2026-11-15"
  },
  "/heat-assembly/": {
-  "hash": "6a23f7235550259c",
-  "changed": "2026-11-16"
+  "hash": "ab6ad79c176f1e64",
+  "changed": "2026-11-17"
  },
  "/heat-economy/": {
   "hash": "3ce0703499394ce6",
@@ -248,8 +248,8 @@
   "changed": "2026-11-16"
  },
  "/heat-network/": {
-  "hash": "1b74f6d4fa7518c6",
-  "changed": "2026-11-16"
+  "hash": "d78552d9cff8c91a",
+  "changed": "2026-11-17"
  },
  "/heat-tools/": {
   "hash": "1ed03f5d2d1d5690",
@@ -348,8 +348,8 @@
   "changed": "2026-11-06"
  },
  "/how-heat-is-reported/": {
-  "hash": "10da5779522e4738",
-  "changed": "2026-11-16"
+  "hash": "72c70f05f3d8c1d6",
+  "changed": "2026-11-17"
  },
  "/intersections/": {
   "hash": "a2f1d990a20be0a8",
@@ -364,8 +364,8 @@
   "changed": "2026-11-16"
  },
  "/live-through-a-heatwave/": {
-  "hash": "459f6d577e8fea93",
-  "changed": "2026-11-16"
+  "hash": "41524118fecc5c2e",
+  "changed": "2026-11-17"
  },
  "/loops/": {
   "hash": "b2a7c3bca3f29843",
@@ -620,7 +620,7 @@
   "changed": "2026-11-03"
  },
  "/signals/": {
-  "hash": "f2fbd8c031c12308",
+  "hash": "b559d45f2ca102c3",
   "changed": "2026-11-17"
  },
  "/social-protection/": {

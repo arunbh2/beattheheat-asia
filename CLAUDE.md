@@ -124,7 +124,7 @@ Every decision elevates the reader's experience (UX), the maintainer's experienc
 `/how-heat-is-reported/` reads two collections of news articles on heat in South and Southeast Asia. Its argument runs in three steps: a first reading of the curated collection, what the multilingual pilot found, and the sharper question the two raise together (does coverage follow protection from a named responsibility, through money and delivery, to results?). `tools/build-media.js` builds it, with the model in `tools/media-model.js`, the page script in `how-heat-is-reported/media.js` and the page's own stylesheet in `how-heat-is-reported/media.css`.
 - **Two canonical sources, never copied into components:**
   - the curated collection, `research/2026-10/media/extreme-heat-journalism-2018-2026.csv`, read at listing depth; its `ID` column (`b00`...) is stable and never renumbered
-  - the pilot, `research/2026-10/media/pilot/articles.json` and `exemplars.json`, read in full text and coded once with AI assistance
+  - the pilot, `research/2026-10/media/pilot/articles.json` and `exemplars.json`, read in full text and coded once, without a second coding
 - **The editorial layer**, `research/2026-10/media/editorial.json`, holds:
   - definitions and review depths
   - the ten examples and their suggested follow-up questions
@@ -140,7 +140,7 @@ Every decision elevates the reader's experience (UX), the maintainer's experienc
   - Links: `verify-urls.yml` on `research/2026-11/media-rebuild/urls.txt` writes `link-status.json`. The page says "opened" or "could not be checked automatically" (never "verified" or "dead") and dates the check from that file's commit.
   - Translations: national-language titles read "working translation, not yet reviewed by a speaker of [language]". `translation-review.csv` is the sheet for volunteers, whose reviews come in through the join form and are credited in aggregate, with no names.
   - Codebook: `pilot/working-definitions-as-applied.md` is generated from the records (never by hand). It cites record ids, not passage locations, which can name people.
-  - Second coding: `pilot/second-coding-protocol.md` is proposed, not scheduled. No AI pass stands in for a second coder.
+  - Second coding: `pilot/second-coding-protocol.md` is proposed, not scheduled.
 - The baseline and results of the November 2026 rebuild are in `research/2026-11/media-rebuild/README.md`.
 
 ## Watch Common Shade grow

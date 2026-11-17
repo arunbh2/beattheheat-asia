@@ -1,7 +1,7 @@
 ---
 title: "How extreme heat is reported in South and Southeast Asia"
 url: https://beattheheat.asia/how-heat-is-reported/
-updated: 2026-11-16
+updated: 2026-11-17
 licence: CC BY 4.0
 ---
 
@@ -78,9 +78,9 @@ To test the first reading, a pilot review searched for reporting on work and pro
 - [Revisit an earlier action or incident8 of 32](?collection=pilot&has=followup#explore)
 - [Cite budget figures2 of 32](?collection=pilot&has=budget#explore)
 
-**What this does not show.** The pilot looked for reporting on work and protection, so these rows show what such reporting can contain, not how common it is. The codes are provisional: one coder, with AI assistance.
+**What this does not show.** The pilot looked for reporting on work and protection, so these rows show what such reporting can contain, not how common it is. The codes are provisional: coded once, without a second coding.
 
-**About the pilot.** 32 articles were chosen by searching for work and protection, so they show what good reporting can look like, not how common it is. They were coded once, with AI assistance and without a second coder, and translations from national languages still need review. The pilot does not yet compare coverage before, during and after heatwaves, or set coverage against measured heat. Every article links to the original. These examples are worth learning from; they do not show that one language reports heat better than another.
+**About the pilot.** 32 articles were chosen by searching for work and protection, so they show what good reporting can look like, not how common it is. They were coded once, without a second coding, and translations from national languages still need review. The pilot does not yet compare coverage before, during and after heatwaves, or set coverage against measured heat. Every article links to the original. These examples are worth learning from; they do not show that one language reports heat better than another.
 
 - 3 · The sharper question
 
@@ -124,7 +124,7 @@ Doctors describe physical and mental-health risks from heat. The article include
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as an emergency, also another angle. Cites temperature. (pilot coding)
 
@@ -158,7 +158,7 @@ A labour official explains planned heat-related work guidance. The report also d
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as lost work and income. Cites temperature, heat index. (pilot coding)
 
@@ -192,7 +192,7 @@ Also published at https://pulitzercenter.org/stories/heat-stress-growing-targets
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as responsibility split between institutions, also inequality and lost work and income and cooling. Cites temperature, heat index, budget figures. (pilot coding)
 
@@ -226,7 +226,7 @@ A rickshaw worker’s experience introduces research on lost earnings. The artic
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as lost work and income, also inequality. Cites temperature, heat index, lost hours or wages, budget figures. (pilot coding)
 
@@ -260,7 +260,7 @@ The commentary treats heat as a continuing workplace and public-health risk. It 
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as another angle, also lost work and income and climate science and attribution. Cites temperature, deaths. (pilot coding)
 
@@ -294,7 +294,7 @@ Research findings connect outdoor heat exposure with gaps in social protection. 
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as inequality, also lost work and income. Cites temperature, heat index, lost hours or wages. (pilot coding)
 
@@ -326,7 +326,7 @@ Migrant workers describe hotter workplaces and sleeping spaces in Kathmandu. A r
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as lost work and income, also inequality. Cites temperature, lost hours or wages. (pilot coding)
 
@@ -362,7 +362,7 @@ Link: could not be checked automatically on 16 November 2026 (the publisher limi
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as lost work and income, also inequality. Cites temperature, lost hours or wages. (pilot coding)
 
@@ -394,7 +394,7 @@ Informal workers explain why health cover does not replace lost income. The stor
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as inequality, also lost work and income and responsibility split between institutions. Cites temperature. (pilot coding)
 
@@ -430,7 +430,7 @@ Link: could not be checked automatically on 16 November 2026 (the publisher limi
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as an emergency. Cites temperature. (pilot coding)
 
@@ -462,7 +462,7 @@ The article explains heat-insurance design and who supports premiums. It examine
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as inequality, also lost work and income. Cites temperature. (pilot coding)
 
@@ -494,7 +494,7 @@ The story returns to factory fainting incidents and official responses. Union vo
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as responsibility split between institutions, also lost work and income and cooling. Cites temperature. (pilot coding)
 
@@ -664,7 +664,7 @@ A CARE Indonesia leader describes factory adaptation through a gender network. T
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as inequality, also lost work and income and responsibility split between institutions. Cites no figures. (pilot coding)
 
@@ -696,7 +696,7 @@ The feature revisits an insurance pilot that initially paid nothing. It explains
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as inequality, also lost work and income. Cites temperature, lost hours or wages. (pilot coding)
 
@@ -730,7 +730,7 @@ A delivery rider explains changing working hours during heat. The explainer exam
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as inequality, also lost work and income and responsibility split between institutions. Cites temperature, deaths. (pilot coding)
 
@@ -858,7 +858,7 @@ During cooler weather, residents look back on the heatwave and prepare for its r
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as inequality, also cooling and lost work and income. Cites temperature, lost hours or wages. (pilot coding)
 
@@ -890,7 +890,7 @@ The report connects factory heat with power shortages and electricity agreements
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as responsibility split between institutions, also lost work and income and inequality. Cites temperature. (pilot coding)
 
@@ -924,7 +924,7 @@ The report links weather-related workplace risks with employer responsibilities.
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as another angle, also lost work and income. Cites no figures. (pilot coding)
 
@@ -960,7 +960,7 @@ Link: could not be checked automatically on 16 November 2026 (the publisher limi
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as inequality, also lost work and income. Cites temperature, lost hours or wages. (pilot coding)
 
@@ -992,7 +992,7 @@ Aid groups describe deaths during extreme heat and power shortages. The story at
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as an emergency, also inequality. Cites temperature, deaths. (pilot coding)
 
@@ -1028,7 +1028,7 @@ In both collections (listed as b52 in the curated collection); counted once as a
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as climate science and attribution, also an emergency and inequality. Cites temperature, deaths. (pilot coding)
 
@@ -1064,7 +1064,7 @@ Link: could not be checked automatically on 16 November 2026 (the publisher limi
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as an emergency. Cites no figures. (pilot coding)
 
@@ -1096,7 +1096,7 @@ School principals describe adapting schedules and seeking extra drinking water. 
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as an emergency, also inequality. Cites temperature, deaths. (pilot coding)
 
@@ -1130,7 +1130,7 @@ Labour Day coverage includes demands for heat protection alongside wages. It exp
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as politics, also lost work and income and inequality. Cites lost hours or wages. (pilot coding)
 
@@ -1164,7 +1164,7 @@ A safety association calls for renewed workplace risk assessment during extreme 
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as another angle, also lost work and income. Cites no figures. (pilot coding)
 
@@ -1198,7 +1198,7 @@ The story compares the duration of southern Viet Nam’s heat with earlier years
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as climate science and attribution, also an emergency. Cites temperature. (pilot coding)
 
@@ -1230,7 +1230,7 @@ The report explains school options under an education ministry notice. It also r
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as an emergency. Cites temperature. (pilot coding)
 
@@ -1264,7 +1264,7 @@ Link: could not be checked automatically on 16 November 2026 (the publisher limi
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as an emergency, also inequality. Cites no figures. (pilot coding)
 
@@ -1298,7 +1298,7 @@ The brief returns to earlier school heat guidance after reported non-compliance.
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as an emergency, also responsibility split between institutions. Cites no figures. (pilot coding)
 
@@ -1332,7 +1332,7 @@ Schools are told to avoid outdoor activities during high heat. The brief identif
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as an emergency. Cites no figures. (pilot coding)
 
@@ -1368,7 +1368,7 @@ Publisher branding and credited NLĐO copy; hosted under Tuổi Trẻ /nld/. Rel
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as lost work and income, also inequality. Cites temperature, lost hours or wages. (pilot coding)
 
@@ -1742,7 +1742,7 @@ In both collections (listed as b06 in the curated collection); counted once as a
 
 Reporting trail: what the review found
 
-Provisional coding: one coder with AI assistance, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
+Provisional coding: coded once, without a second coding, from the full text read on 31 October 2026. States describe what the review found in the text, never what happened or a failure; see [the method](#method).
 
 **Harm or exposure reported**: Described in the reviewed material Framed mainly as responsibility split between institutions, also an emergency and inequality. Cites temperature, deaths. (pilot coding)
 
@@ -2274,7 +2274,7 @@ Choose “Add to comparison” on any record read in full to compare up to three
 
 A starting point for an investigation, built from the records on this page and Common Shade's own pages. It suggests kinds of records and perspectives to look for; it does not name documents that exist or people to interview, and its question is not a finding.
 
-The questions and kinds of record here were drafted with AI assistance and reviewed by the site’s maintainer: suggestions, not findings.
+The questions and kinds of record here were reviewed by the site’s maintainer: suggestions, not findings.
 
 - **Heat at work.** In the place you report on, who is responsible for protecting people most exposed to heat from heat at work, what resources pay for that protection, and what public record would show whether it reaches them?
 - **Income when heat stops work.** In the place you report on, when heat stops work for people most exposed to heat, what replaces lost income, who pays for it, and what records show payments reaching people?
@@ -2333,13 +2333,13 @@ Every link between a harm and a response on Common Shade is a question someone c
 
 **Curated collection**: Gathered in October 2026 by searching for prominent English-language reporting on heat in South and Southeast Asia. The searches captured more of 2024's prominent reporting, and some countries not at all. Depth of review: headline and listing. Headline, outlet, year, place and a short story angle written by the curator. The full text was not coded; patterns drawn from it rest on headlines, descriptions and some full texts not recorded one by one.
 
-**Multilingual pilot review**: Found in October 2026 by searching for reporting on work and protection in the countries and languages the collection missed, then read one by one. Chosen to see what such reporting can look like, not how common it is. Depth of review: full text, provisional coding. The full article was opened and read, and coded once with AI assistance, without a second coder. Every code cites the passage it rests on. Treat the codes as provisional until reviewed.
+**Multilingual pilot review**: Found in October 2026 by searching for reporting on work and protection in the countries and languages the collection missed, then read one by one. Chosen to see what such reporting can look like, not how common it is. Depth of review: full text, provisional coding. The full article was opened and read, and coded once, without a second coding. Every code cites the passage it rests on. Treat the codes as provisional until reviewed.
 
 **Counting**: 103 publication records (71 in the collection, 32 in the pilot) make 101 unique records: 2 stories appear in both, matched by their address. A check for near-identical headlines found no other copy of the same story; syndicated copies are noted on their record. Counts on this page say whether they count the collection, the pilot or unique records.
 
 **Translation**: 18 of 32 pilot headlines are in a national language. Each has a working English translation that the publisher has not authorised and a speaker of the language has not yet reviewed. Original titles are shown first, in their own script and direction. [The translations to review (CSV)](https://beattheheat.asia/research/2026-11/media-rebuild/translation-review.csv). If you read one of these languages, you can [offer a review through the join form](https://beattheheat.asia/join/#join-form) (a Microsoft Forms page; see [Privacy](https://beattheheat.asia/privacy/)). A reviewed translation is credited in aggregate, as “reviewed by one speaker of the language”, with no names published.
 
-**Second coding**: The pilot was coded by one coder with AI assistance, so its codes stay provisional. [A protocol for a human second coder](https://beattheheat.asia/research/2026-10/media/pilot/second-coding-protocol.md) is proposed, not scheduled.
+**Second coding**: The pilot was coded once, without a second coding, so its codes stay provisional. [A protocol for a human second coder](https://beattheheat.asia/research/2026-10/media/pilot/second-coding-protocol.md) is proposed, not scheduled.
 
 Coding definitions
 

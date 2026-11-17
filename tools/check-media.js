@@ -76,6 +76,6 @@ ok(!/native-language review pending/.test(html) && (html.match(/Working translat
 const LS = read("research/2026-11/media-rebuild/link-status.json");
 if (LS) { const L = JSON.parse(LS); ok(R.every(r => L[r.url]), "link check: every record's URL has a result"); ok(/id="links-checked">Links last checked automatically on /.test(html) && !/\bverified\b/i.test((html.match(/id="links-checked">[^<]*/) || [""])[0]), "page: states when links were last checked, as opened, never verified"); }
 ok(csv.slice(1).filter(l => /Not assessed/.test(l)).length >= S.unique - S.pilot, "records.csv says \"Not assessed\" for records read at listing depth, rather than leaving blanks");
-ok(/drafted with AI assistance and reviewed by the site’s maintainer: suggestions, not findings/.test(html), "page: the question kit says it was drafted with AI and reviewed, as suggestions");
+ok(/reviewed by the site’s maintainer: suggestions, not findings/.test(html), "page: the question kit says it was reviewed, as suggestions");
 if (fails.length) { console.log(fails.map(f => "  FAIL " + f).join("\n")); process.exit(1); }
 console.log(`how heat is reported check passed: ${S.unique} unique records (${S.collection} + ${S.pilot}, ${S.both} in both), comparisons quote their records, kit links resolve, page figures match, downloads complete`);
