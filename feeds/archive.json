@@ -2,6 +2,13 @@
  "note": "Every item that has appeared on /news/. Built by tools/archive-news.js.",
  "news": [
   {
+   "title": "Dangerous heat index forecast in 3 PH areas on Nov. 17",
+   "url": "https://newsinfo.inquirer.net/2342516/dangerous-heat-index-forecast-in-3-ph-areas-on-nov-17",
+   "via": "Inquirer",
+   "date": "2026-11-17T08:30:33Z",
+   "place": "Philippines"
+  },
+  {
    "title": "3 areas recorded ‘dangerous’ heat index on Monday, Nov. 16",
    "url": "https://newsinfo.inquirer.net/2342293/3-areas-recorded-dangerous-heat-index-on-monday-nov-16",
    "via": "Inquirer",
@@ -1281,5 +1288,5 @@
    "issue": "2027-07-28"
   }
  ],
- "updated": "2026-11-16T22:20:53.431Z"
+ "updated": "2026-11-17T08:09:37.129Z"
 }

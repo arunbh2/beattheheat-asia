@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T22:20:51.671Z",
+ "updated": "2026-11-17T08:09:35.670Z",
  "keepDays": 14,
  "sources": [
   {
@@ -11,11 +11,19 @@
    "name": "GDELT Project",
    "ok": false,
    "found": 0,
-   "error": "fetch failed: UND_ERR_CONNECT_TIMEOUT"
+   "error": "HTTP 429: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic us"
   }
  ],
  "query": "(heatwave OR \"heat wave\" OR \"extreme heat\" OR \"heat stress\" OR heatstroke OR \"heat index\") (India OR Bangladesh OR Nepal OR \"Sri Lanka\" OR Pakistan OR Bhutan OR Maldives OR Cambodia OR Indonesia OR Philippines OR Singapore OR Thailand OR Vietnam OR Malaysia OR Myanmar OR Laos) sourcelang:english",
  "items": [
+  {
+   "title": "Dangerous heat index forecast in 3 PH areas on Nov. 17",
+   "url": "https://newsinfo.inquirer.net/2342516/dangerous-heat-index-forecast-in-3-ph-areas-on-nov-17",
+   "domain": "newsinfo.inquirer.net",
+   "date": "2026-11-17T08:30:33Z",
+   "place": "Philippines",
+   "via": "Inquirer"
+  },
   {
    "title": "3 areas recorded ‘dangerous’ heat index on Monday, Nov. 16",
    "url": "https://newsinfo.inquirer.net/2342293/3-areas-recorded-dangerous-heat-index-on-monday-nov-16",
