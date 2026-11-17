@@ -194,7 +194,7 @@ const cmpHtml = c => `<section class="hr-cmpx" id="cmp-${esc(c.id)}" aria-labell
    </div><p class="hr-limit">Each cell quotes the review’s record of the article, not the article itself. The comparison sets reporting approaches side by side; it does not judge which story is better.</p></section>`;
 const learn = `<section class="hr-s" id="learn" aria-labelledby="learn-h">
   <span id="dots" class="hr-anchor"></span><h2 id="learn-h">How these examples follow protection</h2>
-  <p class="hr-lede">Ten articles from the pilot, chosen because they follow protection further, not as a ranking. For each: what it reports, whose voices and evidence it uses, how it connects responsibility, resources and delivery, and what it leaves open. A report is not the same as a finding.</p>
+  <p class="hr-lede">${ED.examples.length} articles from the pilot, chosen because they follow protection further, not as a ranking. For each: what it reports, whose voices and evidence it uses, how it connects responsibility, resources and delivery, and what it leaves open. A report is not the same as a finding.</p>
   <div class="hr-exs">${ED.examples.map(exCard).join("\n")}</div>
   <h3 class="hr-h3" id="compare">Compare two stories on the same protection</h3>
   ${ED.comparisons.map(cmpHtml).join("\n")}
@@ -347,6 +347,6 @@ fs.writeFileSync(path.join(ROOT, SLUG, "records.json"), JSON.stringify(json, nul
 // the collection as other builders read it (Sources and references, Growing): unchanged shape
 const ARTS = COLL.map(a => ({ year: a.year, pub: a.outlet, title: a.title, geo: a.places.join("; "), angle: a.angle, url: a.url, type: a.link_type })).sort((a, b) => b.year - a.year || a.pub.localeCompare(b.pub));
 fs.writeFileSync(path.join(M.DIR, "articles.json"), JSON.stringify(ARTS, null, 1) + "\n");
-require("./site-counts.js")({ mediaArticles: S.collection, mediaRecords: S.unique });
+require("./site-counts.js")({ mediaArticles: S.collection, mediaRecords: S.unique, mediaLanguages: S.pLangs });
 console.log(`how heat is reported: ${S.unique} unique records (${S.collection} collection + ${S.pilot} pilot, ${S.both} in both), ${S.years.length} years, none in the collection on ${S.cNone.join(", ")}`);
 module.exports = { S };

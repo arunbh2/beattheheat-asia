@@ -1,18 +1,18 @@
 ---
 title: "Questions to ask before you buy, fund or start"
 url: https://beattheheat.asia/heat-economy/conditions/
-updated: 2026-11-16
+updated: 2026-11-17
 licence: CC BY 4.0
 ---
 
-> Twenty-four questions to ask about heat protection, with rules that help, ways to pay, common obstacles and what each organisation could do.
+> 24 questions to ask about heat protection, with rules that help, ways to pay, common obstacles and what each organisation could do.
 
 The heat economy · Questions to ask
 
 # Questions to ask
 before you buy, fund or start.
 
-For city officers, employers, worker and community organisations, funders, investors and founders: twenty-four questions, the rules and ways of paying that have helped elsewhere, the common obstacles, and what each kind of organisation could do.
+For city officers, employers, worker and community organisations, funders, investors and founders: 24 questions, the rules and ways of paying that have helped elsewhere, the common obstacles, and what each kind of organisation could do.
 
 **Watch: Four questions before you buy** · 0:27 · narrated, captions in the picture
 

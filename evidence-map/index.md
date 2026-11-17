@@ -9,7 +9,7 @@ licence: CC BY 4.0
 
 What is still unknown?
 
-Twelve questions the evidence has not yet answered, each sized for one well-designed study, and where evidence looks stronger than the funding we traced.
+44 questions the evidence has not yet answered, each sized for one well-designed study, and where evidence looks stronger than the funding we traced.
 
 **Read first:** [Questions nobody has answered yet](#questions) · [Stronger evidence, little funding traced](#stronger)
 
@@ -19,7 +19,7 @@ Twelve questions the evidence has not yet answered, each sized for one well-desi
 
 How sure are we, and what is still unknown?
 
-Every study graded by kind, cycle by cycle, and twelve questions nobody has answered yet.
+Every study graded by kind, cycle by cycle, and 44 questions nobody has answered yet.
 
 **Read first:** [Questions nobody has answered yet](#questions)
 

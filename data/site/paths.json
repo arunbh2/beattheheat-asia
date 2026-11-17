@@ -54,7 +54,7 @@
     {
      "url": "/evidence-map/",
      "q": "What is still unknown?",
-     "why": "Twelve questions the evidence has not yet answered, each sized for one well-designed study, and where evidence looks stronger than the funding we traced.",
+     "why": "{learningQuestions} questions the evidence has not yet answered, each sized for one well-designed study, and where evidence looks stronger than the funding we traced.",
      "read": [
       [
        "#questions",
@@ -106,7 +106,7 @@
      "read": [],
      "do": [
       "/heat-economy/conditions/",
-      "Twenty-four questions to ask before a grant starts"
+      "{conditionQuestions} questions to ask before a grant starts"
      ]
     }
    ]
@@ -532,7 +532,7 @@
     {
      "url": "/evidence-map/",
      "q": "How sure are we, and what is still unknown?",
-     "why": "Every study graded by kind, cycle by cycle, and twelve questions nobody has answered yet.",
+     "why": "Every study graded by kind, cycle by cycle, and {learningQuestions} questions nobody has answered yet.",
      "read": [
       [
        "#questions",

@@ -24,7 +24,7 @@
   "changed": "2026-11-16"
  },
  "/actions/": {
-  "hash": "2cc0632171db3257",
+  "hash": "450bb0889ddacc14",
   "changed": "2026-11-17"
  },
  "/approach/": {
@@ -52,8 +52,8 @@
   "changed": "2026-11-16"
  },
  "/cite/": {
-  "hash": "e46dd7a9943d0482",
-  "changed": "2026-11-01"
+  "hash": "fa1f831229497194",
+  "changed": "2026-11-17"
  },
  "/cities/": {
   "hash": "7eb46afa99671b5a",
@@ -192,8 +192,8 @@
   "changed": "2026-11-16"
  },
  "/evidence/": {
-  "hash": "46eee269728aa492",
-  "changed": "2026-11-13"
+  "hash": "90353d45cd00e27f",
+  "changed": "2026-11-17"
  },
  "/finance/": {
   "hash": "2efdcb132fa3ae81",
@@ -212,7 +212,7 @@
   "changed": "2026-11-07"
  },
  "/growing/": {
-  "hash": "7d1b39c76990341e",
+  "hash": "647f47d72eb3f310",
   "changed": "2026-11-17"
  },
  "/guide/": {
@@ -220,20 +220,20 @@
   "changed": "2026-11-15"
  },
  "/heat-assembly/": {
-  "hash": "ab6ad79c176f1e64",
+  "hash": "d07a55ef86b3206a",
   "changed": "2026-11-17"
  },
  "/heat-economy/": {
-  "hash": "3ce0703499394ce6",
-  "changed": "2026-11-16"
+  "hash": "c18fccd1706bc155",
+  "changed": "2026-11-17"
  },
  "/heat-economy/businesses/": {
   "hash": "553018e1dc64e26f",
   "changed": "2026-11-16"
  },
  "/heat-economy/conditions/": {
-  "hash": "d4d731bfcba8e191",
-  "changed": "2026-11-16"
+  "hash": "403ed0c70a724906",
+  "changed": "2026-11-17"
  },
  "/heat-economy/flows/": {
   "hash": "687bf616b682ba74",
@@ -248,7 +248,7 @@
   "changed": "2026-11-16"
  },
  "/heat-network/": {
-  "hash": "d78552d9cff8c91a",
+  "hash": "931e3a85f2243fad",
   "changed": "2026-11-17"
  },
  "/heat-tools/": {
@@ -348,12 +348,12 @@
   "changed": "2026-11-06"
  },
  "/how-heat-is-reported/": {
-  "hash": "72c70f05f3d8c1d6",
+  "hash": "9131785edb24837b",
   "changed": "2026-11-17"
  },
  "/intersections/": {
-  "hash": "a2f1d990a20be0a8",
-  "changed": "2026-11-01"
+  "hash": "f60c757fcbbef65c",
+  "changed": "2026-11-17"
  },
  "/join/": {
   "hash": "150465899076b4c9",
@@ -364,7 +364,7 @@
   "changed": "2026-11-16"
  },
  "/live-through-a-heatwave/": {
-  "hash": "41524118fecc5c2e",
+  "hash": "6fe5dc177928cb7e",
   "changed": "2026-11-17"
  },
  "/loops/": {
@@ -392,8 +392,8 @@
   "changed": "2026-10-01"
  },
  "/paths/funder/": {
-  "hash": "c64317dfc56fbecb",
-  "changed": "2026-11-15"
+  "hash": "70950597a6bc6ee6",
+  "changed": "2026-11-17"
  },
  "/paths/health/": {
   "hash": "7515e4902dde7982",
@@ -588,7 +588,7 @@
   "changed": "2026-11-17"
  },
  "/print/heatwaves/": {
-  "hash": "7cd83d2537b77686",
+  "hash": "31805d8d8304357d",
   "changed": "2026-11-17"
  },
  "/print/paying-for-protection/": {

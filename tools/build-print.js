@@ -293,7 +293,7 @@ async function build() {
       <p style="margin-top:6px;font-size:8.4pt;color:#5E6570">${esc(D.HEATWAVES_NOTE)}</p>`;
     add("heatwaves", { kind: "One-pager · For journalists, officials and funders", title: "Lessons from Asia’s heatwaves, 1998–2026", for: "Journalists, officials and funders" },
       await sheet({ slug: "heatwaves", kind: "One-pager · For journalists, officials and funders", title: "Lessons from Asia’s heatwaves, 1998–2026",
-        lede: "Ten heatwaves across South and Southeast Asia: what they cost, what changed afterwards, and what they teach.", body, live: "/#heatwaves",
+        lede: `${D.HEATWAVES.length} heatwaves across South and Southeast Asia: what they cost, what changed afterwards, and what they teach.`, body, live: "/#heatwaves",
         sources: D.HEATWAVES.flatMap(h => h.sources.slice(0, 1)) }));
   }
 

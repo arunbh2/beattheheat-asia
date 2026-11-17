@@ -5,7 +5,7 @@ updated: 2026-11-17
 licence: CC BY 4.0
 ---
 
-> Ten heatwaves across South and Southeast Asia: what they cost, what changed afterwards, and what they teach.
+> 10 heatwaves across South and Southeast Asia: what they cost, what changed afterwards, and what they teach.
 
 **COMMON SHADE
 
@@ -13,7 +13,7 @@ One-pager · For journalists, officials and funders
 
 # Lessons from Asia’s heatwaves, 1998–2026
 
-Ten heatwaves across South and Southeast Asia: what they cost, what changed afterwards, and what they teach.
+10 heatwaves across South and Southeast Asia: what they cost, what changed afterwards, and what they teach.
 
 When | Where | Peak | Recorded toll |
 

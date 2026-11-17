@@ -29,6 +29,7 @@ const CHECKS = [
   { name: "type", cmd: "node tools/check-type.js", guards: "the type scale and the 12px floor" },
   { name: "colours", cmd: "node tools/check-colours.js", guards: "colour meanings and the link style" },
   { name: "weight", cmd: "node tools/check-weight.js", guards: "the speed and media budgets (record a deliberate change with --update, by hand)" },
+  { name: "plan-file", cmd: "node tools/check-plan-file.js", server: true, slow: true, guards: "/plan/ saves the whole plan to a file and opens it back unchanged; a stranger's file is refused" },
   { name: "contrast", cmd: "node tools/check-contrast.js", server: true, slow: true, guards: "WCAG AA contrast on every rendered page" },
   { name: "targets", cmd: "node tools/check-targets.js", server: true, slow: true, guards: "WCAG 2.2 touch target size on every rendered page at 390px" },
   { name: "site", cmd: "node tools/check-site.js", slow: true, tracked: true, guards: "every tracked page loads at 375px and 1280px without errors or sideways scroll, and reflows at 320px with text at 200%" },

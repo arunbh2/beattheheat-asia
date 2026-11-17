@@ -862,6 +862,16 @@
       "review": "Drawn to the checked watch-out only: no second figure, a blank badge, the heat easing only slightly; checked for broken poses and reduced motion",
       "pages": [["/actions/#heatrules", "Heat-safe work"]], "action": ["See the drawing", "/actions/#heatrules"],
       "links": [{ "to": "lever:heatrules", "why": "An illustrative drawing of its watch-out.", "basis": "editorial" }]
+    },
+    {
+      "id": "g-plan-file", "kind": "tool", "root": "practical", "added": "2026-11-17", "pr": null,
+      "title": "Plan a response: save the whole plan as a file, and open it again",
+      "why": "A plan made on Plan a response can now be saved as a file with everything in it, owners, notes and money included, and a colleague can open that file in their own browser to keep working. Nothing is sent anywhere: the file stays with whoever saves it.",
+      "places": ["region"], "people": [], "topics": ["hap"],
+      "event": { "what": "Save and open added", "date": "2026-11-17" },
+      "review": "A browser check saves a seeded plan, starts again, opens the file and finds every part back; a file that is not a saved plan is refused",
+      "pages": [["/plan/", "Plan a response"]], "action": ["Make a plan", "/plan/"],
+      "links": [{ "to": "lever:hap", "why": "A plan can pass between the people who sign it off.", "basis": "editorial" }]
     }
   ]
 }

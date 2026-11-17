@@ -275,7 +275,10 @@ function checkLearning(V) {
 function checkCountsAndDates() {
   const fs = require("fs"), path = require("path"), ROOT = path.join(__dirname, ".."), P = [], today = new Date().toISOString().slice(0, 10);
   const NAV = JSON.parse(fs.readFileSync(path.join(ROOT, "data/site/nav.json"), "utf8"));
-  const typed = s => (String(s).match(/(?:^|[^\w{\/.-])(\d[\d,]*)\s+[A-Za-z]/g) || []).map(m => m.trim()).filter(m => !/^(19|20)\d\d\b/.test(m));
+  // digits, and counts spelled out from ten upward ("Eighty-five terms", "Twelve city profiles"); one to nine are left
+  // out, since they run through ordinary sentences ("one place", "two widths")
+  const WORDS = /\b(?:ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|(?:twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety)(?:-(?:one|two|three|four|five|six|seven|eight|nine))?|(?:a |one )?hundred|(?:a |one )?thousand)\s+[A-Za-z]/gi;
+  const typed = s => [...(String(s).match(/(?:^|[^\w{\/.-])(\d[\d,]*)\s+[A-Za-z]/g) || []).map(m => m.trim()).filter(m => !/^(19|20)\d\d\b/.test(m)), ...(String(s).match(WORDS) || [])];
   NAV.groups.forEach(g => [g.lead, ...g.items].forEach(it => { if (!it) return; [it[1], it[2]].forEach(s => typed(s).forEach(m =>
     P.push(`data/site/nav.json "${it[0]}": "${m}..." is a typed count; write it as {key} (filled from data/site/counts.json by tools/nav-counts.js)`))); }));
   const PJ = JSON.parse(fs.readFileSync(path.join(ROOT, "data/site/paths.json"), "utf8"));

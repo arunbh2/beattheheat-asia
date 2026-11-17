@@ -1,7 +1,7 @@
 ---
 title: "Funders and philanthropy: a path through Common Shade"
 url: https://beattheheat.asia/paths/funder/
-updated: 2026-11-15
+updated: 2026-11-17
 licence: CC BY 4.0
 ---
 
@@ -39,7 +39,7 @@ Where support could matter most, what works, and who could carry it to people.
 
 ## [What is still unknown?](https://beattheheat.asia/evidence-map/)
 
-Twelve questions the evidence has not yet answered, each sized for one well-designed study, and where evidence looks stronger than the funding we traced.
+44 questions the evidence has not yet answered, each sized for one well-designed study, and where evidence looks stronger than the funding we traced.
 
 **Read first:** [Questions nobody has answered yet](https://beattheheat.asia/evidence-map/#questions) · [Stronger evidence, little funding traced](https://beattheheat.asia/evidence-map/#stronger)
 
@@ -69,7 +69,7 @@ For each action, who could permit it, pay for it, deliver it and check it, with 
 
 Choose Sketch a portfolio: a few grants across places and roles, and see which cycles it reaches, what it leans on and what would make it last.
 
-**Then:** [Twenty-four questions to ask before a grant starts](https://beattheheat.asia/heat-economy/conditions/)
+**Then:** [24 questions to ask before a grant starts](https://beattheheat.asia/heat-economy/conditions/)
 
 - ✓
 

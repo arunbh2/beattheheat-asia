@@ -1,7 +1,7 @@
 ---
 title: "The heat economy"
 url: https://beattheheat.asia/heat-economy/
-updated: 2026-11-16
+updated: 2026-11-17
 licence: CC BY 4.0
 ---
 
@@ -29,7 +29,7 @@ Who already offers protection from heat, who funds it, which new businesses and 
 
 ### For worker organisations and community groups
 
-- [Is it fair? Seven questions to ask ](https://beattheheat.asia/heat-economy/conditions/#q-fair)About cost, rent, paid rest, unpaid work, access and data.
+- [Is it fair? 7 questions to ask ](https://beattheheat.asia/heat-economy/conditions/#q-fair)About cost, rent, paid rest, unpaid work, access and data.
 - [Ideas that put workers and communities first ](https://beattheheat.asia/heat-economy/opportunities/#g5-poverty-paidrest)Paid rest at work, worker-run income support, shared cool rooms, upgrades that let residents stay.
 - [How heat insurance works ](https://beattheheat.asia/heat-economy/businesses/?segment=heat-insurance)And what to ask before joining a scheme.
 - [Tell us what works where you are ](https://beattheheat.asia/join/)Your experience helps others choose well.
@@ -39,7 +39,7 @@ Who already offers protection from heat, who funds it, which new businesses and 
 - [Ideas that need public or shared funding ](https://beattheheat.asia/heat-economy/opportunities/?viable=public)Where grants, guarantees and patient money can do the most.
 - [Funding we could trace so far ](https://beattheheat.asia/heat-economy/money/)Who has funded what, and how to read funding news.
 - [Accelerators, prizes and challenges ](https://beattheheat.asia/heat-economy/money/#programmes)Programmes already finding and backing ventures.
-- [Who pays, and who carries the risk? ](https://beattheheat.asia/heat-economy/conditions/#q-risk)Four questions to ask before backing a product or service.
+- [Who pays, and who carries the risk? ](https://beattheheat.asia/heat-economy/conditions/#q-risk)4 questions to ask before backing a product or service.
 
 ### For people starting or growing a business
 
@@ -95,7 +95,7 @@ Four kinds of money
 
 **Some protection needs public or shared funding.** Shade in public places, paid rest for informal workers, care for people who can’t pay, and warnings that reach everyone. These are paid for through public budgets, social protection, grants and buying together.
 
-## Nineteen kinds of protection, and what to check
+## 19 kinds of protection, and what to check
 
 For each: what it is, who usually pays, and three questions to ask a supplier.
 

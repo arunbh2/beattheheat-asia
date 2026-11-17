@@ -1457,8 +1457,11 @@
   // an action no longer in the data is set aside (its notes stay in storage, under plan.retired) rather than breaking the plan
   function retireUnknown() { const gone = plan.levers.filter(id => !leverById[id]); if (!gone.length) return;
     plan.retired = [...new Set([...(Array.isArray(plan.retired) ? plan.retired : []), ...gone])]; plan.levers = plan.levers.filter(id => leverById[id]); }
-  let plan = { place: "", group: "", levers: [], rows: {}, example: null, stalls: [], triggers: {}, review: "", exposure: [], finance: {}, reviewLog: {}, origins: {} };
-  try { const saved = JSON.parse(localStorage.getItem(PLAN_KEY) || "null"); if (saved && Array.isArray(saved.levers)) plan = Object.assign(plan, saved); if (!Array.isArray(plan.stalls)) plan.stalls = []; if (!plan.triggers || typeof plan.triggers !== "object") plan.triggers = {}; if (!Array.isArray(plan.exposure)) plan.exposure = []; if (!plan.finance || typeof plan.finance !== "object") plan.finance = {}; if (!plan.origins || typeof plan.origins !== "object" || Array.isArray(plan.origins)) plan.origins = {}; retireUnknown(); } catch (e) {}
+  const emptyPlan = () => ({ place: "", group: "", levers: [], rows: {}, example: null, stalls: [], triggers: {}, review: "", exposure: [], finance: {}, reviewLog: {}, origins: {} });
+  // the same clean-up for a plan read from this browser or from a saved file
+  function normalisePlan(saved) { let plan = emptyPlan(); if (saved && Array.isArray(saved.levers)) plan = Object.assign(plan, saved); if (!Array.isArray(plan.stalls)) plan.stalls = []; if (!plan.triggers || typeof plan.triggers !== "object") plan.triggers = {}; if (!Array.isArray(plan.exposure)) plan.exposure = []; if (!plan.finance || typeof plan.finance !== "object") plan.finance = {}; if (!plan.origins || typeof plan.origins !== "object" || Array.isArray(plan.origins)) plan.origins = {}; return plan; }
+  let plan = emptyPlan();
+  try { plan = normalisePlan(JSON.parse(localStorage.getItem(PLAN_KEY) || "null")); retireUnknown(); } catch (e) {}
   const savePlan = () => { try { localStorage.setItem(PLAN_KEY, JSON.stringify(plan)); } catch (e) {} if (!PLAN_PAGE) renderPlanLaunch(); };
   const PHASES = typeof PLAN_PHASES !== "undefined" ? PLAN_PHASES : [], PHASE_DEF = typeof PLAN_PHASE_DEFAULT !== "undefined" ? PLAN_PHASE_DEFAULT : {};
   const phaseById = Object.fromEntries(PHASES.map(x => [x.id, x]));
@@ -1705,6 +1708,8 @@
         <button type="button" class="btn btn--sm btn--ghost" data-pl-act="print"${plan.levers.length ? "" : " disabled"}>Open a printable plan</button>
         <button type="button" class="btn btn--sm btn--ghost" data-pl-act="copy"${plan.levers.length ? "" : " disabled"}>Copy as text</button>
         <button type="button" class="btn btn--sm btn--ghost" data-pl-act="link"${plan.levers.length || plan.place ? "" : " disabled"}>Copy a link to start this plan</button>
+        <button type="button" class="btn btn--sm btn--ghost" data-pl-act="save"${plan.levers.length || plan.place ? "" : " disabled"}>Save the whole plan as a file</button>
+        <button type="button" class="btn btn--sm btn--ghost" data-pl-act="open">Open a saved plan</button>
         <button type="button" class="link" data-pl-act="clear">Start again</button>
       </div>
       <p class="plan-summary__status" data-pl-status role="status"></p>`;
@@ -2055,9 +2060,29 @@
       if (act === "map") goToMap(() => applyLevers(plan.levers, plan.place || "Your plan", "The actions in your plan, switched on together."));
       else if (act === "print") openPlan();
       else if (act === "link") { const u = planStartLink(); track("plan-link");
-        navigator.clipboard.writeText(u).then(() => { if (status) status.textContent = "Link copied. Whoever opens it starts a plan with this place, group and actions (not your notes, owners or money)."; }, () => { if (status) status.textContent = u; }); }
+        navigator.clipboard.writeText(u).then(() => { if (status) status.textContent = "Link copied. Whoever opens it starts a plan with this place, group and actions. To pass on notes, owners and money too, save the whole plan as a file."; }, () => { if (status) status.textContent = u; }); }
       else if (act === "copy") navigator.clipboard.writeText(planText()).then(() => { if (status) status.textContent = "Plan copied. Paste it into an email or document."; }, () => { if (status) status.textContent = "Couldn’t copy. Use “Open a printable plan” instead."; });
-      else if (act === "clear") { plan = { place: "", group: "", levers: [], rows: {}, example: null, stalls: [], triggers: {}, review: "", exposure: [], finance: {}, reviewLog: {}, origins: {} }; savePlan(); renderPlan(); }
+      else if (act === "save") {
+        // the whole plan (notes, owners, money and dates included) as a file that stays with the reader; nothing is sent anywhere
+        const blob = new Blob([JSON.stringify({ format: "common-shade-plan", version: 1, saved: new Date().toISOString(), plan }, null, 1)], { type: "application/json" });
+        const a = document.createElement("a"); a.href = URL.createObjectURL(blob);
+        a.download = `heat-plan-${(plan.place || "draft").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") || "draft"}.json`;
+        document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+        if (status) status.textContent = "Plan saved as a file, with notes, owners and money. A colleague can open it here with “Open a saved plan”."; }
+      else if (act === "open") {
+        const inp = document.createElement("input"); inp.type = "file"; inp.accept = ".json,application/json";
+        inp.addEventListener("change", () => { const f = inp.files && inp.files[0]; if (!f) return;
+          if (f.size > 1024 * 1024) { if (status) status.textContent = "That file is too large to be a saved plan."; return; }
+          const r = new FileReader();
+          r.onload = () => { let d = null; try { d = JSON.parse(r.result); } catch (e) {}
+            if (!d || d.format !== "common-shade-plan" || !d.plan || !Array.isArray(d.plan.levers)) { if (status) status.textContent = "That file is not a saved Common Shade plan."; return; }
+            if ((plan.levers.length || plan.place) && !window.confirm("Opening this file replaces the plan in this browser. Continue?")) return;
+            plan = normalisePlan(d.plan); retireUnknown(); savePlan(); renderPlan();
+            const st = sec.querySelector("[data-pl-status]"); if (st) st.textContent = `Plan opened${plan.place ? ` for ${plan.place}` : ""}: ${plan.levers.length} action${plan.levers.length === 1 ? "" : "s"}, with its notes, owners and money. It is saved in this browser only.`; };
+          r.onerror = () => { if (status) status.textContent = "Couldn’t read that file."; };
+          r.readAsText(f); });
+        inp.click(); }
+      else if (act === "clear") { plan = emptyPlan(); savePlan(); renderPlan(); }
     });
   })();
 
@@ -2956,7 +2981,7 @@
   // so they add nothing to the first view of the homepage
   let CITIES = [], cityById = {}, profilesPromise = null, cityDrawn = false, cityWanted = null;
   function loadProfiles() {
-    if (!profilesPromise) profilesPromise = fetch("/cities/profiles.json?v=239").then(r => { if (!r.ok) throw new Error("profiles " + r.status); return r.json(); })
+    if (!profilesPromise) profilesPromise = fetch("/cities/profiles.json?v=240").then(r => { if (!r.ok) throw new Error("profiles " + r.status); return r.json(); })
       .then(list => { CITIES = Array.isArray(list) ? list.filter(p => LIVE.some(c => c.id === p.id)) : []; cityById = Object.fromEntries(CITIES.map(p => [p.id, p])); if (!CITIES.length) throw new Error("no profiles"); return CITIES; })
       .catch(e => { profilesPromise = null; throw e; });
     return profilesPromise;
