@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>stick-scene: turn one line into a hand-drawn scene</title>
+<meta name="description" content="A skill for coding agents that turns one line into a little hand-drawn scene for your page.">
+<meta name="author" content="Kamran Ahmed">
+<meta name="theme-color" content="#ffffff">
+<link rel="canonical" href="https://kamran.fyi/stick-scene">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Kamran Ahmed">
+<meta property="og:url" content="https://kamran.fyi/stick-scene">
+<meta property="og:title" content="stick-scene: turn one line into a hand-drawn scene">
+<meta property="og:description" content="A skill for coding agents that turns one line into a little hand-drawn scene for your page.">
+<meta property="og:image" content="https://kamran.fyi/stick-scene/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="A stick figure doing a binary search across ten numbered cards, next to npx skills add nilbuild/stick-scene">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@nilbuild">
+<meta name="twitter:creator" content="@nilbuild">
+<meta name="twitter:title" content="stick-scene: turn one line into a hand-drawn scene">
+<meta name="twitter:description" content="A skill for coding agents that turns one line into a little hand-drawn scene for your page.">
+<meta name="twitter:image" content="https://kamran.fyi/stick-scene/assets/og.png">
+<meta name="twitter:image:alt" content="A stick figure doing a binary search across ten numbered cards, next to npx skills add nilbuild/stick-scene">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareSourceCode",
+  "name": "stick-scene",
+  "description": "A skill for coding agents that turns one line into a little hand-drawn scene for your page.",
+  "url": "https://kamran.fyi/stick-scene",
+  "codeRepository": "https://github.com/nilbuild/stick-scene",
+  "programmingLanguage": "JavaScript",
+  "license": "https://opensource.org/licenses/MIT",
+  "author": { "@type": "Person", "name": "Kamran Ahmed", "url": "https://kamran.fyi" }
+}
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QD7PX9C379"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+  dataLayer.push(arguments);
+}
+gtag('js', new Date());
+gtag('config', 'G-QD7PX9C379');
+</script>
+<link rel="icon" href="/stick-scene/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500&family=Geist+Mono:wght@400;500;600&display=swap">
+<style>
+/* Layout: one quiet page. A centred 720px plate (title, line, scene, topic pills, install) above a 1040px grid of every example that opens into a stepping viewer. Light only on purpose: the scenes are ink on white paper. */
+:root {
+  --bg: #ffffff;
+  --ink: oklch(0.2 0 0);
+  --body: oklch(0.42 0 0);
+  --muted: oklch(0.58 0 0);
+  --faint: oklch(0.74 0 0);
+  --line: oklch(0.93 0 0);
+  --pill: oklch(0.965 0 0);
+  --pill-hover: oklch(0.935 0 0);
+  --code: oklch(0.2 0.004 60);
+  --code-ink: oklch(0.93 0.005 80);
+  --accent: #ff8c26;
+  --sans: 'Geist', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --mono: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+html { -webkit-font-smoothing: antialiased; background: var(--bg); }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.6 var(--sans); padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1, h2, p { margin: 0; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; color: inherit; cursor: pointer; }
+:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; border-radius: 6px; }
+stick-scene { display: block; }
+
+
+/* Plate */
+.plate { width: min(720px, 100%); margin: 0 auto; padding-block: 112px 0; display: grid; justify-items: center; text-align: center; }
+.plate h1 { font: 600 22px var(--mono); letter-spacing: -.02em; }
+.plate h1 span { color: var(--faint); }
+.plate .sub { margin-top: 10px; color: var(--body); font-size: 17px; max-width: 42ch; text-wrap: balance; }
+.links { margin-top: 14px; display: flex; align-items: center; gap: 18px; font-size: 13.5px; color: var(--muted); }
+.links a { display: inline-flex; align-items: center; gap: 6px; transition: color .15s; }
+.links a:hover { color: var(--ink); }
+.links svg { width: 15px; height: 15px; }
+.stage { position: relative; width: min(720px, 100%); height: 320px; margin-top: 4px; touch-action: pan-y; }
+.stage stick-scene { height: 320px; width: 100%; }
+.slide { transition: opacity .35s ease, transform .35s ease; }
+.slide.out-l { opacity: 0; transform: translateX(-18px); }
+.slide.out-r { opacity: 0; transform: translateX(18px); }
+.slide.in-l { opacity: 0; transform: translateX(18px); transition: none; }
+.slide.in-r { opacity: 0; transform: translateX(-18px); transition: none; }
+.pills { margin-top: 12px; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+.pills button { position: relative; height: 36px; padding: 0 16px; border: 0; border-radius: 99px; background: var(--pill); color: var(--body); font-size: 14.5px; overflow: hidden; transition: background-color .2s, color .2s; }
+.pills button:hover { background: var(--pill-hover); color: var(--ink); }
+.pills button[aria-pressed="true"] { background: var(--ink); color: #fff; }
+.pills button span { position: relative; }
+.pills.auto button[aria-pressed="true"]::before { content: ''; position: absolute; inset: 0; background: oklch(1 0 0 / .14); transform-origin: left; transform: scaleX(0); animation: fill var(--t, 6s) linear forwards; }
+@keyframes fill { to { transform: scaleX(1); } }
+
+.install { margin-top: 48px; display: inline-flex; align-items: center; gap: 12px; max-width: 100%; padding: 12px 12px 12px 18px; border-radius: 12px; background: var(--code); color: var(--code-ink); font: 14.5px var(--mono); }
+.install b { font-weight: 400; color: var(--accent); }
+.install code { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.copy { flex: none; display: grid; place-items: center; padding: 8px; margin: -8px -6px -8px 0; border: 0; background: none; color: oklch(1 0 0 / .5); transition: color .15s; }
+.copy:hover, .copy.done { color: var(--code-ink); }
+.copy svg { width: 15px; height: 15px; }
+.copy .i-done, .copy.done .i-copy { display: none; }
+.copy.done .i-done { display: block; }
+.copy:focus-visible, .icon:focus-visible { outline: none; }
+.note { margin-top: 12px; font-size: 13px; color: var(--muted); }
+.note code { font: 12.5px var(--mono); color: var(--body); }
+
+/* Examples */
+.ex { width: min(1040px, 100%); margin: 120px auto 0; display: grid; gap: 28px; }
+.ex-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 12px 24px; }
+.ex-head h2 { font-size: 15px; font-weight: 500; }
+.ex-head h2 span { color: var(--muted); font-weight: 400; margin-left: 6px; }
+.tabs { display: flex; flex-wrap: wrap; gap: 4px 18px; }
+.tabs button { padding: 2px 0; border: 0; background: none; font-size: 13.5px; color: var(--muted); border-bottom: 1px solid transparent; transition: color .15s, border-color .15s; }
+.tabs button:hover { color: var(--ink); }
+.tabs button[aria-pressed="true"] { color: var(--ink); border-bottom-color: var(--ink); }
+.tabs em { font: 11.5px var(--mono); font-style: normal; color: var(--faint); margin-left: 4px; }
+.grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 36px 28px; }
+.cell { display: grid; gap: 2px; padding: 0; border: 0; background: none; text-align: left; }
+.cell .f { border-radius: 10px; transition: background-color .2s; }
+.cell:hover .f { background: oklch(0.985 0 0); }
+.cell stick-scene { height: 180px; width: 100%; pointer-events: none; }
+.cell b { margin-top: 6px; font-size: 14px; font-weight: 500; }
+.cell code { font: 12px/1.5 var(--mono); color: var(--muted); transition: color .15s; }
+.cell:hover code { color: var(--body); }
+.more { justify-self: center; height: 36px; padding: 0 16px; border: 0; border-radius: 99px; background: var(--pill); color: var(--body); font-size: 14px; transition: background-color .15s, color .15s; }
+.more:hover { color: var(--ink); background: var(--pill-hover); }
+
+/* Viewer */
+.lb { width: min(880px, calc(100vw - 32px)); max-height: calc(100dvh - 32px); padding: 0; border: 0; border-radius: 16px; background: var(--bg); color: var(--ink); box-shadow: 0 40px 100px -30px oklch(0 0 0 / .45); overflow: auto; }
+.lb::backdrop { background: oklch(0.2 0 0 / .4); backdrop-filter: blur(3px); -webkit-backdrop-filter: blur(3px); }
+.lb[open] { animation: lb-in .22s ease-out; }
+@keyframes lb-in { from { opacity: 0; transform: translateY(8px) scale(.985); } }
+.lb-top { display: flex; align-items: center; gap: 10px; padding: 14px 14px 0 22px; font-size: 13px; color: var(--muted); }
+.lb-top .sp { flex: 1; }
+.lb-top i { font-style: normal; font-family: var(--mono); font-size: 12px; font-variant-numeric: tabular-nums; }
+.icon { width: 32px; height: 32px; display: grid; place-items: center; padding: 0; border: 0; border-radius: 50%; background: none; color: var(--muted); transition: color .15s, background-color .15s; }
+.icon:hover { color: var(--ink); background: var(--pill); }
+.icon svg { width: 15px; height: 15px; }
+.lb-body { display: grid; grid-template-columns: 44px minmax(0, 1fr) 44px; align-items: center; gap: 8px; padding: 6px 12px 0; }
+.lb-body .icon { width: 40px; height: 40px; background: var(--pill); }
+.lb-body .icon:hover { background: var(--pill-hover); }
+.lb-stage { height: 380px; }
+.lb-stage stick-scene { height: 380px; width: 100%; }
+.lb-foot { display: grid; justify-items: center; gap: 12px; padding: 4px 24px 26px; text-align: center; }
+.lb-foot b { font-size: 16px; font-weight: 500; }
+.lb-foot p { color: var(--body); max-width: 52ch; margin-top: 2px; }
+.lb-ask { display: inline-flex; align-items: center; gap: 12px; max-width: 100%; padding: 12px 12px 12px 16px; border-radius: 12px; background: var(--code); color: var(--code-ink); font: 13px var(--mono); }
+.lb-ask code { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.lb-ask i { font-style: normal; color: var(--accent); }
+
+footer { width: min(1040px, 100%); margin: 96px auto 0; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 20px; padding-block: 20px 40px; font-size: 13px; color: var(--muted); }
+footer a:hover { color: var(--ink); }
+
+@media (max-width: 720px) {
+  .plate { padding-top: 56px; }
+  .plate h1 { font-size: 19px; }
+  .plate .sub { font-size: 15.5px; }
+  .stage, .stage stick-scene { height: 210px; }
+  .pills button { height: 32px; padding: 0 13px; font-size: 13.5px; }
+  .install { font-size: 12.5px; padding-left: 12px; }
+  .ex { margin-top: 88px; }
+  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 16px; }
+  .cell stick-scene { height: 120px; }
+  .cell code { font-size: 11px; }
+  .lb-body { grid-template-columns: minmax(0, 1fr); padding: 0; }
+  .lb-body > .icon { display: none; }
+  .lb-stage, .lb-stage stick-scene { height: 230px; }
+  .lb-foot { padding-inline: 16px; }
+  .lb-nav-sm { display: flex !important; }
+}
+.lb-nav-sm { display: none; gap: 8px; }
+.lb-nav-sm .icon { width: 40px; height: 40px; background: var(--pill); }
+@media (prefers-reduced-motion: reduce) { .slide, .lb[open] { transition: none; animation: none; } .pills.auto button[aria-pressed="true"]::before { animation: none; } }
+</style>
+</head>
+<body>
+<main id="top">
+  <section class="plate" aria-label="stick-scene">
+    <h1><span>/</span>stick-scene</h1>
+    <p class="sub">A skill for coding agents that turns one line into a little hand-drawn scene for your page.</p>
+    <nav class="links"><a href="https://github.com/nilbuild/stick-scene"><svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>GitHub</a><a href="#examples">Examples</a></nav>
+    <div class="stage slide" data-stage aria-live="polite"></div>
+    <div class="pills auto" data-pills aria-label="Pick an example"></div>
+    <div class="install"><b>$</b><code>npx skills add nilbuild/stick-scene</code><button type="button" class="copy" data-copy-install aria-label="Copy install command"><svg class="i-copy" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><rect x="5" y="5" width="8.5" height="8.5" rx="1.5"/><path d="M10.5 5V3.5A1.5 1.5 0 0 0 9 2H3.5A1.5 1.5 0 0 0 2 3.5V9a1.5 1.5 0 0 0 1.5 1.5H5"/></svg><svg class="i-done" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 8.5l3 3 6-7"/></svg></button></div>
+    <p class="note">Then ask your agent: <code>/stick-scene</code> and what it should explain.</p>
+  </section>
+
+  <section class="ex" id="examples">
+    <div class="ex-head"><h2>Examples<span data-total></span></h2><div class="tabs" data-tabs></div></div>
+    <div class="grid" data-grid></div>
+    <button type="button" class="more" data-more>Show all</button>
+  </section>
+</main>
+
+<dialog class="lb" data-lb aria-label="Example viewer" autofocus>
+  <div class="lb-top"><span data-lb-cat></span><span class="sp"></span><i data-lb-n></i><button type="button" class="icon" data-lb-close aria-label="Close"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M4 4l8 8M12 4l-8 8"/></svg></button></div>
+  <div class="lb-body">
+    <button type="button" class="icon" data-lb-prev aria-label="Previous example"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 3L5 8l5 5"/></svg></button>
+    <div class="lb-stage slide" data-lb-stage></div>
+    <button type="button" class="icon" data-lb-next aria-label="Next example"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3l5 5-5 5"/></svg></button>
+  </div>
+  <div class="lb-foot">
+    <div class="slide" data-lb-text><b data-lb-title></b><p data-lb-blurb></p></div>
+    <div class="lb-ask"><code><i>/stick-scene</i> <span data-lb-prompt></span></code><button type="button" class="copy" data-lb-copy aria-label="Copy prompt"><svg class="i-copy" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><rect x="5" y="5" width="8.5" height="8.5" rx="1.5"/><path d="M10.5 5V3.5A1.5 1.5 0 0 0 9 2H3.5A1.5 1.5 0 0 0 2 3.5V9a1.5 1.5 0 0 0 1.5 1.5H5"/></svg><svg class="i-done" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 8.5l3 3 6-7"/></svg></button></div>
+    <div class="lb-nav-sm"><button type="button" class="icon" data-lb-prev aria-label="Previous example"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 3L5 8l5 5"/></svg></button><button type="button" class="icon" data-lb-next aria-label="Next example"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3l5 5-5 5"/></svg></button></div>
+  </div>
+</dialog>
+
+<footer><span>MIT · by <a href="https://kamran.fyi">Kamran Ahmed</a></span><a href="https://github.com/nilbuild/stick-scene">GitHub</a></footer>
+
+<script src="/stick-scene/assets/catalog.js"></script>
+<script>
+(function () {
+  for (const f of ['stick.js', ...window.sceneFiles()]) {
+    const s = document.createElement('script');
+    s.src = '/stick-scene/scenes/' + f;
+    s.async = false;
+    document.head.appendChild(s);
+  }
+})();
+</script>
+<script>
+const CATALOG = window.CATALOG;
+const PROMPTS = window.PROMPTS;
+const byId = Object.fromEntries(CATALOG.map((s) => [s.id, s]));
+const catName = Object.fromEntries(window.CATEGORIES.map((c) => [c.id, c.name]));
+const INSTALL = 'npx skills add nilbuild/stick-scene';
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+const promptFor = (id) => PROMPTS[id] || `show ${byId[id].title.toLowerCase()}`;
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+function sc(id, play) {
+  const el = document.createElement('stick-scene');
+  el.setAttribute('scene', id);
+  el.setAttribute('play', play || 'click');
+  el.setAttribute('no-floor', '');
+  el.setAttribute('aria-label', `${byId[id].title}: ${byId[id].blurb}`);
+  return el;
+}
+function whenView(el, cb, n) {
+  if (!el.isConnected) {
+    return;
+  }
+  if (el.v) {
+    cb(el.v);
+    return;
+  }
+  if ((n || 0) > 900) {
+    return;
+  }
+  requestAnimationFrame(() => whenView(el, cb, (n || 0) + 1));
+}
+function playOnce(el) {
+  return new Promise((res) => {
+    whenView(el, (v) => {
+      v.on = false;
+      v.paused = false;
+      v.play();
+      const wait = () => {
+        if (!el.isConnected || !v.on) {
+          res();
+          return;
+        }
+        requestAnimationFrame(wait);
+      };
+      requestAnimationFrame(wait);
+    });
+  });
+}
+function wireCopy(btn, getText) {
+  btn.addEventListener('click', () => {
+    if (!navigator.clipboard) {
+      return;
+    }
+    navigator.clipboard.writeText(getText()).then(() => {
+      btn.classList.add('done');
+      setTimeout(() => {
+        btn.classList.remove('done');
+      }, 1400);
+    }, () => {
+      const r = document.createRange();
+      r.selectNodeContents(btn.previousElementSibling);
+      getSelection().removeAllRanges();
+      getSelection().addRange(r);
+    });
+  });
+}
+async function slide(nodes, dir, fn) {
+  if (reduce || !dir) {
+    fn();
+    return;
+  }
+  const out = dir > 0 ? 'out-l' : 'out-r';
+  const inn = dir > 0 ? 'in-l' : 'in-r';
+  nodes.forEach((n) => n.classList.add(out));
+  await sleep(280);
+  fn();
+  nodes.forEach((n) => {
+    n.classList.remove(out);
+    n.classList.add(inn);
+  });
+  void nodes[0].offsetWidth;
+  nodes.forEach((n) => n.classList.remove(inn));
+}
+
+wireCopy(document.querySelector('[data-copy-install]'), () => INSTALL);
+
+/* Plate: topic pills pick the scene */
+(function () {
+  const TOPICS = [
+    ['lesson-cache', 'Caching'],
+    ['diffity-start', 'Getting started'],
+    ['idea-tech-debt', 'Tech debt'],
+    ['p:typingwise', 'Voice typing'],
+    ['p:claude-queue', 'Overnight queue'],
+    ['lesson-binary-search', 'Binary search'],
+    ['how-rollback-tape', 'Rollbacks'],
+    ['how-rate-bouncer', 'Rate limiting'],
+    ['p:data structures in JS', 'Stacks'],
+    ['how-debt-tower', 'Quick fix tower'],
+  ];
+  const stage = document.querySelector('[data-stage]');
+  const pills = document.querySelector('[data-pills]');
+  pills.innerHTML = TOPICS.map(([id, label]) => `<button type="button" aria-pressed="false"><span>${esc(label)}</span></button>`).join('');
+  const btns = [...pills.children];
+  let cur = -1, token = 0, auto = true;
+
+  async function show(i, dir) {
+    const t = ++token;
+    cur = (i + TOPICS.length) % TOPICS.length;
+    const id = TOPICS[cur][0];
+    btns.forEach((b, k) => b.setAttribute('aria-pressed', 'false'));
+    void pills.offsetWidth;
+    await slide([stage], dir, () => {
+      stage.replaceChildren(sc(id));
+    });
+    if (t !== token) {
+      return;
+    }
+    const dur = ((window.STICK && window.STICK.SCENES[id] && window.STICK.SCENES[id].dur) || 5) * 1000 + 2400;
+    pills.style.setProperty('--t', `${dur}ms`);
+    btns[cur].setAttribute('aria-pressed', 'true');
+    await sleep(600);
+    if (t !== token) {
+      return;
+    }
+    await playOnce(stage.firstChild);
+    if (t !== token || !auto) {
+      return;
+    }
+    await sleep(1500);
+    if (t === token && auto) {
+      show(cur + 1, 1);
+    }
+  }
+  const pick = (k) => {
+    auto = false;
+    pills.classList.remove('auto');
+    if (k !== cur) {
+      show(k, k > cur ? 1 : -1);
+      return;
+    }
+    playOnce(stage.firstChild);
+  };
+  btns.forEach((b, k) => b.addEventListener('click', () => pick(k)));
+  let sx = null;
+  stage.addEventListener('pointerdown', (e) => {
+    sx = e.clientX;
+  });
+  stage.addEventListener('pointerup', (e) => {
+    if (sx === null) {
+      return;
+    }
+    const dx = e.clientX - sx;
+    sx = null;
+    if (Math.abs(dx) > 40) {
+      pick((cur + (dx < 0 ? 1 : -1) + TOPICS.length) % TOPICS.length);
+    }
+  });
+  show(0, 0);
+})();
+
+/* Viewer: an enlarged scene you can step through */
+const viewer = (function () {
+  const dlg = document.querySelector('[data-lb]');
+  const stage = dlg.querySelector('[data-lb-stage]');
+  const text = dlg.querySelector('[data-lb-text]');
+  let list = [], cur = 0, token = 0;
+  function render(id) {
+    const m = byId[id];
+    stage.replaceChildren(sc(id));
+    dlg.querySelector('[data-lb-title]').textContent = m.title;
+    dlg.querySelector('[data-lb-blurb]').textContent = m.blurb;
+    dlg.querySelector('[data-lb-prompt]').textContent = promptFor(id);
+    dlg.querySelector('[data-lb-cat]').textContent = catName[m.cat];
+    dlg.querySelector('[data-lb-n]').textContent = `${cur + 1} / ${list.length}`;
+  }
+  async function go(i, dir) {
+    const t = ++token;
+    cur = (i + list.length) % list.length;
+    await slide([stage, text], dir, () => render(list[cur]));
+    await sleep(350);
+    if (t === token && dlg.open) {
+      playOnce(stage.firstChild);
+    }
+  }
+  for (const b of dlg.querySelectorAll('[data-lb-prev]')) {
+    b.addEventListener('click', () => go(cur - 1, -1));
+  }
+  for (const b of dlg.querySelectorAll('[data-lb-next]')) {
+    b.addEventListener('click', () => go(cur + 1, 1));
+  }
+  dlg.querySelector('[data-lb-close]').addEventListener('click', () => dlg.close());
+  dlg.addEventListener('click', (e) => {
+    if (e.target === dlg) {
+      dlg.close();
+    }
+  });
+  dlg.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight') {
+      e.preventDefault();
+      go(cur + 1, 1);
+    }
+    if (e.key === 'ArrowLeft') {
+      e.preventDefault();
+      go(cur - 1, -1);
+    }
+  });
+  dlg.addEventListener('close', () => {
+    token++;
+    stage.replaceChildren();
+  });
+  let sx = null;
+  stage.addEventListener('pointerdown', (e) => {
+    sx = e.clientX;
+  });
+  stage.addEventListener('pointerup', (e) => {
+    if (sx === null) {
+      return;
+    }
+    const dx = e.clientX - sx;
+    sx = null;
+    if (Math.abs(dx) > 40) {
+      go(cur + (dx < 0 ? 1 : -1), dx < 0 ? 1 : -1);
+    }
+  });
+  wireCopy(dlg.querySelector('[data-lb-copy]'), () => `/stick-scene ${promptFor(list[cur])}`);
+  return {
+    open(ids, i) {
+      list = ids;
+      if (!dlg.open) {
+        dlg.showModal();
+      }
+      go(i, 0);
+    },
+  };
+})();
+
+/* Examples grid */
+(function () {
+  const all = CATALOG.map((c) => c.id);
+  const tabs = document.querySelector('[data-tabs]');
+  const grid = document.querySelector('[data-grid]');
+  const more = document.querySelector('[data-more]');
+  const STEP = 12;
+  let cat = 'all', open = false;
+  document.querySelector('[data-total]').textContent = all.length;
+  const cats = [{ id: 'all', name: 'All' }, ...window.CATEGORIES];
+  tabs.innerHTML = cats.map((c) => `<button type="button" data-cat="${c.id}" aria-pressed="${c.id === 'all'}">${c.name}${c.id === 'all' ? '' : `<em>${all.filter((id) => byId[id].cat === c.id).length}</em>`}</button>`).join('');
+  function render() {
+    const list = cat === 'all' ? all : all.filter((id) => byId[id].cat === cat);
+    const shown = open ? list : list.slice(0, STEP);
+    grid.innerHTML = shown.map((id) => `<button type="button" class="cell" data-id="${esc(id)}" aria-label="Open ${esc(byId[id].title)}"><div class="f"><stick-scene scene="${esc(id)}" play="idle" no-floor></stick-scene></div><b>${esc(byId[id].title)}</b><code>${esc(promptFor(id))}</code></button>`).join('');
+    more.hidden = list.length <= STEP || open;
+    more.textContent = `Show all ${list.length}`;
+    [...grid.children].forEach((c, i) => {
+      const el = c.querySelector('stick-scene');
+      c.addEventListener('pointerenter', () => {
+        if (el.v) {
+          el.v.hover = true;
+          el.v.play();
+        }
+      });
+      c.addEventListener('pointerleave', () => {
+        if (el.v) {
+          el.v.hover = false;
+        }
+      });
+      c.addEventListener('click', () => viewer.open(list, i));
+    });
+  }
+  for (const b of tabs.children) {
+    b.addEventListener('click', () => {
+      cat = b.dataset.cat;
+      open = false;
+      for (const x of tabs.children) {
+        x.setAttribute('aria-pressed', String(x === b));
+      }
+      render();
+    });
+  }
+  more.addEventListener('click', () => {
+    open = true;
+    render();
+  });
+  render();
+})();
+</script>
+</body>
+</html>

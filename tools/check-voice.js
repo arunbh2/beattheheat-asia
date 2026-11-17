@@ -9,7 +9,7 @@ const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 const hold = new RegExp(`\\b(${voice.hold.map(esc).join("|")})\\b`, "i");
 const suspicion = voice.suspicion ? new RegExp(`\\b(${voice.suspicion.hold.map(esc).join("|")})\\b`, "i") : null;
 const pages = execFileSync("git", ["ls-files", "--cached", "--others", "--exclude-standard", "*.html"], { cwd: ROOT }).toString().split("\n")
-  .filter(f => f && !/^(media|tools|research|node_modules)\//.test(f));
+  .filter(f => f && !/^(media|tools|research|node_modules|\.agents|\.claude)\//.test(f));
 const found = [];
 for (const f of pages) {
   const text = fs.readFileSync(path.join(ROOT, f), "utf8")

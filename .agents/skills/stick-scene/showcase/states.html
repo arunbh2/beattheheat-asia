@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Postbox App States</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a product page. A mock mail app window whose main panel switches between three states, then the three states as cards side by side. */
+:root {
+  --bg: #f5f5f4; --win: #ffffff; --side: #fafaf9; --line: #e7e5e4; --ink: #1c1917; --body: #44403c; --muted: #78716c;
+  --accent: #4338ca; --accent-soft: #eef0ff; --pill: #f1f0ee;
+  --sans: 'Geist', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --mono: 'Geist Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); font-size: 15px; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+.page { max-width: 1080px; margin: 0 auto; padding-block: 44px 96px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.top { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 16px; }
+.eyebrow { font-family: var(--mono); font-size: 12px; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); }
+h1 { margin: 8px 0 0; font-size: clamp(28px, 4vw, 38px); letter-spacing: -.035em; font-weight: 500; line-height: 1.1; }
+.top p { margin: 8px 0 0; color: var(--body); max-width: 560px; }
+.back { color: var(--muted); font-size: 14px; text-decoration: none; }
+.back:hover { color: var(--ink); }
+
+.switch { margin-top: 28px; display: inline-flex; gap: 2px; padding: 3px; background: var(--pill); border: 1px solid var(--line); border-radius: 10px; flex-wrap: wrap; }
+.switch button { font: 500 13.5px var(--sans); color: var(--body); background: none; border: 0; padding: 7px 14px; border-radius: 8px; cursor: pointer; }
+.switch button[aria-pressed="true"] { background: #fff; color: var(--ink); box-shadow: 0 1px 2px rgba(0,0,0,.08); }
+.switch button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+.win { margin-top: 14px; background: var(--win); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; box-shadow: 0 20px 50px -30px rgba(28,25,23,.35); }
+.win-bar { height: 40px; display: flex; align-items: center; gap: 7px; padding: 0 14px; border-bottom: 1px solid var(--line); background: var(--side); }
+.win-bar i { width: 11px; height: 11px; border-radius: 50%; background: #e2e0dd; }
+.win-bar span { margin-left: 10px; font-size: 13px; color: var(--muted); }
+.app { display: grid; grid-template-columns: 210px minmax(0, 1fr); min-height: 440px; }
+.side { background: var(--side); border-right: 1px solid var(--line); padding: 16px 12px; }
+.compose { display: block; width: 100%; font: 500 14px var(--sans); color: #fff; background: var(--accent); border: 0; border-radius: 9px; padding: 9px 12px; text-align: left; }
+.folders { list-style: none; margin: 16px 0 0; padding: 0; display: grid; gap: 2px; }
+.folders li { display: flex; justify-content: space-between; padding: 7px 10px; border-radius: 8px; font-size: 14px; color: var(--body); }
+.folders li.on { background: var(--accent-soft); color: var(--accent); font-weight: 500; }
+.folders li small { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.main { display: flex; flex-direction: column; min-width: 0; }
+.main-head { display: flex; align-items: center; gap: 10px; height: 54px; padding: 0 20px; border-bottom: 1px solid var(--line); }
+.main-head b { font-weight: 600; font-size: 16px; }
+.search { margin-left: auto; width: min(260px, 45%); height: 32px; border: 1px solid var(--line); border-radius: 8px; background: var(--side); font-size: 13px; color: var(--muted); display: flex; align-items: center; padding: 0 10px; }
+.state[hidden] { display: none; }
+.state { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 26px 20px 34px; }
+.state .art { width: min(440px, 100%); }
+.state stick-scene { display: block; width: 100%; height: 230px; }
+.state h2 { margin: 6px 0 0; font-size: 20px; font-weight: 600; letter-spacing: -.02em; }
+.state p { margin: 6px 0 0; color: var(--muted); max-width: 360px; }
+.state .btn { margin-top: 16px; font: 500 14px var(--sans); color: var(--ink); background: #fff; border: 1px solid var(--line); border-radius: 9px; padding: 8px 14px; text-decoration: none; }
+.skeleton { width: min(440px, 100%); margin-top: 18px; display: grid; gap: 8px; }
+.skeleton i { display: block; height: 10px; border-radius: 5px; background: linear-gradient(90deg, #f1f0ee 0%, #e9e7e4 50%, #f1f0ee 100%); background-size: 200% 100%; animation: shimmer 1.4s linear infinite; }
+@keyframes shimmer { from { background-position: 200% 0; } to { background-position: -200% 0; } }
+
+h3 { margin: 64px 0 0; font-size: 22px; font-weight: 500; letter-spacing: -.025em; }
+.lead { margin: 6px 0 0; color: var(--body); }
+.cards { margin-top: 18px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; }
+.card { background: #fff; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+.card stick-scene { display: block; width: 100%; height: 200px; background: #fff; }
+.card div { padding: 12px 16px 16px; border-top: 1px solid var(--line); }
+.card b { font-weight: 600; }
+.card span { display: block; color: var(--muted); font-size: 14px; }
+.card code { font-family: var(--mono); font-size: 12px; background: var(--pill); padding: 1px 6px; border-radius: 5px; color: var(--body); }
+@media (max-width: 760px) {
+  .app { grid-template-columns: 1fr; }
+  .side { display: none; }
+}
+@media (prefers-reduced-motion: reduce) { .skeleton i { animation: none; } }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="top">
+    <div>
+      <div class="eyebrow">Example product · Postbox</div>
+      <h1>Give the quiet moments something to look at</h1>
+      <p>Empty, loading and error states are where people wait or get stuck. A small scene there turns a dead end into a friendly one.</p>
+    </div>
+    <a class="back" href="index.html">← All examples</a>
+  </div>
+
+  <div class="switch" role="group" aria-label="App state">
+    <button type="button" id="st-empty" data-state="empty" aria-pressed="true">Empty inbox</button>
+    <button type="button" id="st-loading" data-state="loading" aria-pressed="false">Loading</button>
+    <button type="button" id="st-404" data-state="missing" aria-pressed="false">Page not found</button>
+  </div>
+
+  <div class="win">
+    <div class="win-bar"><i></i><i></i><i></i><span>Postbox</span></div>
+    <div class="app">
+      <aside class="side">
+        <button type="button" class="compose" tabindex="-1">Compose</button>
+        <ul class="folders">
+          <li class="on">Inbox <small>0</small></li>
+          <li>Starred <small>4</small></li>
+          <li>Sent <small></small></li>
+          <li>Archive <small>1,208</small></li>
+        </ul>
+      </aside>
+      <section class="main">
+        <div class="main-head"><b data-title>Inbox</b><span class="search">Search mail</span></div>
+
+        <div class="state" data-panel="empty">
+          <div class="art"><stick-scene scene="state-empty" play="view" no-floor label="A figure tosses the last envelope into the archive box and leans back with a mug."></stick-scene></div>
+          <h2>You're all caught up</h2>
+          <p>No new mail. Enjoy the quiet.</p>
+        </div>
+
+        <div class="state" data-panel="loading" hidden>
+          <div class="art"><stick-scene scene="state-loading" play="loop" no-floor label="A figure turns a crank on a machine while its progress bar fills."></stick-scene></div>
+          <h2>Fetching your mail</h2>
+          <p>This usually takes a few seconds.</p>
+          <div class="skeleton" aria-hidden="true"><i style="width:100%"></i><i style="width:82%"></i><i style="width:64%"></i></div>
+        </div>
+
+        <div class="state" data-panel="missing" hidden>
+          <div class="art"><stick-scene scene="state-404" play="view" no-floor label="A figure searches with a flashlight, finds nothing behind the 404 sign, shrugs and points home."></stick-scene></div>
+          <h2>We couldn't find that page</h2>
+          <p>The link may be old, or the message was deleted.</p>
+          <a class="btn" href="#" data-home>Go to inbox</a>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <h3>All three, side by side</h3>
+  <p class="lead">Each one is a single <code style="font-family:var(--mono);font-size:13px;background:var(--pill);padding:1px 6px;border-radius:5px">&lt;stick-scene&gt;</code> tag dropped into the existing empty state.</p>
+  <div class="cards">
+    <div class="card"><stick-scene scene="state-empty" play="hover" no-floor></stick-scene><div><b>Empty</b><span>Plays once on view. Hover to see it again.</span><span><code>play="view"</code></span></div></div>
+    <div class="card"><stick-scene scene="state-loading" play="loop" no-floor></stick-scene><div><b>Loading</b><span>Loops for as long as the data takes.</span><span><code>play="loop"</code></span></div></div>
+    <div class="card"><stick-scene scene="state-404" play="hover" no-floor></stick-scene><div><b>Not found</b><span>Points the way back instead of a dead end.</span><span><code>play="view"</code></span></div></div>
+  </div>
+</div>
+<script>
+  const titles = { empty: 'Inbox', loading: 'Inbox', missing: 'Message' };
+  const buttons = [...document.querySelectorAll('[data-state]')];
+  const panels = [...document.querySelectorAll('[data-panel]')];
+  const title = document.querySelector('[data-title]');
+
+  function show(state) {
+    for (const button of buttons) {
+      button.setAttribute('aria-pressed', String(button.dataset.state === state));
+    }
+    for (const panel of panels) {
+      panel.hidden = panel.dataset.panel !== state;
+    }
+    title.textContent = titles[state];
+    window.dispatchEvent(new Event('resize'));
+  }
+
+  for (const button of buttons) {
+    button.addEventListener('click', () => {
+      show(button.dataset.state);
+    });
+  }
+  document.querySelector('[data-home]').addEventListener('click', (event) => {
+    event.preventDefault();
+    show('empty');
+  });
+</script>
+<script src="scenes/stick.js" defer></script>
+<script src="scenes/state-empty.js" defer></script>
+<script src="scenes/state-loading.js" defer></script>
+<script src="scenes/state-404.js" defer></script>
+</body>
+</html>

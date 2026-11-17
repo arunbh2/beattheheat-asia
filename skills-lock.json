@@ -140,6 +140,13 @@
       "skillPath": "skills/review-animations/SKILL.md",
       "computedHash": "50f1de2394b88bb3433eca1e30da6866a4e310963d872a66af20ca77fd77f07d"
     },
+    "stick-scene": {
+      "source": "nilbuild/stick-scene",
+      "commit": "ca84311177a020c2dff7dfd9cb2e7b786288c1ab",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "dcae528910b2c6d187570966cbc83a51b8f569b023be166a01bfc6012e5d8f1c"
+    },
     "write-swift": {
       "source": "emilkowalski/skills",
       "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
