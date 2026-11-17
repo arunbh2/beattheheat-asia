@@ -996,21 +996,8 @@
                   ]
                 },
                 "example": {
-                  "updated": "2026-11-16T22:20:51.671Z",
-                  "keepDays": 14,
-                  "sources": [
-                    {
-                      "name": "regional news outlets",
-                      "ok": true,
-                      "found": 502
-                    },
-                    {
-                      "name": "GDELT Project",
-                      "ok": false,
-                      "found": 0,
-                      "error": "fetch failed: UND_ERR_CONNECT_TIMEOUT"
-                    }
-                  ]
+                  "updated": "2026-11-17T08:09:35.670Z",
+                  "keepDays": 14
                 }
               }
             }

@@ -50,6 +50,13 @@
     <summary>A plan made on Plan a response can now be saved as a file with everything in it, owners, notes and money included, and a colleague can open that file in their own browser to keep working. Nothing is sent anywhere: the file stays with whoever saves it.</summary>
   </entry>
   <entry>
+    <title>The heat network: 40 more organisations link to their own heat work</title>
+    <link href="https://beattheheat.asia/growing/#g-network-depth-3" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-network-depth-3</id>
+    <updated>2026-11-17T00:00:00Z</updated>
+    <summary>Forty more organisations in the heat network now link to the page on their own site that shows their heat work, not just their homepage. Each link was opened on GitHub and held the word it rests on; six that did not open or did not hold it were left as they were.</summary>
+  </entry>
+  <entry>
     <title>Signals now shows what the evidence confirms for each promise</title>
     <link href="https://beattheheat.asia/growing/#g-signals-evidence-records" rel="alternate" type="text/html"/>
     <id>https://beattheheat.asia/growing/#g-signals-evidence-records</id>
@@ -209,12 +216,5 @@
     <id>https://beattheheat.asia/growing/#g-heat-tools</id>
     <updated>2026-11-13T00:00:00Z</updated>
     <summary>People who plan, deliver or fund heat protection often know a decision but not the tool for it. The finder sets warning services, assessments, datasets, modelling tools and guidance side by side, with what each needs, what it gives and what it cannot tell you, and three illustrative workflows that combine them.</summary>
-  </entry>
-  <entry>
-    <title>Open files for the tools that read the web, and a privacy page</title>
-    <link href="https://beattheheat.asia/growing/#g-agent-files" rel="alternate" type="text/html"/>
-    <id>https://beattheheat.asia/growing/#g-agent-files</id>
-    <updated>2026-11-13T00:00:00Z</updated>
-    <summary>Assistants and crawlers look for a site's files at standard addresses. Common Shade now publishes an agent directory, an OpenAPI description of its open data with examples, a change feed and a Markdown twin of every page, and says plainly on one page what it keeps and what it asks other services for.</summary>
   </entry>
 </feed>

@@ -315,7 +315,7 @@
     "id": "irade",
     "role": "research",
     "name": "Integrated Research and Action for Development (IRADe)",
-    "url": "https://irade.org/",
+    "url": "https://irade.org/Rajkot-Heat-Action-Plan.pdf",
     "does": "Develops heat hotspot assessments and gender-sensitive heat action plans in India, Bangladesh and Sri Lanka.",
     "levers": ["hap"]
   },
@@ -1115,7 +1115,7 @@
     "id": "ccc",
     "role": "funders",
     "name": "Clean Cooling Collaborative (ClimateWorks Foundation)",
-    "url": "https://www.cleancoolingcollaborative.org/",
+    "url": "https://www.cleancoolingcollaborative.org/blog/two-sides-of-the-equator-extreme-heat-in-the-southern-hemisphere",
     "does": "Mobilises philanthropy for efficient, climate-friendly cooling, including access to cooling and passive design.",
     "levers": ["cleancool","affordablecool"]
   },
@@ -1643,7 +1643,7 @@
     "id": "indianinstituteoftropica",
     "role": "research",
     "name": "Indian Institute of Tropical Meteorology",
-    "url": "https://www.tropmet.res.in",
+    "url": "https://www.tropmet.res.in/~lip/Publication/RR-pdf/RR-141.pdf",
     "does": "Hosts the South Asia Climate and Health Desk linked to the heat-health hub.",
     "levers": ["anticipatory","hap"]
   },
@@ -1651,7 +1651,7 @@
     "id": "indiameteorologicaldepar",
     "role": "asia",
     "name": "India Meteorological Department",
-    "url": "https://mausam.imd.gov.in",
+    "url": "https://mausam.imd.gov.in/responsive/districtWiseHeatwaveWarning.php",
     "does": "Issues impact-based heat forecasts and seasonal heatwave outlooks.",
     "levers": ["anticipatory","hap"]
   },
@@ -1667,7 +1667,7 @@
     "id": "ministryofhealthindonesi",
     "role": "asia",
     "name": "Ministry of Health, Indonesia",
-    "url": "https://kemkes.go.id",
+    "url": "https://kemkes.go.id/id/berikut-tips-menghadapi-cuaca-panas-tak-biasa",
     "does": "Co-launched KATALIS-HEAT for heat-health assessment and cross-sector action.",
     "levers": ["hap","readyclinics"]
   },
@@ -1683,7 +1683,7 @@
     "id": "bmkgindonesia",
     "role": "asia",
     "name": "BMKG: Indonesia",
-    "url": "https://www.bmkg.go.id",
+    "url": "https://www.bmkg.go.id/siaran-pers/apakah-di-indonesia-terjadi-gelombang-panas-ini-penjelasan-bmkg",
     "does": "Provides meteorological collaboration for KATALIS-HEAT.",
     "levers": ["hap","readyclinics"]
   },
@@ -1715,7 +1715,7 @@
     "id": "seadrifinsurancecompany",
     "role": "finance",
     "name": "SEADRIF Insurance Company",
-    "url": "https://seadrif.org",
+    "url": "https://seadrif.org/news/el-nino-and-asean-the-case-for-seadrif-raise/",
     "does": "Announced a regional extreme-heat insurance accelerator with HERA.",
     "levers": ["heatcash","riskpools"]
   },
@@ -1731,7 +1731,7 @@
     "id": "rujakcenterforurbanstudi",
     "role": "ground",
     "name": "Rujak Center for Urban Studies",
-    "url": "https://rujak.org",
+    "url": "https://rujak.org/membaca-kota-melalui-panas-catatan-dari-kota-kota-pesisir/",
     "does": "Leads Be-Housing research on urban-poor housing and heat adaptation.",
     "levers": ["affordablecool","coolhousing","coolnights"]
   },
@@ -1747,7 +1747,7 @@
     "id": "kotakitafoundation",
     "role": "ground",
     "name": "Kota Kita Foundation",
-    "url": "https://kotakita.org",
+    "url": "https://kotakita.org/yang-tinggal-bersama-hawa-panas-yang-tak-kuasa-mengubahnya",
     "does": "Partners in Be-Housing research on urban-poor settlements and heat adaptation.",
     "levers": ["affordablecool","coolhousing","coolnights"]
   },
@@ -1779,7 +1779,7 @@
     "id": "royaluniversityofphnompe",
     "role": "research",
     "name": "Royal University of Phnom Penh",
-    "url": "https://www.rupp.edu.kh",
+    "url": "https://cjbar.rupp.edu.kh/index.php/cjbar/article/view/199",
     "does": "Partners in HAMR urban-heat adaptation research.",
     "levers": ["coolbydesign","greencity"]
   },
@@ -1835,7 +1835,7 @@
     "id": "globalresiliencepartners",
     "role": "funders",
     "name": "Global Resilience Partnership",
-    "url": "https://www.globalresiliencepartnership.org",
+    "url": "https://www.globalresiliencepartnership.org/building-heat-resilience-in-freetown-sierra-leone/",
     "does": "Supported MHT’s heat-inclusive community resilience programme in South Asia.",
     "levers": ["affordablecool","coolhousing","coolnights"]
   },
@@ -1859,7 +1859,7 @@
     "id": "britishredcross",
     "role": "ground",
     "name": "British Red Cross",
-    "url": "https://www.redcross.org.uk",
+    "url": "https://www.redcross.org.uk/get-help/prepare-for-emergencies/heatwaves-uk/vulnerable-groups-advice",
     "does": "Supported research and preparation for Dhangadhi’s heat action plan.",
     "levers": ["hap","heatbudget"]
   },
@@ -1867,7 +1867,7 @@
     "id": "americanredcross",
     "role": "ground",
     "name": "American Red Cross",
-    "url": "https://www.redcross.org",
+    "url": "https://www.redcross.org/about-us/news-and-events/news/2026/record-heat-hits-western-states.html",
     "does": "Collaborated in the Bangladesh/Nepal heat lived-experience study.",
     "levers": ["hap","heatrules"]
   },
@@ -1875,7 +1875,7 @@
     "id": "instituteofhimalayanrisk",
     "role": "research",
     "name": "Institute of Himalayan Risk Reduction",
-    "url": "https://ihrr.org.np",
+    "url": "https://ihrr.org.np/project/anticipatory-action(aa)-tool-for-heat-&-cold-waves-in-nepal",
     "does": "Assessed institutions and opportunities for heat anticipatory action in Nepal.",
     "levers": ["hap","heatrules"]
   },
@@ -1883,7 +1883,7 @@
     "id": "peopleinneed",
     "role": "ground",
     "name": "People in Need",
-    "url": "https://www.peopleinneed.net",
+    "url": "https://nepal.peopleinneed.net/en/turning-heat-data-into-action-how-made-in-nepal-low-cost-sensors-can-help-madhesh-prepare-for-extreme-heat-13534gp",
     "does": "Led RAIN heat early action using forecasts and locally delivered protection.",
     "levers": ["anticipatory","hap"]
   },
@@ -1899,7 +1899,7 @@
     "id": "communityselfreliancecen",
     "role": "ground",
     "name": "Community Self Reliance Centre",
-    "url": "https://csrcnepal.org",
+    "url": "https://csrcnepal.org/wp-content/uploads/2026/08/July-Communique.pdf",
     "does": "Named implementing partner in RAIN, which activated heat early-action procedures.",
     "levers": ["anticipatory","hap"]
   },
@@ -1931,7 +1931,7 @@
     "id": "ukmetoffice",
     "role": "research",
     "name": "UK Met Office",
-    "url": "https://www.metoffice.gov.uk",
+    "url": "https://www.metoffice.gov.uk/about-us/news-and-media/media-centre/weather-and-climate-news/2022/southern-asian-heatwave-attribution-study-2022",
     "does": "Serves as a technical partner to Nepal’s RAIN anticipatory-action programme.",
     "levers": ["anticipatory","hap"]
   },
@@ -1939,7 +1939,7 @@
     "id": "agakhanuniversity",
     "role": "research",
     "name": "Aga Khan University",
-    "url": "https://www.aku.edu",
+    "url": "https://www.aku.edu/ighd/research-programmes/Pages/assessing-heat-adaptation.aspx",
     "does": "Develops heat education and locally led city heat action plans.",
     "levers": ["hap","readyclinics"]
   },
@@ -1955,7 +1955,7 @@
     "id": "sindhintegratedemergency",
     "role": "ground",
     "name": "Sindh Integrated Emergency and Health Services",
-    "url": "https://siehs.org",
+    "url": "https://www.siehs.org/2026/04/heatwave-safety-tips-what-you-need-to-know-this-summer/",
     "does": "Participated in Sindh’s heat-management coordination consultation.",
     "levers": ["hap","readyclinics"]
   },
@@ -1963,7 +1963,7 @@
     "id": "srilankaredcrosssociety",
     "role": "ground",
     "name": "Sri Lanka Red Cross Society",
-    "url": "https://www.redcross.lk",
+    "url": "https://www.redcross.lk/main-news/sri-lanka-red-cross-society-calls-for-collective-action-to-confront-air-quality-deterioration-and-heat-stress-in-sri-lanka/",
     "does": "Convened heat-stress and air-quality response discussions.",
     "levers": ["hap","heatbudget"]
   },
@@ -2019,7 +2019,7 @@
     "id": "theconduitfoundation",
     "role": "global",
     "name": "The Conduit Foundation",
-    "url": "https://www.conduitfoundation.org.uk/",
+    "url": "https://www.conduitfoundation.org.uk/programmes-impact",
     "does": "Develops an urban-heat workstream connecting city leaders and finance.",
     "levers": ["heatbudget","heatlending"]
   },
@@ -2027,7 +2027,7 @@
     "id": "streetnetinternational",
     "role": "ground",
     "name": "StreetNet International",
-    "url": "https://streetnet.org.za",
+    "url": "https://streetnet.org.za/2026/09/30/decent-work-in-the-age-of-climate-change-a-street-and-market-vendors-perspective/",
     "does": "Brings street-vendor perspectives to heat and climate policy dialogue.",
     "levers": ["heatrules"]
   },
@@ -2051,7 +2051,7 @@
     "id": "sattvaconsulting",
     "role": "research",
     "name": "Sattva Consulting",
-    "url": "https://www.sattva.co.in",
+    "url": "https://www.sattva.co.in/quick-read/a-primer-on-the-risks-and-implications-of-heat-stress-in-indias-textile-industry/",
     "does": "Co-produced a landscape of Indian urban heat challenges and actors.",
     "levers": ["hap","heatrules"]
   },
@@ -2059,7 +2059,7 @@
     "id": "bengalurusustainabilityf",
     "role": "ground",
     "name": "Bengaluru Sustainability Forum",
-    "url": "https://www.bengalurusustainabilityforum.org",
+    "url": "https://www.bengalurusustainabilityforum.org/addressing-heat-stress-among-domestic-workers-in-bangalore/",
     "does": "Supports a domestic-worker heat research and training project.",
     "levers": ["heatrules"]
   },
@@ -2067,7 +2067,7 @@
     "id": "heatwatchfoundation",
     "role": "ground",
     "name": "HeatWatch Foundation",
-    "url": "https://www.heatwatch.in",
+    "url": "https://www.heatwatch.in/project/waste-workers/",
     "does": "Develops domestic-worker heat research, training and public storytelling.",
     "levers": ["heatrules"]
   },
@@ -2091,7 +2091,7 @@
     "id": "dawateislamifgrf",
     "role": "ground",
     "name": "Dawat-e-Islami: FGRF",
-    "url": "https://www.dawateislami.net",
+    "url": "https://www.dawateislami.net/bookslibrary/en/madani-pearls-for-protection-from-heat/page-9",
     "does": "Reports volunteer-run heat relief camps offering drinking water and related support.",
     "levers": ["hap","readyclinics"]
   },
@@ -2155,7 +2155,7 @@
     "id": "woodwellclimateresearchc",
     "role": "research",
     "name": "Woodwell Climate Research Center",
-    "url": "https://www.woodwellclimate.org",
+    "url": "https://www.woodwellclimate.org/whrc-hosts-timely-discussion-of-extreme-heat-and-steps-towards-climate-justice/",
     "does": "Co-produced Kerala heat analysis.",
     "levers": ["hap","heatrules"]
   },
@@ -2235,7 +2235,7 @@
     "id": "spgroup",
     "role": "cooling",
     "name": "SP Group",
-    "url": "https://www.spgroup.com.sg",
+    "url": "https://www.spgroup.com.sg/sustainable-energy-solutions/district-cooling-and-heating",
     "does": "Operates district and residential centralised cooling and develops a Bangkok system.",
     "levers": ["affordablecool","cleancool","coolbydesign"]
   },
@@ -2283,7 +2283,7 @@
     "id": "singaporeethcentre",
     "role": "research",
     "name": "Singapore-ETH Centre",
-    "url": "https://sec.ethz.ch",
+    "url": "https://sec.ethz.ch/research/cs.html",
     "does": "Participates in Cooling Singapore 2.0 urban-climate modelling.",
     "levers": ["coolbydesign","greencity"]
   },
@@ -2355,7 +2355,7 @@
     "id": "internationalfoodpolicyr",
     "role": "research",
     "name": "International Food Policy Research Institute",
-    "url": "https://www.ifpri.org",
+    "url": "https://www.ifpri.org/blog/financing-resilience-for-dhakas-food-vendors-in-a-hotter-urban-future/",
     "does": "Received an announced grant to develop heat-resilient finance for street food vendors in South Asia.",
     "levers": ["affordablecool","heatlending"]
   },
@@ -2371,7 +2371,7 @@
     "id": "microsaveconsulting",
     "role": "research",
     "name": "MicroSave Consulting",
-    "url": "https://www.microsave.net",
+    "url": "https://www.microsave.net/2024/06/03/living-on-the-edge-the-impact-of-extreme-temperatures-on-delhis-informal-communities/",
     "does": "Received an announced grant for municipal heat capability and civil society engagement.",
     "levers": ["hap","heatbudget"]
   },
@@ -2395,7 +2395,7 @@
     "id": "foodandagricultureorgani",
     "role": "global",
     "name": "Food and Agriculture Organization of the United Nations",
-    "url": "https://www.fao.org",
+    "url": "https://www.fao.org/newsroom/detail/extreme-heat-is-pushing-agrifood-systems-to-the-brink-worldwide/en",
     "does": "Co-produced the extreme heat and agriculture report.",
     "levers": ["heatrules","irrigate","soilwater"]
   },
@@ -2427,7 +2427,7 @@
     "id": "citiesclimatefinancelead",
     "role": "finance",
     "name": "Cities Climate Finance Leadership Alliance",
-    "url": "https://citiesclimatefinance.org",
+    "url": "https://citiesclimatefinance.org/publications/hot-cities-chilled-economies-impacts-of-extreme-heat-on-global-cities",
     "does": "Co-organises training connecting extreme heat risk and urban finance.",
     "levers": ["heatbudget","heatlending"]
   },
@@ -2491,7 +2491,7 @@
     "id": "freetowncitycouncil",
     "role": "global",
     "name": "Freetown City Council",
-    "url": "https://fcc.gov.sl",
+    "url": "https://fcc.gov.sl/freetown-joins-global-effort-to-tackle-deadly-extreme-heat/",
     "does": "Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation.",
     "levers": ["coolbydesign","greencity"]
   },
@@ -2531,7 +2531,7 @@
     "id": "nikkensekkei",
     "role": "cooling",
     "name": "Nikken Sekkei",
-    "url": "https://www.nikken.co.jp",
+    "url": "https://www.nikken.co.jp/en/expertise/mep_engineering/bioskin_a_facade_system_for_cooling_city_heat_islands.html",
     "does": "Partnered on a winning climate-friendly cooling prototype tested in India.",
     "levers": ["affordablecool","cleancool","coolbydesign"]
   },
@@ -2555,7 +2555,7 @@
     "id": "allianceforanenergyeffic",
     "role": "research",
     "name": "Alliance for an Energy Efficient Economy",
-    "url": "https://aeee.in",
+    "url": "https://aeee.in/thermal-comfort-for-all-is-a-priority-in-a-warming-planet/",
     "does": "Helped administer the Global Cooling Prize.",
     "levers": ["affordablecool","cleancool","coolbydesign"]
   },
@@ -2563,7 +2563,7 @@
     "id": "ceptuniversity",
     "role": "research",
     "name": "CEPT University",
-    "url": "https://cept.ac.in",
+    "url": "https://cept.ac.in/projects/heat-sink-building-under-the-indian-sun",
     "does": "Helped administer the Global Cooling Prize.",
     "levers": ["affordablecool","cleancool","coolbydesign"]
   },
@@ -2619,7 +2619,7 @@
     "id": "delhijalboard",
     "role": "asia",
     "name": "Delhi Jal Board",
-    "url": "https://delhijalboard.delhi.gov.in",
+    "url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_9_kirari_0.pdf",
     "does": "Reports drinking-water preparedness and targeted extra tankers for heat-affected areas.",
     "levers": ["hap","pumpbackup"]
   },
@@ -2627,7 +2627,7 @@
     "id": "bsesdelhidistributionuti",
     "role": "cooling",
     "name": "BSES Delhi distribution utilities",
-    "url": "https://www.bsesdelhi.com",
+    "url": "https://www.bsesdelhi.com/web/brpl/demand-side-management",
     "does": "Report summer grid preparedness, critical-facility protection and efficient-appliance replacement.",
     "levers": ["affordablecool","cleancool","coolbydesign"]
   },
@@ -2635,7 +2635,7 @@
     "id": "delhiurbanshelterimprove",
     "role": "asia",
     "name": "Delhi Urban Shelter Improvement Board",
-    "url": "https://delhishelterboard.in",
+    "url": "https://delhishelterboard.in/main/wp-content/uploads/2021/02/Plan-Write-up-DUSIB-2020-21-Housing.pdf",
     "does": "Provides heat-season shelter arrangements and public shelter information.",
     "levers": ["affordablecool","coolhousing","coolnights"]
   },

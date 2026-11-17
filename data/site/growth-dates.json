@@ -180,6 +180,12 @@
    "org": true
   },
   {
+   "url": "https://aeee.in/thermal-comfort-for-all-is-a-priority-in-a-warming-planet/",
+   "label": "Alliance for an Energy Efficient Economy",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019JD031972",
    "label": "Chen et al., four roof surfaces, Shenzhen",
    "root": "practical",
@@ -1347,6 +1353,12 @@
    "org": true
   },
   {
+   "url": "https://cept.ac.in/projects/heat-sink-building-under-the-indian-sun",
+   "label": "CEPT University",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://challenges.adb.org/en/challenges/genderandheat",
    "label": "Rising Above the Heat: Innovative Cooling Solutions for Rural Women in Asia",
    "root": "financing",
@@ -1387,6 +1399,12 @@
   },
   {
    "url": "https://citiesclimatefinance.org",
+   "label": "Cities Climate Finance Leadership Alliance",
+   "root": "institutions",
+   "org": true
+  },
+  {
+   "url": "https://citiesclimatefinance.org/publications/hot-cities-chilled-economies-impacts-of-extreme-heat-on-global-cities",
    "label": "Cities Climate Finance Leadership Alliance",
    "root": "institutions",
    "org": true
@@ -1436,6 +1454,12 @@
   {
    "url": "https://cityperspectives.smu.edu.sg/wcs-2026/pages/research/cooling-singapore-solutions-for-a-heat-resilient-city.html",
    "label": "Singapore Management University, Urban Institute",
+   "root": "institutions",
+   "org": true
+  },
+  {
+   "url": "https://cjbar.rupp.edu.kh/index.php/cjbar/article/view/199",
+   "label": "Royal University of Phnom Penh",
    "root": "institutions",
    "org": true
   },
@@ -1716,6 +1740,15 @@
    "org": true
   },
   {
+   "url": "https://csrcnepal.org/wp-content/uploads/2026/08/July-Communique.pdf",
+   "label": "Community Self Reliance Centre",
+   "root": "institutions",
+   "org": true,
+   "date": "2026-08",
+   "precision": "month",
+   "how": "url"
+  },
+  {
    "url": "https://cstep.in",
    "label": "Center for Study of Science, Technology and Policy (CSTEP)",
    "root": "institutions",
@@ -1893,10 +1926,25 @@
    "org": true
   },
   {
+   "url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_9_kirari_0.pdf",
+   "label": "Delhi Jal Board",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://delhishelterboard.in",
    "label": "Delhi Urban Shelter Improvement Board",
    "root": "institutions",
    "org": true
+  },
+  {
+   "url": "https://delhishelterboard.in/main/wp-content/uploads/2021/02/Plan-Write-up-DUSIB-2020-21-Housing.pdf",
+   "label": "Delhi Urban Shelter Improvement Board",
+   "root": "institutions",
+   "org": true,
+   "date": "2021-02",
+   "precision": "month",
+   "how": "url"
   },
   {
    "url": "https://descartesunderwriting.com/solutions/extreme-temperatures",
@@ -4473,6 +4521,12 @@
    "org": true
   },
   {
+   "url": "https://fcc.gov.sl/freetown-joins-global-effort-to-tackle-deadly-extreme-heat/",
+   "label": "Freetown City Council",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://files.emdat.be/reports/2025_EMDAT_report.pdf",
    "label": "2025 Disasters in Numbers",
    "root": "evidence",
@@ -5277,6 +5331,12 @@
    "org": true
   },
   {
+   "url": "https://ihrr.org.np/project/anticipatory-action(aa)-tool-for-heat-&-cold-waves-in-nepal",
+   "label": "Institute of Himalayan Risk Reduction",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://iibec.org/publication-post/testing-field-aged-tpo-roofs-demonstrating-real-world-performance/",
    "label": "Keegan, Taylor and Kirby, field-aged TPO roofs",
    "root": "practical",
@@ -5619,7 +5679,7 @@
    "org": false
   },
   {
-   "url": "https://irade.org/",
+   "url": "https://irade.org/Rajkot-Heat-Action-Plan.pdf",
    "label": "Integrated Research and Action for Development (IRADe)",
    "root": "institutions",
    "org": true
@@ -5805,6 +5865,12 @@
    "org": true
   },
   {
+   "url": "https://kemkes.go.id/id/berikut-tips-menghadapi-cuaca-panas-tak-biasa",
+   "label": "Ministry of Health, Indonesia",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://keralaagriculture.gov.in",
    "label": "Department of Agriculture Development and Farmers’ Welfare, Kerala",
    "root": "institutions",
@@ -5830,6 +5896,12 @@
   },
   {
    "url": "https://kotakita.org",
+   "label": "Kota Kita Foundation",
+   "root": "institutions",
+   "org": true
+  },
+  {
+   "url": "https://kotakita.org/yang-tinggal-bersama-hawa-panas-yang-tak-kuasa-mengubahnya",
    "label": "Kota Kita Foundation",
    "root": "institutions",
    "org": true
@@ -6115,6 +6187,12 @@
    "label": "IMD heat bulletin",
    "root": "evidence",
    "org": false
+  },
+  {
+   "url": "https://mausam.imd.gov.in/responsive/districtWiseHeatwaveWarning.php",
+   "label": "India Meteorological Department",
+   "root": "institutions",
+   "org": true
   },
   {
    "url": "https://mayurbhanj.odisha.gov.in/sites/default/files/2023-07/2023041397%20%281%29.pdf",
@@ -6904,6 +6982,12 @@
    "date": "2026-03-16",
    "precision": "day",
    "how": "meta"
+  },
+  {
+   "url": "https://nepal.peopleinneed.net/en/turning-heat-data-into-action-how-made-in-nepal-low-cost-sensors-can-help-madhesh-prepare-for-extreme-heat-13534gp",
+   "label": "People in Need",
+   "root": "institutions",
+   "org": true
   },
   {
    "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=91008J1A.TXT",
@@ -8310,6 +8394,12 @@
    "org": true
   },
   {
+   "url": "https://rujak.org/membaca-kota-melalui-panas-catatan-dari-kota-kota-pesisir/",
+   "label": "Rujak Center for Urban Studies",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://rukart.co/",
    "label": "Rukart",
    "root": "financing",
@@ -8463,6 +8553,12 @@
    "org": true
   },
   {
+   "url": "https://seadrif.org/news/el-nino-and-asean-the-case-for-seadrif-raise/",
+   "label": "SEADRIF Insurance Company",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://seadrif.org/news/hera-and-seadrif-partner-to-accelerate-solutions-to-extreme-heat-across-southeast-asia/",
    "label": "SEADRIF / HERA (9 October 2026), Extreme Heat Insurance Accelerator",
    "root": "financing",
@@ -8518,6 +8614,12 @@
   },
   {
    "url": "https://sec.ethz.ch",
+   "label": "Singapore-ETH Centre",
+   "root": "institutions",
+   "org": true
+  },
+  {
+   "url": "https://sec.ethz.ch/research/cs.html",
    "label": "Singapore-ETH Centre",
    "root": "institutions",
    "org": true
@@ -8791,6 +8893,15 @@
    "label": "StreetNet International",
    "root": "institutions",
    "org": true
+  },
+  {
+   "url": "https://streetnet.org.za/2026/09/30/decent-work-in-the-age-of-climate-change-a-street-and-market-vendors-perspective/",
+   "label": "StreetNet International",
+   "root": "institutions",
+   "org": true,
+   "date": "2026-09-30",
+   "precision": "day",
+   "how": "url"
   },
   {
    "url": "https://sundanzer.com/",
@@ -9888,6 +9999,12 @@
    "org": true
   },
   {
+   "url": "https://www.aku.edu/ighd/research-programmes/Pages/assessing-heat-adaptation.aspx",
+   "label": "Aga Khan University",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://www.aku.edu/mrtc-pk/research/Pages/Projects/Structural-Heat-Adaptation.aspx",
    "label": "AKU SHAPES participatory heat adaptation trial",
    "root": "practical",
@@ -10276,7 +10393,7 @@
   },
   {
    "url": "https://www.bengalurusustainabilityforum.org/addressing-heat-stress-among-domestic-workers-in-bangalore/",
-   "label": "HeatWatch and St Johns domestic-worker project",
+   "label": "Bengaluru Sustainability Forum",
    "root": "institutions",
    "org": true
   },
@@ -10321,7 +10438,7 @@
   },
   {
    "url": "https://www.bmkg.go.id",
-   "label": "BMKG: Indonesia",
+   "label": "BMKG - Indonesia",
    "root": "institutions",
    "org": true
   },
@@ -10330,6 +10447,12 @@
    "label": "BMKG",
    "root": "evidence",
    "org": false
+  },
+  {
+   "url": "https://www.bmkg.go.id/siaran-pers/apakah-di-indonesia-terjadi-gelombang-panas-ini-penjelasan-bmkg",
+   "label": "BMKG: Indonesia",
+   "root": "institutions",
+   "org": true
   },
   {
    "url": "https://www.bmkg.go.id/siaran-pers/cuaca-di-kota-semakin-panas-bmkg-ajak-generasi-muda-mitigasi-urban-heat-island",
@@ -10387,6 +10510,12 @@
   },
   {
    "url": "https://www.bsesdelhi.com",
+   "label": "BSES Delhi distribution utilities",
+   "root": "institutions",
+   "org": true
+  },
+  {
+   "url": "https://www.bsesdelhi.com/web/brpl/demand-side-management",
    "label": "BSES Delhi distribution utilities",
    "root": "institutions",
    "org": true
@@ -10945,8 +11074,8 @@
   },
   {
    "url": "https://www.cleancoolingcollaborative.org/",
-   "label": "Clean Cooling Collaborative (ClimateWorks Foundation)",
-   "root": "institutions",
+   "label": "ClimateWorks Foundation / Clean Cooling Collaborative",
+   "root": "financing",
    "org": false,
    "date": "2021-07-26",
    "precision": "day",
@@ -10960,6 +11089,12 @@
    "date": "2021-07-27",
    "precision": "day",
    "how": "meta"
+  },
+  {
+   "url": "https://www.cleancoolingcollaborative.org/blog/two-sides-of-the-equator-extreme-heat-in-the-southern-hemisphere",
+   "label": "Clean Cooling Collaborative (ClimateWorks Foundation)",
+   "root": "institutions",
+   "org": true
   },
   {
    "url": "https://www.clearvisionventures.com/",
@@ -11166,6 +11301,12 @@
    "org": true
   },
   {
+   "url": "https://www.conduitfoundation.org.uk/programmes-impact",
+   "label": "The Conduit Foundation",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://www.context.news/climate-risks/ice-baths-and-ventilators-indias-hospitals-adapt-to-killer-heat",
    "label": "Context (Thomson Reuters Foundation), 2024",
    "root": "practical",
@@ -11278,13 +11419,19 @@
   },
   {
    "url": "https://www.dawateislami.net",
-   "label": "Dawat-e-Islami: FGRF",
+   "label": "Dawat-e-Islami - FGRF",
    "root": "institutions",
    "org": true
   },
   {
    "url": "https://www.dawateislami.net/activities/en/heat-stroke-relief-camps",
    "label": "Dawat-e-Islami/FGRF heat relief camps",
+   "root": "institutions",
+   "org": true
+  },
+  {
+   "url": "https://www.dawateislami.net/bookslibrary/en/madani-pearls-for-protection-from-heat/page-9",
+   "label": "Dawat-e-Islami: FGRF",
    "root": "institutions",
    "org": true
   },
@@ -11763,6 +11910,12 @@
    "org": false
   },
   {
+   "url": "https://www.fao.org/newsroom/detail/extreme-heat-is-pushing-agrifood-systems-to-the-brink-worldwide/en",
+   "label": "Food and Agriculture Organization of the United Nations",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://www.fao.org/newsroom/detail/fao-report--heatwaves-and-floods-affect-rural-women-and-men-differently--widen-income-gap",
    "label": "FAO, The Unjust Climate, 2024",
    "root": "evidence",
@@ -12058,6 +12211,12 @@
   },
   {
    "url": "https://www.globalresiliencepartnership.org",
+   "label": "Global Resilience Partnership",
+   "root": "institutions",
+   "org": true
+  },
+  {
+   "url": "https://www.globalresiliencepartnership.org/building-heat-resilience-in-freetown-sierra-leone/",
    "label": "Global Resilience Partnership",
    "root": "institutions",
    "org": true
@@ -12367,6 +12526,12 @@
   },
   {
    "url": "https://www.heatwatch.in",
+   "label": "HeatWatch Foundation",
+   "root": "institutions",
+   "org": true
+  },
+  {
+   "url": "https://www.heatwatch.in/project/waste-workers/",
    "label": "HeatWatch Foundation",
    "root": "institutions",
    "org": true
@@ -12826,6 +12991,12 @@
   },
   {
    "url": "https://www.ifpri.org",
+   "label": "International Food Policy Research Institute",
+   "root": "institutions",
+   "org": true
+  },
+  {
+   "url": "https://www.ifpri.org/blog/financing-resilience-for-dhakas-food-vendors-in-a-hotter-urban-future/",
    "label": "International Food Policy Research Institute",
    "root": "institutions",
    "org": true
@@ -13797,6 +13968,12 @@
    "org": true
   },
   {
+   "url": "https://www.metoffice.gov.uk/about-us/news-and-media/media-centre/weather-and-climate-news/2022/southern-asian-heatwave-attribution-study-2022",
+   "label": "UK Met Office",
+   "root": "institutions",
+   "org": true
+  },
+  {
    "url": "https://www.metrotvnews.com/read/KXyCWwmW-target-30-ruang-terbuka-hijau-jakarta-dikejar-hingga-2045",
    "label": "Metro TV News",
    "root": "practical",
@@ -13843,6 +14020,15 @@
    "label": "MicroSave Consulting",
    "root": "institutions",
    "org": true
+  },
+  {
+   "url": "https://www.microsave.net/2024/06/03/living-on-the-edge-the-impact-of-extreme-temperatures-on-delhis-informal-communities/",
+   "label": "MicroSave Consulting",
+   "root": "institutions",
+   "org": true,
+   "date": "2024-06-03",
+   "precision": "day",
+   "how": "url"
   },
   {
    "url": "https://www.midea.com/global",
@@ -14416,6 +14602,12 @@
   },
   {
    "url": "https://www.nikken.co.jp",
+   "label": "Nikken Sekkei",
+   "root": "institutions",
+   "org": true
+  },
+  {
+   "url": "https://www.nikken.co.jp/en/expertise/mep_engineering/bioskin_a_facade_system_for_cooling_city_heat_islands.html",
    "label": "Nikken Sekkei",
    "root": "institutions",
    "org": true
@@ -15073,7 +15265,7 @@
   },
   {
    "url": "https://www.redcross.lk/main-news/sri-lanka-red-cross-society-calls-for-collective-action-to-confront-air-quality-deterioration-and-heat-stress-in-sri-lanka/",
-   "label": "Sri Lanka heat-stress convening",
+   "label": "Sri Lanka Red Cross Society",
    "root": "institutions",
    "org": true
   },
@@ -15086,6 +15278,18 @@
   {
    "url": "https://www.redcross.org.uk",
    "label": "British Red Cross",
+   "root": "institutions",
+   "org": true
+  },
+  {
+   "url": "https://www.redcross.org.uk/get-help/prepare-for-emergencies/heatwaves-uk/vulnerable-groups-advice",
+   "label": "British Red Cross",
+   "root": "institutions",
+   "org": true
+  },
+  {
+   "url": "https://www.redcross.org/about-us/news-and-events/news/2026/record-heat-hits-western-states.html",
+   "label": "American Red Cross",
    "root": "institutions",
    "org": true
   },
@@ -15256,6 +15460,12 @@
   },
   {
    "url": "https://www.sattva.co.in",
+   "label": "Sattva Consulting",
+   "root": "institutions",
+   "org": true
+  },
+  {
+   "url": "https://www.sattva.co.in/quick-read/a-primer-on-the-risks-and-implications-of-heat-stress-in-indias-textile-industry/",
    "label": "Sattva Consulting",
    "root": "institutions",
    "org": true
@@ -15486,6 +15696,15 @@
    "org": true
   },
   {
+   "url": "https://www.siehs.org/2026/04/heatwave-safety-tips-what-you-need-to-know-this-summer/",
+   "label": "Sindh Integrated Emergency and Health Services",
+   "root": "institutions",
+   "org": true,
+   "date": "2026-04",
+   "precision": "month",
+   "how": "url"
+  },
+  {
    "url": "https://www.similarweb.com/website/google.com/#ranking",
    "label": "",
    "root": "evidence",
@@ -15592,8 +15811,8 @@
   },
   {
    "url": "https://www.spgroup.com.sg/sustainable-energy-solutions/district-cooling-and-heating",
-   "label": "SP Group - district/centralised cooling",
-   "root": "financing",
+   "label": "SP Group",
+   "root": "institutions",
    "org": false
   },
   {
@@ -16318,6 +16537,12 @@
   },
   {
    "url": "https://www.tropmet.res.in",
+   "label": "Indian Institute of Tropical Meteorology",
+   "root": "institutions",
+   "org": true
+  },
+  {
+   "url": "https://www.tropmet.res.in/~lip/Publication/RR-pdf/RR-141.pdf",
    "label": "Indian Institute of Tropical Meteorology",
    "root": "institutions",
    "org": true
@@ -17347,6 +17572,12 @@
   },
   {
    "url": "https://www.woodwellclimate.org",
+   "label": "Woodwell Climate Research Center",
+   "root": "institutions",
+   "org": true
+  },
+  {
+   "url": "https://www.woodwellclimate.org/whrc-hosts-timely-discussion-of-extreme-heat-and-steps-towards-climate-justice/",
    "label": "Woodwell Climate Research Center",
    "root": "institutions",
    "org": true
