@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Stick Scene Showcase</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one centred column; a hero scene, then one wide card per use with its live scene, then a list of other uses. Light only, like paper. */
+:root {
+  --bg: #ffffff; --paper: #fbfaf7; --line: #e7e5df; --ink: #141414; --body: #4a4844; --muted: #7a776f;
+  --butter: #f6d365; --butter-soft: #fdf3d1; --green: #1a7f37;
+  --sans: 'Geist', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --mono: 'Geist Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); font-size: 16px; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+a { color: inherit; }
+.page { max-width: 980px; margin: 0 auto; padding-block: 56px 96px; padding-left: max(20px, env(safe-area-inset-left, 0px)); padding-right: max(20px, env(safe-area-inset-right, 0px)); }
+.eyebrow { font-family: var(--mono); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+h1 { font-size: clamp(34px, 5vw, 52px); line-height: 1.04; letter-spacing: -.04em; font-weight: 500; margin: 14px 0 0; max-width: 760px; text-wrap: balance; }
+h1 span { color: var(--muted); }
+.lede { margin: 18px 0 0; max-width: 620px; color: var(--body); font-size: 17px; }
+.stage { margin-top: 36px; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: #fff; }
+.stage stick-scene { display: block; width: 100%; height: 260px; }
+.hint { margin: 10px 0 0; font-family: var(--mono); font-size: 12px; color: var(--muted); }
+
+.uses { margin-top: 72px; display: grid; gap: 22px; }
+.use { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr); gap: 0; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; text-decoration: none; transition: border-color .2s, box-shadow .2s; }
+.use:hover, .use:focus-visible { border-color: #cfccc4; box-shadow: 0 6px 24px -12px rgba(20,20,20,.18); outline: none; }
+.use-copy { padding: 28px 28px 26px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.use-copy .n { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.use-copy h2 { margin: 0; font-size: 24px; letter-spacing: -.025em; font-weight: 500; line-height: 1.15; }
+.use-copy p { margin: 0; color: var(--body); font-size: 15px; }
+.use-copy ul { margin: 4px 0 0; padding-left: 18px; color: var(--body); font-size: 14px; }
+.use-copy .go { margin-top: auto; padding-top: 12px; font-weight: 500; font-size: 14px; }
+.use-copy .go::after { content: " →"; }
+.use-scene { background: var(--paper); border-left: 1px solid var(--line); display: grid; place-items: center; min-width: 0; }
+.use-scene stick-scene { display: block; width: 100%; height: 230px; }
+
+.more { margin-top: 72px; }
+.more h2 { font-size: 24px; letter-spacing: -.025em; font-weight: 500; margin: 0; }
+.more-grid { margin-top: 18px; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.more-grid div { border: 1px dashed var(--line); border-radius: 12px; padding: 16px 18px; }
+.more-grid b { display: block; font-weight: 500; font-size: 15px; }
+.more-grid span { color: var(--body); font-size: 14px; }
+footer { margin-top: 72px; padding-top: 18px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; font-family: var(--mono); font-size: 12px; color: var(--muted); }
+code { font-family: var(--mono); font-size: .9em; background: var(--butter-soft); padding: 1px 6px; border-radius: 5px; }
+
+@media (max-width: 760px) {
+  .use { grid-template-columns: 1fr; }
+  .use-scene { border-left: 0; border-top: 1px solid var(--line); }
+  .stage stick-scene { height: 220px; }
+}
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="eyebrow">/stick-scene · showcase</div>
+  <h1>Not just for landing pages. <span>Anywhere a small drawing explains it faster than a paragraph.</span></h1>
+  <p class="lede">Each scene is one canvas with no dependencies. It idles quietly and acts out one idea when you scroll to it or click it. Here are three places that aren't a hero section, each with scenes made for it.</p>
+
+  <div class="stage"><stick-scene scene="idea-compounding" play="view" label="A figure pats a tiny snowball together, pushes it down a slope, and it grows into a big one."></stick-scene></div>
+  <p class="hint">Click any scene to play it again.</p>
+
+  <div class="uses">
+    <a class="use" href="lessons.html">
+      <div class="use-copy">
+        <span class="n">01 · Teaching</span>
+        <h2>Lessons that act out the idea</h2>
+        <p>A course page where the scene walks through the algorithm and the lesson steps light up as it goes.</p>
+        <ul><li>Binary search, three looks instead of ten</li><li>Caching, a slow trip once, then instant</li></ul>
+        <span class="go">Open the lesson</span>
+      </div>
+      <div class="use-scene"><stick-scene scene="lesson-binary-search" play="hover" no-floor></stick-scene></div>
+    </a>
+
+    <a class="use" href="ideas.html">
+      <div class="use-copy">
+        <span class="n">02 · Explaining ideas</span>
+        <h2>Memos and essays that make the case</h2>
+        <p>An internal memo arguing for a quarter of cleanup, with each point drawn next to the paragraph that makes it.</p>
+        <ul><li>Tech debt as a leaning tower of crates</li><li>Small wins compounding like a snowball</li></ul>
+        <span class="go">Read the memo</span>
+      </div>
+      <div class="use-scene"><stick-scene scene="idea-tech-debt" play="hover" no-floor></stick-scene></div>
+    </a>
+
+    <a class="use" href="states.html">
+      <div class="use-copy">
+        <span class="n">03 · Product UI</span>
+        <h2>Empty, loading and error states</h2>
+        <p>A mail app whose quiet moments have something to look at: an empty inbox, a page that's loading, a link that went nowhere.</p>
+        <ul><li>Inbox zero, with a mug</li><li>A crank that fills the progress bar</li><li>A 404 search with a flashlight</li></ul>
+        <span class="go">Open the app</span>
+      </div>
+      <div class="use-scene"><stick-scene scene="state-empty" play="hover" no-floor></stick-scene></div>
+    </a>
+  </div>
+
+  <section class="more">
+    <h2>Other places they fit</h2>
+    <div class="more-grid">
+      <div><b>Docs and onboarding</b><span>Show the three setup steps, with the steps on the page lighting up in sync.</span></div>
+      <div><b>Release notes</b><span>One small scene per feature, so a changelog reads like a story.</span></div>
+      <div><b>Slides and talks</b><span>Drop a scene on a slide and click it to play the beat while you talk.</span></div>
+      <div><b>Newsletters and blogs</b><span>A drawing for the one idea readers should remember.</span></div>
+      <div><b>Internal tools</b><span>Explain a pipeline or an on-call process without a diagram nobody reads.</span></div>
+      <div><b>Kids and classrooms</b><span>Physics, maths or history beats acted out by a figure, one at a time.</span></div>
+    </div>
+  </section>
+
+  <footer><span>Every scene here was made with <code>/stick-scene</code></span><span>github.com/nilbuild/stick-scene</span></footer>
+</div>
+<script src="scenes/stick.js" defer></script>
+<script src="scenes/idea-compounding.js" defer></script>
+<script src="scenes/lesson-binary-search.js" defer></script>
+<script src="scenes/idea-tech-debt.js" defer></script>
+<script src="scenes/state-empty.js" defer></script>
+</body>
+</html>

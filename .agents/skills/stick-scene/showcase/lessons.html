@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Algorithms, Drawn</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a course site. Left rail of lessons, a reading column with the scene, steps that light up with it, and a check-yourself quiz. */
+:root {
+  --bg: #ffffff; --rail: #f6f7fb; --line: #e3e6ef; --ink: #141414; --body: #3f4250; --muted: #737788;
+  --blue: #2557d6; --blue-soft: #eaf0ff; --green: #1a7f37; --green-soft: #e7f6ec; --red: #b42318; --red-soft: #fdecea;
+  --serif: 'Newsreader', Georgia, serif;
+  --sans: 'Geist', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --mono: 'Geist Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); font-size: 16px; line-height: 1.65; -webkit-font-smoothing: antialiased; }
+a { color: var(--blue); }
+.shell { display: grid; grid-template-columns: 250px minmax(0, 1fr); min-height: 100vh; }
+.rail { background: var(--rail); border-right: 1px solid var(--line); padding: 28px 18px; position: sticky; top: 0; height: 100vh; overflow-y: auto; }
+.course { font-weight: 600; font-size: 15px; letter-spacing: -.01em; padding: 0 8px; }
+.course small { display: block; font-weight: 400; color: var(--muted); font-size: 13px; }
+.rail ol { list-style: none; margin: 22px 0 0; padding: 0; display: grid; gap: 2px; }
+.rail li a { display: flex; gap: 10px; align-items: baseline; padding: 7px 8px; border-radius: 8px; color: var(--body); text-decoration: none; font-size: 14px; }
+.rail li a:hover { background: #eceff6; }
+.rail li a .n { font-family: var(--mono); font-size: 11px; color: var(--muted); width: 18px; flex: none; }
+.rail li a.done .n::before { content: "✓"; color: var(--green); }
+.rail li a.done .n span { display: none; }
+.rail li a.here { background: var(--blue-soft); color: var(--blue); font-weight: 500; }
+.back { display: inline-block; margin-top: 26px; padding: 0 8px; font-size: 13px; color: var(--muted); }
+main { padding-block: 48px 96px; padding-left: max(24px, env(safe-area-inset-left, 0px)); padding-right: max(24px, env(safe-area-inset-right, 0px)); }
+.col { max-width: 760px; margin: 0 auto; }
+.lesson + .lesson { margin-top: 96px; padding-top: 56px; border-top: 1px solid var(--line); }
+.kicker { font-family: var(--mono); font-size: 12px; letter-spacing: .05em; text-transform: uppercase; color: var(--blue); }
+h1, h2 { font-family: var(--serif); font-weight: 500; letter-spacing: -.02em; line-height: 1.1; margin: 8px 0 0; text-wrap: balance; }
+h1 { font-size: clamp(34px, 4.6vw, 46px); }
+h3 { font-size: 15px; font-weight: 600; margin: 34px 0 6px; }
+.intro { font-size: 18px; color: var(--body); margin: 16px 0 0; max-width: 640px; }
+.figure { margin-top: 30px; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: #fff; }
+.figure stick-scene { display: block; width: 100%; height: 250px; }
+.figure figcaption { display: flex; justify-content: space-between; gap: 12px; padding: 10px 16px; border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); background: var(--rail); }
+.steps { list-style: none; padding: 0; margin: 18px 0 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.steps li { border-top: 3px solid var(--line); padding-top: 10px; transition: border-color .3s; }
+.steps .s-n { font-family: var(--mono); font-size: 11px; color: var(--muted); }
+.steps b { display: block; font-size: 15px; font-weight: 600; margin-top: 2px; }
+.steps p { margin: 4px 0 0; font-size: 14px; color: var(--body); line-height: 1.55; }
+.steps li > * { transition: opacity .3s; }
+.lesson:has(stick-scene[data-step="1"], stick-scene[data-step="2"], stick-scene[data-step="3"]) .steps li > * { opacity: .4; }
+.lesson:has(stick-scene[data-step="1"]) .steps li[data-i="1"],
+.lesson:has(stick-scene[data-step="2"]) .steps li[data-i="2"],
+.lesson:has(stick-scene[data-step="3"]) .steps li[data-i="3"] { border-color: var(--blue); }
+.lesson:has(stick-scene[data-step="1"]) .steps li[data-i="1"] > *,
+.lesson:has(stick-scene[data-step="2"]) .steps li[data-i="2"] > *,
+.lesson:has(stick-scene[data-step="3"]) .steps li[data-i="3"] > * { opacity: 1; }
+.prose p { margin: 0 0 14px; color: var(--body); max-width: 660px; }
+.table-wrap { overflow-x: auto; margin-top: 10px; }
+table { border-collapse: collapse; font-size: 14px; min-width: 420px; }
+th, td { text-align: left; padding: 8px 18px 8px 0; border-bottom: 1px solid var(--line); }
+th { font-weight: 500; color: var(--muted); font-size: 13px; }
+td.num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.terms { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-top: 10px; }
+.terms div { border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+.terms b { font-family: var(--mono); font-size: 13px; font-weight: 500; }
+.terms span { display: block; font-size: 14px; color: var(--body); margin-top: 2px; }
+.quiz { margin-top: 36px; border: 1px solid var(--line); border-radius: 14px; padding: 20px 22px; background: var(--rail); }
+.quiz .q { font-weight: 600; margin: 4px 0 12px; }
+.choices { display: flex; flex-wrap: wrap; gap: 8px; }
+.choices button { font: 500 14px var(--sans); padding: 8px 14px; border-radius: 9px; border: 1px solid var(--line); background: #fff; color: var(--ink); cursor: pointer; }
+.choices button:hover { border-color: var(--blue); }
+.choices button:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+.choices button.right { background: var(--green-soft); border-color: var(--green); color: var(--green); }
+.choices button.wrong { background: var(--red-soft); border-color: var(--red); color: var(--red); }
+.feedback { margin: 12px 0 0; font-size: 14px; color: var(--body); min-height: 1.6em; }
+.next { margin-top: 28px; display: flex; justify-content: flex-end; }
+.next a { font-weight: 500; text-decoration: none; }
+@media (max-width: 820px) {
+  .shell { grid-template-columns: minmax(0, 1fr); }
+  .rail { position: static; height: auto; border-right: 0; border-bottom: 1px solid var(--line); min-width: 0; }
+  .rail ol { grid-auto-flow: column; overflow-x: auto; }
+  .rail li a { white-space: nowrap; }
+  .steps { grid-template-columns: 1fr; }
+  .figure stick-scene { height: 200px; }
+}
+@media (prefers-reduced-motion: reduce) { .steps li, .steps li > * { transition: none; } }
+</style>
+</head>
+<body>
+<div class="shell">
+  <nav class="rail" aria-label="Lessons">
+    <div class="course">Algorithms, drawn<small>A short course, 8 lessons</small></div>
+    <ol>
+      <li><a class="done" href="#"><span class="n"><span>1</span></span>What an algorithm is</a></li>
+      <li><a class="done" href="#"><span class="n"><span>2</span></span>Counting steps</a></li>
+      <li><a class="here" href="#binary-search"><span class="n">3</span>Binary search</a></li>
+      <li><a href="#caching"><span class="n">4</span>Caching</a></li>
+      <li><a href="#"><span class="n">5</span>Stacks and queues</a></li>
+      <li><a href="#"><span class="n">6</span>Hash maps</a></li>
+      <li><a href="#"><span class="n">7</span>Sorting</a></li>
+      <li><a href="#"><span class="n">8</span>Graphs</a></li>
+    </ol>
+    <a class="back" href="index.html">← All examples</a>
+  </nav>
+
+  <main>
+    <div class="col">
+      <article class="lesson" id="binary-search">
+        <div class="kicker">Lesson 3</div>
+        <h1>Binary search</h1>
+        <p class="intro">If a list is sorted, you never need to check every item. Look in the middle, throw away the half that can't have your answer, and repeat.</p>
+
+        <figure class="figure">
+          <stick-scene scene="lesson-binary-search" play="view" label="A figure looks for 42 in ten sorted cards. It checks the middle card, drops the half that can't hold 42, and finds it on the third look."></stick-scene>
+          <figcaption><span>Looking for 42 in ten sorted cards</span><span>Click to replay</span></figcaption>
+        </figure>
+
+        <ol class="steps">
+          <li data-i="1"><span class="s-n">Step 1</span><b>Look in the middle</b><p>The middle card is 31. 42 is bigger, so it can't be on the left.</p></li>
+          <li data-i="2"><span class="s-n">Step 2</span><b>Drop half</b><p>Look in the middle of what's left: 61. Too big, so drop the right side.</p></li>
+          <li data-i="3"><span class="s-n">Step 3</span><b>Found it</b><p>One card left to check, and it's 42. Three looks instead of ten.</p></li>
+        </ol>
+
+        <h3>Why it's fast</h3>
+        <div class="prose"><p>Every look halves what's left, so the number of looks grows very slowly as the list grows.</p></div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Cards</th><th>Checking one by one</th><th>Binary search, at most</th></tr></thead>
+            <tbody>
+              <tr><td class="num">10</td><td class="num">10 looks</td><td class="num">4 looks</td></tr>
+              <tr><td class="num">1,000</td><td class="num">1,000 looks</td><td class="num">10 looks</td></tr>
+              <tr><td class="num">1,000,000</td><td class="num">1,000,000 looks</td><td class="num">20 looks</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="quiz" data-quiz>
+          <div class="kicker">Check yourself</div>
+          <p class="q">The cards are shuffled, not sorted. Can you still use binary search?</p>
+          <div class="choices">
+            <button type="button" id="q1-a" data-right="false" data-why="Dropping half only works because everything on one side is smaller and everything on the other side is bigger. In a shuffled list, 42 could be anywhere.">Yes, it still works</button>
+            <button type="button" id="q1-b" data-right="true" data-why="Right. Dropping half is only safe when the list is sorted. Sort it first, or check every card.">No, it needs sorted cards</button>
+          </div>
+          <p class="feedback" aria-live="polite"></p>
+        </div>
+      </article>
+
+      <article class="lesson" id="caching">
+        <div class="kicker">Lesson 4</div>
+        <h2 style="font-size:clamp(30px,4vw,40px)">Caching</h2>
+        <p class="intro">Fetching from far away is slow. Keep a copy close by the first time, and every later request is almost free.</p>
+
+        <figure class="figure">
+          <stick-scene scene="lesson-cache" play="view" label="A figure walks all the way to the database for a file, keeps a copy on a nearby cache shelf, and answers the next request for it instantly."></stick-scene>
+          <figcaption><span>Two requests for the same user</span><span>Click to replay</span></figcaption>
+        </figure>
+
+        <ol class="steps">
+          <li data-i="1"><span class="s-n">Step 1</span><b>Miss</b><p>The shelf is empty, so it's the long walk to the database. Slow.</p></li>
+          <li data-i="2"><span class="s-n">Step 2</span><b>Keep a copy</b><p>Put a copy on the shelf next to the desk on the way back.</p></li>
+          <li data-i="3"><span class="s-n">Step 3</span><b>Hit</b><p>The same request again is answered from the shelf, with no walk at all.</p></li>
+        </ol>
+
+        <h3>Words you'll hear</h3>
+        <div class="terms">
+          <div><b>cache hit</b><span>The copy was there, so the answer is fast.</span></div>
+          <div><b>cache miss</b><span>No copy yet, so you take the slow trip.</span></div>
+          <div><b>stale</b><span>The original changed but the copy didn't.</span></div>
+          <div><b>eviction</b><span>The shelf is full, so an old copy goes.</span></div>
+        </div>
+
+        <div class="quiz" data-quiz>
+          <div class="kicker">Check yourself</div>
+          <p class="q">User #7 changes their name in the database. What does the shelf still hold?</p>
+          <div class="choices">
+            <button type="button" id="q2-a" data-right="false" data-why="The shelf is just a copy. Nothing updates it on its own when the database changes.">The new name</button>
+            <button type="button" id="q2-b" data-right="true" data-why="Right, a stale copy. That's why caches expire copies after a while, or clear them when the data changes.">The old name</button>
+          </div>
+          <p class="feedback" aria-live="polite"></p>
+        </div>
+
+        <div class="next"><a href="index.html">Back to all examples →</a></div>
+      </article>
+    </div>
+  </main>
+</div>
+<script>
+  for (const quiz of document.querySelectorAll('[data-quiz]')) {
+    const feedback = quiz.querySelector('.feedback');
+    for (const button of quiz.querySelectorAll('button')) {
+      button.addEventListener('click', () => {
+        for (const other of quiz.querySelectorAll('button')) {
+          other.classList.remove('right', 'wrong');
+        }
+        button.classList.add(button.dataset.right === 'true' ? 'right' : 'wrong');
+        feedback.textContent = button.dataset.why;
+      });
+    }
+  }
+</script>
+<script src="scenes/stick.js" defer></script>
+<script src="scenes/lesson-binary-search.js" defer></script>
+<script src="scenes/lesson-cache.js" defer></script>
+</body>
+</html>
