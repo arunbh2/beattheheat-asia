@@ -1,0 +1,35 @@
+[
+ {
+  "id": "c-india",
+  "where": "Signals sig-wmo-state-of-climate-2026 summary",
+  "text": "An estimated 146.5 million people in India were exposed to extreme heat in an April 2026 heatwave.",
+  "sources": [
+   {
+    "label": "World Meteorological Organization: State of the climate in 2026 gives new meaning to phrase 'off the charts', 2026",
+    "url": "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts"
+   }
+  ]
+ },
+ {
+  "id": "c-mhews",
+  "where": "Signals sig-wmo-state-of-climate-2026 summary",
+  "text": "Countries reporting multi-hazard early warning systems rose from 56 in 2015 to 136 in 2025.",
+  "sources": [
+   {
+    "label": "World Meteorological Organization: State of the climate in 2026 gives new meaning to phrase 'off the charts', 2026",
+    "url": "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts"
+   }
+  ]
+ },
+ {
+  "id": "c-who",
+  "where": "Signals sig-el-nino-2026-2027 summary",
+  "text": "WHO has, for the first time, classified the anticipated health impacts of El Nino as a health emergency.",
+  "sources": [
+   {
+    "label": "World Meteorological Organization: State of the climate in 2026 gives new meaning to phrase 'off the charts', 2026",
+    "url": "https://wmo.int/news/media-centre/state-of-climate-2026-gives-new-meaning-phrase-charts"
+   }
+  ]
+ }
+]

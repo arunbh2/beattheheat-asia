@@ -5,7 +5,7 @@ updated: 2026-11-17
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 66 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 67 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-66 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,117 works the commons draws on carry a publication date, and 808 are still being dated.
+67 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,117 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -107,6 +107,40 @@ A watch-out: protections that workers are not able to use.
 [See Heat-safe work](https://beattheheat.asia/actions/#heatrules)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Heat-safe%20work%3A%20protections%20that%20workers%20cannot%20use&ref=g-oxfam-heat-work#way-share)
+
+Evidence added · Evidence
+
+### The year's climate findings: India's April heat, early warnings and El Niño's health risks
+
+Added 17 November 2026 · WMO State of the Climate Update 2026, released as COP31 opened November 2026
+
+Why it matters our readingTwo Signals records now carry more from WMO's State of the Climate Update 2026, checked against its press release: an estimated 146.5 million people in India exposed to extreme heat in an April 2026 heatwave, countries reporting multi-hazard early warning systems up from 56 in 2015 to 136 in 2025, and WHO's first classification of El Niño's anticipated health impacts as a health emergency.
+
+- India
+- South and Southeast Asia
+- Anticipatory action
+
+ReviewEight terms found on WMO's press release; three claims confirmed; the Nepal glacier collapse, quotations and figures outside the heat focus are held back in the batch ledger. 1 checked · 1 confirmed.
+
+What it took to add this
+
+- **The question.** What in WMO's State of the Climate Update bears on heat in South and Southeast Asia beyond the headline temperature?
+- **The search.** 1 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 1 confirmed.
+
+- **What is still open.** How many people in Southeast Asia were exposed to extreme heat in 2026, and whether early warning systems reach people working outdoors.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-wmo-soc-heat/link-check.json)
+
+How it connects
+
+- [Anticipatory action](https://beattheheat.asia/actions/#anticipatory) Action · from the site's records
+Early warning systems reported by more countries.
+
+[See the records on Signals](https://beattheheat.asia/signals/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=The%20year's%20climate%20findings%3A%20India's%20April%20heat%2C%20early%20warnings%20and%20El%20Ni%C3%B1o's%20health%20risks&ref=g-wmo-soc-heat#way-share)
 
 Tool improved · Evidence
 

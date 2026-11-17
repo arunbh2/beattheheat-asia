@@ -61,7 +61,7 @@
    "kind": "finding",
    "date": "2026-11-09",
    "title": "2026 will be one of the four warmest years on record",
-   "summary": "WMO's State of the Climate Update 2026, released as COP31 opened, finds that the past 12 years have each been the warmest on record and the past four the top four. The global average surface temperature for January to September 2026 was about 1.47 °C above the pre-industrial average. In early November the EU's Copernicus service said 2026 is most likely to be the second-hottest year on record.",
+   "summary": "WMO's State of the Climate Update 2026, released as COP31 opened, finds that the past 12 years have each been the warmest on record and the past four the top four. The global average surface temperature for January to September 2026 was about 1.47 °C above the pre-industrial average. In early November the EU's Copernicus service said 2026 is most likely to be the second-hottest year on record. It estimates that 146.5 million people in India were exposed to extreme heat in an April 2026 heatwave, and that the number of countries reporting multi-hazard early warning systems rose from 56 in 2015 to 136 in 2025.",
    "who": "World Meteorological Organization",
    "places": ["region"],
    "levers": ["hap","anticipatory"],
@@ -73,7 +73,7 @@
    ],
    "where": "Global",
    "relevance": {"basis":"explicit"},
-   "review": {"reviewed":"2026-11-16","due":"2026-11-27"}
+   "review": {"reviewed":"2026-11-17","due":"2026-11-27"}
   },
   {
    "id": "sig-el-nino-2026-2027",
@@ -81,7 +81,7 @@
    "kind": "finding",
    "date": "2026-11-09",
    "title": "El Niño set to bring more heat into 2027",
-   "summary": "By mid-August 2026 El Niño had become firmly established. WMO reports it has been intensifying since August and is expected to be the strongest on record by December, set to unleash even more heat and extreme weather well into 2027.",
+   "summary": "By mid-August 2026 El Niño had become firmly established. WMO reports it has been intensifying since August and is expected to be the strongest on record by December, set to unleash even more heat and extreme weather well into 2027. WMO calls it a risk multiplier for health, and reports that WHO has, for the first time, classified the anticipated health impacts as a health emergency.",
    "who": "World Meteorological Organization",
    "places": ["region"],
    "levers": ["anticipatory","hap"],
@@ -92,7 +92,7 @@
    ],
    "where": "Global",
    "relevance": {"basis":"explicit"},
-   "review": {"reviewed":"2026-11-16","due":"2026-11-27"}
+   "review": {"reviewed":"2026-11-17","due":"2026-11-27"}
   },
   {
    "id": "sig-emissions-gap-2026",
