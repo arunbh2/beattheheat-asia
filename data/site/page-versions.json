@@ -216,7 +216,7 @@
   "changed": "2026-11-15"
  },
  "/heat-assembly/": {
-  "hash": "07e27b2b62c61e61",
+  "hash": "6a23f7235550259c",
   "changed": "2026-11-16"
  },
  "/heat-economy/": {
@@ -244,7 +244,7 @@
   "changed": "2026-11-16"
  },
  "/heat-network/": {
-  "hash": "973bdff4ac584bfa",
+  "hash": "1b74f6d4fa7518c6",
   "changed": "2026-11-16"
  },
  "/heat-tools/": {
@@ -356,7 +356,7 @@
   "changed": "2026-11-16"
  },
  "/live-through-a-heatwave/": {
-  "hash": "58d0e4f5f012c214",
+  "hash": "459f6d577e8fea93",
   "changed": "2026-11-16"
  },
  "/loops/": {

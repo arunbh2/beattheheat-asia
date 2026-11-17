@@ -60,7 +60,7 @@
 .ht-badge--stale { background: #EFEFEF; border-color: #999; }
 .ht-card__h { font-size: var(--fs-18); line-height: 1.15; margin: 0; overflow-wrap: anywhere; }
 .ht-card__h a { color: var(--ink); text-decoration: none; }
-.ht-card__h a:hover { text-decoration: underline; text-decoration-color: var(--orange); }
+.ht-card__h a:hover { text-decoration-line: underline; text-decoration-thickness: 2px; text-decoration-color: var(--orange); }
 .ht-card__prov { color: var(--grey-700); font-size: var(--fs-14); }
 .ht-card__sum, .ht-card__where { font-size: var(--fs-16); }
 .ht-card__where { color: var(--grey-700); }

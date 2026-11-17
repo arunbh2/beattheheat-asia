@@ -92,7 +92,7 @@
 .hr-st--not_assessed { background: var(--sand-50); color: var(--grey-700); }
 .hr-basis { font-size: var(--fs-14); color: var(--grey-700); }
 .hr-acts { display: flex; flex-wrap: wrap; gap: var(--s-2) var(--s-4); align-items: center; margin-top: var(--s-2) !important; }
-.hr-mini { position: relative; display: inline-block; padding: 2px 0; border: 0; background: none; font: inherit; font-size: var(--fs-14); font-weight: 700; color: var(--ink); text-decoration: underline; text-decoration-color: var(--orange); text-underline-offset: 3px; cursor: pointer; }
+.hr-mini { position: relative; display: inline-block; padding: 2px 0; border: 0; background: none; font: inherit; font-size: var(--fs-14); font-weight: 700; color: var(--ink); text-decoration-line: underline; text-decoration-thickness: 2px; text-decoration-color: var(--orange); text-underline-offset: 3px; cursor: pointer; }
 .hr-mini::after { content: ""; position: absolute; inset: -10px -4px; }
 .hr-mini[aria-pressed="true"] { text-decoration-thickness: 3px; }
 .hr-exs { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: var(--s-4); }
