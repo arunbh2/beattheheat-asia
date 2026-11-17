@@ -846,6 +846,18 @@
                   "open": "The advisory texts: whether further illnesses are compensable now or under review, and whether the 2026 advisory replaces the 2023 one." },
       "pages": [["/signals/", "Signals"], ["/plan/", "Plan a response"]], "action": ["See the record on Signals", "/signals/"],
       "links": [{ "to": "lever:heatrules", "why": "Employers' duties tied to public heat index levels.", "basis": "record" }]
+    },
+    {
+      "id": "g-compound-dry-hot", "kind": "evidence", "root": "evidence", "added": "2026-11-17", "pr": null,
+      "title": "Dry soils and heat arriving together, from a daily global record",
+      "why": "A data set paper published in November 2026, checked against the publisher's open PDF, finds dry and hot conditions occurring together more often since 2000 in several hotspot regions, faster than either alone would suggest, with China's Yangtze River Basin rising from 10 to 21 events per grid square. The map's drying soils entry now carries it with its limits: a reanalysis estimate that leaves out irrigation and reports no country result for South or Southeast Asia.",
+      "places": ["region"], "people": ["farmers"], "topics": [],
+      "event": { "what": "Earth System Science Data, 2026: a daily global data set and event catalogue for compound dry-hot extremes", "date": "2026-11" },
+      "review": "Eight terms, each found in the publisher's open PDF; three claims confirmed; what was held back is listed in the batch ledger",
+      "effort": { "asked": "What does a new global record of dry soils and heat arriving together add for South and Southeast Asia?", "inbox": "data/inbox/2026-11-compound-dry-hot",
+                  "open": "Country-level results for South and Southeast Asia, and how irrigated plains change the picture." },
+      "pages": [["/#drysoil", "Drying soils on the map"]], "action": ["See drying soils on the map", "/#drysoil"],
+      "links": []
     }
   ]
 }

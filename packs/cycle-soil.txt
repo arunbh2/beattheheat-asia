@@ -1,5 +1,5 @@
 Common Shade evidence pack: The dry-soil loop
-Vicious cycle · https://beattheheat.asia/loops/#soil · built 2026-11-16
+Vicious cycle · https://beattheheat.asia/loops/#soil · built 2026-11-17
 Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
 
 HOW TO USE THIS PACK
@@ -23,7 +23,7 @@ Evidence for the cycle as a whole: established.
 THE LINKS IN THE CYCLE
 - heat
 - nature
-- Drying soils: Heat pulls moisture from the ground when crops and plants need it most. In India's 2015 heatwave, drying soils and the heat they gave off added to the second peak of the heat, though not the first. [https://doi.org/10.1016/j.earscirev.2010.02.004] [https://ntrs.nasa.gov/citations/20180003614]
+- Drying soils: Heat pulls moisture from the ground when crops and plants need it most. In India's 2015 heatwave, drying soils and the heat they gave off added to the second peak of the heat, though not the first. Dry soils and extreme heat are also arriving together more often: a daily global estimate for 1961 to 2023 finds such compound events more frequent since 2000 in several hotspot regions, rising faster than either alone would suggest. In China's Yangtze River Basin, the median count per grid square rose from 10 events in 1961-1999 to 21 in 2000-2023. The estimate comes from reanalysis and leaves out irrigation. [https://doi.org/10.1016/j.earscirev.2010.02.004] [https://ntrs.nasa.gov/citations/20180003614] [https://doi.org/10.5194/essd-18-7981-2026]
 
 STUDIES BEHIND IT
 - Seneviratne et al., Earth-Science Reviews, 2010: Investigating soil moisture–climate interactions in a changing climate: a review. Reviews the evidence that dry soils amplify hot temperatures: with less water to evaporate, more of the sun’s energy goes into heating the air. Where: Global. Limit it states: Explains a general mechanism; how strong it is varies by region and season. [https://doi.org/10.1016/j.earscirev.2010.02.004]
@@ -35,3 +35,4 @@ ACTIONS THAT COULD INTERRUPT IT
 SOURCES
 - Seneviratne et al., Earth-Science Reviews, 2010: https://doi.org/10.1016/j.earscirev.2010.02.004
 - Ghatak et al., 2017: the role of local heating in the 2015 Indian heat wave (NASA abstract): https://ntrs.nasa.gov/citations/20180003614
+- Aftab, Hagan et al., Earth System Science Data, 2026: a daily global data set and event catalogue for compound dry-hot extremes, 1961-2023 (open access): https://doi.org/10.5194/essd-18-7981-2026

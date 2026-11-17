@@ -3861,6 +3861,15 @@
    "how": "meta"
   },
   {
+   "url": "https://doi.org/10.5194/essd-18-7981-2026",
+   "label": "Aftab, Hagan et al., Earth System Science Data, 2026: a daily global data set and event catalogue for compound dry-hot extremes, 1961-2023 (open access)",
+   "root": "evidence",
+   "org": false,
+   "date": "2026",
+   "precision": "year",
+   "how": "label"
+  },
+  {
    "url": "https://doi.org/10.5271/sjweh.4336",
    "label": "Scandinavian Journal of Work, Environment & Health, 2026",
    "root": "practical",

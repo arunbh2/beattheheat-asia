@@ -1,0 +1,35 @@
+[
+ {
+  "id": "c-together",
+  "where": "Consequence drysoil",
+  "text": "In hotspot regions, compound dry-hot events have become more frequent in the recent warming period (2000-2023) than in 1961-1999, and their joint occurrence rises faster than the two drivers alone would imply.",
+  "sources": [
+   {
+    "label": "Earth System Science Data (Copernicus), open access: The Standardized Soil Moisture-Temperature Compound Index (SSTCI): daily scale global data set and event catalogue for compound dry-hot extremes (1961-2023), 2026",
+    "url": "https://essd.copernicus.org/articles/18/7981/2026/essd-18-7981-2026.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-yangtze",
+  "where": "Consequence drysoil",
+  "text": "In China's Yangtze River Basin, the median event count per grid cell rose from 10 in 1961-1999 to 21 in 2000-2023.",
+  "sources": [
+   {
+    "label": "Earth System Science Data (Copernicus), open access: The Standardized Soil Moisture-Temperature Compound Index (SSTCI): daily scale global data set and event catalogue for compound dry-hot extremes (1961-2023), 2026",
+    "url": "https://essd.copernicus.org/articles/18/7981/2026/essd-18-7981-2026.pdf"
+   }
+  ]
+ },
+ {
+  "id": "c-limit",
+  "where": "Consequence drysoil",
+  "text": "The data set is built from reanalysis and does not represent irrigation.",
+  "sources": [
+   {
+    "label": "Earth System Science Data (Copernicus), open access: The Standardized Soil Moisture-Temperature Compound Index (SSTCI): daily scale global data set and event catalogue for compound dry-hot extremes (1961-2023), 2026",
+    "url": "https://essd.copernicus.org/articles/18/7981/2026/essd-18-7981-2026.pdf"
+   }
+  ]
+ }
+]

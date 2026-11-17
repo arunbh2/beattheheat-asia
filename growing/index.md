@@ -1,11 +1,11 @@
 ---
 title: "Watch Common Shade grow"
 url: https://beattheheat.asia/growing/
-updated: 2026-11-16
+updated: 2026-11-17
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 63 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 64 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,11 +13,39 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-63 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,115 works the commons draws on carry a publication date, and 808 are still being dated.
+64 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,116 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
 ## Updates, newest first
+
+Evidence added · Evidence
+
+### Dry soils and heat arriving together, from a daily global record
+
+Added 17 November 2026 · Earth System Science Data, 2026: a daily global data set and event catalogue for compound dry-hot extremes November 2026
+
+Why it matters our readingA data set paper published in November 2026, checked against the publisher's open PDF, finds dry and hot conditions occurring together more often since 2000 in several hotspot regions, faster than either alone would suggest, with China's Yangtze River Basin rising from 10 to 21 events per grid square. The map's drying soils entry now carries it with its limits: a reanalysis estimate that leaves out irrigation and reports no country result for South or Southeast Asia.
+
+- South and Southeast Asia
+- Smallholder and rainfed farming households
+
+ReviewEight terms, each found in the publisher's open PDF; three claims confirmed; what was held back is listed in the batch ledger. 1 checked · 1 confirmed.
+
+What it took to add this
+
+- **The question.** What does a new global record of dry soils and heat arriving together add for South and Southeast Asia?
+- **The search.** 1 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 1 confirmed.
+
+- **What is still open.** Country-level results for South and Southeast Asia, and how irrigated plains change the picture.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-compound-dry-hot/link-check.json)
+
+[See drying soils on the map](https://beattheheat.asia/#drysoil)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Dry%20soils%20and%20heat%20arriving%20together%2C%20from%20a%20daily%20global%20record&ref=g-compound-dry-hot#way-share)
 
 Tool improved · Evidence
 
@@ -2024,11 +2052,11 @@ Steps toward protection this year: [Delhi launches its 2025 Heat Action Plan](ht
 
 - 2026 so far
 
-239 works published, 140 of them with a known month; 1,115 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
+240 works published, 140 of them with a known month; 1,116 in all by the end of the year. 13 of the verified Indian heat action plans carry this year.
 
 Steps toward protection this year: [Bangkok opens 304 cooling centres](https://beattheheat.asia/atlas/); [The first Global Heat Forum, in Bangkok](https://beattheheat.asia/atlas/).
 
-- Evidence404
+- Evidence405
 - Experience98
 - Practical measures246
 - Institutions and plans138

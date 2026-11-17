@@ -5,8 +5,15 @@
   <link href="https://beattheheat.asia/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://beattheheat.asia/growing/" rel="alternate" type="text/html"/>
   <id>https://beattheheat.asia/</id>
-  <updated>2026-11-16T00:00:00Z</updated>
+  <updated>2026-11-17T00:00:00Z</updated>
   <rights>CC BY 4.0</rights>
+  <entry>
+    <title>Dry soils and heat arriving together, from a daily global record</title>
+    <link href="https://beattheheat.asia/growing/#g-compound-dry-hot" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-compound-dry-hot</id>
+    <updated>2026-11-17T00:00:00Z</updated>
+    <summary>A data set paper published in November 2026, checked against the publisher's open PDF, finds dry and hot conditions occurring together more often since 2000 in several hotspot regions, faster than either alone would suggest, with China's Yangtze River Basin rising from 10 to 21 events per grid square. The map's drying soils entry now carries it with its limits: a reanalysis estimate that leaves out irrigation and reports no country result for South or Southeast Asia.</summary>
+  </entry>
   <entry>
     <title>Signals now shows what the evidence confirms for each promise</title>
     <link href="https://beattheheat.asia/growing/#g-signals-evidence-records" rel="alternate" type="text/html"/>
@@ -209,12 +216,5 @@
     <id>https://beattheheat.asia/growing/#g-longer-than-record</id>
     <updated>2026-11-09T00:00:00Z</updated>
     <summary>Plans and budgets are usually sized to the worst heatwave people remember, and new modelling suggests some future heatwaves will run longer. The workbook now asks whether the money and staff would last.</summary>
-  </entry>
-  <entry>
-    <title>Signals: which way heat policy is moving</title>
-    <link href="https://beattheheat.asia/growing/#g-signals" rel="alternate" type="text/html"/>
-    <id>https://beattheheat.asia/growing/#g-signals</id>
-    <updated>2026-11-09T00:00:00Z</updated>
-    <summary>Announcements are the earliest sign of where heat policy is heading, but on their own they are weak evidence. Signals places each one on a ladder from announced to evaluated, starting with COP31 and this year's signals already on the site, so readers can weigh them rather than collect them.</summary>
   </entry>
 </feed>

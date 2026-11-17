@@ -6,7 +6,7 @@ Common Shade is in beta, currently at beattheheat.asia. A group of organisations
 
 Text, data, films and illustrations © Common Shade contributors, shared under Creative Commons Attribution 4.0 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/): you may copy, adapt and translate them, with credit and a link to beattheheat.asia. Code is under the MIT licence. Linked sources, quotations, and organisations’ names and logos remain their owners’ and are not covered.
 
-Interactive map: https://beattheheat.asia/ · Generated 2026-11-16
+Interactive map: https://beattheheat.asia/ · Generated 2026-11-17
 
 ## The web of extreme heat: every consequence, system by system
 
@@ -58,13 +58,15 @@ Source: Masuda et al., 2021: warming from tropical deforestation reduces worker 
 
 #### Drying soils
 
-Heat pulls moisture from the ground when crops and plants need it most. In India's 2015 heatwave, drying soils and the heat they gave off added to the second peak of the heat, though not the first.
+Heat pulls moisture from the ground when crops and plants need it most. In India's 2015 heatwave, drying soils and the heat they gave off added to the second peak of the heat, though not the first. Dry soils and extreme heat are also arriving together more often: a daily global estimate for 1961 to 2023 finds such compound events more frequent since 2000 in several hotspot regions, rising faster than either alone would suggest. In China's Yangtze River Basin, the median count per grid square rose from 10 events in 1961-1999 to 21 in 2000-2023. The estimate comes from reanalysis and leaves out irrigation.
 
 Leads to: Failing harvests (Moisture vanishes just when crops need it most.); Extreme heat (Dry soil can’t cool itself by evaporation, so more of the sun’s energy becomes heat.)
 
 Source: Seneviratne et al., Earth-Science Reviews, 2010 https://doi.org/10.1016/j.earscirev.2010.02.004
 
 Source: Ghatak et al., 2017: the role of local heating in the 2015 Indian heat wave (NASA abstract) https://ntrs.nasa.gov/citations/20180003614
+
+Source: Aftab, Hagan et al., Earth System Science Data, 2026: a daily global data set and event catalogue for compound dry-hot extremes, 1961-2023 (open access) https://doi.org/10.5194/essd-18-7981-2026
 
 #### Glacier and snow melt
 
@@ -6148,11 +6150,11 @@ Public schemes that could cushion a household through a hot season, in 6 countri
 
 https://beattheheat.asia/growing/
 
-See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 63 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
+See what we are learning, what is changing, and how it connects to protection from extreme heat. This is a record of how the knowledge commons has changed, not a measure of protection achieved. 64 changes are recorded since 23 October 2026, 5 of them corrections or revised interpretations and 3 questions opened. "Why it matters" is Common Shade's reading; "What the source says" is quoted from the source.
 
 ### How the work behind the commons grew
 
-Dated by the publication date of the work Common Shade draws on (1115 of 1942 works dated; 808 have no established date yet, 19 only an "online by" date; 426 links to organisations are counted apart and never dated). Common Shade began gathering this work in October 2026; the dates below are when the work was published, not when it was added.
+Dated by the publication date of the work Common Shade draws on (1116 of 1943 works dated; 808 have no established date yet, 19 only an "online by" date; 426 links to organisations are counted apart and never dated). Common Shade began gathering this work in October 2026; the dates below are when the work was published, not when it was added.
 
 - Before 2024: 470 works. Financing: 80; Institutions and plans: 65; Practical measures: 99; Experience: 23; Evidence: 203.
 
@@ -6160,9 +6162,11 @@ Dated by the publication date of the work Common Shade draws on (1115 of 1942 wo
 
 - 2025: 210 works published (123 with a known month), 876 in all by the end of the period. Financing: 172; Institutions and plans: 119; Practical measures: 182; Experience: 69; Evidence: 334.
 
-- 2026 so far: 239 works published (140 with a known month), 1115 in all by the end of the period. Financing: 229; Institutions and plans: 138; Practical measures: 246; Experience: 98; Evidence: 404.
+- 2026 so far: 240 works published (140 with a known month), 1116 in all by the end of the period. Financing: 229; Institutions and plans: 138; Practical measures: 246; Experience: 98; Evidence: 405.
 
 ### Changes, newest first
+
+- Evidence added: Dry soils and heat arriving together, from a daily global record. Added 17 November 2026 · Earth System Science Data, 2026: a daily global data set and event catalogue for compound dry-hot extremes November 2026. Why it matters (our reading): A data set paper published in November 2026, checked against the publisher's open PDF, finds dry and hot conditions occurring together more often since 2000 in several hotspot regions, faster than either alone would suggest, with China's Yangtze River Basin rising from 10 to 21 events per grid square. The map's drying soils entry now carries it with its limits: a reanalysis estimate that leaves out irrigation and reports no country result for South or Southeast Asia. Places: South and Southeast Asia. People: Smallholder and rainfed farming households. Review: Eight terms, each found in the publisher's open PDF; three claims confirmed; what was held back is listed in the batch ledger. Next: See drying soils on the map https://beattheheat.asia/#drysoil. What it took to add this: The question: What does a new global record of dry soils and heat arriving together add for South and Southeast Asia? 1 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 1 confirmed. Still open: Country-level results for South and Southeast Asia, and how irrigated plains change the picture.
 
 - Tool improved: Signals now shows what the evidence confirms for each promise. Added 16 November 2026 · Signals rebuilt around evidence 16 November 2026. Why it matters (our reading): Each commitment on Signals is now tracked deliverable by deliverable, so an office, a research fund and a future plan no longer share one status, and every milestone names its sources, what each establishes and whether the site's source check confirmed it. Secondary reports and pages that only opened are shown as such, nothing missing is called failed, and a filtered view can be shared, saved, printed or downloaded. Places: South and Southeast Asia. People: Workers in heat-exposed jobs. Topics: Heat-safe work, Dedicated heat budgets. Review: Every existing record re-described from its own text and the site's check records, with no new claims; an independent review of the tracking model; the edge cases tested on fixtures. Next: See Signals https://beattheheat.asia/signals/. Connections: Heat-safe work (from the site's records): Several tracked rules concern heat at work, each now with its effective date and evidence. What it took to add this: The question: For each promise on Signals, what does the evidence actually confirm, and what would show the next step? 10 sources were gathered for checking. Each source was opened and read for the terms and numbers it was cited for: 5 confirmed, and 5 could not be (1 blocked automated reading, 4 did not respond). 5 items that rested on what could not be confirmed were set aside, regraded or reworded, each with its reason. Still open: The original texts behind records that rest on secondary reports, and content checks for sources that have only been opened.
 
