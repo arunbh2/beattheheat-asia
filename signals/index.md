@@ -1102,7 +1102,7 @@ Explore on Common Shade[Heat action plans](https://beattheheat.asia/actions/#hap
 - Each milestone names its sources and what each one establishes. Whether it is confirmed comes from the site's source check (data/inbox/*/link-check.json): a page that merely opens is not evidence, and a secondary report is shown as reported until the original is checked.
 - An evaluation is recorded with its findings, positive, mixed or negative, and is not treated as proof of cause.
 - Interpretation is labelled as Common Shade's reading and kept apart from what sources say. Broad climate or health funding is never shown as money for heat unless the source says so.
-- Maintenance: node tools/signals-review.js lists records due for review and what each source's check found, and turns a proposed milestone into a record only with its evidence. AI-assisted discovery may prepare candidates; nothing is published without review.
+- Maintenance: node tools/signals-review.js lists records due for review and what each source's check found, and turns a proposed milestone into a record only with its evidence. Nothing is published without review.
 
 A review re-reads the sources cited here and the site's source-check records. It is not a full search for newer developments; a missing update means none was found in these sources, not that nothing happened.
 

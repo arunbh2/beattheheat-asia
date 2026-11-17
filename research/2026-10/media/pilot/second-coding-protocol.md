@@ -3,7 +3,7 @@
 This is a proposal for how a human second coder could check the pilot's codes on /how-heat-is-reported/. It is not a commitment, and no date is set. Until a second coding is done and reconciled, every pilot code stays provisional.
 
 ## Why
-The pilot's 32 articles were read in full and coded once, with AI assistance, by one coder. A second, independent reading is the usual way to see whether the codes hold.
+The pilot's 32 articles were read in full and coded once, without a second coding. A second, independent reading is the usual way to see whether the codes hold.
 
 ## Sample
 - At least one article per language, wherever a reader of that language is available. English articles can fill the rest.

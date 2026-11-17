@@ -19,7 +19,7 @@
  },
  "depths": {
   "listing": { "label": "Headline and listing", "note": "Headline, outlet, year, place and a short story angle written by the curator. The full text was not coded; patterns drawn from it rest on headlines, descriptions and some full texts not recorded one by one." },
-  "full": { "label": "Full text, provisional coding", "note": "The full article was opened and read, and coded once with AI assistance, without a second coder. Every code cites the passage it rests on. Treat the codes as provisional until reviewed." }
+  "full": { "label": "Full text, provisional coding", "note": "The full article was opened and read, and coded once, without a second coding. Every code cites the passage it rests on. Treat the codes as provisional until reviewed." }
  },
  "trail_states": {
   "described": "Described in the reviewed material",

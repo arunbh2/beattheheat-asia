@@ -1,7 +1,7 @@
 ---
 title: "Organisations working on extreme heat | Common Shade"
 url: https://beattheheat.asia/heat-network/
-updated: 2026-11-16
+updated: 2026-11-17
 licence: CC BY 4.0
 ---
 

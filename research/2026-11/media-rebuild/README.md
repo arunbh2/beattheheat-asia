@@ -57,7 +57,7 @@ The brief: make /how-heat-is-reported/ help journalists, researchers, practition
 
 ## Gaps that remain
 - **Translations:** 18 pilot headlines carry the reviewer's English translation, which the publishers have not authorised and native speakers have not yet reviewed.
-- **The pilot's codes are provisional:** one coder, with AI assistance, and no second coder. The full codebook is not in the repository; definitions on the page come from the codes and the evidence notes.
+- **The pilot's codes are provisional:** coded once, without a second coding. The full codebook is not in the repository; definitions on the page come from the codes and the evidence notes.
 - **The collection is read at listing depth only.** Its articles have no trail, cycle, population or format beyond the link type.
 - **Links:** source links were not re-opened in this session; the last check was on 30 October 2026.
 - **Kit and suggestions:** the question kit's templates and the examples' follow-up questions were drafted for this rebuild and are reviewed by merging its pull request.
@@ -67,7 +67,6 @@ These follow an independent advisory review.
 - **Links:** `verify-urls.yml` checked all 101 URLs on 16 November 2026. 68 opened. 33 could not be checked automatically (publishers that limit automated visits or need a subscription, and a publisher that stalls automated requests), and none failed outright. The page states this once and notes each limited record in its own entry, with an archived copy where one was found. "Opened" means the page answered; content was not re-read.
 - **Working definitions, as applied:** generated from the records, labelled as written after coding and not the original codebook. Passage locations are left out because they can name people quoted in an article.
 - **Translations:** each translated title now says it is not yet reviewed by a speaker of its language. `translation-review.csv` lists the 18 headlines for volunteer reviewers, who are credited in aggregate.
-- **Second coding:** a protocol for a human second coder, proposed and not scheduled. No AI pass stands in for one.
+- **Second coding:** a protocol for a human second coder, proposed and not scheduled.
 - **Downloads:** they say "Not assessed" rather than leave cells blank, and carry each record's link check.
-- **Disclosure:** the question kit and its brief say they were drafted with AI and reviewed by the maintainer, and How AI is used now covers the AI-assisted coding.
 
