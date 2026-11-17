@@ -1,10 +1,16 @@
 {
  "_terms": {
   "https://chc.ucsb.edu/node/499": {
+   "1980": false,
    "CHIRTS-ERA5": true,
+   "quasi-global": true,
+   "maximum and minimum": true,
    "Heat Index": true,
+   "WBGT": true,
+   "ERA5": true,
    "latency": true,
-   "WBGT": true
+   "GeoTIFF": true,
+   "NetCDF": true
   },
   "https://www.chc.ucsb.edu/node/404": {
    "CHIRTS": true,
