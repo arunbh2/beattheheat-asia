@@ -5,7 +5,7 @@ updated: 2026-11-17
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 67 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 68 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-67 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,117 works the commons draws on carry a publication date, and 808 are still being dated.
+68 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,117 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -164,6 +164,28 @@ An illustrative drawing of its watch-out.
 [See the drawing](https://beattheheat.asia/actions/#heatrules)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=A%20drawing%20beside%20Heat-safe%20work%3A%20the%20cooling%20vest&ref=g-scene-cooling-vest#way-share)
+
+Tool improved · Practical measures
+
+### Plan a response: save the whole plan as a file, and open it again
+
+Added 17 November 2026 · Save and open added 17 November 2026
+
+Why it matters our readingA plan made on Plan a response can now be saved as a file with everything in it, owners, notes and money included, and a colleague can open that file in their own browser to keep working. Nothing is sent anywhere: the file stays with whoever saves it.
+
+- South and Southeast Asia
+- Heat action plans
+
+ReviewA browser check saves a seeded plan, starts again, opens the file and finds every part back; a file that is not a saved plan is refused.
+
+How it connects
+
+- [Heat action plans](https://beattheheat.asia/actions/#hap) Action · our reading
+A plan can pass between the people who sign it off.
+
+[Make a plan](https://beattheheat.asia/plan/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Plan%20a%20response%3A%20save%20the%20whole%20plan%20as%20a%20file%2C%20and%20open%20it%20again&ref=g-plan-file#way-share)
 
 Tool improved · Evidence
 

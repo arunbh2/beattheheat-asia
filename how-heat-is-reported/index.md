@@ -1942,7 +1942,7 @@ Story angle, as listed Heatwave impacts
 
 ## How these examples follow protection
 
-Ten articles from the pilot, chosen because they follow protection further, not as a ranking. For each: what it reports, whose voices and evidence it uses, how it connects responsibility, resources and delivery, and what it leaves open. A report is not the same as a finding.
+10 articles from the pilot, chosen because they follow protection further, not as a ranking. For each: what it reports, whose voices and evidence it uses, how it connects responsibility, resources and delivery, and what it leaves open. A report is not the same as a finding.
 
 Institutional detail
 

@@ -1,7 +1,7 @@
 ---
 title: "Cite and reuse"
 url: https://beattheheat.asia/cite/
-updated: 2026-11-01
+updated: 2026-11-17
 licence: CC BY 4.0
 ---
 
@@ -29,8 +29,8 @@ The content behind the map is open, as plain JSON files, one for each part. They
 - [The 90 consequences of heatdata/core/CONSEQUENCES.json](https://beattheheat.asia/data/core/CONSEQUENCES.json)
 - [Every link between themdata/core/LINKS.json](https://beattheheat.asia/data/core/LINKS.json)
 - [The 33 actions that break cyclesdata/core/LEVERS.json](https://beattheheat.asia/data/core/LEVERS.json)
-- [Twelve city profilesdata/core/CITY_PROFILES.json](https://beattheheat.asia/data/core/CITY_PROFILES.json)
-- [Ten heatwaves, 1998 to 2026data/core/HEATWAVES.json](https://beattheheat.asia/data/core/HEATWAVES.json)
+- [The 22 city profilesdata/core/CITY_PROFILES.json](https://beattheheat.asia/data/core/CITY_PROFILES.json)
+- [The 10 heatwaves, 1998 to 2026data/core/HEATWAVES.json](https://beattheheat.asia/data/core/HEATWAVES.json)
 - [The heat network’s organisationsdata/core/ORGANISATIONS.json](https://beattheheat.asia/data/core/ORGANISATIONS.json)
 - [The glossarydata/core/GLOSSARY.json](https://beattheheat.asia/data/core/GLOSSARY.json)
 

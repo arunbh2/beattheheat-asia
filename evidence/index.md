@@ -1,7 +1,7 @@
 ---
 title: "News and evidence"
 url: https://beattheheat.asia/evidence/
-updated: 2026-11-13
+updated: 2026-11-17
 licence: CC BY 4.0
 ---
 
@@ -21,10 +21,10 @@ What the evidence says, how sure we are, and where every claim comes from.
 - [State of the fieldWhat changed this month, and what to watch](https://beattheheat.asia/whats-new/)
 - [SignalsAnnouncements and commitments on heat, and how far each has got](https://beattheheat.asia/signals/)
 - [Watch Common Shade growWhat we are learning, what changed, and what it took](https://beattheheat.asia/growing/)
-- [How heat is reportedWhat the coverage shows, across ten languagesOn the path for: Research](https://beattheheat.asia/how-heat-is-reported/)
+- [How heat is reportedWhat the coverage shows, across 10 languagesOn the path for: Research](https://beattheheat.asia/how-heat-is-reported/)
 - [Heat in the newsHeadlines and new research, refreshed automatically](https://beattheheat.asia/news/)
 - [Sources and referencesEvery source the site cites, searchableOn the path for: Research](https://beattheheat.asia/sources/)
-- [GlossaryEighty-five terms, each with a short film](https://beattheheat.asia/glossary/)
+- [Glossary89 terms, 85 with a short film](https://beattheheat.asia/glossary/)
 
 ## Also in News and evidence
 

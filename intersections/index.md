@@ -1,7 +1,7 @@
 ---
 title: "Intersections: same heat, different lives"
 url: https://beattheheat.asia/intersections/
-updated: 2026-11-01
+updated: 2026-11-17
 licence: CC BY 4.0
 ---
 
@@ -72,7 +72,7 @@ From the Climate Resilience Center (Arsht-Rock’s One Billion Resilient), with 
 
 - **[A night in the heat](https://beattheheat.asia/a-night-in-the-heat/)**Stay with an older woman living alone, a pregnant woman or a family with a baby through a hot night and a clinic visit.
 
-- **[Who heat hits hardest](https://beattheheat.asia/who-is-at-risk/)**Ten groups, the barriers between them and safety, and what helps.
+- **[Who heat hits hardest](https://beattheheat.asia/who-is-at-risk/)**10 groups, the barriers between them and safety, and what helps.
 
 We will be adding many more resources. If you know one that belongs here, we would be glad to [hear about it](https://beattheheat.asia/join/#join-form).
 

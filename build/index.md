@@ -11,7 +11,7 @@ How could a few grants work together?
 
 Choose Sketch a portfolio: a few grants across places and roles, and see which cycles it reaches, what it leans on and what would make it last.
 
-**Then:** [Twenty-four questions to ask before a grant starts](https://beattheheat.asia/heat-economy/conditions/)
+**Then:** [24 questions to ask before a grant starts](https://beattheheat.asia/heat-economy/conditions/)
 
 [Last stop: How could you take part?](https://beattheheat.asia/join/)
 

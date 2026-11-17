@@ -349,7 +349,7 @@ const hapState = c => {
 }
 // heat network
 {
-  require("./site-counts.js")({ organisations: D.ORGANISATIONS.length, levers: D.LEVERS.length, heatwaves: D.HEATWAVES.length, atRisk: D.AT_RISK.length, cities: D.CITY_PROFILES.length, loops: D.LOOPS.length });
+  require("./site-counts.js")({ organisations: D.ORGANISATIONS.length, levers: D.LEVERS.length, heatwaves: D.HEATWAVES.length, atRisk: D.AT_RISK.length, cities: D.CITY_PROFILES.length, loops: D.LOOPS.length, glossaryTerms: D.GLOSSARY.length, glossaryFilms: D.GLOSSARY.filter(g => g.video).length });
   const p = PAGES[7], intro = `${D.ORGANISATIONS.length} organisations across Asia and the world already working on parts of the web of extreme heat. Inclusion describes relevant published work. It does not imply partnership, affiliation or endorsement.`;
   const sideName = id => (D.ORG_SIDES.find(x => x.id === D.ORG_SIDE[id]) || {}).name || "";
   const missing = D.ORGANISATIONS.filter(o => !D.ORG_SIDE[o.id]).map(o => o.id);

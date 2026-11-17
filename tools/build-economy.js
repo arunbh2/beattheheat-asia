@@ -148,7 +148,7 @@ const AUDIENCES = [
     [go("/heat-economy/businesses/", "Find suppliers by type of protection"), "Cool roofs, fans, shade, water, cold storage and more."],
     [go("/heat-economy/conditions/#rules", "Rules that have helped elsewhere"), "Labels, building rules, heat-at-work rules and bulk buying."]]],
   ["For worker organisations and community groups", [
-    [go("/heat-economy/conditions/#q-fair", "Is it fair? Seven questions to ask"), "About cost, rent, paid rest, unpaid work, access and data."],
+    [go("/heat-economy/conditions/#q-fair", `Is it fair? ${PL.questions[1][1].length} questions to ask`), "About cost, rent, paid rest, unpaid work, access and data."],
     [go("/heat-economy/opportunities/#g5-poverty-paidrest", "Ideas that put workers and communities first"), "Paid rest at work, worker-run income support, shared cool rooms, upgrades that let residents stay."],
     [go("/heat-economy/businesses/?segment=heat-insurance", "How heat insurance works"), "And what to ask before joining a scheme."],
     [go("/join/", "Tell us what works where you are"), "Your experience helps others choose well."]]],
@@ -156,7 +156,7 @@ const AUDIENCES = [
     [go("/heat-economy/opportunities/?viable=public", "Ideas that need public or shared funding"), "Where grants, guarantees and patient money can do the most."],
     [go("/heat-economy/money/", "Funding we could trace so far"), "Who has funded what, and how to read funding news."],
     [go("/heat-economy/money/#programmes", "Accelerators, prizes and challenges"), "Programmes already finding and backing ventures."],
-    [go("/heat-economy/conditions/#q-risk", "Who pays, and who carries the risk?"), "Four questions to ask before backing a product or service."]]],
+    [go("/heat-economy/conditions/#q-risk", "Who pays, and who carries the risk?"), `${PL.questions[3][1].length} questions to ask before backing a product or service.`]]],
   ["For people starting or growing a business", [
     [go("/heat-economy/opportunities/?viable=yes", "Ideas customers could pay for"), "Servicing co-operatives, cooling as a service, paid-rest services for employers, and more."],
     [go("/heat-economy/money/#programmes", "Where to find support"), "Accelerators, prizes and challenges, and what each offers."],
@@ -206,7 +206,7 @@ const overview = shell("", "The heat economy", "Businesses, funding and ideas <b
         <section class="cty-s" id="flow"><h2>How the heat economy works</h2>
           <p class="he-intro">Three questions come before any product: who needs protection, who can approve it, and who can pay? They are often different people. A street vendor needs shade, but the city looks after the pavement. A worker needs rest breaks, but the employer sets the schedule.</p>
           ${flow}</section>
-        <section class="cty-s" id="segments"><h2>Nineteen kinds of protection, and what to check</h2>
+        <section class="cty-s" id="segments"><h2>${SEG.length} kinds of protection, and what to check</h2>
           <p class="he-intro">For each: what it is, who usually pays, and three questions to ask a supplier.</p>
           ${PL.shelves.map(([n, ids]) => `<h3 class="he-shelf">${esc(n)}</h3><div class="he-segs">${ids.map(id => SEG.find(s => s.id === id)).filter(Boolean).map(segCard).join("")}</div>`).join("")}</section>
         <section class="cty-s" id="data"><h2>Download the data</h2>
@@ -346,7 +346,7 @@ const opportunities = shell("opportunities", "The heat economy · Ideas", "Ideas
 const C = COND, srcOf = (list, id) => ((list.find(x => x.id === id) || {}).sources || []).filter(s => live(s.url)).slice(0, 2).map(s => ext(s.url, s.label)).join(" · ");
 const QIDS = ["q-work", "q-fair", "q-upkeep", "q-risk"];
 const conditions = shell("conditions", "The heat economy · Questions to ask", "Questions to ask <br>before you buy, fund or start.",
-  `For city officers, employers, worker and community organisations, funders, investors and founders: twenty-four questions, the rules and ways of paying that have helped elsewhere, the common obstacles, and what each kind of organisation could do.`,
+  `For city officers, employers, worker and community organisations, funders, investors and founders: ${PL.questions.reduce((n, q) => n + q[1].length, 0)} questions, the rules and ways of paying that have helped elsewhere, the common obstacles, and what each kind of organisation could do.`,
   `<nav class="sol-jump" aria-label="On this page">${PL.questions.map(([h], i) => `<a href="#${QIDS[i]}">${esc(h)}</a>`).join(" · ")} · <a href="#rules">Rules that help</a> · <a href="#paying">Ways to pay</a> · <a href="#obstacles">Common obstacles</a> · <a href="#roles">Who could do what</a></nav>
         ${PL.questions.map(([h, qs], i) => `<section class="cty-s" id="${QIDS[i]}"><h2>${esc(h)}</h2><ol class="he-checks" start="${PL.questions.slice(0, i).reduce((n, g) => n + g[1].length, 1)}">${qs.map(([, q, a]) => `<li><b>${esc(q)}</b><span>${esc(a)}</span></li>`).join("")}</ol></section>`).join("")}
         <section class="cty-s" id="rules"><h2>Rules that have helped create demand</h2><p class="he-intro">Examples from Asia. A rule on paper helps most when it is checked and followed.</p>
@@ -438,7 +438,7 @@ write("heat-economy/businesses", "Businesses offering protection from heat", `${
 write("heat-economy/flows", "Follow the money", `Where funding for heat protection comes from and where it reaches: ${FDATA.length} pieces of traced funding, followed from who gave them to the cycles they could help break.`, flows, FLOW_JS);
 write("heat-economy/money", "Funding and support for protection from heat", `${N.inv} funders and investors, ${N.traced} pieces of funding traced and ${N.prog} accelerators, prizes and challenges in protection from extreme heat.`, money, FILTER("he-count", "funders and programmes"));
 write("heat-economy/opportunities", "Ideas for businesses and services that protect people from heat", `${N.opp} ideas for businesses and services, one or more for each vicious cycle of extreme heat: who could pay, who it helps, what needs to be in place.`, opportunities, FILTER("he-count", "ideas"));
-write("heat-economy/conditions", "Questions to ask before you buy, fund or start", "Twenty-four questions to ask about heat protection, with rules that help, ways to pay, common obstacles and what each organisation could do.", conditions);
+write("heat-economy/conditions", "Questions to ask before you buy, fund or start", `${PL.questions.reduce((n, q) => n + q[1].length, 0)} questions to ask about heat protection, with rules that help, ways to pay, common obstacles and what each organisation could do.`, conditions);
 
 // ---- CSV downloads (the researchers' fuller notes, for specialists) ----
 const cell = v => { let s = Array.isArray(v) ? v.join("; ") : v == null ? "" : String(v); if (/^https?:\/\/\S+$/.test(s) && !live(s)) s = ""; // links that failed the check are left out, as on the pages
@@ -467,5 +467,5 @@ const ids = DEALS.map(d => d.investee).filter(x => /^[a-z0-9]+(-[a-z0-9]+)*$/.te
 miss.push(...ids.map(x => "funding recipient " + x));
 if (miss.length) throw new Error("tools/economy-plain.js has no plain wording for: " + miss.join(", "));
 module.exports = { loopsWithIdeas: [...new Set(OPP.map(o => o.loop))] };
-require("./site-counts.js")({ businesses: N.biz, funders: N.inv, programmes: N.prog, fundingTraced: N.traced, ideas: N.opp });
+require("./site-counts.js")({ businesses: N.biz, funders: N.inv, programmes: N.prog, fundingTraced: N.traced, ideas: N.opp, conditionQuestions: PL.questions.reduce((n, q) => n + q[1].length, 0) });
 console.log(`heat economy: ${N.biz} businesses, ${N.inv} funders, ${N.traced} pieces of funding traced (${N.deals} in the directory, ${KBF.length} from monthly updates), ${N.prog} programmes, ${N.opp} ideas, ${SEG.length} kinds of protection`);
