@@ -1,0 +1,10 @@
+[
+ {
+  "id": "r-coverage",
+  "where": "Heat Tool Finder record chirts_era5",
+  "text": "A quasi-global, high-resolution daily data set from 1980 to near-present.",
+  "missing": [
+   "chc-499: \"1980\""
+  ]
+ }
+]

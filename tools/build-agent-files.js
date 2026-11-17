@@ -50,7 +50,7 @@ const head = (u, html) => {
 };
 for (const u of pages) {
   const f = fileOf(u); let html = fs.readFileSync(f, "utf8");
-  html = html.replace(/<!--agent-->[\s\S]*?<!--\/agent-->/g, "").replace("</head>", head(u, html) + "\n</head>");
+  html = html.replace(/<!--agent-->[\s\S]*?<!--\/agent-->\n?/g, "").replace("</head>", head(u, html) + "\n</head>");
   fs.writeFileSync(f, html);
   const title = ((html.match(/<title>([\s\S]*?)<\/title>/) || [])[1] || u).replace(/\s*·\s*Common Shade\s*$/, "");
   const desc = dec((html.match(/<meta name="description" content="([^"]*)"/) || [])[1] || "");

@@ -1,0 +1,57 @@
+[
+ {
+  "id": "src-chirts-chc-499",
+  "type": "source",
+  "keys": [
+   "chc-499"
+  ],
+  "title": "CHIRTS-ERA5 (data overview)",
+  "publisher": "UC Santa Barbara Climate Hazards Center",
+  "year": null,
+  "url": "https://chc.ucsb.edu/node/499",
+  "kind": "Provider page",
+  "where": "Global land",
+  "expect": [
+   "CHIRTS-ERA5",
+   "quasi-global",
+   "1980",
+   "maximum and minimum",
+   "Heat Index",
+   "WBGT",
+   "ERA5",
+   "latency",
+   "GeoTIFF",
+   "NetCDF"
+  ],
+  "claims": [
+   "r-coverage",
+   "r-variables",
+   "r-latency",
+   "r-formats"
+  ],
+  "note": "Staged from the CHIRTS-ERA5 Heat Tool Finder batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20260921113010/https://chc.ucsb.edu/node/499"
+ },
+ {
+  "id": "src-chirts-chc-data",
+  "type": "source",
+  "keys": [
+   "chc-data"
+  ],
+  "title": "Data Sets",
+  "publisher": "UC Santa Barbara Climate Hazards Center",
+  "year": null,
+  "url": "https://www.chc.ucsb.edu/data",
+  "kind": "Provider data page",
+  "where": "Global land",
+  "expect": [
+   "CHIRTS",
+   "CHIRTS-ERA5"
+  ],
+  "claims": [
+   "r-listed"
+  ],
+  "note": "Staged from the CHIRTS-ERA5 Heat Tool Finder batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261115031810/https://www.chc.ucsb.edu/data"
+ }
+]

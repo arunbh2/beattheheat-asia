@@ -4,6 +4,11 @@
   "code": 200,
   "archive": ""
  },
+ "https://chc.ucsb.edu/node/499": {
+  "status": "OK",
+  "code": 200,
+  "archive": ""
+ },
  "https://climateknowledgeportal.worldbank.org/download-data": {
   "status": "OK",
   "code": 200,

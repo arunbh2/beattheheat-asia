@@ -457,6 +457,15 @@
       "scope": "Public description or selected documentation only; no complete scientific validation or live tool execution."
     },
     {
+      "id": "chirts_era5",
+      "title": "CHIRTS-ERA5 data overview",
+      "publisher": "UC Santa Barbara Climate Hazards Center",
+      "url": "https://chc.ucsb.edu/node/499",
+      "review_depth": "source_page_reviewed",
+      "accessed_on": "2026-11-17",
+      "scope": "Public description only; terms checked on the provider's page (data/inbox/2026-11-chirts-era5); no scientific validation, and no download tried."
+    },
+    {
       "id": "imd",
       "title": "Heat Wave Guidance",
       "publisher": "India Meteorological Department",
@@ -1063,6 +1072,103 @@
       "follow_up_checks": [
         "Confirm current tool entry point and access conditions.",
         "Check local applicability and independent evaluation before recommending operational use."
+      ]
+    },
+    {
+      "id": "chirts_era5",
+      "name": "CHIRTS-ERA5 daily temperature and heat data",
+      "provider": "UC Santa Barbara Climate Hazards Center",
+      "origin": "external",
+      "resource_type": "dataset",
+      "decision_tags": [
+        "analyse_exposure"
+      ],
+      "user_roles": [
+        "researcher",
+        "city"
+      ],
+      "summary": "Analyse recent and past daily heat across a quasi-global high-resolution grid.",
+      "inputs": [
+        "Area, dates and variable; technical data workflow (GeoTIFF or NetCDF files)."
+      ],
+      "outputs": [
+        "Daily maximum and minimum temperature, heat index and WBGT grids."
+      ],
+      "geography": {
+        "country_codes": [],
+        "scope": "global",
+        "asia_applicability": "editorial_relevance_not_local_validation",
+        "local_validation_countries": [],
+        "spatial_scale": "High-resolution grid"
+      },
+      "time_horizons": [
+        "historical"
+      ],
+      "heat_metrics": [
+        "air_temperature",
+        "heat_index",
+        "wbgt"
+      ],
+      "method_summary": "Satellite- and station-based temperature climatology (CHIRTS) combined with ERA5 reanalysis, updated after a short delay.",
+      "limitations": [
+        "A gridded estimate built partly from reanalysis, not a local measurement; outdoor grid values do not describe indoor rooms or specific workloads.",
+        "Heat index and WBGT here are estimates from grid temperature and humidity, not readings from a site."
+      ],
+      "access": {
+        "mode": "public_read",
+        "registration_required": null,
+        "price_amount": null,
+        "currency": null,
+        "licence": null,
+        "licence_status": "not_verified",
+        "rehosting_allowed": null
+      },
+      "technical": {
+        "api_status": "not_checked",
+        "api_docs_url": null,
+        "integration_mode": "link_out",
+        "live_execution_tested": false
+      },
+      "evidence": {
+        "review_depth": "source_page_reviewed",
+        "reviewed_on": "2026-11-17",
+        "local_validation_status": "not_assessed",
+        "source_ids": [
+          "chirts_era5"
+        ],
+        "classification_basis": "Provider description plus editorial categorisation; not independent certification."
+      },
+      "publication": {
+        "status": "documented_listing",
+        "featured": false,
+        "maintenance_status": "not_verified",
+        "next_review_due": "2026-12-17"
+      },
+      "links": {
+        "primary_url": "https://chc.ucsb.edu/node/499",
+        "common_shade_next_step": "/build/"
+      },
+      "field_provenance": {
+        "provider_facts_source_ids": [
+          "chirts_era5"
+        ],
+        "editorial_fields": [
+          "decision_tags",
+          "user_roles",
+          "geography.asia_applicability",
+          "limitations",
+          "links.common_shade_next_step"
+        ],
+        "unknown_fields": [
+          "access.licence",
+          "access.registration_required",
+          "access.price_amount",
+          "geography.local_validation_countries"
+        ]
+      },
+      "follow_up_checks": [
+        "Confirm the data access route, licence and update delay on the provider's pages.",
+        "Check local applicability and independent evaluation in South and Southeast Asia before recommending operational use."
       ]
     },
     {

@@ -1,0 +1,104 @@
+{
+ "about": "Probe of the Climate Hazards Center's own pages on CHIRTS-ERA5 and its Heat Monitor, prompted by a CHC blog post (9 November 2026) the owner pasted without its address. The pages are staged to read what they say before a Heat Tool Finder record is drafted; the record cites only terms found here. The blog's finding that ERA5 reads cooler than CHIRTS-Daily in warm extremes is held until the owner supplies its URL (see ledger.md).",
+ "sources": [
+  {
+   "key": "chc-499",
+   "title": "CHIRTS-ERA5 (data overview)",
+   "publisher": "UC Santa Barbara Climate Hazards Center",
+   "year": null,
+   "kind": "Provider page",
+   "url": "https://chc.ucsb.edu/node/499",
+   "expect": [
+    "CHIRTS-ERA5"
+   ]
+  },
+  {
+   "key": "chc-data",
+   "title": "Data Sets",
+   "publisher": "UC Santa Barbara Climate Hazards Center",
+   "year": null,
+   "kind": "Provider data page",
+   "url": "https://www.chc.ucsb.edu/data",
+   "expect": [
+    "CHIRTS"
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "id": "r-coverage",
+   "where": "Heat Tool Finder record chirts_era5",
+   "text": "A quasi-global, high-resolution daily data set from 1980 to near-present.",
+   "rests_on": [
+    [
+     "chc-499",
+     "quasi-global"
+    ],
+    [
+     "chc-499",
+     "1980"
+    ]
+   ]
+  },
+  {
+   "id": "r-variables",
+   "where": "Heat Tool Finder record chirts_era5",
+   "text": "Daily maximum and minimum temperature, heat index and wet bulb globe temperature.",
+   "rests_on": [
+    [
+     "chc-499",
+     "maximum and minimum"
+    ],
+    [
+     "chc-499",
+     "Heat Index"
+    ],
+    [
+     "chc-499",
+     "WBGT"
+    ]
+   ]
+  },
+  {
+   "id": "r-latency",
+   "where": "Heat Tool Finder record chirts_era5",
+   "text": "Updated with ERA5 reanalysis after a short delay (latency).",
+   "rests_on": [
+    [
+     "chc-499",
+     "ERA5"
+    ],
+    [
+     "chc-499",
+     "latency"
+    ]
+   ]
+  },
+  {
+   "id": "r-formats",
+   "where": "Heat Tool Finder record chirts_era5",
+   "text": "Files in GeoTIFF and NetCDF.",
+   "rests_on": [
+    [
+     "chc-499",
+     "GeoTIFF"
+    ],
+    [
+     "chc-499",
+     "NetCDF"
+    ]
+   ]
+  },
+  {
+   "id": "r-listed",
+   "where": "Heat Tool Finder record chirts_era5",
+   "text": "Listed on the CHC data sets page.",
+   "rests_on": [
+    [
+     "chc-data",
+     "CHIRTS-ERA5"
+    ]
+   ]
+  }
+ ]
+}

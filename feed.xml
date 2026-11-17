@@ -15,6 +15,13 @@
     <summary>A data set paper published in November 2026, checked against the publisher's open PDF, finds dry and hot conditions occurring together more often since 2000 in several hotspot regions, faster than either alone would suggest, with China's Yangtze River Basin rising from 10 to 21 events per grid square. The map's drying soils entry now carries it with its limits: a reanalysis estimate that leaves out irrigation and reports no country result for South or Southeast Asia.</summary>
   </entry>
   <entry>
+    <title>A daily heat data set covering the region, in the Heat Tool Finder</title>
+    <link href="https://beattheheat.asia/growing/#g-chirts-era5" rel="alternate" type="text/html"/>
+    <id>https://beattheheat.asia/growing/#g-chirts-era5</id>
+    <updated>2026-11-17T00:00:00Z</updated>
+    <summary>The Heat Tool Finder now lists CHIRTS-ERA5 from the Climate Hazards Center, a quasi-global daily grid of maximum and minimum temperature, heat index and WBGT, checked against the provider's own page. It is listed as an estimate for analysts, not tested and not locally validated, with its licence not yet verified.</summary>
+  </entry>
+  <entry>
     <title>Signals now shows what the evidence confirms for each promise</title>
     <link href="https://beattheheat.asia/growing/#g-signals-evidence-records" rel="alternate" type="text/html"/>
     <id>https://beattheheat.asia/growing/#g-signals-evidence-records</id>
@@ -209,12 +216,5 @@
     <id>https://beattheheat.asia/growing/#g-heat-plan-running-costs</id>
     <updated>2026-11-09T00:00:00Z</updated>
     <summary>After Bangkok's strategy found money to build but not always to run, a reading of heat plans from India and Bangladesh showed a nearby pattern: costs and potential funders are named, but budgets that recur each season rarely are. Each claim was written from passages checked on GitHub.</summary>
-  </entry>
-  <entry>
-    <title>A planning question for heatwaves longer than any on record</title>
-    <link href="https://beattheheat.asia/growing/#g-longer-than-record" rel="alternate" type="text/html"/>
-    <id>https://beattheheat.asia/growing/#g-longer-than-record</id>
-    <updated>2026-11-09T00:00:00Z</updated>
-    <summary>Plans and budgets are usually sized to the worst heatwave people remember, and new modelling suggests some future heatwaves will run longer. The workbook now asks whether the money and staff would last.</summary>
   </entry>
 </feed>

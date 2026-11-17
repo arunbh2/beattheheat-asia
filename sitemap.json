@@ -317,7 +317,7 @@
     {
       "url": "https://beattheheat.asia/heat-tools/",
       "markdown": "https://beattheheat.asia/heat-tools/index.md",
-      "updated": "2026-10-01"
+      "updated": "2026-11-17"
     },
     {
       "url": "https://beattheheat.asia/heat-tools/bmd/",
@@ -338,6 +338,11 @@
       "url": "https://beattheheat.asia/heat-tools/ceew/",
       "markdown": "https://beattheheat.asia/heat-tools/ceew/index.md",
       "updated": "2026-10-01"
+    },
+    {
+      "url": "https://beattheheat.asia/heat-tools/chirts_era5/",
+      "markdown": "https://beattheheat.asia/heat-tools/chirts_era5/index.md",
+      "updated": "2026-11-17"
     },
     {
       "url": "https://beattheheat.asia/heat-tools/cs_build/",
