@@ -50,7 +50,7 @@ function page({ page, write, esc, hero, D }) {
     <section class="container hub">
       <ul class="hub-grid hub-grid--plain">${USES.map(([h, p]) => `<li class="std"><b>${esc(h)}</b><span>${esc(p)}</span></li>`).join("")}</ul>
       <p class="hub-p"><b>${esc(WARN)}</b></p>
-      <p class="hub-p">${esc(PRIVACY)} For the whole site at once, there is <a href="/llms-full.txt">one plain-text file</a>. How AI is used to build Common Shade is set out on <a href="/approach/#ai">How Common Shade sees heat</a>.</p>
+      <p class="hub-p">${esc(PRIVACY)} For the whole site at once, there is <a href="/llms-full.txt">one plain-text file</a>.</p>
       ${grp("country", "countries", "Countries", "Each country pack is the country snapshot, word for word: plans, warnings, rules at work, cooling, money, cities and who is working on it.")}
       ${grp("cycle", "cycles", "Vicious cycles", "Each cycle pack holds the cycle, each link in it with its source, the studies behind it with the limits they state, and the actions that could interrupt it.")}
       ${grp("action", "actions", "Actions", "Each action pack holds what the action is, who acts, how it is measured, examples with sources, side effects to watch for, and the cycles it could interrupt.")}

@@ -195,6 +195,27 @@ const checkFor = (key, label) => `<aside class="cs-check" data-check="${key}" da
     itemListElement: D.LOOPS.map((l, i) => ({ "@type": "ListItem", position: i + 1, name: l.name, description: l.summary, url: `${SITE}/loops/#${l.id}` })) }]);
   md.push(m.filter(Boolean).join("\n\n"));
 }
+// stick scenes: hand-drawn illustrative drawings beside a lever (scenes/, made with the stick-scene skill, MIT). The runtime and its
+// licence are copied unchanged from the skill; the drawing loads only when a reader presses play, and the figure stays hidden without JavaScript.
+const SCENE_AT = { heatrules: { id: "cooling-vest", caption: "Illustrative drawing of the watch-out above: an outdoor cleaner sweeping in the heat puts on a cooling vest from its stand, then hangs it back up." } };
+{
+  const SK = path.join(ROOT, ".agents", "skills", "stick-scene");
+  for (const [from, to] of [["runtime/stick.js", "stick.js"], ["LICENSE", "LICENSE-stick-scene.txt"]]) {
+    const a = path.join(SK, from), b = path.join(ROOT, "scenes", to);
+    if (fs.existsSync(a) && (!fs.existsSync(b) || fs.readFileSync(a, "utf8") !== fs.readFileSync(b, "utf8"))) fs.copyFileSync(a, b);
+  }
+}
+const SCENE_V = (fs.readFileSync(path.join(ROOT, "index.html"), "utf8").match(/\?v=(\d+)/) || [])[1] || "1";
+const sceneFig = (sc) => `<figure class="sc-fig" data-scene="${sc.id}" data-v="${SCENE_V}" data-label="${esc(sc.caption)}" hidden><div class="sc-stage" hidden></div><figcaption>${esc(sc.caption)}</figcaption></figure>`;
+const SCENE_JS = `<style>.sc-fig{margin:12px 0 20px;max-width:560px}.sc-stage stick-scene{display:block;width:100%;aspect-ratio:380/230;height:auto}.sc-btn{min-height:44px;padding:10px 18px;border:2px solid #16202B;border-radius:999px;background:#fff;color:#16202B;font:inherit;font-weight:600;cursor:pointer}.sc-btn:focus-visible{outline:3px solid #F26430;outline-offset:2px}.sc-fig figcaption{margin-top:6px;font-size:.9rem;line-height:1.5;color:#39424D}.sc-fig [role=status]{font-size:.9rem;color:#39424D}</style>
+<script>(function(){"use strict";var rm=window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches,run=null;
+function load(u){return new Promise(function(ok,no){var s=document.createElement("script");s.src=u;s.onload=ok;s.onerror=no;document.head.appendChild(s);});}
+Array.prototype.forEach.call(document.querySelectorAll("figure[data-scene]"),function(box){var v=box.getAttribute("data-v"),id=box.getAttribute("data-scene"),stage=box.querySelector(".sc-stage"),el=null,b=document.createElement("button");
+b.type="button";b.className="sc-btn";b.textContent=rm?"Show the drawing":"Play the drawing";box.insertBefore(b,stage);box.hidden=false;
+b.addEventListener("click",function(){if(el){el.click();return;}if(b.disabled)return;var label=b.textContent;b.disabled=true;b.textContent="Loading the drawing";
+run=run||load("/scenes/stick.js?v="+v);run.then(function(){return load("/scenes/"+id+".js?v="+v);}).then(function(){el=document.createElement("stick-scene");el.setAttribute("scene",id);el.setAttribute("play","click");el.setAttribute("no-font","");el.setAttribute("no-floor","");el.setAttribute("aria-label",box.getAttribute("data-label"));stage.appendChild(el);stage.hidden=false;b.disabled=false;
+if(rm){b.hidden=true;}else{b.textContent="Play again";b.focus();requestAnimationFrame(function(){el.click();});}})
+.catch(function(){run=null;b.disabled=false;b.textContent=label;if(!box.querySelector("[role=status]")){var m=document.createElement("p");m.setAttribute("role","status");m.textContent="The drawing could not load. The watch-out above says what it shows.";box.appendChild(m);}});});});})();</script>`;
 // actions
 {
   const p = PAGES[2], intro = `${D.LEVERS.length} actions that cut a link in one or more vicious cycles of extreme heat: who can take each one, how soon it works, examples from Asia and practical guides.`;
@@ -206,11 +227,13 @@ const checkFor = (key, label) => `<aside class="cs-check" data-check="${key}" da
       ${ls.length ? `<p><strong>Could help interrupt:</strong> ${ls.map(l => `<a href="/loops/#${l.id}">${esc(l.name)}</a>`).join(", ")}</p>` : ""}
       ${v.example ? `<p><strong>In practice:</strong> ${esc(v.example)}</p>${srcs(v.exampleSources)}` : ""}
       ${(v.watch || []).map(w => `<p><strong>Watch for:</strong> ${esc(w.text)}</p>${srcs(w.sources)}`).join("")}
+      ${SCENE_AT[v.id] ? sceneFig(SCENE_AT[v.id]) : ""}
       ${(v.guides || []).length ? `<h3>Practical guides</h3><ul>${v.guides.map(g => `<li>${ext(g.url, g.title)} <span class="meta">${esc(g.by)}</span></li>`).join("")}</ul>` : ""}
       <p class="meta"><a href="/#break-${v.id}">See it on the map</a>${D.ORGANISATIONS.some(o => (o.levers || []).includes(v.id)) ? ` · <a href="/heat-network/?action=${v.id}">Who works on this</a>` : ""}</p>`;
     m.push(`### ${v.title}`, v.text, `Cuts the link: ${name(v.edge[0])} → ${name(v.edge[1])}. Who can act: ${who.join(", ")}.`, ls.length ? `Could help interrupt: ${ls.map(l => l.name).join(", ")}` : "",
-      v.example ? `In practice: ${v.example}` : "", ...(v.watch || []).map(w => `Watch for: ${w.text} (${w.sources.map(x => `${x.label}, ${x.url}`).join("; ")})`), ...(v.guides || []).map(g => `- Guide: ${g.title} (${g.by}) ${g.url}`));
+      v.example ? `In practice: ${v.example}` : "", ...(v.watch || []).map(w => `Watch for: ${w.text} (${w.sources.map(x => `${x.label}, ${x.url}`).join("; ")})`), SCENE_AT[v.id] ? `On the page: ${SCENE_AT[v.id].caption}` : "", ...(v.guides || []).map(g => `- Guide: ${g.title} (${g.by}) ${g.url}`));
   });
+  if (D.LEVERS.some(v => SCENE_AT[v.id])) h += SCENE_JS;
   out[p.slug] = page(p, intro, h, [{ "@context": "https://schema.org", "@type": "ItemList", name: "Actions against extreme heat", numberOfItems: D.LEVERS.length,
     itemListElement: D.LEVERS.map((v, i) => ({ "@type": "ListItem", position: i + 1, name: v.title, description: v.text, url: `${SITE}/actions/#${v.id}` })) }]);
   md.push(m.filter(Boolean).join("\n\n"));

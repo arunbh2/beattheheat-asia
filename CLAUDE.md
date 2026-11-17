@@ -42,6 +42,7 @@ Every decision elevates the reader's experience (UX), the maintainer's experienc
 - `research/india-hap-archive/`: the HAP catalogue CSVs, report and downloader (see its README).
 - `tools/launch/`: the 20-second launch film (scene, shots, music, renderer); files in `media/launch/`. The owner removed its homepage card (November 2026); the film files stay.
 - `tools/mapguide/`: the map guide film, in which a drawn, faceless guide walks through real captures of the map. It plays from "Watch: how to read the map" under the legend. Files are in `media/mapguide/` (9:16 and 16:9); see its README.
+- `scenes/`: hand-drawn stick scenes (the `stick-scene` skill, MIT), each beside the lever it illustrates (`SCENE_AT` in `tools/build-static.js`). The build copies the runtime and its licence from the skill unchanged; a scene loads only when a reader presses play and is labelled an illustrative drawing. Drafts and notes: `research/2026-11/stick-scenes/`.
 - `media/`: films and covers. `tools/explainers/`, `tools/films/` and `tools/shorts/` build them (Piper voice, Playwright render).
 - `data/evidence/` and `tools/living-evidence/`: the weekly evidence review. A Monday job harvests studies and opens a review pull request; merging is the sign-off; accepted studies join their cycles on the Evidence map. See `data/evidence/README.md`.
 - `.github/workflows/`: data checks, link checks, news feed, source and URL verification, and the weekly evidence review.
@@ -147,9 +148,6 @@ Every decision elevates the reader's experience (UX), the maintainer's experienc
 
 ## For AI agents
 `/for-ai/` ("For AI agents") is built by `tools/build-for-ai.js` from `tools/for-ai-text.js`, which also writes `/for-ai.json` and `/for-ai.txt` and adds a section to `llms.txt` and `llms-full.txt` and an entry to `sitemap.xml`. Counts come from the build, never typed; the build fails, naming the path, if an endpoint it lists does not exist. Its do and please-avoid lines restate standards already on `/approach/`, `/cite/` and in the disclaimer; add to them only from those. The shared footer carries a "Not a human?" strip that links to it. It never asks an agent to override its user or its own guidelines, and nothing on it is hidden from people.
-
-## How AI is used
-`/approach/#ai` ("How AI is used on Common Shade") and its section in `llms-full.txt` come from `tools/ai-use-text.js`. Keep it true to what the repository does, and change it in the same pull request as any change to how AI is used (for example a new kind of generated media).
 
 ## Use with your own AI
 `/use-with-ai/` and the evidence packs in `/packs/` (one plain-text file per country, vicious cycle and action, with starter questions) come from `tools/build-use-with-ai.js`: `page()` runs in build-pages.js, `packs()` runs after the Markdown twins, which the country packs reuse word for word. Packs are rebuilt whole every build; `check-agent-files.js` checks them. The site runs no AI service.
