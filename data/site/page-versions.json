@@ -68,8 +68,8 @@
   "changed": "2026-11-17"
  },
  "/cities/bengaluru/": {
-  "hash": "ceb4bb79f1814c00",
-  "changed": "2026-11-16"
+  "hash": "ca58d889e0247041",
+  "changed": "2026-11-17"
  },
  "/cities/bhubaneswar/": {
   "hash": "8f479901f05e1b22",
@@ -200,7 +200,7 @@
   "changed": "2026-11-13"
  },
  "/for-ai/": {
-  "hash": "58af684d0ba6b198",
+  "hash": "82c8cc715b6e99e0",
   "changed": "2026-11-17"
  },
  "/fund/": {
@@ -212,7 +212,7 @@
   "changed": "2026-11-07"
  },
  "/growing/": {
-  "hash": "647f47d72eb3f310",
+  "hash": "3a896f5766706f9b",
   "changed": "2026-11-17"
  },
  "/guide/": {
@@ -248,7 +248,7 @@
   "changed": "2026-11-16"
  },
  "/heat-network/": {
-  "hash": "931e3a85f2243fad",
+  "hash": "8701b2a051e4f06b",
   "changed": "2026-11-17"
  },
  "/heat-tools/": {
@@ -632,7 +632,7 @@
   "changed": "2026-11-16"
  },
  "/sources/": {
-  "hash": "1ef10e01d781929f",
+  "hash": "206e9dd2df539fef",
   "changed": "2026-11-17"
  },
  "/the-web/": {

@@ -5,7 +5,7 @@ updated: 2026-11-17
 licence: CC BY 4.0
 ---
 
-> See what we are learning, what is changing, and how it connects to protection from extreme heat. 68 changes recorded since 23 October 2026, with what it took to add each one.
+> See what we are learning, what is changing, and how it connects to protection from extreme heat. 69 changes recorded since 23 October 2026, with what it took to add each one.
 
 News and evidence
 
@@ -13,7 +13,7 @@ News and evidence
 
 See what we are learning, what is changing, and how it connects to protection from extreme heat.
 
-68 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 5 connections documented and 3 questions opened. Beneath them, 1,117 works the commons draws on carry a publication date, and 808 are still being dated.
+69 changes recorded since 23 October 2026: 5 corrections or revised interpretations, 6 connections documented and 3 questions opened. Beneath them, 1,117 works the commons draws on carry a publication date, and 808 are still being dated.
 
 This is a record of how the knowledge on Common Shade changes. Growth here means more is known and connected; it never means people protected, partnerships formed or impact delivered.
 
@@ -186,6 +186,33 @@ A plan can pass between the people who sign it off.
 [Make a plan](https://beattheheat.asia/plan/)
 
 Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=Plan%20a%20response%3A%20save%20the%20whole%20plan%20as%20a%20file%2C%20and%20open%20it%20again&ref=g-plan-file#way-share)
+
+Connection documented · Institutions and plans
+
+### The heat network: 40 more organisations link to their own heat work
+
+Added 17 November 2026 · Deeper links checked and applied 17 November 2026
+
+Why it matters our readingForty more organisations in the heat network now link to the page on their own site that shows their heat work, not just their homepage. Each link was opened on GitHub and held the word it rests on; six that did not open or did not hold it were left as they were.
+
+- South and Southeast Asia
+
+Review46 candidate pages found on the organisations' own sites; 40 opened with their term found and were applied; the rest are listed with the reason in depth-dropped.json. 75 checked · 63 confirmed · 11 not confirmed, each recorded.
+
+What it took to add this
+
+- **The question.** Which organisations' links open only a homepage, and where is their heat work on their own site?
+- **The search.** 75 sources were gathered for checking.
+
+- **The checking.** Each source was opened and read for the terms and numbers it was cited for: 63 confirmed, and 11 could not be (1 blocked automated reading, 7 did not respond, 3 did not show the expected text).
+
+- **What is still open.** The organisations still linked to a homepage, many of them sites that turn away automated checks.
+
+See for yourself: [the check results](https://beattheheat.asia/data/inbox/2026-11-heat-network/link-check.json)
+
+[Browse the network](https://beattheheat.asia/heat-network/)
+
+Know something that would improve this? [Share evidence, experience or a correction](https://beattheheat.asia/join/?about=The%20heat%20network%3A%2040%20more%20organisations%20link%20to%20their%20own%20heat%20work&ref=g-network-depth-3#way-share)
 
 Tool improved · Evidence
 
@@ -2136,8 +2163,8 @@ Common Shade began gathering in October 2026. The work it draws on is much older
 - Evidence203
 - Experience23
 - Practical measures99
-- Institutions and plans65
-- Financing80
+- Institutions and plans64
+- Financing81
 
 - 2024
 
@@ -2148,8 +2175,8 @@ Steps toward protection this year: [Nepal adopts a national plan of action on he
 - Evidence280
 - Experience44
 - Practical measures134
-- Institutions and plans91
-- Financing117
+- Institutions and plans90
+- Financing118
 
 - 2025
 
@@ -2160,8 +2187,8 @@ Steps toward protection this year: [Delhi launches its 2025 Heat Action Plan](ht
 - Evidence334
 - Experience69
 - Practical measures182
-- Institutions and plans119
-- Financing172
+- Institutions and plans118
+- Financing173
 
 - 2026 so far
 
@@ -2172,10 +2199,10 @@ Steps toward protection this year: [Bangkok opens 304 cooling centres](https://b
 - Evidence405
 - Experience98
 - Practical measures247
-- Institutions and plans138
-- Financing229
+- Institutions and plans137
+- Financing230
 
-Not yet dated: 808 works whose records carry no date, and 19 known only to have been online by a certain date. 426 links to organisations are counted apart and never dated. History before October 2026 is reconstructed only from these publication dates; Common Shade's own record of changes begins on 23 October 2026.
+Not yet dated: 808 works whose records carry no date, and 19 known only to have been online by a certain date. 462 links to organisations are counted apart and never dated. History before October 2026 is reconstructed only from these publication dates; Common Shade's own record of changes begins on 23 October 2026.
 
 ## What we've revised
 

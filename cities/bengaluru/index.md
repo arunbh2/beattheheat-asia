@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in Bengaluru: plans, cycles and who is at work | Common Shade"
 url: https://beattheheat.asia/cities/bengaluru/
-updated: 2026-11-16
+updated: 2026-11-17
 licence: CC BY 4.0
 ---
 
@@ -149,7 +149,7 @@ The [India heat action plan archive](https://beattheheat.asia/resources/heat-act
 ## Already at work here
 
 - [Hasiru Dala](https://hasirudala.in/wp-content/uploads/2025/08/HW-HD-report_final.pdf): Works with waste workers in Bengaluru to document heat-related health and income losses and press for water, shade, safer housing and workplace protection.
-- [Bengaluru Sustainability Forum](https://www.bengalurusustainabilityforum.org): Supports a domestic-worker heat research and training project.
+- [Bengaluru Sustainability Forum](https://www.bengalurusustainabilityforum.org/addressing-heat-stress-among-domestic-workers-in-bangalore/): Supports a domestic-worker heat research and training project.
 - [Bruhat Bengaluru Mahanagara Palike / Bengaluru city government](https://bbmp.gov.in): Participates in the C40 Cool Cities Accelerator for heat protection and urban adaptation.
 - [C40 Cities](https://www.deccanherald.com/india/karnataka/bengaluru/bengaluru-joins-global-coalition-to-beat-extreme-heat-3786724): Its Cool Cities Accelerator brings together cities including Ahmedabad, Bengaluru, Mumbai and Singapore on early warnings, building standards and tree cover.
 - [WRI India](https://india.mongabay.com/2025/04/safeguarding-indian-cities-from-heat-in-conversation-with-sudeshna-chatterjee-interview/): Works on heat mitigation planning with Indian cities, including greening and cooling pilots in Kochi and Mumbai and the Bengaluru Heat Collective.

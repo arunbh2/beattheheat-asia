@@ -872,6 +872,18 @@
       "review": "A browser check saves a seeded plan, starts again, opens the file and finds every part back; a file that is not a saved plan is refused",
       "pages": [["/plan/", "Plan a response"]], "action": ["Make a plan", "/plan/"],
       "links": [{ "to": "lever:hap", "why": "A plan can pass between the people who sign it off.", "basis": "editorial" }]
+    },
+    {
+      "id": "g-network-depth-3", "kind": "connection", "root": "institutions", "added": "2026-11-17", "pr": null,
+      "title": "The heat network: 40 more organisations link to their own heat work",
+      "why": "Forty more organisations in the heat network now link to the page on their own site that shows their heat work, not just their homepage. Each link was opened on GitHub and held the word it rests on; six that did not open or did not hold it were left as they were.",
+      "places": ["region"], "people": [], "topics": [],
+      "event": { "what": "Deeper links checked and applied", "date": "2026-11-17" },
+      "review": "46 candidate pages found on the organisations' own sites; 40 opened with their term found and were applied; the rest are listed with the reason in depth-dropped.json",
+      "effort": { "asked": "Which organisations' links open only a homepage, and where is their heat work on their own site?", "inbox": "data/inbox/2026-11-heat-network",
+                  "open": "The organisations still linked to a homepage, many of them sites that turn away automated checks." },
+      "pages": [["/heat-network/", "Organisations working on extreme heat"]], "action": ["Browse the network", "/heat-network/"],
+      "links": []
     }
   ]
 }

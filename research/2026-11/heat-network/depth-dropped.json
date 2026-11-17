@@ -38,5 +38,35 @@
   "id": "sentosadevelopmentcorpor",
   "url": "https://www.sentosa.gov.sg/files/resources/news/20251007_Cooling_Sentosa_Media_Release__For_upload_.pdf",
   "why": "the page did not open for the check (FAIL)"
+ },
+ {
+  "id": "tatatrusts",
+  "url": "https://www.tatatrusts.org/media/media-reports/increasing-temperature-may-exhaust-you-expert-approved-tips-to-manage-heatstroke",
+  "why": "the page opened but these words were not found on it: heatstroke"
+ },
+ {
+  "id": "cbalance",
+  "url": "https://cbalance.in/wp-content/uploads/2022/05/cBalance_Informal-Housing-Thermal-Comfort_Insight-Report.pdf",
+  "why": "the page did not open for the check (FAIL)"
+ },
+ {
+  "id": "sentosadevelopmentcorpor",
+  "url": "https://www.sentosa.gov.sg/files/resources/news/20251007_Cooling_Sentosa_Media_Release__For_upload_.pdf",
+  "why": "the page did not open for the check (FAIL)"
+ },
+ {
+  "id": "singaporemanagementunive",
+  "url": "https://research.smu.edu.sg/news/solving-singapores-urban-heat-island-effect",
+  "why": "the page did not open for the check (FAIL)"
+ },
+ {
+  "id": "africanriskcapacitylimit",
+  "url": "https://www.arc.int/extreme-climate-facility",
+  "why": "the page opened but these words were not found on it: heat"
+ },
+ {
+  "id": "tsinghuauniversity",
+  "url": "https://www.tsinghua.edu.cn/en/info/1418/12405.htm",
+  "why": "the page did not open for the check (FAIL)"
  }
 ]

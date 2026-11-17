@@ -1,0 +1,324 @@
+[
+ {
+  "id": "irade",
+  "url": "https://irade.org/Rajkot-Heat-Action-Plan.pdf",
+  "expect": [
+   "Heat Wave Action Plan"
+  ]
+ },
+ {
+  "id": "ccc",
+  "url": "https://www.cleancoolingcollaborative.org/blog/two-sides-of-the-equator-extreme-heat-in-the-southern-hemisphere",
+  "expect": [
+   "extreme heat"
+  ]
+ },
+ {
+  "id": "indianinstituteoftropica",
+  "url": "https://www.tropmet.res.in/~lip/Publication/RR-pdf/RR-141.pdf",
+  "expect": [
+   "heat"
+  ]
+ },
+ {
+  "id": "indiameteorologicaldepar",
+  "url": "https://mausam.imd.gov.in/responsive/districtWiseHeatwaveWarning.php",
+  "expect": [
+   "heat"
+  ]
+ },
+ {
+  "id": "ministryofhealthindonesi",
+  "url": "https://kemkes.go.id/id/berikut-tips-menghadapi-cuaca-panas-tak-biasa",
+  "expect": [
+   "cuaca panas"
+  ]
+ },
+ {
+  "id": "bmkgindonesia",
+  "url": "https://www.bmkg.go.id/siaran-pers/apakah-di-indonesia-terjadi-gelombang-panas-ini-penjelasan-bmkg",
+  "expect": [
+   "gelombang panas"
+  ]
+ },
+ {
+  "id": "seadrifinsurancecompany",
+  "url": "https://seadrif.org/news/el-nino-and-asean-the-case-for-seadrif-raise/",
+  "expect": [
+   "heat"
+  ]
+ },
+ {
+  "id": "rujakcenterforurbanstudi",
+  "url": "https://rujak.org/membaca-kota-melalui-panas-catatan-dari-kota-kota-pesisir/",
+  "expect": [
+   "panas"
+  ]
+ },
+ {
+  "id": "kotakitafoundation",
+  "url": "https://kotakita.org/yang-tinggal-bersama-hawa-panas-yang-tak-kuasa-mengubahnya",
+  "expect": [
+   "panas"
+  ]
+ },
+ {
+  "id": "royaluniversityofphnompe",
+  "url": "https://cjbar.rupp.edu.kh/index.php/cjbar/article/view/199",
+  "expect": [
+   "Urban Heat Island"
+  ]
+ },
+ {
+  "id": "tatatrusts",
+  "url": "https://www.tatatrusts.org/media/media-reports/increasing-temperature-may-exhaust-you-expert-approved-tips-to-manage-heatstroke",
+  "expect": [
+   "heatstroke"
+  ]
+ },
+ {
+  "id": "globalresiliencepartners",
+  "url": "https://www.globalresiliencepartnership.org/building-heat-resilience-in-freetown-sierra-leone/",
+  "expect": [
+   "heat"
+  ]
+ },
+ {
+  "id": "britishredcross",
+  "url": "https://www.redcross.org.uk/get-help/prepare-for-emergencies/heatwaves-uk/vulnerable-groups-advice",
+  "expect": [
+   "heatwave"
+  ]
+ },
+ {
+  "id": "americanredcross",
+  "url": "https://www.redcross.org/about-us/news-and-events/news/2026/record-heat-hits-western-states.html",
+  "expect": [
+   "heat"
+  ]
+ },
+ {
+  "id": "instituteofhimalayanrisk",
+  "url": "https://ihrr.org.np/project/anticipatory-action(aa)-tool-for-heat-&-cold-waves-in-nepal",
+  "expect": [
+   "heat"
+  ]
+ },
+ {
+  "id": "peopleinneed",
+  "url": "https://nepal.peopleinneed.net/en/turning-heat-data-into-action-how-made-in-nepal-low-cost-sensors-can-help-madhesh-prepare-for-extreme-heat-13534gp",
+  "expect": [
+   "heat"
+  ]
+ },
+ {
+  "id": "communityselfreliancecen",
+  "url": "https://csrcnepal.org/wp-content/uploads/2026/08/July-Communique.pdf",
+  "expect": [
+   "heatwave"
+  ]
+ },
+ {
+  "id": "ukmetoffice",
+  "url": "https://www.metoffice.gov.uk/about-us/news-and-media/media-centre/weather-and-climate-news/2022/southern-asian-heatwave-attribution-study-2022",
+  "expect": [
+   "heatwave"
+  ]
+ },
+ {
+  "id": "agakhanuniversity",
+  "url": "https://www.aku.edu/ighd/research-programmes/Pages/assessing-heat-adaptation.aspx",
+  "expect": [
+   "heat"
+  ]
+ },
+ {
+  "id": "sindhintegratedemergency",
+  "url": "https://www.siehs.org/2026/04/heatwave-safety-tips-what-you-need-to-know-this-summer/",
+  "expect": [
+   "heatwave"
+  ]
+ },
+ {
+  "id": "srilankaredcrosssociety",
+  "url": "https://www.redcross.lk/main-news/sri-lanka-red-cross-society-calls-for-collective-action-to-confront-air-quality-deterioration-and-heat-stress-in-sri-lanka/",
+  "expect": [
+   "heat stress"
+  ]
+ },
+ {
+  "id": "cbalance",
+  "url": "https://cbalance.in/wp-content/uploads/2022/05/cBalance_Informal-Housing-Thermal-Comfort_Insight-Report.pdf",
+  "expect": [
+   "heat stress"
+  ]
+ },
+ {
+  "id": "theconduitfoundation",
+  "url": "https://www.conduitfoundation.org.uk/programmes-impact",
+  "expect": [
+   "extreme heat"
+  ]
+ },
+ {
+  "id": "streetnetinternational",
+  "url": "https://streetnet.org.za/2026/09/30/decent-work-in-the-age-of-climate-change-a-street-and-market-vendors-perspective/",
+  "expect": [
+   "heat"
+  ]
+ },
+ {
+  "id": "sattvaconsulting",
+  "url": "https://www.sattva.co.in/quick-read/a-primer-on-the-risks-and-implications-of-heat-stress-in-indias-textile-industry/",
+  "expect": [
+   "heat stress"
+  ]
+ },
+ {
+  "id": "bengalurusustainabilityf",
+  "url": "https://www.bengalurusustainabilityforum.org/addressing-heat-stress-among-domestic-workers-in-bangalore/",
+  "expect": [
+   "heat stress"
+  ]
+ },
+ {
+  "id": "heatwatchfoundation",
+  "url": "https://www.heatwatch.in/project/waste-workers/",
+  "expect": [
+   "heat"
+  ]
+ },
+ {
+  "id": "dawateislamifgrf",
+  "url": "https://www.dawateislami.net/bookslibrary/en/madani-pearls-for-protection-from-heat/page-9",
+  "expect": [
+   "heat"
+  ]
+ },
+ {
+  "id": "woodwellclimateresearchc",
+  "url": "https://www.woodwellclimate.org/whrc-hosts-timely-discussion-of-extreme-heat-and-steps-towards-climate-justice/",
+  "expect": [
+   "extreme heat"
+  ]
+ },
+ {
+  "id": "sentosadevelopmentcorpor",
+  "url": "https://www.sentosa.gov.sg/files/resources/news/20251007_Cooling_Sentosa_Media_Release__For_upload_.pdf",
+  "expect": [
+   "cooling"
+  ]
+ },
+ {
+  "id": "spgroup",
+  "url": "https://www.spgroup.com.sg/sustainable-energy-solutions/district-cooling-and-heating",
+  "expect": [
+   "district cooling"
+  ]
+ },
+ {
+  "id": "singaporeethcentre",
+  "url": "https://sec.ethz.ch/research/cs.html",
+  "expect": [
+   "heat"
+  ]
+ },
+ {
+  "id": "singaporemanagementunive",
+  "url": "https://research.smu.edu.sg/news/solving-singapores-urban-heat-island-effect",
+  "expect": [
+   "heat"
+  ]
+ },
+ {
+  "id": "internationalfoodpolicyr",
+  "url": "https://www.ifpri.org/blog/financing-resilience-for-dhakas-food-vendors-in-a-hotter-urban-future/",
+  "expect": [
+   "heat"
+  ]
+ },
+ {
+  "id": "microsaveconsulting",
+  "url": "https://www.microsave.net/2024/06/03/living-on-the-edge-the-impact-of-extreme-temperatures-on-delhis-informal-communities/",
+  "expect": [
+   "heat"
+  ]
+ },
+ {
+  "id": "africanriskcapacitylimit",
+  "url": "https://www.arc.int/extreme-climate-facility",
+  "expect": [
+   "heat"
+  ]
+ },
+ {
+  "id": "foodandagricultureorgani",
+  "url": "https://www.fao.org/newsroom/detail/extreme-heat-is-pushing-agrifood-systems-to-the-brink-worldwide/en",
+  "expect": [
+   "extreme heat"
+  ]
+ },
+ {
+  "id": "citiesclimatefinancelead",
+  "url": "https://citiesclimatefinance.org/publications/hot-cities-chilled-economies-impacts-of-extreme-heat-on-global-cities",
+  "expect": [
+   "extreme heat"
+  ]
+ },
+ {
+  "id": "freetowncitycouncil",
+  "url": "https://fcc.gov.sl/freetown-joins-global-effort-to-tackle-deadly-extreme-heat/",
+  "expect": [
+   "extreme heat"
+  ]
+ },
+ {
+  "id": "nikkensekkei",
+  "url": "https://www.nikken.co.jp/en/expertise/mep_engineering/bioskin_a_facade_system_for_cooling_city_heat_islands.html",
+  "expect": [
+   "heat island"
+  ]
+ },
+ {
+  "id": "tsinghuauniversity",
+  "url": "https://www.tsinghua.edu.cn/en/info/1418/12405.htm",
+  "expect": [
+   "heat"
+  ]
+ },
+ {
+  "id": "allianceforanenergyeffic",
+  "url": "https://aeee.in/thermal-comfort-for-all-is-a-priority-in-a-warming-planet/",
+  "expect": [
+   "thermal comfort"
+  ]
+ },
+ {
+  "id": "ceptuniversity",
+  "url": "https://cept.ac.in/projects/heat-sink-building-under-the-indian-sun",
+  "expect": [
+   "heat"
+  ]
+ },
+ {
+  "id": "delhijalboard",
+  "url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_9_kirari_0.pdf",
+  "expect": [
+   "summer action plan"
+  ]
+ },
+ {
+  "id": "bsesdelhidistributionuti",
+  "url": "https://www.bsesdelhi.com/web/brpl/demand-side-management",
+  "expect": [
+   "peak"
+  ]
+ },
+ {
+  "id": "delhiurbanshelterimprove",
+  "url": "https://delhishelterboard.in/main/wp-content/uploads/2021/02/Plan-Write-up-DUSIB-2020-21-Housing.pdf",
+  "expect": [
+   "desert coolers"
+  ]
+ }
+]
