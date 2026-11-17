@@ -79,7 +79,7 @@
    "Heat": true
   },
   "https://www.sentosa.gov.sg/files/resources/news/20251007_Cooling_Sentosa_Media_Release__For_upload_.pdf": {
-   "Cooling Sentosa": false
+   "cooling": false
   },
   "https://laislanetwork.org/prevent-heat-stress/": {
    "heat stress": true,
@@ -98,6 +98,141 @@
   },
   "https://iiphg.edu.in/scientific-publications-heat-health-activities/": {
    "Heat": true
+  },
+  "https://irade.org/Rajkot-Heat-Action-Plan.pdf": {
+   "Heat Wave Action Plan": true
+  },
+  "https://www.cleancoolingcollaborative.org/blog/two-sides-of-the-equator-extreme-heat-in-the-southern-hemisphere": {
+   "extreme heat": true
+  },
+  "https://www.tropmet.res.in/~lip/Publication/RR-pdf/RR-141.pdf": {
+   "heat": true
+  },
+  "https://mausam.imd.gov.in/responsive/districtWiseHeatwaveWarning.php": {
+   "heat": true
+  },
+  "https://kemkes.go.id/id/berikut-tips-menghadapi-cuaca-panas-tak-biasa": {
+   "cuaca panas": true
+  },
+  "https://www.bmkg.go.id/siaran-pers/apakah-di-indonesia-terjadi-gelombang-panas-ini-penjelasan-bmkg": {
+   "gelombang panas": true
+  },
+  "https://seadrif.org/news/el-nino-and-asean-the-case-for-seadrif-raise/": {
+   "heat": true
+  },
+  "https://rujak.org/membaca-kota-melalui-panas-catatan-dari-kota-kota-pesisir/": {
+   "panas": true
+  },
+  "https://kotakita.org/yang-tinggal-bersama-hawa-panas-yang-tak-kuasa-mengubahnya": {
+   "panas": true
+  },
+  "https://cjbar.rupp.edu.kh/index.php/cjbar/article/view/199": {
+   "Urban Heat Island": true
+  },
+  "https://www.tatatrusts.org/media/media-reports/increasing-temperature-may-exhaust-you-expert-approved-tips-to-manage-heatstroke": {
+   "heatstroke": false
+  },
+  "https://www.globalresiliencepartnership.org/building-heat-resilience-in-freetown-sierra-leone/": {
+   "heat": true
+  },
+  "https://www.redcross.org.uk/get-help/prepare-for-emergencies/heatwaves-uk/vulnerable-groups-advice": {
+   "heatwave": true
+  },
+  "https://www.redcross.org/about-us/news-and-events/news/2026/record-heat-hits-western-states.html": {
+   "heat": true
+  },
+  "https://ihrr.org.np/project/anticipatory-action(aa)-tool-for-heat-&-cold-waves-in-nepal": {
+   "heat": true
+  },
+  "https://nepal.peopleinneed.net/en/turning-heat-data-into-action-how-made-in-nepal-low-cost-sensors-can-help-madhesh-prepare-for-extreme-heat-13534gp": {
+   "heat": true
+  },
+  "https://csrcnepal.org/wp-content/uploads/2026/08/July-Communique.pdf": {
+   "heatwave": true
+  },
+  "https://www.metoffice.gov.uk/about-us/news-and-media/media-centre/weather-and-climate-news/2022/southern-asian-heatwave-attribution-study-2022": {
+   "heatwave": true
+  },
+  "https://www.aku.edu/ighd/research-programmes/Pages/assessing-heat-adaptation.aspx": {
+   "heat": true
+  },
+  "https://www.siehs.org/2026/04/heatwave-safety-tips-what-you-need-to-know-this-summer/": {
+   "heatwave": true
+  },
+  "https://www.redcross.lk/main-news/sri-lanka-red-cross-society-calls-for-collective-action-to-confront-air-quality-deterioration-and-heat-stress-in-sri-lanka/": {
+   "heat stress": true
+  },
+  "https://cbalance.in/wp-content/uploads/2022/05/cBalance_Informal-Housing-Thermal-Comfort_Insight-Report.pdf": {
+   "heat stress": false
+  },
+  "https://www.conduitfoundation.org.uk/programmes-impact": {
+   "extreme heat": true
+  },
+  "https://streetnet.org.za/2026/09/30/decent-work-in-the-age-of-climate-change-a-street-and-market-vendors-perspective/": {
+   "heat": true
+  },
+  "https://www.sattva.co.in/quick-read/a-primer-on-the-risks-and-implications-of-heat-stress-in-indias-textile-industry/": {
+   "heat stress": true
+  },
+  "https://www.bengalurusustainabilityforum.org/addressing-heat-stress-among-domestic-workers-in-bangalore/": {
+   "heat stress": true
+  },
+  "https://www.heatwatch.in/project/waste-workers/": {
+   "heat": true
+  },
+  "https://www.dawateislami.net/bookslibrary/en/madani-pearls-for-protection-from-heat/page-9": {
+   "heat": true
+  },
+  "https://www.woodwellclimate.org/whrc-hosts-timely-discussion-of-extreme-heat-and-steps-towards-climate-justice/": {
+   "extreme heat": true
+  },
+  "https://www.spgroup.com.sg/sustainable-energy-solutions/district-cooling-and-heating": {
+   "district cooling": true
+  },
+  "https://sec.ethz.ch/research/cs.html": {
+   "heat": true
+  },
+  "https://research.smu.edu.sg/news/solving-singapores-urban-heat-island-effect": {
+   "heat": false
+  },
+  "https://www.ifpri.org/blog/financing-resilience-for-dhakas-food-vendors-in-a-hotter-urban-future/": {
+   "heat": true
+  },
+  "https://www.microsave.net/2024/06/03/living-on-the-edge-the-impact-of-extreme-temperatures-on-delhis-informal-communities/": {
+   "heat": true
+  },
+  "https://www.arc.int/extreme-climate-facility": {
+   "heat": false
+  },
+  "https://www.fao.org/newsroom/detail/extreme-heat-is-pushing-agrifood-systems-to-the-brink-worldwide/en": {
+   "extreme heat": true
+  },
+  "https://citiesclimatefinance.org/publications/hot-cities-chilled-economies-impacts-of-extreme-heat-on-global-cities": {
+   "extreme heat": true
+  },
+  "https://fcc.gov.sl/freetown-joins-global-effort-to-tackle-deadly-extreme-heat/": {
+   "extreme heat": true
+  },
+  "https://www.nikken.co.jp/en/expertise/mep_engineering/bioskin_a_facade_system_for_cooling_city_heat_islands.html": {
+   "heat island": true
+  },
+  "https://www.tsinghua.edu.cn/en/info/1418/12405.htm": {
+   "heat": false
+  },
+  "https://aeee.in/thermal-comfort-for-all-is-a-priority-in-a-warming-planet/": {
+   "thermal comfort": true
+  },
+  "https://cept.ac.in/projects/heat-sink-building-under-the-indian-sun": {
+   "heat": true
+  },
+  "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_9_kirari_0.pdf": {
+   "summer action plan": true
+  },
+  "https://www.bsesdelhi.com/web/brpl/demand-side-management": {
+   "peak": true
+  },
+  "https://delhishelterboard.in/main/wp-content/uploads/2021/02/Plan-Write-up-DUSIB-2020-21-Housing.pdf": {
+   "desert coolers": true
   }
  },
  "https://ndma.gov.in/Natural-Hazards/Heat-Wave": "FAIL",
@@ -128,5 +263,50 @@
  "https://www.cgap.org/research/publication/confronting-climate-and-health-nexus-lessons-self-employed-womens-association": "OK",
  "https://buildchange.org/extreme-heat-climate-resilient-housing-for-low-income-women-in-indonesia": "OK",
  "https://ashden.org/fair-cooling-fund/": "OK",
- "https://iiphg.edu.in/scientific-publications-heat-health-activities/": "OK"
+ "https://iiphg.edu.in/scientific-publications-heat-health-activities/": "OK",
+ "https://irade.org/Rajkot-Heat-Action-Plan.pdf": "OK",
+ "https://www.cleancoolingcollaborative.org/blog/two-sides-of-the-equator-extreme-heat-in-the-southern-hemisphere": "OK",
+ "https://www.tropmet.res.in/~lip/Publication/RR-pdf/RR-141.pdf": "OK",
+ "https://mausam.imd.gov.in/responsive/districtWiseHeatwaveWarning.php": "OK",
+ "https://kemkes.go.id/id/berikut-tips-menghadapi-cuaca-panas-tak-biasa": "OK",
+ "https://www.bmkg.go.id/siaran-pers/apakah-di-indonesia-terjadi-gelombang-panas-ini-penjelasan-bmkg": "OK",
+ "https://seadrif.org/news/el-nino-and-asean-the-case-for-seadrif-raise/": "OK",
+ "https://rujak.org/membaca-kota-melalui-panas-catatan-dari-kota-kota-pesisir/": "OK",
+ "https://kotakita.org/yang-tinggal-bersama-hawa-panas-yang-tak-kuasa-mengubahnya": "OK",
+ "https://cjbar.rupp.edu.kh/index.php/cjbar/article/view/199": "OK",
+ "https://www.tatatrusts.org/media/media-reports/increasing-temperature-may-exhaust-you-expert-approved-tips-to-manage-heatstroke": "OK",
+ "https://www.globalresiliencepartnership.org/building-heat-resilience-in-freetown-sierra-leone/": "OK",
+ "https://www.redcross.org.uk/get-help/prepare-for-emergencies/heatwaves-uk/vulnerable-groups-advice": "OK",
+ "https://www.redcross.org/about-us/news-and-events/news/2026/record-heat-hits-western-states.html": "OK",
+ "https://ihrr.org.np/project/anticipatory-action(aa)-tool-for-heat-&-cold-waves-in-nepal": "OK",
+ "https://nepal.peopleinneed.net/en/turning-heat-data-into-action-how-made-in-nepal-low-cost-sensors-can-help-madhesh-prepare-for-extreme-heat-13534gp": "OK",
+ "https://csrcnepal.org/wp-content/uploads/2026/08/July-Communique.pdf": "OK",
+ "https://www.metoffice.gov.uk/about-us/news-and-media/media-centre/weather-and-climate-news/2022/southern-asian-heatwave-attribution-study-2022": "OK",
+ "https://www.aku.edu/ighd/research-programmes/Pages/assessing-heat-adaptation.aspx": "OK",
+ "https://www.siehs.org/2026/04/heatwave-safety-tips-what-you-need-to-know-this-summer/": "OK",
+ "https://www.redcross.lk/main-news/sri-lanka-red-cross-society-calls-for-collective-action-to-confront-air-quality-deterioration-and-heat-stress-in-sri-lanka/": "OK",
+ "https://cbalance.in/wp-content/uploads/2022/05/cBalance_Informal-Housing-Thermal-Comfort_Insight-Report.pdf": "FAIL",
+ "https://www.conduitfoundation.org.uk/programmes-impact": "OK",
+ "https://streetnet.org.za/2026/09/30/decent-work-in-the-age-of-climate-change-a-street-and-market-vendors-perspective/": "OK",
+ "https://www.sattva.co.in/quick-read/a-primer-on-the-risks-and-implications-of-heat-stress-in-indias-textile-industry/": "OK",
+ "https://www.bengalurusustainabilityforum.org/addressing-heat-stress-among-domestic-workers-in-bangalore/": "OK",
+ "https://www.heatwatch.in/project/waste-workers/": "OK",
+ "https://www.dawateislami.net/bookslibrary/en/madani-pearls-for-protection-from-heat/page-9": "OK",
+ "https://www.woodwellclimate.org/whrc-hosts-timely-discussion-of-extreme-heat-and-steps-towards-climate-justice/": "OK",
+ "https://www.spgroup.com.sg/sustainable-energy-solutions/district-cooling-and-heating": "OK",
+ "https://sec.ethz.ch/research/cs.html": "OK",
+ "https://research.smu.edu.sg/news/solving-singapores-urban-heat-island-effect": "FAIL",
+ "https://www.ifpri.org/blog/financing-resilience-for-dhakas-food-vendors-in-a-hotter-urban-future/": "OK",
+ "https://www.microsave.net/2024/06/03/living-on-the-edge-the-impact-of-extreme-temperatures-on-delhis-informal-communities/": "OK",
+ "https://www.arc.int/extreme-climate-facility": "OK",
+ "https://www.fao.org/newsroom/detail/extreme-heat-is-pushing-agrifood-systems-to-the-brink-worldwide/en": "OK",
+ "https://citiesclimatefinance.org/publications/hot-cities-chilled-economies-impacts-of-extreme-heat-on-global-cities": "OK",
+ "https://fcc.gov.sl/freetown-joins-global-effort-to-tackle-deadly-extreme-heat/": "OK",
+ "https://www.nikken.co.jp/en/expertise/mep_engineering/bioskin_a_facade_system_for_cooling_city_heat_islands.html": "REDIRECT",
+ "https://www.tsinghua.edu.cn/en/info/1418/12405.htm": "FAIL",
+ "https://aeee.in/thermal-comfort-for-all-is-a-priority-in-a-warming-planet/": "OK",
+ "https://cept.ac.in/projects/heat-sink-building-under-the-indian-sun": "OK",
+ "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_9_kirari_0.pdf": "OK",
+ "https://www.bsesdelhi.com/web/brpl/demand-side-management": "OK",
+ "https://delhishelterboard.in/main/wp-content/uploads/2021/02/Plan-Write-up-DUSIB-2020-21-Housing.pdf": "OK"
 }
