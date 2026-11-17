@@ -870,6 +870,18 @@
                   "open": "Whether ERA5 reads cool in hot extremes in Southern Asia, from the blog once its address is in hand." },
       "pages": [["/heat-tools/chirts_era5/", "CHIRTS-ERA5 in the Heat Tool Finder"]], "action": ["Open the listing", "/heat-tools/chirts_era5/"],
       "links": []
+    },
+    {
+      "id": "g-oxfam-heat-work", "kind": "evidence", "root": "experience", "added": "2026-11-17", "pr": null,
+      "title": "Heat-safe work: protections that workers cannot use",
+      "why": "Heat-safe work now carries a watch-out, checked against an Oxfam America post: in Hong Kong some outdoor cleaners given cooling vests were stopped from wearing them because the vests covered a company logo, and in Cambodia workers whose unions had bargained over heat exposure were better protected. Equipment and rules help only where workers have the room to use them.",
+      "places": ["region"], "people": ["workers"], "topics": ["heatrules"],
+      "event": { "what": "Oxfam America, Politics of Poverty: the unequal burden of extreme heat at work", "date": "2026-11" },
+      "review": "Seven terms found on the post; two claims confirmed; the ILO exposure figure, an unlinked garment-brand study and examples outside the region are held back in the batch ledger",
+      "effort": { "asked": "What does an advocacy post on heat at work add for workers in South and Southeast Asia?", "inbox": "data/inbox/2026-11-oxfam-heat-work",
+                  "open": "The Cambodia study itself, and whether Hong Kong's sensor and smartwatch alerts changed how often cleaners rested." },
+      "pages": [["/actions/#heatrules", "Heat-safe work"]], "action": ["See Heat-safe work", "/actions/#heatrules"],
+      "links": [{ "to": "lever:heatrules", "why": "A watch-out: protections that workers are not able to use.", "basis": "record" }]
     }
   ]
 }

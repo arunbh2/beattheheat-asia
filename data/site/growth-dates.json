@@ -7611,6 +7611,15 @@
    "org": false
   },
   {
+   "url": "https://politicsofpoverty.oxfamamerica.org/the-unequal-burden-of-extreme-heat-at-work/",
+   "label": "Oxfam America, Politics of Poverty, 2026: the unequal burden of extreme heat at work",
+   "root": "practical",
+   "org": false,
+   "date": "2026",
+   "precision": "year",
+   "how": "label"
+  },
+  {
    "url": "https://portal.fis.tum.de/en/publications/impact-of-solar-insulation-film-on-the-cooling-load-of-an-office-/",
    "label": "Pawar et al., Singapore window-film simulation",
    "root": "practical",

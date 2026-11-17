@@ -1,7 +1,7 @@
 ---
 title: "Extreme heat in Kolkata: plans, cycles and who is at work | Common Shade"
 url: https://beattheheat.asia/cities/kolkata/
-updated: 2026-11-15
+updated: 2026-11-17
 licence: CC BY 4.0
 ---
 
@@ -118,7 +118,7 @@ No checked estimate found yet for this city.
 
 Actions that break the vicious cycles tied to this city, grouped by how soon they could act. Options, not instructions; each links to its evidence and to any side effects to watch for. What shade, parks and reflective roofs have been measured to do in Asian cities: [what has been measured, and where](https://beattheheat.asia/cooling-options/#measured).
 
-**This hot season:** [Heat-safe work](https://beattheheat.asia/actions/#heatrules) · [Cooling centres and check-ins](https://beattheheat.asia/actions/#coolingcentres) (watch for side effects)
+**This hot season:** [Heat-safe work](https://beattheheat.asia/actions/#heatrules) (watch for side effects) · [Cooling centres and check-ins](https://beattheheat.asia/actions/#coolingcentres) (watch for side effects)
 
 **Over the next few years:** [Income protection in heatwaves](https://beattheheat.asia/actions/#heatcash) (watch for side effects) · [Social protection floors](https://beattheheat.asia/actions/#socialprotection) · [Count every heat death](https://beattheheat.asia/actions/#countdeaths)
 

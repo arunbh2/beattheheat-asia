@@ -5,7 +5,7 @@ updated: 2026-11-17
 licence: CC BY 4.0
 ---
 
-> Every paper, report, dataset and organisation cited on Common Shade, in one list you can search: 2347 sources, each with where it is used on the site.
+> Every paper, report, dataset and organisation cited on Common Shade, in one list you can search: 2348 sources, each with where it is used on the site.
 
 Where does every claim come from?
 
@@ -566,9 +566,13 @@ The 2026 report of the Lancet Countdown on health and climate change, its append
 
 - 23[The 2024 report of the Lancet Countdown on health and climate change](https://doi.org/10.1016/S0140-6736(24)01822-1)doi.orgUsed on: Actions · Lancet Countdown 2026, in plain language · The heat network
 
+- 6[Carbon Brief (2026). Analysis: China’s CO2 emissions have now been ‘flat or falling’ for 21 months.](https://www.carbonbrief.org/analysis-chinas-co2-emissions-have-now-been-flat-or-falling-for-21-months/)carbonbrief.orgUsed on: Lancet Countdown 2026, in plain language
+
 - 14[Bevacqua E, Fischer E, Sillmann J, et al. (2026). Moderate global warming does not rule out extreme global climate outcomes. Nature 651: 946–953.](https://doi.org/10.1038/s41586-026-10237-9)doi.orgUsed on: Lancet Countdown 2026, in plain language
 
 - 8[European Environment Agency (2026). The EU has cut its greenhouse gas emissions by 40% since 1990.](https://www.eea.europa.eu/en/newsroom/news/the-eu-has-cut-its-greenhouse-gas-emissions-by-40-since-1990)eea.europa.euUsed on: Lancet Countdown 2026, in plain language
+
+- 10[Freire-González J, Padilla Rosa E, Raymond JL (2024). World economies’ progress in decoupling from CO2 emissions. Sci Rep 14: 20480.](https://scholar.google.com/scholar?q=Freire-Gonz%C3%A1lez%20J%2C%20Padilla%20Rosa%20E%2C%20Raymond%20JL.%20World%20economies%E2%80%99%20progress%20in%20decoupling%20from%20CO2%20emissions.%20Sci%20Rep%2014%3A%2020480.)search on Google ScholarUsed on: Lancet Countdown 2026, in plain language
 
 - 16[Goessling HF, Rackow T, Jung T (2025). Recent global temperature surge intensified by record-low planetary albedo. Science.](https://scholar.google.com/scholar?q=Goessling%20HF%2C%20Rackow%20T%2C%20Jung%20T.%20Recent%20global%20temperature%20surge%20intensified%20by%20record-low%20planetary%20albedo.%20Science.)search on Google ScholarUsed on: Lancet Countdown 2026, in plain language
 
@@ -576,29 +580,21 @@ The 2026 report of the Lancet Countdown on health and climate change, its append
 
 - 4[IRENA (2025). Renewable power generation costs in 2024.](https://scholar.google.com/scholar?q=IRENA.%20Renewable%20power%20generation%20costs%20in%202024.)search on Google ScholarUsed on: Lancet Countdown 2026, in plain language
 
-- 5[Ember (2026). Open data and policy analysis for a clean, electrified energy future.](https://ember-energy.org/data/#all)ember-energy.orgUsed on: Lancet Countdown 2026, in plain language
-
-- 9[IEA (2024). Clean energy is boosting economic growth.](https://www.iea.org/commentaries/clean-energy-is-boosting-economic-growth)iea.orgUsed on: Lancet Countdown 2026, in plain language
-
-- 11[International Court of Justice (2025). Obligations of States in respect of Climate Change.](https://www.icj-cij.org/case/187)icj-cij.orgUsed on: Lancet Countdown 2026, in plain language
-
-- 22[Romanello M, Di Napoli C, Drummond P, et al. (2022). The 2022 report of the Lancet Countdown: health at the mercy of fossil fuels. Lancet 400: 1619–1654.](https://doi.org/10.1016/S0140-6736(22)01540-9)doi.orgUsed on: Lancet Countdown 2026, in plain language
-
-- 25[Romanello M, di Napoli C, Green C, et al. (2023). The 2023 report of the Lancet Countdown: the imperative for a health-centred response in a world facing irreversible harms. Lancet 402: 2346–2394.](https://doi.org/10.1016/S0140-6736(23)01859-7)doi.orgUsed on: Lancet Countdown 2026, in plain language
+- 21[Romanello M, Walawender M, Hsu SC, et al. (2025). The 2025 report of the Lancet Countdown: climate change action offers a lifeline. Lancet 406: 2804–2857.](https://doi.org/10.1016/S0140-6736(25)01919-1)doi.orgUsed on: Lancet Countdown 2026, in plain language
 
 - [technical appendix](https://www.thelancet.com/cms/10.1016/S0140-6736(26)01779-4/attachment/f1638b7e-8037-4f1d-a407-81e006e8bd17/mmc6.pdf)thelancet.comUsed on: Lancet Countdown 2026, in plain language
 
 - 2[Neira M, Campbell-Lendrum D (2015). New climate change agreement a historic win for human health. WHO.](https://www.who.int/news-room/commentaries/detail/new-climate-change-agreement-a-historic-win-for-human-health)who.intUsed on: Lancet Countdown 2026, in plain language
 
-- 6[Carbon Brief (2026). Analysis: China’s CO2 emissions have now been ‘flat or falling’ for 21 months.](https://www.carbonbrief.org/analysis-chinas-co2-emissions-have-now-been-flat-or-falling-for-21-months/)carbonbrief.orgUsed on: Lancet Countdown 2026, in plain language
+- 5[Ember (2026). Open data and policy analysis for a clean, electrified energy future.](https://ember-energy.org/data/#all)ember-energy.orgUsed on: Lancet Countdown 2026, in plain language
 
 - 7[UK Department for Energy Security and Net Zero (2024). UK first major economy to halve emissions.](https://www.gov.uk/government/news/uk-first-major-economy-to-halve-emissions)gov.ukUsed on: Lancet Countdown 2026, in plain language
 
-- 10[Freire-González J, Padilla Rosa E, Raymond JL (2024). World economies’ progress in decoupling from CO2 emissions. Sci Rep 14: 20480.](https://scholar.google.com/scholar?q=Freire-Gonz%C3%A1lez%20J%2C%20Padilla%20Rosa%20E%2C%20Raymond%20JL.%20World%20economies%E2%80%99%20progress%20in%20decoupling%20from%20CO2%20emissions.%20Sci%20Rep%2014%3A%2020480.)search on Google ScholarUsed on: Lancet Countdown 2026, in plain language
+- 9[IEA (2024). Clean energy is boosting economic growth.](https://www.iea.org/commentaries/clean-energy-is-boosting-economic-growth)iea.orgUsed on: Lancet Countdown 2026, in plain language
+
+- 11[International Court of Justice (2025). Obligations of States in respect of Climate Change.](https://www.icj-cij.org/case/187)icj-cij.orgUsed on: Lancet Countdown 2026, in plain language
 
 - 15[Nature Climate Change (2025). Sinking carbon sinks. Nat Clim Chang 15: 905.](https://doi.org/10.1038/s41558-025-02440-9)doi.orgUsed on: Lancet Countdown 2026, in plain language
-
-- 21[Romanello M, Walawender M, Hsu SC, et al. (2025). The 2025 report of the Lancet Countdown: climate change action offers a lifeline. Lancet 406: 2804–2857.](https://doi.org/10.1016/S0140-6736(25)01919-1)doi.orgUsed on: Lancet Countdown 2026, in plain language
 
 - 1[UNFCCC (2015). Paris Agreement to the United Nations Framework Convention on Climate Change.](https://scholar.google.com/scholar?q=Paris+Agreement+to+the+United+Nations+Framework+Convention+on+Climate+Change)search on Google ScholarUsed on: Lancet Countdown 2026, in plain language
 
@@ -612,7 +608,11 @@ The 2026 report of the Lancet Countdown on health and climate change, its append
 
 - 20[Romanello M, McGushin A, Di Napoli C, et al. (2021). The 2021 report of the Lancet Countdown: code red for a healthy future. Lancet 398: 1619–1662.](https://doi.org/10.1016/S0140-6736(21)01787-6)doi.orgUsed on: Lancet Countdown 2026, in plain language
 
+- 22[Romanello M, Di Napoli C, Drummond P, et al. (2022). The 2022 report of the Lancet Countdown: health at the mercy of fossil fuels. Lancet 400: 1619–1654.](https://doi.org/10.1016/S0140-6736(22)01540-9)doi.orgUsed on: Lancet Countdown 2026, in plain language
+
 - 24[Watts N, Amann M, Arnell N, et al. (2018). The 2018 report of the Lancet Countdown: shaping the health of nations for centuries to come. Lancet 392: 2479–2514.](https://doi.org/10.1016/S0140-6736(18)32594-7)doi.orgUsed on: Lancet Countdown 2026, in plain language
+
+- 25[Romanello M, di Napoli C, Green C, et al. (2023). The 2023 report of the Lancet Countdown: the imperative for a health-centred response in a world facing irreversible harms. Lancet 402: 2346–2394.](https://doi.org/10.1016/S0140-6736(23)01859-7)doi.orgUsed on: Lancet Countdown 2026, in plain language
 
 - 26[Watts N, Amann M, Arnell N, et al. (2019). The 2019 report of The Lancet Countdown: ensuring that the health of a child born today is not defined by a changing climate. Lancet 394: 1836–1878.](https://doi.org/10.1016/S0140-6736(19)32596-6)doi.orgUsed on: Lancet Countdown 2026, in plain language
 
@@ -1346,7 +1346,7 @@ The 2026 report of the Lancet Countdown on health and climate change, its append
 
 - 397[United Nations (2025). Counting what counts: a compass of progress for people and planet. High-level expert group on beyond GDP.](https://www.un.org/sites/un2.un.org/files/high-level_expert_group_on_beyond_gdp_final_report.pdf)un.orgUsed on: Lancet Countdown 2026, in plain language
 
-## Research, reports and guidance 1416
+## Research, reports and guidance 1417
 
 Papers, reports, guidance, news and datasets cited as evidence anywhere on the site.
 
@@ -1442,6 +1442,8 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [BEE standards and labelling current official listing &nbsp;](https://www.beeindia.gov.in/show_content.php?lang=1&amp;level=1&amp;lid=322&amp;ls_id=198)beeindia.gov.inUsed on: The heat economy: what makes markets work
 
+- [Cambodia National Cooling Action Plan &nbsp;](https://faolex.fao.org/docs/pdf/cam219294.pdf)faolex.fao.orgUsed on: The heat economy: what makes markets work
+
 - [Biratnagar Metropolitan City &nbsp;](https://biratnagarmun.gov.np/)biratnagarmun.gov.npUsed on: Nepal snapshot
 
 - [Blackfrog Technologies &nbsp;](https://www.globalinnovation.fund/investments/blackfrog)globalinnovation.fundUsed on: The heat economy: money and support
@@ -1470,76 +1472,6 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [Cabinet decision on El Niño coordination committees &nbsp;](https://www.cabinetoffice.gov.lk/cab/index.php?Itemid=49&amp;dID=14029&amp;id=16&amp;lang=en&amp;option=com_content&amp;view=article)cabinetoffice.gov.lkUsed on: Sri Lanka snapshot
 
-- [Cambodia National Cooling Action Plan &nbsp;](https://faolex.fao.org/docs/pdf/cam219294.pdf)faolex.fao.orgUsed on: The heat economy: what makes markets work
-
-- [CGIAR/IWMI solar irrigation and groundwater &nbsp;](https://www.cgiar.org/news-events/news/beyond-irrigation-scaling-grid-connected-solar-power-sustainable-groundwater-use)cgiar.orgUsed on: The heat economy: what could come up
-
-- [CLASP Bangladesh retailer field study 2019 &nbsp;](https://www.clasp.ngo/research/all/the-appliance-market-in-bangladesh/)clasp.ngoUsed on: The heat economy: what makes markets work
-
-- [CLASP Global LEAP RBF monitoring and verification &nbsp;](https://www.clasp.ngo/rfps/global-leaprbf-appliance-monitoring-verification/)clasp.ngoUsed on: The heat economy: what makes markets work
-
-- [CODI Baan Mankong &nbsp;](https://en.codi.or.th/baan-mankong-city-wide-upgrading/)en.codi.or.thUsed on: The heat economy: what could come up · The heat economy: what makes markets work
-
-- [Devidayal Solar PAYG finance &nbsp;](https://ddsolar.in/paygo-finance/)ddsolar.inUsed on: The heat economy: what makes markets work
-
-- [DFC Ecozen public information summary &nbsp;](https://www.dfc.gov/sites/default/files/media/documents/9000116166.pdf)dfc.govUsed on: The heat economy: what makes markets work
-
-- [EESL building energy ESCO partnerships 2021 &nbsp;](https://eeslindia.org/wp-content/uploads/2021/02/Press%20Release%20-%20EESL%20is%20looking%20to%20partner%20with%20private%20sector%20ESCOs%20to%20scale%20up%20its%20BEEP%5B42%5D.pdf)eeslindia.orgUsed on: The heat economy: what could come up · The heat economy: what makes markets work
-
-- [FAO soil organic cover guidance &nbsp;](https://www.fao.org/conservation-agriculture/in-practice/soil-organic-cover/en/)fao.orgUsed on: The heat economy: what could come up
-
-- [ICIMOD HI-WISE assessment &nbsp;](https://hkh.icimod.org/hi-wise/)hkh.icimod.orgUsed on: The heat economy: what could come up
-
-- [IFC/UNEP Cooler Finance original report &nbsp;](https://www.ifc.org/content/dam/ifc/doc/2024/cooler-finance-report.pdf)ifc.orgUsed on: The heat economy: what makes markets work
-
-- [ILO heat and occupational safety policy brief 2024 &nbsp;](https://www.ilo.org/publications/heat-and-osh-policy-brief-best-practices-gcc-region-and-beyond)ilo.orgUsed on: The heat economy: what could come up
-
-- [Impact Fund Denmark Smart Joules climate finance &nbsp;](https://impactfund.dk/news/smart-joules-receives-the-first-investment-made-under-a-new-danish-climate-finance-initiative-for-india/)impactfund.dkUsed on: The heat economy: what could come up
-
-- [IWMI SoLAR &nbsp;](https://www.iwmi.org/projects/solar/)iwmi.orgUsed on: The heat economy: what could come up
-
-- [Mahila Housing Trust programme profile &nbsp;](https://earthshotprize.org/winners-finalists/mahila-housing-trust/)earthshotprize.orgUsed on: The heat economy: what could come up
-
-- [MHT gender and poverty barriers to climate finance 2023 &nbsp;](https://www.mahilahousingtrust.org/wp-content/uploads/2023/02/Gender-and-Poverty-related-Barriers-of-the-Urban-Poor-to-access-Climate-and-Disaster-Risk-Finance-and-Insurance-Evidence-from-the-Mahila-Housing-Trust-in-India.pdf)mahilahousingtrust.orgUsed on: The heat economy: what makes markets work
-
-- [MIT/BRAC Bangladesh climate shelter &nbsp;](https://climate.mit.edu/posts/mit-led-project-opens-first-climate-shelter-bangladesh)climate.mit.eduUsed on: The heat economy: what could come up
-
-- [NParks annual and sustainability report 2025–2026 &nbsp;](https://www.nparks.gov.sg/portals/annualreport/chapters/transforming-singapore-into-a-city-in-nature/)nparks.gov.sgUsed on: The heat economy: what could come up
-
-- [PNNL evaporative cooling suitability &nbsp;](https://basc.pnnl.gov/resource-guides/evaporative-cooling-systems?existing_homes=602)basc.pnnl.govUsed on: The heat economy: what makes markets work
-
-- [Prosper Global Ventures Resilience AI pilot current URL &nbsp;](https://www.prosperglobalventures.com/blog/pilot-launch-small-businesses-prepare-for-climate-shocks-to-protect-their-livelihood-and-trade-with-anticipatory-mindset-using-ai)prosperglobalventures.comUsed on: The heat economy: what could come up
-
-- [SEACEF II first close and first-loss investors &nbsp;](https://www.climecap.com/post/clime-capital-hits-first-close-of-second-southeast-asian-clean-energy-fund-at-127m)climecap.comUsed on: The heat economy: what makes markets work
-
-- [Shell Foundation cooling dividend &nbsp;](https://shellfoundation.org/insight-report/the-cooling-dividend/)shellfoundation.orgUsed on: The heat economy: what could come up
-
-- [Source &nbsp;](https://bluefrontierac.com/breakthrough-energy-ventures-leads-20m-series-a-for-blue-frontiers-game-changing-sustainable-energy-storing-air-conditioning/)bluefrontierac.comUsed on: The heat economy: money and support
-
-- [Source &nbsp;](https://aruwacapital.com/wp-content/uploads/2022/03/Koolboks-Press-Release_vF.pdf)aruwacapital.comUsed on: The heat economy: money and support
-
-- [Source &nbsp;](https://melaventures.in/press-release/leading-cold-chain-solution-provider-tessol-raises-inr-7-5-cr-from-mela-ventures/)melaventures.inUsed on: The heat economy: money and support
-
-- [Source &nbsp;](https://disclosures.ifc.org/project-detail/SII/44700/tabreed-district-cooling-company)disclosures.ifc.orgUsed on: The heat economy: money and support
-
-- [Source &nbsp;](https://www.jupiterintel.com/blog/jupiter-announces-54-million-in-new-funding)jupiterintel.comUsed on: The heat economy: money and support
-
-- [Source &nbsp;](https://www.prnewswire.com/in/news-releases/adb-ventures-announces-its-first-two-investments-882262035.html)prnewswire.comUsed on: The heat economy: money and support
-
-- [Source &nbsp;](https://shellfoundation.org/news/keep-it-cool-wins-earthshot-prize/)shellfoundation.orgUsed on: The heat economy: money and support
-
-- [Source &nbsp;](https://www.primecoalition.org/investee-library/gradient)primecoalition.orgUsed on: The heat economy: money and support
-
-- [Source &nbsp;](http://www.theraintree.co.in)theraintree.co.inUsed on: The heat economy: money and support
-
-- [Source &nbsp;](https://www.cleancoolingcollaborative.org/about)cleancoolingcollaborative.orgUsed on: The heat economy: money and support
-
-- [Source &nbsp;](https://efficiencyforaccess.org/publications/promethean-power-transforming-indias-rural-dairy-sector-through-smart-decentralised-cooling/)efficiencyforaccess.orgUsed on: The heat economy: money and support
-
-- [State Bank Pakistan fan programme circular &nbsp;](https://www.sbp.org.pk/circulars/shsfd-circular-no-01-of-2026)sbp.org.pkUsed on: The heat economy: what makes markets work
-
-- [Swiss Re SEWA parametric income protection India &nbsp;](https://www.swissre.com/our-business/public-sector-solutions/insights/financial-solutions-for-women-workers-india.html)swissre.comUsed on: The heat economy: what could come up
-
 - [Carrier &nbsp;](https://www.carrier.com/)carrier.comUsed on: The heat economy: money and support
 
 - [Catalyst Fund &nbsp;](https://www.thecatalystfund.com/)thecatalystfund.comUsed on: The heat economy: money and support
@@ -1550,9 +1482,15 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [CERF &nbsp;](https://www.unicef.org/nepal/central-emergency-response-fund-anticipatory-action)unicef.orgUsed on: The heat economy: money and support
 
+- [CGIAR/IWMI solar irrigation and groundwater &nbsp;](https://www.cgiar.org/news-events/news/beyond-irrigation-scaling-grid-connected-solar-power-sustainable-groundwater-use)cgiar.orgUsed on: The heat economy: what could come up
+
 - [Chennai City Heat Action Plan 2025 &nbsp;](https://beta-tnsmart.rimes.int/assets/ActionPlan_District/HAP_dist_pdfs/Updated_HAP_Chennai.pdf)beta-tnsmart.rimes.intUsed on: India snapshot
 
 - [Chiang Mai public-health heat warning &nbsp;](https://radiochiangmai.prd.go.th/th/content/category/detail/id/57/iid/485432)radiochiangmai.prd.go.thUsed on: Thailand snapshot
+
+- [CLASP Bangladesh retailer field study 2019 &nbsp;](https://www.clasp.ngo/research/all/the-appliance-market-in-bangladesh/)clasp.ngoUsed on: The heat economy: what makes markets work
+
+- [CLASP Global LEAP RBF monitoring and verification &nbsp;](https://www.clasp.ngo/rfps/global-leaprbf-appliance-monitoring-verification/)clasp.ngoUsed on: The heat economy: what makes markets work
 
 - [Clearvision Ventures &nbsp;](https://www.clearvisionventures.com/)clearvisionventures.comUsed on: The heat economy: money and support
 
@@ -1575,6 +1513,8 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 - [Closing Heat Data Gaps in Climate Disease Frontline Communities &nbsp;](https://bassconnections.duke.edu/project/closing-heat-data-gaps-climate-disease-frontline-communities-2024-2025/)bassconnections.duke.eduUsed on: Sri Lanka snapshot
 
 - [CoCHAP Indonesia programme account &nbsp;](https://preparecenter.org/initiative/coastalheat/cochap-indonesia/)preparecenter.orgUsed on: Indonesia snapshot
+
+- [CODI Baan Mankong &nbsp;](https://en.codi.or.th/baan-mankong-city-wide-upgrading/)en.codi.or.thUsed on: The heat economy: what could come up · The heat economy: what makes markets work
 
 - [CommerzVentures &nbsp;](https://commerzventures.com/)commerzventures.comUsed on: The heat economy: money and support
 
@@ -1624,6 +1564,12 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) &nbsp;](https://www.giz.de/)giz.deUsed on: Indonesia snapshot
 
+- [Devidayal Solar PAYG finance &nbsp;](https://ddsolar.in/paygo-finance/)ddsolar.inUsed on: The heat economy: what makes markets work
+
+- [DFC Ecozen public information summary &nbsp;](https://www.dfc.gov/sites/default/files/media/documents/9000116166.pdf)dfc.govUsed on: The heat economy: what makes markets work
+
+- [Dhangadhi plan release and community research account &nbsp;](https://www.climatecentre.org/15480/heat-action-day-2025-red-cross-assists-another-nepalese-city-with-action-plan/)climatecentre.orgUsed on: Nepal snapshot
+
 - [DILG 2026 legal opinion on LDRRMF purposes &nbsp;](https://sibugaylegal.region9.dilg.gov.ph/opinions/39-2026-utilization-of-local-disaster-risk-reduction-and-management-fund-ldrrmf-42ee7e1e31)sibugaylegal.region9.dilg.gov.phUsed on: Philippines snapshot
 
 - [DMC weather report archive &nbsp;](https://www.dmc.gov.lk/index.php?Itemid=274&amp;fromdate=&amp;lang=en&amp;limit=0&amp;option=com_dmcreports&amp;report_type_id=2&amp;search=&amp;todate=&amp;view=reports)dmc.gov.lkUsed on: Sri Lanka snapshot
@@ -1646,11 +1592,69 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [The Earthshot Prize &nbsp;](https://earthshotprize.org/news/five-winners-of-the-2024-earthshot-prize-are-unveiled-in-cape-town/)earthshotprize.orgUsed on: The heat economy: money and support
 
+- [EESL building energy ESCO partnerships 2021 &nbsp;](https://eeslindia.org/wp-content/uploads/2021/02/Press%20Release%20-%20EESL%20is%20looking%20to%20partner%20with%20private%20sector%20ESCOs%20to%20scale%20up%20its%20BEEP%5B42%5D.pdf)eeslindia.orgUsed on: The heat economy: what could come up · The heat economy: what makes markets work
+
 - [Efficiency for Access Research and Development Fund &nbsp;](https://efficiencyforaccess.org/rd-fund/about-the-rd-fund/)efficiencyforaccess.orgUsed on: The heat economy: money and support
 
 - [EGAT current consumer and certified-product route &nbsp;](https://labelno5.egat.co.th/)labelno5.egat.co.thUsed on: Thailand snapshot
 
 - [Electricity Generating Authority of Thailand &nbsp;](https://www.egat.co.th/)egat.co.thUsed on: Thailand snapshot
+
+- [FAO soil organic cover guidance &nbsp;](https://www.fao.org/conservation-agriculture/in-practice/soil-organic-cover/en/)fao.orgUsed on: The heat economy: what could come up
+
+- [ICIMOD HI-WISE assessment &nbsp;](https://hkh.icimod.org/hi-wise/)hkh.icimod.orgUsed on: The heat economy: what could come up
+
+- [IFC/UNEP Cooler Finance original report &nbsp;](https://www.ifc.org/content/dam/ifc/doc/2024/cooler-finance-report.pdf)ifc.orgUsed on: The heat economy: what makes markets work
+
+- [ILO heat and occupational safety policy brief 2024 &nbsp;](https://www.ilo.org/publications/heat-and-osh-policy-brief-best-practices-gcc-region-and-beyond)ilo.orgUsed on: The heat economy: what could come up
+
+- [Impact Fund Denmark Smart Joules climate finance &nbsp;](https://impactfund.dk/news/smart-joules-receives-the-first-investment-made-under-a-new-danish-climate-finance-initiative-for-india/)impactfund.dkUsed on: The heat economy: what could come up
+
+- [IWMI SoLAR &nbsp;](https://www.iwmi.org/projects/solar/)iwmi.orgUsed on: The heat economy: what could come up
+
+- [Mahila Housing Trust programme profile &nbsp;](https://earthshotprize.org/winners-finalists/mahila-housing-trust/)earthshotprize.orgUsed on: The heat economy: what could come up
+
+- [MHT gender and poverty barriers to climate finance 2023 &nbsp;](https://www.mahilahousingtrust.org/wp-content/uploads/2023/02/Gender-and-Poverty-related-Barriers-of-the-Urban-Poor-to-access-Climate-and-Disaster-Risk-Finance-and-Insurance-Evidence-from-the-Mahila-Housing-Trust-in-India.pdf)mahilahousingtrust.orgUsed on: The heat economy: what makes markets work
+
+- [MIT/BRAC Bangladesh climate shelter &nbsp;](https://climate.mit.edu/posts/mit-led-project-opens-first-climate-shelter-bangladesh)climate.mit.eduUsed on: The heat economy: what could come up
+
+- [NParks annual and sustainability report 2025–2026 &nbsp;](https://www.nparks.gov.sg/portals/annualreport/chapters/transforming-singapore-into-a-city-in-nature/)nparks.gov.sgUsed on: The heat economy: what could come up
+
+- [PNNL evaporative cooling suitability &nbsp;](https://basc.pnnl.gov/resource-guides/evaporative-cooling-systems?existing_homes=602)basc.pnnl.govUsed on: The heat economy: what makes markets work
+
+- [Prosper Global Ventures Resilience AI pilot current URL &nbsp;](https://www.prosperglobalventures.com/blog/pilot-launch-small-businesses-prepare-for-climate-shocks-to-protect-their-livelihood-and-trade-with-anticipatory-mindset-using-ai)prosperglobalventures.comUsed on: The heat economy: what could come up
+
+- [SEACEF II first close and first-loss investors &nbsp;](https://www.climecap.com/post/clime-capital-hits-first-close-of-second-southeast-asian-clean-energy-fund-at-127m)climecap.comUsed on: The heat economy: what makes markets work
+
+- [Shell Foundation cooling dividend &nbsp;](https://shellfoundation.org/insight-report/the-cooling-dividend/)shellfoundation.orgUsed on: The heat economy: what could come up
+
+- [Source &nbsp;](https://www.thegef.org/projects-operations/projects/10370)thegef.orgUsed on: The heat economy: money and support
+
+- [Source &nbsp;](https://bluefrontierac.com/breakthrough-energy-ventures-leads-20m-series-a-for-blue-frontiers-game-changing-sustainable-energy-storing-air-conditioning/)bluefrontierac.comUsed on: The heat economy: money and support
+
+- [Source &nbsp;](https://aruwacapital.com/wp-content/uploads/2022/03/Koolboks-Press-Release_vF.pdf)aruwacapital.comUsed on: The heat economy: money and support
+
+- [Source &nbsp;](https://melaventures.in/press-release/leading-cold-chain-solution-provider-tessol-raises-inr-7-5-cr-from-mela-ventures/)melaventures.inUsed on: The heat economy: money and support
+
+- [Source &nbsp;](https://disclosures.ifc.org/project-detail/SII/44700/tabreed-district-cooling-company)disclosures.ifc.orgUsed on: The heat economy: money and support
+
+- [Source &nbsp;](https://www.jupiterintel.com/blog/jupiter-announces-54-million-in-new-funding)jupiterintel.comUsed on: The heat economy: money and support
+
+- [Source &nbsp;](https://www.prnewswire.com/in/news-releases/adb-ventures-announces-its-first-two-investments-882262035.html)prnewswire.comUsed on: The heat economy: money and support
+
+- [Source &nbsp;](https://shellfoundation.org/news/keep-it-cool-wins-earthshot-prize/)shellfoundation.orgUsed on: The heat economy: money and support
+
+- [Source &nbsp;](https://www.primecoalition.org/investee-library/gradient)primecoalition.orgUsed on: The heat economy: money and support
+
+- [Source &nbsp;](http://www.theraintree.co.in)theraintree.co.inUsed on: The heat economy: money and support
+
+- [Source &nbsp;](https://www.cleancoolingcollaborative.org/about)cleancoolingcollaborative.orgUsed on: The heat economy: money and support
+
+- [Source &nbsp;](https://efficiencyforaccess.org/publications/promethean-power-transforming-indias-rural-dairy-sector-through-smart-decentralised-cooling/)efficiencyforaccess.orgUsed on: The heat economy: money and support
+
+- [State Bank Pakistan fan programme circular &nbsp;](https://www.sbp.org.pk/circulars/shsfd-circular-no-01-of-2026)sbp.org.pkUsed on: The heat economy: what makes markets work
+
+- [Swiss Re SEWA parametric income protection India &nbsp;](https://www.swissre.com/our-business/public-sector-solutions/insights/financial-solutions-for-women-workers-india.html)swissre.comUsed on: The heat economy: what could come up
 
 - [Endo Enterprises &nbsp;](https://temasekfoundation.org.sg/news/media-releases/metha8-and-yama-win-s-1m-each-to-scale-methanol-to-power-and-carbon-capture-technologies-at-asia-s-largest-crowdsourcing-platform-for-climate-solutions)temasekfoundation.org.sgUsed on: The heat economy: money and support
 
@@ -1674,103 +1678,25 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [FMO &nbsp;](https://www.fmo.nl/)fmo.nlUsed on: The heat economy: money and support
 
+- [GGGI account of forthcoming NAP and financing preparation &nbsp;](https://gggi.org/sri-lanka-lays-the-groundwork-for-investment-ready-climate-action-with-new-national-adaptation-plan/)gggi.orgUsed on: Sri Lanka snapshot
+
+- [GIZ Proklima / Green Cooling Initiative &nbsp;](https://www.green-cooling-initiative.org/)green-cooling-initiative.orgUsed on: Thailand snapshot
+
 - [Global Cooling Prize &nbsp;](https://globalcoolingprize.org/grand-winners-press-release/)globalcoolingprize.orgUsed on: The heat economy: money and support
 
 - [Global Innovation Fund - climate resilience and Thrive support routes &nbsp;](https://www.globalinnovation.fund/what-we-do)globalinnovation.fundUsed on: The heat economy: money and support
 
 - [Global Innovation Fund &nbsp;](https://www.globalinnovation.fund/)globalinnovation.fundUsed on: The heat economy: money and support
 
+- [Government account of Bangkok cooling centres &nbsp;](https://thailand.go.th/issue-focus-detail/bangkok-launches-304-cooling-centers-to-combat-extreme-heat?hl=en)thailand.go.thUsed on: Thailand snapshot
+
 - [Green Climate Fund &nbsp;](https://www.greenclimate.fund/)greenclimate.fundUsed on: The heat economy: money and support
 
 - [GSMA Innovation Fund - relevant digital-urban and humanitarian windows &nbsp;](https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-for-development/gsma-innovation-fund/)gsma.comUsed on: The heat economy: money and support
 
-- [GV &nbsp;](https://www.gv.com/)gv.comUsed on: The heat economy: money and support
-
-- [Hivos-Triodos Fonds (Triodos Investment Management) &nbsp;](https://www.triodos-im.com/)triodos-im.comUsed on: The heat economy: money and support
-
-- [Howden Foundation &nbsp;](https://www.howdengroupholdings.com/insights/pioneering-initiative-protects-women-workers-in-india-during-record-breaking-heatwave)howdengroupholdings.comUsed on: The heat economy: money and support
-
-- [Humanity Insured &nbsp;](https://humanityinsured.org/wp-content/uploads/2025/12/Building-Resilience-through-Protection-Humanity-Insured-Learning-Report-2025.pdf)humanityinsured.orgUsed on: The heat economy: money and support
-
-- [IBISA heat - original source &nbsp;](https://www.ibisa.network/en/blog/ushma-kavach-a-climate-resilient-shield-for-indias-dairy-farmers)ibisa.networkUsed on: The heat economy: businesses
-
-- [IFRC-DREF &nbsp;](https://www.ifrc.org/happening-now/emergencies/anticipatory-pillar-dref)ifrc.orgUsed on: The heat economy: money and support
-
-- [Impact Fund Denmark (formerly IFU) &nbsp;](https://impactfund.dk/)impactfund.dkUsed on: The heat economy: money and support
-
-- [International Finance Corporation &nbsp;](https://www.ifc.org/)ifc.orgUsed on: The heat economy: money and support
-
-- [Keep Cool Innovation Challenge &nbsp;](https://www.wri.org/initiatives/keep-cool-innovation-challenge-cool-solutions-warming-world)wri.orgUsed on: The heat economy: money and support · The heat economy: what could come up
-
-- [Krosslinker &nbsp;](https://temasekfoundation.org.sg/news/media-releases/the-liveability-challenge-2025-grand-finale)temasekfoundation.org.sgUsed on: The heat economy: money and support
-
-- [The Liveability Challenge - Cool Earth and cooling participants &nbsp;](https://www.theliveabilitychallenge.org/)theliveabilitychallenge.orgUsed on: The heat economy: money and support
-
-- [Mela Ventures &nbsp;](https://melaventures.in/)melaventures.inUsed on: The heat economy: money and support
-
-- [Modern Niagara &nbsp;](https://modernniagara.com/)modernniagara.comUsed on: The heat economy: money and support
-
-- [MPower Partners &nbsp;](https://www.mpower-partners.com/)mpower-partners.comUsed on: The heat economy: money and support
-
-- [N47 (named Next47 in 2025 release) &nbsp;](https://www.n47.com/)n47.comUsed on: The heat economy: money and support
-
-- [NABVENTURES &nbsp;](https://nabventures.in/)nabventures.inUsed on: The heat economy: money and support
-
-- [Nature for Cooling Challenge &nbsp;](https://coolcoalition.org/projects/nature-cooling-challenge)coolcoalition.orgUsed on: The heat economy: money and support · The heat economy: what could come up
-
-- [Northern Arizona University - Floe SmartFan &nbsp;](https://10across.org/release-asus-ten-across-initiative-announces-the-10x-grand-prize-finalists-and-peoples-choice-award-winners/)10across.orgUsed on: The heat economy: money and support
-
-- [Nuveen &nbsp;](https://www.nuveen.com/)nuveen.comUsed on: The heat economy: money and support
-
-- [Octolife &nbsp;](https://www.third-derivative.org/blog/d3-incoming-general-cohort-25-3-newsbrief)third-derivative.orgUsed on: The heat economy: money and support
-
-- [Original company history/profile &nbsp;](https://sundanzer.com/about/)sundanzer.comUsed on: The heat economy: businesses
-
-- [Original company history/profile &nbsp;](https://www.linkedin.com/company/epicore-biosystems)linkedin.comUsed on: The heat economy: businesses
-
-- [Original company history/profile &nbsp;](https://www.linkedin.com/company/tsiincorporated)linkedin.comUsed on: The heat economy: businesses
-
-- [Original company history/profile &nbsp;](https://xdi.systems/about-us)xdi.systemsUsed on: The heat economy: businesses
-
-- [Original company history/profile &nbsp;](https://dulas.org.uk/about/)dulas.org.ukUsed on: The heat economy: businesses
-
-- [Original company history/profile &nbsp;](https://bbp.sg/about-us/)bbp.sgUsed on: The heat economy: businesses
-
-- [Original company history/profile &nbsp;](https://www.linkedin.com/company/sensorflow/)linkedin.comUsed on: The heat economy: businesses
-
-- [Original company history/profile &nbsp;](https://fr.linkedin.com/company/axaclimate)fr.linkedin.comUsed on: The heat economy: businesses
-
-- [Original company history/profile &nbsp;](https://www.icicilombard.com/about-us)icicilombard.comUsed on: The heat economy: businesses
-
-- [Original company history/profile &nbsp;](https://www.linkedin.com/company/swiss-re/)linkedin.comUsed on: The heat economy: businesses
-
-- [Pale blue dot &nbsp;](https://www.paleblue.vc/)paleblue.vcUsed on: The heat economy: money and support
-
-- [PIDG / InfraCo (formerly InfraCo Africa) &nbsp;](https://pidg.org/)pidg.orgUsed on: The heat economy: money and support
-
-- [PLUSS Advanced Technologies &nbsp;](https://www.ifc.org/content/dam/ifc/doc/2026/tech-emerge-results-and-lessons.pdf)ifc.orgUsed on: The heat economy: money and support · The heat economy: what makes markets work
-
-- [Powering Livelihoods &nbsp;](https://villgro.org/programs/powering-livelihoods/)villgro.orgUsed on: The heat economy: money and support · The heat economy: what could come up
-
-- [Prime Coalition / Prime Impact Fund route &nbsp;](https://www.primecoalition.org/)primecoalition.orgUsed on: The heat economy: money and support
-
-- [Raintree Family Office &nbsp;](https://theraintree.co.in/)theraintree.co.inUsed on: The heat economy: money and support
-
-- [Resilience AI &nbsp;](https://resilience360.ai/)resilience360.aiUsed on: The heat economy: money and support
-
-- [Rising Above the Heat: Innovative Cooling Solutions for Rural Women in Asia &nbsp;](https://challenges.adb.org/en/challenges/genderandheat)challenges.adb.orgUsed on: The heat economy: money and support
-
-- [Telangana building-permission orders &nbsp;](https://tgbpass.telangana.gov.in/others/rules)tgbpass.telangana.gov.inUsed on: The heat economy: what makes markets work
-
-- [Thailand NESDC Bangkok heat action planning &nbsp;](https://sdgs.nesdc.go.th/en/urban-heat-transforming-bangkok-into-a-cooler-city-for-sustainable-heat-management/)sdgs.nesdc.go.thUsed on: The heat economy: what makes markets work
-
-- [GGGI account of forthcoming NAP and financing preparation &nbsp;](https://gggi.org/sri-lanka-lays-the-groundwork-for-investment-ready-climate-action-with-new-national-adaptation-plan/)gggi.orgUsed on: Sri Lanka snapshot
-
-- [GIZ Proklima / Green Cooling Initiative &nbsp;](https://www.green-cooling-initiative.org/)green-cooling-initiative.orgUsed on: Thailand snapshot
-
-- [Government account of Bangkok cooling centres &nbsp;](https://thailand.go.th/issue-focus-detail/bangkok-launches-304-cooling-centers-to-combat-extreme-heat?hl=en)thailand.go.thUsed on: Thailand snapshot
-
 - [Gush films - original source &nbsp;](https://gush.earth/pages/faq)gush.earthUsed on: The heat economy: businesses
+
+- [GV &nbsp;](https://www.gv.com/)gv.comUsed on: The heat economy: money and support
 
 - [Health decree current legal register &nbsp;](https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes7772025)jdih.kemkes.go.idUsed on: Indonesia snapshot
 
@@ -1782,13 +1708,27 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [Hess et al.: Ahmedabad HAP mortality analysis &nbsp;](https://pubmed.ncbi.nlm.nih.gov/30515228/)pubmed.ncbi.nlm.nih.govUsed on: India snapshot
 
+- [Hivos-Triodos Fonds (Triodos Investment Management) &nbsp;](https://www.triodos-im.com/)triodos-im.comUsed on: The heat economy: money and support
+
 - [HomeNet Thailand &nbsp;](https://www.homenetthailand.org/)homenetthailand.orgUsed on: Thailand snapshot
 
 - [Hot-day, hot-night and compound-event trends in Thailand &nbsp;](https://he01.tci-thaijo.org/index.php/AIHD-MU/article/view/279655)he01.tci-thaijo.orgUsed on: Thailand snapshot
 
 - [Hot Take: Cool Roofs - Ahmedabad women workers &nbsp;](https://www.mahilahousingtrust.org/wp-content/uploads/2024/04/Hot-Take-Cool-Roof-Research-Study-Report-2024.pdf)mahilahousingtrust.orgUsed on: India snapshot
 
+- [Howden Foundation &nbsp;](https://www.howdengroupholdings.com/insights/pioneering-initiative-protects-women-workers-in-india-during-record-breaking-heatwave)howdengroupholdings.comUsed on: The heat economy: money and support
+
+- [Humanity Insured &nbsp;](https://humanityinsured.org/wp-content/uploads/2025/12/Building-Resilience-through-Protection-Humanity-Insured-Learning-Report-2025.pdf)humanityinsured.orgUsed on: The heat economy: money and support
+
+- [IBISA heat - original source &nbsp;](https://www.ibisa.network/en/blog/ushma-kavach-a-climate-resilient-shield-for-indias-dairy-farmers)ibisa.networkUsed on: The heat economy: businesses
+
 - [ICICI Lombard ESG report FY2025: Heat Index Cover case study &nbsp;](https://www.icicilombard.com/docs/default-source/esg/icici-lombard-esg-report-fy2025.pdf)icicilombard.comUsed on: India snapshot · The heat economy: businesses
+
+- [Telangana building-permission orders &nbsp;](https://tgbpass.telangana.gov.in/others/rules)tgbpass.telangana.gov.inUsed on: The heat economy: what makes markets work
+
+- [Thailand NESDC Bangkok heat action planning &nbsp;](https://sdgs.nesdc.go.th/en/urban-heat-transforming-bangkok-into-a-cooler-city-for-sustainable-heat-management/)sdgs.nesdc.go.thUsed on: The heat economy: what makes markets work
+
+- [IFRC-DREF &nbsp;](https://www.ifrc.org/happening-now/emergencies/anticipatory-pillar-dref)ifrc.orgUsed on: The heat economy: money and support
 
 - [IFRC Philippines mid-year report 2025 &nbsp;](https://go-api.ifrc.org/api/downloadfile/90159/Philippines_INP_MYR_2025)go-api.ifrc.orgUsed on: Philippines snapshot
 
@@ -1804,6 +1744,8 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [IMD heat-wave FAQ &nbsp;](https://mausam.imd.gov.in/pdfs/heatcolduser/FAQ_heat_wave.pdf)mausam.imd.gov.inUsed on: India snapshot
 
+- [Impact Fund Denmark (formerly IFU) &nbsp;](https://impactfund.dk/)impactfund.dkUsed on: The heat economy: money and support
+
 - [Indonesia ESCO and on-bill-finance readiness study &nbsp;](https://www.international-climate-initiative.com/fileadmin/iki/Dokumente/Publikationen/Projekte/23_I_494/20260311_ESCO-Market-Assessment-and-On-Bill-Financing-Readiness-Study-Indonesia_Country_Report-1.pdf)international-climate-initiative.comUsed on: Indonesia snapshot
 
 - [Indonesia heat-risk communication note &nbsp;](https://preparecenter.org/wp-content/uploads/2026/04/RCCC_Indonesia_BCC-Guidance-Note_v1.pdf)preparecenter.orgUsed on: Indonesia snapshot
@@ -1811,6 +1753,8 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 - [Indonesia National Cooling Action Plan &nbsp;](https://repository.unescap.org/items/92f8d947-0076-4c72-be50-fd9e3a472ec1/full)repository.unescap.orgUsed on: Indonesia snapshot
 
 - [International Federation of Red Cross and Red Crescent Societies &nbsp;](https://www.ifrc.org/)ifrc.orgUsed on: Nepal snapshot · Philippines snapshot
+
+- [International Finance Corporation &nbsp;](https://www.ifc.org/)ifc.orgUsed on: The heat economy: money and support
 
 - [Jakarta heat-health workforce training &nbsp;](https://dinkes.jakarta.go.id/berita/read/dinas-kesehatan-provinsi-dki-jakarta-bersama-bappeda-dan-c40-cities-gelar-workshop-tenaga-kesehataninisiatif-ketahanan-panas-dan-kesehatan-jakarta)dinkes.jakarta.go.idUsed on: Indonesia snapshot
 
@@ -1820,9 +1764,15 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [KATALIS-HEAT launch &nbsp;](https://www.who.int/japan/news/feature-stories/detail/indonesia-launches-katalis-heat-to-understand-and-address-the-health-impacts-of-extreme-heat)who.intUsed on: Indonesia snapshot
 
+- [Keep Cool Innovation Challenge &nbsp;](https://www.wri.org/initiatives/keep-cool-innovation-challenge-cool-solutions-warming-world)wri.orgUsed on: The heat economy: money and support · The heat economy: what could come up
+
 - [Kigali approval Presidential Regulation 129/2022 &nbsp;](https://peraturan.bpk.go.id/Details/230496/perpres-no-129-tahun-2022)peraturan.bpk.go.idUsed on: Indonesia snapshot
 
 - [Komunidad Global Pte. Ltd. &nbsp;](https://www.komunidad.global/)komunidad.globalUsed on: Philippines snapshot
+
+- [Krosslinker &nbsp;](https://temasekfoundation.org.sg/news/media-releases/the-liveability-challenge-2025-grand-finale)temasekfoundation.org.sgUsed on: The heat economy: money and support
+
+- [The Liveability Challenge - Cool Earth and cooling participants &nbsp;](https://www.theliveabilitychallenge.org/)theliveabilitychallenge.orgUsed on: The heat economy: money and support
 
 - [Mahidol University - occupational/public-health researchers &nbsp;](https://www.mahidol.ac.th/)mahidol.ac.thUsed on: Thailand snapshot
 
@@ -1833,6 +1783,8 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 - [Medan government heat-programme account &nbsp;](https://portal.medan.go.id/berita/pmi-medan-dan-palang-merah-amerika-paparkan-program-ketahanan-panas-kepada-pemko-medan__read6017.html)portal.medan.go.idUsed on: Indonesia snapshot
 
 - [Meeting with Colombo Municipal Council on gender-sensitive heat plans &nbsp;](https://www.apn-gcr.org/wp-content/uploads/2023/06/Proceedings-of-Integrating-Heat-Stress-Management-into-Climate-Policies-and-Guidelines-for-Gender-Sensitive-Heat-Action-Plans-in-Sri-Lanka-Meeting-with-Colombo-Municipal-Council-7-October-2022.pdf)apn-gcr.orgUsed on: Sri Lanka snapshot
+
+- [Mela Ventures &nbsp;](https://melaventures.in/)melaventures.inUsed on: The heat economy: money and support
 
 - [Mercy Corps Nepal &nbsp;](https://www.mercycorps.org/)mercycorps.orgUsed on: Nepal snapshot
 
@@ -1854,7 +1806,15 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [Mitigation Action Facility (formerly NAMA Facility) &nbsp;](https://mitigation-action.org/)mitigation-action.orgUsed on: Thailand snapshot
 
+- [Modern Niagara &nbsp;](https://modernniagara.com/)modernniagara.comUsed on: The heat economy: money and support
+
+- [MPower Partners &nbsp;](https://www.mpower-partners.com/)mpower-partners.comUsed on: The heat economy: money and support
+
 - [Mumbai building-sector heat-risk implementation pathways: summary &nbsp;](https://portal.mcgm.gov.in/irj/go/km/docs/documents/Environment/Climate/Mumbai%20Heat%20Risk-%20Summary.pdf)portal.mcgm.gov.inUsed on: India snapshot
+
+- [N47 (named Next47 in 2025 release) &nbsp;](https://www.n47.com/)n47.comUsed on: The heat economy: money and support
+
+- [NABVENTURES &nbsp;](https://nabventures.in/)nabventures.inUsed on: The heat economy: money and support
 
 - [National Cooling Policy - ministry draft &nbsp;](https://env.gov.lk/web/images/news/NCP_final_draft.pdf)env.gov.lkUsed on: Sri Lanka snapshot
 
@@ -1863,6 +1823,8 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 - [National green-building assessment regulation &nbsp;](https://peraturan.bpk.go.id/Details/217002/permen-pupr-no-21-tahun-2021)peraturan.bpk.go.idUsed on: Indonesia snapshot
 
 - [National Health Policy Review 2022 - climate-change focal point &nbsp;](https://www.health.gov.lk/wp-content/uploads/2022/08/National-Health-Policy-Review-2022-compressed.pdf)health.gov.lkUsed on: Sri Lanka snapshot
+
+- [Nature for Cooling Challenge &nbsp;](https://coolcoalition.org/projects/nature-cooling-challenge)coolcoalition.orgUsed on: The heat economy: money and support · The heat economy: what could come up
 
 - [NCDC advisory for State Health Departments, summer 2026 &nbsp;](https://ncdc.mohfw.gov.in/uploads/pdf/1.%20Heat%20wave%20advisory%20for%20State%20Health%20department_2026.pdf)ncdc.mohfw.gov.inUsed on: India snapshot
 
@@ -1876,11 +1838,17 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [Nippon Walltron Cool Roof TDS - original source &nbsp;](https://nipponpaint.co.in/wp-content/uploads/2024/10/nippon-paint-walltron-cool-poof-TDS_compressed.pdf)nipponpaint.co.inUsed on: The heat economy: businesses
 
+- [Northern Arizona University - Floe SmartFan &nbsp;](https://10across.org/release-asus-ten-across-initiative-announces-the-10x-grand-prize-finalists-and-peoples-choice-award-winners/)10across.orgUsed on: The heat economy: money and support
+
 - [NPCCHH district PIP guidance, FY2026–27 and FY2027–28 &nbsp;](https://ncdc.mohfw.gov.in/uploads/pdf/1-NPCCHH-PIP%20Guidance%20document%202026-27%20%202027-28.pdf)ncdc.mohfw.gov.inUsed on: India snapshot
+
+- [Nuveen &nbsp;](https://www.nuveen.com/)nuveen.comUsed on: The heat economy: money and support
 
 - [Occupational heat standard and worker strain study &nbsp;](https://pubmed.ncbi.nlm.nih.gov/33732537/)pubmed.ncbi.nlm.nih.govUsed on: Thailand snapshot
 
 - [Occupational Safety, Health and Working Conditions (Central) Rules 2026 &nbsp;](https://www.labour.gov.in/static/uploads/2026/05/ee246f790cad0b8e99c3828f34fa09a6.pdf)labour.gov.inUsed on: India snapshot
+
+- [Octolife &nbsp;](https://www.third-derivative.org/blog/d3-incoming-general-cohort-25-3-newsbrief)third-derivative.orgUsed on: The heat economy: money and support
 
 - [Odisha State Action Plan on Climate Change and Human Health &nbsp;](https://ncdc.mohfw.gov.in/uploads/pdf/state22.pdf)ncdc.mohfw.gov.inUsed on: India snapshot
 
@@ -1940,6 +1908,26 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [Original company history/profile &nbsp;](https://sokofresh.co.ke/sokofresh-home/about-us/)sokofresh.co.keUsed on: The heat economy: businesses
 
+- [Original company history/profile &nbsp;](https://sundanzer.com/about/)sundanzer.comUsed on: The heat economy: businesses
+
+- [Original company history/profile &nbsp;](https://www.linkedin.com/company/epicore-biosystems)linkedin.comUsed on: The heat economy: businesses
+
+- [Original company history/profile &nbsp;](https://www.linkedin.com/company/tsiincorporated)linkedin.comUsed on: The heat economy: businesses
+
+- [Original company history/profile &nbsp;](https://xdi.systems/about-us)xdi.systemsUsed on: The heat economy: businesses
+
+- [Original company history/profile &nbsp;](https://dulas.org.uk/about/)dulas.org.ukUsed on: The heat economy: businesses
+
+- [Original company history/profile &nbsp;](https://bbp.sg/about-us/)bbp.sgUsed on: The heat economy: businesses
+
+- [Original company history/profile &nbsp;](https://www.linkedin.com/company/sensorflow/)linkedin.comUsed on: The heat economy: businesses
+
+- [Original company history/profile &nbsp;](https://fr.linkedin.com/company/axaclimate)fr.linkedin.comUsed on: The heat economy: businesses
+
+- [Original company history/profile &nbsp;](https://www.icicilombard.com/about-us)icicilombard.comUsed on: The heat economy: businesses
+
+- [Original company history/profile &nbsp;](https://www.linkedin.com/company/swiss-re/)linkedin.comUsed on: The heat economy: businesses
+
 - [Ozone Cell: India Cooling Action Plan and implementation reports &nbsp;](https://ozonecell.nic.in/home-page/india-cooling-action-plan/)ozonecell.nic.inUsed on: India snapshot · The heat economy: what makes markets work
 
 - [PAGASA climate of the Philippines &nbsp;](https://www.pagasa.dost.gov.ph/information/climate-philippines)pagasa.dost.gov.phUsed on: Philippines snapshot
@@ -1949,6 +1937,8 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 - [PAGASA heat-index climate forum presentation &nbsp;](https://pubfiles.pagasa.dost.gov.ph/climps/climateforum/special_lecture.pdf)pubfiles.pagasa.dost.gov.phUsed on: Philippines snapshot
 
 - [Palang Merah Indonesia (PMI), including Medan and Surabaya branches &nbsp;](https://pmi.or.id/)pmi.or.idUsed on: Indonesia snapshot
+
+- [Pale blue dot &nbsp;](https://www.paleblue.vc/)paleblue.vcUsed on: The heat economy: money and support
 
 - [Pantau Panas Jakarta &nbsp;](https://pantaupanasjakarta.id/id)pantaupanasjakarta.idUsed on: Indonesia snapshot
 
@@ -1974,11 +1964,19 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 
 - [PhilSA HEATMAP-PH project &nbsp;](https://www.spaceclimateobservatory.org/heatmap-ph)spaceclimateobservatory.orgUsed on: Philippines snapshot
 
+- [PIDG / InfraCo (formerly InfraCo Africa) &nbsp;](https://pidg.org/)pidg.orgUsed on: The heat economy: money and support
+
+- [PLUSS Advanced Technologies &nbsp;](https://www.ifc.org/content/dam/ifc/doc/2026/tech-emerge-results-and-lessons.pdf)ifc.orgUsed on: The heat economy: money and support · The heat economy: what makes markets work
+
 - [PMAP circulation of DOLE signed advisory 20-2026 &nbsp;](https://pmap.org.ph/circular-no-2026-070-labor-advisory-no-20-series-of-2026-guidelines-on-the-prevention-and-management-of-heat-stress-during-el-nino-and-other-periods-of-extreme-heat/)pmap.org.phUsed on: Philippines snapshot
+
+- [Powering Livelihoods &nbsp;](https://villgro.org/programs/powering-livelihoods/)villgro.orgUsed on: The heat economy: money and support · The heat economy: what could come up
 
 - [Practical Action Nepal &nbsp;](https://practicalaction.org/)practicalaction.orgUsed on: Nepal snapshot
 
 - [Prerana &nbsp;](https://prerana.org.np/)prerana.org.npUsed on: Nepal snapshot
+
+- [Prime Coalition / Prime Impact Fund route &nbsp;](https://www.primecoalition.org/)primecoalition.orgUsed on: The heat economy: money and support
 
 - [QC Green Building Code launch &nbsp;](https://quezoncity.gov.ph/quezon-city-launches-landmark-green-building-code-to-accelerate-climate-action/)quezoncity.gov.phUsed on: Philippines snapshot
 
@@ -1987,6 +1985,8 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 - [RAC NAMA fund mechanism factsheet &nbsp;](https://www.giz.de/de/downloads/RAC%20NAMA%20fund_FINAL.pdf)giz.deUsed on: Thailand snapshot
 
 - [RAC NAMA Thailand project history &nbsp;](https://www.green-cooling-initiative.org/about-us/our-projects/rac-nama-thailand)green-cooling-initiative.orgUsed on: Thailand snapshot
+
+- [Raintree Family Office &nbsp;](https://theraintree.co.in/)theraintree.co.inUsed on: The heat economy: money and support
 
 - [Ramkhamhaeng University - regional climate/renewable energy research centre &nbsp;](https://www.ru.ac.th/)ru.ac.thUsed on: Thailand snapshot
 
@@ -2001,6 +2001,10 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 - [Republic Act 10121, disaster management law &nbsp;](https://lawphil.net/statutes/repacts/ra2010/ra_10121_2010.html)lawphil.netUsed on: Philippines snapshot
 
 - [Republic Act 11058, occupational safety and health &nbsp;](https://lawphil.net/statutes/repacts/ra2018/ra_11058_2018.html)lawphil.netUsed on: Philippines snapshot
+
+- [Resilience AI &nbsp;](https://resilience360.ai/)resilience360.aiUsed on: The heat economy: money and support
+
+- [Rising Above the Heat: Innovative Cooling Solutions for Rural Women in Asia &nbsp;](https://challenges.adb.org/en/challenges/genderandheat)challenges.adb.orgUsed on: The heat economy: money and support
 
 - [The Rockefeller Foundation &nbsp;](https://www.rockefellerfoundation.org/)rockefellerfoundation.orgUsed on: Indonesia snapshot
 
@@ -2075,8 +2079,6 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 - [Source &nbsp;](https://www.ecozensolutions.com/news/climate-smart-deep-tech-company-ecozen-raises-25-million.html)ecozensolutions.comUsed on: The heat economy: money and support
 
 - [Source &nbsp;](https://impactfund.dk/wp-content/uploads/2024/05/final-interactive-ar-2023.pdf)impactfund.dkUsed on: The heat economy: money and support
-
-- [Source &nbsp;](https://www.thegef.org/projects-operations/projects/10370)thegef.orgUsed on: The heat economy: money and support
 
 - [Sri Lanka Disaster Management Act No.13 of 2005 &nbsp;](https://www.dmc.gov.lk/images/DM_Act_English.pdf)dmc.gov.lkUsed on: Sri Lanka snapshot
 
@@ -2789,8 +2791,6 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 - [Dhaka hospital records, PLOS Global Public Health, 2024: heatwaves and diarrhoea admissions in children under 5](https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0003629)journals.plos.orgUsed on: The web · Who heat hits hardest
 
 - [Dhangadhi Heat Action Plan 2025 &nbsp;](https://www.climatecentre.org/wp-content/uploads/Dhangadhi-Heat-Action-Plan-2025.pdf)climatecentre.orgUsed on: Nepal snapshot · Solutions library
-
-- [Dhangadhi plan release and community research account &nbsp;](https://www.climatecentre.org/15480/heat-action-day-2025-red-cross-assists-another-nepalese-city-with-action-plan/)climatecentre.orgUsed on: Nepal snapshot
 
 - [Dhangadhi Sub-Metropolitan City](https://dhangadhimun.gov.np)dhangadhimun.gov.npUsed on: Nepal snapshot · The heat network
 
@@ -3559,6 +3559,8 @@ Papers, reports, guidance, news and datasets cited as evidence anywhere on the s
 - [Orissa Post, 2024: heat cut showroom footfall](https://www.orissapost.com/passenger-vehicle-retail-sales-dip-7-in-june-as-heatwave-curtails-showroom-visits/amp/)orissapost.comUsed on: Actions · The web
 
 - [Ouachita Electric CEO testimony, Missouri Public Service Commission &nbsp;](https://efis.psc.mo.gov/Document/Display/65703)efis.psc.mo.govUsed on: Solutions library
+
+- [Oxfam America, Politics of Poverty, 2026: the unequal burden of extreme heat at work](https://politicsofpoverty.oxfamamerica.org/the-unequal-burden-of-extreme-heat-at-work/)politicsofpoverty.oxfamamerica.orgUsed on: Actions
 
 - [PAGASA heat guidance and monitoring release &nbsp;](https://www.pagasa.dost.gov.ph/press-release/174)pagasa.dost.gov.phUsed on: Philippines snapshot · The heat network
 
