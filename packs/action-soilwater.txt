@@ -1,5 +1,5 @@
 Common Shade evidence pack: Keep water in the soil
-Action · https://beattheheat.asia/actions/#soilwater · built 2026-11-16
+Action · https://beattheheat.asia/actions/#soilwater · built 2026-11-17
 Licence: CC BY 4.0. Credit Common Shade and link to beattheheat.asia; cite each figure's original source too.
 
 HOW TO USE THIS PACK
@@ -34,3 +34,4 @@ SOURCES
 SOURCES FOR THE CYCLES IT COULD HELP INTERRUPT
 - Seneviratne et al., Earth-Science Reviews, 2010: https://doi.org/10.1016/j.earscirev.2010.02.004
 - Ghatak et al., 2017: the role of local heating in the 2015 Indian heat wave (NASA abstract): https://ntrs.nasa.gov/citations/20180003614
+- Aftab, Hagan et al., Earth System Science Data, 2026: a daily global data set and event catalogue for compound dry-hot extremes, 1961-2023 (open access): https://doi.org/10.5194/essd-18-7981-2026

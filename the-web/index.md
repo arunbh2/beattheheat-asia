@@ -1,7 +1,7 @@
 ---
 title: "The web of extreme heat: every consequence, system by system | Common Shade"
 url: https://beattheheat.asia/the-web/
-updated: 2026-11-16
+updated: 2026-11-17
 licence: CC BY 4.0
 ---
 
@@ -73,11 +73,11 @@ Sources: [Hammond et al., Nature Communications, 2022: a hotter-drought fingerpr
 
 ### Drying soils
 
-Heat pulls moisture from the ground when crops and plants need it most. In India's 2015 heatwave, drying soils and the heat they gave off added to the second peak of the heat, though not the first.
+Heat pulls moisture from the ground when crops and plants need it most. In India's 2015 heatwave, drying soils and the heat they gave off added to the second peak of the heat, though not the first. Dry soils and extreme heat are also arriving together more often: a daily global estimate for 1961 to 2023 finds such compound events more frequent since 2000 in several hotspot regions, rising faster than either alone would suggest. In China's Yangtze River Basin, the median count per grid square rose from 10 events in 1961-1999 to 21 in 2000-2023. The estimate comes from reanalysis and leaves out irrigation.
 
 Leads to: Failing harvests (Moisture vanishes just when crops need it most.); Extreme heat (Dry soil can’t cool itself by evaporation, so more of the sun’s energy becomes heat.)
 
-Sources: [Seneviratne et al., Earth-Science Reviews, 2010](https://doi.org/10.1016/j.earscirev.2010.02.004) · [Ghatak et al., 2017: the role of local heating in the 2015 Indian heat wave (NASA abstract)](https://ntrs.nasa.gov/citations/20180003614)
+Sources: [Seneviratne et al., Earth-Science Reviews, 2010](https://doi.org/10.1016/j.earscirev.2010.02.004) · [Ghatak et al., 2017: the role of local heating in the 2015 Indian heat wave (NASA abstract)](https://ntrs.nasa.gov/citations/20180003614) · [Aftab, Hagan et al., Earth System Science Data, 2026: a daily global data set and event catalogue for compound dry-hot extremes, 1961-2023 (open access)](https://doi.org/10.5194/essd-18-7981-2026)
 
 [See it on the map](https://beattheheat.asia/#drysoil)
 

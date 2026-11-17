@@ -1,0 +1,32 @@
+[
+ {
+  "id": "src-cdh-essd-pdf",
+  "type": "source",
+  "keys": [
+   "essd-pdf"
+  ],
+  "title": "The Standardized Soil Moisture-Temperature Compound Index (SSTCI): daily scale global data set and event catalogue for compound dry-hot extremes (1961-2023)",
+  "publisher": "Earth System Science Data (Copernicus), open access",
+  "year": 2026,
+  "url": "https://essd.copernicus.org/articles/18/7981/2026/essd-18-7981-2026.pdf",
+  "kind": "Peer-reviewed data set paper (open-access full text)",
+  "where": "Global land",
+  "expect": [
+   "Standardized Soil Moisture-Temperature Compound Index",
+   "Compound dry-hot extremes",
+   "recent warming period",
+   "joint occurrence rises faster than the independent combination",
+   "Yangtze River Basin",
+   "increasing from 10 to 21 events",
+   "reanalysis",
+   "explicit irrigation scheme"
+  ],
+  "claims": [
+   "c-together",
+   "c-yangtze",
+   "c-limit"
+  ],
+  "note": "Staged from the compound dry-hot extremes data set batch to check the page opens and holds these terms before any page change rests on it. Not published from the inbox.",
+  "archive": "https://web.archive.org/web/20261117004136/https://essd.copernicus.org/articles/18/7981/2026/essd-18-7981-2026.pdf"
+ }
+]

@@ -43,7 +43,7 @@
     "id": "drysoil",
     "sys": "nature",
     "label": "Drying\nsoils",
-    "desc": "Heat pulls moisture from the ground when crops and plants need it most. In India's 2015 heatwave, drying soils and the heat they gave off added to the second peak of the heat, though not the first.",
+    "desc": "Heat pulls moisture from the ground when crops and plants need it most. In India's 2015 heatwave, drying soils and the heat they gave off added to the second peak of the heat, though not the first. Dry soils and extreme heat are also arriving together more often: a daily global estimate for 1961 to 2023 finds such compound events more frequent since 2000 in several hotspot regions, rising faster than either alone would suggest. In China's Yangtze River Basin, the median count per grid square rose from 10 events in 1961-1999 to 21 in 2000-2023. The estimate comes from reanalysis and leaves out irrigation.",
     "sources": [
       {
         "label": "Seneviratne et al., Earth-Science Reviews, 2010",
@@ -52,6 +52,10 @@
       {
         "label": "Ghatak et al., 2017: the role of local heating in the 2015 Indian heat wave (NASA abstract)",
         "url": "https://ntrs.nasa.gov/citations/20180003614"
+      },
+      {
+        "label": "Aftab, Hagan et al., Earth System Science Data, 2026: a daily global data set and event catalogue for compound dry-hot extremes, 1961-2023 (open access)",
+        "url": "https://doi.org/10.5194/essd-18-7981-2026"
       }
     ]
   },
